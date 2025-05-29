@@ -2,17 +2,17 @@
 title: ThemeColor Enum
 linktitle: ThemeColor
 articleTitle: ThemeColor
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Themes.ThemeColor Sıralama. Belge temaları için tema renklerini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belge temalarınızı canlı renklerle özelleştirmek, belgenizin görsel çekiciliğini ve profesyonelliğini artırmak için Aspose.Words ThemeColor numaralandırmasını keşfedin.
 type: docs
-weight: 6470
+weight: 7320
 url: /tr/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
 Belge temaları için tema renklerini belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışmak](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Stiller ve Temalarla Çalışma](https://docs.aspose.com/words/net/working-with-styles-and-themes/) belgeleme makalesi.
 
 ```csharp
 public enum ThemeColor
@@ -34,15 +34,15 @@ public enum ThemeColor
 | Accent5 | `8` | Vurgu rengi 5. |
 | Accent6 | `9` | Vurgu rengi 6. |
 | Hyperlink | `10` | Köprü rengi. |
-| FollowedHyperlink | `11` | Takip edilen köprü rengi. |
+| FollowedHyperlink | `11` | Köprü metni rengini takip etti. |
 | Text1 | `12` | Metin rengi 1. |
 | Text2 | `13` | Metin rengi 2. |
-| Background1 | `14` | Arka plan rengi 1. |
-| Background2 | `15` | Arka plan rengi 2. |
+| Background1 | `14` | Arkaplan rengi 1. |
+| Background2 | `15` | Arkaplan rengi 2. |
 
 ## Notlar
 
-Belirtilen tema rengi, renk bilgilerinin belgede merkezi olarak ayarlanmasına olanak tanıyan belgenin Tema bölümünde bulunan önceden tanımlanmış tema renklerinden birine referanstır.
+Belirtilen tema rengi, belgesinin Tema bölümünde bulunan önceden tanımlanmış tema renklerinden birine referanstır ve renk bilgilerinin belgede merkezi olarak ayarlanmasına olanak tanır.
 
 ## Örnekler
 
@@ -54,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Tema yazı tipi özellikleriyle bir stil oluşturun.
+// Tema yazı tipi özellikleriyle biraz stil yaratın.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -64,12 +64,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
+Tema yazı tipleri ve renkleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Varsayılan olarak kullanılan diller için yazı tiplerini tanımlayın.
+// Varsayılan olarak kullanılan diller için yazı tiplerini tanımla.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -77,7 +77,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Varsayılan değerler yerine tema yazı tipi ve rengini kullanabiliriz.
+// Varsayılan değerler yerine temanın yazı tipini ve rengini kullanabiliriz.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -100,7 +100,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Yazı tipini ve rengini sıfırlamanın birkaç yolu vardır.
-// 1 - ThemeFont.None/ThemeColor.None ayarını yaparak:
+// 1 - ThemeFont.None/ThemeColor.None ayarlanarak:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

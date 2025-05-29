@@ -2,10 +2,10 @@
 title: TextBoxAnchor Enum
 linktitle: TextBoxAnchor
 articleTitle: TextBoxAnchor
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.TextBoxAnchor 枚举. 指定用于形状文本垂直对齐的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.TextBoxAnchor 枚举，实现形状文本的精确垂直对齐。轻松增强您的文档格式！
 type: docs
-weight: 1330
+weight: 1740
 url: /zh/net/aspose.words.drawing/textboxanchor/
 ---
 ## TextBoxAnchor enumeration
@@ -21,19 +21,19 @@ public enum TextBoxAnchor
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Top | `0` | 文本与文本框顶部对齐。 |
-| Middle | `1` | 文本与文本框的中间对齐。 |
+| Middle | `1` | 文本与文本框中间对齐。 |
 | Bottom | `2` | 文本与文本框底部对齐。 |
-| TopCentered | `3` | 文本与文本框的顶部中心对齐。 |
-| MiddleCentered | `4` | 文本与文本框的中间居中对齐。 |
-| BottomCentered | `5` | 文本与文本框底部居中对齐。 |
+| TopCentered | `3` | 文本与文本框的顶部居中对齐。 |
+| MiddleCentered | `4` | 文本与文本框的中间对齐。 |
+| BottomCentered | `5` | 文本与文本框底部中心对齐。 |
 | TopBaseline | `6` | 文本与文本框的顶部基线对齐。 |
 | BottomBaseline | `7` | 文本与文本框的底部基线对齐。 |
-| TopCenteredBaseline | `8` | 文本与文本框顶部居中的基线对齐。 |
-| BottomCenteredBaseline | `9` | 文本与文本框底部居中的基线对齐。 |
+| TopCenteredBaseline | `8` | 文本与文本框的顶部居中基线对齐。 |
+| BottomCenteredBaseline | `9` | 文本与文本框底部居中基线对齐。 |
 
 ## 例子
 
-演示如何垂直对齐文本框的文本内容。
+展示如何垂直对齐文本框的文本内容。
 
 ```csharp
 Document doc = new Document();
@@ -52,7 +52,7 @@ shape.TextBox.VerticalAnchor = verticalAnchor;
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// 从 Microsoft Word 2007 开始，文本框中文本的垂直对齐功能可用。
+// 从 Microsoft Word 2007 开始，文本框内的文本可以垂直对齐。
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```

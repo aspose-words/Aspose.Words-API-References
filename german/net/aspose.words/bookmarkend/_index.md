@@ -3,9 +3,9 @@ title: BookmarkEnd Class
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words für .NET
-description: Aspose.Words.BookmarkEnd klas. Stellt das Ende eines Lesezeichens in einem WordDokument dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.BookmarkEnd, die Lesezeichenenden in Word-Dokumenten effizient verwaltet und so Ihr Dokumentbearbeitungserlebnis verbessert.
 type: docs
-weight: 60
+weight: 250
 url: /de/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
@@ -22,7 +22,7 @@ public class BookmarkEnd : Node
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initialisiert eine neue Instanz von`BookmarkEnd` Klasse. |
+| [BookmarkEnd](bookmarkend/)(*[DocumentBase](../documentbase/), string*) | Initialisiert eine neue Instanz des`BookmarkEnd` Klasse. |
 
 ## Eigenschaften
 
@@ -30,45 +30,45 @@ public class BookmarkEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Rückgaben`WAHR` wenn dieser Knoten andere Knoten enthalten kann. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Ruft den Lesezeichennamen ab oder legt ihn fest. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | Gibt zurückBookmarkEnd . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | RückgabenBookmarkEnd . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorausgeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt einen[`Range`](../range/)Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Nimmt einen Besucher auf. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorgänger des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in eine Zeichenfolge im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in eine Zeichenfolge. |
 
 ## Bemerkungen
 
-Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus a[`BookmarkStart`](../bookmarkstart/) und ein Matching`BookmarkEnd` mit demselben Lesezeichennamen.
+Ein vollständiges Lesezeichen in einem Word-Dokument besteht aus einem[`BookmarkStart`](../bookmarkstart/) und ein passendes`BookmarkEnd` mit demselben Lesezeichennamen.
 
-[`BookmarkStart`](../bookmarkstart/) Und`BookmarkEnd` sind lediglich Markierungen innerhalb eines document , die angeben, wo das Lesezeichen beginnt und endet.
+[`BookmarkStart`](../bookmarkstart/) Und`BookmarkEnd` sind lediglich Markierungen innerhalb eines Dokuments , die angeben, wo das Lesezeichen beginnt und endet.
 
-Benutzen Sie die[`Bookmark`](../bookmark/) Klasse als „Fassade“, um mit einem bookmark als einzelnes Objekt zu arbeiten.
+Verwenden Sie die[`Bookmark`](../bookmark/) Klasse als „Fassade“, um mit einem bookmark als einzelnem Objekt zu arbeiten.
 
 ## Beispiele
 
-Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
+Zeigt, wie Lesezeichen hinzugefügt und deren Inhalte aktualisiert werden.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalte zu drucken.
+    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalt zu drucken.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
@@ -77,7 +77,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Alle Lesezeichen erneut drucken, um aktualisierte Werte anzuzeigen.
+    // Drucken Sie alle Lesezeichen erneut, um die aktualisierten Werte anzuzeigen.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -110,7 +110,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Jedes Lesezeichen in der Sammlung dazu bringen, einen Besucher zu akzeptieren, der seinen Inhalt druckt.
+    // Sorgen Sie dafür, dass jedes Lesezeichen in der Sammlung einen Besucher akzeptiert, der seinen Inhalt druckt.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -129,7 +129,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Gibt den Inhalt jedes besuchten Lesezeichens an die Konsole aus.
+/// Druckt den Inhalt jedes besuchten Lesezeichens auf der Konsole.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -3,7 +3,7 @@ title: ChartXValue.FromDouble
 linktitle: FromDouble
 articleTitle: FromDouble
 second_title: Aspose.Words für .NET
-description: ChartXValue FromDouble methode. Erstellt eineChartXValue Instanz derDouble Typ in C#.
+description: Entdecken Sie die Methode ChartXValue FromDouble, um mühelos ChartXValue-Instanzen vom Typ Double zu erstellen und so Ihre Möglichkeiten zur Datenvisualisierung zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing.charts/chartxvalue/fromdouble/
@@ -22,27 +22,26 @@ Zeigt, wie Diagrammreihen mit Daten gefüllt werden.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder();
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 ChartSeries series1 = chart.Series[0];
 
-// X- und Y-Werte der ersten Serie löschen.
+// X- und Y-Werte der ersten Reihe löschen.
 series1.ClearValues();
 
-// Die Reihe mit Daten füllen.
-series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+// Fülle die Reihe mit Daten.
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
 series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
 series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
-series1.Add(ChartXValue.FromDouble(9), ChartYValue.FromDouble(17));
+series1.Add(ChartXValue.FromDouble(9));
 
 ChartSeries series2 = chart.Series[1];
-
 // X- und Y-Werte der zweiten Reihe löschen.
-series2.ClearValues();
+series2.Clear();
 
-// Die Reihe mit Daten füllen.
+// Fülle die Reihe mit Daten.
 series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
 series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
 series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));

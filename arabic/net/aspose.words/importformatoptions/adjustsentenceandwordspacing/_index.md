@@ -3,14 +3,14 @@ title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
 second_title: Aspose.Words لـ .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing ملكية. الحصول على قيمة منطقية أو تعيينها والتي تحدد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيًا. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية ImportFormatOptions AdjustSentenceAndWordSpacing. تحكم بسهولة في المسافات التلقائية بين الجمل والكلمات لتحسين وضوح النص.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions.AdjustSentenceAndWordSpacing property
 
-الحصول على قيمة منطقية أو تعيينها والتي تحدد ما إذا كان سيتم ضبط تباعد الجملة والكلمات تلقائيًا. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها لتحديد ما إذا كان سيتم تعديل المسافة بين الجمل والكلمات تلقائيًا. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool AdjustSentenceAndWordSpacing { get; set; }
@@ -18,7 +18,7 @@ public bool AdjustSentenceAndWordSpacing { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط تباعد الجملة والكلمات تلقائيًا.
+يوضح كيفية ضبط المسافة بين الجمل والكلمات تلقائيًا.
 
 ```csharp
 Document srcDoc = new Document();

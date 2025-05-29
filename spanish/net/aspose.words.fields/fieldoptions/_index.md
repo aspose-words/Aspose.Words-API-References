@@ -3,16 +3,16 @@ title: FieldOptions Class
 linktitle: FieldOptions
 articleTitle: FieldOptions
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fields.FieldOptions clase. Representa opciones para controlar el manejo de campos en un documento en C#.
+description: Descubra la clase Aspose.Words.Fields.FieldOptions para optimizar el manejo de campos en los documentos, mejorando su flujo de trabajo y la eficiencia de la gestión de documentos.
 type: docs
-weight: 2250
+weight: 2660
 url: /es/net/aspose.words.fields/fieldoptions/
 ---
 ## FieldOptions class
 
 Representa opciones para controlar el manejo de campos en un documento.
 
-Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con campos](https://docs.aspose.com/words/net/working-with-fields/) Artículo de documentación.
 
 ```csharp
 public sealed class FieldOptions
@@ -22,17 +22,17 @@ public sealed class FieldOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Obtiene o configura un generador de código de barras personalizado. |
+| [BarcodeGenerator](../../aspose.words.fields/fieldoptions/barcodegenerator/) { get; set; } | Obtiene o establece un generador de código de barras personalizado. |
 | [BibliographyStylesProvider](../../aspose.words.fields/fieldoptions/bibliographystylesprovider/) { get; set; } | Obtiene o establece un proveedor que devuelve un estilo de bibliografía para el[`FieldBibliography`](../fieldbibliography/) y[`FieldCitation`](../fieldcitation/) campos. |
-| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Obtiene o establece rutas de las plantillas integradas de MS Word. |
+| [BuiltInTemplatesPaths](../../aspose.words.fields/fieldoptions/builtintemplatespaths/) { get; set; } | Obtiene o establece rutas de plantillas integradas de MS Word. |
 | [ComparisonExpressionEvaluator](../../aspose.words.fields/fieldoptions/comparisonexpressionevaluator/) { get; set; } | Obtiene o establece el evaluador de expresiones de comparación de campos. |
 | [CurrentUser](../../aspose.words.fields/fieldoptions/currentuser/) { get; set; } | Obtiene o establece la información del usuario actual. |
-| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | Obtiene o establece un separador de estilo personalizado para el modificador \t[`FieldToc`](../fieldtoc/) campo. |
-| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | Obtiene o establece el nombre del autor del documento predeterminado. Si el nombre del autor ya está especificado en las propiedades integradas del documento, esta opción no se considera. |
+| [CustomTocStyleSeparator](../../aspose.words.fields/fieldoptions/customtocstyleseparator/) { get; set; } | Obtiene o establece un separador de estilo personalizado para el modificador \t en[`FieldToc`](../fieldtoc/) campo. |
+| [DefaultDocumentAuthor](../../aspose.words.fields/fieldoptions/defaultdocumentauthor/) { get; set; } | Obtiene o establece el nombre predeterminado del autor del documento. Si el nombre del autor ya está especificado en las propiedades integradas del documento, esta opción no se considera. |
 | [FieldDatabaseProvider](../../aspose.words.fields/fieldoptions/fielddatabaseprovider/) { get; set; } | Obtiene o establece un proveedor que devuelve un resultado de consulta para el[`FieldDatabase`](../fielddatabase/) campo. |
 | [FieldIndexFormat](../../aspose.words.fields/fieldoptions/fieldindexformat/) { get; set; } | Obtiene o establece un[`FieldIndexFormat`](./fieldindexformat/) que representa el formato para el[`FieldIndex`](../fieldindex/) campos en el documento. |
 | [FieldUpdateCultureProvider](../../aspose.words.fields/fieldoptions/fieldupdatecultureprovider/) { get; set; } | Obtiene o establece un proveedor que devuelve un objeto cultural específico para cada campo en particular. |
-| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Especifica qué cultura usar para formatear el resultado del campo. |
+| [FieldUpdateCultureSource](../../aspose.words.fields/fieldoptions/fieldupdateculturesource/) { get; set; } | Especifica qué cultura utilizar para formatear el resultado del campo. |
 | [FieldUpdatingCallback](../../aspose.words.fields/fieldoptions/fieldupdatingcallback/) { get; set; } | Obtiene o establece[`IFieldUpdatingCallback`](../ifieldupdatingcallback/) implementación |
 | [FieldUpdatingProgressCallback](../../aspose.words.fields/fieldoptions/fieldupdatingprogresscallback/) { get; set; } | Obtiene o establece[`IFieldUpdatingProgressCallback`](../ifieldupdatingprogresscallback/) implementación. |
 | [FileName](../../aspose.words.fields/fieldoptions/filename/) { get; set; } | Obtiene o establece el nombre de archivo del documento. |
@@ -43,37 +43,37 @@ public sealed class FieldOptions
 | [TemplateName](../../aspose.words.fields/fieldoptions/templatename/) { get; set; } | Obtiene o establece el nombre de archivo de la plantilla utilizada por el documento. |
 | [ToaCategories](../../aspose.words.fields/fieldoptions/toacategories/) { get; set; } | Obtiene o establece la tabla de categorías de autoridades. |
 | [UseInvariantCultureNumberFormat](../../aspose.words.fields/fieldoptions/useinvariantculturenumberformat/) { get; set; } | Obtiene o establece el valor que indica que el formato del número se analiza utilizando una cultura invariante o no |
-| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Obtiene o configura el encuestado según las indicaciones del usuario durante la actualización del campo. |
+| [UserPromptRespondent](../../aspose.words.fields/fieldoptions/userpromptrespondent/) { get; set; } | Obtiene o establece el respondedor a las solicitudes del usuario durante la actualización del campo. |
 
 ## Ejemplos
 
-Muestra cómo especificar el origen de la referencia cultural utilizada para el formato de fecha durante una actualización de campo o combinación de correspondencia.
+Muestra cómo especificar la fuente de la cultura utilizada para el formato de fecha durante una actualización de campo o una combinación de correspondencia.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta dos campos combinados con configuración regional alemana.
+// Insertar dos campos de combinación con configuración regional alemana.
 builder.Font.LocaleId = new CultureInfo("de-DE").LCID;
 builder.InsertField("MERGEFIELD Date1 \\@ \"dddd, d MMMM yyyy\"");
 builder.Write(" - ");
 builder.InsertField("MERGEFIELD Date2 \\@ \"dddd, d MMMM yyyy\"");
 
-// Establece la cultura actual en inglés de EE. UU. después de preservar su valor original en una variable.
+// Establezca la cultura actual en inglés de EE. UU. después de conservar su valor original en una variable.
 CultureInfo currentCulture = Thread.CurrentThread.CurrentCulture;
 Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-// Esta combinación utilizará la cultura del hilo actual para formatear la fecha, inglés de EE. UU.
+// Esta fusión utilizará la cultura del hilo actual para formatear la fecha, inglés de EE. UU.
 doc.MailMerge.Execute(new[] { "Date1" }, new object[] { new DateTime(2020, 1, 01) });
 
-// Configure la siguiente combinación para obtener su valor cultural del código de campo. El valor de esa cultura será el alemán.
+// Configurar la siguiente fusión para obtener su valor cultural del código de campo. El valor de esa cultura será alemán.
 doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
 // El primer resultado de la fusión contiene una fecha formateada en inglés, mientras que el segundo está en alemán.
 Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
 
-// Restaura la cultura original del hilo.
+// Restaurar la cultura original del hilo.
 Thread.CurrentThread.CurrentCulture = currentCulture;
 ```
 

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
 second_title: Aspose.Words для .NET
-description: FieldMergeBarcode BarcodeValue свойство. Получает или задает значение штрихкода на С#.
+description: Откройте для себя свойство FieldMergeBarcode BarcodeValue, которое позволяет легко управлять значениями штрихкодов и настраивать их для повышения точности и эффективности данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -18,19 +18,19 @@ public string BarcodeValue { get; set; }
 
 ## Примеры
 
-Показывает, как выполнить объединение писем со штрих-кодами EAN13.
+Показывает, как выполнить слияние писем со штрихкодами EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
-// Это поле преобразует все значения в столбце «MyEAN13Barcode» источника данных слияния в штрих-коды EAN13.
+// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
+// Это поле преобразует все значения в столбце «MyEAN13Barcode» источника объединенных данных в штрихкоды EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
 
-// Отображение числового значения штрих-кода под полосами.
+// Отображаем числовое значение штрих-кода под полосами.
 field.DisplayText = true;
 field.PosCodeStyle = "CASE";
 field.FixCheckDigit = true;
@@ -39,8 +39,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
-// Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
+// Создаем DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
+// Слияние создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
 // который отобразит штрих-код EAN13 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
@@ -59,19 +59,19 @@ Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-Показывает, как выполнить объединение почты по QR-штрих-кодам.
+Показывает, как выполнить слияние писем с QR-штрихкодами.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
-// Это поле преобразует все значения в столбце «MyQRCode» источника данных слияния в QR-коды.
+// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
+// Это поле преобразует все значения в столбце «MyQRCode» источника объединенных данных в QR-коды.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Применяем собственные цвета и масштабирование.
+// Применить пользовательские цвета и масштабирование.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -84,8 +84,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
-// Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
+// Создаем DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
+// Слияние создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
 // который отобразит QR-код со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

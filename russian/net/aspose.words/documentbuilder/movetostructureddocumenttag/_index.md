@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToStructuredDocumentTag
 linktitle: MoveToStructuredDocumentTag
 articleTitle: MoveToStructuredDocumentTag
 second_title: Aspose.Words для .NET
-description: DocumentBuilder MoveToStructuredDocumentTag метод. Перемещает курсор на тег структурированного документа в текущем разделе на С#.
+description: Легко переходите к структурированным тегам документа с помощью метода MoveToStructuredDocumentTag в DocumentBuilder, повышая эффективность редактирования документов.
 type: docs
-weight: 580
+weight: 620
 url: /ru/net/aspose.words/documentbuilder/movetostructureddocumenttag/
 ---
 ## MoveToStructuredDocumentTag(*int, int*) {#movetostructureddocumenttag_1}
 
-Перемещает курсор на тег структурированного документа в текущем разделе.
+Перемещает курсор на структурированный тег документа в текущем разделе.
 
 ```csharp
 public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int characterIndex)
@@ -18,39 +18,39 @@ public void MoveToStructuredDocumentTag(int structuredDocumentTagIndex, int char
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| structuredDocumentTagIndex | Int32 | Индекс тега структурированного документа, к которому необходимо перейти. |
-| characterIndex | Int32 | Индекс символа внутри тега структурированного документа. Отрицательное значение позволяет указать позицию от конца тега структурированного документа. Используйте -1 to для перехода в конец тега структурированного документа. Если тег структурированного документа находится на уровне блока и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
+| structuredDocumentTagIndex | Int32 | Индекс структурированного тега документа, к которому необходимо перейти. |
+| characterIndex | Int32 | Индекс символа внутри структурированного тега документа. Отрицательное значение позволяет указать позицию от конца структурированного тега документа. Используйте -1, чтобы переместиться в конец структурированного тега документа. Если структурированный тег документа находится на уровне блока, и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
 
 ## Примечания
 
-Навигация осуществляется внутри текущей истории текущего раздела. То есть, если вы переместили курсор в основной заголовок первого раздела, то*structuredDocumentTagIndex* указал индекс тега структурированного документа внутри этого заголовка этого раздела.
+Навигация осуществляется внутри текущей истории текущего раздела. То есть, если вы переместили курсор the на основной заголовок первого раздела, то*structuredDocumentTagIndex* указывает индекс структурированного тега документа внутри заголовка данного раздела.
 
-Когда*structuredDocumentTagIndex* больше или равно 0, он указывает index с начала раздела, где 0 является первым тегом структурированного документа. When *structuredDocumentTagIndex* меньше 0, он указывает индекс с конца раздела the , где -1 — это последний тег структурированного документа.
+Когда*structuredDocumentTagIndex* больше или равно 0, он указывает index с начала раздела, где 0 — первый структурированный тег документа. When *structuredDocumentTagIndex*меньше 0, он указывает индекс с конца раздела the , где -1 является последним структурированным тегом документа.
 
 ## Примеры
 
-Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
+Показывает, как перемещать курсор DocumentBuilder внутри структурированного тега документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Существует несколько способов перемещения курсора:
-// 1 - Переход к первому символу тега структурированного документа по индексу.
+// 1 - Перейти к первому символу структурированного тега документа по индексу.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Переход к первому символу тега структурированного документа по объекту.
+// 2 - Перейти к первому символу структурированного тега документа по объекту.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Переход к концу второго тега структурированного документа.
+// 3 — Перейти к концу второго структурированного тега документа.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// Получить текущий выбранный тег структурированного документа.
+// Получить текущий выбранный структурированный тег документа.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");
@@ -75,33 +75,33 @@ public void MoveToStructuredDocumentTag(StructuredDocumentTag structuredDocument
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| structuredDocumentTag | StructuredDocumentTag | Тег структурированного документа, к которому необходимо перейти. |
-| characterIndex | Int32 | Индекс символа внутри тега структурированного документа. Отрицательное значение позволяет указать позицию от конца тега структурированного документа. Используйте -1 to для перехода в конец тега структурированного документа. Если тег структурированного документа находится на уровне блока и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
+| structuredDocumentTag | StructuredDocumentTag | Структурированный тег документа, к которому необходимо перейти. |
+| characterIndex | Int32 | Индекс символа внутри структурированного тега документа. Отрицательное значение позволяет указать позицию от конца структурированного тега документа. Используйте -1, чтобы переместиться в конец структурированного тега документа. Если структурированный тег документа находится на уровне блока, и вы хотите переместить курсор в конец его последнего абзаца, укажите -2. |
 
 ## Примеры
 
-Показывает, как переместить курсор DocumentBuilder внутри тега структурированного документа.
+Показывает, как перемещать курсор DocumentBuilder внутри структурированного тега документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Существует несколько способов перемещения курсора:
-// 1 - Переход к первому символу тега структурированного документа по индексу.
+// 1 - Перейти к первому символу структурированного тега документа по индексу.
 builder.MoveToStructuredDocumentTag(1, 1);
 
-// 2 - Переход к первому символу тега структурированного документа по объекту.
+// 2 - Перейти к первому символу структурированного тега документа по объекту.
 StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.StructuredDocumentTag, 2, true);
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
 Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
 
-// 3 - Переход к концу второго тега структурированного документа.
+// 3 — Перейти к концу второго структурированного тега документа.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);            
+Assert.True(builder.IsAtEndOfStructuredDocumentTag);
 
-// Получить текущий выбранный тег структурированного документа.
+// Получить текущий выбранный структурированный тег документа.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;
 
 doc.Save(ArtifactsDir + "Document.MoveToStructuredDocumentTag.docx");

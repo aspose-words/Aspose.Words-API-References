@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words pour .NET
-description: IFieldUpdatingProgressCallback Notify méthode. Une méthode définie par lutilisateur qui est appelée lors de la modification de la progression de la mise à jour en C#.
+description: Améliorez les performances de votre application avec la méthode IFieldUpdatingProgressCallback Notify, conçue pour suivre et répondre efficacement aux mises à jour de progression.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 ---
 ## IFieldUpdatingProgressCallback.Notify method
 
-Une méthode définie par l'utilisateur qui est appelée lors de la modification de la progression de la mise à jour.
+Une méthode définie par l'utilisateur qui est appelée lorsque la progression de la mise à jour est modifiée.
 
 ```csharp
 public void Notify(FieldUpdatingProgressArgs args)
@@ -18,7 +18,7 @@ public void Notify(FieldUpdatingProgressArgs args)
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

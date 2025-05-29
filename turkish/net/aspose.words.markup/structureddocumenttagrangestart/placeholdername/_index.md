@@ -2,21 +2,25 @@
 title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart PlaceholderName mülk. Adını alır veya ayarlarBuildingBlock yer tutucu metni içerir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin yapı taşı verimliliğini artırarak StructuredDocumentTagRangeStart için PlaceholderName özelliğinin nasıl yönetileceğini keşfedin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Adını alır veya ayarlar[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) yer tutucu metni içerir.
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) bu isimle[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) içinde mevcut olması gerekir[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) aksi takdirdeInvalidOperationException gerçekleşecek.
+Adını alır veya ayarlar[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) yer tutucu metin içeren.
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
+
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| InvalidOperationException | Bu isimde bir BuildingBlock atın[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) içinde mevcut değil[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
 
 ## Örnekler
 

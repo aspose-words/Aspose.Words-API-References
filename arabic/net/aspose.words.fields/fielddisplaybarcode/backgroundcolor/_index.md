@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.BackgroundColor
 linktitle: BackgroundColor
 articleTitle: BackgroundColor
 second_title: Aspose.Words لـ .NET
-description: FieldDisplayBarcode BackgroundColor ملكية. الحصول على أو تعيين لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق 0 0xFFFFFF في C#.
+description: خصّص مظهر رمزك الشريطي باستخدام خاصية FieldDisplayBarcode BackgroundColor. حدّد ألوانًا زاهية لتحسين الرؤية وإظهار العلامة التجارية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fielddisplaybarcode/backgroundcolor/
 ---
 ## FieldDisplayBarcode.BackgroundColor property
 
-الحصول على أو تعيين لون خلفية رمز الباركود. القيم الصالحة موجودة في النطاق [0, 0xFFFFFF]
+يُحدِّد لون خلفية رمز الباركود أو يُحدِّده. القيم الصالحة تتراوح بين [0، 0xFFFFFF]
 
 ```csharp
 public string BackgroundColor { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// فيما يلي أربعة أنواع من الرموز الشريطية، مزينة بطرق مختلفة، والتي يمكن أن يعرضها حقل DISPLAYBARCODE.
-// 1 - رمز QR بألوان مخصصة:
+// فيما يلي أربعة أنواع من الرموز الشريطية، مزينة بطرق مختلفة، والتي يمكن لحقل DISPLAYBARCODE عرضها.
+// 1 - رمز الاستجابة السريعة مع الألوان المخصصة:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - الرمز الشريطي EAN13، مع عرض الأرقام أسفل الأشرطة:
+// 2 - رمز شريطي EAN13، مع الأرقام المعروضة أسفل الأشرطة:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - الرمز الشريطي ITF4، مع رمز الحالة المحدد:
+// 4 - رمز شريطي ITF4، مع رمز حالة محدد:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

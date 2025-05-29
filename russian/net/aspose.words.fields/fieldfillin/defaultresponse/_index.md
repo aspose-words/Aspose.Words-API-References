@@ -3,14 +3,14 @@ title: FieldFillIn.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words для .NET
-description: FieldFillIn DefaultResponse свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки на С#.
+description: Откройте для себя свойство FieldFillIn DefaultResponse, позволяющее легко устанавливать и настраивать ответы пользователя по умолчанию в окнах подсказок для улучшения пользовательского опыта.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldfillin/defaultresponse/
 ---
 ## FieldFillIn.DefaultResponse property
 
-Получает или задает ответ пользователя по умолчанию (начальное значение, содержащееся в окне подсказки).
+Возвращает или задает ответ пользователя по умолчанию (начальное значение, содержащееся в окне подсказки).
 
 ```csharp
 public string DefaultResponse { get; set; }
@@ -18,7 +18,7 @@ public string DefaultResponse { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поле ЗАПОЛНИТЬ, чтобы запросить у пользователя ответ.
+Показывает, как использовать поле FILLIN для запроса ответа у пользователя.
 
 ```csharp
 public void FieldFillIn()
@@ -26,14 +26,14 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставляем поле ЗАПОЛНЕНИЕ. Когда мы вручную обновляем это поле в Microsoft Word,
-    // это предложит нам ввести ответ. После этого в поле будет отображен ответ в виде текста.
+    // Вставьте поле FILLIN. Когда мы вручную обновляем это поле в Microsoft Word,
+    // это предложит нам ввести ответ. Затем поле отобразит ответ в виде текста.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
 
-    // Мы также можем использовать эти поля, чтобы запросить у пользователя уникальный ответ для каждой страницы
-    // создано во время слияния почты, выполненного с помощью Microsoft Word.
+    // Мы также можем использовать эти поля, чтобы попросить пользователя дать уникальный ответ для каждой страницы
+    // создано во время слияния почты с помощью Microsoft Word.
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -41,8 +41,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Если мы выполняем слияние почты программно, мы можем использовать собственный ответчик приглашения
-    // для автоматического редактирования ответов для полей ЗАПОЛНЕНИЯ, которые встречаются при слиянии почты.
+    // Если мы выполняем слияние почты программно, мы можем использовать пользовательский запрос респондента
+    // для автоматического редактирования ответов для полей FILLIN, которые встречаются при слиянии почты.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
@@ -51,7 +51,7 @@ public void FieldFillIn()
 }
 
 /// <summary>
-/// Добавляет строку к ответу по умолчанию для каждого поля FILLIN во время слияния почты.
+/// Добавляет строку к ответу по умолчанию каждого поля FILLIN во время слияния почты.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

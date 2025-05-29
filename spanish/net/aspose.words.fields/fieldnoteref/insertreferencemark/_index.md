@@ -3,14 +3,14 @@ title: FieldNoteRef.InsertReferenceMark
 linktitle: InsertReferenceMark
 articleTitle: InsertReferenceMark
 second_title: Aspose.Words para .NET
-description: FieldNoteRef InsertReferenceMark propiedad. Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final en C#.
+description: Descubra la propiedad InsertReferenceMark de FieldNoteRef para insertar sin problemas marcas de referencia formateadas, mejorando la claridad y el profesionalismo de su documento.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldnoteref/insertreferencemark/
 ---
 ## FieldNoteRef.InsertReferenceMark property
 
-Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final.
+Inserta la marca de referencia con el mismo formato de carácter que el estilo Referencia de nota al pie o Referencia de nota final
 
 ```csharp
 public bool InsertReferenceMark { get; set; }
@@ -18,7 +18,7 @@ public bool InsertReferenceMark { get; set; }
 
 ## Ejemplos
 
-Muestra para insertar campos NOTAREF y modificar su apariencia.
+Muestra cómo insertar campos NOTEREF y modificar su apariencia.
 
 ```csharp
 public void FieldNoteRef()
@@ -26,15 +26,15 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Cree un marcador con una nota a pie de página a la que hará referencia el campo NOTAREF.
+    // Crea un marcador con una nota al pie a la que hará referencia el campo NOTEREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Este campo NOTAREF mostrará el número de la nota al pie dentro del marcador al que se hace referencia.
-    // Configurar la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + clic en el campo en Microsoft Word.
+    // Este campo NOTEREF mostrará el número de la nota al pie dentro del marcador referenciado.
+    // Establecer la propiedad InsertHyperlink nos permite saltar al marcador presionando Ctrl + clic en el campo en Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // Cuando se utiliza la marca \p, después del número de la nota al pie, el campo también muestra la posición del marcador en relación con el campo.
+    // Cuando se utiliza el indicador \p, después del número de nota al pie, el campo también muestra la posición del marcador en relación con el campo.
     // Bookmark1 está encima de este campo y contiene la nota al pie número 1, por lo que el resultado será "1 arriba" en la actualización.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// Utiliza un generador de documentos para insertar un campo NOTAREF con propiedades específicas.
+/// Utiliza un generador de documentos para insertar un campo NOTEREF con propiedades especificadas.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {

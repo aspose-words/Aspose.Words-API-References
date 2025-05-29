@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageHeight
 linktitle: ImageHeight
 articleTitle: ImageHeight
 second_title: Aspose.Words для .NET
-description: ImageFieldMergingArgs ImageHeight свойство. Указывает высоту изображения для вставки в документ на С#.
+description: Задайте ImageHeight в ImageFieldMergingArgs, чтобы настроить размер изображения для вашего документа, повысив визуальную привлекательность и четкость.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imageheight/
@@ -18,35 +18,35 @@ public MergeFieldImageDimension ImageHeight { get; set; }
 
 ## Примечания
 
-Значение этого свойства изначально берется из соответствующего кода MERGEFIELD, содержащегося в документе шаблона . Чтобы переопределить начальное значение, вам следует назначить экземпляр [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс для этого свойства или установите свойства для экземпляра экземпляра [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс, возвращаемый этим свойством.
+Значение этого свойства изначально берется из соответствующего кода MERGEFIELD, содержащегося в шаблоне документа . Чтобы переопределить начальное значение, следует назначить экземпляр [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class к этому свойству или установите свойства для instance [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс, возвращаемый этим свойством.
 
-Чтобы указать, что должно быть применено исходное значение высоты изображения, вам следует присвоить`нулевой` для этого свойства или установите[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) свойство для экземпляра из[`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) class, возвращаемый этим свойством, имеет отрицательное значение.
+Чтобы указать, что следует применить исходное значение высоты изображения, следует назначить`нулевой` значение этого свойства или установите[`Value`](../../../aspose.words.fields/mergefieldimagedimension/value/) свойство для instance [`MergeFieldImageDimension`](../../../aspose.words.fields/mergefieldimagedimension/) класс, возвращаемый этим свойством, к отрицательному значению.
 
 ## Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как задать размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Вставляем MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
-    // столбец в источнике данных, содержащий имена локальных системных файлов изображений, которые мы хотим использовать при слиянии писем.
+    // Вставьте MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
+    // столбец в источнике данных, содержащий локальные системные имена файлов изображений, которые мы хотим использовать при слиянии.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // Источник данных должен иметь такой столбец с именем «ImageColumn».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Создаем подходящий источник данных.
+    // Создайте подходящий источник данных.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Настройте обратный вызов для изменения размеров изображений во время слияния, а затем выполните слияние почты.
+    // Настройте обратный вызов для изменения размеров изображений во время слияния, затем выполните слияние почты.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -55,7 +55,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Устанавливает размер всех объединенных изображений почты в одну определенную ширину и высоту.
+/// Устанавливает размер всех объединенных изображений на одну определенную ширину и высоту.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -81,6 +81,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

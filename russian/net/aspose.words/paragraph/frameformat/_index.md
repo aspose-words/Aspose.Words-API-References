@@ -3,14 +3,14 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words для .NET
-description: Paragraph FrameFormat свойство. Обеспечивает доступ к свойствам форматирования фрейма на С#.
+description: Откройте для себя свойство Paragraph FrameFormat, легко получайте доступ и настраивайте свойства форматирования рамки для улучшенного представления документа.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-Обеспечивает доступ к свойствам форматирования фрейма.
+Предоставляет доступ к свойствам форматирования фрейма.
 
 ```csharp
 public FrameFormat FrameFormat { get; }

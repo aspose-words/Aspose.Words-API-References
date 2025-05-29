@@ -3,9 +3,9 @@ title: ShapeBase.IsGroup
 linktitle: IsGroup
 articleTitle: IsGroup
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsGroup propriété. Retoursvrai sil sagit dune forme de groupe en C#.
+description: Découvrez ShapeBase IsGroup. Identifiez facilement si une forme est un groupe. Optimisez votre processus de conception grâce à cette propriété essentielle pour une meilleure organisation.
 type: docs
-weight: 260
+weight: 280
 url: /fr/net/aspose.words.drawing/shapebase/isgroup/
 ---
 ## ShapeBase.IsGroup property
@@ -18,7 +18,7 @@ public bool IsGroup { get; }
 
 ## Exemples
 
-Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
+Montre comment créer un groupe de formes et imprimer son contenu à l'aide d'un visiteur de document.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si vous devez créer des formes "NonPrimitive", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si vous devez créer des formes « NonPrimitives », telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Coins supérieurs un arrondi un coupé, Coin unique arrondi, Coins supérieurs arrondis, Coins diagonaux arrondis
     // veuillez utiliser les méthodes DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

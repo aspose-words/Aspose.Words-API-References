@@ -3,7 +3,7 @@ title: EditableRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: EditableRangeEnd Accept méthode. Accepte un visiteur en C#.
+description: Découvrez la méthode EditableRangeEnd Accept pour gérer de manière transparente les interactions des visiteurs et améliorer les fonctionnalités de votre application Web.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/editablerangeend/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt du dénombrement.
 
 ## Remarques
 
 Appels[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
 ## Exemples
 
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprimer les détails et le contenu de chaque plage modifiable du document.
+    // Imprimez les détails et le contenu de chaque plage modifiable dans le document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions comprises dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -3,16 +3,16 @@ title: CustomXmlProperty Class
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Markup.CustomXmlProperty klas. Stellt ein einzelnes benutzerdefiniertes XMLAttribut oder eine SmartTagEigenschaft dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Markup.CustomXmlProperty, die die Verwaltung benutzerdefinierter XML-Attribute und Smarttag-Eigenschaften für eine verbesserte Dokumentkontrolle vereinfacht.
 type: docs
-weight: 3940
+weight: 4630
 url: /de/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
-Stellt ein einzelnes benutzerdefiniertes XML-Attribut oder eine Smart-Tag-Eigenschaft dar.
+Stellt ein einzelnes benutzerdefiniertes XML-Attribut oder eine Smarttag-Eigenschaft dar.
 
-Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltskontrolle](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Strukturierte Dokument-Tags oder Inhaltssteuerung](https://docs.aspose.com/words/net/working-with-content-control-sdt/) Dokumentationsartikel.
 
 ```csharp
 public class CustomXmlProperty
@@ -28,41 +28,41 @@ public class CustomXmlProperty
 
 | Name | Beschreibung |
 | --- | --- |
-| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Gibt den Namen des benutzerdefinierten XML-Attributs oder der Smart-Tag-Eigenschaft an. |
-| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Ruft den Namespace-URI des benutzerdefinierten XML-Attributs oder der Smart-Tag-Eigenschaft ab oder legt diesen fest. |
-| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Ruft den Wert des benutzerdefinierten XML-Attributs oder der Smart-Tag-Eigenschaft ab oder legt diesen fest. |
+| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Gibt den Namen des benutzerdefinierten XML-Attributs oder der Smarttag-Eigenschaft an. |
+| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Ruft den Namespace-URI des benutzerdefinierten XML-Attributs oder der Smarttag-Eigenschaft ab oder legt ihn fest. |
+| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Ruft den Wert des benutzerdefinierten XML-Attributs oder der Smarttag-Eigenschaft ab oder legt ihn fest. |
 
 ## Bemerkungen
 
-Wird als Gegenstand eines verwendet[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) Sammlung.
+Wird als Artikel eines[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) Sammlung.
 
 ## Beispiele
 
-Zeigt, wie man Smarttags erstellt.
+Zeigt, wie Smarttags erstellt werden.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Ein Smarttag erscheint in einem Dokument, wobei Microsoft Word einen Teil seines Textes als irgendeine Form von Daten erkennt.
-    // beispielsweise einen Namen, ein Datum oder eine Adresse und wandelt ihn in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
+    // Ein Smarttag erscheint in einem Dokument, in dem Microsoft Word einen Teil des Textes als eine Art Daten erkennt.
+    // wie etwa einen Namen, ein Datum oder eine Adresse, und wandelt es in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Smart Tags sind zusammengesetzte Knoten, die ihren erkannten Text vollständig enthalten.
-    // Inhalte manuell zu diesem Smarttag hinzufügen.
+    // Smarttags sind zusammengesetzte Knoten, die den erkannten Text vollständig enthalten.
+    // Fügen Sie diesem Smarttag manuell Inhalte hinzu.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word erkennt die oben genannten Inhalte möglicherweise als Datum.
-    // Smart Tags verwenden die Eigenschaft „Element“, um den Typ der darin enthaltenen Daten widerzuspiegeln.
+    // Microsoft Word erkennt den obigen Inhalt möglicherweise als Datum.
+    // Smarttags verwenden die Eigenschaft „Element“, um den Typ der enthaltenen Daten widerzuspiegeln.
     smartTag.Element = "date";
 
-    // Einige Smart-Tag-Typen verarbeiten ihren Inhalt weiter in benutzerdefinierte XML-Eigenschaften.
+    // Einige Smarttag-Typen verarbeiten ihren Inhalt weiter in benutzerdefinierte XML-Eigenschaften.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Setze den URI des Smarttags auf den Standardwert.
+    // Setzen Sie die URI des Smarttags auf den Standardwert.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
@@ -81,10 +81,10 @@ public void Create()
     // Drucken Sie alle Smarttags in unserem Dokument mithilfe eines Dokumentbesuchers.
     doc.Accept(new SmartTagPrinter());
 
-    // Ältere Versionen von Microsoft Word unterstützen Smart Tags.
+    // Ältere Versionen von Microsoft Word unterstützen Smarttags.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Verwenden Sie die Methode „RemoveSmartTags“, um alle Smart Tags aus einem Dokument zu entfernen.
+    // Verwenden Sie die Methode „RemoveSmartTags“, um alle Smarttags aus einem Dokument zu entfernen.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -107,7 +107,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines SmartTag-Knotens beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines SmartTag-Knotens beendet ist.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

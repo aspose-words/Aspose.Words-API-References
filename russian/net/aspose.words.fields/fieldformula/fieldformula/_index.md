@@ -3,7 +3,7 @@ title: FieldFormula
 linktitle: FieldFormula
 articleTitle: FieldFormula
 second_title: Aspose.Words для .NET
-description: FieldFormula строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldFormula, ваше решение для создания надежных формул без усилий. Откройте для себя мощные функции с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformula/fieldformula/

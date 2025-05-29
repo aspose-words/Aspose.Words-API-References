@@ -2,8 +2,8 @@
 title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup LeftMargin 财产. 返回或设置页面左边缘与正文左边界之间的距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PageSetup LeftMargin 属性可以轻松调整左边距（以点为单位），从而增强文档的布局和可读性。
 type: docs
 weight: 200
 url: /zh/net/aspose.words/pagesetup/leftmargin/

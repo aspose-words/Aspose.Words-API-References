@@ -3,7 +3,7 @@ title: VbaModuleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words для .NET
-description: VbaModuleCollection Add метод. Добавляет модуль в коллекцию на С#.
+description: Легко улучшайте свои проекты VBA с помощью метода VbaModuleCollection Add, позволяющего легко добавлять модули для улучшения функциональности.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.vba/vbamodulecollection/add/
@@ -18,12 +18,12 @@ public void Add(VbaModule vbaModule)
 
 ## Примеры
 
-Показывает, как создать проект VBA с помощью макросов.
+Показывает, как создать проект VBA с использованием макросов.
 
 ```csharp
 Document doc = new Document();
 
-// Создаем новый проект VBA.
+// Создать новый проект VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;

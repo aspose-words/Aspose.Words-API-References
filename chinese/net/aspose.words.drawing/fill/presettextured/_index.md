@@ -2,10 +2,10 @@
 title: Fill.PresetTextured
 linktitle: PresetTextured
 articleTitle: PresetTextured
-second_title: 用于 .NET 的 Aspose.Words
-description: Fill PresetTextured 方法. 将填充设置为预设纹理 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索填充预设纹理方法，轻松应用令人惊叹的预设纹理，以独特的视觉吸引力增强您的设计。
 type: docs
-weight: 230
+weight: 240
 url: /zh/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method

@@ -3,7 +3,7 @@ title: DefaultFontSubstitutionRule.DefaultFontName
 linktitle: DefaultFontName
 articleTitle: DefaultFontName
 second_title: Aspose.Words для .NET
-description: DefaultFontSubstitutionRule DefaultFontName свойство. Получает или задает имя шрифта по умолчанию на С#.
+description: Узнайте, как легко управлять DefaultFontSubstitutionRule и настраивать имя шрифта по умолчанию для повышения гибкости дизайна.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
@@ -22,14 +22,14 @@ public string DefaultFontName { get; set; }
 
 ## Примеры
 
-Показывает, как установить правило замены шрифтов по умолчанию.
+Показывает, как установить правило замены шрифта по умолчанию.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Получаем правило замены по умолчанию в FontSettings.
+// Получить правило замены по умолчанию в FontSettings.
 // Это правило заменит все отсутствующие шрифты на «Times New Roman».
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
@@ -39,8 +39,8 @@ Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 // Установите замену шрифта по умолчанию на «Courier New».
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Используя конструктор документов, добавьте текст шрифтом, который нам не нужен, чтобы произошла замена,
-// и затем визуализируем результат в PDF.
+// Используя конструктор документов, добавляем текст шрифтом, который нам не нужен, чтобы увидеть, как происходит замена,
+// а затем визуализируем результат в формате PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -62,18 +62,18 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// Исходники шрифтов, используемые в документе, содержат шрифт «Arial», но не «Arvo».
+// Источники шрифтов, используемые в документе, содержат шрифт «Arial», но не «Arvo».
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Установите для свойства «DefaultFontName» значение «Courier New», чтобы,
- // при рендеринге документа применять этот шрифт во всех случаях, когда другой шрифт недоступен.
+// Установите свойство "DefaultFontName" на "Courier New", чтобы,
+// при визуализации документа применять этот шрифт во всех случаях, когда другой шрифт недоступен.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Aspose.Words теперь будет использовать шрифт по умолчанию вместо отсутствующих шрифтов во время любых вызовов рендеринга.
+// Aspose.Words теперь будет использовать шрифт по умолчанию вместо любых отсутствующих шрифтов во время любых вызовов рендеринга.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

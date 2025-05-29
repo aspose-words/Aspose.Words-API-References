@@ -3,7 +3,7 @@ title: FieldXE
 linktitle: FieldXE
 articleTitle: FieldXE
 second_title: Aspose.Words لـ .NET
-description: FieldXE البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldXE متعدد الاستخدامات لإعداد مشروعك بسلاسة. بسّط عملية التطوير لديك مع حل المُنشئ الافتراضي سهل الاستخدام.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldxe/fieldxe/

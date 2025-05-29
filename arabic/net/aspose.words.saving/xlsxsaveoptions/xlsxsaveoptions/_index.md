@@ -3,7 +3,7 @@ title: XlsxSaveOptions
 linktitle: XlsxSaveOptions
 articleTitle: XlsxSaveOptions
 second_title: Aspose.Words لـ .NET
-description: XlsxSaveOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ خيارات حفظ XlsxSaveOptions لحفظ ملفات Excel بسلاسة. استمتع بالإعدادات الافتراضية التي تُحسّن كفاءة سير عملك وإنتاجيتك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/xlsxsaveoptions/xlsxsaveoptions/

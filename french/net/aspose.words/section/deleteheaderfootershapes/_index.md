@@ -3,14 +3,14 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words pour .NET
-description: Section DeleteHeaderFooterShapes méthode. Supprime toutes les formes objets de dessin des entêtes et pieds de page de cette section en C#.
+description: Supprimez sans effort toutes les formes de dessin des en-têtes et pieds de page de section avec la méthode DeleteHeaderFooterShapes pour une présentation de document plus propre.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-Supprime toutes les formes (objets de dessin) des en-têtes et pieds de page de cette section.
+Supprime toutes les formes (objets de dessin) des en-têtes et des pieds de page de cette section.
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -18,24 +18,24 @@ public void DeleteHeaderFooterShapes()
 
 ## Exemples
 
-Montre comment supprimer toutes les formes de tous les en-têtes et pieds de page d’une section.
+Montre comment supprimer toutes les formes de tous les en-têtes et pieds de page d'une section.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un en-tête principal avec une forme.
+// Créer un en-tête principal avec une forme.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// Crée un pied de page principal avec une image.
+// Créer un pied de page principal avec une image.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// Supprime toutes les formes des en-têtes et pieds de page de la première section.
+// Supprimez toutes les formes des en-têtes et des pieds de page de la première section.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

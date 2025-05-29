@@ -3,9 +3,9 @@ title: Body.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words für .NET
-description: Body EnsureMinimum methode. Wenn das letzte untergeordnete Element kein Absatz ist wird ein leerer Absatz erstellt und angehängt in C#.
+description: Optimieren Sie Ihren Inhalt mit der Methode „Body EnsureMinimum“. Fügt automatisch einen leeren Absatz hinzu, wenn das letzte untergeordnete Element kein Absatz ist, um die Formatierung zu verbessern.
 type: docs
-weight: 50
+weight: 70
 url: /de/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -18,19 +18,19 @@ public void EnsureMinimum()
 
 ## Beispiele
 
-Löscht den Haupttext aus allen Abschnitten des Dokuments, wobei die Abschnitte selbst übrig bleiben.
+Löscht den Haupttext aus allen Abschnitten des Dokuments, wobei die Abschnitte selbst erhalten bleiben.
 
 ```csharp
 Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -39,13 +39,13 @@ doc.AppendChild(section);
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Dieser Körper hat keine untergeordneten Elemente, daher können wir ihm noch keine Läufe hinzufügen.
+// Dieser Body hat keine untergeordneten Elemente, daher können wir ihm noch keine Läufe hinzufügen.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
- // Rufen Sie „EnsureMinimum“ auf, um sicherzustellen, dass dieser Textkörper mindestens einen leeren Absatz enthält.
+    // Rufen Sie „EnsureMinimum“ auf, um sicherzustellen, dass dieser Textkörper mindestens einen leeren Absatz enthält.
 body.EnsureMinimum();
 
-// Jetzt können wir dem Hauptteil Läufe hinzufügen und das Dokument dazu bringen, sie anzuzeigen.
+// Jetzt können wir dem Textkörper Läufe hinzufügen und das Dokument dazu bringen, sie anzuzeigen.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

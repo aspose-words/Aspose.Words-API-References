@@ -2,17 +2,17 @@
 title: StructuredDocumentTag.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag IsShowingPlaceholderText mülk. Bunun içeriğinin olup olmadığını belirtir.SDTyer tutucu text yi SDT içindeki normal metin içeriklerinin aksine içerecek şekilde yorumlanacaktır C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTag'deki IsShowingPlaceholderText özelliğinin, yer tutucu metni normal içerikten ayırarak belgenizin netliğini nasıl artırdığını keşfedin.
 type: docs
 weight: 150
 url: /tr/net/aspose.words.markup/structureddocumenttag/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTag.IsShowingPlaceholderText property
 
-Bunun içeriğinin olup olmadığını belirtir.**SDT**yer tutucu text 'yi (SDT içindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanacaktır.
+Bu içeriğin ne olduğunu belirtir**SDT** yer tutucu text (SDT içindeki normal metin içeriklerinin aksine) içerecek şekilde yorumlanacaktır.
 
-olarak ayarlanmışsa`doğru` , bu durum bu belge açıldığında devam ettirilecektir (yer tutucu metni göstererek).
+olarak ayarlanırsa`doğru` , bu belge açıldığında bu durum devam ettirilecektir (yer tutucu metni gösteriliyor).
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,17 +20,17 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Örnekler
 
-Bir yapı taşının içeriğinin, yapılandırılmış bir belge etiketi için özel yer tutucu metin olarak nasıl kullanılacağını gösterir.
+Yapı bloğunun içeriğinin yapılandırılmış bir belge etiketi için özel yer tutucu metin olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Metin kutusu işlevi görecek "Düz Metin" türünde düz metin yapılı bir belge etiketi ekleyin.
-// Varsayılan olarak görüntüleyeceği içerik "Metin girmek için burayı tıklayın." çabuk.
+// "PlainText" türünde, metin kutusu işlevi görecek düz metin yapılandırılmış bir belge etiketi ekleyin.
+// Varsayılan olarak gösterilecek içerik "Metin girmek için buraya tıklayın." istemidir.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Etiketin, varsayılan metin yerine bir yapı taşının içeriğini görüntülemesini sağlayabiliriz.
-// Öncelikle sözlük belgesine içeriği olan bir yapı taşı ekleyin.
+// Varsayılan metin yerine yapı bloğunun içeriğini görüntülemek için etiketi alabiliriz.
+// Öncelikle sözlük belgesine içerikli bir yapı taşı ekleyelim.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -41,19 +41,19 @@ substituteBlock.FirstSection.Body.AppendParagraph("Custom placeholder text.");
 
 glossaryDoc.AppendChild(substituteBlock);
 
-// Daha sonra, o yapı bloğuna ada göre başvuruda bulunmak için yapılandırılmış belge etiketinin "PlaceholderName" özelliğini kullanın.
+// Ardından, bu yapı bloğuna adıyla başvurmak için yapılandırılmış belge etiketinin "PlaceholderName" özelliğini kullanın.
 tag.PlaceholderName = "Custom Placeholder";
 
-// "Yer TutucuAdı" ana belgenin sözlük belgesindeki mevcut bir bloğa atıfta bulunuyorsa,
-// "Placeholder" özelliği aracılığıyla yapı bloğunu doğrulayabileceğiz.
+// "PlaceholderName" ana belgenin sözlük belgesindeki mevcut bir bloğa atıfta bulunuyorsa,
+// "Yer Tutucu" özelliği aracılığıyla yapı bloğunu doğrulayabileceğiz.
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// "IsShowingPlaceholderText" özelliğini "true" olarak ayarlayarak
-// yapılandırılmış belge etiketinin mevcut içeriği yer tutucu metin olarak.
+// "IsShowingPlaceholderText" özelliğini "true" olarak ayarlayın.
+// yapılandırılmış belge etiketinin geçerli içeriği yer tutucu metin olarak.
 // Bu, Microsoft Word'deki metin kutusuna tıklandığında etiketin tüm içeriğinin hemen vurgulanacağı anlamına gelir.
-// "IsShowingPlaceholderText" özelliğini "false" olarak ayarlayarak
-// içeriğini kullanıcının önceden girdiği metin olarak ele alacak yapılandırılmış belge etiketi.
-// Microsoft Word'de bu metne tıklamak, yanıp sönen imleci tıklanan konuma yerleştirecektir.
+// "IsShowingPlaceholderText" özelliğini "false" olarak ayarlayın ve
+// İçeriğini kullanıcının daha önce girdiği metin olarak ele alan yapılandırılmış belge etiketi.
+// Microsoft Word'de bu metne tıklandığında yanıp sönen imleç tıklanan yere yerleşecektir.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

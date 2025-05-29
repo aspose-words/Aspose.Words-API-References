@@ -2,8 +2,8 @@
 title: Cell.NextCell
 linktitle: NextCell
 articleTitle: NextCell
-second_title: 用于 .NET 的 Aspose.Words
-description: Cell NextCell 财产. 获取下一个Cell节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 NextCell 属性可以轻松访问下一个 Cell 节点，增强数据管理并简化工作流程。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.tables/cell/nextcell/
@@ -18,11 +18,11 @@ public Cell NextCell { get; }
 
 ## 评论
 
-当您需要对单元格进行键入访问时，可以使用该方法[`Row`](../../row/)。如果a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)节点在一行而不是单元格中找到，它会自动 遍历以获取包含在. 内的单元格
+当您需要对单元格进行类型访问时，可以使用该方法[`Row`](../../row/) 如果 a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)节点位于一行而不是一个单元格中，则会自动遍历以获取其中包含的单元格。
 
 ## 例子
 
-演示如何枚举所有表格单元格。
+展示如何枚举所有表格单元格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

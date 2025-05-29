@@ -3,14 +3,14 @@ title: FieldMergeBarcode.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words для .NET
-description: FieldMergeBarcode AddStartStopChar свойство. Получает или задает необходимость добавления символов начала/остановки для типов штрихкодов NW7 и CODE39.  на С#.
+description: Управляйте символами Start/Stop для штрихкодов NW7 и CODE39 с помощью свойства FieldMergeBarcode AddStartStopChar. Расширьте функциональность вашего штрихкода сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Получает или задает необходимость добавления символов начала/остановки для типов штрих-кодов NW7 и CODE39. .
+Возвращает или задает, следует ли добавлять символы Start/Stop для типов штрих-кодов NW7 и CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -18,27 +18,27 @@ public bool AddStartStopChar { get; set; }
 
 ## Примеры
 
-Показывает, как выполнить слияние почты со штрих-кодами CODE39.
+Показывает, как выполнить слияние писем по штрих-кодам CODE39.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
-// Это поле преобразует все значения в столбце «MyCODE39Barcode» источника данных слияния в штрих-коды CODE39.
+// Вставьте поле MERGEBARCODE, которое будет принимать значения из источника данных во время слияния почты.
+// Это поле преобразует все значения в столбце «MyCODE39Barcode» источника объединенных данных в штрихкоды CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Редактируем его внешний вид, чтобы отображались символы начала/остановки.
+// Отредактируйте его внешний вид для отображения начальных/конечных символов.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Создайте DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
-// Слияние почты создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
+// Создаем DataTable со столбцом с тем же именем, что и BarcodeValue нашего поля MERGEBARCODE.
+// Слияние создаст новую страницу для каждой строки. Каждая страница будет содержать поле DISPLAYBARCODE,
 // который отобразит штрих-код CODE39 со значением из объединенной строки.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");

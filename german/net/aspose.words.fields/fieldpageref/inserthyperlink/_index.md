@@ -3,14 +3,14 @@ title: FieldPageRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words für .NET
-description: FieldPageRef InsertHyperlink eigendom. Ruft ab oder legt fest ob ein Hyperlink zum mit einem Lesezeichen versehenen Absatz eingefügt werden soll in C#.
+description: Entdecken Sie, wie die InsertHyperlink-Eigenschaft von FieldPageRef Ihre Dokumente verbessert, indem sie für eine nahtlose Navigation einfach auf mit Lesezeichen versehene Absätze verweist.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldpageref/inserthyperlink/
 ---
 ## FieldPageRef.InsertHyperlink property
 
-Ruft ab oder legt fest, ob ein Hyperlink zum mit einem Lesezeichen versehenen Absatz eingefügt werden soll.
+Ruft ab oder legt fest, ob ein Hyperlink zum mit Lesezeichen versehenen Absatz eingefügt werden soll.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -24,22 +24,22 @@ Zeigt das Einfügen von PAGEREF-Feldern an, um die relative Position von Lesezei
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Ein PAGEREF-Feld einfügen, das anzeigt, auf welcher Seite sich ein Lesezeichen befindet.
-    // Setzen Sie das InsertHyperlink-Flag, damit das Feld auch als anklickbarer Link zum Lesezeichen fungiert.
+    // Fügen Sie ein PAGEREF-Feld ein, das anzeigt, auf welcher Seite sich ein Lesezeichen befindet.
+    // Setzen Sie das Flag „InsertHyperlink“, damit das Feld auch als anklickbarer Link zum Lesezeichen fungiert.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
     // Wir können das Flag \p verwenden, um das PAGEREF-Feld anzuzeigen
     // die Position des Lesezeichens relativ zur Position des Feldes.
-    // Lesezeichen1 befindet sich auf derselben Seite und über diesem Feld, sodass das angezeigte Ergebnis dieses Felds „oben“ lautet.
+    // „Lesezeichen1“ befindet sich auf derselben Seite und über diesem Feld, daher wird das angezeigte Ergebnis dieses Felds „über“ sein.
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Lesezeichen2 befindet sich auf derselben Seite und unter diesem Feld, sodass das angezeigte Ergebnis dieses Felds „unten“ lautet.
+    // Bookmark2 befindet sich auf derselben Seite und unterhalb dieses Felds, daher wird das angezeigte Ergebnis dieses Felds „unterhalb“ sein.
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
@@ -57,7 +57,7 @@ public void FieldPageRef()
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um ein PAGEREF-Feld einzufügen und seine Eigenschaften festzulegen.
+/// Verwendet einen Dokumentgenerator, um ein PAGEREF-Feld einzufügen und seine Eigenschaften festzulegen.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {
@@ -73,7 +73,7 @@ private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um ein benanntes Lesezeichen einzufügen.
+/// Verwendet einen Dokumentgenerator, um ein benanntes Lesezeichen einzufügen.
 /// </summary>
 private static void InsertAndNameBookmark(DocumentBuilder builder, string bookmarkName)
 {

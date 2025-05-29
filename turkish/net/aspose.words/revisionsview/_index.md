@@ -2,15 +2,15 @@
 title: RevisionsView Enum
 linktitle: RevisionsView
 articleTitle: RevisionsView
-second_title: Aspose.Words for .NET
-description: Aspose.Words.RevisionsView Sıralama. Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır C#'da.
+second_title: .NET için Aspose.Words
+description: Düzenleme ve işbirliğini kolaylaştırmak için orijinal ve revize edilmiş belge sürümleri arasında kolayca seçim yapmak üzere Aspose.Words.RevisionsView enum'unu keşfedin.
 type: docs
-weight: 4810
+weight: 5550
 url: /tr/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-Bir belgenin orijinal sürümüyle mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirlemeye olanak tanır.
+Bir belgenin orijinal mi yoksa revize edilmiş sürümüyle mi çalışılacağını belirtmenizi sağlar.
 
 ```csharp
 public enum RevisionsView
@@ -20,12 +20,12 @@ public enum RevisionsView
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Original | `0` | Bir belgenin orijinal sürümünü belirtir. |
-| Final | `1` | Bir belgenin revize edilmiş sürümünü belirtir. |
+| Original | `0` | Belgenin orijinal sürümünü belirtir. |
+| Final | `1` | Bir belgenin gözden geçirilmiş sürümünü belirtir. |
 
 ## Örnekler
 
-Bir belgenin revize edilmiş görünümü ile orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
+Bir belgenin düzeltilmiş ve orijinal görünümü arasında nasıl geçiş yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");
@@ -36,7 +36,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüleyin. Şu anda liste etiketlerini desteklemektedir.
+// Belge nesnesini tüm revizyonlar kabul edilmiş gibi görüntüle. Şu anda liste etiketlerini destekliyor.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

@@ -3,14 +3,14 @@ title: LineStyle Enum
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.LineStyle تعداد. يحدد نمط الخط لـ aBorder  في C#.
+description: اكتشف مجموعة Aspose.Words.LineStyle للحصول على أنماط حدود قابلة للتخصيص، مما يعزز تصميم مستندك بالمرونة والدقة.
 type: docs
-weight: 3450
+weight: 3900
 url: /ar/net/aspose.words/linestyle/
 ---
 ## LineStyle enumeration
 
-يحدد نمط الخط لـ a[`Border`](../border/) .
+يحدد نمط الخط لـ[`Border`](../border/) .
 
 ```csharp
 public enum LineStyle
@@ -50,7 +50,7 @@ public enum LineStyle
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();

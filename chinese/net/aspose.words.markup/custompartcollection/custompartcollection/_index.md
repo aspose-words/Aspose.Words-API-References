@@ -2,8 +2,8 @@
 title: CustomPartCollection
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPartCollection 构造函数，实现无缝集成。使用我们功能强大的默认构造函数优化您的项目，提升性能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.markup/custompartcollection/custompartcollection/

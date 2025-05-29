@@ -3,14 +3,14 @@ title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words для .NET
-description: FieldAsk DefaultResponse свойство. Получает или задает ответ пользователя по умолчанию начальное значение содержащееся в окне подсказки на С#.
+description: Откройте для себя свойство FieldAsk DefaultResponse. Легко управляйте первоначальными ответами пользователей в окнах подсказок, чтобы улучшить взаимодействие с пользователем и оптимизировать рабочие процессы.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldask/defaultresponse/
 ---
 ## FieldAsk.DefaultResponse property
 
-Получает или задает ответ пользователя по умолчанию (начальное значение, содержащееся в окне подсказки).
+Возвращает или задает ответ пользователя по умолчанию (начальное значение, содержащееся в окне подсказки).
 
 ```csharp
 public string DefaultResponse { get; set; }
@@ -18,7 +18,7 @@ public string DefaultResponse { get; set; }
 
 ## Примеры
 
-Показывает, как создать поле ASK и настроить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 public void FieldAsk()
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Размещаем поле, в котором будет размещен ответ на наше поле ASK.
+    // Размещаем поле, в которое будет помещен ответ на наше поле ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью специального ответчика на приглашение,
+    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью пользовательского ответчика на подсказки,
     // что произойдет во время слияния почты.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Добавляет текст к ответу по умолчанию в поле ASK во время слияния почты.
+/// Добавляет текст к ответу по умолчанию поля ASK во время слияния почты.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

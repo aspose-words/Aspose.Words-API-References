@@ -2,8 +2,8 @@
 title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: Aspose.Words for .NET
-description: BorderCollection LineStyle mülk. Kenarlık stilini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızı esnek kenarlık stilleriyle özelleştirmek için BorderCollection LineStyle özelliğini keşfedin. Projenizin görsel çekiciliğini zahmetsizce artırın!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/bordercollection/linestyle/

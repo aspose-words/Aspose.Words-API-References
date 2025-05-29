@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words für .NET
-description: CustomXmlSchemaCollection Add methode. Fügt der Sammlung ein Element hinzu in C#.
+description: Entdecken Sie, wie die Add-Methode „CustomXmlSchemaCollection“ Ihre XML-Verwaltung verbessert, indem sie Ihrer Sammlung nahtlos Elemente hinzufügt, um eine optimale Leistung zu erzielen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/customxmlschemacollection/add/
@@ -31,11 +31,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Eine XML-Schema-Zuordnung hinzufügen.
+// Eine XML-Schemazuordnung hinzufügen.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Klonen Sie die XML-Schema-Zuordnungssammlung des benutzerdefinierten XML-Teils.
-// und dann ein paar neue Schemata zum Klon hinzufügen.
+// Klonen Sie die XML-Schema-Assoziationssammlung des benutzerdefinierten XML-Teils.
+// und fügen Sie dem Klon dann ein paar neue Schemata hinzu.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -43,21 +43,21 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Zählen Sie die Schemata auf und drucken Sie jedes Element aus.
+// Schemata aufzählen und jedes Element drucken.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nachfolgend finden Sie drei Möglichkeiten, Schemata aus der Sammlung zu entfernen.
-// 1 – Ein Schema nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen von Schemas aus der Sammlung aufgeführt.
+// 1 – Entfernen Sie ein Schema nach Index:
 schemas.RemoveAt(2);
 
-// 2 – Ein Schema nach Wert entfernen:
+// 2 – Entfernen Sie ein Schema nach Wert:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 – Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
+// 3 - Verwenden Sie die Methode „Clear“, um die Sammlung sofort zu leeren.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

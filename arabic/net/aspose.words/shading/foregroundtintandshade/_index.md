@@ -3,28 +3,35 @@ title: Shading.ForegroundTintAndShade
 linktitle: ForegroundTintAndShade
 articleTitle: ForegroundTintAndShade
 second_title: Aspose.Words لـ .NET
-description: Shading ForegroundTintAndShade ملكية. الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون المظهر الأمامي في C#.
+description: قم بضبط خاصية ForegroundTintAndShade لتفتيح أو تعتيم ألوان السمة الخاصة بك بسهولة، مما يعزز الجاذبية البصرية لتصميمك.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/shading/foregroundtintandshade/
 ---
 ## Shading.ForegroundTintAndShade property
 
-الحصول على أو تعيين قيمة مزدوجة تعمل على تفتيح أو تغميق لون المظهر الأمامي.
+يحصل على قيمة مزدوجة أو يعينها لتفتيح أو تعتيم لون السمة الأمامية.
 
 ```csharp
 public double ForegroundTintAndShade { get; set; }
 ```
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentOutOfRangeException | قم بالرمي إذا قمت بتعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1. |
+| InvalidOperationException | قم برمي هذه الخاصية إذا قمت بتعيين كائن التظليل بألوان غير خاصة بالموضوع. |
+
 ## ملاحظات
 
-تتراوح القيم المسموح بها من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية. الصفر (0) محايد. محاولة تعيين هذه الخاصية إلى قيمة أقل من -1 أو أكثر من 1 تؤدي إلىArgumentOutOfRangeException.
+القيم المسموح بها تتراوح من -1 (الأغمق) إلى 1 (الأفتح) لهذه الخاصية.
 
-يؤدي تعيين هذه الخاصية لكائن التظليل بألوان غير متعلقة بالموضوع إلى ظهورInvalidOperationException.
+الصفر (0) محايد.
 
 ## أمثلة
 
-يوضح كيفية تعيين الألوان الأمامية والخلفية لتظليل الملمس.
+يوضح كيفية تعيين ألوان المقدمة والخلفية لملمس التظليل.
 
 ```csharp
 Document doc = new Document();

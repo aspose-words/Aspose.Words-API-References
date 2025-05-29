@@ -3,14 +3,14 @@ title: LayoutOptions.IgnorePrinterMetrics
 linktitle: IgnorePrinterMetrics
 articleTitle: IgnorePrinterMetrics
 second_title: Aspose.Words لـ .NET
-description: LayoutOptions IgnorePrinterMetrics ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان خيار التوافق استخدام مقاييس الطابعة لتخطيط المستند قد تم تجاهله. الإعداد الافتراضي هوحقيقي  في C#.
+description: اكتشف خاصية LayoutOptions IgnorePrinterMetrics، وتحكم في مقاييس الطابعة لتخطيط المستندات. حسّن التوافق وحسّن دقة الطباعة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.layout/layoutoptions/ignoreprintermetrics/
 ---
 ## LayoutOptions.IgnorePrinterMetrics property
 
-الحصول على أو تعيين الإشارة إلى ما إذا كان خيار التوافق "استخدام مقاييس الطابعة لتخطيط المستند" قد تم تجاهله. الإعداد الافتراضي هو`حقيقي` .
+يحصل على أو يعين مؤشرًا لما إذا كان سيتم تجاهل خيار التوافق "استخدام مقاييس الطابعة لتخطيط المستند". الافتراضي هو`حقيقي` .
 
 ```csharp
 public bool IgnorePrinterMetrics { get; set; }

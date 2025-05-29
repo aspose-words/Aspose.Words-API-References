@@ -3,14 +3,14 @@ title: PlainTextDocument.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words för .NET
-description: PlainTextDocument Text fast egendom. Får textinnehållet i dokumentet sammanfogat som en sträng i C#.
+description: Använd egenskapen text i PlainTextDocument för att hämta dokumentets innehåll som en enda sträng, vilket förbättrar din datahantering och analys.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/plaintextdocument/text/
 ---
 ## PlainTextDocument.Text property
 
-Får textinnehållet i dokumentet sammanfogat som en sträng.
+Hämtar textinnehållet i dokumentet sammanfogat som en sträng.
 
 ```csharp
 public string Text { get; }

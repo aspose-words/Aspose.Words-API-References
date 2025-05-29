@@ -2,17 +2,17 @@
 title: TabStop Class
 linktitle: TabStop
 articleTitle: TabStop
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TabStop sınıf. Tek bir özel sekme durağını temsil eder.TabStopnesne the nin bir üyesidirTabStopCollection koleksiyon C#'da.
+second_title: .NET için Aspose.Words
+description: Belge biçimlendirmede özel sekme durakları için çözümünüz olan Aspose.Words.TabStop sınıfını keşfedin. Belgelerinizi hassasiyet ve kolaylıkla geliştirin!
 type: docs
-weight: 6200
+weight: 7050
 url: /tr/net/aspose.words/tabstop/
 ---
 ## TabStop class
 
-Tek bir özel sekme durağını temsil eder.`TabStop`nesne the 'nin bir üyesidir[`TabStopCollection`](../tabstopcollection/) koleksiyon.
+Tek bir özel sekme durağını temsil eder.`TabStop` nesne the 'nin bir üyesidir[`TabStopCollection`](../tabstopcollection/) koleksiyon.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) belgeleme makalesi.
 
 ```csharp
 public sealed class TabStop
@@ -29,23 +29,23 @@ public sealed class TabStop
 
 | İsim | Tanım |
 | --- | --- |
-| [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Bu sekme durağındaki metnin hizalamasını alır veya ayarlar. |
-| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | İadeler`doğru` bu sekme durağı bu konumdaki mevcut sekme duraklarını siliyorsa. |
-| [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Sekme karakterinin altında görüntülenen öncü çizginin türünü alır veya ayarlar. |
-| [Position](../../aspose.words/tabstop/position/) { get; } | Sekme durağının konumunu nokta olarak alır. |
+| [Alignment](../../aspose.words/tabstop/alignment/) { get; set; } | Bu sekme durağında metnin hizalamasını alır veya ayarlar. |
+| [IsClear](../../aspose.words/tabstop/isclear/) { get; } | Geri Döndürür`doğru` eğer bu sekme durağı bu pozisyondaki mevcut sekme duraklarını temizlerse. |
+| [Leader](../../aspose.words/tabstop/leader/) { get; set; } | Sekme karakterinin altında görüntülenen lider çizgisinin türünü alır veya ayarlar. |
+| [Position](../../aspose.words/tabstop/position/) { get; } | Sekme durağının konumunu noktalar halinde alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Equals](../../aspose.words/tabstop/equals/#equals)(*TabStop*) | Belirtilenle karşılaştırır`TabStop` . |
-| override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Bu nesnenin karma kodunu hesaplar. |
+| override [GetHashCode](../../aspose.words/tabstop/gethashcode/)() | Bu nesne için karma kodunu hesaplar. |
 
 ## Notlar
 
-Normalde sekme durağı, sekme durağının bulunduğu konumu belirtir. Ancak sekme durakları üst stillerden miras alınabildiğinden, alt object 'nin belirli bir konumda sekme durağı olmadığını açıkça tanımlaması gerekebilir. Belirli bir konumda devralınan bir sekme durağını clear için, bir`TabStop` nesne ve set [`Alignment`](./alignment/) ileClear.
+Normalde, bir sekme durağı bir sekme durağının bulunduğu bir konumu belirtir. Ancak, sekme durakları üst stillerden devralınabildiğinden, alt nesne 'nin belirli bir konumda bir sekme durağı olmadığını açıkça tanımlaması gerekebilir. Belirli bir konumda devralınan bir sekme durağını temizlemek için, bir`TabStop` nesne ve set [`Alignment`](./alignment/) ileClear.
 
-Daha fazla bilgi için bakınız[`TabStopCollection`](../tabstopcollection/).
+Daha fazla bilgi için bkz.[`TabStopCollection`](../tabstopcollection/).
 
 ## Örnekler
 
@@ -54,15 +54,15 @@ Daha fazla bilgi için bakınız[`TabStopCollection`](../tabstopcollection/).
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// İçindekiler sonuç tabanlı stillerle tüm paragrafları yineleyin; bu, TOC ve TOC9 arasındaki herhangi bir stildir.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// TOC sonuç tabanlı stillerle tüm paragraflarda gezinin; bu, TOC ile TOC9 arasındaki herhangi bir stil olabilir.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Bu paragrafta kullanılan ilk sekmeyi alın, bu sayfa numaralarını hizalamak için kullanılan sekme olmalıdır.
+        // Bu paragrafta kullanılan ilk sekmeyi al, bu sekme sayfa numaralarını hizalamak için kullanılmalıdır.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // İlk varsayılan sekmeyi değiştirin, özel bir sekme durağıyla durdurun.
+        // İlk varsayılan sekme durağını özel bir sekme durağıyla değiştir.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

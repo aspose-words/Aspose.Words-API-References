@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ImagesFolderAlias mülk. Bir HTML belgesine yazılan görüntü URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: HTML belgelerinizdeki resim URI'lerini kolayca yönetmek için HtmlSaveOptions ImagesFolderAlias özelliğini keşfedin. Bu temel özellik ile iş akışınızı basitleştirin!
 type: docs
 weight: 370
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imagesfolderalias/
 ---
 ## HtmlSaveOptions.ImagesFolderAlias property
 
-Bir HTML belgesine yazılan görüntü URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan, boş bir dizedir.
+Bir HTML belgesine yazılan görüntü URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,19 +18,19 @@ public string ImagesFolderAlias { get; set; }
 
 ## Notlar
 
-Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında Aspose.Words'ün belgeye gömülü tüm görsellerini bağımsız dosyalar olarak kaydetmesi gerekir.[`ImagesFolder`](../imagesfolder/) görüntülerin nereye kaydedileceğini belirtmenize ve`ImagesFolderAlias` , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
+Birini kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında, Aspose.Words'ün belgeye gömülü tüm resimleri bağımsız dosyalar olarak kaydetmesi gerekir.[`ImagesFolder`](../imagesfolder/) görüntülerin nereye kaydedileceğini belirtmenize olanak tanır ve`ImagesFolderAlias` görüntü URI'lerinin nasıl oluşturulacağını belirtmeye izin verir.
 
-Eğer`ImagesFolderAlias` boş bir dize değilse, HTML'ye yazılan görüntü URI'si şöyle olacaktır:ImagesFolderAlias + &lt;resim dosyası adı&gt;.
+Eğer`ImagesFolderAlias` boş bir dize değilse, HTML'ye yazılan resim URI'si şu şekilde olacaktır:ImagesFolderAlias + &lt;resim dosya adı&gt;.
 
-Eğer`ImagesFolderAlias` boş bir dize ise, HTML'ye yazılan resim URI'si şöyle olacaktır:ImagesFolder + &lt;resim dosyası adı&gt;.
+Eğer`ImagesFolderAlias`boş bir dize ise, HTML'ye yazılan resim URI'si şu şekilde olacaktırImagesFolder + &lt;resim dosya adı&gt;.
 
-Eğer`ImagesFolderAlias`ayarlandı '.' (nokta) ise, diğer seçeneklere bakılmaksızın görüntü dosyası adı yol olmadan HTML'ye yazılacaktır.
+Eğer`ImagesFolderAlias` '.' (nokta) olarak ayarlanırsa, resim dosyası adı diğer seçeneklerden bağımsız olarak yol olmaksızın HTML'ye yazılır.
 
-URIs görüntüsünü oluşturmak için klasörün adını belirtmenin alternatif yolu kullanmaktır[`ResourceFolderAlias`](../resourcefolderalias/).
+Görüntü URIs oluşturmak için klasörün adını belirtmenin alternatif yolu, şunu kullanmaktır:[`ResourceFolderAlias`](../resourcefolderalias/).
 
 ## Örnekler
 
-Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
+Aspose.Words'ün bir belgeyi HTML'e kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -44,9 +44,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
-    ResourceFolderAlias = "http://example.com/resources",
+    FontsFolderAlias = "http://example.com/yazı tipleri",
+    ImagesFolderAlias = "http://example.com/resimler",
+    ResourceFolderAlias = "http://example.com/kaynaklar",
     ExportOriginalUrlForLinkedImages = true
 };
 

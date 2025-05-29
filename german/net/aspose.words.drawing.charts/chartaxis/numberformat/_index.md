@@ -3,14 +3,14 @@ title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words für .NET
-description: ChartAxis NumberFormat eigendom. Gibt a zurückChartNumberFormat Objekt das die Definition von Zahlenformaten für die Achse ermöglicht in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis NumberFormat“, um die Zahlenformate Ihres Diagramms mühelos mit dem Objekt „ChartNumberFormat“ für eine verbesserte Datenvisualisierung anzupassen.
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-Gibt a zurück[`ChartNumberFormat`](../../chartnumberformat/) Objekt, das die Definition von Zahlenformaten für die Achse ermöglicht.
+Gibt einen[`ChartNumberFormat`](../../chartnumberformat/) Objekt, mit dem Zahlenformate für die Achse definiert werden können.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -30,16 +30,16 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Dem Diagramm eine benutzerdefinierte Reihe mit Kategorien für die X-Achse hinzufügen,
- // und große jeweilige numerische Werte für die Y-Achse.
+// Fügen Sie dem Diagramm eine benutzerdefinierte Reihe mit Kategorien für die X-Achse hinzu,
+    // und große entsprechende numerische Werte für die Y-Achse.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Stellen Sie das Zahlenformat der Y-Achsen-Teilstrichbeschriftungen so ein, dass Ziffern nicht mit Kommas gruppiert werden.
+    // Legen Sie das Zahlenformat der Teilstrichbeschriftungen der Y-Achse so fest, dass Ziffern nicht durch Kommas gruppiert werden.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Dieses Flag kann den obigen Wert überschreiben und das Zahlenformat aus der Quellzelle ziehen.
+// Dieses Flag kann den obigen Wert überschreiben und das Zahlenformat aus der Quellzelle übernehmen.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

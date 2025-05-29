@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitStructuredDocumentTagStart
 linktitle: VisitStructuredDocumentTagStart
 articleTitle: VisitStructuredDocumentTagStart
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitStructuredDocumentTagStart metod. Anropas när uppräkningen av en strukturerad dokumenttagg har startat i C#.
+description: Upptäck DocumentVisitor VisitStructuredDocumentTagStart-metoden, avgörande för att effektivt starta uppräkning av strukturerade dokumenttaggar. Förbättra din kodning idag!
 type: docs
 weight: 470
 url: /sv/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
 ---
 ## DocumentVisitor.VisitStructuredDocumentTagStart method
 
-Anropas när uppräkningen av en strukturerad dokumenttagg har startat.
+Anropas när uppräkningen av en strukturerad dokumenttagg har påbörjats.
 
 ```csharp
 public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentTag sdt)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ public void StructuredDocumentTagToText()
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void StructuredDocumentTagToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade StructuredDocumentTag-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade StructuredDocumentTag-noder och deras undernoder.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -84,7 +84,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla underordnade noder i en StructuredDocumentTag-nod har besökts.
+    /// Anropas efter att alla undernoder till en StructuredDocumentTag-nod har besökts.
     /// </summary>
     public override VisitorAction VisitStructuredDocumentTagEnd(StructuredDocumentTag sdt)
     {
@@ -95,9 +95,9 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -3,14 +3,14 @@ title: Font.Superscript
 linktitle: Superscript
 articleTitle: Superscript
 second_title: Aspose.Words för .NET
-description: Font Superscript fast egendom. Sant om teckensnittet är formaterat som upphöjt i C#.
+description: Upptäck egenskapen Font Superscript, formatera enkelt text som upphöjd skrift för förbättrad läsbarhet och stil i dina dokument. Förbättra din design idag!
 type: docs
-weight: 440
+weight: 450
 url: /sv/net/aspose.words/font/superscript/
 ---
 ## Font.Superscript property
 
-Sant om teckensnittet är formaterat som upphöjt.
+Sant om teckensnittet är formaterat som upphöjd skrift.
 
 ```csharp
 public bool Superscript { get; set; }
@@ -24,26 +24,26 @@ Visar hur man formaterar text för att förskjuta dess position.
 Document doc = new Document();
 Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 
-// Höj den här texten 5 punkter över baslinjen.
+// Höj denna textsekvens 5 punkter över baslinjen.
 Run run = new Run(doc, "Raised text. ");
 run.Font.Position = 5;
 para.AppendChild(run);
 
-// Sänk denna textserie 10 punkter under baslinjen.
+// Sänk denna textsekvens 10 punkter under baslinjen.
 run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
 
-// Lägg till en serie normal text.
+// Lägg till en sekvens med vanlig text.
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Lägg till en serie text som visas som nedsänkt.
+// Lägg till en textsekvens som visas som nedsänkt skrift.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Lägg till en serie text som visas som upphöjd.
+// Lägg till en textsekvens som visas som upphöjd skrift.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

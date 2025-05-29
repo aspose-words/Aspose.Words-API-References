@@ -3,7 +3,7 @@ title: PdfEncryptionDetails
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words för .NET
-description: PdfEncryptionDetails byggare. Initierar en instans av denna klass i C#.
+description: Upptäck konstruktorn PdfEncryptionDetails för att enkelt initiera säkra PDF-krypteringsinstanser. Förbättra ditt dokumentskydd med vårt kraftfulla verktyg!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pdfencryptiondetails/pdfencryptiondetails/
@@ -34,7 +34,7 @@ public PdfEncryptionDetails(string userPassword, string ownerPassword, PdfPermis
 
 ## Exempel
 
-Visar hur man ställer in behörigheter för ett sparat PDF-dokument.
+Visar hur man anger behörigheter för ett sparat PDF-dokument.
 
 ```csharp
 Document doc = new Document();
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Utöka behörigheter för att tillåta redigering av kommentarer.
+// Utöka behörigheter för att tillåta redigering av anteckningar.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // Aktivera kryptering via egenskapen "EncryptionDetails".
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// När vi öppnar det här dokumentet måste vi ange lösenordet innan vi kan komma åt dess innehåll.
+// När vi öppnar det här dokumentet måste vi ange lösenordet innan vi får åtkomst till dess innehåll.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

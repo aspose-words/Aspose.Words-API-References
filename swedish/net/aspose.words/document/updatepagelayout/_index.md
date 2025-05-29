@@ -3,14 +3,14 @@ title: Document.UpdatePageLayout
 linktitle: UpdatePageLayout
 articleTitle: UpdatePageLayout
 second_title: Aspose.Words för .NET
-description: Document UpdatePageLayout metod. Bygger om dokumentets sidlayout i C#.
+description: Förnya dokumentets struktur med metoden UpdatePageLayout, vilket säkerställer en polerad och organiserad layout för förbättrad läsbarhet och presentation.
 type: docs
-weight: 770
+weight: 830
 url: /sv/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
 
-Bygger om dokumentets sidlayout.
+Återskapar dokumentets sidlayout.
 
 ```csharp
 public void UpdatePageLayout()
@@ -18,19 +18,19 @@ public void UpdatePageLayout()
 
 ## Anmärkningar
 
-Denna metod formaterar ett dokument till sidor och uppdaterar de sidnummerrelaterade fälten i dokumentet, t.ex. som PAGE, PAGES, PAGEREF och REF. Den uppdaterade sidlayoutinformationen krävs för en korrekt rendering av document till fasta sidformat.
+Den här metoden formaterar ett dokument till sidor och uppdaterar sidnummerrelaterade fält i dokumentet, såsom SIDA, SIDOR, SIDREF och REF. Den aktuella informationen om sidlayout krävs för en korrekt återgivning av dokumentet till fasta sidformat.
 
-Denna metod anropas automatiskt när du först konverterar ett dokument till PDF, XPS, bild eller skriver ut det. Men om du ändrar dokumentet efter rendering och sedan försöker rendera det igen - kommer Aspose.Words inte att uppdatera sidlayouten automatiskt. I det här fallet bör du ringa`UpdatePageLayout` före rendering igen.
+Den här metoden anropas automatiskt när du först konverterar ett dokument till PDF, XPS, bild eller skriver ut det. Om du däremot ändrar dokumentet efter rendering och sedan försöker rendera det igen kommer Aspose.Words inte att uppdatera sidlayouten automatiskt. I det här fallet bör du anropa`UpdatePageLayout` before rendering igen.
 
 ## Exempel
 
-Visar när sidlayouten för dokumentet ska beräknas om.
+Visar när dokumentets sidlayout ska beräknas om.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Att spara ett dokument till PDF, till en bild eller skriva ut för första gången kommer automatiskt
-// cachelagrar dokumentets layout på dess sidor.
+// Att spara ett dokument till PDF, som en bild eller skriva ut för första gången kommer automatiskt
+// cachelagrar dokumentets layout inom dess sidor.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
 // Ändra dokumentet på något sätt.
@@ -38,7 +38,7 @@ doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // I den nuvarande versionen av Aspose.Words återuppbyggs inte ändring av dokumentet automatiskt
+// I den nuvarande versionen av Aspose.Words återskapas inte dokumentet automatiskt när du ändrar det
 // den cachade sidlayouten. Om vi önskar den cachade layouten
 // för att hålla oss uppdaterade måste vi uppdatera den manuellt.
 doc.UpdatePageLayout();

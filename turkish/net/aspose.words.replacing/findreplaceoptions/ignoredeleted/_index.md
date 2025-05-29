@@ -2,15 +2,15 @@
 title: FindReplaceOptions.IgnoreDeleted
 linktitle: IgnoreDeleted
 articleTitle: IgnoreDeleted
-second_title: Aspose.Words for .NET
-description: FindReplaceOptions IgnoreDeleted mülk. Silme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: FindReplaceOptions IgnoreDeleted özelliğini keşfedin, silinen revizyonlardaki metin görünürlüğünü kolay bir Boole geçişiyle kontrol edin. Düzenleme deneyiminizi geliştirin!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 ---
 ## FindReplaceOptions.IgnoreDeleted property
 
-Silme düzeltmeleri içindeki metnin yoksayılacağını belirten bir boole değeri alır veya ayarlar. Varsayılan değer:`YANLIŞ` .
+Silinen revizyonların içindeki metni yoksaymayı belirten bir Boole değeri alır veya ayarlar. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool IgnoreDeleted { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreDeleted { get; set; }
 
 ## Örnekler
 
-Bul ve değiştir işlemi sırasında düzeltmelerin içine metnin nasıl dahil edileceğini veya yok sayılacağını gösterir.
+Bir bul ve değiştir işlemi sırasında silme revizyonlarının içindeki metnin nasıl ekleneceğini veya yoksayılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Revizyonları izlemeye başlayın ve revizyonun silinmesini sağlayacak ikinci paragrafı kaldırın.
-// Bu paragraf biz silme revizyonunu kabul edene kadar belgede kalacaktır.
+// Revizyonları izlemeye başla ve ikinci paragrafı kaldır, bu bir silme revizyonu yaratacaktır.
+// Bu paragraf, silme revizyonunu kabul edene kadar belgede kalacaktır.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
 doc.StopTrackRevisions();
@@ -38,10 +38,10 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Bul ve değiştir işlevini elde etmek için "IgnoreDeleted" bayrağını "true" olarak ayarlayın
-// revizyonları silen paragrafları yok sayma işlemi.
-// Bul ve değiştir işlevini almak için "IgnoreDeleted" bayrağını "false" olarak ayarlayın
-// düzeltmelerin silinmesi içindeki metni de arama işlemi.
+// Bul ve değiştir özelliğini elde etmek için "IgnoreDeleted" bayrağını "true" olarak ayarlayın
+// silme revizyonları olan paragrafları yok sayma işlemi.
+// Bul ve değiştir özelliğini elde etmek için "IgnoreDeleted" bayrağını "false" olarak ayarlayın
+// silme revizyonlarının içinde de metin arama işlemi.
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

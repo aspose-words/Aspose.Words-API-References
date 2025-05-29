@@ -3,16 +3,16 @@ title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Markup.CustomPartCollection classe. Rappresenta una raccolta diCustomPart oggetti in C#.
+description: Esplora la classe Aspose.Words.Markup.CustomPartCollection per gestire in modo efficiente gli oggetti CustomPart. Migliora subito le tue capacità di elaborazione dei documenti!
 type: docs
-weight: 3910
+weight: 4600
 url: /it/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
 Rappresenta una raccolta di[`CustomPart`](../custompart/) oggetti.
 
-Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
+Per saperne di più, visita il[Tag di documenti strutturati o controllo dei contenuti](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -29,21 +29,21 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.markup/custompartcollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Ottiene o imposta un elemento nell'indice specificato. |
+| [Item](../../aspose.words.markup/custompartcollection/item/) { get; set; } | Ottiene o imposta un elemento all'indice specificato. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Aggiunge un elemento alla raccolta. |
+| [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Aggiunge un elemento alla collezione. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
 | [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Crea una copia completa di questa raccolta e dei suoi elementi. |
-| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
+| [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Rimuove un elemento all'indice specificato. |
 
 ## Osservazioni
 
-Normalmente non è necessario creare istanze di questa classe. Puoi accedere alle parti personalizzate relative al pacchetto OOXML tramite il file[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) proprietà.
+Normalmente non è necessario creare istanze di questa classe. È possibile accedere alle parti personalizzate relative al pacchetto OOXML tramite[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) proprietà.
 
 ## Esempi
 
@@ -76,7 +76,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

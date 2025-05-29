@@ -3,7 +3,7 @@ title: Range.Delete
 linktitle: Delete
 articleTitle: Delete
 second_title: Aspose.Words für .NET
-description: Range Delete methode. Löscht alle Zeichen des Bereichs in C#.
+description: Entfernen Sie effizient alle Zeichen innerhalb eines bestimmten Bereichs mit der Bereichslöschmethode. Vereinfachen Sie Ihre Textbearbeitung mühelos!
 type: docs
 weight: 70
 url: /de/net/aspose.words/range/delete/
@@ -24,14 +24,14 @@ Zeigt, wie alle Knoten aus einem Bereich gelöscht werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Text zum ersten Abschnitt im Dokument hinzufügen und dann einen weiteren Abschnitt hinzufügen.
+// Fügen Sie dem ersten Abschnitt im Dokument Text hinzu und fügen Sie dann einen weiteren Abschnitt hinzu.
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Den ersten Abschnitt vollständig entfernen, indem alle Knoten entfernt werden
+// Entfernen Sie den ersten Abschnitt vollständig, indem Sie alle Knoten entfernen
 // innerhalb seines Bereichs, einschließlich des Abschnitts selbst.
 doc.Sections[0].Range.Delete();
 

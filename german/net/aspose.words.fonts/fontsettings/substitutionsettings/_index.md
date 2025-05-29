@@ -3,7 +3,7 @@ title: FontSettings.SubstitutionSettings
 linktitle: SubstitutionSettings
 articleTitle: SubstitutionSettings
 second_title: Aspose.Words für .NET
-description: FontSettings SubstitutionSettings eigendom. Einstellungen im Zusammenhang mit dem Schriftartersetzungsmechanismus in C#.
+description: Erkunden Sie die FontSettings SubstitutionSettings-Eigenschaft, um Ihren Schriftartersetzungsprozess zu optimieren und die Textanzeigequalität mühelos zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/fontsettings/substitutionsettings/
@@ -18,13 +18,13 @@ public FontSubstitutionSettings SubstitutionSettings { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie auf die Systemschriftquelle eines Dokuments zugreifen und Schriftartersatz festlegen.
+Zeigt, wie Sie auf die Systemschriftartquelle eines Dokuments zugreifen und Schriftartenersatz festlegen.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Standardmäßig enthält ein leeres Dokument immer eine Systemschriftquelle.
+// Standardmäßig enthält ein leeres Dokument immer eine Systemschriftartquelle.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Legen Sie eine Schriftart fest, die im Windows-Schriftartenverzeichnis vorhanden ist, als Ersatz für eine Schriftart, die nicht vorhanden ist.
+// Legen Sie eine Schriftart fest, die im Windows-Schriftartenverzeichnis als Ersatz für eine Schriftart vorhanden ist, die dort nicht vorhanden ist.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -60,13 +60,14 @@ FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Durch das Zurücksetzen der Schriftartenquellen verbleiben weiterhin die Systemschriftquelle sowie unsere Ersatzschriftarten.
+// Durch das Zurücksetzen der Schriftartquellen bleiben uns weiterhin die Systemschriftartquelle und unsere Ersatzschriften erhalten.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Siehe auch

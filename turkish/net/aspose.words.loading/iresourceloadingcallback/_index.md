@@ -2,15 +2,15 @@
 title: IResourceLoadingCallback Interface
 linktitle: IResourceLoadingCallback
 articleTitle: IResourceLoadingCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback arayüz. Aspose.Wordsün bir belgeyi içe aktarırken ve görüntüleri eklerken sırasında harici kaynağı nasıl yükleyeceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.DocumentBuilder  C#'da.
+second_title: .NET için Aspose.Words
+description: IResourceLoadingCallback arayüzü ile Aspose.Words'de harici kaynak yüklemesini kontrol edin. Belge içe aktarımlarını ve resim eklemeyi sorunsuz bir şekilde geliştirin.
 type: docs
-weight: 3640
+weight: 4090
 url: /tr/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-Aspose.Words'ün bir belgeyi içe aktarırken ve görüntüleri eklerken sırasında harici kaynağı nasıl yükleyeceğini kontrol etmek istiyorsanız bu arayüzü uygulayın.[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+Bir belgeyi içe aktarırken ve görüntüleri kullanarak eklerken Aspose.Words'ün harici kaynağı nasıl yüklediğini kontrol etmek istiyorsanız bu arayüzü uygulayın.[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -24,7 +24,7 @@ public interface IResourceLoadingCallback
 
 ## Örnekler
 
-Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
+Harici kaynakların bir belgeye yüklenme sürecinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -34,8 +34,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Görüntüler genellikle bir URI veya bir bayt dizisi kullanılarak eklenir.
-    // Bir kaynak yükünün her örneği, geri çağırmamızın ResourceLoading yöntemini çağıracaktır.
+    // Resimler genellikle bir URI veya bayt dizisi kullanılarak eklenir.
+    // Kaynak yüklemesinin her örneği geri aramamızın ResourceLoading metodunu çağıracaktır.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -46,15 +46,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// URI'lerin aksine, önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize olanak tanır.
+/// URI'lerin aksine, önceden tanımlanmış kısayollar kullanarak bir belgeye resim yüklememize olanak tanır.
 /// Bu, görüntü yükleme mantığını belge yapısının geri kalanından ayıracaktır.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Bu geri arama, bir görüntüyü yüklerken görüntünün kısa yollarından biriyle karşılaşırsa,
-        // tanımlanan her kısayol için, onu bir URI olarak ele almak yerine benzersiz bir mantık uygulayacaktır.
+        // Bu geri çağırma, bir resim yüklenirken resim kısayollarından biriyle karşılaşırsa,
+        // Tanımlanan her kısaltmayı bir URI olarak ele almak yerine, ona özgü bir mantık uygulayacaktır.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

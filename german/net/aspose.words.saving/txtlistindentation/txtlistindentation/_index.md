@@ -3,7 +3,7 @@ title: TxtListIndentation
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
 second_title: Aspose.Words für .NET
-description: TxtListIndentation constructeur. Default_Constructor in C#.
+description: Entdecken Sie den Konstruktor TxtListIndentation für nahtlose Listenformatierung. Steigern Sie Ihre Programmiereffizienz mit unserer intuitiven Standardkonstruktorlösung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/txtlistindentation/txtlistindentation/

@@ -3,14 +3,14 @@ title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
 second_title: Aspose.Words per .NET
-description: Font ThemeFontFarEast proprietà. Ottiene o imposta il carattere del tema dellAsia orientale nello schema di caratteri applicato associato a questoFont oggetto in C#.
+description: Scopri come personalizzare i font a tema orientale nei tuoi progetti con Font ThemeFontFarEast. Arricchisci i tuoi progetti con una tipografia unica e personalizzata!
 type: docs
-weight: 500
+weight: 510
 url: /it/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Ottiene o imposta il carattere del tema dell'Asia orientale nello schema di caratteri applicato associato a questo[`Font`](../) oggetto.
+Ottiene o imposta il font del tema dell'Asia orientale nello schema di font applicato associato a questo[`Font`](../) oggetto.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }
@@ -18,12 +18,12 @@ public ThemeFont ThemeFontFarEast { get; set; }
 
 ## Esempi
 
-Mostra come lavorare con i caratteri e i colori del tema.
+Mostra come lavorare con i font e i colori del tema.
 
 ```csharp
 Document doc = new Document();
 
-// Definisce i caratteri per le lingue utilizzate per impostazione predefinita.
+// Definisci i font per le lingue utilizzate di default.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Possiamo usare il carattere e il colore del tema invece dei valori predefiniti.
+// Possiamo usare il font e il colore del tema invece dei valori predefiniti.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -53,7 +53,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Esistono diversi modi per reimpostarne il carattere e il colore.
+// Esistono diversi modi per reimpostare il font e il colore.
 // 1 - Impostando ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - Impostando nomi di font/colori non legati al tema:
+// 2 - Impostando nomi di font/colori non tematici:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -3,7 +3,7 @@ title: FieldAddressBlock
 linktitle: FieldAddressBlock
 articleTitle: FieldAddressBlock
 second_title: Aspose.Words для .NET
-description: FieldAddressBlock строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAddressBlock — ваше решение для оптимизированного управления адресами. Упростите кодирование с помощью нашего эффективного конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldaddressblock/fieldaddressblock/

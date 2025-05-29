@@ -3,9 +3,9 @@ title: CalendarType Enum
 linktitle: CalendarType
 articleTitle: CalendarType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.CalendarType перечисление. Указывает тип календаря на С#.
+description: Откройте для себя перечисление Aspose.Words.CalendarType, чтобы легко указывать и настраивать типы календарей для улучшенного управления документами и автоматизации.
 type: docs
-weight: 190
+weight: 380
 url: /ru/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -28,7 +28,7 @@ public enum CalendarType
 
 ## Примеры
 
-Показывает, как автоматически применять пользовательский формат к результатам полей при обновлении полей.
+Показывает, как автоматически применять пользовательский формат к результатам полей по мере обновления полей.
 
 ```csharp
 public void FieldResultFormatting()
@@ -38,10 +38,10 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Наш форматировщик результатов полей применяет пользовательский формат к вновь созданным полям трех типов форматов.
-    // Средства форматирования результатов полей применяют новое форматирование к полям по мере их обновления,
+    // Наш форматировщик результатов поля применяет пользовательский формат к вновь созданным полям трех типов форматов.
+    // Форматировщики результатов полей применяют новое форматирование к полям по мере их обновления,
     // что происходит, как только мы создаем их с помощью перегрузки метода InsertField.
-    // 1 - Числовое:
+    // 1 - Числовой:
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
@@ -53,7 +53,7 @@ public void FieldResultFormatting()
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Общее:
+    // 3 - Общие сведения:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -63,7 +63,7 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Когда поля с форматированием обновляются, этот форматтер переопределит их форматирование
+/// При обновлении полей с форматированием этот форматировщик переопределит их форматирование
 /// с пользовательским форматом, отслеживая каждый вызов.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
@@ -119,12 +119,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

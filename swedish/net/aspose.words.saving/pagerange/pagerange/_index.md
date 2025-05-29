@@ -3,14 +3,14 @@ title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
 second_title: Aspose.Words för .NET
-description: PageRange byggare. Skapar ett nytt sidintervallsobjekt i C#.
+description: Skapa enkelt anpassade sidintervall med vår PageRange-konstruktor. Förbättra din dokumenthantering med precision och flexibilitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/pagerange/pagerange/
 ---
 ## PageRange constructor
 
-Skapar ett nytt sidintervallsobjekt.
+Skapar ett nytt sidintervallobjekt.
 
 ```csharp
 public PageRange(int from, int to)
@@ -18,8 +18,8 @@ public PageRange(int from, int to)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| from | Int32 | Startsidan nollbaserat index. |
-| to | Int32 | Slutsidans nollbaserat index. Om det överskrider indexet för den sista sidan i dokumentet, trunkeras det för att passa in i dokumentet vid rendering. |
+| from | Int32 | Startsidans nollbaserade index. |
+| to | Int32 | Det nollbaserade indexet för den sista sidan. Om det överstiger indexet för den sista sidan i dokumentet, avkortas det för att passa in i dokumentet vid rendering. |
 
 ## Anmärkningar
 

@@ -3,14 +3,14 @@ title: Shape.OleFormat
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words pour .NET
-description: Shape OleFormat propriété. Fournit un accès aux données OLE dune forme. Pour une forme qui nest pas un objet OLE ou un contrôle ActiveX renvoienul  en C#.
+description: Accédez et gérez facilement la propriété OleFormat des formes. Récupérez des données OLE pour des fonctionnalités améliorées, avec retour nul pour les objets non OLE.
 type: docs
-weight: 140
+weight: 150
 url: /fr/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Fournit un accès aux données OLE d'une forme. Pour une forme qui n'est pas un objet OLE ou un contrôle ActiveX, renvoie`nul` .
+Donne accès aux données OLE d'une forme. Pour une forme autre qu'un objet OLE ou un contrôle ActiveX, renvoie`nul` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -18,7 +18,7 @@ public OleFormat OleFormat { get; }
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

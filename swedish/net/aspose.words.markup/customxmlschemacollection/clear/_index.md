@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection Clear metod. Tar bort alla element från samlingen i C#.
+description: Rensa enkelt din CustomXmlSchemaCollection med Clear-metoden, vilket tar bort alla element för optimal hantering och organisation.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/customxmlschemacollection/clear/
@@ -39,15 +39,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

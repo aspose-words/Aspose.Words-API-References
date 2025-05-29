@@ -2,15 +2,15 @@
 title: XpsSaveOptions
 linktitle: XpsSaveOptions
 articleTitle: XpsSaveOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: XpsSaveOptions 构造函数. 初始化此类的一个新实例该实例可用于将 document 保存在Xps格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 XpsSaveOptions 构造函数，轻松创建以 XPS 格式保存文档的实例，提高文档管理效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/xpssaveoptions/xpssaveoptions/
 ---
 ## XpsSaveOptions() {#constructor}
 
-初始化此类的一个新实例，该实例可用于将 document 保存在Xps格式.
+初始化此类的新实例，可用于保存 document 在Xps格式.
 
 ```csharp
 public XpsSaveOptions()
@@ -18,13 +18,13 @@ public XpsSaveOptions()
 
 ## 例子
 
-演示如何限制将出现在已保存 XPS 文档大纲中的标题级别。
+展示如何限制已保存 XPS 文档大纲中出现的标题级别。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入可作为 1、2、3 级目录条目的标题。
+// 插入可作为 1、2 和 3 级目录条目的标题。
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -47,10 +47,10 @@ XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// 输出 XPS 文档将包含大纲，即列出文档正文中的标题的目录。
-// 单击此大纲中的条目将带我们到达其各自标题的位置。
-// 将“HeadingsOutlineLevels”属性设置为“2”，以从大纲中排除级别高于 2 的所有标题。
-// 我们在上面插入的最后两个标题将不会出现。
+// 输出的 XPS 文档将包含一个大纲，即列出文档正文中标题的目录。
+// 单击此大纲中的条目将带我们到其相应标题的位置。
+// 将“HeadingsOutlineLevels”属性设置为“2”，以从大纲中排除所有级别高于 2 的标题。
+// 我们上面插入的最后两个标题将不会出现。
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
@@ -66,7 +66,7 @@ doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);
 
 ## XpsSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-初始化此类的一个新实例，该实例可用于将 document 保存在Xps或者OpenXps格式.
+初始化此类的新实例，可用于保存 document 在Xps或者OpenXps格式.
 
 ```csharp
 public XpsSaveOptions(SaveFormat saveFormat)
@@ -74,7 +74,7 @@ public XpsSaveOptions(SaveFormat saveFormat)
 
 ## 例子
 
-演示如何以书本折叠的形式将文档保存为 XPS 格式。
+展示如何将文档以书本折叠的形式保存为 XPS 格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -83,21 +83,21 @@ Document doc = new Document(MyDir + "Paragraphs.docx");
 // 修改该方法将文档转换为 .XPS 的方式。
 XpsSaveOptions xpsOptions = new XpsSaveOptions(SaveFormat.Xps);
 
-// 将“UseBookFoldPrintingSettings”属性设置为“true”以排列内容
-// 在输出 XPS 中以帮助我们使用它制作小册子的方式。
-// 将“UseBookFoldPrintingSettings”属性设置为“false”以正常渲染 XPS。
+// 将“UseBookFoldPrintingSettings”属性设置为“true”来排列内容
+// 以一种有助于我们使用它制作小册子的方式输出 XPS。
+// 将“UseBookFoldPrintingSettings”属性设置为“false”以正常呈现 XPS。
 xpsOptions.UseBookFoldPrintingSettings = renderTextAsBookFold;
 
-// 如果我们将文档呈现为小册子，则必须设置“MultiplePages”
-// 所有部分的页面设置对象的属性为“MultiplePagesType.BookFoldPrinting”。
+// 如果我们将文档渲染为小册子，则必须设置“MultiplePages”
+// 将所有部分的页面设置对象的属性设置为“MultiplePagesType.BookFoldPrinting”。
 if (renderTextAsBookFold)
     foreach (Section s in doc.Sections)
     {
         s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
     }
 
-// 一旦我们打印了这个文档，我们就可以通过堆叠页面将其变成一本小册子
-// 从打印机中出来并向下折叠。
+// 一旦我们打印了这份文件，我们就可以通过堆叠页面将其变成一本小册子
+// 从打印机出来并向下折叠。
 doc.Save(ArtifactsDir + "XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 

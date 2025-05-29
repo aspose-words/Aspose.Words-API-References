@@ -3,14 +3,14 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words für .NET
-description: Field Separator eigendom. Ruft den Knoten ab der das Feldtrennzeichen darstellt. Kann seinNull  in C#.
+description: Entdecken Sie die Eigenschaft „Feldtrennzeichen“, um einfach auf den Knoten zuzugreifen, der das Feldtrennzeichen darstellt, und so die Effizienz der Datenverwaltung zu steigern. Erfahren Sie mehr!
 type: docs
 weight: 80
 url: /de/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` .
+Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

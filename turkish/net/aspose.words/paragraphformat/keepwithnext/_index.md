@@ -2,8 +2,8 @@
 title: ParagraphFormat.KeepWithNext
 linktitle: KeepWithNext
 articleTitle: KeepWithNext
-second_title: Aspose.Words for .NET
-description: ParagraphFormat KeepWithNext mülk. Paragrafın onu takip eden paragrafla aynı sayfada kalması gerekiyorsa doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphFormat KeepWithNext özelliğinin paragraflarınızın bir arada kalmasını sağlayarak belge akışını ve okunabilirliği artırarak cilalı bir görünüm sağladığını keşfedin.
 type: docs
 weight: 170
 url: /tr/net/aspose.words/paragraphformat/keepwithnext/
@@ -18,16 +18,16 @@ public bool KeepWithNext { get; set; }
 
 ## Örnekler
 
-Aynı sayfada bir arada kalacak bir tablonun nasıl ayarlanacağını gösterir.
+Aynı sayfada bir arada kalmak için bir masanın nasıl kurulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tablodaki hariç her paragraf için KeepWithNext etkinleştiriliyor
-// son satırdaki sonuncular tablonun birden fazla sayfaya bölünmesini engelleyecektir.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Tablodaki her paragraf için KeepWithNext'i etkinleştirme, ancak
+// son satırdaki sonlar tablonun birden fazla sayfaya bölünmesini önleyecektir.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

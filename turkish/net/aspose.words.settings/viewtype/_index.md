@@ -2,10 +2,10 @@
 title: ViewType Enum
 linktitle: ViewType
 articleTitle: ViewType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.ViewType Sıralama. Microsoft Worddeki görüntüleme modu için olası değerler C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word için Aspose.Words.Settings.ViewType enum'unu keşfedin. Belge sunumunu ve kullanıcı deneyimini geliştirmek için esnek görünüm modlarının kilidini açın.
 type: docs
-weight: 5960
+weight: 6790
 url: /tr/net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
@@ -20,16 +20,16 @@ public enum ViewType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Belge, uygulamanın varsayılan görünümünde oluşturulacaktır. |
-| Reading | `0` | Belge, uygulamanın varsayılan görünümünde oluşturulacaktır. |
-| PageLayout | `1` | Belge, belgeyi yazdırılacağı şekliyle görüntüleyen bir görünümde açılacaktır. |
-| Outline | `3` | Belge, uzun belgelerin ana hatlarını çizmek veya oluşturmak için optimize edilmiş bir görünümde oluşturulacaktır. |
-| Normal | `4` | Belge, uzun belgelerin ana hatlarını çizmek veya oluşturmak için optimize edilmiş bir görünümde oluşturulacaktır. |
-| Web | `5` | Belge, bu belgenin bir web sayfasında görüntülenme şeklini taklit eden bir görünümde oluşturulacaktır. |
+| None | `0` | Belge, uygulamanın varsayılan görünümünde işlenecektir. |
+| Reading | `0` | Belge, uygulamanın varsayılan görünümünde işlenecektir. |
+| PageLayout | `1` | Belge, yazdırılacağı şekliyle görüntüleyen bir görünümde açılacaktır. |
+| Outline | `3` | Belge, uzun belgelerin ana hatlarını çıkarmak veya oluşturmak için optimize edilmiş bir görünümde işlenmelidir. |
+| Normal | `4` | Belge, uzun belgelerin ana hatlarını çıkarmak veya oluşturmak için optimize edilmiş bir görünümde işlenmelidir. |
+| Web | `5` | Belge, bu belgenin bir web sayfasında görüntüleneceği şekilde taklit edilen bir görünümde işlenecektir. |
 
 ## Örnekler
 
-Microsoft Word'ün eski sürümlerinin yükleme sırasında bir belgeye uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
+Microsoft Word'ün eski sürümlerinin bir belgeyi yüklerken uygulayacağı özel yakınlaştırma faktörünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

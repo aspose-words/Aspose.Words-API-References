@@ -3,7 +3,7 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words для .NET
-description: PageSetup HeaderDistance свойство. Возвращает или задает расстояние в пунктах между заголовком и верхней частью страницы на С#.
+description: Настройте свойство PageSetup HeaderDistance, чтобы задать интервал между заголовками в пунктах, улучшив макет документа для лучшей читаемости и представления.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/pagesetup/headerdistance/
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();

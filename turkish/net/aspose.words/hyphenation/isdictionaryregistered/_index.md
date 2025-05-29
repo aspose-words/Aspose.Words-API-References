@@ -2,15 +2,15 @@
 title: Hyphenation.IsDictionaryRegistered
 linktitle: IsDictionaryRegistered
 articleTitle: IsDictionaryRegistered
-second_title: Aspose.Words for .NET
-description: Hyphenation IsDictionaryRegistered yöntem. İadelerYANLIŞ belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük isedoğru aksi halde C#'da.
+second_title: .NET için Aspose.Words
+description: Hyphenation IsDictionaryRegistered metodunu keşfedin, uygulamalarınızda doğru tirelemeyi garantilemek için bir sözlüğün diliniz için kayıtlı olup olmadığını kontrol eder.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/hyphenation/isdictionaryregistered/
 ---
 ## Hyphenation.IsDictionaryRegistered method
 
-İadeler`YANLIŞ` belirtilen dil için kayıtlı sözlük yoksa veya kayıtlıysa Boş sözlük ise,`doğru` aksi halde.
+Geri Döndürür`YANLIŞ` Belirtilen dil için kayıtlı bir sözlük yoksa veya kayıtlı sözlük Null ise,`doğru` aksi takdirde.
 
 ```csharp
 public static bool IsDictionaryRegistered(string language)
@@ -22,17 +22,17 @@ Bir tireleme sözlüğünün nasıl kaydedileceğini gösterir.
 
 ```csharp
 // Bir tireleme sözlüğü, sözlüğün dili için tireleme kurallarını tanımlayan dizelerin bir listesini içerir.
-// Bir belge, bir kelimenin bölünüp sonraki satırda devam edebileceği metin satırları içerdiğinde,
-// tireleme, o kelimenin alt dizeleri için sözlüğün dize listesine bakacaktır.
-// Sözlük bir alt dize içeriyorsa, tireleme sözcüğü iki satıra böler
-// alt dizenin yanında ve ilk yarıya bir kısa çizgi ekleyin.
-// Yerel dosya sisteminden bir sözlük dosyasını "de-CH" yerel ayarına kaydedin.
+// Bir belge, bir kelimenin bölünebileceği ve bir sonraki satırda devam ettirilebileceği metin satırları içeriyorsa,
+// tireleme, sözlüğün dize listesinde o kelimenin alt dizelerini arayacaktır.
+// Eğer sözlük bir alt dize içeriyorsa, tireleme kelimeyi iki satıra böler
+// alt dizeye göre ve ilk yarıya bir tire ekleyin.
+// Yerel dosya sisteminden "de-CH" yereline bir sözlük dosyası kaydedin.
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
 Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
 
-// Sözlüğümüzün yerel ayarıyla eşleşen metni içeren bir belge açın,
-// ve onu sabit sayfa kaydetme formatında kaydedin. Bu belgedeki metin tirelenecektir.
+// Sözlüğümüzle eşleşen bir yerel ayara sahip metin içeren bir belge açın,
+// ve sabit sayfa kaydetme biçimine kaydedin. Bu belgedeki metin tireli olacaktır.
 Document doc = new Document(MyDir + "German text.docx");
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
@@ -40,8 +40,8 @@ Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
-// Sözlüğün kaydını kaldırdıktan sonra belgeyi yeniden yükleyin,
-// ve onu tireli metin içermeyecek başka bir PDF'ye kaydedin.
+// Sözlüğün kaydı silindikten sonra belgeyi yeniden yükleyin,
+// ve tireli metin içermeyen başka bir PDF'ye kaydedin.
 Hyphenation.UnregisterDictionary("de-CH");
 
 Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));

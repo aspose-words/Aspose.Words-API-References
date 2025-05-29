@@ -3,9 +3,9 @@ title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection classe. Rappresenta una raccolta di valori Y per una serie di grafici in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.ChartYValueCollection, la soluzione ideale per gestire in modo efficiente ed efficace i valori Y nelle serie di grafici.
 type: docs
-weight: 880
+weight: 1200
 url: /it/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
@@ -21,7 +21,8 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Ottiene il numero di elementi in questa raccolta. |
-| [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Ottiene o imposta il valore Y in corrispondenza dell'indice specificato. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | Ottiene o imposta il codice di formato applicato ai valori Y. |
+| [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Ottiene o imposta il valore Y all'indice specificato. |
 
 ## Metodi
 
@@ -31,13 +32,13 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 ## Osservazioni
 
-Tutti gli articoli della collezione diversi da**nullo** deve avere lo stesso[`ValueType`](../chartyvalue/valuetype/).
+Tutti gli articoli della collezione tranne**null** deve avere lo stesso[`ValueType`](../chartyvalue/valuetype/).
 
-La raccolta consente solo di modificare i valori Y. Per aggiungere o inserire nuovi valori in una serie di grafici o rimuovere valori, i metodi appropriati di[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
+La raccolta consente solo la modifica dei valori Y. Per aggiungere o inserire nuovi valori a una serie di grafici, o rimuovere valori, i metodi appropriati del[`ChartSeries`](../chartseries/) è possibile utilizzare la classe.
 
 ## Esempi
 
-Mostra come ottenere i dati delle serie di grafici.
+Mostra come ottenere dati di serie di grafici.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +56,7 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Cancella il formato individuale di tutti i punti dati.
-    // I punti dati e i valori dei dati sono uno a uno nei grafici a colonne.
+    // Nei grafici a colonne, i punti dati e i valori dei dati sono uno a uno.
     series.DataPoints[i].ClearFormat();
 
     // Ottieni il valore Y.

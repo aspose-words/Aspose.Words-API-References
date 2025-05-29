@@ -2,10 +2,10 @@
 title: ConditionalStyleType Enum
 linktitle: ConditionalStyleType
 articleTitle: ConditionalStyleType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ConditionalStyleType Sıralama. Bir tablo stilinde koşullu biçimlendirmenin tanımlanabileceği olası tablo alanlarını temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Dinamik tablo biçimlendirmesini tanımlamak için Aspose.Words.ConditionalStyleType enum'unu keşfedin. Belge stillerinizi esnek, koşullu seçeneklerle geliştirin!
 type: docs
-weight: 330
+weight: 530
 url: /tr/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
@@ -20,18 +20,18 @@ public enum ConditionalStyleType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| FirstRow | `0` | Bir tablonun ilk satırının formatını belirtir. |
+| FirstRow | `0` | Bir tablonun ilk satırının biçimlendirmesini belirtir. |
 | FirstColumn | `1` | Bir tablonun ilk sütununun biçimlendirmesini belirtir. |
-| LastRow | `2` | Tablonun son satırının formatını belirtir. |
+| LastRow | `2` | Bir tablonun son satırının biçimlendirmesini belirtir. |
 | LastColumn | `3` | Bir tablonun son sütununun biçimlendirmesini belirtir. |
-| OddRowBanding | `4` | Tek sayılı satır şeridinin formatını belirtir. |
+| OddRowBanding | `4` | Tek sayılı satır şeridinin biçimlendirmesini belirtir. |
 | OddColumnBanding | `5` | Tek sayılı sütun şeridinin biçimlendirmesini belirtir. |
-| EvenRowBanding | `6` | Çift sayılı satır şeridinin formatını belirtir. |
+| EvenRowBanding | `6` | Çift sayılı satır şeridinin biçimlendirmesini belirtir. |
 | EvenColumnBanding | `7` | Çift sayılı sütun şeridinin biçimlendirmesini belirtir. |
 | TopLeftCell | `8` | Bir tablonun sol üst hücresinin biçimlendirmesini belirtir. |
 | TopRightCell | `9` | Bir tablonun sağ üst hücresinin biçimlendirmesini belirtir. |
-| BottomLeftCell | `10` | Bir tablonun sol alt hücresinin formatını belirtir. |
-| BottomRightCell | `11` | Bir tablonun sağ alt hücresinin formatını belirtir. |
+| BottomLeftCell | `10` | Bir tablonun sol alt hücresinin biçimlendirmesini belirtir. |
+| BottomRightCell | `11` | Bir tablonun sağ alt hücresinin biçimlendirmesini belirtir. |
 
 ## Örnekler
 
@@ -57,17 +57,17 @@ builder.EndTable();
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
 // Koşullu stiller, tablonun yalnızca bazı hücrelerini etkileyen biçimlendirme değişiklikleridir
-// hücrelerin son satırda olması gibi bir yüklemi temel alır.
-// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu verilmiştir.
+// hücrelerin son satırda olması gibi bir öngörüye dayalı.
+// Aşağıda "ConditionalStyles" koleksiyonundan bir tablo stilinin koşullu stillerine erişmenin üç yolu bulunmaktadır.
 // 1 - Stil türüne göre:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
-// 2 - Dizine göre:
+// 2 - Dizin olarak:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - Özellik olarak:
+// 3 - Bir özellik olarak:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 // Koşullu stillere dolgu ve metin biçimlendirmesi uygulayın.
@@ -77,7 +77,7 @@ tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Olası tüm stil koşullarını listeleyin.
+// Tüm olası stil koşullarını listele.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -87,14 +87,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Tüm koşullu stilleri içeren özel stili tabloya uygulayın.
+// Tüm koşullu stilleri içeren özel stili tabloya uygula.
 table.Style = tableStyle;
 
 // Stilimiz varsayılan olarak bazı koşullu stilleri uygular.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// "StyleOptions" özelliği aracılığıyla diğer tüm stilleri kendimiz etkinleştirmemiz gerekecek.
+// Diğer tüm stilleri "StyleOptions" özelliği aracılığıyla kendimiz etkinleştirmemiz gerekecek.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

@@ -3,9 +3,9 @@ title: ReplacingArgs Class
 linktitle: ReplacingArgs
 articleTitle: ReplacingArgs
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Replacing.ReplacingArgs klas. Stellt Daten für einen benutzerdefinierten Ersetzungsvorgang bereit in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Replacing.ReplacingArgs für effizienten, benutzerdefinierten Textersatz in Ihren Dokumenten. Verbessern Sie noch heute Ihren Workflow!
 type: docs
-weight: 4650
+weight: 5390
 url: /de/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
@@ -22,16 +22,16 @@ public class ReplacingArgs
 
 | Name | Beschreibung |
 | --- | --- |
-| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifiziert anhand des Index eine erfasste Gruppe im[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) string. |
-| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifiziert anhand des Namens eine erfasste Gruppe im[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) string. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DieMatch resultierend aus einer einzelnen regulären -Ausdrucksübereinstimmung während eines**Ersetzen** . |
-| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Ruft den Knoten ab, der den Anfang des Matches enthält. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ruft die nullbasierte Startposition der Übereinstimmung ab dem Anfang des Knotens ab, der den Anfang der Übereinstimmung enthält. |
-| [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Ruft die Ersatzzeichenfolge ab oder legt sie fest. |
+| [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifiziert über den Index eine erfasste Gruppe in der[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) Zeichenfolge. |
+| [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifiziert anhand des Namens eine erfasste Gruppe in der[`Match`](./match/) , das durch das ersetzt werden soll[`Replacement`](./replacement/) Zeichenfolge. |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | DieMatch resultierend aus einer einzigen Übereinstimmung mit einem regulären -Ausdruck während einer**Ersetzen** . |
+| [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Ruft den Knoten ab, der den Anfang der Übereinstimmung enthält. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Ruft die nullbasierte Startposition der Übereinstimmung vom Anfang des Knotens ab, der den Anfang der Übereinstimmung enthält. |
+| [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Ruft die Ersetzungszeichenfolge ab oder legt sie fest. |
 
 ## Beispiele
 
-Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
+Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden und dabei alle derartigen Ersetzungen nachverfolgt werden.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -42,10 +42,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Replace“ vornimmt.
+    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Ersetzen“ vornimmt.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -59,8 +59,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Verwaltet ein Protokoll aller Textersetzungen, die durch einen Such- und Ersetzungsvorgang durchgeführt werden
-/// und notiert den Wert des ursprünglich übereinstimmenden Texts.
+/// Führt ein Protokoll über jeden Textaustausch durch eine Suchen-und-Ersetzen-Operation
+/// und notiert den Wert des ursprünglichen übereinstimmenden Textes.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -82,14 +82,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
+Zeigt, wie der gesamte Inhalt eines Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -104,11 +104,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Ein Dokument nach dem Absatz einfügen, der den übereinstimmenden Text enthält.
+        // Fügen Sie nach dem Absatz, der den übereinstimmenden Text enthält, ein Dokument ein.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Den Absatz mit dem übereinstimmenden Text entfernen.
+        // Entfernen Sie den Absatz mit dem übereinstimmenden Text.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -116,7 +116,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Fügt alle Knoten eines anderen Dokuments nach einem Absatz oder einer Tabelle ein.
+/// Fügt nach einem Absatz oder einer Tabelle alle Knoten eines anderen Dokuments ein.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -130,7 +130,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Den Knoten überspringen, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
+                // Überspringe den Knoten, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

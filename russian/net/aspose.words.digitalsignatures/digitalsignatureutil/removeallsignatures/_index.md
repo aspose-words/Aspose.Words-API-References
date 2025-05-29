@@ -3,16 +3,16 @@ title: DigitalSignatureUtil.RemoveAllSignatures
 linktitle: RemoveAllSignatures
 articleTitle: RemoveAllSignatures
 second_title: Aspose.Words для .NET
-description: DigitalSignatureUtil RemoveAllSignatures метод. Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения на С#.
+description: Легко удалите все цифровые подписи с помощью метода RemoveAllSignatures от DigitalSignatureUtil. Преобразуйте ваши подписанные файлы в чистые, неподписанные версии легко!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.digitalsignatures/digitalsignatureutil/removeallsignatures/
 ---
 ## RemoveAllSignatures(*string, string*) {#removeallsignatures_1}
 
-Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в файл назначения.
+Удаляет все цифровые подписи из исходного файла и записывает неподписанный файл в целевой файл.
 
-Для удаления цифровой подписи совместимы следующие форматы: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+Для удаления цифровой подписи совместимы следующие форматы: Doc , Dot , Docx , Dotx , Docm , Dotm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(string srcFileName, string dstFileName)
@@ -23,9 +23,9 @@ public static void RemoveAllSignatures(string srcFileName, string dstFileName)
 Показывает, как удалить цифровые подписи из документа с цифровой подписью.
 
 ```csharp
-// Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей.
+// Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей
 // из подписанного документа, сохранив его неподписанную копию где-нибудь в другом месте локальной файловой системы.
-// 1 - Определить местоположение как подписанного документа, так и неподписанной копии по строкам имен файлов:
+// 1 - Определить местоположение как подписанного документа, так и неподписанной копии по строкам имени файла:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
@@ -38,9 +38,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// Убедитесь, что оба наших выходных документа не имеют цифровых подписей.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// Проверяем, что оба наших выходных документа не имеют цифровых подписей.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### Смотрите также
@@ -55,9 +55,9 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 Удаляет все цифровые подписи из документа в исходном потоке и записывает неподписанный документ в целевой поток.
 
-**Вывод будет записан в начало потока, а размер потока будет обновляться в зависимости от длины контента.**
+**Вывод будет записан в начало потока, а размер потока будет обновлен в соответствии с длиной содержимого.**
 
-Для удаления цифровой подписи совместимы следующие форматы: Doc , Dot , Docx , Dotx , Docm , Odt , Ott.
+Для удаления цифровой подписи совместимы следующие форматы: Doc , Dot , Docx , Dotx , Docm , Dotm , Odt , Ott.
 
 ```csharp
 public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
@@ -68,9 +68,9 @@ public static void RemoveAllSignatures(Stream srcStream, Stream dstStream)
 Показывает, как удалить цифровые подписи из документа с цифровой подписью.
 
 ```csharp
-// Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей.
+// Существует два способа использования класса DigitalSignatureUtil для удаления цифровых подписей
 // из подписанного документа, сохранив его неподписанную копию где-нибудь в другом месте локальной файловой системы.
-// 1 - Определить местоположение как подписанного документа, так и неподписанной копии по строкам имен файлов:
+// 1 - Определить местоположение как подписанного документа, так и неподписанной копии по строкам имени файла:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
@@ -83,9 +83,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// Убедитесь, что оба наших выходных документа не имеют цифровых подписей.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// Проверяем, что оба наших выходных документа не имеют цифровых подписей.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### Смотрите также

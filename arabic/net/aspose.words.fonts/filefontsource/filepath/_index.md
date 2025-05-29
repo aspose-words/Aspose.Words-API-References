@@ -3,7 +3,7 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words لـ .NET
-description: FileFontSource FilePath ملكية. المسار إلى ملف الخط في C#.
+description: اكتشف خاصية FileFontSource FilePath للوصول بسهولة إلى ملفات خطوطك. بسّط عملية التصميم لديك مع هذه الأداة الأساسية!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/filefontsource/filepath/

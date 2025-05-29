@@ -3,9 +3,9 @@ title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words para .NET
-description: ChartDataLabel ShowBubbleSize propiedad. Permite especificar si se mostrará el tamaño de la burbuja para las etiquetas de datos en un gráfico. Se aplica solo a gráficos de burbujas. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad ShowBubbleSize mejora sus gráficos de burbujas al mostrar el tamaño de las etiquetas de datos. ¡Optimice su representación visual de datos hoy mismo!
 type: docs
-weight: 80
+weight: 130
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Aplicar una etiqueta de datos a cada burbuja que muestre su diámetro.
+//Aplica una etiqueta de datos a cada burbuja que muestre su diámetro.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

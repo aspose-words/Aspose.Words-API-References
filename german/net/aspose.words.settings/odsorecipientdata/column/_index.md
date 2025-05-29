@@ -3,7 +3,7 @@ title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
 second_title: Aspose.Words für .NET
-description: OdsoRecipientData Column eigendom. Gibt die Spalte innerhalb der Datenquelle an die eindeutige Daten für den aktuellen Datensatz enthält. Der Standardwert ist 0 in C#.
+description: Entdecken Sie die OdsoRecipientData-Spalteneigenschaft, identifizieren Sie einfach eindeutige Datenspalten für Datensätze und verbessern Sie so die Datenverwaltung. Der Standardwert ist 0.
 type: docs
 weight: 30
 url: /de/net/aspose.words.settings/odsorecipientdata/column/
@@ -18,7 +18,7 @@ public int Column { get; set; }
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Zusammenführungsdatenquellendatensätze von einem Serienbrief ausgeschlossen werden.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die angibt, welche Datensätze aus Seriendruckdatenquellen bei einem Seriendruck ausgeschlossen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Wir können die Elemente in dieser Sammlung klonen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Wir können auch Elemente einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
+// Wir können Elemente auch einzeln entfernen oder die gesamte Sammlung auf einmal löschen.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

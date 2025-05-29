@@ -3,7 +3,7 @@ title: PdfSaveOptions.AdditionalTextPositioning
 linktitle: AdditionalTextPositioning
 articleTitle: AdditionalTextPositioning
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions AdditionalTextPositioning propriété. Un indicateur spécifiant sil faut écrire ou non des opérateurs de positionnement de texte supplémentaires en C#.
+description: Découvrez la propriété PdfSaveOptions AdditionalTextPositioning pour contrôler le positionnement du texte dans les PDF. Améliorez la mise en page de votre document sans effort !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -18,7 +18,7 @@ public bool AdditionalTextPositioning { get; set; }
 
 ## Remarques
 
-Si`vrai` , des opérateurs de positionnement de texte supplémentaires sont écrits dans le PDF de sortie. Cela peut aider à surmonter les problèmes liés au positionnement inexact du texte avec certaines imprimantes. L'inconvénient est l'augmentation de la taille du document PDF.
+Si`vrai` Des opérateurs de positionnement de texte supplémentaires sont ajoutés au PDF de sortie. Cela peut permettre de résoudre les problèmes de positionnement de texte inexact sur certaines imprimantes. L'inconvénient est l'augmentation de la taille du document PDF.
 
 La valeur par défaut est`FAUX`.
 
@@ -29,15 +29,15 @@ Montrez comment écrire des opérateurs de positionnement de texte supplémentai
 ```csharp
 Document doc = new Document(MyDir + "Text positioning operators.docx");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // Définissez la propriété "AdditionalTextPositioning" sur "true" pour tenter de corriger les erreurs
+    // Définissez la propriété « AdditionalTextPositioning » sur « true » pour tenter de corriger une erreur
     // positionnement des éléments dans le PDF de sortie, s'il y en a, au prix d'une augmentation de la taille du fichier.
-    // Définissez la propriété "AdditionalTextPositioning" sur "false" pour afficher le document comme d'habitude.
+    // Définissez la propriété « AdditionalTextPositioning » sur « false » pour restituer le document comme d'habitude.
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };
 

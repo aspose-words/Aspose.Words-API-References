@@ -2,8 +2,8 @@
 title: Range.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: Range Text mülk. Aralığın metnini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş içerik yönetimi için belirtilen bir aralıktaki metni kolayca almak ve düzenlemek amacıyla Aralık Metni özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/range/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Notlar
 
-Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
+Döndürülen dize, aşağıda açıklandığı gibi tüm denetim ve özel karakterleri içerir[`ControlChar`](../../controlchar/).
 
 ## Örnekler
 

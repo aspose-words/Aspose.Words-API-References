@@ -3,14 +3,14 @@ title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
 second_title: Aspose.Words لـ .NET
-description: FontInfo Panose ملكية. الحصول على رقم تصنيف محرف PANOSE أو تعيينه في C#.
+description: اكتشف خاصية FontInfo PANOSE، واحصل بسهولة على رقم تصنيف الخط أو قم بتعيينه لتحسين إدارة الخطوط ودقة التصميم.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
 
-الحصول على رقم تصنيف محرف PANOSE أو تعيينه.
+يحصل على رقم تصنيف الخط PANOSE أو يعينه.
 
 ```csharp
 public byte[] Panose { get; set; }
@@ -18,9 +18,9 @@ public byte[] Panose { get; set; }
 
 ## ملاحظات
 
-PANOSE عبارة عن وصف مضغوط مكون من 10 بايت للخصائص المرئية المهمة للخطوط، مثل التباين والوزن ونمط serif. تمثل الأرقام نوع العائلة، ونمط Serif، و الوزن، والنسبة، والتباين، وتباين السكتة الدماغية، ونمط الذراع، وشكل الحرف، والخط المتوسط، والارتفاع X.
+بانوز هو وصف موجز من ١٠ بايتات للخصائص المرئية الأساسية للخطوط، مثل التباين والوزن ونمط الحروف. تمثل الأرقام نوع الخط، ونمط الحروف، والوزن، والنسبة، والتباين، وتباين الخطوط، ونمط الذراع، وشكل الحرف، وخط المنتصف، وارتفاع الحرف X.
 
-يمكن ان يكون`باطل`.
+يمكن أن يكون`باطل`.
 
 ## أمثلة
 
@@ -37,7 +37,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

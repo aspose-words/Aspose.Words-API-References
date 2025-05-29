@@ -3,14 +3,14 @@ title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words für .NET
-description: ImageSize constructeur. Initialisiert Breite und Höhe auf die angegebenen Werte in Pixel. Initialisiert die Auflösung auf 96 dpi in C#.
+description: Erstellen Sie präzise Bilder mit dem ImageSize-Konstruktor und legen Sie benutzerdefinierte Breite, Höhe und 96 dpi-Auflösung für optimale Klarheit und Qualität fest.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-Initialisiert Breite und Höhe auf die angegebenen Werte in Pixel. Initialisiert die Auflösung auf 96 dpi.
+Initialisiert Breite und Höhe auf die angegebenen Werte in Pixeln. Initialisiert die Auflösung auf 96 dpi.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -18,8 +18,8 @@ public ImageSize(int widthPixels, int heightPixels)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| widthPixels | Int32 | Breite in Pixel. |
-| heightPixels | Int32 | Höhe in Pixel. |
+| widthPixels | Int32 | Breite in Pixeln. |
+| heightPixels | Int32 | Höhe in Pixeln. |
 
 ### Siehe auch
 
@@ -40,8 +40,8 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| widthPixels | Int32 | Breite in Pixel. |
-| heightPixels | Int32 | Höhe in Pixel. |
+| widthPixels | Int32 | Breite in Pixeln. |
+| heightPixels | Int32 | Höhe in Pixeln. |
 | horizontalResolution | Double | Horizontale Auflösung in DPI. |
 | verticalResolution | Double | Vertikale Auflösung in DPI. |
 

@@ -3,14 +3,14 @@ title: Document.IncludeTextboxesFootnotesEndnotesInStat
 linktitle: IncludeTextboxesFootnotesEndnotesInStat
 articleTitle: IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words för .NET
-description: Document IncludeTextboxesFootnotesEndnotesInStat fast egendom. Anger om textrutor fotnoter och slutnoter ska inkluderas i statistiken över antalet ord i C#.
+description: Optimera ditt dokuments ordantal med egenskapen IncludeTextboxesFootnotesEndnotesInStat. Kontrollera textrutor, fotnoter och slutnoter utan ansträngning!
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
 ## Document.IncludeTextboxesFootnotesEndnotesInStat property
 
-Anger om textrutor, fotnoter och slutnoter ska inkluderas i statistiken över antalet ord.
+Anger om textrutor, fotnoter och slutnoter ska inkluderas i ordräkningsstatistiken.
 
 ```csharp
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 
 ## Exempel
 
-Visar hur man inkluderar eller utesluter textrutor, fotnoter och slutnoter från statistik för ordräkning.
+Visar hur man inkluderar eller exkluderar textrutor, fotnoter och slutnoter från ordräkningsstatistik.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Lorem ipsum");
 builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 
-// Som standard är alternativet inställt på 'false'.
+// Som standard är alternativet satt till 'false'.
 doc.UpdateWordCount();
 // Ord räknas utan textrutor, fotnoter och slutnoter.
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);            
+Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();

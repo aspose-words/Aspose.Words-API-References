@@ -3,14 +3,14 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabel Font ملكية. يوفر الوصول إلى تنسيق الخط لتسمية البيانات هذه في C#.
+description: اكتشف خاصية الخط ChartDataLabel لتخصيص تنسيق خط ملصق البيانات الخاص بك بسهولة لتحسين الجاذبية البصرية والوضوح.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 ## ChartDataLabel.Font property
 
-يوفر الوصول إلى تنسيق الخط لتسمية البيانات هذه.
+يوفر الوصول إلى تنسيق الخط لملصق البيانات هذا.
 
 ```csharp
 public Font Font { get; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// قم بتطبيق تسمية البيانات على كل فقاعة تعرض قطرها.
+// قم بتطبيق تسمية بيانات على كل فقاعة تعرض قطرها.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

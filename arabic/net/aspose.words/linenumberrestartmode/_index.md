@@ -3,14 +3,14 @@ title: LineNumberRestartMode Enum
 linktitle: LineNumberRestartMode
 articleTitle: LineNumberRestartMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.LineNumberRestartMode تعداد. تحديد وقت إعادة تشغيل ترقيم الأسطر التلقائي في C#.
+description: اكتشف Aspose.Words.LineNumberRestartMode للتحكم في إعادة تعيين ترقيم الأسطر تلقائيًا لتحسين تنسيق المستندات ووضوحها.
 type: docs
-weight: 3430
+weight: 3880
 url: /ar/net/aspose.words/linenumberrestartmode/
 ---
 ## LineNumberRestartMode enumeration
 
-تحديد وقت إعادة تشغيل ترقيم الأسطر التلقائي.
+يحدد متى يتم إعادة تشغيل ترقيم الأسطر التلقائي.
 
 ```csharp
 public enum LineNumberRestartMode
@@ -20,8 +20,8 @@ public enum LineNumberRestartMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| RestartPage | `0` | تتم إعادة تشغيل ترقيم الأسطر في بداية كل صفحة. |
-| RestartSection | `1` | تتم إعادة تشغيل ترقيم الأسطر عند بداية القسم. |
+| RestartPage | `0` | يتم إعادة تشغيل ترقيم الأسطر في بداية كل صفحة. |
+| RestartSection | `1` | يتم إعادة تشغيل ترقيم الأسطر عند بداية القسم. |
 | Continuous | `2` | ترقيم الأسطر مستمر من القسم السابق. |
 
 ## أمثلة
@@ -32,11 +32,11 @@ public enum LineNumberRestartMode
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يمكننا استخدام كائن PageSetup الخاص بالقسم لعرض الأرقام الموجودة على يسار سطور نص القسم.
+// يمكننا استخدام كائن PageSetup الخاص بالقسم لعرض الأرقام على يسار أسطر نص القسم.
 // هذا هو نفس سلوك كائن القائمة،
 // لكنه يغطي القسم بأكمله ولا يعدل النص بأي شكل من الأشكال.
-// سيقوم قسمنا بإعادة تشغيل الترقيم في كل صفحة جديدة من 1 ويعرض الرقم،
-// إذا كان من مضاعفات الرقم 3، عند مسافة 50 نقطة على يسار السطر.
+// سيقوم قسمنا بإعادة تشغيل الترقيم في كل صفحة جديدة من 1 وعرض الرقم،
+// إذا كان مضاعفًا لـ 3، عند 50 نقطة إلى يسار السطر.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -46,10 +46,10 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// سوف يتخطى عداد السطر أي فقرة مع تعيين علامة "SuppressLineNumbers" على "true".
-// هذه الفقرة موجودة في السطر الخامس عشر، وهو من مضاعفات الرقم 3، وبالتالي يتم عرض رقم السطر عادةً.
-// عداد سطر القسم سيتجاهل هذا السطر أيضًا، ويعامل السطر التالي باعتباره السطر الخامس عشر،
-// ومواصلة العد من تلك النقطة فصاعدا.
+// سوف يتخطى عداد الأسطر أي فقرة يتم فيها تعيين العلم "SuppressLineNumbers" على "true".
+//تقع هذه الفقرة في السطر الخامس عشر، وهو مضاعف للرقم 3، وبالتالي من الطبيعي أن تعرض رقم السطر.
+// سوف يتجاهل عداد أسطر القسم هذا السطر أيضًا، ويعامل السطر التالي على أنه السطر الخامس عشر،
+// واستمر في العد من تلك النقطة فصاعدًا.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 
 doc.Save(ArtifactsDir + "PageSetup.LineNumbers.docx");

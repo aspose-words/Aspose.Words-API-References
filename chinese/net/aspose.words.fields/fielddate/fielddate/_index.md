@@ -2,8 +2,8 @@
 title: FieldDate
 linktitle: FieldDate
 articleTitle: FieldDate
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDate 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDate 构造函数——高效处理日期的首选编程解决方案。使用我们直观的默认构造函数简化您的代码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fielddate/fielddate/

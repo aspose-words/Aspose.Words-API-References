@@ -3,14 +3,14 @@ title: FieldStyleRef.InsertParagraphNumberInFullContext
 linktitle: InsertParagraphNumberInFullContext
 articleTitle: InsertParagraphNumberInFullContext
 second_title: Aspose.Words لـ .NET
-description: FieldStyleRef InsertParagraphNumberInFullContext ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل في C#.
+description: إدارة ترقيم الفقرات باستخدام خاصية FieldStyleRef InsertParagraphNumberInFullContext. تحكم بسهولة في السياق لتحسين وضوح المستند.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldstyleref/insertparagraphnumberinfullcontext/
 ---
 ## FieldStyleRef.InsertParagraphNumberInFullContext property
 
-الحصول على أو تعيين ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل.
+يحصل على أو يحدد ما إذا كان سيتم إدراج رقم الفقرة للفقرة المشار إليها في السياق الكامل.
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }
@@ -24,11 +24,11 @@ public bool InsertParagraphNumberInFullContext { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ قائمة بناءً على قالب قائمة Microsoft Word.
+// قم بإنشاء قائمة باستخدام قالب قائمة Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// ستعرض هذه القائمة التي تم إنشاؤها "1.a )".
- // المسافة قبل القوس هي حرف غير محدد، ويمكننا حذفه.
+// ستعرض هذه القائمة المولدة "1.a )".
+ // المسافة قبل القوس هي حرف غير فاصل، والذي يمكننا حذفه.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// ضع حقل STYLEREF في الرأس واعرض أول نص بنمط "فقرة القائمة" في المستند.
+// ضع حقل STYLEREF في الرأس واعرض النص الأول المصمم على طراز "فقرة القائمة" في المستند.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام قوائم القوائم.
+// يمكننا أيضًا استخدام حقول STYLEREF للإشارة إلى أرقام القوائم.
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

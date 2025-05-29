@@ -3,9 +3,9 @@ title: PdfImageCompression Enum
 linktitle: PdfImageCompression
 articleTitle: PdfImageCompression
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.PdfImageCompression uppräkning. Anger vilken typ av komprimering som tillämpas på bilder i PDFfilen i C#.
+description: Upptäck Aspose.Words.PdfImageCompression-enum för att optimera bildkomprimering i dina PDF-filer, förbättra kvaliteten och minska filstorleken utan ansträngning.
 type: docs
-weight: 5490
+weight: 6280
 url: /sv/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -37,17 +37,15 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
 // Ställ in egenskapen "ImageCompression" till "PdfImageCompression.Auto" för att använda
-// Egenskapen "ImageCompression" för att kontrollera kvaliteten på Jpeg-bilderna som hamnar i utdata-PDF.
+// "ImageCompression"-egenskapen för att kontrollera kvaliteten på JPEG-bilderna som hamnar i PDF-filen.
 // Ställ in egenskapen "ImageCompression" till "PdfImageCompression.Jpeg" för att använda
-// Egenskapen "ImageCompression" för att kontrollera kvaliteten på alla bilder som hamnar i utdata-PDF.
+// "ImageCompression"-egenskapen för att kontrollera kvaliteten på alla bilder som hamnar i PDF-filen.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
-// Ställ in egenskapen "JpegQuality" till "10" för att stärka komprimeringen till priset av bildkvalitet.
+// Sätt egenskapen "JpegQuality" till "10" för att förstärka komprimeringen på bekostnad av bildkvaliteten.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

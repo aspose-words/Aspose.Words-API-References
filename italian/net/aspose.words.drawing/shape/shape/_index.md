@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words per .NET
-description: Shape costruttore. Crea un nuovo oggetto forma in C#.
+description: Crea oggetti di forma unici senza sforzo con il nostro Shape Constructor. Progetta forme personalizzate e migliora i tuoi progetti con facilità e precisione!
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/shape/shape/
@@ -23,7 +23,7 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 
 ## Osservazioni
 
-È necessario specificare le proprietà della forma desiderate dopo aver creato una forma.
+Dopo aver creato una forma, è necessario specificare le proprietà desiderate.
 
 ## Esempi
 
@@ -32,10 +32,10 @@ Mostra come inserire una forma con un'immagine dal file system locale in un docu
 ```csharp
 Document doc = new Document();
 
-// Il costruttore pubblico della classe "Shape" creerà una forma con il tipo di markup "ShapeMarkupLanguage.Vml".
+// Il costruttore pubblico della classe "Shape" creerà una forma con tipo di markup "ShapeMarkupLanguage.Vml".
 // Se è necessario creare una forma di tipo non primitivo, come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded o DiagonalCornersRounded,
-// utilizzare DocumentBuilder.InsertShape.
+// AngoliTopUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliTopArrotondati o AngoliDiagonaliArrotondati,
+// si prega di utilizzare DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -61,7 +61,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Aggiunge un paragrafo alla casella di testo e aggiunge una sequenza di testo che verrà visualizzata nella casella di testo.
+// Aggiungere un paragrafo alla casella di testo e aggiungere una sequenza di testo che verrà visualizzata nella casella di testo.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

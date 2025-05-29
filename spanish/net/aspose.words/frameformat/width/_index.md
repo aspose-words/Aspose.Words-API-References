@@ -3,7 +3,7 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words para .NET
-description: FrameFormat Width propiedad. Obtiene el ancho del marco especificado en puntos en C#.
+description: Descubra la propiedad FrameFormat Width para recuperar fácilmente el ancho del marco en puntos, mejorando la precisión y la eficiencia de su diseño.
 type: docs
 weight: 120
 url: /es/net/aspose.words/frameformat/width/
@@ -18,7 +18,7 @@ public double Width { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

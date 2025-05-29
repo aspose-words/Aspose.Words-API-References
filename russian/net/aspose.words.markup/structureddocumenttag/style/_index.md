@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag Style свойство. Получает или задает стиль тега структурированного документа на С#.
+description: Узнайте, как управлять свойством Style объекта StructuredDocumentTags, чтобы без труда улучшить форматирование документа и повысить его читабельность.
 type: docs
 weight: 260
 url: /ru/net/aspose.words.markup/structureddocumenttag/style/
 ---
 ## StructuredDocumentTag.Style property
 
-Получает или задает стиль тега структурированного документа.
+Возвращает или задает стиль тега структурированного документа.
 
 ```csharp
 public Style Style { get; set; }
@@ -18,18 +18,18 @@ public Style Style { get; set; }
 
 ## Примечания
 
-Только Character стиль илиParagraph можно установить стиль со связанным стилем символов.
+ТолькоCharacter стиль илиParagraph можно задать стиль со связанным стилем символа.
 
 ## Примеры
 
-Показывает, как работать со стилями элементов управления содержимым.
+Показывает, как работать со стилями для элементов управления содержимым.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа применения стиля документа к тегу структурированного документа.
-// 1 — применить объект стиля из коллекции стилей документа:
+// Ниже приведены два способа применения стиля из документа к структурированному тегу документа.
+// 1 — Применить объект стиля из коллекции стилей документа:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };

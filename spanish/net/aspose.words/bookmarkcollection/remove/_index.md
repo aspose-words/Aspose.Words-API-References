@@ -3,7 +3,7 @@ title: BookmarkCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: BookmarkCollection Remove método. Elimina el marcador especificado del documento en C#.
+description: Elimina fácilmente los marcadores de tus documentos con el método "Eliminar Colección de Marcadores". ¡Mejora tu gestión documental hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words/bookmarkcollection/remove/
@@ -39,18 +39,18 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// Esta colección almacena marcadores.
+//Esta colección almacena marcadores.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// Hay varias formas de eliminar marcadores.
-// 1 - Llamar al método Eliminar del marcador:
+//Hay varias formas de eliminar marcadores.
+// 1 - Llamar al método Remove del marcador:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Pasar el marcador al método Remove de la colección:
+// 2 - Pasando el marcador al método Remove de la colección:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -66,11 +66,11 @@ doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// Podemos borrar toda la colección de marcadores.
+//Podemos borrar toda la colección de marcadores.
 bookmarks.Clear();
 
-// El texto que estaba dentro de los marcadores todavía está presente en el documento.
-Assert.That(bookmarks, Is.Empty);
+//El texto que estaba dentro de los marcadores todavía está presente en el documento.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +
@@ -97,7 +97,7 @@ public void Remove(string bookmarkName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| bookmarkName | String | El nombre del marcador que se va a eliminar, que no distingue entre mayúsculas y minúsculas. |
+| bookmarkName | String | El nombre del marcador que se eliminará sin distinguir entre mayúsculas y minúsculas. |
 
 ## Ejemplos
 
@@ -118,18 +118,18 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// Esta colección almacena marcadores.
+//Esta colección almacena marcadores.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// Hay varias formas de eliminar marcadores.
-// 1 - Llamar al método Eliminar del marcador:
+//Hay varias formas de eliminar marcadores.
+// 1 - Llamar al método Remove del marcador:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - Pasar el marcador al método Remove de la colección:
+// 2 - Pasando el marcador al método Remove de la colección:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
@@ -145,11 +145,11 @@ doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// Podemos borrar toda la colección de marcadores.
+//Podemos borrar toda la colección de marcadores.
 bookmarks.Clear();
 
-// El texto que estaba dentro de los marcadores todavía está presente en el documento.
-Assert.That(bookmarks, Is.Empty);
+//El texto que estaba dentro de los marcadores todavía está presente en el documento.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

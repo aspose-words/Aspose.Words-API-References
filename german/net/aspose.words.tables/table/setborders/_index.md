@@ -3,14 +3,14 @@ title: Table.SetBorders
 linktitle: SetBorders
 articleTitle: SetBorders
 second_title: Aspose.Words für .NET
-description: Table SetBorders methode. Setzt alle Tabellenränder auf den angegebenen Linienstil die angegebene Breite und die angegebene Farbe in C#.
+description: Passen Sie Ihre Tabellen mühelos mit der SetBorders-Methode an und passen Sie Linienstil, -breite und -farbe an, um ein elegantes, professionelles Erscheinungsbild zu erzielen.
 type: docs
-weight: 420
+weight: 440
 url: /de/net/aspose.words.tables/table/setborders/
 ---
 ## Table.SetBorders method
 
-Setzt alle Tabellenränder auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe.
+Legt für alle Tabellenränder den angegebenen Linienstil, die angegebene Breite und Farbe fest.
 
 ```csharp
 public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
@@ -19,12 +19,12 @@ public void SetBorders(LineStyle lineStyle, double lineWidth, Color color)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | lineStyle | LineStyle | Der anzuwendende Linienstil. |
-| lineWidth | Double | Die festzulegende Linienbreite (in Punkt). |
-| color | Color | Die für den Rand zu verwendende Farbe. |
+| lineWidth | Double | Die einzustellende Linienbreite (in Punkten). |
+| color | Color | Die für den Rahmen zu verwendende Farbe. |
 
 ## Beispiele
 
-Zeigt, wie alle Ränder einer Tabelle gleichzeitig formatiert werden.
+Zeigt, wie alle Ränder einer Tabelle auf einmal formatiert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -39,17 +39,17 @@ table.SetBorders(LineStyle.Single, 1.5, Color.Green);
 doc.Save(ArtifactsDir + "Table.SetBorders.docx");
 ```
 
-Zeigt, wie Sie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben anwenden.
+Zeigt, wie beim Erstellen einer Tabelle Rahmen- und Schattierungsfarben angewendet werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Tabelle starten und eine Standardfarbe/-stärke für ihre Ränder festlegen.
+// Starten Sie eine Tabelle und legen Sie eine Standardfarbe/-dicke für ihre Ränder fest.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
-// Erstelle eine Zeile mit zwei Zellen mit unterschiedlichen Hintergrundfarben.
+// Erstellen Sie eine Zeile mit zwei Zellen mit unterschiedlichen Hintergrundfarben.
 builder.InsertCell();
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightSkyBlue;
 builder.Writeln("Row 1, Cell 1.");
@@ -58,8 +58,8 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Zellenformatierung zurücksetzen, um die Hintergrundfarben zu deaktivieren
-// Legen Sie eine benutzerdefinierte Rahmenstärke für alle neuen Zellen fest, die vom Builder erstellt wurden.
+// Setzen Sie die Zellenformatierung zurück, um die Hintergrundfarben zu deaktivieren
+// Legen Sie eine benutzerdefinierte Rahmenstärke für alle neuen Zellen fest, die vom Builder erstellt werden.
 // dann baue eine zweite Reihe.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

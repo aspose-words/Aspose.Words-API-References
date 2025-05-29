@@ -3,14 +3,14 @@ title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
 second_title: Aspose.Words لـ .NET
-description: NodeChangingArgs Action ملكية. الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث في C#.
+description: اكتشف خاصية NodeChangingArgs Action لتحديد أحداث تغيير العقد بسهولة. حسّن كفاءة البرمجة لديك مع هذه الميزة الأساسية!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-الحصول على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث.
+يحصل على قيمة تشير إلى نوع حدث تغيير العقدة الذي يحدث.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
+/// يطبع كل عملية إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

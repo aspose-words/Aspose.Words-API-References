@@ -3,7 +3,7 @@ title: PageSetup.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words per .NET
-description: PageSetup Bidi proprietà. Specifica che questa sezione contiene testo bidirezionale script complessi in C#.
+description: Scopri la proprietà PageSetup Bidi per una formattazione bidirezionale del testo senza soluzione di continuità. Migliora i tuoi documenti con il supporto per script complessi per una migliore leggibilità!
 type: docs
 weight: 10
 url: /it/net/aspose.words/pagesetup/bidi/
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Osservazioni
 
-Quando`VERO`le colonne di questa sezione sono disposte da destra a sinistra.
+Quando`VERO`le colonne in questa sezione sono disposte da destra a sinistra.
 
 ## Esempi
 
@@ -37,9 +37,9 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Imposta la proprietà "Bidi" su "true" per disporre le colonne partendo dal lato destro della pagina.
+// Impostare la proprietà "Bidi" su "true" per disporre le colonne a partire dal lato destro della pagina.
 // L'ordine delle colonne corrisponderà alla direzione del testo da destra a sinistra.
-// Imposta la proprietà "Bidi" su "false" per disporre le colonne partendo dal lato sinistro della pagina.
+// Impostare la proprietà "Bidi" su "false" per disporre le colonne a partire dal lato sinistro della pagina.
 // L'ordine delle colonne corrisponderà alla direzione del testo da sinistra a destra.
 pageSetup.Bidi = reverseColumns;
 

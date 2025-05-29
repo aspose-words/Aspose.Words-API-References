@@ -2,15 +2,15 @@
 title: MailMerge.GetRegionsHierarchy
 linktitle: GetRegionsHierarchy
 articleTitle: GetRegionsHierarchy
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge GetRegionsHierarchy 方法. 返回文档中可用区域带字段的完整层次结构 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MailMerge GetRegionsHierarchy 方法，轻松检索具有可访问文档字段的完整区域层次结构，从而简化工作流程。
 type: docs
 weight: 250
 url: /zh/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
 ---
 ## MailMerge.GetRegionsHierarchy method
 
-返回文档中可用区域（带字段）的完整层次结构。
+返回文档中可用的区域（带有字段）的完整层次结构。
 
 ```csharp
 public MailMergeRegionInfo GetRegionsHierarchy()
@@ -18,7 +18,7 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 ### 返回值
 
-区域的等级制度。
+区域的层次结构。
 
 ## 评论
 
@@ -26,7 +26,7 @@ public MailMergeRegionInfo GetRegionsHierarchy()
 
 ## 例子
 
-演示如何验证邮件合并区域。
+显示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -51,6 +51,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // 获取第一个顶部区域内的字段列表。
 IList<Field> fieldList = topRegions[0].Fields;

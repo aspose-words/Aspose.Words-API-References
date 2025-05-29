@@ -3,7 +3,7 @@ title: LayoutOptions.CommentDisplayMode
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words för .NET
-description: LayoutOptions CommentDisplayMode fast egendom. Hämtar eller ställer in hur kommentarer renderas. Standardvärdet ärShowInBalloons  i C#.
+description: Upptäck egenskapen LayoutOptions CommentDisplayMode för att anpassa kommentarrendering. Ställ enkelt in den för att förbättra användarupplevelsen med alternativ som ShowInBalloons.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.layout/layoutoptions/commentdisplaymode/
@@ -22,7 +22,7 @@ Observera att revisioner inte återges i ballonger förShowInAnnotations .
 
 ## Exempel
 
-Visar hur du visar kommentarer när du sparar ett dokument i ett renderat format.
+Visar hur man visar kommentarer när man sparar ett dokument i ett renderat format.
 
 ```csharp
 Document doc = new Document();
@@ -35,12 +35,12 @@ comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
 // ShowInAnnotations är endast tillgängligt i formaten Pdf1.7 och Pdf1.5.
-// I andra format kommer det att fungera på samma sätt som Hide.
+// I andra format fungerar det på liknande sätt som Hide.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Observera att det krävs för att bygga om dokumentets sidlayout (via metoden Document.UpdatePageLayout())
+// Observera att det krävs att dokumentets sidlayout ombyggs (via Document.UpdatePageLayout()-metoden)
 // efter att ha ändrat värdena för Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

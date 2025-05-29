@@ -2,10 +2,10 @@
 title: ImageData.Save
 linktitle: Save
 articleTitle: Save
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageData Save 方法. 将图像保存到指定的流中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ImageData Save 方法轻松保存图像。轻松将图像直接存储到您选择的流中，简化您的工作流程。
 type: docs
-weight: 190
+weight: 200
 url: /zh/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
@@ -18,39 +18,29 @@ public void Save(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 将图像保存到的流。 |
+| stream | Stream | 保存图像的流。 |
 
 ## 评论
 
-调用者有责任处置流对象吗？
+处置流对象是调用者的责任吗？
 
 ## 例子
 
-演示如何将文档中的所有图像保存到文件系统。
+展示如何将文档中的所有图像保存到文件系统。
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// 设置了“HasImage”标志的形状存储并显示文档的所有图像。
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// 设置了“HasImage”标志的形状存储并显示所有文档的图像。
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
 // 遍历每个形状并保存其图像。
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -76,13 +66,13 @@ public void Save(string fileName)
 
 ## 例子
 
-演示如何从文档中提取图像，并将它们作为单独的文件保存到本地文件系统。
+展示如何从文档中提取图像，并将其作为单独的文件保存到本地文件系统。
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
 // 从文档中获取形状集合，
-// 并将每个形状的图像数据以图像的形式保存到本地文件系统。
+// 并将每个带有图像的形状的图像数据作为文件保存到本地文件系统。
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));

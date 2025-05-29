@@ -3,14 +3,14 @@ title: FontInfoCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words для .NET
-description: FontInfoCollection Contains метод. Определяет содержит ли коллекция шрифт с данным именем на С#.
+description: Узнайте, содержит ли FontInfoCollection определенный шрифт по имени. Легко управляйте и получайте доступ к своей коллекции шрифтов с помощью этого важного метода.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fonts/fontinfocollection/contains/
 ---
 ## FontInfoCollection.Contains method
 
-Определяет, содержит ли коллекция шрифт с данным именем.
+Определяет, содержит ли коллекция шрифт с указанным именем.
 
 ```csharp
 public bool Contains(string name)
@@ -18,11 +18,11 @@ public bool Contains(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Имя шрифта, который необходимо найти, без учета регистра. |
+| name | String | Нечувствительное к регистру имя шрифта, который нужно найти. |
 
 ### Возвращаемое значение
 
-`истинный` если предмет найден в коллекции; в противном случае,`ЛОЖЬ`.
+`истинный`если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
 ## Примеры
 

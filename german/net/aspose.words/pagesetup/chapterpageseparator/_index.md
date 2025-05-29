@@ -3,14 +3,14 @@ title: PageSetup.ChapterPageSeparator
 linktitle: ChapterPageSeparator
 articleTitle: ChapterPageSeparator
 second_title: Aspose.Words für .NET
-description: PageSetup ChapterPageSeparator eigendom. Ruft das Trennzeichen ab das zwischen der Kapitelnummer und der Seitennummer angezeigt wird oder legt dieses fest in C#.
+description: Entdecken Sie die Eigenschaft „ChapterPageSeparator“ in „PageSetup“. Passen Sie das Trennzeichen zwischen Kapitel- und Seitenzahlen ganz einfach an, um ein ansprechendes Erscheinungsbild zu erzielen.
 type: docs
 weight: 90
 url: /de/net/aspose.words/pagesetup/chapterpageseparator/
 ---
 ## PageSetup.ChapterPageSeparator property
 
-Ruft das Trennzeichen ab, das zwischen der Kapitelnummer und der Seitennummer angezeigt wird, oder legt dieses fest.
+Ruft das Trennzeichen ab, das zwischen der Kapitelnummer und der Seitenzahl angezeigt wird, oder legt dieses fest.
 
 ```csharp
 public ChapterPageSeparator ChapterPageSeparator { get; set; }

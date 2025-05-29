@@ -2,17 +2,17 @@
 title: SignatureLineOptions Class
 linktitle: SignatureLineOptions
 articleTitle: SignatureLineOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.SignatureLineOptions sınıf. Eklenen imza satırına ilişkin seçenekleri belirlemeye izin verir. KullanılanDocumentBuilder  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki imza satırlarını kolayca özelleştirmek için Aspose.Words.SignatureLineOptions'ı keşfedin. DocumentBuilder deneyiminizi bugün geliştirin!
 type: docs
-weight: 6090
+weight: 6940
 url: /tr/net/aspose.words/signaturelineoptions/
 ---
 ## SignatureLineOptions class
 
-Eklenen imza satırına ilişkin seçenekleri belirlemeye izin verir. Kullanılan[`DocumentBuilder`](../documentbuilder/) .
+Eklenen imza satırı için seçeneklerin belirtilmesine izin verir. İçinde kullanılır[`DocumentBuilder`](../documentbuilder/) .
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışma](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Dijital İmzalarla Çalışın](https://docs.aspose.com/words/net/working-with-digital-signatures/) belgeleme makalesi.
 
 ```csharp
 public class SignatureLineOptions
@@ -28,13 +28,63 @@ public class SignatureLineOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [AllowComments](../../aspose.words/signaturelineoptions/allowcomments/) { get; set; } | İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`YANLIŞ` . |
-| [DefaultInstructions](../../aspose.words/signaturelineoptions/defaultinstructions/) { get; set; } | İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
-| [Email](../../aspose.words/signaturelineoptions/email/) { get; set; } | Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özellik için varsayılan değer:**boş dize** (Empty). |
-| [Instructions](../../aspose.words/signaturelineoptions/instructions/) { get; set; } | İmza satırını imzalarken görüntülenen imzalayana yönelik talimatları alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
-| [ShowDate](../../aspose.words/signaturelineoptions/showdate/) { get; set; } | İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` . |
-| [Signer](../../aspose.words/signaturelineoptions/signer/) { get; set; } | İmza satırının önerilen imzalayanını alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
-| [SignerTitle](../../aspose.words/signaturelineoptions/signertitle/) { get; set; } | Önerilen imzalayanın unvanını alır veya ayarlar. Bu özelliğin varsayılan değeri:**boş dize** (Empty). |
+| [AllowComments](../../aspose.words/signaturelineoptions/allowcomments/) { get; set; } | İmzalayanın İmza iletişim kutusuna yorum ekleyebileceğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer`YANLIŞ` . |
+| [DefaultInstructions](../../aspose.words/signaturelineoptions/defaultinstructions/) { get; set; } | İşaret iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer`doğru` . |
+| [Email](../../aspose.words/signaturelineoptions/email/) { get; set; } | Önerilen imzalayanın e-posta adresini alır veya ayarlar. Bu özellik için varsayılan değer**boş dize** (Empty ). |
+| [Instructions](../../aspose.words/signaturelineoptions/instructions/) { get; set; } | İmza satırının imzalanması sırasında görüntülenen imzalayana talimatları alır veya ayarlar. Bu özellik için varsayılan değer**boş dize** (Empty ). |
+| [ShowDate](../../aspose.words/signaturelineoptions/showdate/) { get; set; } | İmza satırında imza tarihinin gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer`doğru` . |
+| [Signer](../../aspose.words/signaturelineoptions/signer/) { get; set; } | İmza satırının önerilen imzalayıcısını alır veya ayarlar. Bu özellik için varsayılan değer**boş dize** (Empty ). |
+| [SignerTitle](../../aspose.words/signaturelineoptions/signertitle/) { get; set; } | Önerilen imzalayanın unvanını alır veya ayarlar. Bu özellik için varsayılan değer**boş dize** (Empty ). |
+
+## Örnekler
+
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+SignatureLineOptions signatureLineOptions = new SignatureLineOptions
+{
+    Signer = "vderyushev",
+    SignerTitle = "QA",
+    Email = "vderyushev@aspose.com",
+    ShowDate = true,
+    DefaultInstructions = false,
+    Instructions = "Please sign here.",
+    AllowComments = true
+};
+
+SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
+signatureLine.ProviderId = Guid.Parse("CF5A7BB4-8F3C-4756-9DF6-BEF7F13259A2");
+
+Assert.False(signatureLine.IsSigned);
+Assert.False(signatureLine.IsValid);
+
+doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx");
+
+SignOptions signOptions = new SignOptions
+{
+    SignatureLineId = signatureLine.Id,
+    ProviderId = signatureLine.ProviderId,
+    Comments = "Document was signed by vderyushev",
+    SignTime = DateTime.Now
+};
+
+CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
+
+DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
+    ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
+
+// Kaydedilen belgemizi yeniden açın ve "IsSigned" ve "IsValid" özelliklerinin her ikisinin de "true" değerine eşit olduğunu doğrulayın,
+// imza satırının bir imza içerdiğini belirtir.
+doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+signatureLine = shape.SignatureLine;
+
+Assert.True(signatureLine.IsSigned);
+Assert.True(signatureLine.IsValid);
+```
 
 ### Ayrıca bakınız
 

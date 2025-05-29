@@ -3,9 +3,9 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldCollection فصل. مجموعة منField الكائنات التي تمثل الحقول في النطاق المحدد في C#.
+description: اكتشف Aspose.Words.FieldCollection، وهي فئة قوية لإدارة كائنات Field ضمن نطاقات مستند محددة، مما يعزز أتمتة المستندات لديك.
 type: docs
-weight: 1690
+weight: 2100
 url: /ar/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
@@ -22,25 +22,25 @@ public class FieldCollection : IEnumerable<Field>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | إرجاع عدد الحقول في المجموعة. |
-| [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | إرجاع حقل في الفهرس المحدد. |
+| [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | يعيد عدد الحقول في المجموعة. |
+| [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | يعيد حقلًا عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | إزالة كافة حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها. |
-| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | يُرجع كائن العداد. |
-| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | إزالة الحقل المحدد من هذه المجموعة ومن المستند. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند. |
+| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | يزيل جميع حقول هذه المجموعة من المستند ومن هذه المجموعة نفسها. |
+| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | يعيد كائن المعداد. |
+| [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | يزيل الحقل المحدد من هذه المجموعة ومن المستند. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | يزيل حقلًا عند الفهرس المحدد من هذه المجموعة ومن المستند. |
 
 ## ملاحظات
 
-مثيل لهذه المجموعة يكرر الحقول التي تقع ضمن النطاق المحدد.
+تقوم إحدى مثيلات هذه المجموعة بتكرار الحقول التي تبدأ بالوقوع ضمن النطاق المحدد.
 
-ال`FieldCollection` لا تمتلك المجموعة الحقول التي تحتوي عليها، بل هي مجرد مجموعة مختارة من الحقول.
+ال`FieldCollection` لا تمتلك المجموعة الحقول التي تحتويها، بل هي مجرد مجموعة مختارة من الحقول.
 
-ال`FieldCollection` المجموعة "مباشرة"، أي أن التغييرات التي يتم إجراؤها على العناصر الفرعية للعقدة object التي تم إنشاؤها منها تنعكس فورًا في الحقول التي يتم إرجاعها بواسطة`FieldCollection` الخصائص والأساليب.
+ال`FieldCollection` المجموعة "مباشرة"، أي أن التغييرات التي تطرأ على أبناء كائن العقدة object الذي تم إنشاؤها منه تنعكس على الفور في الحقول التي تم إرجاعها بواسطة`FieldCollection` خصائص وطرق .
 
 ## أمثلة
 
@@ -63,20 +63,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // فيما يلي أربع طرق لإزالة الحقول من مجموعة الحقول.
-// 1 - احصل على حقل لإزالة نفسه:
+// 1 - الحصول على حقل لإزالة نفسه:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - احصل على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
+// 2 - الحصول على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - إزالة حقل من مجموعة في فهرس:
+// 3 - إزالة حقل من مجموعة عند الفهرس:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
+// 4 - إزالة جميع الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -101,8 +101,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // كرر المجموعة الميدانية واطبع المحتويات واكتبها
-    // لكل حقل باستخدام تطبيق زائر مخصص.
+    // قم بالتكرار على مجموعة الحقول، ثم اطبع المحتويات والنوع
+    // لكل حقل باستخدام تنفيذ زائر مخصص.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// تنفيذ مستند الزائر الذي يطبع معلومات الحقل.
+/// تنفيذ زائر المستند الذي يطبع معلومات الحقل.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -144,7 +144,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldStart في المستند.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -156,7 +156,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldSeparator في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldSeparator في المستند.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -166,7 +166,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FieldEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FieldEnd في المستند.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

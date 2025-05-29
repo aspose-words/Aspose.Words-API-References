@@ -3,14 +3,14 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words för .NET
-description: SaveOptions ExportGeneratorName fast egendom. NärSann  gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet ärSann  i C#.
+description: Förbättra dina dokument med egenskapen SaveOptions ExportGeneratorName. Bädda in Aspose.Words namn och version för bättre spårbarhet. Standardvärde: sant.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-När`Sann` , gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är`Sann` .
+När`sann` , gör att namnet och versionen av Aspose.Words bäddas in i producerade filer. Standardvärdet är`sann` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }
@@ -18,7 +18,7 @@ public bool ExportGeneratorName { get; set; }
 
 ## Exempel
 
-Visar hur man inaktiverar att lägga till namn och version av Aspose.Words i producerade filer.
+Visar hur man inaktiverar tillägg av namn och version av Aspose.Words i producerade filer.
 
 ```csharp
 Document doc = new Document();

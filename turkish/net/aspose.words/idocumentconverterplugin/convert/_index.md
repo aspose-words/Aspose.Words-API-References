@@ -2,8 +2,8 @@
 title: IDocumentConverterPlugin.Convert
 linktitle: Convert
 articleTitle: Convert
-second_title: Aspose.Words for .NET
-description: IDocumentConverterPlugin Convert yöntem. Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür C#'da.
+second_title: .NET için Aspose.Words
+description: iDocumentConverterPlugin ile belgeleri zahmetsizce dönüştürün. Kusursuz dosya yönetimi için özelleştirilebilir giriş/çıkış akışlarını ve kaydetme seçeneklerini kullanın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/idocumentconverterplugin/convert/
@@ -13,17 +13,20 @@ url: /tr/net/aspose.words/idocumentconverterplugin/convert/
 Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür.
 
 ```csharp
-public void Convert(Stream inputStream, Stream outputStream, SaveOptions saveOptions)
+public void Convert(Stream inputStream, LoadOptions loadOptions, Stream outputStream, 
+    SaveOptions saveOptions)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | inputStream | Stream | Giriş akışı. |
-| outputStream | Stream | Çıkış akışı. |
+| loadOptions | LoadOptions | Belge yükleme seçenekleri. |
+| outputStream | Stream | Çıktı akışı. |
 | saveOptions | SaveOptions | Kaydetme seçenekleri. |
 
 ### Ayrıca bakınız
 
+* class [LoadOptions](../../../aspose.words.loading/loadoptions/)
 * class [SaveOptions](../../../aspose.words.saving/saveoptions/)
 * interface [IDocumentConverterPlugin](../)
 * ad alanı [Aspose.Words](../../../aspose.words/)

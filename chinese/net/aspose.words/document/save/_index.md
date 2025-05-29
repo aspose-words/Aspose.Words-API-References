@@ -2,15 +2,15 @@
 title: Document.Save
 linktitle: Save
 articleTitle: Save
-second_title: 用于 .NET 的 Aspose.Words
-description: Document Save 方法. 将文档保存到文件自动根据扩展名确定保存格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的智能保存方法轻松保存您的文档，根据文件扩展名自动选择正确的格式实现无缝存储。
 type: docs
-weight: 700
+weight: 750
 url: /zh/net/aspose.words/document/save/
 ---
 ## Save(*string*) {#save_2}
 
-将文档保存到文件。自动根据扩展名确定保存格式。
+将文档保存为文件。根据扩展名自动确定保存格式。
 
 ```csharp
 public SaveOutputParameters Save(string fileName)
@@ -18,15 +18,15 @@ public SaveOutputParameters Save(string fileName)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文档的名称。如果具有 指定文件名的文档已存在，则现有文档将被覆盖。 |
+| fileName | String | 文档的名称。如果已存在具有指定文件名 the 的文档，则会覆盖现有文档。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 例子
 
-演示如何打开文档并将其转换为 .PDF。
+展示如何打开文档并将其转换为 .PDF。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Document.ConvertToPdf.pdf");
 ```
 
-演示如何将 PDF 转换为 .docx。
+展示如何将 PDF 转换为 .docx。
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ builder.Write("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
-// 加载我们刚刚保存的PDF文档，并将其转换为.docx。
+// 加载我们刚刚保存的 PDF 文档，并将其转换为 .docx。
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.pdf");
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
@@ -61,7 +61,7 @@ pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocx.docx");
 
 ## Save(*string, [SaveFormat](../../saveformat/)*) {#save_3}
 
-将文档保存到指定格式的文件中。
+将文档保存为指定格式的文件。
 
 ```csharp
 public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
@@ -69,16 +69,16 @@ public SaveOutputParameters Save(string fileName, SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文档的名称。如果具有 指定文件名的文档已存在，则现有文档将被覆盖。 |
+| fileName | String | 文档的名称。如果已存在具有指定文件名 the 的文档，则会覆盖现有文档。 |
 | saveFormat | SaveFormat | 保存文档的格式。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 例子
 
-演示如何从 DOCX 转换为 HTML 格式。
+展示如何从 DOCX 转换为 HTML 格式。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -106,16 +106,16 @@ public SaveOutputParameters Save(string fileName, SaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| fileName | String | 文档的名称。如果具有 指定文件名的文档已存在，则现有文档将被覆盖。 |
-| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可`无效的`。 |
+| fileName | String | 文档的名称。如果已存在具有指定文件名 the 的文档，则会覆盖现有文档。 |
+| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可以是`无效的`。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 例子
 
-演示如何使用 SaveOptions 提高渲染文档的质量。
+展示如何使用 SaveOptions 提高渲染文档的质量。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -133,7 +133,7 @@ options.UseHighQualityRendering = true;
 doc.Save(ArtifactsDir + "Document.ImageSaveOptions.HighQuality.jpg", options);
 ```
 
-演示如何将 PDF 转换为 .docx 并使用 SaveOptions 对象自定义保存过程。
+展示如何将 PDF 转换为 .docx 并使用 SaveOptions 对象自定义保存过程。
 
 ```csharp
 Document doc = new Document();
@@ -143,18 +143,18 @@ builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
-// 加载我们刚刚保存的PDF文档，并将其转换为.docx。
+// 加载我们刚刚保存的 PDF 文档，并将其转换为 .docx。
 Document pdfDoc = new Document(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.pdf");
 
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 
-// 设置“密码”属性以使用密码加密保存的文档。
+// 设置“密码”属性，使用密码加密保存的文档。
 saveOptions.Password = "MyPassword";
 
 pdfDoc.Save(ArtifactsDir + "PDF2Word.ConvertPdfToDocxCustom.docx", saveOptions);
 ```
 
-演示如何将文档的每一页渲染为单独的 TIFF 图像。
+展示如何将文档的每一页渲染为单独的 TIFF 图像。
 
 ```csharp
 Document doc = new Document();
@@ -174,7 +174,7 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 for (int i = 0; i < doc.PageCount; i++)
 {
     // 将“PageSet”属性设置为第一页的页码
-    // 从哪个开始渲染文档。
+    // 从哪里开始渲染文档。
     options.PageSet = new PageSet(i);
     // 以 2325x5325 像素和 600 dpi 导出页面。
     options.Resolution = 600;
@@ -184,7 +184,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-演示如何将文档中的一页渲染为 JPEG 图像。
+展示如何将文档中的一页渲染为 JPEG 图像。
 
 ```csharp
 Document doc = new Document();
@@ -200,18 +200,17 @@ builder.Writeln("Page 3.");
 // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
 // 修改该方法将文档呈现为图像的方式。
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // 将“PageSet”设置为“1”以通过以下方式选择第二页
-// 开始渲染文档的从零开始的索引。
+// 从零开始的索引来呈现文档。
 options.PageSet = new PageSet(1);
 
-// 当我们将文档保存为 JPEG 格式时，Aspose.Words 只渲染一页。
-// 该图像将包含从第二页开始的一页，
+// 当我们将文档保存为 JPEG 格式时，Aspose.Words 只会呈现一页。
+// 此图像将包含从第二页开始的一页，
 // 这只是原始文档的第二页。
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 
-演示如何在将文档另存为 JPEG 时配置压缩。
+展示如何在将文档保存为 JPEG 时配置压缩。
 
 ```csharp
 Document doc = new Document();
@@ -221,25 +220,18 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
 // 修改该方法将文档呈现为图像的方式。
 ImageSaveOptions imageOptions = new ImageSaveOptions(SaveFormat.Jpeg);
-
-// 将“JpegQuality”属性设置为“10”，以便在渲染文档时使用更强的压缩。
-// 这将减小文档的文件大小，但图像将显示更突出的压缩伪影。
+// 将“JpegQuality”属性设置为“10”以在呈现文档时使用更强的压缩。
+// 这将减小文档的文件大小，但图像将显示更明显的压缩伪影。
 imageOptions.JpegQuality = 10;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
-Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighCompression.jpg").Length));
-
-// 将“JpegQuality”属性设置为“100”，以便在渲染文档时使用较弱的压缩。
-// 这将以增加文件大小为代价提高图像质量。
+// 将“JpegQuality”属性设置为“100”以在渲染文档时使用较弱的压缩。
+// 这将提高图像的质量，但会增加文件大小。
 imageOptions.JpegQuality = 100;
-
 doc.Save(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-Assert.That(60000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.JpegQuality.HighQuality.jpg").Length));
 ```
 
-演示如何将整个文档转换为具有文档大纲三个级别的 PDF。
+展示如何将整个文档转换为具有文档大纲三个级别的 PDF。
 
 ```csharp
 Document doc = new Document();
@@ -276,18 +268,18 @@ builder.Writeln("Heading 1.2.2.2.2");
 // 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 输出的 PDF 文档将包含一个大纲，它是列出文档正文中的标题的目录。
-// 单击此大纲中的条目将带我们到达其各自标题的位置。
-// 将“HeadingsOutlineLevels”属性设置为“4”，以从大纲中排除级别高于 4 的所有标题。
+// 输出的 PDF 文档将包含一个大纲，它是一个列出文档正文中标题的目录。
+// 单击此大纲中的条目将带我们到其相应标题的位置。
+// 将“HeadingsOutlineLevels”属性设置为“4”，以从大纲中排除所有级别高于 4 的标题。
 options.OutlineOptions.HeadingsOutlineLevels = 4;
 
-// 如果大纲条目在其自身和相同或较低级别的下一个条目之间有更高级别的后续条目，
-// 条目左侧将出现一个箭头。该条目是多个此类“子条目”的“所有者”。
-// 在我们的文档中，第 5 级标题级别的大纲条目是第二个第 4 级大纲条目的子条目，
-// 第 4 和第 5 标题级别条目是第二个 3 级别条目的子条目，依此类推。
-// 在大纲中，我们可以单击“所有者”条目的箭头来折叠/展开其所有子条目。
-// 将“ExpandedOutlineLevels”属性设置为“2”以自动展开所有标题级别 2 和较低的大纲条目
-// 当我们打开文档时，折叠所有级别、3 级及更高级别的条目。
+// 如果大纲条目在其自身和相同或较低级别下一个条目之间有更高级别的后续条目，
+// 条目左侧会出现一个箭头。此条目是多个此类“子条目”的“所有者”。
+// 在我们的文档中，第 5 个标题级别的大纲条目是第二个第 4 级大纲条目的子条目，
+// 第 4 和第 5 个标题级条目是第二个第 3 级条目的子条目，依此类推。
+// 在大纲中，我们可以点击“所有者”条目的箭头来折叠/展开其所有子条目。
+// 将“ExpandedOutlineLevels”属性设置为“2”，以自动展开所有标题级别 2 及以下的大纲条目
+// 当我们打开文档时，折叠所有级别和 3 及更高级别的条目。
 options.OutlineOptions.ExpandedOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
@@ -313,16 +305,16 @@ public SaveOutputParameters Save(Stream stream, SaveFormat saveFormat)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流式保存文档的位置。 |
+| stream | Stream | 流式传输文档的保存位置。 |
 | saveFormat | SaveFormat | 保存文档的格式。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 例子
 
-演示如何将文档保存到流。
+展示如何将文档保存到流中。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -331,12 +323,12 @@ using (MemoryStream dstStream = new MemoryStream())
 {
     doc.Save(dstStream, SaveFormat.Docx);
 
-    // 验证流是否包含文档。
+    // 验证流是否包含该文档。
     Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", new Document(dstStream).GetText().Trim());
 }
 ```
 
-演示如何通过流将文档保存到图像，然后从该流读取图像。
+展示如何通过流将文档保存为图像，然后从该流中读取图像。
 
 ```csharp
 Document doc = new Document();
@@ -348,7 +340,7 @@ Document doc = new Document();
 
             builder.InsertImage(ImageDir + "Logo.jpg");
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -363,7 +355,7 @@ Document doc = new Document();
                     Assert.AreEqual(1056, image.Height);
                 }
             }
-#elif NET5_0_OR_GREATER || __MOBILE__
+#elif NET5_0_OR_GREATER
             using (MemoryStream stream = new MemoryStream())
             {
                 doc.Save(stream, SaveFormat.Bmp);
@@ -371,7 +363,6 @@ Document doc = new Document();
                 stream.Position = 0;
 
                 SKCodec codec = SKCodec.Create(stream);
-
                 Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
 
                 stream.Position = 0;
@@ -397,7 +388,7 @@ Document doc = new Document();
 
 ## Save(*Stream, [SaveOptions](../../../aspose.words.saving/saveoptions/)*) {#save_1}
 
-使用指定的保存选项将文档保存到流。
+使用指定的保存选项将文档保存到流中。
 
 ```csharp
 public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
@@ -405,16 +396,16 @@ public SaveOutputParameters Save(Stream stream, SaveOptions saveOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 流式保存文档的位置。 |
-| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可`无效的` . 如果这是`无效的`，文档将以二进制 DOC 格式保存。 |
+| stream | Stream | 流式传输文档的保存位置。 |
+| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可以是`无效的` . 如果这是`无效的`，文档将以二进制DOC格式保存。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 例子
 
-演示如何仅将文档中的部分页面转换为 PDF。
+展示如何将文档中的部分页面转换为 PDF。
 
 ```csharp
 Document doc = new Document();
@@ -432,10 +423,10 @@ using (Stream stream = File.Create(ArtifactsDir + "PdfSaveOptions.OnePage.pdf"))
     // 修改该方法将文档转换为 .PDF 的方式。
     PdfSaveOptions options = new PdfSaveOptions();
 
-    // 将“PageIndex”设置为“1”以从第二页开始渲染文档的一部分。
+    // 将“PageIndex”设置为“1”以从第二页开始呈现文档的一部分。
     options.PageSet = new PageSet(1);
 
-    // 该文档将从第二页开始包含一页，仅包含第二页。
+    // 本文档将包含从第二页开始的一页，其中只包含第二页。
     doc.Save(stream, options);
 }
 ```
@@ -461,22 +452,22 @@ public SaveOutputParameters Save(HttpResponse response, string fileName,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| response | HttpResponse | 响应对象保存文档的位置。 |
-| fileName | String | 将出现在客户端浏览器中的文档的名称。 该名称不应包含路径。 |
-| contentDisposition | ContentDisposition | A[`ContentDisposition`](../../contentdisposition/)值 that 指定文档在客户端浏览器上的呈现方式。 |
-| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可`无效的`。 |
+| response | HttpResponse | 响应对象，用于保存文档。 |
+| fileName | String | 将在客户端浏览器中显示的文档的名称。 名称不应包含路径。 |
+| contentDisposition | ContentDisposition | 一个[`ContentDisposition`](../../contentdisposition/)值 that 指定文档在客户端浏览器中的呈现方式。 |
+| saveOptions | SaveOptions | 指定控制文档保存方式的选项。可以是`无效的`。 |
 
 ### 返回值
 
-您可以选择使用的附加信息。
+您可以选择性使用的附加信息。
 
 ## 评论
 
-在内部，该方法首先保存到内存流，然后复制到响应stream ，因为响应流不支持seek。
+在内部，此方法首先保存到内存流，然后复制到响应stream ，因为响应流不支持查找。
 
 ## 例子
 
-演示如何执行邮件合并，然后将文档保存到客户端浏览器。
+展示如何执行邮件合并，然后将文档保存到客户端浏览器。
 
 ```csharp
 Document doc = new Document();
@@ -494,11 +485,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // 将文档发送到客户端浏览器。
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //由于测试中HttpResponse为null而抛出。
+//由于测试中 HttpResponse 为空而抛出。
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
 // 我们需要手动关闭此响应，以确保保存后不会向文档添加任何多余的内容。
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### 也可以看看

@@ -3,14 +3,14 @@ title: FormField.ExitMacro
 linktitle: ExitMacro
 articleTitle: ExitMacro
 second_title: Aspose.Words pour .NET
-description: FormField ExitMacro propriété. Renvoie ou définit un nom de macro de sortie pour le champ du formulaire en C#.
+description: Découvrez la propriété FormField ExitMacro pour gérer facilement les macros de sortie de vos formulaires. Améliorez l'expérience utilisateur et simplifiez la saisie de données dès aujourd'hui !
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/formfield/exitmacro/
 ---
 ## FormField.ExitMacro property
 
-Renvoie ou définit un nom de macro de sortie pour le champ du formulaire.
+Renvoie ou définit un nom de macro de sortie pour le champ de formulaire.
 
 ```csharp
 public string ExitMacro { get; set; }
@@ -18,7 +18,7 @@ public string ExitMacro { get; set; }
 
 ## Remarques
 
-La macro de sortie s'exécute lorsque le champ du formulaire perd le focus dans Microsoft Word.
+La macro de sortie s'exécute lorsque le champ de formulaire perd le focus dans Microsoft Word.
 
 Microsoft Word autorise les chaînes contenant au maximum 32 caractères.
 
@@ -71,15 +71,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

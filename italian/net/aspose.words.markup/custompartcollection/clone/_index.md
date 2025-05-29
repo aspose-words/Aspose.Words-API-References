@@ -3,7 +3,7 @@ title: CustomPartCollection.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words per .NET
-description: CustomPartCollection Clone metodo. Crea una copia completa di questa raccolta e dei suoi elementi in C#.
+description: Clona senza sforzo la tua CustomPartCollection con il nostro metodo di copia approfondita, assicurandoti che tutti gli elementi vengano conservati per una gestione dei dati senza interruzioni.
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/custompartcollection/clone/
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

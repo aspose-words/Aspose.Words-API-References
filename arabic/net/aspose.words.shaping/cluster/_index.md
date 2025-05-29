@@ -3,14 +3,14 @@ title: Cluster Class
 linktitle: Cluster
 articleTitle: Cluster
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shaping.Cluster فصل. يقوم بتغليف نقاط التعليمات البرمجية والحروف الرسومية التي تشكل حرفًا في C#.
+description: اكتشف فئة Aspose.Words.Shaping.Cluster، المصممة لإدارة نقاط التعليمات البرمجية والرموز بكفاءة لتحسين عرض النص في تطبيقاتك.
 type: docs
-weight: 6010
+weight: 6840
 url: /ar/net/aspose.words.shaping/cluster/
 ---
 ## Cluster class
 
-يقوم بتغليف نقاط التعليمات البرمجية والحروف الرسومية التي تشكل حرفًا.
+يغلف نقاط التعليمات البرمجية والرموز التي تشكل الرسم البياني.
 
 ```csharp
 public class Cluster
@@ -20,24 +20,24 @@ public class Cluster
 
 | اسم | وصف |
 | --- | --- |
-| [Cluster](cluster/)(*int[], Glyph[]*) | تهيئة المثيل الجديد لهذه الفئة. |
+| [Cluster](cluster/)(*int[], Glyph[]*) | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | يحصل على نقاط التشفير الخاصة بالمجموعة. |
-| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | يحصل على العدد الإجمالي لنقاط الكود في`Cluster` . |
-| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | يحصل على الحروف الرسومية للمجموعة. |
+| [Codepoints](../../aspose.words.shaping/cluster/codepoints/) { get; } | يحصل على نقاط رمز المجموعة. |
+| [CodepointsLength](../../aspose.words.shaping/cluster/codepointslength/) { get; } | يحصل على العدد الإجمالي لنقاط التعليمات البرمجية في`Cluster` . |
+| [Glyphs](../../aspose.words.shaping/cluster/glyphs/) { get; } | يحصل على رموز المجموعة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | يُرجع نسخة عميقة من هذا المثيل. |
-| [GetString](../../aspose.words.shaping/cluster/getstring/)() | ينشئString باستخدام نقاط التشفير من هذه المجموعة. |
-| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | إرجاع عرض المجموعة. |
-| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | ينشئString باستخدام نقاط التشفير من المجموعات المحددة. |
+| [DeepClone](../../aspose.words.shaping/cluster/deepclone/)() | يعيد نسخة طبق الأصل عميقة من هذه المثيل. |
+| [GetString](../../aspose.words.shaping/cluster/getstring/)() | ينشئString باستخدام نقاط التعليمات البرمجية من هذه المجموعة. |
+| [GetWidth](../../aspose.words.shaping/cluster/getwidth/)(*int, float*) | يعيد عرض المجموعة. |
+| static [GetString](../../aspose.words.shaping/cluster/getstring/)(*Cluster[]*) | ينشئString باستخدام نقاط الكود من المجموعات المحددة. |
 
 ### أنظر أيضا
 

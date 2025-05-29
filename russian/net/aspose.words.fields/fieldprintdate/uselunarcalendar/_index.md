@@ -3,14 +3,14 @@ title: FieldPrintDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words для .NET
-description: FieldPrintDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
+description: Управляйте датами без усилий с помощью свойства FieldPrintDate UseLunarCalendar. Легко переключайтесь между календарями Хиджры и еврейского лунного календаря для бесшовной интеграции.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldprintdate/uselunarcalendar/
 ---
 ## FieldPrintDate.UseLunarCalendar property
 
-Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+Возвращает или задает, использовать ли лунный календарь Хиджры или еврейский лунный календарь.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -23,9 +23,9 @@ public bool UseLunarCalendar { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Когда документ распечатывается на принтере или печатается в формате PDF (но не экспортируется в PDF),
+// Когда документ распечатывается на принтере или распечатывается как PDF (но не экспортируется в PDF),
 // Поля PRINTDATE будут отображать дату/время операции печати.
-// Если печать не выполнялась, в этих полях будет отображаться «0/0/0000».
+// Если печать не производилась, в этих полях будет отображаться «0/0/0000».
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);

@@ -3,7 +3,7 @@ title: Field.End
 linktitle: End
 articleTitle: End
 second_title: Aspose.Words для .NET
-description: Field End свойство. Получает узел представляющий конец поля на С#.
+description: Откройте для себя свойство Field End. Легко получайте доступ к узлу, представляющему конец поля, для бесперебойного управления данными и повышения производительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/field/end/
@@ -18,7 +18,7 @@ public FieldEnd End { get; }
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

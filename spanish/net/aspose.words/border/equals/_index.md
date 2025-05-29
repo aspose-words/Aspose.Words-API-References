@@ -3,7 +3,7 @@ title: Border.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words para .NET
-description: Border Equals método. Determina si el borde especificado tiene el mismo valor que el borde actual en C#.
+description: Descubre el método "Borde Igual" para comparar fácilmente los valores de los bordes y mejorar la precisión de tu diseño. ¡Consigue resultados consistentes sin esfuerzo!
 type: docs
 weight: 100
 url: /es/net/aspose.words/border/equals/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Dado que usamos la misma configuración de borde al crear
+// Dado que utilizamos la misma configuración de borde al crear
 // estos párrafos, sus colecciones de bordes comparten los mismos elementos.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
@@ -41,14 +41,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Después de cambiar el estilo de línea de los bordes sólo en el segundo párrafo,
-// las colecciones fronterizas ya no comparten los mismos elementos.
+//Después de cambiar el estilo de línea de los bordes solo en el segundo párrafo,
+//Las colecciones de borde ya no comparten los mismos elementos.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Cambiar la apariencia de un borde vacío lo hace visible.
+    //Cambiar la apariencia de un borde vacío lo hace visible.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(*object*) {#equals_1}
 
-Determina si el objeto especificado tiene el mismo valor que el objeto actual.
+Determina si el objeto especificado es igual en valor al objeto actual.
 
 ```csharp
 public override bool Equals(object obj)
@@ -82,7 +82,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Dado que usamos la misma configuración de borde al crear
+// Dado que utilizamos la misma configuración de borde al crear
 // estos párrafos, sus colecciones de bordes comparten los mismos elementos.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
@@ -96,14 +96,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Después de cambiar el estilo de línea de los bordes sólo en el segundo párrafo,
-// las colecciones fronterizas ya no comparten los mismos elementos.
+//Después de cambiar el estilo de línea de los bordes solo en el segundo párrafo,
+//Las colecciones de borde ya no comparten los mismos elementos.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Cambiar la apariencia de un borde vacío lo hace visible.
+    //Cambiar la apariencia de un borde vacío lo hace visible.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

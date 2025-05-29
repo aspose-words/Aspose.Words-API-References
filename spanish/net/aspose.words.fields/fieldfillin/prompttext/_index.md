@@ -3,7 +3,7 @@ title: FieldFillIn.PromptText
 linktitle: PromptText
 articleTitle: PromptText
 second_title: Aspose.Words para .NET
-description: FieldFillIn PromptText propiedad. Obtiene o establece el texto del mensaje el título de la ventana del mensaje en C#.
+description: Descubra la propiedad FieldFillIn PromptText, personalice fácilmente los títulos de las ventanas de solicitud para mejorar la experiencia del usuario y mejorar la claridad de la interfaz.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldfillin/prompttext/
@@ -26,8 +26,8 @@ public void FieldFillIn()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insertar un campo FILLIN. Cuando actualizamos manualmente este campo en Microsoft Word,
-    // nos pedirá que ingresemos una respuesta. El campo luego mostrará la respuesta como texto.
+    // Insertar un campo RELLENO. Al actualizar manualmente este campo en Microsoft Word,
+    Nos pedirá que ingresemos una respuesta. El campo mostrará la respuesta como texto.
     FieldFillIn field = (FieldFillIn)builder.InsertField(FieldType.FieldFillIn, true);
     field.PromptText = "Please enter a response:";
     field.DefaultResponse = "A default response.";
@@ -41,8 +41,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Si realizamos una combinación de correspondencia mediante programación, podemos utilizar un encuestado personalizado
-    // para editar automáticamente las respuestas de los campos FILLIN que encuentra la combinación de correspondencia.
+    // Si realizamos una combinación de correspondencia mediante programación, podemos usar un respondedor de solicitud personalizado
+    // para editar automáticamente las respuestas para los campos FILLIN que encuentra la combinación de correspondencia.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 

@@ -3,7 +3,7 @@ title: FieldMergeSeq
 linktitle: FieldMergeSeq
 articleTitle: FieldMergeSeq
 second_title: Aspose.Words pour .NET
-description: FieldMergeSeq constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldMergeSeq : votre solution idéale pour une fusion de données fluide. Gagnez en efficacité grâce à notre constructeur par défaut pour des performances optimales !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldmergeseq/fieldmergeseq/

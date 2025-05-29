@@ -3,9 +3,9 @@ title: ImageData.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words pour .NET
-description: ImageData Save méthode. Enregistre limage dans le flux spécifié en C#.
+description: Enregistrez vos images facilement grâce à la méthode ImageData Save. Simplifiez votre flux de travail en stockant vos images directement dans le flux de votre choix, en toute simplicité.
 type: docs
-weight: 190
+weight: 200
 url: /fr/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
@@ -18,11 +18,11 @@ public void Save(Stream stream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| stream | Stream | Le flux dans lequel enregistrer l’image. |
+| stream | Stream | Le flux dans lequel enregistrer l'image. |
 
 ## Remarques
 
-Est-ce la responsabilité de l'appelant de supprimer l'objet stream.
+Est-ce la responsabilité de l'appelant de supprimer l'objet de flux ?
 
 ## Exemples
 
@@ -31,26 +31,16 @@ Montre comment enregistrer toutes les images d'un document dans le système de f
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// Les formes avec le jeu d'indicateurs "HasImage" stockent et affichent toutes les images du document.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// Les formes avec l'indicateur « HasImage » défini stockent et affichent toutes les images du document.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
 // Parcourez chaque forme et enregistrez son image.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -76,13 +66,13 @@ public void Save(string fileName)
 
 ## Exemples
 
-Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local en tant que fichiers individuels.
+Montre comment extraire des images d'un document et les enregistrer sur le système de fichiers local sous forme de fichiers individuels.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Récupère la collection de formes du document,
-// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier dans le système de fichiers local.
+// Récupérer la collection de formes du document,
+// et enregistrez les données d'image de chaque forme avec une image sous forme de fichier sur le système de fichiers local.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));

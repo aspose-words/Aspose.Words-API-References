@@ -3,7 +3,7 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words для .NET
-description: FontSourceBase WarningCallback свойство. Вызывается во время обработки источника шрифта при обнаружении проблемы которая может привести к потере точности форматирования на С#.
+description: Откройте для себя свойство FontSourceBase WarningCallback, необходимое для обеспечения точности форматирования путем обнаружения проблем во время обработки источника шрифта.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/fontsourcebase/warningcallback/
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Примеры
 
-Показывает, как вызвать обратный вызов с предупреждением при работе с источниками шрифтов.
+Показывает, как вызвать обратный вызов предупреждения при работе с источниками шрифтов.
 
 ```csharp
 public void FontSourceWarning()
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Получаем список шрифтов для вызова обратного вызова предупреждения.
+    // Получить список шрифтов для вызова функции обратного вызова предупреждения.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description

@@ -3,14 +3,14 @@ title: FileFormatInfo.IsEncrypted
 linktitle: IsEncrypted
 articleTitle: IsEncrypted
 second_title: Aspose.Words för .NET
-description: FileFormatInfo IsEncrypted fast egendom. ReturnerarSann om dokumentet är krypterat och kräver ett lösenord för att öppnas i C#.
+description: Ta reda på om ditt dokument är säkert med egenskapen FileFormatInfo IsEncrypted – returnerar sant för krypterade filer som kräver ett lösenord för åtkomst.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words/fileformatinfo/isencrypted/
 ---
 ## FileFormatInfo.IsEncrypted property
 
-Returnerar`Sann` om dokumentet är krypterat och kräver ett lösenord för att öppnas.
+Returer`sann` om dokumentet är krypterat och kräver ett lösenord för att öppnas.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -18,17 +18,17 @@ public bool IsEncrypted { get; }
 
 ## Anmärkningar
 
-Den här egenskapen finns för att hjälpa dig att sortera dokument som är krypterade från de som inte är det. Om du försöker ladda ett krypterat dokument med Aspose.Words utan att ange ett lösenord kommer ett undantag att kastas. Du kan använda den här egenskapen för att upptäcka om ett dokument kräver ett lösenord och vidta några åtgärder innan du laddar ett dokument, till exempel fråga användaren om ett lösenord.
+Den här egenskapen finns för att hjälpa dig sortera dokument som är krypterade från de som inte är det. Om du försöker läsa in ett krypterat dokument med Aspose.Words utan att ange ett lösenord kommer ett -undantag att utlösas. Du kan använda den här egenskapen för att upptäcka om ett dokument kräver ett password och vidta åtgärder innan du laddar ett dokument, till exempel be användaren om ett lösenord.
 
 ## Exempel
 
-Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformat och kryptering.
+Visar hur man använder FileFormatUtil-klassen för att identifiera dokumentformat och kryptering.
 
 ```csharp
 Document doc = new Document();
 
 // Konfigurera ett SaveOptions-objekt för att kryptera dokumentet
-// med ett lösenord när vi sparar det, och sedan spara dokumentet.
+// med ett lösenord när vi sparar det, och sedan sparar vi dokumentet.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 

@@ -3,9 +3,9 @@ title: LegendPosition Enum
 linktitle: LegendPosition
 articleTitle: LegendPosition
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition opsomming. Gibt die möglichen Positionen für eine Diagrammlegende an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.Charts.LegendPosition, um die Position Ihrer Diagrammlegende für eine verbesserte Datenvisualisierung einfach anzupassen.
 type: docs
-weight: 910
+weight: 1230
 url: /de/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
@@ -21,11 +21,11 @@ public enum LegendPosition
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | None | `0` | Für das Diagramm wird keine Legende angezeigt. |
-| Bottom | `1` | Gibt an, dass die Legende am unteren Rand des Diagramms gezeichnet werden soll. |
-| Left | `2` | Gibt an, dass die Legende links vom Diagramm gezeichnet werden soll. |
-| Right | `3` | Gibt an, dass die Legende rechts vom Diagramm gezeichnet werden soll. |
-| Top | `4` | Gibt an, dass die Legende oben im Diagramm gezeichnet werden soll. |
-| TopRight | `5` | Gibt an, dass die Legende oben rechts im Diagramm gezeichnet werden soll. |
+| Bottom | `1` | Gibt an, dass die Legende am unteren Rand des Diagramms angezeigt werden soll. |
+| Left | `2` | Gibt an, dass die Legende links vom Diagramm angezeigt werden soll. |
+| Right | `3` | Gibt an, dass die Legende rechts vom Diagramm angezeigt werden soll. |
+| Top | `4` | Gibt an, dass die Legende oben im Diagramm angezeigt werden soll. |
+| TopRight | `5` | Gibt an, dass die Legende oben rechts im Diagramm angezeigt werden soll. |
 
 ## Beispiele
 
@@ -43,11 +43,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Die Legende des Diagramms in die obere rechte Ecke verschieben.
+// Verschieben Sie die Legende des Diagramms in die obere rechte Ecke.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Geben Sie anderen Diagrammelementen, z. B. dem Diagramm, mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
+// Geben Sie anderen Diagrammelementen, beispielsweise dem Graphen, mehr Platz, indem Sie zulassen, dass sie die Legende überlappen.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

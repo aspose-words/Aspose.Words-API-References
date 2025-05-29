@@ -3,9 +3,9 @@ title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.SvgTextOutputMode تعداد. يسمح بتحديد كيفية عرض النص داخل المستند عند الحفظ بتنسيق SVG في C#.
+description: اكتشف Aspose.Words.Saving.SvgTextOutputMode enum لتخصيص عرض النص بتنسيق SVG، مما يعزز عرض المستند وجاذبيته البصرية.
 type: docs
-weight: 5610
+weight: 6410
 url: /ar/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
@@ -20,9 +20,9 @@ public enum SvgTextOutputMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| UseSvgFonts | `0` | يتم استخدام خطوط SVG لعرض النص. لاحظ أنه ليست كل المتصفحات تدعم خطوط SVG. |
-| UseTargetMachineFonts | `1` | يتم استخدام الخطوط المثبتة على الجهاز الهدف لعرض النص. ملاحظة، إذا كانت بعض الخطوط المستخدمة في المستند غير متوفرة على الجهاز المستهدف، فقد يبدو المستند بشكل مختلف. |
-| UsePlacedGlyphs | `2` | يتم عرض النص باستخدام المنحنيات. لاحظ أن تحديد النص لن يعمل إذا استخدمت هذا الخيار. |
+| UseSvgFonts | `0` | تُستخدم خطوط SVG لعرض النصوص. ملاحظة: لا تدعم جميع المتصفحات خطوط SVG. |
+| UseTargetMachineFonts | `1` | يتم استخدام الخطوط المثبتة على الجهاز المستهدف لعرض النص. ملاحظة، إذا لم تكن بعض الخطوط المستخدمة في المستند متوفرة على الجهاز المستهدف، فقد يبدو المستند مختلفًا. |
+| UsePlacedGlyphs | `2` | يتم عرض النص باستخدام المنحنيات. ملاحظة: لن يعمل تحديد النص باستخدام هذا الخيار. |
 
 ## أمثلة
 

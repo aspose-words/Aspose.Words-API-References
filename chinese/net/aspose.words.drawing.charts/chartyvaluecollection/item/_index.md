@@ -2,10 +2,10 @@
 title: ChartYValueCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValueCollection Item 财产. 获取或设置指定索引处的 Y 值 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartYValueCollection Item 属性可以轻松访问或修改任何索引处的 Y 值，从而增强您的数据可视化体验。
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartyvaluecollection/item/
 ---
 ## ChartYValueCollection indexer

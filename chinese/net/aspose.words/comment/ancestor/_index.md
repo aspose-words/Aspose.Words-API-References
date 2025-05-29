@@ -2,15 +2,15 @@
 title: Comment.Ancestor
 linktitle: Ancestor
 articleTitle: Ancestor
-second_title: 用于 .NET 的 Aspose.Words
-description: Comment Ancestor 财产. 返回父级Comment目的退货无效的获取顶级评论 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Ancestor 属性检索父评论对象。非常适合导航评论线程并增强用户参与度。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-返回父级[`Comment`](../)目的。退货`无效的`获取顶级评论。
+返回父级[`Comment`](../)对象。返回`无效的`用于顶级评论。
 
 ```csharp
 public Comment Ancestor { get; }
@@ -18,15 +18,15 @@ public Comment Ancestor { get; }
 
 ## 例子
 
-演示如何打印文档的所有注释及其回复。
+展示如何打印文档的所有评论及其回复。
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// 如果评论没有祖先，则它是“顶级”评论，而不是回复类型评论。
-// 打印所有顶级评论以及他们可能有的任何回复。
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// 如果评论没有祖先，它就是“顶级”评论，而不是回复类型的评论。
+// 打印所有顶级评论及其可能有的任何回复。
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

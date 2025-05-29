@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabelCollection Separator ملكية. الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات الخاصة بالسلسلة بأكملها. الإعداد الافتراضي هو فاصلة باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط عند استخدام فاصل الأسطر بدلاً من ذلك في C#.
+description: اكتشف خاصية الفاصل في ChartDataLabelCollection. خصّص فواصل تسميات البيانات لتحسين وضوح مخططاتك، بدءًا من الفواصل وصولًا إلى فواصل الأسطر.
 type: docs
-weight: 60
+weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/separator/
 ---
 ## ChartDataLabelCollection.Separator property
 
-الحصول على أو تعيين فاصل السلسلة المستخدم لتسميات البيانات الخاصة بالسلسلة بأكملها. الإعداد الافتراضي هو فاصلة، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط، عند استخدام فاصل الأسطر بدلاً من ذلك.
+يحصل على أو يعين فاصل السلسلة المستخدم لعلامات البيانات الخاصة بالسلسلة بأكملها. الافتراضي هو فاصلة، باستثناء المخططات الدائرية التي تعرض اسم الفئة والنسبة المئوية فقط، عندما يتم استخدام فاصل الأسطر بدلاً من ذلك.
 
 ```csharp
 public string Separator { get; set; }
@@ -18,11 +18,11 @@ public string Separator { get; set; }
 
 ## ملاحظات
 
-يمكن تجاوز القيمة المحددة لهذه الخاصية لتسمية بيانات فردية باستخدام [`Separator`](../../chartdatalabel/separator/) الملكية.
+يمكن تجاوز القيمة المحددة لهذه الخاصية لعلامة بيانات فردية باستخدام [`Separator`](../../chartdatalabel/separator/) الملكية.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الفقاعي.
+يوضح كيفية العمل مع تسميات البيانات في مخطط الفقاعات.
 
 ```csharp
 Document doc = new Document();
@@ -30,16 +30,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة بإحداثيات X/Y وقطر كل من الفقاعات.
+ // أضف سلسلة مخصصة مع إحداثيات X/Y وقطر كل فقاعة.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
     new[] { 9.0, 4.5, 2.5, 8.0, 5.0 });
 
-// قم بتمكين تسميات البيانات، ثم قم بتعديل مظهرها.
+// تمكين تسميات البيانات، ثم تعديل مظهرها.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowBubbleSize = true;
@@ -50,7 +50,7 @@ dataLabels.Separator = " & ";
 doc.Save(ArtifactsDir + "Charts.DataLabelsBubbleChart.docx");
 ```
 
-يوضح كيفية التعامل مع تسميات البيانات الخاصة بالمخطط الدائري.
+يوضح كيفية العمل مع تسميات البيانات في مخطط دائري.
 
 ```csharp
 Document doc = new Document();
@@ -58,15 +58,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أدخل سلسلة مخططات مخصصة مع اسم فئة لكل قطاع وجدول تكرارها.
+// قم بإدراج سلسلة مخططات مخصصة مع اسم الفئة لكل قطاع، وجدول التردد الخاص بها.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// تمكين تسميات البيانات التي ستعرض النسبة المئوية والتكرار لكل قطاع، وتعديل مظهرها.
+// تمكين تسميات البيانات التي ستعرض النسبة المئوية والتردد لكل قطاع، وتعديل مظهرها.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

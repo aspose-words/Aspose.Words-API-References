@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertHtml
 linktitle: InsertHtml
 articleTitle: InsertHtml
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertHtml metod. Infogar en HTMLsträng i dokumentet i C#.
+description: Förbättra dina dokument enkelt med DocumentBuilder InsertHtml-metoden – infoga sömlöst HTML-strängar för dynamisk innehållsintegration.
 type: docs
-weight: 350
+weight: 380
 url: /sv/net/aspose.words/documentbuilder/inserthtml/
 ---
 ## InsertHtml(*string*) {#inserthtml}
@@ -39,7 +39,7 @@ const string html = "<p align='right'>Paragraph right</p>" +
 
 builder.InsertHtml(html);
 
-// Genom att infoga HTML-kod analyseras formateringen av varje element till motsvarande dokumenttextformatering.
+// Genom att infoga HTML-kod tolkas formateringen av varje element till motsvarande dokumenttextformatering.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
@@ -58,7 +58,7 @@ Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
 
-Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
+Visar hur man utför en dokumentkoppling med ett anpassat återanrop som hanterar kopplingsdata i form av HTML-dokument.
 
 ```csharp
 public void MergeHtml()
@@ -91,32 +91,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Om kopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
-/// denna återuppringning analyserar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentplatsen för MERGEFIELD.
+/// Om dokumentkopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
+/// denna återanropsfunktion tolkar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentets plats för MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Lägg till analyserad HTML-data till dokumentets brödtext.
+            // Lägg till parsad HTML-data i dokumentets brödtext.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+            // Eftersom vi redan har infogat det sammanfogade innehållet manuellt,
+            // vi behöver inte svara på den här händelsen genom att returnera innehåll via egenskapen "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```
@@ -140,25 +140,25 @@ public void InsertHtml(string html, bool useBuilderFormatting)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | html | String | En HTML-sträng att infoga i dokumentet. |
-| useBuilderFormatting | Boolean | Ett värde som anger om formatering anges i[`DocumentBuilder`](../) används som basformatering för text som importeras från HTML. |
+| useBuilderFormatting | Boolean | Ett värde som anger om formateringen som anges i[`DocumentBuilder`](../) används som basformatering för text importerad från HTML. |
 
 ## Anmärkningar
 
 Du kan använda den här metoden för att infoga ett HTML-fragment eller ett helt HTML-dokument.
 
-När*useBuilderFormatting* är`falsk` , [`DocumentBuilder`](../)formatering ignoreras och formatering av infogade text baseras på standard HTML-formatering. Som ett resultat av detta ser texten ut som den renderas i webbläsare.
+När*useBuilderFormatting* är`falsk` , [`DocumentBuilder`](../) Formatering ignoreras och formateringen av infogat text baseras på standard HTML-formatering. Som ett resultat ser texten ut som den renderas i webbläsare.
 
-När*useBuilderFormatting* är`Sann` , formateringen av infogad text baseras på[`DocumentBuilder`](../) formatering, och texten ser ut som om den infogats med[`Write`](../write/) .
+När*useBuilderFormatting* är`sann` , formatering av infogad text är baserad på[`DocumentBuilder`](../) formatering, och texten ser ut som om den vore infogad med[`Write`](../write/) .
 
 ## Exempel
 
-Visar hur du använder en dokumentbyggares formatering när du infogar HTML-innehåll.
+Visar hur man tillämpar formateringen i ett dokumentverktyg när man infogar HTML-innehåll.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in en textjustering för byggaren, infoga ett HTML-stycke med en specificerad justering och ett utan.
+// Ange en textjustering för verktyget, infoga ett HTML-stycke med en specificerad justering och ett utan.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Distributed;
 builder.InsertHtml(
     "<p align='right'>Paragraph 1.</p>" +
@@ -166,12 +166,12 @@ builder.InsertHtml(
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-// Första stycket har en justering specificerad. När InsertHtml analyserar HTML-koden,
+// Det första stycket har en specificerad justering. När InsertHtml analyserar HTML-koden,
 // styckejusteringsvärdet som finns i HTML-koden ersätter alltid dokumentbyggarens värde.
 Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
 Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
 
-// Andra stycket har ingen anpassning specificerad. Det kan ha sitt justeringsvärde ifyllt
+// Det andra stycket har ingen specificerad justering. Det kan få sitt justeringsvärde ifyllt
 // av byggarens värde beroende på flaggan vi skickade till InsertHtml-metoden.
 Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
 Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
@@ -190,7 +190,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 
 ## InsertHtml(*string, [HtmlInsertOptions](../../htmlinsertoptions/)*) {#inserthtml_1}
 
-Infogar en HTML-sträng i dokumentet. Tillåter att ange ytterligare alternativ.
+Infogar en HTML-sträng i dokumentet. Gör det möjligt att ange ytterligare alternativ.
 
 ```csharp
 public void InsertHtml(string html, HtmlInsertOptions options)
@@ -207,7 +207,7 @@ Du kan använda den här metoden för att infoga ett HTML-fragment eller ett hel
 
 ## Exempel
 
-Visar hur du använder alternativ när du infogar html.
+Visar hur man använder alternativ när man infogar html.
 
 ```csharp
 Document doc = new Document();
@@ -219,9 +219,9 @@ builder.InsertField(" MERGEFIELD EMAIL ");
 builder.InsertParagraph();
 
 // Som standard infogar "DocumentBuilder.InsertHtml" ett HTML-fragment som slutar med ett HTML-element på blocknivå,
-// det stänger normalt det blocknivåelementet och infogar en styckebrytning.
+// den stänger normalt det blocknivåelementet och infogar en styckebrytning.
 // Som ett resultat visas ett nytt tomt stycke efter det infogade dokumentet.
-// Om vi anger "HtmlInsertOptions.RemoveLastEmptyParagraph", kommer de extra tomma styckena att tas bort.
+// Om vi anger "HtmlInsertOptions.RemoveLastEmptyParagraph" kommer dessa extra tomma stycken att tas bort.
 builder.MoveToMergeField("NAME");
 builder.InsertHtml("<p>John Smith</p>", HtmlInsertOptions.UseBuilderFormatting | HtmlInsertOptions.RemoveLastEmptyParagraph);
 builder.MoveToMergeField("EMAIL");

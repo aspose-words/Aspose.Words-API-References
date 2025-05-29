@@ -2,15 +2,15 @@
 title: IDocumentReaderPlugin Interface
 linktitle: IDocumentReaderPlugin
 articleTitle: IDocumentReaderPlugin
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.IDocumentReaderPlugin 界面. 定义可以将文件读入文档的外部读取器插件的接口 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.IDocumentReaderPlugin 接口，实现外部阅读器的无缝集成，轻松将文件转换为文档。
 type: docs
-weight: 3180
+weight: 3620
 url: /zh/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
 
-定义可以将文件读入文档的外部读取器插件的接口。
+定义可将文件读入文档的外部读取器插件的接口。
 
 ```csharp
 public interface IDocumentReaderPlugin

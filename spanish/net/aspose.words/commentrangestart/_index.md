@@ -3,16 +3,16 @@ title: CommentRangeStart Class
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words para .NET
-description: Aspose.Words.CommentRangeStart clase. Indica el inicio de una región de texto que tiene un comentario asociado en C#.
+description: Descubra la clase Aspose.Words.CommentRangeStart, que marca regiones de texto asociadas a comentarios para mejorar la gestión de documentos y la eficiencia de edición.
 type: docs
-weight: 260
+weight: 450
 url: /es/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
 Indica el inicio de una región de texto que tiene un comentario asociado.
 
-Para obtener más información, visite el[Trabajar con comentarios](https://docs.aspose.com/words/net/working-with-comments/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con comentarios](https://docs.aspose.com/words/net/working-with-comments/) Artículo de documentación.
 
 ```csharp
 public sealed class CommentRangeStart : Node
@@ -28,15 +28,15 @@ public sealed class CommentRangeStart : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica un identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
 | [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Especifica el identificador del comentario al que está vinculada esta región. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | DevolucionesCommentRangeStart . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve`verdadero` si este nodo puede contener otros nodos. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo inmediatamente siguiente a este nodo. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | DevuelveCommentRangeStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/)objeto que representa la porción de un documento que está contenida en este nodo. |
 
 ## Métodos
 
@@ -45,19 +45,19 @@ public sealed class CommentRangeStart : Node
 | override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer ancestro del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo de recorrido del árbol de preorden. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo en una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo en una cadena utilizando las opciones de guardado especificadas. |
 
 ## Observaciones
 
-Para crear un comentario anclado a una región de texto, necesita crear un[`Comment`](../comment/) and luego crea`CommentRangeStart` y[`CommentRangeEnd`](../commentrangeend/) establecer sus identificadores al mismo[`Id`](../comment/id/) valor.
+Para crear un comentario anclado a una región de texto, debe crear un[`Comment`](../comment/) and luego crea`CommentRangeStart` y[`CommentRangeEnd`](../commentrangeend/) y establecer sus identificadores al mismo[`Id`](../comment/id/) valor.
 
-`CommentRangeStart` es un nodo de nivel en línea y sólo puede ser hijo de[`Paragraph`](../paragraph/).
+`CommentRangeStart` es un nodo de nivel en línea y solo puede ser un hijo de[`Paragraph`](../paragraph/).
 
 ## Ejemplos
 
@@ -77,14 +77,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Agrega texto al documento, deformalo en un rango de comentarios y luego agrega tu comentario.
+    // Agregue texto al documento, deformelo en un rango de comentarios y luego agregue su comentario.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Agrega dos respuestas al comentario.
+    //Añadir dos respuestas al comentario.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -98,15 +98,19 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Iterar sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antepasados.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itera sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antecesor.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
         // Primero, visita el inicio del rango de comentarios.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Luego, visita el comentario y las respuestas que pueda tener.
+        // Luego, visita el comentario y cualquier respuesta que pueda tener.
         comment.Accept(commentVisitor);
+        // Visita solo el inicio del comentario.
+        comment.AcceptStart(commentVisitor);
+        // Visita solo el final del comentario.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -120,7 +124,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Imprime la información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
+/// Imprime información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -131,7 +135,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -186,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita de un nodo Comentario en el documento.
+    /// Se llama cuando finaliza la visita a un nodo Comentario en el documento.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -198,9 +202,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

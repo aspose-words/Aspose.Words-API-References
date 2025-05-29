@@ -3,7 +3,7 @@ title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words für .NET
-description: Cell CellFormat eigendom. Bietet Zugriff auf die Formatierungseigenschaften der Zelle in C#.
+description: Entdecken Sie die CellFormat-Eigenschaft von Cell, um einfach auf Zellenformatierungsoptionen zuzugreifen und diese anzupassen, um die Datenpräsentation in Ihren Anwendungen zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/cell/cellformat/
@@ -38,18 +38,18 @@ Zeigt, wie die Zeilen aus zwei Tabellen zu einer kombiniert werden.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Nachfolgend finden Sie zwei Möglichkeiten, eine Tabelle aus einem Dokument abzurufen.
-// 1 – Aus der „Tables“-Sammlung eines Body-Knotens:
+// Unten sind zwei Möglichkeiten, eine Tabelle aus einem Dokument zu erhalten.
+// 1 – Aus der „Tabellen“-Sammlung eines Body-Knotens:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Verwendung der Methode „GetChild“:
+// 2 - Verwenden der Methode „GetChild“:
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
 // Alle Zeilen der aktuellen Tabelle an die nächste anhängen.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Den leeren Tabellencontainer entfernen.
+// Entfernen Sie den leeren Tabellencontainer.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
@@ -73,7 +73,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Verwenden Sie die Eigenschaft „RowFormat“ der ersten Zeile, um die Formatierung zu ändern
+// Verwenden Sie die Eigenschaft "RowFormat" der ersten Zeile, um die Formatierung zu ändern
 // des Inhalts aller Zellen in dieser Zeile.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;

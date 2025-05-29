@@ -3,7 +3,7 @@ title: FieldTemplate.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
 second_title: Aspose.Words para .NET
-description: FieldTemplate IncludeFullPath propiedad. Obtiene o establece si se debe incluir el nombre completo de la ruta del archivo en C#.
+description: Descubra la propiedad IncludeFullPath de FieldTemplate para administrar fácilmente la inclusión de rutas de archivos completas, mejorando la eficiencia y la organización de su proyecto.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldtemplate/includefullpath/
@@ -24,7 +24,7 @@ Muestra cómo utilizar un campo PLANTILLA para mostrar la ubicación del sistema
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Podemos establecer un nombre de plantilla usando los campos. Esta propiedad se utiliza cuando "doc.AttachedTemplate" está vacío.
+Podemos establecer un nombre de plantilla mediante los campos. Esta propiedad se utiliza cuando el campo "doc.AttachedTemplate" está vacío.
 // Si esta propiedad está vacía, se utiliza el nombre de archivo de plantilla predeterminado "Normal.dotm".
 doc.FieldOptions.TemplateName = string.Empty;
 

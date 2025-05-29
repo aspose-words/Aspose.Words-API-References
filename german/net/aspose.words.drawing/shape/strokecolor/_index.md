@@ -3,9 +3,9 @@ title: Shape.StrokeColor
 linktitle: StrokeColor
 articleTitle: StrokeColor
 second_title: Aspose.Words für .NET
-description: Shape StrokeColor eigendom. Definiert die Farbe eines Strichs in C#.
+description: Passen Sie Ihr Design mit der Shape StrokeColor-Eigenschaft an und definieren Sie so leuchtende Strichfarben für eine beeindruckende visuelle Wirkung.
 type: docs
-weight: 190
+weight: 200
 url: /de/net/aspose.words.drawing/shape/strokecolor/
 ---
 ## Shape.StrokeColor property
@@ -18,9 +18,9 @@ public Color StrokeColor { get; set; }
 
 ## Bemerkungen
 
-Dies ist eine Verknüpfung zum[`Color`](../../stroke/color/) Eigentum.
+Dies ist eine Abkürzung zum[`Color`](../../stroke/color/) Eigentum.
 
-Der Standardwert ist Black.
+Der Standardwert ist Black .
 
 ## Beispiele
 
@@ -30,7 +30,7 @@ Zeigt, wie eine Form mit einer Volltonfarbe gefüllt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Schreiben Sie etwas Text und bedecken Sie ihn dann mit einer schwebenden Form.
+// Schreiben Sie einen Text und bedecken Sie ihn dann mit einer schwebenden Form.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
@@ -43,7 +43,7 @@ shape.StrokeColor = Color.CadetBlue;
 // Verwenden Sie die Eigenschaft „FillColor“, um die Farbe des Innenbereichs der Form festzulegen.
 shape.FillColor = Color.LightBlue;
 
-// Die Eigenschaft „Opacity“ bestimmt, wie transparent die Farbe auf einer Skala von 0-1 ist,
+// Die Eigenschaft „Deckkraft“ bestimmt, wie transparent die Farbe auf einer Skala von 0 bis 1 ist.
 // wobei 1 völlig undurchsichtig und 0 unsichtbar ist.
 // Die Formfüllung ist standardmäßig vollständig undurchsichtig, sodass wir den Text, über dem sich diese Form befindet, nicht sehen können.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
@@ -67,7 +67,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -79,7 +79,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -89,7 +89,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -117,7 +117,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

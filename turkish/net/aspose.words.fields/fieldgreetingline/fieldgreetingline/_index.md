@@ -2,8 +2,8 @@
 title: FieldGreetingLine
 linktitle: FieldGreetingLine
 articleTitle: FieldGreetingLine
-second_title: Aspose.Words for .NET
-description: FieldGreetingLine inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kişiselleştirilmiş selamlama satırlarını zahmetsizce oluşturmak için başvuracağınız çözümünüz olan FieldGreetingLine oluşturucusunu keşfedin. Projelerinizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldgreetingline/fieldgreetingline/

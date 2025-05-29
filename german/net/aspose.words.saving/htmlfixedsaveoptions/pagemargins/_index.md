@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions PageMargins eigendom. Gibt die Ränder um Seiten in einem HTMLDokument an. Der Randwert wird in Punkten gemessen und sollte gleich oder größer als 0 sein. Der Standardwert ist 10 Punkte in C#.
+description: Entdecken Sie die Eigenschaft HtmlFixedSaveOptions PageMargins, um die Ränder Ihres HTML-Dokuments anzupassen. Legen Sie Werte in Punkten fest, um das Layout präzise zu steuern.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
@@ -20,13 +20,13 @@ public double PageMargins { get; set; }
 
 Hängt vom Wert ab[`PageHorizontalAlignment`](../pagehorizontalalignment/) Eigentum:
 
-* Definiert den oberen, unteren und linken Seitenrand, wenn der Wert lautetLeft .
-* Definiert den oberen, unteren und rechten Seitenrand, wenn der Wert lautetRight .
-* Definiert die oberen und unteren Seitenränder, wenn der Wert lautetCenter .
+* Definiert den oberen, unteren und linken Seitenrand, wenn der WertLeft .
+* Definiert den oberen, unteren und rechten Seitenrand, wenn der WertRight .
+* Definiert die oberen und unteren Seitenränder, wenn der WertCenter .
 
 ## Beispiele
 
-Zeigt, wie die Seitenränder beim Speichern eines Dokuments im HTML-Format angepasst werden.
+Zeigt, wie Sie die Seitenränder beim Speichern eines Dokuments im HTML-Format anpassen.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

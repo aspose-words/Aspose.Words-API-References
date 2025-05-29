@@ -3,14 +3,14 @@ title: PageSavingArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words för .NET
-description: PageSavingArgs PageIndex fast egendom. Aktuellt sidindex i C#.
+description: Upptäck PageIndex-egenskapen i PageSavingArgs för effektiv sidhantering. Optimera din navigering med exakt spårning av aktuell sida.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/pagesavingargs/pageindex/
 ---
 ## PageSavingArgs.PageIndex property
 
-Aktuellt sidindex.
+Aktuell sidindex.
 
 ```csharp
 public int PageIndex { get; }
@@ -18,7 +18,7 @@ public int PageIndex { get; }
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att spara ett dokument i HTML sida för sida.
+Visar hur man använder en återanropsfunktion för att spara ett dokument till HTML sida för sida.
 
 ```csharp
 public void PageFileNames()
@@ -33,12 +33,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Vi kommer att spara varje sida i detta dokument till en separat HTML-fil i det lokala filsystemet.
-    // Ställ in en återuppringning som låter oss namnge varje utdata-HTML-dokument.
+    // Vi sparar varje sida i det här dokumentet till en separat HTML-fil i det lokala filsystemet.
+    // Ställ in en återanropsfunktion som låter oss namnge varje HTML-dokument som utdata.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -58,7 +58,7 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Nedan finns två sätt att ange var Aspose.Words kommer att spara varje sida i dokumentet.
+        // Nedan följer två sätt att ange var Aspose.Words ska spara varje sida i dokumentet.
         // 1 - Ange ett filnamn för utdatafilen:
         args.PageFileName = outFileName;
 

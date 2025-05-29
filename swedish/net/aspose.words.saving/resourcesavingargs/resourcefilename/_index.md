@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceFileName
 linktitle: ResourceFileName
 articleTitle: ResourceFileName
 second_title: Aspose.Words för .NET
-description: ResourceSavingArgs ResourceFileName fast egendom. Hämtar eller ställer in filnamnet utan sökväg där resursen ska sparas i C#.
+description: Hantera dina resurser effektivt med ResourceSavingArgs. Ange eller hämta enkelt filnamnet för att spara resurser utan krångel med sökvägar.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/resourcesavingargs/resourcefilename/
 ---
 ## ResourceSavingArgs.ResourceFileName property
 
-Hämtar eller ställer in filnamnet (utan sökväg) där resursen ska sparas.
+Hämtar eller anger filnamnet (utan sökväg) där resursen ska sparas.
 
 ```csharp
 public string ResourceFileName { get; set; }
@@ -18,23 +18,23 @@ public string ResourceFileName { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen låter dig omdefiniera hur resursfilnamnen genereras under export till fixerad HTML eller SVG.
+Den här egenskapen låter dig omdefiniera hur resursfilnamnen genereras vid export till fast sid-HTML eller SVG.
 
-När händelsen aktiveras innehåller den här egenskapen filnamnet som genererades av Aspose.Words. Du kan ändra värdet på den här egenskapen för att spara resursen i en annan fil. Observera att filnamn måste vara unika.
+När händelsen utlöses innehåller den här egenskapen filnamnet som genererades av Aspose.Words. Du kan ändra värdet på den här egenskapen för att spara resursen i en annan fil. Observera att filnamn måste vara unika.
 
-Aspose.Words genererar automatiskt ett unikt filnamn för varje resurs när exporteras till fast HTML- eller SVG-format. Hur resursfilnamnet genereras beror på om du sparar dokumentet i en fil eller i en ström.
+Aspose.Words genererar automatiskt ett unikt filnamn för varje resurs vid export till fast sidformat i HTML- eller SVG-format. Hur resursfilnamnet genereras beror på om du sparar dokumentet till en fil eller en ström.
 
-När du sparar ett dokument till en fil ser det genererade resursfilnamnet ut som &lt;dokumentbasfilnamn&gt;.&lt;bildnummer&gt;.&lt;tillägg&gt;.
+När man sparar ett dokument till en fil ser det genererade resursfilnamnet ut så här: &lt;dokumentets basfilnamn&gt;.&lt;bildnummer&gt;.&lt;filändelse&gt;.
 
-När du sparar ett dokument i en ström ser det genererade resursfilnamnet ut som Aspose.Words.&lt;dokumentguide&gt;.&lt;bildnummer&gt;.&lt;tillägg&gt;.
+När man sparar ett dokument i en ström ser det genererade resursfilnamnet ut som Aspose.Words.&lt;dokumentguide&gt;.&lt;bildnummer&gt;.&lt;tillägg&gt;.
 
-`ResourceFileName` måste endast innehålla filnamnet utan sökvägen. Aspose.Words bestämmer sökvägen för att spara och värdet på`src` attribut för att skriva till fast sida HTML eller SVG med hjälp av dokumentfilens namn, the[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) eller[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) och[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) eller[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) egenskaper.
+`ResourceFileName` måste endast innehålla filnamnet utan sökvägen. Aspose.Words bestämmer sökvägen för att spara och värdet för`källa` attribut för att skriva till fast sida HTML eller SVG med hjälp av dokumentets filnamn,[`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/) eller[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/) och[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/) eller[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/) egenskaper.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
 ## Exempel
 
-Visar hur man använder en återuppringning för att spåra externa resurser som skapas när ett dokument konverteras till HTML.
+Visar hur man använder en återanropsfunktion för att spåra externa resurser som skapats vid konvertering av ett dokument till HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -56,7 +56,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Anropas när Aspose.Words sparar en extern resurs till fixerad HTML eller SVG.
+    /// Anropas när Aspose.Words sparar en extern resurs till en fast sida i HTML eller SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

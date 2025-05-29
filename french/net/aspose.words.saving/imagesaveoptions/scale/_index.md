@@ -3,7 +3,7 @@ title: ImageSaveOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words pour .NET
-description: ImageSaveOptions Scale propriété. Obtient ou définit le facteur de zoom pour les images générées en C#.
+description: Découvrez la propriété ImageSaveOptions Scale pour ajuster sans effort le facteur de zoom de vos images, améliorant ainsi la qualité et la personnalisation.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.saving/imagesaveoptions/scale/
@@ -18,7 +18,7 @@ public float Scale { get; set; }
 
 ## Remarques
 
-La valeur par défaut est 1,0. La valeur doit être supérieure à 0.
+La valeur par défaut est 1,0. Elle doit être supérieure à 0.
 
 ## Exemples
 
@@ -29,11 +29,11 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Créez un objet "ImageSaveOptions" à passer à la méthode "Save" du moteur de rendu de nœud pour modifier
-// comment il restitue le nœud OfficeMath en image.
+// Créez un objet « ImageSaveOptions » à transmettre à la méthode « Save » du moteur de rendu du nœud pour modifier
+// comment il rend le nœud OfficeMath dans une image.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Définissez la propriété "Scale" sur 5 pour rendre l'objet à cinq fois sa taille d'origine.
+// Définissez la propriété « Scale » sur 5 pour rendre l'objet à cinq fois sa taille d'origine.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);
@@ -50,7 +50,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Lorsque nous enregistrons le document sous forme d'image, nous pouvons passer un objet SaveOptions à
-// édite l'image pendant que l'opération de sauvegarde la restitue.
+// modifier l'image pendant que l'opération de sauvegarde la rend.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // Nous pouvons ajuster ces propriétés pour modifier la luminosité et le contraste de l'image.
@@ -64,8 +64,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // Nous pouvons redimensionner l'image en utilisant cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
-    // Nous pouvons utiliser cette propriété pour annuler toute modification des dimensions de l'image que la modification de la résolution entraînerait.
+    // Nous pouvons redimensionner l'image grâce à cette propriété. La valeur par défaut est 1,0, pour une mise à l'échelle de 100 %.
+    // Nous pouvons utiliser cette propriété pour annuler tout changement dans les dimensions de l'image que provoquerait un changement de résolution.
     Scale = 96f / 72f
 };
 

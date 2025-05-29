@@ -3,7 +3,7 @@ title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words per .NET
-description: IMailMergeDataSource TableName proprietà. Restituisce il nome dellorigine dati in C#.
+description: Scopri la proprietà IMailMergeDataSource TableName per accedere facilmente al nome della tua origine dati e migliorare il processo di automazione dei documenti.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -22,9 +22,9 @@ Il nome dell'origine dati. Stringa vuota se l'origine dati non ha nome.
 
 ## Osservazioni
 
-Se stai implementando[`IMailMergeDataSource`](../), restituisce il nome dell'origine data da questa proprietà.
+Se stai implementando[`IMailMergeDataSource`](../), restituisce il nome della sorgente data da questa proprietà.
 
-Aspose.Words utilizza questo nome per corrispondere al nome della regione di stampa unione specificato nel documento modello. Il confronto tra il nome dell'origine dati e il nome dell'area di stampa unione non fa distinzione tra maiuscole e minuscole.
+Aspose.Words utilizza questo nome per la corrispondenza con il nome dell'area di stampa unione specificato nel documento modello. Il confronto tra il nome dell'origine dati e il nome dell'area di stampa unione non fa distinzione tra maiuscole e minuscole.
 
 ## Esempi
 
@@ -69,8 +69,8 @@ public class Customer
 }
 
 /// <summary>
- /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
-/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
+ /// Un'origine dati di unione di posta personalizzata che puoi implementare per consentire Aspose.Words
+/// per unire tramite posta i dati degli oggetti Cliente nei documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -78,12 +78,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo la sorgente dati, la sua posizione deve essere precedente al primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo quando si esegue la stampa unione con aree ripetibili.
     /// </summary>
     public string TableName
     {

@@ -3,14 +3,14 @@ title: DocumentSavingArgs.EstimatedProgress
 linktitle: EstimatedProgress
 articleTitle: EstimatedProgress
 second_title: Aspose.Words per .NET
-description: DocumentSavingArgs EstimatedProgress proprietà. Progresso percentuale stimato complessivo in C#.
+description: Tieni traccia dei progressi di DocumentSavingArgs senza sforzo con la proprietà EstimatedProgress, che fornisce aggiornamenti percentuali in tempo reale per una maggiore efficienza.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/documentsavingargs/estimatedprogress/
 ---
 ## DocumentSavingArgs.EstimatedProgress property
 
-Progresso percentuale stimato complessivo.
+Progresso percentuale complessivo stimato.
 
 ```csharp
 public double EstimatedProgress { get; }
@@ -18,7 +18,7 @@ public double EstimatedProgress { get; }
 
 ## Esempi
 
-Mostra come gestire un documento durante il salvataggio in html.
+Mostra come gestire un documento durante il salvataggio in formato HTML.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -37,12 +37,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Callback di avanzamento del salvataggio. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centro
     /// </summary>
     public SavingProgressCallback()
     {
@@ -50,7 +50,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback richiamato durante il salvataggio del documento.
+    /// Metodo di callback chiamato durante il salvataggio del documento.
     /// </summary>
     /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
@@ -62,7 +62,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora in cui viene avviato il salvataggio del documento.
+    /// Data e ora di inizio del salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -73,7 +73,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
 }
 ```
 
-Mostra come gestire un documento durante il salvataggio in docx.
+Mostra come gestire un documento durante il salvataggio in formato docx.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -92,12 +92,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Callback di avanzamento del salvataggio. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centro
     /// </summary>
     public SavingProgressCallback()
     {
@@ -105,7 +105,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback richiamato durante il salvataggio del documento.
+    /// Metodo di callback chiamato durante il salvataggio del documento.
     /// </summary>
     /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
@@ -117,7 +117,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora in cui viene avviato il salvataggio del documento.
+    /// Data e ora di inizio del salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -147,12 +147,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Salvataggio della richiamata dell'avanzamento. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
+/// Callback di avanzamento del salvataggio. Annulla il salvataggio di un documento dopo i secondi "MaxDuration".
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centro
     /// </summary>
     public SavingProgressCallback()
     {
@@ -160,7 +160,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Metodo di callback richiamato durante il salvataggio del documento.
+    /// Metodo di callback chiamato durante il salvataggio del documento.
     /// </summary>
     /// <param name="args">Salvataggio degli argomenti.</param>
     public void Notify(DocumentSavingArgs args)
@@ -172,7 +172,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Data e ora in cui viene avviato il salvataggio del documento.
+    /// Data e ora di inizio del salvataggio del documento.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 

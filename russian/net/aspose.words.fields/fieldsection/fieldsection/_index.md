@@ -3,7 +3,7 @@ title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
 second_title: Aspose.Words для .NET
-description: FieldSection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldSection — ваше решение для бесшовной интеграции. Разблокируйте стандартные функции для эффективной разработки!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldsection/fieldsection/

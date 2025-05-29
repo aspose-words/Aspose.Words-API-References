@@ -3,7 +3,7 @@ title: DropDownItemCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: DropDownItemCollection Add método. Agrega una cadena al final de la colección en C#.
+description: Mejore fácilmente su DropDownItemCollection con el método Add. Agregue cadenas al instante para ampliar su colección y mejorar la experiencia del usuario.
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/dropdownitemcollection/add/
@@ -22,17 +22,17 @@ public int Add(string value)
 
 ### Valor_devuelto
 
-El índice de base cero en el que se inserta el nuevo elemento.
+El índice basado en cero en el que se inserta el nuevo elemento.
 
 ## Ejemplos
 
-Muestra cómo insertar un campo de cuadro combinado y editar los elementos de su colección de elementos.
+Muestra cómo insertar un campo de cuadro combinado y editar los elementos en su colección de elementos.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta un cuadro combinado y luego verifica su colección de elementos desplegables.
+// Inserte un cuadro combinado y luego verifique su colección de elementos desplegables.
 // En Microsoft Word, el usuario hará clic en el cuadro combinado,
 // y luego elija uno de los elementos de texto de la colección para mostrar.
 string[] items = { "One", "Two", "Three" };
@@ -48,12 +48,12 @@ Assert.IsTrue(dropDownItems.Contains("Three"));
 // 1 - Agrega un elemento al final de la colección:
 dropDownItems.Add("Four");
 
-// 2 - Insertar un elemento antes de otro elemento en un índice específico:
+// 2 - Insertar un elemento antes de otro elemento en un índice especificado:
 dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Iterar sobre la colección e imprimir cada elemento.
+// Itera sobre la colección e imprime cada elemento.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
@@ -71,7 +71,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Vaciar toda la colección de elementos desplegables.
+// Vacía toda la colección de elementos desplegables.
 dropDownItems.Clear();
 ```
 

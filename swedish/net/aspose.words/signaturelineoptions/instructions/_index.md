@@ -3,14 +3,14 @@ title: SignatureLineOptions.Instructions
 linktitle: Instructions
 articleTitle: Instructions
 second_title: Aspose.Words för .NET
-description: SignatureLineOptions Instructions fast egendom. Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
+description: Upptäck hur du anpassar SignatureLineOptions med tydliga instruktioner för undertecknare, vilket förbättrar signeringsupplevelsen. Enkel installation med standardinställningar.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Hämtar eller ställer in instruktioner till undertecknaren som visas när signaturraden signeras. Standardvärdet för den här egenskapen är**tom sträng** (Empty).
+Hämtar eller anger instruktioner till undertecknaren som visas vid signering av signaturraden. Standardvärdet för den här egenskapen är**tom sträng** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

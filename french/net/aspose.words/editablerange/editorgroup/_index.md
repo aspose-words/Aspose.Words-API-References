@@ -3,7 +3,7 @@ title: EditableRange.EditorGroup
 linktitle: EditorGroup
 articleTitle: EditorGroup
 second_title: Aspose.Words pour .NET
-description: EditableRange EditorGroup propriété. Renvoie ou définit un alias ou un groupe dédition qui doit être utilisé pour déterminer si lutilisateur actuel doit être autorisé à modifier cette plage modifiable en C#.
+description: Gérez les autorisations des utilisateurs sans effort avec la propriété EditableRange EditorGroup, permettant de contrôler l'accès à l'édition pour une collaboration améliorée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/editablerange/editorgroup/
@@ -18,7 +18,7 @@ public EditorType EditorGroup { get; set; }
 
 ## Remarques
 
-Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera clair.
+Un seul utilisateur et un groupe d'éditeurs ne peuvent pas être définis simultanément pour la plage modifiable spécifique, si l'un est défini, l'autre sera effacé.
 
 ## Exemples
 
@@ -50,7 +50,7 @@ builder.EndEditableRange(outerEditableRangeStart);
 
 builder.Writeln("This paragraph is outside any editable ranges, and cannot be edited.");
 
-// Si une zone de texte comporte deux plages modifiables qui se chevauchent avec des groupes spécifiés,
+// Si une région de texte comporte deux plages modifiables qui se chevauchent avec des groupes spécifiés,
 // le groupe combiné d'utilisateurs exclus par les deux groupes ne peut pas le modifier.
 outerEditableRangeStart.EditableRange.EditorGroup = EditorType.Everyone;
 innerEditableRangeStart.EditableRange.EditorGroup = EditorType.Contributors;
@@ -90,7 +90,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprimer les détails et le contenu de chaque plage modifiable du document.
+    // Imprimez les détails et le contenu de chaque plage modifiable dans le document.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -150,7 +150,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions situées dans des plages modifiables.
+    /// Appelé lorsqu'un nœud Run est rencontré dans le document. Ce visiteur enregistre uniquement les exécutions comprises dans des plages modifiables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

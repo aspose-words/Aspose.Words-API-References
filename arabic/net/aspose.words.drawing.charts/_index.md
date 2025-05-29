@@ -3,12 +3,12 @@ title: Aspose.Words.Drawing.Charts
 linktitle: Aspose.Words.Drawing.Charts
 articleTitle: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words لـ .NET
-description: الAspose.Words.Drawing.Charts توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word في C#.
+description: تمتع بالوصول إلى مخططات مايكروسوفت وورد وتعديلها بسهولة مع Aspose.Words.Drawing.Charts. حسّن مستنداتك بميزات رسومية فعّالة اليوم!
 type: docs
-weight: 60
+weight: 80
 url: /ar/net/aspose.words.drawing.charts/
 ---
-ال**Aspose.Words.Drawing.Charts** توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word.
+ال**افترض.كلمات.رسم.مخططات** توفر مساحة الاسم فئات تسمح بالوصول إلى المخططات في مستندات Microsoft Word.
 
 ## الطبقات
 
@@ -16,51 +16,59 @@ url: /ar/net/aspose.words.drawing.charts/
 | --- | --- |
 | [AxisBound](./axisbound/) | يمثل الحد الأدنى أو الأقصى لقيم المحور. |
 | [AxisDisplayUnit](./axisdisplayunit/) | يوفر الوصول إلى خيارات القياس لوحدات العرض لمحور القيمة. |
-| [AxisScaling](./axisscaling/) | يمثل خيارات القياس للمحور. |
-| [BubbleSizeCollection](./bubblesizecollection/) | يمثل مجموعة من أحجام الفقاعات لسلسلة من الرسوم البيانية. |
-| [Chart](./chart/) | يوفر الوصول إلى خصائص شكل المخطط. |
-| [ChartAxis](./chartaxis/) | يمثل خيارات محاور المخطط. |
-| [ChartAxisCollection](./chartaxiscollection/) | يمثل مجموعة من محاور المخطط. |
+| [AxisScaling](./axisscaling/) | يمثل خيارات قياس المحور. |
+| [AxisTickLabels](./axisticklabels/) | يمثل خصائص علامات المحور. |
+| [BubbleSizeCollection](./bubblesizecollection/) | يمثل مجموعة من أحجام الفقاعات لسلسلة الرسم البياني. |
+| [Chart](./chart/) | يوفر الوصول إلى خصائص شكل الرسم البياني. |
+| [ChartAxis](./chartaxis/) | يمثل خيارات المحور للرسم البياني. |
+| [ChartAxisCollection](./chartaxiscollection/) | يمثل مجموعة من محاور الرسم البياني. |
 | [ChartAxisTitle](./chartaxistitle/) | يوفر الوصول إلى خصائص عنوان المحور. |
 | [ChartDataLabel](./chartdatalabel/) | يمثل تسمية البيانات على نقطة الرسم البياني أو خط الاتجاه. |
 | [ChartDataLabelCollection](./chartdatalabelcollection/) | يمثل مجموعة من[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
-| [ChartDataPoint](./chartdatapoint/) | يسمح بتحديد تنسيق نقطة بيانات واحدة على المخطط. |
+| [ChartDataPoint](./chartdatapoint/) | يسمح بتحديد تنسيق نقطة بيانات واحدة على الرسم البياني. |
 | [ChartDataPointCollection](./chartdatapointcollection/) | يمثل مجموعة من[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
-| [ChartFormat](./chartformat/) | يمثل تنسيق عنصر المخطط. |
-| [ChartLegend](./chartlegend/) | يمثل خصائص وسيلة إيضاح المخطط. |
-| [ChartLegendEntry](./chartlegendentry/) | يمثل إدخال وسيلة إيضاح المخطط. |
-| [ChartLegendEntryCollection](./chartlegendentrycollection/) | يمثل مجموعة من إدخالات وسيلة إيضاح المخطط. |
-| [ChartMarker](./chartmarker/) | يمثل علامة بيانات المخطط. |
+| [ChartDataTable](./chartdatatable/) | يسمح بتحديد خصائص جدول بيانات الرسم البياني. |
+| [ChartFormat](./chartformat/) | يمثل تنسيق عنصر الرسم البياني. |
+| [ChartLegend](./chartlegend/) | يمثل خصائص أسطورة الرسم البياني. |
+| [ChartLegendEntry](./chartlegendentry/) | يمثل إدخال أسطورة الرسم البياني. |
+| [ChartLegendEntryCollection](./chartlegendentrycollection/) | يمثل مجموعة من إدخالات أسطورة الرسم البياني. |
+| [ChartMarker](./chartmarker/) | يمثل علامة بيانات الرسم البياني. |
 | [ChartMultilevelValue](./chartmultilevelvalue/) | يمثل قيمة للمخططات التي تعرض بيانات متعددة المستويات. |
-| [ChartNumberFormat](./chartnumberformat/) | يمثل تنسيق الأرقام للعنصر الأصلي. |
-| [ChartSeries](./chartseries/) | يمثل خصائص سلسلة المخططات. |
+| [ChartNumberFormat](./chartnumberformat/) | يمثل تنسيق الأرقام للعنصر الرئيسي. |
+| [ChartSeries](./chartseries/) | يمثل خصائص سلسلة الرسم البياني. |
 | [ChartSeriesCollection](./chartseriescollection/) | يمثل مجموعة من[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
-| [ChartTitle](./charttitle/) | يوفر الوصول إلى خصائص عنوان المخطط. |
-| [ChartXValue](./chartxvalue/) | يمثل قيمة X لسلسلة المخططات. |
-| [ChartXValueCollection](./chartxvaluecollection/) | يمثل مجموعة من قيم X لسلسلة مخططات. |
-| [ChartYValue](./chartyvalue/) | يمثل قيمة Y لسلسلة المخططات. |
-| [ChartYValueCollection](./chartyvaluecollection/) | يمثل مجموعة من قيم Y لسلسلة مخططات. |
+| [ChartSeriesGroup](./chartseriesgroup/) | يمثل خصائص مجموعة سلسلة الرسم البياني، أي خصائص سلسلة الرسم البياني من نفس النوع المرتبطة بنفس المحاور. |
+| [ChartSeriesGroupCollection](./chartseriesgroupcollection/) | يمثل مجموعة من[`ChartSeriesGroup`](../aspose.words.drawing.charts/chartseriesgroup/) الأشياء. |
+| [ChartTitle](./charttitle/) | يوفر الوصول إلى خصائص عنوان الرسم البياني. |
+| [ChartXValue](./chartxvalue/) | يمثل قيمة X لسلسلة الرسم البياني. |
+| [ChartXValueCollection](./chartxvaluecollection/) | يمثل مجموعة من قيم X لسلسلة الرسم البياني. |
+| [ChartYValue](./chartyvalue/) | يمثل قيمة Y لسلسلة الرسم البياني. |
+| [ChartYValueCollection](./chartyvaluecollection/) | يمثل مجموعة من قيم Y لسلسلة الرسم البياني. |
 ## واجهات
 
 | واجهه المستخدم | وصف |
 | --- | --- |
-| [IChartDataPoint](./ichartdatapoint/) | يحتوي على خصائص نقطة بيانات واحدة على المخطط. |
+| [IChartDataPoint](./ichartdatapoint/) | يحتوي على خصائص نقطة بيانات واحدة على الرسم البياني. |
 ## تعداد
 
 | تعداد | وصف |
 | --- | --- |
-| [AxisBuiltInUnit](./axisbuiltinunit/) | تحديد وحدات العرض للمحور. |
+| [AxisBuiltInUnit](./axisbuiltinunit/) | يحدد وحدات العرض للمحور. |
 | [AxisCategoryType](./axiscategorytype/) | يحدد نوع محور الفئة. |
-| [AxisCrosses](./axiscrosses/) | تحديد نقاط العبور المحتملة للمحور. |
+| [AxisCrosses](./axiscrosses/) | يحدد نقاط التقاطع المحتملة للمحور. |
+| [AxisGroup](./axisgroup/) | يمثل نوعًا من مجموعة محاور الرسم البياني. |
 | [AxisScaleType](./axisscaletype/) | يحدد أنواع المقياس الممكنة للمحور. |
-| [AxisTickLabelPosition](./axisticklabelposition/) | يحدد المواضع المحتملة لتسميات التجزئة. |
+| [AxisTickLabelPosition](./axisticklabelposition/) | يحدد المواضع المحتملة لعلامات التجزئة. |
 | [AxisTickMark](./axistickmark/) | يحدد المواضع المحتملة لعلامات التجزئة. |
-| [AxisTimeUnit](./axistimeunit/) | تحديد الوحدة الزمنية للمحاور. |
-| [ChartAxisType](./chartaxistype/) | يحدد نوع محور المخطط. |
-| [ChartSeriesType](./chartseriestype/) | يحدد نوع سلسلة المخططات. |
-| [ChartShapeType](./chartshapetype/) | يحدد نوع شكل عناصر المخطط. |
-| [ChartType](./charttype/) | يحدد نوع المخطط. |
-| [ChartXValueType](./chartxvaluetype/) | يسمح بتحديد نوع قيمة X لسلسلة المخططات. |
-| [ChartYValueType](./chartyvaluetype/) | يسمح بتحديد نوع قيمة Y لسلسلة المخططات. |
-| [LegendPosition](./legendposition/) | يحدد المواضع المحتملة لوسيلة إيضاح المخطط. |
+| [AxisTimeUnit](./axistimeunit/) | يحدد وحدة الوقت للمحاور. |
+| [ChartAxisType](./chartaxistype/) | يحدد نوع محور الرسم البياني. |
+| [ChartDataLabelLocationMode](./chartdatalabellocationmode/) | يحدد كيفية تحديد القيم التي تحدد موقع تسمية البيانات -[`Left`](../aspose.words.drawing.charts/chartdatalabel/left/) و [`Top`](../aspose.words.drawing.charts/chartdatalabel/top/) الخصائص - يتم تفسيرها. |
+| [ChartDataLabelPosition](./chartdatalabelposition/) | يحدد موضع تسمية بيانات الرسم البياني. |
+| [ChartSeriesType](./chartseriestype/) | يحدد نوع سلسلة الرسم البياني. |
+| [ChartShapeType](./chartshapetype/) | يحدد نوع شكل عناصر الرسم البياني. |
+| [ChartStyle](./chartstyle/) | يحدد الأنماط المحددة مسبقًا للرسم البياني. |
+| [ChartType](./charttype/) | يحدد نوع الرسم البياني. |
+| [ChartXValueType](./chartxvaluetype/) | يسمح بتحديد نوع قيمة X لسلسلة الرسم البياني. |
+| [ChartYValueType](./chartyvaluetype/) | يسمح بتحديد نوع قيمة Y لسلسلة الرسم البياني. |
+| [LegendPosition](./legendposition/) | يحدد المواضع المحتملة لأسطورة الرسم البياني. |
 | [MarkerSymbol](./markersymbol/) | يحدد نمط رمز العلامة. |

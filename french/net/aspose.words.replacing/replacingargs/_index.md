@@ -3,16 +3,16 @@ title: ReplacingArgs Class
 linktitle: ReplacingArgs
 articleTitle: ReplacingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Replacing.ReplacingArgs classe. Fournit des données pour une opération de remplacement personnalisée en C#.
+description: Découvrez la classe Aspose.Words.Replacing.ReplacingArgs pour un remplacement de texte personnalisé efficace dans vos documents. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
-weight: 4650
+weight: 5390
 url: /fr/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Fournit des données pour une opération de remplacement personnalisée.
 
-Pour en savoir plus, visitez le[Trouver et remplacer](https://docs.aspose.com/words/net/find-and-replace/) article documentaire.
+Pour en savoir plus, visitez le[Rechercher et remplacer](https://docs.aspose.com/words/net/find-and-replace/) article de documentation.
 
 ```csharp
 public class ReplacingArgs
@@ -24,9 +24,9 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifie, par index, un groupe capturé dans le[`Match`](./match/) qui doit être remplacé par le[`Replacement`](./replacement/) chaîne. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifie, par son nom, un groupe capturé dans le[`Match`](./match/) qui doit être remplacé par le[`Replacement`](./replacement/) chaîne. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | LeMatch résultant d'une seule correspondance d'expression régular au cours d'un**Remplacer** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | LeMatch résultant d'une seule correspondance d'expression regular lors d'un**Remplacer** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Obtient le nœud qui contient le début de la correspondance. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Obtient la position de départ de base zéro de la correspondance à partir du début de le nœud qui contient le début de la correspondance. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Obtient la position de départ basée sur zéro de la correspondance à partir du début du nœud qui contient le début de la correspondance. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Obtient ou définit la chaîne de remplacement. |
 
 ## Exemples
@@ -42,10 +42,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Définit un rappel qui suit tous les remplacements effectués par la méthode "Replace".
+    // Définissez un rappel qui suit tous les remplacements que la méthode « Remplacer » effectuera.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -59,8 +59,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Tient un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
-/// et note la valeur du texte original correspondant.
+/// Conserve un journal de chaque remplacement de texte effectué par une opération de recherche et de remplacement
+/// et note la valeur du texte correspondant d'origine.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -82,14 +82,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Montre comment insérer le contenu entier d’un document en remplacement d’une correspondance dans une opération de recherche et de remplacement.
+Montre comment insérer le contenu entier d'un document en remplacement d'une correspondance dans une opération de recherche et de remplacement.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Nous pouvons utiliser un objet "FindReplaceOptions" pour modifier le processus de recherche et de remplacement.
+    // Nous pouvons utiliser un objet « FindReplaceOptions » pour modifier le processus de recherche et de remplacement.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -104,11 +104,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Insère un document après le paragraphe contenant le texte correspondant.
+        // Insérer un document après le paragraphe contenant le texte correspondant.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Supprime le paragraphe avec le texte correspondant.
+        // Supprimez le paragraphe avec le texte correspondant.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -130,7 +130,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Ignore le nœud s'il s'agit du dernier paragraphe vide d'une section.
+                // Ignorer le nœud s'il s'agit du dernier paragraphe vide d'une section.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

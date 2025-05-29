@@ -3,9 +3,9 @@ title: ImageBinarizationMethod Enum
 linktitle: ImageBinarizationMethod
 articleTitle: ImageBinarizationMethod
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.ImageBinarizationMethod перечисление. Указывает метод используемый для бинаризации изображения на С#.
+description: Откройте для себя перечисление Aspose.Words.ImageBinarizationMethod для эффективной бинаризации изображений. Оптимизируйте обработку документов с помощью передовых методов.
 type: docs
-weight: 5200
+weight: 5950
 url: /ru/net/aspose.words.saving/imagebinarizationmethod/
 ---
 ## ImageBinarizationMethod enumeration
@@ -20,8 +20,8 @@ public enum ImageBinarizationMethod
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Threshold | `0` | Определяет пороговый метод. |
-| FloydSteinbergDithering | `1` | Определяет сглаживание с использованием метода диффузии ошибок Флойда-Стейнберга. |
+| Threshold | `0` | Указывает пороговый метод. |
+| FloydSteinbergDithering | `1` | Задает сглаживание с использованием метода диффузии ошибок Флойда-Стейнберга. |
 
 ## Примеры
 
@@ -35,10 +35,10 @@ builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Когда мы сохраняем документ в формате TIFF, мы можем передать объект SaveOptions в
-// корректируем сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
-// Значение по умолчанию свойства ThresholdForFloydSteinbergDithering — 128.
-// Более высокие значения приводят к более темным изображениям.
+// Когда мы сохраняем документ как TIFF, мы можем передать объект SaveOptions
+// настройте сглаживание, которое Aspose.Words будет применять при рендеринге этого изображения.
+// Значение свойства "ThresholdForFloydSteinbergDithering" по умолчанию равно 128.
+// Более высокие значения, как правило, приводят к получению более темных изображений.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

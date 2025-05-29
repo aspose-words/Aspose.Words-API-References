@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
 articleTitle: ShowPercentage
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection ShowPercentage 财产. 允许指定是否为整个系列的数据标签显示百分比值 默认值为错误的仅适用于饼图 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartDataLabelCollection 中的 ShowPercentage 属性，通过显示数据标签的百分比值来增强饼图的效果。提升清晰度和洞察力！
 type: docs
-weight: 120
+weight: 150
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-允许指定是否为整个系列的数据标签显示百分比值。 默认值为`错误的`。仅适用于饼图。
+允许指定是否显示整个系列的数据标签的百分比值。 默认值为`错误的`。仅适用于饼图。
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPercentage { get; set; }
 
 ## 评论
 
-可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowPercentage`](../../chartdatalabel/showpercentage/)属性.
+可以使用 覆盖此属性定义的单个数据标签值[`ShowPercentage`](../../chartdatalabel/showpercentage/)属性.
 
 ## 例子
 
@@ -38,7 +38,7 @@ ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// 启用数据标签，显示每个扇区的百分比和频率，并修改其外观。
+// 启用数据标签，显示每个部门的百分比和频率，并修改其外观。
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

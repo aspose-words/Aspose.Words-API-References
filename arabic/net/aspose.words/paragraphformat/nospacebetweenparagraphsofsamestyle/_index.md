@@ -3,14 +3,14 @@ title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 linktitle: NoSpaceBetweenParagraphsOfSameStyle
 articleTitle: NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle ملكية. متىحقيقي SpaceBefore وSpaceAfter سيتم تجاهل بين الفقرات ذات نفس النمط في C#.
+description: اكتشف خاصية ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle. حسّن تصميم مستندك بإزالة المسافات بين الفقرات المتشابهة.
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-متى`حقيقي` ,[`SpaceBefore`](../spacebefore/) و[`SpaceAfter`](../spaceafter/) سيتم تجاهل بين الفقرات ذات نفس النمط.
+عندما`حقيقي` ،[`SpaceBefore`](../spacebefore/) و[`SpaceAfter`](../spaceafter/) سيتم تجاهل بين الفقرات ذات نفس النمط.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -18,24 +18,24 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ## ملاحظات
 
-لا يسري هذا الإعداد إلا عند تطبيقه على نمط الفقرة. إذا تم تطبيقه على فقرة مباشرة، فلن يكون له أي تأثير.
+لا يُطبَّق هذا الإعداد إلا على نمط فقرة. أما إذا طُبِّق مباشرةً على فقرة، فلن يكون له أي تأثير.
 
 ## أمثلة
 
-يوضح كيفية تطبيق عدم وجود مسافات بين الفقرات بنفس النمط.
+يوضح كيفية عدم تطبيق المسافة بين الفقرات بنفس النمط.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سينشئها هذا المنشئ.
+// قم بتطبيق قدر كبير من التباعد قبل وبعد الفقرات التي سيقوم هذا المنشئ بإنشائها.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// قم بتعيين علامة "NoSpaceBetweenParagraphsOfSameStyle" على "صحيح" للتطبيق
-// لا توجد مسافات بين الفقرات ذات النمط نفسه، مما يؤدي إلى تجميع الفقرات المتشابهة.
-// اترك علامة "NoSpaceBetweenParagraphsOfSameStyle" على أنها "خطأ"
-// لتطبيق المسافات بالتساوي على كل فقرة.
+// اضبط علامة "NoSpaceBetweenParagraphsOfSameStyle" على "true" لتطبيقها
+// لا توجد مسافة بين الفقرات التي لها نفس النمط، مما سيؤدي إلى تجميع الفقرات المتشابهة.
+// اترك علامة "NoSpaceBetweenParagraphsOfSameStyle" على "false"
+// لتطبيق التباعد بالتساوي على كل فقرة.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

@@ -3,14 +3,14 @@ title: FieldDdeAuto.InsertAsHtml
 linktitle: InsertAsHtml
 articleTitle: InsertAsHtml
 second_title: Aspose.Words لـ .NET
-description: FieldDdeAuto InsertAsHtml ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML في C#.
+description: اكتشف خاصية FieldDdeAuto InsertAsHtml. أدر الكائنات المرتبطة بسهولة عن طريق إدراجها كنص HTML لضمان تكامل سلس ووظائف مُحسّنة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldddeauto/insertashtml/
 ---
 ## FieldDdeAuto.InsertAsHtml property
 
-الحصول على أو تعيين ما إذا كان سيتم إدراج الكائن المرتبط كنص بتنسيق HTML.
+يحصل على أو يحدد ما إذا كان سيتم إدراج الكائن المرتبط بتنسيق نص HTML.
 
 ```csharp
 public bool InsertAsHtml { get; set; }
@@ -18,7 +18,7 @@ public bool InsertAsHtml { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام أنواع الحقول المختلفة للارتباط بالمستندات الأخرى في نظام الملفات المحلي وعرض محتوياتها.
+يوضح كيفية استخدام أنواع مختلفة من الحقول للارتباط بمستندات أخرى في نظام الملفات المحلي، وعرض محتوياتها.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -26,7 +26,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل نص.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل نص.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -50,7 +50,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض محتويات مستند مرتبط في شكل صورة.
+    // فيما يلي ثلاثة أنواع من الحقول التي يمكننا استخدامها لعرض المحتويات من مستند مرتبط في شكل صورة.
     // 1 - حقل الرابط:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل DDE وتعيين خصائصه وفقًا للمعلمات.
+/// استخدم منشئ المستندات لإدراج حقل DDE، وتعيين خصائصه وفقًا للمعلمات.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // LinkedObjectAsText
+    // كائن مرتبط كنص
     Text,
     Unicode,
     Html,
     Rtf,
-    // LinkedObjectAsImage
+    // كائن مرتبط كصورة
     Picture,
     Bitmap
 }

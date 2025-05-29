@@ -3,16 +3,16 @@ title: UserInformation Class
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.UserInformation classe. Spécifie des informations sur lutilisateur en C#.
+description: Découvrez la classe Aspose.Words.Fields.UserInformation pour gérer efficacement les détails des utilisateurs et améliorer le traitement des documents dans vos applications.
 type: docs
-weight: 2790
+weight: 3200
 url: /fr/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Spécifie des informations sur l'utilisateur.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class UserInformation
@@ -50,13 +50,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Insère les champs USERNAME, USERINITIALS et USERADDRESS, qui affichent les valeurs de
+// Insérer les champs USERNAME, USERINITIALS et USEADDRESS, qui affichent les valeurs de
  // les propriétés respectives de l'objet UserInformation que nous avons créé ci-dessus.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// L'objet d'options de champ a également un utilisateur statique par défaut auquel les champs de tous les documents peuvent faire référence.
+// L'objet d'options de champ dispose également d'un utilisateur par défaut statique auquel les champs de tous les documents peuvent faire référence.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

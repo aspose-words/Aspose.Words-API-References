@@ -2,15 +2,15 @@
 title: FieldCreateDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCreateDate UseLunarCalendar 财产. 获取或设置是否使用回历农历或希伯来农历 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldCreateDate 的 UseLunarCalendar 属性轻松管理日期格式。您可以选择回历或希伯来阴历，实现精准的日程安排。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcreatedate/uselunarcalendar/
 ---
 ## FieldCreateDate.UseLunarCalendar property
 
-获取或设置是否使用回历农历或希伯来农历。
+获取或设置是否使用伊斯兰历或希伯来历。
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseLunarCalendar { get; set; }
 
 ## 例子
 
-演示如何使用 CREATEDATE 字段来显示文档的创建日期/时间。
+展示如何使用 CREATEDATE 字段显示文档的创建日期/时间。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,15 +27,15 @@ builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
 // 我们可以使用 CREATEDATE 字段来显示文档的创建日期和时间。
-// 下面是三种不同的日历类型，CREATEDATE 字段可以根据它们显示日期/时间。
-// 1 - 伊斯兰农历：
+// 以下是三种不同的日历类型，CREATEDATE 字段可以根据这些日历类型显示日期/时间。
+// 1 - 伊斯兰阴历：
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
 
 Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
 
-// 2 - 乌姆古拉历：
+// 2 - 古兰经日历：
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;

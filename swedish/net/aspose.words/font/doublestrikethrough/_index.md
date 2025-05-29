@@ -3,7 +3,7 @@ title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words för .NET
-description: Font DoubleStrikeThrough fast egendom. Sant om teckensnittet är formaterat som dubbel genomstruken text i C#.
+description: Upptäck egenskapen för teckensnittet DoubleStrikeThrough. Formatera enkelt text med en dubbel genomstrykning för ökad tydlighet och stil i dina dokument.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/font/doublestrikethrough/
@@ -18,7 +18,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ## Exempel
 
-Visar hur man lägger till en rad genomstruken i text.
+Visar hur man lägger till en genomstrykning av text.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: ChartYValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: ChartYValueCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة ChartYValueCollection GetEnumerator—قم بتكرار البيانات بكفاءة وبكل سهولة وعزز قدراتك على التعامل مع البيانات.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
 ---
 ## ChartYValueCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<ChartYValue> GetEnumerator()

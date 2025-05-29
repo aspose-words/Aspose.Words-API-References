@@ -3,14 +3,14 @@ title: PdfSaveOptions.ZoomFactor
 linktitle: ZoomFactor
 articleTitle: ZoomFactor
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions ZoomFactor ملكية. الحصول على أو تعيين قيمة تحدد عامل التكبير بالنسبة المئوية للمستند في C#.
+description: اكتشف خاصية ZoomFactor في PdfSaveOptions لضبط مستويات تكبير المستندات بسهولة بنسب مئوية، مما يعزز تجربة عرض ملفات PDF الخاصة بك.
 type: docs
-weight: 330
+weight: 360
 url: /ar/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property
 
-الحصول على أو تعيين قيمة تحدد عامل التكبير (بالنسبة المئوية) للمستند.
+يحصل على قيمة لتحديد عامل التكبير (بالنسب المئوية) لمستند أو يعينها.
 
 ```csharp
 public int ZoomFactor { get; set; }
@@ -22,18 +22,18 @@ public int ZoomFactor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط التكبير/التصغير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF معروض.
+يوضح كيفية تعيين التكبير الافتراضي الذي يطبقه القارئ عند فتح مستند PDF المقدم.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 // اضبط خاصية "ZoomBehavior" على "PdfZoomBehavior.ZoomFactor" للحصول على قارئ PDF
-// قم بتطبيق عامل التكبير على أساس النسبة المئوية عندما نفتح المستند به.
-// اضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
+// تطبيق عامل تكبير يعتمد على النسبة المئوية عند فتح المستند به.
+// قم بضبط خاصية "ZoomFactor" على "25" لإعطاء عامل التكبير قيمة 25%.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

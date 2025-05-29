@@ -3,14 +3,14 @@ title: ReplaceAction Enum
 linktitle: ReplaceAction
 articleTitle: ReplaceAction
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Replacing.ReplaceAction перечисление. Позволяет пользователю указать что происходит с текущим совпадением во время операции замены на С#.
+description: Откройте для себя перечисление Aspose.Words.ReplaceAction, чтобы контролировать результаты сопоставления в операциях замены, повышая эффективность и точность редактирования документов.
 type: docs
-weight: 4640
+weight: 5370
 url: /ru/net/aspose.words.replacing/replaceaction/
 ---
 ## ReplaceAction enumeration
 
-Позволяет пользователю указать, что происходит с текущим совпадением во время операции замены.
+Позволяет пользователю указать, что произойдет с текущим совпадением во время операции замены.
 
 ```csharp
 public enum ReplaceAction
@@ -48,11 +48,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставляем документ после абзаца, содержащего совпадающий текст.
+        // Вставить документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Удаляем абзац с совпадающим текстом.
+        // Удалить абзац с совпадающим текстом.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -74,7 +74,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропускаем узел, если это последний пустой абзац в разделе.
+                // Пропустить узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

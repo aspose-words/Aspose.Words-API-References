@@ -3,14 +3,14 @@ title: AbsolutePositionTab.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: AbsolutePositionTab Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول AbsolutePositionTab لضمان تفاعل سلس للزوار. حسّن تفاعلية موقعك وارفع مستوى رضا المستخدمين اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,35 +18,40 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقدة. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقدة. |
 
 ### قيمة الإرجاع
 
-`خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
+`خطأ شنيع` إذا طلب الزائر التوقف عن التعداد.
 
 ## ملاحظات
 
 المكالمات[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
 ## أمثلة
 
-يوضح كيفية معالجة أحرف علامة تبويب الموضع المطلق مع زائر المستند.
+يوضح كيفية معالجة أحرف علامة التبويب الخاصة بالموضع المطلق باستخدام زائر المستند.
 
 ```csharp
 public void DocumentToTxt()
 {
     Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // استخرج محتويات النص من وثيقتنا عن طريق قبول زائر المستند المخصص هذا.
+    // استخراج محتويات النص من مستندنا عن طريق قبول زائر المستند المخصص هذا.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // قم بزيارة بداية نص المستند فقط.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // قم بزيارة نهاية نص المستند فقط.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // تم تحويل علامة تبويب الموضع المطلق، التي ليس لها ما يعادلها في شكل سلسلة، بشكل صريح إلى حرف جدولة.
+    // تم تحويل الموضع المطلق لعلامة التبويب، والتي ليس لها معادل في شكل سلسلة، صراحةً إلى حرف علامة تبويب.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // يمكن لـAbsolutePositionTab قبول DocumentVisitor بمفرده أيضًا.
+    // يمكن لـ AbsolutePositionTab قبول DocumentVisitor أيضًا.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -56,7 +61,7 @@ public void DocumentToTxt()
 }
 
 /// <summary>
-/// يجمع محتويات النص لجميع عمليات التشغيل في المستند الذي تمت زيارته. يستبدل كافة أحرف علامات التبويب المطلقة بعلامات تبويب عادية.
+/// يجمع محتوى النص لجميع عمليات التشغيل في المستند الذي تمت زيارته. يستبدل جميع علامات التبويب المطلقة بعلامات تبويب عادية.
 /// </summary>
 public class DocTextExtractor : DocumentVisitor
 {
@@ -66,7 +71,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -75,7 +80,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدةAbsolutePositionTab في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة AbsolutePositionTab في المستند.
     /// </summary>
     public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
@@ -84,7 +89,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// يضيف نصًا إلى الإخراج الحالي. يكرم علامة الإخراج الممكنة/المعطلة.
+    /// يُضيف نصًا إلى المخرجات الحالية. يُراعي علامة المخرجات المُفعّلة/المعطّلة.
     /// </summary>
     private void AppendText(string text)
     {
@@ -92,7 +97,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// نص عادي للوثيقة التي جمعها الزائر.
+    /// نص عادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {

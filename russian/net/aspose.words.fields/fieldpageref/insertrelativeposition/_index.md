@@ -3,14 +3,14 @@ title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words для .NET
-description: FieldPageRef InsertRelativePosition свойство. Получает или задает следует ли вставлять относительную позицию абзаца отмеченного закладкой на С#.
+description: Узнайте, как свойство InsertRelativePosition объекта FieldPageRef улучшает навигацию по документу за счет эффективного управления позициями абзацев, отмеченных закладками.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-Получает или задает, следует ли вставлять относительную позицию абзаца, отмеченного закладкой.
+Возвращает или задает, следует ли вставлять относительное положение абзаца, отмеченного закладкой.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -24,26 +24,26 @@ public bool InsertRelativePosition { get; set; }
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Вставляем поле PAGEREF, которое показывает, на какой странице находится закладка.
+    // Вставьте поле PAGEREF, отображающее страницу, на которой находится закладка.
     // Установите флаг InsertHyperlink, чтобы поле также функционировало как кликабельная ссылка на закладку.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
     // Мы можем использовать флаг \p, чтобы отобразить поле PAGEREF
     // положение закладки относительно положения поля.
-    // Bookmark1 находится на той же странице и над этим полем, поэтому отображаемый результат для этого поля будет «выше».
+    // Bookmark1 находится на той же странице и над этим полем, поэтому отображаемый результат этого поля будет «выше».
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 будет находиться на той же странице и под этим полем, поэтому отображаемый результат этого поля будет «ниже».
+    // Bookmark2 будет на той же странице и под этим полем, поэтому отображаемый результат этого поля будет «ниже».
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 будет на другой странице, поэтому поле будет отображаться как «на странице 2».
+    // Закладка3 будет на другой странице, поэтому поле будет отображаться «на странице 2».
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -57,7 +57,7 @@ public void FieldPageRef()
 }
 
 /// <summary>
-/// Использует конструктор документов для вставки поля PAGEREF и устанавливает его свойства.
+/// Использует конструктор документов для вставки поля PAGEREF и задает его свойства.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {

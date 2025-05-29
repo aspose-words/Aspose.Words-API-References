@@ -3,14 +3,14 @@ title: PdfSaveOptions.ZoomFactor
 linktitle: ZoomFactor
 articleTitle: ZoomFactor
 second_title: Aspose.Words pour .NET
-description: PdfSaveOptions ZoomFactor propriété. Obtient ou définit une valeur déterminant le facteur de zoom en pourcentages pour un document en C#.
+description: Découvrez la propriété ZoomFactor de PdfSaveOptions pour ajuster facilement les niveaux de zoom des documents en pourcentages, améliorant ainsi votre expérience de visualisation PDF.
 type: docs
-weight: 330
+weight: 360
 url: /fr/net/aspose.words.saving/pdfsaveoptions/zoomfactor/
 ---
 ## PdfSaveOptions.ZoomFactor property
 
-Obtient ou définit une valeur déterminant le facteur de zoom (en pourcentages) pour un document.
+Obtient ou définit une valeur déterminant le facteur de zoom (en pourcentage) pour un document.
 
 ```csharp
 public int ZoomFactor { get; set; }
@@ -29,11 +29,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
-// pour modifier la façon dont cette méthode convertit le document en .PDF.
-// Définissez la propriété "ZoomBehavior" sur "PdfZoomBehavior.ZoomFactor" pour qu'un lecteur PDF
-// applique un facteur de zoom basé sur un pourcentage lorsque nous ouvrons le document avec.
-// Fixez la propriété "ZoomFactor" à "25" pour donner au facteur de zoom une valeur de 25%.
+// Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
+// pour modifier la manière dont cette méthode convertit le document en .PDF.
+// Définissez la propriété « ZoomBehavior » sur « PdfZoomBehavior.ZoomFactor » pour qu'un lecteur PDF
+// appliquer un facteur de zoom basé sur un pourcentage lorsque nous ouvrons le document avec celui-ci.
+// Définissez la propriété « ZoomFactor » sur « 25 » pour donner au facteur de zoom une valeur de 25 %.
 PdfSaveOptions options = new PdfSaveOptions
 {
     ZoomBehavior = PdfZoomBehavior.ZoomFactor,

@@ -3,14 +3,14 @@ title: MailMergeSettings.MailAsAttachment
 linktitle: MailAsAttachment
 articleTitle: MailAsAttachment
 second_title: Aspose.Words для .NET
-description: MailMergeSettings MailAsAttachment свойство. Указывает что документы созданные во время операции слияния почты должны отправляться по электронной почте как вложение а не как текст фактического электронного письма. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство MailAsAttachment в MailMergeSettings улучшает ваши почтовые кампании, отправляя объединенные документы в виде вложений для лучшего взаимодействия.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-Указывает, что документы, созданные во время операции слияния почты, должны отправляться по электронной почте как вложение, а не как текст фактического электронного письма. Значение по умолчанию:`ЛОЖЬ` .
+Указывает, что документы, созданные во время операции слияния почты, должны быть отправлены по электронной почте как вложение, а не как тело самого письма. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }

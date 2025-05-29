@@ -3,14 +3,14 @@ title: WarningInfo Class
 linktitle: WarningInfo
 articleTitle: WarningInfo
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WarningInfo klas. Enthält Informationen zu einer Warnung die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat in C#.
+description: Entdecken Sie die Klasse Aspose.Words.WarningInfo, die wichtige Einblicke in Warnungen beim Laden oder Speichern von Dokumenten bietet und so die Effizienz Ihres Workflows steigert.
 type: docs
-weight: 6630
+weight: 7480
 url: /de/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
-Enthält Informationen zu einer Warnung, die Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben hat.
+Enthält Informationen zu einer Warnung, die Aspose.Words beim Laden oder Speichern eines Dokuments ausgegeben hat.
 
 Um mehr zu erfahren, besuchen Sie die[Programmieren mit Dokumenten](https://docs.aspose.com/words/net/programming-with-documents/) Dokumentationsartikel.
 
@@ -28,11 +28,11 @@ public class WarningInfo
 
 ## Bemerkungen
 
-Sie erstellen keine Instanzen dieser Klasse. Objekte dieser Klasse werden erstellt und von Aspose.Words an übergeben[`Warning`](../iwarningcallback/warning/) Methode.
+Sie erstellen keine Instanzen dieser Klasse. Objekte dieser Klasse werden erstellt und von Aspose.Words an die[`Warning`](../iwarningcallback/warning/) Verfahren.
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -40,7 +40,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -50,7 +50,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -69,7 +69,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

@@ -2,15 +2,15 @@
 title: DigitalSignatureCollection.IsValid
 linktitle: IsValid
 articleTitle: IsValid
-second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignatureCollection IsValid 财产. 返回真的如果此集合中的所有数字签名均有效且文档未被篡改 也返回真的如果没有数字签名 返回错误的如果至少有一个数字签名无效 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DigitalSignatureCollection 的 IsValid 属性确保文档完整性。该属性会验证所有签名是否有效且未被篡改，从而增强安全性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/
 ---
 ## DigitalSignatureCollection.IsValid property
 
-返回`真的`如果此集合中的所有数字签名均有效且文档未被篡改 也返回`真的`如果没有数字签名。 返回`错误的`如果至少有一个数字签名无效。
+返回`真的`如果此集合中的所有数字签名均有效且文档未被篡改 还返回`真的`如果没有数字签名。 返回`错误的`如果至少一个数字签名无效。
 
 ```csharp
 public bool IsValid { get; }
@@ -18,23 +18,24 @@ public bool IsValid { get; }
 
 ## 例子
 
-演示如何使用 X.509 证书签署文档。
+展示如何使用 X.509 证书签署文档。
 
 ```csharp
-// 验证文档是否未签名。
+// 验证文档未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 有两种方法将文档的签名副本保存到本地文件系统：
+// 有两种方法可以将文档的签名副本保存到本地文件系统：
 // 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流中。
+// 2 - 从流中获取文档并将签名的副本保存到另一个流。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -45,7 +46,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 请验证文档的所有数字签名是否有效并检查其详细信息。
+// 请验证所有文档的数字签名是否有效并检查其详细信息。
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

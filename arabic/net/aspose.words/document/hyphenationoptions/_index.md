@@ -3,14 +3,14 @@ title: Document.HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words لـ .NET
-description: Document HyphenationOptions ملكية. يوفر الوصول إلى خيارات الواصلة في المستند في C#.
+description: استكشف خاصية Document HyphenationOptions لتخصيص إعدادات الوصل، مما يعزز قابلية القراءة ويحسن عرض المستند.
 type: docs
-weight: 210
+weight: 220
 url: /ar/net/aspose.words/document/hyphenationoptions/
 ---
 ## Document.HyphenationOptions property
 
-يوفر الوصول إلى خيارات الواصلة في المستند.
+يوفر الوصول إلى خيارات وضع علامات الوصل في المستند.
 
 ```csharp
 public HyphenationOptions HyphenationOptions { get; }
@@ -18,7 +18,7 @@ public HyphenationOptions HyphenationOptions { get; }
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

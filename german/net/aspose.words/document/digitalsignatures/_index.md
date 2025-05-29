@@ -3,9 +3,9 @@ title: Document.DigitalSignatures
 linktitle: DigitalSignatures
 articleTitle: DigitalSignatures
 second_title: Aspose.Words für .NET
-description: Document DigitalSignatures eigendom. Ruft die Sammlung digitaler Signaturen für dieses Dokument und deren Validierungsergebnisse ab in C#.
+description: Entdecken Sie die DigitalSignatures-Eigenschaft, um mühelos auf die digitalen Signaturen eines Dokuments zuzugreifen und sie zu validieren. Sorgen Sie mühelos für Authentizität und Sicherheit.
 type: docs
-weight: 100
+weight: 110
 url: /de/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
@@ -18,9 +18,9 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ## Bemerkungen
 
-Diese Sammlung enthält digitale Signaturen, die aus dem Originaldokument geladen wurden. Diese digitalen Signaturen werden beim Speichern nicht gespeichert[`Document`](../) object in eine Datei oder einen Stream kopieren, da beim Speichern oder Konvertieren ein Dokument entsteht, das sich vom Original unterscheidet und die ursprünglichen digitalen Signaturen nicht mehr gültig sind.
+Diese Sammlung enthält digitale Signaturen, die aus dem Originaldokument geladen wurden. Diese digitalen Signaturen werden beim Speichern dieses Dokuments nicht gespeichert.[`Document`](../) object in eine Datei oder einen Stream, da beim Speichern oder Konvertieren ein Dokument erstellt wird, das sich vom Original unterscheidet und die ursprünglichen digitalen Signaturen nicht mehr gültig sind.
 
-Diese Sammlung ist nie`Null`. Wenn das Dokument nicht signiert ist, enthält es keine Elemente.
+Diese Sammlung ist nie`null`. Wenn das Dokument nicht signiert ist, enthält es null Elemente.
 
 ## Beispiele
 
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -44,16 +44,17 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Zeigt, wie Dokumente mit X.509-Zertifikaten signiert werden.
 
 ```csharp
-// Stellen Sie sicher, dass ein Dokument nicht signiert ist.
+// Überprüfen Sie, ob ein Dokument signiert ist.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Erstellen Sie ein CertificateHolder-Objekt aus einer PKCS12-Datei, das wir zum Signieren des Dokuments verwenden.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Es gibt zwei Möglichkeiten, eine signierte Kopie eines Dokuments im lokalen Dateisystem zu speichern:
-// 1 – Bestimmen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 – Kennzeichnen Sie ein Dokument durch einen lokalen Systemdateinamen und speichern Sie eine signierte Kopie an einem durch einen anderen Dateinamen angegebenen Speicherort.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
@@ -68,7 +69,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind, und überprüfen Sie deren Details.
+// Bitte überprüfen Sie, ob alle digitalen Signaturen des Dokuments gültig sind und kontrollieren Sie deren Details.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

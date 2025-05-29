@@ -3,14 +3,14 @@ title: PageSetup Class
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.PageSetup فصل. يمثل خصائص إعداد الصفحة لقسم ما في C#.
+description: اكتشف فئة Aspose.Words.PageSetup لتخصيص إعدادات الصفحات بسلاسة في أقسام مستندك. حسّن تخطيط الصفحة وحسّن قابلية القراءة اليوم!
 type: docs
-weight: 4360
+weight: 5090
 url: /ar/net/aspose.words/pagesetup/
 ---
 ## PageSetup class
 
-يمثل خصائص إعداد الصفحة لقسم ما.
+يمثل خصائص إعداد الصفحة للقسم.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الأقسام](https://docs.aspose.com/words/net/working-with-sections/) مقالة توثيقية.
 
@@ -22,65 +22,65 @@ public class PageSetup
 
 | اسم | وصف |
 | --- | --- |
-| [Bidi](../../aspose.words/pagesetup/bidi/) { get; set; } | يحدد أن هذا القسم يحتوي على نص ثنائي الاتجاه (برامج نصية معقدة). |
+| [Bidi](../../aspose.words/pagesetup/bidi/) { get; set; } | يحدد أن هذا القسم يحتوي على نص ثنائي الاتجاه (نصوص معقدة). |
 | [BorderAlwaysInFront](../../aspose.words/pagesetup/borderalwaysinfront/) { get; set; } | يحدد مكان وضع حدود الصفحة بالنسبة للنصوص والكائنات المتقاطعة. |
 | [BorderAppliesTo](../../aspose.words/pagesetup/borderappliesto/) { get; set; } | يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها. |
-| [BorderDistanceFrom](../../aspose.words/pagesetup/borderdistancefrom/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان حد الصفحة المحدد يتم قياسه من حافة الصفحة أو من النص المحيط بها. |
-| [Borders](../../aspose.words/pagesetup/borders/) { get; } | الحصول على مجموعة من حدود الصفحة. |
-| [BorderSurroundsFooter](../../aspose.words/pagesetup/bordersurroundsfooter/) { get; set; } | يحدد ما إذا كان حد الصفحة يتضمن التذييل أم لا. |
-| [BorderSurroundsHeader](../../aspose.words/pagesetup/bordersurroundsheader/) { get; set; } | يحدد ما إذا كانت حدود الصفحة تتضمن الرأس أم لا. |
-| [BottomMargin](../../aspose.words/pagesetup/bottommargin/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين الحافة السفلية للصفحة والحد السفلي للنص الأساسي. |
-| [ChapterPageSeparator](../../aspose.words/pagesetup/chapterpageseparator/) { get; set; } | الحصول على أو تعيين الحرف الفاصل الذي يظهر بين رقم الفصل ورقم الصفحة. |
-| [CharactersPerLine](../../aspose.words/pagesetup/charactersperline/) { get; set; } | الحصول على أو تعيين عدد الأحرف لكل سطر في شبكة المستند. |
+| [BorderDistanceFrom](../../aspose.words/pagesetup/borderdistancefrom/) { get; set; } | يحصل على قيمة أو يعينها تشير إلى ما إذا كانت حدود الصفحة المحددة يتم قياسها من حافة الصفحة أو من النص المحيط بها. |
+| [Borders](../../aspose.words/pagesetup/borders/) { get; } | يحصل على مجموعة من حدود الصفحة. |
+| [BorderSurroundsFooter](../../aspose.words/pagesetup/bordersurroundsfooter/) { get; set; } | يحدد ما إذا كانت حدود الصفحة تتضمن التذييل أم تستبعده. |
+| [BorderSurroundsHeader](../../aspose.words/pagesetup/bordersurroundsheader/) { get; set; } | يحدد ما إذا كانت حدود الصفحة تتضمن الرأس أم تستبعده. |
+| [BottomMargin](../../aspose.words/pagesetup/bottommargin/) { get; set; } | يعيد أو يضبط المسافة (بالنقاط) بين الحافة السفلية للصفحة والحد السفلي لنص الجسم. |
+| [ChapterPageSeparator](../../aspose.words/pagesetup/chapterpageseparator/) { get; set; } | يحصل على أو يعين حرف الفاصل الذي يظهر بين رقم الفصل ورقم الصفحة. |
+| [CharactersPerLine](../../aspose.words/pagesetup/charactersperline/) { get; set; } | يحصل على عدد الأحرف لكل سطر في شبكة المستند أو يعينه. |
 | [DifferentFirstPageHeaderFooter](../../aspose.words/pagesetup/differentfirstpageheaderfooter/) { get; set; } | صحيح إذا تم استخدام رأس أو تذييل مختلف في الصفحة الأولى. |
-| [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/) { get; } | يوفر خيارات تتحكم في ترقيم التعليقات الختامية وموضعها في هذا القسم. |
-| [FirstPageTray](../../aspose.words/pagesetup/firstpagetray/) { get; set; } | الحصول على أو تعيين درج الورق (الحاوية) لاستخدامه في الصفحة الأولى من القسم. القيمة خاصة بالتنفيذ (الطابعة). |
-| [FooterDistance](../../aspose.words/pagesetup/footerdistance/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين التذييل وأسفل الصفحة. |
-| [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/) { get; } | يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا القسم. |
-| [Gutter](../../aspose.words/pagesetup/gutter/) { get; set; } | الحصول على أو تعيين مقدار المساحة الإضافية المضافة إلى هامش ربط المستند. |
-| [HeaderDistance](../../aspose.words/pagesetup/headerdistance/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين الرأس وأعلى الصفحة. |
-| [HeadingLevelForChapter](../../aspose.words/pagesetup/headinglevelforchapter/) { get; set; } | الحصول على أو تعيين نمط مستوى العنوان الذي يتم تطبيقه على عناوين الفصول في المستند. |
-| [LayoutMode](../../aspose.words/pagesetup/layoutmode/) { get; set; } | الحصول على أو تعيين وضع التخطيط لهذا القسم. |
-| [LeftMargin](../../aspose.words/pagesetup/leftmargin/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين الحافة اليسرى للصفحة والحد الأيسر للنص الأساسي. |
+| [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/) { get; } | يوفر خيارات للتحكم في ترقيم وموضع الحواشي الختامية في هذا القسم. |
+| [FirstPageTray](../../aspose.words/pagesetup/firstpagetray/) { get; set; } | يحصل على درج الورق (السلة) الذي سيتم استخدامه للصفحة الأولى من القسم أو يعينه. القيمة خاصة بالتنفيذ (الطابعة). |
+| [FooterDistance](../../aspose.words/pagesetup/footerdistance/) { get; set; } | يعيد أو يضبط المسافة (بالنقاط) بين التذييل وأسفل الصفحة. |
+| [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/) { get; } | يوفر خيارات للتحكم في ترقيم الحواشي السفلية وتحديد موقعها في هذا القسم. |
+| [Gutter](../../aspose.words/pagesetup/gutter/) { get; set; } | يحصل على مقدار المساحة الإضافية المضافة إلى الهامش لربط المستند أو يعينه. |
+| [HeaderDistance](../../aspose.words/pagesetup/headerdistance/) { get; set; } | يعيد أو يضبط المسافة (بالنقاط) بين الرأس وأعلى الصفحة. |
+| [HeadingLevelForChapter](../../aspose.words/pagesetup/headinglevelforchapter/) { get; set; } | يحصل على نمط مستوى العنوان المطبق على عناوين الفصول في المستند أو يعينه. |
+| [LayoutMode](../../aspose.words/pagesetup/layoutmode/) { get; set; } | يحصل على وضع تخطيط هذا القسم أو يعينه. |
+| [LeftMargin](../../aspose.words/pagesetup/leftmargin/) { get; set; } | يعيد أو يضبط المسافة (بالنقاط) بين الحافة اليسرى للصفحة والحد الأيسر لنص الهيئة. |
 | [LineNumberCountBy](../../aspose.words/pagesetup/linenumbercountby/) { get; set; } | إرجاع أو تعيين الزيادة الرقمية لأرقام الأسطر. |
-| [LineNumberDistanceFromText](../../aspose.words/pagesetup/linenumberdistancefromtext/) { get; set; } | الحصول على أو تعيين المسافة بين الحافة اليمنى لأرقام الأسطر والحافة اليسرى للمستند. |
-| [LineNumberRestartMode](../../aspose.words/pagesetup/linenumberrestartmode/) { get; set; } | الحصول على أو تعيين الطريقة التي يتم بها تشغيل ترقيم الأسطر، سواء كان يبدأ من جديد في بداية صفحة أو قسم new أو يتم تشغيله بشكل مستمر. |
-| [LinesPerPage](../../aspose.words/pagesetup/linesperpage/) { get; set; } | الحصول على أو تعيين عدد الأسطر لكل صفحة في شبكة المستند. |
-| [LineStartingNumber](../../aspose.words/pagesetup/linestartingnumber/) { get; set; } | الحصول على رقم سطر البداية أو تعيينه. |
-| [Margins](../../aspose.words/pagesetup/margins/) { get; set; } | إرجاع أو ضبط الإعداد المسبق[`Margins`](../margins/) من الصفحة. |
-| [MultiplePages](../../aspose.words/pagesetup/multiplepages/) { get; set; } | بالنسبة للمستندات ذات الصفحات المتعددة، يتم الحصول على أو تعيين كيفية طباعة المستند أو عرضه بحيث يمكن ربطه ككتيب. |
+| [LineNumberDistanceFromText](../../aspose.words/pagesetup/linenumberdistancefromtext/) { get; set; } | يحصل على المسافة بين الحافة اليمنى لأرقام الأسطر والحافة اليسرى للمستند أو يعينها. |
+| [LineNumberRestartMode](../../aspose.words/pagesetup/linenumberrestartmode/) { get; set; } | يحصل على طريقة تشغيل ترقيم الأسطر أو يحددها، أي ما إذا كان يبدأ من جديد في بداية صفحة أو قسم جديد أو يعمل بشكل مستمر. |
+| [LinesPerPage](../../aspose.words/pagesetup/linesperpage/) { get; set; } | يحصل على عدد الأسطر لكل صفحة في شبكة المستند أو يعينه. |
+| [LineStartingNumber](../../aspose.words/pagesetup/linestartingnumber/) { get; set; } | يحصل على رقم خط البداية أو يعينه. |
+| [Margins](../../aspose.words/pagesetup/margins/) { get; set; } | إرجاع أو تعيين الإعداد المسبق[`Margins`](../margins/) من الصفحة. |
+| [MultiplePages](../../aspose.words/pagesetup/multiplepages/) { get; set; } | بالنسبة للمستندات المكونة من عدة صفحات، يحصل على أو يعين كيفية طباعة مستند أو عرضه بحيث يمكن ربطه ككتيب. |
 | [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | صحيح إذا كان المستند يحتوي على رؤوس وتذييلات مختلفة للصفحات ذات الأرقام الفردية والزوجية. |
-| [Orientation](../../aspose.words/pagesetup/orientation/) { get; set; } | إرجاع أو تعيين اتجاه الصفحة. |
-| [OtherPagesTray](../../aspose.words/pagesetup/otherpagestray/) { get; set; } | الحصول على أو تعيين درج الورق (الحاوية) ليتم استخدامه للجميع باستثناء الصفحة الأولى من القسم. القيمة خاصة بالتنفيذ (الطابعة). |
-| [PageHeight](../../aspose.words/pagesetup/pageheight/) { get; set; } | إرجاع أو تعيين ارتفاع الصفحة بالنقاط. |
-| [PageNumberStyle](../../aspose.words/pagesetup/pagenumberstyle/) { get; set; } | الحصول على تنسيق رقم الصفحة أو تعيينه. |
-| [PageStartingNumber](../../aspose.words/pagesetup/pagestartingnumber/) { get; set; } | الحصول على أو تعيين رقم صفحة البداية للقسم. |
-| [PageWidth](../../aspose.words/pagesetup/pagewidth/) { get; set; } | إرجاع أو تعيين عرض الصفحة بالنقاط. |
-| [PaperSize](../../aspose.words/pagesetup/papersize/) { get; set; } | إرجاع حجم الورق أو تعيينه. |
+| [Orientation](../../aspose.words/pagesetup/orientation/) { get; set; } | يعيد أو يضبط اتجاه الصفحة. |
+| [OtherPagesTray](../../aspose.words/pagesetup/otherpagestray/) { get; set; } | يحصل على درج الورق (الحاوية) الذي سيتم استخدامه لجميع الصفحات باستثناء الصفحة الأولى من القسم أو يعينه. القيمة خاصة بالتنفيذ (الطابعة). |
+| [PageHeight](../../aspose.words/pagesetup/pageheight/) { get; set; } | يعيد أو يضبط ارتفاع الصفحة بالنقاط. |
+| [PageNumberStyle](../../aspose.words/pagesetup/pagenumberstyle/) { get; set; } | يحصل على تنسيق رقم الصفحة أو يعينه. |
+| [PageStartingNumber](../../aspose.words/pagesetup/pagestartingnumber/) { get; set; } | يحصل على رقم الصفحة الأولية للقسم أو يعينه. |
+| [PageWidth](../../aspose.words/pagesetup/pagewidth/) { get; set; } | يعيد أو يضبط عرض الصفحة بالنقاط. |
+| [PaperSize](../../aspose.words/pagesetup/papersize/) { get; set; } | إرجاع أو تعيين حجم الورق. |
 | [RestartPageNumbering](../../aspose.words/pagesetup/restartpagenumbering/) { get; set; } | صحيح إذا تم إعادة تشغيل ترقيم الصفحات في بداية القسم. |
-| [RightMargin](../../aspose.words/pagesetup/rightmargin/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي. |
-| [RtlGutter](../../aspose.words/pagesetup/rtlgutter/) { get; set; } | الحصول على أو تعيين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين. |
-| [SectionStart](../../aspose.words/pagesetup/sectionstart/) { get; set; } | إرجاع أو تعيين نوع الفاصل المقطعي للكائن المحدد. |
-| [SheetsPerBooklet](../../aspose.words/pagesetup/sheetsperbooklet/) { get; set; } | إرجاع أو تعيين عدد الصفحات التي سيتم تضمينها في كل كتيب. |
-| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | صحيح إذا تمت طباعة التعليقات الختامية في نهاية القسم التالي، وهذا لا يمنع التعليقات الختامية. تتم طباعة التعليقات الختامية المحذوفة قبل التعليقات الختامية في هذا القسم. |
-| [TextColumns](../../aspose.words/pagesetup/textcolumns/) { get; } | إرجاع مجموعة تمثل مجموعة أعمدة النص. |
-| [TextOrientation](../../aspose.words/pagesetup/textorientation/) { get; set; } | يسمح بالتحديد[`TextOrientation`](./textorientation/) للصفحة بأكملها. القيمة الافتراضية هيHorizontal |
-| [TopMargin](../../aspose.words/pagesetup/topmargin/) { get; set; } | إرجاع أو تعيين المسافة (بالنقاط) بين الحافة العلوية للصفحة والحد العلوي للنص الأساسي. |
-| [VerticalAlignment](../../aspose.words/pagesetup/verticalalignment/) { get; set; } | إرجاع أو تعيين المحاذاة الرأسية للنص في كل صفحة في مستند أو قسم. |
+| [RightMargin](../../aspose.words/pagesetup/rightmargin/) { get; set; } | يعيد أو يضبط المسافة (بالنقاط) بين الحافة اليمنى للصفحة والحد الأيمن لنص الهيئة. |
+| [RtlGutter](../../aspose.words/pagesetup/rtlgutter/) { get; set; } | يحصل على أو يعين ما إذا كان Microsoft Word يستخدم المزاريب للقسم بناءً على لغة من اليمين إلى اليسار أو لغة من اليسار إلى اليمين. |
+| [SectionStart](../../aspose.words/pagesetup/sectionstart/) { get; set; } | يعيد أو يعين نوع فاصل القسم للكائن المحدد. |
+| [SheetsPerBooklet](../../aspose.words/pagesetup/sheetsperbooklet/) { get; set; } | يقوم بإرجاع أو تعيين عدد الصفحات التي سيتم تضمينها في كل كتيب. |
+| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | صحيح إذا تمت طباعة الملاحظات الختامية في نهاية القسم التالي الذي لا يؤدي إلى إلغاء الملاحظات الختامية. تتم طباعة الملاحظات الختامية التي تم إلغاءها قبل الملاحظات الختامية في هذا القسم. |
+| [TextColumns](../../aspose.words/pagesetup/textcolumns/) { get; } | يعيد مجموعة تمثل مجموعة أعمدة النص. |
+| [TextOrientation](../../aspose.words/pagesetup/textorientation/) { get; set; } | يسمح بتحديد[`TextOrientation`](./textorientation/) للصفحة بأكملها. القيمة الافتراضية هيHorizontal |
+| [TopMargin](../../aspose.words/pagesetup/topmargin/) { get; set; } | يقوم بإرجاع أو تعيين المسافة (بالنقاط) بين الحافة العلوية للصفحة والحد العلوي لنص الهيئة. |
+| [VerticalAlignment](../../aspose.words/pagesetup/verticalalignment/) { get; set; } | يعيد أو يضبط المحاذاة الرأسية للنص في كل صفحة في مستند أو قسم. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | إعادة ضبط إعداد الصفحة على حجم الورق والهوامش والاتجاه الافتراضي. |
+| [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | إعادة تعيين إعدادات الصفحة إلى حجم الورق والهوامش والاتجاه الافتراضي. |
 
 ## ملاحظات
 
-`PageSetup` يحتوي الكائن على كافة سمات إعداد الصفحة الخاصة بـ section (الهامش الأيسر، والهامش السفلي، وحجم الورق، وما إلى ذلك) كخصائص.
+`PageSetup` يحتوي الكائن على جميع سمات إعداد الصفحة الخاصة بـsection (الهامش الأيسر، الهامش السفلي، حجم الورق، وما إلى ذلك) كخصائص.
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -91,14 +91,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

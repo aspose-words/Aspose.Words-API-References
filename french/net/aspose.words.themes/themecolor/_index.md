@@ -3,16 +3,16 @@ title: ThemeColor Enum
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeColor énumération. Spécifie les couleurs du thème pour les thèmes de document en C#.
+description: Découvrez l'énumération Aspose.Words ThemeColor pour personnaliser les thèmes de documents avec des couleurs vives, améliorant l'attrait visuel et le professionnalisme de votre document.
 type: docs
-weight: 6470
+weight: 7320
 url: /fr/net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
 
-Spécifie les couleurs du thème pour les thèmes de document.
+Spécifie les couleurs de thème pour les thèmes de document.
 
-Pour en savoir plus, visitez le[Travailler avec des styles et des thèmes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des styles et des thèmes](https://docs.aspose.com/words/net/working-with-styles-and-themes/) article de documentation.
 
 ```csharp
 public enum ThemeColor
@@ -24,9 +24,9 @@ public enum ThemeColor
 | --- | --- | --- |
 | None | `-1` | Aucune couleur. |
 | Dark1 | `0` | Couleur principale foncée 1. |
-| Light1 | `1` | Couleur principale de la lumière 1. |
+| Light1 | `1` | Couleur principale claire 1. |
 | Dark2 | `2` | Couleur principale foncée 2. |
-| Light2 | `3` | Couleur principale de la lumière 2. |
+| Light2 | `3` | Couleur principale claire 2. |
 | Accent1 | `4` | Couleur d'accentuation 1. |
 | Accent2 | `5` | Couleur d'accentuation 2. |
 | Accent3 | `6` | Couleur d'accentuation 3. |
@@ -37,12 +37,12 @@ public enum ThemeColor
 | FollowedHyperlink | `11` | Couleur du lien hypertexte suivi. |
 | Text1 | `12` | Couleur du texte 1. |
 | Text2 | `13` | Couleur du texte 2. |
-| Background1 | `14` | Couleur de fond 1. |
-| Background2 | `15` | Couleur de fond 2. |
+| Background1 | `14` | Couleur d'arrière-plan 1. |
+| Background2 | `15` | Couleur d'arrière-plan 2. |
 
 ## Remarques
 
-La couleur de thème spécifiée est une référence à l'une des couleurs de thème prédéfinies, situées dans la partie Thème du document , qui permet de définir les informations de couleur de manière centralisée dans le document.
+La couleur de thème spécifiée est une référence à l'une des couleurs de thème prédéfinies, située dans la partie Thème du document , qui permet de définir les informations de couleur de manière centralisée dans le document.
 
 ## Exemples
 
@@ -54,7 +54,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Créez un style avec les propriétés de police du thème.
+// Créez du style avec les propriétés de police du thème.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -64,7 +64,7 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -122,7 +122,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

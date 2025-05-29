@@ -3,7 +3,7 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words для .NET
-description: ShapeRenderer строитель. Инициализирует новый экземпляр этого класса на С#.
+description: Откройте для себя конструктор ShapeRenderer, который позволит вам легко создавать и настраивать формы в своих проектах, улучшая визуальную привлекательность и функциональность.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,11 +18,11 @@ public ShapeRenderer(ShapeBase shape)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| shape | ShapeBase | Объект фигуры DrawinML, который вы хотите визуализировать. |
+| shape | ShapeBase | Объект формы DrawinML, который вы хотите визуализировать. |
 
 ## Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью Windows Form.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,8 +32,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в графическом объекте.
-    // 1 — Создайте фигуру с диаграммой и отобразите ее в определенном масштабе.
+    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в объекте Graphics.
+    // 1 — Создать фигуру с диаграммой и отобразить ее в определенном масштабе.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 — Создайте группу фигур и отрендерите ее до определенного размера.
+    // 2 — Создать группу фигур и отрисовать ее до определенного размера.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -74,7 +74,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Отрисовывает и отображает список фигур.
+/// Визуализирует и отображает список фигур.
 /// </summary>
 private class ShapeForm : Form
 {

@@ -2,15 +2,15 @@
 title: Section.PrependContent
 linktitle: PrependContent
 articleTitle: PrependContent
-second_title: Aspose.Words for .NET
-description: Section PrependContent yöntem. Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler C#'da.
+second_title: .NET için Aspose.Words
+description: İçeriğinizi Section PrependContent yöntemiyle geliştirin; gelişmiş organizasyon ve netlik için kaynak bölüm metnini başa zahmetsizce ekleyin.
 type: docs
-weight: 140
+weight: 160
 url: /tr/net/aspose.words/section/prependcontent/
 ---
 ## Section.PrependContent method
 
-Kaynak bölümünün içeriğinin bir kopyasını bu bölümün başına ekler.
+Bu bölümün başına kaynak bölümün içeriğinin bir kopyasını ekler.
 
 ```csharp
 public void PrependContent(Section sourceSection)
@@ -22,11 +22,11 @@ public void PrependContent(Section sourceSection)
 
 ## Notlar
 
-Yalnızca içeriği[`Body`](../body/) kaynak bölümünün kopyalanması, sayfa düzeni, üstbilgi ve altbilgilerin kopyalanmaması.
+Sadece içerik[`Body`](../body/) kaynak bölümü kopyalanır, sayfa düzeni, başlıklar ve altbilgiler kopyalanmaz.
 
-Kaynak bölümü farklı bir belgeye aitse düğümler otomatik olarak içe aktarılır.
+Kaynak bölüm farklı bir belgeye aitse düğümler otomatik olarak içe aktarılır.
 
-Hedef belgede yeni bölüm oluşturulmaz.
+Hedef belgede yeni bir bölüm oluşturulmuyor.
 
 ## Örnekler
 
@@ -46,11 +46,11 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
-// Birinci bölümün içeriğini üçüncü bölümün başına ekleyin.
+// Birinci bölümün içeriğini üçüncü bölümün başına ekle.
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// İkinci bölümün içeriğini üçüncü bölümün sonuna ekleyin.
+// İkinci bölümün içeriğini üçüncü bölümün sonuna ekle.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 

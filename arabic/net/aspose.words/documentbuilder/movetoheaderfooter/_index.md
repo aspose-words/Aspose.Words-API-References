@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToHeaderFooter
 linktitle: MoveToHeaderFooter
 articleTitle: MoveToHeaderFooter
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToHeaderFooter طريقة. ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي في C#.
+description: انتقل بسهولة إلى الرؤوس والتذييلات باستخدام طريقة MoveToHeaderFooter في DocumentBuilder، مما يعزز كفاءة تحرير المستندات لديك.
 type: docs
-weight: 540
+weight: 580
 url: /ar/net/aspose.words/documentbuilder/movetoheaderfooter/
 ---
 ## DocumentBuilder.MoveToHeaderFooter method
 
-ينقل المؤشر إلى بداية الرأس أو التذييل في القسم الحالي.
+يحرك المؤشر إلى بداية الرأس أو التذييل في القسم الحالي.
 
 ```csharp
 public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
@@ -18,17 +18,17 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| headerFooterType | HeaderFooterType | يحدد الرأس أو التذييل للانتقال إليه. |
+| headerFooterType | HeaderFooterType | يحدد الرأس أو التذييل الذي سيتم الانتقال إليه. |
 
 ## ملاحظات
 
-بعد نقل المؤشر إلى رأس أو تذييل الصفحة، يمكنك استخدام بقية[`DocumentBuilder`](../) طرق لتعديل محتويات الرأس أو التذييل.
+بعد نقل المؤشر إلى الرأس أو التذييل، يمكنك استخدام الباقي[`DocumentBuilder`](../) طرق لتعديل محتويات الرأس أو التذييل.
 
-إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحة الأولى، فأنت بحاجة إلى لتعيينها[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
+إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحة الأولى، فستحتاج إلى لتعيين[`DifferentFirstPageHeaderFooter`](../../pagesetup/differentfirstpageheaderfooter/).
 
-إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحات الزوجية والفردية، فأنت بحاجة إلى لتعيينها[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
+إذا كنت تريد إنشاء رؤوس وتذييلات مختلفة للصفحات الفردية والزوجية، فستحتاج إلى تعيين x000d_[`OddAndEvenPagesHeaderFooter`](../../pagesetup/oddandevenpagesheaderfooter/).
 
-يستخدم[`MoveToSection`](../movetosection/) للانتقال من الرأس إلى النص الرئيسي.
+يستخدم[`MoveToSection`](../movetosection/) للانتقال من العنوان إلى النص الرئيسي.
 
 ## أمثلة
 
@@ -38,10 +38,9 @@ public void MoveToHeaderFooter(HeaderFooterType headerFooterType)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
+//أدرج الصورة في الرأس حتى تكون مرئية في كل صفحة.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -54,32 +53,6 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-يوضح كيفية إدراج صورة واستخدامها كعلامة مائية (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// أدخل الصورة في الرأس بحيث تكون مرئية في كل صفحة.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // ضع الصورة في وسط الصفحة.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
-```
-
 يوضح كيفية إنشاء الرؤوس والتذييلات في مستند باستخدام DocumentBuilder.
 
 ```csharp
@@ -90,7 +63,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

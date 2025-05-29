@@ -3,7 +3,7 @@ title: FieldMergeRec
 linktitle: FieldMergeRec
 articleTitle: FieldMergeRec
 second_title: Aspose.Words для .NET
-description: FieldMergeRec строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldMergeRec — ваш основной инструмент для бесшовного слияния данных. Раскройте эффективность с нашим конструктором по умолчанию сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmergerec/fieldmergerec/

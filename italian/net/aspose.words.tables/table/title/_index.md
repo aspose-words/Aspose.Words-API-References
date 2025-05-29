@@ -3,7 +3,7 @@ title: Table.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words per .NET
-description: Table Title proprietà. Ottiene o imposta il titolo di questa tabella. Fornisce una rappresentazione testuale alternativa delle informazioni contenute nella tabella in C#.
+description: Scopri la proprietà Titolo tabella: imposta o modifica facilmente il titolo della tua tabella per una migliore accessibilità e una migliore rappresentazione dei dati.
 type: docs
 weight: 320
 url: /it/net/aspose.words.tables/table/title/
@@ -20,7 +20,7 @@ public string Title { get; set; }
 
 Il valore predefinito è una stringa vuota.
 
-Questa proprietà è significativa per i documenti DOCX conformi a ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Se salvata in formati precedenti a ISO/IEC 29500, la proprietà viene ignorata.
+Questa proprietà è significativa per i documenti DOCX conformi a ISO/IEC 29500 ([`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/)). Se salvato in formati precedenti a ISO/IEC 29500, la proprietà viene ignorata.
 
 ## Esempi
 
@@ -35,7 +35,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -43,7 +43,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni specificate e il testo in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -66,7 +66,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
-    // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
+    // Queste proprietà sono significative per i documenti .docx conformi allo standard ISO/IEC 29500 (vedere la classe OoxmlCompliance).
     // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

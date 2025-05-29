@@ -3,9 +3,9 @@ title: Cell.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words pour .NET
-description: Cell EnsureMinimum méthode. Si le dernier enfant nest pas un paragraphe crée et ajoute un paragraphe vide en C#.
+description: Optimisez la structure de vos cellules avec la méthode EnsureMinimum : ajoutez facilement un paragraphe si le dernier enfant n'en est pas un. Améliorez la clarté de votre document !
 type: docs
-weight: 140
+weight: 160
 url: /fr/net/aspose.words.tables/cell/ensureminimum/
 ---
 ## Cell.EnsureMinimum method
@@ -29,11 +29,11 @@ table.AppendChild(row);
 Cell cell = new Cell(doc);
 row.AppendChild(cell);
 
-// Les cellules peuvent contenir des paragraphes avec des éléments typiques tels que des tracés, des formes et même d'autres tableaux.
-// Notre nouvelle cellule ne contient aucun paragraphe et nous ne pouvons pas y ajouter de contenu tel que des nœuds d'exécution et de forme jusqu'à ce qu'elle le fasse.
+// Les cellules peuvent contenir des paragraphes avec des éléments typiques tels que des exécutions, des formes et même d'autres tableaux.
+// Notre nouvelle cellule ne contient aucun paragraphe et nous ne pouvons pas y ajouter de contenu tel que des nœuds d'exécution et de forme tant qu'elle n'en contient pas.
 Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
 
-// L'appel de la méthode "EnsureMinimum" sur une cellule garantira que
+// L'appel de la méthode « EnsureMinimum » sur une cellule garantira que
 // la cellule contient au moins un paragraphe vide, auquel nous pouvons ensuite ajouter du contenu.
 cell.EnsureMinimum();
 cell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));

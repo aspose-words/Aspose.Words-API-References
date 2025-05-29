@@ -3,14 +3,14 @@ title: Glyph.GlyphIndex
 linktitle: GlyphIndex
 articleTitle: GlyphIndex
 second_title: Aspose.Words لـ .NET
-description: Glyph GlyphIndex ملكية. فهرس الصورة الرمزية GID بالخط الفعلي في C#.
+description: اكتشف خاصية GlyphIndex في Glyph، والتي تحدد GID في الخط الخاص بك للحصول على طباعة دقيقة وتحكم محسّن في التصميم.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.shaping/glyph/glyphindex/
 ---
 ## Glyph.GlyphIndex property
 
-فهرس الصورة الرمزية (GID) بالخط الفعلي.
+فهرس الحرف (GID) في الخط المادي.
 
 ```csharp
 public int GlyphIndex { get; }

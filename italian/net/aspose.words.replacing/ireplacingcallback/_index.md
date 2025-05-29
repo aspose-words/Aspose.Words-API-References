@@ -3,14 +3,14 @@ title: IReplacingCallback Interface
 linktitle: IReplacingCallback
 articleTitle: IReplacingCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Replacing.IReplacingCallback interfaccia. Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante unoperazione di ricerca e sostituzione in C#.
+description: Migliora l'elaborazione dei tuoi documenti con l'interfaccia IReplacingCallback di Aspose.Words. Crea metodi di ricerca e sostituzione personalizzati per risultati su misura.
 type: docs
-weight: 4630
+weight: 5360
 url: /it/net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
 
-Implementa questa interfaccia se desideri che il tuo metodo personalizzato venga chiamato durante un'operazione di ricerca e sostituzione.
+Implementa questa interfaccia se vuoi che venga chiamato il tuo metodo personalizzato durante un'operazione di ricerca e sostituzione.
 
 ```csharp
 public interface IReplacingCallback
@@ -20,11 +20,54 @@ public interface IReplacingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Un metodo definito dall'utente che viene chiamato durante un'operazione di sostituzione per ogni corrispondenza trovata subito prima che venga effettuata una sostituzione. |
+| [Replacing](../../aspose.words.replacing/ireplacingcallback/replacing/)(*[ReplacingArgs](../replacingargs/)*) | Un metodo definito dall'utente che viene chiamato durante un'operazione di sostituzione per ogni corrispondenza trovata appena prima che venga effettuata una sostituzione. |
 
 ## Esempi
 
-Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
+Mostra come tenere traccia dell'ordine in cui un'operazione di sostituzione del testo attraversa i nodi.
+
+```csharp
+public void Order(bool differentFirstPageHeaderFooter)
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
+
+    Section firstPageSection = doc.FirstSection;
+
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
+
+    // L'utilizzo di un'intestazione/piè di pagina diverso per la prima pagina inciderà sull'ordine di ricerca.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
+
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
+
+/// <summary>
+/// Durante un'operazione di ricerca e sostituzione, registra il contenuto di ogni nodo che contiene testo che l'operazione 'trova',
+/// nello stato in cui si trova prima che avvenga la sostituzione.
+/// Verrà visualizzato l'ordine in cui l'operazione di sostituzione del testo attraversa i nodi.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
+
+    internal string Text => mTextBuilder.ToString();
+
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
+```
+
+Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte le sostituzioni.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -38,7 +81,7 @@ public void ReplaceWithCallback()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta un callback che tenga traccia di eventuali sostituzioni effettuate dal metodo "Replace".
+    // Imposta un callback che tiene traccia di tutte le sostituzioni effettuate dal metodo "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -52,8 +95,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Mantiene un registro di ogni sostituzione di testo eseguita da un'operazione di ricerca e sostituzione
-/// e prende nota del valore del testo corrispondente originale.
+/// Mantiene un registro di ogni sostituzione di testo effettuata tramite un'operazione di ricerca e sostituzione
+/// e annota il valore del testo originale corrispondente.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,56 +116,6 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 
     private readonly StringBuilder mLog = new StringBuilder();
 }
-```
-
-Mostra come tenere traccia dell'ordine in cui un'operazione di sostituzione del testo attraversa i nodi.
-
-```csharp
-public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
-
-            Section firstPageSection = doc.FirstSection;
-
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
-
-            // L'utilizzo di un'intestazione/piè di pagina diverso per la prima pagina influirà sull'ordine di ricerca.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
-
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
-
-        /// <summary>
-        /// Durante un'operazione di ricerca e sostituzione, registra il contenuto di ogni nodo che contiene testo che l'operazione "trova",
-        /// nello stato in cui si trova prima che avvenga la sostituzione.
-        /// Verrà visualizzato l'ordine in cui l'operazione di sostituzione del testo attraversa i nodi.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
-
-            internal string Text => mTextBuilder.ToString();
-
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
 ```
 
 Mostra come inserire il contenuto di un intero documento in sostituzione di una corrispondenza in un'operazione di ricerca e sostituzione.
@@ -151,7 +144,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuove il paragrafo con il testo corrispondente.
+        // Rimuovi il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

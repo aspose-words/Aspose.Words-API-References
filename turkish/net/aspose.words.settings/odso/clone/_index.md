@@ -2,15 +2,15 @@
 title: Odso.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: Aspose.Words for .NET
-description: Odso Clone yöntem. Bu nesnenin derin bir kopyasını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Nesnelerin derin klonlarını zahmetsizce oluşturmak için Odso Clone yöntemini keşfedin. Veri bütünlüğünü sağlayın ve kodlama verimliliğinizi bugün artırın!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.settings/odso/clone/
 ---
 ## Odso.Clone method
 
-Bu nesnenin derin bir kopyasını döndürür.
+Bu nesnenin derin bir klonunu döndürür.
 
 ```csharp
 public Odso Clone()
@@ -18,7 +18,7 @@ public Odso Clone()
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -3,9 +3,9 @@ title: ArrowLength Enum
 linktitle: ArrowLength
 articleTitle: ArrowLength
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.ArrowLength перечисление. Длина стрелки в конце линии на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.ArrowLength, чтобы настроить длину стрелок для улучшенной линейной графики в ваших документах. Поднимите свой дизайн сегодня!
 type: docs
-weight: 480
+weight: 720
 url: /ru/net/aspose.words.drawing/arrowlength/
 ---
 ## ArrowLength enumeration
@@ -27,14 +27,14 @@ public enum ArrowLength
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -84,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

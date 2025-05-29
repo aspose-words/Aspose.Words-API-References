@@ -3,14 +3,14 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words für .NET
-description: Fill Patterned methode. Setzt die angegebene Füllung auf ein Muster in C#.
+description: Entdecken Sie die Methode „Gemustert füllen“, um mühelos einzigartige Muster auf Ihre Designs anzuwenden und so die Kreativität und visuelle Attraktivität Ihrer Projekte zu steigern.
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
 
-Setzt die angegebene Füllung auf ein Muster.
+Legt die angegebene Füllung auf ein Muster fest.
 
 ```csharp
 public void Patterned(PatternType patternType)
@@ -32,11 +32,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Es gibt mehrere Möglichkeiten, ein Muster auszufüllen.
-// 1 – Muster auf die Formfüllung anwenden:
+// Es gibt mehrere Möglichkeiten, ein Muster mit einer bestimmten Füllung zu versehen.
+// 1 - Muster auf die Formfüllung anwenden:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 – Muster mit Vordergrund- und Hintergrundfarben auf die Formfüllung anwenden:
+// 2 - Muster mit Vordergrund- und Hintergrundfarben auf die Formfüllung anwenden:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
@@ -53,7 +53,7 @@ doc.Save(ArtifactsDir + "Shape.FillPattern.docx");
 
 ## Patterned(*[PatternType](../../patterntype/), Color, Color*) {#patterned_1}
 
-Setzt die angegebene Füllung auf ein Muster.
+Legt die angegebene Füllung auf ein Muster fest.
 
 ```csharp
 public void Patterned(PatternType patternType, Color foreColor, Color backColor)
@@ -77,11 +77,11 @@ Fill fill = shape.Fill;
 
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
-// Es gibt mehrere Möglichkeiten, ein Muster auszufüllen.
-// 1 – Muster auf die Formfüllung anwenden:
+// Es gibt mehrere Möglichkeiten, ein Muster mit einer bestimmten Füllung zu versehen.
+// 1 - Muster auf die Formfüllung anwenden:
 fill.Patterned(PatternType.DiagonalBrick);
 
-// 2 – Muster mit Vordergrund- und Hintergrundfarben auf die Formfüllung anwenden:
+// 2 - Muster mit Vordergrund- und Hintergrundfarben auf die Formfüllung anwenden:
 fill.Patterned(PatternType.DiagonalBrick, Color.Aqua, Color.Bisque);
 
 doc.Save(ArtifactsDir + "Shape.FillPattern.docx");

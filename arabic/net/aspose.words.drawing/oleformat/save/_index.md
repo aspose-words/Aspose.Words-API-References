@@ -3,14 +3,14 @@ title: OleFormat.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words لـ .NET
-description: OleFormat Save طريقة. يحفظ بيانات الكائن المضمن في الدفق المحدد في C#.
+description: اكتشف طريقة حفظ OleFormat لتخزين بيانات الكائنات المضمنة بكفاءة في المسار الذي تختاره. حسّن إدارة البيانات بسهولة!
 type: docs
 weight: 160
 url: /ar/net/aspose.words.drawing/oleformat/save/
 ---
 ## Save(*Stream*) {#save}
 
-يحفظ بيانات الكائن المضمن في الدفق المحدد.
+يحفظ بيانات الكائن المضمن في التدفق المحدد.
 
 ```csharp
 public void Save(Stream stream)
@@ -18,17 +18,17 @@ public void Save(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | مكان حفظ بيانات الكائن. |
+| stream | Stream | أين يتم حفظ بيانات الكائن؟ |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | يرمي إذا حاولت حفظ كائن مرتبط. |
+| InvalidOperationException | يتم رميه إذا حاولت حفظ كائن مرتبط. |
 
 ## ملاحظات
 
-تقع على عاتق المتصل مسؤولية التخلص من الدفق.
+تقع على عاتق المتصل مسؤولية التخلص من التدفق.
 
 ## أمثلة
 
@@ -38,21 +38,21 @@ public void Save(Stream stream)
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// كائن OLE الموجود في الشكل الأول هو جدول بيانات Microsoft Excel.
+// كائن OLE في الشكل الأول هو جدول بيانات Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// كائننا لا يتم تحديثه تلقائيًا ولا يتم قفله من التحديثات.
+// هدفنا ليس تحديثًا تلقائيًا ولا محظورًا من التحديثات.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // إذا كنا نخطط لحفظ كائن OLE في ملف في نظام الملفات المحلي،
-// يمكننا استخدام خاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
+// يمكننا استخدام الخاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // فيما يلي طريقتان لحفظ كائن OLE في ملف في نظام الملفات المحلي.
-// 1 - احفظه عبر الدفق:
+// 1 - احفظه عبر مجرى:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);
@@ -72,7 +72,7 @@ oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.Sugge
 
 ## Save(*string*) {#save_1}
 
-يحفظ بيانات الكائن المضمن في ملف بالاسم المحدد.
+يحفظ بيانات الكائن المضمن في ملف يحمل الاسم المحدد.
 
 ```csharp
 public void Save(string fileName)
@@ -86,7 +86,7 @@ public void Save(string fileName)
 
 | استثناء | حالة |
 | --- | --- |
-| InvalidOperationException | يرمي إذا حاولت حفظ كائن مرتبط. |
+| InvalidOperationException | يتم رميه إذا حاولت حفظ كائن مرتبط. |
 
 ## أمثلة
 
@@ -96,21 +96,21 @@ public void Save(string fileName)
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// كائن OLE الموجود في الشكل الأول هو جدول بيانات Microsoft Excel.
+// كائن OLE في الشكل الأول هو جدول بيانات Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// كائننا لا يتم تحديثه تلقائيًا ولا يتم قفله من التحديثات.
+// هدفنا ليس تحديثًا تلقائيًا ولا محظورًا من التحديثات.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // إذا كنا نخطط لحفظ كائن OLE في ملف في نظام الملفات المحلي،
-// يمكننا استخدام خاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
+// يمكننا استخدام الخاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // فيما يلي طريقتان لحفظ كائن OLE في ملف في نظام الملفات المحلي.
-// 1 - احفظه عبر الدفق:
+// 1 - احفظه عبر مجرى:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

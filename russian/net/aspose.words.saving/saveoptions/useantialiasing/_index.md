@@ -3,14 +3,14 @@ title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 articleTitle: UseAntiAliasing
 second_title: Aspose.Words для .NET
-description: SaveOptions UseAntiAliasing свойство. Получает или задает значение определяющее использовать ли сглаживание для рендеринга на С#.
+description: Откройте для себя свойство SaveOptions UseAntiAliasing для улучшения качества рендеринга. Управляйте сглаживанием для более плавных визуальных эффектов и повышения производительности.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
 
-Получает или задает значение, определяющее, использовать ли сглаживание для рендеринга.
+Возвращает или задает значение, определяющее, следует ли использовать сглаживание при рендеринге.
 
 ```csharp
 public bool UseAntiAliasing { get; set; }
@@ -20,7 +20,7 @@ public bool UseAntiAliasing { get; set; }
 
 Значение по умолчанию:`ЛОЖЬ` . Когда это значение установлено на`истинный` для рендеринга используется сглаживание is .
 
-Это свойство используется при экспорте документа в следующие форматы: Tiff ,Png ,Bmp , Jpeg ,Emf . Когда документ экспортируется в the Html ,Mhtml , Epub ,Azw3 илиMobi форматы: эта опция используется для растровых изображений.
+Это свойство используется при экспорте документа в следующие форматы: Tiff ,Png ,Bmp , Jpeg ,Emf . Когда документ экспортируется в the Html ,Mhtml , Epub ,Azw3 илиMobiформаты эта опция используется для растровых изображений.
 
 ## Примеры
 

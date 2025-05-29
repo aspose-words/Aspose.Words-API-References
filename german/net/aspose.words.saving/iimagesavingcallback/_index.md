@@ -3,14 +3,14 @@ title: IImageSavingCallback Interface
 linktitle: IImageSavingCallback
 articleTitle: IImageSavingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.IImageSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words Bilder speichert wenn ein Dokument in HTML gespeichert wird. Kann von anderen Formaten verwendet werden in C#.
+description: Steuern Sie die Bildspeicherung in Aspose.Words mit der IImageSavingCallback-Schnittstelle. Optimieren Sie mühelos den Dokumentexport in HTML und andere Formate.
 type: docs
-weight: 5170
+weight: 5920
 url: /de/net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie steuern möchten, wie Aspose.Words Bilder speichert, wenn ein Dokument in HTML gespeichert wird. Kann von anderen Formaten verwendet werden.
+Implementieren Sie diese Schnittstelle, wenn Sie steuern möchten, wie Aspose.Words Bilder speichert, wenn ein Dokument im HTML-Format gespeichert wird. Kann auch von anderen Formaten verwendet werden.
 
 ```csharp
 public interface IImageSavingCallback
@@ -20,11 +20,11 @@ public interface IImageSavingCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Wird aufgerufen, wenn Aspose.Words ein Bild in HTML speichert. |
+| [ImageSaving](../../aspose.words.saving/iimagesavingcallback/imagesaving/)(*[ImageSavingArgs](../imagesavingargs/)*) | Wird aufgerufen, wenn Aspose.Words ein Bild im HTML-Format speichert. |
 
 ## Beispiele
 
-Zeigt, wie der Bildname beim Speichern im Markdown-Dokument umbenannt wird.
+Zeigt, wie der Bildname beim Speichern in einem Markdown-Dokument umbenannt wird.
 
 ```csharp
 public void RenameImages()
@@ -32,13 +32,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // Wenn wir ein Dokument, das Bilder enthält, in Markdown konvertieren, erhalten wir am Ende eine Markdown-Datei, die auf mehrere Bilder verweist.
     // Jedes Bild liegt in Form einer Datei im lokalen Dateisystem vor.
     // Es gibt auch einen Rückruf, mit dem der Name und der Dateisystemspeicherort jedes Bildes angepasst werden können.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // Die ImageSaving()-Methode unseres Rückrufs wird zu diesem Zeitpunkt ausgeführt.
+    // Zu diesem Zeitpunkt wird die Methode ImageSaving() unseres Rückrufs ausgeführt.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -78,7 +78,7 @@ public class SavedImageRename : IImageSavingCallback
 }
 ```
 
-Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
+Zeigt, wie ein Dokument in Teile aufgeteilt und gespeichert wird.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -86,13 +86,13 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Wenn wir das Dokument normal speichern, gibt es ein Ausgabe-HTML
+    // Wenn wir das Dokument normal speichern, gibt es eine Ausgabe-HTML
     // Dokument mit dem gesamten Inhalt des Quelldokuments.
-    // Setzen Sie die Eigenschaft „DocumentSplitCriteria“ auf „DocumentSplitCriteria.SectionBreak“.
+    // Setzen Sie die Eigenschaft "DocumentSplitCriteria" auf "DocumentSplitCriteria.SectionBreak" auf
     // unser Dokument in mehreren HTML-Dateien speichern: eine für jeden Abschnitt.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
@@ -108,7 +108,7 @@ public void DocumentPartsFileNames()
 }
 
 /// <summary>
-/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die der Speichervorgang ein Dokument aufteilt.
+/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die beim Speichern ein Dokument aufgeteilt wird.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -120,7 +120,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Dokument“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -143,7 +143,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabeteildatei fest:
         args.DocumentPartFileName = partFileName;
 
@@ -173,7 +173,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabebilddatei fest:
         args.ImageFileName = imageFileName;
 

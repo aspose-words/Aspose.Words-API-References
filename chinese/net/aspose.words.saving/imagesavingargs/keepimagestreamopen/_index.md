@@ -2,15 +2,15 @@
 title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSavingArgs KeepImageStreamOpen 财产. 指定 Aspose.Words 在保存图像后是否应保持流打开或关闭它 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words 中 ImageSavingArgs 的 KeepImageStreamOpen 属性。控制流行为，实现高效的图像保存并增强性能。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-指定 Aspose.Words 在保存图像后是否应保持流打开或关闭它。
+指定 Aspose.Words 是否应保持流打开或保存图像后关闭它。
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## 评论
 
-默认为`错误的` Aspose.Words 将关闭您提供的流 [`ImageStream`](../imagestream/)写入图像后的属性。 指定`真的`以保持流打开。
+默认为`错误的`并且 Aspose.Words 将关闭您提供的流 [`ImageStream`](../imagestream/)属性后写入图像。 指定`真的`保持溪流畅通。
 
 ## 例子
 
-演示如何在 HTML 转换过程中涉及图像保存回调。
+展示如何在 HTML 转换过程中涉及图像保存回调。
 
 ```csharp
 public void ImageSavingCallback()
@@ -38,8 +38,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// 在保存过程将每个图像保存到本地文件系统中的图像文件时打印每个图像的属性
-/// 将文档导出为 HTML 期间。
+/// 在保存过程中将每幅图像保存到本地文件系统中的图像文件时，打印其属性
+/// 在将文档导出为 HTML 期间。
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

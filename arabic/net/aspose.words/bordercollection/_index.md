@@ -3,16 +3,16 @@ title: BorderCollection Class
 linktitle: BorderCollection
 articleTitle: BorderCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.BorderCollection فصل. مجموعة منBorder الكائنات في C#.
+description: استكشف Aspose.Words.BorderCollection، الحل الأمثل لإدارة كائنات الحدود وتخصيصها بسهولة لتحسين تنسيق المستندات.
 type: docs
-weight: 90
+weight: 280
 url: /ar/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
 
-مجموعة من[`Border`](../border/) الكائنات.
+مجموعة من[`Border`](../border/) الأشياء.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public sealed class BorderCollection : IEnumerable<Border>
@@ -22,35 +22,35 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 | اسم | وصف |
 | --- | --- |
-| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | الحصول على الحد السفلي. |
-| [Color](../../aspose.words/bordercollection/color/) { get; set; } | الحصول على لون الحدود أو تعيينه. |
-| [Count](../../aspose.words/bordercollection/count/) { get; } | الحصول على عدد الحدود في المجموعة. |
-| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | الحصول على أو تعيين مسافة الحد من النص بالنقاط. |
-| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | يحصل على الحد الأفقي المستخدم بين الخلايا أو الفقرات المطابقة. |
-| [Item](../../aspose.words/bordercollection/item/) { get; } | يسترد أ[`Border`](../border/) الكائن حسب نوع الحدود. (2 indexers) |
+| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | يحصل على الحد السفلي. |
+| [Color](../../aspose.words/bordercollection/color/) { get; set; } | يحصل على لون الحدود أو يعينه. |
+| [Count](../../aspose.words/bordercollection/count/) { get; } | يحصل على عدد الحدود في المجموعة. |
+| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | يحصل على أو يعين مسافة الحدود من النص بالنقاط. |
+| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | يحصل على الحدود الأفقية المستخدمة بين الخلايا أو الفقرات المتوافقة. |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | يسترجع[`Border`](../border/) الكائن حسب نوع الحدود. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left/) { get; } | يحصل على الحد الأيسر. |
-| [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | الحصول على نمط الحدود أو تعيينه. |
-| [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | الحصول على أو تعيين عرض الحدود بالنقاط. |
+| [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | يحصل على نمط الحدود أو يعينه. |
+| [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | يحصل على عرض الحدود بالنقاط أو يعينه. |
 | [Right](../../aspose.words/bordercollection/right/) { get; } | يحصل على الحد الصحيح. |
-| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان الحد يحتوي على ظل. |
+| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | يحصل على قيمة أو يعينها للإشارة إلى ما إذا كانت الحدود تحتوي على ظل. |
 | [Top](../../aspose.words/bordercollection/top/) { get; } | يحصل على الحد العلوي. |
-| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | يحصل على الحد العمودي المستخدم بين الخلايا. |
+| [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | يحصل على الحدود الرأسية المستخدمة بين الخلايا. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | إزالة كافة حدود الكائن. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | مقارنة مجموعات الحدود. |
-| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | يُرجع كائن العداد الذي يمكن استخدامه للتكرار عبر كافة الحدود في المجموعة. |
+| [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | يزيل جميع حدود الكائن. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | يقارن مجموعات الحدود. |
+| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | يعيد كائن عداد يمكن استخدامه للتكرار عبر جميع الحدود في المجموعة. |
 
 ## ملاحظات
 
-عناصر المستند المختلفة لها حدود مختلفة. على سبيل المثال،[`ParagraphFormat`](../paragraphformat/)لديه[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) و[`Top`](./top/) border. يمكنك تحديد تنسيق مختلف لكل حد بشكل مستقل أو تعداد كافة الحدود وتطبيق نفس التنسيق.
+تحتوي عناصر المستند المختلفة على حدود مختلفة. على سبيل المثال،[`ParagraphFormat`](../paragraphformat/) لديه[`Bottom`](./bottom/) ،[`Left`](./left/) ،[`Right`](./right/) و[`Top`](./top/) borders. يمكنك تحديد تنسيق مختلف لكل حدود بشكل مستقل أو حصر جميع الحدود وتطبيق نفس التنسيق.
 
 ## أمثلة
 
-يوضح كيفية إدراج فقرة ذات حد علوي.
+يوضح كيفية إدراج فقرة ذات حدود علوية.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// قم بتعيين ThemeColor فقط عند ضبط LineWidth أو LineStyle.
+// قم بتعيين ThemeColor فقط عند تعيين LineWidth أو LineStyle.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

@@ -3,9 +3,9 @@ title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words pour .NET
-description: SvgSaveOptions ShowPageBorder propriété. Contrôle si une bordure est ajoutée au contour de la page. La valeur par défaut estvrai  en C#.
+description: Découvrez la propriété SvgSaveOptions ShowPageBorder pour personnaliser le contour de votre page. Contrôlez les bordures facilement ; le paramètre par défaut est activé pour une utilisation simplifiée !
 type: docs
-weight: 80
+weight: 110
 url: /fr/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
@@ -23,7 +23,7 @@ Montre comment imiter les propriétés des images lors de la conversion d'un doc
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Configurez l'objet SvgSaveOptions pour qu'il soit enregistré sans bordure de page ni texte sélectionnable.
+// Configurez l'objet SvgSaveOptions pour enregistrer sans bordures de page ni texte sélectionnable.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

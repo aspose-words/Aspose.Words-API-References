@@ -2,15 +2,15 @@
 title: DigitalSignatureCollection Class
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection 班级. 提供附加到文档的数字签名的只读集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words DigitalSignatureCollection 类，轻松访问只读的数字签名集合，以实现安全的文档管理。
 type: docs
-weight: 390
+weight: 590
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-提供附加到文档的数字签名的只读集合。
+提供附加到文档的只读数字签名集合。
 
 要了解更多信息，请访问[使用数字签名](https://docs.aspose.com/words/net/working-with-digital-signatures/)文档文章。
 
@@ -29,7 +29,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | 获取集合中包含的元素数量。 |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | 返回`真的`如果此集合中的所有数字签名均有效且文档未被篡改 也返回`真的`如果没有数字签名。 返回`错误的`如果至少有一个数字签名无效。 |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | 返回`真的`如果此集合中的所有数字签名均有效且文档未被篡改 还返回`真的`如果没有数字签名。 返回`错误的`如果至少一个数字签名无效。 |
 | [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | 获取指定索引处的文档签名。 |
 
 ## 方法
@@ -44,7 +44,7 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 
 ## 例子
 
-演示如何验证和显示有关文档中每个签名的信息。
+展示如何验证和显示文档中每个签名的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -52,7 +52,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -61,23 +61,24 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-演示如何使用 X.509 证书签署文档。
+展示如何使用 X.509 证书签署文档。
 
 ```csharp
-// 验证文档是否未签名。
+// 验证文档未签名。
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将用它来签署文档。
+// 从 PKCS12 文件创建一个 CertificateHolder 对象，我们将使用它来签署文档。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// 有两种方法将文档的签名副本保存到本地文件系统：
+// 有两种方法可以将文档的签名副本保存到本地文件系统：
 // 1 - 通过本地系统文件名指定文档，并将签名副本保存在另一个文件名指定的位置。
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - 从流中获取文档并将签名副本保存到另一个流中。
+// 2 - 从流中获取文档并将签名的副本保存到另一个流。
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -88,7 +89,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 请验证文档的所有数字签名是否有效并检查其详细信息。
+// 请验证所有文档的数字签名是否有效并检查其详细信息。
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

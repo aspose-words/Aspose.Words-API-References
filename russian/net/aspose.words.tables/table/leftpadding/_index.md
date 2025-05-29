@@ -3,14 +3,14 @@ title: Table.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words для .NET
-description: Table LeftPadding свойство. Получает или задает объем места в пунктах добавляемый слева от содержимого ячеек на С#.
+description: Откройте для себя свойство Table LeftPadding, легко настройте интервал между содержимым ячеек в пунктах для улучшенного управления макетом и повышения гибкости дизайна.
 type: docs
 weight: 200
 url: /ru/net/aspose.words.tables/table/leftpadding/
 ---
 ## Table.LeftPadding property
 
-Получает или задает объем места (в пунктах), добавляемый слева от содержимого ячеек.
+Возвращает или задает размер пространства (в пунктах), добавляемого слева от содержимого ячеек.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## Примеры
 
-Показывает, как настроить заполнение содержимого в таблице.
+Показывает, как настроить отступы для содержимого в таблице.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Для каждой ячейки таблицы задаем расстояние между ее содержимым и каждой из ее границ.
-// Эта таблица будет поддерживать минимальное расстояние заполнения путем переноса текста.
+ // Для каждой ячейки таблицы задайте расстояние между ее содержимым и каждой из ее границ.
+// Эта таблица будет поддерживать минимальное расстояние отступа путем переноса текста.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

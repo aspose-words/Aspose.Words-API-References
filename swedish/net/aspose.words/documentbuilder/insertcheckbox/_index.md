@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertCheckBox
 linktitle: InsertCheckBox
 articleTitle: InsertCheckBox
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertCheckBox metod. Infogar ett kryssrutaformulär på den aktuella positionen i C#.
+description: Lägg enkelt till interaktiva kryssrutefält med DocumentBuilder-metoden InsertCheckBox, vilket förbättrar användarengagemang i dina dokument.
 type: docs
 weight: 290
 url: /sv/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
-Infogar ett kryssrutaformulär på den aktuella positionen.
+Infogar ett kryssrutefält på aktuell position.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool checkedValue, int size)
@@ -18,13 +18,13 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på formulärfältet. Kan vara en tom sträng. Värdet längre än 20 tecken kommer att trunkeras. |
-| checkedValue | Boolean | Kontrollerad status för kryssrutans formulärfält. |
-| size | Int32 | Anger storleken på kryssrutan i punkter. Ange 0 för MS Word för att beräkna storleken på kryssrutan automatiskt. |
+| name | String | Namnet på formulärfältet. Kan vara en tom sträng. Värde som är längre än 20 tecken kommer att avkortas. |
+| checkedValue | Boolean | Kontrollerad status för kryssrutefältet i formuläret. |
+| size | Int32 | Anger kryssrutans storlek i punkter. Ange 0 för MS Word för att beräkna kryssrutans storlek automatiskt. |
 
 ### Returvärde
 
-Formulärfältsnoden som precis infogades.
+Formulärfältnoden som just infogades.
 
 ## Anmärkningar
 
@@ -38,7 +38,7 @@ Visar hur man infogar kryssrutor i dokumentet.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga kryssrutor av varierande storlek och standardmarkerade statusar.
+// Infoga kryssrutor av varierande storlek och standardstatus för markerade rutor.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -47,7 +47,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Formulärfält har en namnlängdsgräns på 20 tecken.
+// Formulärfält har en namngräns på 20 tecken.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
-Infogar ett kryssrutaformulär på den aktuella positionen.
+Infogar ett kryssrutefält på aktuell position.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValue, int size)
@@ -76,14 +76,14 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på formulärfältet. Kan vara en tom sträng. Värdet längre än 20 tecken kommer att trunkeras. |
-| defaultValue | Boolean | Standardvärde för kryssrutans formulärfält. |
-| checkedValue | Boolean | Aktuell kontrollerad status för kryssrutans formulärfält. |
-| size | Int32 | Anger storleken på kryssrutan i punkter. Ange 0 för MS Word för att beräkna storleken på kryssrutan automatiskt. |
+| name | String | Namnet på formulärfältet. Kan vara en tom sträng. Värde som är längre än 20 tecken kommer att avkortas. |
+| defaultValue | Boolean | Standardvärde för kryssrutefältet. |
+| checkedValue | Boolean | Aktuell markerad status för kryssrutefältet i formuläret. |
+| size | Int32 | Anger kryssrutans storlek i punkter. Ange 0 för MS Word för att beräkna kryssrutans storlek automatiskt. |
 
 ### Returvärde
 
-Formulärfältsnoden som precis infogades.
+Formulärfältnoden som just infogades.
 
 ## Anmärkningar
 
@@ -97,7 +97,7 @@ Visar hur man infogar kryssrutor i dokumentet.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga kryssrutor av varierande storlek och standardmarkerade statusar.
+// Infoga kryssrutor av varierande storlek och standardstatus för markerade rutor.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -106,7 +106,7 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// Formulärfält har en namnlängdsgräns på 20 tecken.
+// Formulärfält har en namngräns på 20 tecken.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 

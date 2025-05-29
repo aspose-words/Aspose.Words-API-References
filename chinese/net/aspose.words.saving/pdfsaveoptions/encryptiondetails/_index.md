@@ -2,8 +2,8 @@
 title: PdfSaveOptions.EncryptionDetails
 linktitle: EncryptionDetails
 articleTitle: EncryptionDetails
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfSaveOptions EncryptionDetails 财产. 获取或设置加密输出 PDF 文档的详细信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PdfSaveOptions 的 EncryptionDetails 属性，轻松配置 PDF 加密设置，确保您的文档保持安全和受到保护。
 type: docs
 weight: 130
 url: /zh/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
@@ -18,19 +18,19 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ## 评论
 
-默认值为`无效的`并且输出文档不会被加密。 当此属性设置为有效时[`PdfEncryptionDetails`](../../pdfencryptiondetails/)object, 那么输出的 PDF 文档将被加密。
+默认值为`无效的`并且输出文档将不会被加密。 当此属性设置为有效[`PdfEncryptionDetails`](../../pdfencryptiondetails/)object, 那么输出的 PDF 文档将被加密。
 
-保存为基于 PDF 1.7 的合规性（包括 PDF/UA-1）时，使用 AES-128 加密算法。 保存为基于 PDF 2.0 的合规性时，使用 AES-256 加密算法。
+保存为基于 PDF 1.7 合规性（包括 PDF/UA-1）时使用 AES-128 加密算法。 保存为基于 PDF 2.0 合规性时使用 AES-256 加密算法。
 
-PDF/A 合规性禁止加密。保存为 PDF/A 时将忽略此选项。
+PDF/A 规范禁止加密。保存为 PDF/A 格式时，此选项将被忽略。
 
-ContentCopyForAccessibility如果输出文档已加密，则需要 PDF/UA 合规性 的许可。保存为 PDF/UA 时将自动使用此权限。
+ContentCopyForAccessibility如果输出文档已加密，则 PDF/UA compliance 要求此权限。保存为 PDF/UA 时将自动使用此权限。
 
-ContentCopyForAccessibility PDF 2.0 格式已弃用此权限。 保存为 PDF 2.0 时将忽略此权限。
+ContentCopyForAccessibility权限在 PDF 2.0 格式中已弃用。 保存为 PDF 2.0 时将忽略此权限。
 
 ## 例子
 
-演示如何设置已保存 PDF 文档的权限。
+展示如何设置已保存的 PDF 文档的权限。
 
 ```csharp
 Document doc = new Document();

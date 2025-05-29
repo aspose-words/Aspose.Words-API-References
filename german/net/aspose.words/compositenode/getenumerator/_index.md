@@ -3,14 +3,14 @@ title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: CompositeNode GetEnumerator methode. Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens in C#.
+description: Entdecken Sie die CompositeNode GetEnumerator-Methode für die nahtlose Iteration über untergeordnete Knoten. Steigern Sie Ihre Programmiereffizienz mit dieser leistungsstarken Funktion!
 type: docs
-weight: 100
+weight: 120
 url: /de/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-Bietet Unterstützung für die Iteration jedes Stils über die untergeordneten Knoten dieses Knotens.
+Bietet Unterstützung für die Iteration des For-Each-Stils über die untergeordneten Knoten dieses Knotens.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -18,44 +18,25 @@ public IEnumerator<Node> GetEnumerator()
 
 ## Beispiele
 
-Zeigt, wie die Sammlung untergeordneter Knoten eines zusammengesetzten Knotens durchlaufen wird.
+Zeigt, wie alle Kommentare und Antworten eines Dokuments gedruckt werden.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Comments.docx");
 
-// Fügen Sie dem ersten Absatz dieses Dokuments zwei Läufe und eine Form als untergeordnete Knoten hinzu.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
-
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// Beachten Sie, dass die „CustomNodeId“ nicht in einer Ausgabedatei gespeichert wird und nur während der Knotenlebensdauer vorhanden ist.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
-
-paragraph.AppendChild(new Run(doc, "Hello again!"));
-
-// Durch die Sammlung der unmittelbar untergeordneten Elemente des Absatzes iterieren,
-// und alle Läufe oder Formen drucken, die wir darin finden.
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
-
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
+NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+// Wenn ein Kommentar keinen Vorgänger hat, handelt es sich um einen Kommentar der obersten Ebene und nicht um einen Kommentar vom Typ „Antwort“.
+// Alle Kommentare der obersten Ebene zusammen mit allen möglichen Antworten ausdrucken.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
+{
+    Console.WriteLine("Top-level comment:");
+    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+    Console.WriteLine($"Has {comment.Replies.Count} replies");
+    foreach (Comment commentReply in comment.Replies)
     {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
+        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
     }
+    Console.WriteLine();
+}
 ```
 
 ### Siehe auch

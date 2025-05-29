@@ -3,14 +3,14 @@ title: BasicTextShaperCache
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words pour .NET
-description: BasicTextShaperCache constructeur. Enveloppementsfactory et cachesGetTextShaper résultats en C#.
+description: Découvrez le constructeur BasicTextShaperCache, conçu pour optimiser la mise en forme du texte en mettant en cache les résultats pour des performances plus rapides et efficaces dans vos applications.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/basictextshapercache/basictextshapercache/
 ---
 ## BasicTextShaperCache constructor
 
-Enveloppements*factory* et caches[`GetTextShaper`](../../itextshaperfactory/gettextshaper/) résultats.
+Enveloppes*factory* et caches[`GetTextShaper`](../../itextshaperfactory/gettextshaper/) résultats.
 
 ```csharp
 public BasicTextShaperCache(ITextShaperFactory factory)

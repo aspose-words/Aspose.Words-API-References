@@ -3,14 +3,14 @@ title: Stroke.Weight
 linktitle: Weight
 articleTitle: Weight
 second_title: Aspose.Words pour .NET
-description: Stroke Weight propriété. Définit lépaisseur du pinceau qui trace le chemin dune forme en points en C#.
+description: Découvrez la propriété Épaisseur du trait pour personnaliser l'épaisseur du pinceau pour les formes. Sublimez vos créations avec des tracés précis en points !
 type: docs
-weight: 210
+weight: 260
 url: /fr/net/aspose.words.drawing/stroke/weight/
 ---
 ## Stroke.Weight property
 
-Définit l'épaisseur du pinceau qui trace le chemin d'une forme en points.
+Définit l'épaisseur du pinceau qui parcourt le chemin d'une forme en points.
 
 ```csharp
 public double Weight { get; set; }
@@ -18,7 +18,7 @@ public double Weight { get; set; }
 
 ## Remarques
 
-La valeur par défaut d'un[`Shape`](../../shape/) est de 0,75.
+La valeur par défaut pour un[`Shape`](../../shape/) est de 0,75.
 
 ## Exemples
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, comme le rectangle, comportent deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, ont deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :

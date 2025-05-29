@@ -2,10 +2,10 @@
 title: MailMergeRegionInfo Class
 linktitle: MailMergeRegionInfo
 articleTitle: MailMergeRegionInfo
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.MailMerging.MailMergeRegionInfo 班级. 包含有关邮件合并区域的信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.MailMerging.MailMergeRegionInfo 类，实现高效的邮件合并管理。立即解锁无缝文档自动化！
 type: docs
-weight: 3860
+weight: 4550
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
@@ -22,20 +22,20 @@ public class MailMergeRegionInfo
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | 返回区域的结束字段。 |
-| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | 返回该区域的结束“mustache”标签。 |
+| [EndField](../../aspose.words.mailmerging/mailmergeregioninfo/endfield/) { get; } | 返回该区域的结束字段。 |
+| [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | 返回该区域的结束“胡子”标签。 |
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | 返回子字段列表。 |
 | [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | 返回区域的嵌套级别。 |
-| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | 返回子“mustache”标签的列表。 |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | 返回子“胡子”标签列表。 |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | 返回区域名称。 |
 | [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | 返回父区域信息（顶级区域为空）。 |
 | [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | 返回子区域列表。 |
-| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | 返回区域的起始字段。 |
-| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | 返回该区域的开始“mustache”标签。 |
+| [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | 返回该区域的起始字段。 |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | 返回该区域的起始“胡子”标签。 |
 
 ## 例子
 
-演示如何验证邮件合并区域。
+显示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -60,6 +60,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // 获取第一个顶部区域内的字段列表。
 IList<Field> fieldList = topRegions[0].Fields;

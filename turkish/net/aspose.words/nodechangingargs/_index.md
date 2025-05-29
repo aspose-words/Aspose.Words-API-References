@@ -2,17 +2,17 @@
 title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
-second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeChangingArgs sınıf. Yöntemler için veri sağlarINodeChangingCallback arayüz C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz INodeChangingCallback entegrasyonuyla belge işlemenizi geliştirmek için tasarlanmış Aspose.Words.NodeChangingArgs sınıfını keşfedin. İş akışınızı bugün artırın!
 type: docs
-weight: 4190
+weight: 4880
 url: /tr/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
 Yöntemler için veri sağlar[`INodeChangingCallback`](../inodechangingcallback/) arayüz.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) belgeleme makalesi.
 
 ```csharp
 public class NodeChangingArgs
@@ -22,14 +22,14 @@ public class NodeChangingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | İşlem tamamlandıktan sonra ayarlanacak düğümün ebeveynini alır. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Alır[`Node`](./node/) bu ekleniyor veya kaldırılıyor. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | İşlem başlamadan önce düğümün ebeveynini alır. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Hangi tür düğüm değişikliği olayının meydana geldiğini belirten bir değer alır. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | İşlem tamamlandıktan sonra ayarlanacak düğümün üst öğesini alır. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Şunu alır:[`Node`](./node/) eklenen veya kaldırılan. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | İşlem başlamadan önce düğümün üst öğesini alır. |
 
 ## Örnekler
 
-Bir geri aramayla düğüm değişiminin nasıl özelleştirileceğini gösterir.
+Geri arama ile düğüm değişiminin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -37,8 +37,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Düğüm değiştirme geri çağrısını özel uygulamaya ayarlayın,
-    // ardından bir günlük oluşturmasını sağlamak için düğümleri ekleyin/kaldırın.
+    // Düğüm değiştirme geri aramasını özel uygulamaya ayarlayın,
+    // daha sonra bir günlük oluşturması için düğümleri ekleyin/kaldırın.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -53,7 +53,7 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Her düğüm ekleme ve çıkarma işleminin tarihini ve saatini günlüğe kaydeder.
+/// Her düğümün eklenmesi ve kaldırılmasının tarih ve saatini günlüğe kaydeder.
 /// Çalıştırma düğümlerinin metin içerikleri için özel bir yazı tipi adı/boyutu ayarlar.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

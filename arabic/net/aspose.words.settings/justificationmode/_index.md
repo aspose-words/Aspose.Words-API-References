@@ -3,14 +3,14 @@ title: JustificationMode Enum
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.JustificationMode تعداد. يحدد تعديل تباعد الأحرف للمستند. القيمة الافتراضية هييوسع  في C#.
+description: اكتشف خاصية Aspose.Words JustificationMode لضبط المسافات بين الأحرف بدقة في مستنداتك. حسّن سهولة القراءة بإعدادات قابلة للتخصيص!
 type: docs
-weight: 5800
+weight: 6630
 url: /ar/net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration
 
-يحدد تعديل تباعد الأحرف للمستند. القيمة الافتراضية هي`يوسع` .
+يحدد تعديل المسافة بين الأحرف في المستند. القيمة الافتراضية هي`يوسع` .
 
 ```csharp
 public enum JustificationMode
@@ -20,19 +20,19 @@ public enum JustificationMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Expand | `0` |  |
-| Compress | `1` |  |
-| CompressKana | `2` |  |
+| Expand | `0` | لا تضغط المسافة بين الأحرف. |
+| Compress | `1` | ضغط المسافة بين الأحرف. |
+| CompressKana | `2` | الضغط باستخدام قواعد المقاطع الصوتية الكانا والهيراجانا والكاتاكانا. |
 
 ## أمثلة
 
-يوضح كيفية إدارة التحكم في تباعد الأحرف.
+يوضح كيفية إدارة التحكم في المسافة بين الأحرف.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

@@ -2,10 +2,10 @@
 title: Style.Type
 linktitle: Type
 articleTitle: Type
-second_title: 用于 .NET 的 Aspose.Words
-description: Style Type 财产. 获取样式类型段落或字符 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现样式类型属性，轻松访问和自定义段落或字符样式，增强文档的视觉吸引力。
 type: docs
-weight: 170
+weight: 200
 url: /zh/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -18,7 +18,7 @@ public StyleType Type { get; }
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

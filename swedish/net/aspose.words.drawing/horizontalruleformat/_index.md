@@ -3,14 +3,14 @@ title: HorizontalRuleFormat Class
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat klass. Representerar horisontell regelformatering i C#.
+description: Upptäck klassen Aspose.Words.Drawing.HorizontalRuleFormat för avancerad formatering av horisontella linjer. Förbättra din dokumentdesign utan ansträngning!
 type: docs
-weight: 1050
+weight: 1380
 url: /sv/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-Representerar horisontell regelformatering.
+Representerar formatering av horisontell linje.
 
 För att lära dig mer, besök[Arbeta med former](https://docs.aspose.com/words/net/working-with-shapes/) dokumentationsartikel.
 
@@ -22,15 +22,15 @@ public class HorizontalRuleFormat
 
 | namn | Beskrivning |
 | --- | --- |
-| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Hämtar eller ställer in justeringen av den horisontella regeln. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Hämtar eller ställer in penselfärgen som fyller den horisontella regeln. |
-| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Hämtar eller ställer in höjden på den horisontella regeln. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indikerar närvaron av 3D-skuggning för den horisontella regeln. Om`Sann` då är den horisontella regeln utan 3D-skuggning och solid färg används. |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Hämtar eller ställer in längden på den angivna horisontella regeln uttryckt i procent av fönstrets bredd. |
+| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Hämtar eller ställer in justeringen av den horisontella linjen. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Hämtar eller ställer in penselfärgen som fyller den horisontella linjen. |
+| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Hämtar eller ställer in höjden på den horisontella linjen. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Indikerar förekomsten av 3D-skuggning för den horisontella linjen. Om`sann` , då är den horisontella linjen utan 3D-skuggning och enfärgad används. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Hämtar eller ställer in längden på den angivna horisontella linjen uttryckt som en procentandel av fönsterbredden. |
 
 ## Exempel
 
-Visar hur man infogar en horisontell regelform och anpassar dess formatering.
+Visar hur man infogar en horisontell linjeform och anpassar dess formatering.
 
 ```csharp
 Document doc = new Document();

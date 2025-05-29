@@ -3,7 +3,7 @@ title: FieldSeq.InsertNextNumber
 linktitle: InsertNextNumber
 articleTitle: InsertNextNumber
 second_title: Aspose.Words per .NET
-description: FieldSeq InsertNextNumber proprietà. Ottiene o imposta se inserire il numero di sequenza successivo per lelemento specificato in C#.
+description: Scopri la proprietà FieldSeq InsertNextNumber per gestire facilmente i numeri di sequenza dei tuoi articoli. Migliora l'organizzazione dei tuoi dati senza sforzo!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldseq/insertnextnumber/
@@ -18,17 +18,17 @@ public bool InsertNextNumber { get; set; }
 
 ## Esempi
 
-Mostra la creazione della numerazione utilizzando i campi SEQ.
+Mostra come creare una numerazione utilizzando i campi SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// I campi SEQ visualizzano un conteggio che aumenta in ciascun campo SEQ.
-// Questi campi mantengono inoltre conteggi separati per ciascuna sequenza con nome univoco
+// I campi SEQ visualizzano un conteggio che aumenta in ogni campo SEQ.
+// Questi campi mantengono anche conteggi separati per ogni sequenza denominata univoca
 // identificato dalla proprietà "SequenceIdentifier" del campo SEQ.
-// Inserisci un campo SEQ che visualizzerà il valore di conteggio corrente di "MySequence",
-// dopo aver utilizzato la proprietà "ResetNumber" per impostarlo su 100.
+// Inserisci un campo SEQ che visualizzerà il valore del conteggio corrente di "MySequence",
+// dopo aver utilizzato la proprietà "ResetNumber" per impostarla su 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -46,20 +46,20 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Inserisci un'intestazione di livello 1.
+// Inserire un'intestazione di livello 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Inserisci un altro campo SEQ dalla stessa sequenza e configuralo per reimpostare il conteggio ad ogni intestazione con 1.
+// Inserire un altro campo SEQ dalla stessa sequenza e configurarlo per reimpostare il conteggio a ogni intestazione con 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato su 1.
+// L'intestazione sopra è un'intestazione di livello 1, quindi il conteggio per questa sequenza viene reimpostato a 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 

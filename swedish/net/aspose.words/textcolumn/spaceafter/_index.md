@@ -3,14 +3,14 @@ title: TextColumn.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
 second_title: Aspose.Words för .NET
-description: TextColumn SpaceAfter fast egendom. Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen i C#.
+description: Upptäck egenskapen TextColumn SpaceAfter för att enkelt justera avståndet mellan kolumner i din layout. Förbättra läsbarhet och design med precision!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/textcolumn/spaceafter/
 ---
 ## TextColumn.SpaceAfter property
 
-Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen.
+Hämtar eller ställer in avståndet mellan denna kolumn och nästa kolumn i punkter. Krävs inte för den sista kolumnen.
 
 ```csharp
 public double SpaceAfter { get; set; }
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestäm mängden utrymme som vi har tillgängligt för att arrangera kolumner.
+// Bestäm hur mycket utrymme vi har tillgängligt för att arrangera kolumner.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Ange att den första kolumnen ska vara smal.
+// Sätt den första kolumnen till att vara smal.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Ställ in den andra kolumnen för att ta resten av det tillgängliga utrymmet inom sidans marginaler.
+// Ställ in den andra kolumnen så att den tar upp resten av det tillgängliga utrymmet inom sidans marginaler.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

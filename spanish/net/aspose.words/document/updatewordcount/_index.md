@@ -3,9 +3,9 @@ title: Document.UpdateWordCount
 linktitle: UpdateWordCount
 articleTitle: UpdateWordCount
 second_title: Aspose.Words para .NET
-description: Document UpdateWordCount método. Actualiza las propiedades de recuento de palabras del documento en C#.
+description: Mejore la eficiencia de su documento con el método UpdateWordCount, garantizando propiedades de recuento de palabras precisas para una mejor edición y revisión.
 type: docs
-weight: 790
+weight: 850
 url: /es/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
@@ -20,7 +20,7 @@ public void UpdateWordCount()
 
 `UpdateWordCount` recalcula y actualiza las propiedades Caracteres, Palabras y Párrafos en el[`BuiltInDocumentProperties`](../builtindocumentproperties/) colección de la[`Document`](../).
 
-Tenga en cuenta que`UpdateWordCount`no actualiza el número de líneas y propiedades de páginas. Utilice el`UpdateWordCount` sobrecargar y pasar`verdadero` value como parámetro para hacer eso.
+Tenga en cuenta que`UpdateWordCount` no actualiza el número de líneas y propiedades de páginas. Utilice el`UpdateWordCount` sobrecarga y pase`verdadero` valor como parámetro para hacer eso.
 
 Cuando utilice una versión de evaluación, la marca de agua de evaluación también se incluirá en el recuento de palabras.
 
@@ -37,7 +37,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words no rastrea métricas de documentos como estas en tiempo real.
+// Aspose.Words no realiza un seguimiento de métricas de documentos como estas en tiempo real.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -50,7 +50,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// Para el recuento de líneas, necesitaremos llamar a una sobrecarga específica del método de actualización.
+// Para el conteo de líneas, necesitaremos llamar a una sobrecarga específica del método de actualización.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -68,7 +68,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(*bool*) {#updatewordcount_1}
 
-Actualiza las propiedades de recuento de palabras del documento y, opcionalmente, actualiza[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propiedad.
+Actualiza las propiedades de recuento de palabras del documento, actualiza opcionalmente[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) propiedad.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -76,7 +76,7 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| updateLinesCount | Boolean | `verdadero` si se calculará el número de líneas del documento. |
+| updateLinesCount | Boolean | `verdadero` Si se debe calcular el número de líneas del documento. |
 
 ## Observaciones
 
@@ -95,7 +95,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words no rastrea métricas de documentos como estas en tiempo real.
+// Aspose.Words no realiza un seguimiento de métricas de documentos como estas en tiempo real.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -108,7 +108,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// Para el recuento de líneas, necesitaremos llamar a una sobrecarga específica del método de actualización.
+// Para el conteo de líneas, necesitaremos llamar a una sobrecarga específica del método de actualización.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);

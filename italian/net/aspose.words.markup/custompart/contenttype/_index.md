@@ -3,7 +3,7 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words per .NET
-description: CustomPart ContentType proprietà. Specifica il tipo di contenuto di questa parte personalizzata in C#.
+description: Scopri come la proprietà ContentType di CustomPart definisce il tipo di contenuto della tua parte personalizzata, migliorandone la funzionalità e l'esperienza utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/custompart/contenttype/
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

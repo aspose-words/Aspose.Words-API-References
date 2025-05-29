@@ -2,8 +2,8 @@
 title: DocumentBuilder.Font
 linktitle: Font
 articleTitle: Font
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder Font 财产. 返回表示当前字体格式属性的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentBuilder 的 Font 属性，轻松访问和自定义您当前的字体格式。立即提升您文档的风格！
 type: docs
 weight: 100
 url: /zh/net/aspose.words/documentbuilder/font/
@@ -20,11 +20,11 @@ public Font Font { get; }
 
 使用`Font`访问和修改字体格式属性。
 
-在插入文本之前指定字体格式。
+插入文本之前指定字体格式。
 
 ## 例子
 
-演示如何将边框包围的字符串插入到文档中。
+展示如何将带边框的字符串插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-演示如何使用 DocumentBuilder 创建格式化表。
+展示如何使用 DocumentBuilder 创建格式化的表格。
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// 设置文本和表格外观的一些格式选项。
+// 为文本和表格外观设置一些格式选项。
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -69,8 +69,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// 为我们即将创建的新行和单元格重新配置构建器的格式化对象。
-// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行脱颖而出。
+// 为我们即将创建的新行和新单元格重新配置构建器的格式化对象。
+// 构建器不会将这些应用到已创建的第一行，以便它将作为标题行突出显示。
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

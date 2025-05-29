@@ -3,22 +3,23 @@ title: CompositeNode.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
 second_title: Aspose.Words für .NET
-description: CompositeNode AppendChild methode. Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu in C#.
+description: Entdecken Sie, wie die CompositeNode AppendChild-Methode Ihre Programmierung verbessert, indem sie nahtlos Knoten zu Ihrer Child-Node-Liste hinzufügt. Steigern Sie Ihre Entwicklungseffizienz!
 type: docs
-weight: 60
+weight: 80
 url: /de/net/aspose.words/compositenode/appendchild/
 ---
-## CompositeNode.AppendChild method
+## CompositeNode.AppendChild&lt;T&gt; method
 
 Fügt den angegebenen Knoten am Ende der Liste der untergeordneten Knoten für diesen Knoten hinzu.
 
 ```csharp
-public Node AppendChild(Node newChild)
+public T AppendChild<T>(T newChild)
+    where T : Node
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newChild | Node | Der hinzuzufügende Knoten. |
+| newChild | T | Der hinzuzufügende Knoten. |
 
 ### Rückgabewert
 
@@ -26,7 +27,7 @@ Der Knoten wurde hinzugefügt.
 
 ## Bemerkungen
 
-Wenn die*newChild* bereits im Baum vorhanden ist, wird dieser zunächst entfernt.
+Wenn die*newChild* ist bereits im Baum vorhanden, wird es zunächst entfernt.
 
 Wenn der einzufügende Knoten aus einem anderen Dokument erstellt wurde, sollten Sie verwenden.[`ImportNode`](../../documentbase/importnode/) um den Knoten in das aktuelle Dokument zu importieren. Der importierte Knoten kann dann in das aktuelle Dokument eingefügt werden.
 
@@ -39,12 +40,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -57,7 +58,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -65,8 +66,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

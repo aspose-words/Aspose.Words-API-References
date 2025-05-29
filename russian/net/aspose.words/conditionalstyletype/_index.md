@@ -3,14 +3,14 @@ title: ConditionalStyleType Enum
 linktitle: ConditionalStyleType
 articleTitle: ConditionalStyleType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.ConditionalStyleType перечисление. Представляет возможные области таблицы для которых в стиле таблицы может быть определено условное форматирование на С#.
+description: Откройте для себя перечисление Aspose.Words.ConditionalStyleType для определения динамического форматирования таблиц. Улучшите стили документов с помощью гибких условных опций!
 type: docs
-weight: 330
+weight: 530
 url: /ru/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
 
-Представляет возможные области таблицы, для которых в стиле таблицы может быть определено условное форматирование.
+Представляет возможные области таблицы, для которых может быть определено условное форматирование в стиле таблицы.
 
 ```csharp
 public enum ConditionalStyleType
@@ -20,18 +20,18 @@ public enum ConditionalStyleType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| FirstRow | `0` | Определяет форматирование первой строки таблицы. |
-| FirstColumn | `1` | Определяет форматирование первого столбца таблицы. |
-| LastRow | `2` | Определяет форматирование последней строки таблицы. |
-| LastColumn | `3` | Определяет форматирование последнего столбца таблицы. |
-| OddRowBanding | `4` | Определяет форматирование полосы строк с нечетным номером. |
-| OddColumnBanding | `5` | Определяет форматирование полосы столбцов с нечетными номерами. |
-| EvenRowBanding | `6` | Определяет форматирование четной полосы строк. |
-| EvenColumnBanding | `7` | Определяет форматирование четной полосы столбцов. |
-| TopLeftCell | `8` | Определяет форматирование верхней левой ячейки таблицы. |
-| TopRightCell | `9` | Определяет форматирование верхней правой ячейки таблицы. |
-| BottomLeftCell | `10` | Определяет форматирование нижней левой ячейки таблицы. |
-| BottomRightCell | `11` | Определяет форматирование нижней правой ячейки таблицы. |
+| FirstRow | `0` | Задает форматирование первой строки таблицы. |
+| FirstColumn | `1` | Задает форматирование первого столбца таблицы. |
+| LastRow | `2` | Задает форматирование последней строки таблицы. |
+| LastColumn | `3` | Задает форматирование последнего столбца таблицы. |
+| OddRowBanding | `4` | Задает форматирование полосы нечетных строк. |
+| OddColumnBanding | `5` | Задает форматирование полосы нечетных столбцов. |
+| EvenRowBanding | `6` | Задает форматирование полосы четных строк. |
+| EvenColumnBanding | `7` | Задает форматирование полосы четных столбцов. |
+| TopLeftCell | `8` | Задает форматирование верхней левой ячейки таблицы. |
+| TopRightCell | `9` | Задает форматирование верхней правой ячейки таблицы. |
+| BottomLeftCell | `10` | Задает форматирование нижней левой ячейки таблицы. |
+| BottomRightCell | `11` | Задает форматирование нижней правой ячейки таблицы. |
 
 ## Примеры
 
@@ -53,12 +53,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем собственный стиль таблицы.
+// Создать собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
-// на основе предиката, например, ячеек в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы.
+// на основе предиката, например, нахождения ячеек в последней строке.
+// Ниже приведены три способа доступа к условным стилям стиля таблицы из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -70,7 +70,7 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применяем отступы и форматирование текста к условным стилям.
+// Применить отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
@@ -90,11 +90,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
-// Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль применяет некоторые условные стили по умолчанию.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
+// Все остальные стили нам нужно будет включить самостоятельно через свойство «StyleOptions».
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

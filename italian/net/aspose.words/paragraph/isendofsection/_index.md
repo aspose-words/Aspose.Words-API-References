@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words per .NET
-description: Paragraph IsEndOfSection proprietà. Vero se questo paragrafo è lultimo paragrafo delBody storia del testo principale di aSection  falso altrimenti in C#.
+description: Scopri la proprietà Paragraph IsEndOfSection, identifica se un paragrafo è l'ultimo nel testo principale di una sezione per migliorare la struttura e la chiarezza del documento.
 type: docs
 weight: 80
 url: /it/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-Vero se questo paragrafo è l'ultimo paragrafo del[`Body`](../../body/) (storia del testo principale) di a[`Section`](../../section/) ; falso altrimenti.
+Vero se questo paragrafo è l'ultimo paragrafo nel[`Body`](../../body/) (testo principale della storia) di un[`Section`](../../section/) ; falso altrimenti.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -18,7 +18,7 @@ public bool IsEndOfSection { get; }
 
 ## Esempi
 
-Mostra come inserire il contenuto di un documento in un segnalibro in un altro documento.
+Mostra come inserire il contenuto di un documento in un segnalibro di un altro documento.
 
 ```csharp
 public void InsertAtBookmark()
@@ -56,8 +56,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Passa attraverso tutti i nodi a livello di blocco nel corpo della sezione,
-        // quindi clona e inserisce ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
+        // Esegue un ciclo attraverso tutti i nodi a livello di blocco nel corpo della sezione,
+        // quindi clona e inserisci ogni nodo che non sia l'ultimo paragrafo vuoto di una sezione.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

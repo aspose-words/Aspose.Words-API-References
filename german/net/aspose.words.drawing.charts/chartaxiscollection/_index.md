@@ -3,9 +3,9 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection klas. Stellt eine Sammlung von Diagrammachsen dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.ChartAxisCollection, Ihre Lösung für die effiziente Verwaltung von Diagrammachsen und die Verbesserung der Datenvisualisierung Ihres Dokuments.
 type: docs
-weight: 640
+weight: 900
 url: /de/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
@@ -31,16 +31,16 @@ public class ChartAxisCollection : IEnumerable<ChartAxis>
 
 ## Beispiele
 
-Zeigt, wie man mit der Achsensammlung arbeitet.
+Zeigt, wie mit der Achsensammlung gearbeitet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Die Hauptgitterlinien auf der primären und sekundären Y-Achse ausblenden.
+// Blenden Sie die Hauptgitterlinien auf der primären und sekundären Y-Achse aus.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

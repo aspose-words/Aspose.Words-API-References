@@ -3,14 +3,14 @@ title: UnsupportedFileFormatException Class
 linktitle: UnsupportedFileFormatException
 articleTitle: UnsupportedFileFormatException
 second_title: Aspose.Words för .NET
-description: Aspose.Words.UnsupportedFileFormatException klass. Kastas under dokumentladdning när dokumentformatet inte känns igen eller inte stöds av Aspose.Words i C#.
+description: Upptäck klassen Aspose.Words.UnsupportedFileFormatException, viktig för att hantera dokumentformat som inte stöds i Aspose.Words. Säkerställ sömlös dokumentbehandling!
 type: docs
-weight: 6520
+weight: 7370
 url: /sv/net/aspose.words/unsupportedfileformatexception/
 ---
 ## UnsupportedFileFormatException class
 
-Kastas under dokumentladdning, när dokumentformatet inte känns igen eller inte stöds av Aspose.Words.
+Kastas under dokumentinläsning, när dokumentformatet inte känns igen eller inte stöds av Aspose.Words.
 
 För att lära dig mer, besök[Programmering med dokument](https://docs.aspose.com/words/net/programming-with-documents/) dokumentationsartikel.
 

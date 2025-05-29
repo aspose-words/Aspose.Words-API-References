@@ -3,7 +3,7 @@ title: FieldComments
 linktitle: FieldComments
 articleTitle: FieldComments
 second_title: Aspose.Words لـ .NET
-description: FieldComments البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ التعليقات الميدانية - الحل الأمثل لتكامل سلس ووظائف مُحسّنة في مشاريعك. بسّط عملية التطوير اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldcomments/fieldcomments/

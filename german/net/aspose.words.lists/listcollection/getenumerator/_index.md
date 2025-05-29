@@ -3,53 +3,17 @@ title: ListCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: ListCollection GetEnumerator methode. Ruft das Enumeratorobjekt ab das Listen im Dokument aufzählt in C#.
+description: Entdecken Sie die ListCollection GetEnumerator-Methode für einfachen Zugriff und Iteration durch Dokumentlisten. Steigern Sie noch heute Ihre Programmiereffizienz!
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.lists/listcollection/getenumerator/
 ---
 ## ListCollection.GetEnumerator method
 
-Ruft das Enumeratorobjekt ab, das Listen im Dokument aufzählt.
+Ruft das Enumeratorobjekt ab, das die Listen im Dokument aufzählt.
 
 ```csharp
 public IEnumerator<List> GetEnumerator()
-```
-
-## Beispiele
-
-Zeigt, wie ein Dokument mit einem Beispiel aller Listen aus einem anderen Dokument erstellt wird.
-
-```csharp
-public void PrintOutAllLists()
-{
-    Document srcDoc = new Document(MyDir + "Rendering.docx");
-
-    Document dstDoc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(dstDoc);
-
-    foreach (List srcList in srcDoc.Lists)
-    {
-        List dstList = dstDoc.Lists.AddCopy(srcList);
-        AddListSample(builder, dstList);
-    }
-
-    dstDoc.Save(ArtifactsDir + "Lists.PrintOutAllLists.docx");
-}
-
-private static void AddListSample(DocumentBuilder builder, List list)
-{
-    builder.Writeln("Sample formatting of list with ListId:" + list.ListId);
-    builder.ListFormat.List = list;
-    for (int i = 0; i < list.ListLevels.Count; i++)
-    {
-        builder.ListFormat.ListLevelNumber = i;
-        builder.Writeln("Level " + i);
-    }
-
-    builder.ListFormat.RemoveNumbers();
-    builder.Writeln();
-}
 ```
 
 ### Siehe auch

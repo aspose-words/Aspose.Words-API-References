@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedCss
 linktitle: ExportEmbeddedCss
 articleTitle: ExportEmbeddedCss
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions ExportEmbeddedCss ملكية. يحدد ما إذا كان يجب تضمين CSS ورقة الأنماط المتتالية في مستند Html في C#.
+description: اكتشف كيف تُحسّن خاصية ExportEmbeddedCss في HtmlFixedSaveOptions مستندات HTML لديك عبر تضمين CSS لتصميم سلس. حسّن صفحات الويب الخاصة بك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedcss/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedCss property
 
-يحدد ما إذا كان يجب تضمين CSS (ورقة الأنماط المتتالية) في مستند Html.
+يحدد ما إذا كان يجب تضمين CSS (ورقة الأنماط المتتالية) في مستند HTML.
 
 ```csharp
 public bool ExportEmbeddedCss { get; set; }
@@ -24,10 +24,10 @@ public bool ExportEmbeddedCss { get; set; }
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // عندما نقوم بتصدير مستند إلى html، سيقوم Aspose.Words أيضًا بإنشاء ورقة أنماط CSS لتنسيق المستند بها.
-// ضبط علامة "ExportEmbeddedCss" على "صحيح" وحفظ ورقة أنماط CSS في ملف ‎.css،
-// واربط الملف من مستند html باستخدام <link> عنصر.
-// سيؤدي تعيين العلامة إلى "خطأ" إلى تضمين ورقة أنماط CSS داخل مستند Html،
-// والذي سيؤدي إلى إنشاء ملف واحد فقط بدلاً من ملفين.
+// تعيين علامة "ExportEmbeddedCss" على "true" لحفظ ورقة أنماط CSS في ملف .css،
+// وربط الملف من مستند html باستخدام عنصر <link>.
+// سيؤدي تعيين العلم إلى "خطأ" إلى تضمين ورقة أنماط CSS داخل مستند HTML،
+// والذي سوف يقوم بإنشاء ملف واحد فقط بدلا من ملفين.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedCss = exportEmbeddedCss

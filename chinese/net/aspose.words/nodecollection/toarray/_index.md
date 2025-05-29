@@ -2,8 +2,8 @@
 title: NodeCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection ToArray 方法. 将集合中的所有节点复制到新的节点数组 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 NodeCollection ToArray 方法，轻松地将您的节点集合转换为新数组，增强数据管理和可访问性。
 type: docs
 weight: 110
 url: /zh/net/aspose.words/nodecollection/toarray/
@@ -22,13 +22,13 @@ public Node[] ToArray()
 
 ## 评论
 
-您不应在迭代节点集合 时添加/删除节点，因为这会使迭代器无效并且需要刷新实时集合。
+在迭代节点集合 时，您不应该添加/删除节点，因为这会使迭代器无效并需要刷新实时集合。
 
-为了能够在迭代期间添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后迭代该数组。
+为了能够在迭代过程中添加/删除节点，请使用此方法将 节点复制到固定大小的数组中，然后迭代该数组。
 
 ## 例子
 
-演示如何用图像形状替换所有文本框形状。
+展示如何用图像形状替换所有文本框形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

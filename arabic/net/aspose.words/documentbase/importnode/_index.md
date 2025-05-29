@@ -3,14 +3,14 @@ title: DocumentBase.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words لـ .NET
-description: DocumentBase ImportNode طريقة. يستورد عقدة من مستند آخر إلى المستند الحالي في C#.
+description: استورد العقد بسهولة من مستندات أخرى لتحسين سير عملك باستخدام طريقة ImportNode من DocumentBase. بسّط إدارة مستنداتك اليوم!
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/documentbase/importnode/
 ---
 ## ImportNode(*[Node](../../node/), bool*) {#importnode}
 
-يستورد عقدة من مستند آخر إلى المستند الحالي.
+استيراد عقدة من مستند آخر إلى المستند الحالي.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -19,21 +19,21 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | srcNode | Node | العقدة التي يتم استيرادها. |
-| isImportChildren | Boolean | `حقيقي` لاستيراد كافة العقد التابعة بشكل متكرر؛ خلاف ذلك،`خطأ شنيع`. |
+| isImportChildren | Boolean | `حقيقي` لاستيراد جميع العقد الفرعية بشكل متكرر؛ وإلا،`خطأ شنيع`. |
 
 ### قيمة الإرجاع
 
-العقدة المستنسخة التي تنتمي إلى الوثيقة الحالية.
+العقدة المستنسخة التي تنتمي إلى المستند الحالي.
 
 ## ملاحظات
 
 تستخدم هذه الطريقةUseDestinationStyles خيار لحل التنسيق.
 
-يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر التي تنتمي إلى مستند الاستيراد. العقدة التي تم إرجاعها ليس لها أصل. لا يتم تغيير العقدة المصدر أو إزالتها من المستند الأصلي.
+استيراد عقدة يُنشئ نسخة من العقدة المصدرية للمستند المُستورد. العقدة المُعادة ليس لها أصل. العقدة المصدرية لم تُعدّل أو تُزال من المستند الأصلي.
 
-قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
+قبل إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تُترجم خصائص المستند، مثل مراجع الأنماط والقوائم، من المستند الأصلي إلى المستند المُستورد. بعد استيراد العقدة، يُمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
 
-إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء استنساخ عميق للعقدة المصدر.
+إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء clone عميق للعقدة المصدر.
 
 ## أمثلة
 
@@ -48,18 +48,18 @@ srcDoc.FirstSection.Body.FirstParagraph.AppendChild(
 dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
     new Run(dstDoc, "Destination document first paragraph text."));
 
-// تحتوي كل عقدة على مستند أصل، وهو المستند الذي يحتوي على العقدة.
-// سيؤدي إدراج عقدة في مستند لا تنتمي إليه العقدة إلى حدوث استثناء.
+// كل عقدة لديها مستند رئيسي، وهو المستند الذي يحتوي على العقدة.
+// إدراج عقدة في مستند لا تنتمي إليه العقدة سيؤدي إلى حدوث استثناء.
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
-Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
+Assert.Throws<ArgumentException>(() => dstDoc.AppendChild(srcDoc.FirstSection));
 
-// استخدم طريقة ImportNode لإنشاء نسخة من العقدة التي ستحتوي على المستند
-// الذي تم تعيين أسلوب ImportNode كمستند المالك الجديد له.
+// استخدم طريقة ImportNode لإنشاء نسخة من العقدة، والتي ستحتوي على المستند
+// الذي استدعى مجموعة طريقة ImportNode كمستند مالك جديد.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
 Assert.AreEqual(dstDoc, importedSection.Document);
 
-// يمكننا الآن إدراج العقدة في المستند.
+//يمكننا الآن إدراج العقدة في المستند.
 dstDoc.AppendChild(importedSection);
 
 Assert.AreEqual("Destination document first paragraph text.\r\nSource document first paragraph text.\r\n",
@@ -77,7 +77,7 @@ Assert.AreEqual("Destination document first paragraph text.\r\nSource document f
 
 ## ImportNode(*[Node](../../node/), bool, [ImportFormatMode](../../importformatmode/)*) {#importnode_1}
 
-يستورد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق.
+استيراد عقدة من مستند آخر إلى المستند الحالي مع خيار التحكم في التنسيق.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode importFormatMode)
@@ -86,30 +86,30 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | srcNode | Node | العقدة المراد استيرادها. |
-| isImportChildren | Boolean | `حقيقي` لاستيراد كافة العقد التابعة بشكل متكرر؛ خلاف ذلك،`خطأ شنيع`. |
-| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات النمط التي تتعارض. |
+| isImportChildren | Boolean | `حقيقي` لاستيراد جميع العقد الفرعية بشكل متكرر؛ وإلا،`خطأ شنيع`. |
+| importFormatMode | ImportFormatMode | يحدد كيفية دمج تنسيقات الأنماط المتعارضة. |
 
 ### قيمة الإرجاع
 
-العقدة المستنسخة والمستوردة. تنتمي العقدة إلى المستند الوجهة، ولكن ليس لها أصل.
+العقدة المُستنسخة والمُستوردة. تنتمي هذه العقدة إلى مستند الوجهة، ولكن ليس لها عقدة رئيسية.
 
 ## ملاحظات
 
-يعد هذا التحميل الزائد مفيدًا للتحكم في كيفية استيراد الأنماط وتنسيقات القائمة.
+يعد هذا التحميل الزائد مفيدًا للتحكم في كيفية استيراد الأنماط وتنسيق القائمة.
 
-يؤدي استيراد عقدة إلى إنشاء نسخة من العقدة المصدر التي تنتمي إلى مستند الاستيراد. العقدة التي تم إرجاعها ليس لها أصل. لا يتم تغيير العقدة المصدر أو إزالتها من المستند الأصلي.
+استيراد عقدة يُنشئ نسخة من العقدة المصدرية للمستند المُستورد. العقدة المُعادة ليس لها أصل. العقدة المصدرية لم تُعدّل أو تُزال من المستند الأصلي.
 
-قبل أن يتم إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تتم ترجمة الخصائص الخاصة بالمستند مثل المراجع إلى الأنماط والقوائم من المستند الأصلي إلى مستند الاستيراد. بعد استيراد العقدة، يمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
+قبل إدراج عقدة من مستند آخر في هذا المستند، يجب استيرادها. أثناء الاستيراد، تُترجم خصائص المستند، مثل مراجع الأنماط والقوائم، من المستند الأصلي إلى المستند المُستورد. بعد استيراد العقدة، يُمكن إدراجها في المكان المناسب في المستند باستخدام[`InsertBefore`](../../compositenode/insertbefore/) أو [`InsertAfter`](../../compositenode/insertafter/).
 
-إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء استنساخ عميق للعقدة المصدر.
+إذا كانت العقدة المصدر تنتمي بالفعل إلى المستند الوجهة، فسيتم ببساطة إنشاء clone عميق للعقدة المصدر.
 
 ## أمثلة
 
-يوضح كيفية استيراد العقدة من المستند المصدر إلى المستند الوجهة بخيارات محددة.
+يوضح كيفية استيراد العقدة من مستند المصدر إلى مستند الوجهة باستخدام خيارات محددة.
 
 ```csharp
-// أنشئ مستندين وأضف نمط الأحرف إلى كل مستند.
-// قم بتكوين الأنماط بحيث تحمل نفس الاسم، ولكن بتنسيق نص مختلف.
+// قم بإنشاء مستندين وأضف نمطًا للأحرف إلى كل مستند.
+// قم بتكوين الأنماط بحيث يكون لها نفس الاسم، ولكن تنسيق نص مختلف.
 Document srcDoc = new Document();
 Style srcStyle = srcDoc.Styles.Add(StyleType.Character, "My style");
 srcStyle.Font.Name = "Courier New";
@@ -124,15 +124,15 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// قم باستيراد القسم من المستند الوجهة إلى المستند المصدر، مما يتسبب في تضارب اسم النمط.
-// إذا كنا نستخدم أنماط الوجهة، فإن النص المصدر المستورد يحمل نفس اسم النمط
-// كنص الوجهة سيعتمد نمط الوجهة.
+// استيراد القسم من المستند الوجهة إلى المستند المصدر، مما يتسبب في حدوث تعارض في اسم النمط.
+// إذا استخدمنا أنماط الوجهة، فسيتم استيراد النص المصدر بنفس اسم النمط
+// حيث سيعتمد النص الوجهة نمط الوجهة.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// إذا استخدمنا ImportFormatMode.KeepDifferentStyles، فسيتم الحفاظ على النمط المصدر،
-// ويتم حل التعارض في التسمية عن طريق إضافة لاحقة.
+// إذا استخدمنا ImportFormatMode.KeepDifferentStyles، فسيتم الحفاظ على نمط المصدر،
+// ويتم حل صراع التسمية عن طريق إضافة لاحقة.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
 Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);

@@ -3,7 +3,7 @@ title: License.SetLicense
 linktitle: SetLicense
 articleTitle: SetLicense
 second_title: Aspose.Words für .NET
-description: License SetLicense methode. Lizenziert die Komponente in C#.
+description: Lizenzieren Sie Ihre Komponenten mühelos mit unserer SetLicense-Methode. Schalten Sie die volle Funktionalität frei und steigern Sie noch heute das Potenzial Ihres Projekts!
 type: docs
 weight: 20
 url: /de/net/aspose.words/license/setlicense/
@@ -18,7 +18,7 @@ public void SetLicense(string licenseName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| licenseName | String | Kann ein vollständiger oder kurzer Dateiname oder der Name einer eingebetteten Ressource sein. Verwenden Sie eine leere Zeichenfolge, um in den Auswertungsmodus zu wechseln. |
+| licenseName | String | Kann ein vollständiger oder kurzer Dateiname oder der Name einer eingebetteten Ressource sein. Verwenden Sie eine leere Zeichenfolge, um in den Evaluierungsmodus zu wechseln. |
 
 ## Bemerkungen
 
@@ -30,11 +30,11 @@ Versucht, die Lizenz an den folgenden Orten zu finden:
 
 3. Der Ordner, der die aufrufende Assembly des Clients enthält.
 
-4. Der Ordner, der die Eintrags-(Start-)Assembly enthält.
+4. Der Ordner, der die Einstiegs-(Start-)Assembly enthält.
 
 5. Eine eingebettete Ressource in der aufrufenden Assembly des Clients.
 
-**Notiz:**Versucht im .NET Compact Framework, die Lizenz nur an diesen Orten zu finden:
+**Notiz:**Versucht im .NET Compact Framework, die Lizenz nur an diesen Speicherorten zu finden:
 
 1. Expliziter Pfad.
 
@@ -45,7 +45,7 @@ Versucht, die Lizenz an den folgenden Orten zu finden:
 Zeigt, wie eine Lizenz für Aspose.Words mithilfe einer Lizenzdatei im lokalen Dateisystem initialisiert wird.
 
 ```csharp
-// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen des lokalen Dateisystems einer gültigen Lizenzdatei übergeben.
+// Legen Sie die Lizenz für unser Aspose.Words-Produkt fest, indem Sie den Dateinamen einer gültigen Lizenzdatei im lokalen Dateisystem übergeben.
 string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 
 License license = new License();

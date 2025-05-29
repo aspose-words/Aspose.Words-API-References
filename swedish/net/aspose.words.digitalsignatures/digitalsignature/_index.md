@@ -3,9 +3,9 @@ title: DigitalSignature Class
 linktitle: DigitalSignature
 articleTitle: DigitalSignature
 second_title: Aspose.Words för .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignature klass. Representerar en digital signatur på ett dokument och resultatet av dess verifiering i C#.
+description: Upptäck klassen Aspose.Words.DigitalSignatures.DigitalSignature för säker dokumentsignering och verifiering. Förbättra din dokumentsäkerhet utan ansträngning!
 type: docs
-weight: 380
+weight: 580
 url: /sv/net/aspose.words.digitalsignatures/digitalsignature/
 ---
 ## DigitalSignature class
@@ -22,20 +22,20 @@ public class DigitalSignature
 
 | namn | Beskrivning |
 | --- | --- |
-| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Returnerar certifikatinnehavarens objekt som innehåller certifikatet som användes för att signera dokumentet. |
-| [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Får kommentaren för signeringssyfte. |
-| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returnerar subjektets distinguerade namn på certifikatet isuuer. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returnerar`Sann` om denna digitala signatur är giltig och dokumentet inte har manipulerats. |
+| [CertificateHolder](../../aspose.words.digitalsignatures/digitalsignature/certificateholder/) { get; } | Returnerar certifikatinnehavarobjektet som innehåller certifikatet som användes för att signera dokumentet. |
+| [Comments](../../aspose.words.digitalsignatures/digitalsignature/comments/) { get; } | Hämtar kommentaren om signeringssyftet. |
+| [IssuerName](../../aspose.words.digitalsignatures/digitalsignature/issuername/) { get; } | Returnerar certifikatutfärdarens ämnesnamn. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignature/isvalid/) { get; } | Returer`sann` om denna digitala signatur är giltig och dokumentet inte har manipulerats. |
 | [SignatureType](../../aspose.words.digitalsignatures/digitalsignature/signaturetype/) { get; } | Hämtar typen av digital signatur. |
-| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Får en matris med byte som representerar ett signaturvärde. |
-| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Hämtar tiden då dokumentet signerades. |
-| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returnerar ämnets unika namn på certifikatet som användes för att signera dokumentet. |
+| [SignatureValue](../../aspose.words.digitalsignatures/digitalsignature/signaturevalue/) { get; } | Hämtar en array av byte som representerar ett signaturvärde. |
+| [SignTime](../../aspose.words.digitalsignatures/digitalsignature/signtime/) { get; } | Hämtar tidpunkten då dokumentet signerades. |
+| [SubjectName](../../aspose.words.digitalsignatures/digitalsignature/subjectname/) { get; } | Returnerar det unika namnet för det certifikat som användes för att signera dokumentet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Returnerar en användarvänlig sträng som visar värdet på detta objekt. |
+| override [ToString](../../aspose.words.digitalsignatures/digitalsignature/tostring/)() | Returnerar en användarvänlig sträng som visar värdet för detta objekt. |
 
 ## Exempel
 
@@ -47,7 +47,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

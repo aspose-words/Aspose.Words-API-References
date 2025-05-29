@@ -3,14 +3,14 @@ title: StyleCollection.DefaultParagraphFormat
 linktitle: DefaultParagraphFormat
 articleTitle: DefaultParagraphFormat
 second_title: Aspose.Words für .NET
-description: StyleCollection DefaultParagraphFormat eigendom. Ruft die standardmäßige Absatzformatierung des Dokuments ab in C#.
+description: Entdecken Sie die StyleCollection-Eigenschaft DefaultParagraphFormat, um einfach auf die Standardabsatzformatierung Ihres Dokuments zuzugreifen und diese für eine bessere Lesbarkeit anzupassen.
 type: docs
 weight: 30
 url: /de/net/aspose.words/stylecollection/defaultparagraphformat/
 ---
 ## StyleCollection.DefaultParagraphFormat property
 
-Ruft die standardmäßige Absatzformatierung des Dokuments ab.
+Ruft die Standardabsatzformatierung des Dokuments ab.
 
 ```csharp
 public ParagraphFormat DefaultParagraphFormat { get; }
@@ -18,20 +18,20 @@ public ParagraphFormat DefaultParagraphFormat { get; }
 
 ## Bemerkungen
 
-Beachten Sie, dass dokumentweite Standardeinstellungen in Microsoft Word 2007 eingeführt wurden und in OOXML-Formaten vollständig unterstützt werden (Docx) only. Frühere Dokumentformate unterstützen die standardmäßige Absatzformatierung des Dokuments nicht.
+Beachten Sie, dass dokumentweite Standardeinstellungen in Microsoft Word 2007 eingeführt wurden und in OOXML-Formaten vollständig unterstützt werden (Docx) nur. Frühere Dokumentformate unterstützen die standardmäßige Absatzformatierung von Dokumenten nicht.
 
 ## Beispiele
 
-Zeigt, wie man der Stilsammlung eines Dokuments einen Stil hinzufügt.
+Zeigt, wie der Stilsammlung eines Dokuments ein Stil hinzugefügt wird.
 
 ```csharp
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Standardparameter für neue Stile festlegen, die wir später möglicherweise zu dieser Sammlung hinzufügen.
+// Legen Sie Standardparameter für neue Stile fest, die wir dieser Sammlung später hinzufügen können.
 styles.DefaultFont.Name = "Courier New";
-// Wenn wir einen Stil von „StyleType.Paragraph“ hinzufügen, wendet die Sammlung die Werte von an
-// seine „DefaultParagraphFormat“-Eigenschaft zur „ParagraphFormat“-Eigenschaft des Stils.
+// Wenn wir einen Stil vom Typ "StyleType.Paragraph" hinzufügen, wendet die Sammlung die Werte von
+// seine Eigenschaft „DefaultParagraphFormat“ zur Eigenschaft „ParagraphFormat“ des Stils.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
 // Fügen Sie einen Stil hinzu und überprüfen Sie dann, ob er die Standardeinstellungen hat.
 styles.Add(StyleType.Paragraph, "MyStyle");

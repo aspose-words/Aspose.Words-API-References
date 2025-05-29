@@ -3,9 +3,9 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words für .NET
-description: ListCollection GetListByListId methode. Ruft eine Liste anhand einer Listenkennung ab in C#.
+description: Rufen Sie Ihre gewünschte Liste mühelos mit der Methode GetListByListId ab. Greifen Sie mithilfe einer einfachen Listenkennung schnell auf Daten zu und steigern Sie so die Effizienz.
 type: docs
-weight: 70
+weight: 80
 url: /de/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -18,19 +18,19 @@ public List GetListByListId(int listId)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| listId | Int32 | Der Listenbezeichner. |
+| listId | Int32 | Die Listenkennung. |
 
 ### Rückgabewert
 
-Gibt das Listenobjekt zurück. Kehrt zurück`Null` wenn keine Liste mit der angegebenen Kennung gefunden wurde.
+Gibt das Listenobjekt zurück. Gibt zurück`null` wenn eine Liste mit der angegebenen Kennung nicht gefunden wurde.
 
 ## Bemerkungen
 
-Normalerweise müssen Sie diese Methode nicht verwenden. Meistens wenden Sie die Listenformatierung auf Absätze an, indem Sie einfach die festlegen[`List`](../../listformat/list/) property des[`ListFormat`](../../listformat/) Objekt.
+Normalerweise brauchen Sie diese Methode nicht. Meistens wenden Sie die Listenformatierung auf Absätze an, indem Sie einfach die[`List`](../../listformat/list/) Eigenschaft des[`ListFormat`](../../listformat/) Objekt.
 
 ## Beispiele
 
-Zeigt, wie Besitzerdokumenteigenschaften von Listen überprüft werden.
+Zeigt, wie die Eigentümerdokumenteigenschaften von Listen überprüft werden.
 
 ```csharp
 Document doc = new Document();

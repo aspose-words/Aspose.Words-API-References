@@ -2,8 +2,8 @@
 title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: BubbleSizeCollection Count mülk. Bu koleksiyondaki öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuzdaki öğelerin sayısını kolayca takip etmek için BubbleSizeCollection Count özelliğini keşfedin. Veri yönetiminizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/bubblesizecollection/count/

@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeHorizontally
 linktitle: ResizeHorizontally
 articleTitle: ResizeHorizontally
 second_title: Aspose.Words لـ .NET
-description: FieldIncludePicture ResizeHorizontally ملكية. الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة أفقيًا من المصدر في C#.
+description: اكتشف خاصية تغيير حجم الصورة أفقيًا لتتمكن من تعديل أبعاد الصورة بسهولة لعرض مثالي. حسّن صورك بكل سهولة!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-الحصول على أو تعيين ما إذا كان سيتم تغيير حجم الصورة أفقيًا من المصدر.
+يحصل على أو يحدد ما إذا كان سيتم تغيير حجم الصورة أفقيًا من المصدر.
 
 ```csharp
 public bool ResizeHorizontally { get; set; }
@@ -18,14 +18,14 @@ public bool ResizeHorizontally { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج الصور باستخدام حقلي الاستيراد والتضمين.
+يوضح كيفية إدراج الصور باستخدام حقول IMPORT وINCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
-// 1 - حقل التضمين:
+// فيما يلي نوعان متشابهان من الحقول يمكننا استخدامهما لعرض الصور المرتبطة من نظام الملفات المحلي.
+// 1 - حقل INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

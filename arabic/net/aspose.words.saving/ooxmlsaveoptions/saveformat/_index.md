@@ -3,14 +3,14 @@ title: OoxmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words لـ .NET
-description: OoxmlSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكونDocx DocmDotx Dotm أوFlatOpc  في C#.
+description: اكتشف خاصية SaveFormat في OoxmlSaveOptions لاختيار تنسيقات المستندات بسهولة مثل Docx، أو Docm، أو Dotx، أو Dotm، أو FlatOpc لحفظ سلس.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكونDocx ,DocmDotx ,Dotm أوFlatOpc .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. يمكن أن يكونDocx ،Docm ، Dotx ،Dotm أوFlatOpc .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,22 +18,22 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام به.
+يوضح كيفية تعيين مواصفات توافق OOXML للمستند المحفوظ للالتزام بها.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // إذا قمنا بتكوين خيارات التوافق لتتوافق مع Microsoft Word 2003،
-// إدراج صورة سيحدد شكلها باستخدام VML.
+// إدراج صورة سيؤدي إلى تحديد شكلها باستخدام VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // لا يدعم معيار OOXML "ISO/IEC 29500:2008" أشكال VML.
-// إذا قمنا بتعيين خاصية "الامتثال" لكائن SaveOptions على "OoxmlCompliance.Iso29500_2008_Strict"،
- // أي مستند نحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
+// إذا قمنا بتعيين خاصية "التوافق" لكائن SaveOptions إلى "OoxmlCompliance.Iso29500_2008_Strict"،
+ // أي مستند نقوم بحفظه أثناء تمرير هذا الكائن يجب أن يتبع هذا المعيار.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// يحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
+// تحدد مستندنا المحفوظ الشكل باستخدام DML للالتزام بمعيار OOXML "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

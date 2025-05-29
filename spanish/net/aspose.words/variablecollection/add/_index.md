@@ -3,7 +3,7 @@ title: VariableCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: VariableCollection Add método. Agrega una variable de documento a la colección en C#.
+description: Descubra cómo añadir variables de documento a su VariableCollection de forma eficiente con nuestra guía sencilla. ¡Optimice la gestión de sus datos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words/variablecollection/add/
@@ -18,7 +18,7 @@ public void Add(string name, string value)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| name | String | El nombre de la variable que se va a agregar, que no distingue entre mayúsculas y minúsculas. |
+| name | String | El nombre sin distinción entre mayúsculas y minúsculas de la variable que se agregará. |
 | value | String | El valor de la variable. El valor no puede ser`nulo`, si el valor es nulo, se utilizará una cadena vacía en su lugar. |
 
 ## Ejemplos
@@ -29,14 +29,14 @@ Muestra cómo trabajar con la colección de variables de un documento.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Cada documento tiene una colección de variables de par clave/valor, a las que podemos agregar elementos.
+// Cada documento tiene una colección de variables de pares clave/valor, a las que podemos agregar elementos.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// Podemos mostrar los valores de las variables en el cuerpo del documento usando campos DOCVARIABLE.
+// Podemos mostrar los valores de las variables en el cuerpo del documento utilizando campos DOCVARIABLE.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -44,10 +44,10 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// La asignación de valores a las claves existentes las actualizará.
+// Asignar valores a claves existentes las actualizará.
 variables.Add("Home address", "456 Queen St.");
 
-// Luego tendremos que actualizar los campos DOCVARIABLE para asegurarnos de que muestren un valor actualizado.
+Luego tendremos que actualizar los campos DOCVARIABLE para asegurarnos de que muestren un valor actualizado.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
@@ -63,12 +63,15 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Enumerar la colección de variables.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// Enumerar sobre la colección de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// A continuación se muestran tres formas de eliminar variables de documento de una colección.
+A continuación se muestran tres formas de eliminar variables de documento de una colección.
 // 1 - Por nombre:
 variables.Remove("City");
 
@@ -79,10 +82,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Borrar toda la colección de una vez:
+// 3 - Limpiar toda la colección a la vez:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Ver también

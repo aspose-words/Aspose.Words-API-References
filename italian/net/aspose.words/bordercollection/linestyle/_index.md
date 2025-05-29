@@ -3,7 +3,7 @@ title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
 second_title: Aspose.Words per .NET
-description: BorderCollection LineStyle proprietà. Ottiene o imposta lo stile del bordo in C#.
+description: Scopri la proprietà BorderCollection LineStyle per personalizzare il tuo design con stili di bordo flessibili. Migliora l'aspetto visivo del tuo progetto senza sforzo!
 type: docs
 weight: 80
 url: /it/net/aspose.words/bordercollection/linestyle/
@@ -18,13 +18,13 @@ public LineStyle LineStyle { get; set; }
 
 ## Osservazioni
 
-Restituisce lo stile del primo bordo della raccolta.
+Restituisce lo stile del primo bordo nella raccolta.
 
-Imposta lo stile di tutti i bordi della raccolta esclusi i bordi diagonali.
+Imposta lo stile di tutti i bordi nella raccolta, esclusi i bordi diagonali.
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

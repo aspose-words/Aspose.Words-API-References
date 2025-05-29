@@ -2,15 +2,15 @@
 title: PageSetup.BorderAlwaysInFront
 linktitle: BorderAlwaysInFront
 articleTitle: BorderAlwaysInFront
-second_title: Aspose.Words for .NET
-description: PageSetup BorderAlwaysInFront mülk. Sayfa kenarlığının kesişen metinlere ve nesnelere göre nereye konumlandırılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfa kenarlıklarını en iyi duruma getirmek, kesişen metinler ve nesneler için düzeni ve görünürlüğü geliştirmek amacıyla PageSetup BorderAlwaysInFront özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/pagesetup/borderalwaysinfront/
 ---
 ## PageSetup.BorderAlwaysInFront property
 
-Sayfa kenarlığının kesişen metinlere ve nesnelere göre nereye konumlandırılacağını belirtir.
+Sayfa kenarlığının kesişen metinlere ve nesnelere göre nerede konumlandırılacağını belirtir.
 
 ```csharp
 public bool BorderAlwaysInFront { get; set; }
@@ -18,7 +18,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ## Örnekler
 
-İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
+İlk sayfanın üst kısmına geniş mavi bantlı bir kenarlığın nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

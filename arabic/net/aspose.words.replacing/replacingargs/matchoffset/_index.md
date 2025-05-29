@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words لـ .NET
-description: ReplacingArgs MatchOffset ملكية. الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة في C#.
+description: اكتشف خاصية ReplacingArgs MatchOffset، واعثر بسهولة على موضع البداية المستند إلى الصفر للمطابقات في العقد لديك للتعامل مع البيانات بكفاءة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-الحصول على موضع البداية الصفري للمطابقة من بداية العقدة التي تحتوي على بداية المباراة.
+يحصل على موضع البداية القائم على الصفر للمباراة من بداية العقدة التي تحتوي على بداية المباراة.
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق خط مختلف على المحتوى الجديد عبر FindReplaceOptions.
+يوضح كيفية تطبيق خط مختلف على محتوى جديد عبر FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين خاصية "HighlightColor" على لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
+    // قم بتعيين خاصية "HighlightColor" إلى لون الخلفية الذي نريد تطبيقه على النص الناتج عن العملية.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// يستبدل مطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية العشرية.
-/// يحتفظ بسجل لكل بديل.
+/// استبدال تطابقات البحث والاستبدال الرقمية بمكافئاتها السداسية عشرية.
+/// يحتفظ بسجل لكل عملية استبدال.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

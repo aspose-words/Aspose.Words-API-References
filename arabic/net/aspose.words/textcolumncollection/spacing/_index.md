@@ -3,14 +3,14 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words لـ .NET
-description: TextColumnCollection Spacing ملكية. عندما تكون الأعمدة متباعدة بالتساوي يتم الحصول على مقدار المسافة بين كل عمود أو تعيينه بالنقاط في C#.
+description: اكتشف خاصية TextColumnCollection Spacing، وأدر مسافات الأعمدة بسهولة بالنقاط للحصول على تصميم أنيق واحترافي. حسّن تصميمك اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/textcolumncollection/spacing/
 ---
 ## TextColumnCollection.Spacing property
 
-عندما تكون الأعمدة متباعدة بالتساوي، يتم الحصول على مقدار المسافة بين كل عمود أو تعيينه بالنقاط.
+عندما تكون المسافة بين الأعمدة متساوية، يتم الحصول على مقدار المسافة بين كل عمود بالنقاط أو تعيينه.
 
 ```csharp
 public double Spacing { get; set; }
@@ -22,7 +22,7 @@ public double Spacing { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في القسم.
+يوضح كيفية إنشاء عدة أعمدة متباعدة بشكل متساوٍ في قسم.
 
 ```csharp
 Document doc = new Document();

@@ -3,9 +3,9 @@ title: ShapeBase.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words per .NET
-description: ShapeBase Right proprietà. Ottiene la posizione del bordo destro del blocco contenitore della forma in C#.
+description: Scopri la proprietà ShapeBase Right per accedere facilmente alla posizione del bordo destro del blocco contenitore della tua forma, per un controllo preciso del layout.
 type: docs
-weight: 460
+weight: 490
 url: /it/net/aspose.words.drawing/shapebase/right/
 ---
 ## ShapeBase.Right property
@@ -18,9 +18,9 @@ public double Right { get; }
 
 ## Osservazioni
 
-Per una forma di livello superiore, il valore è espresso in punti e relativo all'ancoraggio della forma.
+Per una forma di livello superiore, il valore è espresso in punti ed è relativo all'ancoraggio della forma.
 
-Per le forme in un gruppo, il valore è nello spazio delle coordinate e nelle unità del gruppo principale.
+Per le forme in un gruppo, il valore è espresso nello spazio di coordinate e nelle unità del gruppo padre.
 
 ## Esempi
 
@@ -34,13 +34,13 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configura la proprietà "RelativeHorizontalPosition" della forma per trattare il valore della proprietà "Left"
- // come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+ // come distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Imposta la distanza orizzontale della forma dal lato sinistro della pagina su 100.
 shape.Left = 100;
 
-// Utilizza la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+// Utilizzare la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80 pt sotto la parte superiore della pagina.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 

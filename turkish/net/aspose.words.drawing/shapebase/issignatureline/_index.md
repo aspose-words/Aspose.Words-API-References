@@ -2,15 +2,15 @@
 title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 articleTitle: IsSignatureLine
-second_title: Aspose.Words for .NET
-description: ShapeBase IsSignatureLine mülk. Şeklin bir olduğunu belirtirSignatureLine  C#'da.
+second_title: .NET için Aspose.Words
+description: Şekilleri SignatureLines olarak tanımlayan ve belge bütünlüğünü ve profesyonel sunumu artıran ShapeBase'in IsSignatureLine özelliğini keşfedin.
 type: docs
-weight: 340
+weight: 360
 url: /tr/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
 
-Şeklin bir olduğunu belirtir[`SignatureLine`](../../signatureline/) .
+Şeklin bir[`SignatureLine`](../../signatureline/) .
 
 ```csharp
 public bool IsSignatureLine { get; }
@@ -18,7 +18,7 @@ public bool IsSignatureLine { get; }
 
 ## Örnekler
 
-İmza için nasıl satır oluşturulacağını ve bunun belgeye nasıl ekleneceğini gösterir.
+İmza için bir satırın nasıl oluşturulacağını ve belgeye nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Görünümünü belirleyeceğimiz, imza çizgisi içeren bir şekil ekleyin
-// yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştirin.
-// Koordinatları sayfanın sağ alt köşesinden başlayan bir şekil eklersek,
-// şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Görünümünü belirleyeceğimiz bir imza satırı içerecek bir şekil ekleyin.
+// Yukarıda oluşturduğumuz "SignatureLineOptions" nesnesini kullanarak özelleştiriyoruz.
+// Sayfanın sağ alt köşesinden koordinatları çıkan bir şekil eklersek,
+// Şekli görünür hale getirmek için negatif x ve y koordinatlarını sağlamamız gerekecek.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayın.
+// İmza satırımızın özelliklerini Shape nesnesi aracılığıyla doğrulayalım.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

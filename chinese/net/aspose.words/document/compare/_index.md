@@ -2,15 +2,15 @@
 title: Document.Compare
 linktitle: Compare
 articleTitle: Compare
-second_title: 用于 .NET 的 Aspose.Words
-description: Document Compare 方法. 将此文档与另一个文档进行比较产生编辑和格式修订次数等更改Revision 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的文档比较工具轻松比较文档。快速识别编辑和格式更改，从而简化修订流程并增强协作。
 type: docs
-weight: 560
+weight: 600
 url: /zh/net/aspose.words/document/compare/
 ---
 ## Compare(*[Document](../), string, DateTime*) {#compare}
 
-将此文档与另一个文档进行比较，产生编辑和格式修订次数等更改[`Revision`](../../revision/).
+将此文档与另一个文档进行比较，得出编辑次数和格式修订的变化[`Revision`](../../revision/).
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -19,16 +19,16 @@ public void Compare(Document document, string author, DateTime dateTime)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Document | 要比较的文档。 |
-| author | String | 用于修订的作者姓名缩写。 |
+| author | String | 用于修订的作者姓名首字母。 |
 | dateTime | DateTime | 用于修订的日期和时间。 |
 
 ## 评论
 
-文件在比较之前不得有修订。
+文档在比较之前不得有修改。
 
 ## 例子
 
-展示如何比较文档。
+显示如何比较文档。
 
 ```csharp
 Document docOriginal = new Document();
@@ -39,11 +39,11 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// 将文档与修订版本进行比较将引发异常。
+// 将文档与修订版本进行比较将会引发异常。
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// 对比后，原文档将获得新的修订版
+// 比较后，原始文档将获得新的修订版本
 // 对于编辑文档中每个不同的元素。
 foreach (Revision r in docOriginal.Revisions)
 {
@@ -51,7 +51,7 @@ foreach (Revision r in docOriginal.Revisions)
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// 接受这些修订会将原始文档转换为编辑后的文档。
+// 接受这些修订将把原始文档转换为编辑后的文档。
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
@@ -67,7 +67,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
-将此文档与另一个文档进行比较，产生一些编辑和格式修订的更改[`Revision`](../../revision/). 允许使用指定比较选项[`CompareOptions`](../../../aspose.words.comparing/compareoptions/).
+将此文档与另一文档进行比较，产生许多编辑和格式修订[`Revision`](../../revision/). 允许使用指定比较选项[`CompareOptions`](../../../aspose.words.comparing/compareoptions/).
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -75,14 +75,14 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 
 ## 例子
 
-演示如何在进行比较时过滤特定类型的文档元素。
+展示如何在进行比较时过滤特定类型的文档元素。
 
 ```csharp
 // 创建原始文档并用各种元素填充它。
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
-// 使用尾注引用的段落文本：
+// 带有尾注引用的段落文本：
 builder.Writeln("Hello world! This is the first paragraph.");
 builder.InsertFootnote(FootnoteType.Endnote, "Original endnote text.");
 
@@ -108,11 +108,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// 标头：
+// 标题：
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// 创建文档的克隆并对克隆文档的每个元素执行快速编辑。
+// 创建我们文档的克隆并对克隆文档的每个元素执行快速编辑。
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -121,27 +121,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
-// 比较文档会为已编辑文档中的每个编辑创建修订。
-// CompareOptions 对象具有一系列可以抑制修订的标志
-// 在每种类型的元素上，有效地忽略它们的更改。
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// 比较文档会为编辑文档中的每个编辑创建修订。
+// CompareOptions 对象有一系列可以抑制修订的标志
+// 对每种类型的元素进行相应处理，有效地忽略它们的变化。
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### 也可以看看

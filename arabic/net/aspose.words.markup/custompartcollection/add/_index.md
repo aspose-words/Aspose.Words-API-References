@@ -3,14 +3,14 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: CustomPartCollection Add طريقة. إضافة عنصر إلى المجموعة في C#.
+description: قم بتعزيز مشروعك بسهولة باستخدام طريقة الإضافة CustomPartCollection—قم بإضافة العناصر بسرعة إلى مجموعتك لتحقيق التكامل السلس والكفاءة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.markup/custompartcollection/add/
 ---
 ## CustomPartCollection.Add method
 
-إضافة عنصر إلى المجموعة.
+يضيف عنصرًا إلى المجموعة.
 
 ```csharp
 public void Add(CustomPart part)
@@ -18,23 +18,23 @@ public void Add(CustomPart part)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| part | CustomPart | العنصر المراد إضافته. |
+| part | CustomPart | العنصر الذي يجب إضافته. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة العشوائية للمستند.
+يوضح كيفية الوصول إلى مجموعة الأجزاء المخصصة التعسفية للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// انسخ الجزء الثاني، ثم أضف النسخة إلى المجموعة.
+//استنساخ الجزء الثاني، ثم إضافة الاستنساخ إلى المجموعة.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// قم بتعداد المجموعة وطباعة كل جزء منها.
+// قم بإحصاء المجموعة وطباعة كل جزء منها.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
+//يمكننا إزالة العناصر من هذه المجموعة بشكل فردي، أو كلها مرة واحدة.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -3,16 +3,16 @@ title: NodeImporter Class
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words för .NET
-description: Aspose.Words.NodeImporter klass. Gör det möjligt att effektivt utföra upprepad import av noder från ett dokument till ett annat i C#.
+description: Överför dokumentnoder enkelt med Aspose.Words.NodeImporter. Effektivisera ditt arbetsflöde och förbättra dokumenthanteringens effektivitet idag!
 type: docs
-weight: 4210
+weight: 4900
 url: /sv/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-Gör det möjligt att effektivt utföra upprepad import av noder från ett dokument till ett annat.
+Möjliggör effektiv upprepad import av noder från ett dokument till ett annat.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeImporter
@@ -22,8 +22,8 @@ public class NodeImporter
 
 | namn | Beskrivning |
 | --- | --- |
-| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Initierar en ny instans av`NodeImporter` class. |
-| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Initierar en ny instans av`NodeImporter` class. |
+| [NodeImporter](nodeimporter/#constructor)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/)*) | Initierar en ny instans av`NodeImporter` klass. |
+| [NodeImporter](nodeimporter/#constructor_1)(*[DocumentBase](../documentbase/), [DocumentBase](../documentbase/), [ImportFormatMode](../importformatmode/), [ImportFormatOptions](../importformatoptions/)*) | Initierar en ny instans av`NodeImporter` klass. |
 
 ## Metoder
 
@@ -33,17 +33,17 @@ public class NodeImporter
 
 ## Anmärkningar
 
-Aspose.Words tillhandahåller funktionalitet för enkel kopiering och flyttning av fragments mellan Microsoft Word-dokument. Detta är känt som "importerande noder". Innan du kan infoga ett fragment från ett dokument till ett annat måste du "importera" det. Import skapar en djup klon av den ursprungliga noden, redo att infogas i destinationsdokumentet.
+Aspose.Words tillhandahåller funktioner för enkel kopiering och flyttning av fragment mellan Microsoft Word-dokument. Detta kallas "import av noder". Innan du kan infoga ett fragment från ett dokument till ett annat måste du "importera" det. Import skapar en djup klon av den ursprungliga noden, redo att infogas i destinationsdokumentet.
 
-Det enklaste sättet att importera en nod är att använda[`ImportNode`](../documentbase/importnode/) method tillhandahålls av[`DocumentBase`](../documentbase/) objekt.
+Det enklaste sättet att importera en nod är att använda[`ImportNode`](../documentbase/importnode/) metod tillhandahållen av[`DocumentBase`](../documentbase/) objekt.
 
-Men när du behöver importera noder från ett dokument till ett annat flera gånger, är det bättre att använda`NodeImporter` klass. De`NodeImporter` class gör det möjligt att minimera antalet stilar och listor som skapas i måldokumentet.
+Men när du behöver importera noder från ett dokument till ett annat flera gånger, är det bättre att använda`NodeImporter` klass. Den`NodeImporter` Klassen gör det möjligt att minimera antalet stilar och listor som skapas i destinationsdokumentet.
 
-Att kopiera eller flytta fragment från ett Microsoft Word-dokument till ett annat innebär ett antal tekniska utmaningar för Aspose.Words. I ett Word-dokument lagras stilar och listformatering centralt, separat från dokumentets text. Paragraferna och textserierna refererar bara till stilarna med interna unika identifierare.
+Att kopiera eller flytta fragment från ett Microsoft Word-dokument till ett annat innebär ett antal tekniska utmaningar för Aspose.Words. I ett Word-dokument lagras stilar och listformatering centralt, separat från dokumentets text. Styckena och textsekvenserna refererar endast till stilarna med interna unika identifierare.
 
-Utmaningarna uppstår från det faktum att stilar och listor är olika i olika dokument. För att till exempel kopiera ett stycke formaterat med stilen Rubrik 1 från ett dokument till ett annat måste ta hänsyn till ett antal saker: besluta om du ska kopiera stilen Rubrik 1 från källdokumentet till måldokumentet, klona stycket, uppdatera stycket cloned så att det hänvisar till den korrekta stilen Rubrik 1 i måldokumentet. Om stilen var tvungen att kopieras, alla stilar som den referenser (baserat på stil och nästa styckestil) bör analyseras och eventuellt kopieras också och så vidare. Liknande problem finns vid kopiering av punkt- eller numrerade stycken eftersom Microsoft Word lagrar listdefinitioner separat från text.
+Utmaningarna uppstår på grund av att formatmallar och listor skiljer sig åt i olika dokument. För att till exempel kopiera ett stycke formaterat med formatet Rubrik 1 från ett dokument till ett annat, måste ett antal saker beaktas: bestämma om formatet Rubrik 1 ska kopieras från källdokumentet till destinationsdokumentet, klona stycket, uppdatera det klonade stycket så att det refererar till rätt formatmall för Rubrik 1 i destinationsdokumentet. Om formatet måste kopieras bör alla formatmallar som det refererar till (baserat på formatmall och formatmallen för nästa stycke) analyseras och eventuellt kopieras också och så vidare. Liknande problem uppstår när man kopierar punktlistor eller numrerade stycken eftersom Microsoft Word lagrar listdefinitioner separat från text.
 
-De`NodeImporter`klass är som ett sammanhang, som innehåller "översättningstabellerna" under importen. Den översätter korrekt mellan stilar och listor i käll- och -destinationsdokumenten.
+De`NodeImporter`Klassen är som ett sammanhang som innehåller "översättningstabellerna" under importen. Den översätter korrekt mellan stilar och listor i käll- och destinationsdokumenten.
 
 ## Exempel
 
@@ -85,8 +85,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Slinga igenom alla noder på blocknivå i sektionens kropp,
-        // klona sedan och infoga varje nod som inte är det sista tomma stycket i ett avsnitt.
+        // Loopa igenom alla blocknivånoder i sektionens brödtext,
+        // klona och infoga sedan varje nod som inte är det sista tomma stycket i ett avsnitt.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

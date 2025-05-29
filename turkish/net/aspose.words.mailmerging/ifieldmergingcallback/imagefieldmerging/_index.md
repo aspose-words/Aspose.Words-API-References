@@ -2,15 +2,15 @@
 title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
-second_title: Aspose.Words for .NET
-description: IFieldMergingCallback ImageFieldMerging yöntem. Aspose.Words adresmektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words posta birleştirmede kusursuz resim ekleme için tasarlanmış IFieldMergingCallback'deki ImageFieldMerging yöntemini keşfedin. Belge otomasyonunuzu geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
 ---
 ## IFieldMergingCallback.ImageFieldMerging method
 
-Aspose.Words adres-mektup birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır.
+Aspose.Words posta birleştirme motoru birleştirme alanına bir resim eklemek üzereyken çağrılır.
 
 ```csharp
 public void ImageFieldMerging(ImageFieldMergingArgs args)
@@ -18,7 +18,7 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 
 ## Örnekler
 
-Veritabanı BLOB alanında saklanan görüntülerin bir rapora nasıl ekleneceğini gösterir.
+Bir veritabanı BLOB alanında saklanan görsellerin bir rapora nasıl ekleneceğini gösterir.
 
 ```csharp
 public void ImageFromBlob()
@@ -34,7 +34,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Tüm kayıtları aynı anda okuyacak modda olması gereken veri okuyucuyu açın.
+        // Tüm kayıtları aynı anda okuyan bir modda olması gereken veri okuyucusunu açın.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Hiçbir şey yapma.
+        // Hiçbir şey yapmayın.
     }
 
     /// <summary>
-    /// Adres-mektup birleştirme, belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
+    /// Bu, bir posta birleştirme işlemi belgede adında "Image:" etiketi bulunan bir MERGEFIELD ile karşılaştığında çağrılır.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

@@ -3,7 +3,7 @@ title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
 second_title: Aspose.Words pour .NET
-description: ShapeBase AnchorLocked propriété. Spécifie si lancre de la forme est verrouillée en C#.
+description: Découvrez la propriété ShapeBase AnchorLocked pour contrôler le verrouillage de l'ancrage des formes, améliorant ainsi la stabilité et la flexibilité de la conception de vos projets.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -26,7 +26,7 @@ Cette propriété affecte le comportement de l'ancre de la forme dans Microsoft 
 
 ## Exemples
 
-Montre comment verrouiller ou déverrouiller l’ancre de paragraphe d’une forme.
+Montre comment verrouiller ou déverrouiller l'ancre de paragraphe d'une forme.
 
 ```csharp
 Document doc = new Document();
@@ -41,13 +41,13 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Définit la propriété "AnchorLocked" sur "true" pour empêcher l'ancrage de la forme
+// Définissez la propriété « AnchorLocked » sur « true » pour empêcher l'ancrage de la forme
 // du déplacement lors du déplacement de la forme dans Microsoft Word.
-// Fixe la propriété "AnchorLocked" à "false" pour autoriser tout mouvement de la forme
-// pour déplacer également son ancre vers tout autre paragraphe dont la forme se termine à proximité.
+// Définissez la propriété « AnchorLocked » sur « false » pour autoriser tout mouvement de la forme
+// pour déplacer également son ancre vers tout autre paragraphe dont la forme se trouve à proximité.
 shape.AnchorLocked = anchorLocked;
 
-// Si la forme n'a pas de symbole d'ancre visible à sa gauche,
+// Si la forme n'a pas de symbole d'ancrage visible à sa gauche,
 // nous devrons activer les ancres visibles via "Options" -> "Affichage" -> "Ancres d'objet".
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```

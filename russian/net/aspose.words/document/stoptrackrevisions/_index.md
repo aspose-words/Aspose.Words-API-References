@@ -3,14 +3,14 @@ title: Document.StopTrackRevisions
 linktitle: StopTrackRevisions
 articleTitle: StopTrackRevisions
 second_title: Aspose.Words для .NET
-description: Document StopTrackRevisions метод. Останавливает автоматическую маркировку изменений документа как редакций на С#.
+description: Узнайте, как использовать метод StopTrackRevisions для предотвращения автоматической маркировки изменений документа, что повысит эффективность редактирования и ясность документа.
 type: docs
-weight: 720
+weight: 770
 url: /ru/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
 
-Останавливает автоматическую маркировку изменений документа как редакций.
+Останавливает автоматическую маркировку изменений документа как ревизий.
 
 ```csharp
 public void StopTrackRevisions()
@@ -24,7 +24,7 @@ public void StopTrackRevisions()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Редактирование документа обычно не считается редакцией, пока мы не начнем его отслеживать.
+// Редактирование документа обычно не считается правкой, пока мы не начнем отслеживать его.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -37,9 +37,9 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// Прекратить отслеживание редакций, чтобы будущие изменения не считались редакциями.
+// Прекратить отслеживать изменения, чтобы не учитывать будущие правки как изменения.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
@@ -47,7 +47,7 @@ Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
 // Создание ревизий дает им дату и время операции.
-// Мы можем отключить это, передав DateTime.MinValue, когда начинаем отслеживать версии.
+// Мы можем отключить это, передав DateTime.MinValue, когда начинаем отслеживать изменения.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -56,9 +56,9 @@ Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Мы можем принять/отклонить эти изменения программно
-// путем вызова таких методов, как Document.AcceptAllRevisions, или метода Accept каждой ревизии.
-// В Microsoft Word мы можем обработать их вручную через «Просмотр» ->> "Изменения".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// вызывая такие методы, как Document.AcceptAllRevisions, или метод Accept каждой ревизии.
+// В Microsoft Word мы можем обработать их вручную через «Рецензирование» -> «Изменения».
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Смотрите также

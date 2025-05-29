@@ -3,14 +3,14 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words för .NET
-description: OoxmlSaveOptions byggare. Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx format i C#.
+description: Upptäck konstruktorn OoxmlSaveOptions för att enkelt spara dokument i Docx-format. Lås upp sömlös dokumenthantering och förbättrad kompatibilitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iDocx format.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,14 +18,14 @@ public OoxmlSaveOptions()
 
 ## Exempel
 
-Visar hur man ställer in en OOXML-efterlevnadsspecifikation för ett sparat dokument att följa.
+Visar hur man ställer in en OOXML-efterlevnadsspecifikation som ett sparat dokument ska följa.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Om vi konfigurerar kompatibilitetsalternativ för att följa Microsoft Word 2003,
-// att infoga en bild kommer att definiera dess form med VML.
+// Om vi konfigurerar kompatibilitetsalternativ så att de följer Microsoft Word 2003,
+// att infoga en bild definierar dess form med hjälp av VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Vårt sparade dokument definierar formen med DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
+// Vårt sparade dokument definierar formen med hjälp av DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initierar en ny instans av denna klass som kan användas för att spara ett dokument iDocx , Docm ,Dotx ,Dotm or FlatOpc format.
+Initierar en ny instans av den här klassen som kan användas för att spara ett dokument iDocx , Docm ,Dotx ,Dotm eller FlatOpc format.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -76,11 +76,11 @@ Visar hur man stöder äldre kontrolltecken vid konvertering till .docx.
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // När vi sparar dokumentet i ett OOXML-format kan vi skapa ett OoxmlSaveOptions-objekt
-// och skicka det sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
-// Ställ in egenskapen "KeepLegacyControlChars" till "true" för att bevara
-// det äldre tecknet "ShortDateTime" när du sparar.
-// Ställ in egenskapen "KeepLegacyControlChars" till "false" för att ta bort
-// det äldre tecknet "ShortDateTime" från utdatadokumentet.
+// och skicka den sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
+// Sätt egenskapen "KeepLegacyControlChars" till "true" för att bevara
+// det gamla tecknet "ShortDateTime" vid sparning.
+// Sätt egenskapen "KeepLegacyControlChars" till "false" för att ta bort
+// det gamla tecknet "ShortDateTime" från utdatadokumentet.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

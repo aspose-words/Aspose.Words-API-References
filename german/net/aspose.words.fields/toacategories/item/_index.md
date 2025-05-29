@@ -3,14 +3,14 @@ title: ToaCategories.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: ToaCategories Item eigendom. Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest in C#.
+description: Verwalten Sie Ihre ToaCategories-Elemente mühelos. Legen Sie Kategorieüberschriften einfach fest und rufen Sie sie nach Nummer ab, um eine optimierte Organisation und Effizienz zu gewährleisten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/toacategories/item/
 ---
 ## ToaCategories indexer
 
-Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest.
+Ruft die Kategorieüberschrift anhand der Kategorienummer ab oder legt sie fest.
 
 ```csharp
 public string this[int number] { get; set; }
@@ -18,7 +18,7 @@ public string this[int number] { get; set; }
 
 ## Beispiele
 
-Zeigt, wie eine Reihe von Kategorien für TOA-Felder angegeben werden.
+Zeigt, wie ein Satz von Kategorien für TOA-Felder angegeben wird.
 
 ```csharp
 Document doc = new Document();
@@ -42,14 +42,14 @@ Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 // 2 TOA-Felder einfügen. TOA-Felder erstellen einen Eintrag für jedes TA-Feld im Dokument.
 // Verwenden Sie den Schalter „\c“, um den Index einer Kategorie aus unserer Sammlung auszuwählen.
 // Mit diesem Schalter nimmt ein TOA-Feld nur Einträge aus TA-Feldern auf, die
-// habe auch einen „\c“-Schalter mit einem passenden Kategorieindex. Jedes TOA-Feld wird ebenfalls angezeigt
-// der Name der Kategorie, auf die der Schalter „\c“ zeigt.
+// haben auch einen "\c"-Schalter mit einem passenden Kategorieindex. Jedes TOA-Feld zeigt auch
+// der Name der Kategorie, auf die der Schalter "\c" verweist.
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
-// TOA-Einträge in 2 Kategorien einfügen. Unser erstes TOA-Feld erhält einen Eintrag,
-// aus dem zweiten TA-Feld, dessen Schalter „\c“ ebenfalls auf die erste Kategorie zeigt.
+// TOA-Einträge in zwei Kategorien einfügen. Unser erstes TOA-Feld erhält einen Eintrag,
+// aus dem zweiten TA-Feld, dessen "\c"-Schalter ebenfalls auf die erste Kategorie zeigt.
 // Das zweite TOA-Feld enthält zwei Einträge aus den anderen beiden TA-Feldern.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);

@@ -3,14 +3,14 @@ title: FieldSymbol.DontAffectsLineSpacing
 linktitle: DontAffectsLineSpacing
 articleTitle: DontAffectsLineSpacing
 second_title: Aspose.Words для .NET
-description: FieldSymbol DontAffectsLineSpacing свойство. Получает или задает значение влияет ли символ полученный полем на межстрочный интервал абзаца на С#.
+description: Узнайте, как свойство FieldSymbol DontAffectsLineSpacing управляет влиянием символов на интервал между строками абзаца. Оптимизируйте форматирование документа сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldsymbol/dontaffectslinespacing/
 ---
 ## FieldSymbol.DontAffectsLineSpacing property
 
-Получает или задает значение, влияет ли символ, полученный полем, на межстрочный интервал абзаца.
+Возвращает или задает, влияет ли символ, извлеченный полем, на межстрочный интервал абзаца.
 
 ```csharp
 public bool DontAffectsLineSpacing { get; set; }
@@ -24,8 +24,8 @@ public bool DontAffectsLineSpacing { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены три способа использования поля СИМВОЛ для отображения одного символа.
-// 1 — добавьте поле СИМВОЛ, в котором отображается символ © (авторское право), указанный кодом символа ANSI:
+// Ниже приведены три способа использования поля SYMBOL для отображения одного символа.
+// 1 - Добавить поле СИМВОЛ, которое отображает символ © (авторское право), заданный кодом символа ANSI:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // Код символа ANSI «U+00A9» или «169» в целочисленной форме зарезервирован для символа авторского права.
@@ -36,26 +36,26 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2. Добавьте поле СИМВОЛ, в котором отображается символ ∞ (Бесконечность), и измените его внешний вид:
+// 2 - Добавьте поле СИМВОЛ, отображающее символ ∞ (бесконечность), и измените его внешний вид:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// В Юникоде символ бесконечности занимает код «221E».
+// В Unicode символ бесконечности занимает код «221E».
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Изменяем шрифт нашего символа после использования карты символов Windows
-// чтобы гарантировать, что шрифт может представлять этот символ.
+// Изменим шрифт нашего символа после использования таблицы символов Windows
+// чтобы убедиться, что шрифт может представить этот символ.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Мы можем установить этот флаг для высоких символов, чтобы они не сдвигали вниз остальной текст в своей строке.
+// Мы можем установить этот флаг для высоких символов, чтобы они не давили на остальной текст в своей строке.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - Добавьте поле СИМВОЛ, в котором отображается символ あ,
+// 3 - Добавить поле СИМВОЛ, которое отображает символ あ,
 // со шрифтом, поддерживающим кодовую страницу Shift-JIS (Windows-932):
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";

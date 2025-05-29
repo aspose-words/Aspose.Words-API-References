@@ -3,14 +3,14 @@ title: DocumentBuilder.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder RowFormat propriété. Renvoie un objet qui représente les propriétés actuelles de formatage des lignes du tableau en C#.
+description: Explorez la propriété RowFormat de DocumentBuilder pour accéder facilement à la mise en forme des lignes de tableau et la personnaliser pour une conception et une présentation améliorées du document.
 type: docs
 weight: 180
 url: /fr/net/aspose.words/documentbuilder/rowformat/
 ---
 ## DocumentBuilder.RowFormat property
 
-Renvoie un objet qui représente les propriétés actuelles de formatage des lignes du tableau.
+Renvoie un objet qui représente les propriétés de formatage des lignes de tableau actuelles.
 
 ```csharp
 public RowFormat RowFormat { get; }
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## Exemples
 
-Montre comment formater les lignes avec un générateur de documents.
+Montre comment formater des lignes avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Démarre une deuxième ligne, puis configure sa hauteur. Le constructeur appliquera ces paramètres à
-// sa ligne actuelle, ainsi que toutes les nouvelles lignes créées par la suite.
+// Commencez une deuxième ligne, puis configurez sa hauteur. Le générateur appliquera ces paramètres à
+// sa ligne actuelle, ainsi que toutes les nouvelles lignes qu'elle crée par la suite.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La première ligne n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
+// La première ligne n'a pas été affectée par la reconfiguration du remplissage et conserve toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Montre comment créer un tableau 2x2 formaté.
+Montre comment créer un tableau formaté 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -80,7 +80,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
+// Les lignes et cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -100,7 +100,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Définition des options de formatage de tableau pour un générateur de documents
-// les appliquera à chaque ligne et cellule que nous ajouterons avec.
+// les appliquera à chaque ligne et cellule que nous ajouterons avec lui.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -123,8 +123,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer le formatage l'appliquera à la cellule actuelle,
-// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
+// La modification de la mise en forme l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons avec le générateur par la suite.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -136,7 +136,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
+// Augmenter la hauteur de la ligne pour s'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

@@ -3,14 +3,14 @@ title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
 second_title: Aspose.Words per .NET
-description: IDocumentReaderPlugin Read metodo. Legge i dati dal flusso specificato nel fileDocument istanza in C#.
+description: Leggi senza sforzo i dati nella tua istanza di Document con il metodo Read di IDocumentReaderPlugin. Migliora l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words/idocumentreaderplugin/read/
 ---
 ## IDocumentReaderPlugin.Read method
 
-Legge i dati dal flusso specificato nel file[`Document`](../../document/) istanza.
+Legge i dati dal flusso specificato nel[`Document`](../../document/) istanza.
 
 ```csharp
 public void Read(Stream src, LoadOptions loadOptions, Document document)
@@ -18,9 +18,9 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| src | Stream | Il flusso di origine da cui leggere il documento. |
-| loadOptions | LoadOptions | Un'ulteriore opzione di caricamento per caricare il documento. |
-| document | Document | L'istanza del[`Document`](../../document/) classe in cui leggere i dati. Se l'istanza contiene del contenuto, verrà sovrascritto dai dati del flusso di origine |
+| src | Stream | Flusso sorgente da cui leggere il documento. |
+| loadOptions | LoadOptions | Ulteriori opzioni di caricamento per caricare il documento. |
+| document | Document | L'istanza del[`Document`](../../document/) classe su cui leggere i dati. Se l'istanza contiene del contenuto, verrà sovrascritta dai dati provenienti dal flusso sorgente |
 
 ### Guarda anche
 

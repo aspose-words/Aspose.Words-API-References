@@ -3,14 +3,14 @@ title: ComparisonExpression.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words لـ .NET
-description: ComparisonExpression RightExpression ملكية. الحصول على التعبير الصحيح في C#.
+description: اكتشف خاصية التعبير الصحيح في ComparisonExpression. استرجاع التعبير الصحيح بسهولة لتحسين تحليل البيانات وتحسين الأداء.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/comparisonexpression/rightexpression/
 ---
 ## ComparisonExpression.RightExpression property
 
-الحصول على التعبير الصحيح.
+يحصل على التعبير الصحيح.
 
 ```csharp
 public string RightExpression { get; }
@@ -18,7 +18,7 @@ public string RightExpression { get; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF و COMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // رموز الحقول التي نستخدمها في هذا المثال:
-    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
-    // 2. " قارن {0} {1} {2}".
+    // 1. "إذا {0} {1} {2} \"حجة صحيحة\" \"حجة خاطئة\" ".
+    // 2. " قارن {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
+    // إذا كانت "comparisonResult" غير محددة، نقوم بإنشاء "ComparisonEvaluationResult" بسلسلة، بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -50,13 +50,18 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// تقييم تعبيرات المقارنة لـ FieldIf و FieldCompare.
+/// تقييم تعبيرات المقارنة لـ FieldIf وFieldCompare.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

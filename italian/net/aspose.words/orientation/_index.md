@@ -3,9 +3,9 @@ title: Orientation Enum
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Orientation enum. Specifica lorientamento della pagina in C#.
+description: Scopri l'enum Aspose.Words.Orientation per un controllo impeccabile dell'orientamento della pagina. Migliora la formattazione dei tuoi documenti con facilità e precisione!
 type: docs
-weight: 4320
+weight: 5050
 url: /it/net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -25,13 +25,13 @@ public enum Orientation
 
 ## Esempi
 
-Mostra come applicare e ripristinare le impostazioni di impostazione della pagina nelle sezioni di un documento.
+Mostra come applicare e ripristinare le impostazioni di impostazione della pagina alle sezioni di un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiunge testo.
+// Modifica le proprietà di impostazione della pagina per la sezione corrente del builder e aggiungi del testo.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
@@ -43,7 +43,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Possiamo ripristinare le proprietà di impostazione della pagina ai valori predefiniti utilizzando il metodo "ClearFormatting".
+// Possiamo ripristinare i valori predefiniti delle proprietà di impostazione della pagina utilizzando il metodo "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

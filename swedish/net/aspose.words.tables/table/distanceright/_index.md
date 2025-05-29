@@ -3,7 +3,7 @@ title: Table.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
 second_title: Aspose.Words för .NET
-description: Table DistanceRight fast egendom. Hämtar eller ställer in avståndet mellan tabellens högra sida och den omgivande texten i punkter i C#.
+description: Justera egenskapen Table DistanceRight för att kontrollera avståndet mellan tabellen och omgivande text i punkter, vilket förbättrar layout och läsbarhet.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.tables/table/distanceright/
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Ställ in avståndet mellan tabell och omgivande text.
+// Ange avstånd mellan tabell och omgivande text.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

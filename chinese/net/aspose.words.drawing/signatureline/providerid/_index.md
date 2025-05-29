@@ -2,15 +2,15 @@
 title: SignatureLine.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
-second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLine ProviderId 财产. 获取或设置此签名行的签名提供程序标识符 默认值为00000000000000000000000000000000 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 SignatureLine ProviderId 属性，轻松管理签名提供商标识符。使用我们的默认设置，简化您的工作流程。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property
 
-获取或设置此签名行的签名提供程序标识符。 默认值为“{00000000-0000-0000-0000-000000000000}”。
+获取或设置此签名行的签名提供商标识符。 默认值为“{00000000-0000-0000-0000-000000000000}”。
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,15 +18,15 @@ public Guid ProviderId { get; set; }
 
 ## 评论
 
-加密服务提供程序 (CSP) 是一个独立的软件模块，实际上执行用于身份验证、编码和加密的 加密算法。 MS Office 为其默认签名提供程序保留值 {00000000-0000-0000-0000-000000000000}。
+加密服务提供程序 (CSP) 是一个独立的软件模块，它实际上执行用于身份验证、编码和加密的加密算法。MS Office 为其默认签名提供程序保留了 {00000000-0000-0000-0000-00000000000} 的值。
 
-额外安装的提供程序的 GUID 应从提供程序随附的文档中获取。
+应从提供程序附带的文档中获取附加安装的提供程序的 GUID。
 
-另外，所有已安装的加密提供程序都在Windows注册表中枚举。 可以在以下路径中找到：HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider。 有一个键名“CP Service UUID”，对应于签名提供者的 GUID。
+此外，所有已安装的加密提供程序都枚举在 Windows 注册表中。 它可以在以下路径中找到：HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider。 有一个名为“CP Service UUID”的键值，它对应于签名提供程序的 GUID。
 
 ## 例子
 
-演示如何使用个人证书和签名行签署文档。
+展示如何使用个人证书和签名行签署文件。
 
 ```csharp
 Document doc = new Document();
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性是否都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

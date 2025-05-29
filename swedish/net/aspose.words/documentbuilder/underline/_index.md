@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words för .NET
-description: DocumentBuilder Underline fast egendom. Hämtar/ställer in understrykningstyp för det aktuella teckensnittet i C#.
+description: Upptäck DocumentBuilders egenskap Understrykning för att enkelt anpassa teckensnitt. Förbättra dina dokument med mångsidiga understrykningsalternativ för ett professionellt utseende.
 type: docs
 weight: 190
 url: /sv/net/aspose.words/documentbuilder/underline/
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## Exempel
 
-Visar hur man formaterar text som infogats av en dokumentbyggare.
+Visar hur man formaterar text som infogas av en dokumentbyggare.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Byggaren tillämpar formatering på sitt nuvarande stycke och all ny text som lagts till efteråt.
+// Skaparen formaterar sitt aktuella stycke och all ny text som läggs till efteråt.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

@@ -3,16 +3,16 @@ title: SpecialChar Class
 linktitle: SpecialChar
 articleTitle: SpecialChar
 second_title: Aspose.Words för .NET
-description: Aspose.Words.SpecialChar klass. Basklass för specialtecken i dokumentet i C#.
+description: Upptäck klassen Aspose.Words.SpecialChar, ditt viktiga verktyg för att hantera specialtecken i dokument. Förbättra din dokumenthantering idag!
 type: docs
-weight: 6100
+weight: 6950
 url: /sv/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Basklass för specialtecken i dokumentet.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class SpecialChar : Inline
@@ -24,42 +24,42 @@ public class SpecialChar : Inline
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [Font](../../aspose.words/inline/font/) { get; } | Ger tillgång till teckensnittsformateringen för detta objekt. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returnerar`Sann` om denna nod kan innehålla andra noder. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om formateringen av objektet ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [Font](../../aspose.words/inline/font/) { get; } | Ger åtkomst till teckensnittsformateringen för detta objekt. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Returer`sann` om denna nod kan innehålla andra noder. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Returnerar sant om det här objektet togs bort i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Returnerar sant om objektets formatering ändrades i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | ReturnerarSpecialChar . |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Returer`sann` om det här objektet flyttades (raderades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Returer`sann` om det här objektet flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | ReturerSpecialChar . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../paragraph/) av denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/) objekt som representerar den del av ett dokument som finns i denna nod. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../range/)objekt som representerar den del av ett dokument som finns i denna nod. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepterar en besökare. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
+| override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Tar emot en besökare. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | Får specialtecknet som denna nod representerar. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | Hämtar specialtecknet som denna nod representerar. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
-Ett Microsoft Word-dokument kan innehålla ett antal specialtecken som representerar fält, formulärfält, former, OLE-objekt, fotnoter etc. För listan med specialtecken, se[`ControlChar`](../controlchar/).
+Ett Microsoft Word-dokument kan innehålla ett antal specialtecken som representerar fält, formulärfält, former, OLE-objekt, fotnoter etc. För en lista över specialtecken, se[`ControlChar`](../controlchar/).
 
-`SpecialChar`är en inline-nod och kan bara vara ett barn till[`Paragraph`](../paragraph/).
+`SpecialChar` är en inline-nod och kan bara vara underordnad[`Paragraph`](../paragraph/).
 
-`SpecialChar` char används som basklass för mer specifika classes som representerar specialtecken som Aspose.Words ger programmatisk åtkomst för. `SpecialChar` klass används också själv för att representera specialtecken som Aspose.Words inte ger detaljerad programmatisk åtkomst för.
+`SpecialChar` char används som basklass för mer specifika klasser som representerar specialtecken som Aspose.Words ger programmatisk åtkomst för. Den`SpecialChar`Klassen används också i sig för att representera specialtecken för vilket Aspose.Words inte tillhandahåller detaljerad programmatisk åtkomst.
 
 ## Exempel
 
@@ -72,7 +72,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Nedan finns tre typer av fält som kan acceptera en dokumentbesökare,
-    // som gör det möjligt för den att besöka den accepterande noden och sedan korsa dess underordnade noder på ett djupt-först sätt.
+    // vilket gör att den kan besöka den accepterande noden och sedan korsa dess undernoder på ett djup-först-sätt.
     // 1 - Styckenod:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -126,7 +126,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -137,7 +137,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en Paragraph-nod påträffas i dokumentet.
+    /// Anropas när en styckenod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -148,7 +148,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när ett formulärfält påträffas i dokumentet.
+    /// Anropas när ett FormField påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -159,7 +159,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en GroupShape påträffas i dokumentet.
+    /// Anropas när en gruppform påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -170,7 +170,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en Shape påträffas i dokumentet.
+    /// Anropas när en form påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -203,10 +203,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en specialtecken påträffas i dokumentet.
+    /// Anropas när ett SpecialCharacter påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -214,13 +216,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas vid besök av en Tabellnod avslutas i dokumentet.
+    /// Anropas när besöket till en tabellnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Innehållet i tabellceller kan ha den dolda innehållsflaggan, men tabellerna själva kan inte.
-        // Om denna tabell inte hade något annat än dolt innehåll, skulle den här besökaren ha tagit bort allt,
-        // och det skulle inte finnas några barnnoder kvar.
+        // Innehållet i tabellceller kan ha flaggan för dolt innehåll, men tabellerna själva kan inte det.
+        // Om den här tabellen bara hade dolt innehåll, skulle besökaren ha tagit bort allt,
+        // och det skulle inte finnas några undernoder kvar.
         // Således kan vi också behandla själva tabellen som dolt innehåll och ta bort det.
         // Tabeller som är tomma men inte har dolt innehåll kommer att ha celler med tomma stycken inuti,
         // som den här besökaren inte kommer att ta bort.
@@ -231,7 +233,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besök av en cellnod avslutas i dokumentet.
+    /// Anropas när besöket av en cellnod avslutas i dokumentet.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -242,7 +244,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besök av en radnod avslutas i dokumentet.
+    /// Anropas när besöket på en radnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

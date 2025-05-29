@@ -3,14 +3,14 @@ title: Document.GrammarChecked
 linktitle: GrammarChecked
 articleTitle: GrammarChecked
 second_title: Aspose.Words für .NET
-description: Document GrammarChecked eigendom. Gibt zurückWAHR wenn das Dokument auf Grammatik überprüft wurde in C#.
+description: Sichern Sie die Qualität Ihres Dokuments mit der Funktion „GrammarChecked“. Finden Sie heraus, ob Ihr Text grammatikalisch geprüft ist, um ein professionelles Ergebnis zu erzielen.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words/document/grammarchecked/
 ---
 ## Document.GrammarChecked property
 
-Gibt zurück`WAHR` wenn das Dokument auf Grammatik überprüft wurde.
+Rückgaben`WAHR` ob das Dokument auf Grammatik geprüft wurde.
 
 ```csharp
 public bool GrammarChecked { get; set; }
@@ -30,9 +30,9 @@ Document doc = new Document();
 // Die Zeichenfolge mit Rechtschreibfehlern.
 doc.FirstSection.Body.FirstParagraph.Runs.Add(new Run(doc, "The speeling in this documentz is all broked."));
 
- // Rechtschreib-/Grammatikprüfung startet, wenn wir Eigenschaften auf „false“ setzen.
-// Wir können alle Fehler in Microsoft Word über Überprüfen -> sehen. Rechtschreibung & Grammatik.
-// Beachten Sie, dass Microsoft Word die Grammatik-/Rechtschreibprüfung für DOC- und RTF-Dokumentformate nicht automatisch startet.
+// Die Rechtschreib-/Grammatikprüfung beginnt, wenn wir die Eigenschaften auf „false“ setzen.
+// Wir können alle Fehler in Microsoft Word über Überprüfen -> Rechtschreibung und Grammatik sehen.
+// Beachten Sie, dass Microsoft Word die Grammatik-/Rechtschreibprüfung für die Dokumentformate DOC und RTF nicht automatisch startet.
 doc.SpellingChecked = checkSpellingGrammar;
 doc.GrammarChecked = checkSpellingGrammar;
 

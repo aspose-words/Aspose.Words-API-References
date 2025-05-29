@@ -3,7 +3,7 @@ title: ImageSize.WidthPixels
 linktitle: WidthPixels
 articleTitle: WidthPixels
 second_title: Aspose.Words para .NET
-description: ImageSize WidthPixels propiedad. Obtiene el ancho de la imagen en píxeles en C#.
+description: Descubra la propiedad ImageSize WidthPixels para recuperar fácilmente el ancho de píxeles de sus imágenes, mejorando la gestión y optimización de sus imágenes.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/imagesize/widthpixels/
@@ -29,7 +29,7 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Si la forma contiene una imagen, su propiedad ImageData será válida,
 // y contendrá un objeto ImageSize.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // El objeto ImageSize contiene información de solo lectura sobre la imagen dentro de la forma.
 Assert.AreEqual(400, imageSize.HeightPixels);
@@ -39,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Podemos basar el tamaño de la forma en el tamaño de su imagen para evitar estirar la imagen.
+//Podemos basar el tamaño de la forma en el tamaño de su imagen para evitar estirar la imagen.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

@@ -3,14 +3,14 @@ title: SignatureLine.Instructions
 linktitle: Instructions
 articleTitle: Instructions
 second_title: Aspose.Words لـ .NET
-description: SignatureLine Instructions ملكية. الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذاDefaultInstructionsتم تعيينها. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
+description: اكتشف كيفية تخصيص تعليمات المُوقِّع باستخدام خاصية SignatureLine. حسّن تجربة التوقيع بإضافة إرشادات واضحة ومُخصَّصة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-الحصول على أو تعيين التعليمات للموقّع التي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions/)تم تعيينها. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
+يحصل على التعليمات أو يعينها للموقع والتي يتم عرضها عند توقيع سطر التوقيع. يتم تجاهل هذه الخاصية إذا[`DefaultInstructions`](../defaultinstructions/) تم تعيين. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }
@@ -35,11 +35,11 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// قم بإدراج شكل يحتوي على سطر التوقيع، وسنقوم بمظهره
-// التخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
-// إذا قمنا بإدراج شكل تقع إحداثياته في الركن الأيمن السفلي من الصفحة،
-// سنحتاج إلى توفير إحداثيات x وy السالبة لعرض الشكل.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// أدخل شكلاً سيحتوي على خط توقيع، والذي سنحدد مظهره
+// قم بالتخصيص باستخدام كائن "SignatureLineOptions" الذي أنشأناه أعلاه.
+// إذا قمنا بإدراج شكل تنشأ إحداثياته في الزاوية اليمنى السفلية من الصفحة،
+// سوف نحتاج إلى توفير إحداثيات x و y سلبية لإظهار الشكل.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);

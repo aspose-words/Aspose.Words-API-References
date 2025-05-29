@@ -3,7 +3,7 @@ title: Frameset
 linktitle: Frameset
 articleTitle: Frameset
 second_title: Aspose.Words لـ .NET
-description: Frameset البناء. Default_Constructor في C#.
+description: أنشئ إطارات مذهلة بسهولة مع مُنشئ الإطارات متعدد الاستخدامات. استمتع بتخصيص سلس وارتقِ بتصميم موقعك الإلكتروني اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.framesets/frameset/frameset/

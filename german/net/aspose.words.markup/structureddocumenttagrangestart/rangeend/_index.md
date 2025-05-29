@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart RangeEnd eigendom. Gibt das Ende des Bereichs an wenn derStructuredDocumentTag ist ein strukturiertes DokumentTag mit Bereich. Andernfalls wird zurückgegebenNull  in C#.
+description: Erkunden Sie die Eigenschaften StructuredDocumentTagRangeStart und RangeEnd, um Dokument-Tag-Grenzen zu definieren und so Ihr strukturiertes Dokumentmanagement zu verbessern.
 type: docs
 weight: 130
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Gibt das Ende des Bereichs an, wenn der[`StructuredDocumentTag`](../../structureddocumenttag/) ist ein strukturiertes Dokument-Tag mit Bereich. Andernfalls wird zurückgegeben`Null` .
+Gibt das Ende des Bereichs an, wenn der[`StructuredDocumentTag`](../../structureddocumenttag/) ist ein strukturiertes Dokument-Tag. Andernfalls wird zurückgegeben`null` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
@@ -18,7 +18,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

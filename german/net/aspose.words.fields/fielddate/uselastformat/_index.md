@@ -3,14 +3,14 @@ title: FieldDate.UseLastFormat
 linktitle: UseLastFormat
 articleTitle: UseLastFormat
 second_title: Aspose.Words für .NET
-description: FieldDate UseLastFormat eigendom. Ruft ab oder legt fest ob beim Einfügen eines neuen DATEFelds ein Format verwendet werden soll das zuletzt von der HostingAnwendung verwendet wurde in C#.
+description: Entdecken Sie, wie die FieldDate UseLastFormat-Eigenschaft Ihren Arbeitsablauf verbessert, indem sie das zuletzt verwendete Datumsformat für eine nahtlose Integration in Ihre Anwendungen beibehält.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fielddate/uselastformat/
 ---
 ## FieldDate.UseLastFormat property
 
-Ruft ab oder legt fest, ob beim Einfügen eines neuen DATE-Felds ein Format verwendet werden soll, das zuletzt von der Hosting-Anwendung verwendet wurde.
+Ruft ab oder legt fest, ob beim Einfügen eines neuen DATE-Felds ein zuletzt von der Hostanwendung verwendetes Format verwendet werden soll.
 
 ```csharp
 public bool UseLastFormat { get; set; }
@@ -18,14 +18,14 @@ public bool UseLastFormat { get; set; }
 
 ## Beispiele
 
-Zeigt, wie DATE-Felder verwendet werden, um Daten gemäß verschiedenen Kalenderarten anzuzeigen.
+Zeigt, wie DATE-Felder verwendet werden, um Daten entsprechend unterschiedlicher Kalendertypen anzuzeigen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Wenn wir möchten, dass der Text im Dokument immer das richtige Datum anzeigt, können wir ein DATE-Feld verwenden.
-// Unten sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld zur Anzeige eines Datums verwenden kann.
+// Unten sind drei Arten von Kulturkalendern aufgeführt, die ein DATE-Feld zum Anzeigen eines Datums verwenden kann.
 // 1 - Islamischer Mondkalender:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
@@ -44,8 +44,8 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
 builder.Writeln();
 
-// Ein DATE-Feld einfügen und seinen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten festlegen.
-// In Microsoft Word ist der Typ der zuletzt im Einfügen -> verwendete Typ. Text -> Dialogfeld „Datum und Uhrzeit“.
+// Fügen Sie ein DATE-Feld ein und legen Sie dessen Kalendertyp auf den zuletzt von der Hostanwendung verwendeten fest.
+// In Microsoft Word ist der Typ der zuletzt im Dialogfeld Einfügen -> Text -> Datum und Uhrzeit verwendete.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
 Assert.AreEqual(" DATE  \\l", field.GetFieldCode());

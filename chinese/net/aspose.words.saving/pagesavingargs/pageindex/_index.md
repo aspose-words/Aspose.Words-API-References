@@ -2,8 +2,8 @@
 title: PageSavingArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSavingArgs PageIndex 财产. 当前页面索引 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageSavingArgs 的 PageIndex 属性，实现高效的页面管理。通过精确的当前页面跟踪优化您的导航。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -18,7 +18,7 @@ public int PageIndex { get; }
 
 ## 例子
 
-演示如何使用回调将文档逐页保存为 HTML。
+展示如何使用回调将文档逐页保存为 HTML。
 
 ```csharp
 public void PageFileNames()
@@ -37,7 +37,7 @@ public void PageFileNames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // 我们将把这个文档中的每个页面保存到本地文件系统中的一个单独的 HTML 文件中。
+    // 我们将把该文档中的每个页面保存到本地文件系统中单独的 HTML 文件中。
     // 设置一个回调，允许我们命名每个输出 HTML 文档。
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
@@ -50,7 +50,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// 将所有页面保存到其中指定的文件和目录中。
+/// 将所有页面保存到指定的文件和目录中。
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -58,8 +58,8 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // 以下是指定 Aspose.Words 保存文档每一页的位置的两种方法。
-        // 1 - 设置输出页面文件的文件名：
+        // 以下是两种指定 Aspose.Words 保存文档每一页的位置的方法。
+        // 1 - 为输出页面文件设置文件名：
         args.PageFileName = outFileName;
 
         // 2 - 为输出页面文件创建自定义流：

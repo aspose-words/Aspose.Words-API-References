@@ -3,7 +3,7 @@ title: CustomXmlPart
 linktitle: CustomXmlPart
 articleTitle: CustomXmlPart
 second_title: Aspose.Words per .NET
-description: CustomXmlPart costruttore. Default_Costruttore in C#.
+description: Esplora il costruttore CustomXmlPart per un'integrazione perfetta. Scopri come il costruttore predefinito migliora la tua esperienza di personalizzazione XML.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/customxmlpart/customxmlpart/

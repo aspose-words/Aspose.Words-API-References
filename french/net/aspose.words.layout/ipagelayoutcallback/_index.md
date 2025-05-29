@@ -3,14 +3,14 @@ title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Layout.IPageLayoutCallback interface. Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de la construction et du rendu du modèle de mise en page en C#.
+description: Personnalisez la mise en page de votre document avec l'interface Aspose.Words.Layout.IPageLayoutCallback. Améliorez le rendu avec vos propres méthodes pour des résultats optimaux.
 type: docs
-weight: 3310
+weight: 3760
 url: /fr/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée lors de la construction et du rendu du modèle de mise en page.
+Implémentez cette interface si vous souhaitez que votre propre méthode personnalisée soit appelée pendant la construction et le rendu du modèle de mise en page.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -20,15 +20,15 @@ public interface IPageLayoutCallback
 
 | Nom | La description |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Ceci est appelé pour informer de la construction de la mise en page et de la progression du rendu. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Ceci est appelé pour notifier la progression de la construction de la mise en page et du rendu. |
 
 ## Remarques
 
-L'utilisation principale de cette interface est de permettre au code d'application d'abandonner le processus de construction.
+L'utilisation principale de cette interface est de permettre au code d'application d'interrompre le processus de construction.
 
-Il est possible de créer un modèle de mise en page pour quelques pages seulement au début du document, puis d'abandonner le processus et de restituer uniquement ce qui a déjà été construit.
+Il est possible de créer un modèle de mise en page pour seulement quelques pages au début du document, puis d'interrompre le processus et de restituer uniquement ce qui a déjà été créé.
 
-Notez cependant que les résultats du rendu peuvent ne pas correspondre à ce qui serait rendu pour chaque page si le processus était terminé.
+Notez cependant que les résultats de rendu peuvent ne pas correspondre à ce qui serait rendu pour chaque page si le processus était terminé.
 
 Cette technique peut ne pas fonctionner pour tous les documents ou peut échouer complètement.
 
@@ -53,7 +53,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons un reflow de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule Class
 linktitle: FontConfigSubstitutionRule
 articleTitle: FontConfigSubstitutionRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontConfigSubstitutionRule klas. SchriftartkonfigurationsErsetzungsregel in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.FontConfigSubstitutionRule für nahtloses Schriftmanagement und -anpassung in Ihren Dokumenten. Verbessern Sie noch heute Ihren Textstil!
 type: docs
-weight: 2890
+weight: 3300
 url: /de/net/aspose.words.fonts/fontconfigsubstitutionrule/
 ---
 ## FontConfigSubstitutionRule class
 
-Schriftartkonfigurations-Ersetzungsregel.
+Regel zur Ersetzung der Schriftartkonfiguration.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -29,11 +29,11 @@ public class FontConfigSubstitutionRule : FontSubstitutionRule
 | Name | Beschreibung |
 | --- | --- |
 | [IsFontConfigAvailable](../../aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/)() | Überprüfen Sie, ob das Dienstprogramm „fontconfig“ verfügbar ist oder nicht. |
-| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Setzt den Cache der Ergebnisse des Fontconfig-Aufrufs zurück. |
+| [ResetCache](../../aspose.words.fonts/fontconfigsubstitutionrule/resetcache/)() | Setzt den Cache der Fontconfig-Aufrufergebnisse zurück. |
 
 ## Bemerkungen
 
-Diese Regel verwendet das Dienstprogramm „fontconfig“ auf Linux-Plattformen (und anderen Unix-ähnlichen Plattformen), um die Substitution abzurufen, wenn die Originalschrift nicht verfügbar ist.
+Diese Regel verwendet das Dienstprogramm fontconfig auf Linux-Plattformen (und anderen Unix-ähnlichen Plattformen), um die Ersetzung zu erhalten, wenn die Originalschriftart nicht verfügbar ist.
 
 Wenn das Dienstprogramm „fontconfig“ nicht verfügbar ist, wird diese Regel ignoriert.
 

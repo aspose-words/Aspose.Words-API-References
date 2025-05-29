@@ -3,14 +3,14 @@ title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
 second_title: Aspose.Words für .NET
-description: ImageSavingArgs IsImageAvailable eigendom. Gibt zurückWAHR ob das aktuelle Bild für den Export verfügbar ist in C#.
+description: Überprüfen Sie mit der Eigenschaft IsImageAvailable in ImageSavingArgs, ob ein Bild zum Export bereit ist. Sorgen Sie für reibungsloses Bildmanagement und Effizienz!
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/imagesavingargs/isimageavailable/
 ---
 ## ImageSavingArgs.IsImageAvailable property
 
-Gibt zurück`WAHR` ob das aktuelle Bild für den Export verfügbar ist.
+Rückgaben`WAHR` ob das aktuelle Bild zum Export verfügbar ist.
 
 ```csharp
 public bool IsImageAvailable { get; }
@@ -18,9 +18,9 @@ public bool IsImageAvailable { get; }
 
 ## Bemerkungen
 
-Einige Bilder im Dokument können beispielsweise nicht verfügbar sein, weil image verlinkt ist und der Link nicht zugänglich ist oder nicht auf ein gültiges Bild verweist. In diesem Fall exportiert Aspose.Words ein Symbol mit einem roten Kreuz. Diese Eigenschaft gibt zurück.`WAHR` wenn das Originalbild verfügbar ist; kehrt zurück`FALSCH`Wenn das ursprüngliche -Bild nicht verfügbar ist, wird ein „Kein Bild“-Symbol zum Speichern angeboten.
+Einige Bilder im Dokument sind möglicherweise nicht verfügbar, beispielsweise weil das Bild verknüpft ist und der Link nicht zugänglich ist oder nicht auf ein gültiges Bild verweist. In diesem Fall exportiert Aspose.Words ein Symbol mit einem roten Kreuz. Diese Eigenschaft gibt zurück.`WAHR` wenn das Originalbild verfügbar ist; gibt zurück`FALSCH`wenn das ursprüngliche -Bild nicht verfügbar ist, wird zum Speichern ein Symbol „Kein Bild“ angeboten.
 
-Beim Speichern einer Gruppenform oder einer Form, die kein Bild erfordert, ist diese Eigenschaft immer vorhanden`WAHR`.
+Beim Speichern einer Gruppenform oder einer Form, die kein Bild benötigt, ist diese Eigenschaft immer`WAHR`.
 
 ## Beispiele
 

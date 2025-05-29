@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words per .NET
-description: CustomPart Data proprietà. Contiene i dati di questa parte personalizzata in C#.
+description: Esplora i dati CustomPart. Accedi a informazioni dettagliate sui tuoi componenti personalizzati per una maggiore precisione ed efficienza nei tuoi progetti.
 type: docs
 weight: 30
 url: /it/net/aspose.words.markup/custompart/data/
@@ -20,7 +20,7 @@ public byte[] Data { get; set; }
 
 Questa proprietà è applicabile solo quando[`IsExternal`](../isexternal/) È`falso`.
 
-Il valore predefinito è un array di byte vuoto. Il valore non può essere`nullo`.
+Il valore predefinito è un array di byte vuoto. Il valore non può essere`null`.
 
 ## Esempi
 
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Possiamo rimuovere elementi da questa raccolta individualmente o tutti in una volta.
+// Possiamo rimuovere gli elementi da questa raccolta singolarmente o tutti in una volta.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

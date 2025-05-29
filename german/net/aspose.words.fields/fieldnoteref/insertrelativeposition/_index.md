@@ -3,14 +3,14 @@ title: FieldNoteRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words für .NET
-description: FieldNoteRef InsertRelativePosition eigendom. Ruft ab oder legt fest ob eine relative Position des mit einem Lesezeichen versehenen Absatzes eingefügt werden soll in C#.
+description: Entdecken Sie die InsertRelativePosition-Eigenschaft von FieldNoteRef. Verwalten Sie mit Lesezeichen versehene Absätze ganz einfach, indem Sie relative Positionen für eine verbesserte Dokumentnavigation festlegen.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldnoteref/insertrelativeposition/
 ---
 ## FieldNoteRef.InsertRelativePosition property
 
-Ruft ab oder legt fest, ob eine relative Position des mit einem Lesezeichen versehenen Absatzes eingefügt werden soll.
+Ruft ab oder legt fest, ob eine relative Position des mit Lesezeichen versehenen Absatzes eingefügt werden soll.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -18,7 +18,7 @@ public bool InsertRelativePosition { get; set; }
 
 ## Beispiele
 
-Zeigt das Einfügen von NOTEREF-Feldern und das Ändern ihres Erscheinungsbilds an.
+Zeigt, wie NOTEREF-Felder eingefügt und deren Erscheinungsbild geändert werden.
 
 ```csharp
 public void FieldNoteRef()
@@ -26,21 +26,21 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Erstellen Sie ein Lesezeichen mit einer Fußnote, auf die das NOTEREF-Feld verweist.
+    // Erstellen Sie ein Lesezeichen mit einer Fußnote, auf die das Feld NOTEREF verweist.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
     // Dieses NOTEREF-Feld zeigt die Nummer der Fußnote innerhalb des referenzierten Lesezeichens an.
-    // Durch Festlegen der Eigenschaft „InsertHyperlink“ können wir zum Lesezeichen springen, indem wir in Microsoft Word bei gedrückter Strg-Taste auf das Feld klicken.
+    // Durch Festlegen der InsertHyperlink-Eigenschaft können wir zum Lesezeichen springen, indem wir Strg + Klicken auf das Feld in Microsoft Word gedrückt halten.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // Bei Verwendung des \p-Flags zeigt das Feld nach der Fußnotennummer auch die Position des Lesezeichens relativ zum Feld an.
-    // Lesezeichen1 befindet sich über diesem Feld und enthält die Fußnote Nummer 1, sodass das Ergebnis bei der Aktualisierung „1 oben“ lautet.
+    // Bei Verwendung des Flags \p zeigt das Feld nach der Fußnotennummer auch die Position des Lesezeichens relativ zum Feld an.
+    // „Lesezeichen1“ steht über diesem Feld und enthält die Fußnote Nummer 1, daher lautet das Ergebnis beim Update „1 darüber“.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Lesezeichen2 befindet sich unter diesem Feld und enthält die Fußnote Nummer 2, daher wird im Feld „2 unten“ angezeigt.
-    // Das Flag \f sorgt dafür, dass die Nummer 2 im gleichen Format wie die Fußnotennummer im eigentlichen Text erscheint.
+    // „Lesezeichen2“ befindet sich unter diesem Feld und enthält die Fußnote Nummer 2, daher wird im Feld „2 unten“ angezeigt.
+    // Das Flag \f sorgt dafür, dass die Zahl 2 im gleichen Format wie die Fußnotennummernbezeichnung im eigentlichen Text angezeigt wird.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// Verwendet einen Dokument-Builder, um ein NOTEREF-Feld mit angegebenen Eigenschaften einzufügen.
+/// Verwendet einen Dokumentgenerator, um ein NOTEREF-Feld mit angegebenen Eigenschaften einzufügen.
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -70,7 +70,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// Verwendet einen Dokumentersteller, um ein benanntes Lesezeichen mit einer Fußnote am Ende einzufügen.
+/// Verwendet einen Dokumentgenerator, um ein benanntes Lesezeichen mit einer Fußnote am Ende einzufügen.
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

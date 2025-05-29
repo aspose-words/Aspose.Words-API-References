@@ -3,7 +3,7 @@ title: FieldPageRef
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
 second_title: Aspose.Words لـ .NET
-description: FieldPageRef البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldPageRef، الحل الأمثل لمراجعة الحقول بكفاءة في البرمجة. بسّط عملية التطوير لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldpageref/fieldpageref/

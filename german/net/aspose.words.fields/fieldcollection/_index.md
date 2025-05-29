@@ -3,9 +3,9 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldCollection klas. Eine Sammlung vonField Objekte die die Felder im angegebenen Bereich darstellen in C#.
+description: Entdecken Sie Aspose.Words.FieldCollection, eine leistungsstarke Klasse zum Verwalten von Feldobjekten innerhalb angegebener Dokumentbereiche, die Ihre Dokumentautomatisierung verbessert.
 type: docs
-weight: 1690
+weight: 2100
 url: /de/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
@@ -36,11 +36,11 @@ public class FieldCollection : IEnumerable<Field>
 
 ## Bemerkungen
 
-Eine Instanz dieser Sammlung iteriert Felder, die zu Beginn in den angegebenen Bereich fallen.
+Eine Instanz dieser Sammlung iteriert Felder, die innerhalb des angegebenen Bereichs liegen.
 
-Der`FieldCollection` Die Sammlung besitzt nicht die darin enthaltenen Felder, sondern ist lediglich eine Auswahl von Feldern.
+Der`FieldCollection` Die Sammlung besitzt nicht die Felder, die sie enthält, sondern ist lediglich eine Auswahl von Feldern.
 
-Der`FieldCollection` Die Sammlung ist „live“, d. h. Änderungen an den untergeordneten Elementen des Knotens object , aus dem sie erstellt wurde, werden sofort in den von zurückgegebenen Feldern widergespiegelt`FieldCollection` Eigenschaften und Methoden.
+Der`FieldCollection` Die Sammlung ist "live", d. h. Änderungen an den untergeordneten Elementen des Knotens object , aus dem sie erstellt wurde, werden sofort in den von der`FieldCollection` Eigenschaften und Methoden.
 
 ## Beispiele
 
@@ -62,21 +62,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Im Folgenden finden Sie vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung.
-// 1 – Ein Feld abrufen, um sich selbst zu entfernen:
+// Unten sind vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung aufgeführt.
+// 1 - Ein Feld dazu bringen, sich selbst zu entfernen:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 – Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
+// 2 – Lassen Sie die Sammlung ein Feld entfernen, das wir an ihre Entfernungsmethode übergeben:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 – Ein Feld aus einer Sammlung an einem Index entfernen:
+// 3 – Entfernen Sie ein Feld aus einer Sammlung an einem Index:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 – Alle Felder auf einmal aus der Sammlung entfernen:
+// 4 – Entfernen Sie alle Felder auf einmal aus der Sammlung:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -101,8 +101,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

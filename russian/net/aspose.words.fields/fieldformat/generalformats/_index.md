@@ -3,14 +3,14 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words для .NET
-description: FieldFormat GeneralFormats свойство. Получает коллекцию общих форматов которые применяются к числовым текстовым или любым результатам поля. Соответствует переключателям  на С#.
+description: Откройте для себя свойство FieldFormat GeneralFormats, предлагающее универсальную коллекцию числовых текстовых форматов для улучшения представления данных и результатов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Получает коллекцию общих форматов, которые применяются к числовым, текстовым или любым результатам поля. Соответствует переключателям \*.
+Получает коллекцию общих форматов, которые применяются к числовому, текстовому или любому результату поля. Соответствует переключателям \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -24,7 +24,7 @@ public GeneralFormatCollection GeneralFormats { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения формата.
+// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения форматирования.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Мы можем удалить наши форматы, чтобы вернуть результат поля в исходную форму.
+// Мы можем удалить наши форматы, чтобы вернуть результат поля к исходному виду.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

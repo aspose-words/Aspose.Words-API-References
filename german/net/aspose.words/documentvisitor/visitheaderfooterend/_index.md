@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitHeaderFooterEnd methode. Wird aufgerufen wenn die Aufzählung einer Kopf oder Fußzeile in einem Abschnitt beendet wurde in C#.
+description: Entdecken Sie die DocumentVisitor-Methode VisitHeaderFooterEnd, die für die effiziente Verwaltung der Kopf- und Fußzeilenaufzählung in Ihren Dokumenten unerlässlich ist.
 type: docs
 weight: 280
 url: /de/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt beendet wurde.
+Wird aufgerufen, wenn die Aufzählung einer Kopf- oder Fußzeile in einem Abschnitt beendet ist.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -48,7 +48,7 @@ public void HeaderFooterToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen HeaderFooter-Knoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -98,7 +98,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

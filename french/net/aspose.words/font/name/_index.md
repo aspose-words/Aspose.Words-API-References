@@ -3,7 +3,7 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: Font Name propriété. Obtient ou définit le nom de la police en C#.
+description: Découvrez la propriété Nom de police pour personnaliser et définir facilement vos styles de police, améliorant ainsi l'attrait et la lisibilité de votre conception.
 type: docs
 weight: 230
 url: /fr/net/aspose.words/font/name/
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Remarques
 
-Lors de l'obtention, revient[`NameAscii`](../nameascii/).
+Lors de l'obtention, les retours[`NameAscii`](../nameascii/).
 
-Lors du réglage, définit[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) et[`NameOther`](../nameother/) à la valeur spécifiée.
+Lors du réglage, ensembles[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) et[`NameOther`](../nameother/) à la valeur spécifiée.
 
 ## Exemples
 
-Montre comment formater une séquence de texte à l’aide de sa propriété font.
+Montre comment formater une série de texte à l'aide de sa propriété de police.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

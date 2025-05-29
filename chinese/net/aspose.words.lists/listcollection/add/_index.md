@@ -2,8 +2,8 @@
 title: ListCollection.Add
 linktitle: Add
 articleTitle: Add
-second_title: 用于 .NET 的 Aspose.Words
-description: ListCollection Add 方法. 根据预定义模板创建新列表并将其添加到文档中的列表集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ListCollection Add 方法如何从模板创建自定义列表，从而增强文档的组织性和效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.lists/listcollection/add/
@@ -26,13 +26,13 @@ public List Add(ListTemplate listTemplate)
 
 ## 评论
 
-Aspose.Words 列表模板对应于 Microsoft Word 2003 中“项目符号和编号”对话框中的 21 个列表模板 available 。
+Aspose.Words 列表模板对应于 Microsoft Word 2003 中项目符号和编号对话框中的 21 个可用列表模板 。
 
 使用此方法创建的所有列表都有 9 个列表级别。
 
 ## 例子
 
-演示如何通过将新的列表格式应用于段落集合来创建列表。
+展示如何通过将新列表格式应用于段落集合来创建列表。
 
 ```csharp
 Document doc = new Document();
@@ -44,20 +44,20 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
-List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
-演示如何通过复制列表来重新开始列表中的编号。
+展示如何通过复制列表重新开始列表中的编号。
 
 ```csharp
 Document doc = new Document();
@@ -65,13 +65,13 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其第一列表级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其第一个列表级别。
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// 将我们的列表应用于某些段落。
+// 将我们的列表应用到一些段落。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -81,7 +81,7 @@ builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
 // 我们可以将现有列表的副本添加到文档的列表集合中
-// 创建一个类似的列表而不对原始列表进行更改。
+// 创建类似的列表而不更改原始列表。
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
@@ -107,8 +107,8 @@ Assert.False(builder.ListFormat.IsListItem);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档生成器创建的两种类型的列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 以下是我们可以使用文档构建器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -126,8 +126,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
-// 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+// 此列表将在每个段落前应用缩进和项目符号（“•”）。
+// 此列表的更深级别将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -136,7 +136,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“列表”标志来禁用列表格式，以免将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -156,7 +156,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
-创建引用列表样式的新列表并将其添加到文档中的列表集合中。
+创建一个引用列表样式的新列表并将其添加到文档中的列表集合中。
 
 ```csharp
 public List Add(Style listStyle)
@@ -172,11 +172,11 @@ public List Add(Style listStyle)
 
 ## 评论
 
-新创建的列表引用列表样式。如果更改 list 样式的属性，则会反映在列表的属性中。反之亦然，如果更改列表的properties ，它会反映在列表样式的属性中。
+新创建的列表引用了列表样式。如果您更改了 list 样式的属性，则会反映在列表的属性中。反之，如果您更改了列表的 properties 属性，则会反映在列表样式的属性中。
 
 ## 例子
 
-演示如何创建列表样式并在文档中使用它。
+展示如何创建列表样式并在文档中使用它。
 
 ```csharp
 Document doc = new Document();
@@ -184,8 +184,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 我们可以在样式中包含整个 List 对象。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 我们可以在一种样式中包含整个列表对象。
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -214,7 +214,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// 添加我们的列表将格式化的一些列表项。
+// 添加一些我们的列表将格式化的列表项。
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

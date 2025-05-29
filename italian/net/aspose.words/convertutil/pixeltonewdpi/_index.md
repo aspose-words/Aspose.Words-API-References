@@ -3,14 +3,14 @@ title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
 second_title: Aspose.Words per .NET
-description: ConvertUtil PixelToNewDpi metodo. Converte i pixel da una risoluzione allaltra in C#.
+description: Trasforma le risoluzioni in pixel senza sforzo con il metodo PixelToNewDpi di ConvertUtil. Ottieni la massima qualità e precisione delle immagini per i tuoi progetti.
 type: docs
 weight: 30
 url: /it/net/aspose.words/convertutil/pixeltonewdpi/
 ---
 ## ConvertUtil.PixelToNewDpi method
 
-Converte i pixel da una risoluzione all'altra.
+Converte i pixel da una risoluzione a un'altra.
 
 ```csharp
 public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
@@ -19,18 +19,18 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | pixels | Double | Il valore da convertire. |
-| oldDpi | Double | La risoluzione dpi (punti per pollice) corrente. |
+| oldDpi | Double | Risoluzione dpi (punti per pollice) corrente. |
 | newDpi | Double | La nuova risoluzione dpi (punti per pollice). |
 
 ## Esempi
 
-Mostra come utilizzare i punti di conversione in pixel con risoluzione predefinita e personalizzata.
+Mostra come usare la conversione dei punti in pixel con risoluzione predefinita e personalizzata.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definisce la dimensione del margine superiore di questa sezione in pixel, secondo un DPI personalizzato.
+// Definisci la dimensione del margine superiore di questa sezione in pixel, in base a un DPI personalizzato.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -38,7 +38,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Al DPI predefinito di 96, un pixel equivale a 0,75 punti.
+// Con il DPI predefinito di 96, un pixel equivale a 0,75 punti.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

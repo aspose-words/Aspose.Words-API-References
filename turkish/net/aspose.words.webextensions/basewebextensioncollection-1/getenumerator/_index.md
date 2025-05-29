@@ -2,15 +2,15 @@
 title: BaseWebExtensionCollection1.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: BaseWebExtensionCollection GetEnumerator yöntem. Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonlar arasında kolayca yineleme yapmak, geliştirme verimliliğinizi ve kod yönetiminizi artırmak için BaseWebExtensionCollection GetEnumerator metodunu keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.webextensions/basewebextensioncollection-1/getenumerator/
 ---
 ## BaseWebExtensionCollection&lt;T&gt;.GetEnumerator method
 
-Bir koleksiyonda yineleme yapabilen bir numaralandırıcıyı döndürür.
+Bir koleksiyonda yineleme yapabilen bir numaralandırıcı döndürür.
 
 ```csharp
 public IEnumerator<T> GetEnumerator()
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Belgenin web uzantısının tüm özelliklerini yazdırın.
+// Belgenin web uzantısının tüm özelliklerini yazdır.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {

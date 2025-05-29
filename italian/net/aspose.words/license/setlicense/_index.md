@@ -3,14 +3,14 @@ title: License.SetLicense
 linktitle: SetLicense
 articleTitle: SetLicense
 second_title: Aspose.Words per .NET
-description: License SetLicense metodo. Concede in licenza il componente in C#.
+description: Ottieni la licenza dei tuoi componenti senza sforzo con il nostro metodo SetLicense. Sblocca tutte le funzionalità e aumenta il potenziale del tuo progetto oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words/license/setlicense/
 ---
 ## SetLicense(*string*) {#setlicense_1}
 
-Concede in licenza il componente.
+Concede la licenza del componente.
 
 ```csharp
 public void SetLicense(string licenseName)
@@ -18,23 +18,23 @@ public void SetLicense(string licenseName)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| licenseName | String | Può essere un nome file completo o breve oppure il nome di una risorsa incorporata. Utilizzare una stringa vuota per passare alla modalità di valutazione. |
+| licenseName | String | Può essere un nome di file completo o breve oppure il nome di una risorsa incorporata. Utilizzare una stringa vuota per passare alla modalità di valutazione. |
 
 ## Osservazioni
 
-Tenta di trovare la licenza nelle seguenti posizioni:
+Prova a trovare la licenza nelle seguenti posizioni:
 
 1. Percorso esplicito.
 
-2. La cartella che contiene l'assieme del componente Aspose.
+2. La cartella che contiene l'assemblaggio del componente Aspose.
 
 3. La cartella che contiene l'assembly chiamante del client.
 
-4. La cartella che contiene l'assembly della voce (avvio).
+4. La cartella che contiene l'assembly di ingresso (avvio).
 
 5. Una risorsa incorporata nell'assembly chiamante del client.
 
-**Nota:**In .NET Compact Framework, tenta di trovare la licenza solo in queste posizioni:
+**Nota:**In .NET Compact Framework, prova a trovare la licenza solo in queste posizioni:
 
 1. Percorso esplicito.
 
@@ -51,11 +51,11 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Crea una copia del nostro file di licenza nella cartella binaries della nostra applicazione.
+// Creiamo una copia del nostro file di licenza nella cartella binari della nostra applicazione.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Se passiamo il nome di un file senza percorso,
+// Se passiamo il nome di un file senza un percorso,
 // SetLicense cercherà questo file in diverse posizioni del file system locale.
 // Una di queste posizioni sarà la cartella "bin", che contiene una copia del nostro file di licenza.
 license.SetLicense("Aspose.Words.NET.lic");
@@ -71,7 +71,7 @@ license.SetLicense("Aspose.Words.NET.lic");
 
 ## SetLicense(*Stream*) {#setlicense}
 
-Concede in licenza il componente.
+Concede la licenza del componente.
 
 ```csharp
 public void SetLicense(Stream stream)
@@ -83,7 +83,7 @@ public void SetLicense(Stream stream)
 
 ## Osservazioni
 
-Utilizza questo metodo per caricare una licenza da uno stream.
+Utilizzare questo metodo per caricare una licenza da un flusso.
 
 ## Esempi
 

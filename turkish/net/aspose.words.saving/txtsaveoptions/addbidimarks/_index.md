@@ -2,15 +2,15 @@
 title: TxtSaveOptions.AddBidiMarks
 linktitle: AddBidiMarks
 articleTitle: AddBidiMarks
-second_title: Aspose.Words for .NET
-description: TxtSaveOptions AddBidiMarks mülk. Düz metin biçiminde dışa aktarırken her BiDi çalıştırmadan önce çift yönlü işaretlerin eklenip eklenmeyeceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptions AddBidiMarks özelliğinin, daha iyi okunabilirlik ve biçimlendirme için çift yönlü işaretler ekleyerek düz metin dışa aktarımlarını nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/txtsaveoptions/addbidimarks/
 ---
 ## TxtSaveOptions.AddBidiMarks property
 
-Düz metin biçiminde dışa aktarırken her BiDi çalıştırmadan önce çift yönlü işaretlerin eklenip eklenmeyeceğini belirtir.
+Düz metin biçiminde dışa aktarırken her BiDi çalışmasından önce çift yönlü işaretlerin eklenip eklenmeyeceğini belirtir.
 
 Varsayılan değer:`YANLIŞ`.
 
@@ -20,7 +20,7 @@ public bool AddBidiMarks { get; set; }
 
 ## Örnekler
 
-Metindeki her çift yönlü Çalıştırma'dan önce 'SAĞDAN SOL İŞARETİ' (U+200F) Unicode Karakterinin nasıl ekleneceğini gösterir.
+Her iki yönlü metin çalıştırmadan önce Unicode Karakteri 'SAĞDAN SOL İŞARETİ'nin (U+200F) nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,14 +31,14 @@ builder.ParagraphFormat.Bidi = true;
 builder.Writeln("שלום עולם!");
 builder.Writeln("مرحبا بالعالم!");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions saveOptions = new TxtSaveOptions { Encoding = System.Text.Encoding.Unicode};
 
-// Çalıştırmadan önce işaret eklemek için "AddBidiMarks" özelliğini "true" olarak ayarlayın
+// Çalışmalardan önce işaretler eklemek için "AddBidiMarks" özelliğini "true" olarak ayarlayın
 // gerçeği belirtmek için sağdan sola metinle.
 // Tümünü soldan sağa yazmak için "AddBidiMarks" özelliğini "false" olarak ayarlayın
-// ve sağdan sola eşit şekilde çalışır ve hangisinin hangisi olduğunu belirtecek hiçbir şey yoktur.
+// ve sağdan sola doğru eşit olarak ilerler, hangisinin hangisi olduğunu gösterecek hiçbir şey yoktur.
 saveOptions.AddBidiMarks = addBidiMarks;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.AddBidiMarks.txt", saveOptions);

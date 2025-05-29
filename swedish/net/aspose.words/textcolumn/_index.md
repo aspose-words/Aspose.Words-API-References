@@ -3,14 +3,14 @@ title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
 second_title: Aspose.Words för .NET
-description: Aspose.Words.TextColumn klass. Representerar en enda textkolumn.TextColumn är medlem iTextColumnCollection samling. DenTextColumn samlingen innehåller alla kolumner i ett avsnitt av ett dokument i C#.
+description: Upptäck klassen Aspose.Words.TextColumn för att hantera textkolumner i dina dokument. Få enkelt åtkomst till och anpassa varje kolumn i ditt textavsnitt.
 type: docs
-weight: 6390
+weight: 7240
 url: /sv/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Representerar en enda textkolumn.`TextColumn` är medlem i[`TextColumnCollection`](../textcolumncollection/) samling. Den`TextColumn` samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
+Representerar en enda textkolumn.`TextColumn` är medlem i[`TextColumnCollection`](../textcolumncollection/) samling. Den`TextColumn`samlingen innehåller alla kolumner i ett avsnitt av ett dokument.
 
 För att lära dig mer, besök[Arbeta med sektioner](https://docs.aspose.com/words/net/working-with-sections/) dokumentationsartikel.
 
@@ -22,14 +22,14 @@ public class TextColumn
 
 | namn | Beskrivning |
 | --- | --- |
-| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Hämtar eller ställer in utrymmet mellan denna kolumn och nästa kolumn i poäng. Krävs inte för den sista kolumnen. |
+| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Hämtar eller ställer in avståndet mellan denna kolumn och nästa kolumn i punkter. Krävs inte för den sista kolumnen. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Hämtar eller ställer in bredden på textkolumnen i punkter. |
 
 ## Anmärkningar
 
-`TextColumn` objekt används endast för att ange kolumner med anpassad bredd och avstånd. Om du vill att kolumnerna i dokumentet ska vara lika breda, ställ in TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) till`Sann`.
+`TextColumn` objekt används bara för att ange kolumner med anpassad bredd och avstånd. Om du vill att kolumnerna i dokumentet ska ha samma bredd, ange TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) till`sann`.
 
-När en ny`TextColumn` skapas har dess bredd och avstånd noll.
+När en ny`TextColumn` skapas har den sin bredd och sitt avstånd satt till noll.
 
 ## Exempel
 
@@ -44,17 +44,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestäm mängden utrymme som vi har tillgängligt för att arrangera kolumner.
+// Bestäm hur mycket utrymme vi har tillgängligt för att arrangera kolumner.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Ange att den första kolumnen ska vara smal.
+// Sätt den första kolumnen till att vara smal.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Ställ in den andra kolumnen för att ta resten av det tillgängliga utrymmet inom sidans marginaler.
+// Ställ in den andra kolumnen så att den tar upp resten av det tillgängliga utrymmet inom sidans marginaler.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

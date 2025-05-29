@@ -3,16 +3,16 @@ title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
 second_title: Aspose.Words para .NET
-description: Aspose.Words.TextColumn clase. Representa una única columna de texto.TextColumn es miembro de laTextColumnCollection colección. ElTextColumn la colección incluye todas las columnas de una sección de un documento en C#.
+description: Descubra la clase Aspose.Words.TextColumn para gestionar las columnas de texto de sus documentos. Acceda y personalice fácilmente cada columna de su sección de texto.
 type: docs
-weight: 6390
+weight: 7240
 url: /es/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Representa una única columna de texto.`TextColumn` es miembro de la[`TextColumnCollection`](../textcolumncollection/) colección. El`TextColumn` la colección incluye todas las columnas de una sección de un documento.
+Representa una sola columna de texto.`TextColumn` es miembro de la[`TextColumnCollection`](../textcolumncollection/) colección. La`TextColumn`La colección incluye todas las columnas de una sección de un documento.
 
-Para obtener más información, visite el[Trabajar con secciones](https://docs.aspose.com/words/net/working-with-sections/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con secciones](https://docs.aspose.com/words/net/working-with-sections/) Artículo de documentación.
 
 ```csharp
 public class TextColumn
@@ -22,18 +22,18 @@ public class TextColumn
 
 | Nombre | Descripción |
 | --- | --- |
-| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Obtiene o establece el espacio entre esta columna y la siguiente columna en puntos. No es necesario para la última columna. |
+| [SpaceAfter](../../aspose.words/textcolumn/spaceafter/) { get; set; } | Obtiene o establece el espacio entre esta columna y la siguiente en puntos. No es necesario para la última columna. |
 | [Width](../../aspose.words/textcolumn/width/) { get; set; } | Obtiene o establece el ancho de la columna de texto en puntos. |
 
 ## Observaciones
 
-`TextColumn` Los objetos solo se utilizan para especificar columnas con ancho y espaciado personalizados. Si desea que las columnas del documento tengan el mismo ancho, configure TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) a`verdadero`.
+`TextColumn` Los objetos solo se usan para especificar columnas con ancho y espaciado personalizados. Si desea que las columnas del documento tengan el mismo ancho, configure TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) a`verdadero`.
 
-cuando un nuevo`TextColumn` Cuando se crea, su ancho y espaciado se establecen en cero.
+Cuando un nuevo`TextColumn` Se crea y su ancho y espaciado se establecen en cero.
 
 ## Ejemplos
 
-Muestra cómo crear columnas espaciadas de manera desigual.
+Muestra cómo crear columnas con espacios desiguales.
 
 ```csharp
 Document doc = new Document();
@@ -49,12 +49,12 @@ double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.Rig
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Establece la primera columna para que sea estrecha.
+// Establezca la primera columna para que sea estrecha.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Establece la segunda columna para que ocupe el resto del espacio disponible dentro de los márgenes de la página.
+// Establezca la segunda columna para tomar el resto del espacio disponible dentro de los márgenes de la página.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

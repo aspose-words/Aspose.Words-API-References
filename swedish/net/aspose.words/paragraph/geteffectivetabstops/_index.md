@@ -3,14 +3,14 @@ title: Paragraph.GetEffectiveTabStops
 linktitle: GetEffectiveTabStops
 articleTitle: GetEffectiveTabStops
 second_title: Aspose.Words för .NET
-description: Paragraph GetEffectiveTabStops metod. Returnerar array av alla tabbstopp som tillämpas på detta stycke inklusive applicerade indirekt av stilar eller listor i C#.
+description: Upptäck metoden GetEffectiveTabStops för att hämta alla tabbstopp i ett stycke, inklusive de från formateringar och listor för förbättrad formatering.
 type: docs
-weight: 250
+weight: 270
 url: /sv/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
 
-Returnerar array av alla tabbstopp som tillämpas på detta stycke, inklusive applicerade indirekt av stilar eller listor.
+Returnerar en matris med alla tabbstopp som tillämpats på detta stycke, inklusive indirekt tillämpade av format eller listor.
 
 ```csharp
 public TabStop[] GetEffectiveTabStops()
@@ -29,7 +29,7 @@ Paragraph para = doc.FirstSection.Body.FirstParagraph;
 Assert.AreEqual(0, doc.FirstSection.Body.FirstParagraph.GetEffectiveTabStops().Length);
 
 // Vi kan lägga till anpassade tabbstopp i Microsoft Word om vi aktiverar linjalen via fliken "Visa".
-// Varje enhet på den här linjalen är två standardtabbstopp, vilket är 72 poäng.
+// Varje enhet på denna linjal är två standardtabbstopp, vilket är 72 punkter.
 // Vi kan lägga till anpassade tabbstopp programmatiskt så här.
 TabStopCollection tabStops = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.TabStops;
 tabStops.Add(72, TabAlignment.Left, TabLeader.Dots);
@@ -40,7 +40,7 @@ tabStops.Add(360, TabAlignment.Right, TabLeader.Line);
 Assert.AreEqual(3, para.GetEffectiveTabStops().Length);
 
 // Alla tabbtecken vi lägger till kommer att använda tabbstoppen på linjalen och kan,
-// beroende på flikledarens värde, lämna en linje mellan flikens avgångs- och ankomstdestination.
+// beroende på flikhuvudets värde, lämna en rad mellan flikarnas avgångs- och ankomstdestinationer.
 para.AppendChild(new Run(doc, "\tTab 1\tTab 2\tTab 3"));
 
 doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");

@@ -3,7 +3,7 @@ title: Odso.DataSource
 linktitle: DataSource
 articleTitle: DataSource
 second_title: Aspose.Words para .NET
-description: Odso DataSource propiedad. Especifica la ubicación de la fuente de datos externa que se conectará a un documento para realizar la combinación de correspondencia. El valor predeterminado es una cadena vacía en C#.
+description: Conecte sus documentos fácilmente con Odso DataSource. Especifique fácilmente fuentes de datos externas para una integración fluida de correspondencia. ¡Empiece a optimizar su flujo de trabajo hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/odso/datasource/
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

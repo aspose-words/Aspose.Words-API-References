@@ -3,14 +3,14 @@ title: FindReplaceOptions.FindWholeWordsOnly
 linktitle: FindWholeWordsOnly
 articleTitle: FindWholeWordsOnly
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions FindWholeWordsOnly ملكية. يشير True إلى أن القيمة القديمة يجب أن تكون كلمة مستقلة في C#.
+description: اكتشف كيف تعمل خاصية FindWholeWordsOnly على تعزيز بحثك بنتائج دقيقة، مما يضمن تطابق oldValue فقط ككلمة مستقلة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
 ## FindReplaceOptions.FindWholeWordsOnly property
 
-يشير True إلى أن القيمة القديمة يجب أن تكون كلمة مستقلة.
+يشير True إلى أن oldValue يجب أن تكون كلمة مستقلة.
 
 ```csharp
 public bool FindWholeWordsOnly { get; set; }
@@ -18,7 +18,7 @@ public bool FindWholeWordsOnly { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تبديل عمليات البحث والاستبدال المستقلة للكلمات فقط.
+يوضح كيفية تبديل عمليات البحث والاستبدال الخاصة بالكلمات المستقلة فقط.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+// يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط علامة "FindWholeWordsOnly" على "صحيح" لاستبدال النص الذي تم العثور عليه إذا لم يكن جزءًا من كلمة أخرى.
-// اضبط علامة "FindWholeWordsOnly" على "خطأ" لاستبدال النص بالكامل بغض النظر عن البيئة المحيطة به.
+// اضبط علامة "FindWholeWordsOnly" على "true" لاستبدال النص الموجود إذا لم يكن جزءًا من كلمة أخرى.
+// اضبط علامة "FindWholeWordsOnly" على "false" لاستبدال كل النص بغض النظر عن محيطه.
 options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);

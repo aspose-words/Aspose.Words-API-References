@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.CompositingQuality
 linktitle: CompositingQuality
 articleTitle: CompositingQuality
 second_title: Aspose.Words für .NET
-description: GraphicsQualityOptions CompositingQuality eigendom. Ruft die Renderqualität zusammengesetzter Bilder ab die für diese Grafik gezeichnet werden oder legt diese fest in C#.
+description: Entdecken Sie die GraphicsQualityOptions CompositingQuality-Eigenschaft, um Ihre Bildwiedergabe zu verbessern. Optimieren Sie zusammengesetzte Bilder für eine beeindruckende visuelle Qualität!
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Ruft die Renderqualität zusammengesetzter Bilder ab, die für diese Grafik gezeichnet werden, oder legt diese fest.
+Ruft die Rendering-Qualität von zusammengesetzten Bildern ab, die in diese Grafik gezeichnet werden, oder legt diese fest.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -18,7 +18,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Sie beim Konvertieren von Dokumenten in Bildformate Optionen für die Renderqualität festlegen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

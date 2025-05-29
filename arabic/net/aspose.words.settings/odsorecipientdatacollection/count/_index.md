@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: OdsoRecipientDataCollection Count ملكية. الحصول على عدد العناصر الموجودة في المجموعة في C#.
+description: اكتشف خاصية Count الخاصة بـ OdsoRecipientDataCollection لاسترداد العدد الإجمالي للعناصر بسهولة، مما يعزز كفاءة إدارة البيانات لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/count/
 ---
 ## OdsoRecipientDataCollection.Count property
 
-الحصول على عدد العناصر الموجودة في المجموعة.
+يحصل على عدد العناصر الموجودة في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,14 +3,14 @@ title: FieldAdvance.LeftOffset
 linktitle: LeftOffset
 articleTitle: LeftOffset
 second_title: Aspose.Words für .NET
-description: FieldAdvance LeftOffset eigendom. Ruft die Anzahl der Punkte ab um die der Text der auf das Feld folgt nach links verschoben werden soll oder legt diese fest in C#.
+description: Entdecken Sie die FieldAdvance LeftOffset-Eigenschaft, um die Textausrichtung einfach anzupassen, indem Sie Punkte für eine präzise Linksverschiebung setzen. Verbessern Sie Ihr Dokumentlayout!
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldadvance/leftoffset/
 ---
 ## FieldAdvance.LeftOffset property
 
-Ruft die Anzahl der Punkte ab, um die der Text, der auf das Feld folgt, nach links verschoben werden soll, oder legt diese fest.
+Ruft die Anzahl der Punkte ab oder legt sie fest, um die der Text, der dem Feld folgt, nach links verschoben werden soll.
 
 ```csharp
 public string LeftOffset { get; set; }
@@ -18,7 +18,7 @@ public string LeftOffset { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man ein ADVANCE-Feld einfügt und seine Eigenschaften bearbeitet.
+Zeigt, wie Sie ein ADVANCE-Feld einfügen und seine Eigenschaften bearbeiten.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Im Folgenden finden Sie zwei Möglichkeiten, das ADVANCE-Feld zu verwenden, um die Position des darauf folgenden Textes anzupassen.
-// Die Auswirkungen eines ADVANCE-Feldes werden weiterhin angewendet, bis der Absatz endet.
+// Unten sind zwei Möglichkeiten aufgeführt, wie Sie mit dem Feld ADVANCE die Position des darauf folgenden Textes anpassen können.
+// Die Auswirkungen eines ADVANCE-Feldes bleiben bis zum Ende des Absatzes bestehen,
 // oder ein anderes ADVANCE-Feld aktualisiert die Offset-/Koordinatenwerte.
-// 1 – Geben Sie einen Richtungsoffset an:
+// 1 - Geben Sie einen Richtungsversatz an:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";

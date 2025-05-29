@@ -3,7 +3,7 @@ title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: FontInfoCollection Count propiedad. Obtiene el número de elementos contenidos en la colección en C#.
+description: Descubra la propiedad FontInfoCollection Count, recupere sin esfuerzo el número total de elementos en su colección para una gestión de datos perfecta.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontinfocollection/count/
@@ -23,7 +23,7 @@ Muestra información sobre las fuentes que están presentes en el documento en b
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco contiene 3 fuentes predeterminadas. Cada fuente en el documento.
+// Un documento en blanco contiene 3 fuentes predeterminadas. Cada fuente del documento
 // tendrá un objeto FontInfo correspondiente que contiene detalles sobre esa fuente.
 Assert.AreEqual(3, doc.FontInfos.Count);
 

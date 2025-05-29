@@ -3,14 +3,14 @@ title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow classe. Fornisce i dati per ilFieldDatabase risultato sul campo. Perfavore guardaDataRow istanza in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldDatabaseDataRow, che offre dati essenziali per i risultati di FieldDatabase. Migliora l'elaborazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 1750
+weight: 2160
 url: /it/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Fornisce i dati per il[`FieldDatabase`](../fielddatabase/) risultato sul campo. Perfavore guardaDataRow istanza.
+Fornisce dati per il[`FieldDatabase`](../fielddatabase/) risultato del campo. Per favore, vediDataRow istanza.
 
 Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
@@ -34,7 +34,7 @@ public class FieldDatabaseDataRow
 
 | Nome | Descrizione |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Inizializza una nuova istanza di`FieldDatabaseDataRow` class dalDataRow istanza. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | Inizializza una nuova istanza di`FieldDatabaseDataRow` classe dalDataRow istanza. |
 
 ### Guarda anche
 

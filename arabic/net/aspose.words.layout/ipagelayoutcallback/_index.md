@@ -3,14 +3,14 @@ title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Layout.IPageLayoutCallback واجهه المستخدم. قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء إنشاء نموذج تخطيط الصفحة وعرضه في C#.
+description: خصّص تخطيط مستندك باستخدام واجهة Aspose.Words.Layout.IPageLayoutCallback. حسّن العرض بطرقك الخاصة لتحقيق أفضل النتائج.
 type: docs
-weight: 3310
+weight: 3760
 url: /ar/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-قم بتنفيذ هذه الواجهة إذا كنت تريد أن يكون لديك طريقتك المخصصة التي يتم استدعاؤها أثناء إنشاء نموذج تخطيط الصفحة وعرضه.
+قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طريقتك المخصصة أثناء بناء وعرض نموذج تخطيط الصفحة.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -20,21 +20,21 @@ public interface IPageLayoutCallback
 
 | اسم | وصف |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | يتم استدعاؤه للإخطار ببناء التخطيط وتقديم التقدم. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | يتم استدعاء هذا لإعلامك ببناء التخطيط وتقدم العرض. |
 
 ## ملاحظات
 
-الاستخدام الأساسي لهذه الواجهة هو السماح لكود التطبيق بإحباط عملية الإنشاء.
+الاستخدام الأساسي لهذه الواجهة هو السماح لكود التطبيق بإلغاء عملية البناء.
 
-من الممكن إنشاء نموذج تخطيط صفحة لعدد قليل من الصفحات فقط في بداية المستند ثم إحباط العملية وعرض ما تم إنشاؤه بالفعل فقط.
+من الممكن إنشاء نموذج تخطيط الصفحة لعدد قليل من الصفحات في بداية المستند ثم إلغاء العملية وعرض ما تم بناؤه بالفعل فقط.
 
-مع ذلك، لاحظ أن نتائج العرض قد لا تتطابق مع ما سيتم عرضه لكل صفحة إذا كانت العملية قد انتهت.
+ومع ذلك، لاحظ أن نتائج العرض قد لا تتطابق مع ما سيتم عرضه لكل صفحة إذا انتهت العملية.
 
-قد لا تعمل هذه التقنية مع كل مستند أو قد تفشل تمامًا.
+قد لا تنجح هذه التقنية مع كل المستندات أو قد تفشل تمامًا.
 
 ## أمثلة
 
-يوضح كيفية تتبع تغييرات التخطيط من خلال رد اتصال التخطيط.
+يوضح كيفية تتبع تغييرات التخطيط باستخدام استدعاء التخطيط.
 
 ```csharp
 public void PageLayoutCallback()
@@ -53,7 +53,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// يخطرنا عندما نحفظ المستند بتنسيق صفحة ثابت
-/// ويعرض الصفحة التي نقوم بإعادة تدفق الصفحة عليها إلى صورة في نظام الملفات المحلي.
+/// ويقوم بعرض صفحة نقوم بإعادة ترتيب صفحاتها على صورة في نظام الملفات المحلي.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

@@ -2,15 +2,15 @@
 title: PreferredWidth.Auto
 linktitle: Auto
 articleTitle: Auto
-second_title: Aspose.Words for .NET
-description: PreferredWidth Auto alan. Tercih edilen genişlik belirtilmedi değerini temsil eden bir örneği döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde en iyi düzen özelleştirmesi için belirtilmemiş genişlik değerlerini etkili bir şekilde işleyen PreferredWidth Auto alanını keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/preferredwidth/auto/
 ---
 ## PreferredWidth.Auto field
 
-"Tercih edilen genişlik belirtilmedi" değerini temsil eden bir örneği döndürür.
+"Tercih edilen genişlik belirtilmemiş" değerini temsil eden bir örneği döndürür.
 
 ```csharp
 public static readonly PreferredWidth Auto;
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "PreferredWidth" sınıfını tablo hücrelerine uygulamanın iki yolu vardır.
-// 1 - Noktalara dayalı olarak tercih edilen mutlak genişliği ayarlayın:
+// 1 - Noktalara dayalı olarak mutlak bir tercih edilen genişlik ayarlayın:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
@@ -40,10 +40,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Tercih edilen genişliği belirtilmeyen bir hücre, kullanılabilir alanın geri kalanını kaplayacaktır.
+// Tercih edilen genişliği belirtilmeyen bir hücre kalan kullanılabilir alanı kaplayacaktır.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// "PreferredWidth" özelliğinin her konfigürasyonu yeni bir nesne oluşturur.
+// "PreferredWidth" özelliğinin her yapılandırması yeni bir nesne oluşturur.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

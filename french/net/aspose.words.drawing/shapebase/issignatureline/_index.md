@@ -3,9 +3,9 @@ title: ShapeBase.IsSignatureLine
 linktitle: IsSignatureLine
 articleTitle: IsSignatureLine
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsSignatureLine propriété. Indique que la forme est unSignatureLine  en C#.
+description: Découvrez la propriété IsSignatureLine de ShapeBase, qui définit les formes comme des SignatureLines, améliorant ainsi l'intégrité du document et la présentation professionnelle.
 type: docs
-weight: 340
+weight: 360
 url: /fr/net/aspose.words.drawing/shapebase/issignatureline/
 ---
 ## ShapeBase.IsSignatureLine property
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Insère une forme qui contiendra une ligne de signature, dont nous allons
-// personnalisez à l'aide de l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
-// Si on insère une forme dont les coordonnées proviennent du coin inférieur droit de la page,
-// nous devrons fournir des coordonnées x et y négatives pour faire apparaître la forme.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Insérer une forme qui contiendra une ligne de signature, dont nous allons
+// personnaliser en utilisant l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
+// Si nous insérons une forme dont les coordonnées proviennent du coin inférieur droit de la page,
+// nous devrons fournir des coordonnées x et y négatives pour mettre la forme en vue.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Vérifier les propriétés de notre ligne de signature via son objet Shape.
+// Vérifiez les propriétés de notre ligne de signature via son objet Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

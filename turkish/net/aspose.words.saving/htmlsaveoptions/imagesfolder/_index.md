@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ImagesFolder mülk. Bir belgeyi HTML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ImagesFolder özelliğini keşfedin. Belgeleri HTML'e aktarırken görüntüleri kaydetmek için klasörü kolayca ayarlayın. İş akışınızı bugün hızlandırın!
 type: docs
 weight: 360
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property
 
-Bir belgeyi HTML biçimine dışa aktarırken görüntülerin kaydedildiği fiziksel klasörü belirtir. Varsayılan, boş bir dizedir.
+Bir belgeyi HTML biçimine aktarırken görüntülerin kaydedileceği fiziksel klasörü belirtir. Varsayılan boş bir dizedir.
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -18,19 +18,19 @@ public string ImagesFolder { get; set; }
 
 ## Notlar
 
-Bir kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında Aspose.Words'ün belgeye gömülü tüm görsellerini bağımsız dosyalar olarak kaydetmesi gerekir.`ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenize ve[`ImagesFolderAlias`](../imagesfolderalias/) , görüntü URI'lerinin nasıl oluşturulacağını belirtmeye olanak tanır.
+Birini kaydettiğinizde[`Document`](../../../aspose.words/document/) HTML formatında, Aspose.Words'ün belgeye gömülü tüm resimleri bağımsız dosyalar olarak kaydetmesi gerekir.`ImagesFolder` görüntülerin nereye kaydedileceğini belirtmenize olanak tanır ve[`ImagesFolderAlias`](../imagesfolderalias/) görüntü URI'lerinin nasıl oluşturulacağını belirtmeye izin verir.
 
-Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Words varsayılan olarak görüntülerini belge dosyasının kaydedildiği klasöre kaydeder. Kullanmak`ImagesFolder` Bu davranışı geçersiz kılmak için .
+Bir belgeyi bir dosyaya kaydederseniz ve bir dosya adı sağlarsanız, Aspose.Words varsayılan olarak, resimlerini belge dosyasının kaydedildiği klasöre kaydeder.`ImagesFolder` Bu davranışı geçersiz kılmak için kullanın.
 
-Bir belgeyi bir akışa kaydederseniz, Aspose.Words'de görüntülerin kaydedileceği bir klasör yoktur ( ), ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir.`ImagesFolder` özelliği veya aracılığıyla özel akışlar sağlayın[`ImageSavingCallback`](../imagesavingcallback/) olay işleyicisi.
+Bir belgeyi bir akışa kaydederseniz, Aspose.Words'ün görüntüleri kaydedeceği bir klasörü yoktur, ancak yine de görüntüleri bir yere kaydetmesi gerekir. Bu durumda, erişilebilir bir klasör belirtmeniz gerekir`ImagesFolder` özellik veya özel akışlar sağlayın via the[`ImageSavingCallback`](../imagesavingcallback/) olay işleyicisi.
 
-tarafından belirtilen klasör ise`ImagesFolder` mevcut değilse otomatik olarak oluşturulacaktır.
+Belirtilen klasör`ImagesFolder` mevcut değilse otomatik olarak oluşturulacaktır.
 
-[`ResourceFolder`](../resourcefolder/) görüntülerin kaydedileceği klasörü belirtmenin başka bir yoludur.
+[`ResourceFolder`](../resourcefolder/) resimlerin kaydedileceği klasörü belirtmenin başka bir yoludur.
 
 ## Örnekler
 
-Bağlantılı görsellerin .html'ye kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
+Bağlantılı görsellerin .html olarak kaydedildikten sonra saklanacağı klasörün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -42,7 +42,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Form alanlarını HTML giriş öğeleri yerine düz metin olarak dışa aktarmak için bir seçenek belirleyin.
+// Form alanlarını HTML giriş öğeleri yerine düz metin olarak dışa aktarmak için bir seçenek ayarlayın.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

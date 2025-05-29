@@ -2,15 +2,15 @@
 title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
-second_title: 用于 .NET 的 Aspose.Words
-description: MustacheTag ReferenceOffset 财产. 获取标签从零开始的起始位置ReferenceRun 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MustacheTag ReferenceOffset 属性，该属性揭示了 ReferenceRun 中标签的从零开始的起始位置，以便进行精确的数据管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 ---
 ## MustacheTag.ReferenceOffset property
 
-获取标签从零开始的起始位置[`ReferenceRun`](../referencerun/).
+从标签的开头获取从零开始的起始位置[`ReferenceRun`](../referencerun/).
 
 ```csharp
 public int ReferenceOffset { get; }
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## 例子
 
-展示如何使用小胡子标签。
+展示如何使用胡子标签。
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

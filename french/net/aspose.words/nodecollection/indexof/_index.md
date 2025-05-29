@@ -3,7 +3,7 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words pour .NET
-description: NodeCollection IndexOf méthode. Renvoie lindex de base zéro du nœud spécifié en C#.
+description: Découvrez la méthode NodeCollection IndexOf pour trouver efficacement l'index de base zéro de n'importe quel nœud spécifié dans vos collections.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/nodecollection/indexof/

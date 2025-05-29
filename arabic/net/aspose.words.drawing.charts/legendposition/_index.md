@@ -3,14 +3,14 @@ title: LegendPosition Enum
 linktitle: LegendPosition
 articleTitle: LegendPosition
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition تعداد. يحدد المواضع المحتملة لوسيلة إيضاح المخطط في C#.
+description: اكتشف مجموعة Aspose.Words.Drawing.Charts.LegendPosition لتخصيص موضع أسطورة الرسم البياني بسهولة لتحسين تصور البيانات.
 type: docs
-weight: 910
+weight: 1230
 url: /ar/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-يحدد المواضع المحتملة لوسيلة إيضاح المخطط.
+يحدد المواضع المحتملة لأسطورة الرسم البياني.
 
 ```csharp
 public enum LegendPosition
@@ -20,16 +20,16 @@ public enum LegendPosition
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | لن يتم عرض وسيلة إيضاح للمخطط. |
-| Bottom | `1` | يحدد أنه سيتم رسم وسيلة الإيضاح في أسفل المخطط. |
-| Left | `2` | يحدد أنه سيتم رسم وسيلة الإيضاح على يسار المخطط. |
-| Right | `3` | يحدد أنه سيتم رسم وسيلة الإيضاح على يمين المخطط. |
-| Top | `4` | يحدد أنه يجب رسم وسيلة الإيضاح في أعلى المخطط. |
-| TopRight | `5` | يحدد أنه سيتم رسم وسيلة الإيضاح في أعلى يمين المخطط. |
+| None | `0` | لن يتم عرض أي أسطورة للرسم البياني. |
+| Bottom | `1` | يحدد أنه يجب رسم الأسطورة في أسفل الرسم البياني. |
+| Left | `2` | يحدد أنه يجب رسم الأسطورة على يسار الرسم البياني. |
+| Right | `3` | يحدد أنه يجب رسم الأسطورة على يمين الرسم البياني. |
+| Top | `4` | يحدد أنه يجب رسم الأسطورة في الجزء العلوي من الرسم البياني. |
+| TopRight | `5` | يحدد أنه يجب رسم الأسطورة في الجزء العلوي الأيمن من الرسم البياني. |
 
 ## أمثلة
 
-يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
+يوضح كيفية تحرير مظهر أسطورة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
+// نقل أسطورة الرسم البياني إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
+// امنح عناصر الرسم البياني الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بالتداخل مع الأسطورة.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

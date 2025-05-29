@@ -3,14 +3,14 @@ title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words para .NET
-description: SignatureLineOptions ShowDate propiedad. Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de la firma. El valor predeterminado para esta propiedad esverdadero  en C#.
+description: Descubra cómo la propiedad SignatureLineOptions ShowDate mejora la profesionalidad de su documento al mostrar la fecha de firma en las líneas de firma.
 type: docs
 weight: 60
 url: /es/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de la firma. El valor predeterminado para esta propiedad es`verdadero` .
+Obtiene o establece un valor que indica que la fecha de la firma se muestra en la línea de firma. El valor predeterminado para esta propiedad es`verdadero` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

@@ -3,14 +3,14 @@ title: LayoutOptions.ShowParagraphMarks
 linktitle: ShowParagraphMarks
 articleTitle: ShowParagraphMarks
 second_title: Aspose.Words для .NET
-description: LayoutOptions ShowParagraphMarks свойство. Получает или задает индикатор того отображаются ли знаки абзаца. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство LayoutOptions ShowParagraphMarks улучшает форматирование текста, переключая видимость знаков абзаца. Улучшите ясность вашего документа сегодня!
 type: docs
 weight: 90
 url: /ru/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Получает или задает индикатор того, отображаются ли знаки абзаца. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает указание того, отображаются ли знаки абзаца. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -18,13 +18,13 @@ public bool ShowParagraphMarks { get; set; }
 
 ## Примеры
 
-Показывает, как отображать знаки абзаца в готовом к просмотру выходном документе.
+Показывает, как отображать знаки абзацев в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Добавляем несколько абзацев, затем включаем знаки абзацев, чтобы показывать концы абзацев
-// с символом подставки (¶) при рендеринге документа.
+// Добавьте несколько абзацев, затем включите знаки абзацев, чтобы отображать концы абзацев
+// с символом "¶" при рендеринге документа.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

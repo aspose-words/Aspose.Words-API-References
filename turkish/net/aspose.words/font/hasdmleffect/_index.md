@@ -2,15 +2,15 @@
 title: Font.HasDmlEffect
 linktitle: HasDmlEffect
 articleTitle: HasDmlEffect
-second_title: Aspose.Words for .NET
-description: Font HasDmlEffect yöntem. Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli bir DrawingML metin efektinin Font HasDmlEffect yöntemi ile uygulanıp uygulanmadığını keşfedin. Belgenizin görsel çekiciliğini zahmetsizce artırın!
 type: docs
-weight: 560
+weight: 570
 url: /tr/net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method
 
-Belirli bir DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
+Belirli DrawingML metin efektinin uygulanıp uygulanmadığını kontrol eder.
 
 ```csharp
 public bool HasDmlEffect(TextDmlEffect dmlEffectType)
@@ -22,11 +22,11 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 ### Geri dönüş değeri
 
-`doğru` belirli bir DrawingML metin efekti uygulanmışsa.
+`doğru` eğer belirli DrawingML metin efekti uygulanırsa.
 
 ## Örnekler
 
-Bir çalıştırmanın DrawingML metin efekti gösterip göstermediğinin nasıl kontrol edileceğini gösterir.
+Bir çalışmanın DrawingML metin efekti gösterip göstermediğinin nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML text effects.docx");

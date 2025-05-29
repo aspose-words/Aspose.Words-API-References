@@ -3,14 +3,14 @@ title: ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle
 linktitle: NoSpaceBetweenParagraphsOfSameStyle
 articleTitle: NoSpaceBetweenParagraphsOfSameStyle
 second_title: Aspose.Words för .NET
-description: ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle fast egendom. NärSann SpaceBefore ochSpaceAfter kommer att ignoreras mellan styckena i samma stil i C#.
+description: Upptäck egenskapen ParagraphFormat NoSpaceBetweenParagraphsOfSameStyle. Optimera din dokumentlayout genom att eliminera mellanrum mellan stycken med samma stil.
 type: docs
-weight: 240
+weight: 250
 url: /sv/net/aspose.words/paragraphformat/nospacebetweenparagraphsofsamestyle/
 ---
 ## ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle property
 
-När`Sann` ,[`SpaceBefore`](../spacebefore/) och[`SpaceAfter`](../spaceafter/) kommer att ignoreras mellan styckena i samma stil.
+När`sann` ,[`SpaceBefore`](../spacebefore/) och[`SpaceAfter`](../spaceafter/) kommer att ignoreras mellan stycken med samma formatmall.
 
 ```csharp
 public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
@@ -18,24 +18,24 @@ public bool NoSpaceBetweenParagraphsOfSameStyle { get; set; }
 
 ## Anmärkningar
 
-Den här inställningen påverkar endast när den tillämpas på ett styckeformat. Om det tillämpas på ett stycke direkt, har det ingen effekt.
+Den här inställningen gäller bara när den tillämpas på ett styckeformat. Om den tillämpas direkt på ett stycke har den ingen effekt.
 
 ## Exempel
 
-Visar hur man inte använder mellanrum mellan stycken med samma stil.
+Visar hur man använder avståndsfria stycken med samma stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en stor mängd mellanrum före och efter stycken som den här byggaren kommer att skapa.
+// Använd en stor mängd avstånd före och efter stycken som den här verktygsbyggaren kommer att skapa.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Ställ in "NoSpaceBetweenParagraphsOfSameStyle"-flaggan till "true" för att tillämpa
-// inget mellanrum mellan stycken med samma stil, vilket kommer att gruppera liknande stycken.
+// Sätt flaggan "NoSpaceBetweenParagraphsOfSameStyle" till "true" för att tillämpa
+// inget mellanrum mellan stycken med samma stil, vilket grupperar liknande stycken.
 // Lämna flaggan "NoSpaceBetweenParagraphsOfSameStyle" som "false"
-// för att jämnt tillämpa mellanrum på varje stycke.
+// för att tillämpa jämnt avstånd i varje stycke.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

@@ -3,7 +3,7 @@ title: FontInfoCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: FontInfoCollection Item свойство. Получает шрифт с указанным именем на С#.
+description: Откройте для себя свойство FontInfoCollection Item, чтобы легко извлекать шрифты по имени, улучшая точность и стиль ваших дизайн-проектов.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/fontinfocollection/item/
@@ -18,7 +18,7 @@ public FontInfo this[string name] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| name | Имя шрифта, который необходимо найти, без учета регистра. |
+| name | Нечувствительное к регистру имя шрифта, который нужно найти. |
 
 ## Примеры
 
@@ -32,13 +32,13 @@ byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenT
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
 // Форматы встроенных шрифтов могут отличаться в других форматах, таких как .doc.
-// Нам нужно знать правильный формат, прежде чем мы сможем извлечь шрифт.
+// Прежде чем извлечь шрифт, нам нужно знать правильный формат.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Кроме того, мы можем преобразовать встроенный формат OpenType, который поступает из документов .doc, в OpenType.
+// Кроме того, мы можем преобразовать встроенный формат OpenType, который получен из документов .doc, в OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);
@@ -63,7 +63,7 @@ public FontInfo this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс шрифта, начинающийся с нуля. |
+| index | Индекс шрифта, отсчитываемый от нуля. |
 
 ## Примеры
 
@@ -77,13 +77,13 @@ byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenT
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
 // Форматы встроенных шрифтов могут отличаться в других форматах, таких как .doc.
-// Нам нужно знать правильный формат, прежде чем мы сможем извлечь шрифт.
+// Прежде чем извлечь шрифт, нам нужно знать правильный формат.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Кроме того, мы можем преобразовать встроенный формат OpenType, который поступает из документов .doc, в OpenType.
+// Кроме того, мы можем преобразовать встроенный формат OpenType, который получен из документов .doc, в OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

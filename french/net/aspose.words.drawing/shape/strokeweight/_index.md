@@ -3,14 +3,14 @@ title: Shape.StrokeWeight
 linktitle: StrokeWeight
 articleTitle: StrokeWeight
 second_title: Aspose.Words pour .NET
-description: Shape StrokeWeight propriété. Définit lépaisseur du pinceau qui trace le chemin dune forme en points en C#.
+description: Ajustez la propriété StrokeWeight pour personnaliser l'épaisseur du pinceau pour les formes, améliorant ainsi vos conceptions avec un contrôle de ligne précis et une qualité professionnelle.
 type: docs
-weight: 210
+weight: 220
 url: /fr/net/aspose.words.drawing/shape/strokeweight/
 ---
 ## Shape.StrokeWeight property
 
-Définit l'épaisseur du pinceau qui trace le chemin d'une forme en points.
+Définit l'épaisseur du pinceau qui parcourt le chemin d'une forme en points.
 
 ```csharp
 public double StrokeWeight { get; set; }
@@ -24,7 +24,7 @@ La valeur par défaut est 0,75.
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

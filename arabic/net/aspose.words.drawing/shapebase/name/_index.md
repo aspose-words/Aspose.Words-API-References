@@ -3,14 +3,14 @@ title: ShapeBase.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: ShapeBase Name ملكية. الحصول على اسم الشكل الاختياري أو تعيينه في C#.
+description: اكتشف خاصية ShapeBase Name لإدارة أسماء الأشكال الاختيارية بسهولة، مما يعزز مرونة التصميم وتنظيم المشروع.
 type: docs
-weight: 400
+weight: 420
 url: /ar/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
 
-الحصول على اسم الشكل الاختياري أو تعيينه.
+يحصل على اسم الشكل الاختياري أو يعينه.
 
 ```csharp
 public string Name { get; set; }
@@ -18,9 +18,9 @@ public string Name { get; set; }
 
 ## ملاحظات
 
-الافتراضي هو سلسلة فارغة.
+افتراضيًا، السلسلة فارغة.
 
-لا يمكن`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
+لا يمكن أن يكون`باطل`، ولكن يمكن أن تكون سلسلة فارغة.
 
 ## أمثلة
 
@@ -34,11 +34,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// يمكننا الوصول إلى النص البديل للشكل عن طريق النقر بزر الماوس الأيمن عليه، ثم عبر "تنسيق الشكل التلقائي" -> "نص بديل".
+// يمكننا الوصول إلى النص البديل للشكل عن طريق النقر بزر الماوس الأيمن فوقه، ثم عبر "تنسيق الشكل التلقائي" -> "نص بديل".
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
-// احفظ المستند بتنسيق HTML، ثم احذف الصورة المرتبطة التي تنتمي إلى الشكل الخاص بنا.
-// سيعرض المتصفح الذي يقرأ HTML النص البديل بدلاً من الصورة المفقودة.
+// احفظ المستند بصيغة HTML، ثم احذف الصورة المرتبطة التي تنتمي إلى شكلنا.
+// سيعرض المتصفح الذي يقرأ HTML نصًا بديلًا بدلاً من الصورة المفقودة.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

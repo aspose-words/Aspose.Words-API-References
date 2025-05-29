@@ -3,7 +3,7 @@ title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
 second_title: Aspose.Words لـ .NET
-description: FieldSection البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldSection - الحل الأمثل للتكامل السلس. استخدم الوظائف الافتراضية لتطوير فعال!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldsection/fieldsection/

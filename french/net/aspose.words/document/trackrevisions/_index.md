@@ -3,14 +3,14 @@ title: Document.TrackRevisions
 linktitle: TrackRevisions
 articleTitle: TrackRevisions
 second_title: Aspose.Words pour .NET
-description: Document TrackRevisions propriété. True si les modifications sont suivies lorsque ce document est modifié dans Microsoft Word en C#.
+description: Activez Document TrackRevisions pour suivre automatiquement les modifications dans Microsoft Word, garantissant une collaboration transparente et un contrôle de version précis.
 type: docs
-weight: 430
+weight: 450
 url: /fr/net/aspose.words/document/trackrevisions/
 ---
 ## Document.TrackRevisions property
 
-True si les modifications sont suivies lorsque ce document est modifié dans Microsoft Word.
+Vrai si les modifications sont suivies lorsque ce document est modifié dans Microsoft Word.
 
 ```csharp
 public bool TrackRevisions { get; set; }
@@ -18,9 +18,9 @@ public bool TrackRevisions { get; set; }
 
 ## Remarques
 
-La définition de cette option indique uniquement à Microsoft Word si le suivi des modifications est activé ou désactivé. Cette propriété n'a aucun effet sur les modifications apportées au document que vous apportez par programme via Aspose.Words.
+Cette option indique uniquement à Microsoft Word si le suivi des modifications est activé ou désactivé. Cette propriété n'a aucun effet sur les modifications apportées au document par programmation via Aspose.Words.
 
-Si vous souhaitez suivre automatiquement les modifications au fur et à mesure qu'elles sont apportées par programme par Aspose.Words à ce document, utilisez le[`StartTrackRevisions`](../starttrackrevisions/) méthode.
+Si vous souhaitez suivre automatiquement les modifications apportées par programmation par Aspose.Words à ce document, utilisez le[`StartTrackRevisions`](../starttrackrevisions/) méthode.
 
 ## Exemples
 
@@ -43,13 +43,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Ce flag correspond au "Review" -> "Suivi" -> Option « Suivre les modifications » dans Microsoft Word.
+// Cet indicateur correspond à l'option « Révision » -> « Suivi » -> « Suivi des modifications » dans Microsoft Word.
 // La méthode "StartTrackRevisions" n'affecte pas sa valeur,
-// et le document suit les révisions par programme même s'il a la valeur "false".
+// et le document suit les révisions par programmation malgré sa valeur « false ».
 // Si nous ouvrons ce document à l'aide de Microsoft Word, il ne suivra pas les révisions.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Nous avons ajouté du texte à l'aide du générateur de documents, la première révision est donc une révision de type insertion.
+// Nous avons ajouté du texte à l'aide du générateur de documents, donc la première révision est une révision de type insertion.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -57,7 +57,7 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Supprime une exécution pour créer une révision de type suppression.
+// Supprimez une exécution pour créer une révision de type suppression.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
 // L'ajout d'une nouvelle révision la place au début de la collection de révisions.
@@ -65,12 +65,12 @@ Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
 // Les révisions d'insertion apparaissent dans le corps du document avant même que nous acceptions/rejetions la révision.
-// Le rejet de la révision supprimera ses nœuds du corps. A l’inverse, les nœuds qui composent les révisions de suppression
-// s'attarde également dans le document jusqu'à ce que nous acceptions la révision.
+// Rejeter la révision supprimera ses nœuds du corps. À l'inverse, les nœuds qui la composent suppriment les révisions.
+// restent également dans le document jusqu'à ce que nous acceptions la révision.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Accepter la révision supprimée supprimera son nœud parent du texte du paragraphe
-// puis supprime la révision de la collection elle-même.
+// L'acceptation de la suppression de révision supprimera son nœud parent du texte du paragraphe
+// puis supprimez la révision de la collection elle-même.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);

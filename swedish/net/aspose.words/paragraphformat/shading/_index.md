@@ -3,14 +3,14 @@ title: ParagraphFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words för .NET
-description: ParagraphFormat Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggningsformateringen för stycket i C#.
+description: Upptäck egenskapen ParagraphFormat Shading för förbättrad textformatering. Få tillgång till ett skuggningsobjekt för att enkelt höja styckets visuella attraktionskraft.
 type: docs
-weight: 280
+weight: 290
 url: /sv/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Returnerar en[`Shading`](../../shading/) objekt som hänvisar till skuggningsformateringen för stycket.
+Returnerar en[`Shading`](../../shading/) objekt som refererar till skuggningsformateringen för stycket.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Exempel
 
-Visar hur man dekorerar text med kanter och skuggningar.
+Visar hur man dekorerar text med ramar och skuggning.
 
 ```csharp
 Document doc = new Document();

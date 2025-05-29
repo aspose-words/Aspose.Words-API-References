@@ -3,7 +3,7 @@ title: ShapeBase.AnchorLocked
 linktitle: AnchorLocked
 articleTitle: AnchorLocked
 second_title: Aspose.Words für .NET
-description: ShapeBase AnchorLocked eigendom. Gibt an ob der Anker der Form gesperrt ist in C#.
+description: Entdecken Sie die ShapeBase AnchorLocked-Eigenschaft, um die Ankersperre für Formen zu steuern und so die Designstabilität und Flexibilität Ihrer Projekte zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/shapebase/anchorlocked/
@@ -20,13 +20,13 @@ public bool AnchorLocked { get; set; }
 
 Der Standardwert ist`FALSCH`.
 
-Hat nur Auswirkungen auf Formen der obersten Ebene.
+Wirkt sich nur auf Formen der obersten Ebene aus.
 
-Diese Eigenschaft beeinflusst das Verhalten des Ankers der Form in Microsoft Word. Wenn der Anker nicht gesperrt ist, kann das Verschieben der Form in Microsoft Word auch den Anker der Form verschieben .
+Diese Eigenschaft beeinflusst das Verhalten des Ankers der Form in Microsoft Word. Wenn der Anker nicht gesperrt ist, kann beim Verschieben der Form in Microsoft Word auch der Anker der Form verschoben werden.
 
 ## Beispiele
 
-Zeigt, wie der Absatzanker einer Form gesperrt oder entsperrt wird.
+Zeigt, wie Sie den Absatzanker einer Form sperren oder entsperren.
 
 ```csharp
 Document doc = new Document();
@@ -41,14 +41,14 @@ builder.InsertBreak(BreakType.ParagraphBreak);
 
 builder.Writeln("Hello again!");
 
-// Setzen Sie die Eigenschaft „AnchorLocked“ auf „true“, um den Anker der Form zu verhindern
-// vom Verschieben beim Verschieben der Form in Microsoft Word.
-// Setzen Sie die Eigenschaft „AnchorLocked“ auf „false“, um jede Bewegung der Form zu ermöglichen
-// um seinen Anker auch zu jedem anderen Absatz zu verschieben, in dessen Nähe die Form endet.
+// Setzen Sie die Eigenschaft "AnchorLocked" auf "true", um zu verhindern, dass der Anker der Form
+// vor dem Verschieben beim Verschieben der Form in Microsoft Word.
+// Setzen Sie die Eigenschaft "AnchorLocked" auf "false", um jede Bewegung der Form zuzulassen
+// um seinen Anker auch in jeden anderen Absatz zu verschieben, in dessen Nähe sich die Form befindet.
 shape.AnchorLocked = anchorLocked;
 
 // Wenn die Form links kein sichtbares Ankersymbol hat,
-// Wir müssen sichtbare Anker über „Optionen“ aktivieren -> „Anzeige“ -> „Objektanker“.
+// Wir müssen sichtbare Anker über „Optionen“ -> „Anzeige“ -> „Objektanker“ aktivieren.
 doc.Save(ArtifactsDir + "Shape.AnchorLocked.docx");
 ```
 

@@ -2,17 +2,17 @@
 title: ChartDataLabelCollection Class
 linktitle: ChartDataLabelCollection
 articleTitle: ChartDataLabelCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartDataLabelCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederChartDataLabel  C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik veri etiketlerini verimli bir şekilde yönetmek için Aspose.Words.ChartDataLabelCollection sınıfını keşfedin. Belgenizin görsel çekiciliğini bugün artırın!
 type: docs
-weight: 680
+weight: 940
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/
 ---
 ## ChartDataLabelCollection class
 
-Aşağıdakilerin bir koleksiyonunu temsil eder:[`ChartDataLabel`](../chartdatalabel/) .
+Bir koleksiyonu temsil eder[`ChartDataLabel`](../chartdatalabel/) .
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Grafiklerle Çalışmak](https://docs.aspose.com/words/net/working-with-charts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Grafiklerle Çalışma](https://docs.aspose.com/words/net/working-with-charts/) belgeleme makalesi.
 
 ```csharp
 public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
@@ -22,31 +22,34 @@ public class ChartDataLabelCollection : IEnumerable<ChartDataLabel>
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | Sayıyı döndürür[`ChartDataLabel`](../chartdatalabel/) bu koleksiyonda. |
-| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Tüm serinin veri etiketlerinin yazı tipi formatlamasına erişim sağlar. |
-| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Veri etiketlerinin dolgu ve satır formatına erişim sağlar. |
-| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | İadeler[`ChartDataLabel`](../chartdatalabel/) belirtilen dizin için. |
-| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Bir alır[`ChartNumberFormat`](../chartnumberformat/) the serisinin tamamının veri etiketleri için sayı formatını ayarlamaya izin veren örnek. |
-| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Tüm serinin veri etiketleri için kullanılan dize ayırıcıyı alır veya ayarlar. Yalnızca kategori adını ve yüzdesini gösteren pasta grafikleri dışında varsayılan değer virgüldür; bunun yerine satır sonu kullanılacaktır. |
-| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değer:`YANLIŞ` . |
-| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Tüm serinin veri etiketleri için kategori adının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değer:`YANLIŞ` . |
-| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Veri etiketleri aralığındaki değerlerin tüm serinin veri etiketlerinde görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değer:`YANLIŞ` . |
-| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Tüm serinin veri etiketleri için veri etiketi lider çizgilerinin gösterilmesinin gerekip gerekmediğini belirlemeye izin verir. Varsayılan değer:`YANLIŞ` . |
-| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Tüm serinin veri etiketleri için açıklama anahtarının görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değer:`YANLIŞ` . |
-| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirtmeye izin verir. Varsayılan değer:`YANLIŞ` . Yalnızca Pasta grafikleri için geçerlidir. |
-| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Tüm serinin veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar. `doğru` seri adını göstermek için;`YANLIŞ` saklanmak. Varsayılan olarak`YANLIŞ` . |
-| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Tüm serinin veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Varsayılan değer:`YANLIŞ` . |
+| [Count](../../aspose.words.drawing.charts/chartdatalabelcollection/count/) { get; } | sayısını döndürür[`ChartDataLabel`](../chartdatalabel/) bu koleksiyonda. |
+| [Font](../../aspose.words.drawing.charts/chartdatalabelcollection/font/) { get; } | Tüm serinin veri etiketlerinin yazı tipi biçimlendirmesine erişim sağlar. |
+| [Format](../../aspose.words.drawing.charts/chartdatalabelcollection/format/) { get; } | Veri etiketlerinin dolgu ve satır biçimlendirmesine erişim sağlar. |
+| [Item](../../aspose.words.drawing.charts/chartdatalabelcollection/item/) { get; } | Geri Döndürür[`ChartDataLabel`](../chartdatalabel/) belirtilen dizin için. |
+| [NumberFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/numberformat/) { get; } | Bir alır[`ChartNumberFormat`](../chartnumberformat/) serisinin veri etiketleri için sayı biçimini ayarlamaya izin veren örnek. |
+| [Orientation](../../aspose.words.drawing.charts/chartdatalabelcollection/orientation/) { get; set; } | Tüm serinin veri etiketlerinin metin yönünü alır veya ayarlar. |
+| [Position](../../aspose.words.drawing.charts/chartdatalabelcollection/position/) { get; set; } | Veri etiketlerinin konumunu alır veya ayarlar. |
+| [Rotation](../../aspose.words.drawing.charts/chartdatalabelcollection/rotation/) { get; set; } | Tüm serinin veri etiketlerinin derece cinsinden dönüşünü alır veya ayarlar. |
+| [Separator](../../aspose.words.drawing.charts/chartdatalabelcollection/separator/) { get; set; } | Tüm serinin veri etiketleri için kullanılan dize ayırıcısını alır veya ayarlar. Varsayılan değer virgüldür, ancak yalnızca kategori adını ve yüzdeyi gösteren pasta grafikleri için bunun yerine satır sonu kullanılır. |
+| [ShowBubbleSize](../../aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/) { get; set; } | Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değer`YANLIŞ` . |
+| [ShowCategoryName](../../aspose.words.drawing.charts/chartdatalabelcollection/showcategoryname/) { get; set; } | Tüm serinin veri etiketleri için kategori adının görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . |
+| [ShowDataLabelsRange](../../aspose.words.drawing.charts/chartdatalabelcollection/showdatalabelsrange/) { get; set; } | Veri etiketi aralığındaki değerlerin tüm serinin veri etiketlerinde görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . |
+| [ShowLeaderLines](../../aspose.words.drawing.charts/chartdatalabelcollection/showleaderlines/) { get; set; } | Tüm serinin veri etiketleri için veri etiketi lider çizgilerinin gösterilip gösterilmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . |
+| [ShowLegendKey](../../aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/) { get; set; } | Tüm serinin veri etiketleri için efsane anahtarının görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . |
+| [ShowPercentage](../../aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/) { get; set; } | Tüm serinin veri etiketleri için yüzdelik değerin görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . Yalnızca Pasta grafikleri için geçerlidir. |
+| [ShowSeriesName](../../aspose.words.drawing.charts/chartdatalabelcollection/showseriesname/) { get; set; } | Tüm serinin veri etiketleri için seri adı görüntüleme davranışını belirtmek üzere bir Boole değeri döndürür veya ayarlar. `doğru` dizi adını göstermek için;`YANLIŞ` gizlemek için. Varsayılan olarak`YANLIŞ` . |
+| [ShowValue](../../aspose.words.drawing.charts/chartdatalabelcollection/showvalue/) { get; set; } | Tüm serinin veri etiketlerinde değerlerin görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Tümünün biçimini temizler[`ChartDataLabel`](../chartdatalabel/) bu koleksiyonda. |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatalabelcollection/clearformat/)() | Tüm formatları temizler[`ChartDataLabel`](../chartdatalabel/) bu koleksiyonda. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Örnekler
 
-Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
+Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void DataLabels()
@@ -63,7 +66,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Grafikteki her seriye veri etiketleri uygulayın.
-    // Bu etiketler grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
+    // Bu etiketler, grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -80,24 +83,28 @@ public void DataLabels()
         }
     }
 
-    // Daha temiz görünen bir grafik için veri etiketlerini tek tek kaldırabiliriz.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri etiketinin tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için veri etiketlerini tek tek kaldırabiliriz.
+    dataLabel.ClearFormat();
+
+    // Ayrıca bir dizi verinin tüm etiketlerini bir kerede kaldırabiliriz.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Özel sayı formatına ve ayırıcıya sahip veri etiketlerini bir serideki çeşitli veri noktalarına uygulayın.
+/// Bir serideki birden fazla veri noktasına özel sayı biçimi ve ayırıcı ile veri etiketleri uygulayın.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -106,7 +113,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

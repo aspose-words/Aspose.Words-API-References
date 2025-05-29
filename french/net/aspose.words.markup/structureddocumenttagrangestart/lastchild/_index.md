@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.LastChild
 linktitle: LastChild
 articleTitle: LastChild
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart LastChild propriété. Obtient le dernier enfant de la plage stdContent en C#.
+description: Découvrez la propriété StructuredDocumentTagRangeStart LastChild pour accéder facilement au dernier enfant de votre plage stdContent pour une gestion améliorée des documents.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/

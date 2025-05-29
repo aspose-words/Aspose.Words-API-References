@@ -3,9 +3,9 @@ title: FieldToa Class
 linktitle: FieldToa
 articleTitle: FieldToa
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldToa klas. Implementiert das TOAFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldToa für die nahtlose Implementierung von TOA-Feldern. Verbessern Sie Ihre Dokumentenverarbeitung noch heute mit leistungsstarken Funktionen!
 type: docs
-weight: 2520
+weight: 2930
 url: /de/net/aspose.words.fields/fieldtoa/
 ---
 ## FieldToa class
@@ -28,45 +28,45 @@ public class FieldToa : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | Ruft den Namen des Lesezeichens ab, das den Teil des Dokuments markiert, der zum Erstellen der Tabelle verwendet wird, oder legt diesen fest. |
+| [BookmarkName](../../aspose.words.fields/fieldtoa/bookmarkname/) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest, das den Teil des Dokuments markiert, der zum Erstellen der Tabelle verwendet wurde. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | Ruft die Integralkategorie für in der Tabelle enthaltene Einträge ab oder legt diese fest. |
-| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | Ruft die Zeichenfolge ab, die zum Trennen eines Normverzeichniseintrags und seiner Seitenzahl verwendet wird, oder legt diese fest. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [EntryCategory](../../aspose.words.fields/fieldtoa/entrycategory/) { get; set; } | Ruft die integrale Kategorie für in der Tabelle enthaltene Einträge ab oder legt sie fest. |
+| [EntrySeparator](../../aspose.words.fields/fieldtoa/entryseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die zum Trennen eines Eintrags im Rechtsgrundlagenverzeichnis und seiner Seitenzahl verwendet wird. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | Ruft die Zeichenfolge ab, die zum Trennen zweier Seitenzahlen in einer Seitenzahlenliste verwendet wird, oder legt diese fest. |
-| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Ruft die Zeichenfolge ab, die zum Trennen des Anfangs und Endes eines Seitenbereichs verwendet wird, oder legt diese fest. |
-| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Ruft ab oder legt fest, ob die Formatierung des Eintragstexts im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
-| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Ruft den Namen einer Sequenz ab oder legt diesen fest, deren Nummer in der Seitenzahl enthalten ist. |
-| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Ruft die Zeichenfolge ab, die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird, oder legt diese fest. |
+| [PageNumberListSeparator](../../aspose.words.fields/fieldtoa/pagenumberlistseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die zum Trennen zweier Seitenzahlen in einer Seitenzahlenliste verwendet wird. |
+| [PageRangeSeparator](../../aspose.words.fields/fieldtoa/pagerangeseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die verwendet wird, um Anfang und Ende eines Seitenbereichs zu trennen. |
+| [RemoveEntryFormatting](../../aspose.words.fields/fieldtoa/removeentryformatting/) { get; set; } | Ruft ab oder legt fest, ob die Formatierung des Eintragstextes im Dokument aus dem Eintrag im Rechtsgrundlagenverzeichnis entfernt werden soll. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
+| [SequenceName](../../aspose.words.fields/fieldtoa/sequencename/) { get; set; } | Ruft den Namen einer Sequenz ab oder legt ihn fest, deren Nummer in der Seitenzahl enthalten ist. |
+| [SequenceSeparator](../../aspose.words.fields/fieldtoa/sequenceseparator/) { get; set; } | Ruft die Zeichenfolge ab oder legt sie fest, die zum Trennen von Sequenznummern und Seitenzahlen verwendet wird. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
-| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Ruft ab oder legt fest, ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis enthalten sein soll. |
-| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Ruft ab oder legt fest, ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch „passim“ ersetzt werden sollen, was verwendet wird, um anzugeben, dass ein Wort oder eine Passage häufig im zitierten Werk vorkommt. |
+| [UseHeading](../../aspose.words.fields/fieldtoa/useheading/) { get; set; } | Ruft ab oder legt fest, ob die Kategorieüberschrift für die Einträge in einem Rechtsgrundlagenverzeichnis eingeschlossen werden soll. |
+| [UsePassim](../../aspose.words.fields/fieldtoa/usepassim/) { get; set; } | Ruft ab oder legt fest, ob fünf oder mehr verschiedene Seitenverweise auf dieselbe Autorität durch „passim“ ersetzt werden sollen. Damit wird angegeben, dass ein Wort oder eine Passage häufig in dem zitierten Werk vorkommt. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
 ## Bemerkungen
 
-Erstellt unter Verwendung der von TA angegebenen -Einträge ein Autoritätsverzeichnis (d. h. eine Liste der Verweise in einem Rechtsdokument, z. B. Verweise auf Fälle, Gesetze und Regeln, zusammen mit den Nummern der Seiten, auf denen die Verweise erscheinen). Felder.
+Erstellt ein Rechtsgrundlagenverzeichnis (d. h. eine Liste der Verweise in einem juristischen Dokument, z. B. Verweise auf Fälle, Gesetze und Regeln zusammen mit den Seitenzahlen, auf denen die Verweise erscheinen) unter Verwendung der Einträge, die in den TA-Feldern angegeben sind.
 
 ## Beispiele
 
-Zeigt, wie man mithilfe von TOA- und TA-Feldern ein Autoritätsverzeichnis erstellt und anpasst.
+Zeigt, wie Sie mithilfe der Felder TOA und TA ein Rechtsgrundlagenverzeichnis erstellen und anpassen.
 
 ```csharp
 public void FieldTOA()
@@ -74,41 +74,41 @@ public void FieldTOA()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Ein TOA-Feld einfügen, das einen Eintrag für jedes TA-Feld im Dokument erstellt,
+    // Fügen Sie ein TOA-Feld ein, das für jedes TA-Feld im Dokument einen Eintrag erstellt.
     // Anzeige langer Zitate und Seitenzahlen für jeden Eintrag.
     FieldToa fieldToa = (FieldToa)builder.InsertField(FieldType.FieldTOA, false);
 
-    // Legen Sie die Eintragskategorie für unsere Tabelle fest. Diese TOA umfasst jetzt nur noch TA-Felder
-    // die einen passenden Wert in ihrer EntryCategory-Eigenschaft haben.
+    // Legen Sie die Eintragskategorie für unsere Tabelle fest. Diese TOA enthält jetzt nur noch TA-Felder
+    // die einen übereinstimmenden Wert in ihrer EntryCategory-Eigenschaft haben.
     fieldToa.EntryCategory = "1";
 
-    // Darüber hinaus lautet die Kategorie „Tabelle der Behörden“ auf Index 1 „Fälle“.
-    // was als Titel unserer Tabelle angezeigt wird, wenn wir diese Variable auf true setzen.
+    // Darüber hinaus lautet die Kategorie des Rechtsgrundlagenverzeichnisses bei Index 1 „Fälle“,
+    // was als Titel unserer Tabelle angezeigt wird, wenn wir diese Variable auf „true“ setzen.
     fieldToa.UseHeading = true;
 
     // Wir können TA-Felder weiter filtern, indem wir ein Lesezeichen benennen, das besagt, dass sie innerhalb der TOA-Grenzen liegen müssen.
     fieldToa.BookmarkName = "MyBookmark";
 
-    // Standardmäßig wird zwischen dem Zitat des TA-Felds eine seitenweite Registerkarte mit gepunkteter Linie angezeigt
-    // und seine Seitenzahl. Wir können es durch jeden Text ersetzen, den wir auf dieser Eigenschaft platzieren.
+    // Standardmäßig wird eine seitenbreite Registerkarte mit gepunkteter Linie zwischen den Zitaten des TA-Felds angezeigt
+    // und seine Seitenzahl. Wir können es durch jeden beliebigen Text ersetzen, den wir in diese Eigenschaft einfügen.
     // Durch das Einfügen eines Tabulatorzeichens bleibt der ursprüngliche Tabulator erhalten.
     fieldToa.EntrySeparator = " \t p.";
 
-    // Wenn wir mehrere TA-Einträge haben, die dasselbe lange Zitat haben,
-    // alle zugehörigen Seitenzahlen werden in einer Zeile angezeigt.
+    // Wenn wir mehrere TA-Einträge haben, die das gleiche lange Zitat teilen,
+    // Alle entsprechenden Seitenzahlen werden in einer Zeile angezeigt.
     // Wir können diese Eigenschaft verwenden, um eine Zeichenfolge anzugeben, die ihre Seitenzahlen trennt.
     fieldToa.PageNumberListSeparator = " & p. ";
 
-    // Wir können dies auf „true“ setzen, damit unsere Tabelle das Wort „passim“ anzeigt.
-    // wenn in einer Zeile fünf oder mehr Seitenzahlen stehen.
+    // Wir können dies auf „true“ setzen, damit in unserer Tabelle das Wort „passim“ angezeigt wird.
+    // wenn sich fünf oder mehr Seitenzahlen in einer Zeile befinden.
     fieldToa.UsePassim = true;
 
-    // Ein TA-Feld kann sich auf einen Bereich von Seiten beziehen.
-    // Wir können hier eine Zeichenfolge angeben, die zwischen der Start- und Endseitennummer für solche Bereiche angezeigt wird.
+    // Ein TA-Feld kann sich auf einen Seitenbereich beziehen.
+    // Wir können hier eine Zeichenfolge angeben, die zwischen den Start- und Endseitenzahlen für solche Bereiche angezeigt wird.
     fieldToa.PageRangeSeparator = " to ";
 
     // Das Format aus den TA-Feldern wird in unsere Tabelle übernommen.
-    // Wir können dies deaktivieren, indem wir das RemoveEntryFormatting-Flag setzen.
+    // Wir können dies deaktivieren, indem wir das Flag RemoveEntryFormatting setzen.
     fieldToa.RemoveEntryFormatting = true;
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
@@ -118,17 +118,17 @@ public void FieldTOA()
     builder.InsertBreak(BreakType.PageBreak);
 
     // Dieses TA-Feld erscheint nicht als Eintrag im TOA, da es außerhalb liegt
-    // die Grenzen des Lesezeichens, die die BookmarkName-Eigenschaft des TOA angibt.
+    // die Grenzen des Lesezeichens, die durch die BookmarkName-Eigenschaft des TOA angegeben werden.
     FieldTA fieldTA = InsertToaEntry(builder, "1", "Source 1");
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
 
-    // Dieses TA-Feld befindet sich im Lesezeichen,
-    // aber die Eintragskategorie stimmt nicht mit der der Tabelle überein, sodass das TA-Feld sie nicht enthält.
+    // Dieses TA-Feld befindet sich innerhalb des Lesezeichens,
+    // aber die Eintragskategorie stimmt nicht mit der der Tabelle überein, daher wird sie nicht in das TA-Feld aufgenommen.
     builder.StartBookmark("MyBookmark");
     fieldTA = InsertToaEntry(builder, "2", "Source 2");
 
-    // Dieser Eintrag erscheint in der Tabelle.
+    // Dieser Eintrag wird in der Tabelle angezeigt.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
 
     // Eine TOA-Tabelle zeigt keine Kurzzitate an,
@@ -137,18 +137,18 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
 
-    // Mit den folgenden Eigenschaften können wir die Seitenzahl so formatieren, dass sie fett/kursiv erscheint.
-    // Wir werden diese Effekte immer noch sehen, wenn wir unsere Tabelle so einstellen, dass sie die Formatierung ignoriert.
+    // Wir können die Seitenzahl mit den folgenden Eigenschaften fett/kursiv formatieren.
+    // Wir werden diese Effekte immer noch sehen, wenn wir unsere Tabelle so einstellen, dass die Formatierung ignoriert wird.
     fieldTA = InsertToaEntry(builder, "1", "Source 2");
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
 
-    // Wir können TA-Felder so konfigurieren, dass ihre TOA-Einträge auf einen Bereich von Seiten verweisen, über die sich ein Lesezeichen erstreckt.
-    // Beachten Sie, dass sich dieser Eintrag auf dieselbe Quelle wie der obige bezieht, um eine Zeile in unserer Tabelle gemeinsam zu nutzen.
+    // Wir können TA-Felder so konfigurieren, dass ihre TOA-Einträge auf einen Seitenbereich verweisen, über den sich ein Lesezeichen erstreckt.
+    // Beachten Sie, dass dieser Eintrag auf dieselbe Quelle wie der obige verweist, um eine Zeile in unserer Tabelle gemeinsam zu nutzen.
     // Diese Zeile enthält die Seitenzahl des obigen Eintrags und den Seitenbereich dieses Eintrags.
-    // mit der Seitenliste der Tabelle und den Seitenzahlbereichstrennzeichen zwischen den Seitenzahlen.
+    // mit der Seitenliste der Tabelle und den Seitenzahlenbereichstrennzeichen zwischen den Seitenzahlen.
     fieldTA = InsertToaEntry(builder, "1", "Source 3");
     fieldTA.PageRangeBookmarkName = "MyMultiPageBookmark";
 
@@ -160,7 +160,7 @@ public void FieldTOA()
 
     Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
 
-    // Wenn wir die „Passim“-Funktion unserer Tabelle aktiviert haben, wird sie bei 5 oder mehr TA-Einträgen mit derselben Quelle aufgerufen.
+    // Wenn wir die Funktion „Passim“ unserer Tabelle aktiviert haben, wird sie durch 5 oder mehr TA-Einträge mit derselben Quelle aufgerufen.
     for (int i = 0; i < 5; i++)
     {
         InsertToaEntry(builder, "1", "Source 4");

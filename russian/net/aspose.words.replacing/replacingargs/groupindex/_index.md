@@ -3,7 +3,7 @@ title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
 second_title: Aspose.Words для .NET
-description: ReplacingArgs GroupIndex свойство. Идентифицирует по индексу захваченную группу вMatch  который необходимо заменить наReplacement строка на С#.
+description: Узнайте, как использовать свойство GroupIndex в ReplacingArgs, чтобы легко определять и заменять захваченные группы в совпадениях с вашими пользовательскими строками.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.replacing/replacingargs/groupindex/
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## Примечания
 
-`GroupIndex`имеет эффект только тогда, когда[`GroupName`](../groupname/) является`нулевой`.
+`GroupIndex` имеет эффект только тогда, когда[`GroupName`](../groupname/) является`нулевой`.
 
 По умолчанию — ноль.
 
 ## Примеры
 
-Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
+Показывает, как применить другой шрифт к новому контенту с помощью FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -39,7 +39,7 @@ public void ConvertNumbersToHexadecimal()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
+    // Задайте свойству "HighlightColor" цвет фона, который мы хотим применить к результирующему тексту операции.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведёт журнал каждой замены.
+/// Заменяет числовые совпадения поиска и замены на их шестнадцатеричные эквиваленты.
+/// Ведет журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

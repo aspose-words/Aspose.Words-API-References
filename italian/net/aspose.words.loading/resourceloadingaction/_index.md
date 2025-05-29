@@ -3,16 +3,16 @@ title: ResourceLoadingAction Enum
 linktitle: ResourceLoadingAction
 articleTitle: ResourceLoadingAction
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Loading.ResourceLoadingAction enum. Specifica la modalità di caricamento delle risorse in C#.
+description: Scopri l'enum Aspose.Words.ResourceLoadingAction per modalità di caricamento risorse efficienti. Migliora l'elaborazione dei tuoi documenti con prestazioni ottimizzate!
 type: docs
-weight: 3680
+weight: 4140
 url: /it/net/aspose.words.loading/resourceloadingaction/
 ---
 ## ResourceLoadingAction enumeration
 
 Specifica la modalità di caricamento delle risorse.
 
-Per saperne di più, visita il[Specificare le opzioni di caricamento](https://docs.aspose.com/words/net/specify-load-options/) articolo di documentazione.
+Per saperne di più, visita il[Specificare le opzioni di carico](https://docs.aspose.com/words/net/specify-load-options/) articolo di documentazione.
 
 ```csharp
 public enum ResourceLoadingAction
@@ -22,13 +22,13 @@ public enum ResourceLoadingAction
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Aspose.Words caricherà questa risorsa come al solito. |
-| Skip | `1` | Aspose.Words salterà il caricamento di questa risorsa. Per un'immagine verrà archiviato solo il collegamento senza dati, il foglio di stile CSS verrà ignorato per il formato HTML. |
-| UserProvided | `2` | Aspose.Words utilizzerà l'array di byte fornito dall'utente in[`SetData`](../resourceloadingargs/setdata/) come dati di risorsa. |
+| Default | `0` | Aspose.Words caricherà questa risorsa come di consueto. |
+| Skip | `1` | Aspose.Words salterà il caricamento di questa risorsa. Per un'immagine verrà memorizzato solo il collegamento senza dati, il foglio di stile CSS verrà ignorato per il formato HTML. |
+| UserProvided | `2` | Aspose.Words utilizzerà l'array di byte fornito dall'utente in[`SetData`](../resourceloadingargs/setdata/) come dati di risorse. |
 
 ## Esempi
 
-Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
+Mostra come personalizzare il processo di caricamento di risorse esterne in un documento.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -38,7 +38,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Le immagini solitamente vengono inserite utilizzando un URI o un array di byte.
+    // Le immagini vengono solitamente inserite tramite un URI o un array di byte.
     // Ogni istanza di caricamento di una risorsa chiamerà il metodo ResourceLoading del nostro callback.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -50,14 +50,14 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
-/// Ciò separerà la logica di caricamento dell'immagine dal resto della costruzione del documento.
+/// Consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
+/// In questo modo la logica di caricamento delle immagini verrà separata dal resto della costruzione del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Se questo callback incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
+        // Se questo callback incontra una delle abbreviazioni dell'immagine durante il caricamento di un'immagine,
         // applicherà una logica univoca per ogni abbreviazione definita invece di trattarla come un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

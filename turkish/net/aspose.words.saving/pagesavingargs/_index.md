@@ -2,17 +2,17 @@
 title: PageSavingArgs Class
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PageSavingArgs sınıf. Şunun için veri sağlarPageSaving olay C#'da.
+second_title: .NET için Aspose.Words
+description: Ayrıntılı PageSaving olay verileriyle belge işlemeyi optimize etmek için gerekli olan Aspose.Words.Saving.PageSavingArgs sınıfını keşfedin. İş akışınızı geliştirin!
 type: docs
-weight: 5380
+weight: 6160
 url: /tr/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
 Şunun için veri sağlar:[`PageSaving`](../ipagesavingcallback/pagesaving/) olay.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) belgeleme makalesi.
 
 ```csharp
 public class PageSavingArgs
@@ -28,14 +28,14 @@ public class PageSavingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | Aspose.Words'ün belge sayfasını kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
+| [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | Aspose.Words'ün bir belge sayfasını kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir. |
 | [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename/) { get; set; } | Belge sayfasının kaydedileceği dosya adını alır veya ayarlar. |
-| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Geçerli sayfa dizini. |
-| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Belge sayfasının kaydedileceği akışı belirtmeye izin verir. |
+| [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | Mevcut sayfa dizini. |
+| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | Belge sayfasının kaydedileceği akışı belirtmenize olanak tanır. |
 
 ## Örnekler
 
-Bir belgeyi sayfa sayfa HTML'ye kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
+Bir belgeyi sayfa sayfa HTML olarak kaydetmek için geri aramanın nasıl kullanılacağını gösterir.
 
 ```csharp
 public void PageFileNames()
@@ -50,12 +50,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Bu belgedeki her sayfayı yerel dosya sisteminde ayrı bir HTML dosyasına kaydedeceğiz.
-    // Her çıktı HTML belgesini adlandırmamızı sağlayan bir geri çağırma ayarlayın.
+    // Bu belgedeki her sayfayı yerel dosya sistemindeki ayrı bir HTML dosyasına kaydedeceğiz.
+    // Her çıktı HTML belgesine isim vermemizi sağlayacak bir geri çağırma ayarlayın.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -67,7 +67,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Tüm sayfaları belirtilen dosya ve dizine kaydeder.
+/// Tüm sayfaları belirtilen bir dosyaya ve dizine kaydeder.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -75,11 +75,11 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Aşağıda Aspose.Words'ün belgenin her sayfasını nereye kaydedeceğini belirtmenin iki yolu verilmiştir.
-        // 1 - Çıkış sayfası dosyası için bir dosya adı belirleyin:
+        // Aşağıda Aspose.Words'ün belgenin her sayfasını nereye kaydedeceğini belirtmenin iki yolu bulunmaktadır.
+        // 1 - Çıktı sayfası dosyası için bir dosya adı belirleyin:
         args.PageFileName = outFileName;
 
-        // 2 - Çıkış sayfası dosyası için özel bir akış oluşturun:
+        // 2 - Çıktı sayfası dosyası için özel bir akış oluşturun:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

@@ -2,15 +2,15 @@
 title: IFieldUpdatingProgressCallback Interface
 linktitle: IFieldUpdatingProgressCallback
 articleTitle: IFieldUpdatingProgressCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.IFieldUpdatingProgressCallback arayüz. Saha güncelleme sürecini izlemek istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Fields.IFieldUpdatingProgressCallback arayüzü ile alan güncelleme ilerlemesini sorunsuz bir şekilde takip edin. Belge yönetiminizi bugün geliştirin!
 type: docs
-weight: 2730
+weight: 3140
 url: /tr/net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
 
-Saha güncelleme sürecini izlemek istiyorsanız bu arayüzü uygulayın.
+Alan güncelleme ilerlemesini takip etmek istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IFieldUpdatingProgressCallback
@@ -20,11 +20,11 @@ public interface IFieldUpdatingProgressCallback
 
 | İsim | Tanım |
 | --- | --- |
-| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | Güncelleme ilerleme durumu değiştirildiğinde çağrılan kullanıcı tanımlı bir yöntem. |
+| [Notify](../../aspose.words.fields/ifieldupdatingprogresscallback/notify/)(*[FieldUpdatingProgressArgs](../fieldupdatingprogressargs/)*) | İlerleme güncellendiğinde çağrılan kullanıcı tanımlı bir yöntem. |
 
 ## Örnekler
 
-Alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
+Bir alan güncellemesi sırasında geri çağırma yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

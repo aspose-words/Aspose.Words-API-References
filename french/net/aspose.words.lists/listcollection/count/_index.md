@@ -3,7 +3,7 @@ title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: ListCollection Count propriété. Obtient le nombre de listes numérotées et à puces dans le document en C#.
+description: Découvrez la propriété ListCollection Count pour récupérer facilement le nombre de listes numérotées et à puces dans votre document, améliorant ainsi l'organisation de votre contenu.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listcollection/count/

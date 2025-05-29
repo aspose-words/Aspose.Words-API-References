@@ -3,7 +3,7 @@ title: PageSetup.PageWidth
 linktitle: PageWidth
 articleTitle: PageWidth
 second_title: Aspose.Words per .NET
-description: PageSetup PageWidth proprietà. Restituisce o imposta la larghezza della pagina in punti in C#.
+description: Scopri la proprietà PageWidth di PageSetup per regolare facilmente la larghezza della pagina in punti, migliorando il layout del documento per una presentazione ottimale.
 type: docs
 weight: 340
 url: /it/net/aspose.words/pagesetup/pagewidth/
@@ -25,9 +25,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci l'immagine nell'intestazione in modo che sia visibile su ogni pagina.
-Image image = Image.FromFile(ImageDir + "Transparent background logo.png");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-Shape shape = builder.InsertImage(image);
+Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
 
@@ -40,32 +39,6 @@ shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermark.docx");
 ```
 
-Mostra come inserire un'immagine e utilizzarla come filigrana (.NetStandard 2.0).
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Inserisci l'immagine nell'intestazione in modo che sia visibile su ogni pagina.
-builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Transparent background logo.png"))
-{
-    builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
-    Shape shape = builder.InsertImage(image);
-    shape.WrapType = WrapType.None;
-    shape.BehindText = true;
-
-    // Posiziona l'immagine al centro della pagina.
-    shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
-    shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
-    shape.Left = (builder.PageSetup.PageWidth - shape.Width) / 2;
-    shape.Top = (builder.PageSetup.PageHeight - shape.Height) / 2;
-}
-
-doc.Save(ArtifactsDir + "DocumentBuilder.InsertWatermarkNetStandard2.docx");
-```
-
 Mostra come inserire un'immagine mobile e specificarne la posizione e le dimensioni.
 
 ```csharp
@@ -76,13 +49,13 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
 // Configura la proprietà "RelativeHorizontalPosition" della forma per trattare il valore della proprietà "Left"
- // come la distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
+ // come distanza orizzontale della forma, in punti, dal lato sinistro della pagina.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
 // Imposta la distanza orizzontale della forma dal lato sinistro della pagina su 100.
 shape.Left = 100;
 
-// Utilizza la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80pt sotto la parte superiore della pagina.
+// Utilizzare la proprietà "RelativeVerticalPosition" in modo simile per posizionare la forma 80 pt sotto la parte superiore della pagina.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 

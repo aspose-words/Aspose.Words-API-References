@@ -2,15 +2,15 @@
 title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
-second_title: Aspose.Words for .NET
-description: ChartXValue StringValue mülk. Saklanan dize değerini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için depolanan dize değerlerini etkili bir şekilde alan ve yöneten ChartXValue StringValue özelliğini keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
 ---
 ## ChartXValue.StringValue property
 
-Saklanan dize değerini alır.
+Depolanan dize değerini alır.
 
 ```csharp
 public string StringValue { get; }

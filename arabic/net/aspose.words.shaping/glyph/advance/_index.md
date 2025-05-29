@@ -3,14 +3,14 @@ title: Glyph.Advance
 linktitle: Advance
 articleTitle: Advance
 second_title: Aspose.Words لـ .NET
-description: Glyph Advance ملكية. العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة في C#.
+description: اكتشف خصائص Glyph Advance، وقم بتحسين تخطيط النص باستخدام مؤشرات العرض الدقيقة لوضع الحروف بسلاسة وتحسين إمكانية القراءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.shaping/glyph/advance/
 ---
 ## Glyph.Advance property
 
-العرض المتقدم يشير إلى موضع الصورة الرمزية اللاحقة.
+عرض متقدم يشير إلى موضع الحرف التالي.
 
 ```csharp
 public short Advance { get; set; }

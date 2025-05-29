@@ -3,9 +3,9 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words per .NET
-description: Aspose.Words.NodeChangingAction enum. Specifica il tipo di modifica del nodo in C#.
+description: Scopri l'enum Aspose.Words.NodeChangingAction per gestire in modo efficiente le modifiche ai nodi nei tuoi documenti. Migliora subito le tue capacità di elaborazione dei documenti!
 type: docs
-weight: 4180
+weight: 4870
 url: /it/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -25,7 +25,7 @@ public enum NodeChangingAction
 
 ## Esempi
 
-Mostra come utilizzare un NodeChangingCallback per monitorare le modifiche all'albero del documento in tempo reale mentre lo modifichiamo.
+Mostra come utilizzare un NodeChangingCallback per monitorare in tempo reale le modifiche apportate all'albero del documento durante la modifica.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Stampa ogni inserimento/rimozione di nodi così come avviene nel documento.
+/// Stampa ogni inserimento/rimozione di nodo non appena avviene nel documento.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

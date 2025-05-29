@@ -3,14 +3,14 @@ title: FontFeature Enum
 linktitle: FontFeature
 articleTitle: FontFeature
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shaping.FontFeature تعداد. توفر الميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https//docs.microsoft.com/enus/typography/opentype/spec/featuretags في C#.
+description: اكتشف مجموعة Aspose.Words.Shaping.FontFeature، التي تُفصّل استخدام الحروف في الخطوط لعرض النصوص. حسّن معرفتك بالطباعة اليوم!
 type: docs
-weight: 6030
+weight: 6860
 url: /ar/net/aspose.words.shaping/fontfeature/
 ---
 ## FontFeature enumeration
 
-توفر الميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags
+توفر ميزات معلومات حول كيفية استخدام الحروف الرسومية في الخط لعرض البرنامج النصي. https://docs.microsoft.com/en-us/typography/opentype/spec/featuretags
 
 ```csharp
 public enum FontFeature
@@ -20,19 +20,19 @@ public enum FontFeature
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| GlyphCompositionDecomposition | `1667460464` | لتقليل عدد بدائل الحروف الرسومية، من المستحسن في بعض الأحيان تحليل الحرف الرسومي الافتراضي للحرف إلى حرفين رسوميين أو أكثر. بالإضافة إلى ذلك، قد يكون من الأفضل إنشاء صور رمزية افتراضية لحرفين أو أكثر في حرف رسومي واحد للحصول على حرف رسومي أفضل المعالجة. تسمح هذه الميزة بالتركيب/التحليل. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ae#ccmp علامة OpenType المكافئة: 'ccmp' |
-| StandardLigatures | `1818847073` | يستبدل تسلسل الحروف الرسومية بحرف رسومي واحد مفضل للأغراض المطبعية. تغطي هذه الميزة الحروف المركبة التي يرى المصمم/الشركة المصنعة أنه يجب استخدامها في الظروف العادية. علامة OpenType المكافئة: 'liga' https://docs .microsoft.com/en-us/typography/opentype/spec/features_ko#liga |
-| RequiredLigatures | `1919707495` | يستبدل تسلسل الحروف الرسومية بحرف رسومي واحد مفضل لأغراض الطباعة. تغطي هذه الميزة تلك الأحرف المركبة، والتي يحددها البرنامج النصي على أنها مطلوبة للاستخدام في الظروف العادية. هذه الميزة مهمة لبعض البرامج النصية لضمان تكوين الحروف الرسومية الصحيحة . https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#rlig علامة OpenType المكافئة: 'rlig' |
-| ContextualLigatures | `1668049255` | يستبدل تسلسل الحروف الرسومية بحرف رسومي واحد مفضل لأغراض الطباعة. على عكس ميزات الحروف المركبة الأخرى، يحدد 'clig' السياق الذي يوصى فيه بالأحرف المركبة. هذه الإمكانية مهمة في بعض تصميمات البرامج النصية والأحرف المركبة المائلة. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ae#clig علامة OpenType المكافئة: 'clig' |
-| DiscretionaryLigatures | `1684826471` | يستبدل تسلسل الحروف الرسومية بحرف رسومي واحد مفضل لأغراض الطباعة. تغطي هذه الميزة تلك الأحرف المركبة التي يمكن استخدامها لتأثير خاص، حسب تفضيلات المستخدم. https://docs.microsoft.com/en-us /typography/opentype/spec/features_ae#dlig علامة OpenType المكافئة: 'dlig' |
-| HistoricalLigatures | `1751935335` | كانت بعض الحروف المركبة شائعة الاستخدام في الماضي، ولكنها تبدو وكأنها عفا عليها الزمن اليوم. تتضمن بعض الخطوط النماذج التاريخية كبدائل، بحيث يمكن استخدامها لتأثير "الفترة". تستبدل هذه الميزة النماذج الافتراضية (الحالية) بالملحق البدائل التاريخية. https://docs.microsoft.com/en-us/typography/opentype/spec/features_fj#hlig علامة OpenType المكافئة: 'hlig' |
-| ProportionalFigures | `1886287213` | يستبدل الحروف الرسومية الشكلية التي تم تعيينها على عروض موحدة (جدولية) بالحروف الرسومية المقابلة التي تم تعيينها على عروض الحروف الرسومية (المتناسبة). https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-pnum علامة OpenType المكافئة: 'pnum' |
-| TabularFigures | `1953396077` | يستبدل الحروف الرسومية الشكلية التي تم تعيينها على عروض متناسبة مع الحروف الرسومية المقابلة التي تم تعيينها على عروض موحدة (جدولية). ستكون العروض الجدولية هي الافتراضية بشكل عام، ولكن لا يمكن افتراض ذلك بأمان. بالطبع لن تكون هذه الميزة موجودة في التصميمات أحادية المسافة. https //docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-tnum علامة OpenType المكافئة: 'tnum' |
+| GlyphCompositionDecomposition | `1667460464` | لتقليل عدد البدائل بين الحروف، من المستحسن أحيانًا تحليل الحرف الافتراضي لحرف ما إلى حرفين أو أكثر. بالإضافة إلى ذلك، قد يكون من الأفضل تكوين حروف افتراضية لحرفين أو أكثر في حرف واحد لمعالجة الحروف بشكل أفضل. تسمح هذه الميزة بمثل هذا التكوين/التحليل. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ae#ccmp علامة OpenType المكافئة: 'ccmp' |
+| StandardLigatures | `1818847073` | يستبدل سلسلة من الحروف بحرف واحد مفضل لأغراض الطباعة. تغطي هذه الميزة الأربطة التي يقرر المصمم/الشركة المصنعة أنه يجب استخدامها في الظروف العادية. علامة OpenType المكافئة: 'liga' https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#liga |
+| RequiredLigatures | `1919707495` | يستبدل سلسلة من الحروف بحرف واحد مفضل لأغراض الطباعة. تغطي هذه الميزة تلك الأربطة، التي يحددها البرنامج النصي على أنها مطلوبة للاستخدام في الظروف العادية. هذه الميزة مهمة لبعض البرامج النصية لضمان تكوين الحروف بشكل صحيح. https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#rlig علامة OpenType المكافئة: 'rlig' |
+| ContextualLigatures | `1668049255` | يستبدل سلسلة من الحروف بحرف واحد مفضل لأغراض الطباعة. على عكس ميزات الربط الأخرى، يحدد 'clig' السياق الذي يوصى فيه بالربط. تُعد هذه الإمكانية مهمة في بعض تصميمات النصوص ولربطات swash. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ae#clig علامة OpenType المكافئة: 'clig' |
+| DiscretionaryLigatures | `1684826471` | يستبدل سلسلة من الحروف بحرف واحد مفضل لأغراض الطباعة. تغطي هذه الميزة تلك الروابط التي يمكن استخدامها للتأثيرات الخاصة، حسب تفضيل المستخدم. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ae#dlig علامة OpenType المكافئة: 'dlig' |
+| HistoricalLigatures | `1751935335` | كانت بعض الروابط مستخدمة بشكل شائع في الماضي، ولكنها تبدو قديمة اليوم. تتضمن بعض الخطوط الأشكال التاريخية كبدائل، لذا يمكن استخدامها لتأثير "الفترة". تستبدل هذه الميزة الأشكال الافتراضية (الحالية) بالبدائل التاريخية. https://docs.microsoft.com/en-us/typography/opentype/spec/features_fj#hlig علامة OpenType المكافئة: 'hlig' |
+| ProportionalFigures | `1886287213` | يستبدل رموز الأشكال الموجودة على عرض موحد (جدولي) برموز مقابلة موجودة على عرض خاص بالرموز (متناسب). https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-pnum علامة OpenType المكافئة: 'pnum' |
+| TabularFigures | `1953396077` | يستبدل رموز الأشكال المحددة بعرض متناسب بالرموز المقابلة المحددة بعرض موحد (جدولي). ستكون العروض الجدولية هي الافتراضية بشكل عام، ولكن لا يمكن افتراض ذلك بأمان. بالطبع لن تكون هذه الميزة موجودة في التصميمات أحادية المسافة. https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-tnum علامة OpenType المكافئة: 'tnum' |
 | LiningFigures | `1819178349` | تعمل هذه الميزة على تغيير الأشكال غير المبطنة المحددة إلى أشكال مبطنة. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#lnum علامة OpenType المكافئة: 'lnum' |
-| OldstyleFigures | `1869509997` | تعمل هذه الميزة على تغيير الأشكال المحددة من النمط الافتراضي أو نمط البطانة إلى نموذج النمط القديم. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#onum علامة OpenType المكافئة: 'onum' |
-| VerticalAlternates | `1986359924` | تحويل الحروف الرسومية الافتراضية إلى صور رمزية مناسبة للعرض التقديمي المستقيم في وضع الكتابة العمودي. https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vert علامة OpenType المكافئة: 'vert' |
-| VerticalAlternatesAndRotation | `1987212338` | يستبدل بعض الحروف الرسومية ذات العرض الثابت (نصف أو ثالث أو ربع) أو ذات العرض المتناسب (معظمها لاتينية أو كاتاكانا) بأشكال مناسبة للكتابة العمودية (أي تدويرها 90 درجة في اتجاه عقارب الساعة). https:// docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vrt2 علامة OpenType المكافئة: 'vrt2' |
-| StylisticSet01 | `1936928817` | المجموعة الأسلوبية 1 بالإضافة إلى، أو بدلاً من، البدائل الأسلوبية للحروف الرسومية الفردية (راجع ميزة "الملح")، قد تحتوي بعض الخطوط على مجموعات من الصور الرمزية المتغيرة الأسلوبية المقابلة لأجزاء من مجموعة الأحرف، على سبيل المثال، المتغيرات المتعددة للأحرف الصغيرة في خط لاتيني. https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-ss01---ss20 علامة OpenType المكافئة: 'ss01' |
+| OldstyleFigures | `1869509997` | تعمل هذه الميزة على تغيير الأشكال المحددة من النمط الافتراضي أو نمط التبطين إلى النموذج القديم. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#onum علامة OpenType المكافئة: 'onum' |
+| VerticalAlternates | `1986359924` | يحول الحروف الرسومية الافتراضية إلى حروف رسومية مناسبة للعرض المستقيم في وضع الكتابة الرأسي. https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vert علامة OpenType المكافئة: 'vert' |
+| VerticalAlternatesAndRotation | `1987212338` | يستبدل بعض الحروف ذات العرض الثابت (نصف أو ثلث أو ربع العرض) أو ذات العرض المتناسب (معظمها لاتينية أو كاتاكانا) بأشكال مناسبة للكتابة الرأسية (أي، تدور 90 درجة في اتجاه عقارب الساعة). https://docs.microsoft.com/en-us/typography/opentype/spec/features_uz#tag-vrt2 علامة OpenType المكافئة: 'vrt2' |
+| StylisticSet01 | `1936928817` | المجموعة الأسلوبية 1 بالإضافة إلى، أو بدلاً من، البدائل الأسلوبية للرموز الفردية (انظر ميزة "salt")، قد تحتوي بعض الخطوط على مجموعات من الرموز الأسلوبية المتنوعة التي تتوافق مع أجزاء من مجموعة الأحرف، على سبيل المثال، متغيرات متعددة للأحرف الصغيرة في الخط اللاتيني. https://docs.microsoft.com/en-us/typography/opentype/spec/features_pt#tag-ss01---ss20 علامة OpenType المكافئة: 'ss01' |
 | StylisticSet02 | `1936928818` | المجموعة الأسلوبية 2 علامة OpenType المكافئة: 'ss02' |
 | StylisticSet03 | `1936928819` | المجموعة الأسلوبية 3 علامة OpenType المكافئة: 'ss03' |
 | StylisticSet04 | `1936928820` | المجموعة الأسلوبية 4 علامة OpenType المكافئة: 'ss04' |
@@ -52,7 +52,7 @@ public enum FontFeature
 | StylisticSet18 | `1936929080` | المجموعة الأسلوبية 18 علامة OpenType المكافئة: 'ss18' |
 | StylisticSet19 | `1936929081` | المجموعة الأسلوبية 19 علامة OpenType المكافئة: 'ss19' |
 | StylisticSet20 | `1936929328` | المجموعة الأسلوبية 20 علامة OpenType المكافئة: 'ss20' |
-| Kerning | `1801810542` | يضبط مقدار المسافة بين الحروف الرسومية، بشكل عام لتوفير تباعد متسق بصريًا بين الحروف الرسومية. على الرغم من أن المحرف المصمم جيدًا يحتوي على تباعد متسق بين الحروف الرسومية بشكل عام، إلا أن بعض مجموعات الحروف الرسومية تتطلب تعديلًا لتحسين الوضوح. إلى جانب الضبط القياسي في الاتجاه الأفقي، يمكن لهذه الميزة توفير بيانات تقنين تعتمد على الحجم عبر جداول الأجهزة، تقنين الأحرف "المتقاطع" في اتجاه النص Y، وضبط موضع الحرف الرسومي بشكل مستقل عن التعديل المتقدم. لاحظ أن هذه الميزة قد تنطبق على تشغيل أكثر من اثنين الحروف الرسومية، ولن يتم استخدامها في الخطوط أحادية المسافة. لاحظ أيضًا أن هذه الميزة لا تنطبق على مجموعة النص عموديًا. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#kern Equivalent علامة OpenType: 'kern' |
+| Kerning | `1801810542` | يضبط مقدار المسافة بين الحروف، لتوفير تباعد بصري متسق بين الحروف. على الرغم من أن الخطوط المصممة جيدًا تتميز بمسافات متسقة بين الحروف بشكل عام، إلا أن بعض مجموعات الحروف تتطلب تعديلًا لتحسين الوضوح. بالإضافة إلى التعديل القياسي في الاتجاه الأفقي، يمكن لهذه الميزة توفير بيانات التباعد بين الحروف المعتمدة على الحجم عبر جداول الأجهزة، التباعد بين الحروف "عبر التيار" في اتجاه النص Y، وتعديل موضع الحرف بشكل مستقل عن التعديل المسبق. لاحظ أن هذه الميزة قد تنطبق على عمليات تشغيل لأكثر من حرفين، ولن تُستخدم في الخطوط أحادية المسافة. لاحظ أيضًا أن هذه الميزة لا تنطبق على النصوص الموضوعة عموديًا. https://docs.microsoft.com/en-us/typography/opentype/spec/features_ko#kern علامة OpenType المكافئة: 'kern' |
 
 ### أنظر أيضا
 

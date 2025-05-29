@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertTextInput
 linktitle: InsertTextInput
 articleTitle: InsertTextInput
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertTextInput طريقة. إدراج حقل نموذج نصي في الموضع الحالي في C#.
+description: أضف حقول نماذج النصوص بسهولة باستخدام طريقة InsertTextInput في DocumentBuilder. حسّن تجربة المستخدم وتفاعلية مستندك اليوم!
 type: docs
-weight: 470
+weight: 510
 url: /ar/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
 
-إدراج حقل نموذج نصي في الموضع الحالي.
+يقوم بإدراج حقل نموذج نصي في الموضع الحالي.
 
 ```csharp
 public FormField InsertTextInput(string name, TextFormFieldType type, string format, 
@@ -19,11 +19,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. |
-| type | TextFormFieldType | يحدد نوع حقل النموذج النصي. |
+| name | String | اسم حقل النموذج. يمكن أن يكون سلسلة فارغة. |
+| type | TextFormFieldType | يحدد نوع حقل نموذج النص. |
 | format | String | سلسلة التنسيق المستخدمة لتنسيق قيمة حقل النموذج. |
-| fieldValue | String | النص الذي سيتم عرضه في هذا المجال. |
-| maxLength | Int32 | الحد الأقصى للطول الذي يمكن للمستخدم إدخاله في حقل النموذج. اضبط على الصفر لمدة غير محدودة. |
+| fieldValue | String | النص الذي سيتم عرضه في الحقل. |
+| maxLength | Int32 | أقصى طول يُمكن للمستخدم إدخاله في حقل النموذج. اضبطه على صفر لطول غير محدود. |
 
 ### قيمة الإرجاع
 
@@ -35,13 +35,13 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 ## أمثلة
 
-يوضح كيفية إدراج حقل نموذج إدخال نص في مستند.
+يوضح كيفية إدراج حقل نموذج إدخال النص في مستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل نموذجًا يطالب المستخدم بإدخال النص.
+//إدراج نموذج يطالب المستخدم بإدخال النص.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
@@ -55,12 +55,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// أدخل حقل إدخال النص، والذي سيسمح للمستخدم بالنقر فوقه وإدخال النص.
-// قم بتعيين بعض نص العنصر النائب الذي يمكن للمستخدم الكتابة فوقه وتمريره
-// الحد الأقصى لطول النص هو 0 لتطبيق أي حد على محتويات حقل النموذج.
+// أدخل حقل إدخال نص، والذي سيسمح للمستخدم بالنقر فوقه وإدخال النص.
+// تعيين بعض النصوص المؤقتة التي يمكن للمستخدم الكتابة فوقها وتمريرها
+// الحد الأقصى لطول النص هو 0 لعدم تطبيق أي حد على محتويات حقل النموذج.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// سيظهر حقل النموذج على شكل علامة html "إدخال"، بنوع "نص".
+// سيظهر حقل النموذج في شكل علامة HTML "إدخال"، مع نوع "نص".
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```
 
@@ -70,12 +70,12 @@ doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 DocumentBuilder builder = new DocumentBuilder();
 
 // حقول النموذج هي كائنات في المستند يمكن للمستخدم التفاعل معها من خلال مطالبته بإدخال القيم.
-// يمكننا إنشاؤها باستخدام أداة إنشاء المستندات، وفيما يلي طريقتان للقيام بذلك.
+// يمكننا إنشاؤها باستخدام منشئ المستندات، وفيما يلي طريقتان للقيام بذلك.
 // 1 - إدخال النص الأساسي:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 
-// 2 - مربع تحرير وسرد يحتوي على نص موجه ونطاق من القيم المحتملة:
+// 2 - مربع مشترك يحتوي على نص موجه ومجموعة من القيم المحتملة:
 string[] items =
 {
     "-- Select your favorite footwear --", "Sneakers", "Oxfords", "Flip-flops", "Other"

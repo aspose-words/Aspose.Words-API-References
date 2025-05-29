@@ -3,14 +3,14 @@ title: RevisionOptions.InsertedTextColor
 linktitle: InsertedTextColor
 articleTitle: InsertedTextColor
 second_title: Aspose.Words для .NET
-description: RevisionOptions InsertedTextColor свойство. Позволяет указать цвет который будет использоваться для вставленного контента.Insertion . Значение по умолчаниюByAuthor  на С#.
+description: Настройте свой опыт редактирования с помощью свойства RevisionOptions InsertedTextColor, установив уникальные цвета для вставленного содержимого. По умолчанию, ByAuthor.
 type: docs
-weight: 40
+weight: 60
 url: /ru/net/aspose.words.layout/revisionoptions/insertedtextcolor/
 ---
 ## RevisionOptions.InsertedTextColor property
 
-Позволяет указать цвет, который будет использоваться для вставленного контента.Insertion . Значение по умолчанию:ByAuthor .
+Позволяет указать цвет, который будет использоваться для вставленного содержимогоInsertion . Значение по умолчанию:ByAuthor .
 
 ```csharp
 public RevisionColor InsertedTextColor { get; set; }
@@ -18,13 +18,13 @@ public RevisionColor InsertedTextColor { get; set; }
 
 ## Примеры
 
-Показывает, как изменить внешний вид редакций в готовом к просмотру выходном документе.
+Показывает, как изменить внешний вид изменений в визуализированном выходном документе.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем ревизию, затем меняем цвет всех ревизий на зеленый.
+// Вставьте ревизию, затем измените цвет всех ревизий на зеленый.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
@@ -34,8 +34,9 @@ builder.Writeln("This is not a revision.");
 // Удалить полосу, которая появляется слева от каждой измененной строки.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Смотрите также

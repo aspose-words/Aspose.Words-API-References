@@ -3,16 +3,16 @@ title: FieldMergingArgsBase Class
 linktitle: FieldMergingArgsBase
 articleTitle: FieldMergingArgsBase
 second_title: Aspose.Words per .NET
-description: Aspose.Words.MailMerging.FieldMergingArgsBase classe. Classe base perFieldMergingArgs EImageFieldMergingArgs  in C#.
+description: Scopri la classe Aspose.Words.MailMerging.FieldMergingArgsBase, la base per un'unione efficiente dei campi e per la gestione delle immagini nell'automazione dei documenti.
 type: docs
-weight: 3780
+weight: 4470
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/
 ---
 ## FieldMergingArgsBase class
 
 Classe base per[`FieldMergingArgs`](../fieldmergingargs/) E[`ImageFieldMergingArgs`](../imagefieldmergingargs/) .
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public abstract class FieldMergingArgsBase
@@ -22,12 +22,12 @@ public abstract class FieldMergingArgsBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](./document/) oggetto per cui viene eseguita la stampa unione. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Restituisce il[`Document`](./document/)oggetto per cui viene eseguita la stampa unione. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Ottiene il nome del campo di unione come specificato nel documento. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Ottiene l'oggetto che rappresenta il campo di unione corrente. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Ottiene il nome del campo di unione nell'origine dati. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Ottiene o imposta il valore del campo dall'origine dati. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice in base zero del record da unire. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Ottiene l'indice basato su zero del record che viene unito. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Ottiene il nome della tabella dati per l'operazione di unione corrente o una stringa vuota se il nome non è disponibile. |
 
 ## Esempi
@@ -66,7 +66,7 @@ public void MergeHtml()
 
 /// <summary>
 /// Se la stampa unione incontra un MERGEFIELD il cui nome inizia con il prefisso "html_",
-/// questo callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento di MERGEFIELD.
+/// questa callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento del MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -77,20 +77,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Aggiunge dati HTML analizzati al corpo del documento.
+            // Aggiungere dati HTML analizzati al corpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
+            // non sarà necessario rispondere a questo evento restituendo contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 }
 ```

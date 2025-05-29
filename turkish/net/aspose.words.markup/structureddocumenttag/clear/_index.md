@@ -2,10 +2,10 @@
 title: StructuredDocumentTag.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag Clear yöntem. Bu yapılandırılmış belge etiketinin içeriğini temizler ve tanımlanmışsa bir yer tutucu görüntüler C#'da.
+second_title: .NET için Aspose.Words
+description: Yapılandırılmış belge etiketinizin içeriğini Clear yöntemi ile zahmetsizce temizleyin ve gelişmiş belge yönetimi için tanımlanmış bir yer tutucu gösterin.
 type: docs
-weight: 340
+weight: 360
 url: /tr/net/aspose.words.markup/structureddocumenttag/clear/
 ---
 ## StructuredDocumentTag.Clear method
@@ -18,9 +18,9 @@ public void Clear()
 
 ## Notlar
 
-Yapılandırılmış belge etiketinin revizyonları varsa içeriğinin temizlenmesi mümkün değildir.
+Revizyonları olan yapılandırılmış bir belge etiketinin içeriğini temizlemek mümkün değildir.
 
-Bu yapılandırılmış belge etiketi özel XML ile eşlenirse (kullanılarak[`XmlMapping`](../xmlmapping/) özelliği), başvurulan XML düğümü temizlenir.
+Bu yapılandırılmış belge etiketi özel XML'e eşlenirse (kullanılarak)[`XmlMapping`](../xmlmapping/) özelliği), başvurulan XML düğümü temizlenir.
 
 ## Örnekler
 
@@ -29,15 +29,15 @@ Yapılandırılmış belge etiketi öğelerinin içeriğinin nasıl silineceğin
 ```csharp
 Document doc = new Document();
 
-// Düz metin yapılı bir belge etiketi oluşturun ve ardından bunu belgeye ekleyin.
+// Düz metin yapılandırılmış bir belge etiketi oluşturun ve ardından bunu belgeye ekleyin.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Metin kutusu biçimindeki bu yapılandırılmış belge etiketi zaten yer tutucu metni görüntüler.
+// Metin kutusu biçiminde olan bu yapılandırılmış belge etiketi, yer tutucu metni zaten görüntüler.
 Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
 Assert.True(tag.IsShowingPlaceholderText);
 
-// Metin içerikli bir yapı taşı oluşturun.
+// Metin içerikli bir yapı bloğu oluşturun.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
 substituteBlock.Name = "My placeholder";
@@ -46,8 +46,8 @@ substituteBlock.FirstSection.EnsureMinimum();
 substituteBlock.FirstSection.Body.FirstParagraph.AppendChild(new Run(glossaryDoc, "Custom placeholder text."));
 glossaryDoc.AppendChild(substituteBlock);
 
-// Yapılandırılmış belge etiketinin "PlaceholderName" özelliğini yapı taşımızın adına ayarlayın.
-// orijinal varsayılan metnin yerine yapı taşının içeriğini görüntülemek için yapılandırılmış belge etiketi.
+// Yapılandırılmış belge etiketinin "PlaceholderName" özelliğini yapı taşımızın adına ayarlayın
+// Orijinal varsayılan metin yerine yapı bloğunun içeriğini görüntülemek için yapılandırılmış belge etiketi.
 tag.PlaceholderName = "My placeholder";
 
 Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
@@ -60,7 +60,7 @@ tag.IsShowingPlaceholderText = false;
 
 Assert.AreEqual("New text.", tag.GetText().Trim());
 
-// Bu yapılandırılmış belge etiketinin içeriğini temizlemek ve yer tutucuyu yeniden görüntülemek için "Temizle" yöntemini kullanın.
+// Bu yapılandırılmış belge etiketinin içeriğini temizlemek ve yer tutucuyu tekrar görüntülemek için "Temizle" yöntemini kullanın.
 tag.Clear();
 
 Assert.True(tag.IsShowingPlaceholderText);

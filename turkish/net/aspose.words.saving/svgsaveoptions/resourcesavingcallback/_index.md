@@ -2,15 +2,15 @@
 title: SvgSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
-second_title: Aspose.Words for .NET
-description: SvgSaveOptions ResourceSavingCallback mülk. Bir belge SVG formatında dışa aktarıldığında kaynakların görüntülerin nasıl kaydedildiğini kontrol etmeye olanak tanır C#'da.
+second_title: .NET için Aspose.Words
+description: SvgSaveOptions' ResourceSavingCallback ile görüntü kaynak tasarrufunu kontrol edin. Daha iyi kalite ve verimlilik için SVG dışa aktarımlarını optimize edin.
 type: docs
-weight: 40
+weight: 70
 url: /tr/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 ---
 ## SvgSaveOptions.ResourceSavingCallback property
 
-Bir belge SVG formatında dışa aktarıldığında kaynakların (görüntülerin) nasıl kaydedildiğini kontrol etmeye olanak tanır.
+Bir belge SVG biçimine aktarıldığında kaynakların (görüntülerin) nasıl kaydedileceğini kontrol etmenizi sağlar.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IResourceSavingCallback ResourceSavingCallback { get; set; }
 
 ## Örnekler
 
-Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl değiştirileceğini ve yazdırılacağını gösterir.
+Bir belgeyi .svg'ye dönüştürürken oluşturulan bağlantılı kaynakların URI'lerinin nasıl düzenleneceğini ve yazdırılacağını gösterir.
 
 ```csharp
 public void SvgResourceFolder()
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// .svg'ye dönüştürülürken içerdiği kaynakların URI'lerini sayar ve yazdırır.
+/// .svg'ye dönüştürülürken, içerdiği kaynakların URI'lerini sayar ve yazdırır.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

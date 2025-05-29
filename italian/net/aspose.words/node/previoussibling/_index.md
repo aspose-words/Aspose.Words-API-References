@@ -3,7 +3,7 @@ title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
 second_title: Aspose.Words per .NET
-description: Node PreviousSibling proprietà. Ottiene il nodo immediatamente precedente questo nodo in C#.
+description: Scopri la proprietà Node PreviousSibling per accedere facilmente al nodo che precede il nodo corrente, migliorando le tue capacità di manipolazione del DOM.
 type: docs
 weight: 70
 url: /it/net/aspose.words/node/previoussibling/
@@ -18,7 +18,7 @@ public Node PreviousSibling { get; }
 
 ## Osservazioni
 
-Se non è presente alcun nodo precedente, a`nullo` viene restituito.
+Se non c'è un nodo precedente, un`null` viene restituito.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Entrambe le sezioni sono sorelle l'una dell'altra.
+// Entrambe le sezioni sono gemelle l'una dell'altra.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -40,7 +40,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// La sezione che abbiamo rimosso era la prima, lasciando nel documento solo la seconda.
+// La sezione che abbiamo rimosso è la prima, lasciando nel documento solo la seconda.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

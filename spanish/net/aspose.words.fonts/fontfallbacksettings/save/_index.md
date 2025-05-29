@@ -3,14 +3,14 @@ title: FontFallbackSettings.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words para .NET
-description: FontFallbackSettings Save método. Guarda la configuración alternativa actual en la transmisión en C#.
+description: Guarda fácilmente tus ajustes de reserva de fuentes con nuestro método intuitivo. Conserva tus ajustes de reserva personalizados para una gestión de fuentes fluida.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fonts/fontfallbacksettings/save/
 ---
 ## Save(*Stream*) {#save}
 
-Guarda la configuración alternativa actual en la transmisión.
+Guarda la configuración de respaldo actual en la transmisión.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -27,7 +27,7 @@ Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Carga un documento XML que define un conjunto de configuraciones de reserva de fuentes.
+// Cargue un documento XML que define un conjunto de configuraciones de reserva de fuentes.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -38,7 +38,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// Utilice una secuencia para guardar la configuración de reserva de fuente actual de nuestro documento como un documento XML.
+// Utilice una secuencia para guardar la configuración de reserva de fuentes actual de nuestro documento como un documento XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {
@@ -56,7 +56,7 @@ using (FileStream fontFallbackStream =
 
 ## Save(*string*) {#save_1}
 
-Guarda la configuración alternativa actual en un archivo.
+Guarda la configuración de respaldo actual en un archivo.
 
 ```csharp
 public void Save(string fileName)
@@ -73,14 +73,14 @@ Muestra cómo cargar y guardar configuraciones de reserva de fuentes hacia/desde
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Carga un documento XML que define un conjunto de configuraciones de reserva de fuentes.
+// Cargue un documento XML que define un conjunto de configuraciones de reserva de fuentes.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// Guarde la configuración de reserva de fuente actual de nuestro documento como un documento XML.
+// Guarde la configuración de reserva de fuentes actual de nuestro documento como un documento XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 

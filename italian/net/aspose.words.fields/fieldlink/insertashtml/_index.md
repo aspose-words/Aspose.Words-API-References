@@ -3,7 +3,7 @@ title: FieldLink.InsertAsHtml
 linktitle: InsertAsHtml
 articleTitle: InsertAsHtml
 second_title: Aspose.Words per .NET
-description: FieldLink InsertAsHtml proprietà. Ottiene o imposta se inserire loggetto collegato come testo in formato HTML in C#.
+description: Scopri la proprietà FieldLink InsertAsHtml per gestire facilmente gli oggetti collegati in formato HTML. Migliora i tuoi contenuti web con un'integrazione perfetta!
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldlink/insertashtml/
@@ -26,7 +26,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare i contenuti di un documento collegato sotto forma di testo.
+    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare il contenuto di un documento collegato sotto forma di testo.
     // 1 - Un campo LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -36,7 +36,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Campo A DDEAUTO:
+    // 3 - Un campo DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -50,7 +50,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare i contenuti di un documento collegato sotto forma di immagine.
+    // Di seguito sono riportati tre tipi di campi che possiamo utilizzare per visualizzare il contenuto di un documento collegato sotto forma di immagine.
     // 1 - Un campo LINK:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "MySpreadsheet.xlsx",
@@ -61,7 +61,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
     InsertFieldDde(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true, true);
 
-    // 3 - Campo A DDEAUTO:
+    // 3 - Un campo DDEAUTO:
     builder.Writeln("FieldDdeAuto:\n");
     InsertFieldDdeAuto(builder, insertLinkedObjectAs, "Excel.Sheet", MyDir + "Spreadsheet.xlsx",
         "Sheet1!R1C1", true);
@@ -71,7 +71,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo LINK e impostarne le proprietà in base ai parametri.
+/// Utilizzare un generatore di documenti per inserire un campo LINK e impostarne le proprietà in base ai parametri.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -185,12 +185,12 @@ private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObje
 
 public enum InsertLinkedObjectAs
 {
-    // OggettoLinkedAsText
+    // LinkedObjectAsText
     Text,
     Unicode,
     Html,
     Rtf,
-    // Oggetto collegato come immagine
+    // LinkedObjectAsImage
     Picture,
     Bitmap
 }

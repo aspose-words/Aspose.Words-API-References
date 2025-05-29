@@ -3,7 +3,7 @@ title: StyleCollection.DefaultFont
 linktitle: DefaultFont
 articleTitle: DefaultFont
 second_title: Aspose.Words для .NET
-description: StyleCollection DefaultFont свойство. Получает форматирование текста документа по умолчанию на С#.
+description: Откройте для себя свойство StyleCollection DefaultFont для бесшовного форматирования текста документа. Улучшите свои документы с помощью последовательного, профессионального стиля.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/stylecollection/defaultfont/
@@ -28,12 +28,12 @@ public Font DefaultFont { get; }
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Устанавливаем параметры по умолчанию для новых стилей, которые мы можем позже добавить в эту коллекцию.
+// Устанавливаем параметры по умолчанию для новых стилей, которые мы позже можем добавить в эту коллекцию.
 styles.DefaultFont.Name = "Courier New";
-// Если мы добавим стиль StyleType.Paragraph, коллекция применит значения
-// его свойство "DefaultParagraphFormat" к свойству стиля "ParagraphFormat".
+// Если мы добавим стиль "StyleType.Paragraph", коллекция применит значения
+// его свойство "DefaultParagraphFormat" к свойству "ParagraphFormat" стиля.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Добавляем стиль и проверяем, что для него заданы настройки по умолчанию.
+// Добавьте стиль, а затем проверьте, что у него настройки по умолчанию.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

@@ -2,8 +2,8 @@
 title: ChartYValue.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: ChartYValue Equals yöntem. Belirtilen nesnenin geçerli Y değeri nesnesine eşit olup olmadığını gösteren bir bayrak alır C#'da.
+second_title: .NET için Aspose.Words
+description: Bir nesnenin geçerli Y değeriyle eşleşip eşleşmediğini kolayca kontrol etmek ve veri karşılaştırma verimliliğinizi artırmak için ChartYValue Equals yöntemini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.drawing.charts/chartyvalue/equals/

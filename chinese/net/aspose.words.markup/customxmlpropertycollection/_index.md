@@ -2,10 +2,10 @@
 title: CustomXmlPropertyCollection Class
 linktitle: CustomXmlPropertyCollection
 articleTitle: CustomXmlPropertyCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Markup.CustomXmlPropertyCollection 班级. 表示自定义 XML 属性或智能标记属性的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Markup.CustomXmlPropertyCollection，一个用于有效管理自定义 XML 属性和智能标签属性的强大工具。
 type: docs
-weight: 3950
+weight: 4640
 url: /zh/net/aspose.words.markup/customxmlpropertycollection/
 ---
 ## CustomXmlPropertyCollection class
@@ -29,7 +29,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | 将属性添加到集合中。 |
+| [Add](../../aspose.words.markup/customxmlpropertycollection/add/)(*[CustomXmlProperty](../customxmlproperty/)*) | 向集合添加属性。 |
 | [Clear](../../aspose.words.markup/customxmlpropertycollection/clear/)() | 从集合中删除所有元素。 |
 | [Contains](../../aspose.words.markup/customxmlpropertycollection/contains/)(*string*) | 确定集合是否包含具有给定名称的属性。 |
 | [GetEnumerator](../../aspose.words.markup/customxmlpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
@@ -39,7 +39,7 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 
 ## 评论
 
-物品有[`CustomXmlProperty`](../customxmlproperty/)对象。
+项目是[`CustomXmlProperty`](../customxmlproperty/)对象。
 
 ## 例子
 
@@ -48,17 +48,17 @@ public class CustomXmlPropertyCollection : IEnumerable<CustomXmlProperty>
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// 智能标签出现在 Microsoft Word 文档中，将其文本的一部分识别为某种形式的数据，
-// 例如名称、日期或地址，并将其转换为显示紫色点状下划线的超链接。
-// 在Word 2003中，我们可以通过“工具”->启用智能标签“自动更正选项...”-> “智能标签”。
-// 在我们的输入文档中，Microsoft Word 注册了三个对象作为智能标记。
-// 智能标签可以嵌套，因此这个集合包含更多。
+// 智能标签出现在 Microsoft Word 的文档中，它将其部分文本识别为某种形式的数据，
+// 例如姓名、日期或地址，并将其转换为显示紫色虚线下划线的超链接。
+// 在 Word 2003 中，我们可以通过“工具”->“自动更正选项...”->“智能标记”来启用智能标记。
+// 在我们的输入文档中，有三个 Microsoft Word 注册为智能标记的对象。
+// 智能标签可以嵌套，因此该集合包含更多。
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// 智能标记的“Properties”成员包含其元数据，每种类型的智能标记的元数据都不同。
-// “日期”类型智能标签的属性包含其年、月、日。
+// 智能标签的“属性”成员包含其元数据，每种类型的智能标签的元数据都不同。
+// “日期”类型智能标签的属性包含年、月、日。
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -78,7 +78,7 @@ Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// 下面是从属性集合中删除元素的三种方法。
+// 以下是从属性集合中删除元素的三种方法。
 // 1 - 按索引删除：
 properties.RemoveAt(3);
 
@@ -89,7 +89,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 - 立即清除整个集合：
+// 3 - 一次清除整个集合：
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

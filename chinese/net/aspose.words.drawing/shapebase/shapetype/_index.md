@@ -2,10 +2,10 @@
 title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase ShapeType 财产. 获取形状类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase ShapeType 属性以轻松访问和定义您的形状类型，增强您的设计能力和项目效率。
 type: docs
-weight: 500
+weight: 530
 url: /zh/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -18,7 +18,7 @@ public ShapeType ShapeType { get; }
 
 ## 例子
 
-演示如何创建一组形状，并使用文档访问者打印其内容。
+展示如何创建一组形状，并使用文档访问器打印其内容。
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
+    // 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // 顶角一个圆角一个截角、单角圆角、顶角圆角、对角角圆角
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

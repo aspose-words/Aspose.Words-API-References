@@ -3,14 +3,14 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words für .NET
-description: CustomPart IsExternal eigendom. False wenn dieser benutzerdefinierte Teil im OOXMLPaket gespeichert ist. True wenn dieses benutzerdefinierte Teil ein externes Ziel ist in C#.
+description: Entdecken Sie die Eigenschaft „CustomPart IsExternal“ und erfahren Sie, wie sie interne und externe benutzerdefinierte Teile in OOXML-Paketen für eine optimierte Datenverwaltung definiert.
 type: docs
 weight: 40
 url: /de/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-False, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. True, wenn dieses benutzerdefinierte Teil ein externes Ziel ist.
+Falsch, wenn dieser benutzerdefinierte Teil im OOXML-Paket gespeichert ist. Wahr, wenn dieser benutzerdefinierte Teil ein externes Ziel ist.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

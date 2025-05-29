@@ -3,16 +3,16 @@ title: WriteProtection Class
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.WriteProtection сорт. Указывает параметры защиты от записи для документа на С#.
+description: Откройте для себя класс Aspose.Words.Settings.WriteProtection, который позволит легко управлять параметрами защиты документов от записи и повысить безопасность ваших документов.
 type: docs
-weight: 5970
+weight: 6800
 url: /ru/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
 
-Указывает параметры защиты от записи для документа.
+Задает параметры защиты от записи для документа.
 
-Чтобы узнать больше, посетите[Защитите или зашифруйте документ](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) статья документации.
+Чтобы узнать больше, посетите[Защитить или зашифровать документ](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) документальная статья.
 
 ```csharp
 public class WriteProtection
@@ -22,21 +22,21 @@ public class WriteProtection
 
 | Имя | Описание |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Возвращает`истинный` когда установлен пароль защиты от записи. |
-| [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Указывает, рекомендовал ли автор документа открыть документ только для чтения. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | Возврат`истинный` когда установлен пароль защиты от записи. |
+| [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | Указывает, рекомендовал ли автор документа открывать документ только для чтения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
 | [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | Устанавливает пароль защиты от записи для документа. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Возвращает`истинный` если указанный пароль совпадает с паролем защиты от записи, с помощью которого документ был защищен. Если документ не защищен паролем от записи, возвращается значение`ЛОЖЬ` . |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | Возврат`истинный` если указанный пароль совпадает с паролем защиты от записи, которым был защищен документ. Если документ не защищен от записи паролем, то возвращается`ЛОЖЬ` . |
 
 ## Примечания
 
 Защита от записи указывает, рекомендовал ли автор открывать документ только для чтения и/или требовать пароль для изменения документа.
 
-Защита от записи отличается от защиты документов. Защита от записи указана в Microsoft Word в параметрах диалогового окна «Сохранить как».
+Защита от записи отличается от защиты документа. Защита от записи указывается в Microsoft Word в параметрах диалогового окна Сохранить как.
 
 Вы не создаете экземпляры этого класса напрямую. Вы получаете доступ к настройкам защиты документа через[`WriteProtection`](../../aspose.words/document/writeprotection/) свойство.
 
@@ -55,7 +55,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Защита не предотвращает программное редактирование документа и не шифрует его содержимое.
+// Защита не препятствует программному редактированию документа и не шифрует его содержимое.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

@@ -3,14 +3,14 @@ title: FieldInfo.NewValue
 linktitle: NewValue
 articleTitle: NewValue
 second_title: Aspose.Words для .NET
-description: FieldInfo NewValue свойство. Получает или задает необязательное значение которое обновляет свойство на С#.
+description: Откройте для себя свойство FieldInfo NewValue, легко управляйте дополнительными значениями, чтобы улучшить обновления данных и оптимизировать процесс кодирования.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldinfo/newvalue/
 ---
 ## FieldInfo.NewValue property
 
-Получает или задает необязательное значение, которое обновляет свойство.
+Возвращает или задает необязательное значение, которое обновляет свойство.
 
 ```csharp
 public string NewValue { get; set; }
@@ -24,7 +24,7 @@ public string NewValue { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Установите значение для встроенного свойства «Комментарии», а затем вставьте поле INFO, чтобы отобразить значение этого свойства.
+// Задайте значение для встроенного свойства «Комментарии», а затем вставьте поле INFO для отображения значения этого свойства.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -35,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Установка значения свойства NewValue поля и его обновление
+// Установка значения для свойства NewValue поля и обновление
 // поле также перезапишет соответствующее встроенное свойство новым значением.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

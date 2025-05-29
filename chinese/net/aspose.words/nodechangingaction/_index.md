@@ -2,10 +2,10 @@
 title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.NodeChangingAction 枚举. 指定节点更改的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.NodeChangingAction 枚举，高效管理文档中的节点更改。立即提升您的文档处理能力！
 type: docs
-weight: 4180
+weight: 4870
 url: /zh/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
@@ -25,7 +25,7 @@ public enum NodeChangingAction
 
 ## 例子
 
-演示如何在编辑文档树时使用 NodeChangingCallback 实时监视文档树的更改。
+展示如何在编辑文档树时使用 NodeChangingCallback 实时监控文档树的变化。
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,12 +42,7 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }

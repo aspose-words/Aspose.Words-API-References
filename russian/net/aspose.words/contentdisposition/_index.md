@@ -3,9 +3,9 @@ title: ContentDisposition Enum
 linktitle: ContentDisposition
 articleTitle: ContentDisposition
 second_title: Aspose.Words для .NET
-description: Aspose.Words.ContentDisposition перечисление. Перечисляет различные способы представления документа в клиентском браузере на С#.
+description: Изучите перечисление Aspose.Words.ContentDisposition, чтобы открыть для себя различные варианты представления документов для улучшения взаимодействия с клиентским браузером.
 type: docs
-weight: 340
+weight: 540
 url: /ru/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
@@ -20,12 +20,12 @@ public enum ContentDisposition
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Attachment | `0` | Отправьте документ в браузер и предоставьте возможность сохранить документ на диск или открыть в приложении , связанном с расширением документа. |
+| Attachment | `0` | Отправить документ в браузер и предоставить возможность сохранить документ на диск или открыть в приложении , связанном с расширением документа. |
 | Inline | `1` | Отправляет документ в браузер и предоставляет возможность сохранить документ на диск или открыть в браузере. |
 
 ## Примечания
 
-Обратите внимание, что на фактическое поведение клиентского браузера может влиять конфигурация безопасности браузера.
+Обратите внимание, что фактическое поведение клиентского браузера может зависеть от настроек безопасности браузера.
 
 ## Примеры
 
@@ -47,11 +47,11 @@ doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
 // Отправляем документ в клиентский браузер.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Выбрасывается, потому что HttpResponse в тесте имеет значение null.
+//Выброшено, потому что HttpResponse имеет значение null в тесте.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Нам нужно будет закрыть этот ответ вручную, чтобы гарантировать, что мы не добавим в документ лишний контент после сохранения.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Нам нужно будет закрыть этот ответ вручную, чтобы гарантировать, что мы не добавим в документ лишнего содержимого после сохранения.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Смотрите также

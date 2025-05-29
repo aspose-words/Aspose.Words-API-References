@@ -3,14 +3,14 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words för .NET
-description: TabStopCollection GetPositionByIndex metod. Hämtar positionen i poäng för tabbstoppet vid det angivna indexet i C#.
+description: Upptäck TabStopCollection GetPositionByIndex-metoden för att enkelt hitta tabbstoppspositioner i punkter efter index. Optimera din layout utan ansträngning!
 type: docs
 weight: 100
 url: /sv/net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
 ## TabStopCollection.GetPositionByIndex method
 
-Hämtar positionen (i poäng) för tabbstoppet vid det angivna indexet.
+Hämtar positionen (i punkter) för tabbstoppet vid det angivna indexet.
 
 ```csharp
 public double GetPositionByIndex(int index)
@@ -18,15 +18,15 @@ public double GetPositionByIndex(int index)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| index | Int32 | Ett index över samlingen av tabbstopp. |
+| index | Int32 | Ett index till samlingen av tabulaturer. |
 
 ### Returvärde
 
-Tabstoppets läge.
+Tabstoppets position.
 
 ## Exempel
 
-Visar hur du hittar en flik, stannar vid dess index och verifierar dess position.
+Visar hur man hittar en flik, stannar till vid dess index och verifierar dess position.
 
 ```csharp
 Document doc = new Document();

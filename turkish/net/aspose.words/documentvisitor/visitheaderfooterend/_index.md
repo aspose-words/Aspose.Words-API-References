@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitHeaderFooterEnd yöntem. Bir bölümdeki üstbilgi veya altbilginin numaralandırılması sona erdiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizdeki üst bilgi ve alt bilgi numaralandırmasını etkili bir şekilde yönetmek için gerekli olan DocumentVisitor VisitHeaderFooterEnd yöntemini keşfedin.
 type: docs
 weight: 280
 url: /tr/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-Bir bölümdeki üstbilgi veya altbilginin numaralandırılması sona erdiğinde çağrılır.
+Bir bölümdeki başlık veya altbilginin numaralandırılması sona erdiğinde çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
-Bir belgedeki her üstbilgi ve altbilginin düğüm yapısının nasıl yazdırılacağını gösterir.
+Bir belgedeki her başlık ve alt bilginin düğüm yapısının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void HeaderFooterToText()
@@ -34,21 +34,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Bir belgenin üstbilgisine/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu da koleksiyona erişmektir.
+    // Bir belgenin başlık/altbilgilerine bölüm bölüm erişmenin alternatif bir yolu koleksiyona erişmektir.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm HeaderFooter düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm HeaderFooter düğümlerini ve bunların alt öğelerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -74,7 +74,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede HeaderFooter düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir HeaderFooter düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -86,7 +86,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// HeaderFooter düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
+    /// Bir HeaderFooter düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -98,7 +98,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

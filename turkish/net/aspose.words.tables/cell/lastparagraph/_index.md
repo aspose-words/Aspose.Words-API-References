@@ -2,15 +2,15 @@
 title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
-second_title: Aspose.Words for .NET
-description: Cell LastParagraph mülk. Hemen alt öğeler arasındaki son paragrafı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Cell LastParagraph özelliğini keşfedin. Verimli içerik yönetimi için son paragrafa anında alt öğelerden kolayca erişin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/cell/lastparagraph/
 ---
 ## Cell.LastParagraph property
 
-Hemen alt öğeler arasındaki son paragrafı alır.
+En yakın alt paragraflar arasında son paragrafı alır.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,13 +18,13 @@ public Paragraph LastParagraph { get; }
 
 ## Örnekler
 
-Ayarların dikey kenarlıklara bir tablo satırı biçimine nasıl uygulanacağını gösterir.
+Tablo satırının biçimine dikey kenarlık ayarlarının nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Kırmızı ve mavi iç kenarlıklara sahip bir tablo oluşturun.
+// Kırmızı ve mavi iç kenarlıkları olan bir tablo oluşturun.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -48,7 +48,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Bir satır biçimi ve hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
+// Bir satır biçimi ve bir hücrenin iç paragrafı farklı kenarlık ayarları kullanır.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

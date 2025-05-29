@@ -2,15 +2,15 @@
 title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
-second_title: Aspose.Words for .NET
-description: CustomPart RelationshipType mülk. Üst parçadan bu özel parçaya ilişkin ilişki türünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş işlevsellik için üst ve özel parçalar arasındaki ilişkileri kolayca yönetmek ve tanımlamak üzere CustomPart RelationshipType özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Üst parçadan bu özel parçaya ilişkin ilişki türünü alır veya ayarlar.
+Üst parçadan bu özel parçaya olan ilişki türünü alır veya ayarlar.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -18,25 +18,25 @@ public string RelationshipType { get; set; }
 
 ## Notlar
 
-Özel bir parçanın ilişki türü "bilinmeyen" olmalıdır; örneğin özel bir ilişki türü, , ISO/IEC 29500'de tanımlanan ilişki türlerinden biri değil.
+Özel bir parça için ilişki türü "bilinmeyen" olmalıdır, örneğin özel bir ilişki türü, ISO/IEC 29500 içinde tanımlanan ilişki türlerinden biri olmamalıdır.
 
 Varsayılan değer boş bir dizedir. Geçerli bir değer boş olmayan bir dize olmalıdır.
 
 ## Örnekler
 
-Bir belgenin rastgele özel parça koleksiyonuna nasıl erişileceğini gösterir.
+Bir belgenin keyfi özel parça koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// İkinci kısmı klonlayın, ardından klonu koleksiyona ekleyin.
+// İkinci parçayı klonla, ardından klonu koleksiyona ekle.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Koleksiyonun üzerinde numaralandırın ve her parçayı yazdırın.
+// Koleksiyon üzerinde numaralandır ve her parçayı yazdır.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Bu koleksiyondaki öğeleri tek tek veya hepsini birden kaldırabiliriz.
+// Bu koleksiyondan öğeleri tek tek veya hepsini birden kaldırabiliriz.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

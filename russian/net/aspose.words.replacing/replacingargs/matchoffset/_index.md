@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words для .NET
-description: ReplacingArgs MatchOffset свойство. Получает начальную позицию совпадения с отсчетом от нуля от начала узла содержащего начало совпадения на С#.
+description: Откройте для себя свойство ReplacingArgs MatchOffset, легко найдите начальную позицию совпадений (отсчитываемую от нуля) в ваших узлах для эффективной обработки данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Получает начальную позицию совпадения с отсчетом от нуля от начала узла, содержащего начало совпадения.
+Получает начальную позицию совпадения (начиная с нуля) от начала узла, содержащего начало совпадения.
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## Примеры
 
-Показывает, как применить другой шрифт к новому содержимому с помощью FindReplaceOptions.
+Показывает, как применить другой шрифт к новому контенту с помощью FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -33,7 +33,7 @@ public void ConvertNumbersToHexadecimal()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите для свойства HighlightColor цвет фона, который мы хотим применить к результирующему тексту операции.
+    // Задайте свойству "HighlightColor" цвет фона, который мы хотим применить к результирующему тексту операции.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Заменяет числовые совпадения поиска и замены их шестнадцатеричными эквивалентами.
-/// Ведёт журнал каждой замены.
+/// Заменяет числовые совпадения поиска и замены на их шестнадцатеричные эквиваленты.
+/// Ведет журнал каждой замены.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

@@ -3,9 +3,9 @@ title: ThemeFont Enum
 linktitle: ThemeFont
 articleTitle: ThemeFont
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Themes.ThemeFont énumération. Spécifie les types de noms de polices de thème pour les thèmes de document en C#.
+description: Découvrez l'énumération Aspose.Words ThemeFont pour gérer facilement les polices de thème de documents et améliorer l'attrait visuel de vos documents avec des styles personnalisés.
 type: docs
-weight: 6490
+weight: 7340
 url: /fr/net/aspose.words.themes/themefont/
 ---
 ## ThemeFont enumeration
@@ -22,11 +22,11 @@ public enum ThemeFont
 | --- | --- | --- |
 | None | `0` | Aucune police de thème. |
 | Major | `1` | Police du thème principal. |
-| Minor | `2` | Police de thème mineur. |
+| Minor | `2` | Police de thème mineure. |
 
 ## Remarques
 
-Spécifie un type de police de thème qui peut être référencé en tant que police de thème dans les propriétés de l'objet parent. Cette police de thème est une référence à l'une des polices de thème prédéfinies, situées dans la partie Thème du document, qui permet aux informations de police de être défini de manière centralisée dans le document.
+Spécifie un type de police de thème qui peut être référencé comme police de thème dans les propriétés de l'objet parent. Cette police de thème est une référence à l'une des polices de thème prédéfinies, située dans la partie Thème du document, qui permet de définir les informations de police de manière centralisée dans le document.
 
 ## Exemples
 
@@ -38,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Créez un style avec les propriétés de police du thème.
+// Créez du style avec les propriétés de police du thème.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -48,7 +48,7 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -106,7 +106,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

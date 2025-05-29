@@ -3,16 +3,16 @@ title: CustomPartCollection Class
 linktitle: CustomPartCollection
 articleTitle: CustomPartCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Markup.CustomPartCollection classe. Représente une collection deCustomPart objets en C#.
+description: Découvrez la classe Aspose.Words.Markup.CustomPartCollection pour gérer efficacement les objets CustomPart. Améliorez vos capacités de traitement de documents dès aujourd'hui !
 type: docs
-weight: 3910
+weight: 4600
 url: /fr/net/aspose.words.markup/custompartcollection/
 ---
 ## CustomPartCollection class
 
 Représente une collection de[`CustomPart`](../custompart/) objets.
 
-Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article documentaire.
+Pour en savoir plus, visitez le[Balises de documents structurés ou contrôle de contenu](https://docs.aspose.com/words/net/working-with-content-control-sdt/) article de documentation.
 
 ```csharp
 public class CustomPartCollection : IEnumerable<CustomPart>
@@ -37,17 +37,17 @@ public class CustomPartCollection : IEnumerable<CustomPart>
 | --- | --- |
 | [Add](../../aspose.words.markup/custompartcollection/add/)(*[CustomPart](../custompart/)*) | Ajoute un élément à la collection. |
 | [Clear](../../aspose.words.markup/custompartcollection/clear/)() | Supprime tous les éléments de la collection. |
-| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Crée une copie complète de cette collection et de ses éléments. |
+| [Clone](../../aspose.words.markup/custompartcollection/clone/)() | Effectue une copie complète de cette collection et de ses éléments. |
 | [GetEnumerator](../../aspose.words.markup/custompartcollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [RemoveAt](../../aspose.words.markup/custompartcollection/removeat/)(*int*) | Supprime un élément à l'index spécifié. |
 
 ## Remarques
 
-Vous n'avez normalement pas besoin de créer des instances de cette classe. Vous accédez aux parties personnalisées liées au package OOXML via le[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) propriété.
+Il n'est généralement pas nécessaire de créer des instances de cette classe. L'accès aux composants personnalisés liés au package OOXML se fait via le[`PackageCustomParts`](../../aspose.words/document/packagecustomparts/) propriété.
 
 ## Exemples
 
-Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
+Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -59,7 +59,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Énumère la collection et imprime chaque partie.
+// Énumérer la collection et imprimer chaque partie.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -76,7 +76,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

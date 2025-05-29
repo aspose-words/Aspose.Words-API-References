@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words para .NET
-description: FieldDisplayBarcode SymbolHeight propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgada en C#.
+description: Ajuste la propiedad SymbolHeight de FieldDisplayBarcode para personalizar la altura del código de barras en TWIPS. ¡Mejore la visualización de su código de barras con precisión!
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/fielddisplaybarcode/symbolheight/
 ---
 ## FieldDisplayBarcode.SymbolHeight property
 
-Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgada).
+Obtiene o establece la altura del símbolo. Las unidades se expresan en TWIPS (1/1440 de pulgada).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -18,7 +18,7 @@ public string SymbolHeight { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo DISPLAYBARCODE y establecer sus propiedades.
+Muestra cómo insertar un campo DISPLAYBARCODE y configurar sus propiedades.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas formas, que puede mostrar el campo DISPLAYBARCODE.
+// A continuación se muestran cuatro tipos de códigos de barras, decorados de diversas maneras, que el campo DISPLAYBARCODE puede mostrar.
 // 1 - Código QR con colores personalizados:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - código de barras CODE39:
+// 3 - Código de barras CODE39:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";

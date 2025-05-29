@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.HyperlinkBase
 linktitle: HyperlinkBase
 articleTitle: HyperlinkBase
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties HyperlinkBase proprietà. Specifica la stringa di base utilizzata per valutare i collegamenti ipertestuali relativi in questo documento in C#.
+description: Scopri la proprietà HyperlinkBase di BuiltInDocumentProperties per ottimizzare i collegamenti ipertestuali relativi nei tuoi documenti, per una navigazione fluida e un'esperienza utente migliorata.
 type: docs
 weight: 120
 url: /it/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -22,7 +22,7 @@ Aspose.Words non utilizza questa proprietà.
 
 ## Esempi
 
-Mostra come archiviare la parte base di un collegamento ipertestuale nelle proprietà del documento.
+Mostra come memorizzare la parte base di un collegamento ipertestuale nelle proprietà del documento.
 
 ```csharp
 Document doc = new Document();
@@ -32,15 +32,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Facendo clic sul collegamento in Microsoft Word si aprirà il documento designato, se disponibile.
 builder.InsertHyperlink("Relative hyperlink", "Document.docx", false);
 
-// Questo collegamento è relativo. Se non è presente "Document.docx" nella stessa cartella
-// poiché il documento che contiene questo collegamento, il collegamento verrà interrotto.
+// Questo collegamento è relativo. Se non c'è "Document.docx" nella stessa cartella
+// poiché il documento che contiene questo collegamento sarà interrotto.
 Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
-// Il documento a cui stiamo tentando di collegarci si trova in una directory diversa da quella in cui intendiamo salvare il documento.
- // Potremmo correggere collegamenti come questo inserendo un nome file assoluto in ognuno di essi.
-// In alternativa, potremmo fornire un collegamento di base a ogni collegamento ipertestuale con un relativo nome file
- // verrà anteposto al relativo collegamento quando si fa clic su di esso.
+// Il documento a cui stiamo cercando di collegarci si trova in una directory diversa da quella in cui prevediamo di salvarlo.
+ // Potremmo correggere collegamenti come questo inserendo un nome file assoluto in ciascuno di essi.
+// In alternativa, potremmo fornire un collegamento di base in cui ogni collegamento ipertestuale con un nome file relativo
+ // verrà aggiunto all'inizio del collegamento quando cliccheremo su di esso.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 

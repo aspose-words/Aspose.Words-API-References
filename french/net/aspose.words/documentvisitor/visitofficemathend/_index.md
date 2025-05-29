@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitOfficeMathEnd
 linktitle: VisitOfficeMathEnd
 articleTitle: VisitOfficeMathEnd
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitOfficeMathEnd méthode. Appelé lorsque lénumération dun objet Office Math est terminée en C#.
+description: Découvrez la méthode DocumentVisitor VisitOfficeMathEnd, conçue pour améliorer l'énumération des objets Office Math. Optimisez le traitement de vos documents dès aujourd'hui !
 type: docs
 weight: 300
 url: /fr/net/aspose.words/documentvisitor/visitofficemathend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
-Montre comment imprimer la structure de chaque nœud mathématique de bureau dans un document.
+Montre comment imprimer la structure des nœuds de chaque nœud mathématique de bureau dans un document.
 
 ```csharp
 public void OfficeMathToText()
@@ -34,8 +34,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -43,7 +43,7 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
 /// Crée une carte sous la forme d'une chaîne de tous les nœuds OfficeMath rencontrés et de leurs enfants.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
@@ -97,9 +97,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

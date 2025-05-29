@@ -2,10 +2,10 @@
 title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
-second_title: 用于 .NET 的 Aspose.Words
-description: Font ThemeFontFarEast 财产. 获取或设置与此关联的应用字体方案中的东亚主题字体Font对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 Font ThemeFontFarEast 在您的设计中自定义东亚主题字体。使用独特的定制字体，为您的项目锦上添花！
 type: docs
-weight: 500
+weight: 510
 url: /zh/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
@@ -31,7 +31,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// 我们可以使用主题字体和颜色来代替默认值。
+// 我们可以使用主题字体和颜色代替默认值。
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有多种方法可以重置它们的字体和颜色。
-// 1 - 通过设置 ThemeFont.None/ThemeColor.None:
+// 有几种方法可以重置字体和颜色。
+// 1 - 通过设置 ThemeFont.None/ThemeColor.None：
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

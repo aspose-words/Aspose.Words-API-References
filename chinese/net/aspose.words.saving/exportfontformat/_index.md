@@ -2,10 +2,10 @@
 title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.ExportFontFormat 枚举. 表示渲染为 HTML 固定格式时用于导出字体的格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Saving.ExportFontFormat 枚举，以便在渲染为 HTML 固定格式时实现最佳字体导出效果。提升文档的视觉质量！
 type: docs
-weight: 4990
+weight: 5740
 url: /zh/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -20,12 +20,12 @@ public enum ExportFontFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Woff | `0` | WOFF（网络开放字体格式）. |
+| Woff | `0` | WOFF（Web 开放字体格式）. |
 | Ttf | `1` | TTF（TrueType 字体格式）. |
 
 ## 例子
 
-显示将文档保存为 HTML 时如何仅使用目标计算机的字体。
+展示如何将文档保存为 HTML 时仅使用目标机器的字体。
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

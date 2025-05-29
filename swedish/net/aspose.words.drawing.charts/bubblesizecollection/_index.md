@@ -3,9 +3,9 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection klass. Representerar en samling bubbelstorlekar för en diagramserie i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Charts.BubbleSizeCollection, din lösning för att effektivt hantera bubbelstorlekar i diagramserier.
 type: docs
-weight: 610
+weight: 870
 url: /sv/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
@@ -20,20 +20,21 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Hämtar antalet föremål i den här samlingen. |
-| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Hämtar eller ställer in bubbelstorleksvärdet på det angivna indexet. |
+| [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Hämtar antalet objekt i den här samlingen. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Hämtar eller ställer in formatkoden som tillämpas på bubbelstorlekarna. |
+| [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Hämtar eller ställer in bubbelstorleksvärdet vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 
 ## Anmärkningar
 
-Samlingen tillåter endast att ändra bubbelstorlekar. För att lägga till eller infoga nya värden i en diagramserie, eller remove -värden, måste lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
+Samlingen tillåter endast ändring av bubbelstorlekar. För att lägga till eller infoga nya värden i en diagramserie, eller ta bort -värden, används lämpliga metoder för[`ChartSeries`](../chartseries/) klass kan användas.
 
-Tom bubbelstorleksvärden representeras somNaN.
+Tomma bubbelstorleksvärden representeras somNaN.
 
 ### Se även
 

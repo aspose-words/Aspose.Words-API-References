@@ -3,7 +3,7 @@ title: HorizontalRuleFormat.WidthPercent
 linktitle: WidthPercent
 articleTitle: WidthPercent
 second_title: Aspose.Words pour .NET
-description: HorizontalRuleFormat WidthPercent propriété. Obtient ou définit la longueur de la règle horizontale spécifiée exprimée en pourcentage de la largeur de la fenêtre en C#.
+description: Découvrez la propriété HorizontalRuleFormat WidthPercent pour personnaliser facilement la longueur de votre règle horizontale en pourcentage de la largeur de la fenêtre pour un meilleur contrôle de la conception.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/horizontalruleformat/widthpercent/
@@ -20,7 +20,7 @@ public double WidthPercent { get; set; }
 
 | exception | condition |
 | --- | --- |
-| ArgumentOutOfRangeException | Lance lorsque l'argument est hors de la plage des valeurs valides. |
+| ArgumentOutOfRangeException | Lancé lorsque l'argument est hors de la plage de valeurs valides. |
 
 ## Remarques
 

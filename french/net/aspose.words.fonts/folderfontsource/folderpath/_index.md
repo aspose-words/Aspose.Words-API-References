@@ -3,14 +3,14 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words pour .NET
-description: FolderFontSource FolderPath propriété. Chemin daccès au dossier en C#.
+description: Découvrez la propriété FolderFontSource FolderPath pour accéder facilement à votre dossier de polices. Simplifiez votre processus de création dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/folderfontsource/folderpath/
 ---
 ## FolderFontSource.FolderPath property
 
-Chemin d'accès au dossier.
+Chemin vers le dossier.
 
 ```csharp
 public string FolderPath { get; }
@@ -21,7 +21,7 @@ public string FolderPath { get; }
 Montre comment utiliser un dossier système local contenant des polices comme source de polices.
 
 ```csharp
-// Crée une source de police à partir d'un dossier contenant des fichiers de police.
+// Créez une source de police à partir d'un dossier contenant des fichiers de police.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

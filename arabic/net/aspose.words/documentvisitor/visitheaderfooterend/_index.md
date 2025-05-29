@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitHeaderFooterEnd طريقة. يتم استدعاؤه عند انتهاء تعداد الرأس أو التذييل في القسم في C#.
+description: اكتشف طريقة DocumentVisitor VisitHeaderFooterEnd، وهي ضرورية لإدارة تعداد الرأس والتذييل في مستنداتك بكفاءة.
 type: docs
 weight: 280
 url: /ar/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-يتم استدعاؤه عند انتهاء تعداد الرأس أو التذييل في القسم.
+يتم استدعاؤها عند انتهاء تعداد الرأس أو التذييل في قسم.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -18,11 +18,11 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| headerFooter | HeaderFooter | الكائن الذي تتم زيارته. |
+| headerFooter | HeaderFooter | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
@@ -34,21 +34,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
+    // عندما نحصل على عقدة مركبة لقبول زائر مستند، يقوم الزائر بزيارة العقدة المستقبلة،
+    // ثم يمر عبر جميع أبناء العقدة بطريقة العمق أولاً.
+    //يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // هناك طريقة بديلة للوصول إلى رأس/تذييلات المستند قسمًا تلو الآخر وهي الوصول إلى المجموعة.
+    // الطريقة البديلة للوصول إلى قسم رأس/تذييل المستند قسمًا تلو الآخر هي عن طريق الوصول إلى المجموعة.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// يجتاز الشجرة غير الثنائية للعقدة التابعة.
-/// ينشئ خريطة على شكل سلسلة لجميع عقد HeaderFooter التي تمت مواجهتها وأبناءها.
+/// يجتاز شجرة العقد غير الثنائية المكونة من عقد فرعية.
+/// إنشاء خريطة في شكل سلسلة من جميع عقد HeaderFooter التي تم مواجهتها وأطفالها.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -64,7 +64,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -74,7 +74,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة HeaderFooter في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة HeaderFooter في المستند.
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -86,7 +86,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به بعد زيارة كافة العقد التابعة لعقدة HeaderFooter.
+    /// يتم استدعاؤها بعد زيارة جميع العقد الفرعية لعقدة HeaderFooter.
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -98,9 +98,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder، ثم ضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder، وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

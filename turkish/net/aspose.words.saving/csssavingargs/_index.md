@@ -2,17 +2,17 @@
 title: CssSavingArgs Class
 linktitle: CssSavingArgs
 articleTitle: CssSavingArgs
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.CssSavingArgs sınıf. Şunun için veri sağlarCssSaving olay C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi sonuçları elde etmek için özelleştirilebilir CssSaving olay verileriyle belge işlemenizi geliştirmek üzere tasarlanmış Aspose.Words.CssSavingArgs sınıfını keşfedin.
 type: docs
-weight: 4880
+weight: 5620
 url: /tr/net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
 
 Şunun için veri sağlar:[`CssSaving`](../icsssavingcallback/csssaving/) olay.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) belgeleme makalesi.
 
 ```csharp
 public class CssSavingArgs
@@ -22,39 +22,39 @@ public class CssSavingArgs
 
 | İsim | Tanım |
 | --- | --- |
-| [CssStream](../../aspose.words.saving/csssavingargs/cssstream/) { get; set; } | CSS bilgilerinin kaydedileceği akışı belirtmeye izin verir. |
+| [CssStream](../../aspose.words.saving/csssavingargs/cssstream/) { get; set; } | CSS bilgilerinin kaydedileceği akışı belirtmenize olanak tanır. |
 | [Document](../../aspose.words.saving/csssavingargs/document/) { get; } | Şu anda kaydedilmekte olan belge nesnesini alır. |
-| [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine gömülüp gömülmeyeceğini belirlemeye izin verir. Varsayılan:`doğru` . Bu özellik kullanıldığında`YANLIŞ` , CSS bilgileri bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir. |
-| [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Aspose.Words'ün CSS bilgilerini kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir. |
+| [IsExportNeeded](../../aspose.words.saving/csssavingargs/isexportneeded/) { get; set; } | CSS'nin dosyaya aktarılıp aktarılmayacağını ve HTML belgesine yerleştirilip yerleştirilmeyeceğini belirtmeye olanak tanır. Varsayılan`doğru` . Bu özellik olduğunda`YANLIŞ` , CSS bilgisi bir CSS dosyasına kaydedilmeyecek ve HTML belgesine gömülmeyecektir. |
+| [KeepCssStreamOpen](../../aspose.words.saving/csssavingargs/keepcssstreamopen/) { get; set; } | Aspose.Words'ün CSS bilgilerini kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir. |
 
 ## Notlar
 
-Varsayılan olarak Aspose.Words bir belgeyi HTML'ye kaydettiğinde CSS bilgilerini inline (bir değer olarak) kaydeder.**stil** her öğedeki özellik).
+Varsayılan olarak, Aspose.Words bir belgeyi HTML'ye kaydettiğinde, CSS bilgilerini inline (bir değer olarak) kaydeder.**stil** her öğedeki öznitelik).
 
-`CssSavingArgs`kendi akış nesnenizi sağlayarak CSS bilgilerini dosyaya kaydetmenize olanak tanır.
+`CssSavingArgs` Kendi akış nesnenizi sağlayarak CSS bilgilerinin dosyaya kaydedilmesine olanak tanır.
 
 CSS'yi akışa kaydetmek için şunu kullanın:[`CssStream`](./cssstream/) mülk.
 
-CSS'nin bir dosyaya kaydedilmesini ve HTML belgesine gömülmesini engellemek için şunu kullanın:[`IsExportNeeded`](./isexportneeded/) mülk.
+CSS'yi bir dosyaya kaydetmeyi ve HTML belgesine yerleştirmeyi engellemek için şunu kullanın:[`IsExportNeeded`](./isexportneeded/) mülk.
 
 ## Örnekler
 
-Bir HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
+HTML dönüşümünün oluşturduğu CSS stil sayfalarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgenin "Save" yöntemine aktarabileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
-    // belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
+    // Belgenin "Kaydet" metoduna geçirebileceğimiz bir "HtmlFixedSaveOptions" nesnesi oluşturun
+    // Belgeyi HTML'ye nasıl dönüştüreceğimizi değiştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
     // "CssStylesheetType" özelliğini "CssStyleSheetType.External" olarak ayarlayın
-    // kayıtlı bir HTML belgesine harici bir CSS stil sayfası dosyasıyla eşlik edin.
+    // Kaydedilmiş bir HTML belgesine harici bir CSS stil sayfası dosyası eşlik eder.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu verilmiştir.
+    // Aşağıda çıktı CSS stil sayfaları için dizinleri ve dosya adlarını belirtmenin iki yolu bulunmaktadır.
     // 1 - Stil sayfamıza bir dosya adı atamak için "CssStyleSheetFileName" özelliğini kullanın:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -66,7 +66,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı belirler.
+/// Harici bir CSS stil sayfası için diğer parametrelerle birlikte özel bir dosya adı ayarlar.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {
@@ -79,7 +79,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Kaynak belgenin tamamına "Belge" özelliği aracılığıyla erişebiliriz.
+        // "Belge" özelliği aracılığıyla kaynak belgenin tamamına erişebiliriz.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

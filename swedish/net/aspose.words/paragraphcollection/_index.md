@@ -3,16 +3,16 @@ title: ParagraphCollection Class
 linktitle: ParagraphCollection
 articleTitle: ParagraphCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.ParagraphCollection klass. Ger maskinskriven åtkomst till en samling avParagraph noder i C#.
+description: Upptäck Aspose.Words.ParagraphCollection för sömlös åtkomst till strukturerade styckenoder, vilket förbättrar dokumenthantering och effektivitet i dina projekt.
 type: docs
-weight: 4410
+weight: 5140
 url: /sv/net/aspose.words/paragraphcollection/
 ---
 ## ParagraphCollection class
 
 Ger maskinskriven åtkomst till en samling av[`Paragraph`](../paragraph/) noder.
 
-För att lära dig mer, besök[Arbeta med paragrafer](https://docs.aspose.com/words/net/working-with-paragraphs/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med stycken](https://docs.aspose.com/words/net/working-with-paragraphs/) dokumentationsartikel.
 
 ```csharp
 public class ParagraphCollection : NodeCollection
@@ -31,42 +31,42 @@ public class ParagraphCollection : NodeCollection
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Avgör om en nod finns i samlingen. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel iteration i "foreach"-stil över samlingen av noder. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
-| [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Kopierar alla stycken från samlingen till en ny uppsättning stycken. (2 methods) |
+| [ToArray](../../aspose.words/paragraphcollection/toarray/#toarray_1)() | Kopierar alla stycken från samlingen till en ny matris med stycken. (2 methods) |
 
 ## Exempel
 
-Visar hur man kontrollerar om ett stycke är en flyttversion.
+Visar hur man kontrollerar om ett stycke är en flyttad revision.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Det här dokumentet innehåller "Move"-versioner, som visas när vi markerar text med markören,
-// och sedan dra den för att flytta den till en annan plats
-// medan du spårar revisioner i Microsoft Word via "Review" -> "Spåra ändringar".
+// Detta dokument innehåller "Flytta"-revideringar, som visas när vi markerar text med markören,
+// och dra den sedan för att flytta den till en annan plats
+// vid spårning av revisioner i Microsoft Word via "Granska" -> "Spåra ändringar".
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
- // Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner.
-// Dessa ändringar är potentiella ändringar av dokumentet som vi antingen kan acceptera eller förkasta.
+ // Flyttade revisioner består av par av "Flytta från" och "Flytta till" revisioner.
+// Dessa revideringar är potentiella ändringar i dokumentet som vi antingen kan acceptera eller avvisa.
 // Innan vi accepterar/avvisar en flyttrevision, dokumentet
-// måste hålla reda på både avgångs- och ankomstdestinationerna för texten.
-// Andra och fjärde stycket definierar en sådan revidering, och båda har alltså samma innehåll.
+// måste hålla reda på både avgångs- och ankomstdestinationer för texten.
+// Det andra och fjärde stycket definierar en sådan revision, och har således båda samma innehåll.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
 // Revisionen "Flytta från" är stycket där vi drog texten från.
-// Om vi accepterar revideringen kommer denna paragraf att försvinna,
+// Om vi accepterar revisionen kommer detta stycke att försvinna,
 // och den andra kommer att finnas kvar och inte längre vara en revision.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
-// Revisionen "Flytta till" är stycket dit vi drog texten till.
-// Om vi förkastar revisionen försvinner istället denna paragraf, och den andra kommer att finnas kvar.
+// "Flytta till"-versionen är stycket dit vi drog texten.
+// Om vi avvisar revisionen kommer istället detta stycke att försvinna, och det andra kommer att finnas kvar.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```
 

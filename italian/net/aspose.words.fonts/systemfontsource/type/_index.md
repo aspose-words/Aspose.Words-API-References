@@ -3,14 +3,14 @@ title: SystemFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: SystemFontSource Type proprietà. Restituisce il tipo di fonte del carattere in C#.
+description: Scopri la proprietà Type SystemFontSource, accedi facilmente e identifica i tipi di origine dei font per migliorare il tuo web design e l'esperienza utente.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/systemfontsource/type/
 ---
 ## SystemFontSource.Type property
 
-Restituisce il tipo di fonte del carattere.
+Restituisce il tipo di origine del font.
 
 ```csharp
 public override FontSourceType Type { get; }
@@ -18,13 +18,13 @@ public override FontSourceType Type { get; }
 
 ## Esempi
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
+Mostra come accedere alla sorgente dei font di sistema di un documento e impostare i font sostitutivi.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre una sorgente font di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
+// Imposta un font presente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -55,18 +55,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
+// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Il ripristino delle fonti dei caratteri ci lascia ancora con la fonte dei caratteri di sistema e i nostri sostituti.
+// Reimpostando le sorgenti dei font rimarranno comunque le sorgenti dei font di sistema e i nostri sostituti.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Guarda anche

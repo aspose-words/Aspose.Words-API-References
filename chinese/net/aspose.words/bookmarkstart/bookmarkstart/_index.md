@@ -2,15 +2,15 @@
 title: BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkStart 构造函数. 初始化一个新实例BookmarkStart类 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarkStart 构造函数！轻松初始化新的 BookmarkStart 实例，高效地在应用程序中添加书签。立即提升您的工作效率！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/bookmarkstart/bookmarkstart/
 ---
 ## BookmarkStart constructor
 
-初始化一个新实例[`BookmarkStart`](../)类.
+初始化[`BookmarkStart`](../)类.
 
 ```csharp
 public BookmarkStart(DocumentBase doc, string name)
@@ -19,7 +19,7 @@ public BookmarkStart(DocumentBase doc, string name)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | doc | DocumentBase | 所有者文件。 |
-| name | String | 书签的名称。不可能是`无效的`。 |
+| name | String | 书签的名称。不能`无效的`。 |
 
 ## 例子
 
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

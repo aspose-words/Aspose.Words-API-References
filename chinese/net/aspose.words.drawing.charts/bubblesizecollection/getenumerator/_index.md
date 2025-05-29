@@ -2,10 +2,10 @@
 title: BubbleSizeCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: BubbleSizeCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BubbleSizeCollection 的 GetEnumerator 方法。高效检索枚举器对象，简化数据处理并提升性能。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/bubblesizecollection/getenumerator/
 ---
 ## BubbleSizeCollection.GetEnumerator method

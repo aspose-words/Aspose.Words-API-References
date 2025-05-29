@@ -3,22 +3,26 @@ title: CompareOptions.Granularity
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words für .NET
-description: CompareOptions Granularity eigendom. Gibt an ob Änderungen nach Zeichen oder Wort verfolgt werden. Der Standardwert istWordLevel  in C#.
+description: Entdecken Sie die CompareOptions-Granularitätseigenschaft und verfolgen Sie Änderungen zeichen- oder wortweise für präzise Textbearbeitung. Verbessern Sie noch heute Ihre Dokumentenkontrolle!
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-Gibt an, ob Änderungen nach Zeichen oder Wort verfolgt werden. Der Standardwert istWordLevel .
+Gibt an, ob Änderungen zeichenweise oder wortweise verfolgt werden.
 
 ```csharp
 public Granularity Granularity { get; set; }
 ```
 
+## Bemerkungen
+
+Der Standardwert istWordLevel .
+
 ## Beispiele
 
-Wird angezeigt, um beim Vergleichen von Dokumenten eine Granularität anzugeben.
+Zeigt an, dass beim Vergleichen von Dokumenten eine Granularität angegeben werden muss.
 
 ```csharp
 Document docA = new Document();
@@ -29,14 +33,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Geben Sie an, ob Änderungen nachverfolgt werden sollen
+// Geben Sie an, ob Änderungen verfolgt werden
 // nach Zeichen ('Granularity.CharLevel') oder nach Wort ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// Die Revisionsgruppensammlung des ersten Dokuments enthält alle Unterschiede zwischen Dokumenten.
+// Die Sammlung von Revisionsgruppen des ersten Dokuments enthält alle Unterschiede zwischen den Dokumenten.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

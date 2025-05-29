@@ -3,7 +3,7 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words für .NET
-description: DocumentProperty ToInt methode. Gibt den Eigenschaftswert als Ganzzahl zurück in C#.
+description: Konvertieren Sie DocumentProperty-Werte mühelos in Ganzzahlen mit der ToInt-Methode. Ermöglichen Sie nahtloses Datenhandling für Ihre Anwendungen!
 type: docs
 weight: 100
 url: /de/net/aspose.words.properties/documentproperty/toint/
@@ -18,11 +18,11 @@ public int ToInt()
 
 ## Bemerkungen
 
-Löst eine Ausnahme aus, wenn der Eigenschaftstyp nicht vorhanden istNumber .
+Löst eine Exception aus, wenn der Eigenschaftstyp nichtNumber .
 
 ## Beispiele
 
-Zeigt verschiedene Typkonvertierungsmethoden für benutzerdefinierte Dokumenteigenschaften.
+Zeigt verschiedene Methoden zur Typkonvertierung benutzerdefinierter Dokumenteigenschaften.
 
 ```csharp
 Document doc = new Document();

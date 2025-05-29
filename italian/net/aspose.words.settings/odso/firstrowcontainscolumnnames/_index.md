@@ -3,14 +3,14 @@ title: Odso.FirstRowContainsColumnNames
 linktitle: FirstRowContainsColumnNames
 articleTitle: FirstRowContainsColumnNames
 second_title: Aspose.Words per .NET
-description: Odso FirstRowContainsColumnNames proprietà. Specifica che unapplicazione hosting tratterà la prima riga di dati nellorigine dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nellorigine dati. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà Odso FirstRowContainsColumnNames, che consente alle app di riconoscere la prima riga di dati come intestazioni, migliorando la chiarezza e l'usabilità dei dati.
 type: docs
 weight: 60
 url: /it/net/aspose.words.settings/odso/firstrowcontainscolumnnames/
 ---
 ## Odso.FirstRowContainsColumnNames property
 
-Specifica che un'applicazione hosting tratterà la prima riga di dati nell'origine dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nell'origine dati. Il valore predefinito è`falso` .
+Specifica che un'applicazione di hosting deve trattare la prima riga di dati nella sorgente dati esterna specificata come una riga di intestazione contenente i nomi di ciascuna colonna nella sorgente dati. Il valore predefinito è`falso` .
 
 ```csharp
 public bool FirstRowContainsColumnNames { get; set; }
@@ -22,7 +22,7 @@ RK Non l'ho mai visto in uso.
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

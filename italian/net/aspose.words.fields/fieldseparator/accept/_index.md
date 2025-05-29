@@ -3,7 +3,7 @@ title: FieldSeparator.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: FieldSeparator Accept metodo. Accetta un visitatore in C#.
+description: Scopri come il metodo FieldSeparator Accept migliora il coinvolgimento dei visitatori e semplifica l'elaborazione dei dati per le tue applicazioni.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldseparator/accept/
@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
 
 ### Valore di ritorno
 
@@ -26,9 +26,9 @@ public override bool Accept(DocumentVisitor visitor)
 
 ## Osservazioni
 
-Chiamate[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
+chiamate[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
 ## Esempi
 
@@ -52,7 +52,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itera sulla raccolta di campi e stampa contenuto e tipo
+    // Esegui l'iterazione sulla raccolta dei campi e stampa il contenuto e il tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -77,7 +77,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
+/// Implementazione del visitatore del documento che stampa le informazioni sui campi.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -87,7 +87,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -95,7 +95,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -107,7 +107,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -117,7 +117,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

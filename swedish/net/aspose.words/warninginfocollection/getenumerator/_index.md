@@ -3,14 +3,14 @@ title: WarningInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: WarningInfoCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
+description: Upptäck WarningInfoCollection GetEnumerator-metoden! Iterera effektivt igenom alla objekt i samlingen med lätthet och förbättra din kodningsupplevelse.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/warninginfocollection/getenumerator/
 ---
 ## WarningInfoCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen.
 
 ```csharp
 public IEnumerator<WarningInfo> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<WarningInfo> GetEnumerator()
 
 ## Exempel
 
-Visar hur du ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från tillgängliga teckensnittskällor.
+Visar hur man ställer in egenskapen för att hitta den närmaste matchningen för ett saknat teckensnitt från de tillgängliga teckensnittskällorna.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -26,20 +26,20 @@ public void EnableFontSubstitution()
     // Öppna ett dokument som innehåller text formaterad med ett teckensnitt som inte finns i någon av våra teckensnittskällor.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Tilldela en återuppringning för hantering av varningar för teckensnittsersättning.
+    // Tilldela en återanropning för att hantera varningar om teckensnittsersättning.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Ange ett standardtypsnittsnamn och aktivera teckensnittsersättning.
+    // Ange ett standardnamn för teckensnitt och aktivera teckensnittsersättning.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Original teckensnittsmått bör användas efter teckensnittsersättning.
+    // Ursprungliga teckensnittsmått bör användas efter teckensnittsersättning.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Vi kommer att få en varning för ersättning av teckensnitt om vi sparar ett dokument med ett teckensnitt som saknas.
+    // Vi får en varning om teckensnittsersättning om vi sparar ett dokument med ett saknat teckensnitt.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under laddning/sparning.
+    /// Anropas varje gång en varning uppstår under inläsning/sparning.
     /// </summary>
     public void Warning(WarningInfo info)
     {

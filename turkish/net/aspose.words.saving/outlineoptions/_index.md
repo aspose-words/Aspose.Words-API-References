@@ -2,17 +2,17 @@
 title: OutlineOptions Class
 linktitle: OutlineOptions
 articleTitle: OutlineOptions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.OutlineOptions sınıf. Anahat seçeneklerini belirlemeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş organizasyon ve netlik için belgenizin anahat ayarlarını özelleştirmek üzere Aspose.Words.Saving.OutlineOptions sınıfını keşfedin.
 type: docs
-weight: 5360
+weight: 6140
 url: /tr/net/aspose.words.saving/outlineoptions/
 ---
 ## OutlineOptions class
 
-Anahat seçeneklerini belirlemeye izin verir.
+Anahat seçeneklerini belirtmenize olanak tanır.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgeyi Kaydet](https://docs.aspose.com/words/net/save-a-document/) belgeleme makalesi.
 
 ```csharp
 public class OutlineOptions
@@ -28,37 +28,37 @@ public class OutlineOptions
 
 | İsim | Tanım |
 | --- | --- |
-| [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels/) { get; } | Bireysel yer imlerinin anahat düzeyini belirlemeye olanak tanır. |
+| [BookmarksOutlineLevels](../../aspose.words.saving/outlineoptions/bookmarksoutlinelevels/) { get; } | Bireysel yer imlerinin anahat düzeyini belirtmeye izin verir. |
 | [CreateMissingOutlineLevels](../../aspose.words.saving/outlineoptions/createmissingoutlinelevels/) { get; set; } | Belge dışa aktarıldığında eksik anahat düzeylerinin oluşturulup oluşturulmayacağını belirleyen bir değer alır veya ayarlar. |
-| [CreateOutlinesForHeadingsInTables](../../aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/) { get; set; } | Tabloların içindeki başlıklar (Başlık stilleriyle biçimlendirilmiş paragraflar) için ana hatlar oluşturulup oluşturulmayacağını belirtir. |
-| [DefaultBookmarksOutlineLevel](../../aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) { get; set; } | Belge anahattında Word yer işaretlerinin görüntüleneceği varsayılan düzeyi belirtir. |
-| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Dosya görüntülendiğinde belge anahattında kaç düzeyin genişletilmiş olarak gösterileceğini belirtir. |
-| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | belge taslağına kaç düzeyde başlık (Başlık stilleriyle biçimlendirilmiş paragraflar) ekleneceğini belirtir. |
+| [CreateOutlinesForHeadingsInTables](../../aspose.words.saving/outlineoptions/createoutlinesforheadingsintables/) { get; set; } | Tabloların içindeki başlıklar (Başlık stilleri ile biçimlendirilen paragraflar) için ana hatların oluşturulup oluşturulmayacağını belirtir. |
+| [DefaultBookmarksOutlineLevel](../../aspose.words.saving/outlineoptions/defaultbookmarksoutlinelevel/) { get; set; } | Word yer imlerinin görüntüleneceği belge anahattındaki varsayılan düzeyi belirtir. |
+| [ExpandedOutlineLevels](../../aspose.words.saving/outlineoptions/expandedoutlinelevels/) { get; set; } | Dosya görüntülendiğinde belge anahattında genişletilmiş olarak gösterilecek düzey sayısını belirtir. |
+| [HeadingsOutlineLevels](../../aspose.words.saving/outlineoptions/headingsoutlinelevels/) { get; set; } | belge taslağına kaç düzeyde başlık (Başlık stilleri ile biçimlendirilmiş paragraflar) ekleneceğini belirtir. |
 
 ## Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki üstbilgi/altbilgilerdeki yer işaretlerinin işlenmesini gösterir.
+PDF'e dönüştürdüğümüz bir belgedeki başlık/altbilgilerdeki yer imlerinin nasıl işleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Çıktı PDF'sinde anahat gezinme bölmesini görüntülemek için "PageMode" özelliğini "PdfPageMode.UseOutlines" olarak ayarlayın.
+// Çıkış PDF'inde anahat gezinme bölmesini görüntülemek için "PageMode" özelliğini "PdfPageMode.UseOutlines" olarak ayarlayın.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
 // Tümünü görüntülemek için "DefaultBookmarksOutlineLevel" özelliğini "1" olarak ayarlayın
-// çıktı PDF'sindeki ana hatların ilk düzeyindeki yer imleri.
+// çıktı PDF'indeki anahattın ilk seviyesindeki yer imleri.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.None" olarak ayarlayın
-// üstbilgi/altbilgi içindeki yer imlerini dışa aktarma.
+// Başlıklar/altbilgiler içinde bulunan hiçbir yer imini dışa aktarmayın.
 // "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.First" olarak ayarlayın
-// yalnızca ilk bölümün üstbilgi/altbilgilerindeki yer işaretlerini dışa aktarın.
-// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.All" olarak ayarlayarak
-// tüm üstbilgilerde/altbilgilerde bulunan yer işaretlerini dışa aktarın.
+// sadece ilk bölümün üstbilgi/altbilgilerindeki yer imlerini dışa aktar.
+// "HeaderFooterBookmarksExportMode" özelliğini "HeaderFooterBookmarksExportMode.All" olarak ayarlayın
+// tüm başlıklarda/altbilgilerde bulunan yer imlerini dışa aktar.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

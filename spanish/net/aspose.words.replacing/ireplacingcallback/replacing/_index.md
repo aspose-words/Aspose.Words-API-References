@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words para .NET
-description: IReplacingCallback Replacing método. Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo en C#.
+description: ¡Mejora tu código con el método IReplacingCallback! Personaliza las operaciones de reemplazo eficientemente ejecutando acciones definidas por el usuario para cada coincidencia encontrada.
 type: docs
 weight: 10
 url: /es/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de realizar un reemplazo.
+Un método definido por el usuario que se llama durante una operación de reemplazo para cada coincidencia encontrada justo antes de que se realice un reemplazo.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Valor_devuelto
 
-A[`ReplaceAction`](../../replaceaction/) valor que especifica la acción que se tomará para la coincidencia actual.
+A[`ReplaceAction`](../../replaceaction/) valor que especifica la acción que se realizará para la coincidencia actual.
 
 ## Ejemplos
 
-Muestra cómo reemplazar todas las apariciones de un patrón de expresión regular con otra cadena, mientras realiza un seguimiento de todos esos reemplazos.
+Muestra cómo reemplazar todas las ocurrencias de un patrón de expresión regular con otra cadena, mientras se rastrean todos dichos reemplazos.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establece una devolución de llamada que rastrea cualquier reemplazo que realizará el método "Replace".
+    // Establezca una devolución de llamada que rastree cualquier reemplazo que realizará el método "Reemplazar".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,8 +50,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de buscar y reemplazar
-/// y anota el valor del texto coincidente original.
+/// Mantiene un registro de cada reemplazo de texto realizado mediante una operación de búsqueda y reemplazo
+/// y anota el valor del texto original coincidente.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Muestra cómo insertar el contenido completo de un documento como reemplazo de una coincidencia en una operación de buscar y reemplazar.
+Muestra cómo insertar el contenido de un documento completo como reemplazo de una coincidencia en una operación de búsqueda y reemplazo.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Inserta un documento después del párrafo que contiene el texto coincidente.
+        // Insertar un documento después del párrafo que contiene el texto coincidente.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Elimina el párrafo con el texto coincidente.
+        //Elimina el párrafo con el texto coincidente.
         para.Remove();
 
         return ReplaceAction.Skip;

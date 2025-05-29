@@ -3,9 +3,9 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words per .NET
-description: Style Styles proprietà. Ottiene la raccolta di stili a cui appartiene questo stile in C#.
+description: Scopri la proprietà Style Styles per accedere a una raccolta curata di stili, che arricchiranno il tuo design con un'estetica unica e coerente.
 type: docs
-weight: 160
+weight: 190
 url: /it/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

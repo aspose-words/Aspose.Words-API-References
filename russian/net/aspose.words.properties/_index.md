@@ -3,12 +3,12 @@ title: Aspose.Words.Properties
 linktitle: Aspose.Words.Properties
 articleTitle: Aspose.Words.Properties
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Properties Пространство имен предоставляет классы для work с настраиваемыми и встроенными свойствами документа такими как заголовок ключевые слова компания и т. д на С#.
+description: Откройте для себя пространство имен Aspose.Words.Properties, чтобы легко управлять пользовательскими и встроенными свойствами документа, такими как заголовок, ключевые слова и компания, для улучшенной организации документа.
 type: docs
-weight: 190
+weight: 210
 url: /ru/net/aspose.words.properties/
 ---
-**Aspose.Words.Properties** Пространство имен предоставляет классы для work с настраиваемыми и встроенными свойствами документа, такими как заголовок, ключевые слова, компания и т. д.
+The**Aspose.Words.Свойства** Пространство имен предоставляет классы для work с пользовательскими и встроенными свойствами документа, такими как заголовок, ключевые слова, компания и т. д.
 
 ## Классы
 
@@ -22,5 +22,5 @@ url: /ru/net/aspose.words.properties/
 
 | перечисление | Описание |
 | --- | --- |
-| [DocumentSecurity](./documentsecurity/) | Используется как значение для[`Security`](../aspose.words.properties/builtindocumentproperties/security/) property. Указывает уровень безопасности документа в виде числового значения. |
+| [DocumentSecurity](./documentsecurity/) | Используется как значение для[`Security`](../aspose.words.properties/builtindocumentproperties/security/) свойство. Указывает уровень безопасности документа в виде числового значения. |
 | [PropertyType](./propertytype/) | Указывает тип данных свойства документа. |

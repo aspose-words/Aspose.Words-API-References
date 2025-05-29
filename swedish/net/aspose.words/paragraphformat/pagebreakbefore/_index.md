@@ -3,9 +3,9 @@ title: ParagraphFormat.PageBreakBefore
 linktitle: PageBreakBefore
 articleTitle: PageBreakBefore
 second_title: Aspose.Words för .NET
-description: ParagraphFormat PageBreakBefore fast egendom. Sant om en sidbrytning tvingas före stycket i C#.
+description: Upptäck egenskapen ParagraphFormat PageBreakBefore, styr enkelt sidbrytningar före stycken för förbättrad dokumentformatering och läsbarhet.
 type: docs
-weight: 260
+weight: 270
 url: /sv/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
@@ -24,9 +24,9 @@ Visar hur man skapar stycken med sidbrytningar i början.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Sätt denna flagga på "true" för att tillämpa en sidbrytning i början av varje stycke
+// Sätt den här flaggan till "sant" för att tillämpa en sidbrytning i början av varje stycke
 // som dokumentbyggaren kommer att skapa under denna ParagraphFormat-konfiguration.
-// Det första stycket kommer inte att få en sidbrytning.
+// Det första stycket får ingen sidbrytning.
 // Lämna denna flagga som "falsk" för att starta varje nytt stycke på samma sida
 // som föregående, förutsatt att det finns tillräckligt med utrymme.
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;

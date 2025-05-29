@@ -3,7 +3,7 @@ title: FieldRD.IsPathRelative
 linktitle: IsPathRelative
 articleTitle: IsPathRelative
 second_title: Aspose.Words für .NET
-description: FieldRD IsPathRelative eigendom. Ruft ab oder legt fest ob der Pfad relativ zum aktuellen Dokument ist in C#.
+description: Entdecken Sie die IsPathRelative-Eigenschaft von FieldRD zur einfachen Verwaltung von Dokumentpfaden. Vereinfachen Sie Ihre Programmierung mit flexiblen Pfadeinstellungen für mehr Effizienz!
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldrd/ispathrelative/
@@ -18,28 +18,28 @@ public bool IsPathRelative { get; set; }
 
 ## Beispiele
 
-Zeigt die Verwendung des RD-Felds zum Erstellen eines Inhaltsverzeichniseintrags aus Überschriften in anderen Dokumenten an.
+Zeigt, wie Sie das RD-Feld verwenden, um aus Überschriften in anderen Dokumenten ein Inhaltsverzeichnis zu erstellen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen Document Builder verwenden, um ein Inhaltsverzeichnis einzufügen,
+// Verwenden Sie einen Dokumentgenerator, um ein Inhaltsverzeichnis einzufügen.
 // und fügen Sie dann einen Eintrag für das Inhaltsverzeichnis auf der folgenden Seite hinzu.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Ein RD-Feld einfügen, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
+// Fügen Sie ein RD-Feld ein, das in seiner FileName-Eigenschaft auf ein anderes lokales Dateisystemdokument verweist.
 // Das Inhaltsverzeichnis akzeptiert jetzt auch alle Überschriften aus dem referenzierten Dokument als Einträge für seine Tabelle.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
- // Erstellen Sie das Dokument, auf das das RD-Feld verweist, und fügen Sie eine Überschrift ein.
-// Diese Überschrift wird als Eintrag im TOC-Feld in unserem ersten Dokument angezeigt.
+    // Erstellen Sie das Dokument, auf das das RD-Feld verweist, und fügen Sie eine Überschrift ein.
+// Diese Überschrift wird als Eintrag im Inhaltsverzeichnisfeld unseres ersten Dokuments angezeigt.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

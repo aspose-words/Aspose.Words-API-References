@@ -2,15 +2,15 @@
 title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions PaperColor mülk. Oluşturulan görüntüler için arka plan kağıt rengini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Oluşturduğunuz görsellerin arka plan renklerini kolayca özelleştirmek, görsel çekiciliği ve benzersizliği artırmak için ImageSaveOptions PaperColor özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
 
-Oluşturulan görüntüler için arka plan (kağıt) rengini alır veya ayarlar.
+Oluşturulan resimler için arka plan (kağıt) rengini alır veya ayarlar.
 
 Varsayılan değer:White.
 
@@ -20,11 +20,11 @@ public Color PaperColor { get; set; }
 
 ## Notlar
 
-Kendi arka plan rengini ( ) belirten bir belgenin sayfaları oluşturulurken, belgenin arka plan rengi bu özellik tarafından belirtilen rengi geçersiz kılacaktır.
+Kendi arka plan rengini belirten bir belgenin sayfaları işlenirken, , belgenin arka plan rengi bu özellik tarafından belirtilen rengi geçersiz kılacaktır.
 
 ## Örnekler
 
-Word belgesinin bir sayfasını şeffaf veya renkli arka plana sahip bir görüntüye dönüştürür.
+Word belgesinin bir sayfasını şeffaf veya renkli arka planlı bir görüntüye dönüştürür.
 
 ```csharp
 Document doc = new Document();
@@ -36,18 +36,17 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
-// Şeffaf renk uygulamak için "PaperColor" özelliğini şeffaf renge ayarlayın
-// belgeyi bir görüntüye dönüştürürken arka planı.
+// Şeffaf bir renk uygulamak için "PaperColor" özelliğini şeffaf bir renge ayarlayın
+// belgenin görüntüye dönüştürülmesi sırasında arka plan olarak kullanılır.
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
 // Bu rengi uygulamak için "PaperColor" özelliğini opak bir renge ayarlayın
-// belgeyi bir görüntüye dönüştürdüğümüzde arka plan olarak.
+// belgeyi bir görüntüye dönüştürdüğümüzde arka plan olarak kullanırız.
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);

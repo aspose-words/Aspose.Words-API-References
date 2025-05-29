@@ -2,15 +2,15 @@
 title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
-second_title: 用于 .NET 的 Aspose.Words
-description: IChartDataPoint Explosion 财产. 指定数据点应从饼图中心移动的量 可以为负数负数表示未设置属性且不应应用爆炸 仅适用于饼图 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索饼图的 IChartDataPoint Explosion 属性。精准控制数据点位置，立即提升您的可视化数据叙事能力！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性且不应应用爆炸。 仅适用于饼图。
+指定数据点应从饼图中心移动的量。 可以为负数，负数表示未设置属性，不应应用爆炸。 仅适用于饼图。
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## 例子
 
-演示如何将饼图的切片移离中心。
+展示如何将饼图的各个部分移离中心。
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// 饼图的“切片”可以通过相应数据点的爆炸属性从中心移开一段距离。
-// 将一个数据点添加到饼图的第一部分，并将其移离中心 10 点。
+// 可以通过相应数据点的 Explosion 属性将饼图的“切片”从中心移开一定距离。
+// 在饼图的第一部分添加一个数据点，并将其从中心移动 10 个点。
 // 如果数据点不存在，Aspose.Words 会自动创建数据点。
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;

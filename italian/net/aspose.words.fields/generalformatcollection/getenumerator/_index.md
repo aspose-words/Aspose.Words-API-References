@@ -3,7 +3,7 @@ title: GeneralFormatCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: GeneralFormatCollection GetEnumerator metodo. Restituisce un oggetto enumeratore in C#.
+description: Scopri il metodo GetEnumerator di GeneralFormatCollection per accedere facilmente alla tua raccolta dati e scorrerla con efficienza e precisione.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/generalformatcollection/getenumerator/
@@ -24,7 +24,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

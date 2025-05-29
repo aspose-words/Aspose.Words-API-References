@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.Keywords
 linktitle: Keywords
 articleTitle: Keywords
-second_title: 用于 .NET 的 Aspose.Words
-description: BuiltInDocumentProperties Keywords 财产. 获取或设置文档关键字 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 BuiltInDocumentProperties 增强您的文档。轻松管理关键字，提升搜索能力和组织性，从而提高工作效率。
 type: docs
-weight: 140
+weight: 150
 url: /zh/net/aspose.words.properties/builtindocumentproperties/keywords/
 ---
 ## BuiltInDocumentProperties.Keywords property
@@ -25,23 +25,23 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// 下面是四个内置文档属性，它们的字段可以在文档正文中显示其值。
-// 1 - “Author”属性，我们可以使用 AUTHOR 字段显示它：
+// 下面是四个内置文档属性，它们具有可以在文档正文中显示其值的字段。
+// 1 - “作者”属性，我们可以使用 AUTHOR 字段显示：
 properties.Author = "John Doe";
 builder.Write("Author:\t");
 builder.InsertField(FieldType.FieldAuthor, true);
 
-// 2 - “Title”属性，我们可以使用 TITLE 字段显示它：
+// 2 - “标题”属性，我们可以使用 TITLE 字段显示它：
 properties.Title = "John's Document";
 builder.Write("\nDoc title:\t");
 builder.InsertField(FieldType.FieldTitle, true);
 
-// 3 - “Subject”属性，我们可以使用 SUBJECT 字段显示它：
+// 3 - “主题”属性，我们可以使用 SUBJECT 字段显示：
 properties.Subject = "My subject";
 builder.Write("\nSubject:\t");
 builder.InsertField(FieldType.FieldSubject, true);
 
-// 4 - “Comments”属性，我们可以使用 COMMENTS 字段显示它：
+// 4 - “评论”属性，我们可以使用评论字段显示它：
 properties.Comments = $"This is {properties.Author}'s document about {properties.Subject}";
 builder.Write("\nComments:\t\"");
 builder.InsertField(FieldType.FieldComments, true);
@@ -50,10 +50,10 @@ builder.Write("\"");
 // “Category”内置属性没有可以显示其值的字段。
 properties.Category = "My category";
 
-// 我们可以通过用分号分隔“Keywords”属性的字符串值来为一个文档设置多个关键字。
+// 我们可以通过用分号分隔“Keywords”属性的字符串值为文档设置多个关键字。
 properties.Keywords = "Tag 1; Tag 2; Tag 3";
 
-// 我们可以在Windows资源管理器中右键单击这个文档，在“属性”->中找到这些属性“细节”。
+// 我们可以在 Windows 资源管理器中右键单击该文档，然后在“属性”->“详细信息”中找到这些属性。
 // “Author”内置属性位于“Origin”组中，其他属性位于“Description”组中。
 doc.Save(ArtifactsDir + "DocumentProperties.Description.docx");
 ```

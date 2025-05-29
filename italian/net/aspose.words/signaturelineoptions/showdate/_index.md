@@ -3,14 +3,14 @@ title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words per .NET
-description: SignatureLineOptions ShowDate proprietà. Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà èVERO  in C#.
+description: Scopri come la proprietà ShowDate di SignatureLineOptions migliora la professionalità del tuo documento visualizzando la data della firma sulle righe della firma.
 type: docs
 weight: 60
 url: /it/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-Ottiene o imposta un valore che indica che la data del segno è visualizzata nella riga della firma. Il valore predefinito per questa proprietà è`VERO` .
+Ottiene o imposta un valore che indica che la data della firma è visualizzata nella riga della firma. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool ShowDate { get; set; }

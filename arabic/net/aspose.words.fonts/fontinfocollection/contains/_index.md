@@ -3,14 +3,14 @@ title: FontInfoCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words لـ .NET
-description: FontInfoCollection Contains طريقة. يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد في C#.
+description: اكتشف ما إذا كانت مجموعة FontInfoCollection تتضمن خطًا معينًا بالاسم. أدر مجموعة خطوطك واحصل على الوصول إليها بسهولة باستخدام هذه الطريقة الأساسية.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fonts/fontinfocollection/contains/
 ---
 ## FontInfoCollection.Contains method
 
-يحدد ما إذا كانت المجموعة تحتوي على خط بالاسم المحدد.
+يحدد ما إذا كانت المجموعة تحتوي على خط يحمل الاسم المحدد.
 
 ```csharp
 public bool Contains(string name)
@@ -18,11 +18,11 @@ public bool Contains(string name)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | اسم الخط الذي سيتم تحديد موقعه غير حساس لحالة الأحرف. |
+| name | String | اسم الخط الذي يجب تحديد موقعه دون مراعاة حالة الأحرف. |
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم العثور على العنصر في المجموعة؛ خلاف ذلك،`خطأ شنيع`.
+`حقيقي`إذا تم العثور على العنصر في المجموعة؛ وإلا،`خطأ شنيع`.
 
 ## أمثلة
 
@@ -31,8 +31,8 @@ public bool Contains(string name)
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على 3 خطوط افتراضية. كل خط في الوثيقة
-// سيكون له كائن FontInfo المطابق الذي يحتوي على تفاصيل حول هذا الخط.
+// يحتوي المستند الفارغ على ثلاثة خطوط افتراضية. كل خط في المستند
+//سيكون هناك كائن FontInfo مطابق يحتوي على تفاصيل حول هذا الخط.
 Assert.AreEqual(3, doc.FontInfos.Count);
 
 Assert.True(doc.FontInfos.Contains("Times New Roman"));

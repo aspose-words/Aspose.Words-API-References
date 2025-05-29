@@ -3,7 +3,7 @@ title: CsvDataSource
 linktitle: CsvDataSource
 articleTitle: CsvDataSource
 second_title: Aspose.Words för .NET
-description: CsvDataSource byggare. Skapar en ny datakälla med data från en CSVfil med standardalternativ för att analysera CSVdata i C#.
+description: Skapa enkelt en kraftfull CSV-datakälla med vår CsvDataSource-konstruktor. Förenkla dataparsning med standardalternativ för sömlös integration.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.reporting/csvdatasource/csvdatasource/
@@ -30,7 +30,7 @@ public CsvDataSource(string csvPath)
 
 ## CsvDataSource(*string, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_3}
 
-Skapar en ny datakälla med data från en CSV-fil med de angivna alternativen för att tolka CSV-data.
+Skapar en ny datakälla med data från en CSV-fil med hjälp av de angivna alternativen för att analysera CSV-data.
 
 ```csharp
 public CsvDataSource(string csvPath, CsvDataLoadOptions options)
@@ -40,6 +40,25 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | --- | --- | --- |
 | csvPath | String | Sökvägen till CSV-filen som ska användas som datakälla. |
 | options | CsvDataLoadOptions | Alternativ för att analysera CSV-data. |
+
+## Exempel
+
+Visar hur man använder CSV som datakälla (sträng).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Se även
 
@@ -60,7 +79,7 @@ public CsvDataSource(Stream csvStream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| csvStream | Stream | Strömmen av CSV-data som ska användas som datakälla. |
+| csvStream | Stream | Den CSV-dataström som ska användas som datakälla. |
 
 ### Se även
 
@@ -72,7 +91,7 @@ public CsvDataSource(Stream csvStream)
 
 ## CsvDataSource(*Stream, [CsvDataLoadOptions](../../csvdataloadoptions/)*) {#constructor_1}
 
-Skapar en ny datakälla med data från en CSV-ström med de angivna alternativen för att analysera CSV-data.
+Skapar en ny datakälla med data från en CSV-ström med hjälp av de angivna alternativen för att analysera CSV-data.
 
 ```csharp
 public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
@@ -80,8 +99,28 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| csvStream | Stream | Strömmen av CSV-data som ska användas som datakälla. |
+| csvStream | Stream | Den CSV-dataström som ska användas som datakälla. |
 | options | CsvDataLoadOptions | Alternativ för att analysera CSV-data. |
+
+## Exempel
+
+Visar hur man använder CSV som datakälla (ström).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.csv"))
+{
+    CsvDataSource dataSource = new CsvDataSource(stream, loadOptions);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataStream.docx");
+```
 
 ### Se även
 

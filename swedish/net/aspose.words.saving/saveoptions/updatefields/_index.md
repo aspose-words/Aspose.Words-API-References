@@ -3,14 +3,14 @@ title: SaveOptions.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words för .NET
-description: SaveOptions UpdateFields fast egendom. Hämtar eller ställer in ett värde som avgör om fält av vissa typer ska uppdateras innan dokumentet sparas till ett fast sidformat. Standardvärdet för den här egenskapen ärSann  i C#.
+description: Upptäck hur egenskapen SaveOptions UpdateFields optimerar dokumentsparning genom att uppdatera specifika fälttyper innan de konverteras till fasta format. Standardvärde: sant.
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.saving/saveoptions/updatefields/
 ---
 ## SaveOptions.UpdateFields property
 
-Hämtar eller ställer in ett värde som avgör om fält av vissa typer ska uppdateras innan dokumentet sparas till ett fast sidformat. Standardvärdet för den här egenskapen är`Sann` .
+Hämtar eller anger ett värde som avgör om fält av vissa typer ska uppdateras innan dokumentet sparas till ett fast sidformat. Standardvärdet för den här egenskapen är`sann` .
 
 ```csharp
 public bool UpdateFields { get; set; }
@@ -18,18 +18,18 @@ public bool UpdateFields { get; set; }
 
 ## Anmärkningar
 
-Gör det möjligt att ange om MS Word-beteende ska härma eller inte.
+Gör det möjligt att ange om beteendet i MS Word ska efterliknas eller inte.
 
 ## Exempel
 
-Visar hur du uppdaterar alla fält i ett dokument direkt innan du sparar det till PDF.
+Visar hur man uppdaterar alla fält i ett dokument omedelbart innan det sparas som PDF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga text med PAGE- och NUMPAGES-fälten. Dessa fält visar inte det korrekta värdet i realtid.
-// Vi kommer att behöva uppdatera dem manuellt med uppdateringsmetoder som "Field.Update()" och "Document.UpdateFields()"
+// Infoga text med fälten PAGE och NUMPAGES. Dessa fält visar inte rätt värde i realtid.
+// Vi måste uppdatera dem manuellt med hjälp av uppdateringsmetoder som "Field.Update()" och "Document.UpdateFields()"
 // varje gång vi behöver dem för att visa korrekta värden.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
@@ -38,15 +38,15 @@ builder.InsertField("NUMPAGES", "");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Hello World!");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Ställ in "UpdateFields"-egenskapen till "false" för att inte uppdatera alla fält i ett dokument precis innan en spara-operation.
+// Sätt egenskapen "UpdateFields" till "false" för att inte uppdatera alla fält i ett dokument precis innan en sparningsåtgärd.
 // Detta är det bästa alternativet om vi vet att alla våra fält kommer att vara uppdaterade innan vi sparar.
-// Ställ in egenskapen "UpdateFields" till "true" för att iterera genom hela dokumentet
-//-fält och uppdatera dem innan vi sparar det som en PDF. Detta kommer att se till att alla fält visas
-// de mest exakta värdena i PDF:en.
+// Sätt egenskapen "UpdateFields" till "true" för att iterera genom hela dokumentet
+// fält och uppdatera dem innan vi sparar det som en PDF. Detta säkerställer att alla fält visas
+// de mest exakta värdena i PDF-filen.
 options.UpdateFields = updateFields;
 
 // Vi kan klona PdfSaveOptions-objekt.

@@ -2,10 +2,10 @@
 title: ListLevelAlignment Enum
 linktitle: ListLevelAlignment
 articleTitle: ListLevelAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListLevelAlignment Sıralama. Liste numarası veya madde işareti için hizalamayı belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi liste numarası ve madde işareti hizalaması için Aspose.Words.Lists.ListLevelAlignment enum'unu keşfedin. Belge biçimlendirmesini zahmetsizce geliştirin!
 type: docs
-weight: 3510
+weight: 3960
 url: /tr/net/aspose.words.lists/listlevelalignment/
 ---
 ## ListLevelAlignment enumeration
@@ -22,7 +22,7 @@ public enum ListLevelAlignment
 | --- | --- | --- |
 | Left | `0` | Liste etiketi sayı konumunun soluna hizalanır. |
 | Center | `1` | Liste etiketi sayı konumunda ortalanır. |
-| Right | `2` | Bu liste etiketi sayı konumunun sağına hizalanır. |
+| Right | `2` | Bu liste etiketi sayı konumunun sağına hizalanmıştır. |
 
 ## Notlar
 
@@ -30,16 +30,16 @@ Bir değer olarak kullanılır[`Alignment`](../listlevel/alignment/) mülk.
 
 ## Örnekler
 
-DocumentBuilder kullanılırken özel liste formatının paragraflara nasıl uygulanacağını gösterir.
+DocumentBuilder kullanılırken paragraflara özel liste biçimlendirmesinin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
+// Bir liste, paragraf kümelerini önek sembolleri ve girintilerle düzenlememize ve süslememize olanak tanır.
  // Girinti seviyesini artırarak iç içe listeler oluşturabiliriz.
- // Bir listeyi belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
-// Bir listenin başı ile sonu arasına eklediğimiz her paragraf, listede bir öğe haline gelecektir.
-// Microsoft Word şablonundan bir liste oluşturun ve liste seviyelerinin ilk ikisini özelleştirin.
+ // Bir listeyi, bir belge oluşturucunun "ListFormat" özelliğini kullanarak başlatabilir ve sonlandırabiliriz.
+// Bir listenin başlangıcı ile sonu arasına eklediğimiz her paragraf listede bir öğe haline gelecektir.
+// Microsoft Word şablonundan bir liste oluşturun ve liste düzeylerinin ilk ikisini özelleştirin.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -60,7 +60,7 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// Bu NumberFormat değeri yıldız şekilli madde işareti listesi sembolleri oluşturacaktır.
+// Bu NumberFormat değeri yıldız şeklinde madde işaretli liste sembolleri oluşturacaktır.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;

@@ -3,7 +3,7 @@ title: FileFormatUtil.DetectFileFormat
 linktitle: DetectFileFormat
 articleTitle: DetectFileFormat
 second_title: Aspose.Words för .NET
-description: FileFormatUtil DetectFileFormat metod. Upptäcker och returnerar information om formatet för ett dokument som lagras i en diskfil i C#.
+description: Identifiera snabbt dokumentformat med FileFormatUtils DetectFileFormat-metod. Få korrekta formatinsikter för effektiv filhantering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/fileformatutil/detectfileformat/
@@ -22,23 +22,23 @@ public static FileFormatInfo DetectFileFormat(string fileName)
 
 ### Returvärde
 
-A[`FileFormatInfo`](../../fileformatinfo/) objekt som innehåller den upptäckta informationen.
+En[`FileFormatInfo`](../../fileformatinfo/) objekt som innehåller den detekterade informationen.
 
 ## Anmärkningar
 
-Även om den här metoden upptäcker dokumentformatet, garanterar den inte att det angivna dokumentet är giltigt. Denna metod upptäcker endast dokumentformatet genom att läsa data som är tillräckliga för upptäckt. För att fullständigt verifiera att ett dokument är giltigt måste du ladda dokumentet i en[`Document`](../../document/) objekt.
+Även om den här metoden identifierar dokumentformatet garanterar den inte att det angivna dokumentet är giltigt. Den här metoden identifierar endast dokumentformatet genom att läsa data som är tillräckliga för detektering. För att fullständigt verifiera att ett dokument är giltigt måste du läsa in dokumentet i en[`Document`](../../document/) objekt.
 
-Denna metod kastar[`FileCorruptedException`](../../filecorruptedexception/) när formatet känns igen, men upptäckten kan inte slutföras på grund av korruption.
+Den här metoden kastar[`FileCorruptedException`](../../filecorruptedexception/) när formatet is igenkänns, men detekteringen inte kan slutföras på grund av korruption.
 
 ## Exempel
 
-Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformat och kryptering.
+Visar hur man använder FileFormatUtil-klassen för att identifiera dokumentformat och kryptering.
 
 ```csharp
 Document doc = new Document();
 
 // Konfigurera ett SaveOptions-objekt för att kryptera dokumentet
-// med ett lösenord när vi sparar det, och sedan spara dokumentet.
+// med ett lösenord när vi sparar det, och sedan sparar vi dokumentet.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -51,7 +51,7 @@ Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.True(info.IsEncrypted);
 ```
 
-Visar hur du använder klassen FileFormatUtil för att upptäcka dokumentformatet och förekomsten av digitala signaturer.
+Visar hur man använder FileFormatUtil-klassen för att identifiera dokumentformat och förekomst av digitala signaturer.
 
 ```csharp
 // Använd en FileFormatInfo-instans för att verifiera att ett dokument inte är digitalt signerat.
@@ -61,8 +61,9 @@ Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Använd en ny FileFormatInstance för att bekräfta att den är signerad.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
@@ -96,24 +97,24 @@ public static FileFormatInfo DetectFileFormat(Stream stream)
 
 ### Returvärde
 
-A[`FileFormatInfo`](../../fileformatinfo/) objekt som innehåller den upptäckta informationen.
+En[`FileFormatInfo`](../../fileformatinfo/) objekt som innehåller den detekterade informationen.
 
 ## Anmärkningar
 
 Strömmen måste placeras i början av dokumentet.
 
-När denna metod återkommer återställs positionen i strömmen till den ursprungliga positionen.
+När den här metoden återgår återställs positionen i strömmen till den ursprungliga positionen.
 
-Även om den här metoden upptäcker dokumentformatet, garanterar den inte att det angivna dokumentet är giltigt. Denna metod upptäcker endast dokumentformatet genom att läsa data som är tillräckliga för upptäckt. För att fullständigt verifiera att ett dokument är giltigt måste du ladda dokumentet i en[`Document`](../../document/) objekt.
+Även om den här metoden identifierar dokumentformatet garanterar den inte att det angivna dokumentet är giltigt. Den här metoden identifierar endast dokumentformatet genom att läsa data som är tillräckliga för detektering. För att fullständigt verifiera att ett dokument är giltigt måste du läsa in dokumentet i en[`Document`](../../document/) objekt.
 
-Denna metod kastar[`FileCorruptedException`](../../filecorruptedexception/) när formatet känns igen, men upptäckten kan inte slutföras på grund av korruption.
+Den här metoden kastar[`FileCorruptedException`](../../filecorruptedexception/) när formatet is igenkänns, men detekteringen inte kan slutföras på grund av korruption.
 
 ## Exempel
 
-Visar hur du använder FileFormatUtil-metoderna för att upptäcka formatet på ett dokument.
+Visar hur man använder FileFormatUtil-metoderna för att identifiera ett dokuments format.
 
 ```csharp
-// Ladda ett dokument från en fil som saknar filtillägg, och identifiera sedan dess filformat.
+// Ladda ett dokument från en fil som saknar filändelse och identifiera sedan dess filformat.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -121,15 +122,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Nedan finns två metoder för att konvertera ett LoadFormat till dess motsvarande SaveFormat.
-    // 1 - Hämta filtilläggssträngen för LoadFormat och hämta sedan motsvarande SaveFormat från den strängen:
+    // Nedan följer två metoder för att konvertera ett LoadFormat till motsvarande SaveFormat.
+    // 1 - Hämta filändelsen för LoadFormat och hämta sedan motsvarande SaveFormat från den strängen:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
     // 2 - Konvertera LoadFormat direkt till dess SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Ladda ett dokument från strömmen och spara det sedan i det automatiskt upptäckta filtillägget.
+    // Ladda ett dokument från strömmen och spara det sedan till den automatiskt upptäckta filändelsen.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

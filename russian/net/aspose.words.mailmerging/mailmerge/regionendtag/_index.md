@@ -3,14 +3,14 @@ title: MailMerge.RegionEndTag
 linktitle: RegionEndTag
 articleTitle: RegionEndTag
 second_title: Aspose.Words для .NET
-description: MailMerge RegionEndTag свойство. Получает или задает закрывающий тег региона слияния почты на С#.
+description: Откройте для себя свойство MailMerge RegionEndTag для эффективного управления регионами слияния почты. Упростите автоматизацию документов с помощью бесшовной интеграции тегов.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.mailmerging/mailmerge/regionendtag/
 ---
 ## MailMerge.RegionEndTag property
 
-Получает или задает закрывающий тег региона слияния почты.
+Получает или задает конечный тег области слияния почты.
 
 ```csharp
 public string RegionEndTag { get; set; }
@@ -18,14 +18,14 @@ public string RegionEndTag { get; set; }
 
 ## Примеры
 
-Показывает, как создавать, составлять список и читать регионы слияния почты.
+Показывает, как создавать, перечислять и читать регионы слияния почты.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Теги "TableStart" и "TableEnd", которые находятся внутри MERGEFIELD,
-// обозначают строки, обозначающие начало и конец регионов слияния почты.
+// обозначают строки, которые обозначают начало и конец областей слияния почты.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
@@ -49,13 +49,13 @@ Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
 // Вставляем регион с тем же именем внутрь существующего региона, что делает его родительским.
-// Теперь поле «Столбец2» будет внутри нового региона.
+// Теперь поле «Столбец2» будет находиться внутри новой области.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Если мы ищем имена повторяющихся регионов с помощью метода GetRegionsByName,
+// Если мы ищем имя дублирующихся регионов с помощью метода "GetRegionsByName",
 // он вернет все такие регионы в коллекции.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 

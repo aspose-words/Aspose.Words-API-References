@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText свойство. Указывает должно ли содержимое этого тега структурированного документа интерпретироваться как содержащий текстзаполнитель в отличие от обычного текстового содержимого в теге структурированного документа на С#.
+description: Откройте для себя свойство IsShowingPlaceholderText StructuredDocumentTagRangeStart. Легко управляйте заполнителями и обычным текстом в ваших структурированных документах!
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Указывает, должно ли содержимое этого тега структурированного документа интерпретироваться как содержащий текст-заполнитель (в отличие от обычного текстового содержимого в теге структурированного документа).
+Указывает, должно ли содержимое этого структурированного тега документа интерпретироваться как содержащий текст-заполнитель (в отличие от обычного текстового содержимого внутри структурированного тега документа).
 
-, если установлено значение`истинный` , это состояние будет возобновлено (с отображением текста-заполнителя) при открытии этого документа.
+если установлено значение`истинный` , это состояние будет возобновлено (показ текста-заполнителя) при открытии этого документа.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }

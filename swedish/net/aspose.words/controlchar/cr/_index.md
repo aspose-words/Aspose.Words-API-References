@@ -3,7 +3,7 @@ title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
 second_title: Aspose.Words för .NET
-description: ControlChar Cr fält. Vagnreturtecken x000d eller r. Samma somParagraphBreak  i C#.
+description: Upptäck ControlChar Cr, vagnreturtecknet (x000d eller r) som förbättrar textformatering. Förenkla din kodning med våra unika lösningar!
 type: docs
 weight: 50
 url: /sv/net/aspose.words/controlchar/cr/
@@ -28,13 +28,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Konvertering av dokumentet till textform avslöjar att kontrolltecken
+// Att konvertera dokumentet till textformat visar att kontrolltecknen
 // representerar några av dokumentets strukturella element, såsom sidbrytningar.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// När du konverterar ett dokument till strängform,
+// När man konverterar ett dokument till strängformat,
 // vi kan utelämna några av kontrolltecknen med Trim-metoden.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());

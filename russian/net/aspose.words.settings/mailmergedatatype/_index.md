@@ -3,14 +3,14 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Settings.MailMergeDataType перечисление. Указывает тип внешнего источника данных слияния почты на С#.
+description: Откройте для себя перечисление Aspose.Words.MailMergeDataType для бесшовной интеграции внешних источников данных в ваши проекты автоматизации документооборота.
 type: docs
-weight: 5820
+weight: 6650
 url: /ru/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Указывает тип внешнего источника данных слияния почты.
+Указывает тип внешнего источника данных для слияния почты.
 
 ```csharp
 public enum MailMergeDataType
@@ -20,13 +20,13 @@ public enum MailMergeDataType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| None | `-1` | Источник данных слияния почты не указан. |
+| None | `-1` | Источник данных для слияния почты не указан. |
 | TextFile | `0` | Указывает, что данный документ был подключен к текстовому файлу через систему динамического обмена данными (DDE). |
-| Database | `1` | Указывает, что данный документ был подключен к базе данных Access через систему динамического обмена данными (DDE). |
+| Database | `1` | Указывает, что данный документ подключен к базе данных Access через систему динамического обмена данными (DDE). |
 | Spreadsheet | `2` | Указывает, что данный документ был подключен к электронной таблице Excel через систему динамического обмена данными (DDE). |
 | Query | `3` | Указывает, что данный документ был подключен к внешнему источнику данных с помощью внешнего инструмента запросов. |
-| Odbc | `4` | Указывает, что данный документ был подключен к внешнему источнику данных через интерфейс подключения к открытой базе данных. |
-| Native | `5` | Указывает, что данный документ подключен к внешнему источнику данных через интерфейс объекта источника данных Office (ODSO). |
+| Odbc | `4` | Указывает, что данный документ подключен к внешнему источнику данных через интерфейс Open Database Connectivity. |
+| Native | `5` | Указывает, что данный документ подключен к внешнему источнику данных через интерфейс Office Data Source Object (ODSO). |
 | Default | `-1` | РавноNone . |
 
 ## Примеры
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -74,7 +74,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

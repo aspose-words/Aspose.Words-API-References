@@ -3,14 +3,14 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: Aspose.Words para .NET
-description: CellFormat WrapText propiedad. siverdadero  ajusta el texto de la celda en C#.
+description: Descubra la propiedad CellFormat WrapText para mejorar la legibilidad de su hoja de cálculo ajustando automáticamente el texto en las celdas para una apariencia más limpia.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-si`verdadero` , ajusta el texto de la celda.
+Si`verdadero` , ajustar el texto de la celda.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

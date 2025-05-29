@@ -2,15 +2,15 @@
 title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
-second_title: Aspose.Words for .NET
-description: FindReplaceOptions ReplacingCallback mülk. Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem C#'da.
+second_title: .NET için Aspose.Words
+description: Değiştirme işlevselliğinizi hassasiyet ve kontrolle geliştiren özelleştirilebilir bir yöntem olan FindReplaceOptions ReplacingCallback özelliğini keşfedin.
 type: docs
-weight: 150
+weight: 160
 url: /tr/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-Her değiştirme işleminden önce çağrılan kullanıcı tanımlı yöntem.
+Her değiştirme oluşumundan önce çağrılan kullanıcı tanımlı yöntem.
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -18,7 +18,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ## Örnekler
 
-Tüm bu değiştirmeleri izlerken, düzenli ifade modelinin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
+Tüm değiştirmeleri izlerken, düzenli ifade deseninin tüm oluşumlarının başka bir dizeyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "Değiştir" yönteminin yapacağı değişiklikleri izleyen bir geri çağırma ayarlayın.
+    // "Değiştir" yönteminin yapacağı tüm değişiklikleri izleyen bir geri çağırma ayarlayın.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Bul ve değiştir işlemiyle gerçekleştirilen her metin değişiminin kaydını tutar
+/// Bir bul-değiştir işlemi tarafından yapılan her metin değişiminin günlüğünü tutar
 /// ve orijinal eşleşen metnin değerini not eder.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -81,10 +81,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -102,7 +102,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Sayısal bul-değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
 /// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback

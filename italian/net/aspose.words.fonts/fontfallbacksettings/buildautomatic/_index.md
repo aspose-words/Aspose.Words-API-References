@@ -3,14 +3,14 @@ title: FontFallbackSettings.BuildAutomatic
 linktitle: BuildAutomatic
 articleTitle: BuildAutomatic
 second_title: Aspose.Words per .NET
-description: FontFallbackSettings BuildAutomatic metodo. Crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili in C#.
+description: Scopri il metodo FontFallbackSettings BuildAutomatic che analizza senza sforzo i font per creare impostazioni di fallback ottimali per una tipografia migliorata.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontfallbacksettings/buildautomatic/
 ---
 ## FontFallbackSettings.BuildAutomatic method
 
-Crea automaticamente le impostazioni di fallback eseguendo la scansione dei caratteri disponibili.
+Crea automaticamente le impostazioni di fallback eseguendo la scansione dei font disponibili.
 
 ```csharp
 public void BuildAutomatic()
@@ -18,11 +18,11 @@ public void BuildAutomatic()
 
 ## Osservazioni
 
-Questo metodo potrebbe produrre impostazioni di fallback non ottimali. I caratteri vengono controllati da[ Intervallo di caratteri Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) campi e non dalla presenza effettiva dei glifi. Anche gli intervalli Unicode vengono controllati individualmente e diversi intervalli relativi a una singola lingua/script possono utilizzare caratteri di fallback diversi.
+Questo metodo potrebbe produrre impostazioni di fallback non ottimali. I font vengono controllati da[ Intervallo di caratteri Unicode](https://docs.microsoft.com/en-us/typography/opentype/spec/os2#ur) campi e non dalla presenza effettiva dei glifi. Anche gli intervalli Unicode vengono controllati individualmente e diversi intervalli relativi a una singola lingua/alfabeto potrebbero utilizzare font di fallback diversi.
 
 ## Esempi
 
-Mostra come distribuire i caratteri di fallback negli intervalli di codici di caratteri Unicode.
+Mostra come distribuire i font di fallback tra gli intervalli di codici di caratteri Unicode.
 
 ```csharp
 Document doc = new Document();
@@ -31,28 +31,28 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Configura le nostre impostazioni dei caratteri in modo che i caratteri di origine siano solo dalla cartella "MyFonts".
+// Configura le impostazioni dei font in modo che i font provengano solo dalla cartella "MyFonts".
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
 // La chiamata al metodo "BuildAutomatic" genererà uno schema di fallback che
-// distribuisce i caratteri accessibili nel maggior numero possibile di codici di caratteri Unicode.
-// Nel nostro caso, ha accesso solo a una manciata di font all'interno della cartella "MyFonts".
+// distribuisce i font accessibili nel maggior numero possibile di codici di caratteri Unicode.
+// Nel nostro caso, ha accesso solo ai pochi font presenti nella cartella "MyFonts".
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
 // Possiamo anche caricare uno schema di sostituzione personalizzato da un file come questo.
-// Questo schema applica il carattere "AllegroOpen" ai blocchi Unicode "0000-00ff", il carattere "AllegroOpen" a "0100-024f",
-// e il carattere "M+ 2m" in tutti gli altri intervalli non coperti da altri caratteri nello schema.
+// Questo schema applica il font "AllegroOpen" sui blocchi Unicode "0000-00ff", il font "AllegroOpen" su "0100-024f",
+// e il font "M+ 2m" in tutti gli altri intervalli non coperti dagli altri font nello schema.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Crea un generatore di documenti e imposta il suo carattere su uno che non esiste in nessuna delle nostre fonti.
-// Le nostre impostazioni dei caratteri richiameranno lo schema di fallback per i caratteri che digitiamo utilizzando il carattere non disponibile.
+// Crea un generatore di documenti e imposta il font su uno che non esiste in nessuna delle nostre fonti.
+// Le nostre impostazioni del font richiameranno lo schema di fallback per i caratteri che digitiamo utilizzando il font non disponibile.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// Usa il builder per stampare ogni carattere Unicode da 0x0021 a 0x052F,
-// con linee descrittive che dividono i blocchi Unicode che abbiamo definito nel nostro schema di fallback dei caratteri personalizzato.
+// Utilizzare il builder per stampare tutti i caratteri Unicode da 0x0021 a 0x052F,
+// con linee descrittive che dividono i blocchi Unicode definiti nel nostro schema di fallback dei font personalizzato.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

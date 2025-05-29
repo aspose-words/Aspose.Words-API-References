@@ -3,14 +3,14 @@ title: IFieldMergingCallback Interface
 linktitle: IFieldMergingCallback
 articleTitle: IFieldMergingCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.IFieldMergingCallback gränssnitt. Implementera det här gränssnittet om du vill styra hur data infogas i sammanfogningsfält under en sammankopplingsoperation i C#.
+description: Behärska dokumentkoppling med Aspose.Words! Implementera iFieldMergingCallback-gränssnittet för att anpassa datainsättning i kopplingsfält för sömlös dokumentskapande.
 type: docs
-weight: 3790
+weight: 4480
 url: /sv/net/aspose.words.mailmerging/ifieldmergingcallback/
 ---
 ## IFieldMergingCallback interface
 
-Implementera det här gränssnittet om du vill styra hur data infogas i sammanfogningsfält under en sammankopplingsoperation.
+Implementera det här gränssnittet om du vill styra hur data infogas i kopplingsfält under en dokumentkoppling.
 
 ```csharp
 public interface IFieldMergingCallback
@@ -20,12 +20,12 @@ public interface IFieldMergingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Anropas när kopplingsmotorn i Aspose.Words håller på att infoga data i ett sammanfogningsfält i dokumentet. |
-| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Anropas när kopplingsmotorn Aspose.Words håller på att infoga en bild i ett sammanfogningsfält. |
+| [FieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/fieldmerging/)(*[FieldMergingArgs](../fieldmergingargs/)*) | Anropas när Aspose.Words-kopplingsmotorn ska infoga data i ett kopplingsfält i dokumentet. |
+| [ImageFieldMerging](../../aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/)(*[ImageFieldMergingArgs](../imagefieldmergingargs/)*) | Anropas när Aspose.Words-kopplingsmotorn ska infoga en bild i ett kopplingsfält. |
 
 ## Exempel
 
-Visar hur man infogar bilder lagrade i ett databas BLOB-fält i en rapport.
+Visar hur man infogar bilder som lagras i ett BLOB-fält i en rapport.
 
 ```csharp
 public void ImageFromBlob()
@@ -55,11 +55,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 
     /// <summary>
-    /// Detta kallas när en sammanslagning stöter på ett MERGEFIELD i dokumentet med en "Image:"-tagg i sitt namn.
+    /// Detta anropas när en dokumentkoppling stöter på ett MERGEFIELD i dokumentet med en "Image:"-tagg i namnet.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -69,7 +69,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
+Visar hur man utför en dokumentkoppling med ett anpassat återanrop som hanterar kopplingsdata i form av HTML-dokument.
 
 ```csharp
 public void MergeHtml()
@@ -102,32 +102,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Om kopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
-/// denna återuppringning analyserar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentplatsen för MERGEFIELD.
+/// Om dokumentkopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
+/// denna återanropsfunktion tolkar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentets plats för MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Lägg till analyserad HTML-data till dokumentets brödtext.
+            // Lägg till parsad HTML-data i dokumentets brödtext.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+            // Eftersom vi redan har infogat det sammanfogade innehållet manuellt,
+            // vi behöver inte svara på den här händelsen genom att returnera innehåll via egenskapen "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```

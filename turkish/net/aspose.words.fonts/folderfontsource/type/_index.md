@@ -2,8 +2,8 @@
 title: FolderFontSource.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: FolderFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: FolderFontSource Type özelliğini keşfedin. Tasarım projelerinizi geliştirmek ve iş akışınızı kolaylaştırmak için font kaynak türlerini kolayca tanımlayın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/folderfontsource/type/
@@ -18,10 +18,10 @@ public override FontSourceType Type { get; }
 
 ## Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Font kaynağı olarak fontları içeren yerel bir sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
+// Font dosyalarını içeren bir klasörden bir font kaynağı oluştur.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

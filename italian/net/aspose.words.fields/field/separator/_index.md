@@ -3,14 +3,14 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words per .NET
-description: Field Separator proprietà. Ottiene il nodo che rappresenta il separatore di campo. Può esserenullo  in C#.
+description: Scopri la proprietà Separatore di campo per accedere facilmente al nodo che rappresenta il separatore di campo, migliorando l'efficienza della gestione dei dati. Scopri di più!
 type: docs
 weight: 80
 url: /it/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` .
+Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itera sulla raccolta di campi e stampa contenuto e tipo
+    // Esegui l'iterazione sulla raccolta dei campi e stampa il contenuto e il tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
+/// Implementazione del visitatore del documento che stampa le informazioni sui campi.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

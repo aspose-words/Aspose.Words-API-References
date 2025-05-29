@@ -2,15 +2,15 @@
 title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
-second_title: 用于 .NET 的 Aspose.Words
-description: MemoryFontSource FontData 财产. 二进制字体数据 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MemoryFontSource 的 FontData 属性，实现无缝二进制字体集成。使用高效的字体管理解决方案，提升您的项目质量。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fonts/memoryfontsource/fontdata/
 ---
 ## MemoryFontSource.FontData property
 
-二进制字体数据。
+二进制字体数据.
 
 ```csharp
 public byte[] FontData { get; }
@@ -18,7 +18,7 @@ public byte[] FontData { get; }
 
 ## 例子
 
-演示如何使用字节数组和字体文件中的数据作为字体源。
+展示如何使用包含字体文件中数据的字节数组作为字体源。
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

@@ -2,15 +2,15 @@
 title: Shape.ExtrusionEnabled
 linktitle: ExtrusionEnabled
 articleTitle: ExtrusionEnabled
-second_title: 用于 .NET 的 Aspose.Words
-description: Shape ExtrusionEnabled 财产. 返回真的如果启用挤压效果 在 C#.
+second_title: Aspose.Words for .NET
+description: 看看“形状挤压”功能是否已启用。轻松使用惊艳的 3D 效果增强您的设计，打造专业级效果！
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-返回`真的`如果启用挤压效果.
+返回`真的`如果启用了挤压效果。
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -18,7 +18,7 @@ public bool ExtrusionEnabled { get; }
 
 ## 例子
 
-演示如何迭代文档中的所有形状。
+展示如何遍历文档中的所有形状。
 
 ```csharp
 public void VisitShapes()
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// 记录有关所访问形状的外观相关信息。
+/// 记录有关访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
+    /// 将一行附加到 StringBuilder，每个缩进级别前面都添加一个制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 返回 StringBuilder 累积的所有文本。
+    /// 返回 StringBuilder 已累积的所有文本。
     /// </summary>
     public string GetText()
     {
@@ -61,7 +61,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的开头时调用。
+    /// 当此访问者访问 Shape 节点的起点时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -97,7 +96,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的末尾时调用。
+    /// 当此访问者访问 Shape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -109,7 +108,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的开头时调用。
+    /// 当此访问者访问 GroupShape 节点的起点时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -120,7 +119,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的末尾时调用。
+    /// 当此访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

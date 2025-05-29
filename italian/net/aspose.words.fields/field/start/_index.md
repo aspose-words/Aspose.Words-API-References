@@ -3,7 +3,7 @@ title: Field.Start
 linktitle: Start
 articleTitle: Start
 second_title: Aspose.Words per .NET
-description: Field Start proprietà. Ottiene il nodo che rappresenta linizio del campo in C#.
+description: Scopri la proprietà Inizio campo per accedere facilmente al nodo iniziale del tuo campo, migliorando la gestione dei dati e semplificando i flussi di lavoro.
 type: docs
 weight: 90
 url: /it/net/aspose.words.fields/field/start/
@@ -38,7 +38,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Itera sulla raccolta di campi e stampa contenuto e tipo
+    // Esegui l'iterazione sulla raccolta dei campi e stampa il contenuto e il tipo
     // di ogni campo utilizzando un'implementazione personalizzata del visitatore.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Documenta l'implementazione del visitatore che stampa le informazioni sul campo.
+/// Implementazione del visitatore del documento che stampa le informazioni sui campi.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

@@ -3,7 +3,7 @@ title: FieldListNum
 linktitle: FieldListNum
 articleTitle: FieldListNum
 second_title: Aspose.Words لـ .NET
-description: FieldListNum البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldListNum - الحل الأمثل لإدارة قوائم فعّالة في البرمجة. بسّط برمجتك باستخدام مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldlistnum/fieldlistnum/

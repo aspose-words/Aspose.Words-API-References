@@ -2,17 +2,17 @@
 title: BorderCollection Class
 linktitle: BorderCollection
 articleTitle: BorderCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.BorderCollection sınıf. Bir koleksiyonBorder nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirmesi için Border nesnelerini zahmetsizce yönetmek ve özelleştirmek için başvuracağınız çözüm olan Aspose.Words.BorderCollection'ı keşfedin.
 type: docs
-weight: 90
+weight: 280
 url: /tr/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
 
 Bir koleksiyon[`Border`](../border/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belgelerle Programlama](https://docs.aspose.com/words/net/programming-with-documents/) belgeleme makalesi.
 
 ```csharp
 public sealed class BorderCollection : IEnumerable<Border>
@@ -22,18 +22,18 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 | İsim | Tanım |
 | --- | --- |
-| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | Alt kenarlığı alır. |
-| [Color](../../aspose.words/bordercollection/color/) { get; set; } | Kenarlık rengini alır veya ayarlar. |
+| [Bottom](../../aspose.words/bordercollection/bottom/) { get; } | Alt sınırı alır. |
+| [Color](../../aspose.words/bordercollection/color/) { get; set; } | Sınır rengini alır veya ayarlar. |
 | [Count](../../aspose.words/bordercollection/count/) { get; } | Koleksiyondaki kenarlık sayısını alır. |
-| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar. |
+| [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Sınırın metinden uzaklığını noktalar halinde alır veya ayarlar. |
 | [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Hücreler veya uyumlu paragraflar arasında kullanılan yatay kenarlığı alır. |
-| [Item](../../aspose.words/bordercollection/item/) { get; } | Bir öğeyi alır[`Border`](../border/) kenarlık türüne göre nesne. (2 indexers) |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | Birini alır[`Border`](../border/) sınır türüne göre nesne. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left/) { get; } | Sol kenarlığı alır. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Kenarlık stilini alır veya ayarlar. |
-| [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Kenarlık genişliğini nokta cinsinden alır veya ayarlar. |
-| [Right](../../aspose.words/bordercollection/right/) { get; } | Doğru kenarlığı alır. |
-| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar. |
-| [Top](../../aspose.words/bordercollection/top/) { get; } | Üst kenarlığı alır. |
+| [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Sınır genişliğini noktalar halinde alır veya ayarlar. |
+| [Right](../../aspose.words/bordercollection/right/) { get; } | Doğru sınırı alır. |
+| [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Sınırın gölgesi olup olmadığını belirten bir değer alır veya ayarlar. |
+| [Top](../../aspose.words/bordercollection/top/) { get; } | Üst sınırı alır. |
 | [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Hücreler arasında kullanılan dikey kenarlığı alır. |
 
 ## yöntemler
@@ -41,12 +41,12 @@ public sealed class BorderCollection : IEnumerable<Border>
 | İsim | Tanım |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/bordercollection/clearformatting/)() | Bir nesnenin tüm kenarlıklarını kaldırır. |
-| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Kenarlık koleksiyonlarını karşılaştırır. |
-| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Koleksiyondaki tüm kenarlıklar üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür. |
+| [Equals](../../aspose.words/bordercollection/equals/#equals)(*BorderCollection*) | Sınır koleksiyonlarını karşılaştırır. |
+| [GetEnumerator](../../aspose.words/bordercollection/getenumerator/)() | Koleksiyondaki tüm sınırlar üzerinde yineleme yapmak için kullanılabilecek bir numaratör nesnesi döndürür. |
 
 ## Notlar
 
-Farklı belge öğelerinin farklı sınırları vardır. Örneğin,[`ParagraphFormat`](../paragraphformat/)sahip olmak[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) Ve[`Top`](./top/) sınırlar. Her kenarlık için bağımsız olarak farklı biçimlendirme belirtebilirsiniz veya tüm kenarlıkları numaralandırıp aynı biçimlendirmeyi uygulayabilirsiniz.
+Farklı belge öğelerinin farklı sınırları vardır. Örneğin,[`ParagraphFormat`](../paragraphformat/) sahip olmak[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) Ve[`Top`](./top/) borders. Her bir kenarlık için bağımsız olarak farklı biçimlendirme belirleyebilir veya tüm kenarlıkları numaralandırıp aynı biçimlendirmeyi uygulayabilirsiniz.
 
 ## Örnekler
 

@@ -2,15 +2,15 @@
 title: Field.Update
 linktitle: Update
 articleTitle: Update
-second_title: Aspose.Words for .NET
-description: Field Update yöntem. Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar C#'da.
+second_title: .NET için Aspose.Words
+description: Alanları Alan Güncelleme yöntemimizle verimli bir şekilde güncelleyin. Alanların zaten kullanımda olmadığından emin olarak çakışmaları önler. Veri yönetiminizi bugün kolaylaştırın!
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar.
+Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa fırlatır.
 
 ```csharp
 public void Update()
@@ -18,14 +18,14 @@ public void Update()
 
 ## Örnekler
 
-FieldType kullanılarak bir belgeye nasıl alan ekleneceğini gösterir.
+FieldType kullanılarak bir belgeye alanın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Oluşturucu ekledikçe güncellenip güncellenmeyeceğini belirleyen bir bayrağı geçerken iki alan ekleyin.
-// Bazı durumlarda alanların güncellenmesi hesaplama açısından pahalı olabilir ve güncellemeyi ertelemek iyi bir fikir olabilir.
+// Oluşturucu eklerken güncellenip güncellenmeyeceğini belirleyen bir bayrak geçirerek iki alan ekleyin.
+// Bazı durumlarda, alanların güncellenmesi hesaplama açısından maliyetli olabilir ve güncellemeyi ertelemek iyi bir fikir olabilir.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Bu alanları güncelleme yöntemlerini kullanarak manuel olarak güncellememiz gerekecek.
+    // Bu alanları güncelleme yöntemlerini kullanarak manuel olarak güncellememiz gerekecektir.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -64,15 +64,15 @@ Alan sonuçlarının nasıl biçimlendirileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Hiçbir format uygulanmadan sonucu görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
+// Biçim uygulanmadan bir sonuç görüntüleyen bir alan eklemek için bir belge oluşturucu kullanın.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// Alanın özelliklerini kullanarak alanın sonucuna bir format uygulayabiliriz.
+// Bir alanın sonucuna, alanın özelliklerini kullanarak bir format uygulayabiliriz.
 // Aşağıda bir alanın sonucuna uygulayabileceğimiz üç tür format bulunmaktadır.
-// 1 - Sayısal format:
+// 1 - Sayısal biçim:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -80,7 +80,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Tarih/saat formatı:
+// 2 - Tarih/saat biçimi:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Alanın sonucunu orijinal formuna döndürmek için formatlarımızı kaldırabiliriz.
+// Alanın sonucunu orijinal haline döndürmek için formatlarımızı kaldırabiliriz.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar.
+Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa fırlatır.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Eğer`doğru` daha sonra MERGEFORMAT anahtarından bağımsız olarak doğrudan alan sonucu biçimlendirmesinden vazgeçilir, aksi takdirde normal güncelleme gerçekleştirilir. |
+| ignoreMergeFormat | Boolean | Eğer`doğru` o zaman doğrudan alan sonucu biçimlendirme, MERGEFORMAT anahtarından bağımsız olarak terk edilir, aksi takdirde normal güncelleme gerçekleştirilir. |
 
 ## Örnekler
 
@@ -153,8 +153,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Tüm INCLUDEPICTURE alanlarının dönüştürülüp dönüştürülmeyeceğine karar vermek için LoadOptions nesnesine bir bayrak ayarlayabiliriz
-    // bunları içeren bir belge yüklenirken görüntü şekillerine.
+    // Tüm INCLUDEPICTURE alanlarını dönüştürüp dönüştürmemeye karar vermek için bir LoadOptions nesnesinde bir bayrak ayarlayabiliriz
+    // bunları içeren bir belge yüklenirken görüntü şekillerine dönüşür.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

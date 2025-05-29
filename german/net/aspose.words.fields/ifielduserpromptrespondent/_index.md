@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent Interface
 linktitle: IFieldUserPromptRespondent
 articleTitle: IFieldUserPromptRespondent
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.IFieldUserPromptRespondent koppel. Stellt den Befragten auf Benutzereingaben während der Feldaktualisierung dar in C#.
+description: Entdecken Sie die Aspose.Words.Fields.IFieldUserPromptRespondent-Schnittstelle, die entwickelt wurde, um die Benutzerinteraktion zu verbessern und Feldaktualisierungen nahtlos zu optimieren.
 type: docs
-weight: 2740
+weight: 3150
 url: /de/net/aspose.words.fields/ifielduserpromptrespondent/
 ---
 ## IFieldUserPromptRespondent interface
 
-Stellt den Befragten auf Benutzereingaben während der Feldaktualisierung dar.
+Stellt den Antwortenden auf Benutzeraufforderungen während der Feldaktualisierung dar.
 
 ```csharp
 public interface IFieldUserPromptRespondent
@@ -20,11 +20,11 @@ public interface IFieldUserPromptRespondent
 
 | Name | Beschreibung |
 | --- | --- |
-| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Gibt bei Implementierung eine Antwort des Benutzers auf Aufforderung zurück. Ihre Implementierung sollte zurückgegeben werden`Null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung geantwortet hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt). |
+| [Respond](../../aspose.words.fields/ifielduserpromptrespondent/respond/)(*string, string*) | Wenn implementiert, gibt es auf Nachfrage eine Antwort vom Benutzer zurück. Ihre Implementierung sollte zurückgeben`null` um anzuzeigen, dass der Benutzer nicht auf die Eingabeaufforderung reagiert hat (d. h. der Benutzer hat im Eingabeaufforderungsfenster auf die Schaltfläche „Abbrechen“ geklickt). |
 
 ## Bemerkungen
 
-Die Felder ASK und FILLIN sind Beispiele für Felder, die den Benutzer zu einer Antwort auffordern. Implementieren Sie diese Schnittstelle und weisen Sie sie der zu[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) Eigenschaft zum Herstellen einer Interaktion zwischen dem Feld update und dem Benutzer.
+Die Felder ASK und FILLIN sind Beispiele für Felder, die den Benutzer zu einer Antwort auffordern. Implementieren Sie diese Schnittstelle und weisen Sie sie dem[`UserPromptRespondent`](../fieldoptions/userpromptrespondent/) Eigenschaft zum Herstellen einer Interaktion zwischen dem Feld update und dem Benutzer.
 
 ## Beispiele
 
@@ -43,7 +43,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um über den Lesezeichennamen auf unser REF-Feld zu verweisen.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -65,7 +65,7 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
-    // was während eines Seriendrucks auftreten wird.
+    // was während eines Serienbriefs geschieht.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -74,7 +74,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt während einer Serienbrieffunktion der Standardantwort eines ASK-Felds Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

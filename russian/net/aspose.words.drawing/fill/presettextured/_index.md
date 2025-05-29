@@ -3,14 +3,14 @@ title: Fill.PresetTextured
 linktitle: PresetTextured
 articleTitle: PresetTextured
 second_title: Aspose.Words для .NET
-description: Fill PresetTextured метод. Устанавливает заливку в соответствии с предустановленной текстурой на С#.
+description: Откройте для себя метод Fill PresetTextured, позволяющий с легкостью применять потрясающие предустановленные текстуры, придавая вашим проектам уникальную визуальную привлекательность.
 type: docs
-weight: 230
+weight: 240
 url: /ru/net/aspose.words.drawing/fill/presettextured/
 ---
 ## Fill.PresetTextured method
 
-Устанавливает заливку в соответствии с предустановленной текстурой.
+Устанавливает заливку на основе предустановленной текстуры.
 
 ```csharp
 public void PresetTextured(PresetTexture presetTexture)
@@ -22,7 +22,7 @@ public void PresetTextured(PresetTexture presetTexture)
 
 ## Примеры
 
-Покажите, как установить форматирование маркера.
+Покажите, как настроить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Удалить созданную по умолчанию серию.
+// Удалить сгенерированную по умолчанию серию.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Устанавливаем форматирование маркера.
+// Установить форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

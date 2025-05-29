@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeEnd NodeType ملكية. إرجاعStructuredDocumentTagRangeEnd  في C#.
+description: اكتشف خاصية StructuredDocumentTagRangeEnd NodeType، التي تقوم بإرجاع StructuredDocumentTagRangeEnd بكفاءة لإدارة المستندات بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/

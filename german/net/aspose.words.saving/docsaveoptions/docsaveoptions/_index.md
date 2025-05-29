@@ -3,14 +3,14 @@ title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
 second_title: Aspose.Words für .NET
-description: DocSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannDoc format in C#.
+description: Entdecken Sie den Konstruktor DocSaveOptions für nahtloses Speichern von Dokumenten im Doc-Format. Verbessern Sie Ihren Workflow mit einfacher und effizienter Dokumentenverwaltung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannDoc format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imDoc format.
 
 ```csharp
 public DocSaveOptions()
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Legen Sie ein Passwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
-// Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
+// Legen Sie ein Kennwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
+// Beachten Sie, dass der Inhalt des Dokuments dadurch in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf „true“ setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -56,7 +56,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannDoc or Dot format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imDoc oder Dot format.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -77,11 +77,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Legen Sie ein Passwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
-// Beachten Sie, dass dadurch der Inhalt des Dokuments in keiner Weise verschlüsselt wird.
+// Legen Sie ein Kennwort fest, das das Laden des Dokuments durch Microsoft Word oder Aspose.Words schützt.
+// Beachten Sie, dass der Inhalt des Dokuments dadurch in keiner Weise verschlüsselt wird.
 options.Password = "MyPassword";
 
-// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf true setzen.
+// Wenn das Dokument einen Laufzettel enthält, können wir ihn beim Speichern beibehalten, indem wir dieses Flag auf „true“ setzen.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

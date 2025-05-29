@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.LastChild
 linktitle: LastChild
 articleTitle: LastChild
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart LastChild eigendom. Ruft das letzte untergeordnete Element im stdContentBereich ab in C#.
+description: Entdecken Sie die Eigenschaft „StructuredDocumentTagRangeStart LastChild“, um für eine verbesserte Dokumentverwaltung einfach auf das letzte untergeordnete Element in Ihrem stdContent-Bereich zuzugreifen.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/lastchild/
@@ -18,7 +18,7 @@ public Node LastChild { get; }
 
 ## Bemerkungen
 
-Wenn es keinen letzten untergeordneten Knoten gibt, a`Null` wird zurückgegeben.
+Wenn es keinen letzten Kindknoten gibt,`null` wird zurückgegeben.
 
 ### Siehe auch
 

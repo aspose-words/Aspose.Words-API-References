@@ -3,9 +3,9 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words para .NET
-description: DocumentBuilder Writeln método. Inserta una cadena y un salto de párrafo en el documento en C#.
+description: Mejore sus documentos sin esfuerzo con el método Writeln de DocumentBuilder: inserte texto y saltos de párrafo sin problemas para una mejor legibilidad.
 type: docs
-weight: 660
+weight: 700
 url: /es/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
@@ -22,11 +22,11 @@ public void Writeln(string text)
 
 ## Observaciones
 
-Fuente actual y formato de párrafo especificado por el[`Font`](../font/) y[`ParagraphFormat`](../paragraphformat/) Se utilizan propiedades.
+Formato de fuente y párrafo actual especificado por el[`Font`](../font/) y[`ParagraphFormat`](../paragraphformat/) Se utilizan propiedades.
 
 ## Ejemplos
 
-Muestra cómo crear una tabla formateada de 2x2.
+Muestra cómo construir una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
+// Al construir la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas previamente no se ven afectadas retroactivamente por los cambios en el formato del generador.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -85,21 +85,21 @@ public void Writeln()
 
 ## Observaciones
 
-llamadas[`InsertParagraph`](../insertparagraph/).
+Llamadas[`InsertParagraph`](../insertparagraph/).
 
 ## Ejemplos
 
-Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
+Muestra cómo crear encabezados y pies de página en un documento utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especificamos que queremos encabezados y pies de página diferentes para la primera página, páginas pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Cree los encabezados, luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
+// Cree los encabezados y luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

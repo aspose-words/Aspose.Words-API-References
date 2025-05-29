@@ -3,14 +3,14 @@ title: OleFormat.GetOleEntry
 linktitle: GetOleEntry
 articleTitle: GetOleEntry
 second_title: Aspose.Words för .NET
-description: OleFormat GetOleEntry metod. Hämtar OLEobjektdatainmatning i C#.
+description: Upptäck OleFormat GetOleEntry-metoden för att effektivt hämta OLE-objektdataposter för förbättrad datahantering och sömlös integration.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat.GetOleEntry method
 
-Hämtar OLE-objektdatainmatning.
+Hämtar datainmatning för OLE-objekt.
 
 ```csharp
 public MemoryStream GetOleEntry(string oleEntryName)
@@ -63,7 +63,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

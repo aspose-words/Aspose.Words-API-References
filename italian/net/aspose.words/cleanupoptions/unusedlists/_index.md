@@ -3,14 +3,14 @@ title: CleanupOptions.UnusedLists
 linktitle: UnusedLists
 articleTitle: UnusedLists
 second_title: Aspose.Words per .NET
-description: CleanupOptions UnusedLists proprietà. Specifica se lelenco inutilizzato e le definizioni dellelenco devono essere rimossi dal documento. Il valore predefinito èVERO  in C#.
+description: Ottimizza i tuoi documenti con la proprietà UnusedLists di CleanupOptions. Rimuovi facilmente elenchi e definizioni inutilizzati per un'area di lavoro più pulita ed efficiente.
 type: docs
 weight: 40
 url: /it/net/aspose.words/cleanupoptions/unusedlists/
 ---
 ## CleanupOptions.UnusedLists property
 
-Specifica se l'elenco inutilizzato e le definizioni dell'elenco devono essere rimossi dal documento. Il valore predefinito è`VERO` .
+Specifica se l'elenco e le definizioni di elenco non utilizzati devono essere rimossi dal documento. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool UnusedLists { get; set; }
@@ -18,7 +18,7 @@ public bool UnusedLists { get; set; }
 
 ## Esempi
 
-Mostra come rimuovere tutti gli stili personalizzati non utilizzati da un documento.
+Mostra come rimuovere tutti gli stili personalizzati inutilizzati da un documento.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
 // In combinazione con gli stili incorporati, il documento ora ha otto stili.
-// Uno stile personalizzato è contrassegnato come "usato" mentre è presente testo nel documento
+// Uno stile personalizzato viene contrassegnato come "utilizzato" finché è presente del testo all'interno del documento
 // formattato in quello stile. Ciò significa che i 4 stili che abbiamo aggiunto sono attualmente inutilizzati.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Applica uno stile di carattere personalizzato e quindi uno stile di elenco personalizzato. Ciò li contrassegnerà come "usati".
+// Applica uno stile di carattere personalizzato e poi uno stile di elenco personalizzato. In questo modo verranno contrassegnati come "usati".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -44,7 +44,7 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
 // Ora c'è uno stile di carattere inutilizzato e uno stile di elenco inutilizzato.
-// Il metodo Cleanup(), se configurato con un oggetto CleanupOptions, può prendere di mira gli stili inutilizzati e rimuoverli.
+// Il metodo Cleanup(), se configurato con un oggetto CleanupOptions, può individuare gli stili non utilizzati e rimuoverli.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -54,7 +54,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // La rimozione di ogni nodo a cui viene applicato uno stile personalizzato lo contrassegna nuovamente come "inutilizzato".
+ // La rimozione di ogni nodo a cui è applicato uno stile personalizzato lo contrassegna nuovamente come "non utilizzato".
 // Eseguire nuovamente il metodo Cleanup per rimuoverli.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

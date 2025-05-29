@@ -3,14 +3,14 @@ title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words لـ .NET
-description: TableStyle LeftPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يسار محتويات خلايا الجدول في C#.
+description: اكتشف خاصية TableStyle LeftPadding لتخصيص تخطيط خلايا جدولك. اضبط المسافة اليسرى بسهولة للحصول على مظهر أنيق واحترافي.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات خلايا الجدول.
+يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يسار محتويات خلايا الجدول أو يعينها.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

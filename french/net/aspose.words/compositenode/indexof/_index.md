@@ -3,9 +3,9 @@ title: CompositeNode.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words pour .NET
-description: CompositeNode IndexOf méthode. Renvoie lindex du nœud enfant spécifié dans le tableau de nœuds enfants en C#.
+description: Découvrez comment la méthode CompositeNode IndexOf localise efficacement l'index d'un nœud enfant spécifié dans le tableau, améliorant ainsi votre expérience de codage.
 type: docs
-weight: 120
+weight: 140
 url: /fr/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 Body body = doc.FirstSection.Body;
 
-// Récupère l'index du dernier paragraphe du corps de la première section.
+// Récupérer l'index du dernier paragraphe du corps de la première section.
 Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
 ```
 

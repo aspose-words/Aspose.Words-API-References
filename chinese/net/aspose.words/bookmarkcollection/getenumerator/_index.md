@@ -2,8 +2,8 @@
 title: BookmarkCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarkCollection 的 GetEnumerator 方法。高效检索枚举器对象，实现无缝数据处理并增强性能。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/bookmarkcollection/getenumerator/
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

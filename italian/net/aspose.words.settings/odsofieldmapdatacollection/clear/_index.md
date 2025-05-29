@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words per .NET
-description: OdsoFieldMapDataCollection Clear metodo. Rimuove tutti gli elementi da questa raccolta in C#.
+description: Cancella senza sforzo la tua OdsoFieldMapDataCollection con il nostro metodo Clear, assicurandoti un nuovo inizio rimuovendo tutti gli elementi in modo rapido ed efficiente.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -18,13 +18,13 @@ public void Clear()
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati per unire i campi.
+Mostra come accedere alla raccolta di dati che mappa le colonne dell'origine dati ai campi di unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Questa raccolta definisce il modo in cui una stampa unione mapperà le colonne da un'origine dati
-// ai campi MERGEFIELD, ADDRESSBLOCK e GREETINGLINE predefiniti.
+// Questa raccolta definisce come una stampa unione mapperà le colonne da un'origine dati
+// ai campi predefiniti MERGEFIELD, ADDRESSBLOCK e GREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -45,12 +45,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Clona gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilizza gli elementi del metodo "RemoveAt" singolarmente per indice.
+// Utilizzare gli elementi del metodo "RemoveAt" singolarmente in base all'indice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilizza il metodo "Cancella" per cancellare l'intera raccolta in una volta.
+// Utilizzare il metodo "Clear" per cancellare l'intera raccolta in una sola volta.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,14 +3,14 @@ title: BorderCollection.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words für .NET
-description: BorderCollection Horizontal eigendom. Ruft den horizontalen Rahmen ab der zwischen Zellen oder entsprechenden Absätzen verwendet wird in C#.
+description: Entdecken Sie die horizontale BorderCollection-Eigenschaft für nahtlose Zell- und Absatzränder. Verbessern Sie Ihr Layout mit perfekter Ausrichtung und Stil!
 type: docs
 weight: 50
 url: /de/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-Ruft den horizontalen Rahmen ab, der zwischen Zellen oder entsprechenden Absätzen verwendet wird.
+Ruft den horizontalen Rahmen ab, der zwischen Zellen oder übereinstimmenden Absätzen verwendet wird.
 
 ```csharp
 public Border Horizontal { get; }
@@ -18,20 +18,20 @@ public Border Horizontal { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie Einstellungen für horizontale Ränder auf das Format eines Absatzes anwenden.
+Zeigt, wie Sie Einstellungen für horizontale Rahmen auf das Format eines Absatzes anwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstelle einen roten horizontalen Rahmen für den Absatz. Alle später erstellten Absätze erben diese Rahmeneinstellungen.
+// Erstellt einen roten horizontalen Rahmen für den Absatz. Alle nachfolgenden Absätze übernehmen diese Rahmeneinstellungen.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
 // Text in das Dokument schreiben, ohne anschließend einen neuen Absatz zu erstellen.
-// Da sich darunter kein Absatz befindet, ist der horizontale Rand nicht sichtbar.
+// Da sich darunter kein Absatz befindet, ist der horizontale Rahmen nicht sichtbar.
 builder.Write("Paragraph above horizontal border.");
 
 // Sobald wir einen zweiten Absatz hinzufügen, wird der Rand des ersten Absatzes sichtbar.
@@ -41,13 +41,13 @@ builder.Write("Paragraph below horizontal border.");
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
+Zeigt, wie Sie Einstellungen für vertikale Rahmen auf das Format einer Tabellenzeile anwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstelle eine Tabelle mit roten und blauen Innenrändern.
+// Erstellen Sie eine Tabelle mit roten und blauen Innenrändern.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -65,7 +65,7 @@ for (int i = 0; i < 3; i++)
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Passen Sie das Erscheinungsbild der Ränder an, die zwischen den Zellen angezeigt werden.
+    // Passen Sie das Erscheinungsbild der Rahmen an, die zwischen den Zellen angezeigt werden.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

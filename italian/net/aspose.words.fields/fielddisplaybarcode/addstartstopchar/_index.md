@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode AddStartStopChar proprietà. Ottiene o imposta se aggiungere caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39 in C#.
+description: Migliora la funzionalità dei codici a barre con la proprietà FieldDisplayBarcode AddStartStopChar. Gestisci facilmente i caratteri di inizio/fine per i tipi NW7 e CODE39.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fielddisplaybarcode/addstartstopchar/
 ---
 ## FieldDisplayBarcode.AddStartStopChar property
 
-Ottiene o imposta se aggiungere caratteri di inizio/fine per i tipi di codici a barre NW7 e CODE39.
+Ottiene o imposta se aggiungere caratteri di inizio/fine per i tipi di codice a barre NW7 e CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }

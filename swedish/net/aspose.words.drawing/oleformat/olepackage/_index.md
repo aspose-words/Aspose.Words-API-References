@@ -3,14 +3,14 @@ title: OleFormat.OlePackage
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words för .NET
-description: OleFormat OlePackage fast egendom. Ge åtkomst tillOlePackage om OLEobjekt är ett OLE Package. Returnerarnull annars i C#.
+description: Få enkel åtkomst till OlePackage-egenskaper för OLE-objekt. Få sömlös integration med OLE-paket och förbättra dina datahanteringsfunktioner.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-Ge åtkomst till[`OlePackage`](../../olepackage/) om OLE-objekt är ett OLE Package. Returnerar`null` annars.
+Ge åtkomst till[`OlePackage`](../../olepackage/) om OLE-objektet är ett OLE-paket. Returnerar`null` annars.
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -18,7 +18,7 @@ public OlePackage OlePackage { get; }
 
 ## Anmärkningar
 
-OLE Package är en äldre teknik som gör det möjligt att linda in alla filformat som inte finns i OLE-registret för ett Windows-system till ett generiskt paket som gör det möjligt att bädda in nästan vad som helst i ett dokument. Se[`OlePackage`](../../olepackage/) skriv för mer info.
+OLE-paketet är en äldre teknik som gör det möjligt att omsluta alla filformat som inte finns i OLE-registret för ett Windows-system till ett generiskt paket, vilket gör det möjligt att bädda in nästan vad som helst i ett dokument. Se[`OlePackage`](../../olepackage/) skriv för mer information.
 
 ## Exempel
 
@@ -28,7 +28,7 @@ Visar hur man infogar ett OLE-objekt i ett dokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// OLE-objekt tillåter oss att öppna andra filer i det lokala filsystemet med ett annat installerat program
+// OLE-objekt låter oss öppna andra filer i det lokala filsystemet med hjälp av ett annat installerat program
 // i vårt operativsystem genom att dubbelklicka på formen som innehåller OLE-objektet i dokumentets brödtext.
 // I det här fallet kommer vår externa fil att vara ett ZIP-arkiv.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");

@@ -3,14 +3,14 @@ title: FieldSeq.ResetNumber
 linktitle: ResetNumber
 articleTitle: ResetNumber
 second_title: Aspose.Words pour .NET
-description: FieldSeq ResetNumber propriété. Obtient ou définit un nombre entier auquel réinitialiser le numéro de séquence. Renvoie 1 si le numéro est absent en C#.
+description: Gérez facilement votre propriété FieldSeq ResetNumber ! Définissez ou récupérez un entier pour contrôler les numéros de séquence et garantir une gestion précise des données.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldseq/resetnumber/
 ---
 ## FieldSeq.ResetNumber property
 
-Obtient ou définit un nombre entier auquel réinitialiser le numéro de séquence. Renvoie -1 si le numéro est absent.
+Obtient ou définit un nombre entier pour réinitialiser le numéro de séquence. Renvoie -1 si le numéro est absent.
 
 ```csharp
 public string ResetNumber { get; set; }
@@ -18,17 +18,17 @@ public string ResetNumber { get; set; }
 
 ## Exemples
 
-Affiche la création d'une numérotation à l'aide des champs SEQ.
+Les émissions créent une numérotation à l'aide de champs SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Les champs SEQ affichent un nombre qui s'incrémente à chaque champ SEQ.
-// Ces champs conservent également des comptes séparés pour chaque séquence nommée unique
-// identifié par la propriété "SequenceIdentifier" du champ SEQ.
-// Insérez un champ SEQ qui affichera la valeur de comptage actuelle de "MySequence",
-// après avoir utilisé la propriété "ResetNumber" pour la définir sur 100.
+// Les champs SEQ affichent un nombre qui augmente à chaque champ SEQ.
+// Ces champs conservent également des comptes distincts pour chaque séquence nommée unique
+// identifié par la propriété « SequenceIdentifier » du champ SEQ.
+// Insérer un champ SEQ qui affichera la valeur de comptage actuelle de « MySequence »,
+// après avoir utilisé la propriété "ResetNumber" pour la définir à 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -38,7 +38,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Affiche le numéro suivant dans cette séquence avec un autre champ SEQ.
+// Affichez le numéro suivant dans cette séquence avec un autre champ SEQ.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -46,24 +46,24 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Insère un en-tête de niveau 1.
+// Insérer un titre de niveau 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Insérez un autre champ SEQ de la même séquence et configurez-le pour réinitialiser le décompte à chaque en-tête avec 1.
+// Insérez un autre champ SEQ de la même séquence et configurez-le pour réinitialiser le compte à chaque en-tête avec 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// L'en-tête ci-dessus est un en-tête de niveau 1, donc le décompte de cette séquence est réinitialisé à 1.
+// Le titre ci-dessus est un titre de niveau 1, donc le nombre de cette séquence est réinitialisé à 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// Passe au numéro suivant de cette séquence.
+// Passer au numéro suivant de cette séquence.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";

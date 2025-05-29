@@ -3,14 +3,14 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words لـ .NET
-description: ShapeBase Rotation ملكية. تحدد الزاوية بالدرجات التي يتم تدوير الشكل بها. القيمة الموجبة تتوافق مع زاوية الدوران في اتجاه عقارب الساعة في C#.
+description: اكتشف خاصية ShapeBase Rotation، وقم بتحديد وتخصيص زوايا الدوران لأشكالك بسهولة، مما يعزز دقة تصميمك وإبداعه.
 type: docs
-weight: 470
+weight: 500
 url: /ar/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-تحدد الزاوية (بالدرجات) التي يتم تدوير الشكل بها. القيمة الموجبة تتوافق مع زاوية الدوران في اتجاه عقارب الساعة.
+يحدد الزاوية (بالدرجات) التي يدور بها الشكل. القيمة الإيجابية تتوافق مع زاوية الدوران في اتجاه عقارب الساعة.
 
 ```csharp
 public double Rotation { get; set; }
@@ -28,8 +28,8 @@ public double Rotation { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل شكلاً مع صورة.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+//إدراج شكل مع صورة.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

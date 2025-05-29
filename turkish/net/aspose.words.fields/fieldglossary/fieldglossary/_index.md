@@ -2,8 +2,8 @@
 title: FieldGlossary
 linktitle: FieldGlossary
 articleTitle: FieldGlossary
-second_title: Aspose.Words for .NET
-description: FieldGlossary inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldGlossary oluşturucusunu keşfedin; özel sözlükleri zahmetsizce oluşturmak için başvuracağınız araç. Projelerinizi kolaylıkla ve verimli bir şekilde geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldglossary/fieldglossary/

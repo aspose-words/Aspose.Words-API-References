@@ -2,15 +2,15 @@
 title: TableSubstitutionRule.AddSubstitutes
 linktitle: AddSubstitutes
 articleTitle: AddSubstitutes
-second_title: Aspose.Words for .NET
-description: TableSubstitutionRule AddSubstitutes yöntem. Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir orijinal yazı tipi için yedek yazı tiplerinin sorunsuz bir şekilde entegre edilmesini sağlayan TableSubstitutionRule AddSubstitutes yöntemi ile tipografinizi geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/addsubstitutes/
 ---
 ## TableSubstitutionRule.AddSubstitutes method
 
-Verilen orijinal yazı tipi adı için yedek yazı tipi adlarını ekler.
+Verilen orijinal yazı tipi adı için yedek yazı tipi adları ekler.
 
 ```csharp
 public void AddSubstitutes(string originalFontName, params string[] substituteFontNames)
@@ -19,17 +19,17 @@ public void AddSubstitutes(string originalFontName, params string[] substituteFo
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | originalFontName | String | Orijinal yazı tipi adı. |
-| substituteFontNames | String[] | Alternatif yazı tipi adlarının listesi. |
+| substituteFontNames | String[] | Alternatif font adlarının listesi. |
 
 ## Örnekler
 
-Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi yedeklerinin nasıl ayarlanacağını gösterir.
+Bir belgenin sistem yazı tipi kaynağına nasıl erişileceğini ve yazı tipi ikamelerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Varsayılan olarak boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
+// Varsayılan olarak, boş bir belge her zaman bir sistem yazı tipi kaynağı içerir.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -51,7 +51,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Windows Yazı Tipleri dizininde bulunan bir yazı tipini, bulunmayan bir yazı tipinin yerine ayarlayın.
+// Windows Yazı Tipleri dizininde var olan bir yazı tipini, olmayan bir yazı tipinin yerine kullan.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -60,18 +60,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// Alternatif olarak, karşılık gelen klasörün yazı tipini içerdiği bir klasör yazı tipi kaynağı ekleyebiliriz.
+// Alternatif olarak, yazı tipini içeren ilgili klasörün bulunduğu bir yazı tipi kaynağı klasörü ekleyebiliriz.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Yazı tipi kaynaklarını sıfırlamak bizi yine de sistem yazı tipi kaynağı ve yedeklerimizle baş başa bırakır.
+// Yazı tipi kaynaklarını sıfırlamak bize sistem yazı tipi kaynağının yanı sıra yedeklerimizi de bırakır.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 Özel yazı tipi değiştirme tablolarıyla nasıl çalışılacağını gösterir.
@@ -81,16 +82,16 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Yeni bir tablo değiştirme kuralı oluşturun ve varsayılan Windows yazı tipi değiştirme tablosunu yükleyin.
+// Yeni bir tablo değiştirme kuralı oluştur ve varsayılan Windows yazı tipi değiştirme tablosunu yükle.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 
-// Eğer yazı tiplerini özel olarak klasörümüzden seçersek, özel bir değiştirme tablosuna ihtiyacımız olacak.
+// Eğer sadece klasörümüzden font seçersek, özel bir ikame tablosuna ihtiyacımız olacak.
 // Artık Microsoft Windows yazı tiplerine erişimimiz olmayacak,
-// yeni yazı tipi klasörümüzde bulunmadığından "Arial" veya "Times New Roman" gibi.
+// "Arial" veya "Times New Roman" gibi fontlar yeni font klasörümüzde bulunmadığından.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// Aşağıda yerel dosya sistemindeki bir dosyadan değiştirme tablosu yüklemenin iki yolu verilmiştir.
+// Aşağıda yerel dosya sistemindeki bir dosyadan bir ikame tablosunu yüklemenin iki yolu bulunmaktadır.
 // 1 - Bir akıştan:
 using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.xml", FileMode.Open))
 {
@@ -100,26 +101,26 @@ using (FileStream fileStream = new FileStream(MyDir + "Font substitution rules.x
 // 2 - Doğrudan bir dosyadan:
 tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
-// Artık "Arial"a erişimimiz olmadığından, yazı tipi tablomuz öncelikle onu "Var Olmayan Yazı Tipi" ile değiştirmeyi deneyecek.
-// Bu yazı tipine sahip değiliz, böylece "MyFonts" klasöründe bulunan bir sonraki yedek olan "Kreon"a geçecektir.
+// Artık "Arial"a erişimimiz olmadığından, yazı tipi tablomuz ilk önce onu "Varolan Yazı Tipi" ile değiştirmeyi deneyecektir.
+// Bu yazı tipine sahip olmadığımızdan, "MyFonts" klasöründe bulunan bir sonraki yedek olan "Kreon"a taşınacaktır.
 Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
 
-// Bu tabloyu programlı olarak genişletebiliriz. "Times New Roman" yerine "Arvo" yazan bir giriş ekleyeceğiz
+// Bu tabloyu programatik olarak genişletebiliriz. "Times New Roman" yerine "Arvo" koyan bir giriş ekleyeceğiz
 Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
 Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// AddSubstitutes() ile mevcut bir yazı tipi girişinin yerine ikincil bir yedek yedek ekleyebiliriz.
-// "Arvo"nun mevcut olmaması durumunda tablomuz ikinci yedek seçenek olarak "M+ 2m"yi arayacaktır.
+// AddSubstitutes() ile mevcut bir yazı tipi girişi için ikincil bir yedek ekleyebiliriz.
+// "Arvo" mevcut değilse, tablomuz ikinci ikame seçeneği olarak "M+ 2m"yi arayacaktır.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
 Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// SetSubstitutes(), bir yazı tipi için yeni bir yedek yazı tipi listesi ayarlayabilir.
-tableSubstitutionRule.SetSubstitutes("Times New Roman", new[] {"Squarish Sans CT", "M+ 2m"});
+// SetSubstitutes() bir yazı tipi için yeni bir yedek yazı tipi listesi ayarlayabilir.
+tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
 Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
 
-// Erişemediğimiz yazı tipleriyle metin yazmak, değiştirme kurallarımızı devreye sokacaktır.
+// Erişimimizin olmadığı yazı tiplerinde metin yazmak, ikame kurallarımızı devreye sokacaktır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Arial";
 builder.Writeln("Text written in Arial, to be substituted by Kreon.");

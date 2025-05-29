@@ -3,9 +3,9 @@ title: Fill.TextureAlignment
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
 second_title: Aspose.Words für .NET
-description: Fill TextureAlignment eigendom. Ruft die Ausrichtung für die Kacheltexturfüllung ab oder legt sie fest in C#.
+description: Legen Sie die Eigenschaft „TextureAlignment“ fest, um die Kacheltexturfüllung zu optimieren. Passen Sie die Ausrichtung einfach an, um die Optik und Designpräzision zu verbessern.
 type: docs
-weight: 180
+weight: 190
 url: /de/net/aspose.words.drawing/fill/texturealignment/
 ---
 ## Fill.TextureAlignment property
@@ -30,11 +30,17 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// Verwenden Sie die Compliance-Option, um die Form mithilfe von DML zu definieren, wenn Sie „TextureAlignment“ erhalten möchten.
-// Eigenschaft nach dem Speichern des Dokuments.
+// Verwenden Sie die Compliance-Option, um die Form mit DML zu definieren, wenn Sie „TextureAlignment“ erhalten möchten.
+// Eigenschaft, nachdem das Dokument gespeichert wurde.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Siehe auch

@@ -2,10 +2,10 @@
 title: Font.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
-second_title: 用于 .NET 的 Aspose.Words
-description: Font SnapToGrid 财产. 指定当前字体在布局时是否应使用文档网格每行字符设置  在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Font SnapToGrid 属性如何通过将字体与文档网格设置对齐来提高布局精度，以实现最佳的可读性和设计。
 type: docs
-weight: 370
+weight: 380
 url: /zh/net/aspose.words/font/snaptogrid/
 ---
 ## Font.SnapToGrid property

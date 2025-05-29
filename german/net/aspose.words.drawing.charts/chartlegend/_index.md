@@ -3,9 +3,9 @@ title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend klas. Stellt die Eigenschaften der Diagrammlegende dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.ChartLegend, um Ihre Diagramme mit anpassbaren Legendeneigenschaften für eine bessere Datenvisualisierung zu verbessern.
 type: docs
-weight: 720
+weight: 1010
 url: /de/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
@@ -22,9 +22,11 @@ public class ChartLegend
 
 | Name | Beschreibung |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/chartlegend/font/) { get; } | Bietet Zugriff auf die Standardschriftformatierung von Legendeneinträgen. Um die Schriftformatierung für einen bestimmten Legendeneintrag zu überschreiben, verwenden Sie die[`Font`](../chartlegendentry/font/) Eigenschaft. |
+| [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | Bietet Zugriff auf die Füll- und Linienformatierung der Legende. |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Gibt eine Sammlung von Legendeneinträgen für alle Serien und Trendlinien des übergeordneten Diagramms zurück. |
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Legt fest, ob andere Diagrammelemente die Legende überlappen dürfen. Der Standardwert ist`FALSCH` . |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Gibt die Position der Legende in einem Diagramm an. Der Standardwert istRight . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Gibt die Position der Legende in einem Diagramm an. |
 
 ## Beispiele
 
@@ -42,11 +44,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Die Legende des Diagramms in die obere rechte Ecke verschieben.
+// Verschieben Sie die Legende des Diagramms in die obere rechte Ecke.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Geben Sie anderen Diagrammelementen, z. B. dem Diagramm, mehr Platz, indem Sie ihnen erlauben, die Legende zu überlappen.
+// Geben Sie anderen Diagrammelementen, beispielsweise dem Graphen, mehr Platz, indem Sie zulassen, dass sie die Legende überlappen.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

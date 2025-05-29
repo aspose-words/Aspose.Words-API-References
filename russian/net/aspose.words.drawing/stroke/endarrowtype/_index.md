@@ -3,14 +3,14 @@ title: Stroke.EndArrowType
 linktitle: EndArrowType
 articleTitle: EndArrowType
 second_title: Aspose.Words для .NET
-description: Stroke EndArrowType свойство. Определяет стрелку конца штриха на С#.
+description: Узнайте, как свойство Stroke EndArrowType улучшает ваши проекты, определяя стильные наконечники стрелок для штрихов. Поднимите свою графику сегодня!
 type: docs
-weight: 60
+weight: 90
 url: /ru/net/aspose.words.drawing/stroke/endarrowtype/
 ---
 ## Stroke.EndArrowType property
 
-Определяет стрелку конца штриха.
+Определяет наконечник стрелки для конца штриха.
 
 ```csharp
 public ArrowType EndArrowType { get; set; }
@@ -22,14 +22,14 @@ public ArrowType EndArrowType { get; set; }
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

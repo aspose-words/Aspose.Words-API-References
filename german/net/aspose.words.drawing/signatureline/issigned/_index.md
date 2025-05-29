@@ -3,14 +3,14 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words für .NET
-description: SignatureLine IsSigned eigendom. Zeigt an dass die Signaturzeile mit einer digitalen Signatur signiert ist in C#.
+description: Entdecken Sie, wie die IsSigned-Funktion von SignatureLine die Authentizität digitaler Signaturen bestätigt und so sichere und vertrauenswürdige Transaktionen gewährleistet. Verbessern Sie die Integrität Ihrer Dokumente!
 type: docs
 weight: 60
 url: /de/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-Zeigt an, dass die Signaturzeile mit einer digitalen Signatur signiert ist.
+Gibt an, dass die Signaturzeile mit einer digitalen Signatur versehen ist.
 
 ```csharp
 public bool IsSigned { get; }

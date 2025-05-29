@@ -3,14 +3,14 @@ title: TextWatermarkOptions.Layout
 linktitle: Layout
 articleTitle: Layout
 second_title: Aspose.Words لـ .NET
-description: TextWatermarkOptions Layout ملكية. الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal  في C#.
+description: اكتشف خاصية تخطيط TextWatermarkOptions لتخصيص مظهر علامتك المائية. اضبطها بسهولة على "قطري" أو التخطيط المفضل لديك لتحسين المظهر المرئي.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-الحصول على تخطيط العلامة المائية أو تعيينه. القيمة الافتراضية هيDiagonal .
+يُحدِّد أو يُحدِّد تخطيط العلامة المائية. القيمة الافتراضية هيDiagonal .
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -23,10 +23,10 @@ public WatermarkLayout Layout { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

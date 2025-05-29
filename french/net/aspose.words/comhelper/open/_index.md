@@ -3,7 +3,7 @@ title: ComHelper.Open
 linktitle: Open
 articleTitle: Open
 second_title: Aspose.Words pour .NET
-description: ComHelper Open méthode. Permet à une application COM de charger unDocument à partir dun fichier en C#.
+description: Bénéficiez d'une intégration transparente avec la méthode Open de ComHelper, permettant un chargement de documents sans effort à partir de fichiers pour vos applications COM.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/comhelper/open/
@@ -22,11 +22,11 @@ public Document Open(string fileName)
 
 ### Return_Value
 
-UN[`Document`](../../document/)objet qui représente un document Word.
+UN[`Document`](../../document/) objet qui représente un document Word.
 
 ## Remarques
 
-Cette méthode revient à appeler le[`Document`](../../document/) constructeur avec un paramètre de nom de fichier.
+Cette méthode est la même que l'appel de[`Document`](../../document/) constructeur avec un paramètre de nom de fichier.
 
 ## Exemples
 
@@ -40,10 +40,10 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Montre comment ouvrir des documents à l’aide de la classe ComHelper.
+Montre comment ouvrir des documents à l'aide de la classe ComHelper.
 
 ```csharp
-// La classe ComHelper nous permet de charger des documents depuis des clients COM.
+// La classe ComHelper nous permet de charger des documents à partir de clients COM.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Utilisation d'un nom de fichier système local :
@@ -51,7 +51,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Depuis un flux :
+// 2 - À partir d'un flux :
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -71,7 +71,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(*Stream*) {#open}
 
-Permet de charger une application COM[`Document`](../../document/) à partir d'un flux.
+Permet à une application COM de se charger[`Document`](../../document/) à partir d'un flux.
 
 ```csharp
 public Document Open(Stream stream)
@@ -83,18 +83,18 @@ public Document Open(Stream stream)
 
 ### Return_Value
 
-UN[`Document`](../../document/)objet qui représente un document Word.
+UN[`Document`](../../document/) objet qui représente un document Word.
 
 ## Remarques
 
-Cette méthode revient à appeler le[`Document`](../../document/) constructeur avec un paramètre stream.
+Cette méthode est la même que l'appel de[`Document`](../../document/) constructeur avec un paramètre de flux.
 
 ## Exemples
 
-Montre comment ouvrir des documents à l’aide de la classe ComHelper.
+Montre comment ouvrir des documents à l'aide de la classe ComHelper.
 
 ```csharp
-// La classe ComHelper nous permet de charger des documents depuis des clients COM.
+// La classe ComHelper nous permet de charger des documents à partir de clients COM.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Utilisation d'un nom de fichier système local :
@@ -102,7 +102,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - Depuis un flux :
+// 2 - À partir d'un flux :
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

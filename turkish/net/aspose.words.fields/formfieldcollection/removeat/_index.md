@@ -2,8 +2,8 @@
 title: FormFieldCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: FormFieldCollection RemoveAt yöntem. Belirtilen dizindeki bir form alanını kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: FormFieldCollection RemoveAt metodunu kullanarak bir form alanını zahmetsizce kaldırın. Bu verimli dizin tabanlı çözümle formlarınızı kolaylaştırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.fields/formfieldcollection/removeat/
@@ -18,15 +18,15 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Kaldırılacak form alanının sıfır tabanlı dizini. |
+| index | Int32 | Kaldırılacak form alanının sıfırdan başlayan dizini. |
 
 ## Notlar
 
-Form alanıyla ilişkilendirilmiş bir yer imi varsa yer imi kaldırılmaz.
+Form alanıyla ilişkili bir yer imi varsa, yer imi kaldırılmaz.
 
 ## Örnekler
 
-Bir belgeye farklı türde form alanlarının nasıl eklendiğini ve bunların bir belge ziyaretçi uygulaması kullanılarak nasıl işlendiğini gösterir.
+Farklı türdeki form alanlarının bir belgeye nasıl ekleneceğini ve belge ziyaretçisi uygulaması kullanılarak nasıl işleneceğini gösterir.
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Birleşik giriş kutusu eklemek için bir belge oluşturucu kullanın.
+    // Bir birleşik kutu eklemek için bir belge oluşturucu kullanın.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Onay kutusu eklemek için belge oluşturucuyu kullanın.
+    // Onay kutusu eklemek için bir belge oluşturucu kullanın.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -58,7 +58,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Metin giriş formu alanını eklemek için bir belge oluşturucu kullanın.
+    // Metin giriş formu alanına metin eklemek için bir belge oluşturucu kullanın.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -73,9 +73,9 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Alanlar form alanlarımızı gösterir. Bu belgeyi açarak alan kodlarını görebiliriz.
-    // Microsoft'ta ve Alt + F9 tuşlarına basıyorum. Bu alanların anahtarları yoktur,
-    // ve FormField nesnesinin üyeleri, form alanlarının içeriğini tamamen yönetir.
+    // Alanlar form alanlarımızı görüntüler. Bu belgeyi açarak alan kodlarını görebiliriz
+    // Microsoft'ta ve Alt + F9'a basarak. Bu alanların anahtarı yok,
+    // ve FormField nesnesinin üyeleri form alanlarının içeriğini tam olarak yönetir.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
@@ -95,7 +95,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması.
+ /// Ziyaretçinin ziyaret ettiği form alanlarının ayrıntılarını yazdıran ziyaretçi uygulaması.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -131,12 +131,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin verin.
+        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin ver.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Geçerli çıktıya yeni satır karakteriyle sonlandırılmış metni ekler.
+    /// Geçerli çıktıya yeni satır karakterle sonlandırılmış metin ekler.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -144,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {

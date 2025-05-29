@@ -2,15 +2,15 @@
 title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
-second_title: Aspose.Words for .NET
-description: FileFontSource inşaatçı. Ctor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinize kusursuz font entegrasyonu için FileFontSource oluşturucusunu keşfedin. Kullanımı kolay kodlama çözümleriyle tasarımınızı geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(*string*) {#constructor}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -46,7 +46,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int*) {#constructor_1}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -55,7 +55,7 @@ public FileFontSource(string filePath, int priority)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Yazı tipi dosyasının yolu. |
-| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
+| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için mülk açıklamasına bakın. |
 
 ## Örnekler
 
@@ -83,7 +83,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int, string*) {#constructor_2}
 
-Ctor.
+İşlemci.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | filePath | String | Yazı tipi dosyasının yolu. |
-| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için özellik açıklaması. |
-| cacheKey | String | Bu kaynağın anahtarı önbellektedir. Görmek[`CacheKey`](../cachekey/) Daha fazla bilgi için özellik açıklaması. |
+| priority | Int32 | Yazı tipi kaynağı önceliği. Bkz.[`Priority`](../../fontsourcebase/priority/) Daha fazla bilgi için mülk açıklamasına bakın. |
+| cacheKey | String | Bu kaynağın anahtarı önbellekte. Bkz.[`CacheKey`](../cachekey/) Daha fazla bilgi için mülk açıklamasına bakın. |
 
 ## Örnekler
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm ömrü boyunca.
+/// Font verilerini hafızada saklamak yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm yaşam süresi boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

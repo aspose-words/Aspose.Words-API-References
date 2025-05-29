@@ -3,7 +3,7 @@ title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words pour .NET
-description: FieldChar FieldType propriété. Renvoie le type du champ en C#.
+description: Découvrez la propriété FieldChar FieldType, qui révèle le type du champ et optimise ainsi la gestion de vos données et votre efficacité en programmation. En savoir plus !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldchar/fieldtype/
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Récupère l'objet façade qui représente le champ dans le document.
+// Récupérer l'objet de façade qui représente le champ dans le document.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Mettez à jour le champ pour afficher la date actuelle.
+// Mettre à jour le champ pour afficher la date actuelle.
 field.Update();
 ```
 

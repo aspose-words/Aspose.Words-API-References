@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.UseTileFlipMode
 linktitle: UseTileFlipMode
 articleTitle: UseTileFlipMode
 second_title: Aspose.Words för .NET
-description: GraphicsQualityOptions UseTileFlipMode fast egendom. Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY i C#.
+description: Upptäck egenskapen GraphicsQualityOptions UseTileFlipMode för att styra WrapMode-inställningar för förbättrad visuell kvalitet i dina applikationer.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/graphicsqualityoptions/usetileflipmode/
 ---
 ## GraphicsQualityOptions.UseTileFlipMode property
 
-Hämtar eller ställer in en flagga som indikerar om WrapMode är TileFlipXY.
+Hämtar eller ställer in en flagga som anger om WrapMode är TileFlipXY.
 
 ```csharp
 public bool UseTileFlipMode { get; set; }
@@ -18,11 +18,11 @@ public bool UseTileFlipMode { get; set; }
 
 ## Anmärkningar
 
-DeWrapMode anger hur en struktur eller gradient är sida vid sida när den är mindre än området som fylls.
+DeWrapMode anger hur en textur eller övertoning sida vid sida när den är mindre än det område som fylls.
 
-Använder som standardTile (anger plattsättning utan att vända). Detta orsakar felaktig återgivning av den skalade bilden (med hög upplösning).
+Som standard använderTile (specificerar kakelplacering utan vändning). Detta orsakar felaktig återgivning av den skalade bilden (med hög upplösning).
 
-Den här egenskapen gör det möjligt att byta WrapMode tillTileFlipXY (anger att brickor vänds horisontellt när du flyttar längs en rad och vänds vertikalt när du flyttar längs en kolumn).
+Den här egenskapen tillåter att byta WrapMode tillTileFlipXY (specificerar att paneler vänds horisontellt när du förflyttar dig längs en rad och vänds vertikalt när du förflyttar dig längs en kolumn).
 
 ## Exempel
 

@@ -3,14 +3,14 @@ title: MailMerge.UseWholeParagraphAsRegion
 linktitle: UseWholeParagraphAsRegion
 articleTitle: UseWholeParagraphAsRegion
 second_title: Aspose.Words pour .NET
-description: MailMerge UseWholeParagraphAsRegion propriété. Obtient ou définit une valeur indiquant si un paragraphe entier avecDébut de la table ouFin de table field ou plage particulière entreDébut de la table etFin de table les champs doivent être inclus dans la région de publipostage en C#.
+description: Découvrez comment utiliser la propriété MailMerge UseWholeParagraphAsRegion pour améliorer vos régions de publipostage, garantissant un contrôle complet sur l'inclusion du contenu.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Obtient ou définit une valeur indiquant si un paragraphe entier avec**Début de la table** ou**Fin de table** field ou plage particulière entre**Début de la table** et**Fin de table** les champs doivent être inclus dans la région de publipostage.
+Obtient ou définit une valeur indiquant si le paragraphe entier avec**TableStart** ou**Fin de table** field ou plage particulière entre**TableStart** et**Fin de table** les champs doivent être inclus dans la région de publipostage.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -32,10 +32,10 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
 
     // Par défaut, un paragraphe ne peut appartenir qu'à une seule région de publipostage.
     // Le contenu de notre document ne répond pas à ces critères.
-    // Si on met le flag "UseWholeParagraphAsRegion" à "true",
-    // L'exécution d'un publipostage sur ce document lèvera une exception.
-    // Si on met le flag "UseWholeParagraphAsRegion" à "false",
-    // nous allons pouvoir exécuter un publipostage sur ce document.
+    // Si nous définissons l'indicateur "UseWholeParagraphAsRegion" sur "true",
+    // l'exécution d'un publipostage sur ce document générera une exception.
+    // Si nous définissons l'indicateur "UseWholeParagraphAsRegion" sur "false",
+    // nous pourrons exécuter un publipostage sur ce document.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)

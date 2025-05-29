@@ -3,7 +3,7 @@ title: FileFormatUtil.ImageTypeToExtension
 linktitle: ImageTypeToExtension
 articleTitle: ImageTypeToExtension
 second_title: Aspose.Words für .NET
-description: FileFormatUtil ImageTypeToExtension methode. Konvertiert einen Aufzählungswert des Bildtyps Aspose.Words in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt in C#.
+description: Konvertieren Sie Aspose.Words-Bildtypen mühelos in Dateierweiterungen mit der FileFormatUtil-Methode. Erhalten Sie präzise Kleinbuchstaben-Erweiterungen in Sekundenschnelle!
 type: docs
 weight: 50
 url: /de/net/aspose.words/fileformatutil/imagetypetoextension/
@@ -24,13 +24,13 @@ public static string ImageTypeToExtension(ImageType imageType)
 
 ## Beispiele
 
-Zeigt, wie man Bilder aus einem Dokument extrahiert und sie als einzelne Dateien im lokalen Dateisystem speichert.
+Zeigt, wie Bilder aus einem Dokument extrahiert und als einzelne Dateien im lokalen Dateisystem gespeichert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Holen Sie sich die Formensammlung aus dem Dokument,
-// und die Bilddaten jeder Form mit einem Bild als Datei im lokalen Dateisystem speichern.
+// Holen Sie sich die Sammlung von Formen aus dem Dokument,
+// und speichere die Bilddaten jeder Form mit einem Bild als Datei im lokalen Dateisystem.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -40,8 +40,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten.
-        // Wir können für jedes Bild automatisch eine Dateierweiterung anhand seines Formats ermitteln.
+            // Die Bilddaten von Formen können Bilder in vielen möglichen Bildformaten enthalten.
+        // Wir können für jedes Bild automatisch eine Dateierweiterung basierend auf seinem Format bestimmen.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

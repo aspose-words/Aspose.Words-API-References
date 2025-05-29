@@ -3,9 +3,9 @@ title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.ProtectionType enum. Tipo di protezione per un documento in C#.
+description: Scopri l'enum Aspose.Words.ProtectionType per una solida sicurezza dei documenti. Migliora i tuoi documenti con opzioni di protezione personalizzabili oggi stesso!
 type: docs
-weight: 4510
+weight: 5240
 url: /it/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -48,7 +48,7 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 doc.Sections[0].ProtectedForForms = false;
 
 // In questo documento di output, potremo modificare liberamente la prima sezione,
-// e potremo modificare solo il contenuto del campo del modulo nella seconda sezione.
+// e potremo modificare il contenuto del campo del modulo solo nella seconda sezione.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

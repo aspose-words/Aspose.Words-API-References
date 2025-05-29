@@ -3,14 +3,14 @@ title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
 second_title: Aspose.Words för .NET
-description: Chart Legend fast egendom. Ger tillgång till diagramförklaringsegenskaperna i C#.
+description: Upptäck egenskapen Diagramförklaring för att enkelt anpassa dina diagram. Förbättra datavisualiseringen med skräddarsydda förklaringsalternativ för bättre insikter!
 type: docs
-weight: 50
+weight: 70
 url: /sv/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Ger tillgång till diagramförklaringsegenskaperna.
+Ger åtkomst till egenskaperna för diagramförklaringen.
 
 ```csharp
 public ChartLegend Legend { get; }

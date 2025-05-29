@@ -3,14 +3,14 @@ title: FieldAsk.PromptText
 linktitle: PromptText
 articleTitle: PromptText
 second_title: Aspose.Words pour .NET
-description: FieldAsk PromptText propriété. Obtient ou définit le texte dinvite le titre de la fenêtre dinvite en C#.
+description: Découvrez comment gérer facilement la propriété FieldAsk PromptText pour personnaliser le titre de votre fenêtre d'invite pour une expérience utilisateur améliorée.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldask/prompttext/
 ---
 ## FieldAsk.PromptText property
 
-Obtient ou définit le texte d'invite (le titre de la fenêtre d'invite).
+Obtient ou définit le texte de l'invite (le titre de la fenêtre d'invite).
 
 ```csharp
 public string PromptText { get; set; }
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où sera placée la réponse à notre champ ASK.
+    // Placez un champ où la réponse à notre champ ASK sera placée.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur personnalisé,
+    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur d'invite personnalisé,
     // qui se produira lors d'un publipostage.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

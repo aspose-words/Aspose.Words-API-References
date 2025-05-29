@@ -3,14 +3,14 @@ title: FieldHyperlink.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words para .NET
-description: FieldHyperlink Target propiedad. Obtiene o establece el destino al que se debe redirigir el enlace en C#.
+description: Descubra la propiedad Target FieldHyperlink, configure fácilmente la redirección de enlaces para una navegación de usuario mejorada y experiencias web perfectas.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldhyperlink/target/
 ---
 ## FieldHyperlink.Target property
 
-Obtiene o establece el destino al que se debe redirigir el enlace.
+Obtiene o establece el destino al que debe redirigirse el enlace.
 
 ```csharp
 public string Target { get; set; }
@@ -18,7 +18,7 @@ public string Target { get; set; }
 
 ## Ejemplos
 
-Muestra cómo utilizar los campos HIPERVÍNCULO para vincular documentos en el sistema de archivos local.
+Muestra cómo utilizar los campos HIPERVÍNCULO para vincular a documentos en el sistema de archivos local.
 
 ```csharp
 Document doc = new Document();

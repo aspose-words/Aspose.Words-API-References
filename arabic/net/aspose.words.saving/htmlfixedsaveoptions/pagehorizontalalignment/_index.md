@@ -3,9 +3,9 @@ title: HtmlFixedSaveOptions.PageHorizontalAlignment
 linktitle: PageHorizontalAlignment
 articleTitle: PageHorizontalAlignment
 second_title: Aspose.Words لـ .NET
-description: HtmlFixedSaveOptions PageHorizontalAlignment ملكية. يحدد المحاذاة الأفقية للصفحات في مستند HTML. القيمة الافتراضية هيCenter  في C#.
+description: اكتشف خاصية PageHorizontalAlignment من HtmlFixedSaveOptions للتحكم بسهولة في محاذاة الصفحات في مستندات HTML. ضبط الوضع الافتراضي على "المركز" لعرض مثالي.
 type: docs
-weight: 110
+weight: 120
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
@@ -39,11 +39,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

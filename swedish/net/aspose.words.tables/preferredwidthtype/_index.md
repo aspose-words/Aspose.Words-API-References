@@ -3,14 +3,14 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.PreferredWidthType uppräkning. Anger måttenheten för den föredragna bredden på en tabell eller cell i C#.
+description: Upptäck Aspose.Words.Tables.PreferredWidthType-enum. Definiera enkelt tabell- och cellbreddmått för exakt dokumentformatering.
 type: docs
-weight: 6300
+weight: 7150
 url: /sv/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
 
-Anger måttenheten för den föredragna bredden på en tabell eller cell.
+Anger måttenheten för den önskade bredden på en tabell eller cell.
 
 ```csharp
 public enum PreferredWidthType
@@ -20,13 +20,13 @@ public enum PreferredWidthType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Auto | `1` | Den föredragna bredden är inte specificerad. Tabellens eller cellens faktiska bredd anges antingen med den explicita bredden eller så bestäms automatiskt av tabelllayoutalgoritmen när tabellen visas, beroende på inställningen för automatisk anpassning av tabellen. |
-| Percent | `2` | Mät den aktuella artikelns bredd med en angiven procentandel. |
-| Points | `3` | Mät den aktuella artikelns bredd med ett angivet antal punkter (1/72 tum). |
+| Auto | `1` | Den önskade bredden anges inte. Tabellens eller cellens faktiska bredd anges antingen med den explicita bredden eller så bestäms automatiskt av tabellens layoutalgoritm när tabellen visas, beroende på tabellens inställning för automatisk anpassning. |
+| Percent | `2` | Mät den aktuella objektbredden med en angiven procentandel. |
+| Points | `3` | Mät den aktuella objektbredden med ett angivet antal punkter (1/72 tum). |
 
 ## Exempel
 
-Visar hur man verifierar den föredragna breddtypen och värdet för en tabellcell.
+Visar hur man verifierar önskad breddtyp och värde för en tabellcell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

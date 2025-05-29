@@ -3,9 +3,9 @@ title: HeaderFooterType Enum
 linktitle: HeaderFooterType
 articleTitle: HeaderFooterType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.HeaderFooterType énumération. Identifie le type dentête ou de pied de page trouvé dans un fichier Word en C#.
+description: Découvrez l'énumération Aspose.Words.HeaderFooterType pour identifier facilement les types d'en-têtes et de pieds de page dans les documents Word. Améliorez le traitement de vos documents dès aujourd'hui !
 type: docs
-weight: 3120
+weight: 3550
 url: /fr/net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration
@@ -35,7 +35,7 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
+// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, les pages paires et les pages impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

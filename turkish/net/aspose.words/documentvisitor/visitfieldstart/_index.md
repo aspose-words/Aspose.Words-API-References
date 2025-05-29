@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitFieldStart yöntem. Belgede bir alan başlatıldığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki bir alanın başlangıcında tetiklenen DocumentVisitor VisitFieldStart yöntemini keşfedin, kodlama verimliliğinizi ve iş akışınızı artırın.
 type: docs
 weight: 200
 url: /tr/net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
 
-Belgede bir alan başlatıldığında çağrılır.
+Belgede bir alan başladığında çağrılır.
 
 ```csharp
 public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
@@ -22,17 +22,17 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Notlar
 
 Word belgesindeki bir alan, alan kodu ve alan değerinden oluşur.
 
-Örneğin sayfa numarasını görüntüleyen bir alan şu şekilde temsil edilebilir:
+Örneğin, bir sayfa numarasını gösteren bir alan aşağıdaki gibi gösterilebilir:
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[AlanBaşlangıcı]SAYFA[AlanAyırıcı]98[AlanSonu]
 
-Alan ayırıcı, alan kodunu belgedeki alan değerinden ayırır. Bazı alanlarının yalnızca alan koduna sahip olduğunu ve alan ayırıcısı ve alan değeri içermediğini unutmayın.
+Alan ayırıcısı, belgedeki alan kodunu alan değerinden ayırır. Bazı alanlarının yalnızca alan koduna sahip olduğunu ve alan ayırıcısı ve alan değerine sahip olmadığını unutmayın.
 
 Alanlar iç içe yerleştirilebilir.
 
@@ -46,8 +46,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -55,8 +55,8 @@ public void FieldToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm Alan düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm Alan düğümlerini ve bunların alt düğümlerini içeren bir dize biçiminde bir harita oluşturur.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -94,7 +94,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -106,7 +106,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -116,8 +116,8 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak onu girintileyin
-    /// alanın alt düğüm ağacına.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin derinliğine bağlı olarak girintisini ayarlayın
+    /// alanın alt düğümlerinin ağacına.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

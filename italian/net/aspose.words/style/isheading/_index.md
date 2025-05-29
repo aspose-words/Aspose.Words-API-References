@@ -3,14 +3,14 @@ title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words per .NET
-description: Style IsHeading proprietà. Vero quando lo stile è uno degli stili di intestazione integrati in C#.
+description: Scopri la proprietà IsHeading. Identifica facilmente se uno stile è uno stile di intestazione integrato, migliorando la struttura e la leggibilità del tuo documento.
 type: docs
 weight: 70
 url: /it/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-Vero quando lo stile è uno degli stili di intestazione integrati.
+Vero quando lo stile è uno degli stili di intestazione predefiniti.
 
 ```csharp
 public bool IsHeading { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Enumera ed elenca tutti gli stili che un documento creato utilizzando Aspose.Words contiene per impostazione predefinita.
+// Enumera ed elenca tutti gli stili contenuti per impostazione predefinita in un documento creato utilizzando Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

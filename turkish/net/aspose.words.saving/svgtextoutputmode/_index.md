@@ -2,15 +2,15 @@
 title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.SvgTextOutputMode Sıralama. SVG biçiminde kaydederken bir belge içindeki metnin nasıl işlenmesi gerektiğini belirlemeye olanak tanır  C#'da.
+second_title: .NET için Aspose.Words
+description: SVG formatında metin oluşturmayı özelleştirmek, belge sunumunu ve görsel çekiciliği geliştirmek için Aspose.Words.Saving.SvgTextOutputMode enum'unu keşfedin.
 type: docs
-weight: 5610
+weight: 6410
 url: /tr/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
 
-SVG biçiminde kaydederken bir belge içindeki metnin nasıl işlenmesi gerektiğini belirlemeye olanak tanır .
+Bir belgenin içindeki metnin SVG biçiminde kaydedilirken nasıl işleneceğini belirtmeye izin verir.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -21,17 +21,17 @@ public enum SvgTextOutputMode
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | UseSvgFonts | `0` | SVG yazı tipleri metin oluşturmak için kullanılır. Tüm tarayıcıların SVG yazı tiplerini desteklemediğini unutmayın. |
-| UseTargetMachineFonts | `1` | Hedef makinede yüklü olan yazı tipleri, metni oluşturmak için kullanılır. Belgede kullanılan bazı yazı tiplerinin hedef makinede mevcut olmaması durumunda belgenin farklı görünebileceğini unutmayın. |
-| UsePlacedGlyphs | `2` | Metin, eğriler kullanılarak oluşturulur. Bu seçeneği kullanırsanız metin seçiminin çalışmayacağını unutmayın. |
+| UseTargetMachineFonts | `1` | Hedef makineye yüklenen yazı tipleri metin oluşturmak için kullanılır. Not: Belgede kullanılan yazı tiplerinden bazıları hedef makinede mevcut değilse, belge farklı görünebilir. |
+| UsePlacedGlyphs | `2` | Metin eğriler kullanılarak işlenir. Bu seçeneği kullanırsanız metin seçiminin çalışmayacağını unutmayın. |
 
 ## Örnekler
 
-Bir .docx belgesini .svg'ye dönüştürürken görüntülerin özelliklerinin nasıl taklit edileceğini gösterir.
+.docx belgesini .svg'ye dönüştürürken görsellerin özelliklerinin nasıl taklit edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// SvgSaveOptions nesnesini, sayfa kenarlıkları veya seçilebilir metin olmadan kaydedilecek şekilde yapılandırın.
+// SvgSaveOptions nesnesini sayfa kenarlıkları veya seçilebilir metin olmadan kaydedecek şekilde yapılandırın.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

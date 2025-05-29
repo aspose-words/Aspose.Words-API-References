@@ -3,14 +3,14 @@ title: PhoneticGuide.RubyText
 linktitle: RubyText
 articleTitle: RubyText
 second_title: Aspose.Words لـ .NET
-description: PhoneticGuide RubyText ملكية. الحصول على نص روبي من الدليل الصوتي في C#.
+description: اكتشف خاصية PhoneticGuide RubyText للوصول إلى نص Ruby وتحسينه لتحسين الوضوح الصوتي في تطبيقاتك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/phoneticguide/rubytext/
 ---
 ## PhoneticGuide.RubyText property
 
-الحصول على نص روبي من الدليل الصوتي.
+يحصل على نص روبي للدليل الصوتي.
 
 ```csharp
 public string RubyText { get; }
@@ -18,16 +18,18 @@ public string RubyText { get; }
 
 ## أمثلة
 
-يبين كيفية الحصول على خصائص الدليل الصوتي.
+يوضح كيفية الحصول على خصائص الدليل الصوتي.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 // استخدم الدليل الصوتي في النص الآسيوي.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### أنظر أيضا

@@ -3,9 +3,9 @@ title: Comment.Replies
 linktitle: Replies
 articleTitle: Replies
 second_title: Aspose.Words per .NET
-description: Comment Replies proprietà. Restituisce una raccolta diComment oggetti che sono figli immediati del commento specificato in C#.
+description: Scopri le Risposte ai Commenti. Accedi a una raccolta di oggetti Commento che sono risposte dirette al tuo commento specificato, migliorando il coinvolgimento e l'interazione degli utenti.
 type: docs
-weight: 90
+weight: 110
 url: /it/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
@@ -24,9 +24,9 @@ Mostra come stampare tutti i commenti di un documento e le relative risposte.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Se un commento non ha un antenato, è un commento di "livello superiore" invece di un commento di tipo risposta.
-// Stampa tutti i commenti di livello superiore insieme alle eventuali risposte.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Se un commento non ha antenati, si tratta di un commento di "livello superiore" e non di un commento di tipo risposta.
+// Stampa tutti i commenti di primo livello insieme alle eventuali risposte.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

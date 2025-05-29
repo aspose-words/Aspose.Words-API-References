@@ -3,9 +3,9 @@ title: Fill.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
 second_title: Aspose.Words per .NET
-description: Fill ForeThemeColor proprietà. Ottiene o imposta un oggetto ThemeColor che rappresenta il colore di primo piano per il riempimento in C#.
+description: Scopri come impostare la proprietà ForeThemeColor per personalizzare il tuo design con colori di riempimento vivaci. Migliora l'aspetto visivo del tuo progetto senza sforzo!
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
@@ -18,7 +18,7 @@ public ThemeColor ForeThemeColor { get; set; }
 
 ## Esempi
 
-Mostra come impostare il colore del tema per il colore della forma di primo piano/sfondo.
+Mostra come impostare il colore del tema per il colore della forma in primo piano/sfondo.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Nota: non utilizzare "BackThemeColor" e "BackTintAndShade" per il riempimento dei caratteri.
+// Nota: non utilizzare "BackThemeColor" e "BackTintAndShade" per il riempimento del carattere.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

@@ -3,14 +3,14 @@ title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
 second_title: Aspose.Words für .NET
-description: TextColumnCollection SetCount methode. Ordnet Text in der angegebenen Anzahl von Textspalten an in C#.
+description: Optimieren Sie Ihr Layout mit der SetCount-Methode von TextColumnCollection und ordnen Sie Text mühelos in der gewünschten Anzahl von Spalten an, um die Lesbarkeit zu verbessern.
 type: docs
 weight: 70
 url: /de/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-Ordnet Text in der angegebenen Anzahl von Textspalten an.
+Ordnet Text in die angegebene Anzahl von Textspalten an.
 
 ```csharp
 public void SetCount(int newCount)
@@ -18,15 +18,15 @@ public void SetCount(int newCount)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| newCount | Int32 | Die Anzahl der Spalten, in die der Text angeordnet werden soll. |
+| newCount | Int32 | Die Anzahl der Spalten, in denen der Text angeordnet werden soll. |
 
 ## Bemerkungen
 
-Wann[`EvenlySpaced`](../evenlyspaced/) Ist`FALSCH` und Sie erhöhen die Anzahl der Spalten, neu[`TextColumn`](../../textcolumn/) Objekte werden mit einer Breite und einem Abstand von Null erstellt. Sie müssen Breite und Abstand für die neuen Spalten festlegen.
+Wann[`EvenlySpaced`](../evenlyspaced/) Ist`FALSCH` und Sie erhöhen die Anzahl der Spalten, neue[`TextColumn`](../../textcolumn/) Objekte werden mit einer Breite und einem Abstand von Null erstellt. Sie müssen die Breite und den Abstand für die neuen Spalten festlegen.
 
 ## Beispiele
 
-Zeigt, wie Sie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellen.
+Zeigt, wie mehrere gleichmäßig verteilte Spalten in einem Abschnitt erstellt werden.
 
 ```csharp
 Document doc = new Document();

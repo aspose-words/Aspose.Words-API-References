@@ -2,8 +2,8 @@
 title: ChartYValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue DateTimeValue 财产. 获取存储的日期时间值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValue DateTimeValue 属性，轻松访问和管理已存储的日期时间值。立即增强您的数据可视化！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/

@@ -3,14 +3,14 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words per .NET
-description: MailMergeSettings CheckErrors proprietà. Specifica il tipo di segnalazione degli errori che verrà condotta da Microsoft Word durante lesecuzione di una stampa unione. Il valore predefinito èDefault  in C#.
+description: Scopri la proprietà CheckErrors di MailMergeSettings in Microsoft Word per una segnalazione efficace degli errori durante la stampa unione. Ottimizza il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/mailmergesettings/checkerrors/
 ---
 ## MailMergeSettings.CheckErrors property
 
-Specifica il tipo di segnalazione degli errori che verrà condotta da Microsoft Word durante l'esecuzione di una stampa unione. Il valore predefinito èDefault .
+Specifica il tipo di segnalazione degli errori che deve essere effettuata da Microsoft Word quando si esegue una stampa unione. Il valore predefinito èDefault .
 
 ```csharp
 public MailMergeCheckErrors CheckErrors { get; set; }
@@ -18,7 +18,7 @@ public MailMergeCheckErrors CheckErrors { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

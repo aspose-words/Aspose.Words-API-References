@@ -3,7 +3,7 @@ title: MailMergeSettings.CheckErrors
 linktitle: CheckErrors
 articleTitle: CheckErrors
 second_title: Aspose.Words para .NET
-description: MailMergeSettings CheckErrors propiedad. Especifica el tipo de informe de errores que realizará Microsoft Word al realizar una combinación de correspondencia. El valor predeterminado esDefault  en C#.
+description: Descubra la propiedad CheckErrors de MailMergeSettings en Microsoft Word para generar informes de errores eficaces durante la combinación de correspondencia. ¡Optimice su flujo de trabajo hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/mailmergesettings/checkerrors/
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

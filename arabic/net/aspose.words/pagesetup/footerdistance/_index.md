@@ -3,14 +3,14 @@ title: PageSetup.FooterDistance
 linktitle: FooterDistance
 articleTitle: FooterDistance
 second_title: Aspose.Words لـ .NET
-description: PageSetup FooterDistance ملكية. إرجاع أو تعيين المسافة بالنقاط بين التذييل وأسفل الصفحة في C#.
+description: اضبط خاصية FooterDistance للتحكم في المسافة بين تذييل الصفحة وأسفلها. حسّن تصميم مستندك بسهولة!
 type: docs
 weight: 140
 url: /ar/net/aspose.words/pagesetup/footerdistance/
 ---
 ## PageSetup.FooterDistance property
 
-إرجاع أو تعيين المسافة (بالنقاط) بين التذييل وأسفل الصفحة.
+يعيد أو يضبط المسافة (بالنقاط) بين التذييل وأسفل الصفحة.
 
 ```csharp
 public double FooterDistance { get; set; }
@@ -18,7 +18,7 @@ public double FooterDistance { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

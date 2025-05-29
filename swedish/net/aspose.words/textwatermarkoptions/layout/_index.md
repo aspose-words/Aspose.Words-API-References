@@ -3,14 +3,14 @@ title: TextWatermarkOptions.Layout
 linktitle: Layout
 articleTitle: Layout
 second_title: Aspose.Words för .NET
-description: TextWatermarkOptions Layout fast egendom. Hämtar eller ställer in layouten för vattenstämpeln. Standardvärdet ärDiagonal  i C#.
+description: Upptäck layoutegenskapen TextWatermarkOptions för att anpassa ditt vattenstämpels utseende. Ställ enkelt in den på Diagonal eller din föredragna layout för förbättrad grafik.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/textwatermarkoptions/layout/
 ---
 ## TextWatermarkOptions.Layout property
 
-Hämtar eller ställer in layouten för vattenstämpeln. Standardvärdet ärDiagonal .
+Hämtar eller ställer in vattenstämpelns layout. Standardvärdet ärDiagonal .
 
 ```csharp
 public WatermarkLayout Layout { get; set; }
@@ -23,11 +23,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

@@ -3,14 +3,14 @@ title: ImageSize Class
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.ImageSize klas. Enthält Informationen zur Bildgröße und Auflösung in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.ImageSize, Ihre Anlaufstelle für detaillierte Einblicke in Bildgröße und -auflösung zur Verbesserung der Dokumentqualität.
 type: docs
-weight: 1070
+weight: 1400
 url: /de/net/aspose.words.drawing/imagesize/
 ---
 ## ImageSize class
 
-Enthält Informationen zur Bildgröße und Auflösung.
+Enthält Informationen zu Bildgröße und Auflösung.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Bildern](https://docs.aspose.com/words/net/working-with-images/) Dokumentationsartikel.
 
@@ -22,72 +22,60 @@ public class ImageSize
 
 | Name | Beschreibung |
 | --- | --- |
-| [ImageSize](imagesize/#constructor)(*int, int*) | Initialisiert Breite und Höhe auf die angegebenen Werte in Pixel. Initialisiert die Auflösung auf 96 dpi. |
+| [ImageSize](imagesize/#constructor)(*int, int*) | Initialisiert Breite und Höhe auf die angegebenen Werte in Pixeln. Initialisiert die Auflösung auf 96 dpi. |
 | [ImageSize](imagesize/#constructor_1)(*int, int, double, double*) | Initialisiert Breite, Höhe und Auflösung auf die angegebenen Werte. |
 
 ## Eigenschaften
 
 | Name | Beschreibung |
 | --- | --- |
-| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | Ermittelt die Höhe des Bildes in Pixel. |
-| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Ruft die Höhe des Bildes in Punkten ab. 1 Punkt ist 1/72 Zoll. |
+| [HeightPixels](../../aspose.words.drawing/imagesize/heightpixels/) { get; } | Ruft die Höhe des Bildes in Pixeln ab. |
+| [HeightPoints](../../aspose.words.drawing/imagesize/heightpoints/) { get; } | Ruft die Höhe des Bildes in Punkten ab. 1 Punkt entspricht 1/72 Zoll. |
 | [HorizontalResolution](../../aspose.words.drawing/imagesize/horizontalresolution/) { get; } | Ruft die horizontale Auflösung in DPI ab. |
 | [VerticalResolution](../../aspose.words.drawing/imagesize/verticalresolution/) { get; } | Ruft die vertikale Auflösung in DPI ab. |
-| [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Ermittelt die Breite des Bildes in Pixel. |
-| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Ermittelt die Breite des Bildes in Punkten. 1 Punkt ist 1/72 Zoll. |
+| [WidthPixels](../../aspose.words.drawing/imagesize/widthpixels/) { get; } | Ruft die Breite des Bildes in Pixeln ab. |
+| [WidthPoints](../../aspose.words.drawing/imagesize/widthpoints/) { get; } | Ruft die Breite des Bildes in Punkten ab. 1 Punkt entspricht 1/72 Zoll. |
 
 ## Beispiele
 
 Zeigt, wie die Größe einer Form mit einem Bild geändert wird.
 
 ```csharp
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Logo.jpg");
+// Wenn wir ein Bild mit der Methode "InsertImage" einfügen, skaliert der Builder die Form, die das Bild anzeigt, so dass
+// Wenn wir das Dokument in Microsoft Word mit 100 % Zoom anzeigen, zeigt die Form das Bild in seiner tatsächlichen Größe an.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
+// Ein 400 x 400 Bild erstellt ein ImageData-Objekt mit einer Bildgröße von 300 x 300 pt.
+ImageSize imageSize = shape.ImageData.ImageSize;
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Wenn wir ein Bild mit der Methode „InsertImage“ einfügen, skaliert der Builder die Form, die das Bild anzeigt, so dass
-            // Wenn wir das Dokument mit 100 % Zoom in Microsoft Word betrachten, zeigt die Form das Bild in seiner tatsächlichen Größe an.
-            Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// Wenn die Abmessungen einer Form mit den Abmessungen der Bilddaten übereinstimmen,
+// dann zeigt die Form das Bild in seiner Originalgröße an.
+Assert.AreEqual(300.0d, shape.Width);
+Assert.AreEqual(300.0d, shape.Height);
 
-            // Ein 400x400-Bild erstellt ein ImageData-Objekt mit einer Bildgröße von 300x300pt.
-            ImageSize imageSize = shape.ImageData.ImageSize;
+    // Reduzieren Sie die Gesamtgröße der Form um 50 %.
+shape.Width *= 0.5;
 
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
+    // Skalierungsfaktoren gelten gleichzeitig für die Breite und die Höhe, um die Proportionen der Form beizubehalten.
+Assert.AreEqual(150.0d, shape.Width);
+Assert.AreEqual(150.0d, shape.Height);
 
-            // Wenn die Abmessungen einer Form mit den Abmessungen der Bilddaten übereinstimmen,
-            // dann zeigt die Form das Bild in seiner Originalgröße an.
-            Assert.AreEqual(300.0d, shape.Width);
-            Assert.AreEqual(300.0d, shape.Height);
+// Wenn wir die Größe der Form ändern, bleibt die Größe der Bilddaten gleich.
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-             // Reduziere die Gesamtgröße der Form um 50 %.
-            shape.Width *= 0.5;
+// Wir können auf die Abmessungen der Bilddaten verweisen, um eine Skalierung basierend auf der Größe des Bildes anzuwenden.
+shape.Width = imageSize.WidthPoints * 1.1;
 
-             // Skalierungsfaktoren gelten gleichzeitig für die Breite und Höhe, um die Proportionen der Form beizubehalten.
-            Assert.AreEqual(150.0d, shape.Width);
-            Assert.AreEqual(150.0d, shape.Height);
+Assert.AreEqual(330.0d, shape.Width);
+Assert.AreEqual(330.0d, shape.Height);
 
-            // Wenn wir die Größe der Form ändern, bleibt die Größe der Bilddaten gleich.
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
-
-            // Wir können auf die Abmessungen der Bilddaten verweisen, um eine Skalierung basierend auf der Größe des Bildes anzuwenden.
-            shape.Width = imageSize.WidthPoints * 1.1;
-
-            Assert.AreEqual(330.0d, shape.Width);
-            Assert.AreEqual(330.0d, shape.Height);
-
-            doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
+doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
 ```
 
 ### Siehe auch

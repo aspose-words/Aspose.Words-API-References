@@ -3,14 +3,14 @@ title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
 second_title: Aspose.Words для .NET
-description: FieldOptions DefaultDocumentAuthor свойство. Получает или задает имя автора документа по умолчанию. Если имя автора уже указано во встроенных свойствах документа этот параметр не учитывается на С#.
+description: Управляйте свойством DefaultDocumentAuthor, чтобы легко задавать или обновлять имена авторов документов, повышая эффективность организации и управления документами.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-Получает или задает имя автора документа по умолчанию. Если имя автора уже указано во встроенных свойствах документа, этот параметр не учитывается.
+Возвращает или задает имя автора документа по умолчанию. Если имя автора уже указано во встроенных свойствах документа, эта опция не рассматривается.
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -18,21 +18,21 @@ public string DefaultDocumentAuthor { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поле АВТОР для отображения имени создателя документа.
+Показывает, как использовать поле AUTHOR для отображения имени создателя документа.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Поля AUTHOR получают результаты из встроенного свойства документа под названием «Автор».
+// Поля AUTHOR берут свои результаты из встроенного свойства документа под названием «Автор».
 // Если мы создадим и сохраним документ в Microsoft Word,
 // в этом свойстве будет наше имя пользователя.
 // Однако, если мы создадим документ программно с помощью Aspose.Words,
-// свойство "Автор" по умолчанию будет пустой строкой.
+// свойство «Автор» по умолчанию будет пустой строкой.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// Установите резервное имя автора для полей AUTHOR, которые будут использоваться
-// если свойство "Автор" содержит пустую строку.
+// Задайте резервное имя автора для полей AUTHOR для использования
+// если свойство «Автор» содержит пустую строку.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
 builder.Write("This document was created by ");
@@ -43,11 +43,11 @@ Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
 // Обновление поля AUTHOR, содержащего значение
-// применит это значение ко встроенному свойству «Автор».
+// применит это значение к встроенному свойству «Автор».
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// Изменение этого свойства, а затем обновление поля AUTHOR применит это значение к полю.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+// Изменение этого свойства и последующее обновление поля AUTHOR применит это значение к полю.
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

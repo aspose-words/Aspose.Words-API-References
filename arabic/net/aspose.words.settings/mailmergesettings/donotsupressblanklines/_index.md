@@ -3,14 +3,14 @@ title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings DoNotSupressBlankLines ملكية. يحدد كيفية تعامل التطبيق الذي يقوم بدمج المراسلات مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج المراسلات. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: قم بتحسين دمج البريد الخاص بك باستخدام خاصية DoNotSupressBlankLines في MailMergeSettings، مما يضمن التعامل مع الأسطر الفارغة بشكل فعال للحصول على مستندات مصقولة.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-يحدد كيفية تعامل التطبيق الذي يقوم بدمج المراسلات مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج المراسلات. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد كيفية تعامل التطبيق الذي يقوم بدمج البريد مع الأسطر الفارغة في المستندات المدمجة الناتجة عن دمج البريد. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -18,7 +18,7 @@ public bool DoNotSupressBlankLines { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

@@ -3,7 +3,7 @@ title: FieldToa
 linktitle: FieldToa
 articleTitle: FieldToa
 second_title: Aspose.Words для .NET
-description: FieldToa строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldToa по умолчанию, разработанный для бесшовной интеграции и оптимальной производительности в ваших проектах. Повысьте эффективность кодирования сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldtoa/fieldtoa/

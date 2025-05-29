@@ -3,14 +3,14 @@ title: Node.NextPreOrder
 linktitle: NextPreOrder
 articleTitle: NextPreOrder
 second_title: Aspose.Words para .NET
-description: Node NextPreOrder método. Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados en C#.
+description: Descubre el método Node NextPreOrder para un recorrido eficiente del árbol. ¡Aprende a recuperar el siguiente nodo usando el algoritmo de preorden de forma eficaz!
 type: docs
 weight: 130
 url: /es/net/aspose.words/node/nextpreorder/
 ---
 ## Node.NextPreOrder method
 
-Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados.
+Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden.
 
 ```csharp
 public Node NextPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node NextPreOrder(Node rootNode)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| rootNode | Node | El nodo superior (límite) de recorrido. |
+| rootNode | Node | El nodo superior (límite) del recorrido. |
 
 ### Valor_devuelto
 
-Siguiente nodo en orden de reserva. Nulo si se alcanza el*rootNode*.
+Siguiente nodo en la preorden. Nulo si se alcanza el*rootNode*.
 
 ## Ejemplos
 
-Muestra cómo recorrer el árbol de nodos del documento utilizando el algoritmo transversal de pedido previo y eliminar cualquier forma encontrada con una imagen.
+Muestra cómo recorrer el árbol de nodos del documento utilizando el algoritmo de recorrido de preorden y eliminar cualquier forma encontrada con una imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

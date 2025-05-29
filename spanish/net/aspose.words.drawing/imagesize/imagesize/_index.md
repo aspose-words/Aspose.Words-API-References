@@ -3,14 +3,14 @@ title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words para .NET
-description: ImageSize constructor. Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp en C#.
+description: Cree imágenes precisas con el constructor ImageSize, configurando ancho, alto y resolución de 96 dpi personalizados para lograr una claridad y calidad óptimas.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-Inicializa el ancho y el alto con los valores dados en píxeles. Inicializa la resolución a 96 ppp.
+Inicializa el ancho y la altura a los valores dados en píxeles. Inicializa la resolución a 96 ppp.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -31,7 +31,7 @@ public ImageSize(int widthPixels, int heightPixels)
 
 ## ImageSize(*int, int, double, double*) {#constructor_1}
 
-Inicializa el ancho, alto y resolución a los valores dados.
+Inicializa el ancho, la altura y la resolución a los valores dados.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels, double horizontalResolution, 

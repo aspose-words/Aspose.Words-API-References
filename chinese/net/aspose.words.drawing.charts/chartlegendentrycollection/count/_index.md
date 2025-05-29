@@ -2,15 +2,15 @@
 title: ChartLegendEntryCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegendEntryCollection Count 财产. 返回数量ChartLegendEntry在这个集合中 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ChartLegendEntryCollection 的 Count 属性，它提供条目总数，增强图表的数据可视化。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartlegendentrycollection/count/
 ---
 ## ChartLegendEntryCollection.Count property
 
-返回数量[`ChartLegendEntry`](../../chartlegendentry/)在这个集合中.
+返回[`ChartLegendEntry`](../../chartlegendentry/)在此集合中。
 
 ```csharp
 public int Count { get; }

@@ -3,9 +3,9 @@ title: MailMergeDestination Enum
 linktitle: MailMergeDestination
 articleTitle: MailMergeDestination
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.MailMergeDestination opsomming. Gibt die möglichen Ergebnisse an die generiert werden können wenn ein Serienbrief für ein Dokument ausgeführt wird in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.MailMergeDestination, die Ergebnisse für nahtlose Serienbriefe definiert. Optimieren Sie Ihre Dokumentenverarbeitung noch heute!
 type: docs
-weight: 5830
+weight: 6660
 url: /de/net/aspose.words.settings/mailmergedestination/
 ---
 ## MailMergeDestination enumeration
@@ -20,11 +20,11 @@ public enum MailMergeDestination
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NewDocument | `0` | Gibt an, dass konforme Hosting-Anwendungen neue Dokumente generieren sollen, indem sie die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle füllen. |
-| Printer | `1` | Gibt an, dass konforme Hostinganwendungen die Dokumente drucken sollen, die sich aus der Befüllung der Felder in einem bestimmten Dokument mit externen Daten aus der angegebenen externen Datenquelle ergeben. |
-| Email | `2` | Gibt an, dass konforme Hosting-Anwendungen E-Mails mit den Dokumenten generieren sollen, die aus resultieren, indem die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle gefüllt werden. |
-| Fax | `4` | Gibt an, dass konforme Hosting-Anwendungen Faxe mit den Dokumenten generieren sollen, die aus resultieren, indem die Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle gefüllt werden. |
-| Default | `0` | Entspricht demNewDocument value. |
+| NewDocument | `0` | Gibt an, dass konforme Hosting-Anwendungen neue Dokumente generieren sollen, indem sie die Felder innerhalb eines bestimmten Dokuments mit Daten aus der angegebenen externen Datenquelle füllen. |
+| Printer | `1` | Gibt an, dass konforme Hosting-Anwendungen die Dokumente drucken sollen, die sich aus dem Auffüllen der -Felder innerhalb eines bestimmten Dokuments mit externen Daten aus der angegebenen externen Datenquelle ergeben. |
+| Email | `2` | Gibt an, dass konforme Hosting-Anwendungen E-Mails unter Verwendung der Dokumente generieren sollen, die sich aus dem Auffüllen der Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle ergeben. |
+| Fax | `4` | Gibt an, dass konforme Hosting-Anwendungen Faxe mithilfe der Dokumente generieren sollen, die sich aus dem Auffüllen der Felder in einem bestimmten Dokument mit Daten aus der angegebenen externen Datenquelle ergeben. |
+| Default | `0` | Entspricht demNewDocument Wert. |
 
 ## Beispiele
 
@@ -41,9 +41,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -71,7 +71,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

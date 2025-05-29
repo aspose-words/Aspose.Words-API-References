@@ -2,15 +2,15 @@
 title: TiffCompression Enum
 linktitle: TiffCompression
 articleTitle: TiffCompression
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.TiffCompression 枚举. 指定将页面图像保存到 TIFF 文件时应用什么类型的压缩 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.TiffCompression 枚举，实现最佳的 TIFF 文件保存效果。轻松选择最佳压缩类型，获得高质量的页面图像。
 type: docs
-weight: 5630
+weight: 6430
 url: /zh/net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration
 
-指定将页面图像保存到 TIFF 文件时应用什么类型的压缩。
+指定将页面图像保存为 TIFF 文件时应用的压缩类型。
 
 ```csharp
 public enum TiffCompression
@@ -22,56 +22,32 @@ public enum TiffCompression
 | --- | --- | --- |
 | None | `0` | 指定不压缩。 |
 | Rle | `1` | 指定 RLE 压缩方案。 |
-| Lzw | `2` | 指定 LZW 压缩方案。 在 Java 中通过 Deflate (Zip) 压缩模拟。 |
+| Lzw | `2` | 指定 LZW 压缩方案。 在 Java 中由 Deflate（Zip）压缩模拟。 |
 | Ccitt3 | `3` | 指定 CCITT3 压缩方案。 |
 | Ccitt4 | `4` | 指定 CCITT4 压缩方案。 |
 
 ## 例子
 
-演示如何选择要应用于转换为 TIFF 图像的文档的压缩方案。
+展示如何选择压缩方案应用于转换为 TIFF 图像的文档。
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            // 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
-            // 修改该方法将文档呈现为图像的方式。
-            ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// 创建一个“ImageSaveOptions”对象，我们可以将其传递给文档的“Save”方法
+// 修改该方法将文档呈现为图像的方式。
+ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
+// 将“TiffCompression”属性设置为“TiffCompression.None”以在保存时不应用压缩，
+// 这可能会导致输出文件非常大。
+// 将“TiffCompression”属性设置为“TiffCompression.Rle”以应用 RLE 压缩
+// 将“TiffCompression”属性设置为“TiffCompression.Lzw”以应用 LZW 压缩。
+// 将“TiffCompression”属性设置为“TiffCompression.Ccitt3”以应用 CCITT3 压缩。
+// 将“TiffCompression”属性设置为“TiffCompression.Ccitt4”以应用 CCITT4 压缩。
+options.TiffCompression = tiffCompression;
 
-            // 将“TiffCompression”属性设置为“TiffCompression.None”以在保存时不应用压缩，
-            // 这可能会导致输出文件非常大。
-            // 将“TiffCompression”属性设置为“TiffCompression.Rle”以应用 RLE 压缩
-            // 将“TiffCompression”属性设置为“TiffCompression.Lzw”以应用 LZW 压缩。
-            // 将“TiffCompression”属性设置为“TiffCompression.Ccitt3”以应用 CCITT3 压缩。
-            // 将“TiffCompression”属性设置为“TiffCompression.Ccitt4”以应用 CCITT4 压缩。
-            options.TiffCompression = tiffCompression;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
-
-            switch (tiffCompression)
-            {
-                case TiffCompression.None:
-                    Assert.That(3000000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Rle:
-#if NET5_0_OR_GREATER
-                    Assert.That(6000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#else
-                    Assert.That(600000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-#endif
-                    break;
-                case TiffCompression.Lzw:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt3:
-                    Assert.That(90000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-                case TiffCompression.Ccitt4:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff").Length));
-                    break;
-            }
+doc.Save(ArtifactsDir + "ImageSaveOptions.TiffImageCompression.tiff", options);
 ```
 
 ### 也可以看看

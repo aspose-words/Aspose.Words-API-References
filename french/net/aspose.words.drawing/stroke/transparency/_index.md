@@ -3,9 +3,9 @@ title: Stroke.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words pour .NET
-description: Stroke Transparency propriété. Obtient ou définit une valeur comprise entre 00 opaque et 10 clair représentant le degré de transparence du trait en C#.
+description: Ajustez la propriété Transparence du trait pour contrôler l'opacité de 0,0 (opaque) à 1,0 (clair), améliorant ainsi l'impact visuel de votre conception.
 type: docs
-weight: 190
+weight: 240
 url: /fr/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
@@ -22,7 +22,7 @@ La valeur par défaut est 0.
 
 ## Exemples
 
-Montrez comment définir le formatage des marqueurs.
+Montrez comment définir la mise en forme des marqueurs.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Supprime la série générée par défaut.
+// Supprimer la série générée par défaut.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Définit le formatage du marqueur.
+// Définir le formatage du marqueur.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

@@ -3,7 +3,7 @@ title: FieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: FieldCollection Remove metod. Tar bort det angivna fältet från den här samlingen och från dokumentet i C#.
+description: Ta enkelt bort specifika fält från ditt dokument med metoden FieldCollection Remove, vilket effektiviserar din datahanteringsprocess.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldcollection/remove/
@@ -40,12 +40,12 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Nedan finns fyra sätt att ta bort fält från en fältsamling.
-// 1 - Få ett fält för att ta bort sig själv:
+// Nedan följer fyra sätt att ta bort fält från en fältsamling.
+// 1 - Få ett fält att ta bort sig självt:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Få samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
+// 2 - Hämta samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);

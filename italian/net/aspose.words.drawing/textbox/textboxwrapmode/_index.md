@@ -3,14 +3,14 @@ title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
 second_title: Aspose.Words per .NET
-description: TextBox TextBoxWrapMode proprietà. Determina il modo in cui il testo va a capo allinterno di una forma in C#.
+description: Scopri la proprietà TextBox WrapMode per migliorare l'avvolgimento del testo nelle forme, migliorando la chiarezza e l'attrattiva visiva del tuo design.
 type: docs
 weight: 110
 url: /it/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property
 
-Determina il modo in cui il testo va a capo all'interno di una forma.
+Determina come il testo viene disposto all'interno di una forma.
 
 ```csharp
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito èSquare.
 
 ## Esempi
 
-Mostra come impostare una modalità di disposizione per il contenuto di una casella di testo.
+Mostra come impostare una modalità di avvolgimento per il contenuto di una casella di testo.
 
 ```csharp
 Document doc = new Document();
@@ -32,9 +32,9 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Imposta la proprietà "TextBoxWrapMode" su "TextBoxWrapMode.None" per aumentare la larghezza della casella di testo
-// per contenere il testo, se è sufficientemente grande.
-// Imposta la proprietà "TextBoxWrapMode" su "TextBoxWrapMode.Square" su
-// avvolge tutto il testo all'interno della casella di testo, preservandone le dimensioni.
+// per contenere il testo, se sufficientemente grande.
+// Imposta la proprietà "TextBoxWrapMode" su "TextBoxWrapMode.Square" per
+// racchiude tutto il testo all'interno della casella di testo, mantenendone le dimensioni.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

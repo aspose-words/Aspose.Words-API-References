@@ -3,14 +3,14 @@ title: Font.NoProofing
 linktitle: NoProofing
 articleTitle: NoProofing
 second_title: Aspose.Words para .NET
-description: Font NoProofing propiedad. Verdadero cuando los caracteres formateados no deben revisarse la ortografía en C#.
+description: Descubra Font NoProofing. Evite la corrección ortográfica en texto formateado para diseños más limpios. ¡Mejore sus documentos con precisión y profesionalismo!
 type: docs
 weight: 280
 url: /es/net/aspose.words/font/noproofing/
 ---
 ## Font.NoProofing property
 
-Verdadero cuando los caracteres formateados no deben revisarse la ortografía.
+Verdadero cuando no se debe comprobar la ortografía de los caracteres formateados.
 
 ```csharp
 public bool NoProofing { get; set; }
@@ -25,8 +25,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Normalmente, Microsoft Word enfatiza los errores ortográficos con un subrayado rojo irregular.
-// Podemos desactivar el indicador "NoProofing" para crear una porción de texto que
-// omite el corrector ortográfico y lo desactiva por completo.
+// Podemos desmarcar la opción "NoProofing" para crear una porción de texto que
+// omite el corrector ortográfico y lo deshabilita por completo.
 builder.Font.NoProofing = true;
 
 builder.Writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");

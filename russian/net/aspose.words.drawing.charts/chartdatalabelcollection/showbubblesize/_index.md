@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection ShowBubbleSize свойство. Позволяет указать должен ли отображаться размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство ShowBubbleSize в ChartDataLabelCollection улучшает ваши пузырьковые диаграммы, управляя видимостью меток данных. Улучшите представление данных!
 type: docs
-weight: 70
+weight: 100
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-Позволяет указать, должен ли отображаться размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчанию:`ЛОЖЬ` .
+Позволяет указать, следует ли отображать размер пузырьков для меток данных всей серии. Применяется только к пузырьковым диаграммам. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -18,7 +18,7 @@ public bool ShowBubbleSize { get; set; }
 
 ## Примечания
 
-Значение, определенное для этого свойства, можно переопределить для отдельной метки данных с помощью the [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) свойство.
+Значение, определенное для этого свойства, может быть переопределено для отдельной метки данных с помощью [`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) свойство.
 
 ## Примеры
 
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем пользовательскую серию с координатами X/Y и диаметром каждого пузырька.
+ // Добавьте пользовательскую серию с координатами X/Y и диаметром каждого из пузырьков.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

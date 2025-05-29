@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitEditableRangeStart
 linktitle: VisitEditableRangeStart
 articleTitle: VisitEditableRangeStart
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitEditableRangeStart metodo. Chiamato quando nel documento viene rilevato linizio di un intervallo modificabile in C#.
+description: Scopri il metodo VisitEditableRangeStart di DocumentVisitor, attivato all'inizio degli intervalli modificabili per una modifica fluida dei documenti e un'esperienza utente migliorata.
 type: docs
 weight: 170
 url: /it/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -34,8 +34,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void EditableRangeToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi EditableRange incontrati e dei relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi EditableRange rilevati e dei loro elementi figlio.
 /// </summary>
 public class EditableRangeStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -63,18 +63,18 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Vogliamo stampare il contenuto delle sequenze, ma solo se sono all'interno di forme, come nel caso delle caselle di testo
+        // Vogliamo stampare il contenuto delle esecuzioni, ma solo se sono all'interno di forme, come nel caso delle caselle di testo
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo EditableRange.
+    /// Chiamato quando nel documento viene rilevato un nodo EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato al termine della visita di un nodo EditableRange.
+    /// Chiamato quando termina la visita di un nodo EditableRange.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,7 +99,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

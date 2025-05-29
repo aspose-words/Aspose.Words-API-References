@@ -3,7 +3,7 @@ title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
 second_title: Aspose.Words für .NET
-description: DocumentBuilder DeleteRow methode. Löscht eine Zeile aus einer Tabelle in C#.
+description: Entfernen Sie mühelos Zeilen aus Tabellen mit der DeleteRow-Methode von DocumentBuilder. Optimieren Sie Ihre Dokumentbearbeitung und verbessern Sie Ihren Workflow!
 type: docs
 weight: 200
 url: /de/net/aspose.words/documentbuilder/deleterow/
@@ -27,11 +27,11 @@ Der Zeilenknoten, der gerade entfernt wurde.
 
 ## Bemerkungen
 
-Befindet sich der Cursor innerhalb der Zeile, die gelöscht wird, wird er in die nächste Zeile oder in den nächsten Absatz nach der Tabelle verschoben .
+Befindet sich der Cursor in der Zeile, die gelöscht wird, wird der Cursor in die nächste Zeile oder in den nächsten Absatz nach der Tabelle verschoben.
 
-Wenn Sie eine Zeile aus einer Tabelle löschen, die nur eine Zeile enthält, wird die gesamte -Tabelle gelöscht.
+Wenn Sie eine Zeile aus einer Tabelle löschen, die nur eine Zeile enthält, wird die gesamte Tabelle gelöscht.
 
-Wenn der Index für die Indexparameter größer oder gleich 0 ist, wird ein Index von am Anfang angegeben, wobei 0 das erste Element ist. Wenn der Index kleiner als 0 ist, wird ein Index vom Ende angegeben, wobei -1 das letzte Element ist.
+Wenn der Indexparameter größer oder gleich 0 ist, wird ein Index vom Anfang x000d angegeben, wobei 0 das erste Element ist. Wenn der Index kleiner als 0 ist, wird ein Index vom Ende x000 angegeben, wobei -1 das letzte Element ist.
 
 ## Beispiele
 
@@ -55,7 +55,7 @@ builder.EndTable();
 
 Assert.AreEqual(2, table.Rows.Count);
 
-// Löschen Sie die erste Zeile der ersten Tabelle im Dokument.
+// Lösche die erste Zeile der ersten Tabelle im Dokument.
 builder.DeleteRow(0, 0);
 
 Assert.AreEqual(1, table.Rows.Count);

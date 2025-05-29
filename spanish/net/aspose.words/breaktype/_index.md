@@ -3,14 +3,14 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.BreakType enumeración. Especifica el tipo de ruptura dentro de un documento en C#.
+description: Descubra la enumeración Aspose.Words.BreakType para mejorar el formato de su documento con tipos de saltos precisos para una mejor legibilidad y control del diseño.
 type: docs
-weight: 110
+weight: 300
 url: /es/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
 
-Especifica el tipo de ruptura dentro de un documento.
+Especifica el tipo de salto dentro de un documento.
 
 ```csharp
 public enum BreakType
@@ -32,17 +32,17 @@ public enum BreakType
 
 ## Ejemplos
 
-Muestra cómo crear encabezados y pies de página en un documento usando DocumentBuilder.
+Muestra cómo crear encabezados y pies de página en un documento utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Especifica que queremos encabezados y pies de página diferentes para las primeras páginas, pares e impares.
+// Especificamos que queremos encabezados y pies de página diferentes para la primera página, páginas pares e impares.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Cree los encabezados, luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
+// Cree los encabezados y luego agregue tres páginas al documento para mostrar cada tipo de encabezado.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -60,13 +60,13 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
+Muestra cómo aplicar y revertir configuraciones de configuración de página a secciones de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica las propiedades de configuración de la página para la sección actual del constructor y agrega texto.
+// Modifique las propiedades de configuración de la página para la sección actual del constructor y agregue texto.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
@@ -78,7 +78,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Podemos revertir las propiedades de configuración de la página a sus valores predeterminados usando el método "ClearFormatting".
+//Podemos revertir sus propiedades de configuración de página a sus valores predeterminados usando el método "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -95,15 +95,15 @@ Muestra cómo insertar una tabla de contenido (TOC) en un documento utilizando e
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insertar una tabla de contenido para la primera página del documento.
-// Configurar la tabla para recoger párrafos con títulos de niveles 1 a 3.
-// Además, configura sus entradas para que sean hipervínculos que nos llevarán
+// Insertar una tabla de contenidos para la primera página del documento.
+// Configurar la tabla para seleccionar párrafos con encabezados de niveles 1 a 3.
+// Además, configure sus entradas para que sean hipervínculos que nos llevarán
 // a la ubicación del encabezado cuando se hace clic izquierdo en Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Complete la tabla de contenido agregando párrafos con estilos de encabezado.
-// Cada uno de estos encabezados con un nivel entre 1 y 3 creará una entrada en la tabla.
+// Rellene la tabla de contenidos agregando párrafos con estilos de encabezado.
+// Cada encabezado con un nivel entre 1 y 3 creará una entrada en la tabla.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -131,7 +131,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Una tabla de contenido es un campo de un tipo que debe actualizarse para mostrar un resultado actualizado.
+// Una tabla de contenidos es un campo de un tipo que necesita actualizarse para mostrar un resultado actualizado.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

@@ -3,14 +3,14 @@ title: Node.Range
 linktitle: Range
 articleTitle: Range
 second_title: Aspose.Words per .NET
-description: Node Range proprietà. Restituisce aRange oggetto che rappresenta la porzione di documento contenuta in questo nodo in C#.
+description: Scopri la proprietà Intervallo nodo, accedi facilmente a un oggetto Intervallo che definisce il segmento del documento all'interno del tuo nodo per una migliore gestione dei contenuti.
 type: docs
 weight: 80
 url: /it/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-Restituisce a[`Range`](../../range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo.
+Restituisce un[`Range`](../../range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo.
 
 ```csharp
 public Range Range { get; }
@@ -24,14 +24,14 @@ Mostra come eliminare tutti i nodi da un intervallo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aggiunge testo alla prima sezione del documento, quindi aggiunge un'altra sezione.
+// Aggiungere testo alla prima sezione del documento, quindi aggiungere un'altra sezione.
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Rimuove completamente la prima sezione rimuovendo tutti i nodi
+// Rimuovi completamente la prima sezione rimuovendo tutti i nodi
 // all'interno del suo intervallo, inclusa la sezione stessa.
 doc.Sections[0].Range.Delete();
 

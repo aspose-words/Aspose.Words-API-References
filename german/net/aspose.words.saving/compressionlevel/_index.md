@@ -3,18 +3,18 @@ title: CompressionLevel Enum
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.CompressionLevel opsomming. Komprimierungsstufe für OOXMLDateien in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Saving.CompressionLevel, um die Größe von OOXML-Dateien zu optimieren und so die Leistung und Effizienz bei der Dokumentverarbeitung zu verbessern.
 type: docs
-weight: 4870
+weight: 5610
 url: /de/net/aspose.words.saving/compressionlevel/
 ---
 ## CompressionLevel enumeration
 
 Komprimierungsstufe für OOXML-Dateien.
 
-(DOCX- und DOTX-Dateien sind intern ein ZIP-Archiv, diese Eigenschaft steuert die Komprimierungsstufe des Archivs.
+(DOCX- und DOTX-Dateien sind intern ein ZIP-Archiv, diese Eigenschaft steuert den Komprimierungsgrad des Archivs.
 
-Beachten Sie, dass die FlatOpc-Datei kein ZIP-Archiv ist, daher hat diese Eigenschaft keinen Einfluss auf die FlatOpc-Dateien.)
+Beachten Sie, dass die FlatOpc-Datei kein ZIP-Archiv ist. Daher wirkt sich diese Eigenschaft nicht auf die FlatOpc-Dateien aus.)
 
 ```csharp
 public enum CompressionLevel
@@ -24,14 +24,14 @@ public enum CompressionLevel
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Normal | `0` | Normale Komprimierungsstufe. Von Aspose.Words. verwendete Standardkomprimierungsstufe |
+| Normal | `0` | Normale Komprimierungsstufe. Standardmäßige Komprimierungsstufe, die von Aspose.Words verwendet wird. |
 | Maximum | `1` | Maximale Komprimierungsstufe. |
 | Fast | `2` | Schnelle Komprimierungsstufe. |
 | SuperFast | `3` | Superschnelle Komprimierungsstufe. Microsoft Word verwendet diese Komprimierungsstufe. |
 
 ## Beispiele
 
-Zeigt, wie Sie die Komprimierungsstufe angeben, die beim Speichern eines OOXML-Dokuments verwendet werden soll.
+Zeigt, wie Sie die zu verwendende Komprimierungsstufe beim Speichern eines OOXML-Dokuments angeben.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
@@ -43,7 +43,7 @@ Document doc = new Document(MyDir + "Big document.docx");
 // die Standardkomprimierung, die Aspose.Words beim Speichern von OOXML-Dokumenten verwendet.
 // Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.Fast“, um eine schnellere und schwächere Komprimierung anzuwenden.
 // Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.SuperFast“, um sie anzuwenden
-// die Standardkomprimierung, die Microsoft Word verwendet.
+// die von Microsoft Word verwendete Standardkomprimierung.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;
 

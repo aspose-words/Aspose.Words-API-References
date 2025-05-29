@@ -3,7 +3,7 @@ title: XlsxSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words لـ .NET
-description: XlsxSaveOptions CompressionLevel ملكية. يحدد مستوى الضغط المستخدم لحفظ المستند. القيمة الافتراضية هيNormal  في C#.
+description: اكتشف خاصية CompressionLevel في XlsxSaveOptions لتحسين حفظ المستندات باستخدام إعدادات الضغط القابلة للتخصيص لإدارة الملفات بكفاءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/xlsxsaveoptions/compressionlevel/
@@ -24,7 +24,8 @@ public CompressionLevel CompressionLevel { get; set; }
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
 
 XlsxSaveOptions xlsxSaveOptions = new XlsxSaveOptions();
-xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum; 
+xlsxSaveOptions.CompressionLevel = CompressionLevel.Maximum;
+xlsxSaveOptions.SaveFormat = SaveFormat.Xlsx;
 
 doc.Save(ArtifactsDir + "XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
 ```

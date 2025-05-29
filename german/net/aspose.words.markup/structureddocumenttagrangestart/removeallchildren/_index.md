@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart RemoveAllChildren methode. Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten in C#.
+description: Verwenden Sie die Methode RemoveAllChildren effizient, um Knoten zwischen StructuredDocumentTagRangeStart und -ende zu löschen und so die Dokumentverwaltung zu verbessern.
 type: docs
-weight: 230
+weight: 240
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-Entfernt alle Knoten zwischen diesem Bereichsanfangsknoten und dem Bereichsendknoten.
+Entfernt alle Knoten zwischen diesem Bereichsstartknoten und dem Bereichsendknoten.
 
 ```csharp
 public void RemoveAllChildren()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // Entfernt das strukturierte Dokument-Tag, behält aber den Inhalt bei.
+    // Entfernt den strukturierten Dokumenttag mit Bereich, behält aber den Inhalt bei.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,7 +43,7 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
@@ -55,13 +55,15 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertCheckBox
 linktitle: InsertCheckBox
 articleTitle: InsertCheckBox
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertCheckBox طريقة. إدراج حقل نموذج خانة الاختيار في الموضع الحالي في C#.
+description: يمكنك بسهولة إضافة حقول نموذج مربع الاختيار التفاعلية باستخدام طريقة InsertCheckBox في DocumentBuilder، مما يعزز مشاركة المستخدم في مستنداتك.
 type: docs
 weight: 290
 url: /ar/net/aspose.words/documentbuilder/insertcheckbox/
 ---
 ## InsertCheckBox(*string, bool, int*) {#insertcheckbox_1}
 
-إدراج حقل نموذج خانة الاختيار في الموضع الحالي.
+يقوم بإدراج حقل نموذج مربع الاختيار في الموضع الحالي.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool checkedValue, int size)
@@ -18,9 +18,9 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. سيتم اقتطاع القيمة الأطول من 20 حرفًا. |
-| checkedValue | Boolean | تم التحقق من حالة حقل نموذج خانة الاختيار. |
-| size | Int32 | يحدد حجم مربع الاختيار بالنقاط. حدد 0 لـ MS Word لحساب حجم مربع الاختيار تلقائيًا. |
+| name | String | اسم حقل النموذج. يمكن أن يكون نصًا فارغًا. سيتم حذف أي قيمة أطول من ٢٠ حرفًا. |
+| checkedValue | Boolean | تم التحقق من حالة حقل نموذج مربع الاختيار. |
+| size | Int32 | يُحدِّد حجم مربع الاختيار بالنقاط. حدّد القيمة 0 لـ MS Word لحساب حجم مربع الاختيار تلقائيًا. |
 
 ### قيمة الإرجاع
 
@@ -32,13 +32,13 @@ public FormField InsertCheckBox(string name, bool checkedValue, int size)
 
 ## أمثلة
 
-يوضح كيفية إدراج خانات الاختيار في المستند.
+يوضح كيفية إدراج مربعات الاختيار في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج مربعات اختيار بأحجام مختلفة وحالات التحقق الافتراضية.
+// إدراج مربعات الاختيار ذات الأحجام المختلفة والحالات المحددة الافتراضية.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -47,13 +47,13 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// حقول النموذج لها حد أقصى لطول الاسم يبلغ 20 حرفًا.
+// تحتوي حقول النموذج على حد أقصى لطول الاسم يبلغ 20 حرفًا.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
 Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
 
-// يمكننا التفاعل مع مربعات الاختيار هذه في Microsoft Word بالنقر المزدوج عليها.
+// يمكننا التفاعل مع مربعات الاختيار هذه في Microsoft Word عن طريق النقر المزدوج عليها.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 ```
 
@@ -68,7 +68,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 
 ## InsertCheckBox(*string, bool, bool, int*) {#insertcheckbox}
 
-إدراج حقل نموذج خانة الاختيار في الموضع الحالي.
+يقوم بإدراج حقل نموذج مربع الاختيار في الموضع الحالي.
 
 ```csharp
 public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValue, int size)
@@ -76,10 +76,10 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| name | String | اسم حقل النموذج. يمكن أن تكون سلسلة فارغة. سيتم اقتطاع القيمة الأطول من 20 حرفًا. |
-| defaultValue | Boolean | القيمة الافتراضية لحقل نموذج خانة الاختيار. |
-| checkedValue | Boolean | الحالة الحالية المحددة لحقل نموذج خانة الاختيار. |
-| size | Int32 | يحدد حجم مربع الاختيار بالنقاط. حدد 0 لـ MS Word لحساب حجم مربع الاختيار تلقائيًا. |
+| name | String | اسم حقل النموذج. يمكن أن يكون نصًا فارغًا. سيتم حذف أي قيمة أطول من ٢٠ حرفًا. |
+| defaultValue | Boolean | القيمة الافتراضية لحقل نموذج مربع الاختيار. |
+| checkedValue | Boolean | الحالة الحالية لفحص حقل نموذج مربع الاختيار. |
+| size | Int32 | يُحدِّد حجم مربع الاختيار بالنقاط. حدّد القيمة 0 لـ MS Word لحساب حجم مربع الاختيار تلقائيًا. |
 
 ### قيمة الإرجاع
 
@@ -91,13 +91,13 @@ public FormField InsertCheckBox(string name, bool defaultValue, bool checkedValu
 
 ## أمثلة
 
-يوضح كيفية إدراج خانات الاختيار في المستند.
+يوضح كيفية إدراج مربعات الاختيار في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج مربعات اختيار بأحجام مختلفة وحالات التحقق الافتراضية.
+// إدراج مربعات الاختيار ذات الأحجام المختلفة والحالات المحددة الافتراضية.
 builder.Write("Unchecked check box of a default size: ");
 builder.InsertCheckBox(string.Empty, false, false, 0);
 builder.InsertParagraph();
@@ -106,13 +106,13 @@ builder.Write("Large checked check box: ");
 builder.InsertCheckBox("CheckBox_Default", true, true, 50);
 builder.InsertParagraph();
 
-// حقول النموذج لها حد أقصى لطول الاسم يبلغ 20 حرفًا.
+// تحتوي حقول النموذج على حد أقصى لطول الاسم يبلغ 20 حرفًا.
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
 Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
 
-// يمكننا التفاعل مع مربعات الاختيار هذه في Microsoft Word بالنقر المزدوج عليها.
+// يمكننا التفاعل مع مربعات الاختيار هذه في Microsoft Word عن طريق النقر المزدوج عليها.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
 ```
 

@@ -3,14 +3,14 @@ title: FieldOptions.BarcodeGenerator
 linktitle: BarcodeGenerator
 articleTitle: BarcodeGenerator
 second_title: Aspose.Words لـ .NET
-description: FieldOptions BarcodeGenerator ملكية. الحصول على أو تعيين مولد باركود مخصص في C#.
+description: أنشئ باركودات مخصصة بسهولة مع FieldOptions BarcodeGenerator. حسّن إدارة مخزونك وحسّن عملياتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldoptions/barcodegenerator/
 ---
 ## FieldOptions.BarcodeGenerator property
 
-الحصول على أو تعيين مولد باركود مخصص.
+يحصل على مولد الباركود المخصص أو يعينه.
 
 ```csharp
 public IBarcodeGenerator BarcodeGenerator { get; set; }
@@ -18,7 +18,7 @@ public IBarcodeGenerator BarcodeGenerator { get; set; }
 
 ## ملاحظات
 
-يجب أن يقوم منشئ الباركود المخصص بتنفيذ الواجهة العامة[`IBarcodeGenerator`](../../ibarcodegenerator/) .
+يجب أن ينفذ منشئ الباركود المخصص واجهة عامة[`IBarcodeGenerator`](../../ibarcodegenerator/) .
 
 ## أمثلة
 
@@ -27,12 +27,12 @@ public IBarcodeGenerator BarcodeGenerator { get; set; }
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// يمكننا استخدام تطبيق IBarcodeGenerator مخصص لإنشاء الرموز الشريطية،
-// ثم قم بإدراجها في المستند كصور.
+// يمكننا استخدام تنفيذ IBarcodeGenerator مخصص لتوليد الرموز الشريطية،
+//ثم قم بإدراجها في المستند كصور.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// فيما يلي أربعة أمثلة لأنواع مختلفة من الباركود التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
-// لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
+// فيما يلي أربعة أمثلة لأنواع مختلفة من الرموز الشريطية التي يمكننا إنشاؤها باستخدام المولد الخاص بنا.
+// بالنسبة لكل رمز شريطي، نحدد مجموعة جديدة من معلمات الرمز الشريطي، ثم نقوم بإنشاء الصورة.
 // بعد ذلك، يمكننا إدراج الصورة في المستند، أو حفظها في نظام الملفات المحلي.
 // 1 - رمز الاستجابة السريعة:
 BarcodeParameters barcodeParameters = new BarcodeParameters
@@ -48,11 +48,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - الرمز الشريطي EAN13:
+// 2 - رمز الباركود EAN13:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -63,7 +69,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - الرمز الشريطي CODE39:
@@ -75,10 +88,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - الباركود ITF14:
+// 4 - رمز الباركود ITF14:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -87,7 +107,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

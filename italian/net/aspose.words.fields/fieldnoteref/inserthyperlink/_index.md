@@ -3,14 +3,14 @@ title: FieldNoteRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words per .NET
-description: FieldNoteRef InsertHyperlink proprietà. Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo con segnalibro in C#.
+description: Scopri la proprietà InsertHyperlink di FieldNoteRef e gestisci facilmente l'inserimento di collegamenti ipertestuali nei paragrafi con segnalibro per migliorare l'interattività del tuo documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldnoteref/inserthyperlink/
 ---
 ## FieldNoteRef.InsertHyperlink property
 
-Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo con segnalibro.
+Ottiene o imposta se inserire un collegamento ipertestuale al paragrafo aggiunto ai segnalibri.
 
 ```csharp
 public bool InsertHyperlink { get; set; }
@@ -18,7 +18,7 @@ public bool InsertHyperlink { get; set; }
 
 ## Esempi
 
-Mostra per inserire campi NOTEREF e modificarne l'aspetto.
+Mostra come inserire campi NOTEREF e modificarne l'aspetto.
 
 ```csharp
 public void FieldNoteRef()
@@ -29,18 +29,18 @@ public void FieldNoteRef()
     // Crea un segnalibro con una nota a piè di pagina a cui farà riferimento il campo NOTEREF.
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // Questo campo NOTEREF visualizzerà il numero della nota a piè di pagina all'interno del segnalibro di riferimento.
-    // L'impostazione della proprietà InsertHyperlink ci consente di passare al segnalibro facendo Ctrl + facendo clic sul campo in Microsoft Word.
+    // Questo campo NOTEREF visualizzerà il numero della nota a piè di pagina all'interno del segnalibro a cui si fa riferimento.
+    // Impostando la proprietà InsertHyperlink possiamo passare al segnalibro premendo Ctrl + clic sul campo in Microsoft Word.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // Quando si utilizza il flag \p, dopo il numero della nota a piè di pagina, il campo visualizza anche la posizione del segnalibro rispetto al campo.
-    // Bookmark1 si trova sopra questo campo e contiene la nota a piè di pagina numero 1, quindi il risultato sarà "1 sopra" durante l'aggiornamento.
+    // Quando si utilizza il flag \p, dopo il numero della nota a piè di pagina, il campo visualizza anche la posizione del segnalibro rispetto al campo stesso.
+    // Bookmark1 si trova sopra questo campo e contiene la nota a piè di pagina numero 1, quindi il risultato sarà "1 sopra" in caso di aggiornamento.
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
     // Bookmark2 si trova sotto questo campo e contiene la nota a piè di pagina numero 2, quindi il campo visualizzerà "2 sotto".
-    // Il flag \f fa apparire il numero 2 nello stesso formato dell'etichetta del numero della nota a piè di pagina nel testo effettivo.
+    // Il flag \f fa sì che il numero 2 venga visualizzato nello stesso formato dell'etichetta del numero della nota a piè di pagina nel testo effettivo.
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 

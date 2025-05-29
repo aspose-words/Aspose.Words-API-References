@@ -3,7 +3,7 @@ title: TabStop.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words per .NET
-description: TabStop GetHashCode metodo. Calcola il codice hash per questo oggetto in C#.
+description: Scopri come il metodo GetHashCode di TabStop genera in modo efficiente codici hash univoci per i tuoi oggetti, migliorando il recupero dei dati e le prestazioni.
 type: docs
 weight: 70
 url: /it/net/aspose.words/tabstop/gethashcode/

@@ -3,7 +3,7 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: Table NodeType propriété. RetoursTable  en C#.
+description: Découvrez la propriété Table NodeType qui renvoie efficacement les données de la table, améliorant ainsi la gestion et l'organisation de vos données pour une intégration transparente.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.tables/table/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exemples
 
-Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
+Montre comment parcourir l'arbre des nœuds enfants d'un nœud composite.
 
 ```csharp
 public void RecurseChildren()
@@ -28,13 +28,13 @@ public void RecurseChildren()
     // Tout nœud pouvant contenir des nœuds enfants, comme le document lui-même, est composite.
     Assert.True(doc.IsComposite);
 
-    // Invoque la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
+    // Invoquez la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
-/// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
+/// avec un retrait dépendant de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Effectuer une récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, afficher son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -71,11 +71,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Déterminez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Détermine si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
+        // Déterminez si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -90,7 +90,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcule à quel niveau une table est imbriquée dans d'autres tables.
 /// </summary>
 /// <returns>
-/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de la table parent).
+/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de table parent).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -108,7 +108,7 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
+/// Ne parcourez pas récursivement ces tables pour vérifier d'autres tables.
 /// </summary>
 /// <returns>
 /// Renvoie vrai si au moins une cellule enfant contient un tableau.
@@ -118,9 +118,9 @@ private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

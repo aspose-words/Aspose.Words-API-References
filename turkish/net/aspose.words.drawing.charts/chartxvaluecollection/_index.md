@@ -2,15 +2,15 @@
 title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection sınıf. Bir grafik serisi için X değerlerinden oluşan bir koleksiyonu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik serilerindeki X değer koleksiyonlarını etkili bir şekilde yönetmek için çözümünüz olan Aspose.Words.Drawing.Charts.ChartXValueCollection sınıfını keşfedin.
 type: docs
-weight: 850
+weight: 1170
 url: /tr/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
 
-Bir grafik serisi için X değerlerinden oluşan bir koleksiyonu temsil eder.
+Bir grafik serisi için X değerlerinin bir koleksiyonunu temsil eder.
 
 ```csharp
 public class ChartXValueCollection : IEnumerable<ChartXValue>
@@ -21,19 +21,20 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Bu koleksiyondaki öğelerin sayısını alır. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | X değerlerine uygulanan biçim kodunu alır veya ayarlar. |
 | [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Belirtilen dizindeki X değerini alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Notlar
 
-Koleksiyonun dışındaki tüm öğeleri**hükümsüz** aynısı olmalı[`ValueType`](../chartxvalue/valuetype/).
+Koleksiyondaki tüm öğeler hariç**hükümsüz** aynı olmalı[`ValueType`](../chartxvalue/valuetype/).
 
-Koleksiyon yalnızca X değerlerinin değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya değerleri kaldırmak için uygun yöntemleri kullanın.[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
+Koleksiyon yalnızca X değerlerini değiştirmeye izin verir. Bir grafik serisine yeni değerler eklemek veya eklemek ya da değerleri kaldırmak için, uygun yöntemler[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
 ## Örnekler
 
@@ -55,7 +56,7 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Tüm veri noktalarının bireysel formatını temizle.
-    // Sütun grafiklerinde veri noktaları ve veri değerleri bire birdir.
+    // Sütun grafiklerde veri noktaları ve veri değerleri birebirdir.
     series.DataPoints[i].ClearFormat();
 
     // Y değerini al.
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Maksimum ve minimum değerlerin renklerini değiştirin.
+// Maksimum ve minimum değerlerin renklerini değiştir.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

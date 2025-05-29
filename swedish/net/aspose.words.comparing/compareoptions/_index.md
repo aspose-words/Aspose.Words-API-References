@@ -3,14 +3,14 @@ title: CompareOptions Class
 linktitle: CompareOptions
 articleTitle: CompareOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Comparing.CompareOptions klass. Gör det möjligt att välja avancerade alternativ för dokumentjämförelse i C#.
+description: Upptäck klassen Aspose.Words.CompareOptions för avancerad dokumentjämförelse. Anpassa dina jämförelseinställningar för exakta resultat och förbättrad produktivitet.
 type: docs
-weight: 270
+weight: 470
 url: /sv/net/aspose.words.comparing/compareoptions/
 ---
 ## CompareOptions class
 
-Gör det möjligt att välja avancerade alternativ för dokumentjämförelse.
+Gör det möjligt att välja ytterligare alternativ för dokumentjämförelse.
 
 För att lära dig mer, besök[Jämför dokument](https://docs.aspose.com/words/net/compare-documents/) dokumentationsartikel.
 
@@ -28,25 +28,25 @@ public class CompareOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Anger om skillnader iMoveRevision mellan de två dokumenten. Som standard produceras inga flyttversioner. |
-| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Anger om ändringar spåras med tecken eller ord. Standardvärdet ärWordLevel . |
-| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indikerar att dokumentjämförelse är skiftlägesokänslig. Som standard är jämförelse skiftlägeskänslig. |
-| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Anger om skillnader i kommentarer ska jämföras. Som standard ignoreras inte kommentarer. |
-| [IgnoreDmlUniqueId](../../aspose.words.comparing/compareoptions/ignoredmluniqueid/) { get; set; } | Anger om skillnaden i DrawingML unika Id. ska ignoreras. Standardvärdet är`falsk` . |
-| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Anger om skillnader i fält ska jämföras. Som standard ignoreras inte fält. |
-| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Anger om skillnader i fotnoter och slutnoter ska jämföras. Som standard ignoreras inte fotnoter. |
-| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indikerar att formatering ignoreras. Som standard ignoreras inte dokumentformatering. |
-| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True indikerar att innehållet i sidhuvuden och sidfötter ignoreras. Som standard ignoreras inte sidhuvuden och sidfötter. |
-| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Anger om skillnaderna i data i tabeller ska jämföras. Som standard ignoreras inte tabeller. |
-| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Anger om skillnader i data i textrutor ska jämföras. Som standard ignoreras inte textrutor. |
+| [AdvancedOptions](../../aspose.words.comparing/compareoptions/advancedoptions/) { get; } | Anger avancerade jämförelsealternativ som kan bidra till att producera mer exakt jämförelseutdata. |
+| [CompareMoves](../../aspose.words.comparing/compareoptions/comparemoves/) { get; set; } | Anger om skillnader mellan de två dokumenten ska jämföras. |
+| [Granularity](../../aspose.words.comparing/compareoptions/granularity/) { get; set; } | Anger om ändringar spåras per tecken eller per ord. |
+| [IgnoreCaseChanges](../../aspose.words.comparing/compareoptions/ignorecasechanges/) { get; set; } | True indikerar att dokumentjämförelsen är okänslig för versaler och gemener. |
+| [IgnoreComments](../../aspose.words.comparing/compareoptions/ignorecomments/) { get; set; } | Anger om skillnader i kommentarer ska jämföras. |
+| [IgnoreFields](../../aspose.words.comparing/compareoptions/ignorefields/) { get; set; } | Anger om skillnader i fält ska jämföras. |
+| [IgnoreFootnotes](../../aspose.words.comparing/compareoptions/ignorefootnotes/) { get; set; } | Anger om skillnader i fotnoter och slutnoter ska jämföras. |
+| [IgnoreFormatting](../../aspose.words.comparing/compareoptions/ignoreformatting/) { get; set; } | True indikerar att formatering ignoreras. |
+| [IgnoreHeadersAndFooters](../../aspose.words.comparing/compareoptions/ignoreheadersandfooters/) { get; set; } | True anger att innehållet i sidhuvuden och sidfoten ignoreras. |
+| [IgnoreTables](../../aspose.words.comparing/compareoptions/ignoretables/) { get; set; } | Anger om skillnaderna i data i tabeller ska jämföras. |
+| [IgnoreTextboxes](../../aspose.words.comparing/compareoptions/ignoretextboxes/) { get; set; } | Anger om skillnader i data i textrutor ska jämföras. |
 | [Target](../../aspose.words.comparing/compareoptions/target/) { get; set; } | Anger vilket dokument som ska användas som mål vid jämförelse. |
 
 ## Exempel
 
-Visar hur man filtrerar specifika typer av dokumentelement när man gör en jämförelse.
+Visar hur man filtrerar specifika typer av dokumentelement vid en jämförelse.
 
 ```csharp
-// Skapa originaldokumentet och fyll i det med olika typer av element.
+// Skapa originaldokumentet och fyll det med olika typer av element.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -67,7 +67,7 @@ Shape textBox = builder.InsertShape(ShapeType.TextBox, 150, 20);
 builder.MoveTo(textBox.FirstParagraph);
 builder.Write("Original textbox contents");
 
-// DATUMfält:
+// DATUM-fält:
 builder.MoveTo(docOriginal.FirstSection.Body.AppendParagraph(""));
 builder.InsertField(" DATE ");
 
@@ -76,11 +76,11 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Header:
+// Rubrik:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
-// Skapa en klon av vårt dokument och utför en snabb redigering av vart och ett av det klonade dokumentets element.
+// Skapa en klon av vårt dokument och utför en snabb redigering på vart och ett av det klonade dokumentets element.
 Document docEdited = (Document)docOriginal.Clone(true);
 Paragraph firstParagraph = docEdited.FirstSection.Body.FirstParagraph;
 
@@ -89,27 +89,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
 // Att jämföra dokument skapar en revision för varje redigering i det redigerade dokumentet.
 // Ett CompareOptions-objekt har en serie flaggor som kan undertrycka revisioner
-// på varje respektive typ av element, i praktiken ignorerar deras förändring.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// på varje respektive typ av element, vilket effektivt ignorerar deras förändring.
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### Se även

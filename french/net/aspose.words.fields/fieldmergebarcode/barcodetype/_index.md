@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
 second_title: Aspose.Words pour .NET
-description: FieldMergeBarcode BarcodeType propriété. Obtient ou définit le type de codebarres QR etc en C#.
+description: Découvrez la propriété FieldMergeBarcode BarcodeType pour gérer et personnaliser facilement différents types de codes-barres comme QR pour une meilleure intégration des données.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -24,8 +24,8 @@ Montre comment effectuer un publipostage sur des codes-barres ITF14.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyITF14Barcode" d'une source de données de fusion en codes-barres ITF14.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyITF14Barcode » d'une source de données de fusion en codes-barres ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,8 +34,8 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres ITF14 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
@@ -60,21 +60,21 @@ Montre comment effectuer un publipostage sur les codes-barres CODE39.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyCODE39Barcode" d'une source de données de fusion en codes-barres CODE39.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyCODE39Barcode » d'une source de données de fusion en codes-barres CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Modifie son apparence pour afficher les caractères de démarrage/arrêt.
+// Modifiez son apparence pour afficher les caractères de début/fin.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres CODE39 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");
@@ -99,8 +99,8 @@ Montre comment effectuer un publipostage sur des codes-barres EAN13.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyEAN13Barcode" d'une source de données de fusion en codes-barres EAN13.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyEAN13Barcode » d'une source de données de fusion en codes-barres EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -114,8 +114,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code-barres EAN13 avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
@@ -140,13 +140,13 @@ Montre comment effectuer un publipostage sur des codes-barres QR.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
-// Ce champ convertira toutes les valeurs de la colonne "MyQRCode" d'une source de données de fusion en codes QR.
+// Insérez un champ MERGEBARCODE, qui acceptera les valeurs d'une source de données lors d'un publipostage.
+// Ce champ convertira toutes les valeurs de la colonne « MyQRCode » d'une source de données de fusion en codes QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Applique des couleurs et une mise à l'échelle personnalisées.
+// Appliquer des couleurs et une mise à l'échelle personnalisées.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -159,8 +159,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Créez un DataTable avec une colonne portant le même nom que la BarcodeValue de notre champ MERGEBARCODE.
-// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE,
+// Créez un DataTable avec une colonne portant le même nom que BarcodeValue de notre champ MERGEBARCODE.
+// Le publipostage créera une nouvelle page pour chaque ligne. Chaque page contiendra un champ DISPLAYBARCODE.
 // qui affichera un code QR avec la valeur de la ligne fusionnée.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

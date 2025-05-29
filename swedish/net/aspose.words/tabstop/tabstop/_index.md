@@ -3,7 +3,7 @@ title: TabStop
 linktitle: TabStop
 articleTitle: TabStop
 second_title: Aspose.Words för .NET
-description: TabStop byggare. Initierar en ny instans av den här klassen i C#.
+description: Upptäck TabStop-konstruktorn, skapa och anpassa enkelt instanser för förbättrad funktionalitet i dina projekt. Öka din kodningseffektivitet idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tabstop/tabstop/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -45,7 +45,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
@@ -76,8 +76,8 @@ public TabStop(double position, TabAlignment alignment, TabLeader leader)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | position | Double | Tabbstoppets position i punkter. |
-| alignment | TabAlignment | A[`TabAlignment`](../../tabalignment/) värde that anger justeringen av text vid detta tabbstopp. |
-| leader | TabLeader | A[`TabLeader`](../../tableader/) värde som anger typen av ledarraden som visas under tabbtecknet. |
+| alignment | TabAlignment | En[`TabAlignment`](../../tabalignment/) värdet that anger justeringen av texten vid denna tabbstopp. |
+| leader | TabLeader | En[`TabLeader`](../../tableader/) värde som anger typen av hänvisningslinje som visas under tabbtecknet. |
 
 ## Exempel
 
@@ -89,7 +89,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -108,7 +108,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

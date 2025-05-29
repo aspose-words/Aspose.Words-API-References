@@ -3,9 +3,9 @@ title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.GeneralFormatCollection classe. Rappresenta una raccolta tipizzata di formati generali in C#.
+description: Scopri la classe Aspose.Words.Fields.GeneralFormatCollection: una potente raccolta tipizzata per gestire senza sforzo i formati generali nei tuoi documenti.
 type: docs
-weight: 2650
+weight: 3060
 url: /it/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
@@ -32,7 +32,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 | [Add](../../aspose.words.fields/generalformatcollection/add/)(*[GeneralFormat](../generalformat/)*) | Aggiunge un formato generale alla raccolta. |
 | [GetEnumerator](../../aspose.words.fields/generalformatcollection/getenumerator/)() | Restituisce un oggetto enumeratore. |
 | [Remove](../../aspose.words.fields/generalformatcollection/remove/)(*[GeneralFormat](../generalformat/)*) | Rimuove tutte le occorrenze del formato generale specificato dalla raccolta. |
-| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Rimuove un'occorrenza di formato generale nell'indice specificato. |
+| [RemoveAt](../../aspose.words.fields/generalformatcollection/removeat/)(*int*) | Rimuove un'occorrenza di formato generale all'indice specificato. |
 
 ## Esempi
 
@@ -42,7 +42,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -84,7 +84,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

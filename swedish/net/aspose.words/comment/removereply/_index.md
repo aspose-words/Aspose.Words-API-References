@@ -3,14 +3,14 @@ title: Comment.RemoveReply
 linktitle: RemoveReply
 articleTitle: RemoveReply
 second_title: Aspose.Words för .NET
-description: Comment RemoveReply metod. Tar bort det angivna svaret på denna kommentar i C#.
+description: Ta enkelt bort oönskade svar med metoden Kommentar Ta bortSvara, vilket säkerställer att dina diskussioner förblir tydliga och relevanta. Förbättra din kommentarhantering idag!
 type: docs
-weight: 140
+weight: 180
 url: /sv/net/aspose.words/comment/removereply/
 ---
 ## Comment.RemoveReply method
 
-Tar bort det angivna svaret på denna kommentar.
+Tar bort det angivna svaret på den här kommentaren.
 
 ```csharp
 public void RemoveReply(Comment reply)
@@ -18,7 +18,7 @@ public void RemoveReply(Comment reply)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| reply | Comment | Kommentarnoden för det raderande svaret. |
+| reply | Comment | Kommentarnoden för det borttagande svaret. |
 
 ## Anmärkningar
 
@@ -26,7 +26,7 @@ Alla ingående noder i svaret kommer att raderas från dokumentet.
 
 ## Exempel
 
-Visar hur man tar bort kommentarsvar.
+Visar hur man tar bort svar på kommentarer.
 
 ```csharp
 Document doc = new Document();
@@ -39,18 +39,18 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "Another reply");
 
-Assert.AreEqual(2, comment.Replies.Count()); 
+Assert.AreEqual(2, comment.Replies.Count); 
 
-// Nedan finns två sätt att ta bort svar från en kommentar.
+// Nedan följer två sätt att ta bort svar från en kommentar.
 // 1 - Använd metoden "RemoveReply" för att ta bort svar från en kommentar individuellt:
 comment.RemoveReply(comment.Replies[0]);
 
-Assert.AreEqual(1, comment.Replies.Count());
+Assert.AreEqual(1, comment.Replies.Count);
 
-// 2 - Använd metoden "RemoveAllReplies" för att ta bort alla svar från en kommentar på en gång:
+// 2 - Använd metoden "RemoveAllReplies" för att ta bort alla svar från en kommentar samtidigt:
 comment.RemoveAllReplies();
 
-Assert.AreEqual(0, comment.Replies.Count());
+Assert.AreEqual(0, comment.Replies.Count);
 ```
 
 ### Se även

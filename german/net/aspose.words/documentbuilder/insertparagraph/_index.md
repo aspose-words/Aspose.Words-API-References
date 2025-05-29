@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertParagraph methode. Fügt einen Absatzumbruch in das Dokument ein in C#.
+description: Verbessern Sie Ihre Dokumente mühelos mit der InsertParagraph-Methode von DocumentBuilder, die nahtlose Absatzumbrüche für eine bessere Lesbarkeit ermöglicht.
 type: docs
-weight: 420
+weight: 450
 url: /de/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
@@ -18,15 +18,15 @@ public Paragraph InsertParagraph()
 
 ### Rückgabewert
 
-Der gerade eingefügte Absatzknoten. Es ist derselbe Knoten wie[`CurrentParagraph`](../currentparagraph/).
+Der Absatzknoten, der gerade eingefügt wurde. Es handelt sich um denselben Knoten wie[`CurrentParagraph`](../currentparagraph/).
 
 ## Bemerkungen
 
-Aktuelle Absatzformatierung, die durch angegeben wird[`ParagraphFormat`](../paragraphformat/) Eigentum genutzt wird.
+Aktuelle Absatzformatierung, festgelegt durch[`ParagraphFormat`](../paragraphformat/) Eigenschaft verwendet wird.
 
-Teilt den aktuellen Absatz in zwei Teile. Nach dem Einfügen des Absatzes wird der Cursor am Anfang des neuen Absatzes platziert.
+Teilt den aktuellen Absatz in zwei Teile. Nach dem Einfügen des Absatzes wird der Cursor an den Anfang des neuen Absatzes gesetzt.
 
-Wenn es nicht möglich ist, an der aktuellen Cursorposition einen Absatzumbruch einzufügen, wird eine Ausnahme ausgelöst.
+Eine Ausnahme wird ausgelöst, wenn es nicht möglich ist, an der aktuellen Cursorposition einen Absatzumbruch einzufügen.
 
 ## Beispiele
 
@@ -50,7 +50,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
+// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

@@ -3,9 +3,9 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words per .NET
-description: ShapeBase Rotation proprietà. Definisce langolo in gradi di rotazione di una forma. Il valore positivo corrisponde allangolo di rotazione in senso orario in C#.
+description: Scopri la proprietà Rotazione ShapeBase, definisci e personalizza facilmente gli angoli di rotazione delle tue forme, migliorando la precisione e la creatività del tuo design.
 type: docs
-weight: 470
+weight: 500
 url: /it/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci una forma con un'immagine.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

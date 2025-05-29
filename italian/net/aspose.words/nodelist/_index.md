@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words per .NET
-description: Aspose.Words.NodeList classe. Rappresenta una raccolta di nodi che corrispondono a una query XPath eseguita utilizzando ilSelectNodes metodo in C#.
+description: Esplora la classe Aspose.Words.NodeList, la soluzione ideale per gestire in modo efficiente i risultati delle query XPath e migliorare le capacità di elaborazione dei documenti.
 type: docs
-weight: 4220
+weight: 4910
 url: /it/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-Rappresenta una raccolta di nodi che corrispondono a una query XPath eseguita utilizzando il[`SelectNodes`](../compositenode/selectnodes/) metodo.
+Rappresenta una raccolta di nodi corrispondenti a una query XPath eseguita utilizzando[`SelectNodes`](../compositenode/selectnodes/) metodo.
 
-Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
+Per saperne di più, visita il[Modello a oggetti del documento (DOM) di Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -29,20 +29,20 @@ public class NodeList : IEnumerable<Node>
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fornisce una semplice iterazione in stile "foreach" sulla raccolta di nodi. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Copia tutti i nodi dalla raccolta in un nuovo array di nodi. |
 
 ## Osservazioni
 
-`NodeList` viene restituito da[`SelectNodes`](../compositenode/selectnodes/) e contiene una raccolta di nodi che corrispondono alla query XPath.
+`NodeList` viene restituito da[`SelectNodes`](../compositenode/selectnodes/) e contiene una raccolta di nodi corrispondenti alla query XPath.
 
 `NodeList` supporta l'accesso indicizzato e l'iterazione.
 
-Trattare il`NodeList` raccolta come raccolta "istantanea".`NodeList`inizia come raccolta "live" perché i nodi non vengono effettivamente recuperati quando viene eseguita la query XPath. I nodi vengono recuperati solo al momento dell'accesso e in questo momento il nodo e tutti i nodi che lo precedono vengono memorizzati nella cache formando una raccolta "istantanea".
+Trattare il`NodeList` raccolta come raccolta "istantanea".`NodeList` inizia come una raccolta "live" perché i nodi non vengono effettivamente recuperati quando viene eseguita la query XPath. I nodi vengono recuperati solo al momento dell'accesso e in questo momento il nodo e tutti i nodi che lo precedono vengono memorizzati nella cache formando una raccolta "snapshot".
 
 ## Esempi
 
-Mostra come trovare tutti i collegamenti ipertestuali in un documento di Word e quindi modificarne gli URL e i nomi visualizzati.
+Mostra come trovare tutti i collegamenti ipertestuali in un documento Word e quindi modificarne gli URL e i nomi visualizzati.
 
 ```csharp
 using System;
@@ -61,9 +61,9 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // I collegamenti ipertestuali nei documenti Word sono campi. Per iniziare a cercare i collegamenti ipertestuali, dobbiamo prima trovare tutti i campi.
-            // Utilizza il metodo "SelectNodes" per trovare tutti i campi nel documento tramite un XPath.
-            NodeList fieldStarts = doc.SelectNodes("//Inizio campo");
+            // I collegamenti ipertestuali in un documento Word sono campi. Per iniziare a cercare i collegamenti ipertestuali, dobbiamo prima trovare tutti i campi.
+            // Utilizzare il metodo "SelectNodes" per trovare tutti i campi nel documento tramite un XPath.
+            NodeList fieldStarts = doc.SelectNodes("//InizioCampo");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
             {
@@ -71,11 +71,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // I collegamenti ipertestuali che si collegano ai segnalibri non hanno URL.
+                    // I collegamenti ipertestuali che rimandano ai segnalibri non hanno URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Assegna a ogni collegamento ipertestuale URL un nuovo URL e nome.
+                    // Assegna a ciascun collegamento URL un nuovo URL e un nuovo nome.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -89,7 +89,7 @@ namespace ApiExamples
     }
 
      ///<summary>
-      ///I campi HYPERLINK contengono e visualizzano i collegamenti ipertestuali nel corpo del documento. Un campo in Aspose.Words
+      ///I campi HYPERLINK contengono e visualizzano collegamenti ipertestuali nel corpo del documento. Un campo in Aspose.Words
       ///è costituito da diversi nodi e potrebbe essere difficile lavorare direttamente con tutti questi nodi.
      ///Questa implementazione funzionerà solo se il codice e il nome del collegamento ipertestuale sono costituiti ciascuno da un solo nodo Esegui.
     ///
@@ -119,10 +119,10 @@ namespace ApiExamples
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalmente possiamo sempre trovare il nodo finale del campo, ma il documento di esempio
+             // Normalmente, possiamo sempre trovare il nodo finale del campo, ma il documento di esempio
              // contiene un'interruzione di paragrafo all'interno di un collegamento ipertestuale, che pone la fine del campo
-            // nel paragrafo successivo. Sarà molto più complicato gestire campi che si estendono su più campi
-            // paragrafi correttamente. In questo caso è sufficiente consentire che la fine del campo sia nulla.
+             // nel prossimo paragrafo. Sarà molto più complicato gestire campi che si estendono su più
+            // paragrafi correttamente. In questo caso, è sufficiente lasciare che la fine del campo sia null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
             // Il codice del campo assomiglia a "HYPERLINK "http:\\www.myurl.com"", ma può essere costituito da più esecuzioni.
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Il nome visualizzato del collegamento ipertestuale viene archiviato nel campo risultato, che è Run
+                 // Il nome visualizzato del collegamento ipertestuale è memorizzato nel risultato del campo, che è un'esecuzione
                 // nodo tra il separatore di campo e la fine del campo.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Se il risultato del campo è costituito da più di un'esecuzione, eliminare queste esecuzioni.
+                // Se il risultato del campo è costituito da più di un'esecuzione, eliminare tali esecuzioni.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -242,10 +251,10 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Uno o più non spazi HYPERLINK o altra parola in altre lingue.
+            "\\S+" + // Uno o più collegamenti ipertestuali senza spazi o altre parole in altre lingue.
             "\\s+" + // Uno o più spazi.
-            "(?:\"\"\\s+)?" + // Opzionale "" che non cattura e uno o più spazi.
-            "(\\\\l\\s+)?" + // Flag facoltativo \l seguito da uno o più spazi.
+            "(?:\"\"\\s+)?" + // "" facoltativo non catturante e uno o più spazi.
+            "(\\\\l\\s+)?" + // Flag \l facoltativo seguito da uno o più spazi.
             "\"" +  // Un apostrofo.
             "([^\"]+)" + // Uno o più caratteri, escluso l'apostrofo (destinazione del collegamento ipertestuale).
             "\"" // Un apostrofo di chiusura.

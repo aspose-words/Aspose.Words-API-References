@@ -3,7 +3,7 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words pour .NET
-description: Story FirstParagraph propriété. Obtient le premier paragraphe de lhistoire en C#.
+description: Découvrez la propriété Story FirstParagraph pour extraire facilement le premier paragraphe de n'importe quelle histoire, améliorant ainsi votre contenu et l'engagement des utilisateurs.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/story/firstparagraph/
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Exemples
 
-Montre comment formater une séquence de texte à l’aide de sa propriété font.
+Montre comment formater une série de texte à l'aide de sa propriété de police.
 
 ```csharp
 Document doc = new Document();
@@ -38,13 +38,13 @@ Montre comment créer et formater une zone de texte.
 ```csharp
 Document doc = new Document();
 
-// Crée une zone de texte flottante.
+// Créer une zone de texte flottante.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Définit l'alignement horizontal et vertical du texte à l'intérieur de la forme.
+// Définissez l'alignement horizontal et vertical du texte à l'intérieur de la forme.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

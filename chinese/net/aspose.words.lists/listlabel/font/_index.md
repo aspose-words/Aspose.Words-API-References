@@ -2,8 +2,8 @@
 title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
-second_title: 用于 .NET 的 Aspose.Words
-description: ListLabel Font 财产. 获取列表标签字体 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ListLabel Font 属性来自定义列表标签的字体样式并增强您的设计以获得专业感。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listlabel/font/

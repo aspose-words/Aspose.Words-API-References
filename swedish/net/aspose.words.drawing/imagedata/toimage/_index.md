@@ -3,14 +3,14 @@ title: ImageData.ToImage
 linktitle: ToImage
 articleTitle: ToImage
 second_title: Aspose.Words för .NET
-description: ImageData ToImage metod. Får bilden lagrad i formen som enImage objekt i C#.
+description: Lås upp kraften i ToImage-metoden i ImageData för att enkelt hämta bilder lagrade i former som bildobjekt. Förbättra dina projekt utan ansträngning!
 type: docs
-weight: 220
+weight: 230
 url: /sv/net/aspose.words.drawing/imagedata/toimage/
 ---
 ## ImageData.ToImage method
 
-Får bilden lagrad i formen som enImage objekt.
+Hämtar bilden lagrad i formen som enImage objekt.
 
 ```csharp
 public Image ToImage()
@@ -18,9 +18,9 @@ public Image ToImage()
 
 ## Anmärkningar
 
-En nyImage objekt skapas varje gång denna metod anropas.
+En nyImage objektet skapas varje gång den här metoden anropas.
 
-Det är uppringarens ansvar att kassera bildobjektet.
+Det är uppringarens ansvar att göra sig av med bildobjektet.
 
 ## Exempel
 
@@ -30,25 +30,15 @@ Visar hur man sparar alla bilder från ett dokument till filsystemet.
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
 // Former med flaggan "HasImage" lagrar och visar alla dokumentets bilder.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
 // Gå igenom varje form och spara dess bild.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 

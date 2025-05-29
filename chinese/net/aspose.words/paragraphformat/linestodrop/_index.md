@@ -2,15 +2,15 @@
 title: ParagraphFormat.LinesToDrop
 linktitle: LinesToDrop
 articleTitle: LinesToDrop
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat LinesToDrop 财产. 获取或设置用于计算首字下沉高度的段落文本的行数 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ParagraphFormat LinesToDrop 属性如何增强文档中的首字下沉高度。优化您的文本布局，打造惊艳视觉效果！
 type: docs
 weight: 210
 url: /zh/net/aspose.words/paragraphformat/linestodrop/
 ---
 ## ParagraphFormat.LinesToDrop property
 
-获取或设置用于计算首字下沉高度的段落文本的行数。
+获取或设置用于计算首字下沉高度的段落文本行数。
 
 ```csharp
 public int LinesToDrop { get; set; }
@@ -18,20 +18,20 @@ public int LinesToDrop { get; set; }
 
 ## 例子
 
-演示如何设置首字下沉的大小。
+展示如何设置首字下沉的大小。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 修改“LinesToDrop”属性以将段落指定为首字下沉，
-// 这会将其变成一个大写字母来装饰下一段。
-// 将此属性的值指定为 4，以使首字下沉的高度为四个文本行。
+// 这会将其变成一个大写字母，用于装饰下一段。
+// 赋予此属性值 4，使首字下沉具有四行文本的高度。
 builder.ParagraphFormat.LinesToDrop = 4;
 builder.Writeln("H");
 
-// 将“LinesToDrop”属性重置为0，将下一个段落变成普通段落。
-// 本段中的文本将环绕首字下沉。
+// 将“LinesToDrop”属性重置为 0，以将下一个段落变成普通段落。
+// 本段文字将环绕首字下沉。
 builder.ParagraphFormat.LinesToDrop = 0;
 builder.Writeln("ello world!");
 

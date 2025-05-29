@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.StringFormat
 linktitle: StringFormat
 articleTitle: StringFormat
 second_title: Aspose.Words لـ .NET
-description: GraphicsQualityOptions StringFormat ملكية. الحصول على معلومات تخطيط النص أو تعيينها مثل المحاذاة والاتجاه وعلامات الجدولة ومعالجات العرض مثل إدراج علامات الحذف واستبدال الأرقام الوطنية وميزات OpenType في C#.
+description: اكتشف خاصية GraphicsQualityOptions StringFormat للتحكم المحسّن في تخطيط النص، بما في ذلك ميزات المحاذاة والحذف وOpenType لعرض أفضل.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/stringformat/
 ---
 ## GraphicsQualityOptions.StringFormat property
 
-الحصول على معلومات تخطيط النص أو تعيينها (مثل المحاذاة والاتجاه وعلامات الجدولة) ومعالجات العرض (مثل إدراج علامات الحذف واستبدال الأرقام الوطنية) وميزات OpenType.
+يحصل على معلومات تخطيط النص (مثل المحاذاة والتوجيه وعلامات التبويب) أو يعينها، وعمليات معالجة العرض (مثل إدراج النقاط الثلاث واستبدال الأرقام الوطنية) وميزات OpenType.
 
 ```csharp
 public StringFormat StringFormat { get; set; }

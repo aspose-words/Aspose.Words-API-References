@@ -3,9 +3,9 @@ title: DashStyle Enum
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.DashStyle перечисление. Стиль пунктирной линии на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.DashStyle для универсальных стилей пунктирных линий. Улучшите дизайн своих документов с помощью настраиваемых визуальных элементов.
 type: docs
-weight: 930
+weight: 1250
 url: /ru/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -26,23 +26,23 @@ public enum DashStyle
 | ShortDashDot | `3` | Стиль системного тире. |
 | ShortDashDotDot | `4` | Стиль системного тире. |
 | Dot | `5` | Стиль квадратной точки. |
-| Dash | `6` | Стиль штриха. |
+| Dash | `6` | Стиль тире. |
 | LongDash | `7` | Стиль длинного тире. |
-| DashDot | `8` | Тире, короткое тире. |
-| LongDashDot | `9` | Длинное тире, короткое тире. |
-| LongDashDotDot | `10` | Длинное тире, короткое тире, короткое тире. |
+| DashDot | `8` | Тире короткое тире. |
+| LongDashDot | `9` | Длинное тире короткое тире. |
+| LongDashDotDot | `10` | Длинное тире короткое тире короткое тире. |
 | Default | `0` | То же, что иSolid . |
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -92,8 +92,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

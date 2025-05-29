@@ -3,14 +3,14 @@ title: Field.Unlink
 linktitle: Unlink
 articleTitle: Unlink
 second_title: Aspose.Words för .NET
-description: Field Unlink metod. Utför fältavlänkningen i C#.
+description: Upptäck metoden Field Unlink för att enkelt koppla bort fält, förbättra din datahantering och effektivisera ditt arbetsflöde för optimala resultat.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.fields/field/unlink/
 ---
 ## Field.Unlink method
 
-Utför fältavlänkningen.
+Utför fältavkopplingen.
 
 ```csharp
 public bool Unlink()
@@ -18,13 +18,13 @@ public bool Unlink()
 
 ### Returvärde
 
-`Sann` om fältet har tagits bort, annars`falsk` .
+`sann` om fältet har kopplats bort, annars`falsk` .
 
 ## Anmärkningar
 
-Ersätter fältet med det senaste resultatet.
+Ersätter fältet med dess senaste resultat.
 
-Vissa fält, som XE-fält (Indexinmatning) och SEQ-fält (sekvens), kan inte kopplas bort.
+Vissa fält, till exempel XE-fält (indexpost) och SEQ-fält (sekvens), kan inte avlänkas.
 
 ## Exempel
 

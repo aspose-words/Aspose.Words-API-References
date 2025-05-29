@@ -3,14 +3,14 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words per .NET
-description: ResourceSavingArgs Document proprietà. Ottiene loggetto documento attualmente in fase di salvataggio in C#.
+description: Scopri la proprietà Document ResourceSavingArgs per accedere all'oggetto documento corrente in fase di salvataggio, migliorando l'efficienza del flusso di lavoro.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/resourcesavingargs/document/
 ---
 ## ResourceSavingArgs.Document property
 
-Ottiene l'oggetto documento attualmente in fase di salvataggio.
+Ottiene l'oggetto documento che è attualmente in fase di salvataggio.
 
 ```csharp
 public Document Document { get; }
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

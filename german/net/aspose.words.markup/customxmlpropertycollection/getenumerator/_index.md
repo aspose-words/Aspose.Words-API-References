@@ -3,14 +3,14 @@ title: CustomXmlPropertyCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words für .NET
-description: CustomXmlPropertyCollection GetEnumerator methode. Gibt ein Enumeratorobjekt zurück das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann in C#.
+description: Entdecken Sie die GetEnumerator-Methode von CustomXmlPropertyCollection, um problemlos durch Sammlungselemente zu iterieren und so die Effizienz Ihrer Datenverwaltung zu steigern.
 type: docs
 weight: 60
 url: /de/net/aspose.words.markup/customxmlpropertycollection/getenumerator/
 ---
 ## CustomXmlPropertyCollection.GetEnumerator method
 
-Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann.
+Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können.
 
 ```csharp
 public IEnumerator<CustomXmlProperty> GetEnumerator()
@@ -18,21 +18,21 @@ public IEnumerator<CustomXmlProperty> GetEnumerator()
 
 ## Beispiele
 
-Zeigt, wie Sie mit Smart-Tag-Eigenschaften arbeiten, um detaillierte Informationen zu Smart-Tags zu erhalten.
+Zeigt, wie Sie mit Smarttag-Eigenschaften arbeiten, um ausführliche Informationen zu Smarttags zu erhalten.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Ein Smarttag erscheint in einem Dokument, wobei Microsoft Word einen Teil seines Textes als irgendeine Form von Daten erkennt.
-// beispielsweise einen Namen, ein Datum oder eine Adresse und wandelt ihn in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
-// In Word 2003 können wir Smarttags über „Extras“ -> aktivieren. „AutoKorrektur-Optionen…“ -> „SmartTags“.
+// Ein Smarttag erscheint in einem Dokument, in dem Microsoft Word einen Teil des Textes als eine Art Daten erkennt.
+// wie etwa einen Namen, ein Datum oder eine Adresse, und wandelt es in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
+// In Word 2003 können wir Smarttags über „Extras“ -> „AutoKorrektur-Optionen…“ -> „SmartTags“ aktivieren.
 // In unserem Eingabedokument gibt es drei Objekte, die Microsoft Word als Smarttags registriert hat.
-// Smart-Tags können verschachtelt sein, daher enthält diese Sammlung mehr.
+// Smarttags können verschachtelt sein, daher enthält diese Sammlung mehr.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// Das „Properties“-Mitglied eines Smart-Tags enthält seine Metadaten, die für jeden Smart-Tag-Typ unterschiedlich sind.
+// Das Element „Eigenschaften“ eines Smarttags enthält dessen Metadaten, die für jeden Smarttag-Typ unterschiedlich sind.
 // Die Eigenschaften eines Smarttags vom Typ „Datum“ enthalten Jahr, Monat und Tag.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
@@ -47,14 +47,14 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Wir können auch auf verschiedene Weise auf die Eigenschaften zugreifen, beispielsweise über ein Schlüssel-Wert-Paar.
+// Wir können auf die Eigenschaften auch auf verschiedene Weise zugreifen, beispielsweise über ein Schlüssel-Wert-Paar.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// Nachfolgend finden Sie drei Möglichkeiten, Elemente aus der Eigenschaftensammlung zu entfernen.
-// 1 - Nach Index entfernen:
+// Unten sind drei Möglichkeiten zum Entfernen von Elementen aus der Eigenschaftensammlung aufgeführt.
+// 1 - Entfernen nach Index:
 properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);
@@ -64,7 +64,7 @@ properties.Remove("Year");
 
 Assert.AreEqual(2, properties.Count);
 
-// 3 – Die gesamte Sammlung auf einmal löschen:
+// 3 - Löschen Sie die gesamte Sammlung auf einmal:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

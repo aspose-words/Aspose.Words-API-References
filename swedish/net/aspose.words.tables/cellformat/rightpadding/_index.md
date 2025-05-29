@@ -3,14 +3,14 @@ title: CellFormat.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words för .NET
-description: CellFormat RightPadding fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till till höger om innehållet i cellen i C#.
+description: Upptäck egenskapen CellFormat RightPadding för att enkelt justera avståndet i dina celler. Förbättra layouten i ditt kalkylblad med exakt punktkontroll!
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.tables/cellformat/rightpadding/
 ---
 ## CellFormat.RightPadding property
 
-Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till till höger om innehållet i cellen.
+Returnerar eller anger mängden utrymme (i punkter) som ska läggas till till höger om cellens innehåll.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Infoga en andra cell och konfigurera sedan utfyllnadsalternativ för celltext.
-// Byggaren kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
+// Skaparen kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Den första cellen påverkades inte av utfyllnadsomställningen och har fortfarande standardvärdena.
+// Den första cellen påverkades inte av omkonfigureringen av utfyllnaden och innehåller fortfarande standardvärdena.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess närliggande cell.
+// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess angränsande cell.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

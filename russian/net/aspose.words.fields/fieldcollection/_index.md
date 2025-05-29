@@ -3,16 +3,16 @@ title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldCollection сорт. КоллекцияField объекты представляющие поля в указанном диапазоне на С#.
+description: Откройте для себя Aspose.Words.FieldCollection — мощный класс для управления объектами Field в указанных диапазонах документов, улучшающий автоматизацию документов.
 type: docs
-weight: 1690
+weight: 2100
 url: /ru/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Коллекция[`Field`](../field/) объекты, представляющие поля в указанном диапазоне.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -32,19 +32,19 @@ public class FieldCollection : IEnumerable<Field>
 | [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Удаляет все поля этой коллекции из документа и из самой этой коллекции. |
 | [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Возвращает объект перечислителя. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Удаляет указанное поле из этой коллекции и из документа. |
-| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Удаляет поле по указанному индексу из этой коллекции и из документа. |
+| [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Удаляет поле с указанным индексом из данной коллекции и из документа. |
 
 ## Примечания
 
-Экземпляр этой коллекции повторяет поля, которые начинаются в пределах указанного диапазона.
+Экземпляр этой коллекции перебирает поля, которые изначально попадают в указанный диапазон.
 
-`FieldCollection` Коллекция не владеет полями, которые она содержит, а представляет собой просто набор полей.
+The`FieldCollection` Коллекция не владеет полями, которые она содержит, а представляет собой просто выборку полей.
 
-`FieldCollection` коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в полях, возвращаемых функцией`FieldCollection` свойства и методы.
+The`FieldCollection` Коллекция является «живой», т.е. изменения в дочерних элементах узла object , из которого она была создана, немедленно отражаются в полях, возвращаемых функцией`FieldCollection` свойства и методы.
 
 ## Примеры
 
-Показывает, как удалить поля из коллекции полей.
+Показывает, как удалять поля из коллекции полей.
 
 ```csharp
 Document doc = new Document();
@@ -63,16 +63,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Ниже приведены четыре способа удаления полей из коллекции полей.
-// 1 - Получить поле для удаления самого себя:
+// 1 - Получить поле для удаления:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 — Получение коллекции для удаления поля, которое мы передаем методу удаления:
+// 2 - Получаем коллекцию для удаления поля, которое передаем ее методу удаления:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 — Удалить поле из коллекции по индексу:
+// 3 - Удалить поле из коллекции по индексу:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
@@ -81,7 +81,7 @@ fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -101,7 +101,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

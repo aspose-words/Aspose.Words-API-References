@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ExportPageSetup propriété. Spécifie si la mise en page est exportée au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
+description: Découvrez comment la propriété HtmlSaveOptions ExportPageSetup améliore vos exportations HTML, MHTML ou EPUB en permettant des configurations de page personnalisables pour une meilleure sortie.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## Remarques
 
-Chaque[`Section`](../../../aspose.words/section/) dans le modèle de document Aspose.Words fournit des informations de configuration de page via[`PageSetup`](../../../aspose.words/pagesetup/) classe. Lorsque vous exportez un document au format HTML, vous devrez peut-être conserver ces informations pour une utilisation ultérieure. En particulier, la mise en page peut être importante pour le rendu sur un support paginé (impression) ou la conversion ultérieure vers les formats de fichiers natifs Microsoft Word (DOCX, DOC, RTF, WML).
+Chaque[`Section`](../../../aspose.words/section/) dans le modèle de document Aspose.Words fournit des informations de configuration de page via[`PageSetup`](../../../aspose.words/pagesetup/) classe. Lorsque vous exportez un document au format HTML, vous devrez peut-être conserver ces informations pour une utilisation ultérieure. La mise en page peut notamment être importante pour le rendu sur support paginé (impression) ou la conversion ultérieure aux formats de fichier natifs de Microsoft Word (DOCX, DOC, RTF, WML).
 
-Dans la plupart des cas, le HTML est destiné à être affiché dans des navigateurs où la pagination n'est pas effectuée. Cette feature est donc inactive par défaut.
+Dans la plupart des cas, le HTML est conçu pour être affiché dans des navigateurs où la pagination n'est pas effectuée. Cette fonctionnalité est donc désactivée par défaut.
 
 ## Exemples
 
-Montre comment décider de conserver ou non les informations sur la structure des sections/la mise en page lors de l'enregistrement au format HTML.
+Montre comment décider de conserver ou non la structure de la section/les informations de configuration de la page lors de l'enregistrement au format HTML.
 
 ```csharp
 Document doc = new Document();
@@ -40,9 +40,9 @@ pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
 // Lors de l'enregistrement du document au format HTML, nous pouvons passer un objet SaveOptions
-// pour décider de conserver ou de supprimer les paramètres de mise en page.
-// Si nous définissons l'indicateur "ExportPageSetup" sur "true", le document HTML de sortie contiendra notre configuration de mise en page.
-// Si nous définissons l'indicateur "ExportPageSetup" sur "false", l'opération de sauvegarde ignorera nos paramètres de mise en page
+// pour décider de conserver ou d'ignorer les paramètres de configuration de la page.
+// Si nous définissons l'indicateur « ExportPageSetup » sur « true », le document HTML de sortie contiendra notre configuration de configuration de page.
+// Si nous définissons l'indicateur « ExportPageSetup » sur « false », l'opération de sauvegarde annulera nos paramètres de configuration de page
 // pour la première section, et les deux sections seront identiques.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 

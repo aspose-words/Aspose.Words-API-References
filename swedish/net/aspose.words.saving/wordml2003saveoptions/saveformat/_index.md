@@ -3,14 +3,14 @@ title: WordML2003SaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words för .NET
-description: WordML2003SaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan endastWordML  i C#.
+description: Upptäck hur egenskapen SaveFormat i WordML2003SaveOptions definierar dokumentformat. Säkerställ sömlös kompatibilitet med WordML för dina filer!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används. Kan endastWordML .
+Anger formatet som dokumentet sparas i om detta objekt för sparade alternativ används. Kan endast varaWordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,40 +18,41 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Exempel
 
-Visar hur man hanterar utdatadokumentets råa innehåll.
+Visar hur man hanterar rått innehåll i utdatadokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Skapa ett "WordML2003SaveOptions"-objekt för att skicka till dokumentets "Spara"-metod
-// för att ändra hur vi sparar dokumentet till WordML-sparformatet.
+// Skapa ett "WordML2003SaveOptions"-objekt som ska skickas till dokumentets "Save"-metod
+// för att ändra hur vi sparar dokumentet till WordML-formatet.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// Ställ in "PrettyFormat"-egenskapen till "true" för att tillämpa tab-teckenindrag och
-// nya rader för att göra utdatadokumentets råa innehåll lättare att läsa.
-// Ställ in egenskapen "PrettyFormat" till "false" för att spara dokumentets råa innehåll i en sammanhängande del av texten.
+// Sätt egenskapen "PrettyFormat" till "true" för att tillämpa tabbteckenindrag och
+// radnyheter för att göra utdatadokumentets råa innehåll lättare att läsa.
+// Sätt egenskapen "PrettyFormat" till "false" för att spara dokumentets råa innehåll i en sammanhängande textdel.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);
 
 string fileContents = File.ReadAllText(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml");
+string newLine = Environment.NewLine;
 
 if (prettyFormat)
     Assert.True(fileContents.Contains(
-        "<o:DocumentProperties>\r\n\t\t" +
-            "<o:Revision>1</o:Revision>\r\n\t\t" +
-            "<o:TotalTime>0</o:TotalTime>\r\n\t\t" +
-            "<o:Pages>1</o:Pages>\r\n\t\t" +
-            "<o:Words>0</o:Words>\r\n\t\t" +
-            "<o:Characters>0</o:Characters>\r\n\t\t" +
-            "<o:Lines>1</o:Lines>\r\n\t\t" +
-            "<o:Paragraphs>1</o:Paragraphs>\r\n\t\t" +
-            "<o:CharactersWithSpaces>0</o:CharactersWithSpaces>\r\n\t\t" +
-            "<o:Version>11.5606</o:Version>\r\n\t" +
+        $"<o:DocumentProperties>{newLine}\t\t" +
+            $"<o:Revision>1</o:Revision>{newLine}\t\t" +
+            $"<o:TotalTime>0</o:TotalTime>{newLine}\t\t" +
+            $"<o:Pages>1</o:Pages>{newLine}\t\t" +
+            $"<o:Words>0</o:Words>{newLine}\t\t" +
+            $"<o:Characters>0</o:Characters>{newLine}\t\t" +
+            $"<o:Lines>1</o:Lines>{newLine}\t\t" +
+            $"<o:Paragraphs>1</o:Paragraphs>{newLine}\t\t" +
+            $"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>{newLine}\t\t" +
+            $"<o:Version>11.5606</o:Version>{newLine}\t" +
         "</o:DocumentProperties>"));
 else
     Assert.True(fileContents.Contains(

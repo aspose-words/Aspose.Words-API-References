@@ -3,7 +3,7 @@ title: TxtListIndentation
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
 second_title: Aspose.Words для .NET
-description: TxtListIndentation строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор TxtListIndentation для бесшовного форматирования списков. Повысьте эффективность кодирования с помощью нашего интуитивного решения конструктора по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/txtlistindentation/txtlistindentation/

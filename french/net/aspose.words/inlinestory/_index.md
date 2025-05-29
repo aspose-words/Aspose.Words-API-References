@@ -3,16 +3,16 @@ title: InlineStory Class
 linktitle: InlineStory
 articleTitle: InlineStory
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.InlineStory classe. Classe de base pour les nœuds de niveau en ligne pouvant contenir des paragraphes et des tableaux en C#.
+description: Découvrez la classe Aspose.Words.InlineStory, la base essentielle des nœuds en ligne, permettant une intégration transparente des paragraphes et des tableaux dans vos documents.
 type: docs
-weight: 3270
+weight: 3720
 url: /fr/net/aspose.words/inlinestory/
 ---
 ## InlineStory class
 
-Classe de base pour les nœuds de niveau en ligne pouvant contenir des paragraphes et des tableaux.
+Classe de base pour les nœuds de niveau en ligne qui peuvent contenir des paragraphes et des tableaux.
 
-Pour en savoir plus, visitez le[Niveaux logiques des nœuds dans un document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) article documentaire.
+Pour en savoir plus, visitez le[Niveaux logiques des nœuds dans un document](https://docs.aspose.com/words/net/logical-levels-of-nodes-in-a-document/) article de documentation.
 
 ```csharp
 public abstract class InlineStory : CompositeNode
@@ -27,7 +27,7 @@ public abstract class InlineStory : CompositeNode
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Obtient le premier enfant du nœud. |
 | [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Obtient le premier paragraphe de l'histoire. |
-| [Font](../../aspose.words/inlinestory/font/) { get; } | Donne accès au formatage de la police du caractère d'ancrage de cet objet. |
+| [Font](../../aspose.words/inlinestory/font/) { get; } | Donne accès à la mise en forme de la police du caractère d'ancrage de cet objet. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Retours`vrai` si ce nœud a des nœuds enfants. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Retours`vrai` car ce nœud peut avoir des nœuds enfants. |
 | [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé. |
@@ -38,49 +38,51 @@ public abstract class InlineStory : CompositeNode
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Obtient le dernier paragraphe de l'histoire. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtient le nœud suivant immédiatement ce nœud. |
 | abstract [NodeType](../../aspose.words/node/nodetype/) { get; } | Obtient le type de ce nœud. |
-| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Obtient une collection de paragraphes qui sont des enfants immédiats de l'histoire. |
+| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Obtient une collection de paragraphes qui sont les enfants immédiats de l'histoire. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Récupère le parent[`Paragraph`](../paragraph/) de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 | abstract [StoryType](../../aspose.words/inlinestory/storytype/) { get; } | Renvoie le type de l'histoire. |
-| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Obtient une collection de tables qui sont des enfants immédiats de l'histoire. |
+| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Obtient une collection de tables qui sont les enfants immédiats de l'histoire. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | abstract [Accept](../../aspose.words/node/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Accepte un visiteur. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire des nœuds. |
+| abstract [AcceptEnd](../../aspose.words/compositenode/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Lorsqu'il est implémenté dans une classe dérivée, appelle la méthode VisitXXXEnd du visiteur du document spécifié. |
+| abstract [AcceptStart](../../aspose.words/compositenode/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Lorsqu'il est implémenté dans une classe dérivée, appelle la méthode VisitXXXStart du visiteur du document spécifié. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Ajoute le nœud spécifié à la fin de la liste des nœuds enfants pour ce nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crée un navigateur qui peut être utilisé pour parcourir et lire les nœuds. |
 | [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Si le dernier enfant n'est pas un paragraphe, crée et ajoute un paragraphe vide. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Renvoie un Nième nœud enfant qui correspond au type spécifié. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Renvoie une collection active de nœuds enfants qui correspondent au type spécifié. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit la prise en charge de chaque itération de style sur les nœuds enfants de ce nœud. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Récupère le texte de ce nœud et de tous ses enfants. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fournit un support pour chaque itération de style sur les nœuds enfants de ce nœud. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Obtient le texte de ce nœud et de tous ses enfants. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Renvoie l'index du nœud enfant spécifié dans le tableau de nœuds enfants. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) | Insère le nœud spécifié immédiatement après le nœud de référence spécifié. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) | Insère le nœud spécifié immédiatement avant le nœud de référence spécifié. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Ajoute le nœud spécifié au début de la liste des nœuds enfants pour ce nœud. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Supprime tous les nœuds enfants du nœud actuel. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Supprime le nœud enfant spécifié. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/)nœuds descendants du nœud actuel. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Supprime le nœud enfant spécifié. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Supprime tout[`SmartTag`](../../aspose.words.markup/smarttag/) nœuds descendants du nœud actuel. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Sélectionne une liste de nœuds correspondant à l'expression XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Sélectionne le premier[`Node`](../node/) qui correspond à l'expression XPath. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
-`InlineStory` est un conteneur pour les nœuds au niveau du bloc[`Paragraph`](../paragraph/) et[`Table`](../../aspose.words.tables/table/).
+`InlineStory` est un conteneur pour les nœuds de niveau bloc[`Paragraph`](../paragraph/) et[`Table`](../../aspose.words.tables/table/).
 
-Les classes qui en dérivent`InlineStory` sont des nœuds de niveau en ligne qui peuvent contenir leur propre texte (paragraphes et tableaux). Par exemple, un[`Comment`](../comment/) Le nœud contient le texte d'un commentaire et d'un[`Footnote`](../../aspose.words.notes/footnote/) contient le texte d’une note de bas de page.
+Les classes qui dérivent de`InlineStory` sont des nœuds en ligne qui peuvent contenir leur propre texte (paragraphes et tableaux). Par exemple, un[`Comment`](../comment/) le nœud contient le texte d'un commentaire et un[`Footnote`](../../aspose.words.notes/footnote/) contient le texte d'une note de bas de page.
 
 ## Exemples
 
@@ -108,19 +110,19 @@ Montre comment insérer et personnaliser des notes de bas de page.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ajoutez du texte et référencez-le avec une note de bas de page. Cette note de bas de page placera une petite référence en exposant
-// marque après le texte auquel il fait référence et crée une entrée sous le corps du texte principal en bas de la page.
+// Ajoutez du texte et référencez-le par une note de bas de page. Cette note placera une petite référence en exposant.
+// marquez après le texte auquel il fait référence et créez une entrée sous le texte principal au bas de la page.
 // Cette entrée contiendra la marque de référence de la note de bas de page et le texte de référence,
-// que nous transmettrons à la méthode "InsertFootnote" du générateur de documents.
+// que nous transmettrons à la méthode « InsertFootnote » du générateur de documents.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Si cette propriété est définie sur "true", alors la marque de référence de notre note de bas de page
+// Si cette propriété est définie sur « true », alors la marque de référence de notre note de bas de page
 // sera son index parmi toutes les notes de bas de page de la section.
-// Ceci est la première note de bas de page, donc la marque de référence sera "1".
+// Ceci est la première note de bas de page, donc la marque de référence sera « 1 ».
 Assert.True(footnote.IsAuto);
 
- // Nous pouvons déplacer le générateur de document à l'intérieur de la note de bas de page pour modifier son texte de référence.
+ // Nous pouvons déplacer le générateur de documents à l'intérieur de la note de bas de page pour modifier son texte de référence.
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
@@ -135,8 +137,8 @@ footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Un signet avec l'indicateur "IsAuto" défini sur true affichera toujours son véritable index
-// même si les signets précédents affichent des marques de référence personnalisées, la marque de référence de ce signet sera donc un "3".
+// Un signet avec l'indicateur « IsAuto » défini sur vrai affichera toujours son index réel
+// même si les signets précédents affichent des marques de référence personnalisées, la marque de référence de ce signet sera un « 3 ».
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

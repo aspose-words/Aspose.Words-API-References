@@ -3,14 +3,14 @@ title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words لـ .NET
-description: ChartXValue FromTimeSpan طريقة. إنشاء ملفChartXValue مثال علىTime اكتب في C#.
+description: اكتشف طريقة ChartXValue FromTimeSpan لإنشاء مثيلات من نوع Time بسهولة وتحسين تجربة تصور البيانات لديك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/
 ---
 ## ChartXValue.FromTimeSpan method
 
-إنشاء ملف[`ChartXValue`](../) مثال علىTime اكتب.
+ينشئ[`ChartXValue`](../) مثال على ذلكTime النوع.
 
 ```csharp
 public static ChartXValue FromTimeSpan(TimeSpan value)

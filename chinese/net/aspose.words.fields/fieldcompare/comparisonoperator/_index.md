@@ -2,8 +2,8 @@
 title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldCompare ComparisonOperator 财产. 获取或设置比较运算符 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldCompare CompareOperator 属性——轻松管理您的比较运算符，以增强数据分析和效率。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldcompare/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## 例子
 
-演示如何使用 COMPARE 字段比较表达式。
+展示如何使用 COMPARE 字段比较表达式。
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// COMPARE 字段显示“0”或“1”，具体取决于其陈述的真实性。
-// 该语句的结果为 false，因此该字段将显示“0”。
+// COMPARE 字段显示“0”或“1”，取决于其语句的真实性。
+// 该语句的结果为假，因此该字段将显示“0”。
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// 该字段显示“1”，因为该语句为 true。
+// 由于该语句为真，因此该字段显示“1”。
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

@@ -3,7 +3,7 @@ title: FontSavingArgs.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words für .NET
-description: FontSavingArgs Bold eigendom. Gibt an ob die aktuelle Schriftart fett ist in C#.
+description: Entdecken Sie die Eigenschaft „FontSavingArgs Bold“, um einfach festzustellen, ob Ihre Schriftart fett ist. Verbessern Sie Ihre Typografie für bessere Lesbarkeit und Design.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/fontsavingargs/bold/
@@ -18,7 +18,7 @@ public bool Bold { get; }
 
 ## Beispiele
 
-Zeigt, wie Sie eine benutzerdefinierte Logik für den Export von Schriftarten beim Speichern in HTML definieren.
+Zeigt, wie Sie beim Speichern im HTML-Format eine benutzerdefinierte Logik zum Exportieren von Schriftarten definieren.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,7 +26,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurieren Sie ein SaveOptions-Objekt, um Schriftarten in separate Dateien zu exportieren.
-    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise übernimmt.
+    // Legen Sie einen Rückruf fest, der das Speichern von Schriftarten auf benutzerdefinierte Weise handhabt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-.html.
+/// Druckt Informationen zu exportierten Schriftarten und speichert sie im selben lokalen Systemordner wie ihre Ausgabe-HTML.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -65,7 +65,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 1 – Speichern Sie es an einem lokalen Dateisystemspeicherort:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 – In einem Stream speichern:
+        // 2 - In einem Stream speichern:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

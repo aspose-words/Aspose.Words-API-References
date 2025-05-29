@@ -3,14 +3,14 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words per .NET
-description: SignatureLine IsSigned proprietà. Indica che la riga della firma è firmata tramite firma digitale in C#.
+description: Scopri come la tecnologia IsSigned di SignatureLine conferma l'autenticità della firma digitale, garantendo transazioni sicure e affidabili. Migliora l'integrità dei tuoi documenti!
 type: docs
 weight: 60
 url: /it/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-Indica che la riga della firma è firmata tramite firma digitale.
+Indica che la riga della firma è firmata con firma digitale.
 
 ```csharp
 public bool IsSigned { get; }

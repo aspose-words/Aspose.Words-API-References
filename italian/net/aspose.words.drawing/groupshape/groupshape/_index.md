@@ -3,7 +3,7 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words per .NET
-description: GroupShape costruttore. Crea una nuova forma di gruppo in C#.
+description: Progetta splendide forme di gruppo senza sforzo con il costruttore GroupShape. Arricchisci i tuoi progetti con strumenti personalizzabili e intuitivi per creazioni uniche.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/groupshape/groupshape/
@@ -24,11 +24,11 @@ public GroupShape(DocumentBase doc)
 
 Per impostazione predefinita, la forma è mobile e ha posizione e dimensioni predefinite.
 
-È necessario specificare le proprietà della forma desiderate dopo aver creato una forma.
+Dopo aver creato una forma, è necessario specificare le proprietà desiderate.
 
 ## Esempi
 
-Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
+Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un documento visitatore.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // utilizzare i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "NonPrimitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // AngoliSuperioriUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliSuperioriArrotondati, AngoliDiagonaliArrotondati
+    // si prega di utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

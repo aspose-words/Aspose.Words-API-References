@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words per .NET
-description: FieldMergingArgsBase TableName proprietà. Ottiene il nome della tabella dati per loperazione di unione corrente o una stringa vuota se il nome non è disponibile in C#.
+description: Scopri la proprietà FieldMergingArgsBase TableName, accedi facilmente al nome della tabella dati per le tue operazioni di unione o scopri quando non è disponibile.
 type: docs
 weight: 70
 url: /it/net/aspose.words.mailmerging/fieldmergingargsbase/tablename/
@@ -18,7 +18,7 @@ public string TableName { get; }
 
 ## Esempi
 
-Mostra come inserire i campi modulo delle caselle di controllo nei MERGEFIELD come dati di unione durante la stampa unione.
+Mostra come inserire campi modulo casella di controllo in MERGEFIELD come dati di unione durante la stampa unione.
 
 ```csharp
 public void InsertCheckBox()
@@ -26,8 +26,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utilizza MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di stampa unione
-    // che appartiene a un'origine dati denominata "StudentCourse" e dispone di un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
+    // Utilizzare i MERGEFIELD con i tag "TableStart"/"TableEnd" per definire un'area di unione di stampa
+    // che appartiene a una sorgente dati denominata "StudentCourse" e ha un MERGEFIELD che accetta dati da una colonna denominata "CourseName".
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -46,7 +46,7 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo invece del testo dei dati di unione.
+/// Quando incontra un MERGEFIELD con un nome specifico, inserisce un campo modulo con casella di controllo anziché il testo dei dati di unione.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
@@ -75,14 +75,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// Crea un'origine dati di stampa unione.
+/// Crea un'origine dati per la stampa unione.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

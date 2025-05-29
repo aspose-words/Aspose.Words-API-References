@@ -3,14 +3,14 @@ title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
 second_title: Aspose.Words для .NET
-description: Row PreviousRow свойство. Получает предыдущееRow узел на С#.
+description: Воспользуйтесь свойством PreviousRow, чтобы легко извлечь предыдущий узел строки, что улучшит навигацию по данным и оптимизирует рабочий процесс кодирования.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.tables/row/previousrow/
 ---
 ## Row.PreviousRow property
 
-Получает предыдущее[`Row`](../) узел.
+Получает предыдущий[`Row`](../) узел.
 
 ```csharp
 public Row PreviousRow { get; }
@@ -18,7 +18,7 @@ public Row PreviousRow { get; }
 
 ## Примечания
 
-Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к строкам таблицы. Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)узел найден в таблице, а не в строке, он автоматически просматривается для получения строки, содержащейся внутри.
+Метод можно использовать, когда вам нужен типизированный доступ к строкам таблицы. Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в таблице вместо строки, он автоматически просматривается, чтобы получить строку, содержащуюся в.
 
 ## Примеры
 

@@ -3,16 +3,16 @@ title: NodeImporter Class
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.NodeImporter classe. Permet deffectuer efficacement des importations répétées de nœuds dun document à un autre en C#.
+description: Transférez facilement des nœuds de documents avec Aspose.Words.NodeImporter. Optimisez votre flux de travail et optimisez votre gestion documentaire dès aujourd'hui !
 type: docs
-weight: 4210
+weight: 4900
 url: /fr/net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
 
-Permet d'effectuer efficacement des importations répétées de nœuds d'un document à un autre.
+Permet d'effectuer efficacement l'importation répétée de nœuds d'un document à un autre.
 
-Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
+Pour en savoir plus, visitez le[Modèle d'objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article de documentation.
 
 ```csharp
 public class NodeImporter
@@ -33,21 +33,21 @@ public class NodeImporter
 
 ## Remarques
 
-Aspose.Words fournit des fonctionnalités permettant de copier et de déplacer facilement fragments entre des documents Microsoft Word. C'est ce qu'on appelle « importer des nœuds ». Avant de pouvoir insérer un fragment d'un document dans un autre, vous devez « l'importer ». L'importation crée un clone profond du nœud d'origine, prêt à être inséré dans le document de destination .
+Aspose.Words offre une fonctionnalité permettant de copier et de déplacer facilement des fragments entre des documents Microsoft Word. Cette opération est appelée « importation de nœuds ». Avant d'insérer un fragment d'un document dans un autre, vous devez l'« importer ». L'importation crée un clone complet du nœud d'origine, prêt à être inséré dans le document de destination.
 
-La manière la plus simple d'importer un nœud est d'utiliser le[`ImportNode`](../documentbase/importnode/) method fourni par le[`DocumentBase`](../documentbase/) objet.
+La manière la plus simple d’importer un nœud est d’utiliser le[`ImportNode`](../documentbase/importnode/) method fourni par le[`DocumentBase`](../documentbase/) objet.
 
-Cependant, lorsque vous devez importer plusieurs fois des nœuds d'un document à un autre, il est préférable d'utiliser le`NodeImporter` classe. Le`NodeImporter` La classe permet de minimiser le nombre de styles et de listes créés dans le document de destination.
+Cependant, lorsque vous devez importer des nœuds d'un document à un autre plusieurs fois, il est préférable d'utiliser le`NodeImporter` classe. Le`NodeImporter` La classe permet de minimiser le nombre de styles et de listes créés dans le document de destination.
 
-Copier ou déplacer des fragments d'un document Microsoft Word à un autre présente un certain nombre de défis techniques pour Aspose.Words. Dans un document Word, les styles et le formatage de liste sont stockés de manière centralisée, séparément du texte du document. Les paragraphes et les séquences de texte font simplement référence aux styles par des identifiants internes uniques.
+Copier ou déplacer des fragments d'un document Microsoft Word vers un autre présente de nombreux défis techniques pour Aspose.Words. Dans un document Word, les styles et la mise en forme des listes sont stockés de manière centralisée, séparément du texte. Les paragraphes et les passages de texte font simplement référence aux styles par des identifiants uniques internes.
 
-Les défis proviennent du fait que les styles et les listes sont différents selon les documents. Par exemple, pour copier un paragraphe formaté avec le style Titre 1 d'un document à un autre, un certain nombre de choses doivent être prises en compte : décider si copiez le style Titre 1 de du document source vers le document de destination, clonez le paragraphe, mettez à jour le paragraphe cloné afin qu'il fasse référence au style Titre 1 correct dans le document de destination. Si le style devait être copié, tous les styles qu'il les références (basées sur le style et le style du paragraphe suivant) doivent être analysées et éventuellement copiées également, et ainsi de suite. Des problèmes similaires existent lors de la copie de paragraphes à puces ou numérotés, car Microsoft Word stocke les définitions de liste séparément du texte.
+Les défis proviennent du fait que les styles et les listes sont différents dans différents documents. Par exemple, pour copier un paragraphe formaté avec le style Titre 1 d'un document à un autre, un certain nombre de choses doivent être prises en compte : décider s'il faut copier le style Titre 1 du document source vers le document de destination, cloner le paragraphe, mettre à jour le paragraphe cloné afin qu'il fasse référence au style Titre 1 correct dans le document de destination. Si le style devait être copié, tous les styles auxquels il fait référence (en fonction du style et du style du paragraphe suivant) devraient être analysés et éventuellement copiés également, et ainsi de suite. Des problèmes similaires existent lors de la copie de paragraphes à puces ou numérotés, car Microsoft Word stocke les définitions de liste séparément du texte.
 
-Le`NodeImporter`la classe est comme un contexte, qui contient les "tables de traduction" lors de l'importation. Il traduit correctement entre les styles et les listes dans les documents source et de destination.
+Le`NodeImporter`La classe est comme un contexte, qui contient les tables de traduction lors de l'importation. Elle traduit correctement les styles et les listes des documents source et cible.
 
 ## Exemples
 
-Montre comment insérer le contenu d’un document dans un signet dans un autre document.
+Montre comment insérer le contenu d'un document dans un signet d'un autre document.
 
 ```csharp
 public void InsertAtBookmark()
@@ -85,7 +85,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Parcourez tous les nœuds de niveau bloc dans le corps de la section,
+        // Boucle sur tous les nœuds de niveau bloc dans le corps de la section,
         // puis clonez et insérez chaque nœud qui n'est pas le dernier paragraphe vide d'une section.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)

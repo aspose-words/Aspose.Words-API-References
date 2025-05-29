@@ -3,7 +3,7 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words para .NET
-description: FileFontSource FilePath propiedad. Ruta al archivo de fuente en C#.
+description: Descubre la propiedad FileFontSource FilePath para acceder fácilmente a tus archivos de fuentes. ¡Optimiza tu proceso de diseño con esta herramienta esencial!
 type: docs
 weight: 30
 url: /es/net/aspose.words.fonts/filefontsource/filepath/

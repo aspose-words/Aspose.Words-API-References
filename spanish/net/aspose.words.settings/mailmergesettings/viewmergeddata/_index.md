@@ -3,14 +3,14 @@ title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
 second_title: Aspose.Words para .NET
-description: MailMergeSettings ViewMergedData propiedad. Especifica que Microsoft Word mostrará los datos de la fuente de datos externa especificada donde se han insertado los campos de combinación por ejemplo vista previa de los datos combinados. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad ViewMergedData de MailMergeSettings en Microsoft Word mejora la creación de documentos al obtener una vista previa de los datos combinados de fuentes externas.
 type: docs
 weight: 170
 url: /es/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Especifica que Microsoft Word mostrará los datos de la fuente de datos externa especificada donde se han insertado los campos de combinación (por ejemplo, vista previa de los datos combinados). El valor predeterminado es`FALSO` .
+Especifica que Microsoft Word mostrará los datos de la fuente de datos externa especificada donde se hayan insertado los campos de combinación (por ejemplo, vista previa de los datos combinados). El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

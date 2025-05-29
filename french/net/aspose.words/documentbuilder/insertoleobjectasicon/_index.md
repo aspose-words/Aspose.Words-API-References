@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertOleObjectAsIcon
 linktitle: InsertOleObjectAsIcon
 articleTitle: InsertOleObjectAsIcon
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder InsertOleObjectAsIcon méthode. Insère un objet OLE intégré ou lié sous forme dicône dans le document. Permet de spécifier le fichier dicône et la légende. Détecte le type dobjet OLE à laide de lextension de fichier en C#.
+description: Insérez facilement des objets OLE sous forme d'icônes dans vos documents avec DocumentBuilder. Personnalisez les icônes et les légendes tout en garantissant une intégration fluide.
 type: docs
-weight: 400
+weight: 430
 url: /fr/net/aspose.words/documentbuilder/insertoleobjectasicon/
 ---
 ## InsertOleObjectAsIcon(*string, bool, string, string*) {#insertoleobjectasicon_1}
 
-Insère un objet OLE intégré ou lié sous forme d'icône dans le document. Permet de spécifier le fichier d'icône et la légende. Détecte le type d'objet OLE à l'aide de l'extension de fichier.
+Insère un objet OLE incorporé ou lié comme icône dans le document. Permet de spécifier le fichier et la légende de l'icône. Détecte le type d'objet OLE grâce à l'extension de fichier.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFile, 
@@ -19,14 +19,14 @@ public Shape InsertOleObjectAsIcon(string fileName, bool isLinked, string iconFi
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Chemin complet du fichier. |
-| isLinked | Boolean | Si`vrai` puis l'objet OLE lié est inséré, sinon l'objet OLE intégré est inséré. |
+| fileName | String | Chemin complet vers le fichier. |
+| isLinked | Boolean | Si`vrai` puis l'objet OLE lié est inséré sinon l'objet OLE incorporé est inséré. |
 | iconFile | String | Chemin complet vers le fichier ICO. Si la valeur est`nul` , Aspose.Words utilisera une image prédéfinie. |
-| iconCaption | String | Légende de l'icône. Si la valeur est`nul` , Aspose.Words utilisera le nom de fichier. |
+| iconCaption | String | Légende de l'icône . Si la valeur est`nul` , Aspose.Words utilisera le nom de fichier. |
 
 ### Return_Value
 
-Nœud de forme contenant l'objet Ole et inséré à la position actuelle du constructeur.
+Nœud de forme contenant un objet Ole et inséré à la position actuelle du générateur.
 
 ## Exemples
 
@@ -37,13 +37,13 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Les objets OLE sont des liens vers des fichiers de notre système de fichiers local qui peuvent être ouverts par d'autres applications installées.
-// Un double-clic sur ces formes lancera l'application, puis l'utilisera pour ouvrir l'objet lié.
-// Il existe trois manières d'utiliser la méthode InsertOleObject pour insérer ces formes et configurer leur apparence.
-// 1 - Image extraite du système de fichiers local :
+// Un double-clic sur ces formes lancera l'application, puis utilisez-la pour ouvrir l'objet lié.
+// Il existe trois façons d'utiliser la méthode InsertOleObject pour insérer ces formes et configurer leur apparence.
+// 1 - Image prise à partir du système de fichiers local :
 using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
 {
     // Si 'presentation' est omis et 'asIcon' est défini, cette méthode surchargée sélectionne
-    // l'icône en fonction de l'extension du fichier et utilise le nom du fichier pour la légende de l'icône.
+    // l'icône selon l'extension de fichier et utilise le nom de fichier pour la légende de l'icône.
     builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", false, false, imageStream); 
 }
 
@@ -53,7 +53,7 @@ using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.O
 builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, null);
 
 // Si 'iconFile' et 'iconCaption' sont omis, cette méthode surchargée sélectionne
-// l'icône selon 'progId' et utilise la légende de l'icône prédéfinie.
+// l'icône selon 'progId' et utilise la légende d'icône prédéfinie.
 // 3 - Icône d'image de 32 x 32 pixels ou moins provenant du système de fichiers local, avec une légende personnalisée :
 builder.InsertOleObjectAsIcon(MyDir + "Presentation.pptx", false, ImageDir + "Logo icon.ico",
     "Double click to view presentation!");
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObject.docx");
 
 ## InsertOleObjectAsIcon(*string, string, bool, string, string*) {#insertoleobjectasicon_2}
 
-Insère un objet OLE intégré ou lié sous forme d'icône dans le document. Permet de spécifier le fichier d'icône et la légende. Détecte le type d'objet OLE à l'aide du paramètre progID donné.
+Insère un objet OLE incorporé ou lié comme icône dans le document. Permet de spécifier le fichier d'icône et la légende. Détecte le type d'objet OLE à l'aide du paramètre progID donné.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked, string iconFile, 
@@ -81,15 +81,15 @@ public Shape InsertOleObjectAsIcon(string fileName, string progId, bool isLinked
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Chemin complet du fichier. |
-| progId | String | ProgId de l’objet OLE. |
-| isLinked | Boolean | Si`vrai` puis l'objet OLE lié est inséré, sinon l'objet OLE intégré est inséré. |
+| fileName | String | Chemin complet vers le fichier. |
+| progId | String | ProgId de l'objet OLE. |
+| isLinked | Boolean | Si`vrai` puis l'objet OLE lié est inséré sinon l'objet OLE incorporé est inséré. |
 | iconFile | String | Chemin complet vers le fichier ICO. Si la valeur est`nul` , Aspose.Words utilisera une image prédéfinie. |
-| iconCaption | String | Légende de l'icône. Si la valeur est`nul` , Aspose.Words utilisera le nom de fichier. |
+| iconCaption | String | Légende de l'icône . Si la valeur est`nul` , Aspose.Words utilisera le nom de fichier. |
 
 ### Return_Value
 
-Nœud de forme contenant l'objet Ole et inséré à la position actuelle du constructeur.
+Nœud de forme contenant un objet Ole et inséré à la position actuelle du générateur.
 
 ## Exemples
 
@@ -108,7 +108,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Si 'iconFile' et 'iconCaption' sont omis, cette méthode surchargée sélectionne
-    // l'icône en fonction de l'extension du fichier et utilise le nom du fichier pour la légende de l'icône.
+    // l'icône selon l'extension de fichier et utilise le nom de fichier pour la légende de l'icône.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 
@@ -131,7 +131,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertOleObjectAsIcon.docx");
 
 ## InsertOleObjectAsIcon(*Stream, string, string, string*) {#insertoleobjectasicon}
 
-Insère un objet OLE intégré sous forme d'icône d'un flux dans le document. Permet de spécifier le fichier d'icône et la légende. Détecte le type d'objet OLE à l'aide du paramètre progID donné.
+Insère un objet OLE incorporé comme icône depuis un flux dans le document. Permet de spécifier le fichier d'icône et la légende. Détecte le type d'objet OLE à l'aide du paramètre progID donné.
 
 ```csharp
 public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile, 
@@ -141,13 +141,13 @@ public Shape InsertOleObjectAsIcon(Stream stream, string progId, string iconFile
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | stream | Stream | Flux contenant des données d'application. |
-| progId | String | ProgId de l’objet OLE. |
+| progId | String | ProgId de l'objet OLE. |
 | iconFile | String | Chemin complet vers le fichier ICO. Si la valeur est`nul` , Aspose.Words utilisera une image prédéfinie. |
-| iconCaption | String | Légende de l'icône. Si la valeur est`nul` , Aspose.Words utilisera la légende d'une icône prédéfinie. |
+| iconCaption | String | Légende de l'icône . Si la valeur est`nul` , Aspose.Words utilisera une légende d'icône prédéfinie. |
 
 ### Return_Value
 
-Nœud de forme contenant l'objet Ole et inséré à la position actuelle du constructeur.
+Nœud de forme contenant un objet Ole et inséré à la position actuelle du générateur.
 
 ## Exemples
 
@@ -166,7 +166,7 @@ builder.InsertBreak(BreakType.LineBreak);
 using (FileStream stream = new FileStream(MyDir + "Presentation.pptx", FileMode.Open))
 {
     // Si 'iconFile' et 'iconCaption' sont omis, cette méthode surchargée sélectionne
-    // l'icône en fonction de l'extension du fichier et utilise le nom du fichier pour la légende de l'icône.
+    // l'icône selon l'extension de fichier et utilise le nom de fichier pour la légende de l'icône.
     Shape shape = builder.InsertOleObjectAsIcon(stream, "PowerPoint.Application", ImageDir + "Logo icon.ico",
         "My embedded file stream");
 

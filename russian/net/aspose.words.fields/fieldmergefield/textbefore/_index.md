@@ -3,14 +3,14 @@ title: FieldMergeField.TextBefore
 linktitle: TextBefore
 articleTitle: TextBefore
 second_title: Aspose.Words для .NET
-description: FieldMergeField TextBefore свойство. Получает или задает текст который будет вставлен перед полем если поле не пустое на С#.
+description: Откройте для себя свойство FieldMergeField TextBefore, которое позволяет легко настраивать вставку текста перед полями, повышая ясность и профессионализм вашего документа.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldmergefield/textbefore/
 ---
 ## FieldMergeField.TextBefore property
 
-Получает или задает текст, который будет вставлен перед полем, если поле не пустое.
+Возвращает или задает текст, который будет вставлен перед полем, если поле не пустое.
 
 ```csharp
 public string TextBefore { get; set; }
@@ -32,19 +32,20 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Вставляем MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
+// Вставьте MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Мы можем применить текст до и после значения, которое принимает это поле, когда происходит слияние.
+// Мы можем применить текст до и после значения, которое это поле принимает при слиянии.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Вставляем еще одно MERGEFIELD для другого столбца в источнике данных.
+// Вставьте еще один MERGEFIELD для другого столбца в источнике данных.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

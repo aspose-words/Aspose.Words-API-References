@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBookmarkEnd
 linktitle: VisitBookmarkEnd
 articleTitle: VisitBookmarkEnd
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitBookmarkEnd méthode. Appelé lorsquune fin de signet est rencontrée dans le document en C#.
+description: Découvrez la méthode DocumentVisitor VisitBookmarkEnd, qui améliore la navigation dans les documents en gérant efficacement les fins de signets pour une expérience utilisateur transparente.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
@@ -45,7 +45,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -73,7 +73,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,7 +3,7 @@ title: ChmLoadOptions.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words لـ .NET
-description: ChmLoadOptions OriginalFileName ملكية. اسم ملف CHM. القيمة الافتراضية هيباطل  في C#.
+description: اكتشف خاصية OriginalFileName في ChmLoadOptions، واضبط اسم ملف CHM بسهولة لتسهيل الوصول. القيمة الافتراضية هي null. حسّن تجربتك!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/chmloadoptions/originalfilename/
@@ -18,18 +18,18 @@ public string OriginalFileName { get; set; }
 
 ## ملاحظات
 
-قد تحتوي مستندات آلية تبادل المعلومات (CHM) على روابط تشير إلى نفس المستند حسب اسم الملف. يدعم Aspose.Words هذه الروابط ويستخدمها بشكل طبيعي[`OriginalFileName`](../../../aspose.words/document/originalfilename/) للتحقق مما إذا كان الملف المشار إليه بواسطة link هو الملف الذي يتم تحميله. إذا تم تحميل مستند من دفق، فيجب تحديد اسم الملف الأصلي الخاص به بشكل صريح عبر هذه الخاصية، حيث لا يمكن تحديده تلقائيًا.
+قد تحتوي مستندات CHM على روابط تشير إلى نفس المستند باسم الملف. يدعم Aspose.Words هذه الروابط ويستخدمها عادةً[`OriginalFileName`](../../../aspose.words/document/originalfilename/) للتحقق مما إذا كان الملف المشار إليه بواسطة link هو الملف الذي يتم تحميله. إذا تم تحميل مستند من دفق، فيجب تحديد اسم الملف الأصلي صراحةً عبر هذه الخاصية، لأنه لا يمكن تحديده تلقائيًا.
 
-إذا تم تحميل مستند آلية تبادل المعلومات (CHM) من ملف وتم تحديد قيمة غير فارغة لهذه الخاصية، فستأخذ القيمة أولوية على الاسم الفعلي للملف المخزن في[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
+إذا تم تحميل مستند CHM من ملف وتم تحديد قيمة غير فارغة لهذه الخاصية، فستأخذ القيمة الأولوية لـ على الاسم الفعلي للملف المخزن في[`OriginalFileName`](../../../aspose.words/document/originalfilename/) .
 
 ## أمثلة
 
 يوضح كيفية حل عناوين URL مثل "ms-its:myfile.chm::/index.htm".
 
 ```csharp
-// تحتوي وثيقتنا على عناوين URL مثل "ms-its:amhelp.chm::....htm"، ولكن لها اسمًا مختلفًا،
-// لذلك لا تعمل روابط الملفات بعد حفظها بتنسيق HTML.
-// نحتاج إلى تحديد اسم الملف الأصلي في "ChmLoadOptions" لتجنب هذا السلوك.
+// تحتوي مستندنا على عناوين URL مثل "ms-its:amhelp.chm::....htm"، ولكن لها اسم مختلف،
+// لذلك فإن روابط الملف لا تعمل بعد حفظه في HTML.
+// نحتاج إلى تحديد اسم الملف الأصلي في 'ChmLoadOptions' لتجنب هذا السلوك.
 ChmLoadOptions loadOptions = new ChmLoadOptions { OriginalFileName = "amhelp.chm" };
 
 Document doc = new Document(new MemoryStream(File.ReadAllBytes(MyDir + "Document with ms-its links.chm")),

@@ -3,7 +3,7 @@ title: LoadOptions.LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words لـ .NET
-description: LoadOptions LanguagePreferences ملكية. يحصل على تفضيلات اللغة التي سيتم استخدامها عند تحميل المستند في C#.
+description: اكتشف LoadOptions LanguagePreferences لتخصيص تحميل المستندات باللغات المفضلة، مما يعزز تجربة المستخدم وإمكانية الوصول.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.loading/loadoptions/languagepreferences/

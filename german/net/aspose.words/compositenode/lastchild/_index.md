@@ -3,7 +3,7 @@ title: CompositeNode.LastChild
 linktitle: LastChild
 articleTitle: LastChild
 second_title: Aspose.Words für .NET
-description: CompositeNode LastChild eigendom. Ruft das letzte untergeordnete Element des Knotens ab in C#.
+description: Entdecken Sie die CompositeNode LastChild-Eigenschaft, um einfach auf den letzten untergeordneten Knoten zuzugreifen und ihn zu bearbeiten und so Ihre Datenstrukturverwaltung zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/compositenode/lastchild/
@@ -18,11 +18,11 @@ public Node LastChild { get; }
 
 ## Bemerkungen
 
-Wenn es keinen letzten untergeordneten Knoten gibt, a`Null` wird zurückgegeben.
+Wenn es keinen letzten Kindknoten gibt,`null` wird zurückgegeben.
 
 ## Beispiele
 
-Zeigt, wie die Methoden von Node und CompositeNode verwendet werden, um einen Abschnitt vor dem letzten Abschnitt im Dokument zu entfernen.
+Zeigt, wie man mit den Methoden von Node und CompositeNode einen Abschnitt vor dem letzten Abschnitt im Dokument entfernt.
 
 ```csharp
 Document doc = new Document();
@@ -36,11 +36,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt entfernen.
+// Entfernen Sie einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Der Abschnitt, den wir entfernt haben, war der erste, so dass nur noch der zweite im Dokument übrig blieb.
+// Wir haben den ersten Abschnitt entfernt, sodass im Dokument nur der zweite übrig blieb.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

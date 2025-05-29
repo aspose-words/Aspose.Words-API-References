@@ -2,8 +2,8 @@
 title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldUpdatingProgressArgs UpdatedFieldsCount 财产. 获取更新字段的数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldUpdatingProgressArgs 的 UpdatedFieldsCount 属性，轻松跟踪应用程序中更新字段的数量。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## 例子
 
-演示如何在字段更新期间使用回调方法。
+展示如何在字段更新期间使用回调方法。
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// 如果您想在字段更新期间调用您自己的自定义方法，请实现此接口。
+/// 如果您希望在字段更新期间调用自己的自定义方法，请实现此接口。
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// 在更新字段之前调用的用户定义方法。
+    /// 在字段更新之前调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// 更新字段后调用的用户定义方法。
+    /// 在字段更新后立即调用的用户定义方法。
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag StyleName свойство. Получает или задает имя стиля примененного к тегу структурированного документа на С#.
+description: Откройте для себя свойство StyleName StructuredDocumentTag. Легко управляйте и настраивайте стили для своих документов, чтобы улучшить организацию и ясность.
 type: docs
 weight: 270
 url: /ru/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-Получает или задает имя стиля, примененного к тегу структурированного документа.
+Возвращает или задает имя стиля, примененного к структурированному тегу документа.
 
 ```csharp
 public string StyleName { get; set; }
@@ -18,14 +18,14 @@ public string StyleName { get; set; }
 
 ## Примеры
 
-Показывает, как работать со стилями элементов управления содержимым.
+Показывает, как работать со стилями для элементов управления содержимым.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа применения стиля документа к тегу структурированного документа.
-// 1 — применить объект стиля из коллекции стилей документа:
+// Ниже приведены два способа применения стиля из документа к структурированному тегу документа.
+// 1 — Применить объект стиля из коллекции стилей документа:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };

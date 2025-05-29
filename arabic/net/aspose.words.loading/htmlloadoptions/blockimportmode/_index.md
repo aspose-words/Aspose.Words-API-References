@@ -3,14 +3,14 @@ title: HtmlLoadOptions.BlockImportMode
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
 second_title: Aspose.Words لـ .NET
-description: HtmlLoadOptions BlockImportMode ملكية. الحصول على أو تعيين قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة. القيمة الافتراضية هيMerge  في C#.
+description: اكتشف خاصية BlockImportMode في HtmlLoadOptions لتخصيص استيراد العناصر على مستوى الكتلة. تحكّم في الدمج لإدارة مثالية للمحتوى!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.loading/htmlloadoptions/blockimportmode/
 ---
 ## HtmlLoadOptions.BlockImportMode property
 
-الحصول على أو تعيين قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة. القيمة الافتراضية هيMerge .
+يحصل على قيمة تحدد كيفية استيراد خصائص عناصر مستوى الكتلة أو يعينها. القيمة الافتراضية هيMerge .
 
 ```csharp
 public BlockImportMode BlockImportMode { get; set; }
@@ -18,7 +18,7 @@ public BlockImportMode BlockImportMode { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استيراد خصائص العناصر على مستوى الكتلة من المستندات المستندة إلى HTML.
+يوضح كيفية استيراد خصائص عناصر مستوى الكتلة من المستندات المستندة إلى HTML.
 
 ```csharp
 const string html = @"
@@ -33,7 +33,7 @@ const string html = @"
 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-// قم بتعيين الوضع الجديد لاستيراد عناصر مستوى كتلة HTML.
+// تعيين الوضع الجديد لاستيراد عناصر مستوى كتلة HTML.
 loadOptions.BlockImportMode = blockImportMode;
 
 Document doc = new Document(stream, loadOptions);

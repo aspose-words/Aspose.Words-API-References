@@ -3,9 +3,9 @@ title: ImageType Enum
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.ImageType énumération. Spécifie le type format dune image dans un document Microsoft Word en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.ImageType pour gérer facilement les formats d'image dans les documents Microsoft Word. Améliorez l'attrait visuel de vos documents !
 type: docs
-weight: 1080
+weight: 1410
 url: /fr/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -21,16 +21,27 @@ public enum ImageType
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | NoImage | `0` | Il n'y a pas de données d'image. |
-| Unknown | `1` | Un type d'image inconnu ou un type d'image qui ne peut pas être directement stocké dans un document Microsoft Word. |
-| Emf | `2` | Métafichier amélioré Windows. |
+| Unknown | `1` | Un type d'image inconnu ou un type d'image qui ne peut pas être stocké directement dans un document Microsoft Word. |
+| Emf | `2` | Métafichier Windows amélioré. |
 | Wmf | `3` | Métafichier Windows. |
 | Pict | `4` | Macintosh PICT. Une image existante sera conservée dans un document, mais l'insertion de nouvelles images PICT dans un document n'est pas prise en charge. |
 | Jpeg | `5` | JPEG JFIF. |
-| Png | `6` | Graphiques réseau portables. |
-| Bmp | `7` | Bitmap Windows. |
+| Png | `6` | Carte graphique réseau portable. |
+| Bmp | `7` | Image bitmap Windows. |
 | Eps | `8` | PostScript encapsulé. |
+| WebP | `9` | WebP. |
+| Gif | `10` | GIF |
 
 ## Exemples
+
+Montre comment lire une image WebP.
+
+```csharp
+Document doc = new Document(MyDir + "Document with WebP image.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.AreEqual(ImageType.WebP, shape.ImageData.ImageType);
+```
 
 Montre comment ajouter une image à une forme et vérifier son type.
 
@@ -38,16 +49,8 @@ Montre comment ajouter une image à une forme et vérifier son type.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
-
-using (MemoryStream stream = new MemoryStream(imageBytes))
-{
-    Image image = Image.FromStream(stream);
-
-    // L'image dans l'URL est un .gif. L'insérer dans un document le convertit en .png.
-    Shape imgShape = builder.InsertImage(image);
-    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
-}
+Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
+Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 ```
 
 ### Voir également

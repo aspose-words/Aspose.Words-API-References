@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
 second_title: Aspose.Words för .NET
-description: FieldMergeBarcode BarcodeValue fast egendom. Hämtar eller ställer in streckkodsvärdet i C#.
+description: Upptäck egenskapen FieldMergeBarcode BarcodeValue för att enkelt hantera och anpassa dina streckkodsvärden för förbättrad datanoggrannhet och effektivitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -18,14 +18,14 @@ public string BarcodeValue { get; set; }
 
 ## Exempel
 
-Visar hur man utför en brevkoppling på EAN13 streckkoder.
+Visar hur man utför en dokumentkoppling på EAN13-streckkoder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Det här fältet konverterar alla värden i en sammanslagningsdatakällas kolumn "MyEAN13Barcode" till EAN13-streckkoder.
+// Infoga ett fält för MERGEBARCODE, som accepterar värden från en datakälla under en dokumentkoppling.
+// Det här fältet konverterar alla värden i kolumnen "MyEAN13Barcode" i en sammanfogad datakälla till EAN13-streckkoder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -39,9 +39,9 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Skapa en DataTable med en kolumn med samma namn som vårt MERGEBARCODE-fälts BarcodeValue.
-// Brevkopplingen skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
-// som kommer att visa en EAN13 streckkod med värdet från den sammanslagna raden.
+// Skapa en datatabell med en kolumn med samma namn som vårt MERGEBARCODE-fälts streckkodsvärde.
+// Kopplad utskrifter skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
+// vilket visar en EAN13-streckkod med värdet från den sammanslagna raden.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
 table.Rows.Add(new[] { "501234567890" });
@@ -59,14 +59,14 @@ Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-Visar hur man utför en sammanfogning på QR-streckkoder.
+Visar hur man utför en dokumentkoppling på QR-streckkoder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEBARCODE-fält, som kommer att acceptera värden från en datakälla under en e-postkoppling.
-// Detta fält kommer att konvertera alla värden i en sammanslagningsdatakällas "MyQRCode"-kolumn till QR-koder.
+// Infoga ett fält för MERGEBARCODE, som accepterar värden från en datakälla under en dokumentkoppling.
+// Det här fältet konverterar alla värden i kolumnen "MyQRCode" i en sammanfogad datakälla till QR-koder.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -84,9 +84,9 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Skapa en DataTable med en kolumn med samma namn som vårt MERGEBARCODE-fälts BarcodeValue.
-// Brevkopplingen skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
-// som kommer att visa en QR-kod med värdet från den sammanslagna raden.
+// Skapa en datatabell med en kolumn med samma namn som vårt MERGEBARCODE-fälts streckkodsvärde.
+// Kopplad utskrifter skapar en ny sida för varje rad. Varje sida kommer att innehålla ett DISPLAYBARCODE-fält,
+// vilket visar en QR-kod med värdet från den sammanslagna raden.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

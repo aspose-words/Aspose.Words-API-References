@@ -3,7 +3,7 @@ title: Cluster.DeepClone
 linktitle: DeepClone
 articleTitle: DeepClone
 second_title: Aspose.Words pour .NET
-description: Cluster DeepClone méthode. Renvoie un clone profond de cette instance en C#.
+description: Découvrez la méthode Cluster DeepClone pour créer sans effort une copie complète de votre instance, garantissant l'intégrité des données et une fonctionnalité transparente.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.shaping/cluster/deepclone/

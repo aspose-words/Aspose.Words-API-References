@@ -2,8 +2,8 @@
 title: Story.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
-second_title: Aspose.Words for .NET
-description: Story LastParagraph mülk. Hikayedeki son paragrafı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Hikayenizin son paragrafına Story LastParagraph özelliğiyle zahmetsizce ulaşın, anlatı yönetimi ve düzenleme deneyiminizi geliştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/story/lastparagraph/
@@ -18,27 +18,27 @@ public Paragraph LastParagraph { get; }
 
 ## Örnekler
 
-DocumentBuilder'ın imleç konumunun belirli bir düğüme nasıl taşınacağını gösterir.
+Bir DocumentBuilder'ın imleç konumunun belirtilen bir düğüme nasıl taşınacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Run 1. ");
 
-// Belge oluşturucunun belgenin bir parçası olarak görev yapan bir imleci vardır
-// belge oluşturma yöntemlerini kullandığımızda oluşturucunun yeni düğümler eklediği yer.
-// Bu imleç Microsoft Word'ün yanıp sönen imleciyle aynı şekilde çalışır,
-// ve ayrıca her zaman oluşturucunun az önce eklediği herhangi bir düğümden hemen sonra biter.
+// Belge oluşturucunun, belgenin bir parçası olarak işlev gören bir imleci vardır
+// Oluşturucunun belge oluşturma yöntemlerini kullandığımızda yeni düğümler eklediği yer.
+// Bu imleç, Microsoft Word'ün yanıp sönen imleciyle aynı şekilde çalışır,
+// ve ayrıca her zaman oluşturucunun eklediği herhangi bir düğümün hemen ardından sonlanır.
 // Belgenin farklı bir bölümüne içerik eklemek için,
 // "MoveTo" metodu ile imleci farklı bir düğüme taşıyabiliriz.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // İmleç artık onu taşıdığımız düğümün önünde.
-// İkinci bir çalıştırmanın eklenmesi onu ilk çalıştırmanın önüne ekleyecektir.
+// İkinci bir çalışma eklemek, onu ilk çalışmanın önüne ekleyecektir.
 builder.Writeln("Run 2. ");
 
 Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
 
-// Metni daha önce olduğu gibi sonuna eklemeye devam etmek için imleci belgenin sonuna taşıyın.
+// Metni daha önce olduğu gibi belgenin sonuna eklemeye devam etmek için imleci belgenin sonuna getirin.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 

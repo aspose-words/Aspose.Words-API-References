@@ -3,7 +3,7 @@ title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
 second_title: Aspose.Words для .NET
-description: ChartXValue StringValue свойство. Получает сохраненное строковое значение на С#.
+description: Откройте для себя свойство ChartXValue StringValue, которое эффективно извлекает и управляет сохраненными строковыми значениями для улучшенной визуализации данных.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.drawing.charts/chartxvalue/stringvalue/

@@ -2,15 +2,15 @@
 title: SaveOptions.UpdateLastSavedTimeProperty
 linktitle: UpdateLastSavedTimeProperty
 articleTitle: UpdateLastSavedTimeProperty
-second_title: Aspose.Words for .NET
-description: SaveOptions UpdateLastSavedTimeProperty mülk. Bir değer alır veya ayarlar.LastSavedTime özellik kaydedilmeden önce güncellenir C#'da.
+second_title: .NET için Aspose.Words
+description: SaveOptions'ınızı UpdateLastSavedTimeProperty ile optimize edin. Verimli veri yönetimi ve gelişmiş performans için LastSavedTime güncellemelerini kontrol edin.
 type: docs
-weight: 180
+weight: 190
 url: /tr/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-Bir değer alır veya ayarlar.[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) özellik kaydedilmeden önce güncellenir.
+Bir değeri alır veya ayarlar.[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) özellik kaydedilmeden önce güncellenir.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }
@@ -18,7 +18,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ## Örnekler
 
-Kaydederken belgenin "Son kaydedilen zaman" özelliğinin korunup korunmayacağının nasıl belirleneceğini gösterir.
+Kaydederken belgenin "Son kaydedildiği zaman" özelliğinin korunup korunmayacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,12 +26,12 @@ Document doc = new Document(MyDir + "Document.docx");
 Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
     doc.BuiltInDocumentProperties.LastSavedTime);
 
-// Belgeyi OOXML formatında kaydettiğimizde bir OoxmlSaveOptions nesnesi oluşturabiliriz
-// ve ardından belgeyi kaydetme şeklimizi değiştirmek için bunu belgenin kaydetme yöntemine aktarın.
+// Belgeyi OOXML biçiminde kaydettiğimizde, bir OoxmlSaveOptions nesnesi oluşturabiliriz
+// ve ardından belgenin nasıl kaydedileceğini değiştirmek için bunu belgenin kaydetme yöntemine geçiriyoruz.
 // "UpdateLastSavedTimeProperty" özelliğini "true" olarak ayarlayın
-// çıktı belgesinin "Son kaydedilen zaman" yerleşik özelliğini geçerli tarih/saat olarak ayarlayın.
+// çıktı belgesinin "Son kaydedilen zaman" yerleşik özelliğini geçerli tarih/saate ayarla.
 // "UpdateLastSavedTimeProperty" özelliğini "false" olarak ayarlayın
-// giriş belgesinin "Son kaydedilen zaman" yerleşik özelliğinin orijinal değerini koruyun.
+// Giriş belgesinin "Son kaydedilen zaman" yerleşik özelliğinin orijinal değerini koru.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 
@@ -41,7 +41,7 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.LastSavedTime.docx");
 DateTime lastSavedTimeNew = doc.BuiltInDocumentProperties.LastSavedTime;
 
 if (updateLastSavedTimeProperty)
-    Assert.That(DateTime.Now, Is.EqualTo(lastSavedTimeNew).Within(1).Days);
+    Assert.IsTrue((DateTime.Now - lastSavedTimeNew).Days < 1);
 else
     Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
         lastSavedTimeNew);

@@ -3,9 +3,9 @@ title: RevisionColor Enum
 linktitle: RevisionColor
 articleTitle: RevisionColor
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Layout.RevisionColor énumération. Permet de spécifier la couleur des révisions du document en C#.
+description: Découvrez l'énumération Aspose.Words.Layout.RevisionColor pour personnaliser les couleurs de révision des documents, améliorant ainsi la clarté et la collaboration dans vos documents.
 type: docs
-weight: 3380
+weight: 3830
 url: /fr/net/aspose.words.layout/revisioncolor/
 ---
 ## RevisionColor enumeration
@@ -39,8 +39,15 @@ public enum RevisionColor
 | Violet | `16` | Représente 633277 couleurs. |
 | White | `17` | Représente la couleur ffffff. |
 | Yellow | `18` | Représente la couleur fad272. |
-| NoHighlight | `19` | Aucune couleur n'est utilisée pour mettre en évidence les modifications de révision. |
-| ByAuthor | `20` | Les révisions de chaque auteur reçoivent leur propre couleur pour la mise en évidence à partir d'un ensemble prédéfini de couleurs à contraste élevé. |
+| LightPink | `19` | Représente la couleur fce6f4. |
+| LightBlue | `20` | Représente la couleur e1f2fa. |
+| LightYellow | `21` | Représente la couleur fef4de. |
+| LightPurple | `22` | Représente la couleur de la tête. |
+| LightOrange | `23` | Représente la couleur fce3d0. |
+| LightGreen | `24` | Représente la couleur e9f8ce. |
+| Gray | `25` | Représente la couleur définie. |
+| NoHighlight | `26` | Aucune couleur n'est utilisée pour mettre en évidence les modifications de révision. |
+| ByAuthor | `27` | Les révisions de chaque auteur reçoivent leur propre couleur de surbrillance à partir d'un ensemble prédéfini de couleurs à contraste élevé. |
 
 ## Exemples
 
@@ -50,18 +57,19 @@ Montre comment modifier l’apparence des révisions dans un document de sortie 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une révision, puis change la couleur de toutes les révisions en vert.
+// Insérez une révision, puis changez la couleur de toutes les révisions en vert.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Supprime la barre qui apparaît à gauche de chaque ligne révisée.
+// Supprimez la barre qui apparaît à gauche de chaque ligne révisée.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Voir également

@@ -2,8 +2,8 @@
 title: FontSubstitutionSettings.FontConfigSubstitution
 linktitle: FontConfigSubstitution
 articleTitle: FontConfigSubstitution
-second_title: 用于 .NET 的 Aspose.Words
-description: FontSubstitutionSettings FontConfigSubstitution 财产. 与字体配置替换规则相关的设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FontSubstitutionSettings 以优化字体配置。探索如何通过有效的替换规则来增强排版效果，从而获得更佳的设计。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fonts/fontsubstitutionsettings/fontconfigsubstitution/
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// FontConfigSubstitutionRule 对象在 Windows/非 Windows 平台上的工作方式不同。
+// FontConfigSubstitutionRule 对象在 Windows 和非 Windows 平台上的工作方式不同。
 // 在 Windows 上，它不可用。
 if (isWindows)
 {
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// 在 Linux/Mac 上，我们将可以访问它，并且能够执行操作。
+// 在 Linux/Mac 上，我们将可以访问它，并能够执行操作。
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);

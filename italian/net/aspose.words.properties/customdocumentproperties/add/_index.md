@@ -3,14 +3,14 @@ title: CustomDocumentProperties.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: CustomDocumentProperties Add metodo. Crea una nuova proprietà del documento personalizzato delString tipo di dati in C#.
+description: Crea proprietà di documenti personalizzate e uniche senza sforzo con il metodo Add. Arricchisci i tuoi documenti con tipi di dati String personalizzati per prestazioni ottimali.
 type: docs
 weight: 10
 url: /it/net/aspose.words.properties/customdocumentproperties/add/
 ---
 ## Add(*string, string*) {#add_4}
 
-Crea una nuova proprietà del documento personalizzato delString tipo di dati.
+Crea una nuova proprietà personalizzata del documentoString tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, string value)
@@ -27,7 +27,7 @@ L'oggetto proprietà appena creato.
 
 ## Esempi
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -60,7 +60,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -76,7 +76,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -93,7 +93,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, int*) {#add_2}
 
-Crea una nuova proprietà del documento personalizzato delNumber tipo di dati.
+Crea una nuova proprietà personalizzata del documentoNumber tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, int value)
@@ -110,7 +110,7 @@ L'oggetto proprietà appena creato.
 
 ## Esempi
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -129,7 +129,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -143,7 +143,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -159,7 +159,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -176,7 +176,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, DateTime*) {#add_3}
 
-Crea una nuova proprietà del documento personalizzato delDateTime tipo di dati.
+Crea una nuova proprietà personalizzata del documentoDateTime tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, DateTime value)
@@ -193,17 +193,17 @@ L'oggetto proprietà appena creato.
 
 ## Esempi
 
-Mostra come creare una proprietà del documento personalizzata che contiene una data e un'ora.
+Mostra come creare una proprietà di documento personalizzata che contiene una data e un'ora.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -222,7 +222,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -236,7 +236,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -252,7 +252,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -269,7 +269,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, bool*) {#add}
 
-Crea una nuova proprietà del documento personalizzato delBoolean tipo di dati.
+Crea una nuova proprietà personalizzata del documentoBoolean tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, bool value)
@@ -286,7 +286,7 @@ L'oggetto proprietà appena creato.
 
 ## Esempi
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -305,7 +305,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -319,7 +319,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -335,7 +335,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);
@@ -352,7 +352,7 @@ Assert.AreEqual(0, properties.Count);
 
 ## Add(*string, double*) {#add_1}
 
-Crea una nuova proprietà del documento personalizzato delDouble tipo di dati.
+Crea una nuova proprietà personalizzata del documentoDouble tipo di dati.
 
 ```csharp
 public DocumentProperty Add(string name, double value)
@@ -369,7 +369,7 @@ L'oggetto proprietà appena creato.
 
 ## Esempi
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -388,7 +388,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -402,7 +402,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -418,7 +418,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

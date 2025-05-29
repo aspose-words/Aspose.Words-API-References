@@ -3,14 +3,14 @@ title: Document.Compare
 linktitle: Compare
 articleTitle: Compare
 second_title: Aspose.Words für .NET
-description: Document Compare methode. Vergleicht dieses Dokument mit einem anderen Dokument und erzeugt Änderungen als Anzahl der Bearbeitungs und FormatrevisionenRevision  in C#.
+description: Vergleichen Sie Dokumente mühelos mit unserem Tool „Dokumentenvergleich“. Identifizieren Sie Bearbeitungen und Formatänderungen schnell und sorgen Sie so für optimierte Überarbeitungen und eine verbesserte Zusammenarbeit.
 type: docs
-weight: 560
+weight: 600
 url: /de/net/aspose.words/document/compare/
 ---
 ## Compare(*[Document](../), string, DateTime*) {#compare}
 
-Vergleicht dieses Dokument mit einem anderen Dokument und erzeugt Änderungen als Anzahl der Bearbeitungs- und Formatrevisionen[`Revision`](../../revision/) .
+Vergleicht dieses Dokument mit einem anderen Dokument und führt zu Änderungen hinsichtlich der Anzahl der Bearbeitungen und Formatänderungen.[`Revision`](../../revision/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime)
@@ -19,8 +19,8 @@ public void Compare(Document document, string author, DateTime dateTime)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | document | Document | Dokument zum Vergleichen. |
-| author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
-| dateTime | DateTime | Das für Überarbeitungen zu verwendende Datum und die Uhrzeit. |
+| author | String | Initialen des Autors, die für Überarbeitungen verwendet werden sollen. |
+| dateTime | DateTime | Das für Revisionen zu verwendende Datum und die Uhrzeit. |
 
 ## Bemerkungen
 
@@ -39,7 +39,7 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// Beim Vergleich von Dokumenten mit Revisionen wird eine Ausnahme ausgelöst.
+// Beim Vergleichen von Dokumenten mit Revisionen wird eine Ausnahme ausgelöst.
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
@@ -67,7 +67,7 @@ Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
 
 ## Compare(*[Document](../), string, DateTime, [CompareOptions](../../../aspose.words.comparing/compareoptions/)*) {#compare_1}
 
-Vergleicht dieses Dokument mit einem anderen Dokument und führt zu Änderungen in Form einer Reihe von Bearbeitungs- und Formatrevisionen[`Revision`](../../revision/) . Ermöglicht die Angabe von Vergleichsoptionen mit[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
+Vergleicht dieses Dokument mit einem anderen Dokument und führt zu Änderungen in Form von Bearbeitungs- und Formatänderungen.[`Revision`](../../revision/) . Ermöglicht die Angabe von Vergleichsoptionen mit[`CompareOptions`](../../../aspose.words.comparing/compareoptions/) .
 
 ```csharp
 public void Compare(Document document, string author, DateTime dateTime, CompareOptions options)
@@ -75,10 +75,10 @@ public void Compare(Document document, string author, DateTime dateTime, Compare
 
 ## Beispiele
 
-Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
+Zeigt, wie beim Vergleichen bestimmte Typen von Dokumentelementen gefiltert werden.
 
 ```csharp
-// Das Originaldokument erstellen und es mit verschiedenen Arten von Elementen füllen.
+// Erstellen Sie das Originaldokument und füllen Sie es mit verschiedenen Arten von Elementen.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -108,7 +108,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Header:
+// Kopfzeile:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -121,27 +121,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
 // Beim Vergleichen von Dokumenten wird für jede Bearbeitung im bearbeiteten Dokument eine Revision erstellt.
 // Ein CompareOptions-Objekt verfügt über eine Reihe von Flags, die Revisionen unterdrücken können
-// für jeden jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// auf jedem jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### Siehe auch

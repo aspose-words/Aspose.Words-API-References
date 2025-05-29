@@ -2,15 +2,15 @@
 title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
-second_title: 用于 .NET 的 Aspose.Words
-description: Table StyleIdentifier 财产. 获取或设置应用于此表的表样式的区域设置独立样式标识符 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现表格 StyleIdentifier 属性可以轻松管理与语言环境无关的表格样式，毫不费力地增强数据呈现。
 type: docs
 weight: 280
 url: /zh/net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property
 
-获取或设置应用于此表的表样式的区域设置独立样式标识符。
+获取或设置应用于此表的表格样式的区域设置独立样式标识符。
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,7 +18,7 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## 例子
 
-演示如何在应用样式时构建新表格。
+展示如何在应用样式的同时构建新表。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertCell();
 // 请注意，保存为 .doc 格式时并非所有表格样式都可用。
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// 根据谓词将样式部分应用到表的特征，然后构建表。
+// 根据谓词将样式部分应用于表的特征，然后构建表。
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

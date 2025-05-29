@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions PageMargins свойство. Определяет поля вокруг страниц в документе HTML. Значение полей измеряется в пунктах и должно быть равно или больше 0. Значение по умолчанию  10 пунктов на С#.
+description: Откройте для себя свойство HtmlFixedSaveOptions PageMargins для настройки полей вашего HTML-документа. Задайте значения в пунктах для точного управления макетом.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-Определяет поля вокруг страниц в документе HTML. Значение полей измеряется в пунктах и должно быть равно или больше 0. Значение по умолчанию — 10 пунктов.
+Задает поля вокруг страниц в документе HTML. Значение полей измеряется в пунктах и должно быть равно или больше 0. Значение по умолчанию — 10 пунктов.
 
 ```csharp
 public double PageMargins { get; set; }
@@ -22,7 +22,7 @@ public double PageMargins { get; set; }
 
 * Определяет верхнее, нижнее и левое поля страницы, если значение равноLeft .
 * Определяет верхнее, нижнее и правое поля страницы, если значение равноRight .
-* Определяет верхние и нижние поля страницы, если значение равноCenter .
+* Определяет верхнее и нижнее поля страницы, если значение равноCenter .
 
 ## Примеры
 

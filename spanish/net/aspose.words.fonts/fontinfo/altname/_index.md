@@ -3,14 +3,14 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words para .NET
-description: FontInfo AltName propiedad. Obtiene o establece el nombre alternativo de la fuente en C#.
+description: Descubra la propiedad AltName de FontInfo, administre fácilmente nombres de fuentes alternativos para mejorar la tipografía y optimizar sus proyectos de diseño.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-Obtiene o establece el nombre alternativo de la fuente.
+Obtiene o establece el nombre alternativo para la fuente.
 
 ```csharp
 public string AltName { get; set; }
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Los nombres alternativos suelen estar en blanco.
+        // Los nombres Alt normalmente están en blanco.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

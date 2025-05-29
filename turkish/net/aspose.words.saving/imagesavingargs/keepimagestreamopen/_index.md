@@ -2,15 +2,15 @@
 title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
-second_title: Aspose.Words for .NET
-description: ImageSavingArgs KeepImageStreamOpen mülk. Aspose.Wordsün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words için ImageSavingArgs'daki KeepImageStreamOpen özelliğini keşfedin. Verimli görüntü kaydetme ve gelişmiş performans için akış davranışını kontrol edin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-Aspose.Words'ün görüntüyü kaydettikten sonra akışı açık mı tutması yoksa kapatması mı gerektiğini belirtir.
+Aspose.Words'ün bir görüntüyü kaydettikten sonra akışı açık tutması mı yoksa kapatması mı gerektiğini belirtir.
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -18,19 +18,19 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## Notlar
 
-Varsayılan:`YANLIŞ` ve Aspose.Words, sağladığınız akışını kapatacaktır.[`ImageStream`](../imagestream/) içine bir resim yazdıktan sonra özellik. Belirtin`doğru` Akışı açık tutmak için.
+Varsayılan`YANLIŞ` ve Aspose.Words, sağladığınız akışı kapatacaktır [`ImageStream`](../imagestream/) içine bir resim yazıldıktan sonra özellik. Belirtin`doğru` akışı açık tutmak için.
 
 ## Örnekler
 
-Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
+Bir HTML dönüştürme işleminde görüntü kaydetme geri aramasının nasıl dahil edileceğini gösterir.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
-    // görüntü kaydetme işlemini özelleştirmek için.
+    // Belgeyi HTML'e kaydettiğimizde, bir geri arama belirtmek için bir SaveOptions nesnesi geçirebiliriz
+    // Görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -38,8 +38,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Kaydetme işlemi yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
-/// bir belgenin HTML'ye aktarılması sırasında.
+/// Kaydetme işlemi görüntüyü yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
+/// Bir belgenin HTML'e aktarılması sırasında.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

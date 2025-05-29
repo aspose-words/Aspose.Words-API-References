@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: OdsoRecipientDataCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
+description: Откройте для себя метод GetEnumerator OdsoRecipientDataCollection — эффективно и легко перебирайте элементы коллекции и расширяйте возможности обработки данных.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/
 ---
 ## OdsoRecipientDataCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<OdsoRecipientData> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<OdsoRecipientData> GetEnumerator()
 
 ## Примеры
 
-Показывает, как получить доступ к коллекции данных, определяющей, какие записи источника данных слияния будут исключены при слиянии почты.
+Показывает, как получить доступ к набору данных, определяющему, какие записи источников данных слияния будут исключены при слиянии почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

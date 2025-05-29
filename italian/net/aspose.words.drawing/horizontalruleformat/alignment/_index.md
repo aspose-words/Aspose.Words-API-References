@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words per .NET
-description: HorizontalRuleFormat Alignment proprietà. Ottiene o imposta lallineamento della linea orizzontale in C#.
+description: Scopri la proprietà di allineamento HorizontalRuleFormat per personalizzare facilmente l'allineamento delle regole orizzontali, per una maggiore flessibilità di progettazione.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/horizontalruleformat/alignment/
 ---
 ## HorizontalRuleFormat.Alignment property
 
-Ottiene o imposta l'allineamento della linea orizzontale.
+Ottiene o imposta l'allineamento della regola orizzontale.
 
 ```csharp
 public HorizontalRuleAlignment Alignment { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito èLeft.
 
 ## Esempi
 
-Mostra come inserire una forma di filetto orizzontale e personalizzarne la formattazione.
+Mostra come inserire una forma di regola orizzontale e personalizzarne la formattazione.
 
 ```csharp
 Document doc = new Document();

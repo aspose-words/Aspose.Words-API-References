@@ -2,8 +2,8 @@
 title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
-second_title: Aspose.Words for .NET
-description: OleFormat IconCaption mülk. OLE nesnesinin simge başlığını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge sunumu için OLE nesne simge başlıklarını kolayca almak ve özelleştirmek amacıyla OleFormat IconCaption özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/oleformat/iconcaption/
@@ -12,7 +12,7 @@ url: /tr/net/aspose.words.drawing/oleformat/iconcaption/
 
 OLE nesnesinin simge başlığını alır.
 
-OLE nesnesinin simge olarak gömülmemesi veya resim yazısının alınamaması durumunda, boş dize döndürülür.
+OLE nesnesinin simgesi yoksa veya başlığı alınamıyorsa empty dizesini döndürür.
 
 ```csharp
 public string IconCaption { get; }
@@ -20,26 +20,26 @@ public string IconCaption { get; }
 
 ## Örnekler
 
-Bağlı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
+Bağlantılı ve bağlantısız OLE nesnelerinin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir Microsoft Visio çizimini belgeye OLE nesnesi olarak gömün.
+// Bir Microsoft Visio çizimini OLE nesnesi olarak belgeye göm.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Yerel dosya sistemindeki dosyaya bir bağlantı ekleyin ve bunu bir simge olarak görüntüleyin.
+// Yerel dosya sistemindeki dosyaya bir bağlantı ekle ve bunu bir simge olarak görüntüle.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// OLE nesneleri eklemek, bu nesneleri saklayan şekiller oluşturur.
+// OLE nesnelerinin eklenmesi, bu nesneleri depolayan şekiller oluşturur.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Bir şekil bir OLE nesnesi içeriyorsa geçerli bir "OleFormat" özelliğine sahip olacaktır,
-// bunu şeklin bazı yönlerini doğrulamak için kullanabiliriz.
+// Bir şekil bir OLE nesnesi içeriyorsa, geçerli bir "OleFormat" özelliğine sahip olacaktır.
+// şeklin bazı yönlerini doğrulamak için kullanabiliriz.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Nesne OLE verisi içeriyorsa ona bir akış kullanarak erişebiliriz.
+// Eğer nesne OLE verisi içeriyorsa, bir akış kullanarak ona erişebiliriz.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

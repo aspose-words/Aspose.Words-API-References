@@ -2,15 +2,15 @@
 title: Shading.ForegroundPatternColor
 linktitle: ForegroundPatternColor
 articleTitle: ForegroundPatternColor
-second_title: Aspose.Words for .NET
-description: Shading ForegroundPatternColor mülk. Ön plana uygulanan rengi alır veya ayarlar.Shading nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş tasarım ve görsel çekicilik için Gölgeleme nesnenizin ön plan rengini özelleştirmek üzere Gölgeleme Ön Plan Deseni Rengi özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Ön plana uygulanan rengi alır veya ayarlar.[`Shading`](../) nesne.
+Ön plana uygulanan rengi alır veya ayarlar[`Shading`](../) nesne.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ## Örnekler
 
-Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirme ile nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

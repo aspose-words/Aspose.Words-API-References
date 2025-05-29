@@ -3,14 +3,14 @@ title: TxtSaveOptions.PreserveTableLayout
 linktitle: PreserveTableLayout
 articleTitle: PreserveTableLayout
 second_title: Aspose.Words لـ .NET
-description: TxtSaveOptions PreserveTableLayout ملكية. يحدد ما إذا كان يجب على البرنامج أن يحاول الحفاظ على تخطيط الجداول عند الحفظ بتنسيق النص العادي. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف ميزة PreserveTableLayout في TxtSaveOptions، التي تضمن احتفاظ جداولك بتنسيقها عند حفظها كنص عادي. حسّن قابلية قراءة مستندك!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
 ---
 ## TxtSaveOptions.PreserveTableLayout property
 
-يحدد ما إذا كان يجب على البرنامج أن يحاول الحفاظ على تخطيط الجداول عند الحفظ بتنسيق النص العادي. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد ما إذا كان ينبغي للبرنامج محاولة الحفاظ على تخطيط الجداول عند الحفظ بتنسيق نص عادي. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool PreserveTableLayout { get; set; }
@@ -36,14 +36,14 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2");
 builder.EndTable();
 
-// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "TxtSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
 // لتعديل كيفية حفظ المستند إلى نص عادي.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// اضبط خاصية "PreserveTableLayout" على "true" لتطبيق مسافة بيضاء على المحتويات
-// لمستند النص العادي الناتج للحفاظ على أكبر قدر ممكن من تخطيط الجدول.
-// اضبط الخاصية "PreserveTableLayout" على "خطأ" لحفظ كافة محتويات الجداول
-// كنص متواصل، مع سطر جديد فقط لكل صف.
+// اضبط خاصية "PreserveTableLayout" على "true" لتطبيق حشو المسافات البيضاء على المحتويات
+// من مستند النص العادي الناتج للحفاظ على أكبر قدر ممكن من تخطيط الجدول.
+// اضبط خاصية "PreserveTableLayout" على "false" لحفظ محتويات جميع الجداول
+// كجسم نصي مستمر، مع سطر جديد فقط لكل صف.
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions);

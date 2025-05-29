@@ -3,14 +3,14 @@ title: FieldAdvance.DownOffset
 linktitle: DownOffset
 articleTitle: DownOffset
 second_title: Aspose.Words för .NET
-description: FieldAdvance DownOffset fast egendom. Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas nedåt i C#.
+description: Upptäck egenskapen FieldAdvance DownOffset, justera enkelt textpositionering med exakt kontroll över vertikalt avstånd för förbättrad dokumentformatering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldadvance/downoffset/
 ---
 ## FieldAdvance.DownOffset property
 
-Hämtar eller ställer in antalet punkter med vilka texten som följer efter fältet ska flyttas nedåt.
+Hämtar eller anger antalet punkter som texten som följer fältet ska flyttas nedåt med.
 
 ```csharp
 public string DownOffset { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// Nedan finns två sätt att använda ADVANCE-fältet för att justera positionen för text som följer det.
+// Nedan följer två sätt att använda fältet ADVANCE för att justera positionen för text som följer det.
 // Effekterna av ett ADVANCE-fält fortsätter att tillämpas tills stycket slutar,
 // eller ett annat ADVANCE-fält uppdaterar offset-/koordinatvärdena.
 // 1 - Ange en riktningsförskjutning:
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - Flytta text till en position som anges av koordinater:
+// 2 - Flytta text till en position som anges med koordinater:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

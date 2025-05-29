@@ -3,14 +3,14 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: ResourceSavingArgs Document ملكية. الحصول على كائن المستند الذي يتم حفظه حاليًا في C#.
+description: اكتشف خاصية المستند ResourceSavingArgs للوصول إلى كائن المستند الحالي الذي يتم حفظه، مما يعزز كفاءة سير العمل لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/resourcesavingargs/document/
 ---
 ## ResourceSavingArgs.Document property
 
-الحصول على كائن المستند الذي يتم حفظه حاليًا.
+يحصل على كائن المستند الذي يتم حفظه حاليًا.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
+    /// يتم استدعاؤها عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

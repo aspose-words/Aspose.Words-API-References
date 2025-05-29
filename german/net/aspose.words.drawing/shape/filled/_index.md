@@ -3,14 +3,14 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words für .NET
-description: Shape Filled eigendom. Legt fest ob der geschlossene Pfad der Form gefüllt wird in C#.
+description: Steuern Sie die Ästhetik der Form mit der Eigenschaft „Form gefüllt“ und entscheiden Sie, ob Ihre geschlossenen Pfade gefüllt werden, um die Designflexibilität und die optische Attraktivität zu verbessern.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
 
-Legt fest, ob der geschlossene Pfad der Form gefüllt wird.
+Bestimmt, ob der geschlossene Pfad der Form gefüllt wird.
 
 ```csharp
 public bool Filled { get; set; }
@@ -18,7 +18,7 @@ public bool Filled { get; set; }
 
 ## Bemerkungen
 
-Dies ist eine Verknüpfung zum[`Visible`](../../fill/visible/) Eigentum.
+Dies ist eine Abkürzung zum[`Visible`](../../fill/visible/) Eigentum.
 
 Der Standardwert ist`WAHR`.
 
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions Encoding proprietà. Specifica la codifica da utilizzare durante lesportazione in HTML. Il valore predefinito ènuova codifica UTF8true UTF8 con distinta base in C#.
+description: Scopri la proprietà di codifica HtmlFixedSaveOptions per esportazioni HTML fluide. Imposta facilmente la codifica UTF-8 con BOM per un'integrità ottimale dei dati.
 type: docs
 weight: 30
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/encoding/
 ---
 ## HtmlFixedSaveOptions.Encoding property
 
-Specifica la codifica da utilizzare durante l'esportazione in HTML. Il valore predefinito è`nuova codifica UTF8(true)` (UTF-8 con distinta base).
+Specifica la codifica da utilizzare durante l'esportazione in HTML. Il valore predefinito è`nuova codifica UTF8(vero)` (UTF-8 con BOM).
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -27,10 +27,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello World!");
 
 // La codifica predefinita è UTF-8. Se vogliamo rappresentare il nostro documento utilizzando una codifica diversa,
-// possiamo utilizzare un oggetto SaveOptions per impostare una codifica specifica.
+// possiamo usare un oggetto SaveOptions per impostare una codifica specifica.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
-    Encoding = Encoding.GetEncoding("ASCII")
+    Encoding = Encoding.ASCII
 };
 
 Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);

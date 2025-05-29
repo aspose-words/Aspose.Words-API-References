@@ -2,8 +2,8 @@
 title: TableStyle.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
-second_title: Aspose.Words for .NET
-description: TableStyle CellSpacing mülk. Hücreler arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun görünümünü ve okunabilirliğini geliştirmek için hücre aralıklarını noktalar halinde kolayca ayarlamak üzere TableStyle CellSpacing özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/tablestyle/cellspacing/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,7 +3,7 @@ title: MailMerge.DeleteFields
 linktitle: DeleteFields
 articleTitle: DeleteFields
 second_title: Aspose.Words para .NET
-description: MailMerge DeleteFields método. Elimina los campos relacionados con la combinación de correspondencia del documento en C#.
+description: Optimice sin esfuerzo sus documentos con el método DeleteFields de MailMerge, eliminando campos de combinación de correspondencia innecesarios para obtener resultados más limpios y profesionales.
 type: docs
 weight: 170
 url: /es/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -20,7 +20,7 @@ public void DeleteFields()
 
 Este método elimina los campos MERGEFIELD y NEXT del documento.
 
-Este método podría resultar útil si su operación de combinación de correspondencia no siempre necesita para completar todos los campos del documento. Utilice este método para eliminar todos los campos de combinación de correspondencia restantes.
+Este método puede ser útil si la operación de combinación de correspondencia no siempre necesita para rellenar todos los campos del documento. Úselo para eliminar todos los campos de combinación de correspondencia restantes .
 
 ## Ejemplos
 

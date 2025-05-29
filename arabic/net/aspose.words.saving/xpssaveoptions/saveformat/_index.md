@@ -3,14 +3,14 @@ title: XpsSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words لـ .NET
-description: XpsSaveOptions SaveFormat ملكية. يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطXps  في C#.
+description: اكتشف خاصية SaveFormat في XpsSaveOptions، التي تُحدد كيفية حفظ مستندك. تمتع بتنسيق XPS الأمثل لإدارة مستنداتك بسلاسة!
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.saving/xpssaveoptions/saveformat/
 ---
 ## XpsSaveOptions.SaveFormat property
 
-يحدد التنسيق الذي سيتم حفظ المستند به في حالة استخدام كائن خيارات الحفظ هذا. يمكن أن يكون فقطXps .
+يحدد التنسيق الذي سيتم حفظ المستند به إذا تم استخدام كائن خيارات الحفظ هذا. لا يمكن أن يكون إلاXps .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحديد مستوى العناوين التي ستظهر في المخطط التفصيلي لمستند XPS المحفوظ.
+يوضح كيفية تحديد مستوى العناوين التي ستظهر في مخطط مستند XPS المحفوظ.
 
 ```csharp
 Document doc = new Document();
@@ -41,16 +41,16 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading3;
 builder.Writeln("Heading 1.2.1");
 builder.Writeln("Heading 1.2.2");
 
-// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل كيفية تحويل هذا الأسلوب للمستند إلى .XPS.
+// قم بإنشاء كائن "XpsSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل كيفية تحويل هذه الطريقة للمستند إلى .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
 Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
 
-// سيحتوي مستند XPS الناتج على مخطط تفصيلي، وجدول محتويات يسرد العناوين في نص المستند.
-// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
-// قم بتعيين خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
-// لن يظهر العنوانان الأخيران اللذان أدخلناهما أعلاه.
+// سيحتوي مستند XPS الناتج على مخطط تفصيلي، وهو جدول محتويات يسرد العناوين الموجودة في نص المستند.
+// النقر على إدخال في هذا المخطط سيأخذنا إلى موقع العنوان الخاص به.
+// قم بضبط خاصية "HeadingsOutlineLevels" على "2" لاستبعاد جميع العناوين التي تكون مستوياتها أعلى من 2 من المخطط التفصيلي.
+// لن يظهر آخر عنوانين قمنا بإدخالهما أعلاه.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 2;
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.OutlineLevels.xps", saveOptions);

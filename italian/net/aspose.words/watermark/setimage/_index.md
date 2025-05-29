@@ -3,14 +3,14 @@ title: Watermark.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words per .NET
-description: Watermark SetImage metodo. Aggiunge la filigrana dellimmagine al documento in C#.
+description: Migliora i tuoi documenti con il metodo Watermark SetImage. Aggiungi senza sforzo splendide filigrane alle immagini per un tocco professionale.
 type: docs
 weight: 30
 url: /it/net/aspose.words/watermark/setimage/
 ---
 ## SetImage(*Image*) {#setimage}
 
-Aggiunge la filigrana dell'immagine al documento.
+Aggiunge la filigrana dell'immagine nel documento.
 
 ```csharp
 public void SetImage(Image image)
@@ -24,7 +24,37 @@ public void SetImage(Image image)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando l'immagine è`nullo` . |
+| ArgumentNullException | Generato quando l'immagine è`null` . |
+
+## Esempi
+
+Mostra come creare una filigrana da un'immagine nel file system locale.
+
+```csharp
+Document doc = new Document();
+
+            // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
+            // quindi passarlo durante la creazione di una filigrana da un file immagine.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // Abbiamo diverse opzioni per inserire l'immagine:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
 
 ### Guarda anche
 
@@ -36,7 +66,7 @@ public void SetImage(Image image)
 
 ## SetImage(*Image, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_1}
 
-Aggiunge la filigrana dell'immagine al documento.
+Aggiunge la filigrana dell'immagine nel documento.
 
 ```csharp
 public void SetImage(Image image, ImageWatermarkOptions options)
@@ -51,11 +81,11 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando l'immagine è`nullo` . |
+| ArgumentNullException | Generato quando l'immagine è`null` . |
 
 ## Osservazioni
 
-Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
+Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`null`, la filigrana verrà impostata con le opzioni predefinite.
 
 ## Esempi
 
@@ -65,14 +95,19 @@ Mostra come creare una filigrana da un'immagine nel file system locale.
 Document doc = new Document();
 
             // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
-            // quindi lo passa durante la creazione di una filigrana da un file immagine.
+            // quindi passarlo durante la creazione di una filigrana da un file immagine.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Abbiamo diverse opzioni per inserire l'immagine:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
@@ -91,9 +126,9 @@ Document doc = new Document();
 
 ---
 
-## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_3}
 
-Aggiunge la filigrana dell'immagine al documento.
+Aggiunge la filigrana dell'immagine nel documento.
 
 ```csharp
 public void SetImage(string imagePath, ImageWatermarkOptions options)
@@ -101,18 +136,98 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| imagePath | String | Percorso del file immagine visualizzato come filigrana. |
+| imagePath | String | Percorso al file immagine visualizzato come filigrana. |
 | options | ImageWatermarkOptions | Definisce opzioni aggiuntive per la filigrana dell'immagine. |
 
 ### Eccezioni
 
 | eccezione | condizione |
 | --- | --- |
-| ArgumentNullException | Genera quando il percorso è`nullo` . |
+| ArgumentNullException | Genera un'eccezione quando il percorso è`null` . |
 
 ## Osservazioni
 
-Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`nullo`, la filigrana verrà impostata con le opzioni predefinite.
+Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`null`, la filigrana verrà impostata con le opzioni predefinite.
+
+## Esempi
+
+Mostra come creare una filigrana da un'immagine nel file system locale.
+
+```csharp
+Document doc = new Document();
+
+            // Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
+            // quindi passarlo durante la creazione di una filigrana da un file immagine.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // Abbiamo diverse opzioni per inserire l'immagine:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
+
+### Guarda anche
+
+* class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* class [Watermark](../)
+* spazio dei nomi [Aspose.Words](../../../aspose.words/)
+* assemblea [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+
+Aggiunge la filigrana dell'immagine nel documento.
+
+```csharp
+public void SetImage(Stream imageStream, ImageWatermarkOptions options)
+```
+
+| Parametro | Tipo | Descrizione |
+| --- | --- | --- |
+| imageStream | Stream | Il flusso contenente i dati dell'immagine visualizzati come filigrana. |
+| options | ImageWatermarkOptions | Definisce opzioni aggiuntive per la filigrana dell'immagine. |
+
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentNullException | Genera un'eccezione quando il percorso è`null` . |
+
+## Osservazioni
+
+Se[`ImageWatermarkOptions`](../../imagewatermarkoptions/) È`null`, la filigrana verrà impostata con le opzioni predefinite.
+
+## Esempi
+
+Mostra come creare una filigrana da un flusso di immagini.
+
+```csharp
+Document doc = new Document();
+
+// Modifica l'aspetto della filigrana dell'immagine con un oggetto ImageWatermarkOptions,
+// quindi passarlo durante la creazione di una filigrana da un file immagine.
+ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+imageWatermarkOptions.Scale = 5;
+
+using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
+    doc.Watermark.SetImage(imageStream, imageWatermarkOptions);
+
+doc.Save(ArtifactsDir + "Document.ImageWatermarkStream.docx");
+```
 
 ### Guarda anche
 

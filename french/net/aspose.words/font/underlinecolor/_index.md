@@ -3,9 +3,9 @@ title: Font.UnderlineColor
 linktitle: UnderlineColor
 articleTitle: UnderlineColor
 second_title: Aspose.Words pour .NET
-description: Font UnderlineColor propriété. Obtient ou définit la couleur du soulignement appliqué à la police en C#.
+description: Découvrez la propriété Font UnderlineColor pour personnaliser facilement la couleur de soulignement de votre police pour un style de texte amélioré et un attrait visuel.
 type: docs
-weight: 540
+weight: 550
 url: /fr/net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property
@@ -18,7 +18,7 @@ public Color UnderlineColor { get; set; }
 
 ## Exemples
 
-Montre comment configurer le style et la couleur du soulignement d’un texte.
+Montre comment configurer le style et la couleur d'un soulignement de texte.
 
 ```csharp
 Document doc = new Document();

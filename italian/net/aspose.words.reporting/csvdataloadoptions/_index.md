@@ -3,9 +3,9 @@ title: CsvDataLoadOptions Class
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Reporting.CsvDataLoadOptions classe. Rappresenta le opzioni per lanalisi dei dati CSV in C#.
+description: Scopri Aspose.Words.Reporting.CsvDataLoadOptions per un'analisi efficiente dei dati CSV. Ottimizza l'elaborazione dei tuoi documenti con opzioni personalizzabili oggi stesso!
 type: docs
-weight: 4660
+weight: 5400
 url: /it/net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class
@@ -22,7 +22,7 @@ public class CsvDataLoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Inizializza una nuova istanza di questa classe con le opzioni predefinite. |
+| [CsvDataLoadOptions](csvdataloadoptions/#constructor)() | Inizializza una nuova istanza di questa classe con opzioni predefinite. |
 | [CsvDataLoadOptions](csvdataloadoptions/#constructor_1)(*bool*) | Inizializza una nuova istanza di questa classe specificando se i dati CSV contengono nomi di colonna nella prima riga. |
 
 ## Proprietà
@@ -31,12 +31,31 @@ public class CsvDataLoadOptions
 | --- | --- |
 | [CommentChar](../../aspose.words.reporting/csvdataloadoptions/commentchar/) { get; set; } | Ottiene o imposta il carattere utilizzato per commentare le righe di dati CSV. |
 | [Delimiter](../../aspose.words.reporting/csvdataloadoptions/delimiter/) { get; set; } | Ottiene o imposta il carattere da utilizzare come delimitatore di colonna. |
-| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Ottiene o imposta un valore che indica se il primo record di dati CSV contiene nomi di colonne. |
-| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Ottiene o imposta il carattere utilizzato per delimitare i valori dei campi. |
+| [HasHeaders](../../aspose.words.reporting/csvdataloadoptions/hasheaders/) { get; set; } | Ottiene o imposta un valore che indica se il primo record di dati CSV contiene nomi di colonna. |
+| [QuoteChar](../../aspose.words.reporting/csvdataloadoptions/quotechar/) { get; set; } | Ottiene o imposta il carattere utilizzato per racchiudere tra virgolette i valori dei campi. |
 
 ## Osservazioni
 
 Un'istanza di questa classe può essere passata ai costruttori di[`CsvDataSource`](../csvdatasource/) .
+
+## Esempi
+
+Mostra come utilizzare CSV come origine dati (stringa).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Guarda anche
 

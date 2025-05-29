@@ -3,7 +3,7 @@ title: VbaModuleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: VbaModuleCollection Count fast egendom. Returnerar antalet VBAmoduler i samlingen i C#.
+description: Upptäck egenskapen VbaModuleCollection Count, som effektivt räknar dina VBA-moduler och förbättrar ditt kodningsarbetsflöde och din organisation.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbamodulecollection/count/
@@ -29,14 +29,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

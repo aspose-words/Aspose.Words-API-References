@@ -3,14 +3,14 @@ title: AxisCategoryType Enum
 linktitle: AxisCategoryType
 articleTitle: AxisCategoryType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.AxisCategoryType enum. Specifica il tipo di un asse delle categorie in C#.
+description: Scopri l'enum Aspose.Words.Drawing.Charts.AxisCategoryType, che definisce i tipi di asse delle categorie per una visualizzazione avanzata dei dati nei tuoi progetti.
 type: docs
-weight: 530
+weight: 770
 url: /it/net/aspose.words.drawing.charts/axiscategorytype/
 ---
 ## AxisCategoryType enumeration
 
-Specifica il tipo di un asse delle categorie.
+Specifica il tipo di un asse di categoria.
 
 ```csharp
 public enum AxisCategoryType
@@ -20,9 +20,9 @@ public enum AxisCategoryType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Automatic | `0` | Specifica che il tipo di asse delle categorie viene determinato automaticamente in base ai dati. |
+| Automatic | `0` | Specifica che il tipo di un asse di categoria viene determinato automaticamente in base ai dati. |
 | Category | `1` | Specifica un asse di un insieme arbitrario di categorie. |
-| Time | `2` | Specifica un asse della categoria temporale. |
+| Time | `2` | Specifica un asse di categoria temporale. |
 
 ## Esempi
 
@@ -35,16 +35,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
+// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Inserisci una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
+// Inserire una serie di grafici con categorie per l'asse X e rispettivi valori numerici per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Gli assi del grafico hanno varie opzioni che possono cambiarne l'aspetto,
-// come la direzione, i segni di graduazione delle unità maggiori/minori e i segni di graduazione.
+// Gli assi del grafico hanno varie opzioni che possono modificarne l'aspetto,
+// come la loro direzione, le tacche delle unità maggiori/minori e i segni di graduazione.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -53,10 +53,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -66,9 +68,12 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
-// I grafici a colonne non hanno un asse Z.
+// I grafici a colonne non hanno l'asse Z.
 Assert.Null(chart.AxisZ);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");

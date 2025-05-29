@@ -3,16 +3,16 @@ title: MailMergeRegionInfo Class
 linktitle: MailMergeRegionInfo
 articleTitle: MailMergeRegionInfo
 second_title: Aspose.Words für .NET
-description: Aspose.Words.MailMerging.MailMergeRegionInfo klas. Enthält Informationen zu einer Seriendruckregion in C#.
+description: Entdecken Sie die Klasse Aspose.Words.MailMerging.MailMergeRegionInfo für effizientes Serienbriefmanagement. Schalten Sie noch heute die nahtlose Dokumentenautomatisierung frei!
 type: docs
-weight: 3860
+weight: 4550
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/
 ---
 ## MailMergeRegionInfo class
 
-Enthält Informationen zu einer Seriendruckregion.
+Enthält Informationen zu einem Seriendruckbereich.
 
-Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Serienbriefe und Berichte](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class MailMergeRegionInfo
@@ -26,16 +26,16 @@ public class MailMergeRegionInfo
 | [EndMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/) { get; } | Gibt ein End-„Mustache“-Tag für die Region zurück. |
 | [Fields](../../aspose.words.mailmerging/mailmergeregioninfo/fields/) { get; } | Gibt eine Liste untergeordneter Felder zurück. |
 | [Level](../../aspose.words.mailmerging/mailmergeregioninfo/level/) { get; } | Gibt die Verschachtelungsebene für die Region zurück. |
-| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | Gibt eine Liste untergeordneter „Schnurrbart“-Tags zurück. |
+| [MustacheTags](../../aspose.words.mailmerging/mailmergeregioninfo/mustachetags/) { get; } | Gibt eine Liste der untergeordneten „Mustache“-Tags zurück. |
 | [Name](../../aspose.words.mailmerging/mailmergeregioninfo/name/) { get; } | Gibt den Namen der Region zurück. |
 | [ParentRegion](../../aspose.words.mailmerging/mailmergeregioninfo/parentregion/) { get; } | Gibt Informationen zur übergeordneten Region zurück (null für die Region der obersten Ebene). |
-| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Gibt eine Liste der untergeordneten Regionen zurück. |
+| [Regions](../../aspose.words.mailmerging/mailmergeregioninfo/regions/) { get; } | Gibt eine Liste untergeordneter Regionen zurück. |
 | [StartField](../../aspose.words.mailmerging/mailmergeregioninfo/startfield/) { get; } | Gibt ein Startfeld für die Region zurück. |
-| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Gibt ein Start-„Mustache“-Tag für die Region zurück. |
+| [StartMustacheTag](../../aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/) { get; } | Gibt ein Start-Tag „mustache“ für die Region zurück. |
 
 ## Beispiele
 
-Zeigt, wie Seriendruckbereiche überprüft werden.
+Zeigt, wie Serienbriefbereiche überprüft werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -60,6 +60,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Liste der Felder innerhalb der ersten oberen Region abrufen.
 IList<Field> fieldList = topRegions[0].Fields;

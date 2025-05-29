@@ -3,7 +3,7 @@ title: DocumentProperty.LinkSource
 linktitle: LinkSource
 articleTitle: LinkSource
 second_title: Aspose.Words für .NET
-description: DocumentProperty LinkSource eigendom. Ruft die Quelle einer verknüpften benutzerdefinierten Dokumenteigenschaft ab in C#.
+description: Entdecken Sie die LinkSource-Eigenschaft für DocumentProperty und greifen Sie mühelos auf die Quelle Ihrer verknüpften benutzerdefinierten Dokumenteigenschaften zu, um die Dokumentenverwaltung zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.properties/documentproperty/linksource/
@@ -28,8 +28,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// Eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen verknüpfen. Der Wert dieser Immobilie
-// ist der Inhalt des Lesezeichens, auf das es im Mitglied „LinkSource“ verweist.
+// Verknüpfen Sie eine neue benutzerdefinierte Eigenschaft mit einem Lesezeichen. Der Wert dieser Eigenschaft
+// wird der Inhalt des Lesezeichens sein, auf das im Mitglied „LinkSource“ verwiesen wird.
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

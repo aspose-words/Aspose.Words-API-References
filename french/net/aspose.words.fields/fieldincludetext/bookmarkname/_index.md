@@ -3,7 +3,7 @@ title: FieldIncludeText.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText BookmarkName propriété. Obtient ou définit le nom du signet dans le document à inclure en C#.
+description: Découvrez la propriété FieldIncludeText BookmarkName pour gérer et personnaliser facilement les noms de signets dans vos documents pour une organisation et une efficacité améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldincludetext/bookmarkname/
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

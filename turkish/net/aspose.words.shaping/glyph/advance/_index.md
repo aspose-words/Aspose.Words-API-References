@@ -2,8 +2,8 @@
 title: Glyph.Advance
 linktitle: Advance
 articleTitle: Advance
-second_title: Aspose.Words for .NET
-description: Glyph Advance mülk. Sonraki glif için yerleşimi belirten gelişmiş genişlik C#'da.
+second_title: .NET için Aspose.Words
+description: Glyph Advance özelliklerini keşfedin, kusursuz glif yerleşimi ve gelişmiş okunabilirlik için hassas genişlik göstergeleriyle metin düzenini optimize edin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.shaping/glyph/advance/

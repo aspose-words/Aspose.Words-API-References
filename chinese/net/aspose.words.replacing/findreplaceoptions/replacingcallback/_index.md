@@ -2,15 +2,15 @@
 title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: FindReplaceOptions ReplacingCallback 财产. 在每次替换发生之前调用的用户定义方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FindReplaceOptions ReplacingCallback 属性，这是一种可自定义的方法，可以精确地增强替换功能并进行控制。
 type: docs
-weight: 150
+weight: 160
 url: /zh/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
 
-在每次替换发生之前调用的用户定义方法。
+每次替换发生之前调用的用户定义方法。
 
 ```csharp
 public IReplacingCallback ReplacingCallback { get; set; }
@@ -18,7 +18,7 @@ public IReplacingCallback ReplacingCallback { get; set; }
 
 ## 例子
 
-演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
+展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
 
 ```csharp
 public void ReplaceWithCallback()
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-演示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
+展示如何通过 FindReplaceOptions 将不同的字体应用于新内容。
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -84,7 +84,7 @@ public void ConvertNumbersToHexadecimal()
     // 我们可以使用“FindReplaceOptions”对象来修改查找和替换过程。
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // 将“HighlightColor”属性设置为我们想要应用于操作结果文本的背景颜色。
+    // 将“HighlightColor”属性设置为我们想要应用于操作的结果文本的背景颜色。
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -102,7 +102,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// 将数字查找和替换匹配替换为其十六进制等效项。
+/// 用十六进制等效值替换数字查找和替换匹配项。
 /// 维护每次替换的日志。
 /// </summary>
 private class NumberHexer : IReplacingCallback

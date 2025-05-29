@@ -2,15 +2,15 @@
 title: Font.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
-second_title: Aspose.Words for .NET
-description: Font ThemeColor mülk. Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.Font nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Renk düzeninizde özelleştirilebilir tema renkleriyle tasarımlarınızı geliştirmek için Font ThemeColor özelliğini nasıl kullanacağınızı keşfedin.
 type: docs
-weight: 460
+weight: 470
 url: /tr/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Bununla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar.[`Font`](../) nesne.
+Bu temayla ilişkili uygulanan renk şemasındaki tema rengini alır veya ayarlar[`Font`](../) nesne.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Tema yazı tipi özellikleriyle bir stil oluşturun.
+// Tema yazı tipi özellikleriyle biraz stil yaratın.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -36,12 +36,12 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Tema yazı tipleri ve renkleri ile nasıl çalışılacağını gösterir.
+Tema yazı tipleri ve renkleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Varsayılan olarak kullanılan diller için yazı tiplerini tanımlayın.
+// Varsayılan olarak kullanılan diller için yazı tiplerini tanımla.
 doc.Theme.MinorFonts.Latin = "Algerian";
 doc.Theme.MinorFonts.EastAsian = "Aharoni";
 doc.Theme.MinorFonts.ComplexScript = "Andalus";
@@ -49,7 +49,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// Varsayılan değerler yerine tema yazı tipi ve rengini kullanabiliriz.
+// Varsayılan değerler yerine temanın yazı tipini ve rengini kullanabiliriz.
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -72,7 +72,7 @@ Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
 // Yazı tipini ve rengini sıfırlamanın birkaç yolu vardır.
-// 1 - ThemeFont.None/ThemeColor.None ayarını yaparak:
+// 1 - ThemeFont.None/ThemeColor.None ayarlanarak:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

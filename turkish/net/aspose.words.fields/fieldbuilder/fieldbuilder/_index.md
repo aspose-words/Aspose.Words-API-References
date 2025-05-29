@@ -2,15 +2,15 @@
 title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
-second_title: Aspose.Words for .NET
-description: FieldBuilder inşaatçı. Bir örneğini başlatırFieldBuilder class C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizdeki alanları zahmetsizce oluşturmak ve yönetmek için güçlü araç olan FieldBuilder'ı keşfedin. İş akışınızı bugün kolaylaştırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-Bir örneğini başlatır[`FieldBuilder`](../) class.
+Bir örneğini başlatır[`FieldBuilder`](../) sınıf.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -22,18 +22,18 @@ public FieldBuilder(FieldType fieldType)
 
 ## Örnekler
 
-Alan oluşturucuyu kullanarak alanın nasıl oluşturulacağını ve ekleneceğini gösterir.
+Alan oluşturucuyu kullanarak bir alanın nasıl oluşturulacağını ve ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bir belgeye metin içeriği eklemenin kolay bir yolu belge oluşturucu kullanmaktır.
+// Bir belgeye metin içeriği eklemenin kolay bir yolu belge oluşturucuyu kullanmaktır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// Alanların, parça parça alan kodu oluşturmak için kullanabileceğimiz kendi oluşturucuları vardır.
-// Bu durumda ABD posta kodunu temsil eden bir BARKOD alanı oluşturacağız,
-// ve ardından bunu bir Run'ın önüne ekleyin.
+// Alanların, alan kodunu parça parça oluşturmak için kullanabileceğimiz kendi oluşturucuları vardır.
+// Bu durumda, ABD posta kodunu temsil eden bir BARKOD alanı oluşturacağız.
+// ve sonra bunu bir Çalıştır'ın önüne ekleyin.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");
 fieldBuilder.AddSwitch("\\f", "A");

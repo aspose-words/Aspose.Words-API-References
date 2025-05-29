@@ -3,9 +3,9 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words для .NET
-description: Shape Filled свойство. Определяет будет ли заполнен замкнутый контур фигуры на С#.
+description: Управляйте эстетикой формы с помощью свойства «Заливка формы», определяя, будут ли заполнены замкнутые контуры, что повышает гибкость дизайна и визуальную привлекательность.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
@@ -24,7 +24,7 @@ public bool Filled { get; set; }
 
 ## Примеры
 
-Показывает, как перебирать все фигуры в документе.
+Показывает, как перебрать все фигуры в документе.
 
 ```csharp
 public void VisitShapes()
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Регистрирует информацию о внешнем виде посещенных фигур.
+/// Регистрирует информацию, связанную с внешним видом посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -67,7 +67,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла Shape.
+    /// Вызывается, когда посетитель посещает начало узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -103,7 +102,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла Shape.
+    /// Вызывается, когда посетитель посещает конец узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -115,7 +114,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла GroupShape.
+    /// Вызывается, когда посетитель посещает начало узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -126,7 +125,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла GroupShape.
+    /// Вызывается, когда посетитель посещает конец узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

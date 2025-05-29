@@ -3,14 +3,14 @@ title: Paragraph.FrameFormat
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words för .NET
-description: Paragraph FrameFormat fast egendom. Ger tillgång till ramformateringsegenskaperna i C#.
+description: Upptäck egenskapen Paragraph FrameFormat, få enkel åtkomst till och anpassa ramformateringsegenskaper för förbättrad dokumentpresentation.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/paragraph/frameformat/
 ---
 ## Paragraph.FrameFormat property
 
-Ger tillgång till ramformateringsegenskaperna.
+Ger åtkomst till egenskaperna för ramformatering.
 
 ```csharp
 public FrameFormat FrameFormat { get; }

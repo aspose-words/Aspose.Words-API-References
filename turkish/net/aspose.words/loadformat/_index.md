@@ -2,15 +2,15 @@
 title: LoadFormat Enum
 linktitle: LoadFormat
 articleTitle: LoadFormat
-second_title: Aspose.Words for .NET
-description: Aspose.Words.LoadFormat Sıralama. Yüklenecek belgenin formatını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda sorunsuz yükleme ve gelişmiş uyumluluk için belge biçimlerini tanımlayan Aspose.Words.LoadFormat enum'unu keşfedin.
 type: docs
-weight: 3550
+weight: 4000
 url: /tr/net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
 
-Yüklenecek belgenin formatını belirtir.
+Yüklenecek belgenin biçimini belirtir.
 
 ```csharp
 public enum LoadFormat
@@ -20,50 +20,51 @@ public enum LoadFormat
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Auto | `0` | Aspose.Words'e formatı otomatik olarak tanıma talimatını verir. |
+| Auto | `0` | Aspose.Words'e formatı otomatik olarak tanımasını söyler. |
+| MsWorks | `8` | Microsoft Works 8 Belgesi. |
 | Doc | `10` | Microsoft Word 95 veya Word 97 - 2003 Belgesi. |
 | Dot | `11` | Microsoft Word 95 veya Word 97 - 2003 Şablonu. |
-| DocPreWord60 | `12` | Belge Word 95 öncesi formatta. Aspose.Words şu anda bu tür belgelerin yüklenmesini desteklemiyor. |
-| Docx | `20` | Office Açık XML Kelime İşlemeML Belgesi (makrosuz). |
-| Docm | `21` | Office Açık XML Kelime İşlemeML Makro Etkin Belge. |
-| Dotx | `22` | Office Açık XML Kelime İşlemeML Şablonu (makrosuz). |
-| Dotm | `23` | Office Açık XML Kelime İşlemeML Makro Etkin Şablon. |
-| FlatOpc | `24` | Office Açık XML WordprocessingML, ZIP paketi yerine düz bir XML dosyasında saklanır. |
-| FlatOpcMacroEnabled | `25` | Office Açık XML Kelime İşlemeML Makro İçeren Belge, ZIP paketi yerine düz bir XML dosyasında saklanır. |
-| FlatOpcTemplate | `26` | Office Açık XML WordprocessingML Şablonu (makro içermeyen), ZIP paketi yerine düz bir XML dosyasında saklanır. |
-| FlatOpcTemplateMacroEnabled | `27` | Office Açık XML Kelime İşlemeML Makro Etkin Şablonu, ZIP paketi yerine düz bir XML dosyasında saklanır. |
+| DocPreWord60 | `12` | Belge Word 95 öncesi biçimdedir. Aspose.Words şu anda bu tür belgelerin yüklenmesini desteklemiyor. |
+| Docx | `20` | Office Açık XML Kelime İşlemeML Belgesi (makro içermeyen). |
+| Docm | `21` | Office Açık XML Kelime İşlemeML Makro Etkinleştirilmiş Belge. |
+| Dotx | `22` | Office Açık XML Kelime İşlemeML Şablonu (makro içermeyen). |
+| Dotm | `23` | Office Açık XML Kelime İşlemeML Makro Etkin Şablonu. |
+| FlatOpc | `24` | Office Open XML WordprocessingML, bir ZIP paketi yerine düz bir XML dosyasında saklanır. |
+| FlatOpcMacroEnabled | `25` | Office Open XML WordprocessingML Makro Etkinleştirilmiş Belge, bir ZIP paketi yerine düz bir XML dosyasında saklanır. |
+| FlatOpcTemplate | `26` | Office Open XML WordprocessingML Şablonu (makro içermeyen) ZIP paketi yerine düz bir XML dosyasında saklanır. |
+| FlatOpcTemplateMacroEnabled | `27` | Office Open XML WordprocessingML Makro Etkin Şablonu, bir ZIP paketi yerine düz bir XML dosyasında saklanır. |
 | Rtf | `30` | RTF biçimi. |
-| WordML | `31` | Microsoft Word 2003 Kelime İşlemeML biçimi. |
+| WordML | `31` | Microsoft Word 2003 KelimeişlemeML biçimi. |
 | Html | `50` | HTML biçimi. |
-| Mhtml | `51` | MHTML (Web arşivi) formatı. |
-| Mobi | `52` | MOBI biçimi. MobiPocket okuyucu ve Amazon Kindle okuyucuları tarafından kullanılır. |
-| Chm | `53` | CHM (Derlenmiş HTML Yardımı) formatı. |
-| Azw3 | `54` | AZW3 biçimi. Amazon Kindle okuyucuları tarafından kullanılır. |
+| Mhtml | `51` | MHTML (Web arşivi) biçimi. |
+| Mobi | `52` | MOBI formatı. MobiPocket okuyucu ve Amazon Kindle okuyucuları tarafından kullanılır. |
+| Chm | `53` | CHM (Derlenmiş HTML Yardımı) biçimi. |
+| Azw3 | `54` | AZW3 formatı. Amazon Kindle okuyucuları tarafından kullanılır. |
 | Epub | `55` | EPUB biçimi. |
 | Odt | `60` | ODF Metin Belgesi. |
 | Ott | `61` | ODF Metin Belgesi Şablonu. |
 | Text | `62` | Düz Metin. |
-| Markdown | `63` | İşaretleme metin belgesi. |
+| Markdown | `63` | Markdown metin belgesi. |
 | Pdf | `64` | Pdf belgesi. |
 | Xml | `65` | XML belgesi. |
-| Unknown | `255` | Tanınmayan format, Aspose.Words tarafından yüklenemez. |
+| Unknown | `255` | Tanınmayan biçim, Aspose.Words tarafından yüklenemiyor. |
 
 ## Örnekler
 
-Bir web sayfasının .docx dosyası olarak nasıl kaydedildiğini gösterir.
+Bir web sayfasının .docx dosyası olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
-const string url = "https://www.aspose.com/";
+const string url = "https://ürünler.aspose.com/kelimeler/";
 
-using (HttpClient client = new HttpClient()) 
+using (WebClient client = new WebClient())
 {
-    var bytes = await client.GetByteArrayAsync(url);
+    var bytes = client.DownloadData(url);
     using (MemoryStream stream = new MemoryStream(bytes))
     {
-        // URL, ilgili görüntü yollarının doğru şekilde alındığından emin olmak için tekrar baseUri olarak kullanılır.
+        // Herhangi bir bağıl görüntü yolunun doğru şekilde alındığından emin olmak için URL tekrar bir baseUri olarak kullanılır.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
 
-        // HTML belgesini akıştan yükleyin ve LoadOptions nesnesini iletin.
+        // HTML belgesini akıştan yükleyin ve LoadOptions nesnesini geçirin.
         Document doc = new Document(stream, options);
 
         // Bu aşamada belgenin içeriğini okuyup düzenleyebilir ve ardından yerel dosya sistemine kaydedebiliriz.
@@ -72,11 +73,11 @@ using (HttpClient client = new HttpClient())
 }
 ```
 
-Bir html belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
+Bir HTML belgesini açarken temel URI'nin nasıl belirtileceğini gösterir.
 
 ```csharp
-// Göreli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
-// resim farklı bir konumdayken. Bu durumda, göreceli URI'yi mutlak bir URI'ye dönüştürmemiz gerekecek.
+// Göreceli bir URI ile bağlantılı bir resim içeren bir .html belgesi yüklemek istediğimizi varsayalım
+// görüntü farklı bir konumdayken. Bu durumda, bağıl URI'yi mutlak olana dönüştürmemiz gerekecektir.
  // HtmlLoadOptions nesnesini kullanarak bir temel URI sağlayabiliriz.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
@@ -84,7 +85,7 @@ Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Görüntü .html girişinde bozuk olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
+// Giriş .html'deki resim bozulmuş olsa da, özel temel URI'miz bağlantıyı onarmamıza yardımcı oldu.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
@@ -95,7 +96,7 @@ doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 Bir belgenin biçimini algılamak için FileFormatUtil yöntemlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
-// Dosya uzantısı eksik olan bir dosyadan belge yükleyin ve ardından dosya biçimini tespit edin.
+// Dosya uzantısı eksik olan bir dosyadan bir belge yükleyin ve ardından dosya biçimini algılayın.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -103,15 +104,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi verilmiştir.
-    // 1 - LoadFormat için dosya uzantısı dizesini alın, ardından bu dizeden karşılık gelen SaveFormat'ı alın:
+    // Aşağıda bir LoadFormat'ı karşılık gelen SaveFormat'a dönüştürmenin iki yöntemi bulunmaktadır.
+    // 1 - LoadFormat için dosya uzantısı dizesini al, ardından bu dizeden karşılık gelen SaveFormat'ı al:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştürün:
+    // 2 - LoadFormat'ı doğrudan SaveFormat'ına dönüştür:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Akıştan bir belge yükleyin ve ardından onu otomatik olarak algılanan dosya uzantısına kaydedin.
+    // Akıştan bir belge yükleyin ve ardından otomatik olarak algılanan dosya uzantısıyla kaydedin.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

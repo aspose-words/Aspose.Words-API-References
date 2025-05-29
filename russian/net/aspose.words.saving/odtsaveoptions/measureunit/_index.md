@@ -3,9 +3,9 @@ title: OdtSaveOptions.MeasureUnit
 linktitle: MeasureUnit
 articleTitle: MeasureUnit
 second_title: Aspose.Words для .NET
-description: OdtSaveOptions MeasureUnit свойство. Позволяет указать единицы измерения применяемые к содержимому документа. Значение по умолчаниюCentimeters на С#.
+description: Настройте MeasureUnit вашего документа с помощью OdtSaveOptions. Выберите предпочитаемые единицы измерения для точности — по умолчанию это сантиметры.
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.saving/odtsaveoptions/measureunit/
 ---
 ## OdtSaveOptions.MeasureUnit property
@@ -18,7 +18,7 @@ public OdtSaveMeasureUnit MeasureUnit { get; set; }
 
 ## Примечания
 
-Open Office использует сантиметры при указании длины, ширины и других измеряемых свойств форматирования и свойств содержимого в документах, тогда как MS Office использует дюймы.
+Open Office использует сантиметры при указании длины, ширины и других измеряемых форматов и свойств содержимого в документах, тогда как MS Office использует дюймы.
 
 ## Примеры
 
@@ -27,11 +27,11 @@ Open Office использует сантиметры при указании д
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Когда мы экспортируем документ в .odt, мы можем использовать объект OdtSaveOptions, чтобы изменить способ сохранения документа.
-// Мы можем установить для свойства "MeasureUnit" значение "OdtSaveMeasureUnit.Centimeters"
- // для определения содержимого, такого как параметры стиля, с использованием метрической системы, которую использует Open Office.
-// Мы можем установить для свойства "MeasureUnit" значение "OdtSaveMeasureUnit.Inches"
-// для определения содержимого, такого как параметры стиля, с использованием британской системы мер, которую использует Microsoft Word.
+// При экспорте документа в формат .odt мы можем использовать объект OdtSaveOptions, чтобы изменить способ сохранения документа.
+// Мы можем установить свойство "MeasureUnit" на "OdtSaveMeasureUnit.Centimeters"
+ // для определения содержимого, такого как параметры стиля, с использованием метрической системы, используемой Open Office.
+// Мы можем установить свойство "MeasureUnit" на "OdtSaveMeasureUnit.Inches"
+// для определения содержимого, такого как параметры стиля, с использованием имперской системы, используемой в Microsoft Word.
 OdtSaveOptions saveOptions = new OdtSaveOptions
 {
     MeasureUnit = odtSaveMeasureUnit

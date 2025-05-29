@@ -3,14 +3,14 @@ title: Table.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words لـ .NET
-description: Table AllowOverlap ملكية. يحصل على ما إذا كان الجدول العائم يسمح للكائنات العائمة الأخرى في المستند بتداخل نطاقاته عند عرضها. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف خاصية "السماح بالتداخل في الجدول"، التي تتحكم في إمكانية تداخل الكائنات العائمة مع جدولك. حسّن مرونة التخطيط لعرض أفضل للمستندات.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.tables/table/allowoverlap/
 ---
 ## Table.AllowOverlap property
 
-يحصل على ما إذا كان الجدول العائم يسمح للكائنات العائمة الأخرى في المستند بتداخل نطاقاته عند عرضها. القيمة الافتراضية هي`حقيقي` .
+يحصل على ما إذا كان الجدول العائم يسمح للأشياء العائمة الأخرى في المستند بالتداخل مع امتداداته عند عرضها. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool AllowOverlap { get; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // يتوفر الهامش والصفحة والعمود فقط في RelativeHorizontalPosition لأداة ضبط HorizontalAnchor.
-    // سيتم طرح ArgumentException لأي قيم أخرى.
+    // فقط الهامش والصفحة والعمود متاح في RelativeHorizontalPosition لمحدد HorizontalAnchor.
+    //سيتم طرح ArgumentException لأي قيم أخرى.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // يتوفر فقط الهامش والصفحة والفقرة في RelativeVerticalPosition لأداة إعداد VerticalAnchor.
-    // سيتم طرح ArgumentException لأي قيم أخرى.
+    // فقط الهامش والصفحة والفقرة متاحة في RelativeVerticalPosition لمحدد VerticalAnchor.
+    //سيتم طرح ArgumentException لأي قيم أخرى.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

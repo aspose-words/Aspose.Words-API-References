@@ -2,15 +2,15 @@
 title: PclSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: PclSaveOptions SaveFormat 财产. 指定使用此保存选项对象时保存文档的格式 只能是Pcl 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PclSaveOptions SaveFormat 属性可以轻松地以 PCL 格式保存文档，确保项目的兼容性和高质量输出。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pclsaveoptions/saveformat/
 ---
 ## PclSaveOptions.SaveFormat property
 
-指定使用此保存选项对象时保存文档的格式。 只能是Pcl.
+指定如果使用此保存选项对象，文档将以哪种格式保存。 只能是Pcl.
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## 例子
 
-演示如何在将文档保存到 PCL 时对复杂元素进行栅格化。
+展示如何在将文档保存为 PCL 时光栅化复杂元素。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

@@ -3,7 +3,7 @@ title: FieldHyperlink.SubAddress
 linktitle: SubAddress
 articleTitle: SubAddress
 second_title: Aspose.Words pour .NET
-description: FieldHyperlink SubAddress propriété. Obtient ou définit un emplacement dans le fichier tel quun signet où ce lien hypertexte saute en C#.
+description: Découvrez la propriété FieldHyperlink SubAddress pour définir ou récupérer facilement des emplacements de fichiers ou des signets spécifiques pour une navigation par hyperlien transparente.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldhyperlink/subaddress/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié puis placera le curseur sur le signet spécifié.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
@@ -34,7 +34,7 @@ field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress +
 
 builder.Writeln();
 
-// Lorsque l'on clique sur ce champ HYPERLIEN dans Microsoft Word,
+// Lorsque nous cliquons sur ce champ HYPERLINK dans Microsoft Word,
 // il ouvrira le document lié et défilera automatiquement jusqu'à l'iframe spécifié.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

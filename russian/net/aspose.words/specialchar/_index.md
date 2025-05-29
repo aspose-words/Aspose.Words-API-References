@@ -3,16 +3,16 @@ title: SpecialChar Class
 linktitle: SpecialChar
 articleTitle: SpecialChar
 second_title: Aspose.Words для .NET
-description: Aspose.Words.SpecialChar сорт. Базовый класс для специальных символов в документе на С#.
+description: Откройте для себя класс Aspose.Words.SpecialChar, ваш основной инструмент для управления специальными символами в документах. Улучшите обработку документов сегодня!
 type: docs
-weight: 6100
+weight: 6950
 url: /ru/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Базовый класс для специальных символов в документе.
 
-Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) документальная статья.
 
 ```csharp
 public class SpecialChar : Inline
@@ -23,20 +23,20 @@ public class SpecialChar : Inline
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, к которому принадлежит этот узел. |
 | [Font](../../aspose.words/inline/font/) { get; } | Предоставляет доступ к форматированию шрифта этого объекта. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает`истинный` если этот узел может содержать другие узлы. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Возвращает true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Возвращает`истинный` если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Возвращает`истинный` если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | ВозвращаетSpecialChar . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возврат`истинный` если этот узел может содержать другие узлы. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Возвращает значение true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Возврат`истинный` если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Возврат`истинный` если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за данным узлом. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | ВозвратSpecialChar . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Получает родительский элемент[`Paragraph`](../paragraph/) этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../range/) объект, представляющий часть документа, содержащуюся в этом узле. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Возвращает родителя[`Paragraph`](../paragraph/) этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий данному узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../range/)объект, представляющий часть документа, содержащуюся в этом узле. |
 
 ## Методы
 
@@ -47,19 +47,19 @@ public class SpecialChar : Inline
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Получает первого предка указанного[`NodeType`](../nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Получает специальный символ, который представляет этот узел. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ## Примечания
 
-Документ Microsoft Word может включать ряд специальных символов , которые обозначают поля, поля формы, фигуры, объекты OLE, сноски и т. д. Список специальных символов list см.[`ControlChar`](../controlchar/).
+Документ Microsoft Word может включать ряд специальных символов , которые представляют поля, поля форм, фигуры, объекты OLE, сноски и т. д. Список специальных символов см.[`ControlChar`](../controlchar/).
 
-`SpecialChar`является встроенным узлом и может быть только дочерним элементом[`Paragraph`](../paragraph/).
+`SpecialChar` является встроенным узлом и может быть только дочерним узлом[`Paragraph`](../paragraph/).
 
-`SpecialChar` char используется в качестве базового класса для более конкретных классов , которые представляют специальные символы, для которых Aspose.Words предоставляет программный доступ. `SpecialChar` Класс также используется для представления специального символа, для которого Aspose.Words не предоставляет подробного программного доступа.
+`SpecialChar` char используется как базовый класс для более конкретных классов , которые представляют специальные символы, к которым Aspose.Words предоставляет программный доступ. `SpecialChar`класс также используется сам по себе для представления специального символа, для которого Aspose.Words не предоставляет подробный программный доступ.
 
 ## Примеры
 
@@ -71,8 +71,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетитель документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
+    // Ниже приведены три типа полей, которые могут принять посетителя документа,
+    // что позволит ему посетить принимающий узел, а затем обойти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -88,7 +88,7 @@ public void RemoveHiddenContentFromDocument()
 }
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
+/// Удаляет все посещенные узлы, отмеченные как «скрытое содержимое».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -170,7 +170,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается форма.
+    /// Вызывается при обнаружении фигуры в документе.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -207,6 +207,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -214,13 +216,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе завершается посещение узла Таблицы.
+    /// Вызывается, когда посещение узла таблицы в документе завершено.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и дочерних узлов не останется.
+        // Содержимое ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
+        // Если бы в этой таблице не было ничего, кроме скрытого контента, этот посетитель удалил бы его весь,
+        // и не останется ни одного дочернего узла.
         // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
@@ -231,7 +233,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
+    /// Вызывается, когда посещение узла ячейки в документе завершено.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -242,7 +244,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе заканчивается посещение узла Row.
+    /// Вызывается, когда посещение узла строки в документе завершено.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words para .NET
-description: ResourceSavingArgs ResourceStream propiedad. Permite especificar la secuencia donde se guardará el recurso en C#.
+description: Descubra la propiedad ResourceStream de ResourceSavingArgs para definir fácilmente dónde se guardan sus recursos, mejorando la eficiencia y el control en sus proyectos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -18,15 +18,15 @@ public Stream ResourceStream { get; set; }
 
 ## Observaciones
 
-Esta propiedad le permite guardar recursos en secuencias en lugar de archivos.
+Esta propiedad le permite guardar recursos en transmisiones en lugar de archivos.
 
 El valor predeterminado es`nulo` . Cuando esta propiedad es`nulo` , el recurso se guardará en un archivo especificado en el[`ResourceFileName`](../resourcefilename/) propiedad.
 
-Usando[`IResourceSavingCallback`](../../iresourcesavingcallback/) no se puede sustituir un recurso por otro. Está destinado únicamente al control de la ubicación donde ahorrar recursos.
+Usando[`IResourceSavingCallback`](../../iresourcesavingcallback/) No se puede sustituir un recurso por otro . Su propósito es únicamente controlar la ubicación donde se guardan los recursos.
 
 ## Ejemplos
 
-Muestra cómo utilizar una devolución de llamada para imprimir los URI de recursos externos creados al convertir un documento a HTML.
+Muestra cómo utilizar una devolución de llamada para imprimir las URI de recursos externos creados al convertir un documento a HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -46,7 +46,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una carpeta especificada por ResourcesFolderAlias contendrá los recursos en lugar de ResourcesFolder.
-    // Debemos asegurarnos de que la carpeta exista antes de que las transmisiones puedan poner sus recursos en ella.
+    //Debemos asegurarnos de que la carpeta exista antes de que los flujos puedan poner sus recursos en ella.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -60,13 +60,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Cuenta e imprime los URI de los recursos contenidos en a medida que se convierten a HTML fijo.
+/// Cuenta e imprime las URI de los recursos contenidos en él a medida que se convierten a HTML fijo.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Si configuramos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
+        // Si establecemos un alias de carpeta en el objeto SaveOptions, podremos imprimirlo desde aquí.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -75,7 +75,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // De forma predeterminada, 'ResourceFileUri' usa la carpeta del sistema para las fuentes.
+                // De forma predeterminada, 'ResourceFileUri' utiliza la carpeta del sistema para las fuentes.
                 // Para evitar problemas en otras plataformas debes especificar explícitamente la ruta de las fuentes.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si hemos especificado una carpeta en la propiedad "ResourcesFolderAlias",
-        // también necesitaremos redirigir cada secuencia para colocar su recurso en esa carpeta.
+        // También necesitaremos redirigir cada flujo para colocar su recurso en esa carpeta.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

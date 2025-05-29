@@ -2,15 +2,15 @@
 title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase Title 财产. 获取或设置当前形状对象的标题 caption 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松管理 ShapeBase 的标题属性。设置或检索任何形状对象的标题，以增强设计的清晰度和吸引力。
 type: docs
-weight: 530
+weight: 570
 url: /zh/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
 
-获取或设置当前形状对象的标题 (caption)。
+获取或设置当前形状对象的标题（标题）。
 
 ```csharp
 public string Title { get; set; }
@@ -20,11 +20,11 @@ public string Title { get; set; }
 
 默认为空字符串。
 
-不可能是`无效的`，但可以是空字符串。
+不可能`无效的`，但可以是空字符串。
 
 ## 例子
 
-演示如何设置形状的标题。
+展示如何设置形状的标题。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ shape.Title = "My cube";
 
 builder.InsertNode(shape);
 
-// 当我们保存带有标题的形状的文档时，
-// Aspose.Words 会将该标题存储在形状的替代文本中。
+// 当我们保存一个带有标题的形状的文档时，
+// Aspose.Words 将把该标题存储在形状的 Alt Text 中。
 doc.Save(ArtifactsDir + "Shape.Title.docx");
 
 doc = new Document(ArtifactsDir + "Shape.Title.docx");

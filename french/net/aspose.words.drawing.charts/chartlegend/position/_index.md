@@ -3,22 +3,26 @@ title: ChartLegend.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words pour .NET
-description: ChartLegend Position propriété. Spécifie la position de la légende sur un graphique. La valeur par défaut estRight  en C#.
+description: Découvrez la propriété ChartLegend Position pour personnaliser facilement le placement de la légende de votre graphique pour une clarté et un attrait visuel améliorés.
 type: docs
-weight: 30
+weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartlegend/position/
 ---
 ## ChartLegend.Position property
 
-Spécifie la position de la légende sur un graphique. La valeur par défaut estRight .
+Spécifie la position de la légende sur un graphique.
 
 ```csharp
 public LegendPosition Position { get; set; }
 ```
 
+## Remarques
+
+La valeur par défaut estRight pour les graphiques antérieurs à Word 2016 et Top pour les graphiques Word 2016.
+
 ## Exemples
 
-Montre comment modifier l’apparence de la légende d’un graphique.
+Montre comment modifier l'apparence de la légende d'un graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +36,7 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Déplace la légende du graphique vers le coin supérieur droit.
+// Déplacez la légende du graphique vers le coin supérieur droit.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 

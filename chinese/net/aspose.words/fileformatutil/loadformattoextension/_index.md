@@ -2,15 +2,15 @@
 title: FileFormatUtil.LoadFormatToExtension
 linktitle: LoadFormatToExtension
 articleTitle: LoadFormatToExtension
-second_title: 用于 .NET 的 Aspose.Words
-description: FileFormatUtil LoadFormatToExtension 方法. 将加载格式枚举值转换为文件扩展名返回的扩展名是带有前导点的小写字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FileFormatUtil 的 LoadFormatToExtension 方法，轻松将加载格式值转换为文件扩展名。轻松获取准确的小写扩展名！
 type: docs
 weight: 60
 url: /zh/net/aspose.words/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil.LoadFormatToExtension method
 
-将加载格式枚举值转换为文件扩展名。返回的扩展名是带有前导点的小写字符串。
+将加载格式枚举值转换为文件扩展名。返回的扩展名是一个以点开头的小写字符串。
 
 ```csharp
 public static string LoadFormatToExtension(LoadFormat loadFormat)
@@ -24,11 +24,11 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 
 ## 评论
 
-这WordML值转换为“.wml”。
+这WordML值被转换为“.wml”。
 
 ## 例子
 
-演示如何使用 FileFormatUtil 方法来检测文档的格式。
+展示如何使用 FileFormatUtil 方法检测文档的格式。
 
 ```csharp
 // 从缺少文件扩展名的文件中加载文档，然后检测其文件格式。
@@ -39,7 +39,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // 下面是将 LoadFormat 转换为其相应的 SaveFormat 的两种方法。
+    // 以下是将 LoadFormat 转换为其对应的 SaveFormat 的两种方法。
     // 1 - 获取 LoadFormat 的文件扩展名字符串，然后从该字符串获取相应的 SaveFormat：
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
@@ -47,7 +47,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // 2 - 将 LoadFormat 直接转换为其 SaveFormat：
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // 从流中加载文档，然后将其保存到自动检测到的文件扩展名。
+    // 从流中加载文档，然后将其保存到自动检测的文件扩展名。
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

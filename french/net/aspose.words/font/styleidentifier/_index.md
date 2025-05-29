@@ -3,9 +3,9 @@ title: Font.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words pour .NET
-description: Font StyleIdentifier propriété. Obtient ou définit lidentifiant de style indépendant des paramètres régionaux du style de caractère appliqué à cette mise en forme en C#.
+description: Découvrez la propriété Font StyleIdentifier pour gérer facilement les styles de caractères dans votre mise en forme. Améliorez votre conception grâce à des solutions indépendantes des paramètres régionaux !
 type: docs
-weight: 410
+weight: 420
 url: /fr/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
@@ -18,7 +18,7 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Exemples
 
-Montre comment modifier le style du texte existant.
+Montre comment modifier le style d'un texte existant.
 
 ```csharp
 Document doc = new Document();
@@ -33,9 +33,9 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Convertit toutes les utilisations d'un style en un autre,
-// utilisant les méthodes ci-dessus pour référencer les anciens et les nouveaux styles.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Convertir toutes les utilisations d'un style en un autre,
+// en utilisant les méthodes ci-dessus pour référencer les anciens et les nouveaux styles.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

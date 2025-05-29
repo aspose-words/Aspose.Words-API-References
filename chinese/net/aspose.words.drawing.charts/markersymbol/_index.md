@@ -2,10 +2,10 @@
 title: MarkerSymbol Enum
 linktitle: MarkerSymbol
 articleTitle: MarkerSymbol
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.MarkerSymbol 枚举. 指定标记符号样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.MarkerSymbol 枚举以获得可自定义的标记样式，从而增强图表视觉效果并改善数据呈现。
 type: docs
-weight: 920
+weight: 1240
 url: /zh/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
@@ -20,22 +20,22 @@ public enum MarkerSymbol
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Default | `0` | 指定应在每个数据点绘制默认标记符号。 |
-| Circle | `1` | 指定应在每个数据点处绘制一个圆。 |
-| Dash | `2` | 指定应在每个数据点处绘制破折号。 |
-| Diamond | `3` | 指定应在每个数据点绘制菱形。 |
-| Dot | `4` | 指定应在每个数据点绘制一个点。 |
-| None | `5` | 指定在每个数据点处不应绘制任何内容。 |
-| Picture | `6` | 指定应在每个数据点绘制图片。 |
-| Plus | `7` | 指定应在每个数据点处绘制加号。 |
-| Square | `8` | 指定应在每个数据点绘制一个正方形。 |
-| Star | `9` | 指定应在每个数据点绘制一颗星。 |
-| Triangle | `10` | 指定应在每个数据点绘制一个三角形。 |
-| X | `11` | 指定应在每个数据点处绘制 X。 |
+| Default | `0` | 指定应在每个数据点处绘制一个默认标记符号。 |
+| Circle | `1` | 指定在每个数据点处绘制一个圆圈。 |
+| Dash | `2` | 指定在每个数据点处绘制一条虚线。 |
+| Diamond | `3` | 指定在每个数据点处绘制一个菱形。 |
+| Dot | `4` | 指定在每个数据点处绘制一个点。 |
+| None | `5` | 指定每个数据点上不绘制任何内容。 |
+| Picture | `6` | 指定在每个数据点处绘制一幅图。 |
+| Plus | `7` | 指定在每个数据点处绘制一个加号。 |
+| Square | `8` | 指定在每个数据点处绘制一个正方形。 |
+| Star | `9` | 指定在每个数据点处绘制一颗星。 |
+| Triangle | `10` | 指定在每个数据点处绘制一个三角形。 |
+| X | `11` | 指定在每个数据点处绘制一个 X。 |
 
 ## 例子
 
-展示如何使用折线图上的数据点。
+展示如何处理折线图上的数据点。
 
 ```csharp
 public void ChartDataPoint()
@@ -52,13 +52,13 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // 通过使图表的数据点显示为菱形来强调它们。
-    foreach (ChartSeries series in chart.Series) 
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // 平滑表示第一个数据系列的线。
+    // 平滑代表第一个数据系列的线。
     chart.Series[0].Smooth = true;
 
-    // 验证如果值为负数，第一个系列的数据点不会反转其颜色。
+    // 验证当值为负时第一个系列的数据点不会反转其颜色。
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -67,10 +67,13 @@ public void ChartDataPoint()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独清除格式。
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据点。
+    // 为了使图表看起来更清晰，我们可以单独清除格式。
+    dataPoint.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据点。
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

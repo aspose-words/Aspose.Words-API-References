@@ -3,14 +3,14 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words لـ .NET
-description: MailMerge RestartListsAtEachSection ملكية. الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إعادة تشغيل القوائم في كل قسم بعد تنفيذ عملية دمج البريد في C#.
+description: اكتشف خاصية MailMerge RestartListsAtEachSection — تُعاد ضبط قائمة التحكم في كل قسم لضمان دمج بريد سلس. حسّن دقة مستنداتك اليوم!
 type: docs
 weight: 110
 url: /ar/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-الحصول على أو تعيين قيمة تشير إلى ما إذا كان سيتم إعادة تشغيل القوائم في كل قسم بعد تنفيذ عملية دمج البريد.
+يحصل على قيمة أو يعينها للإشارة إلى ما إذا كان سيتم إعادة تشغيل القوائم في كل قسم بعد تنفيذ دمج البريد.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -22,7 +22,7 @@ public bool RestartListsAtEachSection { get; set; }
 
 ## أمثلة
 
-يوضح كيفية التحكم في إعادة تشغيل ترقيم القائمة أم لا في كل قسم عند إجراء دمج البريد.
+يوضح كيفية التحكم فيما إذا كان سيتم إعادة تشغيل ترقيم القائمة في كل قسم عند تنفيذ دمج البريد أم لا.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

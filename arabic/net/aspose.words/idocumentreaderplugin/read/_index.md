@@ -3,14 +3,14 @@ title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
 second_title: Aspose.Words لـ .NET
-description: IDocumentReaderPlugin Read طريقة. يقرأ البيانات من الدفق المحدد إلى ملفDocument المثال في C#.
+description: اقرأ البيانات بسهولة في نسخة مستندك باستخدام طريقة القراءة في IDocumentReaderPlugin. حسّن معالجة مستنداتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/idocumentreaderplugin/read/
 ---
 ## IDocumentReaderPlugin.Read method
 
-يقرأ البيانات من الدفق المحدد إلى ملف[`Document`](../../document/) المثال.
+يقرأ البيانات من التدفق المحدد إلى[`Document`](../../document/) مثال.
 
 ```csharp
 public void Read(Stream src, LoadOptions loadOptions, Document document)
@@ -18,9 +18,9 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| src | Stream | الدفق المصدر لقراءة المستند منه. |
+| src | Stream | مصدر الدفق الذي سيتم قراءة المستند منه. |
 | loadOptions | LoadOptions | خيارات تحميل إضافية لتحميل المستند. |
-| document | Document | مثال ال[`Document`](../../document/) فئة لقراءة البيانات ل. إذا كان المثيل يحتوي على بعض المحتوى، فسيتم تجاوزه بواسطة البيانات من الدفق المصدر |
+| document | Document | مثال على ذلك[`Document`](../../document/) الفئة التي سيتم قراءة البيانات إليها. إذا كانت المثيل تحتوي على بعض المحتوى، فسيتم تجاوزه بواسطة البيانات من مجرى المصدر |
 
 ### أنظر أيضا
 

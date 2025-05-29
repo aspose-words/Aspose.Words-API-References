@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportOriginalUrlForLinkedImages
 linktitle: ExportOriginalUrlForLinkedImages
 articleTitle: ExportOriginalUrlForLinkedImages
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportOriginalUrlForLinkedImages ملكية. يحدد ما إذا كان يجب استخدام عنوان URL الأصلي كعنوان URL للصور المرتبطة. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف ميزة ExportOriginalUrlForLinkedImages في HtmlSaveOptions، التي تتيح لك استخدام عناوين URL الأصلية للصور المرتبطة. حسّن من سلامة مستندك!
 type: docs
 weight: 200
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportoriginalurlforlinkedimages/
@@ -18,13 +18,13 @@ public bool ExportOriginalUrlForLinkedImages { get; set; }
 
 ## ملاحظات
 
-إذا تم ضبط القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) يتم استخدام القيمة حيث لا يتم تحميل عنوان URL للصور المرتبطة والصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/).
+إذا تم تعيين القيمة على`حقيقي`[`SourceFullName`](../../../aspose.words.drawing/imagedata/sourcefullname/) يتم استخدام القيمة كعنوان URL للصور المرتبطة ولا يتم تحميل الصور المرتبطة إلى مجلد المستند أو[`ImagesFolder`](../imagesfolder/).
 
-إذا تم ضبط القيمة على`خطأ شنيع`يتم تحميل الصور المرتبطة في مجلد المستند أو[`ImagesFolder`](../imagesfolder/) ويتم إنشاء عنوان URL لكل صورة مرتبطة اعتمادًا على في مجلد المستند،[`ImagesFolder`](../imagesfolder/) و[`ImagesFolderAlias`](../imagesfolderalias/) ملكيات.
+إذا تم تعيين القيمة على`خطأ شنيع`يتم تحميل الصور المرتبطة إلى مجلد المستند أو[`ImagesFolder`](../imagesfolder/) ويتم إنشاء عنوان URL لكل صورة مرتبطة اعتمادًا على مجلد المستند،[`ImagesFolder`](../imagesfolder/) و[`ImagesFolderAlias`](../imagesfolderalias/) ملكيات.
 
 ## أمثلة
 
-يوضح كيفية تعيين المجلدات والأسماء المستعارة للمجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند إلى HTML.
+يوضح كيفية تعيين المجلدات وأسماء المجلدات للموارد المحفوظة خارجيًا والتي سيقوم Aspose.Words بإنشائها عند حفظ مستند بتنسيق HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

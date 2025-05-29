@@ -3,7 +3,7 @@ title: WriteProtection.SetPassword
 linktitle: SetPassword
 articleTitle: SetPassword
 second_title: Aspose.Words pour .NET
-description: WriteProtection SetPassword méthode. Définit le mot de passe de protection en écriture pour le document en C#.
+description: Sécurisez vos documents avec la méthode WriteProtection SetPassword. Définissez facilement un mot de passe pour renforcer la sécurité de vos documents et empêcher tout accès non autorisé.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/writeprotection/setpassword/
@@ -18,7 +18,7 @@ public void SetPassword(string password)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| password | String | Le mot de passe à définir. C'est pas possible`nul`, mais peut être une chaîne vide. |
+| password | String | Le mot de passe à définir. Impossible`nul`, mais peut être une chaîne vide. |
 
 ## Remarques
 
@@ -32,14 +32,14 @@ Montre comment protéger un document avec un mot de passe.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! This document is protected.");
-// Saisissez un mot de passe de 15 caractères maximum, puis vérifiez l'état de protection du document.
+// Saisissez un mot de passe d'une longueur maximale de 15 caractères, puis vérifiez l'état de protection du document.
 doc.WriteProtection.SetPassword("MyPassword");
 doc.WriteProtection.ReadOnlyRecommended = true;
 
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// La protection n'empêche pas la modification du document par programme et ne crypte pas non plus son contenu.
+// La protection n'empêche pas la modification du document par programmation et ne crypte pas le contenu.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

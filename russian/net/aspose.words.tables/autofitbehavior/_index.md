@@ -3,9 +3,9 @@ title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.AutoFitBehavior перечисление. Определяет как Aspose.Words изменяет размер таблицы при вызовеAutoFit метод на С#.
+description: Откройте для себя перечисление Aspose.Words.Tables.AutoFitBehavior для оптимизации изменения размера таблицы с помощью метода AutoFit, улучшая макет и представление документа.
 type: docs
-weight: 6230
+weight: 7080
 url: /ru/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
@@ -20,27 +20,27 @@ public enum AutoFitBehavior
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| AutoFitToContents | `0` | Aspose.Words включает опцию AutoFit, удаляет предпочтительную ширину из таблицы и всех ячеек, а затем обновляет макет таблицы. |
-| AutoFitToWindow | `1` | Когда вы используете это значение, Aspose.Words включает опцию AutoFit, устанавливает предпочтительную ширину таблицы на 100%, удаляет предпочтительные ширины из всех ячеек, а затем обновляет макет таблицы. |
-| FixedColumnWidths | `2` | Aspose.Words отключает опцию AutoFit и удаляет предпочтительный вариант из таблицы. |
+| AutoFitToContents | `0` | Aspose.Words включает функцию автоподбора ширины, удаляет предпочтительную ширину из таблицы и всех ячеек, а затем обновляет макет таблицы. |
+| AutoFitToWindow | `1` | При использовании этого значения Aspose.Words включает опцию AutoFit, устанавливает предпочтительную ширину для таблицы на 100%, удаляет предпочтительную ширину из всех ячеек, а затем обновляет макет таблицы. |
+| FixedColumnWidths | `2` | Aspose.Words отключает опцию автоподбора и удаляет предпочтительный вариант из таблицы. |
 
 ## Примеры
 
-Показывает, как построить новую таблицу с применением стиля.
+Показывает, как создать новую таблицу, применяя стиль.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
+// Перед настройкой форматирования таблицы необходимо вставить хотя бы одну строку.
 builder.InsertCell();
 
-// Установите используемый стиль таблицы на основе идентификатора стиля.
+// Устанавливаем используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
+// Частично применяем стиль к признакам таблицы на основе предикатов, затем создаем таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -72,7 +72,7 @@ builder.EndRow();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTableWithStyle.docx");
 ```
 
-Показывает, как построить форматированную таблицу 2x2.
+Показывает, как построить отформатированную таблицу 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// При построении таблицы построитель документов будет применять текущие значения свойств RowFormat/CellFormat
-// к текущей строке/ячейке, в которой находится курсор, и к любым новым строкам/ячейкам по мере их создания.
+// При построении таблицы конструктор документов применит текущие значения свойств RowFormat/CellFormat
+// к текущей строке/ячейке, в которой находится курсор, и ко всем новым строкам/ячейкам по мере их создания.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -102,7 +102,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Ранее добавленные строки и ячейки не имеют обратной силы при изменении форматирования построителя.
+// Изменения в форматировании конструктора не влияют на ранее добавленные строки и ячейки.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

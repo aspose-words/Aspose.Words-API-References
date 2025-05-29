@@ -3,14 +3,14 @@ title: PclSaveOptions.RasterizeTransformedElements
 linktitle: RasterizeTransformedElements
 articleTitle: RasterizeTransformedElements
 second_title: Aspose.Words för .NET
-description: PclSaveOptions RasterizeTransformedElements fast egendom. Hämtar eller ställer in ett värde som bestämmer om komplexa transformerade element ska rastreras innan de sparas i PCLdokument. Standard ärSann  i C#.
+description: Styr rasterisering av komplexa element i PCL-dokument med PclSaveOptions. Hantera enkelt bildkvalitet och filstorlek för optimala resultat.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/pclsaveoptions/rasterizetransformedelements/
 ---
 ## PclSaveOptions.RasterizeTransformedElements property
 
-Hämtar eller ställer in ett värde som bestämmer om komplexa transformerade element ska rastreras innan de sparas i PCL-dokument. Standard är`Sann` .
+Hämtar eller anger ett värde som avgör om komplexa transformerade element ska rastreras innan de sparas till PCL-dokumentet. Standard är`sann` .
 
 ```csharp
 public bool RasterizeTransformedElements { get; set; }
@@ -18,11 +18,11 @@ public bool RasterizeTransformedElements { get; set; }
 
 ## Anmärkningar
 
-PCL stöder inte någon form av transformationer som används av Aspose Words. T.ex. roterade, sneda bilder och texturpenslar. För att korrekt rendera sådana element används rasteriseringsprocess, dvs. spara till bild och klippning. Denna process kan ta ytterligare tid och minne. Om flaggan är inställd på`falsk` , visst innehåll i utdata kan vara annorlunda jämfört med källdokumentet.
+PCL stöder inte vissa typer av transformationer som används av Aspose Words. T.ex. roterade, sneda bilder och texturpenslar. För att korrekt rendera sådana element används rasteriseringsprocessen, dvs. spara till bild och klippning. Denna process kan ta ytterligare tid och minne. Om flaggan är inställd på`falsk` , en del innehåll i utdata kan skilja sig jämfört med källdokumentet.
 
 ## Exempel
 
-Visar hur man rastrar komplexa element samtidigt som ett dokument sparas till PCL.
+Visar hur man rastrerar komplexa element när man sparar ett dokument till PCL.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

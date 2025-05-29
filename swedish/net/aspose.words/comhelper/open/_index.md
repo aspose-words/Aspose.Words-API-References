@@ -3,7 +3,7 @@ title: ComHelper.Open
 linktitle: Open
 articleTitle: Open
 second_title: Aspose.Words för .NET
-description: ComHelper Open metod. Tillåter en COMapplikation att ladda enDocument från en fil i C#.
+description: Lås upp sömlös integration med ComHelpers Open-metod, vilket möjliggör enkel dokumentinläsning från filer för dina COM-applikationer.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/comhelper/open/
@@ -22,11 +22,11 @@ public Document Open(string fileName)
 
 ### Returvärde
 
-A[`Document`](../../document/)objekt som representerar ett Word-dokument.
+En[`Document`](../../document/) objekt som representerar ett Word-dokument.
 
 ## Anmärkningar
 
-Denna metod är samma som att anropa[`Document`](../../document/) konstruktor med en filnamnsparameter.
+Den här metoden är densamma som att anropa[`Document`](../../document/) konstruktor med en filnamnsparameter.
 
 ## Exempel
 
@@ -40,10 +40,10 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Visar hur man öppnar dokument med ComHelper-klassen.
+Visar hur man öppnar dokument med hjälp av ComHelper-klassen.
 
 ```csharp
-// ComHelper-klassen tillåter oss att ladda dokument från COM-klienter.
+// ComHelper-klassen låter oss läsa in dokument inifrån COM-klienter.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Använda ett lokalt systemfilnamn:
@@ -79,22 +79,22 @@ public Document Open(Stream stream)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| stream | Stream | Ett .NET-strömobjekt som innehåller dokumentet som ska laddas. |
+| stream | Stream | Ett .NET Stream-objekt som innehåller dokumentet som ska läsas in. |
 
 ### Returvärde
 
-A[`Document`](../../document/)objekt som representerar ett Word-dokument.
+En[`Document`](../../document/) objekt som representerar ett Word-dokument.
 
 ## Anmärkningar
 
-Denna metod är samma som att anropa[`Document`](../../document/) konstruktör med en strömparameter.
+Den här metoden är densamma som att anropa[`Document`](../../document/) konstruktor med en strömparameter.
 
 ## Exempel
 
-Visar hur man öppnar dokument med ComHelper-klassen.
+Visar hur man öppnar dokument med hjälp av ComHelper-klassen.
 
 ```csharp
-// ComHelper-klassen tillåter oss att ladda dokument från COM-klienter.
+// ComHelper-klassen låter oss läsa in dokument inifrån COM-klienter.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Använda ett lokalt systemfilnamn:

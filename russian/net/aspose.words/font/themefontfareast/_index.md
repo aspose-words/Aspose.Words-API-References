@@ -3,14 +3,14 @@ title: Font.ThemeFontFarEast
 linktitle: ThemeFontFarEast
 articleTitle: ThemeFontFarEast
 second_title: Aspose.Words для .NET
-description: Font ThemeFontFarEast свойство. Получает или задает шрифт восточноазиатской темы в применяемой схеме шрифтов связанной с этимFont объект на С#.
+description: Узнайте, как настроить шрифты восточноазиатской темы в своих проектах с помощью Font ThemeFontFarEast. Улучшите свои проекты с помощью уникальной, индивидуальной типографики!
 type: docs
-weight: 500
+weight: 510
 url: /ru/net/aspose.words/font/themefontfareast/
 ---
 ## Font.ThemeFontFarEast property
 
-Получает или задает шрифт восточноазиатской темы в применяемой схеме шрифтов, связанной с этим[`Font`](../) объект.
+Возвращает или задает шрифт восточноазиатской темы в применяемой схеме шрифтов, которая связана с этим[`Font`](../) объект.
 
 ```csharp
 public ThemeFont ThemeFontFarEast { get; set; }
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов сбросить шрифт и цвет.
-// 1 — установив ThemeFont.None/ThemeColor.None:
+// Существует несколько способов сбросить шрифт и цвет.
+// 1 - Устанавливая ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
+// 2 - Задавая не относящиеся к теме названия шрифтов/цветов:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

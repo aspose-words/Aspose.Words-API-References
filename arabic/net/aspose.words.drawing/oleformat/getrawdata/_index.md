@@ -3,14 +3,14 @@ title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
 second_title: Aspose.Words لـ .NET
-description: OleFormat GetRawData طريقة. يحصل على البيانات الأولية لكائن OLE في C#.
+description: اكتشف طريقة GetRawData الخاصة بـ OleFormat لاسترداد البيانات الخام الخاصة بكائنات OLE بسهولة، مما يعزز قدراتك على إدارة البيانات وتكاملها.
 type: docs
 weight: 150
 url: /ar/net/aspose.words.drawing/oleformat/getrawdata/
 ---
 ## OleFormat.GetRawData method
 
-يحصل على البيانات الأولية لكائن OLE.
+يحصل على بيانات خام لكائن OLE.
 
 ```csharp
 public byte[] GetRawData()
@@ -18,7 +18,7 @@ public byte[] GetRawData()
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى البيانات الأولية لكائن OLE المضمن.
+يوضح كيفية الوصول إلى البيانات الخام لكائن OLE المضمن.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

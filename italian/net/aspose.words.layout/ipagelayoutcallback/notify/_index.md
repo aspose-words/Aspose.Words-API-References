@@ -3,14 +3,14 @@ title: IPageLayoutCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words per .NET
-description: IPageLayoutCallback Notify metodo. Viene richiamato per notificare la creazione del layout e lavanzamento del rendering in C#.
+description: Scopri il metodo iPageLayoutCallback Notify per migliorare l'efficienza nella creazione e nel rendering del layout. Ottimizza le prestazioni della tua app oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-Viene richiamato per notificare la creazione del layout e l'avanzamento del rendering.
+Viene chiamato per notificare l'avanzamento della creazione del layout e del rendering.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -22,11 +22,11 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ## Osservazioni
 
-L'eccezione generata dall'implementazione interrompe il processo di creazione del layout.
+Eccezione generata dall'implementazione che interrompe il processo di creazione del layout.
 
 ## Esempi
 
-Mostra come tenere traccia delle modifiche al layout con un callback del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback di layout.
 
 ```csharp
 public void PageLayoutCallback()
@@ -45,7 +45,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Ci avvisa quando salviamo il documento in un formato di pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
+/// e visualizza una pagina su cui eseguiamo un reflow di pagina in un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

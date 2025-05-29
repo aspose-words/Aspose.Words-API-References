@@ -3,14 +3,14 @@ title: PageSetup.BorderAlwaysInFront
 linktitle: BorderAlwaysInFront
 articleTitle: BorderAlwaysInFront
 second_title: Aspose.Words per .NET
-description: PageSetup BorderAlwaysInFront proprietà. Specifica dove viene posizionato il bordo della pagina rispetto ai testi e agli oggetti che si intersecano in C#.
+description: Scopri la proprietà BorderAlwaysInFront di PageSetup per ottimizzare i bordi della pagina, migliorando il layout e la visibilità di testi e oggetti che si intersecano.
 type: docs
 weight: 20
 url: /it/net/aspose.words/pagesetup/borderalwaysinfront/
 ---
 ## PageSetup.BorderAlwaysInFront property
 
-Specifica dove viene posizionato il bordo della pagina rispetto ai testi e agli oggetti che si intersecano.
+Specifica dove è posizionato il bordo della pagina rispetto ai testi e agli oggetti che si intersecano.
 
 ```csharp
 public bool BorderAlwaysInFront { get; set; }
@@ -18,7 +18,7 @@ public bool BorderAlwaysInFront { get; set; }
 
 ## Esempi
 
-Mostra come creare un ampio bordo a fascia blu nella parte superiore della prima pagina.
+Mostra come creare un bordo con una larga fascia blu nella parte superiore della prima pagina.
 
 ```csharp
 Document doc = new Document();

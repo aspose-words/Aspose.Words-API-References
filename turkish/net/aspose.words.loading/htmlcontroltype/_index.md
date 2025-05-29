@@ -2,10 +2,10 @@
 title: HtmlControlType Enum
 linktitle: HtmlControlType
 articleTitle: HtmlControlType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Loading.HtmlControlType Sıralama. HTMLden içe aktarılan input ve select öğelerini temsil eden belge düğümlerinin türü C#'da.
+second_title: .NET için Aspose.Words
+description: HTML girdilerinin ve seçili öğelerin sorunsuz bir şekilde içe aktarılması için Aspose.Words.HtmlControlType enum'unu keşfedin ve belge işleme yeteneklerinizi geliştirin.
 type: docs
-weight: 3610
+weight: 4060
 url: /tr/net/aspose.words.loading/htmlcontroltype/
 ---
 ## HtmlControlType enumeration
@@ -20,8 +20,31 @@ public enum HtmlControlType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| FormField | `0` |  |
-| StructuredDocumentTag | `1` |  |
+| FormField | `0` | Bir form alanı. |
+| StructuredDocumentTag | `1` | Yapılandırılmış bir belge etiketi |
+
+## Örnekler
+
+İçeri aktarılan &lt;input&gt; ve &lt;select&gt; öğelerini temsil edecek tercih edilen belge düğümü türünün nasıl ayarlanacağını gösterir.
+
+```csharp
+const string html = @"
+    <html>
+        <select name='ComboBox' size='1'>
+            <option value='val1'>item1</option>
+            <option value='val2'></option>
+        </select>
+    </html>
+";
+
+HtmlLoadOptions htmlLoadOptions = new HtmlLoadOptions();
+htmlLoadOptions.PreferredControlType = HtmlControlType.StructuredDocumentTag;
+
+Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), htmlLoadOptions);
+NodeCollection nodes = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
+
+StructuredDocumentTag tag = (StructuredDocumentTag) nodes[0];
+```
 
 ### Ayrıca bakınız
 

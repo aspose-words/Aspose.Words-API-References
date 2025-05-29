@@ -3,14 +3,14 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words für .NET
-description: Cell Tables eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Zelle sind in C#.
+description: Entdecken Sie Zellentabellen. Greifen Sie direkt in Ihrer Zelle auf eine Sammlung von Tabellen zu und optimieren Sie so die Organisation und das Datenmanagement.
 type: docs
 weight: 120
 url: /de/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der Zelle sind.
+Ruft eine Sammlung von Tabellen ab, die unmittelbare untergeordnete Elemente der Zelle sind.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -29,7 +29,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -65,20 +65,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

@@ -3,7 +3,7 @@ title: Table.AbsoluteHorizontalDistance
 linktitle: AbsoluteHorizontalDistance
 articleTitle: AbsoluteHorizontalDistance
 second_title: Aspose.Words para .NET
-description: Table AbsoluteHorizontalDistance propiedad. Obtiene o establece la posición absoluta de la tabla flotante horizontal especificada por las propiedades de la tabla en puntos. El valor predeterminado es 0 en C#.
+description: Descubra la propiedad DistanciaHorizontalAbsoluta de la Tabla para ajustar fácilmente la posición horizontal de su tabla en puntos. ¡Optimice el diseño con un valor predeterminado de 0!
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/table/absolutehorizontaldistance/
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Establece la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
+// Establezca la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 

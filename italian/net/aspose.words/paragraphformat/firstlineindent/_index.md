@@ -3,7 +3,7 @@ title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
 articleTitle: FirstLineIndent
 second_title: Aspose.Words per .NET
-description: ParagraphFormat FirstLineIndent proprietà. Ottiene o imposta il valore in punti per una prima riga o un rientro sporgente in C#.
+description: Scopri come utilizzare la proprietà ParagraphFormat FirstLineIndent per personalizzare facilmente i rientri della prima riga o quelli sporgenti nei tuoi documenti, migliorandone la leggibilità.
 type: docs
 weight: 120
 url: /it/net/aspose.words/paragraphformat/firstlineindent/
@@ -12,7 +12,7 @@ url: /it/net/aspose.words/paragraphformat/firstlineindent/
 
 Ottiene o imposta il valore (in punti) per una prima riga o un rientro sporgente.
 
-Utilizza valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
+Utilizzare valori positivi per impostare il rientro della prima riga e valori negativi per impostare il rientro sporgente.
 
 ```csharp
 public double FirstLineIndent { get; set; }

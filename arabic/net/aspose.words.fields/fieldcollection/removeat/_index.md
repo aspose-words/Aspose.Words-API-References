@@ -3,14 +3,14 @@ title: FieldCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: FieldCollection RemoveAt طريقة. إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند في C#.
+description: احذف الحقول من مستندك بسهولة باستخدام طريقة FieldCollection RemoveAt. بسّط إدارة بياناتك اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.fields/fieldcollection/removeat/
 ---
 ## FieldCollection.RemoveAt method
 
-إزالة حقل في الفهرس المحدد من هذه المجموعة ومن المستند.
+يزيل حقلًا عند الفهرس المحدد من هذه المجموعة ومن المستند.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | فهرس في المجموعة. |
+| index | Int32 | فهرس للمجموعة. |
 
 ## أمثلة
 
@@ -41,20 +41,20 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // فيما يلي أربع طرق لإزالة الحقول من مجموعة الحقول.
-// 1 - احصل على حقل لإزالة نفسه:
+// 1 - الحصول على حقل لإزالة نفسه:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - احصل على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
+// 2 - الحصول على المجموعة لإزالة الحقل الذي نمرره إلى طريقة الإزالة الخاصة به:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - إزالة حقل من مجموعة في فهرس:
+// 3 - إزالة حقل من مجموعة عند الفهرس:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - قم بإزالة كافة الحقول من المجموعة مرة واحدة:
+// 4 - إزالة جميع الحقول من المجموعة مرة واحدة:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

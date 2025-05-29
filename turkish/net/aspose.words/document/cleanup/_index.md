@@ -2,15 +2,15 @@
 title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
-second_title: Aspose.Words for .NET
-description: Document Cleanup yöntem. Belgedeki kullanılmayan stilleri ve listeleri temizler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi Temizleme yöntemimizle optimize edin; daha temiz, daha verimli bir iş akışı için kullanılmayan stilleri ve listeleri kaldırın. Bugün okunabilirliği artırın!
 type: docs
-weight: 540
+weight: 580
 url: /tr/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
 
-Belgedeki kullanılmayan stilleri ve listeleri temizler.
+Belgeden kullanılmayan stilleri ve listeleri temizler.
 
 ```csharp
 public void Cleanup()
@@ -28,9 +28,9 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Yerleşik stillerle birleştirildiğinde belgenin artık sekiz stili var.
-// Özel bir stil, belgenin bir kısmına uygulandığında "kullanılmış" olarak sayılır,
-// bu, eklediğimiz dört stilin şu anda kullanılmadığı anlamına gelir.
+// Yerleşik stillerle birlikte, belge artık sekiz stile sahip.
+// Özel bir stil, belgenin bir bölümüne uygulandığında "kullanılmış" olarak sayılır.
+// Bu, eklediğimiz dört stilin şu anda kullanılmadığı anlamına geliyor.
 Assert.AreEqual(8, doc.Styles.Count);
 
 // Özel bir karakter stili ve ardından özel bir liste stili uygulayın. Bunu yapmak stilleri "kullanılmış" olarak işaretleyecektir.
@@ -47,7 +47,7 @@ doc.Cleanup();
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmamış" olarak işaretler.
+// Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmayan" olarak işaretler.
 // Bunları kaldırmak için Temizleme yöntemini tekrar çalıştırın.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup();
@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
-Verilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler.[`CleanupOptions`](../../cleanupoptions/) .
+Belirtilenlere bağlı olarak kullanılmayan stilleri ve listeleri belgeden temizler[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -83,12 +83,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Yerleşik stillerle birleştirildiğinde belgenin artık sekiz stili var.
-// Belgede herhangi bir metin varken özel stil "kullanılmış" olarak işaretlenir
-// bu tarzda biçimlendirilmiş. Bu, eklediğimiz 4 stilin şu anda kullanılmadığı anlamına gelir.
+// Yerleşik stillerle birlikte, belge artık sekiz stile sahip.
+// Belge içerisinde herhangi bir metin varken özel bir stil "kullanılmış" olarak işaretlenir
+// o stilde biçimlendirildi. Bu, eklediğimiz 4 stilin şu anda kullanılmadığı anlamına geliyor.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Özel bir karakter stili ve ardından özel bir liste stili uygulayın. Bunu yaptığınızda bunlar "kullanılmış" olarak işaretlenir.
+// Özel bir karakter stili ve ardından özel bir liste stili uygulayın. Bunu yapmak onları "kullanılmış" olarak işaretleyecektir.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -98,8 +98,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Artık kullanılmayan bir karakter stili ve kullanılmayan bir liste stili var.
-// Cleanup() yöntemi, bir CleanupOptions nesnesiyle yapılandırıldığında kullanılmayan stilleri hedefleyebilir ve bunları kaldırabilir.
+// Şimdi, kullanılmayan bir karakter stili ve kullanılmayan bir liste stili var.
+// Cleanup() yöntemi, CleanupOptions nesnesiyle yapılandırıldığında kullanılmayan stilleri hedefleyebilir ve bunları kaldırabilir.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -109,8 +109,8 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmamış" olarak işaretler.
-// Bunları kaldırmak için Temizleme yöntemini yeniden çalıştırın.
+ // Özel bir stilin uygulandığı her düğümün kaldırılması, onu tekrar "kullanılmayan" olarak işaretler.
+// Bunları kaldırmak için Temizleme yöntemini tekrar çalıştırın.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

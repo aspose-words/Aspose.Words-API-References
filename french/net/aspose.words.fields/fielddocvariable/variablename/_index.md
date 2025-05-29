@@ -3,7 +3,7 @@ title: FieldDocVariable.VariableName
 linktitle: VariableName
 articleTitle: VariableName
 second_title: Aspose.Words pour .NET
-description: FieldDocVariable VariableName propriété. Obtient ou définit le nom de la variable de document à récupérer en C#.
+description: Découvrez la propriété FieldDocVariable VariableName pour gérer facilement les variables de vos documents. Simplifiez la recherche et optimisez la gestion de vos documents dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fielddocvariable/variablename/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vous trouverez ci-dessous deux manières d'utiliser les champs DOCPROPERTY.
 // 1 - Afficher une propriété intégrée :
-// Définissez une valeur personnalisée pour la propriété intégrée "Catégorie", puis insérez un champ DOCPROPERTY qui y fait référence.
+// Définissez une valeur personnalisée pour la propriété intégrée « Catégorie », puis insérez un champ DOCPROPERTY qui y fait référence.
 doc.BuiltInDocumentProperties.Category = "My category";
 
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
@@ -39,7 +39,7 @@ builder.InsertParagraph();
 
 // 2 - Afficher une variable de document personnalisée :
 // Définissez une variable personnalisée, puis référencez cette variable avec un champ DOCPROPERTY.
-Assert.That(doc.Variables, Is.Empty);
+Assert.AreEqual(0, doc.Variables.Count);
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);

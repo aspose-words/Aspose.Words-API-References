@@ -3,14 +3,14 @@ title: SignatureLine.Instructions
 linktitle: Instructions
 articleTitle: Instructions
 second_title: Aspose.Words pour .NET
-description: SignatureLine Instructions propriété. Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée siDefaultInstructionsest défini. La valeur par défaut de cette propriété estchaîne vide Empty en C#.
+description: Découvrez comment personnaliser les instructions du signataire avec la propriété SignatureLine. Améliorez l'expérience de signature en ajoutant des instructions claires et personnalisées.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/signatureline/instructions/
 ---
 ## SignatureLine.Instructions property
 
-Obtient ou définit les instructions destinées au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](../defaultinstructions/)est défini. La valeur par défaut de cette propriété est**chaîne vide** (Empty).
+Obtient ou définit les instructions au signataire qui sont affichées lors de la signature de la ligne de signature. Cette propriété est ignorée si[`DefaultInstructions`](../defaultinstructions/) est défini. La valeur par défaut de cette propriété est**chaîne vide** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }
@@ -35,16 +35,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Insère une forme qui contiendra une ligne de signature, dont nous allons
-// personnalisez à l'aide de l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
-// Si on insère une forme dont les coordonnées proviennent du coin inférieur droit de la page,
-// nous devrons fournir des coordonnées x et y négatives pour faire apparaître la forme.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Insérer une forme qui contiendra une ligne de signature, dont nous allons
+// personnaliser en utilisant l'objet "SignatureLineOptions" que nous avons créé ci-dessus.
+// Si nous insérons une forme dont les coordonnées proviennent du coin inférieur droit de la page,
+// nous devrons fournir des coordonnées x et y négatives pour mettre la forme en vue.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Vérifier les propriétés de notre ligne de signature via son objet Shape.
+// Vérifiez les propriétés de notre ligne de signature via son objet Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

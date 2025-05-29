@@ -3,9 +3,9 @@ title: FontInfo.GetEmbeddedFont
 linktitle: GetEmbeddedFont
 articleTitle: GetEmbeddedFont
 second_title: Aspose.Words pour .NET
-description: FontInfo GetEmbeddedFont méthode. Obtient un fichier de police intégré spécifique en C#.
+description: Découvrez la méthode FontInfo GetEmbeddedFont pour récupérer facilement des fichiers de polices intégrés spécifiques, améliorant ainsi vos projets de conception avec une typographie transparente.
 type: docs
-weight: 80
+weight: 90
 url: /fr/net/aspose.words.fonts/fontinfo/getembeddedfont/
 ---
 ## FontInfo.GetEmbeddedFont method
@@ -23,11 +23,11 @@ public byte[] GetEmbeddedFont(EmbeddedFontFormat format, EmbeddedFontStyle style
 
 ### Return_Value
 
-Retour`nul`si la police spécifiée n'est pas intégrée.
+Retours`nul` si la police spécifiée n'est pas intégrée.
 
 ## Exemples
 
-Montre comment extraire une police incorporée d’un document et l’enregistrer dans le système de fichiers local.
+Montre comment extraire une police intégrée d'un document et l'enregistrer sur le système de fichiers local.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -36,7 +36,7 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Les formats de polices intégrées peuvent être différents dans d'autres formats tels que .doc.
+// Les formats de police intégrés peuvent être différents dans d'autres formats tels que .doc.
 // Nous devons connaître le format correct avant de pouvoir extraire la police.
 doc = new Document(MyDir + "Embedded font.doc");
 

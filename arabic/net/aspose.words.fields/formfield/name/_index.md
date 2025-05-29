@@ -3,14 +3,14 @@ title: FormField.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: FormField Name ملكية. الحصول على اسم حقل النموذج أو تعيينه في C#.
+description: اكتشف كيفية إدارة خاصية FormField Name بسهولة لتخصيص نماذجك وتحسينها لتحقيق تفاعل أفضل للمستخدمين وجمع البيانات.
 type: docs
 weight: 130
 url: /ar/net/aspose.words.fields/formfield/name/
 ---
 ## FormField.Name property
 
-الحصول على اسم حقل النموذج أو تعيينه.
+يحصل على اسم حقل النموذج أو يعينه.
 
 ```csharp
 public string Name { get; set; }
@@ -18,11 +18,11 @@ public string Name { get; set; }
 
 ## ملاحظات
 
-يسمح Microsoft Word بالسلاسل التي تحتوي على 20 حرفًا على الأكثر.
+يسمح Microsoft Word باستخدام سلاسل تحتوي على 20 حرفًا كحد أقصى.
 
 ## أمثلة
 
-يوضح كيفية إدراج مربع التحرير والسرد.
+يوضح كيفية إدراج مربع المجموعة.
 
 ```csharp
 Document doc = new Document();
@@ -30,14 +30,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// أدخل مربع التحرير والسرد الذي سيسمح للمستخدم باختيار خيار من مجموعة من السلاسل.
+// أدخل مربعًا مركبًا يسمح للمستخدم باختيار خيار من مجموعة من السلاسل.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// سيظهر حقل النموذج على شكل علامة html "تحديد".
+//سيظهر حقل النموذج في شكل علامة HTML "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

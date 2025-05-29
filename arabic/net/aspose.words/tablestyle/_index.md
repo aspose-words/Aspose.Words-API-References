@@ -3,9 +3,9 @@ title: TableStyle Class
 linktitle: TableStyle
 articleTitle: TableStyle
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.TableStyle فصل. يمثل نمط الجدول في C#.
+description: اكتشف فئة Aspose.Words.TableStyle لإنشاء وتخصيص أنماط جداول رائعة في مستنداتك. حسّن تنسيقك بسهولة!
 type: docs
-weight: 6220
+weight: 7070
 url: /ar/net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -22,45 +22,49 @@ public class TableStyle : Style
 
 | اسم | وصف |
 | --- | --- |
-| [Aliases](../../aspose.words/style/aliases/) { get; } | يحصل على كافة الأسماء المستعارة لهذا النمط. إذا لم يكن النمط يحتوي على أسماء مستعارة، فسيتم إرجاع مجموعة فارغة من السلسلة. |
-| [Alignment](../../aspose.words/tablestyle/alignment/) { get; set; } | يحدد المحاذاة لنمط الجدول. |
-| [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages/) { get; set; } | الحصول على أو تعيين علامة تشير إلى ما إذا كان النص الموجود في صف الجدول مسموحًا بتقسيمه عبر فاصل الصفحات. |
-| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | يحدد ما إذا كان سيتم إعادة تعريف هذا النمط تلقائيًا بناءً على القيمة المناسبة. |
-| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | الحصول على/تعيين اسم النمط الذي يعتمد عليه هذا النمط. |
-| [Bidi](../../aspose.words/tablestyle/bidi/) { get; set; } | الحصول على أو تعيين ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار. |
-| [Borders](../../aspose.words/tablestyle/borders/) { get; } | الحصول على مجموعة حدود الخلايا الافتراضية للنمط. |
-| [BottomPadding](../../aspose.words/tablestyle/bottompadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها أسفل محتويات خلايا الجدول. |
-| [BuiltIn](../../aspose.words/style/builtin/) { get; } | صحيح إذا كان هذا النمط أحد الأنماط المضمنة في برنامج MS Word. |
-| [CellSpacing](../../aspose.words/tablestyle/cellspacing/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) بين الخلايا. |
-| [ColumnStripe](../../aspose.words/tablestyle/columnstripe/) { get; set; } | الحصول على أو تعيين عدد من الأعمدة لتضمينها في النطاق عندما يحدد النمط نطاق الأعمدة الفردية/الزوجية. |
-| [ConditionalStyles](../../aspose.words/tablestyle/conditionalstyles/) { get; } | مجموعة من الأنماط الشرطية التي يمكن تعريفها لنمط الجدول هذا. |
-| [Document](../../aspose.words/style/document/) { get; } | الحصول على مستند المالك. |
-| [Font](../../aspose.words/style/font/) { get; } | الحصول على تنسيق الأحرف للنمط. |
+| [Aliases](../../aspose.words/style/aliases/) { get; } | يحصل على جميع الأسماء المستعارة لهذا النمط. إذا لم يكن للنمط أسماء مستعارة، فسيتم إرجاع مصفوفة فارغة من السلسلة. |
+| [Alignment](../../aspose.words/tablestyle/alignment/) { get; set; } | يحدد محاذاة نمط الجدول. |
+| [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages/) { get; set; } | يحصل على علم أو يعينه للإشارة إلى ما إذا كان يُسمح للنص في صف الجدول بالانقسام عبر فاصل الصفحة. |
+| [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | يحدد ما إذا كان سيتم إعادة تعريف هذا النمط تلقائيًا استنادًا إلى القيمة المناسبة. |
+| [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | يحصل على/يحدد اسم النمط الذي يعتمد عليه هذا النمط. |
+| [Bidi](../../aspose.words/tablestyle/bidi/) { get; set; } | يحصل على أو يحدد ما إذا كان هذا هو النمط لجدول من اليمين إلى اليسار. |
+| [Borders](../../aspose.words/tablestyle/borders/) { get; } | يحصل على مجموعة حدود الخلايا الافتراضية للنمط. |
+| [BottomPadding](../../aspose.words/tablestyle/bottompadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) المراد إضافتها أسفل محتويات خلايا الجدول أو يعينه. |
+| [BuiltIn](../../aspose.words/style/builtin/) { get; } | صحيح إذا كان هذا النمط أحد الأنماط المضمنة في MS Word. |
+| [CellSpacing](../../aspose.words/tablestyle/cellspacing/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) بين الخلايا أو يعينها. |
+| [ColumnStripe](../../aspose.words/tablestyle/columnstripe/) { get; set; } | يحصل على أو يعين عددًا من الأعمدة المراد تضمينها في النطاق عندما يحدد النمط نطاق الأعمدة الفردية/الزوجية. |
+| [ConditionalStyles](../../aspose.words/tablestyle/conditionalstyles/) { get; } | مجموعة من الأنماط الشرطية التي يمكن تعريفها لهذا الجدول style. |
+| [Document](../../aspose.words/style/document/) { get; } | يحصل على مستند المالك. |
+| [Font](../../aspose.words/style/font/) { get; } | يحصل على تنسيق الأحرف للنمط. |
 | [IsHeading](../../aspose.words/style/isheading/) { get; } | صحيح عندما يكون النمط أحد أنماط العناوين المضمنة. |
-| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | يحدد ما إذا كان سيتم عرض هذا النمط في معرض "الأنماط السريعة" داخل واجهة مستخدم MS Word. |
-| [LeftIndent](../../aspose.words/tablestyle/leftindent/) { get; set; } | الحصول على أو تعيين القيمة التي تمثل المسافة البادئة اليسرى للجدول. |
-| [LeftPadding](../../aspose.words/tablestyle/leftpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يسار محتويات خلايا الجدول. |
-| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; } | يحصل على اسم[`Style`](../style/) مرتبطة بهذا. إرجاع سلسلة فارغة إذا لم يتم ربط أي أنماط. |
-| [List](../../aspose.words/style/list/) { get; } | الحصول على القائمة التي تحدد تنسيق نمط القائمة هذا. |
+| [IsQuickStyle](../../aspose.words/style/isquickstyle/) { get; set; } | يحدد ما إذا كان سيتم عرض هذا النمط في معرض الأنماط السريعة داخل واجهة مستخدم MS Word. |
+| [LeftIndent](../../aspose.words/tablestyle/leftindent/) { get; set; } | يحصل على القيمة التي تمثل المسافة البادئة اليسرى للجدول أو يعينها. |
+| [LeftPadding](../../aspose.words/tablestyle/leftpadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يسار محتويات خلايا الجدول أو يعينها. |
+| [LinkedStyleName](../../aspose.words/style/linkedstylename/) { get; set; } | يحصل على/يحدد اسم[`Style`](../style/) مرتبط بهذا. يُرجع سلسلة فارغة إذا لم تكن هناك أنماط مرتبطة. |
+| [List](../../aspose.words/style/list/) { get; } | يحصل على القائمة التي تحدد تنسيق نمط القائمة هذا. |
 | [ListFormat](../../aspose.words/style/listformat/) { get; } | يوفر الوصول إلى خصائص تنسيق القائمة لنمط الفقرة. |
-| [Name](../../aspose.words/style/name/) { get; set; } | الحصول على اسم النمط أو تعيينه. |
-| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | الحصول على/تعيين اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة تم إدراجها بعد a فقرة منسقة بالنمط المحدد. |
-| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | الحصول على تنسيق الفقرة للنمط. |
-| [RightPadding](../../aspose.words/tablestyle/rightpadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات خلايا الجدول. |
-| [RowStripe](../../aspose.words/tablestyle/rowstripe/) { get; set; } | الحصول على أو تعيين عدد من الصفوف لتضمينها في النطاق عندما يحدد النمط نطاق الصفوف الفردية/الزوجية. |
-| [Shading](../../aspose.words/tablestyle/shading/) { get; } | يحصل على[`Shading`](../shading/) الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول. |
-| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | الحصول على معرف النمط المحلي المستقل للنمط المدمج. |
-| [Styles](../../aspose.words/style/styles/) { get; } | الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط. |
-| [TopPadding](../../aspose.words/tablestyle/toppadding/) { get; set; } | الحصول على أو تعيين مقدار المسافة (بالنقاط) لإضافتها فوق محتويات خلايا الجدول. |
-| [Type](../../aspose.words/style/type/) { get; } | الحصول على نوع النمط (فقرة أو حرف). |
-| [VerticalAlignment](../../aspose.words/tablestyle/verticalalignment/) { get; set; } | يحدد المحاذاة العمودية للخلايا. |
+| [Locked](../../aspose.words/style/locked/) { get; set; } | يحدد ما إذا كان هذا النمط مقفلاً. |
+| [Name](../../aspose.words/style/name/) { get; set; } | يحصل على اسم النمط أو يعينه. |
+| [NextParagraphStyleName](../../aspose.words/style/nextparagraphstylename/) { get; set; } | يحصل على/يحدد اسم النمط الذي سيتم تطبيقه تلقائيًا على فقرة جديدة مدرجة بعد فقرة a بتنسيق النمط المحدد. |
+| [ParagraphFormat](../../aspose.words/style/paragraphformat/) { get; } | يحصل على تنسيق الفقرة للنمط. |
+| [Priority](../../aspose.words/style/priority/) { get; set; } | يحصل على/يعين قيمة العدد الصحيح التي تمثل الأولوية لفرز الأنماط في جزء مهام الأنماط. |
+| [RightPadding](../../aspose.words/tablestyle/rightpadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يمين محتويات خلايا الجدول أو يعينها. |
+| [RowStripe](../../aspose.words/tablestyle/rowstripe/) { get; set; } | يحصل على أو يعين عددًا من الصفوف المراد تضمينها في النطاق عندما يحدد النمط نطاق الصفوف الفردية/الزوجية. |
+| [SemiHidden](../../aspose.words/style/semihidden/) { get; set; } | يحصل/يحدد ما إذا كان النمط مخفيًا من معرض الأنماط ومن جزء مهام الأنماط. |
+| [Shading](../../aspose.words/tablestyle/shading/) { get; } | يحصل على[`Shading`](../shading/) كائن يشير إلى تنسيق التظليل لخلايا الجدول. |
+| [StyleIdentifier](../../aspose.words/style/styleidentifier/) { get; } | يحصل على معرف النمط المستقل عن الإعدادات المحلية للنمط المضمن. |
+| [Styles](../../aspose.words/style/styles/) { get; } | يحصل على مجموعة الأنماط التي ينتمي إليها هذا النمط. |
+| [TopPadding](../../aspose.words/tablestyle/toppadding/) { get; set; } | يحصل على مقدار المساحة (بالنقاط) المراد إضافتها فوق محتويات خلايا الجدول أو يعينه. |
+| [Type](../../aspose.words/style/type/) { get; } | يحصل على نوع النمط (فقرة أو حرف). |
+| [UnhideWhenUsed](../../aspose.words/style/unhidewhenused/) { get; set; } | يحصل/يحدد ما إذا كان النمط المستخدم في المستند الحالي يظهر من معرض الأنماط ومن جزء مهام الأنماط. صحيح عندما يجب إظهار النمط المستخدم في معرض الأنماط. |
+| [VerticalAlignment](../../aspose.words/tablestyle/verticalalignment/) { get; set; } | يحدد المحاذاة الرأسية للخلايا. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Equals](../../aspose.words/style/equals/)(*[Style](../style/)*) | يقارن مع النمط المحدد. تتم مقارنة أنماط الأنماط للأنماط المضمنة فقط. لا يتم تضمين افتراضيات الأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر. |
-| [Remove](../../aspose.words/style/remove/)() | إزالة النمط المحدد من المستند. |
+| [Equals](../../aspose.words/style/equals/)(*[Style](../style/)*) | تتم المقارنة مع النمط المحدد. تتم مقارنة إعدادات الأنماط للأنماط المضمنة فقط. لا يتم تضمين الإعدادات الافتراضية للأنماط في المقارنة. تتم مقارنة النمط الأساسي والنمط المرتبط ونمط الفقرة التالية بشكل متكرر. |
+| [Remove](../../aspose.words/style/remove/)() | يزيل النمط المحدد من المستند. |
 
 ## أمثلة
 
@@ -95,7 +99,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

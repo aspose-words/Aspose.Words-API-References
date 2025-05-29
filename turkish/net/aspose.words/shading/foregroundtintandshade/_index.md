@@ -2,25 +2,32 @@
 title: Shading.ForegroundTintAndShade
 linktitle: ForegroundTintAndShade
 articleTitle: ForegroundTintAndShade
-second_title: Aspose.Words for .NET
-description: Shading ForegroundTintAndShade mülk. Ön plan tema rengini açan veya koyulaştıran bir çift değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın görsel çekiciliğini artırmak için ForegroundTintAndShade özelliğini ayarlayarak tema renklerinizi zahmetsizce açın veya koyulaştırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/shading/foregroundtintandshade/
 ---
 ## Shading.ForegroundTintAndShade property
 
-Ön plan tema rengini açan veya koyulaştıran bir çift değer alır veya ayarlar.
+Ön plandaki temanın rengini açan veya koyulaştıran bir çift değer alır veya ayarlar.
 
 ```csharp
 public double ForegroundTintAndShade { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentOutOfRangeException | Bu özelliği -1'den küçük veya 1'den büyük bir değere ayarlarsanız fırlatın. |
+| InvalidOperationException | Bu özelliği Gölgeleme nesnesi için tema renkleri dışında bir renkle ayarlarsanız fırlatın. |
+
 ## Notlar
 
-Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
+Bu özellik için izin verilen değerler -1 (en koyu) ile 1 (en açık) arasında değişmektedir.
 
-Bu özelliğin tema dışı renkler ile Gölgelendirme nesnesi için ayarlanması şu sonucu doğurur:InvalidOperationException.
+Sıfır (0) nötrdür.
 
 ## Örnekler
 

@@ -3,14 +3,14 @@ title: PdfSaveOptions.CacheBackgroundGraphics
 linktitle: CacheBackgroundGraphics
 articleTitle: CacheBackgroundGraphics
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions CacheBackgroundGraphics ملكية. الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم تخزين الرسومات الموضوعة في خلفية المستند أم لا في C#.
+description: اكتشف خاصية PdfSaveOptions CacheBackgroundGraphics لتحسين تخزين رسومات المستندات مؤقتًا، مما يعزز إنشاء ملفات PDF وأدائها.
 type: docs
-weight: 30
+weight: 40
 url: /ar/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property
 
-الحصول على أو تعيين قيمة تحدد ما إذا كان سيتم تخزين الرسومات الموضوعة في خلفية المستند أم لا.
+يحصل على قيمة تحدد ما إذا كان سيتم تخزين الرسومات الموضوعة في خلفية المستند أم لا.
 
 ```csharp
 public bool CacheBackgroundGraphics { get; set; }
@@ -18,17 +18,17 @@ public bool CacheBackgroundGraphics { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي`حقيقي` ويتم كتابة رسومات الخلفية على مستند PDF على هيئة xObject.
+القيمة الافتراضية هي`حقيقي` ويتم كتابة الرسومات الخلفية في مستند PDF كـ xObject.
 
-عندما تكون القيمة`خطأ شنيع` لا يتم تخزين رسومات الخلفية مؤقتًا.
+عندما تكون القيمة`خطأ شنيع` لا يتم تخزين الرسومات الخلفية مؤقتًا.
 
-بعض الأشكال غير مدعومة للتخزين المؤقت (الأشكال التي تحتوي على حقول، وإشارات مرجعية، وHRefs).
+بعض الأشكال غير مدعومة للتخزين المؤقت (الأشكال التي تحتوي على حقول وإشارات مرجعية وHRefs).
 
-رسم خلفية المستند عبارة عن أشكال ومخططات وصور مختلفة يتم وضعها في التذييل أو الرأس، بالإضافة إلى خلفية وحدود الصفحة.
+تتكون خلفية المستند من أشكال مختلفة ومخططات وصور توضع في التذييل أو الرأس، بالإضافة إلى الخلفية وحدود الصفحة.
 
 ## أمثلة
 
-يوضح كيفية تخزين الرسومات الموضوعة في خلفية المستند مؤقتًا.
+يوضح كيفية تخزين الرسومات الموجودة في خلفية المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Background images.docx");

@@ -2,10 +2,10 @@
 title: CompositeNode.CreateNavigator
 linktitle: CreateNavigator
 articleTitle: CreateNavigator
-second_title: 用于 .NET 的 Aspose.Words
-description: CompositeNode CreateNavigator 方法. 创建可用于遍历和读取节点的导航器 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CompositeNode CreateNavigator 方法，轻松遍历和读取节点，增强您的数据导航体验。
 type: docs
-weight: 70
+weight: 90
 url: /zh/net/aspose.words/compositenode/createnavigator/
 ---
 ## CompositeNode.CreateNavigator method
@@ -19,7 +19,7 @@ public XPathNavigator CreateNavigator()
 
 ## 例子
 
-演示如何创建 XPathNavigator，然后使用它来遍历和读取节点。
+展示如何创建 XPathNavigator，然后使用它来遍历和读取节点。
 
 ```csharp
 public void NodeXPathNavigator()
@@ -33,9 +33,9 @@ public void NodeXPathNavigator()
         Assert.AreEqual(false, navigator.MoveToNext());
         Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
 
-        // 文档树有文档，第一部分，
-        // 正文和第一段作为节点，每个都是前一个段落的唯一子节点。
-        // 我们可以添加更多一些，为树提供一些分支供导航器遍历。
+        // 文档树包含文档第一部分，
+        // 正文和第一段作为节点，每个节点都是前一个节点的唯一子节点。
+        // 我们可以添加更多内容来为导航器提供一些可供遍历的树分支。
         DocumentBuilder docBuilder = new DocumentBuilder(doc);
         docBuilder.Write("Section 1, Paragraph 1. ");
         docBuilder.InsertParagraph();
@@ -44,7 +44,7 @@ public void NodeXPathNavigator()
         docBuilder.MoveToSection(1);
         docBuilder.Write("Section 2, Paragraph 1. ");
 
-        // 使用我们的导航器将文档中所有节点的映射打印到控制台。
+        // 使用我们的导航器将文档中所有节点的地图打印到控制台。
         StringBuilder stringBuilder = new StringBuilder();
         MapDocument(navigator, stringBuilder, 0);
         Console.Write(stringBuilder.ToString());
@@ -52,9 +52,9 @@ public void NodeXPathNavigator()
 }
 
 /// <summary>
-/// 遍历复合节点的所有子节点并以目录树的方式映射结构。
+/// 遍历复合节点的所有子节点并以目录树的形式映射结构。
 /// 空间缩进量表示相对于初始节点的深度。
-/// 仅当当前节点是 Run 时才打印当前节点的文本内容。
+/// 仅当它是运行时才打印当前节点的文本内容。
 /// </summary>
 private static void MapDocument(XPathNavigator navigator, StringBuilder stringBuilder, int depth)
 {

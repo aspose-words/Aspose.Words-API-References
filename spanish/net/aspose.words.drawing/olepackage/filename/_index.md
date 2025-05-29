@@ -3,7 +3,7 @@ title: OlePackage.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words para .NET
-description: OlePackage FileName propiedad. Obtiene o establece el nombre del archivo del paquete OLE en C#.
+description: Descubra la propiedad OlePackage FileName para gestionar fácilmente los nombres de archivo de paquetes OLE. Mejore la gestión de datos con una integración y flexibilidad perfectas.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/olepackage/filename/

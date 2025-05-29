@@ -3,14 +3,14 @@ title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words для .NET
-description: Shape FirstParagraph свойство. Получает первый абзац фигуры на С#.
+description: Извлеките первый абзац фигуры без усилий. Улучшите макет вашего документа с помощью нашей простой в использовании функции Shape FirstParagraph.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-Получает первый абзац фигуры.
+Получает первый абзац в форме.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -23,7 +23,7 @@ public Paragraph FirstParagraph { get; }
 ```csharp
 Document doc = new Document();
 
-// Создаём плавающее текстовое поле.
+// Создаем плавающее текстовое поле.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -33,7 +33,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Добавляем абзац в текстовое поле и добавляем текст, который будет отображаться в текстовом поле.
+// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

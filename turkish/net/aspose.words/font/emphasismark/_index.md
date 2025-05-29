@@ -2,8 +2,8 @@
 title: Font.EmphasisMark
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
-second_title: Aspose.Words for .NET
-description: Font EmphasisMark mülk. Bu biçimlendirmeye uygulanan vurgu işaretini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Metin biçimlendirmenizi geliştirmek için Font Vurgu İşareti özelliğini nasıl kullanacağınızı keşfedin. Daha iyi okunabilirlik için vurgu işaretlerini ayarlamayı ve özelleştirmeyi öğrenin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/font/emphasismark/
@@ -18,12 +18,12 @@ public EmphasisMark EmphasisMark { get; set; }
 
 ## Örnekler
 
-Glif karakterinin üstünde/altında oluşturulan ek karakterlerin nasıl ekleneceğini gösterir.
+Glif karakterinin üstüne/altına ek karakterin nasıl ekleneceğini gösterir.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Olası vurgu işareti türleri:
+// Vurgu işaretlerinin olası türleri:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

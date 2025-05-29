@@ -2,17 +2,17 @@
 title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
-second_title: Aspose.Words for .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding sınıf. Bir web uzantısı ile belgedeki veriler arasındaki bağlayıcı ilişkiyi belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Web uzantılarının belge verilerinizle sorunsuz entegrasyonu için Aspose.Words.WebExtensionBinding sınıfını keşfedin. İşlevselliği zahmetsizce geliştirin!
 type: docs
-weight: 6750
+weight: 7600
 url: /tr/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-Bir web uzantısı ile belgedeki veriler arasındaki bağlayıcı ilişkiyi belirtir.
+Bir web uzantısı ile belgedeki veriler arasında bağlayıcı bir ilişki belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışma](https://docs.aspose.com/words/net/work-with-office-add-ins/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Office Eklentileriyle Çalışın](https://docs.aspose.com/words/net/work-with-office-add-ins/) belgeleme makalesi.
 
 ```csharp
 public class WebExtensionBinding
@@ -28,9 +28,9 @@ public class WebExtensionBinding
 
 | İsim | Tanım |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Bu listedeki bağlama girişini belgedeki bağlı verilerle eşlemek için kullanılan bağlama anahtarını belirtir. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | Bu listedeki bağlama girdisini belgedeki bağlı verilerle eşlemek için kullanılan bağlama anahtarını belirtir. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | Bağlama türünü belirtir. |
-| [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Bağlama tanımlayıcısını belirtir. |
+| [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | Bağlayıcı tanımlayıcıyı belirtir. |
 
 ### Ayrıca bakınız
 

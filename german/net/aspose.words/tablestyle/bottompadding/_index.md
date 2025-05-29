@@ -3,7 +3,7 @@ title: TableStyle.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words für .NET
-description: TableStyle BottomPadding eigendom. Ruft den Abstand in Punkten ab der unterhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diesen fest in C#.
+description: Entdecken Sie die TableStyle BottomPadding-Eigenschaft und passen Sie den Abstand Ihrer Tabellenzellen für ein verbessertes Layout und eine bessere Lesbarkeit an. Optimieren Sie Ihr Design mühelos!
 type: docs
 weight: 50
 url: /de/net/aspose.words/tablestyle/bottompadding/
@@ -18,7 +18,7 @@ public double BottomPadding { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

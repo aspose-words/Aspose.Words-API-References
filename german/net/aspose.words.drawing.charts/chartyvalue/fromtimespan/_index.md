@@ -3,7 +3,7 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words für .NET
-description: ChartYValue FromTimeSpan methode. Erstellt eineChartYValue Instanz derTime Typ in C#.
+description: Entdecken Sie die Methode ChartYValue FromTimeSpan, um mühelos Zeittypinstanzen für Ihre Diagramme zu erstellen. Optimieren Sie Ihre Datenvisualisierung noch heute!
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/

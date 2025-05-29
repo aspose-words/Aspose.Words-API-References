@@ -2,8 +2,8 @@
 title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
-second_title: Aspose.Words for .NET
-description: FieldShape inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldShape oluşturucusunu keşfedin—verimli şekil oluşturma için başvuracağınız çözümünüz. Bugün kusursuz tasarım ve işlevselliğin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldshape/fieldshape/

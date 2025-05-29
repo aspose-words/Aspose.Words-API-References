@@ -3,14 +3,14 @@ title: MailMerge.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words für .NET
-description: MailMerge GetFieldNames methode. Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück in C#.
+description: Entdecken Sie die MailMerge GetFieldNames-Methode, um mühelos auf alle Serienbrief-Feldnamen in Ihrem Dokument zuzugreifen und diese für eine optimierte Dokumentautomatisierung zu verwenden.
 type: docs
 weight: 220
 url: /de/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-Gibt eine Sammlung von im Dokument verfügbaren Serienbrieffeldnamen zurück.
+Gibt eine Sammlung der im Dokument verfügbaren Seriendruckfeldnamen zurück.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,15 +18,15 @@ public string[] GetFieldNames()
 
 ## Bemerkungen
 
-Gibt vollständige Briefvorlagenfeldnamen einschließlich optionalem Präfix zurück. Eliminiert keine doppelten Feldnamen.
+Gibt vollständige Seriendruckfeldnamen inklusive optionalem Präfix zurück. Doppelte Feldnamen werden nicht eliminiert.
 
 Bei jedem Aufruf wird ein neues String-Array erstellt.
 
-Enthält „Schnurrbart“-Feldnamen, wenn[`UseNonMergeFields`](../usenonmergefields/) Ist`WAHR`.
+Enthält „Mustache“-Feldnamen, wenn[`UseNonMergeFields`](../usenonmergefields/) Ist`WAHR`.
 
 ## Beispiele
 
-Zeigt, wie man Namen aller Zusammenführungsfelder in einem Dokument erhält.
+Zeigt, wie die Namen aller Seriendruckfelder in einem Dokument abgerufen werden.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // Stellen Sie für jeden MERGEFIELD-Namen im Dokument sicher, dass die Datentabelle eine Spalte enthält
- // mit demselben Namen und führen Sie dann den Serienbrief aus.
+    // mit demselben Namen und führen Sie dann den Serienbrief aus.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words для .NET
-description: CustomXmlPropertyCollection Add метод. Добавляет свойство в коллекцию на С#.
+description: Легко расширяйте CustomXmlPropertyCollection с помощью метода Add, что позволяет легко интегрировать свойства для оптимизированного управления данными.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpropertycollection/add/
@@ -27,9 +27,9 @@ public void Add(CustomXmlProperty property)
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
-// например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
-// В Word 2003 мы можем включить смарт-теги через «Инструменты» -> > "Параметры автозамены..." -> «СмартТеги».
+// Смарт-тег появляется в документе, в котором Microsoft Word распознает часть текста как некоторую форму данных,
+// например имя, дату или адрес, и преобразует его в гиперссылку, которая отображается подчеркиванием из фиолетовых точек.
+// В Word 2003 мы можем включить смарт-теги через «Сервис» -> «Параметры автозамены...» -> «SmartTags».
 // В нашем входном документе есть три объекта, которые Microsoft Word зарегистрировал как смарт-теги.
 // Смарт-теги могут быть вложенными, поэтому эта коллекция содержит больше.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();

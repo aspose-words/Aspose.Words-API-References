@@ -2,15 +2,15 @@
 title: Style.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: Style Equals yöntem. Belirtilen stille karşılaştırır. Stiller Istdler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır C#'da.
+second_title: .NET için Aspose.Words
+description: Yerleşik stilleri karşılaştırmak için Style Equals yöntemini keşfedin. Gelişmiş biçimlendirme ve tasarım verimliliği için bağlantılı ve sonraki paragraf stillerini anlayın.
 type: docs
-weight: 180
+weight: 220
 url: /tr/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-Belirtilen stille karşılaştırır. Stiller Istd'ler yalnızca yerleşik stiller için karşılaştırılır. Stillerin varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır.
+Belirtilen stille karşılaştırılır. Stil Istd'leri yalnızca yerleşik stiller için karşılaştırılır. Stil varsayılanları karşılaştırmaya dahil edilmez. Temel stil, bağlantılı stil ve sonraki paragraf stili yinelemeli olarak karşılaştırılır.
 
 ```csharp
 public bool Equals(Style style)
@@ -24,13 +24,13 @@ Stil takma adlarının nasıl kullanılacağını gösterir.
 Document doc = new Document(MyDir + "Style with alias.docx");
 
 // Bu belge "MyStyle,MyStyle Alias 1,MyStyle Alias 2" adında bir stil içeriyor.
-// Bir stilin adı virgülle ayrılmış birden fazla değere sahipse, her cümle ayrı bir takma addır.
+// Bir stilin adı virgülle ayrılmış birden fazla değere sahipse, her bir cümle ayrı bir takma addır.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Bir stile isminin yanı sıra takma adını kullanarak da referans verebiliriz.
+// Bir stile isminin yanı sıra takma adını kullanarak da başvurabiliriz.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

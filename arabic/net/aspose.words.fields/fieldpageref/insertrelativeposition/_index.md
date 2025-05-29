@@ -3,14 +3,14 @@ title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words لـ .NET
-description: FieldPageRef InsertRelativePosition ملكية. الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية في C#.
+description: اكتشف كيف تعمل خاصية InsertRelativePosition في FieldPageRef على تعزيز التنقل في المستندات من خلال إدارة مواضع الفقرات المرجعية بشكل فعال.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-الحصول على أو تعيين ما إذا كان سيتم إدراج موضع نسبي للفقرة ذات الإشارة المرجعية.
+يحصل على أو يحدد ما إذا كان سيتم إدراج موضع نسبي للفقرة المرجعية.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -18,32 +18,32 @@ public bool InsertRelativePosition { get; set; }
 
 ## أمثلة
 
-يظهر لإدراج حقول PAGEREF لعرض الموقع النسبي للإشارات المرجعية.
+يُظهر كيفية إدراج حقول PAGEREF لعرض الموقع النسبي للإشارات المرجعية.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // أدخل حقل PAGEREF الذي يعرض الصفحة التي توجد بها الإشارة المرجعية.
-    // قم بتعيين علامة InsertHyperlink لجعل الحقل يعمل أيضًا كارتباط قابل للنقر للإشارة المرجعية.
+    // أدخل حقل PAGEREF الذي يعرض الصفحة التي يوجد بها الإشارة المرجعية.
+    // قم بتعيين علم InsertHyperlink لجعل الحقل يعمل أيضًا كارتباط قابل للنقر إلى الإشارة المرجعية.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // يمكننا استخدام العلامة \p لعرض حقل PAGEREF
+    // يمكننا استخدام علامة \p لعرض حقل PAGEREF
     // موضع الإشارة المرجعية بالنسبة لموضع الحقل.
-    // الإشارة المرجعية 1 موجودة في نفس الصفحة وفوق هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أعلى".
+    // Bookmark1 موجود في نفس الصفحة وفوق هذا الحقل، لذا فإن نتيجة هذا الحقل المعروضة ستكون "أعلى".
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // الإشارة المرجعية 2 ستكون في نفس الصفحة وأسفل هذا الحقل، لذا ستكون النتيجة المعروضة لهذا الحقل "أدناه".
+    // سيكون Bookmark2 على نفس الصفحة وأسفل هذا الحقل، لذا فإن نتيجة هذا الحقل المعروضة ستكون "أسفل".
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // الإشارة المرجعية 3 ستكون في صفحة مختلفة، لذا سيعرض الحقل "في الصفحة 2".
+    // ستكون الإشارة المرجعية 3 في صفحة مختلفة، لذا سيعرض الحقل "في الصفحة 2".
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 

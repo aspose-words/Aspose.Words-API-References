@@ -3,7 +3,7 @@ title: DocumentProperty.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: DocumentProperty Type proprietà. Ottiene il tipo di dati della proprietà in C#.
+description: Scopri il tipo DocumentProperty per recuperare e utilizzare in modo efficiente i tipi di dati di proprietà per una migliore gestione e automazione dei documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words.properties/documentproperty/type/
@@ -18,7 +18,7 @@ public PropertyType Type { get; }
 
 ## Esempi
 
-Mostra come lavorare con le proprietà del documento integrate.
+Mostra come lavorare con le proprietà integrate del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
@@ -47,7 +47,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 }
 ```
 
-Mostra come utilizzare le proprietà personalizzate di un documento.
+Mostra come lavorare con le proprietà personalizzate di un documento.
 
 ```csharp
 Document doc = new Document();
@@ -66,7 +66,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Stampa ogni proprietà personalizzata nel documento.
+// Stampa tutte le proprietà personalizzate nel documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -80,7 +80,7 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Costume".
+// Possiamo trovare queste proprietà personalizzate in Microsoft Word tramite "File" -> "Proprietà" > "Proprietà avanzate" > "Personalizzate".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Di seguito sono riportati tre modi per rimuovere le proprietà personalizzate da un documento.
@@ -96,7 +96,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Svuota l'intera raccolta in una volta:
+// 3 - Svuota l'intera raccolta in una volta sola:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

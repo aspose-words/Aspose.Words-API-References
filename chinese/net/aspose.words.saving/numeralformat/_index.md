@@ -2,15 +2,15 @@
 title: NumeralFormat Enum
 linktitle: NumeralFormat
 articleTitle: NumeralFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Saving.NumeralFormat 枚举. 表示渲染为固定页面格式时用于表示数字 的符号集 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Saving.NumeralFormat 枚举，在固定页面格式下实现最佳数字呈现。立即增强您的文档渲染效果！
 type: docs
-weight: 5310
+weight: 6090
 url: /zh/net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration
 
-表示渲染为固定页面格式时用于表示数字 的符号集。
+表示用于表示数字的符号集 ，同时呈现为固定页面格式。
 
 ```csharp
 public enum NumeralFormat
@@ -21,8 +21,8 @@ public enum NumeralFormat
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | European | `0` | 欧洲数字：0123456789. |
-| ArabicIndic | `1` | 阿拉伯语使用的数字：٠١٢٣٤٥٦٧٨٩. Unicode 范围 U+0660 - u+0669. |
-| EasternArabicIndic | `2` | 波斯语和乌尔都语中使用的数字：01234567789. Unicode 范围 U+06F0 - u+06F9. |
+| ArabicIndic | `1` | 阿拉伯语中使用的数字：٠١٢٣٤٥٦٧٨٩. Unicode 范围 U+0660 - u+0669. |
+| EasternArabicIndic | `2` | 波斯语和乌尔都语中使用的数字：۰۱۲۳۴۵۶۷۸۹. Unicode 范围 U+06F0 - u+06F9. |
 | Context | `3` | 符号集由上下文（语言环境和 RTL 属性）决定。 |
 | System | `4` | 不支持此选项。 符号集由区域设置决定。 |
 
@@ -44,11 +44,11 @@ PdfSaveOptions options = new PdfSaveOptions();
 // 将“NumeralFormat”属性设置为“NumeralFormat.ArabicIndic”
 // 使用 U+0660 到 U+0669 范围内的字形作为数字。
 // 将“NumeralFormat”属性设置为“NumeralFormat.Context”
-// 查找区域设置以确定要使用的字形数量。
+// 查找语言环境以确定要使用的字形数量。
 // 将“NumeralFormat”属性设置为“NumeralFormat.EasternArabicIndic”
 // 使用 U+06F0 到 U+06F9 范围内的字形作为数字。
 // 将“NumeralFormat”属性设置为“NumeralFormat.European”以使用欧洲数字。
-// 将“NumeralFormat”属性设置为“NumeralFormat.System”以确定区域设置中的符号集。
+// 将“NumeralFormat”属性设置为“NumeralFormat.System”以从区域设置中确定符号集。
 options.NumeralFormat = numeralFormat;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.SetNumeralFormat.pdf", options);

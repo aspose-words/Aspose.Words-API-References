@@ -2,15 +2,15 @@
 title: Row.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
-second_title: Aspose.Words for .NET
-description: Row EnsureMinimum yöntem. EğerRow hiç hücresi yoktur bir tane oluşturur ve eklerCell  C#'da.
+second_title: .NET için Aspose.Words
+description: Row EnsureMinimum metodunu keşfedin, mevcut olmayan bir Hücreyi zahmetsizce oluşturun ve ekleyin, böylece veri yapınızın yönetimini geliştirin.
 type: docs
-weight: 130
+weight: 150
 url: /tr/net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
 
-Eğer[`Row`](../) hiç hücresi yoktur, bir tane oluşturur ve ekler[`Cell`](../../cell/) .
+Eğer[`Row`](../) hücre yok, bir hücre oluşturur ve ekler[`Cell`](../../cell/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -18,7 +18,7 @@ public void EnsureMinimum()
 
 ## Örnekler
 
-Bir satır düğümünün, ona içerik eklemeye başlamamız için gereken düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
+Bir satır düğümünün, ona içerik eklemeye başlamak için ihtiyaç duyduğumuz düğümleri içerdiğinden nasıl emin olacağımızı gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ doc.FirstSection.Body.AppendChild(table);
 Row row = new Row(doc);
 table.AppendChild(row);
 
-// Satırlar, diziler, şekiller ve hatta diğer tablolar gibi tipik öğelerin bulunduğu paragrafları içeren hücreleri içerir.
-// Yeni satırımızda bu düğümlerden hiçbiri yok ve bu düğümler bulunana kadar ona içerik ekleyemeyiz.
+// Satırlar, tipik öğeler (örneğin koşular, şekiller ve hatta diğer tablolar) içeren paragraflar içeren hücreler içerir.
+// Yeni satırımızda bu düğümlerin hiçbiri yok ve bu düğümler oluşana kadar satıra içerik ekleyemeyiz.
 Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
 
-// Bir tabloda "EnsureMinimum" yöntemini çağırmak şunları sağlayacaktır:
-// tabloda boş paragraf içeren en az bir hücre var.
+// Bir tabloda "EnsureMinimum" metodunu çağırmak,
+// tabloda en az bir boş paragraf içeren hücre var.
 row.EnsureMinimum();
 row.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

@@ -3,7 +3,7 @@ title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words pour .NET
-description: ChartXValue TimeValue propriété. Obtient la valeur de temps stockée en C#.
+description: Découvrez la propriété ChartXValue TimeValue pour accéder et gérer facilement vos valeurs de temps stockées pour une visualisation améliorée des données.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.drawing.charts/chartxvalue/timevalue/

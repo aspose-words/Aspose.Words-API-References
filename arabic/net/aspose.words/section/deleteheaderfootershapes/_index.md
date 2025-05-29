@@ -3,14 +3,14 @@ title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
 second_title: Aspose.Words لـ .NET
-description: Section DeleteHeaderFooterShapes طريقة. حذف كافة الأشكال الكائنات الرسومية من رؤوس وتذييلات هذا القسم في C#.
+description: قم بإزالة جميع أشكال الرسم بسهولة من رؤوس وتذييلات الأقسام باستخدام طريقة DeleteHeaderFooterShapes لتقديم عرض مستند أنظف.
 type: docs
-weight: 120
+weight: 140
 url: /ar/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-حذف كافة الأشكال (الكائنات الرسومية) من رؤوس وتذييلات هذا القسم.
+يحذف جميع الأشكال (كائنات الرسم) من رؤوس وتذييلات هذا القسم.
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -24,18 +24,18 @@ public void DeleteHeaderFooterShapes()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أنشئ رأسًا أساسيًا بالشكل.
+// إنشاء رأس رئيسي مع شكل.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// قم بإنشاء تذييل أساسي مع صورة.
+// إنشاء تذييل أساسي مع صورة.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// قم بإزالة جميع الأشكال من الرؤوس والتذييلات في القسم الأول.
+// قم بإزالة كافة الأشكال من الرؤوس والتذييلات في القسم الأول.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

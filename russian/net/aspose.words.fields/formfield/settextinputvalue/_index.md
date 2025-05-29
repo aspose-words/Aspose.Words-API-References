@@ -3,7 +3,7 @@ title: FormField.SetTextInputValue
 linktitle: SetTextInputValue
 articleTitle: SetTextInputValue
 second_title: Aspose.Words для .NET
-description: FormField SetTextInputValue метод. Применяет текстовый формат указанный вTextInputFormat и сохраняет значение вResult  на С#.
+description: Узнайте, как метод FormField SetTextInputValue улучшает форматирование текста и эффективно сохраняет результаты, оптимизируя процесс ввода данных.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.fields/formfield/settextinputvalue/
@@ -22,11 +22,11 @@ public void SetTextInputValue(object newValue)
 
 ## Примечания
 
-[`TextInputDefault`](../textinputdefault/)значение применяется, если*newValue* является`нулевой`.
+The[`TextInputDefault`](../textinputdefault/) значение применяется, если*newValue* является`нулевой`.
 
 ## Примеры
 
-Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
+Показывает, как вставлять различные виды полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов для вставки поля со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов для вставки флажка.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -73,7 +73,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ.
+    // Поля отображают наши поля формы. Мы можем увидеть их коды полей, открыв этот документ
     // в Microsoft и нажав Alt + F9. Эти поля не имеют переключателей,
     // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -95,7 +95,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Реализация посетителя, которая печатает подробную информацию о полях формы, которые он посещает.
+ /// Реализация посетителя, которая печатает сведения о полях формы, которые он посещает.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст, заканчивающийся символом новой строки, в текущий вывод.
+    /// Добавляет текст, завершающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -144,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

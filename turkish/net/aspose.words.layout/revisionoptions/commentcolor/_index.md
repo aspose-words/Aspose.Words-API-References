@@ -2,15 +2,15 @@
 title: RevisionOptions.CommentColor
 linktitle: CommentColor
 articleTitle: CommentColor
-second_title: Aspose.Words for .NET
-description: RevisionOptions CommentColor mülk. Yorumlar için kullanılacak rengi belirlemeye izin verir. Varsayılan değerRed  C#'da.
+second_title: .NET için Aspose.Words
+description: Yorumlarınızı RevisionOptions' CommentColor özelliğiyle özelleştirin. Gelişmiş görünürlük için tercih ettiğiniz rengi kolayca ayarlayın (varsayılan kırmızıdır)!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.layout/revisionoptions/commentcolor/
 ---
 ## RevisionOptions.CommentColor property
 
-Yorumlar için kullanılacak rengi belirlemeye izin verir. Varsayılan değer:Red .
+Yorumlar için kullanılacak rengi belirtmeye izin verir. Varsayılan değerRed .
 
 ```csharp
 public RevisionColor CommentColor { get; set; }
@@ -30,37 +30,37 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Revizyonların görünümünü kontrol eden RevisionOptions nesnesini alın.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Ekleme revizyonlarını yeşil ve italik olarak işle.
+// Ekleme revizyonlarını yeşil ve italik olarak göster.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Silme düzeltmelerini kırmızı ve kalın harflerle işleyin.
+// Silme revizyonlarını kırmızı ve kalın olarak göster.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Aynı metin bir hareket revizyonunda iki kez görünecektir:
+// Bir hareket revizyonunda aynı metin iki kez görünecek:
 // bir kez kalkış noktasında ve bir kez varış noktasında.
-// Taşınan revizyondaki metni çift çizgiyle sarıya dönüştür
+// Taşınmış revizyondaki metni çift çizgiyle sarıya boya
 // ve taşınan revizyonda çift altı çizili mavi.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Format revizyonlarını koyu kırmızı ve kalın olarak işleyin.
+// Biçim revizyonlarını koyu kırmızı ve kalın olarak göster.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Sayfanın sol tarafına, revizyonlardan etkilenen satırların yanına kalın, lacivert bir çubuk yerleştirin.
+// Revizyonlardan etkilenen satırların yanına, sayfanın sol tarafına kalın, koyu mavi bir çubuk yerleştirin.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Revizyon işaretlerini ve orijinal metni göster.
+// Düzeltme işaretlerini ve orijinal metni göster.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarla gösterilmesini sağlayın
-//sayfanın sağ tarafında.
+// Hareket, silme, biçimlendirme revizyonları ve yorumların yeşil balonlarda gösterilmesini sağlayın
+// Sayfanın sağ tarafında.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 

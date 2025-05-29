@@ -2,15 +2,15 @@
 title: ImlRenderingMode Enum
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.ImlRenderingMode Sıralama. Mürekkep InkML nesnelerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: En iyi InkML işleme için Aspose.Words ImlRenderingMode enum'unu keşfedin. Hassas mürekkep nesnesi görselleştirmesiyle belge çıktınızı geliştirin!
 type: docs
-weight: 5250
+weight: 6000
 url: /tr/net/aspose.words.saving/imlrenderingmode/
 ---
 ## ImlRenderingMode enumeration
 
-Mürekkep (InkML) nesnelerinin sabit sayfa formatlarına nasıl aktarılacağını belirtir.
+Mürekkep (InkML) nesnelerinin sabit sayfa biçimlerine nasıl işleneceğini belirtir.
 
 ```csharp
 public enum ImlRenderingMode
@@ -20,19 +20,19 @@ public enum ImlRenderingMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Fallback | `0` | Mürekkep (InkML) nesnesi için geri dönüş şekli mevcutsa Aspose.Words, InkML yerine geri dönüş şeklini oluşturur. |
-| InkML | `1` | Aspose.Words, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini oluşturur. Bu, varsayılan moddur. |
+| Fallback | `0` | Mürekkep (InkML) nesnesi için geri çekilme şekli mevcutsa, Aspose.Words, InkML yerine geri çekilme şeklini işler. |
+| InkML | `1` | Aspose.Words, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini işler. Bu varsayılan moddur. |
 
 ## Örnekler
 
-Mürekkep nesnesinin nasıl oluşturulacağını gösterir.
+Ink nesnesinin nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// 'ImlRenderingMode.InkML'yi ayarla, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini oluşturur.
+// 'ImlRenderingMode.InkML' ayarı, mürekkep (InkML) nesnesinin geri dönüş şeklini yok sayar ve InkML'nin kendisini işler.
 // Eğer render sonucu tatmin edici değilse,
-// önceki sürümlere benzer bir sonuç elde etmek için lütfen 'ImlRenderingMode.Fallback'i kullanın.
+// Önceki versiyonlara benzer bir sonuç almak için lütfen 'ImlRenderingMode.Fallback' kullanın.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)
 {
     ImlRenderingMode = ImlRenderingMode.InkML

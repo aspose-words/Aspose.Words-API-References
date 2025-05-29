@@ -3,14 +3,14 @@ title: LoadOptions.MswVersion
 linktitle: MswVersion
 articleTitle: MswVersion
 second_title: Aspose.Words für .NET
-description: LoadOptions MswVersion eigendom. Ermöglicht die Angabe dass der Dokumentladevorgang mit einer bestimmten MS WordVersion übereinstimmen soll. Der Standardwert istWord2019 in C#.
+description: Optimieren Sie das Laden von Dokumenten mit LoadOptions MswVersion. Stellen Sie die Kompatibilität mit bestimmten MS Word-Versionen sicher. Für eine nahtlose Integration wird standardmäßig Word 2019 verwendet.
 type: docs
 weight: 100
 url: /de/net/aspose.words.loading/loadoptions/mswversion/
 ---
 ## LoadOptions.MswVersion property
 
-Ermöglicht die Angabe, dass der Dokumentladevorgang mit einer bestimmten MS Word-Version übereinstimmen soll. Der Standardwert istWord2019
+Ermöglicht die Angabe, dass der Dokumentladevorgang einer bestimmten MS Word-Version entsprechen soll. Der Standardwert istWord2019
 
 ```csharp
 public MsWordVersion MswVersion { get; set; }
@@ -18,11 +18,11 @@ public MsWordVersion MswVersion { get; set; }
 
 ## Bemerkungen
 
-Unterschiedliche Word-Versionen behandeln möglicherweise bestimmte Aspekte des Dokumentinhalts und der Formatierung während des Ladevorgangs geringfügig unterschiedlich , was zu geringfügigen Unterschieden im Dokumentobjektmodell führen kann.
+Verschiedene Word-Versionen verarbeiten bestimmte Aspekte des Dokumentinhalts und der Formatierung während des Ladevorgangs möglicherweise leicht unterschiedlich , was zu geringfügigen Unterschieden im Dokumentobjektmodell führen kann.
 
 ## Beispiele
 
-Zeigt, wie der Ladevorgang einer bestimmten Microsoft Word-Version beim Laden eines Dokuments emuliert wird.
+Zeigt, wie der Ladevorgang einer bestimmten Microsoft Word-Version beim Laden von Dokumenten emuliert wird.
 
 ```csharp
 // Standardmäßig lädt Aspose.Words Dokumente gemäß der Microsoft Word 2019-Spezifikation.
@@ -30,12 +30,12 @@ LoadOptions loadOptions = new LoadOptions();
 
 Assert.AreEqual(MsWordVersion.Word2019, loadOptions.MswVersion);
 
-// In diesem Dokument fehlt der standardmäßige Absatzformatierungsstil.
+// In diesem Dokument fehlt der Standard-Absatzformatierungsstil.
 // Dieser Standardstil wird neu generiert, wenn wir das Dokument entweder mit Microsoft Word oder Aspose.Words laden.
 loadOptions.MswVersion = MsWordVersion.Word2007;
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
-// Der Zeilenabstand des Stils hat diesen Wert, wenn er von der Microsoft Word 2007-Spezifikation geladen wird.
+// Der Zeilenabstand des Stils hat diesen Wert, wenn er gemäß der Microsoft Word 2007-Spezifikation geladen wird.
 Assert.AreEqual(12.95d, doc.Styles.DefaultParagraphFormat.LineSpacing, 0.01d);
 ```
 

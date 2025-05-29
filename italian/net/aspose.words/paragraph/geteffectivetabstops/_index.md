@@ -3,14 +3,14 @@ title: Paragraph.GetEffectiveTabStops
 linktitle: GetEffectiveTabStops
 articleTitle: GetEffectiveTabStops
 second_title: Aspose.Words per .NET
-description: Paragraph GetEffectiveTabStops metodo. Restituisce larray di tutti i punti di tabulazione applicati a questo paragrafo inclusi quelli applicati indirettamente da stili o elenchi in C#.
+description: Scopri il metodo GetEffectiveTabStops per recuperare tutte le tabulazioni in un paragrafo, comprese quelle provenienti da stili ed elenchi per una formattazione avanzata.
 type: docs
-weight: 250
+weight: 270
 url: /it/net/aspose.words/paragraph/geteffectivetabstops/
 ---
 ## Paragraph.GetEffectiveTabStops method
 
-Restituisce l'array di tutti i punti di tabulazione applicati a questo paragrafo, inclusi quelli applicati indirettamente da stili o elenchi.
+Restituisce una matrice di tutte le tabulazioni applicate a questo paragrafo, comprese quelle applicate indirettamente da stili o elenchi.
 
 ```csharp
 public TabStop[] GetEffectiveTabStops()
@@ -29,18 +29,18 @@ Paragraph para = doc.FirstSection.Body.FirstParagraph;
 Assert.AreEqual(0, doc.FirstSection.Body.FirstParagraph.GetEffectiveTabStops().Length);
 
 // Possiamo aggiungere tabulazioni personalizzate in Microsoft Word se abilitiamo il righello tramite la scheda "Visualizza".
-// Ogni unità su questo righello corrisponde a due tabulazioni predefinite, ovvero 72 punti.
-// Possiamo aggiungere tabulazioni personalizzate a livello di codice in questo modo.
+// Ogni unità su questo righello è costituita da due tabulazioni predefinite, ovvero 72 punti.
+// Possiamo aggiungere tabulazioni personalizzate tramite programmazione in questo modo.
 TabStopCollection tabStops = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.TabStops;
 tabStops.Add(72, TabAlignment.Left, TabLeader.Dots);
 tabStops.Add(216, TabAlignment.Center, TabLeader.Dashes);
 tabStops.Add(360, TabAlignment.Right, TabLeader.Line);
 
-// Possiamo vedere questi punti di tabulazione in Microsoft Word abilitando il righello tramite "Visualizza" -> "Mostra" -> "Governate".
+// Possiamo vedere queste tabulazioni in Microsoft Word abilitando il righello tramite "Visualizza" -> "Mostra" -> "Righello".
 Assert.AreEqual(3, para.GetEffectiveTabStops().Length);
 
-// Qualsiasi carattere di tabulazione aggiunto utilizzerà i punti di tabulazione sul righello e potrebbe,
-// a seconda del valore del leader della scheda, lascia una linea tra le destinazioni di partenza e di arrivo della scheda.
+// Tutti i caratteri di tabulazione che aggiungiamo utilizzeranno le tabulazioni sul righello e potrebbero,
+// a seconda del valore del leader della tabulazione, lasciare una riga tra le destinazioni di partenza e di arrivo della tabulazione.
 para.AppendChild(new Run(doc, "\tTab 1\tTab 2\tTab 3"));
 
 doc.Save(ArtifactsDir + "Paragraph.TabStops.docx");

@@ -2,8 +2,8 @@
 title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
-second_title: 用于 .NET 的 Aspose.Words
-description: LanguagePreferences DefaultEditingLanguage 财产. 获取或设置默认编辑语言 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 LanguagePreferences DefaultEditingLanguage 属性管理您的编辑体验。轻松设置和自定义您的默认编辑语言。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/
@@ -20,7 +20,7 @@ public EditingLanguage DefaultEditingLanguage { get; set; }
 
 ## 例子
 
-显示加载文档时如何设置默认语言。
+显示如何在加载文档时设置默认语言。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

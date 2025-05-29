@@ -3,7 +3,7 @@ title: FieldImport
 linktitle: FieldImport
 articleTitle: FieldImport
 second_title: Aspose.Words для .NET
-description: FieldImport строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldImport, ваше решение для бесшовной интеграции данных. Разблокируйте эффективные рабочие процессы с помощью нашего мощного конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldimport/fieldimport/

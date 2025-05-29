@@ -2,17 +2,17 @@
 title: Body Class
 linktitle: Body
 articleTitle: Body
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Body sınıf. Bir bölümün ana metni için kapsayıcıyı temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Bölüm metnini zahmetsizce yönetmek ve belge işleme verimliliğini artırmak için temel aracınız olan Aspose.Words.Body sınıfını keşfedin.
 type: docs
-weight: 30
+weight: 220
 url: /tr/net/aspose.words/body/
 ---
 ## Body class
 
-Bir bölümün ana metni için kapsayıcıyı temsil eder.
+Bir bölümün ana metni için bir kapsayıcıyı temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) belgeleme makalesi.
 
 ```csharp
 public class Body : Story
@@ -22,28 +22,28 @@ public class Body : Story
 
 | İsim | Tanım |
 | --- | --- |
-| [Body](body/)(*[DocumentBase](../documentbase/)*) | Yeni bir örneğini başlatır`Body` class. |
+| [Body](body/)(*[DocumentBase](../documentbase/)*) | Yeni bir örneğini başlatır`Body` sınıf. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün doğrudan alt öğelerinin sayısını alır. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Bu düğümün hemen alt düğümlerinin sayısını alır. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Özel düğüm tanımlayıcısını belirtir. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Bu düğümün ait olduğu belgeyi alır. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Düğümün ilk çocuğunu alır. |
 | [FirstParagraph](../../aspose.words/story/firstparagraph/) { get; } | Hikayedeki ilk paragrafı alır. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | İadeler`doğru` bu düğümün herhangi bir alt düğümü varsa. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | İadeler`doğru` çünkü bu düğüm alt düğümlere sahip olabilir. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Geri Döndürür`doğru` eğer bu düğümün herhangi bir alt düğümü varsa. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Geri Döndürür`doğru` çünkü bu düğümün alt düğümleri olabilir. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Düğümün son çocuğunu alır. |
 | [LastParagraph](../../aspose.words/story/lastparagraph/) { get; } | Hikayedeki son paragrafı alır. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümden hemen sonra gelen düğümü alır. |
-| override [NodeType](../../aspose.words/body/nodetype/) { get; } | İadelerBody . |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Bu düğümü hemen takip eden düğümü alır. |
+| override [NodeType](../../aspose.words/body/nodetype/) { get; } | Geri DöndürürBody . |
 | [Paragraphs](../../aspose.words/story/paragraphs/) { get; } | Hikayenin doğrudan alt öğeleri olan paragrafların bir koleksiyonunu alır. |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün doğrudan ebeveynini alır. |
-| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Bu hikayenin ana bölümünü alır. |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Bu düğümün en yakın üst düğümünü alır. |
+| [ParentSection](../../aspose.words/body/parentsection/) { get; } | Bu hikayenin üst bölümünü alır. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Bu düğümden hemen önceki düğümü alır. |
-| [Range](../../aspose.words/node/range/) { get; } | Bir değeri döndürür[`Range`](../range/) Bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
+| [Range](../../aspose.words/node/range/) { get; } | Bir[`Range`](../range/)bu düğümde bulunan bir belgenin bölümünü temsil eden nesne. |
 | [StoryType](../../aspose.words/story/storytype/) { get; } | Bu hikayenin türünü alır. |
 | [Tables](../../aspose.words/story/tables/) { get; } | Hikayenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır. |
 
@@ -51,41 +51,43 @@ public class Body : Story
 
 | İsim | Tanım |
 | --- | --- |
-| override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Ziyaretçi kabul eder. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin sonuna ekler. |
-| [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | Oluşturan bir kısayol yöntemi[`Paragraph`](../paragraph/) isteğe bağlı metin içeren nesneyi seçer ve onu bu nesnenin sonuna ekler. |
+| override [Accept](../../aspose.words/body/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Bir ziyaretçiyi kabul eder. |
+| override [AcceptEnd](../../aspose.words/body/acceptend/)(*[DocumentVisitor](../documentvisitor/)*) | Belgenin gövdesinin sonunu ziyaret eden bir ziyaretçiyi kabul eder. |
+| override [AcceptStart](../../aspose.words/body/acceptstart/)(*[DocumentVisitor](../documentvisitor/)*) | Belgenin gövdesinin başlangıcını ziyaret eden bir ziyaretçiyi kabul eder. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Belirtilen düğümü bu düğüm için alt düğümler listesinin sonuna ekler. |
+| [AppendParagraph](../../aspose.words/story/appendparagraph/)(*string*) | Bir kısayol yöntemi oluşturan[`Paragraph`](../paragraph/) isteğe bağlı metin içeren nesne ve bu nesnenin sonuna ekler. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Düğümün bir kopyasını oluşturur. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümlerin arasında geçiş yapmak ve düğümleri okumak için kullanılabilecek gezgini oluşturur. |
-| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Bu hikayenin metnindeki tüm şekilleri siler. |
-| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Son alt öğe bir paragraf değilse, boş bir paragraf oluşturur ve ekler. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atayı alır[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atayı alır. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Düğümleri gezmek ve okumak için kullanılabilen gezgini oluşturur. |
+| [DeleteShapes](../../aspose.words/story/deleteshapes/)() | Bu hikayenin metninden tüm şekilleri siler. |
+| [EnsureMinimum](../../aspose.words/body/ensureminimum/)() | Son çocuk bir paragraf değilse, boş bir paragraf oluşturur ve ekler. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Belirtilenin ilk atasını alır[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Belirtilen nesne türünün ilk atasını alır. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../nodetype/), int, bool*) | Belirtilen türle eşleşen N'inci alt düğümü döndürür. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../nodetype/), bool*) | Belirtilen türle eşleşen alt düğümlerin canlı bir koleksiyonunu döndürür. |
 | [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt öğelerinin metnini alır. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Alt düğüm dizisinde belirtilen alt düğümün dizinini döndürür. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen sonrasına ekler. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../node/), [Node](../node/)*) | Belirtilen düğümü, belirtilen referans düğümünün hemen öncesine ekler. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre sonraki düğümü alır. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../node/)*) | Belirtilen düğümü, bu düğüm için alt düğümler listesinin başına ekler. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır. |
-| [Remove](../../aspose.words/node/remove/)() | Kendini üst öğeden kaldırır. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Bu düğümün ve tüm alt düğümlerinin metnini alır. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../node/)*) | Alt düğüm dizisindeki belirtilen alt düğümün dizinini döndürür. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../node/)*) | Belirtilen düğümü belirtilen referans düğümünden hemen sonra ekler. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../node/)*) | Belirtilen düğümü belirtilen referans düğümünden hemen önce ekler. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ön sipariş ağacı geçiş algoritmasına göre bir sonraki düğümü alır. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Belirtilen düğümü bu düğüm için alt düğümler listesinin başına ekler. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır. |
+| [Remove](../../aspose.words/node/remove/)() | Kendini ana öğeden kaldırır. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Geçerli düğümün tüm alt düğümlerini kaldırır. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../node/)*) | Belirtilen alt düğümü kaldırır. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/)Geçerli düğümün alt düğümleri. |
-| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | XPath ifadesiyle eşleşen düğümlerin listesini seçer. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Belirtilen alt düğümü kaldırır. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tümünü kaldırır[`SmartTag`](../../aspose.words.markup/smarttag/) geçerli düğümün alt düğümleri. |
+| [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | XPath ifadesiyle eşleşen düğümlerin bir listesini seçer. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | İlkini seçer[`Node`](../node/) XPath ifadesiyle eşleşen. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen formatta bir dizeye aktarır. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Düğümün içeriğini belirtilen biçimde bir dizeye aktarır. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen kaydetme seçeneklerini kullanarak düğümün içeriğini bir dizeye aktarır. |
 
 ## Notlar
 
 `Body` içerebilir[`Paragraph`](../paragraph/) Ve[`Masa`](../../aspose.words.tables/table/) çocuk düğümleri.
 
-`Body` bölüm düzeyinde bir düğümdür ve yalnızca alt öğesi olabilir[`Section`](../section/) . Yalnızca bir tane olabilir`Body` içinde[`Section`](../section/).
+`Body` bölüm düzeyinde bir düğümdür ve yalnızca bir alt düğüm olabilir[`Section`](../section/) . Sadece bir tane olabilir`Body` bir[`Section`](../section/).
 
-Minimum geçerli`Body` en az bir tane içermesi gerekiyor[`Paragraph`](../paragraph/).
+Asgari geçerli`Body` en az bir tane içermesi gerekiyor[`Paragraph`](../paragraph/).
 
 ## Örnekler
 
@@ -96,25 +98,25 @@ Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
+// Bölüm için bazı sayfa düzeni özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu alt öğe olarak gövdeye ekleyin.
+// Bir paragraf oluştur, bazı biçimlendirme özelliklerini ayarla ve sonra onu gövdeye bir alt paragraf olarak ekle.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -122,8 +124,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
+// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir çalışma oluşturun,
+// Görünümünü ve içeriğini ayarlayın ve ardından paragrafın bir alt öğesi olarak ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

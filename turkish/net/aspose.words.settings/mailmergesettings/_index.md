@@ -2,17 +2,17 @@
 title: MailMergeSettings Class
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.MailMergeSettings sınıf. Bir belgeye ilişkin tüm adresmektup birleştirme bilgilerini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş verimlilik için güçlü posta birleştirme yetenekleriyle belge otomasyonunu kolaylaştırmak üzere Aspose.Words.MailMergeSettings sınıfını keşfedin.
 type: docs
-weight: 5850
+weight: 6680
 url: /tr/net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
 
-Bir belgeye ilişkin tüm adres-mektup birleştirme bilgilerini belirtir.
+Bir belge için tüm posta birleştirme bilgilerini belirtir.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Posta Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) belgeleme makalesi.
 
 ```csharp
 public class MailMergeSettings
@@ -28,47 +28,47 @@ public class MailMergeSettings
 
 | İsim | Tanım |
 | --- | --- |
-| [ActiveRecord](../../aspose.words.settings/mailmergesettings/activerecord/) { get; set; } | Microsoft Word'de görüntülenecek veri kaynağındaki kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1. 'dir |
-| [AddressFieldName](../../aspose.words.settings/mailmergesettings/addressfieldname/) { get; set; } | Veri kaynağı içindeki e-posta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir. |
-| [CheckErrors](../../aspose.words.settings/mailmergesettings/checkerrors/) { get; set; } | Adres-mektup birleştirme gerçekleştirilirken Microsoft Word tarafından gerçekleştirilecek hata raporlama türünü belirtir. Varsayılan değer:Default . |
+| [ActiveRecord](../../aspose.words.settings/mailmergesettings/activerecord/) { get; set; } | Microsoft Word'de görüntülenecek veri kaynağından gelen kaydın tek tabanlı dizinini belirtir. Varsayılan değer 1'dir. |
+| [AddressFieldName](../../aspose.words.settings/mailmergesettings/addressfieldname/) { get; set; } | Veri kaynağında e-posta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir. |
+| [CheckErrors](../../aspose.words.settings/mailmergesettings/checkerrors/) { get; set; } | Microsoft Word tarafından posta birleştirme işlemi gerçekleştirilirken gerçekleştirilecek hata raporlama türünü belirtir. Varsayılan değerDefault . |
 | [ConnectString](../../aspose.words.settings/mailmergesettings/connectstring/) { get; set; } | Harici bir veri kaynağına bağlanmak için kullanılan bağlantı dizesini belirtir. Varsayılan değer boş bir dizedir. |
-| [DataSource](../../aspose.words.settings/mailmergesettings/datasource/) { get; set; } | Adres-mektup birleştirme veri kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir. |
-| [DataType](../../aspose.words.settings/mailmergesettings/datatype/) { get; set; } | Adres-mektup birleştirme veri kaynağının türünü ve veri erişim yöntemini belirtir. Varsayılan değer:Default . |
-| [Destination](../../aspose.words.settings/mailmergesettings/destination/) { get; set; } | Microsoft Word'ün adres-mektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değer:Default . |
-| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines/) { get; set; } | Adres-mektup birleştirmeyi gerçekleştiren bir uygulamanın, birleştirilmiş belgelerde adres-mektup birleştirmeden kaynaklanan boş satırları nasıl işleyeceğini belirtir. Varsayılan değer:`YANLIŞ` . |
-| [HeaderSource](../../aspose.words.settings/mailmergesettings/headersource/) { get; set; } | Adres-mektup birleştirme üstbilgi kaynağının yolunu belirtir. Varsayılan değer boş bir dizedir. |
-| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery/) { get; set; } | Bundan emin değilim. Microsoft Word Otomasyon Referansı, bunun, belgesi Microsoft Word'de her açıldığında sorgunun yürütüldüğünü belirttiğini öne sürüyor. Ancak OOXML spesifikasyonu, bunun, sorgunun gerçek sorguyu içeren harici bir sorgu dosyasına referans içerdiğini belirttiğini öne sürer. Varsayılan değer:`YANLIŞ` . |
-| [MailAsAttachment](../../aspose.words.settings/mailmergesettings/mailasattachment/) { get; set; } | Adres-mektup birleştirme işlemi sırasında oluşturulan belgelerin gerçek e-postanın gövdesi yerine eki olarak e-postayla gönderilmesi gerektiğini belirtir. Varsayılan değer:`YANLIŞ` . |
-| [MailSubject](../../aspose.words.settings/mailmergesettings/mailsubject/) { get; set; } | Adres-mektup birleştirme sırasında üretilen e-posta veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir. |
-| [MainDocumentType](../../aspose.words.settings/mailmergesettings/maindocumenttype/) { get; set; } | Adres-mektup birleştirme ana belge türünü belirtir. Varsayılan değer:Default . |
+| [DataSource](../../aspose.words.settings/mailmergesettings/datasource/) { get; set; } | Posta birleştirme veri kaynağına giden yolu belirtir. Varsayılan değer boş bir dizedir. |
+| [DataType](../../aspose.words.settings/mailmergesettings/datatype/) { get; set; } | Posta birleştirme veri kaynağının türünü ve veri erişim yöntemini belirtir. Varsayılan değer:Default . |
+| [Destination](../../aspose.words.settings/mailmergesettings/destination/) { get; set; } | Microsoft Word'ün bir posta birleştirme işleminin sonuçlarını nasıl çıktı vereceğini belirtir. Varsayılan değerDefault . |
+| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines/) { get; set; } | Posta birleştirme işlemini gerçekleştiren bir uygulamanın, posta birleştirme sonucunda birleştirilen belgelerdeki boş satırları nasıl işleyeceğini belirtir. Varsayılan değer:`YANLIŞ` . |
+| [HeaderSource](../../aspose.words.settings/mailmergesettings/headersource/) { get; set; } | Posta birleştirme başlık kaynağına giden yolu belirtir. Varsayılan değer boş bir dizedir. |
+| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery/) { get; set; } | Bundan emin değilim. Microsoft Word Otomasyon Başvurusu, bunun sorgunun belgesi Microsoft Word'de her açıldığında yürütüleceğini belirttiğini öne sürüyor. Ancak OOXML belirtimi, bunun sorgunun gerçek sorguyu içeren harici bir sorgu dosyasına bir başvuru içerdiğini belirttiğini öne sürüyor. Varsayılan değer`YANLIŞ` . |
+| [MailAsAttachment](../../aspose.words.settings/mailmergesettings/mailasattachment/) { get; set; } | Bir posta birleştirme işlemi sırasında üretilen belgelerin gerçek e-postanın gövdesi yerine eki olarak e-postayla gönderilmesi gerektiğini belirtir. Varsayılan değer`YANLIŞ` . |
+| [MailSubject](../../aspose.words.settings/mailmergesettings/mailsubject/) { get; set; } | Posta birleştirme sırasında üretilen e-postaların veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir. |
+| [MainDocumentType](../../aspose.words.settings/mailmergesettings/maindocumenttype/) { get; set; } | Posta birleştirme ana belge türünü belirtir. Varsayılan değer:Default . |
 | [Odso](../../aspose.words.settings/mailmergesettings/odso/) { get; set; } | Office Veri Kaynağı Nesnesi (ODSO) ayarlarını belirten nesneyi alır veya ayarlar. |
-| [Query](../../aspose.words.settings/mailmergesettings/query/) { get; set; } | Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir. |
-| [ViewMergedData](../../aspose.words.settings/mailmergesettings/viewmergeddata/) { get; set; } | Microsoft Word'ün, birleştirme alanlarının eklendiği belirtilen harici veri kaynağındaki verileri görüntüleyeceğini belirtir (örn. birleştirilmiş verilerin önizlemesi). Varsayılan değer:`YANLIŞ` . |
+| [Query](../../aspose.words.settings/mailmergesettings/query/) { get; set; } | Posta birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir. |
+| [ViewMergedData](../../aspose.words.settings/mailmergesettings/viewmergeddata/) { get; set; } | Microsoft Word'ün birleştirme alanlarının eklendiği belirtilen harici veri kaynağından gelen verileri görüntülemesini belirtir (örneğin birleştirilmiş verileri önizleme). Varsayılan değer:`YANLIŞ` . |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Adres-mektup birleştirme ayarlarını, belge kaydedildiğinde hiçbir adres-mektup birleştirme ayarı kaydedilmeyecek ve normal bir belge haline gelecek şekilde temizler. |
-| [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
+| [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Belge kaydedildiğinde, hiçbir posta birleştirme ayarının kaydedilmeyeceği ve normal bir belge haline geleceği şekilde posta birleştirme ayarlarını temizler. |
+| [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Bu nesnenin derin bir klonunu döndürür. |
 
 ## Notlar
 
-Bu nesneyi bir belge için adres-mektup birleştirme veri kaynağı belirtmek için kullanabilirsiniz ve kullanıcı bu belgeyi açtığında bu information (mevcut veri alanlarıyla birlikte) Microsoft Word'de görünecektir. Veya bu nesneyi adres-mektup birleştirme ayarlarını sorgulamak için kullanabilirsiniz kullanıcının bu belge için Microsoft Word 'de belirttiği.
+Bu nesneyi bir belge için bir posta birleştirme veri kaynağı belirtmek için kullanabilirsiniz ve bu bilgi (mevcut veri alanlarıyla birlikte) kullanıcı bu belgeyi açtığında Microsoft Word'de görünür. Veya bu nesneyi, kullanıcının bu belge için Microsoft Word'de belirttiği posta birleştirme ayarlarını sorgulamak için kullanabilirsiniz.
 
-Normalde bu sınıfın nesnelerini doğrudan oluşturmanız gerekmez çünkü bir belgenin adres mektup birleştirme ayarları her zaman şu adresten kullanılabilir:[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) mülk.
+Bu sınıfın nesnelerini doğrudan oluşturmanız normalde gerekmez çünkü bir belgenin Posta birleştirme ayarları her zaman şu şekilde kullanılabilir:[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) mülk.
 
-Bu belgenin adres-mektup birleştirme ana belgesi olup olmadığını algılamak için değerini kontrol edin[`MainDocumentType`](./maindocumenttype/) mülk.
+Bu belgenin bir posta birleştirme ana belgesi olup olmadığını saptamak için değerini kontrol edin[`MainDocumentType`](./maindocumenttype/) mülk.
 
-Adres-mektup birleştirme ayarlarını ve veri kaynağı bilgilerini bir belgeden kaldırmak için komutunu kullanabilirsiniz.[`Clear`](./clear/) yöntem. Aspose.Words, durumunda adres-mektup birleştirme ayarlarını bir belgeye yazmaz.[`MainDocumentType`](./maindocumenttype/) özellik şu şekilde ayarlandı:NotAMergeDocument veya[`DataType`](./datatype/) özellik şu şekilde ayarlandı:None.
+Bir belgeden posta birleştirme ayarlarını ve veri kaynağı bilgilerini kaldırmak için kullanabilirsiniz[`Clear`](./clear/) yöntem. Aspose.Words, ise bir belgeye posta birleştirme ayarlarını yazmayacaktır.[`MainDocumentType`](./maindocumenttype/) mülk ayarlandıNotAMergeDocument veya[`DataType`](./datatype/) mülk ayarlandıNone.
 
-Bu nesnenin özelliklerinin nasıl kullanılacağını öğrenmenin en iyi yolu, istenen veri kaynağına sahip bir belgeyi Microsoft Word'de manuel olarak oluşturmak ve ardından bu belgeyi Aspose.Words kullanarak açmak ve özelliklerini incelemektir.[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) Ve[`Odso`](./odso/) nesneler. Örneğin, bir veri kaynağını programlı olarak nasıl yapılandıracağınızı öğrenmek istiyorsanız bu, iyi bir yaklaşımdır.
+Bu nesnenin özelliklerinin nasıl kullanılacağını öğrenmenin en iyi yolu, Microsoft Word'de istenen veri kaynağıyla bir belgeyi elle oluşturmak ve ardından bu belgeyi Aspose.Words kullanarak açmak ve nesnenin özelliklerini incelemektir.[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) Ve[`Odso`](./odso/) nesneler. Bu, örneğin bir veri kaynağını programlı olarak nasıl yapılandıracağınızı öğrenmek istiyorsanız, iyi bir yaklaşımdır.
 
-Aspose.Words, belge 'yi yüklerken, kaydederken ve farklı formatlar arasında dönüştürürken adres-mektup birleştirme bilgilerini korur, ancak belgelerini farklı formatlar arasında dönüştürürken bu bilgiyi kullanmaz.[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) nesne.
+Aspose.Words, farklı biçimler arasında documents yüklerken, kaydederken ve dönüştürürken posta birleştirme bilgilerini korur, ancak kendi posta birleştirmesini kullanarak gerçekleştirirken bu bilgileri kullanmaz.[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) nesne.
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -81,9 +81,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -111,7 +111,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

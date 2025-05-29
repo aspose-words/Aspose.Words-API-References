@@ -2,10 +2,10 @@
 title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection 班级. 表示图表轴的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.ChartAxisCollection 类，这是您有效管理图表轴和增强文档数据可视化的首选解决方案。
 type: docs
-weight: 640
+weight: 900
 url: /zh/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// 隐藏主要和次要 Y 轴上的主要网格线。
+// 隐藏主轴和次轴上的主要网格线。
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

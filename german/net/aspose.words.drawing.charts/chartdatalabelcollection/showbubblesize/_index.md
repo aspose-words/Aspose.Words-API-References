@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words für .NET
-description: ChartDataLabelCollection ShowBubbleSize eigendom. Ermöglicht die Angabe ob die Blasengröße für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie, wie die Eigenschaft „ShowBubbleSize“ in der ChartDataLabelCollection Ihre Blasendiagramme durch die Steuerung der Sichtbarkeit von Datenbeschriftungen verbessert. Optimieren Sie Ihre Datenpräsentation!
 type: docs
-weight: 70
+weight: 100
 url: /de/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen der gesamten Serie angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert ist`FALSCH` .
+Ermöglicht die Angabe, ob die Blasengröße für die Datenbeschriftungen der gesamten Reihe angezeigt werden soll. Gilt nur für Blasendiagramme. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -18,7 +18,7 @@ public bool ShowBubbleSize { get; set; }
 
 ## Bemerkungen
 
-Der für diese Eigenschaft definierte Wert kann für eine einzelne Datenbeschriftung mithilfe von überschrieben werden.[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) Eigenschaft.
+Der für diese Eigenschaft definierte Wert kann für ein einzelnes Datenlabel mit dem überschrieben werden.[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) Eigenschaft.
 
 ## Beispiele
 
@@ -33,13 +33,13 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Fügen Sie eine benutzerdefinierte Serie mit X/Y-Koordinaten und dem Durchmesser jeder Blase hinzu.
+    // Fügen Sie eine benutzerdefinierte Reihe mit X/Y-Koordinaten und Durchmesser jeder einzelnen Blase hinzu.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },
     new[] { 9.0, 4.5, 2.5, 8.0, 5.0 });
 
-// Datenbeschriftungen aktivieren und dann deren Aussehen ändern.
+// Datenbeschriftungen aktivieren und dann deren Erscheinungsbild ändern.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowBubbleSize = true;

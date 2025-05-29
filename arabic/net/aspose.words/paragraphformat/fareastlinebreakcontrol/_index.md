@@ -3,14 +3,14 @@ title: ParagraphFormat.FarEastLineBreakControl
 linktitle: FarEastLineBreakControl
 articleTitle: FarEastLineBreakControl
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat FarEastLineBreakControl ملكية. الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها في C#.
+description: اكتشف خاصية ParagraphFormat FarEastLineBreakControl، التي تعمل على تمكين قواعد كسر الأسطر في شرق آسيا للحصول على تنسيق نص دقيق في مستنداتك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-الحصول على علامة تشير إلى ما إذا كانت قواعد فصل الأسطر في شرق آسيا مطبقة على الفقرة الحالية أو تعيينها.
+يحصل على علم أو يعينه للإشارة إلى ما إذا كانت قواعد كسر الأسطر في شرق آسيا مطبقة على الفقرة الحالية.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

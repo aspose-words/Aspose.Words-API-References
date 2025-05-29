@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportPageMargins ملكية. يحدد ما إذا كان سيتم تصدير هوامش الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف كيف تعمل خاصية HtmlSaveOptions ExportPageMargins على تعزيز صادرات HTML وMHTML وEPUB من خلال التحكم في هوامش الصفحة للحصول على عرض تقديمي أنيق.
 type: docs
 weight: 210
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-يحدد ما إذا كان سيتم تصدير هوامش الصفحة إلى HTML أو MHTML أو EPUB. الإعداد الافتراضي هو`خطأ شنيع` .
+يحدد ما إذا كان سيتم تصدير هوامش الصفحة إلى HTML أو MHTML أو EPUB. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -18,7 +18,7 @@ public bool ExportPageMargins { get; set; }
 
 ## ملاحظات
 
-لا يُظهر Aspose.Words مساحة هوامش الصفحة بشكل افتراضي. إذا تم قص أي عنصر كليًا أو جزئيًا بواسطة حافة المستند، فيمكن توسيع المساحة المعروضة باستخدام هذا الخيار.
+لا يعرض Aspose.Words مساحة هوامش الصفحة بشكل افتراضي. إذا تم اقتصاص أي عناصر بشكل كامل أو جزئي بواسطة حافة المستند، فيمكن تمديد المساحة المعروضة باستخدام هذا الخيار.
 
 ## أمثلة
 
@@ -28,22 +28,22 @@ public bool ExportPageMargins { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئًا لإدراج شكل بدون غلاف.
+// استخدم المنشئ لإدراج شكل بدون التفاف.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
-// قد تضع قيم موضع الشكل السالبة الشكل خارج حدود الصفحة.
-// إذا قمنا بتصدير هذا إلى HTML، فسيظهر الشكل مقطوعًا.
+// قد تؤدي قيم موضع الشكل السلبية إلى وضع الشكل خارج حدود الصفحة.
+// إذا قمنا بتصدير هذا إلى HTML، سيظهر الشكل مقطوعًا.
 shape.Left = -150;
 
-// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
-// لتحديد ما إذا كان سيتم ضبط الصفحة لعرض الكائنات خارج الحدود بالكامل أم لا.
-// إذا قمنا بتعيين علامة "ExportPageMargins" على "صحيح"، فسيكون الشكل مرئيًا بالكامل في HTML الناتج.
-// إذا قمنا بتعيين علامة "ExportPageMargins" على "خطأ"،
-// ستعرض وثيقتنا الشكل المقطوع كما نراه في Microsoft Word.
+// عند حفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد ما إذا كان سيتم تعديل الصفحة لعرض الكائنات خارج الحدود بالكامل.
+// إذا قمنا بتعيين علم "ExportPageMargins" إلى "true"، فسيكون الشكل مرئيًا بالكامل في HTML الناتج.
+// إذا قمنا بتعيين علامة "ExportPageMargins" إلى "false"،
+// سوف يعرض مستندنا الشكل مقطوعًا كما نراه في Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

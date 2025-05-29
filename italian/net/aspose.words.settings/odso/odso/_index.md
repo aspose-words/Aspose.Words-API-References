@@ -3,7 +3,7 @@ title: Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words per .NET
-description: Odso costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore Odso, la soluzione ideale per una costruzione efficiente di default nella programmazione. Semplifica il tuo codice e migliora le prestazioni oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.settings/odso/odso/

@@ -3,14 +3,14 @@ title: DocumentBuilder.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: DocumentBuilder Document свойство. Получает или задаетDocumentобъект к которому прикреплен этот объект на С#.
+description: Управляйте свойствами документа без усилий с помощью DocumentBuilder. Легко получайте или устанавливайте свой объект документа для оптимизированного управления документами.
 type: docs
 weight: 90
 url: /ru/net/aspose.words/documentbuilder/document/
 ---
 ## DocumentBuilder.Document property
 
-Получает или задает`Document`объект, к которому прикреплен этот объект.
+Получает или задает`Document` объект, к которому прикреплен этот объект.
 
 ```csharp
 public Document Document { get; set; }
@@ -18,7 +18,7 @@ public Document Document { get; set; }
 
 ## Примеры
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 

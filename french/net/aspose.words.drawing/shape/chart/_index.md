@@ -3,14 +3,14 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words pour .NET
-description: Shape Chart propriété. Donne accès aux propriétés du graphique si cette forme a unChart  en C#.
+description: Exploitez les propriétés des graphiques avec Shape Chart. Améliorez la présentation visuelle de vos données sans effort et optimisez vos connaissances dès aujourd'hui !
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Donne accès aux propriétés du graphique si cette forme a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Fournit l'accès aux propriétés du graphique si cette forme a un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -18,11 +18,11 @@ public Chart Chart { get; }
 
 ## Remarques
 
-Cette propriété renverra le[`Chart`](../../../aspose.words.drawing.charts/chart/) objet seulement si[`HasChart`](../haschart/) La propriété est`vrai` pour ça[`Shape`](../)et lèvera une exception sinon.
+Cette propriété renverra le[`Chart`](../../../aspose.words.drawing.charts/chart/) objet seulement si[`HasChart`](../haschart/)La propriété est`vrai` pour ça[`Shape`](../), et lèvera une exception dans le cas contraire.
 
 ## Exemples
 
-Montre comment parcourir toutes les formes d’un document.
+Montre comment parcourir toutes les formes d'un document.
 
 ```csharp
 public void VisitShapes()
@@ -47,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau d'indentation.
+    /// Ajoute une ligne au StringBuilder avec un caractère de tabulation ajouté pour chaque niveau de retrait.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -57,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Renvoie tout le texte accumulé par StringBuilder.
+    /// Renvoie tout le texte que le StringBuilder a accumulé.
     /// </summary>
     public string GetText()
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

@@ -2,8 +2,8 @@
 title: FieldSubject
 linktitle: FieldSubject
 articleTitle: FieldSubject
-second_title: Aspose.Words for .NET
-description: FieldSubject inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon için FieldSubject oluşturucusunu keşfedin. Verimli kodlama ve gelişmiş performans için varsayılan oluşturucuyu kullanın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldsubject/fieldsubject/

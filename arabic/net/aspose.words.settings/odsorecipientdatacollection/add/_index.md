@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: OdsoRecipientDataCollection Add طريقة. إضافة كائن إلى نهاية هذه المجموعة في C#.
+description: قم بتعزيز إدارة بياناتك بسهولة باستخدام طريقة الإضافة OdsoRecipientDataCollection—قم بإضافة الكائنات بسرعة لتبسيط عملية التجميع الخاصة بك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/add/
 ---
 ## OdsoRecipientDataCollection.Add method
 
-إضافة كائن إلى نهاية هذه المجموعة.
+يضيف كائنًا إلى نهاية هذه المجموعة.
 
 ```csharp
 public int Add(OdsoRecipientData value)
@@ -18,11 +18,11 @@ public int Add(OdsoRecipientData value)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| value | OdsoRecipientData | الكائن المراد إضافته. لا يمكن`باطل`. |
+| value | OdsoRecipientData | الكائن المراد إضافته. لا يمكن إضافته`باطل`. |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -44,10 +44,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

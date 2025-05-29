@@ -2,8 +2,8 @@
 title: SubDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: SubDocument NodeType 财产. 返回SubDocument 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现有效返回 SubDocument 数据的 SubDocument NodeType 属性，增强您的文档管理和处理能力。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/subdocument/nodetype/
@@ -18,13 +18,13 @@ public override NodeType NodeType { get; }
 
 ## 例子
 
-演示如何访问主文档的子文档。
+显示如何访问主文档的子文档。
 
 ```csharp
 Document doc = new Document(MyDir + "Master document.docx");
 
 NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
-// 该节点作为外部文档的引用，其内容无法访问。
+// 此节点作为外部文档的引用，其内容无法访问。
 SubDocument subDocument = (SubDocument)subDocuments[0];
 
 Assert.False(subDocument.IsComposite);

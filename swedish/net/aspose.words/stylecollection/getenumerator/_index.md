@@ -3,14 +3,14 @@ title: StyleCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: StyleCollection GetEnumerator metod. Hämtar ett uppräkningsobjekt som kommer att räkna upp stilar i alfabetisk ordning efter deras namn i C#.
+description: Upptäck StyleCollection GetEnumerator-metoden för att enkelt lista stilar alfabetiskt efter namn. Öka din kodningseffektivitet idag!
 type: docs
 weight: 90
 url: /sv/net/aspose.words/stylecollection/getenumerator/
 ---
 ## StyleCollection.GetEnumerator method
 
-Hämtar ett uppräkningsobjekt som kommer att räkna upp stilar i alfabetisk ordning efter deras namn.
+Hämtar ett uppräknarobjekt som räknar upp stilar i alfabetisk ordning efter deras namn.
 
 ```csharp
 public IEnumerator<Style> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<Style> GetEnumerator()
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

@@ -2,8 +2,8 @@
 title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPart RelationshipType 财产. 获取或设置从父部件到此自定义部件的关系类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 CustomPart RelationshipType 属性，以便轻松管理和定义父部件和自定义部件之间的关系，从而增强功能。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/custompart/relationshiptype/
@@ -18,13 +18,13 @@ public string RelationshipType { get; set; }
 
 ## 评论
 
-自定义部件的关系类型必须是“未知”，例如自定义关系类型 不是 ISO/IEC 29500 中定义的关系类型之一。
+自定义部件的关系类型必须为“未知”，例如自定义关系类型 ，而不是 ISO/IEC 29500 中定义的关系类型之一。
 
 默认值为空字符串。有效值必须是非空字符串。
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
 second_title: Aspose.Words لـ .NET
-description: FieldUpdatingProgressArgs UpdateCompleted ملكية. الحصول على قيمة تشير إلى اكتمال تحديث الحقل في C#.
+description: اكتشف خاصية FieldUpdatingProgressArgs UpdateCompleted، التي تشير بشكل فعال إلى ما إذا كانت تحديثات الحقل قد انتهت، مما يعمل على تحسين عملية إدارة البيانات لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
 ---
 ## FieldUpdatingProgressArgs.UpdateCompleted property
 
-الحصول على قيمة تشير إلى اكتمال تحديث الحقل.
+يحصل على قيمة تشير إلى ما إذا كان تحديث الحقل قد اكتمل أم لا.
 
 ```csharp
 public bool UpdateCompleted { get; }
@@ -18,7 +18,7 @@ public bool UpdateCompleted { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
+يوضح كيفية استخدام طرق الاتصال الرجعي أثناء تحديث الحقل.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
+/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طرقك المخصصة أثناء تحديث الحقل.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

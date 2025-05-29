@@ -2,8 +2,8 @@
 title: FieldFormDropDown
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFormDropDown 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldFormDropDown 构造函数轻松创建动态表单。简化下拉菜单的创建，提升用户体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/

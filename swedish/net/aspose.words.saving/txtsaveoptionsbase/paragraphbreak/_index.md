@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words för .NET
-description: TxtSaveOptionsBase ParagraphBreak fast egendom. Anger strängen som ska användas som styckebrytning vid export i textformat i C#.
+description: Upptäck TxtSaveOptionsBases ParagraphBreak-egenskap, som möjliggör anpassade styckebrytningar för sömlös export av textformat. Förbättra läsbarheten i ditt dokument!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -32,13 +32,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Skapa ett "TxtSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "TxtSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur vi sparar dokumentet som klartext.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Ställ in "ParagraphBreak" till ett anpassat värde som vi vill sätta i slutet av varje stycke.
+// Ställ in "ParagraphBreak" till ett anpassat värde som vi vill placera i slutet av varje stycke.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

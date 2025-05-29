@@ -3,14 +3,14 @@ title: PdfFontEmbeddingMode Enum
 linktitle: PdfFontEmbeddingMode
 articleTitle: PdfFontEmbeddingMode
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.PdfFontEmbeddingMode تعداد. يحدد كيفية قيام Aspose.Words بتضمين الخطوط في C#.
+description: اكتشف خاصية Aspose.Words.PdfFontEmbeddingMode لتضمين الخطوط بشكل مثالي في ملفات PDF. حسّن جودة المستندات وضمن عرضًا متناسقًا للنصوص.
 type: docs
-weight: 5470
+weight: 6260
 url: /ar/net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration
 
-يحدد كيفية قيام Aspose.Words بتضمين الخطوط.
+يحدد كيفية تضمين الخطوط في Aspose.Words.
 
 ```csharp
 public enum PdfFontEmbeddingMode
@@ -20,50 +20,35 @@ public enum PdfFontEmbeddingMode
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| EmbedAll | `0` | Aspose.Words يدمج كافة الخطوط. |
-| EmbedNonstandard | `1` | يقوم Aspose.Words بتضمين جميع الخطوط باستثناء خطوط Windows القياسية Arial وTimes New Roman. تتأثر خطوط Arial وTimes New Roman فقط في هذا الوضع لأن MS Word لا يقوم بتضمين هذه الخطوط فقط عند حفظ المستند إلى PDF. |
+| EmbedAll | `0` | يقوم Aspose.Words بتضمين جميع الخطوط. |
+| EmbedNonstandard | `1` | يقوم Aspose.Words بتضمين جميع الخطوط باستثناء خطوط Windows القياسية Arial وTimes New Roman. تتأثر خطوط Arial وTimes New Roman فقط في هذا الوضع لأن MS Word لا يقوم بتضمين هذه الخطوط فقط عند حفظ المستند بتنسيق PDF. |
 | EmbedNone | `2` | Aspose.Words لا تتضمن أي خطوط. |
 
 ## أمثلة
 
-يوضح كيفية ضبط Aspose.Words لتخطي تضمين خطوط Arial وTimes New Roman في مستند PDF.
+يوضح كيفية إعداد Aspose.Words لتخطي تضمين الخطوط Arial وTimes New Roman في مستند PDF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "Arial" هو خط قياسي، و"Courier New" هو خط غير قياسي.
+//"Arial" هو خط قياسي، و"Courier New" هو خط غير قياسي.
 builder.Font.Name = "Arial";
 builder.Writeln("Hello world!");
 builder.Font.Name = "Courier New";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
-
-// اضبط خاصية "EmbedFullFonts" على "صحيح" لتضمين كل حرف رسومي لكل خط مضمن في ملف PDF الناتج.
+// قم بضبط خاصية "EmbedFullFonts" على "true" لتضمين كل حرف من كل الخطوط المضمنة في ملف PDF الناتج.
 options.EmbedFullFonts = true;
-
-// قم بتعيين خاصية "FontEmbeddingMode" على "EmbedAll" لتضمين جميع الخطوط في ملف PDF الناتج.
-// قم بتعيين خاصية "FontEmbeddingMode" على "EmbedNonstandard" للسماح فقط بتضمين الخطوط غير القياسية في ملف PDF الناتج.
-// قم بتعيين خاصية "FontEmbeddingMode" على "EmbedNone" لعدم تضمين أي خطوط في ملف PDF الناتج.
+// قم بتعيين خاصية "FontEmbeddingMode" إلى "EmbedAll" لتضمين جميع الخطوط في ملف PDF الناتج.
+// قم بتعيين خاصية "FontEmbeddingMode" إلى "EmbedNonstandard" للسماح فقط بتضمين الخطوط غير القياسية في ملف PDF الناتج.
+// قم بتعيين خاصية "FontEmbeddingMode" إلى "EmbedNone" لعدم تضمين أي خطوط في ملف PDF الناتج.
 options.FontEmbeddingMode = pdfFontEmbeddingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf", options);
-
-switch (pdfFontEmbeddingMode)
-{
-    case PdfFontEmbeddingMode.EmbedAll:
-        Assert.That(1000000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
-        break;
-    case PdfFontEmbeddingMode.EmbedNonstandard:
-        Assert.That(480000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
-        break;
-    case PdfFontEmbeddingMode.EmbedNone:
-        Assert.That(4255, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedWindowsFonts.pdf").Length));
-        break;
-}
 ```
 
 ### أنظر أيضا

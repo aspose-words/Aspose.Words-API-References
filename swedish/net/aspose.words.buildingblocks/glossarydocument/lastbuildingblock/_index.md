@@ -3,14 +3,14 @@ title: GlossaryDocument.LastBuildingBlock
 linktitle: LastBuildingBlock
 articleTitle: LastBuildingBlock
 second_title: Aspose.Words för .NET
-description: GlossaryDocument LastBuildingBlock fast egendom. Hämtar den sista byggstenen i ordlistans dokument i C#.
+description: Upptäck egenskapen LastBuildingBlock i GlossaryDocument, vilket ger enkel åtkomst till den sista byggstenen för förbättrad dokumenthantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.buildingblocks/glossarydocument/lastbuildingblock/
 ---
 ## GlossaryDocument.LastBuildingBlock property
 
-Hämtar den sista byggstenen i ordlistans dokument.
+Hämtar den sista byggstenen i ordlistadokumentet.
 
 ```csharp
 public BuildingBlock LastBuildingBlock { get; }
@@ -18,7 +18,7 @@ public BuildingBlock LastBuildingBlock { get; }
 
 ## Anmärkningar
 
-Returnerar`null` om det inte finns några byggstenar tillgängliga.
+Returer`null` om det inte finns några byggstenar tillgängliga.
 
 ## Exempel
 
@@ -30,42 +30,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Det finns olika sätt att komma åt byggstenar.
-    // 1 - Få de första/sista byggstenarna i samlingen:
+    // 1 - Hämta de första/sista byggstenarna i samlingen:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 - Få en byggsten efter index:
+    // 2 - Hämta en byggsten via index:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 - Få den första byggstenen som matchar ett galleri, namn och kategori:
+    // 3 - Hämta den första byggstenen som matchar ett galleri, namn och kategori:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Vi kommer att göra det med en anpassad besökare,
-    // som kommer att ge varje byggnadsblock i ordlistadokumentet en unik GUID
+    // Vi gör det med hjälp av en anpassad besökare,
+    // vilket ger varje BuildingBlock i GlossaryDocument ett unikt GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Besök början/slutet av ordlistadokumentet.
     glossaryDoc.Accept(visitor);
+    // Besök endast början av ordlistadokumentet.
+    glossaryDoc.AcceptStart(visitor);
+    // Besök endast slutet av ordlistadokumentet.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // I Microsoft Word kan vi komma åt byggstenarna via "Infoga" -> "Snabbdelar" -> "Byggstensarrangör".
+    // I Microsoft Word kan vi komma åt byggstenarna via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Ger varje byggsten i ett besökt ordlistadokument en unik GUID.
-/// Lagrar GUID-byggblocksparen i en ordbok.
+/// Ger varje byggsten i ett besökt ordlistadokument ett unikt GUID.
+/// Lagrar GUID-byggstensparen i en ordbok.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

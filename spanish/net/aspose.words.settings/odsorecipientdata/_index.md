@@ -3,16 +3,16 @@ title: OdsoRecipientData Class
 linktitle: OdsoRecipientData
 articleTitle: OdsoRecipientData
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.OdsoRecipientData clase. Representa información sobre un único registro dentro de una fuente de datos externa que se excluirá de la combinación de correspondencia en C#.
+description: Descubra la clase Aspose.Words.Settings.OdsoRecipientData, diseñada para administrar y excluir registros específicos en las combinaciones de correspondencia para un procesamiento eficiente de documentos.
 type: docs
-weight: 5930
+weight: 6760
 url: /es/net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
 
-Representa información sobre un único registro dentro de una fuente de datos externa que se excluirá de la combinación de correspondencia.
+Representa información sobre un solo registro dentro de una fuente de datos externa que se excluirá de la combinación de correspondencia.
 
-Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) artículo de documentación.
+Para obtener más información, visite el[Combinación de correspondencia e informes](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Artículo de documentación.
 
 ```csharp
 public class OdsoRecipientData
@@ -28,9 +28,9 @@ public class OdsoRecipientData
 
 | Nombre | Descripción |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Especifica si el registro de la fuente de datos se importará a un documento cuando se realice la combinación de correspondencia. El valor predeterminado es`verdadero` . |
+| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Especifica si el registro de la fuente de datos se importará a un documento cuando se realiza la combinación de correspondencia. El valor predeterminado es`verdadero` . |
 | [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Especifica la columna dentro de la fuente de datos que contiene datos únicos para el registro actual. El valor predeterminado es 0. |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Representa el código hash de este registro. A veces se utiliza Microsoft Word[`Hash`](./hash/) de un registro completo en lugar de un[`UniqueTag`](./uniquetag/) valor. El valor predeterminado es 0. |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Representa el código hash de este registro. A veces Microsoft Word utiliza[`Hash`](./hash/) de un registro completo en lugar de un[`UniqueTag`](./uniquetag/) valor. El valor predeterminado es 0. |
 | [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Especifica el contenido de un registro determinado en la columna que contiene datos únicos. El valor predeterminado es`nulo` . |
 
 ## Métodos
@@ -41,7 +41,7 @@ public class OdsoRecipientData
 
 ## Observaciones
 
-Si un registro se fusionará en un documento combinado, entonces no se necesita información sobre ese registro. Sin embargo, si un registro determinado no se fusionará en un documento combinado, entonces el valor de la clave única para ese registro se almacenará en el[`UniqueTag`](./uniquetag/)propiedad de este objeto para indicar esta exclusión.
+Si un registro se fusionará en un documento fusionado, no se necesitará información sobre ese registro. Sin embargo, si un registro determinado no se fusionará en un documento fusionado, entonces el valor de la clave única para ese registro se almacenará en la[`UniqueTag`](./uniquetag/)propiedad de este objeto para indicar esta exclusión.
 
 ## Ejemplos
 
@@ -67,10 +67,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,14 +3,14 @@ title: SignatureLineOptions.Instructions
 linktitle: Instructions
 articleTitle: Instructions
 second_title: Aspose.Words für .NET
-description: SignatureLineOptions Instructions eigendom. Ruft Anweisungen an den Unterzeichner ab oder legt diese fest die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft istleerer String Empty in C#.
+description: Entdecken Sie, wie Sie SignatureLineOptions mit klaren Anweisungen für Unterzeichner anpassen und so das Signiererlebnis verbessern. Einfache Einrichtung mit Standardeinstellungen.
 type: docs
 weight: 50
 url: /de/net/aspose.words/signaturelineoptions/instructions/
 ---
 ## SignatureLineOptions.Instructions property
 
-Ruft Anweisungen an den Unterzeichner ab oder legt diese fest, die beim Signieren der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft ist**leerer String** (Empty).
+Ruft Anweisungen für den Unterzeichner ab oder legt diese fest, die beim Unterschreiben der Signaturzeile angezeigt werden. Der Standardwert für diese Eigenschaft ist**leere Zeichenfolge** (Empty ).
 
 ```csharp
 public string Instructions { get; set; }

@@ -2,8 +2,8 @@
 title: LoadOptions.LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
-second_title: Aspose.Words for .NET
-description: LoadOptions LanguagePreferences mülk. Belge yüklenirken kullanılacak dil tercihlerini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanıcı deneyimini ve erişilebilirliği geliştirmek için tercih edilen dillerle belge yüklemeyi özelleştirmek amacıyla LoadOptions LanguagePreferences'ı keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.loading/loadoptions/languagepreferences/
@@ -18,7 +18,7 @@ public LanguagePreferences LanguagePreferences { get; }
 
 ## Örnekler
 
-Bir belgeyi yüklerken dil tercihlerinin nasıl uygulanacağını gösterir.
+Bir belge yüklenirken dil tercihlerinin nasıl uygulanacağını gösterir.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

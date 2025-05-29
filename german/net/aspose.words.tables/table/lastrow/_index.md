@@ -3,14 +3,14 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words für .NET
-description: Table LastRow eigendom. Gibt den letzten zurückRow Knoten in der Tabelle in C#.
+description: Entdecken Sie die Eigenschaft „Table LastRow“, um einfach auf den letzten Zeilenknoten in Ihrer Tabelle zuzugreifen und so die Datenverwaltung und Effizienz zu verbessern.
 type: docs
 weight: 180
 url: /de/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Gibt den letzten zurück[`Row`](../../row/) Knoten in der Tabelle.
+Gibt die letzte[`Row`](../../row/) Knoten in der Tabelle.
 
 ```csharp
 public Row LastRow { get; }
@@ -18,7 +18,7 @@ public Row LastRow { get; }
 
 ## Beispiele
 
-Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
+Zeigt, wie die erste und die letzte Zeile aller Tabellen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

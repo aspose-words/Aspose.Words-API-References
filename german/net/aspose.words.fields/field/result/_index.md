@@ -3,14 +3,14 @@ title: Field.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words für .NET
-description: Field Result eigendom. Ruft Text ab der zwischen dem Feldtrennzeichen und dem Feldende liegt oder legt diesen fest in C#.
+description: Verwalten Sie Feldergebniseigenschaften mühelos. Greifen Sie auf Text zwischen Feldtrennzeichen zu oder ändern Sie ihn, um die Datenverarbeitung zu optimieren und die Effizienz zu steigern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest.
+Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht.
 
 ```csharp
 public string Result { get; set; }
@@ -18,7 +18,7 @@ public string Result { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
+Zeigt, wie Sie mithilfe eines Feldcodes ein Feld in ein Dokument einfügen.
 
 ```csharp
 Document doc = new Document();
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Diese Überladung der InsertField-Methode aktualisiert automatisch eingefügte Felder.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// Diese Überladung der InsertField-Methode aktualisiert eingefügte Felder automatisch.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Siehe auch

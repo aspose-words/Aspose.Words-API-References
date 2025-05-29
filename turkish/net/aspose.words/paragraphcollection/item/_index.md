@@ -2,15 +2,15 @@
 title: ParagraphCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: ParagraphCollection Item mülk. Bir öğeyi alırParagraph verilen dizinde C#'da.
+second_title: .NET için Aspose.Words
+description: ParagraphCollection Item özelliğiyle belirli Paragraflara kolayca erişin. Sorunsuz metin yönetimi için herhangi bir Paragrafı dizine göre alın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/paragraphcollection/item/
 ---
 ## ParagraphCollection indexer
 
-Bir öğeyi alır[`Paragraph`](../../paragraph/) verilen dizinde.
+Birini alır[`Paragraph`](../../paragraph/) verilen indekste.
 
 ```csharp
 public Paragraph this[int index] { get; }
@@ -18,46 +18,46 @@ public Paragraph this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | Koleksiyona bir dizin. |
+| index | Koleksiyonun indeksi. |
 
 ## Notlar
 
 Endeks sıfır bazlıdır.
 
-Negatif dizinlere izin verilir ve koleksiyonun arkasından erişimi belirtir. Örneğin -1 son öğe anlamına gelir, -2 sondan önceki ikinci öğe anlamına gelir ve bu şekilde devam eder.
+Negatif indekslere izin verilir ve koleksiyonun sonundan erişimi belirtir. Örneğin -1 son öğeyi, -2 sondan bir önceki öğeyi vb. ifade eder.
 
-Dizin listedeki öğe sayısından büyük veya ona eşitse bu, boş bir başvuru döndürür.
+Eğer indeks listedeki öğe sayısından büyük veya eşitse, bu boş bir referans döndürür.
 
-Dizin negatifse ve mutlak değeri listedeki öğe sayısından büyükse bu, boş bir başvuru döndürür.
+Eğer indeks negatifse ve mutlak değeri listedeki öğe sayısından büyükse, bu durum boş bir referans döndürür.
 
 ## Örnekler
 
-Bir paragrafın taşıma düzeltmesi olup olmadığının nasıl kontrol edileceğini gösterir.
+Bir paragrafın taşıma revizyonu olup olmadığının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Bu belge, metni imleçle vurguladığımızda görünen "Taşı" revizyonlarını içerir,
-// ve ardından başka bir konuma taşımak için sürükleyin
-// "İnceleme" aracılığıyla Microsoft Word'deki revizyonları izlerken -> "Parça değişiklikleri".
+// Bu belge, metni imleçle vurguladığımızda görünen "Taşı" revizyonlarını içerir.
+// ve sonra onu başka bir yere taşımak için sürükleyin
+// Microsoft Word'de revizyonları "Gözden Geçir" -> "Değişiklikleri İzle" yoluyla izlerken.
 Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
- // Revizyonları taşıma, "Şuraya Taşı" ve "Şuraya Taşı" revizyon çiftlerinden oluşur.
+ // Revizyonları taşıma, "Şuradan taşı" ve "Şuraya taşı" revizyon çiftlerinden oluşur.
 // Bu revizyonlar, belgede kabul edebileceğimiz veya reddedebileceğimiz potansiyel değişikliklerdir.
-// Bir taşıma revizyonunu kabul etmeden/reddetmeden önce belge
-// metnin hem kalkış hem de varış yerlerini takip etmelidir.
-// İkinci ve dördüncü paragraf böyle bir revizyonu tanımlar ve dolayısıyla her ikisi de aynı içeriğe sahiptir.
+// Bir taşıma revizyonunu kabul etmeden/reddetmeden önce, belge
+// Metnin hem kalkış hem de varış noktalarını takip etmek gerekir.
+// İkinci ve dördüncü paragraflar böyle bir revizyonu tanımlıyor ve dolayısıyla her ikisinin de içeriği aynı.
 Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
 
-// "Taşı" revizyonu, metni sürüklediğimiz paragraftır.
-// Eğer revizyonu kabul edersek bu paragraf kaybolacak,
-// ve diğeri kalacak ve artık revizyon olmayacak.
+// "Şuradan taşı" revizyonu, metni sürüklediğimiz paragraftır.
+// Revizyonu kabul edersek bu paragraf kaybolacak,
+// ve diğeri kalacak ve artık bir revizyon olmayacak.
 Assert.True(paragraphs[1].IsMoveFromRevision);
 
 // "Taşı" revizyonu, metni sürüklediğimiz paragraftır.
-// Eğer revizyonu reddedersek, bu paragraf kaybolacak ve diğeri kalacaktır.
+// Eğer revizyonu reddedersek, bu paragraf ortadan kalkacak ve diğeri kalacaktır.
 Assert.True(paragraphs[3].IsMoveToRevision);
 ```
 

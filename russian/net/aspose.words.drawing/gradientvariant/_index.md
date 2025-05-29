@@ -3,9 +3,9 @@ title: GradientVariant Enum
 linktitle: GradientVariant
 articleTitle: GradientVariant
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.GradientVariant перечисление. Указывает вариант градиентной заливки на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.GradientVariant для настраиваемых градиентных заливок, улучшающих дизайн ваших документов с помощью ярких стилей.
 type: docs
-weight: 1010
+weight: 1340
 url: /ru/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration
@@ -28,18 +28,18 @@ public enum GradientVariant
 
 ## Примечания
 
-Соответствует четырем вариантам на вкладке «Градиент» диалогового окна «Эффекты заливки» в Word.
+Соответствует четырем вариантам на вкладке «Градиент» в диалоговом окне «Эффекты заливки» в Word.
 
 ## Примеры
 
-Показывает, как заполнить фигуру градиентами.
+Показывает, как заполнить фигуру градиентом.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем одноцветную градиентную заливку к фигуре с градиентной заливкой ForeColor.
+// Применить одноцветную градиентную заливку к фигуре с помощью ForeColor градиентной заливки.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -48,12 +48,12 @@ Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
 Assert.AreEqual(270, shape.Fill.GradientAngle);
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Применяем двухцветную градиентную заливку к фигуре.
+// Применить к фигуре двухцветную градиентную заливку.
 shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
-// Изменяем BackColor градиентной заливки.
+// Изменить BackColor градиентной заливки.
 shape.Fill.BackColor = Color.Yellow;
 // Обратите внимание, что "GradientAngle" меняется на "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// Градиентная заливка не дает никакого эффекта, она будет работать только для линейного градиента.
+// градиентная заливка не даст никакого эффекта, она будет работать только для линейного градиента.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -61,8 +61,8 @@ Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
 Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
 Assert.AreEqual(0, shape.Fill.GradientAngle);
 
-// Используйте опцию соответствия, чтобы определить форму с помощью DML, если вы хотите получить «GradientStyle»,
-// Свойства «GradientVariant» и «GradientAngle» после сохранения документа.
+// Используйте параметр соответствия, чтобы определить форму с помощью DML, если вы хотите получить "GradientStyle",
+// Свойства "GradientVariant" и "GradientAngle" после сохранения документа.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.GradientFill.docx", saveOptions);

@@ -3,14 +3,14 @@ title: PsSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words для .NET
-description: PsSaveOptions SaveFormat свойство. Указывает формат в котором документ будет сохранен если используется этот объект параметров сохранения. Может быть толькоPs  на С#.
+description: Откройте для себя свойство PsSaveOptions SaveFormat, чтобы легко указать формат сохранения вашего документа. Оптимизируйте свой рабочий процесс с помощью гибких параметров сохранения!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/pssaveoptions/saveformat/
 ---
 ## PsSaveOptions.SaveFormat property
 
-Указывает формат, в котором документ будет сохранен, если используется этот объект параметров сохранения. Может быть толькоPs .
+Указывает формат, в котором будет сохранен документ, если используется этот объект параметров сохранения. Может быть толькоPs .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -23,26 +23,26 @@ public override SaveFormat SaveFormat { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
 
-// Создаем объект «PsSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в PostScript.
-// Установите для свойства UseBookFoldPrintingSettings значение «true», чтобы упорядочить содержимое
-// в выходном документе Postscript таким образом, чтобы можно было сделать из него буклет.
-// Установите для свойства «UseBookFoldPrintingSettings» значение «false», чтобы сохранить документ в обычном режиме.
+// Создаем объект "PsSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в PostScript.
+// Установите свойство "UseBookFoldPrintingSettings" в значение "true", чтобы упорядочить содержимое
+// в выходном документе Postscript таким образом, чтобы это помогло нам сделать из него брошюру.
+// Установите свойство «UseBookFoldPrintingSettings» в значение «false», чтобы сохранить документ обычным образом.
 PsSaveOptions saveOptions = new PsSaveOptions
 {
     SaveFormat = SaveFormat.Ps,
     UseBookFoldPrintingSettings = renderTextAsBookFold
 };
 
-// Если мы отображаем документ как буклет, мы должны установить «MultiplePages»
-// свойства объектов настройки страницы всех разделов равны "MultiplePagesType.BookFoldPrinting".
+// Если мы визуализируем документ как брошюру, мы должны установить "MultiplePages"
+// свойства объектов настройки страницы всех разделов на "MultiplePagesType.BookFoldPrinting".
 foreach (Section s in doc.Sections)
 {
     s.PageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 }
 
-// Как только мы напечатаем этот документ на обеих сторонах страниц, мы сможем сразу сложить все страницы посередине,
-// и содержимое выстроится в линию, образующую буклет.
+// После того, как мы распечатаем этот документ с обеих сторон страниц, мы можем сложить все страницы посередине одновременно,
+// и содержимое будет выстроено таким образом, что получится брошюра.
 doc.Save(ArtifactsDir + "PsSaveOptions.UseBookFoldPrintingSettings.ps", saveOptions);
 ```
 

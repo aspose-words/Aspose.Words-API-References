@@ -3,7 +3,7 @@ title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words för .NET
-description: Field Separator fast egendom. Hämtar noden som representerar fältseparatorn. Kan varanull  i C#.
+description: Upptäck egenskapen Fältseparator för att enkelt komma åt noden som representerar fältseparatorn, vilket förbättrar effektiviteten i datahanteringen. Läs mer!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.fields/field/separator/
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

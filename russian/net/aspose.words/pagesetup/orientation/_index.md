@@ -3,7 +3,7 @@ title: PageSetup.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words для .NET
-description: PageSetup Orientation свойство. Возвращает или задает ориентацию страницы на С#.
+description: Откройте для себя свойство PageSetup Orientation, чтобы легко настроить макет страницы вашего документа. Оптимизируйте печать с помощью настраиваемых параметров ориентации!
 type: docs
 weight: 290
 url: /ru/net/aspose.words/pagesetup/orientation/
@@ -22,7 +22,7 @@ public Orientation Orientation { get; set; }
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -53,7 +53,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportDocumentProperties
 linktitle: ExportDocumentProperties
 articleTitle: ExportDocumentProperties
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportDocumentProperties propiedad. Especifica si se exportan las propiedades integradas y personalizadas del documento a HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo ExportDocumentProperties de HtmlSaveOptions mejora sus exportaciones HTML, MHTML o EPUB al incluir propiedades de documento personalizadas e integradas esenciales.
 type: docs
 weight: 120
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
 ---
 ## HtmlSaveOptions.ExportDocumentProperties property
 
-Especifica si se exportan las propiedades integradas y personalizadas del documento a HTML, MHTML o EPUB. El valor predeterminado es`FALSO` .
+Especifica si se deben exportar las propiedades del documento personalizadas e integradas a HTML, MHTML o EPUB. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportDocumentProperties { get; set; }
@@ -31,7 +31,7 @@ saveOptions.Encoding = Encoding.UTF8;
 // De forma predeterminada, un documento .epub de salida tendrá todo su contenido en una parte HTML.
 // Un criterio de división nos permite segmentar el documento en varias partes HTML.
 // Estableceremos los criterios para dividir el documento en párrafos de encabezado.
-// Esto es útil para lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
+// Esto es útil para los lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Especificamos que queremos exportar las propiedades del documento.

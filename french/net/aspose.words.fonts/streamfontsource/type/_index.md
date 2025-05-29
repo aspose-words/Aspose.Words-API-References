@@ -3,14 +3,14 @@ title: StreamFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words pour .NET
-description: StreamFontSource Type propriété. Renvoie le type de la source de police en C#.
+description: Découvrez la propriété StreamFontSource Type pour identifier facilement votre type de source de police, améliorant ainsi la flexibilité de votre conception et l'efficacité de votre projet.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/streamfontsource/type/
 ---
 ## StreamFontSource.Type property
 
-Renvoie le type de la source de police.
+Renvoie le type de la source de la police.
 
 ```csharp
 public FontSourceType Type { get; }

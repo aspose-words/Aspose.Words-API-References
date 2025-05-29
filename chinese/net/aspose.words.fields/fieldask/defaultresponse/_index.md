@@ -2,8 +2,8 @@
 title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAsk DefaultResponse 财产. 获取或设置默认用户响应提示窗口中包含的初始值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldAsk DefaultResponse 属性。轻松管理提示窗口中的初始用户响应，以增强用户交互并简化工作流程。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldask/defaultresponse/
@@ -18,7 +18,7 @@ public string DefaultResponse { get; set; }
 
 ## 例子
 
-演示如何创建 ASK 字段并设置其属性。
+展示如何创建 ASK 字段并设置其属性。
 
 ```csharp
 public void FieldAsk()
@@ -45,7 +45,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // 在邮件合并期间，ASK 字段将默认响应应用于各自的 REF 字段。
+    // 邮件合并期间，ASK 字段将默认响应应用于其各自的 REF 字段。
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // 我们可以使用自定义提示响应程序修改或覆盖 ASK 字段中的默认响应，
+    // 我们可以使用自定义提示响应器修改或覆盖 ASK 字段中的默认响应，
     // 这将在邮件合并期间发生。
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

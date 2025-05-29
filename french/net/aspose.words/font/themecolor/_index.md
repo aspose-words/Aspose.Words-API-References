@@ -3,14 +3,14 @@ title: Font.ThemeColor
 linktitle: ThemeColor
 articleTitle: ThemeColor
 second_title: Aspose.Words pour .NET
-description: Font ThemeColor propriété. Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué associé à ce thème.Font objet en C#.
+description: Découvrez comment utiliser la propriété Font ThemeColor pour améliorer vos conceptions avec des couleurs de thème personnalisables dans votre palette de couleurs.
 type: docs
-weight: 460
+weight: 470
 url: /fr/net/aspose.words/font/themecolor/
 ---
 ## Font.ThemeColor property
 
-Obtient ou définit la couleur du thème dans le jeu de couleurs appliqué associé à ce thème.[`Font`](../) objet.
+Obtient ou définit la couleur du thème dans le schéma de couleurs appliqué qui est associé à cela[`Font`](../) objet.
 
 ```csharp
 public ThemeColor ThemeColor { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// Créez un style avec les propriétés de police du thème.
+// Créez du style avec les propriétés de police du thème.
 Style style = doc.Styles.Add(StyleType.Paragraph, "ThemedStyle");
 style.Font.ThemeFont = ThemeFont.Major;
 style.Font.ThemeColor = ThemeColor.Accent5;
@@ -36,7 +36,7 @@ builder.ParagraphFormat.StyleName = "ThemedStyle";
 builder.Writeln("Text with themed style");
 ```
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -94,7 +94,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

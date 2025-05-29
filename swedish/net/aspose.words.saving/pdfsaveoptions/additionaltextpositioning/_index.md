@@ -3,7 +3,7 @@ title: PdfSaveOptions.AdditionalTextPositioning
 linktitle: AdditionalTextPositioning
 articleTitle: AdditionalTextPositioning
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions AdditionalTextPositioning fast egendom. En flagga som anger om ytterligare textpositioneringsoperatorer ska skrivas eller inte i C#.
+description: Upptäck egenskapen AdditionalTextPositioning i PdfSaveOptions för att styra textpositionering i PDF-filer. Förbättra dokumentets layout utan ansträngning!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
@@ -18,7 +18,7 @@ public bool AdditionalTextPositioning { get; set; }
 
 ## Anmärkningar
 
-Om`Sann` , ytterligare textpositioneringsoperatorer skrivs till utdata-PDF-filen. Detta kan hjälpa till att övervinna problem med felaktig textpositionering på vissa skrivare. Nackdelen är den ökade PDF-dokumentstorleken.
+Om`sann` , ytterligare textpositioneringsoperatorer skrivs till utdata-PDF:en. Detta kan bidra till att övervinna problem med felaktig textpositionering med vissa skrivare. Nackdelen är den ökade PDF-dokumentstorleken.
 
 Standardvärdet är`falsk`.
 
@@ -29,15 +29,15 @@ Visa hur man skriver ytterligare textpositioneringsoperatorer.
 ```csharp
 Document doc = new Document(MyDir + "Text positioning operators.docx");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // Ställ in egenskapen "AdditionalTextPositioning" till "true" för att försöka fixa felaktiga
-    // elementpositionering i utdata-PDF-filen, om det skulle finnas någon, till priset av ökad filstorlek.
-    // Ställ in egenskapen "AdditionalTextPositioning" till "false" för att återge dokumentet som vanligt.
+    // Sätt egenskapen "AdditionalTextPositioning" till "true" för att försöka korrigera felaktiga
+    // elementpositionering i utdata-PDF:en, om det finns någon, på bekostnad av ökad filstorlek.
+    // Sätt egenskapen "AdditionalTextPositioning" till "false" för att rendera dokumentet som vanligt.
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };
 

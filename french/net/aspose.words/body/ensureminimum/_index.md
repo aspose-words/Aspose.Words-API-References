@@ -3,9 +3,9 @@ title: Body.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words pour .NET
-description: Body EnsureMinimum méthode. Si le dernier enfant nest pas un paragraphe crée et ajoute un paragraphe vide en C#.
+description: Optimisez votre contenu avec la méthode Body EnsureMinimum. Ajoutez automatiquement un paragraphe vide si le dernier enfant n'est pas un paragraphe pour une meilleure mise en forme.
 type: docs
-weight: 50
+weight: 70
 url: /fr/net/aspose.words/body/ensureminimum/
 ---
 ## Body.EnsureMinimum method
@@ -24,13 +24,13 @@ Efface le texte principal de toutes les sections du document en laissant les sec
 Document doc = new Document();
 
 // Un document vierge contient une section, un corps et un paragraphe.
-// Appelez la méthode "RemoveAllChildren" pour supprimer tous ces nœuds,
-// et on se retrouve avec un nœud de document sans enfants.
+// Appelez la méthode « RemoveAllChildren » pour supprimer tous ces nœuds,
+// et se retrouver avec un nœud de document sans enfants.
 doc.RemoveAllChildren();
 
 // Ce document n'a désormais aucun nœud enfant composite auquel nous pouvons ajouter du contenu.
 // Si nous souhaitons le modifier, nous devrons repeupler sa collection de nœuds.
-// Commencez par créer une nouvelle section, puis ajoutez-la en tant qu'enfant au nœud du document racine.
+// Tout d’abord, créez une nouvelle section, puis ajoutez-la en tant qu’enfant au nœud racine du document.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -39,13 +39,13 @@ doc.AppendChild(section);
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Ce corps n'a pas d'enfant, nous ne pouvons donc pas encore y ajouter d'exécutions.
+// Ce corps n'a pas d'enfants, nous ne pouvons donc pas encore y ajouter d'exécutions.
 Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
 
- // Appelez "EnsureMinimum" pour vous assurer que ce corps contient au moins un paragraphe vide.
+ // Appelez « EnsureMinimum » pour vous assurer que ce corps contient au moins un paragraphe vide.
 body.EnsureMinimum();
 
-// Maintenant, nous pouvons ajouter des exécutions au corps et demander au document de les afficher.
+// Maintenant, nous pouvons ajouter des exécutions au corps et faire en sorte que le document les affiche.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
 Assert.AreEqual("Hello world!", doc.GetText().Trim());

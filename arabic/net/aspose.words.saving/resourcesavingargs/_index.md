@@ -3,14 +3,14 @@ title: ResourceSavingArgs Class
 linktitle: ResourceSavingArgs
 articleTitle: ResourceSavingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.ResourceSavingArgs فصل. يوفر بيانات لـResourceSaving حدث في C#.
+description: اكتشف فئة Aspose.Words.Saving.ResourceSavingArgs، التي تعمل على تحسين معالجة المستندات من خلال توفير البيانات الأساسية لحدث ResourceSaving.
 type: docs
-weight: 5560
+weight: 6360
 url: /ar/net/aspose.words.saving/resourcesavingargs/
 ---
 ## ResourceSavingArgs class
 
-يوفر بيانات لـ[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) حدث.
+يوفر بيانات لـ[`ResourceSaving`](../iresourcesavingcallback/resourcesaving/) الحدث.
 
 لمعرفة المزيد، قم بزيارة[حفظ مستند](https://docs.aspose.com/words/net/save-a-document/) مقالة توثيقية.
 
@@ -22,25 +22,25 @@ public class ResourceSavingArgs
 
 | اسم | وصف |
 | --- | --- |
-| [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | الحصول على كائن المستند الذي يتم حفظه حاليًا. |
-| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ المورد. |
-| [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | الحصول على أو تعيين اسم الملف (بدون مسار) حيث سيتم حفظ المورد فيه. |
-| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | الحصول على أو تعيين معرف المورد الموحد (URI) المستخدم للإشارة إلى ملف المورد من المستند. |
+| [Document](../../aspose.words.saving/resourcesavingargs/document/) { get; } | يحصل على كائن المستند الذي يتم حفظه حاليًا. |
+| [KeepResourceStreamOpen](../../aspose.words.saving/resourcesavingargs/keepresourcestreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ مورد. |
+| [ResourceFileName](../../aspose.words.saving/resourcesavingargs/resourcefilename/) { get; set; } | يحصل على اسم الملف (بدون مسار) الذي سيتم حفظ المورد فيه أو يعينه. |
+| [ResourceFileUri](../../aspose.words.saving/resourcesavingargs/resourcefileuri/) { get; set; } | يحصل على معرف المورد الموحد (URI) المستخدم للإشارة إلى ملف الموارد من المستند أو يعينه. |
 | [ResourceStream](../../aspose.words.saving/resourcesavingargs/resourcestream/) { get; set; } | يسمح بتحديد الدفق الذي سيتم حفظ المورد فيه. |
 
 ## ملاحظات
 
-افتراضيًا، عندما يقوم Aspose.Words بحفظ مستند في صفحة ثابتة بتنسيق HTML أو SVG، فإنه يحفظ كل مورد في ملف منفصل. يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء ملف name فريد لكل مورد موجود في المستند.
+افتراضيًا، عندما يحفظ Aspose.Words مستندًا بتنسيق HTML أو SVG ثابت الصفحة، فإنه يحفظ كل مورد في ملف منفصل باسم . يستخدم Aspose.Words اسم ملف المستند ورقمًا فريدًا لإنشاء اسم ملف فريد باسم لكل مورد موجود في المستند.
 
-`ResourceSavingArgs` يسمح بإعادة تعريف كيفية إنشاء أسماء ملفات الموارد أو للتحايل تمامًا على حفظ الموارد في الملفات عن طريق توفير كائنات الدفق الخاصة بك.
+`ResourceSavingArgs` يسمح بإعادة تعريف كيفية إنشاء أسماء ملفات الموارد أو للالتفاف بشكل كامل على حفظ الموارد في الملفات من خلال توفير كائنات التدفق الخاصة بك.
 
-لتطبيق المنطق الخاص بك لإنشاء أسماء ملفات الموارد، استخدم [`ResourceFileName`](./resourcefilename/) ملكية.
+لتطبيق المنطق الخاص بك لتوليد أسماء ملفات الموارد، استخدم [`ResourceFileName`](./resourcefilename/) ملكية.
 
-لحفظ الموارد في التدفقات بدلاً من الملفات، استخدم الملف[`ResourceStream`](./resourcestream/) ملكية.
+لحفظ الموارد في التدفقات بدلاً من الملفات، استخدم[`ResourceStream`](./resourcestream/) ملكية.
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لتتبع الموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -62,7 +62,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// يتم استدعاؤه عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
+    /// يتم استدعاؤها عندما يقوم Aspose.Words بحفظ مورد خارجي في صفحة ثابتة بتنسيق HTML أو SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

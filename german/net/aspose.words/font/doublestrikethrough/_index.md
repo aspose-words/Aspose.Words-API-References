@@ -3,14 +3,14 @@ title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words für .NET
-description: Font DoubleStrikeThrough eigendom. True wenn die Schriftart als doppelt durchgestrichener Text formatiert ist in C#.
+description: Entdecken Sie die Font-Eigenschaft DoubleStrikeThrough. Formatieren Sie Text einfach mit doppeltem Durchstreichen für mehr Klarheit und Stil in Ihren Dokumenten.
 type: docs
 weight: 90
 url: /de/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-True, wenn die Schriftart als doppelt durchgestrichener Text formatiert ist.
+Wahr, wenn die Schriftart als doppelt durchgestrichener Text formatiert ist.
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man dem Text eine durchgestrichene Linie hinzufügt.
+Zeigt, wie Sie einem Text eine durchgestrichene Zeile hinzufügen.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words för .NET
-description: NodeImporter ImportNode metod. Importerar en nod från ett dokument till ett annat i C#.
+description: Överför enkelt noder mellan dokument med NodeImporters ImportNode-metod. Förbättra ditt arbetsflöde och effektivisera dataintegrationen idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/nodeimporter/importnode/
@@ -18,20 +18,20 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| srcNode | Node | Noden att importera. |
-| isImportChildren | Boolean | `Sann` att importera alla underordnade noder rekursivt; annat,`falsk`. |
+| srcNode | Node | Noden som ska importeras. |
+| isImportChildren | Boolean | `sann` att importera alla underordnade noder rekursivt; annars,`falsk`. |
 
 ### Returvärde
 
-Den klonade, importerade noden. Noden tillhör måldokumentet, men har ingen förälder.
+Den klonade, importerade noden. Noden tillhör destinationsdokumentet, men har ingen överordnad nod.
 
 ## Anmärkningar
 
-Genom att importera en nod skapas en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
+Import av en nod skapar en kopia av källnoden som tillhör det importerande dokumentet. Den returnerade noden har ingen förälder. Källnoden ändras eller tas inte bort från originaldokumentet.
 
-Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under import översätts dokumentspecifika egenskaper såsom referenser till stilar och listor från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
+Innan en nod från ett annat dokument kan infogas i detta dokument måste den importeras. Under importen översätts dokumentspecifika egenskaper, såsom referenser till format och listor, från originalet till det importerande dokumentet. Efter att noden har importerats kan den infogas på lämplig plats i dokumentet med hjälp av[`InsertBefore`](../../compositenode/insertbefore/) eller [`InsertAfter`](../../compositenode/insertafter/).
 
-Om källnoden redan tillhör måldokumentet skapas helt enkelt en djup klon av källnoden.
+Om källnoden redan tillhör destinationsdokumentet skapas helt enkelt en djup clone av källnoden.
 
 ## Exempel
 
@@ -73,8 +73,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Slinga igenom alla noder på blocknivå i sektionens kropp,
-        // klona sedan och infoga varje nod som inte är det sista tomma stycket i ett avsnitt.
+        // Loopa igenom alla blocknivånoder i sektionens brödtext,
+        // klona och infoga sedan varje nod som inte är det sista tomma stycket i ett avsnitt.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

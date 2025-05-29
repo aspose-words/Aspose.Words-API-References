@@ -3,7 +3,7 @@ title: FieldOptions.ResultFormatter
 linktitle: ResultFormatter
 articleTitle: ResultFormatter
 second_title: Aspose.Words pour .NET
-description: FieldOptions ResultFormatter propriété. Permet de contrôler la façon dont le résultat du champ est formaté en C#.
+description: Découvrez comment la propriété ResultFormatter dans FieldOptions améliore la présentation de vos données en personnalisant les formats de résultats de champ pour plus de clarté et d'impact.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.fields/fieldoptions/resultformatter/
@@ -18,7 +18,7 @@ public IFieldResultFormatter ResultFormatter { get; set; }
 
 ## Exemples
 
-Montre comment appliquer automatiquement un format personnalisé aux résultats des champs à mesure que les champs sont mis à jour.
+Montre comment appliquer automatiquement un format personnalisé aux résultats des champs lorsque les champs sont mis à jour.
 
 ```csharp
 public void FieldResultFormatting()
@@ -29,21 +29,21 @@ public void FieldResultFormatting()
     doc.FieldOptions.ResultFormatter = formatter;
 
     // Notre formateur de résultats de champ applique un format personnalisé aux champs nouvellement créés de trois types de formats.
-    // Les formateurs de résultats de champs appliquent un nouveau formatage aux champs au fur et à mesure de leur mise à jour,
+    // Les formateurs de résultats de champ appliquent une nouvelle mise en forme aux champs au fur et à mesure de leur mise à jour,
     // ce qui se produit dès que nous les créons en utilisant cette surcharge de méthode InsertField.
-    // 1 - Numérique :
+    // 1 - Numérique :
     builder.InsertField(" = 2 + 3 \\# $###");
 
     Assert.AreEqual("$5", doc.Range.Fields[0].Result);
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric));
 
-    // 2 - Date/heure :
+    // 2 - Date/heure :
     builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
 
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Général :
+    // 3 - Généralités :
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -53,7 +53,7 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Lorsque les champs avec formatage sont mis à jour, ce formateur remplacera leur formatage
+/// Lorsque les champs avec mise en forme sont mis à jour, ce formateur remplacera leur mise en forme
 /// avec un format personnalisé, tout en suivant chaque invocation.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
@@ -109,12 +109,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

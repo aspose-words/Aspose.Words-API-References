@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitShapeStart
 linktitle: VisitShapeStart
 articleTitle: VisitShapeStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitShapeStart método. Se llama cuando ha comenzado la enumeración de una forma en C#.
+description: Explora el método VisitShapeStart de DocumentVisitor para optimizar la enumeración de formas en tus aplicaciones. ¡Aumenta la eficiencia y optimiza tu proceso de codificación!
 type: docs
 weight: 400
 url: /es/net/aspose.words/documentvisitor/visitshapestart/
 ---
 ## DocumentVisitor.VisitShapeStart method
 
-Se llama cuando ha comenzado la enumeración de una forma.
+Se llama cuando se inicia la enumeración de una forma.
 
 ```csharp
 public virtual VisitorAction VisitShapeStart(Shape shape)
@@ -26,7 +26,7 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // EsquinasSuperioresUnaRedondeadaUnaRecortada, EsquinaÚnicaRedondeada, EsquinasSuperioresRedondeadas, EsquinasDiagonalesRedondeadas
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -120,8 +120,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
-    // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documento,
+    // lo que le permitirá visitar el nodo aceptador y luego recorrer sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -186,7 +186,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo de párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -256,6 +256,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -267,11 +269,11 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
-        // y no quedarán nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
+        // El contenido dentro de las celdas de la tabla puede tener la bandera de contenido oculto, pero las tablas en sí mismas no pueden.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
+        // y no quedarían nodos secundarios.
+        // De esta forma también podemos tratar la tabla en sí como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -280,7 +282,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de celda en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

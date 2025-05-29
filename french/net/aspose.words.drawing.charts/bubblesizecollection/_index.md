@@ -3,9 +3,9 @@ title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection classe. Représente une collection de tailles de bulles pour une série de graphiques en C#.
+description: Découvrez la classe Aspose.Words.Drawing.Charts.BubbleSizeCollection, votre solution de référence pour gérer efficacement les tailles de bulles dans les séries de graphiques.
 type: docs
-weight: 610
+weight: 870
 url: /fr/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
@@ -21,6 +21,7 @@ public class BubbleSizeCollection : IEnumerable<double>
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Obtient le nombre d'éléments dans cette collection. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Obtient ou définit le code de format appliqué aux tailles de bulles. |
 | [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Obtient ou définit la valeur de la taille de la bulle à l'index spécifié. |
 
 ## Méthodes
@@ -31,9 +32,9 @@ public class BubbleSizeCollection : IEnumerable<double>
 
 ## Remarques
 
-La collection permet uniquement de modifier la taille des bulles. Pour ajouter ou insérer de nouvelles valeurs à une série de graphiques, ou supprimer des valeurs , les méthodes appropriées du[`ChartSeries`](../chartseries/) la classe peut être utilisée.
+La collection permet uniquement de modifier la taille des bulles. Pour ajouter ou insérer de nouvelles valeurs à une série de graphiques, ou supprimer des valeurs, utilisez les méthodes appropriées de la collection.[`ChartSeries`](../chartseries/) la classe peut être utilisée.
 
-Les valeurs de taille de bulle vide sont représentées parNaN.
+Les valeurs de taille des bulles vides sont représentées commeNaN.
 
 ### Voir également
 

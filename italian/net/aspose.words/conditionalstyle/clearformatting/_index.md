@@ -3,7 +3,7 @@ title: ConditionalStyle.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words per .NET
-description: ConditionalStyle ClearFormatting metodo. Cancella la formattazione di questo stile condizionale in C#.
+description: Formattazione chiara e senza sforzo con il metodo ClearFormatting di ConditionalStyle. Semplifica il tuo processo di progettazione e migliora la chiarezza dei documenti oggi stesso!
 type: docs
 weight: 100
 url: /it/net/aspose.words/conditionalstyle/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Esempi
 
-Mostra come reimpostare gli stili di tabella condizionale.
+Mostra come reimpostare gli stili condizionali delle tabelle.
 
 ```csharp
 Document doc = new Document();

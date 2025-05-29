@@ -2,15 +2,15 @@
 title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
-second_title: Aspose.Words for .NET
-description: Cell Tables mülk. Hücrenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Hücre Tablolarını Keşfedin. Akıcı organizasyon ve gelişmiş veri yönetimi için hücrenizin içinden doğrudan bir tablo koleksiyonuna kolayca erişin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Hücrenin doğrudan alt öğeleri olan tabloların bir koleksiyonunu alır.
+Hücrenin hemen altındaki tabloların bir koleksiyonunu alır.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## Örnekler
 
-Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
+Bir tablonun iç içe geçmiş olup olmadığını nasıl bulacağınızı gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -29,11 +29,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tabloları olup olmadığını bulun.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde yer alıp almadığını ve eğer yer alıyorsa hangi derinlikte olduğunu bulun.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -45,10 +45,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
+/// Bir tablonun diğer tabloların içinde ne düzeyde yuvalandığını hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini (üst tablo düğümlerinin sayısı) belirten bir tam sayı.
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -65,20 +65,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
+/// Bir tablonun hücreleri içerisinde herhangi bir alt tablonun bulunup bulunmadığını belirler.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında yinelemeli olarak gezinmeyin.
 /// </summary>
 /// <returns>
-/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
+/// En az bir alt hücrenin tablo içermesi durumunda true döner.
+/// Tabloda tablo içeren hiçbir hücre yoksa false döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

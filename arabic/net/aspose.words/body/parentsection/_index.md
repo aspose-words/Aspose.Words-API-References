@@ -3,14 +3,14 @@ title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words لـ .NET
-description: Body ParentSection ملكية. للحصول على القسم الأصلي لهذه القصة في C#.
+description: اكتشف خاصية Body ParentSection للوصول بسهولة إلى قسم الوالدين في القصة وتعزيز كفاءة إدارة المحتوى لديك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/body/parentsection/
 ---
 ## Body.ParentSection property
 
-للحصول على القسم الأصلي لهذه القصة.
+يحصل على القسم الرئيسي لهذه القصة.
 
 ```csharp
 public Section ParentSection { get; }
@@ -18,11 +18,11 @@ public Section ParentSection { get; }
 
 ## ملاحظات
 
-`ParentSection` يعادل[`ParentNode`](../../node/parentnode/) يلقي ل[`Section`](../../section/).
+`ParentSection` يعادل[`ParentNode`](../../node/parentnode/) تم إلقاؤه إلى[`Section`](../../section/).
 
 ## أمثلة
 
-يبين كيفية تخزين الحواشي الختامية في نهاية كل قسم، وتعديل مواضعها.
+يوضح كيفية تخزين الملاحظات الختامية في نهاية كل قسم، وتعديل مواقعها.
 
 ```csharp
 public void SuppressEndnotes()
@@ -30,20 +30,20 @@ public void SuppressEndnotes()
     Document doc = new Document();
     doc.RemoveAllChildren();
 
-     // بشكل افتراضي، يقوم المستند بتجميع كافة التعليقات الختامية في نهايته.
+     // بشكل افتراضي، تقوم الوثيقة بتجميع كل الحواشي الختامية في نهايتها.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // نستخدم خاصية "الموضع" لكائن "EndnoteOptions" الخاص بالمستند
-     // لجمع الحواشي الختامية في نهاية كل قسم بدلاً من ذلك.
+    // نستخدم خاصية "Position" لكائن "EndnoteOptions" الخاص بالمستند
+     //لتجميع الحواشي في نهاية كل قسم بدلاً من ذلك.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // أثناء جعل الأقسام تعرض الحواشي الختامية الخاصة بها، يمكننا تعيين علامة "SuppressEndnotes".
-    // تحويل كائن "PageSetup" الخاص بالقسم إلى "صحيح" للعودة إلى السلوك الافتراضي وتمرير التعليقات الختامية الخاصة به
-    // في القسم التالي.
+    // أثناء جعل الأقسام تعرض ملاحظاتها الختامية الخاصة بها، يمكننا تعيين علامة "SuppressEndnotes"
+    // لكائن "PageSetup" الخاص بالقسم إلى "true" للعودة إلى السلوك الافتراضي وتمرير الحواشي الختامية الخاصة به
+    // إلى القسم التالي.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -51,7 +51,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// إلحاق قسم بنص وتعليق ختامي للمستند.
+/// إضافة قسم يحتوي على نص وملاحظة ختامية إلى مستند.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

@@ -3,14 +3,14 @@ title: FieldPrintDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words لـ .NET
-description: FieldPrintDate UseUmAlQuraCalendar ملكية. الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى في C#.
+description: أدر تواريخك بسهولة مع ميزة UseUmAlQuraCalendar من FieldPrintDate. استخدم تقويم UmalQura بسهولة لإدارة التواريخ بسلاسة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldprintdate/useumalquracalendar/
 ---
 ## FieldPrintDate.UseUmAlQuraCalendar property
 
-الحصول على أو تحديد ما إذا كان سيتم استخدام تقويم أم القرى.
+يحصل على أو يحدد ما إذا كان سيتم استخدام تقويم أم القرى.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }
@@ -18,21 +18,21 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## أمثلة
 
-يظهر قراءة حقول PRINTDATE.
+يعرض حقول PRINTDATE المقروءة.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// عندما تتم طباعة مستند بواسطة الطابعة أو طباعته كملف PDF (ولكن لا يتم تصديره إلى PDF)،
+// عند طباعة مستند بواسطة طابعة أو طباعته كملف PDF (ولكن لا يتم تصديره إلى PDF)،
 // ستعرض حقول PRINTDATE تاريخ/وقت عملية الطباعة.
-// إذا لم تتم الطباعة، فستعرض هذه الحقول "0/0/0000".
+// إذا لم تتم عملية الطباعة، فسوف تعرض هذه الحقول "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// فيما يلي ثلاثة أنواع تقويم مختلفة يتم وفقًا لها حقل PRINTDATE
-// يمكنه عرض تاريخ ووقت آخر عملية طباعة.
+// فيما يلي ثلاثة أنواع مختلفة من التقويم والتي وفقًا لها يتم تحديد حقل PRINTDATE
+//يمكن عرض التاريخ والوقت لآخر عملية طباعة.
 // 1 - التقويم القمري الإسلامي:
 field = (FieldPrintDate)doc.Range.Fields[1];
 
@@ -42,7 +42,7 @@ Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
-// 2 - تقويم أم القرى :
+// 2 - تقويم أم القرى:
 Assert.True(field.UseUmAlQuraCalendar);
 Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());

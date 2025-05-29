@@ -2,17 +2,17 @@
 title: ListLabel Class
 linktitle: ListLabel
 articleTitle: ListLabel
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Lists.ListLabel sınıf. Liste etiketine özgü özellikleri tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Daha iyi kontrol ve sunum için özelleştirilebilir liste etiketi özellikleriyle belge biçimlendirmenizi geliştirmek üzere Aspose.Words.Lists.ListLabel sınıfını keşfedin.
 type: docs
-weight: 3490
+weight: 3940
 url: /tr/net/aspose.words.lists/listlabel/
 ---
 ## ListLabel class
 
-Liste etiketine özgü özellikleri tanımlar.
+Bir liste etiketine özgü özellikleri tanımlar.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Listelerle Çalışmak](https://docs.aspose.com/words/net/working-with-lists/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Listelerle Çalışma](https://docs.aspose.com/words/net/working-with-lists/) belgeleme makalesi.
 
 ```csharp
 public class ListLabel
@@ -23,12 +23,12 @@ public class ListLabel
 | İsim | Tanım |
 | --- | --- |
 | [Font](../../aspose.words.lists/listlabel/font/) { get; } | Liste etiketi yazı tipini alır. |
-| [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Liste etiketinin dize temsilini alır. |
+| [LabelString](../../aspose.words.lists/listlabel/labelstring/) { get; } | Liste etiketinin dize gösterimini alır. |
 | [LabelValue](../../aspose.words.lists/listlabel/labelvalue/) { get; } | Bu etiket için sayısal bir değer alır. |
 
 ## Örnekler
 
-Liste öğesi olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
+Liste öğeleri olan tüm paragrafların liste etiketlerinin nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,24 +36,24 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-//Paragraf listemizin olup olmadığını bulun. Belgemizde listemizde sade Arapça rakamlar kullanılıyor,
+// Paragraf listesine sahip olup olmadığımızı bul. Belgemizde, listemiz düz Arap rakamlarını kullanır,
 // üçte başlayıp altıda biten.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Bu düğümün çıktısını metin formatına aldığımızda elde ettiğimiz metin budur.
+    // Bu düğümü metin formatına dönüştürdüğümüzde elde edeceğimiz metin budur.
      // Bu metin çıktısı liste etiketlerini atlayacaktır. Paragraf biçimlendirme karakterlerini kırpın.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
-    // Bu, paragrafın listenin geçerli düzeyindeki konumunu alır. Birden fazla düzeyden oluşan bir listemiz varsa,
-    // bu bize o seviyede hangi konumda olduğunu söyleyecektir.
+    // Bu, listenin geçerli seviyesindeki paragrafın pozisyonunu alır. Birden fazla seviyeye sahip bir listemiz varsa,
+    // bu bize o seviyedeki pozisyonunun ne olduğunu söyleyecektir.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
-    // Liste etiketini çıktıdaki metinle birlikte eklemek için bunları birleştirin.
+    // Çıktıdaki metinle birlikte liste etiketini eklemek için bunları birleştirin.
     Console.WriteLine($"\tList label combined with text: {label.LabelString} {paragraphText}");
 }
 ```

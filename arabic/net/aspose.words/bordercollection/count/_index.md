@@ -3,14 +3,14 @@ title: BorderCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Count ملكية. الحصول على عدد الحدود في المجموعة في C#.
+description: اكتشف خاصية BorderCollection Count للوصول بسهولة إلى العدد الإجمالي للحدود، مما يعزز مرونة التصميم وكفاءته.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/bordercollection/count/
 ---
 ## BorderCollection.Count property
 
-الحصول على عدد الحدود في المجموعة.
+يحصل على عدد الحدود في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

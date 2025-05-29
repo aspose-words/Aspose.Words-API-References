@@ -3,9 +3,9 @@ title: VbaExecutableAttribute Class
 linktitle: VbaExecutableAttribute
 articleTitle: VbaExecutableAttribute
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaExecutableAttribute сорт.  на С#.
+description: Откройте для себя класс Aspose.Words.Vba.VbaExecutableAttribute для мощной автоматизации документов. Улучшите свои проекты VBA с помощью бесшовной интеграции и эффективности.
 type: docs
-weight: 6540
+weight: 7390
 url: /ru/net/aspose.words.vba/vbaexecutableattribute/
 ---
 ## VbaExecutableAttribute class

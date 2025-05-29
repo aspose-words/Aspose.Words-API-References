@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection ShowValue 财产. 允许指定值是否显示在整个系列的数据标签中 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ChartDataLabelCollection 中的 ShowValue 属性如何通过显示序列值来增强数据可视化。立即优化您的图表！
 type: docs
-weight: 140
+weight: 170
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
 
-允许指定值是否显示在整个系列的数据标签中。 默认值为`错误的`.
+允许指定是否在整个系列的数据标签中显示值。 默认值为`错误的`.
 
 ```csharp
 public bool ShowValue { get; set; }
@@ -18,7 +18,7 @@ public bool ShowValue { get; set; }
 
 ## 评论
 
-可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowValue`](../../chartdatalabel/showvalue/)属性.
+可以使用 覆盖此属性定义的单个数据标签值[`ShowValue`](../../chartdatalabel/showvalue/)属性.
 
 ## 例子
 
@@ -38,7 +38,7 @@ ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// 启用数据标签，显示每个扇区的百分比和频率，并修改其外观。
+// 启用数据标签，显示每个部门的百分比和频率，并修改其外观。
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

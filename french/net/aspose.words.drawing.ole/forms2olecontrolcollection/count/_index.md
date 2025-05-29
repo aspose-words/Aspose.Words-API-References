@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: Forms2OleControlCollection Count propriété. Obtient le nombre dobjets dans la collection en C#.
+description: Découvrez la propriété Count de Forms2OleControlCollection pour récupérer facilement le nombre total d'objets de votre collection pour une gestion améliorée des données.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Exemples
 
-Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
+Montre comment accéder à un contrôle OLE intégré dans un document et à ses contrôles enfants.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

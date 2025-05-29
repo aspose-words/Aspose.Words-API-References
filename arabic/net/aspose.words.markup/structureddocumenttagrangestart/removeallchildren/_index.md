@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RemoveAllChildren
 linktitle: RemoveAllChildren
 articleTitle: RemoveAllChildren
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart RemoveAllChildren طريقة. إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق في C#.
+description: استخدم طريقة RemoveAllChildren بكفاءة لمسح العقد بين StructuredDocumentTagRangeStart وend، مما يؤدي إلى تحسين إدارة المستندات.
 type: docs
-weight: 230
+weight: 240
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/removeallchildren/
 ---
 ## StructuredDocumentTagRangeStart.RemoveAllChildren method
 
-إزالة كافة العقد بين عقدة بداية النطاق وعقدة نهاية النطاق.
+يزيل جميع العقد بين عقدة بداية النطاق وعقدة نهاية النطاق.
 
 ```csharp
 public void RemoveAllChildren()
@@ -18,7 +18,7 @@ public void RemoveAllChildren()
 
 ## أمثلة
 
-يوضح كيفية إنشاء/إزالة علامة المستند المنظمة ومحتواها.
+يوضح كيفية إنشاء/إزالة علامة المستند المنظم ومحتواه.
 
 ```csharp
 public void SdtRangeExtendedMethods()
@@ -28,9 +28,9 @@ public void SdtRangeExtendedMethods()
 
     builder.Writeln("StructuredDocumentTag element");
 
-    InsertStructuredDocumentTagRanges(doc, out StructuredDocumentTagRangeStart rangeStart);
+    StructuredDocumentTagRangeStart rangeStart = InsertStructuredDocumentTagRanges(doc);
 
-    // يزيل علامة المستند المنظمة ذات النطاق، لكنه يحتفظ بالمحتوى بداخله.
+    // يقوم بإزالة علامة المستند المنظمة المحددة، لكنه يحتفظ بالمحتوى الموجود بداخله.
     rangeStart.RemoveSelfOnly();
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
@@ -43,25 +43,27 @@ public void SdtRangeExtendedMethods()
     Assert.AreEqual(null, rangeEnd);
     Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
 
-    InsertStructuredDocumentTagRanges(doc, out rangeStart);
+    rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
 
-    // يزيل علامة المستند المنظمة والمحتويات الموجودة بداخله.
+    // يقوم بإزالة علامة المستند المنظمة والمحددة والمحتوى الموجود بداخلها.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
     Assert.AreEqual(null, paragraphNode?.GetText());
 }
 
-public void InsertStructuredDocumentTagRanges(Document doc, out StructuredDocumentTagRangeStart rangeStart)
+public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)
 {
-    rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
+    StructuredDocumentTagRangeStart rangeStart = new StructuredDocumentTagRangeStart(doc, SdtType.PlainText);
     StructuredDocumentTagRangeEnd rangeEnd = new StructuredDocumentTagRangeEnd(doc, rangeStart.Id);
 
     doc.FirstSection.Body.InsertBefore(rangeStart, doc.FirstSection.Body.FirstParagraph);
     doc.LastSection.Body.InsertAfter(rangeEnd, doc.FirstSection.Body.FirstParagraph);
+
+    return rangeStart;
 }
 ```
 

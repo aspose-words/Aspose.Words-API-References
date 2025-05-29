@@ -3,14 +3,14 @@ title: Style.Aliases
 linktitle: Aliases
 articleTitle: Aliases
 second_title: Aspose.Words per .NET
-description: Style Aliases proprietà. Ottiene tutti gli alias di questo stile. Se lo stile non ha alias viene restituito un array di stringhe vuoto in C#.
+description: Scopri facilmente tutti gli alias di stile con la proprietà Alias di Stile. Se non ne esiste nessuno, ricevi un array di stringhe vuoto. Semplifica la gestione degli stili!
 type: docs
 weight: 10
 url: /it/net/aspose.words/style/aliases/
 ---
 ## Style.Aliases property
 
-Ottiene tutti gli alias di questo stile. Se lo stile non ha alias, viene restituito un array di stringhe vuoto.
+Recupera tutti gli alias di questo stile. Se lo stile non ha alias, viene restituito un array vuoto di stringhe.
 
 ```csharp
 public string[] Aliases { get; }
@@ -30,7 +30,7 @@ Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// Possiamo fare riferimento a uno stile utilizzando il suo alias e il suo nome.
+// Possiamo fare riferimento a uno stile utilizzando il suo alias e anche il suo nome.
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

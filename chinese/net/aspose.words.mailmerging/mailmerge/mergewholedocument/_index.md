@@ -2,15 +2,15 @@
 title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge MergeWholeDocument 财产. 获取或设置一个值该值指示在执行区域邮件合并时是否更新整个文档中的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 MailMerge MergeWholeDocument 属性如何在基于区域的邮件合并期间更新所有字段，从而提高文档的效率和准确性。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-获取或设置一个值，该值指示在执行区域邮件合并时是否更新整个文档中的字段。
+获取或设置一个值，该值指示在执行带有区域的邮件合并时是否更新整个文档中的字段。
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -31,13 +31,13 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
     // 如果我们将“MergeWholeDocument”标志设置为“true”，
-    // 与区域的邮件合并将更新文档中的每个字段。
+    // 带有区域的邮件合并将更新文档中的每个字段。
     // 如果我们将“MergeWholeDocument”标志设置为“false”，则邮件合并将仅更新字段
-    // 在邮件合并区域内，其名称与数据源表的名称相匹配。
+    // 邮件合并区域内的名称与数据源表的名称相匹配。
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // 邮件合并只会更新邮件合并区域之外的 QUOTE 字段
+    // 邮件合并将仅更新邮件合并区域之外的 QUOTE 字段
     // 如果我们将“MergeWholeDocument”标志设置为“true”。
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
@@ -47,8 +47,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// 创建一个包含邮件合并区域的文档，该区域属于名为“MyTable”的数据源。
-/// 在此区域内插入一个 QUOTE 字段，并在其外部插入一个 QUOTE 字段。
+/// 创建一个具有属于名为“MyTable”的数据源的邮件合并区域的文档。
+/// 在此区域内插入一个 QUOTE 字段，并在其外部插入一个。
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {

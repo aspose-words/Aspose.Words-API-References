@@ -3,14 +3,14 @@ title: LoadOptions.IgnoreOleData
 linktitle: IgnoreOleData
 articleTitle: IgnoreOleData
 second_title: Aspose.Words لـ .NET
-description: LoadOptions IgnoreOleData ملكية. يحدد ما إذا كان سيتم تجاهل بيانات OLE أم لا في C#.
+description: اكتشف كيف تُحسّن خاصية LoadOptions IgnoreOleData معالجة بياناتك من خلال التحكم في معالجة بيانات OLE. حسّن سير عملك اليوم!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.loading/loadoptions/ignoreoledata/
 ---
 ## LoadOptions.IgnoreOleData property
 
-يحدد ما إذا كان سيتم تجاهل بيانات OLE أم لا.
+يحدد ما إذا كان سيتم تجاهل بيانات OLE.
 
 ```csharp
 public bool IgnoreOleData { get; set; }

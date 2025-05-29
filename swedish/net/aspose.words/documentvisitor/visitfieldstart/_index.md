@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitFieldStart metod. Anropas när ett fält startar i dokumentet i C#.
+description: Upptäck DocumentVisitor VisitFieldStart-metoden, som aktiveras i början av ett fält i ditt dokument, vilket förbättrar din kodningseffektivitet och ditt arbetsflöde.
 type: docs
 weight: 200
 url: /sv/net/aspose.words/documentvisitor/visitfieldstart/
 ---
 ## DocumentVisitor.VisitFieldStart method
 
-Anropas när ett fält startar i dokumentet.
+Anropas när ett fält börjar i dokumentet.
 
 ```csharp
 public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
@@ -22,17 +22,17 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Anmärkningar
 
 Ett fält i ett Word-dokument består av en fältkod och ett fältvärde.
 
-Till exempel kan ett fält som visar ett sidnummer representeras på följande sätt:
+Till exempel kan ett fält som visar ett sidnummer representeras enligt följande:
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[Fältstart]Sida[Fältavgränsare]98[Fältslut]
 
-Fältavgränsaren separerar fältkoden från fältvärdet i dokumentet. Observera att vissa -fält endast har fältkod och inte har fältavgränsare och fältvärde.
+Fältavgränsaren separerar fältkod från fältvärde i dokumentet. Observera att vissa -fält endast har fältkod och inte har fältavgränsare och fältvärde.
 
 Fält kan kapslas.
 
@@ -47,7 +47,7 @@ public void FieldToText()
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -55,8 +55,8 @@ public void FieldToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade fältnoder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade fältnoder och deras undernoder.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -72,7 +72,7 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -116,10 +116,10 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djup besökaren är
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig
     /// in i fältets träd av underordnade noder.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

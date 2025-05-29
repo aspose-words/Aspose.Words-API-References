@@ -3,14 +3,14 @@ title: ImageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
 second_title: Aspose.Words لـ .NET
-description: ImageSaveOptions PageSet ملكية. الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند في C#.
+description: اكتشف خاصية ImageSaveOptions PageSet لتخصيص عرض مستندك. حدّد الصفحات التي تريد حفظها للحصول على مخرجات مُحسّنة. استكشف الآن!
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/imagesaveoptions/pageset/
 ---
 ## ImageSaveOptions.PageSet property
 
-الحصول على الصفحات المراد عرضها أو تعيينها. الافتراضي هو كافة الصفحات الموجودة في المستند.
+يحصل على الصفحات التي سيتم عرضها أو يعينها. الافتراضي هو كل الصفحات الموجودة في المستند.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -18,11 +18,11 @@ public PageSet PageSet { get; set; }
 
 ## ملاحظات
 
-هذه الخاصية لها تأثير فقط عند عرض صفحات المستند. يتم تجاهل هذه الخاصية عند تحويل الأشكال إلى صور.
+هذه الخاصية سارية فقط عند عرض صفحات المستندات. يتم تجاهلها عند عرض الأشكال على الصور.
 
 ## أمثلة
 
-يوضح كيفية استخراج الصفحات بناءً على نطاقات الصفحات المحددة.
+يوضح كيفية استخراج الصفحات استنادًا إلى نطاقات الصفحات الدقيقة.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -35,7 +35,7 @@ imageOptions.PageSet = pageSet;
 doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-يوضح كيفية تحديد الصفحة التي سيتم عرضها كصورة في المستند.
+يوضح كيفية تحديد الصفحة في المستند التي سيتم عرضها كصورة.
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,10 @@ builder.Writeln("This is page 3.");
 
 Assert.AreEqual(3, doc.PageCount);
 
-// عندما نحفظ المستند كصورة، يعرض Aspose.Words الصفحة الأولى فقط بشكل افتراضي.
+// عندما نحفظ المستند كصورة، يقوم Aspose.Words بعرض الصفحة الأولى فقط بشكل افتراضي.
 // يمكننا تمرير كائن SaveOptions لتحديد صفحة مختلفة لعرضها.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
-
-// اعرض كل صفحة من المستند في ملف صورة منفصل.
+// تحويل كل صفحة من المستند إلى ملف صورة منفصل.
 for (int i = 1; i <= doc.PageCount; i++)
 {
     saveOptions.PageSet = new PageSet(1);
@@ -76,16 +75,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
+// قم بإنشاء كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل الطريقة التي تقوم بها هذه الطريقة بتحويل المستند إلى صورة.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // قم بتعيين خاصية "PageSet" على رقم الصفحة الأولى من
-    // الذي يبدأ عرض المستند منه.
+    // اضبط خاصية "PageSet" على رقم الصفحة الأولى من
+    // الذي سيتم البدء في عرض المستند منه.
     options.PageSet = new PageSet(i);
-    // تصدير الصفحة بحجم 2325 × 5325 بكسل و600 نقطة في البوصة.
+    // تصدير الصفحة بدقة 2325 × 5325 بكسل و 600 نقطة في البوصة.
     options.Resolution = 600;
     options.ImageSize = new Size(2325, 5325);
 
@@ -106,17 +105,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
+// قم بإنشاء كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل الطريقة التي تقوم بها هذه الطريقة بتحويل المستند إلى صورة.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // اضبط "PageSet" على "1" لتحديد الصفحة الثانية عبر
-// الفهرس الصفري الذي سيتم البدء في عرض المستند منه.
+// الفهرس المبني على الصفر لبدء عرض المستند منه.
 options.PageSet = new PageSet(1);
 
-// عندما نحفظ المستند بتنسيق JPEG، يعرض Aspose.Words صفحة واحدة فقط.
-// ستحتوي هذه الصورة على صفحة واحدة تبدأ من الصفحة الثانية،
-// والتي ستكون مجرد الصفحة الثانية من المستند الأصلي.
+// عندما نحفظ المستند بتنسيق JPEG، يقوم Aspose.Words بعرض صفحة واحدة فقط.
+// ستحتوي هذه الصورة على صفحة واحدة بدءًا من الصفحة الثانية،
+// والتي ستكون فقط الصفحة الثانية من المستند الأصلي.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 

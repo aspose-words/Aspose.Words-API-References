@@ -3,14 +3,14 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Color ملكية. الحصول على لون الحدود أو تعيينه في C#.
+description: اكتشف خاصية "ألوان مجموعة الحدود" لتخصيص وإدارة ألوان حدود تصميماتك بسهولة. حسّن واجهة المستخدم بخيارات نابضة بالحياة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/bordercollection/color/
 ---
 ## BorderCollection.Color property
 
-الحصول على لون الحدود أو تعيينه.
+يحصل على لون الحدود أو يعينه.
 
 ```csharp
 public Color Color { get; set; }
@@ -20,11 +20,11 @@ public Color Color { get; set; }
 
 إرجاع لون الحد الأول في المجموعة.
 
-يضبط لون كل الحدود في المجموعة باستثناء الحدود القطرية.
+تعيين لون جميع الحدود في المجموعة باستثناء الحدود القطرية.
 
 ## أمثلة
 
-يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
+يوضح كيفية إنشاء حدود صفحة متموجة باللون الأخضر مع ظل.
 
 ```csharp
 Document doc = new Document();

@@ -2,15 +2,15 @@
 title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
-second_title: Aspose.Words for .NET
-description: IFieldResultFormatter FormatDateTime yöntem. Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır yani  dd.MM.yyyy C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words için iFieldResultFormatter FormatDateTime metodunu keşfedin. dd.MM.yyyy anahtarını kullanarak tarihleri kolayca ve zahmetsizce biçimlendirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-Aspose.Words tarih/saat formatı geçişini uyguladığında çağrılır, yani \@ "dd.MM.yyyy".
+Aspose.Words bir tarih/saat biçimi anahtarı uyguladığında çağrılır, yani \@ "gg.AA.yyyy".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -18,11 +18,11 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ## Notlar
 
-Uygulama geri dönmeli`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
+Uygulama şunu döndürmelidir:`hükümsüz` varsayılan biçimlendirmenin uygulanması gerektiğini belirtmek için.
 
 ## Örnekler
 
-Alanlar güncellenirken özel bir biçimin alan sonuçlarına otomatik olarak nasıl uygulanacağını gösterir.
+Alanlar güncellendikçe alan sonuçlarına özel bir formatın otomatik olarak nasıl uygulanacağını gösterir.
 
 ```csharp
 public void FieldResultFormatting()
@@ -34,7 +34,7 @@ public void FieldResultFormatting()
 
     // Alan sonucu biçimlendiricimiz, yeni oluşturulan alanlara üç tür formatta özel bir format uygular.
     // Alan sonucu biçimlendiricileri, güncellendikçe alanlara yeni biçimlendirme uygular,
-    // bu, bunları InsertField yöntemi aşırı yüklemesini kullanarak oluşturduğumuz anda gerçekleşir.
+    // bu, InsertField metodunun aşırı yüklenmesini kullanarak bunları oluşturduğumuz anda gerçekleşir.
     // 1 - Sayısal:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// Biçimlendirmeli alanlar güncellendiğinde bu biçimlendirici onların biçimlendirmesini geçersiz kılacaktır
-/// her çağrıyı takip ederken özel bir formatla.
+/// Biçimlendirmeli alanlar güncellendiğinde, bu biçimlendirici biçimlendirmelerini geçersiz kılacaktır
+/// özel bir formatla, her çağrıyı takip ederek.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

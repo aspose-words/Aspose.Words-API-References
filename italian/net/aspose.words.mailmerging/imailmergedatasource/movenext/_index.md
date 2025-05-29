@@ -3,14 +3,14 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words per .NET
-description: IMailMergeDataSource MoveNext metodo. Avanza al record successivo nellorigine dati in C#.
+description: Scopri come il metodo MoveNext di IMailMergeDataSource avanza senza problemi al record successivo, migliorando l'efficienza della gestione dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource.MoveNext method
 
-Avanza al record successivo nell'origine dati.
+Passa al record successivo nell'origine dati.
 
 ```csharp
 public bool MoveNext()
@@ -18,7 +18,7 @@ public bool MoveNext()
 
 ### Valore di ritorno
 
-`VERO` se spostato al record successivo con successo;`falso` se raggiunta la fine dell'origine dati.
+`VERO` se spostato correttamente al record successivo;`falso` se raggiunta la fine della sorgente dati.
 
 ## Esempi
 
@@ -63,8 +63,8 @@ public class Customer
 }
 
 /// <summary>
- /// Un'origine dati di stampa unione personalizzata implementata per consentire Aspose.Words
-/// per inviare tramite posta unione i dati dagli oggetti Cliente ai documenti Microsoft Word.
+ /// Un'origine dati di unione di posta personalizzata che puoi implementare per consentire Aspose.Words
+/// per unire tramite posta i dati degli oggetti Cliente nei documenti Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -72,12 +72,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Quando inizializziamo l'origine dati, la sua posizione deve essere prima del primo record.
+        // Quando inizializziamo la sorgente dati, la sua posizione deve essere precedente al primo record.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo durante l'esecuzione della stampa unione con regioni ripetibili.
+    /// Il nome dell'origine dati. Utilizzato da Aspose.Words solo quando si esegue la stampa unione con aree ripetibili.
     /// </summary>
     public string TableName
     {

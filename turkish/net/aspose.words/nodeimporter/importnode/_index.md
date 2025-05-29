@@ -2,15 +2,15 @@
 title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
-second_title: Aspose.Words for .NET
-description: NodeImporter ImportNode yöntem. Bir belgedeki düğümü diğerine aktarır C#'da.
+second_title: .NET için Aspose.Words
+description: NodeImporter'ın ImportNode yöntemi ile düğümleri belgeler arasında zahmetsizce aktarın. İş akışınızı geliştirin ve veri entegrasyonunu bugün kolaylaştırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-Bir belgedeki düğümü diğerine aktarır.
+Bir düğümü bir belgeden diğerine aktarır.
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -23,15 +23,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 ### Geri dönüş değeri
 
-Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir ancak üst öğesi yoktur.
+Klonlanmış, içe aktarılmış düğüm. Düğüm hedef belgeye aittir, ancak üst öğesi yoktur.
 
 ## Notlar
 
-Bir düğümün içe aktarılması, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yok. Kaynak düğüm değiştirilmez veya orijinal belgeden kaldırılmaz.
+Bir düğümü içe aktarmak, içe aktarılan belgeye ait kaynak düğümün bir kopyasını oluşturur. Döndürülen düğümün üst öğesi yoktur. Kaynak düğüm orijinal belgeden değiştirilmez veya kaldırılmaz.
 
-Başka bir belgedeki bir düğümün bu belgeye eklenmeden önce içe aktarılması gerekir. İçe aktarma sırasında, stillere ve listelere yapılan referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir . Düğüm içe aktarıldıktan sonra, kullanılarak belgedeki uygun yere eklenebilir.[`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
+Başka bir belgeden bir düğüm bu belgeye eklenmeden önce içe aktarılmalıdır. İçe aktarma sırasında, stillere ve listelere referanslar gibi belgeye özgü özellikler orijinalden içe aktarılan belgeye çevrilir. Düğüm içe aktarıldıktan sonra, belgedeki uygun yere şu şekilde eklenebilir: [`InsertBefore`](../../compositenode/insertbefore/) veya [`InsertAfter`](../../compositenode/insertafter/).
 
-Kaynak düğüm zaten hedef belgeye aitse, kaynak düğümün derin clone 'si oluşturulur.
+Kaynak düğüm zaten hedef belgeye aitse, o zaman kaynak düğümün basitçe derin bir clone 'si oluşturulur.
 
 ## Örnekler
 
@@ -62,7 +62,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// Belgenin içeriğini belirtilen düğümden sonra ekler.
+/// Belirtilen düğümden sonra belgenin içeriğini ekler.
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -73,8 +73,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü yapın,
-        // sonra bir bölümün son boş paragrafı olmayan her düğümü kopyalayıp ekleyin.
+        // Bölümün gövdesindeki tüm blok düzeyindeki düğümler arasında döngü kur,
+        // daha sonra bölümün son boş paragrafı olmayan her düğümü klonla ve ekle.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

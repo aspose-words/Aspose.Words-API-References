@@ -3,12 +3,12 @@ title: DocumentBuilder.InsertChart
 linktitle: InsertChart
 articleTitle: InsertChart
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertChart methode. Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe in C#.
+description: Optimieren Sie Ihre Dokumente mühelos mit der InsertChart-Methode von DocumentBuilder. Fügen Sie Diagrammobjekte nahtlos hinzu und passen Sie deren Größe an, um wirkungsvolle Präsentationen zu erstellen.
 type: docs
 weight: 280
 url: /de/net/aspose.words/documentbuilder/insertchart/
 ---
-## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_1}
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double*) {#insertchart_2}
 
 Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
 
@@ -18,9 +18,9 @@ public Shape InsertChart(ChartType chartType, double width, double height)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| chartType | ChartType | Der Diagrammtyp, der in das Dokument eingefügt werden soll. |
-| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer Wert oder ein Nullwert sein, um eine Skalierung von 100 % anzufordern. |
-| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer Wert oder ein Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| chartType | ChartType | Der in das Dokument einzufügende Diagrammtyp. |
+| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
 
 ### Rückgabewert
 
@@ -28,11 +28,11 @@ Der Bildknoten, der gerade eingefügt wurde.
 
 ## Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
+Sie können die Bildgröße, den Speicherort, die Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) von dieser Methode zurückgegebenes Objekt.
 
 ## Beispiele
 
-Zeigt, wie man ein Kreisdiagramm in ein Dokument einfügt.
+Zeigt, wie ein Kreisdiagramm in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -58,6 +58,40 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertPieChart.docx");
 
 ---
 
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), double, double, [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)*) {#insertchart_3}
+
+Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
+
+```csharp
+public Shape InsertChart(ChartType chartType, double width, double height, ChartStyle chartStyle)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| chartType | ChartType | Der in das Dokument einzufügende Diagrammtyp. |
+| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| chartStyle | ChartStyle | Der Stil des eingefügten Diagramms. |
+
+### Rückgabewert
+
+Der Bildknoten, der gerade eingefügt wurde.
+
+## Bemerkungen
+
+Sie können die Bildgröße, den Speicherort, die Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) von dieser Methode zurückgegebenes Objekt.
+
+### Siehe auch
+
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* enum [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../../aspose.words/)
+* Montage [Aspose.Words](../../../)
+
+---
+
 ## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertchart}
 
 Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
@@ -69,14 +103,14 @@ public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| chartType | ChartType | Der Diagrammtyp, der in das Dokument eingefügt werden soll. |
-| horzPos | RelativeHorizontalPosition | Gibt an, von wo aus der Abstand zum Bild gemessen wird. |
+| chartType | ChartType | Der in das Dokument einzufügende Diagrammtyp. |
+| horzPos | RelativeHorizontalPosition | Gibt an, von wo aus die Entfernung zum Bild gemessen wird. |
 | left | Double | Abstand in Punkten vom Ursprung zur linken Seite des Bildes. |
-| vertPos | RelativeVerticalPosition | Gibt an, von wo aus der Abstand zum Bild gemessen wird. |
-| top | Double | Abstand in Punkten vom Ursprung zur oberen Seite des Bildes. |
-| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer Wert oder ein Nullwert sein, um eine Skalierung von 100 % anzufordern. |
-| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer Wert oder ein Nullwert sein, um eine Skalierung von 100 % anzufordern. |
-| wrapType | WrapType | Gibt an, wie Text um das Bild herum umbrochen wird. |
+| vertPos | RelativeVerticalPosition | Gibt an, von wo aus die Entfernung zum Bild gemessen wird. |
+| top | Double | Abstand in Punkten vom Ursprung zur oberen Bildseite. |
+| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| wrapType | WrapType | Gibt an, wie der Text um das Bild herumfließen soll. |
 
 ### Rückgabewert
 
@@ -84,11 +118,11 @@ Der Bildknoten, der gerade eingefügt wurde.
 
 ## Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
+Sie können die Bildgröße, den Speicherort, die Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) von dieser Methode zurückgegebenes Objekt.
 
 ## Beispiele
 
-Zeigt, wie man beim Einfügen eines Diagramms Position und Umbruch angibt.
+Zeigt, wie Sie beim Einfügen eines Diagramms Position und Umbruch angeben.
 
 ```csharp
 Document doc = new Document();
@@ -107,6 +141,50 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertedChartRelativePosition.docx");
 * enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
 * enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
 * enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* class [DocumentBuilder](../)
+* namensraum [Aspose.Words](../../../aspose.words/)
+* Montage [Aspose.Words](../../../)
+
+---
+
+## InsertChart(*[ChartType](../../../aspose.words.drawing.charts/charttype/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, double, double, [WrapType](../../../aspose.words.drawing/wraptype/), [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)*) {#insertchart_1}
+
+Fügt ein Diagrammobjekt in das Dokument ein und skaliert es auf die angegebene Größe.
+
+```csharp
+public Shape InsertChart(ChartType chartType, RelativeHorizontalPosition horzPos, double left, 
+    RelativeVerticalPosition vertPos, double top, double width, double height, WrapType wrapType, 
+    ChartStyle chartStyle)
+```
+
+| Parameter | Typ | Beschreibung |
+| --- | --- | --- |
+| chartType | ChartType | Der in das Dokument einzufügende Diagrammtyp. |
+| horzPos | RelativeHorizontalPosition | Gibt an, von wo aus die Entfernung zum Bild gemessen wird. |
+| left | Double | Abstand in Punkten vom Ursprung zur linken Seite des Bildes. |
+| vertPos | RelativeVerticalPosition | Gibt an, von wo aus die Entfernung zum Bild gemessen wird. |
+| top | Double | Abstand in Punkten vom Ursprung zur oberen Bildseite. |
+| width | Double | Die Breite des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| height | Double | Die Höhe des Bildes in Punkten. Kann ein negativer oder Nullwert sein, um eine Skalierung von 100 % anzufordern. |
+| wrapType | WrapType | Gibt an, wie der Text um das Bild herumfließen soll. |
+| chartStyle | ChartStyle | Der Stil des eingefügten Diagramms. |
+
+### Rückgabewert
+
+Der Bildknoten, der gerade eingefügt wurde.
+
+## Bemerkungen
+
+Sie können die Bildgröße, den Speicherort, die Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) von dieser Methode zurückgegebenes Objekt.
+
+### Siehe auch
+
+* class [Shape](../../../aspose.words.drawing/shape/)
+* enum [ChartType](../../../aspose.words.drawing.charts/charttype/)
+* enum [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/)
+* enum [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/)
+* enum [WrapType](../../../aspose.words.drawing/wraptype/)
+* enum [ChartStyle](../../../aspose.words.drawing.charts/chartstyle/)
 * class [DocumentBuilder](../)
 * namensraum [Aspose.Words](../../../aspose.words/)
 * Montage [Aspose.Words](../../../)

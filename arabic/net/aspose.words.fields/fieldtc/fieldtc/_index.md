@@ -3,7 +3,7 @@ title: FieldTC
 linktitle: FieldTC
 articleTitle: FieldTC
 second_title: Aspose.Words لـ .NET
-description: FieldTC البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldTC - الحل الأمثل للتكامل السلس وإدارة المشاريع بكفاءة. اكتشف ميزاته الفعّالة اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtc/fieldtc/

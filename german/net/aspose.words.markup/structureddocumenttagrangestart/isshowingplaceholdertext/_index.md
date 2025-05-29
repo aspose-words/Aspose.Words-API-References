@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText eigendom. Gibt an ob der Inhalt dieses strukturierten DokumentTags so interpretiert werden soll dass er Platzhaltertext enthält im Gegensatz zu regulären Textinhalten innerhalb des strukturierten DokumentTags in C#.
+description: Entdecken Sie die IsShowingPlaceholderText-Eigenschaft von StructuredDocumentTagRangeStart. Verwalten Sie Platzhalter und normalen Text in Ihren strukturierten Dokumenten ganz einfach!
 type: docs
 weight: 50
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Gibt an, ob der Inhalt dieses strukturierten Dokument-Tags so interpretiert werden soll, dass er Platzhaltertext enthält (im Gegensatz zu regulären Textinhalten innerhalb des strukturierten Dokument-Tags).
+Gibt an, ob der Inhalt dieses strukturierten Dokument-Tags so interpretiert werden soll, dass er Platzhaltertext enthält (im Gegensatz zu regulärem Textinhalt innerhalb des strukturierten Dokument-Tags).
 
-, wenn auf eingestellt`WAHR` , dieser Zustand wird beim Öffnen dieses Dokuments wieder aufgenommen (mit Platzhaltertext).
+wenn eingestellt auf`WAHR` , dieser Zustand soll beim Öffnen dieses Dokuments wiederhergestellt werden (Platzhaltertext wird angezeigt).
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

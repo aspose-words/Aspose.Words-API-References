@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeEnd Class
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Markup.StructuredDocumentTagRangeEnd classe. Rappresenta la fine divariato tag di documento strutturato che accetta contenuti multisezione. Vedi ancheStructuredDocumentTagRangeStart nodo in C#.
+description: Scopri la classe Aspose.Words.Markup.StructuredDocumentTagRangeEnd, progettata per una gestione fluida dei contenuti multisezione nei documenti strutturati.
 type: docs
-weight: 4080
+weight: 4770
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/
 ---
 ## StructuredDocumentTagRangeEnd class
 
-Rappresenta la fine di**variato** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
+Rappresenta la fine di**a distanza** tag di documento strutturato che accetta contenuti multi-sezione. Vedi anche[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) nodo.
 
-Per saperne di più, visita il[Tag di documenti strutturati o controllo del contenuto](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
+Per saperne di più, visita il[Tag di documenti strutturati o controllo dei contenuti](https://docs.aspose.com/words/net/working-with-content-control-sdt/) articolo di documentazione.
 
 ```csharp
 public class StructuredDocumentTagRangeEnd : Node
@@ -22,7 +22,7 @@ public class StructuredDocumentTagRangeEnd : Node
 
 | Nome | Descrizione |
 | --- | --- |
-| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Inizializza una nuova istanza di**Fine dell'intervallo di tag del documento strutturato** classe. |
+| [StructuredDocumentTagRangeEnd](structureddocumenttagrangeend/)(*[DocumentBase](../../aspose.words/documentbase/), int*) | Inizializza una nuova istanza di**Fine dell'intervallo dei tag del documento strutturato** classe. |
 
 ## Proprietà
 
@@ -30,13 +30,13 @@ public class StructuredDocumentTagRangeEnd : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
-| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifica un ID numerico persistente univoco di sola lettura per questo**Intervallo tag documento strutturato** nodo. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id/) . |
+| [Id](../../aspose.words.markup/structureddocumenttagrangeend/id/) { get; } | Specifica un ID numerico persistente di sola lettura univoco per questo**Intervallo di tag di documenti strutturati** node. Corrispondente[`StructuredDocumentTagRangeStart`](../structureddocumenttagrangestart/) il nodo ha lo stesso[`Id`](../structureddocumenttagrangestart/id/) . |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Restituisce`VERO` se questo nodo può contenere altri nodi. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ottiene il nodo immediatamente successivo a questo nodo. |
 | override [NodeType](../../aspose.words.markup/structureddocumenttagrangeend/nodetype/) { get; } | RestituisceStructuredDocumentTagRangeEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../../aspose.words/range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../../aspose.words/range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 
 ## Metodi
 
@@ -47,8 +47,8 @@ public class StructuredDocumentTagRangeEnd : Node
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
@@ -59,7 +59,7 @@ Può essere figlio immediato di[`Body`](../../aspose.words/body/) nodo**soltanto
 
 ## Esempi
 
-Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
+Mostra come ottenere le proprietà dei tag dei documenti strutturati multisezione.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

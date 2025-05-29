@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Item ملكية. يسترد أBorder الكائن حسب نوع الحدود في C#.
+description: اكتشف خاصية BorderCollection Item للوصول بسهولة إلى كائنات Border حسب النوع. بسّط تصميمك مع إدارة فعّالة للحدود!
 type: docs
 weight: 60
 url: /ar/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-يسترد أ[`Border`](../../border/) الكائن حسب نوع الحدود.
+يسترجع[`Border`](../../border/) الكائن حسب نوع الحدود.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -18,15 +18,15 @@ public Border this[BorderType borderType] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| borderType | أ[`BorderType`](../../bordertype/) value الذي يحدد نوع الحد المطلوب استرداده. |
+| borderType | أ[`BorderType`](../../bordertype/) value التي تحدد نوع الحدود التي سيتم استردادها. |
 
 ## ملاحظات
 
-لاحظ أنه ليست كل الحدود موجودة لعناصر وثيقة مختلفة. تطرح هذه الطريقة استثناءً إذا طلبت حدًا لا ينطبق على الكائن الحالي.
+لاحظ أنه ليست كل الحدود موجودة لعناصر المستند المختلفة. تطرح هذه الطريقة استثناءً إذا طلبت حدودًا غير قابلة للتطبيق على الكائن الحالي.
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-يسترد أ[`Border`](../../border/) كائن حسب الفهرس.
+يسترجع[`Border`](../../border/) الكائن حسب index.
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,11 +68,11 @@ public Border this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | الفهرس القائم على الصفر من الحدود لاسترداد. |
+| index | فهرس الحدود الذي يبدأ من الصفر لاسترجاعه. |
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -102,7 +102,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

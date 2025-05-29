@@ -3,16 +3,16 @@ title: FieldRef Class
 linktitle: FieldRef
 articleTitle: FieldRef
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldRef klass. Implementerar REFfältet i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldRef för sömlös implementering av REF-fält. Förbättra dokumentautomationen och effektivisera ditt arbetsflöde idag!
 type: docs
-weight: 2330
+weight: 2740
 url: /sv/net/aspose.words.fields/fieldref/
 ---
 ## FieldRef class
 
 Implementerar REF-fältet.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldRef : Field
@@ -28,36 +28,36 @@ public class FieldRef : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname/) { get; set; } | Hämtar eller ställer in det refererade bokmärkets namn. |
+| [BookmarkName](../../aspose.words.fields/fieldref/bookmarkname/) { get; set; } | Hämtar eller anger namnet på det refererade bokmärket. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment/) { get; set; } | Hämtar eller ställer in om fotnots-, slutnots- och anteckningsnummer som är är markerade med bokmärket ska ökas, och infogar motsvarande fotnot, slutnot och kommentarstext. |
-| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink/) { get; set; } | Hämtar eller ställer in om en hyperlänk till det bokmärkta stycket ska skapas. |
-| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas exakt som det visas i dokumentet. |
-| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i hela sammanhanget. |
-| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/) { get; set; } | Hämtar eller ställer in om styckenumret för det refererade stycket ska infogas i relativ kontext. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition/) { get; set; } | Hämtar eller ställer in om den relativa positionen för det refererade stycket ska infogas. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator/) { get; set; } | Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältets slut. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/)objekt som ger typad åtkomst till fältets formatering. |
+| [IncludeNoteOrComment](../../aspose.words.fields/fieldref/includenoteorcomment/) { get; set; } | Hämtar eller anger om fotnots-, slutnots- och anteckningsnummer som är markerade av bokmärket ska ökas, och motsvarande fotnots-, slutnots- och kommentartext ska infogas. |
+| [InsertHyperlink](../../aspose.words.fields/fieldref/inserthyperlink/) { get; set; } | Hämtar eller anger om en hyperlänk ska skapas till det bokmärkta stycket. |
+| [InsertParagraphNumber](../../aspose.words.fields/fieldref/insertparagraphnumber/) { get; set; } | Hämtar eller anger om styckets nummer för det refererade stycket ska infogas exakt som det visas i dokumentet. |
+| [InsertParagraphNumberInFullContext](../../aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/) { get; set; } | Hämtar eller anger om styckets nummer för det refererade stycket ska infogas i full kontext. |
+| [InsertParagraphNumberInRelativeContext](../../aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/) { get; set; } | Hämtar eller anger om styckenumret för det refererade stycket ska infogas i relativ kontext. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldref/insertrelativeposition/) { get; set; } | Hämtar eller anger om den relativa positionen för det refererade stycket ska infogas. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller anger om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller anger om fältet är låst (resultatet ska inte beräknas om). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in fältets LCID. |
+| [NumberSeparator](../../aspose.words.fields/fieldref/numberseparator/) { get; set; } | Hämtar eller anger teckensekvensen som används för att separera sekvensnummer och sidnummer. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller anger text som är mellan fältavgränsaren och fältslutet. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
-| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters/) { get; set; } | Hämtar eller ställer in om icke-avgränsande tecken ska undertryckas. |
+| [SuppressNonDelimiters](../../aspose.words.fields/fieldref/suppressnondelimiters/) { get; set; } | Hämtar eller anger om icke-avgränsande tecken ska undertryckas. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Hämtar fälttypen Microsoft Word. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underfält inkluderas. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista undernoden till dess överordnade nod, returneras dess överordnade stycke. Om fältet redan är borttaget returneras`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavkopplingen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Körs om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Körs om fältet redan uppdateras. |
 
 ## Anmärkningar
 
@@ -65,14 +65,14 @@ Infogar texten eller grafiken som representeras av det angivna bokmärket.
 
 ## Exempel
 
-Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar det i dokumentet med ett REF-fält.
+Visar hur man skapar bokmärkt text med ett SET-fält och sedan visar den i dokumentet med ett REF-fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
  // Namnge bokmärkt text med ett SET-fält.
-// Detta fält hänvisar till "bokmärket" inte en bokmärkesstruktur som visas i texten, utan en namngiven variabel.
+// Detta fält refererar till "bokmärket", inte en bokmärkesstruktur som visas i texten, utan en namngiven variabel.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -80,7 +80,7 @@ fieldSet.Update();
 
 Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
 
-// Referera till bokmärket efter namn i ett REF-fält och visa dess innehåll.
+// Referera till bokmärket med namn i ett REF-fält och visa dess innehåll.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
@@ -106,11 +106,11 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Vi kommer att tillämpa ett anpassat listformat, där antalet vinkelparenteser anger vilken listnivå vi för närvarande befinner oss på.
+    // Vi kommer att använda ett anpassat listformat, där antalet vinkelparenteser anger listnivån vi befinner oss på för närvarande.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Infoga ett REF-fält som kommer att innehålla texten i vårt bokmärke, fungera som en hyperlänk och klona bokmärkets fotnoter.
+    // Infoga ett REF-fält som ska innehålla texten i vårt bokmärke, fungera som en hyperlänk och klona bokmärkets fotnoter.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
@@ -123,7 +123,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
 
-    // Visa listnumret för bokmärket som det visas i dokumentet.
+    // Visa bokmärkets listnummer som det visas i dokumentet.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
@@ -140,7 +140,7 @@ public void FieldRef()
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Visa bokmärkets listnummer och numren för alla listnivåer ovanför det.
+    // Visar bokmärkets listnummer och numren för alla listnivåer ovanför det.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -148,13 +148,13 @@ public void FieldRef()
 
     builder.InsertBreak(BreakType.PageBreak);
 
-    // Visa listnivånumren mellan detta REF-fält och bokmärket som det refererar till.
+    // Visar listnivånumren mellan detta REF-fält och bokmärket som det refererar till.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // I slutet av dokumentet kommer bokmärket att visas som ett listobjekt här.
+    // I slutet av dokumentet visas bokmärket som ett listobjekt här.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
@@ -164,7 +164,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägg till text före och efter det.
+/// Få dokumentbyggaren att infoga ett REF-fält, referera till ett bokmärke med det och lägga till text före och efter det.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

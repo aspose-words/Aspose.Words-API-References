@@ -3,14 +3,14 @@ title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
 second_title: Aspose.Words per .NET
-description: MailMergeSettings ViewMergedData proprietà. Specifica che Microsoft Word visualizzerà i dati dallorigine dati esterna specificata in cui sono stati inseriti i campi unione ad esempio anteprima dei dati uniti. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ViewMergedData di MailMergeSettings in Microsoft Word migliora la creazione dei tuoi documenti visualizzando in anteprima i dati uniti da fonti esterne.
 type: docs
 weight: 170
 url: /it/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Specifica che Microsoft Word visualizzerà i dati dall'origine dati esterna specificata in cui sono stati inseriti i campi unione (ad esempio anteprima dei dati uniti). Il valore predefinito è`falso` .
+Specifica che Microsoft Word deve visualizzare i dati dalla fonte dati esterna specificata in cui sono stati inseriti i campi di unione (ad esempio, visualizzare in anteprima i dati uniti). Il valore predefinito è`falso` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -18,7 +18,7 @@ public bool ViewMergedData { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

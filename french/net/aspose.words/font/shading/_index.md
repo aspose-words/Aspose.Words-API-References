@@ -3,9 +3,9 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words pour .NET
-description: Font Shading propriété. Renvoie unShading objet qui fait référence au formatage dombrage de la police en C#.
+description: Découvrez la propriété Font Shading, qui fournit un objet Shading pour une mise en forme de police personnalisable, améliorant ainsi l'attrait visuel de votre texte.
 type: docs
-weight: 320
+weight: 330
 url: /fr/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Une façon de rendre visible le texte créé en utilisant notre couleur de police blanche
+// Une façon de rendre visible le texte créé à l'aide de notre couleur de police blanche
 // consiste à appliquer un effet d'ombrage d'arrière-plan.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;

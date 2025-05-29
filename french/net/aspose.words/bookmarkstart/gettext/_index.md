@@ -3,7 +3,7 @@ title: BookmarkStart.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words pour .NET
-description: BookmarkStart GetText méthode. Renvoie une chaîne vide en C#.
+description: Découvrez la méthode BookmarkStart GetText : récupérez facilement du texte. Simplifiez votre codage et optimisez vos fonctionnalités dès aujourd'hui !
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmarkstart/gettext/
@@ -41,7 +41,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -69,7 +69,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,14 +3,14 @@ title: NodeChangingArgs.Node
 linktitle: Node
 articleTitle: Node
 second_title: Aspose.Words для .NET
-description: NodeChangingArgs Node свойство. ПолучаетNode который добавляется или удаляется на С#.
+description: Откройте для себя свойство NodeChangingArgs, чтобы легко управлять узлами, которые добавляются или удаляются в вашем приложении. Оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-Получает`Node` который добавляется или удаляется.
+Получает`Node` что добавляется или удаляется.
 
 ```csharp
 public Node Node { get; }
@@ -26,8 +26,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Установите обратный вызов изменения узла в пользовательскую реализацию,
-    // затем добавляем/удаляем узлы, чтобы создать журнал.
+    // Устанавливаем обратный вызов изменения узла для пользовательской реализации,
+    // затем добавьте/удалите узлы, чтобы сгенерировать журнал.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Регистрирует дату и время добавления и удаления каждого узла.
-/// Устанавливает имя/размер пользовательского шрифта для текстового содержимого узлов запуска.
+/// Регистрирует дату и время вставки и удаления каждого узла.
+/// Устанавливает пользовательское имя/размер шрифта для текстового содержимого узлов Run.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

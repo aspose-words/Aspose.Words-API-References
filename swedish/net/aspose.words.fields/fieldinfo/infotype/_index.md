@@ -3,14 +3,14 @@ title: FieldInfo.InfoType
 linktitle: InfoType
 articleTitle: InfoType
 second_title: Aspose.Words för .NET
-description: FieldInfo InfoType fast egendom. Hämtar eller ställer in typen av dokumentegenskap som ska infogas i C#.
+description: Upptäck hur du enkelt hanterar FieldInfo InfoType-egenskaper. Ställ in eller hämta enkelt dokumenttyper för sömlös integration i dina projekt.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldinfo/infotype/
 ---
 ## FieldInfo.InfoType property
 
-Hämtar eller ställer in typen av dokumentegenskap som ska infogas.
+Hämtar eller anger typen av dokumentegenskapen som ska infogas.
 
 ```csharp
 public string InfoType { get; set; }
@@ -24,7 +24,7 @@ Visar hur man arbetar med INFO-fält.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in ett värde för den inbyggda egenskapen "Kommentarer" och infoga sedan ett INFO-fält för att visa egenskapens värde.
+// Ange ett värde för den inbyggda egenskapen "Kommentarer" och infoga sedan ett INFO-fält för att visa egenskapens värde.
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -35,7 +35,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Ange ett värde för fältets NewValue-egenskap och uppdatering
+// Ange ett värde för fältets NewValue-egenskap och uppdatera
 // fältet kommer också att skriva över motsvarande inbyggda egenskap med det nya värdet.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

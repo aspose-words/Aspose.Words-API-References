@@ -2,8 +2,8 @@
 title: PageSetup.SectionStart
 linktitle: SectionStart
 articleTitle: SectionStart
-second_title: Aspose.Words for .NET
-description: PageSetup SectionStart mülk. Belirtilen nesne için bölüm sonu türünü döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki bölüm sonlarını kolayca yönetmek için PageSetup SectionStart özelliğini keşfedin. Biçimlendirmeyi geliştirin ve düzen denetimini bugün iyileştirin!
 type: docs
 weight: 390
 url: /tr/net/aspose.words/pagesetup/sectionstart/
@@ -25,25 +25,25 @@ Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
+// Bölüm için bazı sayfa düzeni özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu alt öğe olarak gövdeye ekleyin.
+// Bir paragraf oluştur, bazı biçimlendirme özelliklerini ayarla ve sonra onu gövdeye bir alt paragraf olarak ekle.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -51,8 +51,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
+// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir çalışma oluşturun,
+// Görünümünü ve içeriğini ayarlayın ve ardından paragrafın bir alt öğesi olarak ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -70,33 +70,33 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// Bölüm sonu türleri, yeni bir bölümün kendisini önceki bölümden nasıl ayıracağını belirler.
-// Aşağıda beş tür bölüm sonu verilmiştir.
-// 1 - Sonraki bölümü yeni bir sayfada başlatır:
+// Bölüm sonu türleri, yeni bir bölümün önceki bölümden nasıl ayrılacağını belirler.
+// Aşağıda beş tür bölüm sonu bulunmaktadır.
+// 1 - Bir sonraki bölümü yeni bir sayfada başlatır:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
 Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
 
-// 2 - Geçerli sayfada sonraki bölümü başlatır:
+// 2 - Mevcut sayfada bir sonraki bölümü başlatır:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - Sonraki bölümü yeni çift sayfada başlatır:
+// 3 - Bir sonraki bölümü yeni bir çift sayfada başlatır:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - Sonraki bölümü yeni tek sayı sayfasında başlatır:
+// 4 - Bir sonraki bölümü yeni bir tek sayfada başlatır:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
 Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
 
-// 5 - Sonraki bölümü yeni bir sütunda başlatır:
+// 5 - Bir sonraki bölümü yeni bir sütunda başlatır:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.SetCount(2);
 

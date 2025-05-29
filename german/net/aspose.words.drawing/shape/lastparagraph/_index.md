@@ -3,9 +3,9 @@ title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words für .NET
-description: Shape LastParagraph eigendom. Ruft den letzten Absatz in der Form ab in C#.
+description: Greifen Sie auf die Eigenschaft „LastParagraph“ zu, um einfach den letzten Absatz in Ihrer Form abzurufen und so das Layout und die Lesbarkeit Ihres Dokuments zu verbessern.
 type: docs
-weight: 120
+weight: 130
 url: /de/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Verschieben Sie den Dokument-Builder in die TextBox und fügen Sie Text hinzu.
+// Verschieben Sie den Dokumentgenerator in das Textfeld und fügen Sie Text hinzu.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

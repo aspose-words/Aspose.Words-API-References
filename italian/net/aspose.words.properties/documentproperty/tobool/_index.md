@@ -3,7 +3,7 @@ title: DocumentProperty.ToBool
 linktitle: ToBool
 articleTitle: ToBool
 second_title: Aspose.Words per .NET
-description: DocumentProperty ToBool metodo. Restituisce il valore della proprietà come bool in C#.
+description: Scopri il metodo DocumentProperty ToBool che converte in modo efficiente i valori delle proprietà in valori booleani per una gestione dei dati ottimale e una maggiore efficienza di codifica.
 type: docs
 weight: 60
 url: /it/net/aspose.words.properties/documentproperty/tobool/
@@ -18,11 +18,11 @@ public bool ToBool()
 
 ## Osservazioni
 
-Genera un'eccezione se il tipo di proprietà non lo èBoolean.
+Genera un'eccezione se il tipo di proprietà non èBoolean.
 
 ## Esempi
 
-Mostra vari metodi di conversione del tipo delle proprietà personalizzate del documento.
+Mostra vari metodi di conversione del tipo di proprietà di documenti personalizzati.
 
 ```csharp
 Document doc = new Document();

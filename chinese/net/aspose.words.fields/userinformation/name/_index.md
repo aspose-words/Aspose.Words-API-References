@@ -2,15 +2,15 @@
 title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: UserInformation Name 财产. 获取或设置用户名 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 UserInformation Name 属性轻松管理用户资料。轻松检索或更新用户名，增强个性化体验。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.fields/userinformation/name/
 ---
 ## UserInformation.Name property
 
-获取或设置用户名。
+获取或设置用户的名称。
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## 例子
 
-演示如何设置用户详细信息并使用字段显示它们。
+展示如何设置用户详细信息并使用字段显示它们。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 创建一个UserInformation对象，并将其设置为显示用户信息的字段的数据源。
+// 创建一个 UserInformation 对象并将其设置为显示用户信息字段的数据源。
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// 插入 USERNAME、USERINITIALS 和 USERADDRESS 字段，这些字段显示的值
-// 我们上面创建的 UserInformation 对象的相应属性。
+// 插入 USERNAME、USERINITIALS 和 USERADDRESS 字段，显示以下值
+// 我们上面创建的 UserInformation 对象的各个属性。
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// 字段选项对象还有一个静态默认用户，所有文档中的字段都可以引用。
+// 字段选项对象还具有静态默认用户，所有文档中的字段都可以引用。
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

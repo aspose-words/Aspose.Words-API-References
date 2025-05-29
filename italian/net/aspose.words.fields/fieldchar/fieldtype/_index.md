@@ -3,7 +3,7 @@ title: FieldChar.FieldType
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words per .NET
-description: FieldChar FieldType proprietà. Restituisce il tipo del campo in C#.
+description: Scopri la proprietà FieldType di FieldChar, che rivela il tipo di campo, migliorando la gestione dei dati e l'efficienza della programmazione. Scopri di più ora!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldchar/fieldtype/

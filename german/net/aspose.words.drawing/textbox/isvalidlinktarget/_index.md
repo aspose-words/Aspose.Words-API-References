@@ -3,14 +3,14 @@ title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
 second_title: Aspose.Words für .NET
-description: TextBox IsValidLinkTarget methode. Legt fest ob dies der Fall istTextBox kann mit dem Ziel verknüpft werdenTextBox  in C#.
+description: Prüfen Sie, ob Ihr Textfeld mit der Methode IsValidLinkTarget mit einem Ziel verknüpft werden kann. Verbessern Sie mühelos die Funktionalität Ihrer Benutzeroberfläche!
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Legt fest, ob dies der Fall ist[`TextBox`](../) kann mit dem Ziel verknüpft werden[`TextBox`](../) .
+Bestimmt, ob diese[`TextBox`](../) kann mit dem Ziel verknüpft werden[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -39,14 +39,14 @@ builder.Writeln();
 Shape textBoxShape4 = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox4 = textBoxShape4.TextBox;
 
-// Verknüpfungen zwischen einigen Textfeldern erstellen.
+// Erstellen Sie Links zwischen einigen Textfeldern.
 if (textBox1.IsValidLinkTarget(textBox2))
     textBox1.Next = textBox2;
 
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Nur ein leeres Textfeld darf einen Link haben.
+// Nur ein leeres Textfeld kann einen Link enthalten.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen textBox2 und textBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
+    // Unterbrechen Sie die Vorwärtsverknüpfung zwischen TextBox2 und TextBox3 und stellen Sie dann sicher, dass sie nicht mehr verknüpft sind.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

@@ -3,14 +3,14 @@ title: StyleCollection Class
 linktitle: StyleCollection
 articleTitle: StyleCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.StyleCollection klass. En samling avStyle objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument i C#.
+description: Upptäck klassen Aspose.Words.StyleCollection, som har en mängd olika inbyggda och anpassade stilobjekt för att förbättra dokumentets formatering och design.
 type: docs
-weight: 6140
+weight: 6990
 url: /sv/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-En samling av[`Style`](../style/) objekt som representerar både den inbyggda och användardefinierade stilen i ett dokument.
+En samling av[`Style`](../style/)objekt som representerar både de inbyggda och användardefinierade formaten i ett dokument.
 
 För att lära dig mer, besök[Arbeta med stilar och teman](https://docs.aspose.com/words/net/working-with-styles-and-themes/) dokumentationsartikel.
 
@@ -22,11 +22,11 @@ public class StyleCollection : IEnumerable<Style>
 
 | namn | Beskrivning |
 | --- | --- |
-| [Count](../../aspose.words/stylecollection/count/) { get; } | Hämtar antalet stilar i samlingen. |
-| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Får dokumentets standardtextformatering. |
-| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Får dokumentets standardstyckeformatering. |
+| [Count](../../aspose.words/stylecollection/count/) { get; } | Hämtar antalet stilar i kollektionen. |
+| [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Hämtar standardtextformatering för dokumentet. |
+| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Hämtar standardformatering för stycke i dokumentet. |
 | [Document](../../aspose.words/stylecollection/document/) { get; } | Hämtar ägardokumentet. |
-| [Item](../../aspose.words/stylecollection/item/) { get; } | Får en stil efter namn eller alias. (3 indexers) |
+| [Item](../../aspose.words/stylecollection/item/) { get; } | Hämtar en stil efter namn eller alias. (3 indexers) |
 
 ## Metoder
 
@@ -34,32 +34,32 @@ public class StyleCollection : IEnumerable<Style>
 | --- | --- |
 | [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Skapar en ny användardefinierad stil och lägger till den i samlingen. |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Kopierar en stil till den här samlingen. |
-| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Tar bort alla stilar från panelen Quick Style Gallery. |
-| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Hämtar ett uppräkningsobjekt som kommer att räkna upp stilar i alfabetisk ordning efter deras namn. |
+| [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Tar bort alla stilar från panelen Snabbstilsgalleri. |
+| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Hämtar ett uppräknarobjekt som räknar upp stilar i alfabetisk ordning efter deras namn. |
 
 ## Exempel
 
-Visar hur du skapar och använder ett styckeformat med listformatering.
+Visar hur man skapar och använder ett styckeformat med listformatering.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en anpassad styckestil.
+// Skapa ett anpassat styckeformat.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Skapa en lista och se till att styckena som använder den här stilen kommer att använda den här listan.
+// Skapa en lista och se till att stycken som använder den här stilen kommer att använda den här listan.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Använd styckeformatet på dokumentbyggarens nuvarande stycke och lägg sedan till lite text.
+// Använd styckeformatet på dokumentbyggarens aktuella stycke och lägg sedan till lite text.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett stycke till.
+// Ändra dokumentbyggarens stil till en som inte har någon listformatering och skriv ett annat stycke.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

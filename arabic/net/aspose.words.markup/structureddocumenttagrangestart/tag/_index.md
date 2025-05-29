@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart Tag ملكية. يحدد علامة مرتبطة بعقدة علامة المستند المنظمة الحالية. لا يمكن أن يكونباطل  في C#.
+description: اكتشف خاصية StructuredDocumentTagRangeStart لتحسين وسم المستندات. اربط الوسوم بسهولة بالعقد لتبسيط سير عملك!
 type: docs
 weight: 150
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/tag/
 ---
 ## StructuredDocumentTagRangeStart.Tag property
 
-يحدد علامة مرتبطة بعقدة علامة المستند المنظمة الحالية. لا يمكن أن يكون`باطل` .
+يحدد علامة مرتبطة بعقدة علامة المستند المنظم الحالية. لا يمكن`باطل` .
 
 ```csharp
 public string Tag { get; set; }
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## ملاحظات
 
-العلامة عبارة عن سلسلة عشوائية يمكن للتطبيقات ربطها بعلامة document المنظمة للتعرف عليها دون توفير اسم مألوف مرئي.
+العلامة عبارة عن سلسلة عشوائية يمكن للتطبيقات ربطها بعلامة document المنظمة من أجل تحديدها دون توفير اسم مألوف مرئي.
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

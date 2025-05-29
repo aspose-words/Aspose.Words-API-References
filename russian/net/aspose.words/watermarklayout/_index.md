@@ -3,9 +3,9 @@ title: WatermarkLayout Enum
 linktitle: WatermarkLayout
 articleTitle: WatermarkLayout
 second_title: Aspose.Words для .NET
-description: Aspose.Words.WatermarkLayout перечисление. Определяет расположение водяного знака относительно центра водяного знака на С#.
+description: Откройте для себя перечисление Aspose.Words.WatermarkLayout для оптимального позиционирования водяного знака. Улучшите дизайн документа с помощью точного управления макетом и настройки.
 type: docs
-weight: 6680
+weight: 7530
 url: /ru/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
@@ -20,8 +20,8 @@ public enum WatermarkLayout
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Horizontal | `0` | Горизонтальное расположение водяных знаков. Соответствует 0 градусам вращения. |
-| Diagonal | `315` | Расположение водяных знаков по диагонали. Соответствует повороту на 315 градусов. |
+| Horizontal | `0` | Горизонтальное расположение водяного знака. Соответствует 0 градусам поворота. |
+| Diagonal | `315` | Диагональное расположение водяного знака. Соответствует повороту на 315 градусов. |
 
 ## Примеры
 
@@ -30,10 +30,10 @@ public enum WatermarkLayout
 ```csharp
 Document doc = new Document();
 
-// Добавляем простой текстовый водяной знак.
+// Добавить простой текстовый водяной знак.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Если мы хотим отредактировать форматирование текста, используя его в качестве водяного знака,
+// Если мы хотим изменить форматирование текста, используя его как водяной знак,
 // мы можем сделать это, передав объект TextWatermarkOptions при создании водяного знака.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -46,7 +46,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Мы можем удалить водяной знак из документа вот так.
+// Мы можем удалить водяной знак из документа следующим образом.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

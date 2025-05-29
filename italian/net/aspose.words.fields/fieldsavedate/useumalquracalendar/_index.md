@@ -3,7 +3,7 @@ title: FieldSaveDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words per .NET
-description: FieldSaveDate UseUmAlQuraCalendar proprietà. Ottiene o imposta se utilizzare il calendario UmalQura in C#.
+description: Gestisci le tue date senza sforzo con la proprietà FieldSaveDate. Attiva facilmente il calendario UmalQura per una pianificazione e una programmazione ottimizzate.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldsavedate/useumalquracalendar/
@@ -18,7 +18,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare il campo SAVEDATE per visualizzare la data/ora dell'operazione di salvataggio più recente del documento eseguita utilizzando Microsoft Word.
+Mostra come utilizzare il campo SAVEDATE per visualizzare la data/ora dell'operazione di salvataggio più recente del documento eseguita tramite Microsoft Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,7 +27,7 @@ builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
 // Possiamo utilizzare il campo SAVEDATE per visualizzare la data e l'ora dell'ultima operazione di salvataggio sul documento.
-// L'operazione di salvataggio a cui fanno riferimento questi campi è il salvataggio manuale in un'applicazione come Microsoft Word,
+// L'operazione di salvataggio a cui si riferiscono questi campi è il salvataggio manuale in un'applicazione come Microsoft Word,
 // non il metodo Save del documento.
 // Di seguito sono riportati tre diversi tipi di calendario in base ai quali il campo SAVEDATE può visualizzare la data/ora.
 // 1 - Calendario lunare islamico:
@@ -51,7 +51,7 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// I campi SAVEDATE ricavano i valori di data/ora dalla proprietà incorporata LastSavedTime.
+// I campi SAVEDATE ricavano i loro valori di data/ora dalla proprietà integrata LastSavedTime.
 // Il metodo Save del documento non aggiornerà questo valore, ma possiamo comunque aggiornarlo manualmente.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 

@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitHeaderFooterEnd
 linktitle: VisitHeaderFooterEnd
 articleTitle: VisitHeaderFooterEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitHeaderFooterEnd 方法. 当节中页眉或页脚的枚举结束时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor VisitHeaderFooterEnd 方法，这对于有效管理文档中的页眉和页脚枚举至关重要。
 type: docs
 weight: 280
 url: /zh/net/aspose.words/documentvisitor/visitheaderfooterend/
 ---
 ## DocumentVisitor.VisitHeaderFooterEnd method
 
-当节中页眉或页脚的枚举结束时调用。
+当某一部分中的页眉或页脚枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何打印文档中每个页眉和页脚的节点结构。
+展示如何打印文档中每个页眉和页脚的节点结构。
 
 ```csharp
 public void HeaderFooterToText()
@@ -34,21 +34,21 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
     // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // 逐节访问文档页眉/页脚的另一种方法是访问集合。
+    // 逐节访问文档的页眉/页脚的另一种方法是通过访问集合。
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的 HeaderFooter 节点及其子节点的映射。
+/// 遍历节点的子节点非二叉树。
+/// 以字符串的形式创建所有遇到的 HeaderFooter 节点及其子节点的映射。
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
 {
@@ -74,7 +74,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 HeaderFooter 节点时调用。
+    /// 当在文档中遇到 HeaderFooter 节点时调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
     {
@@ -86,7 +86,7 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问 HeaderFooter 节点的所有子节点后调用。
+    /// 在访问完 HeaderFooter 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitHeaderFooterEnd(HeaderFooter headerFooter)
     {
@@ -98,9 +98,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 向 StringBuilder 添加一行，并根据访问者在文档树中的深度来缩进。
+    /// 向 StringBuilder 附加一行，并根据访问者在文档树中的深度进行缩进。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -2,8 +2,8 @@
 title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
-second_title: Aspose.Words for .NET
-description: CustomXmlPartCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: CustomXmlPartCollection oluşturucusunu keşfedin—verimli XML parça yönetimi için başvuracağınız çözüm. Varsayılan oluşturucumuzla kodlamanızı basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.markup/customxmlpartcollection/customxmlpartcollection/

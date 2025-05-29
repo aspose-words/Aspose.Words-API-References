@@ -2,10 +2,10 @@
 title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
-second_title: Aspose.Words for .NET
-description: Font TextEffect mülk. Yazı tipi animasyon efektini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Font TextEffect özelliğini kullanarak font animasyonlarını kolayca özelleştirebilir, tasarımlarınızı dinamik metin efektleriyle zenginleştirerek etkileyici bir kullanıcı deneyimi yaşayabilirsiniz.
 type: docs
-weight: 450
+weight: 460
 url: /tr/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Örnekler
 
-Bir koşuya görsel efektin nasıl uygulanacağını gösterir.
+Koşuya görsel efektin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

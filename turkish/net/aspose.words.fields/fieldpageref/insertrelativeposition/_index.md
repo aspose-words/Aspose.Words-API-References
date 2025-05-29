@@ -2,15 +2,15 @@
 title: FieldPageRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
-second_title: Aspose.Words for .NET
-description: FieldPageRef InsertRelativePosition mülk. Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldPageRef'in InsertRelativePosition özelliğinin, yer imli paragraf konumlarını etkili bir şekilde yöneterek belge gezinmesini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldpageref/insertrelativeposition/
 ---
 ## FieldPageRef.InsertRelativePosition property
 
-Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar.
+Yer imli paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool InsertRelativePosition { get; set; }
@@ -18,18 +18,18 @@ public bool InsertRelativePosition { get; set; }
 
 ## Örnekler
 
-Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
+Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesi gerektiğini gösterir.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Bir yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
-    // Alanın aynı zamanda yer işaretine tıklanabilir bir bağlantı olarak da işlev görmesini sağlamak için InsertHyperlink bayrağını ayarlayın.
+    // Yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
+    // Alanın aynı zamanda yer imine tıklanabilir bir bağlantı işlevi görmesini sağlamak için InsertHyperlink işaretini ayarlayın.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
@@ -39,11 +39,11 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 aynı sayfada ve bu alanın altında olacağından bu alanın görüntülenen sonucu "aşağıda" olacaktır.
+    // Bookmark2 aynı sayfada ve bu alanın altında olacağından, bu alanın görüntülenen sonucu "aşağıda" olacaktır.
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 farklı bir sayfada olacak, dolayısıyla alan "2. sayfada" olarak görüntülenecektir.
+    // Bookmark3 farklı bir sayfada olacağından, alan "2. sayfada" olarak görüntülenecektir.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -57,7 +57,7 @@ public void FieldPageRef()
 }
 
 /// <summary>
-/// PAGEREF alanı eklemek ve özelliklerini ayarlamak için bir belge oluşturucu kullanır.
+/// Bir PAGEREF alanı eklemek ve özelliklerini ayarlamak için bir belge oluşturucu kullanır.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {

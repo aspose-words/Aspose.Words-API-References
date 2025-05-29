@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternColor
 linktitle: ForegroundPatternColor
 articleTitle: ForegroundPatternColor
 second_title: Aspose.Words لـ .NET
-description: Shading ForegroundPatternColor ملكية. الحصول على أو تعيين اللون المطبق على مقدمة الصورةShading الكائن في C#.
+description: اكتشف خاصية Shading ForegroundPatternColor لتخصيص لون مقدمة كائن التظليل لتحسين التصميم والجاذبية البصرية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-الحصول على أو تعيين اللون المطبق على مقدمة الصورة[`Shading`](../) الكائن.
+يحصل على اللون الذي يتم تطبيقه على مقدمة الصورة أو يعينه[`Shading`](../) الكائن.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();

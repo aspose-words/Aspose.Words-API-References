@@ -3,7 +3,7 @@ title: Range.Delete
 linktitle: Delete
 articleTitle: Delete
 second_title: Aspose.Words för .NET
-description: Range Delete metod. Tar bort alla tecken i intervallet i C#.
+description: Ta effektivt bort alla tecken inom ett angivet intervall med hjälp av metoden Områdesradering. Förenkla dina textredigeringsuppgifter utan ansträngning!
 type: docs
 weight: 70
 url: /sv/net/aspose.words/range/delete/
@@ -18,21 +18,21 @@ public void Delete()
 
 ## Exempel
 
-Visar hur man tar bort alla noder från ett område.
+Visar hur man tar bort alla noder från ett intervall.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till text i det första avsnittet i dokumentet och lägg sedan till ytterligare ett avsnitt.
+// Lägg till text i det första avsnittet i dokumentet och lägg sedan till ett annat avsnitt.
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
 Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
 
-// Ta bort det första avsnittet helt genom att ta bort alla noder
-// inom sitt intervall, inklusive själva avsnittet.
+// Ta bort den första sektionen helt genom att ta bort alla noder
+// inom sitt intervall, inklusive själva sektionen.
 doc.Sections[0].Range.Delete();
 
 Assert.AreEqual(1, doc.Sections.Count);

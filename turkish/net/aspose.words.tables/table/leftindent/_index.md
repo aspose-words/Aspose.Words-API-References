@@ -2,8 +2,8 @@
 title: Table.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: Aspose.Words for .NET
-description: Table LeftIndent mülk. Tablonun sol girintisini temsil eden değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun sol girintisini kolayca özelleştirmek için Table LeftIndent özelliğini keşfedin. Daha iyi düzenler için hassas kontrolle tasarımınızı geliştirin!
 type: docs
 weight: 190
 url: /tr/net/aspose.words.tables/table/leftindent/
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Metin ve tablo görünümü için bazı biçimlendirme seçeneklerini ayarlayın.
+// Metin ve tablo görünümü için bazı biçimlendirme seçenekleri ayarlayın.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -38,9 +38,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Belge oluşturucudaki biçimlendirme seçeneklerini yapılandırmak bunları uygulayacaktır
+// Bir belge oluşturucuda biçimlendirme seçeneklerinin yapılandırılması bunları uygular
 // imlecin bulunduğu geçerli hücreye/satıra,
-// ve ayrıca bu oluşturucu kullanılarak oluşturulan yeni hücreler ve satırlar.
+// ve bu oluşturucu kullanılarak oluşturulan tüm yeni hücreler ve satırlar.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Oluşturucunun biçimlendirme nesnelerini, yapmak üzere olduğumuz yeni satırlar ve hücreler için yeniden yapılandırın.
-// Oluşturucu bunları zaten oluşturulmuş olan ilk satıra uygulamayacaktır, böylece başlık satırı olarak öne çıkacaktır.
+// Oluşturmak üzere olduğumuz yeni satırlar ve hücreler için oluşturucunun biçimlendirme nesnelerini yeniden yapılandırın.
+// Oluşturucu bunları daha önceden oluşturulmuş ilk satıra uygulamayacak, böylece bu satır başlık satırı olarak öne çıkacaktır.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

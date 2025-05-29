@@ -3,7 +3,7 @@ title: ParagraphFormat.BaselineAlignment
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat BaselineAlignment propriété. Obtient ou définit la position verticale des polices sur une ligne en C#.
+description: Optimisez la mise en page de votre texte avec la propriété ParagraphFormat BaselineAlignment, permettant un contrôle précis du positionnement vertical des polices pour une meilleure lisibilité.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/paragraphformat/baselinealignment/

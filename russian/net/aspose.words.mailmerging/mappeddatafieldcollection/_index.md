@@ -3,16 +3,16 @@ title: MappedDataFieldCollection Class
 linktitle: MappedDataFieldCollection
 articleTitle: MappedDataFieldCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection сорт. Позволяет автоматически сопоставлять имена полей в вашем источнике данных с именами полей слияния почты в документе на С#.
+description: Откройте для себя Aspose.Words.MailMerging.MappedDataFieldCollection для бесшовного сопоставления полей источника данных с полями слияния почты, улучшая автоматизацию документов.
 type: docs
-weight: 3870
+weight: 4560
 url: /ru/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-Позволяет автоматически сопоставлять имена полей в вашем источнике данных с именами полей слияния почты в документе.
+Позволяет автоматически сопоставлять имена полей в источнике данных и имена полей слияния в документе.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -23,7 +23,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Получает количество элементов, содержащихся в коллекции. |
-| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Получает или задает имя поля в источнике данных, связанном с указанным полем слияния почты. |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Возвращает или задает имя поля в источнике данных, связанного с указанным полем слияния почты. |
 
 ## Методы
 
@@ -31,18 +31,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Добавляет новое сопоставление полей. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Удаляет все элементы из коллекции. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Определяет, существует ли в коллекции сопоставление из указанного поля документа. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Определяет, существует ли в коллекции сопоставление из указанного поля в источнике данных. |
-| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Возвращает объект перечислителя словаря, который можно использовать для перебора всех элементов коллекции. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Определяет, существует ли сопоставление из указанного поля в документе в коллекции. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Определяет, существует ли сопоставление из указанного поля в источнике данных в коллекции. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Возвращает объект-перечислитель словаря, который можно использовать для перебора всех элементов в коллекции. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Удаляет сопоставление полей. |
 
 ## Примечания
 
-Это реализовано как набор строковых ключей в строковых значениях. Ключи — это имена полей слияния почты в документе, а значения — это имена полей в вашем источнике данных.
+Это реализовано как набор строковых ключей в строковые значения. Ключи — это имена полей слияния в документе, а значения — это имена полей в вашем источнике данных.
 
 ## Примеры
 
-Показывает, как сопоставить столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
+Показывает, как сопоставлять столбцы данных и поля MERGEFIELD с разными именами, чтобы данные передавались между ними во время слияния почты.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -50,24 +50,24 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // В таблице есть столбец с именем «Столбец2», но полей MERGEFIELD с таким именем нет.
-    // Кроме того, у нас есть поле MERGEFIELD с именем «Столбец3», но в источнике данных нет столбца с таким именем.
-    // Если данные из «Столбца2» подходят для поля MERGEFILD «Столбец3»,
-    // мы можем сопоставить имя этого столбца с MERGEFIELD в паре ключ/значение "MappedDataFields".
+    // В таблице есть столбец с именем «Column2», но нет MERGEFIELD с таким именем.
+    // Также у нас есть MERGEFIELD с именем "Column3", но в источнике данных нет столбца с таким именем.
+    // Если данные из "Column2" подходят для MERGEFIELD "Column3",
+    // мы можем сопоставить это имя столбца с MERGEFIELD в паре ключ/значение "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
     // Мы можем связать имя столбца источника данных с именем MERGEFIELD следующим образом.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Свяжите столбец источника данных с именем «Столбец2» с MERGEFIELD с именем «Столбец3».
+    // Свяжите столбец источника данных с именем «Column2» с MERGEFIELD с именем «Column3».
     mappedDataFields.Add("Column3", "Column2");
 
-    // Имя MERGEFIELD является «ключом» к имени соответствующего столбца источника данных «значение».
+    // Имя MERGEFIELD является «ключом» к соответствующему имени столбца источника данных «значение».
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Теперь, если мы запустим это слияние почты, поля MERGEFIELD «Столбец3» будут брать данные из «Столбца2» таблицы.
+    // Теперь, если мы запустим это слияние, поля MERGEFIELD "Column3" будут брать данные из "Column2" таблицы.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -92,7 +92,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Создадим документ с двумя MERGEFIELD, один из которых не имеет
+/// Создаем документ с 2 MERGEFIELD, один из которых не имеет
 /// соответствующий столбец в таблице данных из метода ниже.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -108,8 +108,8 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Создадим таблицу данных с двумя столбцами, один из которых не имеет
-/// соответствующее MERGEFIELD в исходном документе из метода выше.
+/// Создаем таблицу данных с 2 столбцами, один из которых не имеет
+/// соответствующий MERGEFIELD в исходном документе из метода выше.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

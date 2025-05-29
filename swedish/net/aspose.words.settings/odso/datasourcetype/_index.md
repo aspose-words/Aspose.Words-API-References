@@ -3,14 +3,14 @@ title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
 second_title: Aspose.Words för .NET
-description: Odso DataSourceType fast egendom. Anger typen av den externa datakällan som ska anslutas till som en del av ODSOanslutningsinformationen för denna koppling. Standardvärdet ärDefault  i C#.
+description: Upptäck Odso DataSourceType-egenskapen för sömlösa dokumentkopplingar. Ange enkelt externa datakällor och effektivisera ditt arbetsflöde.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Anger typen av den externa datakällan som ska anslutas till som en del av ODSO-anslutningsinformationen för denna koppling. Standardvärdet ärDefault .
+Anger typen av extern datakälla som ska anslutas till som en del av ODSO-anslutningsinformationen för den här dokumentkopplingen. Standardvärdet ärDefault .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -18,11 +18,11 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ## Anmärkningar
 
-Den här inställningen är enbart ett förslag på datakällans typ som används för den här kopplingen.
+Den här inställningen är enbart ett förslag på vilken datakälltyp som används för den här dokumentkopplingen.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

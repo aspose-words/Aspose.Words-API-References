@@ -2,15 +2,15 @@
 title: TabStopCollection.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: TabStopCollection Equals 方法. 判断是否指定TabStopCollection与当前值相等TabStopCollection 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TabStopCollection Equals 方法，轻松比较 TabStopCollections 是否相等，提高您的编码效率和准确性。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/tabstopcollection/equals/
 ---
 ## Equals(*[TabStopCollection](../)*) {#equals}
 
-判断是否指定[`TabStopCollection`](../)与当前值相等[`TabStopCollection`](../).
+确定指定的[`TabStopCollection`](../)价值与当前[`TabStopCollection`](../).
 
 ```csharp
 public bool Equals(TabStopCollection rhs)
@@ -34,18 +34,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// 每个“制表符”字符都会将构建器的光标移动到下一个制表位的位置。
+// 每个“制表符”都会将构建器的光标移动到下一个制表位的位置。
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// 每个段落都获取其制表位集合，该集合从文档构建器的制表位集合克隆其值。
+// 每个段落都会获得其制表位集合，该集合从文档构建器的制表位集合中克隆其值。
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// 制表位集合可以将我们指向某些位置之前和之后的制表位。
+// 制表位集合可以指向某些位置之前和之后的制表位。
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
@@ -91,18 +91,18 @@ Assert.AreEqual(2, tabStops.Count);
 Assert.IsFalse(tabStops[0].IsClear);
 Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
 
-// 每个“制表符”字符都会将构建器的光标移动到下一个制表位的位置。
+// 每个“制表符”都会将构建器的光标移动到下一个制表位的位置。
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// 每个段落都获取其制表位集合，该集合从文档构建器的制表位集合克隆其值。
+// 每个段落都会获得其制表位集合，该集合从文档构建器的制表位集合中克隆其值。
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// 制表位集合可以将我们指向某些位置之前和之后的制表位。
+// 制表位集合可以指向某些位置之前和之后的制表位。
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

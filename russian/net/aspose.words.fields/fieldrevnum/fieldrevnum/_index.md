@@ -3,7 +3,7 @@ title: FieldRevNum
 linktitle: FieldRevNum
 articleTitle: FieldRevNum
 second_title: Aspose.Words для .NET
-description: FieldRevNum строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldRevNum! Откройте для себя бесшовную интеграцию и эффективную функциональность с нашим конструктором по умолчанию для повышения производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldrevnum/fieldrevnum/

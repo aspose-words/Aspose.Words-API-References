@@ -3,14 +3,14 @@ title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTag StyleName propriété. Obtient ou définit le nom du style appliqué à la balise du document structuré en C#.
+description: Découvrez la propriété StyleName de StructuredDocumentTag. Gérez et personnalisez facilement les styles de vos documents pour améliorer leur organisation et leur clarté.
 type: docs
 weight: 270
 url: /fr/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-Obtient ou définit le nom du style appliqué à la balise du document structuré.
+Obtient ou définit le nom du style appliqué à la balise de document structuré.
 
 ```csharp
 public string StyleName { get; set; }
@@ -18,14 +18,14 @@ public string StyleName { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les styles pour les éléments de contrôle de contenu.
+Montre comment travailler avec des styles pour les éléments de contrôle de contenu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux manières d'appliquer un style du document à une balise de document structuré.
-// 1 - Appliquer un objet style de la collection de styles du document :
+// Vous trouverez ci-dessous deux manières d'appliquer un style du document à une balise de document structurée.
+// 1 - Appliquer un objet de style de la collection de styles du document :
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };

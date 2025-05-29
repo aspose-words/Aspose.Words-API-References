@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeVertically
 linktitle: ResizeVertically
 articleTitle: ResizeVertically
 second_title: Aspose.Words para .NET
-description: FieldIncludePicture ResizeVertically propiedad. Obtiene o establece si se debe cambiar el tamaño de la imagen verticalmente desde el origen en C#.
+description: Descubra cómo la propiedad ResizeVertically de FieldIncludePicture mejora la gestión de imágenes al permitir el cambio de tamaño vertical para una visualización óptima.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldincludepicture/resizevertically/
 ---
 ## FieldIncludePicture.ResizeVertically property
 
-Obtiene o establece si se debe cambiar el tamaño de la imagen verticalmente desde el origen.
+Obtiene o establece si se debe cambiar el tamaño de la imagen verticalmente desde la fuente.
 
 ```csharp
 public bool ResizeVertically { get; set; }
@@ -18,7 +18,7 @@ public bool ResizeVertically { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar imágenes usando los campos IMPORTAR e INCLUDEPICTURE.
+Muestra cómo insertar imágenes utilizando los campos IMPORT e INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - El campo IMPORTAR:
+// 2 - El campo IMPORTACIÓN:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

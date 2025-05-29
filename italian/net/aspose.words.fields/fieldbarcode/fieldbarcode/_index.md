@@ -3,7 +3,7 @@ title: FieldBarcode
 linktitle: FieldBarcode
 articleTitle: FieldBarcode
 second_title: Aspose.Words per .NET
-description: FieldBarcode costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FieldBarcode: la soluzione ideale per la generazione di codici a barre senza interruzioni. Sblocca l'efficienza con il nostro intuitivo costruttore predefinito!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldbarcode/fieldbarcode/

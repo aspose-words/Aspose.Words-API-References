@@ -3,16 +3,16 @@ title: StructuredDocumentTagRangeStart.IsShowingPlaceholderText
 linktitle: IsShowingPlaceholderText
 articleTitle: IsShowingPlaceholderText
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart IsShowingPlaceholderText proprietà. Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato come contenente testo segnaposto al contrario del normale contenuto di testo allinterno del tag del documento strutturato in C#.
+description: Scopri la proprietà IsShowingPlaceholderText di StructuredDocumentTagRangeStart. Gestisci facilmente testo segnaposto e non testo normale nei tuoi documenti strutturati!
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/isshowingplaceholdertext/
 ---
 ## StructuredDocumentTagRangeStart.IsShowingPlaceholderText property
 
-Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato come contenente testo segnaposto (al contrario del normale contenuto di testo all'interno del tag del documento strutturato).
+Specifica se il contenuto di questo tag del documento strutturato deve essere interpretato come contenente testo segnaposto (in contrapposizione al normale contenuto di testo all'interno del tag del documento strutturato).
 
-se impostato su`VERO` , questo stato verrà ripristinato (mostrando il testo segnaposto) all'apertura di questo documento.
+se impostato su`VERO` , questo stato verrà ripristinato (mostrando il testo segnaposto) all'apertura del documento.
 
 ```csharp
 public bool IsShowingPlaceholderText { get; set; }
@@ -20,7 +20,7 @@ public bool IsShowingPlaceholderText { get; set; }
 
 ## Esempi
 
-Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
+Mostra come ottenere le proprietà dei tag dei documenti strutturati multisezione.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

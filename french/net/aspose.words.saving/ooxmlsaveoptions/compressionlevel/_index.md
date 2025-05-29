@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words pour .NET
-description: OoxmlSaveOptions CompressionLevel propriété. Spécifie le niveau de compression utilisé pour enregistrer le document. La valeur par défaut estNormal  en C#.
+description: Découvrez la propriété OoxmlSaveOptions CompressionLevel pour optimiser l'enregistrement des documents avec des niveaux de compression personnalisables pour des performances améliorées.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -24,12 +24,12 @@ Montre comment spécifier le niveau de compression à utiliser lors de l'enregis
 Document doc = new Document(MyDir + "Big document.docx");
 
 // Lorsque nous enregistrons le document au format OOXML, nous pouvons créer un objet OoxmlSaveOptions
-// puis transmettez-le à la méthode de sauvegarde du document pour modifier la façon dont nous enregistrons le document.
-// Définissez la propriété "CompressionLevel" sur "CompressionLevel.Maximum" pour appliquer la compression la plus forte et la plus lente.
-// Définissez la propriété "CompressionLevel" sur "CompressionLevel.Normal" pour appliquer
+// puis transmettez-le à la méthode d'enregistrement du document pour modifier la façon dont nous enregistrons le document.
+// Définissez la propriété « CompressionLevel » sur « CompressionLevel.Maximum » pour appliquer la compression la plus forte et la plus lente.
+// Définissez la propriété « CompressionLevel » sur « CompressionLevel.Normal » pour appliquer
 // la compression par défaut utilisée par Aspose.Words lors de l'enregistrement des documents OOXML.
-// Définissez la propriété "CompressionLevel" sur "CompressionLevel.Fast" pour appliquer une compression plus rapide et plus faible.
-// Définissez la propriété "CompressionLevel" sur "CompressionLevel.SuperFast" pour appliquer
+// Définissez la propriété « CompressionLevel » sur « CompressionLevel.Fast » pour appliquer une compression plus rapide et plus faible.
+// Définissez la propriété « CompressionLevel » sur « CompressionLevel.SuperFast » pour appliquer
 // la compression par défaut utilisée par Microsoft Word.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;

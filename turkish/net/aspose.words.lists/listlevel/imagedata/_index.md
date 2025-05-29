@@ -2,15 +2,15 @@
 title: ListLevel.ImageData
 linktitle: ImageData
 articleTitle: ImageData
-second_title: Aspose.Words for .NET
-description: ListLevel ImageData mülk. Geçerli liste düzeyi için resim madde işareti şeklinin görüntü verilerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Mevcut liste seviyenizde resim madde işaretleri şekilleri için resim verilerine erişmek ve bunları geliştirmek için ListLevel ImageData özelliğini keşfedin. Tasarımınızı bugün geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.lists/listlevel/imagedata/
 ---
 ## ListLevel.ImageData property
 
-Geçerli liste düzeyi için resim madde işareti şeklinin görüntü verilerini döndürür.
+Mevcut liste düzeyi için resim madde işareti şeklinin resim verilerini döndürür.
 
 ```csharp
 public ImageData ImageData { get; }
@@ -18,7 +18,7 @@ public ImageData ImageData { get; }
 
 ## Notlar
 
-Bu düzey resim madde işareti döndürmeyi tanımlamıyorsa`hükümsüz` . Resimsiz madde işareti şekli için yeni resim ayarlamadan önce lütfen şunu kullanın:[`CreatePictureBullet`](../createpicturebullet/) önce yöntem.
+Bu seviye resim madde işaretini tanımlamıyorsa`hükümsüz` . Resim olmayan madde işareti şekli için yeni bir resim ayarlamadan önce lütfen şunu kullanın:[`CreatePictureBullet`](../createpicturebullet/) ilk yöntem.
 
 ### Ayrıca bakınız
 

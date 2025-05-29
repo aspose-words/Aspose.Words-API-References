@@ -2,8 +2,8 @@
 title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
-second_title: Aspose.Words for .NET
-description: ListCollection Document mülk. Sahip belgesini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Sahip belgesine kolayca erişmek ve veri yönetiminizi kolaylaştırmak için ListCollection Belge özelliğini keşfedin. Verimliliğin kilidini bugün açın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.lists/listcollection/document/

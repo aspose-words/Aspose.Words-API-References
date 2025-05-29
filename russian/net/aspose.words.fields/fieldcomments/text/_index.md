@@ -3,7 +3,7 @@ title: FieldComments.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: FieldComments Text свойство. Получает или задает текст комментариев на С#.
+description: Управляйте своими комментариями без усилий с помощью свойства FieldComments Text — легко получайте или задавайте текст комментария для улучшенного взаимодействия с пользователем.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldcomments/text/
@@ -24,10 +24,10 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Устанавливаем значение для встроенного свойства документа «Комментарии».
+// Задаем значение для встроенного свойства документа «Комментарии».
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
-// Создайте поле КОММЕНТАРИЙ для отображения значения этого встроенного свойства.
+// Создайте поле КОММЕНТАРИИ для отображения значения этого встроенного свойства.
 FieldComments field = (FieldComments)builder.InsertField(FieldType.FieldComments, true);
 field.Update();
 
@@ -35,8 +35,8 @@ Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
 // Если мы зададим значение свойства Text поля COMMENTS и обновим его, поле будет
-// перезаписываем текущее значение встроенного свойства «Комментарии» значением его свойства Text,
-// и затем отображаем новое значение.
+// перезаписать текущее значение встроенного свойства «Комментарии» значением его свойства Text,
+// а затем отобразить новое значение.
 field.Text = "My overriding comment.";
 field.Update();
 

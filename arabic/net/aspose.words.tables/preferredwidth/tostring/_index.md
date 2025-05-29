@@ -3,14 +3,14 @@ title: PreferredWidth.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words لـ .NET
-description: PreferredWidth ToString طريقة. تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن في C#.
+description: اكتشف طريقة PreferredWidth ToString، التي تولد سلسلة سهلة الاستخدام تعرض قيمة الكائن الخاص بك لتحسين الوضوح وسهولة الاستخدام.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.tables/preferredwidth/tostring/
 ---
 ## PreferredWidth.ToString method
 
-تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
+يعيد سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن.
 
 ```csharp
 public override string ToString()
@@ -26,13 +26,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // هناك طريقتان لتطبيق فئة "PreferredWidth" على خلايا الجدول.
-// 1 - قم بتعيين العرض المفضل المطلق بناءً على النقاط:
+// 1 - تعيين العرض المفضل المطلق استنادًا إلى النقاط:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - قم بتعيين العرض المفضل النسبي بناءً على النسبة المئوية لعرض الجدول:
+// 2 - تعيين عرض مفضل نسبيًا استنادًا إلى النسبة المئوية لعرض الجدول:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -40,10 +40,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// الخلية التي لم يتم تحديد العرض المفضل لها سوف تشغل بقية المساحة المتوفرة.
+// ستشغل الخلية التي ليس لها عرض مفضل محدد بقية المساحة المتوفرة.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// يقوم كل تكوين لخاصية "PreferredWidth" بإنشاء كائن جديد.
+// يؤدي كل تكوين لخاصية "PreferredWidth" إلى إنشاء كائن جديد.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.CaseCodeStyle
 linktitle: CaseCodeStyle
 articleTitle: CaseCodeStyle
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode CaseCodeStyle proprietà. Ottiene o imposta lo stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono STDEXTADD in C#.
+description: Scopri la proprietà FieldDisplayBarcode CaseCodeStyle per i codici a barre ITF14. Personalizza facilmente lo stile del tuo Case Code con opzioni valide come STDEXTADD.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fielddisplaybarcode/casecodestyle/
 ---
 ## FieldDisplayBarcode.CaseCodeStyle property
 
-Ottiene o imposta lo stile di un codice caso per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
+Ottiene o imposta lo stile di un codice a barre per il tipo di codice a barre ITF14. I valori validi sono [STD&#x7C;EXT&#x7C;ADD]
 
 ```csharp
 public string CaseCodeStyle { get; set; }

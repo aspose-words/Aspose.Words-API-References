@@ -2,10 +2,10 @@
 title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.PhysicalFontInfo 班级. 指定有关 Aspose.Words 字体引擎可用的物理字体的信息 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.PhysicalFontInfo 类，它提供有关物理字体的重要细节，以增强文档处理和设计。
 type: docs
-weight: 3030
+weight: 3460
 url: /zh/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
@@ -22,6 +22,7 @@ public class PhysicalFontInfo
 
 | 姓名 | 描述 |
 | --- | --- |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | 嵌入字体的许可权利。 |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | 字体文件的路径（如果有）。 |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | 字体的系列名称。 |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | 字体的全名。 |
@@ -29,10 +30,10 @@ public class PhysicalFontInfo
 
 ## 例子
 
-演示如何列出可用字体。
+显示如何列出可用的字体。
 
 ```csharp
-// 将 Aspose.Words 配置为从自定义文件夹获取字体，然后打印每种可用字体。
+// 配置 Aspose.Words 从自定义文件夹中获取字体，然后打印每个可用的字体。
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

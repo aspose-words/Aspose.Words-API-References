@@ -2,15 +2,15 @@
 title: MailMerge.RegionEndTag
 linktitle: RegionEndTag
 articleTitle: RegionEndTag
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge RegionEndTag 财产. 获取或设置邮件合并区域结束标记 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MailMerge RegionEndTag 属性，高效管理邮件合并区域。无缝集成标签，简化文档自动化。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.mailmerging/mailmerge/regionendtag/
 ---
 ## MailMerge.RegionEndTag property
 
-获取或设置邮件合并区域结束标记。
+获取或设置邮件合并区域结束标签。
 
 ```csharp
 public string RegionEndTag { get; set; }
@@ -18,19 +18,19 @@ public string RegionEndTag { get; set; }
 
 ## 例子
 
-演示如何创建、列出和读取邮件合并区域。
+展示如何创建、列出和阅读邮件合并区域。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// “TableStart”和“TableEnd”标签，位于 MERGEFIELD 内，
-// 表示表示邮件合并区域开始和结束的字符串。
+// “TableStart” 和 “TableEnd” 标签，位于 MERGEFIELDs 内部，
+// 表示邮件合并区域开始和结束的字符串。
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// 使用这些标记来开始和结束名为“MailMergeRegion1”的邮件合并区域，
-// 其中将包含两列的 MERGEFIELD。
+// 使用这些标签来开始和结束名为“MailMergeRegion1”的邮件合并区域，
+// 其中将包含两列的 MERGEFIELDs。
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
@@ -48,7 +48,7 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// 在现有区域中插入一个同名区域，这将使其成为父区域。
+// 在现有区域内插入一个同名区域，这将使其成为父区域。
 // 现在“Column2”字段将位于新区域内。
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");

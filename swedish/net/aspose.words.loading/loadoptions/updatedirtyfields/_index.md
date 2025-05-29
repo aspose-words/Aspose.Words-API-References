@@ -3,7 +3,7 @@ title: LoadOptions.UpdateDirtyFields
 linktitle: UpdateDirtyFields
 articleTitle: UpdateDirtyFields
 second_title: Aspose.Words för .NET
-description: LoadOptions UpdateDirtyFields fast egendom. Anger om fälten ska uppdateras medsmutsig attribut i C#.
+description: Upptäck hur egenskapen LoadOptions UpdateDirtyFields förbättrar dataintegriteten genom att selektivt uppdatera fält markerade som dirty för optimal prestanda.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -18,13 +18,13 @@ public bool UpdateDirtyFields { get; set; }
 
 ## Exempel
 
-Visar hur man använder speciella egenskaper för att uppdatera fältresultat.
+Visar hur man använder en specialegenskap för att uppdatera fältresultat.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ge dokumentets inbyggda egenskapsvärde "Author" och visa det sedan med ett fält.
+// Ange dokumentets inbyggda egenskapsvärde "Author" och visa det sedan med ett fält.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
@@ -36,18 +36,18 @@ doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Eftersom fältets värde är inaktuellt kan vi markera det som "smutsigt".
-// Detta värde kommer att förbli inaktuellt tills vi uppdaterar fältet manuellt med metoden Field.Update().
+// Eftersom fältets värde är föråldrat kan vi markera det som "smutsigt".
+// Detta värde förblir inaktuellt tills vi uppdaterar fältet manuellt med metoden Field.Update().
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
 {
     // Om vi sparar utan att anropa en uppdateringsmetod,
-    // fältet kommer att fortsätta att visa det inaktuella värdet i utdatadokumentet.
+    // fältet kommer att fortsätta visa det föråldrade värdet i utdatadokumentet.
     doc.Save(docStream, SaveFormat.Docx);
 
-    // LoadOptions-objektet har en möjlighet att uppdatera alla fält
-    // markerad som "smutsig" när dokumentet laddas.
+    // LoadOptions-objektet har ett alternativ för att uppdatera alla fält
+    // markerad som "smutsig" när dokumentet laddades.
     LoadOptions options = new LoadOptions();
     options.UpdateDirtyFields = updateDirtyFields;
     doc = new Document(docStream, options);
@@ -56,7 +56,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // Uppdatering av smutsiga fält som detta sätter automatiskt deras "IsDirty"-flagga till false.
+    // Uppdatering av smutsiga fält som detta sätter automatiskt deras "IsDirty"-flagga till falskt.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

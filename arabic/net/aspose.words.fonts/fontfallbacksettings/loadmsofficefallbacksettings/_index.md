@@ -3,14 +3,14 @@ title: FontFallbackSettings.LoadMsOfficeFallbackSettings
 linktitle: LoadMsOfficeFallbackSettings
 articleTitle: LoadMsOfficeFallbackSettings
 second_title: Aspose.Words لـ .NET
-description: FontFallbackSettings LoadMsOfficeFallbackSettings طريقة. يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word وتستخدم خطوط Microsoft Office في C#.
+description: اكتشف طريقة FontFallbackSettings LoadMsOfficeFallbackSettings لتنفيذ إعدادات احتياطية مثل Microsoft Word بسهولة مع خطوط Office لتحقيق التكامل السلس.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/loadmsofficefallbacksettings/
 ---
 ## FontFallbackSettings.LoadMsOfficeFallbackSettings method
 
-يقوم بتحميل الإعدادات الاحتياطية المحددة مسبقًا والتي تحاكي الإجراء الاحتياطي لـ Microsoft Word وتستخدم خطوط Microsoft Office.
+يقوم بتحميل إعدادات احتياطية محددة مسبقًا والتي تحاكي إعدادات Microsoft Word الاحتياطية وتستخدم خطوط Microsoft Office.
 
 ```csharp
 public void LoadMsOfficeFallbackSettings()
@@ -27,14 +27,14 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// احفظ نظام الخطوط الاحتياطية الافتراضي في مستند XML.
-// على سبيل المثال، أحد العناصر له قيمة "0C00-0C7F" للنطاق وقيمة "Vani" المقابلة لـ FallbackFonts.
-// هذا يعني أنه إذا كان الخط الذي يستخدمه بعض النص لا يحتوي على رموز لكتلة Unicode 0x0C00-0x0C7F،
-// سيستخدم المخطط الاحتياطي رموزًا من بديل الخط "Vani".
+// احفظ مخطط الخط الاحتياطي الافتراضي في مستند XML.
+// على سبيل المثال، يحتوي أحد العناصر على قيمة "0C00-0C7F" لـ Range وقيمة "Vani" المقابلة لـ FallbackFonts.
+// وهذا يعني أنه إذا كان الخط الذي يستخدمه بعض النصوص لا يحتوي على رموز لكتلة Unicode 0x0C00-0x0C7F،
+// سوف يستخدم مخطط العودة رموزًا من الخط البديل "Vani".
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.Default.xml");
 
-// يوجد أدناه نظامان احتياطيان محددان مسبقًا للخطوط يمكننا الاختيار من بينهما.
-// 1 - استخدم نظام Microsoft Office الافتراضي، وهو نفس النظام الافتراضي:
+// فيما يلي مخططان احتياطيان للخطوط محددان مسبقًا يمكننا الاختيار من بينهما.
+// 1 - استخدم مخطط Microsoft Office الافتراضي، وهو نفس المخطط الافتراضي:
 fontFallbackSettings.LoadMsOfficeFallbackSettings();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 

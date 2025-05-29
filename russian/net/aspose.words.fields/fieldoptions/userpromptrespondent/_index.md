@@ -3,14 +3,14 @@ title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
 second_title: Aspose.Words для .NET
-description: FieldOptions UserPromptRespondent свойство. Получает или задает респондента на запросы пользователя во время обновления поля на С#.
+description: Узнайте, как свойство FieldOptions UserPromptRespondent улучшает пользовательский опыт, управляя взаимодействием с респондентами во время обновления полей.
 type: docs
 weight: 220
 url: /ru/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Получает или задает респондента на запросы пользователя во время обновления поля.
+Получает или задает респонденту подсказки пользователя во время обновления поля.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,13 +18,13 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## Примечания
 
-Если значение этого свойства установлено равным`нулевой` , поля, которые требуют ответа пользователя на Promting (например,[`FieldAsk`](../../fieldask/) или[`FieldFillIn`](../../fieldfillin/)) не обновляются.
+Если значение этого свойства установлено равным`нулевой` , поля, требующие ответа пользователя на prompting (например,[`FieldAsk`](../../fieldask/) или[`FieldFillIn`](../../fieldfillin/)) не обновляются.
 
 Значение по умолчанию:`нулевой`.
 
 ## Примеры
 
-Показывает, как создать поле ASK и настроить его свойства.
+Показывает, как создать поле ASK и задать его свойства.
 
 ```csharp
 public void FieldAsk()
@@ -32,7 +32,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Размещаем поле, в котором будет размещен ответ на наше поле ASK.
+    // Размещаем поле, в которое будет помещен ответ на наше поле ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -60,7 +60,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью специального ответчика на приглашение,
+    // Мы можем изменить или переопределить ответ по умолчанию в наших полях ASK с помощью пользовательского ответчика на подсказки,
     // что произойдет во время слияния почты.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -70,7 +70,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Добавляет текст к ответу по умолчанию в поле ASK во время слияния почты.
+/// Добавляет текст к ответу по умолчанию поля ASK во время слияния почты.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

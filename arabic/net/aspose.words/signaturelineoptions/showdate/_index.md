@@ -3,14 +3,14 @@ title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words لـ .NET
-description: SignatureLineOptions ShowDate ملكية. الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
+description: اكتشف كيف تعمل خاصية ShowDate في SignatureLineOptions على تعزيز احترافية مستندك من خلال عرض تاريخ التوقيع على أسطر التوقيع.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-الحصول على أو تعيين قيمة تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
+يحصل على قيمة أو يعينها تشير إلى أن تاريخ التوقيع يظهر في سطر التوقيع. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
 
 ```csharp
 public bool ShowDate { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

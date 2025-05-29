@@ -2,15 +2,15 @@
 title: MailMerge.ExecuteWithRegionsADO
 linktitle: ExecuteWithRegionsADO
 articleTitle: ExecuteWithRegionsADO
-second_title: Aspose.Words for .NET
-description: MailMerge ExecuteWithRegionsADO yöntem. Bir ADO Recordset nesnesinden adresmektup birleştirme bölgelerine sahip belgeye adresmektup birleştirme gerçekleştirir C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge ExecuteWithRegionsADO yöntemiyle belge oluşturmanızı kolaylaştırın. Kişiselleştirilmiş sonuçlar için ADO Kayıt Kümesi verilerini zahmetsizce birleştirin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.mailmerging/mailmerge/executewithregionsado/
 ---
 ## MailMerge.ExecuteWithRegionsADO method
 
-Bir ADO Recordset nesnesinden adres-mektup birleştirme bölgelerine sahip belgeye adres-mektup birleştirme gerçekleştirir.
+ADO Kayıt Kümesi nesnesinden belgeye posta birleştirme işlemini posta birleştirme bölgeleriyle gerçekleştirir.
 
 ```csharp
 public void ExecuteWithRegionsADO(object recordset, string tableName)
@@ -19,13 +19,13 @@ public void ExecuteWithRegionsADO(object recordset, string tableName)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | recordset | Object | ADO Kayıt Kümesi veya Kayıt nesnesi. |
-| tableName | String | Doldurulacak belgedeki adres-mektup birleştirme bölgesinin adı. |
+| tableName | String | Doldurulacak belgedeki posta birleştirme bölgesinin adı. |
 
 ## Notlar
 
-Bu yöntem, Aspose.Words sınıflarını as COM nesnelerini, örneğin ASP veya Visual Basic 6.0 kullanılarak oluşturulan bir uygulama gibi yönetilmeyen koddan kullanmayı planladığınızda kullanışlıdır.
+Bu yöntem, Aspose.Words sınıflarını, yönetilmeyen koddan (örneğin, ASP veya Visual Basic 6.0 kullanılarak oluşturulmuş bir uygulama) as COM nesneleri olarak kullanmayı planladığınızda yararlıdır.
 
-Daha fazla bilgi için açıklamasına bakın[`ExecuteWithRegions`](../executewithregions/).
+Daha fazla bilgi için açıklamayı inceleyin[`ExecuteWithRegions`](../executewithregions/).
 
 ## Örnekler
 
@@ -48,31 +48,31 @@ Doc.MailMerge.ExecuteWithRegionsADO RS, "OrderDetails"
 Doc.Save "Invoice Out VBScript.doc"
 ```
 
-Bir ADO veri kümesindeki verilerle derlenen, birden çok bölgeyle adres-mektup birleştirmenin nasıl çalıştırılacağını gösterir.
+ADO veri kümesinden derlenen verilerle birden fazla bölgeyle posta birleştirmenin nasıl çalıştırılacağını gösterir.
 
 ```csharp
 public void ExecuteWithRegionsADO()
 {
     Document doc = CreateSourceDocADOMailMergeWithRegions();
 
-    // ADO DataSets ile çalışmak için Microsoft ActiveX Data Objects kütüphanesine bir referans eklememiz gerekecek,
-    // .NET dağıtımına dahil edilir ve "adodb.dll" dosyasında saklanır.
+    // ADO DataSet'lerle çalışmak için Microsoft ActiveX Data Objects kitaplığına bir başvuru eklememiz gerekecek,
+    // .NET dağıtımına dahil olan ve "adodb.dll" içinde saklanan.
     ADODB.Connection connection = new ADODB.Connection();
 
     // "Northwind" veritabanı dosyasına işaret eden bir bağlantı dizesi oluşturun
-    // yerel dosya sistemimizde bir bağlantı açın.
+    // yerel dosya sistemimizde bir bağlantı açalım.
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Veritabanımız üzerinde bir SQL komutu çalıştırarak DataSet'imizi dolduruyoruz.
-    // Sonuç tablosundaki sütunların adlarının eşleşmesi gerekecek
-    // MERGEFIELDS'in verilerimizi barındıracak değerlerine.
+    // Veritabanımızda bir SQL komutu çalıştırarak DataSet'imizi dolduralım.
+    // Sonuç tablosundaki sütunların adlarının eşleşmesi gerekecektir
+    // Verilerimizi barındıracak MERGEFIELDS değerlerine.
     string command = "SELECT FirstName, LastName, City FROM Employees";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // MERGEFIELDS'i kayıt kümesindeki verilerle doldurarak yalnızca ilk bölgede adres-mektup birleştirme çalıştırın.
+    // Sadece ilk bölgede bir posta birleştirme çalıştır ve MERGEFIELDS'ını kayıt kümesindeki verilerle doldur.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion1");
 
     // Kayıt kümesini kapatın ve başka bir SQL sorgusundan gelen verilerle yeniden açın.
@@ -81,7 +81,7 @@ public void ExecuteWithRegionsADO()
     recordset.Close();
     recordset.Open(command, connection);
 
-    // İkinci bölgede ikinci bir adres-mektup birleştirme çalıştırın ve belgeyi kaydedin.
+    // İkinci bölgede ikinci bir posta birleştirme işlemi gerçekleştirin ve belgeyi kaydedin.
     doc.MailMerge.ExecuteWithRegionsADO(recordset, "MergeRegion2");
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsADO.docx");
@@ -89,7 +89,7 @@ public void ExecuteWithRegionsADO()
 }
 
 /// <summary>
-/// İki adres-mektup birleştirme bölgesine sahip bir belge oluşturun.
+/// İki birleştirme bölgesi olan bir belge oluşturun.
 /// </summary>
 private static Document CreateSourceDocADOMailMergeWithRegions()
 {

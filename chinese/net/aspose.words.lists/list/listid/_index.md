@@ -2,8 +2,8 @@
 title: List.ListId
 linktitle: ListId
 articleTitle: ListId
-second_title: 用于 .NET 的 Aspose.Words
-description: List ListId 财产. 获取列表的唯一标识符 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索独特的 ListId 属性，轻松访问和管理您的列表。使用这个重要的标识符，简化您的工作流程。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.lists/list/listid/
@@ -18,11 +18,11 @@ public int ListId { get; }
 
 ## 评论
 
-您通常不需要使用此属性。但如果你使用它，你通常会与 so 结合使用[`GetListByListId`](../../listcollection/getlistbylistid/)方法通过标识符查找 a 列表。
+通常情况下，您不需要使用此属性。但是，如果您使用它，通常需要结合 so 和[`GetListByListId`](../../listcollection/getlistbylistid/)方法通过标识符查找 a 列表。
 
 ## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-演示如何输出文档中作为列表项的所有段落。
+展示如何输出文档中所有列表项的段落。
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

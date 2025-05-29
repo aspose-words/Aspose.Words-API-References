@@ -3,14 +3,14 @@ title: ChartAxis.TickMarkSpacing
 linktitle: TickMarkSpacing
 articleTitle: TickMarkSpacing
 second_title: Aspose.Words für .NET
-description: ChartAxis TickMarkSpacing eigendom. Ruft das Intervall ab in dem Teilstriche gezeichnet werden oder legt es fest in C#.
+description: Entdecken Sie die ChartAxis TickMarkSpacing-Eigenschaft, um die Intervalle der Teilstriche anzupassen und so die Lesbarkeit und visuelle Attraktivität Ihres Diagramms zu verbessern.
 type: docs
-weight: 270
+weight: 240
 url: /de/net/aspose.words.drawing.charts/chartaxis/tickmarkspacing/
 ---
 ## ChartAxis.TickMarkSpacing property
 
-Ruft das Intervall ab, in dem Teilstriche gezeichnet werden, oder legt es fest.
+Ruft das Intervall ab oder legt es fest, in dem Teilstriche gezeichnet werden.
 
 ```csharp
 public int TickMarkSpacing { get; set; }
@@ -18,13 +18,13 @@ public int TickMarkSpacing { get; set; }
 
 ## Bemerkungen
 
-Die Eigenschaft wirkt sich auf Textkategorie- und Serienachsen aus. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
+Die Eigenschaft wirkt sich auf Textkategorien- und Serienachsen aus. Sie wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
-Der gültige Bereich eines Werts ist größer oder gleich 1.
+Der gültige Wertebereich ist größer oder gleich 1.
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -51,10 +51,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -64,7 +66,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

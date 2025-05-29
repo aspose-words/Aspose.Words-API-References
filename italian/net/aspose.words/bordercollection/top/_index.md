@@ -3,7 +3,7 @@ title: BorderCollection.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words per .NET
-description: BorderCollection Top proprietà. Ottiene il bordo superiore in C#.
+description: Scopri BorderCollection, la soluzione ideale per splendide bordure che valorizzano il tuo design. Valorizza i tuoi progetti con le nostre offerte uniche!
 type: docs
 weight: 120
 url: /it/net/aspose.words/bordercollection/top/
@@ -18,7 +18,7 @@ public Border Top { get; }
 
 ## Esempi
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

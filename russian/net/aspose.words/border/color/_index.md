@@ -3,7 +3,7 @@ title: Border.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words для .NET
-description: Border Color свойство. Получает или задает цвет границы на С#.
+description: Легко настраивайте свои проекты с помощью свойства «Цвет границы», позволяющего вам устанавливать и изменять цвета границ для создания потрясающего визуального эффекта.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/border/color/

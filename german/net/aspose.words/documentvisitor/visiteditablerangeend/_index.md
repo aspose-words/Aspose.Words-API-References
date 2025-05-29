@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitEditableRangeEnd
 linktitle: VisitEditableRangeEnd
 articleTitle: VisitEditableRangeEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitEditableRangeEnd methode. Wird aufgerufen wenn im Dokument das Ende eines bearbeitbaren Bereichs erreicht wird in C#.
+description: Entdecken Sie die DocumentVisitor-Methode VisitEditableRangeEnd – handhaben Sie editierbare Bereichsenden in Ihren Dokumenten effizient für nahtlose Bearbeitung und erweiterte Funktionalität.
 type: docs
 weight: 160
 url: /de/net/aspose.words/documentvisitor/visiteditablerangeend/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRang
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -67,7 +67,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Wir wollen den Inhalt von Läufen drucken, aber nur, wenn sie sich innerhalb von Formen befinden, wie es im Fall von Textfeldern der Fall wäre
+        // Wir möchten den Inhalt von Läufen drucken, aber nur, wenn sie sich innerhalb von Formen befinden, wie dies bei Textfeldern der Fall wäre
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -87,7 +87,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines EditableRange-Knotens beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines EditableRange-Knotens beendet ist.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -99,7 +99,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

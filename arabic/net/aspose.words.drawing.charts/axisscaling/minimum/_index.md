@@ -3,14 +3,14 @@ title: AxisScaling.Minimum
 linktitle: Minimum
 articleTitle: Minimum
 second_title: Aspose.Words لـ .NET
-description: AxisScaling Minimum ملكية. الحصول على أو تعيين الحد الأدنى لقيمة المحور في C#.
+description: اكتشف خاصية الحد الأدنى لـ AxisScaling لتعيين الحد الأدنى لقيمة المحور وتخصيصه بسهولة لتحسين تصور البيانات.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing.charts/axisscaling/minimum/
 ---
 ## AxisScaling.Minimum property
 
-الحصول على أو تعيين الحد الأدنى لقيمة المحور.
+يحصل على الحد الأدنى لقيمة المحور أو يعينها.
 
 ```csharp
 public AxisBound Minimum { get; set; }
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت لمحور X، والقيم العشرية المقابلة لمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -43,12 +43,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// تعيين الحدود الدنيا والعليا للمحور السيني.
+// تعيين الحدود الدنيا والعليا لمحور X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
+// قم بتعيين الوحدات الرئيسية للمحور X إلى أسبوع، والوحدات الثانوية إلى يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -57,9 +57,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// تحديد خصائص المحور ص للقيم العشرية.
+// قم بتحديد خصائص المحور Y للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

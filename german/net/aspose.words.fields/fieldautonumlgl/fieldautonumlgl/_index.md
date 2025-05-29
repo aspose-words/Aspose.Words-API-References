@@ -3,7 +3,7 @@ title: FieldAutoNumLgl
 linktitle: FieldAutoNumLgl
 articleTitle: FieldAutoNumLgl
 second_title: Aspose.Words für .NET
-description: FieldAutoNumLgl constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldAutoNumLgl-Konstruktor – Ihre Lösung für nahtlose automatische Nummerierung. Steigern Sie Ihre Programmiereffizienz mit unserem intuitiven Standardkonstruktor!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldautonumlgl/fieldautonumlgl/

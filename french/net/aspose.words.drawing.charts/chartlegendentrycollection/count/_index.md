@@ -3,7 +3,7 @@ title: ChartLegendEntryCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: ChartLegendEntryCollection Count propriété. Renvoie le nombre deChartLegendEntry dans cette collection en C#.
+description: Découvrez la propriété Count de ChartLegendEntryCollection, qui fournit le nombre total d'entrées, améliorant ainsi la visualisation des données de votre graphique.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartlegendentrycollection/count/

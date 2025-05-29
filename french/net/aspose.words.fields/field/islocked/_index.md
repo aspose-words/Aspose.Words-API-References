@@ -3,7 +3,7 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words pour .NET
-description: Field IsLocked propriété. Obtient ou définit si le champ est verrouillé ne doit pas recalculer son résultat en C#.
+description: Découvrez la propriété IsLocked pour les champs : contrôlez les recalculs et améliorez l'intégrité des données. Bénéficiez d'une gestion efficace de vos données dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/field/islocked/
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Récupère l'objet façade qui représente le champ dans le document.
+// Récupérer l'objet de façade qui représente le champ dans le document.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Mettez à jour le champ pour afficher la date actuelle.
+// Mettre à jour le champ pour afficher la date actuelle.
 field.Update();
 ```
 

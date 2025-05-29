@@ -3,14 +3,14 @@ title: FieldInclude.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words für .NET
-description: FieldInclude BookmarkName eigendom. Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft „FieldInclude BookmarkName“ Lesezeichen in Ihren Dokumenten einfach verwalten und so für mehr Organisation und Effizienz sorgen.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldinclude/bookmarkname/
 ---
 ## FieldInclude.BookmarkName property
 
-Ruft den Namen des Lesezeichens im Dokument ab oder legt diesen fest.
+Ruft den Namen des einzuschließenden Lesezeichens im Dokument ab oder legt ihn fest.
 
 ```csharp
 public string BookmarkName { get; set; }

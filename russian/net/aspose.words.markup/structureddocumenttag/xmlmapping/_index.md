@@ -3,14 +3,14 @@ title: StructuredDocumentTag.XmlMapping
 linktitle: XmlMapping
 articleTitle: XmlMapping
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag XmlMapping свойство. Получает объект который представляет сопоставление этого тега структурированного документа с XMLданными в пользовательской части XML текущего документа на С#.
+description: Узнайте, как свойство StructuredDocumentTag XmlMapping связывает ваши теги с XML-данными, улучшая настройку и интеграцию документов для обеспечения бесперебойных рабочих процессов.
 type: docs
 weight: 320
 url: /ru/net/aspose.words.markup/structureddocumenttag/xmlmapping/
 ---
 ## StructuredDocumentTag.XmlMapping property
 
-Получает объект, который представляет сопоставление этого тега структурированного документа с XML-данными в пользовательской части XML текущего документа.
+Получает объект, представляющий сопоставление этого структурированного тега документа с XML-данными в пользовательской XML-части текущего документа.
 
 ```csharp
 public XmlMapping XmlMapping { get; }
@@ -18,18 +18,18 @@ public XmlMapping XmlMapping { get; }
 
 ## Примечания
 
-Вы можете использовать[`SetMapping`](../../xmlmapping/setmapping/) метод этого объекта для сопоставления тега структурированного документа с данными XML.
+Вы можете использовать[`SetMapping`](../../xmlmapping/setmapping/) метод этого объекта для сопоставления структурированного тега документа с данными XML.
 
 ## Примеры
 
-Показывает, как создать тег структурированного документа с пользовательскими данными XML.
+Показывает, как создать структурированный тег документа с пользовательскими XML-данными.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем часть XML, содержащую данные, и добавляем ее в коллекцию документа.
 // Если мы включим вкладку «Разработчик» в Microsoft Word,
-// мы можем найти элементы из этой коллекции в «Панели сопоставления XML» вместе с несколькими элементами по умолчанию.
+// мы можем найти элементы из этой коллекции в «Панели сопоставления XML», а также несколько элементов по умолчанию.
 string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello world!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
@@ -37,24 +37,24 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 Assert.AreEqual(Encoding.ASCII.GetBytes(xmlPartContent), xmlPart.Data);
 Assert.AreEqual(xmlPartId, xmlPart.Id);
 
-// Ниже приведены два способа обращения к частям XML.
-// 1 - По индексу в пользовательской коллекции частей XML:
+// Ниже приведены два способа ссылки на части XML.
+// 1 — По индексу в коллекции пользовательских частей XML:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts[0]);
 
 // 2 - По GUID:
 Assert.AreEqual(xmlPart, doc.CustomXmlParts.GetById(xmlPartId));
 
-// Добавляем ассоциацию схемы XML.
+// Добавить ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем часть и затем вставляем ее в коллекцию.
+// Клонируем часть, а затем вставляем ее в коллекцию.
 CustomXmlPart xmlPartClone = xmlPart.Clone();
 xmlPartClone.Id = Guid.NewGuid().ToString("B");
 doc.CustomXmlParts.Add(xmlPartClone);
 
 Assert.AreEqual(2, doc.CustomXmlParts.Count);
 
-// Перебираем коллекцию и печатаем содержимое каждой части.
+// Проходим по коллекции и выводим содержимое каждой части.
 using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator())
 {
     int index = 0;
@@ -66,12 +66,12 @@ using (IEnumerator<CustomXmlPart> enumerator = doc.CustomXmlParts.GetEnumerator(
     }
 }
 
-// Используйте метод «RemoveAt», чтобы удалить клонированную часть по индексу.
+// Используйте метод «RemoveAt» для удаления клонированной части по индексу.
 doc.CustomXmlParts.RemoveAt(1);
 
 Assert.AreEqual(1, doc.CustomXmlParts.Count);
 
-// Клонировать коллекцию частей XML, а затем использовать метод «Очистить», чтобы удалить сразу все ее элементы.
+// Клонируем коллекцию частей XML, а затем используем метод «Очистить», чтобы удалить все ее элементы одновременно.
 CustomXmlPartCollection customXmlParts = doc.CustomXmlParts.Clone();
 customXmlParts.Clear();
 

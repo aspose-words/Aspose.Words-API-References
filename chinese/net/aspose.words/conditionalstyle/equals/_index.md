@@ -2,8 +2,8 @@
 title: ConditionalStyle.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: ConditionalStyle Equals 方法. 将此条件样式与指定对象进行比较 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ConditionalStyle Equals 方法如何有效地比较样式，从而确保项目条件格式的精确性。提升您的编码效率！
 type: docs
 weight: 110
 url: /zh/net/aspose.words/conditionalstyle/equals/

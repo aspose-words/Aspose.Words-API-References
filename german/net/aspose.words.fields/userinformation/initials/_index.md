@@ -3,14 +3,14 @@ title: UserInformation.Initials
 linktitle: Initials
 articleTitle: Initials
 second_title: Aspose.Words für .NET
-description: UserInformation Initials eigendom. Ruft die Initialen des Benutzers ab oder legt diese fest in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft „UserInformation Initials“ Benutzerinitialen einfach verwalten und anpassen und so die Personalisierung und das Benutzererlebnis verbessern können.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/userinformation/initials/
 ---
 ## UserInformation.Initials property
 
-Ruft die Initialen des Benutzers ab oder legt diese fest.
+Ruft die Initialen des Benutzers ab oder legt sie fest.
 
 ```csharp
 public string Initials { get; set; }
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Felder USERNAME, USERINITIALS und USERADDRESS einfügen, die Werte von anzeigen
- // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
+// Fügen Sie die Felder USERNAME, USERINITIALS und USERADDRESS ein, die Werte von
+    // die jeweiligen Eigenschaften des UserInformation-Objekts, das wir oben erstellt haben.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Das Feldoptionsobjekt verfügt außerdem über einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
+// Das Feldoptionenobjekt hat auch einen statischen Standardbenutzer, auf den Felder aus allen Dokumenten verweisen können.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

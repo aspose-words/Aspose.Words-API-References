@@ -3,14 +3,14 @@ title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
 second_title: Aspose.Words per .NET
-description: DocumentBase BackgroundShape proprietà. Ottiene o imposta la forma dello sfondo del documento. Può esserenullo  in C#.
+description: Scopri la proprietà BackgroundShape di DocumentBase e personalizza facilmente la forma dello sfondo del tuo documento per un impatto visivo ancora maggiore. Sfrutta al massimo il tuo potenziale di design!
 type: docs
 weight: 10
 url: /it/net/aspose.words/documentbase/backgroundshape/
 ---
 ## DocumentBase.BackgroundShape property
 
-Ottiene o imposta la forma dello sfondo del documento. Può essere`nullo` .
+Ottiene o imposta la forma dello sfondo del documento. Può essere`null` .
 
 ```csharp
 public Shape BackgroundShape { get; set; }
@@ -18,11 +18,11 @@ public Shape BackgroundShape { get; set; }
 
 ## Osservazioni
 
-Microsoft Word consente solo una forma che abbia la sua[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) proprietà uguale aRectangle da utilizzare come forma di sfondo per un documento.
+Microsoft Word consente solo una forma che ha il suo[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) proprietà equal aRectangle da utilizzare come forma di sfondo per un documento.
 
 Microsoft Word supporta solo le proprietà di riempimento di una forma di sfondo. Tutte le altre proprietà vengono ignorate.
 
-Impostando questa proprietà su un valore non nullo verrà impostato anche il file[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) A`VERO`.
+Impostando questa proprietà su un valore non nullo verrà anche impostata la[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) A`VERO`.
 
 ## Esempi
 
@@ -33,10 +33,10 @@ Document doc = new Document();
 
 Assert.IsNull(doc.BackgroundShape);
 
-// L'unico tipo di forma che possiamo utilizzare come sfondo è un rettangolo.
+// L'unico tipo di forma che possiamo usare come sfondo è un rettangolo.
 Shape shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 
-// Esistono due modi per utilizzare questa forma come sfondo della pagina.
+// Esistono due modi per utilizzare questa forma come sfondo di una pagina.
 // 1 - Un colore piatto:
 shapeRectangle.FillColor = System.Drawing.Color.LightBlue;
 doc.BackgroundShape = shapeRectangle;
@@ -61,7 +61,7 @@ Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSave
 };
 
 // Microsoft Word non supporta forme con immagini come sfondi,
-// ma possiamo ancora vedere questi sfondi in altri formati di salvataggio come .pdf.
+// ma possiamo comunque vedere questi sfondi in altri formati di salvataggio come .pdf.
 doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 

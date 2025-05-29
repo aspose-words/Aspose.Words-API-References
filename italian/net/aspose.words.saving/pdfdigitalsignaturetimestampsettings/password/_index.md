@@ -3,14 +3,14 @@ title: PdfDigitalSignatureTimestampSettings.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words per .NET
-description: PdfDigitalSignatureTimestampSettings Password proprietà. Password del server con timestamp in C#.
+description: Proteggi i tuoi documenti PDF con PdfDigitalSignatureTimestampSettings. Gestisci facilmente le password del server di marcatura temporale per una maggiore protezione e conformità.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/password/
 ---
 ## PdfDigitalSignatureTimestampSettings.Password property
 
-Password del server con timestamp.
+Password del server di marcatura temporale.
 
 ```csharp
 public string Password { get; set; }
@@ -18,38 +18,38 @@ public string Password { get; set; }
 
 ## Osservazioni
 
-Il valore predefinito è`nullo` .
+Il valore predefinito è`null` .
 
 ## Esempi
 
-Mostra come firmare digitalmente un documento PDF salvato e contrassegnarlo con data e ora.
+Mostra come firmare digitalmente un documento PDF salvato e apporre una marca temporale.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Crea una firma digitale e assegnala al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
+// Creiamo una firma digitale e assegniamola al nostro oggetto SaveOptions per firmare il documento quando lo salviamo in PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// Crea un timestamp verificato dall'autorità di timestamp.
+// Crea un timestamp verificato dall'autorità.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword");
 
 // La durata predefinita del timestamp è 100 secondi.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// Possiamo impostare il nostro periodo di timeout tramite il costruttore.
+// Possiamo impostare il periodo di timeout tramite il costruttore.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr", "JohnDoe", "MyPassword", TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr", options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
+Assert.AreEqual("https://freetsa.org/tsr", opzioni.Dettagli della firma digitale.Impostazioni timestamp.Url del server);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 

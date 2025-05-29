@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words для .NET
-description: FieldMergingArgsBase FieldName свойство. Получает имя поля слияния в источнике данных на С#.
+description: Откройте для себя свойство FieldName объекта FieldMergingArgsBase, которое извлекает имя поля слияния из источника данных для бесшовной интеграции.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -18,13 +18,13 @@ public string FieldName { get; }
 
 ## Примечания
 
-Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, , то это имя сопоставленного поля.
+Если у вас есть сопоставление имени поля документа с другим именем поля источника данных, , то это будет сопоставленное имя поля.
 
-Если вы указали префикс имени поля, например «Image:MyFieldName» в документе, , то`FieldName` возвращает имя поля без префикса, то есть «MyFieldName».
+Если вы указали префикс имени поля, например, «Image:MyFieldName» в документе, , то`FieldName` возвращает имя поля без префикса, то есть «MyFieldName».
 
 ## Примеры
 
-Показывает, как вставлять поля формы флажка в поля MERGEFIELD в качестве данных слияния во время слияния почты.
+Показывает, как вставлять поля формы с флажками в MERGEFIELD в качестве данных слияния во время слияния почты.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,8 +32,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте поля MERGEFIELD с тегами "TableStart"/"TableEnd" для определения региона слияния почты.
-    // который принадлежит источнику данных с именем «StudentCourse» и имеет поле MERGEFIELD, которое принимает данные из столбца с именем «CourseName».
+    // Используйте MERGEFIELD с тегами "TableStart"/"TableEnd" для определения области слияния почты
+    // который принадлежит источнику данных с именем «StudentCourse» и имеет MERGEFIELD, который принимает данные из столбца с именем «CourseName».
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -71,7 +71,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // В этом случае для каждого индекса записи «n» соответствующее значение поля — «Курс n».
+            // В этом случае для каждого индекса записи 'n' соответствующее значение поля — «Курс n».
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -88,7 +88,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 }
 
 /// <summary>
-/// Создает источник данных слияния почты.
+/// Создает источник данных для слияния почты.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

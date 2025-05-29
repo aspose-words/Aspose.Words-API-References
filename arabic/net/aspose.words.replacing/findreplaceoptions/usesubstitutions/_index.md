@@ -3,14 +3,14 @@ title: FindReplaceOptions.UseSubstitutions
 linktitle: UseSubstitutions
 articleTitle: UseSubstitutions
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions UseSubstitutions ملكية. الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية UseSubstitutions في FindReplaceOptions. فعّل الاستبدالات بسهولة في أنماط الاستبدال لتحسين مرونة تحرير النصوص.
 type: docs
-weight: 180
+weight: 190
 url: /ar/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
 
-الحصول على قيمة منطقية أو تعيينها تشير إلى ما إذا كان سيتم التعرف على البدائل واستخدامها ضمن أنماط الاستبدال. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى ما إذا كان سيتم التعرف على الاستبدالات واستخدامها داخل أنماط الاستبدال. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool UseSubstitutions { get; set; }
@@ -18,11 +18,11 @@ public bool UseSubstitutions { get; set; }
 
 ## ملاحظات
 
-للحصول على تفاصيل حول العناصر البديلة، يرجى الرجوع إلى: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+للحصول على تفاصيل حول عناصر الاستبدال، يرجى الرجوع إلى: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ## أمثلة
 
-يوضح كيفية التعرف على البدائل واستخدامها ضمن أنماط الاستبدال.
+يوضح كيفية التعرف على الاستبدالات واستخدامها ضمن أنماط الاستبدال.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// استخدام الوضع القديم لا يدعم العديد من الميزات المتقدمة، لذا نحتاج إلى ضبطه على "خطأ".
+// إن استخدام الوضع القديم لا يدعم العديد من الميزات المتقدمة، لذا نحتاج إلى تعيينه على "خطأ".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -52,12 +52,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("John sold a car to Paul.");
 builder.Writeln("Jane sold a house to Joe.");
 
-// يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+// يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط خاصية "UseSubstitutions" على "صحيح" للحصول عليها
-// عملية البحث والاستبدال للتعرف على العناصر البديلة.
-// اضبط خاصية "UseSubstitutions" على "خطأ" لتجاهل العناصر البديلة.
+// اضبط خاصية "UseSubstitutions" على "true" للحصول على
+// عملية البحث والاستبدال للتعرف على عناصر الاستبدال.
+// قم بضبط خاصية "UseSubstitutions" على "false" لتجاهل عناصر الاستبدال.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

@@ -3,14 +3,14 @@ title: ImageData.Save
 linktitle: Save
 articleTitle: Save
 second_title: Aspose.Words لـ .NET
-description: ImageData Save طريقة. يحفظ الصورة في الدفق المحدد في C#.
+description: احفظ الصور بسهولة باستخدام طريقة حفظ ImageData. بسّط سير عملك بتخزين الصور مباشرةً في المسار الذي اخترته بسهولة.
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.words.drawing/imagedata/save/
 ---
 ## Save(*Stream*) {#save}
 
-يحفظ الصورة في الدفق المحدد.
+يحفظ الصورة في التدفق المحدد.
 
 ```csharp
 public void Save(Stream stream)
@@ -18,39 +18,29 @@ public void Save(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي سيتم حفظ الصورة فيه. |
+| stream | Stream | المكان الذي تريد حفظ الصورة فيه. |
 
 ## ملاحظات
 
-هل تقع على عاتق المتصل مسؤولية التخلص من كائن الدفق.
+هل تقع على عاتق المتصل مسؤولية التخلص من كائن التدفق؟
 
 ## أمثلة
 
-يوضح كيفية حفظ جميع الصور من مستند إلى نظام الملفات.
+يوضح كيفية حفظ كافة الصور من مستند إلى نظام الملفات.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
-// الأشكال ذات مجموعة العلامات "HasImage" تخزن جميع صور المستند وتعرضها.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+// الأشكال التي تحمل علامة "HasImage" تخزن وتعرض كافة صور المستند.
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
-// تصفح كل شكل واحفظ صورته.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+// قم بالمرور على كل شكل وحفظ صورته.
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 
@@ -72,7 +62,7 @@ public void Save(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف الذي سيتم حفظ الصورة فيه. |
+| fileName | String | اسم الملف الذي تريد حفظ الصورة فيه. |
 
 ## أمثلة
 
@@ -81,8 +71,8 @@ public void Save(string fileName)
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// احصل على مجموعة الأشكال من المستند،
-// وحفظ بيانات الصورة لكل شكل مع صورة كملف في نظام الملفات المحلي.
+// الحصول على مجموعة الأشكال من المستند،
+// وحفظ بيانات الصورة لكل شكل مع الصورة كملف في نظام الملفات المحلي.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -92,8 +82,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // قد تحتوي بيانات صورة الأشكال على صور للعديد من تنسيقات الصور الممكنة.
-        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، بناءً على تنسيقها.
+         // قد تحتوي بيانات الصورة الخاصة بالأشكال على صور بتنسيقات صور متعددة محتملة.
+        // يمكننا تحديد امتداد الملف لكل صورة تلقائيًا، استنادًا إلى تنسيقها.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

@@ -3,14 +3,14 @@ title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.ExportFontFormat تعداد. يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء العرض إلى تنسيق HTML ثابت في C#.
+description: اكتشف Aspose.Words.Saving.ExportFontFormat enum لتصدير مثالي للخطوط عند عرضها بتنسيق HTML ثابت. حسّن جودة عرض مستندك!
 type: docs
-weight: 4990
+weight: 5740
 url: /ar/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء العرض إلى تنسيق HTML ثابت.
+يشير إلى التنسيق المستخدم لتصدير الخطوط أثناء العرض بتنسيق HTML ثابت.
 
 ```csharp
 public enum ExportFontFormat
@@ -21,7 +21,7 @@ public enum ExportFontFormat
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Woff | `0` | WOFF (تنسيق الخط المفتوح على الويب). |
-| Ttf | `1` | TTF (تنسيق خط TrueType). |
+| Ttf | `1` | TTF (تنسيق الخط TrueType). |
 
 ## أمثلة
 

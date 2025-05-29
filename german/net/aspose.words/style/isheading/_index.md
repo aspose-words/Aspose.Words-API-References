@@ -3,14 +3,14 @@ title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words für .NET
-description: Style IsHeading eigendom. True wenn der Stil einer der integrierten Überschriftenstile ist in C#.
+description: Entdecken Sie die IsHeading-Eigenschaft. Erkennen Sie mühelos, ob es sich bei einem Stil um einen integrierten Überschriftenstil handelt, und verbessern Sie so die Struktur und Lesbarkeit Ihres Dokuments.
 type: docs
 weight: 70
 url: /de/net/aspose.words/style/isheading/
 ---
 ## Style.IsHeading property
 
-True, wenn der Stil einer der integrierten Überschriftenstile ist.
+Wahr, wenn der Stil einer der integrierten Überschriftenstile ist.
 
 ```csharp
 public bool IsHeading { get; }

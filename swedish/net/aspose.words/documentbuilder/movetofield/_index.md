@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToField
 linktitle: MoveToField
 articleTitle: MoveToField
 second_title: Aspose.Words för .NET
-description: DocumentBuilder MoveToField metod. Flyttar markören till ett fält i dokumentet i C#.
+description: Navigera enkelt i dina dokument med DocumentBuilder MoveToField-metoden, vilket möjliggör snabb markörförflyttning till valfritt fält för förbättrad redigeringseffektivitet.
 type: docs
-weight: 530
+weight: 570
 url: /sv/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,29 +19,29 @@ public void MoveToField(Field field, bool isAfter)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | field | Field | Fältet att flytta markören till. |
-| isAfter | Boolean | När`Sann` , flyttar markören så att den hamnar efter fältets slut. When`falsk`, flyttar markören till att vara före fältstarten. |
+| isAfter | Boolean | När`sann` , flyttar markören så att den är efter fältets slut. När`falsk`, flyttar markören så att den är före fältets början. |
 
 ## Exempel
 
-Visar hur man flyttar markören för en dokumentbyggares nodinsättningspunkt till ett specifikt fält.
+Visar hur man flyttar en dokumentbyggares nodinsättningspunktsmarkör till ett specifikt fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett fält med DocumentBuilder och lägg till en serie text efter det.
+// Infoga ett fält med hjälp av DocumentBuilder och lägg till en textsekvens efter det.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
-// Byggarens markör är för närvarande i slutet av dokumentet.
+// Skaparens markör är för närvarande i slutet av dokumentet.
 Assert.Null(builder.CurrentNode);
 
-// Flytta markören till fältet samtidigt som du anger om markören ska placeras före eller efter fältet.
+// Flytta markören till fältet medan du anger om markören ska placeras före eller efter fältet.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
 // Observera att markören är utanför fältet i båda fallen.
-// Det betyder att vi inte kan redigera fältet med hjälp av byggaren så här.
+// Det här betyder att vi inte kan redigera fältet med hjälp av verktyget så här.
 // För att redigera ett fält kan vi använda byggarens MoveTo-metod på ett fälts FieldStart
-// eller FieldSeparator-noden för att placera markören inuti.
+// eller FieldSeparator-nod för att placera markören inuti.
 if (moveCursorToAfterTheField)
 {
     Assert.Null(builder.CurrentNode);

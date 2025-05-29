@@ -3,7 +3,7 @@ title: DigitalSignature.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words per .NET
-description: DigitalSignature SignTime proprietà. Ottiene lora in cui è stato firmato il documento in C#.
+description: Scopri DigitalSignature SignTime. Traccia l'ora esatta in cui i tuoi documenti vengono firmati per una maggiore sicurezza e una conservazione efficiente dei dati.
 type: docs
 weight: 70
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/signtime/
@@ -18,7 +18,7 @@ public DateTime SignTime { get; }
 
 ## Esempi
 
-Mostra come convalidare e visualizzare informazioni su ciascuna firma in un documento.
+Mostra come convalidare e visualizzare le informazioni su ciascuna firma in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -26,7 +26,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");

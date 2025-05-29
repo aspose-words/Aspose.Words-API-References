@@ -3,7 +3,7 @@ title: ImageSaveOptions.GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
 second_title: Aspose.Words لـ .NET
-description: ImageSaveOptions GraphicsQualityOptions ملكية. يسمح بتحديد وضع العرض والجودة لـGraphics الكائن في C#.
+description: قم بتحسين الرسومات لديك باستخدام خاصية GraphicsQualityOptions في ImageSaveOptions، مما يتيح لك الحصول على أوضاع عرض دقيقة وجودة فائقة للحصول على صور مذهلة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
@@ -18,9 +18,9 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 ## ملاحظات
 
-استخدم هذه الخاصية لتجاوز إعدادات الرسومات التي يوفرها محرك Aspose.Words افتراضيًا.
+استخدم هذه الخاصية لتجاوز إعدادات الرسومات التي يوفرها محرك Aspose.Words بشكل افتراضي.
 
-ولن يسري مفعوله إلا عند حفظ المستند بتنسيق يشبه الصورة.
+سيتم تطبيقه فقط عند حفظ المستند بتنسيق يشبه الصورة.
 
 ## أمثلة
 

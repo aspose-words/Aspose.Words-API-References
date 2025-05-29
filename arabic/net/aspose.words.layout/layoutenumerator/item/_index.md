@@ -3,14 +3,14 @@ title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: LayoutEnumerator Item ملكية. الحصول على خاصية مسماة للكيان في C#.
+description: اكتشف خاصية عنصر LayoutEnumerator للوصول إلى خصائص الكيان المسماة بسهولة، مما يعزز إدارة البيانات وكفاءة سير العمل.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.layout/layoutenumerator/item/
 ---
 ## LayoutEnumerator indexer
 
-الحصول على خاصية مسماة للكيان.
+يحصل على خاصية مسماة للكيان.
 
 ```csharp
 public object this[string key] { get; }
@@ -22,11 +22,11 @@ public object this[string key] { get; }
 
 ### قيمة الإرجاع
 
-لاغ إذا كان العقار غير متوفر، وإلا قيمة العقار.
+لا شيء إذا لم تكن الخاصية متاحة، وإلا قيمة الخاصية.
 
 ## ملاحظات
 
-يُستخدم هذا حاليًا للحصول على خصائص الخط ذات الامتدادات. انظر[`Font`](../../../aspose.words/font/) فئة لأسماء الخصائص المحتملة. ليست كل الخصائص مدعومة.
+يتم استخدام هذا حاليًا للحصول على خصائص الخط الخاصة بـ spans. راجع[`Font`](../../../aspose.words/font/) فئة لأسماء الخصائص الممكنة. ليست جميع الخصائص مدعومة.
 
 ### أنظر أيضا
 

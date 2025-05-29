@@ -3,9 +3,9 @@ title: IFieldUpdatingCallback Interface
 linktitle: IFieldUpdatingCallback
 articleTitle: IFieldUpdatingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.IFieldUpdatingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie möchten dass während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufgerufen werden in C#.
+description: Passen Sie Feldaktualisierungen in Aspose.Words mit der IFieldUpdatingCallback-Schnittstelle an. Erweitern Sie die Funktionalität mit Ihren eigenen Methoden für eine maßgeschneiderte Dokumentenverarbeitung.
 type: docs
-weight: 2720
+weight: 3130
 url: /de/net/aspose.words.fields/ifieldupdatingcallback/
 ---
 ## IFieldUpdatingCallback interface
@@ -25,7 +25,7 @@ public interface IFieldUpdatingCallback
 
 ## Beispiele
 
-Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
+Zeigt, wie Rückrufmethoden während einer Feldaktualisierung verwendet werden.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -49,7 +49,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufgerufen werden.
+/// Implementieren Sie diese Schnittstelle, wenn Sie während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufrufen möchten.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -59,7 +59,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Eine benutzerdefinierte Methode, die aufgerufen wird, unmittelbar bevor ein Feld aktualisiert wird.
+    /// Eine benutzerdefinierte Methode, die unmittelbar vor der Aktualisierung eines Felds aufgerufen wird.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {

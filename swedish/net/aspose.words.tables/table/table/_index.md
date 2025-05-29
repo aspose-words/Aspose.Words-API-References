@@ -3,14 +3,14 @@ title: Table
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words för .NET
-description: Table byggare. Initierar en ny instans avTable class i C#.
+description: Skapa enkelt anpassade tabeller med vår intuitiva tabellkonstruktor. Bygg, anpassa och optimera din datavisning på några minuter!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Initierar en ny instans av[`Table`](../) class.
+Initierar en ny instans av[`Table`](../) klass.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -22,9 +22,9 @@ public Table(DocumentBase doc)
 
 ## Anmärkningar
 
-När[`Table`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
+När[`Table`](../) skapas, tillhör den det angivna dokumentet, men är ännu inte en del av dokumentet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null`.
 
-Att lägga till[`Table`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på berättelsen där du vill att tabellen ska infogas.
+Att lägga till[`Table`](../) till dokumentanvändningen[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) på den artikel där du vill infoga tabellen.
 
 ## Exempel
 
@@ -35,9 +35,9 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Tabeller innehåller rader, som innehåller celler, som kan ha stycken
-// med typiska element som körningar, former och till och med andra tabeller.
-// Att anropa metoden "EnsureMinimum" på en tabell säkerställer det
+// Tabeller innehåller rader, som innehåller celler, vilka kan innehålla stycken
+// med typiska element som körningar, former och även andra tabeller.
+// Att anropa metoden "EnsureMinimum" på en tabell säkerställer att
 // tabellen har minst en rad, cell och stycke.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -48,14 +48,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Lägg till text till det första anropet i den första raden i tabellen.
+// Lägg till text i den första cellen på den första raden i tabellen.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Visar hur man bygger en kapslad tabell utan att använda ett dokumentbyggare.
+Visar hur man bygger en kapslad tabell utan att använda en dokumentbyggare.
 
 ```csharp
 public void CreateNestedTable()
@@ -66,7 +66,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Skapa ytterligare en tabell med två rader och två kolumner och infoga den sedan i den första tabellens första cell.
+    // Skapa en annan tabell med två rader och två kolumner och infoga den sedan i den första tabellens första cell.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -74,7 +74,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Skapar en ny tabell i dokumentet med givna dimensioner och text i varje cell.
+/// Skapar en ny tabell i dokumentet med de angivna dimensionerna och texten i varje cell.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -95,10 +95,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Du kan använda egenskaperna "Titel" och "Beskrivning" för att lägga till en titel respektive en beskrivning till din tabell.
+    // Du kan använda egenskaperna "Titel" och "Beskrivning" för att lägga till en titel respektive beskrivning till din tabell.
     // Tabellen måste ha minst en rad innan vi kan använda dessa egenskaper.
-    // Dessa egenskaper är meningsfulla för ISO / IEC 29500-kompatibla .docx-dokument (se klassen OoxmlCompliance).
-    // Om vi sparar dokumentet i pre-ISO/IEC 29500-format ignorerar Microsoft Word dessa egenskaper.
+    // Dessa egenskaper är betydelsefulla för ISO/IEC 29500-kompatibla .docx-dokument (se OoxmlCompliance-klassen).
+    // Om vi sparar dokumentet i format före ISO/IEC 29500 ignorerar Microsoft Word dessa egenskaper.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

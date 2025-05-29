@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
 articleTitle: VisitSmartTagStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitSmartTagStart метод. Вызывается когда началось перечисление смарттега на С#.
+description: Откройте для себя метод DocumentVisitor VisitSmartTagStart — ваш ключ к эффективному управлению перечислением смарт-тегов и улучшению обработки документов.
 type: docs
 weight: 420
 url: /ru/net/aspose.words/documentvisitor/visitsmarttagstart/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| smartTag | SmartTag | Объект, который посещается. |
+| smartTag | SmartTag | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void SmartTagToText()
     Document doc = new Document(MyDir + "Smart tags.doc");
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

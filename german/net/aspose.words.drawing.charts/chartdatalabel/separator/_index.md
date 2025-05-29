@@ -3,14 +3,14 @@ title: ChartDataLabel.Separator
 linktitle: Separator
 articleTitle: Separator
 second_title: Aspose.Words für .NET
-description: ChartDataLabel Separator eigendom. Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma außer bei Kreisdiagrammen die nur den Kategorienamen und den Prozentsatz anzeigen bei denen stattdessen ein Zeilenumbruch verwendet werden soll in C#.
+description: Entdecken Sie die Eigenschaft „ChartDataLabel Separator“, um die Datenbeschriftungen Ihres Diagramms anzupassen. Legen Sie ganz einfach Zeichenfolgentrennzeichen fest, um eine klarere Visualisierung und bessere Einblicke zu ermöglichen.
 type: docs
-weight: 70
+weight: 120
 url: /de/net/aspose.words.drawing.charts/chartdatalabel/separator/
 ---
 ## ChartDataLabel.Separator property
 
-Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgentrennzeichen ab oder legt dieses fest. Der Standardwert ist ein Komma, außer bei Kreisdiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen, bei denen stattdessen ein Zeilenumbruch verwendet werden soll.
+Ruft das für die Datenbeschriftungen in einem Diagramm verwendete Zeichenfolgentrennzeichen ab oder legt es fest. Der Standardwert ist ein Komma, außer bei Kreisdiagrammen, die nur den Kategorienamen und den Prozentsatz anzeigen. In diesen Fällen wird stattdessen ein Zeilenumbruch verwendet.
 
 ```csharp
 public string Separator { get; set; }
@@ -18,7 +18,7 @@ public string Separator { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Beschriftungen auf Datenpunkte in einem Liniendiagramm angewendet werden.
+Zeigt, wie Datenpunkten in einem Liniendiagramm Beschriftungen zugewiesen werden.
 
 ```csharp
 public void DataLabels()
@@ -34,8 +34,8 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Anwenden von Datenbeschriftungen auf jede Reihe im Diagramm.
-    // Diese Beschriftungen werden neben jedem Datenpunkt im Diagramm angezeigt und zeigen seinen Wert an.
+    // Datenbeschriftungen auf jede Reihe im Diagramm anwenden.
+    // Diese Beschriftungen werden neben jedem Datenpunkt im Diagramm angezeigt und zeigen dessen Wert an.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -52,8 +52,11 @@ public void DataLabels()
         }
     }
 
-    // Für ein übersichtlicheres Diagramm können wir Datenbeschriftungen einzeln entfernen.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
+    // Für ein übersichtlicheres Diagramm können wir die Datenbeschriftungen einzeln entfernen.
+    dataLabel.ClearFormat();
 
     // Wir können auch eine ganze Reihe ihrer Datenbeschriftungen auf einmal entfernen.
     chart.Series[2].DataLabels.ClearFormat();
@@ -62,14 +65,15 @@ public void DataLabels()
 }
 
 /// <summary>
-/// Datenbeschriftungen mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe anwenden.
+/// Wenden Sie Datenbeschriftungen mit benutzerdefiniertem Zahlenformat und Trennzeichen auf mehrere Datenpunkte in einer Reihe an.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

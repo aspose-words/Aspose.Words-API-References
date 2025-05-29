@@ -3,7 +3,7 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words för .NET
-description: Style Document fast egendom. Hämtar ägardokumentet i C#.
+description: Upptäck egenskapen Stildokument för att enkelt komma åt och hantera ditt ägardokument för förbättrad organisation och effektivitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/style/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

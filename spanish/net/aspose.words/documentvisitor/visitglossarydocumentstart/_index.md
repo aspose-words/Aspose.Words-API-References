@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGlossaryDocumentStart
 linktitle: VisitGlossaryDocumentStart
 articleTitle: VisitGlossaryDocumentStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitGlossaryDocumentStart método. Se llama cuando ha comenzado la enumeración de un documento de glosario en C#.
+description: Descubra el método VisitGlossaryDocumentStart en DocumentVisitor. Gestione la enumeración de documentos del glosario de forma eficiente, sencilla y precisa.
 type: docs
 weight: 250
 url: /es/net/aspose.words/documentvisitor/visitglossarydocumentstart/
 ---
 ## DocumentVisitor.VisitGlossaryDocumentStart method
 
-Se llama cuando ha comenzado la enumeración de un documento de glosario.
+Se llama cuando se inicia la enumeración de un documento de glosario.
 
 ```csharp
 public virtual VisitorAction VisitGlossaryDocumentStart(GlossaryDocument glossary)
@@ -26,11 +26,11 @@ A[`VisitorAction`](../../visitoraction/) valor que especifica cómo continuar la
 
 ## Observaciones
 
-Nota: Un nodo de documento de glosario y sus hijos no se visitan cuando ejecuta a Visitor sobre un[`Document`](../../document/) . Si desea ejecutar un Visitante sobre un documento de glosario , debe llamar[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Nota: Un nodo de documento de glosario y sus hijos no se visitan cuando se ejecuta un Visitante sobre un[`Document`](../../document/) Si desea ejecutar un Visitante sobre un documento de glosario a , debe llamar[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ## Ejemplos
 
-Muestra formas de acceder a bloques de construcción en un documento de glosario.
+Muestra formas de acceder a los bloques de construcción en un documento de glosario.
 
 ```csharp
 public void GlossaryDocument()
@@ -38,17 +38,22 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
-    // Hay varias formas de acceder a los bloques de construcción.
+    //Hay varias formas de acceder a los bloques de construcción.
     // 1 - Obtener el primer/último bloque de construcción de la colección:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
@@ -64,15 +69,20 @@ public void GlossaryDocument()
     // Lo haremos usando un visitante personalizado,
     // que le dará a cada BuildingBlock en el GlossaryDocument un GUID único
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Visita el inicio/fin del documento Glosario.
     glossaryDoc.Accept(visitor);
+    // Visita solo el inicio del documento Glosario.
+    glossaryDoc.AcceptStart(visitor);
+    // Visita sólo el final del documento Glosario.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // En Microsoft Word, podemos acceder a los bloques de construcción mediante "Insertar" -> "Partes rápidas" -> "Organizador de bloques de construcción".
+    // En Microsoft Word, podemos acceder a los bloques de construcción a través de "Insertar" -> "Elementos rápidos" -> "Organizador de bloques de construcción".
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Proporciona a cada bloque de construcción de un documento de glosario visitado un GUID único.
+/// Le otorga a cada bloque de construcción en un documento de glosario visitado un GUID único.
 /// Almacena los pares de bloques de construcción GUID en un diccionario.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor

@@ -3,7 +3,7 @@ title: CustomPart.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: CustomPart Name propriété. Obtient ou définit le nom absolu de cette partie dans le package OOXML ou lURL cible en C#.
+description: Découvrez comment gérer les noms de CustomPart dans les packages OOXML. Définissez ou récupérez facilement des noms absolus pour une intégration fluide et des fonctionnalités améliorées.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.markup/custompart/name/
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Remarques
 
-Si la cible de la relation est interne, cette propriété est le nom absolu de la partie dans le package. Si la cible de la relation est externe, cette propriété est l'URL cible.
+Si la cible de la relation est interne, cette propriété est le nom de la partie absolu dans le package. Si la cible de la relation est externe, cette propriété est l'URL cible.
 
 La valeur par défaut est une chaîne vide. Une valeur valide doit être une chaîne non vide.
 
 ## Exemples
 
-Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
+Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -36,7 +36,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Énumère la collection et imprime chaque partie.
+// Énumérer la collection et imprimer chaque partie.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

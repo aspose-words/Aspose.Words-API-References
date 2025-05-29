@@ -3,9 +3,9 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words per .NET
-description: Shape Filled proprietà. Determina se il percorso chiuso della forma verrà riempito in C#.
+description: Controlla l'estetica delle forme con la proprietà Forma riempita, decidendo se i tuoi percorsi chiusi sono riempiti per una maggiore flessibilità di progettazione e un impatto visivo più gradevole.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Registra le informazioni relative all'aspetto delle forme visitate.
+/// Registra informazioni relative all'aspetto delle forme visitate.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga a StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
+    /// Aggiunge una riga allo StringBuilder con un carattere di tabulazione anteposto per ogni livello di rientro.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -103,7 +102,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo Shape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -126,7 +125,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando questo visitatore visita la fine di un nodo GroupShape.
+    /// Chiamato quando questo visitatore raggiunge la fine di un nodo GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

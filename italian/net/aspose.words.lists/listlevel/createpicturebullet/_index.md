@@ -3,7 +3,7 @@ title: ListLevel.CreatePictureBullet
 linktitle: CreatePictureBullet
 articleTitle: CreatePictureBullet
 second_title: Aspose.Words per .NET
-description: ListLevel CreatePictureBullet metodo. Crea la forma di un punto elenco per il livello di elenco corrente in C#.
+description: Scopri il metodo CreatePictureBullet di ListLevel per migliorare senza sforzo i tuoi elenchi con punti elenco personalizzati, aggiungendo chiarezza e appeal visivo.
 type: docs
 weight: 150
 url: /it/net/aspose.words.lists/listlevel/createpicturebullet/
@@ -18,11 +18,11 @@ public void CreatePictureBullet()
 
 ## Osservazioni
 
-Notare che,[`NumberStyle`](../numberstyle/) sarà impostato suBullet e [`NumberFormat`](../numberformat/) su "\xF0B7" per visualizzare correttamente l'immagine del punto elenco. L'immagine della croce rossa verrà impostata come immagine del punto elenco al momento della creazione. Per modificarla, utilizzare[`ImageData`](../imagedata/).
+Notare che,[`NumberStyle`](../numberstyle/) sarà impostato suBullet e [`NumberFormat`](../numberformat/) su "\xF0B7" per visualizzare correttamente il punto elenco dell'immagine. L'immagine della croce rossa verrà impostata come punto elenco dell'immagine al momento della creazione. Per modificarla, utilizzare[`ImageData`](../imagedata/).
 
 ## Esempi
 
-Mostra come impostare un'icona immagine personalizzata per le etichette degli elementi dell'elenco.
+Mostra come impostare un'icona immagine personalizzata per le etichette delle voci di elenco.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Document doc = new Document();
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
 // Crea un punto elenco immagine per il livello di elenco corrente e imposta un'immagine da un file system locale
-// come icona che verrà visualizzata dai punti elenco per questo livello di elenco.
+// come l'icona che verrà visualizzata dai punti elenco per questo livello di elenco.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

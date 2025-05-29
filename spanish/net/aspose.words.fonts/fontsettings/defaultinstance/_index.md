@@ -3,7 +3,7 @@ title: FontSettings.DefaultInstance
 linktitle: DefaultInstance
 articleTitle: DefaultInstance
 second_title: Aspose.Words para .NET
-description: FontSettings DefaultInstance propiedad. Configuración de fuente predeterminada estática en C#.
+description: Descubre la propiedad FontSettings DefaultInstance para una gestión optimizada de fuentes estáticas. ¡Optimiza tu diseño con configuraciones predeterminadas personalizables!
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontsettings/defaultinstance/
@@ -18,14 +18,14 @@ public static FontSettings DefaultInstance { get; }
 
 ## Observaciones
 
-Esta instancia se utiliza de forma predeterminada en un documento a menos que[`FontSettings`](../../../aspose.words/document/fontsettings/) está especificado.
+Esta instancia se utiliza de forma predeterminada en un documento a menos que[`FontSettings`](../../../aspose.words/document/fontsettings/) se especifica.
 
 ## Ejemplos
 
 Muestra cómo configurar la instancia de configuración de fuente predeterminada.
 
 ```csharp
-// Configure la instancia de configuración de fuente predeterminada para usar la fuente "Courier New"
+// Configure la instancia de configuración de fuente predeterminada para utilizar la fuente "Courier New"
 // como sustituto de respaldo cuando intentamos utilizar una fuente desconocida.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
@@ -37,9 +37,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Non-existent font";
 builder.Write("Hello world!");
 
-// Este documento no tiene una configuración de FontSettings. Cuando renderizamos el documento,
-// la instancia predeterminada de FontSettings resolverá la fuente que falta.
-// Aspose.Words usará "Courier New" para representar el texto que usa la fuente desconocida.
+Este documento no tiene una configuración de FontSettings. Al renderizar el documento,
+// la instancia FontSettings predeterminada resolverá la fuente faltante.
+// Aspose.Words utilizará "Courier New" para representar el texto que utiliza la fuente desconocida.
 Assert.Null(doc.FontSettings);
 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
@@ -59,15 +59,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Almacena la colección actual de fuentes de fuentes, que será la fuente de fuentes predeterminada para cada documento
-    // para el cual no especificamos una fuente de fuente diferente.
+    // Almacena la colección actual de fuentes, que será la fuente de fuente predeterminada para cada documento
+    // para el cual no especificamos una fuente diferente.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
     // Para fines de prueba, configuraremos Aspose.Words para que busque fuentes solo en una carpeta que no existe.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
-    // Esto generará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
+    //Al renderizar el documento, no habrá lugar para encontrar la fuente "Times New Roman".
+    // Esto provocará una advertencia de sustitución de fuente, que nuestra devolución de llamada detectará.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -75,7 +75,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback

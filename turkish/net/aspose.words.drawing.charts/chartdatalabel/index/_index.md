@@ -2,15 +2,15 @@
 title: ChartDataLabel.Index
 linktitle: Index
 articleTitle: Index
-second_title: Aspose.Words for .NET
-description: ChartDataLabel Index mülk. İçeren öğenin dizinini belirtir. Bu dizin bu öğenin ebeveynin alt koleksiyonundan hangisine uygulanacağını belirleyecektir. Varsayılan değer 0 C#'da.
+second_title: .NET için Aspose.Words
+description: ChartDataLabel Index özelliğini keşfedin, öğe hiyerarşisini tanımlayın ve veri görselleştirmesini optimize edin. Kolay entegrasyon için varsayılan değer 0'dır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 ## ChartDataLabel.Index property
 
-İçeren öğenin dizinini belirtir. Bu dizin, bu öğenin ebeveynin alt koleksiyonundan hangisine uygulanacağını belirleyecektir. Varsayılan değer 0.
+İçeren öğenin dizinini belirtir. Bu dizin, bu öğenin hangi ebeveynin çocuk koleksiyonuna uygulanacağını belirler. Varsayılan değer 0'dır.
 
 ```csharp
 public int Index { get; }
@@ -18,7 +18,7 @@ public int Index { get; }
 
 ## Örnekler
 
-Çizgi grafikteki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
+Bir çizgi grafiğindeki veri noktalarına etiketlerin nasıl uygulanacağını gösterir.
 
 ```csharp
 public void DataLabels()
@@ -35,7 +35,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Grafikteki her seriye veri etiketleri uygulayın.
-    // Bu etiketler grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
+    // Bu etiketler, grafikteki her veri noktasının yanında görünecek ve değerini gösterecektir.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // Daha temiz görünen bir grafik için veri etiketlerini tek tek kaldırabiliriz.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Ayrıca bir dizi veri etiketinin tamamını aynı anda kaldırabiliriz.
+    // Daha temiz görünümlü bir grafik için veri etiketlerini tek tek kaldırabiliriz.
+    dataLabel.ClearFormat();
+
+    // Ayrıca bir dizi verinin tüm etiketlerini bir kerede kaldırabiliriz.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Özel sayı formatına ve ayırıcıya sahip veri etiketlerini bir serideki çeşitli veri noktalarına uygulayın.
+/// Bir serideki birden fazla veri noktasına özel sayı biçimi ve ayırıcı ile veri etiketleri uygulayın.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

@@ -3,14 +3,14 @@ title: RevisionCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: RevisionCollection GetEnumerator طريقة. يُرجع كائن العداد في C#.
+description: اكتشف طريقة RevisionCollection GetEnumerator! استرجع كائنات المُعدِّد بكفاءة لإدارة بيانات سلسة وتحسين الأداء.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words/revisioncollection/getenumerator/
 ---
 ## RevisionCollection.GetEnumerator method
 
-يُرجع كائن العداد.
+يعيد كائن المعداد.
 
 ```csharp
 public IEnumerator<Revision> GetEnumerator()
@@ -18,13 +18,13 @@ public IEnumerator<Revision> GetEnumerator()
 
 ## أمثلة
 
-يوضح كيفية التعامل مع مجموعة مراجعات المستند.
+يوضح كيفية العمل مع مجموعة المراجعات الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 RevisionCollection revisions = doc.Revisions;
 
-// تحتوي هذه المجموعة نفسها على مجموعة من مجموعات المراجعة.
+//تحتوي هذه المجموعة نفسها على مجموعة من مجموعات المراجعة.
 // كل مجموعة عبارة عن سلسلة من المراجعات المتجاورة.
 Console.WriteLine($"{revisions.Groups.Count} revision groups:");
 
@@ -38,18 +38,18 @@ using (IEnumerator<RevisionGroup> e = revisions.Groups.GetEnumerator())
     }
 }
 
-// كل عملية تشغيل تؤثر عليها المراجعة تحصل على كائن مراجعة مطابق.
-// مجموعة المراجعات أكبر بكثير من النموذج الموجز الذي طبعناه أعلاه،
-// اعتمادًا على عدد مرات التشغيل التي قمنا بتقسيم المستند إليها أثناء تحرير Microsoft Word.
+// يحصل كل تشغيل يتأثر بالمراجعة على كائن مراجعة مطابق.
+// إن مجموعة المراجعات أكبر بكثير من الشكل المكثف الذي طبعناه أعلاه،
+// اعتمادًا على عدد عمليات التشغيل التي قمنا بتقسيم المستند إليها أثناء تحرير Microsoft Word.
 Console.WriteLine($"\n{revisions.Count} revisions:");
 
 using (IEnumerator<Revision> e = revisions.GetEnumerator())
 {
     while (e.MoveNext())
     {
-        // يؤثر StyleDefinitionChange بشكل صارم على الأنماط وليس على عقد المستند. وهذا يعني "ParentStyle"
-        ستكون الخاصية // قيد الاستخدام دائمًا، بينما ستكون ParentNode فارغة دائمًا.
-        // نظرًا لأن جميع التغييرات الأخرى تؤثر على العقد، فسيتم استخدام ParentNode على العكس من ذلك، وسيكون ParentStyle خاليًا.
+        // يؤثر تغيير تعريف النمط بشكل صارم على الأنماط، وليس على عقد المستندات. هذا يعني أن "ParentStyle"
+        // ستكون الخاصية دائمًا قيد الاستخدام، بينما ستكون ParentNode دائمًا فارغة.
+        // نظرًا لأن جميع التغييرات الأخرى تؤثر على العقد، فسيتم استخدام ParentNode على العكس من ذلك، وسيكون ParentStyle فارغًا.
         if (e.Current.RevisionType == RevisionType.StyleDefinitionChange)
         {
             Console.WriteLine($"\tRevision type \"{e.Current.RevisionType}\", " +
@@ -63,7 +63,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
     }
 }
 
-// رفض جميع المراجعات عبر المجموعة، مما يعيد المستند إلى شكله الأصلي.
+// رفض كافة المراجعات عبر المجموعة، وإعادة المستند إلى شكله الأصلي.
 revisions.RejectAll();
 
 Assert.AreEqual(0, revisions.Count);

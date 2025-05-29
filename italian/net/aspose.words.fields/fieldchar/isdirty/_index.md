@@ -3,7 +3,7 @@ title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words per .NET
-description: FieldChar IsDirty proprietà. Ottiene o imposta se il risultato corrente del campo non è più corretto obsoleto a causa di altre modifiche apportate al documento in C#.
+description: Scopri come la proprietà FieldChar IsDirty aiuta a mantenere l'accuratezza dei documenti monitorando le modifiche, assicurando che i tuoi campi riflettano sempre gli ultimi aggiornamenti.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldchar/isdirty/

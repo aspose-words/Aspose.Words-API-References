@@ -2,15 +2,15 @@
 title: Odso.FieldMapDatas
 linktitle: FieldMapDatas
 articleTitle: FieldMapDatas
-second_title: Aspose.Words for .NET
-description: Odso FieldMapDatas mülk. Dış veri kaynağı deki sütunların belgedeki önceden tanımlanmış birleştirme alanı adlarıyla nasıl eşlendiğini belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Odso FieldMapDatas'ı keşfedin, harici veri sütunlarını önceden tanımlanmış birleştirme alanlarına zahmetsizce eşleyin, böylece sorunsuz belge entegrasyonunu ve gelişmiş veri doğruluğunu garantileyin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odso/fieldmapdatas/
 ---
 ## Odso.FieldMapDatas property
 
-Dış veri kaynağı 'deki sütunların belgedeki önceden tanımlanmış birleştirme alanı adlarıyla nasıl eşlendiğini belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman`hükümsüz` .
+Harici veri kaynağı 'den gelen sütunların belgedeki önceden tanımlanmış birleştirme alanı adlarına nasıl eşleneceğini belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne asla`hükümsüz` .
 
 ```csharp
 public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
@@ -18,12 +18,12 @@ public OdsoFieldMapDataCollection FieldMapDatas { get; set; }
 
 ## Örnekler
 
-Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarına eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// Bu koleksiyon, bir posta birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
 // önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Bu koleksiyondaki öğeleri klonlayın.
+// Bu koleksiyondaki öğeleri klonla.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
+// "RemoveAt" metodu elemanlarını indekse göre tek tek kullan.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
+// Tüm koleksiyonu bir kerede temizlemek için "Clear" metodunu kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

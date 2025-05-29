@@ -3,14 +3,14 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words per .NET
-description: FileFontSource FilePath proprietà. Percorso del file del carattere in C#.
+description: Scopri la proprietà FileFontSource FilePath per accedere facilmente ai file dei tuoi font. Semplifica il tuo processo di progettazione con questo strumento essenziale!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fonts/filefontsource/filepath/
 ---
 ## FileFontSource.FilePath property
 
-Percorso del file del carattere.
+Percorso al file del font.
 
 ```csharp
 public string FilePath { get; }
@@ -18,7 +18,7 @@ public string FilePath { get; }
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

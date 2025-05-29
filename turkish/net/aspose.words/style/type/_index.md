@@ -2,10 +2,10 @@
 title: Style.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: Style Type mülk. Stil türünü paragraf veya karakter alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin görsel çekiciliğini artırmak için paragraf veya karakter stillerine kolayca erişmek ve bunları özelleştirmek için Stil Türü özelliğini keşfedin.
 type: docs
-weight: 170
+weight: 200
 url: /tr/net/aspose.words/style/type/
 ---
 ## Style.Type property
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

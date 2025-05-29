@@ -3,9 +3,9 @@ title: HorizontalAlignment Enum
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.HorizontalAlignment تعداد. يحدد المحاذاة الأفقية لشكل عائم أو إطار نص أو جدول عائم في C#.
+description: اكتشف خاصية Aspose.Words.Drawing.HorizontalAlignment للتحكم الدقيق في المحاذاة الأفقية في إطارات النصوص العائمة والجداول. حسّن تصميم مستندك!
 type: docs
-weight: 1030
+weight: 1360
 url: /ar/net/aspose.words.drawing/horizontalalignment/
 ---
 ## HorizontalAlignment enumeration
@@ -20,10 +20,10 @@ public enum HorizontalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| None | `0` | يتم تحديد موضع الكائن بشكل واضح، عادةً باستخدام**غادر** الملكية. |
-| Default | `0` | نفسNone . |
-| Left | `1` | يحدد أنه يجب ترك الكائن محاذيًا لقاعدة المحاذاة الأفقية. |
-| Center | `2` | يحدد أن الكائن يجب أن يتم توسيطه فيما يتعلق بقاعدة المحاذاة الأفقية. |
+| None | `0` | يتم وضع الكائن بشكل صريح، عادةً باستخدام**غادر** الملكية. |
+| Default | `0` | نفس الشيءNone . |
+| Left | `1` | يحدد أن الكائن يجب أن يكون محاذيًا لليسار مع قاعدة المحاذاة الأفقية. |
+| Center | `2` | يحدد أن الكائن يجب أن يكون متمركزًا بالنسبة لقاعدة المحاذاة الأفقية. |
 | Right | `3` | يحدد أن الكائن يجب أن يكون محاذيًا لليمين مع قاعدة المحاذاة الأفقية. |
 | Inside | `4` | يحدد أن الكائن يجب أن يكون داخل قاعدة المحاذاة الأفقية. |
 | Outside | `5` | يحدد أن الكائن يجب أن يكون خارج قاعدة المحاذاة الأفقية. |
@@ -36,7 +36,7 @@ public enum HorizontalAlignment
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع منتصف الصفحة.
+// قم بإدراج صورة عائمة ستظهر خلف النص المتداخل وقم بمحاذاتها مع مركز الصفحة.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

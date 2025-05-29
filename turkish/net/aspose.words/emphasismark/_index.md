@@ -2,10 +2,10 @@
 title: EmphasisMark Enum
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
-second_title: Aspose.Words for .NET
-description: Aspose.Words.EmphasisMark Sıralama. Olası vurgu işareti türlerini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin biçimlendirmesini geliştirmek için çeşitli vurgulama türleri sunan Aspose.Words.EmphasisMark enum'unu keşfedin. Metninizin etkisini bugün yükseltin!
 type: docs
-weight: 1460
+weight: 1870
 url: /tr/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
@@ -21,19 +21,19 @@ public enum EmphasisMark
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Vurgu işareti yok. |
-| OverSolidCircle | `1` | Vurgu işareti, metnin üzerinde görüntülenen düz siyah bir dairedir. |
-| OverComma | `2` | Vurgu işareti metnin üzerinde görüntülenen virgül karakteridir. |
-| OverWhiteCircle | `3` | Vurgu işareti metnin üzerinde görüntülenen boş beyaz bir dairedir. |
-| UnderSolidCircle | `4` | Vurgu işareti, metnin altında görüntülenen düz siyah bir dairedir. |
+| OverSolidCircle | `1` | Vurgu işareti metnin üstünde gösterilen dolu siyah dairedir. |
+| OverComma | `2` | Vurgu işareti metnin üstünde gösterilen bir virgül karakteridir. |
+| OverWhiteCircle | `3` | Vurgu işareti metnin üstünde gösterilen boş beyaz dairedir. |
+| UnderSolidCircle | `4` | Vurgu işareti metnin altında gösterilen dolu siyah dairedir. |
 
 ## Örnekler
 
-Glif karakterinin üstünde/altında oluşturulan ek karakterlerin nasıl ekleneceğini gösterir.
+Glif karakterinin üstüne/altına ek karakterin nasıl ekleneceğini gösterir.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// Olası vurgu işareti türleri:
+// Vurgu işaretlerinin olası türleri:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
 builder.Font.EmphasisMark = emphasisMark; 
 

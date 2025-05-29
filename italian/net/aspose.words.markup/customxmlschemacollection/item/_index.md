@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: CustomXmlSchemaCollection Item proprietà. Ottiene o imposta lelemento nellindice specificato in C#.
+description: Scopri come gestire gli elementi di CustomXmlSchemaCollection senza sforzo. Impara a ottenere o impostare elementi tramite indice per una gestione semplificata dei dati XML.
 type: docs
 weight: 20
 url: /it/net/aspose.words.markup/customxmlschemacollection/item/
 ---
 ## CustomXmlSchemaCollection indexer
 
-Ottiene o imposta l'elemento nell'indice specificato.
+Ottiene o imposta l'elemento all'indice specificato.
 
 ```csharp
 public string this[int index] { get; set; }
@@ -27,33 +27,33 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Aggiunge un'associazione allo schema XML.
+// Aggiungere un'associazione di schema XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // Clona la raccolta di associazioni di schemi XML della parte XML personalizzata,
-// e poi aggiungi un paio di nuovi schemi al clone.
+// e quindi aggiungere un paio di nuovi schemi al clone.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
-schemas.Add("http://www.w3.org/2001/XMLSchema-istanza");
+schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Enumera gli schemi e stampa ogni elemento.
+// Enumera gli schemi e stampa ciascun elemento.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Di seguito sono riportati tre modi per rimuovere gli schemi dalla raccolta.
-// 1 - Rimuovi uno schema per indice:
+// Di seguito sono riportati tre metodi per rimuovere gli schemi dalla raccolta.
+// 1 - Rimuovi uno schema tramite indice:
 schemas.RemoveAt(2);
 
-// 2 - Rimuovi uno schema per valore:
+// 2 - Rimuovi uno schema in base al valore:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Utilizza il metodo "Clear" per svuotare immediatamente la raccolta.
+// 3 - Utilizzare il metodo "Clear" per svuotare immediatamente la raccolta.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

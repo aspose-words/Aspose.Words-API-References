@@ -3,14 +3,14 @@ title: Table.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: Table NodeType eigendom. Gibt zurückTable  in C#.
+description: Entdecken Sie die Eigenschaft „Table NodeType“, die Tabellendaten effizient zurückgibt und so Ihre Datenverwaltung und -organisation für eine nahtlose Integration verbessert.
 type: docs
 weight: 210
 url: /de/net/aspose.words.tables/table/nodetype/
 ---
 ## Table.NodeType property
 
-Gibt zurückTable .
+RückgabenTable .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -25,16 +25,16 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
-    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
+    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und druckt.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
-/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
+/// mit einem Einzug, der von der Tiefe sowie dem Inhalt aller Inline-Knoten abhängt.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls wird der Inhalt gedruckt, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();
@@ -71,7 +71,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -107,20 +107,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

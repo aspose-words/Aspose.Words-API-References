@@ -3,7 +3,7 @@ title: BookmarkStart
 linktitle: BookmarkStart
 articleTitle: BookmarkStart
 second_title: Aspose.Words para .NET
-description: BookmarkStart constructor. Inicializa una nueva instancia delBookmarkStart clase en C#.
+description: ¡Descubre el constructor BookmarkStart! Inicializa fácilmente nuevas instancias de BookmarkStart para una gestión eficiente de marcadores en tus aplicaciones. ¡Aumenta tu productividad hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words/bookmarkstart/bookmarkstart/
@@ -28,16 +28,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

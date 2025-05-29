@@ -3,16 +3,16 @@ title: FileFontSource Class
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.FileFontSource classe. Rappresenta il singolo file di caratteri TrueType memorizzato nel file system in C#.
+description: Scopri Aspose.Words.Fonts.FileFontSource. Gestisci facilmente i file di font TrueType sul tuo sistema per una formattazione dei documenti migliorata e una maggiore flessibilità di progettazione.
 type: docs
-weight: 2870
+weight: 3280
 url: /it/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
-Rappresenta il singolo file di caratteri TrueType memorizzato nel file system.
+Rappresenta il singolo file di font TrueType memorizzato nel file system.
 
-Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i font](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -30,21 +30,21 @@ public class FileFontSource : FontSourceBase
 
 | Nome | Descrizione |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | La chiave di questa origine nella cache. |
-| [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Percorso del file del carattere. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della fonte del carattere. |
-| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Restituisce il tipo di fonte del carattere. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione dell'origine del carattere quando viene rilevato un problema che potrebbe comportare una perdita di fedeltà della formattazione. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | La chiave di questa sorgente nella cache. |
+| [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Percorso al file del font. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Restituisce la priorità della sorgente del font. |
+| override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Restituisce il tipo di origine del font. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Chiamato durante l'elaborazione della sorgente del font quando viene rilevato un problema che potrebbe causare una perdita di fedeltà della formattazione. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei caratteri disponibili tramite questa origine. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Restituisce l'elenco dei font disponibili tramite questa sorgente. |
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

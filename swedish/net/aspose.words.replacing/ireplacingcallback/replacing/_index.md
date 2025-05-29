@@ -3,7 +3,7 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words för .NET
-description: IReplacingCallback Replacing metod. En användardefinierad metod som anropas under en ersättningsoperation för varje matchning som hittas precis innan en ersättning görs i C#.
+description: Förbättra din kodning med IReplacingCallback-metoden! Anpassa ersättningsåtgärder effektivt genom att utföra användardefinierade åtgärder för varje matchning som hittas.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.replacing/ireplacingcallback/replacing/
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,8 +50,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Visar hur man infogar ett helt dokuments innehåll som ersättning för en matchning i en sök-och-ersätt-operation.
+Visar hur man infogar ett helt dokuments innehåll som en ersättning för en matchning i en sök-och-ersätt-åtgärd.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Infoga ett dokument efter stycket som innehåller den matchade texten.
+        // Infoga ett dokument efter stycket som innehåller den matchande texten.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Ta bort stycket med den matchade texten.
+        // Ta bort stycket med den matchande texten.
         para.Remove();
 
         return ReplaceAction.Skip;

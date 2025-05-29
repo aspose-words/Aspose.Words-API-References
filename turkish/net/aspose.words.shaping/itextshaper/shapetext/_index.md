@@ -2,27 +2,28 @@
 title: ITextShaper.ShapeText
 linktitle: ShapeText
 articleTitle: ShapeText
-second_title: Aspose.Words for .NET
-description: ITextShaper ShapeText yöntem. İadelerClusterbir dizi metin parçasından oluşturulan nesneler. Döndürülen dizinin uzunluğu uzunluğuna eşittirruns . Bir dizinde çalıştırmanın karşılık gelen kümeleri varsa aynı dizindeki sonuç bunları kaydedecektir C#'da.
+second_title: .NET için Aspose.Words
+description: Metin parçalarından Küme nesnelerini verimli bir şekilde üreten, hassas metin biçimlendirmesi ve hizalaması sağlayan iTextShaper'ın ShapeText yöntemini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.shaping/itextshaper/shapetext/
 ---
 ## ITextShaper.ShapeText method
 
-İadeler[`Cluster`](../../cluster/)bir dizi metin parçasından oluşturulan nesneler. Döndürülen dizinin uzunluğu, uzunluğuna eşittir*runs* . Bir dizinde çalıştırmanın karşılık gelen kümeleri varsa, aynı dizindeki sonuç bunları kaydedecektir.
+Geri Döndürür[`Cluster`](../../cluster/)metin parçalarından oluşan bir diziden üretilen nesneler. Döndürülen dizinin uzunluğu, uzunluğuna eşittir*runs* . Bir dizinde çalıştırılan kümelere karşılık gelen kümeler varsa, aynı dizindeki sonuç bunları kaydeder.
 
 ```csharp
 public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript script, 
-    params FontFeature[] fontFeatures)
+    FontFeature[] enabledFontFeatures, VariationAxisCoordinate[] variations)
 ```
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | runs | String[] | Bir dizi metin parçası |
 | direction | Direction | Bir metin yönü |
-| script | UnicodeScript | Bir komut dosyası |
-| fontFeatures | FontFeature[] | Dikkate alınması gereken bir dizi özellik |
+| script | UnicodeScript | Bir senaryo |
+| enabledFontFeatures | FontFeature[] | Dikkate alınması gereken açıkça etkinleştirilmiş bir dizi OpenType özelliği |
+| variations | VariationAxisCoordinate[] | Font'un varyasyon ekseni değerleri |
 
 ### Ayrıca bakınız
 
@@ -30,6 +31,7 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [Direction](../../direction/)
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
+* class [VariationAxisCoordinate](../../variationaxiscoordinate/)
 * interface [ITextShaper](../)
 * ad alanı [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * toplantı [Aspose.Words](../../../)

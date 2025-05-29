@@ -3,14 +3,14 @@ title: FieldSeq.InsertNextNumber
 linktitle: InsertNextNumber
 articleTitle: InsertNextNumber
 second_title: Aspose.Words для .NET
-description: FieldSeq InsertNextNumber свойство. Получает или задает следует ли вставлять следующий порядковый номер для указанного элемента на С#.
+description: Откройте для себя свойство FieldSeq InsertNextNumber, чтобы легко управлять порядковыми номерами для ваших элементов. Улучшите организацию данных без усилий!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldseq/insertnextnumber/
 ---
 ## FieldSeq.InsertNextNumber property
 
-Получает или задает, следует ли вставлять следующий порядковый номер для указанного элемента.
+Возвращает или задает, следует ли вставлять следующий порядковый номер для указанного элемента.
 
 ```csharp
 public bool InsertNextNumber { get; set; }
@@ -18,17 +18,17 @@ public bool InsertNextNumber { get; set; }
 
 ## Примеры
 
-Показывает создание нумерации с использованием полей SEQ.
+Демонстрирует создание нумерации с использованием полей SEQ.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Поля SEQ отображают счетчик, который увеличивается в каждом поле SEQ.
-// Эти поля также поддерживают отдельные счетчики для каждой уникальной именованной последовательности
-// идентифицируется свойством SequenceIdentifier поля SEQ.
-// Вставляем поле SEQ, которое будет отображать текущее значение счетчика «MySequence»,
-// после использования свойства ResetNumber для установки значения 100.
+// Эти поля также поддерживают отдельные подсчеты для каждой уникальной именованной последовательности
+// идентифицируется свойством "SequenceIdentifier" поля SEQ.
+// Вставьте поле SEQ, которое будет отображать текущее значение счетчика "MySequence",
+// после использования свойства "ResetNumber" для установки его на 100.
 builder.Write("#");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -38,7 +38,7 @@ fieldSeq.Update();
 Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
 Assert.AreEqual("100", fieldSeq.Result);
 
-// Отображение следующего числа в этой последовательности с другим полем SEQ.
+// Отображаем следующий номер в этой последовательности с другим полем SEQ.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -46,24 +46,24 @@ fieldSeq.Update();
 
 Assert.AreEqual("101", fieldSeq.Result);
 
-// Вставляем заголовок уровня 1.
+// Вставьте заголовок уровня 1.
 builder.InsertBreak(BreakType.ParagraphBreak);
 builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
 builder.Writeln("This level 1 heading will reset MySequence to 1");
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Вставляем другое поле SEQ из той же последовательности и настраиваем его для сброса счетчика в каждом заголовке на 1.
+// Вставьте еще одно поле SEQ из той же последовательности и настройте его для сброса счетчика в каждом заголовке на 1.
 builder.Write("\n#");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
-// Вышеуказанный заголовок является заголовком уровня 1, поэтому счетчик для этой последовательности сбрасывается до 1.
+// Заголовок выше является заголовком уровня 1, поэтому счетчик для этой последовательности сбрасывается до 1.
 Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
 Assert.AreEqual("1", fieldSeq.Result);
 
-// Переход к следующему номеру этой последовательности.
+// Переходим к следующему числу этой последовательности.
 builder.Write(", #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";

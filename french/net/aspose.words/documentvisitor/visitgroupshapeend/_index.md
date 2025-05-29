@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitGroupShapeEnd méthode. Appelé lorsque lénumération dune forme de groupe est terminée en C#.
+description: Découvrez la méthode DocumentVisitor VisitGroupShapeEnd, qui signale efficacement la fin de l'énumération des formes de groupe pour un traitement transparent des documents.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/documentvisitor/visitgroupshapeend/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Exemples
 
-Montre comment créer un groupe de formes et imprimer son contenu à l’aide d’un visiteur de document.
+Montre comment créer un groupe de formes et imprimer son contenu à l'aide d'un visiteur de document.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si vous devez créer des formes "NonPrimitive", telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si vous devez créer des formes « NonPrimitives », telles que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Coins supérieurs un arrondi un coupé, Coin unique arrondi, Coins supérieurs arrondis, Coins diagonaux arrondis
     // veuillez utiliser les méthodes DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

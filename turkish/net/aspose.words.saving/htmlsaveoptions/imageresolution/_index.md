@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ImageResolution mülk. HTML MHTML veya EPUBa dışa aktarırken görüntülerin çıktı çözünürlüğünü belirtir. Varsayılan96 dpi  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ile görüntü çözünürlüğünü zahmetsizce ayarlayın. Çarpıcı görseller için HTML, MHTML veya EPUB dışa aktarımlarınızı özelleştirilebilir ayarlarla optimize edin.
 type: docs
 weight: 340
 url: /tr/net/aspose.words.saving/htmlsaveoptions/imageresolution/
 ---
 ## HtmlSaveOptions.ImageResolution property
 
-HTML, MHTML veya EPUB'a dışa aktarırken görüntülerin çıktı çözünürlüğünü belirtir. Varsayılan:`96 dpi` .
+HTML, MHTML veya EPUB'a aktarırken görüntülerin çıktı çözünürlüğünü belirtir. Varsayılan`96 dpi` .
 
 ```csharp
 public int ImageResolution { get; set; }
@@ -18,11 +18,11 @@ public int ImageResolution { get; set; }
 
 ## Notlar
 
-Bu özellik, taramalı görüntüleri aşağıdaki durumlarda etkiler:[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) :`doğru` ve raster görüntüler olarak dışa aktarılan efekt meta dosyaları. Cropping veya rotasyon gibi bazı görüntü özellikleri, dönüştürülmüş görüntülerin kaydedilmesini gerektirir ve bu durumda dönüştürülmüş görüntüler, verilen çözünürlükte oluşturulur.
+Bu özellik, raster görüntüleri şu şekilde etkiler:[`ScaleImageToShapeSize`](../scaleimagetoshapesize/) şudur`doğru` ve efekt meta dosyaları raster görüntüler olarak dışa aktarılır. Cropping veya döndürme gibi bazı görüntü özellikleri dönüştürülmüş görüntüleri kaydetmeyi gerektirir ve bu durumda dönüştürülmüş görüntüler given çözünürlükte oluşturulur.
 
 ## Örnekler
 
-Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
+Aspose.Words'ün bir belgeyi HTML'e kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,9 +36,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
-    ResourceFolderAlias = "http://example.com/resources",
+    FontsFolderAlias = "http://example.com/yazı tipleri",
+    ImagesFolderAlias = "http://example.com/resimler",
+    ResourceFolderAlias = "http://example.com/kaynaklar",
     ExportOriginalUrlForLinkedImages = true
 };
 

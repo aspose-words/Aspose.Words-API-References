@@ -3,7 +3,7 @@ title: FieldCreateDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words para .NET
-description: FieldCreateDate UseUmAlQuraCalendar propiedad. Obtiene o establece si se debe utilizar el calendario UmalQura en C#.
+description: Gestione fácilmente los formatos de fecha con la propiedad FieldCreateDate UseUmAlQuraCalendar. Cambie al calendario de UmalQura para una gestión precisa de las fechas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
@@ -18,7 +18,7 @@ public bool UseUmAlQuraCalendar { get; set; }
 
 ## Ejemplos
 
-Muestra cómo utilizar el campo CREATEDATE para mostrar la fecha/hora de creación del documento.
+Muestra cómo utilizar el campo CREATEDATE para mostrar la fecha y hora de creación del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,9 +26,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Podemos usar el campo CREATEDATE para mostrar la fecha y hora de creación del documento.
+//Podemos utilizar el campo CREATEDATE para mostrar la fecha y hora de creación del documento.
 // A continuación se muestran tres tipos de calendario diferentes según los cuales el campo CREATEDATE puede mostrar la fecha/hora.
-// 1 - Calendario Lunar Islámico:
+// 1 - Calendario lunar islámico:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;

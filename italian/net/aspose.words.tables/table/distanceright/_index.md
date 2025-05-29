@@ -3,14 +3,14 @@ title: Table.DistanceRight
 linktitle: DistanceRight
 articleTitle: DistanceRight
 second_title: Aspose.Words per .NET
-description: Table DistanceRight proprietà. Ottiene o imposta la distanza in punti tra la destra della tabella e il testo circostante in C#.
+description: Regola la proprietà Table DistanceRight per controllare la spaziatura tra la tabella e il testo circostante in punti, migliorando così il layout e la leggibilità.
 type: docs
 weight: 140
 url: /it/net/aspose.words.tables/table/distanceright/
 ---
 ## Table.DistanceRight property
 
-Ottiene o imposta la distanza in punti tra la destra della tabella e il testo circostante.
+Ottiene o imposta la distanza tra la parte destra della tabella e il testo circostante, in punti.
 
 ```csharp
 public double DistanceRight { get; set; }
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Imposta la distanza tra la tabella e il testo circostante.
+// Imposta la distanza tra la tabella e il testo circostante.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

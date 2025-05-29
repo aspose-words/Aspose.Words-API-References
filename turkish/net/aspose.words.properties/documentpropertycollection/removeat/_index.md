@@ -2,8 +2,8 @@
 title: DocumentPropertyCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: DocumentPropertyCollection RemoveAt yöntem. Belirtilen dizindeki bir özelliği kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: RemoveAt metodunu kullanarak DocumentPropertyCollection'ınızı zahmetsizce yönetin ve herhangi bir dizindeki özellikleri silin. Belge yönetiminizi bugün kolaylaştırın!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.properties/documentpropertycollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sıfır tabanlı endeks. |
+| index | Int32 | Sıfır bazlı endeks. |
 
 ## Örnekler
 
@@ -41,7 +41,7 @@ properties.Add("Authorized Amount", 123.45);
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Belgedeki her özel özelliği yazdırın.
+// Belgedeki her özel özelliği yazdır.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -55,11 +55,11 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Bu özel özellikleri Microsoft Word'de "Dosya" -> aracılığıyla bulabiliriz. "Özellikler" > "Gelişmiş Özellikler" > "Gelenek".
+// Bu özel özellikleri Microsoft Word'de "Dosya" -> "Özellikler" > "Gelişmiş Özellikler" > "Özel" yoluyla bulabiliriz.
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
 // Aşağıda bir belgeden özel özellikleri kaldırmanın üç yolu bulunmaktadır.
-// 1 - Dizine göre kaldır:
+// 1 - Dizinle kaldır:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));
@@ -71,7 +71,7 @@ properties.Remove("Authorized Revision");
 Assert.False(properties.Contains("Authorized Revision"));
 Assert.AreEqual(3, properties.Count);
 
-// 3 - Koleksiyonun tamamını bir kerede boşaltın:
+// 3 - Tüm koleksiyonu bir defada boşalt:
 properties.Clear();
 
 Assert.AreEqual(0, properties.Count);

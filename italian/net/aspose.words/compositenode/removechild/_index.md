@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words per .NET
-description: CompositeNode RemoveChild metodo. Rimuove il nodo figlio specificato in C#.
+description: Gestisci senza sforzo il tuo CompositeNode con il metodo RemoveChild, progettato per semplificare la rimozione dei nodi per ottenere prestazioni ed efficienza migliorate.
 type: docs
-weight: 170
+weight: 190
 url: /it/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Rimuove il nodo figlio specificato.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| oldChild | Node | Il nodo da rimuovere. |
+| oldChild | T | Il nodo da rimuovere. |
 
 ### Valore di ritorno
 
@@ -26,7 +27,7 @@ Il nodo rimosso.
 
 ## Osservazioni
 
-Il genitore di*oldChild* è impostato per`nullo` dopo che il nodo è stato rimosso.
+Il genitore di*oldChild* è impostato su`null` dopo la rimozione del nodo.
 
 ## Esempi
 
@@ -40,7 +41,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Entrambe le sezioni sono sorelle l'una dell'altra.
+// Entrambe le sezioni sono gemelle l'una dell'altra.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -48,7 +49,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// La sezione che abbiamo rimosso era la prima, lasciando nel documento solo la seconda.
+// La sezione che abbiamo rimosso è la prima, lasciando nel documento solo la seconda.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

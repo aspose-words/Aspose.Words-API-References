@@ -2,8 +2,8 @@
 title: MergeFieldImageDimension.Value
 linktitle: Value
 articleTitle: Value
-second_title: 用于 .NET 的 Aspose.Words
-description: MergeFieldImageDimension Value 财产. 值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MergeFieldImageDimension Value 属性，优化图像处理。通过精确的尺寸和更佳的性能，增强您的项目。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/value/
@@ -18,19 +18,19 @@ public double Value { get; set; }
 
 ## 评论
 
-您应该使用负值来表示应应用相应图像维度 的原始值。
+您应该使用负值来表示应应用相应图像维度的原始值。
 
 ## 例子
 
-展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
+展示如何在邮件合并期间设置 MERGEFIELDS 接受的图像尺寸。
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
-    // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
+    // 插入一个合并字段，用于在邮件合并期间接收来自源的图片。使用字段代码来引用
+    // 数据源中的一列包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
@@ -79,6 +79,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

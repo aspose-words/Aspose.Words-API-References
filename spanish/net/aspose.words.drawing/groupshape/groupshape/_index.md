@@ -3,7 +3,7 @@ title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
 second_title: Aspose.Words para .NET
-description: GroupShape constructor. Crea una nueva forma de grupo en C#.
+description: Diseña fácilmente formas de grupo impactantes con el constructor GroupShape. Mejora tus proyectos con herramientas personalizables e intuitivas para crear creaciones únicas.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/groupshape/groupshape/
@@ -22,13 +22,13 @@ public GroupShape(DocumentBase doc)
 
 ## Observaciones
 
-De forma predeterminada, la forma flota y tiene una ubicación y tamaño predeterminados.
+De forma predeterminada, la forma es flotante y tiene una ubicación y un tamaño predeterminados.
 
-Debe especificar las propiedades de forma deseadas después de crear una forma.
+Debes especificar las propiedades de forma deseadas después de crear una forma.
 
 ## Ejemplos
 
-Muestra cómo crear un grupo de formas e imprimir su contenido utilizando un visitante de documentos.
+Muestra cómo crear un grupo de formas e imprimir su contenido mediante un visitante de documentos.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Si necesita crear formas "no primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Si necesita crear formas "No primitivas", como SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // EsquinasSuperioresUnaRedondeadaUnaRecortada, EsquinaÚnicaRedondeada, EsquinasSuperioresRedondeadas, EsquinasDiagonalesRedondeadas
     // utilice los métodos DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

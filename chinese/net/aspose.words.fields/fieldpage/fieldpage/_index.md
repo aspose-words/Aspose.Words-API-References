@@ -2,8 +2,8 @@
 title: FieldPage
 linktitle: FieldPage
 articleTitle: FieldPage
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldPage 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldPage 直观的构造器轻松构建精美的页面。几分钟内即可创建独特的布局，提升您的在线形象！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldpage/fieldpage/

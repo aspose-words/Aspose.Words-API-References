@@ -3,16 +3,16 @@ title: FieldAutoTextList Class
 linktitle: FieldAutoTextList
 articleTitle: FieldAutoTextList
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAutoTextList сорт. Реализует поле AUTOTEXTLIST на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldAutoTextList, разработанный для оптимизации автоматизации документов с помощью эффективной реализации поля AUTOTEXTLIST.
 type: docs
-weight: 1620
+weight: 2030
 url: /ru/net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
 
 Реализует поле AUTOTEXTLIST.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldAutoTextList : Field
@@ -28,17 +28,17 @@ public class FieldAutoTextList : Field
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий отображаемый результат поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Получает или задает имя записи автотекста. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
-| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Получает или задает имя стиля, на котором основан список, содержащий записи. |
+| [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Возвращает или задает имя записи автотекста. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Возвращает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
+| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Возвращает или задает имя стиля, на котором основан список, содержащий записи. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
-| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Получает или задает отображаемый текст всплывающей подсказки. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Возвращает или задает текст, который находится между разделителем полей и концом поля. |
+| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Возвращает или задает текст всплывающей подсказки для отображения. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -46,12 +46,12 @@ public class FieldAutoTextList : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
-| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). Включаются как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля — последний child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отмену связи поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
 
 ## Примечания
 
@@ -74,8 +74,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Создайте поле АВТОТЕКСТЛИСТ и задайте текст, который будет отображаться в этом поле в Microsoft Word.
-    // Установите текст, предлагающий пользователю щелкнуть это поле правой кнопкой мыши, чтобы выбрать стандартный блок автотекста,
+    // Создайте поле AUTOTEXTLIST и задайте текст, который будет отображаться в поле в Microsoft Word.
+    // Задайте текст, который предложит пользователю щелкнуть правой кнопкой мыши по этому полю, чтобы выбрать блок AutoText,
     // содержимое которого будет отображаться в поле.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -90,7 +90,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// Создайте стандартный блок типа Автотекст и добавьте его в документ глоссария.
+/// Создайте строительный блок типа AutoText и добавьте его в документ глоссария.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

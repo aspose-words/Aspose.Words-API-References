@@ -3,16 +3,16 @@ title: MappedDataFieldCollection Class
 linktitle: MappedDataFieldCollection
 articleTitle: MappedDataFieldCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection klass. Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet i C#.
+description: Upptäck Aspose.Words.MailMerging.MappedDataFieldCollection för sömlös mappning av datakällfält till fält för koppling av dokument, vilket förbättrar dokumentautomationen.
 type: docs
-weight: 3870
+weight: 4560
 url: /sv/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på sammanslagningsfält i dokumentet.
+Gör det möjligt att automatiskt mappa mellan namn på fält i din datakälla och namn på fält för koppling av dokument i dokumentet.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -23,7 +23,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Hämtar eller ställer in namnet på fältet i datakällan som är kopplad till det angivna kopplingsfältet. |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Hämtar eller anger namnet på fältet i datakällan som är associerat med det angivna fältet för koppling av dokument. |
 
 ## Metoder
 
@@ -31,18 +31,18 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Lägger till en ny fältmappning. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Tar bort alla element från samlingen. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Bestämmer om en mappning från det angivna fältet i dokumentet finns i samlingen. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Bestämmer om en mappning från det angivna fältet i datakällan finns i samlingen. |
-| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Avgör om en mappning från det angivna fältet i dokumentet finns i samlingen. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Avgör om en mappning från det angivna fältet i datakällan finns i samlingen. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Returnerar ett ordboksuppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Tar bort en fältmappning. |
 
 ## Anmärkningar
 
-Detta implementeras som en samling strängnycklar i strängvärden. Nycklarna är namnen på kopplingsfälten i dokumentet och värdena är namnen på fälten i din datakälla.
+Detta implementeras som en samling strängnycklar till strängvärden. Nycklarna är namnen på fält för dokumentkoppling i dokumentet och värdena är namnen på fält i din datakälla.
 
 ## Exempel
 
-Visar hur man mappar datakolumner och MERGEFIELDs med olika namn så att data överförs mellan dem under en sammankoppling.
+Visar hur man mappar datakolumner och MERGEFIELD-fält med olika namn så att data överförs mellan dem under en dokumentkoppling.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -50,29 +50,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // Tabellen har en kolumn som heter "Column2", men det finns inga MERGEFIELDs med det namnet.
-    // Dessutom har vi ett MERGEFIELD som heter "Column3", men datakällan har inte en kolumn med det namnet.
-    // Om data från "Column2" är lämplig för "Column3" MERGEFIELD,
+    // Tabellen har en kolumn med namnet "Kolumn2", men det finns inga MERGEFIELDS med det namnet.
+    // Vi har också ett MERGEFIELD-fält med namnet "Kolumn3", men datakällan har ingen kolumn med det namnet.
+    // Om data från "Kolumn2" passar för MERGEFIELD i "Kolumn3",
     // vi kan mappa det kolumnnamnet till MERGEFIELD i nyckel/värdeparet "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Vi kan länka ett datakällas kolumnnamn till ett MERGEFIELD-namn som detta.
+    // Vi kan länka ett kolumnnamn för en datakälla till ett MERGEFIELD-namn så här.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Länka datakällans kolumn med namnet "Column2" till MERGEFIELDs med namnet "Column3".
+    // Länka datakällkolumnen med namnet "Kolumn2" till MERGEFIELDS med namnet "Kolumn3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // MERGEFIELD-namnet är "nyckeln" till respektive datakällas kolumnnamn "värde".
+    // MERGEFIELD-namnet är "nyckeln" till respektive datakällkolumnnamn "värde".
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Om vi nu kör den här kopplingen, kommer "Column3" MERGEFIELDs att ta data från "Column2" i tabellen.
+    // Om vi nu kör denna koppling av dokument, kommer "Kolumn3" MERGEFIELDS att hämta data från "Kolumn2" i tabellen.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Vi kan iterera över elementen i denna samling.
+    // Vi kan iterera över elementen i den här samlingen.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -92,7 +92,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Skapa ett dokument med 2 MERGEFIELDs, varav ett inte har en
+/// Skapa ett dokument med 2 MERGEFIELDS, varav en saknar en
 /// motsvarande kolumn i datatabellen från metoden nedan.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -108,7 +108,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Skapa en datatabell med 2 kolumner, varav en inte har en
+/// Skapa en datatabell med 2 kolumner, varav en saknar
 /// motsvarande MERGEFIELD i källdokumentet från metoden ovan.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

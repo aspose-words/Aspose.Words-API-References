@@ -2,15 +2,15 @@
 title: ImageSaveOptions.GraphicsQualityOptions
 linktitle: GraphicsQualityOptions
 articleTitle: GraphicsQualityOptions
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions GraphicsQualityOptions mülk. Görüntü oluşturma modunu ve kalitesini belirlemeye olanak tanır.Graphics nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiklerinizi ImageSaveOptions GraphicsQualityOptions özelliğiyle optimize edin, çarpıcı görseller için hassas işleme modları ve üstün kalite sağlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/imagesaveoptions/graphicsqualityoptions/
 ---
 ## ImageSaveOptions.GraphicsQualityOptions property
 
-Görüntü oluşturma modunu ve kalitesini belirlemeye olanak tanır.Graphics nesne.
+İşleme modunu ve kalitesini belirtmenize olanak tanırGraphics nesne.
 
 ```csharp
 public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
@@ -18,13 +18,13 @@ public GraphicsQualityOptions GraphicsQualityOptions { get; set; }
 
 ## Notlar
 
-Aspose.Words motoru tarafından varsayılan olarak sağlanan Grafik ayarlarını geçersiz kılmak için bu özelliği kullanın.
+Aspose.Words motorunun varsayılan olarak sağladığı Grafik ayarlarını geçersiz kılmak için bu özelliği kullanın.
 
-Yalnızca bir belge resim benzeri bir formatta kaydedildiğinde etkili olacaktır.
+Bu, yalnızca bir belgenin görüntü benzeri bir biçimde kaydedilmesi durumunda geçerli olacaktır.
 
 ## Örnekler
 
-Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken render kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

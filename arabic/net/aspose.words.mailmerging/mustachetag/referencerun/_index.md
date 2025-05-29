@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words لـ .NET
-description: MustacheTag ReferenceRun ملكية. يحصل على التشغيل الذي يحتوي على بداية العلامة في C#.
+description: اكتشف MustacheTag ReferenceRun. سجّل دخولك إلى المسار الذي يُمثّل بداية علامتك لإدارة بياناتك بسلاسة وتحسين الأداء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.mailmerging/mustachetag/referencerun/

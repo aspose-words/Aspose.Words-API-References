@@ -2,15 +2,15 @@
 title: TextBox.NoTextRotation
 linktitle: NoTextRotation
 articleTitle: NoTextRotation
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox NoTextRotation 财产. 获取或设置一个布尔值指示旋转形状时 TextBox 的文本不应旋转 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 NoTextRotation 属性控制文本框中的文本旋转。即使形状旋转，也能确保文本清晰易读。提升您的设计！
 type: docs
 weight: 80
 url: /zh/net/aspose.words.drawing/textbox/notextrotation/
 ---
 ## TextBox.NoTextRotation property
 
-获取或设置一个布尔值，指示旋转形状时 TextBox 的文本不应旋转。
+获取或设置一个布尔值，指示当形状旋转时，TextBox 的文本不应旋转。
 
 ```csharp
 public bool NoTextRotation { get; set; }
@@ -22,7 +22,7 @@ public bool NoTextRotation { get; set; }
 
 ## 例子
 
-显示如何在形状旋转时禁用文本旋转。
+展示如何在形状旋转时禁用文本旋转。
 
 ```csharp
 Document doc = new Document();

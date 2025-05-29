@@ -3,16 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: Aspose.Words per .NET
-description: Aspose.Words.NodeChangingArgs classe. Fornisce i dati per i metodi diINodeChangingCallback interfaccia in C#.
+description: Scopri la classe Aspose.Words.NodeChangingArgs, progettata per migliorare l'elaborazione dei documenti con una perfetta integrazione con INodeChangingCallback. Potenzia il tuo flusso di lavoro oggi stesso!
 type: docs
-weight: 4190
+weight: 4880
 url: /it/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
-Fornisce i dati per i metodi di[`INodeChangingCallback`](../inodechangingcallback/) interfaccia.
+Fornisce dati per i metodi di[`INodeChangingCallback`](../inodechangingcallback/) interfaccia.
 
-Per saperne di più, visita il[Modello oggetto documento Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
+Per saperne di più, visita il[Modello a oggetti del documento (DOM) di Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) articolo di documentazione.
 
 ```csharp
 public class NodeChangingArgs
@@ -22,10 +22,10 @@ public class NodeChangingArgs
 
 | Nome | Descrizione |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ottiene un valore che indica il tipo di evento di modifica del nodo che si sta verificando. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Ottiene il nodo principale che verrà impostato al termine dell'operazione. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Ottiene il file[`Node`](./node/) che viene aggiunto o rimosso. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Ottiene il genitore del nodo prima dell'inizio dell'operazione. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Ottiene un valore che indica quale tipo di evento di modifica del nodo si sta verificando. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Ottiene il nodo padre che verrà impostato al termine dell'operazione. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Ottiene il[`Node`](./node/) che viene aggiunto o rimosso. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Ottiene il nodo padre prima dell'inizio dell'operazione. |
 
 ## Esempi
 
@@ -37,8 +37,8 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Imposta il callback che modifica il nodo sull'implementazione personalizzata,
-    // quindi aggiungi/rimuovi nodi per far sì che generi un registro.
+    // Imposta il callback di modifica del nodo su implementazione personalizzata,
+    // quindi aggiungi/rimuovi nodi per generare un registro.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
 
@@ -53,8 +53,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Registra la data e l'ora di ogni inserimento e rimozione di nodo.
-/// Imposta un nome/dimensione del carattere personalizzato per il contenuto del testo dei nodi Esegui.
+/// Registra la data e l'ora di ogni inserimento e rimozione del nodo.
+/// Imposta un nome/dimensione del font personalizzato per il contenuto di testo dei nodi Esegui.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

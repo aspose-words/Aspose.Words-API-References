@@ -3,7 +3,7 @@ title: MemoryFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: MemoryFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
+description: Entdecken Sie die Eigenschaft „MemoryFontSource Type“, die Ihren Quellschrifttyp anzeigt und so Ihre Designpräzision und Kreativität steigert. Entfesseln Sie Ihr Schriftpotenzial!
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/memoryfontsource/type/

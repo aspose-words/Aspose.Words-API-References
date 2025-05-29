@@ -3,7 +3,7 @@ title: Glyph
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words для .NET
-description: Glyph строитель. Инициализирует новый экземпляр этого класса на С#.
+description: Создавайте потрясающие глифы без усилий с помощью нашего конструктора глифов. Легко инициализируйте новые экземпляры и улучшайте свои дизайнерские проекты уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.shaping/glyph/glyph/
@@ -18,10 +18,10 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| glyphIndex | Int32 | Индекс глифа. |
+| glyphIndex | Int32 | Указатель глифов. |
 | advance | Int16 | Расширенная метрика глифа. |
-| advanceOffset | Int16 | Горизонтальное смещение (x). |
-| ascenderOffset | Int16 | Вертикальное смещение (y). |
+| advanceOffset | Int16 | Смещение по горизонтали (x). |
+| ascenderOffset | Int16 | Вертикальное (y) смещение. |
 
 ### Смотрите также
 

@@ -3,14 +3,14 @@ title: FieldToc.SequenceSeparator
 linktitle: SequenceSeparator
 articleTitle: SequenceSeparator
 second_title: Aspose.Words för .NET
-description: FieldToc SequenceSeparator fast egendom. Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer i C#.
+description: Upptäck egenskapen FieldToc SequenceSeparator för att enkelt anpassa dokumentets formatering av sekvens och sidnummer. Förbättra tydlighet och organisation!
 type: docs
 weight: 150
 url: /sv/net/aspose.words.fields/fieldtoc/sequenceseparator/
 ---
 ## FieldToc.SequenceSeparator property
 
-Hämtar eller ställer in teckensekvensen som används för att separera sekvensnummer och sidnummer.
+Hämtar eller anger teckensekvensen som används för att separera sekvensnummer och sidnummer.
 
 ```csharp
 public string SequenceSeparator { get; set; }
@@ -18,32 +18,32 @@ public string SequenceSeparator { get; set; }
 
 ## Exempel
 
-Visar hur man fyller i ett innehållsförteckningsfält med poster med hjälp av SEQ-fält.
+Visar hur man fyller i ett innehållsförteckningsfält med poster med hjälp av sekvensfält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ett TOC-fält kan skapa en post i dess innehållsförteckning för varje SEQ-fält som finns i dokumentet.
-// Varje post innehåller stycket som innehåller SEQ-fältet och sidans nummer som fältet visas på.
+// Ett innehållsförteckningsfält kan skapa en post i sin innehållsförteckning för varje SEQ-fält som finns i dokumentet.
+// Varje post innehåller stycket som innehåller SEQ-fältet och sidans nummer där fältet visas.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
 // SEQ-fält visar ett antal som ökar vid varje SEQ-fält.
-// Dessa fält har också separata räkningar för varje unik namngiven sekvens
-// identifieras av SEQ-fältets "SequenceIdentifier"-egenskap.
+// Dessa fält har också separata antal för varje unik namngiven sekvens
+// identifierad av SEQ-fältets egenskap "SequenceIdentifier".
 // Använd egenskapen "TableOfFiguresLabel" för att namnge en huvudsekvens för innehållsförteckningen.
 // Nu kommer denna innehållsförteckning endast att skapa poster från SEQ-fält med deras "SequenceIdentifier" inställd på "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
 // Vi kan namnge en annan SEQ-fältsekvens i egenskapen "PrefixedSequenceIdentifier".
- // SEQ-fält från denna prefixsekvens kommer inte att skapa TOC-poster.
-// Varje TOC-post som skapas från ett SEQ-fält i huvudsekvensen kommer nu också att visa antalet som
-// Prefixsekvensen är för närvarande på i det primära sekvens SEQ-fältet som gjorde inmatningen.
+ // SEQ-fält från denna prefixsekvens skapar inte innehållsförteckningsposter.
+// Varje innehållsförteckningspost som skapas från ett huvudsekvens-SEQ-fält kommer nu också att visa antalet som
+// prefixsekvensen är för närvarande aktiverad vid det primära sekvenssekvensfältet som gjorde posten.
 fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 
-// Varje TOC-post kommer att visa prefixsekvensräkningen omedelbart till vänster
-// av sidnumret som SEQ-fältet för huvudsekvensen visas på.
-// Vi kan ange en anpassad avgränsare som kommer att visas mellan dessa två siffror.
+// Varje innehållsförteckning visar prefixsekvensantalet omedelbart till vänster
+// av sidnumret där huvudsekvensens SEQ-fält visas på.
+// Vi kan ange en anpassad avgränsare som ska visas mellan dessa två tal.
 fieldToc.SequenceSeparator = ">";
 
 Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
@@ -51,22 +51,22 @@ Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFie
 builder.InsertBreak(BreakType.PageBreak);
 
 // Det finns två sätt att använda SEQ-fält för att fylla i denna innehållsförteckning.
-// 1 - Infoga ett SEQ-fält som hör till innehållsförteckningens prefixsekvens:
-// Detta fält kommer att öka antalet SEQ-sekvenser för "PrefixSequence" med 1.
+// 1 - Infogar ett SEQ-fält som tillhör prefixsekvensen för innehållsförteckningen:
+// Det här fältet ökar antalet SEQ-sekvenser för "PrefixSequence" med 1.
 // Eftersom detta fält inte tillhör den identifierade huvudsekvensen
-// av egenskapen "TableOfFiguresLabel" för innehållsförteckningen, kommer den inte att visas som en post.
+// med egenskapen "TableOfFiguresLabel" i innehållsförteckningen kommer den inte att visas som en post.
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
 Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
 
-// 2 - Infoga ett SEQ-fält som hör till innehållsförteckningens huvudsekvens:
-// Detta SEQ-fält kommer att skapa en post i innehållsförteckningen.
-// TOC-posten kommer att innehålla stycket som SEQ-fältet finns i och numret på sidan som det visas på.
-// Den här posten visar också antalet som prefixsekvensen för närvarande är på,
-// separerat från sidnumret med värdet i TOC:s SeqenceSeparator-egenskap.
-// Antalet "PrefixSequence" är 1, detta SEQ-fält för huvudsekvensen finns på sidan 2,
+// 2 - Infogar ett SEQ-fält som tillhör innehållsförteckningens huvudsekvens:
+// Detta SEQ-fält skapar en post i innehållsförteckningen.
+// Innehållsförteckningen innehåller stycket där SEQ-fältet finns och sidnumret där det visas.
+// Denna post visar också antalet prefixsekvenser som för närvarande har,
+// separerat från sidnumret med värdet i innehållsförteckningens SeqenceSeparator-egenskap.
+// Antalet "PrefixSequence" är 1, detta huvudsekvens-SEQ-fält finns på sidan 2,
 // och avgränsaren är ">", så posten kommer att visa "1>2".
 builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
@@ -74,9 +74,9 @@ fieldSeq.SequenceIdentifier = "MySequence";
 
 Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
 
-// Infoga en sida, flytta prefixsekvensen med 2 och infoga ett SEQ-fält för att skapa en TOC-post efteråt.
-// Prefixsekvensen är nu på 2, och huvudsekvensens SEQ-fält finns på sidan 3,
-// så TOC-posten kommer att visa "2>3" vid sitt antal sidor.
+// Infoga en sida, flytta prefixsekvensen med 2 och infoga ett SEQ-fält för att skapa en innehållsförteckningspost efteråt.
+// Prefixsekvensen är nu 2, och huvudsekvensens SEQ-fält finns på sidan 3,
+// så innehållsförteckningen visar "2>3" vid sidantal.
 builder.InsertBreak(BreakType.PageBreak);
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "PrefixSequence";

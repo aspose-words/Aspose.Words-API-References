@@ -3,14 +3,14 @@ title: ViewOptions.DisplayBackgroundShape
 linktitle: DisplayBackgroundShape
 articleTitle: DisplayBackgroundShape
 second_title: Aspose.Words для .NET
-description: ViewOptions DisplayBackgroundShape свойство. Управляет отображением формы фона в виде макета печати на С#.
+description: Откройте для себя свойство DisplayBackgroundShape в ViewOptions, чтобы улучшить макет печати с помощью настраиваемых фоновых фигур для придания ему изысканного вида.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/viewoptions/displaybackgroundshape/
 ---
 ## ViewOptions.DisplayBackgroundShape property
 
-Управляет отображением формы фона в виде макета печати.
+Управляет отображением фоновой формы в режиме макета печати.
 
 ```csharp
 public bool DisplayBackgroundShape { get; set; }
@@ -21,7 +21,7 @@ public bool DisplayBackgroundShape { get; set; }
 Показывает, как скрыть/отобразить фоновые изображения документа в параметрах просмотра.
 
 ```csharp
-// Используйте строку HTML для создания нового документа с однотонным фоном.
+// Используйте HTML-строку для создания нового документа с однотонным фоновым цветом.
 const string html = 
 @"<html>
     <body style='background-color: blue'>
@@ -31,13 +31,13 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// Исходный код документа имеет плоский цветной фон,
+// Исходный документ имеет однотонный цветной фон,
 // наличие которого установит флаг "DisplayBackgroundShape" в значение "true".
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// Оставьте для параметра «DisplayBackgroundShape» значение «true», чтобы документ отображал цвет фона.
+// Оставьте «DisplayBackgroundShape» равным «true», чтобы документ отображал цвет фона.
 // Это может повлиять на некоторые цвета текста для улучшения видимости.
-// Установите для параметра «DisplayBackgroundShape» значение «false», чтобы не отображать цвет фона.
+// Установите для «DisplayBackgroundShape» значение «false», чтобы не отображать цвет фона.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");

@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words für .NET
-description: CompositeNode RemoveChild methode. Entfernt den angegebenen untergeordneten Knoten in C#.
+description: Verwalten Sie Ihren CompositeNode mühelos mit der RemoveChild-Methode, die das Entfernen von Knoten optimiert und so die Leistung und Effizienz verbessert.
 type: docs
-weight: 170
+weight: 190
 url: /de/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Entfernt den angegebenen untergeordneten Knoten.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| oldChild | Node | Der zu entfernende Knoten. |
+| oldChild | T | Der zu entfernende Knoten. |
 
 ### Rückgabewert
 
@@ -26,11 +27,11 @@ Der entfernte Knoten.
 
 ## Bemerkungen
 
-Der Elternteil von*oldChild* ist eingestellt auf`Null` nachdem der Knoten entfernt wurde.
+Das Elternteil von*oldChild* ist eingestellt auf`null` nachdem der Knoten entfernt wurde.
 
 ## Beispiele
 
-Zeigt, wie die Methoden von Node und CompositeNode verwendet werden, um einen Abschnitt vor dem letzten Abschnitt im Dokument zu entfernen.
+Zeigt, wie man mit den Methoden von Node und CompositeNode einen Abschnitt vor dem letzten Abschnitt im Dokument entfernt.
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +45,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt entfernen.
+// Entfernen Sie einen Abschnitt basierend auf seiner Geschwisterbeziehung mit einem anderen Abschnitt.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Der Abschnitt, den wir entfernt haben, war der erste, so dass nur noch der zweite im Dokument übrig blieb.
+// Wir haben den ersten Abschnitt entfernt, sodass im Dokument nur der zweite übrig blieb.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

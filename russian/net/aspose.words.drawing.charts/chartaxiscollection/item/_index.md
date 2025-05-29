@@ -3,7 +3,7 @@ title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: ChartAxisCollection Item свойство. Получает ось по указанному индексу на С#.
+description: Получите доступ к нужной вам оси с помощью свойства ChartAxisCollection Item. Упростите визуализацию данных, легко извлекая оси!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/item/

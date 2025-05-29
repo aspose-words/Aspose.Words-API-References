@@ -3,14 +3,14 @@ title: PdfSaveOptions.DigitalSignatureDetails
 linktitle: DigitalSignatureDetails
 articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions DigitalSignatureDetails свойство. Получает или задает данные для подписи выходного PDFдокумента на С#.
+description: Откройте для себя PdfSaveOptions DigitalSignatureDetails, чтобы легко управлять данными подписи PDF-файла, обеспечивая безопасный и эффективный вывод документов.
 type: docs
-weight: 70
+weight: 80
 url: /ru/net/aspose.words.saving/pdfsaveoptions/digitalsignaturedetails/
 ---
 ## PdfSaveOptions.DigitalSignatureDetails property
 
-Получает или задает данные для подписи выходного PDF-документа.
+Получает или задает данные для подписания выходного PDF-документа.
 
 ```csharp
 public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
@@ -18,7 +18,7 @@ public PdfDigitalSignatureDetails DigitalSignatureDetails { get; set; }
 
 ## Примечания
 
-Значение по умолчанию:`нулевой`и выходной документ не будет подписан. Если для этого свойства установлено допустимое значение[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, , то выходной PDF-документ будет иметь цифровую подпись.
+Значение по умолчанию:`нулевой` и выходной документ не будет подписан. Когда это свойство установлено в допустимое значение[`PdfDigitalSignatureDetails`](../../pdfdigitalsignaturedetails/) object, , то выходной PDF-документ будет иметь цифровую подпись.
 
 ## Примеры
 
@@ -31,12 +31,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Настройте объект «DigitalSignatureDetails» объекта «SaveOptions» для
-// снабжаем документ цифровой подписью при его рендеринге с помощью метода «Сохранить».
+// Настройте объект "DigitalSignatureDetails" объекта "SaveOptions" для
+// подписываем документ цифровой подписью, когда мы его отображаем с помощью метода «Сохранить».
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

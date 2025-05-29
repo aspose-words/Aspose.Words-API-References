@@ -2,15 +2,15 @@
 title: Stroke.BackColor
 linktitle: BackColor
 articleTitle: BackColor
-second_title: 用于 .NET 的 Aspose.Words
-description: Stroke BackColor 财产. 获取或设置笔划的背景颜色 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用“描边背景色”属性自定义描边的背景颜色。使用鲜艳、个性化的色彩，打造独特的外观，提升您的设计效果。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing/stroke/backcolor/
 ---
 ## Stroke.BackColor property
 
-获取或设置笔划的背景颜色。
+获取或设置笔触的背景颜色。
 
 ```csharp
 public Color BackColor { get; set; }
@@ -18,7 +18,7 @@ public Color BackColor { get; set; }
 
 ## 评论
 
-a 的默认值[`Shape`](../../shape/)is White。
+的默认值[`Shape`](../../shape/)is White.
 
 ## 例子
 

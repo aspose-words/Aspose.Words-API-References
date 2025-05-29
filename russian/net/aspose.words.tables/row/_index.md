@@ -3,16 +3,16 @@ title: Row Class
 linktitle: Row
 articleTitle: Row
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.Row сорт. Представляет строку таблицы на С#.
+description: Откройте для себя класс Aspose.Words.Tables.Row для бесшовного управления строками таблиц в ваших документах. Улучшите обработку документов с помощью мощных функций!
 type: docs
-weight: 6310
+weight: 7160
 url: /ru/net/aspose.words.tables/row/
 ---
 ## Row class
 
 Представляет строку таблицы.
 
-Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) документальная статья.
 
 ```csharp
 public class Row : CompositeNode
@@ -28,26 +28,26 @@ public class Row : CompositeNode
 
 | Имя | Описание |
 | --- | --- |
-| [Cells](../../aspose.words.tables/row/cells/) { get; } | Обеспечивает типизированный доступ к[`Cell`](../cell/) дочерние узлы строки. |
-| [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных дочерних элементов этого узла. |
+| [Cells](../../aspose.words.tables/row/cells/) { get; } | Предоставляет типизированный доступ к[`Cell`](../cell/) дочерние узлы строки. |
+| [Count](../../aspose.words/compositenode/count/) { get; } | Получает количество непосредственных потомков этого узла. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, к которому принадлежит этот узел. |
 | [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Возвращает первый[`Cell`](../cell/) в строке. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первого дочернего элемента узла. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возвращает`истинный` если у этого узла есть дочерние узлы. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возвращает`истинный` поскольку этот узел может иметь дочерние узлы. |
-| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | True, если это первая строка в таблице; ложь в противном случае. |
-| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True, если это последняя строка в таблице; ложь в противном случае. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Получает первый дочерний элемент узла. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Возврат`истинный` если у этого узла есть дочерние узлы. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Возврат`истинный` так как этот узел может иметь дочерние узлы. |
+| [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | True, если это первая строка в таблице; в противном случае false. |
+| [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True, если это последняя строка в таблице; в противном случае false. |
 | [LastCell](../../aspose.words.tables/row/lastcell/) { get; } | Возвращает последний[`Cell`](../cell/) в строке. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последнего дочернего узла узла. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Получает последний дочерний элемент узла. |
 | [NextRow](../../aspose.words.tables/row/nextrow/) { get; } | Получает следующий`Row` узел. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | ВозвращаетRow . |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за данным узлом. |
+| override [NodeType](../../aspose.words.tables/row/nodetype/) { get; } | ВозвратRow . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
 | [ParentTable](../../aspose.words.tables/row/parenttable/) { get; } | Возвращает непосредственную родительскую таблицу строки. |
-| [PreviousRow](../../aspose.words.tables/row/previousrow/) { get; } | Получает предыдущее`Row` узел. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/) объект, представляющий часть документа, содержащуюся в этом узле. |
+| [PreviousRow](../../aspose.words.tables/row/previousrow/) { get; } | Получает предыдущий`Row` узел. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий данному узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/)объект, представляющий часть документа, содержащуюся в этом узле. |
 | [RowFormat](../../aspose.words.tables/row/rowformat/) { get; } | Предоставляет доступ к свойствам форматирования строки. |
 
 ## Методы
@@ -55,7 +55,9 @@ public class Row : CompositeNode
 | Имя | Описание |
 | --- | --- |
 | override [Accept](../../aspose.words.tables/row/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в конец списка дочерних узлов для этого узла. |
+| override [AcceptEnd](../../aspose.words.tables/row/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя для посещения конца ряда. |
+| override [AcceptStart](../../aspose.words.tables/row/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Принимает посетителя для посещения начала строки. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Добавляет указанный узел в конец списка дочерних узлов для данного узла. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Создает дубликат узла. |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Создает навигатор, который можно использовать для перемещения и чтения узлов. |
 | [EnsureMinimum](../../aspose.words.tables/row/ensureminimum/)() | Если`Row` не имеет ячеек, создает и добавляет одну[`Cell`](../cell/) . |
@@ -63,20 +65,20 @@ public class Row : CompositeNode
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Возвращает N-й дочерний узел, соответствующий указанному типу. |
 | [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Возвращает живую коллекцию дочерних узлов, соответствующих указанному типу. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Обеспечивает поддержку для каждой итерации стиля по дочерним узлам этого узла. |
 | override [GetText](../../aspose.words.tables/row/gettext/)() | Получает текст всех ячеек в этой строке, включая символ конца строки. |
 | [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного дочернего узла в массиве дочерних узлов. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Добавляет указанный узел в начало списка дочерних узлов для этого узла. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Вставляет указанный узел сразу после указанного ссылочного узла. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Вставляет указанный узел непосредственно перед указанным ссылочным узлом. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Добавляет указанный узел в начало списка дочерних узлов для данного узла. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Удаляет все дочерние узлы текущего узла. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Удаляет указанный дочерний узел. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/)узлы-потомки текущего узла. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Удаляет указанный дочерний узел. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Удаляет все[`SmartTag`](../../aspose.words.markup/smarttag/) узлы-потомки текущего узла. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Выбирает список узлов, соответствующих выражению XPath. |
-| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../../aspose.words/node/) которое соответствует выражению XPath. |
+| [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Выбирает первый[`Node`](../../aspose.words/node/) что соответствует выражению XPath. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
@@ -86,7 +88,7 @@ public class Row : CompositeNode
 
 `Row` может содержать один или несколько[`Cell`](../cell/) узлы.
 
-Минимальная допустимая строка должна иметь хотя бы одну[`Cell`](../cell/).
+Минимально допустимая строка должна иметь хотя бы один[`Cell`](../cell/).
 
 ## Примеры
 
@@ -97,10 +99,10 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Таблицы содержат строки, содержащие ячейки, которые могут иметь абзацы
-// с типичными элементами, такими как прогоны, фигуры и даже другие таблицы.
-// Вызов метода EnsureMinimum для таблицы гарантирует, что
-// в таблице есть хотя бы одна строка, ячейка и абзац.
+// Таблицы содержат строки, которые содержат ячейки, которые могут иметь абзацы
+// с типичными элементами, такими как ряды, фигуры и даже другие таблицы.
+// Вызов метода "EnsureMinimum" для таблицы гарантирует, что
+// таблица имеет как минимум одну строку, ячейку и абзац.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -110,14 +112,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Добавляем текст к первому вызову в первой строке таблицы.
+// Добавляем текст в первую ячейку первой строки таблицы.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -131,7 +133,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Мы можем использовать метод ToArray для коллекции строк, чтобы клонировать ее в массив.
+    // Мы можем использовать метод «ToArray» для коллекции строк, чтобы клонировать ее в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -141,7 +143,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Мы можем использовать метод ToArray для коллекции ячеек, чтобы клонировать ее в массив.
+        // Мы можем использовать метод «ToArray» для коллекции ячеек, чтобы клонировать ее в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -158,7 +160,7 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-Показывает, как построить вложенную таблицу без использования построителя документов.
+Показывает, как построить вложенную таблицу без использования конструктора документов.
 
 ```csharp
 public void CreateNestedTable()
@@ -169,7 +171,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Создайте еще одну таблицу с двумя строками и двумя столбцами, а затем вставьте ее в первую ячейку первой таблицы.
+    // Создаем еще одну таблицу с двумя строками и двумя столбцами, а затем вставляем ее в первую ячейку первой таблицы.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -177,7 +179,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Создает в документе новую таблицу с заданными размерами и текстом в каждой ячейке.
+/// Создает новую таблицу в документе с заданными размерами и текстом в каждой ячейке.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -198,10 +200,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Вы можете использовать свойства «Название» и «Описание», чтобы добавить в таблицу заголовок и описание соответственно.
-    // В таблице должна быть хотя бы одна строка, прежде чем мы сможем использовать эти свойства.
-    // Эти свойства имеют смысл для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
-    // Если мы сохраним документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
+    // Вы можете использовать свойства «Заголовок» и «Описание», чтобы добавить заголовок и описание к вашей таблице соответственно.
+    // Таблица должна иметь хотя бы одну строку, прежде чем мы сможем использовать эти свойства.
+    // Эти свойства имеют значение для документов .docx, соответствующих стандарту ISO/IEC 29500 (см. класс OoxmlCompliance).
+    // Если мы сохраняем документ в форматах, предшествующих ISO/IEC 29500, Microsoft Word игнорирует эти свойства.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

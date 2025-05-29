@@ -3,16 +3,16 @@ title: Hyphenation Class
 linktitle: Hyphenation
 articleTitle: Hyphenation
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Hyphenation classe. Fournit des méthodes pour travailler avec des dictionnaires de césure. Ces dictionnaires prescrivent où les mots dune langue spécifique peuvent être coupés en C#.
+description: Découvrez la classe Aspose.Words.Hyphenation pour une gestion efficace de la césure. Améliorez vos documents avec des règles de césure précises et spécifiques à chaque langue.
 type: docs
-weight: 3150
+weight: 3580
 url: /fr/net/aspose.words/hyphenation/
 ---
 ## Hyphenation class
 
-Fournit des méthodes pour travailler avec des dictionnaires de césure. Ces dictionnaires prescrivent où les mots d'une langue spécifique peuvent être coupés.
+Fournit des méthodes pour travailler avec des dictionnaires de césure. Ces dictionnaires indiquent où les mots d'une langue donnée peuvent être coupés.
 
-Pour en savoir plus, visitez le[Travailler avec la césure](https://docs.aspose.com/words/net/working-with-hyphenation/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec la césure](https://docs.aspose.com/words/net/working-with-hyphenation/) article de documentation.
 
 ```csharp
 public static class Hyphenation
@@ -23,25 +23,25 @@ public static class Hyphenation
 | Nom | La description |
 | --- | --- |
 | static [Callback](../../aspose.words/hyphenation/callback/) { get; set; } | Obtient ou définit l'interface de rappel utilisée pour demander des dictionnaires lors de la création de la mise en page du document. Cela permet de retarder le chargement des dictionnaires, ce qui peut être utile lors du traitement de documents dans de nombreuses langues. |
-| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Appelé lors d'un chargement de modèles de césure, lorsqu'un problème susceptible d'entraîner une perte de fidélité du formatage est détecté. |
+| static [WarningCallback](../../aspose.words/hyphenation/warningcallback/) { get; set; } | Appelé lors du chargement de modèles de césure, lorsqu'un problème est détecté qui pourrait entraîner une perte de fidélité du formatage. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
-| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Retours`FAUX` si pour la langue spécifiée aucun dictionnaire n'est enregistré ou s'il s'agit d'un dictionnaire nul,`vrai` sinon. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un flux. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
-| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir du fichier. Lance si le dictionnaire ne peut pas être lu ou a un format non valide. |
-| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Désenregistre un dictionnaire de césure pour la langue spécifiée. |
+| static [IsDictionaryRegistered](../../aspose.words/hyphenation/isdictionaryregistered/)(*string*) | Retours`FAUX` si pour la langue spécifiée il n'y a pas de dictionnaire enregistré ou si le dictionnaire enregistré est nul,`vrai` sinon. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary)(*string, Stream*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un flux. Lève une requête si le dictionnaire est illisible ou son format est invalide. |
+| static [RegisterDictionary](../../aspose.words/hyphenation/registerdictionary/#registerdictionary_1)(*string, string*) | Enregistre et charge un dictionnaire de césure pour la langue spécifiée à partir d'un fichier. L'erreur est générée si le dictionnaire est illisible ou son format est invalide. |
+| static [UnregisterDictionary](../../aspose.words/hyphenation/unregisterdictionary/)(*string*) | Annule l'enregistrement d'un dictionnaire de césure pour la langue spécifiée. |
 
 ## Exemples
 
-Montre comment ouvrir et enregistrer un dictionnaire à partir d’un fichier.
+Montre comment ouvrir et enregistrer un dictionnaire à partir d'un fichier.
 
 ```csharp
 public void RegisterDictionary()
 {
-    // Configure un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
+    // Configurez un rappel qui suit les avertissements qui se produisent lors de l'enregistrement du dictionnaire de césure.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
@@ -51,22 +51,23 @@ public void RegisterDictionary()
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Ouvrir un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, comme l'allemand.
+    // Ouvrez un document avec des paramètres régionaux que Microsoft Word ne peut pas couper sur une machine anglaise, comme l'allemand.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Pour couper ce document lors de l'enregistrement, nous avons besoin d'un dictionnaire de césure pour le code de langue "de-CH".
-    // Ce rappel gérera la requête automatique pour ce dictionnaire.
+    // Pour couper ce document lors de l'enregistrement, nous avons besoin d'un dictionnaire de coupure pour le code de langue « de-CH ».
+    // Ce rappel gérera la demande automatique de ce dictionnaire.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Lorsque nous enregistrons le document, la césure allemande prendra effet.
+    // Lorsque nous enregistrons le document, la césure allemande prend effet.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Ce dictionnaire contient deux modèles identiques, qui déclencheront un avertissement.
+    // Ce dictionnaire contient deux modèles identiques, ce qui déclenchera un avertissement.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

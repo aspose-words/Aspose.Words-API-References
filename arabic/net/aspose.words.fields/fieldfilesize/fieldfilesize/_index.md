@@ -3,7 +3,7 @@ title: FieldFileSize
 linktitle: FieldFileSize
 articleTitle: FieldFileSize
 second_title: Aspose.Words لـ .NET
-description: FieldFileSize البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldFileSize - الحل الأمثل لإدارة حجم الملفات بكفاءة. بسّط برمجة ملفاتك باستخدام مُنشئنا الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldfilesize/fieldfilesize/

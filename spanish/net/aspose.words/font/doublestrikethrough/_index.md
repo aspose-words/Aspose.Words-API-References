@@ -3,14 +3,14 @@ title: Font.DoubleStrikeThrough
 linktitle: DoubleStrikeThrough
 articleTitle: DoubleStrikeThrough
 second_title: Aspose.Words para .NET
-description: Font DoubleStrikeThrough propiedad. Verdadero si la fuente tiene el formato de texto tachado doble en C#.
+description: Descubra la propiedad Font DoubleStrikeThrough. Formatee fácilmente el texto con doble tachado para mejorar la claridad y el estilo de sus documentos.
 type: docs
 weight: 90
 url: /es/net/aspose.words/font/doublestrikethrough/
 ---
 ## Font.DoubleStrikeThrough property
 
-Verdadero si la fuente tiene el formato de texto tachado doble.
+Verdadero si la fuente está formateada como texto tachado doble.
 
 ```csharp
 public bool DoubleStrikeThrough { get; set; }
@@ -18,7 +18,7 @@ public bool DoubleStrikeThrough { get; set; }
 
 ## Ejemplos
 
-Muestra cómo agregar una línea tachada al texto.
+Muestra cómo agregar un tachado de línea al texto.
 
 ```csharp
 Document doc = new Document();

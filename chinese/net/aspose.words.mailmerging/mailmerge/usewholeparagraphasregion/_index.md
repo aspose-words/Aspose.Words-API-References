@@ -2,15 +2,15 @@
 title: MailMerge.UseWholeParagraphAsRegion
 linktitle: UseWholeParagraphAsRegion
 articleTitle: UseWholeParagraphAsRegion
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge UseWholeParagraphAsRegion 财产. 获取或设置一个值指示整个段落是否包含开始表或者桌尾field 或之间的特定范围开始表和桌尾字段应包含在邮件合并区域中 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 MailMerge UseWholeParagraphAsRegion 属性来增强邮件合并区域，确保完全控制内容包含。
 type: docs
 weight: 160
 url: /zh/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-获取或设置一个值，指示整个段落是否包含**开始表**或者**桌尾**field 或之间的特定范围**开始表**和**桌尾**字段应包含在邮件合并区域中。
+获取或设置一个值，指示整个段落是否**表开始**或者**桌尾**field 或之间的特定范围**表开始**和**桌尾**字段应包含在邮件合并区域中。
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -30,12 +30,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // 默认情况下，一个段落只能属于一个邮件合并区域。
-    // 我们文档的内容不符合这些标准。
+    // 默认情况下，一个段落最多只能属于一个邮件合并区域。
+    // 我们的文档内容不符合这些标准。
     // 如果我们将“UseWholeParagraphAsRegion”标志设置为“true”，
     // 对此文档运行邮件合并将引发异常。
     // 如果我们将“UseWholeParagraphAsRegion”标志设置为“false”，
-    // 我们将能够对此文档执行邮件合并。
+    // 我们将能够对该文档执行邮件合并。
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -43,13 +43,13 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // 邮件合并填充我们的第一个区域，同时保留第二个区域未使用
-    // 因为这是违反规则的区域。
+    // 邮件合并填充了我们的第一个区域，而第二个区域未被使用
+    // 因为它是违反规则的区域。
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
 /// <summary>
-/// 创建一个文档，其中两个邮件合并区域共享一个段落。
+/// 创建一个其中两个邮件合并区域共享一个段落的文档。
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {

@@ -3,7 +3,7 @@ title: FieldAddIn
 linktitle: FieldAddIn
 articleTitle: FieldAddIn
 second_title: Aspose.Words para .NET
-description: FieldAddIn constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldAddIn: su solución ideal para una integración perfecta. ¡Desbloquee hoy mismo potentes funciones con nuestro constructor predeterminado intuitivo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldaddin/fieldaddin/

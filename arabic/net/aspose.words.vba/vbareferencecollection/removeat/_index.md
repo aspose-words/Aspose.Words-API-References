@@ -3,14 +3,14 @@ title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words لـ .NET
-description: VbaReferenceCollection RemoveAt طريقة. يزيلVbaReference العنصر في الفهرس المحدد للمجموعة في C#.
+description: قم بإدارة VbaReferenceCollection بسهولة باستخدام طريقة RemoveAt لحذف العناصر حسب الفهرس، مما يعزز كفاءة ترميز VBA لديك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.vba/vbareferencecollection/removeat/
 ---
 ## VbaReferenceCollection.RemoveAt method
 
-يزيل[`VbaReference`](../../vbareference/) العنصر في الفهرس المحدد للمجموعة.
+يزيل[`VbaReference`](../../vbareference/) عنصر في الفهرس المحدد للمجموعة.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

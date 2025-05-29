@@ -3,14 +3,14 @@ title: Bookmark.FirstColumn
 linktitle: FirstColumn
 articleTitle: FirstColumn
 second_title: Aspose.Words per .NET
-description: Bookmark FirstColumn proprietà. Ottiene lindice in base zero della prima colonna dellintervallo di colonne della tabella associato al segnalibro in C#.
+description: Scopri la proprietà FirstColumn. Accedi facilmente all'indice a partire da zero della prima colonna nell'intervallo di segnalibri della tua tabella per una gestione efficiente dei dati.
 type: docs
 weight: 30
 url: /it/net/aspose.words/bookmark/firstcolumn/
 ---
 ## Bookmark.FirstColumn property
 
-Ottiene l'indice in base zero della prima colonna dell'intervallo di colonne della tabella associato al segnalibro.
+Ottiene l'indice basato su zero della prima colonna dell'intervallo di colonne della tabella associato al segnalibro.
 
 ```csharp
 public int FirstColumn { get; }
@@ -29,14 +29,14 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Se un segnalibro racchiude colonne di una tabella, è un segnalibro di colonna di tabella e il relativo flag IsColumn è impostato su true.
+    // Se un segnalibro racchiude colonne di una tabella, si tratta di un segnalibro di colonna di tabella e il suo flag IsColumn è impostato su true.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {
         if (bookmark.BookmarkStart.GetAncestor(NodeType.Row) is Row row &&
             bookmark.FirstColumn < row.Cells.Count)
         {
-            // Stampa il contenuto della prima e dell'ultima colonna racchiusa dal segnalibro.
+            // Stampa il contenuto della prima e dell'ultima colonna racchiuse dal segnalibro.
             Console.WriteLine(row.Cells[bookmark.FirstColumn].GetText().TrimEnd(ControlChar.CellChar));
             Console.WriteLine(row.Cells[bookmark.LastColumn].GetText().TrimEnd(ControlChar.CellChar));
         }

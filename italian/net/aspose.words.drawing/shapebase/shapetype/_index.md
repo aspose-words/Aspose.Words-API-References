@@ -3,9 +3,9 @@ title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words per .NET
-description: ShapeBase ShapeType proprietà. Ottiene il tipo di forma in C#.
+description: Scopri la proprietà ShapeBase ShapeType per accedere e definire facilmente i tuoi tipi di forma, migliorando le tue capacità di progettazione e l'efficienza del progetto.
 type: docs
-weight: 500
+weight: 530
 url: /it/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -18,7 +18,7 @@ public ShapeType ShapeType { get; }
 
 ## Esempi
 
-Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un visitatore del documento.
+Mostra come creare un gruppo di forme e stamparne il contenuto utilizzando un documento visitatore.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Se è necessario creare forme "Non Primitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // utilizzare i metodi DocumentBuilder.InsertShape.
+    // Se è necessario creare forme "NonPrimitive", come SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // AngoliSuperioriUnoArrotondatoUnoTagliato, AngoloSingoloArrotondato, AngoliSuperioriArrotondati, AngoliDiagonaliArrotondati
+    // si prega di utilizzare i metodi DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

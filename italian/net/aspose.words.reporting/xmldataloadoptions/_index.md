@@ -3,9 +3,9 @@ title: XmlDataLoadOptions Class
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Reporting.XmlDataLoadOptions classe. Rappresenta le opzioni per il caricamento dei dati XML in C#.
+description: Scopri Aspose.Words.Reporting.XmlDataLoadOptions per un caricamento efficiente dei dati XML. Ottimizza l'elaborazione dei tuoi documenti con opzioni di configurazione flessibili.
 type: docs
-weight: 4740
+weight: 5480
 url: /it/net/aspose.words.reporting/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions class
@@ -22,13 +22,13 @@ public class XmlDataLoadOptions
 
 | Nome | Descrizione |
 | --- | --- |
-| [XmlDataLoadOptions](xmldataloadoptions/)() | Inizializza una nuova istanza di questa classe con le opzioni predefinite. |
+| [XmlDataLoadOptions](xmldataloadoptions/)() | Inizializza una nuova istanza di questa classe con opzioni predefinite. |
 
 ## Proprietà
 
 | Nome | Descrizione |
 | --- | --- |
-| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ottiene o imposta un flag che indica se un'origine dati generata conterrà sempre un oggetto per un elemento radice XML . Se un elemento root XML non ha attributi e tutti i suoi elementi figlio hanno gli stessi nomi, tale oggetto non viene creato per impostazione predefinita. |
+| [AlwaysGenerateRootObject](../../aspose.words.reporting/xmldataloadoptions/alwaysgeneraterootobject/) { get; set; } | Ottiene o imposta un flag che indica se un'origine dati generata conterrà sempre un oggetto per un elemento XML radice . Se un elemento XML radice non ha attributi e tutti i suoi elementi figlio hanno gli stessi nomi, tale oggetto non viene creato per impostazione predefinita. |
 
 ## Osservazioni
 

@@ -2,15 +2,15 @@
 title: MailMergeSettings.Destination
 linktitle: Destination
 articleTitle: Destination
-second_title: Aspose.Words for .NET
-description: MailMergeSettings Destination mülk. Microsoft Wordün adresmektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değerDefault  C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'de MailMergeSettings Destination özelliğini, özelleştirilmiş posta birleştirme çıktıları için nasıl özelleştireceğinizi keşfedin. Belge verimliliğinizi bugün en üst düzeye çıkarın!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-Microsoft Word'ün adres-mektup birleştirmenin sonuçlarını nasıl çıkaracağını belirtir. Varsayılan değer:Default .
+Microsoft Word'ün bir posta birleştirme işleminin sonuçlarını nasıl çıktı vereceğini belirtir. Varsayılan değerDefault .
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
@@ -18,7 +18,7 @@ public MailMergeDestination Destination { get; set; }
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

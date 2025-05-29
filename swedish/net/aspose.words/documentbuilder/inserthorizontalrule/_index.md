@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertHorizontalRule
 linktitle: InsertHorizontalRule
 articleTitle: InsertHorizontalRule
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertHorizontalRule metod. Infogar en horisontell regelform i dokumentet i C#.
+description: Förbättra dina dokument med DocumentBuilder InsertHorizontalRule-metoden och lägg enkelt till snygga horisontella linjer för bättre organisation och visuellt tilltalande.
 type: docs
-weight: 340
+weight: 370
 url: /sv/net/aspose.words/documentbuilder/inserthorizontalrule/
 ---
 ## DocumentBuilder.InsertHorizontalRule method
 
-Infogar en horisontell regelform i dokumentet.
+Infogar en horisontell linjeform i dokumentet.
 
 ```csharp
 public Shape InsertHorizontalRule()
@@ -18,11 +18,11 @@ public Shape InsertHorizontalRule()
 
 ### Returvärde
 
-Formen som är en horisontell regel.
+Formen som är en horisontell linje.
 
 ## Exempel
 
-Visar hur man infogar en horisontell regelform och anpassar dess formatering.
+Visar hur man infogar en horisontell linjeform och anpassar dess formatering.
 
 ```csharp
 Document doc = new Document();

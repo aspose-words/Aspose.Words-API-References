@@ -3,14 +3,14 @@ title: FormField.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: FormField Type ملكية. إرجاع نوع حقل النموذج في C#.
+description: اكتشف خاصية FormField Type لتتمكن من التعرف بسهولة على أنواع حقول النماذج المختلفة والاستفادة منها، مما يعزز وظائف نماذج الويب لديك وتجربة المستخدم.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.fields/formfield/type/
 ---
 ## FormField.Type property
 
-إرجاع نوع حقل النموذج.
+يعيد نوع حقل النموذج.
 
 ```csharp
 public FieldType Type { get; }
@@ -18,7 +18,7 @@ public FieldType Type { get; }
 
 ## أمثلة
 
-يوضح كيفية إدراج مربع التحرير والسرد.
+يوضح كيفية إدراج مربع المجموعة.
 
 ```csharp
 Document doc = new Document();
@@ -26,14 +26,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please select a fruit: ");
 
-// أدخل مربع التحرير والسرد الذي سيسمح للمستخدم باختيار خيار من مجموعة من السلاسل.
+// أدخل مربعًا مركبًا يسمح للمستخدم باختيار خيار من مجموعة من السلاسل.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
 Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// سيظهر حقل النموذج على شكل علامة html "تحديد".
+//سيظهر حقل النموذج في شكل علامة HTML "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

@@ -3,14 +3,14 @@ title: IHyphenationCallback Interface
 linktitle: IHyphenationCallback
 articleTitle: IHyphenationCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.IHyphenationCallback koppel. Wird von Klassen implementiert die Silbentrennungswörterbücher registrieren können in C#.
+description: Erkunden Sie die Aspose.Words.IHyphenationCallback-Schnittstelle, um Silbentrennungswörterbücher für eine verbesserte Dokumentformatierung einfach zu implementieren und zu registrieren.
 type: docs
-weight: 3190
+weight: 3630
 url: /de/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
 
-Wird von Klassen implementiert, die Silbentrennungswörterbücher registrieren können.
+Implementiert durch Klassen, die Silbentrennungswörterbücher registrieren können.
 
 ```csharp
 public interface IHyphenationCallback
@@ -24,7 +24,7 @@ public interface IHyphenationCallback
 
 ## Beispiele
 
-Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
+Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
 
 ```csharp
 public void RegisterDictionary()
@@ -39,11 +39,11 @@ public void RegisterDictionary()
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischsprachigen Computer möglicherweise nicht trennt, z. B. Deutsch.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
-    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
+    // Um das Dokument beim Speichern mit Silbentrennung zu versehen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anforderung für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.
@@ -55,10 +55,11 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Ordnet ISO-Sprachcodes lokalen Systemdateinamen für Silbentrennungswörterbuchdateien zu.
+/// Verknüpft ISO-Sprachcodes mit lokalen Systemdateinamen für Silbentrennungswörterbuchdateien.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

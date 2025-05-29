@@ -3,14 +3,14 @@ title: ParagraphFormat.FarEastLineBreakControl
 linktitle: FarEastLineBreakControl
 articleTitle: FarEastLineBreakControl
 second_title: Aspose.Words para .NET
-description: ParagraphFormat FarEastLineBreakControl propiedad. Obtiene o establece una marca que indica si se aplican las reglas de salto de línea de Asia Oriental al párrafo actual en C#.
+description: Descubra la propiedad ParagraphFormat FarEastLineBreakControl, que habilita reglas de salto de línea del este de Asia para un formato de texto preciso en sus documentos.
 type: docs
 weight: 110
 url: /es/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-Obtiene o establece una marca que indica si se aplican las reglas de salto de línea de Asia Oriental al párrafo actual.
+Obtiene o establece un indicador que indica si se aplican las reglas de salto de línea del este de Asia al párrafo actual.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }

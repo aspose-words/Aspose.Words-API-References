@@ -3,14 +3,14 @@ title: SignOptions.DecryptionPassword
 linktitle: DecryptionPassword
 articleTitle: DecryptionPassword
 second_title: Aspose.Words для .NET
-description: SignOptions DecryptionPassword свойство. Пароль для расшифровки исходного документа. Значение по умолчаниюпустая строка Empty на С#.
+description: Разблокируйте свои документы без усилий с помощью функции DecryptionPassword от SignOptions. Безопасно расшифруйте исходные файлы с легкостью; по умолчанию — пустая строка.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Пароль для расшифровки исходного документа. Значение по умолчанию:**пустая строка** (Empty).
+Пароль для расшифровки исходного документа. Значение по умолчанию:**пустая строка** (Empty ).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -18,7 +18,7 @@ public string DecryptionPassword { get; set; }
 
 ## Примечания
 
-Если документ OOXML зашифрован, вам необходимо предоставить пароль расшифровки для расшифровки исходного документа перед его подписанием. Это не требуется для документов в двоичном формате DOC.
+Если документ OOXML зашифрован, необходимо указать пароль дешифрования для расшифровки исходного документа перед его подписанием. Это не требуется для документов в двоичном формате DOC.
 
 ## Примеры
 
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// Установите имя локального системного файла для неподписанного входного документа и имя выходного файла для его новой копии с цифровой подписью.
+// Задайте имя локального системного файла для неподписанного входного документа и имя выходного файла для его новой копии с цифровой подписью.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

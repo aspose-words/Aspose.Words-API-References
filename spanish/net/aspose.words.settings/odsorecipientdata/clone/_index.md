@@ -3,7 +3,7 @@ title: OdsoRecipientData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words para .NET
-description: OdsoRecipientData Clone método. Devuelve un clon profundo de este objeto en C#.
+description: Cree fácilmente un clon profundo de su objeto OdsoRecipientData con nuestro método Clone. ¡Mejore la gestión de sus datos con facilidad y eficiencia!
 type: docs
 weight: 60
 url: /es/net/aspose.words.settings/odsorecipientdata/clone/
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

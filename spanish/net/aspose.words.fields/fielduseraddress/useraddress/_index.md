@@ -3,7 +3,7 @@ title: FieldUserAddress.UserAddress
 linktitle: UserAddress
 articleTitle: UserAddress
 second_title: Aspose.Words para .NET
-description: FieldUserAddress UserAddress propiedad. Obtiene o establece la dirección postal del usuario actual en C#.
+description: Administre fácilmente las direcciones postales de los usuarios con la propiedad FieldUserAddress. Recupere y actualice fácilmente la información actual del usuario para una experiencia mejorada.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fielduseraddress/useraddress/
@@ -23,7 +23,7 @@ Muestra cómo utilizar el campo USERADDRESS.
 ```csharp
 Document doc = new Document();
 
-// Crea un objeto UserInformation y configúralo como fuente de información del usuario para cualquier campo que creemos.
+// Cree un objeto UserInformation y configúrelo como la fuente de información del usuario para cualquier campo que creemos.
 UserInformation userInformation = new UserInformation();
 userInformation.Address = "123 Main Street";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -35,7 +35,7 @@ FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldT
 Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
 Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
 
- // Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
+//Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 

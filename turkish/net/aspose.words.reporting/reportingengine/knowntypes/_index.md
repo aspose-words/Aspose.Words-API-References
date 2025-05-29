@@ -2,15 +2,15 @@
 title: ReportingEngine.KnownTypes
 linktitle: KnownTypes
 articleTitle: KnownTypes
-second_title: Aspose.Words for .NET
-description: ReportingEngine KnownTypes mülk. Aşağıdakileri içeren sırasız bir kümeyi yani benzersiz öğelerden oluşan bir koleksiyon alırTypekarşılık gelen türlerin statik üyelerini çağırmak tür dönüştürmeleri gerçekleştirmek vb. için bu motor örneği tarafından işlenen rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabileceği nesneler  C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz rapor şablonu entegrasyonu ve etkili tip dönüşümü için benzersiz bir Tip nesneleri koleksiyonu olan ReportingEngine KnownTypes özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.reporting/reportingengine/knowntypes/
 ---
 ## ReportingEngine.KnownTypes property
 
-Aşağıdakileri içeren sırasız bir kümeyi (yani benzersiz öğelerden oluşan bir koleksiyon) alırTypekarşılık gelen türlerin statik üyelerini çağırmak, tür dönüştürmeleri gerçekleştirmek vb. için bu motor örneği tarafından işlenen rapor şablonları içinde tamamen veya kısmen nitelenmiş adların kullanılabileceği nesneler .
+Aşağıdakileri içeren sıralanmamış bir küme (yani benzersiz öğelerden oluşan bir koleksiyon) alır:Type Bu engine örneği tarafından işlenen rapor şablonları içerisinde ilgili türlerin statik üyelerini çağırmak, tür dönüştürmeleri gerçekleştirmek vb. için tam veya kısmen nitelikli adları kullanılabilen nesneler
 
 ```csharp
 public KnownTypeSet KnownTypes { get; }

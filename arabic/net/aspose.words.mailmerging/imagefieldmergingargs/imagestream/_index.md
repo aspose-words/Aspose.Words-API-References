@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words لـ .NET
-description: ImageFieldMergingArgs ImageStream ملكية. تحديد الدفق لمحرك دمج المراسلات لقراءة الصورة منه في C#.
+description: اكتشف كيف تعمل خاصية ImageFieldMergingArgs ImageStream على تعزيز دمج البريد الخاص بك من خلال دمج الصور بسلاسة للحصول على نتائج احترافية.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
 ---
 ## ImageFieldMergingArgs.ImageStream property
 
-تحديد الدفق لمحرك دمج المراسلات لقراءة الصورة منه.
+يحدد التدفق الذي سيقرأ منه محرك دمج البريد صورة.
 
 ```csharp
 public Stream ImageStream { get; set; }
@@ -18,7 +18,7 @@ public Stream ImageStream { get; set; }
 
 ## ملاحظات
 
-يقوم Aspose.Words بإغلاق هذا الدفق بعد أن يقوم بدمج الصورة في المستند.
+يقوم Aspose.Words بإغلاق هذا الدفق بعد دمج الصورة في المستند.
 
 ## أمثلة
 
@@ -52,11 +52,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 
     /// <summary>
-    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند الذي يحتوي على علامة "صورة:" في اسمه.
+    /// يتم استدعاء هذا عندما يواجه دمج البريد MERGEFIELD في المستند مع علامة "Image:" في اسمه.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

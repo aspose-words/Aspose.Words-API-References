@@ -3,14 +3,14 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words pour .NET
-description: IChartDataPoint Explosion propriété. Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif négatif signifie que la propriété nest pas définie et quaucune explosion ne doit être appliquée. Sapplique uniquement aux diagrammes circulaires en C#.
+description: Découvrez la propriété Explosion IChartDataPoint pour les graphiques à secteurs. Contrôlez le positionnement précis des points de données et améliorez la narration visuelle de vos données dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-Spécifie la distance à laquelle le point de données doit être déplacé du centre du secteur. Peut être négatif, négatif signifie que la propriété n'est pas définie et qu'aucune explosion ne doit être appliquée. S'applique uniquement aux diagrammes circulaires.
+Spécifie la quantité de déplacement du point de données par rapport au centre du graphique à secteurs. Peut être négatif, ce qui signifie que la propriété n'est pas définie et qu'aucune explosion ne doit être appliquée. S'applique uniquement aux graphiques à secteurs.
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## Exemples
 
-Montre comment éloigner les tranches d’un graphique à secteurs du centre.
+Montre comment déplacer les tranches d'un graphique à secteurs loin du centre.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// Les "tranches" d'un graphique à secteurs peuvent être éloignées du centre d'une certaine distance via l'attribut Explosion du point de données respectif.
-// Ajoutez un point de données à la première partie du diagramme circulaire et éloignez-le du centre de 10 points.
+// Les « tranches » d'un graphique à secteurs peuvent être éloignées du centre d'une certaine distance via l'attribut Explosion du point de données respectif.
+// Ajoutez un point de données à la première partie du graphique à secteurs et éloignez-le du centre de 10 points.
 // Aspose.Words crée automatiquement des points de données s'ils n'existent pas.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 
-// Déplace la deuxième partie d'une plus grande distance.
+// Déplacez la deuxième partie d'une plus grande distance.
 dataPoint = chart.Series[0].DataPoints[1];
 dataPoint.Explosion = 40;
 

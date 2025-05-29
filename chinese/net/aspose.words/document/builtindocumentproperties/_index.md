@@ -2,15 +2,15 @@
 title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
-second_title: 用于 .NET 的 Aspose.Words
-description: Document BuiltInDocumentProperties 财产. 返回一个集合表示文档的所有内置文档属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BuiltInDocumentProperties 属性以访问基本文档属性，增强文档管理和效率。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
 
-返回一个集合，表示文档的所有内置文档属性。
+返回代表文档所有内置文档属性的集合。
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
@@ -27,7 +27,7 @@ Document doc = new Document(MyDir + "Properties.docx");
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // 该文档还将元数据存储在其内置属性中。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

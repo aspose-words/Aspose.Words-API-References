@@ -3,9 +3,9 @@ title: BorderCollection Class
 linktitle: BorderCollection
 articleTitle: BorderCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.BorderCollection classe. Una raccolta diBorder oggetti in C#.
+description: Esplora Aspose.Words.BorderCollection, la soluzione ideale per gestire e personalizzare senza sforzo gli oggetti Border, per una formattazione avanzata dei documenti.
 type: docs
-weight: 90
+weight: 280
 url: /it/net/aspose.words/bordercollection/
 ---
 ## BorderCollection class
@@ -26,12 +26,12 @@ public sealed class BorderCollection : IEnumerable<Border>
 | [Color](../../aspose.words/bordercollection/color/) { get; set; } | Ottiene o imposta il colore del bordo. |
 | [Count](../../aspose.words/bordercollection/count/) { get; } | Ottiene il numero di bordi nella raccolta. |
 | [DistanceFromText](../../aspose.words/bordercollection/distancefromtext/) { get; set; } | Ottiene o imposta la distanza del bordo dal testo in punti. |
-| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi. |
-| [Item](../../aspose.words/bordercollection/item/) { get; } | Recupera a[`Border`](../border/) oggetto per tipo di bordo. (2 indexers) |
+| [Horizontal](../../aspose.words/bordercollection/horizontal/) { get; } | Ottiene il bordo orizzontale utilizzato tra celle o paragrafi conformi. |
+| [Item](../../aspose.words/bordercollection/item/) { get; } | Recupera un[`Border`](../border/) oggetto per tipo di bordo. (2 indexers) |
 | [Left](../../aspose.words/bordercollection/left/) { get; } | Ottiene il bordo sinistro. |
 | [LineStyle](../../aspose.words/bordercollection/linestyle/) { get; set; } | Ottiene o imposta lo stile del bordo. |
 | [LineWidth](../../aspose.words/bordercollection/linewidth/) { get; set; } | Ottiene o imposta la larghezza del bordo in punti. |
-| [Right](../../aspose.words/bordercollection/right/) { get; } | Ottiene il bordo destro. |
+| [Right](../../aspose.words/bordercollection/right/) { get; } | Ottiene il bordo giusto. |
 | [Shadow](../../aspose.words/bordercollection/shadow/) { get; set; } | Ottiene o imposta un valore che indica se il bordo ha un'ombra. |
 | [Top](../../aspose.words/bordercollection/top/) { get; } | Ottiene il bordo superiore. |
 | [Vertical](../../aspose.words/bordercollection/vertical/) { get; } | Ottiene il bordo verticale utilizzato tra le celle. |
@@ -46,7 +46,7 @@ public sealed class BorderCollection : IEnumerable<Border>
 
 ## Osservazioni
 
-Elementi diversi del documento hanno bordi diversi. Ad esempio,[`ParagraphFormat`](../paragraphformat/)ha[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) E[`Top`](./top/) bordi. Puoi specificare una formattazione diversa per ciascun bordo in modo indipendente oppure enumerare tutti i bordi e applicare la stessa formattazione.
+Diversi elementi del documento hanno bordi diversi. Ad esempio,[`ParagraphFormat`](../paragraphformat/) ha[`Bottom`](./bottom/) ,[`Left`](./left/) ,[`Right`](./right/) E[`Top`](./top/) bordi. È possibile specificare una formattazione diversa per ogni bordo in modo indipendente oppure enumerare tutti i bordi e applicare la stessa formattazione.
 
 ## Esempi
 

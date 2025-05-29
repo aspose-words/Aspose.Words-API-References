@@ -3,14 +3,14 @@ title: CustomXmlPart.DataChecksum
 linktitle: DataChecksum
 articleTitle: DataChecksum
 second_title: Aspose.Words для .NET
-description: CustomXmlPart DataChecksum свойство. Указывает контрольную сумму циклического избыточного кода CRCData контент на С#.
+description: Откройте для себя свойство CustomXmlPart DataChecksum, обеспечивающее целостность данных с надежной контрольной суммой CRC для вашего XML-контента. Повысьте надежность ваших данных!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.markup/customxmlpart/datachecksum/
 ---
 ## CustomXmlPart.DataChecksum property
 
-Указывает контрольную сумму циклического избыточного кода (CRC)[`Data`](../data/) контент.
+Указывает контрольную сумму циклического избыточного кода (CRC)[`Data`](../data/) содержание.
 
 ```csharp
 public long DataChecksum { get; }
@@ -18,7 +18,7 @@ public long DataChecksum { get; }
 
 ## Примеры
 
-Показывает, как контрольная сумма рассчитывается во время выполнения.
+Показывает, как рассчитывается контрольная сумма во время выполнения.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ richText.XmlMapping.SetMapping(doc.CustomXmlParts.Add(Guid.NewGuid().ToString(),
 long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
-// Мы изменили XmlPart тега, и контрольная сумма обновилась во время выполнения.
+// Мы изменили XmlPart тега, и контрольная сумма была обновлена во время выполнения.
 Assert.AreNotEqual(checksum, updatedChecksum);
 ```
 

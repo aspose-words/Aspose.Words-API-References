@@ -3,16 +3,14 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Metered сорт. Предоставляет методы для установки дозированного ключа на С#.
+description: Откройте для себя мощь класса Aspose.Words.Metered! Легко управляйте своим лимитированным ключом с помощью эффективных методов для бесперебойной обработки документов.
 type: docs
-weight: 4160
+weight: 4850
 url: /ru/net/aspose.words/metered/
 ---
 ## Metered class
 
-Предоставляет методы для установки дозированного ключа.
-
-Чтобы узнать больше, посетите[Лицензирование и подписка](https://docs.aspose.com/words/net/licensing/) статья документации.
+Предоставляет методы для установки измеренного ключа.
 
 ```csharp
 public class Metered
@@ -28,13 +26,15 @@ public class Metered
 
 | Имя | Описание |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Устанавливает лимитированный открытый и закрытый ключ. Если вы приобретаете лимитированную лицензию, при запуске приложения этот API должен вызываться, обычно этого достаточно. Однако, если всегда не удается загрузить данные о потреблении и превышает 24 часа, лицензия будет переведена в оценочный статус, , чтобы избежать такого случая, вам следует регулярно проверять статус лицензии. Если это оценочный статус, вызовите этот API еще раз. |
+| [GetProductName](../../aspose.words/metered/getproductname/)() | Возврат Название продукта |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | Устанавливает измеренный открытый и закрытый ключ. Если вы приобрели измеренную лицензию, при запуске приложения следует вызвать этот API, обычно этого достаточно. Однако, если постоянно не удается загрузить данные о потреблении и истекает 24 часа, лицензия будет переведена в статус оценки, Чтобы избежать этого, следует регулярно проверять статус лицензии, если это статус оценки, снова вызвать этот API. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | Получает потребительский кредит |
 | static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | Получает файл потребления size |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | Проверьте, лицензирован ли счетчик |
 
 ## Примеры
 
-В этом примере будет предпринята попытка установить дозированный открытый и закрытый ключ
+В этом примере будет сделана попытка установить измеренный открытый и закрытый ключ
 
 ```csharp
 [C#]
@@ -49,21 +49,23 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-Показывает, как активировать дозированную лицензию и отслеживать кредит/потребление.
+Показывает, как активировать измерительную лицензию и отслеживать кредит/потребление.
 
 ```csharp
-// Создайте новую дозированную лицензию и распечатайте статистику ее использования.
+// Создайте новую измеренную лицензию, а затем распечатайте статистику ее использования.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// Работаем с помощью Aspose.Words, а затем снова распечатываем измеренную статистику, чтобы увидеть, сколько мы потратили.
+// Работаем с Aspose.Words, а затем снова выводим нашу измеренную статистику, чтобы увидеть, сколько мы потратили.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// Поскольку механизм дозированного лицензирования не отправляет данные об использовании на сервер покупки каждый раз,
+// Механизм лицензирования Aspose Metered не отправляет данные об использовании на сервер покупок каждый раз,
 // вам нужно использовать ожидание.
 System.Threading.Thread.Sleep(10000);
 

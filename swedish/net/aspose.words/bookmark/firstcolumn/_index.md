@@ -3,7 +3,7 @@ title: Bookmark.FirstColumn
 linktitle: FirstColumn
 articleTitle: FirstColumn
 second_title: Aspose.Words för .NET
-description: Bookmark FirstColumn fast egendom. Hämtar det nollbaserade indexet för den första kolumnen i tabellkolumnintervallet som är associerat med bokmärket i C#.
+description: Upptäck egenskapen FirstColumn. Få enkel åtkomst till det nollbaserade indexet för den första kolumnen i tabellens bokmärkesområde för effektiv datahantering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/bookmark/firstcolumn/
@@ -18,7 +18,7 @@ public int FirstColumn { get; }
 
 ## Anmärkningar
 
-Returnerar**-1** om detta bokmärke inte är ett tabellkolumnbokmärke.
+Returer**-1** om detta bokmärke inte är ett bokmärke för tabellkolumner.
 
 ## Exempel
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Om ett bokmärke omsluter kolumner i en tabell, är det ett tabellkolumnbokmärke, och dess IsColumn-flagga är satt till true.
+    // Om ett bokmärke omsluter kolumner i en tabell är det ett bokmärke för tabellkolumner och dess IsColumn-flagga är satt till sant.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {

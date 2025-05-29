@@ -3,14 +3,14 @@ title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
 second_title: Aspose.Words لـ .NET
-description: List HasSameTemplate طريقة. إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب في C#.
+description: اكتشف طريقة HasSameTemplate، وتحقق بسهولة مما إذا كانت القائمتان تشتركان في نفس القالب، مما يضمن الاتساق والكفاءة في إدارة البيانات الخاصة بك.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.lists/list/hassametemplate/
 ---
 ## List.HasSameTemplate method
 
-إرجاع صحيح إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب.
+يعود صحيحًا إذا تم إنشاء القائمة الحالية والقائمة المحددة من نفس القالب.
 
 ```csharp
 public bool HasSameTemplate(List other)
@@ -18,7 +18,7 @@ public bool HasSameTemplate(List other)
 
 ## أمثلة
 
-يوضح كيفية تحديد القوائم بنفس ListDefId.
+يوضح كيفية تعريف القوائم بنفس ListDefId.
 
 ```csharp
 Document doc = new Document(MyDir + "Different lists.docx");

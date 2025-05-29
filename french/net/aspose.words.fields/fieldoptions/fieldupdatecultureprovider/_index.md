@@ -3,14 +3,14 @@ title: FieldOptions.FieldUpdateCultureProvider
 linktitle: FieldUpdateCultureProvider
 articleTitle: FieldUpdateCultureProvider
 second_title: Aspose.Words pour .NET
-description: FieldOptions FieldUpdateCultureProvider propriété. Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier en C#.
+description: Découvrez la propriété FieldOptions FieldUpdateCultureProvider, permettant des objets de culture personnalisés pour chaque champ afin d'améliorer l'expérience utilisateur et la localisation.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ particulier.
+Obtient ou définit un fournisseur qui renvoie un objet de culture spécifique pour chaque champ particulier.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -20,11 +20,11 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 Le fournisseur est sollicité lorsque la valeur de[`FieldUpdateCultureSource`](../fieldupdateculturesource/) estFieldCode.
 
-Si le fournisseur est présent, alors l'objet culture qu'il renvoie est utilisé pour la mise à jour du champ. Sinon, une culture système est utilisée.
+Si le fournisseur est présent, l'objet de culture qu'il renvoie est utilisé pour la mise à jour du champ. Sinon, une culture système est utilisée.
 
 ## Exemples
 
-Montre comment spécifier une culture qui analyse le formatage date/heure pour chaque champ.
+Montre comment spécifier une culture qui analyse le formatage de date/heure pour chaque champ.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Définit un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
+    // Définissez un fournisseur qui renvoie un objet de culture spécifique à chaque champ.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];

@@ -3,14 +3,14 @@ title: RowFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: RowFormat ClearFormatting метод. Сбрасывает формат строки по умолчанию на С#.
+description: Узнайте, как метод RowFormat ClearFormatting без труда восстанавливает стиль данных по умолчанию, повышая ясность и наглядность.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Сбрасывает формат строки по умолчанию.
+Сбрасывает форматирование строк до значения по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Примеры
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,8 +50,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

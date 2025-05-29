@@ -3,7 +3,7 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: MustacheTag Text ملكية. يحصل على نص العلامة في C#.
+description: اكتشف خاصية MustacheTag Text لاسترداد نص العلامة واستخدامه بسهولة لتحسين التعامل مع البيانات والتكامل السلس.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.mailmerging/mustachetag/text/

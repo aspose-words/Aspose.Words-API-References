@@ -3,14 +3,14 @@ title: FontInfo.GetEmbeddedFontAsOpenType
 linktitle: GetEmbeddedFontAsOpenType
 articleTitle: GetEmbeddedFontAsOpenType
 second_title: Aspose.Words para .NET
-description: FontInfo GetEmbeddedFontAsOpenType método. Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType en C#.
+description: Descubra cómo el método FontInfo GetEmbeddedFontAsOpenType recupera fuentes incrustadas en formato OpenType, mejorando la flexibilidad y la calidad de su diseño.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words.fonts/fontinfo/getembeddedfontasopentype/
 ---
 ## FontInfo.GetEmbeddedFontAsOpenType method
 
-Obtiene un archivo de fuente incrustado en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType.
+Obtiene un archivo de fuente incrustada en formato OpenType. Las fuentes en formato OpenType incrustado se convierten a OpenType.
 
 ```csharp
 public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
@@ -18,11 +18,11 @@ public byte[] GetEmbeddedFontAsOpenType(EmbeddedFontStyle style)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| style | EmbeddedFontStyle | Especifica el estilo de fuente que se recuperará. |
+| style | EmbeddedFontStyle | Especifica el estilo de fuente a recuperar. |
 
 ### Valor_devuelto
 
-Devoluciones`nulo`si la fuente especificada no está incrustada.
+Devoluciones`nulo` si la fuente especificada no está incrustada.
 
 ## Ejemplos
 
@@ -35,8 +35,8 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// Los formatos de fuentes incrustados pueden ser diferentes en otros formatos como .doc.
-// Necesitamos saber el formato correcto antes de poder extraer la fuente.
+// Los formatos de fuentes incrustadas pueden ser diferentes en otros formatos como .doc.
+//Necesitamos saber el formato correcto antes de poder extraer la fuente.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));

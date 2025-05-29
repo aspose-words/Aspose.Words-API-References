@@ -3,14 +3,14 @@ title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
 second_title: Aspose.Words per .NET
-description: Table ClearBorders metodo. Rimuove tutti i bordi della tabella e delle celle su questa tabella in C#.
+description: Scopri il metodo Table ClearBorders per eliminare senza sforzo tutti i bordi delle tabelle e delle celle, migliorando la chiarezza e l'attrattiva del tuo design.
 type: docs
-weight: 370
+weight: 390
 url: /it/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
 
-Rimuove tutti i bordi della tabella e delle celle su questa tabella.
+Rimuove tutti i bordi delle tabelle e delle celle in questa tabella.
 
 ```csharp
 public void ClearBorders()
@@ -27,17 +27,17 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Allinea la tabella al centro della pagina.
 table.Alignment = TableAlignment.Center;
 
-// Cancella eventuali bordi e ombreggiature esistenti dalla tabella.
+// Cancella tutti i bordi e le ombreggiature esistenti dalla tabella.
 table.ClearBorders();
 table.ClearShading();
 
-// Aggiunge bordi verdi al contorno della tabella.
+// Aggiungere bordi verdi al contorno della tabella.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Riempie le celle con un colore solido verde chiaro.
+// Riempi le celle con un colore verde chiaro uniforme.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
@@ -66,7 +66,7 @@ Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 
-// Verifica i valori delle proprietà della tabella dopo aver riaperto il documento.
+// Verificare i valori delle proprietà della tabella dopo aver riaperto il documento.
 doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];

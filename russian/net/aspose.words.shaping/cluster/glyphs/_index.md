@@ -3,7 +3,7 @@ title: Cluster.Glyphs
 linktitle: Glyphs
 articleTitle: Glyphs
 second_title: Aspose.Words для .NET
-description: Cluster Glyphs свойство. Получает глифы кластера на С#.
+description: Откройте для себя кластерные глифы. Эффективно извлекайте и управляйте глифами из кластеров для улучшения дизайна и производительности. Раскройте потенциал своего проекта!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.shaping/cluster/glyphs/

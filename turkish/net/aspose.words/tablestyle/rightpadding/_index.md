@@ -2,15 +2,15 @@
 title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
-second_title: Aspose.Words for .NET
-description: TableStyle RightPadding mülk. Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını puan cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: TableStyle RightPadding özelliğini keşfedin, gelişmiş okunabilirlik ve sunum için tablo hücresi düzeninizi hassas sağ boşluklarla özelleştirin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-Tablo hücrelerinin içeriğinin sağına eklenecek alan miktarını (puan cinsinden) alır veya ayarlar.
+Tablo hücrelerinin içeriklerinin sağına eklenecek boşluk miktarını (nokta cinsinden) alır veya ayarlar.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

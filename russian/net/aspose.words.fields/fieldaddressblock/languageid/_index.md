@@ -3,14 +3,14 @@ title: FieldAddressBlock.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words для .NET
-description: FieldAddressBlock LanguageId свойство. Получает или задает идентификатор языка используемый для форматирования адреса на С#.
+description: Управляйте форматированием адреса без усилий с помощью свойства FieldAddressBlock LanguageId. Установите или получите идентификатор языка для бесшовной локализации.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-Получает или задает идентификатор языка, используемый для форматирования адреса.
+Возвращает или задает идентификатор языка, используемый для форматирования адреса.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка значения «2» будет включать все страны и регионы,
-// если только оно не указано в свойстве ExcludedCountryOrRegionName.
+// Если установить значение "2", будут включены все страны и регионы,
+// если только это не тот, который указан в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // По умолчанию это свойство будет содержать идентификатор языка первого символа документа.
-// Мы можем установить другую культуру для поля, чтобы отформатировать результат следующим образом.
+// Мы можем задать другую культуру для поля, чтобы отформатировать результат следующим образом.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

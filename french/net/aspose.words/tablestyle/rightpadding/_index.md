@@ -3,7 +3,7 @@ title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words pour .NET
-description: TableStyle RightPadding propriété. Obtient ou définit la quantité despace en points à ajouter à droite du contenu des cellules du tableau en C#.
+description: Découvrez la propriété TableStyle RightPadding, personnalisez la disposition des cellules de votre tableau avec un espacement précis à droite pour une lisibilité et une présentation améliorées.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/tablestyle/rightpadding/
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

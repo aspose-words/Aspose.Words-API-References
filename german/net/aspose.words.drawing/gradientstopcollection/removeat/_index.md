@@ -3,14 +3,14 @@ title: GradientStopCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words für .NET
-description: GradientStopCollection RemoveAt methode. Entfernt aGradientStop aus der Sammlung an einem angegebenen Index in C#.
+description: Verwalten Sie Ihre GradientStopCollection mühelos mit der RemoveAt-Methode. Entfernen Sie GradientStops einfach nach Index für eine optimierte Designkontrolle.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/gradientstopcollection/removeat/
 ---
 ## GradientStopCollection.RemoveAt method
 
-Entfernt a[`GradientStop`](../../gradientstop/) aus der Sammlung an einem angegebenen Index.
+Entfernt ein[`GradientStop`](../../gradientstop/) aus der Sammlung an einem angegebenen Index.
 
 ```csharp
 public GradientStop RemoveAt(int index)
@@ -22,7 +22,7 @@ ENTFERNT[`GradientStop`](../../gradientstop/).
 
 ## Beispiele
 
-Zeigt, wie man der Verlaufsfüllung Verlaufsstopps hinzufügt.
+Zeigt, wie der Verlaufsfüllung Verlaufsstopps hinzugefügt werden.
 
 ```csharp
 Document doc = new Document();
@@ -31,15 +31,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Gradient-Stopp-Sammlung abrufen.
+// Sammlung von Gradientenstopps abrufen.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// Ersten Gradientenstopp ändern.            
-gradientStops[0].Color = Color.Aqua;            
+// Ersten Gradientenstopp ändern.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Neuen Verlaufsstopp am Ende der Sammlung hinzufügen.
+// Neuen Farbverlaufsstopp am Ende der Sammlung hinzufügen.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
@@ -48,7 +48,7 @@ gradientStops.RemoveAt(1);
 // Und neuen Gradientenstopp am gleichen Index 1 einfügen.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Letzten Farbverlaufsstopp in der Sammlung entfernen.
+// Letzten Gradientenstopp in der Sammlung entfernen.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
@@ -63,7 +63,7 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// Verwenden Sie die Compliance-Option, um die Form mithilfe von DML zu definieren
+// Verwenden Sie die Compliance-Option, um die Form mit DML zu definieren
 // wenn Sie die Eigenschaft „GradientStops“ erhalten möchten, nachdem das Dokument gespeichert wurde.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

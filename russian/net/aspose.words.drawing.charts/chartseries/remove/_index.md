@@ -3,14 +3,14 @@ title: ChartSeries.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: ChartSeries Remove метод. Удаляет значение X значение Y и размер пузырька если поддерживается из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются на С#.
+description: Легко удаляйте значения X, значения Y и размеры пузырьков из серии диаграмм с помощью метода ChartSeries Remove. Оптимизируйте визуализацию данных сегодня!
 type: docs
-weight: 200
+weight: 210
 url: /ru/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
 
-Удаляет значение X, значение Y и размер пузырька, если поддерживается, из серии диаграмм по указанному индексу. Соответствующая точка данных и метка данных также удаляются.
+Удаляет значение X, значение Y и размер пузырька, если поддерживается, из серии диаграммы по указанному индексу. Соответствующая точка данных и метка данных также удаляются.
 
 ```csharp
 public void Remove(int index)
@@ -29,7 +29,7 @@ Chart chart = shape.Chart;
 ChartSeries department1Series = chart.Series[0];
 ChartSeries department2Series = chart.Series[1];
 
-// Удаляем первое значение в обеих сериях.
+// Удалить первое значение в обеих сериях.
 department1Series.Remove(0);
 department2Series.Remove(0);
 

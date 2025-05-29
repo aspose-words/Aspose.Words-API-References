@@ -3,7 +3,7 @@ title: ImportFormatOptions
 linktitle: ImportFormatOptions
 articleTitle: ImportFormatOptions
 second_title: Aspose.Words для .NET
-description: ImportFormatOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор ImportFormatOptions для бесшовной интеграции. Откройте для себя мощные функции с нашим конструктором по умолчанию, чтобы повысить эффективность кодирования.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/importformatoptions/importformatoptions/

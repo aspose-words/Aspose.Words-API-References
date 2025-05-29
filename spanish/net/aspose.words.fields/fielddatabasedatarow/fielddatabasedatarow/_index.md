@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words para .NET
-description: FieldDatabaseDataRow constructor. Inicializa una nueva instancia delFieldDatabaseDataRow clase en C#.
+description: Descubra el constructor FieldDatabaseDataRow, inicialice sin problemas nuevas instancias de esta poderosa clase para una gestión de datos eficiente y un rendimiento mejorado.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/

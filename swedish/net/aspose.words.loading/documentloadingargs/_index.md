@@ -3,14 +3,14 @@ title: DocumentLoadingArgs Class
 linktitle: DocumentLoadingArgs
 articleTitle: DocumentLoadingArgs
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.DocumentLoadingArgs klass. Ett argument passerat inNotify  i C#.
+description: Utforska klassen Aspose.Words.Loading.DocumentLoadingArgs för effektiv dokumentinläsning. Förbättra ditt arbetsflöde med kraftfulla aviseringsargument.
 type: docs
-weight: 3590
+weight: 4040
 url: /sv/net/aspose.words.loading/documentloadingargs/
 ---
 ## DocumentLoadingArgs class
 
-Ett argument passerat in[`Notify`](../idocumentloadingcallback/notify/) .
+Ett argument skickades in[`Notify`](../idocumentloadingcallback/notify/) .
 
 För att lära dig mer, besök[Ange laddningsalternativ](https://docs.aspose.com/words/net/specify-load-options/) dokumentationsartikel.
 
@@ -22,7 +22,68 @@ public sealed class DocumentLoadingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress/) { get; } | Totalt uppskattat procentuellt framsteg. |
+| [EstimatedProgress](../../aspose.words.loading/documentloadingargs/estimatedprogress/) { get; } | Totalt uppskattad procentuell framsteg. |
+
+## Exempel
+
+Visar hur man meddelar användaren om dokumentinläsningen överskrider den förväntade inläsningstiden.
+
+```csharp
+public void ProgressCallback()
+{
+    LoadingProgressCallback progressCallback = new LoadingProgressCallback();
+
+    LoadOptions loadOptions = new LoadOptions { ProgressCallback = progressCallback };
+
+    try
+    {
+        Document doc = new Document(MyDir + "Big document.docx", loadOptions);
+    }
+    catch (OperationCanceledException exception)
+    {
+        Console.WriteLine(exception.Message);
+
+        // Hantera problem med laddningstid.
+    }
+}
+
+/// <summary>
+/// Avbryt en dokumentinläsning efter "MaxDuration" sekunder.
+/// </summary>
+public class LoadingProgressCallback : IDocumentLoadingCallback
+{
+    /// <summary>
+    /// Centrum
+    /// </summary>
+    public LoadingProgressCallback()
+    {
+        mLoadingStartedAt = DateTime.Now;
+    }
+
+    /// <summary>
+    /// Återanropsmetod som anropades under dokumentinläsning.
+    /// </summary>
+    /// <param name="args">Laddar argument.</param>
+    public void Notify(DocumentLoadingArgs args)
+    {
+        DateTime canceledAt = DateTime.Now;
+        double ellapsedSeconds = (canceledAt - mLoadingStartedAt).TotalSeconds;
+
+        if (ellapsedSeconds > MaxDuration)
+            throw new OperationCanceledException($"EstimatedProgress = {args.EstimatedProgress}; CanceledAt = {canceledAt}");
+    }
+
+    /// <summary>
+    /// Datum och tid då dokumentinläsningen startade.
+    /// </summary>
+    private readonly DateTime mLoadingStartedAt;
+
+    /// <summary>
+    /// Maximal tillåten varaktighet i sekunder.
+    /// </summary>
+    private const double MaxDuration = 0.5;
+}
+```
 
 ### Se även
 

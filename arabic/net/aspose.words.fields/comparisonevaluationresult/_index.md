@@ -3,9 +3,9 @@ title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult فصل. نتيجة تقييم المقارنة في C#.
+description: اكتشف فئة Aspose.Words.Fields.ComparisonEvaluationResult لتحليل فعّال لمقارنة المستندات. تعرّف على المزيد وحسّن سير عملك!
 type: docs
-weight: 1480
+weight: 1890
 url: /ar/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
@@ -22,19 +22,19 @@ public sealed class ComparisonEvaluationResult
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | إنشاء نتيجة تقييم المقارنة. |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | إنشاء نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | ينشئ نتيجة تقييم المقارنة. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | ينشئ نتيجة تقييم مقارنة فاشلة مع رسالة الخطأ المقابلة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | الحصول على رسالة خطأ نتيجة تقييم المقارنة الفاشلة. |
-| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | الحصول على نتيجة تقييم المقارنة. |
+| [ErrorMessage](../../aspose.words.fields/comparisonevaluationresult/errormessage/) { get; } | يحصل على رسالة الخطأ الخاصة بنتيجة تقييم المقارنة الفاشلة. |
+| [Result](../../aspose.words.fields/comparisonevaluationresult/result/) { get; } | يحصل على نتيجة تقييم المقارنة. |
 
 ## أمثلة
 
-يوضح كيفية تنفيذ التقييم المخصص لحقول IF وCOMPARE.
+يوضح كيفية تنفيذ التقييم المخصص لحقول IF و COMPARE.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -47,11 +47,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // رموز الحقول التي نستخدمها في هذا المثال:
-    // 1. " IF {0} {1} {2} \"الوسيطة الحقيقية\" \"الوسيطة الخاطئة\" ".
-    // 2. " قارن {0} {1} {2}".
+    // 1. "إذا {0} {1} {2} \"حجة صحيحة\" \"حجة خاطئة\" ".
+    // 2. " قارن {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // إذا كانت "comparisonResult" غير محددة، فإننا ننشئ "ComparisonEvaluationResult" بسلسلة بدلاً من bool.
+    // إذا كانت "comparisonResult" غير محددة، نقوم بإنشاء "ComparisonEvaluationResult" بسلسلة، بدلاً من bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -66,13 +66,18 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 }
 
 /// <summary>
-/// تقييم تعبيرات المقارنة لـ FieldIf و FieldCompare.
+/// تقييم تعبيرات المقارنة لـ FieldIf وFieldCompare.
 /// </summary>
 private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 {
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

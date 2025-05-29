@@ -3,7 +3,7 @@ title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
 second_title: Aspose.Words per .NET
-description: Row PreviousRow proprietà. Ottiene il precedenteRow nodo in C#.
+description: Accedi alla proprietà PreviousRow per recuperare facilmente il nodo Row precedente, migliorando la navigazione dei dati e semplificando il flusso di lavoro di codifica.
 type: docs
 weight: 100
 url: /it/net/aspose.words.tables/row/previousrow/
@@ -18,7 +18,7 @@ public Row PreviousRow { get; }
 
 ## Osservazioni
 
-Il metodo può essere utilizzato quando è necessario avere accesso digitato alle righe della tabella. Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)il nodo viene trovato in una tabella invece che in una riga, viene automaticamente attraversato per ottenere una riga contenuta all'interno.
+Il metodo può essere utilizzato quando è necessario disporre di accesso tipizzato alle righe della tabella. Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) il nodo si trova in una tabella invece che in una riga, viene automaticamente attraversato per ottenere una riga in esso contenuta.
 
 ## Esempi
 

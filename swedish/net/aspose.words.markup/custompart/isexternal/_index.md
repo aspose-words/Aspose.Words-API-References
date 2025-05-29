@@ -3,14 +3,14 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words för .NET
-description: CustomPart IsExternal fast egendom. False om denna anpassade del lagras i OOXMLpaketet. Sant om den här anpassade delen är ett externt mål i C#.
+description: Upptäck egenskapen CustomPart IsExternal och lär dig hur den definierar interna kontra externa anpassade delar i OOXML-paket för effektiv datahantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-False om denna anpassade del lagras i OOXML-paketet. Sant om den här anpassade delen är ett externt mål.
+Falskt om denna anpassade del lagras inuti OOXML-paketet. Sant om denna anpassade del är ett externt mål.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är`falsk`.
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

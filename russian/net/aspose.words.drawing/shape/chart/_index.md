@@ -3,9 +3,9 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words для .NET
-description: Shape Chart свойство. Предоставляет доступ к свойствам диаграммы если эта фигура имеетChart  на С#.
+description: Разблокируйте свойства диаграммы с помощью Shape Chart. Улучшите визуальное представление данных без усилий и максимизируйте свои идеи сегодня!
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
@@ -18,11 +18,11 @@ public Chart Chart { get; }
 
 ## Примечания
 
-Это свойство вернет[`Chart`](../../../aspose.words.drawing.charts/chart/) возражать, только если[`HasChart`](../haschart/) Свойство `истинный` для этого[`Shape`](../)и в противном случае выдаст исключение.
+Это свойство вернет[`Chart`](../../../aspose.words.drawing.charts/chart/) возражать только если[`HasChart`](../haschart/)Свойство `истинный` для этого[`Shape`](../), а в противном случае выдаст исключение.
 
 ## Примеры
 
-Показывает, как перебирать все фигуры в документе.
+Показывает, как перебрать все фигуры в документе.
 
 ```csharp
 public void VisitShapes()
@@ -35,7 +35,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Регистрирует информацию о внешнем виде посещенных фигур.
+/// Регистрирует информацию, связанную с внешним видом посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -65,7 +65,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла Shape.
+    /// Вызывается, когда посетитель посещает начало узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -101,7 +100,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла Shape.
+    /// Вызывается, когда посетитель посещает конец узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -113,7 +112,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла GroupShape.
+    /// Вызывается, когда посетитель посещает начало узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -124,7 +123,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла GroupShape.
+    /// Вызывается, когда посетитель посещает конец узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

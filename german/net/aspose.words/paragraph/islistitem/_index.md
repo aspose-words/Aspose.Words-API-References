@@ -3,14 +3,14 @@ title: Paragraph.IsListItem
 linktitle: IsListItem
 articleTitle: IsListItem
 second_title: Aspose.Words für .NET
-description: Paragraph IsListItem eigendom. True wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern in der Originalrevision ist in C#.
+description: Entdecken Sie die Paragraph IsListItem-Eigenschaft, die angibt, ob ein Absatz in der ursprünglichen Version Teil einer Aufzählungs- oder nummerierten Liste ist. Verbessern Sie die Struktur Ihres Dokuments!
 type: docs
 weight: 120
 url: /de/net/aspose.words/paragraph/islistitem/
 ---
 ## Paragraph.IsListItem property
 
-True, wenn der Absatz ein Element in einer Liste mit Aufzählungszeichen oder Nummern in der Originalrevision ist.
+Wahr, wenn der Absatz ein Element in einer Aufzählungs- oder nummerierten Liste in der Originalrevision ist.
 
 ```csharp
 public bool IsListItem { get; }
@@ -24,17 +24,17 @@ Zeigt, wie eine Liste in einer anderen Liste verschachtelt wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Eine Übersichtsliste für die Überschriften erstellen.
+// Erstellen Sie eine Gliederungsliste für die Überschriften.
 List outlineList = doc.Lists.Add(ListTemplate.OutlineNumbers);
 builder.ListFormat.List = outlineList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("This is my Chapter 1");
 
-// Erstelle eine nummerierte Liste.
+// Erstellen Sie eine nummerierte Liste.
 List numberedList = doc.Lists.Add(ListTemplate.NumberDefault);
 builder.ListFormat.List = numberedList;
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
@@ -44,7 +44,7 @@ builder.Writeln("Numbered list item 1.");
 Assert.True(builder.CurrentParagraph.IsListItem);
 Assert.True(builder.ParagraphFormat.IsListItem);
 
-// Eine Liste mit Aufzählungszeichen erstellen.
+// Erstellen Sie eine Aufzählungsliste.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);
 builder.ListFormat.List = bulletedList;
 builder.ParagraphFormat.LeftIndent = 72;

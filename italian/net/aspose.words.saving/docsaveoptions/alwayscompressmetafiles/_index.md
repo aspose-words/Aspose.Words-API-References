@@ -3,7 +3,7 @@ title: DocSaveOptions.AlwaysCompressMetafiles
 linktitle: AlwaysCompressMetafiles
 articleTitle: AlwaysCompressMetafiles
 second_title: Aspose.Words per .NET
-description: DocSaveOptions AlwaysCompressMetafiles proprietà. Quandofalso  i metafile di piccole dimensioni non vengono compressi per motivi di prestazioni. Il valore predefinito èVERO  tutti i metafile vengono compressi indipendentemente dalla loro dimensione in C#.
+description: Ottimizza la gestione dei documenti con la proprietà AlwaysCompressMetafiles. Migliora le prestazioni controllando la compressione dei metafile per una maggiore efficienza.
 type: docs
 weight: 20
 url: /it/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
@@ -21,21 +21,16 @@ public bool AlwaysCompressMetafiles { get; set; }
 Mostra come modificare la compressione dei metafile in un documento durante il salvataggio.
 
 ```csharp
-// Apre un documento che contiene una formula Microsoft Equation 3.0.
+// Aprire un documento contenente una formula di Microsoft Equation 3.0.
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
 // Quando salviamo un documento, i metafile più piccoli non vengono compressi per motivi di prestazioni.
 // Possiamo impostare un flag in un oggetto SaveOptions per comprimere ogni metafile durante il salvataggio.
-// Alcuni editor come LibreOffice non possono leggere metafile non compressi.
+// Alcuni editor come LibreOffice non riescono a leggere metafile non compressi.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx", saveOptions);
-
-if (compressAllMetafiles)
-    Assert.That(10000, Is.LessThan(new FileInfo(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx").Length));
-else
-    Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx").Length));
 ```
 
 ### Guarda anche

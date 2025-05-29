@@ -3,14 +3,14 @@ title: FieldPrint.PostScriptGroup
 linktitle: PostScriptGroup
 articleTitle: PostScriptGroup
 second_title: Aspose.Words لـ .NET
-description: FieldPrint PostScriptGroup ملكية. الحصول على أو تعيين مستطيل الرسم الذي تعمل عليه تعليمات PostScript في C#.
+description: اكتشف خاصية FieldPrint PostScriptGroup لإدارة مستطيل الرسم الخاص بك بسهولة للحصول على معالجة فعالة لتعليمات PostScript.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldprint/postscriptgroup/
 ---
 ## FieldPrint.PostScriptGroup property
 
-الحصول على أو تعيين مستطيل الرسم الذي تعمل عليه تعليمات PostScript.
+يحصل على مستطيل الرسم الذي تعمل عليه تعليمات PostScript أو يعينه.
 
 ```csharp
 public string PostScriptGroup { get; set; }
@@ -18,7 +18,7 @@ public string PostScriptGroup { get; set; }
 
 ## أمثلة
 
-يظهر لإدراج حقل طباعة.
+يظهر لإدراج حقل الطباعة.
 
 ```csharp
 Document doc = new Document();
@@ -26,15 +26,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("My paragraph");
 
-// يمكن لحقل الطباعة إرسال تعليمات إلى الطابعة.
+// يمكن لحقل الطباعة إرسال التعليمات إلى الطابعة.
 FieldPrint field = (FieldPrint)builder.InsertField(FieldType.FieldPrint, true);
 
-// قم بتعيين المنطقة للطابعة لتنفيذ التعليمات.
+// قم بتعيين المنطقة التي ستقوم الطابعة بتنفيذ التعليمات عليها.
 // في هذه الحالة، ستكون الفقرة هي التي تحتوي على حقل الطباعة الخاص بنا.
 field.PostScriptGroup = "para";
 
-// عندما نستخدم طابعة تدعم PostScript لطباعة وثيقتنا،
-// سيحول هذا الأمر المنطقة بأكملها التي حددناها في "field.PostScriptGroup" إلى اللون الأبيض.
+// عندما نستخدم طابعة تدعم PostScript لطباعة مستندنا،
+// سيؤدي هذا الأمر إلى تحويل المنطقة بأكملها التي حددناها في "field.PostScriptGroup" إلى اللون الأبيض.
 field.PrinterInstructions = "erasepage";
 
 Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());

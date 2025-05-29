@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.HeadingPairs
 linktitle: HeadingPairs
 articleTitle: HeadingPairs
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties HeadingPairs proprietà. Specifica le intestazioni dei documenti e i relativi nomi in C#.
+description: Esplora la proprietà HeadingPairs in BuiltInDocumentProperties per gestire facilmente le intestazioni dei documenti e migliorarne l'organizzazione.
 type: docs
 weight: 110
 url: /it/net/aspose.words.properties/builtindocumentproperties/headingpairs/
 ---
 ## BuiltInDocumentProperties.HeadingPairs property
 
-Specifica le intestazioni dei documenti e i relativi nomi.
+Specifica le intestazioni dei documenti e i loro nomi.
 
 ```csharp
 public object[] HeadingPairs { get; set; }
@@ -20,9 +20,9 @@ public object[] HeadingPairs { get; set; }
 
 Ogni coppia di intestazioni occupa due elementi in questo array.
 
-Il primo elemento della coppia è aString e specifica il nome dell'intestazione. Il secondo elemento della coppia è anInt32 e specifica il conteggio delle parti document per questa intestazione nel file[`TitlesOfParts`](../titlesofparts/) proprietà.
+Il primo elemento della coppia è unString e specifica il nome dell'intestazione. Il secondo elemento della coppia è unInt32 e specifica il conteggio delle parti document per questa intestazione in[`TitlesOfParts`](../titlesofparts/) proprietà.
 
-La somma totale dei conteggi per tutte le coppie di intestazioni in questa proprietà deve essere uguale al numero di elementi nella[`TitlesOfParts`](../titlesofparts/) proprietà.
+La somma totale dei conteggi per tutte le coppie di intestazioni in questa proprietà deve essere uguale al numero di elementi in[`TitlesOfParts`](../titlesofparts/) proprietà.
 
 Aspose.Words non aggiorna questa proprietà.
 
@@ -34,12 +34,12 @@ Mostra la relazione tra le proprietà "HeadingPairs" e "TitlesOfParts".
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Possiamo trovare i valori combinati di queste raccolte tramite
-// "File" -> "Proprietà" -> "Proprietà avanzate" -> Scheda "Contenuto".
-// La proprietà HeadingPairs è una raccolta di <string, int> lo accoppia
-// determina quante parti del documento si estende su un'intestazione.
+// "File" -> "Proprietà" -> "Proprietà avanzate" -> scheda "Contenuto".
+// La proprietà HeadingPairs è una raccolta di coppie <string, int> che
+// determina su quante parti del documento si estende un'intestazione.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// La proprietà TitlesOfParts contiene i nomi delle parti che appartengono alle intestazioni precedenti.
+// La proprietà TitlesOfParts contiene i nomi delle parti che appartengono alle intestazioni sopra.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

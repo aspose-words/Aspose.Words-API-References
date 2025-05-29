@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText proprietà. Controlla il modo in cui i campi del modulo di input testo vengono salvati in HTML o MHTML. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ExportTextInputFormFieldAsText di HtmlSaveOptions ottimizza i campi dei moduli di immissione testo per un salvataggio HTML o MHTML senza interruzioni. Migliora il tuo processo di esportazione!
 type: docs
 weight: 260
 url: /it/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Controlla il modo in cui i campi del modulo di input testo vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
+Controlla come i campi del modulo di input di testo vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -18,13 +18,13 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ## Osservazioni
 
-Quando impostato su`VERO` , esporta i campi del modulo di input di testo come testo normale. Quando`falso`, esporta i campi del modulo di input del testo di Word come elementi INPUT in HTML.
+Quando impostato su`VERO` , esporta i campi del modulo di immissione testo come testo normale. Quando`falso`, esporta i campi del modulo di immissione testo di Word come elementi INPUT in HTML.
 
-Quando si esporta in EPUB, i campi del modulo di immissione testo vengono sempre salvati come testo a causa dei requisiti di questo formato.
+Durante l'esportazione in EPUB, i campi del modulo di immissione testo vengono sempre salvati come testo due per rispettare i requisiti di questo formato.
 
 ## Esempi
 
-Mostra come specificare la cartella per la memorizzazione delle immagini collegate dopo il salvataggio in .html.
+Mostra come specificare la cartella in cui archiviare le immagini collegate dopo averle salvate in formato .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

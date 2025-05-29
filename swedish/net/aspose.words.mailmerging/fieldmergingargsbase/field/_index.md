@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.Field
 linktitle: Field
 articleTitle: Field
 second_title: Aspose.Words för .NET
-description: FieldMergingArgsBase Field fast egendom. Hämtar objektet som representerar det aktuella sammanslagningsfältet i C#.
+description: Upptäck Field-egenskapen FieldMergingArgsBase för att enkelt komma åt det aktuella kopplingsfältsobjektet. Förbättra din datasammanfogningseffektivitet idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/field/
 ---
 ## FieldMergingArgsBase.Field property
 
-Hämtar objektet som representerar det aktuella sammanslagningsfältet.
+Hämtar objektet som representerar det aktuella kopplingsfältet.
 
 ```csharp
 public FieldMergeField Field { get; }
@@ -18,7 +18,7 @@ public FieldMergeField Field { get; }
 
 ## Exempel
 
-Visar hur man utför en sammankoppling med en anpassad återuppringning som hanterar sammanslagningsdata i form av HTML-dokument.
+Visar hur man utför en dokumentkoppling med ett anpassat återanrop som hanterar kopplingsdata i form av HTML-dokument.
 
 ```csharp
 public void MergeHtml()
@@ -51,32 +51,32 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Om kopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
-/// denna återuppringning analyserar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentplatsen för MERGEFIELD.
+/// Om dokumentkopplingen stöter på ett MERGEFIELD vars namn börjar med prefixet "html_",
+/// denna återanropsfunktion tolkar dess sammanslagningsdata som HTML-innehåll och lägger till resultatet till dokumentets plats för MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Lägg till analyserad HTML-data till dokumentets brödtext.
+            // Lägg till parsad HTML-data i dokumentets brödtext.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Eftersom vi redan har infogat det sammanslagna innehållet manuellt,
-             // vi behöver inte svara på denna händelse genom att returnera innehåll via "Text"-egenskapen.
+            // Eftersom vi redan har infogat det sammanfogade innehållet manuellt,
+            // vi behöver inte svara på den här händelsen genom att returnera innehåll via egenskapen "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```

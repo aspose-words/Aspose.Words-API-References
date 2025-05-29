@@ -2,8 +2,8 @@
 title: Table.CellSpacing
 linktitle: CellSpacing
 articleTitle: CellSpacing
-second_title: Aspose.Words for .NET
-description: Table CellSpacing mülk. Hücreler arasındaki boşluk miktarını nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun görünümünü ve okunabilirliğini geliştirmek için hücre aralıklarını noktalar halinde kolayca özelleştirmek amacıyla Table CellSpacing özelliğini keşfedin.
 type: docs
 weight: 100
 url: /tr/net/aspose.words.tables/table/cellspacing/
@@ -18,7 +18,7 @@ public double CellSpacing { get; set; }
 
 ## Örnekler
 
-Tablodaki tek tek hücreler arasındaki boşluğun nasıl etkinleştirileceğini gösterir.
+Bir tabloda tek tek hücreler arasındaki boşluğun nasıl etkinleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,14 +39,14 @@ builder.EndTable();
 table.CellSpacing = 3;
 
 // Hücreler arasındaki boşluğu etkinleştirmek için "AllowCellSpacing" özelliğini "true" olarak ayarlayın
-// "CellSpacing" özelliğinin değerine eşit büyüklükte, nokta cinsinden.
+// "CellSpacing" özelliğinin değerine eşit büyüklükte, noktalar halinde.
 // Hücre aralığını devre dışı bırakmak için "AllowCellSpacing" özelliğini "false" olarak ayarlayın
-// ve "CellSpacing" özelliğinin değerini yok sayın.
+// ve "CellSpacing" özelliğinin değerini yoksay.
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// "CellSpacing" özelliğinin ayarlanması hücre aralığını otomatik olarak etkinleştirecektir.
+// "CellSpacing" özelliğinin ayarlanması hücre aralığının otomatik olarak etkinleştirilmesini sağlayacaktır.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);
@@ -83,7 +83,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

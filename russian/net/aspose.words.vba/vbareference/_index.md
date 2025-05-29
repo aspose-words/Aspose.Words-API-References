@@ -3,16 +3,16 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReference сорт. Реализует ссылку на библиотеку типов автоматизации или проект VBA на С#.
+description: Откройте для себя класс Aspose.Words.Vba.VbaReference для бесшовной интеграции с библиотеками типов автоматизации и проектами VBA. Улучшите автоматизацию документов сегодня!
 type: docs
-weight: 6590
+weight: 7440
 url: /ru/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
 
 Реализует ссылку на библиотеку типов автоматизации или проект VBA.
 
-Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) документальная статья.
 
 ```csharp
 public abstract class VbaReference
@@ -23,11 +23,11 @@ public abstract class VbaReference
 | Имя | Описание |
 | --- | --- |
 | abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Получает строковое значение, содержащее идентификатор библиотеки типов автоматизации. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Получает[`VbaReferenceType`](../vbareferencetype/) объект, указывающий тип ссылки, которую`VbaReference` объект представляет. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Получает[`VbaReferenceType`](../vbareferencetype/) объект, который указывает тип ссылки, которую`VbaReference` объект представляет. |
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

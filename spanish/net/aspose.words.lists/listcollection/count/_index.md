@@ -3,7 +3,7 @@ title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: ListCollection Count propiedad. Obtiene el recuento de listas numeradas y con viñetas en el documento en C#.
+description: Descubra la propiedad ListCollection Count para recuperar fácilmente la cantidad de listas numeradas y con viñetas en su documento, mejorando así la organización de su contenido.
 type: docs
 weight: 10
 url: /es/net/aspose.words.lists/listcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar las propiedades del documento del propietario de las listas.
+Muestra cómo verificar las propiedades del documento propietario de las listas.
 
 ```csharp
 Document doc = new Document();

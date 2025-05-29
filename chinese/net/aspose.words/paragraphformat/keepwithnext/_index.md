@@ -2,15 +2,15 @@
 title: ParagraphFormat.KeepWithNext
 linktitle: KeepWithNext
 articleTitle: KeepWithNext
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat KeepWithNext 财产. 如果该段落与其后面的段落保留在同一页上则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ParagraphFormat KeepWithNext 属性如何确保您的段落保持在一起，从而增强文档流程和可读性，获得更精致的外观。
 type: docs
 weight: 170
 url: /zh/net/aspose.words/paragraphformat/keepwithnext/
 ---
 ## ParagraphFormat.KeepWithNext property
 
-如果该段落与其后面的段落保留在同一页上，则为 True。
+如果该段落与其后面的段落保持在同一页面上，则为真。
 
 ```csharp
 public bool KeepWithNext { get; set; }
@@ -18,16 +18,16 @@ public bool KeepWithNext { get; set; }
 
 ## 例子
 
-展示如何将表格设置为在同一页面上保持在一起。
+展示如何设置表格以保持在同一页面上。
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// 对表中的每个段落启用 KeepWithNext，除了
-// 最后一行中的最后一个将防止表格拆分为多个页面。
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// 为表格中的每个段落启用 KeepWithNext，除了
+// 最后一行的最后一个将防止表格分裂到多个页面上。
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

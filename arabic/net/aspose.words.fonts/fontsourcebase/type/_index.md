@@ -3,14 +3,14 @@ title: FontSourceBase.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: FontSourceBase Type ملكية. إرجاع نوع مصدر الخط في C#.
+description: اكتشف خاصية FontSourceBase Type، واسترجع أنواع مصدر الخط بسهولة لتحسين تصميم الويب الخاص بك وتحسين تجربة المستخدم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontsourcebase/type/
 ---
 ## FontSourceBase.Type property
 
-إرجاع نوع مصدر الخط.
+يعيد نوع مصدر الخط.
 
 ```csharp
 public abstract FontSourceType Type { get; }

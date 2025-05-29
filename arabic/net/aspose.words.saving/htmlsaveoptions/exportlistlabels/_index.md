@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportListLabels ملكية. يتحكم في كيفية إخراج تسميات القائمة إلى HTML أو MHTML أو EPUB. القيمة الافتراضية هيAuto  في C#.
+description: اكتشف كيف تُحسّن خاصية ExportListLabels من HtmlSaveOptions مخرجات HTML وMHTML وEPUB. حسّن تسميات القوائم بسهولة باستخدام الإعدادات التلقائية!
 type: docs
 weight: 190
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
@@ -18,7 +18,7 @@ public ExportListLabels ExportListLabels { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين قائمة التصدير إلى HTML.
+يوضح كيفية تكوين تصدير القائمة إلى HTML.
 
 ```csharp
 Document doc = new Document();
@@ -46,14 +46,14 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
-// عند حفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
+// عند حفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
 // لتحديد عناصر HTML التي سيستخدمها المستند لتمثيل القوائم.
-// ضبط خاصية "ExportListLabels" على "ExportListLabels.AsInlineText"
-// سيُنشئ قوائم بتنسيق الامتدادات.
-// سيؤدي تعيين خاصية "ExportListLabels" إلى "ExportListLabels.Auto" إلى استخدام <p> بطاقة شعار
-// لإنشاء قوائم في الحالات عند استخدام <ol> <لي> قد تتسبب العلامات في فقدان التنسيق.
-// ضبط خاصية "ExportListLabels" على "ExportListLabels.ByHtmlTags"
-// سوف يستخدم <ol> <لي> العلامات لبناء كافة القوائم.
+// تعيين خاصية "ExportListLabels" إلى "ExportListLabels.AsInlineText"
+// سيتم إنشاء القوائم عن طريق تنسيق الامتدادات.
+// سيؤدي تعيين خاصية "ExportListLabels" إلى "ExportListLabels.Auto" إلى استخدام العلامة <p>
+// لبناء القوائم في الحالات التي قد يؤدي فيها استخدام علامتي <ol> و <li> إلى فقدان التنسيق.
+// تعيين خاصية "ExportListLabels" إلى "ExportListLabels.ByHtmlTags"
+// سيتم استخدام علامتي <ol> و <li> لبناء كافة القوائم.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

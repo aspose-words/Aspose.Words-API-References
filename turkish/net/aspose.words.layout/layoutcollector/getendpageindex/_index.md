@@ -2,15 +2,15 @@
 title: LayoutCollector.GetEndPageIndex
 linktitle: GetEndPageIndex
 articleTitle: GetEndPageIndex
-second_title: Aspose.Words for .NET
-description: LayoutCollector GetEndPageIndex yöntem. Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Bir düğümün bitiş sayfasının 1 tabanlı dizinini kolayca bulmak için LayoutCollector'ın GetEndPageIndex yöntemini keşfedin. Sayfa eşlemenizi bugün basitleştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.layout/layoutcollector/getendpageindex/
 ---
 ## LayoutCollector.GetEndPageIndex method
 
-Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 değerini döndürür.
+Düğümün bittiği sayfanın 1 tabanlı dizinini alır. Düğüm bir sayfaya eşlenemiyorsa 0 döndürür.
 
 ```csharp
 public int GetEndPageIndex(Node node)
@@ -18,18 +18,18 @@ public int GetEndPageIndex(Node node)
 
 ## Örnekler
 
-Bir düğümün kapsadığı sayfa aralıklarının nasıl görüleceğini gösterir.
+Bir düğümün yayıldığı sayfa aralıklarının nasıl görüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Belgemizin içeriğinin kaç sayfaya yayıldığını saymak için "GetNumPagesSpanned" yöntemini çağırın.
-// Belge boş olduğundan bu sayfa sayısı şu anda sıfırdır.
+// Belgemizin içeriğinin kaç sayfayı kapladığını saymak için "GetNumPagesSpanned" metodunu çağıralım.
+// Belge boş olduğundan, sayfa sayısı şu anda sıfırdır.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Belgeyi 5 sayfalık içerikle doldurun.
+// Belgeyi 5 sayfalık içerikle doldur.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Düzen toplayıcıdan önce, bize bilgi vermesi için "UpdatePageLayout" yöntemini çağırmamız gerekiyor
-// sayfa sayısı gibi düzen ile ilgili herhangi bir ölçüm için doğru bir rakam.
+// Düzen toplayıcısından önce, bize bir düzen sağlamak için "UpdatePageLayout" yöntemini çağırmamız gerekir.
+// sayfa sayısı gibi düzenle ilgili herhangi bir metriğe ilişkin doğru bir rakam.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Herhangi bir düğümün başlangıç ve bitiş sayfalarının sayısını ve genel sayfa aralıklarını görebiliriz.
+// Herhangi bir node'un başlangıç ve bitiş sayfa numaralarını ve bunların toplam sayfa genişliklerini görebiliriz.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -63,7 +63,7 @@ LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator, düzen varlıkları koleksiyonunu bir ağaç gibi geçebilir.
+// LayoutEnumerator, bir ağaç gibi düzen varlıklarının koleksiyonunu dolaşabilir.
 // Bunu herhangi bir düğümün karşılık gelen düzen varlığına da uygulayabiliriz.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 

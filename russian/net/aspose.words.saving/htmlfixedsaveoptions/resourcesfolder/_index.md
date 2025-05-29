@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions ResourcesFolder свойство. Указывает физическую папку в которой сохраняются ресурсы изображения шрифты CSS при экспорте документа в формат Html. Значение по умолчаниюнулевой  на С#.
+description: Узнайте, как свойство HtmlFixedSaveOptions ResourcesFolder определяет, где хранятся изображения, шрифты и CSS во время экспорта HTML. Оптимизируйте свой документооборот!
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolder property
 
-Указывает физическую папку, в которой сохраняются ресурсы (изображения, шрифты, CSS) при экспорте документа в формат Html. Значение по умолчанию:`нулевой` .
+Указывает физическую папку, в которой сохраняются ресурсы (изображения, шрифты, css) при экспорте документа в формат HTML. Значение по умолчанию:`нулевой` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -18,13 +18,13 @@ public string ResourcesFolder { get; set; }
 
 ## Примечания
 
-Имеет эффект только в том случае, если[`ExportEmbeddedImages`](../exportembeddedimages/) собственность`ЛОЖЬ`.
+Имеет эффект только если[`ExportEmbeddedImages`](../exportembeddedimages/) собственность есть`ЛОЖЬ`.
 
-Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате Html Aspose.Words необходимо сохранить изображения all , встроенные в документ, как отдельные файлы.`ResourcesFolder` позволяет указать, где будут сохраняться изображения и[`ResourcesFolderAlias`](../resourcesfolderalias/) позволяет указать, как будут создаваться URI изображения.
+Когда вы сохраняете[`Document`](../../../aspose.words/document/) в формате Html Aspose.Words необходимо сохранить все изображения, встроенные в документ, как отдельные файлы.`ResourcesFolder` позволяет указать, где будут сохранены изображения и[`ResourcesFolderAlias`](../resourcesfolderalias/) позволяет указать, как будут формироваться URI изображений.
 
-Если вы сохраняете документ в файл и указываете имя файла, Aspose.Words по умолчанию сохраняет изображения the в той же папке, где сохраняется файл документа. Использовать`ResourcesFolder` , чтобы переопределить это поведение.
+Если вы сохраняете документ в файл и указываете имя файла, Aspose.Words по умолчанию сохраняет изображения the в той же папке, где сохранен файл документа. Используйте`ResourcesFolder` для переопределения этого поведения.
 
-Если вы сохраняете документ в поток, Aspose.Words не имеет папки для сохранения изображений, , но все равно необходимо где-то сохранять изображения. В этом случае вам необходимо указать доступную папку с помощью`ResourcesFolder` свойство
+Если вы сохраняете документ в поток, Aspose.Words не имеет папки, куда можно сохранять изображения, , но все равно должен сохранять изображения где-то. В этом случае вам нужно указать доступную папку с помощью`ResourcesFolder` свойство
 
 ## Примеры
 
@@ -62,13 +62,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в них, при их преобразовании в фиксированный HTML.
+/// Подсчитывает и выводит URI ресурсов, содержащихся в, по мере их преобразования в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Если мы установим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -77,7 +77,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // По умолчанию ResourceFileUri использует системную папку для шрифтов.
+                // По умолчанию «ResourceFileUri» использует системную папку для шрифтов.
                 // Чтобы избежать проблем на других платформах, необходимо явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -86,8 +86,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // Если мы указали папку в свойстве ResourcesFolderAlias,
-        // нам также нужно будет перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
+        // Если мы указали папку в свойстве "ResourcesFolderAlias",
+        // нам также потребуется перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

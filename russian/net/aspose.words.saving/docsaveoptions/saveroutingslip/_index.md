@@ -3,14 +3,14 @@ title: DocSaveOptions.SaveRoutingSlip
 linktitle: SaveRoutingSlip
 articleTitle: SaveRoutingSlip
 second_title: Aspose.Words для .NET
-description: DocSaveOptions SaveRoutingSlip свойство. КогдаЛОЖЬ  данные RoutingSlip не сохраняются в выходной документ. Значение по умолчаниюистинный  на С#.
+description: Откройте для себя свойство DocSaveOptions SaveRoutingSlip. Управляйте сохранением данных RoutingSlip для ваших документов. Легко улучшайте настройку вывода!
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.saving/docsaveoptions/saveroutingslip/
 ---
 ## DocSaveOptions.SaveRoutingSlip property
 
-Когда`ЛОЖЬ` , данные RoutingSlip не сохраняются в выходной документ. Значение по умолчанию:`истинный` .
+Когда`ЛОЖЬ` , Данные RoutingSlip не сохраняются в выходном документе. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool SaveRoutingSlip { get; set; }
@@ -31,13 +31,13 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив этот флаг в значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 // Чтобы иметь возможность загрузить документ,
-// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// нам нужно будет применить пароль, указанный нами в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

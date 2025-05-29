@@ -3,7 +3,7 @@ title: MailMerge.DeleteFields
 linktitle: DeleteFields
 articleTitle: DeleteFields
 second_title: Aspose.Words per .NET
-description: MailMerge DeleteFields metodo. Rimuove i campi relativi alla stampa unione dal documento in C#.
+description: Ottimizza senza sforzo i tuoi documenti con il metodo MailMerge DeleteFields, rimuovendo i campi di unione di posta non necessari per ottenere risultati più puliti e professionali.
 type: docs
 weight: 170
 url: /it/net/aspose.words.mailmerging/mailmerge/deletefields/
@@ -20,7 +20,7 @@ public void DeleteFields()
 
 Questo metodo rimuove i campi MERGEFIELD e NEXT dal documento.
 
-Questo metodo potrebbe essere utile se l'operazione di stampa unione non richiede sempre di compilare tutti i campi del documento. Utilizza questo metodo per rimuovere tutti i campi di stampa unione rimanenti .
+Questo metodo potrebbe essere utile se l'operazione di stampa unione non richiede sempre per popolare tutti i campi del documento. Utilizzare questo metodo per rimuovere tutti i restanti campi di stampa unione.
 
 ## Esempi
 

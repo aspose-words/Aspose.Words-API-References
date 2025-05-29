@@ -2,8 +2,8 @@
 title: FieldOptions.FileName
 linktitle: FileName
 articleTitle: FileName
-second_title: Aspose.Words for .NET
-description: FieldOptions FileName mülk. Belgenin dosya adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş organizasyon ve verimlilik için belgenizin dosya adını kolayca yönetmek ve özelleştirmek amacıyla FieldOptions FileName özelliğini keşfedin.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.fields/fieldoptions/filename/
@@ -18,11 +18,11 @@ public string FileName { get; set; }
 
 ## Notlar
 
-Bu özellik şu kişi tarafından kullanılır:[`FieldFileName`](../../fieldfilename/) göre daha yüksek önceliğe sahip alan[`OriginalFileName`](../../../aspose.words/document/originalfilename/) mülk.
+Bu özellik tarafından kullanılıyor[`FieldFileName`](../../fieldfilename/) alandan daha yüksek önceliğe sahip[`OriginalFileName`](../../../aspose.words/document/originalfilename/) mülk.
 
 ## Örnekler
 
-FILENAME alanının varsayılan değerini geçersiz kılmak için FieldOptions'ın nasıl kullanılacağını gösterir.
+FILENAME alanı için varsayılan değeri geçersiz kılmak üzere FieldOptions'ın nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -40,7 +40,7 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// Varsayılan olarak, DOSYA ADI alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
+// Varsayılan olarak, FILENAME alanı dosyanın adını gösterir, ancak tam yerel dosya sistemi yolunu göstermez.
 // Tam dosya yolunu göstermesi için bir bayrak ayarlayabiliriz.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
@@ -48,8 +48,8 @@ field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Bu özelliğe ayrıca bir değer de atayabiliriz.
-// DOSYA ADI alanında görüntülenen değeri geçersiz kılın.
+// Bu özellik için bir değer de ayarlayabiliriz
+// FILENAME alanının gösterdiği değeri geçersiz kıl.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 

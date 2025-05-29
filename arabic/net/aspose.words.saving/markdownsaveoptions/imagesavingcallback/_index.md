@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words لـ .NET
-description: MarkdownSaveOptions ImageSavingCallback ملكية. يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق في C#.
+description: تحكّم في حفظ الصور بتنسيق Markdown باستخدام ImageSavingCallback من MarkdownSaveOptions. حسّن تنسيق مستنداتك وسهّل سير عملك!
 type: docs
-weight: 30
+weight: 70
 url: /ar/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown التنسيق.
+يسمح بالتحكم في كيفية حفظ الصور عند حفظ مستند في Markdown تنسيق.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إعادة تسمية اسم الصورة أثناء الحفظ في مستند Markdown.
+يوضح كيفية إعادة تسمية الصورة أثناء الحفظ في مستند Markdown.
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown، فسنحصل في النهاية على ملف Markdown واحد يرتبط بعدة صور.
-    // ستكون كل صورة على شكل ملف في نظام الملفات المحلي.
-    // يوجد أيضًا رد اتصال يمكنه تخصيص الاسم وموقع نظام الملفات لكل صورة.
+    // إذا قمنا بتحويل مستند يحتوي على صور إلى Markdown، فسنحصل في النهاية على ملف Markdown واحد يرتبط بالعديد من الصور.
+    //ستكون كل صورة في شكل ملف في نظام الملفات المحلي.
+    // هناك أيضًا معاودة اتصال يمكنها تخصيص اسم وموقع نظام الملفات لكل صورة.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // سيتم تشغيل طريقة ImageSaving () لرد الاتصال الخاص بنا في هذا الوقت.
+    // سيتم تشغيل طريقة ImageSaving() الخاصة بإرجاع الاتصال لدينا في هذا الوقت.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -46,7 +46,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// إعادة تسمية الصور المحفوظة التي يتم إنتاجها عند حفظ مستند Markdown.
+/// إعادة تسمية الصور المحفوظة التي تم إنتاجها عند حفظ مستند Markdown.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

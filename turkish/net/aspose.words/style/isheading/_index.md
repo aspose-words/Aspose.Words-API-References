@@ -2,8 +2,8 @@
 title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
-second_title: Aspose.Words for .NET
-description: Style IsHeading mülk. Stil yerleşik Başlık stillerinden biri olduğunda doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: IsHeading özelliğini keşfedin. Bir stilin yerleşik bir Başlık stili olup olmadığını kolayca belirleyerek belgenizin yapısını ve okunabilirliğini artırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/style/isheading/
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

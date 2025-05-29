@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words pour .NET
-description: PhysicalFontInfo FilePath propriété. Chemin daccès au fichier de police le cas échéant en C#.
+description: Découvrez la propriété PhysicalFontInfo FilePath, localisez facilement vos fichiers de polices pour une intégration de conception transparente et une typographie améliorée dans vos projets.
 type: docs
-weight: 10
+weight: 20
 url: /fr/net/aspose.words.fonts/physicalfontinfo/filepath/
 ---
 ## PhysicalFontInfo.FilePath property
 
-Chemin d'accès au fichier de police le cas échéant.
+Chemin vers le fichier de police, le cas échéant.
 
 ```csharp
 public string FilePath { get; }
@@ -21,7 +21,7 @@ public string FilePath { get; }
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher des polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words für .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit eigendom. Ruft ein Flag ab oder legt es fest das angibt ob der Zeichenabstand zwischen Regionen von Zahlen und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird in C#.
+description: Optimieren Sie das Layout Ihres Dokuments mit der Eigenschaft AddSpaceBetweenFarEastAndDigit und verbessern Sie die Lesbarkeit, indem Sie den Abstand zwischen ostasiatischem Text und Zahlen anpassen.
 type: docs
 weight: 20
 url: /de/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Ruft ein Flag ab oder legt es fest, das angibt, ob der Zeichenabstand zwischen Regionen von Zahlen und Regionen ostasiatischen Texts im aktuellen Absatz automatisch angepasst wird.
+Ruft ein Flag ab oder legt ein Flag fest, das angibt, ob der Zeichenabstand zwischen Bereichen mit Zahlen und Bereichen mit ostasiatischem Text im aktuellen Absatz automatisch angepasst wird.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -38,7 +38,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
+// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

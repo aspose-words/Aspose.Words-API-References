@@ -3,14 +3,14 @@ title: ITextShaper Interface
 linktitle: ITextShaper
 articleTitle: ITextShaper
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Shaping.ITextShaper koppel. Stellt Methoden zur Textgestaltung bereit in C#.
+description: Entdecken Sie die Aspose.Words.Shaping.ITextShaper-Schnittstelle für erweiterte Textformungsmethoden. Verbessern Sie die Formatierung Ihrer Dokumente präzise und einfach!
 type: docs
-weight: 6050
+weight: 6880
 url: /de/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
 
-Stellt Methoden zur Textgestaltung bereit.
+Bietet Methoden zur Textgestaltung.
 
 ```csharp
 public interface ITextShaper : IDisposable
@@ -20,7 +20,7 @@ public interface ITextShaper : IDisposable
 
 | Name | Beschreibung |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), params FontFeature[]*) | Gibt zurück[`Cluster`](../cluster/)Objekte, die aus einer Folge von Textfragmenten generiert werden. Die Länge des zurückgegebenen Arrays ist gleich der Länge von*runs* . Wenn die Ausführung mit einem Index entsprechende Cluster aufweist, werden diese beim Ergebnis mit demselben Index aufgezeichnet. |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), FontFeature[], VariationAxisCoordinate[]*) | Rückgaben[`Cluster`](../cluster/)Objekte, die aus einer Folge von Textfragmenten generiert werden. Die Länge des zurückgegebenen Arrays entspricht der Länge von*runs* . Wenn ein Lauf an einem Index entsprechende Cluster hat, werden diese im Ergebnis am gleichen Index aufgezeichnet. |
 
 ### Siehe auch
 

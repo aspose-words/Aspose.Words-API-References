@@ -3,7 +3,7 @@ title: MailMergeSettings.MailSubject
 linktitle: MailSubject
 articleTitle: MailSubject
 second_title: Aspose.Words для .NET
-description: MailMergeSettings MailSubject свойство. Указывает текст который будет отображаться в строке темы электронных писем или факсов создаваемых во время слияния почты. Значение по умолчанию  пустая строка на С#.
+description: Настройте свой MailMerge с помощью свойства MailSubject, чтобы создавать привлекательные темы писем или факсов. Улучшите коммуникацию с помощью персонализированного контента.
 type: docs
 weight: 130
 url: /ru/net/aspose.words.settings/mailmergesettings/mailsubject/

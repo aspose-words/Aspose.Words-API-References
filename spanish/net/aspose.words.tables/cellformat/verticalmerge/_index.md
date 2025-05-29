@@ -3,9 +3,9 @@ title: CellFormat.VerticalMerge
 linktitle: VerticalMerge
 articleTitle: VerticalMerge
 second_title: Aspose.Words para .NET
-description: CellFormat VerticalMerge propiedad. Especifica cómo se fusiona la celda con otras celdas verticalmente en C#.
+description: Descubra la propiedad CellFormat VerticalMerge para una fusión vertical de celdas fluida en hojas de cálculo. ¡Mejore la organización y la presentación de datos sin esfuerzo!
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -18,7 +18,7 @@ public CellMerge VerticalMerge { get; set; }
 
 ## Observaciones
 
-Las celdas sólo se pueden fusionar verticalmente si sus límites izquierdo y derecho son idénticos.
+Las celdas solo se pueden fusionar verticalmente si sus límites izquierdo y derecho son idénticos.
 
 Cuando las celdas se fusionan verticalmente, las áreas de visualización de las celdas fusionadas se consolidan. El área consolidada se utiliza para mostrar el contenido de la primera celda fusionada verticalmente y todas las demás celdas fusionadas verticalmente deben estar vacías.
 
@@ -32,8 +32,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 
@@ -53,7 +53,7 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Muestra cómo fusionar celdas de tablas verticalmente.
+Muestra cómo fusionar celdas de una tabla verticalmente.
 
 ```csharp
 Document doc = new Document();
@@ -65,7 +65,7 @@ builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserta una celda en la segunda columna de la primera fila, luego finaliza la fila.
+// Inserta una celda en la segunda columna de la primera fila y luego finaliza la fila.
 // Además, configure el generador para deshabilitar la combinación vertical en las celdas creadas.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;

@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag NodeType mülk. İadelerStructuredDocumentTag  C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge yönetimi için StructuredDocumentTag NodeType özelliğini keşfedin. Projelerinizdeki yapılandırılmış verilere sorunsuz erişimin kilidini açın.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.markup/structureddocumenttag/nodetype/
 ---
 ## StructuredDocumentTag.NodeType property
 
-İadelerStructuredDocumentTag .
+Geri DöndürürStructuredDocumentTag .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,19 +18,19 @@ public override NodeType NodeType { get; }
 
 ## Örnekler
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

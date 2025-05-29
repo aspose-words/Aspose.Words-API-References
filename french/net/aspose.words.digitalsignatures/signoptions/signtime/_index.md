@@ -3,14 +3,14 @@ title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words pour .NET
-description: SignOptions SignTime propriété. La date de signature. La valeur par défaut estheure actuelle Now en C#.
+description: Découvrez SignOptions SignTime pour une signature simplifiée. Définissez facilement la date de signature, la valeur par défaut étant l'heure actuelle. Simplifiez votre processus de signature !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-La date de signature. La valeur par défaut est**heure actuelle** (Now).
+La date de signature. La valeur par défaut est**heure actuelle** (Now)
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -31,8 +31,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Récupère un document non signé du système de fichiers local via un flux de fichiers,
-// puis créez une copie signée de celui-ci déterminée par le nom de fichier du flux de fichier de sortie.
+// Prendre un document non signé du système de fichiers local via un flux de fichiers,
+// puis créez une copie signée de celui-ci déterminée par le nom de fichier du flux de fichiers de sortie.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

@@ -3,14 +3,14 @@ title: Document.GlossaryDocument
 linktitle: GlossaryDocument
 articleTitle: GlossaryDocument
 second_title: Aspose.Words pour .NET
-description: Document GlossaryDocument propriété. Obtient ou définit le document glossaire dans ce document ou modèle. Un document de glossaire est un stockage pour les entrées AutoText AutoCorrect et Building Block définies dans un document en C#.
+description: Découvrez comment gérer efficacement le glossaire de vos documents. Apprenez à définir et à récupérer des entrées de glossaire pour les insertions automatiques et les blocs de construction dans vos modèles.
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words/document/glossarydocument/
 ---
 ## Document.GlossaryDocument property
 
-Obtient ou définit le document glossaire dans ce document ou modèle. Un document de glossaire est un stockage pour les entrées AutoText, AutoCorrect et Building Block définies dans un document.
+Obtient ou définit le document de glossaire dans ce document ou modèle. Un document de glossaire est un espace de stockage pour les entrées d'insertion automatique, de correction automatique et de bloc de construction définies dans un document.
 
 ```csharp
 public GlossaryDocument GlossaryDocument { get; set; }
@@ -18,9 +18,9 @@ public GlossaryDocument GlossaryDocument { get; set; }
 
 ## Remarques
 
-Cette propriété renvoie`nul` si le document ne comporte pas de glossaire.
+Cette propriété retourne`nul` si le document ne possède pas de document glossaire.
 
-Vous pouvez ajouter un document glossaire à un document en créant a [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) objet et attribution à cette propriété.
+Vous pouvez ajouter un document de glossaire à un document en créant un [`GlossaryDocument`](../../../aspose.words.buildingblocks/glossarydocument/) objet et affectation à cette propriété.
 
 ## Exemples
 
@@ -29,12 +29,12 @@ Montre comment ajouter un bloc de construction personnalisé à un document.
 ```csharp
 public void CreateAndInsert()
 {
-    // Le glossaire d'un document stocke les éléments de base.
+    // Le glossaire d'un document stocke les blocs de construction.
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
     doc.GlossaryDocument = glossaryDoc;
 
-    // Créez un bloc de construction, nommez-le, puis ajoutez-le au document glossaire.
+    // Créez un bloc de construction, nommez-le, puis ajoutez-le au document de glossaire.
     BuildingBlock block = new BuildingBlock(glossaryDoc)
     {
         Name = "Custom Block"
@@ -42,21 +42,22 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Tous les nouveaux GUID de blocs de construction ont la même valeur zéro par défaut et nous pouvons leur attribuer une nouvelle valeur unique.
+    // Tous les nouveaux GUID de blocs de construction ont la même valeur zéro par défaut, et nous pouvons leur donner une nouvelle valeur unique.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Les propriétés suivantes catégorisent les blocs de construction
-    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insérer" -> "Pièces rapides" -> "Organisateur de blocs de construction".
+    // dans le menu auquel nous pouvons accéder dans Microsoft Word via "Insertion" -> "Parties rapides" -> "Organisateur de blocs de construction".
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Avant de pouvoir ajouter cette brique à notre document, nous devrons lui donner du contenu,
-    // ce que nous ferons en utilisant un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
+    // Avant de pouvoir ajouter ce bloc de construction à notre document, nous devrons lui donner du contenu,
+    // que nous réaliserons à l'aide d'un visiteur de document. Ce visiteur définira également une catégorie, une galerie et un comportement.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Visitez le début/la fin du BuildingBlock.
     block.Accept(visitor);
 
     // Nous pouvons accéder au bloc que nous venons de créer à partir du document glossaire.
@@ -93,7 +94,7 @@ public class BuildingBlockVisitor : DocumentVisitor
             "Using this block in the Quick Parts section of word will place its contents at the cursor.";
         block.Gallery = BuildingBlockGallery.QuickParts;
 
-        // Ajoute une section avec du texte.
+        // Ajouter une section avec du texte.
         // L'insertion du bloc dans le document ajoutera cette section avec ses nœuds enfants à l'emplacement.
         Section section = new Section(mGlossaryDoc);
         block.AppendChild(section);

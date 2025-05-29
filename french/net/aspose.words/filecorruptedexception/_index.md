@@ -3,16 +3,16 @@ title: FileCorruptedException Class
 linktitle: FileCorruptedException
 articleTitle: FileCorruptedException
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.FileCorruptedException classe. Lancé lors du chargement du document lorsque le document semble corrompu et impossible à charger en C#.
+description: Découvrez la classe Aspose.Words.FileCorruptedException, conçue pour gérer facilement les documents corrompus lors du chargement. Assurez une gestion fluide de vos documents !
 type: docs
-weight: 2800
+weight: 3210
 url: /fr/net/aspose.words/filecorruptedexception/
 ---
 ## FileCorruptedException class
 
-Lancé lors du chargement du document, lorsque le document semble corrompu et impossible à charger.
+Lancé pendant le chargement du document, lorsque le document semble corrompu et impossible à charger.
 
-Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article documentaire.
+Pour en savoir plus, visitez le[Programmation avec des documents](https://docs.aspose.com/words/net/programming-with-documents/) article de documentation.
 
 ```csharp
 public class FileCorruptedException : Exception
@@ -20,13 +20,13 @@ public class FileCorruptedException : Exception
 
 ## Exemples
 
-Montre comment intercepter une exception FileCorruptedException.
+Montre comment intercepter une FileCorruptedException.
 
 ```csharp
 try
 {
-    // Si nous obtenons un message d'erreur "Contenu illisible" lorsque nous essayons d'ouvrir un document avec Microsoft Word,
-    // Il y a de fortes chances que nous obtenions une exception levée lors de la tentative de chargement de ce document à l'aide d'Aspose.Words.
+    // Si nous obtenons un message d'erreur « Contenu illisible » lorsque nous essayons d'ouvrir un document à l'aide de Microsoft Word,
+    // il y a de fortes chances que nous obtenions une exception levée lorsque nous essayons de charger ce document à l'aide d'Aspose.Words.
     Document doc = new Document(MyDir + "Corrupted document.docx");
 }
 catch (FileCorruptedException e)

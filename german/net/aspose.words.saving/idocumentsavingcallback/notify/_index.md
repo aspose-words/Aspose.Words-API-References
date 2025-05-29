@@ -3,14 +3,14 @@ title: IDocumentSavingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words für .NET
-description: IDocumentSavingCallback Notify methode. Dies wird aufgerufen um über den Fortschritt der Dokumentspeicherung zu informieren in C#.
+description: Verfolgen Sie den Fortschritt beim Speichern von Dokumenten mit der iDocumentSavingCallback-Benachrichtigungsmethode. Verbessern Sie noch heute die Effizienz und das Benutzererlebnis Ihrer App!
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/idocumentsavingcallback/notify/
 ---
 ## IDocumentSavingCallback.Notify method
 
-Dies wird aufgerufen, um über den Fortschritt der Dokumentspeicherung zu informieren.
+Dies wird aufgerufen, um über den Fortschritt beim Speichern des Dokuments zu informieren.
 
 ```csharp
 public void Notify(DocumentSavingArgs args)
@@ -18,13 +18,13 @@ public void Notify(DocumentSavingArgs args)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| args | DocumentSavingArgs | Ein Argument der Veranstaltung. |
+| args | DocumentSavingArgs | Ein Argument des Ereignisses. |
 
 ## Bemerkungen
 
-Der Hauptzweck dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Speichervorgang abzubrechen.
+Die Hauptverwendung dieser Schnittstelle besteht darin, dem Anwendungscode zu ermöglichen, den Fortschrittsstatus abzurufen und den Speichervorgang abzubrechen.
 
-Vom Fortschrittsrückruf für die Abtreibung sollte eine Ausnahme ausgelöst und im Verbrauchercode abgefangen werden.
+Für den Abbruch sollte vom Fortschrittsrückruf eine Ausnahme ausgelöst und im Verbrauchercode abgefangen werden.
 
 ## Beispiele
 
@@ -47,7 +47,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Rückruf zum Speicherfortschritt. Brechen Sie das Speichern eines Dokuments nach den „MaxDuration“-Sekunden ab.
+/// Rückruf zum Speichern des Fortschritts. Bricht das Speichern eines Dokuments nach den "MaxDuration" Sekunden ab.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -60,7 +60,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Callback-Methode, die beim Speichern des Dokuments aufgerufen wurde.
+    /// Rückrufmethode, die während des Speicherns des Dokuments aufgerufen wird.
     /// </summary>
     /// <param name="args">Argumente werden gespeichert.</param>
     public void Notify(DocumentSavingArgs args)
@@ -72,18 +72,18 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum und Uhrzeit, wann das Speichern des Dokuments gestartet wird.
+    /// Datum und Uhrzeit des Beginns der Dokumentspeicherung.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal zulässige Dauer in Sekunden.
+    /// Maximal zulässige Dauer in Sek.
     /// </summary>
     private const double MaxDuration = 0.1d;
 }
 ```
 
-Zeigt, wie ein Dokument beim Speichern im DOCX verwaltet wird.
+Zeigt, wie ein Dokument beim Speichern im docx-Format verwaltet wird.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -102,7 +102,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Rückruf zum Speicherfortschritt. Brechen Sie das Speichern eines Dokuments nach den „MaxDuration“-Sekunden ab.
+/// Rückruf zum Speichern des Fortschritts. Bricht das Speichern eines Dokuments nach den "MaxDuration" Sekunden ab.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -115,7 +115,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Callback-Methode, die beim Speichern des Dokuments aufgerufen wurde.
+    /// Rückrufmethode, die während des Speicherns des Dokuments aufgerufen wird.
     /// </summary>
     /// <param name="args">Argumente werden gespeichert.</param>
     public void Notify(DocumentSavingArgs args)
@@ -127,18 +127,18 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum und Uhrzeit, wann das Speichern des Dokuments gestartet wird.
+    /// Datum und Uhrzeit des Beginns der Dokumentspeicherung.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal zulässige Dauer in Sekunden.
+    /// Maximal zulässige Dauer in Sek.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }
 ```
 
-Zeigt, wie ein Dokument beim Speichern in xamlflow verwaltet wird.
+Zeigt, wie ein Dokument beim Speichern in XAMLFlow verwaltet wird.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -157,7 +157,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// Rückruf zum Speicherfortschritt. Brechen Sie das Speichern eines Dokuments nach den „MaxDuration“-Sekunden ab.
+/// Rückruf zum Speichern des Fortschritts. Bricht das Speichern eines Dokuments nach den "MaxDuration" Sekunden ab.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
@@ -170,7 +170,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Callback-Methode, die beim Speichern des Dokuments aufgerufen wurde.
+    /// Rückrufmethode, die während des Speicherns des Dokuments aufgerufen wird.
     /// </summary>
     /// <param name="args">Argumente werden gespeichert.</param>
     public void Notify(DocumentSavingArgs args)
@@ -182,12 +182,12 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// Datum und Uhrzeit, wann das Speichern des Dokuments gestartet wird.
+    /// Datum und Uhrzeit des Beginns der Dokumentspeicherung.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
     /// <summary>
-    /// Maximal zulässige Dauer in Sekunden.
+    /// Maximal zulässige Dauer in Sek.
     /// </summary>
     private const double MaxDuration = 0.01d;
 }

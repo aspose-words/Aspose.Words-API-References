@@ -3,14 +3,14 @@ title: Stroke.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words для .NET
-description: Stroke Transparency свойство. Получает или задает значение от 00 непрозрачный до 10 прозрачный представляющее степень прозрачности обводки на С#.
+description: Отрегулируйте свойство «Прозрачность обводки», чтобы контролировать непрозрачность от 0,0 (непрозрачный) до 1,0 (прозрачный), улучшая визуальное воздействие вашего дизайна.
 type: docs
-weight: 190
+weight: 240
 url: /ru/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-Получает или задает значение от 0,0 (непрозрачный) до 1,0 (прозрачный), представляющее степень прозрачности обводки.
+Возвращает или задает значение от 0,0 (непрозрачный) до 1,0 (прозрачный), представляющее степень прозрачности штриха.
 
 ```csharp
 public double Transparency { get; set; }
@@ -18,11 +18,11 @@ public double Transparency { get; set; }
 
 ## Примечания
 
-Значение по умолчанию — 0. .
+Значение по умолчанию — 0.
 
 ## Примеры
 
-Покажите, как установить форматирование маркера.
+Покажите, как настроить форматирование маркера.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Удалить созданную по умолчанию серию.
+// Удалить сгенерированную по умолчанию серию.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// Устанавливаем форматирование маркера.
+// Установить форматирование маркера.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

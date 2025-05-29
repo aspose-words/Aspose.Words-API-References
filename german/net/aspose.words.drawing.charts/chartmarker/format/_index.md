@@ -3,14 +3,14 @@ title: ChartMarker.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words für .NET
-description: ChartMarker Format eigendom. Bietet Zugriff auf die Füll und Zeilenformatierung dieser Markierung in C#.
+description: Entdecken Sie die Eigenschaft „ChartMarker-Format“ für den einfachen Zugriff auf anpassbare Füll- und Linienstile und verbessern Sie Ihre Datenvisualisierung mit einzigartigen Markierungen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-Bietet Zugriff auf die Füll- und Zeilenformatierung dieser Markierung.
+Bietet Zugriff auf die Füll- und Linienformatierung dieses Markers.
 
 ```csharp
 public ChartFormat Format { get; }

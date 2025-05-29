@@ -3,14 +3,14 @@ title: FieldIncludeText.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words لـ .NET
-description: FieldIncludeText BookmarkName ملكية. الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه في C#.
+description: اكتشف خاصية BookmarkName FieldIncludeText لإدارة أسماء الإشارات المرجعية وتخصيصها بسهولة في مستنداتك لتحسين التنظيم والكفاءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldincludetext/bookmarkname/
 ---
 ## FieldIncludeText.BookmarkName property
 
-الحصول على أو تعيين اسم الإشارة المرجعية في المستند المراد تضمينه.
+يحصل على اسم الإشارة المرجعية في المستند المراد تضمينها أو يعينه.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // فيما يلي طريقتان لاستخدام حقول INCLUDETEXT لعرض محتويات ملف XML في نظام الملفات المحلي.
-    // 1 - إجراء تحويل XSL على مستند XML:
+    // 1 - تنفيذ تحويل XSL على مستند XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - استخدم XPath لأخذ عناصر محددة من مستند XML:
+    // 2 - استخدام XPath لأخذ عناصر محددة من مستند XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT بخصائص مخصصة.
+/// استخدم منشئ المستندات لإدراج حقل INCLUDETEXT مع خصائص مخصصة.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

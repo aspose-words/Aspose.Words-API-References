@@ -3,14 +3,14 @@ title: AsposeWordsPrintDocument.ColorPagesPrinted
 linktitle: ColorPagesPrinted
 articleTitle: ColorPagesPrinted
 second_title: Aspose.Words per .NET
-description: AsposeWordsPrintDocument ColorPagesPrinted proprietà. Ottiene il numero di pagine stampate a colori cioè conColor impostato su vero in C#.
+description: Scopri la proprietà PrintDocument ColorPagesPrinted di Aspose.Words per monitorare in modo efficiente il numero di pagine stampate a colori vivaci. Massimizza le tue informazioni di stampa!
 type: docs
 weight: 30
 url: /it/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 ---
 ## AsposeWordsPrintDocument.ColorPagesPrinted property
 
-Ottiene il numero di pagine stampate a colori (cioè conColor impostato su vero).
+Ottiene il numero di pagine stampate a colori (ad esempio conColor impostato su vero).
 
 ```csharp
 public int ColorPagesPrinted { get; }
@@ -18,17 +18,17 @@ public int ColorPagesPrinted { get; }
 
 ## Esempi
 
-Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento e quindi visualizzare un'anteprima di stampa.
+Mostra come selezionare un intervallo di pagine e una stampante con cui stampare il documento, per poi visualizzare un'anteprima di stampa.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// Chiama il metodo "Mostra" per visualizzare in alto il modulo di anteprima di stampa.
+// Chiama il metodo "Show" per visualizzare in primo piano il modulo di anteprima di stampa.
 previewDlg.Show();
 
-// Inizializza la finestra di dialogo di stampa con il numero di pagine nel documento.
+// Inizializza la finestra di dialogo Stampa con il numero di pagine del documento.
 PrintDialog printDlg = new PrintDialog();
 printDlg.AllowSomePages = true;
 printDlg.PrinterSettings.MinimumPage = 1;
@@ -47,18 +47,18 @@ awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
 // Specifica la nuova modalità di stampa a colori.
 awPrintDoc.ColorMode = ColorPrintMode.GrayscaleAuto;
 
-// Utilizza il metodo "CachePrinterSettings" per ridurre i tempi della prima chiamata del metodo "Print".
+// Utilizzare il metodo "CachePrinterSettings" per ridurre il tempo della prima chiamata del metodo "Print".
 awPrintDoc.CachePrinterSettings();
 
-// Chiama il metodo "Hide", quindi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in alto.
+// Chiamare il metodo "Hide" e poi il metodo "InvalidatePreview" per visualizzare l'anteprima di stampa in primo piano.
 previewDlg.Hide();
 previewDlg.PrintPreviewControl.InvalidatePreview();
 
-// Passa il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
+// Passare il documento di stampa "Aspose.Words" alla finestra di dialogo Anteprima di stampa .NET.
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

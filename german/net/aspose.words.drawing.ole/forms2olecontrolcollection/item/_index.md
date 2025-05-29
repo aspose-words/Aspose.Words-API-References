@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: Forms2OleControlCollection Item eigendom. Ruft abForms2OleControl Objekt an einem angegebenen Index in C#.
+description: Greifen Sie mühelos mit der Item-Eigenschaft auf das Forms2OleControl-Objekt zu. Vereinfachen Sie Ihre Steuerelementverwaltung, indem Sie Elemente an jedem Index nahtlos abrufen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Einige OLE-Steuerelemente enthalten möglicherweise untergeordnete Steuerelemente, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
+// Einige OLE-Steuerelemente können untergeordnete Steuerelemente enthalten, wie beispielsweise das in diesem Dokument mit drei Optionsschaltflächen.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

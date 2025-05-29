@@ -2,8 +2,8 @@
 title: TableSubstitutionRule.LoadAndroidSettings
 linktitle: LoadAndroidSettings
 articleTitle: LoadAndroidSettings
-second_title: 用于 .NET 的 Aspose.Words
-description: TableSubstitutionRule LoadAndroidSettings 方法. 加载 Android 平台的预定义表替换设置 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 TableSubstitutionRule LoadAndroidSettings 方法轻松加载 Android 预定义的表格替换设置。立即优化您的应用！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/

@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words لـ .NET
-description: ResourceSavingArgs ResourceStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ المورد فيه في C#.
+description: اكتشف خاصية ResourceSavingArgs ResourceStream لتحديد مكان حفظ مواردك بسهولة، مما يعزز الكفاءة والتحكم في مشاريعك.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/resourcesavingargs/resourcestream/
@@ -20,13 +20,13 @@ public Stream ResourceStream { get; set; }
 
 تتيح لك هذه الخاصية حفظ الموارد في التدفقات بدلاً من الملفات.
 
-القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` ، سيتم حفظ المورد في ملف محدد في ملف[`ResourceFileName`](../resourcefilename/) ملكية.
+القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` سيتم حفظ المورد في ملف محدد في[`ResourceFileName`](../resourcefilename/) ملكية.
 
-استخدام[`IResourceSavingCallback`](../../iresourcesavingcallback/) لا يمكنك استبدال مورد بـ آخر. الغرض منه هو فقط التحكم في الموقع حيث يتم حفظ الموارد.
+استخدام[`IResourceSavingCallback`](../../iresourcesavingcallback/) لا يمكنك استبدال مورد بـ آخر. الغرض منه فقط هو التحكم في موقع حفظ الموارد.
 
 ## أمثلة
 
-يوضح كيفية استخدام رد اتصال لطباعة معرفات URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
+يوضح كيفية استخدام معاودة الاتصال لطباعة عناوين URI للموارد الخارجية التي تم إنشاؤها أثناء تحويل مستند إلى HTML.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -46,7 +46,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // سيحتوي المجلد المحدد بواسطة ResourcesFolderAlias على الموارد بدلاً من ResourcesFolder.
-    // يجب أن نتأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
+    // يتعين علينا التأكد من وجود المجلد قبل أن تتمكن التدفقات من وضع مواردها فيه.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -60,13 +60,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد التي تحتوي عليها عند تحويلها إلى HTML ثابت.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة أثناء تحويلها إلى HTML ثابت.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسنكون قادرين على طباعته من هنا.
+        // إذا قمنا بتعيين اسم مستعار للمجلد في كائن SaveOptions، فسوف نتمكن من طباعته من هنا.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -76,7 +76,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // بشكل افتراضي، يستخدم 'ResourceFileUri' مجلد النظام للخطوط.
-                // لتجنب المشاكل في الأنظمة الأساسية الأخرى، يجب عليك تحديد مسار الخطوط بشكل صريح.
+                // لتجنب المشاكل في المنصات الأخرى، يجب عليك تحديد المسار للخطوط بشكل صريح.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -85,7 +85,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // إذا قمنا بتحديد مجلد في خاصية "ResourcesFolderAlias"،
-        // سنحتاج أيضًا إلى إعادة توجيه كل تيار لوضع موارده في هذا المجلد.
+        // سوف نحتاج أيضًا إلى إعادة توجيه كل مجرى لوضع موارده في هذا المجلد.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 linktitle: ExportEmbeddedSvg
 articleTitle: ExportEmbeddedSvg
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions ExportEmbeddedSvg proprietà. Specifica se le risorse SVG devono essere incorporate nel documento Html. Il valore predefinito èVERO  in C#.
+description: Scopri la proprietà ExportEmbeddedSvg di HtmlFixedSaveOptions e incorpora facilmente risorse SVG nei tuoi documenti HTML per ottenere effetti visivi migliori. Valore predefinito: true.
 type: docs
 weight: 70
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedSvg property
 
-Specifica se le risorse SVG devono essere incorporate nel documento Html. Il valore predefinito è`VERO` .
+Specifica se le risorse SVG devono essere incorporate nel documento HTML. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool ExportEmbeddedSvg { get; set; }
@@ -18,7 +18,7 @@ public bool ExportEmbeddedSvg { get; set; }
 
 ## Esempi
 
-Mostra come determinare dove archiviare gli oggetti SVG durante l'esportazione di un documento in Html.
+Mostra come determinare dove memorizzare gli oggetti SVG quando si esporta un documento in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -26,9 +26,9 @@ Document doc = new Document(MyDir + "Images.docx");
 // Quando esportiamo un documento con oggetti SVG in .html,
 // Aspose.Words può posizionare questi oggetti in due possibili posizioni.
 // Impostando il flag "ExportEmbeddedSvg" su "true" verranno incorporati tutti i dati grezzi dell'oggetto SVG
-// all'interno dell'HTML di output, all'interno di <image> tag.
+// all'interno dell'HTML di output, all'interno dei tag <image>.
 // Impostando questo flag su "false" verrà creato un file nel file system locale per ciascun oggetto SVG.
-// L'HTML si collegherà a ciascun file utilizzando l'attributo "data" di un <oggetto> etichetta.
+// L'HTML si collegherà a ciascun file utilizzando l'attributo "data" di un tag <object>.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedSvg = exportSvgs

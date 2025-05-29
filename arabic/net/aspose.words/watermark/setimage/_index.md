@@ -3,7 +3,7 @@ title: Watermark.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words لـ .NET
-description: Watermark SetImage طريقة. يضيف علامة مائية للصورة إلى المستند في C#.
+description: أضف علامات مائية رائعة لصورك بكل سهولة لإضفاء لمسة احترافية على مستنداتك باستخدام طريقة Watermark SetImage.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/watermark/setimage/
@@ -18,13 +18,43 @@ public void SetImage(Image image)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| image | Image | الصورة التي يتم عرضها كعلامة مائية. |
+| image | Image | صورة يتم عرضها كعلامة مائية. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يرمي عندما تكون الصورة`باطل` . |
+| ArgumentNullException | يتم طرحه عندما تكون الصورة`باطل` . |
+
+## أمثلة
+
+يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
+
+```csharp
+Document doc = new Document();
+
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // لدينا خيارات مختلفة لإدراج الصورة:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
 
 ### أنظر أيضا
 
@@ -44,14 +74,14 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| image | Image | الصورة التي يتم عرضها كعلامة مائية. |
+| image | Image | صورة يتم عرضها كعلامة مائية. |
 | options | ImageWatermarkOptions | يحدد خيارات إضافية للعلامة المائية للصورة. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يرمي عندما تكون الصورة`باطل` . |
+| ArgumentNullException | يتم طرحه عندما تكون الصورة`باطل` . |
 
 ## ملاحظات
 
@@ -65,14 +95,19 @@ public void SetImage(Image image, ImageWatermarkOptions options)
 Document doc = new Document();
 
             // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
-            // ثم قم بتمريرها أثناء إنشاء علامة مائية من ملف صورة.
+            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // لدينا خيارات مختلفة لإدراج الصورة:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
@@ -91,7 +126,7 @@ Document doc = new Document();
 
 ---
 
-## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+## SetImage(*string, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_3}
 
 يضيف علامة مائية للصورة إلى المستند.
 
@@ -108,11 +143,91 @@ public void SetImage(string imagePath, ImageWatermarkOptions options)
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يرمي عندما يكون المسار`باطل` . |
+| ArgumentNullException | يتم طرحه عندما يكون المسار`باطل` . |
 
 ## ملاحظات
 
 لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
+
+## أمثلة
+
+يوضح كيفية إنشاء علامة مائية من صورة في نظام الملفات المحلي.
+
+```csharp
+Document doc = new Document();
+
+            // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+            ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+            imageWatermarkOptions.Scale = 5;
+            imageWatermarkOptions.IsWashout = false;
+
+#if NET461_OR_GREATER || JAVA
+            // لدينا خيارات مختلفة لإدراج الصورة:
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
+            using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
+            {
+                doc.Watermark.SetImage(image, imageWatermarkOptions);
+            }
+#endif
+
+            doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");
+```
+
+### أنظر أيضا
+
+* class [ImageWatermarkOptions](../../imagewatermarkoptions/)
+* class [Watermark](../)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
+* المجسم [Aspose.Words](../../../)
+
+---
+
+## SetImage(*Stream, [ImageWatermarkOptions](../../imagewatermarkoptions/)*) {#setimage_2}
+
+يضيف علامة مائية للصورة إلى المستند.
+
+```csharp
+public void SetImage(Stream imageStream, ImageWatermarkOptions options)
+```
+
+| معامل | يكتب | وصف |
+| --- | --- | --- |
+| imageStream | Stream | التدفق الذي يحتوي على بيانات الصورة التي يتم عرضها كعلامة مائية. |
+| options | ImageWatermarkOptions | يحدد خيارات إضافية للعلامة المائية للصورة. |
+
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| ArgumentNullException | يتم طرحه عندما يكون المسار`باطل` . |
+
+## ملاحظات
+
+لو[`ImageWatermarkOptions`](../../imagewatermarkoptions/) يكون`باطل`سيتم تعيين العلامة المائية بالخيارات الافتراضية.
+
+## أمثلة
+
+يوضح كيفية إنشاء علامة مائية من مجرى صورة.
+
+```csharp
+Document doc = new Document();
+
+// تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
+// ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
+ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
+imageWatermarkOptions.Scale = 5;
+
+using (FileStream imageStream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
+    doc.Watermark.SetImage(imageStream, imageWatermarkOptions);
+
+doc.Save(ArtifactsDir + "Document.ImageWatermarkStream.docx");
+```
 
 ### أنظر أيضا
 

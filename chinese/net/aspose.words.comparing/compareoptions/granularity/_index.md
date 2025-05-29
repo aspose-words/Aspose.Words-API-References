@@ -2,19 +2,23 @@
 title: CompareOptions.Granularity
 linktitle: Granularity
 articleTitle: Granularity
-second_title: 用于 .NET 的 Aspose.Words
-description: CompareOptions Granularity 财产. 指定是按字符还是按单词跟踪更改 默认值为WordLevel 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CompareOptions Granularity 属性，按字符或单词跟踪更改，实现精准的文本编辑。立即增强您的文档控制！
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.comparing/compareoptions/granularity/
 ---
 ## CompareOptions.Granularity property
 
-指定是按字符还是按单词跟踪更改。 默认值为WordLevel.
+指定是否按字符或按字跟踪更改。
 
 ```csharp
 public Granularity Granularity { get; set; }
 ```
+
+## 评论
+
+默认值为WordLevel.
 
 ## 例子
 
@@ -30,8 +34,8 @@ DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
 // 指定是否跟踪更改
-// 按字符 ('Granularity.CharLevel') 或按单词 ('Granularity.WordLevel')。
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+// 按字符（'Granularity.CharLevel'）或按单词（'Granularity.WordLevel'）。
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);

@@ -3,14 +3,14 @@ title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings ActiveRecord propriété. Spécifie lindex de base un de lenregistrement de la source de données qui doit être affiché dans Microsoft Word. La valeur par défaut est 1 en C#.
+description: Découvrez MailMergeSettings. Personnalisez vos documents Microsoft Word en sélectionnant l'index d'enregistrement souhaité dans votre source de données. Démarrez facilement !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Spécifie l'index de base un de l'enregistrement de la source de données qui doit être affiché dans Microsoft Word. La valeur par défaut est 1.
+Spécifie l'index de base 1 de l'enregistrement de la source de données, qui sera affiché dans Microsoft Word. La valeur par défaut est 1.
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -18,7 +18,7 @@ public int ActiveRecord { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
+Montre comment exécuter un publipostage tout en se connectant à une source de données externe.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois que nous avons fait cela et enregistré le document,
+// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois cette opération effectuée et le document enregistré,
 // Microsoft Word n'exécutera plus de publipostage lorsque nous l'utiliserons pour charger le document.
 settings.Clear();
 

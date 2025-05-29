@@ -3,7 +3,7 @@ title: Node.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words для .NET
-description: Node NodeType свойство. Получает тип этого узла на С#.
+description: Откройте для себя свойство Node NodeType, чтобы легко определять типы узлов в вашем приложении, повышая эффективность разработки и ясность кода.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/node/nodetype/
@@ -44,11 +44,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Сохраняем следующий одноуровневый узел как переменную на случай, если мы захотим перейти к нему после удаления этого узла.
+    // Сохраняем следующий родственный узел как переменную на случай, если мы захотим перейти к нему после удаления этого узла.
     Node nextNode = curNode.NextSibling;
 
     // Тело раздела может содержать узлы «Абзац» и «Таблица».
-    // Если узел является таблицей, удалите его из родительского узла.
+    // Если узел является таблицей, удалить его из родителя.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 
@@ -58,7 +58,7 @@ while (curNode != null)
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
-Показывает, как перемещаться по дереву дочерних узлов составного узла.
+Показывает, как обойти дерево дочерних узлов составного узла.
 
 ```csharp
 public void RecurseChildren()
@@ -68,13 +68,13 @@ public void RecurseChildren()
     // Любой узел, который может содержать дочерние узлы, например сам документ, является составным.
     Assert.True(doc.IsComposite);
 
-    // Вызов рекурсивной функции, которая пройдёт и распечатает все дочерние узлы составного узла.
+    // Вызываем рекурсивную функцию, которая пройдет и выведет все дочерние узлы составного узла.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Рекурсивно обходит дерево узлов, печатая тип каждого узла
-/// с отступом в зависимости от глубины, а также содержимого всех строчных узлов.
+/// Рекурсивно обходит дерево узлов, выводя тип каждого узла
+/// с отступом, зависящим от глубины, а также от содержимого всех встроенных узлов.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -82,7 +82,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Рекурсия к узлу, если это составной узел. В противном случае выведите его содержимое, если это встроенный узел.
+        // Рекурсия в узел, если это составной узел. В противном случае, выводим его содержимое, если это встроенный узел.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

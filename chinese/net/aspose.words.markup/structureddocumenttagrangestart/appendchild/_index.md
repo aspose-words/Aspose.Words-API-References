@@ -2,10 +2,10 @@
 title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart AppendChild 方法. 将指定节点添加到 stdContent 范围的末尾 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 StructuredDocumentTagRangeStart AppendChild 方法如何通过无缝地将节点添加到 stdContent 范围来增强文档编辑。
 type: docs
-weight: 200
+weight: 210
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
 ---
 ## StructuredDocumentTagRangeStart.AppendChild method

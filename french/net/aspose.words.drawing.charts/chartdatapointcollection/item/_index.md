@@ -3,7 +3,7 @@ title: ChartDataPointCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: ChartDataPointCollection Item propriété. RetoursChartDataPoint pour lindex spécifié en C#.
+description: Accédez à ChartDataPoint pour n'importe quel index avec la propriété Item ChartDataPointCollection. Améliorez la visualisation de vos données avec simplicité et précision !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing.charts/chartdatapointcollection/item/
@@ -18,7 +18,7 @@ public ChartDataPoint this[int index] { get; }
 
 ## Exemples
 
-Montre comment utiliser des points de données sur un graphique linéaire.
+Montre comment travailler avec des points de données sur un graphique linéaire.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,11 +34,11 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Accentue les points de données du graphique en les faisant apparaître sous forme de losange.
-    foreach (ChartSeries series in chart.Series) 
+    // Mettez en valeur les points de données du graphique en les faisant apparaître sous forme de losanges.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // Lisse la ligne qui représente la première série de données.
+    // Lissez la ligne qui représente la première série de données.
     chart.Series[0].Smooth = true;
 
     // Vérifiez que les points de données de la première série n'inverseront pas leurs couleurs si la valeur est négative.
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Pour un graphique plus propre, nous pouvons effacer le format individuellement.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Nous pouvons également supprimer toute une série de points de données à la fois.
+    // Pour un graphique plus propre, nous pouvons effacer le format individuellement.
+    dataPoint.ClearFormat();
+
+    // Nous pouvons également supprimer une série entière de points de données à la fois.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

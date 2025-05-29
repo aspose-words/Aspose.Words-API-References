@@ -3,14 +3,14 @@ title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
 second_title: Aspose.Words для .NET
-description: TextColumnCollection SetCount метод. Упорядочивает текст в указанное количество текстовых столбцов на С#.
+description: Оптимизируйте макет с помощью метода TextColumnCollection SetCount, который легко размещает текст в нужном количестве столбцов для повышения удобства чтения.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/textcolumncollection/setcount/
 ---
 ## TextColumnCollection.SetCount method
 
-Упорядочивает текст в указанное количество текстовых столбцов.
+Располагает текст в указанном количестве текстовых столбцов.
 
 ```csharp
 public void SetCount(int newCount)
@@ -18,15 +18,15 @@ public void SetCount(int newCount)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| newCount | Int32 | Количество столбцов, в которых будет размещен текст. |
+| newCount | Int32 | Количество столбцов, в которые должен быть разбит текст. |
 
 ## Примечания
 
-Когда[`EvenlySpaced`](../evenlyspaced/) является`ЛОЖЬ` и вы увеличиваете количество столбцов, new[`TextColumn`](../../textcolumn/) объекты создаются с нулевой шириной и интервалом. Вам необходимо установить ширину и интервал для новых столбцов.
+Когда[`EvenlySpaced`](../evenlyspaced/) является`ЛОЖЬ` и вы увеличиваете количество столбцов, new[`TextColumn`](../../textcolumn/) объекты создаются с нулевой шириной и интервалом. Вам необходимо задать ширину и интервал для новых столбцов.
 
 ## Примеры
 
-Показывает, как создать в разделе несколько равномерно расположенных столбцов.
+Показывает, как создать несколько равномерно распределенных столбцов в разделе.
 
 ```csharp
 Document doc = new Document();

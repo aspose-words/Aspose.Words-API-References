@@ -3,14 +3,14 @@ title: Document.JoinRunsWithSameFormatting
 linktitle: JoinRunsWithSameFormatting
 articleTitle: JoinRunsWithSameFormatting
 second_title: Aspose.Words für .NET
-description: Document JoinRunsWithSameFormatting methode. Joins werden in allen Absätzen des Dokuments mit der gleichen Formatierung ausgeführt in C#.
+description: Entdecken Sie, wie die Methode JoinRunsWithSameFormatting formatierten Text nahtlos in die Absätze Ihres Dokuments einfügt und so für ein elegantes, professionelles Erscheinungsbild sorgt.
 type: docs
-weight: 620
+weight: 660
 url: /de/net/aspose.words/document/joinrunswithsameformatting/
 ---
 ## Document.JoinRunsWithSameFormatting method
 
-Joins werden in allen Absätzen des Dokuments mit der gleichen Formatierung ausgeführt.
+Verknüpfungen werden mit der gleichen Formatierung in allen Absätzen des Dokuments ausgeführt.
 
 ```csharp
 public int JoinRunsWithSameFormatting()
@@ -18,32 +18,32 @@ public int JoinRunsWithSameFormatting()
 
 ### Rückgabewert
 
-Anzahl der durchgeführten Joins. Wann**N** Benachbarte Läufe werden zusammengefügt, sie zählen als**N - 1** schließt sich an.
+Anzahl der durchgeführten Verknüpfungen. Wann**N** Wenn benachbarte Läufe verbunden werden, zählen sie als**N - 1** schließt sich an.
 
 ## Bemerkungen
 
-Dies ist eine Optimierungsmethode. Einige Dokumente enthalten benachbarte Läufe mit derselben Formatierung. Dies tritt normalerweise auf, wenn ein Dokument intensiv manuell bearbeitet wurde. Sie können die Dokumentgröße reduzieren und die weitere Verarbeitung beschleunigen, indem Sie diese Läufe zusammenfügen.
+Dies ist eine Optimierungsmethode. Einige Dokumente enthalten nebeneinanderliegende Läufe mit gleicher Formatierung. Dies tritt normalerweise auf, wenn ein Dokument intensiv manuell bearbeitet wurde. Durch das Zusammenführen dieser Läufe können Sie die Dokumentgröße reduzieren und die weitere Verarbeitung beschleunigen.
 
-Der Betrieb prüft alle[`Paragraph`](../../paragraph/) Knoten im Dokument für angrenzend[`Run`](../../run/) Knoten mit identischen Eigenschaften. Es ignoriert eindeutige Bezeichner, die zum Verfolgen von Bearbeitungssitzungen zur Erstellung und Änderung von run verwendet werden. Beim ersten Durchlauf in jeder Verbindungssequenz wird der gesamte Text akkumuliert. Verbleibende Läufe werden aus dem Dokument gelöscht.
+Die Operation prüft jeden[`Paragraph`](../../paragraph/) Knoten im Dokument für benachbarte[`Run`](../../run/) -Knoten mit identischen Eigenschaften. Eindeutige Kennungen zur Verfolgung von Bearbeitungssitzungen bei der Erstellung und Änderung von run werden ignoriert. Der erste Lauf in jeder Verbindungssequenz sammelt den gesamten Text. Verbleibende -Läufe werden aus dem Dokument gelöscht.
 
 ## Beispiele
 
-Zeigt, wie Läufe in einem Dokument zusammengefügt werden, um unnötige Läufe zu reduzieren.
+Zeigt, wie Läufe in einem Dokument verbunden werden, um unnötige Läufe zu reduzieren.
 
 ```csharp
-// Öffnen Sie ein Dokument, das benachbarte Textabschnitte mit identischer Formatierung enthält.
-// was häufig auftritt, wenn wir denselben Absatz mehrmals in Microsoft Word bearbeiten.
+// Öffnen Sie ein Dokument, das nebeneinander liegende Textabschnitte mit identischer Formatierung enthält.
+// was häufig auftritt, wenn wir denselben Absatz in Microsoft Word mehrmals bearbeiten.
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Wenn beliebig viele dieser Läufe mit identischer Formatierung nebeneinander liegen,
+// Wenn eine beliebige Anzahl dieser Läufe mit identischer Formatierung nebeneinander liegt,
 // dann kann das Dokument vereinfacht werden.
 Assert.AreEqual(317, doc.GetChildNodes(NodeType.Run, true).Count);
 
-// Solche Läufe mit dieser Methode kombinieren und die Anzahl der stattfindenden Laufverknüpfungen überprüfen.
+// Kombinieren Sie solche Läufe mit dieser Methode und überprüfen Sie die Anzahl der stattfindenden Laufverknüpfungen.
 Assert.AreEqual(121, doc.JoinRunsWithSameFormatting());
 
-// Die Anzahl der Joins und die Anzahl der Läufe, die wir nach dem Join haben
-// sollte die Anzahl der Läufe addieren, die wir ursprünglich hatten.
+// Die Anzahl der Joins und die Anzahl der Runs, die wir nach dem Join haben
+// sollte die Anzahl der Läufe addieren, die wir anfangs hatten.
 Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
 ```
 

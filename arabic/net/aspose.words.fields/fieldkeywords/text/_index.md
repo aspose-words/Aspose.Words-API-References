@@ -3,14 +3,14 @@ title: FieldKeywords.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words لـ .NET
-description: FieldKeywords Text ملكية. الحصول على نص الكلمات الرئيسية أو تعيينه في C#.
+description: إدارة كلماتك الرئيسية بسهولة! تمتع بالوصول إلى نص الكلمات الرئيسية وتخصيصه لتحقيق أداء مُحسّن لمحركات البحث وظهور مُحسّن.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldkeywords/text/
 ---
 ## FieldKeywords.Text property
 
-الحصول على نص الكلمات الرئيسية أو تعيينه.
+يحصل على نص الكلمات الرئيسية أو يعينه.
 
 ```csharp
 public string Text { get; set; }
@@ -24,7 +24,7 @@ public string Text { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف بعض الكلمات الرئيسية، والتي يشار إليها أيضًا باسم "العلامات" في File Explorer.
+// أضف بعض الكلمات الرئيسية، والتي يشار إليها أيضًا باسم "العلامات" في مستكشف الملفات.
 doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 
 // يعرض حقل الكلمات الرئيسية قيمة هذه الخاصية.
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
 Assert.AreEqual("Keyword1, Keyword2", field.Result);
 
-// تعيين قيمة لخاصية النص في الحقل،
-// ثم تحديث الحقل سيؤدي أيضًا إلى استبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
+// تعيين قيمة لخاصية النص الخاصة بالحقل،
+// ثم سيؤدي تحديث الحقل أيضًا إلى استبدال الخاصية المضمنة المقابلة بالقيمة الجديدة.
 field.Text = "OverridingKeyword";
 field.Update();
 

@@ -3,14 +3,14 @@ title: TableStyle.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words para .NET
-description: TableStyle Alignment propiedad. Especifica la alineación del estilo de tabla en C#.
+description: Descubra la propiedad Alineación TableStyle para personalizar sin esfuerzo el diseño de su tabla y mejorar el atractivo visual para una apariencia profesional.
 type: docs
 weight: 10
 url: /es/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-Especifica la alineación del estilo de tabla.
+Especifica la alineación para el estilo de tabla.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -22,20 +22,20 @@ El valor predeterminado esLeft .
 
 ## Ejemplos
 
-Muestra cómo establecer la posición de una mesa.
+Muestra cómo establecer la posición de una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran dos formas de alinear una mesa horizontalmente.
-// 1 - Utilice la propiedad "Alineación" para alinearla con una ubicación de la página, como el centro:
+A continuación se muestran dos formas de alinear una tabla horizontalmente.
+// 1 - Utilice la propiedad "Alineación" para alinearlo a una ubicación en la página, como el centro:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// Insertar una tabla y aplicarle el estilo que creamos.
+// Insertamos una tabla y le aplicamos el estilo que hemos creado.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

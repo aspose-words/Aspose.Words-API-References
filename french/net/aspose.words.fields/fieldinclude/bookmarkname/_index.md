@@ -3,7 +3,7 @@ title: FieldInclude.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words pour .NET
-description: FieldInclude BookmarkName propriété. Obtient ou définit le nom du signet dans le document à inclure en C#.
+description: Découvrez comment utiliser la propriété FieldInclude BookmarkName pour gérer facilement les signets dans vos documents pour une organisation et une efficacité améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldinclude/bookmarkname/
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Nous pouvons utiliser un champ INCLUDE pour importer une partie d'un autre document dans le système de fichiers local.
-// Le signet de l'autre document auquel nous référençons avec ce champ contient cette partie importée.
+// Le signet de l'autre document auquel nous faisons référence avec ce champ contient cette partie importée.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

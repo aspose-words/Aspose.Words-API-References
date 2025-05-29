@@ -3,14 +3,14 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words för .NET
-description: Table LastRow fast egendom. Returnerar den sistaRow nod i tabellen i C#.
+description: Upptäck egenskapen Table LastRow för att enkelt komma åt den sista radnoden i din tabell, vilket förbättrar datahanteringen och effektiviteten.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.tables/table/lastrow/
 ---
 ## Table.LastRow property
 
-Returnerar den sista[`Row`](../../row/) nod i tabellen.
+Returnerar det sista[`Row`](../../row/) nod i tabellen.
 
 ```csharp
 public Row LastRow { get; }

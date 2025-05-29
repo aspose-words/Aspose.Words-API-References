@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder InsertParagraph طريقة. إدراج فاصل فقرة في المستند في C#.
+description: قم بتعزيز مستنداتك بسهولة باستخدام طريقة InsertParagraph في DocumentBuilder، مما يسمح بإنشاء فواصل فقرات سلسة لتحسين إمكانية القراءة.
 type: docs
-weight: 420
+weight: 450
 url: /ar/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
 
-إدراج فاصل فقرة في المستند.
+يقوم بإدراج فاصل فقرة في المستند.
 
 ```csharp
 public Paragraph InsertParagraph()
@@ -18,13 +18,13 @@ public Paragraph InsertParagraph()
 
 ### قيمة الإرجاع
 
-عقدة الفقرة التي تم إدراجها للتو. وهي نفس العقدة[`CurrentParagraph`](../currentparagraph/).
+عقدة الفقرة التي أُدرجت للتو. وهي نفس العقدة[`CurrentParagraph`](../currentparagraph/).
 
 ## ملاحظات
 
-تنسيق الفقرة الحالي المحدد بواسطة[`ParagraphFormat`](../paragraphformat/) يتم استخدام الممتلكات.
+تنسيق الفقرة الحالية المحدد بواسطة[`ParagraphFormat`](../paragraphformat/) تم استخدام الخاصية.
 
-يقسم الفقرة الحالية إلى قسمين. بعد إدراج الفقرة، يتم وضع المؤشر في بداية الفقرة الجديدة.
+يقسم الفقرة الحالية إلى نصفين. بعد إدراج الفقرة، يوضع المؤشر في بداية الفقرة الجديدة.
 
 يتم طرح استثناء إذا لم يكن من الممكن إدراج فاصل فقرة في موضع المؤشر الحالي.
 
@@ -50,8 +50,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// تنهي طريقة "Writeln" الفقرة بعد إلحاق النص
-// ثم يبدأ سطرًا جديدًا ويضيف فقرة جديدة.
+// تنهي طريقة "Writeln" الفقرة بعد إضافة النص
+// ثم يبدأ سطرًا جديدًا، ويضيف فقرة جديدة.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

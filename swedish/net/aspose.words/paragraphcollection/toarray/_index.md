@@ -3,14 +3,14 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words för .NET
-description: ParagraphCollection ToArray metod. Kopierar alla stycken från samlingen till en ny uppsättning stycken i C#.
+description: Konvertera enkelt din ParagraphCollection till en array med ToArray-metoden, vilket effektiviserar datahanteringen och förbättrar din dokumentbehandling.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/paragraphcollection/toarray/
 ---
 ## ParagraphCollection.ToArray method
 
-Kopierar alla stycken från samlingen till en ny uppsättning stycken.
+Kopierar alla stycken från samlingen till en ny matris med stycken.
 
 ```csharp
 public Paragraph[] ToArray()
@@ -18,7 +18,7 @@ public Paragraph[] ToArray()
 
 ### Returvärde
 
-En rad stycken.
+En matris med stycken.
 
 ## Exempel
 

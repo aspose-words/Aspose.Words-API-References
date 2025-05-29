@@ -2,10 +2,10 @@
 title: ChartFormat.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartFormat ShapeType 财产. 获取或设置父图表元素的形状类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 ChartFormat ShapeType 属性高效地自定义图表元素。立即提升您的数据可视化！
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartformat/shapetype/
 ---
 ## ChartFormat.ShapeType property
@@ -22,7 +22,7 @@ public ChartShapeType ShapeType { get; set; }
 
 ## 例子
 
-演示如何设置图表数据标签的填充、描边和标注格式。
+展示如何设置图表数据标签的填充、描边和标注格式。
 
 ```csharp
 Document doc = new Document();

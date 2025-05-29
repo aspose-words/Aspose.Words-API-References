@@ -2,15 +2,15 @@
 title: Table.HorizontalAnchor
 linktitle: HorizontalAnchor
 articleTitle: HorizontalAnchor
-second_title: 用于 .NET 的 Aspose.Words
-description: Table HorizontalAnchor 财产. 获取计算浮动台水平位置的基础对象 默认值为Column 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Table HorizontalAnchor 属性，优化浮动表格的定位。轻松自定义水平对齐，增强布局控制。
 type: docs
 weight: 170
 url: /zh/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-获取计算浮动台水平位置的基础对象。 默认值为Column.
+获取计算浮动表水平定位的基础对象。 默认值为Column.
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // 只有 Margin、Page、Column 在 HorizontalAnchor setter 的relativehorizontalposition 中可用。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Column 在 RelativeHorizontalPosition 中可用于 HorizontalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // 仅边距、页面、段落可用于 VerticalAnchor setter 的relativeverticalposition。
-    // 对于任何其他值，都将引发 ArgumentException。
+    // 仅 Margin、Page、Paragraph 在 RelativeVerticalPosition 中可用于 VerticalAnchor 设置器。
+    // 对于任何其他值，都会抛出 ArgumentException。
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

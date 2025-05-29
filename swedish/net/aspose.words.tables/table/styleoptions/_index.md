@@ -3,7 +3,7 @@ title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
 second_title: Aspose.Words för .NET
-description: Table StyleOptions fast egendom. Hämtar eller ställer in bitflaggor som anger hur en tabellstil tillämpas på den här tabellen i C#.
+description: Upptäck egenskapen Table StyleOptions för att anpassa ditt bords utseende med flexibla bitflaggor. Förbättra ditt bords stil utan ansträngning!
 type: docs
 weight: 300
 url: /sv/net/aspose.words.tables/table/styleoptions/
@@ -18,21 +18,21 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ## Exempel
 
-Visar hur man bygger en ny tabell samtidigt som man använder en stil.
+Visar hur man skapar en ny tabell samtidigt som man tillämpar en stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Vi måste infoga minst en rad innan vi ställer in någon tabellformatering.
+// Vi måste infoga minst en rad innan vi anger någon tabellformatering.
 builder.InsertCell();
 
-// Ställ in tabellstilen som används baserat på stilidentifieraren.
-// Observera att inte alla tabellstilar är tillgängliga när du sparar i .doc-format.
+// Ange tabellstilen som används baserat på stilidentifieraren.
+// Observera att inte alla tabellformat är tillgängliga när man sparar i .doc-format.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tillämpa stilen delvis på funktioner i tabellen baserat på predikat, bygg sedan tabellen.
+// Tillämpa delvis stilen på tabellens funktioner baserat på predikat, och bygg sedan tabellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

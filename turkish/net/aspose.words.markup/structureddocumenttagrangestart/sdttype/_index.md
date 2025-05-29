@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.SdtType
 linktitle: SdtType
 articleTitle: SdtType
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTagRangeStart SdtType mülk. Bu yapılandırılmış belge etiketinin türünü alır C#'da.
+second_title: .NET için Aspose.Words
+description: StructuredDocumentTagRangeStart'ın SdtType özelliğini keşfedin. Gelişmiş belge yönetimi için yapılandırılmış belge etiketi türlerinin nasıl tanımlanacağını öğrenin.
 type: docs
 weight: 140
 url: /tr/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/

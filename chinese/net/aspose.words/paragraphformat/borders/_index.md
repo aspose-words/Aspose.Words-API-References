@@ -2,8 +2,8 @@
 title: ParagraphFormat.Borders
 linktitle: Borders
 articleTitle: Borders
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat Borders 财产. 获取段落边框的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ParagraphFormat Borders 属性，轻松管理和自定义段落边框，增强文档的美观性和可读性。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/paragraphformat/borders/
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## 例子
 
-演示如何插入带有上边框的段落。
+演示如何插入带有顶部边框的段落。
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: Range.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words für .NET
-description: Range UnlinkFields methode. Hebt die Verknüpfung von Feldern in diesem Bereich auf in C#.
+description: Entdecken Sie die Methode „Range UnlinkFields“, um mühelos die Verknüpfung von Feldern in Ihrem Dokumentbereich aufzuheben und so Ihren Arbeitsablauf und Ihr Dokumentenmanagement zu verbessern.
 type: docs
-weight: 110
+weight: 120
 url: /de/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
 
-Hebt die Verknüpfung von Feldern in diesem Bereich auf.
+Hebt die Verknüpfung der Felder in diesem Bereich auf.
 
 ```csharp
 public void UnlinkFields()
@@ -18,7 +18,7 @@ public void UnlinkFields()
 
 ## Bemerkungen
 
-Ersetzt alle Felder in diesem Bereich durch ihre neuesten Ergebnisse.
+Ersetzt alle Felder in diesem Bereich durch ihre aktuellsten Ergebnisse.
 
 Um die Verknüpfung von Feldern im gesamten Dokument aufzuheben, verwenden Sie`UnlinkFields`.
 

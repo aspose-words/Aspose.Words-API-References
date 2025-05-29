@@ -3,14 +3,14 @@ title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
 second_title: Aspose.Words per .NET
-description: VbaProject Modules proprietà. Restituisce la raccolta di moduli di progetto VBA in C#.
+description: Scopri la proprietà Moduli VbaProject, accedi e gestisci senza sforzo i moduli del tuo progetto VBA per una maggiore automazione ed efficienza.
 type: docs
-weight: 40
+weight: 50
 url: /it/net/aspose.words.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
 
-Restituisce la raccolta di moduli di progetto VBA.
+Restituisce una raccolta di moduli di progetto VBA.
 
 ```csharp
 public VbaModuleCollection Modules { get; }
@@ -18,7 +18,7 @@ public VbaModuleCollection Modules { get; }
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

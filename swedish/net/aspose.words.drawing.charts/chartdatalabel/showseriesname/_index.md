@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words för .NET
-description: ChartDataLabel ShowSeriesName fast egendom. Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. Sann för att visa serienamnetfalsk att gömma. Som standardfalsk  i C#.
+description: Upptäck egenskapen ChartDataLabel ShowSeriesName, styr enkelt serienamnens synlighet i dina diagram. Förbättra datatydligheten med en enkel boolesk inställning!
 type: docs
-weight: 140
+weight: 190
 url: /sv/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-Returnerar eller ställer in en boolesk för att indikera visningsbeteendet för serienamnet för dataetiketterna i ett diagram. `Sann` för att visa serienamnet;`falsk` att gömma. Som standard`falsk` .
+Returnerar eller anger ett booleskt värde för att ange visningsbeteendet för serienamn för dataetiketterna i ett diagram. `sann` för att visa seriens namn;`falsk` att dölja. Som standard`falsk` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -42,7 +42,7 @@ public void DataLabels()
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Ändra separatorsträngen för varje dataetikett i en serie.
+    // Ändra avgränsningssträngen för varje dataetikett i en serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // För en renare graf kan vi ta bort dataetiketter individuellt.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie av dess dataetiketter på en gång.
+    // För en renare graf kan vi ta bort dataetiketter individuellt.
+    dataLabel.ClearFormat();
+
+    // Vi kan också ta bort en hel serie av dess dataetiketter samtidigt.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Använd dataetiketter med anpassat nummerformat och separator på flera datapunkter i en serie.
+/// Använd dataetiketter med anpassat talformat och avgränsare på flera datapunkter i en serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

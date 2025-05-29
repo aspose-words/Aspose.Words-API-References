@@ -2,15 +2,15 @@
 title: DocumentBuilder.PushFont
 linktitle: PushFont
 articleTitle: PushFont
-second_title: Aspose.Words for .NET
-description: DocumentBuilder PushFont yöntem. Geçerli karakter formatını yığına kaydeder C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder PushFont yönteminin, karakter stillerini kaydederek kolay erişim ve tutarlı tasarım yoluyla belge biçimlendirmenizi nasıl geliştirdiğini keşfedin.
 type: docs
-weight: 600
+weight: 640
 url: /tr/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
 
-Geçerli karakter formatını yığına kaydeder.
+Mevcut karakter biçimlendirmesini yığına kaydeder.
 
 ```csharp
 public void PushFont()
@@ -18,28 +18,28 @@ public void PushFont()
 
 ## Örnekler
 
-Belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
+Bir belge oluşturucunun biçimlendirme yığınının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yazı tipi formatını ayarlayın, ardından köprüden önce gelen metni yazın.
+// Yazı tipi biçimlendirmesini ayarlayın, ardından köprü metninden önce gelecek metni yazın.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Yığındaki mevcut biçimlendirme yapılandırmamızı koruyun.
+// Yığındaki mevcut biçimlendirme yapılandırmamızı koruyalım.
 builder.PushFont();
 
-// Yeni bir stil uygulayarak oluşturucunun mevcut formatını değiştirin.
+// Yeni bir stil uygulayarak oluşturucunun geçerli biçimlendirmesini değiştirin.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", false);
+builder.InsertHyperlink("here", "http://www.google.com", yanlış);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Daha önce kaydettiğimiz yazı tipi formatını geri yükleyin ve öğeyi yığından kaldırın.
+// Daha önce kaydettiğimiz yazı tipi biçimlendirmesini geri yükleyin ve öğeyi yığından kaldırın.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

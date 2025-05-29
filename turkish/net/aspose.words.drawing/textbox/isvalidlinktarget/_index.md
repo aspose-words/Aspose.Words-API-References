@@ -2,8 +2,8 @@
 title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
-second_title: Aspose.Words for .NET
-description: TextBox IsValidLinkTarget yöntem. Bunun olup olmadığını belirlerTextBox hedefe bağlanabilirTextBox  C#'da.
+second_title: .NET için Aspose.Words
+description: TextBox'ınızın IsValidLinkTarget metoduyla bir hedefe bağlanıp bağlanamayacağını keşfedin. UI işlevselliğinizi zahmetsizce geliştirin!
 type: docs
 weight: 140
 url: /tr/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Yalnızca boş bir metin kutusunun bağlantısı olabilir.
+// Sadece boş bir metin kutusunda bağlantı bulunabilir.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından bunların artık bağlantılı olmadığını doğrulayın.
+    // textBox2 ile textBox3 arasındaki ileri bağlantıyı kesin ve ardından artık bağlantılı olmadıklarını doğrulayın.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

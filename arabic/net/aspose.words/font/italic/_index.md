@@ -3,14 +3,14 @@ title: Font.Italic
 linktitle: Italic
 articleTitle: Italic
 second_title: Aspose.Words لـ .NET
-description: Font Italic ملكية. صحيح إذا كان الخط منسقًا بالخط المائل في C#.
+description: اكتشف خاصية الخط المائل! نسّق النصوص بسهولة بخط مائل لتحسين سهولة القراءة وأسلوب تصميماتك. حسّن أسلوب طباعتك اليوم!
 type: docs
 weight: 160
 url: /ar/net/aspose.words/font/italic/
 ---
 ## Font.Italic property
 
-صحيح إذا كان الخط منسقًا بالخط المائل.
+صحيح إذا تم تنسيق الخط على أنه مائل.
 
 ```csharp
 public bool Italic { get; set; }
@@ -18,7 +18,7 @@ public bool Italic { get; set; }
 
 ## أمثلة
 
-يوضح كيفية كتابة نص مائل باستخدام أداة إنشاء المستندات.
+يوضح كيفية كتابة نص مائل باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();

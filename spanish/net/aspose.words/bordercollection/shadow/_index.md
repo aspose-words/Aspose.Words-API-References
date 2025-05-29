@@ -3,14 +3,14 @@ title: BorderCollection.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words para .NET
-description: BorderCollection Shadow propiedad. Obtiene o establece un valor que indica si el borde tiene una sombra en C#.
+description: Descubre la propiedad Sombra de BorderCollection para realzar tus diseños. ¡Controla fácilmente las sombras de los bordes para lograr un aspecto moderno y elegante en tus proyectos!
 type: docs
 weight: 110
 url: /es/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-Obtiene o establece un valor que indica si el borde tiene una sombra.
+Obtiene o establece un valor que indica si el borde tiene sombra.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -20,7 +20,7 @@ public bool Shadow { get; set; }
 
 Obtiene el valor del primer borde de la colección.
 
-Establece el valor para todos los bordes de la colección, excepto los bordes diagonales.
+Establece el valor para todos los bordes de la colección, excluidos los bordes diagonales.
 
 ## Ejemplos
 

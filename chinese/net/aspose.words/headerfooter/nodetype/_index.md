@@ -2,8 +2,8 @@
 title: HeaderFooter.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: HeaderFooter NodeType 财产. 返回HeaderFooter 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 HeaderFooter NodeType 属性，可有效检索页眉和页脚详细信息，增强内容结构和用户体验。
 type: docs
 weight: 50
 url: /zh/net/aspose.words/headerfooter/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## 例子
 
-演示如何迭代复合节点的子节点。
+展示如何迭代复合节点的子节点。
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// 一个Section是一个复合节点并且可以包含子节点，
-// 但前提是这些子节点属于“Body”或“HeaderFooter”节点类型。
+// Section 是一个复合节点，可以包含子节点，
+// 但只有当这些子节点属于“Body”或“HeaderFooter”节点类型时才如此。
 foreach (Node node in section)
 {
     switch (node.NodeType)

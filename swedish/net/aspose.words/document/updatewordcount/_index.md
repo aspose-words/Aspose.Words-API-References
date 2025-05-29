@@ -3,14 +3,14 @@ title: Document.UpdateWordCount
 linktitle: UpdateWordCount
 articleTitle: UpdateWordCount
 second_title: Aspose.Words för .NET
-description: Document UpdateWordCount metod. Uppdaterar ordräkningsegenskaper för dokumentet i C#.
+description: Förbättra dokumentets effektivitet med UpdateWordCount-metoden, vilket säkerställer korrekta ordräkningsegenskaper för bättre redigering och granskning.
 type: docs
-weight: 790
+weight: 850
 url: /sv/net/aspose.words/document/updatewordcount/
 ---
 ## UpdateWordCount() {#updatewordcount}
 
-Uppdaterar ordräkningsegenskaper för dokumentet.
+Uppdaterar dokumentets egenskaper för ordantal.
 
 ```csharp
 public void UpdateWordCount()
@@ -18,15 +18,15 @@ public void UpdateWordCount()
 
 ## Anmärkningar
 
-`UpdateWordCount` räknar om och uppdaterar egenskaperna Characters, Words and Paragraphs i[`BuiltInDocumentProperties`](../builtindocumentproperties/) samling av[`Document`](../).
+`UpdateWordCount` beräknar om och uppdaterar egenskaperna för Tecken, Ord och Stycken i[`BuiltInDocumentProperties`](../builtindocumentproperties/) samling av[`Document`](../).
 
-Anteckna det`UpdateWordCount`uppdaterar inte antalet rader och sidor egenskaper. Använd`UpdateWordCount` överbelastning och passera`Sann` värde som en parameter för att göra det.
+Observera att`UpdateWordCount` uppdaterar inte egenskaper för antal rader och sidor. Använd`UpdateWordCount` överbelastning och pass`sann` värde som en parameter för att göra det.
 
-När du använder en utvärderingsversion kommer utvärderingsvattenstämpeln också att inkluderas i ordantalet.
+När du använder en utvärderingsversion kommer även utvärderingsvattenmärket att inkluderas i ordantalet.
 
 ## Exempel
 
-Visar hur du uppdaterar alla listetiketter i ett dokument.
+Visar hur man uppdaterar alla listetiketter i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -37,7 +37,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words spårar inte dokumentmått som dessa i realtid.
+// Aspose.Words spårar inte dokumentstatistik som dessa i realtid.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -50,7 +50,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// För radräkningen måste vi anropa en specifik överbelastning av uppdateringsmetoden.
+// För radantalet måste vi anropa en specifik överbelastning av uppdateringsmetoden.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);
@@ -68,7 +68,7 @@ Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
 
 ## UpdateWordCount(*bool*) {#updatewordcount_1}
 
-Uppdaterar ordräkningsegenskaper för dokumentet, uppdaterar eventuellt[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) egenskap.
+Uppdaterar dokumentets ordantal, uppdaterar valfritt[`Lines`](../../../aspose.words.properties/builtindocumentproperties/lines/) egendom.
 
 ```csharp
 public void UpdateWordCount(bool updateLinesCount)
@@ -76,15 +76,15 @@ public void UpdateWordCount(bool updateLinesCount)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| updateLinesCount | Boolean | `Sann` om antal rader i dokumentet ska beräknas. |
+| updateLinesCount | Boolean | `sann` om antalet rader i dokumentet ska beräknas. |
 
 ## Anmärkningar
 
-Den här metoden kommer att återskapa sidlayouten för dokumentet.
+Den här metoden kommer att återskapa dokumentets sidlayout.
 
 ## Exempel
 
-Visar hur du uppdaterar alla listetiketter i ett dokument.
+Visar hur man uppdaterar alla listetiketter i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -95,7 +95,7 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-// Aspose.Words spårar inte dokumentmått som dessa i realtid.
+// Aspose.Words spårar inte dokumentstatistik som dessa i realtid.
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
@@ -108,7 +108,7 @@ Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
 Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
 Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
 
-// För radräkningen måste vi anropa en specifik överbelastning av uppdateringsmetoden.
+// För radantalet måste vi anropa en specifik överbelastning av uppdateringsmetoden.
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
 
 doc.UpdateWordCount(true);

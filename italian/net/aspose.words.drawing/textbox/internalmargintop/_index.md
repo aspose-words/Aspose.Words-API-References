@@ -3,7 +3,7 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words per .NET
-description: TextBox InternalMarginTop proprietà. Specifica il margine superiore interno in punti per una forma in C#.
+description: Scopri la proprietà InternalMarginTop di TextBox: controlla il margine superiore della tua forma in punti per un layout preciso e una maggiore flessibilità di progettazione.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing/textbox/internalmargintop/
@@ -28,7 +28,7 @@ Mostra come impostare i margini interni per una casella di testo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un'altra casella di testo con margini specifici.
+// Inserisce un'altra casella di testo con margini specifici.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

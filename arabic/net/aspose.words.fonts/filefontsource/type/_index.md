@@ -3,14 +3,14 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: FileFontSource Type ملكية. إرجاع نوع مصدر الخط في C#.
+description: اكتشف خاصية FileFontSource Type لتحديد أنواع مصادر الخطوط بسهولة، مما يعزز مشاريع التصميم الخاصة بك بحلول الطباعة الدقيقة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fonts/filefontsource/type/
 ---
 ## FileFontSource.Type property
 
-إرجاع نوع مصدر الخط.
+يعيد نوع مصدر الخط.
 
 ```csharp
 public override FontSourceType Type { get; }

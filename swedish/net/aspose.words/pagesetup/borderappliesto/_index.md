@@ -3,14 +3,14 @@ title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
 second_title: Aspose.Words för .NET
-description: PageSetup BorderAppliesTo fast egendom. Anger vilka sidor som sidkanten skrivs ut på i C#.
+description: Upptäck hur egenskapen PageSetup BorderAppliesTo förbättrar din dokumentlayout genom att styra utskrift av sidkanter för ett elegant och professionellt utseende.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/pagesetup/borderappliesto/
 ---
 ## PageSetup.BorderAppliesTo property
 
-Anger vilka sidor som sidkanten skrivs ut på.
+Anger vilka sidor sidkantlinjen skrivs ut på.
 
 ```csharp
 public PageBorderAppliesTo BorderAppliesTo { get; set; }
@@ -18,7 +18,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ## Exempel
 
-Visar hur man skapar en bred blå bandkant längst upp på första sidan.
+Visar hur man skapar en bred blå kantlinje högst upp på första sidan.
 
 ```csharp
 Document doc = new Document();

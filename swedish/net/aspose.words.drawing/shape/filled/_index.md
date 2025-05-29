@@ -3,14 +3,14 @@ title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
 second_title: Aspose.Words för .NET
-description: Shape Filled fast egendom. Bestämmer om den stängda vägen för formen kommer att fyllas i C#.
+description: Styr formens estetik med egenskapen Formfylld och bestäm om dina stängda banor är fyllda för ökad designflexibilitet och visuell tilltalning.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
 
-Bestämmer om den stängda vägen för formen kommer att fyllas.
+Avgör om den stängda banan för formen ska fyllas.
 
 ```csharp
 public bool Filled { get; set; }
@@ -18,9 +18,9 @@ public bool Filled { get; set; }
 
 ## Anmärkningar
 
-Detta är en genväg till[`Visible`](../../fill/visible/) fast egendom.
+Detta är en genväg till[`Visible`](../../fill/visible/) egendom.
 
-Standardvärdet är`Sann`.
+Standardvärdet är`sann`.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -103,7 +102,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

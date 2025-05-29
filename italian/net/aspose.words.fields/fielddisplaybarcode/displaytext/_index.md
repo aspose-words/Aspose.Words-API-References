@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.DisplayText
 linktitle: DisplayText
 articleTitle: DisplayText
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode DisplayText proprietà. Ottiene o imposta se visualizzare i dati del codice a barre testo insieme allimmagine in C#.
+description: Gestisci la visibilità dei codici a barre senza sforzo con la proprietà FieldDisplayBarcode DisplayText. Controlla la visualizzazione del testo accanto alle immagini per una maggiore chiarezza.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fielddisplaybarcode/displaytext/

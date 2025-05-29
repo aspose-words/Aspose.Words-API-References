@@ -2,8 +2,8 @@
 title: FieldSkipIf
 linktitle: FieldSkipIf
 articleTitle: FieldSkipIf
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSkipIf 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSkipIf 构造函数——高效数据处理的必备工具。立即解锁无缝集成，优化您的编程体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldskipif/fieldskipif/

@@ -3,7 +3,7 @@ title: FieldImport
 linktitle: FieldImport
 articleTitle: FieldImport
 second_title: Aspose.Words para .NET
-description: FieldImport constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldImport, su solución ideal para una integración de datos fluida. ¡Desbloquee flujos de trabajo eficientes con nuestro potente constructor predeterminado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldimport/fieldimport/

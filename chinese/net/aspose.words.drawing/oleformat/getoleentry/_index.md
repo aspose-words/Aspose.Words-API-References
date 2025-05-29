@@ -2,8 +2,8 @@
 title: OleFormat.GetOleEntry
 linktitle: GetOleEntry
 articleTitle: GetOleEntry
-second_title: 用于 .NET 的 Aspose.Words
-description: OleFormat GetOleEntry 方法. 获取 OLE 对象数据条目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OleFormat GetOleEntry 方法以有效检索 OLE 对象数据条目，从而增强数据管理和无缝集成。
 type: docs
 weight: 140
 url: /zh/net/aspose.words.drawing/oleformat/getoleentry/
@@ -26,7 +26,7 @@ OLE 数据流或`无效的`。
 
 ## 例子
 
-演示如何插入链接和未链接的 OLE 对象。
+展示如何插入链接和非链接的 OLE 对象。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 将 Microsoft Visio 绘图作为 OLE 对象嵌入到文档中。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// 插入本地文件系统中文件的链接并将其显示为图标。
+// 插入本地文件系统中的文件链接并将其显示为图标。
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // 插入 OLE 对象会创建存储这些对象的形状。
@@ -45,7 +45,7 @@ Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
 // 如果形状包含 OLE 对象，它将具有有效的“OleFormat”属性，
-// 我们可以用它来验证形状的某些方面。
+// 我们可以使用它来验证形状的某些方面。
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

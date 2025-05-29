@@ -2,8 +2,8 @@
 title: AxisDisplayUnit
 linktitle: AxisDisplayUnit
 articleTitle: AxisDisplayUnit
-second_title: Aspose.Words for .NET
-description: AxisDisplayUnit inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde kusursuz entegrasyon ve gelişmiş işlevsellik için AxisDisplayUnit oluşturucusunu keşfedin. Bugün güçlü özelliklerin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/axisdisplayunit/axisdisplayunit/

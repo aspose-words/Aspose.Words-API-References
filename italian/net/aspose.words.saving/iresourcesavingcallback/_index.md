@@ -3,14 +3,14 @@ title: IResourceSavingCallback Interface
 linktitle: IResourceSavingCallback
 articleTitle: IResourceSavingCallback
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.IResourceSavingCallback interfaccia. Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne immagini caratteri e CSS quando salva un documento in una pagina fissa HTML o SVG in C#.
+description: Controlla il risparmio di risorse di Aspose.Words con l'interfaccia IResourceSavingCallback. Gestisci immagini, font e CSS per documenti HTML o SVG ottimizzati.
 type: docs
-weight: 5190
+weight: 5940
 url: /it/net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
 
-Implementa questa interfaccia se vuoi controllare come Aspose.Words salva risorse esterne (immagini, caratteri e CSS) quando salva un documento in una pagina fissa HTML o SVG.
+Implementa questa interfaccia se vuoi controllare come Aspose.Words salva le risorse esterne (immagini, caratteri e css) quando salva un documento in formato HTML o SVG a pagina fissa.
 
 ```csharp
 public interface IResourceSavingCallback
@@ -20,7 +20,7 @@ public interface IResourceSavingCallback
 
 | Nome | Descrizione |
 | --- | --- |
-| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Chiamato quando Aspose.Words salva una risorsa esterna nei formati HTML o SVG a pagina fissa. |
+| [ResourceSaving](../../aspose.words.saving/iresourcesavingcallback/resourcesaving/)(*[ResourceSavingArgs](../resourcesavingargs/)*) | Chiamato quando Aspose.Words salva una risorsa esterna in formati HTML o SVG di pagina fissa. |
 
 ## Esempi
 
@@ -46,7 +46,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {
@@ -84,7 +84,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Una cartella specificata da ResourcesFolderAlias conterrà le risorse anziché ResourcesFolder.
-    // Dobbiamo garantire che la cartella esista prima che i flussi possano inserirvi le proprie risorse.
+    // Dobbiamo assicurarci che la cartella esista prima che i flussi possano inserirvi le loro risorse.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -113,8 +113,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // Per impostazione predefinita, "ResourceFileUri" utilizza la cartella di sistema per i caratteri.
-                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso dei caratteri.
+                // Per impostazione predefinita, 'ResourceFileUri' utilizza la cartella di sistema per i font.
+                // Per evitare problemi su altre piattaforme è necessario specificare esplicitamente il percorso per i font.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -123,7 +123,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Se abbiamo specificato una cartella nella proprietà "ResourcesFolderAlias",
-        // dovremo anche reindirizzare ogni flusso per inserire la relativa risorsa in quella cartella.
+        // dovremo anche reindirizzare ogni flusso per mettere la sua risorsa in quella cartella.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -3,16 +3,16 @@ title: FieldAutoText Class
 linktitle: FieldAutoText
 articleTitle: FieldAutoText
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldAutoText сорт. Реализует поле АВТОТЕКСТ на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldAutoText для легкого управления полями AUTOTEXT, повышая автоматизацию и эффективность работы с документами.
 type: docs
-weight: 1610
+weight: 2020
 url: /ru/net/aspose.words.fields/fieldautotext/
 ---
 ## FieldAutoText class
 
-Реализует поле АВТОТЕКСТ.
+Реализует поле AUTOTEXT.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldAutoText : Field
@@ -28,15 +28,15 @@ public class FieldAutoText : Field
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий отображаемый результат поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [EntryName](../../aspose.words.fields/fieldautotext/entryname/) { get; set; } | Получает или задает имя записи автотекста. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
+| [EntryName](../../aspose.words.fields/fieldautotext/entryname/) { get; set; } | Возвращает или задает имя записи автотекста. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Возвращает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Возвращает или задает текст, который находится между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
 
@@ -44,12 +44,12 @@ public class FieldAutoText : Field
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
-| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). Включаются как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля — последний child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отмену связи поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
 
 ## Примечания
 
@@ -57,12 +57,12 @@ public class FieldAutoText : Field
 
 ## Примеры
 
-Показывает, как отобразить стандартный блок с полями АВТОТЕКСТ и ГЛОССАРИЙ.
+Показывает, как отобразить строительный блок с полями АВТОТЕКСТ и ГЛОССАРИЙ.
 
 ```csharp
 Document doc = new Document();
 
-// Создаем документ глоссария и добавляем в него стандартный блок автотекста.
+// Создайте документ глоссария и добавьте в него блок AutoText.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -72,7 +72,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Создаем источник и добавляем его в виде текста в наш строительный блок.
+// Создаем источник и добавляем его как текст в наш строительный блок.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -80,19 +80,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// Устанавливаем файл, содержащий части, которые не могут содержаться в нашем документе или прикрепленном к нему шаблоне.
+// Задаем файл, содержащий части, которые наш документ или прикрепленный к нему шаблон могут не содержать.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два способа использования полей для отображения содержимого нашего строительного блока.
-// 1 - Использование поля АВТОТЕКСТ:
+// 1 - Использование поля AUTOTEXT:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 – Использование поля ГЛОССАРИЙ:
+// 2 - Использование поля ГЛОССАРИЙ:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

@@ -3,7 +3,7 @@ title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
 second_title: Aspose.Words für .NET
-description: MustacheTag ReferenceRun eigendom. Ruft den Lauf ab der den Anfang des Tags enthält in C#.
+description: Entdecken Sie MustacheTag ReferenceRun. Greifen Sie auf den Lauf zu, der den Beginn Ihres Tags markiert, für nahtloses Datenmanagement und verbesserte Leistung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.mailmerging/mustachetag/referencerun/
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## Beispiele
 
-Zeigt, wie mit den Moustache-Tags gearbeitet wird.
+Zeigt, wie mit den Mustache-Tags gearbeitet wird.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

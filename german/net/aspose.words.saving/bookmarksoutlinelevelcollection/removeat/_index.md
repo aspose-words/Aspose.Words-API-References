@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words für .NET
-description: BookmarksOutlineLevelCollection RemoveAt methode. Entfernt ein Lesezeichen am angegebenen Index in C#.
+description: Verwalten Sie Ihre Lesezeichen ganz einfach mit der RemoveAt-Methode. Entfernen Sie Lesezeichen schnell nach Index für ein optimiertes Anwendungserlebnis!
 type: docs
 weight: 100
 url: /de/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der auf Null basierende Index. |
+| index | Int32 | Der nullbasierte Index. |
 
 ## Beispiele
 
@@ -28,7 +28,7 @@ Zeigt, wie Gliederungsebenen für Lesezeichen festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein Lesezeichen mit einem anderen darin verschachtelten Lesezeichen ein.
+// Fügt ein Lesezeichen ein, in dem ein weiteres Lesezeichen verschachtelt ist.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -64,14 +64,14 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird während des Speichervorgangs optimiert.
-// In diesem Fall werden die Stufen „5“ und „9“ zu „2“ und „3“.
+// Es gibt neun Gliederungsebenen. Ihre Nummerierung wird beim Speichern optimiert.
+// In diesem Fall werden die Ebenen „5“ und „9“ zu „2“ und „3“.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf derselben Gliederungsebene platziert.
+// Durch das Leeren dieser Sammlung bleiben die Lesezeichen erhalten und werden alle auf die gleiche Gliederungsebene gesetzt.
 outlineLevels.Clear();
 ```
 

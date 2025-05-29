@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.RecordIndex
 linktitle: RecordIndex
 articleTitle: RecordIndex
 second_title: Aspose.Words لـ .NET
-description: FieldMergingArgsBase RecordIndex ملكية. الحصول على الفهرس الصفري للسجل الذي يتم دمجه في C#.
+description: اكتشف خاصية FieldMergingArgsBase RecordIndex. استخدم الفهرس الصفري لسجل الدمج لتحسين إدارة البيانات وتكاملها.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/recordindex/
 ---
 ## FieldMergingArgsBase.RecordIndex property
 
-الحصول على الفهرس الصفري للسجل الذي يتم دمجه.
+يحصل على الفهرس الصفري للسجل الذي يتم دمجه.
 
 ```csharp
 public int RecordIndex { get; }
@@ -18,7 +18,7 @@ public int RecordIndex { get; }
 
 ## أمثلة
 
-يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
+يوضح كيفية إدراج حقول نموذج مربع الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
 ```csharp
 public void InsertCheckBox()
@@ -26,7 +26,7 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم MERGEFIELDs مع علامات "TableStart"/"TableEnd" لتحديد منطقة دمج البريد
+    // استخدم MERGEFIELDs مع علامتي "TableStart"/"TableEnd" لتحديد منطقة دمج البريد
     // الذي ينتمي إلى مصدر بيانات يسمى "StudentCourse" ويحتوي على MERGEFIELD الذي يقبل البيانات من عمود يسمى "CourseName".
     builder.StartTable();
     builder.InsertCell();
@@ -46,12 +46,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// عند مواجهة MERGEFIELD باسم محدد، يتم إدراج حقل نموذج خانة الاختيار بدلاً من نص دمج البيانات.
+/// عند مواجهة MERGEFIELD باسم محدد، يتم إدراج حقل نموذج مربع الاختيار بدلاً من نص بيانات الدمج.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -65,7 +65,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // في هذه الحالة، لكل فهرس سجل 'n'، تكون قيمة الحقل المقابل هي "Course n".
+            // في هذه الحالة، لكل فهرس سجل 'n'، قيمة الحقل المقابلة هي "Course n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -75,14 +75,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// إنشاء مصدر بيانات لدمج المراسلات.
+/// إنشاء مصدر بيانات دمج البريد.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {

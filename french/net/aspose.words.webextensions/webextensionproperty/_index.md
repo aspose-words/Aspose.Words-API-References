@@ -3,16 +3,16 @@ title: WebExtensionProperty Class
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.WebExtensions.WebExtensionProperty classe. Spécifie une propriété personnalisée dextension Web en C#.
+description: Découvrez la classe Aspose.Words.WebExtensionProperty pour définir des propriétés d'extensions Web personnalisées. Optimisez la gestion de vos documents en toute simplicité !
 type: docs
-weight: 6780
+weight: 7630
 url: /fr/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
 Spécifie une propriété personnalisée d'extension Web.
 
-Pour en savoir plus, visitez le[Travailler avec les compléments Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les compléments Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) article de documentation.
 
 ```csharp
 public class WebExtensionProperty

@@ -2,8 +2,8 @@
 title: FieldIncludeText.MimeType
 linktitle: MimeType
 articleTitle: MimeType
-second_title: Aspose.Words for .NET
-description: FieldIncludeText MimeType mülk. Başvurulan dosyanın MIME türünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldIncludeText MimeType özelliğiyle dosyalarınızı zahmetsizce yönetin; sorunsuz entegrasyon için MIME türünü kolayca alabilir veya ayarlayabilirsiniz.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldincludetext/mimetype/
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

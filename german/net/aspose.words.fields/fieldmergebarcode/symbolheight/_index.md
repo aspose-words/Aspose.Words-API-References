@@ -3,14 +3,14 @@ title: FieldMergeBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode SymbolHeight eigendom. Ruft die Höhe des Symbols ab oder legt diese fest. Die Einheiten sind in TWIPS 1/1440 Zoll in C#.
+description: Passen Sie die SymbolHeight-Eigenschaft von FieldMergeBarcode an, um die Höhe Ihres Barcodes in TWIPS anzupassen. Verbessern Sie Ihre Datenpräsentation mit Präzision!
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 ---
 ## FieldMergeBarcode.SymbolHeight property
 
-Ruft die Höhe des Symbols ab oder legt diese fest. Die Einheiten sind in TWIPS (1/1440 Zoll).
+Ruft die Höhe des Symbols ab oder legt sie fest. Die Einheit ist TWIPS (1/1440 Zoll).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -18,14 +18,14 @@ public string SymbolHeight { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
+Zeigt, wie ein Serienbrief mit QR-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer Zusammenführungsdatenquelle in QR-Codes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer zusammengeführten Datenquelle in QR-Codes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -45,7 +45,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein QR-Code mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein QR-Code mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

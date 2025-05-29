@@ -2,8 +2,8 @@
 title: OfficeMath.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
-second_title: Aspose.Words for .NET
-description: OfficeMath ParentParagraph mülk. Üst öğeyi alırParagraph bu düğümün C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir düğümün üst Paragrafına kolayca erişmek, belge biçimlendirmenizi ve yapınızı geliştirmek için OfficeMath ParentParagraph özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.math/officemath/parentparagraph/
@@ -18,15 +18,15 @@ public Paragraph ParentParagraph { get; }
 
 ## Örnekler
 
-Ofis matematik ekranı formatının nasıl ayarlanacağını gösterir.
+Ofis matematik görüntüleme biçimlendirmesinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Diğer OfficeMath düğümlerinin çocukları olan OfficeMath düğümleri her zaman satır içidir.
-// Çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
+// Diğer OfficeMath düğümlerinin çocuğu olan OfficeMath düğümleri her zaman satır içidir.
+// Üzerinde çalıştığımız düğüm, konumunu ve görüntüleme türünü değiştirecek temel düğümdür.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

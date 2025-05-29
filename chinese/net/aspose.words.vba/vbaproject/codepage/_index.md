@@ -2,8 +2,8 @@
 title: VbaProject.CodePage
 linktitle: CodePage
 articleTitle: CodePage
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaProject CodePage 财产. 获取或设置 VBA 项目的代码页 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何管理 VbaProject CodePage 属性以优化 VBA 项目的代码页设置，从而增强性能和兼容性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbaproject/codepage/
@@ -18,11 +18,11 @@ public int CodePage { get; set; }
 
 ## 评论
 
-请注意，VBA 是 Unicode 之前的功能，您必须显式设置适当的代码页 以保留区域字符集。
+请注意，VBA 是 Unicode 之前的功能，您必须明确设置适当的代码页 以保留区域字符集。
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

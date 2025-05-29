@@ -3,7 +3,7 @@ title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
 second_title: Aspose.Words pour .NET
-description: BorderCollection Vertical propriété. Obtient la bordure verticale utilisée entre les cellules en C#.
+description: Découvrez la propriété BorderCollection Vertical pour des bordures de cellules harmonieuses. Sublimez votre design avec des bordures verticales personnalisables pour un rendu soigné !
 type: docs
 weight: 130
 url: /fr/net/aspose.words/bordercollection/vertical/
@@ -18,13 +18,13 @@ public Border Vertical { get; }
 
 ## Exemples
 
-Montre comment appliquer les paramètres des bordures verticales au format d’une ligne de tableau.
+Montre comment appliquer des paramètres aux bordures verticales au format d'une ligne de tableau.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crée un tableau avec des bordures intérieures rouges et bleues.
+// Créez un tableau avec des bordures intérieures rouges et bleues.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Ajuste l'apparence des bordures qui apparaîtront entre les lignes.
+    // Ajustez l'apparence des bordures qui apparaîtront entre les lignes.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Ajuste l'apparence des bordures qui apparaîtront entre les cellules.
+    // Ajustez l'apparence des bordures qui apparaîtront entre les cellules.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

@@ -3,7 +3,7 @@ title: ConvertUtil.PixelToPoint
 linktitle: PixelToPoint
 articleTitle: PixelToPoint
 second_title: Aspose.Words pour .NET
-description: ConvertUtil PixelToPoint méthode. Convertit les pixels en points à 96 dpi en C#.
+description: Convertissez facilement des pixels en points à 96 ppp grâce à la méthode PixelToPoint de ConvertUtil. Améliorez la précision de vos créations dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words/convertutil/pixeltopoint/
@@ -32,8 +32,8 @@ Montre comment spécifier les propriétés de la page en pixels.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La "Mise en page" d'une section définit la taille des marges de la page en points.
-// On peut aussi utiliser la classe "ConvertUtil" pour utiliser une unité de mesure différente,
+// La « Mise en page » d'une section définit la taille des marges de la page en points.
+// Nous pouvons également utiliser la classe « ConvertUtil » pour utiliser une unité de mesure différente,
 // comme les pixels lors de la définition des limites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
@@ -90,7 +90,7 @@ Montre comment utiliser la conversion de points en pixels avec une résolution p
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définit la taille de la marge supérieure de cette section en pixels, selon un DPI personnalisé.
+// Définissez la taille de la marge supérieure de cette section en pixels, selon un DPI personnalisé.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;

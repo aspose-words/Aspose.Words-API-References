@@ -3,14 +3,14 @@ title: IWarningCallback.Warning
 linktitle: Warning
 articleTitle: Warning
 second_title: Aspose.Words لـ .NET
-description: IWarningCallback Warning طريقة. يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات في C#.
+description: اكتشف وظيفة IWarningCallback في Aspose.Words. عالج مشاكل تحميل وحفظ المستندات بسلاسة، مع الحفاظ على التنسيق وسلامة البيانات.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/iwarningcallback/warning/
 ---
 ## IWarningCallback.Warning method
 
-يستدعي Aspose.Words هذه الطريقة عندما يواجه مشكلة أثناء تحميل المستند أو حفظه مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات.
+يستدعي Aspose.Words هذه الطريقة عندما يواجه بعض المشكلات أثناء تحميل المستند أو حفظه، مما قد يؤدي إلى فقدان التنسيق أو دقة البيانات.
 
 ```csharp
 public void Warning(WarningInfo info)
@@ -26,20 +26,20 @@ public void EnableFontSubstitution()
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // تعيين معاودة الاتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    // ينبغي استخدام مقاييس الخط الأصلية بعد استبدال الخط.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
+    // سوف نحصل على تحذير استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -47,7 +47,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // يمكننا أيضًا التحقق من التحذيرات في المجموعة ومسحها.
+    //يمكننا أيضًا التحقق من التحذيرات الموجودة في المجموعة ومسحها.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -55,13 +55,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
+    /// يتم استدعاؤها في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

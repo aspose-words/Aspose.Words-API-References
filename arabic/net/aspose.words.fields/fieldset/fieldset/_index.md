@@ -3,7 +3,7 @@ title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
 second_title: Aspose.Words لـ .NET
-description: FieldSet البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ مجموعة الحقول، الأداة الأساسية لإنشاء نماذج ديناميكية بسهولة. استمتع بتجربة مستخدم سلسة اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldset/fieldset/

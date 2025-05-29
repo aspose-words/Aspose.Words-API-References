@@ -2,15 +2,15 @@
 title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.HyphenationOptions 班级. 允许配置文档连字符选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Settings.HyphenationOptions 类，轻松自定义文档的连字设置并增强文本呈现。
 type: docs
-weight: 5790
+weight: 6620
 url: /zh/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-允许配置文档连字符选项。
+允许配置文档连字选项。
 
 要了解更多信息，请访问[使用连字符](https://docs.aspose.com/words/net/working-with-hyphenation/)文档文章。
 
@@ -28,10 +28,10 @@ public class HyphenationOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | 获取或设置确定是否为文档打开自动连字符的值。 此属性的默认值为`错误的`. |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | 获取或设置可以以连字符结尾的最大连续行数。 此属性的默认值为 0。 |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | 获取或设置确定全部大写字母书写的单词是否连字符的值。 此属性的默认值为`真的`. |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | 获取或设置距右边距 1/20 的点的距离，在该距离内您不希望 对单词进行连字符。 此属性的默认值为 360（0.25 英寸）。 |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | 获取或设置确定文档是否启用自动连字的值。 此属性的默认值为`错误的`. |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | 获取或设置可以以连字符结尾的连续行的最大数量。 此属性的默认值为 0。 |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | 获取或设置确定全部大写字母的单词是否带连字符的值。 此属性的默认值为`真的`. |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | 获取或设置距离右边距 1/20 点的距离，在该距离内您不希望 对单词进行连字。 此属性的默认值为 360（0.25 英寸）。 |
 
 ## 例子
 

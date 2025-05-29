@@ -3,14 +3,14 @@ title: MailMerge.UnconditionalMergeFieldsAndRegions
 linktitle: UnconditionalMergeFieldsAndRegions
 articleTitle: UnconditionalMergeFieldsAndRegions
 second_title: Aspose.Words för .NET
-description: MailMerge UnconditionalMergeFieldsAndRegions fast egendom. Hämtar eller ställer in ett värde som anger om sammanslagningsfält och sammanslagningsregioner slås samman oavsett det överordnade IFfältets tillstånd i C#.
+description: Upptäck hur MailMerges egenskap UnconditionalMergeFieldsAndRegions förbättrar dokumentautomation genom att sammanfoga fält och regioner utan villkorliga begränsningar.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/
 ---
 ## MailMerge.UnconditionalMergeFieldsAndRegions property
 
-Hämtar eller ställer in ett värde som anger om sammanslagningsfält och sammanslagningsregioner slås samman oavsett det överordnade IF-fältets tillstånd.
+Hämtar eller anger ett värde som anger om sammanslagningsfält och sammanslagningsområden slås samman oavsett det överordnade OM-fältets villkor.
 
 ```csharp
 public bool UnconditionalMergeFieldsAndRegions { get; set; }
@@ -22,23 +22,23 @@ Standardvärdet är`falsk` .
 
 ## Exempel
 
-Visar hur man slår samman fält eller regioner oavsett det överordnade IF-fältets tillstånd.
+Visar hur man sammanfogar fält eller regioner oavsett det överordnade OM-fältets villkor.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett MERGEFIELD kapslat i ett IF-fält.
+// Infoga ett MERGEFIELD kapslat inuti ett OM-fält.
 // Eftersom IF-fältsatsen är falsk kommer den inte att visa resultatet av MERGEFIELD.
-// MERGEFIELD kommer inte heller att ta emot några data under en e-postsammanfogning.
+// MERGEFIELD kommer inte heller att ta emot några data under en dokumentkoppling.
 FieldIf fieldIf = (FieldIf)builder.InsertField(" IF 1 = 2 ");
 builder.MoveTo(fieldIf.Separator);
 builder.InsertField(" MERGEFIELD  FullName ");
 
-// Om vi ställer in flaggan "UnconditionalMergeFieldsAndRegions" till "true",
-// vår sammanslagning kommer att infoga data i icke-visade fält som vårt MERGEFIELD såväl som alla andra.
+// Om vi ställer in flaggan "UnconditionalMergeFieldsAndRegions" till "sant",
+// vår dokumentkoppling infogar data i fält som inte visas, såsom vårt MERGEFIELD samt alla andra.
 // Om vi ställer in flaggan "UnconditionalMergeFieldsAndRegions" till "false",
-// vår sammanslagning kommer inte att infoga data i MERGEFIELDs dolda av IF-fält med falska uttalanden.
+// vår dokumentkoppling kommer inte att infoga data i MERGEFIELDS som är dolda av OM-fält med falska påståenden.
 doc.MailMerge.UnconditionalMergeFieldsAndRegions = countAllMergeFields;
 
 DataTable dataTable = new DataTable();

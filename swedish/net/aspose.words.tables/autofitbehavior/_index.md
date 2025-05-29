@@ -3,9 +3,9 @@ title: AutoFitBehavior Enum
 linktitle: AutoFitBehavior
 articleTitle: AutoFitBehavior
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Tables.AutoFitBehavior uppräkning. Bestämmer hur Aspose.Words ändrar storlek på tabellen när du anroparAutoFit metod i C#.
+description: Upptäck Aspose.Words.Tables.AutoFitBehavior enum för att optimera tabellstorleksändring med AutoFit-metoden, vilket förbättrar dokumentlayout och presentation.
 type: docs
-weight: 6230
+weight: 7080
 url: /sv/net/aspose.words.tables/autofitbehavior/
 ---
 ## AutoFitBehavior enumeration
@@ -21,26 +21,26 @@ public enum AutoFitBehavior
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | AutoFitToContents | `0` | Aspose.Words aktiverar alternativet Autopassning, tar bort önskad bredd från tabellen och alla celler och uppdaterar sedan tabelllayouten. |
-| AutoFitToWindow | `1` | När du använder det här värdet aktiverar Aspose.Words alternativet Autopassning, ställer in den föredragna bredden för tabellen till 100 %, tar bort önskade bredder från alla celler och uppdaterar sedan tabelllayouten. |
-| FixedColumnWidths | `2` | Aspose.Words inaktiverar alternativet Autopassning och tar bort det önskade med från tabellen. |
+| AutoFitToWindow | `1` | När du använder det här värdet aktiverar Aspose.Words alternativet Autopassning, ställer in önskad bredd för tabellen till 100 %, tar bort önskade bredder från alla celler och uppdaterar sedan tabelllayouten. |
+| FixedColumnWidths | `2` | Aspose.Words inaktiverar alternativet Autopassning och tar bort den föredragna with från tabellen. |
 
 ## Exempel
 
-Visar hur man bygger en ny tabell samtidigt som man använder en stil.
+Visar hur man skapar en ny tabell samtidigt som man tillämpar en stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Vi måste infoga minst en rad innan vi ställer in någon tabellformatering.
+// Vi måste infoga minst en rad innan vi anger någon tabellformatering.
 builder.InsertCell();
 
-// Ställ in tabellstilen som används baserat på stilidentifieraren.
-// Observera att inte alla tabellstilar är tillgängliga när du sparar i .doc-format.
+// Ange tabellstilen som används baserat på stilidentifieraren.
+// Observera att inte alla tabellformat är tillgängliga när man sparar i .doc-format.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tillämpa stilen delvis på funktioner i tabellen baserat på predikat, bygg sedan tabellen.
+// Tillämpa delvis stilen på tabellens funktioner baserat på predikat, och bygg sedan tabellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);
@@ -86,8 +86,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -102,7 +102,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

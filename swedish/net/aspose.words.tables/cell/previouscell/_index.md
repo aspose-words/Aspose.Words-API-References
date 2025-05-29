@@ -3,7 +3,7 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words för .NET
-description: Cell PreviousCell fast egendom. Hämtar föregåendeCell nod i C#.
+description: Få enkel åtkomst till den föregående cellnoden med egenskapen Cell PreviousCell. Förbättra din datanavigering och effektivisera din kodningsprocess.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.tables/cell/previouscell/
@@ -18,17 +18,17 @@ public Cell PreviousCell { get; }
 
 ## Anmärkningar
 
-Metoden kan användas när du behöver ha maskinskriven åtkomst till celler i en[`Row`](../../row/) . Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) noden hittas i en rad istället för en cell, den korsas automatiskt för att få en cell som finns i.
+Metoden kan användas när du behöver ha skrivåtkomst till celler i en[`Row`](../../row/) Om a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) Om en nod hittas i en rad istället för i en cell, genomsöks den automatiskt för att hitta en cell som finns inuti.
 
 ## Exempel
 
-Visar hur man räknar upp alla tabellceller.
+Visar hur man räknar igenom alla tabellceller.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Räkna upp genom alla celler i tabellen.
+// Räkna igenom alla celler i tabellen.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

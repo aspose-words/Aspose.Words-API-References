@@ -3,7 +3,7 @@ title: Theme
 linktitle: Theme
 articleTitle: Theme
 second_title: Aspose.Words pour .NET
-description: Theme constructeur. Default_Constructor en C#.
+description: Créez des thèmes époustouflants en toute simplicité grâce à notre outil de création intuitif. Personnalisez facilement votre design et améliorez l'attrait de votre site web dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.themes/theme/theme/

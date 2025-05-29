@@ -3,7 +3,7 @@ title: TextBox.InternalMarginLeft
 linktitle: InternalMarginLeft
 articleTitle: InternalMarginLeft
 second_title: Aspose.Words för .NET
-description: TextBox InternalMarginLeft fast egendom. Anger den inre vänstra marginalen i punkter för en form i C#.
+description: Upptäck egenskapen TextBox InternalMarginLeft för att anpassa din forms inre vänstra marginal i punkter för ökad designflexibilitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/textbox/internalmarginleft/
@@ -28,7 +28,7 @@ Visar hur man ställer in interna marginaler för en textruta.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en annan textruta med specifika marginaler.
+// Infoga ytterligare en textruta med specifika marginaler.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

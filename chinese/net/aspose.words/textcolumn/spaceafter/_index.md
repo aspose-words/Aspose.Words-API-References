@@ -2,8 +2,8 @@
 title: TextColumn.SpaceAfter
 linktitle: SpaceAfter
 articleTitle: SpaceAfter
-second_title: 用于 .NET 的 Aspose.Words
-description: TextColumn SpaceAfter 财产. 获取或设置此列与下一列之间的间距以磅为单位最后一列不需要 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TextColumn SpaceAfter 属性，轻松调整布局中列之间的间距。提升可读性，精准设计！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/textcolumn/spaceafter/
@@ -18,7 +18,7 @@ public double SpaceAfter { get; set; }
 
 ## 例子
 
-展示如何创建间隔不均匀的列。
+展示如何创建间距不均匀的列。
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// 确定可用于排列列的空间量。
+// 确定我们可用于排列列的空间量。
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// 将第一列设置为窄。
+// 将第一列设置为窄列。
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// 设置第二列以占用页面边距内的剩余可用空间。
+// 设置第二列以占据页面边缘内剩余的可用空间。
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

@@ -3,7 +3,7 @@ title: Table.Rows
 linktitle: Rows
 articleTitle: Rows
 second_title: Aspose.Words pour .NET
-description: Table Rows propriété. Fournit un accès typé aux lignes de la table en C#.
+description: Accédez aux lignes du tableau sans effort avec notre propriété typée, garantissant une gestion transparente des données et une organisation améliorée pour vos projets.
 type: docs
 weight: 260
 url: /fr/net/aspose.words.tables/table/rows/
@@ -23,18 +23,18 @@ Montre comment combiner les lignes de deux tables en une seule.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// Vous trouverez ci-dessous deux manières d'obtenir un tableau à partir d'un document.
-// 1 - Depuis la collection "Tables" d'un nœud Body :
+// Vous trouverez ci-dessous deux manières d’obtenir un tableau à partir d’un document.
+// 1 - À partir de la collection « Tables » d'un nœud Body :
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Utilisation de la méthode "GetChild" :
+// 2 - Utilisation de la méthode « GetChild » :
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Ajoute toutes les lignes de la table actuelle à la suivante.
+// Ajouter toutes les lignes de la table actuelle à la suivante.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Supprime le conteneur de table vide.
+// Supprimez le conteneur de table vide.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
@@ -54,7 +54,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // Nous pouvons utiliser la méthode « ToArray » sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -64,7 +64,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // Nous pouvons utiliser la méthode « ToArray » sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

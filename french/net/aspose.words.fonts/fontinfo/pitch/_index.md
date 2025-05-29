@@ -3,14 +3,14 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words pour .NET
-description: FontInfo Pitch propriété. Le pas indique si la police est à pas fixe espacée proportionnellement ou sappuie sur un paramètre par défaut en C#.
+description: Découvrez la propriété FontInfo Pitch. Découvrez comment elle distingue l'espacement fixe de l'espacement proportionnel, améliorant ainsi votre typographie pour une meilleure clarté.
 type: docs
-weight: 70
+weight: 80
 url: /fr/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Le pas indique si la police est à pas fixe, espacée proportionnellement ou s'appuie sur un paramètre par défaut.
+Le pas indique si la police est à pas fixe, à espacement proportionnel ou repose sur un paramètre par défaut.
 
 ```csharp
 public FontPitch Pitch { get; set; }

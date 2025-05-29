@@ -3,7 +3,7 @@ title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words pour .NET
-description: RevisionGroup Author propriété. Obtient lauteur de ce groupe de révision en C#.
+description: Découvrez la propriété RevisionGroup Author pour identifier facilement l'auteur de chaque groupe de révision, améliorant ainsi l'efficacité de votre gestion de documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/revisiongroup/author/

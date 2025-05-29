@@ -2,10 +2,10 @@
 title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
-second_title: 用于 .NET 的 Aspose.Words
-description: Font TextEffect 财产. 获取或设置字体动画效果 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Font TextEffect 属性，轻松自定义字体动画，通过动态文本效果增强您的设计，带来迷人的用户体验。
 type: docs
-weight: 450
+weight: 460
 url: /zh/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## 例子
 
-展示如何将视觉效果应用于跑步。
+展示如何将视觉效果应用于运行。
 
 ```csharp
 Document doc = new Document();

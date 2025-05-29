@@ -3,14 +3,14 @@ title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
 second_title: Aspose.Words per .NET
-description: TextBox IsValidLinkTarget metodo. Determina se questoTextBox può essere collegato al bersaglioTextBox  in C#.
+description: Scopri se il tuo TextBox può collegarsi a un target con il metodo IsValidLinkTarget. Migliora la funzionalità della tua interfaccia utente senza sforzo!
 type: docs
 weight: 140
 url: /it/net/aspose.words.drawing/textbox/isvalidlinktarget/
 ---
 ## TextBox.IsValidLinkTarget method
 
-Determina se questo[`TextBox`](../) può essere collegato al bersaglio[`TextBox`](../) .
+Determina se questo[`TextBox`](../) può essere collegato al target[`TextBox`](../) .
 
 ```csharp
 public bool IsValidLinkTarget(TextBox target)
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// Solo una casella di testo vuota può avere un collegamento.
+// Solo una casella di testo vuota può contenere un collegamento.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // Interrompe il collegamento in avanti tra textBox2 e textBox3, quindi verifica che non siano più collegati.
+    // Interrompere il collegamento in avanti tra textBox2 e textBox3, quindi verificare che non siano più collegati.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

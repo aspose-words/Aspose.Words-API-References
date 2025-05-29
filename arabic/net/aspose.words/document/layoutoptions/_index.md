@@ -3,14 +3,14 @@ title: Document.LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words لـ .NET
-description: Document LayoutOptions ملكية. يحصل علىLayoutOptions الكائن الذي يمثل خيارات للتحكم في عملية التخطيط لهذا المستند في C#.
+description: استكشف خاصية "خيارات تخطيط المستند" للتحكم بفعالية في تخطيط مستندك. تمتع بخيارات تصميم مرنة لعرض مثالي.
 type: docs
-weight: 250
+weight: 260
 url: /ar/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
 
-يحصل على[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) الكائن الذي يمثل خيارات للتحكم في عملية التخطيط لهذا المستند.
+يحصل على[`LayoutOptions`](../../../aspose.words.layout/layoutoptions/) الكائن الذي يمثل الخيارات للتحكم في عملية تخطيط هذا المستند.
 
 ```csharp
 public LayoutOptions LayoutOptions { get; }
@@ -33,7 +33,7 @@ doc.LayoutOptions.ShowHiddenText = showHiddenText;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```
 
-يوضح كيفية إظهار علامات الفقرة في مستند الإخراج المعروض.
+يوضح كيفية إظهار علامات الفقرات في مستند الإخراج المقدم.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "Document.LayoutOptionsParagraphMarks.pdf");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
+//أدرج مراجعة، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
@@ -64,8 +64,9 @@ builder.Writeln("This is not a revision.");
 // قم بإزالة الشريط الذي يظهر على يسار كل سطر تمت مراجعته.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### أنظر أيضا

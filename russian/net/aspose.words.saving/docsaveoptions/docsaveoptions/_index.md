@@ -3,7 +3,7 @@ title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
 second_title: Aspose.Words для .NET
-description: DocSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вDoc формат на С#.
+description: Откройте для себя конструктор DocSaveOptions для бесшовного сохранения документов в формате Doc. Улучшите свой рабочий процесс с помощью простого и эффективного управления документами.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/docsaveoptions/docsaveoptions/
@@ -31,13 +31,13 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив этот флаг в значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 // Чтобы иметь возможность загрузить документ,
-// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// нам нужно будет применить пароль, указанный нами в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");
@@ -64,7 +64,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | ВозможноDoc илиDot. |
+| saveFormat | SaveFormat | Может бытьDoc илиDot. |
 
 ## Примеры
 
@@ -81,13 +81,13 @@ DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 // Обратите внимание, что это никак не шифрует содержимое документа.
 options.Password = "MyPassword";
 
-// Если документ содержит маршрутную квитанцию, мы можем сохранить ее при сохранении, установив для этого флага значение true.
+// Если документ содержит маршрутный лист, мы можем сохранить его при сохранении, установив этот флаг в значение true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
 
 // Чтобы иметь возможность загрузить документ,
-// нам нужно будет применить пароль, который мы указали в объекте DocSaveOptions, в объекте LoadOptions.
+// нам нужно будет применить пароль, указанный нами в объекте DocSaveOptions, в объекте LoadOptions.
 Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc"));
 
 LoadOptions loadOptions = new LoadOptions("MyPassword");

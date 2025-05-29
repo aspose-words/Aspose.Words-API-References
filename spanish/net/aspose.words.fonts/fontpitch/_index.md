@@ -3,14 +3,14 @@ title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.FontPitch enumeración. Representa el paso de la fuente en C#.
+description: Descubra la enumeración Aspose.Words.Fonts.FontPitch, una poderosa herramienta para administrar estilos de fuente y mejorar el formato de documentos en sus aplicaciones.
 type: docs
-weight: 2960
+weight: 3390
 url: /es/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
 
-Representa el paso de la fuente.
+Representa el paso de fuente.
 
 ```csharp
 public enum FontPitch
@@ -26,7 +26,7 @@ public enum FontPitch
 
 ## Observaciones
 
-El paso indica si la fuente tiene un paso fijo, un espaciado proporcional o depende de una configuración predeterminada.
+El paso indica si la fuente tiene un paso fijo, está espaciada proporcionalmente o se basa en una configuración predeterminada.
 
 ## Ejemplos
 
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Los nombres alternativos suelen estar en blanco.
+        // Los nombres Alt normalmente están en blanco.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

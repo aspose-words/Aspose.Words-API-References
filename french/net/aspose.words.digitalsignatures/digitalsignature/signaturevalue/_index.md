@@ -3,7 +3,7 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words pour .NET
-description: DigitalSignature SignatureValue propriété. Obtient un tableau doctets représentant une valeur de signature en C#.
+description: Découvrez la propriété DigitalSignature SignatureValue, qui fournit un tableau d'octets pour une représentation sécurisée des signatures. Améliorez votre sécurité numérique dès aujourd'hui !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
@@ -18,7 +18,7 @@ public byte[] SignatureValue { get; }
 
 ## Exemples
 
-Montre comment obtenir une valeur de signature numérique à partir d’un document signé numériquement.
+Montre comment obtenir une valeur de signature numérique à partir d'un document signé numériquement.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

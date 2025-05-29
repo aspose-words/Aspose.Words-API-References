@@ -2,15 +2,15 @@
 title: DocumentProperty.ToDateTime
 linktitle: ToDateTime
 articleTitle: ToDateTime
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentProperty ToDateTime 方法. 将属性值返回为约会时间以 UTC 时间表示 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松将 DocumentProperty 转换为 UTC 日期时间。使用我们可靠的方法，获取准确的时间戳并增强您的数据管理。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.properties/documentproperty/todatetime/
 ---
 ## DocumentProperty.ToDateTime method
 
-将属性值返回为**约会时间**以 UTC 时间表示。
+返回属性值**日期时间**UTC时间.
 
 ```csharp
 public DateTime ToDateTime()
@@ -24,14 +24,14 @@ Microsoft Word 仅存储自定义日期属性的日期部分（无时间）。
 
 ## 例子
 
-演示如何创建包含日期和时间的自定义文档属性。
+展示如何创建包含日期和时间的自定义文档属性。
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 显示自定义文档属性的各种类型转换方法。

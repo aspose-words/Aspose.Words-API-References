@@ -2,8 +2,8 @@
 title: FieldNumPages
 linktitle: FieldNumPages
 articleTitle: FieldNumPages
-second_title: Aspose.Words for .NET
-description: FieldNumPages inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde kusursuz sayfa yönetimi için temel araç olan FieldNumPages oluşturucusunu keşfedin. Verimliliği açığa çıkarın ve kodlama deneyiminizi geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldnumpages/fieldnumpages/

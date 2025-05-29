@@ -3,14 +3,14 @@ title: ChartXValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
 second_title: Aspose.Words لـ .NET
-description: ChartXValue ValueType ملكية. الحصول على نوع قيمة X المخزنة في الكائن في C#.
+description: اكتشف خاصية ChartXValue ValueType للوصول بسهولة إلى نوع القيمة X والاستفادة منه في مشاريع تصور البيانات الخاصة بك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/valuetype/
 ---
 ## ChartXValue.ValueType property
 
-الحصول على نوع قيمة X المخزنة في الكائن.
+يحصل على نوع قيمة X المخزنة في الكائن.
 
 ```csharp
 public ChartXValueType ValueType { get; }

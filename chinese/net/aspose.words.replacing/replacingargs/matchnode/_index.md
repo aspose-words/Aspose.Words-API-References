@@ -2,15 +2,15 @@
 title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
-second_title: 用于 .NET 的 Aspose.Words
-description: ReplacingArgs MatchNode 财产. 获取包含匹配开始的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ReplacingArgs MatchNode 属性，轻松访问匹配开始的节点，提高编码效率和准确性。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.replacing/replacingargs/matchnode/
 ---
 ## ReplacingArgs.MatchNode property
 
-获取包含匹配开始的节点。
+获取包含匹配开头的节点。
 
 ```csharp
 public Node MatchNode { get; }
@@ -18,7 +18,7 @@ public Node MatchNode { get; }
 
 ## 例子
 
-演示如何在查找和替换操作中插入整个文档的内容作为匹配项的替换。
+展示如何在查找和替换操作中插入整个文档的内容来替换匹配的内容。
 
 ```csharp
 public void InsertDocumentAtReplace()
@@ -40,7 +40,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // 在包含匹配文本的段落之后插入文档。
+        // 在包含匹配文本的段落后插入文档。
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -52,7 +52,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// 在段落或表格之后插入另一个文档的所有节点。
+/// 将另一个文档的所有节点插入段落或表格后。
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -66,7 +66,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // 如果该节点是节中最后一个空段落，则跳过该节点。
+                // 如果它是某一部分中的最后一个空段落，则跳过该节点。
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,7 +3,7 @@ title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: Bookmark Name propriété. Obtient ou définit le nom du signet en C#.
+description: Gérez vos favoris facilement grâce à la fonctionnalité Nom du favori. Définissez ou modifiez facilement le nom de vos favoris pour une meilleure organisation et un accès rapide.
 type: docs
 weight: 60
 url: /fr/net/aspose.words/bookmark/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Remarques
 
-Notez que si vous remplacez le nom d'un signet par un nom qui existe déjà dans le document, aucune erreur ne sera générée et seul le premier signet sera stocké lorsque vous enregistrerez le document.
+Notez que si vous changez le nom d'un signet en un nom qui existe déjà dans le document, aucune erreur ne sera générée et seul le premier signet sera stocké lorsque vous enregistrerez le document.
 
 ## Exemples
 
@@ -26,12 +26,12 @@ Montre comment insérer un signet.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Un signet valide a un nom, un nœud BookmarkStart et un nœud BookmarkEnd.
-// Tout espace dans les noms des signets sera converti en traits de soulignement si nous ouvrons le document enregistré avec Microsoft Word.
-// Si l'on met en surbrillance le nom du signet dans Microsoft Word via Insérer -> Liens -> Ajoutez un signet et appuyez sur "Aller à",
-// le curseur passera au texte compris entre les nœuds BookmarkStart et BookmarkEnd.
+// Tout espace blanc dans les noms des signets sera converti en traits de soulignement si nous ouvrons le document enregistré avec Microsoft Word.
+// Si nous mettons en surbrillance le nom du signet dans Microsoft Word via Insertion -> Liens -> Signet, et appuyons sur « Aller à »,
+// le curseur sautera au texte inclus entre les nœuds BookmarkStart et BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
@@ -61,7 +61,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

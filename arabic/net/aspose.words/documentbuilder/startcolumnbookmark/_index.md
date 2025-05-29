@@ -3,14 +3,14 @@ title: DocumentBuilder.StartColumnBookmark
 linktitle: StartColumnBookmark
 articleTitle: StartColumnBookmark
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder StartColumnBookmark طريقة. يحدد الموضع الحالي في المستند كبداية عمود الإشارة المرجعية. يجب أن يكون الموضع في خلية الجدول في C#.
+description: استخدم طريقة StartColumnBookmark في DocumentBuilder لوضع علامة على مواضع خلايا الجدول كإشارات مرجعية للأعمدة بسهولة، مما يعزز التنقل في المستندات وتنظيمها.
 type: docs
-weight: 620
+weight: 660
 url: /ar/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
 
-يحدد الموضع الحالي في المستند كبداية عمود الإشارة المرجعية. يجب أن يكون الموضع في خلية الجدول.
+يُحدد الموضع الحالي في المستند كبداية إشارة مرجعية للعمود. يجب أن يكون الموضع في خلية جدول.
 
 ```csharp
 public BookmarkStart StartColumnBookmark(string bookmarkName)
@@ -22,15 +22,15 @@ public BookmarkStart StartColumnBookmark(string bookmarkName)
 
 ### قيمة الإرجاع
 
-عقدة بداية الإشارة المرجعية التي تم إنشاؤها للتو.
+عقدة بدء الإشارة المرجعية التي تم إنشاؤها للتو.
 
 ## ملاحظات
 
-تغطي الإشارة المرجعية للعمود عمودًا واحدًا أو أكثر في نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، يجب عليك الاتصال بكليهما`StartColumnBookmark` و[`EndColumnBookmark`](../endcolumnbookmark/) بنفس *bookmarkName*معامل.
+تغطي إشارة مرجعية العمود عمودًا واحدًا أو أكثر ضمن نطاق من الصفوف. لإنشاء إشارة مرجعية صالحة، عليك استدعاء كليهما.`StartColumnBookmark` و[`EndColumnBookmark`](../endcolumnbookmark/) مع نفس *bookmarkName* المعلمة.
 
-سيتم تجاهل الإشارات المرجعية التي تم تكوينها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+سيتم تجاهل الإشارات المرجعية ذات التكوين السيئ أو الإشارات المرجعية التي تحتوي على أسماء مكررة عند حفظ المستند.
 
-الموضع الفعلي للإدراج[`BookmarkStart`](../../bookmarkstart/) قد تختلف العقدة عن موضع منشئ document الحالي.
+الموضع الفعلي للعنصر المُدرج[`BookmarkStart`](../../bookmarkstart/) قد تختلف العقدة عن موضع المنشئ document الحالي.
 
 ## أمثلة
 
@@ -45,7 +45,7 @@ builder.StartTable();
 builder.InsertCell();
 // سيتم وضع إشارة مرجعية على الخلايا 1،2،4،5.
 builder.StartColumnBookmark("MyBookmark_1");
-// سيتم تجاهل الإشارات المرجعية التي تم تشكيلها بشكل سيئ أو الإشارات المرجعية ذات الأسماء المكررة عند حفظ المستند.
+// سيتم تجاهل الإشارات المرجعية ذات التكوين السيئ أو الإشارات المرجعية التي تحتوي على أسماء مكررة عند حفظ المستند.
 builder.StartColumnBookmark("MyBookmark_1");
 builder.StartColumnBookmark("BadStartBookmark");
 builder.Write("Cell 1");

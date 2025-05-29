@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: ConditionalStyleCollection Item свойство. ПолучаетConditionalStyle объект по типу условного стиля на С#.
+description: Откройте для себя свойство ConditionalStyleCollection Item, чтобы легко получать доступ к объектам ConditionalStyle по типу, расширяя возможности стилизации без особых усилий.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/conditionalstylecollection/item/
 ---
 ## ConditionalStyleCollection indexer (1 of 2)
 
-Получает[`ConditionalStyle`](../../conditionalstyle/) объект по типу условного стиля.
+Извлекает[`ConditionalStyle`](../../conditionalstyle/) объект по условному стилю type.
 
 ```csharp
 public ConditionalStyle this[ConditionalStyleType conditionalStyleType] { get; }
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем собственный стиль таблицы.
+// Создать собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
-// на основе предиката, например, ячеек в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы.
+// на основе предиката, например, нахождения ячеек в последней строке.
+// Ниже приведены три способа доступа к условным стилям стиля таблицы из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -53,7 +53,7 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применяем отступы и форматирование текста к условным стилям.
+// Применить отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
@@ -73,11 +73,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
-// Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль применяет некоторые условные стили по умолчанию.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
+// Все остальные стили нам нужно будет включить самостоятельно через свойство «StyleOptions».
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
@@ -95,7 +95,7 @@ doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");
 
 ## ConditionalStyleCollection indexer (2 of 2)
 
-Получает[`ConditionalStyle`](../../conditionalstyle/) объект по индексу.
+Извлекает[`ConditionalStyle`](../../conditionalstyle/) объект по индексу.
 
 ```csharp
 public ConditionalStyle this[int index] { get; }
@@ -103,7 +103,7 @@ public ConditionalStyle this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Отсчитываемый от нуля индекс условного стиля, который требуется получить. |
+| index | Отсчитываемый от нуля индекс условного стиля для извлечения. |
 
 ## Примеры
 
@@ -125,12 +125,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Создаем собственный стиль таблицы.
+// Создать собственный стиль таблицы.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы
-// на основе предиката, например, ячеек в последней строке.
-// Ниже приведены три способа доступа к условным стилям табличного стиля из коллекции «ConditionalStyles».
+// Условные стили — это изменения форматирования, которые затрагивают только некоторые ячейки таблицы.
+// на основе предиката, например, нахождения ячеек в последней строке.
+// Ниже приведены три способа доступа к условным стилям стиля таблицы из коллекции «ConditionalStyles».
 // 1 - По типу стиля:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
@@ -142,7 +142,7 @@ Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].T
 // 3 - Как свойство:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Применяем отступы и форматирование текста к условным стилям.
+// Применить отступы и форматирование текста к условным стилям.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
@@ -162,11 +162,11 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 // Применяем к таблице пользовательский стиль, содержащий все условные стили.
 table.Style = tableStyle;
 
-// Наш стиль по умолчанию применяет некоторые условные стили.
+// Наш стиль применяет некоторые условные стили по умолчанию.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Нам нужно будет самостоятельно включить все остальные стили через свойство StyleOptions.
+// Все остальные стили нам нужно будет включить самостоятельно через свойство «StyleOptions».
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

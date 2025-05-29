@@ -2,8 +2,8 @@
 title: FieldTitle
 linktitle: FieldTitle
 articleTitle: FieldTitle
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldTitle 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldTitle 构造函数，它是无缝集成和自定义的必备工具。立即释放您项目的潜力！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldtitle/fieldtitle/

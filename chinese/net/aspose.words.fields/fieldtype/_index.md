@@ -2,10 +2,10 @@
 title: FieldType Enum
 linktitle: FieldType
 articleTitle: FieldType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldType 枚举. 指定 Microsoft Word 字段类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldType 枚举以有效管理 Microsoft Word 字段类型并增强文档自动化。
 type: docs
-weight: 2540
+weight: 2950
 url: /zh/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -26,25 +26,25 @@ public enum FieldType
 | FieldAddressBlock | `93` | 指定 ADDRESSBLOCK 字段。 |
 | FieldAdvance | `84` | 指定 ADVANCE 字段。 |
 | FieldAsk | `38` | 指定 ASK 字段。 |
-| FieldAuthor | `17` | 指定作者字段。 |
+| FieldAuthor | `17` | 指定 AUTHOR 字段。 |
 | FieldAutoNum | `54` | 指定 AUTONUM 字段。 |
 | FieldAutoNumLegal | `53` | 指定 AUTONUMLGL 字段。 |
 | FieldAutoNumOutline | `52` | 指定 AUTONUMOUT 字段。 |
-| FieldAutoText | `79` | 指定自动文本字段。 |
+| FieldAutoText | `79` | 指定 AUTOTEXT 字段。 |
 | FieldAutoTextList | `89` | 指定 AUTOTEXTLIST 字段。 |
-| FieldBarcode | `63` | 指定条形码字段。 |
+| FieldBarcode | `63` | 指定 BARCODE 字段。 |
 | FieldBibliography | `100500` | 指定 BIBLIOGRAPHY 字段。 |
 | FieldBidiOutline | `92` | 指定 BIDIOUTLINE 字段。 |
 | FieldCitation | `1980` | 指定 CITATION 字段。 |
 | FieldComments | `19` | 指定 COMMENTS 字段。 |
-| FieldCompare | `80` | 指定 COMPARE 字段。 |
+| FieldCompare | `80` | 指定比较字段。 |
 | FieldCreateDate | `21` | 指定 CREATEDATE 字段。 |
-| FieldData | `40` | 指定数据字段。 |
+| FieldData | `40` | 指定 DATA 字段。 |
 | FieldDatabase | `78` | 指定数据库字段。 |
-| FieldDate | `31` | 指定日期字段。 |
+| FieldDate | `31` | 指定 DATE 字段。 |
 | FieldDDE | `45` | 指定 DDE 字段。 |
 | FieldDisplayBarcode | `6301` | 指定 DISPLAYBARCODE 字段。 |
-| FieldMergeBarcode | `6302` | 指定MERGEBARCODE 字段。 |
+| FieldMergeBarcode | `6302` | 指定 MERGEBARCODE 字段。 |
 | FieldDDEAuto | `46` | 指定 DDEAUTO 字段。 |
 | FieldDocProperty | `85` | 指定 DOCPROPERTY 字段。 |
 | FieldDocVariable | `64` | 指定 DOCVARIABLE 字段。 |
@@ -58,12 +58,12 @@ public enum FieldType
 | FieldFormCheckBox | `71` | 指定 FORMCHECKBOX 字段。 |
 | FieldFormDropDown | `83` | 指定 FORMDROPDOWN 字段。 |
 | FieldFormTextInput | `70` | 指定 FORMTEXT 字段。 |
-| FieldFormula | `34` | 指定=（公式）字段。 |
+| FieldFormula | `34` | 指定 =（公式）字段。 |
 | FieldGreetingLine | `94` | 指定 GREETINGLINE 字段。 |
 | FieldGlossary | `47` | 指定 GLOSSARY 字段。 |
 | FieldGoToButton | `50` | 指定 GOTOBUTTON 字段。 |
-| FieldHtmlActiveX | `91` | 指定表示 HTML 控件的字段。 |
-| FieldHyperlink | `88` | 指定超链接字段。 |
+| FieldHtmlActiveX | `91` | 指定代表 HTML 控件的字段。 |
+| FieldHyperlink | `88` | 指定 HYPERLINK 字段。 |
 | FieldIf | `7` | 指定 IF 字段。 |
 | FieldInclude | `36` | 指定 INCLUDE 字段。 |
 | FieldIncludePicture | `67` | 指定 INCLUDEPICTURE 字段。 |
@@ -71,7 +71,7 @@ public enum FieldType
 | FieldIndex | `8` | 指定 INDEX 字段。 |
 | FieldIndexEntry | `4` | 指定 XE 字段。 |
 | FieldInfo | `14` | 指定 INFO 字段。 |
-| FieldImport | `55` | 指定导入字段。 |
+| FieldImport | `55` | 指定 IMPORT 字段。 |
 | FieldKeyword | `18` | 指定 KEYWORDS 字段。 |
 | FieldLastSavedBy | `20` | 指定 LASTSAVEDBY 字段。 |
 | FieldLink | `56` | 指定 LINK 字段。 |
@@ -82,7 +82,7 @@ public enum FieldType
 | FieldMergeSeq | `75` | 指定 MERGESEQ 字段。 |
 | FieldNext | `41` | 指定 NEXT 字段。 |
 | FieldNextIf | `42` | 指定 NEXTIF 字段。 |
-| FieldNoteRef | `72` | 指定NOTEREF 字段。 |
+| FieldNoteRef | `72` | 指定 NOTEREF 字段。 |
 | FieldNumChars | `28` | 指定 NUMCHARS 字段。 |
 | FieldNumPages | `26` | 指定 NUMPAGES 字段。 |
 | FieldNumWords | `27` | 指定 NUMWORDS 字段。 |
@@ -94,7 +94,7 @@ public enum FieldType
 | FieldPrivate | `77` | 指定 PRIVATE 字段。 |
 | FieldQuote | `35` | 指定 QUOTE 字段。 |
 | FieldRef | `3` | 指定 REF 字段。 |
-| FieldRefNoKeyword | `2` | 指定该字段表示省略了关键字的 REF 字段。 |
+| FieldRefNoKeyword | `2` | 指定该字段代表已省略关键字的 REF 字段。 |
 | FieldRefDoc | `11` | 指定 RD 字段。 |
 | FieldRevisionNum | `24` | 指定 REVNUM 字段。 |
 | FieldSaveDate | `22` | 指定 SAVEDATE 字段。 |
@@ -112,7 +112,7 @@ public enum FieldType
 | FieldTitle | `15` | 指定 TITLE 字段。 |
 | FieldTOA | `73` | 指定 TOA 字段。 |
 | FieldTOAEntry | `74` | 指定 TA 字段。 |
-| FieldTOC | `13` | 指定 TOC 字段。 |
+| FieldTOC | `13` | 指定目录字段。 |
 | FieldTOCEntry | `9` | 指定 TC 字段。 |
 | FieldUserAddress | `62` | 指定 USERADDRESS 字段。 |
 | FieldUserInitials | `61` | 指定 USERINITIALS 字段。 |
@@ -120,7 +120,7 @@ public enum FieldType
 
 ## 例子
 
-演示如何使用域代码将域插入到文档中。
+展示如何使用字段代码将字段插入文档。
 
 ```csharp
 Document doc = new Document();
@@ -132,7 +132,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // InsertField 方法的此重载会自动更新插入的字段。
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 展示如何使用 FieldStart 节点。
@@ -151,7 +151,7 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// 检索代表文档中字段的外观对象。
+// 检索代表文档中的字段的外观对象。
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);

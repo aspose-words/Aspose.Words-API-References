@@ -3,7 +3,7 @@ title: DocumentProperty.ToInt
 linktitle: ToInt
 articleTitle: ToInt
 second_title: Aspose.Words для .NET
-description: DocumentProperty ToInt метод. Возвращает значение свойства как целое число на С#.
+description: Преобразуйте значения DocumentProperty в целые числа без усилий с помощью метода ToInt. Разблокируйте бесперебойную обработку данных для своих приложений!
 type: docs
 weight: 100
 url: /ru/net/aspose.words.properties/documentproperty/toint/
@@ -18,11 +18,11 @@ public int ToInt()
 
 ## Примечания
 
-Выдает исключение, если тип свойства неNumber .
+Выдает исключение, если тип свойства не являетсяNumber .
 
 ## Примеры
 
-Показывает различные методы преобразования типов пользовательских свойств документа.
+Демонстрирует различные методы преобразования типов пользовательских свойств документа.
 
 ```csharp
 Document doc = new Document();

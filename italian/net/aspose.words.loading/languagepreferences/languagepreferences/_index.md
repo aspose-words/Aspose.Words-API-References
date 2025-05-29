@@ -3,7 +3,7 @@ title: LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words per .NET
-description: LanguagePreferences costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore LanguagePreferences per una gestione fluida delle lingue. Migliora l'esperienza utente con la nostra intuitiva configurazione predefinita!
 type: docs
 weight: 10
 url: /it/net/aspose.words.loading/languagepreferences/languagepreferences/

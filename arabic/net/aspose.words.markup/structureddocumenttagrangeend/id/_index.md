@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeEnd.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeEnd Id ملكية. يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرضهيكلةDocumentTagRange العقدة. المقابلةStructuredDocumentTagRangeStart العقدة لديها نفسId  في C#.
+description: اكتشف خاصية StructuredDocumentTagRangeEnd Id، وهي مُعرِّف فريد للقراءة فقط لتسهيل وضع علامات على المستندات. حسّن إدارة مستنداتك اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.markup/structureddocumenttagrangeend/id/
 ---
 ## StructuredDocumentTagRangeEnd.Id property
 
-يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا الغرض**هيكلةDocumentTagRange** العقدة. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لديها نفس[`Id`](../../structureddocumenttagrangestart/id/) .
+يحدد معرفًا رقميًا ثابتًا فريدًا للقراءة فقط لهذا**نطاق علامات المستند المنظم** node. المقابلة[`StructuredDocumentTagRangeStart`](../../structureddocumenttagrangestart/) العقدة لها نفس الشيء[`Id`](../../structureddocumenttagrangestart/id/) .
 
 ```csharp
 public int Id { get; }
@@ -18,7 +18,7 @@ public int Id { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

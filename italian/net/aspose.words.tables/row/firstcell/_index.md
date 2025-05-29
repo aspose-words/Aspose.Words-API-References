@@ -3,7 +3,7 @@ title: Row.FirstCell
 linktitle: FirstCell
 articleTitle: FirstCell
 second_title: Aspose.Words per .NET
-description: Row FirstCell proprietà. Restituisce il primoCell nella riga in C#.
+description: Scopri la proprietà Row FirstCell e accedi senza sforzo alla prima cella di una riga per una gestione semplificata dei dati e una maggiore produttività.
 type: docs
 weight: 30
 url: /it/net/aspose.words.tables/row/firstcell/
@@ -26,8 +26,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -36,7 +36,7 @@ public void TableToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi della tabella incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi della tabella rilevati e dei loro elementi figlio.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -52,8 +52,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
-    /// Le esecuzioni che non si trovano all'interno delle tabelle non vengono registrate.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
+    /// Le esecuzioni che non sono presenti nelle tabelle non vengono registrate.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -63,7 +63,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una tabella nel documento.
+    /// Chiamato quando nel documento viene rilevata una tabella.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -84,7 +84,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Tabella sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Tabella.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -96,7 +96,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Riga nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo Row.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -116,7 +116,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Row sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Riga.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -127,7 +127,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Cella.
+    /// Chiamato quando nel documento viene rilevato un nodo Cell.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -146,7 +146,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Cella sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figlio di un nodo Cell sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -156,8 +156,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
-    /// nell'albero dei nodi secondari della tabella corrente.
+    /// Aggiungi una riga allo StringBuilder e rientrala a seconda della profondità del visitatore
+    /// nell'albero dei nodi figlio della tabella corrente.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

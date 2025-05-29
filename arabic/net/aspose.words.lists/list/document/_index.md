@@ -3,14 +3,14 @@ title: List.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: List Document ملكية. الحصول على مستند المالك في C#.
+description: اكتشف كيفية إدراج خصائص المستندات والوصول إلى تفاصيل الملكية بسهولة. أطلق العنان لإمكانياتك في إدارة المستندات اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.lists/list/document/
 ---
 ## List.Document property
 
-الحصول على مستند المالك.
+يحصل على مستند المالك.
 
 ```csharp
 public DocumentBase Document { get; }
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## ملاحظات
 
-تحتوي القائمة دائمًا على مستند أصلي وتكون صالحة فقط في سياق هذا المستند.
+تحتوي القائمة دائمًا على مستند رئيسي وتكون صالحة فقط في سياق هذا المستند.
 
 ## أمثلة
 

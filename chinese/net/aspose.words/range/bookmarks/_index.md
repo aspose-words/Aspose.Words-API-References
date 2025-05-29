@@ -2,15 +2,15 @@
 title: Range.Bookmarks
 linktitle: Bookmarks
 articleTitle: Bookmarks
-second_title: 用于 .NET 的 Aspose.Words
-description: Range Bookmarks 财产. 返回一个Bookmarks代表范围内所有书签的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现范围书签属性以访问全面的书签集合，轻松增强文档导航和组织。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/range/bookmarks/
 ---
 ## Range.Bookmarks property
 
-返回一个`Bookmarks`代表范围内所有书签的集合。
+返回`Bookmarks`代表范围内所有书签的集合。
 
 ```csharp
 public BookmarkCollection Bookmarks { get; }
@@ -32,7 +32,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

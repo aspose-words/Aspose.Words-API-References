@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words لـ .NET
-description: FieldMergingArgsBase Document ملكية. إرجاعDocument الكائن الذي يتم تنفيذ دمج البريد له في C#.
+description: اكتشف خاصية FieldMergingArgsBase Document، التي توفر كائن Document لعمليات دمج بريد سلسة. حسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-إرجاع`Document` الكائن الذي يتم تنفيذ دمج البريد له.
+يعيد`Document`الكائن الذي يتم تنفيذ عملية دمج البريد له.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ عملية دمج البريد باستخدام رد اتصال مخصص يتعامل مع بيانات الدمج في شكل مستندات HTML.
+يوضح كيفية تنفيذ دمج البريد باستخدام معاودة الاتصال المخصصة التي تتعامل مع بيانات الدمج في شكل مستندات HTML.
 
 ```csharp
 public void MergeHtml()
@@ -52,31 +52,31 @@ public void MergeHtml()
 
 /// <summary>
 /// إذا واجه دمج البريد MERGEFIELD الذي يبدأ اسمه بالبادئة "html_"،
-/// يقوم رد الاتصال هذا بتحليل بيانات الدمج الخاصة به كمحتوى HTML وإضافة النتيجة إلى موقع مستند MERGEFIELD.
+/// تقوم وظيفة الارتداد هذه بتحليل بيانات الدمج الخاصة بها كمحتوى HTML وتضيف النتيجة إلى موقع المستند الخاص بـ MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // أضف بيانات HTML التي تم تحليلها إلى نص المستند.
+            // أضف بيانات HTML المحللة إلى نص المستند.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // نظرًا لأننا قمنا بالفعل بإدراج المحتوى المدمج يدويًا،
-             // لن نحتاج إلى الرد على هذا الحدث من خلال إعادة المحتوى عبر خاصية "النص".
+            // لن نحتاج إلى الاستجابة لهذا الحدث عن طريق إرجاع المحتوى عبر خاصية "النص".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 }
 ```

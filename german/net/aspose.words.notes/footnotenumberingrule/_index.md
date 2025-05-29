@@ -3,14 +3,14 @@ title: FootnoteNumberingRule Enum
 linktitle: FootnoteNumberingRule
 articleTitle: FootnoteNumberingRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Notes.FootnoteNumberingRule opsomming. Legt fest wann die automatische Fußnoten oder Endnotennummerierung neu gestartet wird in C#.
+description: Entdecken Sie die Aspose.Words FootnoteNumberingRule-Aufzählung zur Steuerung der automatischen Fuß- und Endnotennummerierung. Optimieren Sie mühelos die Formatierung Ihres Dokuments!
 type: docs
-weight: 4270
+weight: 4960
 url: /de/net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration
 
-Legt fest, wann die automatische Fußnoten- oder Endnotennummerierung neu gestartet wird.
+Bestimmt, wann die automatische Fußnoten- oder Endnotennummerierung neu gestartet wird.
 
 ```csharp
 public enum FootnoteNumberingRule
@@ -20,7 +20,7 @@ public enum FootnoteNumberingRule
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Continuous | `0` | Durchgehende Nummerierung im gesamten Dokument. |
+| Continuous | `0` | Nummerierung fortlaufend im gesamten Dokument. |
 | RestartSection | `1` | Die Nummerierung beginnt bei jedem Abschnitt neu. |
 | RestartPage | `2` | Die Nummerierung beginnt auf jeder Seite neu. Gilt nur für Fußnoten. |
 | Default | `0` | GleichContinuous . |
@@ -33,13 +33,13 @@ Zeigt, wie die Fußnoten-/Endnotennummerierung an bestimmten Stellen im Dokument
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fußnoten und Endnoten sind eine Möglichkeit, dem Text eine Referenz oder einen Randkommentar hinzuzufügen
- // das den Fluss des Haupttextes nicht beeinträchtigt.
-// Beim Einfügen einer Fußnote/Endnote wird ein kleines hochgestelltes Referenzsymbol hinzugefügt
-// am Haupttext, wo wir die Fußnote/Endnote einfügen.
-// Jede Fußnote/Endnote erstellt auch einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
-// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Document Builders übergeben.
-// Fußnoteneinträge werden standardmäßig unten auf jeder Seite angezeigt, die Folgendes enthält
+// Fußnoten und Endnoten sind eine Möglichkeit, einen Verweis oder einen Randkommentar an den Text anzuhängen
+    // das den Textfluss des Hauptteils nicht beeinträchtigt.
+// Das Einfügen einer Fußnote/Endnote fügt ein kleines hochgestelltes Referenzsymbol hinzu
+// im Haupttext, wo wir die Fußnote/Endnote einfügen.
+// Jede Fußnote/Endnote erzeugt ebenfalls einen Eintrag, der aus einem Symbol besteht, das mit der Referenz übereinstimmt
+// Symbol im Haupttext. Der Referenztext, den wir an die Methode „InsertEndnote“ des Dokumentgenerators übergeben.
+// Fußnoteneinträge erscheinen standardmäßig am Ende jeder Seite, die Folgendes enthält:
 // Ihre Referenzsymbole und Endnoten werden am Ende des Dokuments angezeigt.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
@@ -63,14 +63,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote ihr Index
+// Standardmäßig ist das Referenzsymbol für jede Fußnote und Endnote der Index
 // unter allen Fußnoten/Endnoten des Dokuments. Jedes Dokument verwaltet separate Zählungen
 // für Fußnoten und Endnoten und startet diese Zählungen zu keinem Zeitpunkt neu.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // Wir können die Eigenschaft „RestartRule“ verwenden, um das Dokument neu zu starten
-// die Fußnote/Endnote zählt auf einer neuen Seite oder einem neuen Abschnitt.
+// Die Fußnote/Endnote zählt auf einer neuen Seite oder in einem neuen Abschnitt.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

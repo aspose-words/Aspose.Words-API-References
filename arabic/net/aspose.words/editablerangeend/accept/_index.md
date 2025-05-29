@@ -3,14 +3,14 @@ title: EditableRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: EditableRangeEnd Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة EditableRangeEnd Accept لإدارة تفاعلات الزوار بسلاسة وتحسين وظائف تطبيق الويب الخاص بك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/editablerangeend/accept/
 ---
 ## EditableRangeEnd.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,17 +18,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقدة. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقدة. |
 
 ### قيمة الإرجاع
 
-`خطأ شنيع` إذا طلب الزائر إيقاف التعداد.
+`خطأ شنيع` إذا طلب الزائر التوقف عن التعداد.
 
 ## ملاحظات
 
 المكالمات[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
 ## أمثلة
 
@@ -44,9 +44,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // عندما نحمي المستندات من الكتابة، تسمح لنا النطاقات القابلة للتحرير باختيار مناطق محددة يمكن للمستخدمين تحريرها.
-    // هناك طريقتان متنافيتان لتضييق نطاق قائمة المحررين المسموح بهم.
-    // 1 - تحديد مستخدم:
+    // عندما نقوم بحماية المستندات ضد الكتابة، فإن النطاقات القابلة للتحرير تسمح لنا باختيار مناطق معينة يمكن للمستخدمين تحريرها.
+    // هناك طريقتان متبادلتان لتضييق قائمة المحررين المسموح لهم.
+    // 1 - تحديد المستخدم:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -94,7 +94,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة EditableRangeStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة EditableRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeStart(EditableRangeStart editableRangeStart)
     {
@@ -112,7 +112,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة EditableRangeEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة EditableRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitEditableRangeEnd(EditableRangeEnd editableRangeEnd)
     {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند. يقوم هذا الزائر بتسجيل عمليات التشغيل التي تقع داخل النطاقات القابلة للتحرير فقط.
+    /// يُستدعى عند وجود عقدة تشغيل في المستند. يُسجل هذا الزائر فقط عمليات التشغيل التي تقع ضمن نطاقات قابلة للتعديل.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

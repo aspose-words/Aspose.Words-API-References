@@ -3,7 +3,7 @@ title: NodeCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: NodeCollection Add método. Agrega un nodo al final de la colección en C#.
+description: Descubra el método Add de NodeCollection para agregar nodos a su colección sin esfuerzo, mejorando la gestión de sus datos con facilidad y eficiencia.
 type: docs
 weight: 30
 url: /es/net/aspose.words/nodecollection/add/
@@ -24,23 +24,23 @@ public void Add(Node node)
 
 | excepción | condición |
 | --- | --- |
-| NotSupportedException | El[`NodeCollection`](../) Es una colección "profunda". |
+| NotSupportedException | El[`NodeCollection`](../) es una colección "profunda". |
 
 ## Observaciones
 
-El nodo se inserta como hijo en el objeto de nodo a partir del cual se creó la colección.
+El nodo se inserta como un elemento secundario en el objeto de nodo desde el cual se creó la colección.
 
-Si el nodo que se está insertando se creó a partir de otro documento, debe usar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. El nodo importado luego se puede insertar en el documento actual.
+Si el nodo que se está insertando se creó a partir de otro documento, debe utilizar [`ImportNode`](../../documentbase/importnode/) para importar el nodo al documento actual. Luego, el nodo importado se puede insertar en el documento actual.
 
 ## Ejemplos
 
-Muestra cómo preparar un nuevo nodo de sección para editarlo.
+Muestra cómo preparar un nuevo nodo de sección para su edición.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco viene con una sección, la cual tiene un cuerpo, que a su vez tiene un párrafo.
-// Podemos agregar contenido a este documento agregando elementos como textos, formas o tablas a ese párrafo.
+// Un documento en blanco viene con una sección, que tiene un cuerpo, que a su vez tiene un párrafo.
+//Podemos agregar contenidos a este documento añadiendo elementos como líneas de texto, formas o tablas a ese párrafo.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);

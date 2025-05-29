@@ -3,7 +3,7 @@ title: MailMergeSettings.ConnectString
 linktitle: ConnectString
 articleTitle: ConnectString
 second_title: Aspose.Words para .NET
-description: MailMergeSettings ConnectString propiedad. Especifica la cadena de conexión utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía en C#.
+description: Descubra cómo la propiedad ConnectString de MailMergeSettings se vincula con fuentes de datos externas. ¡Personalice fácilmente su conexión para una integración de datos fluida!
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/mailmergesettings/connectstring/
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -3,14 +3,14 @@ title: FieldOptions.BarcodeGenerator
 linktitle: BarcodeGenerator
 articleTitle: BarcodeGenerator
 second_title: Aspose.Words para .NET
-description: FieldOptions BarcodeGenerator propiedad. Obtiene o configura un generador de código de barras personalizado en C#.
+description: Cree códigos de barras personalizados fácilmente con FieldOptions BarcodeGenerator. ¡Mejore la gestión de su inventario y agilice sus operaciones hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldoptions/barcodegenerator/
 ---
 ## FieldOptions.BarcodeGenerator property
 
-Obtiene o configura un generador de código de barras personalizado.
+Obtiene o establece un generador de código de barras personalizado.
 
 ```csharp
 public IBarcodeGenerator BarcodeGenerator { get; set; }
@@ -22,19 +22,19 @@ El generador de códigos de barras personalizado debe implementar una interfaz p
 
 ## Ejemplos
 
-Muestra cómo utilizar un generador de códigos de barras.
+Muestra cómo utilizar un generador de código de barras.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Podemos usar una implementación personalizada de IBarcodeGenerator para generar códigos de barras,
+// Podemos utilizar una implementación personalizada de IBarcodeGenerator para generar códigos de barras,
 // y luego insertarlos en el documento como imágenes.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// A continuación se muestran cuatro ejemplos de diferentes tipos de códigos de barras que podemos crear usando nuestro generador.
+A continuación se muestran cuatro ejemplos de diferentes tipos de códigos de barras que podemos crear usando nuestro generador.
 // Para cada código de barras, especificamos un nuevo conjunto de parámetros de código de barras y luego generamos la imagen.
-// Luego, podemos insertar la imagen en el documento o guardarla en el sistema de archivos local.
-// 1 - código QR:
+//Después podemos insertar la imagen en el documento, o guardarla en el sistema de archivos local.
+// 1 - Código QR:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -48,8 +48,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - Código de barras EAN13:
@@ -63,10 +69,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 3 - código de barras CODE39:
+// 3 - Código de barras CODE39:
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -75,7 +88,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - Código de barras ITF14:
@@ -87,7 +107,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

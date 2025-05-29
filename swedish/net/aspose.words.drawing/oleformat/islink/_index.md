@@ -3,14 +3,14 @@ title: OleFormat.IsLink
 linktitle: IsLink
 articleTitle: IsLink
 second_title: Aspose.Words för .NET
-description: OleFormat IsLink fast egendom. ReturnerarSann om OLEobjektet är länkat närSourceFullName anges i C#.
+description: Upptäck OleFormat IsLink-egenskapen. Kontrollera enkelt om ditt OLE-objekt är länkat med SourceFullName för sömlös dataintegration och hantering.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing/oleformat/islink/
 ---
 ## OleFormat.IsLink property
 
-Returnerar`Sann` om OLE-objektet är länkat (när[`SourceFullName`](../sourcefullname/) anges).
+Returer`sann` om OLE-objektet är länkat (när[`SourceFullName`](../sourcefullname/) är specificerad).
 
 ```csharp
 public bool IsLink { get; }
@@ -55,7 +55,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

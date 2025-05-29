@@ -3,7 +3,7 @@ title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: NodeCollection Count propriété. Obtient le nombre de nœuds dans la collection en C#.
+description: Découvrez la propriété NodeCollection Count pour accéder facilement au nombre total de nœuds de votre collection, améliorant ainsi la gestion et l'efficacité des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/nodecollection/count/
@@ -18,19 +18,19 @@ public int Count { get; }
 
 ## Exemples
 
-Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
+Montre comment parcourir la collection de nœuds enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
 
-// Ajoutez deux tracés et une forme en tant que nœuds enfants au premier paragraphe de ce document.
+// Ajoutez deux exécutions et une forme en tant que nœuds enfants au premier paragraphe de ce document.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Notez que le 'CustomNodeId' n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
+// Notez que le « CustomNodeId » n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -38,7 +38,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Parcourir la collection d'enfants immédiats du paragraphe,
-// et imprimons toutes les courses ou formes que nous trouvons à l'intérieur.
+// et imprimez toutes les séquences ou formes que nous trouvons à l'intérieur.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -69,11 +69,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Découvrez si des cellules du tableau ont d'autres tableaux comme enfants.
+        // Déterminez si des cellules du tableau ont d'autres tableaux comme enfants.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Détermine si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
+        // Déterminez si la table est imbriquée dans une autre table et, si oui, à quelle profondeur.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -88,7 +88,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcule à quel niveau une table est imbriquée dans d'autres tables.
 /// </summary>
 /// <returns>
-/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de la table parent).
+/// Un entier indiquant la profondeur d'imbrication de la table (nombre de nœuds de table parent).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -106,7 +106,7 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Détermine si une table contient une table enfant immédiate dans ses cellules.
-/// Ne parcourez pas de manière récursive ces tables pour rechercher d'autres tables.
+/// Ne parcourez pas récursivement ces tables pour vérifier d'autres tables.
 /// </summary>
 /// <returns>
 /// Renvoie vrai si au moins une cellule enfant contient un tableau.
@@ -116,9 +116,9 @@ private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

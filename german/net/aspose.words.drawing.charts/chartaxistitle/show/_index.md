@@ -3,14 +3,14 @@ title: ChartAxisTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words für .NET
-description: ChartAxisTitle Show eigendom. Legt fest ob der Titel für die Achse angezeigt werden soll. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxisTitle Show“, um die Sichtbarkeit der Achsentitel zu steuern. Optimieren Sie Ihre Diagramme mit klaren, informativen Titeln für bessere Einblicke in die Daten.
 type: docs
-weight: 20
+weight: 40
 url: /de/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
 
-Legt fest, ob der Titel für die Achse angezeigt werden soll. Der Standardwert ist`FALSCH` .
+Bestimmt, ob der Titel für die Achse angezeigt werden soll. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool Show { get; set; }
@@ -18,7 +18,7 @@ public bool Show { get; set; }
 
 ## Beispiele
 
-Zeigt, wie der Titel der Diagrammachse festgelegt wird.
+Zeigt, wie der Achsentitel eines Diagramms festgelegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -33,12 +33,15 @@ seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// Achsentitel festlegen.
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

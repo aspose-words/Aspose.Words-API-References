@@ -2,10 +2,10 @@
 title: CompositeNode.GetChild
 linktitle: GetChild
 articleTitle: GetChild
-second_title: Aspose.Words for .NET
-description: CompositeNode GetChild yöntem. Belirtilen türle eşleşen Ninci alt düğümü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli bir türün N'inci alt düğümünü kolayca almak ve veri yönetimi verimliliğinizi artırmak için CompositeNode GetChild yöntemini keşfedin.
 type: docs
-weight: 80
+weight: 100
 url: /tr/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -19,22 +19,22 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | nodeType | NodeType | Alt düğümün türünü belirtir. |
-| index | Int32 | Seçilecek alt düğümün sıfır tabanlı dizini. Negatif dizinlere de izin verilir ve uçtan erişimi belirtir, yani -1 son düğüm anlamına gelir. |
-| isDeep | Boolean | `doğru` tüm alt düğümlerden yinelemeli olarak seçim yapmak için; `YANLIŞ`yalnızca yakın çocuklar arasından seçim yapmak. Daha fazla bilgi için açıklamalara bakın. |
+| index | Int32 | Seçilecek alt düğümün sıfır tabanlı indeksi. Negatif indekslere de izin verilir ve sondan erişimi gösterir, yani -1 son düğüm anlamına gelir. |
+| isDeep | Boolean | `doğru` tüm alt düğümlerden yinelemeli olarak seçim yapmak için; `YANLIŞ` sadece yakın çocuklar arasından seçim yapmak. Daha fazla bilgi için açıklamalara bakın. |
 
 ### Geri dönüş değeri
 
-Kriterlerle eşleşen alt düğüm veya`hükümsüz` eşleşen düğüm bulunamazsa.
+Kriterlere uyan alt düğüm veya`hükümsüz` eşleşen bir düğüm bulunamazsa.
 
 ## Notlar
 
-Dizin aralık dışındaysa,`hükümsüz` Geri döndü.
+Eğer endeks aralık dışındaysa,`hükümsüz` iade edilir.
 
-İşaretleme düğümlerinin (StructuredDocumentTag VeSmartTag ) geçildiğinde bile*isDeep* =`YANLIŞ` Ve`GetChild` biçimlendirme dışı düğüm türü için çağrılır. Örneğin para 'deki ilk çalıştırma bir içine sarılmışsa[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , yine de iade edilecek`GetChild`(Run 0,`YANLIŞ`).
+İşaretleme düğümlerinin (StructuredDocumentTag VeSmartTag ) , şu durumlarda bile geçilir:*isDeep* =`YANLIŞ` Ve`GetChild` işaretleme olmayan düğüm türü için çağrılır. Örneğin, para içindeki ilk çalıştırma bir[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , yine de iade edilecektir`GetChild`(Run , 0,`YANLIŞ`).
 
 ## Örnekler
 
-Bir tablonun stilinin özelliklerinin doğrudan tablonun öğelerine nasıl uygulanacağını gösterir.
+Bir tablonun stilinin özelliklerinin doğrudan tablonun elemanlarına nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,33 +54,33 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// Bu yöntem yukarıda belirlediğimiz tablo stili özellikleriyle ilgilidir.
+// Bu yöntem yukarıda belirlediğimiz gibi tablo stili özellikleriyle ilgilidir.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
+Bir bileşik düğümün alt düğüm koleksiyonunda nasıl dolaşılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
+// Bu belgenin ilk paragrafına iki çalışma ve bir şekil alt düğüm olarak ekleyin.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
+// 'CustomNodeId' öğesinin bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün yaşam süresi boyunca var olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
-// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+// Paragrafın hemen altındaki alt öğelerin koleksiyonunda yineleme yapın,
+// ve içinde bulduğumuz herhangi bir koşuyu veya şekli yazdırırız.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

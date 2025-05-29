@@ -3,16 +3,16 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection classe. Représente une collection deForms2OleControl objets en C#.
+description: Découvrez la classe Aspose.Words.Drawing.Ole.Forms2OleControlCollection, votre solution pour gérer efficacement les objets Forms2OleControl dans le traitement des documents.
 type: docs
-weight: 1120
+weight: 1470
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
 Représente une collection de[`Forms2OleControl`](../forms2olecontrol/) objets.
 
-Pour en savoir plus, visitez le[Travailler avec des objets Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des objets Ole](https://docs.aspose.com/words/net/working-with-ole-objects/) article de documentation.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -39,7 +39,7 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 ## Exemples
 
-Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
+Montre comment accéder à un contrôle OLE intégré dans un document et à ses contrôles enfants.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

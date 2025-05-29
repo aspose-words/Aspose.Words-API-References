@@ -3,14 +3,14 @@ title: MailMergeSettings.ActiveRecord
 linktitle: ActiveRecord
 articleTitle: ActiveRecord
 second_title: Aspose.Words para .NET
-description: MailMergeSettings ActiveRecord propiedad. Especifica el índice de base uno del registro de la fuente de datos que se mostrará en Microsoft Word. El valor predeterminado es 1 en C#.
+description: Descubra MailMergeSettings. Personalice sus documentos de Microsoft Word seleccionando el índice de registro deseado de su fuente de datos. ¡Comience fácilmente!
 type: docs
 weight: 20
 url: /es/net/aspose.words.settings/mailmergesettings/activerecord/
 ---
 ## MailMergeSettings.ActiveRecord property
 
-Especifica el índice de base uno del registro de la fuente de datos que se mostrará en Microsoft Word. El valor predeterminado es 1.
+Especifica el índice basado en uno del registro de la fuente de datos que se mostrará en Microsoft Word. El valor predeterminado es 1.
 
 ```csharp
 public int ActiveRecord { get; set; }
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

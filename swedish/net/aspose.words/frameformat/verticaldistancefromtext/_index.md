@@ -3,7 +3,7 @@ title: FrameFormat.VerticalDistanceFromText
 linktitle: VerticalDistanceFromText
 articleTitle: VerticalDistanceFromText
 second_title: Aspose.Words för .NET
-description: FrameFormat VerticalDistanceFromText fast egendom. Anger vertikalt avstånd i punkter mellan en ram och den omgivande texten i C#.
+description: Upptäck egenskapen FrameFormat VerticalDistanceFromText för att enkelt justera det vertikala avståndet i punkter mellan din ram och omgivande text för förbättrad layoutkontroll.
 type: docs
 weight: 100
 url: /sv/net/aspose.words/frameformat/verticaldistancefromtext/

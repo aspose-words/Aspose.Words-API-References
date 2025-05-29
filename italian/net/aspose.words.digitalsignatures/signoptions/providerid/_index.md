@@ -3,14 +3,14 @@ title: SignOptions.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words per .NET
-description: SignOptions ProviderId proprietà. Specifica lID classe del provider della firma. Il valore predefinito èGuida vuota tutti zeri.  in C#.
+description: Scopri la proprietà ProviderId di SignOptions, che definisce l'ID di classe del tuo provider di firme. Personalizzala facilmente con un GUID univoco per prestazioni ottimali.
 type: docs
 weight: 40
 url: /it/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-Specifica l'ID classe del provider della firma. Il valore predefinito è**Guida vuota (tutti zeri).** .
+Specifica l'ID di classe del fornitore della firma. Il valore predefinito è**Guid vuoto (tutti zeri)** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,11 +18,11 @@ public Guid ProviderId { get; set; }
 
 ## Osservazioni
 
-Il fornitore di servizi di crittografia (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia x000d per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il suo fornitore di firma predefinito.
+Il fornitore di servizi crittografici (CSP) è un modulo software indipendente che esegue effettivamente algoritmi di crittografia per l'autenticazione, la codifica e la crittografia. MS Office riserva il valore di {00000000-0000-0000-0000-000000000000} per il suo fornitore di firme predefinito.
 
-Il GUID del provider installato in aggiunta deve essere ottenuto dalla documentazione fornita con il provider.
+Il GUID del provider installato in aggiunta dovrebbe essere ricavato dalla documentazione fornita con il provider.
 
-Inoltre, tutti i provider di crittografia installati sono enumerati nel registro di Windows. Può essere trovato nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Esiste un nome chiave "CP Service UUID" che corrisponde a un GUID del provider della firma.
+Inoltre, tutti i provider crittografici installati sono elencati nel registro di Windows. È possibile trovarli nel seguente percorso: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Esiste un nome chiave "CP Service UUID" che corrisponde al GUID del provider della firma.
 
 ## Esempi
 

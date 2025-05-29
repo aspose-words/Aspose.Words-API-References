@@ -2,8 +2,8 @@
 title: ChartLegendEntry.IsHidden
 linktitle: IsHidden
 articleTitle: IsHidden
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartLegendEntry IsHidden 财产. 获取或设置一个值指示此条目是否隐藏在图表图例中 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartLegendEntry IsHidden 属性，轻松控制图表图例的可见性。使用这个简单的切换功能，提升您的数据呈现效果！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.charts/chartlegendentry/ishidden/
@@ -18,7 +18,7 @@ public bool IsHidden { get; set; }
 
 ## 评论
 
-隐藏图表图例条目时，不会影响 仍显示在图表上的相应图表系列或趋势线。
+当图表图例条目隐藏时，它不会影响仍显示在图表上的相应图表系列或趋势线。
 
 ## 例子
 
@@ -43,11 +43,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

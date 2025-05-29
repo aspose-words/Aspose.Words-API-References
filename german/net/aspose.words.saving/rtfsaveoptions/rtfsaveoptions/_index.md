@@ -3,7 +3,7 @@ title: RtfSaveOptions
 linktitle: RtfSaveOptions
 articleTitle: RtfSaveOptions
 second_title: Aspose.Words für .NET
-description: RtfSaveOptions constructeur. Default_Constructor in C#.
+description: Entdecken Sie den RtfSaveOptions-Konstruktor für nahtlose Dokumentformatierung. Profitieren Sie von einfacher Anpassung und verbesserter Dateiverwaltung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/rtfsaveoptions/rtfsaveoptions/

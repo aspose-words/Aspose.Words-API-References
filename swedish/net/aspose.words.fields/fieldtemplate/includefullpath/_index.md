@@ -3,14 +3,14 @@ title: FieldTemplate.IncludeFullPath
 linktitle: IncludeFullPath
 articleTitle: IncludeFullPath
 second_title: Aspose.Words för .NET
-description: FieldTemplate IncludeFullPath fast egendom. Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas i C#.
+description: Upptäck egenskapen FieldTemplate IncludeFullPath för att enkelt hantera inkludering av fullständiga sökvägar, vilket förbättrar projektets effektivitet och organisation.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldtemplate/includefullpath/
 ---
 ## FieldTemplate.IncludeFullPath property
 
-Hämtar eller ställer in om det fullständiga sökvägsnamnet ska inkluderas.
+Hämtar eller anger om hela sökvägen till filen ska inkluderas.
 
 ```csharp
 public bool IncludeFullPath { get; set; }
@@ -18,13 +18,13 @@ public bool IncludeFullPath { get; set; }
 
 ## Exempel
 
-Visar hur man använder ett MALL-fält för att visa den lokala filsystemets plats för ett dokuments mall.
+Visar hur man använder ett MALL-fält för att visa den lokala filsystemets plats för en dokumentmall.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vi kan ställa in ett mallnamn med hjälp av fälten. Den här egenskapen används när "doc.AttachedTemplate" är tom.
+// Vi kan ange ett mallnamn med hjälp av fälten. Den här egenskapen används när "doc.AttachedTemplate" är tom.
 // Om den här egenskapen är tom används standardmallfilnamnet "Normal.dotm".
 doc.FieldOptions.TemplateName = string.Empty;
 

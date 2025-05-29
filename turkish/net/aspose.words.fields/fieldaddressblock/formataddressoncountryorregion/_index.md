@@ -2,15 +2,15 @@
 title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
-second_title: Aspose.Words for .NET
-description: FieldAddressBlock FormatAddressOnCountryOrRegion mülk. Adresin POSTCODE Universal Postal Union 2006 tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Doğru teslimat için küresel posta standartlarına uyumu garanti altına alarak FieldAddressBlock FormatAddressOnCountryOrRegion özelliğiyle adres biçimlendirmesini optimize edin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Adresin, POST*CODE (Universal Postal Union 2006) tarafından tanımlandığı şekilde alıcının ülkesine/bölgesine göre biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar.
+Alıcının ülkesine/bölgesine göre adresin biçimlendirilip biçimlendirilmeyeceğini alır veya ayarlar. POST*CODE (Evrensel Posta Birliği 2006) tarafından tanımlandığı gibi.
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -18,7 +18,7 @@ public bool FormatAddressOnCountryOrRegion { get; set; }
 
 ## Örnekler
 
-ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
+ADDRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri içerecektir,
-// ExcludedCountryOrRegionName özelliğinde belirtilmediği sürece.
+// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri kapsayacaktır.
+// ExcludedCountryOrRegionName özelliğinde belirtilen olmadığı sürece.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Varsayılan olarak bu özellik belgenin ilk karakterinin dil kimliğini içerecektir.
-// Sonucun bu şekilde formatlanması için alana farklı bir kültür ayarlayabiliriz.
+// Varsayılan olarak bu özellik, belgenin ilk karakterinin dil kimliğini içerecektir.
+// Sonucu bu şekilde biçimlendirmek için alan için farklı bir kültür ayarlayabiliriz.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

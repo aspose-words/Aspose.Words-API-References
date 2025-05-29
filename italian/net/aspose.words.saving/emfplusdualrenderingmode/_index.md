@@ -3,9 +3,9 @@ title: EmfPlusDualRenderingMode Enum
 linktitle: EmfPlusDualRenderingMode
 articleTitle: EmfPlusDualRenderingMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.EmfPlusDualRenderingMode enum. Specifica come Aspose.Words dovrebbe eseguire il rendering dei metafile EMF Dual in C#.
+description: Scopri l'enum EMF Plus Dual Rendering Mode di Aspose.Words per un rendering ottimale dei metafile EMF Dual. Migliora l'elaborazione dei tuoi documenti con precisione!
 type: docs
-weight: 4980
+weight: 5730
 url: /it/net/aspose.words.saving/emfplusdualrenderingmode/
 ---
 ## EmfPlusDualRenderingMode enumeration
@@ -20,9 +20,9 @@ public enum EmfPlusDualRenderingMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| EmfPlusWithFallback | `0` | Aspose.Words tenta di rendere EMF+ parte del metafile EMF+ Dual. Se alcuni dei record EMF+ non sono supportati , Aspose.Words rende EMF parte di EMF+ Dual metafile. |
-| EmfPlus | `1` | Aspose.Words rende EMF+ parte di EMF+ Dual metafile. |
-| Emf | `2` | Aspose.Words rende EMF parte di EMF+ Dual metafile. |
+| EmfPlusWithFallback | `0` | Aspose.Words tenta di eseguire il rendering di parte EMF+ del metafile EMF+ Dual. Se alcuni record EMF+ non sono supportati , Aspose.Words esegue il rendering di parte EMF del metafile EMF+ Dual. |
+| EmfPlus | `1` | Aspose.Words esegue il rendering di EMF+ come parte del metafile EMF+ Dual. |
+| Emf | `2` | Aspose.Words esegue il rendering di EMF come parte del metafile EMF+ Dual. |
 
 ## Esempi
 
@@ -31,21 +31,21 @@ Mostra come configurare le opzioni di rendering relative a Enhanced Windows Meta
 ```csharp
 Document doc = new Document(MyDir + "EMF.docx");
 
-// Crea un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo converte il documento in .PDF.
+// Creiamo un oggetto "PdfSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo converte il documento in .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
 // Imposta la proprietà "EmfPlusDualRenderingMode" su "EmfPlusDualRenderingMode.Emf"
-// per eseguire il rendering solo della parte EMF di un doppio metafile EMF+.
-// Imposta la proprietà "EmfPlusDualRenderingMode" su "EmfPlusDualRenderingMode.EmfPlus" su
-// per eseguire il rendering della parte EMF+ di un doppio metafile EMF+.
+// per eseguire il rendering solo della parte EMF di un metafile doppio EMF+.
+// Imposta la proprietà "EmfPlusDualRenderingMode" su "EmfPlusDualRenderingMode.EmfPlus" per
+// per eseguire il rendering della parte EMF+ di un metafile duale EMF+.
 // Imposta la proprietà "EmfPlusDualRenderingMode" su "EmfPlusDualRenderingMode.EmfPlusWithFallback"
-// per eseguire il rendering della parte EMF+ di un doppio metafile EMF+ se tutti i record EMF+ sono supportati.
-// Altrimenti, Aspose.Words renderà la parte EMF.
+// per eseguire il rendering della parte EMF+ di un metafile duale EMF+ se tutti i record EMF+ sono supportati.
+// In caso contrario, Aspose.Words eseguirà il rendering della parte EMF.
 saveOptions.MetafileRenderingOptions.EmfPlusDualRenderingMode = renderingMode;
 
 // Imposta la proprietà "UseEmfEmbeddedToWmf" su "true" per eseguire il rendering dei dati EMF incorporati
-// per i metafile che possiamo visualizzare come grafica vettoriale.
+// per i metafile che possiamo riprodurre come grafica vettoriale.
 saveOptions.MetafileRenderingOptions.UseEmfEmbeddedToWmf = true;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);

@@ -3,9 +3,9 @@ title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection clase. Representa una colección de valores Y para una serie de gráficos en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.ChartYValueCollection, su solución ideal para administrar valores Y en series de gráficos de manera eficiente y eficaz.
 type: docs
-weight: 880
+weight: 1200
 url: /es/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
@@ -20,7 +20,8 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Obtiene el número de elementos de esta colección. |
+| [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Obtiene el número de elementos en esta colección. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | Obtiene o establece el código de formato aplicado a los valores Y. |
 | [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Obtiene o establece el valor Y en el índice especificado. |
 
 ## Métodos
@@ -33,7 +34,7 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 
 Todos los artículos de la colección excepto**nulo** debe tener el mismo[`ValueType`](../chartyvalue/valuetype/).
 
-La colección solo permite cambiar los valores de Y. Para agregar o insertar nuevos valores a una serie de gráficos, o eliminar valores, los métodos apropiados del[`ChartSeries`](../chartseries/) Se puede utilizar la clase.
+La colección solo permite cambiar los valores Y. Para agregar o insertar nuevos valores a una serie de gráficos, o eliminar valores, utilice los métodos apropiados de la[`ChartSeries`](../chartseries/) La clase se puede utilizar.
 
 ## Ejemplos
 
@@ -54,11 +55,11 @@ int maxValueIndex = 0;
 
 for (int i = 0; i < series.YValues.Count; i++)
 {
-    // Borrar formato individual de todos los puntos de datos.
-    // Los puntos de datos y los valores de datos son uno a uno en los gráficos de columnas.
+    // Borrar el formato individual de todos los puntos de datos.
+    // Los puntos de datos y los valores de los datos son uno a uno en los gráficos de columnas.
     series.DataPoints[i].ClearFormat();
 
-    // Obtener el valor Y.
+    // Obtener el valor de Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)

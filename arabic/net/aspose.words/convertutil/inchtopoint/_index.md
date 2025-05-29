@@ -3,14 +3,14 @@ title: ConvertUtil.InchToPoint
 linktitle: InchToPoint
 articleTitle: InchToPoint
 second_title: Aspose.Words لـ .NET
-description: ConvertUtil InchToPoint طريقة. تحويل البوصات إلى نقاط في C#.
+description: حوّل البوصات إلى نقاط بسهولة باستخدام طريقة InchToPoint من ConvertUtil. حسّن دقة تصميمك وقياساتك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/convertutil/inchtopoint/
 ---
 ## ConvertUtil.InchToPoint method
 
-تحويل البوصات إلى نقاط.
+يحول البوصات إلى نقاط.
 
 ```csharp
 public static double InchToPoint(double inches)
@@ -26,7 +26,7 @@ public static double InchToPoint(double inches)
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -46,14 +46,14 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-يوضح كيفية تحديد خصائص الصفحة بالبوصة.
+يوضح كيفية تحديد خصائص الصفحة بالبوصات.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يحدد "إعداد الصفحة" الخاص بالقسم حجم هوامش الصفحة بالنقاط.
-// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس مألوفة أكثر،
+// يمكننا أيضًا استخدام فئة "ConvertUtil" لاستخدام وحدة قياس أكثر شيوعًا،
 // مثل البوصات عند تحديد الحدود.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -61,11 +61,11 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// البوصة تساوي 72 نقطة.
+//البوصة تساوي 72 نقطة.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// أضف محتوى لتوضيح الهوامش الجديدة.
+//أضف محتوى لإظهار الهوامش الجديدة.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

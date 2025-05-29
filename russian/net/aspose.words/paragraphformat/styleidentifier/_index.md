@@ -3,14 +3,14 @@ title: ParagraphFormat.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words для .NET
-description: ParagraphFormat StyleIdentifier свойство. Получает или задает независимый от локали идентификатор стиля абзаца примененного к этому форматированию на С#.
+description: Откройте для себя свойство ParagraphFormat StyleIdentifier, которое позволяет легко управлять стилями абзацев и настраивать их, улучшая форматирование и удобочитаемость документа.
 type: docs
-weight: 350
+weight: 360
 url: /ru/net/aspose.words/paragraphformat/styleidentifier/
 ---
 ## ParagraphFormat.StyleIdentifier property
 
-Получает или задает независимый от локали идентификатор стиля абзаца, примененного к этому форматированию.
+Возвращает или задает независимый от локали идентификатор стиля абзаца, примененного к данному форматированию.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -24,15 +24,15 @@ public StyleIdentifier StyleIdentifier { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление первой страницы документа.
-// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
-// Также сделайте его записи гиперссылками, которые приведут нас
-// к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
+// Вставьте оглавление для первой страницы документа.
+// Настройте таблицу для выбора абзацев с заголовками уровней 1–3.
+// Также задайте его записи как гиперссылки, которые перенесут нас
+// в место расположения заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
+// Заполните оглавление, добавив абзацы со стилями заголовков.
+// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -60,7 +60,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
+// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

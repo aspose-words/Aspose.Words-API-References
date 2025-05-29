@@ -3,14 +3,14 @@ title: OdtSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words per .NET
-description: OdtSaveOptions SaveFormat proprietà. Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereOdt OOtt  in C#.
+description: Scopri come la proprietà SaveFormat di OdtSaveOptions ti consente di salvare facilmente i documenti nei formati Odt o Ott, garantendo compatibilità e flessibilità.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.saving/odtsaveoptions/saveformat/
 ---
 ## OdtSaveOptions.SaveFormat property
 
-Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto opzioni di salvataggio. Può essereOdt OOtt .
+Specifica il formato in cui il documento verrà salvato se viene utilizzato questo oggetto di opzioni di salvataggio. Può essereOdt OOtt .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -26,14 +26,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
 // Crea un nuovo OdtSaveOptions e passa "SaveFormat.Odt",
- // o "SaveFormat.Ott" come formato in cui salvare il documento.
+ // oppure "SaveFormat.Ott" come formato in cui salvare il documento.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
 // Se apriamo questo documento con un editor appropriato,
-// ci chiederà la password che abbiamo specificato nell'oggetto SaveOptions.
+// ci verrà richiesta la password specificata nell'oggetto SaveOptions.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

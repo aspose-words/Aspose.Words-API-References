@@ -2,15 +2,15 @@
 title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
-second_title: Aspose.Words for .NET
-description: FieldOptions UserPromptRespondent mülk. Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldOptions UserPromptRespondent özelliğinin, alan güncellemeleri sırasında yanıtlayan etkileşimlerini yöneterek kullanıcı deneyimini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 220
 url: /tr/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Alan güncellemesi sırasında kullanıcı istemlerine yanıt vereni alır veya ayarlar.
+Alan güncellemesi sırasında yanıtlayanı kullanıcı istemlerine göre alır veya ayarlar.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,7 +18,7 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## Notlar
 
-Bu özelliğin değeri şu şekilde ayarlanmışsa`hükümsüz` , istem 'de kullanıcı yanıtı gerektiren alanlar (örneğin[`FieldAsk`](../../fieldask/) veya[`FieldFillIn`](../../fieldfillin/)) güncellenmez.
+Bu özelliğin değeri şu şekilde ayarlanırsa:`hükümsüz` , prompting (örneğin) kullanıcı yanıtını gerektiren alanlar[`FieldAsk`](../../fieldask/) veya[`FieldFillIn`](../../fieldfillin/)) güncellenmiyor.
 
 Varsayılan değer:`hükümsüz`.
 
@@ -32,14 +32,14 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // ASK alanımıza verilecek yanıtın yerleştirileceği alanı yerleştirin.
+    // ASK alanımıza verilecek cevabın yer alacağı bir alan yerleştiriyoruz.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // ASK alanını ekleyin ve REF alanımıza yer işareti adıyla referans verecek şekilde özelliklerini düzenleyin.
+    // ASK alanını ekleyin ve özelliklerini düzenleyerek yer imi adına göre REF alanımıza başvuralım.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -51,7 +51,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK alanları, adres-mektup birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
+    // ASK alanları, bir posta birleştirme sırasında ilgili REF alanlarına varsayılan yanıtı uygular.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -60,8 +60,8 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Özel bir istem yanıtlayıcı ile ASK alanlarımızdaki varsayılan yanıtı değiştirebilir veya geçersiz kılabiliriz,
-    // adres-mektup birleştirme sırasında gerçekleşecek.
+    // ASK alanlarımızdaki varsayılan yanıtı özel bir istem yanıtlayıcısıyla değiştirebilir veya geçersiz kılabiliriz.
+    // posta birleştirme sırasında gerçekleşecektir.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -70,7 +70,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme sırasında ASK alanının varsayılan yanıtının başına metin ekler.
+/// Bir posta birleştirme sırasında ASK alanının varsayılan yanıtına metin ekler.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

@@ -2,15 +2,15 @@
 title: MailMergeSettings.MailSubject
 linktitle: MailSubject
 articleTitle: MailSubject
-second_title: Aspose.Words for .NET
-description: MailMergeSettings MailSubject mülk. Adresmektup birleştirme sırasında üretilen eposta veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: MailSubject özelliğiyle MailMerge'inizi özelleştirerek ilgi çekici e-posta veya faks konu satırları oluşturun. Kişiselleştirilmiş içerikle iletişimi geliştirin.
 type: docs
 weight: 130
 url: /tr/net/aspose.words.settings/mailmergesettings/mailsubject/
 ---
 ## MailMergeSettings.MailSubject property
 
-Adres-mektup birleştirme sırasında üretilen e-posta veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir.
+Posta birleştirme sırasında üretilen e-postaların veya faksların konu satırında görünecek metni belirtir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string MailSubject { get; set; }
@@ -18,7 +18,7 @@ public string MailSubject { get; set; }
 
 ## Örnekler
 
-Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Harici bir veri kaynağına bağlanırken posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
-// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
+// Belgeyi yüklemek için Microsoft Word kullanıldığında artık posta birleştirme işlemi gerçekleştirilmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -2,15 +2,15 @@
 title: PdfSaveOptions.ImageColorSpaceExportMode
 linktitle: ImageColorSpaceExportMode
 articleTitle: ImageColorSpaceExportMode
-second_title: Aspose.Words for .NET
-description: PdfSaveOptions ImageColorSpaceExportMode mülk. PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Çarpıcı görsel kalite ve tutarlılık için PDF'lerinizdeki görüntü rengi seçimini optimize etmek üzere PdfSaveOptions ImageColorSpaceExportMode özelliğini keşfedin.
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/pdfsaveoptions/imagecolorspaceexportmode/
 ---
 ## PdfSaveOptions.ImageColorSpaceExportMode property
 
-PDF belgesindeki görüntüler için renk alanının nasıl seçileceğini belirtir.
+PDF belgesindeki resimler için renk alanının nasıl seçileceğini belirtir.
 
 ```csharp
 public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
@@ -20,13 +20,13 @@ public PdfImageColorSpaceExportMode ImageColorSpaceExportMode { get; set; }
 
 Varsayılan değer:Auto .
 
-EğerSimpleCmyk değer belirtildi, [`ImageCompression`](../imagecompression/) seçeneği göz ardı edilir ve Belgedeki tüm görüntüler için düz sıkıştırma kullanılır.
+EğerSimpleCmyk değer belirtildi, [`ImageCompression`](../imagecompression/) seçenek göz ardı edilir ve Belgedeki tüm resimler için Flate sıkıştırma kullanılır.
 
-SimpleCmyk PDF/A'ya kaydederken değer desteklenmez. Auto bunun yerine değer kullanılacaktır.
+SimpleCmyk PDF/A. olarak kaydederken değer desteklenmiyorAuto Bunun yerine değer kullanılacaktır.
 
 ## Örnekler
 
-Bir belgeyi PDF'ye dışa aktarırken, görüntüler için farklı bir renk alanının nasıl ayarlanacağını gösterir.
+Bir belgeyi PDF'e aktarırken resimler için farklı bir renk alanının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,16 +38,16 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 
-// Aspose.Words'ü elde etmek için "ImageColorSpaceExportMode" özelliğini "PdfImageColorSpaceExportMode.Auto" olarak ayarlayın
-// PDF'ye dönüştürdüğü belgedeki görsellerin renk alanını otomatik olarak seç.
+// Aspose.Words'ü almak için "ImageColorSpaceExportMode" özelliğini "PdfImageColorSpaceExportMode.Auto" olarak ayarlayın
+// PDF'e dönüştürdüğü belgedeki resimler için renk alanını otomatik olarak seçer.
 // Çoğu durumda renk alanı RGB olacaktır.
 // "ImageColorSpaceExportMode" özelliğini "PdfImageColorSpaceExportMode.SimpleCmyk" olarak ayarlayın
-// kayıtlı PDF'deki tüm görüntüler için CMYK renk alanını kullanmak için.
-// Aspose.Words ayrıca tüm görüntülere Flate sıkıştırması uygulayacak ve "ImageCompression" özelliğinin değerini yok sayacaktır.
+// Kaydedilen PDF'deki tüm resimler için CMYK renk uzayını kullanmak.
+// Aspose.Words ayrıca tüm resimlere Flate sıkıştırması uygulayacak ve "ImageCompression" özelliğinin değerini yok sayacaktır.
 pdfSaveOptions.ImageColorSpaceExportMode = pdfImageColorSpaceExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageColorSpaceExportMode.pdf", pdfSaveOptions);

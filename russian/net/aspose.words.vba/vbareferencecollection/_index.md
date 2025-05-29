@@ -3,16 +3,16 @@ title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReferenceCollection сорт. Представляет коллекциюVbaReference объекты на С#.
+description: Изучите класс Aspose.Words.Vba.VbaReferenceCollection — мощный инструмент для эффективного управления объектами VbaReference в ваших проектах.
 type: docs
-weight: 6600
+weight: 7450
 url: /ru/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Представляет коллекцию[`VbaReference`](../vbareference/) объекты.
+Представляет собой коллекцию[`VbaReference`](../vbareference/) объекты.
 
-Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) документальная статья.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -34,7 +34,7 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -80,7 +80,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -95,7 +95,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

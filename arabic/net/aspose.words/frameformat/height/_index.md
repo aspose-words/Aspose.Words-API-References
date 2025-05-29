@@ -3,14 +3,14 @@ title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words لـ .NET
-description: FrameFormat Height ملكية. الحصول على ارتفاع الإطار المحدد في C#.
+description: اكتشف خاصية ارتفاع FrameFormat للوصول بسهولة إلى ارتفاع الإطار المحدد والاستفادة منه لتحسين مرونة التصميم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/frameformat/height/
 ---
 ## FrameFormat.Height property
 
-الحصول على ارتفاع الإطار المحدد.
+يحصل على ارتفاع الإطار المحدد.
 
 ```csharp
 public double Height { get; }
@@ -18,7 +18,7 @@ public double Height { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

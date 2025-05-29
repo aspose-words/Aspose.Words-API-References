@@ -2,15 +2,15 @@
 title: VbaModuleCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaModuleCollection Count 财产. 返回集合中 VBA 模块的数量 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 VbaModuleCollection Count 属性，它可以有效地计算您的 VBA 模块，增强您的编码工作流程和组织。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.vba/vbamodulecollection/count/
 ---
 ## VbaModuleCollection.Count property
 
-返回集合中 VBA 模块的数量。
+返回集合中的 VBA 模块的数量。
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

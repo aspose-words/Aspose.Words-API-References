@@ -2,8 +2,8 @@
 title: VbaModuleCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaModuleCollection Remove 方法. 从集合中删除指定的模块 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们简单易用的 Remove 方法，轻松从 VbaModuleCollection 中移除特定模块。立即简化您的 VBA 项目！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbamodulecollection/remove/
@@ -22,7 +22,7 @@ public void Remove(VbaModule module)
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

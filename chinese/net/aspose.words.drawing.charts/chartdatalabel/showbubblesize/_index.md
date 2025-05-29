@@ -2,15 +2,15 @@
 title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabel ShowBubbleSize 财产. 允许指定是否为图表上的数据标签显示气泡大小 仅适用于气泡图 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShowBubbleSize 属性如何通过显示数据标签大小来增强气泡图的效果。立即优化您的可视化数据呈现！
 type: docs
-weight: 80
+weight: 130
 url: /zh/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
 
-允许指定是否为图表上的数据标签显示气泡大小。 仅适用于气泡图。 默认值为`错误的`.
+允许指定是否在图表上显示数据标签的气泡大小。 仅适用于气泡图。 默认值为`错误的`.
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -18,7 +18,7 @@ public bool ShowBubbleSize { get; set; }
 
 ## 例子
 
-展示如何将 3D 效果与气泡图结合使用。
+展示如何在气泡图中使用 3D 效果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// 将数据标签应用于显示其直径的每个气泡。
+// 为每个显示其直径的气泡应用数据标签。
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

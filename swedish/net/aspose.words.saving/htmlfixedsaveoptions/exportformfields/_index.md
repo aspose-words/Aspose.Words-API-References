@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportFormFields
 linktitle: ExportFormFields
 articleTitle: ExportFormFields
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions ExportFormFields fast egendom. Hämtar eller ställer in en indikation på om formulärfält exporteras som interactive objekt som inputtagg snarare än omvandlas till text eller grafik i C#.
+description: Upptäck hur egenskapen HtmlFixedSaveOptions ExportFormFields förbättrar dina dokumentexporter genom att hålla formulärfälten interaktiva och därmed förbättra användarupplevelsen.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportformfields/
 ---
 ## HtmlFixedSaveOptions.ExportFormFields property
 
-Hämtar eller ställer in en indikation på om formulärfält exporteras som interactive objekt (som "input"-tagg) snarare än omvandlas till text eller grafik.
+Hämtar eller anger om formulärfält exporteras som interaktiva objekt (som 'input'-tagg) snarare än konverteras till text eller grafik.
 
 ```csharp
 public bool ExportFormFields { get; set; }
@@ -28,9 +28,9 @@ builder.InsertCheckBox("CheckBox", false, 15);
 
 // När vi exporterar ett dokument med formulärfält till .html,
 // det finns två sätt på vilka Aspose.Words kan exportera formulärfält.
-// Att ställa in "ExportFormFields"-flaggan till "true" kommer att exportera dem som interaktiva objekt.
-// Om du ställer in denna flagga på "false" visas formulärfält som vanlig text.
-// Detta kommer att frysa dem till deras nuvarande värde och hindra läsaren av vårt HTML-dokument
+// Om flaggan "ExportFormFields" sätts till "true" exporteras de som interaktiva objekt.
+// Om du ställer in den här flaggan på "false" visas formulärfält som vanlig text.
+// Detta kommer att frysa dem till deras nuvarande värde och förhindra att läsaren av vårt HTML-dokument
 // från att kunna interagera med dem.
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
@@ -49,7 +49,7 @@ if (exportFormFields)
 }
 else
 {
-    Assert.True(Regex.Match(outDocContents, 
+    Assert.True(Regex.Match(outDocContents,
         "<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>" +
         "<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"").Success);
 }

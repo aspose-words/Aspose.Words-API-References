@@ -3,14 +3,14 @@ title: ChartSeries.SeriesType
 linktitle: SeriesType
 articleTitle: SeriesType
 second_title: Aspose.Words för .NET
-description: ChartSeries SeriesType fast egendom. Hämtar typen av denna diagramserie i C#.
+description: Upptäck egenskapen ChartSeries SeriesType för att enkelt identifiera din diagramserietyp och förbättra din datavisualisering. Få tillgång till kraftfulla insikter idag!
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing.charts/chartseries/seriestype/
 ---
 ## ChartSeries.SeriesType property
 
-Hämtar typen av denna diagramserie.
+Hämtar typen för denna diagramserie.
 
 ```csharp
 public ChartSeriesType SeriesType { get; }
@@ -18,7 +18,7 @@ public ChartSeriesType SeriesType { get; }
 
 ## Exempel
 
-Visar hur man
+Visar hur man tar bort specifika diagramserier.
 
 ```csharp
 Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");

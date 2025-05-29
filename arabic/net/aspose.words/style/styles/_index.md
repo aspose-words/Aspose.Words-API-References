@@ -3,14 +3,14 @@ title: Style.Styles
 linktitle: Styles
 articleTitle: Styles
 second_title: Aspose.Words لـ .NET
-description: Style Styles ملكية. الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط في C#.
+description: اكتشف خاصية Style Styles للوصول إلى مجموعة مختارة من الأنماط، مما يعزز تصميمك بجماليات فريدة ومتماسكة.
 type: docs
-weight: 160
+weight: 190
 url: /ar/net/aspose.words/style/styles/
 ---
 ## Style.Styles property
 
-الحصول على مجموعة الأنماط التي ينتمي إليها هذا النمط.
+يحصل على مجموعة الأنماط التي ينتمي إليها هذا النمط.
 
 ```csharp
 public StyleCollection Styles { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

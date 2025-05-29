@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.LockContents
 linktitle: LockContents
 articleTitle: LockContents
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart LockContents 财产. 当设置为真的 此属性将禁止用户编辑此结构化文档标签的内容 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTagRangeStart 的 LockContents 属性。启用编辑限制，以增强文档完整性和用户控制。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/lockcontents/
 ---
 ## StructuredDocumentTagRangeStart.LockContents property
 
-当设置为`真的` ，此属性将禁止用户编辑此结构化文档标签的内容。
+设置为`真的` ，此属性将禁止用户编辑此结构化文档标签的内容。
 
 ```csharp
 public bool LockContents { get; set; }
@@ -18,7 +18,7 @@ public bool LockContents { get; set; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,7 +3,7 @@ title: List.IsMultiLevel
 linktitle: IsMultiLevel
 articleTitle: IsMultiLevel
 second_title: Aspose.Words لـ .NET
-description: List IsMultiLevel ملكية. إرجاعحقيقي عندما تحتوي القائمة على 9 مستوياتخطأ شنيع عندما يكون المستوى 1 في C#.
+description: اكتشف ما إذا كانت قائمتك تدعم مستويات متعددة! تُظهر أداتنا صحة 9 مستويات وخطأ مستوى واحد، مما يُحسّن كفاءة إدارة بياناتك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/list/ismultilevel/
@@ -20,20 +20,20 @@ public bool IsMultiLevel { get; }
 
 القوائم التي تقوم بإنشائها باستخدام Aspose.Words هي دائمًا قوائم متعددة المستويات وتحتوي على 9 مستويات.
 
-يقوم Microsoft Word 2003 والإصدارات الأحدث دائمًا بإنشاء قوائم متعددة المستويات تحتوي على 9 مستويات. ولكن في بعض المستندات، التي تم إنشاؤها باستخدام إصدارات سابقة من Microsoft Word، قد تواجه قوائم تحتوي على مستوى واحد فقط.
+يقوم Microsoft Word 2003 والإصدارات الأحدث دائمًا بإنشاء قوائم متعددة المستويات تحتوي على 9 مستويات. ولكن في بعض المستندات التي تم إنشاؤها باستخدام إصدارات سابقة من Microsoft Word، قد تواجه قوائم تحتوي على مستوى واحد فقط.
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -55,14 +55,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

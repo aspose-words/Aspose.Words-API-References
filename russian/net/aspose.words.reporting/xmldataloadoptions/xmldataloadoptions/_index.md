@@ -3,7 +3,7 @@ title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
 second_title: Aspose.Words для .NET
-description: XmlDataLoadOptions строитель. Инициализирует новый экземпляр этого класса с параметрами по умолчанию на С#.
+description: Откройте для себя конструктор XmlDataLoadOptions, разработанный для простой инициализации загрузки данных с настройками по умолчанию для оптимальной производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/

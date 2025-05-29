@@ -3,7 +3,7 @@ title: FrameFormat.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words para .NET
-description: FrameFormat VerticalPosition propiedad. Obtiene la distancia vertical entre el borde del marco y el elemento especificado por elRelativeVerticalPosition propiedad en C#.
+description: Descubra la propiedad FrameFormat VerticalPosition, que mide la distancia vertical desde el borde del marco hasta el elemento especificado, mejorando la precisión del diseño.
 type: docs
 weight: 110
 url: /es/net/aspose.words/frameformat/verticalposition/
@@ -18,7 +18,7 @@ public double VerticalPosition { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

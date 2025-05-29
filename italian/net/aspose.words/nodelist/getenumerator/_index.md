@@ -3,14 +3,14 @@ title: NodeList.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: NodeList GetEnumerator metodo. Fornisce una semplice iterazione di stile foreach sulla raccolta di nodi in C#.
+description: Itera senza sforzo su NodeList con il metodo GetEnumerator. Ottieni un accesso semplice ed efficiente alla tua raccolta di nodi in C#.
 type: docs
 weight: 30
 url: /it/net/aspose.words/nodelist/getenumerator/
 ---
 ## NodeList.GetEnumerator method
 
-Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi.
+Fornisce una semplice iterazione in stile "foreach" sulla raccolta di nodi.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -31,20 +31,20 @@ Document doc = new Document(MyDir + "Tables.docx");
 // che sono discendenti di qualsiasi nodo della tabella nel documento.
 NodeList nodeList = doc.SelectNodes("//Tabella//Paragrafo");
 
-// Scorre l'elenco con un enumeratore e stampa il contenuto di ogni paragrafo in ogni cella della tabella.
+// Scorrere l'elenco con un enumeratore e stampare il contenuto di ogni paragrafo in ogni cella della tabella.
 int index = 0;
 
 using (IEnumerator<Node> e = nodeList.GetEnumerator())
     while (e.MoveNext())
         Console.WriteLine($"Table paragraph index {index++}, contents: \"{e.Current.GetText().Trim()}\"");
 
-// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Body nel documento.
+// Questa espressione selezionerà tutti i paragrafi che sono figli diretti di qualsiasi nodo Corpo nel documento.
 nodeList = doc.SelectNodes("//Corpo/Paragrafo");
 
-// Possiamo trattare la lista come un array.
+// Possiamo trattare l'elenco come un array.
 Assert.AreEqual(4, nodeList.ToArray().Length);
 
-// Utilizza SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
+// Utilizzare SelectSingleNode per selezionare il primo risultato della stessa espressione di cui sopra.
 Node node = doc.SelectSingleNode("//Corpo/Paragrafo");
 
 Assert.AreEqual(typeof(Paragraph), node.GetType());

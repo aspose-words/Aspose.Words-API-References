@@ -2,15 +2,15 @@
 title: PageSetup.MultiplePages
 linktitle: MultiplePages
 articleTitle: MultiplePages
-second_title: Aspose.Words for .NET
-description: PageSetup MultiplePages mülk. Çok sayfalı belgeler için belgenin kitapçık olarak ciltlenebilmesi için belgenin nasıl yazdırılacağını veya oluşturulacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: PageSetup MultiplePages özelliğinin sorunsuz kitapçık ciltleme için belge yazdırmayı nasıl optimize ettiğini keşfedin. Çok sayfalı belgelerinizi bugün geliştirin!
 type: docs
 weight: 270
 url: /tr/net/aspose.words/pagesetup/multiplepages/
 ---
 ## PageSetup.MultiplePages property
 
-Çok sayfalı belgeler için, belgenin kitapçık olarak ciltlenebilmesi için belgenin nasıl yazdırılacağını veya oluşturulacağını alır veya ayarlar.
+Birden fazla sayfalı belgeler için, bir belgenin kitapçık olarak ciltlenebilmesi için nasıl yazdırılacağını veya işleneceğini alır veya ayarlar.
 
 ```csharp
 public MultiplePagesType MultiplePages { get; set; }
@@ -23,7 +23,7 @@ Kitap katlaması olarak yazdırılabilecek bir belgenin nasıl yapılandırılac
 ```csharp
 Document doc = new Document();
 
-// 16 sayfaya yayılan metni ekleyin.
+// 16 sayfaya yayılacak metni ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -33,24 +33,24 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Belgeyi kitap katlama biçiminde yazdırmak için ilk bölümün "PageSetup" özelliğini yapılandırın.
-// Bu belgeyi her iki tarafa da yazdırdığımızda sayfaları istiflemek için alabiliriz
-// ve hepsini aynı anda ortadan katlayın. Belgenin içeriği bir kitap katlama şeklinde sıralanacaktır.
+// Belgeyi kitap katlaması biçiminde yazdırmak için ilk bölümün "PageSetup" özelliğini yapılandırın.
+// Bu belgeyi her iki tarafa da yazdırdığımızda sayfaları istiflemek için kullanabiliriz
+// ve hepsini aynı anda ortadan katlayın. Belgenin içerikleri bir kitap katlaması şeklinde sıralanacaktır.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// Sayfa sayısını yalnızca 4'ün katları olarak belirtebiliriz.
+// Sayfa sayısını yalnızca 4'ün katları şeklinde belirtebiliriz.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ```
 
-Cilt payı marjlarının nasıl ayarlanacağını gösterir.
+Oluk kenar boşluklarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Birkaç sayfaya yayılan metni ekleyin.
+// Birkaç sayfaya yayılan metin ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -59,19 +59,19 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
-// bu, sayfa düzenini ihlal eden bir kitaptaki sayfaların ortadan katlanmasını telafi eder.
+// Bir oluk, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
+// Kitabın sayfalarının ortadan katlanmasıyla sayfa düzeninin bozulmasına neden olan bir durumdur.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-// Sayfalarımızın kenar boşluklarında metin için ne kadar alana sahip olduğunu belirleyin ve ardından kenar boşluğunu doldurmak için bir miktar ekleyin.
+ // Sayfalarımızın kenar boşluklarında metin için ne kadar alan olacağını belirleyin ve ardından kenar boşluğuna bir miktar boşluk ekleyin.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Sağdan sola metin için cilt payını daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
+// Sağdan sola yazılan metinler için oluğu daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
 pageSetup.RtlGutter = true;
 
-// Alternatif olarak "MultiplePages" özelliğini "MultiplePagesType.MirrorMargins" olarak ayarlayın
+// "MultiplePages" özelliğini alternatif olarak "MultiplePagesType.MirrorMargins" olarak ayarlayın
 // her sayfada kenar boşluklarının sol/sağ sayfa tarafı konumu.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 

@@ -3,7 +3,7 @@ title: FieldImport
 linktitle: FieldImport
 articleTitle: FieldImport
 second_title: Aspose.Words för .NET
-description: FieldImport byggare. Default_Constructor i C#.
+description: Upptäck FieldImport-konstruktorn, din lösning för sömlös dataintegration. Lås upp effektiva arbetsflöden med vår kraftfulla standardkonstruktor!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldimport/fieldimport/

@@ -3,7 +3,7 @@ title: FieldBibliography
 linktitle: FieldBibliography
 articleTitle: FieldBibliography
 second_title: Aspose.Words لـ .NET
-description: FieldBibliography البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldBibliography، أداتك الأساسية لإنشاء الاستشهادات بسهولة. بسّط بحثك باستخدام مُنشئنا الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbibliography/fieldbibliography/

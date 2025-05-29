@@ -2,15 +2,15 @@
 title: PageSetup.TextColumns
 linktitle: TextColumns
 articleTitle: TextColumns
-second_title: Aspose.Words for .NET
-description: PageSetup TextColumns mülk. Metin sütunları kümesini temsil eden bir koleksiyon döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: PageSetup TextColumns özelliğini keşfedin, belge düzeninizi ve biçimlendirmenizi zahmetsizce geliştirmek için çok yönlü bir metin sütunu koleksiyonuna erişin.
 type: docs
 weight: 420
 url: /tr/net/aspose.words/pagesetup/textcolumns/
 ---
 ## PageSetup.TextColumns property
 
-Metin sütunları kümesini temsil eden bir koleksiyon döndürür.
+Metin sütunlarının kümesini temsil eden bir koleksiyon döndürür.
 
 ```csharp
 public TextColumnCollection TextColumns { get; }
@@ -18,7 +18,7 @@ public TextColumnCollection TextColumns { get; }
 
 ## Örnekler
 
-Bir bölümde birden çok eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
+Bir bölümde birden fazla eşit aralıklı sütunun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

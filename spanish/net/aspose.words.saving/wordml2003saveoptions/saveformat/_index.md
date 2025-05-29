@@ -3,14 +3,14 @@ title: WordML2003SaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words para .NET
-description: WordML2003SaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeWordML  en C#.
+description: Descubra cómo la propiedad SaveFormat de WordML2003SaveOptions define los formatos de guardado de documentos. ¡Asegure la compatibilidad total con WordML para sus archivos!
 type: docs
 weight: 20
 url: /es/net/aspose.words.saving/wordml2003saveoptions/saveformat/
 ---
 ## WordML2003SaveOptions.SaveFormat property
 
-Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Sólo se puedeWordML .
+Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Solo se puedeWordML .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,40 +18,41 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Ejemplos
 
-Muestra cómo administrar el contenido sin formato del documento de salida.
+Muestra cómo administrar el contenido sin procesar del documento de salida.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crea un objeto "WordML2003SaveOptions" para pasarlo al método "Guardar" del documento
-// para modificar cómo guardamos el documento en el formato de guardado de WordML.
+// Cree un objeto "WordML2003SaveOptions" para pasarlo al método "Guardar" del documento
+// para modificar la forma en que guardamos el documento en el formato de guardado WordML.
 WordML2003SaveOptions options = new WordML2003SaveOptions();
 
 Assert.AreEqual(SaveFormat.WordML, options.SaveFormat);
 
-// Establece la propiedad "PrettyFormat" en "true" para aplicar la sangría del carácter de tabulación y
-// nuevas líneas para hacer que el contenido sin formato del documento de salida sea más fácil de leer.
-// Establece la propiedad "PrettyFormat" en "false" para guardar el contenido sin formato del documento en un cuerpo continuo del texto.
+// Establezca la propiedad "PrettyFormat" en "verdadero" para aplicar la sangría del carácter de tabulación y
+// nuevas líneas para hacer que el contenido sin procesar del documento de salida sea más fácil de leer.
+// Establezca la propiedad "PrettyFormat" en "falso" para guardar el contenido sin procesar del documento en un cuerpo continuo de texto.
 options.PrettyFormat = prettyFormat;
 
 doc.Save(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml", options);
 
 string fileContents = File.ReadAllText(ArtifactsDir + "WordML2003SaveOptions.PrettyFormat.xml");
+string newLine = Environment.NewLine;
 
 if (prettyFormat)
     Assert.True(fileContents.Contains(
-        "<o:DocumentProperties>\r\n\t\t" +
-            "<o:Revision>1</o:Revision>\r\n\t\t" +
-            "<o:TotalTime>0</o:TotalTime>\r\n\t\t" +
-            "<o:Pages>1</o:Pages>\r\n\t\t" +
-            "<o:Words>0</o:Words>\r\n\t\t" +
-            "<o:Characters>0</o:Characters>\r\n\t\t" +
-            "<o:Lines>1</o:Lines>\r\n\t\t" +
-            "<o:Paragraphs>1</o:Paragraphs>\r\n\t\t" +
-            "<o:CharactersWithSpaces>0</o:CharactersWithSpaces>\r\n\t\t" +
-            "<o:Version>11.5606</o:Version>\r\n\t" +
+        $"<o:DocumentProperties>{newLine}\t\t" +
+            $"<o:Revision>1</o:Revision>{newLine}\t\t" +
+            $"<o:TotalTime>0</o:TotalTime>{newLine}\t\t" +
+            $"<o:Pages>1</o:Pages>{newLine}\t\t" +
+            $"<o:Words>0</o:Words>{newLine}\t\t" +
+            $"<o:Characters>0</o:Characters>{newLine}\t\t" +
+            $"<o:Lines>1</o:Lines>{newLine}\t\t" +
+            $"<o:Paragraphs>1</o:Paragraphs>{newLine}\t\t" +
+            $"<o:CharactersWithSpaces>0</o:CharactersWithSpaces>{newLine}\t\t" +
+            $"<o:Version>11.5606</o:Version>{newLine}\t" +
         "</o:DocumentProperties>"));
 else
     Assert.True(fileContents.Contains(

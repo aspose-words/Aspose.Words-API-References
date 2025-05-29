@@ -3,9 +3,9 @@ title: WrapSide Enum
 linktitle: WrapSide
 articleTitle: WrapSide
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Drawing.WrapSide énumération. Spécifie les côtés de la forme ou de limage autour duquel le texte senroule en C#.
+description: Découvrez l'énumération Aspose.Words.Drawing.WrapSide pour contrôler l'habillage du texte autour des formes et des images, améliorant ainsi la mise en page et la lisibilité du document.
 type: docs
-weight: 1390
+weight: 1800
 url: /fr/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
@@ -21,14 +21,14 @@ public enum WrapSide
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Both | `0` | Le texte du document s'enroule des deux côtés de la forme. |
-| Left | `1` | Le texte du document s'enroule uniquement sur le côté gauche de la forme. Il y a une zone sans texte à droite de la forme. |
-| Right | `2` | Le texte du document s'enroule uniquement sur le côté droit de la forme. Il y a une zone sans texte sur le côté gauche de la forme. |
-| Largest | `3` | Le texte du document s'enroule du côté de la forme le plus éloigné de la marge de la page, laissant une zone libre de texte de l'autre côté de la forme. |
+| Left | `1` | Le texte du document s'ajuste uniquement à gauche de la forme. Une zone de texte libre se trouve à droite de la forme. |
+| Right | `2` | Le texte du document est renvoyé à la ligne uniquement à droite de la forme. Une zone de texte libre se trouve à gauche de la forme. |
+| Largest | `3` | Le texte du document s'enroule sur le côté de la forme le plus éloigné de la marge de la page, laissant une zone de texte libre de l'autre côté de la forme. |
 | Default | `0` | La valeur par défaut estBoth . |
 
 ## Exemples
 
-Montre comment remplacer toutes les formes de zone de texte par des formes d’image.
+Montre comment remplacer toutes les formes de zone de texte par des formes d'image.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

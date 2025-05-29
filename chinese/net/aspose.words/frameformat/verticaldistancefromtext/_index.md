@@ -2,15 +2,15 @@
 title: FrameFormat.VerticalDistanceFromText
 linktitle: VerticalDistanceFromText
 articleTitle: VerticalDistanceFromText
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat VerticalDistanceFromText 财产. 指定框架与周围文本之间的垂直距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat VerticalDistanceFromText 属性，轻松调整框架和周围文本之间的垂直间距（以点为单位），以增强布局控制。
 type: docs
 weight: 100
 url: /zh/net/aspose.words/frameformat/verticaldistancefromtext/
 ---
 ## FrameFormat.VerticalDistanceFromText property
 
-指定框架与周围文本之间的垂直距离（以磅为单位）。
+指定框架和周围文本之间的垂直距离（以点为单位）。
 
 ```csharp
 public double VerticalDistanceFromText { get; }
@@ -18,7 +18,7 @@ public double VerticalDistanceFromText { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

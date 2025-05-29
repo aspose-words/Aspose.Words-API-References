@@ -3,14 +3,14 @@ title: ListLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words för .NET
-description: ListLabel Font fast egendom. Hämtar listetikettens teckensnitt i C#.
+description: Upptäck teckensnittsegenskapen ListLabel för att anpassa teckensnittet på din listetikett och förbättra din design för en professionell touch.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.lists/listlabel/font/
 ---
 ## ListLabel.Font property
 
-Hämtar listetikettens teckensnitt.
+Hämtar teckensnittet för listetiketten.
 
 ```csharp
 public Font Font { get; }

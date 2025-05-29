@@ -3,14 +3,14 @@ title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
 second_title: Aspose.Words für .NET
-description: Document UpdateThumbnail methode. UpdatesThumbnail des Dokuments gemäß den angegebenen Optionen in C#.
+description: Aktualisieren Sie die Miniaturansicht Ihres Dokuments mühelos mit unseren anpassbaren Optionen. Verbessern Sie Ihre Visualisierung und die Präsentation Ihres Dokuments noch heute!
 type: docs
-weight: 780
+weight: 840
 url: /de/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
-Updates[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) des Dokuments gemäß den angegebenen Optionen.
+Aktualisierungen[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) des Dokuments gemäß den angegebenen Optionen.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -22,7 +22,7 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 ## Bemerkungen
 
-Die[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) Ermöglicht Ihnen, die Quelle des Miniaturbilds, die Größe und andere Optionen anzugeben. Wenn der Versuch, ein Miniaturbild zu generieren, fehlschlägt, wird eines nicht geändert.
+Die[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) ermöglicht Ihnen, die Quelle der Miniaturansicht, die Größe und andere Optionen anzugeben. Wenn der Versuch, eine Miniaturansicht zu generieren, fehlschlägt, wird keine geändert.
 
 ## Beispiele
 
@@ -35,12 +35,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Es gibt zwei Möglichkeiten, ein Miniaturbild festzulegen, wenn ein Dokument im .epub-Format gespeichert wird.
-// 1 – Die erste Seite des Dokuments verwenden:
+// Es gibt zwei Möglichkeiten, beim Speichern eines Dokuments im EPUB-Format ein Miniaturbild festzulegen.
+// 1 - Verwenden Sie die erste Seite des Dokuments:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 – Das erste im Dokument gefundene Bild verwenden:
+// 2 - Verwenden Sie das erste im Dokument gefundene Bild:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ## UpdateThumbnail() {#updatethumbnail}
 
-Updates[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) des Dokuments mit Standardoptionen.
+Aktualisierungen[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) des Dokuments mit Standardoptionen.
 
 ```csharp
 public void UpdateThumbnail()
@@ -77,12 +77,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Es gibt zwei Möglichkeiten, ein Miniaturbild festzulegen, wenn ein Dokument im .epub-Format gespeichert wird.
-// 1 – Die erste Seite des Dokuments verwenden:
+// Es gibt zwei Möglichkeiten, beim Speichern eines Dokuments im EPUB-Format ein Miniaturbild festzulegen.
+// 1 - Verwenden Sie die erste Seite des Dokuments:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 – Das erste im Dokument gefundene Bild verwenden:
+// 2 - Verwenden Sie das erste im Dokument gefundene Bild:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

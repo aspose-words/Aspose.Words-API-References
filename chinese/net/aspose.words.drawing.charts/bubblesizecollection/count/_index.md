@@ -2,8 +2,8 @@
 title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: BubbleSizeCollection Count 财产. 获取此集合中的项目数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BubbleSizeCollection Count 属性，轻松追踪集合中的项目数量。立即增强您的数据管理！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/bubblesizecollection/count/

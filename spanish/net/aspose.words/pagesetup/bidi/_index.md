@@ -3,7 +3,7 @@ title: PageSetup.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words para .NET
-description: PageSetup Bidi propiedad. Especifica que esta sección contiene texto bidireccional scripts complejos en C#.
+description: Descubra la propiedad PageSetup Bidi para un formato de texto bidireccional perfecto. Mejore sus documentos con compatibilidad con scripts complejos para una mejor legibilidad.
 type: docs
 weight: 10
 url: /es/net/aspose.words/pagesetup/bidi/
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Observaciones
 
-Cuando`verdadero`las columnas de esta sección están dispuestas de derecha a izquierda.
+Cuando`verdadero`Las columnas de esta sección están dispuestas de derecha a izquierda.
 
 ## Ejemplos
 
@@ -37,10 +37,10 @@ builder.Write("Column 2.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Write("Column 3.");
 
-// Establece la propiedad "Bidi" en "verdadero" para organizar las columnas comenzando desde el lado derecho de la página.
-// El orden de las columnas coincidirá con la dirección del texto de derecha a izquierda.
-// Establece la propiedad "Bidi" en "falso" para organizar las columnas comenzando desde el lado izquierdo de la página.
-// El orden de las columnas coincidirá con la dirección del texto de izquierda a derecha.
+// Establezca la propiedad "Bidi" en "verdadero" para organizar las columnas comenzando desde el lado derecho de la página.
+//El orden de las columnas coincidirá con la dirección del texto de derecha a izquierda.
+// Establezca la propiedad "Bidi" en "falso" para organizar las columnas comenzando desde el lado izquierdo de la página.
+//El orden de las columnas coincidirá con la dirección del texto de izquierda a derecha.
 pageSetup.Bidi = reverseColumns;
 
 doc.Save(ArtifactsDir + "PageSetup.Bidi.docx");

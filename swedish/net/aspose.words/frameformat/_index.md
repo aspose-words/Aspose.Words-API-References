@@ -3,9 +3,9 @@ title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.FrameFormat klass. Representerar ramrelaterad formatering för ett stycke i C#.
+description: Upptäck klassen Aspose.Words.FrameFormat för avancerad ramformatering i stycken. Förbättra din dokumentdesign med sömlös integration och flexibilitet.
 type: docs
-weight: 3070
+weight: 3500
 url: /sv/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
@@ -22,22 +22,22 @@ public class FrameFormat
 | --- | --- |
 | [Height](../../aspose.words/frameformat/height/) { get; } | Hämtar höjden på den angivna ramen. |
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Hämtar regeln för att bestämma höjden på den angivna ramen. |
-| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Får horisontell justering av den angivna ramen. |
-| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Får horisontellt avstånd mellan en ram och den omgivande texten, i punkter. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Får horisontellt avstånd mellan kanten på ramen och objektet som anges av[`RelativeHorizontalPosition`](./relativehorizontalposition/) egenskap. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returnerar`Sann` om stycket är en ram. |
-| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Får den relativa horisontella positionen för en ram. |
-| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Får den relativa vertikala positionen för en ram. |
-| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Får vertikal justering av den angivna ramen. |
+| [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Hämtar horisontell justering av den angivna ramen. |
+| [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Hämtar det horisontella avståndet mellan en ram och den omgivande texten, i punkter. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Hämtar det horisontella avståndet mellan ramens kant och det objekt som anges av[`RelativeHorizontalPosition`](./relativehorizontalposition/) egendom. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Returer`sann` om stycket är en ram. |
+| [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Hämtar den relativa horisontella positionen för en ram. |
+| [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Hämtar den relativa vertikala positionen för en ram. |
+| [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Hämtar vertikal justering av den angivna ramen. |
 | [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Anger vertikalt avstånd (i punkter) mellan en ram och den omgivande texten. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Får vertikalt avstånd mellan kanten på ramen och objektet som anges av[`RelativeVerticalPosition`](./relativeverticalposition/) egenskap. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Hämtar det vertikala avståndet mellan ramens kant och det objekt som anges av[`RelativeVerticalPosition`](./relativeverticalposition/) egendom. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Hämtar bredden på den angivna ramen, i punkter. |
 
 ## Anmärkningar
 
-Detta objekt skapas alltid. Om ett stycke är en ram kommer alla egenskaper att innehålla respektive värden, annars är alla egenskaper inställda på sina standardvärden.
+Detta objekt skapas alltid. Om ett stycke är en ram kommer alla egenskaper att innehålla respektive värden, annars ställs alla egenskaper in till standardvärdena.
 
-Använda sig av[`IsFrame`](./isframe/) för att kontrollera om stycket är en ram.
+Använda[`IsFrame`](./isframe/)för att kontrollera om stycket är en ram.
 
 ## Exempel
 

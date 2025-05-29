@@ -3,14 +3,14 @@ title: CellFormat.HorizontalMerge
 linktitle: HorizontalMerge
 articleTitle: HorizontalMerge
 second_title: Aspose.Words для .NET
-description: CellFormat HorizontalMerge свойство. Указывает как ячейка объединяется по горизонтали с другими ячейками в строке на С#.
+description: Откройте для себя свойство CellFormat HorizontalMerge, позволяющее легко объединять ячейки по горизонтали, улучшая компоновку и организацию вашей электронной таблицы.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words.tables/cellformat/horizontalmerge/
 ---
 ## CellFormat.HorizontalMerge property
 
-Указывает, как ячейка объединяется по горизонтали с другими ячейками в строке.
+Указывает, как ячейка будет объединена по горизонтали с другими ячейками в строке.
 
 ```csharp
 public CellMerge HorizontalMerge { get; set; }
@@ -25,18 +25,18 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Вставляем ячейку в первый столбец первой строки.
-// Эта ячейка будет первой в диапазоне горизонтально объединенных ячеек.
+// Эта ячейка будет первой в ряду горизонтально объединенных ячеек.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Вставляем ячейку во второй столбец первой строки. Вместо добавления текстового содержимого,
+// Вставьте ячейку во второй столбец первой строки. Вместо добавления текстового содержимого,
 // мы объединим эту ячейку с первой ячейкой, которую мы добавили непосредственно слева.
 builder.InsertCell();
 builder.CellFormat.HorizontalMerge = CellMerge.Previous;
 builder.EndRow();
 
-// Вставляем еще две несвязанные ячейки во вторую строку.
+// Вставляем еще две необъединенные ячейки во вторую строку.
 builder.CellFormat.HorizontalMerge = CellMerge.None;
 builder.InsertCell();
 builder.Write("Text in unmerged cell.");
@@ -48,7 +48,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "CellFormat.HorizontalMerge.docx");
 ```
 
-Печатает тип горизонтального и вертикального слияния ячейки.
+Печатает тип слияния ячейки по горизонтали и вертикали.
 
 ```csharp
 public void CheckCellsMerged()
@@ -56,8 +56,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 

@@ -3,9 +3,9 @@ title: VbaReference Class
 linktitle: VbaReference
 articleTitle: VbaReference
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Vba.VbaReference klas. Implementiert einen Verweis auf eine Automatisierungstypbibliothek oder ein VBAProjekt in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Vba.VbaReference für die nahtlose Integration mit Automatisierungstypbibliotheken und VBA-Projekten. Verbessern Sie noch heute Ihre Dokumentenautomatisierung!
 type: docs
-weight: 6590
+weight: 7440
 url: /de/net/aspose.words.vba/vbareference/
 ---
 ## VbaReference class
@@ -22,8 +22,8 @@ public abstract class VbaReference
 
 | Name | Beschreibung |
 | --- | --- |
-| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Ruft einen Zeichenfolgenwert ab, der den Bezeichner einer Automatisierungstypbibliothek enthält. |
-| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Ruft ab[`VbaReferenceType`](../vbareferencetype/) Objekt, das die Art der Referenz angibt, die a`VbaReference` Objekt repräsentiert. |
+| abstract [LibId](../../aspose.words.vba/vbareference/libid/) { get; } | Ruft einen Zeichenfolgenwert ab, der die Kennung einer Automatisierungstypbibliothek enthält. |
+| abstract [Type](../../aspose.words.vba/vbareference/type/) { get; } | Ruft ab[`VbaReferenceType`](../vbareferencetype/) Objekt, das den Typ der Referenz angibt, die ein`VbaReference` Objekt repräsentiert. |
 
 ## Beispiele
 
@@ -55,7 +55,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Gibt einen String zurück, der den LibId-Pfad einer angegebenen Referenz darstellt.
+    /// Gibt eine Zeichenfolge zurück, die den LibId-Pfad einer angegebenen Referenz darstellt.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {

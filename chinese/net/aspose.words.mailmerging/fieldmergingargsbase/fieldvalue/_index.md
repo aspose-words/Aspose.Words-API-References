@@ -2,8 +2,8 @@
 title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergingArgsBase FieldValue 财产. 从数据源获取或设置字段的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldMergingArgsBase 的 FieldValue 属性。轻松访问和修改数据源中的字段值，增强数据管理。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
@@ -18,11 +18,11 @@ public object FieldValue { get; set; }
 
 ## 评论
 
-此属性包含邮件合并引擎刚刚从您的数据源 为此字段选择的值。您还可以通过设置属性来替换该值。
+此属性包含邮件合并引擎刚刚从数据源 中为此字段选择的值。您也可以通过设置此属性来替换该值。
 
 ## 例子
 
-演示如何编辑 MERGEFIELD 在邮件合并发生时接收的值。
+显示如何编辑邮件合并时 MERGEFIELDs 收到的值。
 
 ```csharp
 public void FieldFormats()
@@ -30,7 +30,7 @@ public void FieldFormats()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 插入一些带有格式开关的 MERGEFIELD，这些格式开关将编辑它们在邮件合并期间收到的值。
+    // 插入一些带有格式开关的 MERGEFIELD，它们将编辑邮件合并期间接收的值。
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -47,8 +47,8 @@ public void FieldFormats()
 }
 
 /// <summary>
-/// 编辑 MERGEFIELD 在邮件合并期间接收的值。
-/// MERGEFIELD 的名称必须具有前缀，此回调才能对其值生效。
+/// 编辑邮件合并期间 MERGEFIELDs 收到的值。
+/// MERGEFIELD 的名称必须有一个前缀，以便此回调对其值生效。
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
@@ -65,7 +65,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 }
 ```

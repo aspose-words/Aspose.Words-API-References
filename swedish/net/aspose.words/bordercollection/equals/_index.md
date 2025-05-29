@@ -3,7 +3,7 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words för .NET
-description: BorderCollection Equals metod. Jämför samlingar av ramar i C#.
+description: Upptäck BorderCollection Equals-metoden för att effektivt jämföra borderkollektioner och förbättra din kodningsproduktivitet. Optimera dina projekt idag!
 type: docs
 weight: 150
 url: /sv/net/aspose.words/bordercollection/equals/
@@ -18,7 +18,7 @@ public bool Equals(BorderCollection brColl)
 
 ## Exempel
 
-Visar hur gränssamlingar kan dela element.
+Visar hur kantsamlingar kan dela element.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Eftersom vi använde samma kantkonfiguration när vi skapade
-// dessa stycken, deras gränssamlingar delar samma element.
+// dessa stycken, deras kantsamlingar delar samma element.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -41,14 +41,14 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Efter att ha ändrat linjestilen för kanterna i bara det andra stycket,
-// gränssamlingarna delar inte längre samma element.
+// Efter att ha ändrat linjestilen för kantlinjerna i bara det andra stycket,
+// kantsamlingarna delar inte längre samma element.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Att ändra utseendet på en tom kant gör den synlig.
+    // Att ändra utseendet på en tom ram gör den synlig.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

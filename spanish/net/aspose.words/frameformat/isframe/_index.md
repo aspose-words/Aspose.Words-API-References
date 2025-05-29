@@ -3,14 +3,14 @@ title: FrameFormat.IsFrame
 linktitle: IsFrame
 articleTitle: IsFrame
 second_title: Aspose.Words para .NET
-description: FrameFormat IsFrame propiedad. Devolucionesverdadero si el párrafo es un marco en C#.
+description: Descubra la propiedad IsFrame de FrameFormat. Determine fácilmente si su párrafo es un marco, mejorando así la maquetación y el diseño de su documento.
 type: docs
 weight: 60
 url: /es/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-Devoluciones`verdadero` si el párrafo es un marco.
+Devuelve`verdadero` si el párrafo es un marco.
 
 ```csharp
 public bool IsFrame { get; }
@@ -18,7 +18,7 @@ public bool IsFrame { get; }
 
 ## Ejemplos
 
-Muestra cómo obtener información sobre las propiedades de formato de párrafos que son marcos.
+Muestra cómo obtener información sobre las propiedades de formato de los párrafos que son marcos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

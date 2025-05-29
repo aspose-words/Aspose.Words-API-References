@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCellEnd
 linktitle: VisitCellEnd
 articleTitle: VisitCellEnd
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitCellEnd método. Se llama cuando finaliza la enumeración de una celda de la tabla en C#.
+description: Descubra el método VisitCellEnd de DocumentVisitor, esencial para gestionar la enumeración de celdas de tabla en sus aplicaciones. ¡Mejore su eficiencia de codificación hoy mismo!
 type: docs
 weight: 80
 url: /es/net/aspose.words/documentvisitor/visitcellend/
@@ -34,16 +34,16 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos de tabla encontrados y sus hijos.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
@@ -104,7 +104,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Fila en el documento.
+    /// Se llama cuando se encuentra un nodo de fila en el documento.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -164,10 +164,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
     /// en el árbol de nodos secundarios de la tabla actual.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -192,8 +192,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
-    // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documento,
+    // lo que le permitirá visitar el nodo aceptador y luego recorrer sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -258,7 +258,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo de párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -328,6 +328,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -339,11 +341,11 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
-        // y no quedarán nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
+        // El contenido dentro de las celdas de la tabla puede tener la bandera de contenido oculto, pero las tablas en sí mismas no pueden.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
+        // y no quedarían nodos secundarios.
+        // De esta forma también podemos tratar la tabla en sí como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -352,7 +354,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de celda en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

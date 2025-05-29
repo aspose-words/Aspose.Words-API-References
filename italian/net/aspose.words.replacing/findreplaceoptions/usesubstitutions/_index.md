@@ -3,9 +3,9 @@ title: FindReplaceOptions.UseSubstitutions
 linktitle: UseSubstitutions
 articleTitle: UseSubstitutions
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions UseSubstitutions proprietà. Ottiene o imposta un valore booleano che indica se riconoscere e utilizzare le sostituzioni allinterno dei modelli di sostituzione. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà UseSubstitutions in FindReplaceOptions. Abilita facilmente le sostituzioni nei modelli di sostituzione per una maggiore flessibilità nella modifica del testo.
 type: docs
-weight: 180
+weight: 190
 url: /it/net/aspose.words.replacing/findreplaceoptions/usesubstitutions/
 ---
 ## FindReplaceOptions.UseSubstitutions property
@@ -18,7 +18,7 @@ public bool UseSubstitutions { get; set; }
 
 ## Osservazioni
 
-Per i dettagli sugli elementi di sostituzione fare riferimento a: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
+Per i dettagli sugli elementi di sostituzione, fare riferimento a: https://docs.microsoft.com/en-us/dotnet/standard/base-types/substitutions-in-regular-expressions.
 
 ## Esempi
 
@@ -35,7 +35,7 @@ Regex regex = new Regex(@"([A-z]+) gave money to ([A-z]+)");
 FindReplaceOptions options = new FindReplaceOptions();
 options.UseSubstitutions = true;
 
-// L'utilizzo della modalità legacy non supporta molte funzionalità avanzate, quindi è necessario impostarla su "false".
+// L'utilizzo della modalità legacy non supporta molte funzionalità avanzate, quindi dobbiamo impostarla su "false".
 options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
@@ -43,7 +43,7 @@ doc.Range.Replace(regex, @"$2 took money from $1", options);
 Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
 ```
 
-Mostra come sostituire il testo con sostituzioni.
+Mostra come sostituire il testo con delle sostituzioni.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ FindReplaceOptions options = new FindReplaceOptions();
 
 // Imposta la proprietà "UseSubstitutions" su "true" per ottenere
 // l'operazione di ricerca e sostituzione per riconoscere gli elementi di sostituzione.
-// Imposta la proprietà "UseSubstitutions" su "false" per ignorare gli elementi di sostituzione.
+// Impostare la proprietà "UseSubstitutions" su "false" per ignorare gli elementi di sostituzione.
 options.UseSubstitutions = useSubstitutions;
 
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");

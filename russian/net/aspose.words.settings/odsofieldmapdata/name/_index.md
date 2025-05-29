@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapData Name свойство. Указывает имя столбца во внешнем источнике данных для столбца индекс которого указан вColumnproperty. Значение по умолчанию  пустая строка на С#.
+description: Откройте для себя свойство OdsoFieldMapData Name, легко свяжите внешние столбцы данных с настраиваемой индексацией. Упростите управление данными без усилий!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odsofieldmapdata/name/
 ---
 ## OdsoFieldMapData.Name property
 
-Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан в[`Column`](../column/)property. Значение по умолчанию — пустая строка.
+Указывает имя столбца во внешнем источнике данных для столбца, индекс которого указан[`Column`](../column/)свойство. Значение по умолчанию — пустая строка.
 
 ```csharp
 public string Name { get; set; }
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

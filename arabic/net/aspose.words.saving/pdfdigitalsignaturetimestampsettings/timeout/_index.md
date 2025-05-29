@@ -3,14 +3,14 @@ title: PdfDigitalSignatureTimestampSettings.Timeout
 linktitle: Timeout
 articleTitle: Timeout
 second_title: Aspose.Words لـ .NET
-description: PdfDigitalSignatureTimestampSettings Timeout ملكية. قيمة المهلة للوصول إلى خادم الطابع الزمني في C#.
+description: حسّن توقيعك الرقمي على PDF باستخدام إعدادات مهلة زمنية قابلة للتخصيص للوصول بسلاسة إلى خوادم الطوابع الزمنية. حسّن الأمان والكفاءة اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/timeout/
 ---
 ## PdfDigitalSignatureTimestampSettings.Timeout property
 
-قيمة المهلة للوصول إلى خادم الطابع الزمني.
+قيمة مهلة الوصول إلى خادم الطابع الزمني.
 
 ```csharp
 public TimeSpan Timeout { get; set; }
@@ -22,38 +22,38 @@ public TimeSpan Timeout { get; set; }
 
 ## أمثلة
 
-يوضح كيفية توقيع مستند PDF محفوظ رقميًا ووضع طابع زمني عليه.
+يوضح كيفية التوقيع على مستند PDF محفوظ رقميًا ووضع علامة زمنية عليه.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Signed PDF contents.");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// أنشئ توقيعًا رقميًا وقم بتعيينه لكائن SaveOptions الخاص بنا لتوقيع المستند عندما نحفظه في ملف PDF.
+// قم بإنشاء توقيع رقمي وقم بتعيينه إلى كائن SaveOptions الخاص بنا لتوقيع المستند عند حفظه بتنسيق PDF.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 options.DigitalSignatureDetails = new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "Aspose Office", DateTime.Now);
 
-// قم بإنشاء طابع زمني تم التحقق منه بواسطة سلطة الطابع الزمني.
+// إنشاء طابع زمني تم التحقق منه بواسطة السلطة.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr"، "JohnDoe"، "MyPassword");
 
-// العمر الافتراضي للطابع الزمني هو 100 ثانية.
+//المدة الافتراضية لطابع الوقت هي 100 ثانية.
 Assert.AreEqual(100.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
 
-// يمكننا ضبط فترة المهلة الخاصة بنا عبر المنشئ.
+//يمكننا ضبط فترة المهلة الزمنية الخاصة بنا عبر المنشئ.
 options.DigitalSignatureDetails.TimestampSettings =
     new PdfDigitalSignatureTimestampSettings("https://freetsa.org/tsr"، "JohnDoe"، "MyPassword"، TimeSpan.FromMinutes(30));
 
 Assert.AreEqual(1800.0d, options.DigitalSignatureDetails.TimestampSettings.Timeout.TotalSeconds);
-Assert.AreEqual("https://freetsa.org/tsr"، options.DigitalSignatureDetails.TimestampSettings.ServerUrl);
+Assert.AreEqual("https://freetsa.org/tsr"، الخيارات. تفاصيل التوقيع الرقمي. إعدادات الطابع الزمني. عنوان URL للخادم);
 Assert.AreEqual("JohnDoe", options.DigitalSignatureDetails.TimestampSettings.UserName);
 Assert.AreEqual("MyPassword", options.DigitalSignatureDetails.TimestampSettings.Password);
 
-// ستطبق طريقة "الحفظ" توقيعنا على مستند الإخراج في هذا الوقت.
+// ستقوم طريقة "الحفظ" بتطبيق توقيعنا على المستند الناتج في هذا الوقت.
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignatureTimestamp.pdf", options);
 ```
 

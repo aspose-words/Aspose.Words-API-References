@@ -3,7 +3,7 @@ title: TableStyle.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words для .NET
-description: TableStyle Borders свойство. Получает коллекцию границ ячеек по умолчанию для стиля на С#.
+description: Откройте для себя свойство TableStyle Borders, чтобы получить доступ к границам ячеек по умолчанию для ваших стилей, улучшая ваш дизайн с помощью бесшовных настраиваемых параметров.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/tablestyle/borders/

@@ -3,18 +3,18 @@ title: PageLayoutEvent Enum
 linktitle: PageLayoutEvent
 articleTitle: PageLayoutEvent
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Layout.PageLayoutEvent uppräkning. En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodeller i C#.
+description: Upptäck Aspose.Words.Layout.PageLayoutEvent-enumerationen – viktig för att optimera sidlayouthändelser under dokumentrendering och -byggande. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 3370
+weight: 3820
 url: /sv/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
 
-En händelsekod som uppstår under byggandet och renderingen av sidlayoutmodeller.
+En händelsekod som genereras under byggandet och renderingen av en sidlayoutmodell.
 
-Sidlayoutmodellen är byggd i två steg. Först, "konverteringssteg", det här är när sidlayout drar dokumentinnehåll och skapar objektgraf. För det andra, "reflow step", det här är när strukturer delas, slås samman och arrangeras till sidor.
+Sidlayoutmodellen byggs i två steg. Först, "konverteringssteg", det är när sidlayouten hämtar dokumentinnehåll och skapar objektgraf. För det andra, "omflödessteg", det är när strukturer delas upp, sammanfogas och arrangeras till sidor.
 
-Beroende på åtgärden som utlöste byggandet, kan sidlayoutmodellen eventuellt renderas ytterligare till ett fast sidformat. Till exempel kräver inte beräkning av antalet sidor i dokumentet eller uppdatering av fält rendering, medan export till Pdf gör det.
+Beroende på vilken åtgärd som utlöste byggandet kan sidlayoutmodellen renderas vidare till ett fast sidformat. Till exempel kräver inte beräkning av antalet sidor i dokumentet eller uppdatering av fält rendering, medan export till PDF gör det.
 
 ```csharp
 public enum PageLayoutEvent
@@ -25,21 +25,21 @@ public enum PageLayoutEvent
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | None | `0` | Standardvärde |
-| WatchDog | `1` | Motsvarar en kontrollpunkt i kod som ofta besöks och som är lämplig att avbryta processen. |
-| BuildStarted | `2` | Byggandet av sidlayouten har påbörjats. Avfyrade en gång. Detta är den första händelsen som inträffar när[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) heter. |
-| BuildFinished | `3` | Bygget av sidlayouten har slutförts. Avfyrade en gång. Detta är den sista händelsen som inträffar när[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) heter. |
-| ConversionStarted | `4` | Konvertering av dokumentmodell till sidlayout har påbörjats. Avfyrade en gång. Detta inträffar när layoutmodellen börjar hämta dokumentinnehåll. |
-| ConversionFinished | `5` | Konverteringen av dokumentmodell till sidlayout har slutförts. Avfyrades en gång. Detta inträffar när layoutmodellen slutar hämta dokumentinnehåll. |
-| ReflowStarted | `6` | Omflödet av sidlayouten har startat. Avfyrades en gång. Detta inträffar när layoutmodellen börjar återflöda dokumentinnehållet. |
-| ReflowFinished | `7` | Omflödet av sidlayouten har slutförts. Avfyrades en gång. Detta inträffar när layoutmodellen slutar flöda om dokumentinnehåll. |
-| PartReflowStarted | `8` | Återflödet av sidan har startat. Observera att sidan kan återflödas flera gånger och att återflödet kan starta om innan det är klart. |
-| PartReflowFinished | `9` | Återflödet av sidan har slutförts. Observera att sidan kan flöda om flera gånger och att återflödet kan starta om innan det är klart. |
-| PartRenderingStarted | `10` | Renderingen av sidan har startat. Detta aktiveras en gång per sida. |
-| PartRenderingFinished | `11` | Renderingen av sidan har slutförts. Detta aktiveras en gång per sida. |
+| WatchDog | `1` | Motsvarar en kontrollpunkt i kod som ofta besöks och som är lämplig för att avbryta processen. |
+| BuildStarted | `2` | Byggandet av sidlayouten har påbörjats. Utlöstes en gång. Detta är den första händelsen som inträffar när[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) kallas. |
+| BuildFinished | `3` | Byggandet av sidlayouten har slutförts. Utlöstes en gång. Detta är den sista händelsen som inträffar när[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) kallas. |
+| ConversionStarted | `4` | Konvertering av dokumentmodell till sidlayout har startat. Utlöstes en gång. Detta inträffar när layoutmodellen börjar hämta dokumentinnehåll. |
+| ConversionFinished | `5` | Konverteringen av dokumentmodellen till sidlayouten har slutförts. Utlöstes en gång. Detta inträffar när layoutmodellen slutar hämta dokumentinnehåll. |
+| ReflowStarted | `6` | Omflödet av sidlayouten har startats. Utlöstes en gång. Detta inträffar när layoutmodellen börjar omflödet av dokumentinnehållet. |
+| ReflowFinished | `7` | Omflödet av sidlayouten har slutförts. Utlöstes en gång. Detta inträffar när layoutmodellen slutar omflödet av dokumentinnehållet. |
+| PartReflowStarted | `8` | Sidans omflöde har startat. Observera att sidan kan omflödes flera gånger och att omflödet kan startas om innan det är klart. |
+| PartReflowFinished | `9` | Sidans omflöde har slutförts. Observera att sidan kan omflödesas flera gånger och att omflödet kan startas om innan det är klart. |
+| PartRenderingStarted | `10` | Rendering av sidan har startat. Detta utförs en gång per sida. |
+| PartRenderingFinished | `11` | Renderingen av sidan är klar. Detta utförs en gång per sida. |
 
 ## Exempel
 
-Visar hur man spårar layoutändringar med en layoutåteruppringning.
+Visar hur man spårar layoutändringar med ett layoutåteranrop.
 
 ```csharp
 public void PageLayoutCallback()
@@ -58,7 +58,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Meddelar oss när vi sparar dokumentet till ett fast sidformat
-/// och renderar en sida som vi utför ett sidflöde på till en bild i det lokala filsystemet.
+/// och renderar en sida som vi utför en sidflödesomflöde på till en bild i det lokala filsystemet.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

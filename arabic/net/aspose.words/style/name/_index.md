@@ -3,14 +3,14 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: Style Name ملكية. الحصول على اسم النمط أو تعيينه في C#.
+description: اكتشف خاصية اسم النمط، وقم بإدارة أنماطك وتخصيصها بسهولة لتحسين مرونة التصميم وتجربة المستخدم.
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words/style/name/
 ---
 ## Style.Name property
 
-الحصول على اسم النمط أو تعيينه.
+يحصل على اسم النمط أو يعينه.
 
 ```csharp
 public string Name { get; set; }
@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 لا يمكن أن تكون سلسلة فارغة.
 
-إذا كان هناك بالفعل نمط بهذا الاسم في المجموعة، فسيتجاوزه هذا النمط. ستشير جميع العقد المتأثرة إلى النمط الجديد.
+إذا كان هناك نمط بهذا الاسم في المجموعة، فسيحل هذا النمط محله. ستُشير جميع العقد المتأثرة إلى النمط الجديد.
 
 ## أمثلة
 
@@ -31,7 +31,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -53,14 +53,14 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 Document doc = new Document();
 
 // تقوم طريقة AddCopy بإنشاء نسخة من النمط المحدد و
-// يُنشئ تلقائيًا اسمًا جديدًا للنمط، مثل "العنوان 1_0".
+// يتم إنشاء اسم جديد للنمط تلقائيًا، مثل "Heading 1_0".
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// استخدم خاصية "الاسم" الخاصة بالنمط لتغيير الاسم التعريفي للنمط.
+//استخدم خاصية "الاسم" الخاصة بالنمط لتغيير الاسم الذي يميز النمط.
 newStyle.Name = "My Heading 1";
 
-// تحتوي وثيقتنا الآن على نمطين متطابقين بأسماء مختلفة.
-// لا يؤثر تغيير إعدادات أحد الأنماط على النمط الآخر.
+// تحتوي مستندنا الآن على نمطين متطابقين في المظهر ولكن بأسماء مختلفة.
+// تغيير إعدادات أحد الأنماط لا يؤثر على الآخر.
 newStyle.Font.Color = Color.Red;
 
 Assert.AreEqual("My Heading 1", newStyle.Name);

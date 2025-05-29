@@ -2,8 +2,8 @@
 title: ConvertUtil.PixelToNewDpi
 linktitle: PixelToNewDpi
 articleTitle: PixelToNewDpi
-second_title: 用于 .NET 的 Aspose.Words
-description: ConvertUtil PixelToNewDpi 方法. 将像素从一种分辨率转换为另一种分辨率 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ConvertUtil 的 PixelToNewDpi 方法轻松转换像素分辨率。为您的项目实现最佳图像质量和精度。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/convertutil/pixeltonewdpi/
@@ -24,13 +24,13 @@ public static int PixelToNewDpi(double pixels, double oldDpi, double newDpi)
 
 ## 例子
 
-演示如何使用默认和自定义分辨率将点转换为像素。
+展示如何使用默认和自定义分辨率将点转换为像素。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 根据自定义 DPI 定义此部分上边距的大小（以像素为单位）。
+// 根据自定义 DPI，以像素为单位定义此部分顶部边距的大小。
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -38,13 +38,13 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// 默认 DPI 为 96 时，一个像素为 0.75 点。
+// 在默认 DPI 96 下，一个像素等于 0.75 点。
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
 
-// 设置新的 DPI 并相应调整上边距值。
+// 设置新的 DPI 并相应调整顶部边距值。
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
 Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);

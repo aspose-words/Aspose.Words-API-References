@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagStart
 linktitle: VisitStructuredDocumentTagStart
 articleTitle: VisitStructuredDocumentTagStart
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitStructuredDocumentTagStart methode. Wird aufgerufen wenn die Aufzählung eines strukturierten DokumentTags begonnen hat in C#.
+description: Entdecken Sie die DocumentVisitor VisitStructuredDocumentTagStart-Methode, die für den effizienten Start strukturierter Dokument-Tag-Aufzählungen unerlässlich ist. Verbessern Sie Ihren Code noch heute!
 type: docs
 weight: 470
 url: /de/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitStructuredDocumentTagStart(StructuredDocumentT
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
-Zeigt, wie die Knotenstruktur jedes strukturierten Dokumenttags in einem Dokument gedruckt wird.
+Zeigt, wie die Knotenstruktur jedes strukturierten Dokument-Tags in einem Dokument gedruckt wird.
 
 ```csharp
 public void StructuredDocumentTagToText()
@@ -34,8 +34,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void StructuredDocumentTagToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen StructuredDocumentTag-Knoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Zuordnung in Form einer Zeichenfolge aller gefundenen StructuredDocumentTag-Knoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -95,7 +95,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,9 +3,9 @@ title: VbaModuleType Enum
 linktitle: VbaModuleType
 articleTitle: VbaModuleType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaModuleType تعداد. يحدد نوع النموذج في مشروع VBA في C#.
+description: اكتشف Aspose.Words.Vba.VbaModuleType enum، الذي يحدد أنواع النماذج في مشاريع VBA لتحسين الأتمتة وإدارة المستندات بشكل مبسط.
 type: docs
-weight: 6570
+weight: 7420
 url: /ar/net/aspose.words.vba/vbamoduletype/
 ---
 ## VbaModuleType enumeration
@@ -20,10 +20,10 @@ public enum VbaModuleType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| DocumentModule | `0` | نوع من عناصر مشروع VBA يحدد وحدة نمطية لوحدات الماكرو المضمنة وعمليات الوصول البرمجي المرتبطة بالمستند. |
-| ProceduralModule | `1` | مجموعة من الإجراءات الفرعية والوظائف. |
-| ClassModule | `2` | وحدة تحتوي على تعريف كائن جديد. يقوم كل مثيل لفئة بإنشاء كائن جديد، وتصبح الإجراءات التي تم تحديدها في الوحدة خصائص وأساليب للكائن. |
-| DesignerModule | `3` | وحدة VBA التي تعمل على توسيع أساليب وخصائص عنصر تحكم ActiveX الذي تم تسجيله في المشروع. |
+| DocumentModule | `0` | نوع من عناصر مشروع VBA يحدد وحدة للماكرو المضمنة وعمليات الوصول البرمجية المرتبطة بمستند. |
+| ProceduralModule | `1` | مجموعة من البرامج الفرعية والوظائف. |
+| ClassModule | `2` | وحدة تحتوي على تعريف كائن جديد. كل مثيل للفئة يُنشئ كائنًا جديدًا، ، والإجراءات المُعرّفة في الوحدة تُصبح خصائص وطرقًا للكائن. |
+| DesignerModule | `3` | وحدة VBA تعمل على توسيع الأساليب وخصائص عنصر تحكم ActiveX الذي تم تسجيله مع المشروع. |
 
 ## أمثلة
 
@@ -37,13 +37,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
+// قم بإنشاء وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة النمطية إلى مشروع VBA.
+//أضف الوحدة إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

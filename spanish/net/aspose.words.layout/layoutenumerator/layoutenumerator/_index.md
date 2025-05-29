@@ -3,7 +3,7 @@ title: LayoutEnumerator
 linktitle: LayoutEnumerator
 articleTitle: LayoutEnumerator
 second_title: Aspose.Words para .NET
-description: LayoutEnumerator constructor. Inicializa una nueva instancia de esta clase en C#.
+description: Descubra el constructor LayoutEnumerator, cree fácilmente nuevas instancias de esta clase para una gestión eficiente del diseño en sus aplicaciones.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/layoutenumerator/layoutenumerator/
@@ -22,9 +22,9 @@ public LayoutEnumerator(Document document)
 
 ## Observaciones
 
-Si no se ha creado el modelo de diseño de página del documento, el enumerador llama[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) para construirlo.
+Si no se ha creado el modelo de diseño de página del documento, el enumerador llama[`UpdatePageLayout`](../../../aspose.words/document/updatepagelayout/) Para construirlo.
 
-Siempre que se actualiza un documento y se crea un nuevo modelo de diseño de página, se debe utilizar un nuevo enumerador para acceder a él.
+Cada vez que se actualiza un documento y se crea un nuevo modelo de diseño de página, se debe utilizar un nuevo enumerador para acceder a él.
 
 ## Ejemplos
 
@@ -33,12 +33,12 @@ Muestra formas de recorrer las entidades de diseño de un documento.
 ```csharp
 public void LayoutEnumerator()
 {
-    // Abre un documento que contiene una variedad de entidades de diseño.
+    //Abre un documento que contiene una variedad de entidades de diseño.
     // Las entidades de diseño son páginas, celdas, filas, líneas y otros objetos incluidos en la enumeración LayoutEntityType.
     // Cada entidad de diseño tiene un espacio rectangular que ocupa en el cuerpo del documento.
     Document doc = new Document(MyDir + "Layout entities.docx");
 
-    // Crea un enumerador que pueda atravesar estas entidades como un árbol.
+    // Cree un enumerador que pueda recorrer estas entidades como un árbol.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
     Assert.AreEqual(doc, layoutEnumerator.Document);
@@ -48,23 +48,23 @@ public void LayoutEnumerator()
     Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
-    // Podemos llamar a este método para asegurarnos de que el enumerador estará en la primera entidad de diseño.
+    //Podemos llamar a este método para asegurarnos de que el enumerador estará en la primera entidad de diseño.
     layoutEnumerator.Reset();
 
-    // Hay dos órdenes que determinan cómo el enumerador de diseño continúa atravesando las entidades de diseño
+    // Hay dos órdenes que determinan cómo el enumerador de diseño continúa recorriendo las entidades de diseño
     // cuando encuentra entidades que abarcan varias páginas.
     // 1 - En orden visual:
-    // Al desplazarnos por los elementos secundarios de una entidad que abarcan varias páginas,
-    // el diseño de la página tiene prioridad y nos movemos a otros elementos secundarios en esta página y evitamos los de la siguiente.
+    // Al moverse a través de los hijos de una entidad que abarcan varias páginas,
+    // el diseño de la página tiene prioridad y pasamos a otros elementos secundarios en esta página y evitamos los de la siguiente.
     Console.WriteLine("Traversing from first to last, elements between pages separated:");
     TraverseLayoutForward(layoutEnumerator, 1);
 
-    // Nuestro enumerador se encuentra ahora al final de la colección. Podemos recorrer las entidades de diseño hacia atrás para volver al principio.
+    Nuestro enumerador está ahora al final de la colección. Podemos recorrer las entidades de diseño hacia atrás para volver al principio.
     Console.WriteLine("Traversing from last to first, elements between pages separated:");
     TraverseLayoutBackward(layoutEnumerator, 1);
 
     // 2 - En orden lógico:
-    // Al desplazarnos por los elementos secundarios de una entidad que abarcan varias páginas,
+    // Al moverse a través de los hijos de una entidad que abarcan varias páginas,
     // el enumerador se moverá entre páginas para recorrer todas las entidades secundarias.
     Console.WriteLine("Traversing from first to last, elements between pages mixed:");
     TraverseLayoutForwardLogical(layoutEnumerator, 1);
@@ -75,7 +75,7 @@ public void LayoutEnumerator()
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de adelante hacia atrás,
-/// en profundidad primero y en el orden "Visual".
+/// de manera profunda y en el orden "Visual".
 /// </summary>
 private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -93,7 +93,7 @@ private static void TraverseLayoutForward(LayoutEnumerator layoutEnumerator, int
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de atrás hacia adelante,
-/// en profundidad primero y en el orden "Visual".
+/// de manera profunda y en el orden "Visual".
 /// </summary>
 private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -111,7 +111,7 @@ private static void TraverseLayoutBackward(LayoutEnumerator layoutEnumerator, in
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de adelante hacia atrás,
-/// en profundidad primero y en el orden "lógico".
+/// de manera profunda y en el orden "lógico".
 /// </summary>
 private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -129,7 +129,7 @@ private static void TraverseLayoutForwardLogical(LayoutEnumerator layoutEnumerat
 
 /// <summary>
 /// Enumerar a través de la colección de entidades de diseño de layoutEnumerator de atrás hacia adelante,
-/// en profundidad primero y en el orden "lógico".
+/// de manera profunda y en el orden "lógico".
 /// </summary>
 private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumerator, int depth)
 {
@@ -146,8 +146,8 @@ private static void TraverseLayoutBackwardLogical(LayoutEnumerator layoutEnumera
 }
 
 /// <summary>
-/// Imprime información sobre la entidad actual de layoutEnumerator en la consola, mientras sangra el texto con caracteres de tabulación
-/// en función de su profundidad relativa al nodo raíz que proporcionamos en la instancia del constructor LayoutEnumerator.
+/// Imprime información sobre la entidad actual de layoutEnumerator en la consola, mientras sangras el texto con caracteres de tabulación
+/// basado en su profundidad relativa al nodo raíz que proporcionamos en la instancia del constructor LayoutEnumerator.
 /// El rectángulo que procesamos al final representa el área y ubicación que ocupa la entidad en el documento.
 /// </summary>
 private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int indent)
@@ -158,7 +158,7 @@ private static void PrintCurrentEntity(LayoutEnumerator layoutEnumerator, int in
         ? $"{tabs}-> Entity type: {layoutEnumerator.Type}"
         : $"{tabs}-> Entity type & kind: {layoutEnumerator.Type}, {layoutEnumerator.Kind}");
 
-    // Sólo los intervalos pueden contener texto.
+    //Solo los espacios pueden contener texto.
     if (layoutEnumerator.Type == LayoutEntityType.Span)
         Console.WriteLine($"{tabs}   Span contents: \"{layoutEnumerator.Text}\"");
 

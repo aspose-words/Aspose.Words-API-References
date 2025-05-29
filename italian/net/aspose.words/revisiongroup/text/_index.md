@@ -3,14 +3,14 @@ title: RevisionGroup.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: RevisionGroup Text proprietà. Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato in C#.
+description: Esplora la proprietà Text di RevisionGroup per accedere al testo inserito, eliminato o spostato, migliorando così la formattazione del documento e l'efficienza della modifica.
 type: docs
 weight: 30
 url: /it/net/aspose.words/revisiongroup/text/
 ---
 ## RevisionGroup.Text property
 
-Restituisce il testo inserito/eliminato/spostato o la descrizione del cambio formato.
+Restituisce il testo inserito/eliminato/spostato o la descrizione della modifica del formato.
 
 ```csharp
 public string Text { get; }

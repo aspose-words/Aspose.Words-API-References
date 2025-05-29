@@ -3,7 +3,7 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words для .NET
-description: Shading Texture свойство. Получает или задает текстуру затенения на С#.
+description: Откройте для себя свойство Shading Texture, чтобы улучшить свои проекты. Легко настраивайте и устанавливайте текстуры для потрясающих визуальных эффектов в своих проектах.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/shading/texture/
@@ -18,7 +18,7 @@ public TextureIndex Texture { get; set; }
 
 ## Примеры
 
-Показывает, как украшать текст границами и заливкой.
+Показывает, как оформить текст с помощью границ и заливки.
 
 ```csharp
 Document doc = new Document();

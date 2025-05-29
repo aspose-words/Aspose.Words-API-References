@@ -3,7 +3,7 @@ title: ControlChar.Cr
 linktitle: Cr
 articleTitle: Cr
 second_title: Aspose.Words per .NET
-description: ControlChar Cr campo. Carattere di ritorno a capo x000d o r. Uguale aParagraphBreak  in C#.
+description: Scopri ControlChar Cr, il carattere di ritorno a capo (x000d o r) che migliora la formattazione del testo. Semplifica la tua programmazione con le nostre soluzioni uniche!
 type: docs
 weight: 50
 url: /it/net/aspose.words/controlchar/cr/
@@ -24,12 +24,12 @@ Mostra come utilizzare i caratteri di controllo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci paragrafi con testo con DocumentBuilder.
+// Inserire paragrafi con testo con DocumentBuilder.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// La conversione del documento in formato testo rivela i caratteri di controllo
-// rappresenta alcuni degli elementi strutturali del documento, come le interruzioni di pagina.
+// La conversione del documento in formato testo rivela che i caratteri di controllo
+// rappresentano alcuni elementi strutturali del documento, come le interruzioni di pagina.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());

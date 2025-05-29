@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.FieldValue
 linktitle: FieldValue
 articleTitle: FieldValue
 second_title: Aspose.Words för .NET
-description: FieldMergingArgsBase FieldValue fast egendom. Hämtar eller ställer in fältets värde från datakällan i C#.
+description: Upptäck FieldValue-egenskapen i FieldMergingArgsBase. Få enkelt åtkomst till och ändra fältvärden från din datakälla för förbättrad datahantering.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/
 ---
 ## FieldMergingArgsBase.FieldValue property
 
-Hämtar eller ställer in fältets värde från datakällan.
+Hämtar eller anger värdet för fältet från datakällan.
 
 ```csharp
 public object FieldValue { get; set; }
@@ -18,11 +18,11 @@ public object FieldValue { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen innehåller ett värde som just har valts från din datakälla för det här fältet av kopplingsmotorn. Du kan också ersätta värdet genom att ställa in egenskapen.
+Den här egenskapen innehåller ett värde som just har valts från din datakälla för det här fältet av dokumentkopplingsmotorn. Du kan också ersätta värdet genom att ange egenskapen.
 
 ## Exempel
 
-Visar hur man redigerar värden som MERGEFIELDs tar emot när en e-postsammanslagning sker.
+Visar hur man redigerar värden som MERGEFIELDs tar emot när en dokumentkoppling sker.
 
 ```csharp
 public void FieldFormats()
@@ -30,7 +30,7 @@ public void FieldFormats()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Infoga några MERGEFIELDs med formatväxlar som kommer att redigera de värden de kommer att få under en e-postkoppling.
+    // Infoga några MERGEFIELDS med formatväxlar som redigerar värdena de får under en dokumentkoppling.
     builder.InsertField("MERGEFIELD text_Field1 \\* Caps", null);
     builder.Write(", ");
     builder.InsertField("MERGEFIELD text_Field2 \\* Upper", null);
@@ -47,13 +47,13 @@ public void FieldFormats()
 }
 
 /// <summary>
-/// Redigerar värdena som MERGEFIELDs får under en e-postkoppling.
-/// Namnet på ett MERGEFIELD måste ha ett prefix för att denna callback ska träda i kraft på dess värde.
+/// Redigerar värdena som MERGEFIELDs tar emot under en dokumentkoppling.
+/// Namnet på ett MERGEFIELD måste ha ett prefix för att denna återanropning ska påverka dess värde.
 /// </summary>
 private class FieldValueMergingCallback : IFieldMergingCallback
 {
     /// <summary>
-    /// Anropas när en e-postsammanfogning slår samman data till ett MERGEFIELD.
+    /// Anropas när en dokumentkoppling sammanfogar data till ett MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs e)
     {
@@ -65,7 +65,7 @@ private class FieldValueMergingCallback : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
-        // Göra ingenting.
+        // Gör ingenting.
     }
 }
 ```

@@ -3,7 +3,7 @@ title: FieldToc.PreserveTabs
 linktitle: PreserveTabs
 articleTitle: PreserveTabs
 second_title: Aspose.Words pour .NET
-description: FieldToc PreserveTabs propriété. Obtient ou définit sil faut conserver les entrées donglet dans les entrées de table en C#.
+description: Découvrez comment la propriété FieldToc PreserveTabs améliore la gestion de vos données en préservant les entrées d'onglets dans les entrées de table pour une meilleure organisation.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.fields/fieldtoc/preservetabs/
@@ -18,7 +18,7 @@ public bool PreserveTabs { get; set; }
 
 ## Exemples
 
-Montre comment insérer une table des matières et la remplir avec des entrées basées sur les styles de titre.
+Montre comment insérer une table des matières et la remplir avec des entrées basées sur des styles de titre.
 
 ```csharp
 public void FieldToc()
@@ -28,17 +28,17 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // Insère un champ TOC, qui compilera tous les titres dans une table des matières.
+    // Insérez un champ TOC, qui compilera tous les titres dans une table des matières.
     // Pour chaque titre, ce champ créera une ligne avec le texte dans ce style de titre à gauche,
     // et la page sur laquelle le titre apparaît à droite.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Utiliser la propriété BookmarkName pour lister uniquement les titres
-    // qui apparaissent dans les limites d'un signet portant le nom "MyBookmark".
+    // Utilisez la propriété BookmarkName pour répertorier uniquement les titres
+    // qui apparaissent dans les limites d'un signet portant le nom « MyBookmark ».
     field.BookmarkName = "MyBookmark";
 
-    // Le texte auquel est appliqué un style de titre intégré, tel que "Titre 1", comptera comme un titre.
-    // Nous pouvons nommer des styles supplémentaires à récupérer comme en-têtes par la table des matières dans cette propriété et leurs niveaux de table des matières.
+    // Le texte avec un style de titre intégré, tel que « Titre 1 », qui lui est appliqué sera considéré comme un titre.
+    // Nous pouvons nommer des styles supplémentaires à récupérer comme titres par la table des matières dans cette propriété et leurs niveaux de table des matières.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
     // Par défaut, les niveaux Styles/TOC sont séparés dans la propriété CustomStyles par une virgule,
@@ -51,7 +51,7 @@ public void FieldToc()
     // La table des matières n'affichera pas les numéros de page des titres dont les niveaux de table des matières se situent dans cette plage.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // Définissez une chaîne personnalisée qui séparera chaque en-tête de son numéro de page.
+     // Définissez une chaîne personnalisée qui séparera chaque titre de son numéro de page.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -65,11 +65,11 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Third entry", "Quote");
     InsertNewPageWithHeading(builder, "Fourth entry", "Intense Quote");
 
-    // Ces deux titres auront les numéros de page omis car ils se situent dans la plage "2-5".
+    // Ces deux titres auront les numéros de page omis car ils sont compris dans la plage « 2-5 ».
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // Cette entrée n'apparaît pas car "Titre 4" est en dehors de la plage "1-3" que nous avons définie précédemment.
+    // Cette entrée n'apparaît pas car « Titre 4 » est en dehors de la plage « 1-3 » que nous avons définie précédemment.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
@@ -86,7 +86,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// Démarre une nouvelle page et insère un paragraphe d'un style spécifié.
+/// Démarrez une nouvelle page et insérez un paragraphe d'un style spécifié.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

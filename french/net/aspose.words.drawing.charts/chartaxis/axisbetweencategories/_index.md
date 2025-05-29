@@ -3,7 +3,7 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words pour .NET
-description: ChartAxis AxisBetweenCategories propriété. Obtient ou définit un indicateur indiquant si laxe des valeurs croise laxe des catégories entre les catégories en C#.
+description: Découvrez la propriété ChartAxis AxisBetweenCategories : contrôlez le positionnement des axes de valeurs pour une meilleure visualisation des catégories dans vos graphiques. Optimisez la présentation de vos données !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
@@ -18,11 +18,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ## Remarques
 
-La propriété n'a d'effet que pour les axes de valeurs. Il n'est pas pris en charge par les nouveaux graphiques MS Office 2016.
+Cette propriété n'a d'effet que sur les axes de valeurs. Elle n'est pas prise en charge par les nouveaux graphiques de MS Office 2016.
 
 ## Exemples
 
-Montre comment faire croiser un axe graphique à un emplacement personnalisé.
+Montre comment faire en sorte qu'un axe de graphique se croise à un emplacement personnalisé.
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Pour les histogrammes, l'axe Y passe à zéro par défaut,
-// ce qui signifie que les colonnes de toutes les valeurs inférieures à zéro pointent vers le bas pour représenter des valeurs négatives.
-// Nous pouvons définir une valeur différente pour le croisement de l'axe Y. Dans ce cas, nous le fixerons à 3.
+// Pour les graphiques à colonnes, l'axe Y se croise à zéro par défaut,
+// ce qui signifie que les colonnes pour toutes les valeurs inférieures à zéro pointent vers le bas pour représenter les valeurs négatives.
+// Nous pouvons définir une valeur différente pour le croisement de l'axe Y. Dans ce cas, nous la définirons à 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

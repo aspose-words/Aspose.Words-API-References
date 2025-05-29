@@ -3,14 +3,14 @@ title: FontInfo.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: FontInfo Name proprietà. Ottiene il nome del carattere in C#.
+description: Scopri la proprietà Nome FontInfo per accedere facilmente ai nomi dei font e utilizzarli per una tipografia migliorata nei tuoi progetti.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/aspose.words.fonts/fontinfo/name/
 ---
 ## FontInfo.Name property
 
-Ottiene il nome del carattere.
+Ottiene il nome del font.
 
 ```csharp
 public string Name { get; }
@@ -18,17 +18,17 @@ public string Name { get; }
 
 ## Osservazioni
 
-Non può essere`nullo`. Può essere una stringa vuota.
+Non può essere`null`Può essere una stringa vuota.
 
 ## Esempi
 
-Mostra come stampare i dettagli di quali caratteri sono presenti in un documento.
+Mostra come stampare i dettagli dei font presenti in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
 FontInfoCollection allFonts = doc.FontInfos;
-// Stampa tutti i font usati e non utilizzati nel documento.
+// Stampa tutti i font utilizzati e non utilizzati nel documento.
 for (int i = 0; i < allFonts.Count; i++)
 {
     Console.WriteLine($"Font index #{i}");

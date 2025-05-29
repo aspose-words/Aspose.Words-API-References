@@ -3,7 +3,7 @@ title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
 second_title: Aspose.Words pour .NET
-description: Fill BackTintAndShade propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur darrièreplan en C#.
+description: Ajustez la propriété BackTintAndShade pour éclaircir ou assombrir sans effort votre couleur d'arrière-plan, améliorant ainsi l'attrait visuel et l'expérience utilisateur de votre conception.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/fill/backtintandshade/
@@ -16,9 +16,17 @@ Obtient ou définit une valeur double qui éclaircit ou assombrit la couleur d'a
 public double BackTintAndShade { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Lancer si cette propriété est définie sur une valeur inférieure à -1 ou supérieure à 1. |
+
 ## Remarques
 
-Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîneArgumentOutOfRangeException.
+Les valeurs autorisées sont comprises entre -1 (la plus foncée) et 1 (la plus claire) pour cette propriété.
+
+Zéro (0) est neutre.
 
 ## Exemples
 
@@ -34,7 +42,7 @@ Fill fill = shape.Fill;
 fill.ForeThemeColor = ThemeColor.Dark1;
 fill.BackThemeColor = ThemeColor.Background2;
 
-// Remarque : n'utilisez pas "BackThemeColor" et "BackTintAndShade" pour le remplissage de la police.
+// Remarque : n'utilisez pas « BackThemeColor » et « BackTintAndShade » pour le remplissage de la police.
 if (fill.BackTintAndShade == 0)
     fill.BackTintAndShade = 0.2;
 

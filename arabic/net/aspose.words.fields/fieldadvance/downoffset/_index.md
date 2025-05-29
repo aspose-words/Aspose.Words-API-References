@@ -3,14 +3,14 @@ title: FieldAdvance.DownOffset
 linktitle: DownOffset
 articleTitle: DownOffset
 second_title: Aspose.Words لـ .NET
-description: FieldAdvance DownOffset ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل إلى الأسفل في C#.
+description: اكتشف خاصية FieldAdvance DownOffset، وقم بتعديل موضع النص بسهولة مع التحكم الدقيق في التباعد الرأسي لتحسين تنسيق المستندات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldadvance/downoffset/
 ---
 ## FieldAdvance.DownOffset property
 
-الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل إلى الأسفل.
+يحصل على عدد النقاط التي يجب أن يتحرك بها النص الذي يلي الحقل إلى الأسفل أو يعينه.
 
 ```csharp
 public string DownOffset { get; set; }
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يتبعه.
-// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة،
-// أو حقل ADVANCE آخر يقوم بتحديث قيم الإزاحة/الإحداثيات.
-// 1 - تحديد إزاحة الاتجاه:
+// فيما يلي طريقتان لاستخدام الحقل ADVANCE لتعديل موضع النص الذي يليه.
+// تستمر تأثيرات حقل ADVANCE في التطبيق حتى نهاية الفقرة،
+// أو يقوم حقل ADVANCE آخر بتحديث قيم الإزاحة/الإحداثيات.
+// 1 - تحديد الإزاحة الاتجاهية:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - نقل النص إلى الموضع المحدد بالإحداثيات:
+// 2 - نقل النص إلى موضع محدد بواسطة الإحداثيات:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

@@ -2,15 +2,15 @@
 title: Shape.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
-second_title: 用于 .NET 的 Aspose.Words
-description: Shape FirstParagraph 财产. 获取形状中的第一段 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松检索形状的第一段。使用我们简单易用的“形状第一段”功能，优化文档布局。
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.drawing/shape/firstparagraph/
 ---
 ## Shape.FirstParagraph property
 
-获取形状中的第一段。
+获取形状中的第一个段落。
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## 例子
 
-演示如何创建文本框并设置其格式。
+展示如何创建和格式化文本框。
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// 将一个段落添加到文本框并添加文本框将显示的一系列文本。
+// 向文本框添加一个段落并添加文本框将显示的一段文本。
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

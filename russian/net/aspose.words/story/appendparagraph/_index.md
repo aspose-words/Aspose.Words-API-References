@@ -3,14 +3,14 @@ title: Story.AppendParagraph
 linktitle: AppendParagraph
 articleTitle: AppendParagraph
 second_title: Aspose.Words для .NET
-description: Story AppendParagraph метод. Ярлык метода создающийParagraph объект с необязательным текстом и добавляет его в конец этого объекта на С#.
+description: Откройте для себя метод Story AppendParagraph, легко создавайте и добавляйте объект Paragraph с настраиваемым текстом для бесшовного улучшения документа.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-Ярлык метода, создающий[`Paragraph`](../../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта.
+Метод быстрого доступа, который создает[`Paragraph`](../../paragraph/) объект с необязательным текстом и добавляет его в конец этого объекта.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -18,7 +18,7 @@ public Paragraph AppendParagraph(string text)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| text | String | Текст абзаца. Возможно`нулевой` или пустая строка. |
+| text | String | Текст для абзаца. Может быть`нулевой` или пустая строка. |
 
 ### Возвращаемое значение
 
@@ -26,13 +26,13 @@ public Paragraph AppendParagraph(string text)
 
 ## Примеры
 
-Показывает, как создать верхний и нижний колонтитулы.
+Показывает, как создать верхний и нижний колонтитул.
 
 ```csharp
 Document doc = new Document();
 
 // Создаем заголовок и добавляем к нему абзац. Текст в этом абзаце
-// появится вверху каждой страницы этого раздела, над основным текстом.
+// будет отображаться в верхней части каждой страницы этого раздела, над основным текстом.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -42,7 +42,7 @@ Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
 // Создаем нижний колонтитул и добавляем к нему абзац. Текст в этом абзаце
-// появится внизу каждой страницы этого раздела, под основным текстом.
+// будет отображаться внизу каждой страницы этого раздела, под основным текстом.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

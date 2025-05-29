@@ -3,14 +3,14 @@ title: ChartAxis.HasMajorGridlines
 linktitle: HasMajorGridlines
 articleTitle: HasMajorGridlines
 second_title: Aspose.Words für .NET
-description: ChartAxis HasMajorGridlines eigendom. Ruft ein Flag ab oder setzt es das angibt ob die Achse über Hauptgitterlinien verfügt in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis HasMajorGridlines“, um die Hauptgitternetzlinien Ihrer Diagramme einfach zu verwalten und so die Datenvisualisierung und -übersichtlichkeit zu verbessern.
 type: docs
-weight: 80
+weight: 90
 url: /de/net/aspose.words.drawing.charts/chartaxis/hasmajorgridlines/
 ---
 ## ChartAxis.HasMajorGridlines property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob die Achse über Hauptgitterlinien verfügt.
+Ruft ein Flag ab oder legt es fest, das angibt, ob die Achse über Hauptgitternetzlinien verfügt.
 
 ```csharp
 public bool HasMajorGridlines { get; set; }
@@ -39,12 +39,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -53,9 +53,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

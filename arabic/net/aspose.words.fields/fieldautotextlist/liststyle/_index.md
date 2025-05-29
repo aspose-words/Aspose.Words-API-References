@@ -3,14 +3,14 @@ title: FieldAutoTextList.ListStyle
 linktitle: ListStyle
 articleTitle: ListStyle
 second_title: Aspose.Words لـ .NET
-description: FieldAutoTextList ListStyle ملكية. الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات في C#.
+description: اكتشف خاصية FieldAutoTextList ListStyle لتخصيص قوائم إدخالاتك بسهولة. حسّن محتواك بأنماط مُخصصة اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldautotextlist/liststyle/
 ---
 ## FieldAutoTextList.ListStyle property
 
-الحصول على أو تعيين اسم النمط الذي تعتمد عليه القائمة التي تحتوي على إدخالات.
+يحصل على اسم النمط الذي تعتمد عليه القائمة التي تحتوي على الإدخالات أو يعينه.
 
 ```csharp
 public string ListStyle { get; set; }
@@ -25,7 +25,7 @@ public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // قم بإنشاء مستند معجم وقم بتعبئته بإدخالات نصية تلقائية.
+    // قم بإنشاء مستند مسرد وقم بملئه بإدخالات نصية تلقائية.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أنشئ حقل قائمة نصوص تلقائية وقم بتعيين النص الذي سيعرضه الحقل في Microsoft Word.
-    // قم بتعيين النص لمطالبة المستخدم بالنقر بزر الماوس الأيمن فوق هذا الحقل لتحديد كتلة إنشاء النص التلقائي،
+    // قم بإنشاء حقل AUTOTEXTLIST وحدد النص الذي سيعرضه الحقل في Microsoft Word.
+    // تعيين النص ليطلب من المستخدم النقر بزر الماوس الأيمن على هذا الحقل لتحديد كتلة بناء النص التلقائي،
     // الذي سيتم عرض محتوياته في الحقل.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// قم بإنشاء كتلة إنشاء من نوع النص التلقائي وأضفها إلى مستند المسرد.
+/// قم بإنشاء كتلة بناء من نوع النص التلقائي وأضفها إلى مستند المصطلحات.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

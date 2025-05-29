@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.OriginalUri
 linktitle: OriginalUri
 articleTitle: OriginalUri
 second_title: Aspose.Words per .NET
-description: ResourceLoadingArgs OriginalUri proprietà. URI originale della risorsa come specificato nel documento importato in C#.
+description: Scopri la proprietà OriginalUri di ResourceLoadingArgs: accedi all'URI originale delle risorse dai documenti importati per una gestione semplificata dei dati.
 type: docs
 weight: 10
 url: /it/net/aspose.words.loading/resourceloadingargs/originaluri/
@@ -18,7 +18,7 @@ public string OriginalUri { get; }
 
 ## Esempi
 
-Mostra come personalizzare il processo di caricamento delle risorse esterne in un documento.
+Mostra come personalizzare il processo di caricamento di risorse esterne in un documento.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -28,7 +28,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Le immagini solitamente vengono inserite utilizzando un URI o un array di byte.
+    // Le immagini vengono solitamente inserite tramite un URI o un array di byte.
     // Ogni istanza di caricamento di una risorsa chiamerà il metodo ResourceLoading del nostro callback.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,14 +40,14 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Ci consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
-/// Ciò separerà la logica di caricamento dell'immagine dal resto della costruzione del documento.
+/// Consente di caricare immagini in un documento utilizzando abbreviazioni predefinite, anziché URI.
+/// In questo modo la logica di caricamento delle immagini verrà separata dal resto della costruzione del documento.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Se questo callback incontra una delle scorciatoie dell'immagine durante il caricamento di un'immagine,
+        // Se questo callback incontra una delle abbreviazioni dell'immagine durante il caricamento di un'immagine,
         // applicherà una logica univoca per ogni abbreviazione definita invece di trattarla come un URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)

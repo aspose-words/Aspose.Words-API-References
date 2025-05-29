@@ -3,14 +3,14 @@ title: SectionLayoutMode Enum
 linktitle: SectionLayoutMode
 articleTitle: SectionLayoutMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.SectionLayoutMode enum. Specifica la modalità di layout per una sezione consentendo di definire il comportamento della griglia del documento in C#.
+description: Scopri l'enum Aspose.Words.SectionLayoutMode per ottimizzare i layout delle sezioni e migliorare il comportamento della griglia del documento per un controllo migliore della formattazione.
 type: docs
-weight: 5750
+weight: 6580
 url: /it/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
 
-Specifica la modalità di layout per una sezione consentendo di definire il comportamento della griglia del documento.
+Specifica la modalità di layout per una sezione che consente di definire il comportamento della griglia del documento.
 
 ```csharp
 public enum SectionLayoutMode
@@ -20,24 +20,24 @@ public enum SectionLayoutMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Default | `0` | Specifica che non verrà applicata alcuna griglia del documento al contenuto della sezione corrispondente del documento. |
-| Grid | `1` | Specifica che la sezione corrispondente avrà sia il passo di riga aggiuntivo che il passo di carattere aggiunti a ciascuna riga e carattere al suo interno per mantenere un numero specifico di righe per pagina e caratteri per riga. I caratteri non verranno allineati automaticamente con le linee della griglia su digitando. |
-| LineGrid | `2` | Specifica che la sezione corrispondente avrà un passo di riga aggiuntivo aggiunto a ciascuna riga al suo interno per mantenere il numero specificato di righe per pagina. |
-| SnapToChars | `3` | Specifica che la sezione corrispondente dovrà avere sia il passo di riga aggiuntivo che il passo di carattere aggiunti a ciascuna riga e carattere al suo interno per mantenere un numero specifico di righe per pagina e caratteri per riga. I caratteri verranno allineati automaticamente alla griglia durante la digitazione. |
+| Default | `0` | Specifica che nessuna griglia del documento verrà applicata al contenuto della sezione corrispondente nel documento. |
+| Grid | `1` | Specifica che alla sezione corrispondente dovranno essere aggiunti sia il passo di riga che il passo di carattere a ogni riga e carattere al suo interno per mantenere un numero specifico di righe per pagina e di caratteri per riga. I caratteri non verranno allineati automaticamente con le linee della griglia durante la digitazione. |
+| LineGrid | `2` | Specifica che alla sezione corrispondente verrà aggiunto un ulteriore passo di riga per ogni riga al suo interno per mantenere il numero specificato di righe per pagina. |
+| SnapToChars | `3` | Specifica che alla sezione corrispondente dovranno essere aggiunti sia il passo di riga che il passo di carattere a ogni riga e carattere al suo interno, in modo da mantenere un numero specifico di righe per pagina e di caratteri per riga. I caratteri verranno allineati automaticamente con le linee della griglia durante la digitazione. |
 
 ## Esempi
 
-Mostra come specificare a per il numero di caratteri che ciascuna riga può contenere.
+Mostra come specificare il numero di caratteri che ogni riga può contenere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Abilita il pitching, quindi utilizzalo per impostare il numero di caratteri per riga in questa sezione.
+// Abilita il pitching e poi usalo per impostare il numero di caratteri per riga in questa sezione.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Il numero di caratteri dipende anche dalla dimensione del carattere.
+// Il numero di caratteri dipende anche dalla dimensione del font.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -47,14 +47,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Mostra come specificare un limite per il numero di righe che ogni pagina può avere.
+Mostra come specificare un limite per il numero di righe che ogni pagina può contenere.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Abilita il pitching, quindi utilizzalo per impostare il numero di righe per pagina in questa sezione.
-// Una dimensione del carattere sufficientemente grande spingerà alcune righe verso il basso nella pagina successiva per evitare la sovrapposizione dei caratteri.
+// Abilita il pitching e poi usalo per impostare il numero di righe per pagina in questa sezione.
+// Una dimensione del carattere sufficientemente grande sposterà alcune righe sulla pagina successiva per evitare la sovrapposizione di caratteri.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

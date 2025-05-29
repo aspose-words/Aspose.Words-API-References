@@ -3,14 +3,14 @@ title: Fill.GradientVariant
 linktitle: GradientVariant
 articleTitle: GradientVariant
 second_title: Aspose.Words para .NET
-description: Fill GradientVariant propiedad. Obtiene la variante de gradienteGradientVariant para el relleno en C#.
+description: Descubre cómo configurar la propiedad GradientVariant para obtener efectos de relleno espectaculares. ¡Mejora tu diseño con vibrantes opciones de degradado hoy mismo!
 type: docs
-weight: 120
+weight: 130
 url: /es/net/aspose.words.drawing/fill/gradientvariant/
 ---
 ## Fill.GradientVariant property
 
-Obtiene la variante de gradiente[`GradientVariant`](../../gradientvariant/) para el relleno.
+Obtiene la variante de degradado[`GradientVariant`](../../gradientvariant/) para el relleno.
 
 ```csharp
 public GradientVariant GradientVariant { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -39,7 +39,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());

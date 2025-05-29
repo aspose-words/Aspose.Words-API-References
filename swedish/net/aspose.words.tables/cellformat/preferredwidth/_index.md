@@ -3,14 +3,14 @@ title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words för .NET
-description: CellFormat PreferredWidth fast egendom. Returnerar eller ställer in önskad bredd på cellen i C#.
+description: Upptäck egenskapen CellFormat PreferredWidth för att enkelt anpassa cellbredder för optimal layout och design i dina kalkylblad. Förbättra din datapresentation!
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
 
-Returnerar eller ställer in önskad bredd på cellen.
+Returnerar eller anger önskad cellbredd.
 
 ```csharp
 public PreferredWidth PreferredWidth { get; set; }
@@ -18,15 +18,15 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Anmärkningar
 
-Den föredragna bredden (tillsammans med tabellens Autopassningsalternativ) bestämmer hur den faktiska bredden på cellen beräknas av tabelllayoutalgoritmen. Tabelllayout kan utföras av Aspose.Words när det sparar dokumentet eller av Microsoft Word när det visar dokumentet.
+Den önskade bredden (tillsammans med tabellens alternativ för automatisk anpassning) avgör hur cellens faktiska bredd beräknas av tabellens layoutalgoritm. Tabelllayout kan utföras av Aspose.Words när dokumentet sparas eller av Microsoft Word när dokumentet visas.
 
-Den föredragna bredden kan anges i punkter eller i procent. Den föredragna width kan också anges som "auto", vilket betyder att ingen föredragen bredd är angiven.
+Den önskade bredden kan anges i punkter eller i procent. Den önskade width kan också anges som "auto", vilket innebär att ingen önskad bredd anges.
 
 Standardvärdet är[`Auto`](../../preferredwidth/auto/).
 
 ## Exempel
 
-Visar hur man ställer in en föredragen bredd för tabellceller.
+Visar hur man anger en önskad bredd för tabellceller.
 
 ```csharp
 Document doc = new Document();
@@ -34,13 +34,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // Det finns två sätt att tillämpa klassen "PreferredWidth" på tabellceller.
-// 1 - Ställ in en absolut föredragen bredd baserat på punkter:
+// 1 - Ange en absolut önskad bredd baserat på punkter:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - Ställ in en relativ föredragen bredd baserat på procent av tabellens bredd:
+// 2 - Ange en relativ önskad bredd baserat på procentandel av tabellens bredd:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -48,7 +48,7 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// En cell utan angiven önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
+// En cell utan specificerad önskad bredd kommer att ta upp resten av det tillgängliga utrymmet.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Varje konfiguration av egenskapen "PreferredWidth" skapar ett nytt objekt.

@@ -3,14 +3,14 @@ title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 linktitle: HeaderFooterBookmarksExportMode
 articleTitle: HeaderFooterBookmarksExportMode
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions HeaderFooterBookmarksExportMode fast egendom. Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras i C#.
+description: Upptäck hur egenskapen PdfSaveOptions HeaderFooterBookmarksExportMode optimerar bokmärkesexport i sidhuvuden och sidfötter för förbättrad PDF-funktionalitet.
 type: docs
 weight: 180
 url: /sv/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-Bestämmer hur bokmärken i sidhuvuden/sidfötter exporteras.
+Bestämmer hur bokmärken i sidhuvuden/sidfot exporteras.
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -20,7 +20,7 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 Standardvärdet ärAll.
 
-Denna egenskap används i samband med[`OutlineOptions`](../outlineoptions/) alternativ.
+Denna egenskap används tillsammans med[`OutlineOptions`](../outlineoptions/) alternativ.
 
 ## Exempel
 
@@ -29,23 +29,23 @@ Visar att bearbeta bokmärken i sidhuvuden/sidfötter i ett dokument som vi rend
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Ställ in "PageMode"-egenskapen till "PdfPageMode.UseOutlines" för att visa konturnavigeringsfönstret i utdata-PDF-filen.
+// Ställ in egenskapen "PageMode" till "PdfPageMode.UseOutlines" för att visa dispositionsnavigeringsfönstret i den utgående PDF-filen.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Ställ in egenskapen "DefaultBookmarksOutlineLevel" till "1" för att visa alla
-// bokmärken på den första nivån av konturen i utdata-PDF.
+// Sätt egenskapen "DefaultBookmarksOutlineLevel" till "1" för att visa alla
+// bokmärken på den första nivån av dispositionen i den utgående PDF-filen.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Ställ in egenskapen "HeaderFooterBookmarksExportMode" till "HeaderFooterBookmarksExportMode.None" till
-// exportera inte några bokmärken som finns i sidhuvuden/sidfötter.
+// Ställ in egenskapen "HeaderFooterBookmarksExportMode" till "HeaderFooterBookmarksExportMode.None"
+// exportera inte några bokmärken som finns inuti sidhuvuden/sidfoten.
 // Ställ in egenskapen "HeaderFooterBookmarksExportMode" till "HeaderFooterBookmarksExportMode.First" till
-// exportera endast bokmärken i det första avsnittets sidhuvud/sidfötter.
+// exportera endast bokmärken i den första sektionens sidhuvud/sidfot.
 // Ställ in egenskapen "HeaderFooterBookmarksExportMode" till "HeaderFooterBookmarksExportMode.All" till
-// exportera bokmärken som finns i alla sidhuvuden/sidfötter.
+// exportera bokmärken som finns i alla sidhuvuden/sidfot.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

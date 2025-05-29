@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: DocumentPropertyCollection Count fast egendom. Får antal föremål i samlingen i C#.
+description: Upptäck egenskapen DocumentPropertyCollection Count för att enkelt hämta antalet objekt i din samling för effektiv datahantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.properties/documentpropertycollection/count/
 ---
 ## DocumentPropertyCollection.Count property
 
-Får antal föremål i samlingen.
+Hämtar antalet objekt i samlingen.
 
 ```csharp
 public int Count { get; }
@@ -23,7 +23,7 @@ Visar hur man arbetar med anpassade dokumentegenskaper.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Varje dokument innehåller en samling anpassade egenskaper, som, liksom de inbyggda egenskaperna, är nyckel-värdepar.
+// Varje dokument innehåller en samling anpassade egenskaper, vilka, liksom de inbyggda egenskaperna, är nyckel-värde-par.
  // Dokumentet har en fast lista med inbyggda egenskaper. Användaren skapar alla anpassade egenskaper.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 

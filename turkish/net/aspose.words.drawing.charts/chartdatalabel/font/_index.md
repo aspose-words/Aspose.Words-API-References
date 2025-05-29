@@ -2,15 +2,15 @@
 title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
-second_title: Aspose.Words for .NET
-description: ChartDataLabel Font mülk. Bu veri etiketinin yazı tipi formatına erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş görsel çekicilik ve netlik için veri etiketlerinizin yazı tipi biçimlendirmesini kolayca özelleştirmek üzere ChartDataLabel Yazı Tipi özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 ## ChartDataLabel.Font property
 
-Bu veri etiketinin yazı tipi formatına erişim sağlar.
+Bu veri etiketinin yazı tipi biçimlendirmesine erişim sağlar.
 
 ```csharp
 public Font Font { get; }
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Örnekler
 
-Kabarcık grafikleriyle 3B efektlerin nasıl kullanılacağını gösterir.
+3D efektlerin balon grafikleriyle nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Çapını gösteren her baloncuğa bir veri etiketi uygulayın.
+// Her baloncuğa çapını gösteren bir veri etiketi uygulayın.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

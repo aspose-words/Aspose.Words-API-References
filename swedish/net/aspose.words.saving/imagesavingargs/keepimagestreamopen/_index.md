@@ -3,7 +3,7 @@ title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
 second_title: Aspose.Words för .NET
-description: ImageSavingArgs KeepImageStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att en bild har sparats i C#.
+description: Upptäck egenskapen KeepImageStreamOpen i ImageSavingArgs för Aspose.Words. Kontrollera strömmens beteende för effektiv bildsparning och förbättrad prestanda.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
@@ -18,18 +18,18 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## Anmärkningar
 
-Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`ImageStream`](../imagestream/) egenskap efter att ha skrivit in en bild i den. Specificera`Sann` för att hålla strömmen öppen.
+Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`ImageStream`](../imagestream/) egenskap efter att en bild skrivits in i den. Ange`sann` för att hålla strömmen öppen.
 
 ## Exempel
 
-Visar hur man involverar en bildsparande återuppringning i en HTML-konverteringsprocess.
+Visar hur man inkluderar en återanropsfunktion för att spara bilder i en HTML-konverteringsprocess.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återuppringning
+    // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt för att ange en återanropning
     // för att anpassa processen för att spara bilder.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -38,8 +38,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Skriver ut egenskaperna för varje bild när sparprocessen sparar den i en bildfil i det lokala filsystemet
-/// under exporten av ett dokument till HTML.
+/// Skriver ut egenskaperna för varje bild medan sparprocessen sparar den till en bildfil i det lokala filsystemet
+/// under export av ett dokument till HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

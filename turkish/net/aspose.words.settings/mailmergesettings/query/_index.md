@@ -2,15 +2,15 @@
 title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
-second_title: Aspose.Words for .NET
-description: MailMergeSettings Query mülk. Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz posta birleştirme işlemleri için harici veri kaynaklarından kayıtları etkili bir şekilde içe aktarmak amacıyla MailMergeSettings Sorgu özelliğinden nasıl yararlanacağınızı keşfedin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-Adres mektup birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir.
+Posta birleştirme işlemi gerçekleştirildiğinde belgeye aktarılacak kayıt kümesini döndürmek için belirtilen harici veri kaynağına karşı çalıştırılacak Yapılandırılmış Sorgu Dili dizesini içerir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string Query { get; set; }
@@ -18,7 +18,7 @@ public string Query { get; set; }
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

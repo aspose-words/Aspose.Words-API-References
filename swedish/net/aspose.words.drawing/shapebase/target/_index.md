@@ -3,14 +3,14 @@ title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words för .NET
-description: ShapeBase Target fast egendom. Hämtar eller ställer in målramen för formhyperlänken i C#.
+description: Upptäck ShapeBase Target-egenskapen för att enkelt ställa in eller hämta hyperlänkmålramar för dina former, vilket förbättrar användarnavigeringen och upplevelsen.
 type: docs
-weight: 520
+weight: 560
 url: /sv/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
 
-Hämtar eller ställer in målramen för formhyperlänken.
+Hämtar eller ställer in målramen för formens hyperlänk.
 
 ```csharp
 public string Target { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är en tom sträng.
 
 ## Exempel
 
-Visar hur man infogar en form som innehåller en bild och är också en hyperlänk.
+Visar hur man infogar en form som innehåller en bild och som också är en hyperlänk.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + vänsterklicka på formen i Microsoft Word öppnar ett nytt webbläsarfönster
-// och ta oss till hyperlänken i egenskapen "HRef".
+// och tar oss till hyperlänken i egenskapen "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

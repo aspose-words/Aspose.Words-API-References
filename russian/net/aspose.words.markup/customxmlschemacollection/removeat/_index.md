@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: CustomXmlSchemaCollection RemoveAt метод. Удаляет значение по указанному индексу на С#.
+description: Управляйте CustomXmlSchemaCollection без усилий с помощью метода RemoveAt — быстро удаляйте значения по индексу для оптимизированной обработки данных.
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/customxmlschemacollection/removeat/
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## Примеры
 
-Показывает, как работать с коллекцией схем XML.
+Показывает, как работать с коллекцией XML-схем.
 
 ```csharp
 Document doc = new Document();
@@ -31,11 +31,11 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Добавляем ассоциацию схемы XML.
+// Добавить ассоциацию схемы XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
-// Клонируем коллекцию ассоциаций схем XML пользовательской части XML,
-// а затем добавим в клон пару новых схем.
+// Клонировать коллекцию ассоциаций XML-схемы пользовательской XML-части,
+// а затем добавляем в клон пару новых схем.
 CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
@@ -43,7 +43,7 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Перечисляем схемы и печатаем каждый элемент.
+// Перечислить схемы и вывести каждый элемент.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -57,7 +57,7 @@ schemas.RemoveAt(2);
 // 2 - Удалить схему по значению:
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Используйте метод «Очистить», чтобы сразу очистить коллекцию.
+// 3 - Используйте метод «Очистить», чтобы очистить коллекцию сразу.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

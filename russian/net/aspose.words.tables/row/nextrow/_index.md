@@ -3,7 +3,7 @@ title: Row.NextRow
 linktitle: NextRow
 articleTitle: NextRow
 second_title: Aspose.Words для .NET
-description: Row NextRow свойство. Получает следующийRow узел на С#.
+description: Откройте для себя свойство NextRow, чтобы легко получить доступ к следующему узлу строки, улучшив навигацию по данным и управление ими.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/row/nextrow/
@@ -18,7 +18,7 @@ public Row NextRow { get; }
 
 ## Примечания
 
-Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к строкам таблицы. Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)узел найден в таблице, а не в строке, он автоматически просматривается для получения строки, содержащейся внутри.
+Метод можно использовать, когда вам нужен типизированный доступ к строкам таблицы. Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в таблице вместо строки, он автоматически просматривается, чтобы получить строку, содержащуюся в.
 
 ## Примеры
 

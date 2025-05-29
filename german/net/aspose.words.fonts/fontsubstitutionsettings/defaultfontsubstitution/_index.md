@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
 second_title: Aspose.Words für .NET
-description: FontSubstitutionSettings DefaultFontSubstitution eigendom. Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarten in C#.
+description: Entdecken Sie, wie die Eigenschaft „DefaultFontSubstitution“ die Schrifteinstellungen für eine nahtlose Typografie optimiert. Verbessern Sie Ihr Design mit effektiven Regeln zur Schriftartersetzung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Einstellungen im Zusammenhang mit der Standardregel zum Ersetzen von Schriftarten.
+Einstellungen im Zusammenhang mit der Standardregel zur Schriftartersetzung.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -18,25 +18,25 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ## Beispiele
 
-Zeigt, wie die Standardregel zum Ersetzen von Schriftarten festgelegt wird.
+Zeigt, wie die Standardregel zur Schriftartersetzung festgelegt wird.
 
 ```csharp
 Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Die Standardersetzungsregel in FontSettings abrufen.
+// Holen Sie sich die Standard-Ersetzungsregel innerhalb von FontSettings.
 // Diese Regel ersetzt alle fehlenden Schriftarten durch „Times New Roman“.
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Setzen Sie den Standardschriftersatz auf „Courier New“.
+// Legen Sie den Standardschriftersatz auf „Courier New“ fest.
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Fügen Sie mithilfe eines Dokumenterstellungsprogramms Text in einer Schriftart hinzu, die wir nicht benötigen, damit die Ersetzung stattfindet.
-// und dann das Ergebnis in einem PDF rendern.
+// Fügen Sie mithilfe eines Dokumentgenerators Text in einer Schriftart hinzu, die wir nicht benötigen, damit die Ersetzung sichtbar wird.
+// und rendern Sie dann das Ergebnis in einem PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

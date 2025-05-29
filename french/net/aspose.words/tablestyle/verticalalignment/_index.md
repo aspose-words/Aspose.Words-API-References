@@ -3,7 +3,7 @@ title: TableStyle.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words pour .NET
-description: TableStyle VerticalAlignment propriété. Spécifie lalignement vertical des cellules en C#.
+description: Découvrez la propriété TableStyle VerticalAlignment pour contrôler sans effort l'alignement des cellules dans vos tableaux, améliorant ainsi la lisibilité et la présentation.
 type: docs
 weight: 150
 url: /fr/net/aspose.words/tablestyle/verticalalignment/
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// La définition des propriétés de style d'un tableau peut affecter les propriétés du tableau lui-même.
+// La définition des propriétés de style d'une table peut affecter les propriétés de la table elle-même.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

@@ -3,14 +3,14 @@ title: LoadOptions.PreserveIncludePictureField
 linktitle: PreserveIncludePictureField
 articleTitle: PreserveIncludePictureField
 second_title: Aspose.Words لـ .NET
-description: LoadOptions PreserveIncludePictureField ملكية. الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بحقل INCLUDEPICTURE عند قراءة تنسيقات Microsoft Word. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تحكم في حقل INCLUDEPICTURE بتنسيقات Microsoft Word باستخدام LoadOptions PreserveIncludePictureField. أدر تنسيق المستندات بسهولة لتحقيق أفضل النتائج.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.loading/loadoptions/preserveincludepicturefield/
 ---
 ## LoadOptions.PreserveIncludePictureField property
 
-الحصول على أو تعيين ما إذا كان سيتم الاحتفاظ بحقل INCLUDEPICTURE عند قراءة تنسيقات Microsoft Word. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على أو يعين ما إذا كان سيتم الاحتفاظ بحقل INCLUDEPICTURE عند قراءة تنسيقات Microsoft Word. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool PreserveIncludePictureField { get; set; }
@@ -18,9 +18,9 @@ public bool PreserveIncludePictureField { get; set; }
 
 ## ملاحظات
 
-بشكل افتراضي، يتم تحويل الحقل INCLUDEPICTURE إلى كائن شكل. يمكنك تجاوز ذلك إذا كنت تحتاج إلى الحقل المراد الاحتفاظ به، على سبيل المثال، إذا كنت ترغب في تحديثه برمجيًا. ومع ذلك، لاحظ أن أسلوب this ليس شائعًا في Aspose.Words. استخدامه على مسؤوليتك الخاصة.
+افتراضيًا، يتم تحويل حقل INCLUDEPICTURE إلى كائن شكل. يمكنك تجاوز ذلك إذا كنت بحاجة إلى حفظ الحقل باستخدام ، على سبيل المثال، إذا كنت ترغب في تحديثه برمجيًا. مع ذلك، تجدر الإشارة إلى أن هذا النهج ليس شائعًا في Aspose.Words. استخدمه على مسؤوليتك الخاصة.
 
-قد تكون إحدى حالات الاستخدام المحتملة هي استخدام MERGEFIELD كحقل فرعي لتغيير مسار المصدر للصورة ديناميكيًا. في هذه الحالة تحتاج إلى حفظ INCLUDEPICTURE في النموذج.
+من الممكن استخدام حقل MERGEFIELD كحقل فرعي لتغيير مسار المصدر path للصورة ديناميكيًا. في هذه الحالة، يجب حفظ INCLUDEPICTURE في النموذج.
 
 ## أمثلة
 
@@ -39,7 +39,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // يمكننا تعيين علامة في كائن LoadOptions لتحديد ما إذا كان سيتم تحويل جميع حقول INCLUDEPICTURE
-    // إلى أشكال الصور عند تحميل مستند يحتوي عليها.
+    // في أشكال الصور عند تحميل مستند يحتوي عليها.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

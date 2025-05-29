@@ -3,7 +3,7 @@ title: FieldFormCheckBox
 linktitle: FieldFormCheckBox
 articleTitle: FieldFormCheckBox
 second_title: Aspose.Words для .NET
-description: FieldFormCheckBox строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldFormCheckBox для бесшовной интеграции форм. Улучшите пользовательский опыт с помощью нашего интуитивного дизайна и надежной функциональности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldformcheckbox/fieldformcheckbox/

@@ -3,7 +3,7 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words pour .NET
-description: PreferredWidth Type propriété. Obtient lunité de mesure utilisée pour cette valeur de largeur préférée en C#.
+description: Découvrez la propriété PreferredWidth Type, qui définit l'unité de mesure des valeurs de largeur préférées, améliorant ainsi la précision et la flexibilité de votre conception.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.tables/preferredwidth/type/
@@ -18,7 +18,7 @@ public PreferredWidthType Type { get; }
 
 ## Exemples
 
-Montre comment vérifier le type de largeur préféré et la valeur d’une cellule de tableau.
+Montre comment vérifier le type de largeur et la valeur préférés d'une cellule de tableau.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

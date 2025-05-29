@@ -3,14 +3,14 @@ title: Shape.OleFormat
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words para .NET
-description: Shape OleFormat propiedad. Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o control ActiveX devuelvenulo  en C#.
+description: Acceda y administre fácilmente la propiedad OleFormat de las formas. Recupere datos OLE para una funcionalidad mejorada, con retorno nulo para objetos no OLE.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.drawing/shape/oleformat/
 ---
 ## Shape.OleFormat property
 
-Proporciona acceso a los datos OLE de una forma. Para una forma que no es un objeto OLE o control ActiveX, devuelve`nulo` .
+Proporciona acceso a los datos OLE de una forma. Para una forma que no sea un objeto OLE ni un control ActiveX, devuelve`nulo` .
 
 ```csharp
 public OleFormat OleFormat { get; }
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

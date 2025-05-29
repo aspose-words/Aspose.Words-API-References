@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: DocumentPropertyCollection Count propriété. Obtient le nombre déléments dans la collection en C#.
+description: Découvrez la propriété DocumentPropertyCollection Count pour récupérer sans effort le nombre d'éléments de votre collection pour une gestion efficace des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.properties/documentpropertycollection/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Exemples
 
-Montre comment utiliser les propriétés de document personnalisées.
+Montre comment travailler avec les propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Chaque document contient une collection de propriétés personnalisées qui, comme les propriétés intégrées, sont des paires clé-valeur.
- // Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
+ // Le document possède une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

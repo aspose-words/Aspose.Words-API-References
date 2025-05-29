@@ -3,14 +3,14 @@ title: FieldAsk.DefaultResponse
 linktitle: DefaultResponse
 articleTitle: DefaultResponse
 second_title: Aspose.Words per .NET
-description: FieldAsk DefaultResponse proprietà. Ottiene o imposta la risposta utente predefinita valore iniziale contenuto nella finestra del prompt in C#.
+description: Scopri la proprietà DefaultResponse di FieldAsk. Gestisci facilmente le risposte iniziali degli utenti nelle finestre di prompt per migliorare l'interazione e semplificare i flussi di lavoro.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldask/defaultresponse/
 ---
 ## FieldAsk.DefaultResponse property
 
-Ottiene o imposta la risposta utente predefinita (valore iniziale contenuto nella finestra del prompt).
+Ottiene o imposta la risposta predefinita dell'utente (valore iniziale contenuto nella finestra del prompt).
 
 ```csharp
 public string DefaultResponse { get; set; }
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

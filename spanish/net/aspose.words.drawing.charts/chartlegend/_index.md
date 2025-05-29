@@ -3,16 +3,16 @@ title: ChartLegend Class
 linktitle: ChartLegend
 articleTitle: ChartLegend
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartLegend clase. Representa las propiedades de la leyenda del gráfico en C#.
+description: Descubra la clase Aspose.Words.Drawing.Charts.ChartLegend para mejorar sus gráficos con propiedades de leyenda personalizables para una mejor visualización de datos.
 type: docs
-weight: 720
+weight: 1010
 url: /es/net/aspose.words.drawing.charts/chartlegend/
 ---
 ## ChartLegend class
 
 Representa las propiedades de la leyenda del gráfico.
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public class ChartLegend
@@ -22,9 +22,11 @@ public class ChartLegend
 
 | Nombre | Descripción |
 | --- | --- |
+| [Font](../../aspose.words.drawing.charts/chartlegend/font/) { get; } | Proporciona acceso al formato de fuente predeterminado de las entradas de leyenda. Para anular el formato de fuente de una entrada de leyenda específica, utilice el comando[`Font`](../chartlegendentry/font/) propiedad. |
+| [Format](../../aspose.words.drawing.charts/chartlegend/format/) { get; } | Proporciona acceso al relleno y formato de línea de la leyenda. |
 | [LegendEntries](../../aspose.words.drawing.charts/chartlegend/legendentries/) { get; } | Devuelve una colección de entradas de leyenda para todas las series y líneas de tendencia del gráfico principal. |
 | [Overlay](../../aspose.words.drawing.charts/chartlegend/overlay/) { get; set; } | Determina si se permitirá que otros elementos del gráfico se superpongan a la leyenda. El valor predeterminado es`FALSO` . |
-| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Especifica la posición de la leyenda en un gráfico. El valor predeterminado esRight . |
+| [Position](../../aspose.words.drawing.charts/chartlegend/position/) { get; set; } | Especifica la posición de la leyenda en un gráfico. |
 
 ## Ejemplos
 
@@ -46,7 +48,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Da más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
+// Dale más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

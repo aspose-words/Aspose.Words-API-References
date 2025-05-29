@@ -3,14 +3,14 @@ title: PageVerticalAlignment Enum
 linktitle: PageVerticalAlignment
 articleTitle: PageVerticalAlignment
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.PageVerticalAlignment تعداد. يحدد الضبط الرأسي للنص في كل صفحة في C#.
+description: اكتشف خاصية Aspose.Words.PageVerticalAlignment لمحاذاة مثالية للنصوص على الصفحات. حسّن تصميم مستندك بمحاذاة رأسية دقيقة!
 type: docs
-weight: 4370
+weight: 5100
 url: /ar/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
 
-يحدد الضبط الرأسي للنص في كل صفحة.
+يحدد محاذاة رأسية للنص في كل صفحة.
 
 ```csharp
 public enum PageVerticalAlignment
@@ -20,14 +20,14 @@ public enum PageVerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Bottom | `3` | تتم محاذاة النص في أسفل الصفحة. |
-| Center | `1` | تمت محاذاة النص في منتصف الصفحة. |
-| Justify | `2` | النص منتشر لملء الصفحة. |
-| Top | `0` | تتم محاذاة النص في أعلى الصفحة. |
+| Bottom | `3` | تم محاذاة النص في أسفل الصفحة. |
+| Center | `1` | تم محاذاة النص في منتصف الصفحة. |
+| Justify | `2` | يتم نشر النص لملء الصفحة. |
+| Top | `0` | تم محاذاة النص في أعلى الصفحة. |
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

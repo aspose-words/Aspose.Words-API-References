@@ -3,14 +3,14 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words för .NET
-description: Section ProtectedForForms fast egendom. Sant om avsnittet är skyddat för formulär. När en sektion är skyddad för formulär kan användare välja och ändra text endast i formulärfält i Microsoft Word i C#.
+description: Upptäck hur egenskapen ProtectedForForms i Microsoft Word förbättrar dokumentsäkerheten, vilket gör att användare enkelt kan redigera endast angivna formulärfält.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-Sant om avsnittet är skyddat för formulär. När en sektion är skyddad för formulär kan användare välja och ändra text endast i formulärfält i Microsoft Word.
+Sant om avsnittet är skyddat för formulär. När ett avsnitt är skyddat för formulär kan användare endast markera och ändra text i formulärfält i Microsoft Word.
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -31,14 +31,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Använd skrivskydd på varje avsnitt i dokumentet.
+// Tillämpa skrivskydd på varje avsnitt i dokumentet.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// Stäng av skrivskyddet för det första avsnittet.
+// Stäng av skrivskyddet för den första sektionen.
 doc.Sections[0].ProtectedForForms = false;
 
 // I detta utdatadokument kommer vi att kunna redigera det första avsnittet fritt,
-// och vi kommer bara att kunna redigera innehållet i formulärfältet i det andra avsnittet.
+// och vi kommer bara att kunna redigera innehållet i formulärfältet i den andra sektionen.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

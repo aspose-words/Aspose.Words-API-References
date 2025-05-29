@@ -3,14 +3,14 @@ title: NodeChangingArgs.NewParent
 linktitle: NewParent
 articleTitle: NewParent
 second_title: Aspose.Words لـ .NET
-description: NodeChangingArgs NewParent ملكية. يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية في C#.
+description: اكتشف خاصية NodeChangingArgs NewParent للوصول بكفاءة إلى الأصل المستقبلي للعقدة بعد اكتمال العمليات. حسّن مهاراتك البرمجية بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/nodechangingargs/newparent/
 ---
 ## NodeChangingArgs.NewParent property
 
-يحصل على أصل العقدة الذي سيتم تعيينه بعد اكتمال العملية.
+يحصل على العقدة الأصلية التي سيتم تعيينها بعد اكتمال العملية.
 
 ```csharp
 public Node NewParent { get; }
@@ -18,7 +18,7 @@ public Node NewParent { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
+/// يطبع كل عملية إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

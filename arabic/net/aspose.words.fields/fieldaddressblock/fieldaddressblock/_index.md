@@ -3,7 +3,7 @@ title: FieldAddressBlock
 linktitle: FieldAddressBlock
 articleTitle: FieldAddressBlock
 second_title: Aspose.Words لـ .NET
-description: FieldAddressBlock البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldAddressBlock - الحل الأمثل لإدارة العناوين بسلاسة. بسّط البرمجة باستخدام مُنشئنا الافتراضي الفعّال!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldaddressblock/fieldaddressblock/

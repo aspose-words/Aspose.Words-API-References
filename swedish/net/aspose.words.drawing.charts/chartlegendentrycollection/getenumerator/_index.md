@@ -3,14 +3,14 @@ title: ChartLegendEntryCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: ChartLegendEntryCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt i C#.
+description: Upptäck ChartLegendEntryCollection GetEnumerator-metoden för effektiv uppräkning av förklaringsposter. Effektivisera din datahantering idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartlegendentrycollection/getenumerator/
 ---
 ## ChartLegendEntryCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt.
+Returnerar ett uppräknarobjekt.
 
 ```csharp
 public IEnumerator<ChartLegendEntry> GetEnumerator()

@@ -2,15 +2,15 @@
 title: Section.DeleteHeaderFooterShapes
 linktitle: DeleteHeaderFooterShapes
 articleTitle: DeleteHeaderFooterShapes
-second_title: Aspose.Words for .NET
-description: Section DeleteHeaderFooterShapes yöntem. Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri çizim nesneleri siler C#'da.
+second_title: .NET için Aspose.Words
+description: Daha temiz belge sunumu için DeleteHeaderFooterShapes yöntemi ile bölüm başlıklarından ve altbilgilerinden tüm çizim şekillerini zahmetsizce kaldırın.
 type: docs
-weight: 120
+weight: 140
 url: /tr/net/aspose.words/section/deleteheaderfootershapes/
 ---
 ## Section.DeleteHeaderFooterShapes method
 
-Bu bölümün üst bilgilerinden ve alt bilgilerinden tüm şekilleri (çizim nesneleri) siler.
+Bu bölümün başlık ve altbilgilerinden tüm şekilleri (çizim nesnelerini) siler.
 
 ```csharp
 public void DeleteHeaderFooterShapes()
@@ -18,24 +18,24 @@ public void DeleteHeaderFooterShapes()
 
 ## Örnekler
 
-Bir bölümdeki tüm üst bilgi alt bilgilerinden tüm şekillerin nasıl kaldırılacağını gösterir.
+Bir bölümdeki tüm üstbilgi ve altbilgilerden tüm şekillerin nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Şekilli bir birincil başlık oluşturun.
+// Bir şekil ile birincil başlığı oluştur.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.InsertShape(ShapeType.Rectangle, 100, 100);
 
-// Bir görselle birincil altbilgi oluşturun.
+// Bir resimle birincil altbilgi oluşturun.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
-builder.InsertImage(ImageDir + "Logo Icon.ico");
+builder.InsertImage(ImageDir + "Logo icon.ico");
 
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
 Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
 
-// İlk bölümdeki üstbilgi ve altbilgilerdeki tüm şekilleri kaldırın.
+// İlk bölümdeki başlık ve altbilgilerden tüm şekilleri kaldırın.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
 Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);

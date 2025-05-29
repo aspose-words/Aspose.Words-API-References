@@ -3,14 +3,14 @@ title: SectionCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words لـ .NET
-description: SectionCollection ToArray طريقة. نسخ كافة الأقسام من المجموعة إلى مجموعة جديدة من الأقسام في C#.
+description: اكتشف طريقة SectionCollection ToArray، وانسخ جميع الأقسام بسهولة إلى مصفوفة جديدة، مما يعزز إدارة البيانات وكفاءة الترميز لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/sectioncollection/toarray/
 ---
 ## SectionCollection.ToArray method
 
-نسخ كافة الأقسام من المجموعة إلى مجموعة جديدة من الأقسام.
+نسخ جميع الأقسام من المجموعة إلى مجموعة جديدة من الأقسام.
 
 ```csharp
 public Section[] ToArray()

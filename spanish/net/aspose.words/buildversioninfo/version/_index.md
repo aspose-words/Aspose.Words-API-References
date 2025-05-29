@@ -3,7 +3,7 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words para .NET
-description: BuildVersionInfo Version propiedad. Obtiene la versión del producto en C#.
+description: Descubra la propiedad Versión BuildVersionInfo para acceder y administrar fácilmente la versión de su producto para mejorar el rendimiento y la confiabilidad del software.
 type: docs
 weight: 20
 url: /es/net/aspose.words/buildversioninfo/version/
@@ -22,7 +22,7 @@ La versión del producto tiene el formato "Major.Minor.Hotfix.0".
 
 ## Ejemplos
 
-Muestra cómo mostrar información sobre su versión instalada de Aspose.Words.
+Muestra cómo mostrar información sobre la versión instalada de Aspose.Words.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

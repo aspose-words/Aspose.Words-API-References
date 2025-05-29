@@ -3,9 +3,9 @@ title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Vba.VbaReferenceCollection classe. Rappresenta una raccolta diVbaReference oggetti in C#.
+description: Esplora la classe Aspose.Words.Vba.VbaReferenceCollection, un potente strumento per gestire in modo efficiente gli oggetti VbaReference nei tuoi progetti.
 type: docs
-weight: 6600
+weight: 7450
 url: /it/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
@@ -29,7 +29,7 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../vbareference/) elemento della collezione. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Rimuove la prima occorrenza di un valore specificato[`VbaReference`](../vbareference/) elemento dalla collezione. |
 | [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Rimuove il[`VbaReference`](../vbareference/) elemento all'indice specificato della raccolta. |
 
 ## Esempi
@@ -62,7 +62,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
+ /// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -80,7 +80,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -95,7 +95,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

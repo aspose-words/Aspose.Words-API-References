@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
-second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection ShowBubbleSize mülk. Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: ChartDataLabelCollection'daki ShowBubbleSize özelliğinin veri etiketi görünürlüğünü kontrol ederek Bubble grafiklerinizi nasıl geliştirdiğini keşfedin. Veri sunumunuzu güçlendirin!
 type: docs
-weight: 70
+weight: 100
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showbubblesize/
 ---
 ## ChartDataLabelCollection.ShowBubbleSize property
 
-Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirlemeye izin verir. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değer:`YANLIŞ` .
+Tüm serinin veri etiketleri için kabarcık boyutunun görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Yalnızca Kabarcık grafikleri için geçerlidir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -18,11 +18,11 @@ public bool ShowBubbleSize { get; set; }
 
 ## Notlar
 
-Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) özellik.
+Bu özellik için tanımlanan değer, kullanılarak ayrı bir veri etiketi için geçersiz kılınabilir[`ShowBubbleSize`](../../chartdatalabel/showbubblesize/) mülk.
 
 ## Örnekler
 
-Kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
+Bir kabarcık grafiğinin veri etiketleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ Chart chart = builder.InsertChart(ChartType.Bubble, 500, 300).Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// X/Y koordinatlarını ve her bir balonun çapını içeren özel bir seri ekleyin.
+ // Her bir baloncuğun X/Y koordinatları ve çapı ile özel bir seri ekleyin.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { 2.9, 3.5, 1.1, 4.0, 4.0 },
     new[] { 1.9, 8.5, 2.1, 6.0, 1.5 },

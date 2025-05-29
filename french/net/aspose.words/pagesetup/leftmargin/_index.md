@@ -3,7 +3,7 @@ title: PageSetup.LeftMargin
 linktitle: LeftMargin
 articleTitle: LeftMargin
 second_title: Aspose.Words pour .NET
-description: PageSetup LeftMargin propriété. Renvoie ou définit la distance en points entre le bord gauche de la page et la limite gauche du corps du texte en C#.
+description: Découvrez la propriété PageSetup LeftMargin pour ajuster facilement la marge gauche en points, améliorant ainsi la mise en page et la lisibilité de votre document.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/pagesetup/leftmargin/
@@ -18,7 +18,7 @@ public double LeftMargin { get; set; }
 
 ## Exemples
 
-Montre comment ajuster le format du papier, l’orientation, les marges, ainsi que d’autres paramètres pour une section.
+Montre comment ajuster la taille du papier, l'orientation, les marges, ainsi que d'autres paramètres pour une section.
 
 ```csharp
 Document doc = new Document();

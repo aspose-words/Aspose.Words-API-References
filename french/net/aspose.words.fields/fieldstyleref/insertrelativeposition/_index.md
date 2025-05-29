@@ -3,7 +3,7 @@ title: FieldStyleRef.InsertRelativePosition
 linktitle: InsertRelativePosition
 articleTitle: InsertRelativePosition
 second_title: Aspose.Words pour .NET
-description: FieldStyleRef InsertRelativePosition propriété. Obtient ou définit sil faut insérer la position relative du paragraphe référencé en C#.
+description: Découvrez comment la propriété InsertRelativePosition de FieldStyleRef peut améliorer la mise en forme de votre document en gérant efficacement les références de paragraphe.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/fieldstyleref/insertrelativeposition/
@@ -24,15 +24,15 @@ Montre comment utiliser les champs STYLEREF.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Créez une liste basée sur un modèle de liste Microsoft Word.
+// Créez une liste à l'aide d'un modèle de liste Microsoft Word.
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// Cette liste générée affichera "1.a )".
+// Cette liste générée affichera « 1.a ) ».
  // L'espace avant le crochet est un caractère non délimiteur, que nous pouvons supprimer.
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
-// Ajoutez du texte et appliquez des styles de paragraphe auxquels les champs STYLEREF référenceront.
+// Ajoutez du texte et appliquez des styles de paragraphe auxquels les champs STYLEREF feront référence.
 builder.ListFormat.List = list;
 builder.ListFormat.ListIndent();
 builder.ParagraphFormat.Style = doc.Styles["List Paragraph"];
@@ -44,12 +44,12 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// Place un champ STYLEREF dans l'en-tête et affiche le premier texte de style "List Paragraph" dans le document.
+// Placez un champ STYLEREF dans l'en-tête et affichez le premier texte de style « Paragraphe de liste » dans le document.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
 
-// Placez un champ STYLEREF dans le pied de page et faites-lui afficher le dernier texte.
+// Placez un champ STYLEREF dans le pied de page et affichez le dernier texte.
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";

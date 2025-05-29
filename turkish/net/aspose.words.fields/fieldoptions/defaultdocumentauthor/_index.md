@@ -2,8 +2,8 @@
 title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
-second_title: Aspose.Words for .NET
-description: FieldOptions DefaultDocumentAuthor mülk. Varsayılan belge yazarının adını alır veya ayarlar. Yazarın adı yerleşik belge özelliklerinde zaten belirtilmişse bu seçenek dikkate alınmaz C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yazarlarının adlarını kolayca ayarlamak veya güncellemek, organizasyonu ve belge yönetimi verimliliğini artırmak için DefaultDocumentAuthor özelliğini yönetin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
@@ -18,16 +18,16 @@ public string DefaultDocumentAuthor { get; set; }
 
 ## Örnekler
 
-Belgeyi oluşturan kişinin adını görüntülemek için YAZAR alanının nasıl kullanılacağını gösterir.
+Bir belge oluşturucusunun adını görüntülemek için AUTHOR alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// AUTHOR alanları, sonuçlarını "Yazar" adı verilen yerleşik belge özelliğinden alır.
+// AUTHOR alanları sonuçlarını "Author" adlı yerleşik belge özelliğinden alır.
 // Microsoft Word'de bir belge oluşturup kaydedersek,
-// o özellikte kullanıcı adımız olacak.
-// Ancak Aspose.Words kullanarak programlı olarak bir belge oluşturursak,
+// o özellikte kullanıcı adımız bulunacak.
+// Ancak, Aspose.Words kullanarak programatik olarak bir belge oluşturursak,
 // "Yazar" özelliği varsayılan olarak boş bir dize olacaktır.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
@@ -42,19 +42,19 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Değer içeren bir AUTHOR alanının güncellenmesi
+// Bir değer içeren bir AUTHOR alanını güncelleme
 // bu değeri "Yazar" yerleşik özelliğine uygulayacaktır.
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
-// Bu özelliği değiştirip ardından AUTHOR alanını güncellemek bu değeri alana uygulayacaktır.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+// Bu özelliği değiştirip ardından AUTHOR alanını güncellediğinizde bu değer alana uygulanacaktır.
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("John Doe", field.Result);
 
-// Bir AUTHOR alanını "Name" özelliğini değiştirdikten sonra güncellersek,
-// daha sonra alan yeni adı gösterecek ve yeni adı yerleşik özelliğe uygulayacaktır.
+// "Ad" özelliğini değiştirdikten sonra bir AUTHOR alanını güncellersek,
+// daha sonra alan yeni adı görüntüler ve yeni adı yerleşik özelliğe uygular.
 field.AuthorName = "Jane Doe";
 field.Update();
 

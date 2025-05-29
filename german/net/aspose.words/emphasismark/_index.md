@@ -3,14 +3,14 @@ title: EmphasisMark Enum
 linktitle: EmphasisMark
 articleTitle: EmphasisMark
 second_title: Aspose.Words für .NET
-description: Aspose.Words.EmphasisMark opsomming. Gibt mögliche Arten von Hervorhebungsmarkierungen an in C#.
+description: Entdecken Sie Aspose.Words.EmphasisMark enum mit verschiedenen Hervorhebungsarten zur Verbesserung Ihrer Dokumentformatierung. Steigern Sie noch heute die Wirkung Ihres Textes!
 type: docs
-weight: 1460
+weight: 1870
 url: /de/net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
 
-Gibt mögliche Arten von Hervorhebungsmarkierungen an.
+Gibt mögliche Arten von Hervorhebungszeichen an.
 
 ```csharp
 public enum EmphasisMark
@@ -20,15 +20,15 @@ public enum EmphasisMark
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `0` | Keine Hervorhebungsmarkierung. |
-| OverSolidCircle | `1` | Hervorhebungszeichen ist ein durchgehender schwarzer Kreis, der über dem Text angezeigt wird. |
+| None | `0` | Kein Hervorhebungszeichen. |
+| OverSolidCircle | `1` | Das Hervorhebungszeichen ist ein ausgefüllter schwarzer Kreis, der über dem Text angezeigt wird. |
 | OverComma | `2` | Hervorhebungszeichen ist ein Kommazeichen, das über dem Text angezeigt wird. |
-| OverWhiteCircle | `3` | Hervorhebungszeichen ist ein leerer weißer Kreis, der über dem Text angezeigt wird. |
-| UnderSolidCircle | `4` | Hervorhebungszeichen ist ein durchgehender schwarzer Kreis, der unter dem Text angezeigt wird. |
+| OverWhiteCircle | `3` | Das Hervorhebungszeichen ist ein leerer weißer Kreis, der über dem Text angezeigt wird. |
+| UnderSolidCircle | `4` | Das Hervorhebungszeichen ist ein ausgefüllter schwarzer Kreis, der unter dem Text angezeigt wird. |
 
 ## Beispiele
 
-Zeigt, wie man zusätzliche Zeichen hinzufügt, die über/unter dem Glyphenzeichen gerendert werden.
+Zeigt, wie zusätzliche Zeichen hinzugefügt werden, die über/unter dem Glyphenzeichen dargestellt werden.
 
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();

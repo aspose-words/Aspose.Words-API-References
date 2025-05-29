@@ -3,14 +3,14 @@ title: Font.Engrave
 linktitle: Engrave
 articleTitle: Engrave
 second_title: Aspose.Words لـ .NET
-description: Font Engrave ملكية. صحيح إذا تم تنسيق الخط على أنه منقوش في C#.
+description: اكتشف خاصية Font Engrave. نسّق الخطوط بسهولة للحصول على مظهر أنيق محفور، مما يزيد من أناقة تصميمك وجاذبيته.
 type: docs
 weight: 120
 url: /ar/net/aspose.words/font/engrave/
 ---
 ## Font.Engrave property
 
-صحيح إذا تم تنسيق الخط على أنه منقوش.
+صحيح إذا تم تنسيق الخط على أنه محفور.
 
 ```csharp
 public bool Engrave { get; set; }
@@ -18,7 +18,7 @@ public bool Engrave { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق تأثيرات النقش/النقش على النص.
+يوضح كيفية تطبيق تأثيرات النقش/النقش البارز على النص.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
 // فيما يلي طريقتان لاستخدام الظلال لتطبيق تأثير ثلاثي الأبعاد على النص.
-// 1 - نقش النص ليبدو وكأن الحروف غائرة في الصفحة:
+// 1 - نقش النص لجعله يبدو وكأن الحروف غائرة في الصفحة:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - نقش النص ليبدو وكأن الحروف تخرج من الصفحة:
+// 2 - قم بنقش النص لجعله يبدو وكأن الحروف تبرز من الصفحة:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

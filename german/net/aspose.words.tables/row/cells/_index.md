@@ -3,14 +3,14 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words für .NET
-description: Row Cells eigendom. Bietet typisierten Zugriff aufCell Unterknoten der Zeile in C#.
+description: Greifen Sie mühelos mit typisierten Steuerelementen auf Zeilenzellen zu, um untergeordnete Knoten nahtlos zu verwalten und so Ihre Erfahrung bei der Datenmanipulation zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/row/cells/
 ---
 ## Row.Cells property
 
-Bietet typisierten Zugriff auf[`Cell`](../../cell/) Unterknoten der Zeile.
+Bietet typisierten Zugriff auf die[`Cell`](../../cell/) untergeordnete Knoten der Zeile.
 
 ```csharp
 public CellCollection Cells { get; }
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## Beispiele
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ auf eine Zeilensammlung anwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ auf eine Zellensammlung anwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

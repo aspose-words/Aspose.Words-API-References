@@ -2,10 +2,10 @@
 title: Shape.FillColor
 linktitle: FillColor
 articleTitle: FillColor
-second_title: Aspose.Words for .NET
-description: Shape FillColor mülk. Şeklin kapalı yolunu dolduran fırça rengini tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Şekillerinizi geliştiren ve projelerinizi bir üst seviyeye taşıyan canlı fırça renkleriyle tasarımlarınızı özelleştirmek için Shape FillColor özelliğini keşfedin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words.drawing/shape/fillcolor/
 ---
 ## Shape.FillColor property
@@ -18,37 +18,37 @@ public Color FillColor { get; set; }
 
 ## Notlar
 
-Bu, kısayol[`Color`](../../fill/color/) mülk.
+Bu, şuna giden bir kısayoldur:[`Color`](../../fill/color/) mülk.
 
-Varsayılan değer: White.
+Varsayılan değer White .
 
 ## Örnekler
 
-Bir şeklin düz renkle nasıl doldurulacağını gösterir.
+Bir şeklin düz bir renkle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir miktar metin yazın ve ardından onu kayan bir şekille kaplayın.
+// Biraz metin yazın ve ardından onu yüzen bir şekille örtün.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Şeklin anahattının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
+// Şeklin dış hatlarının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
 shape.StrokeColor = Color.CadetBlue;
 
 // Şeklin iç alanının rengini ayarlamak için "FillColor" özelliğini kullanın.
 shape.FillColor = Color.LightBlue;
 
 // "Opaklık" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
-// 1 tamamen opak ve 0 görünmez olacak şekilde.
-// Şekil dolgusu varsayılan olarak tamamen opaktır, dolayısıyla bu şeklin üstünde olduğu metni göremiyoruz.
+// 1 tamamen opak, 0 ise görünmez anlamına gelir.
+// Şeklin dolgusu varsayılan olarak tamamen opak olduğundan, şeklin üstündeki metni göremeyiz.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
+// Şeklin dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

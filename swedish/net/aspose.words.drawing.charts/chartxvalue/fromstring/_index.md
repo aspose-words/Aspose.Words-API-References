@@ -3,14 +3,14 @@ title: ChartXValue.FromString
 linktitle: FromString
 articleTitle: FromString
 second_title: Aspose.Words för .NET
-description: ChartXValue FromString metod. Skapar enChartXValue instans avString typ i C#.
+description: Upptäck metoden ChartXValue FromString för att enkelt skapa ChartXValue-instanser av strängtyp. Förbättra din datavisualisering idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartxvalue/fromstring/
 ---
 ## ChartXValue.FromString method
 
-Skapar en[`ChartXValue`](../) instans avString typ.
+Skapar en[`ChartXValue`](../) exempel påString typ.
 
 ```csharp
 public static ChartXValue FromString(string value)
@@ -18,7 +18,7 @@ public static ChartXValue FromString(string value)
 
 ## Exempel
 
-Visar hur man lägger till/tar bort diagramdatavärden.
+Visar hur man lägger till/tar bort datavärden i diagrammet.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ ChartSeries department2Series = chart.Series[1];
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Lägg till nya värden till båda serierna.
+// Lägg till nya värden i båda serierna.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

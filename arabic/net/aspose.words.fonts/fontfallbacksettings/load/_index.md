@@ -3,14 +3,14 @@ title: FontFallbackSettings.Load
 linktitle: Load
 articleTitle: Load
 second_title: Aspose.Words لـ .NET
-description: FontFallbackSettings Load طريقة. تحميل الإعدادات الاحتياطية للخط من ملف XML في C#.
+description: قم بتحميل وإدارة إعدادات الرجوع للخطوط بسهولة من ملفات XML باستخدام طريقة تحميل FontFallbackSettings للتكامل السلس مع الطباعة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/fontfallbacksettings/load/
 ---
 ## Load(*string*) {#load_1}
 
-تحميل الإعدادات الاحتياطية للخط من ملف XML.
+يقوم بتحميل إعدادات الخط الاحتياطية من ملف XML.
 
 ```csharp
 public void Load(string fileName)
@@ -22,19 +22,19 @@ public void Load(string fileName)
 
 ## أمثلة
 
-يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى مستند XML في نظام الملفات المحلي.
+يوضح كيفية تحميل إعدادات الخط الاحتياطي وحفظها من/إلى مستند XML في نظام الملفات المحلي.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// قم بتحميل مستند XML يحدد مجموعة من الإعدادات الاحتياطية للخط.
+// قم بتحميل مستند XML الذي يحدد مجموعة من إعدادات الخط الاحتياطية.
 FontSettings fontSettings = new FontSettings();
 fontSettings.FallbackSettings.Load(MyDir + "Font fallback rules.xml");
 
 doc.FontSettings = fontSettings;
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromFile.pdf");
 
-// احفظ الإعدادات الاحتياطية للخط الحالي للمستند كمستند XML.
+// احفظ إعدادات الخط الاحتياطي الحالية لمستندنا كمستند XML.
 doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 ```
 
@@ -48,7 +48,7 @@ doc.FontSettings.FallbackSettings.Save(ArtifactsDir + "FallbackSettings.xml");
 
 ## Load(*Stream*) {#load}
 
-يقوم بتحميل الإعدادات الاحتياطية من تدفق XML.
+يقوم بتحميل الإعدادات الاحتياطية من دفق XML.
 
 ```csharp
 public void Load(Stream stream)
@@ -56,16 +56,16 @@ public void Load(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | تيار الإدخال. |
+| stream | Stream | تدفق الإدخال. |
 
 ## أمثلة
 
-يوضح كيفية تحميل وحفظ إعدادات الخط الاحتياطية من/إلى التدفق.
+يوضح كيفية تحميل إعدادات الخط الاحتياطي وحفظها من/إلى مجرى ما.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// قم بتحميل مستند XML يحدد مجموعة من الإعدادات الاحتياطية للخط.
+// قم بتحميل مستند XML الذي يحدد مجموعة من إعدادات الخط الاحتياطية.
 using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rules.xml", FileMode.Open))
 {
     FontSettings fontSettings = new FontSettings();
@@ -76,7 +76,7 @@ using (FileStream fontFallbackStream = new FileStream(MyDir + "Font fallback rul
 
 doc.Save(ArtifactsDir + "FontSettings.LoadFontFallbackSettingsFromStream.pdf");
 
-// استخدم الدفق لحفظ الإعدادات الاحتياطية الحالية للخط في مستندنا كمستند XML.
+// استخدم تيارًا لحفظ إعدادات الخط الاحتياطية الحالية لمستندنا كمستند XML.
 using (FileStream fontFallbackStream =
     new FileStream(ArtifactsDir + "FallbackSettings.xml", FileMode.Create))
 {

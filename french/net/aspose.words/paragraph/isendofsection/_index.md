@@ -3,7 +3,7 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words pour .NET
-description: Paragraph IsEndOfSection propriété. Vrai si ce paragraphe est le dernier paragraphe duBody histoire du texte principal dunSection  faux sinon en C#.
+description: Découvrez la propriété Paragraph IsEndOfSection, identifiez si un paragraphe est le dernier du texte principal d'une section pour une structure et une clarté améliorées du document.
 type: docs
 weight: 80
 url: /fr/net/aspose.words/paragraph/isendofsection/
@@ -18,7 +18,7 @@ public bool IsEndOfSection { get; }
 
 ## Exemples
 
-Montre comment insérer le contenu d’un document dans un signet dans un autre document.
+Montre comment insérer le contenu d'un document dans un signet d'un autre document.
 
 ```csharp
 public void InsertAtBookmark()
@@ -56,7 +56,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Parcourez tous les nœuds de niveau bloc dans le corps de la section,
+        // Boucle sur tous les nœuds de niveau bloc dans le corps de la section,
         // puis clonez et insérez chaque nœud qui n'est pas le dernier paragraphe vide d'une section.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)

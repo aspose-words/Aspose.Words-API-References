@@ -2,15 +2,15 @@
 title: PageSavingArgs.PageStream
 linktitle: PageStream
 articleTitle: PageStream
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSavingArgs PageStream 财产. 允许指定文档页面将保存到的流 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PageSavingArgs 的 PageStream 属性，可将文档页面无缝保存到所需的流中，从而实现高效的文件管理。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.saving/pagesavingargs/pagestream/
 ---
 ## PageSavingArgs.PageStream property
 
-允许指定文档页面将保存到的流。
+允许指定将文档页面保存到的流。
 
 ```csharp
 public Stream PageStream { get; set; }
@@ -18,15 +18,15 @@ public Stream PageStream { get; set; }
 
 ## 评论
 
-此属性允许您将文档页面保存到流而不是文件中。
+此属性允许您将文档页面保存到流而不是文件。
 
-默认值为`无效的` 。当这个属性是`无效的`，文档页面 将被保存到指定的文件中[`PageFileName`](../pagefilename/)财产。
+默认值为`无效的` . 当此属性`无效的`，文档页面 将保存到[`PageFileName`](../pagefilename/)财产。
 
-如果两者都`PageStream`和[`PageFileName`](../pagefilename/)设置后，将使用 PageStream。
+如果两者`PageStream`和[`PageFileName`](../pagefilename/)则将使用 PageStream。
 
 ## 例子
 
-演示如何使用回调将文档逐页保存为 HTML。
+展示如何使用回调将文档逐页保存为 HTML。
 
 ```csharp
 public void PageFileNames()
@@ -45,7 +45,7 @@ public void PageFileNames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // 我们将把这个文档中的每个页面保存到本地文件系统中的一个单独的 HTML 文件中。
+    // 我们将把该文档中的每个页面保存到本地文件系统中单独的 HTML 文件中。
     // 设置一个回调，允许我们命名每个输出 HTML 文档。
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
@@ -58,7 +58,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// 将所有页面保存到其中指定的文件和目录中。
+/// 将所有页面保存到指定的文件和目录中。
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -66,8 +66,8 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // 以下是指定 Aspose.Words 保存文档每一页的位置的两种方法。
-        // 1 - 设置输出页面文件的文件名：
+        // 以下是两种指定 Aspose.Words 保存文档每一页的位置的方法。
+        // 1 - 为输出页面文件设置文件名：
         args.PageFileName = outFileName;
 
         // 2 - 为输出页面文件创建自定义流：

@@ -3,9 +3,9 @@ title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Bookmark klas. Stellt ein einzelnes Lesezeichen dar in C#.
+description: Entdecken Sie die Aspose.Words.Bookmark-Klasse, Ihre Lösung für die effiziente Verwaltung von Lesezeichen in Dokumenten. Verbessern Sie noch heute Ihre Dokumentbearbeitung!
 type: docs
-weight: 40
+weight: 230
 url: /de/net/aspose.words/bookmark/
 ---
 ## Bookmark class
@@ -25,29 +25,29 @@ public class Bookmark
 | [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | Ruft den Knoten ab, der das Ende des Lesezeichens darstellt. |
 | [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | Ruft den Knoten ab, der den Anfang des Lesezeichens darstellt. |
 | [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | Ruft den nullbasierten Index der ersten Spalte des Tabellenspaltenbereichs ab, der dem Lesezeichen zugeordnet ist. |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Gibt zurück`WAHR` wenn dieses Lesezeichen ein Tabellenspalten-Lesezeichen ist. |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | Rückgaben`WAHR` wenn dieses Lesezeichen ein Tabellenspalten-Lesezeichen ist. |
 | [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | Ruft den nullbasierten Index der letzten Spalte des Tabellenspaltenbereichs ab, der dem Lesezeichen zugeordnet ist. |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | Ruft den Namen des Lesezeichens ab oder legt ihn fest. |
-| [Text](../../aspose.words/bookmark/text/) { get; set; } | Ruft den im Lesezeichen eingeschlossenen Text ab oder legt diesen fest. |
+| [Text](../../aspose.words/bookmark/text/) { get; set; } | Ruft den im Lesezeichen eingeschlossenen Text ab oder legt ihn fest. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Remove](../../aspose.words/bookmark/remove/)() | Entfernt das Lesezeichen aus dem Dokument. Entfernt keinen Text im Lesezeichen. |
+| [Remove](../../aspose.words/bookmark/remove/)() | Entfernt das Lesezeichen aus dem Dokument. Der Text im Lesezeichen wird nicht entfernt. |
 
 ## Bemerkungen
 
-`Bookmark` ist ein „Fassaden“-Objekt, das zwei Knoten kapselt[`BookmarkStart`](./bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) in einem Dokumentbaum und ermöglicht die Arbeit mit einem Lesezeichen als einzelnes Objekt.
+`Bookmark` ist ein "Fassaden"-Objekt, das zwei Knoten kapselt[`BookmarkStart`](./bookmarkstart/) und[`BookmarkEnd`](./bookmarkend/) in einem Dokumentbaum und ermöglicht die Arbeit mit einem Lesezeichen als einzelnes Objekt.
 
 ## Beispiele
 
-Zeigt, wie Sie Lesezeichen hinzufügen und deren Inhalte aktualisieren.
+Zeigt, wie Lesezeichen hinzugefügt und deren Inhalte aktualisiert werden.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalte zu drucken.
+    // Erstellen Sie ein Dokument mit drei Lesezeichen und verwenden Sie dann eine benutzerdefinierte Dokumentbesucherimplementierung, um deren Inhalt zu drucken.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
@@ -56,7 +56,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Alle Lesezeichen erneut drucken, um aktualisierte Werte anzuzeigen.
+    // Drucken Sie alle Lesezeichen erneut, um die aktualisierten Werte anzuzeigen.
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Jedes Lesezeichen in der Sammlung dazu bringen, einen Besucher zu akzeptieren, der seinen Inhalt druckt.
+    // Sorgen Sie dafür, dass jedes Lesezeichen in der Sammlung einen Besucher akzeptiert, der seinen Inhalt druckt.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -108,7 +108,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Gibt den Inhalt jedes besuchten Lesezeichens an die Konsole aus.
+/// Druckt den Inhalt jedes besuchten Lesezeichens auf der Konsole.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection RemoveAt metod. Tar bort elementet vid det angivna indexet i C#.
+description: Upptäck OdsoRecipientDataCollection RemoveAt-metoden för att enkelt ta bort element via index, vilket förbättrar effektiviteten i din datahantering.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -22,7 +22,7 @@ public void RemoveAt(int index)
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

@@ -3,19 +3,19 @@ title: StreamFontSource Class
 linktitle: StreamFontSource
 articleTitle: StreamFontSource
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.StreamFontSource klass. Basklass för användardefinierad strömteckensnittskälla i C#.
+description: Upptäck klassen Aspose.Words.Fonts.StreamFontSource, din lösning för anpassade strömmande teckensnittskällor som förbättrar dokumentflexibiliteten och designen.
 type: docs
-weight: 3040
+weight: 3470
 url: /sv/net/aspose.words.fonts/streamfontsource/
 ---
 ## StreamFontSource class
 
-Basklass för användardefinierad strömteckensnittskälla.
+Basklass för användardefinierad strömfontkälla.
 
 För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
 ```csharp
-public abstract class StreamFontSource : FontSourceBase
+public abstract class StreamFontSource : FontSourceBase,   
 ```
 
 ## Egenskaper
@@ -23,28 +23,28 @@ public abstract class StreamFontSource : FontSourceBase
 | namn | Beskrivning |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/streamfontsource/cachekey/) { get; } | Nyckeln till denna källa i cachen. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittskällans prioritet. |
-| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Returnerar typen av teckensnittskälla. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Returnerar teckensnittets källprioritet. |
+| [Type](../../aspose.words.fonts/streamfontsource/type/) { get; } | Returnerar typen av teckensnittskällan. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Anropas under bearbetning av teckensnittskälla när ett problem upptäcks som kan leda till förlust av formateringstillverkning. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via den här källan. |
-| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Den här metoden bör öppna flödet med teckensnittsdata på begäran. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Returnerar en lista över teckensnitt som är tillgängliga via denna källa. |
+| abstract [OpenFontDataStream](../../aspose.words.fonts/streamfontsource/openfontdatastream/)() | Den här metoden bör öppna strömmen med teckensnittsdata på begäran. |
 
 ## Anmärkningar
 
-För att använda strömfontkällan bör du skapa en härledd klass från`StreamFontSource` och tillhandahålla implementering av[`OpenFontDataStream`](./openfontdatastream/) metod.
+För att kunna använda strömfontkällan bör du skapa en härledd klass från`StreamFontSource` och tillhandahålla implementering av[`OpenFontDataStream`](./openfontdatastream/) metod.
 
-[`OpenFontDataStream`](./openfontdatastream/)metod kan kallas flera gånger. För första gången kommer det att kallas när Aspose.Words skannar de medföljande teckensnittskällorna för att få en lista över tillgängliga teckensnitt. Senare kan det kallas om teckensnittet används i dokumentet för att analysera teckensnittsdata och för att bädda in teckensnittsdata i vissa utdataformat.
+[`OpenFontDataStream`](./openfontdatastream/)Metoden kan anropas flera gånger. För första gången kommer den att anropas när Aspose.Words skannar de angivna teckensnittskällorna för att hämta en lista över tillgängliga teckensnitt. Senare kan den anropas om teckensnittet används i dokumentet för att analysera teckensnittsdata och bädda in teckensnittsdata i vissa utdataformat.
 
-`StreamFontSource` kan vara användbart eftersom det gör det möjligt att ladda teckensnittsdata endast när det krävs och inte lagra det i minnet för[`FontSettings`](../fontsettings/) livstid.
+`StreamFontSource` kan vara användbart eftersom det tillåter att teckensnittsdata endast laddas när det behövs och inte lagras i minnet för[`FontSettings`](../fontsettings/) livstid.
 
 ## Exempel
 
-Visar hur man laddar typsnitt från stream.
+Visar hur man laddar teckensnitt från strömmen.
 
 ```csharp
 public void StreamFontSourceFileRendering()
@@ -61,8 +61,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Ladda teckensnittsdata endast när det behövs istället för att lagra det i minnet
-/// under hela livslängden för objektet "FontSettings".
+/// Ladda endast teckensnittsdata när det behövs istället för att lagra dem i minnet
+/// för hela livslängden för "FontSettings"-objektet.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {
@@ -76,5 +76,6 @@ private class StreamFontSourceFile : StreamFontSource
 ### Se även
 
 * class [FontSourceBase](../fontsourcebase/)
+* interface [  ](../../global/%02  /)
 * namnutrymme [Aspose.Words.Fonts](../../aspose.words.fonts/)
 * hopsättning [Aspose.Words](../../)

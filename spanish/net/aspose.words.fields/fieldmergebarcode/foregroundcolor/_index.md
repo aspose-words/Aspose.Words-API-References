@@ -3,7 +3,7 @@ title: FieldMergeBarcode.ForegroundColor
 linktitle: ForegroundColor
 articleTitle: ForegroundColor
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode ForegroundColor propiedad. Obtiene o establece el color de primer plano del símbolo del código de barras. Los valores válidos están en el rango 0 0xFFFFFF en C#.
+description: Descubre la propiedad FieldMergeBarcode ForegroundColor para personalizar la apariencia de tu código de barras. ¡Configura fácilmente colores con valores de 0 a 0xFFFFFF!
 type: docs
 weight: 100
 url: /es/net/aspose.words.fields/fieldmergebarcode/foregroundcolor/
@@ -30,7 +30,7 @@ FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.Field
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Aplicar colores y escalas personalizados.
+// Aplicar colores y escala personalizados.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -43,8 +43,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código QR con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

@@ -3,9 +3,9 @@ title: CellFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words для .NET
-description: CellFormat VerticalAlignment свойство. Возвращает или задает вертикальное выравнивание текста в ячейке на С#.
+description: Откройте для себя свойство CellFormat VerticalAlignment, которое позволяет легко устанавливать и настраивать выравнивание текста в ячейках для улучшенного представления данных.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
@@ -18,7 +18,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ## Примеры
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,8 +50,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

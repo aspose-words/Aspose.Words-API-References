@@ -2,8 +2,8 @@
 title: PdfDigitalSignatureDetails
 linktitle: PdfDigitalSignatureDetails
 articleTitle: PdfDigitalSignatureDetails
-second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureDetails inşaatçı. Bu sınıfın bir örneğini başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Güvenli belge yönetimi için dijital imza örneklerini etkili bir şekilde başlatmak üzere tasarlanmış PdfDigitalSignatureDetails oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
@@ -27,12 +27,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "SaveOptions" nesnesinin "DigitalSignatureDetails" nesnesini yapılandırın
-// belgeyi "Kaydet" yöntemiyle oluştururken dijital olarak imzalayın.
+// "Kaydet" metoduyla oluşturduğumuz belgeyi dijital olarak imzalıyoruz.
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -41,6 +41,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
@@ -64,9 +65,9 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| certificateHolder | CertificateHolder | Sertifikanın kendisini içeren bir sertifika sahibi. |
-| reason | String | İmzalama nedeni. |
-| location | String | İmzanın yeri. |
+| certificateHolder | CertificateHolder | Sertifikanın kendisini barındıran sertifika sahibi. |
+| reason | String | İmzalanma nedeni. |
+| location | String | İmzalama yeri. |
 | signatureDate | DateTime | İmzalama tarihi ve saati. |
 
 ## Örnekler
@@ -80,12 +81,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "SaveOptions" nesnesinin "DigitalSignatureDetails" nesnesini yapılandırın
-// belgeyi "Kaydet" yöntemiyle oluştururken dijital olarak imzalayın.
+// "Kaydet" metoduyla oluşturduğumuz belgeyi dijital olarak imzalıyoruz.
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -94,6 +95,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

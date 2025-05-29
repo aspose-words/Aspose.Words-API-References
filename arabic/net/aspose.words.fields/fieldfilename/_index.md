@@ -3,9 +3,9 @@ title: FieldFileName Class
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldFileName فصل. ينفذ حقل FILENAME في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldFileName، المصممة لتبسيط تنفيذ حقل FILENAME لأتمتة المستندات بسلاسة.
 type: docs
-weight: 1870
+weight: 2280
 url: /ar/net/aspose.words.fields/fieldfilename/
 ---
 ## FieldFileName class
@@ -28,34 +28,34 @@ public class FieldFileName : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IncludeFullPath](../../aspose.words.fields/fieldfilename/includefullpath/) { get; set; } | الحصول على أو تحديد ما إذا كان سيتم تضمين اسم مسار الملف بالكامل أم لا. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IncludeFullPath](../../aspose.words.fields/fieldfilename/includefullpath/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تضمين اسم مسار الملف الكامل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-يسترد اسم المستند الحالي من موقع التخزين الخاص به.
+استرداد اسم المستند الحالي من موقع تخزينه.
 
-في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) الخاصية لاسترداد اسم الملف. إذا تم تحميل المستند من دفق أو تم إنشاؤه فارغًا، فسيتم استخدام اسم الملف الذي يتم حفظه فيه (إذا كان معروفًا).
+في التنفيذ الحالي، يستخدم[`OriginalFileName`](../../aspose.words/document/originalfilename/) خاصية لاسترجاع اسم الملف x000d_. إذا تم تحميل المستند من مصدر أو تم إنشاؤه فارغًا، فسيتم استخدام اسم الملف الذي سيتم حفظه (إن وجد).
 
 ## أمثلة
 
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
 
-// سيعرض حقل اسم الملف هذا اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
+// سيعرض حقل FILENAME اسم ملف النظام المحلي للمستند الذي قمنا بتحميله.
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
@@ -77,15 +77,15 @@ Assert.AreEqual("Document.docx", field.Result);
 
 builder.Writeln();
 
-// افتراضيًا، يُظهر الحقل FILENAME اسم الملف، ولكن ليس مسار نظام الملفات المحلي الكامل الخاص به.
-// يمكننا تعيين علامة لجعلها تظهر مسار الملف بالكامل.
+// بشكل افتراضي، يعرض حقل FILENAME اسم الملف، ولكن ليس مسار نظام الملفات المحلي الكامل.
+//يمكننا تعيين علم لإظهار مسار الملف الكامل.
 field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// يمكننا أيضًا تعيين قيمة لهذه الخاصية
+// يمكننا أيضًا تعيين قيمة لهذه الخاصية إلى
 // تجاوز القيمة التي يعرضها حقل اسم الملف.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();

@@ -3,14 +3,14 @@ title: FieldMergeField.IsVerticalFormatting
 linktitle: IsVerticalFormatting
 articleTitle: IsVerticalFormatting
 second_title: Aspose.Words для .NET
-description: FieldMergeField IsVerticalFormatting свойство. Получает или задает включить ли преобразование символов для вертикального форматирования на С#.
+description: Узнайте, как свойство FieldMergeField IsVerticalFormatting улучшает отображение текста, позволяя преобразовывать символы для вертикального форматирования. Оптимизируйте свое форматирование сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldmergefield/isverticalformatting/
 ---
 ## FieldMergeField.IsVerticalFormatting property
 
-Получает или задает, включить ли преобразование символов для вертикального форматирования.
+Возвращает или задает, следует ли включить преобразование символов для вертикального форматирования.
 
 ```csharp
 public bool IsVerticalFormatting { get; set; }
@@ -32,19 +32,20 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// Вставляем MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
+// Вставьте MERGEFIELD со свойством FieldName, равным имени столбца в источнике данных.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Мы можем применить текст до и после значения, которое принимает это поле, когда происходит слияние.
+// Мы можем применить текст до и после значения, которое это поле принимает при слиянии.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Вставляем еще одно MERGEFIELD для другого столбца в источнике данных.
+// Вставьте еще один MERGEFIELD для другого столбца в источнике данных.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

@@ -3,14 +3,14 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: Shape Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول الشكل، المصممة لتعزيز مشاركة الزائرين وتبسيط عملية القبول للحصول على نتائج أفضل.
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,23 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع العقد التابعة للشكل والمكالمات[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) في النهاية.
+مكالمات [`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) ، ثم يدعو[`Accept`](../../../aspose.words/node/accept/) لجميع العقد الفرعية للشكل والمكالمات[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) في النهاية.
 
 ## أمثلة
 
-يوضح كيفية التكرار على كافة الأشكال في المستند.
+يوضح كيفية تكرار جميع الأشكال في مستند.
 
 ```csharp
 public void VisitShapes()
@@ -47,7 +47,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// يسجل المعلومات المتعلقة بالمظهر حول الأشكال التي تمت زيارتها.
+/// يسجل معلومات متعلقة بالمظهر حول الأشكال التي تمت زيارتها.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يُلحق سطرًا بـ StringBuilder بحرف جدولة مُسبق لكل مستوى مسافة بادئة.
+    /// يضيف سطرًا إلى StringBuilder بإضافة حرف تبويب واحد لكل مستوى مسافة بادئة.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -69,7 +69,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// قم بإرجاع كل النص الذي قام StringBuilder بتجميعه.
+    /// إرجاع كل النص الذي قام StringBuilder بتجميعه.
     /// </summary>
     public string GetText()
     {
@@ -77,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة الشكل.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -113,7 +112,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة الشكل.
+    /// يتم استدعاؤها عندما يقوم هذا الزائر بزيارة نهاية عقدة الشكل.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -125,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر بداية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر بداية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -136,7 +135,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عندما يزور هذا الزائر نهاية عقدة GroupShape.
+    /// يتم استدعاؤها عندما يزور هذا الزائر نهاية عقدة GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportListLabels
 linktitle: ExportListLabels
 articleTitle: ExportListLabels
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportListLabels mülk. Liste etiketlerinin HTML MHTML veya EPUBa nasıl aktarılacağını kontrol eder. Varsayılan değerAuto  C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportListLabels özelliğinin HTML, MHTML ve EPUB çıktılarınızı nasıl geliştirdiğini keşfedin. Otomatik ayarlarla liste etiketlerini zahmetsizce optimize edin!
 type: docs
 weight: 190
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportlistlabels/
 ---
 ## HtmlSaveOptions.ExportListLabels property
 
-Liste etiketlerinin HTML, MHTML veya EPUB'a nasıl aktarılacağını kontrol eder. Varsayılan değer:Auto .
+Liste etiketlerinin HTML, MHTML veya EPUB'a nasıl çıktılanacağını kontrol eder. Varsayılan değerAuto .
 
 ```csharp
 public ExportListLabels ExportListLabels { get; set; }
@@ -18,7 +18,7 @@ public ExportListLabels ExportListLabels { get; set; }
 
 ## Örnekler
 
-Listeyi HTML'ye aktarmanın nasıl yapılandırılacağını gösterir.
+Listelerin HTML'e aktarılmasının nasıl yapılandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -46,14 +46,14 @@ builder.ListFormat.ListIndent();
 builder.Writeln("Outline legal heading list item 5.");
 builder.ListFormat.RemoveNumbers();
 
-// Belgeyi HTML'ye kaydederken bir SaveOptions nesnesi iletebiliriz
-// belgenin listeleri temsil etmek için hangi HTML öğelerini kullanacağına karar vermek için.
-// "ExportListLabels" özelliğinin "ExportListLabels.AsInlineText" olarak ayarlanması
-// yayılma alanlarını biçimlendirerek listeler oluşturacağız.
-// "ExportListLabels" özelliğinin "ExportListLabels.Auto" olarak ayarlanması <p> etiket
-// <ol> kullanıldığında listeler oluşturmak için ve <li> etiketler biçimlendirme kaybına neden olabilir.
-// "ExportListLabels" özelliğinin "ExportListLabels.ByHtmlTags" olarak ayarlanması
-// <ol> kullanacak ve <li> tüm listeleri oluşturmak için etiketler.
+// Belgeyi HTML'e kaydederken SaveOptions nesnesini geçirebiliriz
+// Belgenin listeleri temsil etmek için hangi HTML öğelerini kullanacağına karar vermek için.
+// "ExportListLabels" özelliğini "ExportListLabels.AsInlineText" olarak ayarlama
+// span'ları biçimlendirerek listeler oluşturacaktır.
+// "ExportListLabels" özelliğini "ExportListLabels.Auto" olarak ayarlamak <p> etiketini kullanacaktır
+// <ol> ve <li> etiketlerinin kullanılmasının biçimlendirme kaybına yol açabileceği durumlarda listeler oluşturmak için.
+// "ExportListLabels" özelliğini "ExportListLabels.ByHtmlTags" olarak ayarlama
+// Tüm listeleri oluşturmak için <ol> ve <li> etiketlerini kullanacağız.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportListLabels = exportListLabels };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.List.html", options);

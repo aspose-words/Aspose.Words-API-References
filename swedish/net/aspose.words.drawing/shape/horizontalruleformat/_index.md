@@ -3,14 +3,14 @@ title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words för .NET
-description: Shape HorizontalRuleFormat fast egendom. Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel returnerarnull  i C#.
+description: Få åtkomst till och anpassa egenskaperna för HorizontalRuleFormat för ökad designflexibilitet. Optimera dina former med skräddarsydda inställningar för unika resultat.
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-Ger tillgång till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel, returnerar`null` .
+Ger åtkomst till egenskaperna för den horisontella regelformen. För en form som inte är en horisontell regel returneras`null` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## Exempel
 
-Visar hur man infogar en horisontell regelform och anpassar dess formatering.
+Visar hur man infogar en horisontell linjeform och anpassar dess formatering.
 
 ```csharp
 Document doc = new Document();

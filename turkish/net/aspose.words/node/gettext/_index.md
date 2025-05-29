@@ -2,15 +2,15 @@
 title: Node.GetText
 linktitle: GetText
 articleTitle: GetText
-second_title: Aspose.Words for .NET
-description: Node GetText yöntem. Bu düğümün ve tüm alt öğelerinin metnini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Bir düğümden ve onun alt öğelerinden metni zahmetsizce almak için Node GetText yöntemini keşfedin, böylece veri yönetiminizi ve geliştirme verimliliğinizi artırın.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/node/gettext/
 ---
 ## Node.GetText method
 
-Bu düğümün ve tüm alt öğelerinin metnini alır.
+Bu düğümün ve tüm alt düğümlerinin metnini alır.
 
 ```csharp
 public virtual string GetText()
@@ -18,7 +18,7 @@ public virtual string GetText()
 
 ## Notlar
 
-Döndürülen dize, yukarıda açıklandığı gibi tüm kontrol ve özel karakterleri içerir.[`ControlChar`](../../controlchar/).
+Döndürülen dize, aşağıda açıklandığı gibi tüm denetim ve özel karakterleri içerir[`ControlChar`](../../controlchar/).
 
 ## Örnekler
 
@@ -32,14 +32,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// Belgeyi metin biçimine dönüştürmek, kontrol karakterlerinin ortaya çıktığını gösterir
+// Belgenin metin biçimine dönüştürülmesi, kontrol karakterlerinin ortaya çıkmasını sağlar
 // sayfa sonları gibi belgenin bazı yapısal öğelerini temsil eder.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
                 ControlChar.PageBreak, doc.GetText());
 
-// Bir belgeyi string biçimine dönüştürürken,
-// Trim metodu ile bazı kontrol karakterlerini atlayabiliriz.
+// Bir belgeyi dize biçimine dönüştürürken,
+// Trim metoduyla bazı kontrol karakterlerini atlayabiliriz.
 Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
                 "Hello again!", doc.GetText().Trim());
 ```
@@ -51,25 +51,25 @@ Document doc = new Document();
 
 // Boş bir belge bir bölüm, bir gövde ve bir paragraftan oluşur.
 // Tüm bu düğümleri kaldırmak için "RemoveAllChildren" yöntemini çağırın,
-// ve çocuğu olmayan bir belge düğümü elde ederiz.
+// ve çocuğu olmayan bir belge düğümüyle sonuçlanır.
 doc.RemoveAllChildren();
 
-// Bu belgede artık içerik ekleyebileceğimiz bileşik alt düğüm yok.
-// Eğer onu düzenlemek istiyorsak, düğüm koleksiyonunu yeniden doldurmamız gerekecek.
-// Öncelikle yeni bir bölüm oluşturun ve ardından bunu alt öğe olarak kök belge düğümüne ekleyin.
+// Bu belgenin artık içerik ekleyebileceğimiz bileşik alt düğümleri yok.
+// Düzenlemek istersek, düğüm koleksiyonunu yeniden doldurmamız gerekecektir.
+// İlk önce yeni bir bölüm oluşturun ve ardından onu kök belge düğümüne bir alt bölüm olarak ekleyin.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Bölüm için bazı sayfa yapısı özelliklerini ayarlayın.
+// Bölüm için bazı sayfa düzeni özelliklerini ayarlayın.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Bir bölümün tüm içeriğini içerecek ve görüntüleyecek bir gövdeye ihtiyacı vardır
+// Bir bölümün, tüm içeriklerini barındıracak ve görüntüleyecek bir gövdeye ihtiyacı vardır
 // bölümün üstbilgisi ve altbilgisi arasındaki sayfada.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Bir paragraf oluşturun, bazı biçimlendirme özelliklerini ayarlayın ve ardından onu alt öğe olarak gövdeye ekleyin.
+// Bir paragraf oluştur, bazı biçimlendirme özelliklerini ayarla ve sonra onu gövdeye bir alt paragraf olarak ekle.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -77,8 +77,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Son olarak belgeyi yapmak için biraz içerik ekleyin. Bir koşu oluşturun,
-// görünüşünü ve içeriğini ayarlayın ve ardından onu alt öğe olarak paragrafa ekleyin.
+// Son olarak, belgeyi yapmak için biraz içerik ekleyin. Bir çalışma oluşturun,
+// Görünümünü ve içeriğini ayarlayın ve ardından paragrafın bir alt öğesi olarak ekleyin.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

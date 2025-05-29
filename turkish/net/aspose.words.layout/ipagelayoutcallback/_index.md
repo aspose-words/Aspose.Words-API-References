@@ -2,15 +2,15 @@
 title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.IPageLayoutCallback arayüz. Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.Layout.IPageLayoutCallback arayüzü ile belge düzeninizi özelleştirin. En iyi sonuçlar için kendi yöntemlerinizle işlemeyi geliştirin.
 type: docs
-weight: 3310
+weight: 3760
 url: /tr/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Sayfa düzeni modelinin oluşturulması ve oluşturulması sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
+Sayfa düzeni modelinin oluşturulması ve işlenmesi sırasında kendi özel yönteminizin çağrılmasını istiyorsanız bu arayüzü uygulayın.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -24,17 +24,17 @@ public interface IPageLayoutCallback
 
 ## Notlar
 
-Bu arayüzün birincil kullanımı, uygulama kodunun derleme işlemini iptal etmesine izin vermektir.
+Bu arayüzün birincil kullanımı uygulama kodunun derleme sürecini iptal etmesine izin vermektir.
 
-Belgenin başlangıcında yalnızca birkaç sayfa için sayfa düzeni modeli oluşturmak, ardından işlemi iptal etmek ve yalnızca önceden oluşturulmuş olanı oluşturmak mümkündür.
+Belgenin başında yalnızca birkaç sayfa için sayfa düzeni modeli oluşturmak ve ardından işlemi iptal edip yalnızca daha önce oluşturulmuş olanları işlemek mümkündür.
 
-Ancak, işleme sonuçlarının, işlemin tamamlanması durumunda her sayfa için oluşturulacak sonuçlarla eşleşmeyebileceğini unutmayın.
+Ancak, işlem tamamlanmış olsaydı her sayfa için oluşturulacak olan sonuçların, oluşturma sonuçlarıyla uyuşmayabileceğini unutmayın.
 
-Bu teknik her belgede işe yaramayabilir veya tamamen başarısız olabilir.
+Bu teknik her belge için işe yaramayabilir veya tamamen başarısız olabilir.
 
 ## Örnekler
 
-Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen değişikliklerinin düzen geri aramasıyla nasıl izleneceğini gösterir.
 
 ```csharp
 public void PageLayoutCallback()
@@ -52,8 +52,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
+/// Belgeyi sabit bir sayfa biçimine kaydettiğimizde bize bildirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfa oluşturur.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

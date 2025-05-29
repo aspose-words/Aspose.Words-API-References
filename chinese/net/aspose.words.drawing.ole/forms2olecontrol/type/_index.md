@@ -2,10 +2,10 @@
 title: Forms2OleControl.Type
 linktitle: Type
 articleTitle: Type
-second_title: 用于 .NET 的 Aspose.Words
-description: Forms2OleControl Type 财产. 获取 Forms 2.0 控件的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Forms2OleControl Type 属性以轻松检索 Forms 2.0 控件的类型，增强应用程序的功能和效率。
 type: docs
-weight: 50
+weight: 80
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrol/type/
 ---
 ## Forms2OleControl.Type property
@@ -18,20 +18,20 @@ public abstract Forms2OleControlType Type { get; }
 
 ## 例子
 
-演示如何验证 ActiveX 控件的属性。
+展示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

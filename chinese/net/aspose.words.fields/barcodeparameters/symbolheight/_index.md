@@ -2,8 +2,8 @@
 title: BarcodeParameters.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
-second_title: 用于 .NET 的 Aspose.Words
-description: BarcodeParameters SymbolHeight 财产. 条形码图像高度以缇为单位  1/1440 英寸 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BarcodeParameters SymbolHeight 属性，轻松调整条形码图像高度（以缇（1/1440 英寸）为单位），以获得最佳扫描性能。
 type: docs
 weight: 170
 url: /zh/net/aspose.words.fields/barcodeparameters/symbolheight/
@@ -27,9 +27,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 然后将它们作为图像插入到文档中。
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// 下面是我们可以使用生成器创建的不同条形码类型的四个示例。
+// 下面是我们可以使用生成器创建的四种不同条形码类型的示例。
 // 对于每个条形码，我们指定一组新的条形码参数，然后生成图像。
-// 之后，我们可以将图像插入到文档中，或者将其保存到本地文件系统。
+// 之后，我们可以将图像插入文档，或将其保存到本地文件系统。
 // 1 - 二维码：
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -44,8 +44,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - EAN13 条形码：
@@ -59,7 +65,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 条形码：
@@ -71,7 +84,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - ITF14 条形码：
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

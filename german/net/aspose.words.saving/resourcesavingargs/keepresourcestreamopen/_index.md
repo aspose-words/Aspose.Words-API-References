@@ -3,14 +3,14 @@ title: ResourceSavingArgs.KeepResourceStreamOpen
 linktitle: KeepResourceStreamOpen
 articleTitle: KeepResourceStreamOpen
 second_title: Aspose.Words für .NET
-description: ResourceSavingArgs KeepResourceStreamOpen eigendom. Gibt an ob Aspose.Words den Stream offen halten oder schließen soll nachdem eine Ressource gespeichert wurde in C#.
+description: Entdecken Sie, wie die KeepResourceStreamOpen-Eigenschaft in ResourceSavingArgs Aspose.Words verbessert, indem sie die Stream-Effizienz während der Ressourceneinsparung verwaltet.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/resourcesavingargs/keepresourcestreamopen/
 ---
 ## ResourceSavingArgs.KeepResourceStreamOpen property
 
-Gibt an, ob Aspose.Words den Stream offen halten oder schließen soll, nachdem eine Ressource gespeichert wurde.
+Gibt an, ob Aspose.Words den Stream nach dem Speichern einer Ressource geöffnet halten oder schließen soll.
 
 ```csharp
 public bool KeepResourceStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepResourceStreamOpen { get; set; }
 
 ## Bemerkungen
 
-Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream im[`ResourceStream`](../resourcestream/) Eigenschaft nach dem Schreiben einer Ressource in sie. Angeben`WAHR` um den Stream offen zu halten.
+Standard ist`FALSCH` und Aspose.Words schließt den von Ihnen bereitgestellten Stream im[`ResourceStream`](../resourcestream/) Eigenschaft, nachdem eine Ressource hineingeschrieben wurde. Geben Sie`WAHR` um den Stream offen zu halten.
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -56,7 +56,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

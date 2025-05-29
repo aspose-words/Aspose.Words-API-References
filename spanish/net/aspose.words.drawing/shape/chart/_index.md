@@ -3,14 +3,14 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words para .NET
-description: Shape Chart propiedad. Proporciona acceso a las propiedades del gráfico si esta forma tiene unChart  en C#.
+description: Desbloquea las propiedades de los gráficos con Shape Chart. ¡Mejora tu presentación visual de datos fácilmente y optimiza tu conocimiento hoy mismo!
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Proporciona acceso a las propiedades del gráfico si esta forma tiene un[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Proporciona acceso a las propiedades del gráfico si esta forma tiene una[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -18,7 +18,7 @@ public Chart Chart { get; }
 
 ## Observaciones
 
-Esta propiedad devolverá el[`Chart`](../../../aspose.words.drawing.charts/chart/) objeto sólo si[`HasChart`](../haschart/) propiedad es`verdadero` para esto[`Shape`](../)y, de lo contrario, generará una excepción.
+Esta propiedad devolverá el[`Chart`](../../../aspose.words.drawing.charts/chart/) objeto sólo si[`HasChart`](../haschart/)La propiedad es`verdadero` para esto[`Shape`](../), y lanzará una excepción en caso contrario.
 
 ## Ejemplos
 
@@ -57,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Devuelve todo el texto que ha acumulado StringBuilder.
+    /// Devuelve todo el texto que StringBuilder ha acumulado.
     /// </summary>
     public string GetText()
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

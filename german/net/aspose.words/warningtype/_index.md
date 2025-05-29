@@ -3,14 +3,14 @@ title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WarningType opsomming. Gibt den Typ einer Warnung an die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.WarningType, die Warnungen beim Laden oder Speichern von Dokumenten kategorisiert und so Ihr Dokumentverwaltungserlebnis verbessert.
 type: docs
-weight: 6660
+weight: 7510
 url: /de/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
 
-Gibt den Typ einer Warnung an, die von Aspose.Words beim Laden oder Speichern von Dokumenten ausgegeben wird.
+Gibt den Typ einer Warnung an, die von Aspose.Words beim Laden oder Speichern eines Dokuments ausgegeben wird.
 
 ```csharp
 [Flags]
@@ -21,21 +21,21 @@ public enum WarningType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| DataLossCategory | `FF` | Einige Text-, Zeichen-, Bild- oder andere Daten fehlen entweder im Dokumentbaum nach dem Laden, oder im erstellten Dokument nach dem Speichern. |
+| DataLossCategory | `FF` | Einige Texte/Zeichen/Bilder oder andere Daten fehlen entweder im Dokumentbaum nach dem Laden oder im erstellten Dokument nach dem Speichern. |
 | DataLoss | `1` | Allgemeiner Datenverlust, kein spezifischer Code. |
-| MajorFormattingLossCategory | `FF00` | Das resultierende Dokument oder eine bestimmte Stelle darin sieht möglicherweise erheblich anders aus als das Originaldokument. |
-| MajorFormattingLoss | `100` | Generell schwerwiegender Formatierungsverlust, kein spezifischer Code. |
-| MinorFormattingLossCategory | `FF0000` | Das resultierende Dokument oder eine bestimmte Stelle darin sieht im Vergleich möglicherweise etwas anders aus als das Originaldokument. |
-| MinorFormattingLoss | `10000` | Allgemeiner geringfügiger Formatierungsverlust, kein spezifischer Code. |
+| MajorFormattingLossCategory | `FF00` | Das resultierende Dokument oder eine bestimmte Stelle darin kann im Vergleich zum Originaldokument erheblich anders aussehen. |
+| MajorFormattingLoss | `100` | Allgemeiner, schwerwiegender Formatierungsverlust, kein spezifischer Code. |
+| MinorFormattingLossCategory | `FF0000` | Das resultierende Dokument oder eine bestimmte Stelle darin kann im Vergleich zum Originaldokument etwas anders aussehen. |
+| MinorFormattingLoss | `10000` | Allgemeiner kleiner Formatierungsverlust, kein spezifischer Code. |
 | FontSubstitution | `20000` | Schriftart wurde ersetzt. |
 | FontEmbedding | `40000` | Verlust eingebetteter Schriftartinformationen beim Speichern des Dokuments. |
-| UnexpectedContentCategory | `F000000` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (d. h. werden nicht unterstützt). Dies kann zu Problemen führen oder zu Daten-/Formatierungsverlusten führen. |
+| UnexpectedContentCategory | `F000000` | Einige Inhalte im Quelldokument konnten nicht erkannt werden (werden also nicht unterstützt). Dies kann, muss aber nicht, zu Problemen führen oder zu Daten-/Formatierungsverlusten führen. |
 | UnexpectedContent | `1000000` | Allgemeiner unerwarteter Inhalt, kein spezifischer Code. |
-| Hint | `10000000` | Macht auf ein potenzielles Problem aufmerksam oder schlägt eine Verbesserung vor. |
+| Hint | `10000000` | Weist auf ein mögliches Problem hin oder schlägt eine Verbesserung vor. |
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -43,7 +43,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -53,7 +53,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -72,7 +72,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

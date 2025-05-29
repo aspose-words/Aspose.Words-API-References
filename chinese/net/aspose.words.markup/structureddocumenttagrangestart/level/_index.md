@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart Level 财产. 获取文档树中此结构化文档标记范围开始出现的级别 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTagRangeStart Level 属性可以轻松识别其在文档树中的位置，从而提高文档管理效率。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-获取文档树中此结构化文档标记范围开始出现的级别。
+获取此结构化文档标签范围开始在文档树中出现的级别。
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +18,7 @@ public MarkupLevel Level { get; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

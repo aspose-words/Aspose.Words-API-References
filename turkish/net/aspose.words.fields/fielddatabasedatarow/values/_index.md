@@ -2,8 +2,8 @@
 title: FieldDatabaseDataRow.Values
 linktitle: Values
 articleTitle: Values
-second_title: Aspose.Words for .NET
-description: FieldDatabaseDataRow Values mülk. Bu satıra ait değerleri alır C#'da.
+second_title: .NET için Aspose.Words
+description: Her satır için veri değerlerine kolayca erişmek ve bunları yönetmek için FieldDatabaseDataRow Değerleri özelliğini keşfedin; böylece veri işleme verimliliğinizi artırın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/values/

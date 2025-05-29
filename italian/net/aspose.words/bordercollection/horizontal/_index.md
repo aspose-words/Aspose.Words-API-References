@@ -3,14 +3,14 @@ title: BorderCollection.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words per .NET
-description: BorderCollection Horizontal proprietà. Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi in C#.
+description: Scopri la proprietà BorderCollection Horizontal per bordi di celle e paragrafi senza soluzione di continuità. Migliora il tuo layout con allineamento e stile perfetti!
 type: docs
 weight: 50
 url: /it/net/aspose.words/bordercollection/horizontal/
 ---
 ## BorderCollection.Horizontal property
 
-Ottiene il bordo orizzontale utilizzato tra le celle o i paragrafi conformi.
+Ottiene il bordo orizzontale utilizzato tra celle o paragrafi conformi.
 
 ```csharp
 public Border Horizontal { get; }
@@ -18,19 +18,19 @@ public Border Horizontal { get; }
 
 ## Esempi
 
-Mostra come applicare le impostazioni ai bordi orizzontali al formato di un paragrafo.
+Mostra come applicare le impostazioni ai bordi orizzontali nel formato di un paragrafo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un bordo orizzontale rosso per il paragrafo. Tutti i paragrafi creati successivamente erediteranno queste impostazioni dei bordi.
+// Crea un bordo orizzontale rosso per il paragrafo. Tutti i paragrafi creati in seguito erediteranno queste impostazioni del bordo.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 borders.Horizontal.Color = Color.Red;
 borders.Horizontal.LineStyle = LineStyle.DashSmallGap;
 borders.Horizontal.LineWidth = 3;
 
-// Scrive il testo nel documento senza creare successivamente un nuovo paragrafo.
+// Scrive il testo nel documento senza creare un nuovo paragrafo in seguito.
 // Poiché non c'è alcun paragrafo sottostante, il bordo orizzontale non sarà visibile.
 builder.Write("Paragraph above horizontal border.");
 
@@ -41,7 +41,7 @@ builder.Write("Paragraph below horizontal border.");
 doc.Save(ArtifactsDir + "Border.HorizontalBorders.docx");
 ```
 
-Mostra come applicare le impostazioni ai bordi verticali al formato di una riga di tabella.
+Mostra come applicare le impostazioni ai bordi verticali nel formato di una riga di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +71,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Il formato di una riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
+// Un formato di riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

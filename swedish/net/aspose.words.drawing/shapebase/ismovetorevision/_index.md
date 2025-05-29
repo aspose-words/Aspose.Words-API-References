@@ -3,14 +3,14 @@ title: ShapeBase.IsMoveToRevision
 linktitle: IsMoveToRevision
 articleTitle: IsMoveToRevision
 second_title: Aspose.Words för .NET
-description: ShapeBase IsMoveToRevision fast egendom. ReturnerarSann om detta objekt flyttades infogades i Microsoft Word medan ändringsspårning var aktiverad i C#.
+description: Upptäck hur ShapeBases IsMoveToRevision-egenskap förbättrar din Microsoft Word-upplevelse genom att spåra objektrörelser sömlöst under redigeringar.
 type: docs
-weight: 330
+weight: 350
 url: /sv/net/aspose.words.drawing/shapebase/ismovetorevision/
 ---
 ## ShapeBase.IsMoveToRevision property
 
-Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
+Returer`sann` om det här objektet flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad.
 
 ```csharp
 public bool IsMoveToRevision { get; }
@@ -18,29 +18,29 @@ public bool IsMoveToRevision { get; }
 
 ## Exempel
 
-Visar hur man identifierar flyttversionsformer.
+Visar hur man identifierar former för flyttrevisioner.
 
 ```csharp
-// En flyttversion är när vi flyttar ett element i dokumentets brödtext genom att klippa ut och klistra in det i Microsoft Word medan
-// spåra ändringar. Om vi involverar en inline-form i en sådan textrörelse blir den formen också en revidering.
-// Att kopiera och klistra eller flytta flytande former skapar inte flyttändringar.
+// En flytt- och revisionsåtgärd är när vi flyttar ett element i dokumentets brödtext genom att klippa ut och klistra in det i Microsoft Word samtidigt som
+// spårning av ändringar. Om vi använder en inbäddad form i en sådan textförflyttning, kommer den formen också att vara en revision.
+// Att kopiera och klistra in eller flytta flytande former skapar inte flyttningsrevideringar.
 Document doc = new Document(MyDir + "Revision shape.docx");
 
-// Flytta revisioner består av par av "Flytta från" och "Flytta till" versioner. Vi flyttade in det här dokumentet i en form,
+// Flyttade revisioner består av par av "Flytta från" och "Flytta till" revisioner. Vi flyttade i det här dokumentet i en form,
 // men tills vi accepterar eller avvisar flyttrevisionen kommer det att finnas två instanser av den formen.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
 
-// Detta är "Flytta till"-revisionen, som är formen vid ankomstdestinationen.
-// Om vi accepterar revisionen kommer denna "Flytta till" versionsform att försvinna,
-// och versionsformen "Flytta från" kommer att finnas kvar.
+// Detta är "Flytta till"-revisionen, vilket är formen vid dess ankomstdestination.
+// Om vi accepterar revisionen kommer denna "Flytta till" revisionsform att försvinna,
+// och revisionsformen "Flytta från" kommer att finnas kvar.
 Assert.False(shapes[0].IsMoveFromRevision);
 Assert.True(shapes[0].IsMoveToRevision);
 
-// Detta är versionen "Flytta från", som är formen på sin ursprungliga plats.
-// Om vi accepterar revisionen kommer denna "Flytta från" versionsform att försvinna,
-// och versionsformen "Flytta till" kommer att finnas kvar.
+// Detta är "Flytta från"-revisionen, vilket är formen på sin ursprungliga plats.
+// Om vi accepterar revisionen kommer denna "Flytta från" revisionsform att försvinna,
+// och revisionsformen "Flytta till" kommer att finnas kvar.
 Assert.True(shapes[1].IsMoveFromRevision);
 Assert.False(shapes[1].IsMoveToRevision);
 ```

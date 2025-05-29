@@ -3,9 +3,9 @@ title: ParagraphFormat.OutlineLevel
 linktitle: OutlineLevel
 articleTitle: OutlineLevel
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat OutlineLevel ملكية. يحدد مستوى المخطط التفصيلي للفقرة في المستند في C#.
+description: اكتشف خاصية ParagraphFormat OutlineLevel لتحديد التسلسل الهرمي للفقرات في مستنداتك بسهولة، مما يعزز التنظيم وسهولة القراءة.
 type: docs
-weight: 250
+weight: 260
 url: /ar/net/aspose.words/paragraphformat/outlinelevel/
 ---
 ## ParagraphFormat.OutlineLevel property
@@ -18,30 +18,30 @@ public OutlineLevel OutlineLevel { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين مستويات المخطط التفصيلي للفقرة لإنشاء نص قابل للطي.
+يوضح كيفية تكوين مستويات مخطط الفقرة لإنشاء نص قابل للطي.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// تحتوي كل فقرة على OutlineLevel، والذي يمكن أن يكون أي رقم من 1 إلى 9، أو بالقيمة الافتراضية "BodyText".
-// سيؤدي تعيين الخاصية إلى إحدى القيم المرقمة إلى ظهور سهم إلى اليسار
-// بداية الفقرة.
+// تحتوي كل فقرة على OutlineLevel، والذي يمكن أن يكون أي رقم من 1 إلى 9، أو قيمة "BodyText" الافتراضية.
+// سيؤدي تعيين الخاصية إلى إحدى القيم المرقمة إلى إظهار سهم إلى اليسار
+// من بداية الفقرة.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level1;
 builder.Writeln("Paragraph outline level 1.");
 
-// المستوى 1 هو المستوى الأعلى. إذا كانت هناك فقرة ذات مستوى أدنى أسفل فقرة ذات مستوى أعلى،
-// سيؤدي طي الفقرة ذات المستوى الأعلى إلى طي الفقرة ذات المستوى الأدنى.
+// المستوى ١ هو المستوى الأعلى. إذا كانت هناك فقرة ذات مستوى أدنى أسفل فقرة ذات مستوى أعلى،
+// سيؤدي انهيار الفقرة ذات المستوى الأعلى إلى انهيار الفقرة ذات المستوى الأدنى.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level2;
 builder.Writeln("Paragraph outline level 2.");
 
-// فقرتان من نفس المستوى لن تنهارا،
-// ولا تؤدي الأسهم إلى طي الفقرات التي تشير إليها.
+// لن تنهار فقرتان من نفس المستوى مع بعضهما البعض،
+// والسهام لا تنهار الفقرات التي تشير إليها.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.Level3;
 builder.Writeln("Paragraph outline level 3.");
 builder.Writeln("Paragraph outline level 3.");
 
-// قيمة "BodyText" الافتراضية هي الأدنى، والتي يمكن طيها لفقرة من أي مستوى.
+// القيمة الافتراضية لـ "BodyText" هي الأدنى، والتي يمكن لفقرة من أي مستوى أن تنهار عندها.
 builder.ParagraphFormat.OutlineLevel = OutlineLevel.BodyText;
 builder.Writeln("Paragraph at main text level.");
 

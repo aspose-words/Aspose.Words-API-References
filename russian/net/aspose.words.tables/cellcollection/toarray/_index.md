@@ -3,7 +3,7 @@ title: CellCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words для .NET
-description: CellCollection ToArray метод. Копирует все ячейки из коллекции в новый массив ячеек на С#.
+description: С легкостью преобразуйте CellCollection в новый массив с помощью метода ToArray, оптимизируя управление данными и повышая производительность.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.tables/cellcollection/toarray/
@@ -22,7 +22,7 @@ public Cell[] ToArray()
 
 ## Примеры
 
-Показывает, как перебрать все таблицы в документе и распечатать содержимое каждой ячейки.
+Показывает, как выполнить итерацию по всем таблицам в документе и распечатать содержимое каждой ячейки.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Мы можем использовать метод ToArray для коллекции строк, чтобы клонировать ее в массив.
+    // Мы можем использовать метод «ToArray» для коллекции строк, чтобы клонировать ее в массив.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Мы можем использовать метод ToArray для коллекции ячеек, чтобы клонировать ее в массив.
+        // Мы можем использовать метод «ToArray» для коллекции ячеек, чтобы клонировать ее в массив.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection Clear метод. Удаляет все элементы из этой коллекции на С#.
+description: Легко очистите OdsoFieldMapDataCollection с помощью нашего метода Clear, гарантируя новый старт за счет быстрого и эффективного удаления всех элементов.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

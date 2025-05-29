@@ -2,8 +2,8 @@
 title: FieldFormText
 linktitle: FieldFormText
 articleTitle: FieldFormText
-second_title: Aspose.Words for .NET
-description: FieldFormText inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFormText oluşturucusunu keşfedin—formlarda kusursuz metin yönetimi için başvuracağınız çözüm. Geliştirme sürecinizi bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformtext/fieldformtext/

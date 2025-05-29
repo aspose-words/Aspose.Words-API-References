@@ -3,9 +3,9 @@ title: FieldAutoTextList Class
 linktitle: FieldAutoTextList
 articleTitle: FieldAutoTextList
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldAutoTextList klas. Implementiert das AUTOTEXTLISTFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldAutoTextList, die die Dokumentautomatisierung durch effiziente AUTOTEXTLIST-Feldimplementierung optimieren soll.
 type: docs
-weight: 1620
+weight: 2030
 url: /de/net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
@@ -31,14 +31,14 @@ public class FieldAutoTextList : Field
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
 | [EntryName](../../aspose.words.fields/fieldautotextlist/entryname/) { get; set; } | Ruft den Namen des AutoText-Eintrags ab oder legt ihn fest. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
-| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Ruft den Namen des Stils ab, auf dem die Liste mit Einträgen basiert, oder legt diesen fest. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
+| [ListStyle](../../aspose.words.fields/fieldautotextlist/liststyle/) { get; set; } | Ruft den Namen des Stils ab oder legt ihn fest, auf dem die Liste mit den Einträgen basiert. |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Ruft den Text der anzuzeigenden QuickInfo ab oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [ScreenTip](../../aspose.words.fields/fieldautotextlist/screentip/) { get; set; } | Ruft den Text des anzuzeigenden ScreenTips ab oder legt ihn fest. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
@@ -46,10 +46,10 @@ public class FieldAutoTextList : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
@@ -59,14 +59,14 @@ Erstellt ein Kontextmenü basierend auf AutoText-Einträgen in der aktiven Vorla
 
 ## Beispiele
 
-Zeigt, wie ein AUTOTEXTLIST-Feld verwendet wird, um aus einer Liste von AutoText-Einträgen auszuwählen.
+Zeigt, wie Sie mithilfe eines AUTOTEXTLIST-Felds aus einer Liste mit AutoText-Einträgen auswählen.
 
 ```csharp
 public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // Ein Glossardokument erstellen und es mit automatischen Texteinträgen füllen.
+    // Erstellen Sie ein Glossardokument und füllen Sie es mit automatischen Texteinträgen.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -74,9 +74,9 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Erstellen Sie ein AUTOTEXTLIST-Feld und legen Sie den Text fest, den das Feld in Microsoft Word anzeigen soll.
-    // Legen Sie den Text so fest, dass der Benutzer aufgefordert wird, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen.
-    // dessen Inhalt das Feld anzeigt.
+    // Erstellen Sie ein AUTOTEXTLIST-Feld und legen Sie den Text fest, der im Feld in Microsoft Word angezeigt wird.
+    // Legen Sie den Text fest, der den Benutzer auffordert, mit der rechten Maustaste auf dieses Feld zu klicken, um einen AutoText-Baustein auszuwählen.
+    // dessen Inhalt das Feld anzeigen wird.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
     field.ListStyle = "Heading 1";

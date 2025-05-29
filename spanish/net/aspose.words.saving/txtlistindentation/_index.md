@@ -3,16 +3,16 @@ title: TxtListIndentation Class
 linktitle: TxtListIndentation
 articleTitle: TxtListIndentation
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.TxtListIndentation clase. Especifica cómo se sangran los niveles de la lista cuando el documento se exporta aText formato en C#.
+description: Descubra la clase Aspose.Words.Saving.TxtListIndentation para personalizar la sangría de las listas y lograr exportaciones fluidas en formato de texto. ¡Mejore el formato de sus documentos!
 type: docs
-weight: 5650
+weight: 6450
 url: /es/net/aspose.words.saving/txtlistindentation/
 ---
 ## TxtListIndentation class
 
-Especifica cómo se sangran los niveles de la lista cuando el documento se exporta aText formato.
+Especifica cómo se sangran los niveles de lista cuando el documento se exporta aText formato.
 
-Para obtener más información, visite el[Guardar un documento](https://docs.aspose.com/words/net/save-a-document/) artículo de documentación.
+Para obtener más información, visite el[Guardar un documento](https://docs.aspose.com/words/net/save-a-document/) Artículo de documentación.
 
 ```csharp
 public class TxtListIndentation
@@ -28,12 +28,12 @@ public class TxtListIndentation
 
 | Nombre | Descripción |
 | --- | --- |
-| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Obtiene o establece qué carácter usar para sangrar los niveles de la lista. El valor predeterminado es '\0', eso significa que no hay sangría. |
-| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Obtiene o establece cuántos[`Character`](./character/) para usar como sangría por nivel de lista. El valor predeterminado es 0, eso significa que no hay sangría. |
+| [Character](../../aspose.words.saving/txtlistindentation/character/) { get; set; } | Obtiene o establece qué carácter utilizar para sangrar los niveles de lista. El valor predeterminado es '\0', lo que significa que no hay sangría. |
+| [Count](../../aspose.words.saving/txtlistindentation/count/) { get; set; } | Obtiene o establece cuántos[`Character`](./character/)para usar como sangría por cada nivel de lista. El valor predeterminado es 0, lo que significa que no hay sangría. |
 
 ## Ejemplos
 
-Muestra cómo configurar la sangría de lista al guardar un documento en texto sin formato.
+Muestra cómo configurar la sangría de lista al guardar un documento como texto sin formato.
 
 ```csharp
 Document doc = new Document();
@@ -47,25 +47,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
-// para modificar cómo guardamos el documento en texto plano.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
+// para modificar la forma en que guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Establece la propiedad "Carácter" para asignar un carácter a usar
+// Establezca la propiedad "Carácter" para asignar un personaje a utilizar
 // para relleno que simula la sangría de lista en texto sin formato.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Establece la propiedad "Count" para especificar el número de veces
+// Establezca la propiedad "Count" para especificar el número de veces
 // para colocar el carácter de relleno para cada nivel de sangría de la lista.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Ver también

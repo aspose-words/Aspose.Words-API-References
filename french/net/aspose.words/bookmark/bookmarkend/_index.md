@@ -3,7 +3,7 @@ title: Bookmark.BookmarkEnd
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words pour .NET
-description: Bookmark BookmarkEnd propriété. Obtient le nœud qui représente la fin du signet en C#.
+description: Découvrez la propriété BookmarkEnd, accédez facilement au nœud marquant la fin de votre signet pour une navigation et une gestion efficace des documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/bookmark/bookmarkend/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

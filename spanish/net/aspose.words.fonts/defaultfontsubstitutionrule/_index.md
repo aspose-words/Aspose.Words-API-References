@@ -3,16 +3,16 @@ title: DefaultFontSubstitutionRule Class
 linktitle: DefaultFontSubstitutionRule
 articleTitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Fonts.DefaultFontSubstitutionRule clase. Regla de sustitución de fuentes predeterminada en C#.
+description: Descubra la clase Aspose.Words.Fonts.DefaultFontSubstitutionRule para una gestión fluida de fuentes y un formato de documentos mejorado. ¡Optimice su flujo de trabajo hoy mismo!
 type: docs
-weight: 2840
+weight: 3250
 url: /es/net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
 
-Regla de sustitución de fuentes predeterminada.
+Regla de sustitución de fuente predeterminada.
 
-Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con fuentes](https://docs.aspose.com/words/net/working-with-fonts/) Artículo de documentación.
 
 ```csharp
 public class DefaultFontSubstitutionRule : FontSubstitutionRule
@@ -27,11 +27,11 @@ public class DefaultFontSubstitutionRule : FontSubstitutionRule
 
 ## Observaciones
 
-Esta regla define un nombre de fuente predeterminado único que se utilizará para la sustitución si la fuente original no está disponible.
+Esta regla define un único nombre de fuente predeterminado que se utilizará para la sustitución si la fuente original no está disponible.
 
 ## Ejemplos
 
-Muestra cómo configurar la regla de sustitución de fuentes predeterminada.
+Muestra cómo establecer la regla de sustitución de fuente predeterminada.
 
 ```csharp
 Document doc = new Document();
@@ -39,17 +39,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // Obtenga la regla de sustitución predeterminada dentro de FontSettings.
-// Esta regla sustituirá todas las fuentes que falten por "Times New Roman".
+// Esta regla sustituirá todas las fuentes faltantes con "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Establece el sustituto de fuente predeterminado en "Courier New".
+// Establezca la fuente sustituta predeterminada en "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Utilizando un generador de documentos, agrega texto en una fuente que no tengamos que ver cómo se realiza la sustitución,
-// y luego renderizar el resultado en un PDF.
+// Usando un generador de documentos, agregue algo de texto en una fuente que no tengamos que ver cuando se realice la sustitución.
+// y luego renderizar el resultado en formato PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";

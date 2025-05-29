@@ -3,16 +3,16 @@ title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaModule فصل. يوفر الوصول إلى وحدة مشروع VBA في C#.
+description: استغل قوة Aspose.Words.Vba.VbaModule للوصول بسلاسة إلى وحدات مشروع VBA. حسّن إنتاجيتك وحسّن أتمتة مستنداتك!
 type: docs
-weight: 6550
+weight: 7400
 url: /ar/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
 
 يوفر الوصول إلى وحدة مشروع VBA.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وحدات ماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع وحدات الماكرو VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) مقالة توثيقية.
 
 ```csharp
 public class VbaModule
@@ -22,43 +22,43 @@ public class VbaModule
 
 | اسم | وصف |
 | --- | --- |
-| [VbaModule](vbamodule/)() | إنشاء وحدة فارغة. |
+| [VbaModule](vbamodule/)() | ينشئ وحدة فارغة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | الحصول على اسم الوحدة النمطية لمشروع VBA أو تعيينه. |
-| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | الحصول على الكود المصدري لوحدة مشروع VBA أو تعيينه. |
-| [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | يحدد ما إذا كانت الوحدة هي وحدة إجرائية، أو وحدة مستند، أو وحدة فئة، أو وحدة مصمم. |
+| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | يحصل على اسم وحدة مشروع VBA أو يعينه. |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | يحصل على كود مصدر وحدة مشروع VBA أو يعينه. |
+| [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | يحدد ما إذا كانت الوحدة عبارة عن وحدة إجرائية أو وحدة مستند أو وحدة فئة أو وحدة مصمم. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.vba/vbamodule/clone/)() | ينفذ نسخة من`VbaModule` . |
+| [Clone](../../aspose.words.vba/vbamodule/clone/)() | يقوم بإجراء نسخة من`VbaModule` . |
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى معلومات مشروع VBA الخاص بالمستند.
+يوضح كيفية الوصول إلى معلومات مشروع VBA الخاصة بالمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
 
-// يحتوي مشروع VBA على مجموعة من وحدات VBA.
+//يحتوي مشروع VBA على مجموعة من وحدات VBA.
 VbaProject vbaProject = doc.VbaProject;
 Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// قم بتعيين كود مصدر جديد لوحدة VBA. يمكنك الوصول إلى وحدات VBA الموجودة في المجموعة إما عن طريق الفهرس أو بالاسم.
+// تعيين شيفرة مصدر جديدة لوحدة VBA. يمكنك الوصول إلى وحدات VBA في المجموعة إما عن طريق الفهرس أو الاسم.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

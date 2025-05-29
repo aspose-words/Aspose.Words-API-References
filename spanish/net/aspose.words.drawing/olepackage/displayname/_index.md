@@ -3,7 +3,7 @@ title: OlePackage.DisplayName
 linktitle: DisplayName
 articleTitle: DisplayName
 second_title: Aspose.Words para .NET
-description: OlePackage DisplayName propiedad. Obtiene o establece el nombre para mostrar del paquete OLE en C#.
+description: Descubra la propiedad OlePackage DisplayName para administrar fácilmente los nombres para mostrar de los paquetes OLE. Mejore la organización de sus datos con esta función clave.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/olepackage/displayname/

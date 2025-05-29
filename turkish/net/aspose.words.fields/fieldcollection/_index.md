@@ -2,17 +2,17 @@
 title: FieldCollection Class
 linktitle: FieldCollection
 articleTitle: FieldCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldCollection sınıf. Bir koleksiyonField belirtilen aralıktaki alanları temsil eden nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Belirtilen belge aralıkları içindeki Alan nesnelerini yönetmek ve belge otomasyonunuzu geliştirmek için güçlü bir sınıf olan Aspose.Words.FieldCollection'ı keşfedin.
 type: docs
-weight: 1690
+weight: 2100
 url: /tr/net/aspose.words.fields/fieldcollection/
 ---
 ## FieldCollection class
 
 Bir koleksiyon[`Field`](../field/) belirtilen aralıktaki alanları temsil eden nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldCollection : IEnumerable<Field>
@@ -23,14 +23,14 @@ public class FieldCollection : IEnumerable<Field>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.fields/fieldcollection/count/) { get; } | Koleksiyondaki alanların sayısını döndürür. |
-| [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | Belirtilen dizindeki bir alanı döndürür. |
+| [Item](../../aspose.words.fields/fieldcollection/item/) { get; } | Belirtilen dizinde bir alan döndürür. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Bu koleksiyondaki tüm alanları belgeden ve bu koleksiyonun kendisinden kaldırır. |
-| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [Clear](../../aspose.words.fields/fieldcollection/clear/)() | Bu koleksiyonun tüm alanlarını belgeden ve bu koleksiyonun kendisinden kaldırır. |
+| [GetEnumerator](../../aspose.words.fields/fieldcollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 | [Remove](../../aspose.words.fields/fieldcollection/remove/)(*[Field](../field/)*) | Belirtilen alanı bu koleksiyondan ve belgeden kaldırır. |
 | [RemoveAt](../../aspose.words.fields/fieldcollection/removeat/)(*int*) | Belirtilen dizindeki bir alanı bu koleksiyondan ve belgeden kaldırır. |
 
@@ -38,13 +38,13 @@ public class FieldCollection : IEnumerable<Field>
 
 Bu koleksiyonun bir örneği, belirtilen aralıkta başlayan alanları yineler.
 
-`FieldCollection` koleksiyon, içerdiği alanlara sahip değildir; yalnızca alanlardan oluşan bir seçimdir.
+The`FieldCollection` koleksiyon, içerdiği alanlara sahip değildir, yalnızca alanların bir seçimidir.
 
-`FieldCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, koleksiyon tarafından döndürülen alanlara anında yansıtılır.`FieldCollection` özellikleri ve yöntemleri.
+The`FieldCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün çocuklarında yapılan değişiklikler, tarafından döndürülen alanlara hemen yansıtılır`FieldCollection` özellikleri ve yöntemleri.
 
 ## Örnekler
 
-Alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
+Bir alan koleksiyonundan alanların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -62,26 +62,26 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Aşağıda alanları bir alan koleksiyonundan kaldırmanın dört yolu verilmiştir.
-// 1 - Kendini kaldıracak bir alan edinin:
+// Aşağıda bir alan koleksiyonundan alanları kaldırmanın dört yolu bulunmaktadır.
+// 1 - Bir alanın kendisini kaldırmasını sağla:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Kaldırma yöntemine ilettiğimiz bir alanı kaldırmak için koleksiyonu alın:
+// 2 - Kaldırma yöntemine geçirdiğimiz bir alanı kaldırmak için koleksiyonu edinin:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 - Bir dizindeki koleksiyondan bir alanı kaldırın:
+// 3 - Bir dizindeki bir koleksiyondan bir alanı kaldır:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Koleksiyondaki tüm alanları tek seferde kaldırın:
+// 4 - Koleksiyondaki tüm alanları aynı anda kaldır:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
 
-Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
+Alan koleksiyonlarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void FieldCollection()
@@ -101,8 +101,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri yazdırıp yazın
-    // özel bir ziyaretçi uygulaması kullanarak her alanın.
+    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri ve türü yazdırın
+    // her alanın özel ziyaretçi uygulamasını kullanarak.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -126,7 +126,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Alan bilgilerini yazdıran ziyaretçi uygulamasını belgeleyin.
+/// Alan bilgilerini yazdıran belge ziyaretçisi uygulaması.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -136,7 +136,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -156,7 +156,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -166,7 +166,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

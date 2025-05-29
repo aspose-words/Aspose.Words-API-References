@@ -3,14 +3,14 @@ title: MailMerge.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words لـ .NET
-description: MailMerge GetFieldNames طريقة. إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المستند في C#.
+description: اكتشف طريقة MailMerge GetFieldNames للوصول بسهولة إلى جميع أسماء حقول دمج البريد في مستندك واستخدامها لأتمتة المستندات بشكل مبسط.
 type: docs
 weight: 220
 url: /ar/net/aspose.words.mailmerging/mailmerge/getfieldnames/
 ---
 ## MailMerge.GetFieldNames method
 
-إرجاع مجموعة من أسماء حقول دمج المراسلات المتوفرة في المستند.
+يقوم بإرجاع مجموعة من أسماء حقول دمج البريد المتوفرة في المستند.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,15 +18,15 @@ public string[] GetFieldNames()
 
 ## ملاحظات
 
-إرجاع أسماء حقول الدمج الكاملة بما في ذلك البادئة الاختيارية. لا يزيل أسماء الحقول المكررة.
+يُرجع أسماء حقول الدمج كاملةً، بما في ذلك البادئة الاختيارية. لا يُلغي أسماء الحقول المكررة.
 
-يتم إنشاء مصفوفة سلسلة جديدة في كل مكالمة.
+يتم إنشاء مجموعة سلسلة جديدة في كل مكالمة.
 
-يتضمن أسماء الحقول "شارب" إذا[`UseNonMergeFields`](../usenonmergefields/) يكون`حقيقي`.
+يتضمن أسماء حقول "الشارب" إذا[`UseNonMergeFields`](../usenonmergefields/) يكون`حقيقي`.
 
 ## أمثلة
 
-يوضح كيفية الحصول على أسماء جميع حقول الدمج في المستند.
+يُظهر كيفية الحصول على أسماء جميع حقول الدمج في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ dataTable.Rows.Add(new object[] { "John", "Doe", "New York" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 
 // لكل اسم MERGEFIELD في المستند، تأكد من أن جدول البيانات يحتوي على عمود
- // بنفس الاسم، ثم قم بتنفيذ عملية دمج المراسلات.
+ // بنفس الاسم، ثم قم بتنفيذ دمج البريد.
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
 Assert.AreEqual(3, fieldNames.Length);

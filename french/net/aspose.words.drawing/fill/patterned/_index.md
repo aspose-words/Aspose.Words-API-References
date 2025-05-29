@@ -3,9 +3,9 @@ title: Fill.Patterned
 linktitle: Patterned
 articleTitle: Patterned
 second_title: Aspose.Words pour .NET
-description: Fill Patterned méthode. Définit le remplissage spécifié sur un motif en C#.
+description: Découvrez la méthode Fill Patterned pour appliquer sans effort des motifs uniques à vos créations, améliorant ainsi la créativité et l'attrait visuel de vos projets.
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/aspose.words.drawing/fill/patterned/
 ---
 ## Patterned(*[PatternType](../../patterntype/)*) {#patterned}
@@ -33,7 +33,7 @@ Fill fill = shape.Fill;
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
 // Il existe plusieurs façons de spécifier le remplissage d'un motif.
-// 1 - Appliquer un motif au remplissage de la forme :
+// 1 - Appliquer le motif au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick);
 
 // 2 - Appliquer un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :
@@ -78,7 +78,7 @@ Fill fill = shape.Fill;
 Console.WriteLine("Pattern value is: {0}", fill.Pattern);
 
 // Il existe plusieurs façons de spécifier le remplissage d'un motif.
-// 1 - Appliquer un motif au remplissage de la forme :
+// 1 - Appliquer le motif au remplissage de la forme :
 fill.Patterned(PatternType.DiagonalBrick);
 
 // 2 - Appliquer un motif avec des couleurs de premier plan et d'arrière-plan au remplissage de la forme :

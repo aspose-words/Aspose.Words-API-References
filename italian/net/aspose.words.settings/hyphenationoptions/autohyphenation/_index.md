@@ -3,14 +3,14 @@ title: HyphenationOptions.AutoHyphenation
 linktitle: AutoHyphenation
 articleTitle: AutoHyphenation
 second_title: Aspose.Words per .NET
-description: HyphenationOptions AutoHyphenation proprietà. Ottiene o imposta un valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà èfalso  in C#.
+description: Controlla la sillabazione automatica con la proprietà HyphenationOptions. Migliora facilmente la leggibilità del tuo documento attivando o disattivando questa funzione.
 type: docs
 weight: 20
 url: /it/net/aspose.words.settings/hyphenationoptions/autohyphenation/
 ---
 ## HyphenationOptions.AutoHyphenation property
 
-Ottiene o imposta un valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà è`falso` .
+Ottiene o imposta il valore che determina se la sillabazione automatica è attivata per il documento. Il valore predefinito per questa proprietà è`falso` .
 
 ```csharp
 public bool AutoHyphenation { get; set; }

@@ -3,14 +3,14 @@ title: FieldIndex.HasPageNumberSeparator
 linktitle: HasPageNumberSeparator
 articleTitle: HasPageNumberSeparator
 second_title: Aspose.Words para .NET
-description: FieldIndex HasPageNumberSeparator propiedad. Obtiene un valor que indica si un separador de número de página se anula mediante el código del campo en C#.
+description: Descubra la propiedad FieldIndex HasPageNumberSeparator, que revela si un separador de número de página está personalizado a través del código de campo para un formato mejorado del documento.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldindex/haspagenumberseparator/
 ---
 ## FieldIndex.HasPageNumberSeparator property
 
-Obtiene un valor que indica si un separador de número de página se anula mediante el código del campo.
+Obtiene un valor que indica si se reemplaza un separador de número de página a través del código del campo.
 
 ```csharp
 public bool HasPageNumberSeparator { get; }
@@ -24,16 +24,16 @@ Muestra cómo editar el separador de número de página en un campo ÍNDICE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree un campo ÍNDICE que mostrará una entrada para cada campo XE que se encuentra en el documento.
-// Cada entrada mostrará el valor de la propiedad Texto del campo XE en el lado izquierdo,
+// Cree un campo INDEX que mostrará una entrada para cada campo XE encontrado en el documento.
+// Cada entrada mostrará el valor de la propiedad de Texto del campo XE en el lado izquierdo,
 // y el número de la página que contiene el campo XE a la derecha.
-// La entrada ÍNDICE agrupará los campos XE con valores coincidentes en la propiedad "Texto"
-// en una entrada en lugar de hacer una entrada para cada campo XE.
+// La entrada INDEX agrupará los campos XE con valores coincidentes en la propiedad "Texto"
+// en una sola entrada en lugar de hacer una entrada para cada campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Si nuestro campo ÍNDICE tiene una entrada para un grupo de campos XE,
+// Si nuestro campo INDEX tiene una entrada para un grupo de campos XE,
 // esta entrada mostrará el número de cada página que contiene un campo XE que pertenece a este grupo.
-// Podemos establecer separadores personalizados para personalizar la apariencia de estos números de página.
+//Podemos configurar separadores personalizados para personalizar la apariencia de estos números de página.
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
 

@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit propriété. Obtient ou définit un indicateur indiquant si lespacement entre les caractères est automatiquement ajusté entre les régions des nombres et les régions du texte dAsie de lEst dans le paragraphe actuel en C#.
+description: Optimisez la mise en page de votre document avec la propriété AddSpaceBetweenFarEastAndDigit, améliorant la lisibilité en ajustant l'espacement entre le texte et les nombres d'Asie de l'Est.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Obtient ou définit un indicateur indiquant si l'espacement entre les caractères est automatiquement ajusté entre les régions des nombres et les régions du texte d'Asie de l'Est dans le paragraphe actuel.
+Obtient ou définit un indicateur indiquant si l'espacement entre les caractères est automatiquement ajusté entre les régions de nombres et les régions de texte d'Asie de l'Est dans le paragraphe actuel.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// La méthode "Writeln" termine le paragraphe après avoir ajouté du texte
-// puis commence une nouvelle ligne, ajoutant un nouveau paragraphe.
+// La méthode « Writeln » termine le paragraphe après avoir ajouté du texte
+// puis démarre une nouvelle ligne, ajoutant un nouveau paragraphe.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

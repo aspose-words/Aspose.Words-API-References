@@ -3,7 +3,7 @@ title: ConvertUtil.PointToPixel
 linktitle: PointToPixel
 articleTitle: PointToPixel
 second_title: Aspose.Words per .NET
-description: ConvertUtil PointToPixel metodo. Converte i punti in pixel a 96 dpi in C#.
+description: Converti facilmente i punti in pixel con il metodo PointToPixel di ConvertUtil, ottimizzato per 96 dpi. Migliora la precisione del tuo design oggi stesso!
 type: docs
 weight: 60
 url: /it/net/aspose.words/convertutil/pointtopixel/
@@ -32,8 +32,8 @@ Mostra come specificare le proprietà della pagina in pixel.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "Imposta pagina" di una sezione definisce la dimensione dei margini della pagina in punti.
-// Possiamo anche usare la classe "ConvertUtil" per usare un'unità di misura diversa,
+// L'impostazione di pagina di una sezione definisce la dimensione dei margini della pagina in punti.
+// Possiamo anche utilizzare la classe "ConvertUtil" per utilizzare un'unità di misura diversa,
 // come i pixel quando si definiscono i confini.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
@@ -48,7 +48,7 @@ Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 // Il valore DPI predefinito utilizzato è 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Aggiungi contenuto per dimostrare i nuovi margini.
+// Aggiungere contenuto per dimostrare i nuovi margini.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -84,13 +84,13 @@ public static double PointToPixel(double points, double resolution)
 
 ## Esempi
 
-Mostra come utilizzare i punti di conversione in pixel con risoluzione predefinita e personalizzata.
+Mostra come usare la conversione dei punti in pixel con risoluzione predefinita e personalizzata.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definisce la dimensione del margine superiore di questa sezione in pixel, secondo un DPI personalizzato.
+// Definisci la dimensione del margine superiore di questa sezione in pixel, in base a un DPI personalizzato.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;
@@ -98,7 +98,7 @@ pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
 Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
 
-// Al DPI predefinito di 96, un pixel equivale a 0,75 punti.
+// Con il DPI predefinito di 96, un pixel equivale a 0,75 punti.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +

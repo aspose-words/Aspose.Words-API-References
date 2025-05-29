@@ -3,14 +3,14 @@ title: LayoutCollector.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words pour .NET
-description: LayoutCollector Clear méthode. Efface toutes les données de mise en page collectées. Appelez cette méthode après que le document a été mis à jour manuellement ou que la mise en page a été reconstruite en C#.
+description: Effacez efficacement toutes les données de mise en page collectées grâce à la méthode LayoutCollector Clear. Idéale pour la gestion des documents après mise à jour et la reconstruction des mises en page.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.layout/layoutcollector/clear/
 ---
 ## LayoutCollector.Clear method
 
-Efface toutes les données de mise en page collectées. Appelez cette méthode après que le document a été mis à jour manuellement ou que la mise en page a été reconstruite.
+Efface toutes les données de mise en page collectées. Appelez cette méthode après une mise à jour manuelle du document ou une reconstruction de la mise en page.
 
 ```csharp
 public void Clear()
@@ -18,18 +18,18 @@ public void Clear()
 
 ## Exemples
 
-Montre comment afficher les plages de pages couvertes par un nœud.
+Montre comment voir les plages de pages qu'un nœud couvre.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Appelez la méthode "GetNumPagesSpanned" pour compter le nombre de pages que couvre le contenu de notre document.
-// Puisque le document est vide, ce nombre de pages est actuellement nul.
+// Appelez la méthode « GetNumPagesSpanned » pour compter le nombre de pages sur lesquelles s'étend le contenu de notre document.
+// Étant donné que le document est vide, ce nombre de pages est actuellement nul.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
-// Remplit le document avec 5 pages de contenu.
+// Remplissez le document avec 5 pages de contenu.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Section 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
 // Avant le collecteur de mise en page, nous devons appeler la méthode "UpdatePageLayout" pour nous donner
-// un chiffre précis pour toute métrique liée à la mise en page, telle que le nombre de pages.
+// un chiffre précis pour toute mesure liée à la mise en page, telle que le nombre de pages.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues globales de pages.
+// Nous pouvons voir les numéros des pages de début et de fin de n'importe quel nœud et leurs étendues de pages globales.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {

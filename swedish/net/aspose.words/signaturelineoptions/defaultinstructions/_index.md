@@ -3,14 +3,14 @@ title: SignatureLineOptions.DefaultInstructions
 linktitle: DefaultInstructions
 articleTitle: DefaultInstructions
 second_title: Aspose.Words för .NET
-description: SignatureLineOptions DefaultInstructions fast egendom. Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen ärSann  i C#.
+description: Upptäck hur egenskapen SignatureLineOptions DefaultInstructions förbättrar din signeringsdialogruta med anpassningsbara standardinstruktioner för en sömlös användarupplevelse.
 type: docs
 weight: 30
 url: /sv/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-Hämtar eller ställer in ett värde som indikerar att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är`Sann` .
+Hämtar eller anger ett värde som anger att standardinstruktioner visas i dialogrutan Signera. Standardvärdet för den här egenskapen är`sann` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

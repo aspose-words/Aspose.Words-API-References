@@ -3,14 +3,14 @@ title: ShapeBase.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
 second_title: Aspose.Words لـ .NET
-description: ShapeBase SizeInPoints ملكية. الحصول على حجم الشكل بالنقاط في C#.
+description: اكتشف خاصية ShapeBase SizeInPoints لاسترداد أبعاد الشكل بالنقاط وإدارتها بسهولة للتحكم الدقيق في التصميم.
 type: docs
-weight: 510
+weight: 540
 url: /ar/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-الحصول على حجم الشكل بالنقاط.
+يحصل على حجم الشكل بالنقاط.
 
 ```csharp
 public SizeF SizeInPoints { get; }

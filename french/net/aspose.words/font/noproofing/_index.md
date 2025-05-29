@@ -3,7 +3,7 @@ title: Font.NoProofing
 linktitle: NoProofing
 articleTitle: NoProofing
 second_title: Aspose.Words pour .NET
-description: Font NoProofing propriété. Vrai lorsque les caractères formatés ne doivent pas être vérifiés orthographiquement en C#.
+description: Découvrez Font NoProofing. Supprimez la vérification orthographique du texte formaté pour des designs plus nets. Améliorez vos documents avec précision et professionnalisme !
 type: docs
 weight: 280
 url: /fr/net/aspose.words/font/noproofing/
@@ -24,8 +24,8 @@ Montre comment empêcher la vérification orthographique du texte par Microsoft 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Normalement, Microsoft Word met l'accent sur les fautes d'orthographe avec un soulignement rouge irrégulier.
-// Nous pouvons désactiver l'indicateur "NoProofing" pour créer une partie de texte qui
+// Normalement, Microsoft Word met en évidence les fautes d'orthographe avec un soulignement rouge irrégulier.
+// Nous pouvons désactiver l'indicateur « NoProofing » pour créer une partie de texte qui
 // contourne le correcteur orthographique tout en le désactivant complètement.
 builder.Font.NoProofing = true;
 

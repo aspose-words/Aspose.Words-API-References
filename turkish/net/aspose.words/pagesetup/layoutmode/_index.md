@@ -2,8 +2,8 @@
 title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
-second_title: Aspose.Words for .NET
-description: PageSetup LayoutMode mülk. Bu bölümün düzen modunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin düzenini kolayca özelleştirmek için PageSetup LayoutMode özelliğini keşfedin. Esnek bölüm seçenekleriyle tasarımınızı geliştirin!
 type: docs
 weight: 190
 url: /tr/net/aspose.words/pagesetup/layoutmode/
@@ -18,17 +18,17 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Örnekler
 
-Her satırın sahip olabileceği karakter sayısı için nasıl belirtileceğini gösterir.
+Her satırın sahip olabileceği karakter sayısının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Perdelemeyi etkinleştirin ve ardından bu bölümde satır başına karakter sayısını ayarlamak için bunu kullanın.
+// Atışı etkinleştirin ve ardından bunu bu bölümdeki satır başına karakter sayısını ayarlamak için kullanın.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Karakter sayısı aynı zamanda yazı tipinin boyutuna da bağlıdır.
+// Karakter sayısı yazı tipinin boyutuna da bağlıdır.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
+Her sayfanın sahip olabileceği satır sayısı için bir sınır belirlemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Perdelemeyi etkinleştirin ve ardından bu bölümdeki sayfa başına satır sayısını ayarlamak için bunu kullanın.
-// Yeterince büyük bir yazı tipi boyutu, karakterlerin çakışmasını önlemek için bazı satırları sonraki sayfaya doğru itecektir.
+// Atışı etkinleştirin ve ardından bunu bu bölümdeki sayfa başına satır sayısını ayarlamak için kullanın.
+// Yeterince büyük bir yazı tipi boyutu, karakterlerin üst üste gelmesini önlemek için bazı satırların bir sonraki sayfaya doğru itilmesini sağlayacaktır.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

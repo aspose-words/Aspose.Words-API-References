@@ -3,18 +3,18 @@ title: PageLayoutEvent Enum
 linktitle: PageLayoutEvent
 articleTitle: PageLayoutEvent
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Layout.PageLayoutEvent énumération. Un code dévénement déclenché lors de la création et du rendu du modèle de mise en page en C#.
+description: Découvrez l'énumération Aspose.Words.Layout.PageLayoutEvent, essentielle pour optimiser les événements de mise en page lors du rendu et de la création de documents. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
-weight: 3370
+weight: 3820
 url: /fr/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
 
 Un code d'événement déclenché lors de la création et du rendu du modèle de mise en page.
 
-Le modèle de mise en page est construit en deux étapes. Premièrement, "l'étape de conversion", c'est à ce moment-là que la mise en page extrait le contenu du document et crée un graphique d'objets. Deuxièmement, "l'étape de redistribution", c'est lorsque les structures sont divisées, fusionnées et organisées. en pages.
+Le modèle de mise en page est construit en deux étapes. Premièrement, « l'étape de conversion », c'est à ce moment que la mise en page extrait le contenu du document et crée un graphique d'objets. Deuxièmement, « l'étape de redistribution », c'est à ce moment que les structures sont divisées, fusionnées et organisées en pages.
 
-En fonction de l'opération qui a déclenché la construction, le modèle de mise en page peut ou non être rendu dans un format de page fixe. Par exemple, le calcul du nombre de pages dans le document ou la mise à jour des champs ne nécessitent pas de rendu, contrairement à l'exportation au format PDF.
+Selon l'opération qui a déclenché la construction, le modèle de mise en page peut ou non être rendu dans un format de page fixe. Par exemple, le calcul du nombre de pages dans le document ou la mise à jour des champs ne nécessite pas de rendu, alors que l'exportation au format PDF le nécessite.
 
 ```csharp
 public enum PageLayoutEvent
@@ -25,17 +25,17 @@ public enum PageLayoutEvent
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | None | `0` | Valeur par défaut |
-| WatchDog | `1` | Correspond à un point de contrôle dans le code qui est souvent visité et qui permet d'abandonner le processus. |
-| BuildStarted | `2` | La construction de la mise en page a commencé. Lancé une fois. Il s'agit du premier événement qui se produit lorsque[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) s'appelle. |
-| BuildFinished | `3` | La construction de la mise en page est terminée. Lancé une fois. Il s'agit du dernier événement qui se produit lorsque[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) s'appelle. |
-| ConversionStarted | `4` | La conversion du modèle de document en mise en page a commencé. Lancé une fois. Cela se produit lorsque le modèle de mise en page commence à extraire le contenu du document. |
-| ConversionFinished | `5` | La conversion du modèle de document en mise en page est terminée. Lancé une fois. Cela se produit lorsque le modèle de mise en page arrête d'extraire le contenu du document. |
-| ReflowStarted | `6` | La redistribution de la mise en page a commencé. Lancé une fois. Cela se produit lorsque le modèle de mise en page commence à redistribuer le contenu du document. |
-| ReflowFinished | `7` | La redistribution de la mise en page est terminée. Lancé une fois. Cela se produit lorsque le modèle de mise en page arrête de redistribuer le contenu du document. |
-| PartReflowStarted | `8` | La redistribution de la page a commencé. Notez que la page peut être redistribuée plusieurs fois et que la redistribution peut redémarrer avant qu'elle ne soit terminée. |
-| PartReflowFinished | `9` | La redistribution de la page est terminée. Notez que la page peut être redistribuée plusieurs fois et que la redistribution peut redémarrer avant qu'elle ne soit terminée. |
-| PartRenderingStarted | `10` | Le rendu de la page a commencé. Ceci est déclenché une fois par page. |
-| PartRenderingFinished | `11` | Le rendu de la page est terminé. Ceci est déclenché une fois par page. |
+| WatchDog | `1` | Correspond à un point de contrôle dans le code qui est souvent visité et qui convient pour interrompre le processus. |
+| BuildStarted | `2` | La construction de la mise en page a commencé. Déclenché une fois. Il s'agit du premier événement qui se produit lorsque[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) s'appelle. |
+| BuildFinished | `3` | La construction de la mise en page est terminée. Déclenché une fois. Il s'agit du dernier événement qui se produit lorsque[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) s'appelle. |
+| ConversionStarted | `4` | La conversion du modèle de document en mise en page a commencé. Déclenché une fois. Cela se produit lorsque le modèle de mise en page commence à extraire le contenu du document. |
+| ConversionFinished | `5` | La conversion du modèle de document en mise en page est terminée. Déclenché une fois. Ce problème survient lorsque le modèle de mise en page cesse d'extraire le contenu du document. |
+| ReflowStarted | `6` | La redistribution de la mise en page a commencé. Déclenché une fois. Cela se produit lorsque le modèle de mise en page commence à redistribuer le contenu du document. |
+| ReflowFinished | `7` | La redistribution de la mise en page est terminée. Déclenché une fois. Cela se produit lorsque le modèle de mise en page arrête de redistribuer le contenu du document. |
+| PartReflowStarted | `8` | Le reflow de la page a commencé. Notez que la page peut reflow plusieurs fois et que le reflow peut redémarrer avant d'être terminé. |
+| PartReflowFinished | `9` | Le reflow de la page est terminé. Notez que la page peut reflow plusieurs fois et que le reflow peut redémarrer avant d'être terminé. |
+| PartRenderingStarted | `10` | Le rendu de la page a commencé. Ce message est déclenché une fois par page. |
+| PartRenderingFinished | `11` | Le rendu de la page est terminé. Ce message est déclenché une fois par page. |
 
 ## Exemples
 
@@ -58,7 +58,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Nous avertit lorsque nous enregistrons le document dans un format de page fixe
-/// et restitue une page sur laquelle nous effectuons une redistribution de page sur une image dans le système de fichiers local.
+/// et restitue une page sur laquelle nous effectuons un reflow de page sur une image dans le système de fichiers local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

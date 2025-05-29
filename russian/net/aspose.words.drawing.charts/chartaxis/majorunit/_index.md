@@ -3,14 +3,14 @@ title: ChartAxis.MajorUnit
 linktitle: MajorUnit
 articleTitle: MajorUnit
 second_title: Aspose.Words для .NET
-description: ChartAxis MajorUnit свойство. Возвращает или устанавливает расстояние между основными делениями на С#.
+description: Откройте для себя свойство ChartAxis MajorUnit, позволяющее легко настраивать интервалы между основными делениями, улучшая визуализацию данных и ясность диаграммы.
 type: docs
-weight: 120
+weight: 130
 url: /ru/net/aspose.words.drawing.charts/chartaxis/majorunit/
 ---
 ## ChartAxis.MajorUnit property
 
-Возвращает или устанавливает расстояние между основными делениями.
+Возвращает или задает расстояние между основными делениями.
 
 ```csharp
 public double MajorUnit { get; set; }
@@ -18,7 +18,7 @@ public double MajorUnit { get; set; }
 
 ## Примечания
 
-Допустимый диапазон значения больше нуля. Свойство влияет на категорию времени и оси значений .
+Допустимый диапазон значения больше нуля. Свойство действует для категории времени и осей значений x000d_.
 
 Установка этого свойства устанавливает[`MajorUnitIsAuto`](../majorunitisauto/) собственность`ЛОЖЬ`.
 
@@ -36,13 +36,13 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Вставляем серию диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
+// Вставьте ряд диаграмм с категориями для оси X и соответствующими числовыми значениями для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
 // Оси диаграммы имеют различные параметры, которые могут изменить их внешний вид,
-// такие как их направление, такты основных/второстепенных единиц и деления.
+// например, их направление, основные/дополнительные деления и отметки делений.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -51,10 +51,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -64,7 +66,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Столбчатые диаграммы не имеют оси Z.
 Assert.Null(chart.AxisZ);

@@ -3,7 +3,7 @@ title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words para .NET
-description: Watermark SetText método. Agrega una marca de agua de texto al documento en C#.
+description: Mejore sus documentos con nuestro método "SetText" de marca de agua. ¡Agregue fácilmente marcas de agua de texto personalizables para un toque profesional!
 type: docs
 weight: 40
 url: /es/net/aspose.words/watermark/settext/
@@ -18,7 +18,7 @@ public void SetText(string text)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| text | String | Texto que se muestra como una marca de agua. |
+| text | String | Texto que se muestra como marca de agua. |
 
 ### Excepciones
 
@@ -29,7 +29,7 @@ public void SetText(string text)
 
 ## Observaciones
 
-La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede`nulo` o contener solo espacios en blanco.
+La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede ser`nulo` o contienen solo espacios en blanco.
 
 ## Ejemplos
 
@@ -38,11 +38,11 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agrega una marca de agua de texto sin formato.
+//Agrega una marca de agua de texto simple.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,
-// podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
+// Podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -54,7 +54,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Podemos eliminar una marca de agua de un documento como este.
+//Podemos eliminar una marca de agua de un documento como este.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```
@@ -77,7 +77,7 @@ public void SetText(string text, TextWatermarkOptions options)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| text | String | Texto que se muestra como una marca de agua. |
+| text | String | Texto que se muestra como marca de agua. |
 | options | TextWatermarkOptions | Define opciones adicionales para la marca de agua de texto. |
 
 ### Excepciones
@@ -89,9 +89,9 @@ public void SetText(string text, TextWatermarkOptions options)
 
 ## Observaciones
 
-La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede`nulo` o contener solo espacios en blanco.
+La longitud del texto debe estar en el rango de 1 a 200 inclusive. El texto no puede ser`nulo` o contienen solo espacios en blanco.
 
-Si[`TextWatermarkOptions`](../../textwatermarkoptions/) es`nulo`, la marca de agua se configurará con las opciones predeterminadas.
+Si[`TextWatermarkOptions`](../../textwatermarkoptions/) es`nulo`, la marca de agua se establecerá con las opciones predeterminadas.
 
 ## Ejemplos
 
@@ -100,11 +100,11 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agrega una marca de agua de texto sin formato.
+//Agrega una marca de agua de texto simple.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,
-// podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
+// Podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -116,7 +116,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Podemos eliminar una marca de agua de un documento como este.
+//Podemos eliminar una marca de agua de un documento como este.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

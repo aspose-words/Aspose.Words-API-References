@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBookmarkEnd
 linktitle: VisitBookmarkEnd
 articleTitle: VisitBookmarkEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitBookmarkEnd metodo. Chiamato quando nel documento viene rilevata la fine di un segnalibro in C#.
+description: Scopri il metodo VisitBookmarkEnd di DocumentVisitor, che migliora la navigazione nei documenti gestendo in modo efficiente le terminazioni dei segnalibri per un'esperienza utente fluida.
 type: docs
 weight: 40
 url: /it/net/aspose.words/documentvisitor/visitbookmarkend/
@@ -26,7 +26,7 @@ UN[`VisitorAction`](../../visitoraction/) valore che specifica come continuare l
 
 ## Esempi
 
-Mostra come aggiungere segnalibri e aggiornarne i contenuti.
+Mostra come aggiungere segnalibri e aggiornarne il contenuto.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -36,16 +36,16 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // È possibile accedere ai segnalibri nella raccolta di segnalibri tramite indice o nome e i relativi nomi possono essere aggiornati.
+    // È possibile accedere ai segnalibri nella raccolta dei segnalibri tramite indice o nome e i loro nomi possono essere aggiornati.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Stampa di nuovo tutti i segnalibri per vedere i valori aggiornati.
+    // Stampa nuovamente tutti i segnalibri per visualizzare i valori aggiornati.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Crea un documento con un determinato numero di segnalibri.
+/// Crea un documento con un dato numero di segnalibri.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -73,7 +73,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Fa in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
+    // Fai in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

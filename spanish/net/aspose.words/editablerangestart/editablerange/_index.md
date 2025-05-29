@@ -3,14 +3,14 @@ title: EditableRangeStart.EditableRange
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words para .NET
-description: EditableRangeStart EditableRange propiedad. Obtiene el objeto de fachada que encapsula el inicio y el final de este rango editable en C#.
+description: Descubre la propiedad EditableRangeStart, la clave para gestionar rangos editables sin esfuerzo. ¡Accede y controla tu contenido fácilmente!
 type: docs
 weight: 10
 url: /es/net/aspose.words/editablerangestart/editablerange/
 ---
 ## EditableRangeStart.EditableRange property
 
-Obtiene el objeto de fachada que encapsula el inicio y el final de este rango editable.
+Obtiene el objeto de fachada que encapsula este inicio y final del rango editable.
 
 ```csharp
 public EditableRange EditableRange { get; }
@@ -34,20 +34,20 @@ builder.Writeln("This paragraph is inside an editable range, and can be edited."
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
 // Un rango editable bien formado tiene un nodo inicial y un nodo final.
-// Estos nodos tienen ID coincidentes y abarcan nodos editables.
+// Estos nodos tienen identificaciones coincidentes y abarcan nodos editables.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diferentes partes del rango editable se vinculan entre sí.
+// Las diferentes partes del rango editable se vinculan entre sí.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Podemos acceder a los tipos de nodos de cada parte de esta manera. El rango editable en sí no es un nodo,
-// sino una entidad que consta de un inicio, un final y su contenido adjunto.
+Podemos acceder a los tipos de nodo de cada parte de esta manera. El rango editable en sí no es un nodo.
+// sino una entidad que consta de un inicio, un final y sus contenidos incluidos.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Eliminar un rango editable. Todos los nodos que estaban dentro del rango permanecerán intactos.
+// Eliminar un rango editable. Todos los nodos dentro del rango permanecerán intactos.
 editableRange.Remove();
 ```
 

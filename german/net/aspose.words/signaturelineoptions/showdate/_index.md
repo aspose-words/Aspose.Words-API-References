@@ -3,14 +3,14 @@ title: SignatureLineOptions.ShowDate
 linktitle: ShowDate
 articleTitle: ShowDate
 second_title: Aspose.Words für .NET
-description: SignatureLineOptions ShowDate eigendom. Ruft einen Wert ab oder legt diesen fest der angibt dass das Signaturdatum in der Signaturzeile angezeigt wird. Der Standardwert für diese Eigenschaft istWAHR  in C#.
+description: Entdecken Sie, wie die Eigenschaft „ShowDate“ von SignatureLineOptions die Professionalität Ihres Dokuments steigert, indem sie das Unterschriftsdatum in den Unterschriftszeilen anzeigt.
 type: docs
 weight: 60
 url: /de/net/aspose.words/signaturelineoptions/showdate/
 ---
 ## SignatureLineOptions.ShowDate property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, dass das Signaturdatum in der Signaturzeile angezeigt wird. Der Standardwert für diese Eigenschaft ist`WAHR` .
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, dass das Signaturdatum in der Signaturzeile angezeigt wird. Der Standardwert für diese Eigenschaft ist`WAHR` .
 
 ```csharp
 public bool ShowDate { get; set; }

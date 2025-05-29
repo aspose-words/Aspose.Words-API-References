@@ -3,14 +3,14 @@ title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
 second_title: Aspose.Words für .NET
-description: FieldOptions UserPromptRespondent eigendom. Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzeraufforderungen fest in C#.
+description: Entdecken Sie, wie die FieldOptions UserPromptRespondent-Eigenschaft das Benutzererlebnis verbessert, indem sie die Interaktionen der Befragten während Feldaktualisierungen verwaltet.
 type: docs
 weight: 220
 url: /de/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Ruft den Befragten während der Feldaktualisierung ab oder legt ihn auf Benutzeraufforderungen fest.
+Ruft den Befragten für Benutzeraufforderungen während der Feldaktualisierung ab oder legt ihn fest.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -18,9 +18,9 @@ public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
 
 ## Bemerkungen
 
-Wenn der Wert dieser Eigenschaft auf festgelegt ist`Null` , die Felder, die eine Benutzerantwort bei prompting erfordern (z. B[`FieldAsk`](../../fieldask/) oder[`FieldFillIn`](../../fieldfillin/)) werden nicht aktualisiert.
+Wenn der Wert dieser Eigenschaft auf`null` , die Felder, die eine Benutzerantwort bei prompting erfordern (wie etwa[`FieldAsk`](../../fieldask/) oder[`FieldFillIn`](../../fieldfillin/)) werden nicht aktualisiert.
 
-Der Standardwert ist`Null`.
+Der Standardwert ist`null`.
 
 ## Beispiele
 
@@ -39,7 +39,7 @@ public void FieldAsk()
 
     Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
 
-    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um unser REF-Feld über den Lesezeichennamen zu referenzieren.
+    // Fügen Sie das ASK-Feld ein und bearbeiten Sie seine Eigenschaften, um über den Lesezeichennamen auf unser REF-Feld zu verweisen.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
     fieldAsk.BookmarkName = "MyAskField";
     fieldAsk.PromptText = "Please provide a response for this ASK field";
@@ -61,7 +61,7 @@ public void FieldAsk()
     fieldMergeField.FieldName = "Column 1";
 
     // Wir können die Standardantwort in unseren ASK-Feldern mit einem benutzerdefinierten Prompt-Responder ändern oder überschreiben.
-    // was während eines Seriendrucks auftreten wird.
+    // was während eines Serienbriefs geschieht.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -70,7 +70,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Fügt der Standardantwort eines ASK-Felds während eines Seriendrucks Text voran.
+/// Fügt während einer Serienbrieffunktion der Standardantwort eines ASK-Felds Text voran.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

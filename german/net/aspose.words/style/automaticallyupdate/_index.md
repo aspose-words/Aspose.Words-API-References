@@ -3,7 +3,7 @@ title: Style.AutomaticallyUpdate
 linktitle: AutomaticallyUpdate
 articleTitle: AutomaticallyUpdate
 second_title: Aspose.Words für .NET
-description: Style AutomaticallyUpdate eigendom. Gibt an ob dieser Stil basierend auf dem entsprechenden Wert automatisch neu definiert wird in C#.
+description: Entdecken Sie, wie die Eigenschaft „AutomaticallyUpdate“ Ihre Stile verbessert, indem sie diese automatisch neu definiert, um einen optimalen Wert und eine optimale Leistung in Ihren Projekten zu erzielen.
 type: docs
 weight: 20
 url: /de/net/aspose.words/style/automaticallyupdate/
@@ -20,7 +20,7 @@ public bool AutomaticallyUpdate { get; set; }
 
 Wenn der Eigenschaftswert auf „true“ gesetzt ist, definiert MS Word den aktuellen Stil automatisch neu, wenn die entsprechende Absatzformatierung geändert wurde.
 
-Die Eigenschaft „Automatisch aktualisieren“ gilt nur für Absatzstile.
+Die Eigenschaft „AutomaticallyUpdate“ ist nur auf Absatzstile anwendbar.
 
 Der Standardwert ist`FALSCH`.
 
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen der Stile aus dem Dokument auf den Absatz anwenden, den der Dokumentersteller erstellt.
+// Wenden Sie einen der Stile aus dem Dokument auf den Absatz an, den der Dokumentgenerator erstellt.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

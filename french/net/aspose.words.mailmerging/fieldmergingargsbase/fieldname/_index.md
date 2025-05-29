@@ -3,7 +3,7 @@ title: FieldMergingArgsBase.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words pour .NET
-description: FieldMergingArgsBase FieldName propriété. Obtient le nom du champ de fusion dans la source de données en C#.
+description: Découvrez la propriété FieldName de FieldMergingArgsBase, qui récupère le nom du champ de fusion à partir de votre source de données pour une intégration transparente.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/fieldmergingargsbase/fieldname/
@@ -18,13 +18,13 @@ public string FieldName { get; }
 
 ## Remarques
 
-Si vous disposez d'un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit du nom de champ mappé.
+Si vous avez un mappage d'un nom de champ de document vers un nom de champ de source de données différent, , il s'agit alors du nom de champ mappé.
 
-Si vous avez spécifié un préfixe de nom de champ, par exemple "Image:MyFieldName" dans le document, alors`FieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire "MyFieldName".
+Si vous avez spécifié un préfixe de nom de champ, par exemple « Image : MyFieldName » dans le document, alors`FieldName` renvoie le nom du champ sans le préfixe, c'est-à-dire « MyFieldName ».
 
 ## Exemples
 
-Montre comment insérer des champs de formulaire de case à cocher dans les MERGEFIELD en tant que données de fusion lors du publipostage.
+Montre comment insérer des champs de formulaire à cocher dans MERGEFIELDs en tant que données de fusion lors du publipostage.
 
 ```csharp
 public void InsertCheckBox()
@@ -32,8 +32,8 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Utiliser les MERGEFIELD avec les balises "TableStart"/"TableEnd" pour définir une région de publipostage
-    // qui appartient à une source de données nommée "StudentCourse" et possède un MERGEFIELD qui accepte les données d'une colonne nommée "CourseName".
+    // Utilisez MERGEFIELDs avec les balises « TableStart »/« TableEnd » pour définir une région de publipostage
+    // qui appartient à une source de données nommée « StudentCourse » et possède un MERGEFIELD qui accepte les données d'une colonne nommée « CourseName ».
     builder.StartTable();
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD  TableStart:StudentCourse ");
@@ -71,7 +71,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur du champ correspondant est "Cours n".
+            // Dans ce cas, pour chaque index d'enregistrement 'n', la valeur de champ correspondante est « Cours n ».
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -81,7 +81,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 
     private int mCheckBoxCount;

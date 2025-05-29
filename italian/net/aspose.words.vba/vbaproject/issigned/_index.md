@@ -3,9 +3,9 @@ title: VbaProject.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words per .NET
-description: VbaProject IsSigned proprietà. Mostra se ilVbaProject è firmato o no in C#.
+description: Scopri la proprietà IsSigned di VbaProject per verificare facilmente le firme dei progetti e migliorare la sicurezza del codice. Assicurati che i tuoi progetti VBA siano affidabili!
 type: docs
-weight: 30
+weight: 40
 url: /it/net/aspose.words.vba/vbaproject/issigned/
 ---
 ## VbaProject.IsSigned property
@@ -18,7 +18,7 @@ public bool IsSigned { get; }
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

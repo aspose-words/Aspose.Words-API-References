@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.PageMargins
 linktitle: PageMargins
 articleTitle: PageMargins
 second_title: Aspose.Words för .NET
-description: HtmlFixedSaveOptions PageMargins fast egendom. Anger marginalerna runt sidor i ett HTMLdokument. Marginalvärdet mäts i punkter och ska vara lika med eller större än 0. Standardvärdet är 10 poäng i C#.
+description: Upptäck egenskapen HtmlFixedSaveOptions PageMargins för att anpassa ditt HTML-dokuments marginaler. Ange värden i punkter för exakt layoutkontroll.
 type: docs
-weight: 120
+weight: 130
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/pagemargins/
 ---
 ## HtmlFixedSaveOptions.PageMargins property
 
-Anger marginalerna runt sidor i ett HTML-dokument. Marginalvärdet mäts i punkter och ska vara lika med eller större än 0. Standardvärdet är 10 poäng.
+Anger marginalerna runt sidor i ett HTML-dokument. Marginalvärdet mäts i punkter och ska vara lika med eller större än 0. Standardvärdet är 10 punkter.
 
 ```csharp
 public double PageMargins { get; set; }
@@ -18,15 +18,15 @@ public double PageMargins { get; set; }
 
 ## Anmärkningar
 
-Beror på värdet av[`PageHorizontalAlignment`](../pagehorizontalalignment/) fast egendom:
+Beror på värdet av[`PageHorizontalAlignment`](../pagehorizontalalignment/) egendom:
 
-* Definierar övre, nedre och vänstra sidmarginalerna om värdet ärLeft .
+* Definierar övre, nedre och vänstra sidmarginaler om värdet ärLeft .
 * Definierar övre, nedre och högra sidmarginaler om värdet ärRight .
 * Definierar övre och nedre sidmarginaler om värdet ärCenter .
 
 ## Exempel
 
-Visar hur du justerar sidmarginalerna när du sparar ett dokument till HTML.
+Visar hur man justerar sidmarginaler när man sparar ett dokument som HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words pour .NET
-description: FieldDisplayBarcode ScalingFactor propriété. Obtient ou définit un facteur de mise à léchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000 en C#.
+description: Découvrez la propriété « FieldDisplayBarcode ScalingFactor » pour ajuster facilement la taille des symboles en pourcentages entiers, de 10 % à 1 000 %. Optimisez l'affichage de vos codes-barres !
 type: docs
 weight: 120
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Obtient ou définit un facteur de mise à l'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000]
+Obtient ou définit un facteur d'échelle pour le symbole. La valeur est exprimée en points de pourcentage entiers et les valeurs valides sont [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - Code barre EAN13, avec les chiffres affichés sous les barres :
+// 2 - Code-barres EAN13, avec les chiffres affichés sous les barres :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -51,7 +51,7 @@ field.FixCheckDigit = true;
 Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// 3 - Code barre CODE39 :
+// 3 - Code-barres CODE39 :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - Code-barres ITF4, avec un code cas spécifié :
+// 4 - Code-barres ITF4, avec un code de cas spécifié :
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

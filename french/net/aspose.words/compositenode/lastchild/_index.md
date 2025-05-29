@@ -3,7 +3,7 @@ title: CompositeNode.LastChild
 linktitle: LastChild
 articleTitle: LastChild
 second_title: Aspose.Words pour .NET
-description: CompositeNode LastChild propriété. Obtient le dernier enfant du nœud en C#.
+description: Découvrez la propriété CompositeNode LastChild pour accéder et manipuler facilement le dernier nœud enfant, améliorant ainsi la gestion de votre structure de données.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/compositenode/lastchild/
@@ -32,11 +32,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Les deux sections sont frères et sœurs l'un de l'autre.
+// Les deux sections sont sœurs l'une de l'autre.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Supprime une section en fonction de sa relation fraternelle avec une autre section.
+// Supprimez une section en fonction de sa relation de fratrie avec une autre section.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

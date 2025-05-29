@@ -3,7 +3,7 @@ title: Table.DistanceLeft
 linktitle: DistanceLeft
 articleTitle: DistanceLeft
 second_title: Aspose.Words para .NET
-description: Table DistanceLeft propiedad. Obtiene o establece la distancia entre la izquierda de la tabla y el texto circundante en puntos en C#.
+description: Ajuste la propiedad DistanciaIzquierda de la Tabla para controlar el espaciado entre la tabla y el texto circundante. ¡Mejore la legibilidad y el diseño de sus documentos!
 type: docs
 weight: 130
 url: /es/net/aspose.words.tables/table/distanceleft/
@@ -29,7 +29,7 @@ Assert.AreEqual(25.9d, table.DistanceBottom);
 Assert.AreEqual(17.3d, table.DistanceLeft);
 Assert.AreEqual(17.3d, table.DistanceRight);
 
- // Establece la distancia entre la tabla y el texto circundante.
+// Establezca la distancia entre la tabla y el texto circundante.
 table.DistanceLeft = 24;
 table.DistanceRight = 24;
 table.DistanceTop = 3;

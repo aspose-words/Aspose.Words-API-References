@@ -3,14 +3,14 @@ title: FieldOptions.FieldUpdateCultureProvider
 linktitle: FieldUpdateCultureProvider
 articleTitle: FieldUpdateCultureProvider
 second_title: Aspose.Words för .NET
-description: FieldOptions FieldUpdateCultureProvider fast egendom. Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält i C#.
+description: Upptäck egenskapen FieldOptions FieldUpdateCultureProvider, som möjliggör skräddarsydda kulturobjekt för varje fält för att förbättra användarupplevelsen och lokaliseringen.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.fields/fieldoptions/fieldupdatecultureprovider/
 ---
 ## FieldOptions.FieldUpdateCultureProvider property
 
-Hämtar eller ställer in en leverantör som returnerar ett kulturobjekt specifikt för varje särskilt fält.
+Hämtar eller ställer in en provider som returnerar ett kulturobjekt som är specifikt för varje enskilt fält.
 
 ```csharp
 public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
@@ -18,13 +18,13 @@ public IFieldUpdateCultureProvider FieldUpdateCultureProvider { get; set; }
 
 ## Anmärkningar
 
-Leverantören efterfrågas när värdet av[`FieldUpdateCultureSource`](../fieldupdateculturesource/) ärFieldCode.
+Leverantören tillfrågas när värdet på[`FieldUpdateCultureSource`](../fieldupdateculturesource/) ärFieldCode.
 
-Om leverantören är närvarande används kulturobjektet som den returnerar för fältuppdateringen. Annars används en systemkultur.
+Om providern finns används det kulturobjekt som returneras för fältuppdateringen. Annars används en systemkultur.
 
 ## Exempel
 
-Visar hur man anger en kultur som analyserar formatering av datum/tid för varje fält.
+Visar hur man anger en kultur som tolkar datum-/tidsformatering för varje fält.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -36,7 +36,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Ställ in en leverantör som returnerar ett kulturobjekt specifikt för varje fält.
+    // Ange en provider som returnerar ett kulturobjekt specifikt för varje fält.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -47,7 +47,7 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Tillhandahåller ett CultureInfo-objekt som ska användas under uppdateringen av ett fält.
+/// Tillhandahåller ett CultureInfo-objekt som ska användas vid uppdatering av ett fält.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {

@@ -3,14 +3,14 @@ title: TableStyle.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words لـ .NET
-description: TableStyle VerticalAlignment ملكية. يحدد المحاذاة العمودية للخلايا في C#.
+description: اكتشف خاصية TableStyle VerticalAlignment للتحكم بسهولة في محاذاة الخلايا في جداولك، مما يعزز قابلية القراءة والعرض.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
 
-يحدد المحاذاة العمودية للخلايا.
+يحدد المحاذاة الرأسية للخلايا.
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }
@@ -53,7 +53,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

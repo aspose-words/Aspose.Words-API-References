@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.PageHorizontalAlignment
 linktitle: PageHorizontalAlignment
 articleTitle: PageHorizontalAlignment
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions PageHorizontalAlignment свойство. Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчаниюCenter  на С#.
+description: Откройте для себя свойство HtmlFixedSaveOptions PageHorizontalAlignment, чтобы легко управлять выравниванием страниц в HTML-документах. По умолчанию установлено значение Center для оптимального представления.
 type: docs
-weight: 110
+weight: 120
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/pagehorizontalalignment/
 ---
 ## HtmlFixedSaveOptions.PageHorizontalAlignment property
 
-Определяет горизонтальное выравнивание страниц в документе HTML. Значение по умолчанию:Center .
+Задает горизонтальное выравнивание страниц в документе HTML. Значение по умолчанию:Center .
 
 ```csharp
 public HtmlFixedPageHorizontalAlignment PageHorizontalAlignment { get; set; }
@@ -39,11 +39,11 @@ switch (pageHorizontalAlignment)
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents, 
+        Assert.True(Regex.Match(outDocContents,
             "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
         break;
 }

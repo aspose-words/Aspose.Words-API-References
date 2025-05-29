@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions ResourceSavingCallback eigendom. Ermöglicht die Steuerung wie Ressourcen Bilder Schriftarten und CSS gespeichert werden wenn ein Dokument in das HTMLFormat mit fester Seite exportiert wird in C#.
+description: Optimieren Sie Ihre Dokumentexporte mit dem ResourceSavingCallback HtmlFixedSaveOptions. Steuern Sie die Speicherung von Bildern, Schriftarten und CSS für eine verbesserte HTML-Ausgabe.
 type: docs
-weight: 130
+weight: 150
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/resourcesavingcallback/
 ---
 ## HtmlFixedSaveOptions.ResourceSavingCallback property
 
-Ermöglicht die Steuerung, wie Ressourcen (Bilder, Schriftarten und CSS) gespeichert werden, wenn ein Dokument in das HTML-Format mit fester Seite exportiert wird.
+Ermöglicht die Steuerung, wie Ressourcen (Bilder, Schriftarten und CSS) gespeichert werden, wenn ein Dokument in das HTML-Format mit festen Seiten exportiert wird.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IResourceSavingCallback ResourceSavingCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -38,7 +38,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -52,7 +52,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

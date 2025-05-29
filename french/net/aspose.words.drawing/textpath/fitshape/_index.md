@@ -3,14 +3,14 @@ title: TextPath.FitShape
 linktitle: FitShape
 articleTitle: FitShape
 second_title: Aspose.Words pour .NET
-description: TextPath FitShape propriété. Définit si le texte sadapte au cadre de délimitation dune forme en C#.
+description: Découvrez comment la propriété TextPath FitShape garantit que votre texte s'adapte parfaitement au cadre de délimitation d'une forme pour une flexibilité de conception améliorée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/textpath/fitshape/
 ---
 ## TextPath.FitShape property
 
-Définit si le texte s'adapte au cadre de délimitation d'une forme.
+Définit si le texte s'adapte au cadre englobant d'une forme.
 
 ```csharp
 public bool FitShape { get; set; }
@@ -29,12 +29,12 @@ public void InsertTextPaths()
 {
     Document doc = new Document();
 
-    // Insère un objet WordArt pour afficher le texte sous une forme que nous pouvons redimensionner et déplacer à l'aide de la souris dans Microsoft Word.
-    // Fournissez un "ShapeType" comme argument pour définir une forme pour le WordArt.
-    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.", 
+    // Insérez un objet WordArt pour afficher du texte dans une forme que nous pouvons redimensionner et déplacer à l'aide de la souris dans Microsoft Word.
+    // Fournissez un « ShapeType » comme argument pour définir une forme pour le WordArt.
+    Shape shape = AppendWordArt(doc, "Hello World! This text is bold, and italic.",
         "Arial", 480, 24, Color.White, Color.Black, ShapeType.TextPlainText);
 
-    // Applique les paramètres de formatage "Gras" et "Italique" au texte en utilisant les propriétés respectives.
+    // Appliquez les paramètres de formatage « Gras » et « Italique » au texte à l'aide des propriétés respectives.
     shape.TextPath.Bold = true;
     shape.TextPath.Italic = true;
 
@@ -51,40 +51,40 @@ public void InsertTextPaths()
     Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
     Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
 
-    // Utilisez la propriété "On" pour afficher/masquer le texte.
+    // Utilisez la propriété « On » pour afficher/masquer le texte.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.On = true;
 
     shape = AppendWordArt(doc, "On set to \"false\"", "Calibri", 150, 24, Color.Yellow, Color.Purple, ShapeType.TextPlainText);
     shape.TextPath.On = false;
 
-    // Utilisez la propriété "Kerning" pour activer/désactiver l'espacement de crénage entre certains caractères.
+    // Utilisez la propriété « Kerning » pour activer/désactiver l'espacement de crénage entre certains caractères.
     shape = AppendWordArt(doc, "Kerning: VAV", "Times New Roman", 90, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = true;
 
     shape = AppendWordArt(doc, "No kerning: VAV", "Times New Roman", 100, 24, Color.Orange, Color.Red, ShapeType.TextPlainText);
     shape.TextPath.Kerning = false;
 
-    // Utilisez la propriété "Espacement" pour définir l'espacement personnalisé entre les caractères sur une échelle de 0,0 (aucun) à 1,0 (par défaut).
+    // Utilisez la propriété « Espacement » pour définir l'espacement personnalisé entre les caractères sur une échelle de 0,0 (aucun) à 1,0 (par défaut).
     shape = AppendWordArt(doc, "Spacing set to 0.1", "Calibri", 120, 24, Color.BlueViolet, Color.Blue, ShapeType.TextCascadeDown);
     shape.TextPath.Spacing = 0.1;
 
-    // Définissez la propriété "RotateLetters" sur "true" pour faire pivoter chaque caractère de 90 degrés dans le sens inverse des aiguilles d'une montre.
+    // Définissez la propriété « RotateLetters » sur « true » pour faire pivoter chaque caractère de 90 degrés dans le sens inverse des aiguilles d'une montre.
     shape = AppendWordArt(doc, "RotateLetters", "Calibri", 200, 36, Color.GreenYellow, Color.Green, ShapeType.TextWave);
     shape.TextPath.RotateLetters = true;
 
-    // Définissez la propriété "SameLetterHeights" sur "true" pour que la hauteur x de chaque caractère soit égale à la hauteur des majuscules.
+    // Définissez la propriété « SameLetterHeights » sur « true » pour que la hauteur x de chaque caractère soit égale à la hauteur des majuscules.
     shape = AppendWordArt(doc, "Same character height for lower and UPPER case", "Calibri", 300, 24, Color.DeepSkyBlue, Color.DodgerBlue, ShapeType.TextSlantUp);
     shape.TextPath.SameLetterHeights = true;
 
-    // Par défaut, la taille du texte sera toujours adaptée à la taille de la forme contenant, remplaçant le paramètre de taille du texte.
+    // Par défaut, la taille du texte sera toujours mise à l'échelle pour s'adapter à la taille de la forme contenante, remplaçant le paramètre de taille du texte.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     Assert.True(shape.TextPath.FitShape);
     shape.TextPath.Size = 24.0;
 
-    // Si on met la propriété "FitShape: à "false", le texte gardera la taille
-    // que la propriété "Size" spécifie quelle que soit la taille de la forme.
-    // Utilisez également la propriété "TextPathAlignment" pour aligner le texte sur un côté de la forme.
+    // Si nous définissons la propriété "FitShape: sur "false", le texte conservera la taille
+    // que la propriété « Taille » spécifie quelle que soit la taille de la forme.
+    // Utilisez également la propriété « TextPathAlignment » pour aligner le texte sur un côté de la forme.
     shape = AppendWordArt(doc, "FitShape off", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
     shape.TextPath.FitShape = false;
     shape.TextPath.Size = 24.0;
@@ -94,14 +94,14 @@ public void InsertTextPaths()
 }
 
 /// <summary>
-/// Insère un nouveau paragraphe contenant une forme WordArt.
+/// Insérer un nouveau paragraphe avec une forme WordArt à l'intérieur.
 /// </summary>
 private static Shape AppendWordArt(Document doc, string text, string textFontFamily, double shapeWidth, double shapeHeight, Color wordArtFill, Color line, ShapeType wordArtShapeType)
 {
     // Créez une forme en ligne, qui servira de conteneur pour notre WordArt.
     // La forme ne peut être une forme WordArt valide que si nous lui attribuons un ShapeType désigné par WordArt.
-    // Ces types auront "Objet WordArt" dans la description,
-    // et leurs noms de constantes d'énumérateur commenceront tous par "Texte".
+    // Ces types auront « objet WordArt » dans la description,
+    // et leurs noms de constantes d'énumération commenceront tous par « Texte ».
     Shape shape = new Shape(doc, wordArtShapeType)
     {
         WrapType = WrapType.Inline,

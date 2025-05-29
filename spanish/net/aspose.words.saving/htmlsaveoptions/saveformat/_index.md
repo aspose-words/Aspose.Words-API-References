@@ -3,9 +3,9 @@ title: HtmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions SaveFormat propiedad. Especifica el formato en el que se guardará el documento si se utiliza este objeto de opciones de guardado. Puede serHtml Mhtml Epub  Azw3 oMobi  en C#.
+description: Descubra la propiedad SaveFormat de HtmlSaveOptions para guardar fácilmente documentos en formatos Html, Mhtml, Epub, Azw3 o Mobi para una accesibilidad versátil.
 type: docs
-weight: 440
+weight: 460
 url: /es/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
@@ -31,7 +31,7 @@ saveOptions.Encoding = Encoding.UTF8;
 // De forma predeterminada, un documento .epub de salida tendrá todo su contenido en una parte HTML.
 // Un criterio de división nos permite segmentar el documento en varias partes HTML.
 // Estableceremos los criterios para dividir el documento en párrafos de encabezado.
-// Esto es útil para lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
+// Esto es útil para los lectores que no pueden leer archivos HTML más grandes que un tamaño específico.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
 // Especificamos que queremos exportar las propiedades del documento.

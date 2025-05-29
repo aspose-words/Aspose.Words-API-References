@@ -3,14 +3,14 @@ title: Cluster.GetString
 linktitle: GetString
 articleTitle: GetString
 second_title: Aspose.Words för .NET
-description: Cluster GetString metod. SkaparString använder kodpunkter från de angivna klustren i C#.
+description: Skapa enkelt strängar med Cluster GetString-metoden, med hjälp av kodpunkter från angivna kluster för effektiv datahantering.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(*Cluster[]*)
 
-SkaparString använder kodpunkter från de angivna klustren.
+SkaparString med hjälp av kodpunkter från de angivna klustren.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -26,7 +26,7 @@ public static string GetString(Cluster[] clusters)
 
 ## GetString()
 
-SkaparString använder kodpunkter från detta kluster.
+SkaparString med hjälp av kodpunkter från detta kluster.
 
 ```csharp
 public string GetString()

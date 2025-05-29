@@ -3,7 +3,7 @@ title: ParagraphFormat.KeepTogether
 linktitle: KeepTogether
 articleTitle: KeepTogether
 second_title: Aspose.Words för .NET
-description: ParagraphFormat KeepTogether fast egendom. Sant om alla rader i stycket ska förbli på samma sida i C#.
+description: Upptäck egenskapen ParagraphFormat KeepTogether, se till att alla rader hålls ihop på en sida för förbättrad läsbarhet och professionell presentation.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/paragraphformat/keeptogether/
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

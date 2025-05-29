@@ -3,7 +3,7 @@ title: FieldMergingArgs.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: FieldMergingArgs Text propriété. Obtient ou définit le texte qui sera inséré dans le document pour le champ de fusion actuel en C#.
+description: Gérez facilement les champs de fusion de vos documents avec FieldMergingArgs. Définissez ou récupérez facilement du texte pour une intégration fluide de vos documents.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -20,7 +20,7 @@ public string Text { get; set; }
 
 Lorsque votre gestionnaire d'événements est appelé, cette propriété est définie sur`nul`.
 
-Si vous laissez Texte comme`nul` , le moteur de publipostage insérera[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) à la place du champ de fusion.
+Si vous laissez le texte tel quel`nul` , le moteur de publipostage insérera[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) à la place du champ de fusion.
 
 Si vous définissez Texte sur n'importe quelle chaîne (y compris vide), la chaîne sera insérée dans le document à la place du champ de fusion.
 
@@ -59,8 +59,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe "html_",
-/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document du MERGEFIELD.
+/// Si le publipostage rencontre un MERGEFIELD dont le nom commence par le préfixe « html_ »,
+/// ce rappel analyse ses données de fusion en tant que contenu HTML et ajoute le résultat à l'emplacement du document MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -71,20 +71,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Ajoute des données HTML analysées au corps du document.
+            // Ajoutez les données HTML analysées au corps du document.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
-            // Puisque nous avons déjà inséré manuellement le contenu fusionné,
-             // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Text".
+            // Puisque nous avons déjà inséré le contenu fusionné manuellement,
+            // nous n'aurons pas besoin de répondre à cet événement en renvoyant du contenu via la propriété "Texte".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 }
 ```

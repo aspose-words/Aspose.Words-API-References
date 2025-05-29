@@ -3,14 +3,14 @@ title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat SnapToGrid propriété. Spécifie si le paragraphe actuel doit utiliser les lignes de grille du document par page settings lors de la présentation du contenu dans le paragraphe en C#.
+description: Découvrez comment la propriété ParagraphFormat SnapToGrid améliore la précision de la mise en page en alignant vos paragraphes avec les lignes de la grille du document pour un aspect soigné.
 type: docs
-weight: 290
+weight: 300
 url: /fr/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Spécifie si le paragraphe actuel doit utiliser les lignes de grille du document par page settings lors de la présentation du contenu dans le paragraphe.
+Spécifie si le paragraphe actuel doit utiliser les paramètres de lignes de grille du document par page lors de la mise en page du contenu du paragraphe.
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,14 +18,14 @@ public bool SnapToGrid { get; set; }
 
 ## Exemples
 
-Montre comment spécifier une limite pour le nombre de lignes que chaque page peut avoir.
+Montre comment spécifier une limite pour le nombre de lignes que chaque page peut contenir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitch, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
-// Une taille de police suffisamment grande poussera certaines lignes vers le bas sur la page suivante pour éviter les caractères qui se chevauchent.
+// Activez le pitching, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
+// Une taille de police suffisamment grande repoussera certaines lignes vers la page suivante pour éviter le chevauchement des caractères.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

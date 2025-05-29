@@ -3,14 +3,14 @@ title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words para .NET
-description: ImageData ImageBytes propiedad. Obtiene o establece los bytes sin formato de la imagen almacenada en la forma en C#.
+description: Descubra la propiedad ImageBytes de ImageData para administrar y manipular fácilmente bytes de imágenes sin procesar dentro de sus formas para obtener un contenido visual mejorado.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/imagedata/imagebytes/
 ---
 ## ImageData.ImageBytes property
 
-Obtiene o establece los bytes sin formato de la imagen almacenada en la forma.
+Obtiene o establece los bytes sin procesar de la imagen almacenada en la forma.
 
 ```csharp
 public byte[] ImageBytes { get; set; }
@@ -18,9 +18,9 @@ public byte[] ImageBytes { get; set; }
 
 ## Observaciones
 
-Establecer el valor en`nulo` o una matriz vacía eliminará la imagen de la forma.
+Establecer el valor a`nulo` o una matriz vacía eliminará la imagen de la forma.
 
-Devoluciones`nulo` si la imagen no está almacenada en el documento (por ejemplo, en este caso la imagen probablemente esté vinculada).
+Devoluciones`nulo` Si la imagen no está almacenada en el documento (por ejemplo, la imagen probablemente esté vinculada en este caso).
 
 ## Ejemplos
 
@@ -35,7 +35,7 @@ Assert.True(imgShape.HasImage);
 // ToByteArray() devuelve la matriz almacenada en la propiedad ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// Guarde los datos de la imagen de la forma en un archivo de imagen en el sistema de archivos local.
+// Guarde los datos de imagen de la forma en un archivo de imagen en el sistema de archivos local.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

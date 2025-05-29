@@ -3,14 +3,14 @@ title: RevisionGroup.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words för .NET
-description: RevisionGroup Author fast egendom. Hämtar författaren till denna versionsgrupp i C#.
+description: Upptäck egenskapen RevisionGroup Author för att enkelt identifiera författaren till varje revisionsgrupp, vilket förbättrar effektiviteten i din dokumenthantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/revisiongroup/author/
 ---
 ## RevisionGroup.Author property
 
-Hämtar författaren till denna versionsgrupp.
+Hämtar författaren till denna revisionsgrupp.
 
 ```csharp
 public string Author { get; }

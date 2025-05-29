@@ -3,14 +3,14 @@ title: MergeFieldImageDimension
 linktitle: MergeFieldImageDimension
 articleTitle: MergeFieldImageDimension
 second_title: Aspose.Words för .NET
-description: MergeFieldImageDimension byggare. Skapar en bilddimensionsinstans med det angivna värdet i poäng i C#.
+description: Skapa exakta bilddimensioner i punkter med konstruktorn MergeFieldImageDimension. Förbättra din design med korrekt storlek för bättre resultat.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension(*double*) {#constructor}
 
-Skapar en bilddimensionsinstans med det angivna värdet i poäng.
+Skapar en bilddimensionsinstans med det angivna värdet i punkter.
 
 ```csharp
 public MergeFieldImageDimension(double value)
@@ -22,23 +22,23 @@ public MergeFieldImageDimension(double value)
 
 ## Anmärkningar
 
-Du bör använda ett negativt värde för att indikera att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
+Du bör använda ett negativt värde för att ange att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
 
 ## Exempel
 
-Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
+Visar hur man ställer in dimensionerna för bilder så som MERGEFIELDS accepterar dem under en dokumentkoppling.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Infoga ett MERGEFIELD som kommer att acceptera bilder från en källa under en e-postkoppling. Använd fältkoden för att referera
-    // en kolumn i datakällan som innehåller lokala systemfilnamn för bilder som vi vill använda i kopplingen.
+    // Infoga ett MERGEFIELD som accepterar bilder från en källa under en dokumentkoppling. Använd fältkoden för att referera
+    // en kolumn i datakällan som innehåller lokala systemfilnamn för bilder som vi vill använda i dokumentkopplingen.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Datakällan bör ha en sådan kolumn med namnet "ImageColumn".
+    // Datakällan ska ha en sådan kolumn med namnet "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Skapa en lämplig datakälla.
@@ -48,7 +48,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurera en återuppringning för att ändra storleken på bilder vid sammanfogning och kör sedan sammankopplingen.
+    // Konfigurera en återanropning för att ändra storleken på bilder vid sammanslagningstillfället och kör sedan dokumentsammanslagningen.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -57,7 +57,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.
+/// Ställer in storleken på alla kopplade bilder till en definierad bredd och höjd.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -83,6 +83,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;
@@ -101,7 +102,7 @@ private class MergedImageResizer : IFieldMergingCallback
 
 ## MergeFieldImageDimension(*double, [MergeFieldImageDimensionUnit](../../mergefieldimagedimensionunit/)*) {#constructor_1}
 
-Skapar en bilddimensionsinstans med det givna värdet och den givna enheten.
+Skapar en bilddimensionsinstans med det angivna värdet och den angivna enheten.
 
 ```csharp
 public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
@@ -114,23 +115,23 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 
 ## Anmärkningar
 
-Du bör använda ett negativt värde för att indikera att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
+Du bör använda ett negativt värde för att ange att det ursprungliga värdet för motsvarande bilddimension ska tillämpas.
 
 ## Exempel
 
-Visar hur du ställer in dimensionerna för bilder när MERGEFIELDS accepterar dem under en sammanfogning.
+Visar hur man ställer in dimensionerna för bilder så som MERGEFIELDS accepterar dem under en dokumentkoppling.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Infoga ett MERGEFIELD som kommer att acceptera bilder från en källa under en e-postkoppling. Använd fältkoden för att referera
-    // en kolumn i datakällan som innehåller lokala systemfilnamn för bilder som vi vill använda i kopplingen.
+    // Infoga ett MERGEFIELD som accepterar bilder från en källa under en dokumentkoppling. Använd fältkoden för att referera
+    // en kolumn i datakällan som innehåller lokala systemfilnamn för bilder som vi vill använda i dokumentkopplingen.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // Datakällan bör ha en sådan kolumn med namnet "ImageColumn".
+    // Datakällan ska ha en sådan kolumn med namnet "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Skapa en lämplig datakälla.
@@ -140,7 +141,7 @@ public void MergeFieldImageDimension()
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Konfigurera en återuppringning för att ändra storleken på bilder vid sammanfogning och kör sedan sammankopplingen.
+    // Konfigurera en återanropning för att ändra storleken på bilder vid sammanslagningstillfället och kör sedan dokumentsammanslagningen.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -149,7 +150,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Ställer in storleken på alla sammanslagna bilder till en definierad bredd och höjd.
+/// Ställer in storleken på alla kopplade bilder till en definierad bredd och höjd.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -175,6 +176,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

@@ -3,9 +3,9 @@ title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.LayoutFlow enum. Determina il flusso del layout del testo in una casella di testo in C#.
+description: Scopri l'enum Aspose.Words.Drawing.LayoutFlow per controllare il layout del testo nelle caselle di testo, migliorando senza sforzo la progettazione e la leggibilità dei tuoi documenti.
 type: docs
-weight: 1100
+weight: 1430
 url: /it/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

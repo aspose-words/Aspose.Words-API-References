@@ -2,15 +2,15 @@
 title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle LeftIndent 财产. 获取或设置表示表格左缩进的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle LeftIndent 属性，轻松自定义表格的左缩进，以增强布局控制和视觉吸引力。
 type: docs
 weight: 90
 url: /zh/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-获取或设置表示表格左缩进的值。
+获取或设置代表表格左缩进的值。
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -24,14 +24,14 @@ public double LeftIndent { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是两种水平对齐表格的方法。
+// 以下是两种水平对齐表格的方法。
 // 1 - 使用“Alignment”属性将其对齐到页面上的某个位置，例如中心：
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// 插入一个表格并应用我们创建的样式。
+// 插入一个表格并将我们创建的样式应用到它。
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

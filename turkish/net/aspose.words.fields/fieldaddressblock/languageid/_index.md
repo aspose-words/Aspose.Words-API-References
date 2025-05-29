@@ -2,8 +2,8 @@
 title: FieldAddressBlock.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
-second_title: Aspose.Words for .NET
-description: FieldAddressBlock LanguageId mülk. Adresi biçimlendirmek için kullanılan dil kimliğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldAddressBlock LanguageId özelliğiyle adres biçimlendirmesini zahmetsizce yönetin. Sorunsuz yerelleştirme için dil kimliğini ayarlayın veya alın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldaddressblock/languageid/
@@ -18,7 +18,7 @@ public string LanguageId { get; set; }
 
 ## Örnekler
 
-ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
+ADDRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri içerecektir,
-// ExcludedCountryOrRegionName özelliğinde belirtilmediği sürece.
+// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri kapsayacaktır.
+// ExcludedCountryOrRegionName özelliğinde belirtilen olmadığı sürece.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Varsayılan olarak bu özellik belgenin ilk karakterinin dil kimliğini içerecektir.
-// Sonucun bu şekilde formatlanması için alana farklı bir kültür ayarlayabiliriz.
+// Varsayılan olarak bu özellik, belgenin ilk karakterinin dil kimliğini içerecektir.
+// Sonucu bu şekilde biçimlendirmek için alan için farklı bir kültür ayarlayabiliriz.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

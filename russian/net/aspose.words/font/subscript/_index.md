@@ -3,14 +3,14 @@ title: Font.Subscript
 linktitle: Subscript
 articleTitle: Subscript
 second_title: Aspose.Words для .NET
-description: Font Subscript свойство. True если шрифт отформатирован как нижний индекс на С#.
+description: Откройте для себя свойство Font Subscript. Легко форматируйте текст как подстрочный для улучшения читаемости и стиля в ваших документах. Улучшите свой дизайн сегодня!
 type: docs
-weight: 430
+weight: 440
 url: /ru/net/aspose.words/font/subscript/
 ---
 ## Font.Subscript property
 
-True, если шрифт отформатирован как нижний индекс.
+True, если шрифт отформатирован как подстрочный.
 
 ```csharp
 public bool Subscript { get; set; }
@@ -34,16 +34,16 @@ run = new Run(doc, "Lowered text. ");
 run.Font.Position = -10;
 para.AppendChild(run);
 
-// Добавляем ряд обычного текста.
+// Добавить строку обычного текста.
 run = new Run(doc, "Text in its default position. ");
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается в виде нижнего индекса.
+// Добавьте фрагмент текста, который отображается как нижний индекс.
 run = new Run(doc, "Subscript. ");
 run.Font.Subscript = true;
 para.AppendChild(run);
 
-// Добавляем фрагмент текста, который отображается как надстрочный индекс.
+// Добавьте фрагмент текста, который отображается как верхний индекс.
 run = new Run(doc, "Superscript.");
 run.Font.Superscript = true;
 para.AppendChild(run);

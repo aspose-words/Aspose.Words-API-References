@@ -3,7 +3,7 @@ title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words pour .NET
-description: Body ParentSection propriété. Obtient la section parent de cette histoire en C#.
+description: Découvrez la propriété Body ParentSection pour accéder facilement à la section parent d'une histoire et améliorer l'efficacité de votre gestion de contenu.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/body/parentsection/
@@ -33,17 +33,17 @@ public void SuppressEndnotes()
      // Par défaut, un document compile toutes les notes de fin à sa fin.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // On utilise la propriété "Position" de l'objet "EndnoteOptions" du document
-     // pour collecter les notes de fin à la fin de chaque section.
+    // Nous utilisons la propriété « Position » de l'objet « EndnoteOptions » du document
+     // pour collecter les notes de fin à la fin de chaque section à la place.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
     InsertSectionWithEndnote(doc, "Section 1", "Endnote 1, will stay in section 1");
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Tout en faisant en sorte que les sections affichent leurs notes de fin respectives, nous pouvons définir l'indicateur "SuppressEndnotes"
-    // de l'objet "PageSetup" d'une section sur "true" pour revenir au comportement par défaut et transmettre ses notes de fin
-    // sur la section suivante.
+    // Lors de l'affichage des notes de fin respectives dans les sections, nous pouvons définir l'indicateur « SuppressEndnotes »
+    // de l'objet « PageSetup » d'une section sur « true » pour revenir au comportement par défaut et transmettre ses notes de fin
+    // passons à la section suivante.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 

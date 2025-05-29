@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldEnd
 linktitle: VisitFieldEnd
 articleTitle: VisitFieldEnd
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitFieldEnd methode. Wird aufgerufen wenn ein Feld im Dokument endet in C#.
+description: Entdecken Sie die DocumentVisitor VisitFieldEnd-Methode, die für die Feldbeendigung in Dokumenten unerlässlich ist. Steigern Sie noch heute Ihre Codiereffizienz!
 type: docs
 weight: 180
 url: /de/net/aspose.words/documentvisitor/visitfieldend/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Bemerkungen
 
@@ -38,8 +38,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -48,7 +48,7 @@ public void FieldToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Feldknoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Feldknoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -108,8 +108,8 @@ public class FieldStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
-    /// in den Baum der untergeordneten Knoten des Feldes.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie diese ein, je nachdem, wie tief der Besucher ist
+    /// in den Baum der untergeordneten Knoten des Felds.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

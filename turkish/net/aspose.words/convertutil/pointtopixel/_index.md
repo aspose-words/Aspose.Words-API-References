@@ -2,15 +2,15 @@
 title: ConvertUtil.PointToPixel
 linktitle: PointToPixel
 articleTitle: PointToPixel
-second_title: Aspose.Words for .NET
-description: ConvertUtil PointToPixel yöntem. Noktaları 96 dpide piksellere dönüştürür C#'da.
+second_title: .NET için Aspose.Words
+description: ConvertUtil'in 96 dpi için optimize edilmiş PointToPixel yöntemi ile noktaları zahmetsizce piksellere dönüştürün. Tasarım hassasiyetinizi bugün artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words/convertutil/pointtopixel/
 ---
 ## PointToPixel(*double*) {#pointtopixel}
 
-Noktaları 96 dpi'de piksellere dönüştürür.
+Noktaları 96 dpi'da piksellere dönüştürür.
 
 ```csharp
 public static double PointToPixel(double points)
@@ -22,7 +22,7 @@ public static double PointToPixel(double points)
 
 ## Notlar
 
-1 inç 72 noktaya eşittir.
+1 inç 72 puana eşittir.
 
 ## Örnekler
 
@@ -32,23 +32,23 @@ Sayfa özelliklerinin piksel cinsinden nasıl belirtileceğini gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir bölümün "Sayfa Yapısı" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
-// Farklı bir ölçü birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz,
-// sınırları tanımlarken pikseller gibi.
+// Bir bölümün "Sayfa Düzeni" sayfa kenar boşluklarının boyutunu nokta cinsinden tanımlar.
+// Farklı bir ölçüm birimi kullanmak için "ConvertUtil" sınıfını da kullanabiliriz.
+// Sınırları tanımlarken piksel gibi.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// Bir piksel 0,75 puandır.
+// Bir piksel 0,75 noktadır.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
-// Kullanılan varsayılan DPI değeri 96'dır.
+// Varsayılan olarak kullanılan DPI değeri 96'dır.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Yeni kenar boşluklarını gösterecek içerik ekleyin.
+// Yeni kenar boşluklarını gösteren içerik ekleyin.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -80,17 +80,17 @@ public static double PointToPixel(double points, double resolution)
 
 ## Notlar
 
-1 inç 72 noktaya eşittir.
+1 inç 72 puana eşittir.
 
 ## Örnekler
 
-Varsayılan ve özel çözünürlükle piksellere dönüştürme noktalarının nasıl kullanılacağını gösterir.
+Varsayılan ve özel çözünürlükle noktaların piksellere nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Özel DPI'ya göre bu bölümün üst kenar boşluğunun boyutunu piksel cinsinden tanımlayın.
+// Bu bölümün üst kenar boşluğunun boyutunu özel bir DPI'a göre piksel cinsinden tanımlayın.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;

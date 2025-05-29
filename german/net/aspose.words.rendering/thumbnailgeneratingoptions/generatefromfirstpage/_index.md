@@ -3,7 +3,7 @@ title: ThumbnailGeneratingOptions.GenerateFromFirstPage
 linktitle: GenerateFromFirstPage
 articleTitle: GenerateFromFirstPage
 second_title: Aspose.Words für .NET
-description: ThumbnailGeneratingOptions GenerateFromFirstPage eigendom. Gibt an ob eine Miniaturansicht von der ersten Seite des Dokuments oder vom ersten Bild generiert werden soll in C#.
+description: Entdecken Sie, wie die Option „GenerateFromFirstPage“ Miniaturansichten von der ersten Seite oder dem ersten Bild des Dokuments erstellt und so Ihren visuellen Inhalt mühelos verbessert.
 type: docs
 weight: 20
 url: /de/net/aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/
@@ -18,7 +18,7 @@ public bool GenerateFromFirstPage { get; set; }
 
 ## Bemerkungen
 
-Standard ist`WAHR` , was bedeutet, dass eine Miniaturansicht von der ersten Seite des Dokuments generiert wird. Wenn der Wert lautet`FALSCH` und es gibt kein Bild im Dokument, wird eine Miniaturansicht von der ersten Seite des Dokuments generiert.
+Standard ist`WAHR` , was bedeutet, dass die Miniaturansicht von der ersten Seite des Dokuments generiert wird. Wenn der Wert`FALSCH` und das Dokument kein Bild enthält, wird eine Miniaturansicht von der ersten Seite des Dokuments generiert.
 
 ## Beispiele
 
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Es gibt zwei Möglichkeiten, ein Miniaturbild festzulegen, wenn ein Dokument im .epub-Format gespeichert wird.
-// 1 – Die erste Seite des Dokuments verwenden:
+// Es gibt zwei Möglichkeiten, beim Speichern eines Dokuments im EPUB-Format ein Miniaturbild festzulegen.
+// 1 - Verwenden Sie die erste Seite des Dokuments:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
-// 2 – Das erste im Dokument gefundene Bild verwenden:
+// 2 - Verwenden Sie das erste im Dokument gefundene Bild:
 ThumbnailGeneratingOptions options = new ThumbnailGeneratingOptions();
 options.ThumbnailSize = new Size(400, 400);
 options.GenerateFromFirstPage = false;

@@ -3,7 +3,7 @@ title: FontSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words per .NET
-description: FontSubstitutionRule Enabled proprietà. Specifica se la regola è abilitata o meno in C#.
+description: Scopri la proprietà FontSubstitutionRule Enabled per gestire facilmente le impostazioni dei font. Garantisci una visualizzazione ottimale del testo con questa funzionalità essenziale.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -18,7 +18,7 @@ public virtual bool Enabled { get; set; }
 
 ## Esempi
 
-Mostra la sostituzione della configurazione dei caratteri dipendente dal sistema operativo.
+Mostra la sostituzione della configurazione dei font in base al sistema operativo.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// L'oggetto FontConfigSubstitutionRule funziona in modo diverso su piattaforme Windows/non Windows.
+// L'oggetto FontConfigSubstitutionRule funziona in modo diverso sulle piattaforme Windows e non Windows.
 // Su Windows non è disponibile.
 if (isWindows)
 {
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// Su Linux/Mac avremo accesso ad esso e saremo in grado di eseguire operazioni.
+// Su Linux/Mac avremo accesso ad esso e potremo eseguire operazioni.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);
@@ -49,13 +49,13 @@ if (isLinuxOrMac)
 }
 ```
 
-Mostra come accedere all'origine dei caratteri di sistema di un documento e impostare i sostituti dei caratteri.
+Mostra come accedere alla sorgente dei font di sistema di un documento e impostare i font sostitutivi.
 
 ```csharp
 Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
-// Per impostazione predefinita, un documento vuoto contiene sempre un'origine carattere di sistema.
+// Per impostazione predefinita, un documento vuoto contiene sempre una sorgente font di sistema.
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
@@ -77,7 +77,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Imposta un carattere esistente nella directory Fonts di Windows come sostituto di uno che non esiste.
+// Imposta un font presente nella directory Fonts di Windows come sostituto di uno che non esiste.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -86,18 +86,19 @@ Assert.AreEqual(1,
 Assert.Contains("Calibri",
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
 
-// In alternativa, potremmo aggiungere una cartella di origine del carattere in cui la cartella corrispondente contiene il carattere.
+// In alternativa, potremmo aggiungere una cartella font source in cui la cartella corrispondente contiene il font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
 Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
 
-// Il ripristino delle fonti dei caratteri ci lascia ancora con la fonte dei caratteri di sistema e i nostri sostituti.
+// Reimpostando le sorgenti dei font rimarranno comunque le sorgenti dei font di sistema e i nostri sostituti.
 doc.FontSettings.ResetFontSources();
 
 Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Guarda anche

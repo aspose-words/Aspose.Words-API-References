@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words per .NET
-description: SignatureLineOptions Email proprietà. Ottiene o imposta lindirizzo email del firmatario suggerito. Il valore predefinito per questa proprietà èstringa vuota Empty in C#.
+description: Gestisci gli indirizzi email dei firmatari suggeriti senza sforzo con SignatureLineOptions. Migliora il tuo flusso di lavoro email con opzioni personalizzabili per una comunicazione fluida.
 type: docs
 weight: 40
 url: /it/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Ottiene o imposta l'indirizzo e-mail del firmatario suggerito. Il valore predefinito per questa proprietà è**stringa vuota** (Empty).
+Ottiene o imposta l'indirizzo e-mail del firmatario suggerito. Il valore predefinito per questa proprietà è**stringa vuota** (Empty ).
 
 ```csharp
 public string Email { get; set; }

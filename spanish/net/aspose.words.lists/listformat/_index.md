@@ -3,16 +3,16 @@ title: ListFormat Class
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Lists.ListFormat clase. Permite controlar qué formato de lista se aplica a un párrafo en C#.
+description: Domine el formato de listas en sus documentos con la clase Aspose.Words.Lists.ListFormat. Mejore fácilmente el estilo de los párrafos para una mejor legibilidad.
 type: docs
-weight: 3480
+weight: 3930
 url: /es/net/aspose.words.lists/listformat/
 ---
 ## ListFormat class
 
 Permite controlar qué formato de lista se aplica a un párrafo.
 
-Para obtener más información, visite el[Trabajar con listas](https://docs.aspose.com/words/net/working-with-lists/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con listas](https://docs.aspose.com/words/net/working-with-lists/) Artículo de documentación.
 
 ```csharp
 public class ListFormat
@@ -22,9 +22,9 @@ public class ListFormat
 
 | Nombre | Descripción |
 | --- | --- |
-| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Verdadero cuando al párrafo se le ha aplicado formato numerado o con viñetas. |
+| [IsListItem](../../aspose.words.lists/listformat/islistitem/) { get; } | Verdadero cuando al párrafo se le aplica formato de viñetas o numeración. |
 | [List](../../aspose.words.lists/listformat/list/) { get; set; } | Obtiene o establece la lista de la que este párrafo es miembro. |
-| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Devuelve el formato a nivel de lista más cualquier anulación de formato aplicada al párrafo actual. |
+| [ListLevel](../../aspose.words.lists/listformat/listlevel/) { get; } | Devuelve el formato de nivel de lista más cualquier modificación de formato aplicada al párrafo actual. |
 | [ListLevelNumber](../../aspose.words.lists/listformat/listlevelnumber/) { get; set; } | Obtiene o establece el número de nivel de lista (0 a 8) para el párrafo. |
 
 ## Métodos
@@ -39,19 +39,19 @@ public class ListFormat
 
 ## Observaciones
 
-Un párrafo en un documento de Microsoft Word puede tener viñetas o numerarse. Cuando un párrafo tiene viñetas o numerarse, se dice que se aplica el formato de lista al párrafo.
+Un párrafo en un documento de Microsoft Word puede tener viñetas o numeración. Cuando un párrafo tiene viñetas o numeración, se dice que se aplica formato de lista al párrafo.
 
-No creas objetos del`ListFormat` clase directamente. Accedes`ListFormat` como propiedad de otro objeto que puede tener formato de lista asociado. Actualmente los objetos que can tienen formato de lista son:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) y[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+No creas objetos de la`ListFormat` clase directamente. Accedes`ListFormat`Como propiedad de otro objeto que puede tener formato de lista asociado. Actualmente, los objetos que pueden tener formato de lista son:[`Paragraph`](../../aspose.words/paragraph/) , [`Style`](../../aspose.words/style/) y[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
 `ListFormat` de un[`Paragraph`](../../aspose.words/paragraph/) especifica qué formato de lista y nivel de lista se aplica a ese párrafo en particular.
 
 `ListFormat` de un[`Style`](../../aspose.words/style/) (aplicable solo a estilos de párrafo) permite especificar qué formato de lista y nivel de lista se aplica a todos los párrafos de ese estilo en particular.
 
-`ListFormat` de un[`DocumentBuilder`](../../aspose.words/documentbuilder/) proporciona acceso al formato de la lista en la posición actual del cursor dentro del[`DocumentBuilder`](../../aspose.words/documentbuilder/).
+`ListFormat` de un[`DocumentBuilder`](../../aspose.words/documentbuilder/) proporciona acceso al formato de la lista en la posición actual del cursor dentro de la[`DocumentBuilder`](../../aspose.words/documentbuilder/).
 
-El formato de la lista en sí se almacena dentro de un[`List`](../list/) objeto que se almacena por separado de los párrafos. La lista de objetos se almacena dentro de un[`ListCollection`](../listcollection/) recopilación. Hay un single [`ListCollection`](../listcollection/) colección por[`Document`](../../aspose.words/document/).
+El formato de la lista en sí se almacena dentro de un[`List`](../list/) Objeto que se almacena por separado de los párrafos. Los objetos de lista se almacenan dentro de un[`ListCollection`](../listcollection/) Colección. Hay un single [`ListCollection`](../listcollection/) colección por[`Document`](../../aspose.words/document/).
 
-Los párrafos no pertenecen físicamente a una lista. Los párrafos just hacen referencia a un objeto de lista particular a través de la[`List`](./list/) property y un nivel particular en la lista a través del[`ListLevelNumber`](./listlevelnumber/) property. Al establecer estas dos propiedades, usted controla qué viñetas y numeración se se aplican a un párrafo.
+Los párrafos no pertenecen físicamente a una lista. Los párrafos just hacen referencia a un objeto de lista específico mediante[`List`](./list/) propiedad y un nivel particular en la lista a través de la[`ListLevelNumber`](./listlevelnumber/) propiedad. Al configurar estas dos propiedades, usted controla qué viñetas y numeración se aplican a un párrafo.
 
 ## Ejemplos
 
@@ -64,10 +64,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Assert.False(builder.ListFormat.IsListItem);
 
 // Una lista nos permite organizar y decorar conjuntos de párrafos con símbolos de prefijo y sangrías.
- // Podemos crear listas anidadas aumentando el nivel de sangría.
- // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" del generador de documentos.
-// Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
-// A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
+ //Podemos crear listas anidadas aumentando el nivel de sangría.
+ // Podemos comenzar y finalizar una lista utilizando la propiedad "ListFormat" de un generador de documentos.
+//Cada párrafo que agreguemos entre el inicio y el final de una lista se convertirá en un elemento de la lista.
+//A continuación se muestran dos tipos de listas que podemos crear usando un generador de documentos.
 // 1 - Una lista numerada:
 // Las listas numeradas crean un orden lógico para sus párrafos numerando cada elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -75,8 +75,8 @@ builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 Assert.True(builder.ListFormat.IsListItem);
 
 // Al establecer la propiedad "ListLevelNumber", podemos aumentar el nivel de la lista
-// para comenzar una sublista autónoma en el elemento de la lista actual.
-// La plantilla de lista de Microsoft Word llamada "NumberDefault" usa números para crear niveles de lista para el primer nivel de lista.
+// para comenzar una sublista autónoma en el elemento de lista actual.
+// La plantilla de lista de Microsoft Word llamada "NumberDefault" utiliza números para crear niveles de lista para el primer nivel de lista.
  // Los niveles de lista más profundos utilizan letras y números romanos en minúscula.
 for (int i = 0; i < 9; i++)
 {
@@ -85,8 +85,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - Una lista con viñetas:
-// Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
-// Los niveles más profundos de esta lista utilizarán diferentes símbolos, como "■" y "○".
+//Esta lista aplicará una sangría y un símbolo de viñeta ("•") antes de cada párrafo.
+// Los niveles más profundos de esta lista utilizarán símbolos diferentes, como "■" y "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -95,7 +95,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// Podemos deshabilitar el formato de la lista para no formatear ningún párrafo posterior como lista al desactivar el indicador "Lista".
+// Podemos deshabilitar el formato de lista para no formatear los párrafos subsiguientes como listas desmarcando la marca "Lista".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

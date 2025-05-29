@@ -3,7 +3,7 @@ title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words für .NET
-description: PageSetup Borders eigendom. Ruft eine Sammlung der Seitenränder ab in C#.
+description: Entdecken Sie die Eigenschaft „PageSetup Borders“, um einfach auf Ihre Seitenränder zuzugreifen und sie anzupassen, um Ihren Dokumenten ein elegantes, professionelles Aussehen zu verleihen.
 type: docs
 weight: 50
 url: /de/net/aspose.words/pagesetup/borders/
@@ -18,7 +18,7 @@ public BorderCollection Borders { get; }
 
 ## Beispiele
 
-Zeigt, wie man einen grünen, wellenförmigen Seitenrand mit einem Schatten erstellt.
+Zeigt, wie man einen grünen, gewellten Seitenrand mit Schatten erstellt.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: List.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words لـ .NET
-description: List GetHashCode طريقة. لحساب رمز التجزئة لكائن القائمة هذا في C#.
+description: اكتشف كيف تقوم طريقة GetHashCode بحساب رمز التجزئة الفريد لقائمتك بكفاءة، مما يعزز إدارة البيانات والأداء.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.lists/list/gethashcode/
 ---
 ## List.GetHashCode method
 
-لحساب رمز التجزئة لكائن القائمة هذا.
+يحسب رمز التجزئة لكائن القائمة هذا.
 
 ```csharp
 public override int GetHashCode()

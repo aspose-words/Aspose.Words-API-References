@@ -3,16 +3,16 @@ title: FieldFormat Class
 linktitle: FieldFormat
 articleTitle: FieldFormat
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldFormat сорт. Обеспечивает вводимый доступ к числовым значениям поля дате и времени а также общему форматированию на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldFormat для легкого доступа к числовым, датным и временным полям. Улучшите форматирование документов с помощью мощных функций!
 type: docs
-weight: 1940
+weight: 2350
 url: /ru/net/aspose.words.fields/fieldformat/
 ---
 ## FieldFormat class
 
-Обеспечивает вводимый доступ к числовым значениям поля, дате и времени, а также общему форматированию.
+Предоставляет типизированный доступ к числовым данным поля, дате и времени, а также общему форматированию.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldFormat
@@ -22,9 +22,9 @@ public class FieldFormat
 
 | Имя | Описание |
 | --- | --- |
-| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Получает или задает форматирование, которое применяется к результату поля даты и времени. Соответствует переключателю \@. |
-| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Получает коллекцию общих форматов, которые применяются к числовым, текстовым или любым результатам поля. Соответствует переключателям \*. |
-| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Получает или задает форматирование, применяемое к результату числового поля. Соответствует переключателю \#. |
+| [DateTimeFormat](../../aspose.words.fields/fieldformat/datetimeformat/) { get; set; } | Возвращает или задает форматирование, применяемое к результату поля даты и времени. Соответствует переключателю \@. |
+| [GeneralFormats](../../aspose.words.fields/fieldformat/generalformats/) { get; } | Получает коллекцию общих форматов, которые применяются к числовому, текстовому или любому результату поля. Соответствует переключателям \*. |
+| [NumericFormat](../../aspose.words.fields/fieldformat/numericformat/) { get; set; } | Возвращает или задает форматирование, применяемое к результату числового поля. Соответствует переключателю \#. |
 
 ## Примеры
 
@@ -34,7 +34,7 @@ public class FieldFormat
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения формата.
+// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения форматирования.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -76,7 +76,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Мы можем удалить наши форматы, чтобы вернуть результат поля в исходную форму.
+// Мы можем удалить наши форматы, чтобы вернуть результат поля к исходному виду.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

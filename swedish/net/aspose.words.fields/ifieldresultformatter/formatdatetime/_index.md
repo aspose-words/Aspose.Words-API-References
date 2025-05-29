@@ -3,14 +3,14 @@ title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
 second_title: Aspose.Words för .NET
-description: IFieldResultFormatter FormatDateTime metod. Anropas när Aspose.Words använder en ändring av datum/tidformat dvs.  dd.MM.åååå i C#.
+description: Upptäck iFieldResultFormatter FormatDateTime-metoden för Aspose.Words. Formatera enkelt datum med hjälp av växeln dd.MM.yyyy!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-Anropas när Aspose.Words använder en ändring av datum/tid-format, dvs. \@ "dd.MM.åååå".
+Anropas när Aspose.Words använder en växel för datum/tid-format, t.ex. \@ "dd.MM.åååå".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -18,7 +18,7 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ## Anmärkningar
 
-Implementeringen bör återkomma`null` för att indikera att standardformateringen ska tillämpas.
+Implementeringen ska returnera`null` för att indikera att standardformateringen ska tillämpas.
 
 ## Exempel
 
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Vår fältresultatformaterare tillämpar ett anpassat format på nyskapade fält av tre typer av format.
-    // Fältresultatformaterare tillämpar ny formatering på fält när de uppdateras,
-    // vilket händer så fort vi skapar dem med den här InsertField-metoden överbelastning.
+    // Vår fältresultatsformaterare tillämpar ett anpassat format på nyskapade fält med tre olika formattyper.
+    // Fältresultatformaterare tillämpar ny formatering på fält allt eftersom de uppdateras,
+    // vilket händer så fort vi skapar dem med hjälp av denna InsertField-metodöverbelastning.
     // 1 - Numerisk:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -57,8 +57,8 @@ public void FieldResultFormatting()
 }
 
 /// <summary>
-/// När fält med formatering uppdateras kommer denna formatterare att åsidosätta deras formatering
-/// med ett anpassat format, samtidigt som du spårar varje anrop.
+/// När fält med formatering uppdateras kommer denna formatering att åsidosätta deras formatering
+/// med ett anpassat format, samtidigt som varje anrop spåras.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

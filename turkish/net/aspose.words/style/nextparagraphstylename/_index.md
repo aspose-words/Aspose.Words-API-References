@@ -2,15 +2,15 @@
 title: Style.NextParagraphStyleName
 linktitle: NextParagraphStyleName
 articleTitle: NextParagraphStyleName
-second_title: Aspose.Words for .NET
-description: Style NextParagraphStyleName mülk. Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yeni paragraflar için stil uygulamasını otomatikleştirmek ve belge biçimlendirmenizi geliştirmek amacıyla NextParagraphStyleName özelliğini etkili bir şekilde nasıl kullanacağınızı keşfedin.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-Belirtilen stille biçimlendirilmiş a paragrafından sonra eklenen yeni paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar.
+Belirtilen stille biçimlendirilen bir paragrafından sonra eklenen yeni bir paragrafa otomatik olarak uygulanacak stilin adını alır/ayarlar.
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
@@ -18,7 +18,7 @@ public string NextParagraphStyleName { get; set; }
 
 ## Notlar
 
-Bu özellik Aspose.Words tarafından kullanılmaz. Sonraki paragraf stili, belgeyi MS Word'de düzenlediğinizde only otomatik olarak uygulanacaktır.
+Bu özellik Aspose.Words tarafından kullanılmaz. Bir sonraki paragraf stili yalnızca belgeyi MS Word'de düzenlediğinizde otomatik olarak uygulanacaktır.
 
 ## Örnekler
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri numaralandırın ve listeleyin.
+// Aspose.Words kullanılarak oluşturulan bir belgenin varsayılan olarak içerdiği tüm stilleri sayın ve listeleyin.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

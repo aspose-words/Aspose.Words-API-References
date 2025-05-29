@@ -3,14 +3,14 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words لـ .NET
-description: Cell PreviousCell ملكية. يحصل على السابقCell العقدة في C#.
+description: يمكنك الوصول بسهولة إلى عقدة الخلية السابقة باستخدام خاصية "الخلية السابقة". حسّن تصفح بياناتك وسهّل عملية الترميز.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.tables/cell/previouscell/
 ---
 ## Cell.PreviousCell property
 
-يحصل على السابق[`Cell`](../) العقدة
+يحصل على السابق[`Cell`](../) العقدة.
 
 ```csharp
 public Cell PreviousCell { get; }
@@ -18,17 +18,17 @@ public Cell PreviousCell { get; }
 
 ## ملاحظات
 
-يمكن استخدام هذه الطريقة عندما تحتاج إلى الوصول إلى خلايا a[`Row`](../../row/) . إذا كان a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) تم العثور على العقدة في صف بدلاً من خلية، ويتم اجتيازها تلقائيًا للحصول على خلية موجودة بداخلها.
+يمكن استخدام الطريقة عندما تحتاج إلى الوصول إلى خلايا مكتوبة[`Row`](../../row/) . إذا a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) إذا تم العثور على العقدة في صف بدلاً من خلية، فسيتم اجتيازها تلقائيًا للحصول على خلية موجودة داخلها.
 
 ## أمثلة
 
-يوضح كيفية تعداد جميع خلايا الجدول.
+يوضح كيفية ترقيم جميع خلايا الجدول.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// تعداد جميع خلايا الجدول.
+//إحصاء جميع خلايا الجدول.
 for (Row row = table.FirstRow; row != null; row = row.NextRow)
 {
     for (Cell cell = row.FirstCell; cell != null; cell = cell.NextCell)

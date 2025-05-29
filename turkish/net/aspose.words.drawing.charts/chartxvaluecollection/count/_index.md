@@ -2,8 +2,8 @@
 title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: ChartXValueCollection Count mülk. Bu koleksiyondaki öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli analiz için veri koleksiyonunuzdaki toplam öğe sayısını kolayca almak üzere ChartXValueCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartxvaluecollection/count/

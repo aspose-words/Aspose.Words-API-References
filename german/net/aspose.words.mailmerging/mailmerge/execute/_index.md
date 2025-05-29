@@ -3,14 +3,14 @@ title: MailMerge.Execute
 linktitle: Execute
 articleTitle: Execute
 second_title: Aspose.Words für .NET
-description: MailMerge Execute methode. Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch in C#.
+description: Optimieren Sie Ihren Mailing-Prozess mit der MailMerge Execute-Methode und führen Sie mühelos Daten aus benutzerdefinierten Quellen für eine personalisierte Kommunikation zusammen.
 type: docs
 weight: 180
 url: /de/net/aspose.words.mailmerging/mailmerge/execute/
 ---
 ## Execute(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#execute}
 
-Führt einen Seriendruck aus einer benutzerdefinierten Datenquelle durch.
+Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle aus.
 
 ```csharp
 public void Execute(IMailMergeDataSource dataSource)
@@ -18,15 +18,126 @@ public void Execute(IMailMergeDataSource dataSource)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Serienbrief-Datenquellenschnittstelle implementiert. |
+| dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Datenquellenschnittstelle für Serienbriefe implementiert. |
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einer beliebigen Datenquelle wie einer Liste, einer Hashtabelle oder Objekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die das implementiert[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
+Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus einer beliebigen Datenquelle wie einer Liste, einer Hashtabelle oder einem Objekt zu füllen. Sie müssen eine eigene Klasse schreiben, die die[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
 
-Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, Das heißt, Sie benötigen keine Rechts-nach-Links-Sprachkompatibilität (z. B. Arabisch oder Hebräisch).
+Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, das heißt, Sie benötigen keine Rechts-nach-links-Kompatibilität mit Sprachen (wie Arabisch oder Hebräisch).
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
+
+## Beispiele
+
+Zeigt, wie ein Serienbrief mit einer Datenquelle in Form eines benutzerdefinierten Objekts ausgeführt wird.
+
+```csharp
+public void CustomDataSource()
+{
+    Document doc = new Document();
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.InsertField(" MERGEFIELD FullName ");
+    builder.InsertParagraph();
+    builder.InsertField(" MERGEFIELD Address ");
+
+    List<Customer> customers = new List<Customer>
+    {
+        new Customer("Thomas Hardy", "120 Hanover Sq., London"),
+        new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
+    };
+
+        // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die Schnittstelle IMailMergeDataSource implementieren.
+    CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
+
+    doc.MailMerge.Execute(dataSource);
+
+    doc.Save(ArtifactsDir + "MailMergeCustom.CustomDataSource.docx");
+}
+
+/// <summary>
+/// Ein Beispiel für eine „Datenentität“-Klasse in Ihrer Anwendung.
+/// </summary>
+public class Customer
+{
+    public Customer(string aFullName, string anAddress)
+    {
+        FullName = aFullName;
+        Address = anAddress;
+    }
+
+    public string FullName { get; set; }
+    public string Address { get; set; }
+}
+
+/// <summary>
+    /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Daten aus Ihren Kundenobjekten per Serienbrief in Microsoft Word-Dokumente zu übertragen.
+/// </summary>
+public class CustomerMailMergeDataSource : IMailMergeDataSource
+{
+    public CustomerMailMergeDataSource(List<Customer> customers)
+    {
+        mCustomers = customers;
+
+        // Wenn wir die Datenquelle initialisieren, muss ihre Position vor dem ersten Datensatz liegen.
+        mRecordIndex = -1;
+    }
+
+    /// <summary>
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
+    /// </summary>
+    public string TableName
+    {
+        get { return "Customer"; }
+    }
+
+    /// <summary>
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
+    /// </summary>
+    public bool GetValue(string fieldName, out object fieldValue)
+    {
+        switch (fieldName)
+        {
+            case "FullName":
+                fieldValue = mCustomers[mRecordIndex].FullName;
+                return true;
+            case "Address":
+                fieldValue = mCustomers[mRecordIndex].Address;
+                return true;
+            default:
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
+                // dass wir kein Feld mit diesem Namen finden konnten.
+                fieldValue = null;
+                return false;
+        }
+    }
+
+    /// <summary>
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
+    /// </summary>
+    public bool MoveNext()
+    {
+        if (!IsEof)
+            mRecordIndex++;
+
+        return !IsEof;
+    }
+
+    public IMailMergeDataSource GetChildDataSource(string tableName)
+    {
+        return null;
+    }
+
+    private bool IsEof
+    {
+        get { return (mRecordIndex >= mCustomers.Count); }
+    }
+
+    private readonly List<Customer> mCustomers;
+    private int mRecordIndex;
+}
+```
 
 ### Siehe auch
 
@@ -39,7 +150,7 @@ Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
 
 ## Execute(*string[], object[]*) {#execute_5}
 
-Führt einen Seriendruckvorgang für einen einzelnen Datensatz durch.
+Führt einen Serienbriefvorgang für einen einzelnen Datensatz aus.
 
 ```csharp
 public void Execute(string[] fieldNames, object[] values)
@@ -47,45 +158,45 @@ public void Execute(string[] fieldNames, object[] values)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldNames | String[] | Array von Zusammenführungsfeldnamen. Bei Feldnamen wird die Groß-/Kleinschreibung nicht beachtet. Wenn ein Feldname gefunden wird, der im Dokument nicht gefunden wird, wird er ignoriert. |
-| values | Object[] | Array von Werten, die in die Zusammenführungsfelder eingefügt werden sollen. Die Anzahl der Elemente in diesem Array muss mit der Anzahl der Elemente in übereinstimmen*fieldNames*. |
+| fieldNames | String[] | Array von Seriendruckfeldnamen. Bei Feldnamen wird die Groß- und Kleinschreibung nicht berücksichtigt. Wird ein Feldname gefunden, der im Dokument nicht gefunden wird, wird er ignoriert. |
+| values | Object[] | Array von Werten, die in die Seriendruckfelder eingefügt werden sollen. Die Anzahl der Elemente in diesem Array muss mit der Anzahl der Elemente in übereinstimmen*fieldNames*. |
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus einem Array von Objekten zu füllen.
+Verwenden Sie diese Methode, um Seriendruckfelder im Dokument mit Werten aus einem Array von Objekten zu füllen.
 
-Bei dieser Methode werden Daten nur für einen Datensatz zusammengeführt. Das Array der Feldnamen und das Array der Werte repräsentieren die Daten eines einzelnen Datensatzes.
+Diese Methode führt Daten nur für einen Datensatz zusammen. Das Array der Feldnamen und das Array der Werte stellen die Daten eines einzelnen Datensatzes dar.
 
-Bei dieser Methode werden keine Seriendruckbereiche verwendet.
+Bei dieser Methode werden keine Serienbriefbereiche verwendet.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 ## Beispiele
 
-Zeigt, wie ein Bild aus einem URI als Serienbriefdaten in ein MERGEFIELD zusammengeführt wird.
+Zeigt, wie ein Bild aus einer URI als Serienbriefdaten in ein MERGEFIELD eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// MERGEFIELDs mit „Image:“-Tags erhalten während eines Seriendrucks ein Bild.
+// MERGEFIELDs mit „Image:“-Tags erhalten während eines Serienbriefs ein Bild.
 // Die Zeichenfolge nach dem Doppelpunkt im Tag „Image:“ entspricht einem Spaltennamen
 // in der Datenquelle, deren Zellen URIs von Bilddateien enthalten.
 builder.InsertField("MERGEFIELD  Image:logo_FromWeb ");
 builder.InsertField("MERGEFIELD  Image:logo_FromFileSystem ");
 
- // Erstellen Sie eine Datenquelle, die URIs von Bildern enthält, die wir zusammenführen.
-// Ein URI kann eine Web-URL sein, die auf ein Bild verweist, oder der Dateiname einer Bilddatei im lokalen Dateisystem.
+    // Erstellen Sie eine Datenquelle, die URIs von Bildern enthält, die wir zusammenführen werden.
+// Eine URI kann eine Web-URL sein, die auf ein Bild verweist, oder der Dateiname einer Bilddatei im lokalen Dateisystem.
 string[] columns = { "logo_FromWeb", "logo_FromFileSystem" };
 object[] URIs = { ImageUrl, ImageDir + "Logo.jpg" };
 
-// Einen Serienbrief für eine Datenquelle mit einer Zeile ausführen.
+// Führen Sie einen Serienbrief für eine Datenquelle mit einer Zeile aus.
 doc.MailMerge.Execute(columns, URIs);
 
 doc.Save(ArtifactsDir + "MailMergeEvent.ImageFromUrl.docx");
 ```
 
-Zeigt, wie Sie einen Seriendruck durchführen und das Dokument anschließend im Client-Browser speichern.
+Zeigt, wie Sie einen Serienbrief erstellen und das Dokument anschließend im Client-Browser speichern.
 
 ```csharp
 Document doc = new Document();
@@ -102,12 +213,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Das Dokument an den Client-Browser senden.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Wird ausgelöst, weil HttpResponse im Test null ist.
+// Senden Sie das Dokument an den Client-Browser.
+//Ausgelöst, weil HttpResponse im Test null ist.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
 // Wir müssen diese Antwort manuell schließen, um sicherzustellen, dass wir dem Dokument nach dem Speichern keinen überflüssigen Inhalt hinzufügen.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Siehe auch
@@ -120,7 +231,7 @@ Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
 
 ## Execute(*DataTable*) {#execute_2}
 
-Führt einen Serienbrief von einer Datentabelle in das Dokument durch.
+Führt einen Serienbrief aus einer DataTable in das Dokument aus.
 
 ```csharp
 public void Execute(DataTable table)
@@ -136,11 +247,11 @@ Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a z
 
 Alle Datensätze aus der Tabelle werden in das Dokument eingefügt.
 
-Sie können das NEXT-Feld im Word-Dokument verwenden, um dies zu veranlassen[`MailMerge`](../) Objekt zur Auswahl des nächsten Datensatzes aus dem**Datentabelle** und fahren Sie mit dem Zusammenführen fort. Dies kann beim Erstellen von Dokumenten wie Versandetiketten verwendet werden.
+Sie können das Feld NEXT im Word-Dokument verwenden, um[`MailMerge`](../) Objekt zum Auswählen des nächsten Datensatzes aus**Datentabelle** und mit dem Zusammenführen fortfahren. Dies kann beim Erstellen von Dokumenten wie Adressetiketten verwendet werden.
 
-Wann[`MailMerge`](../) Das Objekt erreicht das Ende des Hauptdokuments und es sind noch weitere Zeilen darin**Datentabelle**, kopiert es den gesamten Inhalt des Hauptdokuments und hängt ihn an das Ende des Zieldokuments an, wobei ein Abschnitt -Umbruch als Trennzeichen verwendet wird.
+Wann[`MailMerge`](../) Objekt erreicht das Ende des Hauptdokuments und es gibt noch mehr Zeilen im**Datentabelle**kopiert es den gesamten Inhalt des Hauptdokuments und hängt ihn mit einem Abschnittsumbruch als Trennzeichen an das Ende des Zieldokuments an.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 ## Beispiele
 
@@ -156,14 +267,14 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
     // Nachfolgend finden Sie zwei Möglichkeiten, eine DataTable als Datenquelle für einen Serienbrief zu verwenden.
-    // 1 – Verwenden Sie die gesamte Tabelle für den Serienbrief, um für jede Zeile in der Tabelle ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 1 - Verwenden Sie die gesamte Tabelle für den Seriendruck, um für jede Zeile in der Tabelle ein Ausgabe-Seriendruckdokument zu erstellen:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 – Verwenden Sie eine Zeile der Tabelle, um ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 2 - Verwenden Sie eine Zeile der Tabelle, um ein Serienbrief-Ausgabedokument zu erstellen:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -197,7 +308,7 @@ private static Document CreateSourceDocExecuteDataTable()
 
 ## Execute(*IDataReader*) {#execute_4}
 
-Führt einen Serienbrief durch**IDataReader** in das Dokument.
+Führt Serienbriefe aus von**IDataReader** in das Dokument.
 
 ```csharp
 public void Execute(IDataReader dataReader)
@@ -205,19 +316,19 @@ public void Execute(IDataReader dataReader)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataReader | IDataReader | Datenquelle für den Seriendruckvorgang. |
+| dataReader | IDataReader | Datenquelle für den Serienbriefvorgang. |
 
 ## Bemerkungen
 
-Du kannst passieren**SqlDataReader** oder**OleDbDataReader** Objekt als Parameter in die Methode this ein, da beide implementiert sind**IDataReader** Schnittstelle.
+Sie können bestehen**SqlDataReader** oder**OleDbDataReader**Objekt in this Methode als Parameter, weil beide implementiert**IDataReader** Schnittstelle.
 
-Beachten Sie, dass diese Methode keine Seriendruckbereiche verwendet und bei mehreren Datensätzen das -Dokument durch Wiederholung des gesamten Dokuments wächst.
+Beachten Sie, dass bei dieser Methode keine Serienbriefbereiche verwendet werden und dass bei mehreren Datensätzen das Dokument durch Wiederholung des gesamten Dokuments größer wird.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 ## Beispiele
 
-Zeigt, wie ein Serienbrief mit Daten von einem Datenleser ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem Datenleser ausgeführt wird.
 
 ```csharp
 Document doc = new Document();
@@ -243,24 +354,24 @@ string query =
 
 using (OleDbConnection connection = new OleDbConnection(connectionString))
 {
-    // Erstellen Sie einen SQL-Befehl, der Daten für unseren Serienbrief liefert.
+    // Erstellen Sie einen SQL-Befehl, der Daten für unseren Serienbrief beschafft.
     // Die Namen der Tabellenspalten, die diese SELECT-Anweisung zurückgibt
-    // muss den oben platzierten Zusammenführungsfeldern entsprechen.
+    // muss den Seriendruckfeldern entsprechen, die wir oben platziert haben.
     OleDbCommand command = new OleDbCommand(query, connection);
     command.CommandText = query;
     try
-    {                    
-        connection.Open();                 
+    {
+        connection.Open();
         using (OleDbDataReader reader = command.ExecuteReader())
         {
-            // Nehmen Sie die Daten vom Lesegerät und verwenden Sie sie im Serienbrief.
+            // Daten vom Reader übernehmen und im Serienbrief verwenden.
             doc.MailMerge.Execute(reader);
         }
     }
     catch (Exception ex)
     {
         Console.WriteLine(ex.Message);
-    }                
+    }
 }
 
 doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
@@ -276,7 +387,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataReader.docx");
 
 ## Execute(*DataView*) {#execute_3}
 
-Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument.
+Führt Serienbriefe aus einem**Datenansicht** in das Dokument.
 
 ```csharp
 public void Execute(DataView dataView)
@@ -284,19 +395,19 @@ public void Execute(DataView dataView)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataView | DataView | Datenquelle für den Seriendruckvorgang. |
+| dataView | DataView | Datenquelle für den Serienbriefvorgang. |
 
 ## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Daten in a abrufen**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
+Diese Methode ist nützlich, wenn Sie Daten in ein**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
 
-Beachten Sie, dass diese Methode keine Seriendruckbereiche verwendet und bei mehreren Datensätzen das -Dokument durch Wiederholung des gesamten Dokuments wächst.
+Beachten Sie, dass bei dieser Methode keine Serienbriefbereiche verwendet werden und dass bei mehreren Datensätzen das Dokument durch Wiederholung des gesamten Dokuments größer wird.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 ## Beispiele
 
-Zeigt, wie Serienbriefdaten mit einem DataView bearbeitet werden.
+Zeigt, wie Serienbriefdaten mit einer DataView bearbeitet werden.
 
 ```csharp
 Document doc = new Document();
@@ -315,13 +426,13 @@ table.Rows.Add(new object[] { "Jane Doe", "81" });
 table.Rows.Add(new object[] { "John Cardholder", "47" });
 table.Rows.Add(new object[] { "Joe Bloggs", "75" });
 
-// Wir können eine Datenansicht verwenden, um die Seriendruckdaten zu ändern, ohne Änderungen an der Datentabelle selbst vorzunehmen.
+// Wir können eine Datenansicht verwenden, um die Serienbriefdaten zu ändern, ohne Änderungen an der Datentabelle selbst vorzunehmen.
 DataView view = new DataView(table);
 view.Sort = "Grade DESC";
 view.RowFilter = "Grade >= 50";
 
-// Unsere Datenansicht sortiert die Einträge in absteigender Reihenfolge entlang der Spalte „Note“.
-// und filtert Zeilen mit Werten von weniger als 50 in dieser Spalte heraus.
+// Unsere Datenansicht sortiert die Einträge absteigend entlang der Spalte „Note“
+// und filtert Zeilen mit Werten unter 50 in dieser Spalte heraus.
 // Drei der vier Zeilen erfüllen diese Kriterien, sodass das Ausgabedokument drei Zusammenführungsdokumente enthält.
 doc.MailMerge.Execute(view);
 
@@ -338,7 +449,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteDataView.docx");
 
 ## Execute(*DataRow*) {#execute_1}
 
-Führt einen Serienbrief von einem aus**Datenzeile** in das Dokument.
+Führt Serienbriefe aus einem**Datenzeile** in das Dokument.
 
 ```csharp
 public void Execute(DataRow row)
@@ -350,9 +461,9 @@ public void Execute(DataRow row)
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus a zu füllen**Datenzeile**.
+Mit dieser Methode füllen Sie Serienbrieffelder im Dokument mit Werten aus einem**Datenzeile**.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 ## Beispiele
 
@@ -368,14 +479,14 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
     // Nachfolgend finden Sie zwei Möglichkeiten, eine DataTable als Datenquelle für einen Serienbrief zu verwenden.
-    // 1 – Verwenden Sie die gesamte Tabelle für den Serienbrief, um für jede Zeile in der Tabelle ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 1 - Verwenden Sie die gesamte Tabelle für den Seriendruck, um für jede Zeile in der Tabelle ein Ausgabe-Seriendruckdokument zu erstellen:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 – Verwenden Sie eine Zeile der Tabelle, um ein Ausgabe-Serienbriefdokument zu erstellen:
+    // 2 - Verwenden Sie eine Zeile der Tabelle, um ein Serienbrief-Ausgabedokument zu erstellen:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);

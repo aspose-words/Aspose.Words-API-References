@@ -3,14 +3,14 @@ title: OleFormat.OlePackage
 linktitle: OlePackage
 articleTitle: OlePackage
 second_title: Aspose.Words для .NET
-description: OleFormat OlePackage свойство. Предоставить доступ кOlePackage если объект OLE является пакетом OLE. Возвращаетнулевой иначе на С#.
+description: Получите доступ к свойствам OlePackage для объектов OLE без усилий. Получите бесшовную интеграцию с пакетами OLE и улучшите свои возможности обработки данных.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.drawing/oleformat/olepackage/
 ---
 ## OleFormat.OlePackage property
 
-Предоставить доступ к[`OlePackage`](../../olepackage/) если объект OLE является пакетом OLE. Возвращает`нулевой` иначе.
+Предоставить доступ к[`OlePackage`](../../olepackage/) если объект OLE является пакетом OLE. Возвращает`нулевой` в противном случае.
 
 ```csharp
 public OlePackage OlePackage { get; }
@@ -18,7 +18,7 @@ public OlePackage OlePackage { get; }
 
 ## Примечания
 
-Пакет OLE — это устаревшая технология, которая позволяет обернуть любой формат файла, отсутствующий в реестре OLE системы Windows, в общий пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage/) введите для получения дополнительной информации.
+OLE Package — это устаревшая технология, которая позволяет упаковать любой формат файла, отсутствующий в реестре OLE системы Windows, в универсальный пакет, позволяющий встраивать в документ практически все, что угодно. См.[`OlePackage`](../../olepackage/) для получения дополнительной информации введите .
 
 ## Примеры
 
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Объекты OLE позволяют нам открывать другие файлы в локальной файловой системе с помощью другого установленного приложения
-// в нашей операционной системе, дважды щелкнув фигуру, содержащую объект OLE в теле документа.
-// В данном случае наш внешний файл будет ZIP-архивом.
+// в нашей операционной системе, дважды щелкнув по фигуре, содержащей объект OLE в теле документа.
+// В этом случае наш внешний файл будет ZIP-архивом.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

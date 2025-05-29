@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.KeepLegacyControlChars
 linktitle: KeepLegacyControlChars
 articleTitle: KeepLegacyControlChars
 second_title: Aspose.Words para .NET
-description: OoxmlSaveOptions KeepLegacyControlChars propiedad. Mantiene la representación original de los caracteres de control heredados en C#.
+description: Descubra la propiedad KeepLegacyControlChars de OoxmlSaveOptions para mantener el formato original de los caracteres de control heredados para una conversión de documentos perfecta.
 type: docs
-weight: 40
+weight: 50
 url: /es/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
@@ -23,11 +23,11 @@ Muestra cómo admitir caracteres de control heredados al convertir a .docx.
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
-// Cuando guardamos el documento en formato OOXML, podemos crear un objeto OoxmlSaveOptions
-// y luego pasarlo al método de guardado del documento para modificar cómo guardamos el documento.
-// Establece la propiedad "KeepLegacyControlChars" en "true" para preservar
-// el carácter heredado "ShortDateTime" mientras se guarda.
-// Establece la propiedad "KeepLegacyControlChars" en "false" para eliminar
+// Cuando guardamos el documento en un formato OOXML, podemos crear un objeto OoxmlSaveOptions
+// y luego pasarlo al método de guardar del documento para modificar la forma en que guardamos el documento.
+// Establezca la propiedad "KeepLegacyControlChars" en "true" para conservar
+// el carácter heredado "ShortDateTime" al guardar.
+// Establezca la propiedad "KeepLegacyControlChars" en "falso" para eliminar
 // el carácter heredado "ShortDateTime" del documento de salida.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;

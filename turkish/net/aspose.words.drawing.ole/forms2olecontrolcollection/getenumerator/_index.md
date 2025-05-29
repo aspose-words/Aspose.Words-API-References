@@ -2,15 +2,15 @@
 title: Forms2OleControlCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: Forms2OleControlCollection GetEnumerator yöntem. Numaralandırıcıyı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda verimli veri işleme için numaralandırıcıları kolayca almak amacıyla Forms2OleControlCollection GetEnumerator metodunu keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.ole/forms2olecontrolcollection/getenumerator/
 ---
 ## Forms2OleControlCollection.GetEnumerator method
 
-Numaralandırıcıyı alır.
+Numaratör alır.
 
 ```csharp
 public IEnumerator<Forms2OleControl> GetEnumerator()

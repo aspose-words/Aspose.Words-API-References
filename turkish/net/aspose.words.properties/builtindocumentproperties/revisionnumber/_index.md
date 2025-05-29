@@ -2,10 +2,10 @@
 title: BuiltInDocumentProperties.RevisionNumber
 linktitle: RevisionNumber
 articleTitle: RevisionNumber
-second_title: Aspose.Words for .NET
-description: BuiltInDocumentProperties RevisionNumber mülk. Belge revizyon numarasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: BuiltInDocumentProperties ile belgenizin RevisionNumber'ını yönetin. Değişiklikleri kolayca takip edin ve daha iyi iş birliği için sürüm kontrolünü geliştirin.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words.properties/builtindocumentproperties/revisionnumber/
 ---
 ## BuiltInDocumentProperties.RevisionNumber property
@@ -37,25 +37,25 @@ Assert.AreEqual(" REVNUM ", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 
-// Bu özellik bir belgenin Microsoft Word'de kaç kez kaydedildiğini sayar,
-// ve izlenen revizyonlarla ilgisi yoktur. Windows Gezgini'nde belgeye sağ tıklayarak bulabiliriz
-// Özellikler aracılığıyla -> Detaylar. Bu özelliği manuel olarak güncelleyebiliriz.
+// Bu özellik, bir belgenin Microsoft Word'de kaç kez kaydedildiğini sayar,
+// ve izlenen revizyonlarla ilgisi yoktur. Bunu Windows Explorer'da belgeye sağ tıklayarak bulabiliriz
+// Özellikler -> Ayrıntılar aracılığıyla. Bu özelliği manuel olarak güncelleyebiliriz.
 doc.BuiltInDocumentProperties.RevisionNumber++;
 field.Update();
 
 Assert.AreEqual("2", field.Result);
 ```
 
-"Orijin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
+"Origin" kategorisindeki belge özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
-// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açın.
+// Microsoft Word kullanarak oluşturduğumuz ve düzenlediğimiz bir belgeyi açalım.
 Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
-// Aşağıdaki yerleşik özellikler bu belgenin oluşturulmasına ve düzenlenmesine ilişkin bilgiler içerir.
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz
-// bu özellikler "Özellikler" aracılığıyla -> "Ayrıntılar" -> "Köken" kategorisi.
+// Aşağıdaki yerleşik özellikler, bu belgenin oluşturulması ve düzenlenmesiyle ilgili bilgileri içerir.
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz
+// bu özellikler "Özellikler" -> "Ayrıntılar" -> "Köken" kategorisi aracılığıyla.
 // PRINTDATE ve EDITTIME gibi alanlar bu değerleri belge gövdesinde görüntüleyebilir.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
@@ -69,11 +69,11 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word, belgeyi kaydettiğimizde aşağıdaki özellikleri otomatik olarak günceller.
-// Bu özellikleri Aspose.Words ile kullanmak için değerleri manuel olarak ayarlamamız gerekecek.
+// Bu özellikleri Aspose.Words ile kullanmak için, bunlara manuel olarak değer ayarlamamız gerekecek.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Windows Explorer'da bu belgeye sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
+// Bu belgeye Windows Gezgini'nde sağ tıklayıp bulabiliriz these properties in "Properties" -> "Details" -> "Origin".
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 

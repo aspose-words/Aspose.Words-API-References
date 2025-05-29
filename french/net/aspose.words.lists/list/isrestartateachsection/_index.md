@@ -3,7 +3,7 @@ title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
 articleTitle: IsRestartAtEachSection
 second_title: Aspose.Words pour .NET
-description: List IsRestartAtEachSection propriété. Spécifie si la liste doit être redémarrée à chaque section. La valeur par défaut estFAUX  en C#.
+description: Découvrez la propriété IsRestartAtEachSection pour contrôler la numérotation des listes par sections. Améliorez l'organisation de vos documents grâce à cette fonctionnalité facile à utiliser !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.lists/list/isrestartateachsection/
@@ -20,7 +20,7 @@ public bool IsRestartAtEachSection { get; set; }
 
 Cette option est prise en charge uniquement dans les formats de document RTF, DOC et DOCX.
 
-Cette option sera écrite dans DOCX uniquement si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) est alors plus élevéEcma376_2006.
+Cette option sera écrite dans DOCX uniquement si[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) est plus élevé queEcma376_2006.
 
 ## Exemples
 
@@ -35,8 +35,8 @@ doc.Lists.Add(ListTemplate.NumberDefault);
 Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
-// La propriété "IsRestartAtEachSection" ne sera applicable que lorsque
-// le niveau de conformité OOXML du document correspond à une norme plus récente que "OoxmlComplianceCore.Ecma376".
+// La propriété « IsRestartAtEachSection » ne sera applicable que lorsque
+// le niveau de conformité OOXML du document est conforme à une norme plus récente que « OoxmlComplianceCore.Ecma376 ».
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

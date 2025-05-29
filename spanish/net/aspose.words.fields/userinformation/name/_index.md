@@ -3,7 +3,7 @@ title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: UserInformation Name propiedad. Obtiene o establece el nombre del usuario en C#.
+description: Gestione fácilmente los perfiles de usuario con la propiedad UserInformation Name. Recupere o actualice fácilmente los nombres de usuario para una mayor personalización.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/userinformation/name/
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserte los campos NOMBRE DE USUARIO, INICIALES DE USUARIO y DIRECCIÓN DE USUARIO, que muestran valores de
+// Inserte los campos NOMBRE DE USUARIO, INICIALES DEL USUARIO y DIRECCIÓN DEL USUARIO, que muestran los valores de
  // las propiedades respectivas del objeto UserInformation que hemos creado anteriormente.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

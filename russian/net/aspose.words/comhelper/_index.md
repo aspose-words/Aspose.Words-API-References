@@ -3,14 +3,14 @@ title: ComHelper Class
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words для .NET
-description: Aspose.Words.ComHelper сорт. Предоставляет методы COMклиентам для загрузки документа в Aspose.Words на С#.
+description: Разблокируйте бесшовную интеграцию документов с Aspose.Words.ComHelper. Легко загружайте и управляйте документами для клиентов COM с помощью мощных функций.
 type: docs
-weight: 220
+weight: 410
 url: /ru/net/aspose.words/comhelper/
 ---
 ## ComHelper class
 
-Предоставляет методы COM-клиентам для загрузки документа в Aspose.Words.
+Предоставляет методы для клиентов COM для загрузки документа в Aspose.Words.
 
 ```csharp
 public class ComHelper
@@ -26,15 +26,15 @@ public class ComHelper
 
 | Имя | Описание |
 | --- | --- |
-| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Разрешает загрузку COM-приложения.[`Document`](../document/) из потока. |
-| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Позволяет COM-приложению загружать[`Document`](../document/) из файла. |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Позволяет COM-приложению загружать[`Document`](../document/) из объекта IStream. |
+| [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Позволяет загружать COM-приложение[`Document`](../document/) из потока. |
+| [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Позволяет приложению COM загружать[`Document`](../document/) из файла . |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Позволяет приложению COM загружать[`Document`](../document/) из объекта IStream. |
 
 ## Примечания
 
-Использовать`ComHelper` класс для загрузки документа из файла или потока в [`Document`](../document/) объект в COM-приложении.
+Используйте`ComHelper` класс для загрузки документа из файла или потока в [`Document`](../document/) объект в COM-приложении.
 
-[`Document`](../document/) Класс предоставляет конструктор по умолчанию для создания нового документа document , а также предоставляет перегруженные конструкторы для загрузки документа из файла или потока. Если вы используете Aspose.Words из приложения .NET, вы можете использовать все[`Document`](../document/) напрямую, но если вы используете Aspose.Words из COM-приложения, только по умолчанию.[`Document`](../document/) конструктор имеется.
+The[`Document`](../document/) класс предоставляет конструктор по умолчанию для создания нового документа , а также предоставляет перегруженные конструкторы для загрузки документа из файла или потока. Если вы используете Aspose.Words из приложения .NET, вы можете использовать все[`Document`](../document/) конструкторы напрямую, но если вы используете Aspose.Words из приложения COM, только по умолчанию[`Document`](../document/) Конструктор доступен.
 
 ## Примеры
 
@@ -51,10 +51,10 @@ Set doc = helper.Open(fileName)
 Показывает, как открывать документы с помощью класса ComHelper.
 
 ```csharp
-// Класс ComHelper позволяет нам загружать документы из COM-клиентов.
+// Класс ComHelper позволяет нам загружать документы из клиентов COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Использование локального системного имени файла:
+// 1 - Использование имени файла локальной системы:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

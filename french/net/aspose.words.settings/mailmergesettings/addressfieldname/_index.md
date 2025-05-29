@@ -3,14 +3,14 @@ title: MailMergeSettings.AddressFieldName
 linktitle: AddressFieldName
 articleTitle: AddressFieldName
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings AddressFieldName propriété. Spécifie la colonne de la source de données qui contient les adresses email. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez la propriété AddressFieldName de MailMergeSettings pour spécifier facilement votre colonne d'adresse e-mail dans les sources de données, garantissant ainsi des fusions d'e-mails transparentes.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-Spécifie la colonne de la source de données qui contient les adresses e-mail. La valeur par défaut est une chaîne vide.
+Spécifie la colonne de la source de données contenant les adresses e-mail. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string AddressFieldName { get; set; }
@@ -18,7 +18,7 @@ public string AddressFieldName { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
+Montre comment exécuter un publipostage tout en se connectant à une source de données externe.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois que nous avons fait cela et enregistré le document,
+// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois cette opération effectuée et le document enregistré,
 // Microsoft Word n'exécutera plus de publipostage lorsque nous l'utiliserons pour charger le document.
 settings.Clear();
 

@@ -2,10 +2,10 @@
 title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
-second_title: Aspose.Words for .NET
-description: Document FontSettings mülk. Belge yazı tipi ayarlarını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yazı tipi ayarlarını zahmetsizce nasıl özelleştireceğinizi keşfedin. Daha iyi okunabilirlik ve stil için özel yazı tipi seçenekleriyle belgelerinizi geliştirin.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.words/document/fontsettings/
 ---
 ## Document.FontSettings property
@@ -18,13 +18,13 @@ public FontSettings FontSettings { get; set; }
 
 ## Notlar
 
-Bu özellik, belge başına yazı tipi ayarlarının belirlenmesine olanak tanır. Eğer ayarlanmışsa`hükümsüz` , varsayılan statik yazı tipi ayarları [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kullanılacak.
+Bu özellik, belge başına yazı tipi ayarlarını belirtmeye olanak tanır. Eğer ayarlanırsa`hükümsüz` , varsayılan statik yazı tipi ayarları [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) kullanılacaktır.
 
 Varsayılan değer:`hükümsüz`.
 
 ## Örnekler
 
-Yazı tipi değiştirme kurallarının nasıl ayarlandığını gösterir.
+Yazı tipi değiştirme kurallarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,24 +41,24 @@ FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// İkinci yazı tipi olan "Amethysta" kullanılamıyor.
+// İkinci font olan "Amethysta" mevcut değil.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Belirleyen bir yazı tipi değiştirme tablosu yapılandırabiliriz
-// Aspose.Words'ün mevcut olmayan yazı tiplerinin yerine hangi yazı tiplerini kullanacağı.
-// "Amethysta" için iki ikame yazı tipi ayarlayın: "Arvo" ve "Courier New".
-// İlk ikame kullanılamıyorsa Aspose.Words ikinci ikameyi kullanmayı dener ve bu şekilde devam eder.
+// Aşağıdakileri belirleyen bir yazı tipi değiştirme tablosu yapılandırabiliriz:
+// Aspose.Words'ün kullanılamayan yazı tiplerinin yerine hangi yazı tiplerini kullanacağı.
+// "Amethysta" için iki yedek yazı tipi ayarlayın: "Arvo" ve "Courier New".
+// Eğer ilk ikame mevcut değilse, Aspose.Words ikinci ikameyi kullanmayı dener, vb.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // "Amethysta" kullanılamıyor ve değiştirme kuralı, yerine kullanılacak ilk yazı tipinin "Arvo" olduğunu belirtir.
+ // "Amethysta" mevcut değil ve ikame kuralı, ikame olarak kullanılacak ilk fontun "Arvo" olduğunu belirtiyor.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
  // "Arvo" da mevcut değil, ancak "Courier New" mevcut.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Çıktı belgesi "Courier New" ile biçimlendirilmiş "Amethysta" yazı tipini kullanan metni görüntüleyecektir.
+// Çıktı belgesinde "Amethysta" yazı tipini kullanan metin "Courier New" ile biçimlendirilmiş olarak görüntülenecektir.
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

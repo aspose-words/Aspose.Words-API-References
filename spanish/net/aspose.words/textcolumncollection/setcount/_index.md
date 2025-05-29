@@ -3,7 +3,7 @@ title: TextColumnCollection.SetCount
 linktitle: SetCount
 articleTitle: SetCount
 second_title: Aspose.Words para .NET
-description: TextColumnCollection SetCount método. Organiza el texto en el número especificado de columnas de texto en C#.
+description: Optimice su diseño con el método TextColumnCollection SetCount, organizando sin esfuerzo el texto en la cantidad deseada de columnas para una mejor legibilidad.
 type: docs
 weight: 70
 url: /es/net/aspose.words/textcolumncollection/setcount/
@@ -22,11 +22,11 @@ public void SetCount(int newCount)
 
 ## Observaciones
 
-Cuando[`EvenlySpaced`](../evenlyspaced/) es`FALSO` y aumentas el numero de columnas, new[`TextColumn`](../../textcolumn/) los objetos se crean con ancho y espaciado cero. Debe establecer el ancho y el espaciado para las nuevas columnas.
+Cuando[`EvenlySpaced`](../evenlyspaced/) es`FALSO` y aumentas el número de columnas, nuevo[`TextColumn`](../../textcolumn/) Los objetos se crean con ancho y espaciado cero. Debe establecer el ancho y el espaciado para las nuevas columnas.
 
 ## Ejemplos
 
-Muestra cómo crear varias columnas espaciadas uniformemente en una sección.
+Muestra cómo crear múltiples columnas espaciadas uniformemente en una sección.
 
 ```csharp
 Document doc = new Document();

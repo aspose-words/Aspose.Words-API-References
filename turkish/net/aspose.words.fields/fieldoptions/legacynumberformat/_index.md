@@ -2,15 +2,15 @@
 title: FieldOptions.LegacyNumberFormat
 linktitle: LegacyNumberFormat
 articleTitle: LegacyNumberFormat
-second_title: Aspose.Words for .NET
-description: FieldOptions LegacyNumberFormat mülk. Alanlar için eski AW 13.10 öncesi sayı biçiminin etkin olup olmadığını belirten değeri alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Alanlar için eski sayı biçimlerini etkinleştirmek veya devre dışı bırakmak, uyumluluğu ve performansı artırmak için FieldOptions LegacyNumberFormat özelliğini keşfedin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.fields/fieldoptions/legacynumberformat/
 ---
 ## FieldOptions.LegacyNumberFormat property
 
-Alanlar için eski (AW 13.10 öncesi) sayı biçiminin etkin olup olmadığını belirten değeri alır veya ayarlar.
+Alanlar için eski (AW 13.10'dan önceki) sayı biçiminin etkin olup olmadığını gösteren değeri alır veya ayarlar.
 
 ```csharp
 public bool LegacyNumberFormat { get; set; }
@@ -18,15 +18,15 @@ public bool LegacyNumberFormat { get; set; }
 
 ## Notlar
 
-Bu özellik olarak ayarlandığında`doğru`, şablon sembolü "#" .net: 'deki gibi çalıştı. Sayı işareti varsa karşılık gelen rakamla değiştirilir; aksi takdirde sonuç dizesinde hiçbir sembol görünmez.
+Bu özellik şu şekilde ayarlandığında:`doğru`, şablon sembolü "#" .net: 'deki gibi çalıştı. Eğer varsa diyez işaretini karşılık gelen rakamla değiştirir; aksi takdirde sonuç dizesinde hiçbir sembol görünmez.
 
-Bu özellik olarak ayarlandığında`YANLIŞ`, şablon sembolü "#" MS Word gibi çalışır: Bu biçim öğesi sonuçta görüntülenecek gerekli sayısal yerleri belirtir. Sonuç bu yerde bir rakam içermiyorsa, MS Word bir boşluk görüntüler. Örneğin, { = 9 + 6 \# $### }, 15 $'ı görüntüler.
+Bu özellik şu şekilde ayarlandığında:`YANLIŞ`, şablon simgesi "#" MS Word: olarak çalışır. Bu biçim öğesi sonuçta görüntülenecek gerekli sayısal yerleri belirtir. Sonuç o yerde bir rakam içermiyorsa, MS Word bir boşluk görüntüler. Örneğin, { = 9 + 6 \# $### } $ 15 görüntüler.
 
 Varsayılan değer:`YANLIŞ`.
 
 ## Örnekler
 
-Alanlar için eski sayı biçimlendirmesinin nasıl etkinleştirildiğini gösterir.
+Alanlar için eski sayı biçimlendirmesinin nasıl etkinleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();

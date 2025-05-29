@@ -3,14 +3,14 @@ title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words för .NET
-description: Shape HasImage fast egendom. ReturnerarSann om formen har bildbytes eller länkar en bild i C#.
+description: Upptäck om en form innehåller bilddata eller länkar till en bild med egenskapen HasImage. Förbättra dina designer utan ansträngning!
 type: docs
-weight: 80
+weight: 90
 url: /sv/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Returnerar`Sann` om formen har bildbytes eller länkar en bild.
+Returer`sann` om formen har bildbyte eller länkar en bild.
 
 ```csharp
 public bool HasImage { get; }
@@ -49,8 +49,8 @@ foreach (Shape shape in shapes.OfType<Shape>())
 {
     if (shape.HasImage)
     {
-         // Bilddata för former kan innehålla bilder av många möjliga bildformat.
-        // Vi kan bestämma en filtillägg för varje bild automatiskt, baserat på dess format.
+         // Bilddata för former kan innehålla bilder i många möjliga bildformat.
+        // Vi kan automatiskt bestämma filändelsen för varje bild, baserat på dess format.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

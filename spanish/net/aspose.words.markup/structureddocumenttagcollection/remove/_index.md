@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagCollection Remove método. Elimina la etiqueta del documento estructurado con el identificador especificado en C#.
+description: Elimine sin esfuerzo etiquetas de documentos estructurados específicos utilizando el método StructuredDocumentTagCollection Remove para una gestión optimizada de documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.markup/structureddocumenttagcollection/remove/
@@ -39,9 +39,9 @@ sdt = structuredDocumentTags.GetById(1691867797);
 Assert.AreEqual(1691867797, sdt.Id);
 
 Assert.AreEqual(5, structuredDocumentTags.Count);
-// Elimina la etiqueta del documento estructurado por Id.
+//Eliminar la etiqueta del documento estructurado por Id.
 structuredDocumentTags.Remove(1691867797);
-// Elimina la etiqueta del documento estructurado en la posición 0.
+//Eliminar la etiqueta del documento estructurado en la posición 0.
 structuredDocumentTags.RemoveAt(0);
 Assert.AreEqual(3, structuredDocumentTags.Count);
 ```

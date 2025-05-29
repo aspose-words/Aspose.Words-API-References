@@ -3,7 +3,7 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words för .NET
-description: NodeCollection IndexOf metod. Returnerar det nollbaserade indexet för den angivna noden i C#.
+description: Upptäck NodeCollection IndexOf-metoden för att effektivt hitta det nollbaserade indexet för en specifik nod i dina samlingar.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/nodecollection/indexof/
@@ -18,7 +18,7 @@ public int IndexOf(Node node)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| node | Node | Noden att lokalisera. |
+| node | Node | Noden som ska lokaliseras. |
 
 ### Returvärde
 

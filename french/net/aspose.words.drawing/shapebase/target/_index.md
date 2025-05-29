@@ -3,9 +3,9 @@ title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words pour .NET
-description: ShapeBase Target propriété. Obtient ou définit le cadre cible pour le lien hypertexte de forme en C#.
+description: Découvrez la propriété ShapeBase Target pour définir ou récupérer facilement des cadres cibles d'hyperlien pour vos formes, améliorant ainsi la navigation et l'expérience de l'utilisateur.
 type: docs
-weight: 520
+weight: 560
 url: /fr/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -22,7 +22,7 @@ La valeur par défaut est une chaîne vide.
 
 ## Exemples
 
-Montre comment insérer une forme contenant une image et qui constitue également un lien hypertexte.
+Montre comment insérer une forme qui contient une image et qui est également un hyperlien.
 
 ```csharp
 Document doc = new Document();
@@ -34,7 +34,7 @@ shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 
 // Ctrl + clic gauche sur la forme dans Microsoft Word ouvrira une nouvelle fenêtre de navigateur Web
-// et nous amène au lien hypertexte dans la propriété "HRef".
+// et nous amène à l'hyperlien dans la propriété "HRef".
 doc.Save(ArtifactsDir + "Image.InsertImageWithHyperlink.docx");
 ```
 

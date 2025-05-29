@@ -2,10 +2,10 @@
 title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: CompositeNode GetEnumerator yöntem. Bu düğümün alt düğümleri üzerindeki her stil yinelemesi için destek sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Alt düğümler üzerinde sorunsuz yineleme için CompositeNode GetEnumerator metodunu keşfedin. Bu güçlü özellik ile kodlama verimliliğinizi artırın!
 type: docs
-weight: 100
+weight: 120
 url: /tr/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
@@ -18,44 +18,25 @@ public IEnumerator<Node> GetEnumerator()
 
 ## Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
+Bir belgenin tüm yorumlarının ve bunların yanıtlarının nasıl yazdırılacağını gösterir.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Comments.docx");
 
-// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
-
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
-
-paragraph.AppendChild(new Run(doc, "Hello again!"));
-
-// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
-// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
-
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
+NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+// Eğer bir yorumun bir atası yoksa, bu bir yanıt türü yorumun aksine "en üst düzey" yorumdur.
+// Tüm üst düzey yorumları ve bunlara ait tüm yanıtları yazdır.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
+{
+    Console.WriteLine("Top-level comment:");
+    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+    Console.WriteLine($"Has {comment.Replies.Count} replies");
+    foreach (Comment commentReply in comment.Replies)
     {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
+        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
     }
+    Console.WriteLine();
+}
 ```
 
 ### Ayrıca bakınız

@@ -2,8 +2,8 @@
 title: DigitalSignatureCollection
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: DigitalSignatureCollection 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DigitalSignatureCollection 构造函数——高效数字签名管理的首选解决方案。立即简化您的工作流程！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/

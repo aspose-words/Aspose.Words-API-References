@@ -3,7 +3,7 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words pour .NET
-description: Font HighlightColor propriété. Obtient ou définit la couleur de surbrillance marqueur en C#.
+description: Découvrez la propriété Font HighlightColor : personnalisez facilement la couleur de surbrillance de votre texte pour une meilleure lisibilité et un meilleur attrait visuel. Sublimez votre design !
 type: docs
 weight: 150
 url: /fr/net/aspose.words/font/highlightcolor/
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## Exemples
 
-Montre comment formater une séquence de texte à l’aide de sa propriété font.
+Montre comment formater une série de texte à l'aide de sa propriété de police.
 
 ```csharp
 Document doc = new Document();

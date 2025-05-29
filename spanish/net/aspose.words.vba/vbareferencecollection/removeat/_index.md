@@ -3,7 +3,7 @@ title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words para .NET
-description: VbaReferenceCollection RemoveAt método. Elimina elVbaReference elemento en el índice especificado de la colección en C#.
+description: Administre sin esfuerzo su VbaReferenceCollection con el método RemoveAt para eliminar elementos por índice, mejorando su eficiencia de codificación VBA.
 type: docs
 weight: 40
 url: /es/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo Automatización.
+/// Devuelve la ruta de un identificador especificado de una biblioteca de tipo de automatización.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

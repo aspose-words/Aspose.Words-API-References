@@ -3,14 +3,14 @@ title: DocumentProperty.IsLinkToContent
 linktitle: IsLinkToContent
 articleTitle: IsLinkToContent
 second_title: Aspose.Words per .NET
-description: DocumentProperty IsLinkToContent proprietà. Mostra se questa proprietà è collegata o meno al contenuto in C#.
+description: Scopri se la proprietà IsLinkToContent di DocumentProperty si collega al contenuto. Migliora il tuo flusso di lavoro con soluzioni di gestione documentale fluide.
 type: docs
 weight: 10
 url: /it/net/aspose.words.properties/documentproperty/islinktocontent/
 ---
 ## DocumentProperty.IsLinkToContent property
 
-Mostra se questa proprietà è collegata o meno al contenuto.
+Indica se questa proprietà è collegata al contenuto o meno.
 
 ```csharp
 public bool IsLinkToContent { get; }
@@ -18,7 +18,7 @@ public bool IsLinkToContent { get; }
 
 ## Esempi
 
-Mostra come collegare una proprietà del documento personalizzata a un segnalibro.
+Mostra come collegare una proprietà personalizzata del documento a un segnalibro.
 
 ```csharp
 Document doc = new Document();

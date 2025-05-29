@@ -3,7 +3,7 @@ title: ListLevel.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words pour .NET
-description: ListLevel ImageData propriété. Renvoie les données dimage de la forme de puce dimage pour le niveau de liste actuel en C#.
+description: Découvrez la propriété ImageData de ListLevel pour accéder aux données d'image et les enrichir pour les formes de puces illustrées au niveau actuel de votre liste. Optimisez votre conception dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.lists/listlevel/imagedata/
@@ -18,7 +18,7 @@ public ImageData ImageData { get; }
 
 ## Remarques
 
-Si ce niveau ne définit pas les retours de puces d'image`nul` . Avant de définir une nouvelle image pour une forme de puce non illustrée, veuillez utiliser[`CreatePictureBullet`](../createpicturebullet/) méthode en premier.
+Si ce niveau ne définit pas de puce d'image, renvoie`nul` . Avant de définir une nouvelle image pour une forme de puce sans image, veuillez utiliser[`CreatePictureBullet`](../createpicturebullet/) méthode first.
 
 ### Voir également
 

@@ -3,7 +3,7 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: Range Text свойство. Получает текст диапазона на С#.
+description: Откройте для себя свойство Range Text, чтобы легко извлекать и обрабатывать текст в указанном диапазоне для улучшенного управления контентом.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/range/text/
@@ -18,7 +18,7 @@ public string Text { get; }
 
 ## Примечания
 
-Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../controlchar/).
+Возвращаемая строка включает все управляющие и специальные символы, как описано в[`ControlChar`](../../controlchar/).
 
 ## Примеры
 

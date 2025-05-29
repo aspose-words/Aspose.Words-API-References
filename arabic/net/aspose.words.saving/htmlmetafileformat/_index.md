@@ -3,14 +3,14 @@ title: HtmlMetafileFormat Enum
 linktitle: HtmlMetafileFormat
 articleTitle: HtmlMetafileFormat
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.HtmlMetafileFormat تعداد. يشير إلى التنسيق الذي يتم به حفظ ملفات التعريف في مستندات HTML في C#.
+description: اكتشف Aspose.Words.Saving.HtmlMetafileFormat enum لحفظ ملفات التعريف بسلاسة في مستندات HTML. حسّن تجربة تحويل مستنداتك اليوم!
 type: docs
-weight: 5090
+weight: 5840
 url: /ar/net/aspose.words.saving/htmlmetafileformat/
 ---
 ## HtmlMetafileFormat enumeration
 
-يشير إلى التنسيق الذي يتم به حفظ ملفات التعريف في مستندات HTML.
+يشير إلى التنسيق الذي يتم به حفظ الملفات التعريفية في مستندات HTML.
 
 ```csharp
 public enum HtmlMetafileFormat
@@ -20,9 +20,9 @@ public enum HtmlMetafileFormat
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Png | `0` | يتم عرض ملفات التعريف إلى صور PNG النقطية. |
+| Png | `0` | يتم تحويل ملفات التعريف إلى صور PNG نقطية. |
 | Svg | `1` | يتم تحويل ملفات التعريف إلى صور SVG متجهة. |
-| EmfOrWmf | `2` | يتم حفظ ملفات التعريف كما هي، بدون تحويل. |
+| EmfOrWmf | `2` | يتم حفظ ملفات التعريف كما هي، دون تحويل. |
 
 ## أمثلة
 
@@ -31,25 +31,25 @@ public enum HtmlMetafileFormat
 ```csharp
 string html = 
     @"<html>
-        <svg xmlns='http://www.w3.org/2000/svg' width='500' height='40' viewBox='0 0 500 40'>
+        <svg xmlns='http://www.w3.org/2000/svg' العرض='500' الارتفاع='40' viewBox='0 0 500 40'>
             <text x='0' y='35' font-family='Verdana' font-size='35'>Hello world!</text>
         </svg>
     </html>";
 
-// استخدم "ConvertSvgToEmf" لإعادة السلوك القديم
+// استخدم 'ConvertSvgToEmf' لإرجاع السلوك القديم
 // حيث تم تحويل جميع صور SVG المحملة من مستند HTML إلى EMF.
 // الآن يتم تحميل صور SVG بدون تحويل
-// إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم صور SVG أصلاً.
+// إذا كان إصدار MS Word المحدد في خيارات التحميل يدعم صور SVG بشكل أصلي.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions { ConvertSvgToEmf = true };
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(html)), loadOptions);
 
-// يحتوي هذا المستند على <svg> العنصر على شكل نص
-// عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions
-// لتحديد كيفية معالجة عملية الحفظ لهذا الكائن.
-// ضبط خاصية "MetafileFormat" على "HtmlMetafileFormat.Png" لتحويلها إلى صورة PNG.
-// يؤدي تعيين خاصية "MetafileFormat" إلى "HtmlMetafileFormat.Svg" إلى الاحتفاظ بها ككائن SVG.
-// تعيين خاصية "MetafileFormat" على "HtmlMetafileFormat.EmfOrWmf" لتحويلها إلى ملف تعريف.
+// تحتوي هذه الوثيقة على عنصر <svg> في شكل نص.
+// عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions
+// لتحديد كيفية تعامل عملية الحفظ مع هذا الكائن.
+// تعيين خاصية "MetafileFormat" إلى "HtmlMetafileFormat.Png" لتحويلها إلى صورة PNG.
+// يؤدي تعيين خاصية "MetafileFormat" إلى "HtmlMetafileFormat.Svg" إلى الحفاظ عليها ككائن SVG.
+// تعيين خاصية "MetafileFormat" إلى "HtmlMetafileFormat.EmfOrWmf" لتحويلها إلى ملف تعريفي.
 HtmlSaveOptions options = new HtmlSaveOptions { MetafileFormat = htmlMetafileFormat };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.MetafileFormat.html", options);
@@ -68,7 +68,7 @@ switch (htmlMetafileFormat)
     case HtmlMetafileFormat.Svg:
         Assert.True(outDocContents.Contains(
             "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height= \"40\">"));
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height=\"40\">"));
         break;
     case HtmlMetafileFormat.EmfOrWmf:
         Assert.True(outDocContents.Contains(

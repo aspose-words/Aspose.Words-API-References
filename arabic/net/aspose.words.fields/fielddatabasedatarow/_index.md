@@ -3,14 +3,14 @@ title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow فصل. يوفر بيانات لـFieldDatabase النتيجة الميدانية. لطفا أنظرDataRow المثال في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldDatabaseDataRow، التي تُقدم بيانات أساسية لنتائج FieldDatabase. حسّن معالجة مستنداتك اليوم!
 type: docs
-weight: 1750
+weight: 2160
 url: /ar/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) النتيجة الميدانية. لطفا أنظرDataRow المثال.
+يوفر بيانات لـ[`FieldDatabase`](../fielddatabase/) نتيجة الحقل. يرجى الاطلاع علىDataRow مثال.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الحقول](https://docs.aspose.com/words/net/working-with-fields/) مقالة توثيقية.
 
@@ -22,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | تهيئة مثيل جديد لـ`FieldDatabaseDataRow` فئة. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | يقوم بتهيئة مثيل جديد لـ`FieldDatabaseDataRow` الصف. |
 
 ## الخصائص
 
@@ -34,7 +34,7 @@ public class FieldDatabaseDataRow
 
 | اسم | وصف |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | تهيئة مثيل جديد لـ`FieldDatabaseDataRow` class منDataRow المثال. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatarow/createfrom/)(*DataRow*) | يقوم بتهيئة مثيل جديد لـ`FieldDatabaseDataRow` class منDataRow مثال. |
 
 ### أنظر أيضا
 

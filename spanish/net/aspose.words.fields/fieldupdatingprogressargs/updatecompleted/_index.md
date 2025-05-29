@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdateCompleted
 linktitle: UpdateCompleted
 articleTitle: UpdateCompleted
 second_title: Aspose.Words para .NET
-description: FieldUpdatingProgressArgs UpdateCompleted propiedad. Obtiene un valor que indica si se completó la actualización del campo en C#.
+description: Descubra la propiedad FieldUpdatingProgressArgs UpdateCompleted, que indica de manera eficiente si las actualizaciones de campo han finalizado, mejorando su proceso de gestión de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldupdatingprogressargs/updatecompleted/
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
+/// Implemente esta interfaz si desea que sus propios métodos personalizados sean llamados durante una actualización de campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un método definido por el usuario que se llama justo después de actualizar un campo.
+    /// Un método definido por el usuario que se llama justo después de que se actualiza un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

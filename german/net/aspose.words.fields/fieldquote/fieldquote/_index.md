@@ -3,7 +3,7 @@ title: FieldQuote
 linktitle: FieldQuote
 articleTitle: FieldQuote
 second_title: Aspose.Words für .NET
-description: FieldQuote constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldQuote-Konstruktor – Ihre Lösung für effizientes Datenhandling. Profitieren Sie noch heute von nahtloser Integration und verbesserter Leistung!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldquote/fieldquote/

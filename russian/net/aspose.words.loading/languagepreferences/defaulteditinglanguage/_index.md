@@ -3,7 +3,7 @@ title: LanguagePreferences.DefaultEditingLanguage
 linktitle: DefaultEditingLanguage
 articleTitle: DefaultEditingLanguage
 second_title: Aspose.Words для .NET
-description: LanguagePreferences DefaultEditingLanguage свойство. Получает или задает язык редактирования по умолчанию на С#.
+description: Управляйте своим опытом редактирования с помощью свойства LanguagePreferences DefaultEditingLanguage. Легко устанавливайте и настраивайте свой язык редактирования по умолчанию.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/languagepreferences/defaulteditinglanguage/

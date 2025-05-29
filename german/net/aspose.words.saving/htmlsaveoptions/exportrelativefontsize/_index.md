@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportRelativeFontSize
 linktitle: ExportRelativeFontSize
 articleTitle: ExportRelativeFontSize
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportRelativeFontSize eigendom. Gibt an ob Schriftgrößen beim Speichern in HTML MHTML oder EPUB in relativen Einheiten ausgegeben werden sollen. Standard istFALSCH  in C#.
+description: Entdecken Sie die HtmlSaveOptions ExportRelativeFontSize-Eigenschaft, um Schriftgrößen in HTML-, MHTML- oder EPUB-Formaten anzupassen. Verbessern Sie mühelos die Lesbarkeit!
 type: docs
 weight: 230
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportrelativefontsize/
@@ -18,15 +18,15 @@ public bool ExportRelativeFontSize { get; set; }
 
 ## Bemerkungen
 
-In vielen vorhandenen Dokumenten (HTML, IDPF EPUB) werden Schriftgrößen in relativen Einheiten angegeben. Dadurch können -Anwendungen die Textgröße beim Anzeigen/Verarbeiten von Dokumenten anpassen. Beispielsweise verfügt Microsoft Internet Explorer über das Untermenü „Ansicht-&gt;Textgröße“, Adobe Digital Editions verfügt über zwei Schaltflächen: Textgröße erhöhen/verringern. Wenn Sie erwarten, dass diese Funktionalität funktioniert, stellen Sie sie ein`ExportRelativeFontSize` Eigentum zu`WAHR` .
+In vielen bestehenden Dokumenten (HTML, IDPF EPUB) werden Schriftgrößen in relativen Einheiten angegeben. Dies ermöglicht es Anwendungen, die Textgröße beim Anzeigen/Bearbeiten von Dokumenten anzupassen. Beispielsweise verfügt Microsoft Internet Explorer über das Untermenü „Ansicht-&gt;Textgröße“, Adobe Digital Editions über zwei Schaltflächen: Textgröße vergrößern/verkleinern. Wenn Sie diese Funktionalität nutzen möchten, setzen Sie`ExportRelativeFontSize` Eigentum zu`WAHR` .
 
-Das Aspose Words-Dokumentmodell enthält und arbeitet nur mit absoluten Schriftgrößeneinheiten. Relative Einheiten benötigen zusätzliche Logik, um ausgehend von einer anfänglichen (Standard-)Größe neu berechnet zu werden. Schriftgröße von**Normal** Als Standard wird der Dokumentstil verwendet. Zum Beispiel, wenn**Normal** hat eine Schriftart von 12pt und ein Teil des Textes ist 18pt, dann wird er als ausgegeben**1,5em.** zum HTML.
+Das Aspose Words-Dokumentmodell verwendet ausschließlich absolute Schriftgrößeneinheiten. Relative Einheiten benötigen zusätzliche Logik, um von einer anfänglichen (Standard-)Größe neu berechnet zu werden. Schriftgröße von**Normal** Als Standard wird der Dokumentstil verwendet. Wenn beispielsweise**Normal** hat 12pt Schriftart und einige Texte sind 18pt, dann wird es output als**1,5 em.** zum HTML.
 
-Wenn diese Option aktiviert ist, haben andere Dokumentelemente als Text weiterhin absolute Größen. Auch einige textbezogene Attribute können absolut ausgedrückt werden. Insbesondere der mit der „exactly“-Regel angegebene Zeilenabstand kann beim Skalieren von Text zu unerwünschten Ergebnissen führen. Daher sollten die Quelldokumente beim Exportieren ordnungsgemäß entworfen und getestet werden`ExportRelativeFontSize` einstellen`WAHR`.
+Wenn diese Option aktiviert ist, haben Dokumentelemente außer Text weiterhin absolute Größen. Auch einige textbezogene Attribute können absolut ausgedrückt werden. Insbesondere kann ein mit der Regel „exakt“ angegebener Zeilenabstand beim Skalieren von Text zu unerwünschten Ergebnissen führen. Daher sollten die Quelldokumente beim Export mit`ExportRelativeFontSize` eingestellt auf`WAHR`.
 
 ## Beispiele
 
-Zeigt, wie relative Schriftgrößen beim Speichern in .html verwendet werden.
+Zeigt, wie beim Speichern im HTML-Format relative Schriftgrößen verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -40,10 +40,10 @@ builder.Write("8x default font size");
 
 // Wenn wir das Dokument im HTML-Format speichern, können wir ein SaveOptions-Objekt übergeben
 // um zu bestimmen, ob relative oder absolute Schriftgrößen verwendet werden sollen.
-// Setzen Sie das Flag „ExportRelativeFontSize“ auf „true“, um Schriftgrößen zu deklarieren
- // unter Verwendung der Maßeinheit „em“, einem Faktor, der die aktuelle Schriftgröße multipliziert.
-// Setzen Sie das Flag „ExportRelativeFontSize“ auf „false“, um Schriftgrößen zu deklarieren
-// unter Verwendung der Maßeinheit „pt“, die der absoluten Größe der Schriftart in Punkt entspricht.
+// Setzen Sie das Flag "ExportRelativeFontSize" auf "true", um Schriftgrößen zu deklarieren
+    // unter Verwendung der Maßeinheit „em“, die ein Faktor ist, der die aktuelle Schriftgröße multipliziert.
+// Setzen Sie das Flag "ExportRelativeFontSize" auf "false", um Schriftgrößen zu deklarieren
+// unter Verwendung der Maßeinheit „pt“, die die absolute Größe der Schriftart in Punkten angibt.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRelativeFontSize = exportRelativeFontSize };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.RelativeFontSize.html", options);

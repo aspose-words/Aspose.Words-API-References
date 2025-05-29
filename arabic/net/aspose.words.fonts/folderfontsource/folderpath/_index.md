@@ -3,7 +3,7 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words لـ .NET
-description: FolderFontSource FolderPath ملكية. المسار إلى المجلد في C#.
+description: اكتشف خاصية FolderFontSource FolderPath للوصول بسهولة إلى مجلد الخطوط. بسّط سير عملك في التصميم اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -18,10 +18,10 @@ public string FolderPath { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخط.
+يوضح كيفية استخدام مجلد النظام المحلي الذي يحتوي على الخطوط كمصدر للخطوط.
 
 ```csharp
-// قم بإنشاء مصدر خط من مجلد يحتوي على ملفات الخطوط.
+// قم بإنشاء مصدر الخط من مجلد يحتوي على ملفات الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

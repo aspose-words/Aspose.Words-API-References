@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitSmartTagStart
 linktitle: VisitSmartTagStart
 articleTitle: VisitSmartTagStart
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitSmartTagStart metod. Anropas när uppräkningen av en smart tagg har börjat i C#.
+description: Upptäck DocumentVisitor VisitSmartTagStart-metoden, din nyckel till att effektivt hantera uppräkning av smarta taggar och förbättra dokumenthanteringen.
 type: docs
 weight: 420
 url: /sv/net/aspose.words/documentvisitor/visitsmarttagstart/
 ---
 ## DocumentVisitor.VisitSmartTagStart method
 
-Anropas när uppräkningen av en smart tagg har börjat.
+Anropas när uppräkningen av en smarttagg har påbörjats.
 
 ```csharp
 public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitSmartTagStart(SmartTag smartTag)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
-Visar hur man skriver ut nodstrukturen för varje smart tagg i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje smarttagg i ett dokument.
 
 ```csharp
 public void SmartTagToText()
@@ -35,7 +35,7 @@ public void SmartTagToText()
     SmartTagStructurePrinter visitor = new SmartTagStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void SmartTagToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade SmartTag-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng över alla påträffade SmartTag-noder och deras underordnade.
 /// </summary>
 public class SmartTagStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -85,7 +85,7 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla underordnade noder i en SmartTag-nod har besökts.
+    /// Anropas efter att alla undernoder till en SmartTag-nod har besökts.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {
@@ -97,9 +97,9 @@ public class SmartTagStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

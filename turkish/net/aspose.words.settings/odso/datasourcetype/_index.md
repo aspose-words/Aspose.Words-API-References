@@ -2,15 +2,15 @@
 title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
-second_title: Aspose.Words for .NET
-description: Odso DataSourceType mülk. Bu adresmektup birleştirme için ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak dış veri kaynağının türünü belirtir. Varsayılan değerDefault  C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz posta birleştirme bağlantıları için Odso DataSourceType özelliğini keşfedin. Harici veri kaynaklarını kolayca belirtin ve iş akışı verimliliğinizi artırın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Bu adres-mektup birleştirme için ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak dış veri kaynağının türünü belirtir. Varsayılan değer:Default .
+Bu posta birleştirme için ODSO bağlantı bilgilerinin bir parçası olarak bağlanılacak harici veri kaynağının türünü belirtir. Varsayılan değer:Default .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -18,11 +18,11 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ## Notlar
 
-Bu ayar yalnızca bu adres-mektup birleştirme için kullanılan veri kaynağı türüne ilişkin bir öneridir.
+Bu ayar, yalnızca bu posta birleştirme için kullanılan veri kaynağı türüne ilişkin bir öneridir.
 
 ## Örnekler
 
-Bir Office Veri Kaynağı Nesnesinden alınan verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Office Veri Kaynağı Nesnesi'ndeki verilerle bir posta birleştirmenin nasıl yürütüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// ASCII dosyası biçiminde "|" işaretli bir veri kaynağı oluşturun karakter
-// sütunları ayıran sınırlayıcı görevi görüyor. İlk satır üç sütunun adını içerir,
-// ve sonraki her satır, ilgili değerlerin bulunduğu bir satırdır.
+// "|" karakterini kullanarak ASCII dosyası biçiminde bir veri kaynağı oluşturun
+// sütunları ayıran ayırıcı olarak işlev görür. İlk satır üç sütunun adlarını içerir,
+// ve her bir sonraki satır, kendi değerlerine sahip bir satırdır.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce adres-mektup birleştirme işlemini gerçekleştirecektir.
+ // Bu belgeyi Microsoft Word'de açmak, içerikleri görüntülemeden önce posta birleştirme işlemini gerçekleştirecektir.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -3,14 +3,14 @@ title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.LayoutFlow перечисление. Определяет порядок расположения текста в текстовом поле на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.LayoutFlow для управления макетом текста в текстовых полях, что позволит без труда улучшить дизайн и читабельность документа.
 type: docs
-weight: 1100
+weight: 1430
 url: /ru/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
 
-Определяет порядок расположения текста в текстовом поле.
+Определяет поток текста в текстовом поле.
 
 ```csharp
 public enum LayoutFlow
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

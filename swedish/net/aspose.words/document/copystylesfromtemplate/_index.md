@@ -3,9 +3,9 @@ title: Document.CopyStylesFromTemplate
 linktitle: CopyStylesFromTemplate
 articleTitle: CopyStylesFromTemplate
 second_title: Aspose.Words för .NET
-description: Document CopyStylesFromTemplate metod. Kopierar stilar från den angivna mallen till ett dokument i C#.
+description: Kopiera enkelt stilar från din valda mall till valfritt dokument med metoden CopyStylesFromTemplate, vilket förbättrar ditt arbetsflöde och dokumentkonsekvens.
 type: docs
-weight: 570
+weight: 610
 url: /sv/net/aspose.words/document/copystylesfromtemplate/
 ---
 ## CopyStylesFromTemplate(*string*) {#copystylesfromtemplate_1}
@@ -25,7 +25,7 @@ När stilar kopieras från en mall till ett dokument, omdefinieras stilar med li
 Visar hur man kopierar stilar från ett dokument till ett annat.
 
 ```csharp
-// Skapa ett dokument och lägg sedan till stilar som vi kopierar till ett annat dokument.
+// Skapa ett dokument och lägg sedan till stilar som vi ska kopiera till ett annat dokument.
 Document template = new Document();
 
 Style style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle1");
@@ -42,7 +42,7 @@ style.Font.Color = Color.RoyalBlue;
 
 Assert.AreEqual(7, template.Styles.Count);
 
-// Skapa ett dokument som vi kopierar stilarna till.
+// Skapa ett dokument som vi ska kopiera stilarna till.
 Document target = new Document();
 
 // Skapa en stil med samma namn som en stil från malldokumentet och lägg till den i måldokumentet.
@@ -53,17 +53,17 @@ style.Font.Color = Color.Orange;
 Assert.AreEqual(5, target.Styles.Count);
 
 // Det finns två sätt att anropa metoden för att kopiera alla stilar från ett dokument till ett annat.
-// 1 - Skickar malldokumentobjektet:
+// 1 - Skicka malldokumentobjektet:
 target.CopyStylesFromTemplate(template);
 
-// Kopiering av stilar lägger till alla stilar från malldokumentet till målet
+// Kopiering av stilar lägger till alla stilar från malldokumentet till måldokumentet
 // och skriver över befintliga stilar med samma namn.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Skickar det lokala systemfilnamnet för ett malldokument:
+// 2 - Skicka det lokala systemfilnamnet för ett malldokument:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);
@@ -103,7 +103,7 @@ target.CopyStylesFromTemplate(template);
 Visar hur man kopierar stilar från ett dokument till ett annat.
 
 ```csharp
-// Skapa ett dokument och lägg sedan till stilar som vi kopierar till ett annat dokument.
+// Skapa ett dokument och lägg sedan till stilar som vi ska kopiera till ett annat dokument.
 Document template = new Document();
 
 Style style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle1");
@@ -120,7 +120,7 @@ style.Font.Color = Color.RoyalBlue;
 
 Assert.AreEqual(7, template.Styles.Count);
 
-// Skapa ett dokument som vi kopierar stilarna till.
+// Skapa ett dokument som vi ska kopiera stilarna till.
 Document target = new Document();
 
 // Skapa en stil med samma namn som en stil från malldokumentet och lägg till den i måldokumentet.
@@ -131,17 +131,17 @@ style.Font.Color = Color.Orange;
 Assert.AreEqual(5, target.Styles.Count);
 
 // Det finns två sätt att anropa metoden för att kopiera alla stilar från ett dokument till ett annat.
-// 1 - Skickar malldokumentobjektet:
+// 1 - Skicka malldokumentobjektet:
 target.CopyStylesFromTemplate(template);
 
-// Kopiering av stilar lägger till alla stilar från malldokumentet till målet
+// Kopiering av stilar lägger till alla stilar från malldokumentet till måldokumentet
 // och skriver över befintliga stilar med samma namn.
 Assert.AreEqual(7, target.Styles.Count);
 
 Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
 Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
 
-// 2 - Skickar det lokala systemfilnamnet för ett malldokument:
+// 2 - Skicka det lokala systemfilnamnet för ett malldokument:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
 Assert.AreEqual(21, target.Styles.Count);

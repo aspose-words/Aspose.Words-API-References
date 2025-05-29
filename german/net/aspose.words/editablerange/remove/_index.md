@@ -3,14 +3,14 @@ title: EditableRange.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: EditableRange Remove methode. Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearbeitbaren Bereichs werden nicht entfernt in C#.
+description: Entfernen Sie mühelos editierbare Bereiche aus Ihrem Dokument mit der Methode „EditableRange Remove“, ohne dass Ihr Inhalt verloren geht. Verbessern Sie Ihr Dokumentenmanagement!
 type: docs
 weight: 60
 url: /de/net/aspose.words/editablerange/remove/
 ---
 ## EditableRange.Remove method
 
-Entfernt den bearbeitbaren Bereich aus dem Dokument. Inhalte innerhalb des bearbeitbaren Bereichs werden nicht entfernt.
+Entfernt den editierbaren Bereich aus dem Dokument. Inhalte innerhalb des editierbaren Bereichs werden nicht entfernt.
 
 ```csharp
 public void Remove()
@@ -34,7 +34,7 @@ builder.Writeln("This paragraph is inside an editable range, and can be edited."
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
 // Ein wohlgeformter bearbeitbarer Bereich hat einen Startknoten und einen Endknoten.
-// Diese Knoten haben passende IDs und umfassen bearbeitbare Knoten.
+// Diese Knoten haben übereinstimmende IDs und umfassen bearbeitbare Knoten.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
@@ -46,8 +46,8 @@ Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Auf diese Weise können wir auf die Knotentypen jedes Teils zugreifen. Der bearbeitbare Bereich selbst ist kein Knoten,
-// sondern eine Entität, die aus einem Anfang, einem Ende und den darin enthaltenen Inhalten besteht.
+// So können wir auf die Knotentypen jedes Teils zugreifen. Der editierbare Bereich selbst ist kein Knoten,
+// sondern eine Entität, die aus einem Anfang, einem Ende und dem darin enthaltenen Inhalt besteht.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Einen bearbeitbaren Bereich entfernen. Alle Knoten, die innerhalb des Bereichs lagen, bleiben intakt.
+// Einen bearbeitbaren Bereich entfernen. Alle Knoten innerhalb des Bereichs bleiben erhalten.
 editableRange.Remove();
 ```
 

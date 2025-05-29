@@ -3,7 +3,7 @@ title: StreamFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: StreamFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
+description: Entdecken Sie die StreamFontSource-Typ-Eigenschaft, um Ihren Schriftartquellentyp einfach zu identifizieren und so Ihre Designflexibilität und Projekteffizienz zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fonts/streamfontsource/type/

@@ -3,14 +3,14 @@ title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
 second_title: Aspose.Words для .NET
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit свойство. Получает или задает флаг указывающий регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце на С#.
+description: Оптимизируйте макет документа с помощью свойства AddSpaceBetweenFarEastAndDigit, повышая читабельность за счет регулировки интервала между восточноазиатским текстом и цифрами.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-Получает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между регионами чисел и регионами восточноазиатского текста в текущем абзаце.
+Возвращает или задает флаг, указывающий, регулируется ли автоматически межсимвольный интервал между областями чисел и областями восточноазиатского текста в текущем абзаце.
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -39,7 +39,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Метод Writeln завершает абзац после добавления текста
-// а затем начинается новая строка, добавляющая новый абзац.
+// а затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

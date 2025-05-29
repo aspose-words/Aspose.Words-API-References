@@ -3,14 +3,14 @@ title: ChartAxis.CrossesAt
 linktitle: CrossesAt
 articleTitle: CrossesAt
 second_title: Aspose.Words für .NET
-description: ChartAxis CrossesAt eigendom. Gibt an wo sich die Achse auf der senkrechten Achse kreuzt in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis CrossesAt“, um Schnittpunkte auf der senkrechten Achse Ihres Diagramms einfach zu definieren und so die Datenvisualisierung zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/chartaxis/crossesat/
 ---
 ## ChartAxis.CrossesAt property
 
-Gibt an, wo sich die Achse auf der senkrechten Achse kreuzt.
+Gibt an, wo auf der senkrechten Achse die Achse kreuzt.
 
 ```csharp
 public double CrossesAt { get; set; }
@@ -18,13 +18,13 @@ public double CrossesAt { get; set; }
 
 ## Bemerkungen
 
-Die Eigenschaft ist nur wirksam, wenn[`Crosses`](../crosses/) eingestellt sindCustom. Die neuen Diagramme von MS Office 2016 werden nicht unterstützt.
+Die Eigenschaft ist nur dann wirksam, wenn[`Crosses`](../crosses/) sind eingestellt aufCustom. Es wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt.
 
-Die Einheiten werden durch den Achsentyp bestimmt. Wenn es sich bei der Achse um eine Werteachse handelt, ist der Wert der Eigenschaft eine Dezimalzahl auf der Werteachse. Wenn es sich bei der Achse um eine Zeitkategorieachse handelt, wird der Wert als definiert, eine ganzzahlige Anzahl von Tagen relativ zum Basisdatum (30.12.1899). Für eine Textkategorieachse ist der Wert eine ganzzahlige Kategorienummer, beginnend mit 1 als erster Kategorie.
+Die Einheiten werden durch den Achsentyp bestimmt. Bei einer Werteachse ist der Wert der Eigenschaft eine Dezimalzahl auf der Werteachse. Bei einer Zeitkategorieachse ist der Wert definiert als eine ganzzahlige Anzahl von Tagen relativ zum Basisdatum (30.12.1899). Bei einer Textkategorieachse ist der Wert eine ganzzahlige Kategorienummer, beginnend mit 1 als erster Kategorie.
 
 ## Beispiele
 
-Zeigt, wie eine Diagrammachse an einer benutzerdefinierten Position gekreuzt wird.
+Zeigt, wie man eine Diagrammachse an einer benutzerdefinierten Stelle kreuzen kann.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Bei Säulendiagrammen kreuzt die Y-Achse standardmäßig den Nullpunkt.
+// Bei Säulendiagrammen kreuzt sich die Y-Achse standardmäßig bei Null,
 // was bedeutet, dass die Spalten für alle Werte unter Null nach unten zeigen, um negative Werte darzustellen.
-// Wir können einen anderen Wert für die Kreuzung der Y-Achse festlegen. In diesem Fall setzen wir den Wert auf 3.
+// Wir können einen anderen Wert für den Schnittpunkt der Y-Achse festlegen. In diesem Fall setzen wir ihn auf 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

@@ -3,7 +3,7 @@ title: FieldNumWords
 linktitle: FieldNumWords
 articleTitle: FieldNumWords
 second_title: Aspose.Words para .NET
-description: FieldNumWords constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldNumWords, la herramienta esencial para contar palabras eficientemente en tus proyectos. ¡Simplifica tu código con nuestra configuración predeterminada!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldnumwords/fieldnumwords/

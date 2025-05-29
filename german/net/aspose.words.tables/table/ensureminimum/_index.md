@@ -3,14 +3,14 @@ title: Table.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words für .NET
-description: Table EnsureMinimum methode. Wenn die Tabelle keine Zeilen enthält wird eine erstellt und angehängtRow  in C#.
+description: Entdecken Sie die Methode „Table EnsureMinimum“, mit der Sie mühelos eine Zeile erstellen und anhängen können, wenn Ihre Tabelle leer ist, um eine nahtlose Datenverwaltung zu gewährleisten.
 type: docs
-weight: 400
+weight: 420
 url: /de/net/aspose.words.tables/table/ensureminimum/
 ---
 ## Table.EnsureMinimum method
 
-Wenn die Tabelle keine Zeilen enthält, wird eine erstellt und angehängt[`Row`](../../row/) .
+Wenn die Tabelle keine Zeilen hat, wird eine erstellt und angehängt[`Row`](../../row/) .
 
 ```csharp
 public void EnsureMinimum()
@@ -27,11 +27,11 @@ doc.FirstSection.Body.AppendChild(table);
 
 // Tabellen enthalten Zeilen, die Zellen enthalten, die Absätze enthalten können
 // mit typischen Elementen wie Läufen, Formen und sogar anderen Tabellen.
-// Unsere neue Tabelle hat keinen dieser Knoten und wir können ihr erst dann Inhalte hinzufügen, wenn dies der Fall ist.
+// Unsere neue Tabelle hat keinen dieser Knoten und wir können ihr keine Inhalte hinzufügen, bis sie welche hat.
 Assert.AreEqual(0, table.GetChildNodes(NodeType.Any, true).Count);
 
-// Der Aufruf der Methode „EnsureMinimum“ für eine Tabelle stellt dies sicher
-// Die Tabelle enthält mindestens eine Zeile und eine Zelle mit einem leeren Absatz.
+// Der Aufruf der Methode "EnsureMinimum" für eine Tabelle stellt sicher, dass
+// Die Tabelle hat mindestens eine Zeile und eine Zelle mit einem leeren Absatz.
 table.EnsureMinimum();
 table.FirstRow.FirstCell.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 ```

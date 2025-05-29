@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
 second_title: Aspose.Words для .NET
-description: MarkdownSaveOptions ImageSavingCallback свойство. Позволяет контролировать сохранение изображений при сохранении документа в .Markdown формат на С#.
+description: Управляйте сохранением изображений в Markdown с помощью MarkdownSaveOptions' ImageSavingCallback. Улучшайте форматирование документов и оптимизируйте свой рабочий процесс без усилий!
 type: docs
-weight: 30
+weight: 70
 url: /ru/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Позволяет контролировать сохранение изображений при сохранении документа в .Markdown формат.
+Позволяет контролировать, как сохраняются изображения при сохранении документа в Markdown формат.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## Примеры
 
-Показывает, как переименовать имя изображения во время сохранения в документ Markdown.
+Показывает, как переименовать имя изображения при сохранении в документе Markdown.
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
     // Если мы преобразуем документ, содержащий изображения, в Markdown, мы получим один файл Markdown, который ссылается на несколько изображений.
-    // Каждое изображение будет в виде файла в локальной файловой системе.
-    // Существует также обратный вызов, который может настроить имя и расположение файловой системы каждого изображения.
+    // Каждое изображение будет иметь форму файла в локальной файловой системе.
+    // Также имеется обратный вызов, который позволяет настраивать имя и местоположение каждого изображения в файловой системе.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // В это время будет запущен метод ImageSaving() нашего обратного вызова.
+    // В этот момент будет запущен метод ImageSaving() нашего обратного вызова.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,

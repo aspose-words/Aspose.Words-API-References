@@ -2,8 +2,8 @@
 title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
-second_title: Aspose.Words for .NET
-description: Table Bidi mülk. Bunun sağdan sola bir tablo olup olmadığını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz sağdan sola tablo biçimlendirmesi için Table Bidi özelliklerini keşfedin. Web tasarımınızı kolay özelleştirme seçenekleriyle geliştirin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.tables/table/bidi/
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Notlar
 
-Ne zaman`doğru`, bu satırdaki hücreler sağdan sola doğru düzenlenir.
+Ne zaman`doğru`Bu satırdaki hücreler sağdan sola doğru düzenlenmiştir.
 
 Varsayılan değer:`YANLIŞ`.
 
@@ -55,7 +55,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// Bir tablonun stil özelliklerinin ayarlanması, tablonun kendi özelliklerini etkileyebilir.
+// Bir tablonun stil özelliklerini ayarlamak, tablonun kendi özelliklerini etkileyebilir.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

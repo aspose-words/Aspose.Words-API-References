@@ -3,14 +3,14 @@ title: Style.List
 linktitle: List
 articleTitle: List
 second_title: Aspose.Words لـ .NET
-description: Style List ملكية. الحصول على القائمة التي تحدد تنسيق نمط القائمة هذا في C#.
+description: اكتشف كيفية تنسيق قوائمك بفعالية! تعلّم كيفية تحديد تنسيق فريد لأنماط القوائم لتعزيز جاذبية محتواك البصرية.
 type: docs
 weight: 100
 url: /ar/net/aspose.words/style/list/
 ---
 ## Style.List property
 
-الحصول على القائمة التي تحدد تنسيق نمط القائمة هذا.
+يحصل على القائمة التي تحدد تنسيق نمط القائمة هذا.
 
 ```csharp
 public List List { get; }
@@ -18,20 +18,20 @@ public List List { get; }
 
 ## ملاحظات
 
-هذه الخاصية صالحة فقط لأنماط القائمة. بالنسبة لأنواع الأنماط الأخرى، تُرجع هذه الخاصية`باطل`.
+هذه الخاصية صالحة فقط لأنماط القائمة. بالنسبة لأنواع الأنماط الأخرى، تعيد هذه الخاصية`باطل`.
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -53,14 +53,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

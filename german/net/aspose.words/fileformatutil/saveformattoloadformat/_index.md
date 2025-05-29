@@ -3,14 +3,14 @@ title: FileFormatUtil.SaveFormatToLoadFormat
 linktitle: SaveFormatToLoadFormat
 articleTitle: SaveFormatToLoadFormat
 second_title: Aspose.Words für .NET
-description: FileFormatUtil SaveFormatToLoadFormat methode. Konvertiert aSaveFormat Wert zu aLoadFormat Wert wenn möglich in C#.
+description: Konvertieren Sie SaveFormat mühelos in LoadFormat mit der FileFormatUtil-Methode. Vereinfachen Sie die Dateiverwaltung und verbessern Sie die Kompatibilität!
 type: docs
 weight: 90
 url: /de/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-Konvertiert a[`SaveFormat`](../../saveformat/) Wert zu a[`LoadFormat`](../../loadformat/) Wert wenn möglich.
+Konvertiert eine[`SaveFormat`](../../saveformat/) Wert zu einem[`LoadFormat`](../../loadformat/) Wert wenn möglich.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -29,7 +29,7 @@ Zeigt, wie ein Speicherformat in das entsprechende Ladeformat konvertiert wird.
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Bei einigen Dateitypen können Dokumente gespeichert, aber nicht mit Aspose.Words geladen werden.
+// Bei einigen Dateitypen können Dokumente mit Aspose.Words gespeichert, aber nicht geladen werden.
 // Wenn wir versuchen, ein Speicherformat dieses Typs in ein Ladeformat zu konvertieren, wird eine Ausnahme ausgelöst.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```

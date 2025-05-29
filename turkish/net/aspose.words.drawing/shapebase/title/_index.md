@@ -2,10 +2,10 @@
 title: ShapeBase.Title
 linktitle: Title
 articleTitle: Title
-second_title: Aspose.Words for .NET
-description: ShapeBase Title mülk. Geçerli şekil nesnesinin başlığını başlığını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: ShapeBase başlık özelliğinizi zahmetsizce yönetin. Tasarımınızın netliğini ve çekiciliğini artırmak için herhangi bir şekil nesnesi için başlık başlığını ayarlayın veya alın.
 type: docs
-weight: 530
+weight: 570
 url: /tr/net/aspose.words.drawing/shapebase/title/
 ---
 ## ShapeBase.Title property
@@ -18,9 +18,9 @@ public string Title { get; set; }
 
 ## Notlar
 
-Varsayılan boş dizedir.
+Varsayılan boş dizgedir.
 
-Olamaz`hükümsüz`, ancak boş bir dize olabilir.
+Olamaz`hükümsüz`, ancak boş bir dize de olabilir.
 
 ## Örnekler
 
@@ -38,8 +38,8 @@ shape.Title = "My cube";
 
 builder.InsertNode(shape);
 
-// Başlığı olan bir şekle sahip bir belgeyi kaydettiğimizde,
-// Aspose.Words bu başlığı şeklin Alternatif Metnine kaydedecektir.
+// Başlığı olan bir şekille bir belgeyi kaydettiğimizde,
+// Aspose.Words bu başlığı şeklin Alt Metninde saklayacaktır.
 doc.Save(ArtifactsDir + "Shape.Title.docx");
 
 doc = new Document(ArtifactsDir + "Shape.Title.docx");

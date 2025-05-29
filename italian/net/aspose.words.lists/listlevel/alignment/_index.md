@@ -3,14 +3,14 @@ title: ListLevel.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words per .NET
-description: ListLevel Alignment proprietà. Ottiene o imposta la giustificazione del numero effettivo della voce dellelenco in C#.
+description: Scopri la proprietà Allineamento ListLevel per personalizzare facilmente la giustificazione degli elementi dell'elenco. Migliora la chiarezza e l'aspetto visivo del tuo documento oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.lists/listlevel/alignment/
 ---
 ## ListLevel.Alignment property
 
-Ottiene o imposta la giustificazione del numero effettivo della voce dell'elenco.
+Ottiene o imposta la giustificazione del numero effettivo dell'elemento dell'elenco.
 
 ```csharp
 public ListLevelAlignment Alignment { get; set; }
@@ -22,16 +22,16 @@ L'etichetta dell'elenco è giustificata rispetto a[`NumberPosition`](../numberpo
 
 ## Esempi
 
-Mostra come applicare la formattazione dell'elenco personalizzato ai paragrafi quando si utilizza DocumentBuilder.
+Mostra come applicare la formattazione personalizzata degli elenchi ai paragrafi quando si utilizza DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza i primi due livelli dell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizza i primi due livelli dell'elenco.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

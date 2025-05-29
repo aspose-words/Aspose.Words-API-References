@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: VbaReferenceCollection Count proprietà. Restituisce il numero di riferimenti VBA nella raccolta in C#.
+description: Scopri la proprietà Conteggio raccolta riferimenti VBA per recuperare e gestire facilmente il numero totale di riferimenti VBA per una codifica efficiente.
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbareferencecollection/count/
@@ -46,7 +46,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Restituisce la stringa che rappresenta il percorso LibId di un riferimento specificato.
+ /// Restituisce una stringa che rappresenta il percorso LibId di un riferimento specificato.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Restituisce il percorso da un identificatore specificato di una libreria dei tipi di automazione.
+/// Restituisce il percorso da un identificatore specificato di una libreria di tipi di automazione.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

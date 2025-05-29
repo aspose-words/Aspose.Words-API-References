@@ -3,14 +3,14 @@ title: FieldRD.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words для .NET
-description: FieldRD FileName свойство. Получает или задает имя файла который будет включаться при создании оглавления авторитетной таблицы или индекса на С#.
+description: Узнайте, как свойство FieldRD FileName упрощает управление файлами, легко задавая имена для создания оглавлений и индексов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldrd/filename/
 ---
 ## FieldRD.FileName property
 
-Получает или задает имя файла, который будет включаться при создании оглавления, авторитетной таблицы или индекса.
+Возвращает или задает имя файла, включаемого при создании таблицы содержания, таблицы авторитетных источников или индекса.
 
 ```csharp
 public string FileName { get; set; }
@@ -18,27 +18,27 @@ public string FileName { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поле RD для создания записей оглавления из заголовков в других документах.
+Демонстрирует использование поля RD для создания записей оглавления из заголовков других документов.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить оглавление,
+// Используйте конструктор документов для вставки оглавления,
 // а затем добавьте одну запись для оглавления на следующей странице.
 builder.InsertField(FieldType.FieldTOC, true);
 builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Вставьте поле RD, которое ссылается на другой документ локальной файловой системы, в его свойстве FileName.
-// Оглавление теперь также будет принимать все заголовки из ссылочного документа в качестве записей для своей таблицы.
+// Вставьте поле RD, которое ссылается на другой документ локальной файловой системы в своем свойстве FileName.
+// TOC теперь также будет принимать все заголовки из указанного документа в качестве записей для своей таблицы.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
- // Создайте документ, на который ссылается поле RD, и вставьте заголовок.
+ // Создаем документ, на который ссылается поле RD, и вставляем заголовок.
 // Этот заголовок будет отображаться как запись в поле TOC в нашем первом документе.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);

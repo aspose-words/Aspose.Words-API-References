@@ -3,14 +3,14 @@ title: Section.AppendContent
 linktitle: AppendContent
 articleTitle: AppendContent
 second_title: Aspose.Words لـ .NET
-description: Section AppendContent طريقة. إدراج نسخة من محتوى القسم المصدر في نهاية هذا القسم في C#.
+description: اكتشف كيف تعمل طريقة AppendContent على تعزيز أقسامك من خلال إضافة محتوى المصدر بسلاسة، وتعزيز التنظيم والوضوح في مشاريعك.
 type: docs
-weight: 80
+weight: 100
 url: /ar/net/aspose.words/section/appendcontent/
 ---
 ## Section.AppendContent method
 
-إدراج نسخة من محتوى القسم المصدر في نهاية هذا القسم.
+يقوم بإدراج نسخة من محتوى قسم المصدر في نهاية هذا القسم.
 
 ```csharp
 public void AppendContent(Section sourceSection)
@@ -18,19 +18,19 @@ public void AppendContent(Section sourceSection)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| sourceSection | Section | القسم المراد نسخ المحتوى منه. |
+| sourceSection | Section | القسم الذي سيتم نسخ المحتوى منه. |
 
 ## ملاحظات
 
-محتوى فقط[`Body`](../body/) تم نسخ القسم المصدر، ولم يتم نسخ إعداد الصفحة، الرؤوس والتذييلات.
+المحتوى فقط[`Body`](../body/) تم نسخ قسم المصدر، وإعداد الصفحة، ورؤوس الصفحات وتذييلاتها لم يتم نسخها.
 
-يتم استيراد العقد تلقائيًا إذا كان القسم المصدر ينتمي إلى مستند مختلف.
+سيتم استيراد العقد تلقائيًا إذا كان قسم المصدر ينتمي إلى مستند مختلف.
 
-لم يتم إنشاء أي قسم جديد في المستند الوجهة.
+لم يتم إنشاء قسم جديد في المستند الوجهة.
 
 ## أمثلة
 
-يوضح كيفية إلحاق محتويات قسم بقسم آخر.
+يوضح كيفية إضافة محتويات قسم إلى قسم آخر.
 
 ```csharp
 Document doc = new Document();
@@ -46,15 +46,15 @@ Section section = doc.Sections[2];
 
 Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
 
-// أدخل محتويات القسم الأول في بداية القسم الثالث.
+//أدخل محتويات القسم الأول في بداية القسم الثالث.
 Section sectionToPrepend = doc.Sections[0];
 section.PrependContent(sectionToPrepend);
 
-// أدخل محتويات القسم الثاني في نهاية القسم الثالث.
+//أدخل محتويات القسم الثاني إلى نهاية القسم الثالث.
 Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
-// لم تنشئ طريقتا "PrependContent" و"AppendContent" أي أقسام جديدة.
+// لم تقم طريقتي "PrependContent" و"AppendContent" بإنشاء أي أقسام جديدة.
 Assert.AreEqual(3, doc.Sections.Count);
 Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +

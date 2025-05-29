@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToSection
 linktitle: MoveToSection
 articleTitle: MoveToSection
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder MoveToSection méthode. Déplace le curseur au début du corps dans une section spécifiée en C#.
+description: Découvrez la méthode MoveToSection de DocumentBuilder pour naviguer facilement jusqu'au début du corps de n'importe quelle section, améliorant ainsi l'efficacité de l'édition de votre document.
 type: docs
-weight: 570
+weight: 610
 url: /fr/net/aspose.words/documentbuilder/movetosection/
 ---
 ## DocumentBuilder.MoveToSection method
@@ -22,7 +22,7 @@ public void MoveToSection(int sectionIndex)
 
 ## Remarques
 
-Quand*sectionIndex* est supérieur ou égal à 0, il précise un index depuis le début du document avec 0 étant la première section. Quand*sectionIndex* est inférieur à 0, , il a spécifié un index à partir de la fin du document, -1 étant la dernière section.
+Quand*sectionIndex*est supérieur ou égal à 0, il spécifie un index à partir de le début du document, 0 étant la première section. Lorsque*sectionIndex* est inférieur à 0, il a spécifié un index à partir de la fin du document avec -1 étant la dernière section.
 
 Le curseur est déplacé vers le premier paragraphe du[`Body`](../../body/) de la section spécifiée.
 
@@ -34,7 +34,7 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
+// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, les pages paires et les pages impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

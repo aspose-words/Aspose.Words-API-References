@@ -3,14 +3,14 @@ title: ShapeBase.RelativeVerticalSize
 linktitle: RelativeVerticalSize
 articleTitle: RelativeVerticalSize
 second_title: Aspose.Words för .NET
-description: ShapeBase RelativeVerticalSize fast egendom. Hämtar eller ställer in värdet på formens relativa storlek i vertikal riktning i C#.
+description: Upptäck egenskapen ShapeBase RelativeVerticalSize för att enkelt justera formers vertikala dimensioner för ökad designflexibilitet och precision.
 type: docs
-weight: 450
+weight: 480
 url: /sv/net/aspose.words.drawing/shapebase/relativeverticalsize/
 ---
 ## ShapeBase.RelativeVerticalSize property
 
-Hämtar eller ställer in värdet på formens relativa storlek i vertikal riktning.
+Hämtar eller ställer in värdet för formens relativa storlek i vertikal riktning.
 
 ```csharp
 public RelativeVerticalSize RelativeVerticalSize { get; set; }
@@ -20,7 +20,7 @@ public RelativeVerticalSize RelativeVerticalSize { get; set; }
 
 Standardvärdet ärMargin.
 
-Har effekt endast om[`HeightRelative`](../heightrelative/) är inställd.
+Har endast effekt om[`HeightRelative`](../heightrelative/) är inställd.
 
 ## Exempel
 
@@ -30,44 +30,44 @@ Visar hur man ställer in relativ storlek och position.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägga till en enkel form med absolut storlek och position.
+// Lägger till en enkel form med absolut storlek och position.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 100, 40);
-// Ställ in WrapType till WrapType.None eftersom inline-former automatiskt konverteras till absoluta enheter.
+// Sätt WrapType till WrapType.None eftersom inbäddade former automatiskt konverteras till absoluta enheter.
 shape.WrapType = WrapType.None;
 
-// Kontrollera och ställa in den relativa horisontella storleken.
+// Kontroll och inställning av relativ horisontell storlek.
 if (shape.RelativeHorizontalSize == RelativeHorizontalSize.Default)
 {
-    // Ställ in den horisontella storleksbindningen till Margin.
+    // Ställer in den horisontella storleksbindningen till Marginal.
     shape.RelativeHorizontalSize = RelativeHorizontalSize.Margin;
-    // Ställa in bredden till 50 % av Margin width.
+    // Ställer in bredden till 50% av marginalbredden.
     shape.WidthRelative = 50;
 }
 
-// Kontrollera och ställa in den relativa vertikala storleken.
+// Kontroll och inställning av relativ vertikal storlek.
 if (shape.RelativeVerticalSize == RelativeVerticalSize.Default)
 {
-    // Ställa in den vertikala storleksbindningen till Margin.
+    // Ställer in den vertikala storleksbindningen till Marginal.
     shape.RelativeVerticalSize = RelativeVerticalSize.Margin;
-    // Ställ in höjden till 30 % av Marginalhöjden.
+    // Ställer in höjden till 30 % av marginalhöjden.
     shape.HeightRelative = 30;
 }
 
-// Kontrollera och ställa in den relativa vertikala positionen.
+// Kontroll och inställning av relativ vertikal position.
 if (shape.RelativeVerticalPosition == RelativeVerticalPosition.Paragraph)
 {
-    // att binda positionen till TopMargin.
+    // binder positionen till TopMargin.
     shape.RelativeVerticalPosition = RelativeVerticalPosition.TopMargin;
-    // Inställning av relativ Top till 30% av TopMargin position.
+    // Ställer in relativ topp till 30 % av TopMargin-positionen.
     shape.TopRelative = 30;
 }
 
-// Kontrollera och ställa in den relativa horisontella positionen.
+// Kontroll och inställning av det relativa horisontella läget.
 if (shape.RelativeHorizontalPosition == RelativeHorizontalPosition.Default)
 {
     // Ställer in positionsbindningen till RightMargin.
     shape.RelativeHorizontalPosition = RelativeHorizontalPosition.RightMargin;
-    // Positionens relativa värde kan vara negativt.
+    // Positionsrelativa värdet kan vara negativt.
     shape.LeftRelative = -260;
 }
 

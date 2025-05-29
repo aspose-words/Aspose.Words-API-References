@@ -2,15 +2,15 @@
 title: StructuredDocumentTagCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagCollection Item 财产. 返回指定索引处的结构化文档标记 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Item 属性轻松访问结构化文档标签。通过索引检索任何标签，实现无缝文档管理和增强的组织功能。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/item/
 ---
 ## StructuredDocumentTagCollection indexer
 
-返回指定索引处的结构化文档标记。
+返回指定索引处的结构化文档标签。
 
 ```csharp
 public IStructuredDocumentTag this[int index] { get; }

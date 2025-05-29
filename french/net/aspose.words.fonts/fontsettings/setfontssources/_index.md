@@ -3,14 +3,14 @@ title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
 second_title: Aspose.Words pour .NET
-description: FontSettings SetFontsSources méthode. Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de lintégration de polices en C#.
+description: Découvrez comment la méthode SetFontsSources dans Aspose.Words améliore le rendu des documents en spécifiant les sources de polices TrueType pour des résultats optimaux.
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
-Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'intégration de polices.
+Définit les sources où Aspose.Words recherche les polices TrueType lors du rendu de documents ou de l'incorporation de polices.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -18,7 +18,7 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Tableau de sources contenant des polices TrueType. |
+| sources | FontSourceBase[] | Un tableau de sources contenant des polices TrueType. |
 
 ## Remarques
 
@@ -28,7 +28,7 @@ La définition de cette propriété réinitialise le cache de toutes les polices
 
 ## Exemples
 
-Montre comment ajouter une source de polices à nos sources de polices existantes.
+Montre comment ajouter une source de police à nos sources de polices existantes.
 
 ```csharp
 Document doc = new Document();
@@ -47,15 +47,15 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Il manque deux des polices que nous utilisons dans notre document dans la source de police par défaut.
-// Lorsque nous enregistrons ce document, Aspose.Words appliquera des polices de secours à tout le texte formaté avec des polices inaccessibles.
+// La source de police par défaut manque de deux des polices que nous utilisons dans notre document.
+// Lorsque nous enregistrons ce document, Aspose.Words appliquera des polices de secours à tout texte formaté avec des polices inaccessibles.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Crée une source de polices à partir d'un dossier contenant des polices.
+// Créez une source de police à partir d'un dossier contenant des polices.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Applique un nouveau tableau de sources de polices contenant les sources de polices d'origine, ainsi que nos polices personnalisées.
+// Appliquez un nouveau tableau de sources de polices contenant les sources de polices d'origine, ainsi que nos polices personnalisées.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
@@ -68,7 +68,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Restaure les sources de polices d'origine.
+// Restaurer les sources de polices d'origine.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-Définit les sources dans lesquelles Aspose.Words recherche les polices TrueType et charge en outre le cache de recherche de polices précédemment enregistré .
+Définit les sources où Aspose.Words recherche les polices TrueType et charge en plus le cache de recherche de polices précédemment enregistré .
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -91,16 +91,16 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| sources | FontSourceBase[] | Tableau de sources contenant des polices TrueType. |
-| cacheInputStream | Stream | Flux d’entrée avec cache de recherche de polices enregistré. |
+| sources | FontSourceBase[] | Un tableau de sources contenant des polices TrueType. |
+| cacheInputStream | Stream | Flux d'entrée avec cache de recherche de polices enregistré. |
 
 ## Remarques
 
-Le chargement du cache de recherche de polices précédemment enregistré accélérera le processus d'initialisation du cache de polices. C'est particulièrement utile lorsque l'accès aux sources de polices est compliqué (par exemple lorsque les polices sont chargées via le réseau).
+Charger le cache de recherche de polices précédemment enregistré accélère le processus d'initialisation du cache. Ceci est particulièrement utile lorsque l'accès aux sources de polices est complexe (par exemple, lorsque les polices sont chargées via le réseau).
 
-Lors de l'enregistrement et du chargement du cache de recherche de polices, les polices des sources fournies sont identifiées via la clé de cache. Pour les polices du[`SystemFontSource`](../../systemfontsource/) et[`FolderFontSource`](../../folderfontsource/) la clé de cache est le chemin vers le fichier de police. Pour[`MemoryFontSource`](../../memoryfontsource/) et[`StreamFontSource`](../../streamfontsource/) la clé de cache est définie dans le[`CacheKey`](../../memoryfontsource/cachekey/) et[`CacheKey`](../../streamfontsource/cachekey/) Properties respectivement. Pour le[`FileFontSource`](../../filefontsource/) la clé de cache est soit[`CacheKey`](../../filefontsource/cachekey/) propriété ou un chemin de fichier si le[`CacheKey`](../../filefontsource/cachekey/) est`nul`.
+Lors de l'enregistrement et du chargement du cache de recherche de polices, les polices des sources fournies sont identifiées via la clé de cache. Pour les polices du[`SystemFontSource`](../../systemfontsource/) et[`FolderFontSource`](../../folderfontsource/) La clé de cache est le chemin d'accès au fichier de police. Pour[`MemoryFontSource`](../../memoryfontsource/) et[`StreamFontSource`](../../streamfontsource/)la clé de cache est définie dans le[`CacheKey`](../../memoryfontsource/cachekey/) et[`CacheKey`](../../streamfontsource/cachekey/) properties respectivement. Pour le[`FileFontSource`](../../filefontsource/) la clé de cache est soit[`CacheKey`](../../filefontsource/cachekey/) propriété ou un chemin de fichier si le[`CacheKey`](../../filefontsource/cachekey/) est`nul`.
 
-Il est fortement recommandé de fournir les mêmes sources de polices lors du chargement du cache qu'au moment où le cache a été enregistré. Toute modification des sources de polices (par exemple, ajout de nouvelles polices, déplacement de fichiers de polices ou modification de la clé de cache) peut conduire à une police inexacte . résolution par Aspose.Words.
+Il est fortement recommandé de fournir les mêmes sources de polices lors du chargement du cache qu'au moment de l'enregistrement du cache. Toute modification des sources de polices (par exemple, l'ajout de nouvelles polices, le déplacement de fichiers de polices ou la modification de la clé de cache) peut entraîner une résolution de police inexacte par Aspose.Words.
 
 ## Exemples
 
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -134,8 +134,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Charge les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
-/// pendant toute la durée de vie de l'objet "FontSettings".
+/// Chargez les données de police uniquement lorsque cela est nécessaire au lieu de les stocker dans la mémoire
+/// pendant toute la durée de vie de l'objet « FontSettings ».
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

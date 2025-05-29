@@ -2,8 +2,8 @@
 title: PageSetup.Borders
 linktitle: Borders
 articleTitle: Borders
-second_title: Aspose.Words for .NET
-description: PageSetup Borders mülk. Sayfa kenarlıklarının bir koleksiyonunu alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde cilalı, profesyonel bir görünüm için sayfa kenarlarınıza kolayca erişmek ve bunları özelleştirmek amacıyla PageSetup Borders özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/pagesetup/borders/

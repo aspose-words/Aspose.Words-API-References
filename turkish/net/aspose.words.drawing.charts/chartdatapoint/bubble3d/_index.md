@@ -2,15 +2,15 @@
 title: ChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
-second_title: Aspose.Words for .NET
-description: ChartDataPoint Bubble3D mülk. Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: ChartDataPoint'in Bubble3D özelliğiyle Bubble grafiğinizi geliştirin ve etkili içgörüler için veri görselleştirmenize çarpıcı 3B efektler ekleyin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/
 ---
 ## ChartDataPoint.Bubble3D property
 
-Kabarcık grafiğindeki baloncuklara 3 boyutlu efektin uygulanması gerekip gerekmediğini belirtir.
+Kabarcık grafiğindeki kabarcıklara 3 boyutlu efekt uygulanıp uygulanmayacağını belirtir.
 
 ```csharp
 public bool Bubble3D { get; set; }

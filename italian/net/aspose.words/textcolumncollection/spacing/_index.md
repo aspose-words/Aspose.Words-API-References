@@ -3,7 +3,7 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words per .NET
-description: TextColumnCollection Spacing proprietà. Quando le colonne sono distanziate uniformemente ottiene o imposta la quantità di spazio tra ciascuna colonna in punti in C#.
+description: Scopri la proprietà TextColumnCollection Spacing e gestisci facilmente la spaziatura delle colonne in punti per un layout curato e professionale. Migliora il tuo design oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words/textcolumncollection/spacing/
@@ -18,7 +18,7 @@ public double Spacing { get; set; }
 
 ## Osservazioni
 
-Ha effetto solo quando[`EvenlySpaced`](../evenlyspaced/) è impostato per`VERO` .
+Ha effetto solo quando[`EvenlySpaced`](../evenlyspaced/) è impostato su`VERO` .
 
 ## Esempi
 

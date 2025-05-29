@@ -3,14 +3,14 @@ title: TxtTrailingSpacesOptions Enum
 linktitle: TxtTrailingSpacesOptions
 articleTitle: TxtTrailingSpacesOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Loading.TxtTrailingSpacesOptions تعداد. يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف في C#.
+description: اكتشف خاصية Aspose.Words.TxtTrailingSpacesOptions لإدارة المساحات الزائدة بكفاءة عند استيراد ملفات النصوص. حسّن معالجة مستنداتك اليوم!
 type: docs
-weight: 3740
+weight: 4200
 url: /ar/net/aspose.words.loading/txttrailingspacesoptions/
 ---
 ## TxtTrailingSpacesOptions enumeration
 
-يحدد الخيارات المتاحة لمعالجة المسافات الزائدة أثناء الاستيراد منText ملف.
+يحدد الخيارات المتاحة للتعامل مع المسافات الزائدة أثناء الاستيراد منText الملف.
 
 ```csharp
 public enum TxtTrailingSpacesOptions
@@ -20,35 +20,35 @@ public enum TxtTrailingSpacesOptions
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Trim | `0` |  |
-| Preserve | `1` |  |
+| Trim | `0` | تم تقليص المسافات الزائدة. |
+| Preserve | `1` | يتم الحفاظ على المسافات الزائدة. |
 
 ## أمثلة
 
-يوضح كيفية قطع المسافة البيضاء عند تحميل مستندات النص العادي.
+يوضح كيفية تقليم المسافات البيضاء عند تحميل مستندات النص العادي.
 
 ```csharp
 string textDoc = "      Line 1 \n" +
                  "    Line 2   \n" +
                  " Line 3       ";
 
-// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى مُنشئ المستند
-// لتعديل كيفية تحميل مستند نص عادي.
+// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى منشئ المستند
+// لتعديل كيفية تحميل مستند النص العادي.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// قم بتعيين خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.Preserve"
-// للاحتفاظ بجميع أحرف المسافة البيضاء في بداية كل سطر.
-// قم بتعيين خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.ConvertToIndent"
-// لإزالة كافة الأحرف البيضاء من بداية كل سطر،
-// ثم قم بتطبيق مسافة بادئة للسطر الأول الأيسر على الفقرة لمحاكاة تأثير المسافات البيضاء.
-// قم بتعيين خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.Trim"
-// لإزالة كافة الأحرف البيضاء من بداية كل سطر.
+// اضبط خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.Preserve"
+// للحفاظ على جميع أحرف المسافة البيضاء في بداية كل سطر.
+// اضبط خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.ConvertToIndent"
+// لإزالة جميع أحرف المسافة البيضاء من بداية كل سطر،
+// ثم قم بتطبيق المسافة البادئة للسطر الأول الأيسر على الفقرة لمحاكاة تأثير المسافات البيضاء.
+// اضبط خاصية "LeadingSpacesOptions" على "TxtLeadingSpacesOptions.Trim"
+// لإزالة جميع أحرف المسافة البيضاء من بداية كل سطر.
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
-// قم بتعيين خاصية "TrailingSpacesOptions" على "TxtTrailingSpacesOptions.Preserve"
- // للاحتفاظ بجميع أحرف المسافة البيضاء في نهاية كل سطر.
- // قم بتعيين خاصية "TrailingSpacesOptions" على "TxtTrailingSpacesOptions.Trim" إلى
-// قم بإزالة كافة الأحرف البيضاء من نهاية كل سطر.
+// اضبط خاصية "TrailingSpacesOptions" على "TxtTrailingSpacesOptions.Preserve"
+ // للحفاظ على جميع أحرف المسافة البيضاء في نهاية كل سطر.
+ // اضبط خاصية "TrailingSpacesOptions" على "TxtTrailingSpacesOptions.Trim" إلى
+// قم بإزالة جميع أحرف المسافة البيضاء من نهاية كل سطر.
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

@@ -3,9 +3,9 @@ title: HtmlLoadOptions.SupportVml
 linktitle: SupportVml
 articleTitle: SupportVml
 second_title: Aspose.Words per .NET
-description: HtmlLoadOptions SupportVml proprietà. Ottiene o imposta un valore che indica se supportare le immagini VML in C#.
+description: Scopri come la proprietà SupportVml di HtmlLoadOptions migliora la tua esperienza web abilitando il supporto delle immagini VML per una migliore qualità grafica.
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words.loading/htmlloadoptions/supportvml/
 ---
 ## HtmlLoadOptions.SupportVml property
@@ -26,8 +26,8 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 // Se il valore è true, prendiamo in considerazione il codice VML durante l'analisi del documento caricato.
 loadOptions.SupportVml = supportVml;
 
-// Questo documento contiene un'immagine JPEG all'interno di "<!--[if gte vml 1]>" tag,
-// e un'immagine PNG diversa all'interno di "<![if !vml]>" tag.
+// Questo documento contiene un'immagine JPEG tra i tag "<!--[if gte vml 1]>",
+// e un'immagine PNG diversa all'interno dei tag "<![if !vml]>".
 // Se impostiamo il flag "SupportVml" su "true", Aspose.Words caricherà il JPEG.
 // Se impostiamo questo flag su "false", Aspose.Words caricherà solo il PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);

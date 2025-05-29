@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words für .NET
-description: ReplacingArgs GroupName eigendom. Identifiziert anhand des Namens eine erfasste Gruppe imMatch  das durch das ersetzt werden sollReplacement string in C#.
+description: Entdecken Sie, wie Sie die GroupName-Eigenschaft effektiv nutzen, um erfasste Gruppen in Ihren Übereinstimmungen durch benutzerdefinierte Zeichenfolgen zu ersetzen. Verbessern Sie Ihre Fähigkeiten zur Zeichenfolgenmanipulation!
 type: docs
 weight: 20
 url: /de/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Identifiziert anhand des Namens eine erfasste Gruppe im[`Match`](../match/) , das durch das ersetzt werden soll[`Replacement`](../replacement/) string.
+Identifiziert anhand des Namens eine erfasste Gruppe in der[`Match`](../match/) , das durch das ersetzt werden soll[`Replacement`](../replacement/) Zeichenfolge.
 
 ```csharp
 public string GroupName { get; set; }
@@ -18,13 +18,13 @@ public string GroupName { get; set; }
 
 ## Bemerkungen
 
-Wenn der Gruppenname lautet`Null` ,[`GroupIndex`](../groupindex/) wird zur Identifizierung der Gruppe verwendet.
+Wenn der Gruppenname`null` ,[`GroupIndex`](../groupindex/) wird zur Identifizierung der Gruppe verwendet.
 
-Standard ist`Null`.
+Standard ist`null`.
 
 ## Beispiele
 
-Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neue Inhalte anwenden.
+Zeigt, wie Sie über FindReplaceOptions eine andere Schriftart auf neuen Inhalt anwenden.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Setzen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe, die wir auf den resultierenden Text der Operation anwenden möchten.
+    // Legen Sie die Eigenschaft „HighlightColor“ auf eine Hintergrundfarbe fest, die wir auf den resultierenden Text der Operation anwenden möchten.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -58,7 +58,7 @@ public void ConvertNumbersToHexadecimal()
 
 /// <summary>
 /// Ersetzt numerische Such- und Ersetzungsübereinstimmungen durch ihre hexadezimalen Entsprechungen.
-/// Führt ein Protokoll über jede Ersetzung.
+/// Führt ein Protokoll über jeden Austausch.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

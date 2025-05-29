@@ -2,15 +2,15 @@
 title: Fill.Opacity
 linktitle: Opacity
 articleTitle: Opacity
-second_title: Aspose.Words for .NET
-description: Fill Opacity mülk. Belirtilen dolgunun opaklık derecesini 00 açık ile 10 opak arasında bir değer olarak alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın şeffaflığını Fill Opacity özelliğiyle kontrol edin; çarpıcı görseller için netliği tamamen şeffaftan tamamen opaklığa ayarlayın.
 type: docs
-weight: 140
+weight: 150
 url: /tr/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
 
-Belirtilen dolgunun opaklık derecesini 0,0 (açık) ile 1,0 (opak) arasında bir değer olarak alır veya ayarlar.
+Belirtilen dolgunun opaklık derecesini 0,0 (temiz) ile 1,0 (opak) arasında bir değer olarak alır veya ayarlar.
 
 ```csharp
 public double Opacity { get; set; }
@@ -18,35 +18,35 @@ public double Opacity { get; set; }
 
 ## Notlar
 
-Bu özellik mülkiyetin tam tersidir[`Transparency`](../transparency/).
+Bu özellik, özelliğin tam tersidir[`Transparency`](../transparency/).
 
 ## Örnekler
 
-Bir şeklin düz renkle nasıl doldurulacağını gösterir.
+Bir şeklin düz bir renkle nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir miktar metin yazın ve ardından onu kayan bir şekille kaplayın.
+// Biraz metin yazın ve ardından onu yüzen bir şekille örtün.
 builder.Font.Size = 32;
 builder.Writeln("Hello world!");
 
 Shape shape = builder.InsertShape(ShapeType.CloudCallout, RelativeHorizontalPosition.LeftMargin, 25,
     RelativeVerticalPosition.TopMargin, 25, 250, 150, WrapType.None);
 
-// Şeklin anahattının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
+// Şeklin dış hatlarının rengini ayarlamak için "StrokeColor" özelliğini kullanın.
 shape.StrokeColor = Color.CadetBlue;
 
 // Şeklin iç alanının rengini ayarlamak için "FillColor" özelliğini kullanın.
 shape.FillColor = Color.LightBlue;
 
 // "Opaklık" özelliği, rengin 0-1 ölçeğinde ne kadar şeffaf olduğunu belirler,
-// 1 tamamen opak ve 0 görünmez olacak şekilde.
-// Şekil dolgusu varsayılan olarak tamamen opaktır, dolayısıyla bu şeklin üstünde olduğu metni göremiyoruz.
+// 1 tamamen opak, 0 ise görünmez anlamına gelir.
+// Şeklin dolgusu varsayılan olarak tamamen opak olduğundan, şeklin üstündeki metni göremeyiz.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Şekil dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
+// Şeklin dolgu renginin opaklığını daha düşük bir değere ayarlayın, böylece altındaki metni görebiliriz.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

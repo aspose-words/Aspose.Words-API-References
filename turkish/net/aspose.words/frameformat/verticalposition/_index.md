@@ -2,15 +2,15 @@
 title: FrameFormat.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
-second_title: Aspose.Words for .NET
-description: FrameFormat VerticalPosition mülk. Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.RelativeVerticalPosition özellik C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçeve kenarından belirttiğiniz öğeye olan dikey mesafeyi ölçen ve düzen hassasiyetini artıran FrameFormat VerticalPosition özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-Çerçevenin kenarı ile öğe tarafından belirtilen öğe arasındaki dikey mesafeyi alır.[`RelativeVerticalPosition`](../relativeverticalposition/) özellik.
+Çerçevenin kenarı ile belirtilen öğe arasındaki dikey mesafeyi alır[`RelativeVerticalPosition`](../relativeverticalposition/) mülk.
 
 ```csharp
 public double VerticalPosition { get; }
@@ -18,7 +18,7 @@ public double VerticalPosition { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

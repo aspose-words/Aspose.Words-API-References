@@ -3,7 +3,7 @@ title: License
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words pour .NET
-description: License constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Créez et gérez facilement vos licences grâce à notre classe constructeur. Simplifiez votre processus de gestion des licences et gagnez en efficacité dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words/license/license/
@@ -18,7 +18,7 @@ public License()
 
 ## Exemples
 
-Montre comment initialiser une licence pour Aspose.Words à l’aide d’un fichier de licence dans le système de fichiers local.
+Montre comment initialiser une licence pour Aspose.Words à l'aide d'un fichier de licence dans le système de fichiers local.
 
 ```csharp
 // Définissez la licence de notre produit Aspose.Words en transmettant le nom de fichier du système de fichiers local d'un fichier de licence valide.
@@ -31,9 +31,9 @@ license.SetLicense(licenseFileName);
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Si on passe le nom d'un fichier sans chemin,
-// SetLicense recherchera ce fichier dans plusieurs emplacements du système de fichiers local.
-// L'un de ces emplacements sera le dossier "bin", qui contient une copie de notre fichier de licence.
+// Si nous passons le nom d'un fichier sans chemin,
+// SetLicense recherchera plusieurs emplacements du système de fichiers local pour ce fichier.
+// L’un de ces emplacements sera le dossier « bin », qui contient une copie de notre fichier de licence.
 license.SetLicense("Aspose.Words.NET.lic");
 ```
 

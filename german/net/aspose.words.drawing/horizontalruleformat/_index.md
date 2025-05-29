@@ -3,14 +3,14 @@ title: HorizontalRuleFormat Class
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.HorizontalRuleFormat klas. Stellt die horizontale Regelformatierung dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.HorizontalRuleFormat für erweiterte horizontale Linienformatierung. Optimieren Sie Ihr Dokumentdesign mühelos!
 type: docs
-weight: 1050
+weight: 1380
 url: /de/net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
 
-Stellt die horizontale Regelformatierung dar.
+Stellt die horizontale Linienformatierung dar.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Formen](https://docs.aspose.com/words/net/working-with-shapes/) Dokumentationsartikel.
 
@@ -22,15 +22,15 @@ public class HorizontalRuleFormat
 
 | Name | Beschreibung |
 | --- | --- |
-| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Ruft die Ausrichtung der horizontalen Regel ab oder legt sie fest. |
-| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Ruft die Pinselfarbe ab, die die horizontale Regel ausfüllt, oder legt diese fest. |
-| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Ruft die Höhe der horizontalen Regel ab oder legt sie fest. |
-| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Zeigt das Vorhandensein einer 3D-Schattierung für die horizontale Regel an. Wenn`WAHR` dann ist die horizontale Regel ohne 3D-Schattierung und es wird Volltonfarbe verwendet. |
-| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Ruft die Länge der angegebenen horizontalen Linie, ausgedrückt als Prozentsatz der Fensterbreite, ab oder legt diese fest. |
+| [Alignment](../../aspose.words.drawing/horizontalruleformat/alignment/) { get; set; } | Ruft die Ausrichtung der horizontalen Linie ab oder legt sie fest. |
+| [Color](../../aspose.words.drawing/horizontalruleformat/color/) { get; set; } | Ruft die Pinselfarbe ab, mit der die horizontale Linie ausgefüllt wird, oder legt diese fest. |
+| [Height](../../aspose.words.drawing/horizontalruleformat/height/) { get; set; } | Ruft die Höhe der horizontalen Linie ab oder legt sie fest. |
+| [NoShade](../../aspose.words.drawing/horizontalruleformat/noshade/) { get; set; } | Zeigt das Vorhandensein einer 3D-Schattierung für die horizontale Linie an. Wenn`WAHR` , dann ist die horizontale Linie ohne 3D-Schattierung und es wird Volltonfarbe verwendet. |
+| [WidthPercent](../../aspose.words.drawing/horizontalruleformat/widthpercent/) { get; set; } | Ruft die Länge der angegebenen horizontalen Linie als Prozentsatz der Fensterbreite ab oder legt sie fest. |
 
 ## Beispiele
 
-Zeigt, wie man eine horizontale Regelform einfügt und deren Formatierung anpasst.
+Zeigt, wie Sie eine horizontale Regelform einfügen und ihre Formatierung anpassen.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: MailMerge.MailMergeCallback
 linktitle: MailMergeCallback
 articleTitle: MailMergeCallback
 second_title: Aspose.Words für .NET
-description: MailMerge MailMergeCallback eigendom. Ermöglicht die Verarbeitung bestimmter Ereignisse während des Seriendrucks in C#.
+description: Optimieren Sie Ihren Serienbrief mit der MailMergeCallback-Eigenschaft. Verwalten Sie Ereignisse mühelos für eine nahtlose Dokumentenautomatisierung und mehr Effizienz.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/mailmerge/mailmergecallback/
@@ -18,7 +18,7 @@ public IMailMergeCallback MailMergeCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Logik für die Verarbeitung von Ereignissen während des Seriendrucks definieren.
+Zeigt, wie Sie eine benutzerdefinierte Logik für die Ereignisbehandlung während des Seriendrucks definieren.
 
 ```csharp
 public void Callback()
@@ -26,7 +26,7 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Zwei Serienbrief-Tags einfügen, die auf zwei Spalten in einer Datenquelle verweisen.
+    // Fügen Sie zwei Serienbrief-Tags ein, die auf zwei Spalten in einer Datenquelle verweisen.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
@@ -36,11 +36,11 @@ public void Callback()
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Konfigurieren Sie unseren Serienbrief, um alternative Serienbrief-Tags zu verwenden.
+    // Konfigurieren Sie unseren Serienbrief so, dass alternative Serienbrief-Tags verwendet werden.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Stellen Sie dann sicher, dass der Serienbrief Tags konvertiert, z. B. unser „LastName“-Tag.
-    // in MERGEFIELDs in den Zusammenführungsdokumenten.
+    // Stellen Sie dann sicher, dass der Serienbrief Tags konvertiert, wie z. B. unseren Tag „Nachname“,
+    // in MERGEFIELDs in den Merge-Dokumenten.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -51,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Zählt, wie oft ein Serienbrief Serienbrief-Tags ersetzt, die nicht mit Daten mit MERGEFIELDs gefüllt werden konnten.
+/// Zählt, wie oft ein Serienbrief Serienbrief-Tags ersetzt, die er nicht mit Daten durch MERGEFIELDs füllen konnte.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

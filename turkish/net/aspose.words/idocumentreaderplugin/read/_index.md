@@ -2,15 +2,15 @@
 title: IDocumentReaderPlugin.Read
 linktitle: Read
 articleTitle: Read
-second_title: Aspose.Words for .NET
-description: IDocumentReaderPlugin Read yöntem. Belirtilen akıştaki verileri okur.Document örnek C#'da.
+second_title: .NET için Aspose.Words
+description: IDocumentReaderPlugin'in Read metoduyla verileri Belge örneğinize zahmetsizce okuyun. Belge işlemenizi bugün geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/idocumentreaderplugin/read/
 ---
 ## IDocumentReaderPlugin.Read method
 
-Belirtilen akıştaki verileri okur.[`Document`](../../document/) örnek.
+Belirtilen akıştan verileri okur[`Document`](../../document/) örnek.
 
 ```csharp
 public void Read(Stream src, LoadOptions loadOptions, Document document)
@@ -20,7 +20,7 @@ public void Read(Stream src, LoadOptions loadOptions, Document document)
 | --- | --- | --- |
 | src | Stream | Belgenin okunacağı kaynak akışı. |
 | loadOptions | LoadOptions | Belgeyi yüklemek için ek yükleme seçenekleri. |
-| document | Document | örneği[`Document`](../../document/) Verilerin okunacağı sınıf. Örnek bir miktar içerik içeriyorsa kaynak akışındaki veriler tarafından geçersiz kılınacaktır. |
+| document | Document | Örnek[`Document`](../../document/) veriyi okumak için sınıf. Örnek bir miktar içerik içeriyorsa, kaynak akışından gelen veri tarafından geçersiz kılınacaktır |
 
 ### Ayrıca bakınız
 

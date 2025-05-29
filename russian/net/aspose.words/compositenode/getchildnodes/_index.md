@@ -3,9 +3,9 @@ title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words для .NET
-description: CompositeNode GetChildNodes метод. Возвращает живую коллекцию дочерних узлов соответствующих указанному типу на С#.
+description: Откройте для себя метод CompositeNode GetChildNodes — с легкостью извлекайте живую коллекцию дочерних узлов, соответствующих указанному вами типу, для повышения производительности.
 type: docs
-weight: 90
+weight: 110
 url: /ru/net/aspose.words/compositenode/getchildnodes/
 ---
 ## CompositeNode.GetChildNodes method
@@ -18,8 +18,8 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| nodeType | NodeType | Указывает тип узлов для выбора. |
-| isDeep | Boolean | `истинный` рекурсивно выбирать из всех дочерних узлов; `ЛОЖЬ`выбирать только среди ближайших детей. |
+| nodeType | NodeType | Указывает тип выбираемых узлов. |
+| isDeep | Boolean | `истинный` для рекурсивного выбора из всех дочерних узлов; `ЛОЖЬ` выбирать только среди ближайших детей. |
 
 ### Возвращаемое значение
 
@@ -27,9 +27,9 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 
 ## Примечания
 
-Коллекция узлов, возвращаемая этим методом, всегда активна.
+Коллекция узлов, возвращаемая этим методом, всегда актуальна.
 
-Живая коллекция всегда синхронизируется с документом. Например, если вы выбрали все разделы в документе и выполнили перечисление в коллекции , удалив разделы, раздел будет удален из коллекции немедленно при его удалении из документа.
+Живая коллекция всегда синхронизирована с документом. Например, если you выбрал все разделы в документе и перечислил через collection удалив разделы, раздел будет удален из коллекции immediately при удалении из документа.
 
 ## Примеры
 
@@ -39,9 +39,9 @@ public NodeCollection GetChildNodes(NodeType nodeType, bool isDeep)
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Если комментарий не имеет предка, это комментарий «верхнего уровня», а не комментарий типа ответа.
-// Распечатываем все комментарии верхнего уровня вместе со всеми ответами, которые они могут иметь.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Если у комментария нет предка, то это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Вывести все комментарии верхнего уровня вместе с возможными ответами на них.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
@@ -54,13 +54,13 @@ foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == 
 }
 ```
 
-Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
+Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получаем коллекцию фигур из документа,
-// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить коллекцию фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -71,7 +71,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
-        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
+        // Мы можем автоматически определить расширение файла для каждого изображения на основе его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);
@@ -80,27 +80,27 @@ foreach (Shape shape in shapes.OfType<Shape>())
 }
 ```
 
-Показывает, как перемещаться по коллекции дочерних узлов составного узла.
+Показывает, как проходить по коллекции дочерних узлов составного узла.
 
 ```csharp
 Document doc = new Document();
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
+// Добавьте две трассы и одну форму в качестве дочерних узлов в первый абзац этого документа.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Обратите внимание, что CustomNodeId не сохраняется в выходном файле и существует только во время существования узла.
+// Обратите внимание, что «CustomNodeId» не сохраняется в выходном файле и существует только в течение срока службы узла.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Перебираем коллекцию непосредственных дочерних элементов абзаца,
-// и распечатываем любые фрагменты или фигуры, которые мы находим внутри.
+// Проходим по коллекции непосредственных дочерних элементов абзаца,
+// и распечатать любые найденные нами фрагменты или формы.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -128,7 +128,7 @@ Document doc = new Document();
 // Пустой документ по умолчанию имеет один абзац.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Составные узлы, такие как наш абзац, могут содержать в качестве дочерних элементов другие составные и строчные узлы.
+// Составные узлы, такие как наш абзац, могут содержать другие составные и встроенные узлы в качестве дочерних.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -139,28 +139,28 @@ Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
 // Тело документа не будет отображать эти прогоны, пока мы не вставим их в составной узел
-// это само по себе является частью дерева узлов документа, как мы делали при первом запуске.
+// который сам по себе является частью дерева узлов документа, как мы это делали при первом запуске.
 // Мы можем определить, где находится текстовое содержимое узлов, которые мы вставляем
-// появляется в документе при указании места вставки относительно другого узла в абзаце.
+// появляется в документе, указывая место вставки относительно другого узла в абзаце.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Вставляем второй проход в абзац перед первым.
+// Вставьте вторую строку в абзац перед первой строкой.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
 
-// Вставляем третий запуск после первого.
+// Вставьте третий запуск после первого запуска.
 paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Вставляем первый прогон в начало коллекции дочерних узлов абзаца.
+// Вставляем первую строку в начало коллекции дочерних узлов абзаца.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Мы можем изменить содержимое прогона, отредактировав и удалив существующие дочерние узлы.
+// Мы можем изменить содержимое прогона, редактируя и удаляя существующие дочерние узлы.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

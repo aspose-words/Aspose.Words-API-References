@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words для .NET
-description: CsvDataLoadOptions строитель. Инициализирует новый экземпляр этого класса с параметрами по умолчанию на С#.
+description: Откройте для себя конструктор CsvDataLoadOptions — легко инициализируйте его с настройками по умолчанию для эффективной загрузки данных и бесшовной интеграции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
@@ -14,6 +14,25 @@ url: /ru/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
 
 ```csharp
 public CsvDataLoadOptions()
+```
+
+## Примеры
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
 ```
 
 ### Смотрите также
@@ -30,6 +49,25 @@ public CsvDataLoadOptions()
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)
+```
+
+## Примеры
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
 ```
 
 ### Смотрите также

@@ -3,14 +3,14 @@ title: Document.UpdateThumbnail
 linktitle: UpdateThumbnail
 articleTitle: UpdateThumbnail
 second_title: Aspose.Words لـ .NET
-description: Document UpdateThumbnail طريقة. التحديثاتThumbnail للمستند حسب الخيارات المحددة في C#.
+description: حدّث الصورة المصغرة لمستندك بسهولة باستخدام خياراتنا القابلة للتخصيص. حسّن صورك وحسّن عرض مستندك اليوم!
 type: docs
-weight: 780
+weight: 840
 url: /ar/net/aspose.words/document/updatethumbnail/
 ---
 ## UpdateThumbnail(*[ThumbnailGeneratingOptions](../../../aspose.words.rendering/thumbnailgeneratingoptions/)*) {#updatethumbnail_1}
 
-التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند حسب الخيارات المحددة.
+تحديثات [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) من المستند وفقًا للخيارات المحددة.
 
 ```csharp
 public void UpdateThumbnail(ThumbnailGeneratingOptions options)
@@ -18,11 +18,11 @@ public void UpdateThumbnail(ThumbnailGeneratingOptions options)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| options | ThumbnailGeneratingOptions | خيارات توليد للاستخدام. |
+| options | ThumbnailGeneratingOptions | خيارات التوليد للاستخدام. |
 
 ## ملاحظات
 
-ال[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) يسمح لك بتحديد مصدر الصورة المصغرة والحجم والخيارات الأخرى. إذا فشلت محاولة إنشاء صورة مصغرة، فلا يغير واحدة.
+ال[`ThumbnailGeneratingOptions`](../../../aspose.words.rendering/thumbnailgeneratingoptions/) يسمح لك بتحديد مصدر الصورة المصغرة والحجم والخيارات الأخرى. إذا فشلت محاولة إنشاء الصورة المصغرة، فلا يتم تغييرها.
 
 ## أمثلة
 
@@ -35,8 +35,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
-// 1 - استخدم الصفحة الأولى للمستند:
+// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند بتنسيق .epub.
+// 1 - استخدم الصفحة الأولى من المستند:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstImage.epub");
 
 ## UpdateThumbnail() {#updatethumbnail}
 
-التحديثات[`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) للمستند باستخدام الخيارات الافتراضية.
+تحديثات [`Thumbnail`](../../../aspose.words.properties/builtindocumentproperties/thumbnail/) من المستند باستخدام الخيارات الافتراضية.
 
 ```csharp
 public void UpdateThumbnail()
@@ -77,8 +77,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند إلى .epub.
-// 1 - استخدم الصفحة الأولى للمستند:
+// هناك طريقتان لتعيين صورة مصغرة عند حفظ مستند بتنسيق .epub.
+// 1 - استخدم الصفحة الأولى من المستند:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.AppendChild
 linktitle: AppendChild
 articleTitle: AppendChild
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTagRangeStart AppendChild método. Agrega el nodo especificado al final del rango de contenido estándar en C#.
+description: Descubra cómo el método StructuredDocumentTagRangeStart AppendChild mejora la edición de sus documentos al agregar sin problemas nodos a su rango stdContent.
 type: docs
-weight: 200
+weight: 210
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/appendchild/
 ---
 ## StructuredDocumentTagRangeStart.AppendChild method
 
-Agrega el nodo especificado al final del rango de contenido estándar.
+Agrega el nodo especificado al final del rango stdContent.
 
 ```csharp
 public Node AppendChild(Node newChild)
@@ -22,7 +22,7 @@ public Node AppendChild(Node newChild)
 
 ### Valor_devuelto
 
-Agregó el nodo.
+El nodo añadido.
 
 ### Ver también
 

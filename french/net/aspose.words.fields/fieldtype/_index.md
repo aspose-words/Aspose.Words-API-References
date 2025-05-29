@@ -3,9 +3,9 @@ title: FieldType Enum
 linktitle: FieldType
 articleTitle: FieldType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldType énumération. Spécifie les types de champs Microsoft Word en C#.
+description: Découvrez l'énumération Aspose.Words.Fields.FieldType pour gérer efficacement les types de champs Microsoft Word et améliorer l'automatisation de vos documents.
 type: docs
-weight: 2540
+weight: 2950
 url: /fr/net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -20,19 +20,19 @@ public enum FieldType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| FieldNone | `0` | Le type de champ n'est pas spécifié ou est inconnu. |
+| FieldNone | `0` | Le type de champ n'est pas spécifié ou inconnu. |
 | FieldCannotParse | `1` | Spécifie que le champ n'a pas pu être analysé. |
 | FieldAddin | `81` | Spécifie le champ ADDIN. |
 | FieldAddressBlock | `93` | Spécifie le champ ADDRESSBLOCK. |
-| FieldAdvance | `84` | Spécifie le champ ADVANCE. |
+| FieldAdvance | `84` | Spécifie le champ AVANCE. |
 | FieldAsk | `38` | Spécifie le champ ASK. |
 | FieldAuthor | `17` | Spécifie le champ AUTEUR. |
 | FieldAutoNum | `54` | Spécifie le champ AUTONUM. |
 | FieldAutoNumLegal | `53` | Spécifie le champ AUTONUMLGL. |
 | FieldAutoNumOutline | `52` | Spécifie le champ AUTONUMOUT. |
-| FieldAutoText | `79` | Spécifie le champ AUTOTEXTE. |
+| FieldAutoText | `79` | Spécifie le champ AUTOTEXT. |
 | FieldAutoTextList | `89` | Spécifie le champ AUTOTEXTLIST. |
-| FieldBarcode | `63` | Spécifie le champ BARCODE. |
+| FieldBarcode | `63` | Spécifie le champ CODE-BARRES. |
 | FieldBibliography | `100500` | Spécifie le champ BIBLIOGRAPHIE. |
 | FieldBidiOutline | `92` | Spécifie le champ BIDIOUTLINE. |
 | FieldCitation | `1980` | Spécifie le champ CITATION. |
@@ -40,7 +40,7 @@ public enum FieldType
 | FieldCompare | `80` | Spécifie le champ COMPARER. |
 | FieldCreateDate | `21` | Spécifie le champ CREATEDATE. |
 | FieldData | `40` | Spécifie le champ DATA. |
-| FieldDatabase | `78` | Spécifie le champ DATABASE. |
+| FieldDatabase | `78` | Spécifie le champ BASE DE DONNÉES. |
 | FieldDate | `31` | Spécifie le champ DATE. |
 | FieldDDE | `45` | Spécifie le champ DDE. |
 | FieldDisplayBarcode | `6301` | Spécifie le champ DISPLAYBARCODE. |
@@ -51,8 +51,8 @@ public enum FieldType
 | FieldEditTime | `25` | Spécifie le champ EDITTIME. |
 | FieldEmbed | `58` | Spécifie le champ EMBED. |
 | FieldEquation | `49` | Spécifie le champ EQ. |
-| FieldFileName | `29` | Spécifie le champ FILENAME. |
-| FieldFileSize | `69` | Spécifie le champ FILESIZE. |
+| FieldFileName | `29` | Spécifie le champ NOM DE FICHIER. |
+| FieldFileSize | `69` | Spécifie le champ TAILLE DU FIL. |
 | FieldFillIn | `39` | Spécifie le champ FILLIN. |
 | FieldFootnoteRef | `5` | Spécifie le champ FOOTNOTEREF. |
 | FieldFormCheckBox | `71` | Spécifie le champ FORMCHECKBOX. |
@@ -64,7 +64,7 @@ public enum FieldType
 | FieldGoToButton | `50` | Spécifie le champ GOTOBUTTON. |
 | FieldHtmlActiveX | `91` | Spécifie le champ qui représente un contrôle HTML. |
 | FieldHyperlink | `88` | Spécifie le champ HYPERLINK. |
-| FieldIf | `7` | Spécifie le champ IF. |
+| FieldIf | `7` | Spécifie le champ SI. |
 | FieldInclude | `36` | Spécifie le champ INCLUDE. |
 | FieldIncludePicture | `67` | Spécifie le champ INCLUDEPICTURE. |
 | FieldIncludeText | `68` | Spécifie le champ INCLUDETEXT. |
@@ -89,7 +89,7 @@ public enum FieldType
 | FieldOcx | `87` | Spécifie le champ OCX. |
 | FieldPage | `33` | Spécifie le champ PAGE. |
 | FieldPageRef | `37` | Spécifie le champ PAGEREF. |
-| FieldPrint | `48` | Spécifie le champ PRINT. |
+| FieldPrint | `48` | Spécifie le champ IMPRIMER. |
 | FieldPrintDate | `23` | Spécifie le champ PRINTDATE. |
 | FieldPrivate | `77` | Spécifie le champ PRIVÉ. |
 | FieldQuote | `35` | Spécifie le champ QUOTE. |
@@ -116,7 +116,7 @@ public enum FieldType
 | FieldTOCEntry | `9` | Spécifie le champ TC. |
 | FieldUserAddress | `62` | Spécifie le champ USERADDRESS. |
 | FieldUserInitials | `61` | Spécifie le champ USERINITIALS. |
-| FieldUserName | `60` | Spécifie le champ USERNAME. |
+| FieldUserName | `60` | Spécifie le champ NOM D'UTILISATEUR. |
 
 ## Exemples
 
@@ -132,7 +132,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Cette surcharge de la méthode InsertField met automatiquement à jour les champs insérés.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 Montre comment travailler avec un nœud FieldStart.
@@ -151,13 +151,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Récupère l'objet façade qui représente le champ dans le document.
+// Récupérer l'objet de façade qui représente le champ dans le document.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Mettez à jour le champ pour afficher la date actuelle.
+// Mettre à jour le champ pour afficher la date actuelle.
 field.Update();
 ```
 

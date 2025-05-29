@@ -3,14 +3,14 @@ title: Stroke.DashStyle
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words для .NET
-description: Stroke DashStyle свойство. Указывает образец точки и тире для обводки на С#.
+description: Откройте для себя свойство Stroke DashStyle, чтобы персонализировать свой дизайн с помощью уникальных узоров точек и тире для создания потрясающих визуальных эффектов.
 type: docs
-weight: 40
+weight: 70
 url: /ru/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
 
-Указывает образец точки и тире для обводки.
+Задает шаблон точек и тире для штриха.
 
 ```csharp
 public DashStyle DashStyle { get; set; }
@@ -22,14 +22,14 @@ public DashStyle DashStyle { get; set; }
 
 ## Примеры
 
-Показывает создание разнообразных фигур.
+Демонстрирует создание разнообразных фигур.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены четыре примера фигур, которые мы можем вставить в наши документы.
-// 1 - Пунктирная горизонтальная полупрозрачная красная линия
+// 1 - Пунктирная, горизонтальная, полупрозрачная красная линия
 // со стрелкой на левом конце и ромбом на правом конце:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Когда мы меняем ориентацию нашей стрелки, мы также переворачиваем изображение, которое содержит стрелка.
-    // Переверните изображение в другую сторону, чтобы отменить это, прежде чем получить форму для его отображения.
+    // Когда мы меняем ориентацию нашей стрелки, мы также меняем изображение, которое содержит стрелка.
+    // Переверните изображение в другую сторону, чтобы устранить это, прежде чем получить форму для его отображения.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

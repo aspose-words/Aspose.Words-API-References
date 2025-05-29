@@ -3,14 +3,14 @@ title: VbaModule.SourceCode
 linktitle: SourceCode
 articleTitle: SourceCode
 second_title: Aspose.Words per .NET
-description: VbaModule SourceCode proprietà. Ottiene o imposta il codice sorgente del modulo di progetto VBA in C#.
+description: Accedi e modifica il codice sorgente del modulo del tuo progetto VBA senza sforzo con la proprietà VbaModule SourceCode. Migliora la tua efficienza di programmazione oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words.vba/vbamodule/sourcecode/
 ---
 ## VbaModule.SourceCode property
 
-Ottiene o imposta il codice sorgente del modulo di progetto VBA.
+Ottiene o imposta il codice sorgente del modulo del progetto VBA.
 
 ```csharp
 public string SourceCode { get; set; }
@@ -34,13 +34,13 @@ module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// Aggiunge il modulo al progetto VBA.
+// Aggiungere il modulo al progetto VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");
 ```
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -51,7 +51,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

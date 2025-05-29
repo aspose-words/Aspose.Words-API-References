@@ -3,14 +3,14 @@ title: TableStyleOptions Enum
 linktitle: TableStyleOptions
 articleTitle: TableStyleOptions
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.TableStyleOptions تعداد. يحدد كيفية تطبيق نمط الجدول على الجدول في C#.
+description: اكتشف خيارات Aspose.Words.Tables.TableStyleOptions لتصميم جداول مرن. حسّن تصميم مستندك بأنماط جداول قابلة للتخصيص اليوم!
 type: docs
-weight: 6370
+weight: 7220
 url: /ar/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
 
-يحدد كيفية تطبيق نمط الجدول على الجدول.
+يحدد كيفية تطبيق نمط الجدول على جدول.
 
 ```csharp
 [Flags]
@@ -26,28 +26,28 @@ public enum TableStyleOptions
 | LastRow | `40` | تطبيق التنسيق الشرطي للصف الأخير. |
 | FirstColumn | `80` | تطبيق التنسيق الشرطي للعمود الأول. |
 | LastColumn | `100` | تطبيق التنسيق الشرطي للعمود الأخير. |
-| RowBands | `200` | تطبيق التنسيق الشرطي لنطاق الصفوف. |
-| ColumnBands | `400` | تطبيق التنسيق الشرطي لنطاق الأعمدة. |
-| Default2003 | `600` | تم تطبيق نطاق الصفوف والأعمدة. هذا هو الإعداد الافتراضي لبرنامج Microsoft Word للتنسيقات القديمة مثل DOC وWML وRTF. |
+| RowBands | `200` | تطبيق التنسيق الشرطي لربط الصفوف. |
+| ColumnBands | `400` | تطبيق التنسيق الشرطي لنطاقات الأعمدة. |
+| Default2003 | `600` | تم تطبيق توزيع الصفوف والأعمدة. هذا هو الوضع الافتراضي في مايكروسوفت وورد للتنسيقات القديمة مثل DOC وWML وRTF. |
 | Default | `2A0` | هذه هي الإعدادات الافتراضية لبرنامج Microsoft Word. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول جديد أثناء تطبيق النمط.
+يوضح كيفية إنشاء جدول جديد أثناء تطبيق نمط.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// يجب علينا إدراج صف واحد على الأقل قبل تعيين أي تنسيق للجدول.
+// يجب علينا إدراج صف واحد على الأقل قبل تعيين تنسيق أي جدول.
 builder.InsertCell();
 
 // قم بتعيين نمط الجدول المستخدم بناءً على معرف النمط.
-// لاحظ أنه ليست كل أنماط الجدول متاحة عند الحفظ بتنسيق .doc.
+// لاحظ أن أنماط الجدول ليست كلها متاحة عند الحفظ بتنسيق .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم أنشئ الجدول.
+// قم بتطبيق النمط جزئيًا على ميزات الجدول استنادًا إلى المسندات، ثم قم ببناء الجدول.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

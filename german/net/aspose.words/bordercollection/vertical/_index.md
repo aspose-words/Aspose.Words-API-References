@@ -3,7 +3,7 @@ title: BorderCollection.Vertical
 linktitle: Vertical
 articleTitle: Vertical
 second_title: Aspose.Words für .NET
-description: BorderCollection Vertical eigendom. Ruft den vertikalen Rahmen ab der zwischen Zellen verwendet wird in C#.
+description: Entdecken Sie die BorderCollection Vertical-Eigenschaft für nahtlose Zellränder. Verschönern Sie Ihr Design mit anpassbaren vertikalen Rändern für einen eleganten Look!
 type: docs
 weight: 130
 url: /de/net/aspose.words/bordercollection/vertical/
@@ -18,13 +18,13 @@ public Border Vertical { get; }
 
 ## Beispiele
 
-Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
+Zeigt, wie Sie Einstellungen für vertikale Rahmen auf das Format einer Tabellenzeile anwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstelle eine Tabelle mit roten und blauen Innenrändern.
+// Erstellen Sie eine Tabelle mit roten und blauen Innenrändern.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -42,7 +42,7 @@ for (int i = 0; i < 3; i++)
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Passen Sie das Erscheinungsbild der Ränder an, die zwischen den Zellen angezeigt werden.
+    // Passen Sie das Erscheinungsbild der Rahmen an, die zwischen den Zellen angezeigt werden.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

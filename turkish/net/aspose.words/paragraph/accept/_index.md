@@ -2,15 +2,15 @@
 title: Paragraph.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Paragraph Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi etkileşimini artıran ve kullanıcı deneyimini iyileştiren Paragraf Kabul yöntemini keşfedin. Sitenizin etkileşimini bugün artırın!
 type: docs
 weight: 230
 url: /tr/net/aspose.words/paragraph/accept/
 ---
 ## Paragraph.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , ardından arar[`Accept`](../../node/accept/) paragrafın ve çağrıların tüm alt düğümleri için[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) sonunda.
+Çağrılar[`VisitParagraphStart`](../../documentvisitor/visitparagraphstart/) , sonra arar[`Accept`](../../node/accept/) paragrafın ve çağrıların tüm alt düğümleri için[`VisitParagraphEnd`](../../documentvisitor/visitparagraphend/) sonunda.
 
 ## Örnekler
 
-Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
+Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -42,8 +42,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Aşağıda belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
-    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine olanak tanıyacak.
+    // Aşağıda bir belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır:
+    // bu, kabul eden düğümü ziyaret etmesine ve daha sonra derinlemesine bir şekilde alt düğümlerini dolaşmasına izin verecektir.
     // 1 - Paragraf düğümü:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -75,7 +75,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -86,7 +86,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -119,7 +119,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FormField ile karşılaşıldığında çağrılır.
+    /// Belgede bir FormField ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -130,7 +130,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede GroupShape ile karşılaşıldığında çağrılır.
+    /// Belgede bir GroupShape ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -152,7 +152,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorumla karşılaşıldığında çağrılır.
+    /// Belgede bir Yorum ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -163,7 +163,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede Dipnotla karşılaşıldığında çağrılır.
+    /// Belgede bir Dipnot ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -174,10 +174,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Özel Karakterle karşılaşıldığında çağrılır.
+    /// Belgede bir SpecialCharacter ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -185,16 +187,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Tablo düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Tablo düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri bunu yapamaz.
-        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırmış olurdu,
-        // ve hiç alt düğüm kalmayacaktı.
-        // Böylece tablonun kendisini de gizli içerik olarak değerlendirip kaldırabiliriz.
-        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragrafların bulunduğu hücreler bulunur,
-        // bu ziyaretçinin kaldırmayacağı.
+        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri olamaz.
+        // Eğer bu tabloda yalnızca gizli içerik olsaydı, bu ziyaretçi bunların hepsini silecekti,
+        // ve hiçbir alt düğüm kalmayacaktı.
+        // Böylece tablonun kendisini de gizli içerik olarak ele alıp kaldırabiliriz.
+        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragraflar bulunan hücreler olacaktır,
+        // bu ziyaretçinin kaldıramayacağı.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -202,7 +204,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Hücre düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Hücre düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -213,7 +215,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Satır düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Satır düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

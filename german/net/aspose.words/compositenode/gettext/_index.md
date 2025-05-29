@@ -3,9 +3,9 @@ title: CompositeNode.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words für .NET
-description: CompositeNode GetText methode. Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab in C#.
+description: Entdecken Sie die CompositeNode GetText-Methode, um effizient Text aus Knoten und deren untergeordneten Elementen abzurufen und so Ihre Datenverarbeitungsfunktionen zu verbessern.
 type: docs
-weight: 110
+weight: 130
 url: /de/net/aspose.words/compositenode/gettext/
 ---
 ## CompositeNode.GetText method
@@ -18,11 +18,11 @@ public override string GetText()
 
 ## Bemerkungen
 
-Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen, wie in beschrieben[`ControlChar`](../../controlchar/).
+Die zurückgegebene Zeichenfolge enthält alle Steuer- und Sonderzeichen wie in[`ControlChar`](../../controlchar/).
 
 ## Beispiele
 
-Zeigt den Unterschied zwischen dem Aufruf der GetText- und ToString-Methoden auf einem Knoten.
+Zeigt den Unterschied zwischen dem Aufrufen der Methoden GetText und ToString auf einem Knoten.
 
 ```csharp
 Document doc = new Document();
@@ -31,13 +31,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText ruft den sichtbaren Text sowie Feldcodes und Sonderzeichen ab.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString gibt uns das Aussehen des Dokuments, wenn es in einem übergebenen Speicherformat gespeichert wird.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// ToString gibt uns das Erscheinungsbild des Dokuments an, wenn es in einem übergebenen Speicherformat gespeichert wird.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, bei denen es sich um Listenelemente handelt.
+Zeigt, wie alle Absätze in einem Dokument ausgegeben werden, die Listenelemente sind.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

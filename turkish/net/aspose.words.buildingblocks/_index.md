@@ -2,25 +2,25 @@
 title: Aspose.Words.BuildingBlocks
 linktitle: Aspose.Words.BuildingBlocks
 articleTitle: Aspose.Words.BuildingBlocks
-second_title: Aspose.Words for .NET
-description: Aspose.Words.BuildingBlocks ad alanı bir belgede öğesine erişmeye ve Otomatik Metin Otomatik Düzelt girdilerini ve Yapı Taşlarını kullanmaya izin veren sınıflar sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.BuildingBlocks ile belge potansiyelinizi açığa çıkarın. İçerik oluşturmanızı geliştirmek için Otomatik Metin ve Otomatik Düzeltme girişlerine zahmetsizce erişin.
 type: docs
-weight: 20
+weight: 40
 url: /tr/net/aspose.words.buildingblocks/
 ---
-**Aspose.Words.BuildingBlocks** ad alanı, bir belgede öğesine erişmeye ve Otomatik Metin, Otomatik Düzelt girdilerini ve Yapı Taşlarını kullanmaya izin veren sınıflar sağlar.
+The**Aspose.Kelimeler.Yapı Taşları**namespace, 'ye erişim sağlayan ve bir belgede Otomatik Metin, Otomatik Düzeltme girdileri ve Yapı Taşları'nı kullanan sınıflar sağlar.
 
 ## sınıflar
 
 | Sınıf | Tanım |
 | --- | --- |
-| [BuildingBlock](./buildingblock/) | Yapı Taşı, Otomatik Metin veya Otomatik Düzelt girişi gibi bir sözlük belgesi girişini temsil eder. |
-| [BuildingBlockCollection](./buildingblockcollection/) | Bir koleksiyon[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/)belgedeki nesneler. |
-| [GlossaryDocument](./glossarydocument/) | Bir Word belgesi içindeki bir sözlük belgesinin kök öğesini temsil eder. Bir sözlük belgesi Otomatik Metin, Otomatik Düzelt girişleri ve Yapı Taşları için bir depolama alanıdır. |
+| [BuildingBlock](./buildingblock/) | Bir Yapı Bloğu, Otomatik Metin veya Otomatik Düzeltme girişi gibi bir sözlük belge girişini temsil eder. |
+| [BuildingBlockCollection](./buildingblockcollection/) | Bir koleksiyon[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/) belgedeki nesneler. |
+| [GlossaryDocument](./glossarydocument/) | Word belgesi içindeki bir sözlük belgesinin kök öğesini temsil eder. Bir sözlük belgesi, Otomatik Metin, Otomatik Düzeltme girdileri ve Yapı Taşları için bir depolama alanıdır. |
 ## numaralandırma
 
 | numaralandırma | Tanım |
 | --- | --- |
 | [BuildingBlockBehavior](./buildingblockbehavior/) | Ana belgeye eklendiğinde yapı bloğunun içeriğine uygulanacak davranışı belirtir. |
 | [BuildingBlockGallery](./buildingblockgallery/) | Bir yapı bloğunun sınıflandırıldığı önceden tanımlanmış galeriyi belirtir. |
-| [BuildingBlockType](./buildingblocktype/) | Bir yapı taşı türünü belirtir. Tür, Microsoft Word. yapı bloğunun görünürlüğünü ve davranışını etkileyebilir. |
+| [BuildingBlockType](./buildingblocktype/) | Bir yapı bloğu türünü belirtir. Tür, Microsoft Word'deki yapı bloğunun görünürlüğünü ve davranışını etkileyebilir. |

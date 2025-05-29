@@ -3,9 +3,9 @@ title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: BubbleSizeCollection Item propiedad. Obtiene o establece el valor del tamaño de la burbuja en el índice especificado en C#.
+description: Descubra la propiedad de elemento BubbleSizeCollection para administrar fácilmente los tamaños de burbujas en índices específicos, mejorando su visualización de datos con precisión.
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.drawing.charts/bubblesizecollection/item/
 ---
 ## BubbleSizeCollection indexer

@@ -3,14 +3,14 @@ title: Shape.HasSmartArt
 linktitle: HasSmartArt
 articleTitle: HasSmartArt
 second_title: Aspose.Words para .NET
-description: Shape HasSmartArt propiedad. Devolucionesverdadero si estoShape tiene un objeto SmartArt en C#.
+description: Descubre si tu forma incluye un objeto SmartArt con la propiedad HasSmartArt. ¡Descubre posibilidades de diseño creativo para tus proyectos!
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-Devoluciones`verdadero` si esto[`Shape`](../) tiene un objeto SmartArt.
+Devuelve`verdadero` Si esto[`Shape`](../) tiene un objeto SmartArt.
 
 ```csharp
 public bool HasSmartArt { get; }
@@ -18,7 +18,7 @@ public bool HasSmartArt { get; }
 
 ## Ejemplos
 
-Muestra cómo contar el número de formas en un documento con objetos SmartArt.
+Muestra cómo contar la cantidad de formas en un documento con objetos SmartArt.
 
 ```csharp
 Document doc = new Document(MyDir + "SmartArt.docx");

@@ -3,14 +3,14 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words für .NET
-description: MailMergeSettings Query eigendom. Enthält die Zeichenfolge der Structured Query Language die für die angegebene externe Datenquelle ausgeführt werden soll um den Satz von Datensätzen zurückzugeben die in das Dokument importiert werden sollen wenn der Serienbriefvorgang ausgeführt wird. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie, wie Sie die Abfrageeigenschaft „MailMergeSettings“ nutzen können, um Datensätze aus externen Datenquellen effizient zu importieren und so nahtlose Serienbriefvorgänge zu ermöglichen.
 type: docs
 weight: 160
 url: /de/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-Enthält die Zeichenfolge der Structured Query Language, die für die angegebene externe Datenquelle ausgeführt werden soll, um den Satz von Datensätzen zurückzugeben, die in das Dokument importiert werden sollen, wenn der Serienbriefvorgang ausgeführt wird. Der Standardwert ist eine leere Zeichenfolge.
+Enthält die STR-Zeichenfolge (Structured Query Language), die für die angegebene externe Datenquelle ausgeführt werden soll, um den Datensatzsatz zurückzugeben, der beim Ausführen des Seriendruckvorgangs in das Dokument importiert werden soll. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string Query { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

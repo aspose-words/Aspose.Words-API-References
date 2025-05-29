@@ -3,7 +3,7 @@ title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words لـ .NET
-description: ViewOptions ViewType ملكية. يتحكم في وضع العرض في Microsoft Word في C#.
+description: اكتشف خاصية ViewOptions ViewType لتخصيص وضع عرض Microsoft Word بسهولة لتحسين الإنتاجية والحصول على تجربة تحرير مخصصة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/viewoptions/viewtype/
@@ -18,11 +18,11 @@ public ViewType ViewType { get; set; }
 
 ## ملاحظات
 
-على الرغم من أن Aspose.Words قادر على قراءة هذا الخيار وكتابته، إلا أن استخدامه خاص بالتطبيق. على سبيل المثال لا يحترم MS Word 2013 قيمة هذا الخيار.
+على الرغم من أن Aspose.Words قادر على قراءة وكتابة هذا الخيار، فإن استخدامه يعتمد على التطبيق. على سبيل المثال، لا يحترم MS Word 2013 قيمة هذا الخيار.
 
 ## أمثلة
 
-يوضح كيفية تعيين عامل تكبير مخصص، أي الإصدارات الأقدم من Microsoft Word سيتم تطبيقها على المستند عند التحميل.
+يوضح كيفية تعيين عامل تكبير مخصص، والذي ستطبقه الإصدارات القديمة من Microsoft Word على المستند عند تحميله.
 
 ```csharp
 Document doc = new Document();

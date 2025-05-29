@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words لـ .NET
-description: PhysicalFontInfo FontFamilyName ملكية. اسم عائلة الخط في C#.
+description: اكتشف خاصية PhysicalFontInfo FontFamilyName، وهي مفتاحك لتحديد عائلات الخطوط واستخدامها بشكل فعال في مشاريعك.
 type: docs
-weight: 20
+weight: 30
 url: /ar/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
@@ -18,10 +18,10 @@ public string FontFamilyName { get; }
 
 ## أمثلة
 
-يوضح كيفية سرد الخطوط المتاحة.
+يوضح كيفية إدراج الخطوط المتوفرة.
 
 ```csharp
-// قم بتكوين Aspose.Words لمصدر الخطوط من مجلد مخصص، ثم قم بطباعة كل خط متاح.
+// قم بتكوين Aspose.Words للحصول على الخطوط من مجلد مخصص، ثم قم بطباعة كل الخطوط المتوفرة.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

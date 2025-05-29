@@ -2,15 +2,15 @@
 title: ChartSeries.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries Remove 方法. 从指定索引处的图表系列中删除 X 值Y 值和气泡大小如果支持 相应的数据点和数据标签也会被删除 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ChartSeries Remove 方法，轻松移除图表系列中的 X 值、Y 值和气泡大小。立即简化您的数据可视化！
 type: docs
-weight: 200
+weight: 210
 url: /zh/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
 
-从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也会被删除。
+从指定索引处的图表系列中删除 X 值、Y 值和气泡大小（如果支持）。 相应的数据点和数据标签也将被删除。
 
 ```csharp
 public void Remove(int index)
@@ -18,7 +18,7 @@ public void Remove(int index)
 
 ## 例子
 
-展示如何添加/删除图表数据值。
+显示如何添加/删除图表数据值。
 
 ```csharp
 Document doc = new Document();

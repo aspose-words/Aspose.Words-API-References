@@ -3,14 +3,14 @@ title: FileFormatUtil.LoadFormatToExtension
 linktitle: LoadFormatToExtension
 articleTitle: LoadFormatToExtension
 second_title: Aspose.Words para .NET
-description: FileFormatUtil LoadFormatToExtension método. Convierte un valor enumerado de formato de carga en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial en C#.
+description: Transforma fácilmente los valores de formato de carga en extensiones de archivo con el método LoadFormatToExtension de FileFormatUtil. ¡Obtén extensiones precisas en minúsculas fácilmente!
 type: docs
 weight: 60
 url: /es/net/aspose.words/fileformatutil/loadformattoextension/
 ---
 ## FileFormatUtil.LoadFormatToExtension method
 
-Convierte un valor enumerado de formato de carga en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial.
+Convierte un valor enumerado del formato de carga en una extensión de archivo. La extensión devuelta es una cadena en minúsculas con un punto inicial.
 
 ```csharp
 public static string LoadFormatToExtension(LoadFormat loadFormat)
@@ -20,7 +20,7 @@ public static string LoadFormatToExtension(LoadFormat loadFormat)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanza cuando no se puede convertir. |
+| ArgumentException | Se lanza cuando no se puede convertir. |
 
 ## Observaciones
 
@@ -40,14 +40,14 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
     // A continuación se muestran dos métodos para convertir un LoadFormat a su SaveFormat correspondiente.
-    // 1 - Obtenga la cadena de extensión del archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
+    // 1 - Obtenga la cadena de extensión de archivo para LoadFormat, luego obtenga el SaveFormat correspondiente de esa cadena:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 - Convertir LoadFormat directamente a su SaveFormat:
+    // 2 - Convierte el LoadFormat directamente a su SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Cargue un documento de la secuencia y luego guárdelo en la extensión de archivo detectada automáticamente.
+    // Cargue un documento desde la secuencia y luego guárdelo en la extensión de archivo detectada automáticamente.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

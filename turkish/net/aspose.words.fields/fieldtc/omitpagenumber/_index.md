@@ -2,15 +2,15 @@
 title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
-second_title: Aspose.Words for .NET
-description: FieldTC OmitPageNumber mülk. Bu alan için TOCdeki sayfa numarasının atlanıp atlanmayacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldTC OmitPageNumber özelliğini keşfedin; gelişmiş belge netliği ve profesyonelliği için İçindekiler sayfa numarası görünürlüğünü kontrol edin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldtc/omitpagenumber/
 ---
 ## FieldTC.OmitPageNumber property
 
-Bu alan için TOC'deki sayfa numarasının atlanıp atlanmayacağını alır veya ayarlar.
+Bu alan için İçindekiler'deki sayfa numarasının atlanıp atlanmayacağını alır veya ayarlar.
 
 ```csharp
 public bool OmitPageNumber { get; set; }
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## Örnekler
 
-TOC alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağını filtreleyeceğini gösterir.
+İçindekiler alanının nasıl ekleneceğini ve hangi TC alanlarının giriş olarak sonuçlanacağının nasıl filtreleneceğini gösterir.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Tüm TC alanlarını bir içindekiler tablosunda derleyecek bir TOC alanı ekleyin.
+    // İçindekiler tablosuna tüm TC alanlarını derleyecek bir İçindekiler alanı ekleyin.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Alanı yalnızca "A" tipindeki TC girişlerini ve 1 ile 3 arasındaki giriş seviyesini alacak şekilde yapılandırın.
+    // Alanı yalnızca "A" türündeki TC girişlerini ve 1 ile 3 arasındaki giriş düzeyini alacak şekilde yapılandırın.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,10 +42,10 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Bu girdi "A"dan farklı bir türe sahip olduğundan tablodan çıkarılacaktır.
+    // Bu girdi "A"dan farklı bir türe sahip olduğundan tablodan çıkarılacak.
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
-    // Bu giriş, 1-3 aralığının dışında bir giriş düzeyine sahip olduğundan tablodan çıkarılacaktır.
+    // Bu girdi, 1-3 aralığının dışında bir giriş seviyesine sahip olduğundan tablodan çıkarılacaktır.
     InsertTocEntry(builder, "TC field 4", "A", "5");
 
     doc.UpdateFields();

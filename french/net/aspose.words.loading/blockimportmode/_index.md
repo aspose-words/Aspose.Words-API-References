@@ -3,9 +3,9 @@ title: BlockImportMode Enum
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Loading.BlockImportMode énumération. Spécifie comment les propriétés des éléments de niveau bloc sont importées à partir de documents HTML en C#.
+description: Découvrez comment l'énumération Aspose.Words.BlockImportMode améliore l'intégration des documents HTML en optimisant les importations de propriétés d'éléments au niveau du bloc pour des flux de travail transparents.
 type: docs
-weight: 3560
+weight: 4010
 url: /fr/net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
@@ -21,11 +21,11 @@ public enum BlockImportMode
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Merge | `0` | Les propriétés des blocs parents sont fusionnées et stockées sur les éléments enfants (c'est-à-dire les paragraphes ou les tableaux). |
-| Preserve | `1` | Les propriétés des blocs parents sont importées dans une structure logique spéciale et sont stockées séparément des nœuds du document . |
+| Preserve | `1` | Les propriétés des blocs parents sont importées dans une structure logique spéciale et sont stockées séparément des nœuds de document. |
 
 ## Exemples
 
-Montre comment les propriétés des éléments de niveau bloc sont importées à partir de documents HTML.
+Montre comment les propriétés des éléments au niveau du bloc sont importées à partir de documents HTML.
 
 ```csharp
 const string html = @"
@@ -40,7 +40,7 @@ const string html = @"
 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-// Définit le nouveau mode d'importation des éléments HTML au niveau du bloc.
+// Définissez le nouveau mode d'importation des éléments HTML au niveau du bloc.
 loadOptions.BlockImportMode = blockImportMode;
 
 Document doc = new Document(stream, loadOptions);

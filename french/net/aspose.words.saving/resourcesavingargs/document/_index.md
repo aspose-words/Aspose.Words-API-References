@@ -3,7 +3,7 @@ title: ResourceSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words pour .NET
-description: ResourceSavingArgs Document propriété. Obtient lobjet document en cours denregistrement en C#.
+description: Découvrez la propriété Document ResourceSavingArgs pour accéder à l'objet de document en cours d'enregistrement, améliorant ainsi l'efficacité de votre flux de travail.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/resourcesavingargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Exemples
 
-Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document au format HTML.
+Montre comment utiliser un rappel pour suivre les ressources externes créées lors de la conversion d'un document en HTML.
 
 ```csharp
 public void ResourceSavingCallback()
@@ -40,7 +40,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page HTML ou SVG fixe.
+    /// Appelé lorsque Aspose.Words enregistre une ressource externe dans une page fixe HTML ou SVG.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

@@ -3,14 +3,14 @@ title: LayoutOptions.KeepOriginalFontMetrics
 linktitle: KeepOriginalFontMetrics
 articleTitle: KeepOriginalFontMetrics
 second_title: Aspose.Words für .NET
-description: LayoutOptions KeepOriginalFontMetrics eigendom. Ruft einen Hinweis ab ob die ursprünglichen Schriftartmetriken nach der Schriftartersetzung verwendet werden sollen oder legt diesen fest. Der Standardwert istWAHR  in C#.
+description: Entdecken Sie die Eigenschaft „LayoutOptions KeepOriginalFontMetrics“, um die Schriftmetriken während der Ersetzung für ein konsistentes Design zu steuern. Die Standardeinstellung ist „true“.
 type: docs
 weight: 60
 url: /de/net/aspose.words.layout/layoutoptions/keeporiginalfontmetrics/
 ---
 ## LayoutOptions.KeepOriginalFontMetrics property
 
-Ruft einen Hinweis ab, ob die ursprünglichen Schriftartmetriken nach der Schriftartersetzung verwendet werden sollen, oder legt diesen fest. Der Standardwert ist`WAHR` .
+Ruft einen Hinweis ab oder legt ihn fest, ob nach der Schriftartersetzung die ursprünglichen Schriftmetriken verwendet werden sollen. Der Standardwert ist`WAHR` .
 
 ```csharp
 public bool KeepOriginalFontMetrics { get; set; }
@@ -18,7 +18,7 @@ public bool KeepOriginalFontMetrics { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -26,7 +26,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -36,7 +36,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -55,7 +55,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

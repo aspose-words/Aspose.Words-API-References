@@ -3,14 +3,14 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words для .NET
-description: MailMergeSettings Query свойство. Содержит строку языка структурированных запросов которая должна быть запущена для указанного внешнего источника данных чтобы вернуть набор записей которые должны быть импортированы в документ при выполнении операции слияния почты. Значение по умолчанию  пустая строка на С#.
+description: Узнайте, как использовать свойство запроса MailMergeSettings для эффективного импорта записей из внешних источников данных для бесперебойных операций слияния почты.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-Содержит строку языка структурированных запросов, которая должна быть запущена для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния почты. Значение по умолчанию — пустая строка.
+Содержит строку языка структурированных запросов, которая должна быть запущена для указанного внешнего источника данных, чтобы вернуть набор записей, которые должны быть импортированы в документ при выполнении операции слияния почты. Значением по умолчанию является пустая строка.
 
 ```csharp
 public string Query { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

@@ -2,15 +2,15 @@
 title: Shading.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: Shading Equals 方法. 判断是否指定Shading与当前值相等Shading 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“阴影相等”方法，轻松比较阴影值，确保项目结果准确。立即简化您的编码！
 type: docs
 weight: 90
 url: /zh/net/aspose.words/shading/equals/
 ---
 ## Equals(*[Shading](../)*) {#equals}
 
-判断是否指定[`Shading`](../)与当前值相等[`Shading`](../).
+确定指定的[`Shading`](../)价值与当前[`Shading`](../).
 
 ```csharp
 public bool Equals(Shading rhs)

@@ -3,7 +3,7 @@ title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words pour .NET
-description: ViewOptions ViewType propriété. Contrôle le mode daffichage dans Microsoft Word en C#.
+description: Découvrez la propriété ViewOptions ViewType pour personnaliser facilement votre mode d'affichage Microsoft Word pour une productivité améliorée et une expérience d'édition sur mesure.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/viewoptions/viewtype/
@@ -18,7 +18,7 @@ public ViewType ViewType { get; set; }
 
 ## Remarques
 
-Bien qu'Aspose.Words soit capable de lire et d'écrire cette option, son utilisation est spécifique à l'application. Par exemple MS Word 2013 ne respecte pas la valeur de cette option.
+Bien qu'Aspose.Words soit capable de lire et d'écrire cette option, son utilisation est spécifique à l'application. Par exemple, MS Word 2013 ne respecte pas la valeur de cette option.
 
 ## Exemples
 

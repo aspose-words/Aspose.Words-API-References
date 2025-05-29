@@ -3,14 +3,14 @@ title: FindReplaceOptions.UseLegacyOrder
 linktitle: UseLegacyOrder
 articleTitle: UseLegacyOrder
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions UseLegacyOrder свойство. True указывает что текстовый поиск выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство UseLegacyOrder в FindReplaceOptions. Включите последовательный текстовый поиск для большей точности. Значение по умолчанию — false. Оптимизируйте обработку текста!
 type: docs
-weight: 170
+weight: 180
 url: /ru/net/aspose.words.replacing/findreplaceoptions/uselegacyorder/
 ---
 ## FindReplaceOptions.UseLegacyOrder property
 
-True указывает, что текстовый поиск выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчанию:`ЛОЖЬ` .
+True указывает, что поиск текста выполняется последовательно сверху вниз с учетом текстовых полей. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool UseLegacyOrder { get; set; }
@@ -18,7 +18,7 @@ public bool UseLegacyOrder { get; set; }
 
 ## Примеры
 
-Показывает, как изменить порядок поиска узлов при выполнении текстовой операции поиска и замены.
+Показывает, как изменить порядок поиска узлов при выполнении операции поиска и замены текста.
 
 ```csharp
 public void UseLegacyOrder(bool useLegacyOrder)
@@ -26,8 +26,8 @@ public void UseLegacyOrder(bool useLegacyOrder)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Вставляем три прогона, которые мы можем найти, используя шаблон регулярного выражения.
-    // Поместите один из этих запусков в текстовое поле.
+    // Вставляем три записи, которые можно искать с помощью шаблона регулярного выражения.
+    // Поместите один из этих фрагментов в текстовое поле.
     builder.Writeln("[tag 1]");
     Shape textBox = builder.InsertShape(ShapeType.TextBox, 100, 50);
     builder.Writeln("[tag 2]");
@@ -37,15 +37,15 @@ public void UseLegacyOrder(bool useLegacyOrder)
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Назначаем собственный обратный вызов свойству «ReplacingCallback».
+    // Назначаем пользовательский обратный вызов свойству "ReplacingCallback".
     TextReplacementTracker callback = new TextReplacementTracker();
     options.ReplacingCallback = callback;
 
-    // Если мы установим для свойства UseLegacyOrder значение «true»,
-    // операция поиска и замены пройдет через все прогоны за пределами текстового поля
-    // перед тем, как перейти к тем, что находятся внутри текстового поля.
-    // Если мы установим для свойства UseLegacyOrder значение «false»,
-    // Операция поиска и замены будет проходить по всем пробегам в диапазоне в последовательном порядке.
+    // Если мы установим свойство "UseLegacyOrder" в значение "true",
+    // операция поиска и замены будет проходить по всем фрагментам за пределами текстового поля
+    // прежде чем переходить к тем, что находятся внутри текстового поля.
+    // Если мы установим свойство "UseLegacyOrder" в значение "false",
+    // операция поиска и замены будет последовательно обрабатывать все фрагменты в диапазоне.
     options.UseLegacyOrder = useLegacyOrder;
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
@@ -56,7 +56,7 @@ public void UseLegacyOrder(bool useLegacyOrder)
 }
 
 /// <summary>
-/// Записывает порядок всех совпадений, возникающих во время операции поиска и замены.
+/// Записывает порядок всех совпадений, которые встречаются во время операции поиска и замены.
 /// </summary>
 private class TextReplacementTracker : IReplacingCallback
 {

@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreFieldCodes
 linktitle: IgnoreFieldCodes
 articleTitle: IgnoreFieldCodes
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions IgnoreFieldCodes eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldcodes ignoriert werden soll. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Eigenschaft „FindReplaceOptions IgnoreFieldCodes“, um Text in Feldcodes einfach zu verwalten. Steuern Sie die Sichtbarkeit mit einer einfachen booleschen Einstellung!
 type: docs
 weight: 70
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignorefieldcodes/
@@ -18,7 +18,7 @@ public bool IgnoreFieldCodes { get; set; }
 
 ## Bemerkungen
 
-Diese Option betrifft nur Feldcodes (Knoten zwischen werden nicht ignoriert)FieldSeparator UndFieldEnd).
+Diese Option betrifft nur Feldcodes (sie ignoriert keine Knoten zwischen FieldSeparator UndFieldEnd).
 
 Um das gesamte Feld zu ignorieren, verwenden Sie bitte die entsprechende Option[`IgnoreFields`](../ignorefields/).
 
@@ -34,7 +34,7 @@ builder.InsertField("INCLUDETEXT", "Test IT!");
 
 FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFieldCodes};
 
-// Ersetzen Sie „T“ im Dokument und ignorieren Sie dabei den Text im Feldcode oder nicht.
+// Ersetzen Sie „T“ im Dokument und ignorieren Sie dabei den Text im Feldcode.
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 

@@ -3,14 +3,14 @@ title: Body.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: Body Accept طريقة. يقبل الزائر في C#.
+description: اكتشف أسلوب Body Accept لتفاعل سلس مع الزوار. حسّن تجربة المستخدم وعزز معدلات التحويل من خلال نهجنا الفريد!
 type: docs
 weight: 40
 url: /ar/net/aspose.words/body/accept/
 ---
 ## Body.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,183 +18,95 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitBodyStart`](../../documentvisitor/visitbodystart/) ، ثم يتصل[`Accept`](../../node/accept/) لجميع العقد التابعة للقسم والمكالمات[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) في النهاية.
+مكالمات [`VisitBodyStart`](../../documentvisitor/visitbodystart/) ، ثم يدعو[`Accept`](../../node/accept/) لجميع العقد الفرعية لقسم والمكالمات[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) في النهاية.
 
 ## أمثلة
 
-يوضح كيفية استخدام زائر المستند لطباعة بنية عقدة المستند.
+يوضح كيفية معالجة أحرف علامة التبويب الخاصة بالموضع المطلق باستخدام زائر المستند.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // عندما نحصل على عقدة مركبة لقبول زائر المستند، يقوم الزائر بزيارة العقدة المقبولة،
-    // ثم يجتاز جميع أبناء العقدة بطريقة العمق الأول.
-    // يمكن للزائر قراءة وتعديل كل عقدة تمت زيارتها.
-    doc.Accept(visitor);
+    // استخراج محتويات النص من مستندنا عن طريق قبول زائر المستند المخصص هذا.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // قم بزيارة بداية نص المستند فقط.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // قم بزيارة نهاية نص المستند فقط.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // تم تحويل الموضع المطلق لعلامة التبويب، والتي ليس لها معادل في شكل سلسلة، صراحةً إلى حرف علامة تبويب.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // يمكن لـ AbsolutePositionTab قبول DocumentVisitor أيضًا.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// يجتاز شجرة العقدة من العقد الفرعية.
-/// ينشئ خريطة لهذه الشجرة على شكل سلسلة.
+/// يجمع محتوى النص لجميع عمليات التشغيل في المستند الذي تمت زيارته. يستبدل جميع علامات التبويب المطلقة بعلامات تبويب عادية.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة مستند.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // السماح للزائر بمواصلة زيارة العقد الأخرى.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة المستند.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة القسم في المستند.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // احصل على فهرس قسمنا داخل المستند.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة القسم.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة النص في المستند.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة للعقدة الأساسية.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة فقرة في المستند.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به بعد زيارة جميع العقد التابعة لعقدة الفقرة.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة مستند فرعي في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة AbsolutePositionTab في المستند.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// يُضيف نصًا إلى المخرجات الحالية. يُراعي علامة المخرجات المُفعّلة/المعطّلة.
     /// </summary>
-    /// <param name="text"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// نص عادي للمستند الذي جمعه الزائر.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

@@ -2,8 +2,8 @@
 title: ChartYValue.ValueType
 linktitle: ValueType
 articleTitle: ValueType
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue ValueType 财产. 获取对象中存储的 Y 值的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValue ValueType 属性以轻松访问数据对象中的 Y 值类型，增强数据可视化体验。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/valuetype/

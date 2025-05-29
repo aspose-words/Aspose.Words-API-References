@@ -3,14 +3,14 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words för .NET
-description: ListCollection GetListByListId metod. Hämtar en lista med en listidentifierare i C#.
+description: Hämta din önskade lista enkelt med GetListByListId-metoden. Få snabb åtkomst till data med hjälp av en enkel listidentifierare för ökad effektivitet.
 type: docs
-weight: 70
+weight: 80
 url: /sv/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
 
-Hämtar en lista med en listidentifierare.
+Hämtar en lista med hjälp av en listidentifierare.
 
 ```csharp
 public List GetListByListId(int listId)
@@ -22,15 +22,15 @@ public List GetListByListId(int listId)
 
 ### Returvärde
 
-Returnerar listobjektet. Returnerar`null` om en lista med den angivna identifieraren inte hittades.
+Returnerar listobjektet.`null` om en lista med den angivna identifieraren inte hittades.
 
 ## Anmärkningar
 
-Du behöver normalt inte använda den här metoden. För det mesta tillämpar du listformatting på stycken bara genom att ställa in[`List`](../../listformat/list/) egenskap av[`ListFormat`](../../listformat/) objekt.
+Normalt sett behöver du inte använda den här metoden. För det mesta tillämpar du listformatering på stycken bara genom att ställa in[`List`](../../listformat/list/) property av[`ListFormat`](../../listformat/) objekt.
 
 ## Exempel
 
-Visar hur man verifierar ägardokumentegenskaper för listor.
+Visar hur man verifierar egenskaper för ägardokument för listor.
 
 ```csharp
 Document doc = new Document();

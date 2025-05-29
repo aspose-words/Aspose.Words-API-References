@@ -3,14 +3,14 @@ title: DigitalSignatureCollection Class
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureCollection klass. Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument i C#.
+description: Upptäck Aspose.Words DigitalSignatureCollection-klassen, som erbjuder enkel åtkomst till en skrivskyddad samling digitala signaturer för säker dokumenthantering.
 type: docs
-weight: 390
+weight: 590
 url: /sv/net/aspose.words.digitalsignatures/digitalsignaturecollection/
 ---
 ## DigitalSignatureCollection class
 
-Ger en skrivskyddad samling av digitala signaturer bifogade till ett dokument.
+Tillhandahåller en skrivskyddad samling av digitala signaturer som är bifogade till ett dokument.
 
 För att lära dig mer, besök[Arbeta med digitala signaturer](https://docs.aspose.com/words/net/working-with-digital-signatures/) dokumentationsartikel.
 
@@ -29,14 +29,14 @@ public class DigitalSignatureCollection : IEnumerable<DigitalSignature>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.digitalsignatures/digitalsignaturecollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Returnerar`Sann` om alla digitala signaturer i denna samling är giltiga och dokumentet inte har manipulerats returneras också`Sann` om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig. |
-| [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Får en dokumentsignatur vid det angivna indexet. |
+| [IsValid](../../aspose.words.digitalsignatures/digitalsignaturecollection/isvalid/) { get; } | Returer`sann`om alla digitala signaturer i den här samlingen är giltiga och dokumentet inte har manipulerats Returnerar även`sann` om det inte finns några digitala signaturer. Returnerar`falsk` om minst en digital signatur är ogiltig. |
+| [Item](../../aspose.words.digitalsignatures/digitalsignaturecollection/item/) { get; } | Hämtar en dokumentsignatur vid det angivna indexet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Returnerar ett ordboksuppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [GetEnumerator](../../aspose.words.digitalsignatures/digitalsignaturecollection/getenumerator/)() | Returnerar ett ordboksuppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 
 ## Anmärkningar
 
@@ -52,7 +52,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -64,20 +64,21 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 Visar hur man signerar dokument med X.509-certifikat.
 
 ```csharp
-// Kontrollera att ett dokument inte är signerat.
+// Verifiera att ett dokument inte är signerat.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
 // Skapa ett CertificateHolder-objekt från en PKCS12-fil, som vi kommer att använda för att signera dokumentet.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Det finns två sätt att spara en signerad kopia av ett dokument till det lokala filsystemet:
+// Det finns två sätt att spara en signerad kopia av ett dokument i det lokala filsystemet:
 // 1 - Ange ett dokument med ett lokalt systemfilnamn och spara en signerad kopia på en plats som anges med ett annat filnamn.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - Ta ett dokument från en stream och spara en signerad kopia till en annan stream.
+// 2 - Ta ett dokument från en ström och spara en signerad kopia till en annan ström.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

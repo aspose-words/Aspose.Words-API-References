@@ -3,9 +3,9 @@ title: FieldNextIf Class
 linktitle: FieldNextIf
 articleTitle: FieldNextIf
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldNextIf فصل. ينفذ الحقل NEXTIF في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldNextIf—قم بتنفيذ حقول NEXTIF بكفاءة لتحسين أتمتة المستندات وتبسيط سير العمل لديك.
 type: docs
-weight: 2190
+weight: 2600
 url: /ar/net/aspose.words.fields/fieldnextif/
 ---
 ## FieldNextIf class
@@ -28,38 +28,38 @@ public class FieldNextIf : Field
 
 | اسم | وصف |
 | --- | --- |
-| [ComparisonOperator](../../aspose.words.fields/fieldnextif/comparisonoperator/) { get; set; } | الحصول على عامل المقارنة أو تعيينه. |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [ComparisonOperator](../../aspose.words.fields/fieldnextif/comparisonoperator/) { get; set; } | يحصل على عامل المقارنة أو يعينه. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression/) { get; set; } | الحصول على أو تعيين الجزء الأيسر من تعبير المقارنة. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression/) { get; set; } | الحصول على أو تعيين الجزء الأيمن من تعبير المقارنة. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LeftExpression](../../aspose.words.fields/fieldnextif/leftexpression/) { get; set; } | يحصل على الجزء الأيسر من تعبير المقارنة أو يعينه. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [RightExpression](../../aspose.words.fields/fieldnextif/rightexpression/) { get; set; } | يحصل على الجزء الصحيح من تعبير المقارنة أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-يقارن القيم المعينة بالتعبيرات[`LeftExpression`](./leftexpression/) و[`RightExpression`](./rightexpression/) بالمقارنة باستخدام عامل التشغيل المعين بواسطة[`ComparisonOperator`](./comparisonoperator/) . إذا كانت المقارنة صحيحة، فسيتم دمج سجل البيانات التالي في مستند الدمج الحالي. (يتم استبدال حقول الدمج التي تتبع NEXTIF في المستند main بقيم من سجل البيانات التالي بدلاً من سجل البيانات الحالي.) إذا كانت المقارنة خاطئة، فسيتم دمج سجل البيانات التالي في مستند دمج جديد.
+يقارن القيم المحددة بواسطة التعبيرات[`LeftExpression`](./leftexpression/) و[`RightExpression`](./rightexpression/) بالمقارنة باستخدام المشغل المعين بواسطة[`ComparisonOperator`](./comparisonoperator/) إذا كانت المقارنة صحيحة، فسيتم دمج سجل البيانات التالي في مستند الدمج الحالي. (يتم استبدال حقول الدمج التي تلي NEXTIF في مستند main بقيم من سجل البيانات التالي بدلاً من سجل البيانات الحالي.) إذا كانت المقارنة خاطئة، فسيتم دمج سجل البيانات التالي في مستند دمج جديد.
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول NEXT/NEXTIF لدمج صفوف متعددة في صفحة واحدة أثناء عملية دمج البريد.
+يوضح كيفية استخدام حقول NEXT/NEXTIF لدمج صفوف متعددة في صفحة واحدة أثناء دمج البريد.
 
 ```csharp
 public void FieldNext()
@@ -67,8 +67,8 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أنشئ مصدر بيانات لدمج البريد لدينا بثلاثة صفوف.
-    // عادةً ما يؤدي دمج البريد الذي يستخدم هذا الجدول إلى إنشاء مستند من 3 صفحات.
+    // قم بإنشاء مصدر بيانات لدمج البريد الخاص بنا مع 3 صفوف.
+    // سيؤدي دمج البريد الذي يستخدم هذا الجدول عادةً إلى إنشاء مستند مكون من 3 صفحات.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
     table.Columns.Add("First Name");
@@ -80,20 +80,20 @@ public void FieldNext()
     InsertMergeFields(builder, "First row: ");
 
     // إذا كان لدينا حقول دمج متعددة بنفس اسم الحقل،
-    // سوف يتلقون البيانات من نفس الصف من مصدر البيانات ويعرضون نفس القيمة بعد الدمج.
-    // يخبر الحقل التالي دمج المراسلات على الفور بالتحرك لأسفل صفًا واحدًا،
-    // مما يعني أن أي MERGEFIELDs تتبع الحقل التالي ستتلقى بيانات من الصف التالي.
-    // تأكد من عدم محاولة الانتقال إلى الصف التالي مطلقًا أثناء وجودك في الصف الأخير.
+    // سوف يتلقون البيانات من نفس الصف الخاص بمصدر البيانات ويعرضون نفس القيمة بعد الدمج.
+    // يخبر الحقل التالي دمج البريد بالانتقال لأسفل صفًا واحدًا على الفور،
+    // وهذا يعني أن أي MERGEFIELDs التي تأتي بعد الحقل NEXT ستستقبل البيانات من الصف التالي.
+    // تأكد من عدم محاولة الانتقال إلى الصف التالي أبدًا أثناء وجودك بالفعل في الصف الأخير.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
-    // بعد الدمج، قيم مصدر البيانات التي تقبلها وحدات MERGEFIELD هذه
-     // سينتهي في نفس الصفحة مثل MERGEFIELDs أعلاه.
+    // بعد الدمج، قيم مصدر البيانات التي تقبلها حقول الدمج هذه
+     // سوف ينتهي الأمر في نفس الصفحة مثل MERGEFIELDs أعلاه.
     InsertMergeFields(builder, "Second row: ");
 
-    // الحقل NEXTIF له نفس وظيفة الحقل التالي،
-    // ولكنه ينتقل إلى الصف التالي فقط إذا كانت العبارة التي تم إنشاؤها بواسطة الخصائص الثلاث التالية صحيحة.
+    // حقل NEXTIF له نفس وظيفة حقل NEXT،
+    // لكنه ينتقل إلى الصف التالي فقط إذا كانت العبارة التي تم إنشاؤها بواسطة الخصائص الثلاث التالية صحيحة.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -101,20 +101,20 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // إذا كانت المقارنة التي يؤكدها الحقل أعلاه صحيحة،
+    // إذا كانت المقارنة التي تم تأكيدها بواسطة الحقل أعلاه صحيحة،
     // ستأخذ حقول الدمج الثلاثة التالية البيانات من الصف الثالث.
-    // بخلاف ذلك، ستأخذ هذه الحقول البيانات من الصف 2 مرة أخرى.
+    // وإلا، فسوف تأخذ هذه الحقول البيانات من الصف الثاني مرة أخرى.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // يحتوي مصدر البيانات لدينا على 3 صفوف، وقمنا بتخطي الصفوف مرتين.
-    // سيحتوي مستند الإخراج الخاص بنا على صفحة واحدة تحتوي على بيانات من جميع الصفوف الثلاثة.
+     //يحتوي مصدر البيانات لدينا على 3 صفوف، وقد تخطينا الصفوف مرتين.
+    // ستحتوي مستندنا الناتج على صفحة واحدة تحتوي على بيانات من جميع الصفوف الثلاثة.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
 /// <summary>
-/// يستخدم منشئ المستندات لإدراج MERGEFIELDs لمصدر بيانات يحتوي على أعمدة تسمى "عنوان الخدمة" و"الاسم الأول" و"اسم العائلة".
+/// يستخدم منشئ المستندات لإدراج MERGEFIELDs لمصدر البيانات الذي يحتوي على أعمدة تسمى "اللقب المجاملة" و"الاسم الأول" و"الاسم الأخير".
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -125,7 +125,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// يستخدم منشئ المستندات لإدراج MERRGEFIELD بخصائص محددة.
+/// يستخدم منشئ المستندات لإدراج MERRGEFIELD بالخصائص المحددة.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

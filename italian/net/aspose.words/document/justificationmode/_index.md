@@ -3,9 +3,9 @@ title: Document.JustificationMode
 linktitle: JustificationMode
 articleTitle: JustificationMode
 second_title: Aspose.Words per .NET
-description: Document JustificationMode proprietà. Ottiene o imposta la regolazione della spaziatura dei caratteri di un documento in C#.
+description: Scopri come ottimizzare la spaziatura dei caratteri del tuo documento con la proprietà JustificationMode. Migliora la leggibilità e la presentazione senza sforzo!
 type: docs
-weight: 230
+weight: 240
 url: /it/net/aspose.words/document/justificationmode/
 ---
 ## Document.JustificationMode property
@@ -24,7 +24,7 @@ Mostra come gestire il controllo della spaziatura dei caratteri.
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

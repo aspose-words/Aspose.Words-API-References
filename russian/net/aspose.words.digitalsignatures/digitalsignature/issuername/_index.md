@@ -3,14 +3,14 @@ title: DigitalSignature.IssuerName
 linktitle: IssuerName
 articleTitle: IssuerName
 second_title: Aspose.Words для .NET
-description: DigitalSignature IssuerName свойство. Возвращает различающееся имя субъекта сертификата isuuer на С#.
+description: Откройте для себя свойство DigitalSignature IssuerName, предоставляющее отличительное имя эмитента для повышения безопасности и доверия к вашим цифровым сертификатам.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.digitalsignatures/digitalsignature/issuername/
 ---
 ## DigitalSignature.IssuerName property
 
-Возвращает различающееся имя субъекта сертификата isuuer.
+Возвращает отличительное имя субъекта сертификата isuuer.
 
 ```csharp
 public string IssuerName { get; }
@@ -21,20 +21,21 @@ public string IssuerName { get; }
 Показывает, как подписывать документы с помощью сертификатов X.509.
 
 ```csharp
-// Проверяем, что документ не подписан.
+// Убедитесь, что документ не подписан.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Создайте объект CertificateHolder из файла PKCS12, который мы будем использовать для подписи документа.
+// Создаем объект CertificateHolder из файла PKCS12, который будем использовать для подписи документа.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// Существует два способа сохранить подписанную копию документа в локальной файловой системе:
-// 1 — обозначить документ по локальному системному имени файла и сохранить подписанную копию в месте, указанном другим именем файла.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// Существует два способа сохранения подписанной копии документа в локальной файловой системе:
+// 1 — Обозначить документ именем файла локальной системы и сохранить подписанную копию в месте, указанном другим именем файла.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 — Взять документ из потока и сохранить подписанную копию в другой поток.
+// 2 - Взять документ из потока и сохранить подписанную копию в другом потоке.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))

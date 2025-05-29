@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportPageMargins propiedad. Especifica si los márgenes de la página se exportan a HTML MHTML o EPUB. El valor predeterminado esFALSO  en C#.
+description: Descubra cómo la propiedad HtmlSaveOptions ExportPageMargins mejora sus exportaciones HTML, MHTML y EPUB al controlar los márgenes de página para una presentación impecable.
 type: docs
 weight: 210
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
@@ -18,7 +18,7 @@ public bool ExportPageMargins { get; set; }
 
 ## Observaciones
 
-Aspose.Words no muestra el área de los márgenes de la página de forma predeterminada. Si algún elemento está total o parcialmente recortado por el borde del documento, el área mostrada se puede ampliar con esta opción.
+Aspose.Words no muestra el área de los márgenes de la página de manera predeterminada. Si algún elemento está total o parcialmente recortado por el borde del documento, el área mostrada se puede ampliar con esta opción.
 
 ## Ejemplos
 
@@ -28,7 +28,7 @@ Muestra cómo mostrar objetos fuera de límites en documentos HTML de salida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Usa un constructor para insertar una forma sin envoltura.
+// Utilice un constructor para insertar una forma sin ajuste.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
@@ -40,10 +40,10 @@ shape.WrapType = WrapType.None;
 shape.Left = -150;
 
 // Al guardar el documento en HTML, podemos pasar un objeto SaveOptions
-// para decidir si ajustar la página para mostrar completamente los objetos fuera de límites.
-// Si configuramos el indicador "ExportPageMargins" en "true", la forma será completamente visible en el HTML de salida.
-// Si configuramos el indicador "ExportPageMargins" en "falso",
-// nuestro documento mostrará la forma truncada como la veríamos en Microsoft Word.
+// para decidir si se debe ajustar la página para mostrar completamente los objetos fuera de los límites.
+// Si establecemos el indicador "ExportPageMargins" en "verdadero", la forma será completamente visible en el HTML de salida.
+// Si establecemos el indicador "ExportPageMargins" en "falso",
+//Nuestro documento mostrará la forma truncada como la veríamos en Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportPageMargins.html", options);

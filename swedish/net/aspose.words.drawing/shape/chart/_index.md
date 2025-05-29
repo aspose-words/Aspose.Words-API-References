@@ -3,14 +3,14 @@ title: Shape.Chart
 linktitle: Chart
 articleTitle: Chart
 second_title: Aspose.Words för .NET
-description: Shape Chart fast egendom. Ger tillgång till diagramegenskaperna om denna form har enChart  i C#.
+description: Lås upp diagramegenskaper med Formdiagram. Förbättra din visuella datapresentation utan ansträngning och maximera dina insikter idag!
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.drawing/shape/chart/
 ---
 ## Shape.Chart property
 
-Ger tillgång till diagramegenskaperna om denna form har en[`Chart`](../../../aspose.words.drawing.charts/chart/) .
+Ger åtkomst till diagrammets egenskaper om den här formen har en[`Chart`](../../../aspose.words.drawing.charts/chart/) .
 
 ```csharp
 public Chart Chart { get; }
@@ -18,7 +18,7 @@ public Chart Chart { get; }
 
 ## Anmärkningar
 
-Denna egenskap kommer att returnera[`Chart`](../../../aspose.words.drawing.charts/chart/) invända endast om[`HasChart`](../haschart/) egenskapen är`Sann` för detta[`Shape`](../)och kommer att göra ett undantag annars.
+Den här egenskapen kommer att returnera[`Chart`](../../../aspose.words.drawing.charts/chart/) invända endast om[`HasChart`](../haschart/) egenskapen är`sann` för detta[`Shape`](../), och kommer att kasta ett undantag annars.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Loggar utseenderelaterad information om besökta former.
+/// Loggar information om utseende och besökta former.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägger till en rad i StringBuilder med ett förekommande tabbtecken för varje indragsnivå.
+    /// Lägger till en rad i StringBuilder med ett tabbtecken före varje indragsnivå.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -57,7 +57,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Returnera all text som StringBuilder har samlat på sig.
+    /// Returnerar all text som StringBuilder har ackumulerat.
     /// </summary>
     public string GetText()
     {
@@ -85,7 +85,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -101,7 +100,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när den här besökaren besöker slutet av en Shape-nod.
+    /// Anropas när denna besökare besöker slutet av en Shape-nod.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {

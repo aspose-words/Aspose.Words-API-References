@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: Forms2OleControlCollection Count fast egendom. Får antalet objekt i samlingen i C#.
+description: Upptäck egenskapen Forms2OleControlCollection Count för att enkelt hämta det totala antalet objekt i din samling för förbättrad datahantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
 ## Forms2OleControlCollection.Count property
 
-Får antalet objekt i samlingen.
+Hämtar antal objekt i samlingen.
 
 ```csharp
 public int Count { get; }
@@ -18,19 +18,19 @@ public int Count { get; }
 
 ## Exempel
 
-Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
+Visar hur man kommer åt en OLE-kontroll som är inbäddad i ett dokument och dess underkontroller.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Former lagrar och visar OLE-objekt i dokumentets kropp.
+// Former lagrar och visar OLE-objekt i dokumentets brödtext.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Vissa OLE-kontroller kan innehålla underordnade kontroller, till exempel den i detta dokument med tre alternativknappar.
+// Vissa OLE-kontroller kan innehålla underkontroller, till exempel den i det här dokumentet med tre alternativknappar.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

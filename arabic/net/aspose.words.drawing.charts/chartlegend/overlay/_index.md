@@ -3,14 +3,14 @@ title: ChartLegend.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words لـ .NET
-description: ChartLegend Overlay ملكية. يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: تداخل عناصر مخطط التحكم مع خاصية تراكب أسطورة الرسم البياني. حسّن تصوّر بياناتك بإعدادات أسطورة قابلة للتخصيص للحصول على رؤى أوضح.
 type: docs
-weight: 20
+weight: 40
 url: /ar/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-يحدد ما إذا كان سيتم السماح لعناصر المخطط الأخرى بتداخل وسيلة الإيضاح أم لا. القيمة الافتراضية هي`خطأ شنيع` .
+يحدد ما إذا كان سيتم السماح لعناصر الرسم البياني الأخرى بالتداخل مع الأسطورة. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -18,7 +18,7 @@ public bool Overlay { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تحرير مظهر وسيلة إيضاح المخطط.
+يوضح كيفية تحرير مظهر أسطورة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// انقل وسيلة إيضاح المخطط إلى الزاوية اليمنى العليا.
+// نقل أسطورة الرسم البياني إلى الزاوية اليمنى العليا.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// امنح عناصر المخطط الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بتداخل وسيلة الإيضاح.
+// امنح عناصر الرسم البياني الأخرى، مثل الرسم البياني، مساحة أكبر من خلال السماح لها بالتداخل مع الأسطورة.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

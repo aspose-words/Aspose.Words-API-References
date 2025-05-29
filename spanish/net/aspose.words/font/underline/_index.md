@@ -3,9 +3,9 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words para .NET
-description: Font Underline propiedad. Obtiene o establece el tipo de subrayado aplicado a la fuente en C#.
+description: Descubre la propiedad Subrayado de fuente para personalizar los estilos de texto. Configura y modifica fácilmente los tipos de subrayado para mejorar la tipografía de tus diseños.
 type: docs
-weight: 530
+weight: 540
 url: /es/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
@@ -32,7 +32,7 @@ builder.Writeln("Underlined text.");
 doc.Save(ArtifactsDir + "Font.Underlines.docx");
 ```
 
-Muestra cómo insertar texto formateado usando DocumentBuilder.
+Muestra cómo insertar texto formateado utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Inserta un hipervínculo y enfatízalo con un formato personalizado.
+// Inserta un hipervínculo y enfatízalo con formato personalizado.
 // El hipervínculo será un fragmento de texto en el que se puede hacer clic y que nos llevará a la ubicación especificada en la URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;

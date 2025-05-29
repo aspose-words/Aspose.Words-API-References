@@ -3,7 +3,7 @@ title: Style.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words para .NET
-description: Style ListFormat propiedad. Proporciona acceso a las propiedades de formato de lista de un estilo de párrafo en C#.
+description: Descubra cómo personalizar la propiedad ListFormat para estilos de párrafo, mejorando la organización y el atractivo visual de su documento.
 type: docs
 weight: 110
 url: /es/net/aspose.words/style/listformat/
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## Observaciones
 
-Esta propiedad sólo es válida para estilos de párrafo. Para otros tipos de estilo, esta propiedad devuelve`nulo`.
+Esta propiedad solo es válida para estilos de párrafo. Para otros tipos de estilos, esta propiedad devuelve`nulo`.
 
 ## Ejemplos
 
@@ -34,15 +34,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// Crea una lista y asegúrate de que los párrafos que usan este estilo usarán esta lista.
+// Cree una lista y asegúrese de que los párrafos que usan este estilo usarán esta lista.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Aplique el estilo de párrafo al párrafo actual del creador de documentos y luego agregue algo de texto.
+// Aplique el estilo de párrafo al párrafo actual del generador de documentos y luego agregue algo de texto.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Cambie el estilo del creador de documentos a uno que no tenga formato de lista y escriba otro párrafo.
+// Cambie el estilo del generador de documentos a uno que no tenga formato de lista y escriba otro párrafo.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

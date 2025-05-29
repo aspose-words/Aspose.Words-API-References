@@ -3,14 +3,14 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words für .NET
-description: TabStopCollection GetPositionByIndex methode. Ruft die Position in Punkt des Tabstopps am angegebenen Index ab in C#.
+description: Entdecken Sie die TabStopCollection GetPositionByIndex-Methode, um Tabstopppositionen einfach in Punkten nach Index zu finden. Optimieren Sie Ihr Layout mühelos!
 type: docs
 weight: 100
 url: /de/net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
 ## TabStopCollection.GetPositionByIndex method
 
-Ruft die Position (in Punkt) des Tabstopps am angegebenen Index ab.
+Ruft die Position (in Punkten) des Tabulatorstopps am angegebenen Index ab.
 
 ```csharp
 public double GetPositionByIndex(int index)
@@ -26,7 +26,7 @@ Die Position des Tabstopps.
 
 ## Beispiele
 
-Zeigt, wie man eine Registerkarte findet, ihren Index ansieht und ihre Position überprüft.
+Zeigt, wie Sie eine Registerkarte finden, an ihrem Index anhalten und ihre Position überprüfen.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
-// Überprüfen Sie die Position des zweiten Tabstopps in der Sammlung.
+// Überprüfen Sie die Position des zweiten Tabulatorstopps in der Sammlung.
 Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
 ```
 

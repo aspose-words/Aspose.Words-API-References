@@ -2,8 +2,8 @@
 title: MemoryFontSource.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: MemoryFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarım hassasiyetinizi ve yaratıcılığınızı geliştirerek yazı tipi kaynak türünüzü ortaya çıkaran MemoryFontSource Type özelliğini keşfedin. Yazı tipi potansiyelinizi açığa çıkarın!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/memoryfontsource/type/
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## Örnekler
 
-Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
+Bir font dosyasındaki verilerle bir bayt dizisinin font kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

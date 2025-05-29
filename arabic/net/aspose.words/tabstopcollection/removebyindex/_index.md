@@ -3,14 +3,14 @@ title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection RemoveByIndex طريقة. إزالة علامة الجدولة عند الفهرس المحدد من المجموعة في C#.
+description: أدر علامات التبويب بسهولة باستخدام طريقة RemoveByIndex. أزل أي علامة تبويب من مجموعتك بسرعة لتصميم مبسط.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method
 
-إزالة علامة الجدولة عند الفهرس المحدد من المجموعة.
+يزيل علامة التبويب عند الفهرس المحدد من المجموعة.
 
 ```csharp
 public void RemoveByIndex(int index)
@@ -18,11 +18,11 @@ public void RemoveByIndex(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | فهرس في مجموعة علامات الجدولة. |
+| index | Int32 | فهرس لمجموعة علامات التبويب. |
 
 ## أمثلة
 
-يوضح كيفية تحديد علامة جدولة في مستند بواسطة فهرسه وإزالته.
+يوضح كيفية تحديد علامة تبويب في مستند حسب فهرسها وإزالتها.
 
 ```csharp
 Document doc = new Document();

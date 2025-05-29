@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection klas. Eine typisierte Sammlung derOdsoFieldMapData Objekte in C#.
+description: Entdecken Sie die Aspose.Words OdsoFieldMapDataCollection-Klasse, eine leistungsstarke typisierte Sammlung für die effiziente Verwaltung von OdsoFieldMapData-Objekten.
 type: docs
-weight: 5910
+weight: 6740
 url: /de/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 Eine typisierte Sammlung der[`OdsoFieldMapData`](../odsofieldmapdata/) Objekte.
 
-Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Serienbriefe und Berichte](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -35,20 +35,20 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Fügt ein Objekt am Ende dieser Sammlung hinzu. |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Fügt am Ende dieser Sammlung ein Objekt hinzu. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Entfernt alle Elemente aus dieser Sammlung. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Gibt ein Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Entfernt das Element am angegebenen Index. |
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Seriendruckfeldern zuordnet.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle zuordnet
-// zu den vordefinierten Feldern MERGEFIELD, ADDRESSBLOCK und GREETINGLINE.
+// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle abbildet
+// zu vordefinierten MERGEFIELD-, ADDRESSBLOCK- und GREETINGLINE-Feldern.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -69,7 +69,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klonen Sie die Elemente in dieser Sammlung.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Die Elemente der Methode „RemoveAt“ einzeln nach Index verwenden.
+// Verwenden Sie die Elemente der Methode „RemoveAt“ einzeln nach Index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

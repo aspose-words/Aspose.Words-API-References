@@ -3,7 +3,7 @@ title: PageSetup.TextColumns
 linktitle: TextColumns
 articleTitle: TextColumns
 second_title: Aspose.Words pour .NET
-description: PageSetup TextColumns propriété. Renvoie une collection qui représente lensemble des colonnes de texte en C#.
+description: Découvrez la propriété PageSetup TextColumns, accédez à une collection polyvalente de colonnes de texte pour améliorer la mise en page et le formatage de votre document sans effort.
 type: docs
 weight: 420
 url: /fr/net/aspose.words/pagesetup/textcolumns/

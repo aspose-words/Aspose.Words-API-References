@@ -2,15 +2,15 @@
 title: AsposeWordsPrintDocument.ColorPagesPrinted
 linktitle: ColorPagesPrinted
 articleTitle: ColorPagesPrinted
-second_title: 用于 .NET 的 Aspose.Words
-description: AsposeWordsPrintDocument ColorPagesPrinted 财产. 获取彩色打印的页数即带有Color设置为 true 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words PrintDocument ColorPagesPrinted 属性，高效追踪已打印的彩色页数。最大化您的打印洞察！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/asposewordsprintdocument/colorpagesprinted/
 ---
 ## AsposeWordsPrintDocument.ColorPagesPrinted property
 
-获取彩色打印的页数（即带有Color设置为 true).
+获取彩色打印的页数（即Color设置为 true)。
 
 ```csharp
 public int ColorPagesPrinted { get; }
@@ -18,14 +18,14 @@ public int ColorPagesPrinted { get; }
 
 ## 例子
 
-演示如何选择页面范围和用于打印文档的打印机，然后显示打印预览。
+显示如何选择页面范围和打印机来打印文档，然后调出打印预览。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
 PrintPreviewDialog previewDlg = new PrintPreviewDialog();
 
-// 调用“Show”方法使打印预览表单显示在顶部。
+// 调用“Show”方法让打印预览表单显示在顶部。
 previewDlg.Show();
 
 // 使用文档中的页数初始化打印对话框。
@@ -39,7 +39,7 @@ printDlg.PrinterSettings.ToPage = doc.PageCount;
 if (printDlg.ShowDialog() != DialogResult.OK)
     return;
 
-// 创建 .NET 打印文档的“Aspose.Words”实现，
+// 创建.NET打印文档的“Aspose.Words”实现，
 // 然后从对话框中传递打印机设置。
 AsposeWordsPrintDocument awPrintDoc = new AsposeWordsPrintDocument(doc);
 awPrintDoc.PrinterSettings = printDlg.PrinterSettings;
@@ -58,7 +58,7 @@ previewDlg.PrintPreviewControl.InvalidatePreview();
 previewDlg.Document = awPrintDoc;
 previewDlg.ShowDialog();
 
-awPrintDoc.Print();            
+awPrintDoc.Print();
 Console.WriteLine($"The numer of pages printed in color are {awPrintDoc.ColorPagesPrinted}.");
 ```
 

@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words для .NET
-description: NodeRendererBase RenderToSize метод. Преобразует фигуру вGraphics объект указанного размера на С#.
+description: Откройте для себя метод NodeRendererBase RenderToSize для эффективного рендеринга фигур в графические объекты нужного размера для улучшенного визуального вывода.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Преобразует фигуру вGraphics объект указанного размера.
+Отображает форму вGraphics объект указанного размера.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -18,19 +18,19 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| graphics | Graphics | Объект, в который выполняется рендеринг. |
-| x | Single | Координата X (в мировых единицах измерения) верхнего левого угла визуализированной фигуры. |
-| y | Single | Координата Y (в мировых единицах измерения) верхнего левого угла визуализированной фигуры. |
-| width | Single | Максимальная ширина (в мировых единицах), которую может занимать отображаемая фигура. |
-| height | Single | Максимальная высота (в мировых единицах), которую может занимать отображаемая фигура. |
+| graphics | Graphics | Объект, куда будет осуществляться рендеринг. |
+| x | Single | Координата X (в мировых единицах) верхнего левого угла визуализированной фигуры. |
+| y | Single | Координата Y (в мировых единицах) верхнего левого угла визуализированной фигуры. |
+| width | Single | Максимальная ширина (в мировых единицах), которую может занимать визуализируемая фигура. |
+| height | Single | Максимальная высота (в мировых единицах), которую может занимать визуализируемая фигура. |
 
 ### Возвращаемое значение
 
-Масштаб, автоматически рассчитанный для отображаемой фигуры, чтобы соответствовать указанному размеру.
+Масштаб, который был автоматически рассчитан для визуализированной фигуры, чтобы соответствовать указанному размеру.
 
 ## Примеры
 
-Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью формы Windows.
+Показывает, как визуализировать фигуру с помощью объекта Graphics и отобразить ее с помощью Windows Form.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -40,8 +40,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в графическом объекте.
-    // 1 — Создайте фигуру с диаграммой и отобразите ее в определенном масштабе.
+    // Ниже приведены два способа использования класса «ShapeRenderer» для визуализации фигуры в объекте Graphics.
+    // 1 — Создать фигуру с диаграммой и отобразить ее в определенном масштабе.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -52,7 +52,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 — Создайте группу фигур и отрендерите ее до определенного размера.
+    // 2 — Создать группу фигур и отрисовать ее до определенного размера.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -82,7 +82,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Отрисовывает и отображает список фигур.
+/// Визуализирует и отображает список фигур.
 /// </summary>
 private class ShapeForm : Form
 {

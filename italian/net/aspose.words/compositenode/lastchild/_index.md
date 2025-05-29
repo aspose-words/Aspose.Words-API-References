@@ -3,7 +3,7 @@ title: CompositeNode.LastChild
 linktitle: LastChild
 articleTitle: LastChild
 second_title: Aspose.Words per .NET
-description: CompositeNode LastChild proprietà. Ottiene lultimo figlio del nodo in C#.
+description: Scopri la proprietà CompositeNode LastChild per accedere e manipolare facilmente l'ultimo nodo figlio, migliorando la gestione della struttura dei dati.
 type: docs
 weight: 50
 url: /it/net/aspose.words/compositenode/lastchild/
@@ -18,7 +18,7 @@ public Node LastChild { get; }
 
 ## Osservazioni
 
-Se non è presente l'ultimo nodo figlio, a`nullo` viene restituito.
+Se non c'è un ultimo nodo figlio, un`null` viene restituito.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Entrambe le sezioni sono sorelle l'una dell'altra.
+// Entrambe le sezioni sono gemelle l'una dell'altra.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
@@ -40,7 +40,7 @@ Section firstSection = (Section)lastSection.PreviousSibling;
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// La sezione che abbiamo rimosso era la prima, lasciando nel documento solo la seconda.
+// La sezione che abbiamo rimosso è la prima, lasciando nel documento solo la seconda.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

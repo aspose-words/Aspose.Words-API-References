@@ -3,14 +3,14 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words per .NET
-description: Font Bold proprietà. Vero se il carattere è formattato in grassetto in C#.
+description: Scopri la proprietà Font Bold, identifica facilmente se il tuo testo è in grassetto, migliorando la leggibilità e lo stile dei tuoi progetti di web design.
 type: docs
 weight: 40
 url: /it/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-Vero se il carattere è formattato in grassetto.
+Vero se il font è formattato in grassetto.
 
 ```csharp
 public bool Bold { get; set; }
@@ -24,7 +24,7 @@ Mostra come inserire testo formattato utilizzando DocumentBuilder.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica la formattazione del carattere, quindi aggiunge il testo.
+// Specificare la formattazione del carattere, quindi aggiungere il testo.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

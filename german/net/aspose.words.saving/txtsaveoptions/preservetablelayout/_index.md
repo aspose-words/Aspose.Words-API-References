@@ -3,7 +3,7 @@ title: TxtSaveOptions.PreserveTableLayout
 linktitle: PreserveTableLayout
 articleTitle: PreserveTableLayout
 second_title: Aspose.Words für .NET
-description: TxtSaveOptions PreserveTableLayout eigendom. Gibt an ob das Programm versuchen soll das Layout von Tabellen beim Speichern im NurTextFormat beizubehalten. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Funktion „PreserveTableLayout“ von TxtSaveOptions, die sicherstellt, dass Ihre Tabellen beim Speichern als einfacher Text ihr Layout beibehalten. Verbessern Sie die Lesbarkeit Ihres Dokuments!
 type: docs
 weight: 50
 url: /de/net/aspose.words.saving/txtsaveoptions/preservetablelayout/
@@ -18,7 +18,7 @@ public bool PreserveTableLayout { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Layout von Tabellen bei der Konvertierung in Klartext beibehalten wird.
+Zeigt, wie das Layout von Tabellen bei der Konvertierung in Klartext erhalten bleibt.
 
 ```csharp
 Document doc = new Document();
@@ -36,14 +36,14 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2");
 builder.EndTable();
 
-// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Setzen Sie die Eigenschaft „PreserveTableLayout“ auf „true“, um Leerzeichenauffüllung auf den Inhalt anzuwenden
-// des ausgegebenen Klartextdokuments, um so viel vom Layout der Tabelle wie möglich beizubehalten.
-// Setzen Sie die Eigenschaft „PreserveTableLayout“ auf „false“, um den Inhalt aller Tabellen zu speichern
-// als fortlaufender Textkörper, mit nur einer neuen Zeile für jede Zeile.
+// Setzen Sie die Eigenschaft „PreserveTableLayout“ auf „true“, um Leerzeichen auf den Inhalt anzuwenden
+// des ausgegebenen Klartextdokuments, um möglichst viel vom Layout der Tabelle beizubehalten.
+// Setzen Sie die Eigenschaft „PreserveTableLayout“ auf „false“, um alle Tabelleninhalte zu speichern
+// als fortlaufender Textkörper, mit nur einer neuen Zeile für jede Reihe.
 txtSaveOptions.PreserveTableLayout = preserveTableLayout;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions);

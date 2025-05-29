@@ -3,14 +3,14 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words för .NET
-description: MailMerge CleanupOptions fast egendom. Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska tas bort under kopplingen i C#.
+description: Optimera din dokumentkoppling med egenskapen CleanupOptions – hantera enkelt vilka objekt som ska tas bort för en smidig och effektiv process.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
 ---
 ## MailMerge.CleanupOptions property
 
-Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska tas bort under kopplingen.
+Hämtar eller anger en uppsättning flaggor som anger vilka objekt som ska tas bort under dokumentkoppling.
 
 ```csharp
 public MailMergeCleanupOptions CleanupOptions { get; set; }
@@ -18,7 +18,7 @@ public MailMergeCleanupOptions CleanupOptions { get; set; }
 
 ## Exempel
 
-Visar hur man tar bort tomma stycken som en sammankoppling kan skapa från sammanslagningsutdatadokumentet.
+Visar hur man tar bort tomma stycken som en dokumentkoppling kan skapa från det sammanfogade utdatadokumentet.
 
 ```csharp
 Document doc = new Document();
@@ -51,14 +51,14 @@ else
         "Jane Doe", doc.GetText().Trim());
 ```
 
-Visar hur man automatiskt tar bort MERGEFIELDs som blir oanvända under kopplingen.
+Visar hur man automatiskt tar bort MERGEFIELDS som inte används under dokumentkoppling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa ett dokument med MERGEFIELDs för tre kolumner i en tabell för kopplingsdatakäll,
-// och skapa sedan en tabell med endast två kolumner vars namn matchar våra MERGEFIELDs.
+// Skapa ett dokument med MERGEFIELDS för tre kolumner i en datakällstabell för dokumentkoppling,
+// och skapa sedan en tabell med endast två kolumner vars namn matchar våra MERGEFIELDS.
 builder.InsertField(" MERGEFIELD FirstName ");
 builder.Write(" ");
 builder.InsertField(" MERGEFIELD LastName ");
@@ -71,10 +71,10 @@ dataTable.Columns.Add("LastName");
 dataTable.Rows.Add(new object[] { "John", "Doe" });
 dataTable.Rows.Add(new object[] { "Joe", "Bloggs" });
 
-// Vår tredje MERGEFIELD refererar till en "Stad"-kolumn, som inte finns i vår datakälla.
-// Brevkopplingen kommer att lämna fält som detta intakta i tillståndet före sammanslagningen.
-// Om du ställer in "CleanupOptions"-egenskapen till "RemoveUusedFields" kommer alla MERGEFIELDs att tas bort
-// som förblir oanvända under en sammankoppling för att rensa upp sammanslagningsdokumenten.
+// Vårt tredje MERGEFIELD refererar till en "Stad"-kolumn, som inte finns i vår datakälla.
+// Kopplningen av dokument lämnar fält som detta intakta i sitt tillstånd före sammanslagningen.
+// Om egenskapen "CleanupOptions" ställs in på "RemoveUnusedFields" tas alla MERGEFIELDS bort.
+// som inte används under en dokumentkoppling för att rensa upp i de sammanslagna dokumenten.
 doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.Execute(dataTable);
 

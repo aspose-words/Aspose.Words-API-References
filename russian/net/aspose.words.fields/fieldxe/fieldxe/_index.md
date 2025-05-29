@@ -3,7 +3,7 @@ title: FieldXE
 linktitle: FieldXE
 articleTitle: FieldXE
 second_title: Aspose.Words для .NET
-description: FieldXE строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя универсальный конструктор FieldXE для бесшовной настройки проекта. Упростите процесс разработки с помощью нашего удобного решения по конструктору по умолчанию.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldxe/fieldxe/

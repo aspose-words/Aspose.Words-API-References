@@ -2,15 +2,15 @@
 title: Table
 linktitle: Table
 articleTitle: Table
-second_title: 用于 .NET 的 Aspose.Words
-description: Table 构造函数. 初始化一个新实例Table类 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们直观的表格构造器轻松创建自定义表格。只需几分钟即可构建、自定义和优化您的数据显示！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-初始化一个新实例[`Table`](../)类.
+初始化[`Table`](../)类.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -22,9 +22,9 @@ public Table(DocumentBase doc)
 
 ## 评论
 
-什么时候[`Table`](../)创建后，它属于指定文档，但还不是 文档的一部分并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
+什么时候[`Table`](../)已创建，它属于指定文档，但尚未成为文档的一部分，并且[`ParentNode`](../../../aspose.words/node/parentnode/)是`无效的`。
 
-追加[`Table`](../)到文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) 位于您想要插入表格的故事上。
+附加[`Table`](../)文档使用[`InsertAfter`](../../../aspose.words/compositenode/insertafter/)或者[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)在您想要插入表格的故事中输入 。
 
 ## 例子
 
@@ -35,10 +35,10 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// 表格包含行，行包含单元格，单元格可能包含段落
+// 表格包含行，行包含单元格，单元格中可能有段落
 // 具有典型元素，例如运行、形状，甚至其他表格。
 // 在表上调用“EnsureMinimum”方法将确保
-// 该表格至少有一行、一个单元格和一个段落。
+// 表格至少包含一行、一个单元格和一个段落。
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
 
@@ -48,25 +48,25 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// 将文本添加到表第一行中的第一个调用。
+// 将文本添加到表格第一行的第一个单元格。
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-演示如何在不使用文档生成器的情况下构建嵌套表。
+展示如何在不使用文档构建器的情况下构建嵌套表。
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // 创建三行四列的外表，然后将其添加到文档中。
+    // 创建具有三行四列的外部表格，然后将其添加到文档中。
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // 创建另一个包含两行和两列的表格，然后将其插入到第一个表格的第一个单元格中。
+    // 创建另一个具有两行两列的表格，然后将其插入到第一个表格的第一个单元格中。
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -74,7 +74,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// 在文档中创建一个新表格，每个单元格中具有给定的尺寸和文本。
+/// 在文档中创建一个新表格，其中包含给定的尺寸和每个单元格中的文本。
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -95,9 +95,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // 您可以使用“标题”和“描述”属性分别向表格添加标题和描述。
-    // 在我们可以使用这些属性之前，表必须至少有一行。
-    // 这些属性对于符合 ISO / IEC 29500 的 .docx 文档有意义（请参阅 OoxmlCompliance 类）。
+    // 您可以使用“标题”和“描述”属性分别向表中添加标题和描述。
+    // 在我们使用这些属性之前，表必须至少有一行。
+    // 这些属性对于符合 ISO / IEC 29500 的 .docx 文档有意义（参见 OoxmlCompliance 类）。
     // 如果我们将文档保存为 ISO/IEC 29500 之前的格式，Microsoft Word 将忽略这些属性。
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

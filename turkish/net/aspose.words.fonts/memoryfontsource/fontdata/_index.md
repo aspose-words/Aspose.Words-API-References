@@ -2,8 +2,8 @@
 title: MemoryFontSource.FontData
 linktitle: FontData
 articleTitle: FontData
-second_title: Aspose.Words for .NET
-description: MemoryFontSource FontData mülk. İkili yazı tipi verileri C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz ikili font entegrasyonu için MemoryFontSource'un FontData özelliğini keşfedin. Projelerinizi verimli font yönetimi çözümleriyle geliştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/memoryfontsource/fontdata/
@@ -18,7 +18,7 @@ public byte[] FontData { get; }
 
 ## Örnekler
 
-Bir yazı tipi dosyasındaki verileri içeren bir bayt dizisinin yazı tipi kaynağı olarak nasıl kullanılacağını gösterir.
+Bir font dosyasındaki verilerle bir bayt dizisinin font kaynağı olarak nasıl kullanılacağını gösterir.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

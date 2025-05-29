@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.TextRenderingHint
 linktitle: TextRenderingHint
 articleTitle: TextRenderingHint
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions TextRenderingHint propiedad. Obtiene o establece el modo de representación del texto asociado con este gráfico en C#.
+description: Descubra la propiedad GraphicsQualityOptions TextRenderingHint para una representación óptima del texto en sus gráficos. ¡Mejore la calidad visual y el rendimiento hoy mismo!
 type: docs
 weight: 70
 url: /es/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-Obtiene o establece el modo de representación del texto asociado con este gráfico.
+Obtiene o establece el modo de representación del texto asociado con este Gráfico.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }

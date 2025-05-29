@@ -3,7 +3,7 @@ title: HtmlLoadOptions
 linktitle: HtmlLoadOptions
 articleTitle: HtmlLoadOptions
 second_title: Aspose.Words для .NET
-description: HtmlLoadOptions строитель. Инициализирует новый экземпляр этого класса со значениями по умолчанию на С#.
+description: Откройте для себя конструктор HtmlLoadOptions, предназначенный для простой инициализации экземпляров с настройками по умолчанию для бесперебойной веб-разработки.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/htmlloadoptions/htmlloadoptions/
@@ -23,13 +23,13 @@ public HtmlLoadOptions()
 ```csharp
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 
-// Если значение истинно, то мы учитываем код VML при разборе загруженного документа.
+// Если значение равно true, то мы учитываем код VML при анализе загруженного документа.
 loadOptions.SupportVml = supportVml;
 
-// Этот документ содержит изображение JPEG внутри "<!--[if gte vml 1]>" теги,
-// и другое изображение PNG внутри "<![if !vml]>" теги.
-// Если мы установим для флага «SupportVml» значение «true», тогда Aspose.Words загрузит JPEG.
-// Если мы установим для этого флага значение «false», то Aspose.Words будет загружать только PNG.
+// Этот документ содержит изображение JPEG в тегах "<!--[if gte vml 1]>",
+// и другое изображение PNG в тегах "<![if !vml]>".
+// Если установить флаг «SupportVml» на «true», то Aspose.Words загрузит JPEG.
+// Если мы установим этот флаг на «false», то Aspose.Words загрузит только PNG.
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)
@@ -56,14 +56,14 @@ public HtmlLoadOptions(string password)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
+| password | String | Пароль для открытия зашифрованного документа. Может быть`нулевой` или пустая строка. |
 
 ## Примеры
 
-Показывает, как зашифровать документ Html, а затем открыть его с помощью пароля.
+Показывает, как зашифровать HTML-документ, а затем открыть его с помощью пароля.
 
 ```csharp
-// Создать и подписать зашифрованный HTML-документ из зашифрованного файла .docx.
+// Создать и подписать зашифрованный HTML-документ из зашифрованного .docx.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 SignOptions signOptions = new SignOptions
@@ -98,7 +98,7 @@ Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
 
 ## HtmlLoadOptions(*[LoadFormat](../../../aspose.words/loadformat/), string, string*) {#constructor_1}
 
-Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными в указанные значения.
+Ярлык для инициализации нового экземпляра этого класса со свойствами, установленными на указанные значения.
 
 ```csharp
 public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
@@ -107,28 +107,28 @@ public HtmlLoadOptions(LoadFormat loadFormat, string password, string baseUri)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | loadFormat | LoadFormat | Формат загружаемого документа. |
-| password | String | Пароль для открытия зашифрованного документа. Возможно`нулевой` или пустая строка. |
-| baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Возможно`нулевой` или пустая строка. |
+| password | String | Пароль для открытия зашифрованного документа. Может быть`нулевой` или пустая строка. |
+| baseUri | String | Строка, которая будет использоваться для преобразования относительных URI в абсолютные. Может быть`нулевой` или пустая строка. |
 
 ## Примеры
 
 Показывает, как указать базовый URI при открытии HTML-документа.
 
 ```csharp
-// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное относительным URI.
+// Предположим, мы хотим загрузить документ .html, содержащий изображение, связанное с помощью относительного URI
 // пока изображение находится в другом месте. В этом случае нам нужно будет преобразовать относительный URI в абсолютный.
- // Мы можем предоставить базовый URI, используя объект HtmlLoadOptions.
+ // Мы можем предоставить базовый URI с помощью объекта HtmlLoadOptions.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
 Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
-// Хотя изображение во входном .html было повреждено, наш собственный базовый URI помог нам восстановить ссылку.
+// Хотя изображение во входном .html-файле было повреждено, наш базовый URI помог нам восстановить ссылку.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 Assert.True(imageShape.IsImage);
 
-// Этот выходной документ отобразит отсутствующее изображение.
+// Этот выходной документ будет отображать отсутствующее изображение.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
 ```
 

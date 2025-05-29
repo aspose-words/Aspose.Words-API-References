@@ -2,8 +2,8 @@
 title: FieldComments.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: FieldComments Text mülk. Yorumların metnini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldComments Text özelliğiyle yorumlarınızı zahmetsizce yönetin; gelişmiş kullanıcı etkileşimi için yorum metnini kolayca alın veya ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldcomments/text/
@@ -24,7 +24,7 @@ YORUMLAR alanının nasıl kullanılacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgenin "Yorumlar" yerleşik özelliği için bir değer belirleyin.
+// Belgenin "Yorumlar" yerleşik özelliği için bir değer ayarlayın.
 doc.BuiltInDocumentProperties.Comments = "My comment.";
 
 // Yerleşik özelliğin değerini görüntülemek için bir YORUMLAR alanı oluşturun.
@@ -34,9 +34,9 @@ field.Update();
 Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
 Assert.AreEqual("My comment.", field.Result);
 
-// COMMENTS alanına Text özelliği değerini verip güncellersek alan şu şekilde olacaktır:
-// "Yorumlar" yerleşik özelliğinin mevcut değerinin üzerine Text özelliğinin değerini yazın,
-// ve ardından yeni değeri görüntüleyin.
+// COMMENTS alanının Text özellik değerini verip güncellersek, alan
+// "Yorumlar" yerleşik özelliğinin geçerli değerini, Metin özelliğinin değeriyle üzerine yaz,
+// ve ardından yeni değeri göster.
 field.Text = "My overriding comment.";
 field.Update();
 

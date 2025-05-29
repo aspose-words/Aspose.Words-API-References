@@ -2,15 +2,15 @@
 title: OdsoRecipientData.Active
 linktitle: Active
 articleTitle: Active
-second_title: Aspose.Words for .NET
-description: OdsoRecipientData Active mülk. Adresmektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoRecipientData Active özelliğiyle posta birleştirme içe aktarımlarını kontrol edin. Sorunsuz belge oluşturma için veri kayıtlarını kolayca yönetin. Varsayılan değer true'dur.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Adres-mektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`doğru` .
+Posta birleştirme işlemi gerçekleştirildiğinde veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`doğru` .
 
 ```csharp
 public bool Active { get; set; }
@@ -18,7 +18,7 @@ public bool Active { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

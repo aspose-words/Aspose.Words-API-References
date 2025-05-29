@@ -3,14 +3,14 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words لـ .NET
-description: CellFormat Shading ملكية. إرجاع أShading الكائن الذي يشير إلى تنسيق التظليل للخلية في C#.
+description: اكتشف خاصية تظليل CellFormat لتعزيز المظهر المرئي لجدول البيانات الخاص بك باستخدام خيارات تظليل قابلة للتخصيص للخلايا.
 type: docs
-weight: 90
+weight: 100
 url: /ar/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-إرجاع أ[`Shading`](../../../aspose.words/shading/) الكائن الذي يشير إلى تنسيق التظليل للخلية.
+يعيد[`Shading`](../../../aspose.words/shading/) الكائن الذي يشير إلى تنسيق التظليل للخلية.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## أمثلة
 
-يوضح كيفية تعديل تنسيق الصفوف والخلايا في الجدول.
+يوضح كيفية تعديل تنسيق الصفوف والخلايا في جدول.
 
 ```csharp
 Document doc = new Document();
@@ -36,13 +36,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// استخدم خاصية "RowFormat" للصف الأول لتعديل التنسيق
-// محتويات جميع الخلايا في هذا الصف.
+// استخدم خاصية "RowFormat" في الصف الأول لتعديل التنسيق
+// من محتويات جميع الخلايا في هذا الصف.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// استخدم خاصية "CellFormat" للخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
+//استخدم خاصية "CellFormat" الخاصة بالخلية الأولى في الصف الأخير لتعديل تنسيق محتويات تلك الخلية.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -83,8 +83,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -95,7 +95,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

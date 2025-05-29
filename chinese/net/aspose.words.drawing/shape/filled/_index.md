@@ -2,15 +2,15 @@
 title: Shape.Filled
 linktitle: Filled
 articleTitle: Filled
-second_title: 用于 .NET 的 Aspose.Words
-description: Shape Filled 财产. 确定是否填充形状的闭合路径 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用“形状填充”属性控制形状的美观度，决定是否填充封闭路径以增强设计灵活性和视觉吸引力。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words.drawing/shape/filled/
 ---
 ## Shape.Filled property
 
-确定是否填充形状的闭合路径。
+确定形状的封闭路径是否将被填充。
 
 ```csharp
 public bool Filled { get; set; }
@@ -18,13 +18,13 @@ public bool Filled { get; set; }
 
 ## 评论
 
-这是一个快捷方式[`Visible`](../../fill/visible/)财产。
+这是[`Visible`](../../fill/visible/)财产。
 
 默认值为`真的`。
 
 ## 例子
 
-演示如何迭代文档中的所有形状。
+展示如何遍历文档中的所有形状。
 
 ```csharp
 public void VisitShapes()
@@ -37,7 +37,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// 记录有关所访问形状的外观相关信息。
+/// 记录有关访问形状的外观相关信息。
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -49,7 +49,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 将一行附加到 StringBuilder，并为每个缩进级别添加一个前置制表符。
+    /// 将一行附加到 StringBuilder，每个缩进级别前面都添加一个制表符。
     /// </summary>
     private void AppendLine(string text)
     {
@@ -59,7 +59,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 返回 StringBuilder 累积的所有文本。
+    /// 返回 StringBuilder 已累积的所有文本。
     /// </summary>
     public string GetText()
     {
@@ -67,7 +67,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的开头时调用。
+    /// 当此访问者访问 Shape 节点的起点时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -87,7 +87,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -103,7 +102,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 Shape 节点的末尾时调用。
+    /// 当此访问者访问 Shape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -115,7 +114,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的开头时调用。
+    /// 当此访问者访问 GroupShape 节点的起点时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -126,7 +125,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 当访问者访问 GroupShape 节点的末尾时调用。
+    /// 当此访问者访问 GroupShape 节点的末尾时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

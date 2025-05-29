@@ -3,7 +3,7 @@ title: BookmarkCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: BookmarkCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode GetEnumerator de BookmarkCollection. Récupérez efficacement les objets énumérateurs pour une gestion fluide des données et des performances améliorées.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/bookmarkcollection/getenumerator/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,14 +3,14 @@ title: OfficeMath.MathObjectType
 linktitle: MathObjectType
 articleTitle: MathObjectType
 second_title: Aspose.Words для .NET
-description: OfficeMath MathObjectType свойство. Получает типMathObjectType этого объекта Office Math на С#.
+description: Откройте для себя свойство OfficeMath MathObjectType, чтобы легко получать доступ и использовать MathObjectTypes для улучшенного форматирования и функциональности документов.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.math/officemath/mathobjecttype/
 ---
 ## OfficeMath.MathObjectType property
 
-Получает тип`MathObjectType` этого объекта Office Math.
+Получает тип`MathObjectType`этого объекта Office Math.
 
 ```csharp
 public MathObjectType MathObjectType { get; }
@@ -18,7 +18,7 @@ public MathObjectType MathObjectType { get; }
 
 ## Примеры
 
-Показывает, как распечатать структуру каждого узла офисной математики в документе.
+Показывает, как распечатать структуру узлов каждого узла офисной математики в документе.
 
 ```csharp
 public void OfficeMathToText()
@@ -26,7 +26,7 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -47,7 +47,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -89,7 +89,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,9 +3,9 @@ title: GradientVariant Enum
 linktitle: GradientVariant
 articleTitle: GradientVariant
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.GradientVariant enumeración. Especifica la variante para un relleno degradado en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.GradientVariant para rellenos degradados personalizables y mejorar los diseños de sus documentos con estilos vibrantes.
 type: docs
-weight: 1010
+weight: 1340
 url: /es/net/aspose.words.drawing/gradientvariant/
 ---
 ## GradientVariant enumeration
@@ -21,9 +21,9 @@ public enum GradientVariant
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | None | `0` | Variante de degradado 'Ninguno'. |
-| Variant1 | `1` | Variante de gradiente 1. |
+| Variant1 | `1` | Variante de degradado 1. |
 | Variant2 | `2` | Variante de degradado 2. |
-| Variant3 | `3` | Variante de gradiente 3. |
+| Variant3 | `3` | Variante de degradado 3. |
 | Variant4 | `4` | Variante de degradado 4. |
 
 ## Observaciones
@@ -39,7 +39,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -53,7 +53,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());

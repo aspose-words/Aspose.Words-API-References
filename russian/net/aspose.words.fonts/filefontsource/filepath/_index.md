@@ -3,7 +3,7 @@ title: FileFontSource.FilePath
 linktitle: FilePath
 articleTitle: FilePath
 second_title: Aspose.Words для .NET
-description: FileFontSource FilePath свойство. Путь к файлу шрифта на С#.
+description: Откройте для себя свойство FileFontSource FilePath для легкого доступа к файлам шрифтов. Оптимизируйте процесс проектирования с помощью этого необходимого инструмента!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fonts/filefontsource/filepath/

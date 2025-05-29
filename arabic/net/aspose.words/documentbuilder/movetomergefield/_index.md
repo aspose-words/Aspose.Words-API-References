@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToMergeField
 linktitle: MoveToMergeField
 articleTitle: MoveToMergeField
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToMergeField طريقة. يحرك المؤشر إلى موضع يقع خارج حقل الدمج المحدد مباشرة ويزيل حقل الدمج في C#.
+description: تنقل بسهولة بين مستنداتك باستخدام طريقة MoveToMergeField. ضع المؤشر فورًا خارج حقول الدمج لتحرير سلس.
 type: docs
-weight: 550
+weight: 590
 url: /ar/net/aspose.words/documentbuilder/movetomergefield/
 ---
 ## MoveToMergeField(*string*) {#movetomergefield}
 
-يحرك المؤشر إلى موضع يقع خارج حقل الدمج المحدد مباشرة ويزيل حقل الدمج.
+يحرك المؤشر إلى موضع يقع خلف حقل الدمج المحدد ويزيل حقل الدمج.
 
 ```csharp
 public bool MoveToMergeField(string fieldName)
@@ -18,7 +18,7 @@ public bool MoveToMergeField(string fieldName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldName | String | الاسم غير حساس لحالة الأحرف لحقل دمج المراسلات. |
+| fieldName | String | اسم حقل دمج البريد غير الحساس لحالة الأحرف. |
 
 ### قيمة الإرجاع
 
@@ -30,14 +30,14 @@ public bool MoveToMergeField(string fieldName)
 
 ## أمثلة
 
-يوضح كيفية تعبئة MERGEFIELDs بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
+يوضح كيفية ملء حقول MERGEFIELD بالبيانات باستخدام منشئ المستندات بدلاً من دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض حقول MERGEFIELDS، التي تقبل البيانات من الأعمدة التي تحمل نفس الاسم في مصدر بيانات أثناء دمج البريد،
-// ثم املأها يدويًا.
+// إدراج بعض MERGEFIELDS، التي تقبل البيانات من الأعمدة التي تحمل نفس الاسم في مصدر البيانات أثناء دمج البريد،
+//ثم قم بملئها يدويًا.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");
 builder.InsertField(" MERGEFIELD ChiefTechnologyOfficer ");
@@ -57,7 +57,7 @@ builder.Writeln("John Bloggs");
 doc.Save(ArtifactsDir + "DocumentBuilder.FillMergeFields.docx");
 ```
 
-يوضح كيفية إدراج حقول نموذج خانة الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
+يوضح كيفية إدراج حقول نموذج مربع الاختيار في MERGEFIELDs كبيانات دمج أثناء دمج البريد.
 
 ```csharp
 public void InsertCheckBox()
@@ -65,7 +65,7 @@ public void InsertCheckBox()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم MERGEFIELDs مع علامات "TableStart"/"TableEnd" لتحديد منطقة دمج البريد
+    // استخدم MERGEFIELDs مع علامتي "TableStart"/"TableEnd" لتحديد منطقة دمج البريد
     // الذي ينتمي إلى مصدر بيانات يسمى "StudentCourse" ويحتوي على MERGEFIELD الذي يقبل البيانات من عمود يسمى "CourseName".
     builder.StartTable();
     builder.InsertCell();
@@ -85,12 +85,12 @@ public void InsertCheckBox()
 }
 
 /// <summary>
-/// عند مواجهة MERGEFIELD باسم محدد، يتم إدراج حقل نموذج خانة الاختيار بدلاً من نص دمج البيانات.
+/// عند مواجهة MERGEFIELD باسم محدد، يتم إدراج حقل نموذج مربع الاختيار بدلاً من نص بيانات الدمج.
 /// </summary>
 private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 {
     /// <summary>
-    /// يتم الاتصال به عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
+    /// يتم استدعاؤها عندما يقوم دمج البريد بدمج البيانات في MERGEFIELD.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
@@ -104,7 +104,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
             string fieldValue = args.FieldValue.ToString();
 
-            // في هذه الحالة، لكل فهرس سجل 'n'، تكون قيمة الحقل المقابل هي "Course n".
+            // في هذه الحالة، لكل فهرس سجل 'n'، قيمة الحقل المقابلة هي "Course n".
             Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
 
             builder.Write(fieldValue);
@@ -114,14 +114,14 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // لا تفعل شيئا.
+        //لا تفعل شيئا.
     }
 
     private int mCheckBoxCount;
 }
 
 /// <summary>
-/// إنشاء مصدر بيانات لدمج المراسلات.
+/// إنشاء مصدر بيانات دمج البريد.
 /// </summary>
 private static DataTable GetStudentCourseDataTable()
 {
@@ -156,9 +156,9 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldName | String | الاسم غير حساس لحالة الأحرف لحقل دمج المراسلات. |
-| isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. متى`خطأ شنيع` ، يحرك المؤشر ليكون قبل بدء الحقل. |
-| isDeleteField | Boolean | متى`حقيقي`، يحذف حقل الدمج. |
+| fieldName | String | اسم حقل دمج البريد غير الحساس لحالة الأحرف. |
+| isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. عندما`خطأ شنيع` ، يحرك المؤشر ليكون قبل بداية الحقل. |
+| isDeleteField | Boolean | متى`حقيقي`, يحذف حقل الدمج. |
 
 ### قيمة الإرجاع
 
@@ -166,7 +166,7 @@ public bool MoveToMergeField(string fieldName, bool isAfter, bool isDeleteField)
 
 ## أمثلة
 
-يوضح كيفية إدراج الحقول وتحريك مؤشر أداة إنشاء المستندات إليها.
+يوضح كيفية إدراج الحقول، ونقل مؤشر منشئ المستندات إليها.
 
 ```csharp
 Document doc = new Document();
@@ -174,17 +174,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField(@"MERGEFIELD MyMergeField1 \* MERGEFORMAT");
 builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 
-// حرك المؤشر إلى حقل MERGEFIELD الأول.
+// نقل المؤشر إلى MERGEFIELD الأول.
 builder.MoveToMergeField("MyMergeField1", true, false);
 
-// لاحظ أن المؤشر يتم وضعه مباشرة بعد حقل الدمج الأول وقبل الثاني.
+// لاحظ أن المؤشر يوضع مباشرة بعد MERGEFIELD الأول، وقبل الثاني.
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// إذا أردنا تعديل رمز الحقل أو محتوياته باستخدام المنشئ،
-// يجب أن يكون المؤشر داخل الحقل.
-// لوضعه داخل حقل، سنحتاج إلى استدعاء أسلوب MoveTo الخاص بمنشئ المستندات
-// وتمرير بداية الحقل أو العقدة الفاصلة كوسيطة.
+// إذا أردنا تحرير كود الحقل أو محتوياته باستخدام المنشئ،
+//يجب أن يكون المؤشر داخل حقل.
+// لوضعه داخل حقل، سنحتاج إلى استدعاء طريقة MoveTo الخاصة بمنشئ المستندات
+// ومرر عقدة بداية الحقل أو الفاصلة كحجة.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");

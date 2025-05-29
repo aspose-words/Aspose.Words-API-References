@@ -3,30 +3,30 @@ title: Comment.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words لـ .NET
-description: Comment Id ملكية. الحصول على معرف التعليق في C#.
+description: قم بإدارة معرفات التعليقات بسهولة باستخدام خاصية معرف التعليق - مما يبسط تنظيم بياناتك ويعزز تفاعل المستخدم.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/aspose.words/comment/id/
 ---
 ## Comment.Id property
 
-الحصول على معرف التعليق.
+يحصل على معرف التعليق أو يعينه.
 
 ```csharp
-public int Id { get; }
+public int Id { get; set; }
 ```
 
 ## ملاحظات
 
-يسمح معرف التعليق بتثبيت تعليق على منطقة من النص في المستند. يجب تحديد المنطقة باستخدام[`CommentRangeStart`](../../commentrangestart/) و[`CommentRangeEnd`](../../commentrangeend/) كائن يشارك نفس قيمة المعرف مثل[`Comment`](../) هدف.
+يسمح معرف التعليق بربط التعليق بمنطقة نصية في المستند. يجب تحديد المنطقة باستخدام[`CommentRangeStart`](../../commentrangestart/) و[`CommentRangeEnd`](../../commentrangeend/) كائن يشترك في نفس قيمة المعرف مثل[`Comment`](../) هدف.
 
 يمكنك استخدام هذه القيمة عند البحث عن[`CommentRangeStart`](../../commentrangestart/) و [`CommentRangeEnd`](../../commentrangeend/) العقد المرتبطة بهذا التعليق.
 
-من المفترض أن تكون معرفات التعليقات فريدة عبر المستند، ويحتفظ Aspose.Words تلقائيًا بمعرفات التعليقات عند تحميل المستندات وحفظها ودمجها.
+من المفترض أن تكون معرفات التعليقات فريدة عبر المستند، ويحافظ Aspose.Words تلقائيًا على معرفات التعليقات عند تحميل المستندات وحفظها ودمجها.
 
 ## أمثلة
 
-يوضح كيفية طباعة محتويات جميع التعليقات ونطاقات التعليقات الخاصة بها باستخدام زائر المستند.
+يوضح كيفية طباعة محتويات كافة التعليقات ونطاقات تعليقاتها باستخدام زائر المستند.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -42,14 +42,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // أضف نصًا إلى المستند، وقم بتحريفه في نطاق التعليق، ثم أضف تعليقك.
+    // أضف نصًا إلى المستند، ثم قم بتحريف النص داخل نطاق التعليقات، ثم أضف تعليقك.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // أضف ردين على التعليق.
+    //أضف ردين على التعليق.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -57,26 +57,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// يتكرر على كل تعليق عالي المستوى ويطبع نطاق التعليقات والمحتويات والردود الخاصة به.
+/// يتكرر كل تعليق على المستوى الأعلى ويطبع نطاق التعليق ومحتوياته وردوده.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // التكرار على جميع التعليقات ذات المستوى الأعلى. على عكس تعليقات نوع الرد، فإن تعليقات المستوى الأعلى ليس لها أصل.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // كرر جميع التعليقات الرئيسية. بخلاف تعليقات الرد، لا يوجد للتعليقات الرئيسية أي سلف.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // أولاً، قم بزيارة بداية نطاق التعليقات.
+        // أولاً، قم بزيارة بداية نطاق التعليق.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // ثم قم بزيارة التعليق وأي ردود قد تكون عليه.
+        // ثم قم بزيارة التعليق، وأي ردود قد تكون لديه.
         comment.Accept(commentVisitor);
+        // قم بزيارة بداية التعليق فقط.
+        comment.AcceptStart(commentVisitor);
+        // قم بزيارة نهاية التعليق فقط.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // أخيرًا، قم بزيارة نهاية نطاق التعليق، ثم اطبع محتويات نص الزائر.
+        // وأخيرًا، قم بزيارة نهاية نطاق التعليق، ثم قم بطباعة محتويات النص الخاصة بالزائر.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -85,7 +89,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// يطبع معلومات ومحتويات جميع التعليقات ونطاقات التعليقات الموجودة في المستند.
+/// طباعة المعلومات ومحتويات جميع التعليقات ونطاقات التعليقات الموجودة في المستند.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -96,7 +100,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {
@@ -104,7 +108,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة التشغيل في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تشغيل في المستند.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -114,7 +118,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة CommentRangeStart في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة CommentRangeStart في المستند.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -126,7 +130,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة CommentRangeEnd في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة CommentRangeEnd في المستند.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -138,7 +142,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم استدعاؤه عند مواجهة عقدة تعليق في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة تعليق في المستند.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -151,7 +155,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند انتهاء زيارة عقدة التعليق في المستند.
+    /// يتم استدعاؤها عند انتهاء زيارة عقدة التعليق في المستند.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -163,9 +167,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// ألحق سطرًا بـ StringBuilder وقم بوضع مسافة بادئة له اعتمادًا على مدى عمق الزائر في شجرة المستندات.
+    /// أضف سطرًا إلى StringBuilder وقم بتدويره وفقًا لمدى عمق الزائر في شجرة المستند.
     /// </summary>
-    /// <param name="text"></param>
+    /// <اسم المعلمة="نص"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

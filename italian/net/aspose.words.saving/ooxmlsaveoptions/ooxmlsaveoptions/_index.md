@@ -3,14 +3,14 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words per .NET
-description: OoxmlSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx formato in C#.
+description: Scopri il costruttore OoxmlSaveOptions per salvare facilmente i documenti in formato Docx. Ottieni una gestione dei documenti fluida e una compatibilità migliorata.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelDocx formato.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,14 +18,14 @@ public OoxmlSaveOptions()
 
 ## Esempi
 
-Mostra come impostare una specifica di conformità OOXML a cui aderire un documento salvato.
+Mostra come impostare una specifica di conformità OOXML a cui deve aderire un documento salvato.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Se configuriamo le opzioni di compatibilità per conformarsi a Microsoft Word 2003,
-// l'inserimento di un'immagine ne definirà la forma utilizzando VML.
+// Se configuriamo le opzioni di compatibilità per essere conformi a Microsoft Word 2003,
+// l'inserimento di un'immagine ne definirà la forma mediante VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -33,7 +33,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // Lo standard OOXML "ISO/IEC 29500:2008" non supporta le forme VML.
 // Se impostiamo la proprietà "Compliance" dell'oggetto SaveOptions su "OoxmlCompliance.Iso29500_2008_Strict",
- // qualsiasi documento che salviamo mentre passiamo questo oggetto dovrà seguire quello standard.
+ // qualsiasi documento salvato durante il passaggio di questo oggetto dovrà seguire tale standard.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDocx , Docm ,Dotx ,Dotm oppure FlatOpc formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelDocx , Docm ,Dotx ,Dotm oppure FlatOpc formato.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -76,10 +76,10 @@ Mostra come supportare i caratteri di controllo legacy durante la conversione in
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Quando salviamo il documento in un formato OOXML, possiamo creare un oggetto OoxmlSaveOptions
-// e poi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
-// Imposta la proprietà "KeepLegacyControlChars" su "true" per preservarla
+// e quindi passarlo al metodo di salvataggio del documento per modificare il modo in cui salviamo il documento.
+// Imposta la proprietà "KeepLegacyControlChars" su "true" per preservare
 // il carattere legacy "ShortDateTime" durante il salvataggio.
-// Imposta la proprietà "KeepLegacyControlChars" su "false" per rimuoverla
+// Imposta la proprietà "KeepLegacyControlChars" su "false" per rimuovere
 // il carattere legacy "ShortDateTime" dal documento di output.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;

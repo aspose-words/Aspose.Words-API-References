@@ -3,7 +3,7 @@ title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings DoNotSupressBlankLines propriété. Spécifie comment une application effectuant le publipostage doit gérer les lignes vides dans les documents fusionnés résultant du publipostage. La valeur par défaut estFAUX  en C#.
+description: Optimisez votre publipostage avec la propriété DoNotSupressBlankLines de MailMergeSettings, garantissant que les lignes vides sont gérées efficacement pour des documents soignés.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
@@ -18,7 +18,7 @@ public bool DoNotSupressBlankLines { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

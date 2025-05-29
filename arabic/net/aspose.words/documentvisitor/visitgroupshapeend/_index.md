@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitGroupShapeEnd
 linktitle: VisitGroupShapeEnd
 articleTitle: VisitGroupShapeEnd
 second_title: Aspose.Words لـ .NET
-description: DocumentVisitor VisitGroupShapeEnd طريقة. يتم استدعاؤه عند انتهاء تعداد شكل المجموعة في C#.
+description: اكتشف طريقة DocumentVisitor VisitGroupShapeEnd، التي تشير بشكل فعال إلى نهاية تعداد شكل المجموعة لمعالجة المستندات بشكل سلس.
 type: docs
 weight: 260
 url: /ar/net/aspose.words/documentvisitor/visitgroupshapeend/
 ---
 ## DocumentVisitor.VisitGroupShapeEnd method
 
-يتم استدعاؤه عند انتهاء تعداد شكل المجموعة.
+يتم استدعاؤها عند انتهاء تعداد شكل المجموعة.
 
 ```csharp
 public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
@@ -18,15 +18,15 @@ public virtual VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| groupShape | GroupShape | الكائن الذي تتم زيارته. |
+| groupShape | GroupShape | الشيء الذي يتم زيارته. |
 
 ### قيمة الإرجاع
 
-أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية متابعة التعداد.
+أ[`VisitorAction`](../../visitoraction/) القيمة التي تحدد كيفية مواصلة التعداد.
 
 ## أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -34,19 +34,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
+    // إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped وTopCornersSnipped وDiagonalCornersSnipped،
+    // الزوايا العلوية مستديرة واحدة، زوايا علوية مستديرة واحدة، زوايا علوية مستديرة، زوايا قطرية مستديرة
+    // يرجى استخدام طرق DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -66,7 +66,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات مجموعة الأشكال التي تمت زيارتها في وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

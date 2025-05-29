@@ -3,14 +3,14 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words per .NET
-description: Shading Texture proprietà. Ottiene o imposta la texture dellombreggiatura in C#.
+description: Scopri la proprietà Texture Ombreggiatura per migliorare i tuoi progetti. Personalizza e imposta facilmente le texture per ottenere effetti visivi straordinari nei tuoi progetti.
 type: docs
 weight: 70
 url: /it/net/aspose.words/shading/texture/
 ---
 ## Shading.Texture property
 
-Ottiene o imposta la texture dell'ombreggiatura.
+Ottiene o imposta la trama dell'ombreggiatura.
 
 ```csharp
 public TextureIndex Texture { get; set; }

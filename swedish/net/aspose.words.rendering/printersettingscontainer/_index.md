@@ -3,16 +3,16 @@ title: PrinterSettingsContainer Class
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Rendering.PrinterSettingsContainer klass. Representerar ett minne för vissa parametrar avPrinterSettings objekt i C#.
+description: Utforska klassen Aspose.Words.Rendering.PrinterSettingsContainer för effektiv hantering av PrinterSettings-parametrar, vilket förbättrar din dokumentrenderingsupplevelse.
 type: docs
-weight: 4580
+weight: 5310
 url: /sv/net/aspose.words.rendering/printersettingscontainer/
 ---
 ## PrinterSettingsContainer class
 
 Representerar ett minne för vissa parametrar avPrinterSettings objekt.
 
-För att lära dig mer, besök[Skriva ut ett dokument programmerat eller använda dialogrutor](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) dokumentationsartikel.
+För att lära dig mer, besök[Skriva ut ett dokument programmatiskt eller med hjälp av dialogrutor](https://docs.aspose.com/words/net/print-a-document-programmatically-or-using-dialogs/) dokumentationsartikel.
 
 ```csharp
 public class PrinterSettingsContainer
@@ -34,11 +34,11 @@ public class PrinterSettingsContainer
 
 ## Anmärkningar
 
-Tillgång till data förPrinterSettings tar lång tid. `PrinterSettingsContainer` cachar parametrar frånPrinterSettings , så utskriften fungerar snabbare.
+Åtkomst till data förPrinterSettings tar lång tid. `PrinterSettingsContainer` cachar parametrar frånPrinterSettings , så att utskriften fungerar snabbare.
 
 ## Exempel
 
-Visar hur du kommer åt och listar skrivarens papperskällor och storlekar.
+Visar hur du får åtkomst till och listar skrivarens papperskällor och storlekar.
 
 ```csharp
 // "PrinterSettingsContainer" innehåller ett "PrinterSettings"-objekt,
@@ -53,12 +53,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// Egenskapen "PaperSizes" innehåller listan över pappersstorlekar att instruera skrivaren att använda.
+// Egenskapen "PaperSizes" innehåller en lista över pappersstorlekar som skrivaren ska använda.
 // Både PrinterSource och PrinterSize innehåller en "RawKind"-egenskap,
-// vilket motsvarar en papperstyp som listas på PaperSourceKind enum.
-// Om det finns en papperskälla med samma "RawKind"-värde som på den utskrivna sidan,
-// skrivaren kommer att skriva ut sidan med den medföljande papperskällan och storleken.
-// Annars kommer skrivaren som standard att använda den källa som anges av egenskapen "DefaultPageSettingsPaperSource".
+// vilket motsvarar en papperstyp som listas i PaperSourceKind-uppräkningen.
+// Om det finns en papperskälla med samma "RawKind"-värde som utskriftssidan,
+// skrivaren skriver ut sidan med den angivna papperskällan och storleken.
+// Annars kommer skrivaren att använda den källa som anges av egenskapen "DefaultPageSettingsPaperSource" som standard.
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

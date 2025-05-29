@@ -3,14 +3,14 @@ title: ShapeBase.AlternativeText
 linktitle: AlternativeText
 articleTitle: AlternativeText
 second_title: Aspose.Words для .NET
-description: ShapeBase AlternativeText свойство. Определяет альтернативный текст который будет отображаться вместо изображения на С#.
+description: Откройте для себя свойство ShapeBase AlternativeText, которое повышает доступность, предоставляя описательный текст для графики, улучшая пользовательский опыт и SEO.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/shapebase/alternativetext/
 ---
 ## ShapeBase.AlternativeText property
 
-Определяет альтернативный текст, который будет отображаться вместо изображения.
+Определяет альтернативный текст, отображаемый вместо графики.
 
 ```csharp
 public string AlternativeText { get; set; }
@@ -32,11 +32,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Мы можем получить доступ к альтернативному тексту фигуры, щелкнув его правой кнопкой мыши, а затем выбрав «Формат автофигуры» -> gt; «Альтернативный текст».
+// Мы можем получить доступ к альтернативному тексту фигуры, щелкнув ее правой кнопкой мыши, а затем через «Формат автофигуры» -> «Альтернативный текст».
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
-// Сохраняем документ в HTML, а затем удаляем связанное изображение, принадлежащее нашей фигуре.
-// Браузер, читающий наш HTML, отобразит замещающий текст вместо отсутствующего изображения.
+// Сохраните документ в формате HTML, а затем удалите связанное изображение, принадлежащее нашей фигуре.
+// Браузер, считывающий наш HTML, отобразит альтернативный текст вместо отсутствующего изображения.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

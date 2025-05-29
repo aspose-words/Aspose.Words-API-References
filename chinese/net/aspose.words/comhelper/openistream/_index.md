@@ -2,8 +2,8 @@
 title: ComHelper.OpenIStream
 linktitle: OpenIStream
 articleTitle: OpenIStream
-second_title: 用于 .NET 的 Aspose.Words
-description: ComHelper OpenIStream 方法. 允许 COM 应用程序加载Document来自 IStream 对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ComHelper OpenIStream 方法如何简化从 COM 应用程序中的 IStream 对象加载文档的过程，从而实现无缝集成。
 type: docs
 weight: 30
 url: /zh/net/aspose.words/comhelper/openistream/
@@ -22,7 +22,7 @@ public Document OpenIStream(IStream stream)
 
 ### 返回值
 
-A[`Document`](../../document/)代表 Word 文档的对象。
+一个[`Document`](../../document/)代表 Word 文档的对象。
 
 ### 也可以看看
 

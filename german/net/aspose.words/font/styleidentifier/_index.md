@@ -3,14 +3,14 @@ title: Font.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words für .NET
-description: Font StyleIdentifier eigendom. Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Formatierung angewendeten Zeichenstils ab oder legt diesen fest in C#.
+description: Entdecken Sie die Font StyleIdentifier-Eigenschaft, um Zeichenstile in Ihrer Formatierung einfach zu verwalten. Verbessern Sie Ihr Design mit länderunabhängigen Lösungen!
 type: docs
-weight: 410
+weight: 420
 url: /de/net/aspose.words/font/styleidentifier/
 ---
 ## Font.StyleIdentifier property
 
-Ruft die vom Gebietsschema unabhängige Stilkennung des auf diese Formatierung angewendeten Zeichenstils ab oder legt diesen fest.
+Ruft die gebietsschemaunabhängige Stilkennung des auf diese Formatierung angewendeten Zeichenstils ab oder legt diese fest.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -24,18 +24,18 @@ Zeigt, wie der Stil von vorhandenem Text geändert wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, Stile zu referenzieren.
-// 1 – Verwendung des Stilnamens:
+// Unten sind zwei Möglichkeiten zum Referenzieren von Stilen aufgeführt.
+// 1 – Verwenden des Stilnamens:
 builder.Font.StyleName = "Emphasis";
 builder.Writeln("Text originally in \"Emphasis\" style");
 
-// 2 – Verwendung einer integrierten Stilkennung:
+// 2 – Verwenden eines integrierten Stilbezeichners:
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// Alle Verwendungen eines Stils in einen anderen umwandeln,
-// Verwenden der oben genannten Methoden, um auf alte und neue Stile zu verweisen.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// Konvertieren Sie alle Verwendungen eines Stils in einen anderen,
+// Verwenden Sie die oben genannten Methoden, um auf alte und neue Stile zu verweisen.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

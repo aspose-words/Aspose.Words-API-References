@@ -3,7 +3,7 @@ title: FieldCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: FieldCollection Count eigendom. Gibt die Anzahl der Felder in der Sammlung zurück in C#.
+description: Entdecken Sie die Eigenschaft „FieldCollection Count“, die für eine optimierte Datenverwaltung effizient die Gesamtzahl der Felder in Ihrer Sammlung zurückgibt.
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldcollection/count/
@@ -36,21 +36,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Im Folgenden finden Sie vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung.
-// 1 – Ein Feld abrufen, um sich selbst zu entfernen:
+// Unten sind vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung aufgeführt.
+// 1 - Ein Feld dazu bringen, sich selbst zu entfernen:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 – Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
+// 2 – Lassen Sie die Sammlung ein Feld entfernen, das wir an ihre Entfernungsmethode übergeben:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 – Ein Feld aus einer Sammlung an einem Index entfernen:
+// 3 – Entfernen Sie ein Feld aus einer Sammlung an einem Index:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 – Alle Felder auf einmal aus der Sammlung entfernen:
+// 4 – Entfernen Sie alle Felder auf einmal aus der Sammlung:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -75,8 +75,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Über die Feldsammlung iterieren und Inhalt und Typ ausgeben
-    // jedes Feldes mithilfe einer benutzerdefinierten Besucherimplementierung.
+    // Durchlaufen Sie die Feldsammlung und drucken Sie Inhalt und Typ
+    // jedes Felds mithilfe einer benutzerdefinierten Besucherimplementierung.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())

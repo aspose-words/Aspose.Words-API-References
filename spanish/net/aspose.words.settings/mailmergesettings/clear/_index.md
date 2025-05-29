@@ -3,14 +3,14 @@ title: MailMergeSettings.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: MailMergeSettings Clear método. Borra la configuración de combinación de correspondencia de tal manera que cuando se guarde el documento no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal en C#.
+description: Restablezca sin esfuerzo su configuración de combinación de correspondencia con el método MailMergeSettings Clear, transformando su documento a un formato estándar para un uso sin inconvenientes.
 type: docs
 weight: 180
 url: /es/net/aspose.words.settings/mailmergesettings/clear/
 ---
 ## MailMergeSettings.Clear method
 
-Borra la configuración de combinación de correspondencia de tal manera que cuando se guarde el documento, no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal.
+Borra la configuración de combinación de correspondencia de tal manera que cuando se guarda el documento, no se guardará ninguna configuración de combinación de correspondencia y se convertirá en un documento normal.
 
 ```csharp
 public void Clear()
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

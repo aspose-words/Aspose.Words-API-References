@@ -3,7 +3,7 @@ title: FootnoteOptions.Columns
 linktitle: Columns
 articleTitle: Columns
 second_title: Aspose.Words per .NET
-description: FootnoteOptions Columns proprietà. Specifica il numero di colonne con cui è formattata larea delle note a piè di pagina in C#.
+description: Scopri la proprietà Colonne di FootnoteOptions per formattare facilmente le note a piè di pagina con layout di colonne personalizzabili per una migliore leggibilità e presentazione.
 type: docs
 weight: 10
 url: /it/net/aspose.words.notes/footnoteoptions/columns/
@@ -18,11 +18,11 @@ public int Columns { get; set; }
 
 ## Osservazioni
 
-Se questa proprietà ha valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne basato sul numero di colonne nella pagina visualizzata. Il valore predefinito è 0.
+Se questa proprietà ha il valore 0, l'area delle note a piè di pagina viene formattata con un numero di colonne basato sul numero di colonne della pagina visualizzata. Il valore predefinito è 0.
 
 ## Esempi
 
-Mostra come dividere la sezione della nota a piè di pagina in un determinato numero di colonne.
+Mostra come suddividere la sezione delle note a piè di pagina in un dato numero di colonne.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");

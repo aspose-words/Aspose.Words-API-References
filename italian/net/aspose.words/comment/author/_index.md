@@ -3,7 +3,7 @@ title: Comment.Author
 linktitle: Author
 articleTitle: Author
 second_title: Aspose.Words per .NET
-description: Comment Author proprietà. Restituisce o imposta il nome dellautore per un commento in C#.
+description: Gestisci gli autori dei commenti in modo semplice con la proprietà Autore del commento. Restituisci o imposta facilmente i nomi degli autori per migliorare il coinvolgimento degli utenti e la chiarezza dei contenuti.
 type: docs
 weight: 30
 url: /it/net/aspose.words/comment/author/
@@ -18,9 +18,9 @@ public string Author { get; set; }
 
 ## Osservazioni
 
-Non può essere`nullo`.
+Non può essere`null`.
 
-L'impostazione predefinita è una stringa vuota.
+Il valore predefinito è una stringa vuota.
 
 ## Esempi
 
@@ -30,9 +30,9 @@ Mostra come stampare tutti i commenti di un documento e le relative risposte.
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Se un commento non ha un antenato, è un commento di "livello superiore" invece di un commento di tipo risposta.
-// Stampa tutti i commenti di livello superiore insieme alle eventuali risposte.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Se un commento non ha antenati, si tratta di un commento di "livello superiore" e non di un commento di tipo risposta.
+// Stampa tutti i commenti di primo livello insieme alle eventuali risposte.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

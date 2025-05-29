@@ -2,8 +2,8 @@
 title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
-second_title: Aspose.Words for .NET
-description: TabStopCollection GetPositionByIndex yöntem. Belirtilen dizindeki sekme durağının konumunu nokta cinsinden alır C#'da.
+second_title: .NET için Aspose.Words
+description: TabStopCollection GetPositionByIndex metodunu keşfedin ve indekse göre noktalardaki sekme durağı konumlarını kolayca bulun. Düzeninizi zahmetsizce optimize edin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words/tabstopcollection/getpositionbyindex/
@@ -18,7 +18,7 @@ public double GetPositionByIndex(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sekme duraklarının koleksiyonuna ilişkin bir dizin. |
+| index | Int32 | Sekme duraklarının koleksiyonuna ait bir dizin. |
 
 ### Geri dönüş değeri
 
@@ -26,7 +26,7 @@ Sekme durağının konumu.
 
 ## Örnekler
 
-Bir sekmenin nasıl bulunacağını, dizinine nasıl uğranacağını ve konumunun nasıl doğrulanacağını gösterir.
+Bir sekmenin nasıl bulunacağını, dizinine nasıl gidileceğini ve konumunun nasıl doğrulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
-// Koleksiyondaki ikinci sekme durağının konumunu doğrulayın.
+// Koleksiyondaki ikinci sekme durağının konumunu doğrula.
 Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
 ```
 

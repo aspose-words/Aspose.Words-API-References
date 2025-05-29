@@ -3,14 +3,14 @@ title: FieldBarcode.FacingIdentificationMark
 linktitle: FacingIdentificationMark
 articleTitle: FacingIdentificationMark
 second_title: Aspose.Words لـ .NET
-description: FieldBarcode FacingIdentificationMark ملكية. الحصول على أو تعيين نوع علامة التعريف المواجهة FIM المراد إدراجها في C#.
+description: اكتشف خاصية FieldBarcode FacingIdentificationMark لإدارة وتخصيص علامات تعريف المواجهة (FIM) بسهولة لتحسين كفاءة المسح الضوئي.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
 ## FieldBarcode.FacingIdentificationMark property
 
-الحصول على أو تعيين نوع علامة التعريف المواجهة (FIM) المراد إدراجها.
+يحصل على نوع علامة التعريف المواجهة (FIM) المراد إدراجها أو يعينه.
 
 ```csharp
 public string FacingIdentificationMark { get; set; }
@@ -18,7 +18,7 @@ public string FacingIdentificationMark { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقل BARCODE لعرض الرموز البريدية الأمريكية على شكل باركود.
+يوضح كيفية استخدام حقل الباركود لعرض الرموز البريدية الأمريكية في شكل رمز شريطي.
 
 ```csharp
 Document doc = new Document();
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// فيما يلي طريقتان لاستخدام حقول الباركود لعرض القيم المخصصة كرموز شريطية.
-// 1 - قم بتخزين القيمة التي سيعرضها الباركود في خاصية العنوان البريدي:
+// فيما يلي طريقتان لاستخدام حقول BARCODE لعرض القيم المخصصة كرموز شريطية.
+// 1 - قم بتخزين القيمة التي سيعرضها الرمز الشريطي في خاصية PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
-// يجب أن تكون هذه القيمة رمزًا بريديًا صالحًا.
+//يجب أن تكون هذه القيمة رمزًا بريديًا صالحًا.
 field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
@@ -39,15 +39,15 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - إشارة مرجعية تخزن القيمة التي سيعرضها هذا الرمز الشريطي:
+// 2 - قم بالإشارة إلى إشارة مرجعية تخزن القيمة التي سيعرضها هذا الرمز الشريطي:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
-// الإشارة المرجعية التي يشير إليها حقل BARCODE في خاصية PostalAddress الخاصة به
-// يجب ألا يحتوي على أي شيء إلى جانب الرمز البريدي الصالح.
+// الإشارة المرجعية التي يشير إليها حقل BARCODE في خاصية PostalAddress
+//يجب أن لا يحتوي على أي شيء سوى الرمز البريدي الصحيح.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

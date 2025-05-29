@@ -2,8 +2,8 @@
 title: VbaProject.CodePage
 linktitle: CodePage
 articleTitle: CodePage
-second_title: Aspose.Words for .NET
-description: VbaProject CodePage mülk. VBA projesinin kod sayfasını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş performans ve uyumluluk için VBA projenizin kod sayfası ayarlarını optimize etmek amacıyla VbaProject CodePage özelliğini nasıl yöneteceğinizi keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.vba/vbaproject/codepage/
@@ -18,7 +18,7 @@ public int CodePage { get; set; }
 
 ## Notlar
 
-VBA'nın Unicode öncesi bir özellik olduğunu ve bölgesel karakter kümelerini korumak için açıkça uygun kod sayfasını ayarlamanız gerektiğini lütfen unutmayın.
+Lütfen VBA'nın Unicode öncesi bir özellik olduğunu ve bölgesel karakter kümelerini korumak için uygun kod sayfasını açıkça ayarlamanız gerektiğini unutmayın.
 
 ## Örnekler
 
@@ -33,18 +33,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya adına göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Koleksiyondan bir modülü kaldırın.
+// Koleksiyondan bir modülü kaldır.
 vbaModules.Remove(vbaModules[2]);
 ```
 

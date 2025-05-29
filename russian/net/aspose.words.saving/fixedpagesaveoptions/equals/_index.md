@@ -3,7 +3,7 @@ title: FixedPageSaveOptions.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: FixedPageSaveOptions Equals метод. Определяет равен ли указанный объект по значению текущему объекту на С#.
+description: Узнайте, как метод FixedPageSaveOptions Equals проверяет равенство значений с вашим текущим объектом, обеспечивая точную обработку данных в ваших приложениях.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.saving/fixedpagesaveoptions/equals/

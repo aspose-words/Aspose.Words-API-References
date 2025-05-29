@@ -3,14 +3,14 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words för .NET
-description: ShapeBase Rotation fast egendom. Definierar vinkeln i grader som en form roteras. Positivt värde motsvarar medurs rotationsvinkel i C#.
+description: Upptäck ShapeBase Rotation-egenskapen, definiera och anpassa enkelt rotationsvinklar för dina former, vilket förbättrar din designs precision och kreativitet.
 type: docs
-weight: 470
+weight: 500
 url: /sv/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
 
-Definierar vinkeln (i grader) som en form roteras. Positivt värde motsvarar medurs rotationsvinkel.
+Definierar vinkeln (i grader) som en form roteras med. Positivt värde motsvarar medurs rotationsvinkel.
 
 ```csharp
 public double Rotation { get; set; }
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en form med en bild.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

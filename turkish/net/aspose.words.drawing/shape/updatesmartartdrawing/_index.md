@@ -2,15 +2,15 @@
 title: Shape.UpdateSmartArtDrawing
 linktitle: UpdateSmartArtDrawing
 articleTitle: UpdateSmartArtDrawing
-second_title: Aspose.Words for .NET
-description: Shape UpdateSmartArtDrawing yöntem. Aspose.Wordsün SmartArt soğuk işleme motorunu kullanarak SmartArt önceden oluşturulmuş çizimi günceller C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words'ün gelişmiş SmartArt işleme özelliğini kullanarak çarpıcı görseller elde etmek için belgelerinizi Shape UpdateSmartArtDrawing yöntemiyle geliştirin.
 type: docs
-weight: 250
+weight: 280
 url: /tr/net/aspose.words.drawing/shape/updatesmartartdrawing/
 ---
 ## Shape.UpdateSmartArtDrawing method
 
-Aspose.Words'ün SmartArt soğuk işleme motorunu kullanarak SmartArt önceden oluşturulmuş çizimi günceller.
+Aspose.Words'ün SmartArt soğuk işleme motorunu kullanarak SmartArt önceden işlenmiş çizimini günceller.
 
 ```csharp
 public void UpdateSmartArtDrawing()
@@ -18,7 +18,7 @@ public void UpdateSmartArtDrawing()
 
 ## Notlar
 
-Microsoft Word, önceden oluşturulmuş çizimi SmartArt nesnesiyle birlikte oluşturur ve kaydeder. Ancak, belge başka uygulamalar tarafından kaydedildiyse önceden oluşturulmuş SmartArt çizimi eksik veya yanlış olabilir. Önceden oluşturulmuş çizim mevcutsa Aspose.Words bunu SmartArt nesnesini oluşturmak için kullanır. Önceden oluşturulmuş çizim varsa eksikse Aspose.Words, SmartArt nesnesini işlemek için kendi SmartArt soğuk işleme motorunu kullanır. Önceden oluşturulmuş çizim hatalıysa, SmartArt cold işleme motorunu çağırmak için bu yöntemin çağrılması gerekir.
+Microsoft Word, önceden işlenmiş çizimi SmartArt nesnesiyle birlikte oluşturur ve kaydeder. Ancak, belge başka uygulamalar tarafından kaydedilirse, önceden işlenmiş SmartArt çizimi eksik veya yanlış olabilir. Önceden işlenmiş çizim mevcutsa, Aspose.Words bunu SmartArt nesnesini işlemek için kullanır. Önceden işlenmiş çizim yoksa, Aspose.Words kendi SmartArt soğuk işleme motorunu kullanarak SmartArt nesnesini işler. Önceden işlenmiş çizim yanlışsa, SmartArt soğuk işleme motorunu çağırmak için bu yöntemi çağırmak gerekir.
 
 ### Ayrıca bakınız
 

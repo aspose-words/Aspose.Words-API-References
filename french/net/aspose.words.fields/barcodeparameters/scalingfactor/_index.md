@@ -3,14 +3,14 @@ title: BarcodeParameters.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words pour .NET
-description: BarcodeParameters ScalingFactor propriété. Facteur déchelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont 10 1000 en C#.
+description: Découvrez la propriété BarcodeParameters ScalingFactor, qui permet une mise à l'échelle précise des symboles en points de pourcentage entiers (10-1000) pour des performances optimales des codes-barres.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.fields/barcodeparameters/scalingfactor/
 ---
 ## BarcodeParameters.ScalingFactor property
 
-Facteur d'échelle pour le symbole. La valeur est en points de pourcentage entiers et les valeurs valides sont [10, 1000].
+Facteur d'échelle du symbole. La valeur est exprimée en points de pourcentage entiers et les valeurs valides sont [10, 1000].
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -29,8 +29,8 @@ doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
 // Vous trouverez ci-dessous quatre exemples de différents types de codes-barres que nous pouvons créer à l'aide de notre générateur.
 // Pour chaque code-barres, nous spécifions un nouvel ensemble de paramètres de code-barres, puis générons l'image.
-// Ensuite, nous pouvons insérer l'image dans le document ou la sauvegarder dans le système de fichiers local.
-// 1 - Code QR :
+// Ensuite, nous pouvons insérer l'image dans le document ou l'enregistrer sur le système de fichiers local.
+// 1 - Code QR :
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "QR",
@@ -44,11 +44,17 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 2 - Code barre EAN13 :
+// 2 - Code-barres EAN13 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "EAN13",
@@ -59,10 +65,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 3 - Code barre CODE39 :
+// 3 - Code-barres CODE39 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "CODE39",
@@ -71,10 +84,17 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
-// 4 - Code barre ITF14 :
+// 4 - Code-barres ITF14 :
 barcodeParameters = new BarcodeParameters
 {
     BarcodeType = "ITF14",
@@ -83,7 +103,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

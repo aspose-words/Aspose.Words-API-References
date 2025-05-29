@@ -3,14 +3,14 @@ title: CssSavingArgs.KeepCssStreamOpen
 linktitle: KeepCssStreamOpen
 articleTitle: KeepCssStreamOpen
 second_title: Aspose.Words för .NET
-description: CssSavingArgs KeepCssStreamOpen fast egendom. Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en CSSinformation i C#.
+description: Upptäck egenskapen KeepCssStreamOpen i CssSavingArgs. Kontrollera Aspose.Words strömningsbeteende för effektiv CSS-sparning och förbättrad prestanda.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 ---
 ## CssSavingArgs.KeepCssStreamOpen property
 
-Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att ha sparat en CSS-information.
+Anger om Aspose.Words ska hålla strömmen öppen eller stänga den efter att CSS-information har sparats.
 
 ```csharp
 public bool KeepCssStreamOpen { get; set; }
@@ -18,30 +18,30 @@ public bool KeepCssStreamOpen { get; set; }
 
 ## Anmärkningar
 
-Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`CssStream`](../cssstream/) egenskap efter att ha skrivit in en CSS-information i den. Specificera`Sann` för att hålla strömmen öppen.
+Standard är`falsk` och Aspose.Words kommer att stänga strömmen du angav i[`CssStream`](../cssstream/) egenskap efter att ha skrivit CSS-information till den. Ange`sann` för att hålla strömmen öppen.
 
 ## Exempel
 
-Visar hur man arbetar med CSS-formatmallar som en HTML-konvertering skapar.
+Visar hur man arbetar med CSS-stilmallar som skapas av en HTML-konvertering.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Spara"-metod
+    // Skapa ett "HtmlFixedSaveOptions"-objekt, som vi kan skicka till dokumentets "Save"-metod
     // för att ändra hur vi konverterar dokumentet till HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" till
-    // åtfölja ett sparat HTML-dokument med en extern CSS-formatmallsfil.
+    // Ställ in egenskapen "CssStylesheetType" till "CssStyleSheetType.External" för att
+    // komplettera ett sparat HTML-dokument med en extern CSS-stilarksfil.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nedan finns två sätt att ange kataloger och filnamn för CSS-formatmallar.
-    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vår stilmall:
+    // Nedan följer två sätt att ange kataloger och filnamn för CSS-formatmallar som utdata.
+    // 1 - Använd egenskapen "CssStyleSheetFileName" för att tilldela ett filnamn till vårt stilark:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Använd en anpassad återuppringning för att namnge vår stilmall:
+    // 2 - Använd en anpassad återuppringning för att namnge vårt stilark:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -49,7 +49,7 @@ public void ExternalCssFilenames()
 }
 
 /// <summary>
-/// Ställer in ett anpassat filnamn, tillsammans med andra parametrar för en extern CSS-stilmall.
+/// Anger ett anpassat filnamn, tillsammans med andra parametrar för ett externt CSS-stilark.
 /// </summary>
 private class CustomCssSavingCallback : ICssSavingCallback
 {

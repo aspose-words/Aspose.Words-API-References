@@ -3,9 +3,9 @@ title: ChartDataLabel.ShowCategoryName
 linktitle: ShowCategoryName
 articleTitle: ShowCategoryName
 second_title: Aspose.Words pour .NET
-description: ChartDataLabel ShowCategoryName propriété. Permet de spécifier si le nom de la catégorie doit être affiché pour les étiquettes de données sur un graphique. La valeur par défaut estFAUX  en C#.
+description: Améliorez vos graphiques avec la propriété ShowCategoryName de ChartDataLabel. Affichez facilement les noms de catégories sur les étiquettes de données pour des informations plus claires et un meilleur rendu visuel.
 type: docs
-weight: 90
+weight: 140
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/showcategoryname/
 ---
 ## ChartDataLabel.ShowCategoryName property
@@ -34,7 +34,7 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Applique des étiquettes de données à chaque série du graphique.
+    // Appliquer des étiquettes de données à chaque série du graphique.
     // Ces étiquettes apparaîtront à côté de chaque point de données dans le graphique et afficheront sa valeur.
     foreach (ChartSeries series in chart.Series)
     {
@@ -42,7 +42,7 @@ public void DataLabels()
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Modifie la chaîne de séparation pour chaque étiquette de données d'une série.
+    // Modifiez la chaîne de séparation pour chaque étiquette de données d'une série.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,8 +52,11 @@ public void DataLabels()
         }
     }
 
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
     // Pour un graphique plus propre, nous pouvons supprimer les étiquettes de données individuellement.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    dataLabel.ClearFormat();
 
     // Nous pouvons également supprimer une série entière de ses étiquettes de données à la fois.
     chart.Series[2].DataLabels.ClearFormat();
@@ -66,10 +69,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

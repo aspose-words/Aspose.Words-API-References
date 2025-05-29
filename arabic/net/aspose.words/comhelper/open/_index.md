@@ -3,14 +3,14 @@ title: ComHelper.Open
 linktitle: Open
 articleTitle: Open
 second_title: Aspose.Words لـ .NET
-description: ComHelper Open طريقة. يسمح لتطبيق COM بتحميل ملفDocument من ملف في C#.
+description: قم بإلغاء قفل التكامل السلس باستخدام طريقة Open من ComHelper، مما يتيح تحميل المستندات بسهولة من الملفات لتطبيقات COM الخاصة بك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comhelper/open/
 ---
 ## Open(*string*) {#open_1}
 
-يسمح لتطبيق COM بتحميل ملف[`Document`](../../document/) من ملف.
+يسمح لتطبيق COM بتحميل[`Document`](../../document/) من ملف.
 
 ```csharp
 public Document Open(string fileName)
@@ -18,15 +18,15 @@ public Document Open(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف للمستند المراد تحميله. |
+| fileName | String | اسم ملف المستند الذي سيتم تحميله. |
 
 ### قيمة الإرجاع
 
-أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
+أ[`Document`](../../document/) كائن يمثل مستند Word.
 
 ## ملاحظات
 
-هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة اسم الملف.
+هذه الطريقة هي نفس استدعاء[`Document`](../../document/) منشئ مع معلمة اسم الملف.
 
 ## أمثلة
 
@@ -51,7 +51,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من الدفق:
+// 2 - من مجرى:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
@@ -71,7 +71,7 @@ using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open
 
 ## Open(*Stream*) {#open}
 
-يسمح بتحميل تطبيق COM[`Document`](../../document/) من تيار.
+يسمح لتطبيق COM بالتحميل[`Document`](../../document/) من مجرى.
 
 ```csharp
 public Document Open(Stream stream)
@@ -79,15 +79,15 @@ public Document Open(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | كائن دفق .NET يحتوي على المستند المطلوب تحميله. |
+| stream | Stream | كائن دفق .NET يحتوي على المستند الذي سيتم تحميله. |
 
 ### قيمة الإرجاع
 
-أ[`Document`](../../document/)الكائن الذي يمثل مستند Word.
+أ[`Document`](../../document/) كائن يمثل مستند Word.
 
 ## ملاحظات
 
-هذه الطريقة هي نفس طريقة استدعاء[`Document`](../../document/) منشئ مع معلمة الدفق.
+هذه الطريقة هي نفس استدعاء[`Document`](../../document/) منشئ مع معلمة تدفق.
 
 ## أمثلة
 
@@ -102,7 +102,7 @@ Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
 
-// 2 - من الدفق:
+// 2 - من مجرى:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);

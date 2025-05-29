@@ -2,8 +2,8 @@
 title: Border.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: Aspose.Words for .NET
-description: Border LineStyle mülk. Kenarlık stilini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Border LineStyle özelliğiyle tasarımınızı özelleştirerek, gelişmiş görsel çekicilik için benzersiz kenarlık stilleri kolayca alabilir veya ayarlayabilirsiniz.
 type: docs
 weight: 40
 url: /tr/net/aspose.words/border/linestyle/
@@ -18,11 +18,11 @@ public LineStyle LineStyle { get; set; }
 
 ## Notlar
 
-Çizgi stilini yok olarak ayarlarsanız çizgi genişliği otomatik olarak sıfıra değiştirilir.
+Eğer çizgi stilini hiçbiri olarak ayarlarsanız, çizgi genişliği otomatik olarak sıfıra değişir.
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

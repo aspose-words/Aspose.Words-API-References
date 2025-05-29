@@ -3,9 +3,9 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.BreakType перечисление. Указывает тип разрыва внутри документа на С#.
+description: Откройте для себя перечисление Aspose.Words.BreakType, чтобы улучшить форматирование документа с помощью точных типов разрывов для улучшения читаемости и управления макетом.
 type: docs
-weight: 110
+weight: 300
 url: /ru/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
@@ -20,7 +20,7 @@ public enum BreakType
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| ParagraphBreak | `0` | Разрыв между абзацами. |
+| ParagraphBreak | `0` | Перерыв между абзацами. |
 | PageBreak | `1` | Явный разрыв страницы. |
 | ColumnBreak | `2` | Явный разрыв столбца. |
 | SectionBreakContinuous | `3` | Указывает начало нового раздела на той же странице, что и предыдущий раздел. |
@@ -28,7 +28,7 @@ public enum BreakType
 | SectionBreakNewPage | `5` | Указывает начало нового раздела на новой странице. |
 | SectionBreakEvenPage | `6` | Указывает начало нового раздела на новой четной странице. |
 | SectionBreakOddPage | `7` | Указывает начало нового раздела на нечетной странице. |
-| LineBreak | `8` | Явный разрыв строки. |
+| LineBreak | `8` | Явный перенос строки. |
 
 ## Примеры
 
@@ -38,11 +38,11 @@ public enum BreakType
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Указываем, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
+// Укажите, что нам нужны разные верхние и нижние колонтитулы для первой, четной и нечетной страниц.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// Создайте заголовки, затем добавьте в документ три страницы для отображения каждого типа заголовка.
+// Создаем заголовки, затем добавляем в документ три страницы для отображения каждого типа заголовков.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -60,7 +60,7 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -71,7 +71,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
@@ -95,15 +95,15 @@ doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем оглавление первой страницы документа.
-// Настройте таблицу так, чтобы она подбирала абзацы с заголовками уровней от 1 до 3.
-// Также сделайте его записи гиперссылками, которые приведут нас
-// к местоположению заголовка при щелчке левой кнопкой мыши в Microsoft Word.
+// Вставьте оглавление для первой страницы документа.
+// Настройте таблицу для выбора абзацев с заголовками уровней 1–3.
+// Также задайте его записи как гиперссылки, которые перенесут нас
+// в место расположения заголовка при щелчке левой кнопкой мыши в Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Заполняем оглавление, добавляя абзацы со стилями заголовков.
-// Каждый такой заголовок уровня от 1 до 3 создаст запись в таблице.
+// Заполните оглавление, добавив абзацы со стилями заголовков.
+// Каждый такой заголовок с уровнем от 1 до 3 создаст запись в таблице.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 
@@ -131,7 +131,7 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading2;
 builder.Writeln("Heading 3.2");
 builder.Writeln("Heading 3.3");
 
-// Оглавление — это поле типа, которое необходимо обновить, чтобы отобразить актуальный результат.
+// Оглавление — это поле типа, которое необходимо обновить для отображения актуального результата.
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertToc.docx");
 ```

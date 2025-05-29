@@ -3,7 +3,7 @@ title: FieldInfo
 linktitle: FieldInfo
 articleTitle: FieldInfo
 second_title: Aspose.Words для .NET
-description: FieldInfo строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldInfo, ваше решение для эффективной обработки данных в программировании. Упростите свой код с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldinfo/fieldinfo/

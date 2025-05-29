@@ -3,9 +3,9 @@ title: BaselineAlignment Enum
 linktitle: BaselineAlignment
 articleTitle: BaselineAlignment
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.BaselineAlignment énumération. Spécifie la position verticale des polices sur une ligne en C#.
+description: Découvrez l'énumération Aspose.Words.BaselineAlignment pour un positionnement précis des polices. Améliorez la mise en forme de vos documents grâce à des options d'alignement vertical optimales.
 type: docs
-weight: 20
+weight: 130
 url: /fr/net/aspose.words/baselinealignment/
 ---
 ## BaselineAlignment enumeration
@@ -20,7 +20,7 @@ public enum BaselineAlignment
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| Top | `0` | Aligne le haut de chaque police. |
+| Top | `0` | S'aligne en haut de chaque police. |
 | Center | `1` | Aligne les points centraux de chaque police. |
 | Baseline | `2` | S'aligne sur la ligne de base du paragraphe. |
 | Bottom | `3` | S'aligne au bas de chaque police. |

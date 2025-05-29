@@ -2,15 +2,15 @@
 title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
-second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLine IsSigned 财产. 表示签名行由数字签名签名 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SignatureLine 的 IsSigned 属性如何确认数字签名的真实性，确保交易安全可靠。增强文档完整性！
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/signatureline/issigned/
 ---
 ## SignatureLine.IsSigned property
 
-表示签名行由数字签名签名。
+表示签名行已通过数字签名进行签名。
 
 ```csharp
 public bool IsSigned { get; }
@@ -18,7 +18,7 @@ public bool IsSigned { get; }
 
 ## 例子
 
-演示如何使用个人证书和签名行签署文档。
+展示如何使用个人证书和签名行签署文件。
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性都等于“true”，
+// 重新打开我们保存的文档，并验证“IsSigned”和“IsValid”属性是否都等于“true”，
 // 表示签名行包含签名。
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

@@ -3,14 +3,14 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words för .NET
-description: LoadOptions ProgressCallback fast egendom. Anropas under laddning av ett dokument och accepterar data om laddningsförlopp i C#.
+description: Upptäck egenskapen LoadOptions ProgressCallback för att effektivt spåra dokumentinläsningen. Förbättra din apps prestanda och användarupplevelse!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.loading/loadoptions/progresscallback/
 ---
 ## LoadOptions.ProgressCallback property
 
-Anropas under laddning av ett dokument och accepterar data om laddningsförlopp.
+Anropas under laddning av ett dokument och accepterar data om laddningsförloppet.
 
 ```csharp
 public IDocumentLoadingCallback ProgressCallback { get; set; }
@@ -22,7 +22,7 @@ Docx ,FlatOpc ,Docm ,Dotm ,Dotx ,Markdown ,Rtf ,WordML ,Doc ,Dot ,Odt ,Ott forma
 
 ## Exempel
 
-Visar hur man meddelar användaren om dokumentladdningen överskrider förväntad laddningstid.
+Visar hur man meddelar användaren om dokumentinläsningen överskrider den förväntade inläsningstiden.
 
 ```csharp
 public void ProgressCallback()
@@ -44,12 +44,12 @@ public void ProgressCallback()
 }
 
 /// <summary>
-/// Avbryt ett dokument som laddas efter "MaxDuration" sekunderna.
+/// Avbryt en dokumentinläsning efter "MaxDuration" sekunder.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr.
+    /// Centrum
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -57,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Återuppringningsmetod som anropades under dokumentladdning.
+    /// Återanropsmetod som anropades under dokumentinläsning.
     /// </summary>
     /// <param name="args">Laddar argument.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -70,12 +70,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Datum och tid när dokumentladdningen startas.
+    /// Datum och tid då dokumentinläsningen startade.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Maximal tillåten varaktighet i sek.
+    /// Maximal tillåten varaktighet i sekunder.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

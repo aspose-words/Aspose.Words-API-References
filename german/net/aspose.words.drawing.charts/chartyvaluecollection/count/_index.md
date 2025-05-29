@@ -3,7 +3,7 @@ title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: ChartYValueCollection Count eigendom. Ruft die Anzahl der Elemente in dieser Sammlung ab in C#.
+description: Entdecken Sie die Eigenschaft „ChartYValueCollection Count“, um für eine verbesserte Datenverwaltung einfach auf die Gesamtzahl der Elemente in Ihrer Datensammlung zuzugreifen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing.charts/chartyvaluecollection/count/

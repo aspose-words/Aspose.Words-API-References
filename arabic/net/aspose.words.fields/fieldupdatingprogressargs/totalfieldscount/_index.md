@@ -3,14 +3,14 @@ title: FieldUpdatingProgressArgs.TotalFieldsCount
 linktitle: TotalFieldsCount
 articleTitle: TotalFieldsCount
 second_title: Aspose.Words لـ .NET
-description: FieldUpdatingProgressArgs TotalFieldsCount ملكية. الحصول على إجمالي عدد الحقول المراد تحديثها في C#.
+description: اكتشف خاصية TotalFieldsCount في FieldUpdatingProgressArgs لتتبع وإدارة تحديثات الحقول بكفاءة لتحسين الأداء.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
 ---
 ## FieldUpdatingProgressArgs.TotalFieldsCount property
 
-الحصول على إجمالي عدد الحقول المراد تحديثها.
+يحصل على إجمالي عدد الحقول التي سيتم تحديثها.
 
 ```csharp
 public int TotalFieldsCount { get; }
@@ -18,11 +18,11 @@ public int TotalFieldsCount { get; }
 
 ## ملاحظات
 
-القيمة ليست ثابتة وقد تزيد أثناء عملية التحديث.
+القيمة ليست ثابتة وقد تزداد أثناء عملية التحديث.
 
 ## أمثلة
 
-يوضح كيفية استخدام طرق رد الاتصال أثناء التحديث الميداني.
+يوضح كيفية استخدام طرق الاتصال الرجعي أثناء تحديث الحقل.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -46,7 +46,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء الأساليب المخصصة الخاصة بك أثناء التحديث الميداني.
+/// قم بتنفيذ هذه الواجهة إذا كنت تريد استدعاء طرقك المخصصة أثناء تحديث الحقل.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -56,7 +56,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها قبل تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -68,7 +68,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// طريقة يحددها المستخدم يتم استدعاؤها مباشرة بعد تحديث الحقل.
+    /// طريقة محددة من قبل المستخدم يتم استدعاؤها بعد تحديث الحقل مباشرةً.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

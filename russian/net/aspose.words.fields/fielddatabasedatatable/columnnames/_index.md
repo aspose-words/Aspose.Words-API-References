@@ -3,7 +3,7 @@ title: FieldDatabaseDataTable.ColumnNames
 linktitle: ColumnNames
 articleTitle: ColumnNames
 second_title: Aspose.Words для .NET
-description: FieldDatabaseDataTable ColumnNames свойство. Получает столбцы принадлежащие этой таблице на С#.
+description: Откройте для себя свойство ColumnNames объекта FieldDatabaseDataTable, чтобы легко получать доступ к столбцам таблицы и управлять ими для улучшенной организации и анализа данных.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fielddatabasedatatable/columnnames/

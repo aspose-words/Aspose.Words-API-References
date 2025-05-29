@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: OdsoRecipientDataCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
+description: Découvrez la propriété OdsoRecipientDataCollection Count pour récupérer facilement le nombre total d'éléments, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/count/
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

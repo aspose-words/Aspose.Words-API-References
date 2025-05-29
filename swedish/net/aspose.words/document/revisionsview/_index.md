@@ -3,14 +3,14 @@ title: Document.RevisionsView
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words för .NET
-description: Document RevisionsView fast egendom. Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den ursprungliga eller reviderade versionen av ett dokument i C#.
+description: Hantera dokumentrevisioner enkelt! Välj mellan original- eller uppdaterade versioner för sömlöst samarbete och förbättrad produktivitet.
 type: docs
-weight: 360
+weight: 380
 url: /sv/net/aspose.words/document/revisionsview/
 ---
 ## Document.RevisionsView property
 
-Hämtar eller ställer in ett värde som indikerar om man ska arbeta med den ursprungliga eller reviderade versionen av ett dokument.
+Hämtar eller anger ett värde som anger om man ska arbeta med originalversionen eller den reviderade versionen av ett dokument.
 
 ```csharp
 public RevisionsView RevisionsView { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är .
 
 ## Exempel
 
-Visar hur du växlar mellan den reviderade och den ursprungliga vyn av ett dokument.
+Visar hur man växlar mellan den reviderade och ursprungliga vyn av ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions at list levels.docx");

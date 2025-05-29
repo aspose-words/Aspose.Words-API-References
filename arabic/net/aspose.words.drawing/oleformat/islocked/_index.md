@@ -3,14 +3,14 @@ title: OleFormat.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words لـ .NET
-description: OleFormat IsLocked ملكية. يحدد ما إذا كان الارتباط بكائن OLE مؤمنًا من التحديثات في C#.
+description: اكتشف خاصية OleFormat IsLocked، وتحكم بروابط كائنات OLE، وعزز سلامة البيانات بمنع التحديثات غير المرغوب فيها. تعرّف على المزيد الآن!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing/oleformat/islocked/
 ---
 ## OleFormat.IsLocked property
 
-يحدد ما إذا كان الارتباط بكائن OLE مؤمنًا من التحديثات.
+يحدد ما إذا كان الارتباط بكائن OLE مقفلاً ضد التحديثات.
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -28,21 +28,21 @@ public bool IsLocked { get; set; }
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// كائن OLE الموجود في الشكل الأول هو جدول بيانات Microsoft Excel.
+// كائن OLE في الشكل الأول هو جدول بيانات Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// كائننا لا يتم تحديثه تلقائيًا ولا يتم قفله من التحديثات.
+// هدفنا ليس تحديثًا تلقائيًا ولا محظورًا من التحديثات.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // إذا كنا نخطط لحفظ كائن OLE في ملف في نظام الملفات المحلي،
-// يمكننا استخدام خاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
+// يمكننا استخدام الخاصية "SuggestedExtension" لتحديد امتداد الملف الذي سيتم تطبيقه على الملف.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // فيما يلي طريقتان لحفظ كائن OLE في ملف في نظام الملفات المحلي.
-// 1 - احفظه عبر الدفق:
+// 1 - احفظه عبر مجرى:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

@@ -3,7 +3,7 @@ title: ToaCategories
 linktitle: ToaCategories
 articleTitle: ToaCategories
 second_title: Aspose.Words para .NET
-description: ToaCategories constructor. Constructor predeterminado en C#.
+description: Descubra el constructor ToaCategories: su solución ideal para una gestión de categorías eficiente con integración perfecta y funciones personalizables.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/toacategories/toacategories/

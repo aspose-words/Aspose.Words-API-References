@@ -3,26 +3,27 @@ title: ITextShaper.ShapeText
 linktitle: ShapeText
 articleTitle: ShapeText
 second_title: Aspose.Words для .NET
-description: ITextShaper ShapeText метод. ВозвращаетClusterобъекты сгенерированные из последовательности текстовых фрагментов. Длина возвращаемого массива равна длинеruns . Если запуск по индексу имеет соответствующие кластеры то результат по тому же индексу будет записан на С#.
+description: Откройте для себя метод ShapeText iTextShaper, который эффективно генерирует объекты Cluster из текстовых фрагментов, обеспечивая точное форматирование и выравнивание текста.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.shaping/itextshaper/shapetext/
 ---
 ## ITextShaper.ShapeText method
 
-Возвращает[`Cluster`](../../cluster/)объекты, сгенерированные из последовательности текстовых фрагментов. Длина возвращаемого массива равна длине*runs* . Если запуск по индексу имеет соответствующие кластеры, то результат по тому же индексу будет записан.
+Возврат[`Cluster`](../../cluster/)объекты, сгенерированные из последовательности текстовых фрагментов. Длина возвращаемого массива равна длине*runs* . Если запуск по индексу имеет соответствующие кластеры, то результат по тому же индексу будет содержать их запись.
 
 ```csharp
 public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript script, 
-    params FontFeature[] fontFeatures)
+    FontFeature[] enabledFontFeatures, VariationAxisCoordinate[] variations)
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| runs | String[] | Последовательность текстовых фрагментов |
+| runs | String[] | Последовательность фрагментов текста |
 | direction | Direction | Направление текста |
-| script | UnicodeScript | Скрипт |
-| fontFeatures | FontFeature[] | Набор функций, которые следует учитывать |
+| script | UnicodeScript | Сценарий |
+| enabledFontFeatures | FontFeature[] | Набор явно включенных функций OpenType, которые следует учитывать |
+| variations | VariationAxisCoordinate[] | Значения оси вариации шрифта |
 
 ### Смотрите также
 
@@ -30,6 +31,7 @@ public Cluster[][] ShapeText(string[] runs, Direction direction, UnicodeScript s
 * enum [Direction](../../direction/)
 * enum [UnicodeScript](../../unicodescript/)
 * enum [FontFeature](../../fontfeature/)
+* class [VariationAxisCoordinate](../../variationaxiscoordinate/)
 * interface [ITextShaper](../)
 * пространство имен [Aspose.Words.Shaping](../../../aspose.words.shaping/)
 * сборка [Aspose.Words](../../../)

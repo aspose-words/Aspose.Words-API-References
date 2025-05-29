@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart NodeType proprietà. RestituisceStructuredDocumentTagRangeStart  in C#.
+description: Scopri la proprietà StructuredDocumentTagRangeStart NodeType, essenziale per una strutturazione efficiente dei documenti e una gestione avanzata dei contenuti nei tuoi progetti.
 type: docs
 weight: 100
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/nodetype/

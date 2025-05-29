@@ -3,14 +3,14 @@ title: Metered.GetConsumptionQuantity
 linktitle: GetConsumptionQuantity
 articleTitle: GetConsumptionQuantity
 second_title: Aspose.Words لـ .NET
-description: Metered GetConsumptionQuantity طريقة. الحصول على حجم ملف الاستهلاك في C#.
+description: اكتشف طريقة Metered GetConsumptionQuantity لاسترجاع بيانات حجم الملفات بكفاءة وتحسين إدارة مواردك. حسّن رؤيتك للبيانات!
 type: docs
-weight: 40
+weight: 50
 url: /ar/net/aspose.words/metered/getconsumptionquantity/
 ---
 ## Metered.GetConsumptionQuantity method
 
-الحصول على حجم ملف الاستهلاك
+يحصل على حجم ملف الاستهلاك
 
 ```csharp
 public static decimal GetConsumptionQuantity()
@@ -22,22 +22,24 @@ public static decimal GetConsumptionQuantity()
 
 ## أمثلة
 
-يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
+يوضح كيفية تنشيط ترخيص مقيس وتتبع الائتمان/الاستهلاك.
 
 ```csharp
-// أنشئ ترخيصًا محدودًا جديدًا، ثم اطبع إحصائيات الاستخدام الخاصة به.
+// قم بإنشاء ترخيص مقنن جديد، ثم اطبع إحصائيات الاستخدام الخاصة به.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// قم بالتشغيل باستخدام Aspose.Words، ثم قم بطباعة الإحصائيات المقاسة لدينا مرة أخرى لمعرفة المبلغ الذي أنفقناه.
+// قم بالعمل باستخدام Aspose.Words، ثم قم بطباعة إحصائياتنا المقاسة مرة أخرى لمعرفة المبلغ الذي أنفقناه.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// لا تقوم آلية الترخيص المقننة بإرسال بيانات الاستخدام لشراء الخادم في كل مرة،
-// تحتاج إلى استخدام الانتظار.
+// لا تقوم آلية ترخيص Aspose Metered بإرسال بيانات الاستخدام إلى خادم الشراء في كل مرة،
+//يجب عليك استخدام الانتظار.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

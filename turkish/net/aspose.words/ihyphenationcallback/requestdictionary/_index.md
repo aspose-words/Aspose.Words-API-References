@@ -2,19 +2,19 @@
 title: IHyphenationCallback.RequestDictionary
 linktitle: RequestDictionary
 articleTitle: RequestDictionary
-second_title: Aspose.Words for .NET
-description: IHyphenationCallback RequestDictionary yöntem. Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir C#'da.
+second_title: .NET için Aspose.Words
+description: IHyphenationCallback RequestDictionary metodunu keşfedin, uygulamanızda kusursuz dil desteği için eksik tireleme sözlüklerini etkin bir şekilde işleyin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/ihyphenationcallback/requestdictionary/
 ---
 ## IHyphenationCallback.RequestDictionary method
 
-Belirtilen dil için tireleme sözlüğünün bulunamadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir.
+Belirtilen dil için tireleme sözlüğünün bulunmadığını ve kaydedilmesi gerekebileceğini uygulamaya bildirir.
 
-Uygulama bir sözlük bulmalı ve onu kullanarak kaydetmelidir[`RegisterDictionary`](../../hyphenation/registerdictionary/) yöntemler.
+Uygulama bir sözlük bulmalı ve onu kullanarak kaydetmelidir[`RegisterDictionary`](../../hyphenation/registerdictionary/) Yöntemler.
 
-Belirtilen dil uygulaması için sözlük mevcut değilse, aynı dil için başka çağrıları devre dışı bırakabilirsiniz kullanarak[`RegisterDictionary`](../../hyphenation/registerdictionary/) ile`hükümsüz` değer.
+Belirtilen dil uygulaması için sözlük mevcut değilse, aynı dil için daha fazla çağrı yapılmayabilir [`RegisterDictionary`](../../hyphenation/registerdictionary/) ile`hükümsüz` değer.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -26,45 +26,46 @@ public void RequestDictionary(string language)
 
 ## Notlar
 
-Bu yöntemle oluşturulan istisnalar, sayfa düzeni işleminin yürütülmesini iptal edecektir.
+Bu yöntem tarafından oluşturulan istisnalar sayfa düzeni işleminin yürütülmesini sonlandıracaktır.
 
 ## Örnekler
 
-Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir sözlüğün dosyadan nasıl açılıp kaydedileceğini gösterir.
 
 ```csharp
 public void RegisterDictionary()
 {
-    // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
+    // Heceleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Akışa göre bir İngilizce (ABD) tireleme sözlüğü kaydedin.
+    // Akış yoluyla bir İngilizce (ABD) tireleme sözlüğü kaydedin.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
+    // Microsoft Word'ün İngilizce bir bilgisayarda tireleyemeyeceği bir yerel ayara sahip bir belgeyi (örneğin Almanca) açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
+    // Bu belgeyi kaydederken tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma, söz konusu sözlük için otomatik isteği işleyecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
+    // Belgeyi kaydettiğimizde Almanca tireleme devreye girecek.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Bu sözlük, bir uyarıyı tetikleyecek iki özdeş kalıp içerir.
+    // Bu sözlük, bir uyarıyı tetikleyecek iki özdeş desen içeriyor.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// ISO dil kodlarını tireleme sözlüğü dosyaları için yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

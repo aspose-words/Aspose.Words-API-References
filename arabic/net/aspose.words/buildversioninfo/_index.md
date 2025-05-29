@@ -3,16 +3,16 @@ title: BuildVersionInfo Class
 linktitle: BuildVersionInfo
 articleTitle: BuildVersionInfo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.BuildVersionInfo فصل. يوفر معلومات حول اسم المنتج الحالي وإصداره في C#.
+description: اكتشف فئة Aspose.Words.BuildVersionInfo للحصول على معلومات مفصلة حول اسم المنتج وإصداره. حسّن إدارة مستنداتك ببيانات موثوقة!
 type: docs
-weight: 120
+weight: 310
 url: /ar/net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class
 
-يوفر معلومات حول اسم المنتج الحالي وإصداره.
+يوفر معلومات حول اسم المنتج الحالي والإصدار.
 
-لمعرفة المزيد، قم بزيارة[اسم المولد أو المنتج مدرج في مستندات الإخراج](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[اسم المولد أو المنتج المدرج في مستندات الإخراج](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) مقالة توثيقية.
 
 ```csharp
 public static class BuildVersionInfo
@@ -22,12 +22,12 @@ public static class BuildVersionInfo
 
 | اسم | وصف |
 | --- | --- |
-| static [Product](../../aspose.words/buildversioninfo/product/) { get; } | الحصول على الاسم الكامل للمنتج. |
-| static [Version](../../aspose.words/buildversioninfo/version/) { get; } | الحصول على إصدار المنتج. |
+| static [Product](../../aspose.words/buildversioninfo/product/) { get; } | يحصل على الاسم الكامل للمنتج. |
+| static [Version](../../aspose.words/buildversioninfo/version/) { get; } | يحصل على إصدار المنتج. |
 
 ## أمثلة
 
-يوضح كيفية عرض معلومات حول الإصدار المثبت لديك من Aspose.Words.
+يوضح لك كيفية عرض المعلومات حول إصدار Aspose.Words المثبت لديك.
 
 ```csharp
 Console.WriteLine($"I am currently using {BuildVersionInfo.Product}, version number {BuildVersionInfo.Version}!");

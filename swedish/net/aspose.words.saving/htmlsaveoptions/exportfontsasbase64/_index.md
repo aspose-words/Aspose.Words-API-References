@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 linktitle: ExportFontsAsBase64
 articleTitle: ExportFontsAsBase64
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportFontsAsBase64 fast egendom. Anger om teckensnittsresurser ska bäddas in i HTML i Base64kodning. Standard ärfalsk  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportFontsAsBase64 förbättrar din HTML genom att bädda in teckensnitt i Base64-kodning för förbättrad prestanda. Standardvärdet är falskt.
 type: docs
 weight: 150
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
@@ -18,7 +18,7 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ## Anmärkningar
 
-Som standard skrivs teckensnitt till separata filer. Om det här alternativet är inställt på`Sann`, kommer typsnitt att inbäddas i dokumentets CSS i Base64-kodning.
+Som standard skrivs teckensnitt till separata filer. Om det här alternativet är inställt på`sann`, teckensnitt kommer att bäddas in i dokumentets CSS i Base64-kodning.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
-Visar hur man sparar ett .html-dokument med bilder inbäddade i det.
+Visar hur man sparar ett .html-dokument med inbäddade bilder.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

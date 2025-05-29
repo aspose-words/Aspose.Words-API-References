@@ -3,14 +3,14 @@ title: OleFormat.GetOleEntry
 linktitle: GetOleEntry
 articleTitle: GetOleEntry
 second_title: Aspose.Words für .NET
-description: OleFormat GetOleEntry methode. Ruft den OLEObjektdateneintrag ab in C#.
+description: Entdecken Sie die OleFormat GetOleEntry-Methode zum effizienten Abrufen von OLE-Objektdateneinträgen für verbessertes Datenmanagement und nahtlose Integration.
 type: docs
 weight: 140
 url: /de/net/aspose.words.drawing/oleformat/getoleentry/
 ---
 ## OleFormat.GetOleEntry method
 
-Ruft den OLE-Objektdateneintrag ab.
+Ruft den Dateneintrag des OLE-Objekts ab.
 
 ```csharp
 public MemoryStream GetOleEntry(string oleEntryName)
@@ -22,7 +22,7 @@ public MemoryStream GetOleEntry(string oleEntryName)
 
 ### Rückgabewert
 
-Ein OLE-Datenstrom oder`Null`.
+Ein OLE-Datenstrom oder`null`.
 
 ## Beispiele
 
@@ -32,10 +32,10 @@ Zeigt, wie verknüpfte und nicht verknüpfte OLE-Objekte eingefügt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument einbetten.
+// Betten Sie eine Microsoft Visio-Zeichnung als OLE-Objekt in das Dokument ein.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Einen Link zur Datei im lokalen Dateisystem einfügen und als Symbol anzeigen.
+// Fügen Sie einen Link zur Datei im lokalen Dateisystem ein und zeigen Sie ihn als Symbol an.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
 // Durch das Einfügen von OLE-Objekten werden Formen erstellt, die diese Objekte speichern.
@@ -44,8 +44,8 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 Assert.AreEqual(2, shapes.Length);
 Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
 
-// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige „OleFormat“-Eigenschaft.
-// mit dem wir einige Aspekte der Form überprüfen können.
+// Wenn eine Form ein OLE-Objekt enthält, verfügt sie über eine gültige "OleFormat"-Eigenschaft,
+// die wir verwenden können, um einige Aspekte der Form zu überprüfen.
 OleFormat oleFormat = shapes[0].OleFormat;
 
 Assert.AreEqual(false, oleFormat.IsLink);

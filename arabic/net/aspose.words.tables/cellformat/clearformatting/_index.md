@@ -3,14 +3,14 @@ title: CellFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words لـ .NET
-description: CellFormat ClearFormatting طريقة. إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية في C#.
+description: اكتشف طريقة CellFormat ClearFormatting لإعادة ضبط أنماط الخلايا إلى الوضع الافتراضي بسهولة دون تغيير عرض الخلية. حسّن كفاءة جدول بياناتك!
 type: docs
-weight: 150
+weight: 160
 url: /ar/net/aspose.words.tables/cellformat/clearformatting/
 ---
 ## CellFormat.ClearFormatting method
 
-إعادة التعيين إلى تنسيق الخلية الافتراضي. لا يغير عرض الخلية.
+يُعيد ضبط تنسيق الخلية الافتراضي. لا يُغيّر عرض الخلية.
 
 ```csharp
 public void ClearFormatting()
@@ -24,13 +24,13 @@ public void ClearFormatting()
 Document doc = new Document(MyDir + "Tables.docx");
 
 // فيما يلي طريقتان للحصول على جدول من مستند.
-// 1 - من مجموعة "الجداول" للعقدة الأساسية:
+// 1 - من مجموعة "الجداول" لعقدة الجسم:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - استخدام طريقة "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// إلحاق جميع الصفوف من الجدول الحالي بالجدول التالي.
+//إضافة كافة الصفوف من الجدول الحالي إلى الجدول التالي.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

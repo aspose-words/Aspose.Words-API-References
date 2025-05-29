@@ -3,9 +3,9 @@ title: CommentCollection Class
 linktitle: CommentCollection
 articleTitle: CommentCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.CommentCollection klas. Bietet typisierten Zugriff auf eine Sammlung vonComment Knoten in C#.
+description: Entdecken Sie die Klasse Aspose.Words.CommentCollection für den einfachen Zugriff auf Kommentarknoten und verbessern Sie so die Dokumentbearbeitung und Zusammenarbeit in Ihren Projekten.
 type: docs
-weight: 240
+weight: 430
 url: /de/net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
@@ -23,46 +23,46 @@ public class CommentCollection : NodeCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ruft die Anzahl der Knoten in der Sammlung ab. |
-| [Item](../../aspose.words/commentcollection/item/) { get; } | Ruft a ab[`Comment`](../comment/) am angegebenen Index. (2 indexers) |
+| [Item](../../aspose.words/commentcollection/item/) { get; } | Ruft eine[`Comment`](../comment/) am angegebenen Index. (2 indexers) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt einen Knoten am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt am Ende der Sammlung einen Knoten hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung ist. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung vorhanden ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Knotensammlung. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt einen Knoten am angegebenen Index in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopiert alle Knoten aus der Sammlung in ein neues Array von Knoten. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopiert alle Knoten aus der Sammlung in ein neues Knoten-Array. |
 
 ## Beispiele
 
-Zeigt, wie man einen Kommentar als „erledigt“ markiert.
+Zeigt, wie ein Kommentar als „erledigt“ markiert wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Helo world!");
 
- // Einen Kommentar einfügen, um auf einen Fehler hinzuweisen.
+    // Fügen Sie einen Kommentar ein, um auf einen Fehler hinzuweisen.
 Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Kommentare haben ein „Fertig“-Flag, das standardmäßig auf „false“ gesetzt ist.
-// Wenn ein Kommentar darauf hindeutet, dass wir eine Änderung im Dokument vornehmen,
-// Wir können die Änderung übernehmen und anschließend auch das Flag „Fertig“ setzen, um die Korrektur anzuzeigen.
+    // Kommentare haben ein „Erledigt“-Flag, das standardmäßig auf „false“ gesetzt ist.
+// Wenn ein Kommentar vorschlägt, dass wir eine Änderung im Dokument vornehmen,
+// wir können die Änderung anwenden und anschließend auch das Flag „Erledigt“ setzen, um die Korrektur anzuzeigen.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Kommentare, die „erledigt“ sind, differenzieren sich
-// von denen, die mit einer verblassten Textfarbe noch nicht „fertig“ sind.
+// Kommentare, die "fertig" sind, werden sich unterscheiden
+// von denen, die nicht „fertig“ sind, mit einer verblassten Textfarbe.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);

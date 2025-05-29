@@ -2,8 +2,8 @@
 title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
-second_title: 用于 .NET 的 Aspose.Words
-description: LoadOptions ProgressCallback 财产. 在加载文档期间调用并接受有关加载进度的数据 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 LoadOptions ProgressCallback 属性，高效追踪文档加载进度。提升应用性能和用户体验！
 type: docs
 weight: 130
 url: /zh/net/aspose.words.loading/loadoptions/progresscallback/
@@ -18,11 +18,11 @@ public IDocumentLoadingCallback ProgressCallback { get; set; }
 
 ## 评论
 
-Docx,FlatOpc,Docm,Dotm,Dotx,Markdown,Rtf,WordML,Doc,Dot,Odt,Ott支持的格式。
+Docx，FlatOpc，Docm，Dotm，Dotx，Markdown，Rtf，WordML，Doc，Dot，Odt，Ott支持的格式。
 
 ## 例子
 
-演示如何在文档加载超出预期加载时间时通知用户。
+显示文档加载时间超出预期时如何通知用户。
 
 ```csharp
 public void ProgressCallback()
@@ -49,7 +49,7 @@ public void ProgressCallback()
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Ctr。
+    /// 中心。
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -57,9 +57,9 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载期间调用的回调方法。
+    /// 在文档加载期间调用的回调方法。
     /// </summary>
-    /// <param name="args">加载参数。</param>
+    /// <param name="args">正在加载参数。</param>
     public void Notify(DocumentLoadingArgs args)
     {
         DateTime canceledAt = DateTime.Now;
@@ -70,12 +70,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// 文档加载开始的日期和时间。
+    /// 开始文档加载的日期和时间。
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// 允许的最大持续时间（以秒为单位）。
+    /// 允许的最大持续时间（秒）。
     /// </summary>
     private const double MaxDuration = 0.5;
 }

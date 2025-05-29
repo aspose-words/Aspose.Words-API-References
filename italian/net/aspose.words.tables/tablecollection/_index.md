@@ -3,14 +3,14 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.TableCollection classe. Fornisce laccesso digitato a una raccolta diTable nodi in C#.
+description: Scopri la classe Aspose.Words.Tables.TableCollection per un accesso semplice e tipizzato ai nodi Tabella, migliorando l'efficienza e la flessibilità nell'elaborazione dei documenti.
 type: docs
-weight: 6360
+weight: 7210
 url: /it/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-Fornisce l'accesso digitato a una raccolta di[`Table`](../table/) nodi.
+Fornisce accesso tipizzato a una raccolta di[`Table`](../table/) nodi.
 
 Per saperne di più, visita il[Lavorare con le tabelle](https://docs.aspose.com/words/net/working-with-tables/) articolo di documentazione.
 
@@ -23,7 +23,7 @@ public class TableCollection : NodeCollection
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ottiene il numero di nodi nella raccolta. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera a[`Table`](../table/) all'indice indicato. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera un[`Table`](../table/) all'indice dato. (2 indexers) |
 
 ## Metodi
 
@@ -32,9 +32,9 @@ public class TableCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Aggiunge un nodo alla fine della raccolta. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Rimuove tutti i nodi da questa raccolta e dal documento. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Determina se un nodo è nella raccolta. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fornisce una semplice iterazione di stile "foreach" sulla raccolta di nodi. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice in base zero del nodo specificato. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserisce un nodo nella raccolta in corrispondenza dell'indice specificato. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Fornisce una semplice iterazione in stile "foreach" sulla raccolta di nodi. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice basato su zero del nodo specificato. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserisce un nodo nella raccolta all'indice specificato. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo dalla raccolta e dal documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Rimuove il nodo all'indice specificato dalla raccolta e dal documento. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia tutte le tabelle dalla raccolta in un nuovo array di tabelle. (2 methods) |
@@ -61,7 +61,7 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Mostra come scoprire se le tabelle sono nidificate.
+Mostra come scoprire se le tabelle sono annidate.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -72,7 +72,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Scopri se qualche cella nella tabella ha altre tabelle come figlie.
+        // Scopri se ci sono celle nella tabella che hanno altre tabelle come figlie.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -88,7 +88,7 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Calcola a quale livello è nidificata una tabella all'interno di altre tabelle.
+/// Calcola a quale livello una tabella è annidata all'interno di altre tabelle.
 /// </summary>
 /// <returns>
 /// Un numero intero che indica la profondità di annidamento della tabella (numero di nodi della tabella padre).
@@ -109,19 +109,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina se una tabella contiene una tabella figlia immediata all'interno delle sue celle.
-/// Non attraversare ricorsivamente quelle tabelle per verificare la presenza di ulteriori tabelle.
+/// Non attraversare ricorsivamente queste tabelle per controllare altre tabelle.
 /// </summary>
 /// <returns>
-/// Restituisce vero se almeno una cella figlia contiene una tabella.
+/// Restituisce true se almeno una cella figlia contiene una tabella.
 /// Restituisce false se nessuna cella nella tabella contiene una tabella.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

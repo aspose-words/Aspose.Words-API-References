@@ -3,7 +3,7 @@ title: Watermark.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words för .NET
-description: Watermark SetText metod. Lägger till textvattenstämpel i dokumentet i C#.
+description: Förbättra dina dokument med vår metod Watermark SetText. Lägg enkelt till anpassningsbara textvattenmärken för en professionell touch!
 type: docs
 weight: 40
 url: /sv/net/aspose.words/watermark/settext/
@@ -24,12 +24,12 @@ public void SetText(string text)
 
 | undantag | skick |
 | --- | --- |
-| ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten endast innehåller blanksteg. |
-| ArgumentNullException | Kastar när texten är`null` . |
+| ArgumentOutOfRangeException | Körs när textlängden är utanför intervallet eller när texten bara innehåller blanksteg. |
+| ArgumentNullException | Kasta när texten är`null` . |
 
 ## Anmärkningar
 
-Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
+Textlängden måste vara inom intervallet 1 till 200. Texten kan inte vara`null` eller innehåller endast mellanslag.
 
 ## Exempel
 
@@ -38,11 +38,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -78,20 +78,20 @@ public void SetText(string text, TextWatermarkOptions options)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | text | String | Text som visas som en vattenstämpel. |
-| options | TextWatermarkOptions | Definierar ytterligare alternativ för textens vattenstämpel. |
+| options | TextWatermarkOptions | Definierar ytterligare alternativ för textvattenmärket. |
 
 ### Undantag
 
 | undantag | skick |
 | --- | --- |
-| ArgumentOutOfRangeException | Kastar när textlängden är utanför intervallet eller texten bara innehåller blanksteg. |
-| ArgumentNullException | Kastar när texten är`null` . |
+| ArgumentOutOfRangeException | Körs när textlängden är utanför intervallet eller när texten bara innehåller blanksteg. |
+| ArgumentNullException | Kasta när texten är`null` . |
 
 ## Anmärkningar
 
-Textlängden måste vara i intervallet från 1 till 200 inklusive. Texten kan inte vara`null` eller bara innehålla blanksteg.
+Textlängden måste vara inom intervallet 1 till 200. Texten kan inte vara`null` eller innehåller endast mellanslag.
 
-Om[`TextWatermarkOptions`](../../textwatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativ.
+Om[`TextWatermarkOptions`](../../textwatermarkoptions/) är`null`, kommer vattenstämpeln att ställas in med standardalternativen.
 
 ## Exempel
 
@@ -100,11 +100,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

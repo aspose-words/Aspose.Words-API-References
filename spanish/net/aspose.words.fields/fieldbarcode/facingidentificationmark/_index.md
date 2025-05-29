@@ -3,14 +3,14 @@ title: FieldBarcode.FacingIdentificationMark
 linktitle: FacingIdentificationMark
 articleTitle: FacingIdentificationMark
 second_title: Aspose.Words para .NET
-description: FieldBarcode FacingIdentificationMark propiedad. Obtiene o establece el tipo de marca de identificación de frente FIM que se va a insertar en C#.
+description: Descubra la propiedad FieldBarcode FacingIdentificationMark para administrar y personalizar fácilmente las marcas de identificación de cara (FIM) para una mayor eficiencia de escaneo.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldbarcode/facingidentificationmark/
 ---
 ## FieldBarcode.FacingIdentificationMark property
 
-Obtiene o establece el tipo de marca de identificación de frente (FIM) que se va a insertar.
+Obtiene o establece el tipo de una marca de identificación de cara (FIM) para insertar.
 
 ```csharp
 public string FacingIdentificationMark { get; set; }
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln();
 
-// A continuación se muestran dos formas de utilizar campos de CÓDIGO DE BARRAS para mostrar valores personalizados como códigos de barras.
+// A continuación se muestran dos formas de utilizar los campos CÓDIGO DE BARRAS para mostrar valores personalizados como códigos de barras.
 // 1 - Almacena el valor que mostrará el código de barras en la propiedad PostalAddress:
 FieldBarcode field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 
-// Este valor debe ser un código postal válido.
+//Este valor debe ser un código postal válido.
 field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
@@ -39,7 +39,7 @@ Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
 
 builder.InsertBreak(BreakType.LineBreak);
 
-// 2 - Haga referencia a un marcador que almacene el valor que mostrará este código de barras:
+// 2 - Referencia a un marcador que almacena el valor que mostrará este código de barras:
 field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
@@ -47,7 +47,7 @@ field.IsBookmark = true;
 Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
 
 // El marcador al que hace referencia el campo BARCODE en su propiedad PostalAddress
-// no necesita contener nada más que el código postal válido.
+// no es necesario que contenga nada más que el código postal válido.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("BarcodeBookmark");
 builder.Writeln("968877");

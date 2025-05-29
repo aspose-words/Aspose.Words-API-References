@@ -3,14 +3,14 @@ title: Font.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words для .NET
-description: Font ClearFormatting метод. Сбрасывает формат шрифта по умолчанию на С#.
+description: Восстановите свой текст в его первоначальном стиле с помощью метода Font ClearFormatting. Наслаждайтесь чистым, последовательным форматированием для безупречного вида!
 type: docs
-weight: 550
+weight: 560
 url: /ru/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
 
-Сбрасывает формат шрифта по умолчанию.
+Сбрасывает форматирование шрифта до значения по умолчанию.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Примечания
 
-Удаляет все форматирование шрифта, явно указанное для объекта, из которого [`Font`](../) был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родительского элемента.
+Удаляет все форматирование шрифта, явно указанное для объекта, из which [`Font`](../) был получен, поэтому форматирование шрифта будет унаследовано от соответствующего родителя.
 
 ## Примеры
 
@@ -30,15 +30,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Вставьте гиперссылку и подчеркните ее с помощью специального форматирования.
-// Гиперссылка будет интерактивным фрагментом текста, который приведет нас к месту, указанному в URL-адресе.
+// Вставьте гиперссылку и выделите ее с помощью пользовательского форматирования.
+// Гиперссылка будет представлять собой фрагмент текста, нажав на который, мы перейдем в место, указанное в URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Google website", "https://www.google.com", false);
+builder.InsertHyperlink("Google website", "https://www.google.com", ложь);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word приведет нас к URL-адресу через новое окно веб-браузера.
+// Ctrl + щелчок левой кнопкой мыши по ссылке в тексте в Microsoft Word перенаправит нас на URL-адрес через новое окно веб-браузера.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

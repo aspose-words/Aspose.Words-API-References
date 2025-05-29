@@ -3,7 +3,7 @@ title: Story.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words para .NET
-description: Story StoryType propiedad. Obtiene el tipo de esta historia en C#.
+description: Descubra la propiedad StoryType para identificar y categorizar fácilmente sus historias, mejorando la organización y optimizando su experiencia narrativa.
 type: docs
 weight: 40
 url: /es/net/aspose.words/story/storytype/
@@ -24,13 +24,13 @@ Muestra cómo eliminar todas las formas de un nodo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Usa un DocumentBuilder para insertar una forma. Esta es una forma en línea,
-// que tiene un párrafo principal, que es un nodo secundario del cuerpo de la primera sección.
+// Use un DocumentBuilder para insertar una forma. Esta es una forma en línea.
+// que tiene un párrafo padre, que es un nodo hijo del cuerpo de la primera sección.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// Podemos eliminar todas las formas de los párrafos secundarios de este cuerpo.
+//Podemos eliminar todas las formas de los párrafos secundarios de este Cuerpo.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

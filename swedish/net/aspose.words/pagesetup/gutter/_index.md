@@ -3,14 +3,14 @@ title: PageSetup.Gutter
 linktitle: Gutter
 articleTitle: Gutter
 second_title: Aspose.Words för .NET
-description: PageSetup Gutter fast egendom. Hämtar eller ställer in mängden extra utrymme som läggs till marginalen för dokumentbindning i C#.
+description: Justera inställningarna för marginalerna i PageSetup för att optimera dokumentmarginalerna för bindning. Förbättra din layout med perfekta marginaler för professionella resultat.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/pagesetup/gutter/
 ---
 ## PageSetup.Gutter property
 
-Hämtar eller ställer in mängden extra utrymme som läggs till marginalen för dokumentbindning.
+Hämtar eller ställer in mängden extra utrymme som läggs till i marginalen för dokumentbindning.
 
 ```csharp
 public double Gutter { get; set; }
@@ -34,8 +34,8 @@ for (int i = 0; i < 15; i++)
 }
 
 // Konfigurera den första sektionens "PageSetup"-egenskap för att skriva ut dokumentet i form av en bokvikning.
-// När vi skriver ut det här dokumentet på båda sidor kan vi ta sidorna för att stapla dem
-// och vik ner alla på mitten på en gång. Innehållet i dokumentet kommer att hamna i en bokveck.
+// När vi skriver ut detta dokument på båda sidor kan vi ta sidorna och stapla dem
+// och vik dem alla på mitten samtidigt. Innehållet i dokumentet kommer att radas upp till en bokvikning.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
@@ -45,7 +45,7 @@ pageSetup.SheetsPerBooklet = 4;
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
 ```
 
-Visar hur man ställer in rännmarginaler.
+Visar hur man ställer in fästmarginaler.
 
 ```csharp
 Document doc = new Document();
@@ -59,20 +59,20 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// En ränna lägger till blanksteg till antingen vänster eller höger sidmarginal,
-// som kompenserar för mittvikningen av sidor i en bok som inkräktar på sidans layout.
+// En mellanrumsränna lägger till mellanslag i antingen vänster eller höger sidmarginal,
+// vilket kompenserar för att mittvikningen av sidor i en bok inkräktar på sidans layout.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-// Bestäm hur mycket utrymme våra sidor har för text inom marginalerna och lägg sedan till ett belopp för att fylla en marginal.
+ // Bestäm hur mycket utrymme våra sidor har för text inom marginalerna och lägg sedan till ett visst utrymme för att utfylla marginalen.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Ställ in egenskapen "RtlGutter" till "true" för att placera rännstenen i en mer lämplig position för text från höger till vänster.
+// Sätt egenskapen "RtlGutter" till "true" för att placera fästringen i en mer lämplig position för text från höger till vänster.
 pageSetup.RtlGutter = true;
 
-// Ställ in "MultiplePages"-egenskapen till "MultiplePagesType.MirrorMargins" för att alternera
-// vänster/höger sidas sidoposition för marginaler varje sida.
+// Ställ in egenskapen "MultiplePages" till "MultiplePagesType.MirrorMargins" för att alternera
+// vänster/höger sidposition för marginalerna på varje sida.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 
 doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");

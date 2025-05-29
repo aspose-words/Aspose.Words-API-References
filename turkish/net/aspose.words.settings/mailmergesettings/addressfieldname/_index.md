@@ -2,15 +2,15 @@
 title: MailMergeSettings.AddressFieldName
 linktitle: AddressFieldName
 articleTitle: AddressFieldName
-second_title: Aspose.Words for .NET
-description: MailMergeSettings AddressFieldName mülk. Veri kaynağı içindeki eposta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz e-posta birleştirmelerini garantilemek için veri kaynaklarında e-posta adresi sütununuzu kolayca belirtmek üzere MailMergeSettings AddressFieldName özelliğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-Veri kaynağı içindeki e-posta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir.
+Veri kaynağında e-posta adreslerini içeren sütunu belirtir. Varsayılan değer boş bir dizedir.
 
 ```csharp
 public string AddressFieldName { get; set; }
@@ -18,7 +18,7 @@ public string AddressFieldName { get; set; }
 
 ## Örnekler
 
-Dış veri kaynağına bağlanırken adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Harici bir veri kaynağına bağlanırken posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yapıp belgeyi kaydettikten sonra,
-// Microsoft Word artık belgeyi yüklemek için kullandığımızda adres-mektup birleştirme işlemini gerçekleştirmeyecek.
+// Bu ayarları temizleyerek sıfırlayabiliriz. Bunu yaptıktan ve belgeyi kaydettikten sonra,
+// Belgeyi yüklemek için Microsoft Word kullanıldığında artık posta birleştirme işlemi gerçekleştirilmeyecek.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

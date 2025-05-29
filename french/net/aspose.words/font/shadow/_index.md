@@ -3,14 +3,14 @@ title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words pour .NET
-description: Font Shadow propriété. True si la police est formatée comme ombrée en C#.
+description: Découvrez la propriété Font Shadow, améliorez votre texte avec des effets d'ombre élégants pour un attrait visuel saisissant dans vos créations.
 type: docs
-weight: 330
+weight: 340
 url: /fr/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
 
-True si la police est formatée comme ombrée.
+Vrai si la police est formatée comme ombrée.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,13 +18,13 @@ public bool Shadow { get; set; }
 
 ## Exemples
 
-Montre comment créer une séquence de texte formatée avec une ombre.
+Montre comment créer une série de texte formatée avec une ombre.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Définit le drapeau Ombre pour appliquer un effet d'ombre décalé,
+// Définissez l'indicateur Shadow pour appliquer un effet d'ombre décalé,
 // donnant l'impression que les lettres flottent au-dessus de la page.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;

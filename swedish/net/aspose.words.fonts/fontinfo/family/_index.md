@@ -3,14 +3,14 @@ title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
 second_title: Aspose.Words för .NET
-description: FontInfo Family fast egendom. Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör i C#.
+description: Upptäck egenskapen FontInfo Family för att enkelt hantera och anpassa dina typsnittsfamiljsinställningar för ökad designflexibilitet och stil.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-Hämtar eller ställer in teckensnittsfamiljen som detta teckensnitt tillhör.
+Hämtar eller anger vilken typsnittsfamilj detta typsnitt tillhör.
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

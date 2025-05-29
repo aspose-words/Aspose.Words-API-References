@@ -3,14 +3,14 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: PreferredWidth Type eigendom. Ruft die Maßeinheit ab die für diesen bevorzugten Breitenwert verwendet wird in C#.
+description: Entdecken Sie die Eigenschaft „PreferredWidth Type“, die die Maßeinheit für bevorzugte Breitenwerte definiert und so die Präzision und Flexibilität Ihres Designs verbessert.
 type: docs
 weight: 40
 url: /de/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-Ruft die Maßeinheit ab, die für diesen bevorzugten Breitenwert verwendet wird.
+Ruft die für diesen bevorzugten Breitenwert verwendete Maßeinheit ab.
 
 ```csharp
 public PreferredWidthType Type { get; }

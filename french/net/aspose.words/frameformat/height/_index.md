@@ -3,7 +3,7 @@ title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words pour .NET
-description: FrameFormat Height propriété. Obtient la hauteur du cadre spécifié en C#.
+description: Découvrez la propriété FrameFormat Height pour accéder et utiliser facilement la hauteur de votre cadre spécifié pour une flexibilité de conception améliorée.
 type: docs
 weight: 10
 url: /fr/net/aspose.words/frameformat/height/
@@ -18,7 +18,7 @@ public double Height { get; }
 
 ## Exemples
 
-Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
+Montre comment obtenir des informations sur les propriétés de formatage des paragraphes qui sont des cadres.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

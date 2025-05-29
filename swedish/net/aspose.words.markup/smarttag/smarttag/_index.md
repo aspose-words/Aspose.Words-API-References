@@ -3,14 +3,14 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words för .NET
-description: SmartTag byggare. Initierar en ny instans avSmartTag class i C#.
+description: Skapa dynamiska SmartTags enkelt med vår konstruktor. Förbättra dina projekt med anpassningsbara funktioner och sömlös integration för optimal prestanda.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/smarttag/smarttag/
 ---
 ## SmartTag constructor
 
-Initierar en ny instans av[`SmartTag`](../) class.
+Initierar en ny instans av[`SmartTag`](../) klass.
 
 ```csharp
 public SmartTag(DocumentBase doc)
@@ -22,9 +22,9 @@ public SmartTag(DocumentBase doc)
 
 ## Anmärkningar
 
-När du skapar en ny nod måste du ange ett dokument som noden tillhör. En nod kan inte existera utan ett dokument eftersom det beror på dokumentomfattande strukturer såsom listor och stilar. Även om en nod alltid tillhör ett dokument, kanske en nod inte är en del av dokumentträdet.
+När du skapar en ny nod måste du ange ett dokument som noden tillhör. En nod kan inte existera utan ett dokument eftersom den är beroende av dokumentövergripande strukturer såsom listor och stilar. Även om en nod alltid tillhör ett dokument kan en nod vara eller inte vara en del av dokumentträdet.
 
-När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentträdet och[`ParentNode`](../../../aspose.words/node/parentnode/) är`null` . För att infoga en nod i dokumentet, använd [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methods på den överordnade noden.
+När en nod skapas tillhör den ett dokument, men är ännu inte en del av dokumentet tree och[`ParentNode`](../../../aspose.words/node/parentnode/) är null. För att infoga en nod i dokumentet, använd [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) eller[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) -metoder på den överordnade noden.
 
 ## Exempel
 
@@ -35,16 +35,16 @@ public void Create()
 {
     Document doc = new Document();
 
-    // En smart tagg visas i ett dokument med Microsoft Word känner igen en del av sin text som någon form av data,
-    // som ett namn, datum eller adress, och konverterar det till en hyperlänk som visar en lila prickad underlinje.
+    // En smart tagg visas i ett dokument där Microsoft Word känner igen en del av texten som någon form av data,
+    // såsom ett namn, datum eller adress, och konverterar den till en hyperlänk som visar en lila prickad understrykning.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Smarta taggar är sammansatta noder som innehåller sin igenkända text i sin helhet.
-    // Lägg till innehåll till denna smarta tag manuellt.
+    // Smarta taggar är sammansatta noder som innehåller sin tolkade text i sin helhet.
+    // Lägg till innehåll i den här smarta taggen manuellt.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word kan känna igen ovanstående innehåll som ett datum.
-    // Smarta taggar använder egenskapen "Element" för att återspegla typen av data de innehåller.
+    // Microsoft Word kan identifiera ovanstående innehåll som ett datum.
+    // Smarta taggar använder egenskapen "Element" för att återspegla vilken typ av data de innehåller.
     smartTag.Element = "date";
 
     // Vissa smarta taggtyper bearbetar sitt innehåll vidare till anpassade XML-egenskaper.
@@ -71,7 +71,7 @@ public void Create()
     // Skriv ut alla smarta taggar i vårt dokument med hjälp av en dokumentbesökare.
     doc.Accept(new SmartTagPrinter());
 
-    // Äldre versioner av Microsoft Word stöder smarta taggar.
+    // Äldre versioner av Microsoft Word har stöd för smarta taggar.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Använd metoden "RemoveSmartTags" för att ta bort alla smarta taggar från ett dokument.
@@ -97,7 +97,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en SmartTag-nod avslutas.
+    /// Anropas när besöket av en SmartTag-nod är avslutat.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

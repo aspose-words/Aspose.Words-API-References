@@ -3,14 +3,14 @@ title: Field.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words لـ .NET
-description: Field IsDirty ملكية. الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة قديمة بسبب تعديلات أخرى تم إجراؤها على المستند في C#.
+description: قم بإدارة خاصية IsDirty لضمان بقاء بيانات الحقل الخاصة بك دقيقة ومحدثة، مما يعزز سلامة المستندات والأداء.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/field/isdirty/
 ---
 ## Field.IsDirty property
 
-الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند.
+يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند.
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -18,13 +18,13 @@ public bool IsDirty { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام خاصية خاصة لتحديث نتيجة الحقل.
+يوضح كيفية استخدام الخاصية الخاصة لتحديث نتيجة الحقل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أعط قيمة خاصية "المؤلف" المضمنة في المستند، ثم اعرضها مع حقل.
+// قم بإعطاء قيمة الخاصية "المؤلف" المضمنة في المستند، ثم قم بعرضها باستخدام الحقل.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
@@ -36,18 +36,18 @@ doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
 
-// نظرًا لأن قيمة الحقل قديمة، فيمكننا وضع علامة عليها على أنها "متسخة".
+// بما أن قيمة الحقل قديمة، فيمكننا وضع علامة عليها بأنها "غير صالحة".
 // ستظل هذه القيمة قديمة حتى نقوم بتحديث الحقل يدويًا باستخدام طريقة Field.Update().
 field.IsDirty = true;
 
 using (MemoryStream docStream = new MemoryStream())
 {
     // إذا قمنا بالحفظ دون استدعاء طريقة التحديث،
-    // سيستمر الحقل في عرض القيمة القديمة في مستند الإخراج.
+    // سيستمر الحقل في عرض القيمة القديمة في المستند الناتج.
     doc.Save(docStream, SaveFormat.Docx);
 
     // يحتوي كائن LoadOptions على خيار لتحديث جميع الحقول
-    // تم وضع علامة "قذرة" عند تحميل المستند.
+    // تم وضع علامة "متسخ" عند تحميل المستند.
     LoadOptions options = new LoadOptions();
     options.UpdateDirtyFields = updateDirtyFields;
     doc = new Document(docStream, options);
@@ -56,7 +56,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // يؤدي تحديث الحقول القذرة مثل هذا إلى تعيين علامة "IsDirty" الخاصة بها تلقائيًا على "خطأ".
+    // يؤدي تحديث الحقول المتسخة مثل هذا إلى تعيين علامة "IsDirty" الخاصة بها إلى false تلقائيًا.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

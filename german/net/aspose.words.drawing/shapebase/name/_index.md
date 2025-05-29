@@ -3,9 +3,9 @@ title: ShapeBase.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words für .NET
-description: ShapeBase Name eigendom. Ruft den optionalen Formnamen ab oder legt ihn fest in C#.
+description: Entdecken Sie die ShapeBase-Name-Eigenschaft, um optionale Formnamen einfach zu verwalten und so Ihre Designflexibilität und Projektorganisation zu verbessern.
 type: docs
-weight: 400
+weight: 420
 url: /de/net/aspose.words.drawing/shapebase/name/
 ---
 ## ShapeBase.Name property
@@ -20,7 +20,7 @@ public string Name { get; set; }
 
 Der Standardwert ist eine leere Zeichenfolge.
 
-Kann nicht sein`Null`, kann aber eine leere Zeichenfolge sein.
+Kann nicht sein`null`, kann aber eine leere Zeichenfolge sein.
 
 ## Beispiele
 
@@ -34,11 +34,11 @@ shape.Name = "MyCube";
 
 shape.AlternativeText = "Alt text for MyCube.";
 
-// Wir können auf den alternativen Text einer Form zugreifen, indem wir mit der rechten Maustaste darauf klicken und dann über „AutoShape formatieren“ -> "Alt-Text".
+// Auf den Alternativtext einer Form können wir zugreifen, indem wir mit der rechten Maustaste darauf klicken und dann über „AutoForm formatieren“ -> „Alternativtext“ gehen.
 doc.Save(ArtifactsDir + "Shape.AltText.docx");
 
 // Speichern Sie das Dokument im HTML-Format und löschen Sie dann das verknüpfte Bild, das zu unserer Form gehört.
-// Der Browser, der unseren HTML-Code liest, zeigt den Alternativtext anstelle des fehlenden Bildes an.
+// Der Browser, der unser HTML liest, zeigt den Alternativtext anstelle des fehlenden Bildes an.
 doc.Save(ArtifactsDir + "Shape.AltText.html");
 File.Delete(ArtifactsDir + "Shape.AltText.001.png");
 ```

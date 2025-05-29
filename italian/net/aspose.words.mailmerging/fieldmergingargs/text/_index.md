@@ -3,7 +3,7 @@ title: FieldMergingArgs.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: FieldMergingArgs Text proprietà. Ottiene o imposta il testo che verrà inserito nel documento per il campo di unione corrente in C#.
+description: Gestisci i campi unione dei tuoi documenti senza sforzo con FieldMergingArgs. Imposta o recupera facilmente il testo per un'integrazione fluida nei documenti.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/fieldmergingargs/text/
@@ -18,11 +18,11 @@ public string Text { get; set; }
 
 ## Osservazioni
 
-Quando viene chiamato il gestore eventi, questa proprietà è impostata su`nullo`.
+Quando viene chiamato il gestore degli eventi, questa proprietà viene impostata su`null`.
 
-Se lasci Text as`nullo` , il motore di stampa unione lo inserirà[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) al posto del campo di unione.
+Se lasci il testo come`null` , il motore di stampa unione inserirà[`FieldValue`](../../fieldmergingargsbase/fieldvalue/) al posto del campo di unione.
 
-Se imposti Testo su qualsiasi stringa (incluso vuoto), la stringa verrà inserita nel documento al posto del campo di unione.
+Se si imposta Testo su una stringa qualsiasi (anche vuota), la stringa verrà inserita nel documento al posto del campo unione.
 
 ## Esempi
 
@@ -60,7 +60,7 @@ public void MergeHtml()
 
 /// <summary>
 /// Se la stampa unione incontra un MERGEFIELD il cui nome inizia con il prefisso "html_",
-/// questo callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento di MERGEFIELD.
+/// questa callback analizza i dati di unione come contenuto HTML e aggiunge il risultato alla posizione del documento del MERGEFIELD.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -71,20 +71,20 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Aggiunge dati HTML analizzati al corpo del documento.
+            // Aggiungere dati HTML analizzati al corpo del documento.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Poiché abbiamo già inserito manualmente il contenuto unito,
-             // non avremo bisogno di rispondere a questo evento restituendo il contenuto tramite la proprietà "Text".
+            // non sarà necessario rispondere a questo evento restituendo contenuto tramite la proprietà "Text".
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // Fare niente.
+        // Non fare nulla.
     }
 }
 ```

@@ -2,15 +2,15 @@
 title: StyleCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: StyleCollection Item mülk. Ada veya takma ada göre bir stil alır C#'da.
+second_title: .NET için Aspose.Words
+description: StyleCollection'ın güçlü Öğe özelliğini keşfedin ve stilleri adlarına veya takma adlarına göre zahmetsizce alın, tasarım deneyiminizi kolaylıkla geliştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words/stylecollection/item/
 ---
 ## StyleCollection indexer (1 of 3)
 
-Ada veya takma ada göre bir stil alır.
+Adına veya takma adına göre bir stil alır.
 
 ```csharp
 public Style this[string name] { get; }
@@ -18,9 +18,9 @@ public Style this[string name] { get; }
 
 ## Notlar
 
-Büyük/küçük harfe duyarlı, döndürür`hükümsüz` verilen ada sahip stil bulunamazsa.
+Büyük/küçük harfe duyarlı, döner`hükümsüz` Belirtilen isimde stil bulunamazsa.
 
-Bu, henüz mevcut olmayan yerleşik bir stilin İngilizce adıysa, onu otomatik olarak oluşturur.
+Eğer bu henüz var olmayan yerleşik bir stilin İngilizce adı ise, otomatik olarak oluşturur.
 
 ## Örnekler
 
@@ -29,8 +29,8 @@ Belgenin sayfa düzeninin ne zaman yeniden hesaplanacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Bir belgeyi PDF'ye veya görüntüye kaydetmek veya ilk kez yazdırmak otomatik olarak
-// sayfalarının içindeki belgenin düzenini önbelleğe al.
+// Bir belgeyi PDF'e, görüntüye kaydetmek veya ilk kez yazdırmak otomatik olarak
+// Belgenin düzenini sayfalarının içinde önbelleğe al.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
 // Belgeyi bir şekilde değiştirin.
@@ -38,9 +38,9 @@ doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // Aspose.Words'ün mevcut sürümünde belgeyi değiştirmek otomatik olarak yeniden oluşturmuyor
-// önbelleğe alınan sayfa düzeni. Önbelleğe alınmış düzeni istiyorsak
-// güncel kalmak için manuel olarak güncellememiz gerekecek.
+// Aspose.Words'ün geçerli sürümünde, belgeyi değiştirmek otomatik olarak yeniden oluşturmaz
+// önbelleğe alınmış sayfa düzeni. Önbelleğe alınmış düzeni istiyorsak
+// Güncel kalmak için manuel olarak güncellememiz gerekecek.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
@@ -57,7 +57,7 @@ doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 
 ## StyleCollection indexer (2 of 3)
 
-Yerel ayardan bağımsız tanımlayıcıya göre yerleşik bir stil elde eder.
+Yerel bağımsız tanımlayıcısı ile yerleşik bir stil alır.
 
 ```csharp
 public Style this[StyleIdentifier sti] { get; }
@@ -69,11 +69,11 @@ public Style this[StyleIdentifier sti] { get; }
 
 ## Notlar
 
-Henüz var olmayan bir stile erişildiğinde, onu otomatik olarak oluşturur.
+Henüz var olmayan bir stile erişildiğinde, otomatik olarak oluşturulur.
 
 ## Örnekler
 
-Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
+Bir belgenin stiller koleksiyonuna Stil eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -81,10 +81,10 @@ Document doc = new Document();
 StyleCollection styles = doc.Styles;
 // Daha sonra bu koleksiyona ekleyebileceğimiz yeni stiller için varsayılan parametreleri ayarlayın.
 styles.DefaultFont.Name = "Courier New";
-// "StyleType.Paragraph" stilini eklersek koleksiyon şu değerleri uygulayacaktır:
-// "DefaultParagraphFormat" özelliğini stilin "ParagraphFormat" özelliğine dönüştürüyoruz.
+// "StyleType.Paragraph" stilini eklersek, koleksiyon şu değerleri uygulayacaktır:
+// "DefaultParagraphFormat" özelliğini stilin "ParagraphFormat" özelliğine.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Bir stil ekleyin ve ardından bunun varsayılan ayarlara sahip olduğunu doğrulayın.
+// Bir stil ekleyin ve ardından varsayılan ayarlara sahip olduğunu doğrulayın.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);
@@ -103,7 +103,7 @@ Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 
 ## StyleCollection indexer (3 of 3)
 
-Dizine göre bir stil alır.
+Dizinle bir stil alır.
 
 ```csharp
 public Style this[int index] { get; }
@@ -111,7 +111,7 @@ public Style this[int index] { get; }
 
 ## Örnekler
 
-Bir belgenin stil koleksiyonuna nasıl Stil ekleneceğini gösterir.
+Bir belgenin stiller koleksiyonuna Stil eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -119,10 +119,10 @@ Document doc = new Document();
 StyleCollection styles = doc.Styles;
 // Daha sonra bu koleksiyona ekleyebileceğimiz yeni stiller için varsayılan parametreleri ayarlayın.
 styles.DefaultFont.Name = "Courier New";
-// "StyleType.Paragraph" stilini eklersek koleksiyon şu değerleri uygulayacaktır:
-// "DefaultParagraphFormat" özelliğini stilin "ParagraphFormat" özelliğine dönüştürüyoruz.
+// "StyleType.Paragraph" stilini eklersek, koleksiyon şu değerleri uygulayacaktır:
+// "DefaultParagraphFormat" özelliğini stilin "ParagraphFormat" özelliğine.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
-// Bir stil ekleyin ve ardından bunun varsayılan ayarlara sahip olduğunu doğrulayın.
+// Bir stil ekleyin ve ardından varsayılan ayarlara sahip olduğunu doğrulayın.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
 Assert.AreEqual("Courier New", styles[4].Font.Name);

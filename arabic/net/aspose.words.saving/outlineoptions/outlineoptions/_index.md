@@ -3,7 +3,7 @@ title: OutlineOptions
 linktitle: OutlineOptions
 articleTitle: OutlineOptions
 second_title: Aspose.Words لـ .NET
-description: OutlineOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ OutlineOptions، أداة افتراضية فعّالة لإدارة المخططات التفصيلية في تطبيقاتك بكفاءة. حسّن تجربة البرمجة لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/outlineoptions/outlineoptions/

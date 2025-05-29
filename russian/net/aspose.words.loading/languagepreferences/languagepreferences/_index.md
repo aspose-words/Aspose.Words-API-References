@@ -3,7 +3,7 @@ title: LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words для .NET
-description: LanguagePreferences строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор LanguagePreferences для бесперебойного управления языками. Улучшите пользовательский опыт с помощью нашей интуитивной настройки по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.loading/languagepreferences/languagepreferences/

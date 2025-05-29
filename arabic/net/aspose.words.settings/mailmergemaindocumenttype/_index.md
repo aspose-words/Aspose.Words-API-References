@@ -3,14 +3,14 @@ title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType تعداد. تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات في C#.
+description: اكتشف Aspose.Words.MailMergeMainDocumentType enum، الذي يحدد أنواعًا مختلفة من مستندات المصدر لدمج البريد من أجل أتمتة المستندات بسلاسة.
 type: docs
-weight: 5840
+weight: 6670
 url: /ar/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-تحديد الأنواع المحتملة للمستند المصدر لدمج المراسلات.
+يحدد الأنواع المحتملة لمستند مصدر دمج البريد.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -20,18 +20,18 @@ public enum MailMergeMainDocumentType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | هذا المستند ليس مستند دمج بريد. |
-| FormLetters | `1` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع الرسالة النموذجية. |
-| MailingLabels | `2` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع التسمية البريدية. |
-| Envelopes | `4` | تحديد أن المستند المصدر لدمج المراسلات من نوع المغلف. |
-| Catalog | `8` | تحديد أن المستند المصدر لدمج المراسلات من نوع الكتالوج. |
-| Email | `16` | تحديد أن المستند المصدر لدمج المراسلات هو من نوع رسالة البريد الإلكتروني. |
-| Fax | `32` | تحديد أن المستند المصدر لدمج المراسلات من نوع الفاكس. |
+| NotAMergeDocument | `0` | هذه الوثيقة ليست وثيقة دمج بريدي. |
+| FormLetters | `1` | يحدد أن مستند مصدر دمج البريد هو من نوع الرسالة النموذجية. |
+| MailingLabels | `2` | يحدد أن مستند مصدر دمج البريد هو من نوع ملصق البريد. |
+| Envelopes | `4` | يحدد أن مستند مصدر دمج البريد هو من نوع المغلف. |
+| Catalog | `8` | يحدد أن مستند مصدر دمج البريد هو من نوع الكتالوج. |
+| Email | `16` | يحدد أن مستند مصدر دمج البريد هو من نوع رسالة البريد الإلكتروني. |
+| Fax | `32` | يحدد أن مستند مصدر دمج البريد هو من نوع الفاكس. |
 | Default | `0` | يساويNotAMergeDocument |
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

@@ -3,7 +3,7 @@ title: DocumentBuilder.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder Underline propriété. Obtient/définit le type de soulignement pour la police actuelle en C#.
+description: Découvrez la fonction Souligner de DocumentBuilder pour personnaliser facilement les styles de police. Améliorez vos documents grâce à des options de soulignement polyvalentes pour un rendu professionnel.
 type: docs
 weight: 190
 url: /fr/net/aspose.words/documentbuilder/underline/
@@ -28,7 +28,7 @@ builder.Underline = Underline.Dash;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 32;
 
-// Le générateur applique le formatage à son paragraphe actuel et à tout nouveau texte ajouté par la suite.
+// Le générateur applique la mise en forme à son paragraphe actuel et à tout nouveau texte ajouté par la suite.
 builder.Writeln("Large, blue, and underlined text.");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertUnderline.docx");

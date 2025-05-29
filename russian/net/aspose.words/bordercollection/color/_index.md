@@ -3,7 +3,7 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words для .NET
-description: BorderCollection Color свойство. Получает или задает цвет границы на С#.
+description: Откройте для себя свойство BorderCollection Color, чтобы легко настраивать и управлять цветами границ для ваших дизайнов. Улучшите свой пользовательский интерфейс с помощью ярких опций!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/bordercollection/color/

@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words per .NET
-description: OdsoRecipientDataCollection RemoveAt metodo. Rimuove lelemento allindice specificato in C#.
+description: Scopri il metodo RemoveAt di OdsoRecipientDataCollection per rimuovere senza sforzo gli elementi in base all'indice, migliorando l'efficienza della gestione dei dati.
 type: docs
 weight: 70
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| index | Int32 | L'indice in base zero dell'elemento. |
+| index | Int32 | Indice a partire da zero dell'elemento. |
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

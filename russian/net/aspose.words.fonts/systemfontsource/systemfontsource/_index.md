@@ -3,14 +3,14 @@ title: SystemFontSource
 linktitle: SystemFontSource
 articleTitle: SystemFontSource
 second_title: Aspose.Words для .NET
-description: SystemFontSource строитель. Cтор на С#.
+description: Откройте для себя конструктор SystemFontSource для эффективного управления шрифтами. Улучшите свой веб-дизайн с помощью оптимизированных типографических решений уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/systemfontsource/systemfontsource/
 ---
 ## SystemFontSource() {#constructor}
 
-Cтор.
+Ctor.
 
 ```csharp
 public SystemFontSource()
@@ -18,7 +18,7 @@ public SystemFontSource()
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -67,6 +67,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также
@@ -79,7 +80,7 @@ Assert.AreEqual(1,
 
 ## SystemFontSource(*int*) {#constructor_1}
 
-Cтор.
+Ctor.
 
 ```csharp
 public SystemFontSource(int priority)
@@ -87,11 +88,11 @@ public SystemFontSource(int priority)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения более подробной информации. |
 
 ## Примеры
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -119,7 +120,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -140,6 +141,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

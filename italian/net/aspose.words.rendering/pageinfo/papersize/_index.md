@@ -3,14 +3,14 @@ title: PageInfo.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words per .NET
-description: PageInfo PaperSize proprietà. Ottiene la dimensione del foglio come enumerazione in C#.
+description: Scopri la proprietà PageInfo PaperSize per recuperare facilmente i formati carta come enumerazione. Migliora le tue capacità di stampa oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.rendering/pageinfo/papersize/
 ---
 ## PageInfo.PaperSize property
 
-Ottiene la dimensione del foglio come enumerazione.
+Ottiene il formato della carta come enumerazione.
 
 ```csharp
 public PaperSize PaperSize { get; }
@@ -18,13 +18,13 @@ public PaperSize PaperSize { get; }
 
 ## Esempi
 
-Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
+Mostra come stampare le informazioni relative alle dimensioni e all'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
-// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
+// La prima sezione è composta da 2 pagine. Assegneremo a ciascuna un vassoio carta diverso,
+// il cui numero corrisponderà a un tipo di fonte cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

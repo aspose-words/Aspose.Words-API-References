@@ -3,14 +3,14 @@ title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words для .NET
-description: Aspose.Words.FrameFormat сорт. Представляет форматирование абзаца связанное с фреймом на С#.
+description: Откройте для себя класс Aspose.Words.FrameFormat для расширенного форматирования рамок в абзацах. Улучшите дизайн документа с помощью бесшовной интеграции и гибкости.
 type: docs
-weight: 3070
+weight: 3500
 url: /ru/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
 
-Представляет форматирование абзаца, связанное с фреймом.
+Представляет форматирование абзаца, связанное с рамкой.
 
 ```csharp
 public class FrameFormat
@@ -24,20 +24,20 @@ public class FrameFormat
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Получает правило определения высоты указанного кадра. |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Получает горизонтальное выравнивание указанного кадра. |
 | [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Получает горизонтальное расстояние между рамкой и окружающим текстом в пунктах. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Получает горизонтальное расстояние между краем кадра и элементом, указанным[`RelativeHorizontalPosition`](./relativehorizontalposition/) свойство. |
-| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Возвращает`истинный` если абзац представляет собой фрейм. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Получает горизонтальное расстояние между краем рамки и элементом, указанным параметром[`RelativeHorizontalPosition`](./relativehorizontalposition/) свойство. |
+| [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Возврат`истинный` если абзац является рамкой. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Получает относительное горизонтальное положение кадра. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Получает относительное вертикальное положение кадра. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Получает вертикальное выравнивание указанного кадра. |
-| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Определяет расстояние по вертикали (в пунктах) между рамкой и окружающим текстом. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Получает расстояние по вертикали между краем кадра и элементом, указанным[`RelativeVerticalPosition`](./relativeverticalposition/) свойство. |
-| [Width](../../aspose.words/frameformat/width/) { get; } | Получает ширину указанного кадра в пунктах. |
+| [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Указывает вертикальное расстояние (в пунктах) между рамкой и окружающим текстом. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Получает вертикальное расстояние между краем рамки и элементом, указанным параметром[`RelativeVerticalPosition`](./relativeverticalposition/) свойство. |
+| [Width](../../aspose.words/frameformat/width/) { get; } | Получает ширину указанного кадра в точках. |
 
 ## Примечания
 
-Этот объект создается всегда. Если абзац является фреймом, то все свойства будут содержать соответствующие значения, в противном случае для всех свойств устанавливаются значения по умолчанию.
+Этот объект всегда создается. Если абзац является рамкой, то все свойства будут содержать соответствующие значения, в противном случае все свойства устанавливаются в значения по умолчанию.
 
-Использовать[`IsFrame`](./isframe/) чтобы проверить, является ли абзац фреймом.
+Использовать[`IsFrame`](./isframe/)для проверки, является ли абзац рамкой.
 
 ## Примеры
 

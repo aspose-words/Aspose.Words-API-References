@@ -2,8 +2,8 @@
 title: VbaModuleCollection.Remove
 linktitle: Remove
 articleTitle: Remove
-second_title: Aspose.Words for .NET
-description: VbaModuleCollection Remove yöntem. Belirtilen modülü koleksiyondan kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Kullanımı kolay Remove yöntemimizle belirli modülleri VbaModuleCollection'ınızdan zahmetsizce kaldırın. VBA projelerinizi bugün kolaylaştırın!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.vba/vbamodulecollection/remove/
@@ -33,18 +33,18 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// VBA modülü için yeni kaynak kodunu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya isme göre erişebilirsiniz.
+// VBA modülü için yeni kaynak kodu ayarlayın. Koleksiyondaki VBA modüllerine dizine veya adına göre erişebilirsiniz.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Koleksiyondan bir modülü kaldırın.
+// Koleksiyondan bir modülü kaldır.
 vbaModules.Remove(vbaModules[2]);
 ```
 

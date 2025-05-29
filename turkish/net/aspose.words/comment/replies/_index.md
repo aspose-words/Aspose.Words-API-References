@@ -2,15 +2,15 @@
 title: Comment.Replies
 linktitle: Replies
 articleTitle: Replies
-second_title: Aspose.Words for .NET
-description: Comment Replies mülk. Şunların bir koleksiyonunu döndürürComment belirtilen yorumun doğrudan alt öğeleri olan nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Yorum Yanıtlarını Keşfedin. Belirtilen yorumunuza doğrudan yanıtlar olan Yorum nesneleri koleksiyonuna erişin, kullanıcı katılımını ve etkileşimini geliştirin.
 type: docs
-weight: 90
+weight: 110
 url: /tr/net/aspose.words/comment/replies/
 ---
 ## Comment.Replies property
 
-Şunların bir koleksiyonunu döndürür:[`Comment`](../) belirtilen yorumun doğrudan alt öğeleri olan nesneler.
+Bir koleksiyon döndürür[`Comment`](../) belirtilen yorumun doğrudan çocukları olan nesneler.
 
 ```csharp
 public CommentCollection Replies { get; }
@@ -18,15 +18,15 @@ public CommentCollection Replies { get; }
 
 ## Örnekler
 
-Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
+Bir belgenin tüm yorumlarının ve bunların yanıtlarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Bir yorumun atası yoksa bu, yanıt tipi yorumun aksine "üst düzey" bir yorumdur.
-// Tüm üst düzey yorumları, olabilecek yanıtlarla birlikte yazdırın.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Eğer bir yorumun bir atası yoksa, bu bir yanıt türü yorumun aksine "en üst düzey" yorumdur.
+// Tüm üst düzey yorumları ve bunlara ait tüm yanıtları yazdır.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

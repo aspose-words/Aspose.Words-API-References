@@ -3,14 +3,14 @@ title: HtmlSaveOptions
 linktitle: HtmlSaveOptions
 articleTitle: HtmlSaveOptions
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа document вHtml формат на С#.
+description: Откройте для себя конструктор HtmlSaveOptions, который позволяет легко создавать и сохранять документы в формате HTML, обеспечивая оптимальное форматирование и простой обмен.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/htmlsaveoptions/htmlsaveoptions/
 ---
 ## HtmlSaveOptions() {#constructor}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml формат.
 
 ```csharp
 public HtmlSaveOptions()
@@ -23,18 +23,18 @@ public HtmlSaveOptions()
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Используйте объект SaveOptions, чтобы указать кодировку документа, который мы сохраним.
+// Используйте объект SaveOptions, чтобы указать кодировку документа, который мы будем сохранять.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// По умолчанию выходной документ .epub будет содержать все свое содержимое в одной HTML-части.
+// По умолчанию выходной документ .epub будет иметь все свое содержимое в одной части HTML.
 // Критерий разделения позволяет нам сегментировать документ на несколько частей HTML.
-// Мы установим критерии для разделения документа на абзацы заголовков.
-// Это полезно для читателей, которые не могут читать HTML-файлы, размер которых превышает определенный размер.
+// Мы установим критерии для разделения документа на заголовочные абзацы.
+// Это полезно для читателей, которые не могут читать HTML-файлы, размер которых больше определенного значения.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 
-// Указываем, что хотим экспортировать свойства документа.
+// Указываем, что мы хотим экспортировать свойства документа.
 saveOptions.ExportDocumentProperties = true;
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions)
 
 ## HtmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа document вHtml ,Mhtml ,Epub , Azw3 илиMobi формат.
+Инициализирует новый экземпляр этого класса, который можно использовать для сохранения документа вHtml ,Mhtml ,Epub , Azw3 илиMobi формат.
 
 ```csharp
 public HtmlSaveOptions(SaveFormat saveFormat)
@@ -75,7 +75,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Наши HTML-документы будут иметь незначительные различия, чтобы быть совместимыми с разными версиями HTML.
+// Наши HTML-документы будут иметь незначительные отличия для обеспечения совместимости с различными версиями HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)
@@ -83,7 +83,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

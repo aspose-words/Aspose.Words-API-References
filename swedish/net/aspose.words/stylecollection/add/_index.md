@@ -3,7 +3,7 @@ title: StyleCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: StyleCollection Add metod. Skapar en ny användardefinierad stil och lägger till den i samlingen i C#.
+description: Upptäck StyleCollection Add-metoden för att enkelt skapa och lägga till anpassade användardefinierade stilar i din samling, vilket ökar din designflexibilitet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/stylecollection/add/
@@ -18,28 +18,28 @@ public Style Add(StyleType type, string name)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| type | StyleType | A[`StyleType`](../../styletype/) värde som anger vilken typ av stil som ska skapas. |
+| type | StyleType | En[`StyleType`](../../styletype/) värde som anger vilken typ av stil som ska skapas. |
 | name | String | Skiftlägeskänsligt namn på stilen som ska skapas. |
 
 ## Anmärkningar
 
-Du kan skapa tecken, stycke eller en liststil.
+Du kan skapa tecken-, stycke- eller listformat.
 
-När du skapar en liststil skapas stilen med standard numrerad listformatering (1 \ a \ i).
+När man skapar en liststil skapas stilen med standardformateringen för numrerade listor (1 \ a \ i).
 
-Kastar ett undantag om en stil med detta namn redan finns.
+Utlöser ett undantag om en stil med detta namn redan finns.
 
 ## Exempel
 
-Visar hur man lägger till en stil till ett dokuments stilsamling.
+Visar hur man lägger till en stil i ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();
 
 StyleCollection styles = doc.Styles;
-// Ställ in standardparametrar för nya stilar som vi senare kan lägga till i den här samlingen.
+// Ange standardparametrar för nya stilar som vi senare kan lägga till i den här samlingen.
 styles.DefaultFont.Name = "Courier New";
-// Om vi lägger till en stil av "StyleType.Paragraph", kommer samlingen att tillämpa värdena för
+// Om vi lägger till en stil av typen "StyleType.Paragraph" kommer samlingen att tillämpa värdena för
 // dess "DefaultParagraphFormat"-egenskap till stilens "ParagraphFormat"-egenskap.
 styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
 // Lägg till en stil och kontrollera sedan att den har standardinställningarna.
@@ -49,15 +49,15 @@ Assert.AreEqual("Courier New", styles[4].Font.Name);
 Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
 ```
 
-Visar hur du skapar en liststil och använder den i ett dokument.
+Visar hur man skapar en liststil och använder den i ett dokument.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
 // Vi kan innehålla ett helt List-objekt i en stil.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -95,7 +95,7 @@ builder.ListFormat.RemoveNumbers();
 
 builder.Writeln("Using list style second time:");
 
-// Skapa och tillämpa en annan lista baserat på liststilen.
+// Skapa och tillämpa en annan lista baserat på listformatet.
 List list3 = doc.Lists.Add(listStyle);
 builder.ListFormat.List = list3;
 builder.Writeln("Item 1");

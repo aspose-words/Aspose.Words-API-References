@@ -3,7 +3,7 @@ title: Table.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words para .NET
-description: Table BottomPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará debajo del contenido de las celdas en C#.
+description: Descubra la propiedad Table BottomPadding, ajuste fácilmente el espaciado debajo del contenido de la celda para un mejor control del diseño y un atractivo visual mejorado.
 type: docs
 weight: 90
 url: /es/net/aspose.words.tables/table/bottompadding/
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Para cada celda de la tabla, establece la distancia entre su contenido y cada uno de sus bordes.
-// Esta tabla mantendrá la distancia mínima de relleno ajustando el texto.
+ // Para cada celda de la tabla, establezca la distancia entre su contenido y cada uno de sus bordes.
+// Esta tabla mantendrá la distancia de relleno mínima ajustando el texto.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

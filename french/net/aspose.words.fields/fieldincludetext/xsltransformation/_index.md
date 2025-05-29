@@ -3,7 +3,7 @@ title: FieldIncludeText.XslTransformation
 linktitle: XslTransformation
 articleTitle: XslTransformation
 second_title: Aspose.Words pour .NET
-description: FieldIncludeText XslTransformation propriété. Obtient ou définit lemplacement de la transformation XSL pour formater les données XML en C#.
+description: Découvrez la propriété FieldIncludeText XslTransformation pour gérer facilement le formatage des données XML grâce à des transformations XSL personnalisables. Améliorez la présentation de vos données !
 type: docs
 weight: 100
 url: /fr/net/aspose.words.fields/fieldincludetext/xsltransformation/
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Vous trouverez ci-dessous deux manières d'utiliser les champs INCLUDETEXT pour afficher le contenu d'un fichier XML dans le système de fichiers local.
-    // 1 - Effectuer une transformation XSL sur un document XML :
+    // 1 - Effectuer une transformation XSL sur un document XML :
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utiliser un XPath pour récupérer des éléments spécifiques d'un document XML :
+    // 2 - Utiliser un XPath pour extraire des éléments spécifiques d'un document XML :
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

@@ -3,14 +3,14 @@ title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Layout.IPageLayoutCallback gränssnitt. Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under byggandet och renderingen av sidlayoutmodellen i C#.
+description: Anpassa din dokumentlayout med gränssnittet Aspose.Words.Layout.IPageLayoutCallback. Förbättra renderingen med dina egna metoder för optimala resultat.
 type: docs
-weight: 3310
+weight: 3760
 url: /sv/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Implementera detta gränssnitt om du vill ha din egen anpassade metod anropad under byggandet och renderingen av sidlayoutmodellen.
+Implementera det här gränssnittet om du vill att din egen anpassade metod ska anropas under byggandet och renderingen av sidlayoutmodellen.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -20,21 +20,21 @@ public interface IPageLayoutCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Detta anropas för att meddela om layoutens framsteg och rendering. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Detta anropas för att meddela om layoutbyggande och renderingsförlopp. |
 
 ## Anmärkningar
 
-Den primära användningen av detta gränssnitt är att tillåta programkod att avbryta byggprocessen.
+Det primära användningen av det här gränssnittet är att tillåta applikationskod att avbryta byggprocessen.
 
-Det är möjligt att bygga en sidlayoutmodell för endast ett fåtal sidor i början av dokumentet och sedan avbryta processen och bara återge det som redan har byggts.
+Det är möjligt att bygga en sidlayoutmodell för endast ett fåtal sidor i början av dokumentet och sedan avbryta processen och bara rendera det som redan har byggts.
 
-Observera dock att renderingsresultat kanske inte matchar det som skulle renderas för varje sida om processen skulle ha avslutats.
+Observera dock att renderingsresultaten kanske inte matchar vad som skulle renderas för varje sida om processen hade avslutats.
 
-Denna teknik kanske inte fungerar för alla dokument eller kan misslyckas helt.
+Den här tekniken kanske inte fungerar för alla dokument eller så kan den misslyckas helt.
 
 ## Exempel
 
-Visar hur man spårar layoutändringar med en layoutåteruppringning.
+Visar hur man spårar layoutändringar med ett layoutåteranrop.
 
 ```csharp
 public void PageLayoutCallback()
@@ -53,7 +53,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Meddelar oss när vi sparar dokumentet till ett fast sidformat
-/// och renderar en sida som vi utför ett sidflöde på till en bild i det lokala filsystemet.
+/// och renderar en sida som vi utför en sidflödesomflöde på till en bild i det lokala filsystemet.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

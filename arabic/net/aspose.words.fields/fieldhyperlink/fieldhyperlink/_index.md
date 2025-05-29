@@ -3,7 +3,7 @@ title: FieldHyperlink
 linktitle: FieldHyperlink
 articleTitle: FieldHyperlink
 second_title: Aspose.Words لـ .NET
-description: FieldHyperlink البناء. Default_Constructor في C#.
+description: اكتشف منشئ FieldHyperlink، المنشئ الافتراضي الأساسي للتكامل السلس والوظائف المحسنة في مشاريعك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/

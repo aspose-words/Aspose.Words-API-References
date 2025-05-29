@@ -3,7 +3,7 @@ title: FieldMacroButton
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
 second_title: Aspose.Words لـ .NET
-description: FieldMacroButton البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldMacroButton - الحل الأمثل لإنشاء أزرار ماكرو قابلة للتخصيص بسهولة وفعالية. حسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmacrobutton/fieldmacrobutton/

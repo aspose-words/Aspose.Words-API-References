@@ -3,16 +3,16 @@ title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Vba.VbaReferenceCollection classe. Représente une collection deVbaReference objets en C#.
+description: Explorez la classe Aspose.Words.Vba.VbaReferenceCollection, un outil puissant pour gérer efficacement les objets VbaReference dans vos projets.
 type: docs
-weight: 6600
+weight: 7450
 url: /fr/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
 Représente une collection de[`VbaReference`](../vbareference/) objets.
 
-Pour en savoir plus, visitez le[Travailler avec des macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les macros VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) article de documentation.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -29,7 +29,7 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | Nom | La description |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Supprime la première occurrence d'un élément spécifié[`VbaReference`](../vbareference/) objet de la collection. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Supprime la première occurrence d'un élément spécifié[`VbaReference`](../vbareference/) article de la collection. |
 | [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Supprime le[`VbaReference`](../vbareference/) élément à l'index spécifié de la collection. |
 
 ## Exemples
@@ -80,7 +80,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -95,7 +95,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Renvoie le chemin d'un identifiant spécifié d'une bibliothèque de types Automation.
+/// Renvoie le chemin à partir d'un identifiant spécifié d'une bibliothèque de type Automation.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

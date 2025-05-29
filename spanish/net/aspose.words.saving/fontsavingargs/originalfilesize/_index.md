@@ -3,7 +3,7 @@ title: FontSavingArgs.OriginalFileSize
 linktitle: OriginalFileSize
 articleTitle: OriginalFileSize
 second_title: Aspose.Words para .NET
-description: FontSavingArgs OriginalFileSize propiedad. Obtiene el tamaño del archivo de fuente original en C#.
+description: Descubra la propiedad FontSavingArgs OriginalFileSize para recuperar de manera eficiente el tamaño del archivo de fuente original, mejorando su experiencia de administración de fuentes.
 type: docs
 weight: 110
 url: /es/net/aspose.words.saving/fontsavingargs/originalfilesize/
@@ -18,19 +18,19 @@ public int OriginalFileSize { get; }
 
 ## Observaciones
 
-Esta propiedad contiene el tamaño de archivo original de la fuente actual, si se conoce. De lo contrario puede ser cero.
+Esta propiedad contiene el tamaño del archivo original de la fuente actual, si se conoce. De lo contrario, puede ser cero.
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

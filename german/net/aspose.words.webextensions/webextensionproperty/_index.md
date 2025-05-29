@@ -3,16 +3,16 @@ title: WebExtensionProperty Class
 linktitle: WebExtensionProperty
 articleTitle: WebExtensionProperty
 second_title: Aspose.Words für .NET
-description: Aspose.Words.WebExtensions.WebExtensionProperty klas. Gibt eine benutzerdefinierte Weberweiterungseigenschaft an in C#.
+description: Entdecken Sie die Klasse Aspose.Words.WebExtensionProperty zum Definieren benutzerdefinierter Web-Erweiterungseigenschaften. Optimieren Sie Ihr Dokumentenmanagement mit Leichtigkeit!
 type: docs
-weight: 6780
+weight: 7630
 url: /de/net/aspose.words.webextensions/webextensionproperty/
 ---
 ## WebExtensionProperty class
 
-Gibt eine benutzerdefinierte Weberweiterungseigenschaft an.
+Gibt eine benutzerdefinierte Eigenschaft einer Web-Erweiterung an.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten Sie mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Office-Add-Ins](https://docs.aspose.com/words/net/work-with-office-add-ins/) Dokumentationsartikel.
 
 ```csharp
 public class WebExtensionProperty
@@ -22,7 +22,7 @@ public class WebExtensionProperty
 
 | Name | Beschreibung |
 | --- | --- |
-| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Erstellt eine benutzerdefinierte Weberweiterungseigenschaft mit dem angegebenen Namen und Wert. |
+| [WebExtensionProperty](webextensionproperty/)(*string, string*) | Erstellt eine benutzerdefinierte Web-Erweiterungseigenschaft mit dem angegebenen Namen und Wert. |
 
 ## Eigenschaften
 

@@ -3,16 +3,16 @@ title: LanguagePreferences Class
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Loading.LanguagePreferences clase. Permite configurar preferencias de idioma en C#.
+description: Descubra la clase Aspose.Words.LanguagePreferences para personalizar y administrar sin esfuerzo la configuración de idioma para un mejor procesamiento de documentos.
 type: docs
-weight: 3650
+weight: 4100
 url: /es/net/aspose.words.loading/languagepreferences/
 ---
 ## LanguagePreferences class
 
-Permite configurar preferencias de idioma.
+Permite configurar las preferencias de idioma.
 
-Para obtener más información, visite el[Especificar opciones de carga](https://docs.aspose.com/words/net/specify-load-options/) artículo de documentación.
+Para obtener más información, visite el[Especificar opciones de carga](https://docs.aspose.com/words/net/specify-load-options/) Artículo de documentación.
 
 ```csharp
 public class LanguagePreferences
@@ -34,7 +34,7 @@ public class LanguagePreferences
 
 | Nombre | Descripción |
 | --- | --- |
-| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Agrega idioma de edición adicional. |
+| [AddEditingLanguage](../../aspose.words.loading/languagepreferences/addeditinglanguage/)(*[EditingLanguage](../editinglanguage/)*) | Agrega lenguaje de edición adicional. |
 | [AddEditingLanguages](../../aspose.words.loading/languagepreferences/addeditinglanguages/)(*EditingLanguage[]*) | Agrega idiomas de edición adicionales. |
 
 ## Observaciones
@@ -43,7 +43,7 @@ Implementa el cuadro de diálogo 'Establecer las preferencias de idioma de Offic
 
 ## Ejemplos
 
-Muestra cómo aplicar preferencias de idioma al cargar un documento.
+Muestra cómo aplicar las preferencias de idioma al cargar un documento.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

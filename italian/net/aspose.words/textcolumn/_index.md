@@ -3,14 +3,14 @@ title: TextColumn Class
 linktitle: TextColumn
 articleTitle: TextColumn
 second_title: Aspose.Words per .NET
-description: Aspose.Words.TextColumn classe. Rappresenta una singola colonna di testo.TextColumn è un membro delTextColumnCollection collezione. IlTextColumn la raccolta include tutte le colonne in una sezione di un documento in C#.
+description: Scopri la classe Aspose.Words.TextColumn per gestire le colonne di testo nei tuoi documenti. Accedi e personalizza facilmente ogni colonna nella tua sezione di testo.
 type: docs
-weight: 6390
+weight: 7240
 url: /it/net/aspose.words/textcolumn/
 ---
 ## TextColumn class
 
-Rappresenta una singola colonna di testo.`TextColumn` è un membro del[`TextColumnCollection`](../textcolumncollection/) collezione. Il`TextColumn` la raccolta include tutte le colonne in una sezione di un documento.
+Rappresenta una singola colonna di testo.`TextColumn` è un membro del[`TextColumnCollection`](../textcolumncollection/) collezione. La`TextColumn`la raccolta include tutte le colonne in una sezione di un documento.
 
 Per saperne di più, visita il[Lavorare con le sezioni](https://docs.aspose.com/words/net/working-with-sections/) articolo di documentazione.
 
@@ -27,13 +27,13 @@ public class TextColumn
 
 ## Osservazioni
 
-`TextColumn` gli oggetti vengono utilizzati solo per specificare colonne con larghezza e spaziatura personalizzate. Se vuoi che le colonne nel documento abbiano la stessa larghezza, imposta TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) A`VERO`.
+`TextColumn` Gli oggetti vengono utilizzati solo per specificare colonne con larghezza e spaziatura personalizzate. Se si desidera che le colonne del documento abbiano la stessa larghezza, impostare TextColumns.[`EvenlySpaced`](../textcolumncollection/evenlyspaced/) A`VERO`.
 
-Quando un nuovo`TextColumn` viene creato, ha la larghezza e la spaziatura impostate su zero.
+Quando un nuovo`TextColumn` viene creato, la sua larghezza e la sua spaziatura sono impostate su zero.
 
 ## Esempi
 
-Mostra come creare colonne con spaziatura non uniforme.
+Mostra come creare colonne con spaziature non uniformi.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Determina la quantità di spazio disponibile per la disposizione delle colonne.
+// Determinare la quantità di spazio disponibile per disporre le colonne.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
@@ -54,7 +54,7 @@ TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Imposta la seconda colonna per occupare il resto dello spazio disponibile entro i margini della pagina.
+// Imposta la seconda colonna in modo che occupi il resto dello spazio disponibile entro i margini della pagina.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

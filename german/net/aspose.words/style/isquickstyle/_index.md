@@ -3,7 +3,7 @@ title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
 second_title: Aspose.Words für .NET
-description: Style IsQuickStyle eigendom. Gibt an ob dieser Stil in der Quick StyleGalerie in der MS WordBenutzeroberfläche angezeigt wird in C#.
+description: Entdecken Sie, wie die IsQuickStyle-Eigenschaft Ihre MS Word-Erfahrung verbessert, indem sie Stile in der QuickStyle-Galerie für einfachen Zugriff und verbesserten Arbeitsablauf präsentiert.
 type: docs
 weight: 80
 url: /de/net/aspose.words/style/isquickstyle/

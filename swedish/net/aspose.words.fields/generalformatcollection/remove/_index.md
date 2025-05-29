@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: GeneralFormatCollection Remove metod. Tar bort alla förekomster av det angivna allmänna formatet från samlingen i C#.
+description: Ta enkelt bort alla förekomster av ett specifikt generellt format från din samling med metoden GeneralFormatCollection Remove. Effektivisera din datahantering!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/generalformatcollection/remove/
@@ -18,7 +18,7 @@ public void Remove(GeneralFormat item)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| item | GeneralFormat | Ett allmänt format. |
+| item | GeneralFormat | Ett generellt format. |
 
 ## Exempel
 
@@ -28,14 +28,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -44,7 +44,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

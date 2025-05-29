@@ -3,14 +3,14 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words для .NET
-description: Story FirstParagraph свойство. Получает первый абзац статьи на С#.
+description: Откройте для себя свойство Story FirstParagraph, которое позволяет легко извлекать первый абзац любой истории, улучшая ваш контент и взаимодействие с пользователями.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-Получает первый абзац статьи.
+Получает первый абзац в истории.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Примеры
 
-Показывает, как форматировать фрагмент текста, используя его свойство шрифта.
+Показывает, как отформатировать фрагмент текста, используя его свойство шрифта.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```csharp
 Document doc = new Document();
 
-// Создаём плавающее текстовое поле.
+// Создаем плавающее текстовое поле.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -48,7 +48,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Добавляем абзац в текстовое поле и добавляем текст, который будет отображаться в текстовом поле.
+// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

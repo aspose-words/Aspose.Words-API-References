@@ -3,14 +3,14 @@ title: EditorType Enum
 linktitle: EditorType
 articleTitle: EditorType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.EditorType uppräkning. Anger uppsättningen av möjliga alias eller redigeringsgrupper som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enstaka intervall definierat av ett redigerbart intervall inom ett dokument i C#.
+description: Upptäck enumereringen Aspose.Words.EditorType, som definierar redigeringsgrupper för att kontrollera användarbehörigheter för redigering av dokumentintervall. Förbättra din dokumenthantering idag!
 type: docs
-weight: 1450
+weight: 1860
 url: /sv/net/aspose.words/editortype/
 ---
 ## EditorType enumeration
 
-Anger uppsättningen av möjliga alias (eller redigeringsgrupper) som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enstaka intervall definierat av ett redigerbart intervall inom ett dokument.
+Anger uppsättningen möjliga alias (eller redigeringsgrupper) som kan användas som alias för att avgöra om den aktuella användaren ska tillåtas redigera ett enskilt område som definieras av ett redigerbart område inom ett dokument.
 
 ```csharp
 public enum EditorType
@@ -20,19 +20,19 @@ public enum EditorType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Unspecified | `0` | Betyder att editortyp inte är specificerad. |
-| Administrators | `1` | Anger att användare som är associerade med administratörsgruppen ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
-| Contributors | `2` | Anger att användare som är kopplade till gruppen Bidragsgivare ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
-| Current | `3` | Anger att användare som är associerade med den aktuella gruppen ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
-| Editors | `4` | Anger att användare som är associerade med Redaktörsgruppen ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
-| Everyone | `5` | Anger att alla användare som öppnar dokumentet ska tillåtas redigera redigerbara intervall med denna typ editing när dokumentskydd är aktiverat. |
-| None | `6` | Anger att ingen av användarna som öppnar dokumentet ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
-| Owners | `7` | Anger att användare som är associerade med ägaregruppen ska tillåtas redigera redigerbara intervall med denna redigeringstyp när dokumentskydd är aktiverat. |
+| Unspecified | `0` | Betyder att editortypen inte är specificerad. |
+| Administrators | `1` | Anger att användare som är associerade med gruppen Administratörer ska ha rätt att redigera redigerbara områden med hjälp av denna redigeringstyp när dokumentskydd är aktiverat. |
+| Contributors | `2` | Anger att användare som är associerade med gruppen Bidragsgivare ska ha rätt att redigera redigerbara områden med hjälp av denna redigeringstyp när dokumentskydd är aktiverat. |
+| Current | `3` | Anger att användare som är associerade med den aktuella gruppen ska tillåtas redigera redigerbara områden med denna redigeringstyp när dokumentskydd är aktiverat. |
+| Editors | `4` | Anger att användare som är associerade med gruppen Redigerare ska ha rätt att redigera redigerbara områden med denna redigeringstyp när dokumentskydd är aktiverat. |
+| Everyone | `5` | Anger att alla användare som öppnar dokumentet ska ha rätt att redigera redigerbara områden med hjälp av den här typen editing när dokumentskydd är aktiverat. |
+| None | `6` | Anger att ingen av användarna som öppnar dokumentet ska tillåtas redigera redigerbara områden med denna redigeringstyp när dokumentskydd är aktiverat. |
+| Owners | `7` | Anger att användare som är associerade med gruppen Ägare ska ha rätt att redigera redigerbara områden med denna redigeringstyp när dokumentskydd är aktiverat. |
 | Default | `0` | Samma somUnspecified . |
 
 ## Exempel
 
-Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
+Visar hur man begränsar redigeringsrättigheterna för redigerbara områden till en specifik grupp/användare.
 
 ```csharp
 public void Visitor()
@@ -44,7 +44,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // När vi skrivskyddar dokument tillåter redigerbara intervall oss att välja specifika områden som användare kan redigera.
+    // När vi skrivskyddar dokument tillåter redigerbara områden oss att välja specifika områden som användare kan redigera.
     // Det finns två ömsesidigt uteslutande sätt att begränsa listan över tillåtna redigerare.
     // 1 - Ange en användare:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Skriv ut detaljer och innehåll för varje redigerbart område i dokumentet.
+    // Skriv ut detaljer och innehåll för alla redigerbara områden i dokumentet.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Samlar egenskaper och innehåll för besökta redigerbara intervall i en sträng.
+/// Samlar in egenskaper och innehåll från besökta redigerbara områden i en sträng.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet. Den här besökaren registrerar bara körningar som ligger inom redigerbara intervall.
+    /// Anropas när en Run-nod påträffas i dokumentet. Den här besökaren registrerar endast körningar som ligger inom redigerbara intervall.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

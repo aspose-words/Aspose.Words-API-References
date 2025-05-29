@@ -2,15 +2,15 @@
 title: Shape.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
-second_title: Aspose.Words for .NET
-description: Shape LastParagraph mülk. Şeklin son paragrafını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Şeklinizdeki son paragrafı kolayca almak için LastParagraph özelliğine erişin, böylece belgenizin düzenini ve okunabilirliğini artırın.
 type: docs
-weight: 120
+weight: 130
 url: /tr/net/aspose.words.drawing/shape/lastparagraph/
 ---
 ## Shape.LastParagraph property
 
-Şeklin son paragrafını alır.
+Şekildeki son paragrafı alır.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph LastParagraph { get; }
 
 ## Örnekler
 
-Bir metin kutusu içindeki metnin yönünün nasıl ayarlanacağını gösterir.
+Bir metin kutusunun içindeki metnin yönünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Belge oluşturucuyu TextBox'un içine taşıyın ve metin ekleyin.
+// Belge oluşturucuyu TextBox'ın içine taşıyın ve metin ekleyin.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Bu metin kutusunun metin içeriğinin yönünü ayarlamak için "LayoutFlow" özelliğini ayarlayın.
+// Bu metin kutusunun metin içeriği için bir yönlendirme belirlemek üzere "LayoutFlow" özelliğini ayarlayın.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");

@@ -3,14 +3,14 @@ title: ChartDataLabel.Index
 linktitle: Index
 articleTitle: Index
 second_title: Aspose.Words для .NET
-description: ChartDataLabel Index свойство. Указывает индекс содержащего элемента. Этот индекс определяет к какой из родительских дочерних коллекций относится этот элемент. Значение по умолчанию  0 на С#.
+description: Откройте для себя свойство ChartDataLabel Index, определите иерархию элементов и оптимизируйте визуализацию данных. Значение по умолчанию — 0 для легкой интеграции.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 ## ChartDataLabel.Index property
 
-Указывает индекс содержащего элемента. Этот индекс определяет, к какой из родительских дочерних коллекций относится этот элемент. Значение по умолчанию — 0.
+Указывает индекс содержащего элемента. Этот индекс определяет, к какой из дочерних коллекций родительского элемента применяется этот элемент. Значение по умолчанию — 0.
 
 ```csharp
 public int Index { get; }
@@ -34,15 +34,15 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Применяем метки данных к каждой серии диаграммы.
-    // Эти метки появятся рядом с каждой точкой данных на графике и отобразят ее значение.
+    // Применить метки данных к каждой серии на диаграмме.
+    // Эти метки будут отображаться рядом с каждой точкой данных на графике и отображать ее значение.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Измените строку-разделитель для каждой метки данных в серии.
+    // Измените строку разделителя для каждой метки данных в серии.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // Чтобы график выглядел чище, мы можем удалить метки данных по отдельности.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Мы также можем сразу удалить целую серию меток данных.
+    // Для более четкого вида графика мы можем удалить метки данных по отдельности.
+    dataLabel.ClearFormat();
+
+    // Мы также можем удалить целую серию меток данных за один раз.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Примените метки данных с произвольным числовым форматом и разделителем к нескольким точкам данных в серии.
+/// Применить метки данных с пользовательским числовым форматом и разделителем к нескольким точкам данных в серии.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

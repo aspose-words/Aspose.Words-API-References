@@ -3,14 +3,14 @@ title: Section.ProtectedForForms
 linktitle: ProtectedForForms
 articleTitle: ProtectedForForms
 second_title: Aspose.Words لـ .NET
-description: Section ProtectedForForms ملكية. صحيح إذا كان القسم محميًا للنماذج. عندما يكون القسم محميًا للنماذج يمكن للمستخدمين تحديد النص وتعديله فقط في حقول النموذج في Microsoft Word في C#.
+description: اكتشف كيف تعمل خاصية ProtectedForForms في Microsoft Word على تعزيز أمان المستندات، مما يسمح للمستخدمين بتحرير حقول النماذج المخصصة فقط بسهولة.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/section/protectedforforms/
 ---
 ## Section.ProtectedForForms property
 
-صحيح إذا كان القسم محميًا للنماذج. عندما يكون القسم محميًا للنماذج، يمكن للمستخدمين تحديد النص وتعديله فقط في حقول النموذج في Microsoft Word.
+صحيح إذا كان القسم محميًا للنماذج. عند حماية القسم للنماذج، يمكن للمستخدمين تحديد وتعديل النص فقط في حقول النموذج في مايكروسوفت وورد.
 
 ```csharp
 public bool ProtectedForForms { get; set; }
@@ -37,8 +37,8 @@ doc.Protect(ProtectionType.AllowOnlyFormFields);
 // قم بإيقاف تشغيل الحماية ضد الكتابة للقسم الأول.
 doc.Sections[0].ProtectedForForms = false;
 
-// في مستند الإخراج هذا، سنكون قادرين على تحرير القسم الأول بحرية،
-// ولن نتمكن من تعديل محتويات حقل النموذج إلا في القسم الثاني.
+// في وثيقة الإخراج هذه، سنكون قادرين على تحرير القسم الأول بحرية،
+// ولن نتمكن من تحرير محتويات حقل النموذج إلا في القسم الثاني.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

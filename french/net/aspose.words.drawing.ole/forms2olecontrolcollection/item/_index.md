@@ -3,7 +3,7 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: Forms2OleControlCollection Item propriété. ObtientForms2OleControl objet à un index spécifié en C#.
+description: Accédez facilement à l'objet Forms2OleControl grâce à la propriété Item. Simplifiez la gestion de vos contrôles en récupérant facilement les éléments à n'importe quel index.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
@@ -18,7 +18,7 @@ public Forms2OleControl this[int index] { get; }
 
 ## Exemples
 
-Montre comment accéder à un contrôle OLE incorporé dans un document et à ses contrôles enfants.
+Montre comment accéder à un contrôle OLE intégré dans un document et à ses contrôles enfants.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");

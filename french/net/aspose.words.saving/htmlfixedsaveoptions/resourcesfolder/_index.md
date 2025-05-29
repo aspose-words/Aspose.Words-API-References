@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourcesFolder
 linktitle: ResourcesFolder
 articleTitle: ResourcesFolder
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions ResourcesFolder propriété. Spécifie le dossier physique dans lequel les ressources images polices CSS sont enregistrées lors de lexportation dun document au format HTML. La valeur par défaut estnul  en C#.
+description: Découvrez comment la propriété ResourcesFolder de HtmlFixedSaveOptions définit l'emplacement de stockage des images, des polices et du CSS lors des exportations HTML. Optimisez votre flux de travail documentaire !
 type: docs
-weight: 140
+weight: 160
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolder/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolder property
 
-Spécifie le dossier physique dans lequel les ressources (images, polices, CSS) sont enregistrées lors de l'exportation d'un document au format HTML. La valeur par défaut est`nul` .
+Spécifie le dossier physique dans lequel les ressources (images, polices, css) sont enregistrées lors de l'exportation d'un document au format HTML. La valeur par défaut est`nul` .
 
 ```csharp
 public string ResourcesFolder { get; set; }
@@ -20,11 +20,11 @@ public string ResourcesFolder { get; set; }
 
 N'a d'effet que si[`ExportEmbeddedImages`](../exportembeddedimages/) la propriété est`FAUX`.
 
-Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format HTML, Aspose.Words doit enregistrer toutes les images intégrées dans le document en tant que fichiers autonomes.`ResourcesFolder` permet de préciser où les images seront enregistrées et[`ResourcesFolderAlias`](../resourcesfolderalias/) permet de spécifier comment les URI des images seront construites.
+Lorsque vous enregistrez un[`Document`](../../../aspose.words/document/) au format Html, Aspose.Words doit enregistrer toutes les images intégrées dans le document sous forme de fichiers autonomes.`ResourcesFolder` vous permet de spécifier où les images seront enregistrées et[`ResourcesFolderAlias`](../resourcesfolderalias/) permet de spécifier comment les URI des images seront construits.
 
-Si vous enregistrez un document dans un fichier et fournissez un nom de fichier, Aspose.Words, par défaut, enregistre les images dans le même dossier où le fichier du document est enregistré. Utiliser`ResourcesFolder` pour remplacer ce comportement.
+Si vous enregistrez un document dans un fichier et fournissez un nom de fichier, Aspose.Words, par défaut, enregistre les images dans le même dossier où le fichier du document est enregistré.`ResourcesFolder` pour remplacer ce comportement.
 
-Si vous enregistrez un document dans un flux, Aspose.Words n'a pas de dossier dans lequel enregistrer les images, mais doit quand même enregistrer les images quelque part. Dans ce cas, vous devez spécifier un dossier accessible en utilisant le`ResourcesFolder` propriété
+Si vous enregistrez un document dans un flux, Aspose.Words ne dispose pas de dossier pour les images, mais doit tout de même les enregistrer quelque part. Dans ce cas, vous devez spécifier un dossier accessible, à l'aide de l'option`ResourcesFolder` propriété
 
 ## Exemples
 
@@ -62,7 +62,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en HTML fixe.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en HTML fixe.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
@@ -78,7 +78,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".woff":
             {
                 // Par défaut, 'ResourceFileUri' utilise le dossier système pour les polices.
-                // Pour éviter des problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
+                // Pour éviter les problèmes sur d'autres plateformes, vous devez spécifier explicitement le chemin des polices.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
             }
@@ -87,7 +87,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
         mText.AppendLine("\t" + args.ResourceFileUri);
 
         // Si nous avons spécifié un dossier dans la propriété "ResourcesFolderAlias",
-        // nous devrons également rediriger chaque flux pour mettre sa ressource dans ce dossier.
+        // nous devrons également rediriger chaque flux pour placer sa ressource dans ce dossier.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -3,16 +3,16 @@ title: FieldUserName Class
 linktitle: FieldUserName
 articleTitle: FieldUserName
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldUserName сорт. Реализует поле USERNAME на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldUserName для бесшовной интеграции полей USERNAME. Улучшите автоматизацию документов с помощью мощных функций сегодня!
 type: docs
-weight: 2600
+weight: 3010
 url: /ru/net/aspose.words.fields/fieldusername/
 ---
 ## FieldUserName class
 
 Реализует поле USERNAME.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldUserName : Field
@@ -28,32 +28,32 @@ public class FieldUserName : Field
 
 | Имя | Описание |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий результат отображаемого поля. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Получает текст, представляющий отображаемый результат поля. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Получает узел, представляющий конец поля. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/) объект, обеспечивающий типизированный доступ к форматированию поля. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений, внесенных в документ. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Получает или задает, заблокировано ли поле (не следует пересчитывать результат). |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Получает[`FieldFormat`](../fieldformat/)объект, который обеспечивает типизированный доступ к форматированию поля. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений, внесенных в документ. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Возвращает или задает, заблокировано ли поле (не следует пересчитывать его результат). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Получает или задает LCID поля. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Получает или задает текст, расположенный между разделителем полей и концом поля. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Возможно`нулевой` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Возвращает или задает текст, который находится между разделителем полей и концом поля. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Получает узел, представляющий разделитель полей. Может быть`нулевой` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Получает узел, представляющий начало поля. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Получает тип поля Microsoft Word. |
-| [UserName](../../aspose.words.fields/fieldusername/username/) { get; set; } | Присвоение или установка имени текущего пользователя. |
+| [UserName](../../aspose.words.fields/fieldusername/username/) { get; set; } | Указывает или устанавливает имя текущего пользователя. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем поля (или концом поля, если разделителя нет). Включены как код поля, так и результат поля дочерних полей. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделителя нет). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля является последним дочерним его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращается`нулевой` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отсоединение поля. |
-| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает, если поле уже обновляется. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает, если поле уже обновляется. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). Включаются как код поля, так и результат поля дочерних полей. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Возвращает текст между началом поля и разделителем полей (или концом поля, если разделитель отсутствует). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Удаляет поле из документа. Возвращает узел сразу после поля. Если конец поля — последний child его родительского узла, возвращает его родительский абзац. Если поле уже удалено, возвращает`нулевой` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Выполняет отмену связи поля. |
+| [Update](../../aspose.words.fields/field/update/)() | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Выполняет обновление поля. Выдает исключение, если поле уже обновляется. |
 
 ## Примечания
 
-Получает имя текущего пользователя.
+Возвращает имя текущего пользователя.
 
 ## Примеры
 
@@ -62,7 +62,7 @@ public class FieldUserName : Field
 ```csharp
 Document doc = new Document();
 
-// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
+// Создаем объект UserInformation и устанавливаем его как источник информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -77,14 +77,14 @@ Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
+ // Мы можем задать это свойство, чтобы наше поле переопределяло значение, которое в данный момент хранится в объекте UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 
 Assert.AreEqual(" USERNAME  \"Jane Doe\"", fieldUserName.GetFieldCode());
 Assert.AreEqual("Jane Doe", fieldUserName.Result);
 
-// Это не влияет на значение объекта UserInformation.
+// Это не влияет на значение в объекте UserInformation.
 Assert.AreEqual("John Doe", doc.FieldOptions.CurrentUser.Name);
 
 doc.UpdateFields();

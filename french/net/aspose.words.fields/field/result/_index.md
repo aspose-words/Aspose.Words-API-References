@@ -3,14 +3,14 @@ title: Field.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words pour .NET
-description: Field Result propriété. Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ en C#.
+description: Gérez facilement les propriétés des résultats de champ. Accédez au texte entre les séparateurs de champs ou modifiez-le pour une gestion simplifiée des données et une efficacité accrue.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-Obtient ou définit le texte situé entre le séparateur de champ et la fin du champ.
+Obtient ou définit le texte qui se trouve entre le séparateur de champ et la fin du champ.
 
 ```csharp
 public string Result { get; set; }
@@ -30,7 +30,7 @@ Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
 // Cette surcharge de la méthode InsertField met automatiquement à jour les champs insérés.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### Voir également

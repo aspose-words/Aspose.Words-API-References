@@ -3,7 +3,7 @@ title: Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words para .NET
-description: Odso constructor. Constructor predeterminado en C#.
+description: Descubra el constructor Odso, su solución ideal para una construcción eficiente de valores predeterminados en programación. ¡Simplifique su código y mejore el rendimiento hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/odso/odso/

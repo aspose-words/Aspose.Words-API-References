@@ -2,10 +2,10 @@
 title: ChartYValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValueCollection GetEnumerator 方法. 返回一个枚举器对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValueCollection GetEnumerator 方法——轻松高效地迭代数据并增强您的数据处理能力。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartyvaluecollection/getenumerator/
 ---
 ## ChartYValueCollection.GetEnumerator method

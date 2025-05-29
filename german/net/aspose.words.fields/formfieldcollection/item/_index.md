@@ -3,7 +3,7 @@ title: FormFieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: FormFieldCollection Item eigendom. Gibt ein Formularfeld am angegebenen Index zurück in C#.
+description: Greifen Sie mit der Elementeigenschaft FormFieldCollection einfach auf bestimmte Formularfelder zu. Optimieren Sie Ihre Datenverarbeitung und verbessern Sie die Formularverwaltung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/formfieldcollection/item/
@@ -18,17 +18,17 @@ public FormField this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index in die Sammlung. |
+| index | Ein Index zur Sammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
@@ -40,7 +40,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -50,7 +50,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -87,7 +87,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -101,7 +101,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -142,7 +142,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -180,11 +180,11 @@ public FormField this[string bookmarkName] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| bookmarkName | Groß- und Kleinschreibung des Lesezeichennamens wird nicht beachtet. |
+| bookmarkName | Der Lesezeichenname berücksichtigt keine Groß-/Kleinschreibung. |
 
 ## Bemerkungen
 
-Gibt zurück`Null` wenn das Formularfeld mit dem angegebenen Lesezeichennamen nicht gefunden werden kann.
+Rückgaben`null` wenn das Formularfeld mit dem angegebenen Lesezeichennamen nicht gefunden werden kann.
 
 ## Beispiele
 
@@ -196,7 +196,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -206,7 +206,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -220,7 +220,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -243,7 +243,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -257,7 +257,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -298,7 +298,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {

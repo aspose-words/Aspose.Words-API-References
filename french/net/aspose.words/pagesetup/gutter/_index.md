@@ -3,7 +3,7 @@ title: PageSetup.Gutter
 linktitle: Gutter
 articleTitle: Gutter
 second_title: Aspose.Words pour .NET
-description: PageSetup Gutter propriété. Obtient ou définit la quantité despace supplémentaire ajoutée à la marge pour la reliure du document en C#.
+description: Ajustez les paramètres de gouttière de la mise en page pour optimiser les marges du document pour la reliure. Améliorez votre mise en page avec des marges parfaites pour un résultat professionnel.
 type: docs
 weight: 160
 url: /fr/net/aspose.words/pagesetup/gutter/
@@ -18,12 +18,12 @@ public double Gutter { get; set; }
 
 ## Exemples
 
-Montre comment configurer un document pouvant être imprimé sous forme de pli de livre.
+Montre comment configurer un document pouvant être imprimé sous forme de livre plié.
 
 ```csharp
 Document doc = new Document();
 
-// Insère un texte qui s'étend sur 16 pages.
+// Insérer un texte qui s'étend sur 16 pages.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -33,13 +33,13 @@ for (int i = 0; i < 15; i++)
     builder.Write($"Booklet face #{i}");
 }
 
-// Configure la propriété "PageSetup" de la première section pour imprimer le document sous la forme d'un pli de livre.
-// Lorsqu'on imprime ce document recto verso, on peut prendre les pages pour les empiler
-// et pliez-les tous au milieu en même temps. Le contenu du document s’alignera dans un pli de livre.
+// Configurez la propriété « PageSetup » de la première section pour imprimer le document sous la forme d'un pli de livre.
+// Lorsque nous imprimons ce document en recto verso, nous pouvons prendre les pages pour les empiler
+// et pliez-les tous en deux. Le contenu du document sera aligné pour former un pli de livre.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 
-// On ne peut préciser le nombre de feuilles qu'en multiples de 4.
+// Nous ne pouvons spécifier le nombre de feuilles qu'en multiples de 4.
 pageSetup.SheetsPerBooklet = 4;
 
 doc.Save(ArtifactsDir + "PageSetup.Booklet.docx");
@@ -50,7 +50,7 @@ Montre comment définir les marges de gouttière.
 ```csharp
 Document doc = new Document();
 
-// Insère du texte qui s'étend sur plusieurs pages.
+// Insérer du texte qui s'étend sur plusieurs pages.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -59,20 +59,20 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Une gouttière ajoute des espaces dans la marge gauche ou droite de la page,
-// qui compense le pliage central des pages d'un livre empiétant sur la mise en page de la page.
+// Une gouttière ajoute des espaces blancs à la marge gauche ou droite de la page,
+// qui compense le pliage central des pages d'un livre qui empiète sur la mise en page de la page.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-// Déterminez l'espace dont disposent nos pages pour le texte dans les marges, puis ajoutez une quantité pour remplir une marge.
+ // Déterminez la quantité d'espace dont disposent nos pages pour le texte dans les marges, puis ajoutez un montant pour remplir une marge.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Définissez la propriété "RtlGutter" sur "true" pour placer la gouttière dans une position plus appropriée pour le texte de droite à gauche.
+// Définissez la propriété « RtlGutter » sur « true » pour placer la gouttière dans une position plus appropriée pour le texte de droite à gauche.
 pageSetup.RtlGutter = true;
 
-// Définissez la propriété "MultiplePages" sur "MultiplePagesType.MirrorMargins" pour alterner
-// la position côté gauche/droite des marges de chaque page.
+// Définissez la propriété « MultiplePages » sur « MultiplePagesType.MirrorMargins » pour alterner
+// la position des marges du côté gauche/droit de chaque page.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 
 doc.Save(ArtifactsDir + "PageSetup.Gutter.docx");

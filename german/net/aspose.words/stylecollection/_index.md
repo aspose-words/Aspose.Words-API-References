@@ -3,16 +3,16 @@ title: StyleCollection Class
 linktitle: StyleCollection
 articleTitle: StyleCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.StyleCollection klas. Eine Sammlung vonStyle Objekte die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen in C#.
+description: Entdecken Sie die Klasse Aspose.Words.StyleCollection mit einer großen Auswahl an integrierten und benutzerdefinierten Stilobjekten zur Verbesserung der Formatierung und des Designs Ihres Dokuments.
 type: docs
-weight: 6140
+weight: 6990
 url: /de/net/aspose.words/stylecollection/
 ---
 ## StyleCollection class
 
-Eine Sammlung von[`Style`](../style/) Objekte, die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen.
+Eine Sammlung von[`Style`](../style/)Objekte, die sowohl die integrierten als auch die benutzerdefinierten Stile in einem Dokument darstellen.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Stilen und Themen](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Stilen und Designs](https://docs.aspose.com/words/net/working-with-styles-and-themes/) Dokumentationsartikel.
 
 ```csharp
 public class StyleCollection : IEnumerable<Style>
@@ -24,9 +24,9 @@ public class StyleCollection : IEnumerable<Style>
 | --- | --- |
 | [Count](../../aspose.words/stylecollection/count/) { get; } | Ruft die Anzahl der Stile in der Sammlung ab. |
 | [DefaultFont](../../aspose.words/stylecollection/defaultfont/) { get; } | Ruft die Standardtextformatierung des Dokuments ab. |
-| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Ruft die standardmäßige Absatzformatierung des Dokuments ab. |
-| [Document](../../aspose.words/stylecollection/document/) { get; } | Ruft das Eigentümerdokument ab. |
-| [Item](../../aspose.words/stylecollection/item/) { get; } | Ruft einen Stil nach Namen oder Alias ab. (3 indexers) |
+| [DefaultParagraphFormat](../../aspose.words/stylecollection/defaultparagraphformat/) { get; } | Ruft die Standardabsatzformatierung des Dokuments ab. |
+| [Document](../../aspose.words/stylecollection/document/) { get; } | Ruft das Besitzerdokument ab. |
+| [Item](../../aspose.words/stylecollection/item/) { get; } | Ruft einen Stil nach Name oder Alias ab. (3 indexers) |
 
 ## Methoden
 
@@ -35,7 +35,7 @@ public class StyleCollection : IEnumerable<Style>
 | [Add](../../aspose.words/stylecollection/add/)(*[StyleType](../styletype/), string*) | Erstellt einen neuen benutzerdefinierten Stil und fügt ihn der Sammlung hinzu. |
 | [AddCopy](../../aspose.words/stylecollection/addcopy/)(*[Style](../style/)*) | Kopiert einen Stil in diese Sammlung. |
 | [ClearQuickStyleGallery](../../aspose.words/stylecollection/clearquickstylegallery/)() | Entfernt alle Stile aus dem Quick Style Gallery-Bedienfeld. |
-| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Ruft ein Enumeratorobjekt ab, das Stile in der alphabetischen Reihenfolge ihrer Namen auflistet. |
+| [GetEnumerator](../../aspose.words/stylecollection/getenumerator/)() | Ruft ein Enumeratorobjekt ab, das Stile in alphabetischer Reihenfolge ihrer Namen aufzählt. |
 
 ## Beispiele
 
@@ -55,11 +55,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Den Absatzstil auf den aktuellen Absatz des Document Builders anwenden und dann etwas Text hinzufügen.
+// Wenden Sie den Absatzstil auf den aktuellen Absatz des Dokumentgenerators an und fügen Sie dann etwas Text hinzu.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Ändern Sie den Stil des Document Builders in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
+// Ändern Sie den Stil des Dokument-Generators in einen Stil ohne Listenformatierung und schreiben Sie einen weiteren Absatz.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

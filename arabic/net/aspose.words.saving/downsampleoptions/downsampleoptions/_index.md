@@ -3,7 +3,7 @@ title: DownsampleOptions
 linktitle: DownsampleOptions
 articleTitle: DownsampleOptions
 second_title: Aspose.Words لـ .NET
-description: DownsampleOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ DownsampleOptions لمعالجة الصور بكفاءة. حسّن سير عملك باستخدام مُنشئنا الافتراضي لضمان تكامل سلس.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.saving/downsampleoptions/downsampleoptions/

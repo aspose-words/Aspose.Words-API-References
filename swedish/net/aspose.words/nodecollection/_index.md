@@ -3,16 +3,16 @@ title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.NodeCollection klass. Representerar en samling noder av en specifik typ i C#.
+description: Upptäck klassen Aspose.Words.NodeCollection, din lösning för att effektivt hantera olika nodtyper i dokumenthantering. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 4200
+weight: 4890
 url: /sv/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Representerar en samling noder av en specifik typ.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -23,7 +23,7 @@ public class NodeCollection : IEnumerable<Node>
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Hämtar antalet noder i samlingen. |
-| [Item](../../aspose.words/nodecollection/item/) { get; } | Hämtar en nod vid det givna indexet. |
+| [Item](../../aspose.words/nodecollection/item/) { get; } | Hämtar en nod vid det angivna indexet. |
 
 ## Metoder
 
@@ -31,25 +31,25 @@ public class NodeCollection : IEnumerable<Node>
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Lägger till en nod i slutet av samlingen. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Tar bort alla noder från den här samlingen och från dokumentet. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestämmer om en nod finns i samlingen. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel "foreach" stil iteration över samlingen av noder. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Avgör om en nod finns i samlingen. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Ger en enkel iteration i "foreach"-stil över samlingen av noder. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Returnerar det nollbaserade indexet för den angivna noden. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Infogar en nod i samlingen vid det angivna indexet. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Tar bort noden från samlingen och från dokumentet. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Tar bort noden vid det angivna indexet från samlingen och från dokumentet. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopierar alla noder från samlingen till en ny array av noder. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | Kopierar alla noder från samlingen till en ny array med noder. |
 
 ## Anmärkningar
 
-`NodeCollection` äger inte noderna den innehåller, snarare är det bara ett urval av nodes av den angivna typen, men noderna lagras i trädet under sina respektive överordnade noder.
+`NodeCollection` äger inte de noder den innehåller, utan är bara ett urval av nodes av den angivna typen, men noderna lagras i trädet under sina respektive överordnade noder.
 
-`NodeCollection`stöder indexerad åtkomst, iteration och tillhandahåller metoder för att lägga till och ta bort.
+`NodeCollection` stöder indexerad åtkomst, iteration och tillhandahåller metoder för att lägga till och ta bort.
 
-De`NodeCollection` samlingen är "live", dvs. ändringar av barnen till noden object som den skapades från återspeglas omedelbart i de noder som returneras av`NodeCollection` egenskaper och metoder.
+De`NodeCollection` samlingen är "live", dvs. ändringar i nodens underordnade objekt objekt som den skapades från återspeglas omedelbart i noderna som returneras av`NodeCollection` egenskaper och metoder.
 
-`NodeCollection` returneras av[`GetChildNodes`](../compositenode/getchildnodes/) och fungerar även som en basklass för typade nodsamlingar som t.ex[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` returneras av[`GetChildNodes`](../compositenode/getchildnodes/) och fungerar även som en basklass för typade nodsamlingar som[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 
-`NodeCollection` kan vara "platt" och endast innehålla omedelbara underordnade av noden den skapades från, eller så kan den vara "djup" och innehålla alla underordnade underordnade.
+`NodeCollection`kan vara "platt" och endast innehålla omedelbara underordnade noder till noden den skapades från, eller så kan den vara "djup" och innehålla alla underordnade noder.
 
 ## Exempel
 

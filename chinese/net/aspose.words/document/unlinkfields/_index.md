@@ -2,15 +2,15 @@
 title: Document.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
-second_title: 用于 .NET 的 Aspose.Words
-description: Document UnlinkFields 方法. 取消链接整个文档中的字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 UnlinkFields 方法有效地取消整个文档中的字段链接，从而增强您的编辑工作流程。
 type: docs
-weight: 730
+weight: 780
 url: /zh/net/aspose.words/document/unlinkfields/
 ---
 ## Document.UnlinkFields method
 
-取消链接整个文档中的字段。
+取消整个文档中的字段链接。
 
 ```csharp
 public void UnlinkFields()
@@ -20,11 +20,11 @@ public void UnlinkFields()
 
 将整个文档中的所有字段替换为其最新结果。
 
-要取消链接文档特定部分中的字段，请使用[`UnlinkFields`](../../range/unlinkfields/)。
+要取消文档特定部分中的字段链接，请使用[`UnlinkFields`](../../range/unlinkfields/)。
 
 ## 例子
 
-显示如何取消链接文档中的所有字段。
+展示如何取消文档中所有字段的链接。
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

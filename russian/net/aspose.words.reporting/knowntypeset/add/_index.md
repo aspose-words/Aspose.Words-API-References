@@ -3,26 +3,14 @@ title: KnownTypeSet.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words для .NET
-description: KnownTypeSet Add метод. Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях на С#.
+description: Откройте для себя метод KnownTypeSet Add, который позволит легко включать объекты Type в ваш набор, улучшая управление данными и функциональность.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.reporting/knowntypeset/add/
 ---
 ## KnownTypeSet.Add method
 
-Добавляет указанныйType возражать против набора. БроскиArgumentException in в следующих случаях:
-
--*type* является`нулевой`.
-
--*type* представляет тип void.
-
--*type* представляет невидимый тип, т. е. закрытый тип или общедоступный вложенный тип type , который имеет закрытый внешний тип.
-
--*type* представляет универсальный тип.
-
--*type* представляет тип массива.
-
--*type* уже добавлен в набор.
+Добавляет указанноеType возражают против набора.
 
 ```csharp
 public void Add(Type type)
@@ -31,6 +19,12 @@ public void Add(Type type)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | type | Type | АType объект для добавления. |
+
+### Исключения
+
+| исключение | условие |
+| --- | --- |
+| ArgumentException | Броски в следующих случаях: |
 
 ### Смотрите также
 

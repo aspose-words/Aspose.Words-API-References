@@ -3,14 +3,14 @@ title: OleFormat.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words för .NET
-description: OleFormat SourceFullName fast egendom. Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLEobjektet i C#.
+description: Upptäck egenskapen OleFormat SourceFullName och hantera enkelt sökvägen och namnet på ditt länkade OLE-objekts källfil för sömlös integration.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.drawing/oleformat/sourcefullname/
 ---
 ## OleFormat.SourceFullName property
 
-Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLE-objektet.
+Hämtar eller anger sökvägen och namnet på källfilen för det länkade OLE-objektet.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -20,7 +20,7 @@ public string SourceFullName { get; set; }
 
 Standardvärdet är en tom sträng.
 
-Om`SourceFullName` är inte en tom sträng, är OLE-objektet länkat.
+Om`SourceFullName` inte är en tom sträng är OLE-objektet länkat.
 
 ## Exempel
 
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Om objektet innehåller OLE-data kan vi komma åt det med en ström.
+// Om objektet innehåller OLE-data kan vi komma åt det med hjälp av en ström.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

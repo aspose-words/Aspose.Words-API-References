@@ -3,9 +3,9 @@ title: VbaProject.Modules
 linktitle: Modules
 articleTitle: Modules
 second_title: Aspose.Words für .NET
-description: VbaProject Modules eigendom. Gibt eine Sammlung von VBAProjektmodulen zurück in C#.
+description: Entdecken Sie die VbaProject-Moduleigenschaft, greifen Sie mühelos auf Ihre VBA-Projektmodule zu und verwalten Sie sie für verbesserte Automatisierung und Effizienz.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.vba/vbaproject/modules/
 ---
 ## VbaProject.Modules property
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -40,7 +40,7 @@ foreach (VbaModule module in vbaModules)
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
-// Ein Modul aus der Sammlung entfernen.
+// Entfernen Sie ein Modul aus der Sammlung.
 vbaModules.Remove(vbaModules[2]);
 ```
 

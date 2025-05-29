@@ -3,7 +3,7 @@ title: Border.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words para .NET
-description: Border DistanceFromText propiedad. Obtiene o establece la distancia del borde desde el texto o desde el borde de la página en puntos en C#.
+description: Descubra la propiedad Border DistanceFromText para ajustar fácilmente el espaciado del borde desde el texto o los bordes de la página en puntos para un mejor control del diseño.
 type: docs
 weight: 20
 url: /es/net/aspose.words/border/distancefromtext/

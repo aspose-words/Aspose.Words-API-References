@@ -3,16 +3,16 @@ title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Rendering.ShapeRenderer classe. Fournit des méthodes pour restituer un individuShape ouGroupShape vers une image raster ou vectorielle ou vers un objet graphique en C#.
+description: Découvrez Aspose.Words.Rendering.ShapeRenderer pour convertir sans effort des formes et des groupes de formes en images raster ou vectorielles de haute qualité pour vos projets.
 type: docs
-weight: 4590
+weight: 5320
 url: /fr/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Fournit des méthodes pour restituer un individu[`Shape`](../../aspose.words.drawing/shape/) ou[`GroupShape`](../../aspose.words.drawing/groupshape/) vers une image raster ou vectorielle ou vers un objet graphique.
+Fournit des méthodes pour restituer un individu[`Shape`](../../aspose.words.drawing/shape/) ou[`GroupShape`](../../aspose.words.drawing/groupshape/) à une image raster ou vectorielle ou à un objet graphique.
 
-Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec des formes](https://docs.aspose.com/words/net/working-with-shapes/) article de documentation.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -45,11 +45,13 @@ public class ShapeRenderer : NodeRendererBase
 | [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Rend la forme dans unGraphics objet à une échelle spécifiée. |
 | [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Rend la forme dans unGraphics objet à une taille spécifiée. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rend la forme dans une image et l'enregistre dans un flux. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Rend la forme dans une image SVG et l'enregistre dans un flux. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Rend la forme dans une image et l'enregistre dans un fichier. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Rend la forme dans une image SVG et l'enregistre dans un fichier. |
 
 ## Exemples
 
-Montre comment restituer une forme avec un objet Graphics et l’afficher à l’aide d’un Windows Form.
+Montre comment restituer une forme avec un objet graphique et l'afficher à l'aide d'un formulaire Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -59,7 +61,7 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Vous trouverez ci-dessous deux manières d'utiliser la classe "ShapeRenderer" pour restituer une forme dans un objet Graphics.
+    // Vous trouverez ci-dessous deux manières d'utiliser la classe « ShapeRenderer » pour restituer une forme dans un objet Graphics.
     // 1 - Créez une forme avec un graphique et restituez-la à une échelle spécifique.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
@@ -71,7 +73,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Créez un groupe de formes et affichez-le à une taille spécifique.
+    // 2 - Créez un groupe de formes et rendez-le à une taille spécifique.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);

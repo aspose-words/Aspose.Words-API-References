@@ -3,9 +3,9 @@ title: ListLevelCollection Class
 linktitle: ListLevelCollection
 articleTitle: ListLevelCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Lists.ListLevelCollection فصل. مجموعة من تنسيقات القائمة لكل مستوى في القائمة في C#.
+description: اكتشف Aspose.Words.Lists.ListLevelCollection، وقم بتبسيط تنسيق مستندك باستخدام مستويات القائمة القابلة للتخصيص لتحسين الوضوح والعرض.
 type: docs
-weight: 3520
+weight: 3970
 url: /ar/net/aspose.words.lists/listlevelcollection/
 ---
 ## ListLevelCollection class
@@ -22,27 +22,27 @@ public class ListLevelCollection : IEnumerable<ListLevel>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | الحصول على عدد المستويات في هذه القائمة. |
-| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | الحصول على مستوى القائمة حسب الفهرس. |
+| [Count](../../aspose.words.lists/listlevelcollection/count/) { get; } | يحصل على عدد المستويات في هذه القائمة. |
+| [Item](../../aspose.words.lists/listlevelcollection/item/) { get; set; } | يحصل على مستوى القائمة حسب الفهرس. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | الحصول على كائن العداد الذي سيقوم بتعداد المستويات في هذه القائمة. |
+| [GetEnumerator](../../aspose.words.lists/listlevelcollection/getenumerator/)() | يحصل على كائن العد الذي سيقوم بإحصاء المستويات في هذه القائمة. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -64,14 +64,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -94,11 +94,11 @@ builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// أنشئ قائمة من قالب Microsoft Word، وقم بتخصيص المستويين الأولين من قائمتها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستويين الأولين من القائمة.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -119,12 +119,12 @@ listLevel.Font.Name = "Wingdings";
 listLevel.Font.Color = Color.Blue;
 listLevel.Font.Size = 24;
 
-// ستعمل قيمة NumberFormat هذه على إنشاء رموز قائمة نقطية على شكل نجمة.
+// ستقوم قيمة NumberFormat هذه بإنشاء رموز قائمة نقطية على شكل نجمة.
 listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// قم بإنشاء فقرات وتطبيق كلا مستويي القائمة بتنسيق القائمة المخصص لدينا عليها.
+// قم بإنشاء فقرات ثم قم بتطبيق مستويي القائمة لتنسيق القائمة المخصصة عليها.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

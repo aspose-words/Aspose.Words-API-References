@@ -3,14 +3,14 @@ title: TabStopCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: TabStopCollection Item fast egendom. Får ett tabbstopp vid det givna indexet i C#.
+description: Få enkelt åtkomst till tabbstopp med hjälp av egenskapen TabStopCollection Item. Hämta specifika stopp via index för effektiv navigering i användargränssnittet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/tabstopcollection/item/
 ---
 ## TabStopCollection indexer (1 of 2)
 
-Får ett tabbstopp vid det givna indexet.
+Hämtar ett tabbstopp vid det angivna indexet.
 
 ```csharp
 public TabStop this[int index] { get; }
@@ -18,7 +18,7 @@ public TabStop this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Ett index över samlingen av tabbstopp. |
+| index | Ett index till samlingen av tabulaturer. |
 
 ## Exempel
 
@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -49,7 +49,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
@@ -72,7 +72,7 @@ doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 
 ## TabStopCollection indexer (2 of 2)
 
-Får ett tabbstopp vid angiven position.
+Hämtar ett tabbstopp vid den angivna positionen.
 
 ```csharp
 public TabStop this[double position] { get; }
@@ -80,11 +80,11 @@ public TabStop this[double position] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| position | Läget (i punkter) för tabbstoppet. |
+| position | Tabbstoppets position (i punkter). |
 
 ## Anmärkningar
 
-Returnerar`null` om inget tabbstopp hittas på angiven position.
+Returer`null` om inget tabbstopp hittas vid den angivna positionen.
 
 ## Exempel
 
@@ -96,7 +96,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 poäng är en "tum" på tabbstoppslinjalen i Microsoft Word.
+// 72 punkter är en "tum" på tabbstoppslinjalen i Microsoft Word.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -115,7 +115,7 @@ Assert.AreEqual(2, paragraphs.Count);
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// En tabbstoppsamling kan peka oss till TabStops före och efter vissa positioner.
+// En tabulatursamling kan peka oss till tabulaturer före och efter vissa positioner.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 

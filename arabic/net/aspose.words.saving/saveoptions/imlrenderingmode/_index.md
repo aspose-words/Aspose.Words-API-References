@@ -3,14 +3,14 @@ title: SaveOptions.ImlRenderingMode
 linktitle: ImlRenderingMode
 articleTitle: ImlRenderingMode
 second_title: Aspose.Words لـ .NET
-description: SaveOptions ImlRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض كائنات الحبر InkML في C#.
+description: اكتشف كيف تُحسّن خاصية SaveOptions ImlRenderingMode عرض كائنات InkML. حسّن عرضك بالحبر للحصول على نتائج بصرية أفضل!
 type: docs
 weight: 90
 url: /ar/net/aspose.words.saving/saveoptions/imlrenderingmode/
 ---
 ## SaveOptions.ImlRenderingMode property
 
-الحصول على قيمة أو تعيينها لتحديد كيفية عرض كائنات الحبر (InkML).
+يحصل على قيمة تحدد كيفية عرض كائنات الحبر (InkML) أو يعينها.
 
 ```csharp
 public ImlRenderingMode ImlRenderingMode { get; set; }
@@ -20,18 +20,18 @@ public ImlRenderingMode ImlRenderingMode { get; set; }
 
 القيمة الافتراضية هيInkML .
 
-يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات صفحات ثابتة.
+يتم استخدام هذه الخاصية عند تصدير المستند إلى تنسيقات الصفحات الثابتة.
 
 ## أمثلة
 
-يوضح كيفية تقديم كائن الحبر.
+يُظهر كيفية عرض كائن الحبر.
 
 ```csharp
 Document doc = new Document(MyDir + "Ink object.docx");
 
-// Set 'ImlRenderingMode.InkML' يتجاهل الشكل الاحتياطي لكائن الحبر (InkML) ويعرض InkML نفسه.
+// يتجاهل تعيين 'ImlRenderingMode.InkML' الشكل البديل لكائن الحبر (InkML) ويقوم بعرض InkML نفسه.
 // إذا كانت نتيجة العرض غير مرضية،
-// الرجاء استخدام "ImlRenderingMode.Fallback" للحصول على نتيجة مشابهة للإصدارات السابقة.
+// يرجى استخدام 'ImlRenderingMode.Fallback' للحصول على نتيجة مشابهة للإصدارات السابقة.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Jpeg)
 {
     ImlRenderingMode = ImlRenderingMode.InkML

@@ -3,7 +3,7 @@ title: FieldHyperlink
 linktitle: FieldHyperlink
 articleTitle: FieldHyperlink
 second_title: Aspose.Words pour .NET
-description: FieldHyperlink constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldHyperlink, le constructeur par défaut essentiel pour une intégration transparente et des fonctionnalités améliorées dans vos projets.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldhyperlink/fieldhyperlink/

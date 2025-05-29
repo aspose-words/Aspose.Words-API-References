@@ -2,15 +2,15 @@
 title: TextureAlignment Enum
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.TextureAlignment Sıralama. Doku dolgusunun döşemesi için hizalamayı belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Hassas doku dolgu hizalaması için Aspose.Words.Drawing.TextureAlignment enum'unu keşfedin. Belge tasarımlarınızı kusursuz döşeme seçenekleriyle geliştirin!
 type: docs
-weight: 1370
+weight: 1780
 url: /tr/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
 
-Doku dolgusunun döşemesi için hizalamayı belirtir.
+Doku dolgusunun döşenmesi için hizalamayı belirtir.
 
 ```csharp
 public enum TextureAlignment
@@ -29,11 +29,11 @@ public enum TextureAlignment
 | BottomLeft | `6` | Sol alt doku hizalaması. |
 | Bottom | `7` | Alt doku hizalaması. |
 | BottomRight | `8` | Sağ alt doku hizalaması. |
-| None | `9` | Hiçbiri doku hizalaması. |
+| None | `9` | Hiçbir doku hizalaması yok. |
 
 ## Örnekler
 
-Şeklin içindeki dokunun nasıl doldurulacağını ve döşeneceğini gösterir.
+Şeklin içindeki dokuyu nasıl dolduracağınızı ve döşeyeceğinizi gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,15 +41,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 
-// Şekil dolgusuna doku hizalaması uygulayın.
+// Şekil dolgusuna doku hizalamasını uygula.
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// "TextureAlignment" elde etmek istiyorsanız şekli DML kullanarak tanımlamak için uyumluluk seçeneğini kullanın
-// belge kaydedildikten sonraki özellik.
+// "TextureAlignment" elde etmek istiyorsanız, DML kullanarak şekli tanımlamak için uyumluluk seçeneğini kullanın
+// belge kaydedildikten sonra özellik.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### Ayrıca bakınız

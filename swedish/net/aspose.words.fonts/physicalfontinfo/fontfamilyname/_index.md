@@ -3,14 +3,14 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words för .NET
-description: PhysicalFontInfo FontFamilyName fast egendom. Teckensnittets efternamn i C#.
+description: Upptäck egenskapen PhysicalFontInfo FontFamilyName, din nyckel till att identifiera och använda teckensnittsfamiljer effektivt i dina projekt.
 type: docs
-weight: 20
+weight: 30
 url: /sv/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
 
-Teckensnittets efternamn.
+Typsnittets efternamn.
 
 ```csharp
 public string FontFamilyName { get; }
@@ -21,7 +21,7 @@ public string FontFamilyName { get; }
 Visar hur man listar tillgängliga teckensnitt.
 
 ```csharp
-// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och skriv sedan ut alla tillgängliga teckensnitt.
+// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och sedan skriva ut alla tillgängliga teckensnitt.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

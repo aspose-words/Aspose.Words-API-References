@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.CompositingQuality
 linktitle: CompositingQuality
 articleTitle: CompositingQuality
-second_title: Aspose.Words for .NET
-description: GraphicsQualityOptions CompositingQuality mülk. Bu Grafiğe çizilen birleştirilmiş görüntülerin işleme kalitesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Görüntü işlemenizi geliştirmek için GraphicsQualityOptions CompositingQuality özelliğini keşfedin. Çarpıcı görsel kalite için birleştirilmiş görüntüleri optimize edin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
 ---
 ## GraphicsQualityOptions.CompositingQuality property
 
-Bu Grafiğe çizilen birleştirilmiş görüntülerin işleme kalitesini alır veya ayarlar.
+Bu Grafiklere çizilen bileşik görüntülerin işleme kalitesini alır veya ayarlar.
 
 ```csharp
 public CompositingQuality? CompositingQuality { get; set; }
@@ -18,7 +18,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ## Örnekler
 
-Belgeleri görüntü formatlarına dönüştürürken işleme kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
+Belgeleri görüntü formatlarına dönüştürürken render kalitesi seçeneklerinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

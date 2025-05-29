@@ -3,7 +3,7 @@ title: FrameFormat.HorizontalDistanceFromText
 linktitle: HorizontalDistanceFromText
 articleTitle: HorizontalDistanceFromText
 second_title: Aspose.Words pour .NET
-description: FrameFormat HorizontalDistanceFromText propriété. Obtient la distance horizontale entre un cadre et le texte environnant en points en C#.
+description: Découvrez la propriété FrameFormat HorizontalDistanceFromText pour mesurer l'espace entre les cadres et le texte en points, améliorant ainsi la mise en page de votre document.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/frameformat/horizontaldistancefromtext/
@@ -18,7 +18,7 @@ public double HorizontalDistanceFromText { get; }
 
 ## Exemples
 
-Montre comment obtenir des informations sur les propriétés de mise en forme des paragraphes qui sont des cadres.
+Montre comment obtenir des informations sur les propriétés de formatage des paragraphes qui sont des cadres.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

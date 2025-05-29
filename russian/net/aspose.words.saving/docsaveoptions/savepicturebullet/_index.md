@@ -3,14 +3,14 @@ title: DocSaveOptions.SavePictureBullet
 linktitle: SavePictureBullet
 articleTitle: SavePictureBullet
 second_title: Aspose.Words для .NET
-description: DocSaveOptions SavePictureBullet свойство. КогдаЛОЖЬ  Данные PictureBullet не сохраняются в выходной документ. Значение по умолчаниюистинный  на С#.
+description: Узнайте, как свойство DocSaveOptions SavePictureBullet улучшает вывод документа. Управляйте сохранением данных PictureBullet без усилий для достижения оптимальных результатов.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.saving/docsaveoptions/savepicturebullet/
 ---
 ## DocSaveOptions.SavePictureBullet property
 
-Когда`ЛОЖЬ` , Данные PictureBullet не сохраняются в выходной документ. Значение по умолчанию:`истинный` .
+Когда`ЛОЖЬ` , Данные PictureBullet не сохраняются в выходном документе. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool SavePictureBullet { get; set; }

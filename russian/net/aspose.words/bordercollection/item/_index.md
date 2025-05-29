@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: BorderCollection Item свойство. ПолучаетBorder объект по типу границы на С#.
+description: Откройте для себя свойство BorderCollection Item для легкого доступа к объектам Border по типу. Оптимизируйте свой дизайн с помощью эффективного управления границами!
 type: docs
 weight: 60
 url: /ru/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Получает[`Border`](../../border/) объект по типу границы.
+Извлекает[`Border`](../../border/) объект по типу границы.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -18,15 +18,15 @@ public Border this[BorderType borderType] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| borderType | А[`BorderType`](../../bordertype/) value , указывающее тип извлекаемой границы. |
+| borderType | А[`BorderType`](../../bordertype/) value , который указывает тип границы для извлечения. |
 
 ## Примечания
 
-Обратите внимание, что не все границы присутствуют для разных элементов документа. Этот метод генерирует исключение, если вы запрашиваете границу, неприменимую к текущему объекту.
+Обратите внимание, что не все границы присутствуют для различных элементов документа. Этот метод выдает исключение, если вы запрашиваете границу, неприменимую к текущему объекту.
 
 ## Примеры
 
-Показывает, как украшать текст границами и заливкой.
+Показывает, как оформить текст с помощью границ и заливки.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Получает[`Border`](../../border/) объект по индексу.
+Извлекает[`Border`](../../border/) объект по индексу.
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,7 +68,7 @@ public Border this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Индекс границы, начинающийся с нуля, для получения. |
+| index | Отсчитываемый от нуля индекс границы, которую необходимо получить. |
 
 ## Примеры
 
@@ -81,8 +81,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
-// Поскольку при создании мы использовали ту же конфигурацию границ
-// эти абзацы, их коллекции границ имеют одни и те же элементы.
+// Поскольку мы использовали ту же конфигурацию границ при создании
+// эти абзацы и их коллекции границ имеют одни и те же элементы.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -95,8 +95,8 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// После изменения стиля линий границ всего во втором абзаце,
-// коллекции границ больше не используют одни и те же элементы.
+// После изменения стиля линий границ только во втором абзаце,
+// коллекции границ больше не содержат одни и те же элементы.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));

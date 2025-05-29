@@ -3,7 +3,7 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words для .NET
-description: FolderFontSource FolderPath свойство. Путь к папке на С#.
+description: Откройте для себя свойство FolderFontSource FolderPath для легкого доступа к папке со шрифтами. Оптимизируйте свой рабочий процесс дизайна сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -21,7 +21,7 @@ public string FolderPath { get; }
 Показывает, как использовать локальную системную папку, содержащую шрифты, в качестве источника шрифтов.
 
 ```csharp
-// Создать источник шрифта из папки, содержащей файлы шрифтов.
+// Создаем источник шрифтов из папки, содержащей файлы шрифтов.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

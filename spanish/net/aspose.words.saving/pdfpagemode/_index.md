@@ -3,14 +3,14 @@ title: PdfPageMode Enum
 linktitle: PdfPageMode
 articleTitle: PdfPageMode
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.PdfPageMode enumeración. Especifica cómo se debe mostrar el documento PDF cuando se abre en el lector de PDF en C#.
+description: Descubra la enumeración Aspose.Words.PdfPageMode para personalizar las opciones de visualización de PDF y mejorar la experiencia del usuario en cualquier lector de PDF. ¡Optimice sus documentos hoy mismo!
 type: docs
-weight: 5500
+weight: 6300
 url: /es/net/aspose.words.saving/pdfpagemode/
 ---
 ## PdfPageMode enumeration
 
-Especifica cómo se debe mostrar el documento PDF cuando se abre en el lector de PDF.
+Especifica cómo debe mostrarse el documento PDF cuando se abre en el lector de PDF.
 
 ```csharp
 public enum PdfPageMode
@@ -20,8 +20,8 @@ public enum PdfPageMode
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| UseNone | `0` | No se ven ni el esquema del documento ni las imágenes en miniatura. |
-| UseOutlines | `1` | El esquema del documento es visible. Tenga en cuenta que si no hay esquemas en el documento PDF, el panel de navegación del esquema no será visible de todos modos. |
+| UseNone | `0` | Ni el contorno del documento ni las imágenes en miniatura son visibles. |
+| UseOutlines | `1` | El contorno del documento es visible. Tenga en cuenta que si no hay contornos en el documento PDF, el panel de navegación de contornos no será visible de todos modos. |
 | UseThumbs | `2` | Las imágenes en miniatura son visibles. |
 | FullScreen | `3` | Modo de pantalla completa, sin barra de menú, controles de ventana ni ninguna otra ventana visible. |
 | UseOC | `4` | El panel de grupo de contenido opcional está visible. |
@@ -29,54 +29,54 @@ public enum PdfPageMode
 
 ## Ejemplos
 
-Muestra cómo configurar instrucciones que algunos lectores de PDF deben seguir al abrir un documento de salida.
+Muestra cómo establecer instrucciones que algunos lectores de PDF deben seguir al abrir un documento de salida.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Establece la propiedad "PageMode" en "PdfPageMode.FullScreen" para que el lector de PDF abra el archivo guardado
+// Establezca la propiedad "PageMode" en "PdfPageMode.FullScreen" para que el lector de PDF abra el archivo guardado.
 // documento en modo de pantalla completa, que ocupa la pantalla del monitor y no tiene controles visibles.
-// Establece la propiedad "PageMode" en "PdfPageMode.UseThumbs" para que el lector de PDF muestre un panel separado
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseThumbs" para que el lector de PDF muestre un panel separado
 // con una miniatura para cada página del documento.
-// Establece la propiedad "PageMode" en "PdfPageMode.UseOC" para que el lector de PDF muestre un panel separado
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseOC" para que el lector de PDF muestre un panel separado
 // que nos permite trabajar con cualquier capa presente en el documento.
-// Establece la propiedad "PageMode" en "PdfPageMode.UseOutlines" para obtener el lector de PDF
-// también para mostrar el esquema, si es posible.
-// Establezca la propiedad "PageMode" en "PdfPageMode.UseNone" para que el lector de PDF muestre solo el documento.
-// Establece la propiedad "PageMode" en "PdfPageMode.UseAttachments" para hacer visible el panel de archivos adjuntos.
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseOutlines" para obtener el lector de PDF
+// también para mostrar el contorno, si es posible.
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseNone" para que el lector de PDF muestre solo el documento en sí.
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseAttachments" para hacer visible el panel de archivos adjuntos.
 options.PageMode = pageMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PageMode.pdf", options);
 ```
 
-Se muestra cómo procesar marcadores en encabezados/pies de página en un documento que estamos renderizando a PDF.
+Muestra cómo procesar marcadores en encabezados y pies de página en un documento que estamos convirtiendo a PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Crea un objeto "PdfSaveOptions" que podemos pasar al método "Guardar" del documento
-// para modificar cómo ese método convierte el documento a .PDF.
+// Crea un objeto "PdfSaveOptions" que podamos pasar al método "Guardar" del documento
+// para modificar la forma en que ese método convierte el documento a .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Establezca la propiedad "PageMode" en "PdfPageMode.UseOutlines" para mostrar el panel de navegación del esquema en el PDF de salida.
+// Establezca la propiedad "PageMode" en "PdfPageMode.UseOutlines" para mostrar el panel de navegación de esquema en el PDF de salida.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Establece la propiedad "DefaultBookmarksOutlineLevel" en "1" para mostrar todo
+// Establezca la propiedad "DefaultBookmarksOutlineLevel" en "1" para mostrar todos
 // marcadores en el primer nivel del esquema en el PDF de salida.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.None" para
+// Establezca la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.None" para
 // no exportar ningún marcador que esté dentro de encabezados/pies de página.
-// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.First" para
+// Establezca la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.First" para
 // solo exporta marcadores en el encabezado/pie de página de la primera sección.
-// Establece la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.All" para
-// exporta los marcadores que están en todos los encabezados/pies de página.
+// Establezca la propiedad "HeaderFooterBookmarksExportMode" en "HeaderFooterBookmarksExportMode.All" para
+// exportar marcadores que están en todos los encabezados/pies de página.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

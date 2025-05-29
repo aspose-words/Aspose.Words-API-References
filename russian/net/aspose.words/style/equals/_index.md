@@ -3,14 +3,14 @@ title: Style.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words для .NET
-description: Style Equals метод. Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль связанный стиль и стиль следующего абзаца рекурсивно сравниваются на С#.
+description: Откройте для себя метод Style Equals для сравнения встроенных стилей. Поймите связанные и следующие стили абзацев для улучшенного форматирования и эффективности дизайна.
 type: docs
-weight: 180
+weight: 220
 url: /ru/net/aspose.words/style/equals/
 ---
 ## Style.Equals method
 
-Сравнивает с указанным стилем. Istd стилей сравниваются только для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца рекурсивно сравниваются.
+Сравнивает с указанным стилем. Сравниваются только стили Istds для встроенных стилей. Стили по умолчанию не включаются в сравнение. Базовый стиль, связанный стиль и стиль следующего абзаца сравниваются рекурсивно.
 
 ```csharp
 public bool Equals(Style style)
@@ -23,8 +23,8 @@ public bool Equals(Style style)
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// Этот документ содержит стиль с именем «MyStyle, MyStyle Alias 1, MyStyle Alias 2».
-// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение представляет собой отдельный псевдоним.
+// Этот документ содержит стиль с именем "MyStyle,MyStyle Alias 1,MyStyle Alias 2".
+// Если имя стиля имеет несколько значений, разделенных запятыми, каждое предложение является отдельным псевдонимом.
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);

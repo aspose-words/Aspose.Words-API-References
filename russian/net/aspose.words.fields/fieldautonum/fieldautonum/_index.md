@@ -3,7 +3,7 @@ title: FieldAutoNum
 linktitle: FieldAutoNum
 articleTitle: FieldAutoNum
 second_title: Aspose.Words для .NET
-description: FieldAutoNum строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAutoNum — ваше решение для бесшовной автоматической генерации чисел. Повысьте эффективность кодирования с помощью нашего конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldautonum/fieldautonum/

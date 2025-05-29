@@ -3,14 +3,14 @@ title: VbaReferenceType Enum
 linktitle: VbaReferenceType
 articleTitle: VbaReferenceType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Vba.VbaReferenceType تعداد. يسمح بتحديد نوع aVbaReference الكائن في C#.
+description: اكتشف Aspose.Words.Vba.VbaReferenceType enum لتحديد أنواع كائنات VbaReference بسهولة، مما يعزز أتمتة المستندات وإدارتها.
 type: docs
-weight: 6610
+weight: 7460
 url: /ar/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-يسمح بتحديد نوع a[`VbaReference`](../vbareference/) الكائن.
+يسمح بتحديد نوع[`VbaReference`](../vbareference/) الكائن.
 
 ```csharp
 public enum VbaReferenceType
@@ -20,14 +20,14 @@ public enum VbaReferenceType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Registered | `13` | يحدد نوع مرجع مكتبة نوع التنفيذ التلقائي. |
-| Project | `14` | تحديد نوع مرجع مشروع VBA خارجي. |
-| Original | `51` | يحدد النوع المرجعي الأصلي لمكتبة نوع التنفيذ التلقائي. |
-| Control | `47` | يحدد نوع مرجع مكتبة النوع الملتوي. |
+| Registered | `13` | يحدد نوع مرجع مكتبة نوع الأتمتة. |
+| Project | `14` | تم تحديد نوع مرجع مشروع VBA الخارجي. |
+| Original | `51` | يحدد نوع مرجع مكتبة نوع الأتمتة الأصلي. |
+| Control | `47` | يحدد نوع مرجع مكتبة النوع المختلط. |
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

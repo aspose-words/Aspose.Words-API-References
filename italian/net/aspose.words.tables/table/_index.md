@@ -3,9 +3,9 @@ title: Table Class
 linktitle: Table
 articleTitle: Table
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Tables.Table classe. Rappresenta una tabella in un documento Word in C#.
+description: Scopri la classe Aspose.Words.Tables.Table per creare e gestire facilmente le tabelle nei documenti Word, migliorando il layout e la funzionalità del documento.
 type: docs
-weight: 6340
+weight: 7190
 url: /it/net/aspose.words.tables/table/
 ---
 ## Table class
@@ -28,28 +28,28 @@ public class Table : CompositeNode
 
 | Nome | Descrizione |
 | --- | --- |
-| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance/) { get; set; } | Ottiene o imposta la posizione assoluta della tabella mobile orizzontale specificata dalle proprietà della tabella, in punti. Il valore predefinito è 0. |
+| [AbsoluteHorizontalDistance](../../aspose.words.tables/table/absolutehorizontaldistance/) { get; set; } | Ottiene o imposta la posizione assoluta orizzontale della tabella mobile specificata dalle proprietà della tabella, in punti. Il valore predefinito è 0. |
 | [AbsoluteVerticalDistance](../../aspose.words.tables/table/absoluteverticaldistance/) { get; set; } | Ottiene o imposta la posizione assoluta della tabella mobile verticale specificata dalle proprietà della tabella, in punti. Il valore predefinito è 0. |
-| [Alignment](../../aspose.words.tables/table/alignment/) { get; set; } | Specifica come viene allineata una tabella in linea nel documento. |
-| [AllowAutoFit](../../aspose.words.tables/table/allowautofit/) { get; set; } | Consente a Microsoft Word e Aspose.Words di ridimensionare automaticamente le celle in una tabella per adattarle al contenuto. |
-| [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing/) { get; set; } | Ottiene o imposta l'opzione "Consenti spaziatura tra celle". |
-| [AllowOverlap](../../aspose.words.tables/table/allowoverlap/) { get; } | Indica se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando viene visualizzato. Il valore predefinito è`VERO` . |
-| [Bidi](../../aspose.words.tables/table/bidi/) { get; set; } | Ottiene o imposta se si tratta di una tabella da destra a sinistra. |
+| [Alignment](../../aspose.words.tables/table/alignment/) { get; set; } | Specifica come una tabella in linea viene allineata nel documento. |
+| [AllowAutoFit](../../aspose.words.tables/table/allowautofit/) { get; set; } | Consente a Microsoft Word e Aspose.Words di ridimensionare automaticamente le celle di una tabella per adattarle al loro contenuto. |
+| [AllowCellSpacing](../../aspose.words.tables/table/allowcellspacing/) { get; set; } | Ottiene o imposta l'opzione "Consenti spaziatura tra le celle". |
+| [AllowOverlap](../../aspose.words.tables/table/allowoverlap/) { get; } | Ottiene se una tabella mobile deve consentire ad altri oggetti mobili nel documento di sovrapporsi alle sue estensioni quando vengono visualizzati. Il valore predefinito è `VERO` . |
+| [Bidi](../../aspose.words.tables/table/bidi/) { get; set; } | Ottiene o imposta se questa è una tabella da destra a sinistra. |
 | [BottomPadding](../../aspose.words.tables/table/bottompadding/) { get; set; } | Ottiene o imposta la quantità di spazio (in punti) da aggiungere sotto il contenuto delle celle. |
 | [CellSpacing](../../aspose.words.tables/table/cellspacing/) { get; set; } | Ottiene o imposta la quantità di spazio (in punti) tra le celle. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Ottiene il numero di figli immediati di questo nodo. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Specifica l'identificatore del nodo personalizzato. |
 | [Description](../../aspose.words.tables/table/description/) { get; set; } | Ottiene o imposta la descrizione di questa tabella. Fornisce una rappresentazione testuale alternativa delle informazioni contenute nella tabella. |
 | [DistanceBottom](../../aspose.words.tables/table/distancebottom/) { get; set; } | Ottiene o imposta la distanza tra il fondo della tabella e il testo circostante, in punti. |
-| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; set; } | Ottiene o imposta la distanza tra la tabella a sinistra e il testo circostante, in punti. |
-| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; set; } | Ottiene o imposta la distanza in punti tra la destra della tabella e il testo circostante. |
+| [DistanceLeft](../../aspose.words.tables/table/distanceleft/) { get; set; } | Ottiene o imposta la distanza tra la parte sinistra della tabella e il testo circostante, in punti. |
+| [DistanceRight](../../aspose.words.tables/table/distanceright/) { get; set; } | Ottiene o imposta la distanza tra la parte destra della tabella e il testo circostante, in punti. |
 | [DistanceTop](../../aspose.words.tables/table/distancetop/) { get; set; } | Ottiene o imposta la distanza tra il piano del tavolo e il testo circostante, in punti. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ottiene il documento a cui appartiene questo nodo. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Ottiene il primo figlio del nodo. |
 | [FirstRow](../../aspose.words.tables/table/firstrow/) { get; } | Restituisce il primo[`Row`](../row/) nodo nella tabella. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figli. |
-| [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | Ottiene l'oggetto base da cui calcolare il posizionamento orizzontale della tabella mobile. Il valore predefinito èColumn . |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figli. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Restituisce`VERO` se questo nodo ha nodi figlio. |
+| [HorizontalAnchor](../../aspose.words.tables/table/horizontalanchor/) { get; set; } | Ottiene l'oggetto base da cui deve essere calcolato il posizionamento orizzontale della tabella mobile. Il valore predefinito èColumn . |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Restituisce`VERO` poiché questo nodo può avere nodi figlio. |
 | [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Ottiene l'ultimo figlio del nodo. |
 | [LastRow](../../aspose.words.tables/table/lastrow/) { get; } | Restituisce l'ultimo[`Row`](../row/) nodo nella tabella. |
 | [LeftIndent](../../aspose.words.tables/table/leftindent/) { get; set; } | Ottiene o imposta il valore che rappresenta il rientro sinistro della tabella. |
@@ -59,16 +59,16 @@ public class Table : CompositeNode
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ottiene il genitore immediato di questo nodo. |
 | [PreferredWidth](../../aspose.words.tables/table/preferredwidth/) { get; set; } | Ottiene o imposta la larghezza preferita della tabella. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ottiene il nodo immediatamente precedente questo nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Restituisce a[`Range`](../../aspose.words/range/) oggetto che rappresenta la porzione di documento contenuta in questo nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Restituisce un[`Range`](../../aspose.words/range/)oggetto che rappresenta la porzione di un documento contenuta in questo nodo. |
 | [RelativeHorizontalAlignment](../../aspose.words.tables/table/relativehorizontalalignment/) { get; set; } | Ottiene o imposta l'allineamento orizzontale relativo della tabella mobile. |
 | [RelativeVerticalAlignment](../../aspose.words.tables/table/relativeverticalalignment/) { get; set; } | Ottiene o imposta l'allineamento verticale relativo della tabella mobile. |
 | [RightPadding](../../aspose.words.tables/table/rightpadding/) { get; set; } | Ottiene o imposta la quantità di spazio (in punti) da aggiungere a destra del contenuto delle celle. |
-| [Rows](../../aspose.words.tables/table/rows/) { get; } | Fornisce l'accesso digitato alle righe della tabella. |
-| [Style](../../aspose.words.tables/table/style/) { get; set; } | Ottiene o imposta lo stile di tabella applicato a questa tabella. |
+| [Rows](../../aspose.words.tables/table/rows/) { get; } | Fornisce accesso tipizzato alle righe della tabella. |
+| [Style](../../aspose.words.tables/table/style/) { get; set; } | Ottiene o imposta lo stile tabella applicato a questa tabella. |
 | [StyleIdentifier](../../aspose.words.tables/table/styleidentifier/) { get; set; } | Ottiene o imposta l'identificatore di stile indipendente dalle impostazioni locali dello stile di tabella applicato a questa tabella. |
-| [StyleName](../../aspose.words.tables/table/stylename/) { get; set; } | Ottiene o imposta il nome dello stile di tabella applicato a questa tabella. |
-| [StyleOptions](../../aspose.words.tables/table/styleoptions/) { get; set; } | Ottiene o imposta flag di bit che specificano come viene applicato uno stile di tabella a questa tabella. |
-| [TextWrapping](../../aspose.words.tables/table/textwrapping/) { get; set; } | Ottiene o imposta[`TextWrapping`](./textwrapping/) per tavolo. |
+| [StyleName](../../aspose.words.tables/table/stylename/) { get; set; } | Ottiene o imposta il nome dello stile tabella applicato a questa tabella. |
+| [StyleOptions](../../aspose.words.tables/table/styleoptions/) { get; set; } | Ottiene o imposta i flag di bit che specificano come uno stile di tabella viene applicato a questa tabella. |
+| [TextWrapping](../../aspose.words.tables/table/textwrapping/) { get; set; } | Ottiene o imposta[`TextWrapping`](./textwrapping/) per la tabella. |
 | [Title](../../aspose.words.tables/table/title/) { get; set; } | Ottiene o imposta il titolo di questa tabella. Fornisce una rappresentazione testuale alternativa delle informazioni contenute nella tabella. |
 | [TopPadding](../../aspose.words.tables/table/toppadding/) { get; set; } | Ottiene o imposta la quantità di spazio (in punti) da aggiungere sopra il contenuto delle celle. |
 | [VerticalAnchor](../../aspose.words.tables/table/verticalanchor/) { get; set; } | Ottiene l'oggetto base da cui deve essere calcolato il posizionamento verticale della tabella mobile. Il valore predefinito èMargin . |
@@ -78,45 +78,47 @@ public class Table : CompositeNode
 | Nome | Descrizione |
 | --- | --- |
 | override [Accept](../../aspose.words.tables/table/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi secondari per questo nodo. |
+| override [AcceptEnd](../../aspose.words.tables/table/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore che raggiunge la fine della tabella. |
+| override [AcceptStart](../../aspose.words.tables/table/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accetta un visitatore per aver visitato l'inizio della tabella. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Aggiunge il nodo specificato alla fine dell'elenco dei nodi figlio per questo nodo. |
 | [AutoFit](../../aspose.words.tables/table/autofit/)(*[AutoFitBehavior](../autofitbehavior/)*) | Ridimensiona la tabella e le celle in base al comportamento di adattamento automatico specificato. |
-| [ClearBorders](../../aspose.words.tables/table/clearborders/)() | Rimuove tutti i bordi della tabella e delle celle su questa tabella. |
-| [ClearShading](../../aspose.words.tables/table/clearshading/)() | Rimuove tutte le ombre sul tavolo. |
+| [ClearBorders](../../aspose.words.tables/table/clearborders/)() | Rimuove tutti i bordi delle tabelle e delle celle in questa tabella. |
+| [ClearShading](../../aspose.words.tables/table/clearshading/)() | Rimuove tutte le ombreggiature sulla tabella. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicato del nodo. |
 | [ConvertToHorizontallyMergedCells](../../aspose.words.tables/table/converttohorizontallymergedcells/)() | Converte le celle unite orizzontalmente per larghezza in celle unite per[`HorizontalMerge`](../cellformat/horizontalmerge/) . |
 | [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Crea un navigatore che può essere utilizzato per attraversare e leggere i nodi. |
 | [EnsureMinimum](../../aspose.words.tables/table/ensureminimum/)() | Se la tabella non ha righe, ne crea e ne aggiunge una[`Row`](../row/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Ottiene il primo antenato dell'oggetto specificato[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ottiene il primo antenato del tipo di oggetto specificato. |
-| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un Nesimo nodo figlio che corrisponde al tipo specificato. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta attiva di nodi secondari che corrispondono al tipo specificato. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce il supporto per l'iterazione di ogni stile sui nodi figlio di questo nodo. |
+| [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Restituisce un N-esimo nodo figlio che corrisponde al tipo specificato. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Restituisce una raccolta live di nodi figlio che corrispondono al tipo specificato. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Fornisce supporto per ogni iterazione di stile sui nodi figlio di questo nodo. |
 | override [GetText](../../aspose.words/compositenode/gettext/)() | Ottiene il testo di questo nodo e di tutti i suoi figli. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array di nodi figlio. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente dopo il nodo di riferimento specificato. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero di preordine. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi secondari per questo nodo. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente in base all'algoritmo di attraversamento dell'albero di preordine. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Restituisce l'indice del nodo figlio specificato nell'array dei nodi figlio. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato subito dopo il nodo di riferimento specificato. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Inserisce il nodo specificato immediatamente prima del nodo di riferimento specificato. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo successivo in base all'algoritmo di attraversamento dell'albero preordinato. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Aggiunge il nodo specificato all'inizio dell'elenco dei nodi figlio per questo nodo. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Ottiene il nodo precedente secondo l'algoritmo di attraversamento dell'albero preordinato. |
 | [Remove](../../aspose.words/node/remove/)() | Si rimuove dal genitore. |
 | [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Rimuove tutti i nodi figlio del nodo corrente. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Rimuove il nodo figlio specificato. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](../../aspose.words.markup/smarttag/)nodi discendenti del nodo corrente. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Rimuove il nodo figlio specificato. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Rimuove tutto[`SmartTag`](../../aspose.words.markup/smarttag/) nodi discendenti del nodo corrente. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Seleziona un elenco di nodi che corrispondono all'espressione XPath. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Seleziona il primo[`Node`](../../aspose.words/node/) che corrisponde all'espressione XPath. |
-| [SetBorder](../../aspose.words.tables/table/setborder/)(*[BorderType](../../aspose.words/bordertype/), [LineStyle](../../aspose.words/linestyle/), double, Color, bool*) | Imposta il bordo della tabella specificato sullo stile di linea, larghezza e colore specificati. |
-| [SetBorders](../../aspose.words.tables/table/setborders/)(*[LineStyle](../../aspose.words/linestyle/), double, Color*) | Imposta tutti i bordi della tabella sullo stile di linea, larghezza e colore specificati. |
+| [SetBorder](../../aspose.words.tables/table/setborder/)(*[BorderType](../../aspose.words/bordertype/), [LineStyle](../../aspose.words/linestyle/), double, Color, bool*) | Imposta il bordo della tabella specificato sullo stile di linea, sulla larghezza e sul colore specificati. |
+| [SetBorders](../../aspose.words.tables/table/setborders/)(*[LineStyle](../../aspose.words/linestyle/), double, Color*) | Imposta tutti i bordi della tabella sullo stile di linea, la larghezza e il colore specificati. |
 | [SetShading](../../aspose.words.tables/table/setshading/)(*[TextureIndex](../../aspose.words/textureindex/), Color, Color*) | Imposta l'ombreggiatura sui valori specificati sull'intera tabella. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Esporta il contenuto del nodo in una stringa nel formato specificato. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Esporta il contenuto del nodo in una stringa utilizzando le opzioni di salvataggio specificate. |
 
 ## Osservazioni
 
-`Table`è un nodo a livello di blocco e può essere figlio di classi derivate da[`Story`](../../aspose.words/story/) oppure [`InlineStory`](../../aspose.words/inlinestory/).
+`Table` è un nodo a livello di blocco e può essere un figlio di classi derivate da[`Story`](../../aspose.words/story/) oppure [`InlineStory`](../../aspose.words/inlinestory/).
 
-`Table` può contenerne uno o più[`Row`](../row/) nodi.
+`Table` può contenere uno o più[`Row`](../row/) nodi.
 
-Una tabella minima valida deve averne almeno una[`Row`](../row/).
+Una tabella minima valida deve avere almeno uno[`Row`](../row/).
 
 ## Esempi
 
@@ -128,8 +130,8 @@ Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
 // Le tabelle contengono righe, che contengono celle, che possono avere paragrafi
-// con elementi tipici come percorsi, forme e persino altre tabelle.
-// La chiamata al metodo "EnsureMinimum" su una tabella lo garantirà
+// con elementi tipici quali sequenze, forme e persino altre tabelle.
+// La chiamata al metodo "EnsureMinimum" su una tabella garantirà che
 // la tabella ha almeno una riga, una cella e un paragrafo.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -140,14 +142,14 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Aggiunge testo alla prima chiamata nella prima riga della tabella.
+// Aggiunge testo alla prima cella della prima riga della tabella.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ogni cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -171,7 +173,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 
@@ -188,7 +190,7 @@ for (int i = 0; i < tables.Count; i++)
 }
 ```
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -202,8 +204,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -218,7 +220,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -240,7 +242,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Crea un'altra tabella con due righe e due colonne e quindi inseriscila nella prima cella della prima tabella.
+    // Crea un'altra tabella con due righe e due colonne e inseriscila nella prima cella della prima tabella.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -248,7 +250,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Crea una nuova tabella nel documento con le dimensioni e il testo specificati in ogni cella.
+/// Crea una nuova tabella nel documento con le dimensioni specificate e il testo in ogni cella.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -271,7 +273,7 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
 
     // Puoi utilizzare le proprietà "Titolo" e "Descrizione" per aggiungere rispettivamente un titolo e una descrizione alla tua tabella.
     // La tabella deve avere almeno una riga prima di poter utilizzare queste proprietà.
-    // Queste proprietà sono significative per i documenti .docx conformi a ISO / IEC 29500 (vedere la classe OoxmlCompliance).
+    // Queste proprietà sono significative per i documenti .docx conformi allo standard ISO/IEC 29500 (vedere la classe OoxmlCompliance).
     // Se salviamo il documento in formati precedenti a ISO/IEC 29500, Microsoft Word ignora queste proprietà.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

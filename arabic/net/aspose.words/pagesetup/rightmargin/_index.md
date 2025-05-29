@@ -3,14 +3,14 @@ title: PageSetup.RightMargin
 linktitle: RightMargin
 articleTitle: RightMargin
 second_title: Aspose.Words لـ .NET
-description: PageSetup RightMargin ملكية. إرجاع أو تعيين المسافة بالنقاط بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي في C#.
+description: اكتشف خاصية PageSetup RightMargin، واضبط الهامش الأيمن بسهولة بالنقاط للحصول على تخطيط نص مثالي وعرض محسّن للمستندات.
 type: docs
 weight: 370
 url: /ar/net/aspose.words/pagesetup/rightmargin/
 ---
 ## PageSetup.RightMargin property
 
-إرجاع أو تعيين المسافة (بالنقاط) بين الحافة اليمنى للصفحة والحد الأيمن للنص الأساسي.
+يعيد أو يضبط المسافة (بالنقاط) بين الحافة اليمنى للصفحة والحد الأيمن لنص الهيئة.
 
 ```csharp
 public double RightMargin { get; set; }
@@ -18,7 +18,7 @@ public double RightMargin { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط حجم الورق واتجاهه والهوامش بالإضافة إلى الإعدادات الأخرى لقسم ما.
+يوضح كيفية ضبط حجم الورق والاتجاه والهوامش، إلى جانب الإعدادات الأخرى لقسم ما.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: HeaderFooter.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words لـ .NET
-description: HeaderFooter NodeType ملكية. إرجاعHeaderFooter  في C#.
+description: اكتشف خاصية HeaderFooter NodeType التي تعمل على استرداد تفاصيل الرأس والتذييل بكفاءة، مما يعمل على تحسين بنية المحتوى وتجربة المستخدم.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/headerfooter/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## أمثلة
 
-يوضح كيفية التكرار من خلال أبناء العقدة المركبة.
+يوضح كيفية التكرار خلال أبناء العقدة المركبة.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// القسم عبارة عن عقدة مركبة ويمكن أن يحتوي على عقد فرعية،
-// ولكن فقط إذا كانت تلك العقد الفرعية من نوع العقدة "Body" أو "HeaderFooter".
+// القسم عبارة عن عقدة مركبة ويمكن أن تحتوي على عقد فرعية،
+// ولكن فقط إذا كانت هذه العقد الفرعية من نوع عقدة "Body" أو "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

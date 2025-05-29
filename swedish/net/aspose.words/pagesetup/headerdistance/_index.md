@@ -3,14 +3,14 @@ title: PageSetup.HeaderDistance
 linktitle: HeaderDistance
 articleTitle: HeaderDistance
 second_title: Aspose.Words för .NET
-description: PageSetup HeaderDistance fast egendom. Returnerar eller ställer in avståndet i poäng mellan sidhuvudet och toppen av sidan i C#.
+description: Justera egenskapen PageSetup HeaderDistance för att anpassa rubrikavståndet i punkter, vilket förbättrar dokumentets layout för bättre läsbarhet och presentation.
 type: docs
 weight: 170
 url: /sv/net/aspose.words/pagesetup/headerdistance/
 ---
 ## PageSetup.HeaderDistance property
 
-Returnerar eller ställer in avståndet (i poäng) mellan sidhuvudet och toppen av sidan.
+Returnerar eller anger avståndet (i punkter) mellan sidhuvudet och sidans överkant.
 
 ```csharp
 public double HeaderDistance { get; set; }
@@ -18,7 +18,7 @@ public double HeaderDistance { get; set; }
 
 ## Exempel
 
-Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
+Visar hur man justerar pappersstorlek, orientering, marginaler och andra inställningar för ett avsnitt.
 
 ```csharp
 Document doc = new Document();

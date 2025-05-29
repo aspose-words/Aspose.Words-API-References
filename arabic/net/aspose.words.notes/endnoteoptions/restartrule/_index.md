@@ -3,14 +3,14 @@ title: EndnoteOptions.RestartRule
 linktitle: RestartRule
 articleTitle: RestartRule
 second_title: Aspose.Words لـ .NET
-description: EndnoteOptions RestartRule ملكية. تحديد وقت إعادة تشغيل الترقيم التلقائي في C#.
+description: اكتشف كيف تعمل خاصية EndnoteOptions RestartRule على تحسين مستندك من خلال التحكم في الترقيم التلقائي للحصول على مظهر أنيق واحترافي.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.notes/endnoteoptions/restartrule/
 ---
 ## EndnoteOptions.RestartRule property
 
-تحديد وقت إعادة تشغيل الترقيم التلقائي.
+يحدد متى يتم إعادة تشغيل الترقيم التلقائي.
 
 ```csharp
 public FootnoteNumberingRule RestartRule { get; set; }
@@ -18,24 +18,24 @@ public FootnoteNumberingRule RestartRule { get; set; }
 
 ## ملاحظات
 
-ليست كل القيم قابلة للتطبيق على الحواشي الختامية. للتأكد من القيم القابلة للتطبيق، راجع[`FootnoteNumberingRule`](../../footnotenumberingrule/).
+لا تنطبق جميع القيم على الحواشي السفلية. للتأكد من القيم المطبقة، راجع[`FootnoteNumberingRule`](../../footnotenumberingrule/).
 
 ## أمثلة
 
-يوضح كيفية إعادة تشغيل ترقيم الحواشي السفلية/التعليقات الختامية في أماكن معينة في المستند.
+يوضح كيفية إعادة تشغيل ترقيم الحواشي السفلية/الختامية في أماكن معينة في المستند.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// الحواشي السفلية والتعليقات الختامية هي طريقة لإرفاق مرجع أو تعليق جانبي بالنص
- // لا يتعارض مع تدفق النص الأساسي.
-// يؤدي إدراج حاشية سفلية/تعليق ختامي إلى إضافة رمز مرجعي مرتفع صغير
-// في النص الأساسي حيث نقوم بإدراج الحاشية السفلية/التعليق الختامي.
-// تقوم كل حاشية سفلية/تعليق ختامي أيضًا بإنشاء إدخال يتكون من رمز يطابق المرجع
-// الرمز في النص الأساسي. النص المرجعي الذي نمرره إلى طريقة "InsertEndnote" الخاصة بمنشئ المستندات.
-// تظهر إدخالات الحواشي السفلية افتراضيًا في أسفل كل صفحة تحتوي على
-// تظهر رموزها المرجعية والتعليقات الختامية في نهاية المستند.
+// الحواشي السفلية والختامية هي طريقة لإرفاق مرجع أو تعليق جانبي بالنص
+ // لا يتعارض مع تدفق النص الرئيسي.
+// يؤدي إدراج حاشية سفلية/نهاية إلى إضافة رمز مرجعي علوي صغير
+// في نص الموضوع الرئيسي حيث نقوم بإدراج الحاشية السفلية/الحاشية النهائية.
+// كما أن كل حاشية سفلية/نهاية تنشئ إدخالاً يتكون من رمز يتطابق مع المرجع
+// رمز في النص الرئيسي. النص المرجعي الذي نُمرر إلى دالة "InsertEndnote" في مُنشئ المستندات.
+// تظهر إدخالات الحواشي السفلية، بشكل افتراضي، في أسفل كل صفحة تحتوي على
+//تظهر رموزها المرجعية وملاحظاتها الختامية في نهاية المستند.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -58,14 +58,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 builder.Write("Text 4. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 
-// بشكل افتراضي، الرمز المرجعي لكل حاشية سفلية وتعليق ختامي هو الفهرس الخاص بها
-// بين جميع الحواشي السفلية/التعليقات الختامية للمستند. تحتفظ كل وثيقة بأعداد منفصلة
-// للحواشي السفلية والتعليقات الختامية ولا يعيد تشغيل هذه الأعداد في أي وقت.
+// بشكل افتراضي، رمز المرجع لكل حاشية سفلية وحاشية نهائية هو الفهرس الخاص بها
+// بين جميع حواشي المستند/الحواشي الختامية. يحتفظ كل مستند بعدد منفصل.
+// للحواشي السفلية والختامية ولا يتم إعادة تشغيل هذه العد في أي نقطة.
 Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
 Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
 
 // يمكننا استخدام خاصية "RestartRule" لإعادة تشغيل المستند
-// يتم احتساب الحاشية السفلية/التعليق الختامي في صفحة أو قسم جديد.
+// يتم احتساب الحاشية السفلية/الحاشية النهائية في الصفحة أو القسم الجديد.
 doc.FootnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
 doc.EndnoteOptions.RestartRule = FootnoteNumberingRule.RestartSection;
 

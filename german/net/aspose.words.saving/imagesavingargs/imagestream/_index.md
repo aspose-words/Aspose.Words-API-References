@@ -3,7 +3,7 @@ title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words für .NET
-description: ImageSavingArgs ImageStream eigendom. Ermöglicht die Angabe des Streams in dem das Bild gespeichert wird in C#.
+description: Entdecken Sie die ImageStream-Eigenschaft in ImageSavingArgs, um einfach anzugeben, wo Ihre Bilder gespeichert werden sollen, und so Ihren Arbeitsablauf und Ihre Effizienz zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -18,11 +18,11 @@ public Stream ImageStream { get; set; }
 
 ## Bemerkungen
 
-Mit dieser Eigenschaft können Sie Bilder während HTML in Streams statt in Dateien speichern.
+Mit dieser Eigenschaft können Sie während HTML Bilder in Streams statt in Dateien speichern.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft ist`Null` , wird das Bild in einer im angegebenen Datei gespeichert[`ImageFileName`](../imagefilename/) Eigentum.
+Der Standardwert ist`null` Wenn diese Eigenschaft`null` wird das Bild in einer Datei gespeichert, die im[`ImageFileName`](../imagefilename/) Eigentum.
 
-Benutzen[`IImageSavingCallback`](../../iimagesavingcallback/) Sie können ein Bild nicht durch ein anderes ersetzen. Es dient lediglich der Kontrolle über den Speicherort von Bildern.
+Verwenden[`IImageSavingCallback`](../../iimagesavingcallback/) Sie können ein Bild nicht durch ein anderes ersetzen. Es dient nur zur Kontrolle über den Speicherort der Bilder.
 
 ## Beispiele
 

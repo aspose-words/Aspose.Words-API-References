@@ -2,15 +2,15 @@
 title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
-second_title: Aspose.Words for .NET
-description: FieldAddressBlock GetFieldNames yöntem. Alan tarafından kullanılan adresmektup birleştirme alan adlarının bir koleksiyonunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: FieldAddressBlock'taki GetFieldNames yöntemini keşfedin. Belge otomasyon sürecinizi geliştirmek için posta birleştirme alan adlarını zahmetsizce alın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
 ## FieldAddressBlock.GetFieldNames method
 
-Alan tarafından kullanılan adres-mektup birleştirme alan adlarının bir koleksiyonunu döndürür.
+Alan tarafından kullanılan bir posta birleştirme alanı adları koleksiyonunu döndürür.
 
 ```csharp
 public string[] GetFieldNames()
@@ -18,7 +18,7 @@ public string[] GetFieldNames()
 
 ## Örnekler
 
-Bir alan tarafından kullanılan adres-mektup birleştirme alan adlarının nasıl alınacağını gösterir.
+Bir alan tarafından kullanılan birleştirme alan adlarının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Field sample - ADDRESSBLOCK.docx");

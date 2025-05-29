@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.IsTemporary
 linktitle: IsTemporary
 articleTitle: IsTemporary
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag IsTemporary 财产. 指定是否特殊测试当其内容 被修改时应从WordProcessingML文档中删除 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 StructuredDocumentTag IsTemporary 属性如何确定内容更改后 SDT 是否从 WordProcessingML 中移除。立即优化您的文档！
 type: docs
 weight: 160
 url: /zh/net/aspose.words.markup/structureddocumenttag/istemporary/
 ---
 ## StructuredDocumentTag.IsTemporary property
 
-指定是否**特殊测试**当其内容 被修改时，应从WordProcessingML文档中删除。
+指定此**特殊和差别待遇**当其内容被修改时，应从 WordProcessingML 文档中删除。
 
 ```csharp
 public bool IsTemporary { get; set; }
@@ -27,10 +27,10 @@ Document doc = new Document();
 // 它将充当用户可以输入文本的纯文本表单。
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// 将“IsTemporary”属性设置为“true”，使结构化文档标签消失并
+// 将“IsTemporary”属性设置为“true”，以使结构化文档标签消失，并且
 // 用户在 Microsoft Word 中编辑一次后，将其内容吸收到文档中。
 // 将“IsTemporary”属性设置为“false”以允许用户编辑内容
-// 结构化文档标签任意次。
+// 结构化文档标签任意次数。
 tag.IsTemporary = isTemporary;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -41,9 +41,9 @@ builder.InsertNode(tag);
 tag = new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline);
 tag.Checked = true;
 
-// 将“IsTemporary”属性设置为“true”，使复选框成为一个符号
+// 将“IsTemporary”属性设置为“true”，使复选框变成一个符号
 // 一旦用户在 Microsoft Word 中单击它。
-// 将“IsTemporary”属性设置为“false”以允许用户多次单击该复选框。
+// 将“IsTemporary”属性设置为“false”以允许用户任意次数单击复选框。
 tag.IsTemporary = isTemporary;
 
 builder.Write("\nPlease click the check box: ");

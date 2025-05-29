@@ -3,14 +3,14 @@ title: MailMerge.RegionStartTag
 linktitle: RegionStartTag
 articleTitle: RegionStartTag
 second_title: Aspose.Words för .NET
-description: MailMerge RegionStartTag fast egendom. Hämtar eller ställer in en starttagg för kopplingsregion i C#.
+description: Upptäck egenskapen RegionStartTag för MailMerge för att enkelt definiera och anpassa regioner för dokumentkoppling, vilket förbättrar din dokumentautomatiseringsprocess.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.mailmerging/mailmerge/regionstarttag/
 ---
 ## MailMerge.RegionStartTag property
 
-Hämtar eller ställer in en starttagg för kopplingsregion.
+Hämtar eller ställer in en starttagg för en region för dokumentkoppling.
 
 ```csharp
 public string RegionStartTag { get; set; }
@@ -18,26 +18,26 @@ public string RegionStartTag { get; set; }
 
 ## Exempel
 
-Visar hur man skapar, listar och läser kopplingsregioner.
+Visar hur man skapar, listar och läser områden för dokumentkoppling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// "TableStart" och "TableEnd"-taggar, som går inuti MERGEFIELDs,
-// betecknar strängarna som anger början och slut på kopplingsregioner.
+// "TableStart"- och "TableEnd"-taggarna, som placeras inuti MERGEFIELDS,
+// betecknar strängarna som anger början och slut för områden för koppling av dokument.
 Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
 Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
 
-// Använd dessa taggar för att starta och avsluta en kopplingsregion med namnet "MailMergeRegion1",
-// som kommer att innehålla MERGEFIELDs för två kolumner.
+// Använd dessa taggar för att starta och avsluta en region för dokumentkoppling med namnet "MailMergeRegion1",
+// som kommer att innehålla MERGEFIELDS för två kolumner.
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.InsertField(" MERGEFIELD Column1");
 builder.Write(", ");
 builder.InsertField(" MERGEFIELD Column2");
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Vi kan hålla reda på sammanslagna regioner och deras kolumner genom att titta på dessa samlingar.
+// Vi kan hålla reda på sammanslagningsregioner och deras kolumner genom att titta på dessa samlingar.
 IList<MailMergeRegionInfo> regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(1, regions.Count);
@@ -48,15 +48,15 @@ string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion
 Assert.AreEqual("Column1", mergeFieldNames[0]);
 Assert.AreEqual("Column2", mergeFieldNames[1]);
 
-// Infoga en region med samma namn i den befintliga regionen, vilket gör den till en förälder.
-// Nu kommer ett "Kolumn2"-fält att finnas i en ny region.
+// Infoga en region med samma namn inuti den befintliga regionen, vilket gör den till en förälder.
+// Nu kommer fältet "Kolumn2" att finnas inuti en ny region.
 builder.MoveToField(regions[0].Fields[1], false); 
 builder.InsertField(" MERGEFIELD TableStart:MailMergeRegion1");
 builder.MoveToField(regions[0].Fields[1], true);
 builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 
-// Om vi slår upp namnet på dubbletter av regioner med metoden "GetRegionsByName",
-// det kommer att returnera alla sådana regioner i en samling.
+// Om vi söker upp namnet på duplicerade regioner med hjälp av metoden "GetRegionsByName",
+// den kommer att returnera alla sådana regioner i en samling.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
 Assert.AreEqual(2, regions.Count);

@@ -2,8 +2,8 @@
 title: FieldFormula
 linktitle: FieldFormula
 articleTitle: FieldFormula
-second_title: Aspose.Words for .NET
-description: FieldFormula inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldFormula oluşturucusunu keşfedin, güçlü formülleri zahmetsizce oluşturmak için başvuracağınız çözüm. Varsayılan oluşturucumuzla güçlü özelliklerin kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformula/fieldformula/

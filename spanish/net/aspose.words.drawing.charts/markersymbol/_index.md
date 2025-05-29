@@ -3,9 +3,9 @@ title: MarkerSymbol Enum
 linktitle: MarkerSymbol
 articleTitle: MarkerSymbol
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.MarkerSymbol enumeración. Especifica el estilo del símbolo del marcador en C#.
+description: Explore la enumeración Aspose.Words.Drawing.Charts.MarkerSymbol para obtener estilos de marcadores personalizables que mejoran las imágenes de sus gráficos y la presentación de datos.
 type: docs
-weight: 920
+weight: 1240
 url: /es/net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
@@ -22,7 +22,7 @@ public enum MarkerSymbol
 | --- | --- | --- |
 | Default | `0` | Especifica que se dibujará un símbolo de marcador predeterminado en cada punto de datos. |
 | Circle | `1` | Especifica que se dibujará un círculo en cada punto de datos. |
-| Dash | `2` | Especifica que se dibujará un guión en cada punto de datos. |
+| Dash | `2` | Especifica que se dibujará un guion en cada punto de datos. |
 | Diamond | `3` | Especifica que se dibujará un diamante en cada punto de datos. |
 | Dot | `4` | Especifica que se dibujará un punto en cada punto de datos. |
 | None | `5` | Especifica que no se dibujará nada en cada punto de datos. |
@@ -51,8 +51,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
-    foreach (ChartSeries series in chart.Series) 
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Suaviza la línea que representa la primera serie de datos.
@@ -67,10 +67,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de puntos de datos a la vez.
+    // Para un gráfico más limpio, podemos borrar el formato individualmente.
+    dataPoint.ClearFormat();
+
+    // También podemos eliminar una serie entera de puntos de datos a la vez.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

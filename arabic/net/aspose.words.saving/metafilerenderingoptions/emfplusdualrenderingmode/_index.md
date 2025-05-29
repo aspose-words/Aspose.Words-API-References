@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.EmfPlusDualRenderingMode
 linktitle: EmfPlusDualRenderingMode
 articleTitle: EmfPlusDualRenderingMode
 second_title: Aspose.Words لـ .NET
-description: MetafileRenderingOptions EmfPlusDualRenderingMode ملكية. الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف EMF Dual في C#.
+description: اكتشف كيف تُحسّن خاصية EmfPlusDualRenderingMode عرض ملفات التعريف EMF Dual. حسّن رسوماتك مع خيارات عرض مرنة اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emfplusdualrenderingmode/
 ---
 ## MetafileRenderingOptions.EmfPlusDualRenderingMode property
 
-الحصول على قيمة أو تعيينها لتحديد كيفية عرض ملفات تعريف EMF+ Dual.
+يحصل على قيمة تحدد كيفية عرض ملفات التعريف EMF+ Dual أو يعينها.
 
 ```csharp
 public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
@@ -18,34 +18,34 @@ public EmfPlusDualRenderingMode EmfPlusDualRenderingMode { get; set; }
 
 ## ملاحظات
 
-تحتوي ملفات التعريف EMF+ Dual على أجزاء EMF+ وEMF. يقوم MS Word وGDI+ دائمًا بعرض جزء EMF+. Aspose. لا يدعم Words حاليًا جميع سجلات EMF+ بشكل كامل وفي بعض الحالات، يبدو عرض نتيجة جزء EMF أفضل من عرض نتيجة جزء EMF+.
+تحتوي ملفات التعريف المزدوجة EMF+ على كلٍّ من جزأَي EMF+ وEMF. يقوم MS Word وGDI+ دائمًا بعرض جزء EMF+. لا يدعم Aspose.Words حاليًا جميع سجلات EMF+ بشكل كامل، وفي بعض الحالات، تبدو نتيجة عرض جزء EMF أفضل من نتيجة عرض جزء EMF+.
 
-يتم استخدام هذا الخيار فقط عندما يتم عرض ملف التعريف كرسومات متجهة. عندما يتم تقديم ملف التعريف إلى صورة نقطية، يتم دائمًا استخدام جزء EMF+.
+يُستخدم هذا الخيار فقط عند عرض ملف التعريف كرسومات متجهة. عند عرض ملف التعريف كصورة نقطية، يُستخدم دائمًا الجزء EMF+.
 
 القيمة الافتراضية هيEmfPlusWithFallback.
 
 ## أمثلة
 
-يوضح كيفية تكوين خيارات العرض ذات الصلة بملف Windows Metafile المحسن عند الحفظ في ملف PDF.
+يوضح كيفية تكوين خيارات العرض المحسنة المرتبطة بملفات Windows Metafile عند الحفظ في PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "EMF.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// قم بتعيين خاصية "EmfPlusDualRenderingMode" على "EmfPlusDualRenderingMode.Emf"
+// اضبط خاصية "EmfPlusDualRenderingMode" إلى "EmfPlusDualRenderingMode.Emf"
 // لعرض جزء EMF فقط من ملف التعريف المزدوج EMF+.
-// قم بتعيين خاصية "EmfPlusDualRenderingMode" على "EmfPlusDualRenderingMode.EmfPlus" إلى
-// لعرض جزء EMF+ من ملف التعريف المزدوج EMF+.
-// قم بتعيين خاصية "EmfPlusDualRenderingMode" على "EmfPlusDualRenderingMode.EmfPlusWithFallback"
-// لعرض جزء EMF+ من ملف التعريف المزدوج EMF+ إذا كانت جميع سجلات EMF+ مدعومة.
-// بخلاف ذلك، سيقوم Aspose.Words بعرض جزء EMF.
+// اضبط خاصية "EmfPlusDualRenderingMode" على "EmfPlusDualRenderingMode.EmfPlus" إلى
+// لعرض جزء EMF+ من ملف تعريفي مزدوج EMF+.
+// اضبط خاصية "EmfPlusDualRenderingMode" إلى "EmfPlusDualRenderingMode.EmfPlusWithFallback"
+// لعرض جزء EMF+ من ملف تعريفي مزدوج EMF+ إذا كانت جميع سجلات EMF+ مدعومة.
+// خلاف ذلك، سوف يقوم Aspose.Words بعرض جزء EMF.
 saveOptions.MetafileRenderingOptions.EmfPlusDualRenderingMode = renderingMode;
 
-// قم بتعيين خاصية "UseEmfEmbeddedToWmf" على "صحيح" لعرض بيانات EMF المضمنة
-// لملفات التعريف التي يمكننا تقديمها كرسومات متجهة.
+// اضبط خاصية "UseEmfEmbeddedToWmf" على "true" لعرض بيانات EMF المضمنة
+// للملفات التعريفية التي يمكننا تقديمها كرسومات متجهة.
 saveOptions.MetafileRenderingOptions.UseEmfEmbeddedToWmf = true;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.RenderMetafile.pdf", saveOptions);

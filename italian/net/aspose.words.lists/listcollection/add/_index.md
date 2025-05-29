@@ -3,7 +3,7 @@ title: ListCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: ListCollection Add metodo. Crea un nuovo elenco basato su un modello predefinito e lo aggiunge alla raccolta di elenchi nel documento in C#.
+description: Scopri come il metodo Add di ListCollection crea elenchi personalizzati da modelli, migliorando l'organizzazione e l'efficienza dei tuoi documenti.
 type: docs
 weight: 40
 url: /it/net/aspose.words.lists/listcollection/add/
@@ -28,11 +28,11 @@ L'elenco appena creato.
 
 I modelli di elenco Aspose.Words corrispondono ai 21 modelli di elenco disponibili nella finestra di dialogo Elenchi puntati e numerati in Microsoft Word 2003.
 
-Tutti gli elenchi creati utilizzando questo metodo hanno 9 livelli di elenco.
+Tutti gli elenchi creati utilizzando questo metodo hanno 9 livelli.
 
 ## Esempi
 
-Mostra come creare un elenco applicando un nuovo formato elenco a una raccolta di paragrafi.
+Mostra come creare un elenco applicando un nuovo formato di elenco a una raccolta di paragrafi.
 
 ```csharp
 Document doc = new Document();
@@ -44,34 +44,34 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
-List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
-Mostra come riavviare la numerazione in un elenco copiando un elenco.
+Mostra come riavviare la numerazione in un elenco copiando l'elenco stesso.
 
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
-// Crea un elenco da un modello Microsoft Word e personalizza il primo livello di elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
+// Crea un elenco da un modello di Microsoft Word e personalizzane il primo livello.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
 
-// Applica la nostra lista ad alcuni paragrafi.
+// Applichiamo il nostro elenco ad alcuni paragrafi.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("List 1 starts below:");
@@ -96,7 +96,7 @@ builder.ListFormat.RemoveNumbers();
 doc.Save(ArtifactsDir + "Lists.RestartNumberingUsingListCopy.docx");
 ```
 
-Mostra come lavorare con i livelli di elenco.
+Mostra come lavorare con i livelli degli elenchi.
 
 ```csharp
 Document doc = new Document();
@@ -104,21 +104,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Di seguito sono riportati due tipi di elenchi che possiamo creare utilizzando un generatore di documenti.
 // 1 - Un elenco numerato:
-// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ciascun elemento.
+// Gli elenchi numerati creano un ordine logico per i paragrafi numerando ogni elemento.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
-// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello della lista
-// per iniziare un sottoelenco autonomo dall'elemento dell'elenco corrente.
+// Impostando la proprietà "ListLevelNumber", possiamo aumentare il livello dell'elenco
+// per iniziare un sottoelenco autonomo a partire dall'elemento corrente dell'elenco.
 // Il modello di elenco di Microsoft Word denominato "NumberDefault" utilizza i numeri per creare livelli di elenco per il primo livello di elenco.
- // I livelli di elenco più profondi utilizzano lettere e numeri romani minuscoli.
+ // I livelli più profondi dell'elenco utilizzano lettere e numeri romani minuscoli.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
@@ -127,7 +127,7 @@ for (int i = 0; i < 9; i++)
 
 // 2 - Un elenco puntato:
 // Questo elenco applicherà un rientro e un simbolo di punto elenco ("•") prima di ogni paragrafo.
-// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "***" e "○".
+// I livelli più profondi di questo elenco utilizzeranno simboli diversi, come "■" e "○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -164,7 +164,7 @@ public List Add(Style listStyle)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| listStyle | Style | Lo stile dell'elenco. |
+| listStyle | Style | Lo stile elenco. |
 
 ### Valore di ritorno
 
@@ -172,7 +172,7 @@ L'elenco appena creato.
 
 ## Osservazioni
 
-L'elenco appena creato fa riferimento allo stile dell'elenco. Se modifichi le proprietà dello stile list , ciò si riflette nelle proprietà dell'elenco. Viceversa, se si modificano le proprietà dell'elenco, ciò si riflette nelle proprietà dello stile elenco.
+L'elenco appena creato fa riferimento allo stile elenco. Se si modificano le proprietà dello stile list , la modifica verrà applicata anche alle proprietà dell'elenco. Viceversa, se si modifica properties dell'elenco, la modifica verrà applicata anche alle proprietà dello stile elenco.
 
 ## Esempi
 
@@ -181,10 +181,10 @@ Mostra come creare uno stile di elenco e utilizzarlo in un documento.
 ```csharp
 Document doc = new Document();
 
-// Un elenco ci consente di organizzare e decorare insiemi di paragrafi con simboli di prefisso e rientri.
- // Possiamo creare elenchi nidificati aumentando il livello di rientro.
- // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" del generatore di documenti.
-// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento nell'elenco.
+// Un elenco ci consente di organizzare e decorare serie di paragrafi con simboli di prefisso e rientri.
+ // Possiamo creare elenchi annidati aumentando il livello di rientro.
+ // Possiamo iniziare e terminare un elenco utilizzando la proprietà "ListFormat" di un generatore di documenti.
+// Ogni paragrafo che aggiungiamo tra l'inizio e la fine di un elenco diventerà un elemento dell'elenco.
 // Possiamo contenere un intero oggetto List all'interno di uno stile.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
@@ -195,7 +195,7 @@ Assert.False(list1.IsListStyleReference);
 Assert.True(list1.IsMultiLevel);
 Assert.AreEqual(listStyle, list1.Style);
 
-// Modifica l'aspetto di tutti i livelli dell'elenco nel nostro elenco.
+// Modifica l'aspetto di tutti i livelli dell'elenco.
 foreach (ListLevel level in list1.ListLevels)
 {
     level.Font.Name = "Verdana";
@@ -214,7 +214,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// Aggiungi alcuni elementi dell'elenco che verrà formattato dal nostro elenco.
+// Aggiungi alcuni elementi dell'elenco che verranno formattati dal nostro elenco.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

@@ -2,8 +2,8 @@
 title: ChartXValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue FromDateTime 方法. 创建一个ChartXValue的实例DateTime类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartXValue FromDateTime 方法，轻松创建 DateTime 图表实例，轻松而精确地增强数据可视化。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromdatetime/

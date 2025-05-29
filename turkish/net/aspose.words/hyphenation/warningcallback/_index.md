@@ -2,15 +2,15 @@
 title: Hyphenation.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
-second_title: Aspose.Words for .NET
-description: Hyphenation WarningCallback mülk. Yük tireleme desenleri sırasında biçimlendirme aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Hyphenation WarningCallback özelliğini keşfedin ve yükleme sırasında tireleme desenlerindeki sorunları tespit ederek en iyi biçimlendirmeyi sağlayın. Metin doğruluğunu en üst düzeye çıkarın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words/hyphenation/warningcallback/
 ---
 ## Hyphenation.WarningCallback property
 
-Yük tireleme desenleri sırasında, biçimlendirme aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır.
+Biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında, yükleme tireleme desenleri sırasında çağrılır.
 
 ```csharp
 public static IWarningCallback WarningCallback { get; set; }
@@ -18,41 +18,42 @@ public static IWarningCallback WarningCallback { get; set; }
 
 ## Örnekler
 
-Bir dosyadan sözlüğün nasıl açılacağını ve kaydedileceğini gösterir.
+Bir sözlüğün dosyadan nasıl açılıp kaydedileceğini gösterir.
 
 ```csharp
 public void RegisterDictionary()
 {
-    // Tireleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
+    // Heceleme sözlüğü kaydı sırasında oluşan uyarıları izleyen bir geri arama ayarlayın.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Akışa göre bir İngilizce (ABD) tireleme sözlüğü kaydedin.
+    // Akış yoluyla bir İngilizce (ABD) tireleme sözlüğü kaydedin.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Almanca gibi İngilizce bir makinede Microsoft Word'ün tireleme yapamayacağı bir yerel ayara sahip bir belge açın.
+    // Microsoft Word'ün İngilizce bir bilgisayarda tireleyemeyeceği bir yerel ayara sahip bir belgeyi (örneğin Almanca) açın.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Bu belgeyi kaydettikten sonra tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
-    // Bu geri çağırma söz konusu sözlük için otomatik isteği yerine getirecektir.
+    // Bu belgeyi kaydederken tirelemek için, "de-CH" dil koduna yönelik bir tireleme sözlüğüne ihtiyacımız var.
+    // Bu geri çağırma, söz konusu sözlük için otomatik isteği işleyecektir.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Belgeyi kaydettiğimizde Almanca tireleme geçerli olacaktır.
+    // Belgeyi kaydettiğimizde Almanca tireleme devreye girecek.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Bu sözlük, bir uyarıyı tetikleyecek iki özdeş kalıp içerir.
+    // Bu sözlük, bir uyarıyı tetikleyecek iki özdeş desen içeriyor.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Tireleme sözlük dosyaları için ISO dil kodlarını yerel sistem dosya adlarıyla ilişkilendirir.
+/// ISO dil kodlarını tireleme sözlüğü dosyaları için yerel sistem dosya adlarıyla ilişkilendirir.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

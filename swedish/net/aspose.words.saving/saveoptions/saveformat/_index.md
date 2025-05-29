@@ -3,14 +3,14 @@ title: SaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words för .NET
-description: SaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används i C#.
+description: Upptäck hur du använder egenskapen SaveOptions SaveFormat för att enkelt välja dokumentets sparformat för optimal flexibilitet och kontroll.
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/saveoptions/saveformat/
 ---
 ## SaveOptions.SaveFormat property
 
-Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används.
+Anger formatet som dokumentet sparas i om detta objekt för sparade alternativ används.
 
 ```csharp
 public abstract SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public abstract SaveFormat SaveFormat { get; set; }
 
 ## Exempel
 
-Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
+Visar hur man använder en specifik kodning när man sparar ett dokument till .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,9 +28,9 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Som standard kommer ett utdata .epub-dokument att ha allt innehåll i en HTML-del.
-// Ett delat kriterium tillåter oss att segmentera dokumentet i flera HTML-delar.
-// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubriker.
+// Som standard kommer ett .epub-dokument att ha allt innehåll i en HTML-del.
+// Ett delningskriterium låter oss segmentera dokumentet i flera HTML-delar.
+// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubrikstycken.
 // Detta är användbart för läsare som inte kan läsa HTML-filer som är större än en viss storlek.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 

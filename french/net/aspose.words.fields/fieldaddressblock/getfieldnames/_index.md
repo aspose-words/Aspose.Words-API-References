@@ -3,7 +3,7 @@ title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
 second_title: Aspose.Words pour .NET
-description: FieldAddressBlock GetFieldNames méthode. Renvoie une collection de noms de champs de publipostage utilisés par le champ en C#.
+description: Découvrez la méthode GetFieldNames dans FieldAddressBlock. Récupérez facilement les noms des champs de publipostage pour optimiser l'automatisation de vos documents.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldaddressblock/getfieldnames/

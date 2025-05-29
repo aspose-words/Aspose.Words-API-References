@@ -3,7 +3,7 @@ title: Font.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words för .NET
-description: Font Hidden fast egendom. Sant om teckensnittet är formaterat som dold text i C#.
+description: Upptäck egenskapen Dolt teckensnitt. Identifiera enkelt om din text är formaterad som dold. Förbättra ditt dokuments tydlighet och presentation idag!
 type: docs
 weight: 140
 url: /sv/net/aspose.words/font/hidden/
@@ -24,11 +24,11 @@ Visar hur man skapar en serie dold text.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Med den dolda flaggan inställd på sant kommer all text som vi skapar med detta Font-objekt att vara osynlig i dokumentet.
-// Vi kommer inte att se eller markera dold text om vi inte aktiverar alternativet "Dold text".
-// hittas i Microsoft Word via "File" -> "Alternativ" -> "Visa". Texten kommer fortfarande att finnas kvar,
-// och vi kommer att kunna komma åt denna text programmatiskt.
-// Det rekommenderas inte att använda denna metod för att dölja känslig information.
+// Med flaggan Hidden satt till true kommer all text som vi skapar med detta Font-objekt att vara osynlig i dokumentet.
+// Vi kommer inte att se eller markera dold text om vi inte aktiverar alternativet "Dold text"
+// hittades i Microsoft Word via "Arkiv" -> "Alternativ" -> "Visa". Texten kommer fortfarande att finnas där,
+// och vi kommer att kunna komma åt den här texten programmatiskt.
+// Det rekommenderas inte att använda den här metoden för att dölja känslig information.
 builder.Font.Hidden = true;
 builder.Font.Size = 36;
 
@@ -46,7 +46,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Nedan finns tre typer av fält som kan acceptera en dokumentbesökare,
-    // som gör det möjligt för den att besöka den accepterande noden och sedan korsa dess underordnade noder på ett djupt-först sätt.
+    // vilket gör att den kan besöka den accepterande noden och sedan korsa dess undernoder på ett djup-först-sätt.
     // 1 - Styckenod:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -100,7 +100,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -111,7 +111,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en Paragraph-nod påträffas i dokumentet.
+    /// Anropas när en styckenod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -122,7 +122,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när ett formulärfält påträffas i dokumentet.
+    /// Anropas när ett FormField påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -133,7 +133,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en GroupShape påträffas i dokumentet.
+    /// Anropas när en gruppform påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -144,7 +144,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en Shape påträffas i dokumentet.
+    /// Anropas när en form påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -177,10 +177,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en specialtecken påträffas i dokumentet.
+    /// Anropas när ett SpecialCharacter påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -188,13 +190,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas vid besök av en Tabellnod avslutas i dokumentet.
+    /// Anropas när besöket till en tabellnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Innehållet i tabellceller kan ha den dolda innehållsflaggan, men tabellerna själva kan inte.
-        // Om denna tabell inte hade något annat än dolt innehåll, skulle den här besökaren ha tagit bort allt,
-        // och det skulle inte finnas några barnnoder kvar.
+        // Innehållet i tabellceller kan ha flaggan för dolt innehåll, men tabellerna själva kan inte det.
+        // Om den här tabellen bara hade dolt innehåll, skulle besökaren ha tagit bort allt,
+        // och det skulle inte finnas några undernoder kvar.
         // Således kan vi också behandla själva tabellen som dolt innehåll och ta bort det.
         // Tabeller som är tomma men inte har dolt innehåll kommer att ha celler med tomma stycken inuti,
         // som den här besökaren inte kommer att ta bort.
@@ -205,7 +207,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besök av en cellnod avslutas i dokumentet.
+    /// Anropas när besöket av en cellnod avslutas i dokumentet.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -216,7 +218,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besök av en radnod avslutas i dokumentet.
+    /// Anropas när besöket på en radnod i dokumentet avslutas.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

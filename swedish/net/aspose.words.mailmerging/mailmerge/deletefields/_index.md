@@ -3,14 +3,14 @@ title: MailMerge.DeleteFields
 linktitle: DeleteFields
 articleTitle: DeleteFields
 second_title: Aspose.Words för .NET
-description: MailMerge DeleteFields metod. Tar bort sammanslagningsrelaterade fält från dokumentet i C#.
+description: Effektivisera dina dokument enkelt med MailMerge DeleteFields-metoden, och ta bort onödiga fält för koppling av dokument för renare och mer professionella resultat.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.mailmerging/mailmerge/deletefields/
 ---
 ## MailMerge.DeleteFields method
 
-Tar bort sammanslagningsrelaterade fält från dokumentet.
+Tar bort fält relaterade till koppling av dokument från dokumentet.
 
 ```csharp
 public void DeleteFields()
@@ -18,13 +18,13 @@ public void DeleteFields()
 
 ## Anmärkningar
 
-Den här metoden tar bort MERGEFIELD- och NEXT-fälten från dokumentet.
+Den här metoden tar bort fälten MERGEFIELD och NEXT från dokumentet.
 
-Den här metoden kan vara användbar om din sammanslagningsoperation inte alltid behöver för att fylla i alla fält i dokumentet. Använd den här metoden för att ta bort alla återstående sammanslagningsfält.
+Den här metoden kan vara användbar om din dokumentkopplingsåtgärd inte alltid behöver för att fylla i alla fält i dokumentet. Använd den här metoden för att ta bort alla återstående -fält för dokumentkoppling.
 
 ## Exempel
 
-Visar hur man tar bort alla MERGEFIELDs från ett dokument.
+Visar hur man tar bort alla MERGEFIELDS från ett dokument.
 
 ```csharp
 Document doc = new Document();

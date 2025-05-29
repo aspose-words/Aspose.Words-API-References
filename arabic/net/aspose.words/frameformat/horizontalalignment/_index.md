@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalAlignment
 linktitle: HorizontalAlignment
 articleTitle: HorizontalAlignment
 second_title: Aspose.Words لـ .NET
-description: FrameFormat HorizontalAlignment ملكية. الحصول على المحاذاة الأفقية للإطار المحدد في C#.
+description: اكتشف خاصية FrameFormat HorizontalAlignment لضبط وتحسين محاذاة الإطار الأفقية بسهولة للتحكم في التصميم بشكل أفضل.
 type: docs
 weight: 30
 url: /ar/net/aspose.words/frameformat/horizontalalignment/
 ---
 ## FrameFormat.HorizontalAlignment property
 
-الحصول على المحاذاة الأفقية للإطار المحدد.
+يحصل على محاذاة أفقية للإطار المحدد.
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; }
@@ -18,7 +18,7 @@ public HorizontalAlignment HorizontalAlignment { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

@@ -3,14 +3,14 @@ title: ChartAxis.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words för .NET
-description: ChartAxis Hidden fast egendom. Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte i C#.
+description: Upptäck egenskapen ChartAxis Hidden för att enkelt hantera axlarnas synlighet i dina diagram. Förbättra din datapresentation med den här enkla växlingsfunktionen!
 type: docs
-weight: 100
+weight: 110
 url: /sv/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
 
-Hämtar eller sätter en flagga som indikerar om denna axel är dold eller inte.
+Hämtar eller ställer in en flagga som anger om denna axel är dold eller inte.
 
 ```csharp
 public bool Hidden { get; set; }

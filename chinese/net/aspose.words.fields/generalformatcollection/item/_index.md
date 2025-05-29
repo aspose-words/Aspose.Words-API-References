@@ -2,8 +2,8 @@
 title: GeneralFormatCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: GeneralFormatCollection Item 财产. 获取指定索引处的通用格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 访问 GeneralFormatCollection Item 属性可在任意索引处轻松检索可自定义的格式，从而毫不费力地增强数据呈现。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/generalformatcollection/item/
@@ -26,7 +26,7 @@ public GeneralFormat this[int index] { get; }
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

@@ -2,15 +2,15 @@
 title: Document.RemoveExternalSchemaReferences
 linktitle: RemoveExternalSchemaReferences
 articleTitle: RemoveExternalSchemaReferences
-second_title: Aspose.Words for .NET
-description: Document RemoveExternalSchemaReferences yöntem. Bu belgeden harici XML şeması referanslarını kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: RemoveExternalSchemaReferences yöntemi ile harici XML şema referanslarını zahmetsizce ortadan kaldırın, belge bütünlüğünü ve performansını artırın.
 type: docs
-weight: 660
+weight: 710
 url: /tr/net/aspose.words/document/removeexternalschemareferences/
 ---
 ## Document.RemoveExternalSchemaReferences method
 
-Bu belgeden harici XML şeması referanslarını kaldırır.
+Bu belgeden harici XML şema referanslarını kaldırır.
 
 ```csharp
 public void RemoveExternalSchemaReferences()
@@ -18,7 +18,7 @@ public void RemoveExternalSchemaReferences()
 
 ## Örnekler
 
-Bir belgeden tüm harici XML şeması referanslarının nasıl kaldırılacağını gösterir.
+Bir belgeden tüm harici XML şema referanslarının nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "External XML schema.docx");

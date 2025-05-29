@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: Forms2OleControlCollection Count ملكية. الحصول على عدد الكائنات الموجودة في المجموعة في C#.
+description: اكتشف خاصية Count في Forms2OleControlCollection لاسترداد العدد الإجمالي للأشياء في مجموعتك بسهولة لتحسين إدارة البيانات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing.ole/forms2olecontrolcollection/count/
 ---
 ## Forms2OleControlCollection.Count property
 
-الحصول على عدد الكائنات الموجودة في المجموعة.
+يحصل على عدد الكائنات في المجموعة.
 
 ```csharp
 public int Count { get; }
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في المستند وعناصر التحكم التابعة له.
+يوضح كيفية الوصول إلى عنصر تحكم OLE المضمن في مستند وعناصر التحكم الفرعية الخاصة به.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذا المستند والتي تحتوي على ثلاثة أزرار خيارات.
+// قد تحتوي بعض عناصر تحكم OLE على عناصر تحكم فرعية، مثل تلك الموجودة في هذه الوثيقة والتي تحتوي على ثلاثة أزرار خيارات.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

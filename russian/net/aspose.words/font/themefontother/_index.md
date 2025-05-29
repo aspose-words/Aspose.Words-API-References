@@ -3,14 +3,14 @@ title: Font.ThemeFontOther
 linktitle: ThemeFontOther
 articleTitle: ThemeFontOther
 second_title: Aspose.Words для .NET
-description: Font ThemeFontOther свойство. Получает или задает шрифт темы используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов связанной с этим.Font объект на С#.
+description: Узнайте, как настроить шрифт темы для символов 128–255 в вашей шрифтовой схеме, улучшив свой дизайн с помощью уникальных вариантов типографики.
 type: docs
-weight: 510
+weight: 520
 url: /ru/net/aspose.words/font/themefontother/
 ---
 ## Font.ThemeFontOther property
 
-Получает или задает шрифт темы, используемый для символов с кодами символов от 128 до 255 в применяемой схеме шрифтов, связанной с этим.[`Font`](../) объект.
+Возвращает или задает шрифт темы, используемый для символов с кодами символов от 128 до 255 в примененной схеме шрифтов, которая связана с этим[`Font`](../) объект.
 
 ```csharp
 public ThemeFont ThemeFontOther { get; set; }
@@ -53,8 +53,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// Есть несколько способов сбросить шрифт и цвет.
-// 1 — установив ThemeFont.None/ThemeColor.None:
+// Существует несколько способов сбросить шрифт и цвет.
+// 1 - Устанавливая ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - путем установки названий шрифтов/цветов, не относящихся к теме:
+// 2 - Задавая не относящиеся к теме названия шрифтов/цветов:
 font.Name = "Arial";
 font.Color = Color.Blue;
 

@@ -2,15 +2,15 @@
 title: FrameFormat.IsFrame
 linktitle: IsFrame
 articleTitle: IsFrame
-second_title: 用于 .NET 的 Aspose.Words
-description: FrameFormat IsFrame 财产. 返回真的如果该段落是一个框架 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FrameFormat 的 IsFrame 属性。轻松判断段落是否为框架，从而优化文档的布局和设计。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/frameformat/isframe/
 ---
 ## FrameFormat.IsFrame property
 
-返回`真的`如果该段落是一个框架.
+返回`真的`如果该段落是一个框架。
 
 ```csharp
 public bool IsFrame { get; }
@@ -18,7 +18,7 @@ public bool IsFrame { get; }
 
 ## 例子
 
-演示如何获取有关框架段落的格式设置属性的信息。
+展示如何获取有关框架段落的格式属性的信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

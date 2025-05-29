@@ -3,7 +3,7 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: Aspose.Words per .NET
-description: ShapeBase CanHaveImage proprietà. RestituisceVERO se il tipo di forma consente alla forma di avere unimmagine in C#.
+description: Scopri la proprietà ShapeBase CanHaveImage: impara a determinare se il tuo tipo di forma supporta le immagini per un impatto visivo migliore!
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/shapebase/canhaveimage/
@@ -18,7 +18,7 @@ public bool CanHaveImage { get; }
 
 ## Osservazioni
 
-Sebbene Microsoft Word abbia un tipo di forma speciale per le immagini, sembra che nei documenti di Microsoft Word qualsiasi forma tranne una forma di gruppo possa avere un'immagine, quindi questa proprietà restituisce`VERO` per tutte le forme tranne[`GroupShape`](../../groupshape/).
+Sebbene Microsoft Word abbia un tipo di forma speciale per le immagini, sembra che nei documenti di Microsoft Word qualsiasi forma , ad eccezione di una forma di gruppo, possa avere un'immagine, pertanto questa proprietà restituisce`VERO` per tutte le forme tranne[`GroupShape`](../../groupshape/).
 
 ## Esempi
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserisci una forma con un'immagine.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 

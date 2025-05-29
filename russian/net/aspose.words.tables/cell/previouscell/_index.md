@@ -3,14 +3,14 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words для .NET
-description: Cell PreviousCell свойство. Получает предыдущееCell узел на С#.
+description: Получите доступ к предыдущему узлу Cell без усилий с помощью свойства Cell PreviousCell. Улучшите навигацию по данным и оптимизируйте процесс кодирования.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.tables/cell/previouscell/
 ---
 ## Cell.PreviousCell property
 
-Получает предыдущее[`Cell`](../) узел.
+Получает предыдущий[`Cell`](../) узел.
 
 ```csharp
 public Cell PreviousCell { get; }
@@ -18,7 +18,7 @@ public Cell PreviousCell { get; }
 
 ## Примечания
 
-Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к ячейкам[`Row`](../../row/) . Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в строке, а не в ячейке, он автоматически проходится, чтобы получить ячейку, содержащуюся внутри.
+Метод можно использовать, когда вам необходимо иметь типизированный доступ к ячейкам[`Row`](../../row/) . Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в строке, а не в ячейке, он автоматически проходится, чтобы получить ячейку, содержащуюся в.
 
 ## Примеры
 

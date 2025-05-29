@@ -3,14 +3,14 @@ title: FieldAddressBlock.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words per .NET
-description: FieldAddressBlock LanguageId proprietà. Ottiene o imposta lID della lingua utilizzato per formattare lindirizzo in C#.
+description: Gestisci la formattazione degli indirizzi senza problemi con la proprietà LanguageId di FieldAddressBlock. Imposta o recupera l'ID della lingua per una localizzazione fluida.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-Ottiene o imposta l'ID della lingua utilizzato per formattare l'indirizzo.
+Ottiene o imposta l'ID della lingua utilizzata per formattare l'indirizzo.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -28,7 +28,7 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Impostandolo su "2" includerà tutti i paesi e le regioni,
+// Impostando questo valore su "2" verranno inclusi tutti i paesi e le regioni,
 // a meno che non sia quello specificato nella proprietà ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
@@ -36,7 +36,7 @@ field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // Per impostazione predefinita, questa proprietà conterrà l'ID della lingua del primo carattere del documento.
-// Possiamo impostare una cultura diversa per il campo con cui formattare il risultato in questo modo.
+// Possiamo impostare una cultura diversa per il campo per formattare il risultato in questo modo.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

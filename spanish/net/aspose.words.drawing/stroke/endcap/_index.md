@@ -3,14 +3,14 @@ title: Stroke.EndCap
 linktitle: EndCap
 articleTitle: EndCap
 second_title: Aspose.Words para .NET
-description: Stroke EndCap propiedad. Define el estilo de límite para el final de un trazo en C#.
+description: Descubre la propiedad Extremo de Trazo para personalizar el estilo final de tu trazo, mejorando el atractivo visual y la precisión de tu diseño. ¡Mejora tus gráficos hoy mismo!
 type: docs
-weight: 80
+weight: 110
 url: /es/net/aspose.words.drawing/stroke/endcap/
 ---
 ## Stroke.EndCap property
 
-Define el estilo de límite para el final de un trazo.
+Define el estilo de tapa para el final de un trazo.
 
 ```csharp
 public EndCap EndCap { get; set; }
@@ -22,13 +22,13 @@ El valor predeterminado esFlat.
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

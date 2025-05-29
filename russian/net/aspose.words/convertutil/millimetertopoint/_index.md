@@ -3,7 +3,7 @@ title: ConvertUtil.MillimeterToPoint
 linktitle: MillimeterToPoint
 articleTitle: MillimeterToPoint
 second_title: Aspose.Words для .NET
-description: ConvertUtil MillimeterToPoint метод. Преобразует миллиметры в точки на С#.
+description: Легко конвертируйте миллиметры в точки с помощью метода MillimeterToPoint от ConvertUtil. Упростите свои расчеты дизайна сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/convertutil/millimetertopoint/
@@ -22,7 +22,7 @@ public static double MillimeterToPoint(double millimeters)
 
 ## Примечания
 
-1 дюйм равен 25,4 миллиметра. 1 дюйм равен 72 очкам.
+1 дюйм равен 25,4 миллиметра. 1 дюйм равен 72 точкам.
 
 ## Примеры
 
@@ -32,9 +32,9 @@ public static double MillimeterToPoint(double millimeters)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
-// Мы также можем использовать класс ConvertUtil для использования более знакомой единицы измерения,
-// например, миллиметры при определении границ.
+// «Параметры страницы» раздела определяют размер полей страницы в пунктах.
+// Мы также можем использовать класс «ConvertUtil» для использования более привычной единицы измерения,
+// например миллиметры при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.MillimeterToPoint(30);
 pageSetup.BottomMargin = ConvertUtil.MillimeterToPoint(50);
@@ -44,7 +44,7 @@ pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 // Сантиметр равен примерно 28,3 пункта.
 Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
 
-// Добавляем контент, чтобы продемонстрировать новые поля.
+// Добавьте контент для демонстрации новых полей.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +
                 $"{pageSetup.RightMargin} points from the right, " +
                 $"{pageSetup.TopMargin} points from the top, " +

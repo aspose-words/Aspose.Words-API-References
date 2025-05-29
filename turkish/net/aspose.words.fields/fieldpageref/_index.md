@@ -2,17 +2,17 @@
 title: FieldPageRef Class
 linktitle: FieldPageRef
 articleTitle: FieldPageRef
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldPageRef sınıf. PAGEREF alanını uygular C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz PAGEREF alanı uygulaması, belge gezintisini ve verimliliği artırmak için Aspose.Words.Fields.FieldPageRef sınıfını keşfedin.
 type: docs
-weight: 2270
+weight: 2680
 url: /tr/net/aspose.words.fields/fieldpageref/
 ---
 ## FieldPageRef class
 
 PAGEREF alanını uygular.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldPageRef : Field
@@ -31,14 +31,14 @@ public class FieldPageRef : Field
 | [BookmarkName](../../aspose.words.fields/fieldpageref/bookmarkname/) { get; set; } | Yer iminin adını alır veya ayarlar. |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Görüntülenen alan sonucunu temsil eden metni alır. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Alan sonunu temsil eden düğümü alır. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Bir alır[`FieldFormat`](../fieldformat/) Alanın formatlamasına yazılı erişim sağlayan nesne. |
-| [InsertHyperlink](../../aspose.words.fields/fieldpageref/inserthyperlink/) { get; set; } | Yer imine eklenen paragrafa köprü eklenip eklenmeyeceğini alır veya ayarlar. |
-| [InsertRelativePosition](../../aspose.words.fields/fieldpageref/insertrelativeposition/) { get; set; } | Yer imi eklenen paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Bir tane alır[`FieldFormat`](../fieldformat/)alanın biçimlendirmesine yazılmış erişim sağlayan nesne. |
+| [InsertHyperlink](../../aspose.words.fields/fieldpageref/inserthyperlink/) { get; set; } | Yer imlerine eklenen paragrafa bir köprü eklenip eklenmeyeceğini alır veya ayarlar. |
+| [InsertRelativePosition](../../aspose.words.fields/fieldpageref/insertrelativeposition/) { get; set; } | Yer imli paragrafın göreli konumunun eklenip eklenmeyeceğini alır veya ayarlar. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Belgede yapılan diğer değişiklikler nedeniyle alanın geçerli sonucunun artık doğru (eski) olup olmadığını alır veya ayarlar. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucu yeniden hesaplanmamalıdır). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Alanın kilitli olup olmadığını alır veya ayarlar (sonucunu yeniden hesaplamamalıdır). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Alanın LCID'sini alır veya ayarlar. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcı ile alan sonu arasındaki metni alır veya ayarlar. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Alan ayırıcısı ile alan sonu arasındaki metni alır veya ayarlar. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Alan ayırıcısını temsil eden düğümü alır.`hükümsüz` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Alanın başlangıcını temsil eden düğümü alır. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Microsoft Word alan türünü alır. |
 
@@ -46,31 +46,31 @@ public class FieldPageRef : Field
 
 | İsim | Tanım |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Alt alanların hem alan kodu hem de alan sonucu dahil edilir. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
-| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son child 'si ise, üst paragrafını döndürür. Alan zaten kaldırılmışsa şunu döndürür:`hükümsüz` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Alanın bağlantısını kaldırır. |
-| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa atar. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa atar. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. Hem alan kodu hem de alt alanların alan sonucu dahil edilir. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Alan başlangıcı ile alan ayırıcısı (veya ayırıcı yoksa alan sonu) arasındaki metni döndürür. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Alanı belgeden kaldırır. Alanın hemen ardından bir düğüm döndürür. Alanın sonu, üst düğümünün son alt 'siyse, üst paragrafını döndürür. Alan zaten kaldırılmışsa, şunu döndürür`hükümsüz` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Alan bağlantısını kaldırma işlemini gerçekleştirir. |
+| [Update](../../aspose.words.fields/field/update/)() | Alan güncellemesini gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Bir alan güncellemesi gerçekleştirir. Alan zaten güncelleniyorsa fırlatır. |
 
 ## Notlar
 
-Çapraz referans için belirtilen yer işaretini içeren sayfanın numarasını ekler.
+Çapraz referans için belirtilen yer imini içeren sayfanın numarasını ekler.
 
 ## Örnekler
 
-Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesini gösterir.
+Yer imlerinin göreceli konumunu görüntülemek için PAGEREF alanlarının eklenmesi gerektiğini gösterir.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Bir yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
-    // Alanın aynı zamanda yer işaretine tıklanabilir bir bağlantı olarak da işlev görmesini sağlamak için InsertHyperlink bayrağını ayarlayın.
+    // Yer iminin hangi sayfada olduğunu gösteren bir PAGEREF alanı ekleyin.
+    // Alanın aynı zamanda yer imine tıklanabilir bir bağlantı işlevi görmesini sağlamak için InsertHyperlink işaretini ayarlayın.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
@@ -80,11 +80,11 @@ public void FieldPageRef()
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 aynı sayfada ve bu alanın altında olacağından bu alanın görüntülenen sonucu "aşağıda" olacaktır.
+    // Bookmark2 aynı sayfada ve bu alanın altında olacağından, bu alanın görüntülenen sonucu "aşağıda" olacaktır.
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 farklı bir sayfada olacak, dolayısıyla alan "2. sayfada" olarak görüntülenecektir.
+    // Bookmark3 farklı bir sayfada olacağından, alan "2. sayfada" olarak görüntülenecektir.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 
@@ -98,7 +98,7 @@ public void FieldPageRef()
 }
 
 /// <summary>
-/// PAGEREF alanı eklemek ve özelliklerini ayarlamak için bir belge oluşturucu kullanır.
+/// Bir PAGEREF alanı eklemek ve özelliklerini ayarlamak için bir belge oluşturucu kullanır.
 /// </summary>
 private static FieldPageRef InsertFieldPageRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, string textBefore)
 {

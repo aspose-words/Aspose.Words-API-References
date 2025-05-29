@@ -3,14 +3,14 @@ title: AxisTickLabelPosition Enum
 linktitle: AxisTickLabelPosition
 articleTitle: AxisTickLabelPosition
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition перечисление. Указывает возможные позиции для меток деления на С#.
+description: Откройте для себя перечисление Aspose.Words.Drawing.Charts.AxisTickLabelPosition, которое определяет оптимальное размещение меток делений для повышения ясности и наглядности диаграммы.
 type: docs
-weight: 580
+weight: 830
 url: /ru/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
 
-Указывает возможные позиции для меток деления.
+Указывает возможные позиции для меток делений.
 
 ```csharp
 public enum AxisTickLabelPosition
@@ -22,13 +22,13 @@ public enum AxisTickLabelPosition
 | --- | --- | --- |
 | High | `0` | Указывает, что метки осей должны находиться на верхнем конце перпендикулярной оси. |
 | Low | `1` | Указывает, что метки осей должны находиться на нижнем конце перпендикулярной оси. |
-| NextToAxis | `2` | Указывает, что метки осей должны быть рядом с осью. |
+| NextToAxis | `2` | Указывает, что метки осей должны располагаться рядом с осью. |
 | None | `3` | Указывает, что метки осей не отображаются. |
 | Default | `2` | Указывает значение по умолчанию для положения меток делений. |
 
 ## Примеры
 
-Показывает, как вставить диаграмму со значениями даты и времени.
+Показывает, как вставить диаграмму со значениями даты/времени.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем пользовательскую серию, содержащую значения даты и времени для оси X и соответствующие десятичные значения для оси Y.
+// Добавить пользовательскую серию, содержащую значения даты/времени для оси X и соответствующие десятичные значения для оси Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -49,12 +49,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Устанавливаем нижнюю и верхнюю границы оси X.
+// Устанавливаем нижнюю и верхнюю границы для оси X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Установите основные единицы оси X на неделю, а второстепенные — на день.
+// Установите основные единицы оси X на неделю, а второстепенные единицы — на день.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -65,7 +65,7 @@ xAxis.HasMinorGridlines = true;
 
 // Определить свойства оси Y для десятичных значений.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

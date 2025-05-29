@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
 second_title: Aspose.Words per .NET
-description: FieldMergeBarcode BarcodeType proprietà. Ottiene o imposta il tipo di codice a barre QR ecc in C#.
+description: Scopri la proprietà FieldMergeBarcode BarcodeType per gestire e personalizzare facilmente vari tipi di codici a barre, come QR, per una migliore integrazione dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -24,8 +24,8 @@ Mostra come eseguire una stampa unione sui codici a barre ITF14.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyITF14Barcode" di un'origine dati di unione in codici a barre ITF14.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyITF14Barcode" di una sorgente dati di unione in codici a barre ITF14.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -34,7 +34,7 @@ field.CaseCodeStyle = "STD";
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice a barre ITF14 con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");
@@ -60,20 +60,20 @@ Mostra come eseguire una stampa unione sui codici a barre CODE39.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyCODE39Barcode" di un'origine dati di unione in codici a barre CODE39.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyCODE39Barcode" di una sorgente dati di unione in codici a barre CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Modifica il suo aspetto per visualizzare i caratteri di inizio/fine.
+// Modificane l'aspetto per visualizzare i caratteri di inizio/fine.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice a barre CODE39 con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");
@@ -93,14 +93,14 @@ Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
 
-Mostra come eseguire una stampa unione sui codici a barre EAN13.
+Mostra come eseguire una stampa unione su codici a barre EAN13.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyEAN13Barcode" di un'origine dati di unione in codici a barre EAN13.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyEAN13Barcode" di una sorgente dati di unione in codici a barre EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -114,7 +114,7 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice a barre EAN13 con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");
@@ -140,8 +140,8 @@ Mostra come eseguire una stampa unione sui codici a barre QR.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
-// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di un'origine dati di unione in codici QR.
+// Inserire un campo MERGEBARCODE, che accetterà valori da un'origine dati durante una stampa unione.
+// Questo campo convertirà tutti i valori nella colonna "MyQRCode" di una sorgente dati di unione in codici QR.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -159,7 +159,7 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
+// Crea un DataTable con una colonna con lo stesso nome del BarcodeValue del nostro campo MERGEBARCODE.
 // La stampa unione creerà una nuova pagina per ogni riga. Ogni pagina conterrà un campo DISPLAYBARCODE,
 // che visualizzerà un codice QR con il valore della riga unita.
 DataTable table = new DataTable("Barcodes");

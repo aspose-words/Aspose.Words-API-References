@@ -3,14 +3,14 @@ title: FieldBuilder
 linktitle: FieldBuilder
 articleTitle: FieldBuilder
 second_title: Aspose.Words لـ .NET
-description: FieldBuilder البناء. تهيئة مثيل لـFieldBuilder فئة في C#.
+description: اكتشف FieldBuilder، الأداة الفعّالة لإنشاء وإدارة الحقول في مشاريعك بسهولة. بسّط سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldbuilder/fieldbuilder/
 ---
 ## FieldBuilder constructor
 
-تهيئة مثيل لـ[`FieldBuilder`](../) فئة.
+يقوم بتهيئة مثيل لـ[`FieldBuilder`](../) الصف.
 
 ```csharp
 public FieldBuilder(FieldType fieldType)
@@ -18,7 +18,7 @@ public FieldBuilder(FieldType fieldType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fieldType | FieldType | نوع الحقل المراد بناءه. |
+| fieldType | FieldType | نوع الحقل المراد بنائه. |
 
 ## أمثلة
 
@@ -27,12 +27,12 @@ public FieldBuilder(FieldType fieldType)
 ```csharp
 Document doc = new Document();
 
-// إحدى الطرق الملائمة لإضافة محتوى نصي إلى مستند هي استخدام أداة إنشاء المستندات.
+// الطريقة المريحة لإضافة محتوى نصي إلى مستند هي باستخدام منشئ المستندات.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write(" Hello world! This text is one Run, which is an inline node.");
 
-// الحقول لها المُنشئ الخاص بها، والذي يمكننا استخدامه لإنشاء رمز الحقل قطعة قطعة.
-// في هذه الحالة، سنقوم بإنشاء حقل الباركود الذي يمثل الرمز البريدي للولايات المتحدة،
+// تحتوي الحقول على منشئها، والذي يمكننا استخدامه لإنشاء رمز الحقل قطعة قطعة.
+// في هذه الحالة، سنقوم بإنشاء حقل BARCODE الذي يمثل الرمز البريدي الأمريكي،
 // ثم أدخله أمام Run.
 FieldBuilder fieldBuilder = new FieldBuilder(FieldType.FieldBarcode);
 fieldBuilder.AddArgument("90210");

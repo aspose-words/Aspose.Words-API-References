@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitBookmarkEnd
 linktitle: VisitBookmarkEnd
 articleTitle: VisitBookmarkEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitBookmarkEnd 方法. 在文档中遇到书签末尾时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor VisitBookmarkEnd 方法，该方法通过有效处理书签结尾来增强文档导航，从而实现无缝的用户体验。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/documentvisitor/visitbookmarkend/
 ---
 ## DocumentVisitor.VisitBookmarkEnd method
 
-在文档中遇到书签末尾时调用。
+当文档中遇到书签末尾时调用。
 
 ```csharp
 public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitBookmarkEnd(BookmarkEnd bookmarkEnd)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
@@ -40,7 +40,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

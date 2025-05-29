@@ -3,14 +3,14 @@ title: Table.ClearShading
 linktitle: ClearShading
 articleTitle: ClearShading
 second_title: Aspose.Words для .NET
-description: Table ClearShading метод. Удаляет всю тень на столе на С#.
+description: Откройте для себя метод Table ClearShading, который позволит легко устранить затенение таблиц, повысив четкость и наглядность ваших проектов.
 type: docs
-weight: 380
+weight: 400
 url: /ru/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
 
-Удаляет всю тень на столе.
+Удаляет все затенения на столе.
 
 ```csharp
 public void ClearShading()
@@ -24,20 +24,20 @@ public void ClearShading()
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Выравниваем таблицу по центру страницы.
+// Выровняйте таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистим все существующие границы и затенение таблицы.
+// Удалим все существующие границы и заливку из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
-// Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые границы к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заполняем ячейки светло-зеленым сплошным цветом.
+// Заполните ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

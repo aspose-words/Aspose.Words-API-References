@@ -3,14 +3,14 @@ title: SaveOptions.UpdateLastSavedTimeProperty
 linktitle: UpdateLastSavedTimeProperty
 articleTitle: UpdateLastSavedTimeProperty
 second_title: Aspose.Words för .NET
-description: SaveOptions UpdateLastSavedTimeProperty fast egendom. Hämtar eller ställer in ett värde som avgör omLastSavedTime egenskapen uppdateras innan du sparar i C#.
+description: Optimera dina SaveOptions med egenskapen UpdateLastSavedTime. Kontrollera LastSavedTime-uppdateringar för effektiv datahantering och förbättrad prestanda.
 type: docs
-weight: 180
+weight: 190
 url: /sv/net/aspose.words.saving/saveoptions/updatelastsavedtimeproperty/
 ---
 ## SaveOptions.UpdateLastSavedTimeProperty property
 
-Hämtar eller ställer in ett värde som avgör om[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) egenskapen uppdateras innan du sparar.
+Hämtar eller ställer in ett värde som avgör om[`LastSavedTime`](../../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) egenskapen uppdateras innan den sparas.
 
 ```csharp
 public bool UpdateLastSavedTimeProperty { get; set; }
@@ -18,7 +18,7 @@ public bool UpdateLastSavedTimeProperty { get; set; }
 
 ## Exempel
 
-Visar hur du bestämmer om dokumentets "Sista sparade tid"-egenskap ska bevaras när du sparar.
+Visar hur man avgör om dokumentets egenskap "Senast sparad tid" ska bevaras när det sparas.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,11 +27,11 @@ Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0),
     doc.BuiltInDocumentProperties.LastSavedTime);
 
 // När vi sparar dokumentet i ett OOXML-format kan vi skapa ett OoxmlSaveOptions-objekt
-// och skicka det sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
-// Ställ in egenskapen "UpdateLastSavedTimeProperty" till "true" till
-// ställ in utdatadokumentets inbyggda egenskap "Senast sparad tid" till aktuellt datum/tid.
-// Ställ in egenskapen "UpdateLastSavedTimeProperty" till "false" till
-// bevara det ursprungliga värdet för indatadokumentets inbyggda egenskap "Sista sparade tid".
+// och skicka den sedan till dokumentets sparmetod för att ändra hur vi sparar dokumentet.
+// Sätt egenskapen "UpdateLastSavedTimeProperty" till "true" för att
+// ställer in den inbyggda egenskapen "Senast sparad tid" i utdatadokumentet till aktuellt datum/tid.
+// Sätt egenskapen "UpdateLastSavedTimeProperty" till "false" för att
+// bevara det ursprungliga värdet för indatadokumentets inbyggda egenskap "Senast sparad tid".
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.UpdateLastSavedTimeProperty = updateLastSavedTimeProperty;
 
@@ -41,7 +41,7 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.LastSavedTime.docx");
 DateTime lastSavedTimeNew = doc.BuiltInDocumentProperties.LastSavedTime;
 
 if (updateLastSavedTimeProperty)
-    Assert.That(DateTime.Now, Is.EqualTo(lastSavedTimeNew).Within(1).Days);
+    Assert.IsTrue((DateTime.Now - lastSavedTimeNew).Days < 1);
 else
     Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
         lastSavedTimeNew);

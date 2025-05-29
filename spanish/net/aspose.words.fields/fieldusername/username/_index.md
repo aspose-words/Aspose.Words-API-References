@@ -3,14 +3,14 @@ title: FieldUserName.UserName
 linktitle: UserName
 articleTitle: UserName
 second_title: Aspose.Words para .NET
-description: FieldUserName UserName propiedad. Gestiona o establece el nombre del usuario actual en C#.
+description: Administre fácilmente el nombre del usuario actual con la propiedad FieldUserName. Mejore la experiencia del usuario y personalice las interacciones sin problemas.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldusername/username/
 ---
 ## FieldUserName.UserName property
 
-Gestiona o establece el nombre del usuario actual.
+Gest o establece el nombre del usuario actual.
 
 ```csharp
 public string UserName { get; set; }
@@ -23,7 +23,7 @@ Muestra cómo utilizar el campo NOMBRE DE USUARIO.
 ```csharp
 Document doc = new Document();
 
-// Crea un objeto UserInformation y configúralo como fuente de información del usuario para cualquier campo que creemos.
+// Cree un objeto UserInformation y configúrelo como la fuente de información del usuario para cualquier campo que creemos.
 UserInformation userInformation = new UserInformation();
 userInformation.Name = "John Doe";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -38,7 +38,7 @@ Assert.AreEqual(userInformation.Name, fieldUserName.Result);
 Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
 Assert.AreEqual("John Doe", fieldUserName.Result);
 
- // Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
+ //Podemos configurar esta propiedad para que nuestro campo anule el valor actualmente almacenado en el objeto UserInformation.
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 

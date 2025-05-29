@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Words
 linktitle: Words
 articleTitle: Words
 second_title: Aspose.Words für .NET
-description: BuiltInDocumentProperties Words eigendom. Stellt eine Schätzung der Anzahl der Wörter im Dokument dar in C#.
+description: Entdecken Sie die Words-Eigenschaft von BuiltInDocumentProperties, die eine genaue Schätzung der Wortanzahl für Ihre Dokumente bietet, um die Bearbeitungseffizienz zu verbessern.
 type: docs
-weight: 330
+weight: 360
 url: /de/net/aspose.words.properties/builtindocumentproperties/words/
 ---
 ## BuiltInDocumentProperties.Words property
@@ -22,7 +22,7 @@ Aspose.Words aktualisiert diese Eigenschaft, wenn Sie aufrufen[`UpdateWordCount`
 
 ## Beispiele
 
-Zeigt, wie alle Listenbezeichnungen in einem Dokument aktualisiert werden.
+Zeigt, wie alle Listenbeschriftungen in einem Dokument aktualisiert werden.
 
 ```csharp
 Document doc = new Document();
@@ -63,16 +63,16 @@ public void Content()
     BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
     // Durch die Verwendung integrierter Eigenschaften,
-    // Wir können Dokumentstatistiken wie Wort-/Seiten-/Zeichenzahlen als Metadaten behandeln, die einen Blick darauf werfen können, ohne das Dokument zu öffnen
-    // Auf diese Eigenschaften können Sie zugreifen, indem Sie im Windows Explorer mit der rechten Maustaste auf die Datei klicken und zu Eigenschaften > navigieren. Details > Inhalt
+    // Wir können Dokumentstatistiken wie die Anzahl von Wörtern/Seiten/Zeichen als Metadaten behandeln, die man sich ansehen kann, ohne das Dokument zu öffnen
+    // Auf diese Eigenschaften kann zugegriffen werden, indem Sie im Windows Explorer mit der rechten Maustaste auf die Datei klicken und zu Eigenschaften > Details > Inhalt navigieren.
     // Wenn wir diese Daten im Dokument anzeigen möchten, können wir Felder wie NUMPAGES, NUMWORDS, NUMCHARS usw. verwenden.
-    // Außerdem können diese Werte auch in Microsoft Word angezeigt werden, indem Sie zu Datei > navigieren. Eigenschaften > Erweiterte Eigenschaften > Statistiken
-    // Seitenanzahl: Die PageCount-Eigenschaft zeigt die Seitenanzahl in Echtzeit an und ihr Wert kann der Pages-Eigenschaft zugewiesen werden
+    // Diese Werte können auch in Microsoft Word angezeigt werden, indem Sie zu Datei > Eigenschaften > Erweiterte Eigenschaften > Statistik navigieren.
+    // Seitenanzahl: Die Eigenschaft PageCount zeigt die Seitenanzahl in Echtzeit an und ihr Wert kann der Eigenschaft Pages zugewiesen werden
 
-     // Die Eigenschaft „Pages“ speichert die Seitenzahl des Dokuments.
+        // Die Eigenschaft „Seiten“ speichert die Seitenanzahl des Dokuments.
     Assert.AreEqual(6, properties.Pages);
 
-    // Die integrierten Eigenschaften „Words“, „Characters“ und „CharactersWithSpaces“ zeigen auch verschiedene Dokumentstatistiken an,
+    // Die integrierten Eigenschaften „Wörter“, „Zeichen“ und „Zeichen mit Leerzeichen“ zeigen auch verschiedene Dokumentstatistiken an.
     // aber wir müssen die Methode „UpdateWordCount“ für das gesamte Dokument aufrufen, bevor wir erwarten können, dass sie genaue Werte enthalten.
     doc.UpdateWordCount();
 
@@ -93,10 +93,10 @@ public void Content()
     // Erhalten Sie eine Schätzung der Dateigröße unseres Dokuments über die integrierte Eigenschaft „Bytes“.
     Assert.AreEqual(20310, properties.Bytes);
 
-    // Legen Sie eine andere Vorlage für unser Dokument fest und aktualisieren Sie dann die integrierte Eigenschaft „Template“ manuell, um diese Änderung widerzuspiegeln.
+    // Legen Sie eine andere Vorlage für unser Dokument fest und aktualisieren Sie dann die integrierte Eigenschaft „Vorlage“ manuell, um diese Änderung widerzuspiegeln.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);    
+    Assert.AreEqual("Normal", properties.Template);
 
     properties.Template = doc.AttachedTemplate;
 
@@ -106,7 +106,7 @@ public void Content()
     // Beim Speichern enthält die integrierte Eigenschaft „ContentType“ den MIME-Typ des Ausgabespeicherformats.
     Assert.AreEqual(string.Empty, properties.ContentType);
 
-    // Wenn das Dokument Links enthält und diese alle aktuell sind, können wir die Eigenschaft „LinksUpToDate“ auf „true“ setzen.
+    // Wenn das Dokument Links enthält und diese alle auf dem neuesten Stand sind, können wir die Eigenschaft „LinksUpToDate“ auf „true“ setzen.
     Assert.False(properties.LinksUpToDate);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
@@ -114,8 +114,8 @@ public void Content()
 
 /// <summary>
 /// Zählt die Zeilen in einem Dokument.
-/// Durchläuft den Layout-Entitätsbaum des Dokuments beim Erstellen,
-/// Zählen von Entitäten vom Typ „Linie“, die auch echten Text enthalten.
+/// Durchläuft den Layout-Entitätenbaum des Dokuments bei der Erstellung,
+/// Zählen von Entitäten des Typs „Zeile“, die auch echten Text enthalten.
 /// </summary>
 private class LineCounter
 {

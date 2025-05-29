@@ -3,16 +3,16 @@ title: EditableRange Class
 linktitle: EditableRange
 articleTitle: EditableRange
 second_title: Aspose.Words para .NET
-description: Aspose.Words.EditableRange clase. Representa un único rango editable en C#.
+description: Descubra la clase Aspose.Words.EditableRange, su solución para gestionar áreas de texto editables sin esfuerzo. ¡Mejore la edición de documentos fácilmente!
 type: docs
-weight: 1420
+weight: 1830
 url: /es/net/aspose.words/editablerange/
 ---
 ## EditableRange class
 
 Representa un único rango editable.
 
-Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Artículo de documentación.
 
 ```csharp
 public class EditableRange
@@ -32,11 +32,11 @@ public class EditableRange
 
 | Nombre | Descripción |
 | --- | --- |
-| [Remove](../../aspose.words/editablerange/remove/)() | Elimina el rango editable del documento. No elimina contenido dentro del rango editable. |
+| [Remove](../../aspose.words/editablerange/remove/)() | Elimina el rango editable del documento. No elimina el contenido dentro del rango editable. |
 
 ## Observaciones
 
-`EditableRange` es un objeto de "fachada" que encapsula dos nodos[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) en un árbol de documentos y permite trabajar con un rango editable como un solo objeto.
+`EditableRange` es un objeto "fachada" que encapsula dos nodos[`EditableRangeStart`](./editablerangestart/) y[`EditableRangeEnd`](./editablerangeend/) en un árbol de documentos y permite trabajar con un rango editable como un solo objeto.
 
 ## Ejemplos
 
@@ -56,20 +56,20 @@ builder.Writeln("This paragraph is inside an editable range, and can be edited."
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 
 // Un rango editable bien formado tiene un nodo inicial y un nodo final.
-// Estos nodos tienen ID coincidentes y abarcan nodos editables.
+// Estos nodos tienen identificaciones coincidentes y abarcan nodos editables.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Diferentes partes del rango editable se vinculan entre sí.
+// Las diferentes partes del rango editable se vinculan entre sí.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
 
-// Podemos acceder a los tipos de nodos de cada parte de esta manera. El rango editable en sí no es un nodo,
-// sino una entidad que consta de un inicio, un final y su contenido adjunto.
+Podemos acceder a los tipos de nodo de cada parte de esta manera. El rango editable en sí no es un nodo.
+// sino una entidad que consta de un inicio, un final y sus contenidos incluidos.
 Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
 Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
 
@@ -77,7 +77,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Eliminar un rango editable. Todos los nodos que estaban dentro del rango permanecerán intactos.
+// Eliminar un rango editable. Todos los nodos dentro del rango permanecerán intactos.
 editableRange.Remove();
 ```
 
@@ -93,8 +93,8 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Cuando protegemos documentos contra escritura, los rangos editables nos permiten elegir áreas específicas que los usuarios pueden editar.
-    // Hay dos formas mutuamente excluyentes de reducir la lista de editores permitidos.
+    // Cuando protegemos contra escritura documentos, los rangos editables nos permiten elegir áreas específicas que los usuarios pueden editar.
+    // Hay dos formas mutuamente excluyentes de limitar la lista de editores permitidos.
     // 1 - Especifica un usuario:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
@@ -103,7 +103,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Especifica un grupo al que se le permite asociar a los usuarios:
+    // 2 - Especifique un grupo al que se asocien los usuarios permitidos:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -113,7 +113,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Imprime detalles y contenidos de cada rango editable en el documento.
+    // Imprima detalles y contenidos de cada rango editable en el documento.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -122,7 +122,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Recopila propiedades y contenidos de rangos editables visitados en una cadena.
+/// Recopila propiedades y contenidos de los rangos editables visitados en una cadena.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -173,7 +173,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Ejecutar en el documento. Este visitante solo registra ejecuciones que se encuentran dentro de rangos editables.
+    Se llama cuando se encuentra un nodo de ejecución en el documento. Este visitante solo registra las ejecuciones dentro de los rangos editables.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

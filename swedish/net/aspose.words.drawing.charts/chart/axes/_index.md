@@ -3,14 +3,14 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words för .NET
-description: Chart Axes fast egendom. Får en samling av alla axlar i detta diagram i C#.
+description: Upptäck egenskapen Diagramaxlar för att enkelt komma åt alla diagramaxlar. Förbättra din datavisualisering med omfattande axelhantering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chart/axes/
 ---
 ## Chart.Axes property
 
-Får en samling av alla axlar i detta diagram.
+Hämtar en samling av alla axlar i detta diagram.
 
 ```csharp
 public ChartAxisCollection Axes { get; }
@@ -18,16 +18,16 @@ public ChartAxisCollection Axes { get; }
 
 ## Exempel
 
-Visar hur man arbetar med yxsamling.
+Visar hur man arbetar med axlar.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Göm de stora rutnätslinjerna på den primära och sekundära Y-axeln.
+// Dölj de viktigaste rutnätslinjerna på den primära och sekundära Y-axeln.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

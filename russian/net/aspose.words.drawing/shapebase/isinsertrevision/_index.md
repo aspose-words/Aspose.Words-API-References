@@ -3,14 +3,14 @@ title: ShapeBase.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words для .NET
-description: ShapeBase IsInsertRevision свойство. Возвращает true если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений на С#.
+description: Узнайте, как свойство IsInsertRevision ShapeBase улучшает ваши документы Word, выявляя изменения, внесенные во время отслеживания. Повысьте эффективность редактирования!
 type: docs
-weight: 300
+weight: 320
 url: /ru/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
 
-Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
+Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений.
 
 ```csharp
 public bool IsInsertRevision { get; }
@@ -18,21 +18,21 @@ public bool IsInsertRevision { get; }
 
 ## Примеры
 
-Показывает, как работать с фигурами изменений.
+Показывает, как работать с формами исправлений.
 
 ```csharp
 Document doc = new Document();
 
 Assert.False(doc.TrackRevisions);
 
-// Вставка встроенной фигуры без отслеживания изменений, что сделает эту фигуру не какой-либо версией.
+// Вставить встроенную фигуру без отслеживания изменений, в результате чего эта фигура не будет являться какой-либо ревизией.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.WrapType = WrapType.Inline;
 shape.Width = 100.0;
 shape.Height = 100.0;
 doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-// Начинаем отслеживать изменения, а затем вставляем другую фигуру, которая будет версией.
+// Начать отслеживать изменения, а затем вставить другую фигуру, которая будет изменением.
 doc.StartTrackRevisions("John Doe");
 
 shape = new Shape(doc, ShapeType.Sun);
@@ -48,14 +48,14 @@ Assert.AreEqual(2, shapes.Length);
 shapes[0].Remove();
 
 // Поскольку мы удалили эту фигуру, пока отслеживали изменения,
-// форма сохраняется в документе и считается удаленной версией.
-// Принятие этой версии приведет к удалению фигуры навсегда, а отклонение ее сохранит ее в документе.
+// форма сохраняется в документе и считается удаленной ревизией.
+// Принятие этой правки приведет к окончательному удалению фигуры, а отклонение сохранит ее в документе.
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
-// И мы вставили еще одну фигуру, отслеживая изменения, так что эта фигура будет считаться вставленной версией.
-// Принятие этой редакции ассимилирует эту форму в документ как нередактированную,
-// и отклонение изменения приведет к удалению этой формы навсегда.
+// И мы вставили еще одну фигуру во время отслеживания изменений, поэтому эта фигура будет считаться вставленной правкой.
+// Принятие этой редакции ассимилирует эту форму в документ как неревизию,
+// и отклонение изменения удалит эту форму навсегда.
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);
 ```

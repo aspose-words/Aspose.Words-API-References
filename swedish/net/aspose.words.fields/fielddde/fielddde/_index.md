@@ -3,7 +3,7 @@ title: FieldDde
 linktitle: FieldDde
 articleTitle: FieldDde
 second_title: Aspose.Words för .NET
-description: FieldDde byggare. Default_Constructor i C#.
+description: Upptäck FieldDde-konstruktorn, din lösning för sömlös integration och effektiv kodning. Lås upp kraftfulla funktioner för dina projekt idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fielddde/fielddde/

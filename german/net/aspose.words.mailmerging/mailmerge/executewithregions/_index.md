@@ -3,14 +3,14 @@ title: MailMerge.ExecuteWithRegions
 linktitle: ExecuteWithRegions
 articleTitle: ExecuteWithRegions
 second_title: Aspose.Words für .NET
-description: MailMerge ExecuteWithRegions methode. Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch in C#.
+description: Optimieren Sie Ihre Dokumenterstellung mit der MailMerge ExecuteWithRegions-Methode und ermöglichen Sie effiziente Serienbriefe aus benutzerdefinierten Datenquellen und Regionen.
 type: docs
 weight: 200
 url: /de/net/aspose.words.mailmerging/mailmerge/executewithregions/
 ---
 ## ExecuteWithRegions(*[IMailMergeDataSource](../../imailmergedatasource/)*) {#executewithregions}
 
-Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch.
+Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen aus.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSource dataSource)
@@ -18,17 +18,17 @@ public void ExecuteWithRegions(IMailMergeDataSource dataSource)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Serienbrief-Datenquellenschnittstelle implementiert. |
+| dataSource | IMailMergeDataSource | Ein Objekt, das die benutzerdefinierte Datenquellenschnittstelle für Serienbriefe implementiert. |
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus jeder benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigene Klasse schreiben, die das implementiert[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
+Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder einer Sammlung von Geschäftsobjekten zu füllen. Sie müssen eine eigene Klasse schreiben, die die[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstelle.
 
-Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, Das heißt, Sie benötigen keine Rechts-nach-Links-Sprachkompatibilität (z. B. Arabisch oder Hebräisch).
+Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, das heißt, Sie benötigen keine Rechts-nach-links-Kompatibilität mit Sprachen (wie Arabisch oder Hebräisch).
 
 ## Beispiele
 
-Zeigt, wie Sie Seriendruckbereiche verwenden, um einen verschachtelten Serienbrief auszuführen.
+Zeigt, wie Serienbriefbereiche zum Ausführen eines verschachtelten Serienbriefs verwendet werden.
 
 ```csharp
 public void CustomDataSource()
@@ -37,20 +37,20 @@ public void CustomDataSource()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Normalerweise enthalten MERGEFIELDs den Namen einer Spalte einer Serienbrief-Datenquelle.
-    // Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Seriendruckbereich zu beginnen/beenden.
+    // Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Serienbriefbereich zu beginnen/beenden.
     // Jede Region gehört zu einer Tabelle mit einem Namen, der mit der Zeichenfolge unmittelbar nach dem Doppelpunkt des Präfixes übereinstimmt.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Diese MERGEFIELDs befinden sich im Seriendruckbereich der Tabelle „Kunden“.
-    // Wenn wir den Serienbrief ausführen, empfängt dieses Feld Daten aus Zeilen in einer Datenquelle namens „Kunden“.
+    // Wenn wir den Serienbrief ausführen, erhält dieses Feld Daten aus Zeilen in einer Datenquelle mit dem Namen „Kunden“.
     builder.Write("Full name:\t");
     builder.InsertField(" MERGEFIELD FullName ");
     builder.Write("\nAddress:\t");
     builder.InsertField(" MERGEFIELD Address ");
     builder.Write("\nOrders:\n");
 
-    // Erstellen Sie einen zweiten Serienbriefbereich innerhalb des äußeren Bereichs für eine Datenquelle namens „Orders“.
-    // Die Dateneinträge „Bestellungen“ haben eine Viele-zu-Eins-Beziehung mit der Datenquelle „Kunden“.
+    // Erstellen Sie innerhalb des äußeren Bereichs einen zweiten Serienbriefbereich für eine Datenquelle mit dem Namen „Bestellungen“.
+    // Die Dateneinträge „Bestellungen“ haben eine Viele-zu-eins-Beziehung mit der Datenquelle „Kunden“.
     builder.InsertField(" MERGEFIELD TableStart:Orders");
 
     builder.Write("\tItem name:\t");
@@ -62,7 +62,7 @@ public void CustomDataSource()
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Erstellen Sie zugehörige Daten mit Namen, die denen unserer Serienbriefregionen entsprechen.
+    // Erstellen Sie zugehörige Daten mit Namen, die mit denen unserer Serienbriefbereiche übereinstimmen.
     CustomerList customers = new CustomerList();
     customers.Add(new Customer("Thomas Hardy", "120 Hanover Sq., London"));
     customers.Add(new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino"));
@@ -71,7 +71,7 @@ public void CustomDataSource()
     customers[0].Orders.Add(new Order("Rugby World Cup Ball", 1));
     customers[1].Orders.Add(new Order("Rugby World Cup Guide", 1));
 
-    // Um einen Serienbrief aus Ihrer Datenquelle zu versenden, müssen wir ihn in ein Objekt einbinden, das die IMailMergeDataSource-Schnittstelle implementiert.
+    // Um Serienbriefe aus Ihrer Datenquelle zu erstellen, müssen wir sie in ein Objekt einbinden, das die Schnittstelle IMailMergeDataSource implementiert.
     CustomerMailMergeDataSource customersDataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.ExecuteWithRegions(customersDataSource);
@@ -124,8 +124,8 @@ public class Order
 }
 
 /// <summary>
- /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
-/// um Seriendaten aus Ihren Kundenobjekten in Microsoft Word-Dokumente zu übertragen.
+    /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Daten aus Ihren Kundenobjekten per Serienbrief in Microsoft Word-Dokumente zu übertragen.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -138,7 +138,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
     /// </summary>
     public string TableName
     {
@@ -146,7 +146,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -162,7 +162,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Orders;
                 return true;
             default:
-                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -170,7 +170,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {
@@ -184,7 +184,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         switch (tableName)
         {
-            // Holen Sie sich die untergeordnete Datenquelle, deren Name mit dem Serienbriefbereich übereinstimmt, der seine Spalten verwendet.
+            // Holen Sie sich die untergeordnete Datenquelle, deren Name mit dem Seriendruckbereich übereinstimmt, der ihre Spalten verwendet.
             case "Orders":
                 return new OrderMailMergeDataSource(mCustomers[mRecordIndex].Orders);
             default:
@@ -212,7 +212,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
     /// </summary>
     public string TableName
     {
@@ -220,7 +220,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -233,7 +233,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mOrders[mRecordIndex].Quantity;
                 return true;
             default:
-                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -241,7 +241,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {
@@ -252,7 +252,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Null zurückgeben, da wir keine untergeordneten Elemente für diese Art von Objekt haben.
+    /// Gibt null zurück, da wir für diese Art von Objekt keine untergeordneten Elemente haben.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -280,7 +280,7 @@ public class OrderMailMergeDataSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(*[IMailMergeDataSourceRoot](../../imailmergedatasourceroot/)*) {#executewithregions_1}
 
-Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen durch.
+Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Serienbriefbereichen aus.
 
 ```csharp
 public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
@@ -288,26 +288,26 @@ public void ExecuteWithRegions(IMailMergeDataSourceRoot dataSourceRoot)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataSourceRoot | IMailMergeDataSourceRoot | Ein Objekt, das die Stammschnittstelle der benutzerdefinierten Serienbriefdatenquelle implementiert. |
+| dataSourceRoot | IMailMergeDataSourceRoot | Ein Objekt, das die Stammschnittstelle der benutzerdefinierten Serienbrief-Datenquelle implementiert. |
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus jeder benutzerdefinierten Datenquelle wie einer XML-Datei oder Sammlungen von Geschäftsobjekten zu füllen. Sie müssen Ihre eigenen Klassen schreiben, die das implementieren[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) Und[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstellen.
+Verwenden Sie diese Methode, um Serienbrieffelder im Dokument mit Werten aus einer beliebigen benutzerdefinierten Datenquelle wie einer XML-Datei oder einer Sammlung von Geschäftsobjekten zu füllen. Sie müssen eigene Klassen schreiben, die die[`IMailMergeDataSourceRoot`](../../imailmergedatasourceroot/) Und[`IMailMergeDataSource`](../../imailmergedatasource/) Schnittstellen.
 
-Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, Das heißt, Sie benötigen keine Rechts-nach-Links-Sprachkompatibilität (z. B. Arabisch oder Hebräisch).
+Sie können diese Methode nur verwenden, wenn[`IsBidiTextSupportedOnUpdate`](../../../aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/) Ist`FALSCH`, das heißt, Sie benötigen keine Rechts-nach-links-Kompatibilität mit Sprachen (wie Arabisch oder Hebräisch).
 
 ## Beispiele
 
-Führt einen Serienbrief aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
+Führt Serienbriefe aus einer benutzerdefinierten Datenquelle mit Master-Detail-Daten durch.
 
 ```csharp
 public void CustomDataSourceRoot()
 {
-    // Erstellen Sie ein Dokument mit zwei Serienbriefregionen namens „Washington“ und „Seattle“.
+    // Erstellen Sie ein Dokument mit zwei Serienbriefbereichen namens „Washington“ und „Seattle“.
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Zwei Datenquellen für den Serienbrief erstellen.
+    // Erstellen Sie zwei Datenquellen für den Serienbrief.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -316,15 +316,15 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Registrieren Sie unsere Datenquellen namentlich in einem Datenquellenstamm.
-    // Wenn wir diesen Datenquellenstamm in einem Serienbrief mit Regionen verwenden möchten,
-    // Der registrierte Name jeder Quelle muss mit dem Namen einer vorhandenen Serienbriefregion im Serienbrief-Quelldokument übereinstimmen.
+    // Registrieren Sie unsere Datenquellen mit Namen in einem Datenquellenstamm.
+    // Wenn wir diese Datenquellenwurzel in einem Serienbrief mit Regionen verwenden möchten,
+    // Der registrierte Name jeder Quelle muss mit dem Namen eines vorhandenen Seriendruckbereichs im Seriendruck-Quelldokument übereinstimmen.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
 
     // Da wir aufeinanderfolgende Serienbriefbereiche haben, müssten wir normalerweise zwei Serienbriefe durchführen.
-    // Allerdings kann eine Serienbriefquelle mit einem Datenstamm mehrere Regionen ausfüllen
+    // Eine Serienbriefquelle mit einem Datenstamm kann jedoch mehrere Regionen ausfüllen
     // wenn die Wurzel Tabellen mit entsprechenden Namen/Spaltennamen enthält.
     doc.MailMerge.ExecuteWithRegions(sourceRoot);
 
@@ -332,8 +332,8 @@ public void CustomDataSourceRoot()
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument, das aufeinanderfolgende Serienbriefbereiche enthält, deren Namen durch das Eingabearray festgelegt werden.
-/// für eine Datentabelle von Mitarbeitern.
+/// Erstellen Sie ein Dokument, das aufeinanderfolgende Serienbriefbereiche enthält, deren Namen durch das Eingabearray bestimmt werden.
+/// für eine Datentabelle mit Mitarbeitern.
 /// </summary>
 private static Document CreateSourceDocumentWithMailMergeRegions(string[] regions)
 {
@@ -382,8 +382,8 @@ private class EmployeeList : ArrayList
 
 /// <summary>
 /// Datenquellenstamm, der direkt an einen Serienbrief übergeben werden kann, der viele untergeordnete Datenquellen registrieren und enthalten kann.
-/// Diese Quellen müssen alle IMailMergeDataSource implementieren und werden durch einen Namen registriert und unterschieden
-/// was einem Serienbriefbereich entspricht, der die entsprechenden Daten liest.
+/// Diese Quellen müssen alle IMailMergeDataSource implementieren und sind durch einen Namen registriert und unterschieden
+/// Dies entspricht einem Serienbriefbereich, der die entsprechenden Daten liest.
 /// </summary>
 private class DataSourceRoot : IMailMergeDataSourceRoot
 {
@@ -414,7 +414,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {
@@ -435,7 +435,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
     /// </summary>
     public string TableName
     {
@@ -443,7 +443,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -456,7 +456,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
                 fieldValue = mEmployees[mRecordIndex].Department;
                 return true;
             default:
-                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -464,7 +464,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Untergeordnete Datenquellen sind für verschachtelte Serienbriefe vorgesehen.
+    /// Untergeordnete Datenquellen dienen für verschachtelte Serienbriefe.
     /// </summary>
     public IMailMergeDataSource GetChildDataSource(string tableName)
     {
@@ -487,7 +487,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
 
 ## ExecuteWithRegions(*DataSet*) {#executewithregions_2}
 
-Führt einen Serienbrief von einem aus**Datensatz** in ein Dokument mit Seriendruckbereichen.
+Führt Serienbriefe aus einem**Datensatz** in ein Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataSet dataSet)
@@ -499,31 +499,31 @@ public void ExecuteWithRegions(DataSet dataSet)
 
 ## Bemerkungen
 
-Verwenden Sie diese Methode, um einen Serienbrief aus einer oder mehreren Tabellen in wiederholbaren Mail -Zusammenführungsbereichen im Dokument durchzuführen. Die Seriendruckbereiche innerhalb des Dokuments werden dynamisch vergrößert, um Datensätze in den entsprechenden Tabellen aufzunehmen.
+Verwenden Sie diese Methode, um Serienbriefe aus einer oder mehreren Tabellen in wiederholbare Serienbriefbereiche im Dokument zu übertragen. Die Serienbriefbereiche im Dokument werden dynamisch erweitert, um Datensätze in den entsprechenden Tabellen aufzunehmen.
 
 Jeder Tisch im**Datensatz** muss einen Namen haben.
 
-Für das Dokument müssen Seriendruckbereiche definiert sein, deren Namen auf die Tabellen im Dokument verweisen**Datensatz**.
+Das Dokument muss Serienbriefbereiche mit Namen haben, die sich auf die Tabellen in der**Datensatz**.
 
-Um einen Seriendruckbereich im Dokument anzugeben, müssen Sie zwei Seriendruckfelder einfügen, um den Anfang und das Ende des Seriendruckbereichs zu markieren.
+Um einen Serienbriefbereich im Dokument anzugeben, müssen Sie zwei Serienbrieffelder einfügen, um den Anfang und das Ende des Serienbriefbereichs zu markieren.
 
-Der gesamte Dokumentinhalt, der in einem Serienbriefbereich enthalten ist, wird automatisch für jeden Datensatz im wiederholt**Datentabelle**.
+Der gesamte Dokumentinhalt, der in einem Serienbriefbereich enthalten ist, wird automatisch für jeden Datensatz im**Datentabelle**.
 
-Um den Anfang eines Serienbriefbereichs zu markieren, fügen Sie ein MERGEFIELD mit dem Namen TableStart:MyTable, ein, wobei MyTable einem der Tabellennamen in Ihrem entspricht**Datensatz**.
+Um den Beginn eines Serienbriefbereichs zu markieren, fügen Sie ein MERGEFIELD mit dem Namen TableStart:MyTable, ein, wobei MyTable einem der Tabellennamen in Ihrem**Datensatz**.
 
 Um das Ende des Serienbriefbereichs zu markieren, fügen Sie ein weiteres MERGEFIELD mit dem Namen TableEnd:MyTable ein.
 
 Um ein MERGEFIELD in Word einzufügen, verwenden Sie den Befehl „Einfügen/Feld“, wählen Sie „MergeField“ und geben Sie dann den -Namen des Felds ein.
 
-Der**TableStart** Und**TableEnd** Felder müssen sich im selben Abschnitt Ihres Dokuments befinden.
+Der**TischStart** Und**Tabellenende** Felder müssen sich in Ihrem Dokument im selben Abschnitt befinden.
 
-Bei Verwendung innerhalb eines Tisches**TableStart** Und**TableEnd** muss sich in derselben Zeile der Tabelle befinden.
+Bei Verwendung innerhalb einer Tabelle**TischStart** Und**Tabellenende** muss sich in derselben Zeile der Tabelle befinden.
 
-Seriendruckbereiche in einem Dokument sollten wohlgeformt sein (es muss immer ein Paar passender vorhanden sein).**TableStart** Und**TableEnd** Zusammenführungsfelder mit demselben Tabellennamen).
+Serienbriefbereiche in einem Dokument sollten gut geformt sein (es muss immer ein Paar passender **TischStart** Und**Tabellenende** Zusammenführungsfelder mit demselben Tabellennamen).
 
 ## Beispiele
 
-Zeigt, wie ein verschachtelter Serienbrief mit zwei Zusammenführungsbereichen und zwei Datentabellen ausgeführt wird.
+Zeigt, wie ein verschachtelter Seriendruck mit zwei Seriendruckbereichen und zwei Datentabellen ausgeführt wird.
 
 ```csharp
 public void ExecuteWithRegionsNested()
@@ -532,17 +532,17 @@ public void ExecuteWithRegionsNested()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Normalerweise enthalten MERGEFIELDs den Namen einer Spalte einer Serienbrief-Datenquelle.
-    // Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Seriendruckbereich zu beginnen/beenden.
+    // Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Serienbriefbereich zu beginnen/beenden.
     // Jede Region gehört zu einer Tabelle mit einem Namen, der mit der Zeichenfolge unmittelbar nach dem Doppelpunkt des Präfixes übereinstimmt.
     builder.InsertField(" MERGEFIELD TableStart:Customers");
 
     // Dieses MERGEFIELD befindet sich im Seriendruckbereich der Tabelle „Kunden“.
-    // Wenn wir den Serienbrief ausführen, empfängt dieses Feld Daten aus Zeilen in einer Datenquelle namens „Kunden“.
+    // Wenn wir den Serienbrief ausführen, erhält dieses Feld Daten aus Zeilen in einer Datenquelle mit dem Namen „Kunden“.
     builder.Write("Orders for ");
     builder.InsertField(" MERGEFIELD CustomerName");
     builder.Write(":");
 
-    // Spaltenüberschriften für eine Tabelle erstellen, die Werte aus einem zweiten inneren Bereich enthält.
+    // Erstellen Sie Spaltenüberschriften für eine Tabelle, die Werte aus einem zweiten inneren Bereich enthalten wird.
     builder.StartTable();
     builder.InsertCell();
     builder.Write("Item");
@@ -550,24 +550,24 @@ public void ExecuteWithRegionsNested()
     builder.Write("Quantity");
     builder.EndRow();
 
-    // Erstellen Sie einen zweiten Serienbriefbereich innerhalb des äußeren Bereichs für eine Tabelle mit dem Namen „Orders“.
-    // Die Tabelle „Orders“ hat eine Viele-zu-Eins-Beziehung mit der Tabelle „Customers“ in der Spalte „CustomerID“.
+    // Erstellen Sie innerhalb des äußeren Bereichs einen zweiten Serienbriefbereich für eine Tabelle mit dem Namen „Bestellungen“.
+    // Die Tabelle „Bestellungen“ hat eine Viele-zu-Eins-Beziehung mit der Tabelle „Kunden“ in der Spalte „Kunden-ID“.
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD TableStart:Orders");
     builder.InsertField(" MERGEFIELD ItemName");
     builder.InsertCell();
     builder.InsertField(" MERGEFIELD Quantity");
 
-    // Beende den inneren Bereich und dann den äußeren Bereich. Das Öffnen und Schließen eines Serienbriefbereichs muss erfolgen
-    // in derselben Zeile einer Tabelle passieren.
+    // Beenden Sie den inneren Bereich und dann den äußeren Bereich. Das Öffnen und Schließen eines Serienbriefbereichs muss
+    // in derselben Zeile einer Tabelle auftreten.
     builder.InsertField(" MERGEFIELD TableEnd:Orders");
     builder.EndTable();
 
     builder.InsertField(" MERGEFIELD TableEnd:Customers");
 
-    // Einen Datensatz erstellen, der die beiden Tabellen mit den erforderlichen Namen und Beziehungen enthält.
-    // Jedes Serienbriefdokument für jede Zeile der Tabelle „Kunden“ des äußeren Seriendruckbereichs führt seinen Serienbrief für die Tabelle „Bestellungen“ durch.
-    // In jedem Zusammenführungsdokument werden alle Zeilen der letzteren Tabelle angezeigt, deren Spaltenwerte „CustomerID“ mit der aktuellen Tabellenzeile „Customers“ übereinstimmen.
+    // Erstellen Sie einen Datensatz, der die beiden Tabellen mit den erforderlichen Namen und Beziehungen enthält.
+    // Jedes Seriendruckdokument für jede Zeile der Tabelle „Kunden“ des äußeren Seriendruckbereichs führt seinen Seriendruck in der Tabelle „Bestellungen“ durch.
+    // Jedes Zusammenführungsdokument zeigt alle Zeilen der letzteren Tabelle an, deren Spaltenwerte „CustomerID“ mit der aktuellen Tabellenzeile „Customers“ übereinstimmen.
     DataSet customersAndOrders = CreateDataSet();
     doc.MailMerge.ExecuteWithRegions(customersAndOrders);
 
@@ -575,7 +575,7 @@ public void ExecuteWithRegionsNested()
 }
 
 /// <summary>
-/// Erzeugt einen Datensatz mit zwei Datentabellen namens „Customers“ und „Orders“ mit einer Eins-zu-viele-Beziehung in der Spalte „CustomerID“.
+/// Generiert einen Datensatz mit zwei Datentabellen namens „Kunden“ und „Bestellungen“ mit einer Eins-zu-viele-Beziehung in der Spalte „Kunden-ID“.
 /// </summary>
 private static DataSet CreateDataSet()
 {
@@ -612,7 +612,7 @@ private static DataSet CreateDataSet()
 
 ## ExecuteWithRegions(*DataTable*) {#executewithregions_3}
 
-Führt einen Serienbrief von einem aus**Datentabelle** in das Dokument mit Seriendruckbereichen.
+Führt Serienbriefe aus einem**Datentabelle** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataTable dataTable)
@@ -620,17 +620,17 @@ public void ExecuteWithRegions(DataTable dataTable)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataTable | DataTable | Datenquelle für den Seriendruckvorgang. Die Tabelle muss habenTableName Eigenschaftssatz. |
+| dataTable | DataTable | Datenquelle für den Serienbriefvorgang. Die Tabelle must hat ihreTableName Eigenschaftensatz. |
 
 ## Bemerkungen
 
-Für das Dokument muss ein Serienbriefbereich mit einem Namen definiert sein, der mit übereinstimmt.TableName.
+Für das Dokument muss ein Serienbriefbereich mit dem Namen „ “ definiert sein.TableName.
 
-Wenn im Dokument andere Seriendruckbereiche definiert sind, bleiben diese intakt. Dies ermöglicht die Durchführung mehrerer Serienbriefvorgänge.
+Wenn im Dokument andere Serienbriefbereiche definiert sind, bleiben diese unverändert. Dadurch können mehrere Serienbriefvorgänge ausgeführt werden.
 
 ## Beispiele
 
-Demonstriert, wie Zellen während eines Seriendrucks formatiert werden.
+Zeigt, wie Zellen während eines Seriendrucks formatiert werden.
 
 ```csharp
 public void AlternatingRows()
@@ -646,19 +646,19 @@ public void AlternatingRows()
 }
 
 /// <summary>
-/// Formatiert Tabellenzeilen, während ein Seriendruck stattfindet, um zwischen zwei Farben in ungeraden/geraden Zeilen zu wechseln.
+/// Formatiert Tabellenzeilen während eines Seriendrucks, um in ungeraden/geraden Zeilen zwischen zwei Farben zu wechseln.
 /// </summary>
 private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (mBuilder == null)
             mBuilder = new DocumentBuilder(args.Document);
 
-        // Dies gilt, wenn wir uns in der ersten Spalte befinden, was bedeutet, dass wir in eine neue Zeile verschoben wurden.
+        // Dies gilt, wenn wir uns in der ersten Spalte befinden, was bedeutet, dass wir zu einer neuen Zeile gewechselt sind.
         if (args.FieldName == "CompanyName")
         {
             Color rowColor = IsOdd(mRowIdx) ? Color.FromArgb(213, 227, 235) : Color.FromArgb(242, 242, 242);
@@ -683,7 +683,7 @@ private class HandleMergeFieldAlternatingRows : IFieldMergingCallback
 }
 
 /// <summary>
-/// Funktion, die für die automatische Portierung in Visual Basic benötigt wird und die Parität der übergebenen Zahl zurückgibt.
+/// Für Visual Basic-Autoporting benötigte Funktion, die die Parität der übergebenen Zahl zurückgibt.
 /// </summary>
 private static bool IsOdd(int value)
 {
@@ -710,16 +710,16 @@ private static DataTable GetSuppliersDataTable()
 }
 ```
 
-Zeigt, wie Regionen verwendet werden, um zwei separate Serienbriefe in einem Dokument auszuführen.
+Zeigt, wie Sie mithilfe von Regionen zwei separate Serienbriefe in einem Dokument ausführen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn wir zwei aufeinanderfolgende Serienbriefe für ein Dokument durchführen und dabei Daten aus zwei Tabellen übernehmen möchten
-// in irgendeiner Weise miteinander in Beziehung stehen, können wir die Serienbriefe nach Regionen trennen.
+// Wenn wir zwei aufeinanderfolgende Serienbriefe für ein Dokument ausführen möchten, während wir Daten aus zwei Tabellen übernehmen
+// in irgendeiner Weise miteinander verbunden sind, können wir die Serienbriefe nach Regionen trennen.
 // Normalerweise enthalten MERGEFIELDs den Namen einer Spalte einer Serienbrief-Datenquelle.
-// Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Seriendruckbereich zu beginnen/beenden.
+// Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Serienbriefbereich zu beginnen/beenden.
 // Jede Region gehört zu einer Tabelle mit einem Namen, der mit der Zeichenfolge unmittelbar nach dem Doppelpunkt des Präfixes übereinstimmt.
 // Diese Regionen sind für nicht verwandte Daten getrennt, während sie für hierarchische Daten verschachtelt werden können.
 builder.Writeln("\tCities: ");
@@ -728,13 +728,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Beide MERGEFIELDs verweisen auf denselben Spaltennamen, die Werte für beide stammen jedoch aus unterschiedlichen Datentabellen.
+// Beide MERGEFIELDs beziehen sich auf denselben Spaltennamen, aber die Werte stammen jeweils aus unterschiedlichen Datentabellen.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Zwei unabhängige Datentabellen erstellen.
+// Erstellen Sie zwei unabhängige Datentabellen.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -748,12 +748,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Wir müssen einen Serienbrief pro Tabelle ausführen. Beim ersten Serienbrief werden die MERGEFIELDs ausgefüllt
-// im Bereich „Städte“, während die Felder im Bereich „Obst“ unbefüllt bleiben.
+// Wir müssen pro Tabelle einen Serienbrief ausführen. Der erste Serienbrief füllt die MERGEFIELDs
+// im Bereich „Städte“, während die Felder im Bereich „Obst“ leer bleiben.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Führen Sie eine zweite Zusammenführung für die Tabelle „Fruit“ durch und verwenden Sie dabei eine Datenansicht
-// um die Zeilen vor der Zusammenführung in aufsteigender Reihenfolge in der Spalte „Name“ zu sortieren.
+// Führen Sie eine zweite Zusammenführung für die Tabelle „Obst“ aus, während Sie eine Datenansicht verwenden
+// um die Zeilen vor der Zusammenführung in aufsteigender Reihenfolge nach der Spalte „Name“ zu sortieren.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -771,7 +771,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(*DataView*) {#executewithregions_4}
 
-Führt einen Serienbrief von einem aus**Datenansicht** in das Dokument mit Seriendruckbereichen.
+Führt Serienbriefe aus einem**Datenansicht** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(DataView dataView)
@@ -779,28 +779,28 @@ public void ExecuteWithRegions(DataView dataView)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataView | DataView | Datenquelle für den Seriendruckvorgang. Die Quelltabelle der**Datenansicht** muss es haben**Tabellenname** Eigenschaftssatz. |
+| dataView | DataView | Datenquelle für den Serienbriefvorgang. Die Quelltabelle des**Datenansicht** muss seine**Tabellenname** Eigenschaftensatz. |
 
 ## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Daten in a abrufen**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
+Diese Methode ist nützlich, wenn Sie Daten in ein**Datentabelle** aber dann muss vor dem Seriendruck ein Filter oder eine Sortierung angewendet werden.
 
-Für das Dokument muss ein Serienbriefbereich mit einem Namen definiert sein, der mit übereinstimmt.**DataView.Table.TableName**.
+Für das Dokument muss ein Serienbriefbereich mit dem Namen „ “ definiert sein.**DataView.Tabelle.Tabellenname**.
 
-Wenn im Dokument andere Seriendruckbereiche definiert sind, bleiben diese intakt. Dies ermöglicht die Durchführung mehrerer Serienbriefvorgänge.
+Wenn im Dokument andere Serienbriefbereiche definiert sind, bleiben diese unverändert. Dadurch können mehrere Serienbriefvorgänge ausgeführt werden.
 
 ## Beispiele
 
-Zeigt, wie Regionen verwendet werden, um zwei separate Serienbriefe in einem Dokument auszuführen.
+Zeigt, wie Sie mithilfe von Regionen zwei separate Serienbriefe in einem Dokument ausführen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn wir zwei aufeinanderfolgende Serienbriefe für ein Dokument durchführen und dabei Daten aus zwei Tabellen übernehmen möchten
-// in irgendeiner Weise miteinander in Beziehung stehen, können wir die Serienbriefe nach Regionen trennen.
+// Wenn wir zwei aufeinanderfolgende Serienbriefe für ein Dokument ausführen möchten, während wir Daten aus zwei Tabellen übernehmen
+// in irgendeiner Weise miteinander verbunden sind, können wir die Serienbriefe nach Regionen trennen.
 // Normalerweise enthalten MERGEFIELDs den Namen einer Spalte einer Serienbrief-Datenquelle.
-// Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Seriendruckbereich zu beginnen/beenden.
+// Stattdessen können wir die Präfixe „TableStart:“ und „TableEnd:“ verwenden, um einen Serienbriefbereich zu beginnen/beenden.
 // Jede Region gehört zu einer Tabelle mit einem Namen, der mit der Zeichenfolge unmittelbar nach dem Doppelpunkt des Präfixes übereinstimmt.
 // Diese Regionen sind für nicht verwandte Daten getrennt, während sie für hierarchische Daten verschachtelt werden können.
 builder.Writeln("\tCities: ");
@@ -809,13 +809,13 @@ builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Cities");
 builder.InsertParagraph();
 
-// Beide MERGEFIELDs verweisen auf denselben Spaltennamen, die Werte für beide stammen jedoch aus unterschiedlichen Datentabellen.
+// Beide MERGEFIELDs beziehen sich auf denselben Spaltennamen, aber die Werte stammen jeweils aus unterschiedlichen Datentabellen.
 builder.Writeln("\tFruit: ");
 builder.InsertField(" MERGEFIELD TableStart:Fruit");
 builder.InsertField(" MERGEFIELD Name");
 builder.InsertField(" MERGEFIELD TableEnd:Fruit");
 
-// Zwei unabhängige Datentabellen erstellen.
+// Erstellen Sie zwei unabhängige Datentabellen.
 DataTable tableCities = new DataTable("Cities");
 tableCities.Columns.Add("Name");
 tableCities.Rows.Add(new object[] { "Washington" });
@@ -829,12 +829,12 @@ tableFruit.Rows.Add(new object[] { "Apple" });
 tableFruit.Rows.Add(new object[] { "Watermelon" });
 tableFruit.Rows.Add(new object[] { "Banana" });
 
-// Wir müssen einen Serienbrief pro Tabelle ausführen. Beim ersten Serienbrief werden die MERGEFIELDs ausgefüllt
-// im Bereich „Städte“, während die Felder im Bereich „Obst“ unbefüllt bleiben.
+// Wir müssen pro Tabelle einen Serienbrief ausführen. Der erste Serienbrief füllt die MERGEFIELDs
+// im Bereich „Städte“, während die Felder im Bereich „Obst“ leer bleiben.
 doc.MailMerge.ExecuteWithRegions(tableCities);
 
-// Führen Sie eine zweite Zusammenführung für die Tabelle „Fruit“ durch und verwenden Sie dabei eine Datenansicht
-// um die Zeilen vor der Zusammenführung in aufsteigender Reihenfolge in der Spalte „Name“ zu sortieren.
+// Führen Sie eine zweite Zusammenführung für die Tabelle „Obst“ aus, während Sie eine Datenansicht verwenden
+// um die Zeilen vor der Zusammenführung in aufsteigender Reihenfolge nach der Spalte „Name“ zu sortieren.
 DataView dv = new DataView(tableFruit);
 dv.Sort = "Name ASC";
 doc.MailMerge.ExecuteWithRegions(dv);
@@ -852,7 +852,7 @@ doc.Save(ArtifactsDir + "MailMerge.ExecuteWithRegionsConcurrent.docx");
 
 ## ExecuteWithRegions(*IDataReader, string*) {#executewithregions_5}
 
-Führt einen Serienbrief durch**IDataReader** in das Dokument mit Seriendruckbereichen.
+Führt Serienbriefe aus von**IDataReader** in das Dokument mit Seriendruckbereichen.
 
 ```csharp
 public void ExecuteWithRegions(IDataReader dataReader, string tableName)
@@ -860,16 +860,16 @@ public void ExecuteWithRegions(IDataReader dataReader, string tableName)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| dataReader | IDataReader | Quelle der Datensätze für den Serienbrief wie z.B**OleDbDataReader** oder**SqlDataReader**. |
-| tableName | String | Name des Seriendruckbereichs im Dokument, der gefüllt werden soll. |
+| dataReader | IDataReader | Quelle der Datensätze für den Serienbrief wie**OleDbDataReader** oder**SqlDataReader**. |
+| tableName | String | Name des Serienbriefbereichs im Dokument, der ausgefüllt werden soll. |
 
 ## Bemerkungen
 
-Du kannst passieren**SqlDataReader** oder**OleDbDataReader**Objekt als Parameter in die Methode this ein, da beide implementiert sind**IDataReader** Schnittstelle.
+Sie können bestehen**SqlDataReader** oder**OleDbDataReader** Objekt in this Methode als Parameter, weil beide implementiert**IDataReader** Schnittstelle.
 
 ## Beispiele
 
-Zeigt, wie in einem Datenbank-BLOB-Feld gespeicherte Bilder in einen Bericht eingefügt werden.
+Zeigt, wie in einem BLOB-Feld einer Datenbank gespeicherte Bilder in einen Bericht eingefügt werden.
 
 ```csharp
 public void ImageFromBlob()
@@ -885,7 +885,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze auf einmal liest.
+        // Öffnen Sie den Datenleser, der sich in einem Modus befinden muss, der alle Datensätze gleichzeitig liest.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -903,7 +903,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Dies wird aufgerufen, wenn ein Serienbrief im Dokument auf ein MERGEFIELD mit einem „Image:“-Tag im Namen trifft.
+    /// Dies wird aufgerufen, wenn ein Serienbrief auf ein MERGEFIELD im Dokument trifft, dessen Name ein „Image:“-Tag enthält.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

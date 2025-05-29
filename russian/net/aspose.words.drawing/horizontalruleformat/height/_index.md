@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words для .NET
-description: HorizontalRuleFormat Height свойство. Получает или задает высоту горизонтальной линейки на С#.
+description: Легко настройте высоту вашего Горизонтального правила. Изучите свойство Height для настраиваемого дизайна в ваших веб-проектах. Улучшите свой макет сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing/horizontalruleformat/height/
 ---
 ## HorizontalRuleFormat.Height property
 
-Получает или задает высоту горизонтальной линейки.
+Возвращает или задает высоту горизонтальной линейки.
 
 ```csharp
 public double Height { get; set; }
@@ -20,7 +20,7 @@ public double Height { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
+| ArgumentOutOfRangeException | Вызывается, когда аргумент выходит за пределы допустимых значений. |
 
 ## Примечания
 
@@ -32,7 +32,7 @@ public double Height { get; set; }
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

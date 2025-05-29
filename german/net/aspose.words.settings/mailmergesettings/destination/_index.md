@@ -3,14 +3,14 @@ title: MailMergeSettings.Destination
 linktitle: Destination
 articleTitle: Destination
 second_title: Aspose.Words für .NET
-description: MailMergeSettings Destination eigendom. Gibt an wie Microsoft Word die Ergebnisse eines Seriendrucks ausgibt. Der Standardwert istDefault  in C#.
+description: Erfahren Sie, wie Sie die Ziel-Eigenschaft von MailMergeSettings in Microsoft Word für maßgeschneiderte Serienbriefausgaben anpassen. Maximieren Sie noch heute Ihre Dokumenteneffizienz!
 type: docs
 weight: 80
 url: /de/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-Gibt an, wie Microsoft Word die Ergebnisse eines Seriendrucks ausgibt. Der Standardwert istDefault .
+Gibt an, wie Microsoft Word die Ergebnisse eines Serienbriefs ausgibt. Der Standardwert istDefault .
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

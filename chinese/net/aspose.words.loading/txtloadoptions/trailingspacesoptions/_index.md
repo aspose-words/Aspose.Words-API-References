@@ -2,10 +2,10 @@
 title: TxtLoadOptions.TrailingSpacesOptions
 linktitle: TrailingSpacesOptions
 articleTitle: TrailingSpacesOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtLoadOptions TrailingSpacesOptions 财产. 获取或设置尾随空格处理的首选选项 默认值为Trim 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TxtLoadOptions 的 TrailingSpacesOptions 属性，轻松管理尾随空格。使用默认的 Trim 选项自定义处理，可获得最佳效果。
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.loading/txtloadoptions/trailingspacesoptions/
 ---
 ## TxtLoadOptions.TrailingSpacesOptions property
@@ -18,7 +18,7 @@ public TxtTrailingSpacesOptions TrailingSpacesOptions { get; set; }
 
 ## 例子
 
-演示如何在加载纯文本文档时修剪空白。
+展示如何在加载纯文本文档时修剪空格。
 
 ```csharp
 string textDoc = "      Line 1 \n" +
@@ -30,18 +30,18 @@ string textDoc = "      Line 1 \n" +
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
 // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Preserve”
-// 保留每行开头的所有空白字符。
+// 保留每行开头的所有空格字符。
 // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.ConvertToIndent”
-// 删除每行开头的所有空白字符，
-// 然后对段落应用左首行缩进以模拟空格的效果。
+// 删除每行开头的所有空格字符，
+// 然后对段落应用左首行缩进来模拟空格的效果。
 // 将“LeadingSpacesOptions”属性设置为“TxtLeadingSpacesOptions.Trim”
-// 删除每行开头的所有空白字符。
+// 从每一行的开头删除所有空格字符。
 loadOptions.LeadingSpacesOptions = txtLeadingSpacesOptions;
 
 // 将“TrailingSpacesOptions”属性设置为“TxtTrailingSpacesOptions.Preserve”
- // 保留每行末尾的所有空白字符。
+ // 保留每行末尾的所有空格字符。
  // 将“TrailingSpacesOptions”属性设置为“TxtTrailingSpacesOptions.Trim”
-// 删除每行末尾的所有空白字符。
+// 删除每行末尾的所有空格字符。
 loadOptions.TrailingSpacesOptions = txtTrailingSpacesOptions;
 
 Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), loadOptions);

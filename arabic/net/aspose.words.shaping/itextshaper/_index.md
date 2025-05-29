@@ -3,9 +3,9 @@ title: ITextShaper Interface
 linktitle: ITextShaper
 articleTitle: ITextShaper
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Shaping.ITextShaper واجهه المستخدم. يوفر طرقًا لتشكيل النص في C#.
+description: اكتشف واجهة Aspose.Words.Shaping.ITextShaper لأساليب تشكيل النصوص المتقدمة. حسّن تنسيق مستنداتك بدقة وسهولة!
 type: docs
-weight: 6050
+weight: 6880
 url: /ar/net/aspose.words.shaping/itextshaper/
 ---
 ## ITextShaper interface
@@ -20,7 +20,7 @@ public interface ITextShaper : IDisposable
 
 | اسم | وصف |
 | --- | --- |
-| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), params FontFeature[]*) | إرجاع[`Cluster`](../cluster/)الكائنات التي تم إنشاؤها من تسلسل أجزاء النص. طول المصفوفة التي تم إرجاعها يساوي طول*runs* . إذا تم التشغيل على فهرس يحتوي على مجموعات مقابلة، فسيتم تسجيل النتائج في نفس الفهرس. |
+| [ShapeText](../../aspose.words.shaping/itextshaper/shapetext/)(*string[], [Direction](../direction/), [UnicodeScript](../unicodescript/), FontFeature[], VariationAxisCoordinate[]*) | إرجاع[`Cluster`](../cluster/)الكائنات التي تم إنشاؤها من تسلسل أجزاء النص. طول المصفوفة المرتجعة يساوي طول*runs* . إذا تم تشغيله عند فهرس يحتوي على مجموعات مقابلة، فإن النتيجة عند نفس الفهرس ستؤدي إلى تسجيلها. |
 
 ### أنظر أيضا
 

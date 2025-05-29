@@ -3,14 +3,14 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words für .NET
-description: Document PackageCustomParts eigendom. Ruft die Sammlung benutzerdefinierter Teile beliebiger Inhalt ab oder legt diese fest die über unbekannte Beziehungen mit dem OOXMLPaket verknüpft sind in C#.
+description: Verwalten Sie benutzerdefinierte Teile mühelos in Ihrem OOXML-Paket. Greifen Sie einfach auf verknüpfte Inhalte zu und ändern Sie diese, um die Flexibilität und Funktionalität Ihres Dokuments zu verbessern.
 type: docs
-weight: 310
+weight: 320
 url: /de/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Ruft die Sammlung benutzerdefinierter Teile (beliebiger Inhalt) ab oder legt diese fest, die über „unbekannte Beziehungen“ mit dem OOXML-Paket verknüpft sind.
+Ruft die Sammlung benutzerdefinierter Teile (beliebiger Inhalt) ab oder legt sie fest, die über „unbekannte Beziehungen“ mit dem OOXML-Paket verknüpft sind.
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -20,11 +20,11 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 Verwechseln Sie diese benutzerdefinierten Teile nicht mit benutzerdefinierten XML-Daten. Wenn Sie auf benutzerdefinierte XML-Teile zugreifen müssen, verwenden Sie die[`CustomXmlParts`](../customxmlparts/) Eigentum.
 
-Diese Sammlung enthält OOXML-Teile, deren übergeordnetes Element das OOXML-Paket ist und deren Ziele in einer „unbekannten Beziehung“ stehen. Weitere Informationen finden Sie unter[`CustomPart`](../../../aspose.words.markup/custompart/).
+Diese Sammlung enthält OOXML-Teile, deren übergeordnetes Element das OOXML-Paket ist und deren Ziele eine „unbekannte Beziehung“ aufweisen. Weitere Informationen finden Sie unter[`CustomPart`](../../../aspose.words.markup/custompart/).
 
 Aspose.Words lädt und speichert benutzerdefinierte Teile nur in OOXML-Dokumenten.
 
-Diese Eigenschaft kann nicht sein`Null`.
+Diese Eigenschaft kann nicht`null`.
 
 ## Beispiele
 
@@ -35,12 +35,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

@@ -3,14 +3,14 @@ title: SaveOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words لـ .NET
-description: SaveOptions ProgressCallback ملكية. يتم الاتصال به أثناء حفظ مستند ويقبل البيانات المتعلقة بتقدم الحفظ في C#.
+description: قم بتعزيز تجربة حفظ المستندات لديك باستخدام خاصية SaveOptions ProgressCallback، التي توفر تحديثات في الوقت الفعلي حول تقدم الحفظ لضمان سير عمل سلس.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.saving/saveoptions/progresscallback/
 ---
 ## SaveOptions.ProgressCallback property
 
-يتم الاتصال به أثناء حفظ مستند ويقبل البيانات المتعلقة بتقدم الحفظ.
+يتم استدعاؤها أثناء حفظ المستند وتقبل البيانات حول تقدم الحفظ.
 
 ```csharp
 public IDocumentSavingCallback ProgressCallback { get; set; }
@@ -18,11 +18,11 @@ public IDocumentSavingCallback ProgressCallback { get; set; }
 
 ## ملاحظات
 
-يتم الإبلاغ عن التقدم عند الحفظ فيDocx ,FlatOpcDocm ,Dotm ,DotxDoc ,DotHtml ,Mhtml ,EpubXamlFlow ، أوXamlFlowPack .
+يتم الإبلاغ عن التقدم عند الحفظ فيDocx ،FlatOpc ، Docm ،Dotm ،Dotx ، Doc ،Dot ، Html ،Mhtml ،Epub ، XamlFlow ، أوXamlFlowPack .
 
 ## أمثلة
 
-يوضح كيفية إدارة مستند أثناء حفظه في html.
+يوضح كيفية إدارة مستند أثناء الحفظ بتنسيق html.
 
 ```csharp
 public void ProgressCallback(SaveFormat saveFormat, string ext)
@@ -41,12 +41,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
+/// استدعاء متابعة الحفظ. إلغاء حفظ المستند بعد مرور "MaxDuration" ثانية.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// نسبة مئوية.
+    /// مركز.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -54,7 +54,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
+    /// طريقة الاتصال الرجعي التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
     /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
@@ -66,7 +66,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
+    /// التاريخ والوقت الذي بدأت فيه عملية حفظ المستند.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -96,12 +96,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
+/// استدعاء متابعة الحفظ. إلغاء حفظ المستند بعد مرور "MaxDuration" ثانية.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// نسبة مئوية.
+    /// مركز.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -109,7 +109,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
+    /// طريقة الاتصال الرجعي التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
     /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
@@ -121,7 +121,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
+    /// التاريخ والوقت الذي بدأت فيه عملية حفظ المستند.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 
@@ -151,12 +151,12 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 }
 
 /// <summary>
-/// رد اتصال حفظ التقدم. قم بإلغاء حفظ مستند بعد ثواني "MaxDuration".
+/// استدعاء متابعة الحفظ. إلغاء حفظ المستند بعد مرور "MaxDuration" ثانية.
 /// </summary>
 public class SavingProgressCallback : IDocumentSavingCallback
 {
     /// <summary>
-    /// نسبة مئوية.
+    /// مركز.
     /// </summary>
     public SavingProgressCallback()
     {
@@ -164,7 +164,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// طريقة رد الاتصال التي يتم استدعاؤها أثناء حفظ المستند.
+    /// طريقة الاتصال الرجعي التي يتم استدعاؤها أثناء حفظ المستند.
     /// </summary>
     /// <param name="args">حفظ الوسائط.</param>
     public void Notify(DocumentSavingArgs args)
@@ -176,7 +176,7 @@ public class SavingProgressCallback : IDocumentSavingCallback
     }
 
     /// <summary>
-    /// التاريخ والوقت الذي يبدأ فيه حفظ المستندات.
+    /// التاريخ والوقت الذي بدأت فيه عملية حفظ المستند.
     /// </summary>
     private readonly DateTime mSavingStartedAt;
 

@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.HeadingPairs
 linktitle: HeadingPairs
 articleTitle: HeadingPairs
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties HeadingPairs fast egendom. Anger dokumentrubriker och deras namn i C#.
+description: Utforska egenskapen HeadingPairs i BuiltInDocumentProperties för att enkelt hantera dokumentrubriker och förbättra din dokumentorganisation.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.properties/builtindocumentproperties/headingpairs/
@@ -20,26 +20,26 @@ public object[] HeadingPairs { get; set; }
 
 Varje rubrikpar upptar två element i denna array.
 
-Det första elementet i paret är aString och anger rubrikens namn. Det andra elementet i paret är enInt32 och specificerar antalet document delar för denna rubrik i[`TitlesOfParts`](../titlesofparts/) fast egendom.
+Det första elementet i paret är enString och anger rubriknamnet. Det andra elementet i paret är ettInt32 och anger antalet document -delar för denna rubrik i[`TitlesOfParts`](../titlesofparts/) egendom.
 
-Den totala summan av antal för alla rubrikpar i den här egenskapen måste vara lika med antalet element i[`TitlesOfParts`](../titlesofparts/) fast egendom.
+Den totala summan av antal för alla rubrikpar i den här egenskapen måste vara lika med antalet element i [`TitlesOfParts`](../titlesofparts/) egendom.
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
 ## Exempel
 
-Visar förhållandet mellan "HeadingPairs" och "TitlesOfParts" egenskaper.
+Visar förhållandet mellan egenskaperna "HeadingPairs" och "TitlesOfParts".
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Vi kan hitta de kombinerade värdena för dessa samlingar via
-// "Fil" -> "Egenskaper" -> "Avancerade egenskaper" -> Fliken "Innehåll".
-// Egenskapen HeadingPairs är en samling av <string, int> parar det
-// bestämmer hur många dokumentdelar en rubrik sträcker sig över.
+// "Arkiv" -> "Egenskaper" -> "Avancerade egenskaper" -> fliken "Innehåll".
+// Egenskapen HeadingPairs är en samling av <string, int> par som
+// avgör hur många dokumentdelar en rubrik sträcker sig över.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// Egenskapen TitlesOfParts innehåller namnen på delar som hör till ovanstående rubriker.
+// Egenskapen TitlesOfParts innehåller namnen på de delar som hör till rubrikerna ovan.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

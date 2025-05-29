@@ -3,14 +3,14 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource واجهه المستخدم. قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص مثل قائمة الكائنات. يتم أيضًا دعم البيانات الرئيسية والتفصيلية في C#.
+description: أطلق العنان لدمج البريد الإلكتروني الفعال مع Aspose.Words.MailMerging.IMailMergeDataSource. اربط مصادر البيانات المخصصة بسهولة لأتمتة مستنداتك بسلاسة.
 type: docs
-weight: 3810
+weight: 4500
 url: /ar/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-قم بتنفيذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص، مثل قائمة الكائنات. يتم أيضًا دعم البيانات الرئيسية والتفصيلية.
+نفّذ هذه الواجهة للسماح بدمج البريد من مصدر بيانات مخصص، مثل قائمة كائنات. كما تدعم البيانات الرئيسية والتفصيلية.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -20,23 +20,23 @@ public interface IMailMergeDataSource
 
 | اسم | وصف |
 | --- | --- |
-| [TableName](../../aspose.words.mailmerging/imailmergedatasource/tablename/) { get; } | إرجاع اسم مصدر البيانات. |
+| [TableName](../../aspose.words.mailmerging/imailmergedatasource/tablename/) { get; } | يعيد اسم مصدر البيانات. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | يقوم محرك دمج المراسلات Aspose.Words باستدعاء هذه الطريقة عندما يواجه بداية منطقة دمج المراسلات المتداخلة. |
-| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | إرجاع قيمة لاسم الحقل المحدد أو`خطأ شنيع` إذا لم يتم العثور على الحقل. |
-| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | التقدم إلى السجل التالي في مصدر البيانات. |
+| [GetChildDataSource](../../aspose.words.mailmerging/imailmergedatasource/getchilddatasource/)(*string*) | يستدعي محرك دمج البريد Aspose.Words هذه الطريقة عندما يواجه بداية منطقة دمج بريد متداخلة. |
+| [GetValue](../../aspose.words.mailmerging/imailmergedatasource/getvalue/)(*string, out object*) | يعيد قيمة لاسم الحقل المحدد أو`خطأ شنيع` إذا لم يتم العثور على الحقل. |
+| [MoveNext](../../aspose.words.mailmerging/imailmergedatasource/movenext/)() | ينتقل إلى السجل التالي في مصدر البيانات. |
 
 ## ملاحظات
 
-عند إنشاء مصدر بيانات، يجب تهيئته للإشارة إلى BOF (قبل السجل الأول). سيقوم محرك دمج البريد Aspose.Words باستدعاء[`MoveNext`](./movenext/) للتقدم إلى السجل التالي و ثم الاستدعاء[`GetValue`](./getvalue/) لكل حقل دمج يواجهه في المستند أو منطقة دمج المراسلات الحالية.
+عند إنشاء مصدر بيانات، يجب تهيئته للإشارة إلى BOF (قبل السجل الأول). سيستدعي محرك دمج البريد Aspose.Words[`MoveNext`](./movenext/) للانتقال إلى السجل التالي and ثم استدعاء[`GetValue`](./getvalue/) لكل حقل دمج يصادفه في المستند أو منطقة دمج البريد الحالية.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع مصدر بيانات في شكل كائن مخصص.
+يوضح كيفية تنفيذ دمج البريد مع مصدر البيانات في شكل كائن مخصص.
 
 ```csharp
 public void CustomDataSource()
@@ -62,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// مثال لفئة "كيان البيانات" في التطبيق الخاص بك.
+/// مثال على فئة "كيان البيانات" في تطبيقك.
 /// </summary>
 public class Customer
 {
@@ -77,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
- /// مصدر بيانات مخصص لدمج البريد تقوم بتنفيذه للسماح بـ Aspose.Words
-/// لدمج بيانات البريد من كائنات العميل الخاصة بك في مستندات Microsoft Word.
+ /// مصدر بيانات دمج البريد المخصص الذي تقوم بتنفيذه للسماح لـ Aspose.Words
+/// لدمج البيانات من كائنات العميل الخاصة بك في مستندات Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع المناطق القابلة للتكرار.
+    /// اسم مصدر البيانات. يُستخدم بواسطة Aspose.Words فقط عند تنفيذ دمج البريد مع مناطق قابلة للتكرار.
     /// </summary>
     public string TableName
     {
@@ -99,7 +99,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// يستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
+    /// تستدعي Aspose.Words هذه الطريقة للحصول على قيمة لكل حقل بيانات.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // قم بإرجاع "خطأ" إلى محرك دمج البريد Aspose.Words للدلالة
+                // قم بإرجاع "false" إلى محرك دمج البريد Aspose.Words للإشارة إلى
                 // لم نتمكن من العثور على حقل بهذا الاسم.
                 fieldValue = null;
                 return false;
@@ -120,7 +120,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// تطبيق قياسي للانتقال إلى السجل التالي في المجموعة.
+    /// تنفيذ قياسي للانتقال إلى السجل التالي في المجموعة.
     /// </summary>
     public bool MoveNext()
     {

@@ -3,14 +3,14 @@ title: ChartDataLabel.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words pour .NET
-description: ChartDataLabel Font propriété. Donne accès au formatage de la police de cette étiquette de données en C#.
+description: Découvrez la propriété Police ChartDataLabel pour personnaliser facilement la mise en forme de la police de votre étiquette de données pour un attrait visuel et une clarté améliorés.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartdatalabel/font/
 ---
 ## ChartDataLabel.Font property
 
-Donne accès au formatage de la police de cette étiquette de données.
+Donne accès au formatage de police de cette étiquette de données.
 
 ```csharp
 public Font Font { get; }
@@ -18,7 +18,7 @@ public Font Font { get; }
 
 ## Exemples
 
-Montre comment utiliser les effets 3D avec des graphiques à bulles.
+Montre comment utiliser les effets 3D avec les graphiques à bulles.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Applique une étiquette de données à chaque bulle qui affiche son diamètre.
+// Appliquez une étiquette de données à chaque bulle qui affiche son diamètre.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

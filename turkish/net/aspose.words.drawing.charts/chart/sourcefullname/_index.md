@@ -2,10 +2,10 @@
 title: Chart.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: Aspose.Words for .NET
-description: Chart SourceFullName mülk. Bu grafiğin bağlı olduğu xls/xlsx dosyasının yolunu ve adını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için bağlantılı XLS/XLSX dosyalarının yoluna ve adına kolayca erişmek üzere Chart SourceFullName özelliğini keşfedin.
 type: docs
-weight: 70
+weight: 100
 url: /tr/net/aspose.words.drawing.charts/chart/sourcefullname/
 ---
 ## Chart.SourceFullName property
@@ -18,7 +18,7 @@ public string SourceFullName { get; set; }
 
 ## Örnekler
 
-Grafik bağlıysa harici xls/xlsx belgesinin tam adının nasıl alınacağını/ayarlanacağını gösterir.
+Grafik bağlantılıysa harici xls/xlsx belgesinin tam adının nasıl alınacağını/ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Shape with linked chart.docx");
@@ -27,9 +27,6 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 var sourceFullName = shape.Chart.SourceFullName;
 Assert.True(sourceFullName.Contains("Examples\\Data\\Spreadsheet.xlsx"));
-
-sourceFullName = "D:\\Documents\\ChartData.xlsx";
-Assert.True(sourceFullName.Equals("D:\\Documents\\ChartData.xlsx", StringComparison.Ordinal));
 ```
 
 ### Ayrıca bakınız

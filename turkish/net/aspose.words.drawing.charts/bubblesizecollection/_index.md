@@ -2,15 +2,15 @@
 title: BubbleSizeCollection Class
 linktitle: BubbleSizeCollection
 articleTitle: BubbleSizeCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.BubbleSizeCollection sınıf. Bir grafik serisi için kabarcık boyutları koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik serilerindeki kabarcık boyutlarını etkili bir şekilde yönetmek için başvuracağınız çözüm olan Aspose.Words.Drawing.Charts.BubbleSizeCollection sınıfını keşfedin.
 type: docs
-weight: 610
+weight: 870
 url: /tr/net/aspose.words.drawing.charts/bubblesizecollection/
 ---
 ## BubbleSizeCollection class
 
-Bir grafik serisi için kabarcık boyutları koleksiyonunu temsil eder.
+Bir grafik serisi için bir dizi kabarcık boyutunu temsil eder.
 
 ```csharp
 public class BubbleSizeCollection : IEnumerable<double>
@@ -21,19 +21,20 @@ public class BubbleSizeCollection : IEnumerable<double>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/bubblesizecollection/count/) { get; } | Bu koleksiyondaki öğelerin sayısını alır. |
+| [FormatCode](../../aspose.words.drawing.charts/bubblesizecollection/formatcode/) { get; set; } | Kabarcık boyutlarına uygulanan biçim kodunu alır veya ayarlar. |
 | [Item](../../aspose.words.drawing.charts/bubblesizecollection/item/) { get; set; } | Belirtilen dizindeki kabarcık boyutu değerini alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.drawing.charts/bubblesizecollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Notlar
 
-Koleksiyon yalnızca kabarcık boyutlarının değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya eklemek için ya da kaldırma değerleri için uygun yöntemler[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
+Koleksiyon yalnızca kabarcık boyutlarını değiştirmeye izin verir. Bir grafik serisine yeni değerler eklemek veya eklemek veya remove değerleri için, uygun yöntemler[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
-Boş kabarcık boyutu değerleri şu şekilde temsil edilir:NaN.
+Boş balon boyutu değerleri şu şekilde gösterilir:NaN.
 
 ### Ayrıca bakınız
 

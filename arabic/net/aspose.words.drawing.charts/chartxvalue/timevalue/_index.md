@@ -3,14 +3,14 @@ title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words لـ .NET
-description: ChartXValue TimeValue ملكية. الحصول على قيمة الوقت المخزنة في C#.
+description: اكتشف خاصية ChartXValue TimeValue للوصول بسهولة إلى قيم الوقت المخزنة لديك وإدارتها لتحسين تصور البيانات.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/timevalue/
 ---
 ## ChartXValue.TimeValue property
 
-الحصول على قيمة الوقت المخزنة.
+يحصل على قيمة الوقت المخزنة.
 
 ```csharp
 public TimeSpan TimeValue { get; }

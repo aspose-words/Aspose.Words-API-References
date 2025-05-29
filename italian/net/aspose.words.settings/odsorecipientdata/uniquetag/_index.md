@@ -3,14 +3,14 @@ title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
 second_title: Aspose.Words per .NET
-description: OdsoRecipientData UniqueTag proprietà. Specifica il contenuto di un determinato record nella colonna contenente dati univoci. Il valore predefinito ènullo  in C#.
+description: Scopri la proprietà OdsoRecipientData UniqueTag, che definisce i contenuti univoci dei record. Ottimizza la gestione dei tuoi dati con questa funzionalità essenziale.
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsorecipientdata/uniquetag/
 ---
 ## OdsoRecipientData.UniqueTag property
 
-Specifica il contenuto di un determinato record nella colonna contenente dati univoci. Il valore predefinito è`nullo` .
+Specifica il contenuto di un dato record nella colonna contenente dati univoci. Il valore predefinito è`null` .
 
 ```csharp
 public byte[] UniqueTag { get; set; }
@@ -18,7 +18,7 @@ public byte[] UniqueTag { get; set; }
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

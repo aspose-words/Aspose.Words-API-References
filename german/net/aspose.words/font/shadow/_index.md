@@ -3,14 +3,14 @@ title: Font.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words für .NET
-description: Font Shadow eigendom. True wenn die Schriftart als schattiert formatiert ist in C#.
+description: Entdecken Sie die Font Shadow-Eigenschaft und verbessern Sie Ihren Text mit stilvollen Schatteneffekten für eine beeindruckende visuelle Wirkung Ihrer Designs.
 type: docs
-weight: 330
+weight: 340
 url: /de/net/aspose.words/font/shadow/
 ---
 ## Font.Shadow property
 
-True, wenn die Schriftart als schattiert formatiert ist.
+Wahr, wenn die Schriftart als schattiert formatiert ist.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,14 +18,14 @@ public bool Shadow { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen mit einem Schatten formatierten Textlauf erstellt.
+Zeigt, wie ein mit Schatten formatierter Textlauf erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Setzen Sie das Shadow-Flag, um einen versetzten Schatteneffekt anzuwenden.
-// es so aussehen lassen, als würden die Buchstaben über der Seite schweben.
+// Setzen Sie das Schatten-Flag, um einen versetzten Schatteneffekt anzuwenden.
+// sodass es so aussieht, als würden die Buchstaben über der Seite schweben.
 builder.Font.Shadow = true;
 builder.Font.Size = 36;
 

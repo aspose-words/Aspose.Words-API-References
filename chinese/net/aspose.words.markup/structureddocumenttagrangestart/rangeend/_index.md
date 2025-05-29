@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart RangeEnd 财产. 指定范围结束如果StructuredDocumentTag是一个范围结构化文档标签 否则返回无效的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTagRangeStart 和 RangeEnd 属性来定义文档标签边界，增强结构化文档管理。
 type: docs
 weight: 130
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
@@ -18,7 +18,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ## 例子
 
-演示如何获取多节结构化文档标签的属性。
+展示如何获取多节结构化文档标签的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

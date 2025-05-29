@@ -2,15 +2,15 @@
 title: LayoutCollector
 linktitle: LayoutCollector
 articleTitle: LayoutCollector
-second_title: 用于 .NET 的 Aspose.Words
-description: LayoutCollector 构造函数. 初始化此类的实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 LayoutCollector 构造函数，实现无缝实例初始化。使用这个强大的工具提升您的开发效率！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/layoutcollector/layoutcollector/
 ---
 ## LayoutCollector constructor
 
-初始化此类的实例。
+初始化此类的一个实例。
 
 ```csharp
 public LayoutCollector(Document doc)
@@ -22,13 +22,13 @@ public LayoutCollector(Document doc)
 
 ## 例子
 
-演示如何查看节点跨越的页面范围。
+显示如何查看节点跨越的页面范围。
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// 调用“GetNumPagesSpanned”方法来计算文档内容跨越了多少页。
+// 调用“GetNumPagesSpanned”方法来计算我们的文档内容跨越了多少页。
 // 由于文档为空，因此页数当前为零。
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
@@ -52,7 +52,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// 我们可以看到任意节点的起始页和结束页的数量以及它们的总页跨度。
+// 我们可以看到任何节点的起始页和结束页的编号以及它们的总页面跨度。
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -62,12 +62,12 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// 我们可以使用 LayoutEnumerator 迭代布局实体。
+// 我们可以使用 LayoutEnumerator 遍历布局实体。
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumerator 可以像树一样遍历布局实体的集合。
+// LayoutEnumerator 可以像树一样遍历布局实体集合。
 // 我们还可以将其应用于任何节点对应的布局实体。
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 

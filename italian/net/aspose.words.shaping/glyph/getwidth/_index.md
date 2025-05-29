@@ -3,7 +3,7 @@ title: Glyph.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
 second_title: Aspose.Words per .NET
-description: Glyph GetWidth metodo. Restituisce la larghezza avanzamento del glifo in punti in C#.
+description: Scopri il metodo Glyph GetWidth per recuperare in modo efficiente la larghezza del glifo in punti, migliorando la tipografia e la precisione del design.
 type: docs
 weight: 70
 url: /it/net/aspose.words.shaping/glyph/getwidth/

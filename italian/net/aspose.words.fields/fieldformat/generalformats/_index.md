@@ -3,14 +3,14 @@ title: FieldFormat.GeneralFormats
 linktitle: GeneralFormats
 articleTitle: GeneralFormats
 second_title: Aspose.Words per .NET
-description: FieldFormat GeneralFormats proprietà. Ottiene una raccolta di formati generali applicati a un risultato numerico di testo o di qualsiasi campo. Corrisponde alle opzioni  in C#.
+description: Scopri la proprietà FieldFormat GeneralFormats, che offre una versatile raccolta di formati di testo numerici per migliorare la presentazione dei dati e i risultati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/fieldformat/generalformats/
 ---
 ## FieldFormat.GeneralFormats property
 
-Ottiene una raccolta di formati generali applicati a un risultato numerico, di testo o di qualsiasi campo. Corrisponde alle opzioni \*.
+Ottiene una raccolta di formati generali applicati a un risultato numerico, di testo o di qualsiasi campo. Corrisponde agli switch \*.
 
 ```csharp
 public GeneralFormatCollection GeneralFormats { get; }
@@ -24,7 +24,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

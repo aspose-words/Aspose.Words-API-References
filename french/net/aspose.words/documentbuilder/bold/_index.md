@@ -3,14 +3,14 @@ title: DocumentBuilder.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder Bold propriété. True si la police est formatée en gras en C#.
+description: Découvrez la propriété Gras de DocumentBuilder. Mettez facilement vos polices en gras pour améliorer la visibilité et l'impact du texte dans vos documents. Optimisez votre design dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/documentbuilder/bold/
 ---
 ## DocumentBuilder.Bold property
 
-True si la police est formatée en gras.
+Vrai si la police est formatée en gras.
 
 ```csharp
 public bool Bold { get; set; }
@@ -24,7 +24,7 @@ Montre comment remplir les MERGEFIELD avec des données avec un générateur de 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère des MERGEFIELDS, qui acceptent les données des colonnes du même nom dans une source de données lors d'un publipostage,
+// Insérer des MERGEFIELDS, qui acceptent les données des colonnes du même nom dans une source de données lors d'un publipostage,
 // puis remplissez-les manuellement.
 builder.InsertField(" MERGEFIELD Chairman ");
 builder.InsertField(" MERGEFIELD ChiefFinancialOfficer ");

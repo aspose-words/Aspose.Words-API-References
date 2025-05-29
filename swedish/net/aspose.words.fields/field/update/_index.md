@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words för .NET
-description: Field Update metod. Utför fältuppdateringen. Kastar om fältet redan uppdateras i C#.
+description: Uppdatera fält effektivt med vår metod för fältuppdatering. Förhindrar konflikter genom att säkerställa att fält inte redan används. Effektivisera din datahantering idag!
 type: docs
 weight: 140
 url: /sv/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Utför fältuppdateringen. Kastar om fältet redan uppdateras.
+Utför fältuppdateringen. Körs om fältet redan uppdateras.
 
 ```csharp
 public void Update()
@@ -24,8 +24,8 @@ Visar hur man infogar ett fält i ett dokument med hjälp av FieldType.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga två fält samtidigt som du skickar en flagga som avgör om de ska uppdateras när byggaren infogar dem.
-// I vissa fall kan det vara beräkningsdyrt att uppdatera fält och det kan vara en bra idé att skjuta upp uppdateringen.
+// Infoga två fält samtidigt som en flagga skickas som avgör om de ska uppdateras när byggaren infogar dem.
+// I vissa fall kan det vara beräkningsmässigt dyrt att uppdatera fält, och det kan vara en bra idé att skjuta upp uppdateringen.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Vi kommer att behöva uppdatera dessa fält med uppdateringsmetoderna manuellt.
+    // Vi måste uppdatera dessa fält manuellt med hjälp av uppdateringsmetoderna.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -64,14 +64,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -80,7 +80,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Utför en fältuppdatering. Kastar om fältet redan uppdateras.
+Utför en fältuppdatering. Körs om fältet redan uppdateras.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,11 +135,11 @@ public void Update(bool ignoreMergeFormat)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Om`Sann` då överges direkt fältresultatformatering, oavsett MERGEFORMAT-växeln, annars utförs normal uppdatering. |
+| ignoreMergeFormat | Boolean | Om`sann` då överges direktformatering av fältresultat, oavsett MERGEFORMAT-växeln, annars utförs normal uppdatering. |
 
 ## Exempel
 
-Visar hur man bevarar eller kasserar INCLUDEPICTURE-fält när ett dokument laddas.
+Visar hur man bevarar eller tar bort INCLUDEPICTURE-fält när man läser in ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -153,8 +153,8 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Vi kan sätta en flagga i ett LoadOptions-objekt för att bestämma om alla INCLUDEPICTURE-fält ska konverteras
-    // till bildformer när du laddar ett dokument som innehåller dem.
+    // Vi kan sätta en flagga i ett LoadOptions-objekt för att avgöra om alla INCLUDEPICTURE-fält ska konverteras
+    // in i bildformer när ett dokument som innehåller dem laddas.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

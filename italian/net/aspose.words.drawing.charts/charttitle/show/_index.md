@@ -3,14 +3,14 @@ title: ChartTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words per .NET
-description: ChartTitle Show proprietà. Determina se il titolo deve essere mostrato per questo grafico. Il valore predefinito èVERO  in C#.
+description: Migliora i tuoi grafici con titoli personalizzabili. Controlla facilmente la visibilità: l'impostazione predefinita è "vero". Migliora la presentazione dei tuoi dati oggi stesso!
 type: docs
-weight: 20
+weight: 40
 url: /it/net/aspose.words.drawing.charts/charttitle/show/
 ---
 ## ChartTitle.Show property
 
-Determina se il titolo deve essere mostrato per questo grafico. Il valore predefinito è`VERO` .
+Determina se il titolo deve essere visualizzato per questo grafico. Il valore predefinito è`VERO` .
 
 ```csharp
 public bool Show { get; set; }
@@ -24,18 +24,20 @@ Mostra come inserire un grafico e impostare un titolo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una forma di grafico con un generatore di documenti e ottieni il suo grafico.
+// Inserisci una forma di grafico con un generatore di documenti e ottieni il relativo grafico.
 Shape chartShape = builder.InsertChart(ChartType.Bar, 400, 300);
 Chart chart = chartShape.Chart;
 
-// Utilizza la proprietà "Titolo" per assegnare un titolo al nostro grafico, che appare in alto al centro dell'area del grafico.
+// Utilizziamo la proprietà "Titolo" per assegnare un titolo al nostro grafico, che verrà visualizzato al centro, in alto, dell'area del grafico.
 ChartTitle title = chart.Title;
 title.Text = "My Chart";
+title.Font.Size = 15;
+title.Font.Color = Color.Blue;
 
- // Imposta la proprietà "Mostra" su "true" per rendere visibile il titolo.
+ // Imposta la proprietà "Show" su "true" per rendere visibile il titolo.
 title.Show = true;
 
-// Imposta la proprietà "Overlay" su "true" Concede più spazio agli altri elementi del grafico consentendo loro di sovrapporsi al titolo
+// Imposta la proprietà "Sovrapposizione" su "vero" Dai più spazio agli altri elementi del grafico consentendo loro di sovrapporsi al titolo
 title.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartTitle.docx");

@@ -3,14 +3,14 @@ title: CellFormat.VerticalMerge
 linktitle: VerticalMerge
 articleTitle: VerticalMerge
 second_title: Aspose.Words per .NET
-description: CellFormat VerticalMerge proprietà. Specifica come la cella viene unita verticalmente con le altre celle in C#.
+description: Scopri la proprietà CellFormat VerticalMerge per unire le celle verticali in modo fluido nei fogli di calcolo. Migliora l'organizzazione e la presentazione dei dati senza sforzo!
 type: docs
-weight: 120
+weight: 130
 url: /it/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
 
-Specifica come la cella viene unita verticalmente con le altre celle.
+Specifica come la cella viene unita verticalmente con altre celle.
 
 ```csharp
 public CellMerge VerticalMerge { get; set; }
@@ -18,7 +18,7 @@ public CellMerge VerticalMerge { get; set; }
 
 ## Osservazioni
 
-Le celle possono essere unite verticalmente solo se i loro confini sinistro e destro sono identici.
+Le celle possono essere unite verticalmente solo se i loro limiti sinistro e destro sono identici.
 
 Quando le celle vengono unite verticalmente, le aree di visualizzazione delle celle unite vengono consolidate. L'area consolidata viene utilizzata per visualizzare il contenuto della prima cella unita verticalmente e tutte le altre celle unite verticalmente devono essere vuote.
 
@@ -32,8 +32,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 
@@ -53,31 +53,31 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Mostra come unire verticalmente le celle della tabella.
+Mostra come unire verticalmente le celle di una tabella.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci una cella nella prima colonna della prima riga.
+// Inserisce una cella nella prima colonna della prima riga.
 // Questa cella sarà la prima di un intervallo di celle unite verticalmente.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Inserisci una cella nella seconda colonna della prima riga, quindi termina la riga.
-// Inoltre, configura il builder per disabilitare l'unione verticale nelle celle create.
+// Inserisce una cella nella seconda colonna della prima riga, quindi termina la riga.
+// Inoltre, configurare il builder per disabilitare l'unione verticale nelle celle create.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
- // Inserisci una cella nella prima colonna della seconda riga.
-// Invece di aggiungere contenuti di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
+ // Inserisce una cella nella prima colonna della seconda riga.
+// Invece di aggiungere contenuto di testo, uniremo questa cella con la prima cella che abbiamo aggiunto direttamente sopra.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Inserisci un'altra cella indipendente nella seconda colonna della seconda riga.
+// Inserisce un'altra cella indipendente nella seconda colonna della seconda riga.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

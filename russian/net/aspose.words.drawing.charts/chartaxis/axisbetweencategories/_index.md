@@ -3,14 +3,14 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words для .NET
-description: ChartAxis AxisBetweenCategories свойство. Получает или задает флаг указывающий пересекает ли ось значений ось категорий между категориями на С#.
+description: Откройте для себя свойство ChartAxis AxisBetweenCategories — управляйте позиционированием оси значений для улучшенной визуализации категорий в ваших диаграммах. Оптимизируйте представление данных!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
 ## ChartAxis.AxisBetweenCategories property
 
-Получает или задает флаг, указывающий, пересекает ли ось значений ось категорий между категориями.
+Возвращает или задает флаг, указывающий, пересекает ли ось значений ось категорий между категориями.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
@@ -18,11 +18,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ## Примечания
 
-Свойство действует только для осей значений. Он не поддерживается новыми диаграммами MS Office 2016.
+Свойство действует только для осей значений. Оно не поддерживается новыми диаграммами MS Office 2016.
 
 ## Примеры
 
-Показывает, как заставить ось графика пересекаться в произвольном месте.
+Показывает, как сделать так, чтобы ось графика пересекалась в заданном месте.
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Для столбчатых диаграмм ось Y по умолчанию пересекает нулевую точку,
-// это означает, что столбцы для всех значений ниже нуля указывают вниз, обозначая отрицательные значения.
-// Мы можем установить другое значение для пересечения оси Y. В данном случае мы установим значение 3.
+// Для столбчатых диаграмм ось Y по умолчанию пересекается в нуле,
+// что означает, что столбцы для всех значений ниже нуля направлены вниз, представляя отрицательные значения.
+// Мы можем задать другое значение для пересечения оси Y. В этом случае мы установим его на 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

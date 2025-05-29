@@ -3,14 +3,14 @@ title: FontInfo.Panose
 linktitle: Panose
 articleTitle: Panose
 second_title: Aspose.Words для .NET
-description: FontInfo Panose свойство. Получает или задает классификационный номер шрифта PANOSE на С#.
+description: Откройте для себя свойство FontInfo PANOSE, легко получите или задайте номер классификации шрифта для улучшенного управления шрифтами и точности дизайна.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/aspose.words.fonts/fontinfo/panose/
 ---
 ## FontInfo.Panose property
 
-Получает или задает классификационный номер шрифта PANOSE.
+Возвращает или задает номер классификации шрифта PANOSE.
 
 ```csharp
 public byte[] Panose { get; set; }
@@ -18,13 +18,13 @@ public byte[] Panose { get; set; }
 
 ## Примечания
 
-PANOSE — это компактное 10-байтовое описание важнейших визуальных характеристик шрифта , таких как контрастность, вес и стиль засечек. Цифры обозначают семейный вид, стиль с засечками, толщину , пропорции, контраст, вариант штриха, стиль руки, форму буквы, среднюю линию и высоту X.
+PANOSE — это компактное 10-байтовое описание критических визуальных характеристик шрифтов, таких как контрастность, насыщенность и стиль засечек. Цифры представляют Family Kind, Serif Style, Насыщенность, Пропорции, Контрастность, Вариацию штриха, Стиль руки, Форма буквы, Средняя линия и X-Высота.
 
-Возможно`нулевой`.
+Может быть`нулевой`.
 
 ## Примеры
 
-Показывает, как получить доступ и распечатать сведения о каждом шрифте в документе.
+Показывает, как получить доступ к сведениям о каждом шрифте в документе и распечатать их.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -37,7 +37,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Альтернативные имена обычно пусты.
+        // Альтернативные имена обычно пустые.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

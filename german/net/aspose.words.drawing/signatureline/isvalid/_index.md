@@ -3,14 +3,14 @@ title: SignatureLine.IsValid
 linktitle: IsValid
 articleTitle: IsValid
 second_title: Aspose.Words für .NET
-description: SignatureLine IsValid eigendom. Zeigt an dass die Signaturzeile mit einer digitalen Signatur signiert ist und diese digitale Signatur gültig ist in C#.
+description: Sorgen Sie mit der IsValid-Eigenschaft von SignatureLine für die Sicherheit Ihrer Dokumente und bestätigen Sie gültige digitale Signaturen auf Authentizität und Vertrauenswürdigkeit.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing/signatureline/isvalid/
 ---
 ## SignatureLine.IsValid property
 
-Zeigt an, dass die Signaturzeile mit einer digitalen Signatur signiert ist und diese digitale Signatur gültig ist.
+Gibt an, dass die Signaturzeile mit einer digitalen Signatur versehen ist und diese digitale Signatur gültig ist.
 
 ```csharp
 public bool IsValid { get; }

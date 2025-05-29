@@ -2,15 +2,15 @@
 title: TabStopCollection.RemoveByIndex
 linktitle: RemoveByIndex
 articleTitle: RemoveByIndex
-second_title: Aspose.Words for .NET
-description: TabStopCollection RemoveByIndex yöntem. Koleksiyondan belirtilen dizindeki sekme durağını kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: RemoveByIndex yöntemiyle sekme duraklarınızı zahmetsizce yönetin. Sorunsuz bir tasarım için koleksiyonunuzdan herhangi bir sekme durağını hızla kaldırın.
 type: docs
 weight: 110
 url: /tr/net/aspose.words/tabstopcollection/removebyindex/
 ---
 ## TabStopCollection.RemoveByIndex method
 
-Koleksiyondan belirtilen dizindeki sekme durağını kaldırır.
+Koleksiyondan belirtilen dizindeki bir sekme durağını kaldırır.
 
 ```csharp
 public void RemoveByIndex(int index)
@@ -18,7 +18,7 @@ public void RemoveByIndex(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sekme duraklarının koleksiyonuna ilişkin bir dizin. |
+| index | Int32 | Sekme duraklarının koleksiyonuna ait bir dizin. |
 
 ## Örnekler
 
@@ -33,7 +33,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Das
 
 Assert.AreEqual(2, tabStops.Count);
 
-// İlk sekme durağını kaldırın.
+// İlk sekme durağını kaldır.
 tabStops.RemoveByIndex(0);
 
 Assert.AreEqual(1, tabStops.Count);

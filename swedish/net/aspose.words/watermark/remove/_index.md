@@ -3,7 +3,7 @@ title: Watermark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: Watermark Remove metod. Tar bort vattenstämpeln i C#.
+description: Ta enkelt bort vattenstämplar med vår effektiva metod. Återställ dina bilder till sin ursprungliga skönhet och förbättra dina kreativa projekt idag!
 type: docs
 weight: 20
 url: /sv/net/aspose.words/watermark/remove/
@@ -23,11 +23,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

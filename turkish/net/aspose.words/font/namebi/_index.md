@@ -2,15 +2,15 @@
 title: Font.NameBi
 linktitle: NameBi
 articleTitle: NameBi
-second_title: Aspose.Words for .NET
-description: Font NameBi mülk. Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sağdan sola dil belgeleri için yazı tipi adlarını nasıl kolayca ayarlayıp özelleştireceğinizi keşfedin, okunabilirliği ve tasarımı geliştirin. Metninizi bugün optimize edin!
 type: docs
 weight: 250
 url: /tr/net/aspose.words/font/namebi/
 ---
 ## Font.NameBi property
 
-Sağdan sola yazılan bir dil belgesindeki yazı tipinin adını döndürür veya ayarlar.
+Sağdan sola dil belgesindeki yazı tipinin adını döndürür veya ayarlar.
 
 ```csharp
 public string NameBi { get; set; }
@@ -18,7 +18,7 @@ public string NameBi { get; set; }
 
 ## Örnekler
 
-Sağdan sola ve sağdan sola metin için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
+Sağdan sola ve sağdan sola metinler için ayrı yazı tipi ayarları kümelerinin nasıl tanımlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -38,14 +38,14 @@ builder.Font.ItalicBi = true;
 builder.Font.BoldBi = true;
 builder.Font.LocaleIdBi = new CultureInfo("ar-AR", false).LCID;
 
-// Eklemek üzere olduğumuz metnin olup olmadığını belirtmek için Bidi bayrağını kullanabiliriz.
-// belge oluşturucu ile sağdan soladır. Bu bayrak true olarak ayarlanmış şekilde metin eklediğimizde,
-// sağdan sola yazı tipi ayarları kullanılarak biçimlendirilecektir.
+// Eklemek üzere olduğumuz metnin Bidi bayrağını kullanarak gösterilip gösterilmeyeceğini belirtebiliriz.
+// belge oluşturucu sağdan soladır. Bu bayrak true olarak ayarlandığında metin eklediğimizde,
+// sağdan sola doğru olan yazı tipi ayarları kullanılarak biçimlendirilecektir.
 builder.Font.Bidi = true;
 builder.Write("مرحبًا");
 
-// Bayrağı false olarak ayarlayın ve ardından soldan sağa metni ekleyin.
-// Belge oluşturucu bunları soldan sağa yazı tipi ayarlarını kullanarak biçimlendirecektir.
+// Bayrağı false olarak ayarlayın ve ardından soldan sağa metin ekleyin.
+// Belge oluşturucu bunları soldan sağa doğru olan yazı tipi ayarlarını kullanarak biçimlendirecektir.
 builder.Font.Bidi = false;
 builder.Write(" Hello world!");
 

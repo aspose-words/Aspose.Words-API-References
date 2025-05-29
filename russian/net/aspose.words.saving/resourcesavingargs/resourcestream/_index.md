@@ -3,14 +3,14 @@ title: ResourceSavingArgs.ResourceStream
 linktitle: ResourceStream
 articleTitle: ResourceStream
 second_title: Aspose.Words для .NET
-description: ResourceSavingArgs ResourceStream свойство. Позволяет указать поток в котором будет сохранен ресурс на С#.
+description: Откройте для себя свойство ResourceSavingArgs ResourceStream, чтобы легко определить, где сохраняются ваши ресурсы, повышая эффективность и контроль в ваших проектах.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.saving/resourcesavingargs/resourcestream/
 ---
 ## ResourceSavingArgs.ResourceStream property
 
-Позволяет указать поток, в котором будет сохранен ресурс.
+Позволяет указать поток, в который будет сохранен ресурс.
 
 ```csharp
 public Stream ResourceStream { get; set; }
@@ -22,7 +22,7 @@ public Stream ResourceStream { get; set; }
 
 Значение по умолчанию:`нулевой` . Когда это свойство`нулевой` , ресурс будет сохранен в файле, указанном в[`ResourceFileName`](../resourcefilename/) свойство.
 
-С использованием[`IResourceSavingCallback`](../../iresourcesavingcallback/) вы не можете заменить один ресурс другим. Он предназначен только для контроля над местом, где сохранять ресурсы.
+С использованием[`IResourceSavingCallback`](../../iresourcesavingcallback/) нельзя заменить один ресурс на другой. Он предназначен только для контроля места, где сохранять ресурсы.
 
 ## Примеры
 
@@ -60,13 +60,13 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает URI ресурсов, содержащихся в них, при их преобразовании в фиксированный HTML.
+/// Подсчитывает и выводит URI ресурсов, содержащихся в, по мере их преобразования в фиксированный HTML.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {
     void IResourceSavingCallback.ResourceSaving(ResourceSavingArgs args)
     {
-        // Если мы установим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
+        // Если мы зададим псевдоним папки в объекте SaveOptions, мы сможем распечатать его отсюда.
         mText.AppendLine($"Resource #{++mSavedResourceCount} \"{args.ResourceFileName}\"");
 
         string extension = Path.GetExtension(args.ResourceFileName);
@@ -75,7 +75,7 @@ private class ResourceUriPrinter : IResourceSavingCallback
             case ".ttf":
             case ".woff":
             {
-                // По умолчанию ResourceFileUri использует системную папку для шрифтов.
+                // По умолчанию «ResourceFileUri» использует системную папку для шрифтов.
                 // Чтобы избежать проблем на других платформах, необходимо явно указать путь к шрифтам.
                 args.ResourceFileUri = ArtifactsDir + Path.DirectorySeparatorChar + args.ResourceFileName;
                 break;
@@ -84,8 +84,8 @@ private class ResourceUriPrinter : IResourceSavingCallback
 
         mText.AppendLine("\t" + args.ResourceFileUri);
 
-        // Если мы указали папку в свойстве ResourcesFolderAlias,
-        // нам также нужно будет перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
+        // Если мы указали папку в свойстве "ResourcesFolderAlias",
+        // нам также потребуется перенаправить каждый поток, чтобы поместить его ресурс в эту папку.
         args.ResourceStream = new FileStream(args.ResourceFileUri, FileMode.Create);
         args.KeepResourceStreamOpen = false;
     }

@@ -2,8 +2,8 @@
 title: OdsoRecipientData.UniqueTag
 linktitle: UniqueTag
 articleTitle: UniqueTag
-second_title: Aspose.Words for .NET
-description: OdsoRecipientData UniqueTag mülk. Benzersiz verileri içeren sütundaki belirli bir kaydın içeriğini belirtir. Varsayılan değerhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Benzersiz kayıt içeriklerini tanımlayan OdsoRecipientData UniqueTag özelliğini keşfedin. Bu temel özellik ile veri yönetiminizi optimize edin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.settings/odsorecipientdata/uniquetag/
@@ -18,7 +18,7 @@ public byte[] UniqueTag { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

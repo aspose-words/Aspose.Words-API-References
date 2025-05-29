@@ -3,14 +3,14 @@ title: PageSetup.BorderDistanceFrom
 linktitle: BorderDistanceFrom
 articleTitle: BorderDistanceFrom
 second_title: Aspose.Words для .NET
-description: PageSetup BorderDistanceFrom свойство. Получает или задает значение указывающее измеряется ли указанная граница страницы от края страницы или от текста который она окружает на С#.
+description: Откройте для себя свойство PageSetup BorderDistanceFrom для управления измерениями границ страницы для точного форматирования документа. Улучшите свой макет сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words/pagesetup/borderdistancefrom/
 ---
 ## PageSetup.BorderDistanceFrom property
 
-Получает или задает значение, указывающее, измеряется ли указанная граница страницы от края страницы или от текста, который она окружает.
+Возвращает или задает значение, указывающее, измеряется ли указанная граница страницы от края страницы или от текста, который она окружает.
 
 ```csharp
 public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
@@ -18,7 +18,7 @@ public PageBorderDistanceFrom BorderDistanceFrom { get; set; }
 
 ## Примеры
 
-Показывает, как создать широкую синюю рамку в верхней части первой страницы.
+Показывает, как создать широкую синюю полосу в верхней части первой страницы.
 
 ```csharp
 Document doc = new Document();

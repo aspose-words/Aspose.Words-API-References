@@ -3,14 +3,14 @@ title: FontSourceBase.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words för .NET
-description: FontSourceBase Priority fast egendom. Returnerar teckensnittskällans prioritet i C#.
+description: Upptäck egenskapen FontSourceBase Priority för att optimera din typsnittskälla. Förbättra prestandan och förbättra användarupplevelsen utan ansträngning!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-Returnerar teckensnittskällans prioritet.
+Returnerar teckensnittets källprioritet.
 
 ```csharp
 public int Priority { get; }
@@ -18,13 +18,13 @@ public int Priority { get; }
 
 ## Anmärkningar
 
-Detta värde används när det finns typsnitt med samma efternamn och stil i olika teckensnittskällor. I det här fallet väljer Aspose.Words typsnittet från källan med det högre prioritetsvärdet.
+Detta värde används när det finns teckensnitt med samma efternamn och stil i olika teckensnittskällor. I det här fallet väljer Aspose.Words teckensnittet från källan med det högsta prioritetsvärdet.
 
 Standardvärdet är 0.
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

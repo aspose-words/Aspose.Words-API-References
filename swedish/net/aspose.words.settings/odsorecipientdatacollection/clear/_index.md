@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words för .NET
-description: OdsoRecipientDataCollection Clear metod. Tar bort alla element från den här samlingen i C#.
+description: Rensa enkelt alla element från OdsoRecipientDataCollection med vår effektiva metod. Förenkla datahanteringen idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

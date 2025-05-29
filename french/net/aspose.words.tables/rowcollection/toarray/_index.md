@@ -3,14 +3,14 @@ title: RowCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words pour .NET
-description: RowCollection ToArray méthode. Copie toutes les lignes de la collection vers un nouveau tableau de lignes en C#.
+description: Convertissez sans effort votre RowCollection en un nouveau tableau avec la méthode ToArray, garantissant une gestion transparente des données et des performances améliorées.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection.ToArray method
 
-Copie toutes les lignes de la collection vers un nouveau tableau de lignes.
+Copie toutes les lignes de la collection dans un nouveau tableau de lignes.
 
 ```csharp
 public Row[] ToArray()
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // Nous pouvons utiliser la méthode « ToArray » sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // Nous pouvons utiliser la méthode « ToArray » sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

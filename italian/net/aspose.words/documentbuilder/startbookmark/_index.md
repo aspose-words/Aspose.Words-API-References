@@ -3,14 +3,14 @@ title: DocumentBuilder.StartBookmark
 linktitle: StartBookmark
 articleTitle: StartBookmark
 second_title: Aspose.Words per .NET
-description: DocumentBuilder StartBookmark metodo. Contrassegna la posizione corrente nel documento come inizio segnalibro in C#.
+description: Utilizza il metodo StartBookmark di DocumentBuilder per contrassegnare e gestire senza sforzo le posizioni chiave nel tuo documento, migliorando l'organizzazione e la navigazione.
 type: docs
-weight: 610
+weight: 650
 url: /it/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
 
-Contrassegna la posizione corrente nel documento come inizio segnalibro.
+Contrassegna la posizione corrente nel documento come inizio del segnalibro.
 
 ```csharp
 public BookmarkStart StartBookmark(string bookmarkName)
@@ -22,13 +22,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 ### Valore di ritorno
 
-Il nodo iniziale del segnalibro appena creato.
+Il nodo di avvio del segnalibro appena creato.
 
 ## Osservazioni
 
-I segnalibri in un documento possono sovrapporsi e estendersi su qualsiasi intervallo. Per creare un segnalibro valido devi chiamarli entrambi`StartBookmark` E[`EndBookmark`](../endbookmark/) con lo stesso*bookmarkName* parametro .
+I segnalibri in un documento possono sovrapporsi e coprire qualsiasi intervallo. Per creare un segnalibro valido è necessario chiamare entrambi`StartBookmark` E[`EndBookmark`](../endbookmark/) con lo stesso*bookmarkName* Parametro .
 
-I segnalibri formati in modo errato o i segnalibri con nomi duplicati verranno ignorati quando il documento viene salvato.
+I segnalibri mal formattati o con nomi duplicati verranno ignorati quando il documento verrà salvato.
 
 ## Esempi
 
@@ -38,8 +38,8 @@ Mostra come creare un segnalibro.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Un segnalibro valido deve avere il testo del corpo del documento racchiuso da
-// Nodi BookmarkStart e BookmarkEnd creati con un nome di segnalibro corrispondente.
+// Un segnalibro valido deve avere il testo del corpo del documento racchiuso tra
+// I nodi BookmarkStart e BookmarkEnd vengono creati con un nome di segnalibro corrispondente.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Inserisci un campo HYPERLINK che si collega al segnalibro. Possiamo passare gli scambi di campo
-// al metodo "InsertHyperlink" come parte dell'argomento contenente il nome del segnalibro di riferimento.
+// Inserisci un campo HYPERLINK che si collega al segnalibro. Possiamo passare degli switch di campo
+// al metodo "InsertHyperlink" come parte dell'argomento contenente il nome del segnalibro a cui si fa riferimento.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

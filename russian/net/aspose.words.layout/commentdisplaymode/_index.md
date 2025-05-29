@@ -3,14 +3,14 @@ title: CommentDisplayMode Enum
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Layout.CommentDisplayMode перечисление. Определяет режим рендеринга комментариев к документу на С#.
+description: Откройте для себя перечисление Aspose.Words.Layout.CommentDisplayMode для оптимизированного отображения комментариев к документам. Улучшите ясность и презентацию вашего документа сегодня!
 type: docs
-weight: 3290
+weight: 3740
 url: /ru/net/aspose.words.layout/commentdisplaymode/
 ---
 ## CommentDisplayMode enumeration
 
-Определяет режим рендеринга комментариев к документу.
+Указывает режим отображения комментариев к документу.
 
 ```csharp
 public enum CommentDisplayMode
@@ -21,8 +21,8 @@ public enum CommentDisplayMode
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Hide | `0` | Комментарии к документу не отображаются. |
-| ShowInBalloons | `1` | Отображает комментарии к документу в виде выносок на полях. Это значение по умолчанию. |
-| ShowInAnnotations | `2` | Отображает комментарии к документу в аннотациях. Это доступно только для формата PDF. |
+| ShowInBalloons | `1` | Отображает комментарии документа в виде выносок на полях. Это значение по умолчанию. |
+| ShowInAnnotations | `2` | Отображает комментарии к документу в аннотациях. Доступно только для формата PDF. |
 
 ## Примеры
 
@@ -38,13 +38,13 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations доступно только в форматах Pdf1.7 и Pdf1.5.
+// ShowInAnnotations доступен только в форматах Pdf1.7 и Pdf1.5.
 // В других форматах это будет работать аналогично Hide.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");
 
-// Обратите внимание, что необходимо перестроить макет страницы документа (с помощью метода Document.UpdatePageLayout())
+// Обратите внимание, что необходимо перестроить макет страницы документа (через метод Document.UpdatePageLayout())
 // после изменения значений Document.LayoutOptions.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInBalloons;
 doc.UpdatePageLayout();

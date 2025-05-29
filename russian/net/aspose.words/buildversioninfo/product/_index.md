@@ -3,7 +3,7 @@ title: BuildVersionInfo.Product
 linktitle: Product
 articleTitle: Product
 second_title: Aspose.Words для .NET
-description: BuildVersionInfo Product свойство. Получает полное название продукта на С#.
+description: Откройте для себя свойство продукта BuildVersionInfo, чтобы легко получить полное название продукта, повысив производительность вашего приложения и удобство использования.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/buildversioninfo/product/

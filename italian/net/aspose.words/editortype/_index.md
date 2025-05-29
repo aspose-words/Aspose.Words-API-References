@@ -3,9 +3,9 @@ title: EditorType Enum
 linktitle: EditorType
 articleTitle: EditorType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.EditorType enum. Specifica linsieme di possibili alias o gruppi di modifica che possono essere utilizzati come alias per determinare se allutente corrente sarà consentito modificare un singolo intervallo definito da un intervallo modificabile allinterno di un documento in C#.
+description: Scopri l'enum Aspose.Words.EditorType, che definisce i gruppi di modifica per controllare le autorizzazioni utente per la modifica di intervalli di documenti. Migliora la tua gestione dei documenti oggi stesso!
 type: docs
-weight: 1450
+weight: 1860
 url: /it/net/aspose.words/editortype/
 ---
 ## EditorType enumeration
@@ -22,13 +22,13 @@ public enum EditorType
 | --- | --- | --- |
 | Unspecified | `0` | Significa che il tipo di editor non è specificato. |
 | Administrators | `1` | Specifica che agli utenti associati al gruppo Amministratori sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
-| Contributors | `2` | Specifica che agli utenti associati al gruppo Collaboratori sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
+| Contributors | `2` | Specifica che agli utenti associati al gruppo Contributori sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
 | Current | `3` | Specifica che agli utenti associati al gruppo Corrente sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
-| Editors | `4` | Specifica che agli utenti associati al gruppo Editors sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
-| Everyone | `5` | Specifica che a tutti gli utenti che aprono il documento sarà consentito modificare gli intervalli modificabili utilizzando questo tipo editing quando la protezione del documento è abilitata. |
+| Editors | `4` | Specifica che agli utenti associati al gruppo Editor sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando è abilitata la protezione del documento. |
+| Everyone | `5` | Specifica che tutti gli utenti che aprono il documento potranno modificare gli intervalli modificabili utilizzando questo tipo editing quando la protezione del documento è abilitata. |
 | None | `6` | Specifica che a nessuno degli utenti che aprono il documento sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
 | Owners | `7` | Specifica che agli utenti associati al gruppo Proprietari sarà consentito modificare gli intervalli modificabili utilizzando questo tipo di modifica quando la protezione del documento è abilitata. |
-| Default | `0` | Uguale aUnspecified . |
+| Default | `0` | Lo stesso diUnspecified . |
 
 ## Esempi
 
@@ -44,9 +44,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
-    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
-    // 1 - Specifica un utente:
+    // Quando proteggiamo i documenti da scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
+    // Esistono due metodi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
+    // 1 - Specificare un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -54,7 +54,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Raccoglie le proprietà e il contenuto degli intervalli modificabili visitati in una stringa.
+/// Raccoglie le proprietà e i contenuti degli intervalli modificabili visitati in una stringa.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
+    /// Chiamato quando viene rilevato un nodo Esegui nel documento. Questo visitatore registra solo le esecuzioni che rientrano in intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -2,15 +2,15 @@
 title: Shading.BackgroundPatternColor
 linktitle: BackgroundPatternColor
 articleTitle: BackgroundPatternColor
-second_title: Aspose.Words for .NET
-description: Shading BackgroundPatternColor mülk. Arka plana uygulanan rengi alır veya ayarlar.Shading nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın görsel çekiciliğini artırmak için Shading nesnenizin arka plan rengini özelleştirmek üzere Shading BackgroundPatternColor özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/shading/backgroundpatterncolor/
 ---
 ## Shading.BackgroundPatternColor property
 
-Arka plana uygulanan rengi alır veya ayarlar.[`Shading`](../) nesne.
+Arka plana uygulanan rengi alır veya ayarlar[`Shading`](../) nesne.
 
 ```csharp
 public Color BackgroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color BackgroundPatternColor { get; set; }
 
 ## Örnekler
 
-Metnin kenarlıklar ve gölgelendirmeyle nasıl süsleneceğini gösterir.
+Metnin kenarlıklar ve gölgelendirme ile nasıl süsleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

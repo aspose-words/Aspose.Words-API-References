@@ -3,14 +3,14 @@ title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
 second_title: Aspose.Words لـ .NET
-description: Style IsQuickStyle ملكية. يحدد ما إذا كان سيتم عرض هذا النمط في معرض الأنماط السريعة داخل واجهة مستخدم MS Word في C#.
+description: اكتشف كيف تعمل خاصية IsQuickStyle على تعزيز تجربة MS Word الخاصة بك من خلال عرض الأنماط في معرض الأنماط السريعة لسهولة الوصول وتحسين سير العمل.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
 
-يحدد ما إذا كان سيتم عرض هذا النمط في معرض "الأنماط السريعة" داخل واجهة مستخدم MS Word.
+يحدد ما إذا كان سيتم عرض هذا النمط في معرض الأنماط السريعة داخل واجهة مستخدم MS Word.
 
 ```csharp
 public bool IsQuickStyle { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

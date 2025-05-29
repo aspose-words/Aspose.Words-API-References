@@ -3,14 +3,14 @@ title: LayoutEnumerator.Current
 linktitle: Current
 articleTitle: Current
 second_title: Aspose.Words för .NET
-description: LayoutEnumerator Current fast egendom. Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten i C#.
+description: Upptäck LayoutEnumerator Current-egenskapen för att enkelt komma åt och ändra den aktuella positionen i din sidlayoutmodell för ökad designflexibilitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.layout/layoutenumerator/current/
 ---
 ## LayoutEnumerator.Current property
 
-Hämtar eller ställer in aktuell position i sidlayoutmodellen. Denna egenskap returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten.
+Hämtar eller anger aktuell position i sidlayoutmodellen. Den här egenskapen returnerar ett ogenomskinligt objekt som motsvarar den aktuella layoutentiteten.
 
 ```csharp
 public object Current { get; set; }
@@ -18,13 +18,13 @@ public object Current { get; set; }
 
 ## Exempel
 
-Visar hur man kan se sidorna som en nod sträcker sig över.
+Visar hur man ser sidintervallen som en nod sträcker sig över.
 
 ```csharp
 Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
-// Kalla metoden "GetNumPagesSpanned" för att räkna hur många sidor innehållet i vårt dokument sträcker sig.
+// Anropa metoden "GetNumPagesSpanned" för att räkna hur många sidor innehållet i vårt dokument sträcker sig över.
 // Eftersom dokumentet är tomt är antalet sidor för närvarande noll.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Innan layoutsamlaren måste vi anropa metoden "UpdatePageLayout" för att ge oss
-// en korrekt siffra för alla layoutrelaterade mätvärden, till exempel sidantal.
+// Innan layoutinsamlaren anropar vi metoden "UpdatePageLayout" för att ge oss
+// en korrekt siffra för alla layoutrelaterade mätvärden, såsom sidantal.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Vi kan se numren på start- och slutsidorna för alla noder och deras övergripande sidspann.
+// Vi kan se numren på start- och slutsidorna för valfri nod och deras totala sidlängd.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -58,13 +58,13 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Vi kan iterera över layoutentiteterna med hjälp av en LayoutEnumerator.
+// Vi kan iterera över layout-entiteterna med hjälp av en LayoutEnumerator.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
 
-// LayoutEnumeratorn kan gå igenom samlingen av layoutentiteter som ett träd.
-// Vi kan också tillämpa det på valfri nods motsvarande layoutentitet.
+// LayoutEnumeratorn kan gå igenom samlingen av layout-entiteter som ett träd.
+// Vi kan också tillämpa den på vilken nods motsvarande layout-entitet som helst.
 layoutEnumerator.Current = layoutCollector.GetEntity(doc.GetChild(NodeType.Paragraph, 1, true));
 
 Assert.AreEqual(LayoutEntityType.Span, layoutEnumerator.Type);

@@ -3,7 +3,7 @@ title: BorderCollection.Top
 linktitle: Top
 articleTitle: Top
 second_title: Aspose.Words para .NET
-description: BorderCollection Top propiedad. Obtiene el borde superior en C#.
+description: Descubra BorderCollection, la mejor opción para crear impresionantes bordes que realzarán su diseño. ¡Mejore sus proyectos con nuestras ofertas únicas!
 type: docs
 weight: 120
 url: /es/net/aspose.words/bordercollection/top/
@@ -18,13 +18,13 @@ public Border Top { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
+Muestra cómo aplicar colores de borde y sombreado al crear una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicia una tabla y establece un color/grosor predeterminado para sus bordes.
+// Inicia una tabla y establece un color y grosor predeterminado para sus bordes.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -38,7 +38,7 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Restablecer el formato de celda para deshabilitar los colores de fondo
-// establece un grosor de borde personalizado para todas las celdas nuevas creadas por el constructor,
+// Establezca un grosor de borde personalizado para todas las celdas nuevas creadas por el generador,
 // luego construye una segunda fila.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

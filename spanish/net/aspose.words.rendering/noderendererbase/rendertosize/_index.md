@@ -3,14 +3,14 @@ title: NodeRendererBase.RenderToSize
 linktitle: RenderToSize
 articleTitle: RenderToSize
 second_title: Aspose.Words para .NET
-description: NodeRendererBase RenderToSize método. Representa la forma en unGraphics objeto a un tamaño especificado en C#.
+description: Descubra el método NodeRendererBase RenderToSize para renderizar de manera eficiente formas en objetos gráficos del tamaño deseado para obtener una mejor salida visual.
 type: docs
 weight: 80
 url: /es/net/aspose.words.rendering/noderendererbase/rendertosize/
 ---
 ## NodeRendererBase.RenderToSize method
 
-Representa la forma en unGraphics objeto a un tamaño especificado.
+Representa la forma en unaGraphics objeto a un tamaño especificado.
 
 ```csharp
 public float RenderToSize(Graphics graphics, float x, float y, float width, float height)
@@ -26,11 +26,11 @@ public float RenderToSize(Graphics graphics, float x, float y, float width, floa
 
 ### Valor_devuelto
 
-La escala que se calculó automáticamente para que la forma renderizada se ajustara al tamaño especificado.
+La escala que se calculó automáticamente para que la forma renderizada se ajuste al tamaño especificado.
 
 ## Ejemplos
 
-Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
+Muestra cómo representar una forma con un objeto Graphics y visualizarla mediante un formulario Windows Forms.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -41,7 +41,7 @@ public void RenderShapesOnForm()
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
     // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1: crea una forma con un gráfico y renderízala a una escala específica.
+    // 1 - Crea una forma con un gráfico y representalo en una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

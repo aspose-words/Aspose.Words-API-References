@@ -3,7 +3,7 @@ title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: BookmarkCollection Item fast egendom. Returnerar ett bokmärke vid det angivna indexet i C#.
+description: Upptäck egenskapen BookmarkCollection Item och hämta enkelt bokmärken via index för effektiv navigering och förbättrad användarupplevelse.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/bookmarkcollection/item/
@@ -18,21 +18,21 @@ public Bookmark this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Ett index i samlingen. |
+| index | Ett index till samlingen. |
 
 ## Anmärkningar
 
 Indexet är nollbaserat.
 
-Negativa index är tillåtna och indikerar åtkomst från baksidan av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder näst före sist och så vidare.
+Negativa index är tillåtna och indikerar åtkomst från slutet av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder det näst före sista och så vidare.
 
-Om index är större än eller lika med antalet objekt i listan, returnerar detta en nollreferens.
+Om index är större än eller lika med antalet objekt i listan returnerar detta en nullreferens.
 
-Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
+Om index är negativt och dess absoluta värde är större än antalet objekt i listan returnerar detta en null-referens.
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -42,7 +42,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -79,7 +79,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -98,7 +98,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {
@@ -127,7 +127,7 @@ public class BookmarkInfoPrinter : DocumentVisitor
 
 ## BookmarkCollection indexer (2 of 2)
 
-Returnerar ett bokmärke efter namn.
+Returnerar ett bokmärke med namn.
 
 ```csharp
 public Bookmark this[string bookmarkName] { get; }
@@ -135,15 +135,15 @@ public Bookmark this[string bookmarkName] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| bookmarkName | Bokmärkets namn är skiftlägeskänsligt. |
+| bookmarkName | Bokmärkets namn är inte skiftlägeskänsligt. |
 
 ## Anmärkningar
 
-Returnerar`null`om bokmärket med det angivna namnet inte kan hittas.
+Returer`null`om bokmärket med det angivna namnet inte kan hittas.
 
 ## Exempel
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -153,7 +153,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -190,7 +190,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -209,7 +209,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

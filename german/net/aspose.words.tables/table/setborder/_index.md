@@ -3,14 +3,14 @@ title: Table.SetBorder
 linktitle: SetBorder
 articleTitle: SetBorder
 second_title: Aspose.Words für .NET
-description: Table SetBorder methode. Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil die angegebene Breite und die angegebene Farbe in C#.
+description: Passen Sie das Erscheinungsbild Ihrer Tabelle mit der SetBorder-Methode an – passen Sie Linienstil, Breite und Farbe für ein professionelles Erscheinungsbild an. Verbessern Sie Ihr Design noch heute!
 type: docs
-weight: 410
+weight: 430
 url: /de/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-Setzt den angegebenen Tabellenrand auf den angegebenen Linienstil, die angegebene Breite und die angegebene Farbe.
+Legt für den angegebenen Tabellenrahmen den angegebenen Linienstil, die angegebene Breite und Farbe fest.
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -19,28 +19,28 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| borderType | BorderType | Der Tabellenrand soll geändert werden. |
+| borderType | BorderType | Der zu ändernde Tabellenrand. |
 | lineStyle | LineStyle | Der anzuwendende Linienstil. |
-| lineWidth | Double | Die festzulegende Linienbreite (in Punkt). |
-| color | Color | Die für den Rand zu verwendende Farbe. |
-| isOverrideCellBorders | Boolean | Wann`WAHR`bewirkt, dass alle vorhandenen expliziten Zellränder entfernt werden. |
+| lineWidth | Double | Die einzustellende Linienbreite (in Punkten). |
+| color | Color | Die für den Rahmen zu verwendende Farbe. |
+| isOverrideCellBorders | Boolean | Wann`WAHR`, bewirkt, dass alle vorhandenen expliziten Zellränder entfernt werden. |
 
 ## Beispiele
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

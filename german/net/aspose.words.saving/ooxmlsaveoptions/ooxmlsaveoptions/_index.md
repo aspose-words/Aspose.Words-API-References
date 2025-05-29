@@ -3,14 +3,14 @@ title: OoxmlSaveOptions
 linktitle: OoxmlSaveOptions
 articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words für .NET
-description: OoxmlSaveOptions constructeur. Initialisiert eine neue Instanz dieser Klasse die zum Speichern eines Dokuments im verwendet werden kannDocx format in C#.
+description: Entdecken Sie den OoxmlSaveOptions-Konstruktor, um Dokumente mühelos im Docx-Format zu speichern. Profitieren Sie von nahtlosem Dokumentenmanagement und verbesserter Kompatibilität.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/ooxmlsaveoptions/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions() {#constructor}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannDocx format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imDocx format.
 
 ```csharp
 public OoxmlSaveOptions()
@@ -18,22 +18,22 @@ public OoxmlSaveOptions()
 
 ## Beispiele
 
-Zeigt, wie eine OOXML-Konformitätsspezifikation festgelegt wird, die ein gespeichertes Dokument einhalten soll.
+Zeigt, wie eine OOXML-Konformitätsspezifikation festgelegt wird, an die sich ein gespeichertes Dokument halten muss.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Wenn wir Kompatibilitätsoptionen so konfigurieren, dass sie mit Microsoft Word 2003 kompatibel sind,
-// Durch das Einfügen eines Bildes wird dessen Form mithilfe von VML definiert.
+// Wenn wir die Kompatibilitätsoptionen so konfigurieren, dass sie mit Microsoft Word 2003 kompatibel sind,
+// Durch das Einfügen eines Bildes wird seine Form mithilfe von VML definiert.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
 Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
 
 // Der OOXML-Standard „ISO/IEC 29500:2008“ unterstützt keine VML-Formen.
-// Wenn wir die Eigenschaft „Compliance“ des SaveOptions-Objekts auf „OoxmlCompliance.Iso29500_2008_Strict“ setzen,
- // Jedes Dokument, das wir speichern, während wir dieses Objekt übergeben, muss diesem Standard folgen.
+// Wenn wir die Eigenschaft "Compliance" des SaveOptions-Objekts auf "OoxmlCompliance.Iso29500_2008_Strict" setzen,
+    // Jedes Dokument, das wir beim Übergeben dieses Objekts speichern, muss diesem Standard entsprechen.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -58,7 +58,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 ## OoxmlSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments im verwendet werden kannDocx , Docm ,Dotx ,Dotm or FlatOpc format.
+Initialisiert eine neue Instanz dieser Klasse, die zum Speichern eines Dokuments imDocx , Docm ,Dotx ,Dotm oder FlatOpc format.
 
 ```csharp
 public OoxmlSaveOptions(SaveFormat saveFormat)
@@ -77,10 +77,10 @@ Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Wenn wir das Dokument in einem OOXML-Format speichern, können wir ein OoxmlSaveOptions-Objekt erstellen
 // und übergeben Sie es dann an die Speichermethode des Dokuments, um zu ändern, wie wir das Dokument speichern.
-// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ auf „true“, um sie beizubehalten
+// Setzen Sie die Eigenschaft "KeepLegacyControlChars" auf "true", um
 // das Legacy-Zeichen „ShortDateTime“ beim Speichern.
-// Setzen Sie die Eigenschaft „KeepLegacyControlChars“ zum Entfernen auf „false“.
-// das „ShortDateTime“-Legacy-Zeichen aus dem Ausgabedokument.
+// Setzen Sie die Eigenschaft "KeepLegacyControlChars" auf "false", um
+// das Legacy-Zeichen „ShortDateTime“ aus dem Ausgabedokument.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

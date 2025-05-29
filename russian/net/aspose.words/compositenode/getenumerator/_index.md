@@ -3,14 +3,14 @@ title: CompositeNode.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: CompositeNode GetEnumerator метод. Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла на С#.
+description: Изучите метод CompositeNode GetEnumerator для бесшовной итерации по дочерним узлам. Повысьте эффективность кодирования с помощью этой мощной функции!
 type: docs
-weight: 100
+weight: 120
 url: /ru/net/aspose.words/compositenode/getenumerator/
 ---
 ## CompositeNode.GetEnumerator method
 
-Обеспечивает поддержку для каждой итерации стиля над дочерними узлами этого узла.
+Обеспечивает поддержку для каждой итерации стиля по дочерним узлам этого узла.
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()
@@ -18,44 +18,25 @@ public IEnumerator<Node> GetEnumerator()
 
 ## Примеры
 
-Показывает, как перемещаться по коллекции дочерних узлов составного узла.
+Показывает, как распечатать все комментарии к документу и ответы на них.
 
 ```csharp
-Document doc = new Document();
+Document doc = new Document(MyDir + "Comments.docx");
 
-// Добавьте два прогона и одну фигуру в качестве дочерних узлов в первый абзац этого документа.
-Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-paragraph.AppendChild(new Run(doc, "Hello world! "));
-
-Shape shape = new Shape(doc, ShapeType.Rectangle);
-shape.Width = 200;
-shape.Height = 200;
-// Обратите внимание, что CustomNodeId не сохраняется в выходном файле и существует только во время существования узла.
-shape.CustomNodeId = 100;
-shape.WrapType = WrapType.Inline;
-paragraph.AppendChild(shape);
-
-paragraph.AppendChild(new Run(doc, "Hello again!"));
-
-// Перебираем коллекцию непосредственных дочерних элементов абзаца,
-// и распечатываем любые фрагменты или фигуры, которые мы находим внутри.
-NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
-
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
-
-foreach (Node child in children)
-    switch (child.NodeType)
+NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
+// Если у комментария нет предка, то это комментарий «верхнего уровня», а не комментарий типа ответа.
+// Вывести все комментарии верхнего уровня вместе с возможными ответами на них.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
+{
+    Console.WriteLine("Top-level comment:");
+    Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");
+    Console.WriteLine($"Has {comment.Replies.Count} replies");
+    foreach (Comment commentReply in comment.Replies)
     {
-        case NodeType.Run:
-            Console.WriteLine("Run contents:");
-            Console.WriteLine($"\t\"{child.GetText().Trim()}\"");
-            break;
-        case NodeType.Shape:
-            Shape childShape = (Shape)child;
-            Console.WriteLine("Shape:");
-            Console.WriteLine($"\t{childShape.ShapeType}, {childShape.Width}x{childShape.Height}");
-            break;
+        Console.WriteLine($"\t\"{commentReply.GetText().Trim()}\", by {commentReply.Author}");
     }
+    Console.WriteLine();
+}
 ```
 
 ### Смотрите также

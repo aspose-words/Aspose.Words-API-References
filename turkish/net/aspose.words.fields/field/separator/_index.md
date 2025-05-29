@@ -2,15 +2,15 @@
 title: Field.Separator
 linktitle: Separator
 articleTitle: Separator
-second_title: Aspose.Words for .NET
-description: Field Separator mülk. Alan ayırıcıyı temsil eden düğümü alır. Olabilirhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Alan ayırıcısını temsil eden düğüme kolayca erişmek için Alan Ayırıcı özelliğini keşfedin ve veri yönetimi verimliliğini artırın. Daha fazla bilgi edinin!
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/field/separator/
 ---
 ## Field.Separator property
 
-Alan ayırıcıyı temsil eden düğümü alır. Olabilir`hükümsüz` .
+Alan ayırıcısını temsil eden düğümü alır.`hükümsüz` .
 
 ```csharp
 public FieldSeparator Separator { get; }
@@ -18,7 +18,7 @@ public FieldSeparator Separator { get; }
 
 ## Örnekler
 
-Bir alan koleksiyonuyla nasıl çalışılacağını gösterir.
+Alan koleksiyonlarıyla nasıl çalışılacağını gösterir.
 
 ```csharp
 public void FieldCollection()
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri yazdırıp yazın
-    // özel bir ziyaretçi uygulaması kullanarak her alanın.
+    // Alan koleksiyonu üzerinde yineleme yapın ve içerikleri ve türü yazdırın
+    // her alanın özel ziyaretçi uygulamasını kullanarak.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Alan bilgilerini yazdıran ziyaretçi uygulamasını belgeleyin.
+/// Alan bilgilerini yazdıran belge ziyaretçisi uygulaması.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -73,7 +73,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

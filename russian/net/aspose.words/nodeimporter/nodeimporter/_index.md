@@ -3,7 +3,7 @@ title: NodeImporter
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words для .NET
-description: NodeImporter строитель. Инициализирует новый экземплярNodeImporter класс на С#.
+description: Откройте для себя конструктор NodeImporter, с легкостью создавайте новые экземпляры NodeImporter, чтобы оптимизировать управление данными и повысить эффективность проекта.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/nodeimporter/nodeimporter/
@@ -20,11 +20,11 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Исходный документ. |
 | dstDoc | DocumentBase | Целевой документ, который будет владельцем импортированных узлов. |
-| importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
+| importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующие стили форматирования. |
 
 ## Примеры
 
-Показывает, как вставить содержимое одного документа в закладку в другом документе.
+Показывает, как вставить содержимое одного документа в закладку другого документа.
 
 ```csharp
 public void InsertAtBookmark()
@@ -63,7 +63,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Проходим по всем узлам уровня блока в теле раздела,
-        // затем клонируем и вставляем каждый узел, кроме последнего пустого абзаца раздела.
+        // затем клонировать и вставить каждый узел, который не является последним пустым абзацем раздела.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -110,39 +110,39 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Исходный документ. |
 | dstDoc | DocumentBase | Целевой документ, который будет владельцем импортированных узлов. |
-| importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующее форматирование стилей. |
-| importFormatOptions | ImportFormatOptions | Указывает различные параметры форматирования импортированного узла. |
+| importFormatMode | ImportFormatMode | Указывает, как объединить конфликтующие стили форматирования. |
+| importFormatOptions | ImportFormatOptions | Задает различные параметры форматирования импортированного узла. |
 
 ## Примеры
 
-Показывает, как разрешить конфликт при импорте документов, имеющих списки с одинаковым идентификатором определения списка.
+Показывает, как устранить конфликт при импорте документов, содержащих списки с одинаковым идентификатором определения списка.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// Установите для свойства KeepSourceNumbering значение «true», чтобы применить другой идентификатор определения списка.
-// к идентичным стилям, поскольку Aspose.Words импортирует их в целевые документы.
+// Установите свойство «KeepSourceNumbering» в значение «true», чтобы применить другой идентификатор определения списка
+// к тем же стилям, которые Aspose.Words импортирует в целевые документы.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
 dstDoc.UpdateListLabels();
 ```
 
-Показывает, как разрешить конфликты нумерации списков в исходных и целевых документах.
+Показывает, как разрешать конфликты нумерации списков в исходных и целевых документах.
 
 ```csharp
-// Откройте документ с пользовательской схемой нумерации списка, а затем клонируйте его.
-// Поскольку оба имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
+// Откройте документ с пользовательской схемой нумерации списков, а затем клонируйте его.
+// Поскольку оба документа имеют одинаковый формат нумерации, форматы будут конфликтовать, если мы импортируем один документ в другой.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
 // Когда мы импортируем клон документа в оригинал, а затем добавляем его,
-// тогда два списка одинакового формата объединятся.
-// Если мы установим флаг «KeepSourceNumbering» в значение «false», то список из клона документа
+// тогда два списка с одинаковым форматом списка будут объединены.
+// Если мы установим флаг "KeepSourceNumbering" в значение "false", то список из клона документа
 // который мы добавляем к оригиналу, будет продолжать нумерацию списка, к которому мы его добавляем.
 // Это фактически объединит два списка в один.
-// Если мы установим флаг «KeepSourceNumbering» в значение «true», то клон документа
+// Если мы установим флаг "KeepSourceNumbering" в значение "true", то клон документа
  // список сохранит свою первоначальную нумерацию, благодаря чему два списка будут отображаться как отдельные списки.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;

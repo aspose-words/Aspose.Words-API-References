@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.TitlesOfParts
 linktitle: TitlesOfParts
 articleTitle: TitlesOfParts
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties TitlesOfParts ملكية. تحدد كل سلسلة في المصفوفة اسم جزء في الوثيقة في C#.
+description: اكتشف خاصية TitlesOfParts في BuiltInDocumentProperties. أدر أقسام المستند بسهولة باستخدام أسماء أجزاء واضحة وقابلة للتخصيص لتحسين التنظيم.
 type: docs
-weight: 300
+weight: 330
 url: /ar/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
 
-تحدد كل سلسلة في المصفوفة اسم جزء في الوثيقة.
+يحدد كل سلسلة في المصفوفة اسم جزء في المستند.
 
 ```csharp
 public string[] TitlesOfParts { get; set; }
@@ -22,18 +22,18 @@ public string[] TitlesOfParts { get; set; }
 
 ## أمثلة
 
-إظهار العلاقة بين خصائص "HeadingPairs" و"TitlesOfParts".
+يُظهر العلاقة بين خصائص "HeadingPairs" و"TitlesOfParts".
 
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// يمكننا إيجاد القيم المجمعة لهذه المجموعات عبر
-// "ملف" -> "الخصائص" -> "الخصائص المتقدمة" -> علامة التبويب "المحتويات".
-// خاصية HeadingPairs عبارة عن مجموعة من <string, int> أزواج ذلك
-// يحدد عدد أجزاء المستند التي يمتد عليها العنوان.
+// يمكننا العثور على القيم المجمعة لهذه المجموعات عبر
+// "ملف" -> "خصائص" -> "خصائص متقدمة" -> علامة التبويب "المحتويات".
+// خاصية HeadingPairs عبارة عن مجموعة من أزواج <string, int> التي
+// يحدد عدد أجزاء المستند التي يمتد عبرها العنوان.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// تحتوي الخاصية TitlesOfParts على أسماء الأجزاء التي تنتمي إلى العناوين المذكورة أعلاه.
+// تحتوي الخاصية TitlesOfParts على أسماء الأجزاء التي تنتمي إلى العناوين أعلاه.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

@@ -3,14 +3,14 @@ title: StructuredDocumentTag
 linktitle: StructuredDocumentTag
 articleTitle: StructuredDocumentTag
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag البناء. تهيئة مثيل جديد لـعلامة الوثيقة المنظمة فئة في C#.
+description: أنشئ مستندات قوية ومنظمة بسهولة باستخدام مُنشئ StructuredDocumentTag. جهّز نماذج جديدة لتحسين التنظيم والوضوح.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.markup/structureddocumenttag/structureddocumenttag/
 ---
 ## StructuredDocumentTag constructor
 
-تهيئة مثيل جديد لـ**علامة الوثيقة المنظمة** فئة.
+يقوم بتهيئة مثيل جديد لـ**علامة المستند المنظم** الصف.
 
 ```csharp
 public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
@@ -19,12 +19,12 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| type | SdtType | نوع العقدة SDT. |
-| level | MarkupLevel | مستوى عقدة SDT داخل الوثيقة. |
+| type | SdtType | نوع عقدة SDT. |
+| level | MarkupLevel | مستوى عقدة SDT ضمن المستند. |
 
 ## ملاحظات
 
-يمكن إنشاء الأنواع التالية من المعاملة الخاصة والتفضيلية:
+يمكن إنشاء الأنواع التالية من SDT:
 
 * Checkbox
 * DropDownList
@@ -38,16 +38,16 @@ public StructuredDocumentTag(DocumentBase doc, SdtType type, MarkupLevel level)
 
 ## أمثلة
 
-أظهر كيفية إنشاء علامة مستند منظمة على شكل مربع اختيار.
+إظهار كيفية إنشاء علامة مستند منظمة في شكل مربع اختيار.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 StructuredDocumentTag sdtCheckBox =
-    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) {Checked = true};
+    new StructuredDocumentTag(doc, SdtType.Checkbox, MarkupLevel.Inline) { Checked = true };
 
-// يمكننا تعيين الرموز المستخدمة لتمثيل الحالة المحددة/غير المحددة لعنصر التحكم في محتوى مربع الاختيار.
+// يمكننا تعيين الرموز المستخدمة لتمثيل حالة التحديد/عدم التحديد لمحتوى مربع الاختيار.
 sdtCheckBox.SetCheckedSymbol(0x00A9, "Times New Roman");
 sdtCheckBox.SetUncheckedSymbol(0x00AE, "Times New Roman");
 

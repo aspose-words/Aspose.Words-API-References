@@ -3,14 +3,14 @@ title: PdfSaveOptions.PageMode
 linktitle: PageMode
 articleTitle: PageMode
 second_title: Aspose.Words для .NET
-description: PdfSaveOptions PageMode свойство. Указывает как PDFдокумент должен отображаться при открытии в программе чтения PDF на С#.
+description: Узнайте, как свойство PageMode PdfSaveOptions улучшает ваши впечатления от просмотра PDF-файлов, настраивая отображение документа в любой программе для чтения PDF-файлов.
 type: docs
-weight: 250
+weight: 260
 url: /ru/net/aspose.words.saving/pdfsaveoptions/pagemode/
 ---
 ## PdfSaveOptions.PageMode property
 
-Указывает, как PDF-документ должен отображаться при открытии в программе чтения PDF.
+Указывает, как должен отображаться PDF-документ при открытии в программе для чтения PDF-файлов.
 
 ```csharp
 public PdfPageMode PageMode { get; set; }
@@ -22,54 +22,54 @@ public PdfPageMode PageMode { get; set; }
 
 ## Примеры
 
-Показывает, как установить инструкции для некоторых программ чтения PDF, которым они будут следовать при открытии выходного документа.
+Показывает, как задать инструкции, которым должны следовать некоторые программы чтения PDF-файлов при открытии выходного документа.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства «PageMode» значение «PdfPageMode.FullScreen», чтобы программа чтения PDF могла открывать сохраненные файлы.
-// документ в полноэкранном режиме, который занимает изображение монитора и не имеет видимых элементов управления.
-// Установите для свойства «PageMode» значение «PdfPageMode.UseThumbs», чтобы программа чтения PDF отображала отдельную панель.
+// Установите свойство "PageMode" на "PdfPageMode.FullScreen", чтобы программа чтения PDF-файлов открыла сохраненный файл
+// документ в полноэкранном режиме, который занимает весь экран монитора и не имеет видимых элементов управления.
+// Установите свойство "PageMode" на "PdfPageMode.UseThumbs", чтобы программа чтения PDF-файлов отображала отдельную панель
 // с миниатюрой для каждой страницы документа.
-// Установите для свойства «PageMode» значение «PdfPageMode.UseOC», чтобы программа чтения PDF отображала отдельную панель.
+// Установите свойство "PageMode" на "PdfPageMode.UseOC", чтобы программа чтения PDF-файлов отображала отдельную панель
 // что позволяет нам работать с любыми слоями, присутствующими в документе.
-// Установите для свойства «PageMode» значение «PdfPageMode.UseOutlines», чтобы получить программу чтения PDF-файлов.
+// Установите свойство "PageMode" на "PdfPageMode.UseOutlines", чтобы получить средство чтения PDF-файлов
 // также для отображения контура, если это возможно.
-// Установите для свойства «PageMode» значение «PdfPageMode.UseNone», чтобы программа чтения PDF отображала только сам документ.
-// Установите для свойства «PageMode» значение «PdfPageMode.UseAttachments», чтобы сделать панель вложений видимой.
+// Установите свойство «PageMode» на «PdfPageMode.UseNone», чтобы программа чтения PDF-файлов отображала только сам документ.
+// Установите свойство "PageMode" на "PdfPageMode.UseAttachments", чтобы сделать видимой панель вложений.
 options.PageMode = pageMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PageMode.pdf", options);
 ```
 
-Показывает обработку закладок в верхних и нижних колонтитулах документа, который мы преобразуем в PDF.
+Показывает, как обрабатывать закладки в верхних/нижних колонтитулах документа, который мы преобразуем в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Установите для свойства «PageMode» значение «PdfPageMode.UseOutlines», чтобы отобразить контурную панель навигации в выходном PDF-файле.
+// Установите свойство «PageMode» на «PdfPageMode.UseOutlines», чтобы отобразить панель навигации структуры в выходном PDF-файле.
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
-// Установите для свойства «DefaultBookmarksOutlineLevel» значение «1», чтобы отобразить все
-// закладки на первом уровне структуры в выходном PDF.
+// Установите свойство "DefaultBookmarksOutlineLevel" на "1", чтобы отобразить все
+// закладки на первом уровне структуры в выходном PDF-файле.
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
-// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.None», чтобы
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.None" для
 // не экспортировать закладки, находящиеся внутри верхних/нижних колонтитулов.
-// Установите для свойства "HeaderFooterBookmarksExportMode" значение "HeaderFooterBookmarksExportMode.First", чтобы
-// экспортируем только закладки в верхнем/нижнем колонтитуле первого раздела.
-// Установите для свойства «HeaderFooterBookmarksExportMode» значение «HeaderFooterBookmarksExportMode.All», чтобы
-// экспортируем закладки, которые есть во всех верхних/нижних колонтитулах.
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.First" для
+// экспортировать закладки только в верхних/нижних колонтитулах первого раздела.
+// Установите свойство "HeaderFooterBookmarksExportMode" в значение "HeaderFooterBookmarksExportMode.All" для
+// экспортировать закладки, находящиеся во всех верхних/нижних колонтитулах.
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.HeaderFooterBookmarksExportMode.pdf", saveOptions);

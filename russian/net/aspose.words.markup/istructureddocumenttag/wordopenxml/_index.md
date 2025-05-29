@@ -3,9 +3,9 @@ title: IStructuredDocumentTag.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words для .NET
-description: IStructuredDocumentTag WordOpenXML свойство. Получает строку представляющую XML содержащийся в узле вFlatOpc формат на С#.
+description: Откройте для себя свойство IStructuredDocumentTag WordOpenXML, получите доступ к строкам XML в формате FlatOpc для улучшенного управления документами и интеграции.
 type: docs
-weight: 120
+weight: 150
 url: /ru/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 ---
 ## IStructuredDocumentTag.WordOpenXML property
@@ -14,6 +14,21 @@ url: /ru/net/aspose.words.markup/istructureddocumenttag/wordopenxml/
 
 ```csharp
 public string WordOpenXML { get; }
+```
+
+## Примеры
+
+Показывает, как получить XML, содержащийся в узле в формате FlatOpc.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags.docx");
+
+List<StructuredDocumentTag> tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
+    .OfType<StructuredDocumentTag>().ToList();
+
+Assert.True(tags[0].WordOpenXML
+    .Contains(
+        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"));
 ```
 
 ### Смотрите также

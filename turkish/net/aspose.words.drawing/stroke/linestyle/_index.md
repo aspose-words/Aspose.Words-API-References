@@ -2,10 +2,10 @@
 title: Stroke.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: Aspose.Words for .NET
-description: Stroke LineStyle mülk. Konturun çizgi stilini tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Projenizin görsel çekiciliğini artırmak için benzersiz çizgi stilleriyle tasarımınızı özelleştirmek üzere Stroke LineStyle özelliğini keşfedin.
 type: docs
-weight: 130
+weight: 180
 url: /tr/net/aspose.words.drawing/stroke/linestyle/
 ---
 ## Stroke.LineStyle property
@@ -22,7 +22,7 @@ Varsayılan değer:Single.
 
 ## Örnekler
 
-Kontur özelliklerinin nasıl değiştirildiğini gösterir.
+Vuruş özelliklerinin nasıl değiştiğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,10 +32,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
 // Dikdörtgen gibi temel şekillerin iki görünür kısmı vardır.
-// 1 - Şeklin ana hatları içindeki alana uygulanan dolgu:
+// 1 - Şeklin dış hatları içindeki alana uygulanan dolgu:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - Şeklin ana hatlarını işaretleyen kontur:
+// 2 - Şeklin ana hatlarını belirleyen çizgi:
 // Bu şeklin konturunun çeşitli özelliklerini değiştirin.
 Stroke stroke = shape.Stroke;
 stroke.On = true;

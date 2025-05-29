@@ -2,15 +2,15 @@
 title: Node.PreviousPreOrder
 linktitle: PreviousPreOrder
 articleTitle: PreviousPreOrder
-second_title: Aspose.Words for .NET
-description: Node PreviousPreOrder yöntem. Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Optimize edilmiş veri işleme için ön sipariş ağacı gezinme algoritmasını kullanarak önceki düğümü verimli bir şekilde almak üzere Node PreviousPreOrder yöntemini keşfedin.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Ön sipariş ağaç geçiş algoritmasına göre önceki düğümü alır.
+Ön sipariş ağacı geçiş algoritmasına göre önceki düğümü alır.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| rootNode | Node | Geçişin üst düğümü (sınırı). |
+| rootNode | Node | Gezinmenin en üst düğümü (sınırı). |
 
 ### Geri dönüş değeri
 
-Ön sipariş sırasındaki önceki düğüm. Ulaşıldığında boş*rootNode*.
+Ön sipariş sırasındaki önceki düğüm. Ulaşılırsa boş*rootNode*.
 
 ## Örnekler
 
-Ön sipariş geçiş algoritmasını kullanarak belgenin düğüm ağacında nasıl geçiş yapılacağını ve karşılaşılan herhangi bir şeklin görüntüyle nasıl silineceğini gösterir.
+Ön sipariş gezinme algoritmasını kullanarak belgenin düğüm ağacında nasıl gezinileceğini ve bir görüntüyle karşılaşılan herhangi bir şeklin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

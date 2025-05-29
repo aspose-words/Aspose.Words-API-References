@@ -3,14 +3,14 @@ title: Field.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words per .NET
-description: Field Format proprietà. Ottiene aFieldFormat oggetto che fornisce accesso digitato alla formattazione del campo in C#.
+description: Scopri la proprietà Formato campo per un accesso semplice agli oggetti FieldFormat, migliorando la formattazione dei tuoi campi con precisione e semplicità.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/field/format/
 ---
 ## Field.Format property
 
-Ottiene a[`FieldFormat`](../../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo.
+Ottiene un[`FieldFormat`](../../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo.
 
 ```csharp
 public FieldFormat Format { get; }
@@ -24,7 +24,7 @@ Mostra come formattare i risultati dei campi.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilizzare un generatore di documenti per inserire un campo che visualizzi un risultato senza formato applicato.
+// Utilizzare un generatore di documenti per inserire un campo che visualizza un risultato senza alcun formato applicato.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -66,7 +66,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo nella sua forma originale.
+// Possiamo rimuovere i nostri formati per ripristinare il risultato del campo alla sua forma originale.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

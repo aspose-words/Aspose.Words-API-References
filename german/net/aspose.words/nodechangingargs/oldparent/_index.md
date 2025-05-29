@@ -3,14 +3,14 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words für .NET
-description: NodeChangingArgs OldParent eigendom. Ruft den übergeordneten Knoten des Knotens ab bevor die Operation begann in C#.
+description: Entdecken Sie die NodeChangingArgs OldParent-Eigenschaft, die den übergeordneten Knoten vor Änderungen abruft und so reibungslose Vorgänge und eine verbesserte Datenverwaltung gewährleistet.
 type: docs
 weight: 40
 url: /de/net/aspose.words/nodechangingargs/oldparent/
 ---
 ## NodeChangingArgs.OldParent property
 
-Ruft den übergeordneten Knoten des Knotens ab, bevor die Operation begann.
+Ruft den übergeordneten Knoten vor Beginn der Operation ab.
 
 ```csharp
 public Node OldParent { get; }
@@ -18,7 +18,7 @@ public Node OldParent { get; }
 
 ## Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum während der Bearbeitung in Echtzeit zu überwachen.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

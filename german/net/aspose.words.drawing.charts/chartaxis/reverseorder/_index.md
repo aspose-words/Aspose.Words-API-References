@@ -3,14 +3,14 @@ title: ChartAxis.ReverseOrder
 linktitle: ReverseOrder
 articleTitle: ReverseOrder
 second_title: Aspose.Words für .NET
-description: ChartAxis ReverseOrder eigendom. Gibt ein Flag zurück oder setzt es das angibt ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen d. h. von max nach min in C#.
+description: Entdecken Sie die ChartAxis-Eigenschaft „ReverseOrder“, um Achsenwerte einfach umgekehrt anzuzeigen und so die Datenübersichtlichkeit vom Maximum bis zum Minimum zu verbessern.
 type: docs
-weight: 200
+weight: 210
 url: /de/net/aspose.words.drawing.charts/chartaxis/reverseorder/
 ---
 ## ChartAxis.ReverseOrder property
 
-Gibt ein Flag zurück oder setzt es, das angibt, ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen, d. h. von max nach min.
+Gibt ein Flag zurück oder setzt es, das angibt, ob die Werte der Achse in umgekehrter Reihenfolge angezeigt werden sollen, d. h. von Maximum bis Minimum.
 
 ```csharp
 public bool ReverseOrder { get; set; }
@@ -18,11 +18,11 @@ public bool ReverseOrder { get; set; }
 
 ## Bemerkungen
 
-Die Eigenschaft wird von den neuen Diagrammen von MS Office 2016 nicht unterstützt. Der Standardwert ist`FALSCH` .
+Die Eigenschaft wird von den neuen Diagrammen in MS Office 2016 nicht unterstützt. Der Standardwert ist`FALSCH` .
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -40,7 +40,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -49,10 +49,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -62,7 +64,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

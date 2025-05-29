@@ -3,14 +3,14 @@ title: CellCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words pour .NET
-description: CellCollection ToArray méthode. Copie toutes les cellules de la collection vers un nouveau tableau de cellules en C#.
+description: Convertissez sans effort votre CellCollection en un nouveau tableau avec la méthode ToArray, simplifiant la gestion des données et améliorant les performances.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/cellcollection/toarray/
 ---
 ## CellCollection.ToArray method
 
-Copie toutes les cellules de la collection vers un nouveau tableau de cellules.
+Copie toutes les cellules de la collection dans un nouveau tableau de cellules.
 
 ```csharp
 public Cell[] ToArray()
@@ -18,7 +18,7 @@ public Cell[] ToArray()
 
 ### Return_Value
 
-Un tableau de cellules.
+Un ensemble de cellules.
 
 ## Exemples
 
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // On peut utiliser la méthode "ToArray" sur une collection de lignes pour la cloner dans un tableau.
+    // Nous pouvons utiliser la méthode « ToArray » sur une collection de lignes pour la cloner dans un tableau.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // On peut utiliser la méthode "ToArray" sur une collection de cellules pour la cloner dans un tableau.
+        // Nous pouvons utiliser la méthode « ToArray » sur une collection de cellules pour la cloner dans un tableau.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

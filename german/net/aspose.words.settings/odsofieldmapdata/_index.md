@@ -3,16 +3,16 @@ title: OdsoFieldMapData Class
 linktitle: OdsoFieldMapData
 articleTitle: OdsoFieldMapData
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.OdsoFieldMapData klas. Gibt an wie eine Spalte in der externen Datenquelle den vordefinierten Zusammenführungsfeldern im Dokument zugeordnet werden soll in C#.
+description: Entdecken Sie die Klasse Aspose.Words.OdsoFieldMapData für die nahtlose Zuordnung externer Datenspalten zu vordefinierten Dokumentserienfeldern und verbessern Sie so Ihre Dokumentautomatisierung.
 type: docs
-weight: 5900
+weight: 6730
 url: /de/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
 
-Gibt an, wie eine Spalte in der externen Datenquelle den vordefinierten Zusammenführungsfeldern im Dokument zugeordnet werden soll.
+Gibt an, wie eine Spalte in der externen Datenquelle den vordefinierten Seriendruckfeldern im Dokument zugeordnet werden soll.
 
-Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Serienbriefe und Berichte](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class OdsoFieldMapData
@@ -28,9 +28,9 @@ public class OdsoFieldMapData
 
 | Name | Beschreibung |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Gibt den nullbasierten Index der Spalte in einer externen Datenquelle an, der dem lokalen Namen eines bestimmten MERGEFIELD-Felds zugeordnet werden soll. Der Standardwert ist 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Gibt den vordefinierten Namen des Zusammenführungsfelds an, der der durch den angegebenen Spaltennummer zugeordnet werden soll[`Column`](./column/) Eigenschaft innerhalb dieser Feldzuordnung. Der Standardwert ist eine leere Zeichenfolge. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Gibt den Spaltennamen innerhalb einer externen Datenquelle für die Spalte an, deren -Index durch angegeben wird[`Column`](./column/)property. Der Standardwert ist eine leere Zeichenfolge. |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | Gibt den nullbasierten Index der Spalte innerhalb einer externen Datenquelle an, die dem lokalen Namen eines bestimmten MERGEFIELD-Felds zugeordnet werden soll. Der Standardwert ist 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | Gibt den vordefinierten Seriendruckfeldnamen an, der der Spaltennummer zugeordnet werden soll, die durch den[`Column`](./column/) Eigenschaft innerhalb dieser Feldzuordnung. Der Standardwert ist eine leere Zeichenfolge. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | Gibt den Spaltennamen innerhalb einer externen Datenquelle für die Spalte an, deren -Index durch den[`Column`](./column/)property. Der Standardwert ist eine leere Zeichenfolge. |
 | [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | Gibt an, ob ein bestimmtes Serienbrieffeld einer Spalte in der angegebenen externen Datenquelle zugeordnet wurde oder nicht. Der Standardwert istDefault . |
 
 ## Methoden
@@ -41,17 +41,17 @@ public class OdsoFieldMapData
 
 ## Bemerkungen
 
-Microsoft Word bietet einige vordefinierte Briefvorlagenfeldnamen, die als MERGEFIELD oder in ein Dokument eingefügt werden können und in den Feldern ADDRESSBLOCK oder GREETINGLINE verwendet werden. Die angegebenen Informationen in`OdsoFieldMapData` ermöglicht die Zuordnung einer Spalte in der externen Datenquelle zu einem einzelnen vordefinierten Zusammenführungsfeld.
+Microsoft Word bietet einige vordefinierte Seriendruckfeldnamen, die in ein Dokument als MERGEFIELD oder in den Feldern ADDRESSBLOCK oder GREETINGLINE eingefügt werden können. Die in`OdsoFieldMapData` ermöglicht die Zuordnung einer Spalte in der externen Datenquelle zu einem einzelnen vordefinierten Seriendruckfeld.
 
 ## Beispiele
 
-Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Briefvorlagenfeldern zuordnet.
+Zeigt, wie auf die Datensammlung zugegriffen wird, die Datenquellenspalten Seriendruckfeldern zuordnet.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle zuordnet
-// zu den vordefinierten Feldern MERGEFIELD, ADDRESSBLOCK und GREETINGLINE.
+// Diese Sammlung definiert, wie ein Serienbrief Spalten aus einer Datenquelle abbildet
+// zu vordefinierten MERGEFIELD-, ADDRESSBLOCK- und GREETINGLINE-Feldern.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -72,7 +72,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klonen Sie die Elemente in dieser Sammlung.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Die Elemente der Methode „RemoveAt“ einzeln nach Index verwenden.
+// Verwenden Sie die Elemente der Methode „RemoveAt“ einzeln nach Index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

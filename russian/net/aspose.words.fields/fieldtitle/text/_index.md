@@ -3,7 +3,7 @@ title: FieldTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words для .NET
-description: FieldTitle Text свойство. Получает или задает текст заголовка на С#.
+description: Управляйте свойством FieldTitle Text без усилий. Легко получайте или устанавливайте текст заголовка для повышения ясности и удобства использования в вашем приложении.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldtitle/text/
@@ -23,7 +23,7 @@ public string Text { get; set; }
 ```csharp
 Document doc = new Document();
 
- // Устанавливаем значение для встроенного свойства документа "Заголовок".
+ // Задаем значение для встроенного свойства документа «Заголовок».
 doc.BuiltInDocumentProperties.Title = "My Title";
 
 // Мы можем использовать поле TITLE для отображения значения этого свойства в документе.
@@ -34,7 +34,7 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Установка значения свойства Text поля,
+// Установка значения для свойства Text поля,
 // а затем обновление поля также перезапишет соответствующее встроенное свойство новым значением.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);

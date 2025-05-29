@@ -3,14 +3,14 @@ title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
 second_title: Aspose.Words för .NET
-description: StreamFontSource OpenFontDataStream metod. Den här metoden bör öppna flödet med teckensnittsdata på begäran i C#.
+description: Upptäck StreamFontSource OpenFontDataStream-metoden för att effektivt komma åt teckensnittsdataströmmar på begäran, vilket förbättrar ditt designarbetsflöde.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method
 
-Den här metoden bör öppna flödet med teckensnittsdata på begäran.
+Den här metoden bör öppna strömmen med teckensnittsdata på begäran.
 
 ```csharp
 public abstract Stream OpenFontDataStream()
@@ -18,15 +18,15 @@ public abstract Stream OpenFontDataStream()
 
 ### Returvärde
 
-Typsnittsdataström.
+Dataström för teckensnitt.
 
 ## Anmärkningar
 
-Strömmen kommer att stängas efter läsning. Det finns ingen anledning att stänga den explicit.
+Strömmen kommer att stängas efter läsning. Det finns inget behov av att stänga den explicit.
 
 ## Exempel
 
-Visar hur man laddar typsnitt från stream.
+Visar hur man laddar teckensnitt från strömmen.
 
 ```csharp
 public void StreamFontSourceFileRendering()
@@ -43,8 +43,8 @@ public void StreamFontSourceFileRendering()
 }
 
 /// <summary>
-/// Ladda teckensnittsdata endast när det behövs istället för att lagra det i minnet
-/// under hela livslängden för objektet "FontSettings".
+/// Ladda endast teckensnittsdata när det behövs istället för att lagra dem i minnet
+/// för hela livslängden för "FontSettings"-objektet.
 /// </summary>
 private class StreamFontSourceFile : StreamFontSource
 {

@@ -3,14 +3,14 @@ title: VbaReference.LibId
 linktitle: LibId
 articleTitle: LibId
 second_title: Aspose.Words لـ .NET
-description: VbaReference LibId ملكية. الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي في C#.
+description: اكتشف خاصية LibId في VBA، واسترجع بسهولة مُعرّف مكتبة أنواع الأتمتة مع هذا الدليل الأساسي للمطورين. طوّر مهاراتك البرمجية!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbareference/libid/
 ---
 ## VbaReference.LibId property
 
-الحصول على قيمة سلسلة تحتوي على معرف مكتبة نوع التنفيذ التلقائي.
+يحصل على قيمة سلسلة تحتوي على معرف مكتبة نوع الأتمتة.
 
 ```csharp
 public abstract string LibId { get; }
@@ -18,14 +18,14 @@ public abstract string LibId { get; }
 
 ## ملاحظات
 
-اعتمادا على نوع المرجع، يمكن أن تكون قيمة هذه الخاصية:
+اعتمادًا على نوع المرجع، يمكن أن تكون قيمة هذه الخاصية:
 
-* LibidReference المحدد في 2.1.1.8 LibidReference لـ [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
+* مرجع LibidReference المحدد في 2.1.1.8 LibidReference لـ [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/3737ef6e-d819-4186-a5f2-6e258ddf66a5
 * مرجع المشروع المحدد في 2.1.1.12 مرجع المشروع لـ [MS-OVBA]: https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-ovba/9a45ac1a-f1ff-4ebd-958e-537701aa8131
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

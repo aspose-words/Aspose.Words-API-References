@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow.CreateFrom
 linktitle: CreateFrom
 articleTitle: CreateFrom
 second_title: Aspose.Words для .NET
-description: FieldDatabaseDataRow CreateFrom метод. Инициализирует новый экземплярFieldDatabaseDataRow class изDataRow экземпляр на С#.
+description: С легкостью создавайте экземпляр FieldDatabaseDataRow из DataRow с помощью метода CreateFrom, упрощая управление данными и повышая эффективность.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/createfrom/

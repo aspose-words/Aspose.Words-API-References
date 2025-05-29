@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeEnd NodeType 财产. 返回StructuredDocumentTagRangeEnd 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTagRangeEnd NodeType 属性，该属性可有效返回 StructuredDocumentTagRangeEnd 以实现无缝文档管理。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/structureddocumenttagrangeend/nodetype/

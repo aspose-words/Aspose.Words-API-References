@@ -3,14 +3,14 @@ title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
 second_title: Aspose.Words per .NET
-description: Chart Legend proprietà. Fornisce laccesso alle proprietà della legenda del grafico in C#.
+description: Scopri la proprietà Legenda grafico per personalizzare i tuoi grafici senza sforzo. Migliora la visualizzazione dei dati con opzioni di legenda personalizzate per ottenere informazioni più dettagliate!
 type: docs
-weight: 50
+weight: 70
 url: /it/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Fornisce l'accesso alle proprietà della legenda del grafico.
+Fornisce accesso alle proprietà della legenda del grafico.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -36,7 +36,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Concede più spazio agli altri elementi del grafico, come il grafico, consentendo loro di sovrapporsi alla legenda.
+// Lascia più spazio agli altri elementi del grafico, come il grafico stesso, sovrapponendoli alla legenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

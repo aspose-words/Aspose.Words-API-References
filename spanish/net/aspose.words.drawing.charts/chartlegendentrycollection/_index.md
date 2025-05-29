@@ -3,16 +3,16 @@ title: ChartLegendEntryCollection Class
 linktitle: ChartLegendEntryCollection
 articleTitle: ChartLegendEntryCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.ChartLegendEntryCollection clase. Representa una colección de entradas de leyenda del gráfico en C#.
+description: Explore Aspose.Words.ChartLegendEntryCollection para administrar de manera eficiente las entradas de la leyenda del gráfico y mejorar las imágenes de sus documentos con facilidad.
 type: docs
-weight: 740
+weight: 1030
 url: /es/net/aspose.words.drawing.charts/chartlegendentrycollection/
 ---
 ## ChartLegendEntryCollection class
 
-Representa una colección de entradas de leyenda del gráfico.
+Representa una colección de entradas de leyenda de gráfico.
 
-Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con gráficos](https://docs.aspose.com/words/net/working-with-charts/) Artículo de documentación.
 
 ```csharp
 public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
@@ -23,7 +23,7 @@ public class ChartLegendEntryCollection : IEnumerable<ChartLegendEntry>
 | Nombre | Descripción |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartlegendentrycollection/count/) { get; } | Devuelve el número de[`ChartLegendEntry`](../chartlegendentry/) en esta colección. |
-| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | Devoluciones[`ChartLegendEntry`](../chartlegendentry/) para el índice especificado. |
+| [Item](../../aspose.words.drawing.charts/chartlegendentrycollection/item/) { get; } | Devuelve[`ChartLegendEntry`](../chartlegendentry/) para el índice especificado. |
 
 ## Métodos
 
@@ -54,11 +54,6 @@ series.Add("Series 4", categories, new double[] { 0, 0 });
 
 ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
 legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
 
 doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
 ```

@@ -3,14 +3,14 @@ title: TableCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words för .NET
-description: TableCollection ToArray metod. Kopierar alla tabeller från samlingen till en ny array av tabeller i C#.
+description: Konvertera enkelt din TableCollection till en array med ToArray-metoden, vilket förenklar datahanteringen och förbättrar din applikations prestanda.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/tablecollection/toarray/
 ---
 ## TableCollection.ToArray method
 
-Kopierar alla tabeller från samlingen till en ny array av tabeller.
+Kopierar alla tabeller från samlingen till en ny tabellmatris.
 
 ```csharp
 public Table[] ToArray()
@@ -18,11 +18,11 @@ public Table[] ToArray()
 
 ### Returvärde
 
-En rad bord.
+En uppsättning tabeller.
 
 ## Exempel
 
-Visar hur man itererar genom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
+Visar hur man itererar igenom alla tabeller i dokumentet och skriver ut innehållet i varje cell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Vi kan använda "ToArray"-metoden på en radsamling för att klona den till en array.
+    // Vi kan använda metoden "ToArray" på en radsamling för att klona den till en array.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Vi kan använda "ToArray"-metoden på en cellsamling för att klona den till en array.
+        // Vi kan använda metoden "ToArray" på en cellsamling för att klona den till en array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

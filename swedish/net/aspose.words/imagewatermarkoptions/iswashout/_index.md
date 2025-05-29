@@ -3,14 +3,14 @@ title: ImageWatermarkOptions.IsWashout
 linktitle: IsWashout
 articleTitle: IsWashout
 second_title: Aspose.Words för .NET
-description: ImageWatermarkOptions IsWashout fast egendom. Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet ärSann  i C#.
+description: Upptäck IsWashout-egenskapen i ImageWatermarkOptions. Kontrollera enkelt din vattenstämpels washout-effekt med denna enkla booleska inställning.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-Hämtar eller ställer in ett booleskt värde som är ansvarigt för utspolningseffekten av vattenstämpeln. Standardvärdet är`Sann` .
+Hämtar eller ställer in ett booleskt värde som ansvarar för vattenstämpelns uttvättningseffekt. Standardvärdet är`sann` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -23,15 +23,20 @@ Visar hur man skapar en vattenstämpel från en bild i det lokala filsystemet.
 ```csharp
 Document doc = new Document();
 
-            // Ändra bildens vattenmärkes utseende med ett ImageWatermarkOptions-objekt,
-            // skicka den sedan medan du skapar en vattenstämpel från en bildfil.
+            // Ändra bildens vattenstämpels utseende med ett ImageWatermarkOptions-objekt,
+            // skicka sedan den medan du skapar en vattenstämpel från en bildfil.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // Vi har olika alternativ för att infoga bilder:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

@@ -3,7 +3,7 @@ title: FieldImport.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words для .NET
-description: FieldImport SourceFullName свойство. Получает или задает местоположение изображения на С#.
+description: Узнайте, как использовать свойство FieldImport SourceFullName для простого управления расположением изображений в ваших проектах для улучшения организации и доступности.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldimport/sourcefullname/

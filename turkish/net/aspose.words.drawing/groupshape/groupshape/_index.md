@@ -2,8 +2,8 @@
 title: GroupShape
 linktitle: GroupShape
 articleTitle: GroupShape
-second_title: Aspose.Words for .NET
-description: GroupShape inşaatçı. Yeni bir grup şekli oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: GroupShape oluşturucusu ile zahmetsizce çarpıcı grup şekilleri tasarlayın. Benzersiz yaratımlar için özelleştirilebilir, kullanıcı dostu araçlarla projelerinizi geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/groupshape/groupshape/
@@ -18,17 +18,17 @@ public GroupShape(DocumentBase doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahibi belgesi. |
+| doc | DocumentBase | Sahip belgesi. |
 
 ## Notlar
 
-Varsayılan olarak şekil kayandır ve varsayılan konuma ve boyuta sahiptir.
+Varsayılan olarak şekil yüzer durumdadır ve varsayılan konuma ve boyuta sahiptir.
 
-Şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
+Bir şekil oluşturduktan sonra istediğiniz şekil özelliklerini belirtmelisiniz.
 
 ## Örnekler
 
-Bir şekil grubunun nasıl oluşturulacağını ve bir belge ziyaretçisi kullanılarak içeriğinin nasıl yazdırılacağını gösterir.
+Bir şekil grubunun nasıl oluşturulacağını ve içeriklerinin bir belge ziyaretçisi kullanılarak nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void GroupOfShapes()
@@ -36,19 +36,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "Primitive Olmayan" şekiller oluşturmanız gerekiyorsa,
+    // SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped gibi "İlkel Olmayan" şekiller oluşturmanız gerekiyorsa,
     // ÜstKöşelerBirYuvarlakBirKesilmiş, TekKöşeYuvarlak, ÜstKöşelerYuvarlak, ÇaprazKöşelerYuvarlak
-    // lütfen DocumentBuilder.InsertShape yöntemlerini kullanın.
+    // Lütfen DocumentBuilder.InsertShape metotlarını kullanın.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

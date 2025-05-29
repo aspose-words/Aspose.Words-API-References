@@ -3,14 +3,14 @@ title: ShapeBase.GetShapeRenderer
 linktitle: GetShapeRenderer
 articleTitle: GetShapeRenderer
 second_title: Aspose.Words för .NET
-description: ShapeBase GetShapeRenderer metod. Skapar och returnerar ett objekt som kan användas för att återge denna form till en bild i C#.
+description: Upptäck ShapeBase GetShapeRenderer-metoden för att enkelt skapa och rendera former som bilder, vilket enkelt förbättrar dina designprojekt.
 type: docs
-weight: 660
+weight: 670
 url: /sv/net/aspose.words.drawing/shapebase/getshaperenderer/
 ---
 ## ShapeBase.GetShapeRenderer method
 
-Skapar och returnerar ett objekt som kan användas för att återge denna form till en bild.
+Skapar och returnerar ett objekt som kan användas för att rendera denna form till en bild.
 
 ```csharp
 public ShapeRenderer GetShapeRenderer()
@@ -18,15 +18,15 @@ public ShapeRenderer GetShapeRenderer()
 
 ### Returvärde
 
-Renderobjektet för denna form.
+Renderer-objektet för den här formen.
 
 ## Anmärkningar
 
-Denna metod åberopar bara[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) constructor och passes detta objekt som en parameter.
+Den här metoden anropar bara[`ShapeRenderer`](../../../aspose.words.rendering/shaperenderer/) konstruktorn och skickar detta objekt som en parameter.
 
 ## Exempel
 
-Visar hur man använder en formrenderare för att exportera former till filer i det lokala filsystemet.
+Visar hur man använder en formrendering för att exportera former till filer i det lokala filsystemet.
 
 ```csharp
 Document doc = new Document(MyDir + "Various shapes.docx");
@@ -34,9 +34,9 @@ Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray
 
 Assert.AreEqual(7, shapes.Length);
 
-// Det finns 7 former i dokumentet, inklusive en gruppform med 2 underordnade former.
+// Det finns 7 former i dokumentet, inklusive en gruppform med 2 underformer.
 // Vi kommer att rendera varje form till en bildfil i det lokala filsystemet
-// medan man ignorerar gruppformerna eftersom de inte har något utseende.
+// samtidigt som gruppformerna ignoreras eftersom de inte har något utseende.
 // Detta kommer att producera 6 bildfiler.
 foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>())
 {

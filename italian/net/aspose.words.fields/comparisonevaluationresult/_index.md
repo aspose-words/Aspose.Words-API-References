@@ -3,14 +3,14 @@ title: ComparisonEvaluationResult Class
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.ComparisonEvaluationResult classe. Il risultato della valutazione comparativa in C#.
+description: Scopri la classe Aspose.Words.Fields.ComparisonEvaluationResult per un'analisi efficiente del confronto dei documenti. Ottieni insight e migliora il tuo flusso di lavoro!
 type: docs
-weight: 1480
+weight: 1890
 url: /it/net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
 
-Il risultato della valutazione comparativa.
+Il risultato della valutazione del confronto.
 
 Per saperne di più, visita il[Lavorare con i campi](https://docs.aspose.com/words/net/working-with-fields/) articolo di documentazione.
 
@@ -22,7 +22,7 @@ public sealed class ComparisonEvaluationResult
 
 | Nome | Descrizione |
 | --- | --- |
-| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Crea un risultato di valutazione comparativa. |
+| [ComparisonEvaluationResult](comparisonevaluationresult/#constructor)(*bool*) | Crea un risultato di valutazione del confronto. |
 | [ComparisonEvaluationResult](comparisonevaluationresult/#constructor_1)(*string*) | Crea un risultato di valutazione del confronto non riuscito con il messaggio di errore corrispondente. |
 
 ## Proprietà
@@ -34,7 +34,7 @@ public sealed class ComparisonEvaluationResult
 
 ## Esempi
 
-Mostra come implementare la valutazione personalizzata per i campi IF e COMPARE.
+Mostra come implementare la valutazione personalizzata per i campi SE e CONFRONTA.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -46,12 +46,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codici di campo utilizzati in questo esempio:
-    // 1. " IF {0} {1} {2} \"argomento vero\" \"argomento falso\" ".
+    // Codici di campo che utilizziamo in questo esempio:
+    // 1. " SE {0} {1} {2} \"argomento vero\" \"argomento falso\" ".
     // 2. "CONFRONTA {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con string, anziché bool.
+    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con stringa, anziché bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -73,6 +73,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

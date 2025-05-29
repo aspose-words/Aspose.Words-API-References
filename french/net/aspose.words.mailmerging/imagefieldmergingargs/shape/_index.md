@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words pour .NET
-description: ImageFieldMergingArgs Shape propriété. Spécifie la forme que le moteur de publipostage doit insérer dans le document en C#.
+description: Découvrez comment la propriété Shape ImageFieldMergingArgs améliore vos documents de publipostage en permettant une insertion de forme précise pour un aspect soigné.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/shape/
@@ -20,7 +20,75 @@ public Shape Shape { get; set; }
 
 Lorsque cette propriété est spécifiée, le moteur de publipostage ignore toutes les autres propriétés telles que[`ImageFileName`](../imagefilename/) ou[`ImageStream`](../imagestream/) et insère simplement la forme dans le document.
 
-Utilisez cette propriété pour contrôler entièrement le processus de fusion d'un champ de fusion d'image. Par exemple, vous pouvez spécifier[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/) ou toute autre propriété de forme pour affiner le nœud résultant. Cependant, veuillez noter que vous êtes responsable de fournir le contenu de la forme.
+Utilisez cette propriété pour contrôler entièrement le processus de fusion d'un champ de fusion d'image. Par exemple, vous pouvez spécifier[`WrapType`](../../../aspose.words.drawing/shapebase/wraptype/)ou toute autre propriété de forme pour affiner le nœud résultant. Veuillez noter cependant que vous êtes responsable de la fourniture du contenu de la forme.
+
+## Exemples
+
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
+
+```csharp
+public void MergeFieldImageDimension()
+{
+    Document doc = new Document();
+
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
+
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
+    Assert.AreEqual("Image:ImageColumn", field.FieldName);
+
+    // Créez une source de données appropriée.
+    DataTable dataTable = new DataTable("Images");
+    dataTable.Columns.Add(new DataColumn("ImageColumn"));
+    dataTable.Rows.Add(ImageDir + "Logo.jpg");
+    dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
+    dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
+
+    // Configurez un rappel pour modifier les tailles des images au moment de la fusion, puis exécutez le publipostage.
+    doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
+    doc.MailMerge.Execute(dataTable);
+
+    doc.UpdateFields();
+    doc.Save(ArtifactsDir + "Field.MERGEFIELD.ImageDimension.docx");
+}
+
+/// <summary>
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
+/// </summary>
+private class MergedImageResizer : IFieldMergingCallback
+{
+    public MergedImageResizer(double imageWidth, double imageHeight, MergeFieldImageDimensionUnit unit)
+    {
+        mImageWidth = imageWidth;
+        mImageHeight = imageHeight;
+        mUnit = unit;
+    }
+
+    public void FieldMerging(FieldMergingArgs e)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void ImageFieldMerging(ImageFieldMergingArgs args)
+    {
+        args.ImageFileName = args.FieldValue.ToString();
+        args.ImageWidth = new MergeFieldImageDimension(mImageWidth, mUnit);
+        args.ImageHeight = new MergeFieldImageDimension(mImageHeight, mUnit);
+
+        Assert.AreEqual(mImageWidth, args.ImageWidth.Value);
+        Assert.AreEqual(mUnit, args.ImageWidth.Unit);
+        Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
+        Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
+    }
+
+    private readonly double mImageWidth;
+    private readonly double mImageHeight;
+    private readonly MergeFieldImageDimensionUnit mUnit;
+}
+```
 
 ### Voir également
 

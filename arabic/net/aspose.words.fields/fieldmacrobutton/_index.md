@@ -3,9 +3,9 @@ title: FieldMacroButton Class
 linktitle: FieldMacroButton
 articleTitle: FieldMacroButton
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldMacroButton فصل. ينفذ حقل MACROBUTTON في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldMacroButton للتكامل السلس لحقول MACROBUTTON، مما يعزز أتمتة المستندات ووظائفها.
 type: docs
-weight: 2130
+weight: 2540
 url: /ar/net/aspose.words.fields/fieldmacrobutton/
 ---
 ## FieldMacroButton class
@@ -28,39 +28,39 @@ public class FieldMacroButton : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
-| [DisplayText](../../aspose.words.fields/fieldmacrobutton/displaytext/) { get; set; } | الحصول على النص أو تعيينه ليظهر على أنه "الزر" المحدد لتشغيل الماكرو أو الأمر. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
+| [DisplayText](../../aspose.words.fields/fieldmacrobutton/displaytext/) { get; set; } | يحصل على النص أو يضبطه ليظهر كـ "الزر" المحدد لتشغيل الماكرو أو الأمر. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [MacroName](../../aspose.words.fields/fieldmacrobutton/macroname/) { get; set; } | الحصول على اسم الماكرو أو الأمر المراد تشغيله أو تعيينه. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [MacroName](../../aspose.words.fields/fieldmacrobutton/macroname/) { get; set; } | يحصل على اسم الماكرو أو الأمر الذي سيتم تشغيله أو يعينه. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-يسمح بتشغيل ماكرو أو أمر.
+يسمح بتشغيل الماكرو أو الأمر.
 
 في Aspose.Words، يمكن أن يعمل هذا الحقل أيضًا كحقل دمج.
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات ماكرو للمستند من خلال النقر.
+يوضح كيفية استخدام حقول MACROBUTTON للسماح لنا بتشغيل وحدات الماكرو الخاصة بالمستند عن طريق النقر.
 
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// قم بإدراج حقل MACROBUTTON، وقم بالإشارة إلى أحد وحدات ماكرو المستند حسب الاسم في خاصية MacroName.
+// أدخل حقل MACROBUTTON، ثم قم بالإشارة إلى أحد وحدات الماكرو الموجودة في المستند بالاسم في خاصية MacroName.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
@@ -76,10 +76,10 @@ field.DisplayText = "Double click to run macro: " + field.MacroName;
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
 // استخدم الخاصية للإشارة إلى "ViewZoom200"، وهو ماكرو يأتي مع Microsoft Word.
-// يمكننا العثور على جميع وحدات الماكرو الأخرى عبر طريقة العرض -> وحدات الماكرو (القائمة المنسدلة) -> عرض وحدات الماكرو.
+// يمكننا العثور على جميع وحدات الماكرو الأخرى عبر عرض -> وحدات الماكرو (القائمة المنسدلة) -> عرض وحدات الماكرو.
 // في تلك القائمة، حدد "أوامر Word" من القائمة المنسدلة "وحدات الماكرو في:".
-// إذا كانت وثيقتنا تحتوي على ماكرو مخصص بنفس اسم ماكرو المخزون،
-// سيكون الماكرو الخاص بنا هو الذي يتم تشغيله في حقل MACROBUTTON.
+// إذا كانت مستندنا تحتوي على ماكرو مخصص يحمل نفس اسم الماكرو المخزن،
+// سيكون الماكرو الخاص بنا هو الذي يقوم بتشغيل حقل MACROBUTTON.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

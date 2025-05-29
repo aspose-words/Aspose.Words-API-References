@@ -2,8 +2,8 @@
 title: FieldNoteRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldNoteRef BookmarkName 财产. 获取或设置书签的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldNoteRef BookmarkName 属性，轻松管理和自定义您的书签，从而增强组织性和效率。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldnoteref/bookmarkname/
@@ -18,7 +18,7 @@ public string BookmarkName { get; set; }
 
 ## 例子
 
-显示插入NOTEREF 字段并修改其外观。
+显示插入 NOTEREF 字段，并修改其外观。
 
 ```csharp
 public void FieldNoteRef()
@@ -26,21 +26,21 @@ public void FieldNoteRef()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 创建带有脚注的书签，NOTEREF 字段将引用该脚注。
+    // 创建一个带有 NOTEREF 字段将引用的脚注的书签。
     InsertBookmarkWithFootnote(builder, "MyBookmark1", "Contents of MyBookmark1", "Footnote from MyBookmark1");
 
-    // 此NOTEREF 字段将显示引用书签内脚注的编号。
-    // 通过设置 InsertHyperlink 属性，我们可以通过按住 Ctrl 键并单击 Microsoft Word 中的字段来跳转到书签。
+    // 此 NOTEREF 字段将显示所引用书签内的脚注的编号。
+    // 设置 InsertHyperlink 属性可以让我们通过 Ctrl + 单击 Microsoft Word 中的字段跳转到书签。
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
         InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
 
-    // 当使用 \p 标志时，在脚注编号之后，该字段还显示书签相对于该字段的位置。
-    // Bookmark1 位于该字段上方并包含脚注编号 1，因此更新时结果将为“上方 1”。
+    // 使用 \p 标志时，在脚注编号之后，该字段还会显示书签相对于该字段的位置。
+    // Bookmark1 位于此字段上方，包含脚注编号 1，因此更新时结果将为“上方 1”。
     Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
         InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
 
-    // Bookmark2 位于该字段下方并包含脚注编号 2，因此该字段将显示“2 Below”。
-    // \f 标志使数字 2 以与实际文本中脚注数字标签相同的格式出现。
+    // Bookmark2 位于此字段下方，包含脚注编号 2，因此该字段将显示“2 Below”。
+    // \f 标志使数字 2 以与实际文本中的脚注编号标签相同的格式出现。
     Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
         InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
 
@@ -53,7 +53,7 @@ public void FieldNoteRef()
 }
 
 /// <summary>
-/// 使用文档生成器插入具有指定属性的NOTEREF 字段。
+/// 使用文档生成器插入具有指定属性的 NOTEREF 字段。
 /// </summary>
 private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string bookmarkName, bool insertHyperlink, bool insertRelativePosition, bool insertReferenceMark, string textBefore)
 {
@@ -70,7 +70,7 @@ private static FieldNoteRef InsertFieldNoteRef(DocumentBuilder builder, string b
 }
 
 /// <summary>
-/// 使用文档生成器插入末尾带有脚注的命名书签。
+/// 使用文档生成器插入一个命名书签，并在末尾添加脚注。
 /// </summary>
 private static void InsertBookmarkWithFootnote(DocumentBuilder builder, string bookmarkName, string bookmarkText, string footnoteText)
 {

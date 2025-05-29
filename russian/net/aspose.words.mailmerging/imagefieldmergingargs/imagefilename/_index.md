@@ -3,14 +3,14 @@ title: ImageFieldMergingArgs.ImageFileName
 linktitle: ImageFileName
 articleTitle: ImageFileName
 second_title: Aspose.Words для .NET
-description: ImageFieldMergingArgs ImageFileName свойство. Устанавливает имя файла изображения которое механизм слияния почты должен вставить в документ на С#.
+description: Установите ImageFileName в ImageFieldMergingArgs, чтобы без усилий вставлять изображения в документы во время слияний. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/imagefilename/
 ---
 ## ImageFieldMergingArgs.ImageFileName property
 
-Устанавливает имя файла изображения, которое механизм слияния почты должен вставить в документ.
+Задает имя файла изображения, которое механизм слияния почты должен вставить в документ.
 
 ```csharp
 public string ImageFileName { get; set; }
@@ -18,29 +18,29 @@ public string ImageFileName { get; set; }
 
 ## Примеры
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как задать размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Вставляем MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
-    // столбец в источнике данных, содержащий имена локальных системных файлов изображений, которые мы хотим использовать при слиянии писем.
+    // Вставьте MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
+    // столбец в источнике данных, содержащий локальные системные имена файлов изображений, которые мы хотим использовать при слиянии.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // Источник данных должен иметь такой столбец с именем «ImageColumn».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Создаем подходящий источник данных.
+    // Создайте подходящий источник данных.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Настройте обратный вызов для изменения размеров изображений во время слияния, а затем выполните слияние почты.
+    // Настройте обратный вызов для изменения размеров изображений во время слияния, затем выполните слияние почты.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -49,7 +49,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Устанавливает размер всех объединенных изображений почты в одну определенную ширину и высоту.
+/// Устанавливает размер всех объединенных изображений на одну определенную ширину и высоту.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -75,6 +75,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

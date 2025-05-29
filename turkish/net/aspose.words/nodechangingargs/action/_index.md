@@ -2,15 +2,15 @@
 title: NodeChangingArgs.Action
 linktitle: Action
 articleTitle: Action
-second_title: Aspose.Words for .NET
-description: NodeChangingArgs Action mülk. Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır C#'da.
+second_title: .NET için Aspose.Words
+description: NodeChangingArgs Action özelliğini keşfederek düğüm değişikliği olaylarını zahmetsizce tanımlayın. Bu temel özellik ile kodlama verimliliğinizi artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodechangingargs/action/
 ---
 ## NodeChangingArgs.Action property
 
-Ne tür bir düğüm değişikliği olayının meydana geldiğini gösteren bir değer alır.
+Hangi tür düğüm değişikliği olayının meydana geldiğini belirten bir değer alır.
 
 ```csharp
 public NodeChangingAction Action { get; }
@@ -18,7 +18,7 @@ public NodeChangingAction Action { get; }
 
 ## Örnekler
 
-Belge ağacını düzenlerken gerçek zamanlı olarak yapılan değişiklikleri izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
+Düzenleme yaparken belge ağacındaki değişiklikleri gerçek zamanlı olarak izlemek için NodeChangingCallback'in nasıl kullanılacağını gösterir.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Her düğüm ekleme/çıkarma işlemini belgede gerçekleştiği gibi yazdırır.
+/// Belgede gerçekleşen her düğüm ekleme/kaldırma işlemini yazdırır.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

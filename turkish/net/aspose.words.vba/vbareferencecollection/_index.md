@@ -2,17 +2,17 @@
 title: VbaReferenceCollection Class
 linktitle: VbaReferenceCollection
 articleTitle: VbaReferenceCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Vba.VbaReferenceCollection sınıf. Aşağıdakilerin bir koleksiyonunu temsil ederVbaReference nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde VbaReference nesnelerini etkili bir şekilde yönetmek için güçlü bir araç olan Aspose.Words.Vba.VbaReferenceCollection sınıfını keşfedin.
 type: docs
-weight: 6600
+weight: 7450
 url: /tr/net/aspose.words.vba/vbareferencecollection/
 ---
 ## VbaReferenceCollection class
 
-Aşağıdakilerin bir koleksiyonunu temsil eder:[`VbaReference`](../vbareference/) nesneler.
+Bir koleksiyonu temsil eder[`VbaReference`](../vbareference/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışmak](https://docs.aspose.com/words/net/working-with-vba-macros/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[VBA Makrolarıyla Çalışma](https://docs.aspose.com/words/net/working-with-vba-macros/) belgeleme makalesi.
 
 ```csharp
 public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
@@ -29,8 +29,8 @@ public sealed class VbaReferenceCollection : IEnumerable<VbaReference>
 
 | İsim | Tanım |
 | --- | --- |
-| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Belirtilenin ilk oluşumunu kaldırır[`VbaReference`](../vbareference/) koleksiyondan bir parça. |
-| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Kaldırır[`VbaReference`](../vbareference/) koleksiyonun belirtilen dizinindeki öğe. |
+| [Remove](../../aspose.words.vba/vbareferencecollection/remove/)(*[VbaReference](../vbareference/)*) | Belirtilen bir öğenin ilk örneğini kaldırır[`VbaReference`](../vbareference/) koleksiyondan bir öğe. |
+| [RemoveAt](../../aspose.words.vba/vbareferencecollection/removeat/)(*int*) | Şunu kaldırır:[`VbaReference`](../vbareference/) koleksiyonun belirtilen dizinindeki öğe. |
 
 ## Örnekler
 

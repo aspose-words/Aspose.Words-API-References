@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: DocumentPropertyCollection Count свойство. Получает количество элементов в коллекции на С#.
+description: Откройте для себя свойство DocumentPropertyCollection Count, чтобы легко получить количество элементов в вашей коллекции для эффективного управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.properties/documentpropertycollection/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Каждый документ содержит коллекцию пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства.
+// Каждый документ содержит набор пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+ // Документ имеет фиксированный список встроенных свойств. Пользователь создает все пользовательские свойства.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -2,10 +2,10 @@
 title: CellFormat.PreferredWidth
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
-second_title: Aspose.Words for .NET
-description: CellFormat PreferredWidth mülk. Hücrenin tercih edilen genişliğini döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: E-tablolarınızda optimum düzen ve tasarım için hücre genişliklerini kolayca özelleştirmek üzere CellFormat PreferredWidth özelliğini keşfedin. Veri sunumunuzu geliştirin!
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.tables/cellformat/preferredwidth/
 ---
 ## CellFormat.PreferredWidth property
@@ -18,9 +18,9 @@ public PreferredWidth PreferredWidth { get; set; }
 
 ## Notlar
 
-Tercih edilen genişlik (tablonun Otomatik Sığdır seçeneğiyle birlikte), hücrenin gerçek genişliğinin tablo düzeni algoritması tarafından nasıl hesaplanacağını belirler. Tablo düzeni, belgeyi kaydederken Aspose.Words veya belgeyi görüntülerken Microsoft Word tarafından gerçekleştirilebilir.
+Tercih edilen genişlik (tablonun Otomatik Uyum seçeneğiyle birlikte) hücrenin gerçek genişliğinin tablo düzeni algoritması tarafından nasıl hesaplandığını belirler. Tablo düzeni, belgeyi kaydederken Aspose.Words tarafından veya belgeyi görüntülerken Microsoft Word tarafından gerçekleştirilebilir.
 
-Tercih edilen genişlik nokta veya yüzde olarak belirtilebilir. Tercih edilen width aynı zamanda "auto" olarak da belirtilebilir; bu, tercih edilen genişliğin belirtilmediği anlamına gelir.
+Tercih edilen genişlik puan veya yüzde olarak belirtilebilir. Tercih edilen width "auto" olarak da belirtilebilir, bu da tercih edilen bir genişliğin belirtilmediği anlamına gelir.
 
 Varsayılan değer:[`Auto`](../../preferredwidth/auto/).
 
@@ -34,7 +34,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "PreferredWidth" sınıfını tablo hücrelerine uygulamanın iki yolu vardır.
-// 1 - Noktalara dayalı olarak tercih edilen mutlak genişliği ayarlayın:
+// 1 - Noktalara dayalı olarak mutlak bir tercih edilen genişlik ayarlayın:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
@@ -48,10 +48,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Tercih edilen genişliği belirtilmeyen bir hücre, kullanılabilir alanın geri kalanını kaplayacaktır.
+// Tercih edilen genişliği belirtilmeyen bir hücre kalan kullanılabilir alanı kaplayacaktır.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// "PreferredWidth" özelliğinin her konfigürasyonu yeni bir nesne oluşturur.
+// "PreferredWidth" özelliğinin her yapılandırması yeni bir nesne oluşturur.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

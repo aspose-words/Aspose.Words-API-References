@@ -2,8 +2,8 @@
 title: PageInfo.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
-second_title: Aspose.Words for .NET
-description: PageInfo SizeInPoints mülk. Sayfa boyutunu puan olarak alır C#'da.
+second_title: .NET için Aspose.Words
+description: Sayfa boyutunuza noktalar halinde kolayca erişmek, hassas düzen kontrolü ve gelişmiş tasarım verimliliği için PageInfo SizeInPoints özelliğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.rendering/pageinfo/sizeinpoints/
@@ -18,13 +18,13 @@ public SizeF SizeInPoints { get; }
 
 ## Örnekler
 
-Bir Word belgesindeki her sayfa için sayfa boyutu ve yön bilgilerinin nasıl yazdırılacağını gösterir.
+Word belgesindeki her sayfa için sayfa boyutu ve yönlendirme bilgilerinin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız,
-// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve çeşitleri farklılık gösterecektir
+// İlk bölüm 2 sayfadan oluşuyor. Her birine farklı bir yazıcı kağıt tepsisi atayacağız.
+// numarası bir tür kağıt kaynağıyla eşleşecek. Bu kaynaklar ve Türleri değişecektir
 // yüklü yazıcı sürücüsüne bağlı olarak.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,17 +38,17 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // Her sayfanın, dizini ilgili sayfanın numarası olan bir PageInfo nesnesi vardır.
+    // Her sayfanın bir PageInfo nesnesi vardır ve bu nesnenin indeksi ilgili sayfanın numarasıdır.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // Sayfanın yönünü ve boyutlarını yazdırın.
+    // Sayfanın yönünü ve boyutlarını yazdır.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // Kaynak tepsi bilgilerini yazdırın.
+    // Kaynak tepsi bilgilerini yazdır.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");

@@ -2,15 +2,15 @@
 title: Document.MailMerge
 linktitle: MailMerge
 articleTitle: MailMerge
-second_title: Aspose.Words for .NET
-description: Document MailMerge mülk. Bir değeri döndürürMailMerge belgenin adresmektup birleştirme işlevini temsil eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge nesnesiyle kusursuz belge otomasyonunun kilidini açın ve posta birleştirme görevlerini zahmetsizce basitleştirerek iş akışınızı geliştirin.
 type: docs
-weight: 260
+weight: 270
 url: /tr/net/aspose.words/document/mailmerge/
 ---
 ## Document.MailMerge property
 
-Bir değeri döndürür[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) belgenin adres-mektup birleştirme işlevini temsil eden nesne.
+Bir[`MailMerge`](../../../aspose.words.mailmerging/mailmerge/) belge için posta birleştirme işlevini temsil eden nesne.
 
 ```csharp
 public MailMerge MailMerge { get; }
@@ -18,7 +18,7 @@ public MailMerge MailMerge { get; }
 
 ## Örnekler
 
-DataTable'daki verilerle adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+DataTable'daki verilerle posta birleştirme işleminin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 public void ExecuteDataTable()
@@ -29,15 +29,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Aşağıda, adres-mektup birleştirme için veri kaynağı olarak DataTable'ı kullanmanın iki yolu verilmiştir.
-    // 1 - Tablodaki her satır için bir çıktı adres-mektup birleştirme belgesi oluşturmak amacıyla adres-mektup birleştirme için tablonun tamamını kullanın:
+    // Aşağıda bir posta birleştirme için veri kaynağı olarak DataTable kullanmanın iki yolu bulunmaktadır.
+    // 1 - Tablonun tamamını kullanarak, tablodaki her satır için tek bir çıktı birleştirme belgesi oluşturun:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Bir çıktı adres-mektup birleştirme belgesi oluşturmak için tablonun bir satırını kullanın:
+    // 2 - Tablonun bir satırını kullanarak tek bir çıktı birleştirme belgesi oluşturun:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -46,7 +46,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme kaynak belgesi oluşturur.
+/// Bir posta birleştirme kaynak belgesi oluşturur.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

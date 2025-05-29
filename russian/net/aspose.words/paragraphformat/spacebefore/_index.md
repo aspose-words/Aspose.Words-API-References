@@ -3,14 +3,14 @@ title: ParagraphFormat.SpaceBefore
 linktitle: SpaceBefore
 articleTitle: SpaceBefore
 second_title: Aspose.Words для .NET
-description: ParagraphFormat SpaceBefore свойство. Получает или задает величину интервала в пунктах перед абзацем на С#.
+description: Откройте для себя свойство ParagraphFormat SpaceBefore, которое позволяет легко настраивать интервалы между абзацами в пунктах, улучшая читабельность и стиль документа.
 type: docs
-weight: 320
+weight: 330
 url: /ru/net/aspose.words/paragraphformat/spacebefore/
 ---
 ## ParagraphFormat.SpaceBefore property
 
-Получает или задает величину интервала (в пунктах) перед абзацем.
+Возвращает или задает величину интервала (в пунктах) перед абзацем.
 
 ```csharp
 public double SpaceBefore { get; set; }
@@ -20,11 +20,11 @@ public double SpaceBefore { get; set; }
 
 | исключение | условие |
 | --- | --- |
-| ArgumentOutOfRangeException | Выдает, когда аргумент выходит за пределы допустимого диапазона значений. |
+| ArgumentOutOfRangeException | Вызывается, когда аргумент выходит за пределы допустимых значений. |
 
 ## Примечания
 
-Не имеет эффекта, когда[`SpaceBeforeAuto`](../spacebeforeauto/) является`истинный`.
+Не имеет никакого эффекта, когда[`SpaceBeforeAuto`](../spacebeforeauto/) является`истинный`.
 
 Допустимые значения находятся в диапазоне от 0 до 1584 включительно.
 
@@ -36,37 +36,37 @@ public double SpaceBefore { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Примените большой интервал до и после абзацев, которые создаст этот конструктор.
+// Применить большой интервал до и после абзацев, которые создаст этот конструктор.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Установите для этих флагов значение «true», чтобы применить автоматический интервал,
-// эффективно игнорируем интервал в свойствах, которые мы установили выше.
-// Оставьте их значение «false», и будет применен наш собственный интервал между абзацами.
+// Установите эти флаги на «true», чтобы применить автоматический интервал,
+// фактически игнорируя интервал в свойствах, которые мы установили выше.
+// Если оставить значение "false", будет применен наш пользовательский интервал между абзацами.
 builder.ParagraphFormat.SpaceAfterAuto = autoSpacing;
 builder.ParagraphFormat.SpaceBeforeAuto = autoSpacing;
 
-// Вставьте два абзаца с интервалом выше и ниже и сохраните документ.
+// Вставьте два абзаца с интервалами сверху и снизу и сохраните документ.
 builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 
 doc.Save(ArtifactsDir + "ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
-Показывает, как не применять интервалы между абзацами одного стиля.
+Показывает, как не использовать интервалы между абзацами с одинаковым стилем.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Примените большой интервал до и после абзацев, которые создаст этот конструктор.
+// Применить большой интервал до и после абзацев, которые создаст этот конструктор.
 builder.ParagraphFormat.SpaceBefore = 24;
 builder.ParagraphFormat.SpaceAfter = 24;
 
-// Установите для флага «NoSpaceBetweenParagraphsOfSameStyle» значение «true», чтобы применить
-// нет интервала между абзацами одного стиля, что позволяет группировать похожие абзацы.
-// Оставляем флаг "NoSpaceBetweenParagraphsOfSameStyle" равным "false"
-// чтобы равномерно применить интервал к каждому абзацу.
+// Установите флаг "NoSpaceBetweenParagraphsOfSameStyle" на "true", чтобы применить
+// без интервала между абзацами с одинаковым стилем, что позволит сгруппировать похожие абзацы.
+// Оставьте флаг "NoSpaceBetweenParagraphsOfSameStyle" как "false"
+// для равномерного применения интервала к каждому абзацу.
 builder.ParagraphFormat.NoSpaceBetweenParagraphsOfSameStyle = noSpaceBetweenParagraphsOfSameStyle;
 
 builder.ParagraphFormat.Style = doc.Styles["Normal"];

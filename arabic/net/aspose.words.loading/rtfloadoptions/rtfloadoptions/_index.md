@@ -3,14 +3,14 @@ title: RtfLoadOptions
 linktitle: RtfLoadOptions
 articleTitle: RtfLoadOptions
 second_title: Aspose.Words لـ .NET
-description: RtfLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية في C#.
+description: اكتشف منشئ RtfLoadOptions الذي يقوم بتشغيل فئتك بسهولة باستخدام القيم الافتراضية، مما يعزز كفاءة الترميز والإنتاجية لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.loading/rtfloadoptions/rtfloadoptions/
 ---
 ## RtfLoadOptions constructor
 
-تهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
+يقوم بتهيئة مثيل جديد لهذه الفئة بالقيم الافتراضية.
 
 ```csharp
 public RtfLoadOptions()
@@ -24,9 +24,9 @@ public RtfLoadOptions()
 // قم بإنشاء كائن "RtfLoadOptions" لتعديل كيفية تحميل مستند RTF.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// قم بتعيين خاصية "RecognizeUtf8Text" على "خطأ" لافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
-// ويقوم بتحميل كل حرف في المستند.
-// قم بتعيين خاصية "RecognizeUtf8Text" على "true" لتحليل أي أحرف متغيرة الطول قد تظهر في النص.
+// اضبط خاصية "RecognizeUtf8Text" على "false" لافتراض أن المستند يستخدم مجموعة أحرف ISO 8859-1
+// ويحمل كل حرف في المستند.
+// قم بضبط الخاصية "RecognizeUtf8Text" على "true" لتحليل أي أحرف ذات طول متغير قد تظهر في النص.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

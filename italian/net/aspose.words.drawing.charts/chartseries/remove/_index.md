@@ -3,14 +3,14 @@ title: ChartSeries.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words per .NET
-description: ChartSeries Remove metodo. Rimuove il valore X il valore Y e la dimensione della bolla se supportati dalle serie di grafici allindice specificato. Vengono rimossi anche il punto dati e letichetta dati corrispondenti in C#.
+description: Rimuovi senza sforzo i valori X, Y e le dimensioni delle bolle dalle tue serie di grafici con il metodo ChartSeries Remove. Semplifica la visualizzazione dei tuoi dati oggi stesso!
 type: docs
-weight: 200
+weight: 210
 url: /it/net/aspose.words.drawing.charts/chartseries/remove/
 ---
 ## ChartSeries.Remove method
 
-Rimuove il valore X, il valore Y e la dimensione della bolla, se supportati, dalle serie di grafici all'indice specificato. Vengono rimossi anche il punto dati e l'etichetta dati corrispondenti.
+Rimuove il valore X, il valore Y e la dimensione della bolla, se supportati, dalla serie del grafico all'indice specificato. Vengono rimossi anche il punto dati e l'etichetta dati corrispondenti.
 
 ```csharp
 public void Remove(int index)
@@ -18,7 +18,7 @@ public void Remove(int index)
 
 ## Esempi
 
-Mostra come aggiungere/rimuovere i valori dei dati del grafico.
+Mostra come aggiungere/rimuovere valori dai dati del grafico.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ ChartSeries department2Series = chart.Series[1];
 department1Series.Remove(0);
 department2Series.Remove(0);
 
-// Aggiunge nuovi valori a entrambe le serie.
+// Aggiunge nuovi valori ad entrambe le serie.
 ChartXValue newXCategory = ChartXValue.FromString("Q1, 2023");
 department1Series.Add(newXCategory, ChartYValue.FromDouble(10.3));
 department2Series.Add(newXCategory, ChartYValue.FromDouble(5.7));

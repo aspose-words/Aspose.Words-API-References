@@ -3,14 +3,14 @@ title: CustomXmlSchemaCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: CustomXmlSchemaCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen i C#.
+description: Upptäck CustomXmlSchemaCollection GetEnumerator-metoden för att enkelt iterera igenom alla samlingsobjekt. Förbättra din XML-datahantering idag!
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/customxmlschemacollection/getenumerator/
 ---
 ## CustomXmlSchemaCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen.
+Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen.
 
 ```csharp
 public IEnumerator<string> GetEnumerator()
@@ -39,15 +39,15 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Räkna upp scheman och skriv ut varje element.
+// Räkna upp schemana och skriv ut varje element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Nedan finns tre sätt att ta bort scheman från samlingen.
-// 1 - Ta bort ett schema efter index:
+// Nedan följer tre sätt att ta bort scheman från samlingen.
+// 1 - Ta bort ett schema via index:
 schemas.RemoveAt(2);
 
 // 2 - Ta bort ett schema efter värde:

@@ -3,14 +3,14 @@ title: Cluster.GetString
 linktitle: GetString
 articleTitle: GetString
 second_title: Aspose.Words для .NET
-description: Cluster GetString метод. СоздаетString используя кодовые точки из указанных кластеров на С#.
+description: Создавайте строки без усилий с помощью метода Cluster GetString, используя кодовые точки из указанных кластеров для эффективной обработки данных.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(*Cluster[]*)
 
-СоздаетString используя кодовые точки из указанных кластеров.
+СоздаетString с использованием кодовых точек из указанных кластеров.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -26,7 +26,7 @@ public static string GetString(Cluster[] clusters)
 
 ## GetString()
 
-СоздаетString используя кодовые точки из этого кластера.
+СоздаетString с использованием кодовых точек из этого кластера.
 
 ```csharp
 public string GetString()

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.HtmlVersion
 linktitle: HtmlVersion
 articleTitle: HtmlVersion
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions HtmlVersion propiedad. Especifica la versión del estándar HTML que se debe usar al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml  en C#.
+description: Descubre la propiedad HtmlSaveOptions HtmlVersion para elegir fácilmente tu estándar HTML al guardar documentos en HTML o MHTML. ¡Optimiza tu salida sin esfuerzo!
 type: docs
 weight: 330
 url: /es/net/aspose.words.saving/htmlsaveoptions/htmlversion/
 ---
 ## HtmlSaveOptions.HtmlVersion property
 
-Especifica la versión del estándar HTML que se debe usar al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
+Especifica la versión del estándar HTML que se debe utilizar al guardar el documento en HTML o MHTML. El valor predeterminado esXhtml .
 
 ```csharp
 public HtmlVersion HtmlVersion { get; set; }
@@ -35,13 +35,14 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Nuestro documento sólo contendrá un encabezado de declaración DOCTYPE si hemos configurado el indicador "ExportXhtmlTransitional" en "true".
+// Nuestro documento solo contendrá un encabezado de declaración DOCTYPE si hemos establecido el indicador "ExportXhtmlTransitional" en "verdadero".
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transicional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//ES\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
@@ -60,7 +61,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Nuestros documentos HTML tendrán pequeñas diferencias para ser compatibles con diferentes versiones de HTML.
+//Nuestros documentos HTML tendrán pequeñas diferencias para ser compatibles con diferentes versiones HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)
@@ -68,7 +69,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

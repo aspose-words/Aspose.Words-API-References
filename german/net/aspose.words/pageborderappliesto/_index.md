@@ -3,9 +3,9 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words für .NET
-description: Aspose.Words.PageBorderAppliesTo opsomming. Gibt an auf welchen Seiten der Seitenrand gedruckt wird in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.PageBorderAppliesTo, um den Seitenranddruck über bestimmte Seiten hinweg zu steuern und so die Dokumentformatierung zu verbessern.
 type: docs
-weight: 4340
+weight: 5070
 url: /de/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -26,7 +26,7 @@ public enum PageBorderAppliesTo
 
 ## Beispiele
 
-Zeigt, wie man oben auf der ersten Seite einen breiten blauen Bandrand erstellt.
+Zeigt, wie oben auf der ersten Seite ein breiter blauer Bandrand erstellt wird.
 
 ```csharp
 Document doc = new Document();

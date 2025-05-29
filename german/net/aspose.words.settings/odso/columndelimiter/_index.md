@@ -3,14 +3,14 @@ title: Odso.ColumnDelimiter
 linktitle: ColumnDelimiter
 articleTitle: ColumnDelimiter
 second_title: Aspose.Words für .NET
-description: Odso ColumnDelimiter eigendom. Gibt das Zeichen an das als Spaltentrennzeichen interpretiert werden soll das zum Trennen von Spalten in externen Datenquellen verwendet wird. Der Standardwert ist 0 was bedeutet dass kein Spaltentrennzeichen definiert ist in C#.
+description: Entdecken Sie die Odso ColumnDelimiter-Eigenschaft, um Spaltentrennzeichen in externen Datenquellen einfach zu definieren. Verbessern Sie die Datenorganisation mit anpassbaren Trennzeichen!
 type: docs
 weight: 20
 url: /de/net/aspose.words.settings/odso/columndelimiter/
 ---
 ## Odso.ColumnDelimiter property
 
-Gibt das Zeichen an, das als Spaltentrennzeichen interpretiert werden soll, das zum Trennen von Spalten in externen Datenquellen verwendet wird. Der Standardwert ist 0, was bedeutet, dass kein Spaltentrennzeichen definiert ist.
+Gibt das Zeichen an, das als Spaltentrennzeichen interpretiert werden soll, um Spalten innerhalb externer Datenquellen zu trennen. Der Standardwert ist 0, was bedeutet, dass kein Spaltentrennzeichen definiert ist.
 
 ```csharp
 public char ColumnDelimiter { get; set; }
@@ -18,7 +18,7 @@ public char ColumnDelimiter { get; set; }
 
 ## Bemerkungen
 
-RK Ich habe das noch nie im Einsatz gesehen.
+RK: Ich habe das noch nie im Einsatz gesehen.
 
 ## Beispiele
 
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

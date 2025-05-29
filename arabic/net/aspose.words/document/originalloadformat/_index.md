@@ -3,14 +3,14 @@ title: Document.OriginalLoadFormat
 linktitle: OriginalLoadFormat
 articleTitle: OriginalLoadFormat
 second_title: Aspose.Words لـ .NET
-description: Document OriginalLoadFormat ملكية. الحصول على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن في C#.
+description: اكتشف خاصية OriginalLoadFormat للوصول بسهولة إلى تنسيق المستند الأصلي المحمّل في الكائن الخاص بك، مما يؤدي إلى تحسين إدارة المستندات.
 type: docs
-weight: 300
+weight: 310
 url: /ar/net/aspose.words/document/originalloadformat/
 ---
 ## Document.OriginalLoadFormat property
 
-الحصول على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن.
+يحصل على تنسيق المستند الأصلي الذي تم تحميله في هذا الكائن.
 
 ```csharp
 public LoadFormat OriginalLoadFormat { get; }
@@ -18,7 +18,7 @@ public LoadFormat OriginalLoadFormat { get; }
 
 ## ملاحظات
 
-إذا قمت بإنشاء مستند فارغ جديد، فسيتم إرجاع الملفDoc قيمة.
+إذا قمت بإنشاء مستند فارغ جديد، فسيتم إرجاعDoc قيمة.
 
 ## أمثلة
 

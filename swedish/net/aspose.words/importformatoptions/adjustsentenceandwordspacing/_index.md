@@ -3,14 +3,14 @@ title: ImportFormatOptions.AdjustSentenceAndWordSpacing
 linktitle: AdjustSentenceAndWordSpacing
 articleTitle: AdjustSentenceAndWordSpacing
 second_title: Aspose.Words för .NET
-description: ImportFormatOptions AdjustSentenceAndWordSpacing fast egendom. Hämtar eller ställer in ett booleskt värde som anger om menings och ordavstånd ska justeras automatiskt. Standardvärdet ärfalsk  i C#.
+description: Upptäck egenskapen ImportFormatOptions AdjustSentenceAndWordSpacing. Styr enkelt automatiskt menings- och ordavstånd för förbättrad texttydlighet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/importformatoptions/adjustsentenceandwordspacing/
 ---
 ## ImportFormatOptions.AdjustSentenceAndWordSpacing property
 
-Hämtar eller ställer in ett booleskt värde som anger om menings- och ordavstånd ska justeras automatiskt. Standardvärdet är`falsk` .
+Hämtar eller ställer in ett booleskt värde som anger om avståndet mellan meningar och ord ska justeras automatiskt. Standardvärdet är`falsk` .
 
 ```csharp
 public bool AdjustSentenceAndWordSpacing { get; set; }
@@ -18,7 +18,7 @@ public bool AdjustSentenceAndWordSpacing { get; set; }
 
 ## Exempel
 
-Visar hur man justerar menings- och ordavstånd automatiskt.
+Visar hur man justerar avståndet mellan meningar och ord automatiskt.
 
 ```csharp
 Document srcDoc = new Document();

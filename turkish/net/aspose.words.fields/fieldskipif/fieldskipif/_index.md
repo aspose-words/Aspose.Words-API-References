@@ -2,8 +2,8 @@
 title: FieldSkipIf
 linktitle: FieldSkipIf
 articleTitle: FieldSkipIf
-second_title: Aspose.Words for .NET
-description: FieldSkipIf inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldSkipIf oluşturucusunu keşfedin—verimli veri işleme için temel aracınız. Sorunsuz entegrasyonun kilidini açın ve kodlama deneyiminizi bugün optimize edin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldskipif/fieldskipif/

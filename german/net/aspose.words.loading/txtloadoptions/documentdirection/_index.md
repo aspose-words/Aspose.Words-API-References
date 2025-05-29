@@ -3,9 +3,9 @@ title: TxtLoadOptions.DocumentDirection
 linktitle: DocumentDirection
 articleTitle: DocumentDirection
 second_title: Aspose.Words für .NET
-description: TxtLoadOptions DocumentDirection eigendom. Ruft eine Dokumentrichtung ab oder legt sie fest. Der Standardwert istLeftToRight  in C#.
+description: Entdecken Sie die Eigenschaft „DocumentDirection“ von TxtLoadOptions, um die Dokumentrichtung einfach festzulegen. Optimieren Sie Ihr Layout mit der Standardeinstellung „LeftToRight“!
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.loading/txtloadoptions/documentdirection/
 ---
 ## TxtLoadOptions.DocumentDirection property
@@ -18,24 +18,24 @@ public DocumentDirection DocumentDirection { get; set; }
 
 ## Beispiele
 
-Zeigt, wie die Textrichtung eines Klartextdokuments erkannt wird.
+Zeigt, wie die Textrichtung in Klartextdokumenten erkannt wird.
 
 ```csharp
-// Erstelle ein „TxtLoadOptions“-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
+// Erstelle ein "TxtLoadOptions"-Objekt, das wir an den Konstruktor eines Dokuments übergeben können
 // um zu ändern, wie wir ein Klartextdokument laden.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Setzen Sie die Eigenschaft „DocumentDirection“ auf „DocumentDirection.Auto“ automatisch erkennt
-// die Richtung jedes Textabsatzes, den Aspose.Words aus Klartext lädt.
+// Setzen Sie die Eigenschaft "DocumentDirection" auf "DocumentDirection.Auto" erkennt automatisch
+// die Richtung jedes Textabsatzes, den Aspose.Words aus dem Klartext lädt.
 // Die „Bidi“-Eigenschaft jedes Absatzes speichert seine Richtung.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// Hebräischen Text als von rechts nach links geschrieben erkennen.
+// Hebräischen Text als von rechts nach links lesend erkennen.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Englischen Text als von rechts nach links geschrieben erkennen.
+// Englischen Text als von rechts nach links lesend erkennen.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);

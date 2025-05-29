@@ -3,16 +3,16 @@ title: VbaModuleCollection Class
 linktitle: VbaModuleCollection
 articleTitle: VbaModuleCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaModuleCollection сорт. Представляет коллекциюVbaModule объекты на С#.
+description: Откройте для себя класс Aspose.Words.Vba.VbaModuleCollection — ваш основной инструмент для эффективного управления объектами VbaModule при автоматизации документов.
 type: docs
-weight: 6560
+weight: 7410
 url: /ru/net/aspose.words.vba/vbamodulecollection/
 ---
 ## VbaModuleCollection class
 
-Представляет коллекцию[`VbaModule`](../vbamodule/) объекты.
+Представляет собой коллекцию[`VbaModule`](../vbamodule/) объекты.
 
-Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) статья документации.
+Чтобы узнать больше, посетите[Работа с макросами VBA](https://docs.aspose.com/words/net/working-with-vba-macros/) документальная статья.
 
 ```csharp
 public sealed class VbaModuleCollection : IEnumerable<VbaModule>
@@ -23,7 +23,7 @@ public sealed class VbaModuleCollection : IEnumerable<VbaModule>
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words.vba/vbamodulecollection/count/) { get; } | Возвращает количество модулей VBA в коллекции. |
-| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Получает[`VbaModule`](../vbamodule/) объект по индексу. (2 indexers) |
+| [Item](../../aspose.words.vba/vbamodulecollection/item/) { get; } | Извлекает[`VbaModule`](../vbamodule/) объект по индексу. (2 indexers) |
 
 ## Методы
 
@@ -45,14 +45,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
+// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

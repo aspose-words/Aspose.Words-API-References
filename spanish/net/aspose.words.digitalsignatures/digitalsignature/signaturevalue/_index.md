@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words para .NET
-description: DigitalSignature SignatureValue propiedad. Obtiene una matriz de bytes que representa un valor de firma en C#.
+description: Descubra la propiedad SignatureValue de DigitalSignature, que proporciona una matriz de bytes para la representación segura de firmas. ¡Mejore su seguridad digital hoy mismo!
 type: docs
 weight: 60
 url: /es/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Obtiene una matriz de bytes que representa un valor de firma.
+Obtiene una matriz de bytes que representan un valor de firma.
 
 ```csharp
 public byte[] SignatureValue { get; }

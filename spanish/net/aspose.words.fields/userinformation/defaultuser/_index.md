@@ -3,7 +3,7 @@ title: UserInformation.DefaultUser
 linktitle: DefaultUser
 articleTitle: DefaultUser
 second_title: Aspose.Words para .NET
-description: UserInformation DefaultUser propiedad. Información de usuario predeterminada en C#.
+description: Descubre la propiedad DefaultUser para una gestión fluida de la información de usuario. ¡Mejora la eficiencia de tu app con nuestras funciones fáciles de usar!
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/userinformation/defaultuser/
@@ -18,7 +18,7 @@ public static UserInformation DefaultUser { get; }
 
 ## Observaciones
 
-Utilice el[`CurrentUser`](../../fieldoptions/currentuser/) propiedad para especificar información de usuario para un solo documento.
+Utilice el[`CurrentUser`](../../fieldoptions/currentuser/) propiedad para especificar información del usuario para un solo documento.
 
 ## Ejemplos
 
@@ -37,7 +37,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserte los campos NOMBRE DE USUARIO, INICIALES DE USUARIO y DIRECCIÓN DE USUARIO, que muestran valores de
+// Inserte los campos NOMBRE DE USUARIO, INICIALES DEL USUARIO y DIRECCIÓN DEL USUARIO, que muestran los valores de
  // las propiedades respectivas del objeto UserInformation que hemos creado anteriormente.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

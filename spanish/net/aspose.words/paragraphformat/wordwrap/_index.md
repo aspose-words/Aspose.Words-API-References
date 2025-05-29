@@ -3,14 +3,14 @@ title: ParagraphFormat.WordWrap
 linktitle: WordWrap
 articleTitle: WordWrap
 second_title: Aspose.Words para .NET
-description: ParagraphFormat WordWrap propiedad. Si esta propiedad esFALSO  El texto latino en medio de una palabra se puede ajustar para el párrafo actual. De lo contrario el texto en latín se envuelve con palabras completas en C#.
+description: Descubra cómo la propiedad ParagraphFormat WordWrap afecta el ajuste de texto en Word. Aprenda a controlar el flujo de texto en latín para mejorar la legibilidad de los documentos.
 type: docs
-weight: 410
+weight: 420
 url: /es/net/aspose.words/paragraphformat/wordwrap/
 ---
 ## ParagraphFormat.WordWrap property
 
-Si esta propiedad es`FALSO` , El texto latino en medio de una palabra se puede ajustar para el párrafo actual. De lo contrario, el texto en latín se envuelve con palabras completas.
+Si esta propiedad es`FALSO` El texto en latín en medio de una palabra se puede ajustar durante el párrafo actual. De lo contrario, se ajusta con palabras completas.
 
 ```csharp
 public bool WordWrap { get; set; }

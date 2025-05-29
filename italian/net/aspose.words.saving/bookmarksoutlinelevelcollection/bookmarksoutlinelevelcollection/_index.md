@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words per .NET
-description: BookmarksOutlineLevelCollection costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore BookmarksOutlineLevelCollection: la chiave per creare segnalibri organizzati senza sforzo. Migliora il tuo codice con questa soluzione predefinita!
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/

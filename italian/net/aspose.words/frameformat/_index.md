@@ -3,14 +3,14 @@ title: FrameFormat Class
 linktitle: FrameFormat
 articleTitle: FrameFormat
 second_title: Aspose.Words per .NET
-description: Aspose.Words.FrameFormat classe. Rappresenta la formattazione relativa al frame per un paragrafo in C#.
+description: Scopri la classe Aspose.Words.FrameFormat per la formattazione avanzata dei frame nei paragrafi. Migliora il design dei tuoi documenti con una perfetta integrazione e flessibilità.
 type: docs
-weight: 3070
+weight: 3500
 url: /it/net/aspose.words/frameformat/
 ---
 ## FrameFormat class
 
-Rappresenta la formattazione relativa al frame per un paragrafo.
+Rappresenta la formattazione relativa alla cornice per un paragrafo.
 
 ```csharp
 public class FrameFormat
@@ -24,20 +24,20 @@ public class FrameFormat
 | [HeightRule](../../aspose.words/frameformat/heightrule/) { get; } | Ottiene la regola per determinare l'altezza del frame specificato. |
 | [HorizontalAlignment](../../aspose.words/frameformat/horizontalalignment/) { get; } | Ottiene l'allineamento orizzontale del frame specificato. |
 | [HorizontalDistanceFromText](../../aspose.words/frameformat/horizontaldistancefromtext/) { get; } | Ottiene la distanza orizzontale tra una cornice e il testo circostante, in punti. |
-| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Ottiene la distanza orizzontale tra il bordo del frame e l'elemento specificato da[`RelativeHorizontalPosition`](./relativehorizontalposition/) proprietà. |
+| [HorizontalPosition](../../aspose.words/frameformat/horizontalposition/) { get; } | Ottiene la distanza orizzontale tra il bordo della cornice e l'elemento specificato da[`RelativeHorizontalPosition`](./relativehorizontalposition/) proprietà. |
 | [IsFrame](../../aspose.words/frameformat/isframe/) { get; } | Restituisce`VERO` se il paragrafo è una cornice. |
 | [RelativeHorizontalPosition](../../aspose.words/frameformat/relativehorizontalposition/) { get; } | Ottiene la posizione orizzontale relativa di un frame. |
 | [RelativeVerticalPosition](../../aspose.words/frameformat/relativeverticalposition/) { get; } | Ottiene la posizione verticale relativa di un frame. |
 | [VerticalAlignment](../../aspose.words/frameformat/verticalalignment/) { get; } | Ottiene l'allineamento verticale del frame specificato. |
 | [VerticalDistanceFromText](../../aspose.words/frameformat/verticaldistancefromtext/) { get; } | Specifica la distanza verticale (in punti) tra una cornice e il testo circostante. |
-| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ottiene la distanza verticale tra il bordo del frame e l'elemento specificato da[`RelativeVerticalPosition`](./relativeverticalposition/) proprietà. |
+| [VerticalPosition](../../aspose.words/frameformat/verticalposition/) { get; } | Ottiene la distanza verticale tra il bordo della cornice e l'elemento specificato da[`RelativeVerticalPosition`](./relativeverticalposition/) proprietà. |
 | [Width](../../aspose.words/frameformat/width/) { get; } | Ottiene la larghezza del frame specificato, in punti. |
 
 ## Osservazioni
 
-Questo oggetto viene sempre creato. Se un paragrafo è una cornice, tutte le proprietà conterranno i rispettivi valori, altrimenti tutte le proprietà verranno impostate sui valori predefiniti.
+Questo oggetto viene sempre creato. Se un paragrafo è un frame, tutte le proprietà conterranno i rispettivi valori, altrimenti tutte le proprietà saranno impostate sui valori predefiniti.
 
-Utilizzo[`IsFrame`](./isframe/) per verificare se il paragrafo è una cornice.
+Utilizzo[`IsFrame`](./isframe/)per verificare se il paragrafo è una cornice.
 
 ## Esempi
 

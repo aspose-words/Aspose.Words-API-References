@@ -2,15 +2,15 @@
 title: BookmarkEnd.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: BookmarkEnd Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Ziyaretçi etkileşimini artırmak ve web sitenizin kullanıcı deneyimini kolaylaştırmak için BookmarkEnd Accept yöntemini keşfedin. Sitenizin performansını bugün artırın!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bookmarkend/accept/
 ---
 ## BookmarkEnd.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,36 +22,36 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-`YANLIŞ` ziyaretçi numaralandırmanın durdurulmasını talep ederse.
+`YANLIŞ` eğer ziyaretçi sayımın durdurulmasını talep ederse.
 
 ## Notlar
 
-Aramalar[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/).
+Çağrılar[`VisitBookmarkEnd`](../../documentvisitor/visitbookmarkend/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
 ## Örnekler
 
-Yer işaretlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
+Yer imlerinin nasıl ekleneceğini ve içeriklerinin nasıl güncelleneceğini gösterir.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Üç yer imine sahip bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
+    // Üç yer imi içeren bir belge oluşturun, ardından içeriklerini yazdırmak için özel bir belge ziyaretçisi uygulaması kullanın.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Yer imleri koleksiyonundaki yer imlerine dizine veya isme göre erişilebilir ve adları güncellenebilir.
+    // Yer imlerine yer imi koleksiyonunda indeks veya isimle erişilebilir ve isimleri güncellenebilir.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Güncellenen değerleri görmek için tüm yer imlerini tekrar yazdırın.
+    // Güncellenmiş değerleri görmek için tüm yer imlerini tekrar yazdır.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Belirli sayıda yer işaretine sahip bir belge oluşturun.
+/// Belirtilen sayıda yer imi içeren bir belge oluşturun.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -73,13 +73,13 @@ private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 }
 
 /// <summary>
-/// Koleksiyondaki her yer iminin bilgilerini yazdırmak için bir yineleyici ve bir ziyaretçi kullanın.
+/// Koleksiyondaki her yer iminin bilgisini yazdırmak için bir yineleyici ve bir ziyaretçi kullanın.
 /// </summary>
 private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağlayın.
+    // Koleksiyondaki her yer iminin, içeriğini yazdıracak bir ziyaretçiyi kabul etmesini sağla.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,9 +3,9 @@ title: AxisBound Class
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.AxisBound classe. Rappresenta il limite minimo o massimo dei valori degli assi in C#.
+description: Scopri la classe Aspose.Words.Drawing.Charts.AxisBound, la soluzione per definire i limiti dei valori degli assi nei grafici per una visualizzazione precisa dei dati.
 type: docs
-weight: 510
+weight: 750
 url: /it/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
@@ -22,9 +22,9 @@ public sealed class AxisBound
 
 | Nome | Descrizione |
 | --- | --- |
-| [AxisBound](axisbound/#constructor)() | Crea una nuova istanza che indica che il limite dell'asse deve essere determinato automaticamente da un'applicazione di elaborazione testi . |
-| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crea un limite dell'asse rappresentato come valore data/ora. |
-| [AxisBound](axisbound/#constructor_1)(*double*) | Crea un limite dell'asse rappresentato come un numero. |
+| [AxisBound](axisbound/#constructor)() | Crea una nuova istanza che indica che il limite dell'asse deve essere determinato automaticamente da un'applicazione di elaborazione testi. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Crea un limite di asse rappresentato come valore datetime. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Crea un limite di asse rappresentato come un numero. |
 
 ## Proprietà
 
@@ -40,17 +40,17 @@ public sealed class AxisBound
 | --- | --- |
 | override [Equals](../../aspose.words.drawing.charts/axisbound/equals/)(*object*) | Determina se l'oggetto specificato ha un valore uguale all'oggetto corrente. |
 | override [GetHashCode](../../aspose.words.drawing.charts/axisbound/gethashcode/)() | Serve come funzione hash per questo tipo. |
-| override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Restituisce una stringa intuitiva che visualizza il valore di questo oggetto. |
+| override [ToString](../../aspose.words.drawing.charts/axisbound/tostring/)() | Restituisce una stringa di facile utilizzo che visualizza il valore di questo oggetto. |
 
 ## Osservazioni
 
-Il limite può essere specificato come valore numerico, data/ora o speciale "automatico".
+Il limite può essere specificato come valore numerico, data e ora o come valore speciale "automatico".
 
 Le istanze di questa classe sono immutabili.
 
 ## Esempi
 
-Mostra come inserire un grafico con valori di data/ora.
+Mostra come inserire grafici con valori di data/ora.
 
 ```csharp
 Document doc = new Document();
@@ -59,10 +59,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
+// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Aggiunge una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
+// Aggiungi una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -76,7 +76,7 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Imposta le unità principali dell'asse X su una settimana e le unità minori su un giorno.
+// Imposta le unità principali dell'asse X su una settimana e le unità secondarie su un giorno.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -85,9 +85,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definisce le proprietà dell'asse Y per i valori decimali.
+// Definisci le proprietà dell'asse Y per i valori decimali.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

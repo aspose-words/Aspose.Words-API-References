@@ -2,15 +2,15 @@
 title: TextBox.TextBoxWrapMode
 linktitle: TextBoxWrapMode
 articleTitle: TextBoxWrapMode
-second_title: Aspose.Words for .NET
-description: TextBox TextBoxWrapMode mülk. Metnin şeklin içinde nasıl kaydırılacağını belirler C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın netliğini ve görsel çekiciliğini artırmak için şekiller içindeki metin kaydırmayı geliştirmek amacıyla TextBox WrapMode özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.drawing/textbox/textboxwrapmode/
 ---
 ## TextBox.TextBoxWrapMode property
 
-Metnin şeklin içinde nasıl kaydırılacağını belirler.
+Metnin bir şeklin içinde nasıl sarılacağını belirler.
 
 ```csharp
 public TextBoxWrapMode TextBoxWrapMode { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:Square.
 
 ## Örnekler
 
-Metin kutusunun içeriği için sarma modunun nasıl ayarlanacağını gösterir.
+Bir metin kutusunun içeriği için kaydırma modunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,9 +32,9 @@ Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 300, 300);
 TextBox textBox = textBoxShape.TextBox;
 
 // Metin kutusunun genişliğini artırmak için "TextBoxWrapMode" özelliğini "TextBoxWrapMode.None" olarak ayarlayın
-// yeterince büyük olması durumunda metni yerleştirmek için.
+// metni barındıracak kadar büyük olmalıdır.
 // "TextBoxWrapMode" özelliğini "TextBoxWrapMode.Square" olarak ayarlayın
-// tüm metni boyutlarını koruyarak metin kutusunun içine sarın.
+// metin kutusunun içindeki tüm metni, boyutlarını koruyarak sar.
 textBox.TextBoxWrapMode = textBoxWrapMode;
 
 builder.MoveTo(textBoxShape.LastParagraph);

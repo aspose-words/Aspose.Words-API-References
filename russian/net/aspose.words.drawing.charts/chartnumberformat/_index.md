@@ -3,16 +3,16 @@ title: ChartNumberFormat Class
 linktitle: ChartNumberFormat
 articleTitle: ChartNumberFormat
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartNumberFormat сорт. Представляет числовое форматирование родительского элемента на С#.
+description: Откройте для себя класс Aspose.Words.Drawing.Charts.ChartNumberFormat для расширенного форматирования чисел в диаграммах. Улучшите визуальную привлекательность вашего документа!
 type: docs
-weight: 770
+weight: 1060
 url: /ru/net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
 
-Представляет числовое форматирование родительского элемента.
+Представляет форматирование чисел родительского элемента.
 
-Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) статья документации.
+Чтобы узнать больше, посетите[Работа с диаграммами](https://docs.aspose.com/words/net/working-with-charts/) документальная статья.
 
 ```csharp
 public class ChartNumberFormat
@@ -22,7 +22,7 @@ public class ChartNumberFormat
 
 | Имя | Описание |
 | --- | --- |
-| [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | Получает или задает код формата, применяемый к метке данных. |
+| [FormatCode](../../aspose.words.drawing.charts/chartnumberformat/formatcode/) { get; set; } | Возвращает или задает код формата, применяемый к метке данных. |
 | [IsLinkedToSource](../../aspose.words.drawing.charts/chartnumberformat/islinkedtosource/) { get; set; } | Указывает, связан ли код формата с исходной ячейкой. Значение по умолчанию — true. |
 
 ## Примеры
@@ -39,16 +39,16 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем на диаграмму пользовательскую серию с категориями по оси X,
+// Добавить пользовательскую серию в диаграмму с категориями для оси X,
  // и большие соответствующие числовые значения для оси Y.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Установите числовой формат меток деления оси Y, чтобы цифры не группировались с запятыми.
+ // Задайте формат чисел для меток делений оси Y, чтобы не группировать цифры с запятыми.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Этот флаг может переопределить указанное выше значение и получить числовой формат из исходной ячейки.
+// Этот флаг может переопределить указанное выше значение и извлечь числовой формат из исходной ячейки.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

@@ -3,14 +3,14 @@ title: NodeChangingArgs.Node
 linktitle: Node
 articleTitle: Node
 second_title: Aspose.Words för .NET
-description: NodeChangingArgs Node fast egendom. FårNode som läggs till eller tas bort i C#.
+description: Upptäck egenskapen NodeChangingArgs för att enkelt hantera noder som läggs till eller tas bort i din applikation. Effektivisera ditt arbetsflöde idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words/nodechangingargs/node/
 ---
 ## NodeChangingArgs.Node property
 
-Får`Node` som läggs till eller tas bort.
+Hämtar`Node` som läggs till eller tas bort.
 
 ```csharp
 public Node Node { get; }
@@ -18,7 +18,7 @@ public Node Node { get; }
 
 ## Exempel
 
-Visar hur du anpassar nodbyte med en återuppringning.
+Visar hur man anpassar nodändringar med en återanrop.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -26,7 +26,7 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Ställ in noden ändra callback till anpassad implementering,
+    // Ställ in nodändringsmotringningen till anpassad implementering,
     // lägg sedan till/ta bort noder för att få den att generera en logg.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Loggar datum och tid för varje nod insättning och borttagning.
-/// Ställer in ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
+/// Loggar datum och tid för varje nodinsättning och borttagning.
+/// Anger ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

@@ -3,16 +3,16 @@ title: CustomDocumentProperties Class
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Properties.CustomDocumentProperties classe. Une collection de propriétés de document personnalisées en C#.
+description: Découvrez Aspose.Words.Properties.CustomDocumentProperties pour gérer facilement les propriétés personnalisées de vos documents. Optimisez votre gestion documentaire dès aujourd'hui !
 type: docs
-weight: 4460
+weight: 5190
 url: /fr/net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
 
 Une collection de propriétés de document personnalisées.
 
-Pour en savoir plus, visitez le[Travailler avec les propriétés du document](https://docs.aspose.com/words/net/work-with-document-properties/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les propriétés du document](https://docs.aspose.com/words/net/work-with-document-properties/) article de documentation.
 
 ```csharp
 public class CustomDocumentProperties : DocumentPropertyCollection
@@ -35,9 +35,9 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_1)(*string, double*) | Crée une nouvelle propriété de document personnalisée duDouble type de données. |
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_2)(*string, int*) | Crée une nouvelle propriété de document personnalisée duNumber type de données. |
 | [Add](../../aspose.words.properties/customdocumentproperties/add/#add_4)(*string, string*) | Crée une nouvelle propriété de document personnalisée duString type de données. |
-| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Crée une nouvelle propriété de document personnalisé liée au contenu. |
+| [AddLinkToContent](../../aspose.words.properties/customdocumentproperties/addlinktocontent/)(*string, string*) | Crée une nouvelle propriété de document personnalisée liée au contenu. |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Supprime toutes les propriétés de la collection. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Retours`vrai` si une propriété avec le nom spécifié existe dans la collection. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Retours`vrai` si une propriété portant le nom spécifié existe dans la collection. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Renvoie un objet énumérateur qui peut être utilisé pour parcourir tous les éléments de la collection. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtient l'index d'une propriété par nom. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Supprime une propriété portant le nom spécifié de la collection. |
@@ -45,21 +45,21 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 
 ## Remarques
 
-Chaque[`DocumentProperty`](../documentproperty/) L'objet représente une propriété personnalisée d'un document conteneur.
+Chaque[`DocumentProperty`](../documentproperty/) l'objet représente une propriété personnalisée d'un document conteneur.
 
 Les noms des propriétés ne sont pas sensibles à la casse.
 
-Les propriétés de la collection sont triées par ordre alphabétique de nom.
+Les propriétés de la collection sont triées par ordre alphabétique par nom.
 
 ## Exemples
 
-Montre comment utiliser les propriétés de document personnalisées.
+Montre comment travailler avec les propriétés de document personnalisées.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
 // Chaque document contient une collection de propriétés personnalisées qui, comme les propriétés intégrées, sont des paires clé-valeur.
- // Le document a une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
+ // Le document possède une liste fixe de propriétés intégrées. L'utilisateur crée toutes les propriétés personnalisées.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

@@ -3,14 +3,14 @@ title: Table.SetBorder
 linktitle: SetBorder
 articleTitle: SetBorder
 second_title: Aspose.Words para .NET
-description: Table SetBorder método. Establece el borde de la tabla especificado con el estilo ancho y color de línea especificados en C#.
+description: Personaliza la apariencia de tu tabla con el método SetBorder: ajusta el estilo, el ancho y el color de la línea para lograr un aspecto profesional. ¡Mejora tu diseño hoy mismo!
 type: docs
-weight: 410
+weight: 430
 url: /es/net/aspose.words.tables/table/setborder/
 ---
 ## Table.SetBorder method
 
-Establece el borde de la tabla especificado con el estilo, ancho y color de línea especificados.
+Establece el borde de la tabla especificada con el estilo de línea, ancho y color especificados.
 
 ```csharp
 public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWidth, Color color, 
@@ -20,9 +20,9 @@ public void SetBorder(BorderType borderType, LineStyle lineStyle, double lineWid
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | borderType | BorderType | El borde de la tabla para cambiar. |
-| lineStyle | LineStyle | El estilo de línea que se aplicará. |
+| lineStyle | LineStyle | El estilo de línea a aplicar. |
 | lineWidth | Double | El ancho de línea a establecer (en puntos). |
-| color | Color | El color que se utilizará para el borde. |
+| color | Color | El color a utilizar para el borde. |
 | isOverrideCellBorders | Boolean | Cuando`verdadero`, hace que se eliminen todos los bordes de celda explícitos existentes. |
 
 ## Ejemplos
@@ -33,14 +33,14 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla con el centro de la página.
+// Alinea la tabla al centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Borra los bordes y sombreados existentes de la tabla.
+//Borra todos los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 
-// Agrega bordes verdes al contorno de la tabla.
+//Añade bordes verdes al contorno de la tabla.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

@@ -2,15 +2,15 @@
 title: ChartSeries.DataPoints
 linktitle: DataPoints
 articleTitle: DataPoints
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartSeries DataPoints 财产. 返回该系列中所有数据点的格式化对象的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartSeries DataPoints 属性，提供全面的格式化工具集合以增强系列中的每个数据点。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property
 
-返回该系列中所有数据点的格式化对象的集合。
+返回此系列中所有数据点的格式化对象集合。
 
 ```csharp
 public ChartDataPointCollection DataPoints { get; }
@@ -18,7 +18,7 @@ public ChartDataPointCollection DataPoints { get; }
 
 ## 例子
 
-展示如何将标签应用到折线图中的数据点。
+展示如何将标签应用于折线图中的数据点。
 
 ```csharp
 public void DataLabels()
@@ -52,10 +52,13 @@ public void DataLabels()
         }
     }
 
-    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // 我们还可以一次剥离整个系列的数据标签。
+    // 为了使图表看起来更清晰，我们可以单独删除数据标签。
+    dataLabel.ClearFormat();
+
+    // 我们还可以一次性剥离整个系列的数据标签。
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
@@ -66,10 +69,11 @@ public void DataLabels()
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

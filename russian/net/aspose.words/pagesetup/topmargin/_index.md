@@ -3,7 +3,7 @@ title: PageSetup.TopMargin
 linktitle: TopMargin
 articleTitle: TopMargin
 second_title: Aspose.Words для .NET
-description: PageSetup TopMargin свойство. Возвращает или задает расстояние в пунктах между верхним краем страницы и верхней границей основного текста на С#.
+description: Настройте свойство PageSetup TopMargin, чтобы задать расстояние от верхнего края страницы до текста, улучшив макет и удобочитаемость.
 type: docs
 weight: 440
 url: /ru/net/aspose.words/pagesetup/topmargin/
@@ -18,7 +18,7 @@ public double TopMargin { get; set; }
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();

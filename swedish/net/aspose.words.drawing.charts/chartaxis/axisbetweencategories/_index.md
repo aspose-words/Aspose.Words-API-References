@@ -3,14 +3,14 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words för .NET
-description: ChartAxis AxisBetweenCategories fast egendom. Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier i C#.
+description: Upptäck egenskapen ChartAxis AxisBetweenCategories – kontrollera värdeaxelns positionering för förbättrad kategorivisualisering i dina diagram. Optimera din datapresentation!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/
 ---
 ## ChartAxis.AxisBetweenCategories property
 
-Hämtar eller sätter en flagga som indikerar om värdeaxeln korsar kategoriaxeln mellan kategorier.
+Hämtar eller ställer in en flagga som anger om värdeaxeln korsar kategoriaxeln mellan kategorier.
 
 ```csharp
 public bool AxisBetweenCategories { get; set; }
@@ -18,11 +18,11 @@ public bool AxisBetweenCategories { get; set; }
 
 ## Anmärkningar
 
-Egenskapen har effekt endast för värdeaxlar. Det stöds inte av MS Office 2016 nya diagram.
+Egenskapen har endast effekt för värdeaxlar. Den stöds inte av nya diagram i MS Office 2016.
 
 ## Exempel
 
-Visar hur man får en grafaxel att korsa på en anpassad plats.
+Visar hur man får en grafaxel att korsa vid en anpassad plats.
 
 ```csharp
 Document doc = new Document();
@@ -36,9 +36,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// För kolumndiagram korsar Y-axeln vid noll som standard,
-// vilket betyder att kolumner för alla värden under noll pekar ner för att representera negativa värden.
-// Vi kan ställa in ett annat värde för Y-axelns korsning. I det här fallet kommer vi att ställa in den till 3.
+// För stapeldiagram korsar Y-axeln vid noll som standard,
+// vilket innebär att kolumner för alla värden under noll pekar nedåt för att representera negativa värden.
+// Vi kan ställa in ett annat värde för Y-axelns korsning. I det här fallet ställer vi in det till 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

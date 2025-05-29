@@ -3,7 +3,7 @@ title: RowFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words pour .NET
-description: RowFormat Borders propriété. Obtient la collection de bordures de cellule par défaut pour la ligne en C#.
+description: Découvrez la propriété RowFormat Borders pour accéder aux bordures de cellule par défaut de vos lignes, améliorant ainsi la présentation de vos données avec style et clarté.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.tables/rowformat/borders/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Définition des options de formatage de tableau pour un générateur de documents
-// les appliquera à chaque ligne et cellule que nous ajouterons avec.
+// les appliquera à chaque ligne et cellule que nous ajouterons avec lui.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -50,8 +50,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Changer le formatage l'appliquera à la cellule actuelle,
-// et toutes les nouvelles cellules que nous créons ensuite avec le constructeur.
+// La modification de la mise en forme l'appliquera à la cellule actuelle,
+// et toutes les nouvelles cellules que nous créons avec le générateur par la suite.
 // Cela n'affectera pas les cellules que nous avons ajoutées précédemment.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Augmente la hauteur de la ligne pour l'adapter au texte vertical.
+// Augmenter la hauteur de la ligne pour s'adapter au texte vertical.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

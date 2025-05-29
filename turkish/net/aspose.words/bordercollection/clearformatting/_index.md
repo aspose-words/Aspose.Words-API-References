@@ -2,8 +2,8 @@
 title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: Aspose.Words for .NET
-description: BorderCollection ClearFormatting yöntem. Bir nesnenin tüm kenarlıklarını kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: BorderCollection ClearFormatting yönteminin tüm nesne kenarlıklarını zahmetsizce nasıl kaldırdığını ve tasarımınızı temiz, keskin görsellerle nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 140
 url: /tr/net/aspose.words/bordercollection/clearformatting/
@@ -18,19 +18,19 @@ public void ClearFormatting()
 
 ## Örnekler
 
-Bir belgedeki tüm paragraflardaki kenarlıkların nasıl kaldırılacağını gösterir.
+Bir belgedeki tüm paragraflardaki tüm kenarlıkların nasıl kaldırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// Bu belgenin ilk paragrafında bu ayarlarla görünür kenarlıklar var.
+// Bu belgenin ilk paragrafında bu ayarlarla görünür kenarlıklar vardır.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Tüm kenarlıkları kaldırmak için her paragrafta "ClearFormatting" yöntemini kullanın.
+// Her paragrafta tüm kenarlıkları kaldırmak için "ClearFormatting" yöntemini kullanın.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

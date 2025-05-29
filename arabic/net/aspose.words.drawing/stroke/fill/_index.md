@@ -3,9 +3,9 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words لـ .NET
-description: Stroke Fill ملكية. يحصل على تنسيق التعبئة لـStroke  في C#.
+description: اكتشف خاصية تعبئة الخطوط لتحسين تنسيق التعبئة في تصاميمك. ارتقِ بمشاريعك مع تخصيص دقيق للخطوط اليوم!
 type: docs
-weight: 90
+weight: 120
 url: /ar/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -27,12 +27,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// الأشكال الأساسية، مثل المستطيل، لها جزأين مرئيين.
-// 1 - التعبئة، والتي تنطبق على المساحة الموجودة داخل المخطط التفصيلي للشكل:
+//الأشكال الأساسية، مثل المستطيل، تحتوي على جزأين مرئيين.
+// 1 - التعبئة، والتي تنطبق على المنطقة داخل مخطط الشكل:
 shape.Fill.ForeColor = Color.White;
 
-// 2 - الحد الذي يحدد الخطوط العريضة للشكل:
-// تعديل الخصائص المختلفة لحد هذا الشكل.
+// 2 - الخط الذي يحدد الخطوط العريضة للشكل:
+// تعديل خصائص مختلفة لخط هذا الشكل.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

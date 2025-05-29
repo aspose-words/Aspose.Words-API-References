@@ -2,8 +2,8 @@
 title: DocumentBuilder.InsertDocument
 linktitle: InsertDocument
 articleTitle: InsertDocument
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertDocument yöntem. İmleç konumuna bir belge ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder'ın InsertDocument yöntemi ile belgeleri herhangi bir imleç konumuna zahmetsizce ekleyin. İş akışınızı kolaylaştırın ve üretkenliği artırın!
 type: docs
 weight: 310
 url: /tr/net/aspose.words/documentbuilder/insertdocument/
@@ -18,8 +18,8 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| srcDoc | Document | Eklemek için kaynak belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
+| srcDoc | Document | Ekleme için kaynak belge. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
 
 ### Geri dönüş değeri
 
@@ -27,11 +27,11 @@ Eklenen içeriğin ilk düğümü.
 
 ## Notlar
 
-Bu yöntem MS Word davranışını taklit eder, sanki bir belge içinde CTRL+'A' (tüm içeriği seç), sonra CTRL+'C' (tampon belleğe seçilen kopya) basılmış gibi ve sonra CTRL+'V' (içerikten içerik ekle) basılmış gibi tampon) başka bir belgenin içinde.
+Bu yöntem, MS Word davranışını taklit eder; sanki CTRL+'A' (tüm içeriği seç) tuşlarına basılmış gibi, sonra bir belgenin içinde CTRL+'C' (seçili içeriği arabelleğe kopyala) tuşlarına basılıyor ve sonra başka bir belgenin içinde CTRL+'V' (arabellekten içerik ekle) tuşlarına basılıyor.
 
 ## Örnekler
 
-Bir belgenin başka bir belgeye nasıl ekleneceğini gösterir.
+Bir belgenin başka bir belgenin içine nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -68,9 +68,9 @@ public Node InsertDocument(Document srcDoc, ImportFormatMode importFormatMode,
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| srcDoc | Document | Eklemek için kaynak belge. |
-| importFormatMode | ImportFormatMode | Çakışan stil formatlamasının nasıl birleştirileceğini belirtir. |
-| importFormatOptions | ImportFormatOptions | Sonuç belgesinin biçimlendirmesini etkileyen seçenekleri belirtmenize olanak sağlar. |
+| srcDoc | Document | Ekleme için kaynak belge. |
+| importFormatMode | ImportFormatMode | Çakışan stil biçimlendirmesinin nasıl birleştirileceğini belirtir. |
+| importFormatOptions | ImportFormatOptions | Sonuç belgesinin biçimlendirmesini etkileyen seçeneklerin belirlenmesine olanak tanır. |
 
 ### Geri dönüş değeri
 
@@ -78,11 +78,11 @@ Eklenen içeriğin ilk düğümü.
 
 ## Notlar
 
-Bu yöntem MS Word davranışını taklit eder, sanki bir belge içinde CTRL+'A' (tüm içeriği seç), sonra CTRL+'C' (tampon belleğe seçilen kopya) basılmış gibi ve sonra CTRL+'V' (içerikten içerik ekle) basılmış gibi tampon) başka bir belgenin içinde.
+Bu yöntem, MS Word davranışını taklit eder; sanki CTRL+'A' (tüm içeriği seç) tuşlarına basılmış gibi, sonra bir belgenin içinde CTRL+'C' (seçili içeriği arabelleğe kopyala) tuşlarına basılıyor ve sonra başka bir belgenin içinde CTRL+'V' (arabellekten içerik ekle) tuşlarına basılıyor.
 
 ## Örnekler
 
-Belgeleri eklerken yinelenen stillerin nasıl çözüleceğini gösterir.
+Belgeler eklenirken yinelenen stillerin nasıl çözüleceğini gösterir.
 
 ```csharp
 Document dstDoc = new Document();
@@ -96,14 +96,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Belgeyi kopyalayın ve kopyanın "MyStyle" stilini düzenleyin, böylece orijinalinden farklı bir renk olur.
-// Klonu orijinal belgeye eklersek aynı isimdeki iki stil çakışmaya neden olur.
+// Belgeyi klonlayın ve klonun "MyStyle" stilini düzenleyin, böylece orijinalinden farklı bir renge sahip olur.
+// Klonu orijinal belgeye eklersek, aynı ada sahip iki stil çakışmaya neden olur.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
-// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma formatı modunu kullandığımızda,
+// SmartStyleBehavior'ı etkinleştirdiğimizde ve KeepSourceFormatting içe aktarma biçim modunu kullandığımızda,
 // Aspose.Words, kaynak belge stillerini dönüştürerek stil çakışmalarını çözecektir.
-// hedef stillerle aynı adları doğrudan paragraf niteliklerine dönüştürün.
+// hedef stillerle aynı adları doğrudan paragraf özniteliklerine aktarın.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

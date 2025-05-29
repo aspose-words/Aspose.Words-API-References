@@ -2,17 +2,17 @@
 title: OdsoRecipientData Class
 linktitle: OdsoRecipientData
 articleTitle: OdsoRecipientData
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.OdsoRecipientData sınıf. Dış veri kaynağı içindeki adresmektup birleştirmenin dışında tutulacak tek bir kayıt hakkındaki bilgileri temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge işleme için posta birleştirmelerinde belirli kayıtları yönetmek ve hariç tutmak üzere tasarlanmış Aspose.Words.Settings.OdsoRecipientData sınıfını keşfedin.
 type: docs
-weight: 5930
+weight: 6760
 url: /tr/net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
 
-Dış veri kaynağı içindeki adres-mektup birleştirmenin dışında tutulacak tek bir kayıt hakkındaki bilgileri temsil eder.
+Posta birleştirmeden hariç tutulacak harici bir veri kaynağındaki tek bir kayıtla ilgili bilgileri temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Adres Mektup Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Posta Birleştirme ve Raporlama](https://docs.aspose.com/words/net/mail-merge-and-reporting/) belgeleme makalesi.
 
 ```csharp
 public class OdsoRecipientData
@@ -28,24 +28,24 @@ public class OdsoRecipientData
 
 | İsim | Tanım |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Adres-mektup birleştirme gerçekleştirilirken veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`doğru` . |
-| [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütunu belirtir. Varsayılan değer 0. 'dir |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanır[`Hash`](./hash/) bir kayıt yerine tüm bir kaydın[`UniqueTag`](./uniquetag/) değer. Varsayılan değer 0. 'dir |
+| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Posta birleştirme işlemi gerçekleştirildiğinde veri kaynağındaki kaydın bir belgeye aktarılıp aktarılmayacağını belirtir. Varsayılan değer:`doğru` . |
+| [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Geçerli kayıt için benzersiz verileri içeren veri kaynağındaki sütunu belirtir. Varsayılan değer 0'dır. |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Bu kaydın karma kodunu temsil eder. Bazen Microsoft Word kullanır[`Hash`](./hash/) bir kaydın tamamı yerine[`UniqueTag`](./uniquetag/) değer. Varsayılan değer 0. 'dir |
 | [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Benzersiz verileri içeren sütundaki belirli bir kaydın içeriğini belirtir. Varsayılan değer:`hükümsüz` . |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Bu nesnenin derin bir kopyasını döndürür. |
+| [Clone](../../aspose.words.settings/odsorecipientdata/clone/)() | Bu nesnenin derin bir klonunu döndürür. |
 
 ## Notlar
 
-Bir kaydın birleştirilmiş bir belge halinde birleştirilmesi durumunda o kayda ilişkin herhangi bir bilgiye ihtiyaç duyulmaz. Bununla birlikte, belirli bir kayıt birleştirilmiş bir belgede birleştirilmeyecekse, bu kayıt için benzersiz anahtarının değeri,[`UniqueTag`](./uniquetag/)Bu hariç tutmayı belirtmek için bu nesnenin özelliği.
+Bir kayıt birleştirilmiş bir belgeye birleştirilecekse, o kayıt hakkında hiçbir bilgiye gerek yoktur. Ancak, belirli bir kayıt birleştirilmiş bir belgeye birleştirilmeyecekse, o kayda ait benzersiz anahtar değeri,[`UniqueTag`](./uniquetag/)Bu dışlamayı belirtmek için bu nesnenin özelliği.
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -70,7 +70,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

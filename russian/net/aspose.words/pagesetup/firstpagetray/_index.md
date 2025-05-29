@@ -3,14 +3,14 @@ title: PageSetup.FirstPageTray
 linktitle: FirstPageTray
 articleTitle: FirstPageTray
 second_title: Aspose.Words для .NET
-description: PageSetup FirstPageTray свойство. Получает или задает лоток для бумаги корзину который будет использоваться для первой страницы раздела. Значение зависит от реализации принтера на С#.
+description: Узнайте, как настроить лоток первой страницы с помощью свойства PageSetup FirstPageTray для оптимальной печати. Настройте параметры печати для эффективности!
 type: docs
 weight: 130
 url: /ru/net/aspose.words/pagesetup/firstpagetray/
 ---
 ## PageSetup.FirstPageTray property
 
-Получает или задает лоток для бумаги (корзину), который будет использоваться для первой страницы раздела. Значение зависит от реализации (принтера).
+Возвращает или задает лоток для бумаги (корзину), который будет использоваться для первой страницы раздела. Значение зависит от реализации (принтера).
 
 ```csharp
 public int FirstPageTray { get; set; }
@@ -24,12 +24,12 @@ public int FirstPageTray { get; set; }
 Document doc = new Document();
 
 // Найдите принтер по умолчанию, который мы будем использовать для печати этого документа.
-// Вы можете определить конкретный принтер, используя свойство PrinterName объекта PrinterSettings.
+// Вы можете определить конкретный принтер, используя свойство «PrinterName» объекта PrinterSettings.
 PrinterSettings settings = new PrinterSettings();
 
 // Значение лотка для бумаги, хранящееся в документах, зависит от принтера.
-// Это означает, что приведенный ниже код сбрасывает все значения лотка для страниц, чтобы использовать лоток по умолчанию для текущего принтера.
-// Вы можете перечислить PrinterSettings.PaperSources, чтобы найти другие допустимые значения лотков для бумаги выбранного принтера.
+// Это означает, что приведенный ниже код сбрасывает все значения лотка для страниц, чтобы использовать лоток по умолчанию текущего принтера.
+// Вы можете перечислить PrinterSettings.PaperSources, чтобы найти другие допустимые значения лотка для бумаги выбранного принтера.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     section.PageSetup.FirstPageTray = settings.DefaultPageSettings.PaperSource.RawKind;
@@ -37,23 +37,23 @@ foreach (Section section in doc.Sections.OfType<Section>())
 }
 ```
 
-Показывает, как настроить печать с использованием разных лотков принтера для бумаги разных размеров.
+Показывает, как настроить печать с использованием разных лотков принтера для разных форматов бумаги.
 
 ```csharp
 Document doc = new Document();
 
 // Найдите принтер по умолчанию, который мы будем использовать для печати этого документа.
-// Вы можете определить конкретный принтер, используя свойство PrinterName объекта PrinterSettings.
+// Вы можете определить конкретный принтер, используя свойство «PrinterName» объекта PrinterSettings.
 PrinterSettings settings = new PrinterSettings();
 
 // Это лоток, который мы будем использовать для страниц формата «А4».
 int printerTrayForA4 = settings.PaperSources[0].RawKind;
 
-// Это лоток, который мы будем использовать для страниц формата Letter.
+// Это лоток, который мы будем использовать для страниц формата «Letter».
 int printerTrayForLetter = settings.PaperSources[1].RawKind;
 
-// Измените объект PageSettings этого раздела, чтобы Microsoft Word давал указания принтеру
-// чтобы использовать один из лотков, которые мы указали выше, в зависимости от формата бумаги в этом разделе.
+// Измените объект PageSettings этого раздела, чтобы Microsoft Word мог дать указание принтеру
+// использовать один из лотков, указанных выше, в зависимости от размера бумаги в этом разделе.
 foreach (Section section in doc.Sections.OfType<Section>())
 {
     if (section.PageSetup.PaperSize == Aspose.Words.PaperSize.Letter)

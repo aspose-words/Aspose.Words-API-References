@@ -3,9 +3,9 @@ title: ShapeBase.ShapeType
 linktitle: ShapeType
 articleTitle: ShapeType
 second_title: Aspose.Words für .NET
-description: ShapeBase ShapeType eigendom. Ruft den Formtyp ab in C#.
+description: Entdecken Sie die ShapeBase ShapeType-Eigenschaft, um einfach auf Ihre Formtypen zuzugreifen und sie zu definieren und so Ihre Designfunktionen und Projekteffizienz zu verbessern.
 type: docs
-weight: 500
+weight: 530
 url: /de/net/aspose.words.drawing/shapebase/shapetype/
 ---
 ## ShapeBase.ShapeType property
@@ -18,7 +18,7 @@ public ShapeType ShapeType { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Gruppe von Formen erstellt und deren Inhalt mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie Sie eine Gruppe von Formen erstellen und deren Inhalt mithilfe eines Dokumentbetrachters drucken.
 
 ```csharp
 public void GroupOfShapes()
@@ -26,19 +26,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
+    // Wenn Sie „nicht-primitive“ Formen erstellen müssen, wie z. B. SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
+    // Eine abgerundete obere Ecke, eine abgeschnittene Ecke, eine abgerundete obere Ecke, abgerundete diagonale Ecke
     // Bitte verwenden Sie DocumentBuilder.InsertShape-Methoden.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -58,7 +58,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// Gibt den Inhalt einer besuchten Formgruppe an die Konsole aus.
+/// Gibt den Inhalt einer besuchten Formgruppe auf der Konsole aus.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

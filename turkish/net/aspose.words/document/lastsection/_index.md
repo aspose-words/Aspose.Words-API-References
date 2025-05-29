@@ -2,10 +2,10 @@
 title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
-second_title: Aspose.Words for .NET
-description: Document LastSection mülk. Belgedeki son bölümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin son bölümüne kolayca erişmek, gezinme ve içerik yönetimi verimliliğini artırmak için LastSection özelliğini keşfedin.
 type: docs
-weight: 240
+weight: 250
 url: /tr/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -18,7 +18,7 @@ public Section LastSection { get; }
 
 ## Notlar
 
-İadeler`hükümsüz` bölüm yoksa.
+Geri Döndürür`hükümsüz`eğer bölüm yoksa.
 
 ## Örnekler
 
@@ -40,7 +40,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Her bölümün kendi sayfa yapısı ayarları vardır.
+// Her bölümün kendine özgü sayfa düzeni ayarları vardır.
 // İkinci bölümdeki metni iki sütuna bölebiliriz.
 // Bu, ilk bölümdeki metni etkilemeyecektir.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);

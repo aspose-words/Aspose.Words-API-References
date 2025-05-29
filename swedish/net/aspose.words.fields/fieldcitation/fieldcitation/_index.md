@@ -3,7 +3,7 @@ title: FieldCitation
 linktitle: FieldCitation
 articleTitle: FieldCitation
 second_title: Aspose.Words för .NET
-description: FieldCitation byggare. Default_Constructor i C#.
+description: Upptäck FieldCitation-konstruktorn, din lösning för effektiv citeringshantering. Förenkla din referensprocess idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldcitation/fieldcitation/

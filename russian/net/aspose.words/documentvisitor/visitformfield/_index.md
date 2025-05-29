@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFormField
 linktitle: VisitFormField
 articleTitle: VisitFormField
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitFormField метод. Вызывается когда в документе встречается поле формы на С#.
+description: Откройте для себя метод DocumentVisitor VisitFormField, который активируется при обнаружении поля формы в вашем документе. Улучшите обработку документов сегодня!
 type: docs
 weight: 230
 url: /ru/net/aspose.words/documentvisitor/visitformfield/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| formField | FormField | Объект, который посещается. |
+| formField | FormField | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,8 +34,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Ниже приведены три типа полей, которые могут принять посетитель документа,
-    // что позволит ему посетить принимающий узел, а затем пройти его дочерние узлы в глубину.
+    // Ниже приведены три типа полей, которые могут принять посетителя документа,
+    // что позволит ему посетить принимающий узел, а затем обойти его дочерние узлы в глубину.
     // 1 - Узел абзаца:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -51,7 +51,7 @@ public void RemoveHiddenContentFromDocument()
 }
 
 /// <summary>
-/// Удаляет все посещенные узлы, помеченные как «скрытый контент».
+/// Удаляет все посещенные узлы, отмеченные как «скрытое содержимое».
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
@@ -133,7 +133,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается форма.
+    /// Вызывается при обнаружении фигуры в документе.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -170,6 +170,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -177,13 +179,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе завершается посещение узла Таблицы.
+    /// Вызывается, когда посещение узла таблицы в документе завершено.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Содержимое внутри ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
-        // Если бы в этой таблице не было ничего, кроме скрытого содержимого, этот посетитель удалил бы все это,
-        // и дочерних узлов не останется.
+        // Содержимое ячеек таблицы может иметь флаг скрытого содержимого, но сами таблицы — нет.
+        // Если бы в этой таблице не было ничего, кроме скрытого контента, этот посетитель удалил бы его весь,
+        // и не останется ни одного дочернего узла.
         // Таким образом, мы также можем рассматривать саму таблицу как скрытое содержимое и удалить ее.
         // Таблицы, которые пусты, но не имеют скрытого содержимого, будут иметь ячейки с пустыми абзацами внутри,
         // который этот посетитель не удалит.
@@ -194,7 +196,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла Cell в документе.
+    /// Вызывается, когда посещение узла ячейки в документе завершено.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -205,7 +207,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе заканчивается посещение узла Row.
+    /// Вызывается, когда посещение узла строки в документе завершено.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

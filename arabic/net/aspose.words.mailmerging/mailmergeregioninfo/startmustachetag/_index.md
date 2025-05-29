@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.StartMustacheTag
 linktitle: StartMustacheTag
 articleTitle: StartMustacheTag
 second_title: Aspose.Words لـ .NET
-description: MailMergeRegionInfo StartMustacheTag ملكية. إرجاع علامة البداية شارب للمنطقة في C#.
+description: اكتشف خاصية StartMustacheTag في MailMergeRegionInfo، والتي توفر علامة بداية أساسية لمناطق المستندات السلسة في مشاريعك.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.mailmerging/mailmergeregioninfo/startmustachetag/
 ---
 ## MailMergeRegionInfo.StartMustacheTag property
 
-إرجاع علامة البداية "شارب" للمنطقة.
+يعيد علامة "mustache" البداية للمنطقة.
 
 ```csharp
 public MustacheTag StartMustacheTag { get; }

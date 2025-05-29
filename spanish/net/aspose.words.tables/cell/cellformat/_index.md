@@ -3,7 +3,7 @@ title: Cell.CellFormat
 linktitle: CellFormat
 articleTitle: CellFormat
 second_title: Aspose.Words para .NET
-description: Cell CellFormat propiedad. Proporciona acceso a las propiedades de formato de la celda en C#.
+description: Descubra la propiedad CellFormat para acceder y personalizar fácilmente las opciones de formato de celda para una mejor presentación de datos en sus aplicaciones.
 type: docs
 weight: 20
 url: /es/net/aspose.words.tables/cell/cellformat/
@@ -18,7 +18,7 @@ public CellFormat CellFormat { get; }
 
 ## Ejemplos
 
-Muestra cómo modificar el formato de una celda de una tabla.
+Muestra cómo modificar el formato de una celda de tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -38,7 +38,7 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación se muestran dos formas de obtener una tabla de un documento.
+A continuación se muestran dos formas de obtener una tabla de un documento.
 // 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
@@ -49,7 +49,7 @@ Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Elimina el contenedor de la tabla vacía.
+//Eliminar el contenedor de tabla vacío.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");
@@ -73,7 +73,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la propiedad "RowFormat" de la primera fila para modificar el formato
+// Utilice la propiedad "RowFormat" de la primera fila para modificar el formato
 // del contenido de todas las celdas de esta fila.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;

@@ -3,7 +3,7 @@ title: WebExtension.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words per .NET
-description: WebExtension Id proprietà. Identifica in modo univoco listanza dellestensione web nel documento corrente in C#.
+description: Scopri la proprietà WebExtension Id, la chiave per identificare in modo univoco le istanze delle estensioni web nei documenti, per funzionalità avanzate e un'integrazione perfetta.
 type: docs
 weight: 30
 url: /it/net/aspose.words.webextensions/webextension/id/
@@ -14,6 +14,75 @@ Identifica in modo univoco l'istanza dell'estensione web nel documento corrente.
 
 ```csharp
 public string Id { get; set; }
+```
+
+## Esempi
+
+Mostra come aggiungere un'estensione web a un documento.
+
+```csharp
+Document doc = new Document();
+
+// Crea il riquadro attività con il componente aggiuntivo "MyScript", che verrà utilizzato dal documento,
+// quindi imposta la sua posizione predefinita.
+TaskPane myScriptTaskPane = new TaskPane();
+doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
+myScriptTaskPane.DockState = TaskPaneDockState.Right;
+myScriptTaskPane.IsVisible = true;
+myScriptTaskPane.Width = 300;
+myScriptTaskPane.IsLocked = true;
+
+// Se ci sono più riquadri attività nella stessa posizione di ancoraggio, possiamo impostare questo indice per disporli.
+myScriptTaskPane.Row = 1;
+
+// Crea un componente aggiuntivo denominato "MyScript Math Sample", che verrà visualizzato nel riquadro delle attività.
+WebExtension webExtension = myScriptTaskPane.WebExtension;
+
+// Imposta i parametri di riferimento dell'app store per il nostro componente aggiuntivo, come l'ID.
+webExtension.Reference.Id = "WA104380646";
+webExtension.Reference.Version = "1.0.0.0";
+webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
+webExtension.Reference.Store = CultureInfo.CurrentCulture.Name;
+webExtension.Properties.Add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
+webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindingType.Text, "104380646"));
+
+// Consenti all'utente di interagire con il componente aggiuntivo.
+webExtension.IsFrozen = false;
+
+// Possiamo accedere all'estensione web in Microsoft Word tramite Sviluppatore -> Componenti aggiuntivi.
+doc.Save(ArtifactsDir + "Document.WebExtension.docx");
+
+// Rimuovi tutti i riquadri attività dell'estensione web in una volta sola, in questo modo.
+doc.WebExtensionTaskPanes.Clear();
+
+Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Guarda anche

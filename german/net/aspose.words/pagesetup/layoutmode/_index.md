@@ -3,14 +3,14 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: Aspose.Words für .NET
-description: PageSetup LayoutMode eigendom. Ruft den Layoutmodus dieses Abschnitts ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „PageSetup LayoutMode“, um das Layout Ihres Dokuments einfach anzupassen. Verbessern Sie Ihr Design mit flexiblen Abschnittsoptionen!
 type: docs
 weight: 190
 url: /de/net/aspose.words/pagesetup/layoutmode/
 ---
 ## PageSetup.LayoutMode property
 
-Ruft den Layoutmodus dieses Abschnitts ab oder legt diesen fest.
+Ruft den Layoutmodus dieses Abschnitts ab oder legt ihn fest.
 
 ```csharp
 public SectionLayoutMode LayoutMode { get; set; }
@@ -18,17 +18,17 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man a für die Anzahl der Zeichen angibt, die jede Zeile enthalten darf.
+Zeigt, wie Sie für die Anzahl der Zeichen angeben, die jede Zeile enthalten darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeichen pro Zeile in diesem Abschnitt festzulegen.
+// Pitching aktivieren und dann damit die Anzahl der Zeichen pro Zeile in diesem Abschnitt festlegen.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Die Anzahl der Zeichen hängt auch von der Größe der Schriftart ab.
+// Die Anzahl der Zeichen hängt auch von der Schriftgröße ab.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
+Zeigt, wie Sie eine Begrenzung für die Zeilenanzahl festlegen, die jede Seite haben darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeilen pro Seite in diesem Abschnitt festzulegen.
-// Eine ausreichend große Schriftgröße verschiebt einige Zeilen nach unten auf die nächste Seite, um überlappende Zeichen zu vermeiden.
+// Pitching aktivieren und dann damit die Zeilenanzahl pro Seite in diesem Abschnitt festlegen.
+// Eine ausreichend große Schriftgröße verschiebt einige Zeilen auf die nächste Seite, um überlappende Zeichen zu vermeiden.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

@@ -2,19 +2,19 @@
 title: PageLayoutEvent Enum
 linktitle: PageLayoutEvent
 articleTitle: PageLayoutEvent
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.PageLayoutEvent Sıralama. Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu C#'da.
+second_title: .NET için Aspose.Words
+description: Belge oluşturma ve oluşturma sırasında sayfa düzeni olaylarını optimize etmek için gerekli olan Aspose.Words.Layout.PageLayoutEvent enum'unu keşfedin. İş akışınızı bugün geliştirin!
 type: docs
-weight: 3370
+weight: 3820
 url: /tr/net/aspose.words.layout/pagelayoutevent/
 ---
 ## PageLayoutEvent enumeration
 
-Sayfa düzeni modeli oluşturma ve oluşturma sırasında ortaya çıkan bir olay kodu.
+Sayfa düzeni modelinin oluşturulması ve işlenmesi sırasında ortaya çıkan bir olay kodu.
 
-Sayfa düzeni modeli iki adımda oluşturulur. İlki, "dönüştürme adımı", bu, sayfa düzeninin belge içeriğini çekip nesne grafiğini oluşturduğu zamandır. İkincisi, "yeniden akıtma adımı", yapıların bölündüğü, birleştirildiği ve düzenlendiği zamandır. sayfalara bölünür.
+Sayfa düzeni modeli iki adımda oluşturulur. Birincisi, "dönüşüm adımı", bu, sayfa düzeninin belge içeriğini çekip nesne grafiğini oluşturduğu adımdır. İkincisi, "yeniden akış adımı", bu, yapıların bölündüğü, birleştirildiği ve sayfalara yerleştirildiği adımdır.
 
-Oluşturmayı tetikleyen işleme bağlı olarak, sayfa düzeni modeli sabit sayfa formatına dönüştürülebilir veya getirilmeyebilir. Örneğin, belgedeki sayfa sayısını hesaplamak veya alanları güncellemek, oluşturmayı gerektirmezken, Pdf'e aktarma gerektirir.
+Oluşturmayı tetikleyen işleme bağlı olarak, sayfa düzeni modeli sabit sayfa biçimine daha fazla işlenebilir veya işlenmeyebilir. Örneğin, belgedeki sayfa sayısının hesaplanması veya alanların güncellenmesi işleme gerektirmezken, PDF'e aktarma gerektirir.
 
 ```csharp
 public enum PageLayoutEvent
@@ -25,21 +25,21 @@ public enum PageLayoutEvent
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | None | `0` | Varsayılan değer |
-| WatchDog | `1` | Kodda sıklıkla ziyaret edilen ve işlemi iptal etmeye uygun bir kontrol noktasına karşılık gelir. |
-| BuildStarted | `2` | Sayfa düzeninin oluşturulması başladı. Bir kez tetiklendi. Bu, şu durumlarda meydana gelen ilk olaydır:[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) denir. |
-| BuildFinished | `3` | Sayfa düzeninin oluşturulması tamamlandı. Bir kez tetiklendi. Bu, şu durumlarda meydana gelen son olaydır:[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) denir. |
-| ConversionStarted | `4` | Doküman modelinin sayfa düzenine dönüştürülmesi başladı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğini çekmeye başladığında meydana gelir. |
-| ConversionFinished | `5` | Belge modelinin sayfa düzenine dönüştürülmesi tamamlandı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğini çekmeyi bıraktığında meydana gelir. |
-| ReflowStarted | `6` | Sayfa düzeninin yeniden düzenlenmesi başladı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğini yeniden akıtmaya başladığında meydana gelir. |
-| ReflowFinished | `7` | Sayfa düzeninin yeniden düzenlenmesi tamamlandı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğinin yeniden akışını durdurduğunda meydana gelir. |
-| PartReflowStarted | `8` | Sayfanın yeniden akışı başladı. Sayfanın birden çok kez yeniden akıtılabileceğini ve yeniden akışın bitmeden yeniden başlayabileceğini unutmayın. |
-| PartReflowFinished | `9` | Sayfanın yeniden akışı tamamlandı. Sayfanın birden çok kez yeniden akıtılabileceğini ve yeniden akışın bitmeden yeniden başlayabileceğini unutmayın. |
-| PartRenderingStarted | `10` | Sayfanın oluşturulması başladı. Bu, sayfa başına bir kez tetiklenir. |
-| PartRenderingFinished | `11` | Sayfanın oluşturulması tamamlandı. Bu, sayfa başına bir kez tetiklenir. |
+| WatchDog | `1` | Kodda sıkça ziyaret edilen ve işlemi sonlandırmaya uygun bir kontrol noktasına karşılık gelir. |
+| BuildStarted | `2` | Sayfa düzeninin oluşturulması başladı. Bir kez tetiklendi. Bu, şu anda meydana gelen ilk olaydır:[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) denir. |
+| BuildFinished | `3` | Sayfa düzeninin oluşturulması tamamlandı. Bir kez tetiklendi. Bu, şu anda meydana gelen son olaydır:[`UpdatePageLayout`](../../aspose.words/document/updatepagelayout/) denir. |
+| ConversionStarted | `4` | Belge modelinin sayfa düzenine dönüştürülmesi başladı. Bir kez tetiklendi. Bu, düzen modelinin belge içeriğini çekmeye başlamasıyla gerçekleşir. |
+| ConversionFinished | `5` | Belge modelinin sayfa düzenine dönüştürülmesi tamamlandı. Bir kez tetiklendi. Bu, düzen modelinin belge içeriğini çekmeyi bırakmasıyla oluşur. |
+| ReflowStarted | `6` | Sayfa düzeninin yeniden akışı başladı. Bir kez tetiklendi. Bu, düzen modeli belge içeriğini yeniden akıtmaya başladığında gerçekleşir. |
+| ReflowFinished | `7` | Sayfa düzeninin yeniden akışı tamamlandı. Bir kez tetiklendi. Bu, düzen modelinin belge içeriğini yeniden akışını durdurduğu zaman meydana gelir. |
+| PartReflowStarted | `8` | Sayfanın yeniden akışı başladı. Sayfanın birden fazla kez yeniden akabileceğini ve yeniden akışın bitmeden önce yeniden başlayabileceğini unutmayın. |
+| PartReflowFinished | `9` | Sayfanın yeniden akışı tamamlandı. Sayfanın birden fazla kez yeniden akabileceğini ve yeniden akışın tamamlanmadan önce yeniden başlatılabileceğini unutmayın. |
+| PartRenderingStarted | `10` | Sayfanın işlenmesi başladı. Bu, sayfa başına bir kez tetiklenir. |
+| PartRenderingFinished | `11` | Sayfanın işlenmesi tamamlandı. Bu, sayfa başına bir kez tetiklenir. |
 
 ## Örnekler
 
-Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen değişikliklerinin düzen geri aramasıyla nasıl izleneceğini gösterir.
 
 ```csharp
 public void PageLayoutCallback()
@@ -57,8 +57,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
+/// Belgeyi sabit bir sayfa biçimine kaydettiğimizde bize bildirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfa oluşturur.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

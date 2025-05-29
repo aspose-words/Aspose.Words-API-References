@@ -3,9 +3,9 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words para .NET
-description: ListCollection GetListByListId método. Obtiene una lista mediante un identificador de lista en C#.
+description: Recupera fácilmente la lista que deseas con el método GetListByListId. Accede a los datos rápidamente con un identificador de lista simple para una mayor eficiencia.
 type: docs
-weight: 70
+weight: 80
 url: /es/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
@@ -22,15 +22,15 @@ public List GetListByListId(int listId)
 
 ### Valor_devuelto
 
-Devuelve el objeto de lista. Devoluciones`nulo` si no se encontró una lista con el identificador especificado.
+Devuelve el objeto de lista. Devuelve`nulo` si no se encontró una lista con el identificador especificado.
 
 ## Observaciones
 
-Normalmente no es necesario utilizar este método. La mayoría de las veces aplica el formato de lista a los párrafos simplemente configurando el[`List`](../../listformat/list/) propiedad del[`ListFormat`](../../listformat/) objeto.
+Normalmente no es necesario usar este método. La mayoría de las veces, se aplica el formato de lista a los párrafos simplemente configurando el[`List`](../../listformat/list/) propiedad de la[`ListFormat`](../../listformat/) objeto.
 
 ## Ejemplos
 
-Muestra cómo verificar las propiedades del documento del propietario de las listas.
+Muestra cómo verificar las propiedades del documento propietario de las listas.
 
 ```csharp
 Document doc = new Document();

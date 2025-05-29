@@ -2,8 +2,8 @@
 title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphCollection ToArray 方法. 将集合中的所有段落复制到新的段落数组中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ToArray 方法轻松地将 ParagraphCollection 转换为数组，从而简化数据管理并增强文档处理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraphcollection/toarray/
@@ -18,11 +18,11 @@ public Paragraph[] ToArray()
 
 ### 返回值
 
-一系列段落。
+段落数组。
 
 ## 例子
 
-演示如何从 NodeCollection 创建数组。
+展示如何从 NodeCollection 创建数组。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -32,7 +32,7 @@ Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 Assert.AreEqual(22, paras.Length);
 ```
 
-演示如何在枚举期间使用“热删除”删除节点。
+展示如何在枚举期间使用“热删除”来删除节点。
 
 ```csharp
 Document doc = new Document();

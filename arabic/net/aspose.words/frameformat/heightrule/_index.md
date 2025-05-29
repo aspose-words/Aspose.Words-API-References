@@ -3,14 +3,14 @@ title: FrameFormat.HeightRule
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words لـ .NET
-description: FrameFormat HeightRule ملكية. الحصول على قاعدة تحديد ارتفاع الإطار المحدد في C#.
+description: اكتشف خاصية FrameFormat HeightRule لتحديد ارتفاع الإطار بسهولة. حسّن تصميماتك بتحكم دقيق وكفاءة تخطيط مُحسّنة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/frameformat/heightrule/
 ---
 ## FrameFormat.HeightRule property
 
-الحصول على قاعدة تحديد ارتفاع الإطار المحدد.
+يحصل على القاعدة لتحديد ارتفاع الإطار المحدد.
 
 ```csharp
 public HeightRule HeightRule { get; }
@@ -18,7 +18,7 @@ public HeightRule HeightRule { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تكون إطارات.
+يوضح كيفية الحصول على معلومات حول خصائص تنسيق الفقرات التي تعتبر إطارات.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

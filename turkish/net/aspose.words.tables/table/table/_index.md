@@ -2,15 +2,15 @@
 title: Table
 linktitle: Table
 articleTitle: Table
-second_title: Aspose.Words for .NET
-description: Table inşaatçı. Yeni bir örneğini başlatırTable class C#'da.
+second_title: .NET için Aspose.Words
+description: Sezgisel Tablo Oluşturucumuzla zahmetsizce özel tablolar oluşturun. Verilerinizin görüntülenmesini dakikalar içinde oluşturun, özelleştirin ve optimize edin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.tables/table/table/
 ---
 ## Table constructor
 
-Yeni bir örneğini başlatır[`Table`](../) class.
+Yeni bir örneğini başlatır[`Table`](../) sınıf.
 
 ```csharp
 public Table(DocumentBase doc)
@@ -18,13 +18,13 @@ public Table(DocumentBase doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahibi belgesi. |
+| doc | DocumentBase | Sahip belgesi. |
 
 ## Notlar
 
-Ne zaman[`Table`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır-dir`hükümsüz`.
+Ne zaman[`Table`](../) oluşturulduğunda, belirtilen belgeye aittir, ancak henüz belgenin bir parçası değildir ve[`ParentNode`](../../../aspose.words/node/parentnode/) dır`hükümsüz`.
 
-Eklemek[`Table`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) Tablonun eklenmesini istediğiniz hikayede .
+Eklemek için[`Table`](../) belge kullanımına[`InsertAfter`](../../../aspose.words/compositenode/insertafter/) veya[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/)Tablonun eklenmesini istediğiniz hikayede .
 
 ## Örnekler
 
@@ -35,9 +35,9 @@ Document doc = new Document();
 Table table = new Table(doc);
 doc.FirstSection.Body.AppendChild(table);
 
-// Tablolar, paragraf içerebilen hücreleri içeren satırları içerir
-// diziler, şekiller ve hatta diğer tablolar gibi tipik öğelerle.
-// Bir tabloda "EnsureMinimum" yöntemini çağırmak şunları sağlayacaktır:
+// Tablolar, hücreler içeren satırlar ve bu satırların içinde paragraflar olabilir
+// tipik elemanlar olan koşular, şekiller ve hatta diğer tablolar ile.
+// Bir tabloda "EnsureMinimum" metodunu çağırmak,
 // tabloda en az bir satır, hücre ve paragraf var.
 Row firstRow = new Row(doc);
 table.AppendChild(firstRow);
@@ -48,25 +48,25 @@ firstRow.AppendChild(firstCell);
 Paragraph paragraph = new Paragraph(doc);
 firstCell.AppendChild(paragraph);
 
-// Tablonun ilk satırındaki ilk çağrıya metin ekleyin.
+// Tablonun ilk satırındaki ilk hücreye metin ekle.
 Run run = new Run(doc, "Hello world!");
 paragraph.AppendChild(run);
 
 doc.Save(ArtifactsDir + "Table.CreateTable.docx");
 ```
 
-Belge oluşturucu kullanmadan iç içe tablonun nasıl oluşturulacağını gösterir.
+Belge oluşturucu kullanmadan iç içe geçmiş tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 public void CreateNestedTable()
 {
     Document doc = new Document();
 
-    // Üç satır ve dört sütundan oluşan dış tabloyu oluşturup belgeye ekleyin.
+    // Üç satır ve dört sütundan oluşan dış tabloyu oluştur ve ardından bunu belgeye ekle.
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // İki satır ve iki sütundan oluşan başka bir tablo oluşturun ve bunu ilk tablonun ilk hücresine ekleyin.
+    // İki satır ve iki sütundan oluşan başka bir tablo oluştur ve bunu ilk tablonun ilk hücresine ekle.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -74,7 +74,7 @@ public void CreateNestedTable()
 }
 
 /// <summary>
-/// Her hücrede verilen boyut ve metinle belgede yeni bir tablo oluşturur.
+/// Belgede, her hücrede belirtilen boyutlar ve metinle yeni bir tablo oluşturur.
 /// </summary>
 private static Table CreateTable(Document doc, int rowCount, int cellCount, string cellText)
 {
@@ -95,10 +95,10 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Tablonuza sırasıyla başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
-    // Bu özellikleri kullanabilmemiz için tablonun en az bir satıra sahip olması gerekir.
-    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (bkz. OoxmlCompliance sınıfı).
-    // Belgeyi ISO/IEC 29500 öncesi formatlarda kaydedersek, Microsoft Word bu özellikleri göz ardı eder.
+    // Tablonuza sırasıyla bir başlık ve açıklama eklemek için "Başlık" ve "Açıklama" özelliklerini kullanabilirsiniz.
+    // Bu özellikleri kullanabilmemiz için tablonun en az bir satırının olması gerekir.
+    // Bu özellikler ISO/IEC 29500 uyumlu .docx belgeleri için anlamlıdır (OoxmlCompliance sınıfına bakın).
+    // Belgeyi ISO/IEC 29500 öncesi biçimlerde kaydedersek, Microsoft Word bu özellikleri yoksayar.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";
 

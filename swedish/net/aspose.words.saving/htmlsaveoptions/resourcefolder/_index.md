@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResourceFolder
 linktitle: ResourceFolder
 articleTitle: ResourceFolder
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ResourceFolder fast egendom. Anger en fysisk mapp där alla resurser som bilder typsnitt och extern CSS sparas när ett document exporteras till HTML. Standard är en tom sträng i C#.
+description: Upptäck egenskapen HtmlSaveOptions ResourceFolder för optimal dokumentexport. Hantera enkelt bilder, teckensnitt och CSS i en särskild mapp.
 type: docs
-weight: 420
+weight: 440
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property
 
-Anger en fysisk mapp där alla resurser som bilder, typsnitt och extern CSS sparas när ett document exporteras till HTML. Standard är en tom sträng.
+Anger en fysisk mapp där alla resurser som bilder, teckensnitt och extern CSS sparas när ett dokument exporteras till HTML. Standardvärdet är en tom sträng.
 
 ```csharp
 public string ResourceFolder { get; set; }
@@ -18,11 +18,11 @@ public string ResourceFolder { get; set; }
 
 ## Anmärkningar
 
-`ResourceFolder` är det enklaste sättet att ange en mapp där alla resurser ska skrivas. Ett annat sätt är att använda enskilda egenskaper[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , och[`CssStyleSheetFileName`](../cssstylesheetfilename/).
+`ResourceFolder` är det enklaste sättet att ange en mapp där alla resurser ska skrivas. Ett annat sätt är att använda individuella egenskaper[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , och[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
-`ResourceFolder` har lägre prioritet än mappar som anges via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , och[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Till exempel, om både `ResourceFolder` och[`FontsFolder`](../fontsfolder/)är specificerade, kommer teckensnitt att sparas till[`FontsFolder`](../fontsfolder/) , medan bilder och CSS kommer att sparas till`ResourceFolder`.
+`ResourceFolder` har lägre prioritet än mappar som anges via[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) och[`CssStyleSheetFileName`](../cssstylesheetfilename/) Till exempel, om både `ResourceFolder` och[`FontsFolder`](../fontsfolder/)anges, kommer teckensnitt att sparas till[`FontsFolder`](../fontsfolder/) , medan bilder och CSS sparas till`ResourceFolder`.
 
-Om mappen som anges av`ResourceFolder` inte finns skapas den automatiskt.
+Om mappen som anges av`ResourceFolder` inte finns, kommer den att skapas automatiskt.
 
 ## Exempel
 
@@ -41,7 +41,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
     FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    ImagesFolderAlias = "http://example.com/bilder",
     ResourceFolderAlias = "http://example.com/resurser",
     ExportOriginalUrlForLinkedImages = true
 };

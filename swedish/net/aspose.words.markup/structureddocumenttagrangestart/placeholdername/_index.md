@@ -3,24 +3,28 @@ title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagRangeStart PlaceholderName fast egendom. Hämtar eller sätter Namn påBuildingBlock som innehåller platshållartext i C#.
+description: Upptäck hur du hanterar egenskapen PlaceholderName för StructuredDocumentTagRangeStart, vilket förbättrar dokumentets effektivitet.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-Hämtar eller sätter Namn på[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) som innehåller platshållartext.
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) med detta namn[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) måste vara närvarande i[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) annarsInvalidOperationException kommer att inträffa.
+Hämtar eller anger namnet på[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) innehåller platshållartext.
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
 
+### Undantag
+
+| undantag | skick |
+| --- | --- |
+| InvalidOperationException | Kasta om Byggblock med detta namn[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) finns inte i[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
+
 ## Exempel
 
-Visar hur du får egenskaperna för strukturerade dokumenttaggar med flera sektioner.
+Visar hur man hämtar egenskaperna för taggar för strukturerade dokument med flera sektioner.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

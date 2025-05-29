@@ -3,14 +3,14 @@ title: BorderCollection.Shadow
 linktitle: Shadow
 articleTitle: Shadow
 second_title: Aspose.Words для .NET
-description: BorderCollection Shadow свойство. Получает или задает значение указывающее имеет ли граница тень на С#.
+description: Откройте для себя свойство BorderCollection Shadow, чтобы улучшить свои проекты. Легко управляйте тенями границ для современного, стильного вида ваших проектов!
 type: docs
 weight: 110
 url: /ru/net/aspose.words/bordercollection/shadow/
 ---
 ## BorderCollection.Shadow property
 
-Получает или задает значение, указывающее, имеет ли граница тень.
+Возвращает или задает значение, указывающее, имеет ли граница тень.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,9 +18,9 @@ public bool Shadow { get; set; }
 
 ## Примечания
 
-Получает значение первой границы коллекции.
+Получает значение из первой границы в коллекции.
 
-Устанавливает значение для всех границ в коллекции, исключая диагональные границы.
+Задает значение для всех границ в коллекции, за исключением диагональных границ.
 
 ## Примеры
 

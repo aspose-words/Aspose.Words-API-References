@@ -3,14 +3,14 @@ title: ChartMarker.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words för .NET
-description: ChartMarker Size fast egendom. Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7 i C#.
+description: Justera diagrammarkörens storlek enkelt! Anpassa diagrammets markörstorlek för ökad tydlighet och visuell tilltalning. Standardinställningen är 7.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing.charts/chartmarker/size/
 ---
 ## ChartMarker.Size property
 
-Hämtar eller ställer in diagrammarkörens storlek. Standardvärdet är 7.
+Hämtar eller ställer in diagrammarkörstorlek. Standardvärdet är 7.
 
 ```csharp
 public int Size { get; set; }
@@ -18,7 +18,7 @@ public int Size { get; set; }
 
 ## Exempel
 
-Visar hur man arbetar med datapunkter på ett linjediagram.
+Visar hur man arbetar med datapunkter i ett linjediagram.
 
 ```csharp
 public void ChartDataPoint()
@@ -34,14 +34,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Framhäv diagrammets datapunkter genom att få dem att visas som diamantformer.
-    foreach (ChartSeries series in chart.Series) 
+    // Betona diagrammets datapunkter genom att få dem att visas som diamantformer.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Jämna ut linjen som representerar den första dataserien.
     chart.Series[0].Smooth = true;
 
-    // Kontrollera att datapunkter för den första serien inte kommer att invertera sina färger om värdet är negativt.
+    // Verifiera att datapunkterna för den första serien inte inverterar sina färger om värdet är negativt.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // För en renare graf kan vi rensa format individuellt.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie datapunkter på en gång.
+    // För en renare graf kan vi rensa formatet individuellt.
+    dataPoint.ClearFormat();
+
+    // Vi kan också ta bort en hel serie datapunkter samtidigt.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

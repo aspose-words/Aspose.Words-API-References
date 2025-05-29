@@ -3,7 +3,7 @@ title: CustomXmlSchemaCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words pour .NET
-description: CustomXmlSchemaCollection Clear méthode. Supprime tous les éléments de la collection en C#.
+description: Effacez sans effort votre CustomXmlSchemaCollection avec la méthode Clear, en supprimant tous les éléments pour une gestion et une organisation optimales.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/customxmlschemacollection/clear/
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Exemples
 
-Montre comment utiliser une collection de schémas XML.
+Montre comment travailler avec une collection de schémas XML.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ string xmlPartId = Guid.NewGuid().ToString("B");
 string xmlPartContent = "<root><text>Hello, World!</text></root>";
 CustomXmlPart xmlPart = doc.CustomXmlParts.Add(xmlPartId, xmlPartContent);
 
-// Ajout d'une association de schéma XML.
+// Ajouter une association de schéma XML.
 xmlPart.Schemas.Add("http://www.w3.org/2001/XMLSchema");
 
 // Cloner la collection d'associations de schéma XML de la partie XML personnalisée,
@@ -39,21 +39,21 @@ schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 Assert.AreEqual(3, schemas.Count);
 Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
 
-// Énumère les schémas et imprime chaque élément.
+// Énumérer les schémas et imprimer chaque élément.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
 {
     while (enumerator.MoveNext())
         Console.WriteLine(enumerator.Current);
 }
 
-// Vous trouverez ci-dessous trois façons de supprimer des schémas de la collection.
-// 1 - Supprimer un schéma par index :
+// Vous trouverez ci-dessous trois manières de supprimer des schémas de la collection.
+// 1 - Supprimer un schéma par index :
 schemas.RemoveAt(2);
 
 // 2 - Supprimer un schéma par valeur :
 schemas.Remove("http://www.w3.org/2001/XMLSchema");
 
-// 3 - Utilisez la méthode "Clear" pour vider la collection d'un coup.
+// 3 - Utilisez la méthode « Clear » pour vider la collection en une seule fois.
 schemas.Clear();
 
 Assert.AreEqual(0, schemas.Count);

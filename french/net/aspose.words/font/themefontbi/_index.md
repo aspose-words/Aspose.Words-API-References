@@ -3,14 +3,14 @@ title: Font.ThemeFontBi
 linktitle: ThemeFontBi
 articleTitle: ThemeFontBi
 second_title: Aspose.Words pour .NET
-description: Font ThemeFontBi propriété. Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.Font object dans un document linguistique rédigé de droite à gauche en C#.
+description: Découvrez comment gérer facilement les polices de thème dans les documents de droite à gauche avec la propriété FontBi, améliorant ainsi votre conception et votre lisibilité sans effort.
 type: docs
-weight: 490
+weight: 500
 url: /fr/net/aspose.words/font/themefontbi/
 ---
 ## Font.ThemeFontBi property
 
-Obtient ou définit la police du thème dans le jeu de polices appliqué associé à ce thème.[`Font`](../) object dans un document linguistique rédigé de droite à gauche.
+Obtient ou définit la police de thème dans le schéma de police appliqué qui est associé à ceci[`Font`](../) objet dans un document en langage écrit de droite à gauche.
 
 ```csharp
 public ThemeFont ThemeFontBi { get; set; }
@@ -18,7 +18,7 @@ public ThemeFont ThemeFontBi { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les polices et les couleurs du thème.
+Montre comment travailler avec les polices et les couleurs du thème.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +76,7 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.None, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 2 - En définissant des noms de polices/couleurs non thématiques :
+// 2 - En définissant des noms de police/couleur non thématiques :
 font.Name = "Arial";
 font.Color = Color.Blue;
 

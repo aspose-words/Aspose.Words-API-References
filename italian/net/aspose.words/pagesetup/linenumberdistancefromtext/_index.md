@@ -3,7 +3,7 @@ title: PageSetup.LineNumberDistanceFromText
 linktitle: LineNumberDistanceFromText
 articleTitle: LineNumberDistanceFromText
 second_title: Aspose.Words per .NET
-description: PageSetup LineNumberDistanceFromText proprietà. Ottiene o imposta la distanza tra il bordo destro dei numeri di riga e il bordo sinistro del documento in C#.
+description: Scopri la proprietà LineNumberDistanceFromText di PageSetup per regolare facilmente la spaziatura tra i numeri di riga e il testo del documento, migliorando così la leggibilità.
 type: docs
 weight: 220
 url: /it/net/aspose.words/pagesetup/linenumberdistancefromtext/
@@ -18,7 +18,7 @@ public double LineNumberDistanceFromText { get; set; }
 
 ## Osservazioni
 
-Imposta questa proprietà su zero per la distanza automatica tra i numeri di riga e il testo del documento.
+Imposta questa proprietà su zero per impostare automaticamente la distanza tra i numeri di riga e il testo del documento.
 
 ## Esempi
 
@@ -30,9 +30,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Possiamo utilizzare l'oggetto PageSetup della sezione per visualizzare i numeri a sinistra delle righe di testo della sezione.
 // Questo è lo stesso comportamento di un oggetto List,
-// ma copre l'intera sezione e non modifica in alcun modo il testo.
+// ma copre l'intera sezione e non modifica il testo in alcun modo.
 // La nostra sezione ricomincerà la numerazione su ogni nuova pagina da 1 e visualizzerà il numero,
-// se è un multiplo di 3, a 50pt a sinistra della riga.
+// se è un multiplo di 3, a 50 pt a sinistra della riga.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.LineStartingNumber = 1;
 pageSetup.LineNumberCountBy = 3;
@@ -42,9 +42,9 @@ pageSetup.LineNumberDistanceFromText = 50.0d;
 for (int i = 1; i <= 25; i++)
     builder.Writeln($"Line {i}.");
 
-// Il contatore di riga salterà qualsiasi paragrafo con il flag "SuppressLineNumbers" impostato su "true".
+// Il contatore di righe salterà qualsiasi paragrafo il cui flag "SuppressLineNumbers" sia impostato su "true".
 // Questo paragrafo si trova sulla quindicesima riga, che è un multiplo di 3, e quindi normalmente visualizzerebbe un numero di riga.
-// Anche il contatore di riga della sezione ignorerà questa riga, tratterà la riga successiva come la quindicesima,
+// Il contatore di righe della sezione ignorerà anche questa riga, trattando la riga successiva come la quindicesima,
 // e continua il conteggio da quel punto in poi.
 doc.FirstSection.Body.Paragraphs[14].ParagraphFormat.SuppressLineNumbers = true;
 

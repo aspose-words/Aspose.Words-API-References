@@ -2,15 +2,15 @@
 title: Body.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: Aspose.Words for .NET
-description: Body Accept yöntem. Ziyaretçi kabul eder C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz ziyaretçi etkileşimi için Body Accept yöntemini keşfedin. Benzersiz yaklaşımımızla kullanıcı deneyimini geliştirin ve dönüşümleri artırın!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/body/accept/
 ---
 ## Body.Accept method
 
-Ziyaretçi kabul eder.
+Bir ziyaretçiyi kabul eder.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,144 +22,54 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Geri dönüş değeri
 
-Tüm düğümler ziyaret edilmişse doğrudur; yanlış ise[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden işlemi durdurdu.
+Tüm düğümler ziyaret edildiyse doğru; eğer ziyaret edilmediyse yanlış[`DocumentVisitor`](../../documentvisitor/) tüm düğümleri ziyaret etmeden önce işlemi durdurdu.
 
 ## Notlar
 
-Bu düğümü ve tüm alt öğelerini numaralandırır. Her düğüm kendisine karşılık gelen bir yöntemi çağırır.[`DocumentVisitor`](../../documentvisitor/).
+Bu düğüm ve tüm alt düğümleri üzerinde numaralandırma yapar. Her düğüm, ilgili bir yöntemi çağırır[`DocumentVisitor`](../../documentvisitor/).
 
 Daha fazla bilgi için Ziyaretçi tasarım desenine bakın.
 
-Çağrılar[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , ardından arar[`Accept`](../../node/accept/) bölümün tüm alt düğümleri için ve çağrılar[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) sonunda.
+Çağrılar[`VisitBodyStart`](../../documentvisitor/visitbodystart/) , sonra arar[`Accept`](../../node/accept/) section ve çağrıların tüm alt düğümleri için[`VisitBodyEnd`](../../documentvisitor/visitbodyend/) sonunda.
 
 ## Örnekler
 
-Bir belgenin düğüm yapısını yazdırmak için belge ziyaretçisinin nasıl kullanılacağını gösterir.
+Belge ziyaretçisiyle mutlak konum sekme karakterlerinin nasıl işleneceğini gösterir.
 
 ```csharp
-public void DocStructureToText()
+public void DocumentToTxt()
 {
-    Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
-    DocStructurePrinter visitor = new DocStructurePrinter();
+    Document doc = new Document(MyDir + "Absolute position tab.docx");
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
-    // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
-    doc.Accept(visitor);
+    // Bu özel belge ziyaretçisini kabul ederek belgemizin metin içeriğini çıkaralım.
+    DocTextExtractor myDocTextExtractor = new DocTextExtractor();
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Sadece belge gövdesinin başlangıcını ziyaret et.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Sadece belge gövdesinin sonunu ziyaret et.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    Console.WriteLine(visitor.GetText());
+    // Dize biçiminde karşılığı olmayan mutlak konum sekmesi açıkça bir sekme karakterine dönüştürüldü.
+    Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
+
+    // Bir AbsolutePositionTab, bir DocumentVisitor'ı kendi başına da kabul edebilir.
+    AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
+
+    myDocTextExtractor = new DocTextExtractor();
+    absPositionTab.Accept(myDocTextExtractor);
+
+    Assert.AreEqual("\t", myDocTextExtractor.GetText());
 }
 
 /// <summary>
-/// Bir düğümün alt düğüm ağacını geçer.
-/// Bu ağacın haritasını dize biçiminde oluşturur.
+/// Ziyaret edilen belgedeki tüm çalıştırmaların metin içeriklerini toplar. Tüm mutlak sekme karakterlerini sıradan sekmelerle değiştirir.
 /// </summary>
-public class DocStructurePrinter : DocumentVisitor
+public class DocTextExtractor : DocumentVisitor
 {
-    public DocStructurePrinter()
+    public DocTextExtractor()
     {
-        mAcceptingNodeChildTree = new StringBuilder();
-    }
-
-    public string GetText()
-    {
-        return mAcceptingNodeChildTree.ToString();
-    }
-
-    /// <summary>
-    /// Bir Belge düğümüyle karşılaşıldığında çağrılır.
-    /// </summary>
-    public override VisitorAction VisitDocumentStart(Document doc)
-    {
-        int childNodeCount = doc.GetChildNodes(NodeType.Any, true).Count;
-
-        IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
-        mDocTraversalDepth++;
-
-        // Ziyaretçinin diğer düğümleri ziyaret etmeye devam etmesine izin ver.
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Bir Belge düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
-    /// </summary>
-    public override VisitorAction VisitDocumentEnd(Document doc)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Document end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Belgede bir Bölüm düğümüyle karşılaşıldığında çağrılır.
-    /// </summary>
-    public override VisitorAction VisitSectionStart(Section section)
-    {
-        // Doküman içerisindeki bölümümüzün indeksini alın.
-        NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
-        int sectionIndex = docSections.IndexOf(section);
-
-        IndentAndAppendLine("[Section start] Section index: " + sectionIndex);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Bir Bölüm düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
-    /// </summary>
-    public override VisitorAction VisitSectionEnd(Section section)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Section end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Belgede bir Gövde düğümüyle karşılaşıldığında çağrılır.
-    /// </summary>
-    public override VisitorAction VisitBodyStart(Body body)
-    {
-        int paragraphCount = body.Paragraphs.Count;
-        IndentAndAppendLine("[Body start] Paragraphs: " + paragraphCount);
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Bir Gövde düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
-    /// </summary>
-    public override VisitorAction VisitBodyEnd(Body body)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Body end]");
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Belgede bir Paragraf düğümüyle karşılaşıldığında çağrılır.
-    /// </summary>
-    public override VisitorAction VisitParagraphStart(Paragraph paragraph)
-    {
-        IndentAndAppendLine("[Paragraph start]");
-        mDocTraversalDepth++;
-
-        return VisitorAction.Continue;
-    }
-
-    /// <summary>
-    /// Bir Paragraf düğümünün tüm alt düğümleri ziyaret edildikten sonra çağrılır.
-    /// </summary>
-    public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
-    {
-        mDocTraversalDepth--;
-        IndentAndAppendLine("[Paragraph end]");
-
-        return VisitorAction.Continue;
+        mBuilder = new StringBuilder();
     }
 
     /// <summary>
@@ -167,34 +77,36 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
-
+        AppendText(run.Text);
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// Belgede bir Alt Belge düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir AbsolutePositionTab düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
-    public override VisitorAction VisitSubDocument(SubDocument subDocument)
+    public override VisitorAction VisitAbsolutePositionTab(AbsolutePositionTab tab)
     {
-        IndentAndAppendLine("[SubDocument]");
-
+        mBuilder.Append("\t");
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// Mevcut çıktıya metin ekler. Etkin/devre dışı çıkış bayrağını dikkate alır.
     /// </summary>
-    /// <param adı="metin"></param>
-    private void IndentAndAppendLine(string text)
+    private void AppendText(string text)
     {
-        for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");
-
-        mAcceptingNodeChildTree.AppendLine(text);
+        mBuilder.Append(text);
     }
 
-    private int mDocTraversalDepth;
-    private readonly StringBuilder mAcceptingNodeChildTree;
+    /// <summary>
+    /// Ziyaretçinin biriktirdiği belgenin düz metni.
+    /// </summary>
+    public string GetText()
+    {
+        return mBuilder.ToString();
+    }
+
+    private readonly StringBuilder mBuilder;
 }
 ```
 

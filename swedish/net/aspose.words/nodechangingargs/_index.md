@@ -3,16 +3,16 @@ title: NodeChangingArgs Class
 linktitle: NodeChangingArgs
 articleTitle: NodeChangingArgs
 second_title: Aspose.Words för .NET
-description: Aspose.Words.NodeChangingArgs klass. Tillhandahåller data för metoder förINodeChangingCallback gränssnitt i C#.
+description: Upptäck klassen Aspose.Words.NodeChangingArgs, utformad för att förbättra din dokumenthantering med sömlös INodeChangingCallback-integration. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 4190
+weight: 4880
 url: /sv/net/aspose.words/nodechangingargs/
 ---
 ## NodeChangingArgs class
 
 Tillhandahåller data för metoder för[`INodeChangingCallback`](../inodechangingcallback/) gränssnitt.
 
-För att lära dig mer, besök[Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
+För att lära dig mer, besök[Aspose.Words-dokumentobjektmodell (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokumentationsartikel.
 
 ```csharp
 public class NodeChangingArgs
@@ -22,14 +22,14 @@ public class NodeChangingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Får ett värde som indikerar vilken typ av nodändringshändelse som inträffar. |
-| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Hämtar nodens överordnade som kommer att ställas in efter att operationen är klar. |
-| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Får[`Node`](./node/) som läggs till eller tas bort. |
-| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Hämtar nodens förälder innan operationen började. |
+| [Action](../../aspose.words/nodechangingargs/action/) { get; } | Hämtar ett värde som anger vilken typ av nodändringshändelse som inträffar. |
+| [NewParent](../../aspose.words/nodechangingargs/newparent/) { get; } | Hämtar nodens förälder som kommer att ställas in efter att operationen är klar. |
+| [Node](../../aspose.words/nodechangingargs/node/) { get; } | Hämtar[`Node`](./node/) som läggs till eller tas bort. |
+| [OldParent](../../aspose.words/nodechangingargs/oldparent/) { get; } | Hämtar nodens förälder innan operationen påbörjades. |
 
 ## Exempel
 
-Visar hur du anpassar nodbyte med en återuppringning.
+Visar hur man anpassar nodändringar med en återanrop.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -37,7 +37,7 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Ställ in noden ändra callback till anpassad implementering,
+    // Ställ in nodändringsmotringningen till anpassad implementering,
     // lägg sedan till/ta bort noder för att få den att generera en logg.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -53,8 +53,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Loggar datum och tid för varje nod insättning och borttagning.
-/// Ställer in ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
+/// Loggar datum och tid för varje nodinsättning och borttagning.
+/// Anger ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -65,7 +65,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

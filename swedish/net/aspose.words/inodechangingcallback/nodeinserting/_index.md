@@ -3,14 +3,14 @@ title: INodeChangingCallback.NodeInserting
 linktitle: NodeInserting
 articleTitle: NodeInserting
 second_title: Aspose.Words för .NET
-description: INodeChangingCallback NodeInserting metod. Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod i C#.
+description: Upptäck INodeChangingCallback NodeInserting-metoden, som utlöses innan en dokumentnod infogas, vilket säkerställer sömlös integration och förbättrad funktionalitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-Anropas precis innan en nod som tillhör detta dokument är på väg att infogas i en annan nod.
+Anropas precis innan en nod som tillhör detta dokument ska infogas i en annan nod.
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)
@@ -18,7 +18,7 @@ public void NodeInserting(NodeChangingArgs args)
 
 ## Exempel
 
-Visar hur du anpassar nodbyte med en återuppringning.
+Visar hur man anpassar nodändringar med en återanrop.
 
 ```csharp
 public void FontChangeViaCallback()
@@ -26,7 +26,7 @@ public void FontChangeViaCallback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Ställ in noden ändra callback till anpassad implementering,
+    // Ställ in nodändringsmotringningen till anpassad implementering,
     // lägg sedan till/ta bort noder för att få den att generera en logg.
     HandleNodeChangingFontChanger callback = new HandleNodeChangingFontChanger();
     doc.NodeChangingCallback = callback;
@@ -42,8 +42,8 @@ public void FontChangeViaCallback()
 }
 
 /// <summary>
-/// Loggar datum och tid för varje nod insättning och borttagning.
-/// Ställer in ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
+/// Loggar datum och tid för varje nodinsättning och borttagning.
+/// Anger ett anpassat teckensnittsnamn/storlek för textinnehållet i Run-noder.
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

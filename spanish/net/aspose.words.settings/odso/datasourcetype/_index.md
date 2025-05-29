@@ -3,14 +3,14 @@ title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
 second_title: Aspose.Words para .NET
-description: Odso DataSourceType propiedad. Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión ODSO para esta combinación de correspondencia. El valor predeterminado esDefault  en C#.
+description: Descubra la propiedad DataSourceType de Odso para conexiones de combinación de correspondencia fluidas. Especifique fácilmente fuentes de datos externas y mejore la eficiencia de su flujo de trabajo.
 type: docs
 weight: 40
 url: /es/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Especifica el tipo de origen de datos externo al que se conectará como parte de la información de conexión ODSO para esta combinación de correspondencia. El valor predeterminado esDefault .
+Especifica el tipo de fuente de datos externa a la que se conectará como parte de la información de conexión de ODSO para esta combinación de correspondencia. El valor predeterminado esDefault .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

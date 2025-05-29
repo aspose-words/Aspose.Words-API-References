@@ -3,14 +3,14 @@ title: PageSetup.PaperSize
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words för .NET
-description: PageSetup PaperSize fast egendom. Returnerar eller ställer in pappersstorleken i C#.
+description: Upptäck egenskapen PageSetup PaperSize för att enkelt anpassa och hantera dokumentets pappersstorlek för optimala utskriftsresultat.
 type: docs
 weight: 350
 url: /sv/net/aspose.words/pagesetup/papersize/
 ---
 ## PageSetup.PaperSize property
 
-Returnerar eller ställer in pappersstorleken.
+Returnerar eller anger pappersstorleken.
 
 ```csharp
 public PaperSize PaperSize { get; set; }
@@ -18,11 +18,23 @@ public PaperSize PaperSize { get; set; }
 
 ## Anmärkningar
 
-Ställer in denna egenskapsuppdateringar[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/) values. Ställer in detta värde tillCustom ändrar inte befintliga värden.
+Att ställa in den här egenskapen uppdateras[`PageWidth`](../pagewidth/) och[`PageHeight`](../pageheight/) värden. Att ställa in detta värde påCustom ändrar inte befintliga värden.
 
 ## Exempel
 
-Visar hur du justerar pappersstorlek, orientering, marginaler, tillsammans med andra inställningar för ett avsnitt.
+Visar hur man ställer in pappersstorleken JisB4 eller JisB5.
+
+```csharp
+Document doc = new Document(MyDir + "Big document.docx");
+
+PageSetup pageSetup = doc.FirstSection.PageSetup;
+// Ställ in pappersstorleken till JisB4 (257x364mm).
+pageSetup.PaperSize = PaperSize.JisB4;
+// Alternativt kan du ställa in pappersstorleken till JisB5. (182x257mm).
+pageSetup.PaperSize = PaperSize.JisB5;
+```
+
+Visar hur man justerar pappersstorlek, orientering, marginaler och andra inställningar för ett avsnitt.
 
 ```csharp
 Document doc = new Document();
@@ -42,14 +54,14 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Visar hur du ställer in sidstorlekar.
+Visar hur man ställer in sidstorlekar.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vi kan ändra storleken på den aktuella sidan till en fördefinierad storlek
-// genom att använda egenskapen "PaperSize" för det här avsnittets PageSetup-objekt.
+// Vi kan ändra den aktuella sidans storlek till en fördefinierad storlek
+// genom att använda egenskapen "PaperSize" i den här sektionens PageSetup-objekt.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
 Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
@@ -57,8 +69,8 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Varje avsnitt har sitt eget PageSetup-objekt. När vi använder en dokumentbyggare för att skapa en ny sektion,
-// det avsnittets PageSetup-objekt ärver alla föregående avsnitts PageSetup-objekts värden.
+// Varje sektion har sitt eget PageSetup-objekt. När vi använder en dokumentbyggare för att skapa en ny sektion,
+// den sektionens PageSetup-objekt ärver alla värden från föregående sektions PageSetup-objekt.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
 Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
@@ -71,7 +83,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Ställ in en anpassad storlek för detta avsnitts sidor.
+// Ange en anpassad storlek för sidorna i det här avsnittet.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -89,20 +101,20 @@ Document doc = new Document();
 
 // Ett tomt dokument innehåller ett avsnitt, en brödtext och ett stycke.
 // Anropa metoden "RemoveAllChildren" för att ta bort alla dessa noder,
-// och slutar med en dokumentnod utan underordnade.
+// och slutar med en dokumentnod utan barn.
 doc.RemoveAllChildren();
 
-// Det här dokumentet har nu inga sammansatta underordnade noder som vi kan lägga till innehåll till.
-// Om vi vill redigera den måste vi fylla på dess nodsamling.
-// Skapa först ett nytt avsnitt och lägg sedan till det som ett underordnat dokument i rotdokumentnoden.
+// Det här dokumentet har nu inga sammansatta undernoder som vi kan lägga till innehåll till.
+// Om vi vill redigera den måste vi fylla i dess nodsamling igen.
+// Skapa först en ny sektion och lägg sedan till den som ett underordnat avsnitt till rotdokumentnoden.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Ställ in några sidinställningar för avsnittet.
+// Ange vissa sidinställningar för avsnittet.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// En sektion behöver en kropp som kommer att innehålla och visa allt dess innehåll
+// En sektion behöver en brödtext, som innehåller och visar allt dess innehåll
 // på sidan mellan avsnittets sidhuvud och sidfot.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -115,8 +127,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en löprunda,
-// ställ in dess utseende och innehåll och lägg sedan till det som ett barn till stycket.
+// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en körning,
+// ange dess utseende och innehåll och lägg sedan till det som ett underordnat stycke.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

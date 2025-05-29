@@ -3,14 +3,14 @@ title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
 second_title: Aspose.Words para .NET
-description: FileFormatUtil ContentTypeToLoadFormat método. Convierte el tipo de contenido de IANA en un valor enumerado de formato de carga en C#.
+description: Transforme fácilmente los tipos de contenido IANA en valores de formato de carga con el método FileFormatUtil ContentTypeToLoadFormat. ¡Simplifique la gestión de sus archivos hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-Convierte el tipo de contenido de IANA en un valor enumerado de formato de carga.
+Convierte el tipo de contenido de IANA en un valor enumerado con formato de carga.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -20,23 +20,23 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 | excepción | condición |
 | --- | --- |
-| ArgumentException | Lanza cuando no se puede convertir. |
+| ArgumentException | Se lanza cuando no se puede convertir. |
 
 ## Ejemplos
 
-Muestra cómo encontrar el formato de carga/guardado de Aspose correspondiente de cada cadena de tipo de medio.
+Muestra cómo encontrar el formato de carga/guardado de Aspose correspondiente a cada cadena de tipo de medio.
 
 ```csharp
  // Los métodos ContentTypeToSaveFormat/ContentTypeToLoadFormat solo aceptan nombres de tipos de medios oficiales de IANA, también conocidos como tipos MIME.
 // Todos los tipos de medios válidos se enumeran aquí: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// Intentar asociar un SaveFormat con una cadena de tipo de medio parcial no funcionará.
+Intentar asociar un SaveFormat con una cadena de tipo de medio parcial no funcionará.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// Si Aspose.Words no tiene un formato de guardar/cargar correspondiente para un tipo de contenido, también se generará una excepción.
+// Si Aspose.Words no tiene un formato de guardado/carga correspondiente para un tipo de contenido, también se lanzará una excepción.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
-// Los archivos de los tipos enumerados a continuación se pueden guardar, pero no cargar, usando Aspose.Words.
+// Los archivos de los tipos enumerados a continuación se pueden guardar, pero no cargar mediante Aspose.Words.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
 Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));

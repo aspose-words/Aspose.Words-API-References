@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitRun
 linktitle: VisitRun
 articleTitle: VisitRun
 second_title: Aspose.Words för .NET
-description: DocumentVisitor VisitRun metod. Anropas när en körning av text i den påträffas i C#.
+description: Utforska DocumentVisitor VisitRun-metoden för effektiv texthantering i dina applikationer. Förbättra din kodning med detta viktiga verktyg!
 type: docs
 weight: 360
 url: /sv/net/aspose.words/documentvisitor/visitrun/
 ---
 ## DocumentVisitor.VisitRun method
 
-Anropas när en körning av text i den påträffas.
+Anropas när en textsekvens i påträffas.
 
 ```csharp
 public virtual VisitorAction VisitRun(Run run)
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitRun(Run run)
 
 ### Returvärde
 
-A[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
+En[`VisitorAction`](../../visitoraction/) värde som anger hur uppräkningen ska fortsätta.
 
 ## Exempel
 
@@ -35,7 +35,7 @@ public void DocStructureToText()
     DocStructurePrinter visitor = new DocStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -43,7 +43,7 @@ public void DocStructureToText()
 }
 
 /// <summary>
-/// Går igenom en nods träd med undernoder.
+/// Går igenom en nods träd av undernoder.
 /// Skapar en karta över detta träd i form av en sträng.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -73,7 +73,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en dokumentnod har besökts.
+    /// Anropas efter att alla undernoder till en dokumentnod har besökts.
     /// </summary>
     public override VisitorAction VisitDocumentEnd(Document doc)
     {
@@ -88,7 +88,7 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // Hämta indexet för vår sektion i dokumentet.
+        // Hämta indexet för vårt avsnitt i dokumentet.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -99,7 +99,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en sektionsnod har besökts.
+    /// Anropas efter att alla undernoder till en sektionsnod har besökts.
     /// </summary>
     public override VisitorAction VisitSectionEnd(Section section)
     {
@@ -122,7 +122,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Kallas efter att alla underordnade noder i en Kroppsnod har besökts.
+    /// Anropas efter att alla undernoder till en Body-nod har besökts.
     /// </summary>
     public override VisitorAction VisitBodyEnd(Body body)
     {
@@ -133,7 +133,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en Paragraph-nod påträffas i dokumentet.
+    /// Anropas när en styckenod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -144,7 +144,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en Paragraph-nod har besökts.
+    /// Anropas efter att alla undernoder till en styckenod har besökts.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -155,7 +155,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -165,7 +165,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en SubDocument-nod påträffas i dokumentet.
+    /// Anropas när en underdokumentnod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -175,9 +175,29 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Anropas när en underdokumentnod påträffas i dokumentet.
     /// </summary>
-    /// <param name="text"></param>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Anropas när en underdokumentnod påträffas i dokumentet.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
+    /// </summary>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

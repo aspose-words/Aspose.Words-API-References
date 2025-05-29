@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words لـ .NET
-description: Document MailMergeSettings ملكية. الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه في C#.
+description: اكتشف كيفية استخدام خاصية MailMergeSettings لإدارة جميع بيانات دمج البريد الخاصة بمستندك بكفاءة وتحسين سير عملك.
 type: docs
-weight: 270
+weight: 280
 url: /ar/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-الحصول على الكائن الذي يحتوي على كافة معلومات دمج المراسلات لمستند أو تعيينه.
+يحصل على الكائن الذي يحتوي على كافة معلومات دمج البريد لمستند أو يعينه.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,13 +18,13 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## ملاحظات
 
-يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج البريد لمستند وستظهر هذه المعلومات (مع حقول البيانات المتوفرة) في Microsoft Word عندما يفتح المستخدم هذا المستند. أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج البريد التي حددها المستخدم في Microsoft Word لهذا المستند.
+يمكنك استخدام هذا الكائن لتحديد مصدر بيانات دمج البريد لمستند، وستظهر هذه المعلومات (إلى جانب حقول البيانات المتوفرة) في Microsoft Word عندما يفتح المستخدم هذا المستند. أو يمكنك استخدام هذا الكائن للاستعلام عن إعدادات دمج البريد التي حددها المستخدم في Microsoft Word لهذا المستند.
 
-هذا الكائن أبدا`باطل`.
+هذا الكائن لا يحدث أبدًا`باطل`.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

@@ -3,7 +3,7 @@ title: TextBox.IsValidLinkTarget
 linktitle: IsValidLinkTarget
 articleTitle: IsValidLinkTarget
 second_title: Aspose.Words لـ .NET
-description: TextBox IsValidLinkTarget طريقة. يحدد ما إذا كان هذاTextBox يمكن ربطها بالهدفTextBox  في C#.
+description: اكتشف ما إذا كان مربع النص الخاص بك قادرًا على الارتباط بهدف باستخدام طريقة IsValidLinkTarget. حسّن أداء واجهة المستخدم لديك بسهولة!
 type: docs
 weight: 140
 url: /ar/net/aspose.words.drawing/textbox/isvalidlinktarget/
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// قد يحتوي مربع النص الفارغ فقط على رابط.
+// فقط مربع النص الفارغ يمكن أن يحتوي على رابط.
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // اقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تحقق من أنهما لم يعودا مرتبطين.
+    // قم بقطع الارتباط الأمامي بين textBox2 وtextBox3، ثم تأكد من عدم وجود ارتباط بينهما بعد الآن.
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

@@ -3,7 +3,7 @@ title: ImageSaveOptions.ImageColorMode
 linktitle: ImageColorMode
 articleTitle: ImageColorMode
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions ImageColorMode fast egendom. Hämtar eller ställer in färgläget för de genererade bilderna i C#.
+description: Upptäck ImageSaveOptions ImageColorMode-egenskapen för att enkelt anpassa och optimera färgläget för dina genererade bilder. Förbättra dina bilder idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/imagesaveoptions/imagecolormode/
@@ -18,64 +18,34 @@ public ImageColorMode ImageColorMode { get; set; }
 
 ## Anmärkningar
 
-Den här egenskapen har endast effekt när du sparar i rasterbildsformat.
+Den här egenskapen har endast effekt när du sparar i rasterbildformat.
 
 Standardvärdet ärNone.
 
 ## Exempel
 
-Visar hur du ställer in ett färgläge när du renderar dokument.
+Visar hur man ställer in ett färgläge vid rendering av dokument.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-            builder.Writeln("Hello world!");
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
+// När vi sparar dokumentet som en bild kan vi skicka ett SaveOptions-objekt till
+// välj ett färgläge för bilden som sparandet kommer att generera.
+// Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.BlackAndWhite",
+// sparoperationen kommer att tillämpa gråskalefärgreducering under rendering av dokumentet.
+ // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
+// sparningsåtgärden kommer att återge dokumentet till en monokrom bild.
+// Om vi ställer in egenskapen "ImageColorMode" till "None" kommer standardmetoden att användas vid sparning.
+// och bevara alla dokumentets färger i utdatabilden.
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.ImageColorMode = imageColorMode;
 
-            // När vi sparar dokumentet som en bild kan vi skicka ett SaveOptions-objekt till
-            // välj ett färgläge för bilden som sparas.
-            // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.BlackAndWhite",
-            // sparoperationen kommer att tillämpa gråskalefärgreduktion medan dokumentet renderas.
-            // Om vi ställer in egenskapen "ImageColorMode" till "ImageColorMode.Grayscale",
-            // sparoperationen kommer att göra dokumentet till en monokrom bild.
-            // Om vi ställer in egenskapen "ImageColorMode" till "None", kommer sparoperationen att tillämpa standardmetoden
-            // och bevara alla dokumentets färger i utdatabilden.
-            ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
-            imageSaveOptions.ImageColorMode = imageColorMode;
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
-
-#if NET48 || JAVA
-            switch (imageColorMode)
-            {
-                case ImageColorMode.None:
-                    Assert.That(150000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.Grayscale:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.BlackAndWhite:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-            }
-#elif NET5_0_OR_GREATER
-            switch (imageColorMode)
-            {
-                case ImageColorMode.None:
-                    Assert.That(120000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.Grayscale:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-                case ImageColorMode.BlackAndWhite:
-                    Assert.That(20000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.ColorMode.png").Length));
-                    break;
-            }
-#endif
+doc.Save(ArtifactsDir + "ImageSaveOptions.ColorMode.png", imageSaveOptions);
 ```
 
 ### Se även

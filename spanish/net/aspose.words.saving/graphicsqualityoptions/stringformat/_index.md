@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.StringFormat
 linktitle: StringFormat
 articleTitle: StringFormat
 second_title: Aspose.Words para .NET
-description: GraphicsQualityOptions StringFormat propiedad. Obtiene o establece información de diseño de texto como alineación orientación y tabulaciones manipulaciones de visualización como inserción de puntos suspensivos y sustitución de dígitos nacionales y características OpenType en C#.
+description: Descubra la propiedad GraphicsQualityOptions StringFormat para un control mejorado del diseño del texto, incluidas funciones de alineación, puntos suspensivos y OpenType para una mejor visualización.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/graphicsqualityoptions/stringformat/
 ---
 ## GraphicsQualityOptions.StringFormat property
 
-Obtiene o establece información de diseño de texto (como alineación, orientación y tabulaciones), manipulaciones de visualización (como inserción de puntos suspensivos y sustitución de dígitos nacionales) y características OpenType.
+Obtiene o establece información de diseño de texto (como alineación, orientación y tabulaciones), manipulaciones de visualización (como inserción de puntos suspensivos y sustitución de dígitos nacionales) y funciones OpenType.
 
 ```csharp
 public StringFormat StringFormat { get; set; }

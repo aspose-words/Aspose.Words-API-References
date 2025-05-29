@@ -3,9 +3,9 @@ title: TableStyleOptions Enum
 linktitle: TableStyleOptions
 articleTitle: TableStyleOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.TableStyleOptions перечисление. Указывает как стиль таблицы применяется к таблице на С#.
+description: Откройте для себя перечисление Aspose.Words.Tables.TableStyleOptions для гибкого оформления таблиц. Улучшите дизайн вашего документа с помощью настраиваемых стилей таблиц уже сегодня!
 type: docs
-weight: 6370
+weight: 7220
 url: /ru/net/aspose.words.tables/tablestyleoptions/
 ---
 ## TableStyleOptions enumeration
@@ -24,30 +24,30 @@ public enum TableStyleOptions
 | None | `0` | Форматирование стиля таблицы не применяется. |
 | FirstRow | `20` | Применить условное форматирование первой строки. |
 | LastRow | `40` | Применить условное форматирование последней строки. |
-| FirstColumn | `80` | Применить условное форматирование 1 первого столбца. |
+| FirstColumn | `80` | Применить условное форматирование к 1 первому столбцу. |
 | LastColumn | `100` | Применить условное форматирование последнего столбца. |
-| RowBands | `200` | Применить условное форматирование группировки строк. |
-| ColumnBands | `400` | Применить условное форматирование группировки столбцов. |
-| Default2003 | `600` | Применено группирование строк и столбцов. Это значение Microsoft Word по умолчанию для старых форматов, таких как DOC, WML и RTF. . |
+| RowBands | `200` | Применить условное форматирование полосы строк. |
+| ColumnBands | `400` | Применить условное форматирование полосы столбцов. |
+| Default2003 | `600` | Применяется полоса строк и столбцов. Это значение по умолчанию Microsoft Word для старых форматов, таких как DOC, WML и RTF. |
 | Default | `2A0` | Это настройки Microsoft Word по умолчанию. |
 
 ## Примеры
 
-Показывает, как построить новую таблицу с применением стиля.
+Показывает, как создать новую таблицу, применяя стиль.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Мы должны вставить хотя бы одну строку, прежде чем устанавливать какое-либо форматирование таблицы.
+// Перед настройкой форматирования таблицы необходимо вставить хотя бы одну строку.
 builder.InsertCell();
 
-// Установите используемый стиль таблицы на основе идентификатора стиля.
+// Устанавливаем используемый стиль таблицы на основе идентификатора стиля.
 // Обратите внимание, что не все стили таблиц доступны при сохранении в формате .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Частично применить стиль к функциям таблицы на основе предикатов, затем построить таблицу.
+// Частично применяем стиль к признакам таблицы на основе предикатов, затем создаем таблицу.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

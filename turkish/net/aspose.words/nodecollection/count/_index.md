@@ -2,8 +2,8 @@
 title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: NodeCollection Count mülk. Koleksiyondaki düğüm sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuzdaki toplam düğüm sayısına kolayca erişmek, veri yönetimini ve verimliliği artırmak için NodeCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/nodecollection/count/
@@ -18,27 +18,27 @@ public int Count { get; }
 
 ## Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
+Bir bileşik düğümün alt düğüm koleksiyonunda nasıl dolaşılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
+// Bu belgenin ilk paragrafına iki çalışma ve bir şekil alt düğüm olarak ekleyin.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
+// 'CustomNodeId' öğesinin bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün yaşam süresi boyunca var olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
-// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+// Paragrafın hemen altındaki alt öğelerin koleksiyonunda yineleme yapın,
+// ve içinde bulduğumuz herhangi bir koşuyu veya şekli yazdırırız.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -58,7 +58,7 @@ foreach (Node child in children)
     }
 ```
 
-Bir tablonun iç içe olup olmadığının nasıl öğrenileceğini gösterir.
+Bir tablonun iç içe geçmiş olup olmadığını nasıl bulacağınızı gösterir.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -69,11 +69,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Tablodaki herhangi bir hücrenin alt tablo olarak başka tabloları olup olmadığını öğrenin.
+        // Tablodaki herhangi bir hücrenin alt tabloları olup olmadığını bulun.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Tablonun başka bir tablonun içinde olup olmadığını ve eğer öyleyse hangi derinlikte olduğunu öğrenin.
+        // Tablonun başka bir tablonun içinde yer alıp almadığını ve eğer yer alıyorsa hangi derinlikte olduğunu bulun.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -85,10 +85,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Bir tablonun diğer tabloların içine hangi seviyede yerleştirildiğini hesaplar.
+/// Bir tablonun diğer tabloların içinde ne düzeyde yuvalandığını hesaplar.
 /// </summary>
 /// <returns>
-/// Tablonun iç içe geçme derinliğini belirten bir tamsayı (ana tablo düğümlerinin sayısı).
+/// Tablonun iç içe geçme derinliğini (üst tablo düğümlerinin sayısı) belirten bir tam sayı.
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bir tablonun hücreleri içinde herhangi bir doğrudan alt tablo içerip içermediğini belirler.
-/// Daha fazla tablo olup olmadığını kontrol etmek için bu tabloların arasında yinelemeli olarak geçiş yapmayın.
+/// Bir tablonun hücreleri içerisinde herhangi bir alt tablonun bulunup bulunmadığını belirler.
+/// Daha fazla tablo olup olmadığını kontrol etmek için bu tablolar arasında yinelemeli olarak gezinmeyin.
 /// </summary>
 /// <returns>
-/// Eğer en az bir alt hücre tablo içeriyorsa true değerini döndürür.
-/// Tablodaki hiçbir hücre tablo içermiyorsa false değerini döndürür.
+/// En az bir alt hücrenin tablo içermesi durumunda true döner.
+/// Tabloda tablo içeren hiçbir hücre yoksa false döndürür.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

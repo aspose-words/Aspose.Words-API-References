@@ -3,7 +3,7 @@ title: FieldIndex.CrossReferenceSeparator
 linktitle: CrossReferenceSeparator
 articleTitle: CrossReferenceSeparator
 second_title: Aspose.Words per .NET
-description: FieldIndex CrossReferenceSeparator proprietà. Ottiene o imposta la sequenza di caratteri utilizzata per separare i riferimenti incrociati e altre voci in C#.
+description: Scopri la proprietà FieldIndex CrossReferenceSeparator per gestire facilmente le sequenze di caratteri per separare in modo efficiente riferimenti incrociati e voci.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldindex/crossreferenceseparator/
@@ -25,20 +25,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Crea un campo INDICE che visualizzerà una voce per ogni campo XE trovato nel documento.
-// Ogni voce visualizzerà il valore della proprietà Text del campo XE sul lato sinistro,
-// e il numero della pagina che contiene il campo XE a destra.
-// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Text".
-// in una voce invece di creare una voce per ciascun campo XE.
+// Ogni voce visualizzerà il valore della proprietà Testo del campo XE sul lato sinistro,
+// e il numero della pagina che contiene il campo XE sulla destra.
+// La voce INDEX raccoglierà tutti i campi XE con valori corrispondenti nella proprietà "Testo"
+// in una voce anziché creare una voce per ogni campo XE.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// Possiamo configurare un campo XE per fare in modo che la sua voce INDEX visualizzi una stringa invece di un numero di pagina.
+// Possiamo configurare un campo XE in modo che la sua voce INDICE visualizzi una stringa anziché un numero di pagina.
 // Innanzitutto, per le voci che sostituiscono un numero di pagina con una stringa,
 // specifica un separatore personalizzato tra il valore della proprietà Text del campo XE e la stringa.
 index.CrossReferenceSeparator = ", see: ";
 
 Assert.AreEqual(" INDEX  \\k \", see: \"", index.GetFieldCode());
 
-// Inserisci un campo XE, che crea una normale voce INDEX che visualizza il numero di pagina di questo campo,
+// Inserire un campo XE, che crea una voce INDICE regolare che visualizza il numero di pagina di questo campo,
 // e non richiama il valore CrossReferenceSeparator.
 // La voce per questo campo XE visualizzerà "Apple, 2".
 builder.InsertBreak(BreakType.PageBreak);
@@ -47,9 +47,9 @@ indexEntry.Text = "Apple";
 
 Assert.AreEqual(" XE  Apple", indexEntry.GetFieldCode());
 
-// Inserisci un altro campo XE a pagina 3 e imposta un valore per la proprietà PageNumberReplacement.
+// Inserire un altro campo XE a pagina 3 e impostare un valore per la proprietà PageNumberReplacement.
 // Questo valore verrà visualizzato al posto del numero della pagina in cui si trova questo campo,
-// e il valore CrossReferenceSeparator del campo INDEX verrà visualizzato davanti ad esso.
+// e il valore CrossReferenceSeparator del campo INDEX apparirà davanti ad esso.
 // La voce per questo campo XE visualizzerà "Banana, vedi: Frutto tropicale".
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

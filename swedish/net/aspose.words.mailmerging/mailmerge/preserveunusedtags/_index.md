@@ -3,14 +3,14 @@ title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
 second_title: Aspose.Words för .NET
-description: MailMerge PreserveUnusedTags fast egendom. Hämtar eller ställer in ett värde som anger om de oanvända mustaschtaggarna ska bevaras i C#.
+description: Upptäck egenskapen PreserveUnusedTags i MailMerge för att hantera oanvända mustaschtaggar effektivt och förbättra din dokumentautomatiseringsprocess.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
 ---
 ## MailMerge.PreserveUnusedTags property
 
-Hämtar eller ställer in ett värde som anger om de oanvända "mustasch"-taggarna ska bevaras.
+Hämtar eller anger ett värde som anger om de oanvända "mustasch"-taggarna ska bevaras.
 
 ```csharp
 public bool PreserveUnusedTags { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är`falsk` .
 
 ## Exempel
 
-Visar hur man bevarar utseendet på alternativa kopplingsetiketter som inte används under en koppling.
+Visar hur man bevarar utseendet på alternativa dokumentkopplingstaggar som inte används under en dokumentkoppling.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,19 +30,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // Som standard placerar en brevkoppling data från varje rad i en tabell i MERGEFIELDs, vilka namnger kolumner i den tabellen.
-    // Vårt dokument har inga sådana fält, men det har klartext-taggar omgivna av hängslen.
-    // Om vi ställer in flaggan "PreserveUnusedTags" till "true", kan vi behandla dessa taggar som MERGEFIELDs
-    // för att tillåta vår e-postsammanfogning för att infoga data från datakällan vid dessa taggar.
-    // Om vi sätter "PreserveUnusedTags"-flaggan till "false",
-    // sammanslagningen kommer att konvertera dessa taggar till MERGEFIELDs och lämna dem ofyllda.
+     // Som standard placerar en dokumentkoppling data från varje rad i en tabell i MERGEFIELDS, som namnger kolumner i tabellen.
+    // Vårt dokument har inga sådana fält, men det har klartexttaggar omgivna av klammerparenteser.
+    // Om vi ställer in flaggan "PreserveUnusedTags" till "true" kan vi behandla dessa taggar som MERGEFIELDS
+    // för att tillåta att vår dokumentkoppling infogar data från datakällan vid dessa taggar.
+    // Om vi sätter flaggan "PreserveUnusedTags" till "false",
+    // dokumentkopplingen konverterar dessa taggar till MERGEFIELDS och lämnar dem ofyllda.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Vårt dokument har en tagg för en kolumn som heter "Column2", som inte finns i tabellen.
-    // Om vi sätter "PreserveUnusedTags"-flaggan till "false", then the mail merge will convert this tag into a MERGEFIELD.
+    // Vårt dokument har en tagg för en kolumn med namnet "Kolumn2", som inte finns i tabellen.
+    // Om vi sätter flaggan "PreserveUnusedTags" till "false", then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -52,7 +52,7 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 }
 
 /// <summary>
-/// Skapa ett dokument och lägg till två klartext-taggar som kan fungera som MERGEFIELDs under en e-postkoppling.
+/// Skapa ett dokument och lägg till två klartexttaggar som kan fungera som MERGEFIELDS under en dokumentkoppling.
 /// </summary>
 private static Document CreateSourceDocWithAlternativeMergeFields()
 {
@@ -62,7 +62,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Våra taggar registreras som destinationer för kopplingsdata endast om vi ställer in detta på sant.
+    // Våra taggar registreras endast som destinationer för dokumentkopplingsdata om vi ställer in detta till sant.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

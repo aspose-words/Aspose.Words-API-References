@@ -3,14 +3,14 @@ title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo klass. Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor i C#.
+description: Upptäck klassen Aspose.Words.Fonts.PhysicalFontInfo, som ger viktig information om fysiska teckensnitt för förbättrad dokumentbehandling och design.
 type: docs
-weight: 3030
+weight: 3460
 url: /sv/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Anger information om fysiska teckensnitt som är tillgängliga för Aspose.Words teckensnittsmotor.
+Anger information om fysiskt teckensnitt som är tillgängligt för Aspose.Words teckensnittsmotor.
 
 För att lära dig mer, besök[Arbeta med teckensnitt](https://docs.aspose.com/words/net/working-with-fonts/) dokumentationsartikel.
 
@@ -22,17 +22,18 @@ public class PhysicalFontInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Sökväg till teckensnittsfilen om någon. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Teckensnittets efternamn. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Teckensnittets fullständiga namn. |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Teckensnittets versionssträng. |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | Bäddar in licensrättigheter för teckensnittet. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Sökväg till typsnittsfilen om sådan finns. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Typsnittets efternamn. |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Typsnittets fullständiga namn. |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Versionssträng för teckensnittet. |
 
 ## Exempel
 
 Visar hur man listar tillgängliga teckensnitt.
 
 ```csharp
-// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och skriv sedan ut alla tillgängliga teckensnitt.
+// Konfigurera Aspose.Words för att hämta teckensnitt från en anpassad mapp och sedan skriva ut alla tillgängliga teckensnitt.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

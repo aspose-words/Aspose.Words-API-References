@@ -2,15 +2,15 @@
 title: Document.ShadeFormData
 linktitle: ShadeFormData
 articleTitle: ShadeFormData
-second_title: Aspose.Words for .NET
-description: Document ShadeFormData mülk. Form alanlarında gri gölgelemenin açılıp açılmayacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gri gölgelendirmeyle form görünürlüğünü artırmak, kullanıcı deneyimini ve erişilebilirliği iyileştirmek için ShadeFormData özelliğinin nasıl kullanılacağını keşfedin.
 type: docs
-weight: 380
+weight: 400
 url: /tr/net/aspose.words/document/shadeformdata/
 ---
 ## Document.ShadeFormData property
 
-Form alanlarında gri gölgelemenin açılıp açılmayacağını belirtir.
+Form alanlarında gri gölgelendirmenin açılıp açılmayacağını belirtir.
 
 ```csharp
 public bool ShadeFormData { get; set; }
@@ -18,7 +18,7 @@ public bool ShadeFormData { get; set; }
 
 ## Örnekler
 
-Form alanlarına gri gölgelemenin nasıl uygulanacağını gösterir.
+Form alanlarına gri gölgelendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ builder.Write("Hello world! ");
 builder.InsertTextInput("My form field", TextFormFieldType.Regular, "",
     "Text contents of form field, which are shaded in grey by default.", 0);
 
-// Gri gölgelemeyi kapatabiliriz, böylece yer imlerine eklenen metin diğer metinle karışacaktır.
+// Gri tonlamayı kapatabiliriz, böylece yer imlerine eklenen metin diğer metinlerle harmanlanır.
 doc.ShadeFormData = useGreyShading;
 doc.Save(ArtifactsDir + "Document.ShadeFormData.docx");
 ```

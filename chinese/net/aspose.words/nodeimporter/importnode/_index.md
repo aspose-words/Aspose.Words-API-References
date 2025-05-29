@@ -2,15 +2,15 @@
 title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeImporter ImportNode 方法. 将一个节点从一个文档导入到另一个文档中 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 NodeImporter 的 ImportNode 方法，轻松在文档之间传输节点。立即增强您的工作流程并简化数据集成！
 type: docs
 weight: 20
 url: /zh/net/aspose.words/nodeimporter/importnode/
 ---
 ## NodeImporter.ImportNode method
 
-将一个节点从一个文档导入到另一个文档中。
+将节点从一个文档导入到另一个文档。
 
 ```csharp
 public Node ImportNode(Node srcNode, bool isImportChildren)
@@ -27,15 +27,15 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 ## 评论
 
-导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会从原始文档中更改或删除。
+导入节点会创建属于导入文档的源节点的副本。 返回的节点没有父节点。源节点不会被更改，也不会从原始文档中删除。
 
-在将另一个文档中的节点插入到此文档中之前，必须将其导入。 在导入期间，特定于文档的属性（例如对样式和列表的引用）将从原始文档翻译 到导入文档。导入节点后，可以使用将其插入 到文档中的适当位置[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
+在将其他文档中的节点插入到本文档之前，必须先将其导入。 在导入过程中，文档特定的属性（例如对样式和列表的引用）会从原始文档转换到导入文档。 导入节点后，可以使用以下命令将其插入到文档中的相应位置。[`InsertBefore`](../../compositenode/insertbefore/)或 [`InsertAfter`](../../compositenode/insertafter/)。
 
-如果源节点已经属于目标文档，则只需创建源节点的深层clone 。
+如果源节点已经属于目标文档，则只需创建源节点的深度 clone 。
 
 ## 例子
 
-演示如何将一个文档的内容插入到另一文档的书签中。
+展示如何将一个文档的内容插入到另一个文档的书签中。
 
 ```csharp
 public void InsertAtBookmark()
@@ -62,7 +62,7 @@ public void InsertAtBookmark()
 }
 
 /// <summary>
-/// 在指定节点之后插入文档的内容。
+/// 将文档内容插入到指定节点后。
 /// </summary>
 static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -73,8 +73,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // 循环节体中的所有块级节点，
-        // 然后克隆并插入不是节的最后一个空段落的每个节点。
+        // 循环遍历节主体中的所有块级节点，
+        // 然后克隆并插入不是部分最后一个空段落的每个节点。
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

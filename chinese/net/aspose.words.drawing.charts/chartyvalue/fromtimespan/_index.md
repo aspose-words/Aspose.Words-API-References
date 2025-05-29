@@ -2,8 +2,8 @@
 title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartYValue FromTimeSpan 方法. 创建一个ChartYValue的实例Time类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartYValue FromTimeSpan 方法，轻松为图表创建时间类型实例。立即提升您的数据可视化！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/

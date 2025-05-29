@@ -3,7 +3,7 @@ title: FrameFormat.Width
 linktitle: Width
 articleTitle: Width
 second_title: Aspose.Words für .NET
-description: FrameFormat Width eigendom. Ruft die Breite des angegebenen Rahmens in Punkten ab in C#.
+description: Entdecken Sie die FrameFormat Width-Eigenschaft, um die Breite des Rahmens einfach in Punkten abzurufen und so die Präzision und Effizienz Ihres Designs zu verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words/frameformat/width/

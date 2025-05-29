@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words pour .NET
-description: Shape constructeur. Crée un nouvel objet de forme en C#.
+description: Créez des formes uniques en toute simplicité grâce à notre Constructeur de formes. Concevez des formes personnalisées et améliorez vos projets avec facilité et précision !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing/shape/shape/
@@ -32,9 +32,9 @@ Montre comment insérer une forme avec une image du système de fichiers local d
 ```csharp
 Document doc = new Document();
 
-// Le constructeur public de la classe "Shape" créera une forme avec le type de balisage "ShapeMarkupLanguage.Vml".
+// Le constructeur public de la classe « Shape » créera une forme avec le type de balisage « ShapeMarkupLanguage.Vml ».
 // Si vous devez créer une forme d'un type non primitif, tel que SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded ou DiagonalCornersRounded,
+// Coins supérieurs un arrondi un coupé, Coin unique arrondi, Coins supérieurs arrondis ou Coins diagonaux arrondis,
 // veuillez utiliser DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
@@ -51,13 +51,13 @@ Montre comment créer et formater une zone de texte.
 ```csharp
 Document doc = new Document();
 
-// Crée une zone de texte flottante.
+// Créer une zone de texte flottante.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// Définit l'alignement horizontal et vertical du texte à l'intérieur de la forme.
+// Définissez l'alignement horizontal et vertical du texte à l'intérieur de la forme.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 

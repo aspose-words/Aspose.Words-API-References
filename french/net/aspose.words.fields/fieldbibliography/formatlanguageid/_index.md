@@ -3,7 +3,7 @@ title: FieldBibliography.FormatLanguageId
 linktitle: FormatLanguageId
 articleTitle: FormatLanguageId
 second_title: Aspose.Words pour .NET
-description: FieldBibliography FormatLanguageId propriété. Obtient ou définit lID de langue utilisé pour formater les sources bibliographiques dans le document en C#.
+description: Découvrez comment la propriété FieldBibliography FormatLanguageId améliore les sources bibliographiques de votre document avec des paramètres de langue personnalisables pour une clarté améliorée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldbibliography/formatlanguageid/
@@ -21,8 +21,8 @@ public string FormatLanguageId { get; set; }
 Montre comment travailler avec les champs CITATION et BIBLIOGRAPHIE.
 
 ```csharp
-// Ouvre un document contenant des sources bibliographiques que l'on peut trouver dans
-// Microsoft Word via les références -> Citations et amp; Bibliographie -> Gérer les sources.
+// Ouvrir un document contenant des sources bibliographiques que nous pouvons trouver dans
+// Microsoft Word via Références -> Citations et bibliographie -> Gérer les sources.
 Document doc = new Document(MyDir + "Bibliography.docx");
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Text to be cited with one source.");
@@ -56,12 +56,14 @@ fieldCitation.VolumeNumber = "VII";
 
 Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
 
-// On peut utiliser un champ BIBLIOGRAPHIE pour afficher toutes les sources du document.
+// Nous pouvons utiliser un champ BIBLIOGRAPHIE pour afficher toutes les sources du document.
 builder.InsertBreak(BreakType.PageBreak);
 FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
 fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129", fieldBibliography.GetFieldCode());
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

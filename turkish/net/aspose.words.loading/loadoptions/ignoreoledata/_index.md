@@ -2,15 +2,15 @@
 title: LoadOptions.IgnoreOleData
 linktitle: IgnoreOleData
 articleTitle: IgnoreOleData
-second_title: Aspose.Words for .NET
-description: LoadOptions IgnoreOleData mülk. OLE verilerinin yoksayılıp yok sayılmayacağını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: LoadOptions IgnoreOleData özelliğinin OLE veri işlemeyi kontrol etmenize izin vererek veri işlemenizi nasıl geliştirdiğini keşfedin. İş akışınızı bugün optimize edin!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.loading/loadoptions/ignoreoledata/
 ---
 ## LoadOptions.IgnoreOleData property
 
-OLE verilerinin yoksayılıp yok sayılmayacağını belirtir.
+OLE verilerinin yoksayılıp yoksayılmayacağını belirtir.
 
 ```csharp
 public bool IgnoreOleData { get; set; }
@@ -18,17 +18,17 @@ public bool IgnoreOleData { get; set; }
 
 ## Notlar
 
-OLE verilerinin göz ardı edilmesi, bellek tüketimini azaltabilir ve hedef formatın OLE nesnelerini desteklemediği bir durumda veri kaybı olmadan performansı artırabilir.
+Hedef formatın OLE nesnelerini desteklemediği durumlarda OLE verilerinin göz ardı edilmesi, bellek tüketimini azaltabilir ve veri kaybı olmadan performansı artırabilir.
 
 Varsayılan değer:`YANLIŞ`.
 
 ## Örnekler
 
-Yükleme sırasında OLE verilerinin nasıl alınacağını gösterir.
+Yükleme sırasında OLE verilerinin nasıl dikkate alınacağını gösterir.
 
 ```csharp
 // OLE verilerinin göz ardı edilmesi bellek tüketimini azaltabilir ve performansı artırabilir
-// hedef formatın OLE nesnelerini desteklememesi durumunda veri kaybı olmadan.
+// hedef formatın OLE nesnelerini desteklememesi durumunda veri kaybı yaşanmaz.
 LoadOptions loadOptions = new LoadOptions() { IgnoreOleData = true };
 Document doc = new Document(MyDir + "OLE objects.docx", loadOptions);
 

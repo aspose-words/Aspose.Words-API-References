@@ -3,14 +3,14 @@ title: FontNameSubstitutionRule Class
 linktitle: FontNameSubstitutionRule
 articleTitle: FontNameSubstitutionRule
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule klas. Schriftartersetzungsregel für die Verarbeitung des Schriftartnamens in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.FontNameSubstitutionRule für effiziente Schriftnamenverarbeitung und nahtlose Dokumentformatierung. Verbessern Sie Ihre Textdarstellung!
 type: docs
-weight: 2950
+weight: 3380
 url: /de/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
 
-Schriftartersetzungsregel für die Verarbeitung des Schriftartnamens.
+Schriftartersetzungsregel zur Verarbeitung des Schriftartnamens.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -26,7 +26,7 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 ## Bemerkungen
 
-Gemäß dieser Regel versucht Aspose.Words, den Schriftartnamen zu verarbeiten, um die Ersetzung zu erhalten. Besonders Aspose.Words versucht, Suffixe mit den Trennzeichen „-“, „“ und „(“ zu entfernen, wie es auch bei MS Word der Fall ist.
+Gemäß dieser Regel versucht Aspose.Words, den Schriftnamen zu verarbeiten, um die Ersetzung zu erhalten. Insbesondere Aspose.Words versucht, Suffixe mit den Trennzeichen '-', ',' und '(' zu entfernen, wie es auch MS Word tut.
 
 ### Siehe auch
 

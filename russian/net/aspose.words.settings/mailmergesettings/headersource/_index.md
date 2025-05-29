@@ -3,7 +3,7 @@ title: MailMergeSettings.HeaderSource
 linktitle: HeaderSource
 articleTitle: HeaderSource
 second_title: Aspose.Words для .NET
-description: MailMergeSettings HeaderSource свойство. Указывает путь к источнику заголовка слияния почты. Значение по умолчанию  пустая строка на С#.
+description: Откройте для себя свойство HeaderSource MailMergeSettings, определите путь заголовка слияния почты без усилий. Оптимизируйте свой документооборот сегодня!
 type: docs
 weight: 100
 url: /ru/net/aspose.words.settings/mailmergesettings/headersource/
@@ -21,7 +21,7 @@ public string HeaderSource { get; set; }
 Показывает, как создать источник данных для слияния почты из источника заголовка и источника данных.
 
 ```csharp
-// Создаем файл заголовка слияния почтовой метки, который будет состоять из таблицы с одной строкой.
+// Создайте файл заголовка слияния почтовых этикеток, который будет состоять из таблицы с одной строкой.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -34,8 +34,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx");
 
-// Создаем файл данных слияния почтовой метки, состоящий из таблицы с одной строкой
- // и такое же количество столбцов, как и в таблице заголовка документа.
+// Создать файл данных слияния почтовых этикеток, состоящий из таблицы с одной строкой
+ // и такое же количество столбцов, как и в таблице заголовочного документа.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -48,8 +48,8 @@ builder.EndTable();
 
 doc.Save(ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx");
 
-// Создание целевого документа слияния с MERGEFIELDS с именами, которые
-// сопоставляем имена столбцов в таблице файла заголовка слияния.
+// Создать целевой документ слияния с MERGEFIELDS с именами, которые
+// сопоставить имена столбцов в таблице файла заголовка слияния.
 doc = new Document();
 builder = new DocumentBuilder(doc);
 
@@ -60,14 +60,14 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 
 MailMergeSettings settings = doc.MailMergeSettings;
 
-// Создайте источник данных для нашего слияния почты, указав два имени файла документа.
-// Источник заголовка будет называть столбцы таблицы источника данных.
+// Создаем источник данных для нашего слияния, указав два имени файлов документов.
+// Источник заголовка будет именовать столбцы таблицы источника данных.
 settings.HeaderSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Header.docx";
 
-// Источник данных предоставит строки данных для всех столбцов таблицы заголовка документа.
+// Источник данных предоставит строки данных для всех столбцов в таблице документа заголовка.
 settings.DataSource = ArtifactsDir + "MailMerge.MailingLabelMerge.Data.docx";
 
-// Настраиваем слияние писем типа почтовой метки, которое будет выполнять Microsoft Word
+// Настройте тип почтовой метки для слияния писем, которое будет выполнять Microsoft Word
 // как только мы используем его для загрузки выходного документа.
 settings.Query = "SELECT * FROM " + settings.DataSource;
 settings.MainDocumentType = MailMergeMainDocumentType.MailingLabels;

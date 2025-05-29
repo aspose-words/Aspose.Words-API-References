@@ -3,7 +3,7 @@ title: CssSavingArgs.CssStream
 linktitle: CssStream
 articleTitle: CssStream
 second_title: Aspose.Words für .NET
-description: CssSavingArgs CssStream eigendom. Ermöglicht die Angabe des Streams in dem die CSSInformationen gespeichert werden in C#.
+description: Optimieren Sie Ihren CSS-Speicher mit der CssSavingArgs CssStream-Eigenschaft und ermöglichen Sie so das nahtlose Speichern von CSS-Daten in Ihrem bevorzugten Stream.
 type: docs
 weight: 10
 url: /de/net/aspose.words.saving/csssavingargs/cssstream/
@@ -20,9 +20,9 @@ public Stream CssStream { get; set; }
 
 Mit dieser Eigenschaft können Sie CSS-Informationen in einem Stream speichern.
 
-Der Standardwert ist`Null` . Diese Eigenschaft unterdrückt nicht das Speichern von CSS-Informationen in einer Datei oder das Einbetten in ein HTML-Dokument. Um den Export von CSS zu unterdrücken, verwenden Sie die[`IsExportNeeded`](../isexportneeded/) Eigentum.
+Der Standardwert ist`null` Diese Eigenschaft verhindert nicht das Speichern von CSS-Informationen in einer Datei oder das Einbetten in ein HTML-Dokument. Um den Export von CSS zu unterdrücken, verwenden Sie die[`IsExportNeeded`](../isexportneeded/) Eigentum.
 
-Benutzen[`ICssSavingCallback`](../../icsssavingcallback/) Sie können CSS nicht durch ein anderes ersetzen. Es ist nur zum Speichern von CSS in einem Stream gedacht.
+Verwenden[`ICssSavingCallback`](../../icsssavingcallback/) Sie können CSS nicht durch anderes ersetzen. Es ist nur zum Speichern von CSS in einem Stream vorgesehen.
 
 ## Beispiele
 
@@ -33,15 +33,15 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Setzen Sie die Eigenschaft „CssStylesheetType“ auf „CssStyleSheetType.External“.
-    // ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei ergänzen.
+    // Setzen Sie die Eigenschaft "CssStylesheetType" auf "CssStyleSheetType.External", um
+    // Begleiten Sie ein gespeichertes HTML-Dokument mit einer externen CSS-Stylesheet-Datei.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Nachfolgend finden Sie zwei Möglichkeiten, Verzeichnisse und Dateinamen für Ausgabe-CSS-Stylesheets anzugeben.
+    // Unten finden Sie zwei Möglichkeiten zum Angeben von Verzeichnissen und Dateinamen für die Ausgabe von CSS-Stylesheets.
     // 1 – Verwenden Sie die Eigenschaft „CssStyleSheetFileName“, um unserem Stylesheet einen Dateinamen zuzuweisen:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
@@ -66,7 +66,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Dokument“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

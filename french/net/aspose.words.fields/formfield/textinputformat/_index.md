@@ -3,14 +3,14 @@ title: FormField.TextInputFormat
 linktitle: TextInputFormat
 articleTitle: TextInputFormat
 second_title: Aspose.Words pour .NET
-description: FormField TextInputFormat propriété. Renvoie ou définit la mise en forme du texte pour un champ de formulaire de texte en C#.
+description: Découvrez la propriété FormField TextInputFormat pour personnaliser facilement la mise en forme du texte de vos formulaires, améliorant ainsi l'expérience utilisateur et la collecte de données.
 type: docs
 weight: 200
 url: /fr/net/aspose.words.fields/formfield/textinputformat/
 ---
 ## FormField.TextInputFormat property
 
-Renvoie ou définit la mise en forme du texte pour un champ de formulaire de texte.
+Renvoie ou définit la mise en forme du texte pour un champ de formulaire texte.
 
 ```csharp
 public string TextInputFormat { get; set; }
@@ -18,11 +18,11 @@ public string TextInputFormat { get; set; }
 
 ## Remarques
 
-Si le champ du formulaire de texte contient du texte normal, les chaînes de format valides sont "", "UPPERCASE", "LOWERCASE", "FIRST CAPITAL" et "TITLE CASE". Les strings ne sont pas sensibles à la casse.
+Si le champ de formulaire contient du texte normal, les chaînes de format valides sont : « », « MAJUSCULES », « MINUSCULES », « PREMIÈRE MAJUSCULE » et « TITRE EN CAS DE MAJUSCULES ». Les chaînes de format ne sont pas sensibles à la casse.
 
-Si le champ du formulaire de texte contient un nombre ou une valeur de date/heure, alors les chaînes de format valid sont des chaînes de format numérique ou de date et d'heure.
+Si le champ de formulaire de texte contient un nombre ou une valeur de date/heure, les chaînes de format valid sont des chaînes de format de nombre ou de date et d'heure.
 
-Microsoft Word autorise les chaînes comportant au maximum 64 caractères.
+Microsoft Word autorise les chaînes contenant au maximum 64 caractères.
 
 ## Exemples
 
@@ -73,15 +73,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

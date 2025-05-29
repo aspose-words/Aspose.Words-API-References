@@ -3,7 +3,7 @@ title: GraphicsQualityOptions.StringFormat
 linktitle: StringFormat
 articleTitle: StringFormat
 second_title: Aspose.Words pour .NET
-description: GraphicsQualityOptions StringFormat propriété. Obtient ou définit les informations de mise en page du texte telles que lalignement lorientation et les taquets de tabulation les manipulations daffichage telles que linsertion de points de suspension et la substitution de chiffres nationaux et les fonctionnalités OpenType en C#.
+description: Découvrez la propriété GraphicsQualityOptions StringFormat pour un contrôle amélioré de la mise en page du texte, y compris les fonctionnalités d'alignement, d'ellipse et d'OpenType pour un meilleur affichage.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/graphicsqualityoptions/stringformat/
@@ -18,7 +18,7 @@ public StringFormat StringFormat { get; set; }
 
 ## Exemples
 
-Montre comment définir les options de qualité de rendu lors de la conversion de documents aux formats d'image.
+Montre comment définir les options de qualité de rendu lors de la conversion de documents en formats d'image.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

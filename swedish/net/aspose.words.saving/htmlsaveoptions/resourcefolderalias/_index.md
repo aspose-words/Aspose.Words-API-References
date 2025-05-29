@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ResourceFolderAlias
 linktitle: ResourceFolderAlias
 articleTitle: ResourceFolderAlias
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ResourceFolderAlias fast egendom. Anger namnet på mappen som används för att konstruera URIer för alla resurser som skrivits in i ett HTMLdokument. Standard är en tom sträng i C#.
+description: Optimera dina HTML-dokument med egenskapen HtmlSaveOptions ResourceFolderAlias, som definierar mappnamn för effektiv URI-konstruktion av resurser.
 type: docs
-weight: 430
+weight: 450
 url: /sv/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 ---
 ## HtmlSaveOptions.ResourceFolderAlias property
 
-Anger namnet på mappen som används för att konstruera URI:er för alla resurser som skrivits in i ett HTML-dokument. Standard är en tom sträng.
+Anger namnet på den mapp som används för att konstruera URI:er för alla resurser som skrivs in i ett HTML-dokument. Standardvärdet är en tom sträng.
 
 ```csharp
 public string ResourceFolderAlias { get; set; }
@@ -18,13 +18,13 @@ public string ResourceFolderAlias { get; set; }
 
 ## Anmärkningar
 
-`ResourceFolderAlias` är det enklaste sättet att specificera hur URI:er för alla resursfiler ska vara konstruerade. Samma information kan anges för bilder och typsnitt separat via[`ImagesFolderAlias`](../imagesfolderalias/) och[`FontsFolderAlias`](../fontsfolderalias/) respektive fastigheter. Det finns dock ingen enskild egenskap för CSS.
+`ResourceFolderAlias` är det enklaste sättet att ange hur URI:er för alla resursfiler ska konstrueras. Samma information kan anges separat för bilder och teckensnitt via[`ImagesFolderAlias`](../imagesfolderalias/) och[`FontsFolderAlias`](../fontsfolderalias/) egenskaper, respektive. Det finns dock ingen individuell egenskap för CSS.
 
-`ResourceFolderAlias` har lägre prioritet än[`FontsFolderAlias`](../fontsfolderalias/) och[`ImagesFolderAlias`](../imagesfolderalias/) . Till exempel om båda`ResourceFolderAlias` och[`FontsFolderAlias`](../fontsfolderalias/) är specificerade, kommer teckensnittens URI:er att konstrueras med [`FontsFolderAlias`](../fontsfolderalias/) , medan URI:er för bilder och CSS kommer att konstrueras med `ResourceFolderAlias`.
+`ResourceFolderAlias` har lägre prioritet än[`FontsFolderAlias`](../fontsfolderalias/) och[`ImagesFolderAlias`](../imagesfolderalias/) Till exempel, om båda`ResourceFolderAlias` och[`FontsFolderAlias`](../fontsfolderalias/) anges, kommer teckensnittens URI:er att konstrueras med hjälp av [`FontsFolderAlias`](../fontsfolderalias/) medan URI:er för bilder och CSS kommer att konstrueras med hjälp av `ResourceFolderAlias`.
 
-Om`ResourceFolderAlias` är tom, den[`ResourceFolder`](../resourcefolder/)egenskapsvärdet kommer att användas för att konstruera resurs-URI:er.
+Om`ResourceFolderAlias` är tom, den[`ResourceFolder`](../resourcefolder/) egenskapsvärdet kommer att användas för att konstruera resurs-URI:er.
 
-Om`ResourceFolderAlias` är satt till '.' (prick), kommer resurs-URI endast att innehålla filnamn, utan någon sökväg.
+Om`ResourceFolderAlias` är satt till '.' (punkt), kommer resurs-URI:er endast att innehålla filnamn, utan någon sökväg.
 
 ## Exempel
 
@@ -43,7 +43,7 @@ HtmlSaveOptions options = new HtmlSaveOptions
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
     FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
+    ImagesFolderAlias = "http://example.com/bilder",
     ResourceFolderAlias = "http://example.com/resurser",
     ExportOriginalUrlForLinkedImages = true
 };

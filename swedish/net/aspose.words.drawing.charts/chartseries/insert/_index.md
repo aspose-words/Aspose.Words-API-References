@@ -3,14 +3,14 @@ title: ChartSeries.Insert
 linktitle: Insert
 articleTitle: Insert
 second_title: Aspose.Words för .NET
-description: ChartSeries Insert metod. Infogar det angivna Xvärdet i diagramserien vid det angivna indexet. Om serien stöder Yvärden och bubbelstorlekar kommer de att vara tomma för Xvärdet i C#.
+description: Förbättra dina diagram enkelt med ChartSeries Insert-metoden. Infoga X-värden vid valfritt index och optimera din datavisualisering med lätthet!
 type: docs
-weight: 190
+weight: 200
 url: /sv/net/aspose.words.drawing.charts/chartseries/insert/
 ---
 ## Insert(*int, [ChartXValue](../../chartxvalue/)*) {#insert}
 
-Infogar det angivna X-värdet i diagramserien vid det angivna indexet. Om serien stöder Y-värden och bubbelstorlekar kommer de att vara tomma för X-värdet.
+Infogar det angivna X-värdet i diagramserien vid det angivna indexet. Om serien stöder Y-värden och bubbelstorlekar, kommer de att vara tomma för X-värdet.
 
 ```csharp
 public void Insert(int index, ChartXValue xValue)
@@ -18,7 +18,30 @@ public void Insert(int index, ChartXValue xValue)
 
 ## Anmärkningar
 
-Motsvarande datapunkt med standardformatering kommer att infogas i datapunktssamlingen. Och, om dataetiketter visas, kommer motsvarande dataetikett med standardformatering att infogas också.
+Motsvarande datapunkt med standardformatering infogas i datapunktsamlingen. Och, om dataetiketter visas, infogas även motsvarande dataetikett med standardformatering.
+
+## Exempel
+
+Visar hur man infogar data i en diagramserie.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// Rensa X- och Y-värdena för den första serien.
+series1.ClearValues();
+// Fyll serien med data.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Se även
 
@@ -39,7 +62,30 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue)
 
 ## Anmärkningar
 
-Motsvarande datapunkt med standardformatering kommer att infogas i datapunktssamlingen. Och, om dataetiketter visas, kommer motsvarande dataetikett med standardformatering att infogas också.
+Motsvarande datapunkt med standardformatering infogas i datapunktsamlingen. Och, om dataetiketter visas, infogas även motsvarande dataetikett med standardformatering.
+
+## Exempel
+
+Visar hur man infogar data i en diagramserie.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// Rensa X- och Y-värdena för den första serien.
+series1.ClearValues();
+// Fyll serien med data.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Se även
 
@@ -61,7 +107,30 @@ public void Insert(int index, ChartXValue xValue, ChartYValue yValue, double bub
 
 ## Anmärkningar
 
-Motsvarande datapunkt med standardformatering kommer att infogas i datapunktssamlingen. Och, om dataetiketter visas, kommer motsvarande dataetikett med standardformatering att infogas också.
+Motsvarande datapunkt med standardformatering infogas i datapunktsamlingen. Och, om dataetiketter visas, infogas även motsvarande dataetikett med standardformatering.
+
+## Exempel
+
+Visar hur man infogar data i en diagramserie.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Line, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// Rensa X- och Y-värdena för den första serien.
+series1.ClearValues();
+// Fyll serien med data.
+series1.Insert(0, ChartXValue.FromDouble(3));
+series1.Insert(1, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(2, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10));
+series1.Insert(3, ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### Se även
 

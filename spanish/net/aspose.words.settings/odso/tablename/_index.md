@@ -3,7 +3,7 @@ title: Odso.TableName
 linktitle: TableName
 articleTitle: TableName
 second_title: Aspose.Words para .NET
-description: Odso TableName propiedad. Especifica el conjunto particular de datos al que se conectará una fuente dentro de una fuente de datos externa. El valor predeterminado es una cadena vacía en C#.
+description: Descubra la propiedad TableName de Odso, conéctese sin esfuerzo a conjuntos de datos específicos en fuentes externas, mejorando la integración de datos con facilidad.
 type: docs
 weight: 80
 url: /es/net/aspose.words.settings/odso/tablename/
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

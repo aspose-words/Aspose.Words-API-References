@@ -3,14 +3,14 @@ title: KnownTypeSet Class
 linktitle: KnownTypeSet
 articleTitle: KnownTypeSet
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Reporting.KnownTypeSet classe. Rappresenta un insieme non ordinato ovvero una raccolta di elementi univoci contenenteType oggetti i cui nomi completamente o parzialmente qualificati possono essere utilizzati allinterno dei modelli di report per richiamare i membri statici dei tipi corrispondenti eseguire cast di tipi ecc in C#.
+description: Scopri Aspose.Words.Reporting.KnownTypeSet, una raccolta unica di oggetti Type per modelli di report efficienti, che consente il casting di tipi senza interruzioni e l'accesso ai membri statici.
 type: docs
-weight: 4710
+weight: 5450
 url: /it/net/aspose.words.reporting/knowntypeset/
 ---
 ## KnownTypeSet class
 
-Rappresenta un insieme non ordinato (ovvero una raccolta di elementi univoci) contenenteType oggetti i cui nomi completamente o parzialmente qualificati possono essere utilizzati all'interno dei modelli di report per richiamare i membri statici dei tipi corrispondenti, eseguire cast di tipi, ecc.
+Rappresenta un insieme non ordinato (ovvero una raccolta di elementi unici) contenenteType oggetti i cui nomi completamente o parzialmente qualificati possono essere utilizzati all'interno dei modelli di report per richiamare i membri statici dei tipi corrispondenti, eseguire cast di tipo, ecc.
 
 Per saperne di più, visita il[Motore di reporting LINQ](https://docs.aspose.com/words/net/linq-reporting-engine/) articolo di documentazione.
 
@@ -28,10 +28,10 @@ public class KnownTypeSet : IEnumerable<Type>
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | Aggiunge quanto specificatoType oggetto dell'insieme. LanciaArgumentException in i seguenti casi: |
+| [Add](../../aspose.words.reporting/knowntypeset/add/)(*Type*) | Aggiunge lo specificatoType oggetto all'insieme. |
 | [Clear](../../aspose.words.reporting/knowntypeset/clear/)() | Rimuove tutti gli elementi dal set. |
-| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | Restituisce AnIEnumerator oggetto per scorrere gli elementi del set. |
-| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | Rimuove l'oggetto specificatoTypeoggetto dal set. LanciaArgumentException if *type* È`nullo` . |
+| [GetEnumerator](../../aspose.words.reporting/knowntypeset/getenumerator/)() | Restituisce unIEnumerator oggetto per scorrere gli elementi dell'insieme. |
+| [Remove](../../aspose.words.reporting/knowntypeset/remove/)(*Type*) | Rimuove lo specificatoType oggetto dall'insieme. |
 
 ### Guarda anche
 

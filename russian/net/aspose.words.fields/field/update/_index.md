@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words для .NET
-description: Field Update метод. Выполняет обновление поля. Выдает если поле уже обновляется на С#.
+description: Эффективно обновляйте поля с помощью нашего метода обновления полей. Предотвращает конфликты, гарантируя, что поля еще не используются. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 140
 url: /ru/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-Выполняет обновление поля. Выдает, если поле уже обновляется.
+Выполняет обновление поля. Выдает исключение, если поле уже обновляется.
 
 ```csharp
 public void Update()
@@ -24,8 +24,8 @@ public void Update()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем два поля, передавая флаг, определяющий, следует ли обновлять их при вставке компоновщиком.
-// В некоторых случаях обновление полей может потребовать больших вычислительных затрат, и может быть хорошей идеей отложить обновление.
+// Вставляем два поля, передавая флаг, который определяет, следует ли обновлять их по мере их вставки конструктором.
+// В некоторых случаях обновление полей может быть затратным с точки зрения вычислений, и может быть хорошей идеей отложить обновление.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Нам нужно будет вручную обновить эти поля, используя методы обновления.
+    // Нам нужно будет обновить эти поля вручную, используя методы обновления.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -64,7 +64,7 @@ else
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения формата.
+// Используйте конструктор документов, чтобы вставить поле, отображающее результат без применения форматирования.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Мы можем удалить наши форматы, чтобы вернуть результат поля в исходную форму.
+// Мы можем удалить наши форматы, чтобы вернуть результат поля к исходному виду.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-Выполняет обновление поля. Выдает, если поле уже обновляется.
+Выполняет обновление поля. Выдает исключение, если поле уже обновляется.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | Если`истинный` тогда прямое форматирование результата поля прекращается, независимо от переключателя MERGEFORMAT, в противном случае выполняется обычное обновление. |
+| ignoreMergeFormat | Boolean | Если`истинный` то прямое форматирование результата поля отменяется, независимо от переключателя MERGEFORMAT, в противном случае выполняется обычное обновление. |
 
 ## Примеры
 
@@ -153,7 +153,7 @@ using (MemoryStream docStream = new MemoryStream())
 {
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
-    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли конвертировать все поля INCLUDEPICTURE
+    // Мы можем установить флаг в объекте LoadOptions, чтобы решить, следует ли преобразовывать все поля INCLUDEPICTURE
     // в фигуры изображений при загрузке документа, который их содержит.
     LoadOptions loadOptions = new LoadOptions
     {

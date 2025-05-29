@@ -3,7 +3,7 @@ title: WarningInfoCollection
 linktitle: WarningInfoCollection
 articleTitle: WarningInfoCollection
 second_title: Aspose.Words per .NET
-description: WarningInfoCollection costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore WarningInfoCollection, la soluzione ideale per una gestione efficiente degli errori nelle applicazioni. Semplifica la codifica con il nostro costruttore predefinito!
 type: docs
 weight: 10
 url: /it/net/aspose.words/warninginfocollection/warninginfocollection/

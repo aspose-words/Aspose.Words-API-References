@@ -3,7 +3,7 @@ title: CellFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words para .NET
-description: CellFormat Borders propiedad. Obtiene la colección de bordes de la celda en C#.
+description: Descubra la propiedad CellFormat Borders para acceder y personalizar colecciones de bordes de celdas para mejorar el diseño y la funcionalidad de las hojas de cálculo.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/cellformat/borders/
@@ -23,7 +23,7 @@ Muestra cómo combinar las filas de dos tablas en una.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-// A continuación se muestran dos formas de obtener una tabla de un documento.
+A continuación se muestran dos formas de obtener una tabla de un documento.
 // 1 - De la colección "Tablas" de un nodo Cuerpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
@@ -34,7 +34,7 @@ Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 
-// Elimina el contenedor de la tabla vacía.
+//Eliminar el contenedor de tabla vacío.
 secondTable.Remove();
 
 doc.Save(ArtifactsDir + "Table.CombineTables.docx");

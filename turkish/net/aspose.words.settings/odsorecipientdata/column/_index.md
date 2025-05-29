@@ -2,15 +2,15 @@
 title: OdsoRecipientData.Column
 linktitle: Column
 articleTitle: Column
-second_title: Aspose.Words for .NET
-description: OdsoRecipientData Column mülk. Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütunu belirtir. Varsayılan değer 0. dir C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoRecipientData Column özelliğini keşfedin, kayıtlar için benzersiz veri sütunlarını kolayca tanımlayın ve veri yönetimini geliştirin. Varsayılan değer 0'dır.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.settings/odsorecipientdata/column/
 ---
 ## OdsoRecipientData.Column property
 
-Geçerli kayıt için benzersiz verileri içeren veri kaynağı içindeki sütunu belirtir. Varsayılan değer 0. 'dir
+Geçerli kayıt için benzersiz verileri içeren veri kaynağındaki sütunu belirtir. Varsayılan değer 0'dır.
 
 ```csharp
 public int Column { get; set; }
@@ -18,7 +18,7 @@ public int Column { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

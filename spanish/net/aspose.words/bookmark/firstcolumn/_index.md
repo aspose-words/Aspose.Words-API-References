@@ -3,14 +3,14 @@ title: Bookmark.FirstColumn
 linktitle: FirstColumn
 articleTitle: FirstColumn
 second_title: Aspose.Words para .NET
-description: Bookmark FirstColumn propiedad. Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador en C#.
+description: Descubra la propiedad FirstColumn. Acceda fácilmente al índice de base cero de la primera columna del rango de marcadores de su tabla para una gestión eficiente de los datos.
 type: docs
 weight: 30
 url: /es/net/aspose.words/bookmark/firstcolumn/
 ---
 ## Bookmark.FirstColumn property
 
-Obtiene el índice de base cero de la primera columna del rango de columnas de la tabla asociado con el marcador.
+Obtiene el índice basado en cero de la primera columna del rango de columnas de la tabla asociado con el marcador.
 
 ```csharp
 public int FirstColumn { get; }
@@ -18,7 +18,7 @@ public int FirstColumn { get; }
 
 ## Observaciones
 
-Devoluciones**-1** si este marcador no es un marcador de columna de tabla.
+Devuelve**-1** Si este marcador no es un marcador de columna de tabla.
 
 ## Ejemplos
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Si un marcador encierra columnas de una tabla, es un marcador de columna de tabla y su indicador IsColumn está establecido en verdadero.
+    // Si un marcador encierra columnas de una tabla, es un marcador de columna de tabla y su indicador IsColumn se establece en verdadero.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {

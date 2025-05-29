@@ -3,7 +3,7 @@ title: CellFormat.Borders
 linktitle: Borders
 articleTitle: Borders
 second_title: Aspose.Words per .NET
-description: CellFormat Borders proprietà. Ottiene la raccolta dei bordi della cella in C#.
+description: Scopri la proprietà CellFormat Borders per accedere e personalizzare le raccolte di bordi delle celle, per migliorare la progettazione e le funzionalità del foglio di calcolo.
 type: docs
 weight: 10
 url: /it/net/aspose.words.tables/cellformat/borders/
@@ -24,13 +24,13 @@ Mostra come combinare le righe di due tabelle in una.
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Di seguito sono riportati due modi per ottenere una tabella da un documento.
-// 1 - Dalla raccolta "Tables" di un nodo Body:
+// 1 - Dalla raccolta "Tabelle" di un nodo Corpo:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
-// 2 - Utilizzando il metodo "GetChild":
+// 2 - Utilizzo del metodo "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Aggiunge tutte le righe della tabella corrente a quella successiva.
+// Aggiunge tutte le righe dalla tabella corrente a quella successiva.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

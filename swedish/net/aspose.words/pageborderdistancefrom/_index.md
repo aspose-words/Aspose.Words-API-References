@@ -3,14 +3,14 @@ title: PageBorderDistanceFrom Enum
 linktitle: PageBorderDistanceFrom
 articleTitle: PageBorderDistanceFrom
 second_title: Aspose.Words för .NET
-description: Aspose.Words.PageBorderDistanceFrom uppräkning. Anger placeringen av sidkanten i förhållande till sidmarginalen i C#.
+description: Upptäck Aspose.Words.PageBorderDistanceFrom-enumereringen för exakt placering av sidkanter. Förbättra dokumentformateringen med optimal marginalplacering.
 type: docs
-weight: 4350
+weight: 5080
 url: /sv/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
 
-Anger placeringen av sidkanten i förhållande till sidmarginalen.
+Anger sidkantens placering i förhållande till sidmarginalen.
 
 ```csharp
 public enum PageBorderDistanceFrom
@@ -20,12 +20,12 @@ public enum PageBorderDistanceFrom
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Text | `0` | Kantposition mäts från sidmarginalen. |
+| Text | `0` | Kantpositionen mäts från sidmarginalen. |
 | PageEdge | `1` | Kantpositionen mäts från sidans kant. |
 
 ## Exempel
 
-Visar hur man skapar en bred blå bandkant längst upp på första sidan.
+Visar hur man skapar en bred blå kantlinje högst upp på första sidan.
 
 ```csharp
 Document doc = new Document();

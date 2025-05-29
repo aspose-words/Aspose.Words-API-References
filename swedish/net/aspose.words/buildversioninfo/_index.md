@@ -3,16 +3,16 @@ title: BuildVersionInfo Class
 linktitle: BuildVersionInfo
 articleTitle: BuildVersionInfo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BuildVersionInfo klass. Ger information om aktuellt produktnamn och version i C#.
+description: Upptäck klassen Aspose.Words.BuildVersionInfo för detaljerad insikt om produktnamn och version. Förbättra din dokumenthantering med tillförlitlig data!
 type: docs
-weight: 120
+weight: 310
 url: /sv/net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class
 
 Ger information om aktuellt produktnamn och version.
 
-För att lära dig mer, besök[Generator- eller producentnamn ingår i utdatadokument](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) dokumentationsartikel.
+För att lära dig mer, besök[Generator- eller producentnamn inkluderat i utdatadokument](https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/) dokumentationsartikel.
 
 ```csharp
 public static class BuildVersionInfo
@@ -22,7 +22,7 @@ public static class BuildVersionInfo
 
 | namn | Beskrivning |
 | --- | --- |
-| static [Product](../../aspose.words/buildversioninfo/product/) { get; } | Får hela namnet på produkten. |
+| static [Product](../../aspose.words/buildversioninfo/product/) { get; } | Hämtar produktens fullständiga namn. |
 | static [Version](../../aspose.words/buildversioninfo/version/) { get; } | Hämtar produktversionen. |
 
 ## Exempel

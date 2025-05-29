@@ -3,7 +3,7 @@ title: OleFormat.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words pour .NET
-description: OleFormat ProgId propriété. Obtient ou définit le ProgID de lobjet OLE en C#.
+description: Découvrez la propriété OleFormat ProgId pour gérer et personnaliser facilement les ProgID d'objet OLE pour des fonctionnalités améliorées et une intégration transparente.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing/oleformat/progid/
@@ -18,15 +18,15 @@ public string ProgId { get; set; }
 
 ## Remarques
 
-La propriété ProgID n'est pas toujours présente dans les documents Microsoft Word et on ne peut pas s'y fier.
+La propriété ProgID n'est pas toujours présente dans les documents Microsoft Word et ne peut pas être utilisée en toute confiance.
 
-C'est pas possible`nul`.
+Ne peut pas être`nul`.
 
 La valeur par défaut est une chaîne vide.
 
 ## Exemples
 
-Montre comment extraire des objets OLE incorporés dans des fichiers.
+Montre comment extraire des objets OLE intégrés dans des fichiers.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
@@ -42,7 +42,7 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Si nous prévoyons d'enregistrer l'objet OLE dans un fichier du système de fichiers local,
-// nous pouvons utiliser la propriété "SuggestedExtension" pour déterminer quelle extension de fichier appliquer au fichier.
+// nous pouvons utiliser la propriété « SuggestedExtension » pour déterminer quelle extension de fichier appliquer au fichier.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
 // Vous trouverez ci-dessous deux manières d'enregistrer un objet OLE dans un fichier du système de fichiers local.
@@ -52,7 +52,7 @@ using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted 
     oleFormat.Save(fs);
 }
 
-// 2 - Enregistrez-le directement sous un nom de fichier :
+// 2 - Enregistrez-le directement dans un nom de fichier :
 oleFormat.Save(ArtifactsDir + "OLE spreadsheet saved directly" + oleFormat.SuggestedExtension);
 ```
 

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportTextInputFormFieldAsText
 linktitle: ExportTextInputFormFieldAsText
 articleTitle: ExportTextInputFormFieldAsText
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportTextInputFormFieldAsText fast egendom. Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardvärdet ärfalsk  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportTextInputFormFieldAsText optimerar textinmatningsfält för sömlös HTML- eller MHTML-sparning. Förbättra din exportprocess!
 type: docs
 weight: 260
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exporttextinputformfieldastext/
 ---
 ## HtmlSaveOptions.ExportTextInputFormFieldAsText property
 
-Styr hur formulärfält för textinmatning sparas i HTML eller MHTML. Standardvärdet är`falsk` .
+Styr hur textinmatningsfält sparas i HTML eller MHTML. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ExportTextInputFormFieldAsText { get; set; }
@@ -18,13 +18,13 @@ public bool ExportTextInputFormFieldAsText { get; set; }
 
 ## Anmärkningar
 
-När inställd på`Sann` , exporterar textinmatningsformulärfält som normal text. När`falsk`, exporterar Word-textinmatningsfält som INPUT-element i HTML.
+När den är inställd på`sann` , exporterar textinmatningsfält i formuläret som vanlig text. När`falsk`, exporterar Word-textinmatningsformulärfält som INPUT-element i HTML.
 
-Vid export till EPUB sparas formulärfält för textinmatning alltid som text på grund av till kraven i detta format.
+Vid export till EPUB sparas textinmatningsfält alltid som text på grund av kraven i detta format.
 
 ## Exempel
 
-Visar hur man anger mappen för lagring av länkade bilder efter att ha sparats i .html.
+Visar hur man anger mappen för att lagra länkade bilder efter att de har sparats till .html.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -36,7 +36,7 @@ if (Directory.Exists(imagesDir))
 
 Directory.CreateDirectory(imagesDir);
 
-// Ställ in ett alternativ för att exportera formulärfält som vanlig text istället för HTML-inmatningselement.
+// Ange ett alternativ för att exportera formulärfält som vanlig text istället för HTML-inmatningselement.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     ExportTextInputFormFieldAsText = true, 

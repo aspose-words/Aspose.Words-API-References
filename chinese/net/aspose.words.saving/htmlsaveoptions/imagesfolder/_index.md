@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ImagesFolder
 linktitle: ImagesFolder
 articleTitle: ImagesFolder
-second_title: 用于 .NET 的 Aspose.Words
-description: HtmlSaveOptions ImagesFolder 财产. 指定将文档导出为 HTML 格式时保存图像的物理文件夹 默认为空字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 HtmlSaveOptions ImagesFolder 属性。轻松设置将文档导出为 HTML 时用于保存图像的文件夹。立即简化您的工作流程！
 type: docs
 weight: 360
 url: /zh/net/aspose.words.saving/htmlsaveoptions/imagesfolder/
 ---
 ## HtmlSaveOptions.ImagesFolder property
 
-指定将文档导出为 HTML 格式时保存图像的物理文件夹。 默认为空字符串。
+指定将文档导出为 HTML 格式时保存图像的物理文件夹。 默认值为空字符串。
 
 ```csharp
 public string ImagesFolder { get; set; }
@@ -18,19 +18,19 @@ public string ImagesFolder { get; set; }
 
 ## 评论
 
-当您保存一个[`Document`](../../../aspose.words/document/)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置[`ImagesFolderAlias`](../imagesfolderalias/) 允许指定如何构建图像 URI。
+当你保存[`Document`](../../../aspose.words/document/)在 HTML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。`ImagesFolder` 允许您指定图像的保存位置，并且[`ImagesFolderAlias`](../imagesfolderalias/) 允许指定如何构建图像 URI。
 
-如果将文档保存到文件中并提供文件名，默认情况下，Aspose.Words 会将 图像保存在保存文档文件的同一文件夹中。使用`ImagesFolder` 覆盖此行为。
+如果您将文档保存到文件中并提供文件名，Aspose.Words 默认会将 图像保存在文档文件所在的文件夹中。使用`ImagesFolder` 来覆盖此行为。
 
-如果将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某处。在这种情况下，您需要在`ImagesFolder`属性或通过 提供自定义流[`ImageSavingCallback`](../imagesavingcallback/)事件处理程序。
+如果您将文档保存到流中，Aspose.Words 没有用于保存图像的文件夹 ，但仍需要将图像保存在某个位置。在这种情况下，您需要在`ImagesFolder`属性或提供自定义流 via [`ImageSavingCallback`](../imagesavingcallback/)事件处理程序。
 
-如果指定的文件夹`ImagesFolder`不存在，会自动创建。
+如果指定的文件夹`ImagesFolder`不存在，将自动创建。
 
 [`ResourceFolder`](../resourcefolder/)是指定保存图像的文件夹的另一种方法。
 
 ## 例子
 
-显示如何在保存到 .html 后指定用于存储链接图像的文件夹。
+展示如何在保存为 .html 后指定存储链接图像的文件夹。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

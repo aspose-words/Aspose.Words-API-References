@@ -2,10 +2,10 @@
 title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
-second_title: Aspose.Words for .NET
-description: Document BuiltInDocumentProperties mülk. Belgenin tüm yerleşik belge özelliklerini temsil eden bir koleksiyon döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Belge yönetiminizi ve verimliliğinizi artırmak için temel belge özelliklerine erişmek üzere BuiltInDocumentProperties özelliğini keşfedin.
 type: docs
-weight: 40
+weight: 50
 url: /tr/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
@@ -23,10 +23,10 @@ Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Belge" nesnesi, meta verilerinin bir kısmını üyelerinde içerir.
+// "Belge" nesnesi üyelerinde bazı meta verilerini barındırır.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Belge aynı zamanda meta verileri yerleşik özelliklerinde de saklar.
+// Belge aynı zamanda yerleşik özelliklerinde meta verileri de depolar.
 // Her yerleşik özellik, belgenin "BuiltInDocumentProperties" nesnesinin bir üyesidir.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
@@ -34,7 +34,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // Bazı özellikler birden fazla değer saklayabilir.
+    // Bazı özellikler birden fazla değeri depolayabilir.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

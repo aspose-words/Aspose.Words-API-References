@@ -3,7 +3,7 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: Aspose.Words pour .NET
-description: PageSetup LayoutMode propriété. Obtient ou définit le mode de mise en page de cette section en C#.
+description: Découvrez la propriété PageSetup LayoutMode pour personnaliser facilement la mise en page de votre document. Améliorez votre design grâce à des options de section flexibles !
 type: docs
 weight: 190
 url: /fr/net/aspose.words/pagesetup/layoutmode/
@@ -18,13 +18,13 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Exemples
 
-Montre comment spécifier a pour le nombre de caractères que chaque ligne peut contenir.
+Montre comment spécifier un pour le nombre de caractères que chaque ligne peut avoir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitch, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
+// Activez le pitching, puis utilisez-le pour définir le nombre de caractères par ligne dans cette section.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Montre comment spécifier une limite pour le nombre de lignes que chaque page peut avoir.
+Montre comment spécifier une limite pour le nombre de lignes que chaque page peut contenir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Activez le pitch, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
-// Une taille de police suffisamment grande poussera certaines lignes vers le bas sur la page suivante pour éviter les caractères qui se chevauchent.
+// Activez le pitching, puis utilisez-le pour définir le nombre de lignes par page dans cette section.
+// Une taille de police suffisamment grande repoussera certaines lignes vers la page suivante pour éviter le chevauchement des caractères.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

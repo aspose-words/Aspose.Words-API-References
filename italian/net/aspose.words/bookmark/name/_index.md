@@ -3,7 +3,7 @@ title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: Bookmark Name proprietà. Ottiene o imposta il nome del segnalibro in C#.
+description: Gestisci i tuoi segnalibri in tutta semplicità con "Nome segnalibro". Imposta o aggiorna facilmente i nomi dei segnalibri per una migliore organizzazione e un accesso rapido.
 type: docs
 weight: 60
 url: /it/net/aspose.words/bookmark/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Osservazioni
 
-Tieni presente che se modifichi il nome di un segnalibro con un nome già esistente nel documento, non verrà restituito alcun errore e solo il primo segnalibro verrà memorizzato quando salvi il documento.
+Nota che se modifichi il nome di un segnalibro con un nome già esistente nel documento, non verrà generato alcun errore e solo il primo segnalibro verrà memorizzato quando salvi il documento.
 
 ## Esempi
 
@@ -26,23 +26,23 @@ Mostra come inserire un segnalibro.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Un segnalibro valido ha un nome, un nodo BookmarkStart e un nodo BookmarkEnd.
-// Eventuali spazi bianchi nei nomi dei segnalibri verranno convertiti in caratteri di sottolineatura se apriamo il documento salvato con Microsoft Word.
-// Se evidenziamo il nome del segnalibro in Microsoft Word tramite Inserisci -> Collegamenti -> Aggiungi ai segnalibri e premi "Vai a",
-// il cursore passerà al testo racchiuso tra i nodi BookmarkStart e BookmarkEnd.
+// Se apriamo il documento salvato con Microsoft Word, tutti gli spazi vuoti nei nomi dei segnalibri verranno convertiti in caratteri di sottolineatura.
+// Se evidenziamo il nome del segnalibro in Microsoft Word tramite Inserisci -> Collegamenti -> Segnalibro e premiamo "Vai a",
+// il cursore salterà sul testo racchiuso tra i nodi BookmarkStart e BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// I segnalibri vengono archiviati in questa raccolta.
+// I segnalibri vengono salvati in questa raccolta.
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```
 
-Mostra come aggiungere segnalibri e aggiornarne i contenuti.
+Mostra come aggiungere segnalibri e aggiornarne il contenuto.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -52,16 +52,16 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // È possibile accedere ai segnalibri nella raccolta di segnalibri tramite indice o nome e i relativi nomi possono essere aggiornati.
+    // È possibile accedere ai segnalibri nella raccolta dei segnalibri tramite indice o nome e i loro nomi possono essere aggiornati.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Stampa di nuovo tutti i segnalibri per vedere i valori aggiornati.
+    // Stampa nuovamente tutti i segnalibri per visualizzare i valori aggiornati.
     PrintAllBookmarkInfo(bookmarks);
 }
 
 /// <summary>
-/// Crea un documento con un determinato numero di segnalibri.
+/// Crea un documento con un dato numero di segnalibri.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Fa in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
+    // Fai in modo che ogni segnalibro nella raccolta accetti un visitatore che ne stamperà il contenuto.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

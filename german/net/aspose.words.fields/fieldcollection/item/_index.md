@@ -3,7 +3,7 @@ title: FieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: FieldCollection Item eigendom. Gibt ein Feld am angegebenen Index zurück in C#.
+description: Entdecken Sie die FieldCollection-Elementeigenschaft, greifen Sie mühelos per Index auf Felder zu und verbessern Sie Ihr Datenmanagement mit Leichtigkeit und Präzision.
 type: docs
 weight: 20
 url: /de/net/aspose.words.fields/fieldcollection/item/
@@ -18,17 +18,17 @@ public Field this[int index] { get; }
 
 | Parameter | Beschreibung |
 | --- | --- |
-| index | Ein Index in die Sammlung. |
+| index | Ein Index zur Sammlung. |
 
 ## Bemerkungen
 
 Der Index ist nullbasiert.
 
-Negative Indizes sind zulässig und zeigen den Zugriff von der Rückseite der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
+Negative Indizes sind zulässig und zeigen den Zugriff vom Ende der Sammlung an. Beispielsweise bedeutet -1 das letzte Element, -2 das vorletzte und so weiter.
 
-Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index größer oder gleich der Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
-Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird ein Nullverweis zurückgegeben.
+Wenn der Index negativ ist und sein absoluter Wert größer als die Anzahl der Elemente in der Liste ist, wird eine Nullreferenz zurückgegeben.
 
 ## Beispiele
 
@@ -50,21 +50,21 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Im Folgenden finden Sie vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung.
-// 1 – Ein Feld abrufen, um sich selbst zu entfernen:
+// Unten sind vier Möglichkeiten zum Entfernen von Feldern aus einer Feldsammlung aufgeführt.
+// 1 - Ein Feld dazu bringen, sich selbst zu entfernen:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 – Holen Sie sich die Sammlung, um ein Feld zu entfernen, das wir an seine Entfernungsmethode übergeben:
+// 2 – Lassen Sie die Sammlung ein Feld entfernen, das wir an ihre Entfernungsmethode übergeben:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 – Ein Feld aus einer Sammlung an einem Index entfernen:
+// 3 – Entfernen Sie ein Feld aus einer Sammlung an einem Index:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 – Alle Felder auf einmal aus der Sammlung entfernen:
+// 4 – Entfernen Sie alle Felder auf einmal aus der Sammlung:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

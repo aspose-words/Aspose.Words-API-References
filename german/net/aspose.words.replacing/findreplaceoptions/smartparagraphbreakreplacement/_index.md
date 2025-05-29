@@ -3,14 +3,14 @@ title: FindReplaceOptions.SmartParagraphBreakReplacement
 linktitle: SmartParagraphBreakReplacement
 articleTitle: SmartParagraphBreakReplacement
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions SmartParagraphBreakReplacement eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob der Absatz break ersetzt werden darf wenn kein nächster gleichgeordneter Absatz vorhanden ist in C#.
+description: Entdecken Sie die SmartParagraphBreakReplacement-Eigenschaft in FindReplaceOptions. Steuern Sie Absatzumbrüche mühelos für eine nahtlose Textformatierung.
 type: docs
-weight: 160
+weight: 170
 url: /de/net/aspose.words.replacing/findreplaceoptions/smartparagraphbreakreplacement/
 ---
 ## FindReplaceOptions.SmartParagraphBreakReplacement property
 
-Ruft einen booleschen Wert ab oder legt ihn fest, der angibt, ob der Absatz break ersetzt werden darf, wenn kein nächster gleichgeordneter Absatz vorhanden ist.
+Ruft einen Booleschen Wert ab oder legt ihn fest, der angibt, ob der Absatz „break “ ersetzt werden darf, wenn kein nächster gleichgeordneter Absatz vorhanden ist.
 
 Der Standardwert ist`FALSCH`.
 
@@ -20,11 +20,11 @@ public bool SmartParagraphBreakReplacement { get; set; }
 
 ## Bemerkungen
 
-Diese Option ermöglicht das Ersetzen eines Absatzumbruchs, wenn es keinen nächsten gleichgeordneten Absatz gibt, in den alle untergeordneten Knoten verschoben werden können, indem nach dem zu ersetzenden Absatz ein beliebiger (nicht unbedingt gleichgeordneter) nächster Absatz gesucht wird.
+Mit dieser Option können Sie einen Absatzumbruch ersetzen, wenn kein nächster gleichgeordneter Absatz vorhanden ist, zu dem alle untergeordneten Knoten verschoben werden können. Dazu wird ein beliebiger (nicht unbedingt gleichgeordneter) nächster Absatz nach dem zu ersetzenden Absatz gesucht.
 
 ## Beispiele
 
-Zeigt, wie man einen Absatz aus einer Tabellenzelle mit einer verschachtelten Tabelle entfernt.
+Zeigt, wie Sie mit einer verschachtelten Tabelle einen Absatz aus einer Tabellenzelle entfernen.
 
 ```csharp
 Document doc = new Document();
@@ -42,8 +42,8 @@ builder.Writeln();
 
 FindReplaceOptions options = new FindReplaceOptions();
 // Wenn die folgende Option auf „true“ gesetzt ist, entfernt Aspose.Words den Text des Absatzes
-// komplett mit seiner Absatzmarke. Andernfalls ahmt Aspose.Words Word nach und entfernt es
-// nur den Text des Absatzes und lässt die Absatzmarke intakt (wenn eine Tabelle auf den Text folgt).
+// vollständig mit Absatzmarke. Andernfalls ahmt Aspose.Words Word nach und entfernt
+// nur Absatztext und lässt die Absatzmarke intakt (wenn auf den Text eine Tabelle folgt).
 options.SmartParagraphBreakReplacement = isSmartParagraphBreakReplacement;
 doc.Range.Replace(new Regex(@"TEXT1&p"), "", options);
 

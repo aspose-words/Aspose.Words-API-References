@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words لـ .NET
-description: SignatureLineOptions Email ملكية. الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
+description: أدر عناوين البريد الإلكتروني المُقترحة بسهولة مع SignatureLineOptions. حسّن سير عمل بريدك الإلكتروني بخيارات قابلة للتخصيص لضمان تواصل سلس.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-الحصول على عنوان البريد الإلكتروني للمُوقع المقترح أو تعيينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
+يحصل على عنوان البريد الإلكتروني للموقع المقترح أو يعينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

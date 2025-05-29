@@ -3,14 +3,14 @@ title: OdtSaveOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words für .NET
-description: OdtSaveOptions Password eigendom. Ruft ein Passwort zum Verschlüsseln des Dokuments ab oder legt es fest in C#.
+description: Sichern Sie Ihre Dokumente mit der OdtSaveOptions-Kennwortfunktion. Legen Sie einfach ein Kennwort fest oder rufen Sie es ab, um eine robuste Verschlüsselung und verbesserten Datenschutz zu gewährleisten.
 type: docs
-weight: 40
+weight: 50
 url: /de/net/aspose.words.saving/odtsaveoptions/password/
 ---
 ## OdtSaveOptions.Password property
 
-Ruft ein Passwort zum Verschlüsseln des Dokuments ab oder legt es fest.
+Ruft ein Kennwort zum Verschlüsseln des Dokuments ab oder legt es fest.
 
 ```csharp
 public string Password { get; set; }
@@ -18,26 +18,26 @@ public string Password { get; set; }
 
 ## Bemerkungen
 
-Um ein Dokument ohne Verschlüsselung zu speichern, sollte diese Eigenschaft vorhanden sein`Null` oder leere Zeichenfolge.
+Um das Dokument unverschlüsselt zu speichern, sollte diese Eigenschaft`null` oder eine leere Zeichenfolge.
 
 ## Beispiele
 
-Zeigt, wie man ein gespeichertes ODT/OTT-Dokument mit einem Passwort verschlüsselt und es dann mit Aspose.Words lädt.
+Zeigt, wie Sie ein gespeichertes ODT/OTT-Dokument mit einem Kennwort verschlüsseln und es dann mit Aspose.Words laden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Erstellen Sie eine neue OdtSaveOptions und übergeben Sie entweder „SaveFormat.Odt“,
- // oder „SaveFormat.Ott“ als Format zum Speichern des Dokuments.
+// Erstellen Sie eine neue OdtSaveOptions und übergeben Sie entweder "SaveFormat.Odt",
+    // oder „SaveFormat.Ott“ als Format, in dem das Dokument gespeichert werden soll.
 OdtSaveOptions saveOptions = new OdtSaveOptions(saveFormat);
 saveOptions.Password = "@sposeEncrypted_1145";
 
 string extensionString = FileFormatUtil.SaveFormatToExtension(saveFormat);
 
-// Wenn wir dieses Dokument mit einem geeigneten Editor öffnen,
-// Es wird uns zur Eingabe des Passworts auffordern, das wir im SaveOptions-Objekt angegeben haben.
+// Wenn wir dieses Dokument mit einem entsprechenden Editor öffnen,
+// Es fordert uns zur Eingabe des Passworts auf, das wir im SaveOptions-Objekt angegeben haben.
 doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);

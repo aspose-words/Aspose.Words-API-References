@@ -2,15 +2,15 @@
 title: RevisionOptions.ShowRevisionBars
 linktitle: ShowRevisionBars
 articleTitle: ShowRevisionBars
-second_title: Aspose.Words for .NET
-description: RevisionOptions ShowRevisionBars mülk. Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değerdoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: RevisionOptions'daki ShowRevisionBars özelliğinin düzenlenen içerik için düzeltme çubuklarını görüntüleyerek belge netliğini nasıl artırdığını keşfedin. Varsayılan, true.
 type: docs
-weight: 180
+weight: 200
 url: /tr/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-Revizyon çubuklarının revize edilmiş içeriği içeren satırların yakınında oluşturulup oluşturulmayacağını belirlemeye izin verir. Varsayılan değer:`doğru` .
+Gözden geçirilmiş içerik içeren satırların yakınında gözden geçirme çubuklarının oluşturulup oluşturulmayacağını belirtmeye olanak tanır. Varsayılan değer`doğru` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -18,24 +18,25 @@ public bool ShowRevisionBars { get; set; }
 
 ## Örnekler
 
-İşlenmiş bir çıktı belgesindeki düzeltmelerin görünümünün nasıl değiştirileceğini gösterir.
+İşlenmiş bir çıktı belgesindeki revizyonların görünümünün nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir revizyon ekleyin, ardından tüm revizyonların rengini yeşil olarak değiştirin.
+// Bir revizyon ekle, ardından tüm revizyonların rengini yeşil yap.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Düzenlenen her satırın solunda görünen çubuğu kaldırın.
+// Her düzeltilen satırın solunda görünen çubuğu kaldır.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Ayrıca bakınız

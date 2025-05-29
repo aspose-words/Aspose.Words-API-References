@@ -2,8 +2,8 @@
 title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
-second_title: 用于 .NET 的 Aspose.Words
-description: TxtSaveOptionsBase ParagraphBreak 财产. 指定以文本格式导出时用作段落分隔符的字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TxtSaveOptionsBase 的 ParagraphBreak 属性，允许自定义段落分隔符，实现无缝文本格式导出。提升文档的可读性！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -22,7 +22,7 @@ public string ParagraphBreak { get; set; }
 
 ## 例子
 
-演示如何使用自定义分段符保存 .txt 文档。
+展示如何使用自定义段落分隔符保存 .txt 文档。
 
 ```csharp
 Document doc = new Document();

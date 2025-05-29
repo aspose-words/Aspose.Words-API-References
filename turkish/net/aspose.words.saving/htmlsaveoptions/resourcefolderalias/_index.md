@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ResourceFolderAlias
 linktitle: ResourceFolderAlias
 articleTitle: ResourceFolderAlias
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ResourceFolderAlias mülk. Bir HTML belgesine yazılan tüm kaynakların URIlerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir C#'da.
+second_title: .NET için Aspose.Words
+description: Kaynakların URI olarak verimli bir şekilde oluşturulması için klasör adlarını tanımlayan HtmlSaveOptions ResourceFolderAlias özelliğiyle HTML belgelerinizi optimize edin.
 type: docs
-weight: 430
+weight: 450
 url: /tr/net/aspose.words.saving/htmlsaveoptions/resourcefolderalias/
 ---
 ## HtmlSaveOptions.ResourceFolderAlias property
 
-Bir HTML belgesine yazılan tüm kaynakların URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan, boş bir dizedir.
+Bir HTML belgesine yazılan tüm kaynakların URI'lerini oluşturmak için kullanılan klasörün adını belirtir. Varsayılan boş bir dizedir.
 
 ```csharp
 public string ResourceFolderAlias { get; set; }
@@ -18,17 +18,17 @@ public string ResourceFolderAlias { get; set; }
 
 ## Notlar
 
-`ResourceFolderAlias` tüm kaynak dosyalarına ilişkin URI'lerin nasıl oluşturulması gerektiğini belirtmenin en basit yoludur. Aynı bilgiler resimler ve yazı tipleri için ayrı ayrı belirtilebilir.[`ImagesFolderAlias`](../imagesfolderalias/) ve[`FontsFolderAlias`](../fontsfolderalias/) sırasıyla özellikler. Ancak CSS. için ayrı bir özellik yoktur.
+`ResourceFolderAlias` tüm kaynak dosyaları için URI'lerin nasıl oluşturulacağını belirtmenin en basit yoludur . Aynı bilgiler, resimler ve yazı tipleri için ayrı ayrı belirtilebilir[`ImagesFolderAlias`](../imagesfolderalias/) ve[`FontsFolderAlias`](../fontsfolderalias/) sırasıyla özellikler. Ancak, CSS. için ayrı bir özellik yoktur.
 
-`ResourceFolderAlias` göre daha düşük önceliğe sahiptir[`FontsFolderAlias`](../fontsfolderalias/) ve[`ImagesFolderAlias`](../imagesfolderalias/) . Örneğin, eğer her ikisi de`ResourceFolderAlias` ve[`FontsFolderAlias`](../fontsfolderalias/) belirtildiğinde, yazı tiplerinin URI'leri kullanılarak oluşturulacaktır.[`FontsFolderAlias`](../fontsfolderalias/) , görüntülerin ve CSS'nin URI'leri ise kullanılarak oluşturulacak`ResourceFolderAlias`.
+`ResourceFolderAlias` daha düşük önceliğe sahiptir[`FontsFolderAlias`](../fontsfolderalias/) ve[`ImagesFolderAlias`](../imagesfolderalias/) Örneğin, her ikisi de`ResourceFolderAlias` ve[`FontsFolderAlias`](../fontsfolderalias/) belirtildiğinde, yazı tiplerinin URI'leri kullanılarak oluşturulacaktır[`FontsFolderAlias`](../fontsfolderalias/) resimlerin ve CSS'nin URI'leri kullanılarak oluşturulacaktır`ResourceFolderAlias`.
 
-Eğer`ResourceFolderAlias` boş,[`ResourceFolder`](../resourcefolder/)kaynak URI'lerini oluşturmak için özellik değeri use olacaktır.
+Eğer`ResourceFolderAlias` boş,[`ResourceFolder`](../resourcefolder/) özellik değeri kaynak URI'lerini oluşturmak için kullanılacak .
 
-Eğer`ResourceFolderAlias` ayarlandı '.' (nokta), kaynak URI'leri herhangi bir yol olmadan yalnızca dosya adlarını içerecektir.
+Eğer`ResourceFolderAlias` '.' (nokta) olarak ayarlandığında, kaynak URI'leri yalnızca dosya adlarını içerecek, herhangi bir yol içermeyecektir.
 
 ## Örnekler
 
-Aspose.Words'ün bir belgeyi HTML'ye kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
+Aspose.Words'ün bir belgeyi HTML'e kaydederken oluşturacağı harici olarak kaydedilen kaynaklar için klasörlerin ve klasör takma adlarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -42,9 +42,9 @@ HtmlSaveOptions options = new HtmlSaveOptions
     FontsFolder = ArtifactsDir + "Fonts",
     ImagesFolder = ArtifactsDir + "Images",
     ResourceFolder = ArtifactsDir + "Resources",
-    FontsFolderAlias = "http://example.com/fonts",
-    ImagesFolderAlias = "http://example.com/images",
-    ResourceFolderAlias = "http://example.com/resources",
+    FontsFolderAlias = "http://example.com/yazı tipleri",
+    ImagesFolderAlias = "http://example.com/resimler",
+    ResourceFolderAlias = "http://example.com/kaynaklar",
     ExportOriginalUrlForLinkedImages = true
 };
 

@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.Level
 linktitle: Level
 articleTitle: Level
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTagRangeStart Level eigendom. Ruft die Ebene ab auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt in C#.
+description: Entdecken Sie die Eigenschaft „StructuredDocumentTagRangeStart Level“, um die Position im Dokumentbaum einfach zu identifizieren und so die Effizienz Ihres Dokumentenmanagements zu steigern.
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/structureddocumenttagrangestart/level/
 ---
 ## StructuredDocumentTagRangeStart.Level property
 
-Ruft die Ebene ab, auf der dieser Tagbereich des strukturierten Dokuments im Dokumentbaum beginnt.
+Ruft die Ebene ab, auf der dieser strukturierte Dokument-Tagbereichsanfang im Dokumentbaum auftritt.
 
 ```csharp
 public MarkupLevel Level { get; }
@@ -18,7 +18,7 @@ public MarkupLevel Level { get; }
 
 ## Beispiele
 
-Zeigt, wie die Eigenschaften von strukturierten Dokument-Tags mit mehreren Abschnitten abgerufen werden.
+Zeigt, wie die Eigenschaften von aus mehreren Abschnitten strukturierten Dokument-Tags abgerufen werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

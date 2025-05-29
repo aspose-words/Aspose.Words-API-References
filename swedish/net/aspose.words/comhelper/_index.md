@@ -3,14 +3,14 @@ title: ComHelper Class
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words för .NET
-description: Aspose.Words.ComHelper klass. Tillhandahåller metoder för COMklienter att ladda ett dokument i Aspose.Words i C#.
+description: Lås upp sömlös dokumentintegration med Aspose.Words.ComHelper. Ladda och hantera dokument för COM-klienter enkelt med kraftfulla funktioner.
 type: docs
-weight: 220
+weight: 410
 url: /sv/net/aspose.words/comhelper/
 ---
 ## ComHelper class
 
-Tillhandahåller metoder för COM-klienter att ladda ett dokument i Aspose.Words.
+Tillhandahåller metoder för COM-klienter att läsa in ett dokument i Aspose.Words.
 
 ```csharp
 public class ComHelper
@@ -28,13 +28,13 @@ public class ComHelper
 | --- | --- |
 | [Open](../../aspose.words/comhelper/open/#open)(*Stream*) | Tillåter att en COM-applikation laddas[`Document`](../document/) från en ström. |
 | [Open](../../aspose.words/comhelper/open/#open_1)(*string*) | Tillåter en COM-applikation att ladda en[`Document`](../document/) från en fil. |
-| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Tillåter en COM-applikation att ladda en[`Document`](../document/) från ett ISstream-objekt. |
+| [OpenIStream](../../aspose.words/comhelper/openistream/)(*IStream*) | Tillåter en COM-applikation att ladda en[`Document`](../document/) från ett IStream-objekt. |
 
 ## Anmärkningar
 
-Använd`ComHelper` klass för att ladda ett dokument från en fil eller streama till en [`Document`](../document/) objekt i en COM-applikation.
+Använd`ComHelper` klass för att ladda ett dokument från en fil eller ström till en [`Document`](../document/) objekt i en COM-applikation.
 
-De[`Document`](../document/) class tillhandahåller en standardkonstruktor för att skapa ett nytt document och tillhandahåller även överbelastade konstruktorer för att ladda ett dokument från en fil eller ström. Om du använder Aspose.Words från en .NET-applikation kan du använda alla[`Document`](../document/) konstruktörer direkt, men om du använder Aspose.Words från en COM-applikation, endast standard[`Document`](../document/) konstruktör är tillgänglig.
+De[`Document`](../document/) Klassen tillhandahåller en standardkonstruktor för att skapa ett nytt dokument och tillhandahåller även överbelastade konstruktorer för att läsa in ett dokument från en fil eller ström. Om du använder Aspose.Words från ett .NET-program kan du använda alla[`Document`](../document/) konstruktorer direkt, men om du använder Aspose.Words från en COM-applikation, endast standardvärdet[`Document`](../document/) konstruktören är tillgänglig.
 
 ## Exempel
 
@@ -48,10 +48,10 @@ Dim doc
 Set doc = helper.Open(fileName)
 ```
 
-Visar hur man öppnar dokument med ComHelper-klassen.
+Visar hur man öppnar dokument med hjälp av ComHelper-klassen.
 
 ```csharp
-// ComHelper-klassen tillåter oss att ladda dokument från COM-klienter.
+// ComHelper-klassen låter oss läsa in dokument inifrån COM-klienter.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Använda ett lokalt systemfilnamn:

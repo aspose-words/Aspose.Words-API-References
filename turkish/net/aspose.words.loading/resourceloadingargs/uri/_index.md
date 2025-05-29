@@ -2,17 +2,17 @@
 title: ResourceLoadingArgs.Uri
 linktitle: Uri
 articleTitle: Uri
-second_title: Aspose.Words for .NET
-description: ResourceLoadingArgs Uri mülk. İndirmek için kullanılan kaynağın URIsi iseResourceLoading şunu döndürürDefault C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli kaynak indirme için ResourceLoadingArgs Uri özelliğini keşfedin. Sorunsuz entegrasyon için optimum URI yönetimiyle iş akışınızı kolaylaştırın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.loading/resourceloadingargs/uri/
 ---
 ## ResourceLoadingArgs.Uri property
 
-İndirmek için kullanılan kaynağın URI'si ise[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) şunu döndürürDefault.
+indirmek için kullanılan kaynağın URI'si[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) dönerDefault.
 
-Başlangıçta kaynağın mutlak URI'sine ( ) ayarlanmıştır ancak kullanıcı bunu herhangi bir değere yeniden tanımlayabilir.
+Başlangıçta kaynağın mutlak URI'si olan olarak ayarlanmıştır ancak kullanıcı bunu herhangi bir değere yeniden tanımlayabilir.
 
 ```csharp
 public string Uri { get; set; }

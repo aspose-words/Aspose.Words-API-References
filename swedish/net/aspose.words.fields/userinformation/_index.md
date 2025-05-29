@@ -3,16 +3,16 @@ title: UserInformation Class
 linktitle: UserInformation
 articleTitle: UserInformation
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.UserInformation klass. Anger information om användaren i C#.
+description: Upptäck klassen Aspose.Words.Fields.UserInformation för att hantera användarinformation effektivt och förbättra dokumenthanteringen i dina applikationer.
 type: docs
-weight: 2790
+weight: 3200
 url: /sv/net/aspose.words.fields/userinformation/
 ---
 ## UserInformation class
 
 Anger information om användaren.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class UserInformation
@@ -35,13 +35,13 @@ public class UserInformation
 
 ## Exempel
 
-Visar hur du ställer in användarinformation och visar dem med hjälp av fält.
+Visar hur man anger användaruppgifter och visar dem med hjälp av fält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa ett UserInformation-objekt och ställ in det som datakälla för fält som visar användarinformation.
+// Skapa ett UserInformation-objekt och ange det som datakälla för fält som visar användarinformation.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -50,13 +50,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Infoga fälten USERNAME, USERINITIALS och USERADDRESS, som visar värden på
+// Infoga fälten ANVÄNDARNAMN, ANVÄNDARINITIALS och ANVÄNDARADRESS, som visar värden för
  // respektive egenskaper för UserInformation-objektet som vi har skapat ovan.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// Fältalternativsobjektet har också en statisk standardanvändare som fält från alla dokument kan referera till.
+// Objektet fältalternativ har också en statisk standardanvändare som fält från alla dokument kan referera till.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

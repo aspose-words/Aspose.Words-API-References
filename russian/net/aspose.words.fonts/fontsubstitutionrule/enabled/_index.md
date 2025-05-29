@@ -3,7 +3,7 @@ title: FontSubstitutionRule.Enabled
 linktitle: Enabled
 articleTitle: Enabled
 second_title: Aspose.Words для .NET
-description: FontSubstitutionRule Enabled свойство. Указывает включено правило или нет на С#.
+description: Откройте для себя свойство FontSubstitutionRule Enabled для легкого управления настройками шрифта. Обеспечьте оптимальное отображение текста с помощью этой важной функции.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/fontsubstitutionrule/enabled/
@@ -18,7 +18,7 @@ public virtual bool Enabled { get; set; }
 
 ## Примеры
 
-Показывает замену конфигурации шрифтов в зависимости от операционной системы.
+Показывает замену конфигурации шрифтов, зависящую от операционной системы.
 
 ```csharp
 FontSettings fontSettings = new FontSettings();
@@ -28,8 +28,8 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// Объект FontConfigSubstitutionRule работает по-разному на платформах Windows и не-Windows.
-// В Windows он недоступен.
+// Объект FontConfigSubstitutionRule работает по-разному на платформах Windows и других платформах.
+// В Windows это недоступно.
 if (isWindows)
 {
     Assert.False(fontConfigSubstitution.Enabled);
@@ -39,7 +39,7 @@ if (isWindows)
 bool isLinuxOrMac =
     new[] {PlatformID.Unix, PlatformID.MacOSX}.Any(p => Environment.OSVersion.Platform == p);
 
-// В Linux/Mac мы будем иметь к нему доступ и сможем выполнять операции.
+// На Linux/Mac у нас будет к нему доступ, и мы сможем выполнять операции.
 if (isLinuxOrMac)
 {
     Assert.True(fontConfigSubstitution.Enabled);
@@ -49,7 +49,7 @@ if (isLinuxOrMac)
 }
 ```
 
-Показывает, как получить доступ к источнику системных шрифтов документа и установить заменители шрифтов.
+Показывает, как получить доступ к системному источнику шрифтов документа и задать замену шрифтов.
 
 ```csharp
 Document doc = new Document();
@@ -77,7 +77,7 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
     Console.WriteLine(systemFontFolder);
 }
 
-// Установите шрифт, существующий в каталоге Windows Fonts, вместо несуществующего.
+// Установить шрифт, который существует в каталоге шрифтов Windows, в качестве замены отсутствующему.
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
@@ -98,6 +98,7 @@ Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
 Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
 Assert.AreEqual(1,
     doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
+Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
 ```
 
 ### Смотрите также

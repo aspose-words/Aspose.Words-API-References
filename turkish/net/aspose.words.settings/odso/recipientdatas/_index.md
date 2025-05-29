@@ -2,15 +2,15 @@
 title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
-second_title: Aspose.Words for .NET
-description: Odso RecipientDatas mülk. Bireysel kayıtların adresmektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zamanhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: Odso RecipientDatas ile posta birleştirmenizi zahmetsizce yönetin. Güvenilir, her zaman kullanılabilir bir koleksiyonla kayıtların dahil edilmesini/hariç tutulmasını kontrol edin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Bireysel kayıtların adres-mektup birleştirmeye dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman`hükümsüz` .
+Posta birleştirme işleminde bireysel kayıtların dahil edilmesini/hariç tutulmasını belirten bir nesne koleksiyonunu alır veya ayarlar. Bu nesne hiçbir zaman`hükümsüz` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -18,7 +18,7 @@ public OdsoRecipientDataCollection RecipientDatas { get; set; }
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,14 +3,14 @@ title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
 second_title: Aspose.Words для .NET
-description: FieldChar IsDirty свойство. Получает или устанавливает является ли текущий результат поля более неправильным устаревшим изза других изменений  внесенных в документ на С#.
+description: Узнайте, как свойство FieldChar IsDirty помогает поддерживать точность документа, отслеживая изменения и гарантируя, что ваши поля всегда отражают последние обновления.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property
 
-Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений , внесенных в документ.
+Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений , внесенных в документ.
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Получаем фасадный объект, который представляет поле в документе.
+// Извлекаем объект фасада, представляющий поле в документе.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Обновляем поле, чтобы оно отображало текущую дату.
+// Обновите поле, чтобы отобразить текущую дату.
 field.Update();
 ```
 

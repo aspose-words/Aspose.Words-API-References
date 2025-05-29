@@ -2,8 +2,8 @@
 title: FieldIf
 linktitle: FieldIf
 articleTitle: FieldIf
-second_title: Aspose.Words for .NET
-description: FieldIf inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon ve verimli kodlama için başvuracağınız çözüm olan FieldIf oluşturucusunu keşfedin. Projeleriniz için güçlü özellikleri bugün açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldif/fieldif/

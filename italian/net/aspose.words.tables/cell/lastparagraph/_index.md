@@ -3,7 +3,7 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words per .NET
-description: Cell LastParagraph proprietà. Ottiene lultimo paragrafo tra i figli immediati in C#.
+description: Scopri la proprietà Cell LastParagraph. Accedi facilmente all'ultimo paragrafo dagli elementi figlio immediati per una gestione efficiente dei contenuti.
 type: docs
 weight: 60
 url: /it/net/aspose.words.tables/cell/lastparagraph/
@@ -18,7 +18,7 @@ public Paragraph LastParagraph { get; }
 
 ## Esempi
 
-Mostra come applicare le impostazioni ai bordi verticali al formato di una riga di tabella.
+Mostra come applicare le impostazioni ai bordi verticali nel formato di una riga di una tabella.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < 3; i++)
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Il formato di una riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
+// Un formato di riga e il paragrafo interno di una cella utilizzano impostazioni di bordo diverse.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

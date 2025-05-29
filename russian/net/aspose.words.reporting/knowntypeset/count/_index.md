@@ -3,7 +3,7 @@ title: KnownTypeSet.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: KnownTypeSet Count свойство. Получает количество элементов в наборе на С#.
+description: Откройте для себя свойство KnownTypeSet Count, чтобы легко получить общее количество элементов в вашем наборе, повысив эффективность управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.reporting/knowntypeset/count/

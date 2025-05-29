@@ -3,14 +3,14 @@ title: Cluster.Codepoints
 linktitle: Codepoints
 articleTitle: Codepoints
 second_title: Aspose.Words لـ .NET
-description: Cluster Codepoints ملكية. يحصل على نقاط التشفير الخاصة بالمجموعة في C#.
+description: اكتشف خاصية Cluster Codepoints لاسترداد نقاط رمز المجموعة بكفاءة وتحسين قدرات إدارة البيانات لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.shaping/cluster/codepoints/
 ---
 ## Cluster.Codepoints property
 
-يحصل على نقاط التشفير الخاصة بالمجموعة.
+يحصل على نقاط رمز المجموعة.
 
 ```csharp
 public int[] Codepoints { get; }

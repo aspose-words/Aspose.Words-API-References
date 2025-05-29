@@ -3,14 +3,14 @@ title: CellFormat.Orientation
 linktitle: Orientation
 articleTitle: Orientation
 second_title: Aspose.Words für .NET
-description: CellFormat Orientation eigendom. Gibt die Ausrichtung des Texts in einer Tabellenzelle zurück oder legt sie fest in C#.
+description: Entdecken Sie, wie Sie mit der CellFormat Orientation-Eigenschaft die Textrichtung in Tabellenzellen anpassen und so die Lesbarkeit und das Design Ihrer Dokumente verbessern.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/aspose.words.tables/cellformat/orientation/
 ---
 ## CellFormat.Orientation property
 
-Gibt die Ausrichtung des Texts in einer Tabellenzelle zurück oder legt sie fest.
+Gibt die Ausrichtung des Textes in einer Tabellenzelle zurück oder legt sie fest.
 
 ```csharp
 public TextOrientation Orientation { get; set; }
@@ -32,8 +32,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
+// Beim Erstellen der Tabelle wendet der Dokumentgenerator seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, sobald diese erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -48,7 +48,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
+// Zuvor hinzugefügte Zeilen und Zellen werden durch Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -59,7 +59,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
+Zeigt, wie eine Tabelle mit benutzerdefinierten Rändern erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -67,7 +67,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Festlegen von Tabellenformatierungsoptionen für einen Dokumentersteller
+// Festlegen von Tabellenformatierungsoptionen für einen Dokumentgenerator
 // wendet sie auf jede Zeile und Zelle an, die wir damit hinzufügen.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -91,7 +91,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// Das Ändern der Formatierung wird auf die aktuelle Zelle angewendet,
 // und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
 // Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
@@ -104,7 +104,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
+// Erhöhen Sie die Zeilenhöhe, damit der vertikale Text hineinpasst.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

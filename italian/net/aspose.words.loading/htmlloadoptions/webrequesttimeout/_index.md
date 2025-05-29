@@ -3,14 +3,14 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words per .NET
-description: HtmlLoadOptions WebRequestTimeout proprietà. Il numero di millisecondi di attesa prima che la richiesta Web scada. Il valore predefinito è 100000 millisecondi 100 secondi in C#.
+description: Scopri la proprietà WebRequestTimeout di HtmlLoadOptions, che ti consente di personalizzare le impostazioni di timeout per prestazioni web ottimali. Il valore predefinito è 100 secondi.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/
 ---
 ## HtmlLoadOptions.WebRequestTimeout property
 
-Il numero di millisecondi di attesa prima che la richiesta Web scada. Il valore predefinito è 100000 millisecondi (100 secondi).
+Numero di millisecondi di attesa prima che la richiesta web scada. Il valore predefinito è 100000 millisecondi (100 secondi).
 
 ```csharp
 public int WebRequestTimeout { get; set; }
@@ -18,11 +18,11 @@ public int WebRequestTimeout { get; set; }
 
 ## Osservazioni
 
-Il numero di millisecondi che Aspose.Words attende una risposta, durante il caricamento di risorse esterne (immagini, fogli style ) collegate in documenti HTML e MHTML.
+Numero di millisecondi che Aspose.Words attende per una risposta quando carica risorse esterne (immagini, fogli di stile) collegate nei documenti HTML e MHTML.
 
 ## Esempi
 
-Mostra come impostare un limite di tempo per le richieste web durante il caricamento di un documento con risorse esterne collegate da URL.
+Mostra come impostare un limite di tempo per le richieste web quando si carica un documento con risorse esterne collegate tramite URL.
 
 ```csharp
 public void WebRequestTimeout()
@@ -30,7 +30,7 @@ public void WebRequestTimeout()
     // Crea un nuovo oggetto HtmlLoadOptions e verifica la soglia di timeout per una richiesta web.
     HtmlLoadOptions options = new HtmlLoadOptions();
 
-    // Quando si carica un documento Html con risorse collegate esternamente da un URL di indirizzo web,
+    // Quando si carica un documento HTML con risorse collegate esternamente tramite un URL di indirizzo web,
     // Aspose.Words interromperà le richieste web che non riescono a recuperare le risorse entro questo limite di tempo, in millisecondi.
     Assert.AreEqual(100000, options.WebRequestTimeout);
 
@@ -38,8 +38,8 @@ public void WebRequestTimeout()
     ListDocumentWarnings warningCallback = new ListDocumentWarnings();
     options.WarningCallback = warningCallback;
 
-    // Carica un documento di questo tipo e verifica che sia stata creata una forma con dati immagine.
-    // Questa immagine collegata richiederà il caricamento di una richiesta web, che dovrà essere completata entro il nostro limite di tempo.
+    // Carica tale documento e verifica che sia stata creata una forma con dati immagine.
+    // Per caricare questa immagine collegata sarà necessaria una richiesta web, che dovrà essere completata entro il limite di tempo da noi stabilito.
     string html = $@"
         <html>
             <img src=""{ImageUrl}"" alt=""Aspose logo"" style=""width:400px;height:400px;"">
@@ -52,11 +52,11 @@ public void WebRequestTimeout()
     Assert.AreEqual(2, warningCallback.Warnings().Count);
 
     // Una richiesta web che non riesce a ottenere un'immagine entro il limite di tempo produrrà comunque un'immagine.
-    // Tuttavia, l'immagine sarà la "x" rossa che comunemente indica le immagini mancanti.
+    // Tuttavia, l'immagine sarà quella "x" rossa che solitamente indica le immagini mancanti.
     Shape imageShape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
     Assert.AreEqual(924, imageShape.ImageData.ImageBytes.Length);
 
-    // Possiamo anche configurare una richiamata personalizzata per raccogliere eventuali avvisi provenienti da richieste web scadute.
+    // Possiamo anche configurare un callback personalizzato per raccogliere eventuali avvisi dalle richieste web scadute.
     Assert.AreEqual(WarningSource.Html, warningCallback.Warnings()[0].Source);
     Assert.AreEqual(WarningType.DataLoss, warningCallback.Warnings()[0].WarningType);
     Assert.AreEqual($"Couldn't load a resource from \'{ImageUrl}\'.", warningCallback.Warnings()[0].Description);
@@ -69,7 +69,7 @@ public void WebRequestTimeout()
 }
 
 /// <summary>
-/// Memorizza tutti gli avvisi che si verificano durante un'operazione di caricamento del documento in un elenco.
+/// Memorizza in un elenco tutti gli avvisi che si verificano durante un'operazione di caricamento di un documento.
 /// </summary>
 private class ListDocumentWarnings : IWarningCallback
 {

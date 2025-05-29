@@ -3,7 +3,7 @@ title: Font.Engrave
 linktitle: Engrave
 articleTitle: Engrave
 second_title: Aspose.Words pour .NET
-description: Font Engrave propriété. Vrai si la police est formatée comme gravée en C#.
+description: Découvrez la fonction Font Engrave. Formatez facilement vos polices pour un effet gravé élégant, rehaussant ainsi la sophistication et l'attrait de votre design.
 type: docs
 weight: 120
 url: /fr/net/aspose.words/font/engrave/
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Vous trouverez ci-dessous deux façons d'utiliser les ombres pour appliquer un effet 3D au texte.
-// 1 - Gravez le texte pour donner l'impression que les lettres sont enfoncées dans la page :
+// Vous trouverez ci-dessous deux manières d’utiliser les ombres pour appliquer un effet 3D au texte.
+// 1 - Graver le texte pour donner l'impression que les lettres sont enfoncées dans la page :
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Embossez le texte pour donner l'impression que les lettres sortent de la page :
+// 2 - Mettez du texte en relief pour donner l'impression que les lettres sortent de la page :
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

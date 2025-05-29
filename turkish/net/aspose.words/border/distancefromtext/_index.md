@@ -2,15 +2,15 @@
 title: Border.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
-second_title: Aspose.Words for .NET
-description: Border DistanceFromText mülk. Kenarlığın metinden veya sayfa kenarından nokta cinsinden mesafesini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş düzen kontrolü için metin veya sayfa kenarlarından kenarlık aralığını noktalar halinde kolayca ayarlamak üzere Border DistanceFromText özelliğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/border/distancefromtext/
 ---
 ## Border.DistanceFromText property
 
-Kenarlığın metinden veya sayfa kenarından nokta cinsinden mesafesini alır veya ayarlar.
+Kenarlığın metinden veya sayfa kenarından uzaklığını noktalar halinde alır veya ayarlar.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,11 +18,11 @@ public double DistanceFromText { get; set; }
 
 ## Notlar
 
-Hiçbir etkisi yoktur ve tablo hücrelerinin sınırları otomatik olarak sıfırlanır.
+Hiçbir etkisi yoktur ve tablo hücrelerinin sınırları için otomatik olarak sıfırlanır.
 
 ## Örnekler
 
-İlk sayfanın üst kısmında geniş mavi bant kenarlığının nasıl oluşturulacağını gösterir.
+İlk sayfanın üst kısmına geniş mavi bantlı bir kenarlığın nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();

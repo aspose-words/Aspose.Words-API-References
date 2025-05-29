@@ -3,14 +3,14 @@ title: CellFormat.WrapText
 linktitle: WrapText
 articleTitle: WrapText
 second_title: Aspose.Words för .NET
-description: CellFormat WrapText fast egendom. OmSann  radbryt text för cellen i C#.
+description: Upptäck egenskapen CellFormat WrapText för att förbättra läsbarheten i ditt kalkylblad genom att automatiskt radbryta text i celler för ett renare utseende.
 type: docs
-weight: 140
+weight: 150
 url: /sv/net/aspose.words.tables/cellformat/wraptext/
 ---
 ## CellFormat.WrapText property
 
-Om`Sann` , radbryt text för cellen.
+Om`sann` , radbryt text för cellen.
 
 ```csharp
 public bool WrapText { get; set; }
@@ -18,7 +18,7 @@ public bool WrapText { get; set; }
 
 ## Exempel
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

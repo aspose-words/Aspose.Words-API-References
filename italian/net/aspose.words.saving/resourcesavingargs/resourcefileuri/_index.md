@@ -3,7 +3,7 @@ title: ResourceSavingArgs.ResourceFileUri
 linktitle: ResourceFileUri
 articleTitle: ResourceFileUri
 second_title: Aspose.Words per .NET
-description: ResourceSavingArgs ResourceFileUri proprietà. Ottiene o imposta lURI Uniform Resource Identifier utilizzato per fare riferimento al file di risorse dal documento in C#.
+description: Scopri la proprietà ResourceFileUri di ResourceSavingArgs per gestire e fare riferimento facilmente ai file di risorse nei tuoi documenti. Migliora l'efficienza oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/resourcesavingargs/resourcefileuri/
@@ -20,9 +20,9 @@ public string ResourceFileUri { get; set; }
 
 Questa proprietà consente di modificare gli URI dei file di risorse esportati in documenti HTML o SVG a pagina fissa.
 
-Aspose.Words genera automaticamente un URI per ogni file di risorse durante l'esportazione nel formato HTML o SVG a pagina fissa. Gli URI generati fanno riferimento ai file di risorse salvati da Aspose.Words. Tuttavia, gli URI possono essere errati se i file di risorse devono essere spostati in un'altra posizione o se i file di risorse vengono salvati negli stream. Questa proprietà consente di correggere gli URI in questi casi.
+Aspose.Words genera automaticamente un URI per ogni file di risorse durante l'esportazione in formato HTML o SVG a pagina fissa. Gli URI generati fanno riferimento ai file di risorse salvati da Aspose.Words. Tuttavia, gli URI potrebbero essere errati se i file di risorse devono essere spostati in un'altra posizione o se vengono salvati in flussi. Questa proprietà consente di correggere gli URI in questi casi.
 
-Quando l'evento viene generato, questa proprietà contiene l'URI che è stato generato da Aspose.Words. È possibile modificare il valore di questa proprietà per fornire un URI personalizzato per il file di risorse.
+Quando l'evento viene attivato, questa proprietà contiene l'URI generato da Aspose.Words. È possibile modificare il valore di questa proprietà per fornire un URI personalizzato per il file di risorse.
 
 [`ResourcesFolder`](../../htmlfixedsaveoptions/resourcesfolder/)[`ResourcesFolder`](../../svgsaveoptions/resourcesfolder/)[`ResourcesFolderAlias`](../../htmlfixedsaveoptions/resourcesfolderalias/)[`ResourcesFolderAlias`](../../svgsaveoptions/resourcesfolderalias/)
 
@@ -50,7 +50,7 @@ public void ResourceSavingCallback()
 private class FontSavingCallback : IResourceSavingCallback
 {
     /// <summary>
-    /// Chiamato quando Aspose.Words salva una risorsa esterna su una pagina HTML o SVG fissa.
+    /// Chiamato quando Aspose.Words salva una risorsa esterna in una pagina HTML o SVG fissa.
     /// </summary>
     public void ResourceSaving(ResourceSavingArgs args)
     {

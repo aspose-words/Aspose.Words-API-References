@@ -3,7 +3,7 @@ title: Table.LastRow
 linktitle: LastRow
 articleTitle: LastRow
 second_title: Aspose.Words pour .NET
-description: Table LastRow propriété. Renvoie le dernierRow nœud dans la table en C#.
+description: Découvrez la propriété Table LastRow pour accéder facilement au nœud de ligne final de votre table, améliorant ainsi la gestion et l'efficacité des données.
 type: docs
 weight: 180
 url: /fr/net/aspose.words.tables/table/lastrow/
@@ -18,7 +18,7 @@ public Row LastRow { get; }
 
 ## Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
+Montre comment supprimer la première et la dernière ligne de tous les tableaux d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

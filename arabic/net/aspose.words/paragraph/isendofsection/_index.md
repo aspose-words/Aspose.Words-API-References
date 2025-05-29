@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfSection
 linktitle: IsEndOfSection
 articleTitle: IsEndOfSection
 second_title: Aspose.Words لـ .NET
-description: Paragraph IsEndOfSection ملكية. صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة فيBody قصة النص الرئيسي من أSection  كاذبة خلاف ذلك في C#.
+description: اكتشف خاصية Paragraph IsEndOfSection، وحدد ما إذا كانت الفقرة هي الأخيرة في النص الرئيسي للقسم لتحسين بنية المستند ووضوحه.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/paragraph/isendofsection/
 ---
 ## Paragraph.IsEndOfSection property
 
-صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`Body`](../../body/) (قصة النص الرئيسي) من أ[`Section`](../../section/) ; كاذبة خلاف ذلك.
+صحيح إذا كانت هذه الفقرة هي الفقرة الأخيرة في[`Body`](../../body/) (قصة النص الرئيسي) لـ[`Section`](../../section/) ؛ وإلا فسيكون خاطئًا.
 
 ```csharp
 public bool IsEndOfSection { get; }
@@ -56,8 +56,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // قم بالتكرار عبر جميع العقد على مستوى الكتلة في نص القسم،
-        // ثم انسخ وأدخل كل عقدة ليست آخر فقرة فارغة في القسم.
+        // قم بالمرور عبر جميع العقد على مستوى الكتلة في نص القسم،
+        // ثم استنسخ وأدرج كل عقدة ليست الفقرة الفارغة الأخيرة في القسم.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

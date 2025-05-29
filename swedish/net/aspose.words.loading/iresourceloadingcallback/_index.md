@@ -3,14 +3,14 @@ title: IResourceLoadingCallback Interface
 linktitle: IResourceLoadingCallback
 articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.IResourceLoadingCallback gränssnitt. Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words laddar externa resurser när importerar ett dokument och infogar bilder med hjälp avDocumentBuilder  i C#.
+description: Styr inläsning av externa resurser i Aspose.Words med IResourceLoadingCallback-gränssnittet. Förbättra dokumentimport och bildinsättning sömlöst.
 type: docs
-weight: 3640
+weight: 4090
 url: /sv/net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
 
-Implementera detta gränssnitt om du vill kontrollera hur Aspose.Words laddar externa resurser när importerar ett dokument och infogar bilder med hjälp av[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
+Implementera detta gränssnitt om du vill styra hur Aspose.Words laddar externa resurser när importerar ett dokument och infogar bilder med hjälp av[`DocumentBuilder`](../../aspose.words/documentbuilder/) .
 
 ```csharp
 public interface IResourceLoadingCallback
@@ -20,7 +20,7 @@ public interface IResourceLoadingCallback
 
 | namn | Beskrivning |
 | --- | --- |
-| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Anropas när Aspose.Words laddar någon extern resurs. |
+| [ResourceLoading](../../aspose.words.loading/iresourceloadingcallback/resourceloading/)(*[ResourceLoadingArgs](../resourceloadingargs/)*) | Anropas när Aspose.Words laddar en extern resurs. |
 
 ## Exempel
 
@@ -34,8 +34,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder infogas vanligtvis med en URI eller en byte-array.
-    // Varje instans av en resursladdning kommer att anropa vår callbacks ResourceLoading-metod.
+    // Bilder infogas vanligtvis med hjälp av en URI, eller en byte-array.
+    // Varje instans av en resursbelastning anropar vår återanropsmetod ResourceLoading.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -46,15 +46,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.
-/// Detta kommer att separera logik för bildladdning från resten av dokumentkonstruktionen.
+/// Låter oss ladda bilder i ett dokument med hjälp av fördefinierade förkortningar, till skillnad från URI:er.
+/// Detta kommer att separera bildinläsningslogiken från resten av dokumentkonstruktionen.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Om denna återuppringning stöter på en av bildens förkortningar när en bild laddas,
-        // det kommer att tillämpa unik logik för varje definierad stenografi istället för att behandla den som en URI.
+        // Om denna återanropning stöter på en av bildförkortningarna när en bild laddas,
+        // den kommer att tillämpa unik logik för varje definierad förkortning istället för att behandla den som en URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

@@ -3,7 +3,7 @@ title: ParagraphFormat.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat Bidi propriété. Obtient ou définit sil sagit dun paragraphe de droite à gauche en C#.
+description: Découvrez la propriété ParagraphFormat Bidi pour contrôler facilement la mise en forme du texte de droite à gauche pour une meilleure lisibilité et une mise en page améliorée du document.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/paragraphformat/bidi/
@@ -25,27 +25,27 @@ Quand`vrai`, les exécutions et autres objets en ligne dans ce paragraphe sont d
 Montre comment détecter la direction du texte d'un document en texte brut.
 
 ```csharp
-// Crée un objet "TxtLoadOptions", que l'on peut transmettre au constructeur d'un document
+// Créer un objet « TxtLoadOptions », que nous pouvons transmettre au constructeur d'un document
 // pour modifier la façon dont nous chargeons un document en texte brut.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// Définissez la propriété "DocumentDirection" sur "DocumentDirection.Auto" détecte automatiquement
-// la direction de chaque paragraphe de texte chargé par Aspose.Words à partir du texte brut.
-// La propriété "Bidi" de chaque paragraphe stockera sa direction.
+// Définissez la propriété « DocumentDirection » sur « DocumentDirection.Auto » pour détecter automatiquement
+// la direction de chaque paragraphe de texte qu'Aspose.Words charge à partir du texte brut.
+// La propriété « Bidi » de chaque paragraphe stockera sa direction.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// Détecte le texte hébreu de droite à gauche.
+// Détecter le texte hébreu comme étant de droite à gauche.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// Détecte le texte anglais de droite à gauche.
+// Détecter le texte anglais comme étant de droite à gauche.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 ```
 
-Montre comment créer des listes compatibles avec les langues de droite à gauche avec les champs BIDIOUTLINE.
+Montre comment créer des listes compatibles avec les langues de droite à gauche avec des champs BIDIOUTLINE.
 
 ```csharp
 Document doc = new Document();
@@ -53,13 +53,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Le champ BIDIOUTLINE numérote les paragraphes comme les champs AUTONUM/LISTNUM,
 // mais n'est visible que lorsqu'une langue d'édition de droite à gauche est activée, comme l'hébreu ou l'arabe.
-// Le champ suivant affichera ".1", l'équivalent RTL du numéro de liste "1.".
+// Le champ suivant affichera « .1 », l'équivalent RTL du numéro de liste « 1 ».
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// Ajoutez deux champs BIDIOUTLINE supplémentaires, qui afficheront ".2" et ".3".
+// Ajoutez deux autres champs BIDIOUTLINE, qui afficheront « .2 » et « .3 ».
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
@@ -71,7 +71,7 @@ foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     para.ParagraphFormat.Bidi = true;
 }
 
-// Si nous activons une langue d'édition de droite à gauche dans Microsoft Word, nos champs afficheront des chiffres.
+// Si nous activons une langue d'édition de droite à gauche dans Microsoft Word, nos champs afficheront des nombres.
 // Sinon, ils afficheront "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```

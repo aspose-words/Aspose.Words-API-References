@@ -3,14 +3,14 @@ title: Revision.Group
 linktitle: Group
 articleTitle: Group
 second_title: Aspose.Words per .NET
-description: Revision Group proprietà. Ottiene il gruppo di revisione. ritornanullo se la revisione non appartiene a nessun gruppo in C#.
+description: Scopri la proprietà Gruppo di revisione, recupera facilmente i gruppi di revisione o ottieni null se non esiste alcun gruppo. Semplifica la gestione dei tuoi dati oggi stesso!
 type: docs
 weight: 30
 url: /it/net/aspose.words/revision/group/
 ---
 ## Revision.Group property
 
-Ottiene il gruppo di revisione. ritorna`nullo` se la revisione non appartiene a nessun gruppo.
+Ottiene il gruppo di revisione. Restituisce`null` se la revisione non appartiene a nessun gruppo.
 
 ```csharp
 public RevisionGroup Group { get; }
@@ -18,7 +18,7 @@ public RevisionGroup Group { get; }
 
 ## Osservazioni
 
-La revisione non ha un gruppo se il tipo di revisione lo èStyleDefinitionChangeoppure se la revisione non esiste più nel contesto del documento (accettata/rifiutata).
+La revisione non ha gruppo se il tipo di revisione èStyleDefinitionChange oppure se la revisione non esiste più nel contesto del documento (accettata/rifiutata).
 
 ## Esempi
 
@@ -28,12 +28,12 @@ Mostra come lavorare con le revisioni in un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La normale modifica del documento non conta come una revisione.
+// La normale modifica del documento non è considerata una revisione.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Per registrare le nostre modifiche come revisioni, dobbiamo dichiarare un autore e quindi iniziare a monitorarle.
+// Per registrare le nostre modifiche come revisioni, dobbiamo dichiarare un autore e poi iniziare a monitorarle.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -41,10 +41,10 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Questo flag corrisponde alla "Revisione" -> "Tracciamento" -> Opzione "Traccia modifiche" in Microsoft Word.
-// Il metodo "StartTrackRevisions" non influisce sul suo valore,
-// e il documento tiene traccia delle revisioni a livello di codice nonostante abbia il valore "false".
-// Se apriamo questo documento utilizzando Microsoft Word, non verranno monitorate le revisioni.
+// Questo flag corrisponde all'opzione "Revisione" -> "Monitoraggio" -> "Revisioni" in Microsoft Word.
+// Il metodo "StartTrackRevisions" non ne influenza il valore,
+// e il documento tiene traccia delle revisioni a livello di programmazione nonostante abbia il valore "false".
+// Se apriamo questo documento utilizzando Microsoft Word, le revisioni non verranno monitorate.
 Assert.IsFalse(doc.TrackRevisions);
 
 // Abbiamo aggiunto del testo utilizzando il generatore di documenti, quindi la prima revisione è una revisione di tipo inserimento.
@@ -55,19 +55,19 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Rimuove un'esecuzione per creare una revisione di tipo eliminazione.
+// Rimuovi un'esecuzione per creare una revisione di tipo eliminazione.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
-// L'aggiunta di una nuova revisione la posiziona all'inizio della raccolta di revisioni.
+// Aggiungendo una nuova revisione, questa viene posizionata all'inizio della raccolta delle revisioni.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Le revisioni inserite vengono visualizzate nel corpo del documento anche prima di accettare/rifiutare la revisione.
-// Rifiutare la revisione rimuoverà i suoi nodi dal corpo. Al contrario, i nodi che compongono eliminano le revisioni
-// rimaniamo anche nel documento finché non accettiamo la revisione.
+// Le revisioni inserite vengono visualizzate nel corpo del documento anche prima che accettiamo/rifiutiamo la revisione.
+// Rifiutando la revisione, i relativi nodi verranno rimossi dal corpo. Al contrario, i nodi che la compongono elimineranno le revisioni.
+// rimangono nel documento finché non accettiamo la revisione.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Accettando la revisione di eliminazione rimuoverà il suo nodo principale dal testo del paragrafo
+// L'accettazione della revisione di eliminazione rimuoverà il suo nodo padre dal testo del paragrafo
 // e quindi rimuovere la revisione della raccolta stessa.
 doc.Revisions[0].Accept();
 
@@ -93,7 +93,7 @@ Assert.AreEqual(RevisionType.Moving, doc.Revisions[0].RevisionType);
 Assert.AreEqual(8, doc.Revisions.Count);
 Assert.AreEqual("This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc.GetText().Trim());
 
-// La revisione in movimento è ora all'indice 1. Rifiuta la revisione per scartarne il contenuto.
+// La revisione in movimento è ora all'indice 1. Rifiutare la revisione per eliminarne il contenuto.
 doc.Revisions[1].Reject();
 
 Assert.AreEqual(6, doc.Revisions.Count);

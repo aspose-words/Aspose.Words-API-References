@@ -3,14 +3,14 @@ title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words för .NET
-description: IChartDataPoint Bubble3D fast egendom. Anger om bubblorna i bubbeldiagrammet ska ha en 3Deffekt på dem i C#.
+description: Upptäck egenskapen IChartDataPoint Bubble3D för att förbättra dina bubbeldiagram med fantastiska 3D-effekter för mer engagerande datavisualisering.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
 ---
 ## IChartDataPoint.Bubble3D property
 
-Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt på dem.
+Anger om bubblorna i bubbeldiagrammet ska ha en 3D-effekt.
 
 ```csharp
 public bool Bubble3D { get; set; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Applicera en dataetikett på varje bubbla som visar dess diameter.
+// Använd en dataetikett för varje bubbla som visar dess diameter.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

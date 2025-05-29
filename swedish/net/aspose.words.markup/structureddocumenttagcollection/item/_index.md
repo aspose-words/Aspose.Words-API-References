@@ -3,7 +3,7 @@ title: StructuredDocumentTagCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagCollection Item fast egendom. Returnerar den strukturerade dokumenttaggen vid det angivna indexet i C#.
+description: Få enkelt åtkomst till strukturerade dokumenttaggar med egenskapen Item. Hämta alla taggar via index för smidig dokumenthantering och förbättrad organisation.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/item/
@@ -18,7 +18,7 @@ public IStructuredDocumentTag this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Ett index i samlingen. |
+| index | Ett index till samlingen. |
 
 ### Se även
 

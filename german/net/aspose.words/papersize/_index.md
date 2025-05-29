@@ -3,9 +3,9 @@ title: PaperSize Enum
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words für .NET
-description: Aspose.Words.PaperSize opsomming. Gibt das Papierformat an in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.PaperSize zum Definieren benutzerdefinierter Papierformate in Ihren Dokumenten. Verbessern Sie mühelos die Formatierung Ihrer Dokumente!
 type: docs
-weight: 4380
+weight: 5110
 url: /de/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -37,11 +37,13 @@ public enum PaperSize
 | Paper10x14 | `14` | 10 x 14 Zoll. |
 | Paper11x17 | `15` | 11 x 17 Zoll. |
 | Number10Envelope | `16` | 4,125 x 9,5 Zoll. |
-| Custom | `17` | Benutzerdefiniertes Papierformat. |
+| JisB4 | `17` | 257 x 364 mm. |
+| JisB5 | `18` | 182 x 257 mm. |
+| Custom | `19` | Benutzerdefiniertes Papierformat. |
 
 ## Beispiele
 
-Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
+Zeigt, wie Sie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt anpassen.
 
 ```csharp
 Document doc = new Document();
@@ -61,7 +63,7 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Zeigt, wie Seitengrößen festgelegt werden.
+Zeigt, wie die Seitengröße eingestellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -76,7 +78,7 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Jeder Abschnitt hat sein eigenes PageSetup-Objekt. Wenn wir einen Dokumentersteller verwenden, um einen neuen Abschnitt zu erstellen,
+// Jeder Abschnitt hat sein eigenes PageSetup-Objekt. Wenn wir einen Dokumentgenerator verwenden, um einen neuen Abschnitt zu erstellen,
 // Das PageSetup-Objekt dieses Abschnitts erbt alle Werte des PageSetup-Objekts des vorherigen Abschnitts.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -108,12 +110,12 @@ Document doc = new Document();
 
 // Ein leeres Dokument enthält einen Abschnitt, einen Hauptteil und einen Absatz.
 // Rufen Sie die Methode „RemoveAllChildren“ auf, um alle diese Knoten zu entfernen.
-// und erhalten am Ende einen Dokumentknoten ohne untergeordnete Elemente.
+// und am Ende einen Dokumentknoten ohne untergeordnete Elemente erhalten.
 doc.RemoveAllChildren();
 
 // Dieses Dokument hat jetzt keine zusammengesetzten untergeordneten Knoten, denen wir Inhalte hinzufügen können.
 // Wenn wir es bearbeiten möchten, müssen wir seine Knotensammlung neu füllen.
-// Erstellen Sie zunächst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
+// Erstellen Sie zuerst einen neuen Abschnitt und hängen Sie ihn dann als untergeordnetes Element an den Stammdokumentknoten an.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
@@ -126,7 +128,7 @@ section.PageSetup.PaperSize = PaperSize.Letter;
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Einen Absatz erstellen, einige Formatierungseigenschaften festlegen und ihn dann als untergeordnetes Element an den Text anhängen.
+// Erstellen Sie einen Absatz, legen Sie einige Formatierungseigenschaften fest und hängen Sie ihn dann als untergeordnetes Element an den Textkörper an.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -134,8 +136,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Zum Schluss fügen Sie etwas Inhalt hinzu, um das Dokument zu erstellen. Erstellen Sie einen Lauf,
-// Aussehen und Inhalt festlegen und dann als untergeordnetes Element an den Absatz anhängen.
+// Abschließend fügen Sie dem Dokument noch Inhalt hinzu. Erstellen Sie einen Lauf,
+// Legen Sie das Erscheinungsbild und den Inhalt fest und hängen Sie es dann als untergeordnetes Element an den Absatz an.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

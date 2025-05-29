@@ -3,7 +3,7 @@ title: OleFormat.IconCaption
 linktitle: IconCaption
 articleTitle: IconCaption
 second_title: Aspose.Words per .NET
-description: OleFormat IconCaption proprietà. Ottiene la didascalia dellicona delloggetto OLE in C#.
+description: Scopri la proprietà OleFormat IconCaption per recuperare e personalizzare facilmente le didascalie delle icone degli oggetti OLE per una presentazione migliore dei documenti.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/oleformat/iconcaption/
@@ -12,7 +12,7 @@ url: /it/net/aspose.words.drawing/oleformat/iconcaption/
 
 Ottiene la didascalia dell'icona dell'oggetto OLE.
 
-Nel caso in cui l'oggetto OLE non sia incorporato poiché l'icona o la didascalia non possono essere recuperate, restituisce una stringa vuota.
+Nel caso in cui l'oggetto OLE non abbia un'icona o non sia possibile recuperare una didascalia, restituisce una stringa empty .
 
 ```csharp
 public string IconCaption { get; }
@@ -20,7 +20,7 @@ public string IconCaption { get; }
 
 ## Esempi
 
-Mostra come inserire oggetti OLE collegati e scollegati.
+Mostra come inserire oggetti OLE collegati e non collegati.
 
 ```csharp
 Document doc = new Document();
@@ -29,10 +29,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Incorpora un disegno di Microsoft Visio nel documento come oggetto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserisci un collegamento al file nel file system locale e visualizzalo come un'icona.
+// Inserisce un collegamento al file nel file system locale e lo visualizza come icona.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// L'inserimento di oggetti OLE crea forme che memorizzano questi oggetti.
+// L'inserimento di oggetti OLE crea forme che memorizzano tali oggetti.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -57,7 +57,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Se l'oggetto contiene dati OLE, possiamo accedervi utilizzando uno stream.
+// Se l'oggetto contiene dati OLE, possiamo accedervi tramite un flusso.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

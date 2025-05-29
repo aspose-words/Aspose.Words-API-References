@@ -3,7 +3,7 @@ title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words لـ .NET
-description: PlainTextDocument BuiltInDocumentProperties ملكية. يحصلBuiltInDocumentProperties من الوثيقة في C#.
+description: اكتشف خاصية PlainTextDocument BuiltInDocumentProperties للوصول بسهولة إلى بيانات التعريف الأساسية للمستندات وإدارتها لتحسين تنظيم المستندات.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/plaintextdocument/builtindocumentproperties/
@@ -18,7 +18,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي ثم الوصول إلى الخصائص المضمنة للمستند الأصلي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي ثم الوصول إلى خصائص المستند الأصلي المضمنة.
 
 ```csharp
 Document doc = new Document();

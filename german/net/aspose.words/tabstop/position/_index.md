@@ -3,14 +3,14 @@ title: TabStop.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words für .NET
-description: TabStop Position eigendom. Ermittelt die Position des Tabstopps in Punkten in C#.
+description: Entdecken Sie die Eigenschaft „TabStop-Position“, um Tabstopppositionen einfach in Punkten zu finden und so die Präzision Ihres Layouts und die Effizienz Ihres Designs zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/tabstop/position/
 ---
 ## TabStop.Position property
 
-Ermittelt die Position des Tabstopps in Punkten.
+Ruft die Position des Tabulatorstopps in Punkten ab.
 
 ```csharp
 public double Position { get; }
@@ -23,12 +23,12 @@ Zeigt, wie die Position des rechten Tabstopps in Inhaltsverzeichnis-bezogenen Ab
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Alle Absätze mit TOC-ergebnisbasierten Stilen durchlaufen; Dies ist jeder Stil zwischen TOC und TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Durchlaufe alle Absätze mit auf dem Inhaltsverzeichnisergebnis basierenden Stilen. Dies ist jeder Stil zwischen Inhaltsverzeichnis und Inhaltsverzeichnis9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Holen Sie sich den ersten Tab, der in diesem Absatz verwendet wird. Dies sollte der Tab sein, der zum Ausrichten der Seitenzahlen verwendet wird.
+        // Holen Sie sich den ersten Tabulator, der in diesem Absatz verwendet wird. Dies sollte der Tabulator sein, der zum Ausrichten der Seitenzahlen verwendet wird.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
         // Ersetzen Sie den ersten Standard-Tabstopp durch einen benutzerdefinierten Tabstopp.

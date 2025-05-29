@@ -3,14 +3,14 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words för .NET
-description: Field IsLocked fast egendom. Hämtar eller ställer in om fältet är låst ska inte räkna om resultatet i C#.
+description: Upptäck IsLocked-egenskapen för fält – kontrollera omberäkning och förbättra dataintegriteten. Lås upp effektiv hantering av dina dataresultat idag!
 type: docs
 weight: 50
 url: /sv/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet).
+Hämtar eller anger om fältet är låst (resultatet ska inte beräknas om).
 
 ```csharp
 public bool IsLocked { get; set; }

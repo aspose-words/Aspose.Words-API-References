@@ -3,9 +3,9 @@ title: ChartAxisCollection Class
 linktitle: ChartAxisCollection
 articleTitle: ChartAxisCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts.ChartAxisCollection сорт. Представляет коллекцию осей диаграммы на С#.
+description: Откройте для себя класс Aspose.Words.ChartAxisCollection — ваше идеальное решение для эффективного управления осями диаграммы и улучшения визуализации данных вашего документа.
 type: docs
-weight: 640
+weight: 900
 url: /ru/net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class
@@ -38,9 +38,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Скрываем основные линии сетки на первичной и вторичной осях Y.
+// Скрыть основные линии сетки на первичной и вторичной осях Y.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

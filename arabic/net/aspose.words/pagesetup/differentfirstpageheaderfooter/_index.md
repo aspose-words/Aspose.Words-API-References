@@ -3,7 +3,7 @@ title: PageSetup.DifferentFirstPageHeaderFooter
 linktitle: DifferentFirstPageHeaderFooter
 articleTitle: DifferentFirstPageHeaderFooter
 second_title: Aspose.Words لـ .NET
-description: PageSetup DifferentFirstPageHeaderFooter ملكية. صحيح إذا تم استخدام رأس أو تذييل مختلف في الصفحة الأولى في C#.
+description: اكتشف خاصية PageSetup DifferentFirstPageHeaderFooter لتخصيص الصفحة الأولى من مستندك باستخدام رؤوس وتذييلات فريدة لإضفاء لمسة احترافية.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);
@@ -52,16 +52,16 @@ doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يوجد أدناه نوعان من الرؤوس/التذييلات.
-// 1 - الرأس/التذييل "الأول"، الذي يظهر في الصفحة الأولى من القسم.
+// فيما يلي نوعان من الرؤوس والتذييلات.
+// 1 - "الرأس/التذييل الأول"، والذي يظهر في الصفحة الأولى من القسم.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - الرأس/التذييل "الأساسي"، الذي يظهر في كل صفحة في القسم.
- // يمكننا تجاوز الرأس/التذييل الأساسي برأس/تذييل الصفحة الأولى أو الزوجية.
+// 2 - الرأس/التذييل "الأساسي"، والذي يظهر في كل صفحة في القسم.
+// يمكننا تجاوز الرأس/التذييل الأساسي برأس/تذييل الصفحة الأولى ورأس/تذييل الصفحة الزوجية.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -75,64 +75,57 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// يحتوي كل قسم على كائن "PageSetup" الذي يحدد الخصائص المتعلقة بمظهر الصفحة
+// يحتوي كل قسم على كائن "PageSetup" الذي يحدد خصائص مرتبطة بمظهر الصفحة
 // مثل الاتجاه والحجم والحدود.
-// قم بتعيين خاصية "DifferentFirstPageHeaderFooter" على "true" لتطبيق الرأس/التذييل الأول على الصفحة الأولى.
-// اضبط الخاصية "DifferentFirstPageHeaderFooter" على "خطأ"
+// قم بضبط الخاصية "DifferentFirstPageHeaderFooter" على "true" لتطبيق أول رأس/تذييل على الصفحة الأولى.
+// اضبط خاصية "DifferentFirstPageHeaderFooter" على "false"
 // لجعل الصفحة الأولى تعرض الرأس/التذييل الأساسي.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
 doc.Save(ArtifactsDir + "PageSetup.DifferentFirstPageHeaderFooter.docx");
 ```
 
-يوضح كيفية تتبع الترتيب الذي تعبر به عملية استبدال النص العقد.
+يوضح كيفية تتبع الترتيب الذي تمر به عملية استبدال النص عبر العقد.
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
 
-            Section firstPageSection = doc.FirstSection;
+    Section firstPageSection = doc.FirstSection;
 
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
 
-            // سيؤثر استخدام رأس/تذييل مختلف للصفحة الأولى على ترتيب البحث.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
+    // استخدام رأس/تذييل مختلف للصفحة الأولى سيؤثر على ترتيب البحث.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
 
-        /// <summary>
-        /// أثناء عملية البحث والاستبدال، يتم تسجيل محتويات كل عقدة تحتوي على نص "تجده" العملية،
-        /// في الحالة التي كان عليها قبل حدوث الاستبدال.
-        /// سيعرض هذا الترتيب الذي تعبر به عملية استبدال النص العقد.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
+/// <summary>
+/// أثناء عملية البحث والاستبدال، يتم تسجيل محتويات كل عقدة تحتوي على نص "تجده" العملية،
+/// في الحالة التي كانت عليها قبل أن يتم الاستبدال.
+/// سيؤدي هذا إلى عرض الترتيب الذي تمر به عملية استبدال النص عبر العقد.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
 
-            internal string Text => mTextBuilder.ToString();
+    internal string Text => mTextBuilder.ToString();
 
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
 ```
 
 ### أنظر أيضا

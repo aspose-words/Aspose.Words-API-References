@@ -3,14 +3,14 @@ title: LayoutCollector.GetStartPageIndex
 linktitle: GetStartPageIndex
 articleTitle: GetStartPageIndex
 second_title: Aspose.Words für .NET
-description: LayoutCollector GetStartPageIndex methode. Ruft den 1basierten Index der Seite ab auf der der Knoten beginnt. Gibt 0 zurück wenn der Knoten keiner Seite zugeordnet werden kann in C#.
+description: Entdecken Sie die LayoutCollector GetStartPageIndex-Methode, um ganz einfach den 1-basierten Index der Startseite eines Knotens zu finden. Vereinfachen Sie Ihren Mapping-Prozess noch heute!
 type: docs
 weight: 70
 url: /de/net/aspose.words.layout/layoutcollector/getstartpageindex/
 ---
 ## LayoutCollector.GetStartPageIndex method
 
-Ruft den 1-basierten Index der Seite ab, auf der der Knoten beginnt. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann.
+Ermittelt den 1-basierten Index der Seite, auf der der Knoten beginnt. Gibt 0 zurück, wenn der Knoten keiner Seite zugeordnet werden kann.
 
 ```csharp
 public int GetStartPageIndex(Node node)
@@ -25,7 +25,7 @@ Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
 // Rufen Sie die Methode „GetNumPagesSpanned“ auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
-// Da das Dokument leer ist, beträgt die Anzahl der Seiten derzeit Null.
+// Da das Dokument leer ist, beträgt die Seitenanzahl derzeit Null.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Vor dem Layout-Kollektor müssen wir die Methode „UpdatePageLayout“ aufrufen, um sie uns zu geben
-// eine genaue Zahl für alle Layout-bezogenen Metriken, wie zum Beispiel die Seitenzahl.
+// Vor dem Layout-Sammler müssen wir die Methode "UpdatePageLayout" aufrufen, um uns
+// eine genaue Zahl für jede layoutbezogene Metrik, wie beispielsweise die Seitenanzahl.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Wir können die Nummern der Start- und Endseiten jedes Knotens und deren gesamte Seitenspanne sehen.
+// Wir können die Nummern der Start- und Endseiten jedes Knotens und ihre Gesamtseitenspanne sehen.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -58,7 +58,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Wir können die Layout-Entitäten mit einem LayoutEnumerator durchlaufen.
+// Wir können die Layout-Entitäten mithilfe eines LayoutEnumerators durchlaufen.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

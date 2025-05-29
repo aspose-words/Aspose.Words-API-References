@@ -3,7 +3,7 @@ title: MergeFieldImageDimension.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words لـ .NET
-description: MergeFieldImageDimension Value ملكية. القيمة في C#.
+description: اكتشف خاصية MergeFieldImageDimension Value لتحسين معالجة الصور. حسّن مشروعك بأبعاد دقيقة وأداء مُحسّن.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/mergefieldimagedimension/value/
@@ -18,7 +18,7 @@ public double Value { get; set; }
 
 ## ملاحظات
 
-يجب عليك استخدام قيمة سالبة للإشارة إلى أنه يجب تطبيق القيمة الأصلية لبعد الصورة المقابل .
+يجب عليك استخدام قيمة سلبية للإشارة إلى أنه يجب تطبيق القيمة الأصلية لأبعاد الصورة المقابلة .
 
 ## أمثلة
 
@@ -29,7 +29,7 @@ public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // أدخل MERGEFIELD الذي سيقبل الصور من المصدر أثناء دمج البريد. استخدم رمز الحقل للرجوع إليه
+    // أدخل حقل دمج يقبل الصور من مصدر أثناء دمج البريد. استخدم رمز الحقل للإشارة إليه.
     // عمود في مصدر البيانات يحتوي على أسماء ملفات النظام المحلي للصور التي نرغب في استخدامها في دمج البريد.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -37,14 +37,14 @@ public void MergeFieldImageDimension()
     // يجب أن يحتوي مصدر البيانات على عمود يسمى "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // قم بإنشاء مصدر بيانات مناسب.
+    // إنشاء مصدر بيانات مناسب.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // قم بتكوين رد اتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ عملية دمج البريد.
+    // قم بتكوين معاودة الاتصال لتعديل أحجام الصور في وقت الدمج، ثم قم بتنفيذ دمج البريد.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -53,7 +53,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// يضبط حجم جميع الصور المدمجة بالبريد على عرض وارتفاع محددين.
+/// تعيين حجم جميع الصور المدمجة بالبريد إلى عرض وارتفاع محددين.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -79,6 +79,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

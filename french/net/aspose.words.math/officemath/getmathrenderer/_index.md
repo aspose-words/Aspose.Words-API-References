@@ -3,14 +3,14 @@ title: OfficeMath.GetMathRenderer
 linktitle: GetMathRenderer
 articleTitle: GetMathRenderer
 second_title: Aspose.Words pour .NET
-description: OfficeMath GetMathRenderer méthode. Crée et renvoie un objet qui peut être utilisé pour restituer cette équation dans une image en C#.
+description: Découvrez la méthode GetMathRenderer d'OfficeMath pour convertir sans effort des équations en images, améliorant ainsi vos documents avec des visuels clairs et professionnels.
 type: docs
-weight: 70
+weight: 90
 url: /fr/net/aspose.words.math/officemath/getmathrenderer/
 ---
 ## OfficeMath.GetMathRenderer method
 
-Crée et renvoie un objet qui peut être utilisé pour restituer cette équation dans une image.
+Crée et renvoie un objet qui peut être utilisé pour rendre cette équation dans une image.
 
 ```csharp
 public OfficeMathRenderer GetMathRenderer()
@@ -33,11 +33,11 @@ Document doc = new Document(MyDir + "Office math.docx");
 
 OfficeMath math = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// Créez un objet "ImageSaveOptions" à passer à la méthode "Save" du moteur de rendu de nœud pour modifier
-// comment il restitue le nœud OfficeMath en image.
+// Créez un objet « ImageSaveOptions » à transmettre à la méthode « Save » du moteur de rendu du nœud pour modifier
+// comment il rend le nœud OfficeMath dans une image.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png);
 
-// Définissez la propriété "Scale" sur 5 pour rendre l'objet à cinq fois sa taille d'origine.
+// Définissez la propriété « Scale » sur 5 pour rendre l'objet à cinq fois sa taille d'origine.
 saveOptions.Scale = 5;
 
 math.GetMathRenderer().Save(ArtifactsDir + "Shape.RenderOfficeMath.png", saveOptions);

@@ -3,7 +3,7 @@ title: OleFormat.Clsid
 linktitle: Clsid
 articleTitle: Clsid
 second_title: Aspose.Words für .NET
-description: OleFormat Clsid eigendom. Ruft die CLSID des OLEObjekts ab in C#.
+description: Entdecken Sie die OleFormat Clsid-Eigenschaft, um die CLSID von OLE-Objekten einfach abzurufen und so die Funktionalität und Leistung Ihrer Anwendung zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/oleformat/clsid/
@@ -30,7 +30,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Einige OLE-Steuerelemente enthalten möglicherweise untergeordnete Steuerelemente, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
+// Einige OLE-Steuerelemente können untergeordnete Steuerelemente enthalten, wie beispielsweise das in diesem Dokument mit drei Optionsschaltflächen.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

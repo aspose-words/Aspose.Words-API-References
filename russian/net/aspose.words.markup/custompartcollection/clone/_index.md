@@ -3,7 +3,7 @@ title: CustomPartCollection.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words для .NET
-description: CustomPartCollection Clone метод. Создает глубокую копию этой коллекции и ее элементов на С#.
+description: С легкостью клонируйте CustomPartCollection с помощью нашего метода глубокого копирования, гарантируя сохранение всех элементов для бесперебойного управления данными.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.markup/custompartcollection/clone/
@@ -18,7 +18,7 @@ public CustomPartCollection Clone()
 
 ## Примеры
 
-Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -30,7 +30,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перебираем коллекцию и печатаем каждую часть.
+// Перечислить коллекцию и вывести каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

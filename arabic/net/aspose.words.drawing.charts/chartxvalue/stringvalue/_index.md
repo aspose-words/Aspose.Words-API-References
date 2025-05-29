@@ -3,14 +3,14 @@ title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
 second_title: Aspose.Words لـ .NET
-description: ChartXValue StringValue ملكية. الحصول على قيمة السلسلة المخزنة في C#.
+description: اكتشف خاصية ChartXValue StringValue التي تقوم باسترداد قيم السلسلة المخزنة وإدارتها بكفاءة لتحسين تصور البيانات.
 type: docs
 weight: 90
 url: /ar/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
 ---
 ## ChartXValue.StringValue property
 
-الحصول على قيمة السلسلة المخزنة.
+يحصل على قيمة السلسلة المخزنة.
 
 ```csharp
 public string StringValue { get; }

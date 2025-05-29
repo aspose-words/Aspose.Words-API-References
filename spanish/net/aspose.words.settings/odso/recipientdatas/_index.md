@@ -3,14 +3,14 @@ title: Odso.RecipientDatas
 linktitle: RecipientDatas
 articleTitle: RecipientDatas
 second_title: Aspose.Words para .NET
-description: Odso RecipientDatas propiedad. Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nuncanulo  en C#.
+description: Gestione su combinación de correspondencia fácilmente con Odso RecipientDatas. Controle la inclusión/exclusión de registros con una colección fiable y siempre disponible.
 type: docs
 weight: 70
 url: /es/net/aspose.words.settings/odso/recipientdatas/
 ---
 ## Odso.RecipientDatas property
 
-Obtiene o establece una colección de objetos que especifican la inclusión/exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca`nulo` .
+Obtiene o establece una colección de objetos que especifican la inclusión o exclusión de registros individuales en la combinación de correspondencia. Este objeto nunca es`nulo` .
 
 ```csharp
 public OdsoRecipientDataCollection RecipientDatas { get; set; }
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

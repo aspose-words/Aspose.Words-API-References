@@ -3,7 +3,7 @@ title: List.IsListStyleReference
 linktitle: IsListStyleReference
 articleTitle: IsListStyleReference
 second_title: Aspose.Words لـ .NET
-description: List IsListStyleReference ملكية. إرجاعحقيقي إذا كانت هذه القائمة مرجعًا لنمط القائمة في C#.
+description: اكتشف خاصية IsListStyleReference، فهي تشير إلى ما إذا كانت القائمة تشير إلى نمط معين، مما يعزز تنسيق مستندك وتنظيمه.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.lists/list/isliststylereference/
@@ -18,20 +18,20 @@ public bool IsListStyleReference { get; }
 
 ## ملاحظات
 
-لاحظ أن تعديل خصائص القائمة التي تعتبر مرجعًا لنمط القائمة ليس له أي تأثير. تنسيق القائمة المحدد في نمط القائمة نفسه له الأسبقية دائمًا.
+لاحظ أن تعديل خصائص القائمة التي تعتبر مرجعًا لنمط القائمة ليس له أي تأثير. تنسيق القائمة المحدد في نمط القائمة نفسه له الأولوية دائمًا.
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -53,14 +53,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

@@ -3,9 +3,9 @@ title: DocumentBuilder.Write
 linktitle: Write
 articleTitle: Write
 second_title: Aspose.Words para .NET
-description: DocumentBuilder Write método. Inserta una cadena en el documento en la posición de inserción actual en C#.
+description: Inserte texto sin esfuerzo en su documento con el método Write de DocumentBuilder, mejorando su eficiencia de edición y agilizando su flujo de trabajo.
 type: docs
-weight: 650
+weight: 690
 url: /es/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -47,14 +47,14 @@ Muestra cómo utilizar un generador de documentos para crear una tabla.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicie la tabla, luego complete la primera fila con dos celdas.
+// Inicie la tabla y luego rellene la primera fila con dos celdas.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Llame al método "EndRow" del constructor para iniciar una nueva fila.
+// Llame al método "EndRow" del constructor para comenzar una nueva fila.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -65,7 +65,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-Muestra cómo crear una tabla formateada de 2x2.
+Muestra cómo construir una tabla formateada de 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -79,7 +79,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Mientras crea la tabla, el creador de documentos aplicará sus valores actuales de propiedad RowFormat/CellFormat
+// Al construir la tabla, el generador de documentos aplicará sus valores de propiedad RowFormat/CellFormat actuales
 // a la fila/celda actual en la que se encuentra el cursor y a cualquier fila/celda nueva a medida que las crea.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
@@ -95,7 +95,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Las filas y celdas agregadas anteriormente no se ven afectadas retroactivamente por los cambios en el formato del constructor.
+// Las filas y celdas agregadas previamente no se ven afectadas retroactivamente por los cambios en el formato del generador.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -114,8 +114,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -138,9 +138,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

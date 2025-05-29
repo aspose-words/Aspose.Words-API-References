@@ -3,9 +3,9 @@ title: ContentDisposition Enum
 linktitle: ContentDisposition
 articleTitle: ContentDisposition
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.ContentDisposition énumération. Énumère différentes manières de présenter le document dans le navigateur client en C#.
+description: Explorez l'énumération Aspose.Words.ContentDisposition pour découvrir diverses options de présentation de documents pour des expériences de navigateur client améliorées.
 type: docs
-weight: 340
+weight: 540
 url: /fr/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
@@ -21,11 +21,11 @@ public enum ContentDisposition
 | Nom | Évaluer | La description |
 | --- | --- | --- |
 | Attachment | `0` | Envoyez le document au navigateur et présentez une option pour enregistrer le document sur le disque ou l'ouvrir dans l'application associée à l'extension du document. |
-| Inline | `1` | Envoie le document au navigateur et présente une option pour enregistrer le document sur le disque ou l'ouvrir dans le navigateur. |
+| Inline | `1` | Envoyez le document au navigateur et présentez une option pour enregistrer le document sur le disque ou l'ouvrir dans le navigateur. |
 
 ## Remarques
 
-Notez que le comportement réel du navigateur client peut être affecté par la configuration de sécurité du navigateur.
+Notez que le comportement réel sur le navigateur client peut être affecté par la configuration de sécurité du navigateur.
 
 ## Exemples
 
@@ -46,12 +46,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Envoie le document au navigateur client.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //Lancé car HttpResponse est nul dans le test.
+// Envoyer le document au navigateur client.
+//Lancé car HttpResponse est nul dans le test.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Nous devrons fermer cette réponse manuellement pour nous assurer de ne pas ajouter de contenu superflu au document après l'enregistrement.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Nous devrons fermer cette réponse manuellement pour nous assurer que nous n'ajoutons aucun contenu superflu au document après l'enregistrement.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Voir également

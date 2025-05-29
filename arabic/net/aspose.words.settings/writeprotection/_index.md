@@ -3,9 +3,9 @@ title: WriteProtection Class
 linktitle: WriteProtection
 articleTitle: WriteProtection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.WriteProtection فصل. يحدد إعدادات الحماية ضد الكتابة للمستند في C#.
+description: اكتشف فئة Aspose.Words.Settings.WriteProtection لإدارة إعدادات حماية الكتابة في المستندات بسهولة وتعزيز أمان مستندك.
 type: docs
-weight: 5970
+weight: 6800
 url: /ar/net/aspose.words.settings/writeprotection/
 ---
 ## WriteProtection class
@@ -22,23 +22,23 @@ public class WriteProtection
 
 | اسم | وصف |
 | --- | --- |
-| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | إرجاع`حقيقي` عندما يتم تعيين كلمة مرور الحماية ضد الكتابة. |
+| [IsWriteProtected](../../aspose.words.settings/writeprotection/iswriteprotected/) { get; } | إرجاع`حقيقي` عندما يتم تعيين كلمة مرور لحماية الكتابة. |
 | [ReadOnlyRecommended](../../aspose.words.settings/writeprotection/readonlyrecommended/) { get; set; } | يحدد ما إذا كان مؤلف المستند قد أوصى بفتح المستند للقراءة فقط. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | يضبط كلمة مرور الحماية ضد الكتابة للمستند. |
-| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | إرجاع`حقيقي` إذا كانت كلمة المرور المحددة هي نفس كلمة مرور الحماية ضد الكتابة التي تمت حماية المستند بها. إذا لم تكن الوثيقة محمية ضد الكتابة بكلمة مرور، فسيتم إرجاعها`خطأ شنيع` . |
+| [SetPassword](../../aspose.words.settings/writeprotection/setpassword/)(*string*) | تعيين كلمة مرور حماية الكتابة للمستند. |
+| [ValidatePassword](../../aspose.words.settings/writeprotection/validatepassword/)(*string*) | إرجاع`حقيقي` إذا كانت كلمة المرور المحددة هي نفس كلمة مرور الحماية من الكتابة التي تم حماية المستند بها. إذا لم يكن المستند محميًا من الكتابة بكلمة مرور، فيتم إرجاع`خطأ شنيع` . |
 
 ## ملاحظات
 
-تحدد الحماية ضد الكتابة ما إذا كان المؤلف قد أوصى بفتح المستند للقراءة فقط و/أو طلب كلمة مرور لتعديل المستند.
+تحدد حماية الكتابة ما إذا كان المؤلف قد أوصى بفتح المستند للقراءة فقط و/أو يتطلب كلمة مرور لتعديل المستند.
 
-تختلف الحماية ضد الكتابة عن حماية المستندات. تم تحديد الحماية ضد الكتابة في Microsoft Word في خيارات مربع الحوار "حفظ باسم".
+تختلف حماية الكتابة عن حماية المستندات. يتم تحديد حماية الكتابة في Microsoft Word ضمن خيارات مربع حوار "حفظ باسم".
 
-لا تقم بإنشاء مثيلات هذه الفئة مباشرة. يمكنك الوصول إلى إعدادات حماية المستندات عبر[`WriteProtection`](../../aspose.words/document/writeprotection/) ملكية.
+لا تُنشئ مثيلات لهذه الفئة مباشرةً. يمكنك الوصول إلى إعدادات حماية المستندات عبر[`WriteProtection`](../../aspose.words/document/writeprotection/) ملكية.
 
 ## أمثلة
 
@@ -55,7 +55,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير محتوياته.
+// الحماية لا تمنع تحرير المستند برمجيًا، ولا تقوم بتشفير المحتويات.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

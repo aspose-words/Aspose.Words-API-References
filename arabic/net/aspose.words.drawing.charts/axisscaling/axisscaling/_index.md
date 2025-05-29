@@ -3,7 +3,7 @@ title: AxisScaling
 linktitle: AxisScaling
 articleTitle: AxisScaling
 second_title: Aspose.Words لـ .NET
-description: AxisScaling البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ AxisScaling، الحل الأمثل لتوسيع التطبيقات بسلاسة. حسّن الأداء مع مُنشئنا الافتراضي الفعّال!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisscaling/axisscaling/

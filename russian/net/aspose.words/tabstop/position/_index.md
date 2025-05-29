@@ -3,7 +3,7 @@ title: TabStop.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words для .NET
-description: TabStop Position свойство. Получает позицию табуляции в пунктах на С#.
+description: Откройте для себя свойство TabStop Position, чтобы легко находить позиции табуляции в пунктах, повышая точность макета и эффективность дизайна.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/tabstop/position/
@@ -18,20 +18,20 @@ public double Position { get; }
 
 ## Примеры
 
-Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с содержанием.
+Показывает, как изменить положение правой позиции табуляции в абзацах, связанных с оглавлением.
 
 ```csharp
 Document doc = new Document(MyDir + "Table of contents.docx");
 
-// Перебираем все абзацы со стилями на основе результатов оглавления; это любой стиль между TOC и TOC9.
-foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true).OfType<Paragraph>())
+// Пройти по всем абзацам со стилями, основанными на результате TOC; это любой стиль между TOC и TOC9.
+foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
     if (para.ParagraphFormat.Style.StyleIdentifier >= StyleIdentifier.Toc1 &&
         para.ParagraphFormat.Style.StyleIdentifier <= StyleIdentifier.Toc9)
     {
-        // Получаем первую вкладку, используемую в этом абзаце. Это должна быть вкладка, используемая для выравнивания номеров страниц.
+        // Получаем первую табуляцию, используемую в этом абзаце. Это должна быть табуляция, используемая для выравнивания номеров страниц.
         TabStop tab = para.ParagraphFormat.TabStops[0];
 
-        // Заменяем первую табуляцию по умолчанию, остановку на пользовательскую позицию табуляции.
+        // Заменить первую остановку табуляции по умолчанию на пользовательскую остановку табуляции.
         para.ParagraphFormat.TabStops.RemoveByPosition(tab.Position);
         para.ParagraphFormat.TabStops.Add(tab.Position - 50, tab.Alignment, tab.Leader);
     }

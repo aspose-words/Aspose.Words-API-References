@@ -3,9 +3,9 @@ title: TableAlignment Enum
 linktitle: TableAlignment
 articleTitle: TableAlignment
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.TableAlignment opsomming. Gibt die Ausrichtung für eine InlineTabelle an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Tables.TableAlignment für eine optimale Inline-Tabellenausrichtung. Verbessern Sie die Formatierung Ihres Dokuments präzise und einfach.
 type: docs
-weight: 6350
+weight: 7200
 url: /de/net/aspose.words.tables/tablealignment/
 ---
 ## TableAlignment enumeration
@@ -20,26 +20,26 @@ public enum TableAlignment
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Left | `0` | Die Tabelle wird nach links ausgerichtet. |
+| Left | `0` | Die Tabelle ist linksbündig ausgerichtet. |
 | Center | `1` | Die Tabelle ist zentriert. |
-| Right | `2` | Die Tabelle ist rechtsbündig. |
+| Right | `2` | Die Tabelle ist rechtsbündig ausgerichtet. |
 
 ## Beispiele
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

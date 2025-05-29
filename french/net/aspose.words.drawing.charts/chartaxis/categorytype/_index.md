@@ -3,7 +3,7 @@ title: ChartAxis.CategoryType
 linktitle: CategoryType
 articleTitle: CategoryType
 second_title: Aspose.Words pour .NET
-description: ChartAxis CategoryType propriété. Obtient ou définit le type de laxe des catégories en C#.
+description: Découvrez la propriété ChartAxis CategoryType pour personnaliser facilement votre axe de catégorie pour une visualisation améliorée des données et une clarté améliorée du graphique.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing.charts/chartaxis/categorytype/
@@ -18,11 +18,11 @@ public AxisCategoryType CategoryType { get; set; }
 
 ## Remarques
 
-Uniquement les catégories de texte (Category ) sont autorisés dans les nouveaux graphiques MS Office 2016.
+Uniquement les catégories de texte (Category sont autorisés dans les nouveaux graphiques MS Office 2016.
 
 ## Exemples
 
-Montre comment insérer un graphique et modifier l’apparence de ses axes.
+Montre comment insérer un graphique et modifier l'apparence de ses axes.
 
 ```csharp
 Document doc = new Document();
@@ -31,16 +31,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// Efface la série de données de démonstration du graphique pour commencer avec un graphique propre.
+// Effacez la série de données de démonstration du graphique pour démarrer avec un graphique propre.
 chart.Series.Clear();
 
-// Insère une série de graphiques avec des catégories pour l'axe X et des valeurs numériques respectives pour l'axe Y.
+// Insérer une série de graphiques avec des catégories pour l'axe X et des valeurs numériques respectives pour l'axe Y.
 chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 640, 320, 280, 120, 150 });
 
-// Les axes du graphique ont diverses options permettant de modifier leur apparence,
-// tels que leur direction, les graduations des unités majeures/mineures et les graduations.
+// Les axes du graphique disposent de diverses options qui peuvent modifier leur apparence,
+// comme leur direction, les graduations des unités majeures/mineures et les graduations.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -49,10 +49,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -62,7 +64,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Les graphiques à colonnes n'ont pas d'axe Z.
 Assert.Null(chart.AxisZ);

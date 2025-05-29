@@ -3,7 +3,7 @@ title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
 second_title: Aspose.Words för .NET
-description: FieldShape byggare. Default_Constructor i C#.
+description: Upptäck FieldShape-konstruktorn – din lösning för effektiv formskapande. Få tillgång till sömlös design och funktionalitet idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldshape/fieldshape/

@@ -3,14 +3,14 @@ title: PropertyType Enum
 linktitle: PropertyType
 articleTitle: PropertyType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Properties.PropertyType uppräkning. Anger datatyp för en dokumentegenskap i C#.
+description: Upptäck Aspose.Words.PropertyType-enum för att enkelt definiera dokumentegenskapsdatatyper för förbättrad dokumenthantering och anpassning.
 type: docs
-weight: 4500
+weight: 5230
 url: /sv/net/aspose.words.properties/propertytype/
 ---
 ## PropertyType enumeration
 
-Anger datatyp för en dokumentegenskap.
+Anger datatypen för en dokumentegenskap.
 
 ```csharp
 public enum PropertyType
@@ -21,7 +21,7 @@ public enum PropertyType
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Boolean | `0` | Egenskapen är ett booleskt värde. |
-| DateTime | `1` | Egenskapen är ett datum och tid värde. |
+| DateTime | `1` | Egenskapen är ett datum- och tidsvärde. |
 | Double | `2` | Egenskapen är ett flytande tal. |
 | Number | `3` | Egenskapen är ett heltal. |
 | String | `4` | Egenskapen är ett strängvärde. |
@@ -40,7 +40,7 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Anpassade dokumentegenskaper är nyckel-värdepar som vi kan lägga till i dokumentet.
+// Anpassade dokumentegenskaper är nyckel-värde-par som vi kan lägga till i dokumentet.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
@@ -58,18 +58,18 @@ using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
         Console.WriteLine($"Name: \"{enumerator.Current.Name}\"\n\tType: \"{enumerator.Current.Type}\"\n\tValue: \"{enumerator.Current.Value}\"");
 }
 
-// Visa värdet för en anpassad egenskap med ett DOCPROPERTY-fält.
+// Visa värdet för en anpassad egenskap med hjälp av ett DOCPROPERTY-fält.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Vi kan hitta dessa anpassade egenskaper i Microsoft Word via "File" -> "Egenskaper" > "Avancerade egenskaper" > "Beställnings".
+// Vi hittar dessa anpassade egenskaper i Microsoft Word via "Arkiv" -> "Egenskaper" > "Avancerade egenskaper" > "Anpassad".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// Nedan finns tre sätt att ta bort anpassade egenskaper från ett dokument.
-// 1 - Ta bort efter index:
+// Nedan följer tre sätt att ta bort anpassade egenskaper från ett dokument.
+// 1 - Ta bort via index:
 properties.RemoveAt(1);
 
 Assert.False(properties.Contains("Authorized Amount"));

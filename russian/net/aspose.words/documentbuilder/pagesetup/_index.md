@@ -3,14 +3,14 @@ title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words для .NET
-description: DocumentBuilder PageSetup свойство. Возвращает объект который представляет текущие настройки страницы и свойства раздела на С#.
+description: Изучите свойство PageSetup в DocumentBuilder, чтобы получить доступ к текущим настройкам страницы и раздела, что повысит эффективность форматирования и макета документа.
 type: docs
 weight: 160
 url: /ru/net/aspose.words/documentbuilder/pagesetup/
 ---
 ## DocumentBuilder.PageSetup property
 
-Возвращает объект, который представляет текущие настройки страницы и свойства раздела.
+Возвращает объект, представляющий текущие настройки страницы и свойства раздела.
 
 ```csharp
 public PageSetup PageSetup { get; }
@@ -18,7 +18,7 @@ public PageSetup PageSetup { get; }
 
 ## Примеры
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 

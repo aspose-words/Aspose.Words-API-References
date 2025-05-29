@@ -3,14 +3,14 @@ title: FontSourceBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words för .NET
-description: FontSourceBase WarningCallback fast egendom. Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering i C#.
+description: Upptäck egenskapen FontSourceBase WarningCallback, som är viktig för att säkerställa formateringsnoggrannhet genom att upptäcka problem under bearbetning av teckensnittskällkod.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fonts/fontsourcebase/warningcallback/
 ---
 ## FontSourceBase.WarningCallback property
 
-Anropas under bearbetning av teckensnittskällan när ett problem upptäcks som kan resultera i förlust av formatering.
+Anropas under bearbetning av teckensnittskälla när ett problem upptäcks som kan leda till förlust av formateringstillverkning.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Exempel
 
-Visar hur man ringer upp varningsåteruppringning när teckensnittskällorna arbetar med.
+Visar hur man anropar ett varningsmotringningssystem när teckensnittskällorna arbetar med.
 
 ```csharp
 public void FontSourceWarning()
@@ -30,7 +30,7 @@ public void FontSourceWarning()
     FontSourceWarningCollector callback = new FontSourceWarningCollector();
     source.WarningCallback = callback;
 
-    // Hämta listan över teckensnitt att ringa tillbaka varning.
+    // Hämta listan över teckensnitt att anropa varningsåteranrop.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
     Assert.True(callback.FontSubstitutionWarnings[0].Description
@@ -40,7 +40,7 @@ public void FontSourceWarning()
 private class FontSourceWarningCollector : IWarningCallback
 {
     /// <summary>
-    /// Anropas varje gång en varning inträffar under bearbetning av teckensnittskälla.
+    /// Anropas varje gång en varning uppstår under bearbetning av teckensnittskällan.
     /// </summary>
     public void Warning(WarningInfo info)
     {

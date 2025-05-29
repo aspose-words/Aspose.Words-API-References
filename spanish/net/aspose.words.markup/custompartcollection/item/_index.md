@@ -3,7 +3,7 @@ title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: CustomPartCollection Item propiedad. Obtiene o establece un elemento en el índice especificado en C#.
+description: Gestione fácilmente su CustomPartCollection con nuestra propiedad de elemento. Obtenga o configure elementos rápidamente en cualquier índice para una personalización y eficiencia óptimas.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/custompartcollection/item/
@@ -18,11 +18,11 @@ public CustomPart this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del artículo. |
+| index | Índice basado en cero del artículo. |
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

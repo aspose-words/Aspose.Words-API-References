@@ -2,15 +2,15 @@
 title: BookmarkCollection Class
 linktitle: BookmarkCollection
 articleTitle: BookmarkCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.BookmarkCollection 班级. 的集合Bookmark代表指定范围内的书签的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.BookmarkCollection 类，这是一个用于管理文档中的书签、增强组织和导航的强大工具。
 type: docs
-weight: 50
+weight: 240
 url: /zh/net/aspose.words/bookmarkcollection/
 ---
 ## BookmarkCollection class
 
-的集合[`Bookmark`](../bookmark/)代表指定范围内的书签的对象。
+的集合[`Bookmark`](../bookmark/)表示指定范围内的书签的对象。
 
 要了解更多信息，请访问[使用书签](https://docs.aspose.com/words/net/working-with-bookmarks/)文档文章。
 
@@ -22,14 +22,14 @@ public class BookmarkCollection : IEnumerable<Bookmark>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | 返回集合中书签的数量。 |
+| [Count](../../aspose.words/bookmarkcollection/count/) { get; } | 返回收藏夹中的书签数量。 |
 | [Item](../../aspose.words/bookmarkcollection/item/) { get; } | 返回指定索引处的书签。 (2 indexers) |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Clear](../../aspose.words/bookmarkcollection/clear/)() | 从此集合和文档中删除所有书签。 |
+| [Clear](../../aspose.words/bookmarkcollection/clear/)() | 从此收藏集和文档中删除所有书签。 |
 | [GetEnumerator](../../aspose.words/bookmarkcollection/getenumerator/)() | 返回一个枚举器对象。 |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove)(*[Bookmark](../bookmark/)*) | 从文档中删除指定的书签。 |
 | [Remove](../../aspose.words/bookmarkcollection/remove/#remove_1)(*string*) | 删除具有指定名称的书签。 |
@@ -51,7 +51,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

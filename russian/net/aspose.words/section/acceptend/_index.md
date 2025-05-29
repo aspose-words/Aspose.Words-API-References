@@ -1,7 +1,9 @@
 ---
 title: Section.AcceptEnd
-second_title: Справочник по API Aspose.Words для .NET
-description: Section метод. 
+linktitle: AcceptEnd
+articleTitle: AcceptEnd
+second_title: Aspose.Words для .NET
+description: Откройте для себя мощный метод AcceptEnd в нашем руководстве. Улучшите свои навыки и оптимизируйте рабочий процесс с помощью экспертных идей и практических советов!
 type: docs
 weight: 80
 url: /ru/net/aspose.words/section/acceptend/
@@ -17,7 +19,5 @@ public override VisitorAction AcceptEnd(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* пространство имен [Aspose.Words](../../section/)
+* пространство имен [Aspose.Words](../../../aspose.words/)
 * сборка [Aspose.Words](../../../)
-
-

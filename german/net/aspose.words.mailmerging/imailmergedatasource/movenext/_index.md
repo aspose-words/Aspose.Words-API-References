@@ -3,14 +3,14 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words für .NET
-description: IMailMergeDataSource MoveNext methode. Geht zum nächsten Datensatz in der Datenquelle in C#.
+description: Entdecken Sie, wie die MoveNext-Methode von IMailMergeDataSource nahtlos zum nächsten Datensatz übergeht und so die Effizienz Ihrer Datenverwaltung steigert.
 type: docs
 weight: 40
 url: /de/net/aspose.words.mailmerging/imailmergedatasource/movenext/
 ---
 ## IMailMergeDataSource.MoveNext method
 
-Geht zum nächsten Datensatz in der Datenquelle.
+Wechselt zum nächsten Datensatz in der Datenquelle.
 
 ```csharp
 public bool MoveNext()
@@ -18,7 +18,7 @@ public bool MoveNext()
 
 ### Rückgabewert
 
-`WAHR` wenn erfolgreich zum nächsten Datensatz verschoben;`FALSCH` wenn das Ende der Datenquelle erreicht ist.
+`WAHR` wenn erfolgreich zum nächsten Datensatz gewechselt wurde;`FALSCH` wenn das Ende der Datenquelle erreicht ist.
 
 ## Beispiele
 
@@ -39,7 +39,7 @@ public void CustomDataSource()
         new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
     };
 
-     // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die IMailMergeDataSource-Schnittstelle implementieren.
+        // Um ein benutzerdefiniertes Objekt als Datenquelle zu verwenden, muss es die Schnittstelle IMailMergeDataSource implementieren.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -63,8 +63,8 @@ public class Customer
 }
 
 /// <summary>
- /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
-/// um Seriendaten aus Ihren Kundenobjekten in Microsoft Word-Dokumente zu übertragen.
+    /// Eine benutzerdefinierte Serienbrief-Datenquelle, die Sie implementieren, um Aspose.Words zu ermöglichen
+/// um Daten aus Ihren Kundenobjekten per Serienbrief in Microsoft Word-Dokumente zu übertragen.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -77,7 +77,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Der Name der Datenquelle. Wird von Aspose.Words nur verwendet, wenn Serienbriefe mit wiederholbaren Bereichen ausgeführt werden.
+    /// Der Name der Datenquelle. Wird von Aspose.Words nur beim Ausführen von Serienbriefen mit wiederholbaren Bereichen verwendet.
     /// </summary>
     public string TableName
     {
@@ -85,7 +85,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words ruft diese Methode auf, um einen Wert für jedes Datenfeld abzurufen.
+    /// Aspose.Words ruft diese Methode auf, um für jedes Datenfeld einen Wert zu erhalten.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -98,7 +98,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // „false“ an die Mail-Merge-Engine von Aspose.Words zurückgeben, um es zu kennzeichnen
+                // Gibt "false" an die Aspose.Words-Serienbrief-Engine zurück, um anzuzeigen,
                 // dass wir kein Feld mit diesem Namen finden konnten.
                 fieldValue = null;
                 return false;
@@ -106,7 +106,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Eine Standardimplementierung zum Wechseln zu einem nächsten Datensatz in einer Sammlung.
+    /// Eine Standardimplementierung zum Wechseln zum nächsten Datensatz in einer Sammlung.
     /// </summary>
     public bool MoveNext()
     {

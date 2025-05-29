@@ -3,14 +3,14 @@ title: Comment.Done
 linktitle: Done
 articleTitle: Done
 second_title: Aspose.Words para .NET
-description: Comment Done propiedad. Obtiene o establece un indicador que indica que el comentario se ha marcado como realizado en C#.
+description: Marque los comentarios como completados con la propiedad Listo. Gestione fácilmente sus tareas y mejore la eficiencia del flujo de trabajo con esta sencilla función de marcado.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/aspose.words/comment/done/
 ---
 ## Comment.Done property
 
-Obtiene o establece un indicador que indica que el comentario se ha marcado como realizado.
+Obtiene o establece el indicador que indica que el comentario se ha marcado como hecho.
 
 ```csharp
 public bool Done { get; set; }
@@ -30,16 +30,16 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Fix the spelling error!");
 doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 
- // Los comentarios tienen un indicador "Listo", que está configurado en "falso" de forma predeterminada.
+ // Los comentarios tienen un indicador "Listo", que se establece en "falso" de manera predeterminada.
 // Si un comentario sugiere que hagamos un cambio dentro del documento,
-// podemos aplicar el cambio y luego también configurar el indicador "Listo" para indicar la corrección.
+//podemos aplicar el cambio y luego también establecer el indicador "Listo" después para indicar la corrección.
 Assert.False(comment.Done);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;
 
-// Los comentarios que estén "hechos" se diferenciarán
-// de aquellos que no están "terminados" con un color de texto descolorido.
+// Los comentarios que están "hechos" se diferenciarán
+// de los que no están "terminados" con un color de texto descolorido.
 comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("Add text to this paragraph.");
 builder.CurrentParagraph.AppendChild(comment);
@@ -63,14 +63,14 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Agrega texto al documento, deformalo en un rango de comentarios y luego agrega tu comentario.
+    // Agregue texto al documento, deformelo en un rango de comentarios y luego agregue su comentario.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Agrega dos respuestas al comentario.
+    //Añadir dos respuestas al comentario.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -84,15 +84,19 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Iterar sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antepasados.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itera sobre todos los comentarios de nivel superior. A diferencia de los comentarios de tipo respuesta, los comentarios de nivel superior no tienen antecesor.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
         // Primero, visita el inicio del rango de comentarios.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Luego, visita el comentario y las respuestas que pueda tener.
+        // Luego, visita el comentario y cualquier respuesta que pueda tener.
         comment.Accept(commentVisitor);
+        // Visita solo el inicio del comentario.
+        comment.AcceptStart(commentVisitor);
+        // Visita solo el final del comentario.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -106,7 +110,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Imprime la información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
+/// Imprime información y el contenido de todos los comentarios y rangos de comentarios encontrados en el documento.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -117,7 +121,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {
@@ -172,7 +176,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita de un nodo Comentario en el documento.
+    /// Se llama cuando finaliza la visita a un nodo Comentario en el documento.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -184,9 +188,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

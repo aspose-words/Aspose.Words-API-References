@@ -3,14 +3,14 @@ title: FieldFileSize.IsInMegabytes
 linktitle: IsInMegabytes
 articleTitle: IsInMegabytes
 second_title: Aspose.Words для .NET
-description: FieldFileSize IsInMegabytes свойство. Получает или задает отображать ли размер файла в мегабайтах на С#.
+description: Управляйте отображением размера файла с помощью свойства IsInMegabytes FieldFileSize. Легко переключайтесь между байтами и мегабайтами для лучшей ясности и удобства для пользователя.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldfilesize/isinmegabytes/
 ---
 ## FieldFileSize.IsInMegabytes property
 
-Получает или задает, отображать ли размер файла в мегабайтах.
+Возвращает или задает, отображать ли размер файла в мегабайтах.
 
 ```csharp
 public bool IsInMegabytes { get; set; }
@@ -29,8 +29,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.InsertParagraph();
 
-// Ниже приведены три разные единицы измерения
-// с помощью которого поля FILESIZE могут отображать размер файла документа.
+// Ниже приведены три различные единицы измерения.
+// с помощью которых поля FILESIZE могут отображать размер файла документа.
 // 1 - Байты:
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
@@ -47,7 +47,7 @@ field.Update();
 Assert.AreEqual(" FILESIZE  \\k", field.GetFieldCode());
 Assert.AreEqual("18", field.Result);
 
-// 3 - Мегабайты:
+// 3 - Мегабайт:
 builder.InsertParagraph();
 field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInMegabytes = true;
@@ -57,7 +57,7 @@ Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
 // Чтобы обновить значения этих полей при редактировании в Microsoft Word,
-// мы должны сначала сохранить изменения, а затем вручную обновить эти поля.
+// сначала необходимо сохранить изменения, а затем вручную обновить эти поля.
 doc.Save(ArtifactsDir + "Field.FILESIZE.docx");
 ```
 

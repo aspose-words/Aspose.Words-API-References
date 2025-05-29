@@ -2,15 +2,15 @@
 title: PreferredWidth.Value
 linktitle: Value
 articleTitle: Value
-second_title: Aspose.Words for .NET
-description: PreferredWidth Value mülk. Tercih edilen genişlik değerini alır. Ölçü birimi belirtilenType özellik C#'da.
+second_title: .NET için Aspose.Words
+description: Tercih ettiğiniz genişliğe kolayca erişmek ve özelleştirmek için PreferredWidth Değer özelliğini keşfedin. Tasarımınızı bugün hassas ölçümlerle geliştirin!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.tables/preferredwidth/value/
 ---
 ## PreferredWidth.Value property
 
-Tercih edilen genişlik değerini alır. Ölçü birimi belirtilen[`Type`](../type/) özellik.
+Tercih edilen genişlik değerini alır. Ölçü birimi,[`Type`](../type/) mülk.
 
 ```csharp
 public double Value { get; }
@@ -18,7 +18,7 @@ public double Value { get; }
 
 ## Örnekler
 
-Bir tablo hücresinin tercih edilen genişlik tipinin ve değerinin nasıl doğrulanacağını gösterir.
+Bir tablo hücresinin tercih edilen genişlik türünün ve değerinin nasıl doğrulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

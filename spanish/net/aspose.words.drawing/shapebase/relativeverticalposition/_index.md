@@ -3,14 +3,14 @@ title: ShapeBase.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words para .NET
-description: ShapeBase RelativeVerticalPosition propiedad. Especifica en relación con la posición vertical de la forma en C#.
+description: Descubra la propiedad ShapeBase RelativeVerticalPosition para mejorar la alineación vertical de las formas, garantizando un control de diseño preciso en sus diseños.
 type: docs
-weight: 440
+weight: 470
 url: /es/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
 
-Especifica en relación con la posición vertical de la forma.
+Especifica en relación con qué posición vertical se encuentra la forma.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
@@ -30,7 +30,7 @@ Muestra cómo insertar una imagen flotante en el centro de una página.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y alinéala con el centro de la página.
+// Inserta una imagen flotante que aparecerá detrás del texto superpuesto y la alinea con el centro de la página.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

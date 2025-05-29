@@ -2,8 +2,8 @@
 title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
-second_title: Aspose.Words for .NET
-description: ShapeRenderer inşaatçı. Bu sınıfın yeni bir örneğini başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde şekilleri kolayca oluşturmak ve özelleştirmek, görsel çekiciliği ve işlevselliği artırmak için ShapeRenderer oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,11 +18,11 @@ public ShapeRenderer(ShapeBase shape)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| shape | ShapeBase | Oluşturmak istediğiniz DrawinML şekil nesnesi. |
+| shape | ShapeBase | İşlemek istediğiniz DrawinML şekil nesnesi. |
 
 ## Örnekler
 
-Bir şeklin Graphics nesnesiyle nasıl oluşturulacağını ve Windows Formu kullanılarak nasıl görüntüleneceğini gösterir.
+Bir şeklin Graphics nesnesiyle nasıl işleneceğini ve Windows Form kullanılarak nasıl görüntüleneceğini gösterir.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,8 +32,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // Aşağıda, bir Graphics nesnesine şekil oluşturmak için "ShapeRenderer" sınıfını kullanmanın iki yolu verilmiştir.
-    // 1 - Grafikle bir şekil oluşturun ve onu belirli bir ölçeğe göre işleyin.
+    // Aşağıda, bir şekli Graphics nesnesine işlemek için "ShapeRenderer" sınıfını kullanmanın iki yolu bulunmaktadır.
+    // 1 - Bir grafikle bir şekil oluştur ve onu belirli bir ölçeğe göre işle.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - Bir şekil grubu oluşturun ve onu belirli bir boyuta dönüştürün.
+    // 2 - Bir şekil grubu oluştur ve onu belirli bir boyuta getir.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -74,7 +74,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// Şekillerin bir listesini oluşturur ve görüntüler.
+/// Şekillerin listesini oluşturur ve görüntüler.
 /// </summary>
 private class ShapeForm : Form
 {

@@ -3,9 +3,9 @@ title: Section.ClearContent
 linktitle: ClearContent
 articleTitle: ClearContent
 second_title: Aspose.Words pour .NET
-description: Section ClearContent méthode. Efface la section en C#.
+description: Supprimez facilement les sections grâce à la méthode ClearContent. Optimisez votre flux de travail et optimisez votre gestion de contenu dès aujourd'hui !
 type: docs
-weight: 90
+weight: 110
 url: /fr/net/aspose.words/section/clearcontent/
 ---
 ## Section.ClearContent method
@@ -24,7 +24,7 @@ Le texte de tous les en-têtes et pieds de page est effacé, mais[`HeaderFooter`
 
 ## Exemples
 
-Montre comment effacer le contenu d’une section.
+Montre comment effacer le contenu d'une section.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.Write("Hello world!");
 Assert.AreEqual("Hello world!", doc.GetText().Trim());
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// L'exécution de la méthode "ClearContent" supprimera tout le contenu de la section
-// mais laisse un paragraphe vide pour ajouter à nouveau du contenu.
+// L'exécution de la méthode « ClearContent » supprimera tout le contenu de la section
+// mais laissez un paragraphe vide pour ajouter à nouveau du contenu.
 doc.FirstSection.ClearContent();
 
 Assert.AreEqual(string.Empty, doc.GetText().Trim());

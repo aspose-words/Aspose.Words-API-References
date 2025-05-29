@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words für .NET
-description: FieldDisplayBarcode ScalingFactor eigendom. Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000 in C#.
+description: Entdecken Sie die Eigenschaft FieldDisplayBarcode ScalingFactor, um die Symbolgröße einfach in Prozentwerten von 10 % bis 1000 % anzupassen. Optimieren Sie Ihre Barcode-Anzeigen!
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind [10, 1000]
+Ruft einen Skalierungsfaktor für das Symbol ab oder legt ihn fest. Der Wert wird in ganzen Prozentpunkten angegeben. Die gültigen Werte sind [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Unten sind vier Arten von Barcodes aufgeführt, die auf unterschiedliche Weise dekoriert sind und die im Feld DISPLAYBARCODE angezeigt werden können.
+// Unten sind vier Arten von Barcodes aufgeführt, die auf verschiedene Weise gestaltet sind und die das Feld DISPLAYBARCODE anzeigen kann.
 // 1 - QR-Code mit benutzerdefinierten Farben:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 – EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
+// 2 - EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 – ITF4-Barcode, mit einem angegebenen Fallcode:
+// 4 - ITF4-Barcode mit einem angegebenen Fallcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

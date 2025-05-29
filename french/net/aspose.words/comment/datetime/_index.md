@@ -3,14 +3,14 @@ title: Comment.DateTime
 linktitle: DateTime
 articleTitle: DateTime
 second_title: Aspose.Words pour .NET
-description: Comment DateTime propriété. Obtient la date et lheure auxquelles le commentaire a été fait en C#.
+description: Découvrez la propriété Comment DateTime, qui capture la date et l'heure exactes de publication d'un commentaire, améliorant ainsi votre expérience de gestion de contenu.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/comment/datetime/
 ---
 ## Comment.DateTime property
 
-Obtient la date et l'heure auxquelles le commentaire a été fait.
+Obtient la date et l'heure auxquelles le commentaire a été rédigé.
 
 ```csharp
 public DateTime DateTime { get; set; }
@@ -18,7 +18,7 @@ public DateTime DateTime { get; set; }
 
 ## Remarques
 
-La valeur par défaut estMinValue.
+La valeur par défaut est MinValue
 
 ## Exemples
 
@@ -45,7 +45,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Ajoute deux réponses au commentaire.
+    // Ajoutez deux réponses au commentaire.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -53,21 +53,25 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Parcourt chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
+/// Itère sur chaque commentaire de niveau supérieur et imprime sa plage de commentaires, son contenu et ses réponses.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Parcourez tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Itérer sur tous les commentaires de niveau supérieur. Contrairement aux commentaires de type réponse, les commentaires de niveau supérieur n'ont pas d'ancêtre.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Tout d'abord, visitez le début de la plage de commentaires.
+        // Tout d’abord, visitez le début de la plage de commentaires.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut avoir.
+        // Ensuite, visitez le commentaire et toutes les réponses qu'il peut contenir.
         comment.Accept(commentVisitor);
+        // Visitez uniquement le début du commentaire.
+        comment.AcceptStart(commentVisitor);
+        // Visitez uniquement la fin du commentaire.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
@@ -134,7 +138,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud Commentaire est rencontré dans le document.
+    /// Appelé lorsqu'un nœud Comment est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -159,9 +163,9 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

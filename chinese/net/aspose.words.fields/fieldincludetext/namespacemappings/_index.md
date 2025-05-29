@@ -2,8 +2,8 @@
 title: FieldIncludeText.NamespaceMappings
 linktitle: NamespaceMappings
 articleTitle: NamespaceMappings
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIncludeText NamespaceMappings 财产. 获取或设置 XPath 查询的命名空间映射 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldIncludeText NamespaceMappings 属性可以轻松管理 XPath 查询的命名空间映射，从而提高数据处理效率。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -18,7 +18,7 @@ public string NamespaceMappings { get; set; }
 
 ## 例子
 
-演示如何创建 INCLUDETEXT 字段并设置其属性。
+展示如何创建 INCLUDETEXT 字段并设置其属性。
 
 ```csharp
 public void FieldIncludeText()
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 下面是使用 INCLUDETEXT 字段显示本地文件系统中 XML 文件内容的两种方法。
+    // 以下是两种使用 INCLUDETEXT 字段在本地文件系统中显示 XML 文件内容的方法。
     // 1 - 对 XML 文档执行 XSL 转换：
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

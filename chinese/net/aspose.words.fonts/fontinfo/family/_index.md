@@ -2,15 +2,15 @@
 title: FontInfo.Family
 linktitle: Family
 articleTitle: Family
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo Family 财产. 获取或设置该字体所属的字体系列 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FontInfo Family 属性，轻松管理和自定义字体系列设置，以增强设计灵活性和风格。
 type: docs
-weight: 30
+weight: 40
 url: /zh/net/aspose.words.fonts/fontinfo/family/
 ---
 ## FontInfo.Family property
 
-获取或设置该字体所属的字体系列。
+获取或设置此字体所属的字体系列。
 
 ```csharp
 public FontFamily Family { get; set; }
@@ -18,7 +18,7 @@ public FontFamily Family { get; set; }
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -3,7 +3,7 @@ title: FieldAsk.PromptText
 linktitle: PromptText
 articleTitle: PromptText
 second_title: Aspose.Words per .NET
-description: FieldAsk PromptText proprietà. Ottiene o imposta il testo del prompt il titolo della finestra del prompt in C#.
+description: Scopri come gestire facilmente la proprietà PromptText di FieldAsk per personalizzare il titolo della finestra di prompt e migliorare l'esperienza utente.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldask/prompttext/
@@ -26,7 +26,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Posiziona un campo in cui verrà inserita la risposta al nostro campo ASK.
+    // Inserisci un campo in cui verrà inserita la risposta al nostro campo ASK.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -54,7 +54,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore personalizzato,
+    // Possiamo modificare o sovrascrivere la risposta predefinita nei nostri campi ASK con un risponditore di richiesta personalizzato,
     // che si verificherà durante una stampa unione.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
@@ -64,7 +64,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Antepone il testo alla risposta predefinita di un campo ASK durante una stampa unione.
+/// Aggiunge del testo all'inizio della risposta predefinita di un campo ASK durante una stampa unione.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

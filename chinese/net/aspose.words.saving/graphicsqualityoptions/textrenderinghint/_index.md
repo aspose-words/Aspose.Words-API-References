@@ -2,15 +2,15 @@
 title: GraphicsQualityOptions.TextRenderingHint
 linktitle: TextRenderingHint
 articleTitle: TextRenderingHint
-second_title: 用于 .NET 的 Aspose.Words
-description: GraphicsQualityOptions TextRenderingHint 财产. 获取或设置与此 Graphics 关联的文本的呈现模式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GraphicsQualityOptions TextRenderingHint 属性，实现图形中文本的最佳渲染效果。立即提升视觉质量和性能！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-获取或设置与此 Graphics 关联的文本的呈现模式。
+获取或设置与此 Graphics 关联的文本的渲染模式。
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }
@@ -18,7 +18,7 @@ public TextRenderingHint? TextRenderingHint { get; set; }
 
 ## 例子
 
-演示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

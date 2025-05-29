@@ -3,7 +3,7 @@ title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
 second_title: Aspose.Words pour .NET
-description: FieldTC OmitPageNumber propriété. Obtient ou définit si le numéro de page dans la table des matières doit être omis pour ce champ en C#.
+description: Découvrez la propriété FieldTC OmitPageNumber : contrôlez la visibilité du numéro de page de la table des matières pour une clarté et un professionnalisme améliorés du document.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldtc/omitpagenumber/
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## Exemples
 
-Montre comment insérer un champ TOC et filtrer les champs TC qui finissent comme entrées.
+Montre comment insérer un champ TOC et filtrer les champs TC qui finissent par être des entrées.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,10 +26,10 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Insère un champ TOC, qui compilera tous les champs TC dans une table des matières.
+    // Insérez un champ TOC, qui compilera tous les champs TC dans une table des matières.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Configure le champ uniquement pour récupérer les entrées TC de type "A", et un niveau d'entrée compris entre 1 et 3.
+    // Configurez le champ uniquement pour récupérer les entrées TC de type « A » et un niveau d'entrée compris entre 1 et 3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
@@ -42,7 +42,7 @@ public void FieldTocEntryIdentifier()
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // Cette entrée sera omise du tableau car elle a un type différent de "A".
+    // Cette entrée sera omise du tableau car elle a un type différent de « A ».
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
     // Cette entrée sera omise du tableau car elle a un niveau d'entrée en dehors de la plage 1-3.

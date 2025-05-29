@@ -3,9 +3,9 @@ title: FontFamily Enum
 linktitle: FontFamily
 articleTitle: FontFamily
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontFamily تعداد. يمثل عائلة الخطوط في C#.
+description: اكتشف مجموعة Aspose.Words.Fonts.FontFamily—مفتاحك لإدارة عائلات الخطوط المتنوعة بسهولة لتحسين تنسيق المستندات وتصميمها.
 type: docs
-weight: 2910
+weight: 3340
 url: /ar/net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration
@@ -20,16 +20,16 @@ public enum FontFamily
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Auto | `0` | يحدد اسم العائلة العام. يتم استخدام هذا الاسم عندما لا تكون المعلومات المتعلقة بالخط موجودة أو لا أهمية لها. يتم استخدام الخط الافتراضي. |
-| Roman | `1` | يحدد الخط المتناسب مع الرقيق. مثال على ذلك هو Times New Roman. |
-| Swiss | `2` | يحدد الخط المتناسب بدون الرقيق. مثال على ذلك هو Arial. |
-| Modern | `3` | يحدد خطًا أحادي المسافة مع أو بدون serifs. خطوط Monospace هي خطوط حديثة عادةً؛ تتضمن الأمثلة Pica وElite وCourier New. |
-| Script | `4` | يحدد الخط المصمم ليبدو مثل الكتابة اليدوية؛ تتضمن الأمثلة البرنامج النصي والمخطوطة. |
-| Decorative | `5` | يحدد خطًا جديدًا. مثال على ذلك هو اللغة الإنجليزية القديمة. |
+| Auto | `0` | يُحدد اسم عائلة عام. يُستخدم هذا الاسم عند عدم وجود معلومات حول خط أو عدم أهميتها. يُستخدم الخط الافتراضي. |
+| Roman | `1` | يُحدد خطًا متناسبًا مع حروف مزخرفة. مثال على ذلك: Times New Roman. |
+| Swiss | `2` | يُحدد خطًا متناسبًا بدون حروف. مثال على ذلك: Arial. |
+| Modern | `3` | يحدد خطًا أحادي المسافة مع أو بدون حروف. عادةً ما تكون خطوط أحادية المسافة حديثة؛ ومن الأمثلة عليها Pica وElite وCourier New. |
+| Script | `4` | يحدد الخط المصمم ليبدو مثل الكتابة اليدوية؛ وتشمل الأمثلة Script و Cursive. |
+| Decorative | `5` | يُحدد خطًا جديدًا. مثال على ذلك: الخط الإنجليزي القديم. |
 
 ## ملاحظات
 
-عائلة الخطوط عبارة عن مجموعة من الخطوط ذات عرض حد مشترك وخصائص serif.
+عائلة الخطوط هي مجموعة من الخطوط التي لها خصائص مشتركة في عرض الخط والشكل.
 
 ## أمثلة
 
@@ -46,7 +46,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // الأسماء البديلة عادة ما تكون فارغة.
+        // عادةً ما تكون أسماء Alt فارغة.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

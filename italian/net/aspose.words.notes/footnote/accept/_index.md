@@ -3,9 +3,9 @@ title: Footnote.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: Footnote Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Footnote Accept per migliorare il coinvolgimento dei visitatori e ottimizzare l'esperienza utente del tuo sito web. Aumenta le conversioni oggi stesso!
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.notes/footnote/accept/
 ---
 ## Footnote.Accept method
@@ -26,11 +26,11 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiama DocumentVisitor.VisitFootnoteStart, quindi chiama Accept per tutti i nodi secondari della nota a piè di pagina e chiama DocumentVisitor.VisitFootnoteEnd alla fine.
+Chiama DocumentVisitor.VisitFootnoteStart, quindi chiama Accept per tutti i nodi figlio del footnote e chiama DocumentVisitor.VisitFootnoteEnd alla fine.
 
 ## Esempi
 
@@ -42,8 +42,8 @@ public void FootnoteToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FootnoteStructurePrinter visitor = new FootnoteStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -52,7 +52,7 @@ public void FootnoteToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi delle note a piè di pagina incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi Footnote rilevati e dei loro elementi figlio.
 /// </summary>
 public class FootnoteStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -71,7 +71,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Nota a piè di pagina.
+    /// Chiamato quando nel documento viene rilevato un nodo Nota a piè di pagina.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -83,7 +83,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Footnote sono stati visitati.
+    /// Viene chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Nota a piè di pagina.
     /// </summary>
     public override VisitorAction VisitFootnoteEnd(Footnote footnote)
     {
@@ -95,7 +95,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -105,7 +105,7 @@ public class FootnoteStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

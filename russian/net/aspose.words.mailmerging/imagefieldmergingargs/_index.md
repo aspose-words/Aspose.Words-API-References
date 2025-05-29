@@ -3,16 +3,16 @@ title: ImageFieldMergingArgs Class
 linktitle: ImageFieldMergingArgs
 articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words для .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs сорт. Предоставляет данные дляImageFieldMerging событие на С#.
+description: Откройте для себя класс Aspose.Words.MailMerging.ImageFieldMergingArgs, разработанный для улучшения объединения изображений в документах, обеспечивая бесперебойные и эффективные рабочие процессы.
 type: docs
-weight: 3830
+weight: 4520
 url: /ru/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
 Предоставляет данные для[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) событие.
 
-Чтобы узнать больше, посетите[Слияние почты и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) статья документации.
+Чтобы узнать больше, посетите[Слияние писем и отчетность](https://docs.aspose.com/words/net/mail-merge-and-reporting/) документальная статья.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -22,27 +22,27 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Имя | Описание |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document/) объект, для которого выполняется слияние почты. |
-| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Получает имя поля слияния, указанное в документе. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Возвращает[`Document`](../fieldmergingargsbase/document/)объект, для которого выполняется слияние почты. |
+| [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Получает имя поля слияния, как указано в документе. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Получает объект, представляющий текущее поле слияния. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Получает имя поля слияния в источнике данных. |
 | [FieldValue](../../aspose.words.mailmerging/fieldmergingargsbase/fieldvalue/) { get; set; } | Получает или задает значение поля из источника данных. |
 | [Image](../../aspose.words.mailmerging/imagefieldmergingargs/image/) { get; set; } | Указывает изображение, которое механизм слияния почты должен вставить в документ. |
-| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Устанавливает имя файла изображения, которое механизм слияния почты должен вставить в документ. |
+| [ImageFileName](../../aspose.words.mailmerging/imagefieldmergingargs/imagefilename/) { get; set; } | Задает имя файла изображения, которое механизм слияния почты должен вставить в документ. |
 | [ImageHeight](../../aspose.words.mailmerging/imagefieldmergingargs/imageheight/) { get; set; } | Указывает высоту изображения для вставки в документ. |
-| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Указывает поток, из которого механизм слияния почты читает изображение. |
+| [ImageStream](../../aspose.words.mailmerging/imagefieldmergingargs/imagestream/) { get; set; } | Указывает поток, из которого механизм слияния почты будет считывать изображение. |
 | [ImageWidth](../../aspose.words.mailmerging/imagefieldmergingargs/imagewidth/) { get; set; } | Указывает ширину изображения для вставки в документ. |
-| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает индекс объединяемой записи, начинающийся с нуля. |
+| [RecordIndex](../../aspose.words.mailmerging/fieldmergingargsbase/recordindex/) { get; } | Получает индекс записи, которая объединяется, начиная с нуля. |
 | [Shape](../../aspose.words.mailmerging/imagefieldmergingargs/shape/) { get; set; } | Указывает форму, которую механизм слияния почты должен вставить в документ. |
 | [TableName](../../aspose.words.mailmerging/fieldmergingargsbase/tablename/) { get; } | Получает имя таблицы данных для текущей операции слияния или пустую строку, если имя недоступно. |
 
 ## Примечания
 
-Это событие происходит во время слияния почты, когда в документе встречается поле изображения mail merge . Вы можете отреагировать на это событие, чтобы вернуть имя файла, поток или поток a .Image объект почтовому механизму merge , чтобы он был вставлен в документ.
+Это событие происходит во время слияния почты, когда в документе встречается поле image mail merge . Вы можете ответить на это событие, чтобы вернуть имя файла a , поток илиImage объект для движка mail merge , чтобы он был вставлен в документ.
 
-Доступны три объекта недвижимости[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) и[`Image`](./image/) чтобы указать, откуда должно быть взято изображение. Установите только одно из этих свойств.
+Доступны три объекта недвижимости[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) и[`Image`](./image/) чтобы указать, откуда должно быть взято изображение. Задайте только одно из этих свойств.
 
-Чтобы вставить поле слияния изображения в документ Word, выберите команду «Вставить/Поле», , затем выберите «MergeField» и введите «Image:MyFieldName».
+Чтобы вставить поле слияния изображения в документ Word, выберите команду Вставить/Поле, , затем выберите MergeField и введите Image:MyFieldName.
 
 ## Примеры
 
@@ -62,7 +62,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Открытие устройства чтения данных, которое должно находиться в режиме одновременного чтения всех записей.
+        // Откройте средство чтения данных, которое должно находиться в режиме, позволяющем считывать все записи одновременно.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -80,7 +80,7 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
     }
 
     /// <summary>
-    /// Это вызывается, когда слияние почты обнаруживает в документе MERGEFIELD с тегом «Image:» в его имени.
+    /// Вызывается, когда при слиянии почты в документе обнаруживается MERGEFIELD с тегом «Image:» в имени.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -90,29 +90,29 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Показывает, как установить размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
+Показывает, как задать размеры изображений, поскольку MERGEFIELDS принимает их во время слияния почты.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Вставляем MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
-    // столбец в источнике данных, содержащий имена локальных системных файлов изображений, которые мы хотим использовать при слиянии писем.
+    // Вставьте MERGEFIELD, который будет принимать изображения из источника во время слияния почты. Используйте код поля для ссылки
+    // столбец в источнике данных, содержащий локальные системные имена файлов изображений, которые мы хотим использовать при слиянии.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // Источник данных должен иметь такой столбец с именем «ImageColumn».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Создаем подходящий источник данных.
+    // Создайте подходящий источник данных.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Настройте обратный вызов для изменения размеров изображений во время слияния, а затем выполните слияние почты.
+    // Настройте обратный вызов для изменения размеров изображений во время слияния, затем выполните слияние почты.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -121,7 +121,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Устанавливает размер всех объединенных изображений почты в одну определенную ширину и высоту.
+/// Устанавливает размер всех объединенных изображений на одну определенную ширину и высоту.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

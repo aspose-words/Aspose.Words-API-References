@@ -3,9 +3,9 @@ title: Document.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words pour .NET
-description: Document BuiltInDocumentProperties propriété. Renvoie une collection qui représente toutes les propriétés de document intégrées du document en C#.
+description: Explorez la propriété BuiltInDocumentProperties pour accéder aux propriétés essentielles du document, améliorant ainsi la gestion et l'efficacité de vos documents.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words/document/builtindocumentproperties/
 ---
 ## Document.BuiltInDocumentProperties property
@@ -18,16 +18,16 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ## Exemples
 
-Montre comment utiliser les propriétés de document intégrées.
+Montre comment travailler avec les propriétés de document intégrées.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// L'objet "Document" contient certaines de ses métadonnées dans ses membres.
+// L'objet « Document » contient certaines de ses métadonnées dans ses membres.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Le document stocke également les métadonnées dans ses propriétés intégrées.
-// Chaque propriété intégrée est membre de l'objet "BuiltInDocumentProperties" du document.
+// Le document stocke également des métadonnées dans ses propriétés intégrées.
+// Chaque propriété intégrée est un membre de l'objet « BuiltInDocumentProperties » du document.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

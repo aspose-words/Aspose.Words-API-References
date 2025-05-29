@@ -3,7 +3,7 @@ title: ChartXValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words für .NET
-description: ChartXValue TimeValue eigendom. Ruft den gespeicherten Zeitwert ab in C#.
+description: Entdecken Sie die TimeValue-Eigenschaft von ChartXValue, um einfach auf Ihre gespeicherten Zeitwerte zuzugreifen und sie zu verwalten und so die Datenvisualisierung zu verbessern.
 type: docs
 weight: 100
 url: /de/net/aspose.words.drawing.charts/chartxvalue/timevalue/

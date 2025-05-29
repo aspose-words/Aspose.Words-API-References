@@ -3,14 +3,14 @@ title: CustomPart.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words für .NET
-description: CustomPart Clone methode. Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes vonData value in C#.
+description: Entdecken Sie die CustomPart-Klonmethode zum Erstellen effizienter, vollständiger Kopien von Objekten ohne Duplizierung von Datenbytes. Optimieren Sie Ihren Codierungsprozess noch heute!
 type: docs
 weight: 70
 url: /de/net/aspose.words.markup/custompart/clone/
 ---
 ## CustomPart.Clone method
 
-Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes von[`Data`](../data/) value.
+Erstellt eine ausreichend tiefe Kopie des Objekts. Dupliziert nicht die Bytes des[`Data`](../data/) Wert.
 
 ```csharp
 public CustomPart Clone()
@@ -25,12 +25,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

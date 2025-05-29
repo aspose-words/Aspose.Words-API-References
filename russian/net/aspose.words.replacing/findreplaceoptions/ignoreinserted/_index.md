@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreInserted
 linktitle: IgnoreInserted
 articleTitle: IgnoreInserted
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions IgnoreInserted свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри редакций вставки. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство FindReplaceOptions IgnoreInserted, управляйте обработкой текста в ревизиях вставки с помощью этой простой логической настройки. Значение по умолчанию — false.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignoreinserted/
 ---
 ## FindReplaceOptions.IgnoreInserted property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать текст внутри редакций вставки. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли игнорировать текст внутри вставленных ревизий. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreInserted { get; set; }
@@ -18,7 +18,7 @@ public bool IgnoreInserted { get; set; }
 
 ## Примеры
 
-Показывает, как включать или игнорировать текст внутри редакций вставки во время операции поиска и замены.
+Показывает, как включать или игнорировать текст внутри вставленных правок во время операции поиска и замены.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Начинаем отслеживать изменения и вставляем абзац. Этот абзац будет вставленной редакцией.
+// Начать отслеживать правки и вставить абзац. Этот абзац будет вставленной правкой.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("Hello again!");
 doc.StopTrackRevisions();
@@ -36,10 +36,10 @@ Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
 // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите флаг «IgnoreInserted» в значение «true», чтобы получить возможность поиска и замены
-// операция игнорирования абзацев, которые являются вставленными редакциями.
-// Установите флаг «IgnoreInserted» в значение «false», чтобы получить возможность поиска и замены
-// операция для поиска текста внутри редакций вставки.
+// Установите флаг "IgnoreInserted" на "true", чтобы получить функцию поиска и замены
+// операция по игнорированию абзацев, являющихся вставленными правками.
+// Установите флаг "IgnoreInserted" на "false", чтобы получить функцию поиска и замены
+// операция также для поиска текста внутри вставок ревизий.
 options.IgnoreInserted = ignoreTextInsideInsertRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

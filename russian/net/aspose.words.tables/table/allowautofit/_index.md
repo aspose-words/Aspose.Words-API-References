@@ -3,14 +3,14 @@ title: Table.AllowAutoFit
 linktitle: AllowAutoFit
 articleTitle: AllowAutoFit
 second_title: Aspose.Words для .NET
-description: Table AllowAutoFit свойство. Позволяет Microsoft Word и Aspose.Words автоматически изменять размеры ячеек таблицы в соответствии с их содержимым на С#.
+description: Откройте для себя свойство Table AllowAutoFit, позволяющее легко изменять размер ячеек таблиц Microsoft Word и Aspose.Words, улучшая читаемость и презентабельность вашего документа.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.tables/table/allowautofit/
 ---
 ## Table.AllowAutoFit property
 
-Позволяет Microsoft Word и Aspose.Words автоматически изменять размеры ячеек таблицы в соответствии с их содержимым.
+Позволяет Microsoft Word и Aspose.Words автоматически изменять размер ячеек в таблице в соответствии с их содержимым.
 
 ```csharp
 public bool AllowAutoFit { get; set; }
@@ -41,9 +41,9 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
 builder.EndRow();
 builder.EndTable();
 
-// Установите для свойства «AllowAutoFit» значение «false», чтобы таблица сохраняла размеры
-// всех его строк и ячеек и обрезаем содержимое, если оно становится слишком большим и не помещается.
-// Установите для свойства «AllowAutoFit» значение «true», чтобы разрешить таблице изменять ширину и высоту своих ячеек.
+// Установите свойство «AllowAutoFit» в значение «false», чтобы таблица сохраняла размеры
+// всех его строк и ячеек и обрезать содержимое, если оно становится слишком большим для размещения.
+// Установите свойство «AllowAutoFit» в значение «true», чтобы разрешить таблице изменять ширину и высоту ячеек
 // для размещения их содержимого.
 table.AllowAutoFit = allowAutoFit;
 

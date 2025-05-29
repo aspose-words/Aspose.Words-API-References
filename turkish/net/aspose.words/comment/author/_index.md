@@ -2,8 +2,8 @@
 title: Comment.Author
 linktitle: Author
 articleTitle: Author
-second_title: Aspose.Words for .NET
-description: Comment Author mülk. Bir yorumun yazar adını döndürür veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yorum Yazarı özelliğiyle yorum yazarlarını zahmetsizce yönetin. Kullanıcı etkileşimini ve içerik netliğini artırmak için yazar adlarını kolayca döndürün veya ayarlayın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/comment/author/
@@ -20,19 +20,19 @@ public string Author { get; set; }
 
 Olamaz`hükümsüz`.
 
-Varsayılan boş dizedir.
+Varsayılan boş dizgedir.
 
 ## Örnekler
 
-Bir belgedeki tüm yorumların ve yanıtların nasıl yazdırılacağını gösterir.
+Bir belgenin tüm yorumlarının ve bunların yanıtlarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// Bir yorumun atası yoksa bu, yanıt tipi yorumun aksine "üst düzey" bir yorumdur.
-// Tüm üst düzey yorumları, olabilecek yanıtlarla birlikte yazdırın.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+// Eğer bir yorumun bir atası yoksa, bu bir yanıt türü yorumun aksine "en üst düzey" yorumdur.
+// Tüm üst düzey yorumları ve bunlara ait tüm yanıtları yazdır.
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

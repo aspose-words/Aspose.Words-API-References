@@ -3,14 +3,14 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words per .NET
-description: Stroke Fill proprietà. Ottiene la formattazione di riempimento per il fileStroke  in C#.
+description: Scopri la proprietà Riempimento tratto per una formattazione migliorata nei tuoi progetti. Migliora i tuoi progetti con una personalizzazione precisa del tratto oggi stesso!
 type: docs
-weight: 90
+weight: 120
 url: /it/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
 
-Ottiene la formattazione di riempimento per il file[`Stroke`](../) .
+Ottiene la formattazione di riempimento per il[`Stroke`](../) .
 
 ```csharp
 public Fill Fill { get; }

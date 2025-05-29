@@ -3,7 +3,7 @@ title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
 second_title: Aspose.Words per .NET
-description: FieldSet costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FieldSet, lo strumento essenziale per creare moduli dinamici senza sforzo. Ottieni esperienze utente fluide oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldset/fieldset/

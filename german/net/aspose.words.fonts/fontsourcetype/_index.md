@@ -3,14 +3,14 @@ title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.FontSourceType opsomming. Gibt den Typ einer Schriftartquelle an in C#.
+description: Entdecken Sie Aspose.Words.Fonts.FontSourceType Enumeration für effizientes Schriftquellenmanagement. Optimieren Sie Ihre Dokumentverarbeitung mit flexiblen Schriftartenoptionen.
 type: docs
-weight: 2990
+weight: 3420
 url: /de/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Gibt den Typ einer Schriftartquelle an.
+Gibt den Typ der Schriftartquelle an.
 
 ```csharp
 public enum FontSourceType
@@ -21,14 +21,14 @@ public enum FontSourceType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | FontFile | `0` | A[`FileFontSource`](../filefontsource/) Objekt, das eine einzelne Schriftartdatei darstellt. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) Objekt, das einen Ordner mit Schriftartdateien darstellt. |
+| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) Objekt, das einen Ordner mit Schriftdateien darstellt. |
 | MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) Objekt, das eine einzelne Schriftart im Speicher darstellt. |
-| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) Objekt, das alle auf dem System installierten Schriftarten darstellt. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) Objekt, das einen Stream mit Schriftartdaten darstellt. |
+| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) Objekt, das alle im System installierten Schriftarten darstellt. |
+| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) Objekt, das einen Stream mit Schriftdaten darstellt. |
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

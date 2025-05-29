@@ -3,14 +3,14 @@ title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings MainDocumentType ملكية. تحديد نوع المستند الرئيسي لدمج المراسلات. القيمة الافتراضية هيDefault  في C#.
+description: اكتشف كيف تُعرّف خاصية MainDocumentType في MailMergeSettings مستندات دمج البريد. طوّر عملية إنشاء مستندات سلسة بإعدادات مثالية!
 type: docs
 weight: 140
 url: /ar/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-تحديد نوع المستند الرئيسي لدمج المراسلات. القيمة الافتراضية هيDefault .
+يحدد نوع المستند الرئيسي للدمج البريدي. القيمة الافتراضية هيDefault .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -22,7 +22,7 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

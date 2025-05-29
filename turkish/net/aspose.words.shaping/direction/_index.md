@@ -2,10 +2,10 @@
 title: Direction Enum
 linktitle: Direction
 articleTitle: Direction
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Shaping.Direction Sıralama. Metin yönü C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde esnek metin yönü kontrolü için Aspose.Words.Shaping.Direction enum'unu keşfedin. Okunabilirliği ve tasarımı kolaylıkla geliştirin!
 type: docs
-weight: 6020
+weight: 6850
 url: /tr/net/aspose.words.shaping/direction/
 ---
 ## Direction enumeration
@@ -23,8 +23,8 @@ public enum Direction
 | Default | `0` | Varsayılan değer, aynıLTR . |
 | LTR | `0` | Soldan sağa yazma yönü. |
 | RTL | `1` | Sağdan sola yazma yönü. |
-| TTB | `2` | Yukarıdan aşağıya yazma yönü. |
-| BTT | `3` | Aşağıdan yukarıya yazma yönü. |
+| TTB | `2` | Yukarıdan aşağıya doğru yazma yönü. |
+| BTT | `3` | Aşağıdan yukarıya doğru yazma yönü. |
 
 ### Ayrıca bakınız
 

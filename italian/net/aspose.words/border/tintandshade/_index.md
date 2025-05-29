@@ -3,7 +3,7 @@ title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words per .NET
-description: Border TintAndShade proprietà. Ottiene o imposta un valore double che schiarisce o scurisce un colore in C#.
+description: Scopri Border TintAndShade, regola facilmente la luminosità del colore con un semplice doppio valore per straordinari miglioramenti del design. Perfetto per i tuoi progetti creativi!
 type: docs
 weight: 80
 url: /it/net/aspose.words/border/tintandshade/
@@ -16,11 +16,16 @@ Ottiene o imposta un valore double che schiarisce o scurisce un colore.
 public double TintAndShade { get; set; }
 ```
 
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| ArgumentOutOfRangeException | Viene generato se si tenta di impostare questa proprietà su un valore inferiore a -1 o superiore a 1. |
+| InvalidOperationException | Viene generato se si imposta questa proprietà per un oggetto Border con colori non a tema. |
+
 ## Osservazioni
 
-I valori consentiti sono compresi nell'intervallo da -1 (il più scuro) a 1 (il più chiaro) per questa proprietà. Zero (0) è neutro. Il tentativo di impostare questa proprietà su un valore inferiore a -1 o superiore a 1 risulta inArgumentOutOfRangeException.
-
-L'impostazione di questa proprietà per l'oggetto Border con colori non tematici risulta in:InvalidOperationException.
+valori consentiti per questa proprietà sono compresi tra -1 (il più scuro) e 1 (il più chiaro). Zero (0) è neutro.
 
 ## Esempi
 

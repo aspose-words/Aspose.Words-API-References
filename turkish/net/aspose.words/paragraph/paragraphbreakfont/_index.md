@@ -2,15 +2,15 @@
 title: Paragraph.ParagraphBreakFont
 linktitle: ParagraphBreakFont
 articleTitle: ParagraphBreakFont
-second_title: Aspose.Words for .NET
-description: Paragraph ParagraphBreakFont mülk. Paragraf sonu karakterinin yazı tipi formatına erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Paragraf sonlarının kusursuz yazı tipi biçimlendirmesi için ParagraphBreakFont özelliğini keşfedin, metninizin görünümünü ve okunabilirliğini artırın.
 type: docs
 weight: 180
 url: /tr/net/aspose.words/paragraph/paragraphbreakfont/
 ---
 ## Paragraph.ParagraphBreakFont property
 
-Paragraf sonu karakterinin yazı tipi formatına erişim sağlar.
+Paragraf sonu karakterinin yazı tipi biçimlendirmesine erişim sağlar.
 
 ```csharp
 public Font ParagraphBreakFont { get; }
@@ -18,7 +18,7 @@ public Font ParagraphBreakFont { get; }
 
 ## Örnekler
 
-Bir belgedeki tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
+Bir belgeden tüm gizli içeriği kaldırmak için DocumentVisitor uygulamasının nasıl kullanılacağını gösterir.
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -26,8 +26,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Aşağıda belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır,
-    // bu, kabul eden düğümü ziyaret etmesine ve ardından alt düğümlerini derinlik öncelikli bir şekilde geçmesine olanak tanıyacak.
+    // Aşağıda bir belge ziyaretçisini kabul edebilecek üç tür alan bulunmaktadır:
+    // bu, kabul eden düğümü ziyaret etmesine ve daha sonra derinlemesine bir şekilde alt düğümlerini dolaşmasına izin verecektir.
     // 1 - Paragraf düğümü:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -59,7 +59,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -70,7 +70,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FieldSeparator düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir FieldSeparator düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede FormField ile karşılaşıldığında çağrılır.
+    /// Belgede bir FormField ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -114,7 +114,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede GroupShape ile karşılaşıldığında çağrılır.
+    /// Belgede bir GroupShape ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -136,7 +136,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorumla karşılaşıldığında çağrılır.
+    /// Belgede bir Yorum ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -147,7 +147,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede Dipnotla karşılaşıldığında çağrılır.
+    /// Belgede bir Dipnot ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -158,10 +158,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Özel Karakterle karşılaşıldığında çağrılır.
+    /// Belgede bir SpecialCharacter ile karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -169,16 +171,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Tablo düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Tablo düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri bunu yapamaz.
-        // Bu tabloda gizli içerikten başka bir şey olmasaydı, bu ziyaretçi hepsini kaldırmış olurdu,
-        // ve hiç alt düğüm kalmayacaktı.
-        // Böylece tablonun kendisini de gizli içerik olarak değerlendirip kaldırabiliriz.
-        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragrafların bulunduğu hücreler bulunur,
-        // bu ziyaretçinin kaldırmayacağı.
+        // Tablo hücrelerinin içindeki içerik gizli içerik bayrağına sahip olabilir, ancak tabloların kendileri olamaz.
+        // Eğer bu tabloda yalnızca gizli içerik olsaydı, bu ziyaretçi bunların hepsini silecekti,
+        // ve hiçbir alt düğüm kalmayacaktı.
+        // Böylece tablonun kendisini de gizli içerik olarak ele alıp kaldırabiliriz.
+        // Boş olan ancak gizli içeriği olmayan tabloların içinde boş paragraflar bulunan hücreler olacaktır,
+        // bu ziyaretçinin kaldıramayacağı.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -186,7 +188,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Hücre düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Hücre düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -197,7 +199,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Satır düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Satır düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

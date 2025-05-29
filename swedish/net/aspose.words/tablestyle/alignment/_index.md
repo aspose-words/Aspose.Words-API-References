@@ -3,14 +3,14 @@ title: TableStyle.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words för .NET
-description: TableStyle Alignment fast egendom. Anger justeringen för tabellstilen i C#.
+description: Upptäck egenskapen TableStyle Alignment för att enkelt anpassa din tabells layout och förbättra den visuella attraktionskraften för ett professionellt utseende.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-Anger justeringen för tabellstilen.
+Anger justeringen för tabellformatet.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -22,20 +22,20 @@ Standardvärdet ärLeft .
 
 ## Exempel
 
-Visar hur man ställer in positionen för ett bord.
+Visar hur man ställer in en tabells position.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att justera en tabell horisontellt.
-// 1 - Använd egenskapen "Alignment" för att justera den till en plats på sidan, till exempel mitten:
+// Nedan följer två sätt att justera en tabell horisontellt.
+// 1 - Använd egenskapen "Justering" för att justera den till en plats på sidan, till exempel mitten:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// Infoga en tabell och tillämpa stilen vi skapade på den.
+// Infoga en tabell och använd den stil vi skapade på den.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

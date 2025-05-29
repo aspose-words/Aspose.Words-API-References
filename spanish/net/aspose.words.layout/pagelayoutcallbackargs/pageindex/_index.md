@@ -3,14 +3,14 @@ title: PageLayoutCallbackArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words para .NET
-description: PageLayoutCallbackArgs PageIndex propiedad. Obtiene el índice basado en 0 de la página en el documento con el que se relaciona este evento. Devuelve un valor negativo si no hay una página asociada o si la página se eliminó durante el reflujo en C#.
+description: Descubra la propiedad PageIndex de PageLayoutCallbackArgs, que proporciona el índice basado en 0 de la página del documento relacionado. ¡Obtenga información precisa sobre el seguimiento de páginas y el reflujo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/pageindex/
 ---
 ## PageLayoutCallbackArgs.PageIndex property
 
-Obtiene el índice basado en 0 de la página en el documento con el que se relaciona este evento. Devuelve un valor negativo si no hay una página asociada o si la página se eliminó durante el reflujo.
+Obtiene el índice basado en 0 de la página en el documento al que se relaciona este evento. Devuelve un valor negativo si no hay una página asociada o si la página se eliminó durante el reflujo.
 
 ```csharp
 public int PageIndex { get; }
@@ -36,7 +36,7 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Nos notifica cuando guardamos el documento en un formato de página fijo
+/// Nos avisa cuando guardamos el documento en un formato de página fijo
 /// y representa una página en la que realizamos un reflujo de página en una imagen en el sistema de archivos local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback

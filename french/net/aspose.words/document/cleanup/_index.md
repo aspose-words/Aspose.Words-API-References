@@ -3,9 +3,9 @@ title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
 second_title: Aspose.Words pour .NET
-description: Document Cleanup méthode. Nettoie les styles et les listes inutilisés du document en C#.
+description: Optimisez vos documents grâce à notre méthode de nettoyage : supprimez les styles et listes inutiles pour un flux de travail plus clair et plus efficace. Améliorez la lisibilité dès aujourd'hui !
 type: docs
-weight: 540
+weight: 580
 url: /fr/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -18,7 +18,7 @@ public void Cleanup()
 
 ## Exemples
 
-Montre comment supprimer les styles personnalisés inutilisés d’un document.
+Montre comment supprimer les styles personnalisés inutilisés d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Combiné avec les styles intégrés, le document dispose désormais de huit styles.
-// Un style personnalisé compte comme "utilisé" lorsqu'il est appliqué à une partie du document,
-// ce qui signifie que les quatre styles que nous avons ajoutés sont actuellement inutilisés.
+// Combiné aux styles intégrés, le document dispose désormais de huit styles.
+// Un style personnalisé est considéré comme « utilisé » lorsqu'il est appliqué à une partie du document,
+// ce qui signifie que les quatre styles que nous avons ajoutés ne sont actuellement pas utilisés.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Applique un style de caractère personnalisé, puis un style de liste personnalisé. Cela marquera les styles comme « utilisés ».
+// Appliquez un style de caractère personnalisé, puis un style de liste personnalisé. Les styles seront alors marqués comme « utilisés ».
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -47,7 +47,7 @@ doc.Cleanup();
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// La suppression de chaque nœud auquel un style personnalisé est appliqué le marque à nouveau comme "inutilisé".
+// La suppression de chaque nœud auquel un style personnalisé est appliqué le marque à nouveau comme « inutilisé ».
 // Exécutez à nouveau la méthode Cleanup pour les supprimer.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup();
@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
-Nettoie les styles et les listes inutilisés du document en fonction des données[`CleanupOptions`](../../cleanupoptions/) .
+Nettoie les styles et les listes inutilisés du document en fonction des[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -73,7 +73,7 @@ public void Cleanup(CleanupOptions options)
 
 ## Exemples
 
-Montre comment supprimer tous les styles personnalisés inutilisés d’un document.
+Montre comment supprimer tous les styles personnalisés inutilisés d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -83,12 +83,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// Combiné avec les styles intégrés, le document dispose désormais de huit styles.
-// Un style personnalisé est marqué comme "utilisé" alors qu'il y a du texte dans le document
-// formaté dans ce style. Cela signifie que les 4 styles que nous avons ajoutés sont actuellement inutilisés.
+// Combiné aux styles intégrés, le document dispose désormais de huit styles.
+// Un style personnalisé est marqué comme « utilisé » tant qu'il y a du texte dans le document
+// formaté dans ce style. Cela signifie que les quatre styles ajoutés sont actuellement inutilisés.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Applique un style de caractère personnalisé, puis un style de liste personnalisé. Cela les marquera comme « utilisés ».
+// Appliquez un style de caractère personnalisé, puis un style de liste personnalisé. Cela les marquera comme « utilisés ».
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -98,7 +98,7 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Il existe désormais un style de caractère et un style de liste inutilisés.
+// Il y a maintenant un style de caractère inutilisé et un style de liste inutilisé.
 // La méthode Cleanup(), lorsqu'elle est configurée avec un objet CleanupOptions, peut cibler les styles inutilisés et les supprimer.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
@@ -109,7 +109,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // La suppression de chaque nœud auquel un style personnalisé est appliqué le marque à nouveau comme "inutilisé".
+ // La suppression de chaque nœud auquel un style personnalisé est appliqué le marque à nouveau comme « inutilisé ».
 // Réexécutez la méthode Cleanup pour les supprimer.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

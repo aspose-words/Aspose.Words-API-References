@@ -3,9 +3,9 @@ title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words для .NET
-description: ChartAxis NumberFormat свойство. ВозвращаетChartNumberFormat объект позволяющий определять числовые форматы для оси на С#.
+description: Откройте для себя свойство ChartAxis NumberFormat, чтобы легко настраивать числовые форматы диаграммы с помощью объекта ChartNumberFormat для улучшенной визуализации данных.
 type: docs
-weight: 190
+weight: 200
 url: /ru/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
@@ -30,16 +30,16 @@ Chart chart = shape.Chart;
 // Очистите ряд демонстрационных данных диаграммы, чтобы начать с чистой диаграммы.
 chart.Series.Clear();
 
-// Добавляем на диаграмму пользовательскую серию с категориями по оси X,
+// Добавить пользовательскую серию в диаграмму с категориями для оси X,
  // и большие соответствующие числовые значения для оси Y.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // Установите числовой формат меток деления оси Y, чтобы цифры не группировались с запятыми.
+ // Задайте формат чисел для меток делений оси Y, чтобы не группировать цифры с запятыми.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// Этот флаг может переопределить указанное выше значение и получить числовой формат из исходной ячейки.
+// Этот флаг может переопределить указанное выше значение и извлечь числовой формат из исходной ячейки.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

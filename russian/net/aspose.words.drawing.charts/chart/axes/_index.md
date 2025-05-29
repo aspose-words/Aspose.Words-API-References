@@ -3,7 +3,7 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words для .NET
-description: Chart Axes свойство. Получает коллекцию всех осей этой диаграммы на С#.
+description: Откройте для себя свойство Chart Axes для доступа ко всем осям диаграммы без усилий. Улучшите визуализацию данных с помощью комплексного управления осями.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chart/axes/
@@ -25,9 +25,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// Скрываем основные линии сетки на первичной и вторичной осях Y.
+// Скрыть основные линии сетки на первичной и вторичной осях Y.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

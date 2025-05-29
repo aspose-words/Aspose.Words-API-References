@@ -3,14 +3,14 @@ title: ChartDataPoint Class
 linktitle: ChartDataPoint
 articleTitle: ChartDataPoint
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartDataPoint فصل. يسمح بتحديد تنسيق نقطة بيانات واحدة على المخطط في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartDataPoint لتنسيق نقاط بيانات الرسم البياني الفردية بسهولة، مما يعزز تصور البيانات لديك بدقة.
 type: docs
-weight: 690
+weight: 970
 url: /ar/net/aspose.words.drawing.charts/chartdatapoint/
 ---
 ## ChartDataPoint class
 
-يسمح بتحديد تنسيق نقطة بيانات واحدة على المخطط.
+يسمح بتحديد تنسيق نقطة بيانات واحدة على الرسم البياني.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الرسوم البيانية](https://docs.aspose.com/words/net/working-with-charts/) مقالة توثيقية.
 
@@ -22,26 +22,26 @@ public class ChartDataPoint : IChartDataPoint
 
 | اسم | وصف |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | يحدد ما إذا كان يجب أن يكون للفقاعات الموجودة في المخطط الفقاعي تأثير ثلاثي الأبعاد مطبق عليها. |
-| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | يحدد مقدار نقل نقطة البيانات من مركز الدائرة. يمكن أن يكون سالبًا، ويعني السالب أنه لم يتم تعيين الخاصية ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية. |
-| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | يوفر الوصول إلى التعبئة وتنسيق الخط لنقطة البيانات هذه. |
+| [Bubble3D](../../aspose.words.drawing.charts/chartdatapoint/bubble3d/) { get; set; } | يحدد ما إذا كان يجب تطبيق تأثير ثلاثي الأبعاد على الفقاعات الموجودة في مخطط الفقاعات. |
+| [Explosion](../../aspose.words.drawing.charts/chartdatapoint/explosion/) { get; set; } | يحدد مقدار نقل نقطة البيانات من مركز الفطيرة. يمكن أن يكون سلبيًا، ويعني السلبي أن الخاصية غير مضبوطة ولا ينبغي تطبيق أي انفجار. ينطبق فقط على المخططات الدائرية. |
+| [Format](../../aspose.words.drawing.charts/chartdatapoint/format/) { get; } | يوفر إمكانية الوصول إلى تنسيق التعبئة والخط لهذه النقطة من البيانات. |
 | [Index](../../aspose.words.drawing.charts/chartdatapoint/index/) { get; } | فهرس نقطة البيانات التي يطبق هذا الكائن التنسيق عليها. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | يحدد ما إذا كان العنصر الأصلي يجب أن يعكس ألوانه إذا كانت القيمة سالبة. |
-| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | يحدد علامة بيانات المخطط. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/chartdatapoint/invertifnegative/) { get; set; } | يحدد ما إذا كان العنصر الرئيسي سيعكس ألوانه إذا كانت القيمة سلبية. |
+| [Marker](../../aspose.words.drawing.charts/chartdatapoint/marker/) { get; } | يحدد علامة بيانات الرسم البياني. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | مسح تنسيق نقطة البيانات هذه. يتم تعيين الخصائص على القيم الافتراضية المحددة في السلسلة الأصلية. |
+| [ClearFormat](../../aspose.words.drawing.charts/chartdatapoint/clearformat/)() | يمسح تنسيق نقطة البيانات هذه. الخصائص مضبوطة على القيم الافتراضية المحددة في السلسلة الأصلية. |
 
 ## ملاحظات
 
-في مسلسل`ChartDataPoint` الكائن هو عضو في[`ChartDataPointCollection`](../chartdatapointcollection/) . ال[`ChartDataPointCollection`](../chartdatapointcollection/) يحتوي على`ChartDataPoint` كائن لكل نقطة.
+في سلسلة،`ChartDataPoint` الكائن هو عضو في[`ChartDataPointCollection`](../chartdatapointcollection/) . ال[`ChartDataPointCollection`](../chartdatapointcollection/) يحتوي على`ChartDataPoint` كائن لكل نقطة.
 
 ## أمثلة
 
-يوضح كيفية التعامل مع نقاط البيانات على مخطط خطي.
+يوضح كيفية العمل مع نقاط البيانات على مخطط خطي.
 
 ```csharp
 public void ChartDataPoint()
@@ -57,14 +57,14 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتأكيد نقاط بيانات المخطط من خلال جعلها تظهر كأشكال ماسية.
-    foreach (ChartSeries series in chart.Series) 
+    // قم بالتأكيد على نقاط بيانات الرسم البياني من خلال جعلها تظهر على شكل أشكال ماسية.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
-    // قم بتسوية الخط الذي يمثل سلسلة البيانات الأولى.
+    // قم بتنعيم الخط الذي يمثل سلسلة البيانات الأولى.
     chart.Series[0].Smooth = true;
 
-    // تحقق من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سالبة.
+    // تأكد من أن نقاط البيانات الخاصة بالسلسلة الأولى لن تعكس ألوانها إذا كانت القيمة سلبية.
     using (IEnumerator<ChartDataPoint> enumerator = chart.Series[0].DataPoints.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -73,8 +73,11 @@ public void ChartDataPoint()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا، يمكننا مسح التنسيق بشكل فردي.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
+
+    // للحصول على رسم بياني يبدو أكثر نظافة، يمكننا مسح التنسيق بشكل فردي.
+    dataPoint.ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من نقاط البيانات مرة واحدة.
     chart.Series[2].DataPoints.ClearFormat();
@@ -83,7 +86,7 @@ public void ChartDataPoint()
 }
 
 /// <summary>
-/// يطبق عددًا من نقاط البيانات على السلسلة.
+/// تطبيق عدد من نقاط البيانات على سلسلة.
 /// </summary>
 private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, MarkerSymbol markerSymbol, int dataPointSize)
 {

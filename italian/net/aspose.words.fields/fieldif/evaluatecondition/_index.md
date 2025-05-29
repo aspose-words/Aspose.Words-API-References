@@ -3,7 +3,7 @@ title: FieldIf.EvaluateCondition
 linktitle: EvaluateCondition
 articleTitle: EvaluateCondition
 second_title: Aspose.Words per .NET
-description: FieldIf EvaluateCondition metodo. Valuta la condizione in C#.
+description: Scopri come il metodo FieldIf EvaluateCondition valuta in modo efficiente le condizioni, migliorando le prestazioni e l'affidabilità del tuo codice.
 type: docs
 weight: 70
 url: /it/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -18,11 +18,11 @@ public FieldIfComparisonResult EvaluateCondition()
 
 ### Valore di ritorno
 
-A[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) valore che rappresenta il risultato della valutazione della condizione.
+Un[`FieldIfComparisonResult`](../../fieldifcomparisonresult/) valore che rappresenta il risultato della valutazione della condizione.
 
 ## Esempi
 
-Mostra come inserire un campo IF.
+Mostra come inserire un campo SE.
 
 ```csharp
 Document doc = new Document();
@@ -35,12 +35,12 @@ field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
 // Il campo IF visualizzerà una stringa dalla sua proprietà "TrueText",
-// o la sua proprietà "FalseText", a seconda della verità dell'affermazione che abbiamo costruito.
+// o la sua proprietà "FalseText", a seconda della veridicità dell'affermazione che abbiamo costruito.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// In questo caso, "0 = 1" non è corretto, quindi il risultato visualizzato sarà "False".
+// In questo caso, "0 = 1" non è corretto, quindi il risultato visualizzato sarà "Falso".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -54,7 +54,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "Vero".
+// Questa volta l'affermazione è corretta, quindi il risultato visualizzato sarà "True".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

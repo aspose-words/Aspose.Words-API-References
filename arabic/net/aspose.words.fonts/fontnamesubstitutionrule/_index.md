@@ -3,9 +3,9 @@ title: FontNameSubstitutionRule Class
 linktitle: FontNameSubstitutionRule
 articleTitle: FontNameSubstitutionRule
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontNameSubstitutionRule فصل. قاعدة استبدال الخط لمعالجة اسم الخط في C#.
+description: اكتشف فئة Aspose.Words.Fonts.FontNameSubstitutionRule لمعالجة أسماء الخطوط بكفاءة وتنسيق مستندات سلس. حسّن عرض نصوصك!
 type: docs
-weight: 2950
+weight: 3380
 url: /ar/net/aspose.words.fonts/fontnamesubstitutionrule/
 ---
 ## FontNameSubstitutionRule class
@@ -22,11 +22,11 @@ public class FontNameSubstitutionRule : FontSubstitutionRule
 
 | اسم | وصف |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
 
 ## ملاحظات
 
-وفقًا لهذه القاعدة، يحاول Aspose.Words معالجة اسم الخط للحصول على الاستبدال. خاصة يحاول Aspose.Words إزالة اللواحق ذات الفواصل '-' و'' و'(' مثلما يفعل في MS Word.
+وفقًا لهذه القاعدة، يحاول Aspose.Words معالجة اسم الخط للحصول على الاستبدال. وبشكل خاص، يحاول Aspose.Words إزالة اللواحق التي تحتوي على فواصل '-' و',' و'(' كما يفعل في مايكروسوفت وورد.
 
 ### أنظر أيضا
 

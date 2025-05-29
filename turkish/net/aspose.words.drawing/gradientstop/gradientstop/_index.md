@@ -2,15 +2,15 @@
 title: GradientStop
 linktitle: GradientStop
 articleTitle: GradientStop
-second_title: Aspose.Words for .NET
-description: GradientStop inşaatçı. Yeni bir örneğini başlatırGradientStop class C#'da.
+second_title: .NET için Aspose.Words
+description: GradientStop oluşturucusu ile zahmetsizce çarpıcı degradeler yaratın. Canlı görsel çekicilik için tasarımlarınızı kolayca başlatın ve özelleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing/gradientstop/gradientstop/
 ---
 ## GradientStop(*Color, double*) {#constructor}
 
-Yeni bir örneğini başlatır[`GradientStop`](../) class.
+Yeni bir örneğini başlatır[`GradientStop`](../) sınıf.
 
 ```csharp
 public GradientStop(Color color, double position)
@@ -19,7 +19,7 @@ public GradientStop(Color color, double position)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | color | Color | Degrade durağının rengini temsil eder. |
-| position | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen eğim içindeki bir durağın konumunu temsil eder. |
+| position | Double | Gradyanın 0,0 ile 1,0 aralığında yüzde olarak ifade edilen içindeki bir durağın konumunu temsil eder. |
 
 ## Örnekler
 
@@ -32,24 +32,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Degrade durakları koleksiyonunu alın.
+// Degrade duraklarının toplanmasını sağla.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// İlk degrade durağını değiştirin.            
-gradientStops[0].Color = Color.Aqua;            
+// İlk degrade durağını değiştir.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Koleksiyonun sonuna yeni degrade durağı ekleyin.
+// Koleksiyonun sonuna yeni bir degrade durağı ekle.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Dizin 1'deki degrade durağını kaldırın.
+// 1. indeksteki degrade durağını kaldır.
 gradientStops.RemoveAt(1);
-// Ve aynı indeks 1'e yeni degrade durağı ekleyin.
+// Ve aynı indeks 1'e yeni bir degrade durağı ekle.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Koleksiyondaki son degrade durağını kaldırın.
+// Koleksiyondaki son degrade durağını kaldır.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
@@ -81,7 +81,7 @@ doc.Save(ArtifactsDir + "Shape.GradientStops.docx", saveOptions);
 
 ## GradientStop(*Color, double, double*) {#constructor_1}
 
-Yeni bir örneğini başlatır[`GradientStop`](../) class.
+Yeni bir örneğini başlatır[`GradientStop`](../) sınıf.
 
 ```csharp
 public GradientStop(Color color, double position, double transparency)
@@ -90,8 +90,8 @@ public GradientStop(Color color, double position, double transparency)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | color | Color | Degrade durağının rengini temsil eder. |
-| position | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen eğim içindeki bir durağın konumunu temsil eder. |
-| transparency | Double | 0,0 ila 1,0 aralığında yüzde olarak ifade edilen degrade içindeki bir durağın şeffaflığını temsil eder. |
+| position | Double | Gradyanın 0,0 ile 1,0 aralığında yüzde olarak ifade edilen içindeki bir durağın konumunu temsil eder. |
+| transparency | Double | 0,0 ile 1,0 aralığında yüzde olarak ifade edilen eğimin içindeki bir durağın şeffaflığını temsil eder. |
 
 ## Örnekler
 
@@ -104,24 +104,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// Degrade durakları koleksiyonunu alın.
+// Degrade duraklarının toplanmasını sağla.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// İlk degrade durağını değiştirin.            
-gradientStops[0].Color = Color.Aqua;            
+// İlk degrade durağını değiştir.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// Koleksiyonun sonuna yeni degrade durağı ekleyin.
+// Koleksiyonun sonuna yeni bir degrade durağı ekle.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// Dizin 1'deki degrade durağını kaldırın.
+// 1. indeksteki degrade durağını kaldır.
 gradientStops.RemoveAt(1);
-// Ve aynı indeks 1'e yeni degrade durağı ekleyin.
+// Ve aynı indeks 1'e yeni bir degrade durağı ekle.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// Koleksiyondaki son degrade durağını kaldırın.
+// Koleksiyondaki son degrade durağını kaldır.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 

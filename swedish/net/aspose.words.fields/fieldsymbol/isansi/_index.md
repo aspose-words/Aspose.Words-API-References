@@ -3,14 +3,14 @@ title: FieldSymbol.IsAnsi
 linktitle: IsAnsi
 articleTitle: IsAnsi
 second_title: Aspose.Words för .NET
-description: FieldSymbol IsAnsi fast egendom. Hämtar eller ställer in om teckenkoden ska tolkas som värdet av ett ANSItecken i C#.
+description: Upptäck FieldSymbol IsAnsi-egenskapen och hantera enkelt ANSI-teckenkoder för förbättrad datahantering och förbättrad kodningseffektivitet.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldsymbol/isansi/
 ---
 ## FieldSymbol.IsAnsi property
 
-Hämtar eller ställer in om teckenkoden ska tolkas som värdet av ett ANSI-tecken.
+Hämtar eller anger om teckenkoden ska tolkas som värdet för ett ANSI-tecken.
 
 ```csharp
 public bool IsAnsi { get; set; }
@@ -24,8 +24,8 @@ Visar hur man använder SYMBOL-fältet.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns tre sätt att använda ett SYMBOL-fält för att visa ett enstaka tecken.
-// 1 - Lägg till ett SYMBOL-fält som visar © (Copyright)-symbolen, specificerad av en ANSI-teckenkod:
+// Nedan följer tre sätt att använda ett SYMBOL-fält för att visa ett enskilt tecken.
+// 1 - Lägg till ett SYMBOL-fält som visar symbolen © (Copyright), specificerad av en ANSI-teckenkod:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
 // ANSI-teckenkoden "U+00A9", eller "169" i heltalsform, är reserverad för copyright-symbolen.
@@ -39,16 +39,16 @@ builder.Writeln(" Line 1");
 // 2 - Lägg till ett SYMBOL-fält som visar symbolen ∞ (oändlighet) och ändra dess utseende:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// I Unicode upptar oändlighetssymbolen "221E"-koden.
+// I Unicode upptar oändlighetstecknet koden "221E".
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Ändra teckensnittet för vår symbol efter att ha använt Windows Teckenkarta
+// Ändra teckensnittet på vår symbol efter att ha använt Windows teckenmappning
 // för att säkerställa att teckensnittet kan representera den symbolen.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Vi kan ställa in den här flaggan för höga symboler så att de inte trycker ner resten av texten på sin rad.
+// Vi kan ställa in den här flaggan för höga symboler för att se till att de inte trycker ner resten av texten på sin rad.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 linktitle: ExportFontsAsBase64
 articleTitle: ExportFontsAsBase64
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportFontsAsBase64 proprietà. Specifica se le risorse dei caratteri devono essere incorporate nellHTML nella codifica Base64. Limpostazione predefinita èfalso  in C#.
+description: Scopri come la proprietà ExportFontsAsBase64 di HtmlSaveOptions migliora il tuo codice HTML incorporando i font nella codifica Base64 per prestazioni migliori. Il valore predefinito è false.
 type: docs
 weight: 150
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/
 ---
 ## HtmlSaveOptions.ExportFontsAsBase64 property
 
-Specifica se le risorse dei caratteri devono essere incorporate nell'HTML nella codifica Base64. L'impostazione predefinita è`falso` .
+Specifica se le risorse dei font devono essere incorporate in HTML nella codifica Base64. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportFontsAsBase64 { get; set; }
@@ -18,11 +18,11 @@ public bool ExportFontsAsBase64 { get; set; }
 
 ## Osservazioni
 
-Per impostazione predefinita, i caratteri vengono scritti in file separati. Se questa opzione è impostata su`VERO`, i caratteri verranno incorporati nel CSS del documento con la codifica Base64.
+Per impostazione predefinita, i font vengono scritti in file separati. Se questa opzione è impostata su`VERO`, i font verranno incorporati nel CSS del documento con codifica Base64.
 
 ## Esempi
 
-Mostra come incorporare i caratteri all'interno di un documento HTML salvato.
+Mostra come incorporare i font all'interno di un documento HTML salvato.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

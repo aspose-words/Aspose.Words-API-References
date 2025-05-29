@@ -3,14 +3,14 @@ title: ListCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words لـ .NET
-description: ListCollection Add طريقة. إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند في C#.
+description: اكتشف كيف تقوم طريقة ListCollection Add بإنشاء قوائم مخصصة من القوالب، مما يعزز تنظيم مستندك وكفاءته.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.lists/listcollection/add/
 ---
 ## Add(*[ListTemplate](../../listtemplate/)*) {#add}
 
-إنشاء قائمة جديدة بناءً على قالب محدد مسبقًا وإضافتها إلى مجموعة القوائم في المستند.
+ينشئ قائمة جديدة استنادًا إلى قالب محدد مسبقًا ويضيفها إلى مجموعة القوائم في المستند.
 
 ```csharp
 public List Add(ListTemplate listTemplate)
@@ -22,11 +22,11 @@ public List Add(ListTemplate listTemplate)
 
 ### قيمة الإرجاع
 
-القائمة التي تم إنشاؤها حديثا.
+القائمة التي تم إنشاؤها حديثًا.
 
 ## ملاحظات
 
-تتوافق قوالب قائمة Aspose.Words مع قوالب القائمة الـ 21 المتوفرة في مربع حوار التعداد النقطي والترقيم في Microsoft Word 2003.
+تتوافق قوالب قائمة Aspose.Words مع قوالب القائمة الـ 21 المتوفرة في مربع الحوار النقاط والترقيم في Microsoft Word 2003.
 
 تحتوي جميع القوائم التي تم إنشاؤها باستخدام هذه الطريقة على 9 مستويات للقائمة.
 
@@ -44,29 +44,29 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 
-List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = list;
+    paragraph.ListFormat.List = docList;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 
-Assert.AreEqual(3, paras.Count(n => (n as Paragraph).ListFormat.IsListItem));
+Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
 ```
 
-يوضح كيفية إعادة تشغيل الترقيم في القائمة عن طريق نسخ القائمة.
+يوضح كيفية إعادة تشغيل الترقيم في قائمة عن طريق نسخ القائمة.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// قم بإنشاء قائمة من قالب Microsoft Word، وقم بتخصيص مستوى القائمة الأول الخاص بها.
+// قم بإنشاء قائمة من قالب Microsoft Word، ثم قم بتخصيص المستوى الأول من القائمة.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
@@ -80,13 +80,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// يمكننا إضافة نسخة من القائمة الموجودة إلى مجموعة قائمة الوثيقة
-// لإنشاء قائمة مماثلة دون إجراء تغييرات على القائمة الأصلية.
+// يمكننا إضافة نسخة من قائمة موجودة إلى مجموعة قوائم المستند
+// لإنشاء قائمة مماثلة دون إجراء أي تغييرات على القائمة الأصلية.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// قم بتطبيق القائمة الثانية على فقرات جديدة.
+// قم بتطبيق القائمة الثانية على الفقرات الجديدة.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
@@ -104,30 +104,30 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.False(builder.ListFormat.IsListItem);
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// فيما يلي نوعان من القوائم التي يمكننا إنشاؤها باستخدام أداة إنشاء المستندات.
+// فيما يلي نوعان من القوائم التي يمكننا إنشاؤها باستخدام منشئ المستندات.
 // 1 - قائمة مرقمة:
-// تنشئ القوائم المرقمة ترتيبًا منطقيًا لفقراتها عن طريق ترقيم كل عنصر.
+// تقوم القوائم المرقمة بإنشاء ترتيب منطقي لفقراتها عن طريق ترقيم كل عنصر.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
 Assert.True(builder.ListFormat.IsListItem);
 
 // من خلال تعيين خاصية "ListLevelNumber"، يمكننا زيادة مستوى القائمة
-// لبدء قائمة فرعية قائمة بذاتها في عنصر القائمة الحالي.
-// يستخدم قالب قائمة Microsoft Word المسمى "NumberDefault" الأرقام لإنشاء مستويات القائمة لمستوى القائمة الأول.
- // تستخدم مستويات القائمة الأعمق الحروف والأرقام الرومانية الصغيرة.
+// لبدء قائمة فرعية مستقلة عند عنصر القائمة الحالي.
+// يستخدم قالب قائمة Microsoft Word المسمى "NumberDefault" الأرقام لإنشاء مستويات القائمة للمستوى الأول من القائمة.
+ // تستخدم مستويات القائمة الأعمق الأحرف والأرقام الرومانية الصغيرة.
 for (int i = 0; i < 9; i++)
 {
     builder.ListFormat.ListLevelNumber = i;
     builder.Writeln("Level " + i);
 }
 
-// 2 - قائمة ذات تعداد نقطي:
+// 2 - قائمة نقطية:
 // ستطبق هذه القائمة مسافة بادئة ورمز نقطي ("•") قبل كل فقرة.
-// ستستخدم المستويات الأعمق لهذه القائمة رموزًا مختلفة، مثل "■" و"○".
+// ستستخدم المستويات الأعمق من هذه القائمة رموزًا مختلفة، مثل "■" و"○".
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -136,7 +136,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// يمكننا تعطيل تنسيق القائمة لعدم تنسيق أي فقرات لاحقة كقوائم عن طريق إلغاء تعيين علامة "القائمة".
+// يمكننا تعطيل تنسيق القائمة لعدم تنسيق أي فقرات لاحقة كقوائم عن طريق إلغاء تعيين علم "القائمة".
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);
@@ -156,7 +156,7 @@ doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 
 ## Add(*[Style](../../../aspose.words/style/)*) {#add_1}
 
-إنشاء قائمة جديدة تشير إلى نمط قائمة وإضافته إلى مجموعة القوائم في المستند.
+ينشئ قائمة جديدة تشير إلى نمط القائمة ويضيفها إلى مجموعة القوائم في المستند.
 
 ```csharp
 public List Add(Style listStyle)
@@ -168,24 +168,24 @@ public List Add(Style listStyle)
 
 ### قيمة الإرجاع
 
-القائمة التي تم إنشاؤها حديثا.
+القائمة التي تم إنشاؤها حديثًا.
 
 ## ملاحظات
 
-تشير القائمة التي تم إنشاؤها حديثًا إلى نمط القائمة. إذا قمت بتغيير خصائص نمط list ، فسينعكس ذلك في خصائص القائمة. والعكس صحيح، إذا قمت بتغيير خصائص القائمة x000d_، فسوف ينعكس ذلك في خصائص نمط القائمة.
+تشير القائمة المُنشأة حديثًا إلى نمط القائمة. إذا غيّرت خصائص نمط list ، فسينعكس ذلك على خصائص القائمة. والعكس صحيح، إذا غيّرت خصائص properties للقائمة، فسينعكس ذلك على خصائص نمط القائمة.
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط قائمة واستخدامه في مستند.
+يوضح كيفية إنشاء نمط القائمة واستخدامه في مستند.
 
 ```csharp
 Document doc = new Document();
 
-// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات برموز البادئة والمسافات البادئة.
- // يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
- // يمكننا بدء القائمة وإنهائها باستخدام خاصية "ListFormat" الخاصة بمنشئ المستندات.
+// تسمح لنا القائمة بتنظيم وتزيين مجموعات من الفقرات باستخدام رموز البادئة والمسافات البادئة.
+ //يمكننا إنشاء قوائم متداخلة عن طريق زيادة مستوى المسافة البادئة.
+ // يمكننا أن نبدأ وننهي القائمة باستخدام خاصية "ListFormat" الموجودة في منشئ المستندات.
 // كل فقرة نضيفها بين بداية القائمة ونهايتها ستصبح عنصرًا في القائمة.
-// يمكننا احتواء كائن القائمة بالكامل ضمن النمط.
+//يمكننا أن نحتوي على كائن قائمة كامل داخل نمط.
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -207,14 +207,14 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Using list style first time:");
 
-// أنشئ قائمة أخرى من قائمة داخل النمط.
+// إنشاء قائمة أخرى من قائمة داخل نمط.
 List list2 = doc.Lists.Add(listStyle);
 
 Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
+//أضف بعض عناصر القائمة التي ستقوم قائمتنا بتنسيقها.
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");

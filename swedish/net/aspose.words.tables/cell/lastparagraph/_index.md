@@ -3,14 +3,14 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words för .NET
-description: Cell LastParagraph fast egendom. Får det sista stycket bland de närmaste barnen i C#.
+description: Upptäck egenskapen Cell LastParagraph. Få enkel åtkomst till det sista stycket från direkta underordnade element för effektiv innehållshantering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.tables/cell/lastparagraph/
 ---
 ## Cell.LastParagraph property
 
-Får det sista stycket bland de närmaste barnen.
+Hämtar det sista stycket bland de omedelbara underordnade.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph LastParagraph { get; }
 
 ## Exempel
 
-Visar hur man tillämpar inställningar på vertikala ramar på en tabellrads format.
+Visar hur man tillämpar inställningar på vertikala kantlinjer i en tabellrads format.
 
 ```csharp
 Document doc = new Document();
@@ -37,18 +37,18 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // Justera utseendet på kanter som kommer att visas mellan rader.
+    // Justera utseendet på kantlinjer som ska visas mellan rader.
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Justera utseendet på kanter som kommer att visas mellan celler.
+    // Justera utseendet på kantlinjer som ska visas mellan celler.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;
 }
 
-// Ett radformat och en cells inre stycke använder olika raminställningar.
+// Ett radformat och ett cells inre stycke använder olika kantlinjer.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
 Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());

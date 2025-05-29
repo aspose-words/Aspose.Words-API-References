@@ -3,14 +3,14 @@ title: PdfSaveOptions.CacheBackgroundGraphics
 linktitle: CacheBackgroundGraphics
 articleTitle: CacheBackgroundGraphics
 second_title: Aspose.Words für .NET
-description: PdfSaveOptions CacheBackgroundGraphics eigendom. Ruft einen Wert ab oder legt ihn fest der bestimmt ob im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden sollen oder nicht in C#.
+description: Entdecken Sie die CacheBackgroundGraphics-Eigenschaft von PdfSaveOptions, um das Zwischenspeichern von Dokumentgrafiken zu optimieren und so Ihre PDF-Erstellung und -Leistung zu verbessern.
 type: docs
-weight: 30
+weight: 40
 url: /de/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property
 
-Ruft einen Wert ab oder legt ihn fest, der bestimmt, ob im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden sollen oder nicht.
+Ruft einen Wert ab oder legt einen Wert fest, der bestimmt, ob im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden sollen oder nicht.
 
 ```csharp
 public bool CacheBackgroundGraphics { get; set; }
@@ -20,15 +20,15 @@ public bool CacheBackgroundGraphics { get; set; }
 
 Der Standardwert ist`WAHR` und Hintergrundgrafiken werden als xObject in das PDF-Dokument geschrieben.
 
-Wenn der Wert ist`FALSCH` Hintergrundgrafiken werden nicht zwischengespeichert.
+Wenn der Wert`FALSCH` Hintergrundgrafiken werden nicht zwischengespeichert.
 
-Einige Formen werden beim Caching nicht unterstützt (Formen mit Feldern, Lesezeichen, HRefs).
+Für einige Formen wird das Zwischenspeichern nicht unterstützt (Formen mit Feldern, Lesezeichen, HRefs).
 
-Bei der Hintergrundgrafik eines Dokuments handelt es sich um verschiedene Formen, Diagramme, Bilder, die in der Fuß- oder Kopfzeile platziert werden, sowie als Hintergrund und Rand einer Seite.
+Bei der Dokumenthintergrundgrafik handelt es sich um verschiedene Formen, Diagramme und Bilder, die in der Fußzeile oder Kopfzeile sowie als Hintergrund und Rahmen einer Seite platziert werden.
 
 ## Beispiele
 
-Zeigt, wie im Hintergrund des Dokuments platzierte Grafiken zwischengespeichert werden.
+Zeigt, wie im Hintergrund eines Dokuments platzierte Grafiken zwischengespeichert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Background images.docx");

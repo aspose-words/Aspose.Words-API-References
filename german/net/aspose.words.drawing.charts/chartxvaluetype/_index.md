@@ -3,9 +3,9 @@ title: ChartXValueType Enum
 linktitle: ChartXValueType
 articleTitle: ChartXValueType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueType opsomming. Ermöglicht die Angabe des Typs eines XWerts einer Diagrammreihe in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.ChartXValueType, um einfach X-Werttypen für Ihre Diagrammreihen zu definieren und so die Datenvisualisierung Ihres Dokuments zu verbessern.
 type: docs
-weight: 860
+weight: 1180
 url: /de/net/aspose.words.drawing.charts/chartxvaluetype/
 ---
 ## ChartXValueType enumeration
@@ -22,7 +22,7 @@ public enum ChartXValueType
 | --- | --- | --- |
 | String | `0` | Gibt an, dass ein X-Wert eine Zeichenfolgenkategorie ist. |
 | Double | `1` | Gibt an, dass ein X-Wert eine Gleitkommazahl mit doppelter Genauigkeit ist. |
-| DateTime | `2` | Gibt an, dass ein X-Wert ein Datum und eine Tageszeit ist. |
+| DateTime | `2` | Gibt an, dass ein X-Wert ein Datum und eine Uhrzeit ist. |
 | Time | `3` | Gibt an, dass ein X-Wert eine Tageszeit ist. |
 | Multilevel | `4` | Gibt an, dass ein X-Wert ein mehrstufiger Wert ist. |
 

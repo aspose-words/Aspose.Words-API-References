@@ -2,15 +2,15 @@
 title: Document.CompatibilityOptions
 linktitle: CompatibilityOptions
 articleTitle: CompatibilityOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Document CompatibilityOptions 财产. 提供对文档兼容性选项的访问即在文档上输入的用户首选项兼容性 选项卡选项Word 中的对话框 在 C#.
+second_title: Aspose.Words for .NET
+description: 访问 Word 的文档兼容性选项以自定义用户偏好并通过定制设置增强您的编辑体验，实现无缝协作。
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/aspose.words/document/compatibilityoptions/
 ---
 ## Document.CompatibilityOptions property
 
-提供对文档兼容性选项的访问（即在文档上输入的用户首选项）**兼容性** 选项卡**选项**Word 中的对话框）.
+提供对文档兼容性选项的访问（即在**兼容性** 标签**选项**Word 中的对话框）。
 
 ```csharp
 public CompatibilityOptions CompatibilityOptions { get; }
@@ -18,22 +18,22 @@ public CompatibilityOptions CompatibilityOptions { get; }
 
 ## 例子
 
-演示如何针对不同版本的 Microsoft Word 优化文档。
+展示如何针对不同版本的 Microsoft Word 优化文档。
 
 ```csharp
 public void OptimizeFor()
 {
     Document doc = new Document();
 
-    // 该对象包含每个文档特有的广泛标志列表
-    // 这使我们能够促进与旧版本 Microsoft Word 的向后兼容性。
+    // 该对象包含每个文档独有的标志的详尽列表
+    // 使我们能够实现与旧版本 Microsoft Word 的向后兼容性。
     CompatibilityOptions options = doc.CompatibilityOptions;
 
     // 打印空白文档的默认设置。
     Console.WriteLine("\nDefault optimization settings:");
     PrintCompatibilityOptions(options);
 
-    // 我们可以通过“文件”-> 在 Microsoft Word 中访问这些设置“选项”-> “高级”-> “兼容选项...”。
+    // 我们可以通过 Microsoft Word 中的“文件”->“选项”->“高级”->“兼容性选项...”访问这些设置。
     doc.Save(ArtifactsDir + "CompatibilityOptions.OptimizeFor.DefaultSettings.docx");
 
     // 我们可以使用 OptimizeFor 方法来确保与特定 Microsoft Word 版本的最佳兼容性。
@@ -51,24 +51,93 @@ public void OptimizeFor()
 /// </summary>
 private static void PrintCompatibilityOptions(CompatibilityOptions options)
 {
-    for (int i = 1; i >= 0; i--)
-    {
-        Console.WriteLine(Convert.ToBoolean(i) ? "\tEnabled options:" : "\tDisabled options:");
-        SortedSet<string> optionNames = new SortedSet<string>();
+    IList<string> enabledOptions = new List<string>();
+    IList<string> disabledOptions = new List<string>();
+    AddOptionName(options.AdjustLineHeightInTable, "AdjustLineHeightInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.AlignTablesRowByRow, "AlignTablesRowByRow", enabledOptions, disabledOptions);
+    AddOptionName(options.AllowSpaceOfSameStyleInTable, "AllowSpaceOfSameStyleInTable", enabledOptions, disabledOptions);
+    AddOptionName(options.ApplyBreakingRules, "ApplyBreakingRules", enabledOptions, disabledOptions);
+    AddOptionName(options.AutoSpaceLikeWord95, "AutoSpaceLikeWord95", enabledOptions, disabledOptions);
+    AddOptionName(options.AutofitToFirstFixedWidthCell, "AutofitToFirstFixedWidthCell", enabledOptions, disabledOptions);
+    AddOptionName(options.BalanceSingleByteDoubleByteWidth, "BalanceSingleByteDoubleByteWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.CachedColBalance, "CachedColBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.ConvMailMergeEsc, "ConvMailMergeEsc", enabledOptions, disabledOptions);
+    AddOptionName(options.DisableOpenTypeFontFormattingFeatures, "DisableOpenTypeFontFormattingFeatures", enabledOptions, disabledOptions);
+    AddOptionName(options.DisplayHangulFixedWidth, "DisplayHangulFixedWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotAutofitConstrainedTables, "DoNotAutofitConstrainedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakConstrainedForcedTable, "DoNotBreakConstrainedForcedTable", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotBreakWrappedTables, "DoNotBreakWrappedTables", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotExpandShiftReturn, "DoNotExpandShiftReturn", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotLeaveBackslashAlone, "DoNotLeaveBackslashAlone", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSnapToGridInCell, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressIndentation, "DoNotSnapToGridInCell", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotSuppressParagraphBorders, "DoNotSuppressParagraphBorders", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseEastAsianBreakRules, "DoNotUseEastAsianBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseHTMLParagraphAutoSpacing, "DoNotUseHTMLParagraphAutoSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotUseIndentAsNumberingTabStop, "DoNotUseIndentAsNumberingTabStop", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignCellWithSp, "DoNotVertAlignCellWithSp", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotVertAlignInTxbx, "DoNotVertAlignInTxbx", enabledOptions, disabledOptions);
+    AddOptionName(options.DoNotWrapTextWithPunct, "DoNotWrapTextWithPunct", enabledOptions, disabledOptions);
+    AddOptionName(options.FootnoteLayoutLikeWW8, "FootnoteLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ForgetLastTabAlignment, "ForgetLastTabAlignment", enabledOptions, disabledOptions);
+    AddOptionName(options.GrowAutofit, "GrowAutofit", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutRawTableWidth, "LayoutRawTableWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.LayoutTableRowsApart, "LayoutTableRowsApart", enabledOptions, disabledOptions);
+    AddOptionName(options.LineWrapLikeWord6, "LineWrapLikeWord6", enabledOptions, disabledOptions);
+    AddOptionName(options.MWSmallCaps, "MWSmallCaps", enabledOptions, disabledOptions);
+    AddOptionName(options.NoColumnBalance, "NoColumnBalance", enabledOptions, disabledOptions);
+    AddOptionName(options.NoExtraLineSpacing, "NoExtraLineSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.NoLeading, "NoLeading", enabledOptions, disabledOptions);
+    AddOptionName(options.NoSpaceRaiseLower, "NoSpaceRaiseLower", enabledOptions, disabledOptions);
+    AddOptionName(options.NoTabHangInd, "NoTabHangInd", enabledOptions, disabledOptions);
+    AddOptionName(options.OverrideTableStyleFontSizeAndJustification, "OverrideTableStyleFontSizeAndJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintBodyTextBeforeHeader, "PrintBodyTextBeforeHeader", enabledOptions, disabledOptions);
+    AddOptionName(options.PrintColBlack, "PrintColBlack", enabledOptions, disabledOptions);
+    AddOptionName(options.SelectFldWithFirstOrLastChar, "SelectFldWithFirstOrLastChar", enabledOptions, disabledOptions);
+    AddOptionName(options.ShapeLayoutLikeWW8, "ShapeLayoutLikeWW8", enabledOptions, disabledOptions);
+    AddOptionName(options.ShowBreaksInFrames, "ShowBreaksInFrames", enabledOptions, disabledOptions);
+    AddOptionName(options.SpaceForUL, "SpaceForUL", enabledOptions, disabledOptions);
+    AddOptionName(options.SpacingInWholePoints, "SpacingInWholePoints", enabledOptions, disabledOptions);
+    AddOptionName(options.SplitPgBreakAndParaMark, "SplitPgBreakAndParaMark", enabledOptions, disabledOptions);
+    AddOptionName(options.SubFontBySize, "SubFontBySize", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressBottomSpacing, "SuppressBottomSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpBfAfterPgBrk, "SuppressSpBfAfterPgBrk", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressSpacingAtTopOfPage, "SuppressSpacingAtTopOfPage", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacing, "SuppressTopSpacing", enabledOptions, disabledOptions);
+    AddOptionName(options.SuppressTopSpacingWP, "SuppressTopSpacingWP", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapBordersFacingPgs, "SwapBordersFacingPgs", enabledOptions, disabledOptions);
+    AddOptionName(options.SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning, "SwapInsideAndOutsideForMirrorIndentsAndRelativePositioning", enabledOptions, disabledOptions);
+    AddOptionName(options.TransparentMetafiles, "TransparentMetafiles", enabledOptions, disabledOptions);
+    AddOptionName(options.TruncateFontHeightsLikeWP6, "TruncateFontHeightsLikeWP6", enabledOptions, disabledOptions);
+    AddOptionName(options.UICompat97To2003, "UICompat97To2003", enabledOptions, disabledOptions);
+    AddOptionName(options.UlTrailSpace, "UlTrailSpace", enabledOptions, disabledOptions);
+    AddOptionName(options.UnderlineTabInNumList, "UnderlineTabInNumList", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAltKinsokuLineBreakRules, "UseAltKinsokuLineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseAnsiKerningPairs, "UseAnsiKerningPairs", enabledOptions, disabledOptions);
+    AddOptionName(options.UseFELayout, "UseFELayout", enabledOptions, disabledOptions);
+    AddOptionName(options.UseNormalStyleForList, "UseNormalStyleForList", enabledOptions, disabledOptions);
+    AddOptionName(options.UsePrinterMetrics, "UsePrinterMetrics", enabledOptions, disabledOptions);
+    AddOptionName(options.UseSingleBorderforContiguousCells, "UseSingleBorderforContiguousCells", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2002TableStyleRules, "UseWord2002TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord2010TableStyleRules, "UseWord2010TableStyleRules", enabledOptions, disabledOptions);
+    AddOptionName(options.UseWord97LineBreakRules, "UseWord97LineBreakRules", enabledOptions, disabledOptions);
+    AddOptionName(options.WPJustification, "WPJustification", enabledOptions, disabledOptions);
+    AddOptionName(options.WPSpaceWidth, "WPSpaceWidth", enabledOptions, disabledOptions);
+    AddOptionName(options.WrapTrailSpaces, "WrapTrailSpaces", enabledOptions, disabledOptions);
+    Console.WriteLine("\tEnabled options:");
+    foreach (string optionName in enabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+    Console.WriteLine("\tDisabled options:");
+    foreach (string optionName in disabledOptions)
+        Console.WriteLine($"\t\t{optionName}");
+}
 
-        foreach (System.ComponentModel.PropertyDescriptor descriptor in System.ComponentModel.TypeDescriptor.GetProperties(options))
-        {
-            if (descriptor.PropertyType == Type.GetType("System.Boolean") && i == Convert.ToInt32(descriptor.GetValue(options)))
-            {
-                optionNames.Add(descriptor.Name);
-            }
-        }
-
-        foreach (string s in optionNames)
-        {
-            Console.WriteLine($"\t\t{s}");
-        }
-    }
+private static void AddOptionName(Boolean option, String optionName, IList<string> enabledOptions, IList<string> disabledOptions)
+{
+    if (option)
+        enabledOptions.Add(optionName);
+    else
+        disabledOptions.Add(optionName);
 }
 ```
 

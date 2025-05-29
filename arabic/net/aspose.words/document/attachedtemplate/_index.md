@@ -3,14 +3,14 @@ title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
 second_title: Aspose.Words لـ .NET
-description: Document AttachedTemplate ملكية. الحصول على أو تعيين المسار الكامل للقالب المرفق بالمستند في C#.
+description: اكتشف كيفية إدارة خاصية Document AttachedTemplate بكفاءة. حدّد أو استرجاع المسار الكامل لقالب مستندك بسهولة لضمان تكامل سلس.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/document/attachedtemplate/
 ---
 ## Document.AttachedTemplate property
 
-الحصول على أو تعيين المسار الكامل للقالب المرفق بالمستند.
+يحصل على المسار الكامل للقالب المرفق بالمستند أو يعينه.
 
 ```csharp
 public string AttachedTemplate { get; set; }
@@ -20,7 +20,7 @@ public string AttachedTemplate { get; set; }
 
 | استثناء | حالة |
 | --- | --- |
-| ArgumentNullException | يلقي إذا حاولت التعيين على أ`باطل` قيمة. |
+| ArgumentNullException | يتم طرحه إذا حاولت التعيين على`باطل` قيمة. |
 
 ## ملاحظات
 
@@ -33,14 +33,14 @@ public string AttachedTemplate { get; set; }
 ```csharp
 Document doc = new Document();
 
-// تمكين التحديث التلقائي للنمط، ولكن لا ترفق مستند القالب.
+// تمكين تحديث النمط التلقائي، ولكن لا تقم بإرفاق مستند قالب.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// نظرًا لعدم وجود مستند قالب، لم يكن للمستند مكان لتتبع تغييرات النمط.
-// استخدم كائن SaveOptions لتعيين القالب تلقائيًا
-// إذا كانت الوثيقة التي نقوم بحفظها لا تحتوي على واحدة.
+// نظرًا لعدم وجود مستند قالب، لم يكن لدى المستند مكان لتتبع تغييرات الأسلوب.
+// استخدم كائن SaveOptions لتعيين قالب تلقائيًا
+// إذا كان المستند الذي نحفظه لا يحتوي على واحد.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

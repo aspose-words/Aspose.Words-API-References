@@ -3,7 +3,7 @@ title: FormField.TextInputDefault
 linktitle: TextInputDefault
 articleTitle: TextInputDefault
 second_title: Aspose.Words für .NET
-description: FormField TextInputDefault eigendom. Ruft die Standardzeichenfolge oder einen Berechnungsausdruck eines Textformularfelds ab oder legt diese fest in C#.
+description: Entdecken Sie die FormField-Eigenschaft TextInputDefault, legen Sie einfach Standardtext oder -berechnungen für Ihre Formulare fest und verbessern Sie so die Benutzererfahrung und Datengenauigkeit.
 type: docs
 weight: 190
 url: /de/net/aspose.words.fields/formfield/textinputdefault/
@@ -18,11 +18,11 @@ public string TextInputDefault { get; set; }
 
 ## Bemerkungen
 
-Die Bedeutung dieser Eigenschaft hängt vom Wert ab[`TextInputType`](../textinputtype/) Eigentum.
+Die Bedeutung dieser Eigenschaft hängt vom Wert des[`TextInputType`](../textinputtype/) Eigentum.
 
-Wann[`TextInputType`](../textinputtype/) IstRegular or Number, diese Zeichenfolge gibt die Standardzeichenfolge für das Textformularfeld an. Diese Zeichenfolge ist der Inhalt, den Microsoft Word im Dokument anzeigt, wenn das Formularfeld leer ist.
+Wann[`TextInputType`](../textinputtype/) IstRegular oder Numberdiese Zeichenfolge gibt die Standardzeichenfolge für das Textformularfeld an. Diese Zeichenfolge ist der Inhalt, den Microsoft Word im Dokument anzeigt, wenn das Formularfeld leer ist.
 
-Wann[`TextInputType`](../textinputtype/) IstCalculated, dann enthält dieser String den zu berechnenden Ausdruck. Der Ausdruck muss eine Formel sein, die gemäß den Microsoft Word-Formelfield -Anforderungen gültig ist. Wenn Sie mit dieser Eigenschaft einen neuen Ausdruck festlegen, berechnet Aspose.Words automatisch die Formel result und fügt sie in das Formularfeld ein.
+Wann[`TextInputType`](../textinputtype/) IstCalculated, dann enthält diese Zeichenfolge den zu berechnenden Ausdruck. Der Ausdruck muss eine gültige Formel gemäß den Anforderungen der Microsoft Word-Formel field sein. Wenn Sie mit dieser Eigenschaft einen neuen Ausdruck festlegen, berechnet Aspose.Words automatisch die Formel result und fügt sie in das Formularfeld ein.
 
 Microsoft Word erlaubt Zeichenfolgen mit maximal 255 Zeichen.
 
@@ -36,7 +36,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Verwenden Sie einen Document Builder, um ein Kombinationsfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kombinationsfeld einzufügen.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -46,7 +46,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Kontrollkästchen einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Kontrollkästchen einzufügen.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -60,7 +60,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Verwenden Sie einen Dokumentersteller, um ein Texteingabeformularfeld einzufügen.
+    // Verwenden Sie einen Dokumentgenerator, um ein Texteingabeformularfeld einzufügen.
     builder.Write("Enter text here: ");
     FormField textInput = builder.InsertTextInput("MyTextInput", TextFormFieldType.Regular, "", "Placeholder text", 50);
     textInput.EntryMacro = "EntryMacro";
@@ -83,7 +83,7 @@ public void Visitor()
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Zulassen, dass jedes Formularfeld einen Dokumentbesucher akzeptiert.
+    // Erlauben Sie jedem Formularfeld, einen Dokumentbesucher zu akzeptieren.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -97,7 +97,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Besucherimplementierung, die Details der besuchten Formularfelder ausgibt.
+    /// Besucherimplementierung, die Details der besuchten Formularfelder druckt.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -138,7 +138,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt der aktuellen Ausgabe durch Zeilenumbrüche terminierten Text hinzu.
+    /// Fügt der aktuellen Ausgabe durch ein Zeichen abgeschlossenen Zeilenumbruchtext hinzu.
     /// </summary>
     private void AppendLine(string text)
     {

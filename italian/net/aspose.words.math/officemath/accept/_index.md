@@ -3,7 +3,7 @@ title: OfficeMath.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: OfficeMath Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo Accept di OfficeMath per una gestione semplificata dei visitatori. Migliora il tuo flusso di lavoro con una facile integrazione e una maggiore efficienza!
 type: docs
 weight: 60
 url: /it/net/aspose.words.math/officemath/accept/
@@ -26,15 +26,15 @@ Vero se tutti i nodi sono stati visitati; falso se[`DocumentVisitor`](../../../a
 
 ## Osservazioni
 
-Enumera questo nodo e tutti i relativi figli. Ogni nodo chiama un metodo corrispondente[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Enumera questo nodo e tutti i suoi figli. Ogni nodo chiama un metodo corrispondente su[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
-Chiamate[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , poi chiama[`Accept`](../../../aspose.words/node/accept/) per all nodi figlio di Office Math e chiamate[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) alla fine.
+Chiamate[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , quindi chiama[`Accept`](../../../aspose.words/node/accept/) per tutti i nodi figlio di Office Math e chiamate[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) alla fine.
 
 ## Esempi
 
-Mostra come stampare la struttura dei nodi di ogni nodo matematico di Office in un documento.
+Mostra come stampare la struttura di ogni nodo matematico d'ufficio in un documento.
 
 ```csharp
 public void OfficeMathToText()
@@ -42,8 +42,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -52,7 +52,7 @@ public void OfficeMathToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi OfficeMath incontrati e dei relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi OfficeMath rilevati e dei relativi elementi figlio.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -63,7 +63,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -71,7 +71,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -93,7 +93,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi secondari di un nodo OfficeMath sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo OfficeMath.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -105,7 +105,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

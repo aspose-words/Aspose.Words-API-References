@@ -3,14 +3,14 @@ title: CertificateHolder.Create
 linktitle: Create
 articleTitle: Create
 second_title: Aspose.Words för .NET
-description: CertificateHolder Create metod. SkaparCertificateHolder objekt som använder bytearrayen i PKCS12arkivet och dess lösenord i C#.
+description: Skapa enkelt ett CertificateHolder-objekt från en PKCS12-byte-array och lösenord. Förenkla certifikathanteringen med vår intuitiva metod.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 ## Create(*byte[], SecureString*) {#create}
 
-Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord.
+Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen för PKCS12-arkivet och dess lösenord.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, SecureString password)
@@ -29,42 +29,38 @@ Ett exempel på[`CertificateHolder`](../)
 
 | undantag | skick |
 | --- | --- |
-| InvalidParameterException | Kastas om*certBytes* är`null` |
-| InvalidParameterException | Kastas om*password* är`null` |
-| SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
-| IOException | Kastas om det finns fel lösenord eller skadad fil. |
+| InvalidParameterException | Kastad om*certBytes* är`null` |
+| InvalidParameterException | Kastad om*password* är`null` |
+| SecurityException | Utlöses om PKCS12-arkivet inte innehåller några alias |
+| IOException | Körs om det finns fel lösenord eller en skadad fil. |
 
 ## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
 ```csharp
-// Nedan finns fyra sätt att skapa CertificateHolder-objekt.
-// 1 - Ladda en PKCS #12-fil i en byte-array och använd dess lösenord:
+// Nedan följer fyra sätt att skapa CertificateHolder-objekt.
+// 1 - Ladda in en PKCS #12-fil i en byte-array och använd dess lösenord:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Ladda en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
+// 2 - Ladda in en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Om certifikatet har privata nycklar som motsvarar alias,
-// vi kan använda aliasen för att hämta deras respektive nycklar. Först kommer vi att leta efter giltiga alias.
+// vi kan använda aliasen för att hämta deras respektive nycklar. Först kontrollerar vi om det finns giltiga alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
@@ -86,7 +82,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*byte[], string*) {#create_1}
 
-Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen i PKCS12-arkivet och dess lösenord.
+Skapar[`CertificateHolder`](../) objekt som använder byte-arrayen för PKCS12-arkivet och dess lösenord.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, string password)
@@ -105,42 +101,38 @@ Ett exempel på[`CertificateHolder`](../)
 
 | undantag | skick |
 | --- | --- |
-| InvalidParameterException | Kastas om*certBytes* är`null` |
-| InvalidParameterException | Kastas om*password* är`null` |
-| SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
-| IOException | Kastas om det finns fel lösenord eller skadad fil. |
+| InvalidParameterException | Kastad om*certBytes* är`null` |
+| InvalidParameterException | Kastad om*password* är`null` |
+| SecurityException | Utlöses om PKCS12-arkivet inte innehåller några alias |
+| IOException | Körs om det finns fel lösenord eller en skadad fil. |
 
 ## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
 ```csharp
-// Nedan finns fyra sätt att skapa CertificateHolder-objekt.
-// 1 - Ladda en PKCS #12-fil i en byte-array och använd dess lösenord:
+// Nedan följer fyra sätt att skapa CertificateHolder-objekt.
+// 1 - Ladda in en PKCS #12-fil i en byte-array och använd dess lösenord:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Ladda en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
+// 2 - Ladda in en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Om certifikatet har privata nycklar som motsvarar alias,
-// vi kan använda aliasen för att hämta deras respektive nycklar. Först kommer vi att leta efter giltiga alias.
+// vi kan använda aliasen för att hämta deras respektive nycklar. Först kontrollerar vi om det finns giltiga alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
@@ -162,7 +154,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*string, string*) {#create_2}
 
-Skapar[`CertificateHolder`](../) objekt som använder sökvägen till PKCS12-butiken och dess lösenord.
+Skapar[`CertificateHolder`](../)objekt med sökvägen till PKCS12-arkivet och dess lösenord.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password)
@@ -181,17 +173,17 @@ Ett exempel på[`CertificateHolder`](../)
 
 | undantag | skick |
 | --- | --- |
-| InvalidParameterException | Kastas om*fileName* är`null` |
-| InvalidParameterException | Kastas om*password* är`null` |
-| SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
-| IOException | Kastas om det finns fel lösenord eller skadad fil. |
+| InvalidParameterException | Kastad om*fileName* är`null` |
+| InvalidParameterException | Kastad om*password* är`null` |
+| SecurityException | Utlöses om PKCS12-arkivet inte innehåller några alias |
+| IOException | Körs om det finns fel lösenord eller en skadad fil. |
 
 ## Exempel
 
-Visar hur man digitalt signerar dokument.
+Visar hur man signerar dokument digitalt.
 
 ```csharp
-// Skapa ett X.509-certifikat från en PKCS#12-butik, som bör innehålla en privat nyckel.
+// Skapa ett X.509-certifikat från ett PKCS#12-arkiv, vilket ska innehålla en privat nyckel.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Skapa en kommentar och ett datum som kommer att tillämpas med vår nya digitala signatur.
@@ -201,7 +193,7 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// Ta ett osignerat dokument från det lokala filsystemet via en filström,
+// Hämta ett osignerat dokument från det lokala filsystemet via en filström,
 // skapa sedan en signerad kopia av den som bestäms av filnamnet på utdatafilströmmen.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
@@ -222,7 +214,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Create(*string, string, string*) {#create_3}
 
-Skapar[`CertificateHolder`](../) objekt som använder sökvägen till PKCS12-arkivet, dess lösenord och alias genom att använda vilken privat nyckel och certifikat som kommer att hittas.
+Skapar[`CertificateHolder`](../) objekt med sökvägen till PKCS12-arkivet, dess lösenord och alias med vilket privat nyckel och certifikat som ska hittas.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password, string alias)
@@ -242,43 +234,39 @@ Ett exempel på[`CertificateHolder`](../)
 
 | undantag | skick |
 | --- | --- |
-| InvalidParameterException | Kastas om*fileName* är`null` |
-| InvalidParameterException | Kastas om*password* är`null` |
-| SecurityException | Kastas om PKCS12-butiken inte innehåller några alias |
-| IOException | Kastas om det finns fel lösenord eller skadad fil. |
-| SecurityException | Kastas om det inte finns någon privat nyckel med det givna aliaset |
+| InvalidParameterException | Kastad om*fileName* är`null` |
+| InvalidParameterException | Kastad om*password* är`null` |
+| SecurityException | Utlöses om PKCS12-arkivet inte innehåller några alias |
+| IOException | Körs om det finns fel lösenord eller en skadad fil. |
+| SecurityException | Utlöses om det inte finns någon privat nyckel med angivet aliaset |
 
 ## Exempel
 
 Visar hur man skapar CertificateHolder-objekt.
 
 ```csharp
-// Nedan finns fyra sätt att skapa CertificateHolder-objekt.
-// 1 - Ladda en PKCS #12-fil i en byte-array och använd dess lösenord:
+// Nedan följer fyra sätt att skapa CertificateHolder-objekt.
+// 1 - Ladda in en PKCS #12-fil i en byte-array och använd dess lösenord:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Ladda en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
+// 2 - Ladda in en PKCS #12-fil i en byte-array och använd ett säkert lösenord:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Om certifikatet har privata nycklar som motsvarar alias,
-// vi kan använda aliasen för att hämta deras respektive nycklar. Först kommer vi att leta efter giltiga alias.
+// vi kan använda aliasen för att hämta deras respektive nycklar. Först kontrollerar vi om det finns giltiga alias.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }

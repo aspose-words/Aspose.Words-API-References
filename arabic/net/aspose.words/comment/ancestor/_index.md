@@ -3,14 +3,14 @@ title: Comment.Ancestor
 linktitle: Ancestor
 articleTitle: Ancestor
 second_title: Aspose.Words لـ .NET
-description: Comment Ancestor ملكية. إرجاع الأصلComment هدف. عائداتباطل للحصول على تعليقات عالية المستوى في C#.
+description: استرجع كائن التعليق الرئيسي باستخدام خاصية "الأسلاف". مثالي للتنقل بين سلاسل التعليقات وتعزيز تفاعل المستخدمين.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/comment/ancestor/
 ---
 ## Comment.Ancestor property
 
-إرجاع الأصل[`Comment`](../) هدف. عائدات`باطل` للحصول على تعليقات عالية المستوى.
+يعيد الأصل[`Comment`](../)الكائن. يعود`باطل` للحصول على تعليقات المستوى الأعلى.
 
 ```csharp
 public Comment Ancestor { get; }
@@ -18,15 +18,15 @@ public Comment Ancestor { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة كافة تعليقات المستند والردود عليها.
+يوضح كيفية طباعة كافة تعليقات المستند وردودها.
 
 ```csharp
 Document doc = new Document(MyDir + "Comments.docx");
 
 NodeCollection comments = doc.GetChildNodes(NodeType.Comment, true);
-// إذا لم يكن للتعليق أصل، فهو تعليق "المستوى الأعلى" وليس تعليقًا من نوع الرد.
+// إذا لم يكن للتعليق سلف، فهو تعليق "على مستوى أعلى" وليس تعليق من نوع الرد.
 // اطبع جميع التعليقات ذات المستوى الأعلى بالإضافة إلى أي ردود قد تكون لديهم.
-foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null))
+foreach (Comment comment in comments.OfType<Comment>().Where(c => c.Ancestor == null).ToList())
 {
     Console.WriteLine("Top-level comment:");
     Console.WriteLine($"\t\"{comment.GetText().Trim()}\", by {comment.Author}");

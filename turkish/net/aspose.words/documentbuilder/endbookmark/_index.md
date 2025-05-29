@@ -2,8 +2,8 @@
 title: DocumentBuilder.EndBookmark
 linktitle: EndBookmark
 articleTitle: EndBookmark
-second_title: Aspose.Words for .NET
-description: DocumentBuilder EndBookmark yöntem. Belgedeki geçerli konumu yer imi sonu olarak işaretler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizdeki bir yer iminin sonunu DocumentBuilder'ın EndBookmark yöntemiyle zahmetsizce işaretleyin, belgenizin organizasyonunu ve gezinmesini geliştirin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words/documentbuilder/endbookmark/
@@ -22,23 +22,23 @@ public BookmarkEnd EndBookmark(string bookmarkName)
 
 ### Geri dönüş değeri
 
-Yeni oluşturulan yer imi bitiş düğümü.
+Az önce oluşturulan yer imi bitiş düğümü.
 
 ## Notlar
 
-Bir belgedeki yer imleri herhangi bir aralıkla örtüşebilir ve yayılabilir. Geçerli bir yer imi oluşturmak için her ikisini de aramanız gerekir[`StartBookmark`](../startbookmark/) Ve`EndBookmark` aynısıyla*bookmarkName* parametresi.
+Bir belgedeki yer imleri herhangi bir aralığı kaplayabilir ve örtüşebilir. Geçerli bir yer imi oluşturmak için her ikisini de çağırmanız gerekir [`StartBookmark`](../startbookmark/) Ve`EndBookmark` aynı şekilde*bookmarkName* parametresi.
 
-Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri, belge kaydedildiğinde göz ardı edilecektir.
+Kötü biçimlendirilmiş yer imleri veya yinelenen adlara sahip yer imleri belge kaydedilirken yok sayılacaktır.
 
 ## Örnekler
 
-Yer iminin nasıl oluşturulduğunu gösterir.
+Bir yer imi oluşturmanın nasıl yapıldığını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Geçerli bir yer iminin, belge gövde metnini içine alması gerekir
+// Geçerli bir yer iminin, belge gövde metninin içine alınması gerekir
 // Eşleşen bir yer imi adıyla oluşturulan BookmarkStart ve BookmarkEnd düğümleri.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
@@ -49,7 +49,7 @@ Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
 Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-Yerel bir yer imine başvuran bir köprünün nasıl ekleneceğini gösterir.
+Yerel bir yer imine referans veren bir köprü metninin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Yer imine bağlanan bir KÖPRÜ alanı ekleyin. Alan anahtarlarını geçebiliriz
-// başvurulan yer iminin adını içeren bağımsız değişkenin bir parçası olarak "InsertHyperlink" yöntemine.
+// Yer imine bağlanan bir HYPERLINK alanı ekleyin. Alan anahtarlarını geçebiliriz
+// başvurulan yer iminin adını içeren argümanın bir parçası olarak "InsertHyperlink" yöntemine.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

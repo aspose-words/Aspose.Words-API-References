@@ -2,8 +2,8 @@
 title: ChartXValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartXValue FromTimeSpan 方法. 创建一个ChartXValue的实例Time类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartXValue FromTimeSpan 方法，轻松创建时间类型实例并增强您的数据可视化体验。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/fromtimespan/

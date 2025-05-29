@@ -3,9 +3,9 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.PageBorderAppliesTo تعداد. يحدد الصفحات التي سيتم طباعة حدود الصفحة عليها في C#.
+description: اكتشف Aspose.Words.PageBorderAppliesTo للتحكم في طباعة حدود الصفحة عبر صفحات محددة لتحسين تنسيق المستندات.
 type: docs
-weight: 4340
+weight: 5070
 url: /ar/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
@@ -20,13 +20,13 @@ public enum PageBorderAppliesTo
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| AllPages | `0` | يظهر حد الصفحة في جميع صفحات القسم. |
-| FirstPage | `1` | يظهر حد الصفحة في الصفحة الأولى من القسم فقط. |
-| OtherPages | `2` | يظهر حد الصفحة في جميع الصفحات باستثناء الصفحة الأولى من القسم. |
+| AllPages | `0` | يتم عرض حدود الصفحة في جميع صفحات القسم. |
+| FirstPage | `1` | يتم عرض حدود الصفحة في الصفحة الأولى من القسم فقط. |
+| OtherPages | `2` | يتم عرض حدود الصفحة في جميع الصفحات باستثناء الصفحة الأولى من القسم. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حدود ذات شريط أزرق عريض في الجزء العلوي من الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

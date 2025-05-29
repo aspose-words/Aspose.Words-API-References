@@ -3,16 +3,16 @@ title: FieldStart Class
 linktitle: FieldStart
 articleTitle: FieldStart
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fields.FieldStart сорт. Представляет начало поля Word в документе на С#.
+description: Откройте для себя класс Aspose.Words.Fields.FieldStart, ваш ключ к эффективному управлению полями Word в документах. Улучшите обработку документов сегодня!
 type: docs
-weight: 2430
+weight: 2840
 url: /ru/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
 
 Представляет начало поля Word в документе.
 
-Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) статья документации.
+Чтобы узнать больше, посетите[Работа с полями](https://docs.aspose.com/words/net/working-with-fields/) документальная статья.
 
 ```csharp
 public class FieldStart : FieldChar
@@ -23,24 +23,24 @@ public class FieldStart : FieldChar
 | Имя | Описание |
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Указывает пользовательский идентификатор узла. |
-| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, которому принадлежит этот узел. |
-| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Получает данные настраиваемого поля, связанные с полем. |
+| virtual [Document](../../aspose.words/node/document/) { get; } | Получает документ, к которому принадлежит этот узел. |
+| [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Получает данные пользовательского поля, связанные с полем. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Возвращает тип поля. |
 | [Font](../../aspose.words/inline/font/) { get; } | Предоставляет доступ к форматированию шрифта этого объекта. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возвращает`истинный` если этот узел может содержать другие узлы. |
-| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Возвращает true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Получает или устанавливает, является ли текущий результат поля более неправильным (устаревшим) из-за других изменений , внесенных в документ. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Возвращает true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
-| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Возвращает true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
-| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Получает или задает, заблокировано ли родительское поле (не следует пересчитывать его результат). |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Возвращает`истинный` если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Возвращает`истинный` если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за этим узлом. |
-| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | ВозвращаетFieldStart . |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Возврат`истинный` если этот узел может содержать другие узлы. |
+| [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Возвращает значение true, если этот объект был удален в Microsoft Word при включенном отслеживании изменений. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Возвращает или задает, является ли текущий результат поля более неверным (устаревшим) из-за других изменений , внесенных в документ. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Возвращает значение true, если форматирование объекта было изменено в Microsoft Word при включенном отслеживании изменений. |
+| [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Возвращает значение true, если этот объект был вставлен в Microsoft Word при включенном отслеживании изменений. |
+| [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Возвращает или задает, заблокировано ли родительское поле (не следует пересчитывать его результат). |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Возврат`истинный` если этот объект был перемещен (удален) в Microsoft Word при включенном отслеживании изменений. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Возврат`истинный` если этот объект был перемещен (вставлен) в Microsoft Word при включенном отслеживании изменений. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Получает узел, следующий сразу за данным узлом. |
+| override [NodeType](../../aspose.words.fields/fieldstart/nodetype/) { get; } | ВозвратFieldStart . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Получает непосредственного родителя этого узла. |
-| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Получает родительский элемент[`Paragraph`](../../aspose.words/paragraph/) этого узла. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий этому узлу. |
-| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/) объект, представляющий часть документа, содержащуюся в этом узле. |
+| [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Возвращает родителя[`Paragraph`](../../aspose.words/paragraph/) этого узла. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Получает узел, непосредственно предшествующий данному узлу. |
+| [Range](../../aspose.words/node/range/) { get; } | Возвращает[`Range`](../../aspose.words/range/)объект, представляющий часть документа, содержащуюся в этом узле. |
 
 ## Методы
 
@@ -52,25 +52,25 @@ public class FieldStart : FieldChar
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Получает первого предка указанного типа объекта. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Возвращает поле для поля char. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Получает специальный символ, который представляет этот узел. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного заказа. |
-| [Remove](../../aspose.words/node/remove/)() | Удаляет себя от родителя. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Получает следующий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Получает предыдущий узел в соответствии с алгоритмом обхода дерева предварительного порядка. |
+| [Remove](../../aspose.words/node/remove/)() | Удаляет себя из родителя. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Экспортирует содержимое узла в строку указанного формата. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Экспортирует содержимое узла в строку, используя указанные параметры сохранения. |
 
 ## Примечания
 
-`FieldStart` является узлом встроенного уровня и представлен the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) управляющий символ в документе.
+`FieldStart` является узлом встроенного уровня и представлен как the [`FieldStartChar`](../../aspose.words/controlchar/fieldstartchar/) управляющий символ в документе.
 
 `FieldStart` может быть только ребенком[`Paragraph`](../../aspose.words/paragraph/).
 
-Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из начального символа поля, кода поля, символа разделителя полей, поля result и конечного символа поля. Некоторые поля имеют только начало поля, код поля и конец поля.
+Полное поле в документе Microsoft Word представляет собой сложную структуру, состоящую из символа начала поля, кода поля, символа разделителя полей, результата поля и символа конца поля. Некоторые поля имеют только начало поля, код поля и конец поля.
 
-Чтобы легко вставить новое поле в документ, используйте команду[`InsertField`](../../aspose.words/documentbuilder/insertfield/) метод.
+Чтобы легко вставить новое поле в документ, используйте[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Метод .
 
 ## Примеры
 
-Показывает, как работать с коллекцией полей.
+Показывает, как работать с набором полей.
 
 ```csharp
 public void FieldCollection()
@@ -90,7 +90,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Перебираем коллекцию полей, выводим содержимое и печатаем
+    // Проходим по коллекции полей и выводим содержимое и тип
     // каждого поля с использованием пользовательской реализации посетителя.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -115,7 +115,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Реализация посетителя документа, который печатает информацию о поле.
+/// Реализация посетителя документа, который выводит информацию о поле.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -125,7 +125,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -187,8 +187,8 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Гиперссылки в документах Word — это поля. Чтобы начать поиск гиперссылок, мы должны сначала найти все поля.
-            // Используйте метод SelectNodes, чтобы найти все поля в документе через XPath.
+            // Гиперссылки в документах Word — это поля. Чтобы начать искать гиперссылки, мы должны сначала найти все поля.
+            // Используйте метод «SelectNodes» для поиска всех полей в документе с помощью XPath.
             NodeList fieldStarts = doc.SelectNodes("//FieldStart");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
@@ -201,7 +201,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Даем каждой URL-гиперссылке новый URL-адрес и имя.
+                    // Дайте каждой гиперссылке URL новый URL и имя.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -217,7 +217,7 @@ namespace ApiExamples
      ///<summary>
       ///Поля HYPERLINK содержат и отображают гиперссылки в теле документа. Поле в Aspose.Words
       ///состоит из нескольких узлов, и может быть сложно работать со всеми этими узлами напрямую.
-     ///Эта реализация будет работать, только если код и имя гиперссылки состоят только из одного узла Run.
+     ///Эта реализация будет работать только в том случае, если код и имя гиперссылки состоят только из одного узла Run.
     ///
      ///Структура узла для полей следующая:
      ///
@@ -240,18 +240,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Находим узел разделителя полей.
+            // Найти узел разделителя полей.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Обычно мы всегда можем найти конечный узел поля, но пример документа
-             // содержит разрыв абзаца внутри гиперссылки, что ставит конец поля
-            // в следующем абзаце. Гораздо сложнее будет обрабатывать поля, охватывающие несколько
-            // абзацы правильно. В этом случае достаточно разрешить, чтобы конец поля был нулевым.
+             // Обычно мы всегда можем найти конечный узел поля, но в примере документа
+             // содержит разрыв абзаца внутри гиперссылки, что переводит поле в конец
+             // в следующем абзаце. Будет гораздо сложнее обрабатывать поля, которые охватывают несколько
+            // абзацы правильно. В этом случае достаточно разрешить полю end быть null.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Код поля выглядит примерно так: «ГИПЕРССЫЛКА «http:\\www.myurl.com»», но может состоять из нескольких прогонов.
+            // Код поля выглядит примерно так: «HYPERLINK "http:\\www.myurl.com"», но может состоять из нескольких строк.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -265,10 +265,13 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Отображаемое имя гиперссылки сохраняется в поле результата, которое представляет собой строку «Выполнить».
+                 // Отображаемое имя гиперссылки сохраняется в поле result, которое является Run
                 // узел между разделителем полей и концом поля.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
@@ -283,7 +286,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -296,7 +302,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -306,7 +315,7 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Код поля поля находится в узле Run между начальным узлом поля и разделителем полей.
+            // Код поля находится в узле Run между начальным узлом поля и разделителем полей.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
@@ -368,12 +377,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Одно или несколько ГИПЕРССЫЛОК без пробелов или другое слово на других языках.
+            "\\S+" + // Одна или несколько ГИПЕРССЫЛОК без пробелов или других слов на других языках.
             "\\s+" + // Один или несколько пробелов.
-            "(?:\"\"\\s+)?" + // Незахватывающий необязательный "" и один или несколько пробелов.
+            "(?:\"\"\\s+)?" + // Необязательный незахватывающий символ "" и один или несколько пробелов.
             "(\\\\l\\s+)?" + // Необязательный флаг \l, за которым следует один или несколько пробелов.
             "\"" +  // Один апостроф.
-            "([^\"]+)" + // Один или несколько символов, исключая апостроф (цель гиперссылки).
+            "([^\"]+)" + // Один или несколько символов, за исключением апострофа (цель гиперссылки).
             "\"" // Один закрывающий апостроф.
         );
     }

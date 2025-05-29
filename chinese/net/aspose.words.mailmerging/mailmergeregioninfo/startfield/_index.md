@@ -2,15 +2,15 @@
 title: MailMergeRegionInfo.StartField
 linktitle: StartField
 articleTitle: StartField
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMergeRegionInfo StartField 财产. 返回区域的起始字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 MailMergeRegionInfo StartField 属性 - 有效检索合并区域的起始字段并简化文档自动化。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/
 ---
 ## MailMergeRegionInfo.StartField property
 
-返回区域的起始字段。
+返回该区域的起始字段。
 
 ```csharp
 public FieldMergeField StartField { get; }
@@ -18,7 +18,7 @@ public FieldMergeField StartField { get; }
 
 ## 例子
 
-演示如何验证邮件合并区域。
+显示如何验证邮件合并区域。
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // 获取第一个顶部区域内的字段列表。
 IList<Field> fieldList = topRegions[0].Fields;

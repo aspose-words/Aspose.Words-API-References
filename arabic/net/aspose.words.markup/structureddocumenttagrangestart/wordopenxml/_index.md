@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.WordOpenXML
 linktitle: WordOpenXML
 articleTitle: WordOpenXML
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart WordOpenXML ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق في C#.
+description: اكتشف خاصية StructuredDocumentTagRangeStart في WordOpenXML. تمتع بالوصول إلى بيانات XML بتنسيق FlatOpc لتحسين إدارة المستندات وتخصيصها.
 type: docs
 weight: 170
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/wordopenxml/
 ---
 ## StructuredDocumentTagRangeStart.WordOpenXML property
 
-يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc التنسيق.
+يحصل على سلسلة تمثل XML الموجود داخل العقدة فيFlatOpc تنسيق.
 
 ```csharp
 public string WordOpenXML { get; }
@@ -18,7 +18,7 @@ public string WordOpenXML { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

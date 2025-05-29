@@ -2,15 +2,15 @@
 title: FramesetCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: FramesetCollection GetEnumerator yöntem. Koleksiyonda yinelenen bir numaralandırıcı döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Koleksiyonunuz içinde verimli bir şekilde yineleme yaparak veri yönetimini ve erişilebilirliği geliştiren FramesetCollection GetEnumerator metodunu keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.framesets/framesetcollection/getenumerator/
 ---
 ## FramesetCollection.GetEnumerator method
 
-Koleksiyonda yinelenen bir numaralandırıcı döndürür.
+Koleksiyonda yineleme yapan bir numaralandırıcı döndürür.
 
 ```csharp
 public IEnumerator<Frameset> GetEnumerator()

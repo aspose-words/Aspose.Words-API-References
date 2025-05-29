@@ -3,14 +3,14 @@ title: Font.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words för .NET
-description: Font Spacing fast egendom. Returnerar eller ställer in avståndet i punkter mellan tecknen  i C#.
+description: Upptäck egenskapen Teckenavstånd för att enkelt justera teckenavståndet i punkter. Förbättra läsbarhet och design med exakt typografisk kontroll.
 type: docs
-weight: 380
+weight: 390
 url: /sv/net/aspose.words/font/spacing/
 ---
 ## Font.Spacing property
 
-Returnerar eller ställer in avståndet (i punkter) mellan tecknen .
+Returnerar eller anger avståndet (i punkter) mellan tecken.
 
 ```csharp
 public double Spacing { get; set; }
@@ -24,15 +24,15 @@ Visar hur man ställer in horisontell skalning och avstånd för tecken.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till en serie text och öka teckenbredden till 150 %.
+// Lägg till textlängd och öka teckenbredden till 150 %.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// Lägg till en serie text och lägg till 1 pkt extra horisontellt mellanrum mellan varje tecken.
+// Lägg till textlängd och lägg till 1 pt extra horisontellt avstånd mellan varje tecken.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// Lägg till en rad text och för tecknen närmare varandra med 1 pkt.
+// Lägg till textlängd och för tecknen närmare varandra med 1 pt.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

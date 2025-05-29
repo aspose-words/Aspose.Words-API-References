@@ -3,14 +3,14 @@ title: CsvDataLoadOptions.CommentChar
 linktitle: CommentChar
 articleTitle: CommentChar
 second_title: Aspose.Words для .NET
-description: CsvDataLoadOptions CommentChar свойство. Получает или задает символ используемый для комментариев строк данных CSV на С#.
+description: Узнайте, как настроить свойство CommentChar в CsvDataLoadOptions для улучшения обработки данных CSV. Оптимизируйте загрузку данных сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.reporting/csvdataloadoptions/commentchar/
 ---
 ## CsvDataLoadOptions.CommentChar property
 
-Получает или задает символ, используемый для комментариев строк данных CSV.
+Возвращает или задает символ, который используется для комментариев к строкам данных CSV.
 
 ```csharp
 public char CommentChar { get; set; }
@@ -18,7 +18,26 @@ public char CommentChar { get; set; }
 
 ## Примечания
 
-Значение по умолчанию — «#» (знак номера).
+Значение по умолчанию — «#» (знак числа).
+
+## Примеры
+
+Показывает, как использовать CSV в качестве источника данных (строка).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### Смотрите также
 

@@ -3,14 +3,14 @@ title: StructuredDocumentTag.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag LockContentControl свойство. Если установлено значениеистинный  это свойство запретит пользователю удалять этоСДТ  на С#.
+description: Узнайте, как свойство StructuredDocumentTag LockContentControl повышает безопасность документа, не давая пользователям удалять важный контент. Узнайте больше!
 type: docs
 weight: 190
 url: /ru/net/aspose.words.markup/structureddocumenttag/lockcontentcontrol/
 ---
 ## StructuredDocumentTag.LockContentControl property
 
-Если установлено значение`истинный` , это свойство запретит пользователю удалять это**СДТ** .
+При установке на`истинный` , это свойство запретит пользователю удалять это**СДТ** .
 
 ```csharp
 public bool LockContentControl { get; set; }
@@ -18,24 +18,24 @@ public bool LockContentControl { get; set; }
 
 ## Примеры
 
-Показывает, как применить ограничения редактирования к тегам структурированного документа.
+Показывает, как применять ограничения редактирования к структурированным тегам документа.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставьте тег структурированного документа в виде простого текста, который действует как текстовое поле, предлагающее пользователю его заполнить.
+// Вставьте структурированный тег документа с простым текстом, который действует как текстовое поле, предлагающее пользователю заполнить его.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Установите для свойства «LockContents» значение «true», чтобы запретить пользователю редактировать содержимое этого текстового поля.
+// Установите свойство «LockContents» в значение «true», чтобы запретить пользователю редактировать содержимое этого текстового поля.
 tag.LockContents = true;
 builder.Write("The contents of this structured document tag cannot be edited: ");
 builder.InsertNode(tag);
 
 tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
-// Установите для свойства «LockContentControl» значение «true», чтобы запретить пользователю
-// удаление этого тега структурированного документа вручную в Microsoft Word.
+// Установите свойство "LockContentControl" в значение "true", чтобы запретить пользователю
+// удаление этого структурированного тега документа вручную в Microsoft Word.
 tag.LockContentControl = true;
 
 builder.InsertParagraph();

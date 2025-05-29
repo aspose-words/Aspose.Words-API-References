@@ -2,8 +2,8 @@
 title: FieldRevNum
 linktitle: FieldRevNum
 articleTitle: FieldRevNum
-second_title: Aspose.Words for .NET
-description: FieldRevNum inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldRevNum oluşturucusunu keşfedin! Gelişmiş performans için varsayılan oluşturucumuzla kusursuz entegrasyonun ve verimli işlevselliğin kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldrevnum/fieldrevnum/

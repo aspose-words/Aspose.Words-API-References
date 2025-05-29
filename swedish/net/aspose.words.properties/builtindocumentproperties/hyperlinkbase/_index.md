@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.HyperlinkBase
 linktitle: HyperlinkBase
 articleTitle: HyperlinkBase
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties HyperlinkBase fast egendom. Anger bassträngen som används för att utvärdera relativa hyperlänkar i detta dokument i C#.
+description: Upptäck egenskapen BuiltInDocumentProperties HyperlinkBase för att optimera relativa hyperlänkar i dina dokument för sömlös navigering och förbättrad användarupplevelse.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -32,15 +32,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Genom att klicka på länken i Microsoft Word öppnas det angivna dokumentet, om det är tillgängligt.
 builder.InsertHyperlink("Relative hyperlink", "Document.docx", false);
 
-// Denna länk är relativ. Om det inte finns något "Document.docx" i samma mapp
-// som dokumentet som innehåller denna länk kommer länken att brytas.
+// Denna länk är relativ. Om det inte finns någon "Document.docx" i samma mapp
+// eftersom dokumentet som innehåller den här länken, kommer länken att vara trasig.
 Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
 // Dokumentet vi försöker länka till finns i en annan katalog än den vi planerar att spara dokumentet i.
- // Vi skulle kunna fixa sådana här länkar genom att ange ett absolut filnamn i var och en.
-// Alternativt kan vi tillhandahålla en baslänk som varje hyperlänk med ett relativt filnamn
- // kommer att läggas till länken när vi klickar på den.
+ // Vi skulle kunna fixa den här typen av länkar genom att lägga till ett absolut filnamn i var och en.
+// Alternativt kan vi tillhandahålla en baslänk som varje hyperlänk har ett relativt filnamn
+ // kommer att läggas till i sin länk när vi klickar på den.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 

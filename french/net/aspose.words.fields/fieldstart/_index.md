@@ -3,16 +3,16 @@ title: FieldStart Class
 linktitle: FieldStart
 articleTitle: FieldStart
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FieldStart classe. Représente le début dun champ Word dans un document en C#.
+description: Découvrez la classe Aspose.Words.Fields.FieldStart, la clé pour gérer efficacement les champs Word dans vos documents. Améliorez le traitement de vos documents dès aujourd'hui !
 type: docs
-weight: 2430
+weight: 2840
 url: /fr/net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
 
 Représente le début d'un champ Word dans un document.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class FieldStart : FieldChar
@@ -26,11 +26,11 @@ public class FieldStart : FieldChar
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtient le document auquel appartient ce nœud. |
 | [FieldData](../../aspose.words.fields/fieldstart/fielddata/) { get; } | Obtient les données de champ personnalisées associées au champ. |
 | [FieldType](../../aspose.words.fields/fieldchar/fieldtype/) { get; } | Renvoie le type du champ. |
-| [Font](../../aspose.words/inline/font/) { get; } | Donne accès au formatage de la police de cet objet. |
+| [Font](../../aspose.words/inline/font/) { get; } | Donne accès à la mise en forme de la police de cet objet. |
 | virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Retours`vrai` si ce nœud peut contenir d'autres nœuds. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Renvoie vrai si cet objet a été supprimé dans Microsoft Word alors que le suivi des modifications était activé. |
-| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (périmé) en raison d'autres modifications apportées au document. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie vrai si le formatage de l'objet a été modifié dans Microsoft Word alors que le suivi des modifications était activé. |
+| [IsDirty](../../aspose.words.fields/fieldchar/isdirty/) { get; set; } | Obtient ou définit si le résultat actuel du champ n'est plus correct (obsolète) en raison d'autres modifications apportées au document. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Renvoie true si la mise en forme de l'objet a été modifiée dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé. |
 | [IsLocked](../../aspose.words.fields/fieldchar/islocked/) { get; set; } | Obtient ou définit si le champ parent est verrouillé (ne doit pas recalculer son résultat). |
 | [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Retours`vrai` si cet objet a été déplacé (supprimé) dans Microsoft Word alors que le suivi des modifications était activé. |
@@ -40,23 +40,23 @@ public class FieldStart : FieldChar
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtient le parent immédiat de ce nœud. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Récupère le parent[`Paragraph`](../../aspose.words/paragraph/) de ce nœud. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtient le nœud précédant immédiatement ce nœud. |
-| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/) objet qui représente la partie d'un document contenue dans ce nœud. |
+| [Range](../../aspose.words/node/range/) { get; } | Renvoie un[`Range`](../../aspose.words/range/)objet qui représente la partie d'un document contenue dans ce nœud. |
 
 ## Méthodes
 
 | Nom | La description |
 | --- | --- |
 | override [Accept](../../aspose.words.fields/fieldstart/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepte un visiteur. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un duplicata du nœud. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Crée un doublon du nœud. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Obtient le premier ancêtre du spécifié[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtient le premier ancêtre du type d'objet spécifié. |
 | [GetField](../../aspose.words.fields/fieldchar/getfield/)() | Renvoie un champ pour le champ char. |
-| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que représente ce nœud. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de traversée de l'arbre de pré-commande. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de traversée d'arbre de pré-commande. |
+| override [GetText](../../aspose.words/specialchar/gettext/)() | Obtient le caractère spécial que ce nœud représente. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud suivant selon l'algorithme de parcours de l'arbre de pré-ordre. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Obtient le nœud précédent selon l'algorithme de parcours de l'arbre de pré-ordre. |
 | [Remove](../../aspose.words/node/remove/)() | Se supprime du parent. |
 | [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporte le contenu du nœud dans une chaîne au format spécifié. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne à l'aide des options de sauvegarde spécifiées. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporte le contenu du nœud dans une chaîne en utilisant les options de sauvegarde spécifiées. |
 
 ## Remarques
 
@@ -64,7 +64,7 @@ public class FieldStart : FieldChar
 
 `FieldStart` ne peut être qu'un enfant de[`Paragraph`](../../aspose.words/paragraph/).
 
-Un champ complet dans un document Microsoft Word est une structure complexe composée de , d'un caractère de début de champ, d'un code de champ, d'un caractère séparateur de champ, d'un résultat de champ et d'un caractère de fin de champ. Certains champs n'ont qu'un début de champ, un code de champ et une fin de champ.
+Un champ complet dans un document Microsoft Word est une structure complexe composée d'un caractère de début, d'un code, d'un séparateur, d'un résultat et d'un caractère de fin. Certains champs ne comportent que le début, le code et la fin du champ.
 
 Pour insérer facilement un nouveau champ dans un document, utilisez le[`InsertField`](../../aspose.words/documentbuilder/insertfield/) Méthode .
 
@@ -90,8 +90,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -115,7 +115,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -168,7 +168,7 @@ public class FieldVisitor : DocumentVisitor
 }
 ```
 
-Montre comment rechercher tous les liens hypertexte dans un document Word, puis modifier leurs URL et leurs noms d’affichage.
+Montre comment rechercher tous les hyperliens dans un document Word, puis modifier leurs URL et leurs noms d’affichage.
 
 ```csharp
 using System;
@@ -187,8 +187,8 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Les hyperliens dans un document Word sont des champs. Pour commencer à chercher des hyperliens, il faut d’abord trouver tous les champs.
-            // Utilisez la méthode "SelectNodes" pour retrouver tous les champs du document via un XPath.
+            // Les hyperliens dans un document Word sont des champs. Pour rechercher des hyperliens, il faut d'abord trouver tous les champs.
+            // Utilisez la méthode « SelectNodes » pour rechercher tous les champs du document via un XPath.
             NodeList fieldStarts = doc.SelectNodes("//Début du champ");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
@@ -197,11 +197,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // Les hyperliens renvoyant vers des signets n'ont pas d'URL.
+                    // Les hyperliens qui renvoient vers des signets n'ont pas d'URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Attribue à chaque lien hypertexte URL une nouvelle URL et un nouveau nom.
+                    // Donnez à chaque lien hypertexte URL une nouvelle URL et un nouveau nom.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -216,8 +216,8 @@ namespace ApiExamples
 
      ///<summary>
       ///Les champs HYPERLINK contiennent et affichent des hyperliens dans le corps du document. Un champ dans Aspose.Words
-      ///se compose de plusieurs nœuds et il peut être difficile de travailler directement avec tous ces nœuds.
-     ///Cette implémentation ne fonctionnera que si le code et le nom du lien hypertexte sont chacun constitués d'un seul nœud Run.
+      ///se compose de plusieurs nœuds, et il peut être difficile de travailler directement avec tous ces nœuds.
+     ///Cette implémentation ne fonctionnera que si le code et le nom du lien hypertexte se composent chacun d'un seul nœud Exécuter.
     ///
      ///La structure des nœuds pour les champs est la suivante :
      ///
@@ -240,22 +240,22 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Recherche le nœud séparateur de champ.
+            // Rechercher le nœud séparateur de champ.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalement, on peut toujours trouver le nœud de fin du champ, mais le document exemple
-             // contient un saut de paragraphe à l'intérieur d'un lien hypertexte, qui met le champ à la fin
-            // dans le paragraphe suivant. Il sera beaucoup plus compliqué de gérer des champs qui s'étendent sur plusieurs
-            // paragraphes correctement. Dans ce cas, il suffit de permettre à la fin du champ d'être nulle.
+             // Normalement, nous pouvons toujours trouver le nœud de fin du champ, mais le document d'exemple
+             // contient un saut de paragraphe à l'intérieur d'un lien hypertexte, ce qui met le champ à la fin
+             // dans le paragraphe suivant. Il sera beaucoup plus compliqué de gérer des champs qui s'étendent sur plusieurs
+            // Paragraphes correctement. Dans ce cas, autoriser la valeur null pour le champ end suffit.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Le code du champ ressemble à "HYPERLINK "http:\\www.myurl.com"", mais il peut être composé de plusieurs exécutions.
+            // Le code du champ ressemble à quelque chose comme "HYPERLINK "http:\\www.myurl.com"", mais il peut être composé de plusieurs exécutions.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
-            // Le lien hypertexte est local si \l est présent dans le code du champ.
+            // L'hyperlien est local si \l est présent dans le code du champ.
             mIsLocal = match.Groups[1].Length > 0; 
             mTarget = match.Groups[2].Value;
         }
@@ -265,15 +265,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Le nom d'affichage du lien hypertexte est stocké dans le résultat du champ, qui est un Run
+                 // Le nom d'affichage du lien hypertexte est stocké dans le champ résultat, qui est une exécution
                 // nœud entre le séparateur de champ et la fin du champ.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Si le résultat du champ comprend plusieurs exécutions, supprimez ces exécutions.
+                // Si le résultat du champ se compose de plusieurs exécutions, supprimez ces exécutions.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -283,7 +286,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -296,7 +302,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -306,11 +315,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Le code de champ d'un champ se trouve dans un nœud Exécuter entre le nœud de début du champ et le séparateur de champ.
+            // Le code de champ d'un champ se trouve dans un nœud Exécuter entre le nœud de départ du champ et le séparateur de champ.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // Si le code de champ comprend plusieurs exécutions, supprimez ces exécutions.
+            // Si le code de champ se compose de plusieurs exécutions, supprimez ces exécutions.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -368,12 +377,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Un ou plusieurs HYPERLIEN sans espaces ou autre mot dans d'autres langues.
+            "\\S+" + // Un ou plusieurs HYPERLINK ou autre mot non-espace dans d'autres langues.
             "\\s+" + // Un ou plusieurs espaces.
-            "(?:\"\"\\s+)?" + // Non-capture "" facultatif et un ou plusieurs espaces.
-            "(\\\\l\\s+)?" + // Indicateur \l facultatif suivi d'un ou plusieurs espaces.
+            "(?:\"\"\\s+)?" + // Facultatif non capturant "" et un ou plusieurs espaces.
+            "(\\\\l\\s+)?" + // Indicateur facultatif \l suivi d'un ou plusieurs espaces.
             "\"" +  // Une apostrophe.
-            "([^\"]+)" + // Un ou plusieurs caractères, hors apostrophe (cible du lien hypertexte).
+            "([^\"]+)" + // Un ou plusieurs caractères, à l'exclusion de l'apostrophe (cible du lien hypertexte).
             "\"" // Une apostrophe fermante.
         );
     }

@@ -3,14 +3,14 @@ title: GeneralFormatCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: GeneralFormatCollection Item ملكية. الحصول على تنسيق عام في الفهرس المحدد في C#.
+description: يمكنك الوصول إلى خاصية GeneralFormatCollection Item لاسترداد التنسيقات القابلة للتخصيص بسهولة في أي فهرس، مما يعزز عرض البيانات لديك دون عناء.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/generalformatcollection/item/
 ---
 ## GeneralFormatCollection indexer
 
-الحصول على تنسيق عام في الفهرس المحدد.
+يحصل على تنسيق عام عند الفهرس المحدد.
 
 ```csharp
 public GeneralFormat this[int index] { get; }
@@ -18,27 +18,27 @@ public GeneralFormat this[int index] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| index | فهرس الشكل العام. |
+| index | فهرس التنسيق العام. |
 
 ### قيمة الإرجاع
 
-صيغة عامة.
+تنسيق عام.
 
 ## أمثلة
 
-يوضح كيفية تنسيق النتائج الميدانية.
+يوضح كيفية تنسيق نتائج الحقل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
+// استخدم منشئ المستندات لإدراج حقل يعرض النتيجة دون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
+//يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
 // فيما يلي ثلاثة أنواع من التنسيقات التي يمكننا تطبيقها على نتيجة الحقل.
 // 1 - التنسيق الرقمي:
 FieldFormat format = field.Format;
@@ -74,7 +74,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
+//يمكننا إزالة تنسيقاتنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

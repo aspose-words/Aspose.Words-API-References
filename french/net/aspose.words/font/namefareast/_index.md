@@ -3,7 +3,7 @@ title: Font.NameFarEast
 linktitle: NameFarEast
 articleTitle: NameFarEast
 second_title: Aspose.Words pour .NET
-description: Font NameFarEast propriété. Renvoie ou définit un nom de police dAsie de lEst en C#.
+description: Découvrez la propriété Font NameFarEast pour personnaliser et définir facilement des noms de polices d'Asie de l'Est pour une typographie améliorée dans vos projets.
 type: docs
 weight: 260
 url: /fr/net/aspose.words/font/namefareast/
@@ -24,21 +24,21 @@ Montre comment insérer et formater du texte dans une langue d'Extrême-Orient.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifie les paramètres de police que le générateur de documents appliquera à tout texte qu'il insère.
+// Spécifiez les paramètres de police que le générateur de documents appliquera à tout texte qu'il insère.
 builder.Font.Name = "Courier New";
 builder.Font.LocaleId = new CultureInfo("en-US", false).LCID;
 
-// Nommez les équivalents "FarEast" pour notre police et nos paramètres régionaux.
-// Si le constructeur insère des caractères asiatiques avec cette configuration de police, alors chaque exécution contenant
-// ces caractères les afficheront en utilisant la police/locale "FarEast" au lieu de la valeur par défaut.
-// Cela peut être utile lorsqu'une police occidentale n'a pas de représentation idéale pour les caractères asiatiques.
+// Nommez les équivalents « FarEast » pour notre police et nos paramètres régionaux.
+// Si le générateur insère des caractères asiatiques avec cette configuration de police, alors chaque exécution qui contient
+// ces caractères seront affichés en utilisant la police/les paramètres régionaux « FarEast » au lieu de la valeur par défaut.
+// Cela peut être utile lorsqu'une police occidentale n'a pas de représentations idéales pour les caractères asiatiques.
 builder.Font.NameFarEast = "SimSun";
 builder.Font.LocaleIdFarEast = new CultureInfo("zh-CN", false).LCID;
 
-// Ce texte sera affiché dans la police/locale par défaut.
+// Ce texte sera affiché dans la police/les paramètres régionaux par défaut.
 builder.Writeln("Hello world!");
 
-// Puisqu'il s'agit de caractères asiatiques, cette exécution appliquera nos équivalents de police/locale "Extrême-Orient".
+// Étant donné qu'il s'agit de caractères asiatiques, cette exécution appliquera nos équivalents de police/localisation « FarEast ».
 builder.Writeln("你好世界");
 
 doc.Save(ArtifactsDir + "Font.FarEast.docx");

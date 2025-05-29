@@ -3,14 +3,14 @@ title: Paragraph.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words för .NET
-description: Paragraph GetText metod. Hämtar texten i detta stycke inklusive slutet av styckets tecken i C#.
+description: Upptäck Paragraph GetText-metoden för att enkelt hämta text, inklusive styckeslut, och förbättra din textbehandlingseffektivitet.
 type: docs
-weight: 260
+weight: 280
 url: /sv/net/aspose.words/paragraph/gettext/
 ---
 ## Paragraph.GetText method
 
-Hämtar texten i detta stycke inklusive slutet av styckets tecken.
+Hämtar texten i detta stycke inklusive slutet av stycket.
 
 ```csharp
 public override string GetText()
@@ -18,17 +18,17 @@ public override string GetText()
 
 ## Anmärkningar
 
-Texten för alla underordnade noder är sammanlänkade och slutet av styckets tecken läggs till enligt följande:
+Texten i alla underordnade noder sammanfogas och styckeslutstecknet läggs till enligt följande:
 
 * Om stycket är det sista stycket i[`Body`](../../body/) , sedan [`SectionBreak`](../../controlchar/sectionbreak/) (\x000c) läggs till.
 * Om stycket är det sista stycket i[`Cell`](../../../aspose.words.tables/cell/) , sedan [`Cell`](../../controlchar/cell/) (\x0007) läggs till.
-* För alla andra paragrafer [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) läggs till.
+* För alla andra stycken [`ParagraphBreak`](../../controlchar/paragraphbreak/) (\r) läggs till.
 
-Den returnerade strängen innehåller alla kontroll- och specialtecken som beskrivs i[`ControlChar`](../../controlchar/).
+Den returnerade strängen innehåller alla kontroll- och specialtecken enligt beskrivningen i[`ControlChar`](../../controlchar/).
 
 ## Exempel
 
-Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av barn.
+Visar hur man lägger till, uppdaterar och tar bort underordnade noder i en CompositeNodes samling av underordnade noder.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ Document doc = new Document();
 // Ett tomt dokument har som standard ett stycke.
 Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
 
-// Sammansatta noder som vårt stycke kan innehålla andra sammansatta och infogade noder som underordnade.
+// Sammansatta noder som vårt stycke kan innehålla andra sammansatta och inline-noder som underordnade.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 Run paragraphText = new Run(doc, "Initial text. ");
 paragraph.AppendChild(paragraphText);
@@ -46,13 +46,13 @@ Run run1 = new Run(doc, "Run 1. ");
 Run run2 = new Run(doc, "Run 2. ");
 Run run3 = new Run(doc, "Run 3. ");
 
-// Dokumentets brödtext kommer inte att visa dessa körningar förrän vi infogar dem i en sammansatt nod
-// som i sig är en del av dokumentets nodträd, som vi gjorde med den första körningen.
-// Vi kan bestämma var textinnehållet i noder som vi infogar
-// visas i dokumentet genom att ange en infogningsplats i förhållande till en annan nod i stycket.
+// Dokumentets innehåll kommer inte att visa dessa körningar förrän vi infogar dem i en sammansatt nod
+// som i sig är en del av dokumentets nodträd, precis som vi gjorde med den första körningen.
+// Vi kan avgöra var textinnehållet i noder som vi infogar ska
+// visas i dokumentet genom att ange en insättningsplats i förhållande till en annan nod i stycket.
 Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
 
-// Infoga den andra körningen i stycket framför den första körningen.
+// Infoga den andra satsen i stycket före den första satsen.
 paragraph.InsertBefore(run2, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
@@ -62,13 +62,13 @@ paragraph.InsertAfter(run3, paragraphText);
 
 Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 
-// Infoga den första körningen till början av styckets samling av underordnade noder.
+// Infoga den första körningen i början av styckets samling av underordnade noder.
 paragraph.PrependChild(run1);
 
 Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
 Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
 
-// Vi kan ändra innehållet i körningen genom att redigera och ta bort befintliga underordnade noder.
+// Vi kan ändra innehållet i körningen genom att redigera och ta bort befintliga undernoder.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 

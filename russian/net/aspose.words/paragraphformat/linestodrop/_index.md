@@ -3,14 +3,14 @@ title: ParagraphFormat.LinesToDrop
 linktitle: LinesToDrop
 articleTitle: LinesToDrop
 second_title: Aspose.Words для .NET
-description: ParagraphFormat LinesToDrop свойство. Получает или задает количество строк текста абзаца используемого для расчета высоты буквицы на С#.
+description: Узнайте, как свойство ParagraphFormat LinesToDrop увеличивает высоту буквицы в ваших документах. Оптимизируйте макет текста для получения потрясающих визуальных эффектов!
 type: docs
 weight: 210
 url: /ru/net/aspose.words/paragraphformat/linestodrop/
 ---
 ## ParagraphFormat.LinesToDrop property
 
-Получает или задает количество строк текста абзаца, используемого для расчета высоты буквицы.
+Возвращает или задает количество строк текста абзаца, используемых для расчета высоты буквицы.
 
 ```csharp
 public int LinesToDrop { get; set; }
@@ -18,19 +18,19 @@ public int LinesToDrop { get; set; }
 
 ## Примеры
 
-Показывает, как установить размер буквицы.
+Показывает, как задать размер буквицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Измените свойство LinesToDrop, чтобы обозначить абзац как буквицу,
-// что превратит его в большую заглавную букву, которая украсит следующий абзац.
-// Присвойте этому свойству значение 4, чтобы буквица имела высоту в четыре текстовые строки.
+// Измените свойство "LinesToDrop", чтобы обозначить абзац как буквицу,
+// что превратит ее в большую заглавную букву, которая украсит следующий абзац.
+// Присвойте этому свойству значение 4, чтобы задать буквице высоту четырех строк текста.
 builder.ParagraphFormat.LinesToDrop = 4;
 builder.Writeln("H");
 
-// Сбрасываем свойство LinesToDrop на 0, чтобы превратить следующий абзац в обычный абзац.
+// Сбросьте свойство «LinesToDrop» до 0, чтобы превратить следующий абзац в обычный абзац.
 // Текст в этом абзаце будет обтекать буквицу.
 builder.ParagraphFormat.LinesToDrop = 0;
 builder.Writeln("ello world!");

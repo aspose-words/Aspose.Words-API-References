@@ -3,7 +3,7 @@ title: RowFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words pour .NET
-description: RowFormat Height propriété. Obtient ou définit la hauteur de la ligne du tableau en points en C#.
+description: Découvrez la propriété RowFormat Height pour ajuster facilement la hauteur des lignes du tableau en points, améliorant ainsi la mise en page et la lisibilité de votre document.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.tables/rowformat/height/
@@ -18,7 +18,7 @@ public double Height { get; set; }
 
 ## Exemples
 
-Montre comment formater les lignes avec un générateur de documents.
+Montre comment formater des lignes avec un générateur de documents.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Démarre une deuxième ligne, puis configure sa hauteur. Le constructeur appliquera ces paramètres à
-// sa ligne actuelle, ainsi que toutes les nouvelles lignes créées par la suite.
+// Commencez une deuxième ligne, puis configurez sa hauteur. Le générateur appliquera ces paramètres à
+// sa ligne actuelle, ainsi que toutes les nouvelles lignes qu'elle crée par la suite.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -40,7 +40,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// La première ligne n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
+// La première ligne n'a pas été affectée par la reconfiguration du remplissage et conserve toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 
@@ -50,7 +50,7 @@ Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```
 
-Montre comment créer un tableau formaté à l’aide de DocumentBuilder.
+Montre comment créer un tableau formaté à l'aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -60,7 +60,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Définit certaines options de formatage pour l'apparence du texte et du tableau.
+// Définissez certaines options de formatage pour l'apparence du texte et du tableau.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -71,7 +71,7 @@ builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
 // La configuration des options de formatage dans un générateur de documents les appliquera
-// vers la cellule/ligne actuelle dans laquelle se trouve le curseur,
+// à la cellule/ligne actuelle dans laquelle se trouve son curseur,
 // ainsi que toutes les nouvelles cellules et lignes créées à l'aide de ce générateur.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
@@ -81,7 +81,7 @@ builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
 // Reconfigurez les objets de formatage du générateur pour les nouvelles lignes et cellules que nous sommes sur le point de créer.
-// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle ressorte comme ligne d'en-tête.
+// Le constructeur ne les appliquera pas à la première ligne déjà créée afin qu'elle se démarque comme une ligne d'en-tête.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

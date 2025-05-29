@@ -3,14 +3,14 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: Aspose.Words para .NET
-description: ShapeBase CanHaveImage propiedad. Devolucionesverdadero si el tipo de forma permite que la forma tenga una imagen en C#.
+description: Descubra la propiedad CanHaveImage de ShapeBase: ¡aprenda a determinar si su tipo de forma admite imágenes para un atractivo visual mejorado!
 type: docs
 weight: 100
 url: /es/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Devoluciones`verdadero` si el tipo de forma permite que la forma tenga una imagen.
+Devuelve`verdadero` si el tipo de forma permite que la forma tenga una imagen.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -28,12 +28,12 @@ Muestra cómo insertar y rotar una imagen.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una forma con una imagen.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+// Insertar una forma con una imagen.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Gira la imagen 45 grados en el sentido de las agujas del reloj.
+//Gira la imagen 45 grados en el sentido de las agujas del reloj.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

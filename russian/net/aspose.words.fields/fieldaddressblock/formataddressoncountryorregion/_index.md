@@ -3,14 +3,14 @@ title: FieldAddressBlock.FormatAddressOnCountryOrRegion
 linktitle: FormatAddressOnCountryOrRegion
 articleTitle: FormatAddressOnCountryOrRegion
 second_title: Aspose.Words для .NET
-description: FieldAddressBlock FormatAddressOnCountryOrRegion свойство. Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя  как определено POSTCODE Universal Postal Union 2006 на С#.
+description: Оптимизируйте форматирование адреса с помощью свойства FieldAddressBlock FormatAddressOnCountryOrRegion, гарантируя соответствие мировым почтовым стандартам для точной доставки.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldaddressblock/formataddressoncountryorregion/
 ---
 ## FieldAddressBlock.FormatAddressOnCountryOrRegion property
 
-Получает или задает необходимость форматирования адреса в соответствии со страной/регионом получателя , как определено POST*CODE (Universal Postal Union 2006).
+Возвращает или задает форматирование адреса в соответствии со страной/регионом получателя , как определено POST*CODE (Всемирный почтовый союз 2006).
 
 ```csharp
 public bool FormatAddressOnCountryOrRegion { get; set; }
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка значения «2» будет включать все страны и регионы,
-// если только оно не указано в свойстве ExcludedCountryOrRegionName.
+// Если установить значение "2", будут включены все страны и регионы,
+// если только это не тот, который указан в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // По умолчанию это свойство будет содержать идентификатор языка первого символа документа.
-// Мы можем установить другую культуру для поля, чтобы отформатировать результат следующим образом.
+// Мы можем задать другую культуру для поля, чтобы отформатировать результат следующим образом.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

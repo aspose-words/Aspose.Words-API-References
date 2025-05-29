@@ -3,14 +3,14 @@ title: CustomPartCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: CustomPartCollection GetEnumerator метод. Возвращает объект перечислителя который можно использовать для перебора всех элементов коллекции на С#.
+description: Изучите метод CustomPartCollection GetEnumerator, чтобы без усилий перебрать все элементы в вашей коллекции. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.markup/custompartcollection/getenumerator/
 ---
 ## CustomPartCollection.GetEnumerator method
 
-Возвращает объект перечислителя, который можно использовать для перебора всех элементов коллекции.
+Возвращает объект перечислителя, который можно использовать для перебора всех элементов в коллекции.
 
 ```csharp
 public IEnumerator<CustomPart> GetEnumerator()
@@ -18,7 +18,7 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ## Примеры
 
-Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -30,7 +30,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перебираем коллекцию и печатаем каждую часть.
+// Перечислить коллекцию и вывести каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

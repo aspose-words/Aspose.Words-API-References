@@ -2,15 +2,15 @@
 title: ListFormat.IsListItem
 linktitle: IsListItem
 articleTitle: IsListItem
-second_title: 用于 .NET 的 Aspose.Words
-description: ListFormat IsListItem 财产. 当段落应用了项目符号或编号格式时为真 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 ListFormat IsListItem 属性如何通过识别项目符号或编号段落来增强文档的结构，从而提高可读性。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.lists/listformat/islistitem/
 ---
 ## ListFormat.IsListItem property
 
-当段落应用了项目符号或编号格式时为真。
+当段落应用了项目符号或编号格式时为 True。
 
 ```csharp
 public bool IsListItem { get; }
@@ -18,7 +18,7 @@ public bool IsListItem { get; }
 
 ## 例子
 
-演示如何输出文档中作为列表项的所有段落。
+展示如何输出文档中所有列表项的段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");
@@ -56,8 +56,8 @@ Assert.False(builder.ListFormat.IsListItem);
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 下面是我们可以使用文档生成器创建的两种类型的列表。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 以下是我们可以使用文档构建器创建的两种类型的列表。
 // 1 - 编号列表：
 // 编号列表通过对每个项目进行编号来为其段落创建逻辑顺序。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
@@ -75,8 +75,8 @@ for (int i = 0; i < 9; i++)
 }
 
 // 2 - 项目符号列表：
-// 此列表将在每个段落之前应用缩进和项目符号（“•”）。
-// 此列表的更深层次将使用不同的符号，例如“■”和“○”。
+// 此列表将在每个段落前应用缩进和项目符号（“•”）。
+// 此列表的更深级别将使用不同的符号，例如“■”和“○”。
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 
 for (int i = 0; i < 9; i++)
@@ -85,7 +85,7 @@ for (int i = 0; i < 9; i++)
     builder.Writeln("Level " + i);
 }
 
-// 我们可以通过取消设置“List”标志来禁用列表格式，以不将任何后续段落格式化为列表。
+// 我们可以通过取消设置“列表”标志来禁用列表格式，以免将任何后续段落格式化为列表。
 builder.ListFormat.List = null;
 
 Assert.False(builder.ListFormat.IsListItem);

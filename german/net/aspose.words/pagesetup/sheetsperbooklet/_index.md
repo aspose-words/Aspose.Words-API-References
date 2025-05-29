@@ -3,14 +3,14 @@ title: PageSetup.SheetsPerBooklet
 linktitle: SheetsPerBooklet
 articleTitle: SheetsPerBooklet
 second_title: Aspose.Words für .NET
-description: PageSetup SheetsPerBooklet eigendom. Gibt die Anzahl der Seiten zurück die in jede Broschüre aufgenommen werden sollen oder legt sie fest in C#.
+description: Entdecken Sie die Eigenschaft „PageSetup SheetsPerBooklet“, um die Seitenanzahl von Broschüren einfach zu verwalten und so Ihr Dokumentenlayout und Ihre Druckeffizienz zu verbessern.
 type: docs
 weight: 400
 url: /de/net/aspose.words/pagesetup/sheetsperbooklet/
 ---
 ## PageSetup.SheetsPerBooklet property
 
-Gibt die Anzahl der Seiten zurück, die in jede Broschüre aufgenommen werden sollen, oder legt sie fest.
+Gibt die Anzahl der Seiten zurück, die in jeder Broschüre enthalten sein sollen, oder legt sie fest.
 
 ```csharp
 public int SheetsPerBooklet { get; set; }
@@ -18,12 +18,12 @@ public int SheetsPerBooklet { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalte gedruckt werden kann.
+Zeigt, wie ein Dokument konfiguriert wird, das als Buchfalz gedruckt werden kann.
 
 ```csharp
 Document doc = new Document();
 
-// Text einfügen, der 16 Seiten umfasst.
+// Text einfügen, der sich über 16 Seiten erstreckt.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("My Booklet:");
 
@@ -34,8 +34,8 @@ for (int i = 0; i < 15; i++)
 }
 
 // Konfigurieren Sie die Eigenschaft „PageSetup“ des ersten Abschnitts, um das Dokument in Form einer Buchfalte zu drucken.
-// Wenn wir dieses Dokument auf beiden Seiten drucken, können wir die Seiten zum Stapeln verwenden
-// und alle auf einmal in der Mitte falten. Der Inhalt des Dokuments wird in einer Buchfalte angeordnet.
+// Wenn wir dieses Dokument beidseitig drucken, können wir die Seiten nehmen, um sie zu stapeln
+// und falten Sie sie alle gleichzeitig in der Mitte. Der Inhalt des Dokuments wird in einer Buchfalte ausgerichtet.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.MultiplePages = MultiplePagesType.BookFoldPrinting;
 

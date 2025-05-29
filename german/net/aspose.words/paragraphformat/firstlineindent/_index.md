@@ -3,14 +3,14 @@ title: ParagraphFormat.FirstLineIndent
 linktitle: FirstLineIndent
 articleTitle: FirstLineIndent
 second_title: Aspose.Words für .NET
-description: ParagraphFormat FirstLineIndent eigendom. Ruft den Wert in Punkten für eine erste Zeile oder einen hängenden Einzug ab oder legt diesen fest in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft „ParagraphFormat FirstLineIndent“ die Einzüge der ersten Zeile oder hängende Einzüge in Ihren Dokumenten einfach anpassen können, um die Lesbarkeit zu verbessern.
 type: docs
 weight: 120
 url: /de/net/aspose.words/paragraphformat/firstlineindent/
 ---
 ## ParagraphFormat.FirstLineIndent property
 
-Ruft den Wert (in Punkten) für eine erste Zeile oder einen hängenden Einzug ab oder legt diesen fest.
+Ruft den Wert (in Punkten) für eine erste Zeile oder einen hängenden Einzug ab oder legt ihn fest.
 
 Verwenden Sie positive Werte, um den Einzug der ersten Zeile festzulegen, und negative Werte, um den hängenden Einzug festzulegen.
 
@@ -40,7 +40,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// Die Methode „Writeln“ beendet den Absatz nach dem Anhängen von Text
+// Die Methode "Writeln" beendet den Absatz nach dem Anhängen von Text
 // und beginnt dann eine neue Zeile und fügt einen neuen Absatz hinzu.
 builder.Writeln("Hello world!");
 

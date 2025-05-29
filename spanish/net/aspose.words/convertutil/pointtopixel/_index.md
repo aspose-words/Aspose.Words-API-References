@@ -3,14 +3,14 @@ title: ConvertUtil.PointToPixel
 linktitle: PointToPixel
 articleTitle: PointToPixel
 second_title: Aspose.Words para .NET
-description: ConvertUtil PointToPixel método. Convierte puntos a píxeles a 96 ppp en C#.
+description: Convierte fácilmente puntos en píxeles con el método PointToPixel de ConvertUtil, optimizado para 96 ppp. ¡Mejora la precisión de tus diseños hoy mismo!
 type: docs
 weight: 60
 url: /es/net/aspose.words/convertutil/pointtopixel/
 ---
 ## PointToPixel(*double*) {#pointtopixel}
 
-Convierte puntos a píxeles a 96 ppp.
+Convierte puntos en píxeles a 96 dpi.
 
 ```csharp
 public static double PointToPixel(double points)
@@ -26,29 +26,29 @@ public static double PointToPixel(double points)
 
 ## Ejemplos
 
-Muestra cómo especificar propiedades de página en píxeles.
+Muestra cómo especificar las propiedades de la página en píxeles.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La "Configuración de página" de una sección define el tamaño de los márgenes de la página en puntos.
-// También podemos usar la clase "ConvertUtil" para usar una unidad de medida diferente,
-// como píxeles al definir límites.
+//La "Configuración de página" de una sección define el tamaño de los márgenes de la página en puntos.
+// También podemos usar la clase "ConvertUtil" para utilizar una unidad de medida diferente,
+// como los píxeles al definir límites.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100);
 pageSetup.BottomMargin = ConvertUtil.PixelToPoint(200);
 pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
-// Un píxel equivale a 0,75 puntos.
+//Un píxel son 0,75 puntos.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
 
-// El valor de DPI predeterminado utilizado es 96.
+//El valor de DPI predeterminado utilizado es 96.
 Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
 
-// Agregue contenido para demostrar los nuevos márgenes.
+//Añadir contenido para demostrar los nuevos márgenes.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToPixel(pageSetup.RightMargin)} pixels from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin)} pixels from the top, " +
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "UtilityClasses.PointsAndPixels.docx");
 
 ## PointToPixel(*double, double*) {#pointtopixel_1}
 
-Convierte puntos a píxeles con la resolución de píxeles especificada.
+Convierte puntos en píxeles con la resolución de píxeles especificada.
 
 ```csharp
 public static double PointToPixel(double points, double resolution)
@@ -76,7 +76,7 @@ public static double PointToPixel(double points, double resolution)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | points | Double | El valor a convertir. |
-| resolution | Double | La resolución de ppp (puntos por pulgada). |
+| resolution | Double | La resolución de dpi (puntos por pulgada). |
 
 ## Observaciones
 
@@ -90,7 +90,7 @@ Muestra cómo utilizar la conversión de puntos a píxeles con resolución prede
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Definir el tamaño del margen superior de esta sección en píxeles, según un DPI personalizado.
+// Define el tamaño del margen superior de esta sección en píxeles, de acuerdo con un DPI personalizado.
 const double myDpi = 192;
 
 PageSetup pageSetup = builder.PageSetup;

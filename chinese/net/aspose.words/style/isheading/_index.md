@@ -2,8 +2,8 @@
 title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
-second_title: 用于 .NET 的 Aspose.Words
-description: Style IsHeading 财产. 当样式是内置标题样式之一时为真 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 IsHeading 属性。轻松识别样式是否为内置标题样式，增强文档的结构和可读性。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/style/isheading/
@@ -18,7 +18,7 @@ public bool IsHeading { get; }
 
 ## 例子
 
-演示如何访问文档的样式集合。
+展示如何访问文档的样式集合。
 
 ```csharp
 Document doc = new Document();

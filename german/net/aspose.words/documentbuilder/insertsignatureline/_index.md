@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertSignatureLine methode. Fügt eine Signaturzeile an der aktuellen Position ein in C#.
+description: Fügen Sie Ihren Dokumenten mühelos professionelle Signaturzeilen mit der DocumentBuilder InsertSignatureLine-Methode hinzu. Optimieren Sie Ihren Workflow noch heute!
 type: docs
-weight: 440
+weight: 470
 url: /de/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
 
-Fügt eine Signaturzeile an der aktuellen Position ein.
+Fügt an der aktuellen Position eine Signaturzeile ein.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
@@ -18,7 +18,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Das Objekt, das Parameter zum Erstellen einer Signaturzeile speichert. |
+| signatureLineOptions | SignatureLineOptions | Das Objekt, das die Parameter zum Erstellen der Signaturzeile speichert. |
 
 ### Rückgabewert
 
@@ -86,7 +86,7 @@ Assert.True(signatureLine.IsValid);
 
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
-Fügt eine Signaturzeile an der angegebenen Position ein.
+Fügt an der angegebenen Position eine Signaturzeile ein.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
@@ -96,12 +96,12 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Das Objekt, das Parameter zum Erstellen einer Signaturzeile speichert. |
-| horzPos | RelativeHorizontalPosition | Gibt an, von wo aus der Abstand zur Signaturlinie gemessen wird. |
-| left | Double | Abstand in Punkten vom Ursprung zur linken Seite der Signaturlinie. |
-| vertPos | RelativeVerticalPosition | Gibt an, von wo aus der Abstand zur Signaturlinie gemessen wird. |
-| top | Double | Abstand in Punkten vom Ursprung bis zur Oberseite der Signaturlinie. |
-| wrapType | WrapType | Gibt an, wie Text um die Signaturzeile herum umbrochen wird. |
+| signatureLineOptions | SignatureLineOptions | Das Objekt, das die Parameter zum Erstellen der Signaturzeile speichert. |
+| horzPos | RelativeHorizontalPosition | Gibt an, von wo aus der Abstand zur Signaturzeile gemessen wird. |
+| left | Double | Abstand in Punkten vom Ursprung zur linken Seite der Signaturzeile. |
+| vertPos | RelativeVerticalPosition | Gibt an, von wo aus der Abstand zur Signaturzeile gemessen wird. |
+| top | Double | Abstand in Punkten vom Ursprung zur Oberseite der Signaturzeile. |
+| wrapType | WrapType | Gibt an, wie der Text um die Signaturzeile umbrochen wird. |
 
 ### Rückgabewert
 
@@ -109,7 +109,7 @@ Der gerade eingefügte Signaturzeilenknoten.
 
 ## Bemerkungen
 
-Sie können die Bildgröße, Position, Positionierungsmethode und andere Einstellungen mit dem ändern[`Shape`](../../../aspose.words.drawing/shape/) Von dieser Methode zurückgegebenes Objekt.
+Sie können die Bildgröße, den Speicherort, die Positionierungsmethode und andere Einstellungen mit dem ändern.[`Shape`](../../../aspose.words.drawing/shape/) von dieser Methode zurückgegebenes Objekt.
 
 ## Beispiele
 
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// Die Signaturzeile kann in Microsoft Word per Doppelklick signiert werden.
+// Die Signaturzeile kann in Microsoft Word durch Doppelklick unterschrieben werden.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

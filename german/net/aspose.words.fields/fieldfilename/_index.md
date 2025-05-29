@@ -3,14 +3,14 @@ title: FieldFileName Class
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldFileName klas. Implementiert das FILENAMEFeld in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldFileName, die die Implementierung des Felds FILENAME für eine nahtlose Dokumentautomatisierung vereinfacht.
 type: docs
-weight: 1870
+weight: 2280
 url: /de/net/aspose.words.fields/fieldfilename/
 ---
 ## FieldFileName class
 
-Implementiert das FILENAME-Feld.
+Implementiert das Feld FILENAME.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
@@ -30,13 +30,13 @@ public class FieldFileName : Field
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ruft den Text ab, der das angezeigte Feldergebnis darstellt. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ruft den Knoten ab, der das Feldende darstellt. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ruft a ab[`FieldFormat`](../fieldformat/) Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
-| [IncludeFullPath](../../aspose.words.fields/fieldfilename/includefullpath/) { get; set; } | Ruft ab oder legt fest, ob der vollständige Dateipfadname einbezogen werden soll. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Erhält eine[`FieldFormat`](../fieldformat/)Objekt, das typisierten Zugriff auf die Formatierung des Felds bietet. |
+| [IncludeFullPath](../../aspose.words.fields/fieldfilename/includefullpath/) { get; set; } | Ruft ab oder legt fest, ob der vollständige Dateipfadname eingeschlossen werden soll. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ruft ab oder legt fest, ob das aktuelle Ergebnis des Felds aufgrund anderer am Dokument vorgenommener Änderungen nicht mehr korrekt (veraltet) ist. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (sollte sein Ergebnis nicht neu berechnen). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ruft ab oder legt fest, ob das Feld gesperrt ist (das Ergebnis sollte nicht neu berechnet werden). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ruft die LCID des Felds ab oder legt sie fest. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab, der zwischen dem Feldtrennzeichen und dem Feldende liegt, oder legt diesen fest. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`Null` . |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Ruft Text ab oder legt ihn fest, der zwischen Feldtrennzeichen und Feldende steht. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ruft den Knoten ab, der das Feldtrennzeichen darstellt. Kann sein`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ruft den Knoten ab, der den Anfang des Felds darstellt. |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ruft den Microsoft Word-Feldtyp ab. |
 
@@ -44,10 +44,10 @@ public class FieldFileName : Field
 
 | Name | Beschreibung |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl der Feldcode als auch das Feldergebnis der untergeordneten Felder sind enthalten. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). Sowohl Feldcode als auch Feldergebnis von untergeordneten Feldern werden einbezogen. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Gibt Text zwischen Feldanfang und Feldtrennzeichen zurück (oder Feldende, wenn kein Trennzeichen vorhanden ist). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte child seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`Null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt das Feld unlink aus. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Entfernt das Feld aus dem Dokument. Gibt einen Knoten direkt nach dem Feld zurück. Wenn das Ende des Felds das letzte Kind seines übergeordneten Knotens ist, wird dessen übergeordneter Absatz zurückgegeben. Wenn das Feld bereits entfernt wurde, wird zurückgegeben`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Führt die Feldverknüpfung aus. |
 | [Update](../../aspose.words.fields/field/update/)() | Führt die Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 | [Update](../../aspose.words.fields/field/update/)(*bool*) | Führt eine Feldaktualisierung durch. Wird ausgelöst, wenn das Feld bereits aktualisiert wird. |
 
@@ -55,11 +55,11 @@ public class FieldFileName : Field
 
 Ruft den Namen des aktuellen Dokuments von seinem Speicherort ab.
 
-In der aktuellen Implementierung wird die verwendet[`OriginalFileName`](../../aspose.words/document/originalfilename/) Eigenschaft zum Abrufen des Dateinamens. Wenn das Dokument aus einem Stream geladen oder leer erstellt wurde, wird der Name der Datei verwendet, in der gespeichert wird (sofern bekannt).
+In der aktuellen Implementierung verwendet die[`OriginalFileName`](../../aspose.words/document/originalfilename/) Eigenschaft zum Abrufen des Dateinamens . Wenn das Dokument aus einem Stream geladen oder leer erstellt wurde, wird der Name der Datei verwendet, in der es gespeichert wird (sofern bekannt).
 
 ## Beispiele
 
-Zeigt, wie Sie FieldOptions verwenden, um den Standardwert für das Feld FILENAME zu überschreiben.
+Zeigt, wie Sie mit FieldOptions den Standardwert für das Feld FILENAME überschreiben.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln();
 
-// Dieses FILENAME-Feld zeigt den lokalen Systemdateinamen des von uns geladenen Dokuments an.
+// Dieses Feld FILENAME zeigt den lokalen Systemdateinamen des von uns geladenen Dokuments an.
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
@@ -85,8 +85,8 @@ field.Update();
 
 Assert.AreEqual(MyDir + "Document.docx", field.Result);
 
-// Wir können für diese Eigenschaft auch einen Wert festlegen
-// den Wert überschreiben, der im Feld FILENAME angezeigt wird.
+// Wir können für diese Eigenschaft auch einen Wert festlegen auf
+// überschreibe den Wert, der im Feld FILENAME angezeigt wird.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 

@@ -3,16 +3,16 @@ title: PdfEncryptionDetails Class
 linktitle: PdfEncryptionDetails
 articleTitle: PdfEncryptionDetails
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.PdfEncryptionDetails сорт. Содержит сведения о шифровании и разрешениях доступа для PDFдокумента на С#.
+description: Откройте для себя Aspose.Words.PdfEncryptionDetails для безопасного шифрования PDF-файлов и настраиваемых прав доступа, которые гарантируют защиту ваших документов.
 type: docs
-weight: 5460
+weight: 6250
 url: /ru/net/aspose.words.saving/pdfencryptiondetails/
 ---
 ## PdfEncryptionDetails class
 
 Содержит сведения о шифровании и разрешениях доступа для PDF-документа.
 
-Чтобы узнать больше, посетите[Защитите или зашифруйте документ](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) статья документации.
+Чтобы узнать больше, посетите[Защитить или зашифровать документ](https://docs.aspose.com/words/net/protect-or-encrypt-a-document/) документальная статья.
 
 ```csharp
 public class PdfEncryptionDetails
@@ -30,7 +30,7 @@ public class PdfEncryptionDetails
 | Имя | Описание |
 | --- | --- |
 | [OwnerPassword](../../aspose.words.saving/pdfencryptiondetails/ownerpassword/) { get; set; } | Указывает пароль владельца для зашифрованного PDF-документа. |
-| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Указывает операции, которые разрешены пользователю с зашифрованным PDF-документом. Значение по умолчанию:DisallowAll . |
+| [Permissions](../../aspose.words.saving/pdfencryptiondetails/permissions/) { get; set; } | Указывает операции, разрешенные пользователю для зашифрованного PDF-документа. Значение по умолчанию:DisallowAll . |
 | [UserPassword](../../aspose.words.saving/pdfencryptiondetails/userpassword/) { get; set; } | Указывает пароль пользователя, необходимый для открытия зашифрованного PDF-документа. |
 
 ## Примеры
@@ -43,17 +43,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Расширяем разрешения, чтобы разрешить редактирование аннотаций.
+// Расширить разрешения, чтобы разрешить редактирование аннотаций.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-// Включаем шифрование через свойство EncryptionDetails.
+// Включить шифрование через свойство «EncryptionDetails».
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Когда мы откроем этот документ, нам нужно будет ввести пароль, прежде чем получить доступ к его содержимому.
+// Когда мы откроем этот документ, нам нужно будет указать пароль, прежде чем получить доступ к его содержимому.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

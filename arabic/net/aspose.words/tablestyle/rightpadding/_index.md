@@ -3,14 +3,14 @@ title: TableStyle.RightPadding
 linktitle: RightPadding
 articleTitle: RightPadding
 second_title: Aspose.Words لـ .NET
-description: TableStyle RightPadding ملكية. الحصول على أو تعيين مقدار المسافة بالنقاط المراد إضافتها إلى يمين محتويات خلايا الجدول في C#.
+description: اكتشف خاصية TableStyle RightPadding، وقم بتخصيص تخطيط خلايا الجدول باستخدام التباعد الصحيح الدقيق لتحسين إمكانية القراءة والعرض.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/tablestyle/rightpadding/
 ---
 ## TableStyle.RightPadding property
 
-الحصول على أو تعيين مقدار المسافة (بالنقاط) المراد إضافتها إلى يمين محتويات خلايا الجدول.
+يحصل على مقدار المساحة (بالنقاط) التي يجب إضافتها إلى يمين محتويات خلايا الجدول أو يعينها.
 
 ```csharp
 public double RightPadding { get; set; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

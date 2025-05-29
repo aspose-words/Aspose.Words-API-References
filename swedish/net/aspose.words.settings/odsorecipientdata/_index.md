@@ -3,16 +3,16 @@ title: OdsoRecipientData Class
 linktitle: OdsoRecipientData
 articleTitle: OdsoRecipientData
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.OdsoRecipientData klass. Representerar information om en enskild post inom en extern datakälla som ska uteslutas från kopplingen i C#.
+description: Upptäck klassen Aspose.Words.Settings.OdsoRecipientData, utformad för att hantera och exkludera specifika poster i dokumentkopplingar för effektiv dokumentbehandling.
 type: docs
-weight: 5930
+weight: 6760
 url: /sv/net/aspose.words.settings/odsorecipientdata/
 ---
 ## OdsoRecipientData class
 
-Representerar information om en enskild post inom en extern datakälla som ska uteslutas från kopplingen.
+Representerar information om en enskild post inom en extern datakälla som ska undantas från dokumentkopplingen.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoRecipientData
@@ -28,9 +28,9 @@ public class OdsoRecipientData
 
 | namn | Beskrivning |
 | --- | --- |
-| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Anger om posten från datakällan ska importeras till ett dokument när sammanslagningen utförs. Standardvärdet är`Sann` . |
+| [Active](../../aspose.words.settings/odsorecipientdata/active/) { get; set; } | Anger om posten från datakällan ska importeras till ett dokument när dokumentkopplingen utförs. Standardvärdet är`sann` . |
 | [Column](../../aspose.words.settings/odsorecipientdata/column/) { get; set; } | Anger kolumnen i datakällan som innehåller unika data för den aktuella posten. Standardvärdet är 0. |
-| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Representerar hashkoden för denna post. Ibland använder Microsoft Word[`Hash`](./hash/) av en hel skiva istället för en[`UniqueTag`](./uniquetag/) value. Standardvärdet är 0. |
+| [Hash](../../aspose.words.settings/odsorecipientdata/hash/) { get; set; } | Representerar hashkoden för den här posten. Ibland använder Microsoft Word[`Hash`](./hash/) av en hel skiva istället för en[`UniqueTag`](./uniquetag/) värde. Standardvärdet är 0. |
 | [UniqueTag](../../aspose.words.settings/odsorecipientdata/uniquetag/) { get; set; } | Anger innehållet i en given post i kolumnen som innehåller unika data. Standardvärdet är`null` . |
 
 ## Metoder
@@ -41,11 +41,11 @@ public class OdsoRecipientData
 
 ## Anmärkningar
 
-Om en post ska slås samman till en sammanfogad handling, behövs ingen information om den posten. Men om en given post inte ska slås samman till ett sammanfogat dokument, ska värdet på den unika nyckeln för den posten lagras i[`UniqueTag`](./uniquetag/)egenskapen för detta objekt för att indikera detta undantag.
+Om en post ska sammanfogas till ett sammanfogat dokument behövs ingen information om den posten. Om däremot en given post inte ska sammanfogas till ett sammanfogat dokument ska värdet för den unika nyckeln för den posten lagras i[`UniqueTag`](./uniquetag/)egenskapen för detta objekt för att indikera detta undantag.
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

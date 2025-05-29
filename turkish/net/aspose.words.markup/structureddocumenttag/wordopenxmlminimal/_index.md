@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag WordOpenXMLMinimal mülk. Düğümdeki düğümün içerdiği XMLi temsil eden bir dize alır.FlatOpc format. Şunun aksineWordOpenXMLözelliğinden yararlanarak bu yöntem içerikle ilgili olmayan bölümleri hariç tutan sadeleştirilmiş bir belge oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: DüzOpc biçiminde temiz bir XML dizesi sağlayan ve akıcı belge işleme için içerik dışı öğeleri hariç tutan StructuredDocumentTag WordOpenXMLMinimal özelliğini keşfedin.
 type: docs
 weight: 310
 url: /tr/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 ---
 ## StructuredDocumentTag.WordOpenXMLMinimal property
 
-Düğümdeki düğümün içerdiği XML'i temsil eden bir dize alır.FlatOpc format. Şunun aksine[`WordOpenXML`](../wordopenxml/)özelliğinden yararlanarak, bu yöntem, içerikle ilgili olmayan bölümleri hariç tutan sadeleştirilmiş bir belge oluşturur.
+Düğümün içinde bulunan XML'i temsil eden bir dize alırFlatOpc format. Bunun aksine[`WordOpenXML`](../wordopenxml/) özellik, bu yöntem içerikle ilgili olmayan parçaları hariç tutan soyulmuş bir belge oluşturur.
 
 ```csharp
 public string WordOpenXMLMinimal { get; }
@@ -18,19 +18,19 @@ public string WordOpenXMLMinimal { get; }
 
 ## Örnekler
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

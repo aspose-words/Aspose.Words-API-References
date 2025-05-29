@@ -3,16 +3,16 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.HyphenationOptions classe. Permet de configurer les options de césure du document en C#.
+description: Découvrez la classe Aspose.Words.Settings.HyphenationOptions pour personnaliser sans effort les paramètres de césure de vos documents et améliorer la présentation du texte.
 type: docs
-weight: 5790
+weight: 6620
 url: /fr/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
-Permet de configurer les options de césure du document.
+Permet de configurer les options de césure des documents.
 
-Pour en savoir plus, visitez le[Travailler avec la césure](https://docs.aspose.com/words/net/working-with-hyphenation/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec la césure](https://docs.aspose.com/words/net/working-with-hyphenation/) article de documentation.
 
 ```csharp
 public class HyphenationOptions
@@ -29,9 +29,9 @@ public class HyphenationOptions
 | Nom | La description |
 | --- | --- |
 | [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Obtient ou définit la valeur déterminant si la césure automatique est activée pour le document. La valeur par défaut de cette propriété est`FAUX` . |
-| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Obtient ou définit le nombre maximum de lignes consécutives pouvant se terminer par des traits d'union. La valeur par défaut de cette propriété est 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtient ou définit la valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété est`vrai` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtient ou définit la distance en 1/20 de point à partir de la marge droite à l'intérieur de laquelle vous ne souhaitez pas couper les mots. La valeur par défaut de cette propriété est 360 (0,25 pouce). |
+| [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Obtient ou définit le nombre maximal de lignes consécutives pouvant se terminer par des tirets. La valeur par défaut de cette propriété est 0. |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtient ou définit une valeur déterminant si les mots écrits en majuscules sont coupés. La valeur par défaut de cette propriété est`vrai` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtient ou définit la distance en 1/20 de point à partir de la marge de droite dans laquelle vous ne souhaitez pas couper les mots. La valeur par défaut de cette propriété est 360 (0,25 pouce). |
 
 ## Exemples
 

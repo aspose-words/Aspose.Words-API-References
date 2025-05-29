@@ -3,7 +3,7 @@ title: DropDownItemCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: DropDownItemCollection Remove метод. Удаляет указанное значение из коллекции на С#.
+description: Легко удаляйте определенные значения из DropDownItemCollection с помощью нашего интуитивно понятного метода Remove. Оптимизируйте управление данными сегодня!
 type: docs
 weight: 90
 url: /ru/net/aspose.words.fields/dropdownitemcollection/remove/
@@ -18,18 +18,18 @@ public void Remove(string name)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| name | String | Значение с учетом регистра, которое необходимо удалить. |
+| name | String | Удаляемое значение с учетом регистра. |
 
 ## Примеры
 
-Показывает, как вставить поле со списком и отредактировать элементы в его коллекции элементов.
+Показывает, как вставить поле со списком и редактировать элементы в его коллекции.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем поле со списком, а затем проверяем набор раскрывающихся элементов.
-// В Microsoft Word пользователь щелкнет поле со списком,
+// Вставьте поле со списком, а затем проверьте набор раскрывающихся элементов.
+// В Microsoft Word пользователь щелкнет по полю со списком,
 // а затем выберите один из элементов текста в коллекции для отображения.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
@@ -41,7 +41,7 @@ Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
 // Существует два способа добавления нового элемента в существующую коллекцию элементов раскрывающегося списка.
-// 1 — добавить элемент в конец коллекции:
+// 1 — Добавить элемент в конец коллекции:
 dropDownItems.Add("Four");
 
 // 2 - Вставить элемент перед другим элементом по указанному индексу:
@@ -49,13 +49,13 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// Перебираем коллекцию и печатаем каждый элемент.
+// Проходим по коллекции и выводим каждый элемент.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
-// Есть два способа удаления элементов из коллекции раскрывающихся элементов.
-// 1 - Удалить элемент, содержимое которого равно переданной строке:
+// Существует два способа удаления элементов из коллекции раскрывающихся списков.
+// 1 - Удалить элемент с содержимым, равным переданной строке:
 dropDownItems.Remove("Four");
 
 // 2 - Удалить элемент по индексу:
@@ -67,7 +67,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// Очищаем всю коллекцию раскрывающихся элементов.
+// Очистить всю коллекцию раскрывающихся элементов.
 dropDownItems.Clear();
 ```
 

@@ -3,14 +3,14 @@ title: DropDownItemCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words لـ .NET
-description: DropDownItemCollection Clear طريقة. إزالة كافة العناصر من المجموعة في C#.
+description: امسح جميع عناصر DropDownItemCollection بكفاءة باستخدام طريقة المسح لدينا. سهّل إدارة بياناتك!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/dropdownitemcollection/clear/
 ---
 ## DropDownItemCollection.Clear method
 
-إزالة كافة العناصر من المجموعة.
+يزيل جميع العناصر من المجموعة.
 
 ```csharp
 public void Clear()
@@ -18,15 +18,15 @@ public void Clear()
 
 ## أمثلة
 
-يوضح كيفية إدراج حقل مربع التحرير والسرد، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
+يوضح كيفية إدراج حقل مربع المجموعة، وتحرير العناصر الموجودة في مجموعة العناصر الخاصة به.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإدراج مربع التحرير والسرد، ثم تحقق من مجموعته من العناصر المنسدلة.
-// في Microsoft Word، سيقوم المستخدم بالنقر فوق مربع التحرير والسرد،
-// ثم اختر أحد عناصر النص في المجموعة لعرضه.
+// قم بإدراج مربع مجموعة، ثم تحقق من مجموعة عناصر القائمة المنسدلة الخاصة به.
+// في Microsoft Word، سيقوم المستخدم بالنقر فوق المربع المنسدل،
+// ثم اختر أحد عناصر النص في المجموعة لعرضها.
 string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
@@ -36,8 +36,8 @@ Assert.AreEqual("One", dropDownItems[0]);
 Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
 Assert.IsTrue(dropDownItems.Contains("Three"));
 
-// هناك طريقتان لإضافة عنصر جديد إلى مجموعة موجودة من عناصر المربع المنسدل.
-// 1 - إلحاق عنصر بنهاية المجموعة:
+// هناك طريقتان لإضافة عنصر جديد إلى مجموعة موجودة من عناصر القائمة المنسدلة.
+// 1 - إضافة عنصر إلى نهاية المجموعة:
 dropDownItems.Add("Four");
 
 // 2 - إدراج عنصر قبل عنصر آخر في فهرس محدد:
@@ -45,16 +45,16 @@ dropDownItems.Insert(3, "Three and a half");
 
 Assert.AreEqual(5, dropDownItems.Count);
 
-// كرر المجموعة واطبع كل عنصر.
+// قم بالتكرار على المجموعة وطباعة كل عنصر.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
     while (dropDownCollectionEnumerator.MoveNext())
         Console.WriteLine(dropDownCollectionEnumerator.Current);
 
 // هناك طريقتان لإزالة العناصر من مجموعة العناصر المنسدلة.
-// 1 - إزالة عنصر بمحتويات مساوية للسلسلة التي تم تمريرها:
+// 1 - إزالة عنصر يحتوي على محتويات مساوية للسلسلة المرسلة:
 dropDownItems.Remove("Four");
 
-// 2 - إزالة عنصر من الفهرس:
+// 2 - إزالة عنصر في الفهرس:
 dropDownItems.RemoveAt(3);
 
 Assert.AreEqual(3, dropDownItems.Count);
@@ -63,7 +63,7 @@ Assert.IsFalse(dropDownItems.Contains("Four"));
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 
-// إفراغ المجموعة الكاملة من العناصر المنسدلة.
+//إفراغ المجموعة بأكملها من العناصر المنسدلة.
 dropDownItems.Clear();
 ```
 

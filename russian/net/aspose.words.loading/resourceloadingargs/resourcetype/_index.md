@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.ResourceType
 linktitle: ResourceType
 articleTitle: ResourceType
 second_title: Aspose.Words для .NET
-description: ResourceLoadingArgs ResourceType свойство. Тип ресурса на С#.
+description: Откройте для себя свойство ResourceType ResourceLoadingArgs для оптимизации управления ресурсами. Повысьте производительность и оптимизируйте свой рабочий процесс сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.loading/resourceloadingargs/resourcetype/
@@ -28,7 +28,7 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Изображения обычно вставляются с использованием URI или массива байтов.
+    // Изображения обычно вставляются с помощью URI или байтового массива.
     // Каждый экземпляр загрузки ресурса будет вызывать метод ResourceLoading нашего обратного вызова.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
@@ -40,8 +40,8 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Позволяет нам загружать изображения в документ, используя предопределенные сокращения, а не URI.
-/// Это позволит отделить логику загрузки изображения от остальной части конструкции документа.
+/// Позволяет загружать изображения в документ, используя предопределенные сокращения, а не URI.
+/// Это отделит логику загрузки изображения от остальной части конструкции документа.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {

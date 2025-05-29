@@ -2,8 +2,8 @@
 title: ImageSaveOptions.ImageBrightness
 linktitle: ImageBrightness
 articleTitle: ImageBrightness
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSaveOptions ImageBrightness 财产. 获取或设置生成图像的亮度 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ImageSaveOptions 属性轻松调整图像亮度。增强视觉效果，打造惊艳效果！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/imagesaveoptions/imagebrightness/
@@ -20,11 +20,11 @@ public float ImageBrightness { get; set; }
 
 此属性仅在保存为光栅图像格式时有效。
 
-默认值为 0.5。该值必须在 0 到 1 之间的范围内。
+默认值为 0.5。该值必须在 0 到 1 的范围内。
 
 ## 例子
 
-演示如何在 Aspose.Words 将文档转换为文档时编辑图像。
+展示如何在 Aspose.Words 将文档转换为图像时编辑图像。
 
 ```csharp
 Document doc = new Document();
@@ -39,18 +39,18 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png)
 {
     // 我们可以调整这些属性来改变图像的亮度和对比度。
-    // 两者的等级均为 0-1，默认为 0.5。
+    // 两者均采用 0-1 的尺度，默认为 0.5。
     ImageBrightness = 0.3f,
     ImageContrast = 0.7f,
 
-    // 我们可以使用这些属性调整水平和垂直分辨率。
-    // 这会影响图像的尺寸。
-    // 对于 96dpi 的分辨率，这些属性的默认值为 96.0。
+    // 我们可以使用这些属性来调整水平和垂直分辨率。
+    // 这将影响图像的尺寸。
+    // 这些属性的默认值为 96.0，分辨率为 96dpi。
     HorizontalResolution = 72f,
     VerticalResolution = 72f,
 
-    // 我们可以使用这个属性来缩放图像。默认值为 1.0，表示缩放为 100%。
-    // 我们可以使用此属性来抵消更改分辨率所导致的图像尺寸的任何变化。
+    // 我们可以使用此属性缩放图像。默认值为 1.0，即缩放比例为 100%。
+    // 我们可以使用此属性来消除因改变分辨率而导致的图像尺寸的任何变化。
     Scale = 96f / 72f
 };
 

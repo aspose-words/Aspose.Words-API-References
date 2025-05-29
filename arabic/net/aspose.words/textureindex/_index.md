@@ -3,9 +3,9 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.TextureIndex تعداد. يحدد نسيج التظليل في C#.
+description: اكتشف Aspose.Words.TextureIndex enum للحصول على قوام تظليل متقدم. حسّن تصميم مستندك بقوام عالي الجودة وقابل للتخصيص.
 type: docs
-weight: 6450
+weight: 7300
 url: /ar/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | يحدد عدم استخدام أي نمط في المنطقة المظللة الحالية (أي يجب أن يكون النمط مملوءًا بالكامل بلون الخلفية). |
+| TextureNil | `65535` | يحدد أنه لا ينبغي استخدام أي نمط في المنطقة المظللة الحالية (أي أن النمط يجب أن يكون تعبئة كاملة بلون الخلفية). |
 
 ## أمثلة
 
-يوضح كيفية تزيين النص بالحدود والتظليل.
+يوضح كيفية تزيين النص باستخدام الحدود والتظليل.
 
 ```csharp
 Document doc = new Document();
@@ -99,26 +99,26 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-يوضح كيفية تطبيق حدود المخطط التفصيلي على جدول.
+يوضح كيفية تطبيق حدود تفصيلية على جدول.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// قم بمحاذاة الجدول إلى منتصف الصفحة.
+//محاذاة الجدول إلى منتصف الصفحة.
 table.Alignment = TableAlignment.Center;
 
-// امسح أي حدود وتظليل موجود من الجدول.
+// قم بمسح أي حدود وتظليل موجود من الجدول.
 table.ClearBorders();
 table.ClearShading();
 
-// أضف حدودًا خضراء إلى مخطط الجدول.
+//أضف حدودًا خضراء إلى مخطط الجدول.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// املأ الخلايا بلون أخضر فاتح خالص.
+// املأ الخلايا بلون أخضر فاتح.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

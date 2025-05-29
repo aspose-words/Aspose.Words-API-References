@@ -2,10 +2,10 @@
 title: PdfImageCompression Enum
 linktitle: PdfImageCompression
 articleTitle: PdfImageCompression
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfImageCompression Sıralama. PDF dosyasındaki görüntülere uygulanan sıkıştırma türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: PDF dosyalarınızdaki görüntü sıkıştırmasını optimize etmek, kaliteyi artırmak ve dosya boyutunu zahmetsizce azaltmak için Aspose.Words.PdfImageCompression enum'unu keşfedin.
 type: docs
-weight: 5490
+weight: 6280
 url: /tr/net/aspose.words.saving/pdfimagecompression/
 ---
 ## PdfImageCompression enumeration
@@ -25,7 +25,7 @@ public enum PdfImageCompression
 
 ## Örnekler
 
-PDF'ye dönüştürdüğümüz bir belgedeki tüm görüntüler için sıkıştırma türünün nasıl belirleneceğini gösterir.
+PDF'ye dönüştürdüğümüz bir belgedeki tüm resimler için bir sıkıştırma türünün nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,17 +37,15 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
-// "ImageCompression" özelliğini kullanmak için "PdfImageCompression.Auto" olarak ayarlayın.
-// Çıktı PDF'sinde yer alan Jpeg görüntülerinin kalitesini kontrol etmek için "ImageCompression" özelliği.
-// "ImageCompression" özelliğini kullanmak için "PdfImageCompression.Jpeg" olarak ayarlayın.
-// Çıktı PDF'sinde yer alan tüm görüntülerin kalitesini kontrol etmek için "ImageCompression" özelliği.
+// "ImageCompression" özelliğini "PdfImageCompression.Auto" olarak ayarlayın
+// Çıktı PDF'inde yer alan Jpeg görüntülerinin kalitesini kontrol etmek için "ImageCompression" özelliği.
+// "ImageCompression" özelliğini "PdfImageCompression.Jpeg" olarak ayarlayın
+// Çıktı PDF'inde yer alan tüm görsellerin kalitesini kontrol etmek için "ImageCompression" özelliği.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
-// Görüntü kalitesinden ödün vererek sıkıştırmayı güçlendirmek için "JpegQuality" özelliğini "10" olarak ayarlayın.
+// Görüntü kalitesinden ödün vererek sıkıştırmayı artırmak için "JpegQuality" özelliğini "10" olarak ayarlayın.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

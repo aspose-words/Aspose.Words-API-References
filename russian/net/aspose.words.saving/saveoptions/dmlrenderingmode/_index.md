@@ -3,14 +3,14 @@ title: SaveOptions.DmlRenderingMode
 linktitle: DmlRenderingMode
 articleTitle: DmlRenderingMode
 second_title: Aspose.Words для .NET
-description: SaveOptions DmlRenderingMode свойство. Получает или задает значение определяющее способ отрисовки фигур DrawingML на С#.
+description: Узнайте, как свойство SaveOptions DmlRenderingMode улучшает визуализацию фигур DrawingML. Оптимизируйте визуальные элементы документа без усилий!
 type: docs
 weight: 70
 url: /ru/net/aspose.words.saving/saveoptions/dmlrenderingmode/
 ---
 ## SaveOptions.DmlRenderingMode property
 
-Получает или задает значение, определяющее способ отрисовки фигур DrawingML.
+Возвращает или задает значение, определяющее способ визуализации фигур DrawingML.
 
 ```csharp
 public DmlRenderingMode DmlRenderingMode { get; set; }
@@ -20,23 +20,23 @@ public DmlRenderingMode DmlRenderingMode { get; set; }
 
 Значение по умолчанию:Fallback .
 
-Это свойство используется, когда документ экспортируется в фиксированные форматы страниц.
+Это свойство используется при экспорте документа в форматы с фиксированным размером страницы.
 
 ## Примеры
 
-Показывает, как визуализировать резервные фигуры при сохранении в PDF.
+Показывает, как отображать резервные фигуры при сохранении в PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape fallbacks.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства "DmlRenderingMode" значение "DmlRenderingMode.Fallback"
+// Установите свойство "DmlRenderingMode" на "DmlRenderingMode.Fallback"
 // для замены фигур DML их резервными фигурами.
-// Установите для свойства "DmlRenderingMode" значение "DmlRenderingMode.DrawingML"
-// для рендеринга самих фигур DML.
+// Установите свойство "DmlRenderingMode" на "DmlRenderingMode.DrawingML"
+// для визуализации самих фигур DML.
 options.DmlRenderingMode = dmlRenderingMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
@@ -47,15 +47,15 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLFallback.pdf", options);
 ```csharp
 Document doc = new Document(MyDir + "DrawingML shape effects.docx");
 
-// Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ преобразования этого метода в .PDF.
+// Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ преобразования этим методом документа в .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Установите для свойства «DmlEffectsRenderingMode» значение «DmlEffectsRenderingMode.None», чтобы отменить все эффекты DrawingML.
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Simplified"
-// для рендеринга упрощенной версии эффектов DrawingML.
-// Установите для свойства "DmlEffectsRenderingMode" значение "DmlEffectsRenderingMode.Fine", чтобы
-// визуализируем эффекты DrawingML с большей точностью, а также с большими затратами на обработку.
+// Установите свойство "DmlEffectsRenderingMode" в "DmlEffectsRenderingMode.None", чтобы отменить все эффекты DrawingML.
+// Установите свойство "DmlEffectsRenderingMode" на "DmlEffectsRenderingMode.Simplified"
+// для визуализации упрощенной версии эффектов DrawingML.
+// Установите свойство "DmlEffectsRenderingMode" на "DmlEffectsRenderingMode.Fine" для
+// визуализировать эффекты DrawingML с большей точностью, но и с большими затратами на обработку.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
 Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);

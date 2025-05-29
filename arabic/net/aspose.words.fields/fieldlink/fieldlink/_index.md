@@ -3,7 +3,7 @@ title: FieldLink
 linktitle: FieldLink
 articleTitle: FieldLink
 second_title: Aspose.Words لـ .NET
-description: FieldLink البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldLink، الحل الأمثل لإعداد مشروعك بسلاسة وإدارة سير العمل بكفاءة. أطلق العنان لإمكانات مشروعك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldlink/fieldlink/

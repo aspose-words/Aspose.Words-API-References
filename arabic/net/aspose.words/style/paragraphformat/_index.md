@@ -3,14 +3,14 @@ title: Style.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words لـ .NET
-description: Style ParagraphFormat ملكية. الحصول على تنسيق الفقرة للنمط في C#.
+description: اكتشف كيفية الوصول إلى تنسيق فقرات الأنماط وتخصيصها لتحسين عرض المستندات والتنسيق الاحترافي.
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/aspose.words/style/paragraphformat/
 ---
 ## Style.ParagraphFormat property
 
-الحصول على تنسيق الفقرة للنمط.
+يحصل على تنسيق الفقرة للنمط.
 
 ```csharp
 public ParagraphFormat ParagraphFormat { get; }
@@ -22,7 +22,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية إنشاء نمط فقرة واستخدامه بتنسيق القائمة.
+يوضح كيفية إنشاء نمط الفقرة واستخدامه مع تنسيق القائمة.
 
 ```csharp
 Document doc = new Document();
@@ -34,15 +34,15 @@ style.Font.Size = 24;
 style.Font.Name = "Verdana";
 style.ParagraphFormat.SpaceAfter = 12;
 
-// أنشئ قائمة وتأكد من أن الفقرات التي تستخدم هذا النمط ستستخدم هذه القائمة.
+// قم بإنشاء قائمة وتأكد من أن الفقرات التي تستخدم هذا النمط سوف تستخدم هذه القائمة.
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// قم بتطبيق نمط الفقرة على الفقرة الحالية لمنشئ المستند، ثم قم بإضافة بعض النص.
+// قم بتطبيق نمط الفقرة على الفقرة الحالية في منشئ المستند، ثم أضف بعض النص.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// قم بتغيير نمط منشئ المستندات إلى نمط لا يحتوي على تنسيق قائمة واكتب فقرة أخرى.
+// قم بتغيير نمط منشئ المستندات إلى نمط لا يحتوي على تنسيق القائمة واكتب فقرة أخرى.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

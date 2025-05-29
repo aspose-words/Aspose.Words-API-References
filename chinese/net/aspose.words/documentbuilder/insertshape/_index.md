@@ -2,15 +2,15 @@
 title: DocumentBuilder.InsertShape
 linktitle: InsertShape
 articleTitle: InsertShape
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder InsertShape 方法. 插入指定类型和大小的内联形状 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 DocumentBuilder 的 InsertShape 方法轻松添加自定义内联形状。使用定制的视觉效果增强您的文档，打造更具影响力的演示文稿！
 type: docs
-weight: 430
+weight: 460
 url: /zh/net/aspose.words/documentbuilder/insertshape/
 ---
 ## InsertShape(*[ShapeType](../../../aspose.words.drawing/shapetype/), double, double*) {#insertshape_1}
 
-插入指定类型和大小的内联形状。
+插入具有指定类型和大小的内联形状。
 
 ```csharp
 public Shape InsertShape(ShapeType shapeType, double width, double height)
@@ -19,8 +19,8 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | shapeType | ShapeType | 要插入到文档中的形状类型。 |
-| width | Double | 形状的宽度（以磅为单位）。 |
-| height | Double | 形状的高度（以磅为单位）。 |
+| width | Double | 形状的宽度（以点为单位）。 |
+| height | Double | 形状的高度（以点为单位）。 |
 
 ### 返回值
 
@@ -28,15 +28,15 @@ public Shape InsertShape(ShapeType shapeType, double width, double height)
 
 ## 例子
 
-演示如何将 DML 形状插入到文档中。
+展示如何将 DML 形状插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是形状可能具有的两种环绕类型。
+// 以下是形状可能具有的两种包装类型。
 // 1 - 浮动：
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - 内联：
@@ -72,13 +72,13 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shapeType | ShapeType | 要插入到文档中的形状类型 |
-| horzPos | RelativeHorizontalPosition | 指定从何处测量到形状的水平距离。 |
-| left | Double | 从原点到形状左侧的距离（以磅为单位）。 |
-| vertPos | RelativeVerticalPosition | 指定从何处测量到形状的垂直距离。 |
-| top | Double | 从原点到形状顶边的距离（以磅为单位）。 |
-| width | Double | 形状的宽度（以磅为单位）。 |
-| height | Double | 形状的宽度（以磅为单位）。 |
+| shapeType | ShapeType | 插入文档的形状类型 |
+| horzPos | RelativeHorizontalPosition | 指定从哪里测量到形状的水平距离。 |
+| left | Double | 从原点到形状左侧的距离（以点为单位）。 |
+| vertPos | RelativeVerticalPosition | 指定从哪里测量到形状的垂直距离。 |
+| top | Double | 从原点到形状顶部的距离（以点为单位）。 |
+| width | Double | 形状的宽度（以点为单位）。 |
+| height | Double | 形状的高度（以点为单位）。 |
 | wrapType | WrapType | 指定如何将文本环绕在形状周围。 |
 
 ### 返回值
@@ -87,15 +87,15 @@ public Shape InsertShape(ShapeType shapeType, RelativeHorizontalPosition horzPos
 
 ## 例子
 
-演示如何将 DML 形状插入到文档中。
+展示如何将 DML 形状插入文档。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是形状可能具有的两种环绕类型。
+// 以下是形状可能具有的两种包装类型。
 // 1 - 浮动：
-builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100, 
+builder.InsertShape(ShapeType.TopCornersRounded, RelativeHorizontalPosition.Page, 100,
         RelativeVerticalPosition.Page, 100, 50, 50, WrapType.None);
 
 // 2 - 内联：

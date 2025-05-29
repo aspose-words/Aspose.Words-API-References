@@ -3,14 +3,14 @@ title: OleFormat.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words لـ .NET
-description: OleFormat SourceItem ملكية. الحصول على أو تعيين سلسلة يتم استخدامها لتحديد جزء الملف المصدر الذي يتم ربطه في C#.
+description: اكتشف خاصية OleFormat SourceItem، وتعرف بسهولة على الأجزاء المرتبطة بملف المصدر الخاص بك وقم بإدارتها باستخدام وظيفة السلسلة الأساسية هذه.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.drawing/oleformat/sourceitem/
 ---
 ## OleFormat.SourceItem property
 
-الحصول على أو تعيين سلسلة يتم استخدامها لتحديد جزء الملف المصدر الذي يتم ربطه.
+يحصل على سلسلة أو يعينها، والتي تُستخدم لتحديد جزء ملف المصدر الذي يتم ربطه.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -20,7 +20,7 @@ public string SourceItem { get; set; }
 
 القيمة الافتراضية هي سلسلة فارغة.
 
-على سبيل المثال، إذا كان الملف المصدر عبارة عن مصنف Microsoft Excel، فإن ملف`SourceItem` قد تقوم الخاصية بإرجاع "Workbook1!R3C1:R4C2" إذا كان كائن OLE يحتوي على عدد قليل فقط من الخلايا من ورقة العمل.
+على سبيل المثال، إذا كان ملف المصدر عبارة عن مصنف Microsoft Excel،`SourceItem` قد تقوم الخاصية بإرجاع "Workbook1!R3C1:R4C2" إذا كان كائن OLE يحتوي فقط على عدد قليل من الخلايا من ورقة العمل.
 
 ## أمثلة
 
@@ -30,13 +30,13 @@ public string SourceItem { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بتضمين رسم Microsoft Visio في المستند ككائن OLE.
+// تضمين رسم Microsoft Visio في المستند ككائن OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كرمز.
+// أدخل رابطًا للملف في نظام الملفات المحلي واعرضه كأيقونة.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// يؤدي إدراج كائنات OLE إلى إنشاء أشكال تخزن هذه الكائنات.
+// يؤدي إدراج كائنات OLE إلى إنشاء أشكال لتخزين هذه الكائنات.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -61,7 +61,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليه باستخدام الدفق.
+// إذا كان الكائن يحتوي على بيانات OLE، فيمكننا الوصول إليها باستخدام دفق.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

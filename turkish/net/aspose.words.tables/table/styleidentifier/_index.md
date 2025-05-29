@@ -2,15 +2,15 @@
 title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
-second_title: Aspose.Words for .NET
-description: Table StyleIdentifier mülk. Bu tabloya uygulanan tablo stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Yerel ayarlardan bağımsız tablo stillerini kolayca yönetmek ve verilerinizin sunumunu zahmetsizce geliştirmek için Table StyleIdentifier özelliğini keşfedin.
 type: docs
 weight: 280
 url: /tr/net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property
 
-Bu tabloya uygulanan tablo stilinin yerel ayardan bağımsız stil tanımlayıcısını alır veya ayarlar.
+Bu tabloya uygulanan tablo stilinin yerel bağımsız stil tanımlayıcısını alır veya ayarlar.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Örnekler
 
-Stil uygularken yeni bir tablonun nasıl oluşturulacağını gösterir.
+Bir stil uygulanırken yeni bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Herhangi bir tablo formatını ayarlamadan önce en az bir satır eklemeliyiz.
+// Herhangi bir tablo biçimlendirmesini ayarlamadan önce en az bir satır eklemeliyiz.
 builder.InsertCell();
 
-// Kullanılan tablo stilini stil tanımlayıcıya göre ayarlayın.
-// .doc formatında kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
+// Stil tanımlayıcısına göre kullanılan tablo stilini ayarlayın.
+// .doc formatına kaydederken tüm tablo stillerinin kullanılamayacağını unutmayın.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Stili, yüklemlere dayalı olarak tablonun özelliklerine kısmen uygulayın, ardından tabloyu oluşturun.
+// Tablonun özelliklerine tahminlere dayalı olarak stili kısmen uygulayın, ardından tabloyu oluşturun.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

@@ -3,14 +3,14 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words для .NET
-description: MemoryFontSource строитель. Cтор на С#.
+description: Откройте для себя MemoryFontSource, мощный конструктор для бесшовного управления шрифтами в ваших проектах. Улучшите свой дизайн с легкостью и эффективностью!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-Cтор.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## Примеры
 
-Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+Показывает, как использовать байтовый массив с данными из файла шрифта в качестве источника шрифта.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-Cтор.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -55,11 +55,11 @@ public MemoryFontSource(byte[] fontData, int priority)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | Byte[] | Двоичные данные шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения более подробной информации. |
 
 ## Примеры
 
-Показывает, как использовать массив байтов с данными из файла шрифта в качестве источника шрифта.
+Показывает, как использовать байтовый массив с данными из файла шрифта в качестве источника шрифта.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-Cтор.
+Ctor.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -92,8 +92,8 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | fontData | Byte[] | Двоичные данные шрифта. |
-| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения дополнительной информации. |
-| cacheKey | String | Ключ этого источника в кеше. Видеть[`CacheKey`](../cachekey/) описание недвижимости для получения дополнительной информации. |
+| priority | Int32 | Приоритет источника шрифта. См.[`Priority`](../../fontsourcebase/priority/) описание недвижимости для получения более подробной информации. |
+| cacheKey | String | Ключ этого источника в кэше. Смотреть[`CacheKey`](../cachekey/) описание недвижимости для получения более подробной информации. |
 
 ## Примеры
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Загружаем данные шрифта только при необходимости, а не сохраняем их в памяти
-/// на все время существования объекта FontSettings.
+/// Загружать данные шрифта только при необходимости, а не сохранять их в памяти
+/// на все время существования объекта "FontSettings".
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

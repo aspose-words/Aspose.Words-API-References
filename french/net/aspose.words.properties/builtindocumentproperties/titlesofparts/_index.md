@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.TitlesOfParts
 linktitle: TitlesOfParts
 articleTitle: TitlesOfParts
 second_title: Aspose.Words pour .NET
-description: BuiltInDocumentProperties TitlesOfParts propriété. Chaque chaîne du tableau spécifie le nom dune partie du document en C#.
+description: Découvrez la propriété TitlesOfParts dans BuiltInDocumentProperties. Gérez facilement les sections de vos documents grâce à des noms de parties clairs et personnalisables pour une organisation optimisée.
 type: docs
-weight: 300
+weight: 330
 url: /fr/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
@@ -27,13 +27,13 @@ Affiche la relation entre les propriétés « HeadingPairs » et « TitlesOfPart
 ```csharp
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
-// On peut trouver les valeurs combinées de ces collections via
-// "Fichier" -> "Propriétés" -> "Propriétés avancées" -> Onglet "Contenu".
-// La propriété HeadingPairs est une collection de <string, int> des paires qui
-// détermine le nombre de parties de document qu'un en-tête couvre.
+// Nous pouvons trouver les valeurs combinées de ces collections via
+// "Fichier" -> "Propriétés" -> "Propriétés avancées" -> onglet "Contenu".
+// La propriété HeadingPairs est une collection de paires <string, int> qui
+// détermine le nombre de parties du document sur lesquelles s'étend un titre.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// La propriété TitlesOfParts contient les noms des parties appartenant aux en-têtes ci-dessus.
+// La propriété TitlesOfParts contient les noms des parties qui appartiennent aux en-têtes ci-dessus.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

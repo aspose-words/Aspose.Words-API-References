@@ -3,14 +3,14 @@ title: IPageSavingCallback Interface
 linktitle: IPageSavingCallback
 articleTitle: IPageSavingCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Saving.IPageSavingCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie steuern möchten wie Aspose.Words separate Seiten speichert wenn ein Dokument in festen Seitenformaten gespeichert wird in C#.
+description: Steuern Sie das Speichern von Dokumenten mit Aspose.Words.Saving.IPageSavingCallback. Passen Sie an, wie Seiten in festen Formaten gespeichert werden, um optimale Ergebnisse zu erzielen.
 type: docs
-weight: 5180
+weight: 5930
 url: /de/net/aspose.words.saving/ipagesavingcallback/
 ---
 ## IPageSavingCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie steuern möchten, wie Aspose.Words separate Seiten speichert, wenn ein Dokument in festen Seitenformaten gespeichert wird.
+Implementieren Sie diese Schnittstelle, wenn Sie steuern möchten, wie Aspose.Words einzelne Seiten speichert, wenn ein Dokument in festen Seitenformaten gespeichert wird.
 
 ```csharp
 public interface IPageSavingCallback
@@ -24,7 +24,7 @@ public interface IPageSavingCallback
 
 ## Beispiele
 
-Zeigt, wie ein Rückruf verwendet wird, um ein Dokument Seite für Seite im HTML-Format zu speichern.
+Zeigt, wie Sie mithilfe eines Rückrufs ein Dokument seitenweise im HTML-Format speichern.
 
 ```csharp
 public void PageFileNames()
@@ -39,11 +39,11 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Wir speichern jede Seite in diesem Dokument in einer separaten HTML-Datei im lokalen Dateisystem.
+    // Wir speichern jede Seite dieses Dokuments in einer separaten HTML-Datei im lokalen Dateisystem.
     // Legen Sie einen Rückruf fest, der es uns ermöglicht, jedes ausgegebene HTML-Dokument zu benennen.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
@@ -56,7 +56,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// Speichert alle Seiten in einer darin angegebenen Datei und einem Verzeichnis.
+/// Speichert alle Seiten in einer darin angegebenen Datei und einem angegebenen Verzeichnis.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -64,7 +64,7 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
     {
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jede Seite des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jede Seite des Dokuments speichert.
         // 1 – Legen Sie einen Dateinamen für die Ausgabeseitendatei fest:
         args.PageFileName = outFileName;
 

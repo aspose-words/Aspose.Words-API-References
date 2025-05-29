@@ -2,8 +2,8 @@
 title: FontSettings.SaveSearchCache
 linktitle: SaveSearchCache
 articleTitle: SaveSearchCache
-second_title: Aspose.Words for .NET
-description: FontSettings SaveSearchCache yöntem. Yazı tipi arama önbelleğini akışa kaydeder C#'da.
+second_title: .NET için Aspose.Words
+description: FontSettings SaveSearchCache yönteminin font arama önbelleğinizi bir akışa nasıl verimli bir şekilde kaydettiğini, performansı ve kullanıcı deneyimini nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/fontsettings/savesearchcache/
@@ -22,7 +22,7 @@ public void SaveSearchCache(Stream outputStream)
 
 ## Notlar
 
-Görmek[`SetFontsSources`](../setfontssources/) Daha fazla bilgi için yöntem açıklaması.
+Görmek[`SetFontsSources`](../setfontssources/) daha fazla bilgi için yöntem açıklaması.
 
 ## Örnekler
 
@@ -47,7 +47,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -56,8 +56,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Yazı tipi verilerini belleğe kaydetmek yerine yalnızca gerektiğinde yükleyin
-/// "FontSettings" nesnesinin tüm ömrü boyunca.
+/// Font verilerini hafızada saklamak yerine yalnızca gerektiğinde yükleyin
+/// "FontSettings" nesnesinin tüm yaşam süresi boyunca.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

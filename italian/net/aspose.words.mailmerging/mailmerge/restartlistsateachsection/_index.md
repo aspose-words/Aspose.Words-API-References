@@ -3,14 +3,14 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words per .NET
-description: MailMerge RestartListsAtEachSection proprietà. Ottiene o imposta un valore che indica se gli elenchi vengono riavviati in ciascuna sezione dopo lesecuzione di una stampa unione in C#.
+description: Scopri la proprietà MailMerge RestartListsAtEachSection: l'elenco di controllo viene reimpostato in ogni sezione per unioni di posta fluide. Migliora la precisione dei tuoi documenti oggi stesso!
 type: docs
 weight: 110
 url: /it/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-Ottiene o imposta un valore che indica se gli elenchi vengono riavviati in ciascuna sezione dopo l'esecuzione di una stampa unione.
+Ottiene o imposta un valore che indica se gli elenchi vengono riavviati a ogni sezione dopo l'esecuzione di una stampa unione.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -22,7 +22,7 @@ Il valore predefinito è`VERO` .
 
 ## Esempi
 
-Mostra come controllare se la numerazione degli elenchi viene riavviata o meno in ciascuna sezione quando viene eseguita la stampa unione.
+Mostra come controllare se la numerazione degli elenchi viene riavviata o meno a ogni sezione quando si esegue la stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

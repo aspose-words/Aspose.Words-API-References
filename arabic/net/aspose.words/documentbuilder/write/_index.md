@@ -3,14 +3,14 @@ title: DocumentBuilder.Write
 linktitle: Write
 articleTitle: Write
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder Write طريقة. إدراج سلسلة في المستند في موضع الإدراج الحالي في C#.
+description: قم بإدراج نص في مستندك بسهولة باستخدام طريقة الكتابة في DocumentBuilder، مما يعزز كفاءة التحرير ويبسط سير عملك.
 type: docs
-weight: 650
+weight: 690
 url: /ar/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
 
-إدراج سلسلة في المستند في موضع الإدراج الحالي.
+يقوم بإدراج سلسلة في المستند في موضع الإدراج الحالي.
 
 ```csharp
 public void Write(string text)
@@ -18,15 +18,15 @@ public void Write(string text)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| text | String | السلسلة المراد إدراجها في المستند. |
+| text | String | السلسلة التي سيتم إدراجها في المستند. |
 
 ## ملاحظات
 
-تنسيق الخط الحالي المحدد بواسطة[`Font`](../font/) الخاصية مستخدمة.
+تنسيق الخط الحالي المحدد بواسطة[`Font`](../font/) تم استخدام الخاصية.
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// اتصل بطريقة "EndRow" الخاصة بالمنشئ لبدء صف جديد.
+//استدعاء طريقة "EndRow" الخاصة بالمنشئ لبدء صف جديد.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -65,7 +65,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -79,8 +79,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -114,7 +114,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// ضبط خيارات تنسيق الجدول لمنشئ المستندات
+//إعداد خيارات تنسيق الجدول لمنشئ المستندات
 // سيتم تطبيقها على كل صف وخلية نضيفها معها.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -139,8 +139,8 @@ builder.Write("Row 1, Col 2");
 builder.EndRow();
 
 // سيؤدي تغيير التنسيق إلى تطبيقه على الخلية الحالية،
-// وأي خلايا جديدة نقوم بإنشائها مع المُنشئ بعد ذلك.
-// لن يؤثر هذا على الخلايا التي أضفناها سابقًا.
+//وأي خلايا جديدة نقوم بإنشائها باستخدام المنشئ بعد ذلك.
+// لن يؤثر هذا على الخلايا التي أضفناها مسبقًا.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -151,7 +151,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// زيادة ارتفاع الصف ليناسب النص الرأسي.
+// زيادة ارتفاع الصف ليتناسب مع النص الرأسي.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

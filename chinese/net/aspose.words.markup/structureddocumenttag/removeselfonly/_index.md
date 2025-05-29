@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.RemoveSelfOnly
 linktitle: RemoveSelfOnly
 articleTitle: RemoveSelfOnly
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTag RemoveSelfOnly 方法. 仅删除此 SDT 节点本身但将其内容保留在文档树中 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTag RemoveSelfOnly 方法，轻松移除 SDT 节点，同时保留其在文档中的内容。提升您的编辑效率！
 type: docs
-weight: 350
+weight: 370
 url: /zh/net/aspose.words.markup/structureddocumenttag/removeselfonly/
 ---
 ## StructuredDocumentTag.RemoveSelfOnly method
 
-仅删除此 SDT 节点本身，但将其内容保留在文档树中。
+仅删除此 SDT 节点本身，但保留其在文档树中的内容。
 
 ```csharp
 public void RemoveSelfOnly()
@@ -18,7 +18,7 @@ public void RemoveSelfOnly()
 
 ## 例子
 
-演示如何在纯文本框中创建结构化文档标签并修改其外观。
+展示如何在纯文本框中创建结构化文档标签并修改其外观。
 
 ```csharp
 Document doc = new Document();
@@ -30,29 +30,29 @@ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, Ma
 tag.Title = "My plain text";
 tag.Color = Color.Magenta;
 
-// 为这个结构化文档标签设置一个标签，可以获取
+// 为该结构化文档标签设置一个标签，该标签可获取
 // 作为名为“tag”的 XML 元素，其“@val”属性中包含以下字符串。
 tag.Tag = "MyPlainTextSDT";
 
-// 每个结构化文档标签都有一个随机的唯一 ID。
-Assert.That(tag.Id, Is.Positive);
+// 每个结构化文档标签都有一个随机的唯一ID。
+Assert.IsTrue(tag.Id > 0);
 
-// 设置结构化文档标签内文本的字体。
+// 设置结构化文档标签内的文本的字体。
 tag.ContentsFont.Name = "Arial";
 
 // 设置结构化文档标签末尾文本的字体。
-// 使用箭头键移出标签后在文档正文中键入的任何文本都将使用此字体。
+// 使用箭头键移出标签后，我们在文档正文中输入的任何文本都将使用此字体。
 tag.EndCharacterFont.Name = "Arial Black";
 
-// 默认情况下，这是 false，并且在结构化文档标签内按 Enter 键不会执行任何操作。
+// 默认情况下，这是错误的，并且在结构化文档标签内按回车键不会执行任何操作。
 // 当设置为 true 时，我们的结构化文档标签可以有多行。
 
 // 将“Multiline”属性设置为“false”以仅允许内容
-// 此结构化文档标记跨越一行。
+// 此结构化文档标签跨越一行。
 // 将“Multiline”属性设置为“true”以允许标签包含多行内容。
 tag.Multiline = true;
 
-// 将“Appearance”属性设置为“SdtAppearance.Tags”以在内容周围显示标签。
+// 将“Appearance”属性设置为“SdtAppearance.Tags”以显示内容周围的标签。
  // 默认情况下，结构化文档标签显示为 BoundingBox。
 tag.Appearance = SdtAppearance.Tags;
 
@@ -64,7 +64,7 @@ StructuredDocumentTag tagClone = (StructuredDocumentTag)tag.Clone(true);
 builder.InsertParagraph();
 builder.InsertNode(tagClone);
 
-// 使用“RemoveSelfOnly”方法删除结构化文档标签，同时保留其内容在文档中。
+// 使用“RemoveSelfOnly”方法删除结构化文档标签，同时保留其在文档中的内容。
 tagClone.RemoveSelfOnly();
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.PlainText.docx");

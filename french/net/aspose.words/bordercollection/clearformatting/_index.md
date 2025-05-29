@@ -3,7 +3,7 @@ title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words pour .NET
-description: BorderCollection ClearFormatting méthode. Supprime toutes les bordures dun objet en C#.
+description: Découvrez comment la méthode BorderCollection ClearFormatting supprime sans effort toutes les bordures d'objets, améliorant ainsi votre conception avec des visuels nets et précis.
 type: docs
 weight: 140
 url: /fr/net/aspose.words/bordercollection/clearformatting/
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Exemples
 
-Montre comment supprimer toutes les bordures de tous les paragraphes d’un document.
+Montre comment supprimer toutes les bordures de tous les paragraphes d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
@@ -30,7 +30,7 @@ Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// Utilisez la méthode "ClearFormatting" sur chaque paragraphe pour supprimer toutes les bordures.
+// Utilisez la méthode « ClearFormatting » sur chaque paragraphe pour supprimer toutes les bordures.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

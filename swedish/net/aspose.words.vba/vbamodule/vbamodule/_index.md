@@ -3,7 +3,7 @@ title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words för .NET
-description: VbaModule byggare. Skapar en tom modul i C#.
+description: Skapa enkelt tomma VBA-moduler med vår VbaModule-konstruktor. Effektivisera din kodningsprocess och förbättra ditt utvecklingsarbetsflöde idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.vba/vbamodule/vbamodule/

@@ -3,14 +3,14 @@ title: NodeList.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: NodeList Item свойство. Извлекает узел по заданному индексу на С#.
+description: Получите доступ к определенным узлам без усилий с помощью свойства NodeList Item. Извлеките узлы по индексу для упрощенной обработки данных и эффективного кодирования.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/nodelist/item/
 ---
 ## NodeList indexer
 
-Извлекает узел по заданному индексу.
+Извлекает узел по указанному индексу.
 
 ```csharp
 public Node this[int index] { get; }
@@ -24,21 +24,21 @@ public Node this[int index] { get; }
 
 Индекс отсчитывается от нуля.
 
-Отрицательные индексы разрешены и указывают на доступ из задней части коллекции. Например, -1 означает последний элемент, -2 означает предпоследний элемент и так далее.
+Отрицательные индексы разрешены и указывают на доступ с конца коллекции. Например, -1 означает последний элемент, -2 означает предпоследний и т. д.
 
-Если индекс больше или равен количеству элементов в списке, возвращается нулевая ссылка.
+Если индекс больше или равен количеству элементов в списке, возвращается пустая ссылка.
 
-Если индекс отрицателен и его абсолютное значение превышает количество элементов в списке, возвращается нулевая ссылка.
+Если индекс отрицательный и его абсолютное значение больше количества элементов в списке, возвращается пустая ссылка.
 
 ## Примеры
 
-Показывает, как использовать XPaths для навигации по NodeList.
+Показывает, как использовать XPath для навигации по NodeList.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем несколько узлов с помощью DocumentBuilder.
+// Вставьте несколько узлов с помощью DocumentBuilder.
 builder.Writeln("Hello world!");
 
 builder.StartTable();
@@ -48,14 +48,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Наш документ содержит три узла «Выполнить».
+// Наш документ содержит три узла Run.
 NodeList nodeList = doc.SelectNodes("//Бегать");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -63,20 +58,20 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Используйте двойную косую черту, чтобы выбрать все узлы выполнения
-// которые являются косвенными потомками узла Таблицы, которые будут проходами внутри двух вставленных нами ячеек.
+// Используйте двойную косую черту, чтобы выбрать все узлы Run
+// которые являются косвенными потомками узла Table, которые будут участками внутри двух вставленных нами ячеек.
 nodeList = doc.SelectNodes("//Table//Бегать");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// Одиночные косые черты указывают прямые отношения потомков,
-// который мы пропустили, когда использовали двойные косые черты.
+// Одинарные косые черты указывают прямые потомственные отношения,
+// который мы пропустили, когда использовали двойные слеши.
 Assert.AreEqual(doc.SelectNodes(" //Таблица//Выполнить"),
-    doc.SelectNodes("//Таблица/Строка/Ячейка/Абзац/Выполнить");
+    doc.SelectNodes("//Таблица/Строка/Ячейка/Абзац/Выполнить"));
 
-// Доступ к фигуре, содержащей вставленное нами изображение.
+// Доступ к форме, содержащей вставленное нами изображение.
 nodeList = doc.SelectNodes("//Форма");
 
 Assert.AreEqual(1, nodeList.Count);

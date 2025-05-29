@@ -3,14 +3,14 @@ title: NodeChangingArgs.OldParent
 linktitle: OldParent
 articleTitle: OldParent
 second_title: Aspose.Words لـ .NET
-description: NodeChangingArgs OldParent ملكية. الحصول على أصل العقدة قبل بدء العملية في C#.
+description: اكتشف خاصية NodeChangingArgs OldParent، التي تسترد العقدة الأصلية قبل التغييرات، مما يضمن عمليات سلسة وإدارة بيانات محسنة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/nodechangingargs/oldparent/
 ---
 ## NodeChangingArgs.OldParent property
 
-الحصول على أصل العقدة قبل بدء العملية.
+يحصل على العقدة الأصلية قبل بدء العملية.
 
 ```csharp
 public Node OldParent { get; }
@@ -18,7 +18,7 @@ public Node OldParent { get; }
 
 ## أمثلة
 
-يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات التي تطرأ على شجرة المستندات في الوقت الفعلي أثناء قيامنا بتحريرها.
+يوضح كيفية استخدام NodeChangingCallback لمراقبة التغييرات في شجرة المستند في الوقت الفعلي أثناء تحريرها.
 
 ```csharp
 public void NodeChangingCallback()
@@ -35,18 +35,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// يطبع كل إدخال/إزالة للعقدة أثناء حدوثها في المستند.
+/// يطبع كل عملية إدخال/إزالة للعقدة أثناء حدوثها في المستند.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

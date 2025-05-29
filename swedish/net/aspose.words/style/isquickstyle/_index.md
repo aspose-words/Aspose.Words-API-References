@@ -3,14 +3,14 @@ title: Style.IsQuickStyle
 linktitle: IsQuickStyle
 articleTitle: IsQuickStyle
 second_title: Aspose.Words för .NET
-description: Style IsQuickStyle fast egendom. Anger om denna stil visas i Quick Stylegalleriet i MS Word UI i C#.
+description: Upptäck hur egenskapen IsQuickStyle förbättrar din MS Word-upplevelse genom att visa upp stilar i Quick Style-galleriet för enkel åtkomst och förbättrat arbetsflöde.
 type: docs
 weight: 80
 url: /sv/net/aspose.words/style/isquickstyle/
 ---
 ## Style.IsQuickStyle property
 
-Anger om denna stil visas i Quick Style-galleriet i MS Word UI.
+Anger om den här stilen visas i snabbstilsgalleriet i MS Words användargränssnitt.
 
 ```csharp
 public bool IsQuickStyle { get; set; }
@@ -18,7 +18,7 @@ public bool IsQuickStyle { get; set; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

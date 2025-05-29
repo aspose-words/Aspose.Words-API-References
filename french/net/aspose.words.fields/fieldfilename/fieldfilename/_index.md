@@ -3,7 +3,7 @@ title: FieldFileName
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words pour .NET
-description: FieldFileName constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldFileName : votre solution idéale pour une gestion fluide des fichiers. Gagnez en efficacité avec notre constructeur par défaut dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldfilename/fieldfilename/

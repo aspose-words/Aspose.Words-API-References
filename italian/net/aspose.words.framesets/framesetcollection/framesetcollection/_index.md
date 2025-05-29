@@ -3,7 +3,7 @@ title: FramesetCollection
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
 second_title: Aspose.Words per .NET
-description: FramesetCollection costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FramesetCollection, la soluzione ideale per una gestione efficiente dei frame nello sviluppo web. Semplifica la tua programmazione oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.framesets/framesetcollection/framesetcollection/

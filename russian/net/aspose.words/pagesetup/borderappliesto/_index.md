@@ -3,7 +3,7 @@ title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
 second_title: Aspose.Words для .NET
-description: PageSetup BorderAppliesTo свойство. Указывает на каких страницах печатается граница страницы на С#.
+description: Узнайте, как свойство PageSetup BorderAppliesTo улучшает макет документа, управляя печатью границ страниц, обеспечивая изысканный профессиональный вид.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/pagesetup/borderappliesto/
@@ -18,7 +18,7 @@ public PageBorderAppliesTo BorderAppliesTo { get; set; }
 
 ## Примеры
 
-Показывает, как создать широкую синюю рамку в верхней части первой страницы.
+Показывает, как создать широкую синюю полосу в верхней части первой страницы.
 
 ```csharp
 Document doc = new Document();

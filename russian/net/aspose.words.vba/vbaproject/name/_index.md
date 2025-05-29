@@ -3,14 +3,14 @@ title: VbaProject.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words для .NET
-description: VbaProject Name свойство. Получает или задает имя проекта VBA на С#.
+description: Узнайте, как легко управлять вашим проектом VBA с помощью свойства Name. Узнайте, как получать и задавать имена проектов для эффективного кодирования!
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.vba/vbaproject/name/
 ---
 ## VbaProject.Name property
 
-Получает или задает имя проекта VBA.
+Возвращает или задает имя проекта VBA.
 
 ```csharp
 public string Name { get; set; }
@@ -18,12 +18,12 @@ public string Name { get; set; }
 
 ## Примеры
 
-Показывает, как создать проект VBA с помощью макросов.
+Показывает, как создать проект VBA с использованием макросов.
 
 ```csharp
 Document doc = new Document();
 
-// Создаем новый проект VBA.
+// Создать новый проект VBA.
 VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
@@ -51,14 +51,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Устанавливаем новый исходный код для модуля VBA. Доступ к модулям VBA в коллекции можно получить либо по индексу, либо по имени.
+// Установить новый исходный код для модуля VBA. Вы можете получить доступ к модулям VBA в коллекции либо по индексу, либо по имени.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

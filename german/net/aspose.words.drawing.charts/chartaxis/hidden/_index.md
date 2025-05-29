@@ -3,14 +3,14 @@ title: ChartAxis.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words für .NET
-description: ChartAxis Hidden eigendom. Ruft ein Flag ab oder setzt es das angibt ob diese Achse ausgeblendet ist oder nicht in C#.
+description: Entdecken Sie die Eigenschaft „ChartAxis Hidden“, um die Achsensichtbarkeit in Ihren Diagrammen einfach zu verwalten. Verbessern Sie Ihre Datenpräsentation mit dieser einfachen Umschaltfunktion!
 type: docs
-weight: 100
+weight: 110
 url: /de/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
 
-Ruft ein Flag ab oder setzt es, das angibt, ob diese Achse ausgeblendet ist oder nicht.
+Ruft ein Flag ab oder legt es fest, das angibt, ob diese Achse ausgeblendet ist oder nicht.
 
 ```csharp
 public bool Hidden { get; set; }
@@ -34,12 +34,12 @@ Chart chart = shape.Chart;
 // Löschen Sie die Demo-Datenreihe des Diagramms, um mit einem sauberen Diagramm zu beginnen.
 chart.Series.Clear();
 
-// Eine benutzerdefinierte Reihe mit Kategorien für die X-Achse und entsprechenden Dezimalwerten für die Y-Achse hinzufügen.
+// Fügen Sie eine benutzerdefinierte Reihe mit Kategorien für die X-Achse und entsprechenden Dezimalwerten für die Y-Achse hinzu.
 chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });
 
- // Diagrammachsen ausblenden, um das Erscheinungsbild des Diagramms zu vereinfachen.
+    // Blenden Sie die Diagrammachsen aus, um die Darstellung des Diagramms zu vereinfachen.
 chart.AxisX.Hidden = true;
 chart.AxisY.Hidden = true;
 

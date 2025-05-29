@@ -3,7 +3,7 @@ title: FieldDisplayBarcode
 linktitle: FieldDisplayBarcode
 articleTitle: FieldDisplayBarcode
 second_title: Aspose.Words для .NET
-description: FieldDisplayBarcode строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldDisplayBarcode для бесшовной интеграции. Разблокируйте функции по умолчанию, чтобы повысить эффективность отображения штрихкодов.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/fielddisplaybarcode/

@@ -3,14 +3,14 @@ title: FontSettings.SetFontsFolders
 linktitle: SetFontsFolders
 articleTitle: SetFontsFolders
 second_title: Aspose.Words för .NET
-description: FontSettings SetFontsFolders metod. Ställer in mapparna där Aspose.Words söker efter TrueTypeteckensnitt vid rendering av dokument eller inbäddning av teckensnitt i C#.
+description: Upptäck hur du använder SetFontsFolders-metoden i Aspose.Words för att anpassa TrueType-teckensnittsplaceringar för optimal dokumentrendering och inbäddning.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fonts/fontsettings/setfontsfolders/
 ---
 ## FontSettings.SetFontsFolders method
 
-Ställer in mapparna där Aspose.Words söker efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt.
+Anger mapparna där Aspose.Words letar efter TrueType-teckensnitt vid rendering av dokument eller inbäddning av teckensnitt.
 
 ```csharp
 public void SetFontsFolders(string[] fontsFolders, bool recursive)
@@ -18,18 +18,18 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| fontsFolders | String[] | En uppsättning mappar som innehåller TrueType-teckensnitt. |
-| recursive | Boolean | True för att skanna de angivna mapparna efter teckensnitt rekursivt. |
+| fontsFolders | String[] | En matris med mappar som innehåller TrueType-teckensnitt. |
+| recursive | Boolean | Sant för att söka igenom de angivna mapparna rekursivt efter teckensnitt. |
 
 ## Anmärkningar
 
-Som standard letar Aspose.Words efter teckensnitt som är installerade i systemet.
+Som standard söker Aspose.Words efter teckensnitt som är installerade i systemet.
 
-Om du ställer in den här egenskapen återställs cachen för alla tidigare inlästa teckensnitt.
+Om den här egenskapen ställs in återställs cachen för alla tidigare inlästa teckensnitt.
 
 ## Exempel
 
-Visar hur du ställer in flera teckensnittskataloger.
+Visar hur man ställer in flera källkataloger för teckensnitt.
 
 ```csharp
 Document doc = new Document();
@@ -40,22 +40,22 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// Våra teckensnittskällor innehåller inte det teckensnitt som vi har använt för text i detta dokument.
+// Våra typsnittskällor innehåller inte det typsnitt som vi har använt för texten i det här dokumentet.
 // Om vi använder dessa teckensnittsinställningar när vi renderar detta dokument,
-// Aspose.Words kommer att tillämpa ett reservteckensnitt på text som har ett teckensnitt som Aspose.Words inte kan hitta.
+// Aspose.Words kommer att använda ett reservteckensnitt för text som har ett teckensnitt som Aspose.Words inte kan hitta.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.AreEqual(1, originalFontSources.Length);
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Standardteckensnittskällorna saknar de två typsnitten som vi använder i det här dokumentet.
+// Standardfontkällorna saknar de två fonter som vi använder i det här dokumentet.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Använd metoden "SetFontsFolders" för att skapa en teckensnittskälla från varje teckensnittskatalog som vi skickar som det första argumentet.
-// Skicka "false" som det "rekursiva" argumentet för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogerna
-// att vi skickar i det första argumentet, men inte inkluderar några typsnitt från någon av katalogernas undermappar.
-// Ange "true" som det "rekursiva" argumentet för att inkludera alla teckensnittsfiler i katalogerna som vi skickar
+// Använd metoden "SetFontsFolders" för att skapa en teckensnittskälla från varje teckensnittskatalog som vi skickar som första argument.
+// Skicka "false" som argumentet "rekursivt" för att inkludera teckensnitt från alla teckensnittsfiler som finns i katalogerna
+// som vi skickar med i det första argumentet, men inte inkluderar några teckensnitt från någon av katalogernas undermappar.
+// Skicka "true" som argumentet "rekursivt" för att inkludera alla teckensnittsfiler i de kataloger vi skickar
 // i det första argumentet, såväl som alla teckensnitt i deras underkataloger.
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);
@@ -67,7 +67,7 @@ Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "A
 Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
 Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// Själva mappen "Junction" innehåller inga teckensnittsfiler, men har undermappar som gör det.
+// Själva mappen "Junction" innehåller inga typsnittsfiler, men har undermappar som gör det.
 if (recursive)
 {
     Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);

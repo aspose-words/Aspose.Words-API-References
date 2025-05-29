@@ -3,9 +3,9 @@ title: CompositeNode.GetChild
 linktitle: GetChild
 articleTitle: GetChild
 second_title: Aspose.Words pour .NET
-description: CompositeNode GetChild méthode. Renvoie un Nième nœud enfant qui correspond au type spécifié en C#.
+description: Découvrez la méthode CompositeNode GetChild pour récupérer facilement le Nième nœud enfant d'un type spécifique, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
-weight: 80
+weight: 100
 url: /fr/net/aspose.words/compositenode/getchild/
 ---
 ## CompositeNode.GetChild method
@@ -19,8 +19,8 @@ public Node GetChild(NodeType nodeType, int index, bool isDeep)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | nodeType | NodeType | Spécifie le type du nœud enfant. |
-| index | Int32 | Index de base zéro du nœud enfant à sélectionner. Les index négatifs sont également autorisés et indiquent l'accès depuis la fin, c'est-à-dire -1 signifie le dernier nœud. |
-| isDeep | Boolean | `vrai` pour sélectionner récursivement parmi tous les nœuds enfants ; `FAUX`pour sélectionner uniquement parmi les enfants immédiats. Voir les remarques pour plus d'informations. |
+| index | Int32 | Index basé sur zéro du nœud enfant à sélectionner. Les index négatifs sont également autorisés et indiquent l'accès depuis la fin, c'est-à-dire -1 signifie le dernier nœud. |
+| isDeep | Boolean | `vrai` pour sélectionner parmi tous les nœuds enfants de manière récursive ; `FAUX` Pour sélectionner uniquement parmi les enfants immédiats. Voir les remarques pour plus d'informations. |
 
 ### Return_Value
 
@@ -28,13 +28,13 @@ Le nœud enfant qui correspond aux critères ou`nul` si aucun nœud correspondan
 
 ## Remarques
 
-Si l'index est hors plage, un`nul` est retourné.
+Si l'index est hors de portée, un`nul` est retourné.
 
-Notez que les nœuds de balisage (StructuredDocumentTag etSmartTag ) sont parcourus même lorsque*isDeep* =`FAUX` et`GetChild` est invoqué pour le type de nœud sans balisage. Par exemple, si la première exécution d'un para est enveloppée dans un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , il sera quand même restitué par`GetChild`(Run , 0,`FAUX`).
+Notez que les nœuds de balisage (StructuredDocumentTag etSmartTag ) sont parcourus même lorsque*isDeep* =`FAUX` et`GetChild` est invoqué pour un type de nœud non balisé. Par exemple, si la première exécution d'un paramètre para est encapsulée dans un[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) , il sera toujours retourné par`GetChild`(Run , 0,`FAUX`).
 
 ## Exemples
 
-Montre comment appliquer les propriétés du style d’un tableau directement aux éléments du tableau.
+Montre comment appliquer les propriétés du style d'un tableau directement aux éléments du tableau.
 
 ```csharp
 Document doc = new Document();
@@ -60,19 +60,19 @@ doc.ExpandTableStylesToDirectFormatting();
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");
 ```
 
-Montre comment parcourir la collection de nœuds enfants d’un nœud composite.
+Montre comment parcourir la collection de nœuds enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
 
-// Ajoutez deux tracés et une forme en tant que nœuds enfants au premier paragraphe de ce document.
+// Ajoutez deux exécutions et une forme en tant que nœuds enfants au premier paragraphe de ce document.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Notez que le 'CustomNodeId' n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
+// Notez que le « CustomNodeId » n'est pas enregistré dans un fichier de sortie et n'existe que pendant la durée de vie du nœud.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -80,7 +80,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Parcourir la collection d'enfants immédiats du paragraphe,
-// et imprimons toutes les courses ou formes que nous trouvons à l'intérieur.
+// et imprimez toutes les séquences ou formes que nous trouvons à l'intérieur.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

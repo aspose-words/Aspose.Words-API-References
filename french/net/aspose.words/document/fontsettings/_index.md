@@ -3,9 +3,9 @@ title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words pour .NET
-description: Document FontSettings propriété. Obtient ou définit les paramètres de police du document en C#.
+description: Découvrez comment personnaliser facilement les polices de vos documents. Améliorez la lisibilité et le style de vos documents grâce à des polices personnalisées.
 type: docs
-weight: 140
+weight: 150
 url: /fr/net/aspose.words/document/fontsettings/
 ---
 ## Document.FontSettings property
@@ -18,7 +18,7 @@ public FontSettings FontSettings { get; set; }
 
 ## Remarques
 
-Cette propriété permet de spécifier les paramètres de police par document. Si réglé sur`nul` , paramètres de police statique par défaut [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sera utilisé.
+Cette propriété permet de spécifier les paramètres de police par document. Si elle est définie sur`nul` , paramètres de police statique par défaut [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) sera utilisé.
 
 La valeur par défaut est`nul`.
 
@@ -44,9 +44,9 @@ Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial
 // La deuxième police, "Amethysta", n'est pas disponible.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// On peut configurer une table de substitution de polices qui détermine
+// Nous pouvons configurer une table de substitution de polices qui détermine
 // quelles polices Aspose.Words utilisera comme substituts aux polices indisponibles.
-// Définissez deux polices de substitution pour "Amethysta" : "Arvo" et "Courier New".
+// Définissez deux polices de substitution pour « Amethysta » : « Arvo » et « Courier New ».
 // Si le premier substitut n'est pas disponible, Aspose.Words tente d'utiliser le deuxième substitut, et ainsi de suite.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
@@ -58,7 +58,7 @@ Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo
  // "Arvo" n'est pas non plus disponible, mais "Courier New" l'est.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// Le document de sortie affichera le texte qui utilise la police "Amethysta" formatée avec "Courier New".
+// Le document de sortie affichera le texte qui utilise la police « Amethysta » formatée avec « Courier New ».
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

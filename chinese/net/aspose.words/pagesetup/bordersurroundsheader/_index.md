@@ -2,15 +2,15 @@
 title: PageSetup.BorderSurroundsHeader
 linktitle: BorderSurroundsHeader
 articleTitle: BorderSurroundsHeader
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup BorderSurroundsHeader 财产. 指定页面边框是包含还是排除页眉 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PageSetup BorderSurroundsHeader 属性，自定义页面边框。控制页眉的包含，打造更美观的文档布局。
 type: docs
 weight: 70
 url: /zh/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-指定页面边框是包含还是排除页眉。
+指定页面边框是否包含或排除页眉。
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }
@@ -22,7 +22,7 @@ public bool BorderSurroundsHeader { get; set; }
 
 ## 例子
 
-演示如何将边框应用到页面和页眉/页脚。
+展示如何为页面和页眉/页脚应用边框。
 
 ```csharp
 Document doc = new Document();
@@ -40,10 +40,10 @@ PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// 一个section的PageSetup对象有“BorderSurroundsHeader”和“BorderSurroundsFooter”标志来确定
-// 页面边框是否包围主体文本，还分别包括页眉或页脚。
-// 将“BorderSurroundsHeader”标志设置为“true”以用边框包围标题，
-// 然后设置“BorderSurroundsFooter”标志将页脚保留在边框之外。
+// 一个部分的 PageSetup 对象具有“BorderSurroundsHeader”和“BorderSurroundsFooter”标志，用于确定
+// 页面边框是否围绕正文，也分别包括页眉或页脚。
+// 将“BorderSurroundsHeader”标志设置为“true”，以用边框围绕标题，
+// 然后设置“BorderSurroundsFooter”标志以将页脚留在边框之外。
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

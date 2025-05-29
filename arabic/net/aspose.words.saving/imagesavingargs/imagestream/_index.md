@@ -3,7 +3,7 @@ title: ImageSavingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words لـ .NET
-description: ImageSavingArgs ImageStream ملكية. يسمح بتحديد الدفق الذي سيتم حفظ الصورة فيه في C#.
+description: اكتشف خاصية ImageStream في ImageSavingArgs لتحديد مكان حفظ صورك بسهولة، مما يعزز سير عملك وكفاءتك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/imagesavingargs/imagestream/
@@ -20,20 +20,20 @@ public Stream ImageStream { get; set; }
 
 تتيح لك هذه الخاصية حفظ الصور في التدفقات بدلاً من الملفات أثناء HTML.
 
-القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` ، سيتم حفظ الصورة في ملف محدد في ملف[`ImageFileName`](../imagefilename/) ملكية.
+القيمة الافتراضية هي`باطل` . عندما تكون هذه الخاصية`باطل` سيتم حفظ الصورة في الملف المحدد في[`ImageFileName`](../imagefilename/) ملكية.
 
-استخدام[`IImageSavingCallback`](../../iimagesavingcallback/) لا يمكنك استبدال صورة بـ أخرى. الغرض منه هو فقط التحكم في الموقع حيث يتم حفظ الصور.
+استخدام[`IImageSavingCallback`](../../iimagesavingcallback/) لا يمكنك استبدال صورة بـ أخرى. الغرض من ذلك هو فقط التحكم في مكان حفظ الصور.
 
 ## أمثلة
 
-يوضح كيفية تضمين رد اتصال لحفظ الصورة في عملية تحويل HTML.
+يوضح كيفية إشراك استدعاء حفظ الصورة في عملية تحويل HTML.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // عندما نحفظ المستند إلى HTML، يمكننا تمرير كائن SaveOptions لتعيين رد اتصال
+    // عندما نحفظ المستند في HTML، يمكننا تمرير كائن SaveOptions لتعيين معاودة الاتصال
     // لتخصيص عملية حفظ الصورة.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
@@ -42,8 +42,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// يطبع خصائص كل صورة بينما تقوم عملية الحفظ بحفظها في ملف صورة في نظام الملفات المحلي
-/// أثناء تصدير مستند إلى HTML.
+/// طباعة خصائص كل صورة أثناء عملية الحفظ التي تحفظها في ملف صورة في نظام الملفات المحلي
+/// أثناء تصدير المستند إلى HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

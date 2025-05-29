@@ -3,14 +3,14 @@ title: Odso.UdlConnectString
 linktitle: UdlConnectString
 articleTitle: UdlConnectString
 second_title: Aspose.Words para .NET
-description: Odso UdlConnectString propiedad. Especifica la cadena de conexión Universal Data Link UDL utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía en C#.
+description: Descubra la propiedad UdlConnectString de Odso para conexiones fluidas con fuentes de datos externas mediante UDL. ¡Desbloquee la integración de datos con facilidad y eficiencia!
 type: docs
 weight: 90
 url: /es/net/aspose.words.settings/odso/udlconnectstring/
 ---
 ## Odso.UdlConnectString property
 
-Especifica la cadena de conexión Universal Data Link (UDL) utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía.
+Especifica la cadena de conexión de enlace de datos universal (UDL) utilizada para conectarse a una fuente de datos externa. El valor predeterminado es una cadena vacía.
 
 ```csharp
 public string UdlConnectString { get; set; }
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Podemos restablecer estas configuraciones borrándolas. Una vez que hagamos eso y guardemos el documento,
-// Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
+Podemos restablecer esta configuración borrándola. Una vez hecho esto y guardado el documento,
+//Microsoft Word ya no ejecutará una combinación de correspondencia cuando lo usemos para cargar el documento.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

@@ -3,14 +3,14 @@ title: MailMergeSettings.Odso
 linktitle: Odso
 articleTitle: Odso
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings Odso ملكية. الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office ODSO أو تعيينه في C#.
+description: اكتشف كيفية إدارة إعدادات دمج البريد بسهولة باستخدام خصائص ODSO. بسّط أتمتة مستنداتك وحسّن كفاءة سير عملك اليوم!
 type: docs
 weight: 150
 url: /ar/net/aspose.words.settings/mailmergesettings/odso/
 ---
 ## MailMergeSettings.Odso property
 
-الحصول على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office (ODSO) أو تعيينه.
+يحصل على الكائن الذي يحدد إعدادات كائن مصدر بيانات Office (ODSO) أو يعينه.
 
 ```csharp
 public Odso Odso { get; set; }
@@ -18,11 +18,11 @@ public Odso Odso { get; set; }
 
 ## ملاحظات
 
-هذا الكائن أبدا`باطل`.
+هذا الكائن لا يحدث أبدًا`باطل`.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

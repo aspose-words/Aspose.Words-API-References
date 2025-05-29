@@ -2,10 +2,10 @@
 title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
-second_title: Aspose.Words for .NET
-description: Document FirstSection mülk. Belgedeki ilk bölümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin ilk bölümünü zahmetsizce alın. Sorunsuz bir organizasyon için Document FirstSection özelliğimizle iş akışınızı geliştirin.
 type: docs
-weight: 130
+weight: 140
 url: /tr/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
@@ -18,11 +18,11 @@ public Section FirstSection { get; }
 
 ## Notlar
 
-İadeler`hükümsüz` bölüm yoksa.
+Geri Döndürür`hükümsüz`eğer bölüm yoksa.
 
 ## Örnekler
 
-Belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
+Bir belgenin altbilgisindeki metnin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Footer.docx");
@@ -60,7 +60,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Her bölümün kendi sayfa yapısı ayarları vardır.
+// Her bölümün kendine özgü sayfa düzeni ayarları vardır.
 // İkinci bölümdeki metni iki sütuna bölebiliriz.
 // Bu, ilk bölümdeki metni etkilemeyecektir.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
@@ -74,7 +74,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-Bileşik bir düğümün çocukları arasında nasıl yineleme yapılacağını gösterir.
+Bir bileşik düğümün alt düğümleri arasında nasıl yineleme yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -88,8 +88,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Bölüm bileşik bir düğümdür ve alt düğümler içerebilir,
-// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm tipindeyse.
+// Bir Bölüm, bileşik bir düğümdür ve alt düğümler içerebilir,
+// ancak yalnızca bu alt düğümler "Body" veya "HeaderFooter" düğüm türündeyse.
 foreach (Node node in section)
 {
     switch (node.NodeType)

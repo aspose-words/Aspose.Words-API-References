@@ -3,7 +3,7 @@ title: BorderCollection.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words pour .NET
-description: BorderCollection Color propriété. Obtient ou définit la couleur de la bordure en C#.
+description: Découvrez la propriété BorderCollection Color pour personnaliser et gérer facilement les couleurs des bordures de vos créations. Améliorez votre interface utilisateur avec des options dynamiques !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bordercollection/color/
@@ -20,7 +20,7 @@ public Color Color { get; set; }
 
 Renvoie la couleur de la première bordure de la collection.
 
-Définit la couleur de toutes les bordures de la collection, à l'exception des bordures diagonales.
+Définit la couleur de toutes les bordures de la collection, à l'exclusion des bordures diagonales.
 
 ## Exemples
 

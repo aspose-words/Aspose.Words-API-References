@@ -3,7 +3,7 @@ title: FieldMergeBarcode
 linktitle: FieldMergeBarcode
 articleTitle: FieldMergeBarcode
 second_title: Aspose.Words لـ .NET
-description: FieldMergeBarcode البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldMergeBarcode لتكامل سلس. تمتع بميزات فعّالة وحسّن مشاريعك بسهولة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmergebarcode/fieldmergebarcode/

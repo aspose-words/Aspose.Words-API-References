@@ -3,7 +3,7 @@ title: EndnoteOptions.NumberStyle
 linktitle: NumberStyle
 articleTitle: NumberStyle
 second_title: Aspose.Words pour .NET
-description: EndnoteOptions NumberStyle propriété. Spécifie le format numérique pour les notes de fin numérotées automatiquement en C#.
+description: Découvrez la propriété NumberStyle d'EndnoteOptions pour personnaliser facilement le format numérique de vos notes de fin. Améliorez le professionnalisme de vos documents dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.notes/endnoteoptions/numberstyle/
@@ -18,24 +18,24 @@ public NumberStyle NumberStyle { get; set; }
 
 ## Remarques
 
-Tous les styles de numéros ne sont pas applicables à cette propriété. Pour obtenir la liste des styles de nombres applicables , consultez la boîte de dialogue Insérer une note de bas de page ou une note de fin dans Microsoft Word. Si vous sélectionnez un style numérique qui n'est pas applicable, Microsoft Word reviendra à une valeur par défaut.
+Tous les styles de nombre ne sont pas applicables à cette propriété. Pour la liste des styles de nombre applicables, consultez la boîte de dialogue Insérer une note de bas de page ou de fin de document dans Microsoft Word. Si vous sélectionnez un style de nombre non applicable, Microsoft Word rétablira la valeur par défaut.
 
 ## Exemples
 
-Montre comment modifier le style numérique des marques de référence de note de bas de page/note de fin.
+Montre comment modifier le style de numérotation des marques de référence de note de bas de page/de fin.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Les notes de bas de page et de fin sont un moyen d'attacher une référence ou un commentaire secondaire au texte
- // cela n'interfère pas avec le flux du corps principal du texte.
+// Les notes de bas de page et les notes de fin sont un moyen d'attacher une référence ou un commentaire latéral au texte
+ // qui n'interfère pas avec le flux du texte principal.
 // L'insertion d'une note de bas de page/de fin ajoute un petit symbole de référence en exposant
-// au corps du texte principal où nous insérons la note de bas de page/note de fin.
-// Chaque note de bas de page/note de fin crée également une entrée, qui consiste en un symbole qui correspond à la référence
-// symbole dans le corps du texte principal. Le texte de référence que nous transmettons à la méthode "InsertEndnote" du générateur de documents.
-// Les entrées de notes de bas de page, par défaut, apparaissent au bas de chaque page contenant
-// leurs symboles de référence et leurs notes de fin apparaissent à la fin du document.
+// dans le corps du texte principal où nous insérons la note de bas de page/note de fin.
+// Chaque note de bas de page/note de fin crée également une entrée, qui consiste en un symbole correspondant à la référence
+// Symbole dans le corps du texte. Texte de référence transmis à la méthode « InsertEndnote » du générateur de documents.
+// Les entrées de note de bas de page, par défaut, s'affichent au bas de chaque page qui contient
+// leurs symboles de référence et leurs notes de fin s'affichent à la fin du document.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -52,14 +52,14 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
-// Par défaut, le symbole de référence pour chaque note de bas de page et note de fin est son index
-// parmi toutes les notes de bas de page/notes de fin du document. Chaque document conserve des comptes distincts
-// pour les notes de bas de page et pour les notes de fin. Par défaut, les notes de bas de page affichent leurs numéros en chiffres arabes,
+// Par défaut, le symbole de référence pour chaque note de bas de page et de fin est son index
+// parmi toutes les notes de bas de page et de fin du document. Chaque document conserve un décompte distinct.
+// pour les notes de bas de page et les notes de fin. Par défaut, les notes de bas de page affichent leur numéro en chiffres arabes.
 // et les notes de fin affichent leurs numéros en chiffres romains minuscules.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
-// Nous pouvons utiliser la propriété "NumberStyle" pour appliquer des styles de numérotation personnalisés aux notes de bas de page et de fin.
+// Nous pouvons utiliser la propriété « NumberStyle » pour appliquer des styles de numérotation personnalisés aux notes de bas de page et aux notes de fin.
 // Cela n'affectera pas les notes de bas de page/notes de fin avec des marques de référence personnalisées.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;

@@ -2,15 +2,15 @@
 title: RowFormat.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: Aspose.Words for .NET
-description: RowFormat ClearFormatting yöntem. Varsayılan satır formatına sıfırlar C#'da.
+second_title: .NET için Aspose.Words
+description: RowFormat ClearFormatting yönteminin verilerinizi varsayılan stiline zahmetsizce nasıl geri yüklediğini, netliği ve sunumu nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/rowformat/clearformatting/
 ---
 ## RowFormat.ClearFormatting method
 
-Varsayılan satır formatına sıfırlar.
+Varsayılan satır biçimlendirmesine sıfırlar.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Örnekler
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -50,8 +50,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

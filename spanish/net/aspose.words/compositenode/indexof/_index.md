@@ -3,9 +3,9 @@ title: CompositeNode.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words para .NET
-description: CompositeNode IndexOf método. Devuelve el índice del nodo secundario especificado en la matriz de nodos secundarios en C#.
+description: Descubra cómo el método CompositeNode IndexOf ubica de manera eficiente el índice de un nodo secundario específico en la matriz, mejorando su experiencia de codificación.
 type: docs
-weight: 120
+weight: 140
 url: /es/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
@@ -18,11 +18,11 @@ public int IndexOf(Node child)
 
 ## Observaciones
 
-Devuelve -1 si el nodo no se encuentra en los nodos secundarios.
+Devuelve -1 si el nodo no se encuentra entre los nodos secundarios.
 
 ## Ejemplos
 
-Muestra cómo obtener el índice de un nodo secundario determinado de su padre.
+Muestra cómo obtener el índice de un nodo secundario determinado a partir de su padre.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

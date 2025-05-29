@@ -3,14 +3,14 @@ title: VbaReferenceType Enum
 linktitle: VbaReferenceType
 articleTitle: VbaReferenceType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Vba.VbaReferenceType uppräkning. Tillåter att ange typen av aVbaReference objekt i C#.
+description: Upptäck enumereringen Aspose.Words.Vba.VbaReferenceType för att enkelt definiera VbaReference-objekttyper, vilket förbättrar din dokumentautomation och -hantering.
 type: docs
-weight: 6610
+weight: 7460
 url: /sv/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
 
-Tillåter att ange typen av a[`VbaReference`](../vbareference/) objekt.
+Gör det möjligt att ange typen av en[`VbaReference`](../vbareference/) objekt.
 
 ```csharp
 public enum VbaReferenceType
@@ -20,10 +20,10 @@ public enum VbaReferenceType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Registered | `13` | Anger en biblioteksreferenstyp för automatiseringstyp. |
+| Registered | `13` | Anger en referenstyp för automationsbiblioteket. |
 | Project | `14` | Angav en extern VBA-projektreferenstyp. |
-| Original | `51` | Anger en originalbiblioteksreferenstyp för automatiseringstyp. |
-| Control | `47` | Anger en biblioteksreferenstyp med vridbar typ. |
+| Original | `51` | Anger en ursprunglig referenstyp för automationsbiblioteket. |
+| Control | `47` | Anger en referenstyp för ett twiddled-bibliotek. |
 
 ## Exempel
 
@@ -55,7 +55,7 @@ public void RemoveVbaReference()
 }
 
 /// <summary>
- /// Returnerar en sträng som representerar LibId-sökvägen för en angiven referens.
+ /// Returnerar strängen som representerar LibId-sökvägen för en specificerad referens.
 /// </summary>
 private static string GetLibIdPath(VbaReference reference)
 {
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Returnerar sökväg från en specificerad identifierare för ett bibliotek av automationstyp.
+/// Returnerar sökvägen från en specificerad identifierare för ett bibliotek med automationstyper.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

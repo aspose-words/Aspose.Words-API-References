@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: BaseWebExtensionCollection Add método. Agrega el elemento especificado a la colección en C#.
+description: Descubre cómo optimizar tus proyectos con el método Add de BaseWebExtensionCollection. Añade elementos fácilmente a tu colección para una integración perfecta.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/add/
@@ -18,7 +18,7 @@ public void Add(T item)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| item | T | Artículo para agregar. |
+| item | T | Elemento para agregar. |
 
 ## Ejemplos
 
@@ -27,7 +27,7 @@ Muestra cómo agregar una extensión web a un documento.
 ```csharp
 Document doc = new Document();
 
-// Crea un panel de tareas con el complemento "MyScript", que será utilizado por el documento.
+// Crear un panel de tareas con el complemento "MyScript", que será utilizado por el documento,
 // luego establece su ubicación predeterminada.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
@@ -39,10 +39,10 @@ myScriptTaskPane.IsLocked = true;
 // Si hay varios paneles de tareas en la misma ubicación de acoplamiento, podemos configurar este índice para organizarlos.
 myScriptTaskPane.Row = 1;
 
-// Cree un complemento llamado "Muestra de matemáticas MyScript", que se mostrará en el panel de tareas.
+// Cree un complemento llamado "MyScript Math Sample", que se mostrará en el panel de tareas.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Establece los parámetros de referencia de la tienda de aplicaciones para nuestro complemento, como el ID.
+// Establezca los parámetros de referencia de la tienda de aplicaciones para nuestro complemento, como el ID.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -53,13 +53,40 @@ webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindin
 // Permitir que el usuario interactúe con el complemento.
 webExtension.IsFrozen = false;
 
-// Podemos acceder a la extensión web en Microsoft Word vía Developer -> Complementos.
+//Podemos acceder a la extensión web en Microsoft Word a través de Desarrollador -> Complementos.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Elimina todos los paneles de tareas de extensiones web a la vez, así.
+//Elimine todos los paneles de tareas de extensión web a la vez de esta manera.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Ver también

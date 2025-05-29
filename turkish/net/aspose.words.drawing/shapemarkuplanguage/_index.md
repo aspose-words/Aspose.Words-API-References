@@ -2,10 +2,10 @@
 title: ShapeMarkupLanguage Enum
 linktitle: ShapeMarkupLanguage
 articleTitle: ShapeMarkupLanguage
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ShapeMarkupLanguage Sıralama. Şekil için kullanılan İşaretleme dilini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge biçimlendirme ve tasarım esnekliği için şekil işaretleme dillerini tanımlayan Aspose.Words.Drawing.ShapeMarkupLanguage enum'unu keşfedin.
 type: docs
-weight: 1280
+weight: 1670
 url: /tr/net/aspose.words.drawing/shapemarkuplanguage/
 ---
 ## ShapeMarkupLanguage enumeration
@@ -20,19 +20,19 @@ public enum ShapeMarkupLanguage : byte
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Dml | `0` | Şekli tanımlamak için Çizim İşaretleme Dili kullanılır. |
+| Dml | `0` | Çizim İşaretleme Dili, şekli tanımlamak için kullanılır. |
 | Vml | `1` | Şekli tanımlamak için Vektör İşaretleme Dili kullanılır. |
 
 ## Örnekler
 
-Kaydedilen bir belge için uyulması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
+Kaydedilen bir belgenin uyması gereken OOXML uyumluluk spesifikasyonunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Uyumluluk seçeneklerini Microsoft Word 2003'e uyacak şekilde yapılandırırsak,
-// bir görüntünün eklenmesi, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
+// Uyumluluk seçeneklerini Microsoft Word 2003 ile uyumlu olacak şekilde yapılandırırsak,
+// Bir resim eklemek, VML kullanılarak şeklinin tanımlanmasını sağlayacaktır.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -40,7 +40,7 @@ Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0,
 
 // "ISO/IEC 29500:2008" OOXML standardı VML şekillerini desteklemez.
 // SaveOptions nesnesinin "Compliance" özelliğini "OoxmlCompliance.Iso29500_2008_Strict" olarak ayarlarsak,
- // bu nesneyi geçerken kaydettiğimiz herhangi bir belgenin bu standarda uyması gerekecek.
+ // Bu nesneyi geçirirken kaydettiğimiz her belgenin o standarda uyması gerekecektir.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Strict,
@@ -49,7 +49,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için DML kullanarak şekli tanımlar.
+// Kaydedilen belgemiz, "ISO/IEC 29500:2008" OOXML standardına uymak için şekli DML kullanarak tanımlar.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

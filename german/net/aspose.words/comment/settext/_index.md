@@ -3,14 +3,14 @@ title: Comment.SetText
 linktitle: SetText
 articleTitle: SetText
 second_title: Aspose.Words für .NET
-description: Comment SetText methode. Dies ist eine praktische Methode die es ermöglicht den Text des Kommentars einfach festzulegen in C#.
+description: Entdecken Sie die SetText-Methode, ein benutzerfreundliches Tool, das das Hinzufügen von Kommentaren vereinfacht, Ihren Arbeitsablauf verbessert und die Produktivität mühelos steigert.
 type: docs
-weight: 150
+weight: 190
 url: /de/net/aspose.words/comment/settext/
 ---
 ## Comment.SetText method
 
-Dies ist eine praktische Methode, die es ermöglicht, den Text des Kommentars einfach festzulegen.
+Dies ist eine praktische Methode, mit der sich der Kommentartext einfach festlegen lässt.
 
 ```csharp
 public void SetText(string text)
@@ -22,11 +22,11 @@ public void SetText(string text)
 
 ## Bemerkungen
 
-Mit dieser Methode können Sie schnell den Text eines Kommentars aus einer Zeichenfolge festlegen. Der String kann Absatzumbrüche enthalten, dadurch werden entsprechend Textabsätze im Kommentar erstellt. Wenn Sie komplexere Elemente in den Kommentar einfügen möchten, zum Beispiel Lesezeichen oder Tabellen oder Rich-Formatierung anwenden möchten, müssen Sie die entsprechenden Knotenklassen verwenden um den Kommentartext aufzubauen.
+Mit dieser Methode lässt sich der Text eines Kommentars schnell aus einer Zeichenfolge erstellen. Die Zeichenfolge kann Absatzumbrüche enthalten, wodurch im Kommentar entsprechende Textabsätze erstellt werden. Wenn Sie komplexere Elemente in den Kommentar einfügen möchten, z. B. Lesezeichen, Tabellen oder eine umfangreiche Formatierung, müssen Sie die entsprechenden Knotenklassen verwenden, um den Kommentartext zu erstellen.
 
 ## Beispiele
 
-Zeigt, wie man einem Dokument einen Kommentar hinzufügt und dann darauf antwortet.
+Zeigt, wie Sie einem Dokument einen Kommentar hinzufügen und dann darauf antworten.
 
 ```csharp
 Document doc = new Document();
@@ -36,17 +36,17 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 
 // Platzieren Sie den Kommentar an einem Knoten im Hauptteil des Dokuments.
-// Dieser Kommentar wird an der Stelle seines Absatzes angezeigt.
-// außerhalb des rechten Randes der Seite und mit einer gepunkteten Linie, die es mit seinem Absatz verbindet.
+// Dieser Kommentar wird an der Stelle seines Absatzes angezeigt,
+// außerhalb des rechten Seitenrands und mit einer gepunkteten Linie, die es mit dem Absatz verbindet.
 builder.CurrentParagraph.AppendChild(comment);
 
-// Eine Antwort hinzufügen, die unter dem übergeordneten Kommentar angezeigt wird.
+// Fügen Sie eine Antwort hinzu, die unter dem übergeordneten Kommentar angezeigt wird.
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
-// Kommentare und Antworten sind beide Kommentarknoten.
+// Kommentare und Antworten sind beides Kommentarknoten.
 Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
 
-// Kommentare, die nicht auf andere Kommentare antworten, sind „Top-Level“. Sie haben keine Vorfahrenkommentare.
+// Kommentare, die nicht auf andere Kommentare antworten, sind „Top-Level“. Sie haben keine übergeordneten Kommentare.
 Assert.Null(comment.Ancestor);
 
 // Antworten haben einen übergeordneten Kommentar auf oberster Ebene.

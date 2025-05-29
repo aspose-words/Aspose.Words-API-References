@@ -2,8 +2,8 @@
 title: BookmarkStart.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkStart Name 财产. 获取或设置书签名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BookmarkStart Name 属性，轻松管理和自定义您的书签。这项重要功能将提升您的导航体验！
 type: docs
 weight: 30
 url: /zh/net/aspose.words/bookmarkstart/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## 评论
 
-不可能是`无效的`。
+不可能`无效的`。
 
 ## 例子
 
@@ -36,7 +36,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

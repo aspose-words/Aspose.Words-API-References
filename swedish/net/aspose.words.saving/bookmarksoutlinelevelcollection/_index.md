@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection klass. En samling individuella bokmärken konturnivå i C#.
+description: Upptäck klassen Aspose.Words.Saving.BookmarksOutlineLevelCollection – ett kraftfullt verktyg för att hantera bokmärken och förbättra dokumentnavigering utan ansträngning.
 type: docs
-weight: 4850
+weight: 5590
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-En samling individuella bokmärken konturnivå.
+En samling individuella bokmärken på dispositionsnivå.
 
 För att lära dig mer, besök[Arbeta med bokmärken](https://docs.aspose.com/words/net/working-with-bookmarks/) dokumentationsartikel.
 
@@ -29,7 +29,7 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | namn | Beskrivning |
 | --- | --- |
 | [Count](../../aspose.words.saving/bookmarksoutlinelevelcollection/count/) { get; } | Hämtar antalet element som finns i samlingen. |
-| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item/) { get; set; } | Hämtar eller ställer in en bokmärkeskonturnivå med bokmärkets namn. (2 indexers) |
+| [Item](../../aspose.words.saving/bookmarksoutlinelevelcollection/item/) { get; set; } | Hämtar eller anger en bokmärkesnivå efter bokmärkesnamnet. (2 indexers) |
 
 ## Metoder
 
@@ -37,27 +37,27 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | --- | --- |
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Lägger till ett bokmärke i samlingen. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Tar bort alla element från samlingen. |
-| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Bestämmer om samlingen innehåller ett bokmärke med det angivna namnet. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Avgör om samlingen innehåller ett bokmärke med det angivna namnet. |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Returnerar det nollbaserade indexet för det angivna bokmärket i samlingen. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Tar bort ett bokmärke med det angivna namnet från samlingen. |
 | [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Tar bort ett bokmärke vid det angivna indexet. |
 
 ## Anmärkningar
 
-Nyckel är ett bokmärkesnamn för strängar som inte är skiftlägeskänsliga. Värde är en int bokmärkeskonturnivå.
+Key är ett skiftläges-okänsligt bokmärkesnamn. Value är ett heltal på bokmärkets dispositionsnivå.
 
-Bokmärkeskonturnivå kan vara ett värde från 0 till 9. Ange 0 och Word-bokmärke kommer inte att visas i dokumentkonturen. Ange 1 och Word-bokmärke kommer att visas i dokumentkonturen på nivå 1; 2 för nivå 2 och så vidare.
+Bokmärkesdispositionens nivå kan vara ett värde från 0 till 9. Ange 0 så visas inte Word-bokmärket i dokumentdispositionen. Ange 1 så visas Word-bokmärket i dokumentdispositionen på nivå 1; 2 för nivå 2 och så vidare.
 
 ## Exempel
 
-Visar hur du ställer in konturnivåer för bokmärken.
+Visar hur man ställer in konturnivåer för bokmärken.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett bokmärke med ett annat bokmärke kapslat inuti.
+// Infoga ett bokmärke med ett annat bokmärke inbäddat inuti det.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -73,9 +73,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// När du sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
-// Bokmärken kan också ha numeriska värden för konturnivåer,
-// möjliggör för konturposter på lägre nivå att dölja underordnade poster på högre nivå när de komprimeras i läsaren.
+// När man sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
+// Bokmärken kan också ha numeriska värden för dispositionsnivåer,
+// aktiverar dispositionsposter på lägre nivå för att dölja underordnade poster på högre nivå när de är hopfällda i läsaren.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -89,18 +89,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Vi kan ta bort två element så att endast konturnivåbeteckningen för "Bokmärke 1" finns kvar.
+// Vi kan ta bort två element så att endast beteckningen för dispositionsnivå för "Bokmärke 1" finns kvar.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Det finns nio konturnivåer. Deras numrering kommer att optimeras under lagringsoperationen.
-// I det här fallet kommer nivåerna "5" och "9" att bli "2" och "3".
+// Det finns nio dispositionsnivåer. Numreringen av dem optimeras när de sparas.
+// I det här fallet blir nivåerna "5" och "9" "2" och "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Att tömma den här samlingen kommer att bevara bokmärkena och placera dem alla på samma konturnivå.
+// Om du tömmer den här samlingen bevaras bokmärkena och de placeras alla på samma dispositionsnivå.
 outlineLevels.Clear();
 ```
 

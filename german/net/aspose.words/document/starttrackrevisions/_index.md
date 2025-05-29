@@ -3,14 +3,14 @@ title: Document.StartTrackRevisions
 linktitle: StartTrackRevisions
 articleTitle: StartTrackRevisions
 second_title: Aspose.Words für .NET
-description: Document StartTrackRevisions methode. Beginnt automatisch mit der Markierung aller weiteren Änderungen die Sie programmgesteuert am Dokument vornehmen als Revisionsänderungen in C#.
+description: Verfolgen Sie Dokumentänderungen mühelos mit der Methode „StartTrackRevisions“. Markieren Sie alle Änderungen automatisch als Revisionen für eine reibungslose Zusammenarbeit und mehr Übersichtlichkeit.
 type: docs
-weight: 710
+weight: 760
 url: /de/net/aspose.words/document/starttrackrevisions/
 ---
 ## StartTrackRevisions(*string, DateTime*) {#starttrackrevisions_1}
 
-Beginnt automatisch mit der Markierung aller weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen.
+Beginnt automatisch, alle weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen zu markieren.
 
 ```csharp
 public void StartTrackRevisions(string author, DateTime dateTime)
@@ -18,28 +18,28 @@ public void StartTrackRevisions(string author, DateTime dateTime)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
-| dateTime | DateTime | Das für Überarbeitungen zu verwendende Datum und die Uhrzeit. |
+| author | String | Initialen des Autors, die für Überarbeitungen verwendet werden sollen. |
+| dateTime | DateTime | Das für Revisionen zu verwendende Datum und die Uhrzeit. |
 
 ## Bemerkungen
 
-Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden diese Änderungen als Überarbeitungen angezeigt.
+Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden Ihnen diese Änderungen als Revisionen angezeigt.
 
 Derzeit unterstützt Aspose.Words nur die Verfolgung von Knoteneinfügungen und -löschungen. Formatierungsänderungen werden nicht als Revisionen aufgezeichnet.
 
-Die automatische Nachverfolgung von Änderungen wird sowohl beim Ändern dieses Dokuments durch node manipulations als auch bei der Verwendung unterstützt[`DocumentBuilder`](../../documentbuilder/)
+Die automatische Nachverfolgung von Änderungen wird sowohl bei der Änderung dieses Dokuments durch Knotenmanipulationen als auch bei der Verwendung von[`DocumentBuilder`](../../documentbuilder/)
 
-Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zweck der Revisionsverfolgung.
+Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zwecke der Revisionsverfolgung.
 
 ## Beispiele
 
-Zeigt, wie Sie Revisionen beim Bearbeiten eines Dokuments verfolgen.
+Zeigt, wie Sie beim Bearbeiten eines Dokuments Revisionen nachverfolgen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Das Bearbeiten eines Dokuments zählt normalerweise nicht als Überarbeitung, bis wir mit der Nachverfolgung beginnen.
+// Das Bearbeiten eines Dokuments zählt normalerweise nicht als Revision, bis wir mit der Nachverfolgung beginnen.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -52,17 +52,17 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// Die Verfolgung von Revisionen stoppen, um zukünftige Änderungen nicht als Revisionen zu zählen.
+// Beenden Sie die Revisionsverfolgung, um zukünftige Bearbeitungen nicht als Revisionen zu zählen.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// Das Erstellen von Revisionen gibt ihnen ein Datum und eine Uhrzeit des Vorgangs.
-// Wir können dies deaktivieren, indem wir DateTime.MinValue übergeben, wenn wir mit der Nachverfolgung von Revisionen beginnen.
+// Durch das Erstellen von Revisionen werden Datum und Uhrzeit des Vorgangs angegeben.
+// Wir können dies deaktivieren, indem wir DateTime.MinValue übergeben, wenn wir mit der Verfolgung von Revisionen beginnen.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -72,8 +72,8 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Wir können diese Revisionen programmgesteuert akzeptieren/ablehnen
 // durch Aufrufen von Methoden wie Document.AcceptAllRevisions oder der Accept-Methode jeder Revision.
-// In Microsoft Word können wir sie manuell über „Überprüfen“ -> bearbeiten. "Änderungen".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// In Microsoft Word können wir diese über „Überprüfen“ -> „Änderungen“ manuell bearbeiten.
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Siehe auch
@@ -87,7 +87,7 @@ doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
 
 ## StartTrackRevisions(*string*) {#starttrackrevisions}
 
-Beginnt automatisch mit der Markierung aller weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen.
+Beginnt automatisch, alle weiteren Änderungen, die Sie programmgesteuert am Dokument vornehmen, als Revisionsänderungen zu markieren.
 
 ```csharp
 public void StartTrackRevisions(string author)
@@ -95,27 +95,27 @@ public void StartTrackRevisions(string author)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| author | String | Initialen des Autors zur Verwendung bei Überarbeitungen. |
+| author | String | Initialen des Autors, die für Überarbeitungen verwendet werden sollen. |
 
 ## Bemerkungen
 
-Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden diese Änderungen als Überarbeitungen angezeigt.
+Wenn Sie diese Methode aufrufen und dann programmgesteuert einige Änderungen am Dokument vornehmen, das Dokument speichern und später in MS Word öffnen, werden Ihnen diese Änderungen als Revisionen angezeigt.
 
 Derzeit unterstützt Aspose.Words nur die Verfolgung von Knoteneinfügungen und -löschungen. Formatierungsänderungen werden nicht als Revisionen aufgezeichnet.
 
-Die automatische Nachverfolgung von Änderungen wird sowohl beim Ändern dieses Dokuments durch node manipulations als auch bei der Verwendung unterstützt[`DocumentBuilder`](../../documentbuilder/)
+Die automatische Nachverfolgung von Änderungen wird sowohl bei der Änderung dieses Dokuments durch Knotenmanipulationen als auch bei der Verwendung von[`DocumentBuilder`](../../documentbuilder/)
 
-Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zweck der Revisionsverfolgung.
+Diese Methode ändert nichts an der[`TrackRevisions`](../trackrevisions/) Option und verwendet ihren Wert nicht zum Zwecke der Revisionsverfolgung.
 
 ## Beispiele
 
-Zeigt, wie Sie Revisionen beim Bearbeiten eines Dokuments verfolgen.
+Zeigt, wie Sie beim Bearbeiten eines Dokuments Revisionen nachverfolgen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Das Bearbeiten eines Dokuments zählt normalerweise nicht als Überarbeitung, bis wir mit der Nachverfolgung beginnen.
+// Das Bearbeiten eines Dokuments zählt normalerweise nicht als Revision, bis wir mit der Nachverfolgung beginnen.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -128,17 +128,17 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// Die Verfolgung von Revisionen stoppen, um zukünftige Änderungen nicht als Revisionen zu zählen.
+// Beenden Sie die Revisionsverfolgung, um zukünftige Bearbeitungen nicht als Revisionen zu zählen.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// Das Erstellen von Revisionen gibt ihnen ein Datum und eine Uhrzeit des Vorgangs.
-// Wir können dies deaktivieren, indem wir DateTime.MinValue übergeben, wenn wir mit der Nachverfolgung von Revisionen beginnen.
+// Durch das Erstellen von Revisionen werden Datum und Uhrzeit des Vorgangs angegeben.
+// Wir können dies deaktivieren, indem wir DateTime.MinValue übergeben, wenn wir mit der Verfolgung von Revisionen beginnen.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -148,8 +148,8 @@ Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
 // Wir können diese Revisionen programmgesteuert akzeptieren/ablehnen
 // durch Aufrufen von Methoden wie Document.AcceptAllRevisions oder der Accept-Methode jeder Revision.
-// In Microsoft Word können wir sie manuell über „Überprüfen“ -> bearbeiten. "Änderungen".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// In Microsoft Word können wir diese über „Überprüfen“ -> „Änderungen“ manuell bearbeiten.
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Siehe auch

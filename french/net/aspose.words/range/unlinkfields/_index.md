@@ -3,9 +3,9 @@ title: Range.UnlinkFields
 linktitle: UnlinkFields
 articleTitle: UnlinkFields
 second_title: Aspose.Words pour .NET
-description: Range UnlinkFields méthode. Dissocie les champs de cette plage en C#.
+description: Découvrez la méthode Range UnlinkFields pour dissocier sans effort les champs de votre plage de documents, améliorant ainsi votre flux de travail et la gestion de vos documents.
 type: docs
-weight: 110
+weight: 120
 url: /fr/net/aspose.words/range/unlinkfields/
 ---
 ## Range.UnlinkFields method
@@ -20,11 +20,11 @@ public void UnlinkFields()
 
 Remplace tous les champs de cette plage par leurs résultats les plus récents.
 
-Pour dissocier des champs dans l'ensemble du document, utilisez`UnlinkFields`.
+Pour dissocier les champs dans l'ensemble du document, utilisez`UnlinkFields`.
 
 ## Exemples
 
-Montre comment dissocier tous les champs d’une plage.
+Montre comment dissocier tous les champs d'une plage.
 
 ```csharp
 Document doc = new Document(MyDir + "Linked fields.docx");

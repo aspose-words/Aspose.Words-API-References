@@ -3,16 +3,16 @@ title: BookmarkEnd Class
 linktitle: BookmarkEnd
 articleTitle: BookmarkEnd
 second_title: Aspose.Words para .NET
-description: Aspose.Words.BookmarkEnd clase. Representa el final de un marcador en un documento de Word en C#.
+description: Descubra la clase Aspose.Words.BookmarkEnd, que administra de manera eficiente los extremos de los marcadores en documentos de Word, mejorando su experiencia de edición de documentos.
 type: docs
-weight: 60
+weight: 250
 url: /es/net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class
 
 Representa el final de un marcador en un documento de Word.
 
-Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con marcadores](https://docs.aspose.com/words/net/working-with-bookmarks/) Artículo de documentación.
 
 ```csharp
 public class BookmarkEnd : Node
@@ -28,15 +28,15 @@ public class BookmarkEnd : Node
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica un identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve`verdadero` si este nodo puede contener otros nodos. |
 | [Name](../../aspose.words/bookmarkend/name/) { get; set; } | Obtiene o establece el nombre del marcador. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | DevolucionesBookmarkEnd . |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo inmediatamente siguiente a este nodo. |
+| override [NodeType](../../aspose.words/bookmarkend/nodetype/) { get; } | DevuelveBookmarkEnd . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/)objeto que representa la porción de un documento que está contenida en este nodo. |
 
 ## Métodos
 
@@ -45,21 +45,21 @@ public class BookmarkEnd : Node
 | override [Accept](../../aspose.words/bookmarkend/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer ancestro del tipo de objeto especificado. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Obtiene el texto de este nodo y de todos sus hijos. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo de recorrido del árbol de preorden. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo en una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo en una cadena utilizando las opciones de guardado especificadas. |
 
 ## Observaciones
 
-Un marcador completo en un documento de Word consta de un[`BookmarkStart`](../bookmarkstart/) y una coincidencia`BookmarkEnd` con el mismo nombre de marcador.
+Un marcador completo en un documento de Word consta de un[`BookmarkStart`](../bookmarkstart/) y un equivalente`BookmarkEnd` con el mismo nombre de marcador.
 
 [`BookmarkStart`](../bookmarkstart/) y`BookmarkEnd` son solo marcadores dentro de un document que especifican dónde comienza y termina el marcador.
 
-Utilizar el[`Bookmark`](../bookmark/) clase como "fachada" para trabajar con un bookmark como un solo objeto.
+Utilice el[`Bookmark`](../bookmark/) clase como "fachada" para trabajar con un bookmark como un solo objeto.
 
 ## Ejemplos
 
@@ -68,16 +68,16 @@ Muestra cómo agregar marcadores y actualizar su contenido.
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
 {
-    // Cree un documento con tres marcadores y luego utilice una implementación personalizada de visitante de documentos para imprimir su contenido.
+    // Cree un documento con tres marcadores y luego utilice una implementación de visitante de documento personalizada para imprimir su contenido.
     Document doc = CreateDocumentWithBookmarks(3);
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
+    //Se puede acceder a los marcadores en la colección de marcadores por índice o nombre, y sus nombres se pueden actualizar.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // Imprime todos los marcadores nuevamente para ver los valores actualizados.
+    // Imprima todos los marcadores nuevamente para ver los valores actualizados.
     PrintAllBookmarkInfo(bookmarks);
 }
 

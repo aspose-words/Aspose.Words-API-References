@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.TextRenderingHint
 linktitle: TextRenderingHint
 articleTitle: TextRenderingHint
 second_title: Aspose.Words لـ .NET
-description: GraphicsQualityOptions TextRenderingHint ملكية. الحصول على أو تعيين وضع العرض للنص المرتبط بهذه الرسومات في C#.
+description: اكتشف خاصية GraphicsQualityOptions TextRenderingHint لعرض النصوص بشكل مثالي في رسوماتك. حسّن جودة الصورة والأداء اليوم!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/textrenderinghint/
 ---
 ## GraphicsQualityOptions.TextRenderingHint property
 
-الحصول على أو تعيين وضع العرض للنص المرتبط بهذه الرسومات.
+يحصل على وضع العرض للنص المرتبط بهذه الرسومات أو يعينه.
 
 ```csharp
 public TextRenderingHint? TextRenderingHint { get; set; }

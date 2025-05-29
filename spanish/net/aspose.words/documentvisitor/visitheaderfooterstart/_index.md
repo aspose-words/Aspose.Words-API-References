@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitHeaderFooterStart
 linktitle: VisitHeaderFooterStart
 articleTitle: VisitHeaderFooterStart
 second_title: Aspose.Words para .NET
-description: DocumentVisitor VisitHeaderFooterStart método. Se llama cuando ha comenzado la enumeración de un encabezado o pie de página en una sección en C#.
+description: Descubra el método VisitHeaderFooterStart de DocumentVisitor, esencial para el seguimiento de la enumeración de encabezados y pies de página en secciones. ¡Mejore su gestión documental!
 type: docs
 weight: 290
 url: /es/net/aspose.words/documentvisitor/visitheaderfooterstart/
 ---
 ## DocumentVisitor.VisitHeaderFooterStart method
 
-Se llama cuando ha comenzado la enumeración de un encabezado o pie de página en una sección.
+Se llama cuando se inicia la enumeración de un encabezado o pie de página en una sección.
 
 ```csharp
 public virtual VisitorAction VisitHeaderFooterStart(HeaderFooter headerFooter)
@@ -34,20 +34,20 @@ public void HeaderFooterToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     HeaderFooterStructurePrinter visitor = new HeaderFooterStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 
-    // Una forma alternativa de acceder al encabezado/pie de página de un documento sección por sección es accediendo a la colección.
+    // Una forma alternativa de acceder al encabezado y pie de página de un documento sección por sección es accediendo a la colección.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
     Assert.AreEqual(3, headerFooters.Length);
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos HeaderFooter encontrados y sus hijos.
 /// </summary>
 public class HeaderFooterStructurePrinter : DocumentVisitor
@@ -98,9 +98,9 @@ public class HeaderFooterStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra dependiendo de qué tan profundo esté el visitante en el árbol del documento.
+    /// Agrega una línea al StringBuilder y sangrala dependiendo de qué tan profundo se encuentre el visitante en el árbol del documento.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

@@ -2,8 +2,8 @@
 title: SmartTag.Uri
 linktitle: Uri
 articleTitle: Uri
-second_title: Aspose.Words for .NET
-description: SmartTag Uri mülk. Akıllı etiketin ad alanı URIsini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: SmartTag Uri özelliğini keşfedin; gelişmiş işlevsellik ve uygulamalarınızda sorunsuz entegrasyon için akıllı etiketinizin ad alanı URI'sini tanımlayın.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.markup/smarttag/uri/
@@ -20,7 +20,7 @@ public string Uri { get; set; }
 
 Olamaz`hükümsüz`.
 
-Varsayılan boş dizedir.
+Varsayılan boş dizgedir.
 
 ## Örnekler
 
@@ -31,19 +31,19 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Microsoft Word'ün metnin bir bölümünü bir tür veri olarak tanıdığı bir belgede akıllı etiket görünür,
-    // ad, tarih veya adres gibi ve onu mor noktalı alt çizgi görüntüleyen bir köprüye dönüştürür.
+    // Microsoft Word'de bir belgede görünen akıllı etiket, metnin bir kısmını bir tür veri olarak tanır,
+    // isim, tarih veya adres gibi bir bilgiyi alıp mor noktalı alt çizgi gösteren bir köprü metnine dönüştürür.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Akıllı etiketler, tanınan metnin tamamını içeren bileşik düğümlerdir.
-    // İçeriği bu akıllı etikete manuel olarak ekleyin.
+    // Akıllı etiketler, tanınan metinlerini bütünüyle içeren bileşik düğümlerdir.
+    // Bu akıllı etikete içerikleri manuel olarak ekleyin.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word yukarıdaki içerikleri tarih olarak tanıyabilir.
-    // Akıllı etiketler içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
+    // Microsoft Word yukarıdaki içeriği bir tarih olarak tanıyabilir.
+    // Akıllı etiketler, içerdikleri veri türünü yansıtmak için "Element" özelliğini kullanır.
     smartTag.Element = "date";
 
-    // Bazı akıllı etiket türleri, içeriklerini özel XML özelliklerine göre işler.
+    // Bazı akıllı etiket türleri içeriklerini daha sonra özel XML özelliklerine işler.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
@@ -54,7 +54,7 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a date. "));
 
-    // Hisse senedi takip cihazı için başka bir akıllı etiket oluşturun.
+    // Bir hisse senedi için başka bir akıllı etiket oluşturun.
     smartTag = new SmartTag(doc);
     smartTag.Element = "stockticker";
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
@@ -64,13 +64,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Bir belge ziyaretçisi kullanarak belgemizdeki tüm akıllı etiketleri yazdırın.
+    // Belge ziyaretçisini kullanarak belgemizdeki tüm akıllı etiketleri yazdır.
     doc.Accept(new SmartTagPrinter());
 
     // Microsoft Word'ün eski sürümleri akıllı etiketleri destekler.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Bir belgedeki tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
+    // Bir belgeden tüm akıllı etiketleri kaldırmak için "RemoveSmartTags" yöntemini kullanın.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -93,7 +93,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// SmartTag düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Bir SmartTag düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

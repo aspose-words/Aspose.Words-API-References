@@ -3,9 +3,9 @@ title: ShadowType Enum
 linktitle: ShadowType
 articleTitle: ShadowType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.ShadowType opsomming. Gibt den Typ eines Formschattens an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.ShadowType, um Ihre Formen mit anpassbaren Schattentypen für beeindruckende Dokumentvisualisierungen zu verbessern.
 type: docs
-weight: 1240
+weight: 1630
 url: /de/net/aspose.words.drawing/shadowtype/
 ---
 ## ShadowType enumeration
@@ -35,7 +35,7 @@ public enum ShadowType
 | Shadow2 | `2` | Zweiter Schattentyp. |
 | Shadow20 | `20` | Zwanzigster Schattentyp. |
 | Shadow21 | `21` | Einundzwanzigster Schattentyp. |
-| Shadow22 | `22` | Zwanzig-Sekunden-Schattentyp. |
+| Shadow22 | `22` | Zwanzig Sekunden Schattentyp. |
 | Shadow23 | `23` | Dreiundzwanzigster Schattentyp. |
 | Shadow24 | `24` | Vierundzwanzigster Schattentyp. |
 | Shadow25 | `25` | Fünfundzwanzigster Schattentyp. |
@@ -46,9 +46,9 @@ public enum ShadowType
 | Shadow3 | `3` | Dritter Schattentyp. |
 | Shadow30 | `30` | Dreißigster Schattentyp. |
 | Shadow31 | `31` | Einunddreißigster Schattentyp. |
-| Shadow32 | `32` | Zweiunddreißigster Schattentyp. |
+| Shadow32 | `32` | Dreißig Sekunden Schattentyp. |
 | Shadow33 | `33` | Dreiunddreißigster Schattentyp. |
-| Shadow34 | `34` | Dreißigster Schattentyp. |
+| Shadow34 | `34` | Vierunddreißigster Schattentyp. |
 | Shadow35 | `35` | Fünfunddreißigster Schattentyp. |
 | Shadow36 | `36` | Sechsunddreißigster Schattentyp. |
 | Shadow37 | `37` | Siebenunddreißigster Schattentyp. |
@@ -57,7 +57,7 @@ public enum ShadowType
 | Shadow4 | `4` | Vierter Schattentyp. |
 | Shadow40 | `40` | Vierzigster Schattentyp. |
 | Shadow41 | `41` | Einundvierzigster Schattentyp. |
-| Shadow42 | `42` | Zweiundvierzigster Schattentyp. |
+| Shadow42 | `42` | Vierzig Sekunden Schattentyp. |
 | Shadow43 | `43` | Dreiundvierzigster Schattentyp. |
 | Shadow5 | `5` | Fünfter Schattentyp. |
 | Shadow6 | `6` | Sechster Schattentyp. |
@@ -67,7 +67,7 @@ public enum ShadowType
 
 ## Bemerkungen
 
-ShadowType ist kein einfaches Attribut, sondern eine Voreinstellung, die mehrere Attribute gleichzeitig festlegt, die das Erscheinungsbild des Schattens bilden.
+ShadowType ist kein einfaches Attribut, sondern eine Vorgabe, die mehrere Attribute gleichzeitig festlegt, die das Erscheinungsbild des Schattens bestimmen.
 
 ## Beispiele
 
@@ -77,10 +77,10 @@ Zeigt, wie mit einer Schattenformatierung für die Form gearbeitet wird.
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

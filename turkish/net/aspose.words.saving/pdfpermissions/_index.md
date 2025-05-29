@@ -2,15 +2,15 @@
 title: PdfPermissions Enum
 linktitle: PdfPermissions
 articleTitle: PdfPermissions
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Saving.PdfPermissions Sıralama. Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Şifrelenmiş PDF'lerde kullanıcı erişimini kontrol etmek için Aspose.Words.PdfPermissions enum'unu keşfedin. Güvenliği artırın ve belge işlemlerini etkili bir şekilde yönetin.
 type: docs
-weight: 5510
+weight: 6310
 url: /tr/net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration
 
-Şifrelenmiş bir PDF belgesinde kullanıcıya izin verilen işlemleri belirtir.
+Şifrelenmiş bir PDF belgesinde bir kullanıcıya izin verilen işlemleri belirtir.
 
 ```csharp
 [Flags]
@@ -23,14 +23,14 @@ public enum PdfPermissions
 | --- | --- | --- |
 | DisallowAll | `0` | PDF belgesindeki tüm işlemlere izin vermez. Bu varsayılan değerdir. |
 | AllowAll | `FFFF` | PDF belgesi üzerinde tüm işlemlere izin verir. |
-| ContentCopy | `10` | Belgeden metin ve grafikleri, kontrol edilen dışındaki işlemlerle kopyalayın veya başka şekilde çıkarınContentCopyForAccessibility . |
-| ContentCopyForAccessibility | `200` | Metin ve grafikleri çıkarın (engelli kullanıcıların erişimini desteklemek amacıyla veya başka amaçlarla). |
+| ContentCopy | `10` | Belgeden, kontrol edilenden farklı işlemlerle metin ve grafikleri kopyalayın veya başka şekilde çıkarın. ContentCopyForAccessibility . |
+| ContentCopyForAccessibility | `200` | Engelli kullanıcıların erişilebilirliğini desteklemek veya diğer amaçlar için metin ve grafikleri ayıklayın. |
 | ModifyContents | `8` | Belgenin içeriğini, tarafından kontrol edilenler dışındaki işlemlerle değiştirinModifyAnnotations ,FillIn , VeDocumentAssembly . |
-| ModifyAnnotations | `20` | Metin açıklamalarını ekleyin veya değiştirin, etkileşimli form alanlarını doldurun ve gerekiyorsaModifyContents is ayrıca etkileşimli form alanlarını (imza alanları dahil) ayarlar, oluşturur veya değiştirir. |
-| FillIn | `100` | Mevcut etkileşimli form alanlarını (imza alanları dahil) doldurun.ModifyContents temiz. |
-| DocumentAssembly | `400` | Belgeyi birleştirin (sayfaları ekleyin, döndürün veya silin ve belge anahat öğeleri veya küçük resim görüntüleri oluşturun), hattaModifyContents açık. |
-| Printing | `4` | Belgeyi yazdırın ( olup olmadığına bağlı olarak muhtemelen en yüksek kalite düzeyinde değil)HighResolutionPrinting ayrıca ayarlanmıştır). |
-| HighResolutionPrinting | `804` | Belgeyi, uygulamaya bağlı bir algoritmaya dayalı olarak PDF içeriğinin aslına sadık bir dijital kopyasının oluşturulabileceği bir temsile yazdırın. Bu bayrak temiz olduğunda (and Printing ayarlandığında), yazdırma, görünümün düşük seviyeli temsiliyle sınırlı olacaktır, muhtemelen kalitesi düşmüş. |
+| ModifyAnnotations | `20` | Metin açıklamaları ekleyin veya değiştirin, etkileşimli form alanlarını doldurun ve eğer varsaModifyContents is ayrıca etkileşimli form alanlarını (imza alanları dahil) ayarlar, oluşturur veya değiştirir. |
+| FillIn | `100` | İmza alanları dahil olmak üzere mevcut etkileşimli form alanlarını doldurun.ModifyContents açıktır. |
+| DocumentAssembly | `400` | Belgeyi birleştirin (sayfaları ekleyin, döndürün veya silin ve belge anahat öğeleri veya küçük resim görüntüleri oluşturun),ModifyContents açıktır. |
+| Printing | `4` | Belgeyi yazdırın (en yüksek kalite seviyesinde olmayabilir, buna bağlı olarak)HighResolutionPrinting Ayrıca ayarlanmıştır). |
+| HighResolutionPrinting | `804` | Belgeyi, PDF içeriğinin sadık bir dijital kopyasının, uygulamaya bağlı bir algoritmaya dayalı olarak üretilebileceği bir gösterime yazdırın. Bu bayrak temiz olduğunda (ve Printing (ayarlanmıştır), yazdırma, görünümün düşük seviyeli bir gösterimiyle sınırlandırılacaktır, muhtemelen kalitesi bozulmuş. |
 
 ## Örnekler
 
@@ -42,17 +42,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Ek açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
+// Açıklamaların düzenlenmesine izin vermek için izinleri genişletin.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 // "EncryptionDetails" özelliği aracılığıyla şifrelemeyi etkinleştirin.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Bu belgeyi açtığımızda içeriğine erişmeden önce şifreyi vermemiz gerekecek.
+// Bu belgeyi açtığımızda, içeriğine erişmeden önce parolayı girmemiz gerekecektir.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

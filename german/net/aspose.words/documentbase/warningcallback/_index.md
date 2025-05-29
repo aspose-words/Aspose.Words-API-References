@@ -3,14 +3,14 @@ title: DocumentBase.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words für .NET
-description: DocumentBase WarningCallback eigendom. Wird während verschiedener Dokumentverarbeitungsvorgänge aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Daten oder Formatierungstreue führen könnte in C#.
+description: Entdecken Sie die DocumentBase WarningCallback-Eigenschaft, die für die Gewährleistung der Datenintegrität während der Dokumentverarbeitung durch Erkennung potenzieller Formatierungsprobleme von entscheidender Bedeutung ist.
 type: docs
-weight: 90
+weight: 100
 url: /de/net/aspose.words/documentbase/warningcallback/
 ---
 ## DocumentBase.WarningCallback property
 
-Wird während verschiedener Dokumentverarbeitungsvorgänge aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Daten- oder Formatierungstreue führen könnte.
+Wird während verschiedener Dokumentverarbeitungsverfahren aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Daten- oder Formatierungsgenauigkeit führen kann.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,7 +18,7 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Bemerkungen
 
-Das Dokument kann in jedem Stadium seiner Existenz Warnungen generieren. Daher ist es wichtig, den Warnungsrückruf so früh wie möglich einzurichten, um den Verlust der Warnungen zu vermeiden. ZB solche Eigenschaften wie[`PageCount`](../../document/pagecount/) erstellt tatsächlich das Dokumentlayout, das später zum Rendern verwendet wird, und die Layoutwarnungen gehen möglicherweise verloren, wenn der Warnungsrückruf nur für die späteren Rendering-Aufrufe angegeben wird.
+Dokumente können in jeder Phase ihrer Existenz Warnungen generieren. Daher ist es wichtig, den Warn-Callback so früh wie möglich einzurichten, um den Verlust von Warnungen zu vermeiden. Beispielsweise können Eigenschaften wie[`PageCount`](../../document/pagecount/) tatsächlich das Dokumentlayout erstellen, das später zum Rendern verwendet wird, und die Layoutwarnungen können verloren gehen, wenn der Warnungsrückruf nur für die späteren Renderaufrufe angegeben wird.
 
 ## Beispiele
 
@@ -36,15 +36,15 @@ public void SubstitutionWarning()
     FontSubstitutionWarningCollector callback = new FontSubstitutionWarningCollector();
     doc.WarningCallback = callback;
 
-    // Speichern Sie die aktuelle Sammlung von Schriftartquellen, die die Standardschriftquelle für jedes Dokument sein wird
+    // Speichert die aktuelle Sammlung von Schriftartquellen, die als Standardschriftartquelle für jedes Dokument dienen.
     // für die wir keine andere Schriftartquelle angeben.
     FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-    // Zu Testzwecken stellen wir Aspose.Words so ein, dass es nur in einem Ordner nach Schriftarten sucht, der nicht existiert.
+    // Zu Testzwecken stellen wir Aspose.Words so ein, dass nur in einem Ordner nach Schriftarten gesucht wird, der nicht existiert.
     FontSettings.DefaultInstance.SetFontsFolder(string.Empty, false);
 
-    // Beim Rendern des Dokuments ist die Schriftart „Times New Roman“ nicht zu finden.
-    // Dies führt zu einer Schriftartersetzungswarnung, die unser Rückruf erkennt.
+    // Beim Rendern des Dokuments ist die Schriftart „Times New Roman“ nirgends zu finden.
+    // Dies führt zu einer Warnung bezüglich der Schriftartersetzung, die von unserem Rückruf erkannt wird.
     doc.Save(ArtifactsDir + "FontSettings.SubstitutionWarning.pdf");
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
@@ -52,7 +52,7 @@ public void SubstitutionWarning()
     Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
     Assert.True(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font.", StringComparison.Ordinal));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -70,7 +70,7 @@ private class FontSubstitutionWarningCollector : IWarningCallback
 }
 ```
 
-Zeigt, wie die Eigenschaft festgelegt wird, um die beste Übereinstimmung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen zu finden.
+Zeigt, wie die Eigenschaft zum Suchen der besten Entsprechung für eine fehlende Schriftart aus den verfügbaren Schriftartquellen festgelegt wird.
 
 ```csharp
 public void EnableFontSubstitution()
@@ -78,7 +78,7 @@ public void EnableFontSubstitution()
     // Öffnen Sie ein Dokument, das Text enthält, der mit einer Schriftart formatiert ist, die in keiner unserer Schriftartquellen vorhanden ist.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Weisen Sie einen Rückruf für die Behandlung von Schriftartersetzungswarnungen zu.
+    // Weisen Sie einen Rückruf für die Behandlung von Warnungen zur Schriftartersetzung zu.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
@@ -88,7 +88,7 @@ public void EnableFontSubstitution()
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftartmetriken verwendet werden.
+    // Nach der Schriftartersetzung sollten die ursprünglichen Schriftmaße verwendet werden.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
     // Wir erhalten eine Warnung zur Schriftartersetzung, wenn wir ein Dokument mit einer fehlenden Schriftart speichern.
@@ -107,7 +107,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

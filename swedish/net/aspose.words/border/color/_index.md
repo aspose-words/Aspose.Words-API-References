@@ -3,7 +3,7 @@ title: Border.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words för .NET
-description: Border Color fast egendom. Hämtar eller ställer in kantfärgen i C#.
+description: Anpassa dina designer enkelt med egenskapen Kantfärg, så att du kan ställa in och ändra kantfärger för en fantastisk visuell effekt.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/border/color/
@@ -18,7 +18,7 @@ public Color Color { get; set; }
 
 ## Exempel
 
-Visar hur man infogar en sträng omgiven av en kant i ett dokument.
+Visar hur man infogar en sträng omgiven av en kantlinje i ett dokument.
 
 ```csharp
 Document doc = new Document();

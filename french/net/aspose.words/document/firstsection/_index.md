@@ -3,9 +3,9 @@ title: Document.FirstSection
 linktitle: FirstSection
 articleTitle: FirstSection
 second_title: Aspose.Words pour .NET
-description: Document FirstSection propriété. Obtient la première section du document en C#.
+description: Récupérez facilement la première section de votre document. Optimisez votre flux de travail grâce à notre propriété Document FirstSection pour une organisation simplifiée.
 type: docs
-weight: 130
+weight: 140
 url: /fr/net/aspose.words/document/firstsection/
 ---
 ## Document.FirstSection property
@@ -18,7 +18,7 @@ public Section FirstSection { get; }
 
 ## Remarques
 
-Retours`nul` s'il n'y a pas de sections.
+Retours`nul`s'il n'y a pas de sections.
 
 ## Exemples
 
@@ -48,7 +48,7 @@ Montre comment créer une nouvelle section avec un générateur de documents.
 Document doc = new Document();
 
 // Un document vierge contient une section par défaut,
-// qui contient des nœuds enfants que nous pouvons modifier.
+// qui contient des nœuds enfants que nous pouvons éditer.
 Assert.AreEqual(1, doc.Sections.Count);
 
 // Utilisez un générateur de documents pour ajouter du texte à la première section.
@@ -60,7 +60,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Chaque section a ses propres paramètres de mise en page.
+// Chaque section a ses propres paramètres de configuration de page.
 // Nous pouvons diviser le texte de la deuxième section en deux colonnes.
 // Cela n'affectera pas le texte de la première section.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
@@ -74,7 +74,7 @@ Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```
 
-Montre comment parcourir les enfants d’un nœud composite.
+Montre comment parcourir les enfants d'un nœud composite.
 
 ```csharp
 Document doc = new Document();
@@ -88,8 +88,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// Une Section est un nœud composite et peut contenir des nœuds enfants,
-// mais seulement si ces nœuds enfants sont de type nœud "Body" ou "HeaderFooter".
+// Une section est un nœud composite et peut contenir des nœuds enfants,
+// mais seulement si ces nœuds enfants sont de type nœud « Body » ou « HeaderFooter ».
 foreach (Node node in section)
 {
     switch (node.NodeType)

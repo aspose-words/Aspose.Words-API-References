@@ -3,14 +3,14 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words لـ .NET
-description: Story FirstParagraph ملكية. الحصول على الفقرة الأولى في القصة في C#.
+description: اكتشف خاصية Story FirstParagraph لاستخراج الفقرة الأولى من أي قصة بسهولة، مما يعزز المحتوى الخاص بك ويزيد من تفاعل المستخدمين.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/story/firstparagraph/
 ---
 ## Story.FirstParagraph property
 
-الحصول على الفقرة الأولى في القصة.
+يحصل على الفقرة الأولى في القصة.
 
 ```csharp
 public Paragraph FirstParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
+يوضح كيفية تنسيق سلسلة من النص باستخدام خاصية الخط الخاصة به.
 
 ```csharp
 Document doc = new Document();
@@ -44,11 +44,11 @@ textBox.WrapType = WrapType.None;
 textBox.Height = 50;
 textBox.Width = 200;
 
-// قم بتعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
+// تعيين المحاذاة الأفقية والرأسية للنص داخل الشكل.
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// أضف فقرة إلى مربع النص وأضف سلسلة من النص سيعرضها مربع النص.
+//أضف فقرة إلى مربع النص وأضف سلسلة من النص الذي سيعرضه مربع النص.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

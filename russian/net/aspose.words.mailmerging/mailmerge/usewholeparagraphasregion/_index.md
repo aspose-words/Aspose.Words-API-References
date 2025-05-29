@@ -3,14 +3,14 @@ title: MailMerge.UseWholeParagraphAsRegion
 linktitle: UseWholeParagraphAsRegion
 articleTitle: UseWholeParagraphAsRegion
 second_title: Aspose.Words для .NET
-description: MailMerge UseWholeParagraphAsRegion свойство. Получает или задает значение указывающее содержит ли весь абзацТаблеСтарт илиКонец таблицы field или определенный диапазон междуТаблеСтарт иКонец таблицы поля должны быть включены в регион слияния почты на С#.
+description: Узнайте, как использовать свойство MailMerge UseWholeParagraphAsRegion для улучшения областей слияния почты, обеспечивая полный контроль над включением контента.
 type: docs
 weight: 160
 url: /ru/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Получает или задает значение, указывающее, содержит ли весь абзац**ТаблеСтарт** или**Конец таблицы** field или определенный диапазон между**ТаблеСтарт** и**Конец таблицы** поля должны быть включены в регион слияния почты.
+Возвращает или задает значение, указывающее, является ли весь абзац**TableStart** или**TableEnd** field или определенный диапазон между**TableStart** и**TableEnd** поля должны быть включены в область слияния почты.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -22,7 +22,7 @@ public bool UseWholeParagraphAsRegion { get; set; }
 
 ## Примеры
 
-Показывает связь между областями слияния почты и абзацами.
+Показывает связь между областями слияния и абзацами.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -30,11 +30,11 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // По умолчанию абзац может принадлежать не более чем к одному региону слияния почты.
-    // Содержимое нашего документа не соответствует этим критериям.
-    // Если мы установим флаг «UseWholeParagraphAsRegion» в значение «true»,
+    // По умолчанию абзац может принадлежать не более чем к одной области слияния почты.
+    // Содержание нашего документа не соответствует этим критериям.
+    // Если мы установим флаг «UseWholeParagraphAsRegion» на «true»,
     // запуск слияния почты для этого документа вызовет исключение.
-    // Если мы установим флаг «UseWholeParagraphAsRegion» в значение «false»,
+    // Если мы установим флаг «UseWholeParagraphAsRegion» на «false»,
     // мы сможем выполнить слияние почты для этого документа.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
@@ -44,12 +44,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
     // Слияние почты заполняет наш первый регион, оставляя второй регион неиспользованным
-    // так как именно этот регион нарушает правило.
+    // поскольку именно регион нарушает правило.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
 /// <summary>
-/// Создайте документ с двумя областями слияния почты, разделяющими один абзац.
+/// Создайте документ с двумя областями слияния, разделяющими один абзац.
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {

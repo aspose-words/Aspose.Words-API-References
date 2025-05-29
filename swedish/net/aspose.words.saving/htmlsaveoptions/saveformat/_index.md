@@ -3,14 +3,14 @@ title: HtmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaHtml Mhtml Epub  Azw3 ellerMobi  i C#.
+description: Upptäck egenskapen HtmlSaveOptions SaveFormat för att enkelt spara dokument i Html-, Mhtml-, Epub-, Azw3- eller Mobi-format för flexibel tillgänglighet.
 type: docs
-weight: 440
+weight: 460
 url: /sv/net/aspose.words.saving/htmlsaveoptions/saveformat/
 ---
 ## HtmlSaveOptions.SaveFormat property
 
-Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används. Kan varaHtml ,Mhtml ,Epub , Azw3 ellerMobi .
+Anger formatet som dokumentet sparas i om detta objekt för sparade alternativ används. Kan varaHtml ,Mhtml ,Epub , Azw3 ellerMobi .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Exempel
 
-Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
+Visar hur man använder en specifik kodning när man sparar ett dokument till .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,9 +28,9 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Som standard kommer ett utdata .epub-dokument att ha allt innehåll i en HTML-del.
-// Ett delat kriterium tillåter oss att segmentera dokumentet i flera HTML-delar.
-// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubriker.
+// Som standard kommer ett .epub-dokument att ha allt innehåll i en HTML-del.
+// Ett delningskriterium låter oss segmentera dokumentet i flera HTML-delar.
+// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubrikstycken.
 // Detta är användbart för läsare som inte kan läsa HTML-filer som är större än en viss storlek.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 

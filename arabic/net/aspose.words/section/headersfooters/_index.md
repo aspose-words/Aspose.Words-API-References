@@ -3,7 +3,7 @@ title: Section.HeadersFooters
 linktitle: HeadersFooters
 articleTitle: HeadersFooters
 second_title: Aspose.Words لـ .NET
-description: Section HeadersFooters ملكية. يوفر الوصول إلى عقد الرؤوس والتذييلات الخاصة بالقسم في C#.
+description: الوصول إلى رؤوس وتذييلات الأقسام وإدارتها بسهولة باستخدام ميزة الخصائص سهلة الاستخدام. حسّن تنظيم مستنداتك وعرضها اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words/section/headersfooters/
@@ -38,24 +38,24 @@ footer.Range.Replace("(C) 2006 Aspose Pty Ltd.", $"Copyright (C) {currentYear} b
 doc.Save(ArtifactsDir + "HeaderFooter.ReplaceText.docx");
 ```
 
-يوضح كيفية حذف جميع التذييلات من المستند.
+يوضح كيفية حذف كافة التذييلات من المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// كرر كل قسم وقم بإزالة التذييلات من كل نوع.
+// قم بالتكرار خلال كل قسم وإزالة التذييلات من كل نوع.
 foreach (Section section in doc.OfType<Section>())
 {
     // هناك ثلاثة أنواع من أنواع التذييل والرأس.
-    // 1 - الرأس/التذييل "الأول"، والذي يظهر فقط في الصفحة الأولى من القسم.
+    // 1 - "الرأس/التذييل الأول"، والذي يظهر فقط في الصفحة الأولى من القسم.
     HeaderFooter footer = section.HeadersFooters[HeaderFooterType.FooterFirst];
     footer?.Remove();
 
-    // 2 - الرأس/التذييل "الأساسي"، الذي يظهر على الصفحات الفردية.
+    // 2 - الرأس/التذييل "الأساسي"، والذي يظهر في الصفحات الفردية.
     footer = section.HeadersFooters[HeaderFooterType.FooterPrimary];
     footer?.Remove();
 
-     // 3 - الرأس/التذييل "الزوجي"، الذي يظهر في الصفحات الزوجية.
+     // 3 - رأس/تذييل "الزوجي"، والذي يظهر في الصفحات الزوجية.
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 

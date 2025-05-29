@@ -3,14 +3,14 @@ title: FieldRef.InsertParagraphNumberInFullContext
 linktitle: InsertParagraphNumberInFullContext
 articleTitle: InsertParagraphNumberInFullContext
 second_title: Aspose.Words para .NET
-description: FieldRef InsertParagraphNumberInFullContext propiedad. Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo en C#.
+description: Controle la numeración de párrafos con la propiedad FieldRef InsertParagraphNumberInFullContext. Gestione fácilmente las referencias para una mayor claridad del documento.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldref/insertparagraphnumberinfullcontext/
 ---
 ## FieldRef.InsertParagraphNumberInFullContext property
 
-Obtiene o establece si se debe insertar el número de párrafo del párrafo al que se hace referencia en contexto completo.
+Obtiene o establece si se debe insertar el número de párrafo del párrafo referenciado en el contexto completo.
 
 ```csharp
 public bool InsertParagraphNumberInFullContext { get; set; }
@@ -33,18 +33,18 @@ public void FieldRef()
     builder.EndBookmark("MyBookmark");
     builder.MoveToDocumentStart();
 
-    // Aplicaremos un formato de lista personalizado, donde la cantidad de corchetes angulares indica el nivel de lista en el que nos encontramos actualmente.
+    // Aplicaremos un formato de lista personalizado, donde la cantidad de corchetes angulares indica el nivel de lista en el que estamos actualmente.
     builder.ListFormat.ApplyNumberDefault();
     builder.ListFormat.ListLevel.NumberFormat = "> \x0000";
 
-    // Inserta un campo REF que contendrá el texto dentro de nuestro marcador, actuará como un hipervínculo y clonará las notas al pie del marcador.
+    // Inserte un campo REF que contendrá el texto dentro de nuestro marcador, actuará como un hipervínculo y clonará las notas al pie del marcador.
     FieldRef field = InsertFieldRef(builder, "MyBookmark", "", "\n");
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Inserta un campo REF y muestra si el marcador al que se hace referencia está encima o debajo de él.
+    // Inserta un campo REF y muestra si el marcador referenciado está encima o debajo de él.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -63,11 +63,11 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
 
-    // Bajar un nivel de lista.
+    // Bajar un nivel en la lista.
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">> \x0001";
 
-    // Muestra el número de lista del marcador y los números de todos los niveles de lista encima de él.
+    // Muestra el número de lista del marcador y los números de todos los niveles de lista superiores.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
@@ -81,7 +81,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // Al final del documento, el marcador aparecerá aquí como un elemento de lista.
+    // Al final del documento, el marcador aparecerá como un elemento de la lista aquí.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";
@@ -91,7 +91,7 @@ public void FieldRef()
 }
 
 /// <summary>
-/// Haga que el creador de documentos inserte un campo REF, haga referencia a un marcador con él y agregue texto antes y después.
+/// Haga que el generador de documentos inserte un campo REF, haga referencia a un marcador con él y agregue texto antes y después.
 /// </summary>
 private static FieldRef InsertFieldRef(DocumentBuilder builder, string bookmarkName, string textBefore, string textAfter)
 {

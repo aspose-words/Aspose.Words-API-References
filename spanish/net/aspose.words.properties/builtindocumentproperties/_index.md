@@ -3,16 +3,16 @@ title: BuiltInDocumentProperties Class
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Properties.BuiltInDocumentProperties clase. Una colección de propiedades de documentos integradas en C#.
+description: Descubra la clase Aspose.Words.Properties.BuiltInDocumentProperties para acceder fácilmente a las propiedades esenciales del documento y mejorar la eficiencia de su procesamiento de textos.
 type: docs
-weight: 4450
+weight: 5180
 url: /es/net/aspose.words.properties/builtindocumentproperties/
 ---
 ## BuiltInDocumentProperties class
 
-Una colección de propiedades de documentos integradas.
+Una colección de propiedades de documento integradas.
 
-Para obtener más información, visite el[Trabajar con propiedades de documento](https://docs.aspose.com/words/net/work-with-document-properties/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con propiedades del documento](https://docs.aspose.com/words/net/work-with-document-properties/) Artículo de documentación.
 
 ```csharp
 public class BuiltInDocumentProperties : DocumentPropertyCollection
@@ -26,19 +26,20 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Bytes](../../aspose.words.properties/builtindocumentproperties/bytes/) { get; set; } | Representa una estimación del número de bytes del documento. |
 | [Category](../../aspose.words.properties/builtindocumentproperties/category/) { get; set; } | Obtiene o establece la categoría del documento. |
 | [Characters](../../aspose.words.properties/builtindocumentproperties/characters/) { get; set; } | Representa una estimación del número de caracteres del documento. |
-| [CharactersWithSpaces](../../aspose.words.properties/builtindocumentproperties/characterswithspaces/) { get; set; } | Representa una estimación del número de caracteres (incluidos espacios) en el documento. |
+| [CharactersWithSpaces](../../aspose.words.properties/builtindocumentproperties/characterswithspaces/) { get; set; } | Representa una estimación del número de caracteres (incluidos los espacios) en el documento. |
 | [Comments](../../aspose.words.properties/builtindocumentproperties/comments/) { get; set; } | Obtiene o establece los comentarios del documento. |
 | [Company](../../aspose.words.properties/builtindocumentproperties/company/) { get; set; } | Obtiene o establece la propiedad de la empresa. |
-| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Obtiene o establece elContentStatus del documento. |
-| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Obtiene o establece elContentType del documento. |
-| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos de la colección. |
+| [ContentStatus](../../aspose.words.properties/builtindocumentproperties/contentstatus/) { get; set; } | Obtiene o establece el estado del contenido del documento. |
+| [ContentType](../../aspose.words.properties/builtindocumentproperties/contenttype/) { get; set; } | Obtiene o establece el tipo de contenido del documento. |
+| [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | Obtiene el número de elementos en la colección. |
 | [CreatedTime](../../aspose.words.properties/builtindocumentproperties/createdtime/) { get; set; } | Obtiene o establece la fecha de creación del documento en UTC. |
-| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Especifica los títulos de los documentos y sus nombres. |
+| [HeadingPairs](../../aspose.words.properties/builtindocumentproperties/headingpairs/) { get; set; } | Especifica los encabezados de los documentos y sus nombres. |
 | [HyperlinkBase](../../aspose.words.properties/builtindocumentproperties/hyperlinkbase/) { get; set; } | Especifica la cadena base utilizada para evaluar hipervínculos relativos en este documento. |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por index. |
+| [HyperlinksChanged](../../aspose.words.properties/builtindocumentproperties/hyperlinkschanged/) { get; } | Indica si se cambiaron los hipervínculos en un documento. |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por índice. |
 | override [Item](../../aspose.words.properties/builtindocumentproperties/item/) { get; } | Devuelve un[`DocumentProperty`](../documentproperty/) objeto por el nombre de la propiedad. |
 | [Keywords](../../aspose.words.properties/builtindocumentproperties/keywords/) { get; set; } | Obtiene o establece las palabras clave del documento. |
-| [LastPrinted](../../aspose.words.properties/builtindocumentproperties/lastprinted/) { get; set; } | Obtiene o establece la fecha en la que el documento se imprimió por última vez en UTC. |
+| [LastPrinted](../../aspose.words.properties/builtindocumentproperties/lastprinted/) { get; set; } | Obtiene o establece la fecha en la que se imprimió el documento por última vez en UTC. |
 | [LastSavedBy](../../aspose.words.properties/builtindocumentproperties/lastsavedby/) { get; set; } | Obtiene o establece el nombre del último autor. |
 | [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/lastsavedtime/) { get; set; } | Obtiene o establece la hora del último guardado en UTC. |
 | [Lines](../../aspose.words.properties/builtindocumentproperties/lines/) { get; set; } | Representa una estimación del número de líneas del documento. |
@@ -48,7 +49,9 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | [Pages](../../aspose.words.properties/builtindocumentproperties/pages/) { get; set; } | Representa una estimación del número de páginas del documento. |
 | [Paragraphs](../../aspose.words.properties/builtindocumentproperties/paragraphs/) { get; set; } | Representa una estimación del número de párrafos del documento. |
 | [RevisionNumber](../../aspose.words.properties/builtindocumentproperties/revisionnumber/) { get; set; } | Obtiene o establece el número de revisión del documento. |
+| [ScaleCrop](../../aspose.words.properties/builtindocumentproperties/scalecrop/) { get; } | Indica si la miniatura del documento está recortada o escalada para ajustarse a la pantalla. |
 | [Security](../../aspose.words.properties/builtindocumentproperties/security/) { get; set; } | Especifica el nivel de seguridad de un documento como un valor numérico. |
+| [SharedDocument](../../aspose.words.properties/builtindocumentproperties/shareddocument/) { get; } | Indica si el documento es un documento compartido. |
 | [Subject](../../aspose.words.properties/builtindocumentproperties/subject/) { get; set; } | Obtiene o establece el asunto del documento. |
 | [Template](../../aspose.words.properties/builtindocumentproperties/template/) { get; set; } | Obtiene o establece el nombre informativo de la plantilla del documento. |
 | [Thumbnail](../../aspose.words.properties/builtindocumentproperties/thumbnail/) { get; set; } | Obtiene o establece la miniatura del documento. |
@@ -63,7 +66,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 | Nombre | Descripción |
 | --- | --- |
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | Elimina todas las propiedades de la colección. |
-| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección. |
+| [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | Devuelve`verdadero` si existe una propiedad con el nombre especificado en la colección. |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | Devuelve un objeto enumerador que se puede utilizar para iterar sobre todos los elementos de la colección. |
 | [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | Obtiene el índice de una propiedad por nombre. |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | Elimina una propiedad con el nombre especificado de la colección. |
@@ -71,7 +74,7 @@ public class BuiltInDocumentProperties : DocumentPropertyCollection
 
 ## Observaciones
 
-Proporciona acceso a[`DocumentProperty`](../documentproperty/) objetos por sus nombres (usando un indexador) y a través de un conjunto de propiedades escritas que devuelven valores de los tipos apropiados.
+Proporciona acceso a[`DocumentProperty`](../documentproperty/)objetos por sus nombres (usando un indexador) y a través de un conjunto de propiedades tipificadas que devuelven valores de tipos apropiados.
 
 Los nombres de las propiedades no distinguen entre mayúsculas y minúsculas.
 
@@ -79,7 +82,7 @@ Las propiedades de la colección están ordenadas alfabéticamente por nombre.
 
 ## Ejemplos
 
-Muestra cómo trabajar con propiedades de documentos integradas.
+Muestra cómo trabajar con propiedades de documento integradas.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
@@ -87,8 +90,8 @@ Document doc = new Document(MyDir + "Properties.docx");
 // El objeto "Documento" contiene algunos de sus metadatos en sus miembros.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// El documento también almacena metadatos en sus propiedades integradas.
-// Cada propiedad integrada es miembro del objeto "BuiltInDocumentProperties" del documento.
+//El documento también almacena metadatos en sus propiedades integradas.
+// Cada propiedad incorporada es un miembro del objeto "BuiltInDocumentProperties" del documento.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

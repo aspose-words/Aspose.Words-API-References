@@ -3,14 +3,14 @@ title: FileFormatUtil.SaveFormatToLoadFormat
 linktitle: SaveFormatToLoadFormat
 articleTitle: SaveFormatToLoadFormat
 second_title: Aspose.Words för .NET
-description: FileFormatUtil SaveFormatToLoadFormat metod. Konverterar enSaveFormat värde till aLoadFormat värde om möjligt i C#.
+description: Konvertera enkelt SaveFormat till LoadFormat med FileFormatUtil-metoden. Förenkla filhanteringen och förbättra kompatibiliteten idag!
 type: docs
 weight: 90
 url: /sv/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-Konverterar en[`SaveFormat`](../../saveformat/) värde till a[`LoadFormat`](../../loadformat/) värde om möjligt.
+Konverterar en[`SaveFormat`](../../saveformat/) värde till en[`LoadFormat`](../../loadformat/) värde om möjligt.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -24,13 +24,13 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 ## Exempel
 
-Visar hur man konverterar ett sparat format till dess motsvarande laddningsformat.
+Visar hur man konverterar ett sparformat till motsvarande laddningsformat.
 
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Vissa filtyper kan ha dokument sparade till, men inte laddade från att använda Aspose.Words.
-// Om vi försöker konvertera ett lagringsformat av en sådan typ till ett laddningsformat, kommer ett undantag att kastas.
+// Vissa filtyper kan ha dokument sparade i, men inte laddade från Aspose.Words.
+// Om vi försöker konvertera ett sparformat av en sådan typ till ett laddningsformat, kommer ett undantag att utlösas.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

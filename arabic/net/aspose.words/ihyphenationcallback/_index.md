@@ -3,14 +3,14 @@ title: IHyphenationCallback Interface
 linktitle: IHyphenationCallback
 articleTitle: IHyphenationCallback
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.IHyphenationCallback واجهه المستخدم. يتم تنفيذه بواسطة الفئات التي يمكنها تسجيل قواميس الواصلة في C#.
+description: استكشف واجهة Aspose.Words.IHyphenationCallback لتنفيذ قواميس الوصل وتسجيلها بسهولة لتحسين تنسيق المستندات.
 type: docs
-weight: 3190
+weight: 3630
 url: /ar/net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
 
-يتم تنفيذه بواسطة الفئات التي يمكنها تسجيل قواميس الواصلة.
+تم تنفيذه بواسطة الفئات التي يمكنها تسجيل قواميس الوصل.
 
 ```csharp
 public interface IHyphenationCallback
@@ -20,45 +20,46 @@ public interface IHyphenationCallback
 
 | اسم | وصف |
 | --- | --- |
-| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | لإعلام التطبيق بأنه لم يتم العثور على قاموس الواصلة للغة المحددة وقد يلزم تسجيله. |
+| [RequestDictionary](../../aspose.words/ihyphenationcallback/requestdictionary/)(*string*) | يُعلم التطبيق بأنه لم يتم العثور على قاموس الوصل للغة المحددة وقد يحتاج إلى التسجيل. |
 
 ## أمثلة
 
-يوضح كيفية فتح وتسجيل قاموس من ملف.
+يوضح كيفية فتح قاموس وتسجيله من ملف.
 
 ```csharp
 public void RegisterDictionary()
 {
-    // قم بإعداد رد اتصال يتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الواصلة.
+    // قم بإعداد معاودة اتصال لتتبع التحذيرات التي تحدث أثناء تسجيل قاموس الوصل.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // قم بتسجيل قاموس الواصلة باللغة الإنجليزية (الولايات المتحدة) عن طريق الدفق.
+    // قم بتسجيل قاموس الوصلات باللغة الإنجليزية (الولايات المتحدة) عن طريق التدفق.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // افتح مستندًا باستخدام لغة لا يجوز لـ Microsoft Word تطبيق الواصلة عليها على جهاز إنجليزي، مثل الألمانية.
+    // افتح مستندًا بإعدادات محلية لا يمكن لـ Microsoft Word استخدامها مع أجهزة الكمبيوتر الإنجليزية، مثل الألمانية.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // لوصل هذا المستند عند الحفظ، نحتاج إلى قاموس وصل لرمز اللغة "de-CH".
-    // سيتعامل رد الاتصال هذا مع الطلب التلقائي لهذا القاموس.
+    // لوضع علامة وصل على تلك الوثيقة عند الحفظ، نحتاج إلى قاموس علامات الوصل لكود اللغة "de-CH".
+    // ستتولى وظيفة معاودة الاتصال هذه التعامل مع الطلب التلقائي لهذا القاموس.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // عندما نحفظ المستند، ستصبح الواصلة الألمانية سارية المفعول.
+    // عندما نحفظ المستند، سيتم تطبيق الواصلة الألمانية.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // يحتوي هذا القاموس على نمطين متطابقين، مما يؤدي إلى ظهور تحذير.
+    //يحتوي هذا القاموس على نمطين متطابقين، مما سيؤدي إلى إطلاق تحذير.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// يربط رموز لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الواصلة.
+/// يربط أكواد لغة ISO بأسماء ملفات النظام المحلي لملفات قاموس الوصل.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

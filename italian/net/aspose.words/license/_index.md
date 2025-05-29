@@ -3,9 +3,9 @@ title: License Class
 linktitle: License
 articleTitle: License
 second_title: Aspose.Words per .NET
-description: Aspose.Words.License classe. Fornisce metodi per concedere in licenza il componente in C#.
+description: Sfrutta appieno il potenziale di Aspose.Words con la nostra classe di licenze. Gestisci facilmente le licenze per un'elaborazione dei documenti fluida e funzionalità avanzate.
 type: docs
-weight: 3420
+weight: 3870
 url: /it/net/aspose.words/license/
 ---
 ## License class
@@ -28,8 +28,8 @@ public class License
 
 | Nome | Descrizione |
 | --- | --- |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Concede in licenza il componente. |
-| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Concede in licenza il componente. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense)(*Stream*) | Concede la licenza del componente. |
+| [SetLicense](../../aspose.words/license/setlicense/#setlicense_1)(*string*) | Concede la licenza del componente. |
 
 ## Esempi
 
@@ -42,11 +42,11 @@ string licenseFileName = Path.Combine(LicenseDir, "Aspose.Words.NET.lic");
 License license = new License();
 license.SetLicense(licenseFileName);
 
-// Crea una copia del nostro file di licenza nella cartella binaries della nostra applicazione.
+// Creiamo una copia del nostro file di licenza nella cartella binari della nostra applicazione.
 string licenseCopyFileName = Path.Combine(AssemblyDir, "Aspose.Words.NET.lic");
 File.Copy(licenseFileName, licenseCopyFileName);
 
-// Se passiamo il nome di un file senza percorso,
+// Se passiamo il nome di un file senza un percorso,
 // SetLicense cercherà questo file in diverse posizioni del file system locale.
 // Una di queste posizioni sarà la cartella "bin", che contiene una copia del nostro file di licenza.
 license.SetLicense("Aspose.Words.NET.lic");

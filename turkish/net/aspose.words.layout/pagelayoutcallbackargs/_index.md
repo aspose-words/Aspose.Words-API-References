@@ -2,17 +2,17 @@
 title: PageLayoutCallbackArgs Class
 linktitle: PageLayoutCallbackArgs
 articleTitle: PageLayoutCallbackArgs
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.PageLayoutCallbackArgs sınıf. Bir argüman aktarıldıNotify C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli belge düzeni yönetimi için Aspose.Words.Layout.PageLayoutCallbackArgs sınıfını keşfedin. Güçlü bildirim özellikleriyle iş akışınızı geliştirin.
 type: docs
-weight: 3360
+weight: 3810
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/
 ---
 ## PageLayoutCallbackArgs class
 
-Bir argüman aktarıldı[`Notify`](../ipagelayoutcallback/notify/)
+Bir argüman,[`Notify`](../ipagelayoutcallback/notify/)
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Sabit Sayfa Formatına Dönüştürme](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Sabit Sayfa Biçimine Dönüştürme](https://docs.aspose.com/words/net/converting-to-fixed-page-format/) belgeleme makalesi.
 
 ```csharp
 public class PageLayoutCallbackArgs
@@ -24,7 +24,70 @@ public class PageLayoutCallbackArgs
 | --- | --- |
 | [Document](../../aspose.words.layout/pagelayoutcallbackargs/document/) { get; } | Belgeyi alır. |
 | [Event](../../aspose.words.layout/pagelayoutcallbackargs/event/) { get; } | Olayı alır. |
-| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | Bu olayın ilgili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili sayfa yoksa veya sayfa yeniden düzenleme sırasında kaldırılmışsa negatif değer döndürür. |
+| [PageIndex](../../aspose.words.layout/pagelayoutcallbackargs/pageindex/) { get; } | Bu olayın ilişkili olduğu belgedeki sayfanın 0 tabanlı dizinini alır. İlişkili bir sayfa yoksa veya sayfa yeniden akış sırasında kaldırılmışsa negatif değer döndürür. |
+
+## Örnekler
+
+Düzen değişikliklerinin düzen geri aramasıyla nasıl izleneceğini gösterir.
+
+```csharp
+public void PageLayoutCallback()
+{
+    Document doc = new Document();
+    doc.BuiltInDocumentProperties.Title = "My Document";
+
+    DocumentBuilder builder = new DocumentBuilder(doc);
+    builder.Writeln("Hello world!");
+
+    doc.LayoutOptions.Callback = new RenderPageLayoutCallback();
+    doc.UpdatePageLayout();
+
+    doc.Save(ArtifactsDir + "Layout.PageLayoutCallback.pdf");
+}
+
+/// <summary>
+/// Belgeyi sabit bir sayfa biçimine kaydettiğimizde bize bildirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfa oluşturur.
+/// </summary>
+private class RenderPageLayoutCallback : IPageLayoutCallback
+{
+    public void Notify(PageLayoutCallbackArgs a)
+    {
+        switch (a.Event)
+        {
+            case PageLayoutEvent.PartReflowFinished:
+                NotifyPartFinished(a);
+                break;
+            case PageLayoutEvent.ConversionFinished:
+                NotifyConversionFinished(a);
+                break;
+        }
+    }
+
+    private void NotifyPartFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Part at page {a.PageIndex + 1} reflow.");
+        RenderPage(a, a.PageIndex);
+    }
+
+    private void NotifyConversionFinished(PageLayoutCallbackArgs a)
+    {
+        Console.WriteLine($"Document \"{a.Document.BuiltInDocumentProperties.Title}\" converted to page format.");
+    }
+
+    private void RenderPage(PageLayoutCallbackArgs a, int pageIndex)
+    {
+        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Png) { PageSet = new PageSet(pageIndex) };
+
+        using (FileStream stream =
+            new FileStream(ArtifactsDir + $@"PageLayoutCallback.page-{pageIndex + 1} {++mNum}.png",
+                FileMode.Create))
+            a.Document.Save(stream, saveOptions);
+    }
+
+    private int mNum;
+}
+```
 
 ### Ayrıca bakınız
 

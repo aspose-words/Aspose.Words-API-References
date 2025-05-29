@@ -3,14 +3,14 @@ title: PreferredWidth.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: PreferredWidth Type ملكية. للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه في C#.
+description: اكتشف خاصية نوع PreferredWidth، التي تحدد وحدة القياس لقيم العرض المفضلة، مما يعزز دقة التصميم ومرونته.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/preferredwidth/type/
 ---
 ## PreferredWidth.Type property
 
-للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
+يحصل على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه.
 
 ```csharp
 public PreferredWidthType Type { get; }
@@ -18,7 +18,7 @@ public PreferredWidthType Type { get; }
 
 ## أمثلة
 
-يوضح كيفية التحقق من نوع العرض المفضل وقيمة خلية الجدول.
+يوضح كيفية التحقق من نوع العرض وقيمة خلية الجدول المفضلة.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

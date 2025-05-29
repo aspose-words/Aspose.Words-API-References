@@ -3,14 +3,14 @@ title: Hyphenation.Callback
 linktitle: Callback
 articleTitle: Callback
 second_title: Aspose.Words för .NET
-description: Hyphenation Callback fast egendom. Hämtar eller ställer in återuppringningsgränssnitt som används för att begära ordlistor när sidlayout för dokumentet byggs. Detta tillåter fördröjning av laddning av ordböcker vilket kan vara användbart vid bearbetning av dokument på många språk i C#.
+description: Optimera din dokumentlayout med egenskapen Hyphenation Callback. Läs in ordböcker effektivt för flerspråkig bearbetning och förbättra användarupplevelsen.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/hyphenation/callback/
 ---
 ## Hyphenation.Callback property
 
-Hämtar eller ställer in återuppringningsgränssnitt som används för att begära ordlistor när sidlayout för dokumentet byggs. Detta tillåter fördröjning av laddning av ordböcker, vilket kan vara användbart vid bearbetning av dokument på många språk.
+Hämtar eller ställer in callback-gränssnittet som används för att begära ordböcker när dokumentets sidlayout skapas. Detta möjliggör fördröjd inläsning av ordböcker vilket kan vara användbart vid bearbetning av dokument på många språk.
 
 ```csharp
 public static IHyphenationCallback Callback { get; set; }
@@ -23,36 +23,37 @@ Visar hur man öppnar och registrerar en ordbok från en fil.
 ```csharp
 public void RegisterDictionary()
 {
-    // Ställ in en återuppringning som spårar varningar som inträffar under registrering av avstavningslexikon.
+    // Konfigurera ett återanrop som spårar varningar som uppstår under registrering av bindestreckslexikon.
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registrera en engelsk (amerikansk) avstavningsordbok efter ström.
+    // Registrera en engelsk (amerikansk) bindestreckslexikon efter ström.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öppna ett dokument med en språkinställning som Microsoft Word inte får avstava på en engelsk maskin, till exempel tyska.
+    // Öppna ett dokument med en språkinställning som Microsoft Word inte får använda avstavning på en engelskspråkig dator, till exempel tyska.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // För att avstava det dokumentet vid lagring behöver vi en avstavningsordbok för språkkoden "de-CH".
-    // Denna återuppringning kommer att hantera den automatiska begäran för den ordboken.
+    // För att använda bindestreck för dokumentet när det sparas behöver vi en bindestreckslexikon för språkkoden "de-CH".
+    // Denna återanropning hanterar den automatiska begäran för den ordboken.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // När vi sparar dokumentet kommer tysk avstavning att träda i kraft.
+    // När vi sparar dokumentet kommer tysk bindestreck att gälla.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
-    // Denna ordbok innehåller två identiska mönster, som kommer att utlösa en varning.
+    // Denna ordbok innehåller två identiska mönster, vilket kommer att utlösa en varning.
     Assert.AreEqual(1, warningInfoCollection.Count);
     Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Associerar ISO-språkkoder med lokala systemfilnamn för avstavningsordboksfiler.
+/// Associerar ISO-språkkoder med lokala systemfilnamn för bindestreckslexikonfiler.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

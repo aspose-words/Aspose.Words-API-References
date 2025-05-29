@@ -3,14 +3,14 @@ title: Body
 linktitle: Body
 articleTitle: Body
 second_title: Aspose.Words för .NET
-description: Body byggare. Initierar en ny instans avBody class i C#.
+description: Skapa och anpassa en ny Body-instans utan ansträngning med vår intuitiva konstruktor. Upplev sömlös integration för dina projekt idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words/body/body/
 ---
 ## Body constructor
 
-Initierar en ny instans av[`Body`](../) class.
+Initierar en ny instans av[`Body`](../) klass.
 
 ```csharp
 public Body(DocumentBase doc)
@@ -22,9 +22,9 @@ public Body(DocumentBase doc)
 
 ## Anmärkningar
 
-När[`Body`](../) skapas, det tillhör det angivna dokumentet, men är inte ännu en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
+När[`Body`](../) skapas, tillhör det det angivna dokumentet, men är ännu inte en del av dokumentet och[`ParentNode`](../../node/parentnode/) är`null`.
 
-Att lägga till[`Body`](../)till a[`Section`](../../section/) använda sig av[`AppendChild`](../../compositenode/appendchild/) , [`InsertAfter`](../../compositenode/insertafter/) eller[`InsertBefore`](../../compositenode/insertbefore/) metoder.
+Att lägga till[`Body`](../)till en[`Section`](../../section/) använda[`Lägg till barn`](../../compositenode/appendchild/)[`InfogaEfter`](../../compositenode/insertafter/) eller[`Infoga före`](../../compositenode/insertbefore/) metoder.
 
 ## Exempel
 
@@ -35,20 +35,20 @@ Document doc = new Document();
 
 // Ett tomt dokument innehåller ett avsnitt, en brödtext och ett stycke.
 // Anropa metoden "RemoveAllChildren" för att ta bort alla dessa noder,
-// och slutar med en dokumentnod utan underordnade.
+// och slutar med en dokumentnod utan barn.
 doc.RemoveAllChildren();
 
-// Det här dokumentet har nu inga sammansatta underordnade noder som vi kan lägga till innehåll till.
-// Om vi vill redigera den måste vi fylla på dess nodsamling.
-// Skapa först ett nytt avsnitt och lägg sedan till det som ett underordnat dokument i rotdokumentnoden.
+// Det här dokumentet har nu inga sammansatta undernoder som vi kan lägga till innehåll till.
+// Om vi vill redigera den måste vi fylla i dess nodsamling igen.
+// Skapa först en ny sektion och lägg sedan till den som ett underordnat avsnitt till rotdokumentnoden.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Ställ in några sidinställningar för avsnittet.
+// Ange vissa sidinställningar för avsnittet.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// En sektion behöver en kropp som kommer att innehålla och visa allt dess innehåll
+// En sektion behöver en brödtext, som innehåller och visar allt dess innehåll
 // på sidan mellan avsnittets sidhuvud och sidfot.
 Body body = new Body(doc);
 section.AppendChild(body);
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en löprunda,
-// ställ in dess utseende och innehåll och lägg sedan till det som ett barn till stycket.
+// Slutligen, lägg till lite innehåll för att göra dokumentet. Skapa en körning,
+// ange dess utseende och innehåll och lägg sedan till det som ett underordnat stycke.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

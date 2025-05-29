@@ -3,14 +3,14 @@ title: ParagraphFormat.HangingPunctuation
 linktitle: HangingPunctuation
 articleTitle: HangingPunctuation
 second_title: Aspose.Words для .NET
-description: ParagraphFormat HangingPunctuation свойство. Получает или задает флаг указывающий включена ли висячая пунктуация для текущего абзаца на С#.
+description: Узнайте, как улучшить макет текста с помощью свойства «Висячая пунктуация» в ParagraphFormat. Оптимизируйте читаемость и стиль без усилий!
 type: docs
 weight: 130
 url: /ru/net/aspose.words/paragraphformat/hangingpunctuation/
 ---
 ## ParagraphFormat.HangingPunctuation property
 
-Получает или задает флаг, указывающий, включена ли висячая пунктуация для текущего абзаца.
+Возвращает или задает флаг, указывающий, включена ли висячая пунктуация для текущего абзаца.
 
 ```csharp
 public bool HangingPunctuation { get; set; }
@@ -18,7 +18,7 @@ public bool HangingPunctuation { get; set; }
 
 ## Примеры
 
-Показывает, как установить специальные свойства для азиатской типографики.
+Показывает, как задать специальные свойства для азиатской типографики.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

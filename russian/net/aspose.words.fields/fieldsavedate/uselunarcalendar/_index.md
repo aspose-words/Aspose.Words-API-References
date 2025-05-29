@@ -3,14 +3,14 @@ title: FieldSaveDate.UseLunarCalendar
 linktitle: UseLunarCalendar
 articleTitle: UseLunarCalendar
 second_title: Aspose.Words для .NET
-description: FieldSaveDate UseLunarCalendar свойство. Получает или задает следует ли использовать лунный календарь Хиджры или еврейский лунный календарь на С#.
+description: Свойство UseLunarCalendar объекта FieldSaveDate позволяет легко переключаться между лунным календарем Хиджры и еврейским лунным календарем для удобного управления датами.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fieldsavedate/uselunarcalendar/
 ---
 ## FieldSaveDate.UseLunarCalendar property
 
-Получает или задает, следует ли использовать лунный календарь Хиджры или еврейский лунный календарь.
+Возвращает или задает, использовать ли лунный календарь Хиджры или еврейский лунный календарь.
 
 ```csharp
 public bool UseLunarCalendar { get; set; }
@@ -18,7 +18,7 @@ public bool UseLunarCalendar { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поле SAVEDATE для отображения даты и времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
+Показывает, как использовать поле SAVEDATE для отображения даты/времени последней операции сохранения документа, выполненной с помощью Microsoft Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -27,7 +27,7 @@ builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
 // Мы можем использовать поле SAVEDATE для отображения даты и времени последней операции сохранения в документе.
-// Операция сохранения, на которую ссылаются эти поля, представляет собой сохранение вручную в таком приложении, как Microsoft Word,
+// Операция сохранения, на которую ссылаются эти поля, — это ручное сохранение в приложении, например Microsoft Word,
 // не метод Save документа.
 // Ниже приведены три различных типа календаря, в соответствии с которыми поле SAVEDATE может отображать дату/время.
 // 1 - Исламский лунный календарь:
@@ -51,7 +51,7 @@ field.UseSakaEraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
-// Поля SAVEDATE получают значения даты и времени из встроенного свойства LastSavedTime.
+// Поля SAVEDATE берут свои значения даты/времени из встроенного свойства LastSavedTime.
 // Метод Save документа не обновит это значение, но мы все равно можем обновить его вручную.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 

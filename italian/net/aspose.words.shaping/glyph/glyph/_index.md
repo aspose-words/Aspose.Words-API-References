@@ -3,14 +3,14 @@ title: Glyph
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words per .NET
-description: Glyph costruttore. Inizializza la nuova istanza di questa classe in C#.
+description: Crea glifi straordinari senza sforzo con il nostro Glyph Constructor. Inizializza facilmente nuove istanze e migliora i tuoi progetti di design oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/glyph/glyph/
 ---
 ## Glyph constructor
 
-Inizializza la nuova istanza di questa classe.
+Inizializza una nuova istanza di questa classe.
 
 ```csharp
 public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)

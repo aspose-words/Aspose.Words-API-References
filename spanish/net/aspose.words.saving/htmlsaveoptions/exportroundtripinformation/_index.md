@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportRoundtripInformation
 linktitle: ExportRoundtripInformation
 articleTitle: ExportRoundtripInformation
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportRoundtripInformation propiedad. Especifica si se escribe la información de ida y vuelta al guardar en HTML MHTML o EPUB. El valor predeterminado esverdadero para HTML yFALSO para MHTML y EPUB en C#.
+description: Descubra la propiedad ExportRoundtripInformation de HtmlSaveOptions para controlar los datos de ida y vuelta en formatos HTML, MHTML y EPUB. ¡Optimice sus exportaciones hoy mismo!
 type: docs
 weight: 240
 url: /es/net/aspose.words.saving/htmlsaveoptions/exportroundtripinformation/
 ---
 ## HtmlSaveOptions.ExportRoundtripInformation property
 
-Especifica si se escribe la información de ida y vuelta al guardar en HTML, MHTML o EPUB. El valor predeterminado es`verdadero` para HTML y`FALSO` para MHTML y EPUB.
+Especifica si se debe escribir la información de ida y vuelta al guardar en HTML, MHTML o EPUB. El valor predeterminado es`verdadero` para HTML y`FALSO` para MHTML y EPUB.
 
 ```csharp
 public bool ExportRoundtripInformation { get; set; }
@@ -18,7 +18,7 @@ public bool ExportRoundtripInformation { get; set; }
 
 ## Observaciones
 
-Guardar la información de ida y vuelta permite restaurar propiedades del documento, como tabulaciones, comentarios , encabezados y pies de página durante la carga de documentos HTML nuevamente en un[`Document`](../../../aspose.words/document/) objeto.
+Al guardar la información de ida y vuelta se pueden restaurar propiedades del documento, como tabulaciones, comentarios, encabezados y pies de página, durante la carga de documentos HTML en un servidor.[`Document`](../../../aspose.words/document/) objeto.
 
 Cuando`verdadero`, la información de ida y vuelta se exporta como -aw-* CSS properties de los elementos HTML correspondientes.
 
@@ -32,15 +32,15 @@ Muestra cómo conservar elementos ocultos al convertir a .html.
 Document doc = new Document(MyDir + "Rendering.docx");
 
 // Al convertir un documento a .html, algunos elementos como marcadores ocultos, posiciones de formas originales,
-// o las notas a pie de página se eliminarán o se convertirán a texto sin formato y, efectivamente, se perderán.
-// Guardar con un objeto HtmlSaveOptions con ExportRoundtripInformation establecido en verdadero preservará estos elementos.
+// o las notas al pie se eliminarán o se convertirán en texto sin formato y se perderán.
+// Guardar con un objeto HtmlSaveOptions con ExportRoundtripInformation establecido como verdadero conservará estos elementos.
 
 // Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions para determinar
-// cómo la operación de guardar exportará elementos del documento que HTML no admite ni utiliza,
+// cómo la operación de guardado exportará elementos del documento que HTML no admite o no utiliza,
 // como marcadores ocultos y posiciones de formas originales.
-// Si configuramos el indicador "ExportRoundtripInformation" en "verdadero", la operación de guardar preservará estos elementos.
-// Si configuramos el indicador "ExportRoundTripInformation" en "falso", la operación de guardar descartará estos elementos.
-// Querremos conservar dichos elementos si pretendemos cargar el HTML guardado usando Aspose.Words,
+// Si establecemos el indicador "ExportRoundtripInformation" en "verdadero", la operación de guardado conservará estos elementos.
+// Si establecemos el indicador "ExportRoundTripInformation" en "falso", la operación de guardar descartará estos elementos.
+Querremos conservar dichos elementos si pretendemos cargar el HTML guardado usando Aspose.Words,
 // ya que podrían ser de utilidad una vez más.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportRoundtripInformation = exportRoundtripInformation };
 

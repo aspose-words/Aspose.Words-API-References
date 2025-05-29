@@ -3,7 +3,7 @@ title: FieldDatabase.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words för .NET
-description: FieldDatabase Query fast egendom. Hämtar eller ställer in en uppsättning SQLinstruktioner som frågar databasen i C#.
+description: Hantera din databas enkelt med FieldDatabase Query. Ställ enkelt in och hämta SQL-instruktioner för effektiv datasökning.
 type: docs
 weight: 90
 url: /sv/net/aspose.words.fields/fielddatabase/query/
@@ -24,7 +24,7 @@ Visar hur man extraherar data från en databas och infogar den som ett fält i e
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Detta DATABAS-fält kommer att köra en fråga på en databas och visa resultatet i en tabell.
+// Detta DATABASFÄLT kör en fråga i en databas och visar resultatet i en tabell.
 FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
 field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
@@ -43,19 +43,19 @@ field.Query =
     "GROUP BY[Products].ProductName " +
     "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
 
-// Dessa egenskaper har samma funktion som LIMIT- och TOP-satser.
-// Konfigurera dem för att endast visa raderna 1 till 10 i frågeresultatet i fältets tabell.
+// Dessa egenskaper har samma funktion som LIMIT- och TOP-klausulerna.
+// Konfigurera dem så att endast raderna 1 till 10 av frågeresultatet visas i fältets tabell.
 field.FirstRecord = "1";
 field.LastRecord = "10";
 
-// Den här egenskapen är indexet för formatet vi vill använda för vår tabell. Listan över tabellformat finns i menyn "Tabell AutoFormat...".
-// som dyker upp när vi skapar ett DATABAS-fält i Microsoft Word. Index #10 motsvarar formatet "Colorful 3".
+// Den här egenskapen är indexet för det format vi vill använda för vår tabell. Listan över tabellformat finns i menyn "Tabellautoformat..."
+// som visas när vi skapar ett DATABAS-fält i Microsoft Word. Index #10 motsvarar formatet "Colorful 3".
 field.TableFormat = "10";
 
 // Egenskapen FormatAttribute är en strängrepresentation av ett heltal som lagrar flera flaggor.
-// Vi kan tillämpa formatet som TableFormat-egenskapen pekar på genom att sätta olika flaggor i den här egenskapen.
-// Siffran vi använder är summan av en kombination av värden som motsvarar olika aspekter av tabellstilen.
-// 63 representerar 1 (kanter) + 2 (skuggning) + 4 (teckensnitt) + 8 (färg) + 16 (autopassning) + 32 (rubriker).
+// Vi kan patriellt tillämpa formatet som egenskapen TableFormat pekar på genom att sätta olika flaggor i den här egenskapen.
+// Talet vi använder är summan av en kombination av värden som motsvarar olika aspekter av tabellstilen.
+// 63 representerar 1 (kantlinjer) + 2 (skuggning) + 4 (teckensnitt) + 8 (färg) + 16 (autoanpassning) + 32 (rubrikrader).
 field.FormatAttributes = "63";
 field.InsertHeadings = true;
 field.InsertOnceOnMailMerge = true;

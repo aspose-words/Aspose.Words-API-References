@@ -3,7 +3,7 @@ title: ImageSize.HeightPixels
 linktitle: HeightPixels
 articleTitle: HeightPixels
 second_title: Aspose.Words для .NET
-description: ImageSize HeightPixels свойство. Получает высоту изображения в пикселях на С#.
+description: Откройте для себя свойство ImageSize HeightPixels, чтобы легко получить доступ к высоте изображения в пикселях и оптимизировать ее для повышения производительности и качества.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/imagesize/heightpixels/
@@ -18,7 +18,7 @@ public int HeightPixels { get; }
 
 ## Примеры
 
-Показывает, как читать свойства изображения в фигуре.
+Показывает, как читать свойства изображения в форме.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Если фигура содержит изображение, ее свойство ImageData будет действительным,
 // и он будет содержать объект ImageSize.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // Объект ImageSize содержит доступную только для чтения информацию об изображении внутри фигуры.
 Assert.AreEqual(400, imageSize.HeightPixels);
@@ -39,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Мы можем основывать размер фигуры на размере ее изображения, чтобы избежать растягивания изображения.
+// Мы можем определить размер фигуры на основе размера ее изображения, чтобы избежать растягивания изображения.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

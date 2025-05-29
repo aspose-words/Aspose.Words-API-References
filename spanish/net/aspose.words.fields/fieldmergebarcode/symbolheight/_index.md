@@ -3,14 +3,14 @@ title: FieldMergeBarcode.SymbolHeight
 linktitle: SymbolHeight
 articleTitle: SymbolHeight
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode SymbolHeight propiedad. Obtiene o establece la altura del símbolo. Las unidades están en TWIPS 1/1440 pulgada en C#.
+description: Ajuste la propiedad FieldMergeBarcode SymbolHeight para personalizar la altura de su código de barras en TWIPS. ¡Mejore la presentación de sus datos con precisión!
 type: docs
 weight: 130
 url: /es/net/aspose.words.fields/fieldmergebarcode/symbolheight/
 ---
 ## FieldMergeBarcode.SymbolHeight property
 
-Obtiene o establece la altura del símbolo. Las unidades están en TWIPS (1/1440 pulgada).
+Obtiene o establece la altura del símbolo. Las unidades se expresan en TWIPS (1/1440 de pulgada).
 
 ```csharp
 public string SymbolHeight { get; set; }
@@ -30,7 +30,7 @@ FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.Field
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Aplicar colores y escalas personalizados.
+// Aplicar colores y escala personalizados.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -43,8 +43,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código QR con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

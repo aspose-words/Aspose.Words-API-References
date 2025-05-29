@@ -3,14 +3,14 @@ title: ShapeBase.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words per .NET
-description: ShapeBase Font proprietà. Fornisce laccesso alla formattazione dei caratteri di questo oggetto in C#.
+description: Scopri la proprietà Font ShapeBase per un facile accesso alla formattazione dei font. Migliora i tuoi design con stili di testo personalizzabili e opzioni tipografiche uniche.
 type: docs
 weight: 190
 url: /it/net/aspose.words.drawing/shapebase/font/
 ---
 ## ShapeBase.Font property
 
-Fornisce l'accesso alla formattazione dei caratteri di questo oggetto.
+Fornisce l'accesso alla formattazione del carattere di questo oggetto.
 
 ```csharp
 public Font Font { get; }
@@ -30,9 +30,9 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Imposta la proprietà "Hidden" dell'oggetto "Font" della forma su "true" per nascondere la casella di testo alla vista
-// e comprime lo spazio che normalmente occuperebbe.
-// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "false" per lasciare visibile la casella di testo.
+// Imposta la proprietà "Nascosto" dell'oggetto "Font" della forma su "true" per nascondere la casella di testo alla vista
+// e comprimere lo spazio che normalmente occuperebbe.
+// Imposta la proprietà "Nascosto" dell'oggetto "Carattere" della forma su "false" per lasciare visibile la casella di testo.
 shape.Font.Hidden = hideShape;
 
 // Se la forma è visibile, ne modificheremo l'aspetto tramite l'oggetto font.

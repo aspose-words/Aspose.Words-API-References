@@ -3,14 +3,14 @@ title: LoadOptions.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words لـ .NET
-description: LoadOptions Encoding ملكية. الحصول على أو تعيين التشفير الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد التشفير داخل المستند. يمكن أن يكونباطل . الافتراضي هوباطل  في C#.
+description: اكتشف خاصية LoadOptions Encoding لإدارة ترميز مستندات HTML وTXT وCHM بسهولة. خصّص تحميل المحتوى لتحقيق أداء مثالي!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.loading/loadoptions/encoding/
 ---
 ## LoadOptions.Encoding property
 
-الحصول على أو تعيين التشفير الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد التشفير داخل المستند. يمكن أن يكون`باطل` . الافتراضي هو`باطل` .
+يحصل على أو يعين الترميز الذي سيتم استخدامه لتحميل مستند HTML أو TXT أو CHM إذا لم يتم تحديد الترميز داخل المستند. يمكن أن يكون`باطل` . الافتراضي هو`باطل` .
 
 ```csharp
 public Encoding Encoding { get; set; }
@@ -18,13 +18,13 @@ public Encoding Encoding { get; set; }
 
 ## ملاحظات
 
-تُستخدم هذه الخاصية فقط عند تحميل مستندات HTML أو TXT أو CHM.
+يتم استخدام هذه الخاصية فقط عند تحميل مستندات HTML أو TXT أو CHM.
 
-إذا لم يتم تحديد الترميز داخل المستند وكانت هذه الخاصية`باطل`، فسيحاول النظام اكتشاف التشفير تلقائيًا .
+إذا لم يتم تحديد الترميز داخل المستند وكانت هذه الخاصية`باطل`، ثم سيحاول النظام اكتشاف الترميز تلقائيًا.
 
 ## أمثلة
 
-يوضح كيفية ضبط الترميز الذي سيتم من خلاله فتح المستند.
+يوضح كيفية تعيين الترميز الذي سيتم فتح المستند به.
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions

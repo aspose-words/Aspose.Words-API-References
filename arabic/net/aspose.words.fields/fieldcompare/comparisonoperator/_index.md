@@ -3,14 +3,14 @@ title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words لـ .NET
-description: FieldCompare ComparisonOperator ملكية. الحصول على عامل المقارنة أو تعيينه في C#.
+description: اكتشف خاصية FieldCompare ComparisonOperator—قم بإدارة مشغلي المقارنة لديك بسهولة لتحسين تحليل البيانات وزيادة الكفاءة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldcompare/comparisonoperator/
 ---
 ## FieldCompare.ComparisonOperator property
 
-الحصول على عامل المقارنة أو تعيينه.
+يحصل على عامل المقارنة أو يعينه.
 
 ```csharp
 public string ComparisonOperator { get; set; }
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## أمثلة
 
-يوضح كيفية مقارنة التعبيرات باستخدام حقل المقارنة.
+يوضح كيفية مقارنة التعبيرات باستخدام حقل COMPARE.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// يعرض حقل المقارنة "0" أو "1"، اعتمادًا على حقيقة العبارة الخاصة به.
-// نتيجة هذه العبارة خاطئة، لذا سيعرض هذا الحقل "0".
+// يعرض حقل المقارنة "0" أو "1"، اعتمادًا على صحة بيانه.
+//نتيجة هذه العبارة خاطئة، لذا سيعرض هذا الحقل "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// يعرض هذا الحقل "1" نظرًا لأن العبارة صحيحة.
+// يعرض هذا الحقل الرقم "1" لأن العبارة صحيحة.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

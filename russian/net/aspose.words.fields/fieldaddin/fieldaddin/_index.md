@@ -3,7 +3,7 @@ title: FieldAddIn
 linktitle: FieldAddIn
 articleTitle: FieldAddIn
 second_title: Aspose.Words для .NET
-description: FieldAddIn строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAddIn — ваше решение для бесшовной интеграции. Откройте для себя мощные функции с помощью нашего удобного конструктора по умолчанию сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldaddin/fieldaddin/

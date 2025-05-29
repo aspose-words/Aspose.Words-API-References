@@ -3,14 +3,14 @@ title: ConditionalStyleCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words för .NET
-description: ConditionalStyleCollection ClearFormatting metod. Rensar alla villkorliga stilar i tabellstilen i C#.
+description: Upptäck hur metoden ConditionalStyleCollection ClearFormatting effektivt tar bort alla villkorsstyrda format från din tabell, vilket förbättrar tydlighet och design.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/conditionalstylecollection/clearformatting/
 ---
 ## ConditionalStyleCollection.ClearFormatting method
 
-Rensar alla villkorliga stilar i tabellstilen.
+Rensar alla villkorsstyrda format i tabellformatet.
 
 ```csharp
 public void ClearFormatting()
@@ -18,7 +18,7 @@ public void ClearFormatting()
 
 ## Exempel
 
-Visar hur man återställer villkorliga tabellstilar.
+Visar hur man återställer villkorliga tabellformat.
 
 ```csharp
 Document doc = new Document();
@@ -38,16 +38,16 @@ table.Style = tableStyle;
 // Ställ in tabellstilen för att färga kanterna på den första raden i tabellen i rött.
 tableStyle.ConditionalStyles.FirstRow.Borders.Color = Color.Red;
 
-// Ställ in tabellstilen för att färga kanterna på den sista raden i tabellen i blått.
+// Ställ in tabellstilen så att kanterna på den sista raden i tabellen färgas blått.
 tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 
-// Nedan finns två sätt att använda "ClearFormatting"-metoden för att rensa de villkorliga stilarna.
-// 1 - Rensa de villkorliga stilarna för en specifik del av en tabell:
+// Nedan följer två sätt att använda metoden "ClearFormatting" för att rensa de villkorliga formaten.
+// 1 - Rensa de villkorliga formaten för en specifik del av en tabell:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
 Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
 
-// 2 - Rensa de villkorliga stilarna för hela tabellen:
+// 2 - Rensa de villkorliga formaten för hela tabellen:
 tableStyle.ConditionalStyles.ClearFormatting();
 
 Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));

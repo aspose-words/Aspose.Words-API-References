@@ -2,10 +2,10 @@
 title: Paragraph.AppendField
 linktitle: AppendField
 articleTitle: AppendField
-second_title: Aspose.Words for .NET
-description: Paragraph AppendField yöntem. Bu paragrafa bir alan ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizi Paragraf AppendField yöntemiyle geliştirin; gelişmiş organizasyon ve netlik için paragraflara özel alanlar ekleyerek sorunsuz bir şekilde düzenleyin.
 type: docs
-weight: 240
+weight: 260
 url: /tr/net/aspose.words/paragraph/appendfield/
 ---
 ## AppendField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#appendfield}
@@ -33,19 +33,19 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafın sonuna alan eklemenin üç yolu verilmiştir.
-// 1 - Alan türünü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
+// Aşağıda bir paragrafın sonuna alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir alan türü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Alan kodunu kullanarak bir TIME alanı ekleyin:
+ // 2 - Bir alan kodu kullanarak bir TIME alanı ekleyin:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bunun bir yer tutucu değeri görüntülemesini sağlayın:
+// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bir yer tutucu değer görüntülemesini sağlayın:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -73,7 +73,7 @@ public Field AppendField(string fieldCode)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
+| fieldCode | String | Eklenecek alan kodu (kıvırma parantezi olmadan). |
 
 ### Geri dönüş değeri
 
@@ -87,19 +87,19 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafın sonuna alan eklemenin üç yolu verilmiştir.
-// 1 - Alan türünü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
+// Aşağıda bir paragrafın sonuna alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir alan türü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Alan kodunu kullanarak bir TIME alanı ekleyin:
+ // 2 - Bir alan kodu kullanarak bir TIME alanı ekleyin:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bunun bir yer tutucu değeri görüntülemesini sağlayın:
+// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bir yer tutucu değer görüntülemesini sağlayın:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
@@ -126,8 +126,8 @@ public Field AppendField(string fieldCode, string fieldValue)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fieldCode | String | Eklenecek alan kodu (küme parantezleri olmadan). |
-| fieldValue | String | Eklenecek alan değeri. Geçmek`hükümsüz` değeri olmayan alanlar için. |
+| fieldCode | String | Eklenecek alan kodu (kıvırma parantezi olmadan). |
+| fieldValue | String | Eklenecek alan değeri. Geç`hükümsüz` değeri olmayan alanlar için. |
 
 ### Geri dönüş değeri
 
@@ -141,19 +141,19 @@ Bir paragrafa alan eklemenin çeşitli yollarını gösterir.
 Document doc = new Document();
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
 
-// Aşağıda paragrafın sonuna alan eklemenin üç yolu verilmiştir.
-// 1 - Alan türünü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
+// Aşağıda bir paragrafın sonuna alan eklemenin üç yolu bulunmaktadır.
+// 1 - Bir alan türü kullanarak bir DATE alanı ekleyin ve ardından güncelleyin:
 paragraph.AppendField(FieldType.FieldDate, true);
 
- // 2 - Alan kodunu kullanarak bir TIME alanı ekleyin:
+ // 2 - Bir alan kodu kullanarak bir TIME alanı ekleyin:
 paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 
-// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bunun bir yer tutucu değeri görüntülemesini sağlayın:
+// 3 - Bir alan kodu kullanarak bir QUOTE alanı ekleyin ve bir yer tutucu değer görüntülemesini sağlayın:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
 Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
 
-// Bu alan, biz güncelleyene kadar yer tutucu değerini gösterecektir.
+// Bu alan, biz güncelleyene kadar yer tutucu değerini görüntüleyecektir.
 doc.UpdateFields();
 
 Assert.AreEqual("Real value", doc.Range.Fields[2].Result);

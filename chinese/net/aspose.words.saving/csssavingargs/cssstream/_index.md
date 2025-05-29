@@ -2,8 +2,8 @@
 title: CssSavingArgs.CssStream
 linktitle: CssStream
 articleTitle: CssStream
-second_title: 用于 .NET 的 Aspose.Words
-description: CssSavingArgs CssStream 财产. 允许指定 CSS 信息将保存到的流 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 CssSavingArgs CssStream 属性优化您的 CSS 存储，从而将 CSS 数据无缝保存到您喜欢的流中。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/csssavingargs/cssstream/
@@ -20,13 +20,13 @@ public Stream CssStream { get; set; }
 
 此属性允许您将 CSS 信息保存到流中。
 
-默认值为`无效的` 。此属性不会禁止将 CSS 信息保存到文件或 嵌入到 HTML 文档。要禁止导出 CSS，请使用[`IsExportNeeded`](../isexportneeded/)财产。
+默认值为`无效的`。此属性不会禁止将 CSS 信息保存到文件或嵌入到 HTML 文档中。要禁止导出 CSS，请使用[`IsExportNeeded`](../isexportneeded/)财产。
 
-使用[`ICssSavingCallback`](../../icsssavingcallback/)你不能用 另一个替代CSS。它仅用于将 CSS 保存到流中。
+使用[`ICssSavingCallback`](../../icsssavingcallback/)您不能用 替换 CSS。它仅用于将 CSS 保存到流中。
 
 ## 例子
 
-演示如何使用 HTML 转换创建的 CSS 样式表。
+展示如何使用 HTML 转换创建的 CSS 样式表。
 
 ```csharp
 public void ExternalCssFilenames()
@@ -37,12 +37,12 @@ public void ExternalCssFilenames()
     // 修改我们将文档转换为 HTML 的方式。
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”即可
-    // 保存的 HTML 文档附带外部 CSS 样式表文件。
+    // 将“CssStylesheetType”属性设置为“CssStyleSheetType.External”
+    // 将已保存的 HTML 文档与外部 CSS 样式表文件一起保存。
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // 以下是指定输出 CSS 样式表的目录和文件名的两种方法。
-    // 1 - 使用“CssStyleSheetFileName”属性为样式表分配文件名：
+    // 1 - 使用“CssStyleSheetFileName”属性为我们的样式表分配文件名：
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - 使用自定义回调来命名我们的样式表：

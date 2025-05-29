@@ -3,14 +3,14 @@ title: FieldGlossary.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words لـ .NET
-description: FieldGlossary EntryName ملكية. الحصول على اسم مُدخل المسرد المراد إدراجه أو تعيينه في C#.
+description: اكتشف خاصية FieldGlossary EntryName لإدارة إدخالات القاموس بسهولة - احصل على أسماء أو قم بتعيينها لتحقيق تكامل سلس للمحتوى.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.fields/fieldglossary/entryname/
 ---
 ## FieldGlossary.EntryName property
 
-الحصول على اسم مُدخل المسرد المراد إدراجه أو تعيينه.
+يحصل على اسم إدخال المصطلحات المراد إدراجه أو يعينه.
 
 ```csharp
 public string EntryName { get; set; }
@@ -18,12 +18,12 @@ public string EntryName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
+يوضح كيفية عرض كتلة بناء باستخدام حقول AUTOTEXT وGLOSSARY.
 
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء مستند معجم وأضف كتلة إنشاء نص تلقائي إليه.
+// قم بإنشاء مستند المصطلحات وأضف إليه كتلة بناء النص التلقائي.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -33,7 +33,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// أنشئ مصدرًا وأضفه كنص إلى الكتلة البرمجية الإنشائية الخاصة بنا.
+// قم بإنشاء مصدر وأضفه كنص إلى كتلة البناء الخاصة بنا.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -41,19 +41,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// قم بتعيين ملف يحتوي على أجزاء قد لا تحتوي عليها وثيقتنا أو القالب المرفق بها.
+// قم بتعيين ملف يحتوي على أجزاء قد لا تحتوي عليها مستندنا أو القالب المرفق به.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// فيما يلي طريقتان لاستخدام الحقول لعرض محتويات الكتلة البرمجية الإنشائية الخاصة بنا.
+// فيما يلي طريقتان لاستخدام الحقول لعرض محتويات كتلة البناء الخاصة بنا.
 // 1 - استخدام حقل النص التلقائي:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - استخدام حقل المسرد:
+// 2 - استخدام حقل المصطلحات:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

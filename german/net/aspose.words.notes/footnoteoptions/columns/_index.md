@@ -3,7 +3,7 @@ title: FootnoteOptions.Columns
 linktitle: Columns
 articleTitle: Columns
 second_title: Aspose.Words für .NET
-description: FootnoteOptions Columns eigendom. Gibt die Anzahl der Spalten an mit denen der Fußnotenbereich formatiert wird in C#.
+description: Entdecken Sie die FootnoteOptions-Spalteneigenschaft, um Ihre Fußnoten einfach mit anpassbaren Spaltenlayouts für verbesserte Lesbarkeit und Präsentation zu formatieren.
 type: docs
 weight: 10
 url: /de/net/aspose.words.notes/footnoteoptions/columns/
@@ -18,11 +18,11 @@ public int Columns { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Anzahl von Spalten formatiert, die auf der Anzahl der Spalten auf der angezeigten Seite basiert. Der Standardwert ist 0.
+Wenn diese Eigenschaft den Wert 0 hat, wird der Fußnotenbereich mit einer Spaltenanzahl formatiert, die der Spaltenanzahl auf der angezeigten Seite entspricht. Der Standardwert ist 0.
 
 ## Beispiele
 
-Zeigt, wie der Fußnotenabschnitt in eine bestimmte Anzahl von Spalten aufgeteilt wird.
+Zeigt, wie der Fußnotenabschnitt in eine bestimmte Anzahl Spalten aufgeteilt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");

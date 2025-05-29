@@ -3,9 +3,9 @@ title: ChartYValue Class
 linktitle: ChartYValue
 articleTitle: ChartYValue
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.Charts.ChartYValue klass. Representerar ett Yvärde för en diagramserie i C#.
+description: Upptäck klassen Aspose.Words.Drawing.Charts.ChartYValue för exakt Y-värdesrepresentation i dina diagramserier och förbättra din datavisualisering.
 type: docs
-weight: 870
+weight: 1190
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/
 ---
 ## ChartYValue class
@@ -20,26 +20,26 @@ public class ChartYValue
 
 | namn | Beskrivning |
 | --- | --- |
-| [DateTimeValue](../../aspose.words.drawing.charts/chartyvalue/datetimevalue/) { get; } | Hämtar det lagrade datetime-värdet. |
+| [DateTimeValue](../../aspose.words.drawing.charts/chartyvalue/datetimevalue/) { get; } | Hämtar det lagrade datum- och tidsvärdet. |
 | [DoubleValue](../../aspose.words.drawing.charts/chartyvalue/doublevalue/) { get; } | Hämtar det lagrade numeriska värdet. |
 | [TimeValue](../../aspose.words.drawing.charts/chartyvalue/timevalue/) { get; } | Hämtar det lagrade tidsvärdet. |
-| [ValueType](../../aspose.words.drawing.charts/chartyvalue/valuetype/) { get; } | Hämtar typen av Y-värde som lagras i objektet. |
+| [ValueType](../../aspose.words.drawing.charts/chartyvalue/valuetype/) { get; } | Hämtar typen av Y-värdet som lagras i objektet. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Skapar en`ChartYValue` instans avDateTime typ. |
-| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Skapar en`ChartYValue` instans avDouble typ. |
-| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Skapar en`ChartYValue` instans avTime typ. |
-| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Får en flagga som indikerar om det angivna objektet är lika med det aktuella Y-värdeobjektet. |
-| override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Hämtar en hash-kod för det aktuella Y-värdeobjektet. |
+| static [FromDateTime](../../aspose.words.drawing.charts/chartyvalue/fromdatetime/)(*DateTime*) | Skapar en`ChartYValue` exempel påDateTime typ. |
+| static [FromDouble](../../aspose.words.drawing.charts/chartyvalue/fromdouble/)(*double*) | Skapar en`ChartYValue` exempel påDouble typ. |
+| static [FromTimeSpan](../../aspose.words.drawing.charts/chartyvalue/fromtimespan/)(*TimeSpan*) | Skapar en`ChartYValue` exempel påTime typ. |
+| override [Equals](../../aspose.words.drawing.charts/chartyvalue/equals/)(*object*) | Hämtar en flagga som anger om det angivna objektet är lika med objektet med aktuellt Y-värde. |
+| override [GetHashCode](../../aspose.words.drawing.charts/chartyvalue/gethashcode/)() | Hämtar en hashkod för det aktuella Y-värdeobjektet. |
 
 ## Anmärkningar
 
-Den här klassen innehåller ett antal statiska metoder för att skapa ett Y-värde av en viss typ. The [`ValueType`](./valuetype/) egenskap låter dig bestämma typen av ett befintligt Y-värde.
+Den här klassen innehåller ett antal statiska metoder för att skapa ett Y-värde av en viss typ. The [`ValueType`](./valuetype/) Med egenskapen kan du bestämma typen av ett befintligt Y-värde.
 
-Alla Y-värden som inte är noll i en diagramserie måste vara av samma[`ChartYValueType`](../chartyvaluetype/) typ.
+Alla Y-värden som inte är null i en diagramserie måste vara av samma värde.[`ChartYValueType`](../chartyvaluetype/) typ.
 
 ### Se även
 

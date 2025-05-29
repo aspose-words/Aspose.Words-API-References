@@ -3,14 +3,14 @@ title: Field.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: Field Type ملكية. الحصول على نوع حقل Microsoft Word في C#.
+description: اكتشف نوع حقل مايكروسوفت وورد باستخدام خاصية "نوع الحقل". حسّن مستنداتك بتنسيق دقيق ومحتوى ديناميكي.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fields/field/type/
 ---
 ## Field.Type property
 
-الحصول على نوع حقل Microsoft Word.
+يحصل على نوع حقل Microsoft Word.
 
 ```csharp
 public virtual FieldType Type { get; }
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### أنظر أيضا

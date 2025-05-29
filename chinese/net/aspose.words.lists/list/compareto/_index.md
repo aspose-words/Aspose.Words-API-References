@@ -2,8 +2,8 @@
 title: List.CompareTo
 linktitle: CompareTo
 articleTitle: CompareTo
-second_title: 用于 .NET 的 Aspose.Words
-description: List CompareTo 方法. 将指定对象与当前对象进行比较 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 List CompareTo 方法，使用这个重要的编程工具有效地比较对象并提高您的编码技能。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.lists/list/compareto/

@@ -3,7 +3,7 @@ title: FieldDate
 linktitle: FieldDate
 articleTitle: FieldDate
 second_title: Aspose.Words لـ .NET
-description: FieldDate البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldDate، الحل الأمثل لمعالجة البيانات بكفاءة في البرمجة. بسّط برمجتك باستخدام مُنشئنا الافتراضي البديهي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddate/fielddate/

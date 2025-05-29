@@ -3,9 +3,9 @@ title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words für .NET
-description: ImageData SetImage methode. Legt das Bild fest das die Form anzeigt in C#.
+description: Entdecken Sie, wie Sie die SetImage-Methode in ImageData verwenden, um Ihre Formen mit benutzerdefinierten Bildern zu verbessern. Werten Sie Ihr Design mühelos auf!
 type: docs
-weight: 200
+weight: 210
 url: /de/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(*Image*) {#setimage}
@@ -28,11 +28,11 @@ Zeigt, wie Bilder aus dem lokalen Dateisystem in einem Dokument angezeigt werden
 Document doc = new Document();
 
 // Um ein Bild in einem Dokument anzuzeigen, müssen wir eine Form erstellen
-//, das ein Bild enthält, und hängen Sie es dann an den Hauptteil des Dokuments an.
+// das ein Bild enthält, und hängt es dann an den Hauptteil des Dokuments an.
 Shape imgShape;
 
-// Nachfolgend finden Sie zwei Möglichkeiten, ein Bild aus einer Datei im lokalen Dateisystem abzurufen.
-// 1 – Ein Bildobjekt aus einer Bilddatei erstellen:
+// Unten sind zwei Möglichkeiten aufgeführt, ein Bild aus einer Datei im lokalen Dateisystem abzurufen.
+// 1 - Erstellen Sie ein Bildobjekt aus einer Bilddatei:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -40,7 +40,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 – Öffnen Sie eine Bilddatei aus dem lokalen Dateisystem mithilfe eines Streams:
+// 2 – Öffnen Sie mithilfe eines Streams eine Bilddatei aus dem lokalen Dateisystem:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -80,11 +80,11 @@ Zeigt, wie Bilder aus dem lokalen Dateisystem in einem Dokument angezeigt werden
 Document doc = new Document();
 
 // Um ein Bild in einem Dokument anzuzeigen, müssen wir eine Form erstellen
-//, das ein Bild enthält, und hängen Sie es dann an den Hauptteil des Dokuments an.
+// das ein Bild enthält, und hängt es dann an den Hauptteil des Dokuments an.
 Shape imgShape;
 
-// Nachfolgend finden Sie zwei Möglichkeiten, ein Bild aus einer Datei im lokalen Dateisystem abzurufen.
-// 1 – Ein Bildobjekt aus einer Bilddatei erstellen:
+// Unten sind zwei Möglichkeiten aufgeführt, ein Bild aus einer Datei im lokalen Dateisystem abzurufen.
+// 1 - Erstellen Sie ein Bildobjekt aus einer Bilddatei:
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -92,7 +92,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 – Öffnen Sie eine Bilddatei aus dem lokalen Dateisystem mithilfe eines Streams:
+// 2 – Öffnen Sie mithilfe eines Streams eine Bilddatei aus dem lokalen Dateisystem:
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -134,8 +134,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
-// Im Folgenden finden Sie zwei Möglichkeiten, ein Bild auf eine Form anzuwenden, damit diese angezeigt werden kann.
-// 1 – Legen Sie die Form so fest, dass sie das Bild enthält.
+// Unten sind zwei Möglichkeiten aufgeführt, ein Bild auf eine Form anzuwenden, damit es angezeigt werden kann.
+// 1 – Legen Sie die Form fest, die das Bild enthalten soll.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -144,12 +144,12 @@ builder.InsertNode(shape);
 
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
-// Jedes Bild, das wir in Form speichern, vergrößert unser Dokument.
+// Jedes Bild, das wir in der Form speichern, vergrößert die Größe unseres Dokuments.
 Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
-// 2 – Legen Sie die Form so fest, dass sie mit einer Bilddatei im lokalen Dateisystem verknüpft wird.
+// 2 – Legen Sie fest, dass die Form mit einer Bilddatei im lokalen Dateisystem verknüpft werden soll.
 shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SourceFullName = imageFileName;
@@ -157,9 +157,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// Das Verlinken mit Bildern spart Platz und führt zu einem kleineren Dokument.
+// Durch das Verknüpfen mit Bildern wird Platz gespart und das Dokument wird kleiner.
 // Allerdings kann das Dokument das Bild nur dann korrekt anzeigen, wenn
-// Die Bilddatei ist an der Stelle vorhanden, auf die die „SourceFullName“-Eigenschaft der Form verweist.
+// Die Bilddatei befindet sich an dem Speicherort, auf den die Eigenschaft „SourceFullName“ der Form verweist.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

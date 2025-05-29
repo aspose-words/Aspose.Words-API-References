@@ -3,7 +3,7 @@ title: KnownTypeSet.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: KnownTypeSet Count propriété. Obtient le nombre déléments dans lensemble en C#.
+description: Découvrez la propriété Count de KnownTypeSet pour récupérer facilement le nombre total d'éléments de votre ensemble, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/knowntypeset/count/

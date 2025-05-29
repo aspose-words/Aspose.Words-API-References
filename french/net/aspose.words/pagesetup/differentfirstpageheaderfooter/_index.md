@@ -3,14 +3,14 @@ title: PageSetup.DifferentFirstPageHeaderFooter
 linktitle: DifferentFirstPageHeaderFooter
 articleTitle: DifferentFirstPageHeaderFooter
 second_title: Aspose.Words pour .NET
-description: PageSetup DifferentFirstPageHeaderFooter propriété. True si un entête ou un pied de page différent est utilisé sur la première page en C#.
+description: Découvrez la propriété PageSetup DifferentFirstPageHeaderFooter pour personnaliser la première page de votre document avec des en-têtes et des pieds de page uniques pour une touche professionnelle.
 type: docs
 weight: 110
 url: /fr/net/aspose.words/pagesetup/differentfirstpageheaderfooter/
 ---
 ## PageSetup.DifferentFirstPageHeaderFooter property
 
-True si un en-tête ou un pied de page différent est utilisé sur la première page.
+Vrai si un en-tête ou un pied de page différent est utilisé sur la première page.
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -24,7 +24,7 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
+// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, les pages paires et les pages impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -52,16 +52,16 @@ Montre comment activer ou désactiver les en-têtes/pieds de page principaux.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Vous trouverez ci-dessous deux types d'en-tête/pied de page.
-// 1 - L'en-tête/pied de page "Premier", qui apparaît sur la première page de la section.
+// Vous trouverez ci-dessous deux types d'en-têtes/pieds de page.
+// 1 - L'en-tête/pied de page « Premier », qui apparaît sur la première page de la section.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Writeln("First page header.");
 
 builder.MoveToHeaderFooter(HeaderFooterType.FooterFirst);
 builder.Writeln("First page footer.");
 
-// 2 - L'en-tête/pied de page "Primaire", qui apparaît sur chaque page de la section.
- // Nous pouvons remplacer l'en-tête/pied de page principal par un premier en-tête/pied de page pair.
+// 2 - L'en-tête/pied de page « Principal », qui apparaît sur chaque page de la section.
+// Nous pouvons remplacer l'en-tête/pied de page principal par un en-tête/pied de page de première page et un en-tête/pied de page pair.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Primary header.");
 
@@ -75,10 +75,10 @@ builder.Writeln("Page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Chaque section possède un objet "PageSetup" qui spécifie les propriétés liées à l'apparence de la page
-// comme l'orientation, la taille et les bordures.
-// Définissez la propriété "DifferentFirstPageHeaderFooter" sur "true" pour appliquer le premier en-tête/pied de page à la première page.
-// Définit la propriété "DifferentFirstPageHeaderFooter" sur "false"
+// Chaque section possède un objet « PageSetup » qui spécifie les propriétés liées à l'apparence de la page
+// tels que l'orientation, la taille et les bordures.
+// Définissez la propriété « DifferentFirstPageHeaderFooter » sur « true » pour appliquer le premier en-tête/pied de page à la première page.
+// Définissez la propriété « DifferentFirstPageHeaderFooter » sur « false »
 // pour que la première page affiche l'en-tête/pied de page principal.
 builder.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
 
@@ -89,50 +89,43 @@ Montre comment suivre l’ordre dans lequel une opération de remplacement de te
 
 ```csharp
 public void Order(bool differentFirstPageHeaderFooter)
-        {
-            Document doc = new Document(MyDir + "Header and footer types.docx");
+{
+    Document doc = new Document(MyDir + "Header and footer types.docx");
 
-            Section firstPageSection = doc.FirstSection;
+    Section firstPageSection = doc.FirstSection;
 
-            ReplaceLog logger = new ReplaceLog();
-            FindReplaceOptions options = new FindReplaceOptions { ReplacingCallback = logger };
+    ReplaceLog logger = new ReplaceLog();
+    FindReplaceOptions options = new FindReplaceOptions(logger);
 
-            // L'utilisation d'un en-tête/pied de page différent pour la première page affectera l'ordre de recherche.
-            firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
-            doc.Range.Replace(new Regex("(header|footer)"), "", options);
+    // L'utilisation d'un en-tête/pied de page différent pour la première page affectera l'ordre de recherche.
+    firstPageSection.PageSetup.DifferentFirstPageHeaderFooter = differentFirstPageHeaderFooter;
+    doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
-#if NET48 || NET5_0_OR_GREATER || JAVA
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-                    logger.Text.Replace("\r", ""));
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-                    logger.Text.Replace("\r", ""));
-#elif __MOBILE__
-            if (differentFirstPageHeaderFooter)
-                Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", logger.Text);
-            else
-                Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", logger.Text);
-#endif
-        }
+    if (differentFirstPageHeaderFooter)
+        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
+            logger.Text.Replace("\r", ""));
+    else
+        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
+            logger.Text.Replace("\r", ""));
+}
 
-        /// <summary>
-        /// Lors d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération « trouve »,
-        /// dans l'état dans lequel il se trouve avant le remplacement.
-        /// Ceci affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
-        /// </summary>
-        private class ReplaceLog : IReplacingCallback
-        {
-            public ReplaceAction Replacing(ReplacingArgs args)
-            {
-                mTextBuilder.AppendLine(args.MatchNode.GetText());
-                return ReplaceAction.Skip;
-            }
+/// <summary>
+/// Lors d'une opération de recherche et de remplacement, enregistre le contenu de chaque nœud contenant du texte que l'opération « trouve »,
+/// dans l'état dans lequel il se trouve avant que le remplacement n'ait lieu.
+/// Cela affichera l'ordre dans lequel l'opération de remplacement de texte traverse les nœuds.
+/// </summary>
+private class ReplaceLog : IReplacingCallback
+{
+    public ReplaceAction Replacing(ReplacingArgs args)
+    {
+        mTextBuilder.AppendLine(args.MatchNode.GetText());
+        return ReplaceAction.Skip;
+    }
 
-            internal string Text => mTextBuilder.ToString();
+    internal string Text => mTextBuilder.ToString();
 
-            private readonly StringBuilder mTextBuilder = new StringBuilder();
-        }
+    private readonly StringBuilder mTextBuilder = new StringBuilder();
+}
 ```
 
 ### Voir également

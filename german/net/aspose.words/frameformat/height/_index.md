@@ -3,14 +3,14 @@ title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words für .NET
-description: FrameFormat Height eigendom. Ruft die Höhe des angegebenen Frames ab in C#.
+description: Entdecken Sie die FrameFormat Height-Eigenschaft, um einfach auf die Höhe Ihres angegebenen Rahmens zuzugreifen und diese für mehr Designflexibilität zu nutzen.
 type: docs
 weight: 10
 url: /de/net/aspose.words/frameformat/height/
 ---
 ## FrameFormat.Height property
 
-Ruft die Höhe des angegebenen Frames ab.
+Ruft die Höhe des angegebenen Rahmens ab.
 
 ```csharp
 public double Height { get; }

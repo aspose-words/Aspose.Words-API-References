@@ -3,7 +3,7 @@ title: MailMerge.PreserveUnusedTags
 linktitle: PreserveUnusedTags
 articleTitle: PreserveUnusedTags
 second_title: Aspose.Words para .NET
-description: MailMerge PreserveUnusedTags propiedad. Obtiene o establece un valor que indica si se deben conservar las etiquetas bigote no utilizadas en C#.
+description: Descubra la propiedad PreserveUnusedTags de MailMerge para administrar de manera efectiva las etiquetas mustache no utilizadas y mejorar su proceso de automatización de documentos.
 type: docs
 weight: 80
 url: /es/net/aspose.words.mailmerging/mailmerge/preserveunusedtags/
@@ -22,7 +22,7 @@ El valor predeterminado es`FALSO` .
 
 ## Ejemplos
 
-Muestra cómo conservar la apariencia de etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
+Muestra cómo conservar la apariencia de las etiquetas de combinación de correspondencia alternativas que no se utilizan durante una combinación de correspondencia.
 
 ```csharp
 public void PreserveUnusedTags(bool preserveUnusedTags)
@@ -30,19 +30,19 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
     Document doc = CreateSourceDocWithAlternativeMergeFields();
     DataTable dataTable = CreateSourceTablePreserveUnusedTags();
 
-     // De forma predeterminada, una combinación de correspondencia coloca datos de cada fila de una tabla en MERGEFIELD, que nombra las columnas de esa tabla.
-    // Nuestro documento no tiene tales campos, pero tiene etiquetas de texto sin formato encerradas entre llaves.
-    // Si configuramos el indicador "PreserveUnusedTags" en "true", podríamos tratar estas etiquetas como MERGEFIELD
+     // De manera predeterminada, una combinación de correspondencia coloca datos de cada fila de una tabla en MERGEFIELDs, que nombran las columnas de esa tabla.
+    // Nuestro documento no tiene tales campos, pero sí tiene etiquetas de texto simple encerradas entre llaves.
+    // Si establecemos el indicador "PreserveUnusedTags" en "verdadero", podríamos tratar estas etiquetas como MERGEFIELDs
     // para permitir que nuestra combinación de correspondencia inserte datos de la fuente de datos en esas etiquetas.
-    // Si configuramos el indicador "PreserveUnusedTags" en "falso",
-    // la combinación de correspondencia convertirá estas etiquetas en MERGEFIELD y las dejará sin completar.
+    // Si establecemos el indicador "PreserveUnusedTags" en "falso",
+    // la combinación de correspondencia convertirá estas etiquetas en MERGEFIELDs y las dejará sin completar.
     doc.MailMerge.PreserveUnusedTags = preserveUnusedTags;
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.PreserveUnusedTags.docx");
 
-    // Nuestro documento tiene una etiqueta para una columna denominada "Columna2", que no existe en la tabla.
-    // Si configuramos el indicador "PreserveUnusedTags" en "falso", then the mail merge will convert this tag into a MERGEFIELD.
+    //Nuestro documento tiene una etiqueta para una columna llamada "Columna2", que no existe en la tabla.
+    // Si establecemos el indicador "PreserveUnusedTags" en "falso", then the mail merge will convert this tag into a MERGEFIELD.
     Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
 
     if (preserveUnusedTags)
@@ -62,7 +62,7 @@ private static Document CreateSourceDocWithAlternativeMergeFields()
     builder.Writeln("{{ Column1 }}");
     builder.Writeln("{{ Column2 }}");
 
-    // Nuestras etiquetas se registrarán como destinos para los datos de combinación de correspondencia solo si lo configuramos en verdadero.
+    // Nuestras etiquetas se registrarán como destinos para datos de combinación de correspondencia solo si establecemos esto como verdadero.
     doc.MailMerge.UseNonMergeFields = true;
 
     return doc;

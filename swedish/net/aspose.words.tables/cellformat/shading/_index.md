@@ -3,14 +3,14 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words för .NET
-description: CellFormat Shading fast egendom. Returnerar enShading objekt som hänvisar till skuggformateringen för cellen i C#.
+description: Upptäck egenskapen CellFormat Shading för att förbättra ditt kalkylblads visuella attraktionskraft med anpassningsbara skuggningsalternativ för celler.
 type: docs
-weight: 90
+weight: 100
 url: /sv/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Returnerar en[`Shading`](../../../aspose.words/shading/) objekt som hänvisar till skuggformateringen för cellen.
+Returnerar en[`Shading`](../../../aspose.words/shading/) objekt som refererar till skuggningsformateringen för cellen.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Exempel
 
-Visar hur du ändrar formatet för rader och celler i en tabell.
+Visar hur man ändrar formatet för rader och celler i en tabell.
 
 ```csharp
 Document doc = new Document();
@@ -37,12 +37,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Använd den första radens "RowFormat"-egenskap för att ändra formateringen
-// av innehållet i alla celler i den här raden.
+// av innehållet i alla celler på den här raden.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Använd egenskapen "CellFormat" för den första cellen i den sista raden för att ändra formateringen av cellens innehåll.
+// Använd egenskapen "CellFormat" för den första cellen på den sista raden för att ändra formateringen av cellens innehåll.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -50,7 +50,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -82,9 +82,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -95,7 +95,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

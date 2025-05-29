@@ -2,10 +2,10 @@
 title: RevisionCollection.AcceptAll
 linktitle: AcceptAll
 articleTitle: AcceptAll
-second_title: 用于 .NET 的 Aspose.Words
-description: RevisionCollection AcceptAll 方法. 接受此集合中的所有修订 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 RevisionCollection AcceptAll 方法以无缝集成所有修订，从而提高您的工作流程效率和协作。
 type: docs
-weight: 40
+weight: 50
 url: /zh/net/aspose.words/revisioncollection/acceptall/
 ---
 ## RevisionCollection.AcceptAll method
@@ -18,7 +18,7 @@ public void AcceptAll()
 
 ## 例子
 
-展示如何比较文档。
+显示如何比较文档。
 
 ```csharp
 Document docOriginal = new Document();
@@ -29,11 +29,11 @@ Document docEdited = new Document();
 builder = new DocumentBuilder(docEdited);
 builder.Writeln("This is the edited document.");
 
-// 将文档与修订版本进行比较将引发异常。
+// 将文档与修订版本进行比较将会引发异常。
 if (docOriginal.Revisions.Count == 0 && docEdited.Revisions.Count == 0)
     docOriginal.Compare(docEdited, "authorName", DateTime.Now);
 
-// 对比后，原文档将获得新的修订版
+// 比较后，原始文档将获得新的修订版本
 // 对于编辑文档中每个不同的元素。
 foreach (Revision r in docOriginal.Revisions)
 {
@@ -41,7 +41,7 @@ foreach (Revision r in docOriginal.Revisions)
     Console.WriteLine($"\tChanged text: \"{r.ParentNode.GetText()}\"");
 }
 
-// 接受这些修订会将原始文档转换为编辑后的文档。
+// 接受这些修订将把原始文档转换为编辑后的文档。
 docOriginal.Revisions.AcceptAll();
 
 Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());

@@ -3,24 +3,28 @@ title: StructuredDocumentTagRangeStart.PlaceholderName
 linktitle: PlaceholderName
 articleTitle: PlaceholderName
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart PlaceholderName ملكية. الحصول على أو تعيين اسمBuildingBlock تحتوي على نص نائب في C#.
+description: اكتشف كيفية إدارة خاصية PlaceholderName لـ StructuredDocumentTagRangeStart، مما يعزز كفاءة كتلة البناء الخاصة بمستندك.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/placeholdername/
 ---
 ## StructuredDocumentTagRangeStart.PlaceholderName property
 
-الحصول على أو تعيين اسم[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) تحتوي على نص نائب.
-
-[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) يجب أن يكون موجودا في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/) خلاف ذلكInvalidOperationException سوف يحدث.
+يحصل على اسم أو تعيينه[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) يحتوي على نص نائب.
 
 ```csharp
 public string PlaceholderName { get; set; }
 ```
 
+### استثناءات
+
+| استثناء | حالة |
+| --- | --- |
+| InvalidOperationException | قم برمي إذا كان BuildingBlock بهذا الاسم[`Name`](../../../aspose.words.buildingblocks/buildingblock/name/) غير موجود في[`GlossaryDocument`](../../../aspose.words/document/glossarydocument/). |
+
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

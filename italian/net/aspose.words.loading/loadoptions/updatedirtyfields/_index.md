@@ -3,7 +3,7 @@ title: LoadOptions.UpdateDirtyFields
 linktitle: UpdateDirtyFields
 articleTitle: UpdateDirtyFields
 second_title: Aspose.Words per .NET
-description: LoadOptions UpdateDirtyFields proprietà. Specifica se aggiornare i campi con ilsporco attributo in C#.
+description: Scopri come la proprietà UpdateDirtyFields di LoadOptions migliora l'integrità dei dati aggiornando selettivamente i campi contrassegnati come "dark" per prestazioni ottimali.
 type: docs
 weight: 160
 url: /it/net/aspose.words.loading/loadoptions/updatedirtyfields/
@@ -18,20 +18,20 @@ public bool UpdateDirtyFields { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare la proprietà speciale per aggiornare il risultato del campo.
+Mostra come utilizzare una proprietà speciale per aggiornare il risultato del campo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Assegna il valore della proprietà "Autore" incorporata al documento, quindi visualizzalo con un campo.
+// Assegna il valore alla proprietà "Autore" incorporata nel documento, quindi visualizzala con un campo.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
 Assert.False(field.IsDirty);
 Assert.AreEqual("John Doe", field.Result);
 
-// Aggiorna la proprietà. Il campo visualizza ancora il vecchio valore.
+// Aggiorna la proprietà. Il campo mostra ancora il vecchio valore.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
 Assert.AreEqual("John Doe", field.Result);
@@ -56,7 +56,7 @@ using (MemoryStream docStream = new MemoryStream())
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
-    // L'aggiornamento di campi sporchi come questo imposta automaticamente il loro flag "IsDirty" su false.
+    // L'aggiornamento dei campi dirty in questo modo imposta automaticamente il loro flag "IsDirty" su false.
     if (updateDirtyFields)
     {
         Assert.AreEqual("John & Jane Doe", field.Result);

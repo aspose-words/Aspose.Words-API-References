@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words per .NET
-description: HyphenationOptions HyphenateCaps proprietà. Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà èVERO  in C#.
+description: Scopri la proprietà HyphenateCaps in HyphenationOptions. Controlla facilmente la sillabazione per le parole in maiuscolo: l'impostazione predefinita è "true". Ottimizza il tuo testo oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-Ottiene o imposta un valore che determina se le parole scritte in maiuscolo sono sillabate. Il valore predefinito per questa proprietà è`VERO` .
+Ottiene o imposta il valore che determina se le parole scritte in maiuscolo sono separate da un trattino. Il valore predefinito per questa proprietà è`VERO` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }

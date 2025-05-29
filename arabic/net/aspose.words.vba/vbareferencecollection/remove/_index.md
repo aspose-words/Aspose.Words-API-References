@@ -3,14 +3,14 @@ title: VbaReferenceCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: VbaReferenceCollection Remove طريقة. إزالة التواجد الأول لعنصر محددVbaReference عنصر من المجموعة في C#.
+description: احذف أول عنصر VbaReference من مجموعتك بسهولة باستخدام طريقة الإزالة. بسّط مشاريع VBA لديك لتحقيق أداء مثالي!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.vba/vbareferencecollection/remove/
 ---
 ## VbaReferenceCollection.Remove method
 
-إزالة التواجد الأول لعنصر محدد[`VbaReference`](../../vbareference/) عنصر من المجموعة.
+يزيل أول ظهور لعنصر محدد[`VbaReference`](../../vbareference/) عنصر من المجموعة.
 
 ```csharp
 public void Remove(VbaReference item)
@@ -18,7 +18,7 @@ public void Remove(VbaReference item)
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

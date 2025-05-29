@@ -2,17 +2,17 @@
 title: DocumentProperty Class
 linktitle: DocumentProperty
 articleTitle: DocumentProperty
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Properties.DocumentProperty sınıf. Özel veya yerleşik bir belge özelliğini temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Özel ve yerleşik belge özelliklerini verimli bir şekilde yönetmek için Aspose.Words.Properties.DocumentProperty sınıfını keşfedin. Belge işlemenizi bugün geliştirin!
 type: docs
-weight: 4470
+weight: 5200
 url: /tr/net/aspose.words.properties/documentproperty/
 ---
 ## DocumentProperty class
 
 Özel veya yerleşik bir belge özelliğini temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belge Özellikleriyle Çalışma](https://docs.aspose.com/words/net/work-with-document-properties/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Belge Özellikleriyle Çalışma](https://docs.aspose.com/words/net/work-with-document-properties/) belgeleme makalesi.
 
 ```csharp
 public class DocumentProperty
@@ -32,12 +32,12 @@ public class DocumentProperty
 
 | İsim | Tanım |
 | --- | --- |
-| [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Özellik değerini bool. olarak döndürür |
+| [ToBool](../../aspose.words.properties/documentproperty/tobool/)() | Özellik değerini bool olarak döndürür. |
 | [ToByteArray](../../aspose.words.properties/documentproperty/tobytearray/)() | Özellik değerini bayt dizisi olarak döndürür. |
-| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Özellik değerini şu şekilde döndürür:**TarihSaat** UTC. 'de |
+| [ToDateTime](../../aspose.words.properties/documentproperty/todatetime/)() | Özellik değerini şu şekilde döndürür:**TarihSaat** UTC'de. |
 | [ToDouble](../../aspose.words.properties/documentproperty/todouble/)() | Özellik değerini double olarak döndürür. |
-| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Özellik değerini tamsayı olarak döndürür. |
-| override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür. |
+| [ToInt](../../aspose.words.properties/documentproperty/toint/)() | Özellik değerini tam sayı olarak döndürür. |
+| override [ToString](../../aspose.words.properties/documentproperty/tostring/)() | Özellik değerini geçerli yerel ayarlara göre biçimlendirilmiş bir dize olarak döndürür. |
 
 ## Örnekler
 
@@ -46,10 +46,10 @@ Yerleşik belge özellikleriyle nasıl çalışılacağını gösterir.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// "Belge" nesnesi, meta verilerinin bir kısmını üyelerinde içerir.
+// "Belge" nesnesi üyelerinde bazı meta verilerini barındırır.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Belge aynı zamanda meta verileri yerleşik özelliklerinde de saklar.
+// Belge aynı zamanda yerleşik özelliklerinde meta verileri de depolar.
 // Her yerleşik özellik, belgenin "BuiltInDocumentProperties" nesnesinin bir üyesidir.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
@@ -57,7 +57,7 @@ foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
     Console.WriteLine(docProperty.Name);
     Console.WriteLine($"\tType:\t{docProperty.Type}");
 
-    // Bazı özellikler birden fazla değer saklayabilir.
+    // Bazı özellikler birden fazla değeri depolayabilir.
     if (docProperty.Value is ICollection<object>)
     {
         foreach (object value in docProperty.Value as ICollection<object>)

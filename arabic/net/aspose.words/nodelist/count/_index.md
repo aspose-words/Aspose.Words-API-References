@@ -3,14 +3,14 @@ title: NodeList.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: NodeList Count ملكية. الحصول على عدد العقد في القائمة في C#.
+description: اكتشف خاصية NodeList Count لاسترداد العدد الإجمالي للعقد في قائمتك بسهولة، مما يعزز كفاءة تطوير الويب لديك.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/nodelist/count/
 ---
 ## NodeList.Count property
 
-الحصول على عدد العقد في القائمة.
+يحصل على عدد العقد في القائمة.
 
 ```csharp
 public int Count { get; }
@@ -34,14 +34,9 @@ builder.InsertCell();
 builder.Write("Cell 2");
 builder.EndTable();
 
-#if NET48 || JAVA
-builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-#elif NET5_0_OR_GREATER || __MOBILE__
-using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(image);
-#endif
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-// تحتوي وثيقتنا على ثلاث عقد تشغيل.
+// تحتوي مستندنا على ثلاث عقد تشغيل.
 NodeList nodeList = doc.SelectNodes("//يجري");
 
 Assert.AreEqual(3, nodeList.Count);
@@ -49,20 +44,20 @@ Assert.True(nodeList.Any(n => n.GetText().Trim() == "Hello world!"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// استخدم شرطة مائلة مزدوجة لتحديد جميع عقد التشغيل
-// التي هي أحفاد غير مباشرة لعقدة الجدول، والتي ستكون بمثابة عمليات التشغيل داخل الخليتين اللتين أدخلناهما.
+// استخدم شرطة مائلة مزدوجة للأمام لتحديد جميع عقد التشغيل
+// التي هي أحفاد غير مباشرين لعقدة الجدول، والتي ستكون عبارة عن عمليات تشغيل داخل الخليتين اللتين أدخلناهما.
 nodeList = doc.SelectNodes("//Table//يجري");
 
 Assert.AreEqual(2, nodeList.Count);
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 1"));
 Assert.True(nodeList.Any(n => n.GetText().Trim() == "Cell 2"));
 
-// تحدد الخطوط المائلة الأمامية المفردة العلاقات السليلة المباشرة،
-// والتي قمنا بتخطيها عندما استخدمنا الشرطة المائلة المزدوجة.
-Assert.AreEqual(doc.SelectNodes(" //الجدول//تشغيل")،
-    doc.SelectNodes("//جدول/صف/خلية/فقرة/تشغيل"));
+// تشير الخطوط المائلة للأمام الفردية إلى علاقات النسل المباشرة،
+// والتي تخطيناها عندما استخدمنا الشرطات المزدوجة.
+Assert.AreEqual(doc.SelectNodes(" //الجدول//تشغيل"),
+    doc.SelectNodes("//الجدول/الصف/الخلية/الفقرة/التشغيل"));
 
-// الوصول إلى الشكل الذي يحتوي على الصورة التي قمنا بإدراجها.
+//الوصول إلى الشكل الذي يحتوي على الصورة التي أدخلناها.
 nodeList = doc.SelectNodes("//شكل");
 
 Assert.AreEqual(1, nodeList.Count);

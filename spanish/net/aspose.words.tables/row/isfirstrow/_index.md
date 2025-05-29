@@ -3,7 +3,7 @@ title: Row.IsFirstRow
 linktitle: IsFirstRow
 articleTitle: IsFirstRow
 second_title: Aspose.Words para .NET
-description: Row IsFirstRow propiedad. Verdadero si esta es la primera fila de una tabla falso en caso contrario en C#.
+description: Descubra la propiedad Row IsFirstRow: identifique fácilmente la primera fila de una tabla. ¡Mejore la organización de sus datos con esta función esencial!
 type: docs
 weight: 40
 url: /es/net/aspose.words.tables/row/isfirstrow/
@@ -26,16 +26,16 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Cuando conseguimos que un nodo compuesto acepte un visitante del documento, el visitante visita el nodo receptor,
-    // y luego atraviesa todos los hijos del nodo en profundidad.
-    // El visitante puede leer y modificar cada nodo visitado.
+    // Cuando conseguimos que un nodo compuesto acepte un visitante de documento, el visitante visita el nodo que lo acepta,
+    // y luego recorre todos los nodos secundarios en profundidad.
+    //El visitante puede leer y modificar cada nodo visitado.
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// Atraviesa el árbol no binario de nodos secundarios de un nodo.
+/// Recorre el árbol no binario de nodos secundarios de un nodo.
 /// Crea un mapa en forma de cadena de todos los nodos de tabla encontrados y sus hijos.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
@@ -96,7 +96,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Fila en el documento.
+    /// Se llama cuando se encuentra un nodo de fila en el documento.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -156,10 +156,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante.
+    /// Agrega una línea al StringBuilder y sangra según la profundidad del visitante
     /// en el árbol de nodos secundarios de la tabla actual.
     /// </summary>
-    /// <param nombre="texto"></param>
+    /// <param name="texto"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

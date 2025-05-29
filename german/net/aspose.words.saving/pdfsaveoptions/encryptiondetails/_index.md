@@ -3,14 +3,14 @@ title: PdfSaveOptions.EncryptionDetails
 linktitle: EncryptionDetails
 articleTitle: EncryptionDetails
 second_title: Aspose.Words für .NET
-description: PdfSaveOptions EncryptionDetails eigendom. Ruft die Details zum Verschlüsseln des ausgegebenen PDFDokuments ab oder legt diese fest in C#.
+description: Entdecken Sie die EncryptionDetails-Eigenschaft von PdfSaveOptions, um PDF-Verschlüsselungseinstellungen einfach zu konfigurieren und sicherzustellen, dass Ihre Dokumente sicher und geschützt bleiben.
 type: docs
 weight: 130
 url: /de/net/aspose.words.saving/pdfsaveoptions/encryptiondetails/
 ---
 ## PdfSaveOptions.EncryptionDetails property
 
-Ruft die Details zum Verschlüsseln des ausgegebenen PDF-Dokuments ab oder legt diese fest.
+Ruft die Details zum Verschlüsseln des PDF-Ausgabedokuments ab oder legt sie fest.
 
 ```csharp
 public PdfEncryptionDetails EncryptionDetails { get; set; }
@@ -18,15 +18,15 @@ public PdfEncryptionDetails EncryptionDetails { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert ist`Null` und das Ausgabedokument wird nicht verschlüsselt. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfEncryptionDetails`](../../pdfencryptiondetails/) object, dann wird das ausgegebene PDF-Dokument verschlüsselt.
+Der Standardwert ist`null` und das Ausgabedokument wird nicht verschlüsselt. Wenn diese Eigenschaft auf einen gültigen Wert gesetzt ist[`PdfEncryptionDetails`](../../pdfencryptiondetails/)object, , dann wird das ausgegebene PDF-Dokument verschlüsselt.
 
-Der AES-128-Verschlüsselungsalgorithmus wird beim Speichern in einer auf PDF 1.7 basierenden Kompatibilität (einschließlich PDF/UA-1) verwendet. Der AES-256-Verschlüsselungsalgorithmus wird beim Speichern in einer auf PDF 2.0 basierenden Kompatibilität verwendet.
+Beim Speichern im PDF 1.7-basierten Konformitätsmodus (einschließlich PDF/UA-1) wird der Verschlüsselungsalgorithmus AES-128 verwendet. Beim Speichern im PDF 2.0-basierten Konformitätsmodus wird der Verschlüsselungsalgorithmus AES-256 verwendet.
 
-Die Verschlüsselung ist durch die PDF/A-Konformität verboten. Diese Option wird beim Speichern in PDF/A ignoriert.
+Die Verschlüsselung ist aufgrund der PDF/A-Konformität nicht zulässig. Diese Option wird beim Speichern im PDF/A-Format ignoriert.
 
-ContentCopyForAccessibility Die Berechtigung ist gemäß PDF/UA-Compliance erforderlich, wenn das Ausgabedokument verschlüsselt ist. Diese Berechtigung wird beim Speichern in PDF/UA automatisch verwendet.
+ContentCopyForAccessibility Die Berechtigung ist gemäß PDF/UA-Konformität erforderlich, wenn das Ausgabedokument verschlüsselt ist. Diese Berechtigung wird beim Speichern im PDF/UA-Format automatisch verwendet.
 
-ContentCopyForAccessibility Die Berechtigung ist im PDF 2.0-Format veraltet. Diese Berechtigung wird beim Speichern in PDF 2.0 ignoriert.
+ContentCopyForAccessibility Berechtigung ist im PDF 2.0-Format veraltet. Diese Berechtigung wird beim Speichern im PDF 2.0 ignoriert.
 
 ## Beispiele
 
@@ -38,17 +38,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Hello world!");
 
-// Berechtigungen erweitern, um das Bearbeiten von Anmerkungen zu ermöglichen.
+// Erweitern Sie die Berechtigungen, um das Bearbeiten von Anmerkungen zu ermöglichen.
 PdfEncryptionDetails encryptionDetails =
     new PdfEncryptionDetails("password", string.Empty, PdfPermissions.ModifyAnnotations | PdfPermissions.DocumentAssembly);
 
-// Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
-// Verschlüsselung über die Eigenschaft „EncryptionDetails“ aktivieren.
+// Aktivieren Sie die Verschlüsselung über die Eigenschaft „EncryptionDetails“.
 saveOptions.EncryptionDetails = encryptionDetails;
 
-// Wenn wir dieses Dokument öffnen, müssen wir das Passwort angeben, bevor wir auf den Inhalt zugreifen können.
+// Wenn wir dieses Dokument öffnen, müssen wir das Passwort eingeben, bevor wir auf seinen Inhalt zugreifen können.
 doc.Save(ArtifactsDir + "PdfSaveOptions.EncryptionPermissions.pdf", saveOptions);
 ```
 

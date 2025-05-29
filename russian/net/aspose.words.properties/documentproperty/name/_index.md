@@ -3,7 +3,7 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words для .NET
-description: DocumentProperty Name свойство. Возвращает имя свойства на С#.
+description: Откройте для себя функцию DocumentProperty Name, которая легко извлекает имена свойств, улучшая управление документами и эффективность рабочего процесса.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.properties/documentproperty/name/
@@ -27,10 +27,10 @@ public string Name { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Объект «Документ» содержит в своих членах некоторые метаданные.
+// Объект «Документ» содержит некоторые метаданные в своих членах.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
-// Документ также хранит метаданные в своих встроенных свойствах.
+// Документ также хранит метаданные во встроенных свойствах.
 // Каждое встроенное свойство является членом объекта «BuiltInDocumentProperties» документа.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)

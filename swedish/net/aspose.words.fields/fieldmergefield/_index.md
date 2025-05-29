@@ -3,16 +3,16 @@ title: FieldMergeField Class
 linktitle: FieldMergeField
 articleTitle: FieldMergeField
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldMergeField klass. Implementerar MERGEFIELDfältet i C#.
+description: Upptäck klassen Aspose.Words.Fields.FieldMergeField för sömlös dokumentautomation. Förbättra dina arbetsflöden med kraftfull MERGEFIELD-funktionalitet.
 type: docs
-weight: 2150
+weight: 2560
 url: /sv/net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
 
 Implementerar MERGEFIELD-fältet.
 
-För att lära dig mer, besök[Arbeta med Fields](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med fält](https://docs.aspose.com/words/net/working-with-fields/) dokumentationsartikel.
 
 ```csharp
 public class FieldMergeField : Field
@@ -23,16 +23,16 @@ public class FieldMergeField : Field
 | namn | Beskrivning |
 | --- | --- |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Hämtar texten som representerar det visade fältresultatet. |
-| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältänden. |
-| [FieldName](../../aspose.words.fields/fieldmergefield/fieldname/) { get; set; } | Hämtar eller ställer in namnet på ett datafält. |
-| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix/) { get; } | Returnerar bara namnet på datafältet. Alla prefix tas bort till prefixegenskapen. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/) objekt som ger maskinskriven åtkomst till fältets formatering. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller ställer in om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller ställer in om fältet är låst (ska inte räkna om resultatet). |
-| [IsMapped](../../aspose.words.fields/fieldmergefield/ismapped/) { get; set; } | Hämtar eller ställer in om detta fält är ett mappat fält. |
-| [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting/) { get; set; } | Hämtar eller ställer in om teckenkonvertering ska aktiveras för vertikal formatering. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in LCID för fältet. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller ställer in text som är mellan fältavgränsaren och fältslutet. |
+| [End](../../aspose.words.fields/field/end/) { get; } | Hämtar noden som representerar fältets slut. |
+| [FieldName](../../aspose.words.fields/fieldmergefield/fieldname/) { get; set; } | Hämtar eller anger namnet på ett datafält. |
+| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix/) { get; } | Returnerar endast namnet på datafältet. Alla prefix tas bort från prefix-egenskapen. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Får en[`FieldFormat`](../fieldformat/)objekt som ger typad åtkomst till fältets formatering. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Hämtar eller anger om det aktuella resultatet av fältet inte längre är korrekt (inaktuellt) på grund av andra ändringar som gjorts i dokumentet. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Hämtar eller anger om fältet är låst (resultatet ska inte beräknas om). |
+| [IsMapped](../../aspose.words.fields/fieldmergefield/ismapped/) { get; set; } | Hämtar eller anger om detta fält är ett mappat fält. |
+| [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting/) { get; set; } | Hämtar eller anger om teckenkonvertering ska aktiveras för vertikal formatering. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Hämtar eller ställer in fältets LCID. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | Hämtar eller anger text som är mellan fältavgränsaren och fältslutet. |
 | [Separator](../../aspose.words.fields/field/separator/) { get; } | Hämtar noden som representerar fältseparatorn. Kan vara`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Hämtar noden som representerar början av fältet. |
 | [TextAfter](../../aspose.words.fields/fieldmergefield/textafter/) { get; set; } | Hämtar eller ställer in texten som ska infogas efter fältet om fältet inte är tomt. |
@@ -43,26 +43,26 @@ public class FieldMergeField : Field
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underordnade fält ingår. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). Både fältkod och fältresultat för underfält inkluderas. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Returnerar text mellan fältstart och fältavgränsare (eller fältslut om det inte finns någon avgränsare). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` . |
-| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavlänkningen. |
-| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Kastar om fältet redan uppdateras. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Kastar om fältet redan uppdateras. |
+| [Remove](../../aspose.words.fields/field/remove/)() | Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista undernoden till dess överordnade nod, returneras dess överordnade stycke. Om fältet redan är borttaget returneras`null` . |
+| [Unlink](../../aspose.words.fields/field/unlink/)() | Utför fältavkopplingen. |
+| [Update](../../aspose.words.fields/field/update/)() | Utför fältuppdateringen. Körs om fältet redan uppdateras. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Utför en fältuppdatering. Körs om fältet redan uppdateras. |
 
 ## Anmärkningar
 
-Hämtar namnet på ett datafält inom kopplingstecknen i ett huvuddokument för sammankoppling. När huvuddokumentet slås samman med den valda datakällan infogas information från det specificerade datafältet i stället för sammanslagningsfältet.
+Hämtar namnet på ett datafält inom kopplingstecknen i ett huvuddokument för dokumentkoppling. När huvuddokumentet slås samman med den valda datakällan infogas information från det angivna datafältet istället för kopplingsfältet.
 
 ## Exempel
 
-Visar hur man använder MERGEFIELD-fält för att utföra en e-postkoppling.
+Visar hur man använder MERGEFIELD-fält för att utföra en dokumentkoppling.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Skapa en datatabell som ska användas som en kopplingsdatakälla.
+// Skapa en datatabell som ska användas som datakälla för dokumentkoppling.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -76,13 +76,14 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Vi kan använda text före och efter värdet som detta fält accepterar när sammanslagningen sker.
+// Vi kan lägga till text före och efter värdet som detta fält accepterar när sammanslagningen sker.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Infoga ytterligare ett MERGEFIELD för en annan kolumn i datakällan.
+// Infoga ett annat MERGEFIELD-värde för en annan kolumn i datakällan.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

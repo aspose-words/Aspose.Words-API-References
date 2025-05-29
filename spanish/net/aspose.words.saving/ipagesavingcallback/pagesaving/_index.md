@@ -3,7 +3,7 @@ title: IPageSavingCallback.PageSaving
 linktitle: PageSaving
 articleTitle: PageSaving
 second_title: Aspose.Words para .NET
-description: IPageSavingCallback PageSaving método. Se llama cuando Aspose.Words guarda una página separada en formatos de página fijos en C#.
+description: Descubra el método iPageSavingCallback en Aspose.Words, diseñado para optimizar el guardado de páginas en formatos fijos. ¡Mejore su gestión documental hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/ipagesavingcallback/pagesaving/
@@ -34,11 +34,11 @@ public void PageFileNames()
     builder.Writeln("Page 3.");
 
     // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
-    // para modificar cómo convertimos el documento a HTML.
+    // para modificar la forma en que convertimos el documento a HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Guardaremos cada página de este documento en un archivo HTML independiente en el sistema de archivos local.
-    // Establece una devolución de llamada que nos permite nombrar cada documento HTML de salida.
+    // Guardaremos cada página de este documento en un archivo HTML separado en el sistema de archivos local.
+    // Establezca una devolución de llamada que nos permita nombrar cada documento HTML de salida.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -59,10 +59,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada página del documento.
-        // 1 - Establece un nombre de archivo para el archivo de la página de salida:
+        // 1 - Establezca un nombre de archivo para el archivo de página de salida:
         args.PageFileName = outFileName;
 
-        // 2 - Crea una secuencia personalizada para el archivo de la página de salida:
+        // 2 - Crea una secuencia personalizada para el archivo de página de salida:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

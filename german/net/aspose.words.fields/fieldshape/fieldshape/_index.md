@@ -3,7 +3,7 @@ title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
 second_title: Aspose.Words für .NET
-description: FieldShape constructeur. Default_Constructor in C#.
+description: Entdecken Sie den FieldShape-Konstruktor – Ihre Lösung für effizientes Formenerstellen. Erleben Sie nahtloses Design und Funktionalität!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fields/fieldshape/fieldshape/

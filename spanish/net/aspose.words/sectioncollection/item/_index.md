@@ -3,7 +3,7 @@ title: SectionCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: SectionCollection Item propiedad. Recupera una sección en el índice dado en C#.
+description: Acceda fácilmente a secciones específicas con la propiedad Item SectionCollection. Recupere cualquier sección por índice para una gestión de datos optimizada.
 type: docs
 weight: 10
 url: /es/net/aspose.words/sectioncollection/item/
@@ -18,49 +18,49 @@ public Section this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Un índice de la lista de secciones. |
+| index | Un índice en la lista de secciones. |
 
 ## Observaciones
 
-El índice tiene base cero.
+El índice está basado en cero.
 
-Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
 Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
-Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
+Si el índice es negativo y su valor absoluto es mayor que la cantidad de elementos de la lista, esto devuelve una referencia nula.
 
 ## Ejemplos
 
-Muestra cuándo volver a calcular el diseño de página del documento.
+Muestra cuándo recalcular el diseño de página del documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Guardar un documento en PDF, en una imagen o imprimirlo por primera vez se realizará automáticamente
+// Guardar un documento como PDF, como imagen o imprimirlo por primera vez se realizará automáticamente
 // almacena en caché el diseño del documento dentro de sus páginas.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
-// Modificar el documento de alguna manera.
+//Modificar el documento de alguna manera.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // En la versión actual de Aspose.Words, la modificación del documento no se reconstruye automáticamente
-// el diseño de la página en caché. Si deseamos el diseño en caché
-// para mantenernos actualizados, necesitaremos actualizarlo manualmente.
+// En la versión actual de Aspose.Words, modificar el documento no lo reconstruye automáticamente
+// El diseño de la página en caché. Si deseamos el diseño en caché
+// Para mantenernos actualizados, necesitaremos actualizarlo manualmente.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");
 ```
 
-Muestra cómo preparar un nuevo nodo de sección para editarlo.
+Muestra cómo preparar un nuevo nodo de sección para su edición.
 
 ```csharp
 Document doc = new Document();
 
-// Un documento en blanco viene con una sección, la cual tiene un cuerpo, que a su vez tiene un párrafo.
-// Podemos agregar contenido a este documento agregando elementos como textos, formas o tablas a ese párrafo.
+// Un documento en blanco viene con una sección, que tiene un cuerpo, que a su vez tiene un párrafo.
+//Podemos agregar contenidos a este documento añadiendo elementos como líneas de texto, formas o tablas a ese párrafo.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Paragraph, doc.Sections[0].Body.GetChild(NodeType.Any, 0, true).NodeType);

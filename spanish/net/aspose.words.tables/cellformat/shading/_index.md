@@ -3,9 +3,9 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words para .NET
-description: CellFormat Shading propiedad. Devuelve unShading objeto que hace referencia al formato de sombreado de la celda en C#.
+description: Descubra la propiedad Sombreado CellFormat para mejorar el atractivo visual de su hoja de cálculo con opciones de sombreado personalizables para las celdas.
 type: docs
-weight: 90
+weight: 100
 url: /es/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
@@ -36,7 +36,7 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Usa la propiedad "RowFormat" de la primera fila para modificar el formato
+// Utilice la propiedad "RowFormat" de la primera fila para modificar el formato
 // del contenido de todas las celdas de esta fila.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
@@ -58,8 +58,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Configurar opciones de formato de tabla para un creador de documentos
-// los aplicará a cada fila y celda que agreguemos con ella.
+// Configuración de opciones de formato de tabla para un generador de documentos
+// los aplicará a cada fila y celda que agreguemos.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -82,9 +82,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Cambiar el formato lo aplicará a la celda actual,
+//Cambiar el formato se aplicará a la celda actual,
 // y cualquier celda nueva que creemos con el constructor posteriormente.
-// Esto no afectará a las celdas que hayamos añadido anteriormente.
+//Esto no afectará las celdas que hemos agregado previamente.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

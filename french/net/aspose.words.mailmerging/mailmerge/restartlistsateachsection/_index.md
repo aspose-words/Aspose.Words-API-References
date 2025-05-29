@@ -3,7 +3,7 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words pour .NET
-description: MailMerge RestartListsAtEachSection propriété. Obtient ou définit une valeur indiquant si les listes sont redémarrées à chaque section après lexécution dun publipostage en C#.
+description: Découvrez la propriété MailMerge RestartListsAtEachSection : la liste de contrôle se réinitialise dans chaque section pour des publipostages fluides. Améliorez la précision de vos documents dès aujourd'hui !
 type: docs
 weight: 110
 url: /fr/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
@@ -22,7 +22,7 @@ La valeur par défaut est`vrai` .
 
 ## Exemples
 
-Montre comment contrôler si la numérotation des listes est redémarrée ou non à chaque section lors de la fusion et du publipostage.
+Montre comment contrôler si la numérotation de la liste est redémarrée ou non à chaque section lorsque le publipostage est effectué.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

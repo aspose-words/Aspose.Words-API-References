@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTag SdtType propriété. Obtient le type de ceciBalise de document structuré  en C#.
+description: Découvrez la propriété SdtType de StructuredDocumentTag pour identifier facilement les types de balises, améliorant ainsi la gestion et l'organisation de vos documents.
 type: docs
 weight: 250
 url: /fr/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Obtient le type de ceci**Balise de document structuré** .
+Obtient le type de ceci**Balise de document structurée** .
 
 ```csharp
 public SdtType SdtType { get; }
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## Exemples
 
-Montre comment obtenir le type d’une balise de document structuré.
+Montre comment obtenir le type d'une balise de document structuré.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags.docx");

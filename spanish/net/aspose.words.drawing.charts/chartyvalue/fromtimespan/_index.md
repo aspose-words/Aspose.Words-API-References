@@ -3,7 +3,7 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words para .NET
-description: ChartYValue FromTimeSpan método. Crea unChartYValue instancia de laTime tipo en C#.
+description: Descubra el método ChartYValue FromTimeSpan para crear fácilmente instancias de tipo Tiempo para sus gráficos. ¡Mejore su visualización de datos hoy mismo!
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/

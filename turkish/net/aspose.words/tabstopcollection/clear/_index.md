@@ -2,8 +2,8 @@
 title: TabStopCollection.Clear
 linktitle: Clear
 articleTitle: Clear
-second_title: Aspose.Words for .NET
-description: TabStopCollection Clear yöntem. Tüm sekme durağı konumlarını siler C#'da.
+second_title: .NET için Aspose.Words
+description: TabStopCollection Clear yöntemi ile tüm sekme durağı konumlarını zahmetsizce temizleyin. Daha temiz, daha düzenli bir arayüz için düzeninizi kolaylaştırın.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/tabstopcollection/clear/
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 
-// 72 nokta, Microsoft Word sekme durağı cetvelinde bir "inç"tir.
+// 72 punto Microsoft Word sekme durdurma cetvelinde bir "inç"tir.
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
@@ -41,15 +41,15 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(2, paragraphs.Count);
 
-// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan kendi sekme durağı koleksiyonunu alır.
+// Her paragraf, değerlerini belge oluşturucunun sekme durağı koleksiyonundan kopyalayan bir sekme durağı koleksiyonu alır.
 Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
 
-// Bir sekme durağı koleksiyonu bizi belirli konumlardan önceki ve sonraki TabStop'lara yönlendirebilir.
+// Bir tab stop koleksiyonu bize belirli pozisyonlardan önce ve sonra bulunan TabStop'ları gösterebilir.
 Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
 Assert.AreEqual(432.0, tabStops.After(100.0).Position);
 
-// Varsayılan sekme davranışına geri dönmek için paragrafın sekme durağı koleksiyonunu temizleyebiliriz.
+// Varsayılan sekme davranışına geri dönmek için bir paragrafın sekme durdurma koleksiyonunu temizleyebiliriz.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
 Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);

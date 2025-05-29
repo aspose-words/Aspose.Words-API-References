@@ -3,14 +3,14 @@ title: IMailMergeDataSource Interface
 linktitle: IMailMergeDataSource
 articleTitle: IMailMergeDataSource
 second_title: Aspose.Words для .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSource интерфейс. Реализуйте этот интерфейс чтобы разрешить слияние почты из пользовательского источника данных например списка объектов. Также поддерживаются основные данные на С#.
+description: Откройте для себя мощные возможности слияния почты с Aspose.Words.MailMerging.IMailMergeDataSource. Легко подключайте пользовательские источники данных для бесперебойной автоматизации документов.
 type: docs
-weight: 3810
+weight: 4500
 url: /ru/net/aspose.words.mailmerging/imailmergedatasource/
 ---
 ## IMailMergeDataSource interface
 
-Реализуйте этот интерфейс, чтобы разрешить слияние почты из пользовательского источника данных, например списка объектов. Также поддерживаются основные данные.
+Реализуйте этот интерфейс, чтобы разрешить слияние почты из пользовательского источника данных, например, списка объектов. Также поддерживаются данные Master-detail.
 
 ```csharp
 public interface IMailMergeDataSource
@@ -32,11 +32,11 @@ public interface IMailMergeDataSource
 
 ## Примечания
 
-Когда источник данных создан, он должен быть инициализирован, чтобы указать на BOF (перед первой записью). Механизм слияния почты Aspose.Words вызовет[`MoveNext`](./movenext/) для перехода к следующей записи and затем вызвать[`GetValue`](./getvalue/) для каждого поля слияния, встречающегося в документе или в текущей области слияния почты.
+При создании источника данных его следует инициализировать так, чтобы он указывал на BOF (до первой записи). Механизм слияния почты Aspose.Words вызовет[`MoveNext`](./movenext/) для перехода к следующей записи and затем вызвать[`GetValue`](./getvalue/) для каждого поля слияния, встречающегося в документе или в текущей области слияния.
 
 ## Примеры
 
-Показывает, как выполнить слияние почты с источником данных в форме пользовательского объекта.
+Показывает, как выполнить слияние почты с источником данных в виде пользовательского объекта.
 
 ```csharp
 public void CustomDataSource()
@@ -53,7 +53,7 @@ public void CustomDataSource()
         new Customer("Paolo Accorti", "Via Monte Bianco 34, Torino")
     };
 
-     // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовать интерфейс IMailMergeDataSource.
+     // Чтобы использовать пользовательский объект в качестве источника данных, он должен реализовывать интерфейс IMailMergeDataSource.
     CustomerMailMergeDataSource dataSource = new CustomerMailMergeDataSource(customers);
 
     doc.MailMerge.Execute(dataSource);
@@ -62,7 +62,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Пример класса «объект данных» в вашем приложении.
+/// Пример класса «сущность данных» в вашем приложении.
 /// </summary>
 public class Customer
 {
@@ -77,8 +77,8 @@ public class Customer
 }
 
 /// <summary>
- /// Пользовательский источник данных слияния почты, который вы реализуете, чтобы разрешить Aspose.Words
-/// для отправки данных слияния из ваших объектов Customer в документы Microsoft Word.
+ /// Пользовательский источник данных для слияния почты, который вы реализуете, чтобы разрешить Aspose.Words
+/// для слияния данных из объектов Customer в документы Microsoft Word.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -86,7 +86,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Когда мы инициализируем источник данных, его позиция должна находиться перед первой записью.
+        // Когда мы инициализируем источник данных, его позиция должна быть перед первой записью.
         mRecordIndex = -1;
     }
 
@@ -112,7 +112,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Возвращаем «false» механизму слияния почты Aspose.Words, чтобы обозначить
+                // Возвращаем "false" в движок слияния почты Aspose.Words, чтобы обозначить
                 // что мы не смогли найти поле с таким именем.
                 fieldValue = null;
                 return false;

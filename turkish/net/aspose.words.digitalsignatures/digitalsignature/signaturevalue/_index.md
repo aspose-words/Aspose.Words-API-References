@@ -2,15 +2,15 @@
 title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
-second_title: Aspose.Words for .NET
-description: DigitalSignature SignatureValue mülk. Bir imza değerini temsil eden bayt dizisini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Güvenli imza gösterimi için bir bayt dizisi sağlayan DigitalSignature SignatureValue özelliğini keşfedin. Dijital güvenliğinizi bugün artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Bir imza değerini temsil eden bayt dizisini alır.
+Bir imza değerini temsil eden bir bayt dizisi alır.
 
 ```csharp
 public byte[] SignatureValue { get; }

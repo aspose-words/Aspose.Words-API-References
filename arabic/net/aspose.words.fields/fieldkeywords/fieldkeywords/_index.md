@@ -3,7 +3,7 @@ title: FieldKeywords
 linktitle: FieldKeywords
 articleTitle: FieldKeywords
 second_title: Aspose.Words لـ .NET
-description: FieldKeywords البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ الكلمات الرئيسية، الحل الأمثل لإدارة الكلمات الرئيسية وتحسينها بكفاءة. أطلق العنان لإمكانيات محتواك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldkeywords/fieldkeywords/

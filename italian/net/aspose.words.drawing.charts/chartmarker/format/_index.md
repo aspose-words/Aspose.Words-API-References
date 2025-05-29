@@ -3,14 +3,14 @@ title: ChartMarker.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words per .NET
-description: ChartMarker Format proprietà. Fornisce laccesso al riempimento e alla formattazione della linea di questo indicatore in C#.
+description: Scopri la proprietà Formato ChartMarker per accedere facilmente a stili di riempimento e linea personalizzabili, migliorando la visualizzazione dei dati con marcatori unici.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartmarker/format/
 ---
 ## ChartMarker.Format property
 
-Fornisce l'accesso al riempimento e alla formattazione della linea di questo indicatore.
+Fornisce accesso al riempimento e alla formattazione della linea di questo marcatore.
 
 ```csharp
 public ChartFormat Format { get; }
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Esempi
 
-Mostra come impostare la formattazione del marcatore.
+Mostra come impostare la formattazione dei marcatori.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// Elimina le serie generate predefinite.
+// Elimina la serie generata di default.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });

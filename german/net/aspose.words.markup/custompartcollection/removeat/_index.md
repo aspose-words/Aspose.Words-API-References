@@ -3,7 +3,7 @@ title: CustomPartCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words für .NET
-description: CustomPartCollection RemoveAt methode. Entfernt ein Element am angegebenen Index in C#.
+description: Verwalten Sie Ihre CustomPartCollection mühelos mit der RemoveAt-Methode – entfernen Sie Elemente schnell nach Index für eine optimierte Datenverarbeitung.
 type: docs
 weight: 80
 url: /de/net/aspose.words.markup/custompartcollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| index | Int32 | Der auf Null basierende Index. |
+| index | Int32 | Der nullbasierte Index. |
 
 ## Beispiele
 
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

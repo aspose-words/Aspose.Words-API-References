@@ -3,14 +3,14 @@ title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
 second_title: Aspose.Words para .NET
-description: ImageSavingArgs IsImageAvailable propiedad. Devolucionesverdadero si la imagen actual está disponible para exportar en C#.
+description: Comprueba si una imagen está lista para exportarse con la propiedad IsImageAvailable en ImageSavingArgs. ¡Garantiza una gestión de imágenes fluida y eficiente!
 type: docs
 weight: 50
 url: /es/net/aspose.words.saving/imagesavingargs/isimageavailable/
 ---
 ## ImageSavingArgs.IsImageAvailable property
 
-Devoluciones`verdadero` si la imagen actual está disponible para exportar.
+Devuelve`verdadero` Si la imagen actual está disponible para exportar.
 
 ```csharp
 public bool IsImageAvailable { get; }
@@ -18,13 +18,13 @@ public bool IsImageAvailable { get; }
 
 ## Observaciones
 
-Algunas imágenes del documento pueden no estar disponibles, por ejemplo, porque image está vinculada y el vínculo es inaccesible o no apunta a una imagen válida. En este caso Aspose.Words exporta un icono con una cruz roja. Esta propiedad devuelve `verdadero` si la imagen original está disponible; devoluciones`FALSO`si la imagen original no está disponible y se ofrecerá un icono de "sin imagen" para guardar.
+Algunas imágenes del documento pueden no estar disponibles, por ejemplo, porque la imagen está vinculada y el enlace es inaccesible o no apunta a una imagen válida. En este caso, Aspose.Words exporta un icono con una cruz roja. Esta propiedad devuelve `verdadero` Si la imagen original está disponible; devuelve`FALSO`si la imagen original no está disponible, se ofrecerá un ícono de "sin imagen" para guardar.
 
-Al guardar una forma de grupo o una forma que no requiere ninguna imagen, esta propiedad siempre está`verdadero`.
+Al guardar una forma de grupo o una forma que no requiere ninguna imagen, esta propiedad siempre está activa.`verdadero`.
 
 ## Ejemplos
 
-Muestra cómo involucrar una devolución de llamada para guardar imágenes en un proceso de conversión HTML.
+Muestra cómo involucrar una devolución de llamada de guardado de imágenes en un proceso de conversión HTML.
 
 ```csharp
 public void ImageSavingCallback()

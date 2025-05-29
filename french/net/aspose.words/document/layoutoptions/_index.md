@@ -3,9 +3,9 @@ title: Document.LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words pour .NET
-description: Document LayoutOptions propriété. Obtient unLayoutOptions objet qui représente les options permettant de contrôler le processus de mise en page de ce document en C#.
+description: Explorez la propriété « Document LayoutOptions » pour contrôler efficacement la mise en page de votre document. Profitez d'options de conception flexibles pour une présentation optimale.
 type: docs
-weight: 250
+weight: 260
 url: /fr/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
@@ -18,12 +18,12 @@ public LayoutOptions LayoutOptions { get; }
 
 ## Exemples
 
-Montre comment masquer le texte dans un document de sortie rendu.
+Montre comment masquer du texte dans un document de sortie rendu.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Insère du texte masqué, puis précise si nous souhaitons l'omettre d'un document rendu.
+// Insérer du texte masqué, puis spécifier si nous souhaitons l'omettre d'un document rendu.
 builder.Writeln("This text is not hidden.");
 builder.Font.Hidden = true;
 builder.Writeln("This text is hidden.");
@@ -38,8 +38,8 @@ Montre comment afficher les marques de paragraphe dans un document de sortie ren
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Ajoutez quelques paragraphes, puis activez les marques de paragraphe pour afficher la fin des paragraphes
-// avec un symbole pillcrow (¶) lorsque nous rendons le document.
+// Ajoutez quelques paragraphes, puis activez les marques de paragraphe pour afficher les fins de paragraphes
+// avec un symbole pilcrow (¶) lorsque nous rendons le document.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -54,18 +54,19 @@ Montre comment modifier l’apparence des révisions dans un document de sortie 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une révision, puis change la couleur de toutes les révisions en vert.
+// Insérez une révision, puis changez la couleur de toutes les révisions en vert.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Supprime la barre qui apparaît à gauche de chaque ligne révisée.
+// Supprimez la barre qui apparaît à gauche de chaque ligne révisée.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Voir également

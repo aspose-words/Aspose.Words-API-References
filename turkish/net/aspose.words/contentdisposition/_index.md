@@ -2,15 +2,15 @@
 title: ContentDisposition Enum
 linktitle: ContentDisposition
 articleTitle: ContentDisposition
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ContentDisposition Sıralama. Belgeyi istemci tarayıcısında sunmanın farklı yollarını numaralandırır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş istemci tarayıcı deneyimleri için çeşitli belge sunum seçeneklerini keşfetmek üzere Aspose.Words.ContentDisposition enumunu inceleyin.
 type: docs
-weight: 340
+weight: 540
 url: /tr/net/aspose.words/contentdisposition/
 ---
 ## ContentDisposition enumeration
 
-Belgeyi istemci tarayıcısında sunmanın farklı yollarını numaralandırır.
+Belgenin istemci tarayıcısında sunulmasının farklı yollarını sıralar.
 
 ```csharp
 public enum ContentDisposition
@@ -20,8 +20,8 @@ public enum ContentDisposition
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Attachment | `0` | Belgeyi tarayıcıya gönderin ve belgeyi diske kaydetme veya belgenin uzantısıyla ilişkili uygulamada açma seçeneğini sunun. |
-| Inline | `1` | Belgeyi tarayıcıya gönderin ve belgeyi diske kaydetme veya tarayıcıda açma seçeneği sunar. |
+| Attachment | `0` | Belgeyi tarayıcıya gönder ve belgeyi diske kaydetme veya belgenin uzantısıyla ilişkili uygulamada açma seçeneği sun . |
+| Inline | `1` | Belgeyi tarayıcıya gönderir ve belgeyi diske kaydetme veya tarayıcının içinde açma seçeneği sunar. |
 
 ## Notlar
 
@@ -29,7 +29,7 @@ public enum ContentDisposition
 
 ## Örnekler
 
-Adres-mektup birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
+Posta birleştirmenin nasıl gerçekleştirileceğini ve ardından belgenin istemci tarayıcısına nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -46,12 +46,12 @@ builder.InsertField(" MERGEFIELD City ");
 doc.MailMerge.Execute(new string[] { "FullName", "Company", "Address", "City" },
     new object[] { "James Bond", "MI5 Headquarters", "Milbank", "London" });
 
-// Belgeyi istemci tarayıcısına gönderin.
-Assert.That(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null),
-    Throws.TypeOf<ArgumentNullException>()); //HttpResponse testte null olduğundan atıldı.
+// Belgeyi istemci tarayıcısına gönder.
+//Testte HttpResponse boş olduğu için atıldı.
+Assert.Throws<ArgumentNullException>(() => doc.Save(response, "Artifacts/MailMerge.ExecuteArray.docx", ContentDisposition.Inline, null));
 
-// Kaydettikten sonra belgeye gereksiz içerik eklemediğimizden emin olmak için bu yanıtı manuel olarak kapatmamız gerekecek.
-Assert.That(() => response.End(), Throws.TypeOf<NullReferenceException>());
+// Kaydedildikten sonra belgeye gereksiz içerik eklememek için bu yanıtı manuel olarak kapatmamız gerekecek.
+Assert.Throws<NullReferenceException>(() => response.End());
 ```
 
 ### Ayrıca bakınız

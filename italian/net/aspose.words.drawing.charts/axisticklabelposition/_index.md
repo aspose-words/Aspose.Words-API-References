@@ -3,14 +3,14 @@ title: AxisTickLabelPosition Enum
 linktitle: AxisTickLabelPosition
 articleTitle: AxisTickLabelPosition
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.Charts.AxisTickLabelPosition enum. Specifica le possibili posizioni per le etichette dei segni di spunta in C#.
+description: Scopri l'enumerazione Aspose.Words.Drawing.Charts.AxisTickLabelPosition, che definisce il posizionamento ottimale delle etichette di graduazione per una maggiore chiarezza e presentazione dei grafici.
 type: docs
-weight: 580
+weight: 830
 url: /it/net/aspose.words.drawing.charts/axisticklabelposition/
 ---
 ## AxisTickLabelPosition enumeration
 
-Specifica le possibili posizioni per le etichette dei segni di spunta.
+Specifica le possibili posizioni per le etichette di spunta.
 
 ```csharp
 public enum AxisTickLabelPosition
@@ -20,15 +20,15 @@ public enum AxisTickLabelPosition
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| High | `0` | Specifica che le etichette dell'asse devono trovarsi all'estremità superiore dell'asse perpendicolare. |
-| Low | `1` | Specifica che le etichette dell'asse devono trovarsi all'estremità inferiore dell'asse perpendicolare. |
-| NextToAxis | `2` | Specifica che le etichette dell'asse devono essere accanto all'asse. |
+| High | `0` | Specifica che le etichette degli assi devono essere all'estremità superiore dell'asse perpendicolare. |
+| Low | `1` | Specifica che le etichette degli assi devono essere all'estremità inferiore dell'asse perpendicolare. |
+| NextToAxis | `2` | Specifica che le etichette degli assi devono essere accanto all'asse. |
 | None | `3` | Specifica che le etichette degli assi non vengono disegnate. |
-| Default | `2` | Specifica il valore predefinito della posizione delle etichette dei segni di spunta. |
+| Default | `2` | Specifica il valore predefinito della posizione delle etichette di spunta. |
 
 ## Esempi
 
-Mostra come inserire un grafico con valori di data/ora.
+Mostra come inserire grafici con valori di data/ora.
 
 ```csharp
 Document doc = new Document();
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Cancella le serie di dati dimostrativi del grafico per iniziare con un grafico pulito.
+// Cancella la serie di dati demo del grafico per iniziare con un grafico pulito.
 chart.Series.Clear();
 
-// Aggiunge una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
+// Aggiungi una serie personalizzata contenente valori di data/ora per l'asse X e rispettivi valori decimali per l'asse Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -54,7 +54,7 @@ ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Imposta le unità principali dell'asse X su una settimana e le unità minori su un giorno.
+// Imposta le unità principali dell'asse X su una settimana e le unità secondarie su un giorno.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -63,9 +63,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definisce le proprietà dell'asse Y per i valori decimali.
+// Definisci le proprietà dell'asse Y per i valori decimali.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

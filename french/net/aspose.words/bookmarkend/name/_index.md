@@ -3,7 +3,7 @@ title: BookmarkEnd.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: BookmarkEnd Name propriété. Obtient ou définit le nom du signet en C#.
+description: Découvrez la propriété BookmarkEnd Name pour gérer et personnaliser facilement les noms de signets dans vos documents pour une meilleure organisation et efficacité.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/bookmarkend/name/
@@ -18,7 +18,7 @@ public string Name { get; set; }
 
 ## Remarques
 
-C'est pas possible`nul`.
+Ne peut pas être`nul`.
 
 ## Exemples
 
@@ -41,7 +41,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -69,7 +69,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

@@ -3,7 +3,7 @@ title: VbaReferenceCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words для .NET
-description: VbaReferenceCollection RemoveAt метод. УдаляетVbaReference элемент по указанному индексу коллекции на С#.
+description: Легко управляйте коллекцией VbaReferenceCollection с помощью метода RemoveAt для удаления элементов по индексу, повышая эффективность кодирования VBA.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.vba/vbareferencecollection/removeat/
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -64,7 +64,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -79,7 +79,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

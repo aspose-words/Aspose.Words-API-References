@@ -3,14 +3,14 @@ title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
 second_title: Aspose.Words per .NET
-description: Table StyleOptions proprietà. Ottiene o imposta flag di bit che specificano come viene applicato uno stile di tabella a questa tabella in C#.
+description: Scopri la proprietà Table StyleOptions per personalizzare l'aspetto della tua tabella con flag di bit flessibili. Migliora lo stile della tua tabella senza sforzo!
 type: docs
 weight: 300
 url: /it/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-Ottiene o imposta flag di bit che specificano come viene applicato uno stile di tabella a questa tabella.
+Ottiene o imposta i flag di bit che specificano come uno stile di tabella viene applicato a questa tabella.
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -18,7 +18,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ## Esempi
 
-Mostra come creare una nuova tabella durante l'applicazione di uno stile.
+Mostra come creare una nuova tabella applicando uno stile.
 
 ```csharp
 Document doc = new Document();
@@ -28,11 +28,11 @@ Table table = builder.StartTable();
 // Dobbiamo inserire almeno una riga prima di impostare qualsiasi formattazione della tabella.
 builder.InsertCell();
 
-// Imposta lo stile della tabella utilizzato in base all'identificatore dello stile.
-// Tieni presente che non tutti gli stili di tabella sono disponibili quando si salva nel formato .doc.
+// Imposta lo stile della tabella utilizzato in base all'identificatore di stile.
+// Nota che non tutti gli stili di tabella sono disponibili quando si salva in formato .doc.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Applica parzialmente lo stile alle funzionalità della tabella in base ai predicati, quindi crea la tabella.
+// Applica parzialmente lo stile alle caratteristiche della tabella in base ai predicati, quindi crea la tabella.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

@@ -3,14 +3,14 @@ title: PageSetup.FootnoteOptions
 linktitle: FootnoteOptions
 articleTitle: FootnoteOptions
 second_title: Aspose.Words لـ .NET
-description: PageSetup FootnoteOptions ملكية. يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا القسم في C#.
+description: اكتشف PageSetup FootnoteOptions لتخصيص ترقيم الحاشية السفلية وتحديد موقعها بسهولة لتحسين وضوح المستند واحترافيته.
 type: docs
 weight: 150
 url: /ar/net/aspose.words/pagesetup/footnoteoptions/
 ---
 ## PageSetup.FootnoteOptions property
 
-يوفر خيارات تتحكم في ترقيم الحواشي السفلية وموضعها في هذا القسم.
+يوفر خيارات للتحكم في ترقيم الحواشي السفلية وتحديد موقعها في هذا القسم.
 
 ```csharp
 public FootnoteOptions FootnoteOptions { get; }
@@ -18,7 +18,7 @@ public FootnoteOptions FootnoteOptions { get; }
 
 ## أمثلة
 
-يوضح كيفية تكوين الخيارات التي تؤثر على الحواشي السفلية/التعليقات الختامية في القسم.
+يوضح كيفية تكوين الخيارات التي تؤثر على الحواشي السفلية/الختامية في قسم ما.
 
 ```csharp
 Document doc = new Document();
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Hello world!");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote reference text.");
 
-// قم بتكوين كافة الحواشي السفلية في القسم الأول لإعادة تشغيل الترقيم من 1
-// في كل صفحة جديدة ويعرضون أنفسهم مباشرة أسفل النص في كل صفحة.
+// قم بتكوين جميع الحواشي السفلية في القسم الأول لإعادة تشغيل الترقيم من 1
+// في كل صفحة جديدة ويتم عرضها مباشرة أسفل النص في كل صفحة.
 FootnoteOptions footnoteOptions = doc.Sections[0].PageSetup.FootnoteOptions;
 footnoteOptions.Position = FootnotePosition.BeneathText;
 footnoteOptions.RestartRule = FootnoteNumberingRule.RestartPage;
@@ -37,8 +37,8 @@ footnoteOptions.StartNumber = 1;
 builder.Write(" Hello again.");
 builder.InsertFootnote(FootnoteType.Footnote, "Endnote reference text.");
 
-// قم بتكوين جميع التعليقات الختامية في القسم الأول للحفاظ على العدد المستمر في جميع أنحاء القسم،
-// بدءًا من 1. قم أيضًا بتعيينها جميعًا لتظهر مجمعة في نهاية المستند.
+// قم بتكوين جميع الحواشي الختامية في القسم الأول للحفاظ على عدد مستمر في جميع أنحاء القسم،
+// بدءًا من 1. قم أيضًا بتعيينهم جميعًا ليظهروا مجمعين في نهاية المستند.
 EndnoteOptions endnoteOptions = doc.Sections[0].PageSetup.EndnoteOptions;
 endnoteOptions.Position = EndnotePosition.EndOfDocument;
 endnoteOptions.RestartRule = FootnoteNumberingRule.Continuous;

@@ -3,14 +3,14 @@ title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo klas. Gibt Informationen über die physische Schriftart an die für die Aspose.WordsSchriftartEngine verfügbar ist in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fonts.PhysicalFontInfo, die wichtige Details zu physischen Schriftarten für eine verbesserte Dokumentverarbeitung und -gestaltung bereitstellt.
 type: docs
-weight: 3030
+weight: 3460
 url: /de/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Gibt Informationen über die physische Schriftart an, die für die Aspose.Words-Schriftart-Engine verfügbar ist.
+Gibt Informationen über die physische Schriftart an, die der Aspose.Words-Schriftarten-Engine zur Verfügung steht.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Schriftarten](https://docs.aspose.com/words/net/working-with-fonts/) Dokumentationsartikel.
 
@@ -22,6 +22,7 @@ public class PhysicalFontInfo
 
 | Name | Beschreibung |
 | --- | --- |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | Einbettungslizenzrechte für die Schriftart. |
 | [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Pfad zur Schriftartdatei, falls vorhanden. |
 | [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Familienname der Schriftart. |
 | [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Vollständiger Name der Schriftart. |
@@ -32,7 +33,7 @@ public class PhysicalFontInfo
 Zeigt, wie verfügbare Schriftarten aufgelistet werden.
 
 ```csharp
-// Aspose.Words so konfigurieren, dass Schriftarten aus einem benutzerdefinierten Ordner stammen, und dann jede verfügbare Schriftart drucken.
+// Konfigurieren Sie Aspose.Words so, dass Schriftarten aus einem benutzerdefinierten Ordner bezogen werden, und drucken Sie dann alle verfügbaren Schriftarten.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

@@ -2,8 +2,8 @@
 title: WebExtensionReference
 linktitle: WebExtensionReference
 articleTitle: WebExtensionReference
-second_title: Aspose.Words for .NET
-description: WebExtensionReference inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: WebExtensionReference oluşturucusunu keşfedin—güçlü uzantıları kolaylıkla oluşturmanın kapısı. Bugün benzersiz özelliklerin kilidini açın ve işlevselliği artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.webextensions/webextensionreference/webextensionreference/

@@ -3,14 +3,14 @@ title: OoxmlSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words för .NET
-description: OoxmlSaveOptions SaveFormat fast egendom. Anger formatet som dokumentet kommer att sparas i om detta sparaalternativobjekt används. Kan varaDocx Docm  Dotx Dotm ellerFlatOpc  i C#.
+description: Upptäck OoxmlSaveOptions SaveFormat-egenskap för att enkelt välja dokumentformat som Docx, Docm, Dotx, Dotm eller FlatOpc för sömlös sparning.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/aspose.words.saving/ooxmlsaveoptions/saveformat/
 ---
 ## OoxmlSaveOptions.SaveFormat property
 
-Anger formatet som dokumentet kommer att sparas i om detta sparaalternativ-objekt används. Kan varaDocx ,Docm , Dotx ,Dotm ellerFlatOpc .
+Anger formatet som dokumentet sparas i om detta objekt för sparade alternativ används. Kan varaDocx ,Docm , Dotx ,Dotm ellerFlatOpc .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,14 +18,14 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Exempel
 
-Visar hur man ställer in en OOXML-efterlevnadsspecifikation för ett sparat dokument att följa.
+Visar hur man ställer in en OOXML-efterlevnadsspecifikation som ett sparat dokument ska följa.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Om vi konfigurerar kompatibilitetsalternativ för att följa Microsoft Word 2003,
-// att infoga en bild kommer att definiera dess form med VML.
+// Om vi konfigurerar kompatibilitetsalternativ så att de följer Microsoft Word 2003,
+// att infoga en bild definierar dess form med hjälp av VML.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
@@ -42,7 +42,7 @@ OoxmlSaveOptions saveOptions = new OoxmlSaveOptions
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 
-// Vårt sparade dokument definierar formen med DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
+// Vårt sparade dokument definierar formen med hjälp av DML för att följa OOXML-standarden "ISO/IEC 29500:2008".
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
 Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);

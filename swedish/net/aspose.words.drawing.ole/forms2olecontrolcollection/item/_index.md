@@ -3,14 +3,14 @@ title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: Forms2OleControlCollection Item fast egendom. BlirForms2OleControl objekt vid ett angivet index i C#.
+description: Få enkel åtkomst till Forms2OleControl-objektet med egenskapen Item. Förenkla din kontrollhantering genom att hämta objekt från vilket index som helst sömlöst.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-Blir[`Forms2OleControl`](../../forms2olecontrol/) objekt vid ett angivet index.
+Får[`Forms2OleControl`](../../forms2olecontrol/) objekt vid ett angivet index.
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -18,19 +18,19 @@ public Forms2OleControl this[int index] { get; }
 
 ## Exempel
 
-Visar hur man kommer åt en OLE-kontroll inbäddad i ett dokument och dess underordnade kontroller.
+Visar hur man kommer åt en OLE-kontroll som är inbäddad i ett dokument och dess underkontroller.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Former lagrar och visar OLE-objekt i dokumentets kropp.
+// Former lagrar och visar OLE-objekt i dokumentets brödtext.
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Vissa OLE-kontroller kan innehålla underordnade kontroller, till exempel den i detta dokument med tre alternativknappar.
+// Vissa OLE-kontroller kan innehålla underkontroller, till exempel den i det här dokumentet med tre alternativknappar.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

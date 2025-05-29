@@ -3,7 +3,7 @@ title: FieldNoteRef
 linktitle: FieldNoteRef
 articleTitle: FieldNoteRef
 second_title: Aspose.Words per .NET
-description: FieldNoteRef costruttore. Default_Costruttore in C#.
+description: Scopri il costruttore FieldNoteRef, lo strumento predefinito essenziale per una gestione efficiente dei dati e una codifica semplificata. Migliora la tua programmazione oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldnoteref/fieldnoteref/

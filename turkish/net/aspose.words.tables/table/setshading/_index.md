@@ -2,15 +2,15 @@
 title: Table.SetShading
 linktitle: SetShading
 articleTitle: SetShading
-second_title: Aspose.Words for .NET
-description: Table SetShading yöntem. Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: SetShading yöntemiyle tablonuzun görünümünü geliştirin; cilalı, profesyonel bir görünüm için özel gölgelendirme değerleri uygulayın.
 type: docs
-weight: 430
+weight: 450
 url: /tr/net/aspose.words.tables/table/setshading/
 ---
 ## Table.SetShading method
 
-Gölgelendirmeyi tüm tablo üzerinde belirtilen değerlere ayarlar.
+Tüm tabloda gölgelendirmeyi belirtilen değerlere ayarlar.
 
 ```csharp
 public void SetShading(TextureIndex texture, Color foregroundColor, Color backgroundColor)
@@ -20,30 +20,30 @@ public void SetShading(TextureIndex texture, Color foregroundColor, Color backgr
 | --- | --- | --- |
 | texture | TextureIndex | Uygulanacak doku. |
 | foregroundColor | Color | Dokunun rengi. |
-| backgroundColor | Color | Arka plan dolgusunun rengi. |
+| backgroundColor | Color | Arkaplan dolgusunun rengi. |
 
 ## Örnekler
 
-Bir tabloya anahat kenarlığının nasıl uygulanacağını gösterir.
+Bir tabloya dış kenarlığın nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Tabloyu sayfanın ortasına hizalayın.
+// Tabloyu sayfanın ortasına hizala.
 table.Alignment = TableAlignment.Center;
 
-// Tablodaki mevcut sınırları ve gölgeleri temizleyin.
+// Tablodaki mevcut tüm kenarlıkları ve gölgelendirmeleri temizleyin.
 table.ClearBorders();
 table.ClearShading();
 
-// Tablonun ana hatlarına yeşil kenarlıklar ekleyin.
+// Tablonun dış hatlarına yeşil kenarlıklar ekleyin.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Hücreleri açık yeşil düz renkle doldurun.
+// Hücreleri açık yeşil düz bir renkle doldurun.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

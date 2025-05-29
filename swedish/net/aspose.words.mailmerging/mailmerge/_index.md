@@ -3,16 +3,16 @@ title: MailMerge Class
 linktitle: MailMerge
 articleTitle: MailMerge
 second_title: Aspose.Words för .NET
-description: Aspose.Words.MailMerging.MailMerge klass. Representerar funktionen för sammankoppling av brev i C#.
+description: Lås upp kraftfulla funktioner för dokumentkoppling med klassen Aspose.Words.MailMerging.MailMerge. Effektivisera dokumentskapandet och öka produktiviteten utan ansträngning!
 type: docs
-weight: 3840
+weight: 4530
 url: /sv/net/aspose.words.mailmerging/mailmerge/
 ---
 ## MailMerge class
 
-Representerar funktionen för sammankoppling av brev.
+Representerar funktionen för dokumentkoppling.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MailMerge
@@ -22,65 +22,65 @@ public class MailMerge
 
 | namn | Beskrivning |
 | --- | --- |
-| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | Hämtar eller ställer in en uppsättning flaggor som anger vilka objekt som ska tas bort under kopplingen. |
-| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | Hämtar eller ställer in ett värde som anger om stycken med skiljetecken anses vara tomma och bör tas bort omRemoveEmptyParagraphs alternativet är specificerat. |
-| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | Förekommer under sammankoppling när ett sammanslagningsfält påträffas i dokumentet. |
-| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | Tillåter att hantera särskilda händelser under sammanslagningen. |
-| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | Returnerar en samling som representerar mappade datafält för kopplingsoperationen. |
-| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | Hämtar eller ställer in ett värde som indikerar om alla dokumentkopplingsregioner med namnet på en datakälla ska slås samman under körning av en brevkoppling med regioner mot datakällan eller bara den första. |
-| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet uppdateras under körning av en sammankoppling med regioner. |
-| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | Hämtar eller ställer in ett värde som anger om de oanvända "mustasch"-taggarna ska bevaras. |
-| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | Hämtar eller ställer in en sluttagg för kopplingsregion. |
-| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | Hämtar eller ställer in en starttagg för kopplingsregion. |
-| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | Hämtar eller ställer in ett värde som anger om listor startas om vid varje sektion efter körning av en e-postsammanfogning. |
-| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | Hämtar eller ställer in ett värde som indikerar om[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) av det första dokumentavsnittet och dess kopior för efterföljande datakälla rows bevaras under sammankoppling eller uppdateras enligt MS Word-beteende. |
-| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Hämtar eller ställer in ett värde som anger om efterföljande och inledande blanksteg beskärs från sammanslagningsvärden. |
-| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Hämtar eller ställer in ett värde som anger om sammanslagningsfält och sammanslagningsregioner slås samman oavsett det överordnade IF-fältets tillstånd. |
-| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | När`Sann` , anger att förutom MERGEFIELD-fält utförs e-postsammankoppling till vissa andra typer av fält och även i "{{fieldName}}"-taggar. |
-| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Hämtar eller ställer in ett värde som anger om hela stycket med**TableStart** eller**TableEnd** field eller särskilt intervall mellan**TableStart** och**TableEnd** fält ska inkluderas i kopplingsområdet. |
+| [CleanupOptions](../../aspose.words.mailmerging/mailmerge/cleanupoptions/) { get; set; } | Hämtar eller anger en uppsättning flaggor som anger vilka objekt som ska tas bort under dokumentkoppling. |
+| [CleanupParagraphsWithPunctuationMarks](../../aspose.words.mailmerging/mailmerge/cleanupparagraphswithpunctuationmarks/) { get; set; } | Hämtar eller anger ett värde som anger om stycken med skiljetecken ska betraktas som tomma och ska tas bort omRemoveEmptyParagraphs alternativet är angivet. |
+| [FieldMergingCallback](../../aspose.words.mailmerging/mailmerge/fieldmergingcallback/) { get; set; } | Inträffar under koppling av dokument när ett fält för koppling av dokument påträffas i dokumentet. |
+| [MailMergeCallback](../../aspose.words.mailmerging/mailmerge/mailmergecallback/) { get; set; } | Tillåter hantering av specifika händelser under dokumentkoppling. |
+| [MappedDataFields](../../aspose.words.mailmerging/mailmerge/mappeddatafields/) { get; } | Returnerar en samling som representerar mappade datafält för dokumentkopplingsoperationen. |
+| [MergeDuplicateRegions](../../aspose.words.mailmerging/mailmerge/mergeduplicateregions/) { get; set; } | Hämtar eller anger ett värde som anger om alla dokumentkopplingsområden med namnet på en datakälla ska slås samman vid utskriftskoppling med regioner mot datakällan eller bara den första. |
+| [MergeWholeDocument](../../aspose.words.mailmerging/mailmerge/mergewholedocument/) { get; set; } | Hämtar eller anger ett värde som anger om fält i hela dokumentet uppdateras när en dokumentkoppling med regioner utförs. |
+| [PreserveUnusedTags](../../aspose.words.mailmerging/mailmerge/preserveunusedtags/) { get; set; } | Hämtar eller anger ett värde som anger om de oanvända "mustasch"-taggarna ska bevaras. |
+| [RegionEndTag](../../aspose.words.mailmerging/mailmerge/regionendtag/) { get; set; } | Hämtar eller ställer in en sluttagg för ett regionsavsnitt för dokumentkoppling. |
+| [RegionStartTag](../../aspose.words.mailmerging/mailmerge/regionstarttag/) { get; set; } | Hämtar eller ställer in en starttagg för en region för dokumentkoppling. |
+| [RestartListsAtEachSection](../../aspose.words.mailmerging/mailmerge/restartlistsateachsection/) { get; set; } | Hämtar eller anger ett värde som anger om listor startas om i varje avsnitt efter att en dokumentkoppling har utförts. |
+| [RetainFirstSectionStart](../../aspose.words.mailmerging/mailmerge/retainfirstsectionstart/) { get; set; } | Hämtar eller ställer in ett värde som anger om[`SectionStart`](../../aspose.words/pagesetup/sectionstart/) av det första dokumentavsnittet och dess kopior för efterföljande datakällrader behålls under dokumentkoppling eller uppdateras enligt MS Words beteende. |
+| [TrimWhitespaces](../../aspose.words.mailmerging/mailmerge/trimwhitespaces/) { get; set; } | Hämtar eller anger ett värde som anger om efterföljande och inledande blanksteg ska tas bort från värden för koppling av dokument. |
+| [UnconditionalMergeFieldsAndRegions](../../aspose.words.mailmerging/mailmerge/unconditionalmergefieldsandregions/) { get; set; } | Hämtar eller anger ett värde som anger om sammanslagningsfält och sammanslagningsområden slås samman oavsett det överordnade OM-fältets villkor. |
+| [UseNonMergeFields](../../aspose.words.mailmerging/mailmerge/usenonmergefields/) { get; set; } | När`sann` , anger att utöver MERGEFIELD-fält utförs dokumentkoppling i vissa andra typer av fält och även i "{{fieldName}}"-taggar. |
+| [UseWholeParagraphAsRegion](../../aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/) { get; set; } | Hämtar eller anger ett värde som anger om hela stycket med**Tabellstart** eller**Bordände** field eller ett visst intervall mellan**Tabellstart** och**Bordände** fält ska inkluderas i området för koppling av dokument. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Tar bort sammanslagningsrelaterade fält från dokumentet. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(*DataRow*) | Utför sammanslagning från en**DataRow** in i dokumentet. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(*DataTable*) | Utför e-postkoppling från en datatabell till dokumentet. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(*DataView*) | Utför sammanslagning från en**DataView** in i dokumentet. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(*IDataReader*) | Utför sammanslagning från**IDataReader** in i dokumentet. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Utför en e-postsammanfogning från en anpassad datakälla. |
-| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(*string[], object[]*) | Utför en kopplingsoperation för en enskild post. |
-| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(*object*) | Utför e-postkoppling från ett ADO Recordset-objekt till dokumentet. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(*DataSet*) | Utför sammanslagning från en**Dataset** till ett dokument med kopplingsregioner. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(*DataTable*) | Utför sammanslagning från en**Datatabell** in i dokumentet med kopplingsregioner. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(*DataView*) | Utför sammanslagning från en**DataView** in i dokumentet med kopplingsregioner. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Utför en koppling av e-post från en anpassad datakälla med kopplingsregioner. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(*[IMailMergeDataSourceRoot](../imailmergedatasourceroot/)*) | Utför en koppling av e-post från en anpassad datakälla med kopplingsregioner. |
-| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(*IDataReader, string*) | Utför sammanslagning från**IDataReader** in i dokumentet med kopplingsregioner. |
-| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(*object, string*) | Utför koppling från ett ADO Recordset-objekt till dokumentet med kopplingsregioner. |
-| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Returnerar en samling av kopplingsfältnamn som är tillgängliga i dokumentet. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(*string*) | Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen. |
-| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(*string, int*) | Returnerar en samling av kopplingsfältnamn som är tillgängliga i regionen. |
-| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(*string*) | Returnerar en samling kopplingsregioner med det angivna namnet. |
-| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Returnerar en fullständig hierarki av regioner (med fält) tillgängliga i dokumentet. |
+| [DeleteFields](../../aspose.words.mailmerging/mailmerge/deletefields/)() | Tar bort fält relaterade till koppling av dokument från dokumentet. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_1)(*DataRow*) | Utför koppling av dokument från en**DataRod** in i dokumentet. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_2)(*DataTable*) | Utför koppling av dokument från en datatabell till dokumentet. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_3)(*DataView*) | Utför koppling av dokument från en**Datavy** in i dokumentet. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_4)(*IDataReader*) | Utför koppling av dokument från**IDataläsare** in i dokumentet. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Utför en dokumentkoppling från en anpassad datakälla. |
+| [Execute](../../aspose.words.mailmerging/mailmerge/execute/#execute_5)(*string[], object[]*) | Utför en dokumentkopplingsåtgärd för en enskild post. |
+| [ExecuteADO](../../aspose.words.mailmerging/mailmerge/executeado/)(*object*) | Utför dokumentkoppling från ett ADO Recordset-objekt till dokumentet. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_2)(*DataSet*) | Utför koppling av dokument från en**Dataset** till ett dokument med områden för koppling av dokument. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_3)(*DataTable*) | Utför koppling av dokument från en**Datatabell** i dokumentet med områden för koppling av dokument. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_4)(*DataView*) | Utför koppling av dokument från en**Datavy** i dokumentet med områden för koppling av dokument. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions)(*[IMailMergeDataSource](../imailmergedatasource/)*) | Utför en dokumentkoppling från en anpassad datakälla med områden för dokumentkoppling. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_1)(*[IMailMergeDataSourceRoot](../imailmergedatasourceroot/)*) | Utför en dokumentkoppling från en anpassad datakälla med områden för dokumentkoppling. |
+| [ExecuteWithRegions](../../aspose.words.mailmerging/mailmerge/executewithregions/#executewithregions_5)(*IDataReader, string*) | Utför koppling av dokument från**IDataläsare** i dokumentet med områden för koppling av dokument. |
+| [ExecuteWithRegionsADO](../../aspose.words.mailmerging/mailmerge/executewithregionsado/)(*object, string*) | Utför dokumentkoppling från ett ADO Recordset-objekt till dokumentet med områden för dokumentkoppling. |
+| [GetFieldNames](../../aspose.words.mailmerging/mailmerge/getfieldnames/)() | Returnerar en samling namn på fält för kopplingsmeddelanden som finns tillgängliga i dokumentet. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion)(*string*) | Returnerar en samling namn på fält för kopplingsmeddelanden som är tillgängliga i regionen. |
+| [GetFieldNamesForRegion](../../aspose.words.mailmerging/mailmerge/getfieldnamesforregion/#getfieldnamesforregion_1)(*string, int*) | Returnerar en samling namn på fält för kopplingsmeddelanden som är tillgängliga i regionen. |
+| [GetRegionsByName](../../aspose.words.mailmerging/mailmerge/getregionsbyname/)(*string*) | Returnerar en samling av kopplingsområden för dokument med det angivna namnet. |
+| [GetRegionsHierarchy](../../aspose.words.mailmerging/mailmerge/getregionshierarchy/)() | Returnerar en fullständig hierarki av regioner (med fält) som finns tillgängliga i dokumentet. |
 
 ## Anmärkningar
 
-För att kopplingen ska fungera bör dokumentet innehålla Word MERGEFIELD och valfritt NEXT-fält. Under kopplingsoperationen ersätts kopplingsfälten i dokumentet med värden från din datakälla.
+För att kopplingsfunktionen ska fungera måste dokumentet innehålla Word-fälten MERGEFIELD och , eventuellt NEXT. Under kopplingsfunktionen ersätts kopplingsfälten i dokumentet med värden från din datakälla.
 
-Det finns två distinkta sätt att använda koppling av e-post: med kopplingsregioner och utan.
+Det finns två olika sätt att använda dokumentkoppling: med och utan områden för dokumentkoppling.
 
-Den enklaste kopplingen är utan regioner och den är väldigt lik hur e-postsammankoppling fungerar i Word. Använda sig avKör metoder för att slå samman information från some datakälla som t.ex**Datatabell** ,**Dataset** ,**DataView** ,**IDataReader** eller en mängd objekt i ditt dokument. The `MailMerge` objekt bearbetar alla poster i datakällan och kopierar och lägger till innehållet i hela dokumentet för varje post.
+Den enklaste dokumentkopplingen är utan regioner och den är väldigt lik hur dokumentkoppling fungerar i Word.Utföra metoder för att sammanfoga information från någon datakälla såsom**Datatabell** ,**Dataset** ,**Datavy** ,**IDataläsare** eller en array av objekt i ditt dokument. The `MailMerge` objektet bearbetar alla poster i datakällan och kopierar och lägger till innehåll i hela dokumentet för varje post.
 
-Observera att när`MailMerge` objektet stöter på ett NEXT-fält, väljer det nästa post i datakällan och fortsätter att slås samman utan att kopiera något innehåll.
+Observera att när`MailMerge`Om objektet stöter på ett NEXT-fält väljer det nästa record i datakällan och fortsätter sammanfogningen utan att kopiera något innehåll.
 
-Använda sig av[`ExecuteWithRegions`](./executewithregions/) och andra överbelastningar för att sammanfoga information till a dokument med kopplingsregioner definierade. Du kan använda **Dataset** ,**Datatabell** ,**DataView** eller**IDataReader** som datakällor för denna operation.
+Använda[`ExecuteWithRegions`](./executewithregions/) och andra överbelastningar för att sammanfoga information till ett -dokument med definierade områden för dokumentkoppling. Du kan använda **Dataset** ,**Datatabell** ,**Datavy** eller**IDataläsare** som datakällor för den här operationen.
 
-Du måste använda kopplingsregioner om du dynamiskt vill växa delar inuti dokumentet . Utan sammanslagningsregioner kommer hela dokumentet att upprepas för varje post av datakällan.
+Du behöver använda områden för koppling av dokument om du vill dynamiskt utöka delar inom dokumentet . Utan områden för koppling av dokument kommer hela dokumentet att upprepas för varje post i datakällan .
 
 ## Exempel
 
-Visar hur man kör en e-postsammanfogning med data från en datatabell.
+Visar hur man utför en dokumentkoppling med data från en datatabell.
 
 ```csharp
 public void ExecuteDataTable()
@@ -91,15 +91,15 @@ public void ExecuteDataTable()
     table.Rows.Add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
     table.Rows.Add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
 
-    // Nedan finns två sätt att använda en datatabell som datakälla för en e-postkoppling.
-    // 1 - Använd hela tabellen för kopplingen för att skapa ett kopplingsdokument för varje rad i tabellen:
+    // Nedan följer två sätt att använda en datatabell som datakälla för en dokumentkoppling.
+    // 1 - Använd hela tabellen för dokumentkopplingen för att skapa ett utgående dokumentkopplingsdokument för varje rad i tabellen:
     Document doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table);
 
     doc.Save(ArtifactsDir + "MailMerge.ExecuteDataTable.WholeTable.docx");
 
-    // 2 - Använd en rad i tabellen för att skapa ett dokument för utmatning av dokument:
+    // 2 - Använd en rad i tabellen för att skapa ett enda dokument för koppling av dokument:
     doc = CreateSourceDocExecuteDataTable();
 
     doc.MailMerge.Execute(table.Rows[1]);
@@ -108,7 +108,7 @@ public void ExecuteDataTable()
 }
 
 /// <summary>
-/// Skapar ett källdokument för sammankoppling av brev.
+/// Skapar ett källdokument för dokumentkoppling.
 /// </summary>
 private static Document CreateSourceDocExecuteDataTable()
 {

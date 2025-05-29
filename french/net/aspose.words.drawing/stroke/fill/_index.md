@@ -3,9 +3,9 @@ title: Stroke.Fill
 linktitle: Fill
 articleTitle: Fill
 second_title: Aspose.Words pour .NET
-description: Stroke Fill propriété. Obtient le formatage de remplissage pour leStroke  en C#.
+description: Découvrez la propriété Remplissage du contour pour un remplissage optimisé de vos créations. Sublimez vos projets grâce à une personnalisation précise des contours dès aujourd'hui !
 type: docs
-weight: 90
+weight: 120
 url: /fr/net/aspose.words.drawing/stroke/fill/
 ---
 ## Stroke.Fill property
@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, comme le rectangle, comportent deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, ont deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :

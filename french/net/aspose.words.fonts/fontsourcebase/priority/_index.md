@@ -3,14 +3,14 @@ title: FontSourceBase.Priority
 linktitle: Priority
 articleTitle: Priority
 second_title: Aspose.Words pour .NET
-description: FontSourceBase Priority propriété. Renvoie la priorité de la source de police en C#.
+description: Découvrez la propriété FontSourceBase Priority pour optimiser l'approvisionnement de vos polices. Améliorez les performances et l'expérience utilisateur sans effort !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontsourcebase/priority/
 ---
 ## FontSourceBase.Priority property
 
-Renvoie la priorité de la source de police.
+Renvoie la priorité de la source de la police.
 
 ```csharp
 public int Priority { get; }

@@ -3,14 +3,14 @@ title: ChartYValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
 second_title: Aspose.Words per .NET
-description: ChartYValue DateTimeValue proprietà. Ottiene il valore data/ora memorizzato in C#.
+description: Scopri la proprietà ChartYValue DateTimeValue per accedere e gestire facilmente i valori data/ora memorizzati. Migliora la visualizzazione dei tuoi dati oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/
 ---
 ## ChartYValue.DateTimeValue property
 
-Ottiene il valore data/ora memorizzato.
+Ottiene il valore datetime memorizzato.
 
 ```csharp
 public DateTime DateTimeValue { get; }

@@ -3,14 +3,14 @@ title: Table.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words för .NET
-description: Table Bidi fast egendom. Hämtar eller ställer in om detta är en tabell från höger till vänster i C#.
+description: Upptäck Table Bidi-egenskaper för sömlös tabellformatering från höger till vänster. Förbättra din webbdesign med enkla anpassningsalternativ!
 type: docs
 weight: 80
 url: /sv/net/aspose.words.tables/table/bidi/
 ---
 ## Table.Bidi property
 
-Hämtar eller ställer in om detta är en tabell från höger till vänster.
+Hämtar eller anger om detta är en tabell som skrivs från höger till vänster.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,7 +18,7 @@ public bool Bidi { get; set; }
 
 ## Anmärkningar
 
-När`Sann`, är cellerna i den här raden utlagda från höger till vänster.
+När`sann`, cellerna i den här raden är placerade från höger till vänster.
 
 Standardvärdet är`falsk`.
 

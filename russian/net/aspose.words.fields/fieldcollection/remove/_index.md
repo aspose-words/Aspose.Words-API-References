@@ -3,7 +3,7 @@ title: FieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words для .NET
-description: FieldCollection Remove метод. Удаляет указанное поле из этой коллекции и из документа на С#.
+description: С легкостью удаляйте определенные поля из документа с помощью метода FieldCollection Remove, оптимизируя процесс управления данными.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/fieldcollection/remove/
@@ -22,7 +22,7 @@ public void Remove(Field field)
 
 ## Примеры
 
-Показывает, как удалить поля из коллекции полей.
+Показывает, как удалять поля из коллекции полей.
 
 ```csharp
 Document doc = new Document();
@@ -41,16 +41,16 @@ FieldCollection fields = doc.Range.Fields;
 Assert.AreEqual(6, fields.Count);
 
 // Ниже приведены четыре способа удаления полей из коллекции полей.
-// 1 - Получить поле для удаления самого себя:
+// 1 - Получить поле для удаления:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 — Получение коллекции для удаления поля, которое мы передаем методу удаления:
+// 2 - Получаем коллекцию для удаления поля, которое передаем ее методу удаления:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
 
-// 3 — Удалить поле из коллекции по индексу:
+// 3 - Удалить поле из коллекции по индексу:
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 

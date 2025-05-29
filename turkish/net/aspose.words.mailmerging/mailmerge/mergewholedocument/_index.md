@@ -2,15 +2,15 @@
 title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
-second_title: Aspose.Words for .NET
-description: MailMerge MergeWholeDocument mülk. Bölgelerle adresmektup birleştirme yürütülürken belgenin tamamındaki alanların güncellenip güncellenmediğini gösteren bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge MergeWholeDocument özelliğinin, bölge tabanlı bir posta birleştirme işlemi sırasında tüm alanları nasıl güncelleyerek belgelerinizdeki verimliliği ve doğruluğu artırdığını keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Bölgelerle adres-mektup birleştirme yürütülürken belgenin tamamındaki alanların güncellenip güncellenmediğini gösteren bir değer alır veya ayarlar.
+Bölgelerle bir posta birleştirme işlemi yürütülürken tüm belgedeki alanların güncellenip güncellenmeyeceğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`YANLIŞ` .
 
 ## Örnekler
 
-Bölgelerle adres-mektup birleştirmeler ve alan güncelleme arasındaki ilişkiyi gösterir.
+Bölgelerle posta birleştirmeleri ve alan güncellemeleri arasındaki ilişkiyi gösterir.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -31,13 +31,13 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
     // "MergeWholeDocument" bayrağını "true" olarak ayarlarsak,
-    // bölgelerle adres-mektup birleştirme belgedeki her alanı güncelleyecektir.
-    // "MergeWholeDocument" bayrağını "false" olarak ayarlarsak adres-mektup birleştirme yalnızca alanları günceller
-    // adı veri kaynağı tablosunun adıyla eşleşen adres-mektup birleştirme bölgesi içinde.
+    // Bölgelerle yapılan posta birleştirme işlemi belgedeki her alanı güncelleyecektir.
+    // "MergeWholeDocument" bayrağını "false" olarak ayarlarsak, posta birleştirme yalnızca alanları günceller
+    // adı veri kaynağı tablosunun adıyla eşleşen posta birleştirme bölgesi içinde.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Adres-mektup birleştirme yalnızca adres-mektup birleştirme bölgesinin dışındaki QUOTE alanını güncelleyecektir
+    // Posta birleştirme yalnızca posta birleştirme bölgesinin dışında QUOTE alanını güncelleyecektir
     // "MergeWholeDocument" bayrağını "true" olarak ayarlarsak.
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
@@ -47,7 +47,7 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// "Tablom" adlı bir veri kaynağına ait adres-mektup birleştirme bölgesine sahip bir belge oluşturun.
+/// "MyTable" adlı bir veri kaynağına ait bir posta birleştirme bölgesi içeren bir belge oluşturun.
 /// Bu bölgenin içine bir QUOTE alanı ve dışına bir tane daha ekleyin.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
@@ -72,7 +72,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Adres-mektup birleştirmede kullanılacak bir veri tablosu oluşturun.
+/// Bir posta birleştirme işleminde kullanılacak veri tablosunu oluşturun.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

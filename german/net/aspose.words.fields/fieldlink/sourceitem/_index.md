@@ -3,14 +3,14 @@ title: FieldLink.SourceItem
 linktitle: SourceItem
 articleTitle: SourceItem
 second_title: Aspose.Words für .NET
-description: FieldLink SourceItem eigendom. Ruft den Teil der Quelldatei ab der verknüpft wird oder legt diesen fest in C#.
+description: Entdecken Sie die FieldLink SourceItem-Eigenschaft zur effizienten Verwaltung von Quelldateilinks. Verbessern Sie Ihren Workflow durch einfaches Abrufen oder Festlegen verknüpfter Inhalte.
 type: docs
 weight: 130
 url: /de/net/aspose.words.fields/fieldlink/sourceitem/
 ---
 ## FieldLink.SourceItem property
 
-Ruft den Teil der Quelldatei ab, der verknüpft wird, oder legt diesen fest.
+Ruft den Teil der Quelldatei ab, der verknüpft wird, oder legt ihn fest.
 
 ```csharp
 public string SourceItem { get; set; }
@@ -18,7 +18,7 @@ public string SourceItem { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie verschiedene Feldtypen verwenden, um eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herzustellen und deren Inhalte anzuzeigen.
+Zeigt, wie Sie mithilfe verschiedener Feldtypen eine Verknüpfung zu anderen Dokumenten im lokalen Dateisystem herstellen und deren Inhalte anzeigen.
 
 ```csharp
 public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
@@ -26,7 +26,7 @@ public void FieldLinkedObjectsAsText(InsertLinkedObjectAs insertLinkedObjectAs)
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Nachfolgend finden Sie drei Arten von Feldern, mit denen wir Inhalte aus einem verknüpften Dokument in Textform anzeigen können.
+    // Unten sind drei Arten von Feldern aufgeführt, die wir verwenden können, um Inhalte aus einem verknüpften Dokument in Textform anzuzeigen.
     // 1 - Ein LINK-Feld:
     builder.Writeln("FieldLink:\n");
     InsertFieldLink(builder, insertLinkedObjectAs, "Word.Document.8", MyDir + "Document.docx", null, true);
@@ -71,7 +71,7 @@ public void FieldLinkedObjectsAsImage(InsertLinkedObjectAs insertLinkedObjectAs)
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein LINK-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
+/// Verwenden Sie einen Dokumentgenerator, um ein LINK-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool shouldAutoUpdate)
@@ -109,7 +109,7 @@ private static void InsertFieldLink(DocumentBuilder builder, InsertLinkedObjectA
 }
 
 /// <summary>
-/// Verwenden Sie einen Document Builder, um ein DDE-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
+/// Verwenden Sie einen Dokumentgenerator, um ein DDE-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs, string progId,
     string sourceFullName, string sourceItem, bool isLinked, bool shouldAutoUpdate)
@@ -148,7 +148,7 @@ private static void InsertFieldDde(DocumentBuilder builder, InsertLinkedObjectAs
 }
 
 /// <summary>
-/// Verwenden Sie einen Dokument-Builder, um ein DDEAUTO-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
+/// Verwenden Sie einen Dokumentgenerator, um ein DDEAUTO-Feld einzufügen und seine Eigenschaften entsprechend den Parametern festzulegen.
 /// </summary>
 private static void InsertFieldDdeAuto(DocumentBuilder builder, InsertLinkedObjectAs insertLinkedObjectAs,
     string progId, string sourceFullName, string sourceItem, bool isLinked)

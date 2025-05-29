@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: BookmarksOutlineLevelCollection Item fast egendom. Hämtar eller ställer in en bokmärkeskonturnivå med bokmärkets namn i C#.
+description: Hantera dina bokmärken enkelt med BookmarksOutlineLevelCollection. Ställ in och hämta dispositionsnivåer efter bokmärkesnamn för sömlös organisation.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/bookmarksoutlinelevelcollection/item/
 ---
 ## BookmarksOutlineLevelCollection indexer (1 of 2)
 
-Hämtar eller ställer in en bokmärkeskonturnivå med bokmärkets namn.
+Hämtar eller anger en bokmärkesnivå efter bokmärkesnamnet.
 
 ```csharp
 public int this[string name] { get; set; }
@@ -18,21 +18,21 @@ public int this[string name] { get; set; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| name | Bokmärkets namn är skiftlägeskänsligt. |
+| name | Bokmärkets namn är inte skiftlägeskänsligt. |
 
 ### Returvärde
 
-Konturnivån för bokmärket. Giltigt intervall är 0 till 9.
+Bokmärkets dispositionsnivå. Giltigt intervall är 0 till 9.
 
 ## Exempel
 
-Visar hur du ställer in konturnivåer för bokmärken.
+Visar hur man ställer in konturnivåer för bokmärken.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett bokmärke med ett annat bokmärke kapslat inuti.
+// Infoga ett bokmärke med ett annat bokmärke inbäddat inuti det.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -48,9 +48,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// När du sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
-// Bokmärken kan också ha numeriska värden för konturnivåer,
-// möjliggör för konturposter på lägre nivå att dölja underordnade poster på högre nivå när de komprimeras i läsaren.
+// När man sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
+// Bokmärken kan också ha numeriska värden för dispositionsnivåer,
+// aktiverar dispositionsposter på lägre nivå för att dölja underordnade poster på högre nivå när de är hopfällda i läsaren.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -64,18 +64,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Vi kan ta bort två element så att endast konturnivåbeteckningen för "Bokmärke 1" finns kvar.
+// Vi kan ta bort två element så att endast beteckningen för dispositionsnivå för "Bokmärke 1" finns kvar.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Det finns nio konturnivåer. Deras numrering kommer att optimeras under lagringsoperationen.
-// I det här fallet kommer nivåerna "5" och "9" att bli "2" och "3".
+// Det finns nio dispositionsnivåer. Numreringen av dem optimeras när de sparas.
+// I det här fallet blir nivåerna "5" och "9" "2" och "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Att tömma den här samlingen kommer att bevara bokmärkena och placera dem alla på samma konturnivå.
+// Om du tömmer den här samlingen bevaras bokmärkena och de placeras alla på samma dispositionsnivå.
 outlineLevels.Clear();
 ```
 
@@ -89,7 +89,7 @@ outlineLevels.Clear();
 
 ## BookmarksOutlineLevelCollection indexer (2 of 2)
 
-Hämtar eller ställer in en bokmärkeskonturnivå vid angivet index.
+Hämtar eller ställer in en bokmärkesnivå vid det angivna indexet.
 
 ```csharp
 public int this[int index] { get; set; }
@@ -101,17 +101,17 @@ public int this[int index] { get; set; }
 
 ### Returvärde
 
-Konturnivån för bokmärket. Giltigt intervall är 0 till 9.
+Bokmärkets dispositionsnivå. Giltigt intervall är 0 till 9.
 
 ## Exempel
 
-Visar hur du ställer in konturnivåer för bokmärken.
+Visar hur man ställer in konturnivåer för bokmärken.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga ett bokmärke med ett annat bokmärke kapslat inuti.
+// Infoga ett bokmärke med ett annat bokmärke inbäddat inuti det.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -127,9 +127,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// När du sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
-// Bokmärken kan också ha numeriska värden för konturnivåer,
-// möjliggör för konturposter på lägre nivå att dölja underordnade poster på högre nivå när de komprimeras i läsaren.
+// När man sparar till .pdf kan bokmärken nås via en rullgardinsmeny och användas som ankare av de flesta läsare.
+// Bokmärken kan också ha numeriska värden för dispositionsnivåer,
+// aktiverar dispositionsposter på lägre nivå för att dölja underordnade poster på högre nivå när de är hopfällda i läsaren.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -143,18 +143,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// Vi kan ta bort två element så att endast konturnivåbeteckningen för "Bokmärke 1" finns kvar.
+// Vi kan ta bort två element så att endast beteckningen för dispositionsnivå för "Bokmärke 1" finns kvar.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Det finns nio konturnivåer. Deras numrering kommer att optimeras under lagringsoperationen.
-// I det här fallet kommer nivåerna "5" och "9" att bli "2" och "3".
+// Det finns nio dispositionsnivåer. Numreringen av dem optimeras när de sparas.
+// I det här fallet blir nivåerna "5" och "9" "2" och "3".
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Att tömma den här samlingen kommer att bevara bokmärkena och placera dem alla på samma konturnivå.
+// Om du tömmer den här samlingen bevaras bokmärkena och de placeras alla på samma dispositionsnivå.
 outlineLevels.Clear();
 ```
 

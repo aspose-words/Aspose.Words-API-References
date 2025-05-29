@@ -3,14 +3,14 @@ title: Story.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words لـ .NET
-description: Story LastParagraph ملكية. الحصول على الفقرة الأخيرة في القصة في C#.
+description: يمكنك الوصول إلى الفقرة الأخيرة من قصتك بسهولة باستخدام خاصية Story LastParagraph، مما يعزز تجربة إدارة السرد وتحريره.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/story/lastparagraph/
 ---
 ## Story.LastParagraph property
 
-الحصول على الفقرة الأخيرة في القصة.
+يحصل على الفقرة الأخيرة في القصة.
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -26,19 +26,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Run 1. ");
 
 // يحتوي منشئ المستندات على مؤشر يعمل كجزء من المستند
-// حيث يقوم المنشئ بإلحاق عقد جديدة عندما نستخدم طرق إنشاء المستندات الخاصة به.
-// يعمل هذا المؤشر بنفس طريقة عمل المؤشر الوامض في Microsoft Word،
-// وينتهي أيضًا دائمًا مباشرة بعد أي عقدة قام المنشئ بإدراجها للتو.
-// لإلحاق محتوى بجزء مختلف من المستند،
+// حيث يقوم المنشئ بإضافة عقد جديدة عندما نستخدم أساليب إنشاء المستندات الخاصة به.
+// يعمل هذا المؤشر بنفس الطريقة التي يعمل بها المؤشر الوامض في برنامج Microsoft Word،
+// وينتهي دائمًا على الفور بعد أي عقدة أدخلها المنشئ للتو.
+// لإضافة محتوى إلى جزء مختلف من المستند،
 // يمكننا نقل المؤشر إلى عقدة مختلفة باستخدام طريقة "MoveTo".
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
-// المؤشر الآن أمام العقدة التي نقلناه إليها.
+// أصبح المؤشر الآن أمام العقدة التي نقلناه إليها.
 // إضافة تشغيل ثانٍ سيؤدي إلى إدراجه أمام التشغيل الأول.
 builder.Writeln("Run 2. ");
 
 Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
 
-// حرك المؤشر إلى نهاية المستند لمواصلة إلحاق النص بالنهاية كما كان من قبل.
+// حرك المؤشر إلى نهاية المستند لمواصلة إضافة النص إلى النهاية كما في السابق.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 

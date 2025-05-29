@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately свойство. Флаг указывает следует ли помещать правила CSS fontface в отдельный файл fontFaces.css  когда документ сохраняется с внешней таблицей стилей т. е. когдаExportEmbeddedCss этоЛОЖЬ . Значение по умолчаниюЛОЖЬ  все правила CSS записаны в один файл styles.css на С#.
+description: Узнайте, как свойство SaveFontFaceCssSeparately оптимизирует управление CSS вашего документа, сохраняя правила шрифтов в отдельном файле для более чистого экспорта.
 type: docs
-weight: 160
+weight: 180
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Флаг указывает, следует ли помещать правила CSS «@font-face» в отдельный файл «fontFaces.css» , когда документ сохраняется с внешней таблицей стилей (т. е. когда[`ExportEmbeddedCss`](../exportembeddedcss/) это`ЛОЖЬ` ). Значение по умолчанию:`ЛОЖЬ` , все правила CSS записаны в один файл «styles.css».
+Флаг указывает, следует ли помещать правила CSS "@font-face" в отдельный файл "fontFaces.css" при сохранении документа с внешней таблицей стилей (то есть, когда[`ExportEmbeddedCss`](../exportembeddedcss/) это`ЛОЖЬ` ). Значение по умолчанию:`ЛОЖЬ` , все правила CSS записаны в один файл "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }

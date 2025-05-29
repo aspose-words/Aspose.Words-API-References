@@ -2,18 +2,71 @@
 title: FieldBibliography.FilterLanguageId
 linktitle: FilterLanguageId
 articleTitle: FilterLanguageId
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldBibliography FilterLanguageId 财产. 获取或设置语言 ID用于将书目数据过滤到文档中使用该语言的来源  在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldBibliography FilterLanguageId 属性如何通过按语言过滤来源以获得精确结果来增强您的书目数据管理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldbibliography/filterlanguageid/
 ---
 ## FieldBibliography.FilterLanguageId property
 
-获取或设置语言 ID，用于将书目数据过滤到文档中使用该语言的来源。 。
+获取或设置用于过滤书目数据以仅显示文档中使用该语言的来源的语言 ID。
 
 ```csharp
 public string FilterLanguageId { get; set; }
+```
+
+## 例子
+
+展示如何使用 CITATION 和 BIBLIOGRAPHY 字段。
+
+```csharp
+// 打开一个包含我们可以在其中找到的书目来源的文档
+// Microsoft Word 通过参考 -> 引文和参考书目 -> 管理来源。
+Document doc = new Document(MyDir + "Bibliography.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Text to be cited with one source.");
+
+// 仅使用所引用书籍的页码和作者来创建引文。
+FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+
+// 我们使用标签名称来引用来源。
+fieldCitation.SourceTag = "Book1";
+fieldCitation.PageNumber = "85";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = true;
+fieldCitation.SuppressYear = true;
+
+Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
+
+// 创建更详细的引用，引用两个来源。
+builder.InsertParagraph();
+builder.Write("Text to be cited with two sources.");
+fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+fieldCitation.SourceTag = "Book1";
+fieldCitation.AnotherSourceTag = "Book2";
+fieldCitation.FormatLanguageId = "en-US";
+fieldCitation.PageNumber = "19";
+fieldCitation.Prefix = "Prefix ";
+fieldCitation.Suffix = " Suffix";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = false;
+fieldCitation.SuppressYear = false;
+fieldCitation.VolumeNumber = "VII";
+
+Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
+
+// 我们可以使用 BIBLIOGRAPHY 字段来显示文档中的所有来源。
+builder.InsertBreak(BreakType.PageBreak);
+FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
+fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
+
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ```
 
 ### 也可以看看

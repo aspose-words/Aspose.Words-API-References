@@ -2,8 +2,8 @@
 title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
-second_title: Aspose.Words for .NET
-description: PageLayoutCallbackArgs Event mülk. Olayı alır C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamanızın işlevselliğini geliştirmek için PageLayoutCallbackArgs olay özelliğini keşfedin. Daha iyi performans için sorunsuz olay işlemeyi açın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -18,7 +18,7 @@ public PageLayoutEvent Event { get; }
 
 ## Örnekler
 
-Düzen geri çağrısıyla düzen değişikliklerinin nasıl izleneceğini gösterir.
+Düzen değişikliklerinin düzen geri aramasıyla nasıl izleneceğini gösterir.
 
 ```csharp
 public void PageLayoutCallback()
@@ -36,8 +36,8 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Belgeyi sabit sayfa formatında kaydettiğimizde bizi bilgilendirir
-/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfayı işler.
+/// Belgeyi sabit bir sayfa biçimine kaydettiğimizde bize bildirir
+/// ve yerel dosya sistemindeki bir görüntüye sayfa yeniden akışı gerçekleştirdiğimiz bir sayfa oluşturur.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

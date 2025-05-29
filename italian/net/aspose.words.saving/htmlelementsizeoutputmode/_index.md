@@ -3,9 +3,9 @@ title: HtmlElementSizeOutputMode Enum
 linktitle: HtmlElementSizeOutputMode
 articleTitle: HtmlElementSizeOutputMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.HtmlElementSizeOutputMode enum. Specifica come Aspose.Words esporta le larghezze e le altezze degli elementi in HTML MHTML ed EPUB in C#.
+description: Scopri Aspose.Words.Saving.HtmlElementSizeOutputMode. Controlla le dimensioni degli elementi per esportazioni HTML, MHTML ed EPUB ottimali. Migliora la formattazione dei tuoi documenti!
 type: docs
-weight: 5060
+weight: 5810
 url: /it/net/aspose.words.saving/htmlelementsizeoutputmode/
 ---
 ## HtmlElementSizeOutputMode enumeration
@@ -20,9 +20,9 @@ public enum HtmlElementSizeOutputMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| All | `0` | Vengono esportate tutte le dimensioni degli elementi, sia in unità assolute che relative, specificate nel documento. |
+| All | `0` | Vengono esportate tutte le dimensioni degli elementi specificate nel documento, sia in unità assolute che relative. |
 | RelativeOnly | `1` | Le dimensioni degli elementi vengono esportate solo se specificate in unità relative nel documento. Le dimensioni fisse non vengono esportate in questa modalità. Gli agenti visivi calcoleranno le dimensioni mancanti per rendere il layout del documento più naturale. |
-| None | `2` | Le dimensioni degli elementi non vengono esportate. Gli agenti visivi costruiranno automaticamente il layout in base alla relazione tra gli elementi. |
+| None | `2` | Le dimensioni degli elementi non vengono esportate. Gli agenti visivi creeranno automaticamente il layout in base alla relazione tra gli elementi. |
 
 ## Esempi
 
@@ -32,7 +32,7 @@ Mostra come preservare i rientri negativi nell'output .html.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite della pagina sinistra.
+// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite sinistro della pagina.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Inserisce una tabella con un rientro positivo, che sposterà la tabella a destra.
+// Inserisce una tabella con un rientro positivo, che la sposterà verso destra.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -55,7 +55,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Quando salviamo un documento in HTML, Aspose.Words conserverà solo i rientri negativi
-// come quello che abbiamo applicato alla prima tabella se impostiamo il flag "AllowNegativeIndent".
+// come quello che abbiamo applicato alla prima tabella se impostiamo il flag "AllowNegativeIndent"
 // in un oggetto SaveOptions che passeremo a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

@@ -3,7 +3,7 @@ title: ImageData.ImageType
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words для .NET
-description: ImageData ImageType свойство. Получает тип изображения на С#.
+description: Откройте для себя свойство ImageData ImageType, чтобы легко определять типы изображений и расширять возможности обработки изображений. Повысьте эффективность разработки уже сегодня!
 type: docs
 weight: 140
 url: /ru/net/aspose.words.drawing/imagedata/imagetype/
@@ -18,13 +18,13 @@ public ImageType ImageType { get; }
 
 ## Примеры
 
-Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
+Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получаем коллекцию фигур из документа,
-// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить коллекцию фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -35,7 +35,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
-        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
+        // Мы можем автоматически определить расширение файла для каждого изображения на основе его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

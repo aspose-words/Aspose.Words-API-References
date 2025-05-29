@@ -2,15 +2,15 @@
 title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
-second_title: Aspose.Words for .NET
-description: BorderCollection DistanceFromText mülk. Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımlarınızdaki metinden kenarlık aralığını kolayca özelleştirmek için BorderCollection DistanceFromText özelliğini keşfedin. Düzeninizi zahmetsizce optimize edin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-Kenarlığın metinden uzaklığını nokta cinsinden alır veya ayarlar.
+Sınırın metinden uzaklığını noktalar halinde alır veya ayarlar.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,11 +18,11 @@ public double DistanceFromText { get; set; }
 
 ## Notlar
 
-İlk kenarlık için metinden uzaklığı alır.
+İlk kenarlığın metinden uzaklığını alır.
 
-Çapraz kenarlıklar hariç, koleksiyondaki tüm kenarlıklar için metinden uzaklığı ayarlar.
+Koleksiyondaki çapraz kenarlıklar hariç tüm kenarlıklar için metinden uzaklığı ayarlar.
 
-Hiçbir etkisi yoktur ve tablo hücrelerinin kenarlıkları otomatik olarak sıfırlanır.
+Hiçbir etkisi yoktur ve tablo hücrelerinin sınırları için otomatik olarak sıfırlanır.
 
 ## Örnekler
 

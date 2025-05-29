@@ -3,14 +3,14 @@ title: VbaModule.SourceCode
 linktitle: SourceCode
 articleTitle: SourceCode
 second_title: Aspose.Words för .NET
-description: VbaModule SourceCode fast egendom. Hämtar eller ställer in VBAprojektmodulens källkod i C#.
+description: Få tillgång till och modifiera din VBA-projektmoduls källkod utan problem med egenskapen VbaModule SourceCode. Öka din kodningseffektivitet idag!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.vba/vbamodule/sourcecode/
 ---
 ## VbaModule.SourceCode property
 
-Hämtar eller ställer in VBA-projektmodulens källkod.
+Hämtar eller ställer in källkoden för VBA-projektmodulen.
 
 ```csharp
 public string SourceCode { get; set; }
@@ -51,14 +51,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

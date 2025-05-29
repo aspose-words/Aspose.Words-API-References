@@ -3,14 +3,14 @@ title: List.ListId
 linktitle: ListId
 articleTitle: ListId
 second_title: Aspose.Words لـ .NET
-description: List ListId ملكية. الحصول على المعرف الفريد للقائمة في C#.
+description: اكتشف خاصية ListId الفريدة للوصول إلى قوائمك وإدارتها بسهولة. سهّل سير عملك باستخدام هذا المُعرِّف الأساسي.
 type: docs
 weight: 60
 url: /ar/net/aspose.words.lists/list/listid/
 ---
 ## List.ListId property
 
-الحصول على المعرف الفريد للقائمة.
+يحصل على معرف فريد للقائمة.
 
 ```csharp
 public int ListId { get; }
@@ -18,7 +18,7 @@ public int ListId { get; }
 
 ## ملاحظات
 
-لا تحتاج عادةً إلى استخدام هذه الخاصية. ولكن إذا كنت تستخدمه، فإنك عادةً ما تفعل ذلك بالتزامن مع[`GetListByListId`](../../listcollection/getlistbylistid/) طريقة للعثور على قائمة a بواسطة معرفها.
+لا تحتاج عادةً إلى استخدام هذه الخاصية. ولكن إذا استخدمتها، فستفعل ذلك عادةً بالتزامن مع[`GetListByListId`](../../listcollection/getlistbylistid/) طريقة للعثور على قائمة a من خلال معرفها.
 
 ## أمثلة
 
@@ -39,7 +39,7 @@ Console.WriteLine("ListId: " + list.ListId);
 Console.WriteLine("List is the same by ListId: " + (lists.GetListByListId(1).Equals(list)));
 ```
 
-يوضح كيفية إخراج كافة الفقرات في مستند عبارة عن عناصر قائمة.
+يوضح كيفية إخراج كافة الفقرات في المستند التي تعد عناصر قائمة.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

@@ -3,14 +3,14 @@ title: FieldSkipIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words für .NET
-description: FieldSkipIf LeftExpression eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldSkipIf LeftExpression“ und verwalten Sie ganz einfach die linke Seite Ihrer Vergleichsausdrücke für verbesserte Datenkontrolle und Flexibilität.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldskipif/leftexpression/
 ---
 ## FieldSkipIf.LeftExpression property
 
-Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
+Ruft den linken Teil des Vergleichsausdrucks ab oder legt ihn fest.
 
 ```csharp
 public string LeftExpression { get; set; }
@@ -18,14 +18,14 @@ public string LeftExpression { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Seiten in einem Seriendruck mithilfe des SKIPIF-Felds übersprungen werden.
+Zeigt, wie Sie mithilfe des Felds SKIPIF Seiten in einem Serienbrief überspringen.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein SKIPIF-Feld einfügen. Wenn die aktuelle Zeile eines Serienbriefvorgangs die Bedingung erfüllt
-// was die Ausdrücke dieses Feldes angeben, dann bricht der Seriendruckvorgang die aktuelle Zeile ab,
+// Fügt ein SKIPIF-Feld ein. Wenn die aktuelle Zeile einer Serienbriefoperation die Bedingung erfüllt
+// was die Ausdrücke dieses Feldes angeben, dann bricht der Serienbriefvorgang die aktuelle Zeile ab,
 // verwirft das aktuelle Zusammenführungsdokument und wechselt dann sofort zur nächsten Zeile, um mit dem nächsten Zusammenführungsdokument zu beginnen.
 FieldSkipIf fieldSkipIf = (FieldSkipIf) builder.InsertField(FieldType.FieldSkipIf, true);
 
@@ -34,19 +34,19 @@ builder.MoveTo(fieldSkipIf.Separator);
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Department";
 
-// Das MERGEFIELD bezieht sich auf die Spalte „Abteilung“ in unserer Datentabelle. Wenn eine Zeile aus dieser Tabelle
-// in der Spalte „Abteilung“ den Wert „HR“ hat, erfüllt diese Zeile die Bedingung.
+// Das MERGEFIELD bezieht sich auf die Spalte "Abteilung" in unserer Datentabelle. Wenn eine Zeile aus dieser Tabelle
+// hat in der Spalte „Abteilung“ den Wert „HR“, dann erfüllt diese Zeile die Bedingung.
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "HR";
 
-// Fügen Sie Inhalt zu unserem Dokument hinzu, erstellen Sie die Datenquelle und führen Sie den Serienbrief aus.
+// Fügen Sie unserem Dokument Inhalt hinzu, erstellen Sie die Datenquelle und führen Sie den Serienbrief aus.
 builder.MoveToDocumentEnd();
 builder.Write("Dear ");
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Name";
 builder.Writeln(", ");
 
- // Diese Tabelle hat drei Zeilen und eine davon erfüllt die Bedingung unseres SKIPIF-Felds.
+    // Diese Tabelle hat drei Zeilen und eine davon erfüllt die Bedingung unseres SKIPIF-Felds.
 // Der Serienbrief erzeugt zwei Seiten.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
@@ -59,7 +59,7 @@ doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.SKIPIF.docx");
 ```
 
-Zeigt, wie die Felder MERGEREC und MERGESEQ zur Anzahl und Zählung von Serienbriefdatensätzen in den Ausgabedokumenten eines Serienbriefs verwendet werden.
+Zeigt, wie die Felder MERGEREC und MERGESEQ zum Nummerieren und Zählen von Serienbriefdatensätzen in den Ausgabedokumenten eines Serienbriefs verwendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -70,21 +70,21 @@ FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType
 fieldMergeField.FieldName = "Name";
 builder.Writeln(",");
 
-// Ein MERGEREC-Feld gibt die Zeilennummer der Daten aus, die in jedem Zusammenführungsausgabedokument zusammengeführt werden.
+// Ein MERGEREC-Feld druckt die Zeilennummer der zusammengeführten Daten in jedem Zusammenführungsausgabedokument.
 builder.Write("\nRow number of record in data source: ");
 FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
 
 Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 
-// Ein MERGESEQ-Feld zählt die Anzahl erfolgreicher Zusammenführungen und gibt den aktuellen Wert auf jeder entsprechenden Seite aus.
-// Wenn ein Serienbrief keine Zeilen überspringt und keine SKIP/SKIPIF/NEXT/NEXTIF-Felder aufruft, sind alle Serienbriefe erfolgreich.
-// Die Felder MERGESEQ und MERGEREC zeigen die gleichen Ergebnisse an, wenn der Serienbrief erfolgreich war.
+// Ein MERGESEQ-Feld zählt die Anzahl der erfolgreichen Zusammenführungen und druckt den aktuellen Wert auf der jeweiligen Seite.
+// Wenn bei einem Serienbrief keine Zeilen übersprungen werden und keine SKIP/SKIPIF/NEXT/NEXTIF-Felder aufgerufen werden, sind alle Serienbriefe erfolgreich.
+// Die Felder MERGESEQ und MERGEREC zeigen die gleichen Ergebnisse an, wenn der Seriendruck erfolgreich war.
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
 Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
 
-// Ein SKIPIF-Feld einfügen, das eine Zusammenführung überspringt, wenn der Name „John Doe“ ist.
+// Fügen Sie ein SKIPIF-Feld ein, das eine Zusammenführung überspringt, wenn der Name „John Doe“ lautet.
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
 builder.MoveTo(fieldSkipIf.Separator);
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -93,16 +93,16 @@ fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "John Doe";
 
 // Erstellen Sie eine Datenquelle mit 3 Zeilen, von denen eine „John Doe“ als Wert für die Spalte „Name“ enthält.
-// Da ein SKIPIF-Feld einmal durch diesen Wert ausgelöst wird, wird die Ausgabe unseres Seriendrucks 2 Seiten statt 3 haben.
+// Da ein SKIPIF-Feld einmal durch diesen Wert ausgelöst wird, besteht die Ausgabe unseres Serienbriefs aus 2 statt 3 Seiten.
 // Auf Seite 1 zeigen die Felder MERGESEQ und MERGEREC beide „1“ an.
-// Auf Seite 2 wird im Feld MERGEREC „3“ und im Feld MERGESEQ „2“ angezeigt.
+// Auf Seite 2 zeigt das Feld MERGEREC „3“ und das Feld MERGESEQ „2“ an.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
-table.Rows.Add(new[] { "Jane Doe" });
-table.Rows.Add(new[] { "John Doe" });
-table.Rows.Add(new[] { "Joe Bloggs" });
+table.Rows.Add("Jane Doe");
+table.Rows.Add("John Doe");
+table.Rows.Add("Joe Bloggs");
 
-doc.MailMerge.Execute(table);            
+doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

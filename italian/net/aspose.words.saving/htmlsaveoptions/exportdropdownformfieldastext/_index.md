@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
 articleTitle: ExportDropDownFormFieldAsText
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportDropDownFormFieldAsText proprietà. Controlla il modo in cui i campi del modulo a discesa vengono salvati in HTML o MHTML. Il valore predefinito èfalso  in C#.
+description: Scopri come la proprietà ExportDropDownFormFieldAsText di HtmlSaveOptions migliora le tue esportazioni HTML/MHTML controllando i formati dei campi a discesa. Ottimizza i tuoi documenti!
 type: docs
 weight: 130
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Controlla il modo in cui i campi del modulo a discesa vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
+Controlla come i campi del modulo a discesa vengono salvati in HTML o MHTML. Il valore predefinito è`falso` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -20,11 +20,11 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 Quando impostato su`VERO` , esporta i campi del modulo a discesa come testo normale. Quando`falso`, esporta i campi del modulo a discesa come elemento SELECT in HTML.
 
-Quando si esporta in EPUB, i campi del modulo a discesa di testo vengono sempre salvati come testo a causa dei requisiti di questo formato.
+Durante l'esportazione in EPUB, i campi del modulo a discesa di testo vengono sempre salvati come testo due per rispettare i requisiti di questo formato.
 
 ## Esempi
 
-Mostra come ottenere che i campi del modulo della casella combinata a discesa si fondano con il testo del paragrafo durante il salvataggio in HTML.
+Mostra come far sì che i campi dei moduli con casella combinata a discesa si fondano con il testo del paragrafo durante il salvataggio in formato HTML.
 
 ```csharp
 Document doc = new Document();
@@ -34,10 +34,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
 // Il flag "ExportDropDownFormFieldAsText" di questo oggetto SaveOptions ci consente di
-// controlla come il salvataggio del documento in HTML tratta le caselle combinate a discesa.
-// Impostandolo su "true" ogni casella combinata verrà convertita in testo semplice
-// che visualizza il valore attualmente selezionato della casella combinata, bloccandolo di fatto.
-// Impostandolo su "false" si manterrà la funzionalità della casella combinata utilizzando <select> e <opzione> tag.
+// controlla il modo in cui il salvataggio del documento in HTML gestisce le caselle combinate a discesa.
+// Impostandolo su "true" convertirà ogni casella combinata in testo semplice
+// che visualizza il valore attualmente selezionato nella casella combinata, di fatto bloccandolo.
+// Impostandolo su "false" verrà preservata la funzionalità della casella combinata utilizzando i tag <select> e <option>.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

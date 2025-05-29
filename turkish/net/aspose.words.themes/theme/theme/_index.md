@@ -2,8 +2,8 @@
 title: Theme
 linktitle: Theme
 articleTitle: Theme
-second_title: Aspose.Words for .NET
-description: Theme inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sezgisel oluşturucumuzla zahmetsizce çarpıcı temalar oluşturun. Tasarımınızı kolaylıkla özelleştirin ve web sitenizin çekiciliğini bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.themes/theme/theme/

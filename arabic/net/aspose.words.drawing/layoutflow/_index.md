@@ -3,9 +3,9 @@ title: LayoutFlow Enum
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.LayoutFlow تعداد. يحدد تدفق تخطيط النص في مربع النص في C#.
+description: اكتشف Aspose.Words.Drawing.LayoutFlow للتحكم في تخطيط النص في مربعات النص، مما يعزز تصميم مستندك وقابليته للقراءة بسهولة.
 type: docs
-weight: 1100
+weight: 1430
 url: /ar/net/aspose.words.drawing/layoutflow/
 ---
 ## LayoutFlow enumeration
@@ -21,10 +21,10 @@ public enum LayoutFlow
 | اسم | قيمة | وصف |
 | --- | --- | --- |
 | Horizontal | `0` | يتم عرض النص أفقيًا. |
-| TopToBottomIdeographic | `1` | يتم عرض النص الإيديوغرافي عموديًا. |
+| TopToBottomIdeographic | `1` | يتم عرض النص الأيديوغرافي عموديًا. |
 | BottomToTop | `2` | يتم عرض النص عموديًا. |
 | TopToBottom | `3` | يتم عرض النص عموديًا. |
-| HorizontalIdeographic | `4` | يتم عرض النص الإيديوغرافي أفقيًا. |
+| HorizontalIdeographic | `4` | يتم عرض النص الأيديوغرافي أفقيًا. |
 | Vertical | `5` | يتم عرض النص عموديًا. |
 
 ## أمثلة
@@ -37,10 +37,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape textbox = new Shape(doc, ShapeType.TextBox)
 {
-    Width = 100, 
-    Height = 100,
-    TextBox = { LayoutFlow = LayoutFlow.BottomToTop }
+    Width = 100,
+    Height = 100
 };
+textbox.TextBox.LayoutFlow = LayoutFlow.BottomToTop;
 
 textbox.AppendChild(new Paragraph(doc));
 builder.InsertNode(textbox);

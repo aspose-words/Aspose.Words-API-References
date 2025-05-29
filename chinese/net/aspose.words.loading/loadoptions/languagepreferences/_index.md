@@ -2,15 +2,15 @@
 title: LoadOptions.LanguagePreferences
 linktitle: LanguagePreferences
 articleTitle: LanguagePreferences
-second_title: 用于 .NET 的 Aspose.Words
-description: LoadOptions LanguagePreferences 财产. 获取加载文档时将使用的语言首选项 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 LoadOptions LanguagePreferences 以使用首选语言自定义文档加载，增强用户体验和可访问性。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.loading/loadoptions/languagepreferences/
 ---
 ## LoadOptions.LanguagePreferences property
 
-获取加载文档时将使用的语言首选项。
+获取文档加载时将使用的语言首选项。
 
 ```csharp
 public LanguagePreferences LanguagePreferences { get; }
@@ -18,7 +18,7 @@ public LanguagePreferences LanguagePreferences { get; }
 
 ## 例子
 
-演示如何在加载文档时应用语言首选项。
+展示如何在加载文档时应用语言首选项。
 
 ```csharp
 LoadOptions loadOptions = new LoadOptions();

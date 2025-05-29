@@ -3,7 +3,7 @@ title: FontInfoCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: FontInfoCollection Count propriété. Obtient le nombre déléments contenus dans la collection en C#.
+description: Découvrez la propriété FontInfoCollection Count, récupérez sans effort le nombre total d'éléments de votre collection pour une gestion transparente des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fonts/fontinfocollection/count/
@@ -23,7 +23,7 @@ Affiche des informations sur les polices présentes dans le document vierge.
 ```csharp
 Document doc = new Document();
 
-// Un document vierge contient 3 polices par défaut. Chaque police du document
+// Un document vierge contient trois polices par défaut. Chaque police du document
 // aura un objet FontInfo correspondant qui contient des détails sur cette police.
 Assert.AreEqual(3, doc.FontInfos.Count);
 

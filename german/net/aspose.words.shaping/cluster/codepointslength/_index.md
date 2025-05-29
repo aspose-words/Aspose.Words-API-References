@@ -3,14 +3,14 @@ title: Cluster.CodepointsLength
 linktitle: CodepointsLength
 articleTitle: CodepointsLength
 second_title: Aspose.Words für .NET
-description: Cluster CodepointsLength eigendom. Ruft die Gesamtzahl der Codepunkte im abCluster  in C#.
+description: Entdecken Sie die Cluster CodepointsLength-Eigenschaft, um die Gesamtzahl der Codepunkte in Ihren Datenclustern effizient zu berechnen. Steigern Sie noch heute die Leistung!
 type: docs
 weight: 30
 url: /de/net/aspose.words.shaping/cluster/codepointslength/
 ---
 ## Cluster.CodepointsLength property
 
-Ruft die Gesamtzahl der Codepunkte im ab[`Cluster`](../) .
+Ermittelt die Gesamtzahl der Codepunkte in der[`Cluster`](../) .
 
 ```csharp
 public int CodepointsLength { get; }

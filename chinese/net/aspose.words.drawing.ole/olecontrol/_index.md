@@ -2,15 +2,15 @@
 title: OleControl Class
 linktitle: OleControl
 articleTitle: OleControl
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Ole.OleControl 班级. 代表 OLE ActiveX 控件 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Ole.OleControl 类，以便在您的应用程序中无缝集成 OLE ActiveX 控件，从而增强功能。
 type: docs
-weight: 1140
+weight: 1500
 url: /zh/net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
 
-代表 OLE ActiveX 控件。
+表示 OLE ActiveX 控件。
 
 要了解更多信息，请访问[使用 Ole 对象](https://docs.aspose.com/words/net/working-with-ole-objects/)文档文章。
 
@@ -22,25 +22,25 @@ public class OleControl
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | 返回`真的`如果控制是[`Forms2OleControl`](../forms2olecontrol/). |
+| [IsForms2OleControl](../../aspose.words.drawing.ole/olecontrol/isforms2olecontrol/) { get; } | 返回`真的`如果控件是[`Forms2OleControl`](../forms2olecontrol/). |
 | [Name](../../aspose.words.drawing.ole/olecontrol/name/) { get; set; } | 获取或设置 ActiveX 控件的名称。 |
 
 ## 例子
 
-演示如何验证 ActiveX 控件的属性。
+展示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

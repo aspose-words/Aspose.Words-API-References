@@ -3,9 +3,9 @@ title: DocumentBuilder.PushFont
 linktitle: PushFont
 articleTitle: PushFont
 second_title: Aspose.Words för .NET
-description: DocumentBuilder PushFont metod. Sparar aktuell teckenformatering i stacken i C#.
+description: Upptäck hur DocumentBuilder PushFont-metoden förbättrar formateringen av ditt dokument genom att spara teckenformat för enkel hämtning och enhetlig design.
 type: docs
-weight: 600
+weight: 640
 url: /sv/net/aspose.words/documentbuilder/pushfont/
 ---
 ## DocumentBuilder.PushFont method
@@ -18,23 +18,23 @@ public void PushFont()
 
 ## Exempel
 
-Visar hur du använder en dokumentbyggares formateringsstack.
+Visar hur man använder formateringsstack för ett dokumentverktyg.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in teckensnittsformatering och skriv sedan texten som går före hyperlänken.
+// Ställ in teckensnittsformatering och skriv sedan texten som kommer före hyperlänken.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
 
-// Bevara vår nuvarande formateringskonfiguration i stacken.
+// Bevara vår nuvarande formateringskonfiguration på stacken.
 builder.PushFont();
 
-// Ändra byggarens nuvarande formatering genom att använda en ny stil.
+// Ändra verktygets nuvarande formatering genom att använda en ny stil.
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
-builder.InsertHyperlink("here", "http://www.google.com", false);
+builder.InsertHyperlink("here", "http://www.google.com", falskt);
 
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);

@@ -3,14 +3,14 @@ title: Fill.ForeThemeColor
 linktitle: ForeThemeColor
 articleTitle: ForeThemeColor
 second_title: Aspose.Words لـ .NET
-description: Fill ForeThemeColor ملكية. الحصول على أو تعيين كائن ThemeColor الذي يمثل اللون الأمامي للتعبئة في C#.
+description: اكتشف كيفية ضبط خاصية ForeThemeColor لتخصيص تصميمك بألوان تعبئة نابضة بالحياة. حسّن مظهر مشروعك البصري بسهولة!
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.drawing/fill/forethemecolor/
 ---
 ## Fill.ForeThemeColor property
 
-الحصول على أو تعيين كائن ThemeColor الذي يمثل اللون الأمامي للتعبئة.
+يحصل على كائن ThemeColor أو يعينه، والذي يمثل لون المقدمة للتعبئة.
 
 ```csharp
 public ThemeColor ForeThemeColor { get; set; }

@@ -3,9 +3,9 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.MailMergeDataType énumération. Spécifie le type dune source de données de publipostage externe en C#.
+description: Découvrez l'énumération Aspose.Words.MailMergeDataType pour une intégration transparente de sources de données externes dans vos projets d'automatisation de documents.
 type: docs
-weight: 5820
+weight: 6650
 url: /fr/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
@@ -20,8 +20,8 @@ public enum MailMergeDataType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| None | `-1` | Aucune source de données de fusion et publipostage n'est spécifiée. |
-| TextFile | `0` | Spécifie qu'un document donné a été connecté à un fichier texte via le système Dynamic Data Exchange (DDE). |
+| None | `-1` | Aucune source de données de publipostage n'est spécifiée. |
+| TextFile | `0` | Spécifie qu'un document donné a été connecté à un fichier texte via le système d'échange dynamique de données (DDE). |
 | Database | `1` | Spécifie qu'un document donné a été connecté à une base de données Access via le système Dynamic Data Exchange (DDE). |
 | Spreadsheet | `2` | Spécifie qu'un document donné a été connecté à une feuille de calcul Excel via le système Dynamic Data Exchange (DDE). |
 | Query | `3` | Spécifie qu'un document donné a été connecté à une source de données externe à l'aide d'un outil de requête externe. |
@@ -31,7 +31,7 @@ public enum MailMergeDataType
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -44,8 +44,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

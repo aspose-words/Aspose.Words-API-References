@@ -2,8 +2,8 @@
 title: CsvDataLoadOptions
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: CsvDataLoadOptions 构造函数. 使用默认选项初始化此类的新实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CsvDataLoadOptions 构造函数——使用默认设置轻松初始化，实现高效的数据加载和无缝集成。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
@@ -16,6 +16,25 @@ url: /zh/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/
 public CsvDataLoadOptions()
 ```
 
+## 例子
+
+展示如何使用 CSV 作为数据源（字符串）。
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
+
 ### 也可以看看
 
 * class [CsvDataLoadOptions](../)
@@ -26,10 +45,29 @@ public CsvDataLoadOptions()
 
 ## CsvDataLoadOptions(*bool*) {#constructor_1}
 
-初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名称 。
+初始化此类的新实例，并指定 CSV 数据是否在第一行包含列名 。
 
 ```csharp
 public CsvDataLoadOptions(bool hasHeaders)
+```
+
+## 例子
+
+展示如何使用 CSV 作为数据源（字符串）。
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
 ```
 
 ### 也可以看看

@@ -3,7 +3,7 @@ title: CustomPart
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words för .NET
-description: CustomPart byggare. Default_Constructor i C#.
+description: Upptäck CustomPart-konstruktören, din lösning för skräddarsydda komponenter. Frigör effektivitet och precision för dina projekt idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/custompart/custompart/

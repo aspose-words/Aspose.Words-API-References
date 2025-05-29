@@ -2,15 +2,15 @@
 title: ParagraphFormat.PageBreakBefore
 linktitle: PageBreakBefore
 articleTitle: PageBreakBefore
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat PageBreakBefore 财产. 如果在段落之前强制分页则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ParagraphFormat PageBreakBefore 属性，轻松控制段落前的分页符，以增强文档格式和可读性。
 type: docs
-weight: 260
+weight: 270
 url: /zh/net/aspose.words/paragraphformat/pagebreakbefore/
 ---
 ## ParagraphFormat.PageBreakBefore property
 
-如果在段落之前强制分页，则为 True。
+如果在段落前强制分页，则为真。
 
 ```csharp
 public bool PageBreakBefore { get; set; }
@@ -18,17 +18,17 @@ public bool PageBreakBefore { get; set; }
 
 ## 例子
 
-演示如何创建开头带有分页符的段落。
+展示如何创建在开头带有分页符的段落。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 将此标志设置为“true”以将分页符应用于每个段落的开头
-// 文档生成器将在此 ParagraphFormat 配置下创建。
-// 第一段不会出现分页符。
-// 将此标志保留为“false”以在同一页面上开始每个新段落
-// 和前面一样，只要有足够的空间。
+// 文档构建器将在此 ParagraphFormat 配置下创建。
+// 第一段不会有分页符。
+// 将此标志保留为“false”，以便在同一页面上开始每个新段落
+// 与前一个一样，只要有足够的空间。
 builder.ParagraphFormat.PageBreakBefore = pageBreakBefore;
 
 builder.Writeln("Paragraph 1.");

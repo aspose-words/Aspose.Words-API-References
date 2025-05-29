@@ -3,14 +3,14 @@ title: AxisBound
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words para .NET
-description: AxisBound constructor. Crea una nueva instancia que indica que el límite del eje debe determinarse automáticamente mediante una aplicación de procesamiento de textos  en C#.
+description: Cree límites de ejes dinámicos sin esfuerzo con el constructor AxisBound, lo que permite que su aplicación de procesamiento de texto determine automáticamente diseños óptimos para una mejor experiencia del usuario.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-Crea una nueva instancia que indica que el límite del eje debe determinarse automáticamente mediante una aplicación de procesamiento de textos .
+Crea una nueva instancia que indica que el límite del eje debe ser determinado automáticamente por una aplicación de procesamiento de textos.
 
 ```csharp
 public AxisBound()
@@ -18,7 +18,7 @@ public AxisBound()
 
 ## Ejemplos
 
-Muestra cómo establecer límites de eje personalizados.
+Muestra cómo establecer límites de ejes personalizados.
 
 ```csharp
 Document doc = new Document();
@@ -27,21 +27,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agrega una serie con dos matrices decimales. La primera matriz contiene los valores X,
-// y el segundo contiene los valores Y correspondientes a los puntos del gráfico de dispersión.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+// Suma una serie con dos matrices decimales. La primera matriz contiene los valores de X.
+// y el segundo contiene valores Y correspondientes para los puntos en el gráfico de dispersión.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
-// De forma predeterminada, la escala predeterminada se aplica a los ejes X e Y del gráfico,
-// para que ambos rangos sean lo suficientemente grandes como para abarcar todos los valores X e Y de cada serie.
+// De forma predeterminada, la escala predeterminada se aplica a los ejes X e Y del gráfico.
+// de modo que ambos rangos sean lo suficientemente grandes para abarcar todos los valores X e Y de cada serie.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
-// Podemos definir nuestros propios límites de eje.
-// En este caso, haremos que las reglas de los ejes X e Y muestren un rango de 0 a 10.
+//Podemos definir nuestros propios límites de eje.
+// En este caso, haremos que las reglas del eje X e Y muestren un rango de 0 a 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -91,7 +91,7 @@ public AxisBound(double value)
 
 ## Ejemplos
 
-Muestra cómo insertar un gráfico con valores de fecha/hora.
+Muestra cómo insertar un gráfico con valores de fecha y hora.
 
 ```csharp
 Document doc = new Document();
@@ -100,10 +100,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha y hora para el eje X y valores decimales respectivos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -112,12 +112,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establece límites superior e inferior para el eje X.
+// Establezca límites inferior y superior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
+// Establezca las unidades principales del eje X en una semana y las unidades secundarias en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -126,9 +126,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definir propiedades del eje Y para valores decimales.
+// Define las propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
@@ -150,7 +150,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(*DateTime*) {#constructor_2}
 
-Crea un límite de eje representado como valor de fecha y hora.
+Crea un límite de eje representado como un valor de fecha y hora.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -158,7 +158,7 @@ public AxisBound(DateTime datetime)
 
 ## Ejemplos
 
-Muestra cómo insertar un gráfico con valores de fecha/hora.
+Muestra cómo insertar un gráfico con valores de fecha y hora.
 
 ```csharp
 Document doc = new Document();
@@ -167,10 +167,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha y hora para el eje X y valores decimales respectivos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -179,12 +179,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establece límites superior e inferior para el eje X.
+// Establezca límites inferior y superior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
+// Establezca las unidades principales del eje X en una semana y las unidades secundarias en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -193,9 +193,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definir propiedades del eje Y para valores decimales.
+// Define las propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

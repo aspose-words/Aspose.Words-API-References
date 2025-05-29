@@ -3,14 +3,14 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words para .NET
-description: Font Bold propiedad. Verdadero si la fuente tiene el formato negrita en C#.
+description: Descubra la propiedad Font Bold, identifique fácilmente si su texto está en negrita, mejorando la legibilidad y el estilo de sus proyectos de diseño web.
 type: docs
 weight: 40
 url: /es/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-Verdadero si la fuente tiene el formato negrita.
+Verdadero si la fuente está formateada en negrita.
 
 ```csharp
 public bool Bold { get; set; }
@@ -18,7 +18,7 @@ public bool Bold { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar texto formateado usando DocumentBuilder.
+Muestra cómo insertar texto formateado utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

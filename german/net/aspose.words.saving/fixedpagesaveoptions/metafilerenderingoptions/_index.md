@@ -3,14 +3,14 @@ title: FixedPageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words für .NET
-description: FixedPageSaveOptions MetafileRenderingOptions eigendom. Ermöglicht die Angabe von MetadateiRenderingOptionen in C#.
+description: Entdecken Sie die MetafileRenderingOptions-Eigenschaft von FixedPageSaveOptions, um Ihr Metadatei-Rendering für optimale Ergebnisse anzupassen und zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
 ---
 ## FixedPageSaveOptions.MetafileRenderingOptions property
 
-Ermöglicht die Angabe von Metadatei-Rendering-Optionen.
+Ermöglicht die Angabe von Optionen für das Rendern von Metadateien.
 
 ```csharp
 public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
@@ -18,7 +18,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 
 ## Beispiele
 
-Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art von Warnungen zu nicht unterstützten Metadateidatensätzen an.
+Zeigt einen Fallback für die Bitmap-Wiedergabe und eine Änderung der Art der Warnungen zu nicht unterstützten Metadateidatensätzen an.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -27,16 +27,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Setzen Sie die Eigenschaft „EmulateRasterOperations“ auf „false“, um auf die Bitmap zurückzugreifen, wenn
-    // es trifft auf eine Metadatei, die Rasteroperationen zum Rendern in der Ausgabe-PDF erfordert.
+    // Setzen Sie die Eigenschaft "EmulateRasterOperations" auf "false", um auf Bitmap zurückzugreifen, wenn
+    // Es wird auf eine Metadatei gestoßen, die Rasteroperationen erfordert, um sie im Ausgabe-PDF darzustellen.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
     // Setzen Sie die Eigenschaft „RenderingMode“ auf „VectorWithFallback“, um zu versuchen, jede Metadatei mithilfe von Vektorgrafiken zu rendern.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Erstellen Sie ein „PdfSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "PdfSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie diese Methode das Dokument in .PDF konvertiert und die Konfiguration anwendet
-    // in unserem MetafileRenderingOptions-Objekt für den Speichervorgang.
+    // in unserem MetafileRenderingOptions-Objekt zum Speichervorgang.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 
@@ -51,7 +51,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Druckt und sammelt Warnungen im Zusammenhang mit Formatierungsverlusten, die beim Speichern eines Dokuments auftreten.
+/// Druckt und sammelt Warnungen bezüglich Formatierungsverlust, die beim Speichern eines Dokuments auftreten.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

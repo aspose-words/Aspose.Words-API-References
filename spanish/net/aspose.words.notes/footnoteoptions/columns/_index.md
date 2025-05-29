@@ -3,7 +3,7 @@ title: FootnoteOptions.Columns
 linktitle: Columns
 articleTitle: Columns
 second_title: Aspose.Words para .NET
-description: FootnoteOptions Columns propiedad. Especifica el número de columnas con las que se formatea el área de notas al pie en C#.
+description: Descubra la propiedad Columnas FootnoteOptions para formatear fácilmente sus notas al pie con diseños de columnas personalizables para una mejor legibilidad y presentación.
 type: docs
 weight: 10
 url: /es/net/aspose.words.notes/footnoteoptions/columns/
@@ -18,7 +18,7 @@ public int Columns { get; set; }
 
 ## Observaciones
 
-Si esta propiedad tiene el valor de 0, el área de notas al pie tiene formato con una cantidad de columnas basadas en la cantidad de columnas en la página mostrada. El valor predeterminado es 0.
+Si esta propiedad tiene el valor 0, el área de notas al pie se formatea con un número de columnas basado en el número de columnas de la página mostrada. El valor predeterminado es 0.
 
 ## Ejemplos
 

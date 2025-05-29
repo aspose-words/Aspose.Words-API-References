@@ -3,9 +3,9 @@ title: WarningType Enum
 linktitle: WarningType
 articleTitle: WarningType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WarningType تعداد. يحدد نوع التحذير الذي يصدره Aspose.Words أثناء تحميل المستند أو حفظه في C#.
+description: اكتشف Aspose.Words.WarningType enum، الذي يصنف التحذيرات أثناء تحميل المستند أو حفظه، مما يعمل على تحسين تجربة إدارة المستندات لديك.
 type: docs
-weight: 6660
+weight: 7510
 url: /ar/net/aspose.words/warningtype/
 ---
 ## WarningType enumeration
@@ -21,16 +21,16 @@ public enum WarningType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| DataLossCategory | `FF` | سيتم فقدان بعض النص/الحرف/الصورة أو البيانات الأخرى إما من شجرة المستند بعد التحميل، أو من المستند الذي تم إنشاؤه بعد الحفظ. |
-| DataLoss | `1` | فقدان بيانات عام، لا يوجد رمز محدد. |
-| MajorFormattingLossCategory | `FF00` | قد يبدو المستند الناتج أو موقع معين فيه مختلفًا إلى حد كبير مقارنة بالمستند الأصلي. |
-| MajorFormattingLoss | `100` | فقدان التنسيق الرئيسي العام، لا يوجد رمز محدد. |
-| MinorFormattingLossCategory | `FF0000` | قد يبدو المستند الناتج أو موقع معين فيه مختلفًا بعض الشيء مقارنة بالمستند الأصلي. |
-| MinorFormattingLoss | `10000` | فقدان تنسيق بسيط عام، لا يوجد رمز محدد. |
-| FontSubstitution | `20000` | تم استبدال الخط. |
+| DataLossCategory | `FF` | قد يكون بعض النصوص/الأحرف/الصور أو البيانات الأخرى مفقودة إما من شجرة المستند بعد التحميل، أو من المستند الذي تم إنشاؤه بعد الحفظ. |
+| DataLoss | `1` | فقدان البيانات العامة، لا يوجد رمز محدد. |
+| MajorFormattingLossCategory | `FF00` | قد يبدو المستند الناتج أو موقع معين فيه مختلفًا بشكل كبير مقارنة بالمستند الأصلي. |
+| MajorFormattingLoss | `100` | فقدان تنسيق رئيسي عام، لا يوجد رمز محدد. |
+| MinorFormattingLossCategory | `FF0000` | قد يبدو المستند الناتج أو موقع معين فيه مختلفًا بعض الشيء مقارنةً بـ بالمستند الأصلي. |
+| MinorFormattingLoss | `10000` | فقدان تنسيق طفيف عام، لا يوجد رمز محدد. |
+| FontSubstitution | `20000` | تم استبدال الخط . |
 | FontEmbedding | `40000` | فقدان معلومات الخط المضمنة أثناء حفظ المستند. |
-| UnexpectedContentCategory | `F000000` | لا يمكن التعرف على بعض المحتوى الموجود في المستند المصدر (على سبيل المثال، غير مدعوم)، وقد يتسبب هذا أو لا في حدوث مشكلات أو يؤدي إلى فقدان البيانات/التنسيق. |
-| UnexpectedContent | `1000000` | محتوى عام غير متوقع، بدون رمز محدد. |
+| UnexpectedContentCategory | `F000000` | لم يتم التعرف على بعض المحتوى في المستند المصدر (أي أنه غير مدعوم)، وقد يؤدي هذا أو لا يؤدي إلى حدوث مشكلات أو فقدان البيانات/التنسيق. |
+| UnexpectedContent | `1000000` | محتوى عام غير متوقع، لا يوجد رمز محدد. |
 | Hint | `10000000` | ينصح بوجود مشكلة محتملة أو يقترح تحسينًا. |
 
 ## أمثلة
@@ -43,20 +43,20 @@ public void EnableFontSubstitution()
     // افتح مستندًا يحتوي على نص منسق بخط غير موجود في أي من مصادر الخطوط لدينا.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // قم بتعيين رد اتصال للتعامل مع تحذيرات استبدال الخط.
+    // تعيين معاودة الاتصال للتعامل مع تحذيرات استبدال الخط.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // قم بتعيين اسم الخط الافتراضي وتمكين استبدال الخط.
+    // تعيين اسم الخط الافتراضي وتمكين استبدال الخط.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // يجب استخدام مقاييس الخط الأصلي بعد استبدال الخط.
+    // ينبغي استخدام مقاييس الخط الأصلية بعد استبدال الخط.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // سنتلقى تحذيرًا بشأن استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
+    // سوف نحصل على تحذير استبدال الخط إذا قمنا بحفظ مستند بخط مفقود.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -64,7 +64,7 @@ public void EnableFontSubstitution()
         while (warnings.MoveNext())
             Console.WriteLine(warnings.Current.Description);
 
-    // يمكننا أيضًا التحقق من التحذيرات في المجموعة ومسحها.
+    //يمكننا أيضًا التحقق من التحذيرات الموجودة في المجموعة ومسحها.
     Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
     Assert.AreEqual(
         "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
@@ -72,13 +72,13 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback
 {
     /// <summary>
-    /// يتم الاتصال به في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
+    /// يتم استدعاؤها في كل مرة يحدث فيها تحذير أثناء التحميل/الحفظ.
     /// </summary>
     public void Warning(WarningInfo info)
     {

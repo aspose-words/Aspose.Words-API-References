@@ -3,14 +3,14 @@ title: TabStopCollection.GetIndexByPosition
 linktitle: GetIndexByPosition
 articleTitle: GetIndexByPosition
 second_title: Aspose.Words för .NET
-description: TabStopCollection GetIndexByPosition metod. Hämtar indexet för ett tabbstopp med angiven position i poäng i C#.
+description: Upptäck TabStopCollection GetIndexByPosition-metoden för att enkelt hitta indexet för ett tabbstopp vid vilken punktposition som helst. Perfekt för exakt layoutkontroll!
 type: docs
 weight: 90
 url: /sv/net/aspose.words/tabstopcollection/getindexbyposition/
 ---
 ## TabStopCollection.GetIndexByPosition method
 
-Hämtar indexet för ett tabbstopp med angiven position i poäng.
+Hämtar indexet för ett tabbstopp med den angivna positionen i punkter.
 
 ```csharp
 public int GetIndexByPosition(double position)
@@ -18,21 +18,21 @@ public int GetIndexByPosition(double position)
 
 ## Exempel
 
-Visar hur man slår upp en position för att se om ett tabbstopp finns där och erhåller dess index.
+Visar hur man slår upp en position för att se om det finns ett tabbstopp där och hämtar dess index.
 
 ```csharp
 Document doc = new Document();
 TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.TabStops;
 
-// Lägg till ett tabbstopp i en position på 30 mm.
+// Lägg till ett tabbstopp vid en position av 30 mm.
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 
-// Ett resultat av "0" returnerat av "GetIndexByPosition" bekräftar att ett tabbstopp
-// på 30 mm finns i denna samling, och den är på index 0.
+// Ett resultat av "0" som returneras av "GetIndexByPosition" bekräftar att ett tabbstopp
+// vid 30mm finns i den här samlingen, och den är vid index 0.
 Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
 
-// En "-1" som returneras av "GetIndexByPosition" bekräftar det
-// det finns inget tabbstopp i denna samling med en position på 60 mm.
+// Ett "-1" som returneras av "GetIndexByPosition" bekräftar att
+// det finns inget tabbstopp i den här samlingen med positionen 60 mm.
 Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
 ```
 

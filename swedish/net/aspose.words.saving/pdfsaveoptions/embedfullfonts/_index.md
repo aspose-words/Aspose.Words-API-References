@@ -3,7 +3,7 @@ title: PdfSaveOptions.EmbedFullFonts
 linktitle: EmbedFullFonts
 articleTitle: EmbedFullFonts
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions EmbedFullFonts fast egendom. Styr hur teckensnitt bäddas in i de resulterande PDFdokumenten i C#.
+description: Upptäck hur funktionen PdfSaveOptions EmbedFullFonts förbättrar dina PDF-dokument genom att säkerställa fullständig teckensnittsinbäddning för perfekt formatering.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.saving/pdfsaveoptions/embedfullfonts/
@@ -18,15 +18,15 @@ public bool EmbedFullFonts { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`falsk`, vilket innebär att teckensnitten är underinställda innan de bäddas in. Underinställning är användbar om du vill hålla utdatafilens storlek mindre. Underinställning tar bort all oanvända glyfer från ett teckensnitt.
+Standardvärdet är`falsk`, vilket innebär att teckensnitten delmängderas innan de bäddas in. Delmängdsinställning är användbar om du vill hålla utdatafilens storlek mindre. Delmängdsinställning tar bort alla oanvända tecken från ett teckensnitt.
 
-När detta värde är satt till`Sann`, är en komplett teckensnittsfil inbäddad i PDF utan underinställning. Detta kommer att resultera i större utdatafiler, men kan vara ett användbart alternativ när du vill redigera den resulterande PDF-filen senare (t.ex. lägga till mer text).
+När detta värde är inställt på`sann`, en komplett teckensnittsfil bäddas in i PDF-filen utan delmängd. Detta kommer att resultera i större utdatafiler, men kan vara ett användbart alternativ när du vill redigera den resulterande PDF-filen senare (t.ex. lägga till mer text).
 
-Vissa teckensnitt är stora (flera megabyte) och inbäddning av dem utan subsetting kommer att resultera i stora utdatadokument.
+Vissa teckensnitt är stora (flera megabyte) och att bädda in dem utan subsetting kommer att resultera i stora utdatadokument.
 
 ## Exempel
 
-Visar hur du aktiverar eller inaktiverar underinställningar när du bäddar in teckensnitt samtidigt som ett dokument renderas till PDF.
+Visar hur man aktiverar eller inaktiverar delmängd vid inbäddning av teckensnitt när ett dokument renderas till PDF.
 
 ```csharp
 Document doc = new Document();
@@ -39,31 +39,27 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 // Konfigurera våra teckensnittskällor för att säkerställa att vi har tillgång till båda teckensnitten i det här dokumentet.
 FontSourceBase[] originalFontsSources = FontSettings.DefaultInstance.GetFontsSources();
-Aspose.Words.Fonts.FolderFontSource folderFontSource = new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
+Aspose.Words.Fonts.FolderFontSource folderFontSource =
+    new Aspose.Words.Fonts.FolderFontSource(FontsDir, true);
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// Eftersom vårt dokument innehåller ett anpassat typsnitt kan det vara önskvärt att bädda in i utdatadokumentet.
-// Ställ in egenskapen "EmbedFullFonts" till "true" för att bädda in varje glyf för alla inbäddade teckensnitt i den utgående PDF-filen.
-// Dokumentets storlek kan bli mycket stor, men vi kommer att ha full användning av alla typsnitt om vi redigerar PDF:en.
-// Ställ in egenskapen "EmbedFullFonts" till "false" för att tillämpa underinställning på teckensnitt och spara endast glyferna
-// som dokumentet använder. Filen blir betydligt mindre,
-// men vi kan behöva tillgång till alla anpassade typsnitt om vi redigerar dokumentet.
+// Eftersom vårt dokument innehåller ett anpassat teckensnitt kan det vara önskvärt att bädda in det i utdatadokumentet.
+// Sätt egenskapen "EmbedFullFonts" till "true" för att bädda in alla teckensnitt i varje inbäddat teckensnitt i PDF-filen.
+// Dokumentets storlek kan bli mycket stor, men vi kommer att kunna använda alla teckensnitt fullt ut om vi redigerar PDF-filen.
+// Sätt egenskapen "EmbedFullFonts" till "false" för att tillämpa delmängder på teckensnitt och spara endast tecknen
+// som dokumentet använder. Filen kommer att vara betydligt mindre,
+// men vi kan behöva åtkomst till anpassade teckensnitt om vi redigerar dokumentet.
 options.EmbedFullFonts = embedFullFonts;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf", options);
-
-if (embedFullFonts)
-    Assert.That(500000, Is.LessThan(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
-else
-    Assert.That(25000, Is.AtLeast(new FileInfo(ArtifactsDir + "PdfSaveOptions.EmbedFullFonts.pdf").Length));
 
 // Återställ de ursprungliga teckensnittskällorna.
 FontSettings.DefaultInstance.SetFontsSources(originalFontsSources);

@@ -3,9 +3,9 @@ title: Document.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Document Accept méthode. Accepte un visiteur en C#.
+description: Optimisez la gestion de vos visiteurs grâce à notre méthode d'acceptation des documents. Améliorez la sécurité et l'efficacité pour une expérience fluide.
 type: docs
-weight: 510
+weight: 530
 url: /fr/net/aspose.words/document/accept/
 ---
 ## Document.Accept method
@@ -22,15 +22,15 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) arrêté l'opération avant de visiter tous les nœuds.
+Vrai si tous les nœuds ont été visités ; faux si[`DocumentVisitor`](../../documentvisitor/) a arrêté l'opération avant de visiter tous les nœuds.
 
 ## Remarques
 
 Énumère ce nœud et tous ses enfants. Chaque nœud appelle une méthode correspondante sur[`DocumentVisitor`](../../documentvisitor/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
-Appels[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , puis appelle[`Accept`](../../node/accept/) pour tous les nœuds enfants du document et des appels[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) à la fin.
+Appels[`VisitDocumentStart`](../../documentvisitor/visitdocumentstart/) , puis appelle[`Accept`](../../node/accept/) pour tous les nœuds enfants du document et les appels[`VisitDocumentEnd`](../../documentvisitor/visitdocumentend/) à la fin.
 
 ## Exemples
 
@@ -42,8 +42,8 @@ public void DocStructureToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     DocStructurePrinter visitor = new DocStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -51,7 +51,7 @@ public void DocStructureToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence des nœuds enfants d'un nœud.
+/// Parcourt l'arbre des nœuds enfants d'un nœud.
 /// Crée une carte de cet arbre sous la forme d'une chaîne.
 /// </summary>
 public class DocStructurePrinter : DocumentVisitor
@@ -76,7 +76,7 @@ public class DocStructurePrinter : DocumentVisitor
         IndentAndAppendLine("[Document start] Child nodes: " + childNodeCount);
         mDocTraversalDepth++;
 
-        // Autorise le visiteur à continuer à visiter d'autres nœuds.
+        // Autoriser le visiteur à continuer à visiter d'autres nœuds.
         return VisitorAction.Continue;
     }
 
@@ -96,7 +96,7 @@ public class DocStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSectionStart(Section section)
     {
-        // Récupère l'index de notre section dans le document.
+        // Obtenir l'index de notre section dans le document.
         NodeCollection docSections = section.Document.GetChildNodes(NodeType.Section, false);
         int sectionIndex = docSections.IndexOf(section);
 
@@ -152,7 +152,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé après que tous les nœuds enfants d'un nœud Paragraph ont été visités.
+    /// Appelé après que tous les nœuds enfants d'un nœud Paragraphe ont été visités.
     /// </summary>
     public override VisitorAction VisitParagraphEnd(Paragraph paragraph)
     {
@@ -173,7 +173,7 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Appelé lorsqu'un nœud SubDocument est rencontré dans le document.
+    /// Appelé lorsqu'un nœud de sous-document est rencontré dans le document.
     /// </summary>
     public override VisitorAction VisitSubDocument(SubDocument subDocument)
     {
@@ -183,9 +183,29 @@ public class DocStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur dans l'arborescence du document.
+    /// Appelé lorsqu'un nœud de sous-document est rencontré dans le document.
     /// </summary>
-    /// <param name="text"></param>
+    public override VisitorAction VisitStructuredDocumentTagRangeStart(StructuredDocumentTagRangeStart sdtRangeStart)
+    {
+        IndentAndAppendLine("[SdtRangeStart]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Appelé lorsqu'un nœud de sous-document est rencontré dans le document.
+    /// </summary>
+    public override VisitorAction VisitStructuredDocumentTagRangeEnd(StructuredDocumentTagRangeEnd sdtRangeEnd)
+    {
+        IndentAndAppendLine("[SdtRangeEnd]");
+
+        return VisitorAction.Continue;
+    }
+
+    /// <summary>
+    /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur à laquelle se trouve le visiteur dans l'arborescence du document.
+    /// </summary>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mAcceptingNodeChildTree.Append("|  ");

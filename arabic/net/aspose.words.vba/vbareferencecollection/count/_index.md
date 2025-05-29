@@ -3,7 +3,7 @@ title: VbaReferenceCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: VbaReferenceCollection Count ملكية. إرجاع عدد مراجع VBA في المجموعة في C#.
+description: اكتشف خاصية Count لمجموعة مراجع VBA لاسترداد وإدارة العدد الإجمالي لمراجع VBA بسهولة لتحقيق ترميز فعال.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbareferencecollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على/إزالة عنصر من المجموعة المرجعية لـ VBA.
+يوضح كيفية الحصول على عنصر أو إزالته من مجموعة مرجع VBA.
 
 ```csharp
 public void RemoveVbaReference()

@@ -2,15 +2,15 @@
 title: ImageSavingArgs.IsImageAvailable
 linktitle: IsImageAvailable
 articleTitle: IsImageAvailable
-second_title: Aspose.Words for .NET
-description: ImageSavingArgs IsImageAvailable mülk. İadelerdoğru mevcut görüntü dışa aktarım için mevcutsa C#'da.
+second_title: .NET için Aspose.Words
+description: ImageSavingArgs'daki IsImageAvailable özelliği ile bir görüntünün dışa aktarılmaya hazır olup olmadığını kontrol edin. Sorunsuz görüntü yönetimi ve verimliliği sağlayın!
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/imagesavingargs/isimageavailable/
 ---
 ## ImageSavingArgs.IsImageAvailable property
 
-İadeler`doğru` mevcut görüntü dışa aktarım için mevcutsa.
+Geri Döndürür`doğru` Mevcut görüntü dışa aktarılabilirse.
 
 ```csharp
 public bool IsImageAvailable { get; }
@@ -18,21 +18,21 @@ public bool IsImageAvailable { get; }
 
 ## Notlar
 
-Örneğin, image bağlantılı olduğundan ve bağlantıya erişilemediğinden veya geçerli bir resme işaret etmediğinden belgedeki bazı resimler kullanılamayabilir. Bu durumda Aspose.Words kırmızı çarpı işaretli bir simgeyi dışa aktarır. Bu özellik değerini döndürür`doğru` orijinal görsel mevcutsa; İadeler`YANLIŞ`orijinal görüntüsü mevcut değilse ve kaydetme için "görüntü yok" simgesi sunulur.
+Belgedeki bazı resimler, örneğin image bağlantılı olduğu ve bağlantı erişilemez olduğu veya geçerli bir resme işaret etmediği için kullanılamayabilir. Bu durumda Aspose.Words kırmızı çarpı işareti olan bir simgeyi dışa aktarır. Bu özellik döndürür`doğru` eğer orijinal görüntü mevcutsa; döner`YANLIŞ`eğer orijinal görüntüsü mevcut değilse ve kaydetmek için "görüntü yok" simgesi sunulacaktır.
 
-Bir grup şeklini veya herhangi bir görüntü gerektirmeyen bir şekli kaydederken bu özellik her zaman olur`doğru`.
+Bir grup şeklini veya herhangi bir görüntü gerektirmeyen bir şekli kaydederken bu özellik her zaman`doğru`.
 
 ## Örnekler
 
-Görüntü kaydetme geri aramasının HTML dönüştürme sürecine nasıl dahil edileceğini gösterir.
+Bir HTML dönüştürme işleminde görüntü kaydetme geri aramasının nasıl dahil edileceğini gösterir.
 
 ```csharp
 public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Belgeyi HTML'ye kaydettiğimizde, bir geri çağrıyı belirtmek için SaveOptions nesnesini iletebiliriz
-    // görüntü kaydetme işlemini özelleştirmek için.
+    // Belgeyi HTML'e kaydettiğimizde, bir geri arama belirtmek için bir SaveOptions nesnesi geçirebiliriz
+    // Görüntü kaydetme işlemini özelleştirmek için.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -40,8 +40,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Kaydetme işlemi yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
-/// bir belgenin HTML'ye aktarılması sırasında.
+/// Kaydetme işlemi görüntüyü yerel dosya sistemindeki bir görüntü dosyasına kaydederken her görüntünün özelliklerini yazdırır
+/// Bir belgenin HTML'e aktarılması sırasında.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

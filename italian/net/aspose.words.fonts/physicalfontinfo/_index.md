@@ -3,16 +3,16 @@ title: PhysicalFontInfo Class
 linktitle: PhysicalFontInfo
 articleTitle: PhysicalFontInfo
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.PhysicalFontInfo classe. Specifica le informazioni sul carattere fisico disponibile per il motore dei caratteri Aspose.Words in C#.
+description: Scopri la classe Aspose.Words.Fonts.PhysicalFontInfo, che fornisce dettagli essenziali sui font fisici per migliorare l'elaborazione e la progettazione dei documenti.
 type: docs
-weight: 3030
+weight: 3460
 url: /it/net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class
 
-Specifica le informazioni sul carattere fisico disponibile per il motore dei caratteri Aspose.Words.
+Specifica informazioni sul font fisico disponibile per il motore di font Aspose.Words.
 
-Per saperne di più, visita il[Lavorare con i caratteri](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
+Per saperne di più, visita il[Lavorare con i font](https://docs.aspose.com/words/net/working-with-fonts/) articolo di documentazione.
 
 ```csharp
 public class PhysicalFontInfo
@@ -22,17 +22,18 @@ public class PhysicalFontInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Percorso del file del carattere, se presente. |
-| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Cognome del carattere. |
-| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nome completo del carattere. |
-| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Stringa della versione del carattere. |
+| [EmbeddingLicensingRights](../../aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/) { get; } | Incorporamento dei diritti di licenza per il font. |
+| [FilePath](../../aspose.words.fonts/physicalfontinfo/filepath/) { get; } | Percorso al file del font, se presente. |
+| [FontFamilyName](../../aspose.words.fonts/physicalfontinfo/fontfamilyname/) { get; } | Nome della famiglia del font. |
+| [FullFontName](../../aspose.words.fonts/physicalfontinfo/fullfontname/) { get; } | Nome completo del font. |
+| [Version](../../aspose.words.fonts/physicalfontinfo/version/) { get; } | Stringa della versione del font. |
 
 ## Esempi
 
-Mostra come elencare i caratteri disponibili.
+Mostra come elencare i font disponibili.
 
 ```csharp
-// Configura Aspose.Words per ottenere i caratteri da una cartella personalizzata, quindi stampa tutti i caratteri disponibili.
+// Configurare Aspose.Words per ottenere i font da una cartella personalizzata e quindi stampare tutti i font disponibili.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

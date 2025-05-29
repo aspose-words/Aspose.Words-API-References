@@ -2,8 +2,8 @@
 title: FieldSet
 linktitle: FieldSet
 articleTitle: FieldSet
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldSet 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldSet 构造函数，轻松创建动态表单的必备工具。立即解锁流畅的用户体验！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldset/fieldset/

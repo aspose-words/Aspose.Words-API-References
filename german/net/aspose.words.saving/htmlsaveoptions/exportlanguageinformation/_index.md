@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportLanguageInformation
 linktitle: ExportLanguageInformation
 articleTitle: ExportLanguageInformation
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportLanguageInformation eigendom. Gibt an ob Sprachinformationen nach HTML MHTML oder EPUB exportiert werden. Standard istFALSCH  in C#.
+description: Steuern Sie den Sprachexport in HTML, MHTML oder EPUB mit HtmlSaveOptions. Verbessern Sie die Zugänglichkeit von Dokumenten und erreichen Sie mühelos ein breiteres Publikum.
 type: docs
 weight: 180
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportlanguageinformation/
 ---
 ## HtmlSaveOptions.ExportLanguageInformation property
 
-Gibt an, ob Sprachinformationen nach HTML, MHTML oder EPUB exportiert werden. Standard ist`FALSCH` .
+Gibt an, ob Sprachinformationen in HTML, MHTML oder EPUB exportiert werden. Standard ist`FALSCH` .
 
 ```csharp
 public bool ExportLanguageInformation { get; set; }
@@ -18,11 +18,11 @@ public bool ExportLanguageInformation { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt ist`WAHR` Aspose.Words-Ausgaben**lang** HTML-Attribut für die document -Elemente, die die Sprache angeben. Dies kann erforderlich sein, um die sprachbezogene Semantik zu bewahren.
+Wenn diese Eigenschaft auf`WAHR` Aspose.Words-Ausgaben**lang**HTML-Attribut für die document -Elemente, die die Sprache angeben. Dies kann erforderlich sein, um die sprachbezogene Semantik beizubehalten.
 
 ## Beispiele
 
-Zeigt, wie Sprachinformationen beim Speichern in .html beibehalten werden.
+Zeigt, wie Sprachinformationen beim Speichern im HTML-Format erhalten bleiben.
 
 ```csharp
 Document doc = new Document();
@@ -38,12 +38,12 @@ builder.Writeln("Hello again!");
 builder.Font.LocaleId = new CultureInfo("ru-RU").LCID;
 builder.Write("Привет, мир!");
 
-// Beim Speichern des Dokuments in HTML können wir ein SaveOptions-Objekt übergeben
-// um das Gebietsschema jedes formatierten Texts entweder beizubehalten oder zu verwerfen.
-// Wenn wir das Flag „ExportLanguageInformation“ auf „true“ setzen,
-// Das ausgegebene HTML-Dokument enthält die Gebietsschemas in den „lang“-Attributen von <span> Stichworte.
-// Wenn wir das Flag „ExportLanguageInformation“ auf „false“ setzen,
-// Der Text im ausgegebenen HTML-Dokument enthält keine Gebietsschemainformationen.
+// Beim Speichern des Dokuments im HTML-Format können wir ein SaveOptions-Objekt übergeben
+// um das Gebietsschema jedes formatierten Textes entweder beizubehalten oder zu verwerfen.
+// Wenn wir das Flag "ExportLanguageInformation" auf "true" setzen,
+// Das HTML-Ausgabedokument enthält die Gebietsschemata in den „lang“-Attributen der <span>-Tags.
+// Wenn wir das Flag "ExportLanguageInformation" auf "false" setzen,
+// Der Text im HTML-Ausgabedokument enthält keine Gebietsschemainformationen.
 HtmlSaveOptions options = new HtmlSaveOptions
 {
     ExportLanguageInformation = exportLanguageInformation,

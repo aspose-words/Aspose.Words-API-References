@@ -3,7 +3,7 @@ title: FieldSeparator.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: FieldSeparator Accept méthode. Accepte un visiteur en C#.
+description: Découvrez comment la méthode FieldSeparator Accept améliore l'engagement des visiteurs et rationalise le traitement des données pour vos applications.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldseparator/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-**FAUX** si le visiteur a demandé l'arrêt de l'énumération.
+**FAUX** si le visiteur a demandé l'arrêt du dénombrement.
 
 ## Remarques
 
 Appels[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
 ## Exemples
 
@@ -52,8 +52,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -77,7 +77,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {

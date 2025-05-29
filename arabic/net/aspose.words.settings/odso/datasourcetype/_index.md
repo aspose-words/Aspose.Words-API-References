@@ -3,14 +3,14 @@ title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
 second_title: Aspose.Words لـ .NET
-description: Odso DataSourceType ملكية. تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault  في C#.
+description: اكتشف خاصية Odso DataSourceType لدمج البريد بسلاسة. حدد مصادر البيانات الخارجية بسهولة، وحسّن كفاءة سير عملك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-تحديد نوع مصدر البيانات الخارجي المراد الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
+يحدد نوع مصدر البيانات الخارجي الذي سيتم الاتصال به كجزء من معلومات اتصال ODSO لدمج البريد هذا. القيمة الافتراضية هيDefault .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -18,11 +18,11 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ## ملاحظات
 
-يعد هذا الإعداد مجرد اقتراح لنوع مصدر البيانات المستخدم لدمج المراسلات هذا.
+يعد هذا الإعداد مجرد اقتراح لنوع مصدر البيانات الذي يتم استخدامه لدمج البريد هذا.
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

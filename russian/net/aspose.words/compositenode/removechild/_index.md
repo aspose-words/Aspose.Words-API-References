@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words для .NET
-description: CompositeNode RemoveChild метод. Удаляет указанный дочерний узел на С#.
+description: Управляйте CompositeNode без усилий с помощью метода RemoveChild, разработанного для упрощения удаления узлов с целью повышения производительности и эффективности.
 type: docs
-weight: 170
+weight: 190
 url: /ru/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Удаляет указанный дочерний узел.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| oldChild | Node | Узел, который нужно удалить. |
+| oldChild | T | Узел, который необходимо удалить. |
 
 ### Возвращаемое значение
 
@@ -26,7 +27,7 @@ public Node RemoveChild(Node oldChild)
 
 ## Примечания
 
-Родитель*oldChild* установлено на`нулевой` после удаления узла.
+Родитель*oldChild* установлен на`нулевой` после удаления узла.
 
 ## Примеры
 
@@ -40,11 +41,11 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Обе секции являются родственными друг другу.
+// Оба раздела являются родственными друг другу.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Удаление раздела на основе его родственных отношений с другим разделом.
+// Удалить раздел на основе его родственных связей с другим разделом.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 

@@ -2,15 +2,15 @@
 title: Frameset.IsFrameLinkToFile
 linktitle: IsFrameLinkToFile
 articleTitle: IsFrameLinkToFile
-second_title: 用于 .NET 的 Aspose.Words
-description: Frameset IsFrameLinkToFile 财产. 获取或设置一个值该值指示 中指定的网页或文档文件名FrameDefaultUrl属性是框架所链接的外部资源 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 Frameset 的 IsFrameLinkToFile 属性如何通过无缝链接外部资源来增强您的网页设计。优化您的框架，提升性能！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.framesets/frameset/isframelinktofile/
 ---
 ## Frameset.IsFrameLinkToFile property
 
-获取或设置一个值，该值指示 中指定的网页或文档文件名[`FrameDefaultUrl`](../framedefaulturl/)属性是框架所链接的外部资源。
+获取或设置一个值，指示是否在 中指定的网页或文档文件名[`FrameDefaultUrl`](../framedefaulturl/)属性是框架链接的外部资源。
 
 ```csharp
 public bool IsFrameLinkToFile { get; set; }
@@ -18,12 +18,13 @@ public bool IsFrameLinkToFile { get; set; }
 
 ## 例子
 
-展示如何访问页面上的框架。
+显示如何访问页面上的框架。
 
 ```csharp
-// 文档包含多个带有其他文档链接的框架。
+// 文档包含几个带有指向其他文档的链接的框架。
 Document doc = new Document(MyDir + "Frameset.docx");
 
+Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
 // 我们可以检查默认 URL（网页 URL 或本地文档）或者框架是否是外部资源。
 Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
     doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
@@ -32,9 +33,9 @@ Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
 Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
 Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
 
-// 更改我们的框架之一的属性。
+// 更改其中一个框架的属性。
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =
-    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx";
+    "https://github.com/aspose-words/Aspose.Words-for-.NET/blob/master/Examples/Data/Absolute%20position%20tab.docx”；
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile = false;
 ```
 

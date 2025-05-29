@@ -3,14 +3,14 @@ title: SaveOptions.MemoryOptimization
 linktitle: MemoryOptimization
 articleTitle: MemoryOptimization
 second_title: Aspose.Words لـ .NET
-description: SaveOptions MemoryOptimization ملكية. الحصول على أو تحديد القيمة التي تحدد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
+description: حسّن أداء المستندات باستخدام خاصية "تحسين الذاكرة" في "خيارات الحفظ". تحكّم في استخدام الذاكرة قبل الحفظ، مما يزيد من الكفاءة والسرعة.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.saving/saveoptions/memoryoptimization/
 ---
 ## SaveOptions.MemoryOptimization property
 
-الحصول على أو تحديد القيمة التي تحدد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
+يحصل على القيمة أو يعينها لتحديد ما إذا كان يجب إجراء تحسين الذاكرة قبل حفظ المستند. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool MemoryOptimization { get; set; }
@@ -18,22 +18,22 @@ public bool MemoryOptimization { get; set; }
 
 ## ملاحظات
 
-ضبط هذا الخيار على`حقيقي` يمكن أن يقلل بشكل كبير من استهلاك الذاكرة مع حفظ المستندات الكبيرة على حساب توفير الوقت بشكل أبطأ.
+ضبط هذا الخيار على`حقيقي` يمكن أن يقلل بشكل كبير من استهلاك الذاكرة مع حفظ مستندات كبيرة على حساب توفير الوقت الأبطأ.
 
 ## أمثلة
 
-يعرض خيارًا لتحسين استهلاك الذاكرة عند تحويل مستندات كبيرة إلى PDF.
+يُظهر خيارًا لتحسين استهلاك الذاكرة عند تحويل المستندات الكبيرة إلى PDF.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Pdf);
 
-// اضبط خاصية "تحسين الذاكرة" على "صحيح" لتقليل مساحة الذاكرة لعمليات حفظ المستندات الكبيرة
+// اضبط خاصية "MemoryOptimization" على "true" لتقليل حجم الذاكرة لعمليات حفظ المستندات الكبيرة
 // على حساب زيادة مدة العملية.
-// اضبط خاصية "تحسين الذاكرة" على "خطأ" لحفظ المستند كملف PDF بشكل طبيعي.
+// اضبط خاصية "MemoryOptimization" على "false" لحفظ المستند بتنسيق PDF بشكل طبيعي.
 saveOptions.MemoryOptimization = memoryOptimization;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.MemoryOptimization.pdf", saveOptions);

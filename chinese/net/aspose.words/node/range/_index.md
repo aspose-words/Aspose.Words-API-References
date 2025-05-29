@@ -2,15 +2,15 @@
 title: Node.Range
 linktitle: Range
 articleTitle: Range
-second_title: 用于 .NET 的 Aspose.Words
-description: Node Range 财产. 返回一个Range表示此节点中包含的文档部分的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现节点范围属性，轻松访问定义节点内的文档段的范围对象，以增强内容管理。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/node/range/
 ---
 ## Node.Range property
 
-返回一个[`Range`](../../range/)表示此节点中包含的文档部分的对象。
+返回[`Range`](../../range/)表示此节点中包含的文档部分的对象。
 
 ```csharp
 public Range Range { get; }
@@ -18,13 +18,13 @@ public Range Range { get; }
 
 ## 例子
 
-演示如何删除范围中的所有节点。
+显示如何删除某个范围内的所有节点。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将文本添加到文档的第一部分，然后添加另一个部分。
+// 在文档的第一部分添加文本，然后添加另一部分。
 builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");

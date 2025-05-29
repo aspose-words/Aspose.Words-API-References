@@ -2,8 +2,8 @@
 title: FieldInclude.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
-second_title: Aspose.Words for .NET
-description: FieldInclude TextConverter mülk. Dahil edilen dosyanın biçimi için metin dönüştürücünün adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldInclude TextConverter özelliğini keşfedin; gelişmiş iş akışı verimliliği için özelleştirilebilir metin dönüştürücü adlarıyla dosya biçimi dönüşümlerini kolayca yönetin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.fields/fieldinclude/textconverter/
@@ -24,8 +24,8 @@ INCLUDE alanının nasıl oluşturulacağını ve özelliklerinin nasıl ayarlan
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Yerel dosya sistemine başka bir belgenin bir bölümünü içe aktarmak için INCLUDE alanını kullanabiliriz.
-// Bu alanla referans verdiğimiz diğer belgedeki yer imi bu içe aktarılan kısmı içeriyor.
+// Yerel dosya sistemindeki başka bir belgenin bir kısmını içe aktarmak için INCLUDE alanını kullanabiliriz.
+// Bu alanla başvurduğumuz diğer belgedeki yer imi bu içe aktarılan kısmı içerir.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowBubbleSize
 linktitle: ShowBubbleSize
 articleTitle: ShowBubbleSize
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabel ShowBubbleSize ملكية. يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على المخطط. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيف تُحسّن خاصية ShowBubbleSize مخططات الفقاعات لديك من خلال عرض أحجام تسميات البيانات. حسّن تمثيل بياناتك المرئي اليوم!
 type: docs
-weight: 80
+weight: 130
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showbubblesize/
 ---
 ## ChartDataLabel.ShowBubbleSize property
 
-يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لتسميات البيانات على المخطط. ينطبق فقط على المخططات الفقاعية. القيمة الافتراضية هي`خطأ شنيع` .
+يسمح بتحديد ما إذا كان سيتم عرض حجم الفقاعة لملصقات البيانات على الرسم البياني. ينطبق فقط على الرسوم البيانية الفقاعية. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ShowBubbleSize { get; set; }
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// قم بتطبيق تسمية البيانات على كل فقاعة تعرض قطرها.
+// قم بتطبيق تسمية بيانات على كل فقاعة تعرض قطرها.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

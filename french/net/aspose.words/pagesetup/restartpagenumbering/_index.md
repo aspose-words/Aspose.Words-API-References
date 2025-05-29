@@ -3,14 +3,14 @@ title: PageSetup.RestartPageNumbering
 linktitle: RestartPageNumbering
 articleTitle: RestartPageNumbering
 second_title: Aspose.Words pour .NET
-description: PageSetup RestartPageNumbering propriété. Vrai si la numérotation des pages redémarre au début de la section en C#.
+description: Découvrez comment la propriété RestartPageNumbering améliore la mise en forme des documents en permettant la numérotation des pages par section. Optimisez votre mise en page sans effort !
 type: docs
 weight: 360
 url: /fr/net/aspose.words/pagesetup/restartpagenumbering/
 ---
 ## PageSetup.RestartPageNumbering property
 
-Vrai si la numérotation des pages redémarre au début de la section.
+Vrai si la numérotation des pages recommence au début de la section.
 
 ```csharp
 public bool RestartPageNumbering { get; set; }
@@ -40,17 +40,17 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Déplace le générateur de documents vers l'en-tête principal de la première section,
+// Déplacer le générateur de documents vers l'en-tête principal de la première section,
 // que chaque page de cette section affichera.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Insère un champ PAGE, qui affichera le numéro de la page en cours.
+// Insérer un champ PAGE, qui affichera le numéro de la page actuelle.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
 // Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 5.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres romains majuscules.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page à l'aide de chiffres romains majuscules.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
@@ -65,7 +65,7 @@ builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
 // Configurez la section pour que le nombre de pages affiché par les champs PAGE commence à 10.
-// Configurez également tous les champs PAGE pour afficher leurs numéros de page en utilisant des chiffres arabes.
+// Configurez également tous les champs PAGE pour afficher leurs numéros de page à l'aide de chiffres arabes.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;
 pageSetup.RestartPageNumbering = true;

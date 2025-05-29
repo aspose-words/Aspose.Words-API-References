@@ -3,7 +3,7 @@ title: Row.ParentTable
 linktitle: ParentTable
 articleTitle: ParentTable
 second_title: Aspose.Words für .NET
-description: Row ParentTable eigendom. Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück in C#.
+description: Entdecken Sie die Row ParentTable-Eigenschaft, um einfach auf die unmittelbar übergeordnete Tabelle einer beliebigen Zeile zuzugreifen und so Ihre Datenverwaltung und -analyse zu verbessern.
 type: docs
 weight: 90
 url: /de/net/aspose.words.tables/row/parenttable/
@@ -16,10 +16,6 @@ Gibt die unmittelbar übergeordnete Tabelle der Zeile zurück.
 public Table ParentTable { get; }
 ```
 
-## Bemerkungen
-
-GleichwertigFirstNonMarkupParentNode gegossen zu[`Table`](../../table/).
-
 ## Beispiele
 
 Zeigt, wie die Knotenstruktur jeder Tabelle in einem Dokument gedruckt wird.
@@ -30,8 +26,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Wenn wir einen zusammengesetzten Knoten erhalten, der einen Dokumentbesucher akzeptiert, besucht der Besucher den akzeptierenden Knoten.
-    // und durchläuft dann alle untergeordneten Knoten des Knotens in einer Tiefe-zuerst-Methode.
+    // Wenn wir einen zusammengesetzten Knoten dazu bringen, einen Dokumentbesucher zu akzeptieren, besucht der Besucher den akzeptierenden Knoten.
+    // und durchläuft dann alle untergeordneten Knoten in einer Tiefensuche.
     // Der Besucher kann jeden besuchten Knoten lesen und ändern.
     doc.Accept(visitor);
 
@@ -40,7 +36,7 @@ public void TableToText()
 
 /// <summary>
 /// Durchläuft den nicht-binären Baum der untergeordneten Knoten eines Knotens.
-/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Tabellenknoten und ihrer untergeordneten Knoten.
+/// Erstellt eine Karte in Form einer Zeichenfolge aller gefundenen Tabellenknoten und ihrer untergeordneten Elemente.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -57,7 +53,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Wird aufgerufen, wenn im Dokument ein Run-Knoten gefunden wird.
-    /// Läufe, die nicht innerhalb von Tabellen liegen, werden nicht aufgezeichnet.
+    /// Läufe, die nicht in Tabellen liegen, werden nicht aufgezeichnet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -131,7 +127,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Cell-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Zellknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -160,7 +156,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief der Besucher ist
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie diese ein, je nachdem, wie tief der Besucher ist
     /// in den Baum der untergeordneten Knoten der aktuellen Tabelle.
     /// </summary>
     /// <param name="text"></param>

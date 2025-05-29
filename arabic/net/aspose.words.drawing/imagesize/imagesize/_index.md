@@ -3,14 +3,14 @@ title: ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words لـ .NET
-description: ImageSize البناء. تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة في C#.
+description: قم بإنشاء صور دقيقة باستخدام منشئ ImageSize، واضبط العرض والارتفاع والدقة المخصصة 96 نقطة في البوصة للحصول على الوضوح والجودة المثالية.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing/imagesize/imagesize/
 ---
 ## ImageSize(*int, int*) {#constructor}
 
-تهيئة العرض والارتفاع للقيم المحددة بالبكسل. تهيئة الدقة إلى 96 نقطة في البوصة.
+يُهيئ العرض والارتفاع إلى القيم المحددة بالبكسل. يُهيئ الدقة إلى 96 نقطة في البوصة.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels)
@@ -31,7 +31,7 @@ public ImageSize(int widthPixels, int heightPixels)
 
 ## ImageSize(*int, int, double, double*) {#constructor_1}
 
-تهيئة العرض والارتفاع والدقة للقيم المحددة.
+يقوم بتهيئة العرض والارتفاع والدقة للقيم المحددة.
 
 ```csharp
 public ImageSize(int widthPixels, int heightPixels, double horizontalResolution, 
@@ -42,8 +42,8 @@ public ImageSize(int widthPixels, int heightPixels, double horizontalResolution,
 | --- | --- | --- |
 | widthPixels | Int32 | العرض بالبكسل. |
 | heightPixels | Int32 | الارتفاع بالبكسل. |
-| horizontalResolution | Double | الدقة الأفقية في DPI. |
-| verticalResolution | Double | الدقة الرأسية في DPI. |
+| horizontalResolution | Double | الدقة الأفقية بوحدة DPI. |
+| verticalResolution | Double | الدقة الرأسية بوحدة DPI. |
 
 ### أنظر أيضا
 

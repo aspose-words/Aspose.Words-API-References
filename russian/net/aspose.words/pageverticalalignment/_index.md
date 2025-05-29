@@ -3,14 +3,14 @@ title: PageVerticalAlignment Enum
 linktitle: PageVerticalAlignment
 articleTitle: PageVerticalAlignment
 second_title: Aspose.Words для .NET
-description: Aspose.Words.PageVerticalAlignment перечисление. Определяет вертикальное выравнивание текста на каждой странице на С#.
+description: Откройте для себя перечисление Aspose.Words.PageVerticalAlignment для оптимального выравнивания текста на страницах. Улучшите макет вашего документа с помощью точного вертикального выравнивания!
 type: docs
-weight: 4370
+weight: 5100
 url: /ru/net/aspose.words/pageverticalalignment/
 ---
 ## PageVerticalAlignment enumeration
 
-Определяет вертикальное выравнивание текста на каждой странице.
+Задает вертикальное выравнивание текста на каждой странице.
 
 ```csharp
 public enum PageVerticalAlignment
@@ -20,14 +20,14 @@ public enum PageVerticalAlignment
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| Bottom | `3` | Текст выравнивается по низу страницы. |
-| Center | `1` | Текст выравнивается по середине страницы. |
-| Justify | `2` | Текст занимает всю страницу. |
-| Top | `0` | Текст выравнивается по верху страницы. |
+| Bottom | `3` | Текст выравнивается по нижнему краю страницы. |
+| Center | `1` | Текст выравнивается по центру страницы. |
+| Justify | `2` | Текст распространяется на всю страницу. |
+| Top | `0` | Текст выравнивается по верхнему краю страницы. |
 
 ## Примеры
 
-Показывает, как применить и вернуть параметры настройки страницы к разделам документа.
+Показывает, как применять и отменять настройки страницы для разделов документа.
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// Если мы начнем новый раздел с помощью построителя документов,
+// Если мы начнем новый раздел с помощью конструктора документов,
 // он унаследует текущие свойства настройки страницы конструктора.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 

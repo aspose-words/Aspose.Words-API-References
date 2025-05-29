@@ -2,15 +2,15 @@
 title: FileFormatUtil.SaveFormatToLoadFormat
 linktitle: SaveFormatToLoadFormat
 articleTitle: SaveFormatToLoadFormat
-second_title: Aspose.Words for .NET
-description: FileFormatUtil SaveFormatToLoadFormat yöntem. Biri dönüştürürSaveFormat bir değerLoadFormat mümkünse değer C#'da.
+second_title: .NET için Aspose.Words
+description: SaveFormat'ı FileFormatUtil yöntemiyle zahmetsizce LoadFormat'a dönüştürün. Dosya yönetimini basitleştirin ve uyumluluğu bugün artırın!
 type: docs
 weight: 90
 url: /tr/net/aspose.words/fileformatutil/saveformattoloadformat/
 ---
 ## FileFormatUtil.SaveFormatToLoadFormat method
 
-Bir'i dönüştürür[`SaveFormat`](../../saveformat/) bir değer[`LoadFormat`](../../loadformat/) mümkünse değer.
+Birini dönüştürür[`SaveFormat`](../../saveformat/) bir değere[`LoadFormat`](../../loadformat/) mümkünse değer.
 
 ```csharp
 public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
@@ -24,13 +24,13 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 
 ## Örnekler
 
-Bir kaydetme biçiminin karşılık gelen yükleme biçimine nasıl dönüştürüleceğini gösterir.
+Bir kayıt formatının karşılık gelen yükleme formatına nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
 
-// Bazı dosya türlerinde belgeler Aspose.Words'e kaydedilebilir ancak Aspose.Words kullanılarak yüklenmeyebilir.
-// Böyle bir kayıt biçimini yükleme biçimine dönüştürmeye çalışırsak bir istisna atılır.
+// Bazı dosya türlerine belgeler kaydedilebilir, ancak Aspose.Words kullanılarak bu dosyalardan yüklenemez.
+// Bu tür bir kayıt formatını yükleme formatına dönüştürmeye çalışırsak bir istisna atılır.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Jpeg));
 ```
 

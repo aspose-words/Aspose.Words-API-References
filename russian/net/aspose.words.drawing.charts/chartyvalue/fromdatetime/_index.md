@@ -3,14 +3,14 @@ title: ChartYValue.FromDateTime
 linktitle: FromDateTime
 articleTitle: FromDateTime
 second_title: Aspose.Words для .NET
-description: ChartYValue FromDateTime метод. СоздаетChartYValue экземплярDateTime тип на С#.
+description: Откройте для себя метод ChartYValue FromDateTime, который позволит легко создавать экземпляры DateTime для ваших диаграмм, улучшая визуализацию и анализ данных.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/fromdatetime/
 ---
 ## ChartYValue.FromDateTime method
 
-Создает[`ChartYValue`](../) экземплярDateTime тип.
+Создает[`ChartYValue`](../) примерDateTime тип.
 
 ```csharp
 public static ChartYValue FromDateTime(DateTime value)

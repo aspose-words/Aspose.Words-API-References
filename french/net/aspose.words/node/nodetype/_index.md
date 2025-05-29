@@ -3,7 +3,7 @@ title: Node.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: Node NodeType propriété. Obtient le type de ce nœud en C#.
+description: Découvrez la propriété Node NodeType pour identifier facilement les types de nœuds dans votre application, améliorant ainsi l'efficacité de votre développement et la clarté de votre code.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/node/nodetype/
@@ -18,7 +18,7 @@ public abstract NodeType NodeType { get; }
 
 ## Exemples
 
-Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
+Montre comment utiliser la propriété NextSibling d'un nœud pour énumérer ses enfants immédiats.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -33,7 +33,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-Montre comment supprimer tous les nœuds enfants d’un type spécifique d’un nœud composite.
+Montre comment supprimer tous les nœuds enfants d'un type spécifique d'un nœud composite.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -44,7 +44,7 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Enregistrez le nœud frère suivant en tant que variable au cas où nous souhaiterions y accéder après avoir supprimé ce nœud.
+    // Enregistrez le prochain nœud frère en tant que variable au cas où nous voudrions y accéder après avoir supprimé ce nœud.
     Node nextNode = curNode.NextSibling;
 
     // Un corps de section peut contenir des nœuds Paragraphe et Tableau.
@@ -58,7 +58,7 @@ while (curNode != null)
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
-Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
+Montre comment parcourir l'arbre des nœuds enfants d'un nœud composite.
 
 ```csharp
 public void RecurseChildren()
@@ -68,13 +68,13 @@ public void RecurseChildren()
     // Tout nœud pouvant contenir des nœuds enfants, comme le document lui-même, est composite.
     Assert.True(doc.IsComposite);
 
-    // Invoque la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
+    // Invoquez la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
-/// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
+/// avec un retrait dépendant de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -82,7 +82,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Effectuer une récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, afficher son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

@@ -2,8 +2,8 @@
 title: FieldIncludePicture.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIncludePicture SourceFullName 财产. 使用 IRI 获取或设置图片的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldIncludePicture SourceFullName 属性。使用 IRI 轻松管理图片位置，增强媒体集成并提供无缝的用户体验。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldincludepicture/sourcefullname/
@@ -18,13 +18,13 @@ public string SourceFullName { get; set; }
 
 ## 例子
 
-演示如何使用 IMPORT 和 INCLUDEPICTURE 字段插入图像。
+展示如何使用 IMPORT 和 INCLUDEPICTURE 字段插入图像。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 下面是两个类似的字段类型，我们可以使用它们来显示从本地文件系统链接的图像。
+// 下面是两种类似的字段类型，我们可以用它们来显示从本地文件系统链接的图像。
 // 1 - INCLUDEPICTURE 字段：
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
@@ -37,7 +37,7 @@ fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 - 导入字段：
+// 2 - IMPORT 字段：
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

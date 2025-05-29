@@ -3,14 +3,14 @@ title: TabStopCollection.GetPositionByIndex
 linktitle: GetPositionByIndex
 articleTitle: GetPositionByIndex
 second_title: Aspose.Words لـ .NET
-description: TabStopCollection GetPositionByIndex طريقة. الحصول على موضع علامة التبويب بالنقاط عند الفهرس المحدد في C#.
+description: اكتشف طريقة TabStopCollection GetPositionByIndex للعثور بسهولة على مواضع علامات التبويب في نقاط حسب الفهرس. حسّن تصميمك بسهولة!
 type: docs
 weight: 100
 url: /ar/net/aspose.words/tabstopcollection/getpositionbyindex/
 ---
 ## TabStopCollection.GetPositionByIndex method
 
-الحصول على موضع علامة التبويب (بالنقاط) عند الفهرس المحدد.
+يحصل على موضع (بالنقاط) علامة التبويب عند الفهرس المحدد.
 
 ```csharp
 public double GetPositionByIndex(int index)
@@ -18,7 +18,7 @@ public double GetPositionByIndex(int index)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| index | Int32 | فهرس في مجموعة علامات الجدولة. |
+| index | Int32 | فهرس لمجموعة علامات التبويب. |
 
 ### قيمة الإرجاع
 
@@ -26,7 +26,7 @@ public double GetPositionByIndex(int index)
 
 ## أمثلة
 
-يوضح كيفية العثور على علامة تبويب والتوقف عند فهرسها والتحقق من موضعها.
+يوضح كيفية العثور على علامة تبويب والتوقف عند فهرسها والتحقق من موقعها.
 
 ```csharp
 Document doc = new Document();

@@ -2,10 +2,10 @@
 title: DocumentBuilder.StartTable
 linktitle: StartTable
 articleTitle: StartTable
-second_title: Aspose.Words for .NET
-description: DocumentBuilder StartTable yöntem. Belgede bir tablo başlatır C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder'ın StartTable metoduyla belgelerinizde profesyonel tablolar kolayca oluşturun. Biçimlendirmenizi kolaylıkla geliştirin!
 type: docs
-weight: 640
+weight: 680
 url: /tr/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -18,13 +18,13 @@ public Table StartTable()
 
 ### Geri dönüş değeri
 
-Yeni oluşturulan tablo düğümü.
+Az önce oluşturulan tablo düğümü.
 
 ## Notlar
 
-Aramak için bir sonraki yöntem[`InsertCell`](../insertcell/).
+Çağrılacak bir sonraki yöntem şudur:[`InsertCell`](../insertcell/).
 
-Bu yöntem, bir hücrenin içinde çağrıldığında iç içe geçmiş bir tablo başlatır.
+Bu metot bir hücrenin içinde çağrıldığında iç içe geçmiş bir tablo başlatır.
 
 ## Örnekler
 
@@ -38,8 +38,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// İkinci bir hücre ekleyin ve ardından hücre metni dolgu seçeneklerini yapılandırın.
-// Oluşturucu bu ayarları mevcut hücresine uygulayacak ve daha sonra oluşturulacak yeni hücrelere uygulayacaktır.
+// İkinci bir hücre ekleyin ve ardından hücre metin dolgusu seçeneklerini yapılandırın.
+// Oluşturucu bu ayarları mevcut hücreye uygulayacak ve daha sonra oluşturulan tüm yeni hücrelere uygulayacaktır.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -53,7 +53,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// İlk hücre dolgunun yeniden yapılandırılmasından etkilenmedi ve hala varsayılan değerleri koruyor.
+// İlk hücre, dolgu yeniden yapılandırmasından etkilenmedi ve hala varsayılan değerleri koruyor.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -66,11 +66,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// İlk hücre, çıktı belgesinde komşu hücrenin boyutuna uyacak şekilde büyümeye devam edecek.
+// İlk hücre, komşu hücresinin boyutuna uyacak şekilde çıktı belgesinde büyümeye devam edecektir.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -111,7 +111,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -119,7 +119,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -143,8 +143,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -156,7 +156,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

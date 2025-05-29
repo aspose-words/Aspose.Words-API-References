@@ -3,7 +3,7 @@ title: Font.Emboss
 linktitle: Emboss
 articleTitle: Emboss
 second_title: Aspose.Words для .NET
-description: Font Emboss свойство. True если шрифт отформатирован как рельефный на С#.
+description: Откройте для себя свойство Font Emboss, которое улучшает ваш текст стильным эффектом тиснения для создания привлекательных дизайнов. Поднимите свою типографику сегодня!
 type: docs
 weight: 100
 url: /ru/net/aspose.words/font/emboss/
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Ниже приведены два способа использования теней для применения к тексту трехмерного эффекта.
-// 1 — Выгравировать текст, чтобы он выглядел так, как будто буквы утоплены в странице:
+// Ниже приведены два способа использования теней для создания 3D-эффекта в тексте.
+// 1 - Выгравируйте текст так, чтобы буквы выглядели утопленными в страницу:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 — Тиснение текста, чтобы оно выглядело так, будто буквы выскакивают из страницы:
+// 2 - Выдавите текст, чтобы буквы выглядели так, будто выступают из страницы:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

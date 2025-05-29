@@ -3,14 +3,14 @@ title: TextBox.InternalMarginLeft
 linktitle: InternalMarginLeft
 articleTitle: InternalMarginLeft
 second_title: Aspose.Words لـ .NET
-description: TextBox InternalMarginLeft ملكية. يحدد الهامش الأيسر الداخلي بالنقاط للشكل في C#.
+description: اكتشف خاصية TextBox InternalMarginLeft لتخصيص الهامش الداخلي الأيسر لشكلتك بالنقاط لتحسين مرونة التصميم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/textbox/internalmarginleft/
 ---
 ## TextBox.InternalMarginLeft property
 
-يحدد الهامش الأيسر الداخلي بالنقاط للشكل.
+يحدد الهامش الداخلي الأيسر بالنقاط للشكل.
 
 ```csharp
 public double InternalMarginLeft { get; set; }
@@ -28,7 +28,7 @@ public double InternalMarginLeft { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مربع نص آخر بهوامش محددة.
+//إدراج مربع نص آخر بهوامش محددة.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

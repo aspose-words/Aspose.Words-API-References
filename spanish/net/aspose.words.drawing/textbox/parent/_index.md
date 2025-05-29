@@ -3,7 +3,7 @@ title: TextBox.Parent
 linktitle: Parent
 articleTitle: Parent
 second_title: Aspose.Words para .NET
-description: TextBox Parent propiedad. Obtiene una forma principal para elTextBox  en C#.
+description: Descubra la propiedad TextBox Parent para acceder fácilmente a su forma principal, mejorando su flujo de trabajo de diseño y aumentando la eficiencia en sus proyectos.
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing/textbox/parent/

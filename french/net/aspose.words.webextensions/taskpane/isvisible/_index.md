@@ -3,14 +3,14 @@ title: TaskPane.IsVisible
 linktitle: IsVisible
 articleTitle: IsVisible
 second_title: Aspose.Words pour .NET
-description: TaskPane IsVisible propriété. Spécifie si le volet des tâches saffiche comme visible par défaut à louverture du document en C#.
+description: Découvrez comment la propriété TaskPane IsVisible contrôle la visibilité par défaut, améliorant ainsi l'expérience utilisateur et simplifiant les interactions avec les documents.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.webextensions/taskpane/isvisible/
 ---
 ## TaskPane.IsVisible property
 
-Spécifie si le volet des tâches s'affiche comme visible par défaut à l'ouverture du document.
+Spécifie si le volet Office s'affiche comme visible par défaut lorsque le document s'ouvre.
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -23,8 +23,8 @@ Montre comment ajouter une extension Web à un document.
 ```csharp
 Document doc = new Document();
 
-// Créer un volet de tâches avec le complément "MyScript", qui sera utilisé par le document,
-// puis définit son emplacement par défaut.
+// Créer un volet des tâches avec le complément « MyScript », qui sera utilisé par le document,
+// puis définissez son emplacement par défaut.
 TaskPane myScriptTaskPane = new TaskPane();
 doc.WebExtensionTaskPanes.Add(myScriptTaskPane);
 myScriptTaskPane.DockState = TaskPaneDockState.Right;
@@ -32,13 +32,13 @@ myScriptTaskPane.IsVisible = true;
 myScriptTaskPane.Width = 300;
 myScriptTaskPane.IsLocked = true;
 
-// S'il existe plusieurs volets de tâches dans le même emplacement d'accueil, nous pouvons définir cet index pour les organiser.
+// S'il existe plusieurs volets de tâches dans le même emplacement d'ancrage, nous pouvons définir cet index pour les organiser.
 myScriptTaskPane.Row = 1;
 
-// Créez un complément appelé "MyScript Math Sample", dans lequel le volet des tâches affichera.
+// Créez un complément appelé « MyScript Math Sample », dans lequel le volet des tâches s'affichera.
 WebExtension webExtension = myScriptTaskPane.WebExtension;
 
-// Définissez les paramètres de référence du magasin d'applications pour notre complément, tels que l'ID.
+// Définissez les paramètres de référence de l'App Store pour notre complément, tels que l'ID.
 webExtension.Reference.Id = "WA104380646";
 webExtension.Reference.Version = "1.0.0.0";
 webExtension.Reference.StoreType = WebExtensionStoreType.OMEX;
@@ -46,16 +46,43 @@ webExtension.Reference.Store = CultureInfo.CurrentCulture.Name;
 webExtension.Properties.Add(new WebExtensionProperty("MyScript", "MyScript Math Sample"));
 webExtension.Bindings.Add(new WebExtensionBinding("MyScript", WebExtensionBindingType.Text, "104380646"));
 
-// Autorise l'utilisateur à interagir avec le complément.
+// Autoriser l'utilisateur à interagir avec le complément.
 webExtension.IsFrozen = false;
 
-// Nous pouvons accéder à l'extension Web dans Microsoft Word via Developer -> Compléments.
+// Nous pouvons accéder à l'extension Web dans Microsoft Word via Développeur -> Modules complémentaires.
 doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 
-// Supprimez tous les volets de tâches de l'extension Web en même temps, comme ceci.
+// Supprimez tous les volets de tâches d'extension Web à la fois comme ceci.
 doc.WebExtensionTaskPanes.Clear();
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+
+doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
+
+myScriptTaskPane = doc.WebExtensionTaskPanes[0];
+Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
+Assert.True(myScriptTaskPane.IsVisible);
+Assert.AreEqual(300.0d, myScriptTaskPane.Width);
+Assert.True(myScriptTaskPane.IsLocked);
+Assert.AreEqual(1, myScriptTaskPane.Row);
+
+webExtension = myScriptTaskPane.WebExtension;
+Assert.AreEqual(string.Empty, webExtension.Id);
+
+Assert.AreEqual("WA104380646", webExtension.Reference.Id);
+Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
+Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
+Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
+Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+
+Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
+Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+
+Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
+Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
+Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+
+Assert.False(webExtension.IsFrozen);
 ```
 
 ### Voir également

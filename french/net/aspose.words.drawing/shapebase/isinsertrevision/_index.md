@@ -3,9 +3,9 @@ title: ShapeBase.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsInsertRevision propriété. Renvoie vrai si cet objet a été inséré dans Microsoft Word alors que le suivi des modifications était activé en C#.
+description: Découvrez comment la propriété IsInsertRevision de ShapeBase optimise vos documents Word en identifiant les modifications apportées lors du suivi. Optimisez votre efficacité d'édition !
 type: docs
-weight: 300
+weight: 320
 url: /fr/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
@@ -18,14 +18,14 @@ public bool IsInsertRevision { get; }
 
 ## Exemples
 
-Montre comment utiliser des formes de révision.
+Montre comment travailler avec des formes de révision.
 
 ```csharp
 Document doc = new Document();
 
 Assert.False(doc.TrackRevisions);
 
-// Insère une forme en ligne sans suivre les révisions, ce qui fera de cette forme une révision d'aucune sorte.
+// Insérer une forme en ligne sans suivre les révisions, ce qui fera de cette forme une révision de quelque nature que ce soit.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.WrapType = WrapType.Inline;
 shape.Width = 100.0;
@@ -48,13 +48,13 @@ Assert.AreEqual(2, shapes.Length);
 shapes[0].Remove();
 
 // Puisque nous avons supprimé cette forme pendant que nous suivions les modifications,
-// la forme persiste dans le document et compte comme une révision supprimée.
+// la forme persiste dans le document et compte comme une révision de suppression.
 // Accepter cette révision supprimera définitivement la forme, et la rejeter la conservera dans le document.
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
-// Et nous avons inséré une autre forme tout en suivant les modifications, afin que cette forme compte comme une révision d'insertion.
-// Accepter cette révision assimilera cette forme dans le document comme une non-révision,
+// Et nous avons inséré une autre forme lors du suivi des modifications, de sorte que cette forme comptera comme une révision d'insertion.
+// L'acceptation de cette révision assimilera cette forme dans le document en tant que non-révision,
 // et rejeter la révision supprimera définitivement cette forme.
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);

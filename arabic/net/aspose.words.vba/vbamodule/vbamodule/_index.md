@@ -3,14 +3,14 @@ title: VbaModule
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words لـ .NET
-description: VbaModule البناء. إنشاء وحدة فارغة في C#.
+description: أنشئ وحدات VBA فارغة بسهولة باستخدام مُنشئ VbaModule. بسّط عملية البرمجة لديك وحسّن سير عمل التطوير لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.vba/vbamodule/vbamodule/
 ---
 ## VbaModule constructor
 
-إنشاء وحدة فارغة.
+ينشئ وحدة فارغة.
 
 ```csharp
 public VbaModule()
@@ -28,13 +28,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// أنشئ وحدة نمطية جديدة وحدد كود مصدر الماكرو.
+// قم بإنشاء وحدة نمطية جديدة وحدد كود مصدر الماكرو.
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// أضف الوحدة النمطية إلى مشروع VBA.
+//أضف الوحدة إلى مشروع VBA.
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

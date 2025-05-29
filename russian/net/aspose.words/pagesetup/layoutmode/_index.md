@@ -3,7 +3,7 @@ title: PageSetup.LayoutMode
 linktitle: LayoutMode
 articleTitle: LayoutMode
 second_title: Aspose.Words для .NET
-description: PageSetup LayoutMode свойство. Получает или задает режим макета этого раздела на С#.
+description: Откройте для себя свойство PageSetup LayoutMode, чтобы легко настроить макет вашего документа. Улучшите свой дизайн с помощью гибких параметров раздела!
 type: docs
 weight: 190
 url: /ru/net/aspose.words/pagesetup/layoutmode/
@@ -18,13 +18,13 @@ public SectionLayoutMode LayoutMode { get; set; }
 
 ## Примеры
 
-Показывает, как указать количество символов, которое может иметь каждая строка.
+Показывает, как указать количество символов, которое может содержать каждая строка.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите шаг, а затем используйте его, чтобы установить количество символов в строке в этом разделе.
+// Включите питч, а затем используйте его для установки количества символов в строке в этом разделе.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
@@ -38,14 +38,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Показывает, как указать ограничение на количество строк, которое может иметь каждая страница.
+Показывает, как указать ограничение на количество строк на каждой странице.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Включите шаг, а затем используйте его, чтобы установить количество строк на странице в этом разделе.
-// Достаточно большой размер шрифта переместит некоторые строки вниз на следующую страницу, чтобы избежать перекрытия символов.
+// Включите питч, а затем используйте его для установки количества строк на странице в этом разделе.
+// Достаточно большой размер шрифта сдвинет некоторые строки на следующую страницу, чтобы избежать перекрытия символов.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

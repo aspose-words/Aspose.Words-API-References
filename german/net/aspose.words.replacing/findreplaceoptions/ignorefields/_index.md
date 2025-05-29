@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreFields
 linktitle: IgnoreFields
 articleTitle: IgnoreFields
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions IgnoreFields eigendom. Ruft einen booleschen Wert ab oder legt ihn fest der angibt ob Text in Feldern ignoriert werden soll. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Eigenschaft „FindReplaceOptions IgnoreFields“, um Text in Feldern einfach zu verwalten. Steuern Sie, wann Inhalte ignoriert werden sollen, um eine effiziente Suche zu ermöglichen!
 type: docs
 weight: 80
 url: /de/net/aspose.words.replacing/findreplaceoptions/ignorefields/
@@ -33,13 +33,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertField("QUOTE", "Hello again!");
 
-// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Setzen Sie das Flag „IgnoreFields“ auf „true“, um das Suchen und Ersetzen zu erhalten
+// Setzen Sie das Flag "IgnoreFields" auf "true", um die Suchen-und-Ersetzen-Funktion zu erhalten
 // Operation zum Ignorieren von Text in Feldern.
-// Setzen Sie das Flag „IgnoreFields“ auf „false“, um das Suchen und Ersetzen zu erhalten
-// Operation, um auch nach Text innerhalb von Feldern zu suchen.
+// Setzen Sie das Flag "IgnoreFields" auf "false", um die Suchen-und-Ersetzen-Funktion zu erhalten
+// Operation, um auch innerhalb von Feldern nach Text zu suchen.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

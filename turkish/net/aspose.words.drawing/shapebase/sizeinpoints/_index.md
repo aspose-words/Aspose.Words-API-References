@@ -2,15 +2,15 @@
 title: ShapeBase.SizeInPoints
 linktitle: SizeInPoints
 articleTitle: SizeInPoints
-second_title: Aspose.Words for .NET
-description: ShapeBase SizeInPoints mülk. Şeklin boyutunu nokta cinsinden alır C#'da.
+second_title: .NET için Aspose.Words
+description: Hassas tasarım kontrolü için şekil boyutlarını noktalar halinde kolayca almak ve yönetmek amacıyla ShapeBase SizeInPoints özelliğini keşfedin.
 type: docs
-weight: 510
+weight: 540
 url: /tr/net/aspose.words.drawing/shapebase/sizeinpoints/
 ---
 ## ShapeBase.SizeInPoints property
 
-Şeklin boyutunu nokta cinsinden alır.
+Şeklin boyutunu noktalar halinde alır.
 
 ```csharp
 public SizeF SizeInPoints { get; }

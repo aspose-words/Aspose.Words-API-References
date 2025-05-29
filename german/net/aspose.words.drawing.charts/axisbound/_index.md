@@ -3,9 +3,9 @@ title: AxisBound Class
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.AxisBound klas. Stellt die minimale oder maximale Grenze der Achsenwerte dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.AxisBound, Ihre Lösung zum Definieren von Achsenwertgrenzen in Diagrammen für eine präzise Datenvisualisierung.
 type: docs
-weight: 510
+weight: 750
 url: /de/net/aspose.words.drawing.charts/axisbound/
 ---
 ## AxisBound class
@@ -23,8 +23,8 @@ public sealed class AxisBound
 | Name | Beschreibung |
 | --- | --- |
 | [AxisBound](axisbound/#constructor)() | Erstellt eine neue Instanz, die angibt, dass die Achsengrenze automatisch von einer Textverarbeitungsanwendung bestimmt werden soll. |
-| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Erstellt eine Achsengrenze, die als Datum/Uhrzeit-Wert dargestellt wird. |
-| [AxisBound](axisbound/#constructor_1)(*double*) | Erstellt eine als Zahl dargestellte Achsengrenze. |
+| [AxisBound](axisbound/#constructor_2)(*DateTime*) | Erstellt eine Achsengrenze, die als Datums-/Uhrzeitwert dargestellt wird. |
+| [AxisBound](axisbound/#constructor_1)(*double*) | Erstellt eine Achsengrenze, die als Zahl dargestellt wird. |
 
 ## Eigenschaften
 
@@ -44,7 +44,7 @@ public sealed class AxisBound
 
 ## Bemerkungen
 
-Bound kann als numerischer Wert, Datum/Uhrzeit-Wert oder spezieller „Auto“-Wert angegeben werden.
+Die Grenze kann als numerischer Wert, als Datum/Uhrzeit-Wert oder als spezieller „Auto“-Wert angegeben werden.
 
 Die Instanzen dieser Klasse sind unveränderlich.
 
@@ -71,12 +71,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Untere und obere Grenze für die X-Achse festlegen.
+// Untere und obere Grenzen für die X-Achse festlegen.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Setze die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag.
+// Stellen Sie die Haupteinheiten der X-Achse auf eine Woche und die Nebeneinheiten auf einen Tag ein.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -85,9 +85,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Y-Achsen-Eigenschaften für Dezimalwerte definieren.
+// Definieren Sie die Eigenschaften der Y-Achse für Dezimalwerte.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

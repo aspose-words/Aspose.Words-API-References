@@ -3,14 +3,14 @@ title: FieldIncludeText.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words per .NET
-description: FieldIncludeText Encoding proprietà. Ottiene o imposta la codifica applicata ai dati allinterno del file di riferimento in C#.
+description: Scopri la proprietà FieldIncludeText Encoding per gestire facilmente la codifica dei dati nei tuoi file. Migliora la gestione dei tuoi dati con questa funzionalità essenziale!
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldincludetext/encoding/
 ---
 ## FieldIncludeText.Encoding property
 
-Ottiene o imposta la codifica applicata ai dati all'interno del file di riferimento.
+Ottiene o imposta la codifica applicata ai dati nel file a cui si fa riferimento.
 
 ```csharp
 public string Encoding { get; set; }
@@ -27,13 +27,13 @@ public void FieldIncludeText()
     DocumentBuilder builder = new DocumentBuilder(doc);
 
     // Di seguito sono riportati due modi per utilizzare i campi INCLUDETEXT per visualizzare il contenuto di un file XML nel file system locale.
-    // 1 - Esegue una trasformazione XSL su un documento XML:
+    // 1 - Esegui una trasformazione XSL su un documento XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Utilizza un XPath per prendere elementi specifici da un documento XML:
+    // 2 - Utilizzare un XPath per acquisire elementi specifici da un documento XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";
@@ -43,7 +43,7 @@ public void FieldIncludeText()
 }
 
 /// <summary>
-/// Utilizza un generatore di documenti per inserire un campo INCLUDETEXT con proprietà personalizzate.
+/// Utilizzare un generatore di documenti per inserire un campo INCLUDETEXT con proprietà personalizzate.
 /// </summary>
 public FieldIncludeText CreateFieldIncludeText(DocumentBuilder builder, string sourceFullName, bool lockFields, string mimeType, string textConverter, string encoding)
 {

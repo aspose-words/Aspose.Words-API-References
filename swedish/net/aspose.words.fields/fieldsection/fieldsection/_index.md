@@ -3,7 +3,7 @@ title: FieldSection
 linktitle: FieldSection
 articleTitle: FieldSection
 second_title: Aspose.Words för .NET
-description: FieldSection byggare. Default_Constructor i C#.
+description: Upptäck FieldSection-konstruktorn – din lösning för sömlös integration. Lås upp standardfunktioner för effektiv utveckling!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldsection/fieldsection/

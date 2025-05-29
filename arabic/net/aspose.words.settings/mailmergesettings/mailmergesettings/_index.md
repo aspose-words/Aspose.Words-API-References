@@ -3,7 +3,7 @@ title: MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ MailMergeSettings لأتمتة مستندات سلسة. حسّن كفاءة عملك مع مُنشئنا الافتراضي لإعداد سهل!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/mailmergesettings/mailmergesettings/

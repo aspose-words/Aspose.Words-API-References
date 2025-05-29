@@ -3,7 +3,7 @@ title: MailMerge.GetRegionsHierarchy
 linktitle: GetRegionsHierarchy
 articleTitle: GetRegionsHierarchy
 second_title: Aspose.Words für .NET
-description: MailMerge GetRegionsHierarchy methode. Gibt eine vollständige Hierarchie der im Dokument verfügbaren Regionen mit Feldern zurück in C#.
+description: Entdecken Sie die MailMerge GetRegionsHierarchy-Methode, um mühelos eine vollständige Regionshierarchie mit zugänglichen Dokumentfeldern für optimierte Arbeitsabläufe abzurufen.
 type: docs
 weight: 250
 url: /de/net/aspose.words.mailmerging/mailmerge/getregionshierarchy/
@@ -22,11 +22,11 @@ Hierarchie der Regionen.
 
 ## Bemerkungen
 
-Die Hierarchie wird in Form von zurückgegeben[`MailMergeRegionInfo`](../../mailmergeregioninfo/) Klasse.
+Die Hierarchie wird zurückgegeben in Form von[`MailMergeRegionInfo`](../../mailmergeregioninfo/) Klasse.
 
 ## Beispiele
 
-Zeigt, wie Seriendruckbereiche überprüft werden.
+Zeigt, wie Serienbriefbereiche überprüft werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -51,6 +51,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Liste der Felder innerhalb der ersten oberen Region abrufen.
 IList<Field> fieldList = topRegions[0].Fields;

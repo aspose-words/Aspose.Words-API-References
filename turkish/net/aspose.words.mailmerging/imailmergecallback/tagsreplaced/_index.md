@@ -2,15 +2,15 @@
 title: IMailMergeCallback.TagsReplaced
 linktitle: TagsReplaced
 articleTitle: TagsReplaced
-second_title: Aspose.Words for .NET
-description: IMailMergeCallback TagsReplaced yöntem. Bıyık metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: IMailMergeCallback TagsReplaced yönteminin bıyık metnini MERGEFIELD alanlarıyla sorunsuz bir şekilde değiştirerek belge otomasyonunuzu nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imailmergecallback/tagsreplaced/
 ---
 ## IMailMergeCallback.TagsReplaced method
 
-"Bıyık" metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır.
+"Mustache" metin etiketleri MERGEFIELD alanlarıyla değiştirildiğinde çağrılır.
 
 ```csharp
 public void TagsReplaced()
@@ -18,7 +18,7 @@ public void TagsReplaced()
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
+Posta birleştirme sırasında olayların işlenmesi için özel mantığın nasıl tanımlanacağını gösterir.
 
 ```csharp
 public void Callback()
@@ -26,21 +26,21 @@ public void Callback()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bir veri kaynağındaki iki sütuna başvuran iki adres-mektup birleştirme etiketi ekleyin.
+    // Bir veri kaynağındaki iki sütuna başvuran iki posta birleştirme etiketi ekleyin.
     builder.Write("{{FirstName}}");
     builder.Write("{{LastName}}");
 
-    // Birleştirme etiketlerimizin referans verdiği sütunlardan yalnızca birini içeren bir veri kaynağı oluşturun.
+    // Birleştirme etiketlerimizin başvurduğu sütunlardan yalnızca birini içeren bir veri kaynağı oluşturun.
     DataTable table = new DataTable("Test");
     table.Columns.Add("FirstName");
     table.Rows.Add("John");
     table.Rows.Add("Jane");
 
-    // Adres-mektup birleştirmemizi alternatif adres-mektup birleştirme etiketlerini kullanacak şekilde yapılandırın.
+    // Posta birleştirmemizi alternatif posta birleştirme etiketlerini kullanacak şekilde yapılandırın.
     doc.MailMerge.UseNonMergeFields = true;
 
-    // Ardından, adres-mektup birleştirmenin "LastName" etiketimiz gibi etiketleri dönüştüreceğinden emin olun,
-    // birleştirme belgelerindeki MERGEFIELD'lere.
+    // Ardından, posta birleştirmenin "Soyadı" etiketi gibi etiketleri dönüştüreceğinden emin olun.
+    // birleştirme belgelerindeki MERGEFIELD'lara.
     doc.MailMerge.PreserveUnusedTags = false;
 
     MailMergeTagReplacementCounter counter = new MailMergeTagReplacementCounter();
@@ -51,7 +51,7 @@ public void Callback()
 }
 
 /// <summary>
-/// Adres-mektup birleştirmenin, MERGEFIELD'lerle verilerle dolduramadığı adres-mektup birleştirme etiketlerini kaç kez değiştirdiğini sayar.
+/// Bir posta birleştirme işleminin, MERGEFIELD'lerle veriyle dolduramadığı posta birleştirme etiketlerini kaç kez değiştirdiğini sayar.
 /// </summary>
 private class MailMergeTagReplacementCounter : IMailMergeCallback
 {

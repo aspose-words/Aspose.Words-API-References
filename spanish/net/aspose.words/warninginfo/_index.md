@@ -3,16 +3,16 @@ title: WarningInfo Class
 linktitle: WarningInfo
 articleTitle: WarningInfo
 second_title: Aspose.Words para .NET
-description: Aspose.Words.WarningInfo clase. Contiene información sobre una advertencia que Aspose.Words emitió durante la carga o el guardado del documento en C#.
+description: Descubra la clase Aspose.Words.WarningInfo, que proporciona información crucial sobre las advertencias durante la carga o el guardado de documentos, mejorando la eficiencia de su flujo de trabajo.
 type: docs
-weight: 6630
+weight: 7480
 url: /es/net/aspose.words/warninginfo/
 ---
 ## WarningInfo class
 
 Contiene información sobre una advertencia que Aspose.Words emitió durante la carga o el guardado del documento.
 
-Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) Artículo de documentación.
 
 ```csharp
 public class WarningInfo
@@ -23,12 +23,12 @@ public class WarningInfo
 | Nombre | Descripción |
 | --- | --- |
 | [Description](../../aspose.words/warninginfo/description/) { get; } | Devuelve la descripción de la advertencia. |
-| [Source](../../aspose.words/warninginfo/source/) { get; } | Devuelve el origen de la advertencia. |
+| [Source](../../aspose.words/warninginfo/source/) { get; } | Devuelve la fuente de la advertencia. |
 | [WarningType](../../aspose.words/warninginfo/warningtype/) { get; } | Devuelve el tipo de advertencia. |
 
 ## Observaciones
 
-No crea instancias de esta clase. Los objetos de esta clase son creados y Aspose.Words los pasa al[`Warning`](../iwarningcallback/warning/) método.
+No se crean instancias de esta clase. Los objetos de esta clase se crean y Aspose.Words los pasa al[`Warning`](../iwarningcallback/warning/) método.
 
 ## Ejemplos
 
@@ -40,20 +40,20 @@ public void EnableFontSubstitution()
     // Abra un documento que contenga texto formateado con una fuente que no existe en ninguna de nuestras fuentes de fuentes.
     Document doc = new Document(MyDir + "Missing font.docx");
 
-    // Asigna una devolución de llamada para manejar las advertencias de sustitución de fuentes.
+    // Asignar una devolución de llamada para manejar advertencias de sustitución de fuentes.
     HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
     doc.WarningCallback = substitutionWarningHandler;
 
-    // Establece un nombre de fuente predeterminado y habilita la sustitución de fuentes.
+    // Establezca un nombre de fuente predeterminado y habilite la sustitución de fuente.
     FontSettings fontSettings = new FontSettings();
     fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
     ;
     fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 
-    // Las métricas de fuente originales deben usarse después de la sustitución de fuentes.
+    // Las métricas de fuente originales deben utilizarse después de la sustitución de la fuente.
     doc.LayoutOptions.KeepOriginalFontMetrics = true;
 
-    // Recibiremos una advertencia de sustitución de fuente si guardamos un documento al que le falta una fuente.
+    //Recibiremos una advertencia de sustitución de fuente si guardamos un documento con una fuente faltante.
     doc.FontSettings = fontSettings;
     doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
 
@@ -69,7 +69,7 @@ public void EnableFontSubstitution()
 
     substitutionWarningHandler.FontWarnings.Clear();
 
-    Assert.That(substitutionWarningHandler.FontWarnings, Is.Empty);
+    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
 }
 
 public class HandleDocumentSubstitutionWarnings : IWarningCallback

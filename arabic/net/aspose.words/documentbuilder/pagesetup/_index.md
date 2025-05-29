@@ -3,14 +3,14 @@ title: DocumentBuilder.PageSetup
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder PageSetup ملكية. إرجاع كائن يمثل إعداد الصفحة الحالية وخصائص القسم في C#.
+description: استكشف خاصية PageSetup في DocumentBuilder للوصول إلى إعدادات الصفحة والقسم الحالية، مما يعمل على تحسين تنسيق المستند وكفاءة التخطيط.
 type: docs
 weight: 160
 url: /ar/net/aspose.words/documentbuilder/pagesetup/
 ---
 ## DocumentBuilder.PageSetup property
 
-إرجاع كائن يمثل إعداد الصفحة الحالية وخصائص القسم.
+يعيد كائنًا يمثل إعداد الصفحة الحالية وخصائص القسم.
 
 ```csharp
 public PageSetup PageSetup { get; }
@@ -18,7 +18,7 @@ public PageSetup PageSetup { get; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام الموجودة في المستند.
+يوضح كيفية تطبيق إعدادات إعداد الصفحة وإعادتها إلى الأقسام في المستند.
 
 ```csharp
 Document doc = new Document();
@@ -29,14 +29,14 @@ builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
-// إذا بدأنا قسمًا جديدًا باستخدام أداة إنشاء المستندات،
+// إذا بدأنا قسمًا جديدًا باستخدام منشئ المستندات،
 // سوف يرث خصائص إعداد الصفحة الحالية للمنشئ.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// يمكننا إعادة خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
+// يمكننا إرجاع خصائص إعداد الصفحة إلى قيمها الافتراضية باستخدام طريقة "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

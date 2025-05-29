@@ -3,14 +3,14 @@ title: GeneralFormatCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words för .NET
-description: GeneralFormatCollection Add metod. Lägger till ett allmänt format till samlingen i C#.
+description: Upptäck hur du kan förbättra din samling med GeneralFormatCollection Add-metoden – lägg effektivt till mångsidiga format för förbättrad datahantering!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/generalformatcollection/add/
 ---
 ## GeneralFormatCollection.Add method
 
-Lägger till ett allmänt format till samlingen.
+Lägger till ett generellt format till samlingen.
 
 ```csharp
 public void Add(GeneralFormat item)
@@ -18,7 +18,7 @@ public void Add(GeneralFormat item)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| item | GeneralFormat | Ett allmänt format. |
+| item | GeneralFormat | Ett generellt format. |
 
 ## Exempel
 
@@ -28,14 +28,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -44,7 +44,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

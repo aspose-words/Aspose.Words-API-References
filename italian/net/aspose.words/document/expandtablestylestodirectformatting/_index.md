@@ -3,14 +3,14 @@ title: Document.ExpandTableStylesToDirectFormatting
 linktitle: ExpandTableStylesToDirectFormatting
 articleTitle: ExpandTableStylesToDirectFormatting
 second_title: Aspose.Words per .NET
-description: Document ExpandTableStylesToDirectFormatting metodo. Converte la formattazione specificata negli stili di tabella in formattazione diretta sulle tabelle del documento in C#.
+description: Trasforma gli stili di tabella in formattazione diretta con il metodo ExpandTableStylesToDirectFormatting, migliorando senza sforzo l'aspetto del tuo documento.
 type: docs
-weight: 590
+weight: 630
 url: /it/net/aspose.words/document/expandtablestylestodirectformatting/
 ---
 ## Document.ExpandTableStylesToDirectFormatting method
 
-Converte la formattazione specificata negli stili di tabella in formattazione diretta sulle tabelle del documento.
+Converte la formattazione specificata negli stili di tabella in formattazione diretta sulle tabelle nel documento.
 
 ```csharp
 public void ExpandTableStylesToDirectFormatting()
@@ -18,13 +18,13 @@ public void ExpandTableStylesToDirectFormatting()
 
 ## Osservazioni
 
-Questo metodo esiste perché questa versione di Aspose.Words fornisce solo un supporto limitato per gli stili di tabella (vedi sotto). Questo metodo potrebbe essere utile quando carichi un documento DOCX o WordprocessingML che contiene tabelle formattate con stili di tabella e devi eseguire query sulla formattazione di tabelle, celle, paragrafi o testo .
+Questo metodo esiste perché questa versione di Aspose.Words offre solo un supporto limitato per gli stili di tabella (vedi sotto). Questo metodo potrebbe essere utile quando si carica un documento DOCX o WordprocessingML contenente tabelle formattate con stili di tabella e si ha bisogno di interrogare la formattazione di tabelle, celle, paragrafi o testo .
 
 Questa versione di Aspose.Words fornisce un supporto limitato per gli stili di tabella come segue:
 
-* Gli stili di tabella definiti nei documenti DOCX o WordprocessingML vengono conservati come stili di tabella quando si salva il documento come DOCX o WordprocessingML.
-* Gli stili di tabella definiti nei documenti DOCX o WordprocessingML vengono automaticamente convertiti per la formattazione diretta sulle tabelle quando si salva il documento in qualsiasi altro formato, rendering o stampa.
-* Gli stili di tabella definiti nei documenti DOC vengono conservati come stili di tabella quando si salva il documento solo come DOC.
+* Gli stili di tabella definiti nei documenti DOCX o WordprocessingML vengono mantenuti come stili di tabella quando si salva il documento come DOCX o WordprocessingML.
+* Gli stili di tabella definiti nei documenti DOCX o WordprocessingML vengono convertiti automaticamente in formattazione diretta sulle tabelle quando si salva il documento in qualsiasi altro formato, durante il rendering o la stampa.
+* Gli stili di tabella definiti nei documenti DOC vengono mantenuti come stili di tabella solo quando si salva il documento come DOC.
 
 ## Esempi
 
@@ -48,7 +48,7 @@ tableStyle.Borders.LineStyle = LineStyle.DotDash;
 
 table.Style = tableStyle;
 
-// Questo metodo riguarda le proprietà dello stile della tabella come quelle impostate sopra.
+// Questo metodo riguarda le proprietà di stile della tabella come quelle che abbiamo impostato sopra.
 doc.ExpandTableStylesToDirectFormatting();
 
 doc.Save(ArtifactsDir + "Document.TableStyleToDirectFormatting.docx");

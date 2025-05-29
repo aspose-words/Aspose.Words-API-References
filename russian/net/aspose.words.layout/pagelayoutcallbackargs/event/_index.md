@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words для .NET
-description: PageLayoutCallbackArgs Event свойство. Получает событие на С#.
+description: Откройте для себя свойство события PageLayoutCallbackArgs, чтобы улучшить функциональность вашего приложения. Разблокируйте бесшовную обработку событий для лучшей производительности.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Уведомляет нас, когда мы сохраняем документ в фиксированном формате страницы
-/// и отображает страницу, на которой мы выполняем перекомпоновку страницы, в изображение в локальной файловой системе.
+/// и отображает страницу, которую мы преобразуем в изображение в локальной файловой системе.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

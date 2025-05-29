@@ -3,14 +3,14 @@ title: Font.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words لـ .NET
-description: Font StyleName ملكية. الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق في C#.
+description: اكتشف خاصية Font StyleName، وقم بإدارة أنماط الأحرف بسهولة لتحسين تنسيق النص ومرونة التصميم في مشاريعك.
 type: docs
-weight: 420
+weight: 430
 url: /ar/net/aspose.words/font/stylename/
 ---
 ## Font.StyleName property
 
-الحصول على أو تعيين اسم نمط الأحرف المطبق على هذا التنسيق.
+يحصل على اسم نمط الحرف المطبق على هذا التنسيق أو يعينه.
 
 ```csharp
 public string StyleName { get; set; }
@@ -33,9 +33,9 @@ builder.Writeln("Text originally in \"Emphasis\" style");
 builder.Font.StyleIdentifier = StyleIdentifier.IntenseEmphasis;
 builder.Writeln("Text originally in \"Intense Emphasis\" style");
 
-// تحويل كافة الاستخدامات من نمط إلى آخر،
-// استخدام الطرق المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
-foreach (Run run in doc.GetChildNodes(NodeType.Run, true).OfType<Run>())
+// تحويل جميع استخدامات نمط واحد إلى نمط آخر،
+// استخدام الأساليب المذكورة أعلاه للإشارة إلى الأنماط القديمة والجديدة.
+foreach (Run run in doc.GetChildNodes(NodeType.Run, true))
 {
     if (run.Font.StyleName == "Emphasis")
         run.Font.StyleName = "Strong";

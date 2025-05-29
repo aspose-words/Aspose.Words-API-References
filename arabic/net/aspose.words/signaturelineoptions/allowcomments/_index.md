@@ -3,14 +3,14 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words لـ .NET
-description: SignatureLineOptions AllowComments ملكية. الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار تسجيل أو تعيينها. القيمة الافتراضية لهذه الخاصية هيخطأ شنيع  في C#.
+description: فعّل تعليقات المُوقّع في مربع حوار التوقيع باستخدام خاصية AllowComments في SignatureLineOptions. حسّن التعاون والملاحظات بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-الحصول على قيمة تشير إلى أنه يمكن للموقع إضافة تعليقات في مربع الحوار "تسجيل" أو تعيينها. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
+يحصل على قيمة أو يعينها تشير إلى أن المُوقِّع يمكنه إضافة تعليقات في مربع حوار التوقيع. القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// أعد فتح المستند المحفوظ لدينا، وتحقق من أن الخاصيتين "IsSigned" و"IsValid" متساويتان للقيمة "true"،
+// أعد فتح المستند المحفوظ لدينا، وتأكد من أن الخاصيتين "IsSigned" و"IsValid" تساويان "true"،
 // يشير إلى أن سطر التوقيع يحتوي على توقيع.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

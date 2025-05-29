@@ -3,9 +3,9 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Tables.TableCollection klas. Bietet typisierten Zugriff auf eine Sammlung vonTable Knoten in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Tables.TableCollection für einen einfachen, typisierten Zugriff auf Tabellenknoten und verbessern Sie so die Effizienz und Flexibilität der Dokumentverarbeitung.
 type: docs
-weight: 6360
+weight: 7210
 url: /de/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
@@ -23,25 +23,25 @@ public class TableCollection : NodeCollection
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Ruft die Anzahl der Knoten in der Sammlung ab. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Ruft a ab[`Table`](../table/) am angegebenen Index. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Ruft eine[`Table`](../table/) am angegebenen Index. (2 indexers) |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Fügt einen Knoten am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Fügt am Ende der Sammlung einen Knoten hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Bestimmt, ob ein Knoten in der Sammlung ist. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Bestimmt, ob ein Knoten in der Sammlung vorhanden ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Knotensammlung. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Fügt einen Knoten am angegebenen Index in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
-| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Kopiert alle Tabellen aus der Sammlung in ein neues Tabellenarray. (2 methods) |
+| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Kopiert alle Tabellen aus der Sammlung in ein neues Tabellen-Array. (2 methods) |
 
 ## Beispiele
 
-Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
+Zeigt, wie die erste und die letzte Zeile aller Tabellen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -72,7 +72,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Finden Sie heraus, ob Zellen in der Tabelle andere Tabellen als Kinder haben.
+        // Herausfinden, ob Zellen in der Tabelle andere Tabellen als untergeordnete Tabellen haben.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -108,20 +108,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestimmt, ob eine Tabelle in ihren Zellen eine unmittelbar untergeordnete Tabelle enthält.
-/// Diese Tabellen nicht rekursiv durchlaufen, um nach weiteren Tabellen zu suchen.
+/// Bestimmt, ob eine Tabelle innerhalb ihrer Zellen eine unmittelbar untergeordnete Tabelle enthält.
+/// Durchlaufen Sie diese Tabellen nicht rekursiv, um nach weiteren Tabellen zu suchen.
 /// </summary>
 /// <returns>
-/// Gibt true zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
-/// Gibt false zurück, wenn keine Zellen in der Tabelle eine Tabelle enthalten.
+/// Gibt „true“ zurück, wenn mindestens eine untergeordnete Zelle eine Tabelle enthält.
+/// Gibt „false“ zurück, wenn keine Zelle in der Tabelle eine Tabelle enthält.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

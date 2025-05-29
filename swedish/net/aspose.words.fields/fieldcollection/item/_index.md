@@ -3,7 +3,7 @@ title: FieldCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: FieldCollection Item fast egendom. Returnerar ett fält vid det angivna indexet i C#.
+description: Upptäck FieldCollection-objektegenskapen, få enkel åtkomst till fält via index och förbättra din datahantering med lätthet och precision.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldcollection/item/
@@ -18,17 +18,17 @@ public Field this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Ett index i samlingen. |
+| index | Ett index till samlingen. |
 
 ## Anmärkningar
 
 Indexet är nollbaserat.
 
-Negativa index är tillåtna och indikerar åtkomst från baksidan av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder näst före sist och så vidare.
+Negativa index är tillåtna och indikerar åtkomst från slutet av samlingen. Till exempel betyder -1 det sista objektet, -2 betyder det näst före sista och så vidare.
 
-Om index är större än eller lika med antalet objekt i listan, returnerar detta en nollreferens.
+Om index är större än eller lika med antalet objekt i listan returnerar detta en nullreferens.
 
-Om index är negativt och dess absoluta värde är större än antalet objekt i listan, returnerar detta en nollreferens.
+Om index är negativt och dess absoluta värde är större än antalet objekt i listan returnerar detta en null-referens.
 
 ## Exempel
 
@@ -50,12 +50,12 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Nedan finns fyra sätt att ta bort fält från en fältsamling.
-// 1 - Få ett fält för att ta bort sig själv:
+// Nedan följer fyra sätt att ta bort fält från en fältsamling.
+// 1 - Få ett fält att ta bort sig självt:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Få samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
+// 2 - Hämta samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);

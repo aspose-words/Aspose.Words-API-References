@@ -2,17 +2,17 @@
 title: BarcodeParameters Class
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.BarcodeParameters sınıf. BarcodeGeneratora aktarılacak barkod parametreleri için konteyner sınıfı C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işlemede kusursuz barkod oluşturma ve özelleştirme için temel aracınız olan Aspose.Words.Fields.BarcodeParameters sınıfını keşfedin.
 type: docs
-weight: 1470
+weight: 1880
 url: /tr/net/aspose.words.fields/barcodeparameters/
 ---
 ## BarcodeParameters class
 
-BarcodeGenerator'a aktarılacak barkod parametreleri için konteyner sınıfı.
+Barkod parametrelerinin BarcodeGenerator'a aktarılması için kapsayıcı sınıf.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class BarcodeParameters
@@ -28,42 +28,42 @@ public class BarcodeParameters
 
 | İsim | Tanım |
 | --- | --- |
-| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | NW7 ve CODE39 barkod türleri için Başlat/Durdur karakterlerinin eklenip eklenmeyeceği. |
+| [AddStartStopChar](../../aspose.words.fields/barcodeparameters/addstartstopchar/) { get; set; } | NW7 ve CODE39 barkod tipleri için Başlat/Durdur karakterleri eklenecek mi? |
 | [BackgroundColor](../../aspose.words.fields/barcodeparameters/backgroundcolor/) { get; set; } | Barkod arka plan rengi (0x000000 - 0xFFFFFF) |
 | [BarcodeType](../../aspose.words.fields/barcodeparameters/barcodetype/) { get; set; } | Barkod türü. |
 | [BarcodeValue](../../aspose.words.fields/barcodeparameters/barcodevalue/) { get; set; } | Kodlanacak veriler. |
-| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | ITF14 barkod tipi için Vaka Kodunun Stili. Geçerli değerler şunlardır: [STD&#x7C;EXT&#x7C;ADD] |
-| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Resimle birlikte barkod verilerinin (metin) görüntülenip görüntülenmeyeceği. |
-| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | QR Kodunun hata düzeltme düzeyi. Geçerli değerler şunlardır: [0, 3]. |
-| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Karşılıklı Tanımlama İşaretinin (FIM) Türü. |
-| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Geçersizse kontrol basamağının düzeltilip düzeltilmeyeceği. |
+| [CaseCodeStyle](../../aspose.words.fields/barcodeparameters/casecodestyle/) { get; set; } | Barkod türü ITF14 için bir Durum Kodunun Stili. Geçerli değerler şunlardır [STD&#x7C;EXT&#x7C;ADD] |
+| [DisplayText](../../aspose.words.fields/barcodeparameters/displaytext/) { get; set; } | Barkod verilerinin (metin) görüntüyle birlikte görüntülenip görüntülenmeyeceği. |
+| [ErrorCorrectionLevel](../../aspose.words.fields/barcodeparameters/errorcorrectionlevel/) { get; set; } | QR Kodunun hata düzeltme düzeyi. Geçerli değerler [0, 3]. |
+| [FacingIdentificationMark](../../aspose.words.fields/barcodeparameters/facingidentificationmark/) { get; set; } | Karşılıklı Tanımlama İşareti (FIM) Türü. |
+| [FixCheckDigit](../../aspose.words.fields/barcodeparameters/fixcheckdigit/) { get; set; } | Kontrol basamağının geçersiz olması durumunda düzeltilip düzeltilmeyeceği. |
 | [ForegroundColor](../../aspose.words.fields/barcodeparameters/foregroundcolor/) { get; set; } | Barkod ön plan rengi (0x000000 - 0xFFFFFF) |
 | [IsBookmark](../../aspose.words.fields/barcodeparameters/isbookmark/) { get; set; } | İster[`PostalAddress`](./postaladdress/) bir yer iminin adıdır. |
-| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | İster[`PostalAddress`](./postaladdress/) ABD posta adresidir. |
-| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değil) şunlardır: [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
+| [IsUSPostalAddress](../../aspose.words.fields/barcodeparameters/isuspostaladdress/) { get; set; } | İster[`PostalAddress`](./postaladdress/) bir ABD posta adresidir. |
+| [PosCodeStyle](../../aspose.words.fields/barcodeparameters/poscodestyle/) { get; set; } | Satış Noktası barkodunun stili (barkod türleri UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8). Geçerli değerler (büyük/küçük harfe duyarlı değildir) [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE]. |
 | [PostalAddress](../../aspose.words.fields/barcodeparameters/postaladdress/) { get; set; } | Barkod posta adresi. |
-| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Sembol için ölçeklendirme faktörü. Değer tam yüzdelik puan cinsindendir ve geçerli değerler [10, 1000]. 'dir. |
-| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Barkod görüntü yüksekliği (twips cinsinden - 1/1440 inç) |
-| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Barkod sembolünün dönüşü. Geçerli değerler şunlardır: [0, 3]. |
+| [ScalingFactor](../../aspose.words.fields/barcodeparameters/scalingfactor/) { get; set; } | Sembol için ölçekleme faktörü. Değer tam yüzde puanları cinsindendir ve geçerli değerler [10, 1000]. |
+| [SymbolHeight](../../aspose.words.fields/barcodeparameters/symbolheight/) { get; set; } | Barkod görüntü yüksekliği (twip cinsinden - 1/1440 inç) |
+| [SymbolRotation](../../aspose.words.fields/barcodeparameters/symbolrotation/) { get; set; } | Barkod sembolünün döndürülmesi. Geçerli değerler [0, 3]. |
 
 ## Notlar
 
-Parametre seti DISPLAYBARCODE alan seçeneklerine göredir. Tam listeye bakın:[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
+Parametre kümesi DISPLAYBARCODE alan seçeneklerine göredir. Tam listeyi şu adreste görebilirsiniz:[https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx](https://msdn.microsoft.com/en-us/library/hh745901(v=office.12).aspx)
 
 ## Örnekler
 
-Barkod oluşturucunun nasıl kullanılacağını gösterir.
+Barkod üretecinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Barkod oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz,
-// ve ardından bunları belgeye resim olarak ekleyin.
+// Barkodları oluşturmak için özel bir IBarcodeGenerator uygulamasını kullanabiliriz.
+// ve sonra bunları resim olarak belgeye ekleyin.
 doc.FieldOptions.BarcodeGenerator = new CustomBarcodeGenerator();
 
-// Aşağıda oluşturucumuzu kullanarak oluşturabileceğimiz farklı barkod türlerine ait dört örnek bulunmaktadır.
-// Her barkod için yeni bir barkod parametreleri seti belirliyoruz ve ardından görüntüyü oluşturuyoruz.
-// Daha sonra görüntüyü belgeye ekleyebilir veya yerel dosya sistemine kaydedebiliriz.
+// Aşağıda, üretecimizi kullanarak oluşturabileceğimiz farklı barkod tiplerine ait dört örnek bulunmaktadır.
+// Her barkod için yeni bir barkod parametreleri kümesi belirliyoruz ve ardından görüntüyü oluşturuyoruz.
+// Daha sonra resmi belgeye ekleyebiliriz veya yerel dosya sistemine kaydedebiliriz.
 // 1 - QR kodu:
 BarcodeParameters barcodeParameters = new BarcodeParameters
 {
@@ -78,8 +78,14 @@ BarcodeParameters barcodeParameters = new BarcodeParameters
 };
 
 Image img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg");
-
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.QR.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 2 - EAN13 barkodu:
@@ -93,7 +99,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.EAN13.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 3 - CODE39 barkodu:
@@ -105,7 +118,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.CODE39.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 // 4 - ITF14 barkodu:
@@ -117,7 +137,14 @@ barcodeParameters = new BarcodeParameters
 };
 
 img = doc.FieldOptions.BarcodeGenerator.GetBarcodeImage(barcodeParameters);
+#if NET461_OR_GREATER || JAVA
 img.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg");
+#elif NET5_0_OR_GREATER
+using (SKFileWStream fs = new SKFileWStream(ArtifactsDir + "FieldOptions.BarcodeGenerator.ITF14.jpg"))
+{
+    img.Encode(fs, SKEncodedImageFormat.Jpeg, 100);
+}
+#endif
 builder.InsertImage(img);
 
 doc.Save(ArtifactsDir + "FieldOptions.BarcodeGenerator.docx");

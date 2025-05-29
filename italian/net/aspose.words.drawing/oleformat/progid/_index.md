@@ -3,7 +3,7 @@ title: OleFormat.ProgId
 linktitle: ProgId
 articleTitle: ProgId
 second_title: Aspose.Words per .NET
-description: OleFormat ProgId proprietà. Ottiene o imposta il ProgID delloggetto OLE in C#.
+description: Scopri la proprietà ProgId di OleFormat per gestire e personalizzare facilmente i ProgID degli oggetti OLE per ottenere funzionalità avanzate e un'integrazione perfetta.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing/oleformat/progid/
@@ -18,9 +18,9 @@ public string ProgId { get; set; }
 
 ## Osservazioni
 
-La proprietà ProgID non è sempre presente nei documenti di Microsoft Word e non è affidabile.
+La proprietà ProgID non è sempre presente nei documenti Microsoft Word e non è possibile farvi affidamento.
 
-Non può essere`nullo`.
+Non può essere`null`.
 
 Il valore predefinito è una stringa vuota.
 
@@ -32,7 +32,7 @@ Mostra come estrarre oggetti OLE incorporati nei file.
 Document doc = new Document(MyDir + "OLE spreadsheet.docm");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-// L'oggetto OLE nella prima forma è un foglio di calcolo Microsoft Excel.
+// L'oggetto OLE nella prima forma è un foglio di calcolo di Microsoft Excel.
 OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
@@ -42,11 +42,11 @@ Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
 // Se intendiamo salvare l'oggetto OLE in un file nel file system locale,
-// possiamo utilizzare la proprietà "SuggestedExtension" per determinare quale estensione applicare al file.
+// possiamo usare la proprietà "SuggestedExtension" per determinare quale estensione file applicare al file.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Di seguito sono riportati due modi per salvare un oggetto OLE in un file nel file system locale.
-// 1 - Salvalo tramite uno stream:
+// Di seguito sono riportati due metodi per salvare un oggetto OLE in un file nel file system locale.
+// 1 - Salvalo tramite un flusso:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

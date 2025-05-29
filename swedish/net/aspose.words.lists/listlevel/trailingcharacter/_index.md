@@ -3,14 +3,14 @@ title: ListLevel.TrailingCharacter
 linktitle: TrailingCharacter
 articleTitle: TrailingCharacter
 second_title: Aspose.Words för .NET
-description: ListLevel TrailingCharacter fast egendom. Returnerar eller ställer in tecknet som infogats efter numret för listnivån i C#.
+description: Upptäck egenskapen ListLevel TrailingCharacter för att anpassa listformateringen genom att ange eller hämta tecknet efter varje listnummer.
 type: docs
 weight: 140
 url: /sv/net/aspose.words.lists/listlevel/trailingcharacter/
 ---
 ## ListLevel.TrailingCharacter property
 
-Returnerar eller ställer in tecknet som infogats efter numret för listnivån.
+Returnerar eller anger tecknet som infogas efter numret för listnivån.
 
 ```csharp
 public ListTrailingCharacter TrailingCharacter { get; set; }
@@ -18,16 +18,16 @@ public ListTrailingCharacter TrailingCharacter { get; set; }
 
 ## Exempel
 
-Visar hur du använder anpassad listformatering på stycken när du använder DocumentBuilder.
+Visar hur man använder anpassad listformatering på stycken när man använder DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // En lista låter oss organisera och dekorera uppsättningar av stycken med prefixsymboler och indrag.
  // Vi kan skapa kapslade listor genom att öka indragsnivån.
- // Vi kan börja och avsluta en lista genom att använda en dokumentbyggares "ListFormat"-egenskap.
-// Varje stycke som vi lägger till mellan en listas början och slutet kommer att bli ett objekt i listan.
-// Skapa en lista från en Microsoft Word-mall och anpassa de två första av listnivåerna.
+ // Vi kan börja och avsluta en lista genom att använda dokumentbyggarens "ListFormat"-egenskap.
+// Varje stycke som vi lägger till mellan en listas början och slut blir ett objekt i listan.
+// Skapa en lista från en Microsoft Word-mall och anpassa de två första listnivåerna.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

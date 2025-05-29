@@ -1,7 +1,9 @@
 ---
 title: Section.AcceptStart
-second_title: Aspose.Words لمراجع .NET API
-description: Section طريقة. 
+linktitle: AcceptStart
+articleTitle: AcceptStart
+second_title: Aspose.Words لـ .NET
+description: تكامل سلس مع طريقة AcceptStart. حسّن سير عملك وعزز كفاءتك مع حلولنا المتخصصة اليوم!
 type: docs
 weight: 90
 url: /ar/net/aspose.words/section/acceptstart/
@@ -17,7 +19,5 @@ public override VisitorAction AcceptStart(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* مساحة الاسم [Aspose.Words](../../section/)
+* مساحة الاسم [Aspose.Words](../../../aspose.words/)
 * المجسم [Aspose.Words](../../../)
-
-

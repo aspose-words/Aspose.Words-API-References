@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfHeaderFooter
 linktitle: IsEndOfHeaderFooter
 articleTitle: IsEndOfHeaderFooter
 second_title: Aspose.Words für .NET
-description: Paragraph IsEndOfHeaderFooter eigendom. True wenn dieser Absatz der letzte Absatz im istHeaderFooter Haupttextgeschichte von aSection  sonst falsch in C#.
+description: Entdecken Sie die IsEndOfHeaderFooter-Eigenschaft für Absätze. Ermitteln Sie ganz einfach, ob ein Absatz der letzte in einem HeaderFooter ist, und verbessern Sie so die Dokumentstruktur.
 type: docs
 weight: 70
 url: /de/net/aspose.words/paragraph/isendofheaderfooter/
 ---
 ## Paragraph.IsEndOfHeaderFooter property
 
-True, wenn dieser Absatz der letzte Absatz im ist[`HeaderFooter`](../../headerfooter/) (Haupttextgeschichte) von a[`Section`](../../section/) ; sonst falsch.
+Wahr, wenn dieser Absatz der letzte Absatz in der[`HeaderFooter`](../../headerfooter/) (Haupttextgeschichte) eines[`Section`](../../section/) ; andernfalls false.
 
 ```csharp
 public bool IsEndOfHeaderFooter { get; }
@@ -18,12 +18,12 @@ public bool IsEndOfHeaderFooter { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Kopf- und Fußzeile erstellt wird.
+Zeigt, wie eine Kopf- und eine Fußzeile erstellt wird.
 
 ```csharp
 Document doc = new Document();
 
-// Eine Überschrift erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Überschrift und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird oben auf jeder Seite dieses Abschnitts über dem Haupttext angezeigt.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
@@ -33,7 +33,7 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Eine Fußzeile erstellen und einen Absatz daran anhängen. Der Text in diesem Absatz
+// Erstellen Sie eine Fußzeile und fügen Sie einen Absatz hinzu. Der Text in diesem Absatz
 // wird unten auf jeder Seite dieses Abschnitts unter dem Haupttext angezeigt.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);

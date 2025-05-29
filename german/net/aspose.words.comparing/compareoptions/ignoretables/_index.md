@@ -3,25 +3,29 @@ title: CompareOptions.IgnoreTables
 linktitle: IgnoreTables
 articleTitle: IgnoreTables
 second_title: Aspose.Words für .NET
-description: CompareOptions IgnoreTables eigendom. Gibt an ob die Unterschiede in den in Tabellen enthaltenen Daten verglichen werden sollen. Standardmäßig werden Tabellen nicht ignoriert in C#.
+description: Entdecken Sie, wie die CompareOptions IgnoreTables-Eigenschaft die Datenanalyse verbessert, indem sie den Tabellendatenvergleich steuert, um genaue Erkenntnisse zu gewinnen.
 type: docs
 weight: 110
 url: /de/net/aspose.words.comparing/compareoptions/ignoretables/
 ---
 ## CompareOptions.IgnoreTables property
 
-Gibt an, ob die Unterschiede in den in Tabellen enthaltenen Daten verglichen werden sollen. Standardmäßig werden Tabellen nicht ignoriert.
+Gibt an, ob die Unterschiede in den in Tabellen enthaltenen Daten verglichen werden sollen.
 
 ```csharp
 public bool IgnoreTables { get; set; }
 ```
 
+## Bemerkungen
+
+Standardmäßig werden Tabellen nicht ignoriert.
+
 ## Beispiele
 
-Zeigt, wie bei einem Vergleich bestimmte Arten von Dokumentelementen gefiltert werden.
+Zeigt, wie beim Vergleichen bestimmte Typen von Dokumentelementen gefiltert werden.
 
 ```csharp
-// Das Originaldokument erstellen und es mit verschiedenen Arten von Elementen füllen.
+// Erstellen Sie das Originaldokument und füllen Sie es mit verschiedenen Arten von Elementen.
 Document docOriginal = new Document();
 DocumentBuilder builder = new DocumentBuilder(docOriginal);
 
@@ -51,7 +55,7 @@ Comment newComment = new Comment(docOriginal, "John Doe", "J.D.", DateTime.Now);
 newComment.SetText("Original comment.");
 builder.CurrentParagraph.AppendChild(newComment);
 
-// Header:
+// Kopfzeile:
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.Writeln("Original header contents.");
 
@@ -64,27 +68,30 @@ firstParagraph.ParagraphFormat.Style = docEdited.Styles[StyleIdentifier.Heading1
 ((Footnote)docEdited.GetChild(NodeType.Footnote, 0, true)).FirstParagraph.Runs[1].Text = "Edited endnote text.";
 ((Table)docEdited.GetChild(NodeType.Table, 0, true)).FirstRow.Cells[1].FirstParagraph.Runs[0].Text = "Edited Cell 2 contents";
 ((Shape)docEdited.GetChild(NodeType.Shape, 0, true)).FirstParagraph.Runs[0].Text = "Edited textbox contents";
-((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true; 
+((FieldDate)docEdited.Range.Fields[0]).UseLunarCalendar = true;
 ((Comment)docEdited.GetChild(NodeType.Comment, 0, true)).FirstParagraph.Runs[0].Text = "Edited comment.";
 docEdited.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].FirstParagraph.Runs[0].Text =
     "Edited header contents.";
 
 // Beim Vergleichen von Dokumenten wird für jede Bearbeitung im bearbeiteten Dokument eine Revision erstellt.
 // Ein CompareOptions-Objekt verfügt über eine Reihe von Flags, die Revisionen unterdrücken können
-// für jeden jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
-compareOptions.IgnoreFormatting = false;
-compareOptions.IgnoreCaseChanges = false;
-compareOptions.IgnoreComments = false;
-compareOptions.IgnoreTables = false;
-compareOptions.IgnoreFields = false;
-compareOptions.IgnoreFootnotes = false;
-compareOptions.IgnoreTextboxes = false;
-compareOptions.IgnoreHeadersAndFooters = false;
-compareOptions.Target = ComparisonTargetType.New;
+// auf jedem jeweiligen Elementtyp, wobei deren Änderung effektiv ignoriert wird.
+CompareOptions compareOptions = new CompareOptions
+{
+    CompareMoves = false,
+    IgnoreFormatting = false,
+    IgnoreCaseChanges = false,
+    IgnoreComments = false,
+    IgnoreTables = false,
+    IgnoreFields = false,
+    IgnoreFootnotes = false,
+    IgnoreTextboxes = false,
+    IgnoreHeadersAndFooters = false,
+    Target = ComparisonTargetType.New
+};
 
 docOriginal.Compare(docEdited, "John Doe", DateTime.Now, compareOptions);
-docOriginal.Save(ArtifactsDir + "Document.CompareOptions.docx");
+docOriginal.Save(ArtifactsDir + "Revision.CompareOptions.docx");
 ```
 
 ### Siehe auch

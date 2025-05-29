@@ -3,9 +3,9 @@ title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
 second_title: Aspose.Words لـ .NET
-description: Document Cleanup طريقة. ينظف الأنماط والقوائم غير المستخدمة من المستند في C#.
+description: حسّن مستنداتك باستخدام طريقة التنظيف لدينا - احذف الأنماط والقوائم غير المستخدمة لسير عمل أكثر نظافة وكفاءة. حسّن قابلية القراءة اليوم!
 type: docs
-weight: 540
+weight: 580
 url: /ar/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
-// يتم اعتبار النمط المخصص "مستخدمًا" أثناء تطبيقه على جزء ما من المستند،
-// مما يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
+// مع دمج الأنماط المضمنة، أصبح لدى المستند الآن ثمانية أنماط.
+// يتم احتساب النمط المخصص على أنه "مستخدم" عند تطبيقه على جزء من المستند،
+// وهذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة على الأنماط على أنها "مستخدمة".
+// طبّق نمط حرف مخصص، ثم نمط قائمة مخصص. سيؤدي ذلك إلى وضع علامة "مستخدم" على الأنماط.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -47,7 +47,7 @@ doc.Cleanup();
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى.
+// يؤدي إزالة كل عقدة تم تطبيق نمط مخصص عليها إلى تمييزها بأنها "غير مستخدمة" مرة أخرى.
 // قم بتشغيل طريقة التنظيف مرة أخرى لإزالتها.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup();
@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
-ينظف الأنماط والقوائم غير المستخدمة من المستند اعتمادًا على ما هو محدد[`CleanupOptions`](../../cleanupoptions/) .
+ينظف الأنماط والقوائم غير المستخدمة من المستند بناءً على ما تم تقديمه[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -73,7 +73,7 @@ public void Cleanup(CleanupOptions options)
 
 ## أمثلة
 
-يوضح كيفية إزالة جميع الأنماط المخصصة غير المستخدمة من المستند.
+يوضح كيفية إزالة كافة الأنماط المخصصة غير المستخدمة من مستند.
 
 ```csharp
 Document doc = new Document();
@@ -83,12 +83,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// بالدمج مع الأنماط المضمنة، أصبح المستند الآن يحتوي على ثمانية أنماط.
+// مع دمج الأنماط المضمنة، أصبح لدى المستند الآن ثمانية أنماط.
 // يتم وضع علامة على النمط المخصص على أنه "مستخدم" أثناء وجود أي نص داخل المستند
-// منسق بهذا النمط. وهذا يعني أن الأنماط الأربعة التي أضفناها غير مستخدمة حاليًا.
+// مُنسّق بهذا النمط. هذا يعني أن الأنماط الأربعة التي أضفناها غير مُستخدمة حاليًا.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// قم بتطبيق نمط أحرف مخصص، ثم نمط قائمة مخصص. سيؤدي القيام بذلك إلى وضع علامة "مستخدمة" عليها.
+// طبّق نمط حرف مخصص، ثم نمط قائمة مخصص. سيؤدي ذلك إلى تمييزهما بعلامة "مستخدم".
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -98,8 +98,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// الآن، يوجد نمط أحرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
-// يمكن لأسلوب Cleanup()، عند تكوينه باستخدام كائن CleanupOptions، استهداف الأنماط غير المستخدمة وإزالتها.
+// الآن، هناك نمط حرف واحد غير مستخدم ونمط قائمة واحد غير مستخدم.
+// عند تكوين طريقة Cleanup() باستخدام كائن CleanupOptions، يمكنها استهداف الأنماط غير المستخدمة وإزالتها.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -109,7 +109,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // إزالة كل عقدة يتم تطبيق نمط مخصص عليها لوضع علامة عليها على أنها "غير مستخدمة" مرة أخرى.
+ // يؤدي إزالة كل عقدة تم تطبيق نمط مخصص عليها إلى تمييزها بأنها "غير مستخدمة" مرة أخرى.
 // أعد تشغيل طريقة التنظيف لإزالتها.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

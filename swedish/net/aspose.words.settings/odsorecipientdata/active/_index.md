@@ -3,14 +3,14 @@ title: OdsoRecipientData.Active
 linktitle: Active
 articleTitle: Active
 second_title: Aspose.Words för .NET
-description: OdsoRecipientData Active fast egendom. Anger om posten från datakällan ska importeras till ett dokument när sammanslagningen utförs. Standardvärdet ärSann  i C#.
+description: Styr import av dokumentkopplingar med egenskapen OdsoRecipientData Active. Hantera enkelt dataposter för sömlös dokumentskapande. Standardvärdet är sant.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/odsorecipientdata/active/
 ---
 ## OdsoRecipientData.Active property
 
-Anger om posten från datakällan ska importeras till ett dokument när sammanslagningen utförs. Standardvärdet är`Sann` .
+Anger om posten från datakällan ska importeras till ett dokument när dokumentkopplingen utförs. Standardvärdet är`sann` .
 
 ```csharp
 public bool Active { get; set; }
@@ -18,7 +18,7 @@ public bool Active { get; set; }
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

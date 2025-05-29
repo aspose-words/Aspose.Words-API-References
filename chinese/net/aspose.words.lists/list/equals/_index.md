@@ -2,8 +2,8 @@
 title: List.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: 用于 .NET 的 Aspose.Words
-description: List Equals 方法. 与指定列表进行比较 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 List Equals 方法如何高效地比较列表的准确性。掌握这项必备的编程技巧，提升你的编程技能！
 type: docs
 weight: 100
 url: /zh/net/aspose.words.lists/list/equals/

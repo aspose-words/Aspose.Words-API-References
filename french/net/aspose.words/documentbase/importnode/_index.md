@@ -3,9 +3,9 @@ title: DocumentBase.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words pour .NET
-description: DocumentBase ImportNode méthode. Importe un nœud dun autre document vers le document actuel en C#.
+description: Importez facilement des nœuds depuis d'autres documents pour optimiser votre flux de travail grâce à la méthode ImportNode de DocumentBase. Simplifiez la gestion de vos documents dès aujourd'hui !
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words/documentbase/importnode/
 ---
 ## ImportNode(*[Node](../../node/), bool*) {#importnode}
@@ -29,11 +29,11 @@ Le nœud cloné qui appartient au document actuel.
 
 Cette méthode utilise leUseDestinationStyles option pour résoudre le formatage.
 
-L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
+L'importation d'un nœud crée une copie du nœud source appartenant au document importé. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisant[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document, telles que les références aux styles et aux listes, sont traduites du document d'origine vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'emplacement approprié dans le document à l'aide de[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
 
-Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
+Si le nœud source appartient déjà au document de destination, alors un simple clone profond du nœud source est créé.
 
 ## Exemples
 
@@ -49,9 +49,9 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
     new Run(dstDoc, "Destination document first paragraph text."));
 
 // Chaque nœud a un document parent, qui est le document qui contient le nœud.
-// L'insertion d'un nœud dans un document auquel le nœud n'appartient pas lèvera une exception.
+// L'insertion d'un nœud dans un document auquel le nœud n'appartient pas générera une exception.
 Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
-Assert.Throws<ArgumentException>(() => { dstDoc.AppendChild(srcDoc.FirstSection); });
+Assert.Throws<ArgumentException>(() => dstDoc.AppendChild(srcDoc.FirstSection));
 
 // Utilisez la méthode ImportNode pour créer une copie d'un nœud, qui contiendra le document
 // qui a appelé la méthode ImportNode définie comme son nouveau document propriétaire.
@@ -87,21 +87,21 @@ public Node ImportNode(Node srcNode, bool isImportChildren, ImportFormatMode imp
 | --- | --- | --- |
 | srcNode | Node | Le nœud à importer. |
 | isImportChildren | Boolean | `vrai` pour importer tous les nœuds enfants de manière récursive ; sinon,`FAUX`. |
-| importFormatMode | ImportFormatMode | Spécifie comment fusionner le formatage de style en conflit. |
+| importFormatMode | ImportFormatMode | Spécifie comment fusionner les formats de style qui entrent en conflit. |
 
 ### Return_Value
 
-Le nœud cloné et importé. Le nœud appartient au document de destination, mais n'a pas de parent.
+Le nœud cloné et importé. Il appartient au document de destination, mais n'a pas de parent.
 
 ## Remarques
 
-Cette surcharge est utile pour contrôler la façon dont les styles et le formatage des listes sont importés.
+Cette surcharge est utile pour contrôler la manière dont les styles et le formatage des listes sont importés.
 
-L'importation d'un nœud crée une copie du nœud source appartenant au document importateur. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
+L'importation d'un nœud crée une copie du nœud source appartenant au document importé. Le nœud renvoyé n'a pas de parent. Le nœud source n'est ni modifié ni supprimé du document d'origine.
 
-Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document telles que les références aux styles et aux listes sont traduites de l'original vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'endroit approprié dans le document en utilisant[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
+Avant qu'un nœud d'un autre document puisse être inséré dans ce document, il doit être importé. Lors de l'importation, les propriétés spécifiques au document, telles que les références aux styles et aux listes, sont traduites du document d'origine vers le document d'importation. Une fois le nœud importé, il peut être inséré à l'emplacement approprié dans le document à l'aide de[`InsertBefore`](../../compositenode/insertbefore/) ou [`InsertAfter`](../../compositenode/insertafter/).
 
-Si le nœud source appartient déjà au document de destination, alors simplement un clone profond du nœud source est créé.
+Si le nœud source appartient déjà au document de destination, alors un simple clone profond du nœud source est créé.
 
 ## Exemples
 
@@ -124,15 +124,15 @@ DocumentBuilder dstBuilder = new DocumentBuilder(dstDoc);
 dstBuilder.Font.Style = dstStyle;
 dstBuilder.Writeln("Destination document text.");
 
-// Importe la section du document de destination dans le document source, provoquant une collision de noms de style.
+// Importez la section du document de destination dans le document source, ce qui provoque une collision de nom de style.
 // Si nous utilisons des styles de destination, alors le texte source importé avec le même nom de style
-// car le texte de destination adoptera le style de destination.
+// comme texte de destination adoptera le style de destination.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
 Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
 Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
 
-// Si on utilise ImportFormatMode.KeepDifferentStyles, le style source est conservé,
-// et le conflit de noms est résolu en ajoutant un suffixe.
+// Si nous utilisons ImportFormatMode.KeepDifferentStyles, le style source est conservé,
+// et le conflit de nommage est résolu en ajoutant un suffixe.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
 Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
 Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);

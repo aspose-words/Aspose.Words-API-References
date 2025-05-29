@@ -3,14 +3,14 @@ title: StyleCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: StyleCollection Document eigendom. Ruft das Eigentümerdokument ab in C#.
+description: Greifen Sie mit StyleCollection mühelos auf das Eigentümerdokument zu. Entdecken Sie nahtloses Dokumentenmanagement und verbessern Sie noch heute Ihren Workflow!
 type: docs
 weight: 40
 url: /de/net/aspose.words/stylecollection/document/
 ---
 ## StyleCollection.Document property
 
-Ruft das Eigentümerdokument ab.
+Ruft das Besitzerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }

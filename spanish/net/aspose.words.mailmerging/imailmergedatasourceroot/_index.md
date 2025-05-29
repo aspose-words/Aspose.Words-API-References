@@ -3,14 +3,14 @@ title: IMailMergeDataSourceRoot Interface
 linktitle: IMailMergeDataSourceRoot
 articleTitle: IMailMergeDataSourceRoot
 second_title: Aspose.Words para .NET
-description: Aspose.Words.MailMerging.IMailMergeDataSourceRoot interfaz. Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestrosdetallados en C#.
+description: Desbloquee la potente combinación de correo con Aspose.Words.MailMerging.IMailMergeDataSourceRoot. Integre fácilmente fuentes de datos personalizadas para la gestión de datos maestros y detallados.
 type: docs
-weight: 3820
+weight: 4510
 url: /es/net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface
 
-Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detallados.
+Implemente esta interfaz para permitir la combinación de correspondencia desde una fuente de datos personalizada con datos maestros y detallados.
 
 ```csharp
 public interface IMailMergeDataSourceRoot
@@ -24,7 +24,7 @@ public interface IMailMergeDataSourceRoot
 
 ## Ejemplos
 
-Realiza una combinación de correspondencia desde una fuente de datos personalizada con datos maestros-detalles.
+Realiza la combinación de correspondencia desde una fuente de datos personalizada con datos maestros y detallados.
 
 ```csharp
 public void CustomDataSourceRoot()
@@ -33,7 +33,7 @@ public void CustomDataSourceRoot()
     string[] mailMergeRegions = { "Vancouver", "Seattle" };
     Document doc = CreateSourceDocumentWithMailMergeRegions(mailMergeRegions);
 
-    // Crea dos fuentes de datos para la combinación de correspondencia.
+    // Cree dos fuentes de datos para la combinación de correspondencia.
     EmployeeList employeesWashingtonBranch = new EmployeeList();
     employeesWashingtonBranch.Add(new Employee("John Doe", "Sales"));
     employeesWashingtonBranch.Add(new Employee("Jane Doe", "Management"));
@@ -42,9 +42,9 @@ public void CustomDataSourceRoot()
     employeesSeattleBranch.Add(new Employee("John Cardholder", "Management"));
     employeesSeattleBranch.Add(new Employee("Joe Bloggs", "Sales"));
 
-    // Registrar nuestras fuentes de datos por nombre en una raíz de fuente de datos.
-    // Si vamos a utilizar esta raíz de origen de datos en una combinación de correspondencia con regiones,
-    // el nombre registrado de cada fuente debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento fuente de combinación de correspondencia.
+    // Registra nuestras fuentes de datos por nombre en una raíz de fuente de datos.
+    // Si estamos a punto de utilizar esta raíz de fuente de datos en una combinación de correspondencia con regiones,
+    // El nombre registrado de cada fuente debe coincidir con el nombre de una región de combinación de correspondencia existente en el documento fuente de combinación de correspondencia.
     DataSourceRoot sourceRoot = new DataSourceRoot();
     sourceRoot.RegisterSource(mailMergeRegions[0], new EmployeeListMailMergeSource(employeesWashingtonBranch));
     sourceRoot.RegisterSource(mailMergeRegions[1], new EmployeeListMailMergeSource(employeesSeattleBranch));
@@ -95,7 +95,7 @@ private class Employee
 }
 
 /// <summary>
-/// Un ejemplo de una colección escrita que contiene sus objetos de "datos".
+/// Un ejemplo de una colección tipificada que contiene sus objetos "datos".
 /// </summary>
 private class EmployeeList : ArrayList
 {
@@ -140,7 +140,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Una implementación estándar para pasar al siguiente registro de una colección.
+    /// Una implementación estándar para pasar al siguiente registro en una colección.
     /// </summary>
     public bool MoveNext()
     {
@@ -161,7 +161,7 @@ private class EmployeeListMailMergeSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// El nombre de la fuente de datos. Utilizado por Aspose.Words solo cuando se ejecuta combinación de correspondencia con regiones repetibles.
+    /// El nombre de la fuente de datos. Aspose.Words lo utiliza solo al ejecutar la combinación de correspondencia con regiones repetibles.
     /// </summary>
     public string TableName
     {

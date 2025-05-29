@@ -3,14 +3,14 @@ title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
 second_title: Aspose.Words для .NET
-description: Document PackageCustomParts свойство. Получает или задает коллекцию пользовательских частей произвольное содержимое которые связаны с пакетом OOXML с помощью неизвестных связей на С#.
+description: Управляйте пользовательскими частями в вашем пакете OOXML без усилий. Получайте доступ и изменяйте связанный контент с легкостью для повышения гибкости и функциональности документа.
 type: docs
-weight: 310
+weight: 320
 url: /ru/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
 
-Получает или задает коллекцию пользовательских частей (произвольное содержимое), которые связаны с пакетом OOXML с помощью «неизвестных связей».
+Возвращает или задает коллекцию пользовательских частей (произвольное содержимое), которые связаны с пакетом OOXML с помощью «неизвестных отношений».
 
 ```csharp
 public CustomPartCollection PackageCustomParts { get; set; }
@@ -18,9 +18,9 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## Примечания
 
-Не путайте эти пользовательские части с пользовательскими XML-данными. Если вам нужен доступ к пользовательским частям XML, используйте[`CustomXmlParts`](../customxmlparts/) свойство.
+Не путайте эти пользовательские части с пользовательскими XML-данными. Если вам нужно получить доступ к пользовательским XML-частям, используйте[`CustomXmlParts`](../customxmlparts/) свойство.
 
-Эта коллекция содержит части OOXML, родительским элементом которых является пакет OOXML, и их целевые объекты имеют «неизвестную связь». Для получения дополнительной информации см.[`CustomPart`](../../../aspose.words.markup/custompart/).
+Эта коллекция содержит части OOXML, родительским элементом которых является пакет OOXML, а их цели находятся в «неизвестной связи». Для получения дополнительной информации см.[`CustomPart`](../../../aspose.words.markup/custompart/).
 
 Aspose.Words загружает и сохраняет пользовательские части только в документы OOXML.
 
@@ -28,7 +28,7 @@ Aspose.Words загружает и сохраняет пользовательс
 
 ## Примеры
 
-Показывает, как получить доступ к произвольной коллекции пользовательских частей документа.
+Показывает, как получить доступ к коллекции произвольных пользовательских частей документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -40,7 +40,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Перебираем коллекцию и печатаем каждую часть.
+// Перечислить коллекцию и вывести каждую часть.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -57,7 +57,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Мы можем удалять элементы из этой коллекции по отдельности или все сразу.
+// Мы можем удалить элементы из этой коллекции по отдельности или все сразу.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

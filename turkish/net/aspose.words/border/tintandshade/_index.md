@@ -2,25 +2,30 @@
 title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
-second_title: Aspose.Words for .NET
-description: Border TintAndShade mülk. Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Border TintAndShade'i keşfedin, çarpıcı tasarım geliştirmeleri için basit bir çift değerle renk parlaklığını zahmetsizce ayarlayın. Yaratıcı projeleriniz için mükemmel!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/border/tintandshade/
 ---
 ## Border.TintAndShade property
 
-Bir rengi açan veya koyulaştıran double değerini alır veya ayarlar.
+Bir rengi açan veya koyulaştıran bir double değeri alır veya ayarlar.
 
 ```csharp
 public double TintAndShade { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentOutOfRangeException | Bu özelliği -1'den küçük veya 1'den büyük bir değere ayarlamayı denerseniz fırlatır. |
+| InvalidOperationException | Bu özelliğin Border nesnesi için tema renkleri dışında bir renkle ayarlanması durumunda oluşur. |
+
 ## Notlar
 
-Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
-
-Bu özelliğin Border nesnesi için tema dışı colours ile ayarlanması şu sonucu doğurur:InvalidOperationException.
+Bu özellik için izin verilen değerler -1 (en koyu) ile 1 (en açık) arasında değişmektedir. Sıfır (0) nötrdür.
 
 ## Örnekler
 

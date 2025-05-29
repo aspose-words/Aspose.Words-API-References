@@ -3,7 +3,7 @@ title: FieldIf.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words pour .NET
-description: FieldIf ComparisonOperator propriété. Obtient ou définit lopérateur de comparaison en C#.
+description: Découvrez la propriété FieldIf ComparisonOperator, gérez et personnalisez facilement les opérateurs de comparaison pour une gestion et une analyse améliorées des données.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldif/comparisonoperator/
@@ -18,7 +18,7 @@ public string ComparisonOperator { get; set; }
 
 ## Exemples
 
-Montre comment insérer un champ IF.
+Montre comment insérer un champ SI.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Le champ IF affichera une chaîne provenant soit de sa propriété "TrueText",
-// ou sa propriété "FalseText", selon la vérité de l'énoncé que nous avons construit.
+// Le champ IF affichera une chaîne provenant de sa propriété « TrueText »,
+// ou sa propriété "FalseText", selon la véracité de l'énoncé que nous avons construit.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Dans ce cas, "0 = 1" est incorrect, le résultat affiché sera donc "False".
+// Dans ce cas, "0 = 1" est incorrect, donc le résultat affiché sera "Faux".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Cette fois, l'instruction est correcte, donc le résultat affiché sera "True".
+// Cette fois, l'instruction est correcte, donc le résultat affiché sera « Vrai ».
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

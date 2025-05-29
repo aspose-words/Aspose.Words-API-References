@@ -3,14 +3,14 @@ title: EndCap Enum
 linktitle: EndCap
 articleTitle: EndCap
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.EndCap enum. Specifica lo stile del limite di riga in C#.
+description: Scopri l'enum Aspose.Words.Drawing.EndCap per stili di terminazione linea personalizzabili. Migliora il design dei tuoi documenti con effetti visivi unici!
 type: docs
-weight: 940
+weight: 1260
 url: /it/net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration
 
-Specifica lo stile del limite di riga.
+Specifica lo stile del capolinea.
 
 ```csharp
 public enum EndCap
@@ -21,13 +21,13 @@ public enum EndCap
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Round | `0` | Estremità arrotondate. |
-| Square | `1` | Il quadrato sporge di metà della larghezza della linea. |
+| Square | `1` | Il quadrato sporge di mezza linea. |
 | Flat | `2` | La linea termina nel punto finale. |
 | Default | `2` | Il valore predefinito èFlat . |
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -52,7 +52,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -72,7 +72,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -84,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

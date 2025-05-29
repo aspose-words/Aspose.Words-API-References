@@ -2,8 +2,8 @@
 title: TextBox.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
-second_title: Aspose.Words for .NET
-description: TextBox VerticalAnchor mülk. Bir şekil içindeki metnin dikey hizalamasını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: TextBox VerticalAnchor özelliğinin, projelerinizde gelişmiş tasarım ve okunabilirlik için şekiller içindeki metin hizalamasını nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.drawing/textbox/verticalanchor/
@@ -31,17 +31,17 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
 // "VerticalAnchor" özelliğini "TextBoxAnchor.Top" olarak ayarlayın
-// bu metin kutusundaki metni şeklin üst tarafıyla hizalayın.
+// Bu metin kutusundaki metni şeklin üst tarafıyla hizala.
 // "VerticalAnchor" özelliğini "TextBoxAnchor.Middle" olarak ayarlayın
-// bu metin kutusundaki metni şeklin merkezine hizalayın.
+// Bu metin kutusundaki metni şeklin ortasına hizala.
 // "VerticalAnchor" özelliğini "TextBoxAnchor.Bottom" olarak ayarlayın
-// bu metin kutusundaki metni şeklin alt kısmına hizalayın.
+// Bu metin kutusundaki metni şeklin altına hizala.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// Metin kutularının içindeki metnin dikey hizalanması Microsoft Word 2007'den itibaren mümkündür.
+// Metin kutularının içindeki metnin dikey hizalanması Microsoft Word 2007'den itibaren kullanılabilir.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```

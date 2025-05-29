@@ -3,9 +3,9 @@ title: Style.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: Style Remove methode. Entfernt den angegebenen Stil aus dem Dokument in C#.
+description: Entfernen Sie mühelos unerwünschte Stile aus Ihrem Dokument mit der Methode „Stil entfernen“. Verbessern Sie das Erscheinungsbild Ihrer Inhalte und sorgen Sie für Konsistenz!
 type: docs
-weight: 190
+weight: 230
 url: /de/net/aspose.words/style/remove/
 ---
 ## Style.Remove method
@@ -18,11 +18,11 @@ public void Remove()
 
 ## Bemerkungen
 
-Das Entfernen des Stils hat folgende Auswirkungen auf das Dokumentmodell:
+Das Entfernen von Stilen hat folgende Auswirkungen auf das Dokumentmodell:
 
-* Alle Verweise auf den Stil werden aus den entsprechenden Absätzen, Läufen und Tabellen entfernt.
-* Wenn der Basisstil entfernt wird, wird seine Formatierung auf untergeordnete Stile verschoben.
-* Wenn der zu löschende Stil über einen verknüpften Stil verfügt, werden beide gelöscht.
+* Sämtliche Stilverweise werden aus den entsprechenden Absätzen, Absätzen und Tabellen entfernt.
+* Wenn der Basisstil entfernt wird, wird seine Formatierung in die untergeordneten Stile verschoben.
+* Wenn der zu löschende Stil einen verknüpften Stil hat, werden beide gelöscht.
 
 ## Beispiele
 
@@ -40,7 +40,7 @@ style.AutomaticallyUpdate = true;
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Einen der Stile aus dem Dokument auf den Absatz anwenden, den der Dokumentersteller erstellt.
+// Wenden Sie einen der Stile aus dem Dokument auf den Absatz an, den der Dokumentgenerator erstellt.
 builder.ParagraphFormat.Style = doc.Styles["MyStyle"];
 builder.Writeln("Hello world!");
 

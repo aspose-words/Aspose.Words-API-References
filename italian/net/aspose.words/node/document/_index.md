@@ -3,7 +3,7 @@ title: Node.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words per .NET
-description: Node Document proprietà. Ottiene il documento a cui appartiene questo nodo in C#.
+description: Scopri la proprietà Documento Nodo, accedi senza sforzo al documento collegato al tuo nodo per una gestione dei dati fluida e una maggiore produttività.
 type: docs
 weight: 20
 url: /it/net/aspose.words/node/document/
@@ -18,7 +18,7 @@ public virtual DocumentBase Document { get; }
 
 ## Osservazioni
 
-Il nodo appartiene sempre ad un documento anche se è appena stato creato e non ancora aggiunto all'albero, oppure se è stato rimosso dall'albero.
+Il nodo appartiene sempre a un documento, anche se è stato appena creato e non ancora aggiunto all'albero, oppure se è stato rimosso dall'albero.
 
 ## Esempi
 
@@ -33,16 +33,16 @@ para.AppendChild(new Run(doc, "Hello world!"));
 Assert.IsNull(para.ParentNode);
 
 // Se un nodo è un tipo di nodo figlio appropriato di un altro nodo composito,
-// possiamo allegarlo come figlio solo se entrambi i nodi hanno lo stesso documento proprietario.
+// possiamo collegarlo come figlio solo se entrambi i nodi hanno lo stesso documento proprietario.
 // Il documento proprietario è il documento che abbiamo passato al costruttore del nodo.
-// Non abbiamo allegato questo paragrafo al documento, quindi il documento non contiene il suo testo.
+// Non abbiamo allegato questo paragrafo al documento, quindi il documento non ne contiene il testo.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// Poiché il documento possiede questo paragrafo, possiamo applicare uno dei suoi stili al contenuto del paragrafo.
+// Poiché il documento è proprietario di questo paragrafo, possiamo applicare uno dei suoi stili al contenuto del paragrafo.
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// Aggiungi questo nodo al documento, quindi verificane il contenuto.
+// Aggiungi questo nodo al documento e verificane il contenuto.
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

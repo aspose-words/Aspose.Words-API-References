@@ -3,7 +3,7 @@ title: CustomPartCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: CustomPartCollection Item eigendom. Ruft ein Element am angegebenen Index ab oder legt es fest in C#.
+description: Verwalten Sie Ihre CustomPartCollection mühelos mit unserer Artikeleigenschaft. Rufen Sie schnell Artikel an jedem Index ab oder legen Sie sie fest, um eine nahtlose Anpassung und Effizienz zu gewährleisten.
 type: docs
 weight: 30
 url: /de/net/aspose.words.markup/custompartcollection/item/
@@ -29,12 +29,12 @@ Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);
 
-// Klonen Sie den zweiten Teil und fügen Sie dann den Klon zur Sammlung hinzu.
+// Klonen Sie den zweiten Teil und fügen Sie den Klon dann der Sammlung hinzu.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Die Sammlung aufzählen und jeden Teil ausdrucken.
+// Die Sammlung aufzählen und jeden Teil drucken.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;

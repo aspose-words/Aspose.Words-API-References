@@ -3,14 +3,14 @@ title: FieldMergeBarcode.AddStartStopChar
 linktitle: AddStartStopChar
 articleTitle: AddStartStopChar
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode AddStartStopChar propiedad. Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39 en C#.
+description: Controle los caracteres de inicio/fin de los códigos de barras NW7 y CODE39 con la propiedad FieldMergeBarcode AddStartStopChar. ¡Mejore la funcionalidad de sus códigos de barras hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldmergebarcode/addstartstopchar/
 ---
 ## FieldMergeBarcode.AddStartStopChar property
 
-Obtiene o establece si se deben agregar caracteres de inicio/parada para los tipos de códigos de barras NW7 y CODE39.
+Obtiene o establece si se deben agregar caracteres de inicio/detención para los tipos de código de barras NW7 y CODE39.
 
 ```csharp
 public bool AddStartStopChar { get; set; }
@@ -25,20 +25,20 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores de la columna "MyCODE39Barcode" de una fuente de datos combinada en códigos de barras CODE39.
+// Este campo convertirá todos los valores de la columna "MyCODE39Barcode" de una fuente de datos de combinación en códigos de barras CODE39.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
 
-// Edita su apariencia para mostrar caracteres de inicio/parada.
+// Edite su apariencia para mostrar los caracteres de inicio y fin.
 field.AddStartStopChar = true;
 
 Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código de barras CODE39 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");

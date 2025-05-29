@@ -2,15 +2,15 @@
 title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection 班级. 表示图表系列的 X 值的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.ChartXValueCollection 类，这是有效管理图表系列中 X 值集合的解决方案。
 type: docs
-weight: 850
+weight: 1170
 url: /zh/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
 
-表示图表系列的 X 值的集合。
+表示图表系列的 X 值集合。
 
 ```csharp
 public class ChartXValueCollection : IEnumerable<ChartXValue>
@@ -21,6 +21,7 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | 获取此集合中的项目数。 |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | 获取或设置应用于 X 值的格式代码。 |
 | [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | 获取或设置指定索引处的 X 值。 |
 
 ## 方法
@@ -31,9 +32,9 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 ## 评论
 
-除以下以外的所有收藏品**无效的**必须有相同的[`ValueType`](../chartxvalue/valuetype/)。
+除以下物品外的所有藏品**无效的**必须有相同的[`ValueType`](../chartxvalue/valuetype/)。
 
-该集合仅允许更改 X 值。要向图表系列添加或插入新值，或删除值， 的相应方法[`ChartSeries`](../chartseries/)可以使用类。
+该集合仅允许更改 X 值。要向图表系列添加或插入新值，或者删除值，请使用[`ChartSeries`](../chartseries/)可以使用类。
 
 ## 例子
 
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// 更改最大值和最小值的颜色。
+// 改变最大值和最小值的颜色。
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

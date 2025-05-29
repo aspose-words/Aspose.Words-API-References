@@ -3,16 +3,16 @@ title: FormFieldCollection Class
 linktitle: FormFieldCollection
 articleTitle: FormFieldCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.FormFieldCollection classe. Une collection deFormField objets qui représentent tous les champs de formulaire dans une plage en C#.
+description: Découvrez la classe Aspose.Words.Fields.FormFieldCollection, votre solution de référence pour gérer tous les champs de formulaire d'un document avec facilité et efficacité.
 type: docs
-weight: 2630
+weight: 3040
 url: /fr/net/aspose.words.fields/formfieldcollection/
 ---
 ## FormFieldCollection class
 
 Une collection de[`FormField`](../formfield/) objets qui représentent tous les champs de formulaire dans une plage.
 
-Pour en savoir plus, visitez le[Travailler avec des champs de formulaire](https://docs.aspose.com/words/net/working-with-form-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs de formulaire](https://docs.aspose.com/words/net/working-with-form-fields/) article de documentation.
 
 ```csharp
 public class FormFieldCollection : IEnumerable<FormField>
@@ -83,15 +83,15 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Les champs affichent nos champs de formulaire. Nous pouvons voir leurs codes de champ en ouvrant ce document
+    // Les champs affichent les champs de notre formulaire. Leurs codes sont visibles en ouvrant ce document.
     // dans Microsoft et en appuyant sur Alt + F9. Ces champs n'ont pas de commutateurs,
-    // et les membres de l'objet FormField régissent entièrement le contenu de leurs champs de formulaire.
+    // et les membres de l'objet FormField gouvernent entièrement le contenu de leurs champs de formulaire.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // Autorise chaque champ du formulaire à accepter un visiteur du document.
+    // Autoriser chaque champ de formulaire à accepter un visiteur de document.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())

@@ -3,16 +3,16 @@ title: InternableComplexAttr Class
 linktitle: InternableComplexAttr
 articleTitle: InternableComplexAttr
 second_title: Aspose.Words для .NET
-description: Aspose.Words.InternableComplexAttr сорт. Базовый класс для интернируемого сложного атрибута. Интернируемый сложный атрибут должен уведомлять родительскую коллекцию о том что он будет изменен на С#.
+description: Откройте для себя класс Aspose.Words.InternableComplexAttr — ваше решение для эффективного управления сложными атрибутами. Обеспечьте бесперебойные обновления в родительских коллекциях!
 type: docs
-weight: 3280
+weight: 3730
 url: /ru/net/aspose.words/internablecomplexattr/
 ---
 ## InternableComplexAttr class
 
-Базовый класс для интернируемого сложного атрибута. Интернируемый сложный атрибут должен уведомлять родительскую коллекцию о том, что он будет изменен.
+Базовый класс для внутреннего сложного атрибута. Внутренний сложный атрибут должен уведомлять родительскую коллекцию, когда он будет изменен.
 
-Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) статья документации.
+Чтобы узнать больше, посетите[Объектная модель документа Aspose.Words (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) документальная статья.
 
 ```csharp
 public abstract class InternableComplexAttr

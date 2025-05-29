@@ -3,14 +3,14 @@ title: HtmlVersion Enum
 linktitle: HtmlVersion
 articleTitle: HtmlVersion
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.HtmlVersion перечисление. Указывает версию HTML используемую при сохранении документа вHtml и Mhtml форматы на С#.
+description: Откройте для себя перечисление Aspose.Words.Saving.HtmlVersion для оптимизации сохранения документов в форматах HTML и MHTML, повышения совместимости и производительности.
 type: docs
-weight: 5120
+weight: 5870
 url: /ru/net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
 
-Указывает версию HTML, используемую при сохранении документа вHtml и Mhtml форматы.
+Указывает версию HTML, используемую при сохранении документаHtml и Mhtml форматы.
 
 ```csharp
 public enum HtmlVersion
@@ -42,13 +42,14 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
-// Наш документ будет содержать заголовок объявления DOCTYPE только в том случае, если мы установили флаг «ExportXhtmlTransitional» в значение «true».
+// Наш документ будет содержать заголовок декларации DOCTYPE только в том случае, если мы установили флаг «ExportXhtmlTransitional» в значение «true».
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportXhtmlTransitional.html");
+string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
     Assert.True(outDocContents.Contains(
-        "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n" +
-        "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
+        $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
+        $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
         "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 else
     Assert.True(outDocContents.Contains("<html>"));
@@ -67,7 +68,7 @@ HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 
 doc.Save(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html", options);
 
-// Наши HTML-документы будут иметь незначительные различия, чтобы быть совместимыми с разными версиями HTML.
+// Наши HTML-документы будут иметь незначительные отличия для обеспечения совместимости с различными версиями HTML.
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVersions.html");
 
 switch (htmlVersion)
@@ -75,7 +76,7 @@ switch (htmlVersion)
     case HtmlVersion.Html5:
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
         Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
         break;
     case HtmlVersion.Xhtml:
         Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));

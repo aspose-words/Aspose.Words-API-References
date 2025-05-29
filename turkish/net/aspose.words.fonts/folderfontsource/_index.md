@@ -2,17 +2,17 @@
 title: FolderFontSource Class
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FolderFontSource sınıf. TrueType yazı tipi dosyalarını içeren klasörü temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: TrueType yazı tiplerini verimli bir şekilde yönetmeniz için çözümünüz olan Aspose.Words.Fonts.FolderFontSource sınıfını keşfedin. Belgenizin tipografisini bugün geliştirin!
 type: docs
-weight: 2880
+weight: 3290
 url: /tr/net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
 
 TrueType yazı tipi dosyalarını içeren klasörü temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Fontlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fonts/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Yazı Tipleriyle Çalışma](https://docs.aspose.com/words/net/working-with-fonts/) belgeleme makalesi.
 
 ```csharp
 public class FolderFontSource : FontSourceBase
@@ -22,31 +22,31 @@ public class FolderFontSource : FontSourceBase
 
 | İsim | Tanım |
 | --- | --- |
-| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | Ctor. |
-| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | Ctor. |
+| [FolderFontSource](folderfontsource/#constructor)(*string, bool*) | İşlemci. |
+| [FolderFontSource](folderfontsource/#constructor_1)(*string, bool, int*) | İşlemci. |
 
 ## Özellikleri
 
 | İsim | Tanım |
 | --- | --- |
-| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Klasörün yolu. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynağı önceliğini döndürür. |
+| [FolderPath](../../aspose.words.fonts/folderfontsource/folderpath/) { get; } | Klasöre giden yol. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Yazı tipi kaynak önceliğini döndürür. |
 | [ScanSubfolders](../../aspose.words.fonts/folderfontsource/scansubfolders/) { get; } | Alt klasörlerin taranıp taranmayacağını belirler. |
 | override [Type](../../aspose.words.fonts/folderfontsource/type/) { get; } | Yazı tipi kaynağının türünü döndürür. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Yazı tipi kaynağının işlenmesi sırasında, biçimlendirmenin aslına uygunluk kaybına yol açabilecek bir sorun algılandığında çağrılır. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | Biçimlendirme sadakat kaybına yol açabilecek bir sorun algılandığında yazı tipi kaynağının işlenmesi sırasında çağrılır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilen yazı tiplerinin listesini döndürür. |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | Bu kaynak aracılığıyla kullanılabilir yazı tiplerinin listesini döndürür. |
 
 ## Örnekler
 
-Yazı tipi kaynağı olarak yazı tiplerini içeren yerel sistem klasörünün nasıl kullanılacağını gösterir.
+Font kaynağı olarak fontları içeren yerel bir sistem klasörünün nasıl kullanılacağını gösterir.
 
 ```csharp
-// Yazı tipi dosyalarını içeren bir klasörden yazı tipi kaynağı oluşturun.
+// Font dosyalarını içeren bir klasörden bir font kaynağı oluştur.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

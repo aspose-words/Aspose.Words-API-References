@@ -2,17 +2,17 @@
 title: TextBox Class
 linktitle: TextBox
 articleTitle: TextBox
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.TextBox sınıf. Metnin şeklin içinde nasıl görüntüleneceğini belirten nitelikleri tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin görsel çekiciliğini ve işlevselliğini artırarak, şekiller içindeki metin gösterimini kolayca özelleştirmek için Aspose.Words.Drawing.TextBox sınıfını keşfedin.
 type: docs
-weight: 1320
+weight: 1730
 url: /tr/net/aspose.words.drawing/textbox/
 ---
 ## TextBox class
 
-Metnin şeklin içinde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
+Bir metnin bir şekil içinde nasıl görüntüleneceğini belirten nitelikleri tanımlar.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Şekillerle Çalışmak](https://docs.aspose.com/words/net/working-with-shapes/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Şekillerle Çalışma](https://docs.aspose.com/words/net/working-with-shapes/) belgeleme makalesi.
 
 ```csharp
 public class TextBox
@@ -22,29 +22,29 @@ public class TextBox
 
 | İsim | Tanım |
 | --- | --- |
-| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Microsoft Word'ün şekli metne sığacak şekilde büyütüp büyütmeyeceğini belirler. |
-| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | Şeklin iç alt kenar boşluğunu nokta cinsinden belirtir. |
-| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Şeklin iç sol kenar boşluğunu nokta cinsinden belirtir. |
-| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Bir şeklin sağ iç kenar boşluğunu nokta cinsinden belirtir. |
-| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Şeklin iç üst kenar boşluğunu nokta cinsinden belirtir. |
-| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Şekildeki metin düzeninin akışını belirler. |
-| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Bir değeri döndürür veya ayarlar`TextBox` bu bir sonrakini temsil ediyor`TextBox` bir dizi şekil halinde. |
-| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Şekil döndürüldüğünde TextBox metninin de dönmemesi gerektiğini belirten bir boole değeri alır veya ayarlar. |
-| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | Bir ana şekil alır`TextBox` . |
-| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Bir değeri döndürür`TextBox` öncekini temsil eden`TextBox` bir dizi şekil halinde. |
-| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Metnin şeklin içinde nasıl kaydırılacağını belirler. |
+| [FitShapeToText](../../aspose.words.drawing/textbox/fitshapetotext/) { get; set; } | Microsoft Word'ün şekli metne uyacak şekilde büyütüp büyütmeyeceğini belirler. |
+| [InternalMarginBottom](../../aspose.words.drawing/textbox/internalmarginbottom/) { get; set; } | Bir şekil için iç alt kenar boşluğunu noktalarla belirtir. |
+| [InternalMarginLeft](../../aspose.words.drawing/textbox/internalmarginleft/) { get; set; } | Bir şekil için iç sol kenar boşluğunu noktalarla belirtir. |
+| [InternalMarginRight](../../aspose.words.drawing/textbox/internalmarginright/) { get; set; } | Bir şekil için iç sağ kenar boşluğunu noktalarla belirtir. |
+| [InternalMarginTop](../../aspose.words.drawing/textbox/internalmargintop/) { get; set; } | Bir şekil için iç üst kenar boşluğunu noktalarla belirtir. |
+| [LayoutFlow](../../aspose.words.drawing/textbox/layoutflow/) { get; set; } | Bir şeklin metin düzeninin akışını belirler. |
+| [Next](../../aspose.words.drawing/textbox/next/) { get; set; } | Bir değeri döndürür veya ayarlar`TextBox` bir sonrakini temsil eden`TextBox`bir dizi şekil halinde. |
+| [NoTextRotation](../../aspose.words.drawing/textbox/notextrotation/) { get; set; } | Şekil döndürüldüğünde TextBox'ın metninin dönmemesi gerektiğini belirten bir Boole değeri alır veya ayarlar. |
+| [Parent](../../aspose.words.drawing/textbox/parent/) { get; } | için bir üst şekil alır`TextBox` . |
+| [Previous](../../aspose.words.drawing/textbox/previous/) { get; } | Bir`TextBox` öncekini temsil eden`TextBox`bir dizi şekil halinde. |
+| [TextBoxWrapMode](../../aspose.words.drawing/textbox/textboxwrapmode/) { get; set; } | Metnin bir şeklin içinde nasıl sarılacağını belirler. |
 | [VerticalAnchor](../../aspose.words.drawing/textbox/verticalanchor/) { get; set; } | Bir şekil içindeki metnin dikey hizalamasını belirtir. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Sonrakine olan bağlantıyı keser`TextBox` . |
+| [BreakForwardLink](../../aspose.words.drawing/textbox/breakforwardlink/)() | Bir sonrakine olan bağlantıyı keser`TextBox` . |
 | [IsValidLinkTarget](../../aspose.words.drawing/textbox/isvalidlinktarget/)(*TextBox*) | Bunun olup olmadığını belirler`TextBox` hedefe bağlanabilir`TextBox` . |
 
 ## Notlar
 
-Kullan[`TextBox`](../shape/textbox/) bir şeklin metin özelliklerine erişim özelliği. Şeklin örneklerini oluşturmazsınız`TextBox` doğrudan sınıf.
+Kullanın[`TextBox`](../shape/textbox/) Bir şeklin metin özelliklerine erişmek için özellik. Örnekleri oluşturmazsınız`TextBox` sınıfa doğrudan.
 
 ## Örnekler
 
@@ -54,7 +54,7 @@ Bir metin kutusu için iç kenar boşluklarının nasıl ayarlanacağını göst
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belirli kenar boşluklarına sahip başka bir metin kutusu ekleyin.
+// Belirli kenar boşluklarına sahip başka bir metin kutusu ekle.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;
@@ -68,7 +68,7 @@ builder.Write("Text placed according to textbox margins.");
 doc.Save(ArtifactsDir + "Shape.TextBoxMargins.docx");
 ```
 
-Bir metin kutusu içindeki metnin yönünün nasıl ayarlanacağını gösterir.
+Bir metin kutusunun içindeki metnin yönünün nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -77,18 +77,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Belge oluşturucuyu TextBox'un içine taşıyın ve metin ekleyin.
+// Belge oluşturucuyu TextBox'ın içine taşıyın ve metin ekleyin.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");
 
-// Bu metin kutusunun metin içeriğinin yönünü ayarlamak için "LayoutFlow" özelliğini ayarlayın.
+// Bu metin kutusunun metin içeriği için bir yönlendirme belirlemek üzere "LayoutFlow" özelliğini ayarlayın.
 textBox.LayoutFlow = layoutFlow;
 
 doc.Save(ArtifactsDir + "Shape.TextBoxLayoutFlow.docx");
 ```
 
-Bir metin kutusunun, içeriğine sıkı bir şekilde sığacak şekilde kendisini yeniden boyutlandırmasının nasıl sağlanacağını gösterir.
+Bir metin kutusunun içeriğini sıkıca sığdırmak için nasıl yeniden boyutlandırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -97,8 +97,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Ana şeklin sığması için bu değerleri her iki üyeye de uygulayın
-// ayarladığımız boyutları göz ardı ederek metin içeriğinin etrafını sıkıca sarıyoruz.
+// Üst şeklin uyması için bu değerleri her iki üyeye de uygulayın
+// belirlediğimiz boyutları göz ardı ederek metin içeriğinin etrafına sıkıca oturtuyoruz.
 textBox.FitShapeToText = true;
 textBox.TextBoxWrapMode = TextBoxWrapMode.None;
 

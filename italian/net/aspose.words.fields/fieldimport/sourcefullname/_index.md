@@ -3,7 +3,7 @@ title: FieldImport.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words per .NET
-description: FieldImport SourceFullName proprietà. Ottiene o imposta la posizione dellimmagine in C#.
+description: Scopri come utilizzare la proprietà FieldImport SourceFullName per gestire facilmente le posizioni delle immagini nei tuoi progetti, migliorando l'organizzazione e l'accessibilità.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldimport/sourcefullname/
@@ -24,7 +24,7 @@ Mostra come inserire immagini utilizzando i campi IMPORT e INCLUDEPICTURE.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Di seguito sono riportati due tipi di campo simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
+// Di seguito sono riportati due tipi di campi simili che possiamo utilizzare per visualizzare le immagini collegate dal file system locale.
 // 1 - Il campo INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";

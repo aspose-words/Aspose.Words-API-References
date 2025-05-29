@@ -3,14 +3,14 @@ title: BuildVersionInfo.Product
 linktitle: Product
 articleTitle: Product
 second_title: Aspose.Words för .NET
-description: BuildVersionInfo Product fast egendom. Får hela namnet på produkten i C#.
+description: Upptäck egenskapen BuildVersionInfo Product för att enkelt hämta hela produktnamnet, vilket förbättrar programmets prestanda och användarupplevelse.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/buildversioninfo/product/
 ---
 ## BuildVersionInfo.Product property
 
-Får hela namnet på produkten.
+Hämtar produktens fullständiga namn.
 
 ```csharp
 public static string Product { get; }

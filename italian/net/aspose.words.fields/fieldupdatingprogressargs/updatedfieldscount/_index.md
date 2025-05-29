@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words per .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount proprietà. Ottiene il numero di campi aggiornati in C#.
+description: Scopri la proprietà UpdatedFieldsCount di FieldUpdatingProgressArgs per monitorare facilmente il numero di campi aggiornati nella tua applicazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## Esempi
 
-Mostra come utilizzare i metodi di callback durante un aggiornamento del campo.
+Mostra come utilizzare i metodi di callback durante l'aggiornamento di un campo.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementa questa interfaccia se desideri che i tuoi metodi personalizzati vengano richiamati durante un aggiornamento del campo.
+/// Implementa questa interfaccia se vuoi che vengano chiamati metodi personalizzati durante un aggiornamento di campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito prima dell'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
+    /// Metodo definito dall'utente che viene chiamato subito dopo l'aggiornamento di un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

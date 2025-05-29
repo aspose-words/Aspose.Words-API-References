@@ -3,14 +3,14 @@ title: BlockImportMode Enum
 linktitle: BlockImportMode
 articleTitle: BlockImportMode
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Loading.BlockImportMode enum. Specifica il modo in cui le proprietà degli elementi a livello di blocco vengono importate da documenti basati su HTML in C#.
+description: Scopri come l'enum Aspose.Words.BlockImportMode migliora l'integrazione dei documenti HTML ottimizzando l'importazione delle proprietà degli elementi a livello di blocco per flussi di lavoro fluidi.
 type: docs
-weight: 3560
+weight: 4010
 url: /it/net/aspose.words.loading/blockimportmode/
 ---
 ## BlockImportMode enumeration
 
-Specifica il modo in cui le proprietà degli elementi a livello di blocco vengono importate da documenti basati su HTML.
+Specifica come le proprietà degli elementi a livello di blocco vengono importate dai documenti basati su HTML.
 
 ```csharp
 public enum BlockImportMode
@@ -20,8 +20,8 @@ public enum BlockImportMode
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Merge | `0` | Le proprietà dei blocchi principali vengono unite e archiviate negli elementi secondari (ad esempio paragrafi o tabelle). |
-| Preserve | `1` | Le proprietà dei blocchi genitori vengono importate in una struttura logica speciale e vengono archiviate separatamente dai nodi del documento. |
+| Merge | `0` | Le proprietà dei blocchi padre vengono unite e memorizzate negli elementi figlio (ad esempio paragrafi o tabelle). |
+| Preserve | `1` | Le proprietà dei blocchi padre vengono importate in una struttura logica speciale e vengono memorizzate separatamente dai nodi del documento . |
 
 ## Esempi
 
@@ -40,7 +40,7 @@ const string html = @"
 MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(html));
 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions();
-// Imposta la nuova modalità di importazione di elementi HTML a livello di blocco.
+// Imposta la nuova modalità di importazione degli elementi HTML a livello di blocco.
 loadOptions.BlockImportMode = blockImportMode;
 
 Document doc = new Document(stream, loadOptions);

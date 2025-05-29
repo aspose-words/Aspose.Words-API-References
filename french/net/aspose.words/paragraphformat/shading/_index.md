@@ -3,14 +3,14 @@ title: ParagraphFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words pour .NET
-description: ParagraphFormat Shading propriété. Renvoie unShading objet qui fait référence au formatage dombrage du paragraphe en C#.
+description: Découvrez la propriété Ombrage de ParagraphFormat pour un style de texte amélioré. Accédez à un objet Ombrage pour rehausser l'attrait visuel de votre paragraphe en toute simplicité.
 type: docs
-weight: 280
+weight: 290
 url: /fr/net/aspose.words/paragraphformat/shading/
 ---
 ## ParagraphFormat.Shading property
 
-Renvoie un[`Shading`](../../shading/) objet qui fait référence au formatage d'ombrage du paragraphe.
+Renvoie un[`Shading`](../../shading/) objet qui fait référence à la mise en forme de l'ombrage du paragraphe.
 
 ```csharp
 public Shading Shading { get; }

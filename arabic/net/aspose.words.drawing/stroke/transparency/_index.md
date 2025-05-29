@@ -3,14 +3,14 @@ title: Stroke.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words لـ .NET
-description: Stroke Transparency ملكية. الحصول على أو تعيين قيمة بين 0.0 معتم و1.0 واضح تمثل درجة الشفافية للحد في C#.
+description: قم بضبط خاصية Stroke Transparency للتحكم في التعتيم من 0.0 (غير شفاف) إلى 1.0 (واضح)، مما يعزز التأثير البصري لتصميمك.
 type: docs
-weight: 190
+weight: 240
 url: /ar/net/aspose.words.drawing/stroke/transparency/
 ---
 ## Stroke.Transparency property
 
-الحصول على أو تعيين قيمة بين 0.0 (معتم) و1.0 (واضح) تمثل درجة الشفافية للحد.
+يحصل على قيمة أو يعينها بين 0.0 (غير شفاف) و1.0 (واضح) تمثل درجة شفافية للخط.
 
 ```csharp
 public double Transparency { get; set; }
@@ -22,7 +22,7 @@ public double Transparency { get; set; }
 
 ## أمثلة
 
-أظهر كيفية ضبط تنسيق العلامة.
+إظهار كيفية تعيين تنسيق العلامة.
 
 ```csharp
 Document doc = new Document();
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 432, 252);
 Chart chart = shape.Chart;
 
-// حذف السلسلة الافتراضية التي تم إنشاؤها.
+//حذف السلسلة المولدة افتراضيًا.
 chart.Series.Clear();
 ChartSeries series = chart.Series.Add("AW Series 1", new[] { 0.7, 1.8, 2.6, 3.9 },
     new[] { 2.7, 3.2, 0.8, 1.7 });
 
-// ضبط تنسيق العلامة.
+// تعيين تنسيق العلامة.
 series.Marker.Size = 40;
 series.Marker.Symbol = MarkerSymbol.Square;
 ChartDataPointCollection dataPoints = series.DataPoints;

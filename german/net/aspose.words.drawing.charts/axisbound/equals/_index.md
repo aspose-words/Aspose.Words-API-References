@@ -3,7 +3,7 @@ title: AxisBound.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words für .NET
-description: AxisBound Equals methode. Bestimmt ob das angegebene Objekt den gleichen Wert wie das aktuelle Objekt hat in C#.
+description: Entdecken Sie die AxisBound Equals-Methode, mit der Sie ganz einfach überprüfen können, ob der Wert eines Objekts mit dem aktuellen übereinstimmt, und so die Effizienz und Genauigkeit Ihrer Codierung verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.drawing.charts/axisbound/equals/

@@ -3,14 +3,14 @@ title: Field.Update
 linktitle: Update
 articleTitle: Update
 second_title: Aspose.Words لـ .NET
-description: Field Update طريقة. يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل في C#.
+description: حدّث الحقول بكفاءة باستخدام طريقة تحديث الحقول لدينا. يمنع التعارضات بضمان عدم استخدام الحقول مسبقًا. بسّط إدارة بياناتك اليوم!
 type: docs
 weight: 140
 url: /ar/net/aspose.words.fields/field/update/
 ---
 ## Update() {#update}
 
-يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
+يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل.
 
 ```csharp
 public void Update()
@@ -24,8 +24,8 @@ public void Update()
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلين أثناء تمرير علامة تحدد ما إذا كان سيتم تحديثهما عندما يقوم المنشئ بإدراجهما.
-// في بعض الحالات، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية، وقد يكون تأجيل التحديث فكرة جيدة.
+// أدخل حقلين أثناء تمرير علم يحدد ما إذا كان سيتم تحديثهما أثناء قيام المنشئ بإدراجهما.
+// في بعض الحالات، قد يكون تحديث الحقول مكلفًا من الناحية الحسابية، وقد يكون من الجيد تأجيل التحديث.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -47,7 +47,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // سنحتاج إلى تحديث هذه الحقول باستخدام طرق التحديث يدويًا.
+    // سوف نحتاج إلى تحديث هذه الحقول باستخدام طرق التحديث يدويًا.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -58,19 +58,19 @@ else
 }
 ```
 
-يوضح كيفية تنسيق النتائج الميدانية.
+يوضح كيفية تنسيق نتائج الحقل.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم منشئ المستندات لإدراج حقل يعرض نتيجة بدون تطبيق أي تنسيق.
+// استخدم منشئ المستندات لإدراج حقل يعرض النتيجة دون تطبيق أي تنسيق.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
-// يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
+//يمكننا تطبيق تنسيق على نتيجة الحقل باستخدام خصائص الحقل.
 // فيما يلي ثلاثة أنواع من التنسيقات التي يمكننا تطبيقها على نتيجة الحقل.
 // 1 - التنسيق الرقمي:
 FieldFormat format = field.Format;
@@ -106,7 +106,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// يمكننا إزالة التنسيقات الخاصة بنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
+//يمكننا إزالة تنسيقاتنا لإعادة نتيجة الحقل إلى شكلها الأصلي.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);
@@ -127,7 +127,7 @@ Assert.AreEqual(0, format.GeneralFormats.Count);
 
 ## Update(*bool*) {#update_1}
 
-إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل.
+يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل.
 
 ```csharp
 public void Update(bool ignoreMergeFormat)
@@ -135,7 +135,7 @@ public void Update(bool ignoreMergeFormat)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| ignoreMergeFormat | Boolean | إذا`حقيقي` ثم يتم التخلي عن التنسيق المباشر لنتيجة الحقل، بغض النظر عن رمز التبديل MERGEFORMAT، وإلا فسيتم إجراء التحديث العادي. |
+| ignoreMergeFormat | Boolean | إذا`حقيقي` ثم يتم التخلي عن تنسيق نتيجة الحقل المباشر، بغض النظر عن مفتاح MERGEFORMAT، وإلا فسيتم إجراء التحديث العادي. |
 
 ## أمثلة
 
@@ -154,7 +154,7 @@ using (MemoryStream docStream = new MemoryStream())
     doc.Save(docStream, new OoxmlSaveOptions(SaveFormat.Docx));
 
     // يمكننا تعيين علامة في كائن LoadOptions لتحديد ما إذا كان سيتم تحويل جميع حقول INCLUDEPICTURE
-    // إلى أشكال الصور عند تحميل مستند يحتوي عليها.
+    // في أشكال الصور عند تحميل مستند يحتوي عليها.
     LoadOptions loadOptions = new LoadOptions
     {
         PreserveIncludePictureField = preserveIncludePictureField

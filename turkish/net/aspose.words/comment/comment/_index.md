@@ -2,15 +2,15 @@
 title: Comment
 linktitle: Comment
 articleTitle: Comment
-second_title: Aspose.Words for .NET
-description: Comment inşaatçı. Yeni bir örneğini başlatırComment class C#'da.
+second_title: .NET için Aspose.Words
+description: Yorum oluşturucumuzla zahmetsizce ilgi çekici yorumlar oluşturun. Yeni bir Yorum sınıf örneği başlatın ve kullanıcı etkileşimini sorunsuz bir şekilde geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/comment/comment/
 ---
 ## Comment(*[DocumentBase](../../documentbase/)*) {#constructor}
 
-Yeni bir örneğini başlatır[`Comment`](../) class.
+Yeni bir örneğini başlatır[`Comment`](../) sınıf.
 
 ```csharp
 public Comment(DocumentBase doc)
@@ -18,19 +18,19 @@ public Comment(DocumentBase doc)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahibi belgesi. |
+| doc | DocumentBase | Sahip belgesi. |
 
 ## Notlar
 
-Ne zaman[`Comment`](../) oluşturulduysa, belirtilen belgeye aittir ancak henüz değildir ve belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır-dir`hükümsüz`.
+Ne zaman[`Comment`](../) oluşturulduğunda, belirtilen belgeye aittir, ancak henüz belgenin bir parçası değildir ve[`ParentNode`](../../node/parentnode/) dır`hükümsüz`.
 
-Eklemek[`Comment`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Yorumun eklenmesini istediğiniz paragrafta .
+Eklemek için[`Comment`](../) belge kullanımına[`InsertAfter`](../../compositenode/insertafter/) veya[`InsertBefore`](../../compositenode/insertbefore/) Yorumun eklenmesini istediğiniz paragrafın üzerine yazın.
 
-Yorum oluşturduktan sonra yorumunu ayarlamayı unutmayın.[`Author`](../author/) , [`Initial`](../initial/) Ve[`DateTime`](../datetime/) özellikler.
+Yorum oluşturduktan sonra yorumunu ayarlamayı unutmayın[`Author`](../author/) , [`Initial`](../initial/) Ve[`DateTime`](../datetime/) özellikler.
 
 ## Örnekler
 
-Bir belge ziyaretçisi kullanılarak tüm yorumların içeriğinin ve yorum aralıklarının nasıl yazdırıldığını gösterir.
+Bir belge ziyaretçisi kullanarak tüm yorumların içeriklerinin ve yorum aralıklarının nasıl yazdırılacağını gösterir.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -46,7 +46,7 @@ public void CreateCommentsAndPrintAllInfo()
 
     newComment.SetText("Comment regarding text.");
 
-    // Belgeye metin ekleyin, onu bir yorum aralığında çarpıtın ve ardından yorumunuzu ekleyin.
+    // Belgeye metin ekleyin, metni bir yorum aralığında bükün ve ardından yorumunuzu ekleyin.
     Paragraph para = doc.FirstSection.Body.FirstParagraph;
     para.AppendChild(new CommentRangeStart(doc, newComment.Id));
     para.AppendChild(new Run(doc, "Commented text."));
@@ -61,26 +61,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Her üst düzey yorumu yineler ve yorum aralığını, içeriğini ve yanıtlarını yazdırır.
+/// Her üst düzey yorum üzerinde yineleme yapar ve yorum aralığını, içeriklerini ve yanıtlarını yazdırır.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Tüm üst düzey yorumları yineleyin. Yanıt türü yorumların aksine, üst düzey yorumların kökeni yoktur.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Tüm üst düzey yorumlar üzerinde yineleme yap. Cevap türü yorumların aksine, üst düzey yorumların bir atası yoktur.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // İlk olarak yorum aralığının başlangıcını ziyaret edin.
+        // Öncelikle yorum aralığının başlangıcını ziyaret edin.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Ardından yorumu ve alabileceği yanıtları ziyaret edin.
+        // Daha sonra yorumu ve varsa yorumdaki yanıtları ziyaret edin.
         comment.Accept(commentVisitor);
+        // Sadece yorumun başlangıcını ziyaret et.
+        comment.AcceptStart(commentVisitor);
+        // Sadece yorumun sonunu ziyaret edin.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Son olarak yorum aralığının sonunu ziyaret edin ve ardından ziyaretçinin metin içeriğini yazdırın.
+        // Son olarak yorum aralığının sonuna gidin ve ardından ziyaretçinin metin içeriğini yazdırın.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -89,7 +93,7 @@ private static void PrintAllCommentInfo(NodeCollection comments)
 }
 
 /// <summary>
-/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriğini yazdırır.
+/// Belgede karşılaşılan tüm yorumların ve yorum aralıklarının bilgilerini ve içeriklerini yazdırır.
 /// </summary>
 public class CommentInfoPrinter : DocumentVisitor
 {
@@ -100,7 +104,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -118,7 +122,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeStart düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
     {
@@ -130,7 +134,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
+    /// Belgede bir CommentRangeEnd düğümüyle karşılaşıldığında çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentRangeEnd(CommentRangeEnd commentRangeEnd)
     {
@@ -155,7 +159,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Belgede bir Yorum düğümünün ziyareti sonlandırıldığında çağrılır.
+    /// Belgede bir Yorum düğümünün ziyareti sona erdiğinde çağrılır.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -167,7 +171,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)
@@ -197,7 +201,7 @@ public class CommentInfoPrinter : DocumentVisitor
 
 ## Comment(*[DocumentBase](../../documentbase/), string, string, DateTime*) {#constructor_1}
 
-Yeni bir örneğini başlatır[`Comment`](../) class.
+Yeni bir örneğini başlatır[`Comment`](../) sınıf.
 
 ```csharp
 public Comment(DocumentBase doc, string author, string initial, DateTime dateTime)
@@ -205,14 +209,14 @@ public Comment(DocumentBase doc, string author, string initial, DateTime dateTim
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| doc | DocumentBase | Sahibi belgesi. |
-| author | String | Yorumun yazarının adı. Olamaz`hükümsüz`. |
-| initial | String | Yorumun yazarının baş harfleri. Olamaz`hükümsüz`. |
+| doc | DocumentBase | Sahip belgesi. |
+| author | String | Yorumun yazar adı. Olamaz`hükümsüz`. |
+| initial | String | Yazar yorum için baş harflerini kullanır. Olamaz`hükümsüz`. |
 | dateTime | DateTime | Yorumun tarihi ve saati. |
 
 ## Örnekler
 
-Bir paragrafa nasıl yorum ekleneceğini gösterir.
+Bir paragrafa yorum eklemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -226,7 +230,7 @@ builder.Write("Comment text.");
 
 Assert.AreEqual(DateTime.Today, comment.DateTime);
 
- // Microsoft Word'de, belge gövdesindeki bu yoruma sağ tıklayarak onu düzenleyebilir veya yanıtlayabiliriz.
+ // Microsoft Word'de, bu yorumu belge gövdesinde sağ tıklayarak düzenleyebilir veya yanıtlayabiliriz.
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
 ```
 

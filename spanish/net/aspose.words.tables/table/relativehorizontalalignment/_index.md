@@ -3,7 +3,7 @@ title: Table.RelativeHorizontalAlignment
 linktitle: RelativeHorizontalAlignment
 articleTitle: RelativeHorizontalAlignment
 second_title: Aspose.Words para .NET
-description: Table RelativeHorizontalAlignment propiedad. Obtiene o establece la alineación horizontal relativa de la tabla flotante en C#.
+description: Descubra la propiedad Table RelativeHorizontalAlignment para ajustar fácilmente la alineación horizontal de su tabla para un mejor control del diseño y atractivo visual.
 type: docs
 weight: 230
 url: /es/net/aspose.words.tables/table/relativehorizontalalignment/
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Establece la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
+// Establezca la ubicación de la tabla en un lugar de la página, como, en este caso, la esquina inferior derecha.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 

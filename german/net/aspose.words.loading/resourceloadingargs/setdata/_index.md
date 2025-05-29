@@ -3,14 +3,14 @@ title: ResourceLoadingArgs.SetData
 linktitle: SetData
 articleTitle: SetData
 second_title: Aspose.Words für .NET
-description: ResourceLoadingArgs SetData methode. Legt vom Benutzer bereitgestellte Daten der Ressource fest die verwendet wird wennResourceLoading kehrt zurückUserProvided  in C#.
+description: Entdecken Sie, wie die ResourceLoadingArgs SetData-Methode das Benutzererlebnis verbessert, indem sie Ressourcendaten effizient verwaltet, um eine optimale Leistung zu erzielen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.loading/resourceloadingargs/setdata/
 ---
 ## ResourceLoadingArgs.SetData method
 
-Legt vom Benutzer bereitgestellte Daten der Ressource fest, die verwendet wird wenn[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) kehrt zurückUserProvided .
+Setzt benutzerdefinierte Daten der Ressource, die verwendet wird wenn[`ResourceLoading`](../../iresourceloadingcallback/resourceloading/) gibt zurückUserProvided .
 
 ```csharp
 public void SetData(byte[] data)
@@ -18,7 +18,7 @@ public void SetData(byte[] data)
 
 ## Beispiele
 
-Zeigt, wie Sie den Prozess des Ladens externer Ressourcen in ein Dokument anpassen.
+Zeigt, wie der Prozess des Ladens externer Ressourcen in ein Dokument angepasst wird.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -28,8 +28,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder werden normalerweise über einen URI oder ein Byte-Array eingefügt.
-    // Jede Instanz einer Ressourcenlast ruft die ResourceLoading-Methode unseres Rückrufs auf.
+    // Bilder werden normalerweise mithilfe einer URI oder eines Byte-Arrays eingefügt.
+    // Jede Instanz einer Ressourcenladung ruft die ResourceLoading-Methode unseres Rückrufs auf.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Ermöglicht das Laden von Bildern in ein Dokument mithilfe vordefinierter Abkürzungen im Gegensatz zu URIs.
+/// Ermöglicht uns, Bilder mithilfe vordefinierter Abkürzungen statt URIs in ein Dokument zu laden.
 /// Dadurch wird die Bildladelogik vom Rest der Dokumentkonstruktion getrennt.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
@@ -48,7 +48,7 @@ private class ImageNameHandler : IResourceLoadingCallback
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
         // Wenn dieser Rückruf beim Laden eines Bildes auf eine der Bildkürzel stößt,
-        // Es wird eine eindeutige Logik für jede definierte Abkürzung angewendet, anstatt sie als URI zu behandeln.
+        // Es wird für jede definierte Abkürzung eine eindeutige Logik angewendet, anstatt sie als URI zu behandeln.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

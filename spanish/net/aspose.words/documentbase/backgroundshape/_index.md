@@ -3,7 +3,7 @@ title: DocumentBase.BackgroundShape
 linktitle: BackgroundShape
 articleTitle: BackgroundShape
 second_title: Aspose.Words para .NET
-description: DocumentBase BackgroundShape propiedad. Obtiene o establece la forma del fondo del documento. Puede sernulo  en C#.
+description: Descubre la propiedad BackgroundShape de DocumentBase y personaliza fácilmente la forma del fondo de tu documento para un aspecto visual mejorado. ¡Maximiza tu potencial de diseño!
 type: docs
 weight: 10
 url: /es/net/aspose.words/documentbase/backgroundshape/
@@ -18,11 +18,11 @@ public Shape BackgroundShape { get; set; }
 
 ## Observaciones
 
-Microsoft Word sólo permite una forma que tenga su[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) propiedad igual aRectangle para ser utilizado como forma de fondo para un documento.
+Microsoft Word solo permite una forma que tenga su[`ShapeType`](../../../aspose.words.drawing/shapebase/shapetype/) propiedad igual aRectangle para usarse como forma de fondo para un documento.
 
-Microsoft Word sólo admite las propiedades de relleno de una forma de fondo. Todas las demás propiedades se ignoran.
+Microsoft Word solo admite las propiedades de relleno de una forma de fondo. Se ignoran todas las demás propiedades .
 
-Establecer esta propiedad en un valor no nulo también establecerá el[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) a`verdadero`.
+Si se establece esta propiedad en un valor distinto de nulo, también se establecerá la[`DisplayBackgroundShape`](../../../aspose.words.settings/viewoptions/displaybackgroundshape/) a`verdadero`.
 
 ## Ejemplos
 
@@ -33,7 +33,7 @@ Document doc = new Document();
 
 Assert.IsNull(doc.BackgroundShape);
 
-// El único tipo de forma que podemos usar como fondo es un rectángulo.
+//El único tipo de forma que podemos usar como fondo es un rectángulo.
 Shape shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 
 // Hay dos formas de utilizar esta forma como fondo de página.
@@ -47,7 +47,7 @@ doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.FlatColor.docx");
 shapeRectangle = new Shape(doc, ShapeType.Rectangle);
 shapeRectangle.ImageData.SetImage(ImageDir + "Transparent background logo.png");
 
-// Ajusta la apariencia de la imagen para que sea más adecuada como marca de agua.
+//Ajusta la apariencia de la imagen para que sea más adecuada como marca de agua.
 shapeRectangle.ImageData.Contrast = 0.2;
 shapeRectangle.ImageData.Brightness = 0.7;
 
@@ -60,7 +60,7 @@ Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSave
     CacheBackgroundGraphics = false
 };
 
-// Microsoft Word no admite formas con imágenes como fondo,
+// Microsoft Word no admite formas con imágenes como fondos,
 // pero aún podemos ver estos fondos en otros formatos de guardado como .pdf.
 doc.Save(ArtifactsDir + "DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```

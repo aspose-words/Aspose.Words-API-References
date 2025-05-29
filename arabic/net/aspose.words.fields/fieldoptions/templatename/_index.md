@@ -3,14 +3,14 @@ title: FieldOptions.TemplateName
 linktitle: TemplateName
 articleTitle: TemplateName
 second_title: Aspose.Words لـ .NET
-description: FieldOptions TemplateName ملكية. الحصول على أو تعيين اسم ملف القالب الذي يستخدمه المستند في C#.
+description: اكتشف خاصية FieldOptions TemplateName لإدارة اسم ملف قالب المستند الخاص بك بسهولة لتحسين التنظيم والكفاءة.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.fields/fieldoptions/templatename/
 ---
 ## FieldOptions.TemplateName property
 
-الحصول على أو تعيين اسم ملف القالب الذي يستخدمه المستند.
+يحصل على اسم ملف القالب الذي يستخدمه المستند أو يعينه.
 
 ```csharp
 public string TemplateName { get; set; }
@@ -18,9 +18,9 @@ public string TemplateName { get; set; }
 
 ## ملاحظات
 
-يتم استخدام هذه الخاصية من قبل[`FieldTemplate`](../../fieldtemplate/) الحقل إذا[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) الملكية فارغة.
+يتم استخدام هذه الخاصية بواسطة[`FieldTemplate`](../../fieldtemplate/) الحقل إذا كان[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) العقار فارغ.
 
-إذا كانت هذه الخاصية فارغة، اسم ملف القالب الافتراضي`عادي.dotm` يستخدم.
+إذا كانت هذه الخاصية فارغة، فسيتم استخدام اسم ملف القالب الافتراضي`عادي.dotm` يتم استخدامه.
 
 ## أمثلة
 
@@ -30,7 +30,7 @@ public string TemplateName { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// يمكننا تعيين اسم القالب باستخدام الحقول. يتم استخدام هذه الخاصية عندما يكون "doc.AttachedTemplate" فارغًا.
+// يمكننا تعيين اسم القالب باستخدام الحقول. تُستخدم هذه الخاصية عندما يكون "doc.AttachedTemplate" فارغًا.
 // إذا كانت هذه الخاصية فارغة، فسيتم استخدام اسم ملف القالب الافتراضي "Normal.dotm".
 doc.FieldOptions.TemplateName = string.Empty;
 

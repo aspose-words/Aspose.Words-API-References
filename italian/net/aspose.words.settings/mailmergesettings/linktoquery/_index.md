@@ -3,14 +3,14 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words per .NET
-description: MailMergeSettings LinkToQuery proprietà. Non sono sicuro di questo. Il riferimento allautomazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito èfalso  in C#.
+description: Scopri la proprietà LinkToQuery di MailMergeSettings, impara come controlla l'esecuzione delle query nei documenti Word e le sue impostazioni predefinite per prestazioni ottimali.
 type: docs
 weight: 110
 url: /it/net/aspose.words.settings/mailmergesettings/linktoquery/
 ---
 ## MailMergeSettings.LinkToQuery property
 
-Non sono sicuro di questo. Il riferimento all'automazione di Microsoft Word suggerisce che questo specifichi che la query viene eseguita ogni volta che il documento viene aperto in Microsoft Word. Ma la specifica OOXML suggerisce che ciò specifichi che la query contiene un riferimento a un file di query esterno che contiene la query effettiva. Il valore predefinito è`falso` .
+Non sono sicuro di questo. Il riferimento all'automazione di Microsoft Word suggerisce che questo specifichi che la query venga eseguita ogni volta che il documento viene aperto in Microsoft Word. Tuttavia, la specifica OOXML suggerisce che questo specifichi che la query contiene un riferimento a un file di query esterno che contiene la query stessa. Il valore predefinito è`falso` .
 
 ```csharp
 public bool LinkToQuery { get; set; }
@@ -18,7 +18,7 @@ public bool LinkToQuery { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

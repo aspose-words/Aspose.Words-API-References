@@ -3,9 +3,9 @@ title: MetafileRenderingMode Enum
 linktitle: MetafileRenderingMode
 articleTitle: MetafileRenderingMode
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Saving.MetafileRenderingMode énumération. Spécifie comment Aspose.Words doit restituer les métafichiers WMF et EMF en C#.
+description: Découvrez comment Aspose.Words.Saving.MetafileRenderingMode améliore le rendu des métafichiers WMF et EMF pour une qualité et des performances optimales des documents.
 type: docs
-weight: 5290
+weight: 6070
 url: /fr/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
@@ -20,13 +20,13 @@ public enum MetafileRenderingMode
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words essaie de restituer un métafichier sous forme de graphiques vectoriels. Si Aspose.Words ne peut pas restituer correctement certains des enregistrements du métafichier en graphiques vectoriels, Aspose.Words restitue ce métafichier en bitmap. . |
-| Vector | `1` | Aspose.Words restitue un métafichier sous forme de graphiques vectoriels. |
+| VectorWithFallback | `0` | Aspose.Words tente de restituer un métafichier sous forme d'images vectorielles. Si Aspose.Words ne parvient pas à restituer correctement certains enregistrements du métafichier sous forme d'images vectorielles, il restitue ce métafichier sous forme d'image bitmap. |
+| Vector | `1` | Aspose.Words rend un métafichier sous forme de graphiques vectoriels. |
 | Bitmap | `2` | Aspose.Words appelle GDI+ pour restituer un métafichier en bitmap, puis enregistre le bitmap dans le document de sortie. |
 
 ## Exemples
 
-Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
+Affiche un retour au rendu bitmap et un changement de type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -35,16 +35,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Définissez la propriété "EmulateRasterOperations" sur "false" pour revenir au bitmap lorsque
-    // il rencontre un métafichier, qui nécessitera le rendu des opérations raster dans le PDF de sortie.
+    // Définissez la propriété « EmulateRasterOperations » sur « false » pour revenir au bitmap lorsque
+    // il rencontre un métafichier, qui nécessitera des opérations raster pour être rendu dans le PDF de sortie.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Définissez la propriété "RenderingMode" sur "VectorWithFallback" pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
+    // Définissez la propriété « RenderingMode » sur « VectorWithFallback » pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF et applique la configuration
-    // dans notre objet MetafileRenderingOptions à l'opération de sauvegarde.
+    // dans notre objet MetafileRenderingOptions pour l'opération de sauvegarde.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 

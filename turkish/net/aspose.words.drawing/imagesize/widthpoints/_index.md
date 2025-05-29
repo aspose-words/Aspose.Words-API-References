@@ -2,15 +2,15 @@
 title: ImageSize.WidthPoints
 linktitle: WidthPoints
 articleTitle: WidthPoints
-second_title: Aspose.Words for .NET
-description: ImageSize WidthPoints mülk. Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarım projelerinde hassas ölçümler için mükemmel olan, görüntü genişliğini noktalar halinde kolayca elde etmek için ImageSize WidthPoints özelliğini keşfedin!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.drawing/imagesize/widthpoints/
 ---
 ## ImageSize.WidthPoints property
 
-Görüntünün genişliğini nokta cinsinden alır. 1 punto 1/72 inçtir.
+Resmin genişliğini nokta cinsinden alır. 1 nokta 1/72 inçtir.
 
 ```csharp
 public double WidthPoints { get; }
@@ -21,53 +21,41 @@ public double WidthPoints { get; }
 Bir şeklin resimle nasıl yeniden boyutlandırılacağını gösterir.
 
 ```csharp
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Logo.jpg");
+// "InsertImage" metodunu kullanarak bir resim eklediğimizde, oluşturucu resmi görüntüleyen şekli şu şekilde ölçekler:
+// Microsoft Word'de belgeyi %100 yakınlaştırma kullanarak görüntülediğimizde, şekil görüntüyü gerçek boyutunda görüntüler.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
+// 400x400 boyutundaki bir resim, 300x300pt boyutunda bir ImageData nesnesi oluşturacaktır.
+ImageSize imageSize = shape.ImageData.ImageSize;
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // "InsertImage" yöntemini kullanarak bir görüntü eklediğimizde oluşturucu, görüntüyü görüntüleyen şekli ölçeklendirir;
-            // Microsoft Word'de %100 yakınlaştırma kullanarak belgeyi görüntülediğimizde şekil, görüntüyü gerçek boyutunda görüntüler.
-            Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// Bir şeklin boyutları görüntü verilerinin boyutlarıyla eşleşiyorsa,
+// daha sonra şekil, görüntüyü orijinal boyutunda görüntüler.
+Assert.AreEqual(300.0d, shape.Width);
+Assert.AreEqual(300.0d, shape.Height);
 
-            // 400x400 boyutunda bir görüntü, 300x300pt boyutunda bir ImageData nesnesi oluşturacaktır.
-            ImageSize imageSize = shape.ImageData.ImageSize;
+ // Şeklin genel boyutunu %50 oranında küçült.
+shape.Width *= 0.5;
 
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
+ // Şeklin oranlarını korumak için ölçekleme faktörleri hem genişliğe hem de yüksekliğe aynı anda uygulanır.
+Assert.AreEqual(150.0d, shape.Width);
+Assert.AreEqual(150.0d, shape.Height);
 
-            // Bir şeklin boyutları görüntü verilerinin boyutlarıyla eşleşiyorsa,
-            // daha sonra şekil, görüntüyü orijinal boyutunda gösteriyor.
-            Assert.AreEqual(300.0d, shape.Width);
-            Assert.AreEqual(300.0d, shape.Height);
+// Şekli yeniden boyutlandırdığımızda resim verisinin boyutu aynı kalır.
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-             // Şeklin genel boyutunu %50 azaltın.
-            shape.Width *= 0.5;
+// Görüntünün boyutuna göre ölçekleme uygulamak için görüntü veri boyutlarına başvurabiliriz.
+shape.Width = imageSize.WidthPoints * 1.1;
 
-             // Ölçekleme faktörleri, şeklin orantılarını korumak için hem genişliğe hem de yüksekliğe aynı anda uygulanır.
-            Assert.AreEqual(150.0d, shape.Width);
-            Assert.AreEqual(150.0d, shape.Height);
+Assert.AreEqual(330.0d, shape.Width);
+Assert.AreEqual(330.0d, shape.Height);
 
-            // Şekli yeniden boyutlandırdığımızda resim verisinin boyutu aynı kalıyor.
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
-
-            // Görüntünün boyutuna göre bir ölçeklendirme uygulamak için görüntü veri boyutlarına başvurabiliriz.
-            shape.Width = imageSize.WidthPoints * 1.1;
-
-            Assert.AreEqual(330.0d, shape.Width);
-            Assert.AreEqual(330.0d, shape.Height);
-
-            doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
+doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
 ```
 
 ### Ayrıca bakınız

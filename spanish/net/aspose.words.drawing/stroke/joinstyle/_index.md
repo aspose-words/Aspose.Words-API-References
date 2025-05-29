@@ -3,9 +3,9 @@ title: Stroke.JoinStyle
 linktitle: JoinStyle
 articleTitle: JoinStyle
 second_title: Aspose.Words para .NET
-description: Stroke JoinStyle propiedad. Define el estilo de unión de una polilínea en C#.
+description: Descubra la propiedad Stroke JoinStyle para mejorar sus polilíneas con estilos de unión personalizables para obtener gráficos más suaves y una mayor flexibilidad de diseño.
 type: docs
-weight: 120
+weight: 170
 url: /es/net/aspose.words.drawing/stroke/joinstyle/
 ---
 ## Stroke.JoinStyle property
@@ -31,12 +31,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Las formas básicas, como el rectángulo, tienen dos partes visibles.
+//Las formas básicas, como el rectángulo, tienen dos partes visibles.
 // 1 - El relleno, que se aplica al área dentro del contorno de la forma:
 shape.Fill.ForeColor = Color.White;
 
 // 2 - El trazo, que marca el contorno de la forma:
-// Modifica varias propiedades del trazo de esta forma.
+//Modifica varias propiedades del trazo de esta forma.
 Stroke stroke = shape.Stroke;
 stroke.On = true;
 stroke.Weight = 5;

@@ -2,15 +2,15 @@
 title: FieldChar.IsDirty
 linktitle: IsDirty
 articleTitle: IsDirty
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldChar IsDirty 财产. 获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确陈旧 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldChar IsDirty 属性如何通过跟踪更改来帮助维护文档的准确性，确保您的字段始终反映最新更新。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldchar/isdirty/
 ---
 ## FieldChar.IsDirty property
 
-获取或设置字段的当前结果是否由于对文档进行的其他修改 而不再正确（陈旧）。
+获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（过时）。
 
 ```csharp
 public bool IsDirty { get; set; }
@@ -34,7 +34,7 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// 检索代表文档中字段的外观对象。
+// 检索代表文档中的字段的外观对象。
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);

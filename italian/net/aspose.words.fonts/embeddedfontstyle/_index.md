@@ -3,14 +3,14 @@ title: EmbeddedFontStyle Enum
 linktitle: EmbeddedFontStyle
 articleTitle: EmbeddedFontStyle
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.EmbeddedFontStyle enum. Specifica lo stile di un carattere incorporato allinterno di aFontInfo oggetto in C#.
+description: Scopri l'enum Aspose.Words EmbeddedFontStyle per gestire facilmente gli stili di font incorporati negli oggetti FontInfo, migliorando le capacità di formattazione dei documenti.
 type: docs
-weight: 2860
+weight: 3270
 url: /it/net/aspose.words.fonts/embeddedfontstyle/
 ---
 ## EmbeddedFontStyle enumeration
 
-Specifica lo stile di un carattere incorporato all'interno di a[`FontInfo`](../fontinfo/) oggetto.
+Specifica lo stile di un font incorporato all'interno di un[`FontInfo`](../fontinfo/) oggetto.
 
 ```csharp
 [Flags]
@@ -21,14 +21,14 @@ public enum EmbeddedFontStyle
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Regular | `0` | Specifica il carattere incorporato regolare. |
-| Bold | `1` | Specifica il carattere incorporato Grassetto. |
-| Italic | `2` | Specifica il carattere corsivo incorporato. |
-| BoldItalic | `3` | Specifica il carattere incorporato grassetto-italico. |
+| Regular | `0` | Specifica il font incorporato normale. |
+| Bold | `1` | Specifica il font incorporato Bold. |
+| Italic | `2` | Specifica il font corsivo incorporato. |
+| BoldItalic | `3` | Specifica il font incorporato Grassetto-Corsivo. |
 
 ## Esempi
 
-Mostra come estrarre un carattere incorporato da un documento e salvarlo nel file system locale.
+Mostra come estrarre un font incorporato da un documento e salvarlo nel file system locale.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
@@ -37,14 +37,14 @@ FontInfo embeddedFont = doc.FontInfos["Alte DIN 1451 Mittelschrift"];
 byte[] embeddedFontBytes = embeddedFont.GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular);
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.ttf", embeddedFontBytes);
 
-// I formati dei caratteri incorporati potrebbero essere diversi in altri formati come .doc.
-// Dobbiamo conoscere il formato corretto prima di poter estrarre il carattere.
+// I formati dei font incorporati potrebbero essere diversi in altri formati, ad esempio .doc.
+// Dobbiamo conoscere il formato corretto prima di poter estrarre il font.
 doc = new Document(MyDir + "Embedded font.doc");
 
 Assert.IsNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.OpenType, EmbeddedFontStyle.Regular));
 Assert.IsNotNull(doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFont(EmbeddedFontFormat.EmbeddedOpenType, EmbeddedFontStyle.Regular));
 
-// Inoltre, possiamo convertire il formato OpenType incorporato, che proviene da documenti .doc, in OpenType.
+// Inoltre, possiamo convertire il formato OpenType incorporato, proveniente dai documenti .doc, in OpenType.
 embeddedFontBytes = doc.FontInfos["Alte DIN 1451 Mittelschrift"].GetEmbeddedFontAsOpenType(EmbeddedFontStyle.Regular);
 
 File.WriteAllBytes(ArtifactsDir + "Alte DIN 1451 Mittelschrift.otf", embeddedFontBytes);

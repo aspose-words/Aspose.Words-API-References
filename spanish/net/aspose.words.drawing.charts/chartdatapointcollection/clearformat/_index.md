@@ -3,14 +3,14 @@ title: ChartDataPointCollection.ClearFormat
 linktitle: ClearFormat
 articleTitle: ClearFormat
 second_title: Aspose.Words para .NET
-description: ChartDataPointCollection ClearFormat método. Borra el formato de todoChartDataPoint en esta colección en C#.
+description: Descubra cómo el método ClearFormat mejora su ChartDataPointCollection al restablecer sin esfuerzo todos los formatos de puntos de datos del gráfico para obtener imágenes más limpias.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing.charts/chartdatapointcollection/clearformat/
 ---
 ## ChartDataPointCollection.ClearFormat method
 
-Borra el formato de todo[`ChartDataPoint`](../../chartdatapoint/) en esta colección.
+Borra el formato de todos[`ChartDataPoint`](../../chartdatapoint/) en esta colección.
 
 ```csharp
 public void ClearFormat()
@@ -34,8 +34,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
-    foreach (ChartSeries series in chart.Series) 
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Suaviza la línea que representa la primera serie de datos.
@@ -50,10 +50,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de puntos de datos a la vez.
+    // Para un gráfico más limpio, podemos borrar el formato individualmente.
+    dataPoint.ClearFormat();
+
+    // También podemos eliminar una serie entera de puntos de datos a la vez.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

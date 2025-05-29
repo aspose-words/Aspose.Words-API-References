@@ -3,14 +3,14 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words pour .NET
-description: ViewOptions FormsDesign propriété. Spécifie si le document est en mode création de formulaires en C#.
+description: Découvrez comment ViewOptions FormsDesign améliore votre expérience documentaire en basculant le mode de conception de formulaires pour une édition et une personnalisation transparentes.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.settings/viewoptions/formsdesign/
 ---
 ## ViewOptions.FormsDesign property
 
-Spécifie si le document est en mode création de formulaires.
+Spécifie si le document est en mode de conception de formulaires.
 
 ```csharp
 public bool FormsDesign { get; set; }
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Définissez la propriété "FormsDesign" sur "false" pour garder le mode de conception de formulaires désactivé.
-// Définissez la propriété "FormsDesign" sur "true" pour activer le mode conception de formulaires.
+// Définissez la propriété « FormsDesign » sur « false » pour conserver le mode de conception de formulaires désactivé.
+// Définissez la propriété « FormsDesign » sur « true » pour activer le mode de conception de formulaires.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

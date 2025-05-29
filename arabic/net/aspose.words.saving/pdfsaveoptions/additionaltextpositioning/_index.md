@@ -3,14 +3,14 @@ title: PdfSaveOptions.AdditionalTextPositioning
 linktitle: AdditionalTextPositioning
 articleTitle: AdditionalTextPositioning
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions AdditionalTextPositioning ملكية. علامة تحدد ما إذا كان سيتم كتابة عوامل إضافية لتحديد موضع النص أم لا في C#.
+description: اكتشف خاصية PdfSaveOptions FurtherTextPositioning للتحكم في موضع النص في ملفات PDF. حسّن تصميم مستندك بسهولة!
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/pdfsaveoptions/additionaltextpositioning/
 ---
 ## PdfSaveOptions.AdditionalTextPositioning property
 
-علامة تحدد ما إذا كان سيتم كتابة عوامل إضافية لتحديد موضع النص أم لا.
+علم يحدد ما إذا كان سيتم كتابة عوامل تحديد موضع نص إضافية أم لا.
 
 ```csharp
 public bool AdditionalTextPositioning { get; set; }
@@ -18,26 +18,26 @@ public bool AdditionalTextPositioning { get; set; }
 
 ## ملاحظات
 
-إذا`حقيقي` ، تتم كتابة عوامل تشغيل إضافية لتحديد موضع النص في ملف PDF الناتج. قد يساعد هذا في التغلب على مشكلات تحديد موضع النص غير الدقيق في بعض الطابعات. الجانب السلبي هو زيادة حجم مستند PDF.
+إذا`حقيقي` تتم كتابة عوامل إضافية لتحديد موضع النص في ملف PDF الناتج. قد يساعد هذا في التغلب على مشاكل تحديد موضع النص غير الدقيق في بعض الطابعات. الجانب السلبي هو زيادة حجم ملف PDF.
 
 القيمة الافتراضية هي`خطأ شنيع`.
 
 ## أمثلة
 
-أظهر كيفية كتابة عوامل تشغيل إضافية لتحديد موضع النص.
+إظهار كيفية كتابة عوامل تحديد موضع النص الإضافية.
 
 ```csharp
 Document doc = new Document(MyDir + "Text positioning operators.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions
 {
     TextCompression = PdfTextCompression.None,
 
-    // قم بتعيين خاصية "AdditionalTextPositioning" على "صحيح" لمحاولة إصلاح الخطأ
-    // تحديد موضع العناصر في ملف PDF الناتج، في حالة وجوده، على حساب زيادة حجم الملف.
-    // قم بتعيين خاصية "AdditionalTextPositioning" على "خطأ" لعرض المستند كالمعتاد.
+    // اضبط خاصية "AdditionalTextPositioning" على "true" لمحاولة إصلاح الأخطاء
+    // تحديد موضع العناصر في ملف PDF الناتج، إن وجد، على حساب زيادة حجم الملف.
+    // قم بضبط خاصية "AdditionalTextPositioning" على "false" لعرض المستند كالمعتاد.
     AdditionalTextPositioning = applyAdditionalTextPositioning
 };
 

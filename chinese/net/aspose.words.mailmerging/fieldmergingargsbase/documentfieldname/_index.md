@@ -2,8 +2,8 @@
 title: FieldMergingArgsBase.DocumentFieldName
 linktitle: DocumentFieldName
 articleTitle: DocumentFieldName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldMergingArgsBase DocumentFieldName 财产. 获取文档中指定的合并字段的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldMergingArgsBase 的 DocumentFieldName 属性。轻松访问和管理合并字段名称，实现高效的文档处理。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/
@@ -18,13 +18,13 @@ public string DocumentFieldName { get; }
 
 ## 评论
 
-如果您有从文档字段名称到不同数据源字段名称 的映射，则这是文档中指定的原始字段名称。
+如果您有一个从文档字段名称到不同数据源字段名称的映射， ，那么这就是文档中指定的原始字段名称。
 
-如果您指定了字段名称前缀，例如文档中的“Image:MyFieldName”， 那么`DocumentFieldName`返回不带前缀的字段名称，即“MyFieldName”。
+如果您在文档中指定了字段名称前缀，例如“Image：MyFieldName”， 则`DocumentFieldName`返回不带前缀的字段名称，即“MyFieldName”。
 
 ## 例子
 
-演示如何使用自定义回调执行邮件合并，该回调处理 HTML 文档形式的合并数据。
+展示如何使用自定义回调执行邮件合并，以 HTML 文档的形式处理合并数据。
 
 ```csharp
 public void MergeHtml()
@@ -57,8 +57,8 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// 如果邮件合并遇到名称以“html_”前缀开头的MERGEFIELD，
-/// 此回调将其合并数据解析为 HTML 内容，并将结果添加到 MERGEFIELD 的文档位置。
+/// 如果邮件合并遇到名称以“html_”前缀开头的合并字段，
+/// 此回调将其合并数据解析为 HTML 内容并将结果添加到 MERGEFIELD 的文档位置。
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
@@ -75,14 +75,14 @@ private class HandleMergeFieldInsertHtml : IFieldMergingCallback
             builder.InsertHtml((string)args.FieldValue);
 
             // 由于我们已经手动插入了合并的内容，
-             // 我们不需要通过“Text”属性返回内容来响应此事件。
+            // 我们不需要通过“Text”属性返回内容来响应此事件。
             args.Text = string.Empty;
         }
     }
 
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs args)
     {
-        // 没做什么。
+        // 什么也不做。
     }
 }
 ```

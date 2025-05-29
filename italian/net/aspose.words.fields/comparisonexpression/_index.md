@@ -3,9 +3,9 @@ title: ComparisonExpression Class
 linktitle: ComparisonExpression
 articleTitle: ComparisonExpression
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.ComparisonExpression classe. Lespressione di confronto in C#.
+description: Scopri la classe Aspose.Words.Fields.ComparisonExpression per un confronto efficiente dei documenti. Migliora il tuo flusso di lavoro con potenti funzionalità di espressione!
 type: docs
-weight: 1490
+weight: 1900
 url: /it/net/aspose.words.fields/comparisonexpression/
 ---
 ## ComparisonExpression class
@@ -23,12 +23,12 @@ public sealed class ComparisonExpression
 | Nome | Descrizione |
 | --- | --- |
 | [ComparisonOperator](../../aspose.words.fields/comparisonexpression/comparisonoperator/) { get; } | Ottiene l'operatore di confronto. |
-| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Ottiene l'espressione sinistra. |
+| [LeftExpression](../../aspose.words.fields/comparisonexpression/leftexpression/) { get; } | Ottiene l'espressione a sinistra. |
 | [RightExpression](../../aspose.words.fields/comparisonexpression/rightexpression/) { get; } | Ottiene l'espressione corretta. |
 
 ## Esempi
 
-Mostra come implementare la valutazione personalizzata per i campi IF e COMPARE.
+Mostra come implementare la valutazione personalizzata per i campi SE e CONFRONTA.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -40,12 +40,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codici di campo utilizzati in questo esempio:
-    // 1. " IF {0} {1} {2} \"argomento vero\" \"argomento falso\" ".
+    // Codici di campo che utilizziamo in questo esempio:
+    // 1. " SE {0} {1} {2} \"argomento vero\" \"argomento falso\" ".
     // 2. "CONFRONTA {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con string, anziché bool.
+    // Se "comparisonResult" non è definito, creiamo "ComparisonEvaluationResult" con stringa, anziché bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -67,6 +67,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

@@ -3,7 +3,7 @@ title: ChartYValue.DateTimeValue
 linktitle: DateTimeValue
 articleTitle: DateTimeValue
 second_title: Aspose.Words para .NET
-description: ChartYValue DateTimeValue propiedad. Obtiene el valor de fecha y hora almacenado en C#.
+description: Descubra la propiedad DateTimeValue de ChartYValue para acceder y administrar fácilmente los valores de fecha y hora almacenados. ¡Mejore su visualización de datos hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words.drawing.charts/chartyvalue/datetimevalue/

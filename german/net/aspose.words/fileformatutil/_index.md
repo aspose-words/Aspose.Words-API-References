@@ -3,16 +3,16 @@ title: FileFormatUtil Class
 linktitle: FileFormatUtil
 articleTitle: FileFormatUtil
 second_title: Aspose.Words für .NET
-description: Aspose.Words.FileFormatUtil klas. Bietet Hilfsmethoden für die Arbeit mit Dateiformaten z. B. das Erkennen des Dateiformats oder das Konvertieren von Dateierweiterungen in/von Dateiformatenums in C#.
+description: Verwalten Sie Dateiformate mühelos mit Aspose.Words.FileFormatUtil. Erkennen Sie Formate und konvertieren Sie Erweiterungen nahtlos für mehr Produktivität.
 type: docs
-weight: 2820
+weight: 3230
 url: /de/net/aspose.words/fileformatutil/
 ---
 ## FileFormatUtil class
 
-Bietet Hilfsmethoden für die Arbeit mit Dateiformaten, z. B. das Erkennen des Dateiformats oder das Konvertieren von Dateierweiterungen in/von Dateiformatenums.
+Bietet Dienstprogrammmethoden für die Arbeit mit Dateiformaten, z. B. zum Erkennen von Dateiformaten oder zum Konvertieren von Dateierweiterungen in/aus Dateiformat-Enumerationen.
 
-Um mehr zu erfahren, besuchen Sie die[Erkennen Sie das Dateiformat und prüfen Sie die Formatkompatibilität](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Dateiformat erkennen und Formatkompatibilität prüfen](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) Dokumentationsartikel.
 
 ```csharp
 public static class FileFormatUtil
@@ -23,19 +23,19 @@ public static class FileFormatUtil
 | Name | Beschreibung |
 | --- | --- |
 | static [ContentTypeToLoadFormat](../../aspose.words/fileformatutil/contenttypetoloadformat/)(*string*) | Konvertiert den IANA-Inhaltstyp in einen Aufzählungswert im Ladeformat. |
-| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | Konvertiert den IANA-Inhaltstyp in einen Aufzählungswert im Speicherformat. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Erkennt und gibt die Informationen über ein Format eines in einem Stream gespeicherten Dokuments zurück. |
-| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Erkennt und gibt die Informationen über ein Format eines Dokuments zurück, das in einer Festplattendatei gespeichert ist. |
-| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Konvertiert eine Dateinamenerweiterung in eine[`SaveFormat`](../saveformat/) value. |
+| static [ContentTypeToSaveFormat](../../aspose.words/fileformatutil/contenttypetosaveformat/)(*string*) | Konvertiert den IANA-Inhaltstyp in einen aufgezählten Wert im sicheren Format. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat)(*Stream*) | Erkennt und gibt die Informationen zum Format eines in einem Stream gespeicherten Dokuments zurück. |
+| static [DetectFileFormat](../../aspose.words/fileformatutil/detectfileformat/#detectfileformat_1)(*string*) | Erkennt und gibt die Informationen zum Format eines in einer Datei gespeicherten Dokuments zurück. |
+| static [ExtensionToSaveFormat](../../aspose.words/fileformatutil/extensiontosaveformat/)(*string*) | Wandelt eine Dateinamenerweiterung in eine[`SaveFormat`](../saveformat/) Wert. |
 | static [ImageTypeToExtension](../../aspose.words/fileformatutil/imagetypetoextension/)(*[ImageType](../../aspose.words.drawing/imagetype/)*) | Konvertiert einen Aufzählungswert des Bildtyps Aspose.Words in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt. |
-| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Konvertiert einen Aufzählungswert im Ladeformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt. |
-| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Konvertiert a[`LoadFormat`](../loadformat/) Wert zu a[`SaveFormat`](../saveformat/) Wert wenn möglich. |
-| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Konvertiert einen Aufzählungswert im Speicherformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt. |
-| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Konvertiert a[`SaveFormat`](../saveformat/) Wert zu a[`LoadFormat`](../loadformat/) Wert wenn möglich. |
+| static [LoadFormatToExtension](../../aspose.words/fileformatutil/loadformattoextension/)(*[LoadFormat](../loadformat/)*) | Konvertiert einen im Ladeformat aufgezählten Wert in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt. |
+| static [LoadFormatToSaveFormat](../../aspose.words/fileformatutil/loadformattosaveformat/)(*[LoadFormat](../loadformat/)*) | Konvertiert eine[`LoadFormat`](../loadformat/) Wert zu einem[`SaveFormat`](../saveformat/) Wert wenn möglich. |
+| static [SaveFormatToExtension](../../aspose.words/fileformatutil/saveformattoextension/)(*[SaveFormat](../saveformat/)*) | Konvertiert einen Enumerationswert im Speicherformat in eine Dateierweiterung. Die zurückgegebene Erweiterung ist eine Zeichenfolge in Kleinbuchstaben mit einem führenden Punkt. |
+| static [SaveFormatToLoadFormat](../../aspose.words/fileformatutil/saveformattoloadformat/)(*[SaveFormat](../saveformat/)*) | Konvertiert eine[`SaveFormat`](../saveformat/) Wert zu einem[`LoadFormat`](../loadformat/) Wert wenn möglich. |
 
 ## Beispiele
 
-Zeigt, wie die Codierung in einer HTML-Datei erkannt wird.
+Zeigt, wie die Kodierung in einer HTML-Datei erkannt wird.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");

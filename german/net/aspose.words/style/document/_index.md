@@ -3,14 +3,14 @@ title: Style.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: Style Document eigendom. Ruft das Eigentümerdokument ab in C#.
+description: Entdecken Sie die Eigenschaft „Dokument formatieren“, um einfach auf Ihr Eigentümerdokument zuzugreifen und es zu verwalten und so die Organisation und Effizienz zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/style/document/
 ---
 ## Style.Document property
 
-Ruft das Eigentümerdokument ab.
+Ruft das Besitzerdokument ab.
 
 ```csharp
 public DocumentBase Document { get; }

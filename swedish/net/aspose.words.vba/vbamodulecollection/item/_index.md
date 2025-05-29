@@ -3,14 +3,14 @@ title: VbaModuleCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words för .NET
-description: VbaModuleCollection Item fast egendom. Hämtar enVbaModule objekt efter index i C#.
+description: Få enkel åtkomst till VbaModule-objekt med egenskapen VbaModuleCollection Item. Förbättra dina VBA-projekt med enkel indexering och förbättrad hantering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-Hämtar en[`VbaModule`](../../vbamodule/) objekt efter index.
+Hämtar en[`VbaModule`](../../vbamodule/) objekt av index.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -18,7 +18,7 @@ public VbaModule this[int index] { get; }
 
 | Parameter | Beskrivning |
 | --- | --- |
-| index | Nollbaserat index för modulen att hämta. |
+| index | Nollbaserat index för modulen som ska hämtas. |
 
 ## Exempel
 
@@ -33,14 +33,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 
@@ -59,7 +59,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-Hämtar en[`VbaModule`](../../vbamodule/) objekt med namn, eller noll om det inte hittas.
+Hämtar en[`VbaModule`](../../vbamodule/) objekt med namn, eller Null om det inte hittas.
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -78,14 +78,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

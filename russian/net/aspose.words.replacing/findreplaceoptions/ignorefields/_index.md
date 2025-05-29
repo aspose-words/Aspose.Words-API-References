@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreFields
 linktitle: IgnoreFields
 articleTitle: IgnoreFields
 second_title: Aspose.Words для .NET
-description: FindReplaceOptions IgnoreFields свойство. Получает или задает логическое значение указывающее следует ли игнорировать текст внутри полей. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство FindReplaceOptions IgnoreFields для легкого управления текстом в полях. Контролируйте, когда игнорировать контент для эффективного поиска!
 type: docs
 weight: 80
 url: /ru/net/aspose.words.replacing/findreplaceoptions/ignorefields/
 ---
 ## FindReplaceOptions.IgnoreFields property
 
-Получает или задает логическое значение, указывающее, следует ли игнорировать текст внутри полей. Значение по умолчанию:`ЛОЖЬ` .
+Возвращает или задает логическое значение, указывающее, следует ли игнорировать текст внутри полей. Значение по умолчанию:`ЛОЖЬ` .
 
 ```csharp
 public bool IgnoreFields { get; set; }
@@ -20,7 +20,7 @@ public bool IgnoreFields { get; set; }
 
 Эта опция влияет на все поле (все узлы между FieldStart иFieldEnd).
 
-Чтобы игнорировать только коды полей, используйте соответствующую опцию[`IgnoreFieldCodes`](../ignorefieldcodes/).
+Чтобы игнорировать только коды полей, используйте соответствующую опцию.[`IgnoreFieldCodes`](../ignorefieldcodes/).
 
 ## Примеры
 
@@ -36,10 +36,10 @@ builder.InsertField("QUOTE", "Hello again!");
 // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// Установите флаг «IgnoreFields» в значение «true», чтобы получить возможность поиска и замены
+// Установите флаг "IgnoreFields" на "true", чтобы получить функцию поиска и замены
 // операция игнорирования текста внутри полей.
-// Установите флаг «IgnoreFields» в значение «false», чтобы получить возможность поиска и замены
-// операция для поиска текста внутри полей.
+// Установите флаг "IgnoreFields" на "false", чтобы получить функцию поиска и замены
+// операция также для поиска текста внутри полей.
 options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);

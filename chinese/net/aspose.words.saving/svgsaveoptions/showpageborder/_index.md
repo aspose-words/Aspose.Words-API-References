@@ -2,15 +2,15 @@
 title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
-second_title: 用于 .NET 的 Aspose.Words
-description: SvgSaveOptions ShowPageBorder 财产. 控制是否向页面轮廓添加边框 默认为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 SvgSaveOptions 的 ShowPageBorder 属性，自定义页面轮廓。轻松控制边框——默认设置为 true，方便使用！
 type: docs
-weight: 80
+weight: 110
 url: /zh/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-控制是否向页面轮廓添加边框。 默认为`真的`.
+控制是否在页面轮廓上添加边框。 默认值为`真的`.
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPageBorder { get; set; }
 
 ## 例子
 
-演示如何在将 .docx 文档转换为 .svg 时模仿图像的属性。
+展示如何在将 .docx 文档转换为 .svg 时模仿图像的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

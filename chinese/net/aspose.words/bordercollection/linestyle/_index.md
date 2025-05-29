@@ -2,8 +2,8 @@
 title: BorderCollection.LineStyle
 linktitle: LineStyle
 articleTitle: LineStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: BorderCollection LineStyle 财产. 获取或设置边框样式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BorderCollection 的 LineStyle 属性，使用灵活的边框样式自定义您的设计。轻松提升项目的视觉吸引力！
 type: docs
 weight: 80
 url: /zh/net/aspose.words/bordercollection/linestyle/
@@ -24,7 +24,7 @@ public LineStyle LineStyle { get; set; }
 
 ## 例子
 
-演示如何创建带阴影的绿色波浪页面边框。
+展示如何创建带有阴影的绿色波浪页面边框。
 
 ```csharp
 Document doc = new Document();

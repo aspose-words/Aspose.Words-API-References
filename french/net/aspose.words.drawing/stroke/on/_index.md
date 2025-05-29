@@ -3,9 +3,9 @@ title: Stroke.On
 linktitle: On
 articleTitle: On
 second_title: Aspose.Words pour .NET
-description: Stroke On propriété. Définit si le chemin sera tracé en C#.
+description: Contrôlez le style des tracés avec la propriété Contour activé. Améliorez vos créations en définissant le tracé des tracés pour un rendu soigné et professionnel.
 type: docs
-weight: 140
+weight: 190
 url: /fr/net/aspose.words.drawing/stroke/on/
 ---
 ## Stroke.On property
@@ -18,7 +18,7 @@ public bool On { get; set; }
 
 ## Remarques
 
-La valeur par défaut d'un[`Shape`](../../shape/) est`vrai`.
+La valeur par défaut pour un[`Shape`](../../shape/) est`vrai`.
 
 ## Exemples
 
@@ -31,8 +31,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 100,
     RelativeVerticalPosition.TopMargin, 100, 200, 200, WrapType.None);
 
-// Les formes de base, comme le rectangle, comportent deux parties visibles.
-// 1 - Le remplissage, qui s'applique à la zone située à l'intérieur du contour de la forme :
+// Les formes de base, comme le rectangle, ont deux parties visibles.
+// 1 - Le remplissage, qui s'applique à la zone à l'intérieur du contour de la forme :
 shape.Fill.ForeColor = Color.White;
 
 // 2 - Le trait, qui marque le contour de la forme :

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssSavingCallback
 linktitle: CssSavingCallback
 articleTitle: CssSavingCallback
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions CssSavingCallback propriété. Permet de contrôler la façon dont les styles CSS sont enregistrés lorsquun document est enregistré au format HTML MHTML ou EPUB en C#.
+description: Contrôlez l'enregistrement des styles CSS avec HtmlSaveOptions CssSavingCallback. Optimisez vos exportations de documents au format HTML, MHTML ou EPUB sans effort !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-Permet de contrôler la façon dont les styles CSS sont enregistrés lorsqu'un document est enregistré au format HTML, MHTML ou EPUB.
+Permet de contrôler la manière dont les styles CSS sont enregistrés lorsqu'un document est enregistré au format HTML, MHTML ou EPUB.
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }
@@ -18,23 +18,23 @@ public ICssSavingCallback CssSavingCallback { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les feuilles de style CSS créées par une conversion HTML.
+Montre comment travailler avec les feuilles de style CSS créées par une conversion HTML.
 
 ```csharp
 public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crée un objet "HtmlFixedSaveOptions", que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « HtmlFixedSaveOptions », que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont nous convertissons le document en HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Définissez la propriété "CssStylesheetType" sur "CssStyleSheetType.External" pour
-    // accompagne un document HTML enregistré avec un fichier de feuille de style CSS externe.
+    // Définissez la propriété « CssStylesheetType » sur « CssStyleSheetType.External » pour
+    // accompagner un document HTML enregistré avec un fichier de feuille de style CSS externe.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
-    // Vous trouverez ci-dessous deux manières de spécifier des répertoires et des noms de fichiers pour les feuilles de style CSS de sortie.
-    // 1 - Utilisez la propriété "CssStyleSheetFileName" pour attribuer un nom de fichier à notre feuille de style :
+    // Vous trouverez ci-dessous deux manières de spécifier les répertoires et les noms de fichiers pour les feuilles de style CSS de sortie.
+    // 1 - Utilisez la propriété « CssStyleSheetFileName » pour attribuer un nom de fichier à notre feuille de style :
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
     // 2 - Utilisez un rappel personnalisé pour nommer notre feuille de style :
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // On peut accéder à l'intégralité du document source via la propriété "Document".
+        // Nous pouvons accéder à l'intégralité du document source via la propriété "Document".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

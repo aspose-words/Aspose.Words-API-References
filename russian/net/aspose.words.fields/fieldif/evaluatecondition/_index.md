@@ -3,7 +3,7 @@ title: FieldIf.EvaluateCondition
 linktitle: EvaluateCondition
 articleTitle: EvaluateCondition
 second_title: Aspose.Words для .NET
-description: FieldIf EvaluateCondition метод. Оценивает условие на С#.
+description: Узнайте, как метод FieldIf EvaluateCondition эффективно оценивает условия, повышая производительность и надежность вашего кода.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.fields/fieldif/evaluatecondition/
@@ -22,7 +22,7 @@ public FieldIfComparisonResult EvaluateCondition()
 
 ## Примеры
 
-Показывает, как вставить поле ЕСЛИ.
+Показывает, как вставить поле IF.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// Поле ЕСЛИ будет отображать строку из любого свойства "TrueText",
-// или его свойство «FalseText», в зависимости от истинности построенного нами утверждения.
+// Поле IF отобразит строку либо из своего свойства "TrueText",
+// или его свойство "FalseText", в зависимости от истинности построенного нами утверждения.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();

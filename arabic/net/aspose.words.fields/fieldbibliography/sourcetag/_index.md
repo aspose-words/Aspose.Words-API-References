@@ -3,17 +3,70 @@ title: FieldBibliography.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words لـ .NET
-description: FieldBibliography SourceTag ملكية. الحصول على قيمة أو تعيينها بحيث يتم عرض المصادر ذات قيمة عنصر العلامة المطابقة فقط في قائمة المراجع في C#.
+description: قم بإدارة قائمة المراجع الخاصة بك بسهولة باستخدام خاصية SourceTag—قم بتصفية المصادر عن طريق مطابقة العلامات للحصول على قائمة مرجعية منظمة ومصممة خصيصًا.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldbibliography/sourcetag/
 ---
 ## FieldBibliography.SourceTag property
 
-الحصول على قيمة أو تعيينها بحيث يتم عرض المصادر ذات قيمة عنصر العلامة المطابقة فقط في قائمة المراجع.
+يحصل على قيمة أو يعينها بحيث يتم عرض المصادر التي تتطابق مع قيمة عنصر العلامة فقط في المراجع.
 
 ```csharp
 public string SourceTag { get; set; }
+```
+
+## أمثلة
+
+يوضح كيفية العمل مع حقول الاستشهادات والمراجع.
+
+```csharp
+// افتح مستندًا يحتوي على المصادر الببليوغرافية التي يمكننا العثور عليها في
+// Microsoft Word عبر المراجع -> الاستشهادات والمراجع -> إدارة المصادر.
+Document doc = new Document(MyDir + "Bibliography.docx");
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.Write("Text to be cited with one source.");
+
+// قم بإنشاء استشهاد باستخدام رقم الصفحة ومؤلف الكتاب المشار إليه فقط.
+FieldCitation fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+
+//نشير إلى المصادر باستخدام أسماء علاماتها.
+fieldCitation.SourceTag = "Book1";
+fieldCitation.PageNumber = "85";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = true;
+fieldCitation.SuppressYear = true;
+
+Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
+
+// قم بإنشاء استشهاد أكثر تفصيلاً يستشهد بمصدرين.
+builder.InsertParagraph();
+builder.Write("Text to be cited with two sources.");
+fieldCitation = (FieldCitation)builder.InsertField(FieldType.FieldCitation, true);
+fieldCitation.SourceTag = "Book1";
+fieldCitation.AnotherSourceTag = "Book2";
+fieldCitation.FormatLanguageId = "en-US";
+fieldCitation.PageNumber = "19";
+fieldCitation.Prefix = "Prefix ";
+fieldCitation.Suffix = " Suffix";
+fieldCitation.SuppressAuthor = false;
+fieldCitation.SuppressTitle = false;
+fieldCitation.SuppressYear = false;
+fieldCitation.VolumeNumber = "VII";
+
+Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
+
+// يمكننا استخدام حقل المراجع لعرض جميع المصادر الموجودة داخل المستند.
+builder.InsertBreak(BreakType.PageBreak);
+FieldBibliography fieldBibliography = (FieldBibliography)builder.InsertField(FieldType.FieldBibliography, true);
+fieldBibliography.FormatLanguageId = "5129";
+fieldBibliography.FilterLanguageId = "5129";
+fieldBibliography.SourceTag = "Book2";
+
+Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
+
+doc.UpdateFields();
+doc.Save(ArtifactsDir + "Field.CITATION.docx");
 ```
 
 ### أنظر أيضا

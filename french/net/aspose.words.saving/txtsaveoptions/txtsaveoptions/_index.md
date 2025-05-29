@@ -3,7 +3,7 @@ title: TxtSaveOptions
 linktitle: TxtSaveOptions
 articleTitle: TxtSaveOptions
 second_title: Aspose.Words pour .NET
-description: TxtSaveOptions constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur TxtSaveOptions pour un enregistrement fluide des fichiers. Exploitez le constructeur par défaut pour une gestion efficace des données et des performances améliorées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/txtsaveoptions/txtsaveoptions/

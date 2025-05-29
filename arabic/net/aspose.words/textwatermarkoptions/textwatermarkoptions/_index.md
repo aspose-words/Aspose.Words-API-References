@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 linktitle: TextWatermarkOptions
 articleTitle: TextWatermarkOptions
 second_title: Aspose.Words لـ .NET
-description: TextWatermarkOptions البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ TextWatermarkOptions لتخصيص العلامة المائية بسلاسة. فعّل الإعدادات الافتراضية لتحسين مرونة التصميم وإبداعه.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/textwatermarkoptions/textwatermarkoptions/

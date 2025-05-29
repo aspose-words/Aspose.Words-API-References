@@ -3,7 +3,7 @@ title: NodeCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: NodeCollection Remove método. Elimina el nodo de la colección y del documento en C#.
+description: Elimine sin esfuerzo nodos de su documento con el método NodeCollection Remove, agilizando la gestión de datos y mejorando el rendimiento.
 type: docs
 weight: 90
 url: /es/net/aspose.words/nodecollection/remove/
@@ -18,22 +18,22 @@ public void Remove(Node node)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| node | Node | El nodo que se va a eliminar. |
+| node | Node | El nodo a eliminar. |
 
 ## Ejemplos
 
-Muestra cómo trabajar con NodeCollection.
+Muestra cómo trabajar con una NodeCollection.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agrega texto al documento insertando Ejecuciones usando un DocumentBuilder.
+// Agregue texto al documento insertando ejecuciones usando un DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Cada invocación del método "Write" crea una nueva Ejecución,
-// que luego aparece en RunCollection del párrafo principal.
+// Cada invocación del método "Write" crea una nueva ejecución,
+// que luego aparece en la RunCollection del párrafo padre.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);

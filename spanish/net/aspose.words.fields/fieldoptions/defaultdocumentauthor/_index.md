@@ -3,14 +3,14 @@ title: FieldOptions.DefaultDocumentAuthor
 linktitle: DefaultDocumentAuthor
 articleTitle: DefaultDocumentAuthor
 second_title: Aspose.Words para .NET
-description: FieldOptions DefaultDocumentAuthor propiedad. Obtiene o establece el nombre del autor del documento predeterminado. Si el nombre del autor ya está especificado en las propiedades integradas del documento esta opción no se considera en C#.
+description: Administre la propiedad DefaultDocumentAuthor para establecer o actualizar fácilmente los nombres de los autores de los documentos, mejorando la organización y la eficiencia de la gestión de documentos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.fields/fieldoptions/defaultdocumentauthor/
 ---
 ## FieldOptions.DefaultDocumentAuthor property
 
-Obtiene o establece el nombre del autor del documento predeterminado. Si el nombre del autor ya está especificado en las propiedades integradas del documento, esta opción no se considera.
+Obtiene o establece el nombre predeterminado del autor del documento. Si el nombre del autor ya está especificado en las propiedades integradas del documento, esta opción no se considera.
 
 ```csharp
 public string DefaultDocumentAuthor { get; set; }
@@ -24,14 +24,14 @@ Muestra cómo utilizar un campo AUTOR para mostrar el nombre del creador de un d
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Los campos AUTOR obtienen sus resultados de la propiedad incorporada del documento llamada "Autor".
+// Los campos AUTOR obtienen sus resultados de la propiedad de documento incorporada llamada "Autor".
 // Si creamos y guardamos un documento en Microsoft Word,
-// tendrá nuestro nombre de usuario en esa propiedad.
-// Sin embargo, si creamos un documento mediante programación usando Aspose.Words,
+//Tendrá nuestro nombre de usuario en esa propiedad.
+// Sin embargo, si creamos un documento programáticamente usando Aspose.Words,
 // la propiedad "Autor", por defecto, será una cadena vacía.
 Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
 
-// Establece un nombre de autor de copia de seguridad para que se utilicen los campos AUTOR
+// Establezca un nombre de autor de respaldo para los campos AUTOR a utilizar
 // si la propiedad "Autor" contiene una cadena vacía.
 doc.FieldOptions.DefaultDocumentAuthor = "Joe Bloggs";
 
@@ -42,12 +42,12 @@ field.Update();
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
 Assert.AreEqual("Joe Bloggs", field.Result);
 
-// Actualizando un campo AUTOR que contiene un valor
+// Actualizar un campo AUTOR que contiene un valor
 // aplicará ese valor a la propiedad incorporada "Autor".
 Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
 
 // Cambiar esta propiedad y luego actualizar el campo AUTOR aplicará este valor al campo.
-doc.BuiltInDocumentProperties.Author = "John Doe";      
+doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
 Assert.AreEqual(" AUTHOR ", field.GetFieldCode());

@@ -3,14 +3,14 @@ title: ChartAxis.BaseTimeUnit
 linktitle: BaseTimeUnit
 articleTitle: BaseTimeUnit
 second_title: Aspose.Words para .NET
-description: ChartAxis BaseTimeUnit propiedad. Devuelve o establece la unidad de tiempo más pequeña que se representa en el eje de categorías de tiempo en C#.
+description: Descubra la propiedad ChartAxis BaseTimeUnit para definir fácilmente la unidad de tiempo más pequeña en su eje de categoría de tiempo para una mejor visualización de datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/chartaxis/basetimeunit/
 ---
 ## ChartAxis.BaseTimeUnit property
 
-Devuelve o establece la unidad de tiempo más pequeña que se representa en el eje de categorías de tiempo.
+Devuelve o establece la unidad de tiempo más pequeña que se representa en el eje de categoría de tiempo.
 
 ```csharp
 public AxisTimeUnit BaseTimeUnit { get; set; }
@@ -18,11 +18,11 @@ public AxisTimeUnit BaseTimeUnit { get; set; }
 
 ## Observaciones
 
-La propiedad tiene efecto solo para ejes de categoría de tiempo.
+La propiedad tiene efecto sólo para los ejes de categoría de tiempo.
 
 ## Ejemplos
 
-Muestra cómo insertar un gráfico con valores de fecha/hora.
+Muestra cómo insertar un gráfico con valores de fecha y hora.
 
 ```csharp
 Document doc = new Document();
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada que contenga valores de fecha/hora para el eje X y los respectivos valores decimales para el eje Y.
+// Agregue una serie personalizada que contenga valores de fecha y hora para el eje X y valores decimales respectivos para el eje Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -43,12 +43,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// Establece límites superior e inferior para el eje X.
+// Establezca límites inferior y superior para el eje X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// Establece las unidades mayores del eje X en una semana y las unidades menores en un día.
+// Establezca las unidades principales del eje X en una semana y las unidades secundarias en un día.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -57,9 +57,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// Definir propiedades del eje Y para valores decimales.
+// Define las propiedades del eje Y para valores decimales.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

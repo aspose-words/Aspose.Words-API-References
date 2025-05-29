@@ -3,9 +3,9 @@ title: TextOrientation Enum
 linktitle: TextOrientation
 articleTitle: TextOrientation
 second_title: Aspose.Words per .NET
-description: Aspose.Words.TextOrientation enum. Specifica lorientamento del testo su una pagina in una cella di tabella o in una cornice di testo in C#.
+description: Scopri l'enum Aspose.Words.TextOrientation per controllare facilmente l'allineamento del testo nelle celle delle tabelle e nelle cornici di testo, migliorando la presentazione e la leggibilità del documento.
 type: docs
-weight: 6430
+weight: 7280
 url: /it/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
@@ -21,15 +21,15 @@ public enum TextOrientation
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Horizontal | `0` | Il testo è disposto orizzontalmente (lr-tb). |
-| Downward | `1` | Il testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso (tb-rl). |
-| Upward | `3` | Il testo viene ruotato di 90 gradi a sinistra per apparire dal basso verso l'alto (bt-lr). |
-| HorizontalRotatedFarEast | `4` | Il testo è disposto orizzontalmente, ma i caratteri dell'Estremo Oriente vengono ruotati di 90 gradi a sinistra (lr-tb-v). |
-| VerticalFarEast | `5` | I caratteri dell'Estremo Oriente appaiono in verticale, il resto del testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso (tb-rl-v). |
-| VerticalRotatedFarEast | `7` | I caratteri dell'Estremo Oriente vengono visualizzati in verticale, il resto del testo viene ruotato di 90 gradi a destra per apparire dall'alto verso il basso in verticale, quindi da sinistra a destra in orizzontale (tb-lr-v). |
+| Downward | `1` | Il testo viene ruotato di 90 gradi verso destra per apparire dall'alto verso il basso (tb-rl). |
+| Upward | `3` | Il testo viene ruotato di 90 gradi verso sinistra per apparire dal basso verso l'alto (bt-lr). |
+| HorizontalRotatedFarEast | `4` | Il testo è disposto orizzontalmente, ma i caratteri dell'Estremo Oriente sono ruotati di 90 gradi verso sinistra (lr-tb-v). |
+| VerticalFarEast | `5` | I caratteri dell'Estremo Oriente appaiono in verticale, il resto del testo è ruotato di 90 gradi verso destra per apparire dall'alto verso il basso (tb-rl-v). |
+| VerticalRotatedFarEast | `7` | I caratteri dell'Estremo Oriente appaiono in verticale, il resto del testo viene ruotato di 90 gradi verso destra per apparire dall'alto verso il basso verticalmente, quindi da sinistra a destra orizzontalmente (tb-lr-v). |
 
 ## Esempi
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -59,7 +59,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

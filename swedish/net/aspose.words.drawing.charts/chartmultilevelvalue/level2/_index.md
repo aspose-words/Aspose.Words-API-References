@@ -3,7 +3,7 @@ title: ChartMultilevelValue.Level2
 linktitle: Level2
 articleTitle: Level2
 second_title: Aspose.Words för .NET
-description: ChartMultilevelValue Level2 fast egendom. Hämtar namnet på diagrammets mellannivå som detta värde refererar till i C#.
+description: Upptäck egenskapen ChartMultilevelValue Level2 för att enkelt identifiera den mellanliggande diagramnivån den refererar till, vilket förbättrar din datavisualisering.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing.charts/chartmultilevelvalue/level2/

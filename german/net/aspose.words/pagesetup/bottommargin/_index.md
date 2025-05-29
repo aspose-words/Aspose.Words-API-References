@@ -3,14 +3,14 @@ title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
 second_title: Aspose.Words für .NET
-description: PageSetup BottomMargin eigendom. Gibt den Abstand in Punkt zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest in C#.
+description: Passen Sie das Layout Ihres Dokuments mit der Eigenschaft „PageSetup BottomMargin“ an und definieren Sie den Abstand zwischen der unteren Seitenkante und dem Fließtext für eine optimale Darstellung.
 type: docs
 weight: 80
 url: /de/net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property
 
-Gibt den Abstand (in Punkt) zwischen dem unteren Rand der Seite und der unteren Grenze des Textkörpers zurück oder legt ihn fest.
+Gibt den Abstand (in Punkten) zwischen der unteren Seitenkante und der unteren Begrenzung des Fließtextes zurück oder legt ihn fest.
 
 ```csharp
 public double BottomMargin { get; set; }
@@ -18,7 +18,7 @@ public double BottomMargin { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt angepasst werden.
+Zeigt, wie Sie Papiergröße, Ausrichtung, Ränder und andere Einstellungen für einen Abschnitt anpassen.
 
 ```csharp
 Document doc = new Document();

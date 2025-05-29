@@ -3,9 +3,9 @@ title: DocumentBuilder.Write
 linktitle: Write
 articleTitle: Write
 second_title: Aspose.Words für .NET
-description: DocumentBuilder Write methode. Fügt an der aktuellen Einfügeposition eine Zeichenfolge in das Dokument ein in C#.
+description: Fügen Sie mit der Write-Methode von DocumentBuilder mühelos Text in Ihr Dokument ein, verbessern Sie so Ihre Bearbeitungseffizienz und optimieren Sie Ihren Arbeitsablauf.
 type: docs
-weight: 650
+weight: 690
 url: /de/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
@@ -18,15 +18,15 @@ public void Write(string text)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| text | String | Die Zeichenfolge, die in das Dokument eingefügt werden soll. |
+| text | String | Die in das Dokument einzufügende Zeichenfolge. |
 
 ## Bemerkungen
 
-Aktuelle Schriftartformatierung, die von angegeben wird[`Font`](../font/) Eigenschaft wird verwendet.
+Aktuelle Schriftformatierung angegeben durch[`Font`](../font/) Eigenschaft wird verwendet.
 
 ## Beispiele
 
-Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
+Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Zeigt, wie Sie mit einem Document Builder eine Tabelle erstellen.
+Zeigt, wie Sie mit einem Dokumentgenerator eine Tabelle erstellen.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Rufen Sie die „EndRow“-Methode des Builders auf, um eine neue Zeile zu beginnen.
+// Rufen Sie die Methode „EndRow“ des Builders auf, um eine neue Zeile zu beginnen.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -79,8 +79,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Beim Erstellen der Tabelle wendet der Document Builder seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
-// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, während sie erstellt werden.
+// Beim Erstellen der Tabelle wendet der Dokumentgenerator seine aktuellen RowFormat/CellFormat-Eigenschaftswerte an
+// zur aktuellen Zeile/Zelle, in der sich der Cursor befindet, und zu allen neuen Zeilen/Zellen, sobald diese erstellt werden.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Zuvor hinzugefügte Zeilen und Zellen werden von Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
+// Zuvor hinzugefügte Zeilen und Zellen werden durch Änderungen an der Formatierung des Builders nicht rückwirkend beeinflusst.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -106,7 +106,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Zeigt, wie man eine Tabelle mit benutzerdefinierten Rändern erstellt.
+Zeigt, wie eine Tabelle mit benutzerdefinierten Rändern erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -114,7 +114,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Festlegen von Tabellenformatierungsoptionen für einen Dokumentersteller
+// Festlegen von Tabellenformatierungsoptionen für einen Dokumentgenerator
 // wendet sie auf jede Zeile und Zelle an, die wir damit hinzufügen.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -138,7 +138,7 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Wenn Sie die Formatierung ändern, wird sie auf die aktuelle Zelle angewendet.
+// Das Ändern der Formatierung wird auf die aktuelle Zelle angewendet,
 // und alle neuen Zellen, die wir anschließend mit dem Builder erstellen.
 // Dies hat keine Auswirkungen auf die Zellen, die wir zuvor hinzugefügt haben.
 builder.CellFormat.Shading.ClearFormatting();
@@ -151,7 +151,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Zeilenhöhe erhöhen, um sie an den vertikalen Text anzupassen.
+// Erhöhen Sie die Zeilenhöhe, damit der vertikale Text hineinpasst.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

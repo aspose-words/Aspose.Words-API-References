@@ -3,16 +3,16 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Tables.TableCollection сорт. Обеспечивает типизированный доступ к коллекцииTable узлы на С#.
+description: Откройте для себя класс Aspose.Words.Tables.TableCollection для простого типизированного доступа к узлам таблиц, повышающего эффективность и гибкость обработки документов.
 type: docs
-weight: 6360
+weight: 7210
 url: /ru/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-Обеспечивает типизированный доступ к коллекции[`Table`](../table/) узлы.
+Предоставляет типизированный доступ к коллекции[`Table`](../table/) узлы.
 
-Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) статья документации.
+Чтобы узнать больше, посетите[Работа с таблицами](https://docs.aspose.com/words/net/working-with-tables/) документальная статья.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -23,7 +23,7 @@ public class TableCollection : NodeCollection
 | Имя | Описание |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Получает количество узлов в коллекции. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Получает[`Table`](../table/) по данному индексу. (2 indexers) |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Извлекает[`Table`](../table/) по данному индексу. (2 indexers) |
 
 ## Методы
 
@@ -32,11 +32,11 @@ public class TableCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Добавляет узел в конец коллекции. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Удаляет все узлы из этой коллекции и из документа. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Определяет, находится ли узел в коллекции. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию стиля foreach по коллекции узлов. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного узла, начинающийся с нуля. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Обеспечивает простую итерацию в стиле «foreach» по коллекции узлов. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Возвращает индекс указанного узла, отсчитываемый от нуля. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Вставляет узел в коллекцию по указанному индексу. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Удаляет узел из коллекции и из документа. |
-| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел по указанному индексу из коллекции и из документа. |
+| [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Удаляет узел с указанным индексом из коллекции и из документа. |
 | [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Копирует все таблицы из коллекции в новый массив таблиц. (2 methods) |
 
 ## Примеры
@@ -61,7 +61,7 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Показывает, как узнать, являются ли таблицы вложенными.
+Показывает, как определить, являются ли таблицы вложенными.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -72,7 +72,7 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // Выясняем, есть ли в каких-либо ячейках таблицы дочерние другие таблицы.
+        // Выясняем, есть ли у ячеек таблицы другие дочерние таблицы.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
@@ -108,20 +108,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Определяет, содержит ли таблица в своих ячейках какую-либо непосредственную дочернюю таблицу.
-/// Не просматривайте эти таблицы рекурсивно, чтобы проверить наличие дополнительных таблиц.
+/// Определяет, содержит ли таблица какие-либо непосредственные дочерние таблицы в своих ячейках.
+/// Не выполняйте рекурсивный обход этих таблиц для проверки наличия дополнительных таблиц.
 /// </summary>
 /// <returns>
 /// Возвращает true, если хотя бы одна дочерняя ячейка содержит таблицу.
-/// Возвращает false, если ни одна из ячеек таблицы не содержит таблицу.
+/// Возвращает false, если ни одна ячейка в таблице не содержит таблицу.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

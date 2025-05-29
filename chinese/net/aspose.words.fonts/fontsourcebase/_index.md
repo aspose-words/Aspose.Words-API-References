@@ -2,10 +2,10 @@
 title: FontSourceBase Class
 linktitle: FontSourceBase
 articleTitle: FontSourceBase
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fonts.FontSourceBase 班级. 这是允许用户指定各种字体源的类的抽象基类 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fonts.FontSourceBase，它是在您的应用程序中定义各种字体源的基本抽象类。增强您的文档格式！
 type: docs
-weight: 2980
+weight: 3410
 url: /zh/net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -24,17 +24,17 @@ public abstract class FontSourceBase
 | --- | --- |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | 返回字体源优先级。 |
 | abstract [Type](../../aspose.words.fonts/fontsourcebase/type/) { get; } | 返回字体源的类型。 |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 在处理字体源期间检测到可能导致格式保真度损失的问题时调用。 |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | 当检测到可能导致格式保真度损失的问题时，在处理字体源期间调用。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回通过此源可用的字体列表。 |
+| [GetAvailableFonts](../../aspose.words.fonts/fontsourcebase/getavailablefonts/)() | 返回可通过此源使用的字体列表。 |
 
 ## 例子
 
-演示如何使用本地文件系统中的字体文件作为字体源。
+展示如何使用本地文件系统中的字体文件作为字体源。
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

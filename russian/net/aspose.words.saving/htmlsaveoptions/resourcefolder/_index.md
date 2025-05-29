@@ -3,9 +3,9 @@ title: HtmlSaveOptions.ResourceFolder
 linktitle: ResourceFolder
 articleTitle: ResourceFolder
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ResourceFolder свойство. Указывает физическую папку в которой сохраняются все ресурсы такие как изображения шрифты и внешний CSS когда document экспортируется в HTML. По умолчанию  пустая строка на С#.
+description: Откройте для себя свойство HtmlSaveOptions ResourceFolder для оптимального экспорта документов. Легко управляйте изображениями, шрифтами и CSS в назначенной папке.
 type: docs
-weight: 420
+weight: 440
 url: /ru/net/aspose.words.saving/htmlsaveoptions/resourcefolder/
 ---
 ## HtmlSaveOptions.ResourceFolder property
@@ -18,15 +18,15 @@ public string ResourceFolder { get; set; }
 
 ## Примечания
 
-`ResourceFolder` — самый простой способ указать папку, в которую должны быть записаны все ресурсы. Другой способ — использовать отдельные свойства[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , и[`CssStyleSheetFileName`](../cssstylesheetfilename/).
+`ResourceFolder` это самый простой способ указать папку, в которую должны быть записаны все ресурсы. Другой способ — использовать отдельные свойства[`FontsFolder`](../fontsfolder/) ,[`ImagesFolder`](../imagesfolder/) , и[`CssStyleSheetFileName`](../cssstylesheetfilename/).
 
-`ResourceFolder` имеет более низкий приоритет, чем папки, указанные через[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , и[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Например, если Both `ResourceFolder` и[`FontsFolder`](../fontsfolder/)указаны, шрифты будут сохранены в[`FontsFolder`](../fontsfolder/) , а изображения и CSS будут сохранены в`ResourceFolder`.
+`ResourceFolder` имеет более низкий приоритет, чем папки, указанные через[`FontsFolder`](../fontsfolder/) , [`ImagesFolder`](../imagesfolder/) , и[`CssStyleSheetFileName`](../cssstylesheetfilename/) . Например, если both `ResourceFolder` и[`FontsFolder`](../fontsfolder/)указаны, шрифты будут сохранены в[`FontsFolder`](../fontsfolder/) , а изображения и CSS будут сохранены в`ResourceFolder`.
 
-Если папка, указанная`ResourceFolder` не существует, он будет создан автоматически.
+Если папка указана`ResourceFolder` не существует, он будет создан автоматически.
 
 ## Примеры
 
-Показывает, как установить папки и псевдонимы папок для внешне сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в HTML.
+Показывает, как задать папки и псевдонимы папок для внешних сохраненных ресурсов, которые Aspose.Words создаст при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

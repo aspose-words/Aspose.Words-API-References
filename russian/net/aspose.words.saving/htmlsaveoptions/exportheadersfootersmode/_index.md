@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words для .NET
-description: HtmlSaveOptions ExportHeadersFootersMode свойство. Указывает как верхние и нижние колонтитулы выводятся в HTML MHTML или EPUB. Значение по умолчаниюPerSection для HTML/MHTML иNone для EPUB на С#.
+description: Узнайте, как свойство HtmlSaveOptions ExportHeadersFootersMode оптимизирует вывод заголовков и нижних колонтитулов для форматов HTML, MHTML и EPUB. Увеличьте презентацию вашего документа!
 type: docs
 weight: 160
 url: /ru/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
@@ -18,28 +18,28 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ## Примечания
 
-Трудно осмысленно выводить верхние и нижние колонтитулы в HTML, поскольку HTML не разбит на страницы.
+Трудно осмысленно выводить верхние и нижние колонтитулы в HTML, поскольку HTML не разбивается на страницы.
 
 Когда это свойствоPerSection, Aspose.Words экспортирует только основные верхние и нижние колонтитулы в начале и конце каждого раздела.
 
-Когда он являетсяFirstSectionHeaderLastSectionFooter экспортируются только первый основной заголовок и последний основной нижний колонтитул (включая ссылку на предыдущий).
+Когда это будетFirstSectionHeaderLastSectionFooter экспортируются только первый основной верхний колонтитул и последний основной нижний колонтитул (включая связанный с предыдущим).
 
-Вы можете полностью отключить экспорт верхних и нижних колонтитулов, установив для этого свойства значениеNone.
+Вы можете полностью отключить экспорт верхних и нижних колонтитулов, установив для этого свойства property значениеNone.
 
 ## Примеры
 
-Показывает, как пропустить верхние и нижние колонтитулы при сохранении документа в формате HTML.
+Показывает, как исключить верхние и нижние колонтитулы при сохранении документа в формате HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Этот документ содержит верхние и нижние колонтитулы. Мы можем получить к ним доступ через коллекцию «HeadersFooters».
+// Этот документ содержит верхние и нижние колонтитулы. Мы можем получить к ним доступ через коллекцию "HeadersFooters".
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// Такие форматы, как .html, не разбивают документ на страницы, поэтому верхние и нижние колонтитулы не будут работать одинаково
-// они это сделают, когда мы откроем документ в формате .docx с помощью Microsoft Word.
-// Если мы конвертируем документ с верхними/нижними колонтитулами в HTML, преобразование ассимилирует верхние/нижние колонтитулы в основной текст.
-// Мы можем использовать объект SaveOptions, чтобы исключить верхние и нижние колонтитулы при преобразовании в HTML.
+// Такие форматы, как .html, не разбивают документ на страницы, поэтому верхние и нижние колонтитулы не будут функционировать одинаково
+// они будут, когда мы откроем документ как .docx с помощью Microsoft Word.
+// Если мы преобразуем документ с верхними/нижними колонтитулами в html, преобразование ассимилирует верхние/нижние колонтитулы в основной текст.
+// Мы можем использовать объект SaveOptions, чтобы исключить верхние и нижние колонтитулы при конвертации в html.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 

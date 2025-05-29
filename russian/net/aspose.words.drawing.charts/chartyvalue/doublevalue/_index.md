@@ -3,7 +3,7 @@ title: ChartYValue.DoubleValue
 linktitle: DoubleValue
 articleTitle: DoubleValue
 second_title: Aspose.Words для .NET
-description: ChartYValue DoubleValue свойство. Получает сохраненное числовое значение на С#.
+description: Откройте для себя свойство ChartYValue DoubleValue, позволяющее легко извлекать и использовать сохраненные числовые значения для улучшенной визуализации и анализа данных.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.drawing.charts/chartyvalue/doublevalue/

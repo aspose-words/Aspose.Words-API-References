@@ -3,14 +3,14 @@ title: FieldRD.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words för .NET
-description: FieldRD FileName fast egendom. Hämtar eller ställer in namnet på filen som ska inkluderas när en innehållsförteckning behörighetsförteckning eller index genereras i C#.
+description: Upptäck hur egenskapen FieldRD FileName förenklar filhanteringen genom att enkelt ange namn för att generera innehållsförteckningar och index.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldrd/filename/
 ---
 ## FieldRD.FileName property
 
-Hämtar eller ställer in namnet på filen som ska inkluderas när en innehållsförteckning, behörighetsförteckning eller index genereras.
+Hämtar eller anger namnet på den fil som ska inkluderas när en innehållsförteckning, auktoritetsförteckning eller index genereras.
 
 ```csharp
 public string FileName { get; set; }
@@ -18,7 +18,7 @@ public string FileName { get; set; }
 
 ## Exempel
 
-Visar att använda RD-fältet för att skapa en innehållsförteckning från rubriker i andra dokument.
+Visar hur man använder RD-fältet för att skapa innehållsförteckningsposter från rubriker i andra dokument.
 
 ```csharp
 Document doc = new Document();
@@ -31,15 +31,15 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";
 builder.Writeln("TOC entry from within this document");
 
-// Infoga ett RD-fält, som refererar till ett annat lokalt filsystemdokument i dess FileName-egenskap.
-// TOC kommer nu också att acceptera alla rubriker från det refererade dokumentet som poster för sin tabell.
+// Infoga ett RD-fält som refererar till ett annat lokalt filsystemdokument i dess FileName-egenskap.
+// Innehållsförteckningen kommer nu också att acceptera alla rubriker från det refererade dokumentet som poster för sin tabell.
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
 Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
 
  // Skapa dokumentet som RD-fältet refererar till och infoga en rubrik.
-// Den här rubriken kommer att dyka upp som en post i TOC-fältet i vårt första dokument.
+// Denna rubrik kommer att visas som en post i innehållsförteckningsfältet i vårt första dokument.
 Document referencedDoc = new Document();
 DocumentBuilder refDocBuilder = new DocumentBuilder(referencedDoc);
 refDocBuilder.CurrentParagraph.ParagraphFormat.StyleName = "Heading 1";

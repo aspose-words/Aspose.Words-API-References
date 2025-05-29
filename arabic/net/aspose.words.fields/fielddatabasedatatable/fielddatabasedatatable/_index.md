@@ -3,14 +3,14 @@ title: FieldDatabaseDataTable
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words لـ .NET
-description: FieldDatabaseDataTable البناء. تهيئة مثيل جديد لـFieldDatabaseDataTable فئة في C#.
+description: اكتشف منشئ FieldDatabaseDataTable، وهو مفتاحك لتهيئة جداول البيانات بكفاءة لإدارة قاعدة البيانات بسلاسة وتحسين الأداء.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fielddatabasedatatable/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable constructor
 
-تهيئة مثيل جديد لـ[`FieldDatabaseDataTable`](../) فئة.
+يقوم بتهيئة مثيل جديد لـ[`FieldDatabaseDataTable`](../) الصف.
 
 ```csharp
 public FieldDatabaseDataTable(params string[] columnNames)

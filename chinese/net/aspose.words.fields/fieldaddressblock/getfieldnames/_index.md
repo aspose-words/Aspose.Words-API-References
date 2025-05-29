@@ -2,15 +2,15 @@
 title: FieldAddressBlock.GetFieldNames
 linktitle: GetFieldNames
 articleTitle: GetFieldNames
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldAddressBlock GetFieldNames 方法. 返回字段使用的邮件合并字段名称的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldAddressBlock 中的 GetFieldNames 方法。轻松检索邮件合并字段名称，增强您的文档自动化流程。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fields/fieldaddressblock/getfieldnames/
 ---
 ## FieldAddressBlock.GetFieldNames method
 
-返回字段使用的邮件合并字段名称的集合。
+返回该字段使用的邮件合并字段名称的集合。
 
 ```csharp
 public string[] GetFieldNames()

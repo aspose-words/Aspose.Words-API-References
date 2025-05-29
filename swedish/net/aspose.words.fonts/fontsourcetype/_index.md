@@ -3,14 +3,14 @@ title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fonts.FontSourceType uppräkning. Anger typen av en teckensnittskälla i C#.
+description: Upptäck Aspose.Words.Fonts.FontSourceType-enum för effektiv hantering av teckensnittskällor. Optimera din dokumenthantering med flexibla teckensnittsalternativ.
 type: docs
-weight: 2990
+weight: 3420
 url: /sv/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Anger typen av en teckensnittskälla.
+Anger typ av teckensnittskälla.
 
 ```csharp
 public enum FontSourceType
@@ -20,15 +20,15 @@ public enum FontSourceType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) objekt som representerar en fil med ett teckensnitt. |
+| FontFile | `0` | A[`FileFontSource`](../filefontsource/) objekt som representerar en enda teckensnittsfil. |
 | FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) objekt som representerar mapp med teckensnittsfiler. |
-| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) objekt som representerar enstaka teckensnitt i minnet. |
+| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) objekt som representerar ett enda teckensnitt i minnet. |
 | SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) objekt som representerar alla teckensnitt som är installerade i systemet. |
 | FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) objekt som representerar en ström med teckensnittsdata. |
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

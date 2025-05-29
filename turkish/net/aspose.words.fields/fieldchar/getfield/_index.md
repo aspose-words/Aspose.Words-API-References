@@ -2,8 +2,8 @@
 title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
-second_title: Aspose.Words for .NET
-description: FieldChar GetField yöntem. char. alanı için bir alan döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: FieldChar'daki GetField metodunu keşfedin, uygulamalarınızda optimum veri yönetimi ve gelişmiş performans için alanları zahmetsizce alın.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +18,11 @@ public Field GetField()
 
 ### Geri dönüş değeri
 
-Alan karakteri için bir alan.
+char alanı için bir alan.
 
 ## Notlar
 
-Yeni bir[`Field`](../../field/) Yöntem her çağrıldığında nesne oluşturulur.
+Yeni bir[`Field`](../../field/) nesne, yöntem her çağrıldığında oluşturulur.
 
 ## Örnekler
 
@@ -42,13 +42,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// Belgedeki alanı temsil eden cephe nesnesini alın.
+// Belgedeki alanı temsil eden cephe nesnesini al.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Geçerli tarihi gösterecek şekilde alanı güncelleyin.
+// Alanı güncel tarihi gösterecek şekilde güncelleyin.
 field.Update();
 ```
 

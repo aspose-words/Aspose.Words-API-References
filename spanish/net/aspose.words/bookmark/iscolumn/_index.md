@@ -3,14 +3,14 @@ title: Bookmark.IsColumn
 linktitle: IsColumn
 articleTitle: IsColumn
 second_title: Aspose.Words para .NET
-description: Bookmark IsColumn propiedad. Devolucionesverdadero si este marcador es un marcador de columna de tabla en C#.
+description: Descubra la propiedad IsColumn. Identifique fácilmente si un marcador representa una columna de tabla, lo que mejora la navegación y la organización de sus documentos.
 type: docs
 weight: 40
 url: /es/net/aspose.words/bookmark/iscolumn/
 ---
 ## Bookmark.IsColumn property
 
-Devoluciones`verdadero` si este marcador es un marcador de columna de tabla.
+Devuelve`verdadero` Si este marcador es un marcador de columna de tabla.
 
 ```csharp
 public bool IsColumn { get; }
@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Table column bookmarks.doc");
 
 foreach (Bookmark bookmark in doc.Range.Bookmarks)
 {
-    // Si un marcador encierra columnas de una tabla, es un marcador de columna de tabla y su indicador IsColumn está establecido en verdadero.
+    // Si un marcador encierra columnas de una tabla, es un marcador de columna de tabla y su indicador IsColumn se establece en verdadero.
     Console.WriteLine($"Bookmark: {bookmark.Name}{(bookmark.IsColumn ? " (Column)" : "")}");
     if (bookmark.IsColumn)
     {

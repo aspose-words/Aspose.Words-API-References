@@ -3,14 +3,14 @@ title: FieldHyperlink.IsImageMap
 linktitle: IsImageMap
 articleTitle: IsImageMap
 second_title: Aspose.Words für .NET
-description: FieldHyperlink IsImageMap eigendom. Ruft ab oder legt fest ob Koordinaten an den Hyperlink für eine serverseitige Bildkarte angehängt werden sollen in C#.
+description: Entdecken Sie, wie die Eigenschaft „FieldHyperlink IsImageMap“ Ihre serverseitigen Imagemaps verbessert, indem sie Koordinaten an Hyperlinks anhängt und so die Funktionalität verbessert.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldhyperlink/isimagemap/
 ---
 ## FieldHyperlink.IsImageMap property
 
-Ruft ab oder legt fest, ob Koordinaten an den Hyperlink für eine serverseitige Bildkarte angehängt werden sollen.
+Ruft ab oder legt fest, ob dem Hyperlink für eine serverseitige Imagemap Koordinaten angehängt werden sollen.
 
 ```csharp
 public bool IsImageMap { get; set; }

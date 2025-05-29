@@ -2,8 +2,8 @@
 title: Row.PreviousRow
 linktitle: PreviousRow
 articleTitle: PreviousRow
-second_title: 用于 .NET 的 Aspose.Words
-description: Row PreviousRow 财产. 获取上一个Row节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 访问 PreviousRow 属性可轻松检索前一个 Row 节点，从而增强数据导航并简化编码工作流程。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.tables/row/previousrow/
@@ -18,11 +18,11 @@ public Row PreviousRow { get; }
 
 ## 评论
 
-当您需要对表行进行类型访问时，可以使用该方法。如果a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)在表中而不是行中找到节点， 会自动遍历它以获取其中包含的行。
+该方法可用于需要对表格行进行类型访问的情况。如果 a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)节点位于表而不是行中， 它会自动遍历以获取其中包含的行。
 
 ## 例子
 
-演示如何枚举所有表格单元格。
+展示如何枚举所有表格单元格。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

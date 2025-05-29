@@ -3,16 +3,16 @@ title: MergeFieldImageDimension Class
 linktitle: MergeFieldImageDimension
 articleTitle: MergeFieldImageDimension
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.MergeFieldImageDimension classe. Représente une dimension dimage cestàdire la largeur ou la hauteur utilisée dans un processus de publipostage en C#.
+description: Découvrez la classe Aspose.Words.Fields.MergeFieldImageDimension pour un dimensionnement précis des images lors des publipostages. Optimisez l'automatisation de vos documents dès aujourd'hui !
 type: docs
-weight: 2750
+weight: 3160
 url: /fr/net/aspose.words.fields/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension class
 
 Représente une dimension d'image (c'est-à-dire la largeur ou la hauteur) utilisée dans un processus de publipostage.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class MergeFieldImageDimension
@@ -34,23 +34,23 @@ public class MergeFieldImageDimension
 
 ## Remarques
 
-Pour indiquer que l'image doit être insérée avec sa dimension d'origine lors d'un publipostage, vous devez attribuer une valeur négative au[`Value`](./value/) propriété.
+Pour indiquer que l'image doit être insérée avec sa dimension d'origine lors d'un publipostage, vous devez attribuer une valeur négative à la[`Value`](./value/) propriété.
 
 ## Exemples
 
-Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Insère un MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utilisez le code de champ pour référencer
-    // une colonne dans la source de données contenant les noms de fichiers du système local des images que nous souhaitons utiliser dans le publipostage.
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La source de données doit avoir une telle colonne nommée "ImageColumn".
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Créez une source de données appropriée.
@@ -69,7 +69,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -95,6 +95,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

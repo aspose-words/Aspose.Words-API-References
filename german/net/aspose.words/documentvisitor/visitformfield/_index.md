@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFormField
 linktitle: VisitFormField
 articleTitle: VisitFormField
 second_title: Aspose.Words für .NET
-description: DocumentVisitor VisitFormField methode. Wird aufgerufen wenn im Dokument ein Formularfeld gefunden wird in C#.
+description: Entdecken Sie die DocumentVisitor VisitFormField-Methode, die ausgelöst wird, wenn ein Formularfeld in Ihrem Dokument erkannt wird. Optimieren Sie noch heute Ihre Dokumentenverarbeitung!
 type: docs
 weight: 230
 url: /de/net/aspose.words/documentvisitor/visitformfield/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitFormField(FormField formField)
 
 ### Rückgabewert
 
-A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Enumeration fortgesetzt werden soll.
+A[`VisitorAction`](../../visitoraction/) Wert, der angibt, wie die Aufzählung fortgesetzt werden soll.
 
 ## Beispiele
 
@@ -34,8 +34,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können:
-    // was es ihm ermöglicht, den akzeptierenden Knoten zu besuchen und dann seine untergeordneten Knoten in einer Tiefen-zuerst-Methode zu durchlaufen.
+    // Unten sind drei Arten von Feldern aufgeführt, die einen Dokumentbesucher akzeptieren können.
+    // Dadurch kann es den akzeptierenden Knoten besuchen und dann seine untergeordneten Knoten in einer Tiefensuche durchlaufen.
     // 1 - Absatzknoten:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -100,7 +100,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein Paragraph-Knoten gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Absatzknoten gefunden wird.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -166,10 +166,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn im Dokument ein SpecialCharacter gefunden wird.
+    /// Wird aufgerufen, wenn im Dokument ein Sonderzeichen gefunden wird.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -177,16 +179,16 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Tabellenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
         // Der Inhalt in Tabellenzellen kann das Flag für ausgeblendeten Inhalt haben, die Tabellen selbst jedoch nicht.
-        // Wenn diese Tabelle nur versteckten Inhalt hätte, hätte dieser Besucher alles entfernt,
-        // und es gäbe keine untergeordneten Knoten mehr.
-        // Somit können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
+        // Wenn diese Tabelle nur versteckte Inhalte hätte, hätte dieser Besucher alles entfernt.
+        // und es wären keine untergeordneten Knoten übrig.
+        // Daher können wir auch die Tabelle selbst als versteckten Inhalt behandeln und entfernen.
         // Tabellen, die leer sind, aber keinen versteckten Inhalt haben, enthalten Zellen mit leeren Absätzen.
-        // was dieser Besucher nicht entfernen wird.
+        // die dieser Besucher nicht entfernen wird.
         if (!table.HasChildNodes)
             table.Remove();
 
@@ -194,7 +196,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zellknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -205,7 +207,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Zeilenknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

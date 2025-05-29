@@ -3,14 +3,14 @@ title: MailMerge.MergeWholeDocument
 linktitle: MergeWholeDocument
 articleTitle: MergeWholeDocument
 second_title: Aspose.Words för .NET
-description: MailMerge MergeWholeDocument fast egendom. Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet uppdateras under körning av en sammankoppling med regioner i C#.
+description: Upptäck hur egenskapen MailMerge MergeWholeDocument uppdaterar alla fält under en regionsbaserad dokumentkoppling, vilket förbättrar effektiviteten och noggrannheten i dina dokument.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.mailmerging/mailmerge/mergewholedocument/
 ---
 ## MailMerge.MergeWholeDocument property
 
-Hämtar eller ställer in ett värde som indikerar om fält i hela dokumentet uppdateras under körning av en sammankoppling med regioner.
+Hämtar eller anger ett värde som anger om fält i hela dokumentet uppdateras när en dokumentkoppling med regioner utförs.
 
 ```csharp
 public bool MergeWholeDocument { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet är`falsk` .
 
 ## Exempel
 
-Visar förhållandet mellan e-postsammanslagningar med regioner och fältuppdatering.
+Visar sambandet mellan dokumentkopplingar med regioner och fältuppdatering.
 
 ```csharp
 public void MergeWholeDocument(bool mergeWholeDocument)
@@ -30,15 +30,15 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     Document doc = CreateSourceDocMergeWholeDocument();
     DataTable dataTable = CreateSourceTableMergeWholeDocument();
 
-    // Om vi sätter "MergeWholeDocument"-flaggan till "true",
-    // sammanslagningen med regioner kommer att uppdatera alla fält i dokumentet.
-    // Om vi ställer in "MergeWholeDocument"-flaggan till "false", kommer e-postkopplingen endast att uppdatera fält
-    // inom kopplingsområdet vars namn matchar namnet på datakälltabellen.
+    // Om vi ställer in flaggan "MergeWholeDocument" till "sant",
+    // dokumentkopplingen med regioner kommer att uppdatera alla fält i dokumentet.
+    // Om vi ställer in flaggan "MergeWholeDocument" till "false" kommer dokumentkopplingen bara att uppdatera fält
+    // inom den kopplingsregion vars namn matchar namnet på datakällstabellen.
     doc.MailMerge.MergeWholeDocument = mergeWholeDocument;
     doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Brevkopplingen kommer endast att uppdatera fältet CITAT utanför kopplingsområdet
-    // om vi sätter "MergeWholeDocument"-flaggan till "true".
+    // Koppla dokument uppdaterar endast fältet CITAT utanför kopplingsområdet
+    // om vi sätter flaggan "MergeWholeDocument" till "true".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
     Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
@@ -47,8 +47,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
 }
 
 /// <summary>
-/// Skapa ett dokument med en kopplingsregion som tillhör en datakälla som heter "MyTable".
-/// Infoga ett CITAT-fält i denna region och ytterligare ett utanför det.
+/// Skapa ett dokument med en region för dokumentkoppling som tillhör en datakälla med namnet "Min tabell".
+/// Infoga ett QUOTE-fält inuti den här regionen och ett till utanför den.
 /// </summary>
 private static Document CreateSourceDocMergeWholeDocument()
 {
@@ -72,7 +72,7 @@ private static Document CreateSourceDocMergeWholeDocument()
 }
 
 /// <summary>
-/// Skapa en datatabell som kommer att användas i en sammanslagning.
+/// Skapa en datatabell som ska användas i en dokumentkoppling.
 /// </summary>
 private static DataTable CreateSourceTableMergeWholeDocument()
 {

@@ -2,10 +2,10 @@
 title: Bookmark Class
 linktitle: Bookmark
 articleTitle: Bookmark
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Bookmark 班级. 代表单个书签 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Bookmark 类，高效管理文档书签的解决方案。立即提升您的文档编辑体验！
 type: docs
-weight: 40
+weight: 230
 url: /zh/net/aspose.words/bookmark/
 ---
 ## Bookmark class
@@ -22,11 +22,11 @@ public class Bookmark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | 获取表示书签末尾的节点。 |
-| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | 获取表示书签开头的节点。 |
-| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | 获取与书签关联的表列范围第一列的从零开始的索引。 |
-| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | 返回`真的`如果此书签是表列书签. |
-| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | 获取与书签关联的表列范围的最后一列的从零开始的索引。 |
+| [BookmarkEnd](../../aspose.words/bookmark/bookmarkend/) { get; } | 获取代表书签结尾的节点。 |
+| [BookmarkStart](../../aspose.words/bookmark/bookmarkstart/) { get; } | 获取代表书签开始的节点。 |
+| [FirstColumn](../../aspose.words/bookmark/firstcolumn/) { get; } | 获取与书签关联的表格列范围的第一列从零开始的索引。 |
+| [IsColumn](../../aspose.words/bookmark/iscolumn/) { get; } | 返回`真的`如果此书签是表列书签。 |
+| [LastColumn](../../aspose.words/bookmark/lastcolumn/) { get; } | 获取与书签关联的表格列范围的最后一列的从零开始的索引。 |
 | [Name](../../aspose.words/bookmark/name/) { get; set; } | 获取或设置书签的名称。 |
 | [Text](../../aspose.words/bookmark/text/) { get; set; } | 获取或设置书签中包含的文本。 |
 
@@ -34,11 +34,11 @@ public class Bookmark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Remove](../../aspose.words/bookmark/remove/)() | 从文档中删除书签。不删除书签内的文本。 |
+| [Remove](../../aspose.words/bookmark/remove/)() | 从文档中删除书签。不会删除书签内的文本。 |
 
 ## 评论
 
-`Bookmark`是一个封装了两个节点的“facade”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
+`Bookmark`是一个封装两个节点的“外观”对象[`BookmarkStart`](./bookmarkstart/) 和[`BookmarkEnd`](./bookmarkend/)在文档树中，并允许将书签作为单个对象使用。
 
 ## 例子
 
@@ -56,7 +56,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

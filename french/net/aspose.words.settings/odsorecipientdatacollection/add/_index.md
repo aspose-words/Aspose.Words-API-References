@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words pour .NET
-description: OdsoRecipientDataCollection Add méthode. Ajoute un objet à la fin de cette collection en C#.
+description: Améliorez sans effort votre gestion des données avec la méthode OdsoRecipientDataCollection Add : ajoutez rapidement des objets pour rationaliser votre processus de collecte.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/add/
@@ -18,7 +18,7 @@ public int Add(OdsoRecipientData value)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| value | OdsoRecipientData | L'objet à ajouter. C'est pas possible`nul`. |
+| value | OdsoRecipientData | L'objet à ajouter. Impossible`nul`. |
 
 ## Exemples
 
@@ -47,7 +47,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

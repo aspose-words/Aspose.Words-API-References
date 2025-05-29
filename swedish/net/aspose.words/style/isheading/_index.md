@@ -3,7 +3,7 @@ title: Style.IsHeading
 linktitle: IsHeading
 articleTitle: IsHeading
 second_title: Aspose.Words för .NET
-description: Style IsHeading fast egendom. Sant när stilen är en av de inbyggda rubrikstilarna i C#.
+description: Upptäck egenskapen IsHeading. Identifiera enkelt om en stil är en inbyggd rubrikstil, vilket förbättrar dokumentets struktur och läsbarhet.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/style/isheading/
@@ -18,7 +18,7 @@ public bool IsHeading { get; }
 
 ## Exempel
 
-Visar hur du kommer åt ett dokuments stilsamling.
+Visar hur man kommer åt ett dokuments stilsamling.
 
 ```csharp
 Document doc = new Document();

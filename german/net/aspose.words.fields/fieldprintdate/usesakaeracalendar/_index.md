@@ -3,7 +3,7 @@ title: FieldPrintDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words für .NET
-description: FieldPrintDate UseSakaEraCalendar eigendom. Ruft ab oder legt fest ob der SakaÄraKalender verwendet werden soll in C#.
+description: Verwalten Sie Ihre Termine mühelos mit der Saka-Ära-Kalenderfunktion von FieldPrintDate. Einfaches Umschalten für nahtlose Integration und verbesserte Benutzererfahrung.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldprintdate/usesakaeracalendar/
@@ -23,15 +23,15 @@ Zeigt gelesene PRINTDATE-Felder an.
 ```csharp
 Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 
-// Wenn ein Dokument von einem Drucker gedruckt oder als PDF gedruckt (aber nicht als PDF exportiert) wird,
-// PRINTDATE-Felder zeigen Datum und Uhrzeit des Druckvorgangs an.
-// Wenn kein Ausdruck stattgefunden hat, wird in diesen Feldern „0/0/0000“ angezeigt.
+// Wenn ein Dokument von einem Drucker gedruckt oder als PDF gedruckt wird (aber nicht als PDF exportiert wird),
+// Die PRINTDATE-Felder zeigen Datum und Uhrzeit des Druckvorgangs an.
+// Wenn kein Druckvorgang stattgefunden hat, wird in diesen Feldern „0/0/0000“ angezeigt.
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
 Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
 Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
 
-// Unten sind drei verschiedene Kalendertypen aufgeführt, entsprechend dem PRINTDATE-Feld
+// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, je nachdem, ob das Feld PRINTDATE
 // kann Datum und Uhrzeit des letzten Druckvorgangs anzeigen.
 // 1 - Islamischer Mondkalender:
 field = (FieldPrintDate)doc.Range.Fields[1];

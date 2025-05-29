@@ -2,15 +2,15 @@
 title: FileFormatUtil.ContentTypeToLoadFormat
 linktitle: ContentTypeToLoadFormat
 articleTitle: ContentTypeToLoadFormat
-second_title: Aspose.Words for .NET
-description: FileFormatUtil ContentTypeToLoadFormat yöntem. IANA içerik türünü yükleme biçiminde numaralandırılmış bir değere dönüştürür C#'da.
+second_title: .NET için Aspose.Words
+description: IANA içerik türlerini FileFormatUtil ContentTypeToLoadFormat metoduyla zahmetsizce yükleme biçimi değerlerine dönüştürün. Dosya işlemenizi bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/fileformatutil/contenttypetoloadformat/
 ---
 ## FileFormatUtil.ContentTypeToLoadFormat method
 
-IANA içerik türünü, yükleme biçiminde numaralandırılmış bir değere dönüştürür.
+IANA içerik türünü yükleme biçiminde numaralandırılmış bir değere dönüştürür.
 
 ```csharp
 public static LoadFormat ContentTypeToLoadFormat(string contentType)
@@ -24,19 +24,19 @@ public static LoadFormat ContentTypeToLoadFormat(string contentType)
 
 ## Örnekler
 
-Her ortam türü dizesinden karşılık gelen Aspose yükleme/kaydetme formatının nasıl bulunacağını gösterir.
+Her medya türü dizesinden karşılık gelen Aspose yükleme/kaydetme biçiminin nasıl bulunacağını gösterir.
 
 ```csharp
- // ContentTypeToSaveFormat/ContentTypeToLoadFormat yöntemleri yalnızca MIME türleri olarak da bilinen resmi IANA ortam türü adlarını kabul eder.
-// Geçerli tüm medya türleri burada listelenmiştir: https://www.iana.org/questments/media-types/media-types.xhtml.
+ // ContentTypeToSaveFormat/ContentTypeToLoadFormat yöntemleri yalnızca resmi IANA medya türü adlarını, yani MIME türlerini kabul eder.
+// Tüm geçerli medya türleri burada listelenmiştir: https://www.iana.org/assignments/media-types/media-types.xhtml.
 
-// SaveFormat'ı kısmi ortam türü dizesiyle ilişkilendirmeye çalışmak işe yaramaz.
+// SaveFormat'ı kısmi bir medya türü dizesiyle ilişkilendirmeye çalışmak işe yaramayacaktır.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("jpeg"));
 
-// Aspose.Words'te içerik türüne karşılık gelen bir kaydetme/yükleme formatı yoksa bir istisna da oluşturulacaktır.
+// Eğer Aspose.Words'ün bir içerik türü için karşılık gelen bir kaydetme/yükleme biçimi yoksa, bir istisna da atılacaktır.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("application/zip"));
 
-// Aşağıda listelenen türlerdeki dosyalar kaydedilebilir ancak Aspose.Words kullanılarak yüklenemez.
+// Aşağıda listelenen türdeki dosyalar kaydedilebilir, ancak Aspose.Words kullanılarak yüklenemez.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
 Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Kaydedilebilen ve yüklenebilen dosya türleri için, bir ortam türünü hem yükleme biçimi hem de kaydetme biçimiyle eşleştirebiliriz.
+// Kaydedilebilen ve yüklenebilen dosya türleri için, bir medya türünü hem yükleme biçimine hem de kaydetme biçimine eşleştirebiliriz.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

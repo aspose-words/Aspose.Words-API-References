@@ -3,14 +3,14 @@ title: ToaCategories.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: ToaCategories Item ملكية. الحصول على عنوان الفئة أو تعيينه حسب رقم الفئة في C#.
+description: أدر عناصر ToaCategories بسهولة. حدّد عناوين الفئات واسترجاعها بسهولة حسب الرقم، مما يُسهّل التنظيم ويزيد من الكفاءة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/toacategories/item/
 ---
 ## ToaCategories indexer
 
-الحصول على عنوان الفئة أو تعيينه حسب رقم الفئة.
+يحصل على عنوان الفئة أو يعينه حسب رقم الفئة.
 
 ```csharp
 public string this[int number] { get; set; }
@@ -28,28 +28,28 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
-// تأتي مجموعة الفئات هذه بقيم افتراضية، والتي يمكننا استبدالها بقيم مخصصة.
+//تأتي هذه المجموعة من الفئات بقيم افتراضية، والتي يمكننا استبدالها بقيم مخصصة.
 Assert.AreEqual("Cases", toaCategories[1]);
 Assert.AreEqual("Statutes", toaCategories[2]);
 
 toaCategories[1] = "My Category 1";
 toaCategories[2] = "My Category 2";
 
-// يمكننا دائمًا الوصول إلى القيم الافتراضية عبر هذه المجموعة.
+//يمكننا دائمًا الوصول إلى القيم الافتراضية عبر هذه المجموعة.
 Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
 Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 
-// أدخل حقلين TOA. تقوم حقول TOA بإنشاء إدخال لكل حقل TA في المستند.
+// إدراج حقلين TOA. تقوم حقول TOA بإنشاء إدخال لكل حقل TA في المستند.
 // استخدم المفتاح "\c" لتحديد فهرس الفئة من مجموعتنا.
-// باستخدام رمز التبديل هذا، سيلتقط حقل TOA فقط الإدخالات من حقول TA التي
-// يحتوي أيضًا على مفتاح "\c" مع فهرس فئة مطابق. سيتم أيضًا عرض كل حقل TOA
-// اسم الفئة التي يشير إليها المفتاح "\c".
+// باستخدام هذا التبديل، سوف يلتقط حقل TOA فقط الإدخالات من حقول TA التي
+// يوجد أيضًا مفتاح "\c" مع فهرس فئة مطابق. سيعرض كل حقل TOA أيضًا
+// اسم الفئة التي يشير إليها مفتاح "\c".
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
-// أدخل إدخالات TOA عبر فئتين. سيتلقى حقل TOA الأول الخاص بنا إدخالاً واحدًا،
-// من حقل TA الثاني الذي يشير مفتاح التبديل "\c" الخاص به أيضًا إلى الفئة الأولى.
+// أدخل إدخالات TOA في فئتين. سيستقبل حقل TOA الأول إدخالاً واحدًا،
+// من حقل TA الثاني الذي يشير مفتاحه "\c" أيضًا إلى الفئة الأولى.
 // سيحتوي حقل TOA الثاني على إدخالين من حقلي TA الآخرين.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);

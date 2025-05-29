@@ -3,7 +3,7 @@ title: ChartXValue.MultilevelValue
 linktitle: MultilevelValue
 articleTitle: MultilevelValue
 second_title: Aspose.Words für .NET
-description: ChartXValue MultilevelValue eigendom. Ruft den gespeicherten mehrstufigen Wert ab in C#.
+description: Entdecken Sie die MultilevelValue-Eigenschaft von ChartXValue für einfachen Zugriff auf gespeicherte Multilevel-Daten. Gewinnen Sie Erkenntnisse und verbessern Sie Ihre Datenanalyse noch heute!
 type: docs
 weight: 80
 url: /de/net/aspose.words.drawing.charts/chartxvalue/multilevelvalue/

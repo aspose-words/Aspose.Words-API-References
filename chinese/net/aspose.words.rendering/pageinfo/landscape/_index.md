@@ -2,8 +2,8 @@
 title: PageInfo.Landscape
 linktitle: Landscape
 articleTitle: Landscape
-second_title: 用于 .NET 的 Aspose.Words
-description: PageInfo Landscape 财产. 返回真的如果文档中为此页面指定的页面方向是横向 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 PageInfo 检查文档的页面方向是否为横向。确保布局最佳，以获得出色的演示文稿和打印效果。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.rendering/pageinfo/landscape/
@@ -18,13 +18,13 @@ public bool Landscape { get; }
 
 ## 例子
 
-演示如何打印 Word 文档中每个页面的页面大小和方向信息。
+展示如何打印 Word 文档中每一页的页面大小和方向信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// 第一部分有 2 页。我们将为每台打印机分配一个不同的打印机纸盘，
-// 其编号将与一种纸张来源相匹配。这些来源及其种类会有所不同
+// 第一部分有两页。我们将为每页分配不同的打印机纸盘，
+// 其编号将与一种纸张来源匹配。这些来源及其种类会有所不同
 // 取决于安装的打印机驱动程序。
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,7 +38,7 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // 每个页面都有一个 PageInfo 对象，其索引是相应页面的编号。
+    // 每个页面都有一个PageInfo对象，其索引是相应页面的编号。
     PageInfo pageInfo = doc.GetPageInfo(i);
 
     // 打印页面的方向和尺寸。
@@ -55,7 +55,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-演示如何自定义 Aspose.Words 文档的打印。
+展示如何自定义 Aspose.Words 文档的打印。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -69,7 +69,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// 打印时选择适当的纸张尺寸、方向和纸盘。
+/// 打印时选择合适的纸张尺寸、方向和纸盘。
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -101,36 +101,36 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// 在打印每页之前调用。
+     /// 在打印每一页之前调用。
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
-         // 单个 Microsoft Word 文档可以有多个部分，指定不同大小的页面，
-         // 方向和纸盘。 .NET 打印框架之前调用此代码
-        // 每一页都会被打印，这让我们有机会指定如何打印当前页面。
+         // 单个 Microsoft Word 文档可以有多个部分，每个部分指定不同大小的页面，
+         // 方向和纸盘。.NET 打印框架在
+        // 打印每一页，这使我们有机会指定如何打印当前页面。
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
-        // Microsoft Word 将每个部分的纸张来源（打印机托盘）存储为打印机特定值。
-        // 要获取正确的纸盘值，您需要使用打印机应返回的“RawKind”属性。
+        // Microsoft Word 将每个部分的纸张来源（打印机纸盘）存储为特定于打印机的值。
+        // 要获得正确的托盘值，您将需要使用打印机应返回的“RawKind”属性。
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// 调用每个页面来渲染它以进行打印。
+     /// 调用每个页面来呈现它以供打印。
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // Aspose.Words 渲染引擎创建一个从纸张原点 (x = 0, y = 0) 绘制的页面。
-        // 打印机中会有一个硬边距，它将渲染每一页。我们需要用硬利润来抵消。
+        // Aspose.Words 渲染引擎创建从纸张原点（x = 0, y = 0）绘制的页面。
+        // 打印机会有一个硬边距，用于渲染每一页。我们需要根据该硬边距进行偏移。
         float hardOffsetX, hardOffsetY;
 
-        // 下面是设置硬边距的两种方法。
+        // 以下是两种设置硬边距的方法。
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
             // 1 - 通过“PageSettings”属性。

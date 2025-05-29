@@ -3,16 +3,16 @@ title: MappedDataFieldCollection Class
 linktitle: MappedDataFieldCollection
 articleTitle: MappedDataFieldCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection klas. Ermöglicht die automatische Zuordnung zwischen Namen von Feldern in Ihrer Datenquelle und Namen von Serienbrieffeldern im Dokument in C#.
+description: Entdecken Sie Aspose.Words.MailMerging.MappedDataFieldCollection für die nahtlose Zuordnung von Datenquellenfeldern zu Serienbrieffeldern und verbessern Sie so die Dokumentautomatisierung.
 type: docs
-weight: 3870
+weight: 4560
 url: /de/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-Ermöglicht die automatische Zuordnung zwischen Namen von Feldern in Ihrer Datenquelle und Namen von Serienbrieffeldern im Dokument.
+Ermöglicht die automatische Zuordnung zwischen Feldnamen in Ihrer Datenquelle und Namen von Seriendruckfeldern im Dokument.
 
-Um mehr zu erfahren, besuchen Sie die[Serienbrief und Berichterstellung](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Serienbriefe und Berichte](https://docs.aspose.com/words/net/mail-merge-and-reporting/) Dokumentationsartikel.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -23,7 +23,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Ruft die Anzahl der in der Sammlung enthaltenen Elemente ab. |
-| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Ruft den Namen des Felds in der Datenquelle ab, die dem angegebenen Serienbrieffeld zugeordnet ist, oder legt diesen fest. |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Ruft den Namen des Felds in der Datenquelle ab, das mit dem angegebenen Seriendruckfeld verknüpft ist, oder legt diesen fest. |
 
 ## Methoden
 
@@ -31,9 +31,9 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | --- | --- |
 | [Add](../../aspose.words.mailmerging/mappeddatafieldcollection/add/)(*string, string*) | Fügt eine neue Feldzuordnung hinzu. |
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Entfernt alle Elemente aus der Sammlung. |
-| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld im Dokument in der Sammlung vorhanden ist. |
-| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Bestimmt, ob eine Zuordnung aus dem angegebenen Feld in der Datenquelle in der Sammlung vorhanden ist. |
-| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Gibt ein Wörterbuch-Enumeratorobjekt zurück, das zum Durchlaufen aller Elemente in der Sammlung verwendet werden kann. |
+| [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Bestimmt, ob eine Zuordnung des angegebenen Felds im Dokument in der Sammlung vorhanden ist. |
+| [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Bestimmt, ob eine Zuordnung vom angegebenen Feld in der Datenquelle in der Sammlung vorhanden ist. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Gibt ein Wörterbuch-Enumeratorobjekt zurück, mit dem alle Elemente in der Sammlung durchlaufen werden können. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Entfernt eine Feldzuordnung. |
 
 ## Bemerkungen
@@ -42,7 +42,7 @@ Dies wird als Sammlung von Zeichenfolgenschlüsseln in Zeichenfolgenwerte implem
 
 ## Beispiele
 
-Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, damit die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
+Zeigt, wie Datenspalten und MERGEFIELDs mit unterschiedlichen Namen zugeordnet werden, sodass die Daten während eines Seriendrucks zwischen ihnen übertragen werden.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -51,12 +51,12 @@ public void MappedDataFieldCollection()
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
     // Die Tabelle hat eine Spalte mit dem Namen „Column2“, aber es gibt keine MERGEFIELDs mit diesem Namen.
-    // Außerdem haben wir ein MERGEFIELD namens „Column3“, aber die Datenquelle hat keine Spalte mit diesem Namen.
-    // Wenn Daten aus „Spalte2“ für das MERGEFIELD „Spalte3“ geeignet sind,
-    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel/Wert-Paar „MappedDataFields“ zuordnen.
+    // Außerdem haben wir ein MERGEFIELD mit dem Namen „Column3“, aber die Datenquelle hat keine Spalte mit diesem Namen.
+    // Wenn Daten aus "Column2" für das MERGEFIELD "Column3" geeignet sind,
+    // Wir können diesen Spaltennamen dem MERGEFIELD im Schlüssel-/Wertpaar „MappedDataFields“ zuordnen.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Wir können den Namen einer Datenquellenspalte wie folgt mit einem MERGEFIELD-Namen verknüpfen.
+    // Wir können einen Datenquellenspaltennamen wie folgt mit einem MERGEFIELD-Namen verknüpfen.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
     // Verknüpfen Sie die Datenquellenspalte mit dem Namen „Column2“ mit MERGEFIELDs mit dem Namen „Column3“.
@@ -67,7 +67,7 @@ public void MappedDataFieldCollection()
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Wenn wir nun diesen Serienbrief ausführen, übernehmen die MERGEFIELDs „Spalte3“ Daten aus „Spalte2“ der Tabelle.
+    // Wenn wir jetzt diesen Seriendruck ausführen, übernehmen die MERGEFIELDs „Spalte3“ Daten aus „Spalte2“ der Tabelle.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
@@ -92,7 +92,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Erstellen Sie ein Dokument mit 2 MERGEFIELDs, von denen eines kein hat
+/// Erstellen Sie ein Dokument mit 2 MERGEFIELDs, von denen eines kein
 /// entsprechende Spalte in der Datentabelle aus der folgenden Methode.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -108,7 +108,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Erstellen Sie eine Datentabelle mit 2 Spalten, von denen eine keine hat
+/// Erstellen Sie eine Datentabelle mit 2 Spalten, von denen eine keine
 /// entsprechendes MERGEFIELD im Quelldokument aus der obigen Methode.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

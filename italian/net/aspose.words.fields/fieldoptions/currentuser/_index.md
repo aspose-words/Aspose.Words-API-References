@@ -3,14 +3,14 @@ title: FieldOptions.CurrentUser
 linktitle: CurrentUser
 articleTitle: CurrentUser
 second_title: Aspose.Words per .NET
-description: FieldOptions CurrentUser proprietà. Ottiene o imposta le informazioni sullutente corrente in C#.
+description: Scopri la proprietà CurrentUser di FieldOptions per gestire e personalizzare senza sforzo le informazioni utente, per ottenere funzionalità ottimizzate nelle tue applicazioni.
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldoptions/currentuser/
 ---
 ## FieldOptions.CurrentUser property
 
-Ottiene o imposta le informazioni sull'utente corrente.
+Ottiene o imposta le informazioni correnti dell'utente.
 
 ```csharp
 public UserInformation CurrentUser { get; set; }
@@ -24,7 +24,7 @@ Mostra come impostare i dettagli dell'utente e visualizzarli utilizzando i campi
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Crea un oggetto UserInformation e impostalo come origine dati per i campi che visualizzano le informazioni sull'utente.
+// Crea un oggetto UserInformation e impostalo come origine dati per i campi che visualizzano le informazioni utente.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -33,7 +33,7 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// Inserisci i campi USERNAME, USERINITIALS e USERADDRESS, che visualizzano i valori di
+// Inserire i campi USERNAME, USERINITIALS e USERADDRESS, che visualizzano i valori di
  // le rispettive proprietà dell'oggetto UserInformation che abbiamo creato sopra.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);

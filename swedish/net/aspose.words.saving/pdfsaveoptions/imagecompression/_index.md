@@ -3,7 +3,7 @@ title: PdfSaveOptions.ImageCompression
 linktitle: ImageCompression
 articleTitle: ImageCompression
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions ImageCompression fast egendom. Anger komprimeringstyp som ska användas för alla bilder i dokumentet i C#.
+description: Optimera din PDF med PdfSaveOptions ImageCompression-egenskap, så att du kan välja den bästa komprimeringstypen för livfulla bilder av hög kvalitet.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.saving/pdfsaveoptions/imagecompression/
@@ -20,11 +20,11 @@ public PdfImageCompression ImageCompression { get; set; }
 
 Standard ärAuto.
 
-Använder sig avJpeg låter dig kontrollera kvaliteten på bilderna i det utgående dokumentet genom[`JpegQuality`](../jpegquality/) fast egendom.
+AnvändningJpeg låter dig kontrollera kvaliteten på bilderna i utdatadokumentet genom[`JpegQuality`](../jpegquality/) egendom.
 
-Använder sig avJpeg ger den snabbaste omvandlingshastigheten jämfört med prestanda för andra komprimeringstyper, men i det här fallet finns det förlust av JPEG-komprimering.
+AnvändningJpeg ger den snabbaste konverteringshastigheten jämfört med prestandan för andra komprimeringstyper, men i det här fallet finns det förlustbringande JPEG-komprimering.
 
-Använder sig avAuto låter dig kontrollera kvaliteten på Jpeg i utdatadokumentet genom[`JpegQuality`](../jpegquality/)property, men för andra format extraheras rå pixeldata och sparas med Flate-komprimering. Det här fallet är långsammare än Jpeg-konvertering men förlustfritt.
+AnvändningAuto låter oss kontrollera kvaliteten på JPEG i utdatadokumentet genom[`JpegQuality`](../jpegquality/)egenskap, men för andra format extraheras och sparas rå pixeldata med Flate-komprimering. Detta fall är långsammare än JPEG-konvertering men förlustfritt.
 
 ## Exempel
 
@@ -40,17 +40,15 @@ builder.InsertParagraph();
 builder.Writeln("Png image:");
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
-
 // Ställ in egenskapen "ImageCompression" till "PdfImageCompression.Auto" för att använda
-// Egenskapen "ImageCompression" för att kontrollera kvaliteten på Jpeg-bilderna som hamnar i utdata-PDF.
+// "ImageCompression"-egenskapen för att kontrollera kvaliteten på JPEG-bilderna som hamnar i PDF-filen.
 // Ställ in egenskapen "ImageCompression" till "PdfImageCompression.Jpeg" för att använda
-// Egenskapen "ImageCompression" för att kontrollera kvaliteten på alla bilder som hamnar i utdata-PDF.
+// "ImageCompression"-egenskapen för att kontrollera kvaliteten på alla bilder som hamnar i PDF-filen.
 pdfSaveOptions.ImageCompression = pdfImageCompression;
-
-// Ställ in egenskapen "JpegQuality" till "10" för att stärka komprimeringen till priset av bildkvalitet.
+// Sätt egenskapen "JpegQuality" till "10" för att förstärka komprimeringen på bekostnad av bildkvaliteten.
 pdfSaveOptions.JpegQuality = 10;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.ImageCompression.pdf", pdfSaveOptions);

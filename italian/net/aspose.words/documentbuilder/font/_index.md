@@ -3,7 +3,7 @@ title: DocumentBuilder.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words per .NET
-description: DocumentBuilder Font proprietà. Restituisce un oggetto che rappresenta le proprietà di formattazione del carattere corrente in C#.
+description: Esplora la proprietà Font di DocumentBuilder per accedere e personalizzare facilmente la formattazione del tuo font attuale. Migliora lo stile del tuo documento oggi stesso!
 type: docs
 weight: 100
 url: /it/net/aspose.words/documentbuilder/font/
@@ -61,7 +61,7 @@ builder.Font.Bold = true;
 
 // La configurazione delle opzioni di formattazione in un generatore di documenti le applicherà
 // alla cella/riga corrente in cui si trova il cursore,
-// così come qualsiasi nuova cella e riga creata utilizzando quel builder.
+// nonché tutte le nuove celle e righe create utilizzando quel generatore.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -69,8 +69,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Riconfigura gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
-// Il builder non li applicherà alla prima riga già creata in modo che risalti come riga di intestazione.
+// Riconfiguriamo gli oggetti di formattazione del builder per le nuove righe e celle che stiamo per creare.
+// Il builder non applicherà queste modifiche alla prima riga già creata, in modo che questa risalti come riga di intestazione.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

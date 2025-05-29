@@ -3,9 +3,9 @@ title: ShapeBase.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words för .NET
-description: ShapeBase RelativeVerticalPosition fast egendom. Anger i förhållande till vad formen är placerad vertikalt i C#.
+description: Upptäck egenskapen ShapeBase RelativeVerticalPosition för att förbättra den vertikala justeringen av former och säkerställa exakt layoutkontroll i dina designer.
 type: docs
-weight: 440
+weight: 470
 url: /sv/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
@@ -20,7 +20,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 Standardvärdet ärParagraph.
 
-Har effekt endast för svävande former på toppnivå.
+Har endast effekt för flytande former på översta nivån.
 
 ## Exempel
 
@@ -30,7 +30,7 @@ Visar hur man infogar en flytande bild i mitten av en sida.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en flytande bild som kommer att visas bakom den överlappande texten och justera den mot sidans mitt.
+// Infoga en flytande bild som visas bakom den överlappande texten och justera den mot sidans mitt.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

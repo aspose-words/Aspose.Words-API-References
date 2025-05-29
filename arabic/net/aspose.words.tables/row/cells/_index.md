@@ -3,7 +3,7 @@ title: Row.Cells
 linktitle: Cells
 articleTitle: Cells
 second_title: Aspose.Words لـ .NET
-description: Row Cells ملكية. يوفر الوصول المكتوب إلىCell العقد الفرعية للصف في C#.
+description: يمكنك الوصول إلى خلايا الصفوف بسهولة باستخدام عناصر التحكم المكتوبة لإدارة العقد الفرعية بسلاسة، مما يعزز تجربة معالجة البيانات لديك.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.tables/row/cells/
@@ -18,7 +18,7 @@ public CellCollection Cells { get; }
 
 ## أمثلة
 
-يوضح كيفية التكرار عبر كافة الجداول في المستند وطباعة محتويات كل خلية.
+يوضح كيفية تكرار جميع الجداول في المستند وطباعة محتويات كل خلية.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -32,7 +32,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // يمكننا استخدام طريقة "ToArray" في مجموعة صفوف لاستنساخها في مصفوفة.
+    // يمكننا استخدام طريقة "ToArray" على مجموعة صفوف لاستنساخها في مصفوفة.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -42,7 +42,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // يمكننا استخدام طريقة "ToArray" في مجموعة خلايا لاستنساخها في مصفوفة.
+        // يمكننا استخدام طريقة "ToArray" على مجموعة خلايا لاستنساخها في مصفوفة.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

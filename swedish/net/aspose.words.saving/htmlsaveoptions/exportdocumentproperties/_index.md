@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportDocumentProperties
 linktitle: ExportDocumentProperties
 articleTitle: ExportDocumentProperties
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportDocumentProperties fast egendom. Anger om inbyggda och anpassade dokumentegenskaper ska exporteras till HTML MHTML eller EPUB. Standardvärdet ärfalsk  i C#.
+description: Upptäck hur HtmlSaveOptions ExportDocumentProperties förbättrar dina HTML-, MHTML- eller EPUB-exporter genom att inkludera viktiga inbyggda och anpassade dokumentegenskaper.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdocumentproperties/
@@ -18,7 +18,7 @@ public bool ExportDocumentProperties { get; set; }
 
 ## Exempel
 
-Visar hur du använder en specifik kodning när du sparar ett dokument i .epub.
+Visar hur man använder en specifik kodning när man sparar ett dokument till .epub.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -28,9 +28,9 @@ HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.SaveFormat = SaveFormat.Epub;
 saveOptions.Encoding = Encoding.UTF8;
 
-// Som standard kommer ett utdata .epub-dokument att ha allt innehåll i en HTML-del.
-// Ett delat kriterium tillåter oss att segmentera dokumentet i flera HTML-delar.
-// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubriker.
+// Som standard kommer ett .epub-dokument att ha allt innehåll i en HTML-del.
+// Ett delningskriterium låter oss segmentera dokumentet i flera HTML-delar.
+// Vi kommer att ställa in kriterierna för att dela upp dokumentet i rubrikstycken.
 // Detta är användbart för läsare som inte kan läsa HTML-filer som är större än en viss storlek.
 saveOptions.DocumentSplitCriteria = DocumentSplitCriteria.HeadingParagraph;
 

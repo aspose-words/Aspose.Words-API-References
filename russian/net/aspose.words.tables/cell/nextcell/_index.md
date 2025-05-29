@@ -3,7 +3,7 @@ title: Cell.NextCell
 linktitle: NextCell
 articleTitle: NextCell
 second_title: Aspose.Words для .NET
-description: Cell NextCell свойство. Получает следующийCell узел на С#.
+description: Откройте для себя свойство NextCell, чтобы легко получить доступ к следующему узлу Cell, улучшить управление данными и оптимизировать рабочий процесс.
 type: docs
 weight: 70
 url: /ru/net/aspose.words.tables/cell/nextcell/
@@ -18,7 +18,7 @@ public Cell NextCell { get; }
 
 ## Примечания
 
-Этот метод можно использовать, когда вам необходимо иметь типизированный доступ к ячейкам[`Row`](../../row/) . Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в строке, а не в ячейке, он автоматически проходится, чтобы получить ячейку, содержащуюся внутри.
+Метод можно использовать, когда вам необходимо иметь типизированный доступ к ячейкам[`Row`](../../row/) . Если a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) узел найден в строке, а не в ячейке, он автоматически проходится, чтобы получить ячейку, содержащуюся в.
 
 ## Примеры
 

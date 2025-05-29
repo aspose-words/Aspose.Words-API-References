@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words för .NET
-description: ReplacingArgs MatchOffset fast egendom. Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen i C#.
+description: Upptäck egenskapen ReplaceingArgs MatchOffset och hitta enkelt den nollbaserade startpositionen för matchningar i dina noder för effektiv datahantering.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Får den nollbaserade startpositionen för matchen från början av noden som innehåller början av matchningen.
+Hämtar matchningens nollbaserade startposition från början av noden som innehåller matchningens början.
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## Exempel
 
-Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
+Visar hur man använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill tillämpa på operationens resulterande text.
+    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill använda på operationens resulterande text.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,8 +51,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Ersätter numeriska sök-och-ersätt-matchningar med deras hexadecimala motsvarigheter.
-/// Upprätthåller en logg över varje ersättning.
+/// Ersätter numeriska sök-och-ersätt-träffar med deras hexadecimala motsvarigheter.
+/// För en logg över varje byte.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

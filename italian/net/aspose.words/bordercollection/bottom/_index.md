@@ -3,7 +3,7 @@ title: BorderCollection.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words per .NET
-description: BorderCollection Bottom proprietà. Ottiene il bordo inferiore in C#.
+description: Scopri la proprietà BorderCollection Bottom per accedere facilmente e personalizzare il bordo inferiore, per una maggiore flessibilità di progettazione e stile.
 type: docs
 weight: 10
 url: /it/net/aspose.words/bordercollection/bottom/
@@ -18,7 +18,7 @@ public Border Bottom { get; }
 
 ## Esempi
 
-Mostra come applicare il colore del bordo e dell'ombreggiatura durante la creazione di una tabella.
+Mostra come applicare i colori dei bordi e delle ombreggiature durante la creazione di una tabella.
 
 ```csharp
 Document doc = new Document();

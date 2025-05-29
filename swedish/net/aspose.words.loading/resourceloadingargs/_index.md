@@ -3,9 +3,9 @@ title: ResourceLoadingArgs Class
 linktitle: ResourceLoadingArgs
 articleTitle: ResourceLoadingArgs
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Loading.ResourceLoadingArgs klass. Tillhandahåller data förResourceLoading metod i C#.
+description: Upptäck klassen Aspose.Words.Loading.ResourceLoadingArgs, utformad för att förbättra resursinläsningseffektiviteten i dina applikationer. Lås upp sömlös integration idag!
 type: docs
-weight: 3690
+weight: 4150
 url: /sv/net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -20,15 +20,15 @@ public class ResourceLoadingArgs
 
 | namn | Beskrivning |
 | --- | --- |
-| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | Ursprunglig URI för resursen som anges i importerat dokument. |
+| [OriginalUri](../../aspose.words.loading/resourceloadingargs/originaluri/) { get; } | Ursprunglig URI för resursen enligt angivelse i det importerade dokumentet. |
 | [ResourceType](../../aspose.words.loading/resourceloadingargs/resourcetype/) { get; } | Typ av resurs. |
-| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI för resursen som används för nedladdning if[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returnerarDefault. |
+| [Uri](../../aspose.words.loading/resourceloadingargs/uri/) { get; set; } | URI för resursen som används för nedladdning av om[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returnerarDefault. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Anger data från användaren för resursen som används om[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returnerarUserProvided . |
+| [SetData](../../aspose.words.loading/resourceloadingargs/setdata/)(*byte[]*) | Ställer in användardefinierade data för resursen som används om[`ResourceLoading`](../iresourceloadingcallback/resourceloading/) returnerarUserProvided . |
 
 ## Exempel
 
@@ -42,8 +42,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Bilder infogas vanligtvis med en URI eller en byte-array.
-    // Varje instans av en resursladdning kommer att anropa vår callbacks ResourceLoading-metod.
+    // Bilder infogas vanligtvis med hjälp av en URI, eller en byte-array.
+    // Varje instans av en resursbelastning anropar vår återanropsmetod ResourceLoading.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -54,15 +54,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// Låter oss läsa in bilder i ett dokument med fördefinierade förkortningar, till skillnad från URI:er.
-/// Detta kommer att separera logik för bildladdning från resten av dokumentkonstruktionen.
+/// Låter oss ladda bilder i ett dokument med hjälp av fördefinierade förkortningar, till skillnad från URI:er.
+/// Detta kommer att separera bildinläsningslogiken från resten av dokumentkonstruktionen.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Om denna återuppringning stöter på en av bildens förkortningar när en bild laddas,
-        // det kommer att tillämpa unik logik för varje definierad stenografi istället för att behandla den som en URI.
+        // Om denna återanropning stöter på en av bildförkortningarna när en bild laddas,
+        // den kommer att tillämpa unik logik för varje definierad förkortning istället för att behandla den som en URI.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

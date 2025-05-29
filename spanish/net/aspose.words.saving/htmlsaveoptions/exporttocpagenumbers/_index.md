@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportTocPageNumbers
 linktitle: ExportTocPageNumbers
 articleTitle: ExportTocPageNumbers
 second_title: Aspose.Words para .NET
-description: HtmlSaveOptions ExportTocPageNumbers propiedad. Especifica si se escriben los números de página en la tabla de contenido al guardar HTML MHTML y EPUB. El valor predeterminado esFALSO  en C#.
+description: Controle los números de página de la tabla de contenidos en las exportaciones HTML, MHTML y EPUB con HtmlSaveOptions. ¡Mejore la navegación y la experiencia del usuario sin esfuerzo!
 type: docs
 weight: 270
 url: /es/net/aspose.words.saving/htmlsaveoptions/exporttocpagenumbers/
 ---
 ## HtmlSaveOptions.ExportTocPageNumbers property
 
-Especifica si se escriben los números de página en la tabla de contenido al guardar HTML, MHTML y EPUB. El valor predeterminado es`FALSO` .
+Especifica si se deben escribir números de página en la tabla de contenido al guardar HTML, MHTML y EPUB. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ExportTocPageNumbers { get; set; }
@@ -18,14 +18,14 @@ public bool ExportTocPageNumbers { get; set; }
 
 ## Ejemplos
 
-Muestra cómo mostrar los números de página al guardar un documento con una tabla de contenido en .html.
+Muestra cómo mostrar números de página al guardar un documento con una tabla de contenido en .html.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserta una tabla de contenido y luego completa el documento con párrafos formateados usando un "Encabezado"
-// estilo que la tabla de contenido recogerá como entradas. Cada entrada mostrará el párrafo de encabezado a la izquierda,
+// Inserte una tabla de contenido y luego complete el documento con párrafos formateados utilizando un "Encabezado"
+// estilo que la tabla de contenido adoptará como entradas. Cada entrada mostrará el párrafo de encabezado a la izquierda.
 // y el número de página que contiene el encabezado a la derecha.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
@@ -40,12 +40,12 @@ builder.Writeln("Entry 4");
 fieldToc.UpdatePageNumbers();
 doc.UpdateFields();
 
-// Los documentos HTML no tienen páginas. Si guardamos este documento en HTML,
-// los números de página que muestra nuestro TOC no tendrán significado.
-// Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions para omitir estos números de página del TOC.
-// Si configuramos el indicador "ExportTocPageNumbers" en "true",
+Los documentos HTML no tienen páginas. Si guardamos este documento como HTML,
+// los números de página que muestra nuestra tabla de contenidos no tendrán ningún significado.
+// Cuando guardamos el documento en HTML, podemos pasar un objeto SaveOptions para omitir estos números de página de la tabla de contenidos.
+// Si establecemos el indicador "ExportTocPageNumbers" en "verdadero",
 // cada entrada de TOC mostrará el encabezado, el separador y el número de página, conservando su apariencia en Microsoft Word.
-// Si configuramos el indicador "ExportTocPageNumbers" en "falso",
+// Si establecemos el indicador "ExportTocPageNumbers" en "falso",
 // la operación de guardar omitirá tanto el separador como el número de página y dejará intacto el encabezado de cada entrada.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportTocPageNumbers = exportTocPageNumbers };
 

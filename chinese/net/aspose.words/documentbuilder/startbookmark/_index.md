@@ -2,15 +2,15 @@
 title: DocumentBuilder.StartBookmark
 linktitle: StartBookmark
 articleTitle: StartBookmark
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentBuilder StartBookmark 方法. 将文档中的当前位置标记为书签开始 在 C#.
+second_title: Aspose.Words for .NET
+description: 利用 DocumentBuilder StartBookmark 方法轻松标记和管理文档中的关键位置，增强组织和导航。
 type: docs
-weight: 610
+weight: 650
 url: /zh/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
 
-将文档中的当前位置标记为书签开始。
+将文档中的当前位置标记为书签的起始位置。
 
 ```csharp
 public BookmarkStart StartBookmark(string bookmarkName)
@@ -26,19 +26,19 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 ## 评论
 
-文档中的书签可以重叠并跨越任何范围。要创建有效的书签，您需要 调用两者`StartBookmark`和[`EndBookmark`](../endbookmark/)与相同的*bookmarkName* 参数。
+文档中的书签可以重叠并跨越任意范围。要创建有效的书签，您需要同时调用`StartBookmark`和[`EndBookmark`](../endbookmark/)同样的*bookmarkName* 参数。
 
-保存文档时，格式错误的书签或名称重复的书签将被忽略。
+保存文档时，格式不正确的书签或名称重复的书签将被忽略。
 
 ## 例子
 
-展示如何创建书签。
+显示如何创建书签。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 有效的书签需要将文档正文文本括起来
+// 有效的书签需要包含文档正文
 // 使用匹配的书签名称创建的 BookmarkStart 和 BookmarkEnd 节点。
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
@@ -49,7 +49,7 @@ Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
 Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-演示如何插入引用本地书签的超链接。
+展示如何插入引用本地书签的超链接。
 
 ```csharp
 Document doc = new Document();
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// 插入链接到书签的 HYPERLINK 字段。我们可以通过现场开关
-// 作为包含引用书签名称的参数的一部分发送到“InsertHyperlink”方法。
+// 插入一个超链接字段，链接到书签。我们可以传递字段开关
+// 作为包含所引用书签名称的参数的一部分传递给“InsertHyperlink”方法。
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

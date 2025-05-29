@@ -2,15 +2,15 @@
 title: FindReplaceOptions.MatchCase
 linktitle: MatchCase
 articleTitle: MatchCase
-second_title: Aspose.Words for .NET
-description: FindReplaceOptions MatchCase mülk. True büyük/küçük harfe duyarlı karşılaştırmayı false ise büyük/küçük harfe duyarlı olmayan karşılaştırmayı belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: FindReplaceOptions'daki MatchCase özelliğini keşfedin, hassas metin düzenleme için büyük/küçük harfe duyarlı veya büyük/küçük harfe duyarsız karşılaştırmaları etkinleştirin. İş akışınızı optimize edin!
 type: docs
 weight: 140
 url: /tr/net/aspose.words.replacing/findreplaceoptions/matchcase/
 ---
 ## FindReplaceOptions.MatchCase property
 
-True büyük/küçük harfe duyarlı karşılaştırmayı, false ise büyük/küçük harfe duyarlı olmayan karşılaştırmayı belirtir.
+True, büyük/küçük harfe duyarlı karşılaştırmayı, false ise büyük/küçük harfe duyarsız karşılaştırmayı gösterir.
 
 ```csharp
 public bool MatchCase { get; set; }
@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Ruby bought a ruby necklace.");
 
-// Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+// Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Değiştirilecek dizeleri bulurken büyük/küçük harf duyarlılığını uygulamak için "MatchCase" bayrağını "true" olarak ayarlayın.
-// Değiştirilecek metni ararken karakter büyük/küçük harf durumunu dikkate almamak için "MatchCase" bayrağını "false" olarak ayarlayın.
+// Değiştirilecek metni ararken karakter büyük/küçük harf ayrımını göz ardı etmek için "MatchCase" bayrağını "false" olarak ayarlayın.
 options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);

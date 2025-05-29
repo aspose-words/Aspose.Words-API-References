@@ -2,15 +2,15 @@
 title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
-second_title: Aspose.Words for .NET
-description: MustacheTag ReferenceRun mülk. Etiketin başlangıcını içeren çalıştırmayı alır C#'da.
+second_title: .NET için Aspose.Words
+description: MustacheTag ReferenceRun'ı keşfedin. Sorunsuz veri yönetimi ve gelişmiş performans için etiketinizin başlangıcını işaretleyen çalışmaya erişin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.mailmerging/mustachetag/referencerun/
 ---
 ## MustacheTag.ReferenceRun property
 
-Etiketin başlangıcını içeren çalıştırmayı alır.
+Etiketin başlangıcını içeren çalışmayı alır.
 
 ```csharp
 public Run ReferenceRun { get; }
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## Örnekler
 
-Bıyık etiketleriyle nasıl çalışılacağını gösterir.
+Bıyık etiketlerinin nasıl kullanılacağını gösterir.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

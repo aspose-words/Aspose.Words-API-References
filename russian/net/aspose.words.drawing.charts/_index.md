@@ -3,12 +3,12 @@ title: Aspose.Words.Drawing.Charts
 linktitle: Aspose.Words.Drawing.Charts
 articleTitle: Aspose.Words.Drawing.Charts
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Drawing.Charts пространство имен предоставляет классы которые позволяют получать доступ к диаграммам в документах Microsoft Word на С#.
+description: Получайте доступ и управляйте диаграммами Microsoft Word без усилий с помощью Aspose.Words.Drawing.Charts. Улучшите свои документы с помощью мощных функций построения диаграмм уже сегодня!
 type: docs
-weight: 60
+weight: 80
 url: /ru/net/aspose.words.drawing.charts/
 ---
-**Aspose.Words.Drawing.Charts** пространство имен предоставляет классы, которые позволяют получать доступ к диаграммам в документах Microsoft Word.
+The**Aspose.Words.Drawing.Charts** Пространство имен предоставляет классы, позволяющие получать доступ к диаграммам в документах Microsoft Word.
 
 ## Классы
 
@@ -17,24 +17,28 @@ url: /ru/net/aspose.words.drawing.charts/
 | [AxisBound](./axisbound/) | Представляет минимальную или максимальную границу значений оси. |
 | [AxisDisplayUnit](./axisdisplayunit/) | Предоставляет доступ к параметрам масштабирования единиц отображения для оси значений. |
 | [AxisScaling](./axisscaling/) | Представляет параметры масштабирования оси. |
-| [BubbleSizeCollection](./bubblesizecollection/) | Представляет коллекцию размеров пузырьков для серии диаграмм. |
-| [Chart](./chart/) | Обеспечивает доступ к свойствам фигуры диаграммы. |
-| [ChartAxis](./chartaxis/) | Представляет параметры оси диаграммы. |
+| [AxisTickLabels](./axisticklabels/) | Представляет свойства меток делений оси. |
+| [BubbleSizeCollection](./bubblesizecollection/) | Представляет набор размеров пузырьков для серии диаграмм. |
+| [Chart](./chart/) | Предоставляет доступ к свойствам формы диаграммы. |
+| [ChartAxis](./chartaxis/) | Представляет параметры осей диаграммы. |
 | [ChartAxisCollection](./chartaxiscollection/) | Представляет коллекцию осей диаграммы. |
 | [ChartAxisTitle](./chartaxistitle/) | Предоставляет доступ к свойствам заголовка оси. |
 | [ChartDataLabel](./chartdatalabel/) | Представляет метку данных на точке диаграммы или линии тренда. |
-| [ChartDataLabelCollection](./chartdatalabelcollection/) | Представляет коллекцию[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
-| [ChartDataPoint](./chartdatapoint/) | Позволяет указать форматирование одной точки данных на диаграмме. |
-| [ChartDataPointCollection](./chartdatapointcollection/) | Представляет коллекцию[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
+| [ChartDataLabelCollection](./chartdatalabelcollection/) | Представляет собой коллекцию[`ChartDataLabel`](../aspose.words.drawing.charts/chartdatalabel/) . |
+| [ChartDataPoint](./chartdatapoint/) | Позволяет указать форматирование отдельной точки данных на диаграмме. |
+| [ChartDataPointCollection](./chartdatapointcollection/) | Представляет собой коллекцию[`ChartDataPoint`](../aspose.words.drawing.charts/chartdatapoint/) . |
+| [ChartDataTable](./chartdatatable/) | Позволяет указать свойства таблицы данных диаграммы. |
 | [ChartFormat](./chartformat/) | Представляет форматирование элемента диаграммы. |
 | [ChartLegend](./chartlegend/) | Представляет свойства легенды диаграммы. |
 | [ChartLegendEntry](./chartlegendentry/) | Представляет запись легенды диаграммы. |
-| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Представляет коллекцию записей легенды диаграммы. |
+| [ChartLegendEntryCollection](./chartlegendentrycollection/) | Представляет собой коллекцию записей легенды диаграммы. |
 | [ChartMarker](./chartmarker/) | Представляет маркер данных диаграммы. |
 | [ChartMultilevelValue](./chartmultilevelvalue/) | Представляет значение для диаграмм, отображающих многоуровневые данные. |
-| [ChartNumberFormat](./chartnumberformat/) | Представляет числовое форматирование родительского элемента. |
-| [ChartSeries](./chartseries/) | Представляет свойства серии диаграмм. |
-| [ChartSeriesCollection](./chartseriescollection/) | Представляет коллекцию[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
+| [ChartNumberFormat](./chartnumberformat/) | Представляет форматирование чисел родительского элемента. |
+| [ChartSeries](./chartseries/) | Представляет свойства ряда диаграмм. |
+| [ChartSeriesCollection](./chartseriescollection/) | Представляет собой коллекцию[`ChartSeries`](../aspose.words.drawing.charts/chartseries/) . |
+| [ChartSeriesGroup](./chartseriesgroup/) | Представляет свойства группы рядов диаграмм, то есть свойства рядов диаграмм одного типа , связанных с одними и теми же осями. |
+| [ChartSeriesGroupCollection](./chartseriesgroupcollection/) | Представляет собой коллекцию[`ChartSeriesGroup`](../aspose.words.drawing.charts/chartseriesgroup/) объекты. |
 | [ChartTitle](./charttitle/) | Предоставляет доступ к свойствам заголовка диаграммы. |
 | [ChartXValue](./chartxvalue/) | Представляет значение X для серии диаграмм. |
 | [ChartXValueCollection](./chartxvaluecollection/) | Представляет коллекцию значений X для серии диаграмм. |
@@ -49,18 +53,22 @@ url: /ru/net/aspose.words.drawing.charts/
 
 | перечисление | Описание |
 | --- | --- |
-| [AxisBuiltInUnit](./axisbuiltinunit/) | Определяет единицы отображения для оси. |
-| [AxisCategoryType](./axiscategorytype/) | Указывает тип оси категорий. |
+| [AxisBuiltInUnit](./axisbuiltinunit/) | Указывает единицы отображения для оси. |
+| [AxisCategoryType](./axiscategorytype/) | Указывает тип оси категории. |
 | [AxisCrosses](./axiscrosses/) | Указывает возможные точки пересечения оси. |
+| [AxisGroup](./axisgroup/) | Представляет тип группы осей диаграммы. |
 | [AxisScaleType](./axisscaletype/) | Указывает возможные типы масштаба для оси. |
-| [AxisTickLabelPosition](./axisticklabelposition/) | Указывает возможные позиции для меток деления. |
-| [AxisTickMark](./axistickmark/) | Указывает возможные положения делений. |
-| [AxisTimeUnit](./axistimeunit/) | Определяет единицу времени для осей. |
+| [AxisTickLabelPosition](./axisticklabelposition/) | Указывает возможные позиции для меток делений. |
+| [AxisTickMark](./axistickmark/) | Указывает возможные позиции для делений. |
+| [AxisTimeUnit](./axistimeunit/) | Указывает единицу времени для осей. |
 | [ChartAxisType](./chartaxistype/) | Указывает тип оси диаграммы. |
-| [ChartSeriesType](./chartseriestype/) | Указывает тип серии диаграмм. |
+| [ChartDataLabelLocationMode](./chartdatalabellocationmode/) | Указывает, как значения, указывающие местоположение метки данных -[`Left`](../aspose.words.drawing.charts/chartdatalabel/left/) и [`Top`](../aspose.words.drawing.charts/chartdatalabel/top/) свойства - интерпретируются. |
+| [ChartDataLabelPosition](./chartdatalabelposition/) | Указывает положение метки данных диаграммы. |
+| [ChartSeriesType](./chartseriestype/) | Указывает тип серии диаграммы. |
 | [ChartShapeType](./chartshapetype/) | Указывает тип формы элементов диаграммы. |
+| [ChartStyle](./chartstyle/) | Задает предопределенные стили диаграммы. |
 | [ChartType](./charttype/) | Указывает тип диаграммы. |
-| [ChartXValueType](./chartxvaluetype/) | Позволяет указать тип значения X серии диаграмм. |
-| [ChartYValueType](./chartyvaluetype/) | Позволяет указать тип значения Y серии диаграмм. |
-| [LegendPosition](./legendposition/) | Указывает возможные положения легенды диаграммы. |
-| [MarkerSymbol](./markersymbol/) | Определяет стиль символа маркера. |
+| [ChartXValueType](./chartxvaluetype/) | Позволяет указать тип значения X серии диаграммы. |
+| [ChartYValueType](./chartyvaluetype/) | Позволяет указать тип значения Y серии диаграммы. |
+| [LegendPosition](./legendposition/) | Указывает возможные позиции для легенды диаграммы. |
+| [MarkerSymbol](./markersymbol/) | Задает стиль символа маркера. |

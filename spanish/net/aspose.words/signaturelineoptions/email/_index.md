@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words para .NET
-description: SignatureLineOptions Email propiedad. Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad escuerda vacía Empty en C#.
+description: Gestione fácilmente las direcciones de correo electrónico sugeridas para firmantes con SignatureLineOptions. Optimice su flujo de trabajo de correo electrónico con opciones personalizables para una comunicación fluida.
 type: docs
 weight: 40
 url: /es/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Obtiene o establece la dirección de correo electrónico del firmante sugerida. El valor predeterminado para esta propiedad es**cuerda vacía** (Empty).
+Obtiene o establece la dirección de correo electrónico del firmante sugerido. El valor predeterminado para esta propiedad es**cadena vacía** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

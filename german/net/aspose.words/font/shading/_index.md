@@ -3,14 +3,14 @@ title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words für .NET
-description: Font Shading eigendom. Gibt a zurückShading Objekt das sich auf die Schattierungsformatierung für die Schriftart bezieht in C#.
+description: Entdecken Sie die Eigenschaft „Font Shading“, die ein Shading-Objekt für die anpassbare Schriftformatierung bereitstellt und so die visuelle Attraktivität Ihres Textes verbessert.
 type: docs
-weight: 320
+weight: 330
 url: /de/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Gibt a zurück[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für die Schriftart bezieht.
+Gibt einen[`Shading`](../../shading/) Objekt, das sich auf die Schattierungsformatierung für die Schriftart bezieht.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Beispiele
 
-Zeigt, wie man Schattierungen auf Text anwendet, der von einem Dokumentersteller erstellt wurde.
+Zeigt, wie Schattierungen auf mit einem Dokumentgenerator erstellten Text angewendet werden.
 
 ```csharp
 Document doc = new Document();
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Color = Color.White;
 
 // Eine Möglichkeit, den mit unserer weißen Schriftfarbe erstellten Text sichtbar zu machen
-// soll einen Hintergrundschattierungseffekt anwenden.
+// dient zum Anwenden eines Hintergrundschattierungseffekts.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

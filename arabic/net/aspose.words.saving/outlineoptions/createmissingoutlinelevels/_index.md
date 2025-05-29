@@ -3,14 +3,14 @@ title: OutlineOptions.CreateMissingOutlineLevels
 linktitle: CreateMissingOutlineLevels
 articleTitle: CreateMissingOutlineLevels
 second_title: Aspose.Words لـ .NET
-description: OutlineOptions CreateMissingOutlineLevels ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء مستويات مخطط تفصيلي مفقودة أم لا عندما يتم تصدير المستند  في C#.
+description: اكتشف كيف تعمل خاصية CreateMissingOutlineLevels في OutlineOptions على تعزيز تصدير المستندات من خلال إنشاء مستويات المخطط التفصيلي المفقودة تلقائيًا لتحسين التنظيم.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.saving/outlineoptions/createmissingoutlinelevels/
 ---
 ## OutlineOptions.CreateMissingOutlineLevels property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم إنشاء مستويات مخطط تفصيلي مفقودة أم لا عندما يتم تصدير المستند .
+يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم إنشاء مستويات مخطط مفقودة أم لا عند تصدير المستند .
 
 القيمة الافتراضية لهذه الخاصية هي`خطأ شنيع`.
 
@@ -26,7 +26,7 @@ public bool CreateMissingOutlineLevels { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل العناوين التي يمكن أن تكون بمثابة إدخالات جدول المحتويات للمستويات 1 و5.
+// إدراج العناوين التي يمكن أن تكون بمثابة إدخالات جدول المحتويات للمستويين 1 و5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
 Assert.True(builder.ParagraphFormat.IsHeading);
@@ -38,21 +38,21 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading5;
 builder.Writeln("Heading 1.1.1.1.1");
 builder.Writeln("Heading 1.1.1.1.2");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين في نص المستند.
-// سيؤدي النقر فوق أحد الإدخالات في هذا المخطط إلى نقلنا إلى موقع العنوان الخاص به.
-// قم بتعيين خاصية "HeadingsOutlineLevels" على "5" لتضمين جميع عناوين المستويات 5 وما دونها في المخطط التفصيلي.
+// سيحتوي مستند PDF الناتج على مخطط تفصيلي، وهو عبارة عن جدول محتويات يسرد العناوين الموجودة في نص المستند.
+// النقر على إدخال في هذا المخطط سيأخذنا إلى موقع العنوان الخاص به.
+// قم بضبط خاصية "HeadingsOutlineLevels" على "5" لتضمين جميع عناوين المستويات 5 وما دونها في المخطط التفصيلي.
 saveOptions.OutlineOptions.HeadingsOutlineLevels = 5;
 
 // تحتوي هذه الوثيقة على عناوين المستويات 1 و5، ولا تحتوي على عناوين المستويات 2 و3 و4.
-// سوف يتعامل مستند PDF الناتج مع مستويات المخطط التفصيلي 2 و3 و4 على أنها "مفقودة".
-// قم بتعيين الخاصية "CreateMissingOutlineLevels" على "true" لتضمين جميع المستويات المفقودة في المخطط التفصيلي،
+// ستعامل وثيقة PDF الناتجة مستويات المخطط التفصيلي 2 و3 و4 على أنها "مفقودة".
+// اضبط خاصية "CreateMissingOutlineLevels" على "true" لتضمين جميع المستويات المفقودة في المخطط التفصيلي،
 // ترك إدخالات المخطط التفصيلي فارغة نظرًا لعدم وجود عناوين قابلة للاستخدام.
-// اضبط الخاصية "CreateMissingOutlineLevels" على "خطأ" لتجاهل مستويات المخطط التفصيلي المفقودة،
-// وتعامل مع عناوين المستوى 5 للمخطط التفصيلي على أنها المستوى 2.
+// اضبط خاصية "CreateMissingOutlineLevels" على "false" لتجاهل مستويات المخطط التفصيلي المفقودة،
+// وتعامل مع عناوين المستوى الخامس على أنها عناوين المستوى الثاني.
 saveOptions.OutlineOptions.CreateMissingOutlineLevels = createMissingOutlineLevels;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CreateMissingOutlineLevels.pdf", saveOptions);

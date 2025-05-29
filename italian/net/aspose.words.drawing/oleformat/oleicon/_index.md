@@ -3,14 +3,14 @@ title: OleFormat.OleIcon
 linktitle: OleIcon
 articleTitle: OleIcon
 second_title: Aspose.Words per .NET
-description: OleFormat OleIcon proprietà. Ottiene laspetto di disegno delloggetto OLE. QuandoVERO  loggetto OLE viene visualizzato come icona. Quandofalso  loggetto OLE viene visualizzato come content in C#.
+description: Scopri la proprietà OleIcon di OleFormat, controlla la visualizzazione degli oggetti OLE come icone o contenuto per un'esperienza utente migliorata e un'integrazione perfetta nelle tue applicazioni.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing/oleformat/oleicon/
 ---
 ## OleFormat.OleIcon property
 
-Ottiene l'aspetto di disegno dell'oggetto OLE. Quando`VERO` , l'oggetto OLE viene visualizzato come icona. Quando`falso` , l'oggetto OLE viene visualizzato come content.
+Ottiene l'aspetto di disegno dell'oggetto OLE. Quando`VERO` l'oggetto OLE viene visualizzato come un'icona. Quando`falso` , l'oggetto OLE viene visualizzato come contenuto.
 
 ```csharp
 public bool OleIcon { get; }
@@ -18,11 +18,11 @@ public bool OleIcon { get; }
 
 ## Osservazioni
 
-Aspose.Words non consente di impostare questa proprietà per evitare confusione. Se fossi in grado di cambiare l'aspetto di disegno in Aspose.Words, Microsoft Word visualizzerebbe comunque l'oggetto OLE nel suo aspetto di disegno originale finché non modifichi o aggiorni l'oggetto OLE in Microsoft Word.
+Aspose.Words non consente di impostare questa proprietà per evitare confusione. Se fosse possibile modificare l'aspetto grafico in Aspose.Words, Microsoft Word visualizzerebbe comunque l'oggetto OLE nel suo aspetto grafico originale finché non si modifica o si aggiorna l'oggetto OLE in Microsoft Word.
 
 ## Esempi
 
-Mostra come inserire oggetti OLE collegati e scollegati.
+Mostra come inserire oggetti OLE collegati e non collegati.
 
 ```csharp
 Document doc = new Document();
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Incorpora un disegno di Microsoft Visio nel documento come oggetto OLE.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", false, false, null);
 
-// Inserisci un collegamento al file nel file system locale e visualizzalo come un'icona.
+// Inserisce un collegamento al file nel file system locale e lo visualizza come icona.
 builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", true, true, null);
 
-// L'inserimento di oggetti OLE crea forme che memorizzano questi oggetti.
+// L'inserimento di oggetti OLE crea forme che memorizzano tali oggetti.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
 Assert.AreEqual(2, shapes.Length);
@@ -59,7 +59,7 @@ Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
-// Se l'oggetto contiene dati OLE, possiamo accedervi utilizzando uno stream.
+// Se l'oggetto contiene dati OLE, possiamo accedervi tramite un flusso.
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();

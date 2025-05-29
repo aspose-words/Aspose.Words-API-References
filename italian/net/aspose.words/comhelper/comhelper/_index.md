@@ -3,7 +3,7 @@ title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words per .NET
-description: ComHelper costruttore. Inizializza una nuova istanza di questa classe in C#.
+description: Scopri ComHelper, il potente costruttore che inizializza senza sforzo nuove istanze di classe, migliorando l'efficienza e la produttività della tua programmazione.
 type: docs
 weight: 10
 url: /it/net/aspose.words/comhelper/comhelper/
@@ -18,13 +18,13 @@ public ComHelper()
 
 ## Esempi
 
-Mostra come aprire documenti utilizzando la classe ComHelper.
+Mostra come aprire i documenti utilizzando la classe ComHelper.
 
 ```csharp
-// La classe ComHelper ci consente di caricare documenti dai client COM.
+// La classe ComHelper consente di caricare documenti dall'interno dei client COM.
 ComHelper comHelper = new ComHelper();
 
-// 1 - Utilizzando un nome file di sistema locale:
+// 1 - Utilizzo di un nome file di sistema locale:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
 Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());

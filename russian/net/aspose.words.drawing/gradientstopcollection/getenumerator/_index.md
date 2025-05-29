@@ -3,14 +3,14 @@ title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words для .NET
-description: GradientStopCollection GetEnumerator метод. Возвращает перечислитель который перебирает коллекцию на С#.
+description: Откройте для себя метод GradientStopCollection GetEnumerator, который позволяет легко перебирать остановки градиента и улучшать дизайн пользовательского интерфейса с помощью плавных переходов.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-Возвращает перечислитель, который перебирает коллекцию.
+Возвращает перечислитель, который выполняет итерацию по коллекции.
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

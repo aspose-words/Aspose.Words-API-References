@@ -3,7 +3,7 @@ title: HeaderFooter.IsHeader
 linktitle: IsHeader
 articleTitle: IsHeader
 second_title: Aspose.Words per .NET
-description: HeaderFooter IsHeader proprietà. Vero se questoHeaderFooter loggetto è unintestazione in C#.
+description: Scopri la proprietà IsHeader di HeaderFooter: identifica facilmente se l'oggetto HeaderFooter è un'intestazione per una formattazione semplificata del documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words/headerfooter/isheader/
@@ -23,8 +23,8 @@ Mostra come creare un'intestazione e un piè di pagina.
 ```csharp
 Document doc = new Document();
 
-// Crea un'intestazione e aggiungici un paragrafo. Il testo in quel paragrafo
-// apparirà nella parte superiore di ogni pagina di questa sezione, sopra il corpo del testo principale.
+// Crea un'intestazione e aggiungi un paragrafo. Il testo in quel paragrafo
+// apparirà in cima a ogni pagina di questa sezione, sopra il testo principale.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -33,8 +33,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// Crea un piè di pagina e aggiungivi un paragrafo. Il testo in quel paragrafo
-// apparirà in fondo a ogni pagina di questa sezione, sotto il corpo del testo principale.
+// Crea un piè di pagina e aggiungi un paragrafo. Il testo in quel paragrafo
+// apparirà in fondo a ogni pagina di questa sezione, sotto il testo principale.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

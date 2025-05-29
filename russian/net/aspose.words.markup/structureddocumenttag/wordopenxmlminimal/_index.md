@@ -3,14 +3,14 @@ title: StructuredDocumentTag.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag WordOpenXMLMinimal свойство. Получает строку представляющую XML содержащийся в узле вFlatOpc format. В отличие отWordOpenXMLСвойство этот метод создает урезанный документ который исключает любые части не связанные с содержанием на С#.
+description: Откройте для себя свойство StructuredDocumentTag WordOpenXMLMinimal, которое предоставляет чистую XML-строку в формате FlatOpc, исключающую неконтентные элементы для упрощенной обработки документов.
 type: docs
 weight: 310
 url: /ru/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 ---
 ## StructuredDocumentTag.WordOpenXMLMinimal property
 
-Получает строку, представляющую XML, содержащийся в узле вFlatOpc format. В отличие от[`WordOpenXML`](../wordopenxml/)Свойство этот метод создает урезанный документ, который исключает любые части, не связанные с содержанием.
+Получает строку, представляющую XML, содержащийся в узле вFlatOpc формат. В отличие от[`WordOpenXML`](../wordopenxml/) свойство, этот метод генерирует урезанный документ, который исключает любые части, не связанные с содержимым.
 
 ```csharp
 public string WordOpenXMLMinimal { get; }
@@ -18,14 +18,14 @@ public string WordOpenXMLMinimal { get; }
 
 ## Примеры
 
-Показывает, как работать со стилями элементов управления содержимым.
+Показывает, как работать со стилями для элементов управления содержимым.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ниже приведены два способа применения стиля документа к тегу структурированного документа.
-// 1 — применить объект стиля из коллекции стилей документа:
+// Ниже приведены два способа применения стиля из документа к структурированному тегу документа.
+// 1 — Применить объект стиля из коллекции стилей документа:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };

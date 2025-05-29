@@ -2,10 +2,10 @@
 title: SectionLayoutMode Enum
 linktitle: SectionLayoutMode
 articleTitle: SectionLayoutMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.SectionLayoutMode Sıralama. Belge ızgara davranışını tanımlamaya olanak tanıyan bir bölüm için düzen modunu belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Bölüm düzenlerini optimize etmek ve gelişmiş biçimlendirme denetimi için belge ızgara davranışını geliştirmek üzere Aspose.Words.SectionLayoutMode enum'unu keşfedin.
 type: docs
-weight: 5750
+weight: 6580
 url: /tr/net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
@@ -21,23 +21,23 @@ public enum SectionLayoutMode
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Default | `0` | Belgedeki ilgili bölümün içeriğine hiçbir belge ızgarasının uygulanmayacağını belirtir. |
-| Grid | `1` | Sayfa başına satır ve satır başına karakter sayısını korumak için ilgili bölümün her satıra ve karaktere hem ek satır aralığı hem de karakter aralığı eklendiğini belirtir. Karakterler, kılavuz çizgileriyle otomatik olarak hizalanmayacaktır. yazarak. |
-| LineGrid | `2` | Sayfa başına belirtilen satır sayısını korumak için ilgili bölümün it içindeki her satıra ilave satır aralığı ekleneceği belirtir. |
-| SnapToChars | `3` | Sayfa başına belirli sayıda satır ve satır başına karakter sayısını korumak için ilgili bölümün her satıra ve içindeki karaktere ek satır aralığına ve karakter aralığına sahip olacağını belirtir. Karakterler, yazarken otomatik olarak kılavuz çizgileriyle hizalanacaktır. |
+| Grid | `1` | Her satıra ve içindeki karaktere, sayfa başına belirli sayıda satır ve satır başına belirli sayıda karakter sağlamak için, ilgili bölümün hem ek satır aralığına hem de karakter aralığına eklenmesi gerektiğini belirtir. Karakterler, yazarken kılavuz çizgileriyle otomatik olarak hizalanmayacaktır. |
+| LineGrid | `2` | Sayfa başına belirtilen satır sayısını korumak için ilgili bölümün her satırına ek satır aralığının eklenmesi gerektiğini belirtir. |
+| SnapToChars | `3` | Her satıra ve içindeki karaktere, sayfa başına belirli sayıda satır ve satır başına belirli sayıda karakter sağlamak için, ilgili bölümün hem ek satır aralığına hem de karakter aralığına eklenmesi gerektiğini belirtir. Karakterler, yazarken kılavuz çizgileriyle otomatik olarak hizalanır. |
 
 ## Örnekler
 
-Her satırın sahip olabileceği karakter sayısı için nasıl belirtileceğini gösterir.
+Her satırın sahip olabileceği karakter sayısının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Perdelemeyi etkinleştirin ve ardından bu bölümde satır başına karakter sayısını ayarlamak için bunu kullanın.
+// Atışı etkinleştirin ve ardından bunu bu bölümdeki satır başına karakter sayısını ayarlamak için kullanın.
 builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
 builder.PageSetup.CharactersPerLine = 10;
 
-// Karakter sayısı aynı zamanda yazı tipinin boyutuna da bağlıdır.
+// Karakter sayısı yazı tipinin boyutuna da bağlıdır.
 doc.Styles["Normal"].Font.Size = 20;
 
 Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
@@ -47,14 +47,14 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
-Her sayfanın sahip olabileceği satır sayısına ilişkin sınırın nasıl belirleneceğini gösterir.
+Her sayfanın sahip olabileceği satır sayısı için bir sınır belirlemenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Perdelemeyi etkinleştirin ve ardından bu bölümdeki sayfa başına satır sayısını ayarlamak için bunu kullanın.
-// Yeterince büyük bir yazı tipi boyutu, karakterlerin çakışmasını önlemek için bazı satırları sonraki sayfaya doğru itecektir.
+// Atışı etkinleştirin ve ardından bunu bu bölümdeki sayfa başına satır sayısını ayarlamak için kullanın.
+// Yeterince büyük bir yazı tipi boyutu, karakterlerin üst üste gelmesini önlemek için bazı satırların bir sonraki sayfaya doğru itilmesini sağlayacaktır.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

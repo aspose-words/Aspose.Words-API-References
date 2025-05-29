@@ -3,7 +3,7 @@ title: ViewOptions.ViewType
 linktitle: ViewType
 articleTitle: ViewType
 second_title: Aspose.Words для .NET
-description: ViewOptions ViewType свойство. Управляет режимом просмотра в Microsoft Word на С#.
+description: Откройте для себя свойство ViewOptions ViewType, позволяющее легко настроить режим просмотра Microsoft Word для повышения производительности и индивидуального редактирования.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/viewoptions/viewtype/
@@ -18,11 +18,11 @@ public ViewType ViewType { get; set; }
 
 ## Примечания
 
-Хотя Aspose.Words может читать и записывать эту опцию, ее использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
+Хотя Aspose.Words может читать и записывать этот параметр, его использование зависит от приложения. Например, MS Word 2013 не учитывает значение этого параметра.
 
 ## Примеры
 
-Показывает, как установить пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
+Показывает, как задать пользовательский коэффициент масштабирования, который старые версии Microsoft Word будут применять к документу при загрузке.
 
 ```csharp
 Document doc = new Document();

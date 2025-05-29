@@ -3,14 +3,14 @@ title: SaveOptions.DefaultTemplate
 linktitle: DefaultTemplate
 articleTitle: DefaultTemplate
 second_title: Aspose.Words لـ .NET
-description: SaveOptions DefaultTemplate ملكية. الحصول على أو تعيين المسار إلى القالب الافتراضي بما في ذلك اسم الملف. القيمة الافتراضية لهذه الخاصية هيسلسلة فارغة Empty في C#.
+description: أدر خيارات الحفظ بسهولة! عيّن أو احصل على مسار القالب واسم الملف الافتراضيين لمعالجة مستنداتك بسلاسة. حسّن سير عملك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/saveoptions/defaulttemplate/
 ---
 ## SaveOptions.DefaultTemplate property
 
-الحصول على أو تعيين المسار إلى القالب الافتراضي (بما في ذلك اسم الملف). القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty).
+يحصل على المسار إلى القالب الافتراضي (بما في ذلك اسم الملف) أو يعينه. القيمة الافتراضية لهذه الخاصية هي**سلسلة فارغة** (Empty ).
 
 ```csharp
 public string DefaultTemplate { get; set; }
@@ -18,7 +18,7 @@ public string DefaultTemplate { get; set; }
 
 ## ملاحظات
 
-إذا تم تحديده، فسيتم استخدام هذا المسار لتحميل القالب عندما[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) يكون`حقيقي` , لكن[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) فارغ.
+إذا تم تحديد ذلك، فسيتم استخدام هذا المسار لتحميل القالب عند[`AutomaticallyUpdateStyles`](../../../aspose.words/document/automaticallyupdatestyles/) يكون`حقيقي` ، لكن[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) فارغ.
 
 ## أمثلة
 
@@ -27,14 +27,14 @@ public string DefaultTemplate { get; set; }
 ```csharp
 Document doc = new Document();
 
-// تمكين التحديث التلقائي للنمط، ولكن لا ترفق مستند القالب.
+// تمكين تحديث النمط التلقائي، ولكن لا تقم بإرفاق مستند قالب.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// نظرًا لعدم وجود مستند قالب، لم يكن للمستند مكان لتتبع تغييرات النمط.
-// استخدم كائن SaveOptions لتعيين القالب تلقائيًا
-// إذا كانت الوثيقة التي نقوم بحفظها لا تحتوي على واحدة.
+// نظرًا لعدم وجود مستند قالب، لم يكن لدى المستند مكان لتتبع تغييرات الأسلوب.
+// استخدم كائن SaveOptions لتعيين قالب تلقائيًا
+// إذا كان المستند الذي نحفظه لا يحتوي على واحد.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

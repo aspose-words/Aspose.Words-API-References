@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words لـ .NET
-description: IReplacingCallback Replacing طريقة. طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً في C#.
+description: حسّن مهاراتك البرمجية باستخدام دالة IReplacingCallback! خصّص عمليات الاستبدال بكفاءة من خلال تنفيذ إجراءات مُحدّدة من قِبل المستخدم لكل تطابق موجود.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-طريقة يحددها المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق تم العثور عليه قبل إجراء الاستبدال مباشرةً.
+طريقة محددة من قبل المستخدم يتم استدعاؤها أثناء عملية الاستبدال لكل تطابق يتم العثور عليه قبل إجراء الاستبدال.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### قيمة الإرجاع
 
-أ[`ReplaceAction`](../../replaceaction/) القيمة التي تحدد الإجراء الذي سيتم اتخاذه للمطابقة الحالية.
+أ[`ReplaceAction`](../../replaceaction/) القيمة التي تحدد الإجراء الذي يجب اتخاذه للمطابقة الحالية.
 
 ## أمثلة
 
-يوضح كيفية استبدال كافة تكرارات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
+يوضح كيفية استبدال جميع حالات نمط التعبير العادي بسلسلة أخرى، مع تتبع كل هذه الاستبدالات.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // قم بتعيين رد اتصال يتتبع أي بدائل ستجريها طريقة "الاستبدال".
+    // قم بتعيين معاودة الاتصال لتتبع أي عمليات استبدال ستقوم بها طريقة "الاستبدال".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,7 +50,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// يحتفظ بسجل لكل استبدال نص يتم إجراؤه بواسطة عملية البحث والاستبدال
+/// يحتفظ بسجل لكل استبدال نص تم إجراؤه بواسطة عملية البحث والاستبدال
 /// ويلاحظ قيمة النص المطابق الأصلي.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-يوضح كيفية إدراج محتويات المستند بالكامل كبديل لمطابقة في عملية البحث والاستبدال.
+يوضح كيفية إدراج محتويات مستند بأكمله كبديل لمطابقة في عملية البحث والاستبدال.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+    // يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,7 +95,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // أدخل مستندًا بعد الفقرة التي تحتوي على النص المطابق.
+        //أدرج مستندًا بعد الفقرة التي تحتوي على النص المطابق.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -107,7 +107,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// إدراج كافة العقد في مستند آخر بعد فقرة أو جدول.
+/// إدراج جميع عقد مستند آخر بعد فقرة أو جدول.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // تخطي العقدة إذا كانت آخر فقرة فارغة في القسم.
+                // تخطي العقدة إذا كانت الفقرة الفارغة الأخيرة في القسم.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

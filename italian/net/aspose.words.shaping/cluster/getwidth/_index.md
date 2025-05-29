@@ -3,7 +3,7 @@ title: Cluster.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
 second_title: Aspose.Words per .NET
-description: Cluster GetWidth metodo. Restituisce la larghezza del cluster in C#.
+description: Scopri il metodo Cluster GetWidth per recuperare facilmente la larghezza del cluster, migliorando le tue capacità di analisi e visualizzazione dei dati.
 type: docs
 weight: 60
 url: /it/net/aspose.words.shaping/cluster/getwidth/

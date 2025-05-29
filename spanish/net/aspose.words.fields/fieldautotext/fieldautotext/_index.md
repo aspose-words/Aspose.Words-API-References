@@ -3,7 +3,7 @@ title: FieldAutoText
 linktitle: FieldAutoText
 articleTitle: FieldAutoText
 second_title: Aspose.Words para .NET
-description: FieldAutoText constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldAutoText: tu solución ideal para una automatización de texto fluida. ¡Desbloquea la eficiencia y mejora tu experiencia de programación hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldautotext/fieldautotext/

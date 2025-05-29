@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.UseTargetMachineFonts
 linktitle: UseTargetMachineFonts
 articleTitle: UseTargetMachineFonts
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions UseTargetMachineFonts proprietà. Il flag indica se è necessario utilizzare i caratteri del computer di destinazione per visualizzare il documento. Se questo flag è impostato suVERO FontFormat EExportEmbeddedFonts le proprietà non hanno effetto ancheResourceSavingCallback non viene attivato per i caratteri. Limpostazione predefinita èfalso  in C#.
+description: Scopri come la proprietà UseTargetMachineFonts in HtmlFixedSaveOptions migliora la visualizzazione dei documenti utilizzando i font del computer di destinazione. Ottimizza la gestione dei tuoi font oggi stesso!
 type: docs
-weight: 190
+weight: 210
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/usetargetmachinefonts/
 ---
 ## HtmlFixedSaveOptions.UseTargetMachineFonts property
 
-Il flag indica se è necessario utilizzare i caratteri del computer di destinazione per visualizzare il documento. Se questo flag è impostato su`VERO` ,[`FontFormat`](../fontformat/) E[`ExportEmbeddedFonts`](../exportembeddedfonts/) le proprietà non hanno effetto, anche[`ResourceSavingCallback`](../resourcesavingcallback/) non viene attivato per i caratteri. L'impostazione predefinita è`falso` .
+Il flag indica se i font della macchina di destinazione devono essere utilizzati per visualizzare il documento. Se questo flag è impostato su`VERO` ,[`FontFormat`](../fontformat/) E[`ExportEmbeddedFonts`](../exportembeddedfonts/) le proprietà non hanno effetto, anche[`ResourceSavingCallback`](../resourcesavingcallback/) non viene attivato per i font. Il valore predefinito è`falso` .
 
 ```csharp
 public bool UseTargetMachineFonts { get; set; }
@@ -18,7 +18,7 @@ public bool UseTargetMachineFonts { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare i caratteri solo dal computer di destinazione quando si salva un documento in HTML.
+Mostra come utilizzare solo i font del computer di destinazione quando si salva un documento in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

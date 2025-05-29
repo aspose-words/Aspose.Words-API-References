@@ -3,7 +3,7 @@ title: FontSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words для .NET
-description: FontSavingArgs IsExportNeeded свойство. Позволяет указать будет ли текущий шрифт экспортироваться как ресурс шрифта. По умолчаниюистинный  на С#.
+description: Откройте для себя свойство FontSavingArgs IsExportNeeded для управления экспортом ресурсов шрифтов. Максимизируйте эффективность с помощью настраиваемых параметров для ваших проектов!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.saving/fontsavingargs/isexportneeded/
@@ -26,7 +26,7 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Настройте объект SaveOptions для экспорта шрифтов в отдельные файлы.
-    // Установите обратный вызов, который будет обрабатывать сохранение шрифта в индивидуальном порядке.
+    // Устанавливаем обратный вызов, который будет обрабатывать сохранение шрифта специальным образом.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Печатает информацию об экспортированных шрифтах и сохраняет их в той же локальной системной папке, что и их выходные файлы .html.
+/// Выводит информацию об экспортированных шрифтах и сохраняет их в той же локальной системной папке, что и их выходной .html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -61,11 +61,11 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsExportNeeded);
         Assert.True(args.IsSubsettingNeeded);
 
-        // Есть два способа сохранить экспортированный шрифт.
-        // 1 — сохранить его в локальной файловой системе:
+        // Существует два способа сохранения экспортированного шрифта.
+        // 1 - Сохраните его в локальной файловой системе:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 — Сохранить в поток:
+        // 2 - Сохранить в потоке:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

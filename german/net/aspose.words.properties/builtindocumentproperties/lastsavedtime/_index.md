@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.LastSavedTime
 linktitle: LastSavedTime
 articleTitle: LastSavedTime
 second_title: Aspose.Words für .NET
-description: BuiltInDocumentProperties LastSavedTime eigendom. Ruft die Zeit der letzten Speicherung in UTC ab oder legt diese fest in C#.
+description: Entdecken Sie die Eigenschaft „LastSavedTime“ von BuiltInDocumentProperties, um den letzten Speicherzeitpunkt Ihres Dokuments in UTC einfach zu verfolgen. Optimieren Sie Ihr Dokumentenmanagement noch heute!
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words.properties/builtindocumentproperties/lastsavedtime/
 ---
 ## BuiltInDocumentProperties.LastSavedTime property
 
-Ruft die Zeit der letzten Speicherung in UTC ab oder legt diese fest.
+Ruft die Zeit der letzten Speicherung in UTC ab oder legt sie fest.
 
 ```csharp
 public DateTime LastSavedTime { get; set; }
@@ -18,7 +18,7 @@ public DateTime LastSavedTime { get; set; }
 
 ## Bemerkungen
 
-Für Dokumente, die aus dem RTF-Format stammen, gibt diese Eigenschaft die lokale Zeit des letzten Speichervorgangs zurück.
+Für Dokumente im RTF-Format gibt diese Eigenschaft die lokale Zeit des letzten Speichervorgangs zurück.
 
 Aspose.Words aktualisiert diese Eigenschaft nicht.
 
@@ -32,9 +32,9 @@ Document doc = new Document(MyDir + "Properties.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Die folgenden integrierten Eigenschaften enthalten Informationen zur Erstellung und Bearbeitung dieses Dokuments.
-// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden
-// diese Eigenschaften über „Eigenschaften“ -> „Details“ -> Kategorie „Herkunft“.
-// Felder wie PRINTDATE und EDITTIME können diese Werte im Dokumentkörper anzeigen.
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und finden
+// diese Eigenschaften über die Kategorie „Eigenschaften“ -> „Details“ -> „Herkunft“.
+// Felder wie PRINTDATE und EDITTIME können diese Werte im Dokumenttext anzeigen.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
@@ -47,15 +47,15 @@ properties.Version = 5;
 properties.RevisionNumber++;
 
 // Microsoft Word aktualisiert die folgenden Eigenschaften automatisch, wenn wir das Dokument speichern.
-// Um diese Eigenschaften mit Aspose.Words zu verwenden, müssen wir Werte für sie manuell festlegen.
+// Um diese Eigenschaften mit Aspose.Words zu verwenden, müssen wir die Werte manuell festlegen.
 properties.LastSavedBy = "John Doe";
 properties.LastSavedTime = DateTime.Now;
 
-// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und es finden these properties in "Properties" -> "Details" -> "Origin".
+// Wir können im Windows Explorer mit der rechten Maustaste auf dieses Dokument klicken und diese Eigenschaften unter „Eigenschaften“ -> „Details“ -> „Ursprung“ finden.
 doc.Save(ArtifactsDir + "DocumentProperties.Origin.docx");
 ```
 
-Zeigt, wie Sie das Feld SAVEDATE verwenden, um Datum und Uhrzeit des letzten mit Microsoft Word durchgeführten Speichervorgangs des Dokuments anzuzeigen.
+Zeigt, wie Sie mit dem Feld SAVEDATE das Datum/die Uhrzeit des letzten Speichervorgangs des Dokuments anzeigen, der mit Microsoft Word durchgeführt wurde.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -64,9 +64,9 @@ builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was last saved:");
 
 // Wir können das Feld SAVEDATE verwenden, um Datum und Uhrzeit des letzten Speichervorgangs im Dokument anzuzeigen.
-// Der Speichervorgang, auf den sich diese Felder beziehen, ist das manuelle Speichern in einer Anwendung wie Microsoft Word.
+// Der Speichervorgang, auf den sich diese Felder beziehen, ist das manuelle Speichern in einer Anwendung wie Microsoft Word,
 // nicht die Save-Methode des Dokuments.
-// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, nach denen das Feld SAVEDATE das Datum/die Uhrzeit anzeigen kann.
+// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, je nachdem, ob das Feld SAVEDATE Datum/Uhrzeit anzeigen kann.
 // 1 - Islamischer Mondkalender:
 builder.Write("According to the Lunar Calendar - ");
 FieldSaveDate field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
@@ -81,7 +81,7 @@ field.UseUmAlQuraCalendar = true;
 
 Assert.AreEqual(" SAVEDATE  \\u", field.GetFieldCode());
 
-// 3 – Indischer Nationalkalender:
+// 3 - Indischer Nationalkalender:
 builder.Write("\nAccording to the Indian National calendar - ");
 field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseSakaEraCalendar = true;
@@ -89,7 +89,7 @@ field.UseSakaEraCalendar = true;
 Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
 
 // Die SAVEDATE-Felder beziehen ihre Datums-/Uhrzeitwerte aus der integrierten Eigenschaft LastSavedTime.
-// Die Save-Methode des Dokuments aktualisiert diesen Wert nicht, wir können ihn aber trotzdem manuell aktualisieren.
+// Die Save-Methode des Dokuments aktualisiert diesen Wert nicht, wir können ihn jedoch trotzdem manuell aktualisieren.
 doc.BuiltInDocumentProperties.LastSavedTime = DateTime.Now;
 
 doc.UpdateFields();

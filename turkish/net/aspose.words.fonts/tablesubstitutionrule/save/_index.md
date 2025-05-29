@@ -2,15 +2,15 @@
 title: TableSubstitutionRule.Save
 linktitle: Save
 articleTitle: Save
-second_title: Aspose.Words for .NET
-description: TableSubstitutionRule Save yöntem. Geçerli tablo değiştirme ayarlarını dosyaya kaydeder C#'da.
+second_title: .NET için Aspose.Words
+description: TableSubstitutionRule Save metoduyla tablo değiştirme ayarlarınızı zahmetsizce kaydedin. Veri yönetiminizi bugün kolaylaştırın!
 type: docs
 weight: 70
 url: /tr/net/aspose.words.fonts/tablesubstitutionrule/save/
 ---
 ## Save(*string*) {#save_1}
 
-Geçerli tablo değiştirme ayarlarını dosyaya kaydeder.
+Mevcut tablo değiştirme ayarlarını dosyaya kaydeder.
 
 ```csharp
 public void Save(string fileName)
@@ -18,11 +18,11 @@ public void Save(string fileName)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| fileName | String | Çıkış dosyası adı. |
+| fileName | String | Çıktı dosya adı. |
 
 ## Örnekler
 
-Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
+Windows ve Linux için font değiştirme tablolarına nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,18 +37,18 @@ tableSubstitutionRule.LoadWindowsSettings();
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Tabloyu XML belgesi biçiminde kaydedebiliriz.
+// Tabloyu XML belgesi şeklinde kaydedebiliriz.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux'un kendi ikame tablosu vardır.
-// "Times New Roman CE" için birden fazla yedek yazı tipi vardır.
-// İlk yedek olan "FreeSerif" de mevcut değilse,
-// bu kural, kullanılabilir bir kural bulana kadar dizideki diğer kurallar arasında geçiş yapacaktır.
+// Linux'un kendine ait bir ikame tablosu vardır.
+// "Times New Roman CE" için birden fazla alternatif yazı tipi bulunmaktadır.
+// Eğer ilk ikame "FreeSerif" de mevcut değilse,
+// bu kural, kullanılabilir bir kural bulana kadar dizideki diğerleri arasında geçiş yapacaktır.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Linux değiştirme tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
+// Linux ikame tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {
@@ -66,7 +66,7 @@ using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.Table
 
 ## Save(*Stream*) {#save}
 
-Geçerli tablo değiştirme ayarlarını akışa kaydeder.
+Mevcut tablo değiştirme ayarlarını akışa kaydeder.
 
 ```csharp
 public void Save(Stream outputStream)
@@ -78,7 +78,7 @@ public void Save(Stream outputStream)
 
 ## Örnekler
 
-Windows ve Linux için yazı tipi değiştirme tablolarına nasıl erişileceğini gösterir.
+Windows ve Linux için font değiştirme tablolarına nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -93,18 +93,18 @@ tableSubstitutionRule.LoadWindowsSettings();
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Tabloyu XML belgesi biçiminde kaydedebiliriz.
+// Tabloyu XML belgesi şeklinde kaydedebiliriz.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux'un kendi ikame tablosu vardır.
-// "Times New Roman CE" için birden fazla yedek yazı tipi vardır.
-// İlk yedek olan "FreeSerif" de mevcut değilse,
-// bu kural, kullanılabilir bir kural bulana kadar dizideki diğer kurallar arasında geçiş yapacaktır.
+// Linux'un kendine ait bir ikame tablosu vardır.
+// "Times New Roman CE" için birden fazla alternatif yazı tipi bulunmaktadır.
+// Eğer ilk ikame "FreeSerif" de mevcut değilse,
+// bu kural, kullanılabilir bir kural bulana kadar dizideki diğerleri arasında geçiş yapacaktır.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Linux değiştirme tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
+// Linux ikame tablosunu bir akış kullanarak XML belgesi biçiminde kaydedin.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

@@ -3,7 +3,7 @@ title: ControlChar.LineBreakChar
 linktitle: LineBreakChar
 articleTitle: LineBreakChar
 second_title: Aspose.Words para .NET
-description: ControlChar LineBreakChar campo. Carácter de salto de línea char11 o v en C#.
+description: Descubra el campo ControlChar LineBreakChar, administre fácilmente los saltos de línea con char11 o v para un formato de texto más suave y una legibilidad mejorada.
 type: docs
 weight: 130
 url: /es/net/aspose.words/controlchar/linebreakchar/
@@ -24,17 +24,17 @@ Muestra cómo agregar varios caracteres de control a un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Agrega un espacio normal.
+//Agrega un espacio regular.
 builder.Write("Before space." + ControlChar.SpaceChar + "After space.");
 
-// Agrega un NBSP, que es un espacio sin separación.
-// A diferencia del espacio normal, este espacio no puede tener un salto de línea automático en su posición.
+// Agregue un NBSP, que es un espacio indivisible.
+// A diferencia del espacio regular, este espacio no puede tener un salto de línea automático en su posición.
 builder.Write("Before space." + ControlChar.NonBreakingSpace + "After space.");
 
-// Agrega un carácter de tabulación.
+//Agrega un carácter de tabulación.
 builder.Write("Before tab." + ControlChar.Tab + "After tab.");
 
-// Agrega un salto de línea.
+//Añadir un salto de línea.
 builder.Write("Before line break." + ControlChar.LineBreak + "After line break.");
 
 // Agrega una nueva línea y comienza un nuevo párrafo.
@@ -42,7 +42,7 @@ Assert.AreEqual(1, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true)
 builder.Write("Before line feed." + ControlChar.LineFeed + "After line feed.");
 Assert.AreEqual(2, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// El carácter de avance de línea tiene dos versiones.
+//El carácter de avance de línea tiene dos versiones.
 Assert.AreEqual(ControlChar.LineFeed, ControlChar.Lf);
 
 // Los retornos de carro y los avances de línea se pueden representar juntos mediante un carácter.
@@ -52,28 +52,28 @@ Assert.AreEqual(ControlChar.CrLf, ControlChar.Cr + ControlChar.Lf);
 builder.Write("Before paragraph break." + ControlChar.ParagraphBreak + "After paragraph break.");
 Assert.AreEqual(3, doc.FirstSection.Body.GetChildNodes(NodeType.Paragraph, true).Count);
 
-// Agrega un salto de sección. Esto no crea una nueva sección o párrafo.
+// Añade un salto de sección. Esto no crea una nueva sección ni un nuevo párrafo.
 Assert.AreEqual(1, doc.Sections.Count);
 builder.Write("Before section break." + ControlChar.SectionBreak + "After section break.");
 Assert.AreEqual(1, doc.Sections.Count);
 
-// Agrega un salto de página.
+//Añadir un salto de página.
 builder.Write("Before page break." + ControlChar.PageBreak + "After page break.");
 
 // Un salto de página tiene el mismo valor que un salto de sección.
 Assert.AreEqual(ControlChar.PageBreak, ControlChar.SectionBreak);
 
-// Inserta una nueva sección y luego establece el número de columnas en dos.
+// Inserte una nueva sección y luego establezca su número de columnas en dos.
 doc.AppendChild(new Section(doc));
 builder.MoveToSection(1);
 builder.CurrentSection.PageSetup.TextColumns.SetCount(2);
 
-// Podemos usar un carácter de control para marcar el punto donde el texto pasa a la siguiente columna.
+//Podemos usar un carácter de control para marcar el punto donde el texto se mueve a la siguiente columna.
 builder.Write("Text at end of column 1." + ControlChar.ColumnBreak + "Text at beginning of column 2.");
 
 doc.Save(ArtifactsDir + "ControlChar.InsertControlChars.docx");
 
-// Hay contrapartes de caracteres y cadenas para la mayoría de los caracteres.
+// Existen contrapartes char y string para la mayoría de los caracteres.
 Assert.AreEqual(Convert.ToChar(ControlChar.Cell), ControlChar.CellChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.NonBreakingSpace), ControlChar.NonBreakingSpaceChar);
 Assert.AreEqual(Convert.ToChar(ControlChar.Tab), ControlChar.TabChar);

@@ -3,14 +3,14 @@ title: FileFormatUtil.ImageTypeToExtension
 linktitle: ImageTypeToExtension
 articleTitle: ImageTypeToExtension
 second_title: Aspose.Words для .NET
-description: FileFormatUtil ImageTypeToExtension метод. Преобразует перечислимое значение типа изображения Aspose.Words в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой на С#.
+description: Конвертируйте типы изображений Aspose.Words в расширения файлов без усилий с помощью метода FileFormatUtil. Получайте точные, строчные расширения за считанные секунды!
 type: docs
 weight: 50
 url: /ru/net/aspose.words/fileformatutil/imagetypetoextension/
 ---
 ## FileFormatUtil.ImageTypeToExtension method
 
-Преобразует перечислимое значение типа изображения Aspose.Words в расширение файла. Возвращаемое расширение представляет собой строку в нижнем регистре с начальной точкой.
+Преобразует перечислимое значение типа изображения Aspose.Words в расширение файла. Возвращаемое расширение — это строка в нижнем регистре с точкой в начале.
 
 ```csharp
 public static string ImageTypeToExtension(ImageType imageType)
@@ -20,17 +20,17 @@ public static string ImageTypeToExtension(ImageType imageType)
 
 | исключение | условие |
 | --- | --- |
-| ArgumentException | Выдает, когда невозможно преобразовать. |
+| ArgumentException | Выдает, когда не может конвертировать. |
 
 ## Примеры
 
-Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
+Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получаем коллекцию фигур из документа,
-// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить коллекцию фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -41,7 +41,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
-        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
+        // Мы можем автоматически определить расширение файла для каждого изображения на основе его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

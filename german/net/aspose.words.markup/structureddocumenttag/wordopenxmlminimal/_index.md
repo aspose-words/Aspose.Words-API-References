@@ -3,14 +3,14 @@ title: StructuredDocumentTag.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag WordOpenXMLMinimal eigendom. Ruft eine Zeichenfolge ab die das im Knoten im enthaltene XML darstelltFlatOpc format. Im Gegensatz zuWordOpenXMLEigenschaft generiert diese Methode ein reduziertes Dokument das alle nicht inhaltsbezogenen Teile ausschließt in C#.
+description: Entdecken Sie die WordOpenXMLMinimal-Eigenschaft „StructuredDocumentTag“, die eine saubere XML-Zeichenfolge im FlatOpc-Format bereitstellt und nicht inhaltslose Elemente ausschließt, um die Dokumentverarbeitung zu optimieren.
 type: docs
 weight: 310
 url: /de/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 ---
 ## StructuredDocumentTag.WordOpenXMLMinimal property
 
-Ruft eine Zeichenfolge ab, die das im Knoten im enthaltene XML darstelltFlatOpc format. Im Gegensatz zu[`WordOpenXML`](../wordopenxml/)-Eigenschaft generiert diese Methode ein reduziertes Dokument, das alle nicht inhaltsbezogenen Teile ausschließt.
+Ruft eine Zeichenfolge ab, die das XML darstellt, das im Knoten imFlatOpc format. Im Gegensatz zu den[`WordOpenXML`](../wordopenxml/) Diese Methode generiert ein abgespecktes Dokument, das alle nicht inhaltsbezogenen Teile ausschließt.
 
 ```csharp
 public string WordOpenXMLMinimal { get; }
@@ -24,13 +24,13 @@ Zeigt, wie mit Stilen für Inhaltssteuerelemente gearbeitet wird.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
-// 1 – Ein Stilobjekt aus der Stilsammlung des Dokuments anwenden:
+// Unten finden Sie zwei Möglichkeiten, einen Stil aus dem Dokument auf ein strukturiertes Dokument-Tag anzuwenden.
+// 1 – Wenden Sie ein Stilobjekt aus der Stilsammlung des Dokuments an:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 – Einen Stil im Dokument namentlich referenzieren:
+// 2 - Verweisen Sie im Dokument anhand des Namens auf einen Stil:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

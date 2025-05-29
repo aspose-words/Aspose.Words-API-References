@@ -3,16 +3,16 @@ title: MappedDataFieldCollection Class
 linktitle: MappedDataFieldCollection
 articleTitle: MappedDataFieldCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.MailMerging.MappedDataFieldCollection classe. Consente di mappare automaticamente i nomi dei campi nellorigine dati e i nomi dei campi della stampa unione nel documento in C#.
+description: Scopri Aspose.Words.MailMerging.MappedDataFieldCollection per una mappatura fluida dei campi sorgente dati nei campi di unione dati, migliorando l'automazione dei documenti.
 type: docs
-weight: 3870
+weight: 4560
 url: /it/net/aspose.words.mailmerging/mappeddatafieldcollection/
 ---
 ## MappedDataFieldCollection class
 
-Consente di mappare automaticamente i nomi dei campi nell'origine dati e i nomi dei campi della stampa unione nel documento.
+Consente di mappare automaticamente i nomi dei campi nella sorgente dati e i nomi dei campi di unione dati nel documento.
 
-Per saperne di più, visita il[Stampa unione e reporting](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
+Per saperne di più, visita il[Unione di posta e creazione di report](https://docs.aspose.com/words/net/mail-merge-and-reporting/) articolo di documentazione.
 
 ```csharp
 public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string>>
@@ -23,7 +23,7 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | Nome | Descrizione |
 | --- | --- |
 | [Count](../../aspose.words.mailmerging/mappeddatafieldcollection/count/) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
-| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Ottiene o imposta il nome del campo nell'origine dati associata al campo di stampa unione specificato. |
+| [Item](../../aspose.words.mailmerging/mappeddatafieldcollection/item/) { get; set; } | Ottiene o imposta il nome del campo nell'origine dati associata al campo di unione di stampa specificato. |
 
 ## Metodi
 
@@ -33,16 +33,16 @@ public class MappedDataFieldCollection : IEnumerable<KeyValuePair<string, string
 | [Clear](../../aspose.words.mailmerging/mappeddatafieldcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
 | [ContainsKey](../../aspose.words.mailmerging/mappeddatafieldcollection/containskey/)(*string*) | Determina se nella raccolta esiste una mappatura dal campo specificato nel documento. |
 | [ContainsValue](../../aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/)(*string*) | Determina se nella raccolta esiste una mappatura dal campo specificato nell'origine dati. |
-| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore dizionario che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
+| [GetEnumerator](../../aspose.words.mailmerging/mappeddatafieldcollection/getenumerator/)() | Restituisce un oggetto enumeratore del dizionario che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
 | [Remove](../../aspose.words.mailmerging/mappeddatafieldcollection/remove/)(*string*) | Rimuove una mappatura di campo. |
 
 ## Osservazioni
 
-Questo viene implementato come una raccolta di chiavi stringa in valori stringa. Le chiavi sono i nomi dei campi di stampa unione nel documento e i valori sono i nomi dei campi nell'origine dati.
+Questa operazione viene implementata come una raccolta di chiavi stringa in valori stringa. Le chiavi sono i nomi dei campi di unione nel documento e i valori sono i nomi dei campi nell'origine dati.
 
 ## Esempi
 
-Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra loro durante una stampa unione.
+Mostra come mappare colonne di dati e MERGEFIELD con nomi diversi in modo che i dati vengano trasferiti tra di essi durante una stampa unione.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -50,29 +50,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // La tabella ha una colonna denominata "Column2", ma non esistono MERGEFIELD con quel nome.
+    // La tabella ha una colonna denominata "Column2", ma non ci sono MERGEFIELD con quel nome.
     // Inoltre, abbiamo un MERGEFIELD denominato "Column3", ma l'origine dati non ha una colonna con quel nome.
-    // Se i dati della "Colonna2" sono adatti al MERGEFIELD della "Colonna3",
-    // possiamo mappare il nome della colonna a MERGEFIELD nella coppia chiave/valore "MappedDataFields".
+    // Se i dati di "Colonna2" sono adatti per il MERGEFIELD di "Colonna3",
+    // possiamo mappare il nome di quella colonna al MERGEFIELD nella coppia chiave/valore "MappedDataFields".
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Possiamo collegare il nome di una colonna di origine dati a un nome MERGEFIELD come questo.
+    // Possiamo collegare il nome di una colonna di un'origine dati a un nome MERGEFIELD in questo modo.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // Collega la colonna dell'origine dati denominata "Column2" ai MERGEFIELD denominati "Column3".
+    // Collega la colonna di origine dati denominata "Colonna2" ai MERGEFIELD denominati "Colonna3".
     mappedDataFields.Add("Column3", "Column2");
 
-    // Il nome MERGEFIELD è la "chiave" per il rispettivo nome "valore" della colonna dell'origine dati.
+    // Il nome MERGEFIELD è la "chiave" per il nome "valore" della colonna della rispettiva origine dati.
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Ora se eseguiamo questa stampa unione, i MERGEFIELD "Column3" prenderanno i dati dalla "Column2" della tabella.
+    // Ora, se eseguiamo questa stampa unione, i MERGEFIELD "Column3" prenderanno i dati da "Column2" della tabella.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Possiamo eseguire l'iterazione sugli elementi di questa raccolta.
+    // Possiamo scorrere gli elementi di questa raccolta.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -80,7 +80,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // Possiamo anche rimuovere elementi dalla raccolta.
+    // Possiamo anche rimuovere elementi dalla collezione.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -92,7 +92,7 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// Crea un documento con 2 MERGEFIELD, uno dei quali non ha un file
+/// Crea un documento con 2 MERGEFIELD, uno dei quali non ha un
 /// colonna corrispondente nella tabella dati dal metodo seguente.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
@@ -108,7 +108,7 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// Crea una tabella dati con 2 colonne, una delle quali non ha un file
+/// Crea una tabella dati con 2 colonne, una delle quali non ha un
 /// MERGEFIELD corrispondente nel documento sorgente dal metodo sopra.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()

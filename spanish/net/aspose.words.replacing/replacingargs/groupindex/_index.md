@@ -3,7 +3,7 @@ title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
 second_title: Aspose.Words para .NET
-description: ReplacingArgs GroupIndex propiedad. Identifica por índice un grupo capturado en elMatch que se va a reemplazar con elReplacement cadena en C#.
+description: Aprenda a utilizar la propiedad GroupIndex en ReplacingArgs para identificar y reemplazar fácilmente los grupos capturados en las coincidencias con sus cadenas personalizadas.
 type: docs
 weight: 10
 url: /es/net/aspose.words.replacing/replacingargs/groupindex/
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## Observaciones
 
-`GroupIndex`tiene efecto sólo cuando[`GroupName`](../groupname/) es`nulo`.
+`GroupIndex` tiene efecto sólo cuando[`GroupName`](../groupname/) es`nulo`.
 
 El valor predeterminado es cero.
 
 ## Ejemplos
 
-Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establezca la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,7 +57,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

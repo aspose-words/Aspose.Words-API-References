@@ -3,14 +3,14 @@ title: ICssSavingCallback Interface
 linktitle: ICssSavingCallback
 articleTitle: ICssSavingCallback
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.ICssSavingCallback interfaz. Implemente esta interfaz si desea controlar cómo Aspose.Words guarda CSS hoja de estilo en cascada cuando guarda un documento en HTML en C#.
+description: Controle el guardado de CSS en Aspose.Words con la interfaz ICssSavingCallback. Personalice la salida de su documento HTML para mejorar el estilo y la flexibilidad.
 type: docs
-weight: 5130
+weight: 5880
 url: /es/net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
 
-Implemente esta interfaz si desea controlar cómo Aspose.Words guarda CSS (hoja de estilo en cascada) cuando guarda un documento en HTML.
+Implemente esta interfaz si desea controlar cómo Aspose.Words guarda CSS (hoja de estilo en cascada) al guardar un documento en HTML.
 
 ```csharp
 public interface ICssSavingCallback
@@ -20,7 +20,7 @@ public interface ICssSavingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Se llama cuando Aspose.Words guarda un CSS (hoja de estilo en cascada). |
+| [CssSaving](../../aspose.words.saving/icsssavingcallback/csssaving/)(*[CssSavingArgs](../csssavingargs/)*) | Se llama cuando Aspose.Words guarda una CSS (hoja de estilo en cascada). |
 
 ## Ejemplos
 
@@ -32,18 +32,18 @@ public void ExternalCssFilenames()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
-    // para modificar cómo convertimos el documento a HTML.
+    // para modificar la forma en que convertimos el documento a HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Establece la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
-    // acompaña un documento HTML guardado con un archivo de hoja de estilo CSS externo.
+    // Establezca la propiedad "CssStylesheetType" en "CssStyleSheetType.External" para
+    // Acompañe un documento HTML guardado con un archivo de hoja de estilo CSS externo.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // A continuación se muestran dos formas de especificar directorios y nombres de archivos para las hojas de estilo CSS de salida.
-    // 1 - Usa la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
+    // 1 - Utilice la propiedad "CssStyleSheetFileName" para asignar un nombre de archivo a nuestra hoja de estilo:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Usa una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
+    // 2 - Utilice una devolución de llamada personalizada para nombrar nuestra hoja de estilo:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -64,7 +64,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Podemos acceder al documento fuente completo a través de la propiedad "Documento".
+        //Podemos acceder al documento fuente completo a través de la propiedad "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

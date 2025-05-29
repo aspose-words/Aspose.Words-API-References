@@ -3,14 +3,14 @@ title: SignOptions.DecryptionPassword
 linktitle: DecryptionPassword
 articleTitle: DecryptionPassword
 second_title: Aspose.Words för .NET
-description: SignOptions DecryptionPassword fast egendom. Lösenordet för att dekryptera källdokumentet. Standardvärdet ärtom sträng Empty i C#.
+description: Lås upp dina dokument utan ansträngning med SignOptions DecryptionPassword-funktion. Dekryptera källfiler säkert och enkelt; standardinställningen är en tom sträng.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.digitalsignatures/signoptions/decryptionpassword/
 ---
 ## SignOptions.DecryptionPassword property
 
-Lösenordet för att dekryptera källdokumentet. Standardvärdet är**tom sträng** (Empty).
+Lösenordet för att dekryptera källdokumentet. Standardvärdet är**tom sträng** (Empty ).
 
 ```csharp
 public string DecryptionPassword { get; set; }
@@ -18,17 +18,17 @@ public string DecryptionPassword { get; set; }
 
 ## Anmärkningar
 
-Om OOXML-dokument är krypterat, bör du tillhandahålla dekrypteringslösenord för att dekryptera källdokumentet innan det kommer att signeras. Detta krävs inte för dokument i binärt DOC-format.
+Om OOXML-dokumentet är krypterat måste du ange dekrypteringslösenordet för att dekryptera källdokumentet innan det signeras. Detta krävs inte för dokument i binärt DOC-format.
 
 ## Exempel
 
-Visar hur man signerar krypterad dokumentfil.
+Visar hur man signerar en krypterad dokumentfil.
 
 ```csharp
-// Skapa ett X.509-certifikat från en PKCS#12-butik, som bör innehålla en privat nyckel.
+// Skapa ett X.509-certifikat från ett PKCS#12-arkiv, vilket ska innehålla en privat nyckel.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Skapa en kommentar, datum och dekrypteringslösenord som kommer att tillämpas med vår nya digitala signatur.
+// Skapa ett lösenord för kommentar, datum och dekryptering som kommer att tillämpas med vår nya digitala signatur.
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// Ställ in ett lokalt systemfilnamn för det osignerade indatadokumentet och ett utdatafilnamn för dess nya digitalt signerade kopia.
+// Ange ett lokalt systemfilnamn för det osignerade indatadokumentet och ett utdatafilnamn för dess nya digitalt signerade kopia.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

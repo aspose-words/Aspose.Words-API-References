@@ -3,14 +3,14 @@ title: StreamFontSource.OpenFontDataStream
 linktitle: OpenFontDataStream
 articleTitle: OpenFontDataStream
 second_title: Aspose.Words لـ .NET
-description: StreamFontSource OpenFontDataStream طريقة. يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب في C#.
+description: اكتشف طريقة StreamFontSource OpenFontDataStream للوصول بكفاءة إلى تدفقات بيانات الخطوط عند الطلب، مما يعزز سير عمل التصميم الخاص بك.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fonts/streamfontsource/openfontdatastream/
 ---
 ## StreamFontSource.OpenFontDataStream method
 
-يجب أن تفتح هذه الطريقة الدفق ببيانات الخط حسب الطلب.
+يجب أن تفتح هذه الطريقة التدفق ببيانات الخط عند الطلب.
 
 ```csharp
 public abstract Stream OpenFontDataStream()
@@ -22,7 +22,7 @@ public abstract Stream OpenFontDataStream()
 
 ## ملاحظات
 
-سيتم إغلاق الدفق بعد القراءة. ليست هناك حاجة لإغلاقه بشكل صريح.
+سيتم إغلاق الدفق بعد القراءة. لا حاجة لإغلاقه صراحةً.
 
 ## أمثلة
 

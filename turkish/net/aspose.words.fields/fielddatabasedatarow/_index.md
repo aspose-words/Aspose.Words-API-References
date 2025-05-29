@@ -2,17 +2,17 @@
 title: FieldDatabaseDataRow Class
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fields.FieldDatabaseDataRow sınıf. Şunun için veri sağlarFieldDatabase alan sonucu. BakınızDataRow örnek C#'da.
+second_title: .NET için Aspose.Words
+description: FieldDatabase sonuçları için temel verileri sunan Aspose.Words.Fields.FieldDatabaseDataRow sınıfını keşfedin. Belge işlemenizi bugün geliştirin!
 type: docs
-weight: 1750
+weight: 2160
 url: /tr/net/aspose.words.fields/fielddatabasedatarow/
 ---
 ## FieldDatabaseDataRow class
 
-Şunun için veri sağlar:[`FieldDatabase`](../fielddatabase/) alan sonucu. BakınızDataRow örnek.
+Şunun için veri sağlar:[`FieldDatabase`](../fielddatabase/) alan sonucu. Lütfen bakınDataRow örnek.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Alanlarla Çalışmak](https://docs.aspose.com/words/net/working-with-fields/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Alanlarla Çalışma](https://docs.aspose.com/words/net/working-with-fields/) belgeleme makalesi.
 
 ```csharp
 public class FieldDatabaseDataRow
@@ -22,7 +22,7 @@ public class FieldDatabaseDataRow
 
 | İsim | Tanım |
 | --- | --- |
-| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` class. |
+| [FieldDatabaseDataRow](fielddatabasedatarow/)(*params string[]*) | Yeni bir örneğini başlatır`FieldDatabaseDataRow` sınıf. |
 
 ## Özellikleri
 

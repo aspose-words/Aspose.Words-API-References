@@ -3,14 +3,14 @@ title: BorderCollection.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
 second_title: Aspose.Words لـ .NET
-description: BorderCollection ClearFormatting طريقة. إزالة كافة حدود الكائن في C#.
+description: اكتشف كيف تقوم طريقة BorderCollection ClearFormatting بإزالة جميع حدود الكائنات بسهولة، مما يعزز تصميمك بصور واضحة ونظيفة.
 type: docs
 weight: 140
 url: /ar/net/aspose.words/bordercollection/clearformatting/
 ---
 ## BorderCollection.ClearFormatting method
 
-إزالة كافة حدود الكائن.
+يزيل جميع حدود الكائن.
 
 ```csharp
 public void ClearFormatting()
@@ -18,19 +18,19 @@ public void ClearFormatting()
 
 ## أمثلة
 
-يوضح كيفية إزالة كافة الحدود من جميع الفقرات في المستند.
+يوضح كيفية إزالة كافة الحدود من كافة الفقرات في المستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Borders.docx");
 
-// تحتوي الفقرة الأولى من هذا المستند على حدود مرئية بهذه الإعدادات.
+// تحتوي الفقرة الأولى من هذه الوثيقة على حدود مرئية بهذه الإعدادات.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
 Assert.AreEqual(Color.Red.ToArgb(), firstParagraphBorders.Color.ToArgb());
 Assert.AreEqual(LineStyle.Single, firstParagraphBorders.LineStyle);
 Assert.AreEqual(3.0d, firstParagraphBorders.LineWidth);
 
-// استخدم طريقة "ClearFormatting" في كل فقرة لإزالة كافة الحدود.
+//استخدم طريقة "ClearFormatting" في كل فقرة لإزالة كافة الحدود.
 foreach (Paragraph paragraph in doc.FirstSection.Body.Paragraphs)
 {
     paragraph.ParagraphFormat.Borders.ClearFormatting();

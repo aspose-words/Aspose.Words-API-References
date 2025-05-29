@@ -3,14 +3,14 @@ title: Font.HasDmlEffect
 linktitle: HasDmlEffect
 articleTitle: HasDmlEffect
 second_title: Aspose.Words لـ .NET
-description: Font HasDmlEffect طريقة. للتحقق من تطبيق تأثير نص معين لـ DrawML في C#.
+description: اكتشف ما إذا كان تأثير نص DrawingML مُطبّقًا باستخدام طريقة Font HasDmlEffect. حسّن مظهر مستندك البصري بسهولة!
 type: docs
-weight: 560
+weight: 570
 url: /ar/net/aspose.words/font/hasdmleffect/
 ---
 ## Font.HasDmlEffect method
 
-للتحقق من تطبيق تأثير نص معين لـ DrawML.
+يتحقق مما إذا كان يتم تطبيق تأثير نص DrawingML معين.
 
 ```csharp
 public bool HasDmlEffect(TextDmlEffect dmlEffectType)
@@ -18,15 +18,15 @@ public bool HasDmlEffect(TextDmlEffect dmlEffectType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| dmlEffectType | TextDmlEffect | نوع تأثير النص DrawML. |
+| dmlEffectType | TextDmlEffect | نوع تأثير النص DrawingML. |
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم تطبيق تأثير نص معين لـ DrawML.
+`حقيقي` إذا تم تطبيق تأثير نص DrawingML معين.
 
 ## أمثلة
 
-يوضح كيفية التحقق مما إذا كان التشغيل يعرض تأثير نص DrawML.
+يوضح كيفية التحقق مما إذا كان التشغيل يعرض تأثير نص DrawingML.
 
 ```csharp
 Document doc = new Document(MyDir + "DrawingML text effects.docx");

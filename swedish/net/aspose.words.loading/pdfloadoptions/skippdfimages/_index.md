@@ -3,14 +3,14 @@ title: PdfLoadOptions.SkipPdfImages
 linktitle: SkipPdfImages
 articleTitle: SkipPdfImages
 second_title: Aspose.Words för .NET
-description: PdfLoadOptions SkipPdfImages fast egendom. Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDFdokument laddas. Standard ärfalsk  i C#.
+description: Upptäck PdfLoadOptions egenskap SkipPdfImages för att styra bildinläsning i PDF-filer. Förbättra prestandan genom att hoppa över bilder för snabbare dokumentbehandling.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.loading/pdfloadoptions/skippdfimages/
 ---
 ## PdfLoadOptions.SkipPdfImages property
 
-Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDF-dokument laddas. Standard är`falsk` .
+Hämtar eller ställer in flaggan som anger om bilder måste hoppas över när PDF-dokumentet laddas. Standard är`falsk` .
 
 ```csharp
 public bool SkipPdfImages { get; set; }
@@ -18,23 +18,21 @@ public bool SkipPdfImages { get; set; }
 
 ## Exempel
 
-Visar hur du hoppar över bilder när du laddar PDF-filer.
+Visar hur man hoppar över bilder när man laddar PDF-filer.
 
 ```csharp
 PdfLoadOptions options = new PdfLoadOptions();
 options.SkipPdfImages = isSkipPdfImages;
+options.PageIndex = 0;
+options.PageCount = 1;
 
 Document doc = new Document(MyDir + "Images.pdf", options);
 NodeCollection shapeCollection = doc.GetChildNodes(NodeType.Shape, true);
 
 if (isSkipPdfImages)
-{
     Assert.AreEqual(shapeCollection.Count, 0);
-}
 else
-{
     Assert.AreNotEqual(shapeCollection.Count, 0);
-}
 ```
 
 ### Se även

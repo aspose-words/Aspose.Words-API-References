@@ -2,27 +2,35 @@
 title: Fill.BackTintAndShade
 linktitle: BackTintAndShade
 articleTitle: BackTintAndShade
-second_title: Aspose.Words for .NET
-description: Fill BackTintAndShade mülk. Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Arka plan renginizi zahmetsizce açmak veya koyulaştırmak için BackTintAndShade özelliğini ayarlayın; böylece tasarımınızın görsel çekiciliğini ve kullanıcı deneyimini geliştirin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.drawing/fill/backtintandshade/
 ---
 ## Fill.BackTintAndShade property
 
-Arka plan rengini açan veya koyulaştıran double değerini alır veya ayarlar.
+Arka plan rengini açan veya koyulaştıran bir double değeri alır veya ayarlar.
 
 ```csharp
 public double BackTintAndShade { get; set; }
 ```
 
+### istisnalar
+
+| istisna | şart |
+| --- | --- |
+| ArgumentOutOfRangeException | Bu özelliği -1'den küçük veya 1'den büyük bir değere ayarlarsanız fırlatın. |
+
 ## Notlar
 
-Bu özellik için izin verilen değerler -1 (en koyu) ila 1 (en açık) aralığındadır. Sıfır (0) nötrdür. Bu özelliği -1'den küçük veya 1 'den büyük bir değere ayarlamaya çalışmak şu sonuçlarla sonuçlanır:ArgumentOutOfRangeException.
+Bu özellik için izin verilen değerler -1 (en koyu) ile 1 (en açık) arasında değişmektedir.
+
+Sıfır (0) nötrdür.
 
 ## Örnekler
 
-Ön plan/arka plan şekli rengi için tema renginin nasıl ayarlanacağını gösterir.
+Ön plan/arka plan şekil renginin tema renginin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

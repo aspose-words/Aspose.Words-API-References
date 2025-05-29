@@ -3,14 +3,14 @@ title: FieldIncludePicture.ResizeHorizontally
 linktitle: ResizeHorizontally
 articleTitle: ResizeHorizontally
 second_title: Aspose.Words für .NET
-description: FieldIncludePicture ResizeHorizontally eigendom. Ruft ab oder legt fest ob die Größe des Bildes horizontal von der Quelle geändert werden soll in C#.
+description: Entdecken Sie die Eigenschaft „FieldIncludePicture ResizeHorizontally“, um die Bildabmessungen für eine optimale Anzeige einfach anzupassen. Verbessern Sie Ihre Visualisierungen mühelos!
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldincludepicture/resizehorizontally/
 ---
 ## FieldIncludePicture.ResizeHorizontally property
 
-Ruft ab oder legt fest, ob die Größe des Bildes horizontal von der Quelle geändert werden soll.
+Ruft ab oder legt fest, ob die Größe des Bilds horizontal von der Quelle geändert werden soll.
 
 ```csharp
 public bool ResizeHorizontally { get; set; }
@@ -24,20 +24,20 @@ Zeigt, wie Bilder mithilfe der Felder IMPORT und INCLUDEPICTURE eingefügt werde
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nachfolgend finden Sie zwei ähnliche Feldtypen, mit denen wir Bilder anzeigen können, die aus dem lokalen Dateisystem verknüpft sind.
-// 1 – Das INCLUDEPICTURE-Feld:
+// Unten sind zwei ähnliche Feldtypen, die wir verwenden können, um Bilder anzuzeigen, die vom lokalen Dateisystem verknüpft sind.
+// 1 - Das Feld INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
 Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
 
-// Den PNG32.FLT-Filter anwenden.
+// Wenden Sie den PNG32.FLT-Filter an.
 fieldIncludePicture.GraphicFilter = "PNG32";
 fieldIncludePicture.IsLinked = true;
 fieldIncludePicture.ResizeHorizontally = true;
 fieldIncludePicture.ResizeVertically = true;
 
-// 2 – Das IMPORT-Feld:
+// 2 - Das IMPORT-Feld:
 FieldImport fieldImport = (FieldImport)builder.InsertField(FieldType.FieldImport, true);
 fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";

@@ -2,8 +2,8 @@
 title: OleControl.Name
 linktitle: Name
 articleTitle: Name
-second_title: 用于 .NET 的 Aspose.Words
-description: OleControl Name 财产. 获取或设置 ActiveX 控件的名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 OleControl Name 属性，轻松管理 ActiveX 控件的名称。立即增强功能并简化开发流程！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.drawing.ole/olecontrol/name/
@@ -18,20 +18,20 @@ public string Name { get; set; }
 
 ## 例子
 
-演示如何验证 ActiveX 控件的属性。
+展示如何验证 ActiveX 控件的属性。
 
 ```csharp
 Document doc = new Document(MyDir + "ActiveX controls.docx");
 
-Shape shape = (Shape) doc.GetChild(NodeType.Shape, 0, true);
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
 Assert.AreEqual("CheckBox1", oleControl.Name);
 
 if (oleControl.IsForms2OleControl)
 {
-    Forms2OleControl checkBox = (Forms2OleControl) oleControl;
-    Assert.AreEqual("Первый", checkBox.Caption);
+    Forms2OleControl checkBox = (Forms2OleControl)oleControl;
+    Assert.AreEqual("First", checkBox.Caption);
     Assert.AreEqual("0", checkBox.Value);
     Assert.AreEqual(true, checkBox.Enabled);
     Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);

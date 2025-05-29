@@ -3,7 +3,7 @@ title: TextColumnCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words für .NET
-description: TextColumnCollection Item eigendom. Gibt eine Textspalte am angegebenen Index zurück in C#.
+description: Greifen Sie mit der TextColumnCollection-Elementeigenschaft über den Index auf eine bestimmte Textspalte zu. Vereinfachen Sie die Datenverwaltung und steigern Sie Ihre Codierungseffizienz.
 type: docs
 weight: 30
 url: /de/net/aspose.words/textcolumncollection/item/
@@ -18,7 +18,7 @@ public TextColumn this[int index] { get; }
 
 ## Beispiele
 
-Zeigt, wie ungleichmäßig verteilte Spalten erstellt werden.
+Zeigt, wie Spalten mit ungleichmäßigem Abstand erstellt werden.
 
 ```csharp
 Document doc = new Document();
@@ -29,17 +29,17 @@ TextColumnCollection columns = pageSetup.TextColumns;
 columns.EvenlySpaced = false;
 columns.SetCount(2);
 
-// Bestimmen Sie den verfügbaren Platz für die Anordnung der Spalten.
+// Bestimmen Sie, wie viel Platz uns zum Anordnen der Spalten zur Verfügung steht.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
 Assert.AreEqual(470.30d, contentWidth, 0.01d);
 
-// Setze die erste Spalte auf schmal.
+// Legen Sie fest, dass die erste Spalte schmal ist.
 TextColumn column = columns[0];
 column.Width = 100;
 column.SpaceAfter = 20;
 
-// Legen Sie die zweite Spalte so fest, dass sie den Rest des verfügbaren Platzes innerhalb der Seitenränder einnimmt.
+// Stellen Sie die zweite Spalte so ein, dass sie den restlichen verfügbaren Platz innerhalb der Seitenränder einnimmt.
 column = columns[1];
 column.Width = contentWidth - column.Width - column.SpaceAfter;
 

@@ -3,7 +3,7 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words для .NET
-description: FileFontSource Type свойство. Возвращает тип источника шрифта на С#.
+description: Откройте для себя свойство FileFontSource Type, чтобы легко определять типы исходных шрифтов и улучшать свои дизайн-проекты с помощью точных типографских решений.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fonts/filefontsource/type/

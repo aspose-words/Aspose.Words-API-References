@@ -2,8 +2,8 @@
 title: DigitalSignatureCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: DigitalSignatureCollection Item mülk. Belirtilen dizinde bir belge imzası alır C#'da.
+second_title: .NET için Aspose.Words
+description: DigitalSignatureCollection ile belge imzalarını kolayca alın. Kolaylaştırılmış belge yönetimi ve gelişmiş verimlilik için imzalara dizine göre erişin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturecollection/item/
@@ -18,23 +18,24 @@ public DigitalSignature this[int index] { get; }
 
 | Parametre | Tanım |
 | --- | --- |
-| index | İmzanın sıfır tabanlı dizini. |
+| index | İmzanın sıfır tabanlı indeksi. |
 
 ## Örnekler
 
-X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir CertificateHolder nesnesi oluşturalım.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Bir belgeyi yerel sistem dosya adıyla tanımlayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen bir konuma kaydedin.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 

@@ -3,14 +3,14 @@ title: MustacheTag.ReferenceOffset
 linktitle: ReferenceOffset
 articleTitle: ReferenceOffset
 second_title: Aspose.Words для .NET
-description: MustacheTag ReferenceOffset свойство. Получает начальную позицию тега отсчитывающуюся от нуля от началаReferenceRun  на С#.
+description: Откройте для себя свойство MustacheTag ReferenceOffset, которое показывает начальную позицию тегов (от нуля) в ReferenceRun для точного управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.mailmerging/mustachetag/referenceoffset/
 ---
 ## MustacheTag.ReferenceOffset property
 
-Получает начальную позицию тега (отсчитывающуюся от нуля) от начала[`ReferenceRun`](../referencerun/) .
+Получает начальную позицию тега, отсчитываемую от нуля, от начала[`ReferenceRun`](../referencerun/) .
 
 ```csharp
 public int ReferenceOffset { get; }
@@ -18,7 +18,7 @@ public int ReferenceOffset { get; }
 
 ## Примеры
 
-Показывает, как работать с тегами усов.
+Показывает, как работать с бирками-усами.
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

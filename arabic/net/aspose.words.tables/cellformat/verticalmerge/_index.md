@@ -3,9 +3,9 @@ title: CellFormat.VerticalMerge
 linktitle: VerticalMerge
 articleTitle: VerticalMerge
 second_title: Aspose.Words لـ .NET
-description: CellFormat VerticalMerge ملكية. يحدد كيفية دمج الخلية مع الخلايا الأخرى عموديًا في C#.
+description: اكتشف خاصية CellFormat VerticalMerge لدمج الخلايا العمودية بسلاسة في جداول البيانات. حسّن تنظيم البيانات وعرضها بسهولة!
 type: docs
-weight: 120
+weight: 130
 url: /ar/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
@@ -18,13 +18,13 @@ public CellMerge VerticalMerge { get; set; }
 
 ## ملاحظات
 
-لا يمكن دمج الخلايا رأسيًا إلا إذا كانت حدودها اليمنى واليسرى متطابقة.
+لا يمكن دمج الخلايا عموديا إلا إذا كانت حدودها اليمنى واليسرى متطابقة.
 
-عندما يتم دمج الخلايا رأسيًا، يتم دمج مساحات العرض للخلايا المدمجة. يتم استخدام المنطقة المدمجة لعرض محتويات الخلية المدمجة رأسيًا الأولى ويجب أن تكون كافة الخلايا الأخرى المدمجة رأسيًا فارغة.
+عندما يتم دمج الخلايا عموديًا، يتم دمج مناطق العرض للخلايا المدمجة. يتم استخدام المنطقة المدمجة لعرض محتويات الخلية الأولى المدمجة عموديًا ويجب أن تكون جميع الخلايا الأخرى المدمجة عموديًا فارغة.
 
 ## أمثلة
 
-طباعة نوع الدمج الأفقي والرأسي للخلية.
+يطبع نوع الدمج الأفقي والرأسي للخلية.
 
 ```csharp
 public void CheckCellsMerged()
@@ -32,8 +32,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 
@@ -53,27 +53,27 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-يوضح كيفية دمج خلايا الجدول عموديًا.
+يوضح كيفية دمج خلايا الجدول عموديا.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل خلية في العمود الأول من الصف الأول.
-// ستكون هذه الخلية هي الأولى في نطاق من الخلايا المدمجة رأسياً.
+//أدرج خلية في العمود الأول من الصف الأول.
+// ستكون هذه الخلية هي الأولى في نطاق الخلايا المندمجة عموديًا.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// أدخل خلية في العمود الثاني من الصف الأول، ثم قم بإنهاء الصف.
-// أيضًا، قم بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
+//أدرج خلية في العمود الثاني من الصف الأول، ثم أنهِ الصف.
+// قم أيضًا بتكوين المنشئ لتعطيل الدمج الرأسي في الخلايا التي تم إنشاؤها.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
- // أدخل خلية في العمود الأول من الصف الثاني.
-// بدلاً من إضافة محتويات نصية، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها أعلاه مباشرة.
+ //أدرج خلية في العمود الأول من الصف الثاني.
+//بدلاً من إضافة محتويات النص، سنقوم بدمج هذه الخلية مع الخلية الأولى التي أضفناها مباشرة أعلاه.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 

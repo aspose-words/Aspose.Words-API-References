@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words per .NET
-description: TxtSaveOptionsBase ParagraphBreak proprietà. Specifica la stringa da utilizzare come interruzione di paragrafo durante lesportazione in formati di testo in C#.
+description: Scopri la proprietà ParagraphBreak di TxtSaveOptionsBase, che consente interruzioni di paragrafo personalizzate per esportazioni di testo fluide. Migliora la leggibilità del tuo documento!
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -32,7 +32,7 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Crea un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
+// Creiamo un oggetto "TxtSaveOptions", che possiamo passare al metodo "Save" del documento
 // per modificare il modo in cui salviamo il documento in testo normale.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 

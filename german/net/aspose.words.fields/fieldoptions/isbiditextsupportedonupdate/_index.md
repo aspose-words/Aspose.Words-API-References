@@ -3,7 +3,7 @@ title: FieldOptions.IsBidiTextSupportedOnUpdate
 linktitle: IsBidiTextSupportedOnUpdate
 articleTitle: IsBidiTextSupportedOnUpdate
 second_title: Aspose.Words für .NET
-description: FieldOptions IsBidiTextSupportedOnUpdate eigendom. Ruft den Wert ab oder legt ihn fest der angibt ob bidirektionaler Text während der Feldaktualisierung vollständig unterstützt wird oder nicht in C#.
+description: Prüfen Sie, ob die bidirektionale Textunterstützung in FieldOptions aktiviert ist. Verwalten Sie Textaktualisierungen ganz einfach für erweiterte mehrsprachige Funktionalität.
 type: docs
 weight: 150
 url: /de/net/aspose.words.fields/fieldoptions/isbiditextsupportedonupdate/
@@ -18,24 +18,24 @@ public bool IsBidiTextSupportedOnUpdate { get; set; }
 
 ## Bemerkungen
 
-Wenn diese Eigenschaft auf festgelegt ist`WAHR`werden zusätzliche Schritte ausgeführt, um während der Aktualisierung ein mit der Rechts-nach-Links-Sprache (d. h. Arabisch oder Hebräisch) kompatibles Feldergebnis zu erzeugen.
+Wenn diese Eigenschaft auf`WAHR`werden zusätzliche Schritte ausgeführt, um während der Aktualisierung ein von rechts nach links (also mit der Sprache ) kompatibles Feldergebnis (also Arabisch oder Hebräisch) zu erzeugen.
 
-Wenn diese Eigenschaft auf festgelegt ist`FALSCH` und die Rechts-nach-Links-Sprache verwendet wird, kann die Korrektheit des Felds result nach seiner Aktualisierung nicht garantiert werden.
+Wenn diese Eigenschaft auf`FALSCH` und eine von rechts nach links verlaufende Sprache verwendet wird, kann die Richtigkeit des Felds result nach seiner Aktualisierung nicht garantiert werden.
 
 Der Standardwert ist`FALSCH`.
 
 ## Beispiele
 
-Zeigt, wie Sie FieldOptions verwenden, um sicherzustellen, dass die Feldaktualisierung bidirektionalen Text vollständig unterstützt.
+Zeigt, wie Sie mithilfe von FieldOptions sicherstellen, dass die Feldaktualisierung bidirektionalen Text vollständig unterstützt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Stellen Sie sicher, dass alle Feldoperationen mit Text von rechts nach links wie erwartet ausgeführt werden.
+    // Stellen Sie sicher, dass alle Feldoperationen mit Text, der von rechts nach links geschrieben wird, wie erwartet ausgeführt werden.
 doc.FieldOptions.IsBidiTextSupportedOnUpdate = true;
 
-// Verwenden Sie einen Dokumentersteller, um ein Feld einzufügen, das den von rechts nach links verlaufenden Text enthält.
+// Verwenden Sie einen Dokumentgenerator, um ein Feld einzufügen, das den von rechts nach links verlaufenden Text enthält.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "עֶשְׂרִים", "שְׁלוֹשִׁים", "אַרְבָּעִים", "חֲמִשִּׁים", "שִׁשִּׁים" }, 0);
 comboBox.CalculateOnExit = true;
 

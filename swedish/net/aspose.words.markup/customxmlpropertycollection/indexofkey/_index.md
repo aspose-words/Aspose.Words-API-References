@@ -3,7 +3,7 @@ title: CustomXmlPropertyCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words för .NET
-description: CustomXmlPropertyCollection IndexOfKey metod. Returnerar det nollbaserade indexet för den angivna egenskapen i samlingen i C#.
+description: Upptäck CustomXmlPropertyCollection IndexOfKey-metoden för att enkelt hitta det nollbaserade indexet för valfri egenskap i din samling. Öka din kodningseffektivitet!
 type: docs
 weight: 70
 url: /sv/net/aspose.words.markup/customxmlpropertycollection/indexofkey/
@@ -18,7 +18,7 @@ public int IndexOfKey(string name)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Egendomens skiftlägeskänsliga namn. |
+| name | String | Egenskapens namn som är skiftlägeskänsligt. |
 
 ### Returvärde
 
@@ -26,22 +26,22 @@ Det nollbaserade indexet. Negativt värde om det inte hittas.
 
 ## Exempel
 
-Visar hur man arbetar med smarta taggars egenskaper för att få djupgående information om smarta taggar.
+Visar hur man arbetar med egenskaper för smarta taggar för att få djupgående information om smarta taggar.
 
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-// En smart tagg visas i ett dokument med Microsoft Word känner igen en del av sin text som någon form av data,
-// som ett namn, datum eller adress, och konverterar det till en hyperlänk som visar en lila prickad underlinje.
-// I Word 2003 kan vi aktivera smarta taggar via "Verktyg" -> "Autokorrigeringsalternativ..." -> "SmartTags".
-// I vårt indatadokument finns det tre objekt som Microsoft Word registrerade som smarta taggar.
+// En smart tagg visas i ett dokument där Microsoft Word känner igen en del av texten som någon form av data,
+// såsom ett namn, datum eller adress, och konverterar den till en hyperlänk som visar en lila prickad understrykning.
+// I Word 2003 kan vi aktivera smarta taggar via "Verktyg" -> "Alternativ för autokorrigering..." -> "Smarta taggar".
+// I vårt indatadokument finns tre objekt som Microsoft Word registrerat som smarta taggar.
 // Smarta taggar kan vara kapslade, så den här samlingen innehåller fler.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
 Assert.AreEqual(8, smartTags.Length);
 
-// "Properties"-medlemmen i en smart tagg innehåller dess metadata, som kommer att vara olika för varje typ av smart tagg.
-// Egenskaperna för en smart tagg av "datum"-typ innehåller dess år, månad och dag.
+// Medlemmen "Egenskaper" i en smarttagg innehåller dess metadata, som kommer att vara olika för varje typ av smarttagg.
+// Egenskaperna för en smarttagg av typen "datum" innehåller dess år, månad och dag.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
 Assert.AreEqual(4, properties.Count);
@@ -55,14 +55,14 @@ using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
     }
 }
 
-// Vi kan också komma åt egenskaperna på olika sätt, till exempel ett nyckel-värdepar.
+// Vi kan också komma åt egenskaperna på olika sätt, till exempel med ett nyckel-värde-par.
 Assert.True(properties.Contains("Day"));
 Assert.AreEqual("22", properties["Day"].Value);
 Assert.AreEqual("2003", properties[2].Value);
 Assert.AreEqual(1, properties.IndexOfKey("Month"));
 
-// Nedan finns tre sätt att ta bort element från egenskapssamlingen.
-// 1 - Ta bort efter index:
+// Nedan följer tre sätt att ta bort element från egenskapssamlingen.
+// 1 - Ta bort via index:
 properties.RemoveAt(3);
 
 Assert.AreEqual(3, properties.Count);

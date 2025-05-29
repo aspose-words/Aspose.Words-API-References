@@ -2,15 +2,15 @@
 title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
-second_title: Aspose.Words for .NET
-description: Chart Legend mülk. Grafik açıklama özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Grafiklerinizi zahmetsizce özelleştirmek için Grafik Efsanesi özelliğini keşfedin. Daha iyi içgörüler için özelleştirilmiş efsane seçenekleriyle veri görselleştirmeyi geliştirin!
 type: docs
-weight: 50
+weight: 70
 url: /tr/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Grafik açıklama özelliklerine erişim sağlar.
+Grafik efsanesi özelliklerine erişim sağlar.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -18,7 +18,7 @@ public ChartLegend Legend { get; }
 
 ## Örnekler
 
-Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
+Bir grafiğin açıklamasının görünümünün nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,11 +32,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin açıklamasını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşı.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerine, açıklamanın üzerine binmelerine izin vererek daha fazla yer verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

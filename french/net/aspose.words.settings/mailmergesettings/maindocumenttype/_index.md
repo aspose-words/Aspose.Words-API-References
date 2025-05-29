@@ -3,14 +3,14 @@ title: MailMergeSettings.MainDocumentType
 linktitle: MainDocumentType
 articleTitle: MainDocumentType
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings MainDocumentType propriété. Spécifie le type de document principal de publipostage. La valeur par défaut estDefault  en C#.
+description: Découvrez comment la propriété MainDocumentType de MailMergeSettings définit vos documents de publipostage. Créez des documents en toute simplicité grâce à des paramètres optimaux !
 type: docs
 weight: 140
 url: /fr/net/aspose.words.settings/mailmergesettings/maindocumenttype/
 ---
 ## MailMergeSettings.MainDocumentType property
 
-Spécifie le type de document principal de publipostage. La valeur par défaut estDefault .
+Spécifie le type de document principal de fusion et publipostage. La valeur par défaut estDefault .
 
 ```csharp
 public MailMergeMainDocumentType MainDocumentType { get; set; }
@@ -18,11 +18,11 @@ public MailMergeMainDocumentType MainDocumentType { get; set; }
 
 ## Remarques
 
-Le document principal est le document qui contient des informations identiques pour chaque version du document fusionné.
+Le document principal est le document qui contient les informations qui sont les mêmes pour chaque version du document fusionné.
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -35,8 +35,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

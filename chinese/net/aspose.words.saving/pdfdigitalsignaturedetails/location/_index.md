@@ -2,8 +2,8 @@
 title: PdfDigitalSignatureDetails.Location
 linktitle: Location
 articleTitle: Location
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfDigitalSignatureDetails Location 财产. 获取或设置签名的位置 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PdfDigitalSignatureDetails 位置属性，轻松管理和自定义文档签名位置，以增强安全性和效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/location/
@@ -22,7 +22,7 @@ public string Location { get; set; }
 
 ## 例子
 
-演示如何签署生成的 PDF 文档。
+展示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
+// 当我们使用“保存”方法呈现文档时对其进行数字签名。
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

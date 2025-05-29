@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words für .NET
-description: OfficeMath ParentParagraph eigendom. Ruft das übergeordnete Element abParagraph dieses Knotens in C#.
+description: Entdecken Sie die OfficeMath ParentParagraph-Eigenschaft, um einfach auf den übergeordneten Absatz eines beliebigen Knotens zuzugreifen und so die Formatierung und Struktur Ihres Dokuments zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.math/officemath/parentparagraph/
@@ -23,10 +23,10 @@ Zeigt, wie die Anzeigeformatierung für Office-Mathematik festgelegt wird.
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
-// OfficeMath-Knoten, die anderen OfficeMath-Knoten untergeordnet sind, sind immer inline.
-// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, um seinen Standort und Anzeigetyp zu ändern.
+// OfficeMath-Knoten, die untergeordnete Knoten anderer OfficeMath-Knoten sind, sind immer inline.
+// Der Knoten, mit dem wir arbeiten, ist der Basisknoten, dessen Standort und Anzeigetyp wir ändern möchten.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

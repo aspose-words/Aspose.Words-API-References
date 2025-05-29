@@ -3,7 +3,7 @@ title: FieldDatabaseDataRow
 linktitle: FieldDatabaseDataRow
 articleTitle: FieldDatabaseDataRow
 second_title: Aspose.Words для .NET
-description: FieldDatabaseDataRow строитель. Инициализирует новый экземплярFieldDatabaseDataRow класс на С#.
+description: Откройте для себя конструктор FieldDatabaseDataRow, легко инициализируйте новые экземпляры этого мощного класса для эффективного управления данными и повышения производительности.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fielddatabasedatarow/fielddatabasedatarow/

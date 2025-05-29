@@ -3,14 +3,14 @@ title: FieldIncludePicture.GraphicFilter
 linktitle: GraphicFilter
 articleTitle: GraphicFilter
 second_title: Aspose.Words för .NET
-description: FieldIncludePicture GraphicFilter fast egendom. Hämtar eller ställer in namnet på filtret för formatet på grafiken som ska infogas i C#.
+description: Upptäck egenskapen FieldIncludePicture GraphicFilter och hantera enkelt grafikformatfilter för sömlös bildintegration i dina projekt.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldincludepicture/graphicfilter/
 ---
 ## FieldIncludePicture.GraphicFilter property
 
-Hämtar eller ställer in namnet på filtret för formatet på grafiken som ska infogas.
+Hämtar eller anger namnet på filtret för formatet på den grafik som ska infogas.
 
 ```csharp
 public string GraphicFilter { get; set; }
@@ -18,14 +18,14 @@ public string GraphicFilter { get; set; }
 
 ## Exempel
 
-Visar hur man infogar bilder med hjälp av IMPORT- och INCLUDEPICTURE-fälten.
+Visar hur man infogar bilder med hjälp av fälten IMPORT och INCLUDEPICTURE.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
-// 1 - Fältet INKLUDERA BILD:
+// Nedan följer två liknande fälttyper som vi kan använda för att visa bilder länkade från det lokala filsystemet.
+// 1 - Fältet INCLUDEPICTURE:
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 

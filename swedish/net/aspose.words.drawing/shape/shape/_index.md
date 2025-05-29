@@ -3,7 +3,7 @@ title: Shape
 linktitle: Shape
 articleTitle: Shape
 second_title: Aspose.Words för .NET
-description: Shape byggare. Skapar ett nytt formobjekt i C#.
+description: Skapa unika formobjekt enkelt med vår formkonstruktor. Designa anpassade former och förbättra dina projekt med lätthet och precision!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing/shape/shape/
@@ -19,11 +19,11 @@ public Shape(DocumentBase doc, ShapeType shapeType)
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | doc | DocumentBase | Ägardokumentet. |
-| shapeType | ShapeType | Typen av formen som ska skapas. |
+| shapeType | ShapeType | Den typ av form som ska skapas. |
 
 ## Anmärkningar
 
-Du bör ange önskade formegenskaper efter att du skapat en form.
+Du bör ange önskade formegenskaper efter att du har skapat en form.
 
 ## Exempel
 
@@ -32,10 +32,10 @@ Visar hur man infogar en form med en bild från det lokala filsystemet i ett dok
 ```csharp
 Document doc = new Document();
 
-// "Shape"-klassens offentliga konstruktor kommer att skapa en form med "ShapeMarkupLanguage.Vml"-typ.
+// Klassens "Shape" publika konstruktor skapar en form med markuptypen "ShapeMarkupLanguage.Vml".
 // Om du behöver skapa en form av en icke-primitiv typ, till exempel SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-// TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded eller DiagonalCornersRounded,
-// använd DocumentBuilder.InsertShape.
+// ÖvreHörnEttRundatEttBeskärt, EnkeltHörnRundat, ÖvreHörnRundade eller DiagonalaHörnRundade,
+// vänligen använd DocumentBuilder.InsertShape.
 Shape shape = new Shape(doc, ShapeType.Image);
 shape.ImageData.SetImage(ImageDir + "Windows MetaFile.wmf");
 shape.Width = 100;
@@ -61,7 +61,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Lägg till ett stycke i textrutan och lägg till en serie text som textrutan kommer att visa.
+// Lägg till ett stycke i textrutan och lägg till en textsekvens som textrutan ska visa.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

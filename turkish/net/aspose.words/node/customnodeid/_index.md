@@ -2,8 +2,8 @@
 title: Node.CustomNodeId
 linktitle: CustomNodeId
 articleTitle: CustomNodeId
-second_title: Aspose.Words for .NET
-description: Node CustomNodeId mülk. Özel düğüm tanımlayıcısını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli özel düğüm tanımlaması için Node CustomNodeId özelliğini keşfedin. Daha iyi organizasyon için projenizi benzersiz tanımlayıcılarla geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words/node/customnodeid/
@@ -20,33 +20,33 @@ public int CustomNodeId { get; set; }
 
 Varsayılan sıfırdır.
 
-Bu tanımlayıcı isteğe göre ayarlanabilir ve kullanılabilir. Örneğin, harici verileri almak için bir anahtar olarak.
+Bu tanımlayıcı keyfi olarak ayarlanabilir ve kullanılabilir. Örneğin, harici verileri almak için bir anahtar olarak.
 
-Önemli not, belirtilen değer bir çıktı dosyasına kaydedilmez ve yalnızca düğümün ömrü boyunca mevcuttur.
+Önemli not, belirtilen değer bir çıktı dosyasına kaydedilmez ve yalnızca düğümün yaşam süresi boyunca var olur.
 
 ## Örnekler
 
-Bileşik bir düğümün alt düğüm koleksiyonunda nasıl geçiş yapılacağını gösterir.
+Bir bileşik düğümün alt düğüm koleksiyonunda nasıl dolaşılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Bu belgenin ilk paragrafına alt düğümler olarak iki işlem ve bir şekil ekleyin.
+// Bu belgenin ilk paragrafına iki çalışma ve bir şekil alt düğüm olarak ekleyin.
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// 'CustomNodeId'in bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün ömrü boyunca mevcut olduğunu unutmayın.
+// 'CustomNodeId' öğesinin bir çıktı dosyasına kaydedilmediğini ve yalnızca düğümün yaşam süresi boyunca var olduğunu unutmayın.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// Paragrafın yakın alt öğelerinin toplanması yoluyla yineleme yapın,
-// ve içinde bulduğumuz tüm sayıları veya şekilleri yazdırıyoruz.
+// Paragrafın hemen altındaki alt öğelerin koleksiyonunda yineleme yapın,
+// ve içinde bulduğumuz herhangi bir koşuyu veya şekli yazdırırız.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

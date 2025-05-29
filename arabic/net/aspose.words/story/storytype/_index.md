@@ -3,14 +3,14 @@ title: Story.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words لـ .NET
-description: Story StoryType ملكية. احصل على نوع هذه القصة في C#.
+description: اكتشف خاصية StoryType لتحديد قصصك وتصنيفها بسهولة، مما يعزز التنظيم ويحسن تجربة سرد القصص لديك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words/story/storytype/
 ---
 ## Story.StoryType property
 
-احصل على نوع هذه القصة.
+يحصل على نوع هذه القصة.
 
 ```csharp
 public StoryType StoryType { get; }
@@ -24,13 +24,13 @@ public StoryType StoryType { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// استخدم DocumentBuilder لإدراج شكل. وهذا شكل خطي
-// التي تحتوي على فقرة أصل، وهي عقدة فرعية لنص القسم الأول.
+// استخدم DocumentBuilder لإدراج شكل. هذا شكل مضمّن،
+// والتي تحتوي على فقرة رئيسية، وهي عقدة فرعية لجسم القسم الأول.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
 Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
 
-// يمكننا حذف جميع الأشكال من الفقرات الفرعية لهذا الجسم.
+//يمكننا حذف جميع الأشكال من الفقرات الفرعية لهذا النص.
 Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
 doc.FirstSection.Body.DeleteShapes();
 

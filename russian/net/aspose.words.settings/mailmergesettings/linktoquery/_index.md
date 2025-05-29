@@ -3,7 +3,7 @@ title: MailMergeSettings.LinkToQuery
 linktitle: LinkToQuery
 articleTitle: LinkToQuery
 second_title: Aspose.Words для .NET
-description: MailMergeSettings LinkToQuery свойство. Не уверен насчет этого. Справочник по автоматизации Microsoft Word предполагает что это указывает на то что запрос выполняется каждый раз когда документ открывается в Microsoft Word. Но спецификация OOXML предполагает что это указывает на то что запрос содержит ссылку на внешний файл запроса который содержит фактический запрос. Значение по умолчаниюЛОЖЬ  на С#.
+description: Откройте для себя свойство LinkToQuery MailMergeSettings, узнайте, как оно управляет выполнением запросов в документах Word, а также его настройки по умолчанию для оптимальной производительности.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.settings/mailmergesettings/linktoquery/
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

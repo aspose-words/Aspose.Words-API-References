@@ -3,7 +3,7 @@ title: CustomPart.Data
 linktitle: Data
 articleTitle: Data
 second_title: Aspose.Words para .NET
-description: CustomPart Data propiedad. Contiene los datos de esta pieza personalizada en C#.
+description: Explora los datos de CustomPart. Accede a información detallada sobre tus piezas personalizadas para mejorar la precisión y la eficiencia de tus proyectos.
 type: docs
 weight: 30
 url: /es/net/aspose.words.markup/custompart/data/
@@ -18,13 +18,13 @@ public byte[] Data { get; set; }
 
 ## Observaciones
 
-Esta propiedad es aplicable sólo cuando[`IsExternal`](../isexternal/) es`FALSO`.
+Esta propiedad es aplicable únicamente cuando[`IsExternal`](../isexternal/) es`FALSO`.
 
 El valor predeterminado es una matriz de bytes vacía. El valor no puede ser`nulo`.
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

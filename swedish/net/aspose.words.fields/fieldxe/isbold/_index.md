@@ -3,14 +3,14 @@ title: FieldXE.IsBold
 linktitle: IsBold
 articleTitle: IsBold
 second_title: Aspose.Words för .NET
-description: FieldXE IsBold fast egendom. Hämtar eller ställer in om fet formatering ska tillämpas på postens sidnummer i C#.
+description: Förbättra din FieldXE-upplevelse! Kontrollera fetstil för sidnummer i ingången enkelt med IsBold-egenskapen. Förbättra läsbarheten och stilen!
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldxe/isbold/
 ---
 ## FieldXE.IsBold property
 
-Hämtar eller ställer in om fet formatering ska tillämpas på postens sidnummer.
+Hämtar eller anger om fetstil ska användas för postens sidnummer.
 
 ```csharp
 public bool IsBold { get; set; }
@@ -18,34 +18,34 @@ public bool IsBold { get; set; }
 
 ## Exempel
 
-Visar hur man fyller i ett INDEX-fält med poster med XE-fält, och även ändrar dess utseende.
+Visar hur man fyller ett INDEX-fält med poster med hjälp av XE-fält, och även ändrar dess utseende.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Skapa ett INDEX-fält som visar en post för varje XE-fält som finns i dokumentet.
-// Varje post kommer att visa XE-fältets textegenskapsvärde på vänster sida,
+// Varje post visar XE-fältets egenskapsvärde för Text på vänster sida,
 // och numret på sidan som innehåller XE-fältet till höger.
-// Om XE-fälten har samma värde i egenskapen "Text",
+// Om XE-fälten har samma värde i sin "Text"-egenskap,
 // INDEX-fältet grupperar dem i en post.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
-// Om du ställer in den här egenskapens värde till "A" grupperas alla poster efter deras första bokstav,
-// och placera den bokstaven med versaler ovanför varje grupp.
+// Om du ställer in egenskapens värde på "A" grupperas alla poster efter deras första bokstav,
+// och placera den bokstaven med versal ovanför varje grupp.
 index.Heading = "A";
 
 // Ställ in tabellen som skapas av INDEX-fältet så att den sträcker sig över 2 kolumner.
 index.NumberOfColumns = "2";
 
-// Ställ in att alla poster med startbokstäver utanför teckenintervallet "ac" ska utelämnas.
+// Ställ in alla poster med startbokstäver utanför teckenintervallet "ac" som utelämnade.
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
 
-// Dessa nästa två XE-fält kommer att dyka upp under rubriken "A",
-// med deras respektive textstilar tillämpas också på deras sidnummer.
+// Dessa två nästa XE-fält kommer att visas under rubriken "A",
+// med deras respektive textformateringar även tillämpade på deras sidnummer.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
@@ -60,7 +60,7 @@ indexEntry.IsBold = true;
 
 Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
 
-// Båda de två nästa XE-fälten kommer att finnas under rubrikerna "B" och "C" i INDEX-fältens innehållsförteckning.
+// Båda de två nästföljande XE-fälten kommer att finnas under rubrikerna "B" och "C" i innehållsförteckningen för INDEX-fälten.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
@@ -69,13 +69,13 @@ builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cherry";
 
-// INDEX-fält sorterar alla poster i alfabetisk ordning, så denna post kommer att dyka upp under "A" med de andra två.
+// INDEX-fält sorterar alla poster alfabetiskt, så den här posten visas under "A" med de andra två.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
-// Den här posten kommer inte att visas eftersom den börjar med bokstaven "D",
-// som ligger utanför teckenintervallet "ac" som INDEX-fältets LetterRange-egenskap definierar.
+// Den här posten visas inte eftersom den börjar med bokstaven "D",
+// vilket ligger utanför teckenintervallet "ac" som definieras av egenskapen LetterRange i INDEX-fältet.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

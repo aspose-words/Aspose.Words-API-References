@@ -2,15 +2,15 @@
 title: TableStyle.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle LeftPadding 财产. 获取或设置要添加到表格单元格内容左侧的空间量以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle 的 LeftPadding 属性，自定义表格单元格布局。轻松调整左侧间距，打造美观专业的外观。
 type: docs
 weight: 100
 url: /zh/net/aspose.words/tablestyle/leftpadding/
 ---
 ## TableStyle.LeftPadding property
 
-获取或设置要添加到表格单元格内容左侧的空间量（以磅为单位）。
+获取或设置在表格单元格内容左侧添加的空间量（以点为单位）。
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

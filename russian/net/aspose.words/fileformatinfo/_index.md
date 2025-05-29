@@ -3,16 +3,16 @@ title: FileFormatInfo Class
 linktitle: FileFormatInfo
 articleTitle: FileFormatInfo
 second_title: Aspose.Words для .NET
-description: Aspose.Words.FileFormatInfo сорт. Содержит данные возвращаемыеFileFormatUtil методы определения формата документа на С#.
+description: Откройте для себя класс Aspose.Words.FileFormatInfo для эффективного определения формата документа. Получите доступ к подробным данным для улучшения ваших решений по управлению файлами.
 type: docs
-weight: 2810
+weight: 3220
 url: /ru/net/aspose.words/fileformatinfo/
 ---
 ## FileFormatInfo class
 
 Содержит данные, возвращаемые[`FileFormatUtil`](../fileformatutil/) методы определения формата документа.
 
-Чтобы узнать больше, посетите[Определить формат файла и проверить совместимость форматов](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) статья документации.
+Чтобы узнать больше, посетите[Определить формат файла и проверить совместимость формата](https://docs.aspose.com/words/net/detect-file-format-and-check-format-compatibility/) документальная статья.
 
 ```csharp
 public class FileFormatInfo
@@ -22,24 +22,25 @@ public class FileFormatInfo
 
 | Имя | Описание |
 | --- | --- |
-| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Получает обнаруженную кодировку, если она применима к текущему формату документа. На данный момент определяет кодировку только для документов HTML. |
-| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Возвращает`истинный`если этот документ содержит цифровую подпись. Это свойство просто сообщает, что в документе присутствует цифровая подпись, , но не указывает, действительна ли подпись или нет. |
-| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Возвращает`истинный` если документ зашифрован и для открытия требуется пароль. |
+| [Encoding](../../aspose.words/fileformatinfo/encoding/) { get; } | Получает обнаруженную кодировку, если она применима к текущему формату документа. В данный момент определяет кодировку только для документов HTML. |
+| [HasDigitalSignature](../../aspose.words/fileformatinfo/hasdigitalsignature/) { get; } | Возврат`истинный`если этот документ содержит цифровую подпись. Это свойство просто информирует о наличии цифровой подписи в документе, , но не указывает, действительна ли подпись или нет. |
+| [HasMacros](../../aspose.words/fileformatinfo/hasmacros/) { get; } | Возврат`истинный` если этот документ содержит макросы VBA. |
+| [IsEncrypted](../../aspose.words/fileformatinfo/isencrypted/) { get; } | Возврат`истинный` если документ зашифрован и для его открытия требуется пароль. |
 | [LoadFormat](../../aspose.words/fileformatinfo/loadformat/) { get; } | Получает обнаруженный формат документа. |
 
 ## Примечания
 
-Вы не создаете экземпляры этого класса напрямую. Объекты этого класса возвращаются [`DetectFileFormat`](../fileformatutil/detectfileformat/) методы.
+Вы не создаете экземпляры этого класса напрямую. Объекты этого класса возвращаются by [`DetectFileFormat`](../fileformatutil/detectfileformat/) методы.
 
 ## Примеры
 
-Показывает, как использовать класс FileFormatUtil для определения формата и шифрования документа.
+Показывает, как использовать класс FileFormatUtil для определения формата документа и шифрования.
 
 ```csharp
 Document doc = new Document();
 
-// Настраиваем объект SaveOptions для шифрования документа
-// с паролем, когда мы его сохраняем, а затем сохраняем документ.
+// Настройте объект SaveOptions для шифрования документа
+// с паролем при сохранении, а затем сохраняем документ.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -55,15 +56,16 @@ Assert.True(info.IsEncrypted);
 Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
 
 ```csharp
-// Используйте экземпляр FileFormatInfo, чтобы убедиться, что документ не имеет цифровой подписи.
+// Используйте экземпляр FileFormatInfo, чтобы проверить, что документ не имеет цифровой подписи.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Используйте новый FileFormatInstance, чтобы подтвердить, что он подписан.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");

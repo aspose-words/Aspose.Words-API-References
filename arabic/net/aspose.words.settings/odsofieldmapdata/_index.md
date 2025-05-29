@@ -3,9 +3,9 @@ title: OdsoFieldMapData Class
 linktitle: OdsoFieldMapData
 articleTitle: OdsoFieldMapData
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Settings.OdsoFieldMapData فصل. يحدد كيفية تعيين عمود في مصدر البيانات الخارجي إلى حقول الدمج المحددة مسبقًا داخل المستند في C#.
+description: اكتشف فئة Aspose.Words.OdsoFieldMapData لربط أعمدة البيانات الخارجية بسلاسة بحقول دمج المستندات المحددة مسبقًا، مما يعزز أتمتة المستندات لديك.
 type: docs
-weight: 5900
+weight: 6730
 url: /ar/net/aspose.words.settings/odsofieldmapdata/
 ---
 ## OdsoFieldMapData class
@@ -28,30 +28,30 @@ public class OdsoFieldMapData
 
 | اسم | وصف |
 | --- | --- |
-| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | يحدد الفهرس الصفري للعمود داخل مصدر بيانات خارجي والذي يجب أن يتم تعيينه إلى الاسم المحلي لحقل MERGEFIELD محدد. القيمة الافتراضية هي 0. |
-| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](./column/) الخاصية ضمن تعيين هذا الحقل. القيمة الافتراضية هي سلسلة فارغة. |
-| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | يحدد اسم العمود ضمن مصدر بيانات خارجي للعمود الذي تم تحديد فهرسه بواسطة[`Column`](./column/)property. القيمة الافتراضية هي سلسلة فارغة. |
-| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | تحديد ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد أم لا. القيمة الافتراضية هيDefault . |
+| [Column](../../aspose.words.settings/odsofieldmapdata/column/) { get; set; } | يحدد الفهرس الصفري للعمود داخل مصدر بيانات خارجي والذي يجب أن يكون مطابقًا للاسم المحلي لحقل MERGEFIELD محدد. القيمة الافتراضية هي 0. |
+| [MappedName](../../aspose.words.settings/odsofieldmapdata/mappedname/) { get; set; } | يحدد اسم حقل الدمج المحدد مسبقًا والذي يجب تعيينه إلى رقم العمود المحدد بواسطة[`Column`](./column/) الخاصية داخل هذا الحقل mapping. القيمة الافتراضية هي سلسلة فارغة. |
+| [Name](../../aspose.words.settings/odsofieldmapdata/name/) { get; set; } | يحدد اسم العمود داخل مصدر بيانات خارجي للعمود الذي تم تحديد فهرسه بواسطة[`Column`](./column/)property. القيمة الافتراضية هي سلسلة فارغة. |
+| [Type](../../aspose.words.settings/odsofieldmapdata/type/) { get; set; } | يحدد ما إذا كان حقل دمج البريد المحدد قد تم تعيينه إلى عمود في مصدر البيانات الخارجي المحدد أم لا. القيمة الافتراضية هيDefault . |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | يُرجع نسخة عميقة من هذا الكائن. |
+| [Clone](../../aspose.words.settings/odsofieldmapdata/clone/)() | يعيد نسخة طبق الأصل من هذا الكائن. |
 
 ## ملاحظات
 
-يوفر Microsoft Word بعض أسماء حقول الدمج المحددة مسبقًا والتي يسمح بإدراجها في مستند مثل MERGEFIELD أو للاستخدام في حقول ADDRESSBLOCK أو GREETINGLINE. المعلومات المحددة في`OdsoFieldMapData`يسمح بتعيين عمود واحد في مصدر البيانات الخارجي إلى حقل دمج واحد محدد مسبقًا.
+يوفر مايكروسوفت وورد بعض أسماء حقول الدمج المُعرّفة مسبقًا، والتي تسمح بإدراجها في مستند، مثل استخدام MERGEFIELD أو في حقلي ADDRESSBLOCK أو GREETINGLINE. المعلومات المحددة في`OdsoFieldMapData`يسمح لك بتعيين عمود واحد في مصدر البيانات الخارجي إلى حقل دمج محدد مسبقًا.
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات لدمج الحقول.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تقوم بتعيين أعمدة مصدر البيانات إلى حقول الدمج.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// تحدد هذه المجموعة كيفية تعيين دمج البريد للأعمدة من مصدر بيانات
-// لحقول MERGEFIELD وADDRESSBLOCK وGREETINGLINE المحددة مسبقًا.
+// تحدد هذه المجموعة كيفية قيام دمج البريد بتعيين الأعمدة من مصدر البيانات
+// إلى الحقول المحددة مسبقًا MERGEFIELD وADDRESSBLOCK وGREETINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -69,15 +69,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// استنساخ العناصر الموجودة في هذه المجموعة.
+//استنساخ العناصر في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// استخدم عناصر الطريقة "RemoveAt" بشكل فردي حسب الفهرس.
+// استخدم عناصر طريقة "RemoveAt" بشكل فردي حسب الفهرس.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// استخدم طريقة "مسح" لمسح المجموعة بأكملها مرة واحدة.
+//استخدم طريقة "المسح" لمسح المجموعة بأكملها مرة واحدة.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

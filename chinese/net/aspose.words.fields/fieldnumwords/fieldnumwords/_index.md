@@ -2,8 +2,8 @@
 title: FieldNumWords
 linktitle: FieldNumWords
 articleTitle: FieldNumWords
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldNumWords 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldNumWords 构造函数，它是您在项目中高效进行字数统计的必备工具。使用我们的默认设置，简化您的编码！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fieldnumwords/fieldnumwords/

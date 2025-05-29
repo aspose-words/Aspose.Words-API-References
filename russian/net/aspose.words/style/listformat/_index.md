@@ -3,7 +3,7 @@ title: Style.ListFormat
 linktitle: ListFormat
 articleTitle: ListFormat
 second_title: Aspose.Words для .NET
-description: Style ListFormat свойство. Предоставляет доступ к свойствам форматирования списка стиля абзаца на С#.
+description: Узнайте, как настроить свойство ListFormat для стилей абзацев, улучшив организацию и визуальную привлекательность документа.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/style/listformat/
@@ -18,7 +18,7 @@ public ListFormat ListFormat { get; }
 
 ## Примечания
 
-Это свойство допустимо только для стилей абзацев. Для других типов стилей это свойство возвращает значение.`нулевой`.
+Это свойство действительно только для стилей абзацев. Для других типов стилей это свойство возвращает`нулевой`.
 
 ## Примеры
 
@@ -28,7 +28,7 @@ public ListFormat ListFormat { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Создаем собственный стиль абзаца.
+// Создать пользовательский стиль абзаца.
 Style style = doc.Styles.Add(StyleType.Paragraph, "MyStyle1");
 style.Font.Size = 24;
 style.Font.Name = "Verdana";
@@ -38,11 +38,11 @@ style.ParagraphFormat.SpaceAfter = 12;
 style.ListFormat.List = doc.Lists.Add(ListTemplate.BulletDefault);
 style.ListFormat.ListLevelNumber = 0;
 
-// Примените стиль абзаца к текущему абзацу конструктора документов, а затем добавьте текст.
+// Применяем стиль абзаца к текущему абзацу конструктора документа, а затем добавляем текст.
 builder.ParagraphFormat.Style = style;
 builder.Writeln("Hello World: MyStyle1, bulleted list.");
 
-// Измените стиль компоновщика документов на стиль без форматирования списка и напишите еще один абзац.
+// Измените стиль конструктора документов на такой, который не имеет форматирования списка, и напишите еще один абзац.
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 builder.Writeln("Hello World: Normal.");
 

@@ -3,14 +3,14 @@ title: HeightRule Enum
 linktitle: HeightRule
 articleTitle: HeightRule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.HeightRule uppräkning. Anger regeln för att bestämma höjden på ett objekt i C#.
+description: Upptäck Aspose.Words.HeightRule enum för exakt kontroll över objekthöjd i dokument. Optimera ditt arbetsflöde med denna viktiga funktion!
 type: docs
-weight: 3130
+weight: 3560
 url: /sv/net/aspose.words/heightrule/
 ---
 ## HeightRule enumeration
 
-Anger regeln för att bestämma höjden på ett objekt.
+Anger regeln för att bestämma ett objekts höjd.
 
 ```csharp
 public enum HeightRule
@@ -20,9 +20,9 @@ public enum HeightRule
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| AtLeast | `0` | Höjden kommer att vara minst den angivna höjden i poäng. Det kommer att växa, om det behövs, för att rymma all text inuti ett objekt. |
-| Exactly | `1` | Höjden anges exakt i punkter. Observera att om texten inte kan passa inuti objektet med denna höjd, kommer den att se trunkerad ut. |
-| Auto | `2` | Höjden växer automatiskt för att rymma all text inuti ett objekt. |
+| AtLeast | `0` | Höjden kommer att vara minst den angivna höjden i punkter. Den kommer att öka, om det behövs, för att rymma all text inuti ett objekt. |
+| Exactly | `1` | Höjden anges exakt i punkter. Observera att om texten inte kan få plats inuti objektet med denna höjd kommer den att visas avkortad. |
+| Auto | `2` | Höjden ökar automatiskt för att få plats med all text inuti ett objekt. |
 
 ## Exempel
 
@@ -37,7 +37,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Starta en andra rad och konfigurera sedan dess höjd. Byggaren kommer att tillämpa dessa inställningar på
-// dess nuvarande rad, såväl som alla nya rader som den skapar efteråt.
+// dess nuvarande rad, såväl som alla nya rader som skapas efteråt.
 builder.EndRow();
 
 RowFormat rowFormat = builder.RowFormat;
@@ -48,7 +48,7 @@ builder.InsertCell();
 builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
-// Den första raden påverkades inte av utfyllnadsomställningen och har fortfarande standardvärdena.
+// Den första raden påverkades inte av omkonfigureringen av utfyllnaden och har fortfarande standardvärdena.
 Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 

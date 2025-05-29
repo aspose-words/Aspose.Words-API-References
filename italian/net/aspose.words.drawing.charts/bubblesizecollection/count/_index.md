@@ -3,7 +3,7 @@ title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: BubbleSizeCollection Count proprietà. Ottiene il numero di elementi in questa raccolta in C#.
+description: Scopri la proprietà BubbleSizeCollection Count per monitorare facilmente il numero di elementi nella tua collezione. Migliora la tua gestione dei dati oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/bubblesizecollection/count/

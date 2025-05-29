@@ -3,14 +3,14 @@ title: HtmlSaveOptions.CssSavingCallback
 linktitle: CssSavingCallback
 articleTitle: CssSavingCallback
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions CssSavingCallback proprietà. Permette di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML MHTML o EPUB in C#.
+description: Controlla il salvataggio degli stili CSS con HtmlSaveOptions CssSavingCallback. Ottimizza le esportazioni dei tuoi documenti in HTML, MHTML o EPUB senza sforzo!
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/htmlsaveoptions/csssavingcallback/
 ---
 ## HtmlSaveOptions.CssSavingCallback property
 
-Permette di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML, MHTML o EPUB.
+Consente di controllare come vengono salvati gli stili CSS quando un documento viene salvato in HTML, MHTML o EPUB.
 
 ```csharp
 public ICssSavingCallback CssSavingCallback { get; set; }
@@ -25,19 +25,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crea un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
+    // Creiamo un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" su
+    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" per
     // accompagna un documento HTML salvato con un file di foglio di stile CSS esterno.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizzare la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
+    // 2 - Utilizza un callback personalizzato per nominare il nostro foglio di stile:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -58,7 +58,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

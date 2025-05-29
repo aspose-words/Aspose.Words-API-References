@@ -3,14 +3,14 @@ title: SaveOptions.UseAntiAliasing
 linktitle: UseAntiAliasing
 articleTitle: UseAntiAliasing
 second_title: Aspose.Words لـ .NET
-description: SaveOptions UseAntiAliasing ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا في C#.
+description: اكتشف خاصية "حفظ الخيارات" و"استخدام خاصية منع التعرجات" لتحسين جودة العرض. تحكّم في خاصية منع التعرجات للحصول على صور أكثر سلاسة وأداء أفضل.
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.words.saving/saveoptions/useantialiasing/
 ---
 ## SaveOptions.UseAntiAliasing property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كان سيتم استخدام الصقل للعرض أم لا.
+يحصل على قيمة أو يعينها لتحديد ما إذا كان سيتم استخدام التنعيم للرسم أم لا.
 
 ```csharp
 public bool UseAntiAliasing { get; set; }
@@ -18,13 +18,13 @@ public bool UseAntiAliasing { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي`خطأ شنيع` . عندما يتم ضبط هذه القيمة على`حقيقي` يتم استخدام الصقل للعرض.
+القيمة الافتراضية هي`خطأ شنيع` . عندما يتم تعيين هذه القيمة على`حقيقي` يتم استخدام التنعيم في العرض.
 
-يتم استخدام هذه الخاصية عند تصدير المستند إلى التنسيقات التالية: Tiff ,Png ,BmpJpeg ,Emf . عندما يتم تصدير المستند إلى the Html ,MhtmlEpub ,Azw3 أوMobi التنسيقات يستخدم هذا الخيار للصور النقطية.
+يتم استخدام هذه الخاصية عند تصدير المستند إلى التنسيقات التالية: Tiff ،Png ،Bmp ، Jpeg ،Emf . عند تصدير المستند إلى Html ،Mhtml ، Epub ،Azw3 أوMobiيستخدم هذا الخيار للصور النقطية.
 
 ## أمثلة
 
-يوضح كيفية تحسين جودة المستند المعروض باستخدام SaveOptions.
+يوضح كيفية تحسين جودة المستند المقدم باستخدام SaveOptions.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

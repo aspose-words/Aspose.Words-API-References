@@ -3,14 +3,14 @@ title: ComparisonEvaluationResult
 linktitle: ComparisonEvaluationResult
 articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words för .NET
-description: ComparisonEvaluationResult byggare. Skapar ett resultat för jämförelseutvärdering i C#.
+description: Upptäck konstruktorn ComparisonEvaluationResult för att effektivt generera och analysera jämförande utvärderingsresultat för bättre beslutsfattande.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/comparisonevaluationresult/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult(*bool*) {#constructor}
 
-Skapar ett resultat för jämförelseutvärdering.
+Skapar ett jämförande utvärderingsresultat.
 
 ```csharp
 public ComparisonEvaluationResult(bool result)
@@ -18,7 +18,7 @@ public ComparisonEvaluationResult(bool result)
 
 ## Exempel
 
-Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
+Visar hur man implementerar anpassad utvärdering för fälten OM och JÄMFÖR.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -30,12 +30,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Fältkoder som vi använder i detta exempel:
-    // 1. " IF {0} {1} {2} \"true argument\" \"false argument\" ".
-    // 2. " JÄMFÖR {0} {1} {2} ".
+    // Fältkoder som vi använder i det här exemplet:
+    // 1. " OM {0} {1} {2} "sant argument" "falskt argument" .
+    // 2. "JÄMFÖR {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med sträng, istället för bool.
+    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med strängen istället för bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)
@@ -107,7 +112,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
 ## ComparisonEvaluationResult(*string*) {#constructor_1}
 
-Skapar ett misslyckat resultat för jämförelseutvärdering med motsvarande felmeddelande.
+Skapar ett misslyckat jämförelseutvärderingsresultat med motsvarande felmeddelande.
 
 ```csharp
 public ComparisonEvaluationResult(string errorMessage)
@@ -115,7 +120,7 @@ public ComparisonEvaluationResult(string errorMessage)
 
 ## Exempel
 
-Visar hur man implementerar anpassad utvärdering för IF- och COMPARE-fälten.
+Visar hur man implementerar anpassad utvärdering för fälten OM och JÄMFÖR.
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -127,12 +132,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Fältkoder som vi använder i detta exempel:
-    // 1. " IF {0} {1} {2} \"true argument\" \"false argument\" ".
-    // 2. " JÄMFÖR {0} {1} {2} ".
+    // Fältkoder som vi använder i det här exemplet:
+    // 1. " OM {0} {1} {2} "sant argument" "falskt argument" .
+    // 2. "JÄMFÖR {0} {1} {2}".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med sträng, istället för bool.
+    // Om "comparisonResult" är odefinierat skapar vi "ComparisonEvaluationResult" med strängen istället för bool.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -154,6 +159,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

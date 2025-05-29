@@ -3,14 +3,14 @@ title: MailMergeSettings.Destination
 linktitle: Destination
 articleTitle: Destination
 second_title: Aspose.Words para .NET
-description: MailMergeSettings Destination propiedad. Especifica cómo Microsoft Word generará los resultados de una combinación de correspondencia. El valor predeterminado esDefault  en C#.
+description: Descubra cómo personalizar la propiedad Destino de MailMergeSettings en Microsoft Word para obtener resultados de combinación de correspondencia personalizados. ¡Maximice la eficiencia de sus documentos hoy mismo!
 type: docs
 weight: 80
 url: /es/net/aspose.words.settings/mailmergesettings/destination/
 ---
 ## MailMergeSettings.Destination property
 
-Especifica cómo Microsoft Word generará los resultados de una combinación de correspondencia. El valor predeterminado esDefault .
+Especifica cómo Microsoft Word mostrará los resultados de una combinación de correspondencia. El valor predeterminado esDefault .
 
 ```csharp
 public MailMergeDestination Destination { get; set; }
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

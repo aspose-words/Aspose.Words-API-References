@@ -3,7 +3,7 @@ title: MustacheTag.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: MustacheTag Text proprietà. Ottiene il testo del tag in C#.
+description: Scopri la proprietà MustacheTag Text per recuperare e utilizzare senza sforzo il testo dei tag per una migliore gestione dei dati e un'integrazione perfetta.
 type: docs
 weight: 30
 url: /it/net/aspose.words.mailmerging/mustachetag/text/

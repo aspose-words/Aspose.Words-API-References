@@ -3,7 +3,7 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
 linktitle: EmulateRenderingToSizeOnPageResolution
 articleTitle: EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words för .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution fast egendom. Hämtar eller ställer in upplösningen i pixlar per tum för emulering av metafilrendering till storleken på sidan i C#.
+description: Upptäck egenskapen MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution. Styr metafilrenderingsupplösningen för optimal sidvisning.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
@@ -18,24 +18,24 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 
 ## Anmärkningar
 
-Detta alternativ används endast när[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) är satt till`Sann`.
+Det här alternativet används endast när[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) är inställd på`sann`.
 
-Standardvärdet är 96. Detta är en standardskärmupplösning. Dvs metafilrendering kommer att emulera visningen av metafilen i MS Word med en 100% zoomfaktor.
+Standardvärdet är 96. Detta är en standardupplösning för skärmbilden. Dvs. metafilrendering kommer att emulera visningen av metafilen i MS Word med en zoomfaktor på 100 %.
 
 ## Exempel
 
-Visar hur man visar metafilen enligt storleken på sidan.
+Visar hur metafilen visas beroende på storleken på sidan.
 
 ```csharp
 Document doc = new Document(MyDir + "WMF with text.docx");
 
-// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Spara"-metod
+// Skapa ett "PdfSaveOptions"-objekt som vi kan skicka till dokumentets "Save"-metod
 // för att ändra hur den metoden konverterar dokumentet till .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// Ställ in egenskapen "EmulateRenderingToSizeOnPage" till "true"
+// Sätt egenskapen "EmulateRenderingToSizeOnPage" till "true"
 // för att emulera rendering enligt metafilstorleken på sidan.
-// Ställ in egenskapen "EmulateRenderingToSizeOnPage" till "false"
+// Sätt egenskapen "EmulateRenderingToSizeOnPage" till "false"
 // för att emulera metafilrendering till dess standardstorlek i pixlar.
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPage = renderToSize;
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution = 50;

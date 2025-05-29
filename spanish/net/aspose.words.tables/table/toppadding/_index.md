@@ -3,14 +3,14 @@ title: Table.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words para .NET
-description: Table TopPadding propiedad. Obtiene o establece la cantidad de espacio en puntos que se agregará encima del contenido de las celdas en C#.
+description: Descubra la propiedad Table TopPadding, ajuste fácilmente el espacio en puntos sobre el contenido de la celda para un mejor control del diseño y una mejor legibilidad.
 type: docs
 weight: 330
 url: /es/net/aspose.words.tables/table/toppadding/
 ---
 ## Table.TopPadding property
 
-Obtiene o establece la cantidad de espacio (en puntos) que se agregará encima del contenido de las celdas.
+Obtiene o establece la cantidad de espacio (en puntos) que se agregará sobre el contenido de las celdas.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -31,8 +31,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndTable();
 
- // Para cada celda de la tabla, establece la distancia entre su contenido y cada uno de sus bordes.
-// Esta tabla mantendrá la distancia mínima de relleno ajustando el texto.
+ // Para cada celda de la tabla, establezca la distancia entre su contenido y cada uno de sus bordes.
+// Esta tabla mantendrá la distancia de relleno mínima ajustando el texto.
 table.LeftPadding = 30;
 table.RightPadding = 60;
 table.TopPadding = 10;

@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreStructuredDocumentTags
 linktitle: IgnoreStructuredDocumentTags
 articleTitle: IgnoreStructuredDocumentTags
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions IgnoreStructuredDocumentTags ملكية. الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل المحتوىStructuredDocumentTag . القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية FindReplaceOptions IgnoreStructuredDocumentTags. تحكّم في تجاهل محتوى StructuredDocumentTag باستخدام هذا الإعداد المنطقي سهل الاستخدام.
 type: docs
 weight: 120
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignorestructureddocumenttags/
 ---
 ## FindReplaceOptions.IgnoreStructuredDocumentTags property
 
-الحصول على أو تعيين قيمة منطقية تشير إما إلى تجاهل المحتوى[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) . القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى تجاهل محتوى[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreStructuredDocumentTags { get; set; }
@@ -18,9 +18,9 @@ public bool IgnoreStructuredDocumentTags { get; set; }
 
 ## ملاحظات
 
-عند ضبط هذا الخيار على`حقيقي` ، المحتوى من[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) سيتم التعامل مع كنص بسيط.
+عندما يتم تعيين هذا الخيار على`حقيقي` ، محتوى[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) سيتم التعامل مع كنص بسيط.
 
-وإلا،[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ستتم معالجتها كـ Story مستقل وسيتم البحث عن نمط الاستبدال بشكل منفصل لكل منها[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)، بحيث إذا تجاوز النمط a[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، فلن يتم إجراء الاستبدال لمثل هذا النمط.
+وإلا،[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) سيتم معالجتها كقصة مستقلة وسيتم البحث عن نمط الاستبدال بشكل منفصل لكل منها[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، بحيث إذا عبر النمط عن[`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) ، ثم لن يتم إجراء الاستبدال لمثل هذا النمط.
 
 ## أمثلة
 

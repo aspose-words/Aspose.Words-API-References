@@ -3,14 +3,14 @@ title: FieldOptions.PreProcessCulture
 linktitle: PreProcessCulture
 articleTitle: PreProcessCulture
 second_title: Aspose.Words für .NET
-description: FieldOptions PreProcessCulture eigendom. Ruft die Kultur ab oder legt sie fest um Feldwerte vorzuverarbeiten in C#.
+description: Entdecken Sie, wie FieldOptions PreProcessCulture Ihre Datenverarbeitung verbessert, indem es Feldwertkulturen für mehr Genauigkeit und Effizienz anpasst.
 type: docs
 weight: 170
 url: /de/net/aspose.words.fields/fieldoptions/preprocessculture/
 ---
 ## FieldOptions.PreProcessCulture property
 
-Ruft die Kultur ab oder legt sie fest, um Feldwerte vorzuverarbeiten.
+Ruft die Kultur zur Vorverarbeitung von Feldwerten ab oder legt sie fest.
 
 ```csharp
 public CultureInfo PreProcessCulture { get; set; }
@@ -18,9 +18,9 @@ public CultureInfo PreProcessCulture { get; set; }
 
 ## Bemerkungen
 
-Derzeit wirkt sich diese Eigenschaft nur auf den Wert aus[`FieldDocProperty`](../../fielddocproperty/) Feld.
+Derzeit betrifft diese Eigenschaft nur den Wert des[`FieldDocProperty`](../../fielddocproperty/) Feld.
 
-Der Standardwert ist`Null` . Wenn diese Eigenschaft auf festgelegt ist`Null` , Die[`FieldDocProperty`](../../fielddocproperty/)Der Wert des Feldes ist preprocessed mit der Kultur, die von gesteuert wird[`FieldUpdateCultureSource`](../fieldupdateculturesource/) Eigentum.
+Der Standardwert ist`null` Wenn diese Eigenschaft auf`null` , Die[`FieldDocProperty`](../../fielddocproperty/) Der Wert des Feldes ist vorverarbeitet mit der Kultur, die durch das[`FieldUpdateCultureSource`](../fieldupdateculturesource/) Eigentum.
 
 ## Beispiele
 
@@ -36,13 +36,13 @@ doc.FieldOptions.PreProcessCulture = new CultureInfo("de-DE");
 Field field = builder.InsertField(" DOCPROPERTY CreateTime");
 
 // Das DOCPROPERTY-Feld zeigt sein Ergebnis entsprechend der Vorverarbeitungskultur formatiert an
-// wir haben auf Deutsch eingestellt. Das Feld zeigt Datum/Uhrzeit im Format „tt.mm.jjjj hh:mm“ an.
+// Wir haben es auf Deutsch eingestellt. Das Feld zeigt Datum und Uhrzeit im Format "TT.MM.JJJJ hh:MM" an.
 Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success);
 
 doc.FieldOptions.PreProcessCulture = CultureInfo.InvariantCulture;
 field.Update();
 
-// Nach dem Wechsel zur invarianten Kultur verwendet das DOCPROPERTY-Feld das Format „MM/TT/JJJJ hh:mm“.
+// Nach dem Wechsel zur invarianten Kultur verwendet das Feld DOCPROPERTY das Format „mm/dd/yyyy hh:mm“.
 Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").Success);
 ```
 

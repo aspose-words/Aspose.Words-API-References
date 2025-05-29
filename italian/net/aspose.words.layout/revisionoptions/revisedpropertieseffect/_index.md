@@ -3,22 +3,24 @@ title: RevisionOptions.RevisedPropertiesEffect
 linktitle: RevisedPropertiesEffect
 articleTitle: RevisedPropertiesEffect
 second_title: Aspose.Words per .NET
-description: RevisionOptions RevisedPropertiesEffect proprietà. Permette di specificare leffetto per le aree di contenuto con modifiche alle proprietà di formattazioneFormatChange Il valore predefinito èNone in C#.
+description: Scopri come RevisedPropertiesEffect in RevisionOptions migliora la formattazione dei tuoi contenuti. Personalizza facilmente le modifiche con la funzione FormatChange.
 type: docs
-weight: 120
+weight: 140
 url: /it/net/aspose.words.layout/revisionoptions/revisedpropertieseffect/
 ---
 ## RevisionOptions.RevisedPropertiesEffect property
 
-Permette di specificare l'effetto per le aree di contenuto con modifiche alle proprietà di formattazioneFormatChange Il valore predefinito èNone
+Consente di specificare l'effetto per le aree di contenuto con modifiche delle proprietà di formattazioneFormatChange Il valore predefinito èNone
 
 ```csharp
 public RevisionTextEffect RevisedPropertiesEffect { get; set; }
 ```
 
-## Osservazioni
+### Eccezioni
 
-Hiddennon è consentito e causeràArgumentOutOfRangeException.
+| eccezione | condizione |
+| --- | --- |
+| ArgumentOutOfRangeException | Hidden non è consentito. |
 
 ## Esempi
 
@@ -27,10 +29,10 @@ Mostra come modificare l'aspetto delle revisioni.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Ottiene l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
+// Ottieni l'oggetto RevisionOptions che controlla l'aspetto delle revisioni.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Visualizza le revisioni dell'inserimento in verde e corsivo.
+// Visualizza le revisioni di inserimento in verde e corsivo.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
@@ -40,18 +42,18 @@ revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
 // Lo stesso testo apparirà due volte in una revisione del movimento:
 // una volta al punto di partenza e una volta alla destinazione di arrivo.
-// Rende il testo della revisione spostata in giallo con un doppio barrato
-// e doppia sottolineatura in blu nella revisione spostata.
+// Rendi il testo della revisione spostata in giallo con una doppia barratura
+// e doppia sottolineatura blu nella revisione spostata.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Rende le revisioni del formato in rosso scuro e grassetto.
+// Visualizza le revisioni del formato in rosso scuro e in grassetto.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Posiziona una spessa barra blu scuro sul lato sinistro della pagina accanto alle righe interessate dalle revisioni.
+// Inserire una barra spessa blu scuro sul lato sinistro della pagina, accanto alle righe interessate dalle revisioni.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
@@ -59,12 +61,12 @@ revisionOptions.RevisionBarsWidth = 15.0f;
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Ottieni movimento, eliminazione, revisioni di formattazione e commenti da visualizzare in fumetti verdi
+// Ottieni che i movimenti, le eliminazioni, le revisioni di formattazione e i commenti vengano visualizzati in palloncini verdi
 // sul lato destro della pagina.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Queste funzionalità sono applicabili solo a formati come .pdf o .jpg.
+// Queste funzionalità sono applicabili solo ai formati quali .pdf o .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

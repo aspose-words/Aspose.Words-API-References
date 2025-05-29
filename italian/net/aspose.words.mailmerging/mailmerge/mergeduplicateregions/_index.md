@@ -3,14 +3,14 @@ title: MailMerge.MergeDuplicateRegions
 linktitle: MergeDuplicateRegions
 articleTitle: MergeDuplicateRegions
 second_title: Aspose.Words per .NET
-description: MailMerge MergeDuplicateRegions proprietà. Ottiene o imposta un valore che indica se tutte le aree di stampa unione del documento con il nome di unorigine dati devono essere unite durante lesecuzione di una stampa unione con aree rispetto allorigine dati o solo la prima in C#.
+description: Ottimizza il processo di stampa unione con la proprietà MergeDuplicateRegions. Controlla come vengono unite le regioni delle origini dati per una gestione efficiente dei documenti.
 type: docs
 weight: 60
 url: /it/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Ottiene o imposta un valore che indica se tutte le aree di stampa unione del documento con il nome di un'origine dati devono essere unite durante l'esecuzione di una stampa unione con aree rispetto all'origine dati o solo la prima.
+Ottiene o imposta un valore che indica se tutte le aree di unione di documenti con il nome di un'origine dati devono essere unite durante l'esecuzione di un'unione di documenti con aree relative all'origine dati o solo la prima.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -31,7 +31,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
     // Se impostiamo la proprietà "MergeDuplicateRegions" su "false", la stampa unione interesserà la prima regione,
-    // mentre i MERGEFIELD del secondo verranno lasciati nello stato di pre-unione.
+    // mentre i MERGEFIELD del secondo verranno lasciati nello stato pre-merge.
     // Per unire entrambe le regioni in questo modo,
     // dovremmo eseguire la stampa unione due volte su una tabella con lo stesso nome.
     // Se impostiamo la proprietà "MergeDuplicateRegions" su "true", la stampa unione interesserà entrambe le regioni.
@@ -42,7 +42,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// Restituisce un documento che contiene due regioni di stampa unione duplicate (che condividono lo stesso nome nei tag "TableStart/End").
+/// Restituisce un documento che contiene due aree di stampa unione duplicate (che condividono lo stesso nome nei tag "TableStart/End").
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {

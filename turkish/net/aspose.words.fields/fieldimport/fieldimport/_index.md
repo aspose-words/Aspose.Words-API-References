@@ -2,8 +2,8 @@
 title: FieldImport
 linktitle: FieldImport
 articleTitle: FieldImport
-second_title: Aspose.Words for .NET
-description: FieldImport inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veri entegrasyonu için başvuracağınız çözüm olan FieldImport oluşturucusunu keşfedin. Güçlü varsayılan oluşturucumuzla verimli iş akışlarının kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldimport/fieldimport/

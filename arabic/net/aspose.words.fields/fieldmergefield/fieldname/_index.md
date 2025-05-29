@@ -3,14 +3,14 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words لـ .NET
-description: FieldMergeField FieldName ملكية. الحصول على اسم حقل البيانات أو تعيينه في C#.
+description: اكتشف خاصية FieldMergeField FieldName لإدارة حقول البيانات وتخصيصها بسهولة لتحسين تكامل البيانات وزيادة الكفاءة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmergefield/fieldname/
 ---
 ## FieldMergeField.FieldName property
 
-الحصول على اسم حقل البيانات أو تعيينه.
+يحصل على اسم حقل البيانات أو يعينه.
 
 ```csharp
 public string FieldName { get; set; }
@@ -18,13 +18,13 @@ public string FieldName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
+يوضح كيفية استخدام حقول MERGEFIELD لإجراء دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج المراسلات.
+// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج البريد.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -32,17 +32,18 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// قم بإدراج MERGEFIELD مع تعيين خاصية FieldName على اسم عمود في مصدر البيانات.
+// إدراج MERGEFIELD مع تعيين خاصية FieldName إلى اسم عمود في مصدر البيانات.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
+//يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
 // أدخل MERGEFIELD آخر لعمود مختلف في مصدر البيانات.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);

@@ -3,14 +3,14 @@ title: TableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: TableCollection Item propiedad. Recupera unTable en el índice dado en C#.
+description: Acceda fácilmente a los elementos de TableCollection recuperando tablas en índices específicos. Simplifique la gestión de sus datos con nuestra intuitiva función de propiedades.
 type: docs
 weight: 10
 url: /es/net/aspose.words.tables/tablecollection/item/
 ---
 ## TableCollection indexer
 
-Recupera un[`Table`](../../table/) en el índice dado.
+Recupera una[`Table`](../../table/) en el índice dado.
 
 ```csharp
 public Table this[int index] { get; }
@@ -22,17 +22,17 @@ public Table this[int index] { get; }
 
 ## Observaciones
 
-El índice tiene base cero.
+El índice está basado en cero.
 
-Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
 Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
-Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
+Si el índice es negativo y su valor absoluto es mayor que la cantidad de elementos de la lista, esto devuelve una referencia nula.
 
 ## Ejemplos
 
-Muestra cómo recorrer todas las tablas del documento e imprimir el contenido de cada celda.
+Muestra cómo iterar a través de todas las tablas del documento e imprimir el contenido de cada celda.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

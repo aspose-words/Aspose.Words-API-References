@@ -3,14 +3,14 @@ title: LegendPosition Enum
 linktitle: LegendPosition
 articleTitle: LegendPosition
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition enumeración. Especifica las posibles posiciones para la leyenda de un gráfico en C#.
+description: Descubra la enumeración Aspose.Words.Drawing.Charts.LegendPosition para personalizar fácilmente la posición de la leyenda de su gráfico para una mejor visualización de datos.
 type: docs
-weight: 910
+weight: 1230
 url: /es/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Especifica las posibles posiciones para la leyenda de un gráfico.
+Especifica las posibles posiciones para una leyenda de gráfico.
 
 ```csharp
 public enum LegendPosition
@@ -47,7 +47,7 @@ Assert.AreEqual("Series 3", chart.Series[2].Name);
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Da más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
+// Dale más espacio a otros elementos del gráfico, como el gráfico, permitiéndoles superponerse a la leyenda.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

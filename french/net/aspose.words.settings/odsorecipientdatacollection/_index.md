@@ -3,16 +3,16 @@ title: OdsoRecipientDataCollection Class
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection classe. Une collection typée deOdsoRecipientData en C#.
+description: Découvrez Aspose.Words.Settings.OdsoRecipientDataCollection, une puissante collection typée pour gérer efficacement OdsoRecipientData dans vos applications.
 type: docs
-weight: 5940
+weight: 6770
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
 Une collection typée de[`OdsoRecipientData`](../odsorecipientdata/)
 
-Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article de documentation.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -29,7 +29,7 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | Nom | La description |
 | --- | --- |
 | [Count](../../aspose.words.settings/odsorecipientdatacollection/count/) { get; } | Obtient le nombre d'éléments contenus dans la collection. |
-| [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | Obtient ou définit un élément de cette collection. |
+| [Item](../../aspose.words.settings/odsorecipientdatacollection/item/) { get; set; } | Obtient ou définit un élément dans cette collection. |
 
 ## Méthodes
 
@@ -67,7 +67,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Nous pouvons cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en même temps.
+// Nous pouvons également supprimer des éléments individuellement ou effacer toute la collection en une seule fois.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,7 +3,7 @@ title: FieldTA
 linktitle: FieldTA
 articleTitle: FieldTA
 second_title: Aspose.Words para .NET
-description: FieldTA constructor. Constructor predeterminado en C#.
+description: Descubra el potente constructor de FieldTA para una integración perfecta. ¡Desarrolle soluciones personalizadas sin esfuerzo y mejore la eficiencia de su proyecto hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldta/fieldta/

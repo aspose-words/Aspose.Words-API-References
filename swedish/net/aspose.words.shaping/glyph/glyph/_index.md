@@ -3,14 +3,14 @@ title: Glyph
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words för .NET
-description: Glyph byggare. Initierar ny instans av denna klass i C#.
+description: Skapa enkelt fantastiska tecken med vår teckenkonstruktor. Initiera enkelt nya instanser och förbättra dina designprojekt idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.shaping/glyph/glyph/
 ---
 ## Glyph constructor
 
-Initierar ny instans av denna klass.
+Initierar en ny instans av den här klassen.
 
 ```csharp
 public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderOffset)
@@ -19,9 +19,9 @@ public Glyph(int glyphIndex, short advance, short advanceOffset, short ascenderO
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
 | glyphIndex | Int32 | Glyfindex. |
-| advance | Int16 | Förskottsmått för glyfen. |
-| advanceOffset | Int16 | Horisontell (x) offset. |
-| ascenderOffset | Int16 | Vertikal (y) offset. |
+| advance | Int16 | Avancerad metrik för tecknet. |
+| advanceOffset | Int16 | Horisontell (x) förskjutning. |
+| ascenderOffset | Int16 | Vertikal (y) förskjutning. |
 
 ### Se även
 

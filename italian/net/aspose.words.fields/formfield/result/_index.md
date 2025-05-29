@@ -3,14 +3,14 @@ title: FormField.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words per .NET
-description: FormField Result proprietà. Ottiene o imposta una stringa che rappresenta il risultato di questo campo modulo in C#.
+description: Scopri la proprietà Risultato FormField, gestisci e personalizza facilmente l'output stringa dei campi del tuo modulo per un'esperienza utente migliorata.
 type: docs
 weight: 170
 url: /it/net/aspose.words.fields/formfield/result/
 ---
 ## FormField.Result property
 
-Ottiene o imposta una stringa che rappresenta il risultato di questo campo modulo.
+Ottiene o imposta una stringa che rappresenta il risultato di questo campo del modulo.
 
 ```csharp
 public string Result { get; set; }
@@ -24,9 +24,9 @@ Per un campo modulo casella di controllo il risultato può essere "1" o "0" per 
 
 Per un campo modulo a discesa il risultato è la stringa selezionata nel menu a discesa.
 
-Collocamento`Result` per un campo modulo testo non si applica il testo format specificato in[`TextInputFormat`](../textinputformat/) . Se desideri impostare un valore e applicare il formato , utilizza il file[`SetTextInputValue`](../settextinputvalue/) metodo.
+Collocamento`Result` per un campo modulo di testo non si applica il formato di testo specificato in[`TextInputFormat`](../textinputformat/) Se si desidera impostare un valore e applicare il formato , utilizzare[`SetTextInputValue`](../settextinputvalue/) metodo.
 
-Per un campo modulo di testo il[`TextInputDefault`](../textinputdefault/) il valore viene applicato se*value* È`nullo`.
+Per un campo di modulo di testo il[`TextInputDefault`](../textinputdefault/) il valore viene applicato se*value* È`null`.
 
 ## Esempi
 
@@ -45,7 +45,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Il campo del modulo apparirà sotto forma di tag html "seleziona".
+// Il campo del modulo apparirà sotto forma di tag HTML "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

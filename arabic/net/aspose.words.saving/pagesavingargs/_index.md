@@ -3,16 +3,16 @@ title: PageSavingArgs Class
 linktitle: PageSavingArgs
 articleTitle: PageSavingArgs
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Saving.PageSavingArgs فصل. يوفر بيانات لـPageSaving حدث في C#.
+description: اكتشف فئة Aspose.Words.Saving.PageSavingArgs، وهي أساسية لتحسين معالجة المستندات باستخدام بيانات أحداث PageSaving المفصلة. حسّن سير عملك!
 type: docs
-weight: 5380
+weight: 6160
 url: /ar/net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
 
-يوفر بيانات لـ[`PageSaving`](../ipagesavingcallback/pagesaving/) حدث.
+يوفر بيانات لـ[`PageSaving`](../ipagesavingcallback/pagesaving/) الحدث.
 
-لمعرفة المزيد، قم بزيارة[البرمجة بالوثائق](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[البرمجة باستخدام المستندات](https://docs.aspose.com/words/net/programming-with-documents/) مقالة توثيقية.
 
 ```csharp
 public class PageSavingArgs
@@ -29,13 +29,13 @@ public class PageSavingArgs
 | اسم | وصف |
 | --- | --- |
 | [KeepPageStreamOpen](../../aspose.words.saving/pagesavingargs/keeppagestreamopen/) { get; set; } | يحدد ما إذا كان يجب على Aspose.Words إبقاء الدفق مفتوحًا أو إغلاقه بعد حفظ صفحة المستند. |
-| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename/) { get; set; } | الحصول على أو تعيين اسم الملف الذي سيتم حفظ صفحة المستند فيه. |
+| [PageFileName](../../aspose.words.saving/pagesavingargs/pagefilename/) { get; set; } | يحصل على اسم الملف الذي سيتم حفظ صفحة المستند فيه أو يعينه. |
 | [PageIndex](../../aspose.words.saving/pagesavingargs/pageindex/) { get; } | فهرس الصفحة الحالية. |
-| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | يسمح بتحديد التدفق الذي سيتم حفظ صفحة المستند فيه. |
+| [PageStream](../../aspose.words.saving/pagesavingargs/pagestream/) { get; set; } | يسمح بتحديد الدفق الذي سيتم حفظ صفحة المستند فيه. |
 
 ## أمثلة
 
-يوضح كيفية استخدام رد الاتصال لحفظ مستند إلى HTML صفحة تلو الأخرى.
+يوضح كيفية استخدام معاودة الاتصال لحفظ مستند في صفحة HTML تلو الأخرى.
 
 ```csharp
 public void PageFileNames()
@@ -50,12 +50,12 @@ public void PageFileNames()
     builder.InsertBreak(BreakType.PageBreak);
     builder.Writeln("Page 3.");
 
-    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "حفظ" المستند
+    // قم بإنشاء كائن "HtmlFixedSaveOptions"، والذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
     // لتعديل كيفية تحويل المستند إلى HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // سنقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
-    // قم بتعيين رد اتصال يسمح لنا بتسمية كل مستند HTML مخرج.
+    // سوف نقوم بحفظ كل صفحة في هذا المستند في ملف HTML منفصل في نظام الملفات المحلي.
+    // قم بتعيين معاودة اتصال تسمح لنا بتسمية كل مستند HTML الناتج.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -67,7 +67,7 @@ public void PageFileNames()
 }
 
 /// <summary>
-/// يحفظ جميع الصفحات في ملف ودليل محددين فيه.
+/// يحفظ جميع الصفحات في الملف والدليل المحددين بداخله.
 /// </summary>
 private class CustomFileNamePageSavingCallback : IPageSavingCallback
 {
@@ -76,10 +76,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // فيما يلي طريقتان لتحديد المكان الذي سيحفظ فيه Aspose.Words كل صفحة من المستند.
-        // 1 - قم بتعيين اسم ملف لملف صفحة الإخراج:
+        // 1 - تعيين اسم ملف لملف الصفحة الناتج:
         args.PageFileName = outFileName;
 
-        // 2 - إنشاء دفق مخصص لملف صفحة الإخراج:
+        // 2 - إنشاء تدفق مخصص لملف الصفحة الناتج:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

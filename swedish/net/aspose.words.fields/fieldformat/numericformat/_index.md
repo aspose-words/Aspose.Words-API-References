@@ -3,14 +3,14 @@ title: FieldFormat.NumericFormat
 linktitle: NumericFormat
 articleTitle: NumericFormat
 second_title: Aspose.Words för .NET
-description: FieldFormat NumericFormat fast egendom. Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar  switch i C#.
+description: Upptäck hur egenskapen FieldFormat NumericFormat anpassar numeriska fältresultat, vilket effektivt förbättrar datapresentationen och användarupplevelsen.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar \# switch.
+Hämtar eller ställer in en formatering som tillämpas på ett numeriskt fältresultat. Motsvarar växeln \#.
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -24,14 +24,14 @@ Visar hur man formaterar fältresultat.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan format.
+// Använd en dokumentbyggare för att infoga ett fält som visar ett resultat utan formatering.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // Vi kan tillämpa ett format på ett fälts resultat med hjälp av fältets egenskaper.
-// Nedan finns tre typer av format som vi kan tillämpa på ett fälts resultat.
+// Nedan följer tre typer av format som vi kan tillämpa på ett fälts resultat.
 // 1 - Numeriskt format:
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
@@ -40,7 +40,7 @@ field.Update();
 Assert.AreEqual("= 2 + 3 \\# $###.00", field.GetFieldCode());
 Assert.AreEqual("$  5.00", field.Result);
 
-// 2 - Datum/tid format:
+// 2 - Datum-/tidsformat:
 field = builder.InsertField("DATE");
 format = field.Format;
 format.DateTimeFormat = "dddd, MMMM dd, yyyy";

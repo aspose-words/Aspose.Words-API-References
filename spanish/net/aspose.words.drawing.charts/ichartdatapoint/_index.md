@@ -3,14 +3,14 @@ title: IChartDataPoint Interface
 linktitle: IChartDataPoint
 articleTitle: IChartDataPoint
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Drawing.Charts.IChartDataPoint interfaz. Contiene propiedades de un único punto de datos en el gráfico en C#.
+description: Explora la interfaz Aspose.Words.Drawing.Charts.IChartDataPoint para obtener propiedades detalladas de los puntos de datos de los gráficos. ¡Mejora tu visualización de datos fácilmente!
 type: docs
-weight: 900
+weight: 1220
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/
 ---
 ## IChartDataPoint interface
 
-Contiene propiedades de un único punto de datos en el gráfico.
+Contiene propiedades de un solo punto de datos en el gráfico.
 
 ```csharp
 public interface IChartDataPoint
@@ -20,9 +20,9 @@ public interface IChartDataPoint
 
 | Nombre | Descripción |
 | --- | --- |
-| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Especifica si las burbujas en el gráfico de burbujas deben tener aplicado un efecto 3D. |
-| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Especifica la cantidad que se moverá el punto de datos desde el centro del pastel. Puede ser negativo, negativo significa que la propiedad no está establecida y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares. |
-| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Especifica si el elemento principal invertirá sus colores si el valor es negativo. |
+| [Bubble3D](../../aspose.words.drawing.charts/ichartdatapoint/bubble3d/) { get; set; } | Especifica si se debe aplicar un efecto 3D a las burbujas del gráfico de burbujas. |
+| [Explosion](../../aspose.words.drawing.charts/ichartdatapoint/explosion/) { get; set; } | Especifica la cantidad en que se moverá el punto de datos desde el centro del gráfico circular. Puede ser negativo; negativo significa que la propiedad no está configurada y no se debe aplicar ninguna explosión. Se aplica solo a gráficos circulares. |
+| [InvertIfNegative](../../aspose.words.drawing.charts/ichartdatapoint/invertifnegative/) { get; set; } | Especifica si el elemento padre debe invertir sus colores si el valor es negativo. |
 | [Marker](../../aspose.words.drawing.charts/ichartdatapoint/marker/) { get; } | Especifica un marcador de datos. El marcador se crea automáticamente cuando se solicita. |
 
 ## Ejemplos
@@ -43,8 +43,8 @@ public void ChartDataPoint()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamantes.
-    foreach (ChartSeries series in chart.Series) 
+    // Enfatiza los puntos de datos del gráfico haciéndolos aparecer como formas de diamante.
+    foreach (ChartSeries series in chart.Series)
         ApplyDataPoints(series, 4, MarkerSymbol.Diamond, 15);
 
     // Suaviza la línea que representa la primera serie de datos.
@@ -59,10 +59,13 @@ public void ChartDataPoint()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos borrar el formato individualmente.
-    chart.Series[1].DataPoints[2].ClearFormat();
+    ChartDataPoint dataPoint = chart.Series[1].DataPoints[2];
+    dataPoint.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de puntos de datos a la vez.
+    // Para un gráfico más limpio, podemos borrar el formato individualmente.
+    dataPoint.ClearFormat();
+
+    // También podemos eliminar una serie entera de puntos de datos a la vez.
     chart.Series[2].DataPoints.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.ChartDataPoint.docx");

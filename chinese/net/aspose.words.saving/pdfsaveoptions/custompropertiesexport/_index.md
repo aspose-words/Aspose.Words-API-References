@@ -2,10 +2,10 @@
 title: PdfSaveOptions.CustomPropertiesExport
 linktitle: CustomPropertiesExport
 articleTitle: CustomPropertiesExport
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfSaveOptions CustomPropertiesExport 财产. 获取或设置确定方式的值CustomDocumentProperties导出为 PDF 文件 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 PdfSaveOptions CustomPropertiesExport 属性如何通过控制 CustomDocumentProperties 来增强您的 PDF 导出以获得最佳结果。
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/aspose.words.saving/pdfsaveoptions/custompropertiesexport/
 ---
 ## PdfSaveOptions.CustomPropertiesExport property
@@ -20,13 +20,13 @@ public PdfCustomPropertiesExport CustomPropertiesExport { get; set; }
 
 默认值为None。
 
-Metadata保存为 PDF/A 时不支持该值。 Standard将用于代替 PDF/A-1 和 PDF/A-2 and None适用于 PDF/A-4。
+Metadata保存为 PDF/A 时不支持该值。 Standard将用于 PDF/A-1 和 PDF/A-2 and None适用于 PDF/A-4。
 
 Standard保存为 PDF 2.0 时不支持该值。 Metadata将被使用。
 
 ## 例子
 
-演示如何在将文档转换为 PDF 时导出自定义属性。
+展示如何在将文档转换为 PDF 时导出自定义属性。
 
 ```csharp
 Document doc = new Document();
@@ -42,7 +42,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // 将“CustomPropertiesExport”属性设置为“PdfCustomPropertiesExport.Standard”
 // 在输出 PDF 文档中保留自定义属性。
 // 将“CustomPropertiesExport”属性设置为“PdfCustomPropertiesExport.Metadata”
-// 在 XMP 数据包中保留自定义属性。
+// 在 XMP 包中保存自定义属性。
 options.CustomPropertiesExport = pdfCustomPropertiesExportMode;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.CustomPropertiesExport.pdf", options);

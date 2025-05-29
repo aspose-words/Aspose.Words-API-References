@@ -3,9 +3,9 @@ title: ShapeBase.IsInsertRevision
 linktitle: IsInsertRevision
 articleTitle: IsInsertRevision
 second_title: Aspose.Words para .NET
-description: ShapeBase IsInsertRevision propiedad. Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado en C#.
+description: Descubra cómo la propiedad IsInsertRevision de ShapeBase mejora sus documentos de Word al identificar los cambios realizados durante el seguimiento. ¡Mejore su eficiencia de edición!
 type: docs
-weight: 300
+weight: 320
 url: /es/net/aspose.words.drawing/shapebase/isinsertrevision/
 ---
 ## ShapeBase.IsInsertRevision property
@@ -25,14 +25,14 @@ Document doc = new Document();
 
 Assert.False(doc.TrackRevisions);
 
-// Inserta una forma en línea sin realizar seguimiento de revisiones, lo que hará que esta forma no sea una revisión de ningún tipo.
+// Inserte una forma en línea sin seguimiento de revisiones, lo que hará que esta forma no sea una revisión de ningún tipo.
 Shape shape = new Shape(doc, ShapeType.Cube);
 shape.WrapType = WrapType.Inline;
 shape.Width = 100.0;
 shape.Height = 100.0;
 doc.FirstSection.Body.FirstParagraph.AppendChild(shape);
 
-// Comience a rastrear revisiones y luego inserte otra forma, que será una revisión.
+// Comience a rastrear las revisiones y luego inserte otra forma, que será una revisión.
 doc.StartTrackRevisions("John Doe");
 
 shape = new Shape(doc, ShapeType.Sun);
@@ -47,15 +47,15 @@ Assert.AreEqual(2, shapes.Length);
 
 shapes[0].Remove();
 
-// Dado que eliminamos esa forma mientras seguíamos los cambios,
+// Dado que eliminamos esa forma mientras estábamos rastreando los cambios,
 // la forma persiste en el documento y cuenta como una revisión eliminada.
-// Aceptar esta revisión eliminará la forma permanentemente y rechazarla la mantendrá en el documento.
+// Aceptar esta revisión eliminará la forma de forma permanente y rechazarla la mantendrá en el documento.
 Assert.AreEqual(ShapeType.Cube, shapes[0].ShapeType);
 Assert.True(shapes[0].IsDeleteRevision);
 
-// E insertamos otra forma mientras realizamos el seguimiento de los cambios, por lo que esa forma contará como una revisión de inserción.
-// Aceptar esta revisión asimilará esta forma en el documento como una no revisión,
-// y rechazar la revisión eliminará esta forma permanentemente.
+// E insertamos otra forma mientras hacemos un seguimiento de los cambios, de modo que esa forma contará como una revisión de inserción.
+// Al aceptar esta revisión se asimilará esta forma al documento como una no revisión.
+// y rechazar la revisión eliminará esta forma de forma permanente.
 Assert.AreEqual(ShapeType.Sun, shapes[1].ShapeType);
 Assert.True(shapes[1].IsInsertRevision);
 ```

@@ -3,7 +3,7 @@ title: Story.FirstParagraph
 linktitle: FirstParagraph
 articleTitle: FirstParagraph
 second_title: Aspose.Words per .NET
-description: Story FirstParagraph proprietà. Ottiene il primo paragrafo della storia in C#.
+description: Scopri la proprietà Story FirstParagraph per estrarre facilmente il primo paragrafo di qualsiasi storia, migliorando così i tuoi contenuti e il coinvolgimento degli utenti.
 type: docs
 weight: 10
 url: /it/net/aspose.words/story/firstparagraph/
@@ -18,7 +18,7 @@ public Paragraph FirstParagraph { get; }
 
 ## Esempi
 
-Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
+Mostra come formattare una sequenza di testo utilizzando la proprietà font.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Aggiunge un paragrafo alla casella di testo e aggiunge una sequenza di testo che verrà visualizzata nella casella di testo.
+// Aggiungere un paragrafo alla casella di testo e aggiungere una sequenza di testo che verrà visualizzata nella casella di testo.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

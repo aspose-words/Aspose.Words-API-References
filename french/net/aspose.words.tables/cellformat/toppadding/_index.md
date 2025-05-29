@@ -3,9 +3,9 @@ title: CellFormat.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words pour .NET
-description: CellFormat TopPadding propriété. Renvoie ou définit la quantité despace en points à ajouter audessus du contenu de la cellule en C#.
+description: Découvrez la propriété CellFormat TopPadding pour personnaliser l'espacement au-dessus du contenu des cellules en points, améliorant ainsi la mise en page et la lisibilité de votre feuille de calcul.
 type: docs
-weight: 100
+weight: 110
 url: /fr/net/aspose.words.tables/cellformat/toppadding/
 ---
 ## CellFormat.TopPadding property
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Insère une deuxième cellule, puis configure les options de remplissage du texte des cellules.
-// Le générateur appliquera ces paramètres à sa cellule actuelle, et toutes les nouvelles cellules créées par la suite.
+// Insérez une deuxième cellule, puis configurez les options de remplissage du texte de la cellule.
+// Le générateur appliquera ces paramètres à sa cellule actuelle et à toutes les nouvelles cellules créées par la suite.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La première cellule n'a pas été affectée par la reconfiguration du remplissage et contient toujours les valeurs par défaut.
+// La première cellule n'a pas été affectée par la reconfiguration du remplissage et conserve toujours les valeurs par défaut.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La première cellule continuera à s'agrandir dans le document de sortie pour correspondre à la taille de sa cellule voisine.
+// La première cellule continuera de croître dans le document de sortie pour correspondre à la taille de sa cellule voisine.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

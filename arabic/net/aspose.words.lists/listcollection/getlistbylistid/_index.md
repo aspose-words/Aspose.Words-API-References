@@ -3,14 +3,14 @@ title: ListCollection.GetListByListId
 linktitle: GetListByListId
 articleTitle: GetListByListId
 second_title: Aspose.Words لـ .NET
-description: ListCollection GetListByListId طريقة. الحصول على قائمة حسب معرف القائمة في C#.
+description: احصل على قائمتك المطلوبة بسهولة باستخدام طريقة GetListByListId. تمتع بالوصول السريع إلى البيانات باستخدام مُعرّف قائمة بسيط لتحسين الكفاءة.
 type: docs
-weight: 70
+weight: 80
 url: /ar/net/aspose.words.lists/listcollection/getlistbylistid/
 ---
 ## ListCollection.GetListByListId method
 
-الحصول على قائمة حسب معرف القائمة.
+يحصل على قائمة من خلال معرف القائمة.
 
 ```csharp
 public List GetListByListId(int listId)
@@ -18,15 +18,15 @@ public List GetListByListId(int listId)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| listId | Int32 | معرف القائمة |
+| listId | Int32 | معرف القائمة. |
 
 ### قيمة الإرجاع
 
-إرجاع كائن القائمة. عائدات`باطل` إذا لم يتم العثور على قائمة بالمعرف المحدد.
+إرجاع كائن القائمة. إرجاع`باطل` إذا لم يتم العثور على قائمة بالمعرف المحدد.
 
 ## ملاحظات
 
-لا تحتاج عادةً إلى استخدام هذه الطريقة. في معظم الأوقات، تقوم بتطبيق تنسيق القائمة على الفقرات فقط من خلال الإعدادات[`List`](../../listformat/list/) property من[`ListFormat`](../../listformat/) هدف.
+لا تحتاج عادةً إلى استخدام هذه الطريقة. في أغلب الأحيان، تُطبّق list formatting على الفقرات بمجرد ضبط[`List`](../../listformat/list/) property من[`ListFormat`](../../listformat/) هدف.
 
 ## أمثلة
 

@@ -2,15 +2,15 @@
 title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
-second_title: 用于 .NET 的 Aspose.Words
-description: Paragraph IsEndOfDocument 财产. 如果该段落是文档最后一部分的最后一段则为 True 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索段落的 IsEndOfDocument 属性。了解如何识别文档最后一节中的最后一段，以实现有效的格式化。
 type: docs
 weight: 60
 url: /zh/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-如果该段落是文档最后一部分的最后一段，则为 True。
+如果此段是文档最后一节的最后一段，则为真。
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -18,7 +18,7 @@ public bool IsEndOfDocument { get; }
 
 ## 例子
 
-演示如何在文档中插入段落。
+展示如何在文档中插入段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在附加文本后结束段落
-// 然后开始一个新行，添加一个新段落。
+//“Writeln”方法在附加文本后结束段落
+// 然后开始新的一行，添加一个新段落。
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

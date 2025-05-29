@@ -2,15 +2,15 @@
 title: DocumentVisitor.VisitCellEnd
 linktitle: VisitCellEnd
 articleTitle: VisitCellEnd
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentVisitor VisitCellEnd 方法. 当表格单元格枚举结束时调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentVisitor 的 VisitCellEnd 方法，它对于管理应用程序中的表格单元格枚举至关重要。立即提升您的编码效率！
 type: docs
 weight: 80
 url: /zh/net/aspose.words/documentvisitor/visitcellend/
 ---
 ## DocumentVisitor.VisitCellEnd method
 
-当表格单元格枚举结束时调用。
+当表格单元格的枚举结束时调用。
 
 ```csharp
 public virtual VisitorAction VisitCellEnd(Cell cell)
@@ -22,11 +22,11 @@ public virtual VisitorAction VisitCellEnd(Cell cell)
 
 ### 返回值
 
-A[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
+一个[`VisitorAction`](../../visitoraction/)指定如何继续枚举的值。
 
 ## 例子
 
-演示如何打印文档中每个表的节点结构。
+展示如何打印文档中每个表的节点结构。
 
 ```csharp
 public void TableToText()
@@ -34,17 +34,17 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // 当我们得到一个复合节点来接受文档访问者时，访问者访问接受节点，
+    // 当我们得到一个复合节点来接受文档访问者时，访问者会访问接受节点，
     // 然后以深度优先的方式遍历该节点的所有子节点。
-    // 访问者可以读取和修改每个访问过的节点。
+    // 访问者可以读取和修改每个访问的节点。
     doc.Accept(visitor);
 
     Console.WriteLine(visitor.GetText());
 }
 
 /// <summary>
-/// 遍历节点的子节点的非二叉树。
-/// 以字符串形式创建所有遇到的表节点及其子节点的映射。
+/// 遍历节点的子节点非二叉树。
+/// 以字符串的形式创建所有遇到的表节点及其子节点的映射。
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// 在文档中遇到 Run 节点时调用。
-    /// 不在表内的运行不会被记录。
+    /// 不在表格内的运行不会被记录。
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到表时调用。
+    /// 当在文档中遇到表格时调用。
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -92,7 +92,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在访问了Table节点的所有子节点后调用。
+    /// 在访问完表节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -104,7 +104,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Row 节点时调用。
+    /// 当在文档中遇到 Row 节点时调用。
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -124,7 +124,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Row 节点的所有子节点都被访问后调用。
+    /// 在访问完 Row 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -135,7 +135,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Cell 节点时调用。
+    /// 当在文档中遇到 Cell 节点时调用。
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Cell 节点的所有子节点都被访问后调用。
+    /// 在访问完 Cell 节点的所有子节点后调用。
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -164,10 +164,10 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// 向 StringBuilder 添加一行，并根据访问者的深度缩进它
+    /// 向 StringBuilder 追加一行，并根据访问者的深度进行缩进
     /// 进入当前表的子节点树。
     /// </summary>
-    /// <param name="text"></param>;
+    /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)
@@ -184,7 +184,7 @@ public class TableStructurePrinter : DocumentVisitor
 }
 ```
 
-演示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
+展示如何使用 DocumentVisitor 实现从文档中删除所有隐藏内容。
 
 ```csharp
 public void RemoveHiddenContentFromDocument()
@@ -192,7 +192,7 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // 以下是可以接受文档访问者的三种类型的字段，
+    // 以下是三种可以接受文档访问者的字段类型，
     // 这将允许它访问接受节点，然后以深度优先的方式遍历其子节点。
     // 1 - 段落节点：
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
@@ -209,12 +209,12 @@ public void RemoveHiddenContentFromDocument()
 }
 
 /// <summary>
-/// 删除所有标记为“隐藏内容”的已访问节点。
+/// 删除所有标记为“隐藏内容”的访问节点。
 /// </summary>
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -225,7 +225,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -236,7 +236,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -258,7 +258,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到段落节点时调用。
+    /// 当在文档中遇到段落节点时调用。
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -269,7 +269,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FormField 时调用。
+    /// 当在文档中遇到 FormField 时调用。
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -280,7 +280,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 GroupShape 时调用。
+    /// 当在文档中遇到 GroupShape 时调用。
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -291,7 +291,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 Shape 时调用。
+    /// 当在文档中遇到形状时调用。
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -302,7 +302,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到注释时调用。
+    /// 当在文档中遇到评论时调用。
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -313,7 +313,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到脚注时调用。
+    /// 当在文档中遇到脚注时调用。
     /// </summary>
     public override VisitorAction VisitFootnoteStart(Footnote footnote)
     {
@@ -324,10 +324,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到特殊字符时调用。
+    /// 当在文档中遇到特殊字符时调用。
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -335,15 +337,15 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 文档中Table节点访问结束时调用。
+    /// 当文档中某个表节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // 表格单元格内的内容可能具有隐藏内容标志，但表格本身不能。
-        // 如果该表只有隐藏内容，则该访问者将删除所有内容，
-        // 这样就不会剩下任何子节点了。
+        // 表格单元格内的内容可能有隐藏内容标志，但表格本身不能。
+        // 如果此表只有隐藏内容，则该访问者会将其全部删除，
+        // 并且不会剩下任何子节点。
         // 因此，我们也可以将表格本身视为隐藏内容并将其删除。
-        // 为空但没有隐藏内容的表格将具有内部带有空段落的单元格，
+        // 空的表格但没有隐藏内容，其单元格内会有空的段落，
         // 该访问者不会删除它。
         if (!table.HasChildNodes)
             table.Remove();
@@ -352,7 +354,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 文档中某个Cell节点的访问结束时调用。
+    /// 当文档中某个 Cell 节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -363,7 +365,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 文档中Row节点访问结束时调用。
+    /// 当文档中某一行节点的访问结束时调用。
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

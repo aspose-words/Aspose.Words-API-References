@@ -3,14 +3,14 @@ title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words för .NET
-description: BubbleSizeCollection Count fast egendom. Hämtar antalet föremål i den här samlingen i C#.
+description: Upptäck BubbleSizeCollection Count-egenskapen för att enkelt spåra antalet objekt i din samling. Förbättra din datahantering idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/bubblesizecollection/count/
 ---
 ## BubbleSizeCollection.Count property
 
-Hämtar antalet föremål i den här samlingen.
+Hämtar antalet objekt i den här samlingen.
 
 ```csharp
 public int Count { get; }

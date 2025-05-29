@@ -3,7 +3,7 @@ title: FontSourceBase.GetAvailableFonts
 linktitle: GetAvailableFonts
 articleTitle: GetAvailableFonts
 second_title: Aspose.Words pour .NET
-description: FontSourceBase GetAvailableFonts méthode. Renvoie la liste des polices disponibles via cette source en C#.
+description: Découvrez les polices disponibles grâce à la méthode GetAvailableFonts de FontSourceBase. Améliorez vos projets avec une sélection variée de polices de haute qualité !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fonts/fontsourcebase/getavailablefonts/
@@ -21,7 +21,7 @@ public IList<PhysicalFontInfo> GetAvailableFonts()
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher des polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

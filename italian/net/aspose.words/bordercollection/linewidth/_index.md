@@ -3,7 +3,7 @@ title: BorderCollection.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words per .NET
-description: BorderCollection LineWidth proprietà. Ottiene o imposta la larghezza del bordo in punti in C#.
+description: Scopri la proprietà BorderCollection LineWidth per regolare facilmente la larghezza del bordo in punti, migliorando la precisione e l'attrattiva visiva del tuo design.
 type: docs
 weight: 90
 url: /it/net/aspose.words/bordercollection/linewidth/
@@ -20,11 +20,11 @@ public double LineWidth { get; set; }
 
 Restituisce la larghezza del primo bordo nella raccolta.
 
-Imposta la larghezza di tutti i bordi nella raccolta esclusi i bordi diagonali.
+Imposta la larghezza di tutti i bordi nella raccolta, esclusi i bordi diagonali.
 
 ## Esempi
 
-Mostra come creare un bordo verde ondulato della pagina con un'ombra.
+Mostra come creare un bordo di pagina ondulato verde con un'ombra.
 
 ```csharp
 Document doc = new Document();

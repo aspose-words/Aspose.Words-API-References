@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowSeriesName
 linktitle: ShowSeriesName
 articleTitle: ShowSeriesName
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabel ShowSeriesName ملكية. إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات في المخطط. حقيقي لإظهار اسم المسلسلخطأ شنيع لإخفاء. بشكل افتراضيخطأ شنيع  في C#.
+description: اكتشف خاصية ChartDataLabel ShowSeriesName، وتحكّم بسهولة في ظهور أسماء السلاسل على مخططاتك. حسّن وضوح البيانات بإعداد منطقي بسيط!
 type: docs
-weight: 140
+weight: 190
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showseriesname/
 ---
 ## ChartDataLabel.ShowSeriesName property
 
-إرجاع قيمة منطقية أو تعيينها للإشارة إلى سلوك عرض اسم السلسلة لتسميات البيانات في المخطط. `حقيقي` لإظهار اسم المسلسل؛`خطأ شنيع` لإخفاء. بشكل افتراضي`خطأ شنيع` .
+يقوم بإرجاع أو تعيين قيمة منطقية للإشارة إلى سلوك عرض اسم السلسلة لعناوين البيانات على الرسم البياني. `حقيقي` لإظهار اسم السلسلة؛`خطأ شنيع` للإخفاء. افتراضيًا`خطأ شنيع` .
 
 ```csharp
 public bool ShowSeriesName { get; set; }
@@ -18,7 +18,7 @@ public bool ShowSeriesName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تطبيق التسميات على نقاط البيانات في مخطط خطي.
+يوضح كيفية تطبيق العلامات على نقاط البيانات في مخطط خطي.
 
 ```csharp
 public void DataLabels()
@@ -34,15 +34,15 @@ public void DataLabels()
     Assert.AreEqual("Series 2", chart.Series[1].Name);
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-    // قم بتطبيق تسميات البيانات على كل سلسلة في المخطط.
-    // ستظهر هذه التسميات بجوار كل نقطة بيانات في الرسم البياني وستعرض قيمتها.
+    // تطبيق تسميات البيانات على كل سلسلة في الرسم البياني.
+    // ستظهر هذه العلامات بجوار كل نقطة بيانات في الرسم البياني وتعرض قيمتها.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // قم بتغيير السلسلة الفاصلة لكل تسمية بيانات في السلسلة.
+    // قم بتغيير سلسلة الفاصل لكل تسمية بيانات في السلسلة.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,8 +52,11 @@ public void DataLabels()
         }
     }
 
-    // للحصول على رسم بياني أكثر وضوحًا، يمكننا إزالة تسميات البيانات بشكل فردي.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
+
+    // للحصول على رسم بياني يبدو أكثر نظافة، يمكننا إزالة تسميات البيانات بشكل فردي.
+    dataLabel.ClearFormat();
 
     // يمكننا أيضًا تجريد سلسلة كاملة من تسميات البيانات الخاصة بها مرة واحدة.
     chart.Series[2].DataLabels.ClearFormat();
@@ -62,14 +65,15 @@ public void DataLabels()
 }
 
 /// <summary>
-/// قم بتطبيق تسميات البيانات بتنسيق أرقام مخصص وفاصل على عدة نقاط بيانات في سلسلة.
+/// قم بتطبيق تسميات البيانات بتنسيق رقم مخصص وفاصل لعدة نقاط بيانات في سلسلة.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

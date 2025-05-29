@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words för .NET
-description: DocumentBuilder InsertSignatureLine metod. Infogar en signaturrad vid den aktuella positionen i C#.
+description: Lägg enkelt till professionella signaturrader i dina dokument med DocumentBuilder-metoden InsertSignatureLine. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 440
+weight: 470
 url: /sv/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
@@ -18,11 +18,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Objektet som lagrar parametrar för att skapa signaturrad. |
+| signatureLineOptions | SignatureLineOptions | Objektet som lagrar parametrar för att skapa signaturraden. |
 
 ### Returvärde
 
-Signaturlinjenoden som precis infogades.
+Noden på signaturraden som just infogades.
 
 ## Exempel
 
@@ -64,7 +64,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
@@ -86,7 +86,7 @@ Assert.True(signatureLine.IsValid);
 
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/), [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/), double, [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/), double, [WrapType](../../../aspose.words.drawing/wraptype/)*) {#insertsignatureline_1}
 
-Infogar en signaturrad vid den angivna positionen.
+Infogar en signaturrad på den angivna positionen.
 
 ```csharp
 public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions, 
@@ -96,24 +96,24 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| signatureLineOptions | SignatureLineOptions | Objektet som lagrar parametrar för att skapa signaturrad. |
-| horzPos | RelativeHorizontalPosition | Anger var avståndet till signaturlinjen mäts från. |
+| signatureLineOptions | SignatureLineOptions | Objektet som lagrar parametrar för att skapa signaturraden. |
+| horzPos | RelativeHorizontalPosition | Anger varifrån avståndet till signaturlinjen mäts. |
 | left | Double | Avstånd i punkter från origo till vänster sida av signaturlinjen. |
-| vertPos | RelativeVerticalPosition | Anger var avståndet till signaturlinjen mätt från. |
-| top | Double | Avstånd i punkter från origo till översidan av signaturlinjen. |
-| wrapType | WrapType | Anger hur text lindas runt signaturraden. |
+| vertPos | RelativeVerticalPosition | Anger varifrån avståndet till signaturlinjen mäts. |
+| top | Double | Avstånd i punkter från origo till signaturlinjens översida. |
+| wrapType | WrapType | Anger hur text ska radbrytas runt signaturraden. |
 
 ### Returvärde
 
-Signaturlinjenoden som precis infogades.
+Noden på signaturraden som just infogades.
 
 ## Anmärkningar
 
-Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras med denna metod.
+Du kan ändra bildstorlek, plats, positioneringsmetod och andra inställningar med hjälp av [`Shape`](../../../aspose.words.drawing/shape/) objekt som returneras av den här metoden.
 
 ## Exempel
 
-Visar hur man infogar en inline signaturrad i ett dokument.
+Visar hur man infogar en inbäddad signaturrad i ett dokument.
 
 ```csharp
 Document doc = new Document();

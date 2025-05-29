@@ -2,10 +2,10 @@
 title: Font.ThemeFont
 linktitle: ThemeFont
 articleTitle: ThemeFont
-second_title: 用于 .NET 的 Aspose.Words
-description: Font ThemeFont 财产. 获取或设置与此关联的应用字体方案中的主题字体Font对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 Font ThemeFont 属性轻松管理主题字体。使用可自定义的字体方案增强您的设计，打造更精致的外观！
 type: docs
-weight: 470
+weight: 480
 url: /zh/net/aspose.words/font/themefont/
 ---
 ## Font.ThemeFont property
@@ -18,7 +18,7 @@ public ThemeFont ThemeFont { get; set; }
 
 ## 例子
 
-展示如何创建和使用主题样式。
+展示如何创建和使用主题风格。
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ doc.Theme.MinorFonts.ComplexScript = "Andalus";
 Font font = doc.Styles["Normal"].Font;
 Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color is: {1}\n", font.ThemeColor, font.Color);
 
-// 我们可以使用主题字体和颜色来代替默认值。
+// 我们可以使用主题字体和颜色代替默认值。
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
@@ -71,8 +71,8 @@ Assert.AreEqual("Algerian", font.NameOther);
 Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
 Assert.AreEqual(Color.Empty, font.Color);
 
-// 有多种方法可以重置它们的字体和颜色。
-// 1 - 通过设置 ThemeFont.None/ThemeColor.None:
+// 有几种方法可以重置字体和颜色。
+// 1 - 通过设置 ThemeFont.None/ThemeColor.None：
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 

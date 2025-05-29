@@ -3,16 +3,16 @@ title: WebExtensionBinding Class
 linktitle: WebExtensionBinding
 articleTitle: WebExtensionBinding
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.WebExtensions.WebExtensionBinding فصل. يحدد علاقة ربط بين امتداد الويب والبيانات الموجودة في المستند في C#.
+description: اكتشف فئة Aspose.Words.WebExtensionBinding لدمج ملحقات الويب بسلاسة مع بيانات مستندك. حسّن وظائفها بسهولة!
 type: docs
-weight: 6750
+weight: 7600
 url: /ar/net/aspose.words.webextensions/webextensionbinding/
 ---
 ## WebExtensionBinding class
 
-يحدد علاقة ربط بين امتداد الويب والبيانات الموجودة في المستند.
+يحدد علاقة ربط بين ملحق الويب والبيانات الموجودة في المستند.
 
-لمعرفة المزيد، قم بزيارة[العمل مع وظائف Office الإضافية](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
+لمعرفة المزيد، قم بزيارة[العمل مع الوظائف الإضافية لـ Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) مقالة توثيقية.
 
 ```csharp
 public class WebExtensionBinding
@@ -22,13 +22,13 @@ public class WebExtensionBinding
 
 | اسم | وصف |
 | --- | --- |
-| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | ينشئ ربط ملحق الويب بمعلمات محددة. |
+| [WebExtensionBinding](webextensionbinding/)(*string, [WebExtensionBindingType](../webextensionbindingtype/), string*) | ينشئ ربط ملحق الويب بالمعلمات المحددة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | يحدد مفتاح الربط المستخدم لتعيين إدخال الربط في هذه القائمة مع البيانات المرتبطة في المستند. |
+| [AppRef](../../aspose.words.webextensions/webextensionbinding/appref/) { get; set; } | يحدد مفتاح الربط المستخدم لربط إدخال الربط في هذه القائمة بالبيانات المرتبطة في المستند. |
 | [BindingType](../../aspose.words.webextensions/webextensionbinding/bindingtype/) { get; set; } | يحدد نوع الربط. |
 | [Id](../../aspose.words.webextensions/webextensionbinding/id/) { get; set; } | يحدد معرف الربط. |
 

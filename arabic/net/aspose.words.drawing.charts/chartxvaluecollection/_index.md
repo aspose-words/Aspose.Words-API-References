@@ -3,14 +3,14 @@ title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection فصل. يمثل مجموعة من قيم X لسلسلة مخططات في C#.
+description: اكتشف فئة Aspose.Words.Drawing.Charts.ChartXValueCollection، الحل الخاص بك لإدارة مجموعات قيم X في سلسلة المخططات بشكل فعال.
 type: docs
-weight: 850
+weight: 1170
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
 
-يمثل مجموعة من قيم X لسلسلة مخططات.
+يمثل مجموعة من قيم X لسلسلة الرسم البياني.
 
 ```csharp
 public class ChartXValueCollection : IEnumerable<ChartXValue>
@@ -20,24 +20,25 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 | اسم | وصف |
 | --- | --- |
-| [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | الحصول على عدد العناصر في هذه المجموعة. |
-| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | الحصول على قيمة X أو تعيينها في الفهرس المحدد. |
+| [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | يحصل على عدد العناصر في هذه المجموعة. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | يحصل على رمز التنسيق المطبق على قيم X أو يعينه. |
+| [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | يحصل على قيمة X أو يعينها عند الفهرس المحدد. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | يُرجع كائن العداد. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartxvaluecollection/getenumerator/)() | يعيد كائن المعداد. |
 
 ## ملاحظات
 
 جميع عناصر المجموعة بخلاف**باطل** يجب أن يكون له نفس الشيء[`ValueType`](../chartxvalue/valuetype/).
 
-تسمح المجموعة بتغيير قيم X فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة القيم، الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الطبقة.
+تسمح المجموعة بتغيير قيم X فقط. لإضافة أو إدراج قيم جديدة إلى سلسلة مخططات، أو إزالة قيم، استخدم الطرق المناسبة لـ[`ChartSeries`](../chartseries/) يمكن استخدام الفصل.
 
 ## أمثلة
 
-يوضح كيفية الحصول على بيانات سلسلة المخططات.
+يوضح كيفية الحصول على بيانات سلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -55,10 +56,10 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // مسح التنسيق الفردي لجميع نقاط البيانات.
-    // نقاط البيانات وقيم البيانات تكون فردية في المخططات العمودية.
+    // نقاط البيانات وقيم البيانات تكون متناسبة واحد لواحد في المخططات العمودية.
     series.DataPoints[i].ClearFormat();
 
-    // احصل على قيمة Y.
+    // الحصول على قيمة Y.
     double yValue = series.YValues[i].DoubleValue;
 
     if (yValue < minValue)
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// تغيير ألوان القيم القصوى والدنيا.
+//تغيير ألوان القيم القصوى والدنيا.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

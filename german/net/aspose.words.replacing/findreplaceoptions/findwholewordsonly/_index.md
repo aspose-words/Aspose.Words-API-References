@@ -3,14 +3,14 @@ title: FindReplaceOptions.FindWholeWordsOnly
 linktitle: FindWholeWordsOnly
 articleTitle: FindWholeWordsOnly
 second_title: Aspose.Words für .NET
-description: FindReplaceOptions FindWholeWordsOnly eigendom. True gibt an dass der alte Wert ein eigenständiges Wort sein muss in C#.
+description: Entdecken Sie, wie die Eigenschaft FindWholeWordsOnly Ihre Suche mit präzisen Ergebnissen verbessert und sicherstellt, dass oldValue nur als eigenständiges Wort übereinstimmt.
 type: docs
 weight: 50
 url: /de/net/aspose.words.replacing/findreplaceoptions/findwholewordsonly/
 ---
 ## FindReplaceOptions.FindWholeWordsOnly property
 
-True gibt an, dass der alte Wert ein eigenständiges Wort sein muss.
+„True“ bedeutet, dass der alte Wert ein eigenständiges Wort sein muss.
 
 ```csharp
 public bool FindWholeWordsOnly { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Writeln("Jackson will meet you in Jacksonville.");
 
-// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+// Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
 FindReplaceOptions options = new FindReplaceOptions();
 
 // Setzen Sie das Flag „FindWholeWordsOnly“ auf „true“, um den gefundenen Text zu ersetzen, wenn er nicht Teil eines anderen Wortes ist.

@@ -3,14 +3,14 @@ title: Shape.SignatureLine
 linktitle: SignatureLine
 articleTitle: SignatureLine
 second_title: Aspose.Words per .NET
-description: Shape SignatureLine proprietà. OttieneSignatureLine oggetto se la forma è una linea di firma. ritornanullo altrimenti in C#.
+description: Scopri come accedere all'oggetto SignatureLine per le tue forme. Identifica facilmente le linee della firma e migliora la professionalità dei tuoi documenti!
 type: docs
-weight: 160
+weight: 170
 url: /it/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Ottiene[`SignatureLine`](../../signatureline/) oggetto se la forma è una linea di firma. ritorna`nullo` altrimenti.
+Ottiene[`SignatureLine`](../../signatureline/) oggetto se la forma è una riga della firma. Restituisce`null` altrimenti.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -18,7 +18,7 @@ public SignatureLine SignatureLine { get; }
 
 ## Osservazioni
 
-Puoi inserirne di nuovi[`SignatureLine`](../../signatureline/) nel documento utilizzando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) e
+Puoi inserire nuovi[`SignatureLine`](../../signatureline/) nel documento utilizzando[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) e
 
 ## Esempi
 
@@ -39,16 +39,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Inserisci una forma che conterrà una riga della firma, di cui modificheremo l'aspetto
+// Inserire una forma che conterrà una riga della firma, di cui vedremo l'aspetto
 // personalizza utilizzando l'oggetto "SignatureLineOptions" che abbiamo creato sopra.
 // Se inseriamo una forma le cui coordinate hanno origine nell'angolo in basso a destra della pagina,
-// dovremo fornire le coordinate xey negative per visualizzare la forma.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// dovremo fornire le coordinate x e y negative per rendere visibile la forma.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifica le proprietà della nostra riga della firma tramite il suo oggetto Shape.
+// Verifichiamo le proprietà della nostra riga di firma tramite il suo oggetto Shape.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

@@ -3,14 +3,14 @@ title: FieldNextIf.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words для .NET
-description: FieldNextIf RightExpression свойство. Получает или задает правую часть выражения сравнения на С#.
+description: Откройте для себя свойство FieldNextIf RightExpression, чтобы легко управлять и настраивать правую часть выражений сравнения для улучшенной обработки данных.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldnextif/rightexpression/
 ---
 ## FieldNextIf.RightExpression property
 
-Получает или задает правую часть выражения сравнения.
+Возвращает или задает правую часть выражения сравнения.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,7 +18,7 @@ public string RightExpression { get; set; }
 
 ## Примеры
 
-Показывает, как использовать поля NEXT/NEXTIF для объединения нескольких строк на одну страницу во время слияния почты.
+Показывает, как использовать поля NEXT/NEXTIF для объединения нескольких строк на одной странице во время слияния почты.
 
 ```csharp
 public void FieldNext()
@@ -26,7 +26,7 @@ public void FieldNext()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Создадим источник данных для нашего слияния почты с 3 строками.
+    // Создаем источник данных для нашего слияния с 3 строками.
     // Слияние почты, использующее эту таблицу, обычно создает трехстраничный документ.
     DataTable table = new DataTable("Employees");
     table.Columns.Add("Courtesy Title");
@@ -38,21 +38,21 @@ public void FieldNext()
 
     InsertMergeFields(builder, "First row: ");
 
-    // Если у нас есть несколько полей слияния с одинаковым именем поля,
-    // они получат данные из одной и той же строки источника данных и отобразят одно и то же значение после слияния.
-    // Поле NEXT сообщает слиянию писем о необходимости немедленного перемещения на одну строку вниз,
-    // это означает, что любые поля MERGEFIELD, следующие за полем NEXT, получат данные из следующей строки.
-    // Никогда не пытайтесь перейти к следующей строке, пока вы уже находитесь в последней строке.
+    // Если у нас есть несколько полей слияния с одинаковым FieldName,
+    // они будут получать данные из одной и той же строки источника данных и отображать одно и то же значение после слияния.
+    // Поле NEXT сообщает слиянию немедленно переместиться на одну строку вниз,
+    // что означает, что любые поля MERGEFIELD, следующие за полем NEXT, получат данные из следующей строки.
+    // Никогда не пытайтесь перейти к следующей строке, если вы уже находитесь на предыдущей строке.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
     Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
 
     // После слияния значения источника данных, которые принимают эти MERGEFIELD
-     // окажется на той же странице, что и поля MERGEFIELD выше.
+     // окажется на той же странице, что и MERGEFIELD выше.
     InsertMergeFields(builder, "Second row: ");
 
     // Поле NEXTIF имеет ту же функцию, что и поле NEXT,
-    // но он переходит к следующей строке, только если утверждение, созданное с помощью следующих трех свойств, истинно.
+    // но он переходит к следующей строке только в том случае, если утверждение, составленное на основе следующих 3 свойств, является истинным.
     FieldNextIf fieldNextIf = (FieldNextIf)builder.InsertField(FieldType.FieldNextIf, true);
     fieldNextIf.LeftExpression = "5";
     fieldNextIf.RightExpression = "2 + 3";
@@ -60,20 +60,20 @@ public void FieldNext()
 
     Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
 
-    // Если сравнение, указанное в поле выше, верно,
-    // следующие три поля слияния будут брать данные из третьей строки.
+    // Если сравнение, подтвержденное указанным выше полем, верно,
+    // следующие 3 поля слияния будут брать данные из третьей строки.
     // В противном случае эти поля снова возьмут данные из строки 2.
     InsertMergeFields(builder, "Third row: ");
 
     doc.MailMerge.Execute(table);
 
-     // В нашем источнике данных 3 строки, и мы дважды пропустили строки.
+     // Наш источник данных содержит 3 строки, и мы пропустили строки дважды.
     // Наш выходной документ будет иметь 1 страницу с данными из всех 3 строк.
     doc.Save(ArtifactsDir + "Field.NEXT.NEXTIF.docx");
 }
 
 /// <summary>
-/// Использует построитель документов для вставки полей MERGEFIELD для источника данных, который содержит столбцы с именами «Вежливое название», «Имя» и «Фамилия».
+/// Использует конструктор документов для вставки полей MERGEFIELD для источника данных, содержащего столбцы с именами «Courtesy Title», «First Name» и «Last Name».
 /// </summary>
 public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefore)
 {
@@ -84,7 +84,7 @@ public void InsertMergeFields(DocumentBuilder builder, string firstFieldTextBefo
 }
 
 /// <summary>
-/// Использует построитель документов для вставки MERRGEFIELD с указанными свойствами.
+/// Использует конструктор документов для вставки MERRGEFIELD с указанными свойствами.
 /// </summary>
 public void InsertMergeField(DocumentBuilder builder, string fieldName, string textBefore, string textAfter)
 {

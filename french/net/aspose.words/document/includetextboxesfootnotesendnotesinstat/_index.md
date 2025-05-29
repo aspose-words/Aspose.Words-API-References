@@ -3,14 +3,14 @@ title: Document.IncludeTextboxesFootnotesEndnotesInStat
 linktitle: IncludeTextboxesFootnotesEndnotesInStat
 articleTitle: IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words pour .NET
-description: Document IncludeTextboxesFootnotesEndnotesInStat propriété. Spécifie sil faut inclure des zones de texte des notes de bas de page et des notes de fin dans les statistiques du nombre de mots en C#.
+description: Optimisez le nombre de mots de votre document grâce à la propriété IncludeTextboxesFootnotesEndnotesInStat. Contrôlez facilement les zones de texte, les notes de bas de page et les notes de fin !
 type: docs
-weight: 220
+weight: 230
 url: /fr/net/aspose.words/document/includetextboxesfootnotesendnotesinstat/
 ---
 ## Document.IncludeTextboxesFootnotesEndnotesInStat property
 
-Spécifie s'il faut inclure des zones de texte, des notes de bas de page et des notes de fin dans les statistiques du nombre de mots.
+Spécifie s'il faut inclure les zones de texte, les notes de bas de page et les notes de fin dans les statistiques de comptage de mots.
 
 ```csharp
 public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
@@ -18,7 +18,7 @@ public bool IncludeTextboxesFootnotesEndnotesInStat { get; set; }
 
 ## Exemples
 
-Montre comment inclure ou exclure des zones de texte, des notes de bas de page et des notes de fin des statistiques du nombre de mots.
+Montre comment inclure ou exclure des zones de texte, des notes de bas de page et des notes de fin des statistiques de comptage de mots.
 
 ```csharp
 Document doc = new Document();
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Lorem ipsum");
 builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 
-// Par défaut, l'option est définie sur 'false'.
+// Par défaut, l'option est définie sur « false ».
 doc.UpdateWordCount();
-// Les mots comptent sans zones de texte, notes de bas de page et notes de fin.
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);            
+// Les mots comptent sans les zones de texte, les notes de bas de page et les notes de fin.
+Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();

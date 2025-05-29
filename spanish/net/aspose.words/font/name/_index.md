@@ -3,7 +3,7 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words para .NET
-description: Font Name propiedad. Obtiene o establece el nombre de la fuente en C#.
+description: Descubra la propiedad Nombre de fuente para personalizar y configurar fácilmente sus estilos de fuente, mejorando el atractivo y la legibilidad de su diseño.
 type: docs
 weight: 230
 url: /es/net/aspose.words/font/name/
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Observaciones
 
-Al llegar, regresa[`NameAscii`](../nameascii/).
+Al recibir, devuelve[`NameAscii`](../nameascii/).
 
 Al configurar, establece[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) y[`NameOther`](../nameother/) al valor especificado.
 
 ## Ejemplos
 
-Muestra cómo dar formato a una serie de texto usando su propiedad de fuente.
+Muestra cómo formatear una serie de texto utilizando su propiedad de fuente.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(run);
 doc.Save(ArtifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
-Muestra cómo insertar texto formateado usando DocumentBuilder.
+Muestra cómo insertar texto formateado utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

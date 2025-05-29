@@ -3,14 +3,14 @@ title: HtmlSaveOptions.TableWidthOutputMode
 linktitle: TableWidthOutputMode
 articleTitle: TableWidthOutputMode
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions TableWidthOutputMode proprietà. Controlla il modo in cui la larghezza di tabelle righe e celle viene esportata in HTML MHTML o EPUB. Il valore predefinito èAll  in C#.
+description: Ottimizza le tue esportazioni HTML con HtmlSaveOptions TableWidthOutputMode. Controlla la larghezza delle righe e delle celle della tabella per una formattazione MHTML ed EPUB impeccabile.
 type: docs
-weight: 460
+weight: 480
 url: /it/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-Controlla il modo in cui la larghezza di tabelle, righe e celle viene esportata in HTML, MHTML o EPUB. Il valore predefinito èAll .
+Controlla come le larghezze di tabelle, righe e celle vengono esportate in HTML, MHTML o EPUB. Il valore predefinito èAll .
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -18,11 +18,11 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ## Osservazioni
 
-Nel formato HTML, gli elementi di tabella, riga e cella (**&lt;tabella&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) possono avere la larghezza specificata in unità relative (percentuali) o assolute. In un documento in Aspose.Words, tabelle, righe e celle possono avere la larghezza specificata utilizzando anche unità relative o assolute.
+Nel formato HTML, elementi tabella, riga e cella (**&lt;tabella&gt;** ,**&lt;tr&gt;** ,**&lt;esimo&gt;** ,**&lt;td&gt;**) può avere la larghezza specificata in unità relative (percentuale) o in unità assolute. In un documento in Aspose, anche parole, tabelle, righe e celle possono avere la loro larghezza specificata utilizzando unità relative o assolute.
 
-Quando converti un documento in HTML utilizzando Aspose.Words, potresti voler controllare come le larghezze di tabella, riga e cella vengono esportate per influenzare il modo in cui il documento risultante viene visualizzato nell'agente visivo (ad esempio un browser o visualizzatore).
+Quando si converte un documento in HTML utilizzando Aspose.Words, potrebbe essere necessario controllare il modo in cui vengono esportate le larghezze di tabelle, righe e celle per influenzare il modo in cui il documento risultante viene visualizzato nell'agente visivo (ad esempio un browser o un visualizzatore).
 
-Utilizza questa proprietà come filtro per specificare quali valori di larghezza della tabella vengono esportati nel documento di destinazione. Ad esempio, se stai convertendo un documento in EPUB e intendi visualizzare il documento su un dispositivo di lettura mobile, probabilmente vorrai evitare esportando valori di larghezza assoluti. Per fare ciò è necessario specificare la modalità di outputRelativeOnly ONone in modo che chi visualizza sul dispositivo mobile possa disporre la tabella per adattarla al meglio alla larghezza dello schermo.
+Utilizzare questa proprietà come filtro per specificare quali valori di larghezza delle tabelle esportare nel documento di destinazione. Ad esempio, se si converte un documento in EPUB e si intende visualizzarlo su un dispositivo di lettura mobile, probabilmente si desidera evitare di esportare valori di larghezza assoluti. Per fare ciò, è necessario specificare la modalità di output.RelativeOnly ONone in modo che chi visualizza la tabella sul dispositivo mobile possa adattarla il più possibile alla larghezza dello schermo.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ Mostra come preservare i rientri negativi nell'output .html.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite della pagina sinistra.
+// Inserisce una tabella con un rientro negativo, che la spingerà a sinistra oltre il limite sinistro della pagina.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Inserisce una tabella con un rientro positivo, che sposterà la tabella a destra.
+// Inserisce una tabella con un rientro positivo, che la sposterà verso destra.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -55,7 +55,7 @@ table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 // Quando salviamo un documento in HTML, Aspose.Words conserverà solo i rientri negativi
-// come quello che abbiamo applicato alla prima tabella se impostiamo il flag "AllowNegativeIndent".
+// come quello che abbiamo applicato alla prima tabella se impostiamo il flag "AllowNegativeIndent"
 // in un oggetto SaveOptions che passeremo a "true".
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {

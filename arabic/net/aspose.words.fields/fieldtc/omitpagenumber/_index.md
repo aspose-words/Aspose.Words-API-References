@@ -3,14 +3,14 @@ title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
 second_title: Aspose.Words لـ .NET
-description: FieldTC OmitPageNumber ملكية. الحصول على أو تعيين ما إذا كان يجب حذف رقم الصفحة في جدول المحتويات لهذا الحقل في C#.
+description: اكتشف خاصية FieldTC OmitPageNumber—تحكم في رؤية رقم صفحة جدول المحتويات لتحسين وضوح المستند والاحترافية.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldtc/omitpagenumber/
 ---
 ## FieldTC.OmitPageNumber property
 
-الحصول على أو تعيين ما إذا كان يجب حذف رقم الصفحة في جدول المحتويات لهذا الحقل.
+يحصل على أو يحدد ما إذا كان يجب حذف رقم الصفحة في جدول المحتويات لهذا الحقل.
 
 ```csharp
 public bool OmitPageNumber { get; set; }
@@ -18,7 +18,7 @@ public bool OmitPageNumber { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول TC التي تنتهي كمدخلات.
+يوضح كيفية إدراج حقل جدول المحتويات، وتصفية حقول جدول المحتويات التي تنتهي كإدخالات.
 
 ```csharp
 public void FieldTocEntryIdentifier()
@@ -26,23 +26,23 @@ public void FieldTocEntryIdentifier()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أدخل حقل TOC، والذي سيجمع جميع حقول TC في جدول المحتويات.
+    // قم بإدراج حقل جدول المحتويات، والذي سيقوم بتجميع كل حقول جدول المحتويات في جدول المحتويات.
     FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // قم بتكوين الحقل فقط لالتقاط إدخالات TC من النوع "A"، ومستوى إدخال بين 1 و3.
+    // قم بتكوين الحقل فقط لالتقاط إدخالات TC من النوع "A"، ومستوى الإدخال بين 1 و3.
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
     Assert.AreEqual(" TOC  \\f A \\l 1-3", fieldToc.GetFieldCode());
 
-    // سيظهر هذان الإدخالان في الجدول.
+    //سيظهر هذان الإدخالان في الجدول.
     builder.InsertBreak(BreakType.PageBreak);
     InsertTocEntry(builder, "TC field 1", "A", "1");
     InsertTocEntry(builder, "TC field 2", "A", "2");
 
     Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
 
-    // سيتم حذف هذا الإدخال من الجدول لأنه يحتوي على نوع مختلف عن "A".
+    //سيتم حذف هذا الإدخال من الجدول لأنه من نوع مختلف عن "A".
     InsertTocEntry(builder, "TC field 3", "B", "1");
 
     // سيتم حذف هذا الإدخال من الجدول لأنه يحتوي على مستوى إدخال خارج النطاق 1-3.

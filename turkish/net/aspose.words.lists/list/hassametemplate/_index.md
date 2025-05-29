@@ -2,15 +2,15 @@
 title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
-second_title: Aspose.Words for .NET
-description: List HasSameTemplate yöntem. Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: HasSameTemplate metodunu keşfedin, iki listenin aynı şablonu paylaşıp paylaşmadığını kolayca kontrol edin, veri yönetiminizde tutarlılığı ve verimliliği garantileyin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words.lists/list/hassametemplate/
 ---
 ## List.HasSameTemplate method
 
-Geçerli liste ile verilen liste aynı şablondan oluşturulmuşsa true değerini döndürür.
+Mevcut liste ve verilen liste aynı şablondan oluşturulmuşsa doğru değerini döndürür.
 
 ```csharp
 public bool HasSameTemplate(List other)

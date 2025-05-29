@@ -3,7 +3,7 @@ title: CompareOptions
 linktitle: CompareOptions
 articleTitle: CompareOptions
 second_title: Aspose.Words для .NET
-description: CompareOptions строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор CompareOptions, ваш основной инструмент для бесшовной конфигурации. Откройте для себя мощь оптимальных настроек для ваших проектов!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.comparing/compareoptions/compareoptions/

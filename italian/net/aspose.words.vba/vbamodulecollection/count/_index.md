@@ -3,7 +3,7 @@ title: VbaModuleCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words per .NET
-description: VbaModuleCollection Count proprietà. Restituisce il numero di moduli VBA nella raccolta in C#.
+description: Scopri la proprietà VbaModuleCollection Count, che conta in modo efficiente i tuoi moduli VBA, migliorando il flusso di lavoro e l'organizzazione della codifica.
 type: docs
 weight: 10
 url: /it/net/aspose.words.vba/vbamodulecollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Esempi
 
-Mostra come accedere alle informazioni sul progetto VBA di un documento.
+Mostra come accedere alle informazioni del progetto VBA di un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -29,7 +29,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

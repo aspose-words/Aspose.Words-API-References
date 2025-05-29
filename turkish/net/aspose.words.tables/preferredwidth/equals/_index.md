@@ -2,15 +2,15 @@
 title: PreferredWidth.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: PreferredWidth Equals yöntem. Belirtilenin olup olmadığını belirlerPreferredWidth şimdiki değere eşittirPreferredWidth  C#'da.
+second_title: .NET için Aspose.Words
+description: PreferredWidth Equals yönteminin, belirttiğiniz genişliğin geçerli değerle eşleşip eşleşmediğini nasıl kontrol ettiğini ve düzen tasarımınızda hassasiyeti nasıl sağladığını keşfedin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words.tables/preferredwidth/equals/
 ---
 ## Equals(*[PreferredWidth](../)*) {#equals}
 
-Belirtilenin olup olmadığını belirler[`PreferredWidth`](../) şimdiki değere eşittir[`PreferredWidth`](../) .
+Belirtilenin geçerli olup olmadığını belirler[`PreferredWidth`](../) mevcut değere eşittir[`PreferredWidth`](../) .
 
 ```csharp
 public bool Equals(PreferredWidth other)
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "PreferredWidth" sınıfını tablo hücrelerine uygulamanın iki yolu vardır.
-// 1 - Noktalara dayalı olarak tercih edilen mutlak genişliği ayarlayın:
+// 1 - Noktalara dayalı olarak mutlak bir tercih edilen genişlik ayarlayın:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
@@ -40,10 +40,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Tercih edilen genişliği belirtilmeyen bir hücre, kullanılabilir alanın geri kalanını kaplayacaktır.
+// Tercih edilen genişliği belirtilmeyen bir hücre kalan kullanılabilir alanı kaplayacaktır.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// "PreferredWidth" özelliğinin her konfigürasyonu yeni bir nesne oluşturur.
+// "PreferredWidth" özelliğinin her yapılandırması yeni bir nesne oluşturur.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.InsertCellsWithPreferredWidths.docx");
 
 ## Equals(*object*) {#equals_1}
 
-Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+Belirtilen nesnenin geçerli nesneye eşit değerde olup olmadığını belirler.
 
 ```csharp
 public override bool Equals(object obj)
@@ -79,7 +79,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "PreferredWidth" sınıfını tablo hücrelerine uygulamanın iki yolu vardır.
-// 1 - Noktalara dayalı olarak tercih edilen mutlak genişliği ayarlayın:
+// 1 - Noktalara dayalı olarak mutlak bir tercih edilen genişlik ayarlayın:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
@@ -93,10 +93,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// Tercih edilen genişliği belirtilmeyen bir hücre, kullanılabilir alanın geri kalanını kaplayacaktır.
+// Tercih edilen genişliği belirtilmeyen bir hücre kalan kullanılabilir alanı kaplayacaktır.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// "PreferredWidth" özelliğinin her konfigürasyonu yeni bir nesne oluşturur.
+// "PreferredWidth" özelliğinin her yapılandırması yeni bir nesne oluşturur.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

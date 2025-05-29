@@ -3,14 +3,14 @@ title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions klass. Kan användas för att ange ytterligare alternativ vid generering av miniatyrbilder för ett dokument i C#.
+description: Upptäck klassen Aspose.Words.Rendering.ThumbnailGeneratingOptions för att förbättra genereringen av dokumentminiatyrer med anpassningsbara funktioner och förbättrad kvalitet.
 type: docs
-weight: 4600
+weight: 5330
 url: /sv/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
 
-Kan användas för att ange ytterligare alternativ vid generering av miniatyrbilder för ett dokument.
+Kan användas för att ange ytterligare alternativ när miniatyrbilder genereras för ett dokument.
 
 ```csharp
 public class ThumbnailGeneratingOptions
@@ -26,16 +26,16 @@ public class ThumbnailGeneratingOptions
 
 | namn | Beskrivning |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Anger om miniatyrbilden ska genereras från första sidan i dokumentet eller första bilden. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Anger om miniatyrbilden ska genereras från dokumentets första sida eller den första bilden. |
 | [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Storlek på genererad miniatyrbild i pixlar. Standard är 600x900. |
 
 ## Anmärkningar
 
-Användaren kan anropa metod[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) att generera [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) för ett dokument.
+Användaren kan anropa metoden[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) att generera [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) för ett dokument.
 
 ## Exempel
 
-Visar hur man uppdaterar ett dokuments miniatyrbild.
+Visar hur man uppdaterar en dokumentminiatyr.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Det finns två sätt att ställa in en miniatyrbild när du sparar ett dokument i .epub.
+// Det finns två sätt att ange en miniatyrbild när man sparar ett dokument till .epub.
 // 1 - Använd dokumentets första sida:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");

@@ -3,14 +3,14 @@ title: ConditionalStyleType Enum
 linktitle: ConditionalStyleType
 articleTitle: ConditionalStyleType
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.ConditionalStyleType énumération. Représente les zones de tableau possibles dans lesquelles une mise en forme conditionnelle peut être définie dans un style de tableau en C#.
+description: Découvrez l'énumération Aspose.Words.ConditionalStyleType pour définir la mise en forme dynamique des tableaux. Améliorez le style de vos documents grâce à des options conditionnelles flexibles !
 type: docs
-weight: 330
+weight: 530
 url: /fr/net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
 
-Représente les zones de tableau possibles dans lesquelles une mise en forme conditionnelle peut être définie dans un style de tableau.
+Représente les zones de tableau possibles pour lesquelles une mise en forme conditionnelle peut être définie dans un style de tableau.
 
 ```csharp
 public enum ConditionalStyleType
@@ -20,22 +20,22 @@ public enum ConditionalStyleType
 
 | Nom | Évaluer | La description |
 | --- | --- | --- |
-| FirstRow | `0` | Spécifie le formatage de la première ligne d'un tableau. |
-| FirstColumn | `1` | Spécifie le formatage de la première colonne d'un tableau. |
-| LastRow | `2` | Spécifie le formatage de la dernière ligne d'un tableau. |
-| LastColumn | `3` | Spécifie le formatage de la dernière colonne d'un tableau. |
-| OddRowBanding | `4` | Spécifie le formatage de la bande de lignes impaires. |
+| FirstRow | `0` | Spécifie la mise en forme de la première ligne d'un tableau. |
+| FirstColumn | `1` | Spécifie la mise en forme de la première colonne d'un tableau. |
+| LastRow | `2` | Spécifie la mise en forme de la dernière ligne d'un tableau. |
+| LastColumn | `3` | Spécifie la mise en forme de la dernière colonne d'un tableau. |
+| OddRowBanding | `4` | Spécifie le formatage de la bande de ligne impaire. |
 | OddColumnBanding | `5` | Spécifie le formatage de la bande de colonnes impaires. |
-| EvenRowBanding | `6` | Spécifie le formatage de la bande de ligne paire. |
-| EvenColumnBanding | `7` | Spécifie le formatage de la bande de colonne paire. |
-| TopLeftCell | `8` | Spécifie le formatage de la cellule supérieure gauche d'un tableau. |
-| TopRightCell | `9` | Spécifie le formatage de la cellule supérieure droite d'un tableau. |
-| BottomLeftCell | `10` | Spécifie le formatage de la cellule inférieure gauche d'un tableau. |
-| BottomRightCell | `11` | Spécifie le formatage de la cellule inférieure droite d'un tableau. |
+| EvenRowBanding | `6` | Spécifie le formatage de la bande de lignes paires. |
+| EvenColumnBanding | `7` | Spécifie la mise en forme de la bande de colonnes paires. |
+| TopLeftCell | `8` | Spécifie la mise en forme de la cellule supérieure gauche d'un tableau. |
+| TopRightCell | `9` | Spécifie la mise en forme de la cellule supérieure droite d'un tableau. |
+| BottomLeftCell | `10` | Spécifie la mise en forme de la cellule en bas à gauche d'un tableau. |
+| BottomRightCell | `11` | Spécifie la mise en forme de la cellule en bas à droite d'un tableau. |
 
 ## Exemples
 
-Montre comment travailler avec certains styles de zones d'un tableau.
+Montre comment travailler avec certains styles de zone d'un tableau.
 
 ```csharp
 Document doc = new Document();
@@ -53,13 +53,13 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Crée un style de tableau personnalisé.
+// Créer un style de tableau personnalisé.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Les styles conditionnels sont des modifications de formatage qui n'affectent que certaines cellules du tableau
-// basé sur un prédicat, tel que les cellules de la dernière ligne.
-// Vous trouverez ci-dessous trois manières d'accéder aux styles conditionnels d'un style de tableau à partir de la collection "ConditionalStyles".
-// 1 - Par type de style :
+// Les styles conditionnels sont des modifications de formatage qui affectent uniquement certaines cellules du tableau
+// basé sur un prédicat, tel que les cellules se trouvant dans la dernière ligne.
+// Vous trouverez ci-dessous trois manières d'accéder aux styles conditionnels d'un style de tableau à partir de la collection « ConditionalStyles ».
+// 1 - Par type de style :
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 
 // 2 - Par index :
@@ -67,17 +67,17 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - En propriété :
+// 3 - En tant que propriété :
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
-// Applique un remplissage et un formatage de texte aux styles conditionnels.
+// Appliquer le remplissage et la mise en forme du texte aux styles conditionnels.
 tableStyle.ConditionalStyles.LastRow.BottomPadding = 10;
 tableStyle.ConditionalStyles.LastRow.LeftPadding = 10;
 tableStyle.ConditionalStyles.LastRow.RightPadding = 10;
 tableStyle.ConditionalStyles.LastRow.TopPadding = 10;
 tableStyle.ConditionalStyles.LastColumn.Font.Bold = true;
 
-// Liste toutes les conditions de style possibles.
+// Répertoriez toutes les conditions de style possibles.
 using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -87,14 +87,14 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Applique le style personnalisé, qui contient tous les styles conditionnels, au tableau.
+// Appliquez le style personnalisé, qui contient tous les styles conditionnels, au tableau.
 table.Style = tableStyle;
 
 // Notre style applique certains styles conditionnels par défaut.
 Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
     table.StyleOptions);
 
-// Nous devrons activer nous-mêmes tous les autres styles via la propriété "StyleOptions".
+// Nous devrons activer tous les autres styles nous-mêmes via la propriété « StyleOptions ».
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;
 
 doc.Save(ArtifactsDir + "Table.ConditionalStyles.docx");

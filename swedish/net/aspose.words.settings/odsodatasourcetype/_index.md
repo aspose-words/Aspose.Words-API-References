@@ -3,9 +3,9 @@ title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.OdsoDataSourceType uppräkning. Anger typen av extern datakälla som ska anslutas till som en del av ODSOanslutningsinformationen i C#.
+description: Upptäck Aspose.Words OdsoDataSourceType-enum för att enkelt ansluta till externa datakällor och förbättra dina dokumentbehandlingsmöjligheter.
 type: docs
-weight: 5890
+weight: 6720
 url: /sv/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
@@ -20,25 +20,25 @@ public enum OdsoDataSourceType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Text | `0` | Anger att ett givet dokument har kopplats till en textfil. Eventuellt wdMergeSubTypeOther. |
-| Database | `1` | Anger att ett givet dokument har kopplats till en databas. Eventuellt wdMergeSubTypeAccess. |
-| AddressBook | `2` | Anger att ett givet dokument har kopplats till en adressbok med kontakter. Eventuellt wdMergeSubTypeOAL. |
-| Document1 | `3` | Anger att ett visst dokument har kopplats till ett annat dokumentformat som stöds av det producerande programmet. Eventuellt wdMergeSubTypeOLEDBWord. |
-| Document2 | `4` | Anger att ett visst dokument har kopplats till ett annat dokumentformat som stöds av det producerande programmet. Eventuellt wdMergeSubTypeWorks. |
-| Native | `5` | Anger att ett visst dokument har kopplats till ett annat dokumentformat som är inbyggt i det producerande programmet. Eventuellt wdMergeSubTypeOLEDBText |
-| Email | `6` | Anger att ett visst dokument har kopplats till ett e-postprogram. Eventuellt wdMergeSubTypeOutlook. |
-| None | `7` | Typen för den externa datakällan är inte specificerad. Eventuellt wdMergeSubTypeWord. |
-| Legacy | `8` | Anger att ett visst dokument har kopplats till ett äldre dokumentformat som stöds av det producerande programmet Eventuellt wdMergeSubTypeWord2000. |
-| Master | `9` | Anger att ett visst dokument har kopplats till en datakälla som aggregerar andra datakällor. |
-| Default | `7` | MotsvararNone . |
+| Text | `0` | Anger att ett givet dokument har kopplats till en textfil. Möjligen wdMergeSubTypeOther. |
+| Database | `1` | Anger att ett givet dokument har kopplats till en databas. Möjligen wdMergeSubTypeAccess. |
+| AddressBook | `2` | Anger att ett givet dokument har kopplats till en adressbok med kontakter. Möjligen wdMergeSubTypeOAL. |
+| Document1 | `3` | Anger att ett givet dokument har kopplats till ett annat dokumentformat som stöds av det producerande programmet. Möjligen wdMergeSubTypeOLEDBWord. |
+| Document2 | `4` | Anger att ett givet dokument har kopplats till ett annat dokumentformat som stöds av det producerande programmet. Möjligen wdMergeSubTypeWorks. |
+| Native | `5` | Anger att ett givet dokument har kopplats till ett annat dokumentformat som är ursprungligt för den producerande applikationen. Möjligen wdMergeSubTypeOLEDBText |
+| Email | `6` | Anger att ett givet dokument har kopplats till ett e-postprogram. Möjligen wdMergeSubTypeOutlook. |
+| None | `7` | Typen för den externa datakällan är inte specificerad. Möjligen wdMergeSubTypeWord. |
+| Legacy | `8` | Anger att ett givet dokument har kopplats till ett äldre dokumentformat som stöds av det producerande programmet. Möjligen wdMergeSubTypeWord2000. |
+| Master | `9` | Anger att ett givet dokument har kopplats till en datakälla som aggregerar andra datakällor. |
+| Default | `7` | är lika medNone . |
 
 ## Anmärkningar
 
-OOXML-specifikationen är mycket vag för denna uppräkning. Jag antar att det kan motsvara WdMergeSubType -uppräkningen http://msdn.microsoft.com/en-us/library/bb237801.aspx.
+OOXML-specifikationen är väldigt vag för denna uppräkning. Jag antar att den kan motsvara WdMergeSubType -uppräkningen http://msdn.microsoft.com/en-us/library/bb237801.aspx.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -51,9 +51,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -81,7 +81,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

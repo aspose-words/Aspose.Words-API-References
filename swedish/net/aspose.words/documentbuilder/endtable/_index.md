@@ -3,7 +3,7 @@ title: DocumentBuilder.EndTable
 linktitle: EndTable
 articleTitle: EndTable
 second_title: Aspose.Words för .NET
-description: DocumentBuilder EndTable metod. Avslutar en tabell i dokumentet i C#.
+description: Avsluta enkelt dina dokumenttabeller med DocumentBuilders EndTable-metod, vilket säkerställer sömlös formatering och professionell presentation.
 type: docs
 weight: 250
 url: /sv/net/aspose.words/documentbuilder/endtable/
@@ -18,11 +18,11 @@ public Table EndTable()
 
 ### Returvärde
 
-Bordsnoden som precis var klar.
+Tabellnoden som just blev klar.
 
 ## Anmärkningar
 
-Denna metod bör endast anropas en gång efter[`EndRow`](../endrow/) kallades. När du ringer, `EndTable` flyttar markören ut från den aktuella cellen för att peka precis efter tabellen.
+Denna metod bör endast anropas en gång efter[`EndRow`](../endrow/) blev uppringd. När den blev uppringd, `EndTable` flyttar markören ut ur den aktuella cellen så att den pekar precis efter tabellen.
 
 ## Exempel
 
@@ -37,7 +37,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Infoga en andra cell och konfigurera sedan utfyllnadsalternativ för celltext.
-// Byggaren kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
+// Skaparen kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -51,7 +51,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Den första cellen påverkades inte av utfyllnadsomställningen och har fortfarande standardvärdena.
+// Den första cellen påverkades inte av omkonfigureringen av utfyllnaden och innehåller fortfarande standardvärdena.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -64,7 +64,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess närliggande cell.
+// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess angränsande cell.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
@@ -82,8 +82,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// När du bygger tabellen kommer dokumentbyggaren att tillämpa sina nuvarande RowFormat/CellFormat-egenskapsvärden
-// till den aktuella raden/cellen som markören är i och eventuella nya rader/celler när den skapar dem.
+// När tabellen skapas kommer dokumentbyggaren att tillämpa dess aktuella RowFormat/CellFormat-egenskapsvärden
+// till den aktuella raden/cellen där markören befinner sig och alla nya rader/celler allt eftersom de skapas.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -98,7 +98,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i byggarens formatering.
+// Tidigare tillagda rader och celler påverkas inte retroaktivt av ändringar i formateringen i verktyget.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -109,7 +109,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -141,9 +141,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -154,7 +154,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

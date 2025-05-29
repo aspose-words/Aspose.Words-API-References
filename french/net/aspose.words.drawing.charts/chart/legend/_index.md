@@ -3,14 +3,14 @@ title: Chart.Legend
 linktitle: Legend
 articleTitle: Legend
 second_title: Aspose.Words pour .NET
-description: Chart Legend propriété. Permet daccéder aux propriétés de la légende du graphique en C#.
+description: Découvrez la propriété « Légende des graphiques » pour personnaliser vos graphiques en toute simplicité. Améliorez la visualisation de vos données grâce à des options de légende personnalisées pour une meilleure compréhension !
 type: docs
-weight: 50
+weight: 70
 url: /fr/net/aspose.words.drawing.charts/chart/legend/
 ---
 ## Chart.Legend property
 
-Permet d'accéder aux propriétés de la légende du graphique.
+Donne accès aux propriétés de la légende du graphique.
 
 ```csharp
 public ChartLegend Legend { get; }
@@ -18,7 +18,7 @@ public ChartLegend Legend { get; }
 
 ## Exemples
 
-Montre comment modifier l’apparence de la légende d’un graphique.
+Montre comment modifier l'apparence de la légende d'un graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Déplace la légende du graphique vers le coin supérieur droit.
+// Déplacez la légende du graphique vers le coin supérieur droit.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 

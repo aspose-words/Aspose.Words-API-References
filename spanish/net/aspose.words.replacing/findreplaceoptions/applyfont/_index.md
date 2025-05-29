@@ -3,14 +3,14 @@ title: FindReplaceOptions.ApplyFont
 linktitle: ApplyFont
 articleTitle: ApplyFont
 second_title: Aspose.Words para .NET
-description: FindReplaceOptions ApplyFont propiedad. Formato de texto aplicado al contenido nuevo en C#.
+description: Descubre la propiedad ApplyFont en FindReplaceOptions para un formato de texto impecable. ¡Mejora tu contenido con estilos personalizados sin esfuerzo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.replacing/findreplaceoptions/applyfont/
 ---
 ## FindReplaceOptions.ApplyFont property
 
-Formato de texto aplicado al contenido nuevo.
+Formato de texto aplicado al nuevo contenido.
 
 ```csharp
 public Font ApplyFont { get; }
@@ -18,7 +18,7 @@ public Font ApplyFont { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establezca la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,7 +51,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

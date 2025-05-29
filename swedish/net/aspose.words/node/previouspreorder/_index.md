@@ -3,14 +3,14 @@ title: Node.PreviousPreOrder
 linktitle: PreviousPreOrder
 articleTitle: PreviousPreOrder
 second_title: Aspose.Words för .NET
-description: Node PreviousPreOrder metod. Hämtar föregående nod enligt algoritmen för förbeställningsträdet i C#.
+description: Upptäck Node PreviousPreOrder-metoden för att effektivt hämta den tidigare noden med hjälp av förbeställningsträdets traverseringsalgoritm för optimerad databehandling.
 type: docs
 weight: 140
 url: /sv/net/aspose.words/node/previouspreorder/
 ---
 ## Node.PreviousPreOrder method
 
-Hämtar föregående nod enligt algoritmen för förbeställningsträdet.
+Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning.
 
 ```csharp
 public Node PreviousPreOrder(Node rootNode)
@@ -18,15 +18,15 @@ public Node PreviousPreOrder(Node rootNode)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| rootNode | Node | Den övre noden (gränsen) för traversering. |
+| rootNode | Node | Den översta noden (gränsen) för genomfarten. |
 
 ### Returvärde
 
-Föregående nod i förbeställning. Null om nått*rootNode*.
+Föregående nod i förbeställningsordern. Null om nått*rootNode*.
 
 ## Exempel
 
-Visar hur man går igenom dokumentets nodträd med förbeställnings-genomgångsalgoritmen och tar bort alla former som påträffas med en bild.
+Visar hur man bläddrar i dokumentets nodträd med hjälp av algoritmen för förbeställningsbläddring och tar bort alla påträffade former med en bild.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");

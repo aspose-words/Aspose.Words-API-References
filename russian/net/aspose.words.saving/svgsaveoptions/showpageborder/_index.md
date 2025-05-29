@@ -3,14 +3,14 @@ title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words для .NET
-description: SvgSaveOptions ShowPageBorder свойство. Определяет добавляется ли граница к контуру страницы. Значение по умолчаниюистинный  на С#.
+description: Откройте для себя свойство SvgSaveOptions ShowPageBorder, чтобы настроить контур страницы. Управляйте границами без усилий — настройка по умолчанию — true для простоты использования!
 type: docs
-weight: 80
+weight: 110
 url: /ru/net/aspose.words.saving/svgsaveoptions/showpageborder/
 ---
 ## SvgSaveOptions.ShowPageBorder property
 
-Определяет, добавляется ли граница к контуру страницы. Значение по умолчанию:`истинный` .
+Управляет добавлением границы к контуру страницы. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool ShowPageBorder { get; set; }
@@ -18,12 +18,12 @@ public bool ShowPageBorder { get; set; }
 
 ## Примеры
 
-Показывает, как имитировать свойства изображений при преобразовании документа .docx в .svg.
+Показывает, как имитировать свойства изображений при конвертации документа .docx в .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Настройте объект SvgSaveOptions для сохранения без границ страницы и выбираемого текста.
+// Настройте объект SvgSaveOptions для сохранения без границ страницы или выбираемого текста.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

@@ -3,16 +3,16 @@ title: OdsoRecipientDataCollection Class
 linktitle: OdsoRecipientDataCollection
 articleTitle: OdsoRecipientDataCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.OdsoRecipientDataCollection klass. En maskinskriven samling avOdsoRecipientData i C#.
+description: Upptäck Aspose.Words.Settings.OdsoRecipientDataCollection, en kraftfull samling av typade meddelanden för att effektivt hantera OdsoRecipientData i dina applikationer.
 type: docs
-weight: 5940
+weight: 6770
 url: /sv/net/aspose.words.settings/odsorecipientdatacollection/
 ---
 ## OdsoRecipientDataCollection class
 
 En maskinskriven samling av[`OdsoRecipientData`](../odsorecipientdata/)
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
@@ -37,12 +37,12 @@ public class OdsoRecipientDataCollection : IEnumerable<OdsoRecipientData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsorecipientdatacollection/add/)(*[OdsoRecipientData](../odsorecipientdata/)*) | Lägger till ett objekt i slutet av den här samlingen. |
 | [Clear](../../aspose.words.settings/odsorecipientdatacollection/clear/)() | Tar bort alla element från den här samlingen. |
-| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [GetEnumerator](../../aspose.words.settings/odsorecipientdatacollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [RemoveAt](../../aspose.words.settings/odsorecipientdatacollection/removeat/)(*int*) | Tar bort elementet vid det angivna indexet. |
 
 ## Exempel
 
-Visar hur man får åtkomst till insamlingen av data som anger vilka sammanslagningsdatakällaposter en sammanslagning kommer att utesluta.
+Visar hur man får åtkomst till datasamlingen som anger vilka sammanslagna datakällposter som en dokumentkoppling kommer att exkludera.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");

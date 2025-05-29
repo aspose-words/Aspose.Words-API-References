@@ -3,14 +3,14 @@ title: SvgTextOutputMode Enum
 linktitle: SvgTextOutputMode
 articleTitle: SvgTextOutputMode
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Saving.SvgTextOutputMode uppräkning. Gör det möjligt att ange hur text i ett dokument ska renderas när du sparar i SVGformat i C#.
+description: Upptäck Aspose.Words.Saving.SvgTextOutputMode enum för att anpassa textrendering i SVG-format, vilket förbättrar dokumentpresentationen och den visuella attraktionskraften.
 type: docs
-weight: 5610
+weight: 6410
 url: /sv/net/aspose.words.saving/svgtextoutputmode/
 ---
 ## SvgTextOutputMode enumeration
 
-Gör det möjligt att ange hur text i ett dokument ska renderas när du sparar i SVG-format.
+Gör det möjligt att ange hur text i ett dokument ska återges när det sparas i SVG-format.
 
 ```csharp
 public enum SvgTextOutputMode
@@ -20,18 +20,18 @@ public enum SvgTextOutputMode
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| UseSvgFonts | `0` | SVG-teckensnitt används för att återge text. Observera att inte alla webbläsare stöder SVG-teckensnitt. |
-| UseTargetMachineFonts | `1` | Teckensnitt som är installerade på måldatorn används för att rendera text. Observera att om några teckensnitt som används i dokumentet inte är tillgängliga på måldatorn kan dokumentet se annorlunda ut. |
-| UsePlacedGlyphs | `2` | Text renderas med kurvor. Obs, textval fungerar inte om du använder det här alternativet. |
+| UseSvgFonts | `0` | SVG-teckensnitt används för att rendera text. Observera att inte alla webbläsare stöder SVG-teckensnitt. |
+| UseTargetMachineFonts | `1` | Typsnitt som är installerade på måldatorn används för att rendera text. Observera att om vissa av de typsnitt som används i dokumentet inte är tillgängliga på måldatorn kan dokumentet se annorlunda ut. |
+| UsePlacedGlyphs | `2` | Texten återges med hjälp av kurvor. Observera att textmarkering inte fungerar om du använder det här alternativet. |
 
 ## Exempel
 
-Visar hur man efterliknar egenskaperna hos bilder när man konverterar ett .docx-dokument till .svg.
+Visar hur man efterliknar bilders egenskaper när man konverterar ett .docx-dokument till .svg.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-// Konfigurera SvgSaveOptions-objektet för att spara utan sidkanter eller valbar text.
+// Konfigurera SvgSaveOptions-objektet för att spara utan sidkantlinjer eller valbar text.
 SvgSaveOptions options = new SvgSaveOptions
 {
     FitToViewPort = true,

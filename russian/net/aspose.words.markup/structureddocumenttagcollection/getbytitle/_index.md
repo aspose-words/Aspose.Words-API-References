@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetByTitle
 linktitle: GetByTitle
 articleTitle: GetByTitle
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagCollection GetByTitle метод. Возвращает первый тег структурированного документа обнаруженный в коллекции с указанным заголовком на С#.
+description: Откройте для себя метод GetByTitle в StructuredDocumentTagCollection, который эффективно извлекает первый тег документа по заголовку для упрощения управления данными.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
 ---
 ## StructuredDocumentTagCollection.GetByTitle method
 
-Возвращает первый тег структурированного документа, обнаруженный в коллекции с указанным заголовком.
+Возвращает первый структурированный тег документа, обнаруженный в коллекции с указанным заголовком.
 
 ```csharp
 public IStructuredDocumentTag GetByTitle(string title)
@@ -18,11 +18,11 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| title | String | Заголовок тега структурированного документа. |
+| title | String | Название структурированного тега документа. |
 
 ## Примечания
 
-Возвращает значение NULL, если тег структурированного документа с указанным заголовком не найден.
+Возвращает значение null, если структурированный тег документа с указанным заголовком не найден.
 
 ## Примеры
 
@@ -31,12 +31,12 @@ public IStructuredDocumentTag GetByTitle(string title)
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
-// Получаем тег структурированного документа по идентификатору.
+// Получить структурированный тег документа по идентификатору.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// Получаем тег структурированного документа или тег с ранжированием по заголовку.
+// Получить структурированный тег документа или ранжированный тег по заголовку.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

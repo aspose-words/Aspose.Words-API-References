@@ -3,7 +3,7 @@ title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words для .NET
-description: NodeCollection Contains метод. Определяет находится ли узел в коллекции на С#.
+description: Узнайте, как метод NodeCollection Contains эффективно проверяет наличие узла в вашей коллекции, расширяя ваши возможности управления данными.
 type: docs
 weight: 50
 url: /ru/net/aspose.words/nodecollection/contains/
@@ -22,11 +22,11 @@ public bool Contains(Node node)
 
 ### Возвращаемое значение
 
-`истинный` если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
+`истинный`если элемент найден в коллекции; в противном случае,`ЛОЖЬ`.
 
 ## Примечания
 
-Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально[`Count`](../count/).
+Этот метод выполняет линейный поиск, поэтому среднее время выполнения пропорционально[`Count`](../count/).
 
 ## Примеры
 
@@ -36,12 +36,12 @@ public bool Contains(Node node)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Добавьте текст в документ, вставив прогоны с помощью DocumentBuilder.
+// Добавьте текст в документ, вставив Runs с помощью DocumentBuilder.
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Каждый вызов метода Write создает новый Run,
-// который затем появляется в RunCollection родительского абзаца.
+// Каждый вызов метода «Write» создает новый Run,
+// который затем появляется в RunCollection родительского Paragraph.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
@@ -53,7 +53,7 @@ runs.Insert(3, newRun);
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Доступ к отдельным запускам и удаление их, чтобы удалить их текст из документа.
+// Доступ к отдельным фрагментам и их удаление для удаления их текста из документа.
 Run run = runs[1];
 runs.Remove(run);
 

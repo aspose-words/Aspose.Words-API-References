@@ -3,7 +3,7 @@ title: FieldAutoNum
 linktitle: FieldAutoNum
 articleTitle: FieldAutoNum
 second_title: Aspose.Words لـ .NET
-description: FieldAutoNum البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldAutoNum - حلك الأمثل لتوليد الأرقام تلقائيًا بسلاسة. حسّن كفاءة ترميزك باستخدام مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldautonum/fieldautonum/

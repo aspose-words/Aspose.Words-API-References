@@ -2,8 +2,8 @@
 title: FieldFormCheckBox
 linktitle: FieldFormCheckBox
 articleTitle: FieldFormCheckBox
-second_title: Aspose.Words for .NET
-description: FieldFormCheckBox inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz form entegrasyonu için FieldFormCheckBox oluşturucusunu keşfedin. Sezgisel tasarımımız ve sağlam işlevselliğimizle kullanıcı deneyimini geliştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldformcheckbox/fieldformcheckbox/

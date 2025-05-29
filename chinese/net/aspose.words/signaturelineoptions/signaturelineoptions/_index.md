@@ -2,8 +2,8 @@
 title: SignatureLineOptions
 linktitle: SignatureLineOptions
 articleTitle: SignatureLineOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: SignatureLineOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 SignatureLineOptions 构造函数，实现无缝集成。解锁默认设置，增强项目的自定义功能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/signaturelineoptions/signaturelineoptions/

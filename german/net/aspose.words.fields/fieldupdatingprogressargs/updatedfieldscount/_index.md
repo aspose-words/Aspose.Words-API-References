@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words für .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount eigendom. Ruft die Anzahl der aktualisierten Felder ab in C#.
+description: Entdecken Sie die UpdatedFieldsCount-Eigenschaft von FieldUpdatingProgressArgs, um die Anzahl der aktualisierten Felder in Ihrer Anwendung einfach zu verfolgen.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## Beispiele
 
-Zeigt, wie Callback-Methoden während einer Feldaktualisierung verwendet werden.
+Zeigt, wie Rückrufmethoden während einer Feldaktualisierung verwendet werden.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufgerufen werden.
+/// Implementieren Sie diese Schnittstelle, wenn Sie während einer Feldaktualisierung Ihre eigenen benutzerdefinierten Methoden aufrufen möchten.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Eine benutzerdefinierte Methode, die aufgerufen wird, unmittelbar bevor ein Feld aktualisiert wird.
+    /// Eine benutzerdefinierte Methode, die unmittelbar vor der Aktualisierung eines Felds aufgerufen wird.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {

@@ -2,15 +2,15 @@
 title: OdsoDataSourceType Enum
 linktitle: OdsoDataSourceType
 articleTitle: OdsoDataSourceType
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.OdsoDataSourceType 枚举. 指定要连接的外部数据源的类型作为 ODSO 连接信息的一部分 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words OdsoDataSourceType 枚举，轻松连接到外部数据源，增强您的文档处理能力。
 type: docs
-weight: 5890
+weight: 6720
 url: /zh/net/aspose.words.settings/odsodatasourcetype/
 ---
 ## OdsoDataSourceType enumeration
 
-指定要连接的外部数据源的类型，作为 ODSO 连接信息的一部分。
+指定作为 ODSO 连接信息的一部分要连接的外部数据源的类型。
 
 ```csharp
 public enum OdsoDataSourceType
@@ -20,13 +20,13 @@ public enum OdsoDataSourceType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Text | `0` | 指定给定文档已连接到文本文件。 可能是 wdMergeSubTypeOther。 |
-| Database | `1` | 指定给定文档已连接到数据库。 可能是 wdMergeSubTypeAccess。 |
-| AddressBook | `2` | 指定给定文档已连接到联系人地址簿。 可能是 wdMergeSubTypeOAL。 |
+| Text | `0` | 指定给定文档已连接到文本文件。 可能为 wdMergeSubTypeOther。 |
+| Database | `1` | 指定给定文档已连接到数据库。 可能为 wdMergeSubTypeAccess。 |
+| AddressBook | `2` | 指定给定文档已连接到联系人地址簿。 可能为 wdMergeSubTypeOAL。 |
 | Document1 | `3` | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 可能是 wdMergeSubTypeOLEDBWord。 |
 | Document2 | `4` | 指定给定文档已连接到生成应用程序支持的另一种文档格式。 可能是 wdMergeSubTypeWorks。 |
-| Native | `5` | 指定给定文档已连接到生成应用程序本机的另一种文档格式。 可能是 wdMergeSubTypeOLEDBText |
-| Email | `6` | 指定给定文档已连接到电子邮件应用程序。 可能是 wdMergeSubTypeOutlook。 |
+| Native | `5` | 指定给定文档已连接到生成应用程序的另一种文档格式。 可能是 wdMergeSubTypeOLEDBText |
+| Email | `6` | 指定给定文档已连接到电子邮件应用程序。 可能为 wdMergeSubTypeOutlook。 |
 | None | `7` | 未指定外部数据源的类型。 可能是 wdMergeSubTypeWord。 |
 | Legacy | `8` | 指定给定文档已连接到生成应用程序支持的旧文档格式 可能是 wdMergeSubTypeWord2000. |
 | Master | `9` | 指定给定文档已连接到聚合其他数据源的数据源。 |
@@ -34,11 +34,11 @@ public enum OdsoDataSourceType
 
 ## 评论
 
-OOXML 规范对于这个枚举来说非常模糊。我想它可能对应于 WdMergeSubType 枚举 http://msdn.microsoft.com/en-us/library/bb237801.aspx。
+OOXML 规范对这个枚举的定义非常模糊。我猜它可能对应 WdMergeSubType 枚举 http://msdn.microsoft.com/en-us/library/bb237801.aspx。
 
 ## 例子
 
-演示如何使用 Office 数据源对象中的数据执行邮件合并。
+展示如何使用来自 Office 数据源对象的数据执行邮件合并。
 
 ```csharp
 Document doc = new Document();
@@ -51,9 +51,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// 创建一个ASCII文件形式的数据源，带有“|”特点
+// 以ASCII文件的形式创建数据源，以“|”字符
 // 充当分隔列的分隔符。第一行包含三列的名称，
-// 随后的每一行都是具有各自值的行。
+// 并且每个后续行都是具有各自值的一行。
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

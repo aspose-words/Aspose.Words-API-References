@@ -3,7 +3,7 @@ title: ImageData.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words para .NET
-description: ImageData ImageSize propiedad. Obtiene la información sobre el tamaño y la resolución de la imagen en C#.
+description: Descubra la propiedad ImageSize de ImageData para acceder fácilmente a detalles esenciales sobre las dimensiones y la resolución de la imagen para una calidad visual mejorada.
 type: docs
 weight: 130
 url: /es/net/aspose.words.drawing/imagedata/imagesize/
@@ -18,60 +18,48 @@ public ImageSize ImageSize { get; }
 
 ## Observaciones
 
-Si la imagen está vinculada únicamente y no se almacena en el documento, devuelve el tamaño cero.
+Si la imagen solo está vinculada y no está almacenada en el documento, devuelve tamaño cero.
 
 ## Ejemplos
 
 Muestra cómo cambiar el tamaño de una forma con una imagen.
 
 ```csharp
-#if NET48 || JAVA
-            Image image = Image.FromFile(ImageDir + "Logo.jpg");
+// Cuando insertamos una imagen usando el método "InsertImage", el constructor escala la forma que muestra la imagen de modo que,
+// cuando vemos el documento usando el zoom del 100% en Microsoft Word, la forma muestra la imagen en su tamaño real.
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.AreEqual(400, image.Size.Width);
-            Assert.AreEqual(400, image.Size.Height);
-#elif NET5_0_OR_GREATER
-            SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg");
+// Una imagen de 400x400 creará un objeto ImageData con un tamaño de imagen de 300x300pt.
+ImageSize imageSize = shape.ImageData.ImageSize;
 
-            Assert.AreEqual(400, image.Width);
-            Assert.AreEqual(400, image.Height);
-#endif
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-            // Cuando insertamos una imagen usando el método "InsertImage", el constructor escala la forma que muestra la imagen para que,
-            // cuando vemos el documento usando un zoom del 100% en Microsoft Word, la forma muestra la imagen en su tamaño real.
-            Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
-            Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
+// Si las dimensiones de una forma coinciden con las dimensiones de los datos de la imagen,
+//Entonces la forma muestra la imagen en su tamaño original.
+Assert.AreEqual(300.0d, shape.Width);
+Assert.AreEqual(300.0d, shape.Height);
 
-            // Una imagen de 400x400 creará un objeto ImageData con un tamaño de imagen de 300x300pt.
-            ImageSize imageSize = shape.ImageData.ImageSize;
+ // Reduce el tamaño general de la forma en un 50%.
+shape.Width *= 0.5;
 
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
+ // Los factores de escala se aplican tanto al ancho como a la altura al mismo tiempo para preservar las proporciones de la forma.
+Assert.AreEqual(150.0d, shape.Width);
+Assert.AreEqual(150.0d, shape.Height);
 
-            // Si las dimensiones de una forma coinciden con las dimensiones de los datos de la imagen,
-            // entonces la forma muestra la imagen en su tamaño original.
-            Assert.AreEqual(300.0d, shape.Width);
-            Assert.AreEqual(300.0d, shape.Height);
+// Cuando cambiamos el tamaño de la forma, el tamaño de los datos de la imagen permanece igual.
+Assert.AreEqual(300.0d, imageSize.WidthPoints);
+Assert.AreEqual(300.0d, imageSize.HeightPoints);
 
-             // Reducir el tamaño total de la forma en un 50%.
-            shape.Width *= 0.5;
+//Podemos referenciar las dimensiones de los datos de la imagen para aplicar una escala en función del tamaño de la imagen.
+shape.Width = imageSize.WidthPoints * 1.1;
 
-             // Los factores de escala se aplican tanto al ancho como al alto al mismo tiempo para preservar las proporciones de la forma.
-            Assert.AreEqual(150.0d, shape.Width);
-            Assert.AreEqual(150.0d, shape.Height);
+Assert.AreEqual(330.0d, shape.Width);
+Assert.AreEqual(330.0d, shape.Height);
 
-            // Cuando cambiamos el tamaño de la forma, el tamaño de los datos de la imagen sigue siendo el mismo.
-            Assert.AreEqual(300.0d, imageSize.WidthPoints);
-            Assert.AreEqual(300.0d, imageSize.HeightPoints);
-
-            // Podemos hacer referencia a las dimensiones de los datos de la imagen para aplicar una escala basada en el tamaño de la imagen.
-            shape.Width = imageSize.WidthPoints * 1.1;
-
-            Assert.AreEqual(330.0d, shape.Width);
-            Assert.AreEqual(330.0d, shape.Height);
-
-            doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
+doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
 ```
 
 ### Ver también

@@ -3,14 +3,14 @@ title: Font.UnderlineColor
 linktitle: UnderlineColor
 articleTitle: UnderlineColor
 second_title: Aspose.Words для .NET
-description: Font UnderlineColor свойство. Получает или задает цвет подчеркивания применяемого к шрифту на С#.
+description: Откройте для себя свойство Font UnderlineColor, которое позволит легко настроить цвет подчеркивания шрифта для улучшения стиля текста и визуальной привлекательности.
 type: docs
-weight: 540
+weight: 550
 url: /ru/net/aspose.words/font/underlinecolor/
 ---
 ## Font.UnderlineColor property
 
-Получает или задает цвет подчеркивания, применяемого к шрифту.
+Возвращает или задает цвет подчеркивания, применяемого к шрифту.
 
 ```csharp
 public Color UnderlineColor { get; set; }

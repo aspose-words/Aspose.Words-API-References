@@ -3,14 +3,14 @@ title: ImageData.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words pour .NET
-description: ImageData SetImage méthode. Définit limage affichée par la forme en C#.
+description: Découvrez comment utiliser la méthode SetImage dans ImageData pour enrichir vos formes avec des images personnalisées. Sublimez votre design sans effort !
 type: docs
-weight: 200
+weight: 210
 url: /fr/net/aspose.words.drawing/imagedata/setimage/
 ---
 ## SetImage(*Image*) {#setimage}
 
-Définit l'image affichée par la forme.
+Définit l'image que la forme affiche.
 
 ```csharp
 public void SetImage(Image image)
@@ -27,12 +27,12 @@ Montre comment afficher des images du système de fichiers local dans un documen
 ```csharp
 Document doc = new Document();
 
-// Pour afficher une image dans un document, il va falloir créer une forme
+// Pour afficher une image dans un document, nous devrons créer une forme
 // qui contiendra une image, puis l'ajoutera au corps du document.
 Shape imgShape;
 
-// Vous trouverez ci-dessous deux façons d'obtenir une image à partir d'un fichier dans le système de fichiers local.
-// 1 - Créer un objet image à partir d'un fichier image :
+// Vous trouverez ci-dessous deux manières d'obtenir une image à partir d'un fichier du système de fichiers local.
+// 1 - Créer un objet image à partir d'un fichier image :
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -40,7 +40,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 - Ouvrez un fichier image depuis le système de fichiers local à l'aide d'un flux :
+// 2 - Ouvrir un fichier image à partir du système de fichiers local à l'aide d'un flux :
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -62,7 +62,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(*Stream*) {#setimage_1}
 
-Définit l'image affichée par la forme.
+Définit l'image que la forme affiche.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -79,12 +79,12 @@ Montre comment afficher des images du système de fichiers local dans un documen
 ```csharp
 Document doc = new Document();
 
-// Pour afficher une image dans un document, il va falloir créer une forme
+// Pour afficher une image dans un document, nous devrons créer une forme
 // qui contiendra une image, puis l'ajoutera au corps du document.
 Shape imgShape;
 
-// Vous trouverez ci-dessous deux façons d'obtenir une image à partir d'un fichier dans le système de fichiers local.
-// 1 - Créer un objet image à partir d'un fichier image :
+// Vous trouverez ci-dessous deux manières d'obtenir une image à partir d'un fichier du système de fichiers local.
+// 1 - Créer un objet image à partir d'un fichier image :
 using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -92,7 +92,7 @@ using (Image srcImage = Image.FromFile(ImageDir + "Logo.jpg"))
     imgShape.ImageData.SetImage(srcImage);
 }
 
-// 2 - Ouvrez un fichier image depuis le système de fichiers local à l'aide d'un flux :
+// 2 - Ouvrir un fichier image à partir du système de fichiers local à l'aide d'un flux :
 using (Stream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open, FileAccess.Read))
 {
     imgShape = new Shape(doc, ShapeType.Image);
@@ -114,7 +114,7 @@ doc.Save(ArtifactsDir + "Drawing.ImportImage.docx");
 
 ## SetImage(*string*) {#setimage_2}
 
-Définit l'image affichée par la forme.
+Définit l'image que la forme affiche.
 
 ```csharp
 public void SetImage(string fileName)
@@ -122,7 +122,7 @@ public void SetImage(string fileName)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| fileName | String | Le fichier image. Peut être un nom de fichier ou une URL. |
+| fileName | String | Le fichier image. Il peut s'agir d'un nom de fichier ou d'une URL. |
 
 ## Exemples
 
@@ -135,7 +135,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // Vous trouverez ci-dessous deux manières d'appliquer une image à une forme afin qu'elle puisse l'afficher.
-// 1 - Définit la forme pour contenir l'image.
+// 1 - Définissez la forme pour contenir l'image.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -157,9 +157,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// La création de liens vers des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
-// Cependant, le document ne peut afficher correctement l'image que lorsque
-// le fichier image est présent à l'emplacement vers lequel pointe la propriété "SourceFullName" de la forme.
+// Lier des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
+// Cependant, le document ne peut afficher correctement l'image que pendant
+// le fichier image est présent à l'emplacement vers lequel pointe la propriété « SourceFullName » de la forme.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

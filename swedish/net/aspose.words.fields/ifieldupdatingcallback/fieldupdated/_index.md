@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words för .NET
-description: IFieldUpdatingCallback FieldUpdated metod. En användardefinierad metod som anropas precis efter att ett fält har uppdaterats i C#.
+description: Upptäck metoden iFieldUpdatingCallback FieldUpdated – din lösning för sömlösa fältuppdateringar i applikationer. Förbättra prestandan med anpassade återanrop!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/
@@ -18,7 +18,7 @@ public void FieldUpdated(Field field)
 
 ## Exempel
 
-Visar hur man använder återuppringningsmetoder under en fältuppdatering.
+Visar hur man använder återanropsmetoder under en fältuppdatering.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
+/// Implementera detta gränssnitt om du vill att dina egna anpassade metoder anropas under en fältuppdatering.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {

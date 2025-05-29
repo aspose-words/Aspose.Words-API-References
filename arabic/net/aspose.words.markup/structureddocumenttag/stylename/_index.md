@@ -3,14 +3,14 @@ title: StructuredDocumentTag.StyleName
 linktitle: StyleName
 articleTitle: StyleName
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag StyleName ملكية. الحصول على أو تعيين اسم النمط المطبق على علامة المستند المنظمة في C#.
+description: اكتشف خاصية StyleName في StructuredDocumentTag. أدر أنماط مستنداتك وخصّصها بسهولة لتحسين التنظيم والوضوح.
 type: docs
 weight: 270
 url: /ar/net/aspose.words.markup/structureddocumenttag/stylename/
 ---
 ## StructuredDocumentTag.StyleName property
 
-الحصول على أو تعيين اسم النمط المطبق على علامة المستند المنظمة.
+يحصل على اسم النمط المطبق على علامة المستند المنظم أو يعينه.
 
 ```csharp
 public string StyleName { get; set; }
@@ -18,7 +18,7 @@ public string StyleName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

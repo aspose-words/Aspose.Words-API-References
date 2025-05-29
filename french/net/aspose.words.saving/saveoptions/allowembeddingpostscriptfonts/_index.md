@@ -3,7 +3,7 @@ title: SaveOptions.AllowEmbeddingPostScriptFonts
 linktitle: AllowEmbeddingPostScriptFonts
 articleTitle: AllowEmbeddingPostScriptFonts
 second_title: Aspose.Words pour .NET
-description: SaveOptions AllowEmbeddingPostScriptFonts propriété. Obtient ou définit une valeur booléenne indiquant sil faut autoriser lincorporation de polices avec des contours PostScript lors de lincorporation de polices TrueType dans un document lors de son enregistrement. La valeur par défaut estFAUX  en C#.
+description: Contrôlez l'intégration des polices dans vos documents avec la fonction AllowEmbeddingPostScriptFonts de SaveOptions. Gérez facilement les options de polices TrueType pour une qualité de document améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/saveoptions/allowembeddingpostscriptfonts/
@@ -18,7 +18,7 @@ public bool AllowEmbeddingPostScriptFonts { get; set; }
 
 ## Remarques
 
-Notez que Word n'intègre pas de polices PostScript, mais peut ouvrir des documents contenant des polices intégrées de ce type.
+Remarque : Word n’intègre pas les polices PostScript, mais peut ouvrir des documents avec des polices intégrées de ce type.
 
 Cette option ne fonctionne que lorsque[`EmbedTrueTypeFonts`](../../../aspose.words.fonts/fontinfocollection/embedtruetypefonts/) du [`FontInfos`](../../../aspose.words/documentbase/fontinfos/) la propriété est définie sur`vrai`.
 
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "PostScriptFont";
 builder.Writeln("Some text with PostScript font.");
 
-// Charge la police avec PostScript à utiliser dans le document.
+// Chargez la police avec PostScript à utiliser dans le document.
 MemoryFontSource otf = new MemoryFontSource(File.ReadAllBytes(FontsDir + "AllegroOpen.otf"));
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
@@ -42,7 +42,7 @@ doc.FontSettings.SetFontsSources(new FontSourceBase[] { otf });
 doc.FontInfos.EmbedTrueTypeFonts = true;
 
 // Autoriser l'intégration de polices PostScript lors de l'intégration de polices TrueType.
-// Microsoft Word n'intègre pas de polices PostScript, mais peut ouvrir des documents avec des polices intégrées de ce type.
+// Microsoft Word n'intègre pas les polices PostScript, mais peut ouvrir des documents avec des polices intégrées de ce type.
 SaveOptions saveOptions = SaveOptions.CreateSaveOptions(SaveFormat.Docx);
 saveOptions.AllowEmbeddingPostScriptFonts = true;
 

@@ -2,15 +2,15 @@
 title: EndCap Enum
 linktitle: EndCap
 articleTitle: EndCap
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.EndCap Sıralama. Satır sınırı stilini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir satır başlığı stilleri için Aspose.Words.Drawing.EndCap enum'unu keşfedin. Belge tasarımlarınızı benzersiz görsel efektlerle geliştirin!
 type: docs
-weight: 940
+weight: 1260
 url: /tr/net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration
 
-Satır sınırı stilini belirtir.
+Satır sonu stilini belirtir.
 
 ```csharp
 public enum EndCap
@@ -21,21 +21,21 @@ public enum EndCap
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Round | `0` | Yuvarlak uçlar. |
-| Square | `1` | Kare yarım çizgi genişliğinde çıkıntı yapıyor. |
-| Flat | `2` | Çizgi bitiş noktasında biter. |
-| Default | `2` | Varsayılan değer:Flat . |
+| Square | `1` | Kare, çizgi genişliğinin yarısı kadar dışarı çıkar. |
+| Flat | `2` | Satır bitiş noktasında sona erer. |
+| Default | `2` | Varsayılan değerFlat . |
 
 ## Örnekler
 
-Çeşitli şekiller oluşturmayı gösterir.
+Çeşitli şekiller yaratmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
+// Aşağıda belgelerimize ekleyebileceğimiz şekillerin dört örneği bulunmaktadır.
+// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
+// sol ucunda bir ok ve sağ ucunda bir elmas bulunan:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -52,7 +52,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Yuvarlak uçlu kalın siyah çapraz çizgi:
+// 2 - Uçları yuvarlatılmış kalın siyah çapraz çizgi:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -72,7 +72,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
+// 4 - Aspose logosuyla doldurulmuş, ters yöne bakan ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -84,8 +84,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Şekli görüntülemeden önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

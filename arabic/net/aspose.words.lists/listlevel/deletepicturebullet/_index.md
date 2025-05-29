@@ -3,14 +3,14 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words لـ .NET
-description: ListLevel DeletePictureBullet طريقة. حذف رمز نقطي للصورة لمستوى القائمة الحالي في C#.
+description: احذف نقاط الصور بسهولة من مستوى قائمتك الحالي باستخدام طريقة ListLevel DeletePictureBullet. بسّط تنسيق مستندك اليوم!
 type: docs
 weight: 160
 url: /ar/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-حذف رمز نقطي للصورة لمستوى القائمة الحالي.
+يحذف صورة النقطة لمستوى القائمة الحالي.
 
 ```csharp
 public void DeletePictureBullet()
@@ -18,19 +18,19 @@ public void DeletePictureBullet()
 
 ## ملاحظات
 
-سيتم عرض الرمز النقطي الافتراضي بعد الحذف.
+سيتم عرض الرصاصة الافتراضية بعد الحذف.
 
 ## أمثلة
 
-يوضح كيفية تعيين رمز صورة مخصص لتسميات عناصر القائمة.
+يوضح كيفية تعيين أيقونة صورة مخصصة لعناوين عناصر القائمة.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// قم بإنشاء رمز نقطي لمستوى القائمة الحالي، وقم بتعيين صورة من نظام الملفات المحلي
-// كأيقونة ستعرضها التعداد النقطي لمستوى القائمة هذا.
+// قم بإنشاء صورة نقطية لمستوى القائمة الحالي، وقم بتعيين صورة من نظام ملفات محلي
+// كالأيقونة التي ستظهر بها النقاط الخاصة بمستوى القائمة هذا.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

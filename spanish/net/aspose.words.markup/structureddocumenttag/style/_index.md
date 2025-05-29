@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words para .NET
-description: StructuredDocumentTag Style propiedad. Obtiene o establece el estilo de la etiqueta del documento estructurado en C#.
+description: Descubra cómo administrar la propiedad Estilo de StructuredDocumentTags para mejorar el formato de su documento y mejorar la legibilidad sin esfuerzo.
 type: docs
 weight: 260
 url: /es/net/aspose.words.markup/structureddocumenttag/style/
@@ -18,7 +18,7 @@ public Style Style { get; set; }
 
 ## Observaciones
 
-solamenteCharacter estilo oParagraph Se puede configurar el estilo con el estilo de carácter vinculado.
+SolamenteCharacter estilo oParagraph Se puede configurar el estilo con el estilo de carácter vinculado.
 
 ## Ejemplos
 
@@ -28,13 +28,13 @@ Muestra cómo trabajar con estilos para elementos de control de contenido.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran dos formas de aplicar un estilo del documento a una etiqueta de documento estructurado.
+A continuación se muestran dos formas de aplicar un estilo del documento a una etiqueta de documento estructurado.
 // 1 - Aplicar un objeto de estilo de la colección de estilos del documento:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Referencia a un estilo en el documento por nombre:
+// 2 - Hacer referencia a un estilo en el documento por nombre:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

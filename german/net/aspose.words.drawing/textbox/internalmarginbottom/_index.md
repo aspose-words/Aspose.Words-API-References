@@ -3,14 +3,14 @@ title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
 second_title: Aspose.Words für .NET
-description: TextBox InternalMarginBottom eigendom. Gibt den inneren unteren Rand in Punkten für eine Form an in C#.
+description: Entdecken Sie die TextBox-Eigenschaft InternalMarginBottom, um den inneren unteren Rand Ihrer Form in Punkten anzupassen und so die Designpräzision zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/textbox/internalmarginbottom/
 ---
 ## TextBox.InternalMarginBottom property
 
-Gibt den inneren unteren Rand in Punkten für eine Form an.
+Gibt den inneren unteren Rand einer Form in Punkten an.
 
 ```csharp
 public double InternalMarginBottom { get; set; }
@@ -28,7 +28,7 @@ Zeigt, wie interne Ränder für ein Textfeld festgelegt werden.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein weiteres Textfeld mit bestimmten Rändern einfügen.
+// Fügen Sie ein weiteres Textfeld mit bestimmten Rändern ein.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

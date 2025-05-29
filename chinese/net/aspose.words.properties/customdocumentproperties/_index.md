@@ -2,10 +2,10 @@
 title: CustomDocumentProperties Class
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Properties.CustomDocumentProperties 班级. 自定义文档属性的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Properties.CustomDocumentProperties，轻松管理自定义文档属性。立即增强您的文档管理！
 type: docs
-weight: 4460
+weight: 5190
 url: /zh/net/aspose.words.properties/customdocumentproperties/
 ---
 ## CustomDocumentProperties class
@@ -23,8 +23,8 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | 姓名 | 描述 |
 | --- | --- |
 | [Count](../../aspose.words.properties/documentpropertycollection/count/) { get; } | 获取集合中的项目数。 |
-| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | 返回一个[`DocumentProperty`](../documentproperty/)按索引的对象. |
-| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | 返回一个[`DocumentProperty`](../documentproperty/)对象的属性名称。 |
+| [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | 返回[`DocumentProperty`](../documentproperty/)按索引排序的对象. |
+| virtual [Item](../../aspose.words.properties/documentpropertycollection/item/) { get; } | 返回[`DocumentProperty`](../documentproperty/)对象通过属性名称. |
 
 ## 方法
 
@@ -39,17 +39,17 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 | [Clear](../../aspose.words.properties/documentpropertycollection/clear/)() | 从集合中删除所有属性。 |
 | [Contains](../../aspose.words.properties/documentpropertycollection/contains/)(*string*) | 返回`真的`如果集合中存在具有指定名称的属性。 |
 | [GetEnumerator](../../aspose.words.properties/documentpropertycollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
-| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | 按名称获取属性的索引。 |
+| [IndexOf](../../aspose.words.properties/documentpropertycollection/indexof/)(*string*) | 通过名称获取属性的索引。 |
 | [Remove](../../aspose.words.properties/documentpropertycollection/remove/)(*string*) | 从集合中删除具有指定名称的属性。 |
 | [RemoveAt](../../aspose.words.properties/documentpropertycollection/removeat/)(*int*) | 删除指定索引处的属性。 |
 
 ## 评论
 
-每个[`DocumentProperty`](../documentproperty/)object 表示容器文档的自定义属性。
+每个[`DocumentProperty`](../documentproperty/)对象表示容器文档的自定义属性。
 
-属性的名称不区分大小写。
+属性名称不区分大小写。
 
-集合中的属性按名称字母顺序排序。
+集合中的属性按名称的字母顺序排序。
 
 ## 例子
 
@@ -58,8 +58,8 @@ public class CustomDocumentProperties : DocumentPropertyCollection
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// 每个文档都包含自定义属性的集合，这些属性与内置属性一样，都是键值对。
- // 该文档有一个固定的内置属性列表。用户创建所有自定义属性。
+// 每个文档都包含一个自定义属性集合，这些属性与内置属性一样，都是键值对。
+ // 文档具有固定的内置属性列表。用户创建所有自定义属性。
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

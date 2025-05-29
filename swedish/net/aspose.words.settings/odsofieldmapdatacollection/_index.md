@@ -3,16 +3,16 @@ title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection klass. En maskinskriven samling avOdsoFieldMapData objekt i C#.
+description: Upptäck Aspose.Words-klassen OdsoFieldMapDataCollection, en kraftfull samling av typfiler för effektiv hantering av OdsoFieldMapData-objekt.
 type: docs
-weight: 5910
+weight: 6740
 url: /sv/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
 En maskinskriven samling av[`OdsoFieldMapData`](../odsofieldmapdata/) objekt.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
@@ -37,18 +37,18 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 | --- | --- |
 | [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | Lägger till ett objekt i slutet av den här samlingen. |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | Tar bort alla element från den här samlingen. |
-| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla objekt i samlingen. |
+| [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | Returnerar ett uppräknarobjekt som kan användas för att iterera över alla objekt i samlingen. |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | Tar bort elementet vid det angivna indexet. |
 
 ## Exempel
 
-Visar hur du får åtkomst till insamlingen av data som mappar datakällans kolumner för att slå samman fält.
+Visar hur man kommer åt datasamlingen som mappar datakällkolumner till kopplingsfält.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Den här samlingen definierar hur en sammanslagning kommer att mappa kolumner från en datakälla
-// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETINGLINE.
+// Denna samling definierar hur en dokumentkoppling mappar kolumner från en datakälla
+// till fördefinierade fält MERGEFIELD, ADDRESSBLOCK och GREETEINGLINE.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -69,12 +69,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Klona elementen i den här samlingen.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Använd "RemoveAt"-metodens element individuellt efter index.
+// Använd metodelementen "RemoveAt" individuellt efter index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Använd "Rensa"-metoden för att rensa hela samlingen på en gång.
+// Använd metoden "Rensa" för att rensa hela samlingen på en gång.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

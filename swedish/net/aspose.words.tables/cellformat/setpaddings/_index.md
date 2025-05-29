@@ -3,14 +3,14 @@ title: CellFormat.SetPaddings
 linktitle: SetPaddings
 articleTitle: SetPaddings
 second_title: Aspose.Words för .NET
-description: CellFormat SetPaddings metod. Ställer in mängden utrymme i poäng som ska läggas till till vänster/överst/höger/botten av innehållet i cellen i C#.
+description: Upptäck CellFormat SetPaddings-metoden för att anpassa cellavståndet i punkter, vilket förbättrar din layout för förbättrad läsbarhet och design.
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.tables/cellformat/setpaddings/
 ---
 ## CellFormat.SetPaddings method
 
-Ställer in mängden utrymme (i poäng) som ska läggas till till vänster/överst/höger/botten av innehållet i cellen.
+Anger mängden utrymme (i punkter) som ska läggas till vänster/överst/höger/nederst i cellens innehåll.
 
 ```csharp
 public void SetPaddings(double leftPadding, double topPadding, double rightPadding, 
@@ -19,17 +19,17 @@ public void SetPaddings(double leftPadding, double topPadding, double rightPaddi
 
 ## Exempel
 
-Visar hur man fyller på innehållet i en cell med blanksteg.
+Visar hur man fyller ut innehållet i en cell med blanksteg.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in ett utfyllnadsavstånd (i punkter) mellan gränsen och textinnehållet
- // av varje tabellcell vi skapar med dokumentbyggaren.
+// Ange ett utfyllnadsavstånd (i punkter) mellan kantlinjen och textinnehållet
+ // för varje tabellcell vi skapar med dokumentbyggaren.
 builder.CellFormat.SetPaddings(5, 10, 40, 50);
 
-// Skapa en tabell med en cell vars innehåll kommer att ha blanksteg.
+// Skapa en tabell med en cell vars innehåll kommer att ha utfyllnad med blanktecken.
 builder.StartTable();
 builder.InsertCell();
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. " +

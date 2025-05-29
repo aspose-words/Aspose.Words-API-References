@@ -3,7 +3,7 @@ title: FieldPrintDate
 linktitle: FieldPrintDate
 articleTitle: FieldPrintDate
 second_title: Aspose.Words لـ .NET
-description: FieldPrintDate البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldPrintDate، الحل الأمثل لإدارة التواريخ بسلاسة في التطبيقات. بسّط البرمجة باستخدام مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldprintdate/fieldprintdate/

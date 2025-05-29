@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.TitlesOfParts
 linktitle: TitlesOfParts
 articleTitle: TitlesOfParts
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties TitlesOfParts proprietà. Ogni stringa nellarray specifica il nome di una parte nel documento in C#.
+description: Scopri la proprietà TitlesOfParts in BuiltInDocumentProperties. Gestisci facilmente le sezioni del documento con nomi di parti chiari e personalizzabili per una migliore organizzazione.
 type: docs
-weight: 300
+weight: 330
 url: /it/net/aspose.words.properties/builtindocumentproperties/titlesofparts/
 ---
 ## BuiltInDocumentProperties.TitlesOfParts property
@@ -28,12 +28,12 @@ Mostra la relazione tra le proprietà "HeadingPairs" e "TitlesOfParts".
 Document doc = new Document(MyDir + "Heading pairs and titles of parts.docx");
 
 // Possiamo trovare i valori combinati di queste raccolte tramite
-// "File" -> "Proprietà" -> "Proprietà avanzate" -> Scheda "Contenuto".
-// La proprietà HeadingPairs è una raccolta di <string, int> lo accoppia
-// determina quante parti del documento si estende su un'intestazione.
+// "File" -> "Proprietà" -> "Proprietà avanzate" -> scheda "Contenuto".
+// La proprietà HeadingPairs è una raccolta di coppie <string, int> che
+// determina su quante parti del documento si estende un'intestazione.
 object[] headingPairs = doc.BuiltInDocumentProperties.HeadingPairs;
 
-// La proprietà TitlesOfParts contiene i nomi delle parti che appartengono alle intestazioni precedenti.
+// La proprietà TitlesOfParts contiene i nomi delle parti che appartengono alle intestazioni sopra.
 string[] titlesOfParts = doc.BuiltInDocumentProperties.TitlesOfParts;
 
 int headingPairsIndex = 0;

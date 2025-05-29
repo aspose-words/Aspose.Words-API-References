@@ -3,14 +3,14 @@ title: ImageData.ToByteArray
 linktitle: ToByteArray
 articleTitle: ToByteArray
 second_title: Aspose.Words для .NET
-description: ImageData ToByteArray метод. Возвращает байты изображения для любого изображения независимо от того сохранено оно или связано с ним на С#.
+description: Конвертируйте любое изображение в массив байтов без усилий с помощью метода ImageData ToByteArray. Легко получайте доступ к байтам изображения из сохраненных или связанных источников!
 type: docs
-weight: 210
+weight: 220
 url: /ru/net/aspose.words.drawing/imagedata/tobytearray/
 ---
 ## ImageData.ToByteArray method
 
-Возвращает байты изображения для любого изображения независимо от того, сохранено оно или связано с ним.
+Возвращает байты изображения для любого изображения независимо от того, сохранено ли изображение или связано с ним.
 
 ```csharp
 public byte[] ToByteArray()
@@ -18,7 +18,7 @@ public byte[] ToByteArray()
 
 ## Примечания
 
-Если изображение связано, загружает изображение при каждом вызове.
+Если изображение связано, загружает его при каждом вызове.
 
 ## Примеры
 
@@ -33,7 +33,7 @@ Assert.True(imgShape.HasImage);
 // ToByteArray() возвращает массив, хранящийся в свойстве ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// Сохраняем данные изображения фигуры в файл изображения в локальной файловой системе.
+// Сохраняем данные изображения фигуры в файле изображения в локальной файловой системе.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

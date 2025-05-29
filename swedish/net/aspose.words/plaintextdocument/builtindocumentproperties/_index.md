@@ -3,14 +3,14 @@ title: PlainTextDocument.BuiltInDocumentProperties
 linktitle: BuiltInDocumentProperties
 articleTitle: BuiltInDocumentProperties
 second_title: Aspose.Words för .NET
-description: PlainTextDocument BuiltInDocumentProperties fast egendom. BlirBuiltInDocumentProperties av dokumentet i C#.
+description: Upptäck egenskapen PlainTextDocument BuiltInDocumentProperties för att enkelt komma åt och hantera viktig dokumentmetadata för förbättrad dokumentorganisation.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/plaintextdocument/builtindocumentproperties/
 ---
 ## PlainTextDocument.BuiltInDocumentProperties property
 
-Blir`BuiltInDocumentProperties` av dokumentet.
+Får`BuiltInDocumentProperties` av dokumentet.
 
 ```csharp
 public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
@@ -18,7 +18,7 @@ public BuiltInDocumentProperties BuiltInDocumentProperties { get; }
 
 ## Exempel
 
-Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext och sedan kommer åt originaldokumentets inbyggda egenskaper.
+Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext och sedan öppnar originaldokumentets inbyggda egenskaper.
 
 ```csharp
 Document doc = new Document();

@@ -3,7 +3,7 @@ title: FieldMergeSeq
 linktitle: FieldMergeSeq
 articleTitle: FieldMergeSeq
 second_title: Aspose.Words لـ .NET
-description: FieldMergeSeq البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldMergeSeq، الحل الأمثل لدمج البيانات بسلاسة. حسّن كفاءة الأداء مع مُنشئنا الافتراضي!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldmergeseq/fieldmergeseq/

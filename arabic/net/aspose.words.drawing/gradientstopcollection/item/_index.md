@@ -3,14 +3,14 @@ title: GradientStopCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: GradientStopCollection Item ملكية. الحصول على أو تعيين aGradientStop كائن في المجموعة في C#.
+description: اكتشف خاصية Item متعددة الاستخدامات في GradientStopCollection لإدارة كائنات GradientStop بسهولة، وتعزيز تصميمك بتدرجات لونية نابضة بالحياة.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/gradientstopcollection/item/
 ---
 ## GradientStopCollection indexer
 
-الحصول على أو تعيين a[`GradientStop`](../../gradientstop/) كائن في المجموعة.
+يحصل على أو يعين[`GradientStop`](../../gradientstop/) الكائن في المجموعة.
 
 ```csharp
 public GradientStop this[int index] { get; set; }
@@ -18,7 +18,7 @@ public GradientStop this[int index] { get; set; }
 
 ## أمثلة
 
-يوضح كيفية إضافة نقاط توقف متدرجة إلى التعبئة المتدرجة.
+يوضح كيفية إضافة توقفات التدرج إلى التعبئة المتدرجة.
 
 ```csharp
 Document doc = new Document();
@@ -27,24 +27,24 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.TwoColorGradient(Color.Green, Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2);
 
-// احصل على مجموعة توقفات التدرج.
+// الحصول على مجموعة توقفات التدرج.
 GradientStopCollection gradientStops = shape.Fill.GradientStops;
 
-// تغيير توقف التدرج الأول.            
-gradientStops[0].Color = Color.Aqua;            
+//تغيير أول نقطة توقف للتدرج.
+gradientStops[0].Color = Color.Aqua;
 gradientStops[0].Position = 0.1;
 gradientStops[0].Transparency = 0.25;
 
-// أضف نقطة توقف متدرجة جديدة إلى نهاية المجموعة.
+//أضف نقطة توقف تدرجية جديدة إلى نهاية المجموعة.
 GradientStop gradientStop = new GradientStop(Color.Brown, 0.5);
 gradientStops.Add(gradientStop);
 
-// إزالة نقطة توقف التدرج عند الفهرس 1.
+// قم بإزالة توقف التدرج عند الفهرس 1.
 gradientStops.RemoveAt(1);
-// وأدخل نقطة توقف متدرجة جديدة عند نفس الفهرس 1.
+// وأدخل نقطة توقف تدرجية جديدة عند نفس الفهرس 1.
 gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 
-// قم بإزالة آخر نقطة توقف متدرجة في المجموعة.
+// قم بإزالة آخر نقطة توقف للتدرج في المجموعة.
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
@@ -59,7 +59,7 @@ Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
 Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
 Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
 
-// استخدم خيار الامتثال لتحديد الشكل باستخدام DML
+// استخدم خيار التوافق لتحديد الشكل باستخدام DML
 // إذا كنت تريد الحصول على خاصية "GradientStops" بعد حفظ المستند.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 

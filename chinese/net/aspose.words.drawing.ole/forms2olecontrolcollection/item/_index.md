@@ -2,15 +2,15 @@
 title: Forms2OleControlCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: Forms2OleControlCollection Item 财产. 获取Forms2OleControl指定索引处的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Item 属性轻松访问 Forms2OleControl 对象。通过无缝检索任意索引项，简化控件管理。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/item/
 ---
 ## Forms2OleControlCollection indexer
 
-获取[`Forms2OleControl`](../../forms2olecontrol/)指定索引处的对象.
+获取[`Forms2OleControl`](../../forms2olecontrol/)指定索引处的对象。
 
 ```csharp
 public Forms2OleControl this[int index] { get; }
@@ -18,12 +18,12 @@ public Forms2OleControl this[int index] { get; }
 
 ## 例子
 
-演示如何访问嵌入在文档中的 OLE 控件及其子控件。
+演示如何访问文档中嵌入的 OLE 控件及其子控件。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Shapes 在文档主体中存储和显示 OLE 对象。
+// 形状在文档主体中存储和显示 OLE 对象。
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());

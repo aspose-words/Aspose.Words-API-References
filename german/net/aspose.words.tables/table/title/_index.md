@@ -3,7 +3,7 @@ title: Table.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words für .NET
-description: Table Title eigendom. Ruft den Titel dieser Tabelle ab oder legt ihn fest. Bietet eine alternative Textdarstellung der in der Tabelle enthaltenen Informationen in C#.
+description: Entdecken Sie die Eigenschaft „Tabellentitel“. Legen Sie den Titel Ihrer Tabelle einfach fest oder ändern Sie ihn, um die Zugänglichkeit zu verbessern und die Datendarstellung zu optimieren.
 type: docs
 weight: 320
 url: /de/net/aspose.words.tables/table/title/
@@ -24,7 +24,7 @@ Diese Eigenschaft ist für ISO/IEC 29500-konforme DOCX-Dokumente ([`OoxmlComplia
 
 ## Beispiele
 
-Zeigt, wie man eine verschachtelte Tabelle erstellt, ohne einen Document Builder zu verwenden.
+Zeigt, wie eine verschachtelte Tabelle ohne Verwendung eines Dokumentgenerators erstellt wird.
 
 ```csharp
 public void CreateNestedTable()
@@ -35,7 +35,7 @@ public void CreateNestedTable()
     Table outerTable = CreateTable(doc, 3, 4, "Outer Table");
     doc.FirstSection.Body.AppendChild(outerTable);
 
-    // Erstelle eine weitere Tabelle mit zwei Zeilen und zwei Spalten und füge sie dann in die erste Zelle der ersten Tabelle ein.
+    // Erstellen Sie eine weitere Tabelle mit zwei Zeilen und zwei Spalten und fügen Sie sie dann in die erste Zelle der ersten Tabelle ein.
     Table innerTable = CreateTable(doc, 2, 2, "Inner Table");
     outerTable.FirstRow.FirstCell.AppendChild(innerTable);
 
@@ -64,9 +64,9 @@ private static Table CreateTable(Document doc, int rowCount, int cellCount, stri
         }
     }
 
-    // Mit den Eigenschaften „Title“ und „Description“ können Sie Ihrer Tabelle einen Titel bzw. eine Beschreibung hinzufügen.
+    // Mit den Eigenschaften „Titel“ und „Beschreibung“ können Sie Ihrer Tabelle jeweils einen Titel und eine Beschreibung hinzufügen.
     // Die Tabelle muss mindestens eine Zeile haben, bevor wir diese Eigenschaften verwenden können.
-    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe die OoxmlCompliance-Klasse).
+    // Diese Eigenschaften sind für ISO/IEC 29500-konforme .docx-Dokumente von Bedeutung (siehe Klasse OoxmlCompliance).
     // Wenn wir das Dokument in Formaten vor ISO/IEC 29500 speichern, ignoriert Microsoft Word diese Eigenschaften.
     table.Title = "Aspose table title";
     table.Description = "Aspose table description";

@@ -3,9 +3,9 @@ title: Style.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words pour .NET
-description: Style Name propriété. Obtient ou définit le nom du style en C#.
+description: Découvrez la propriété Nom du style, gérez et personnalisez facilement vos styles pour une flexibilité de conception et une expérience utilisateur améliorées.
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words/style/name/
 ---
 ## Style.Name property
@@ -20,18 +20,18 @@ public string Name { get; set; }
 
 Ne peut pas être une chaîne vide.
 
-S'il existe déjà un style portant ce nom dans la collection, ce style le remplacera. Tous les nœuds concernés feront référence au nouveau style.
+Si un style portant ce nom existe déjà dans la collection, ce style le remplacera. Tous les nœuds concernés référenceront le nouveau style.
 
 ## Exemples
 
-Montre comment accéder à la collection de styles d’un document.
+Montre comment accéder à la collection de styles d'un document.
 
 ```csharp
 Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Énumère et répertorie tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
+// Énumérer et lister tous les styles qu'un document créé à l'aide d'Aspose.Words contient par défaut.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())
@@ -53,10 +53,10 @@ Montre comment cloner le style d'un document.
 Document doc = new Document();
 
 // La méthode AddCopy crée une copie du style spécifié et
-// génère automatiquement un nouveau nom pour le style, tel que "Titre 1_0".
+// génère automatiquement un nouveau nom pour le style, tel que « Titre 1_0 ».
 Style newStyle = doc.Styles.AddCopy(doc.Styles["Heading 1"]);
 
-// Utilisez la propriété "Name" du style pour modifier le nom d'identification du style.
+// Utilisez la propriété « Nom » du style pour modifier le nom d'identification du style.
 newStyle.Name = "My Heading 1";
 
 // Notre document a maintenant deux styles identiques avec des noms différents.

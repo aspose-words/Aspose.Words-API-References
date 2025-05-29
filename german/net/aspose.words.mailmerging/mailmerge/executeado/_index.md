@@ -3,14 +3,14 @@ title: MailMerge.ExecuteADO
 linktitle: ExecuteADO
 articleTitle: ExecuteADO
 second_title: Aspose.Words für .NET
-description: MailMerge ExecuteADO methode. Führt einen Serienbrief von einem ADORecordsetObjekt in das Dokument durch in C#.
+description: Optimieren Sie Ihre Dokumenterstellung mit der MailMerge ExecuteADO-Methode. Führen Sie mühelos ADO-Recordset-Daten für eine effiziente, personalisierte Ausgabe zusammen.
 type: docs
 weight: 190
 url: /de/net/aspose.words.mailmerging/mailmerge/executeado/
 ---
 ## MailMerge.ExecuteADO method
 
-Führt einen Serienbrief von einem ADO-Recordset-Objekt in das Dokument durch.
+Führt einen Seriendruck von einem ADO-Recordset-Objekt in das Dokument aus.
 
 ```csharp
 public void ExecuteADO(object recordset)
@@ -22,9 +22,9 @@ public void ExecuteADO(object recordset)
 
 ## Bemerkungen
 
-Diese Methode ist nützlich, wenn Sie Aspose.Words-Klassen als COM-Objekte aus nicht verwaltetem Code verwenden möchten, z. B. einer Anwendung, die mit ASP oder Visual Basic 6.0 erstellt wurde.
+Diese Methode ist nützlich, wenn Sie Aspose.Words-Klassen als COM-Objekte aus nicht verwaltetem Code verwenden möchten, z. B. einer mit ASP oder Visual Basic 6.0 erstellten Anwendung.
 
-Diese Methode ignoriert dieRemoveUnusedRegions Möglichkeit.
+Diese Methode ignoriert dieRemoveUnusedRegions Option.
 
 Weitere Informationen finden Sie in der Beschreibung von[`Execute`](../execute/).
 
@@ -52,15 +52,15 @@ Doc.MailMerge.ExecuteADO RS
 Doc.Save "C:\MyPath\CustomerLabels Out VBScript.doc"
 ```
 
-Zeigt, wie ein Serienbrief mit Daten aus einem ADO-Datensatz ausgeführt wird.
+Zeigt, wie ein Serienbrief mit Daten aus einem ADO-Dataset ausgeführt wird.
 
 ```csharp
 public void ExecuteADO()
 {
     Document doc = CreateSourceDocADOMailMerge();
 
-    // Um mit ADO DataSets arbeiten zu können, müssen wir einen Verweis auf die Microsoft ActiveX Data Objects-Bibliothek hinzufügen.
-    // welches in der .NET-Distribution enthalten und in „adodb.dll“ gespeichert ist.
+    // Um mit ADO-DataSets zu arbeiten, müssen wir einen Verweis auf die Microsoft ActiveX Data Objects-Bibliothek hinzufügen.
+    // das in der .NET-Distribution enthalten und in „adodb.dll“ gespeichert ist.
     ADODB.Connection connection = new ADODB.Connection();
 
     // Erstellen Sie eine Verbindungszeichenfolge, die auf die Datenbankdatei „Northwind“ verweist
@@ -68,21 +68,21 @@ public void ExecuteADO()
     string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + DatabaseDir + "Northwind.accdb";
     connection.Open(connectionString);
 
-    // Füllen Sie unser DataSet, indem Sie einen SQL-Befehl in unserer Datenbank ausführen.
+    // Füllen Sie unseren Datensatz, indem Sie einen SQL-Befehl in unserer Datenbank ausführen.
     // Die Namen der Spalten in der Ergebnistabelle müssen übereinstimmen
-    // zu den Werten der MERGEFIELDS, die unsere Daten aufnehmen.
+    // auf die Werte der MERGEFIELDS, die unsere Daten aufnehmen.
     const string command = @"SELECT ProductName, QuantityPerUnit, UnitPrice FROM Products";
 
     ADODB.Recordset recordset = new ADODB.Recordset();
     recordset.Open(command, connection);
 
-    // Führen Sie den Serienbrief aus und speichern Sie das Dokument.
+    // Serienbrief ausführen und Dokument speichern.
     doc.MailMerge.ExecuteADO(recordset);
     doc.Save(ArtifactsDir + "MailMerge.ExecuteADO.docx");
 }
 
 /// <summary>
-/// Erstellen Sie ein leeres Dokument und füllen Sie es mit MERGEFIELDS, das Daten akzeptiert, wenn ein Serienbrief ausgeführt wird.
+/// Erstellen Sie ein leeres Dokument und füllen Sie es mit MERGEFIELDS, die Daten akzeptieren, wenn ein Serienbrief ausgeführt wird.
 /// </summary>
 private static Document CreateSourceDocADOMailMerge()
 {

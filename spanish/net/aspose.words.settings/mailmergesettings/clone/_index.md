@@ -3,7 +3,7 @@ title: MailMergeSettings.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words para .NET
-description: MailMergeSettings Clone método. Devuelve un clon profundo de este objeto en C#.
+description: Descubra el método MailMergeSettings Clone, cree sin esfuerzo una copia profunda de su configuración para lograr una automatización perfecta de documentos y una mayor eficiencia.
 type: docs
 weight: 190
 url: /es/net/aspose.words.settings/mailmergesettings/clone/
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

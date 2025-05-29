@@ -2,15 +2,15 @@
 title: Node.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: Node Document 财产. 获取该节点所属的文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现节点文档属性，轻松访问链接到节点的文档，实现无缝数据管理并提高生产力。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/node/document/
 ---
 ## Node.Document property
 
-获取该节点所属的文档。
+获取此节点所属的文档。
 
 ```csharp
 public virtual DocumentBase Document { get; }
@@ -18,7 +18,7 @@ public virtual DocumentBase Document { get; }
 
 ## 评论
 
-该节点始终属于文档，即使它刚刚创建 并且尚未添加到树中，或者已从树中删除。
+即使节点刚刚被创建 并且尚未添加到树中，或者已经从树中删除，它也始终属于一个文档。
 
 ## 例子
 
@@ -33,16 +33,16 @@ para.AppendChild(new Run(doc, "Hello world!"));
 Assert.IsNull(para.ParentNode);
 
 // 如果一个节点是另一个复合节点的适当子节点类型，
-// 仅当两个节点具有相同的所有者文档时，我们才能将其附加为子节点。
+// 只有当两个节点具有相同的所有者文档时，我们才能将其作为子节点附加。
 // 所有者文档是我们传递给节点构造函数的文档。
-// 我们尚未将此段落附加到文档中，因此文档不包含其文本。
+// 我们没有将此段落附加到文档，因此文档不包含其文本。
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 
-// 由于文档拥有该段落，因此我们可以将其样式之一应用到该段落的内容。
+// 由于该文档拥有此段落，我们可以将其一种样式应用于该段落的内容。
 para.ParagraphFormat.Style = doc.Styles["Heading 1"];
 
-// 将此节点添加到文档中，然后验证其内容。
+// 将此节点添加到文档，然后验证其内容。
 doc.FirstSection.Body.AppendChild(para);
 
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);

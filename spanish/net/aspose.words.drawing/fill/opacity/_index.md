@@ -3,9 +3,9 @@ title: Fill.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words para .NET
-description: Fill Opacity propiedad. Obtiene o establece el grado de opacidad del relleno especificado como un valor entre 00 transparente y 10 opaco en C#.
+description: Controle la transparencia de su diseño con la propiedad Opacidad de relleno, ajustando la claridad de completamente transparente a completamente opaco para obtener imágenes impactantes.
 type: docs
-weight: 140
+weight: 150
 url: /es/net/aspose.words.drawing/fill/opacity/
 ---
 ## Fill.Opacity property
@@ -18,7 +18,7 @@ public double Opacity { get; set; }
 
 ## Observaciones
 
-Esta propiedad es lo opuesto a la propiedad.[`Transparency`](../transparency/).
+Esta propiedad es lo opuesto a la propiedad[`Transparency`](../transparency/).
 
 ## Ejemplos
 
@@ -41,12 +41,12 @@ shape.StrokeColor = Color.CadetBlue;
 // Utilice la propiedad "FillColor" para establecer el color del área interior de la forma.
 shape.FillColor = Color.LightBlue;
 
-// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0-1,
+// La propiedad "Opacidad" determina qué tan transparente es el color en una escala de 0 a 1,
 // siendo 1 completamente opaco y 0 invisible.
-// El relleno de forma por defecto es completamente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
+//El relleno de la forma por defecto es totalmente opaco, por lo que no podemos ver el texto sobre el que se encuentra esta forma.
 Assert.AreEqual(1.0d, shape.Fill.Opacity);
 
-// Establece la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo.
+// Establezca la opacidad del color de relleno de la forma en un valor más bajo para que podamos ver el texto debajo de él.
 shape.Fill.Opacity = 0.3;
 
 doc.Save(ArtifactsDir + "Shape.Fill.docx");

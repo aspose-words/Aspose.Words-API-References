@@ -3,24 +3,24 @@ title: Aspose.Words.BuildingBlocks
 linktitle: Aspose.Words.BuildingBlocks
 articleTitle: Aspose.Words.BuildingBlocks
 second_title: Aspose.Words для .NET
-description: Aspose.Words.BuildingBlocks пространство имен предоставляет классы которые позволяют получить доступ к и использовать автотекст записи автозамены и стандартные блоки в документе на С#.
+description: Раскройте потенциал документа с помощью Aspose.Words.BuildingBlocks. Легко получайте доступ к записям AutoText и AutoCorrect, чтобы улучшить создание контента.
 type: docs
-weight: 20
+weight: 40
 url: /ru/net/aspose.words.buildingblocks/
 ---
-**Aspose.Words.BuildingBlocks** пространство имен предоставляет классы, которые позволяют получить доступ к и использовать автотекст, записи автозамены и стандартные блоки в документе.
+The**Aspose.Words.BuildingBlocks**Пространство имен предоставляет классы, которые позволяют получить доступ к и использовать записи автотекста, автозамены и строительные блоки в документе.
 
 ## Классы
 
 | Учебный класс | Описание |
 | --- | --- |
-| [BuildingBlock](./buildingblock/) | Представляет запись документа глоссария, такую как стандартный блок, автотекст или запись автозамены. |
-| [BuildingBlockCollection](./buildingblockcollection/) | Коллекция[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/)объекты в документе. |
-| [GlossaryDocument](./glossarydocument/) | Представляет корневой элемент документа глоссария в документе Word. Документ глоссария представляет собой хранилище для автотекста, записей автозамены и стандартных блоков. |
+| [BuildingBlock](./buildingblock/) | Представляет запись документа глоссария, такую как Building Block, AutoText или AutoCorrect. |
+| [BuildingBlockCollection](./buildingblockcollection/) | Коллекция[`BuildingBlock`](../aspose.words.buildingblocks/buildingblock/) объекты в документе. |
+| [GlossaryDocument](./glossarydocument/) | Представляет корневой элемент для документа глоссария в документе Word. Документ глоссария — это хранилище для записей автотекста, автозамены и стандартных блоков. |
 ## перечисление
 
 | перечисление | Описание |
 | --- | --- |
-| [BuildingBlockBehavior](./buildingblockbehavior/) | Определяет поведение, которое должно применяться к содержимому стандартного блока при его вставке в основной документ. |
-| [BuildingBlockGallery](./buildingblockgallery/) | Указывает предопределенную галерею, в которую классифицируется стандартный блок. |
-| [BuildingBlockType](./buildingblocktype/) | Указывает тип стандартного блока. Тип может повлиять на видимость и поведение стандартного блока в Microsoft Word. . |
+| [BuildingBlockBehavior](./buildingblockbehavior/) | Указывает поведение, которое должно применяться к содержимому строительного блока при его вставке в основной документ. |
+| [BuildingBlockGallery](./buildingblockgallery/) | Указывает предопределенную галерею, в которую классифицируется строительный блок. |
+| [BuildingBlockType](./buildingblocktype/) | Указывает тип строительного блока. Тип может повлиять на видимость и поведение строительного блока в Microsoft Word. |

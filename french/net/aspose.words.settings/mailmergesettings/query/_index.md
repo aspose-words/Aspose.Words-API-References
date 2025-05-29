@@ -3,14 +3,14 @@ title: MailMergeSettings.Query
 linktitle: Query
 articleTitle: Query
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings Query propriété. Contient la chaîne du langage de requête structuré qui doit être exécutée sur la source de données externe spécifiée pour renvoyer lensemble denregistrements qui doivent être importés dans le document lorsque lopération de fusion et publipostage est effectuée. La valeur par défaut est une chaîne vide en C#.
+description: Découvrez comment exploiter la propriété de requête MailMergeSettings pour importer efficacement des enregistrements à partir de sources de données externes pour des opérations de publipostage transparentes.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.settings/mailmergesettings/query/
 ---
 ## MailMergeSettings.Query property
 
-Contient la chaîne du langage de requête structuré qui doit être exécutée sur la source de données externe spécifiée pour renvoyer l'ensemble d'enregistrements qui doivent être importés dans le document lorsque l'opération de fusion et publipostage est effectuée. La valeur par défaut est une chaîne vide.
+Contient la chaîne de langage de requête structuré qui doit être exécutée sur la source de données externe spécifiée pour renvoyer l'ensemble des enregistrements qui doivent être importés dans le document lorsque l'opération de publipostage est effectuée. La valeur par défaut est une chaîne vide.
 
 ```csharp
 public string Query { get; set; }
@@ -18,7 +18,7 @@ public string Query { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

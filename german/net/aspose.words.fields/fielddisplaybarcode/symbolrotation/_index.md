@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.SymbolRotation
 linktitle: SymbolRotation
 articleTitle: SymbolRotation
 second_title: Aspose.Words für .NET
-description: FieldDisplayBarcode SymbolRotation eigendom. Ruft die Drehung des Barcodesymbols ab oder legt diese fest. Gültige Werte sind 0 3 in C#.
+description: Entdecken Sie die SymbolRotation-Eigenschaft von FieldDisplayBarcode. Passen Sie die Barcode-Rotation für optimales Scannen einfach mit gültigen Werten von 0 bis 3 an. Verbessern Sie Ihre Datenanzeige!
 type: docs
 weight: 140
 url: /de/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/
 ---
 ## FieldDisplayBarcode.SymbolRotation property
 
-Ruft die Drehung des Barcodesymbols ab oder legt diese fest. Gültige Werte sind [0, 3]
+Ruft die Rotation des Barcodesymbols ab oder legt sie fest. Gültige Werte sind [0, 3]
 
 ```csharp
 public string SymbolRotation { get; set; }
@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Unten sind vier Arten von Barcodes aufgeführt, die auf unterschiedliche Weise dekoriert sind und die im Feld DISPLAYBARCODE angezeigt werden können.
+// Unten sind vier Arten von Barcodes aufgeführt, die auf verschiedene Weise gestaltet sind und die das Feld DISPLAYBARCODE anzeigen kann.
 // 1 - QR-Code mit benutzerdefinierten Farben:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 – EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
+// 2 - EAN13-Barcode, mit den unter den Balken angezeigten Ziffern:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 – ITF4-Barcode, mit einem angegebenen Fallcode:
+// 4 - ITF4-Barcode mit einem angegebenen Fallcode:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

@@ -3,14 +3,14 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words för .NET
-description: Font Bold fast egendom. Sant om teckensnittet är formaterat med fet stil i C#.
+description: Upptäck egenskapen Fetstil för att enkelt identifiera om din text är fetstilad, vilket förbättrar läsbarheten och stilen för dina webbdesignprojekt.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-Sant om teckensnittet är formaterat med fet stil.
+Sant om teckensnittet är formaterat som fetstil.
 
 ```csharp
 public bool Bold { get; set; }
@@ -18,7 +18,7 @@ public bool Bold { get; set; }
 
 ## Exempel
 
-Visar hur man infogar formaterad text med DocumentBuilder.
+Visar hur man infogar formaterad text med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

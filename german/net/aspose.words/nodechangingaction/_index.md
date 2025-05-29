@@ -3,14 +3,14 @@ title: NodeChangingAction Enum
 linktitle: NodeChangingAction
 articleTitle: NodeChangingAction
 second_title: Aspose.Words für .NET
-description: Aspose.Words.NodeChangingAction opsomming. Gibt die Art der Knotenänderung an in C#.
+description: Entdecken Sie die Enumeration Aspose.Words.NodeChangingAction, um Knotenänderungen in Ihren Dokumenten effizient zu verwalten. Verbessern Sie noch heute Ihre Dokumentverarbeitung!
 type: docs
-weight: 4180
+weight: 4870
 url: /de/net/aspose.words/nodechangingaction/
 ---
 ## NodeChangingAction enumeration
 
-Gibt die Art der Knotenänderung an.
+Gibt den Typ der Knotenänderung an.
 
 ```csharp
 public enum NodeChangingAction
@@ -25,7 +25,7 @@ public enum NodeChangingAction
 
 ## Beispiele
 
-Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum in Echtzeit zu überwachen, während wir ihn bearbeiten.
+Zeigt, wie ein NodeChangingCallback verwendet wird, um Änderungen am Dokumentbaum während der Bearbeitung in Echtzeit zu überwachen.
 
 ```csharp
 public void NodeChangingCallback()
@@ -42,18 +42,13 @@ public void NodeChangingCallback()
     builder.Write("Cell 2");
     builder.EndTable();
 
-    #if NET48 || JAVA
-    builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
-    #elif NET5_0_OR_GREATER || __MOBILE__
-    using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-        builder.InsertImage(image);
-    #endif
+    builder.InsertImage(ImageDir + "Logo.jpg");
 
     builder.CurrentParagraph.ParentNode.RemoveAllChildren();
 }
 
 /// <summary>
-/// Druckt jedes Einfügen/Entfernen eines Knotens, während es im Dokument stattfindet.
+/// Druckt jedes Einfügen/Entfernen von Knoten, während es im Dokument stattfindet.
 /// </summary>
 private class NodeChangingPrinter : INodeChangingCallback
 {

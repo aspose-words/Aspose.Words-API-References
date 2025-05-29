@@ -3,14 +3,14 @@ title: OdsoRecipientDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: OdsoRecipientDataCollection Item ملكية. الحصول على أو تعيين عنصر في هذه المجموعة في C#.
+description: أدر مجموعة بيانات OdsoRecipientDataCollection الخاصة بك بكل سهولة باستخدام خاصية العنصر لدينا. استرجاع أو تحديث العناصر بسهولة لإدارة البيانات بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/odsorecipientdatacollection/item/
 ---
 ## OdsoRecipientDataCollection indexer
 
-الحصول على أو تعيين عنصر في هذه المجموعة.
+يحصل على عنصر في هذه المجموعة أو يعينه.
 
 ```csharp
 public OdsoRecipientData this[int index] { get; set; }
@@ -18,7 +18,7 @@ public OdsoRecipientData this[int index] { get; set; }
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال دمج البريد.
+يوضح كيفية الوصول إلى مجموعة البيانات التي تحدد سجلات مصدر بيانات الدمج التي سيتم استبعادها من خلال عملية دمج البريد.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
+//يمكننا استنساخ العناصر الموجودة في هذه المجموعة.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
+//يمكننا أيضًا إزالة العناصر بشكل فردي، أو مسح المجموعة بأكملها مرة واحدة.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

@@ -3,14 +3,14 @@ title: TableStyle.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words для .NET
-description: TableStyle Alignment свойство. Определяет выравнивание стиля таблицы на С#.
+description: Откройте для себя свойство выравнивания TableStyle, чтобы легко настроить макет таблицы и улучшить ее визуальную привлекательность, придав ей профессиональный вид.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/tablestyle/alignment/
 ---
 ## TableStyle.Alignment property
 
-Определяет выравнивание стиля таблицы.
+Задает выравнивание для стиля таблицы.
 
 ```csharp
 public TableAlignment Alignment { get; set; }
@@ -22,14 +22,14 @@ public TableAlignment Alignment { get; set; }
 
 ## Примеры
 
-Показывает, как установить положение стола.
+Показывает, как задать положение таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ниже приведены два способа выравнивания таблицы по горизонтали.
-// 1 — используйте свойство «Выравнивание», чтобы выровнять его по месту на странице, например по центру:
+// 1 - Используйте свойство "Alignment", чтобы выровнять его по месту на странице, например по центру:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(300);
 
 table.Style = tableStyle;
 
-// 2 — используйте «LeftIndent», чтобы указать отступ от левого поля страницы:
+// 2 - Используйте «LeftIndent», чтобы указать отступ от левого поля страницы:
 tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle2");
 tableStyle.LeftIndent = 55;
 tableStyle.Borders.Color = Color.Green;

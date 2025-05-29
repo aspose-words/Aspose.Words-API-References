@@ -3,7 +3,7 @@ title: OleFormat.GetRawData
 linktitle: GetRawData
 articleTitle: GetRawData
 second_title: Aspose.Words per .NET
-description: OleFormat GetRawData metodo. Ottiene i dati grezzi delloggetto OLE in C#.
+description: Scopri il metodo GetRawData di OleFormat per recuperare facilmente i dati grezzi degli oggetti OLE, migliorando le tue capacità di gestione e integrazione dei dati.
 type: docs
 weight: 150
 url: /it/net/aspose.words.drawing/oleformat/getrawdata/
@@ -18,7 +18,7 @@ public byte[] GetRawData()
 
 ## Esempi
 
-Mostra come accedere ai dati non elaborati di un oggetto OLE incorporato.
+Mostra come accedere ai dati grezzi di un oggetto OLE incorporato.
 
 ```csharp
 Document doc = new Document(MyDir + "OLE objects.docx");

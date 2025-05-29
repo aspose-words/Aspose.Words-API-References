@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: OdsoRecipientDataCollection Clear método. Elimina todos los elementos de esta colección en C#.
+description: Borre fácilmente todos los elementos de OdsoRecipientDataCollection con nuestro método eficiente. ¡Simplifique la gestión de datos hoy mismo!
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -40,10 +40,10 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
     }
 }
 
-// Podemos clonar los elementos de esta colección.
+//Podemos clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// También podemos eliminar elementos individualmente o borrar toda la colección a la vez.
+// También podemos eliminar elementos individualmente o borrar toda la colección de una vez.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

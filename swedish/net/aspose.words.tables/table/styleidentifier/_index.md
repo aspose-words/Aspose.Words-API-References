@@ -3,14 +3,14 @@ title: Table.StyleIdentifier
 linktitle: StyleIdentifier
 articleTitle: StyleIdentifier
 second_title: Aspose.Words för .NET
-description: Table StyleIdentifier fast egendom. Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstilen som tillämpas på denna tabell i C#.
+description: Upptäck egenskapen Table StyleIdentifier för att enkelt hantera språkoberoende tabellformat och förbättra din datapresentation utan ansträngning.
 type: docs
 weight: 280
 url: /sv/net/aspose.words.tables/table/styleidentifier/
 ---
 ## Table.StyleIdentifier property
 
-Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstilen som tillämpas på denna tabell.
+Hämtar eller ställer in den språkoberoende stilidentifieraren för tabellstilen som tillämpats på den här tabellen.
 
 ```csharp
 public StyleIdentifier StyleIdentifier { get; set; }
@@ -18,21 +18,21 @@ public StyleIdentifier StyleIdentifier { get; set; }
 
 ## Exempel
 
-Visar hur man bygger en ny tabell samtidigt som man använder en stil.
+Visar hur man skapar en ny tabell samtidigt som man tillämpar en stil.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// Vi måste infoga minst en rad innan vi ställer in någon tabellformatering.
+// Vi måste infoga minst en rad innan vi anger någon tabellformatering.
 builder.InsertCell();
 
-// Ställ in tabellstilen som används baserat på stilidentifieraren.
-// Observera att inte alla tabellstilar är tillgängliga när du sparar i .doc-format.
+// Ange tabellstilen som används baserat på stilidentifieraren.
+// Observera att inte alla tabellformat är tillgängliga när man sparar i .doc-format.
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// Tillämpa stilen delvis på funktioner i tabellen baserat på predikat, bygg sedan tabellen.
+// Tillämpa delvis stilen på tabellens funktioner baserat på predikat, och bygg sedan tabellen.
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

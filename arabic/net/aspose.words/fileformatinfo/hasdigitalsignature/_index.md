@@ -3,14 +3,14 @@ title: FileFormatInfo.HasDigitalSignature
 linktitle: HasDigitalSignature
 articleTitle: HasDigitalSignature
 second_title: Aspose.Words لـ .NET
-description: FileFormatInfo HasDigitalSignature ملكية. إرجاعحقيقيإذا كان هذا المستند يحتوي على توقيع رقمي. تشير هذه الخاصية فقط إلى وجود توقيع رقمي في المستند ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا في C#.
+description: اكتشف خاصية FileFormatInfo HasDigitalSignature—تحقق بسرعة مما إذا كانت مستندك تتضمن توقيعًا رقميًا، مما يعزز الأمان والمصداقية.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/fileformatinfo/hasdigitalsignature/
 ---
 ## FileFormatInfo.HasDigitalSignature property
 
-إرجاع`حقيقي`إذا كان هذا المستند يحتوي على توقيع رقمي. تشير هذه الخاصية فقط إلى وجود توقيع رقمي في المستند، ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
+إرجاع`حقيقي`إذا كان هذا المستند يحتوي على توقيع رقمي. هذه الخاصية تخبر فقط أن التوقيع الرقمي موجود على المستند، ولكنها لا تحدد ما إذا كان التوقيع صالحًا أم لا.
 
 ```csharp
 public bool HasDigitalSignature { get; }
@@ -18,7 +18,7 @@ public bool HasDigitalSignature { get; }
 
 ## ملاحظات
 
-توجد هذه الخاصية لمساعدتك في فرز المستندات الموقعة رقميًا عن المستندات غير الموقعة. إذا كنت تستخدم Aspose.Words لتعديل وحفظ مستند موقع رقميًا، فسيتم فقدان التوقيع الرقمي . وهذا حسب التصميم نظرًا لوجود توقيع رقمي لحماية صحة المستند. باستخدام هذه الخاصية، يمكنك اكتشاف المستندات الموقعة رقميًا قبل معالجتها بنفس طريقة التعامل مع المستندات العادية واتخاذ بعض الإجراءات لتجنب فقدان التوقيع الرقمي، على سبيل المثال إعلام المستخدم.
+هذه الخاصية مصممة لمساعدتك على فرز المستندات الموقعة رقميًا عن غير الموقعة. إذا استخدمت Aspose.Words لتعديل وحفظ مستند موقع رقميًا، فسيتم فقدان التوقيع الرقمي. هذا مصمم لحماية صحة المستند، لأن التوقيع الرقمي موجود لحماية صحة المستند. باستخدام هذه الخاصية، يمكنك اكتشاف المستندات الموقعة رقميًا قبل معالجتها بنفس طريقة معالجة المستندات العادية، واتخاذ بعض الإجراءات لتجنب فقدان التوقيع الرقمي، مثل إخطار المستخدم.
 
 ## أمثلة
 
@@ -32,15 +32,16 @@ Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
-// استخدم FileFormatInstance جديد لتأكيد توقيعه.
+// استخدم FileFormatInstance جديدًا للتأكد من توقيعه.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
 Assert.True(info.HasDigitalSignature);
 
-// يمكننا تحميل التوقيعات الخاصة بالمستند الموقع في مجموعة كهذه والوصول إليها.
+// يمكننا تحميل التوقيعات الخاصة بمستند موقّع والوصول إليها في مجموعة مثل هذه.
 Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
 ```
 

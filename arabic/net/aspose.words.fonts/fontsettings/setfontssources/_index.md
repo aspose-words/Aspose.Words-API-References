@@ -3,14 +3,14 @@ title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
 second_title: Aspose.Words لـ .NET
-description: FontSettings SetFontsSources طريقة. يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط في C#.
+description: اكتشف كيف تعمل طريقة SetFontsSources في Aspose.Words على تحسين عرض المستندات من خلال تحديد مصادر الخطوط TrueType للحصول على أفضل النتائج.
 type: docs
 weight: 100
 url: /ar/net/aspose.words.fonts/fontsettings/setfontssources/
 ---
 ## SetFontsSources(*FontSourceBase[]*) {#setfontssources}
 
-يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
+يحدد المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType عند عرض المستندات أو تضمين الخطوط.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources)
@@ -22,13 +22,13 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 ## ملاحظات
 
-افتراضيًا، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
+بشكل افتراضي، يبحث Aspose.Words عن الخطوط المثبتة على النظام.
 
 يؤدي تعيين هذه الخاصية إلى إعادة تعيين ذاكرة التخزين المؤقت لجميع الخطوط التي تم تحميلها مسبقًا.
 
 ## أمثلة
 
-يوضح كيفية إضافة مصدر خط إلى مصادر الخطوط الموجودة لدينا.
+يوضح كيفية إضافة مصدر الخط إلى مصادر الخطوط الموجودة لدينا.
 
 ```csharp
 Document doc = new Document();
@@ -47,19 +47,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// مصدر الخط الافتراضي يفتقد اثنين من الخطوط التي نستخدمها في وثيقتنا.
-// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط الاحتياطية على كل النص المنسق بخطوط لا يمكن الوصول إليها.
+//يفتقد مصدر الخط الافتراضي اثنين من الخطوط التي نستخدمها في مستندنا.
+// عندما نحفظ هذا المستند، سيقوم Aspose.Words بتطبيق الخطوط البديلة على كل النص المنسق بخطوط غير قابلة للوصول.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// قم بإنشاء مصدر خط من مجلد يحتوي على الخطوط.
+// قم بإنشاء مصدر الخط من مجلد يحتوي على الخطوط.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
 // قم بتطبيق مجموعة جديدة من مصادر الخطوط التي تحتوي على مصادر الخطوط الأصلية، بالإضافة إلى الخطوط المخصصة لدينا.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// تحقق من أن Aspose.Words لديه حق الوصول إلى جميع الخطوط المطلوبة قبل تحويل المستند إلى PDF.
+// تأكد من أن Aspose.Words لديه إمكانية الوصول إلى جميع الخطوط المطلوبة قبل تقديم المستند إلى PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -68,7 +68,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// استعادة مصادر الخط الأصلي.
+//استعادة مصادر الخط الأصلية.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-يعين المصادر حيث يبحث Aspose.Words عن خطوط TrueType ويقوم بالإضافة إلى ذلك بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا.
+يحدد المصادر التي يبحث فيها Aspose.Words عن خطوط TrueType ويقوم أيضًا بتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا .
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -92,15 +92,15 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | sources | FontSourceBase[] | مجموعة من المصادر التي تحتوي على خطوط TrueType. |
-| cacheInputStream | Stream | دفق الإدخال مع ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة. |
+| cacheInputStream | Stream | تدفق الإدخال مع ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة. |
 
 ## ملاحظات
 
-سيؤدي تحميل ذاكرة التخزين المؤقت للبحث عن الخطوط المحفوظة مسبقًا إلى تسريع عملية تهيئة ذاكرة التخزين المؤقت للخط. إنه مفيد بشكل خاص عندما يكون الوصول إلى مصادر الخطوط معقدًا (على سبيل المثال، عندما يتم تحميل الخطوط عبر الشبكة).
+سيؤدي تحميل ذاكرة التخزين المؤقت لبحث الخطوط المحفوظة مسبقًا إلى تسريع عملية تهيئة ذاكرة التخزين المؤقت للخطوط. وهو مفيد بشكل خاص عندما يكون الوصول إلى مصادر الخطوط معقدًا (مثلاً عند تحميل الخطوط عبر الشبكة).
 
-عند حفظ وتحميل ذاكرة التخزين المؤقت للبحث عن الخطوط، يتم تحديد الخطوط الموجودة في المصادر المتوفرة عبر مفتاح ذاكرة التخزين المؤقت. بالنسبة للخطوط الموجودة في[`SystemFontSource`](../../systemfontsource/) و[`FolderFontSource`](../../folderfontsource/) مفتاح ذاكرة التخزين المؤقت هو path لملف الخط. ل[`MemoryFontSource`](../../memoryfontsource/) و[`StreamFontSource`](../../streamfontsource/) يتم تعريف مفتاح ذاكرة التخزين المؤقت في ملف[`CacheKey`](../../memoryfontsource/cachekey/) و[`CacheKey`](../../streamfontsource/cachekey/) property على التوالي. ل[`FileFontSource`](../../filefontsource/) مفتاح ذاكرة التخزين المؤقت هو إما[`CacheKey`](../../filefontsource/cachekey/) أو مسار الملف إذا كان[`CacheKey`](../../filefontsource/cachekey/) يكون`باطل`.
+عند حفظ ذاكرة التخزين المؤقت لبحث الخطوط وتحميلها، يتم التعرف على الخطوط الموجودة في المصادر المقدمة عبر مفتاح ذاكرة التخزين المؤقت. بالنسبة للخطوط الموجودة في[`SystemFontSource`](../../systemfontsource/) و[`FolderFontSource`](../../folderfontsource/) مفتاح التخزين المؤقت هو المسار لملف الخط.[`MemoryFontSource`](../../memoryfontsource/) و[`StreamFontSource`](../../streamfontsource/)مفتاح التخزين المؤقت هو defined في[`CacheKey`](../../memoryfontsource/cachekey/) و[`CacheKey`](../../streamfontsource/cachekey/) properties على التوالي. بالنسبة لـ[`FileFontSource`](../../filefontsource/) مفتاح التخزين المؤقت هو إما[`CacheKey`](../../filefontsource/cachekey/) الخاصية أو مسار الملف إذا كان[`CacheKey`](../../filefontsource/cachekey/) يكون`باطل`.
 
-يوصى بشدة بتوفير نفس مصادر الخطوط عند تحميل ذاكرة التخزين المؤقت كما كانت في وقت حفظ ذاكرة التخزين المؤقت. أي تغييرات في مصادر الخطوط (مثل إضافة خطوط جديدة أو نقل ملفات الخطوط أو تغيير مفتاح ذاكرة التخزين المؤقت) قد تؤدي إلى خط غير دقيق حل بواسطة Aspose.Words.
+يوصى بشدة بتوفير نفس مصادر الخطوط عند تحميل ذاكرة التخزين المؤقت كما في وقت حفظ ذاكرة التخزين المؤقت. قد تؤدي أي تغييرات في مصادر الخطوط (مثل إضافة خطوط جديدة أو نقل ملفات الخطوط أو تغيير مفتاح ذاكرة التخزين المؤقت) إلى حل الخط غير الدقيق بواسطة Aspose.Words.
 
 ## أمثلة
 
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }

@@ -3,7 +3,7 @@ title: FieldIncludeText.NamespaceMappings
 linktitle: NamespaceMappings
 articleTitle: NamespaceMappings
 second_title: Aspose.Words para .NET
-description: FieldIncludeText NamespaceMappings propiedad. Obtiene o establece las asignaciones de espacios de nombres para consultas XPath en C#.
+description: Descubra la propiedad NamespaceMappings FieldIncludeText para administrar fácilmente las asignaciones de espacios de nombres para consultas XPath, mejorando así la eficiencia del manejo de datos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldincludetext/namespacemappings/
@@ -18,7 +18,7 @@ public string NamespaceMappings { get; set; }
 
 ## Ejemplos
 
-Muestra cómo crear un campo INCLUDETEXT y establecer sus propiedades.
+Muestra cómo crear un campo INCLUDETEXT y configurar sus propiedades.
 
 ```csharp
 public void FieldIncludeText()
@@ -26,14 +26,14 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // A continuación se muestran dos formas de utilizar los campos INCLUDETEXT para mostrar el contenido de un archivo XML en el sistema de archivos local.
+    A continuación se muestran dos formas de utilizar los campos INCLUDETEXT para mostrar el contenido de un archivo XML en el sistema de archivos local.
     // 1 - Realizar una transformación XSL en un documento XML:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";
 
     builder.Writeln();
 
-    // 2 - Usa un XPath para tomar elementos específicos de un documento XML:
+    // 2 - Utilice un XPath para tomar elementos específicos de un documento XML:
     fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.NamespaceMappings = "xmlns:n='myNamespace'";
     fieldIncludeText.XPath = "/catalog/cd/title";

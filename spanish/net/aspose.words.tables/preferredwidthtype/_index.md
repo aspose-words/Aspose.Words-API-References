@@ -3,9 +3,9 @@ title: PreferredWidthType Enum
 linktitle: PreferredWidthType
 articleTitle: PreferredWidthType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Tables.PreferredWidthType enumeración. Especifica la unidad de medida para el ancho preferido de una tabla o celda en C#.
+description: Descubra la enumeración Aspose.Words.Tables.PreferredWidthType. Defina fácilmente el ancho de tablas y celdas para un formato preciso de documentos.
 type: docs
-weight: 6300
+weight: 7150
 url: /es/net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
@@ -20,13 +20,13 @@ public enum PreferredWidthType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Auto | `1` | No se especifica el ancho preferido. El ancho real de la tabla o celda se especifica utilizando el ancho explícito o será determinado automáticamente por el algoritmo de diseño de la tabla cuando se muestre la tabla, dependiendo de la configuración de ajuste automático de la tabla. |
-| Percent | `2` | Mide el ancho del elemento actual usando un porcentaje específico. |
-| Points | `3` | Mida el ancho del elemento actual utilizando un número específico de puntos (1/72 de pulgada). |
+| Auto | `1` | No se especifica el ancho preferido. El ancho real de la tabla o celda se especifica mediante el ancho explícito o lo determinará automáticamente el algoritmo de diseño de tabla al mostrarla, según la configuración de ajuste automático de la tabla. |
+| Percent | `2` | Mide el ancho del elemento actual usando un porcentaje especificado. |
+| Points | `3` | Mide el ancho del elemento actual utilizando una cantidad específica de puntos (1/72 de pulgada). |
 
 ## Ejemplos
 
-Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de una tabla.
+Muestra cómo verificar el tipo de ancho preferido y el valor de una celda de tabla.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

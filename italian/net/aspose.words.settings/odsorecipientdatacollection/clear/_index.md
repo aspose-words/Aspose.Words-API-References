@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words per .NET
-description: OdsoRecipientDataCollection Clear metodo. Rimuove tutti gli elementi da questa raccolta in C#.
+description: Cancella senza sforzo tutti gli elementi da OdsoRecipientDataCollection con il nostro metodo efficiente. Semplifica la gestione dei dati oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/clear/
@@ -18,7 +18,7 @@ public void Clear()
 
 ## Esempi
 
-Mostra come accedere alla raccolta di dati che indica quali record dell'origine dati di unione verranno esclusi da una stampa unione.
+Mostra come accedere alla raccolta di dati che designa quali record di origine dati di unione verranno esclusi dalla stampa unione.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -43,7 +43,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Possiamo clonare gli elementi in questa raccolta.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Possiamo anche rimuovere elementi individualmente o cancellare l'intera raccolta in una volta.
+// Possiamo anche rimuovere gli elementi singolarmente o cancellare l'intera raccolta in una volta sola.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

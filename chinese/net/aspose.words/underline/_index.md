@@ -2,10 +2,10 @@
 title: Underline Enum
 linktitle: Underline
 articleTitle: Underline
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Underline 枚举. 表示应用于字体的下划线类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Underline 枚举，获取丰富的字体下划线选项。立即使用可自定义的样式增强您的文档格式！
 type: docs
-weight: 6510
+weight: 7360
 url: /zh/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -41,7 +41,7 @@ public enum Underline
 
 ## 例子
 
-演示如何插入超链接字段。
+显示如何插入超链接字段。
 
 ```csharp
 Document doc = new Document();
@@ -57,7 +57,7 @@ builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + 左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口转到 URL。
+// 按住 Ctrl 键并左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口带我们进入 URL。
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

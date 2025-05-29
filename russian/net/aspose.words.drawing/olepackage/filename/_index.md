@@ -3,14 +3,14 @@ title: OlePackage.FileName
 linktitle: FileName
 articleTitle: FileName
 second_title: Aspose.Words для .NET
-description: OlePackage FileName свойство. Получает или задает имя файла пакета OLE на С#.
+description: Откройте для себя свойство OlePackage FileName для простого управления именами файлов пакетов OLE. Улучшите обработку данных с помощью бесшовной интеграции и гибкости.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/olepackage/filename/
 ---
 ## OlePackage.FileName property
 
-Получает или задает имя файла пакета OLE.
+Возвращает или задает имя файла пакета OLE.
 
 ```csharp
 public string FileName { get; set; }
@@ -25,8 +25,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Объекты OLE позволяют нам открывать другие файлы в локальной файловой системе с помощью другого установленного приложения
-// в нашей операционной системе, дважды щелкнув фигуру, содержащую объект OLE в теле документа.
-// В данном случае наш внешний файл будет ZIP-архивом.
+// в нашей операционной системе, дважды щелкнув по фигуре, содержащей объект OLE в теле документа.
+// В этом случае наш внешний файл будет ZIP-архивом.
 byte[] zipFileBytes = File.ReadAllBytes(DatabaseDir + "cat001.zip");
 
 using (MemoryStream stream = new MemoryStream(zipFileBytes))

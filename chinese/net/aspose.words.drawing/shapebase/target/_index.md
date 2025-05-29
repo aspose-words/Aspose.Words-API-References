@@ -2,10 +2,10 @@
 title: ShapeBase.Target
 linktitle: Target
 articleTitle: Target
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase Target 财产. 获取或设置形状超链接的目标框架 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ShapeBase Target 属性，轻松设置或检索形状的超链接目标框架，增强用户导航和体验。
 type: docs
-weight: 520
+weight: 560
 url: /zh/net/aspose.words.drawing/shapebase/target/
 ---
 ## ShapeBase.Target property
@@ -22,14 +22,14 @@ public string Target { get; set; }
 
 ## 例子
 
-演示如何插入包含图像且也是超链接的形状。
+展示如何插入包含图像且为超链接的形状。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-shape.HRef = "https://forum.aspose.com/";
+shape.HRef = "https://forum.aspose.com/”;
 shape.Target = "New Window";
 shape.ScreenTip = "Aspose.Words Support Forums";
 

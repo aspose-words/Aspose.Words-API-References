@@ -3,14 +3,14 @@ title: MergeFieldImageDimensionUnit Enum
 linktitle: MergeFieldImageDimensionUnit
 articleTitle: MergeFieldImageDimensionUnit
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.MergeFieldImageDimensionUnit enum. Specifica ununità della dimensione di unimmagine ovvero la larghezza o laltezza utilizzata in un processo di stampa unione in C#.
+description: Scopri l'enum Aspose.Words.Fields.MergeFieldImageDimensionUnit per un controllo preciso delle dimensioni delle immagini nelle unione di documenti. Migliora l'automazione dei tuoi documenti oggi stesso!
 type: docs
-weight: 2760
+weight: 3170
 url: /it/net/aspose.words.fields/mergefieldimagedimensionunit/
 ---
 ## MergeFieldImageDimensionUnit enumeration
 
-Specifica un'unità della dimensione di un'immagine (ovvero la larghezza o l'altezza) utilizzata in un processo di stampa unione.
+Specifica un'unità di dimensione di un'immagine (ad esempio la larghezza o l'altezza) utilizzata in un processo di unione di posta.
 
 ```csharp
 public enum MergeFieldImageDimensionUnit
@@ -20,34 +20,34 @@ public enum MergeFieldImageDimensionUnit
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| Point | `0` | Il punto (ovvero 1/72 di pollice). |
+| Point | `0` | Il punto (ad esempio 1/72 di pollice). |
 | Percent | `1` | La percentuale del valore della dimensione dell'immagine originale. |
 
 ## Esempi
 
-Mostra come impostare le dimensioni delle immagini poiché MERGEFIELDS le accetta durante una stampa unione.
+Mostra come impostare le dimensioni delle immagini così come vengono accettate da MERGEFIELDS durante una stampa unione.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Inserisci un MERGEFIELD che accetterà le immagini da una fonte durante una stampa unione. Utilizzare il codice di campo come riferimento
-    // una colonna nell'origine dati contenente i nomi dei file di sistema locale delle immagini che desideriamo utilizzare nella stampa unione.
+    // Inserisci un MERGEFIELD che accetterà immagini da una sorgente durante una stampa unione. Utilizza il codice di campo per fare riferimento
+    // una colonna nell'origine dati contenente i nomi dei file di sistema locali delle immagini che desideriamo utilizzare nella stampa unione.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // L'origine dati dovrebbe avere una colonna denominata "ImageColumn".
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Crea un'origine dati adatta.
+    // Creare una fonte dati adatta.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add(ImageDir + "Logo.jpg");
     dataTable.Rows.Add(ImageDir + "Transparent background logo.png");
     dataTable.Rows.Add(ImageDir + "Enhanced Windows MetaFile.emf");
 
-    // Configura una richiamata per modificare le dimensioni delle immagini al momento dell'unione, quindi esegue la stampa unione.
+    // Configura un callback per modificare le dimensioni delle immagini al momento dell'unione, quindi esegui la stampa unione.
     doc.MailMerge.FieldMergingCallback = new MergedImageResizer(200, 200, MergeFieldImageDimensionUnit.Point);
     doc.MailMerge.Execute(dataTable);
 
@@ -56,7 +56,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Imposta la dimensione di tutte le immagini unite tramite posta su una larghezza e un'altezza definite.
+/// Imposta la dimensione di tutte le immagini unite su una larghezza e un'altezza definite.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -82,6 +82,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

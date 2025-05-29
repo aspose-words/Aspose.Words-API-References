@@ -3,14 +3,14 @@ title: StructuredDocumentTag.Placeholder
 linktitle: Placeholder
 articleTitle: Placeholder
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag Placeholder fast egendom. FårBuildingBlocksom innehåller platshållartext som ska visas när detta SDTkörningsinnehåll är tomt det associerade mappade XMLelementet är tomt som specificerats viaXmlMapping element ellerIsShowingPlaceholderText element ärSann  i C#.
+description: Upptäck hur platshållaregenskapen StructuredDocumentTag förbättrar dina dokument genom att visa viktig platshållartext när innehåll saknas.
 type: docs
 weight: 230
 url: /sv/net/aspose.words.markup/structureddocumenttag/placeholder/
 ---
 ## StructuredDocumentTag.Placeholder property
 
-Får[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/)som innehåller platshållartext som ska visas när detta SDT-körningsinnehåll är tomt, det associerade mappade XML-elementet är tomt som specificerats via[`XmlMapping`](../xmlmapping/) element eller[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) element är`Sann` .
+Hämtar[`BuildingBlock`](../../../aspose.words.buildingblocks/buildingblock/) innehåller platshållartext som ska visas när innehållet i denna SDT-körning är tomt, det associerade mappade XML-elementet är tomt enligt anvisningarna via[`XmlMapping`](../xmlmapping/) element eller[`IsShowingPlaceholderText`](../isshowingplaceholdertext/) elementet är`sann` .
 
 ```csharp
 public BuildingBlock Placeholder { get; }
@@ -18,21 +18,21 @@ public BuildingBlock Placeholder { get; }
 
 ## Anmärkningar
 
-Kan vara`null`, vilket innebär att platshållaren inte är tillämplig för denna Sdt.
+Kan vara`null`, vilket betyder att platshållaren inte är tillämplig för denna Sdt.
 
 ## Exempel
 
-Visar hur man använder ett byggblocks innehåll som en anpassad platshållartext för en strukturerad dokumenttagg.
+Visar hur man använder innehållet i ett byggblock som en anpassad platshållartext för en strukturerad dokumenttagg.
 
 ```csharp
 Document doc = new Document();
 
-// Infoga en textstrukturerad dokumenttagg av typen "PlainText", som kommer att fungera som en textruta.
-// Innehållet som det kommer att visa som standard är ett "Klicka här för att skriva in text." prompt.
+// Infoga en tagg för ett strukturerat dokument med vanlig text av typen "PlainText", som fungerar som en textruta.
+// Innehållet som visas som standard är en "Klicka här för att ange text."-prompt.
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline);
 
 // Vi kan få taggen att visa innehållet i ett byggblock istället för standardtexten.
-// Lägg först till ett byggblock med innehåll i ordlistans dokument.
+// Lägg först till en byggsten med innehåll i ordlistadokumentet.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
 
 BuildingBlock substituteBlock = new BuildingBlock(glossaryDoc);
@@ -43,19 +43,19 @@ substituteBlock.FirstSection.Body.AppendParagraph("Custom placeholder text.");
 
 glossaryDoc.AppendChild(substituteBlock);
 
-// Använd sedan den strukturerade dokumenttaggens "PlaceholderName"-egenskap för att referera till den byggstenen med namn.
+// Använd sedan egenskapen "PlaceholderName" i taggen för strukturerat dokument för att referera till byggblocket med namn.
 tag.PlaceholderName = "Custom Placeholder";
 
-// Om "PlaceholderName" hänvisar till ett befintligt block i det överordnade dokumentets ordlista,
-// vi kommer att kunna verifiera byggstenen via egenskapen "Placeholder".
+// Om "PlaceholderName" refererar till ett befintligt block i det överordnade dokumentets ordlista,
+// vi kommer att kunna verifiera byggblocket via egenskapen "Platshållare".
 Assert.AreEqual(substituteBlock, tag.Placeholder);
 
-// Ställ in egenskapen "IsShowingPlaceholderText" till "true" för att behandla
-// strukturerad dokumenttaggs nuvarande innehåll som platshållartext.
-// Detta betyder att om du klickar på textrutan i Microsoft Word kommer alla taggens innehåll omedelbart att markeras.
-// Ställ in egenskapen "IsShowingPlaceholderText" till "false" för att få
-// strukturerad dokumenttagg för att behandla dess innehåll som text som en användare redan har skrivit in.
-// Om du klickar på den här texten i Microsoft Word placeras den blinkande markören på den plats som du klickar på.
+// Sätt egenskapen "IsShowingPlaceholderText" till "true" för att behandla
+// strukturerad dokumenttaggs aktuella innehåll som platshållartext.
+// Det här innebär att om du klickar på textrutan i Microsoft Word markeras allt innehåll i taggen omedelbart.
+// Sätt egenskapen "IsShowingPlaceholderText" till "false" för att få
+// strukturerad dokumenttagg för att behandla dess innehåll som text som en användare redan har angett.
+// Om du klickar på den här texten i Microsoft Word placeras den blinkande markören på den plats där du klickade.
 tag.IsShowingPlaceholderText = isShowingPlaceholderText;
 
 DocumentBuilder builder = new DocumentBuilder(doc);

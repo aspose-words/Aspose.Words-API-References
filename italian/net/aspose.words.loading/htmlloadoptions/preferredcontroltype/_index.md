@@ -3,14 +3,14 @@ title: HtmlLoadOptions.PreferredControlType
 linktitle: PreferredControlType
 articleTitle: PreferredControlType
 second_title: Aspose.Words per .NET
-description: HtmlLoadOptions PreferredControlType proprietà. Ottiene o imposta il tipo preferito di nodi di documento che rappresenteranno gli elementi input e select importati. Il valore predefinito èFormField  in C#.
+description: Scopri la proprietà PreferredControlType di HtmlLoadOptions per personalizzare i tipi di nodi del documento per gli input importati e selezionare gli elementi. Ottimizza i tuoi moduli senza sforzo!
 type: docs
 weight: 50
 url: /it/net/aspose.words.loading/htmlloadoptions/preferredcontroltype/
 ---
 ## HtmlLoadOptions.PreferredControlType property
 
-Ottiene o imposta il tipo preferito di nodi di documento che rappresenteranno gli elementi &lt;input&gt; e &lt;select&gt; importati. Il valore predefinito èFormField .
+Ottiene o imposta il tipo preferito di nodi del documento che rappresenteranno gli elementi &lt;input&gt; e &lt;select&gt; importati. Il valore predefinito è FormField .
 
 ```csharp
 public HtmlControlType PreferredControlType { get; set; }
@@ -18,18 +18,18 @@ public HtmlControlType PreferredControlType { get; set; }
 
 ## Osservazioni
 
-Tieni presente che l'impostazione di questa proprietà non garantisce che tutti i controlli importati saranno del tipo specificato. Se un controllo HTML non è rappresentabile con nodi di documento del tipo preferito, Aspose.Words utilizzerà un controllo compatibile[`HtmlControlType`](../../htmlcontroltype/) per quel controllo.
+Si noti che l'impostazione di questa proprietà non garantisce che tutti i controlli importati saranno del tipo specificato. Se un controllo HTML non è rappresentabile con nodi di documento del tipo preferito, Aspose.Words utilizzerà un tipo compatibile[`HtmlControlType`](../../htmlcontroltype/) per quel controllo.
 
 ## Esempi
 
-Mostra come impostare il tipo preferito di nodi di documento che rappresenteranno gli elementi &lt;input&gt; e &lt;select&gt; importati.
+Mostra come impostare il tipo preferito di nodi del documento che rappresenteranno gli elementi &lt;input&gt; e &lt;select&gt; importati.
 
 ```csharp
 const string html = @"
     <html>
         <select name='ComboBox' size='1'>
             <option value='val1'>item1</option>
-            <option value='val2'></option>                        
+            <option value='val2'></option>
         </select>
     </html>
 ";

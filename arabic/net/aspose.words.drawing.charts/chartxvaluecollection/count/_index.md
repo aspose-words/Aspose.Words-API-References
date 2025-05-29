@@ -3,14 +3,14 @@ title: ChartXValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words لـ .NET
-description: ChartXValueCollection Count ملكية. الحصول على عدد العناصر في هذه المجموعة في C#.
+description: اكتشف خاصية ChartXValueCollection Count لاسترداد العدد الإجمالي للعناصر في مجموعة البيانات الخاصة بك بسهولة للحصول على تحليل فعال.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chartxvaluecollection/count/
 ---
 ## ChartXValueCollection.Count property
 
-الحصول على عدد العناصر في هذه المجموعة.
+يحصل على عدد العناصر في هذه المجموعة.
 
 ```csharp
 public int Count { get; }

@@ -3,7 +3,7 @@ title: VariableCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words pour .NET
-description: VariableCollection Add méthode. Ajoute une variable de document à la collection en C#.
+description: Découvrez comment ajouter efficacement des variables de document à votre VariableCollection grâce à notre guide facile à suivre. Optimisez votre gestion de données dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words/variablecollection/add/
@@ -23,7 +23,7 @@ public void Add(string name, string value)
 
 ## Exemples
 
-Montre comment utiliser la collection de variables d'un document.
+Montre comment travailler avec la collection de variables d'un document.
 
 ```csharp
 Document doc = new Document();
@@ -47,28 +47,31 @@ Assert.AreEqual("123 Main St.", field.Result);
 // L'attribution de valeurs aux clés existantes les mettra à jour.
 variables.Add("Home address", "456 Queen St.");
 
-// Nous devrons ensuite mettre à jour les champs DOCVARIABLE pour nous assurer qu'ils affichent une valeur à jour.
+// Nous devrons ensuite mettre à jour les champs DOCVARIABLE pour garantir qu'ils affichent une valeur à jour.
 Assert.AreEqual("123 Main St.", field.Result);
 
 field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// Vérifiez que les variables du document avec un certain nom ou une certaine valeur existent.
+// Vérifiez que les variables de document avec un certain nom ou une certaine valeur existent.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// La collection de variables trie automatiquement les variables par ordre alphabétique par nom.
+// La collection de variables trie automatiquement les variables par ordre alphabétique de nom.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Énumérer la collection de variables.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// Énumérer sur la collection de variables.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Vous trouverez ci-dessous trois façons de supprimer des variables de document d'une collection.
+// Vous trouverez ci-dessous trois manières de supprimer des variables de document d'une collection.
 // 1 - Par nom :
 variables.Remove("City");
 
@@ -79,10 +82,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Effacer toute la collection en même temps :
+// 3 - Effacer toute la collection en une seule fois :
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Voir également

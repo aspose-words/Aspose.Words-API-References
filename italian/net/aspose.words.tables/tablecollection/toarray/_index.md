@@ -3,7 +3,7 @@ title: TableCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words per .NET
-description: TableCollection ToArray metodo. Copia tutte le tabelle dalla raccolta in un nuovo array di tabelle in C#.
+description: Converti senza sforzo la tua TableCollection in un array con il metodo ToArray, semplificando la gestione dei dati e migliorando le prestazioni della tua applicazione.
 type: docs
 weight: 20
 url: /it/net/aspose.words.tables/tablecollection/toarray/
@@ -22,7 +22,7 @@ Una serie di tabelle.
 
 ## Esempi
 
-Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ciascuna cella.
+Mostra come scorrere tutte le tabelle del documento e stampare il contenuto di ogni cella.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Possiamo utilizzare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
+        // Possiamo usare il metodo "ToArray" su una raccolta di celle per clonarla in un array.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

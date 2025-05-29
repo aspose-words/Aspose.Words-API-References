@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words para .NET
-description: OdsoFieldMapDataCollection Clear método. Elimina todos los elementos de esta colección en C#.
+description: Limpie sin esfuerzo su OdsoFieldMapDataCollection con nuestro método Clear, asegurando un nuevo comienzo al eliminar todos los elementos de manera rápida y eficiente.
 type: docs
 weight: 50
 url: /es/net/aspose.words.settings/odsofieldmapdatacollection/clear/
@@ -18,13 +18,13 @@ public void Clear()
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de datos que asigna columnas de origen de datos para fusionar campos.
+Muestra cómo acceder a la colección de datos que asigna columnas de fuente de datos a campos de combinación.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Esta colección define cómo una combinación de correspondencia asignará columnas de una fuente de datos
-// a los campos predefinidos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE.
+// a los campos MERGEFIELD, ADDRESSBLOCK y GREETINGLINE predefinidos.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clona los elementos de esta colección.
+// Clonar los elementos de esta colección.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utiliza los elementos del método "RemoveAt" individualmente por índice.
+// Utilice el método "RemoveAt" para eliminar elementos individualmente por índice.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilice el método "Borrar" para borrar toda la colección a la vez.
+// Utilice el método "Borrar" para borrar toda la colección de una vez.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

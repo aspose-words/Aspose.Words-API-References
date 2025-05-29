@@ -3,14 +3,14 @@ title: ParagraphFormat.FarEastLineBreakControl
 linktitle: FarEastLineBreakControl
 articleTitle: FarEastLineBreakControl
 second_title: Aspose.Words för .NET
-description: ParagraphFormat FarEastLineBreakControl fast egendom. Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande regler tillämpas på det aktuella stycket i C#.
+description: Upptäck egenskapen ParagraphFormat FarEastLineBreakControl, som aktiverar östasiatiska radbrytningsregler för exakt textformatering i dina dokument.
 type: docs
 weight: 110
 url: /sv/net/aspose.words/paragraphformat/fareastlinebreakcontrol/
 ---
 ## ParagraphFormat.FarEastLineBreakControl property
 
-Hämtar eller ställer in en flagga som indikerar om östasiatiska linjebrytande regler tillämpas på det aktuella stycket.
+Hämtar eller anger en flagga som anger om östasiatiska radbrytningsregler tillämpas på det aktuella stycket.
 
 ```csharp
 public bool FarEastLineBreakControl { get; set; }
@@ -18,7 +18,7 @@ public bool FarEastLineBreakControl { get; set; }
 
 ## Exempel
 
-Visar hur du ställer in speciella egenskaper för asiatisk typografi.
+Visar hur man ställer in specialegenskaper för asiatisk typografi.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

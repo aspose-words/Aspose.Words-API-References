@@ -2,8 +2,8 @@
 title: FrameFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
-second_title: Aspose.Words for .NET
-description: FrameFormat VerticalAlignment mülk. Belirtilen çerçevenin dikey hizalamasını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Çerçeveler için dikey hizalamayı kolayca yönetmek ve düzen tasarımınızı zahmetsizce geliştirmek için FrameFormat VerticalAlignment özelliğini keşfedin.
 type: docs
 weight: 90
 url: /tr/net/aspose.words/frameformat/verticalalignment/
@@ -18,7 +18,7 @@ public VerticalAlignment VerticalAlignment { get; }
 
 ## Örnekler
 
-Çerçeve olan paragrafların biçimlendirme özellikleri hakkında nasıl bilgi alınacağını gösterir.
+Çerçeve olan paragrafların biçimlendirme özellikleri hakkında bilgi edinmenin nasıl yapılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraph frame.docx");

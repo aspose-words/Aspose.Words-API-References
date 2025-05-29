@@ -3,7 +3,7 @@ title: Table.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words per .NET
-description: Table VerticalAnchor proprietà. Ottiene loggetto base da cui deve essere calcolato il posizionamento verticale della tabella mobile. Il valore predefinito èMargin  in C#.
+description: Scopri la proprietà Table VerticalAnchor per ottimizzare il posizionamento delle tabelle mobili. Scopri come migliorare il controllo del layout con il valore predefinito Margin.
 type: docs
 weight: 340
 url: /it/net/aspose.words.tables/table/verticalanchor/
@@ -18,7 +18,7 @@ public RelativeVerticalPosition VerticalAnchor { get; set; }
 
 ## Esempi
 
-Mostra come utilizzare le proprietà delle tabelle mobili.
+Mostra come lavorare con le proprietà delle tabelle mobili.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo margine, pagina e colonna disponibili in RelativeHorizontalPosition per il setter orizzontali.
-    // L'ArgumentException verrà generata per qualsiasi altro valore.
+    // Solo Margine, Pagina, Colonna disponibili in RelativeHorizontalPosition per il setter HorizontalAnchor.
+    // L'eccezione ArgumentException verrà generata per tutti gli altri valori.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo margine, pagina e paragrafo disponibili in RelativeVerticalPosition per il setter VerticalAnchor.
-    // L'ArgumentException verrà generata per qualsiasi altro valore.
+    // Solo Margine, Pagina, Paragrafo disponibili in RelativeVerticalPosition per il setter VerticalAnchor.
+    // L'eccezione ArgumentException verrà generata per tutti gli altri valori.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

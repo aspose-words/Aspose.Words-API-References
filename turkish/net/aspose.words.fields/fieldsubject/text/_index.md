@@ -2,8 +2,8 @@
 title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
-second_title: Aspose.Words for .NET
-description: FieldSubject Text mülk. Konunun metnini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldSubject Text özelliğini zahmetsizce yönetin; sorunsuz veri işleme ve gelişmiş kullanıcı deneyimi için konu metninizi alın veya ayarlayın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldsubject/text/
@@ -18,15 +18,15 @@ public string Text { get; set; }
 
 ## Örnekler
 
-KONU alanının nasıl kullanılacağını gösterir.
+SUBJECT alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Belgenin "Konu" yerleşik özelliği için bir değer belirleyin.
+// Belgenin "Konu" yerleşik özelliği için bir değer ayarlayın.
 doc.BuiltInDocumentProperties.Subject = "My subject";
 
-// Bu yerleşik özelliğin değerini görüntülemek için bir SUBJECT alanı oluşturun.
+// Yerleşik özelliğin değerini görüntülemek için bir KONU alanı oluşturun.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
@@ -34,9 +34,9 @@ field.Update();
 Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
 Assert.AreEqual("My subject", field.Result);
 
-// SUBJECT alanının Text özelliği değerini verip güncellersek alan şu şekilde olacaktır:
-// "Subject" yerleşik özelliğinin mevcut değerinin üzerine Text özelliğinin değerini yazın,
-// ve ardından yeni değeri görüntüleyin.
+// SUBJECT alanının Text özellik değerini verip güncellersek, alan
+// "Konu" yerleşik özelliğinin geçerli değerini, Metin özelliğinin değeriyle üzerine yaz,
+// ve ardından yeni değeri göster.
 field.Text = "My new subject";
 field.Update();
 

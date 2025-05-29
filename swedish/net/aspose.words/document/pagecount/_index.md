@@ -3,14 +3,14 @@ title: Document.PageCount
 linktitle: PageCount
 articleTitle: PageCount
 second_title: Aspose.Words för .NET
-description: Document PageCount fast egendom. Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperationen i C#.
+description: Upptäck egenskapen Dokumentsidaantal, som visar det totala sidantalet baserat på den senaste layouten, vilket säkerställer korrekt dokumenthantering och insikter.
 type: docs
-weight: 320
+weight: 330
 url: /sv/net/aspose.words/document/pagecount/
 ---
 ## Document.PageCount property
 
-Hämtar antalet sidor i dokumentet som beräknats av den senaste sidlayoutoperationen.
+Hämtar antalet sidor i dokumentet beräknat med den senaste sidlayoutoperationen.
 
 ```csharp
 public int PageCount { get; }
@@ -18,7 +18,7 @@ public int PageCount { get; }
 
 ## Exempel
 
-Visar hur man räknar antalet sidor i dokumentet.
+Visar hur man räknar antalet sidor i ett dokument.
 
 ```csharp
 Document doc = new Document();
@@ -30,12 +30,12 @@ builder.Write("Page 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Write("Page 3");
 
-// Verifiera det förväntade sidantal i dokumentet.
+// Verifiera dokumentets förväntade sidantal.
 Assert.AreEqual(3, doc.PageCount);
 
-// Att hämta egenskapen PageCount anropade dokumentets sidlayout för att beräkna värdet.
-// Denna operation behöver inte göras om när dokumentet återges till ett fast sidsparformat,
-// som .pdf. Så du kan spara lite tid, särskilt med mer komplexa dokument.
+// Att hämta PageCount-egenskapen anropade dokumentets sidlayout för att beräkna värdet.
+// Denna operation behöver inte göras om när dokumentet renderas till ett fast sidformat för att spara sidor,
+// som till exempel .pdf. Så du kan spara tid, särskilt med mer komplexa dokument.
 doc.Save(ArtifactsDir + "Document.GetPageCount.pdf");
 ```
 

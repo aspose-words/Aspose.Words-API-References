@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetByTitle
 linktitle: GetByTitle
 articleTitle: GetByTitle
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagCollection GetByTitle طريقة. إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعنوان المحدد في C#.
+description: اكتشف طريقة GetByTitle في StructuredDocumentTagCollection، والتي تسترجع بكفاءة علامة المستند الأولى حسب العنوان لإدارة البيانات بشكل مبسط.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.markup/structureddocumenttagcollection/getbytitle/
 ---
 ## StructuredDocumentTagCollection.GetByTitle method
 
-إرجاع أول علامة مستند منظمة تمت مواجهتها في المجموعة بالعنوان المحدد.
+يعيد أول علامة مستند منظمة تم العثور عليها في المجموعة بالعنوان المحدد.
 
 ```csharp
 public IStructuredDocumentTag GetByTitle(string title)
@@ -18,25 +18,25 @@ public IStructuredDocumentTag GetByTitle(string title)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| title | String | عنوان علامة المستند المنظمة. |
+| title | String | عنوان علامة المستند المنظم. |
 
 ## ملاحظات
 
-يُرجع قيمة فارغة إذا تعذر العثور على علامة المستند المنظمة ذات العنوان المحدد.
+يتم إرجاع قيمة null إذا لم يتم العثور على علامة المستند المنظم بالعنوان المحدد.
 
 ## أمثلة
 
-يوضح كيفية الحصول على علامة المستند المنظمة.
+يوضح كيفية الحصول على علامة مستند منظمة.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
 // احصل على علامة المستند المنظمة حسب المعرف.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// احصل على علامة المستند المنظمة أو علامة النطاق حسب العنوان.
+// احصل على علامة المستند المنظمة أو العلامة المحددة حسب العنوان.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode BarcodeType eigendom. Ruft den BarcodeTyp QR usw. ab oder legt ihn fest in C#.
+description: Entdecken Sie die BarcodeType-Eigenschaft von FieldMergeBarcode, um verschiedene Barcodetypen wie QR für eine verbesserte Datenintegration einfach zu verwalten und anzupassen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fields/fieldmergebarcode/barcodetype/
@@ -18,14 +18,14 @@ public string BarcodeType { get; set; }
 
 ## Beispiele
 
-Zeigt, wie ein Seriendruck für ITF14-Barcodes durchgeführt wird.
+Zeigt, wie ein Serienbrief mit ITF14-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyITF14Barcode“ einer Zusammenführungsdatenquelle in ITF14-Barcodes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyITF14Barcode“ einer zusammengeführten Datenquelle in ITF14-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
@@ -36,7 +36,7 @@ Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCod
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein ITF14-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein ITF14-Barcode mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyITF14Barcode");
 table.Rows.Add(new[] { "09312345678907" });
@@ -54,14 +54,14 @@ Assert.AreEqual("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```
 
-Zeigt, wie ein Serienbrief für CODE39-Barcodes durchgeführt wird.
+Zeigt, wie ein Serienbrief mit CODE39-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyCODE39Barcode“ einer Zusammenführungsdatenquelle in CODE39-Barcodes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyCODE39Barcode“ einer zusammengeführten Datenquelle in CODE39-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "CODE39";
 field.BarcodeValue = "MyCODE39Barcode";
@@ -75,7 +75,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein CODE39-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein CODE39-Barcode mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyCODE39Barcode");
 table.Rows.Add(new[] { "12345ABCDE" });
@@ -93,14 +93,14 @@ Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```
 
-Zeigt, wie ein Serienbrief für EAN13-Barcodes durchgeführt wird.
+Zeigt, wie ein Serienbrief mit EAN13-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyEAN13Barcode“ einer Zusammenführungsdatenquelle in EAN13-Barcodes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyEAN13Barcode“ einer zusammengeführten Datenquelle in EAN13-Barcodes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -116,7 +116,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein EAN13-Barcode mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein EAN13-Barcode mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
 table.Rows.Add(new[] { "501234567890" });
@@ -134,14 +134,14 @@ Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
 
-Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
+Zeigt, wie ein Serienbrief mit QR-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer Zusammenführungsdatenquelle in QR-Codes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer zusammengeführten Datenquelle in QR-Codes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -161,7 +161,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein QR-Code mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein QR-Code mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

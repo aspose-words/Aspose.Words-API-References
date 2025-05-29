@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
 second_title: Aspose.Words для .NET
-description: IFieldUpdateCultureProvider GetCulture метод. ВозвращаетCultureInfoобъект который будет использоваться во время обновления поля на С#.
+description: Откройте для себя метод GetCulture класса IFieldUpdateCultureProvider, который эффективно возвращает объект CultureInfo для бесшовного обновления полей.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-ВозвращаетCultureInfoобъект, который будет использоваться во время обновления поля.
+ВозвращаетCultureInfo объект, который будет использоваться при обновлении поля.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -18,7 +18,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| culture | String | Название языка и региональных параметров, запрошенное для обновляемого поля. |
+| culture | String | Название культуры, запрошенное для обновляемого поля. |
 | field | Field | Поле обновляется. |
 
 ### Возвращаемое значение
@@ -27,7 +27,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 ## Примеры
 
-Показывает, как указать язык и региональные параметры, которые анализируют форматирование даты и времени для каждого поля.
+Показывает, как указать культуру, которая анализирует форматирование даты/времени для каждого поля.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -39,7 +39,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // Установите поставщика, который возвращает объект культуры, специфичный для каждого поля.
+    // Задайте поставщика, который возвращает объект культуры, специфичный для каждого поля.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -50,12 +50,12 @@ public void DefineDateTimeFormatting()
 }
 
 /// <summary>
-/// Предоставляет объект CultureInfo, который следует использовать во время обновления поля.
+/// Предоставляет объект CultureInfo, который следует использовать при обновлении поля.
 /// </summary>
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// Возвращает объект CultureInfo, который будет использоваться во время обновления поля.
+    /// Возвращает объект CultureInfo, который будет использоваться при обновлении поля.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

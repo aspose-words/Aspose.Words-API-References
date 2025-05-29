@@ -3,14 +3,14 @@ title: CellFormat.VerticalAlignment
 linktitle: VerticalAlignment
 articleTitle: VerticalAlignment
 second_title: Aspose.Words för .NET
-description: CellFormat VerticalAlignment fast egendom. Returnerar eller ställer in den vertikala justeringen av text i cellen i C#.
+description: Upptäck egenskapen CellFormat VerticalAlignment för att enkelt ställa in och anpassa textjustering i dina celler för förbättrad datapresentation.
 type: docs
-weight: 110
+weight: 120
 url: /sv/net/aspose.words.tables/cellformat/verticalalignment/
 ---
 ## CellFormat.VerticalAlignment property
 
-Returnerar eller ställer in den vertikala justeringen av text i cellen.
+Returnerar eller anger den vertikala justeringen av text i cellen.
 
 ```csharp
 public CellVerticalAlignment VerticalAlignment { get; set; }
@@ -18,7 +18,7 @@ public CellVerticalAlignment VerticalAlignment { get; set; }
 
 ## Exempel
 
-Visar hur man bygger en tabell med anpassade ramar.
+Visar hur man skapar en tabell med anpassade ramar.
 
 ```csharp
 Document doc = new Document();
@@ -50,9 +50,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Ändring av formateringen kommer att tillämpa den på den aktuella cellen,
-// och eventuella nya celler som vi skapar med byggaren efteråt.
-// Detta kommer inte att påverka cellerna som vi har lagt till tidigare.
+// Ändring av formateringen kommer att tillämpas på den aktuella cellen,
+// och alla nya celler som vi skapar med byggaren efteråt.
+// Detta kommer inte att påverka de celler som vi har lagt till tidigare.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();
@@ -63,7 +63,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Öka radhöjden så att den passar den vertikala texten.
+// Öka radhöjden för att få plats med den vertikala texten.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

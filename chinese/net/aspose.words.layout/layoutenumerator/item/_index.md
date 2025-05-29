@@ -2,8 +2,8 @@
 title: LayoutEnumerator.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: LayoutEnumerator Item 财产. 获取实体的命名属性 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 LayoutEnumerator Item 属性以轻松访问命名实体属性，从而增强数据管理和工作流效率。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.layout/layoutenumerator/item/
@@ -22,11 +22,11 @@ public object this[string key] { get; }
 
 ### 返回值
 
-如果属性不可用，则为 Null，否则为属性值。
+如果属性不可用则为 Null，否则为属性的值。
 
 ## 评论
 
-目前用于获取spans的字体属性。 参见[`Font`](../../../aspose.words/font/)可能的属性名称的类。并非所有属性都受支持。
+这目前用于获取跨度的字体属性。 参见[`Font`](../../../aspose.words/font/)可能的属性名称的类。并非所有属性都受支持。
 
 ### 也可以看看
 

@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words pour .NET
-description: OdsoFieldMapDataCollection Add méthode. Ajoute un objet à la fin de cette collection en C#.
+description: Améliorez sans effort votre gestion de données avec la méthode OdsoFieldMapDataCollection Add, conçue pour ajouter de manière transparente des objets à votre collection.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsofieldmapdatacollection/add/
@@ -18,7 +18,7 @@ public int Add(OdsoFieldMapData value)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| value | OdsoFieldMapData | L'objet à ajouter. C'est pas possible`nul`. |
+| value | OdsoFieldMapData | L'objet à ajouter. Impossible`nul`. |
 
 ## Exemples
 
@@ -28,7 +28,7 @@ Montre comment accéder à la collection de données qui mappe les colonnes de l
 Document doc = new Document(MyDir + "Odso data.docx");
 
 // Cette collection définit comment un publipostage mappera les colonnes d'une source de données
-// aux champs prédéfinis MERGEFIELD, ADDRESSBLOCK et GREETINGLINE.
+// aux champs MERGEFIELD, ADDRESSBLOCK et GREETINGLINE prédéfinis.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -46,15 +46,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Clonez les éléments de cette collection.
+// Cloner les éléments de cette collection.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Utilisez les éléments de la méthode "RemoveAt" individuellement par index.
+// Utilisez les éléments de la méthode « RemoveAt » individuellement par index.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Utilisez la méthode "Clear" pour effacer toute la collection en une seule fois.
+// Utilisez la méthode « Clear » pour effacer toute la collection en une seule fois.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

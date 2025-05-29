@@ -2,8 +2,8 @@
 title: FontInfoCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfoCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FontInfoCollection 的 GetEnumerator 方法，轻松遍历所有集合项。使用这个高效的工具，简化您的编码！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.fonts/fontinfocollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<FontInfo> GetEnumerator()
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

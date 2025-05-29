@@ -2,8 +2,8 @@
 title: FieldInfo.InfoType
 linktitle: InfoType
 articleTitle: InfoType
-second_title: Aspose.Words for .NET
-description: FieldInfo InfoType mülk. Eklenecek belge özelliğinin türünü alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldInfo InfoType özelliklerini zahmetsizce nasıl yöneteceğinizi keşfedin. Projelerinize kusursuz entegrasyon için belge türlerini kolayca ayarlayın veya alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldinfo/infotype/
@@ -35,8 +35,8 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// Alanın NewValue özelliği için değer belirleme ve güncelleme
-// alan ayrıca yeni değeri karşılık gelen yerleşik özelliğin üzerine yazacaktır.
+// Alanın NewValue özelliği için bir değer ayarlama ve güncelleme
+// alan aynı zamanda yeni değerle ilgili yerleşik özelliğin üzerine yazacaktır.
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.NewValue = "New comment";

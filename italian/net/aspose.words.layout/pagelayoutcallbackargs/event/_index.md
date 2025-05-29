@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words per .NET
-description: PageLayoutCallbackArgs Event proprietà. Ottiene levento in C#.
+description: Scopri la proprietà evento PageLayoutCallbackArgs per migliorare le funzionalità della tua applicazione. Sblocca una gestione fluida degli eventi per prestazioni migliori.
 type: docs
 weight: 20
 url: /it/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -18,7 +18,7 @@ public PageLayoutEvent Event { get; }
 
 ## Esempi
 
-Mostra come tenere traccia delle modifiche al layout con un callback del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback di layout.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Ci avvisa quando salviamo il documento in un formato di pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
+/// e visualizza una pagina su cui eseguiamo un reflow di pagina in un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

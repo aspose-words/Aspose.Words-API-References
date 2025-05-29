@@ -3,16 +3,16 @@ title: ImageFieldMergingArgs Class
 linktitle: ImageFieldMergingArgs
 articleTitle: ImageFieldMergingArgs
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.MailMerging.ImageFieldMergingArgs classe. Fournit des données pour leImageFieldMerging événement en C#.
+description: Découvrez la classe Aspose.Words.MailMerging.ImageFieldMergingArgs, conçue pour améliorer la fusion d'images dans les documents, garantissant des flux de travail fluides et efficaces.
 type: docs
-weight: 3830
+weight: 4520
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/
 ---
 ## ImageFieldMergingArgs class
 
 Fournit des données pour le[`ImageFieldMerging`](../ifieldmergingcallback/imagefieldmerging/) événement.
 
-Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article documentaire.
+Pour en savoir plus, visitez le[Fusion et publipostage et création de rapports](https://docs.aspose.com/words/net/mail-merge-and-reporting/) article de documentation.
 
 ```csharp
 public class ImageFieldMergingArgs : FieldMergingArgsBase
@@ -22,7 +22,7 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 | Nom | La description |
 | --- | --- |
-| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Renvoie le[`Document`](../fieldmergingargsbase/document/) objet pour lequel le publipostage est effectué. |
+| [Document](../../aspose.words.mailmerging/fieldmergingargsbase/document/) { get; } | Renvoie le[`Document`](../fieldmergingargsbase/document/)objet pour lequel le publipostage est effectué. |
 | [DocumentFieldName](../../aspose.words.mailmerging/fieldmergingargsbase/documentfieldname/) { get; } | Obtient le nom du champ de fusion tel que spécifié dans le document. |
 | [Field](../../aspose.words.mailmerging/fieldmergingargsbase/field/) { get; } | Obtient l'objet qui représente le champ de fusion actuel. |
 | [FieldName](../../aspose.words.mailmerging/fieldmergingargsbase/fieldname/) { get; } | Obtient le nom du champ de fusion dans la source de données. |
@@ -38,11 +38,11 @@ public class ImageFieldMergingArgs : FieldMergingArgsBase
 
 ## Remarques
 
-Cet événement se produit lors d'un publipostage lorsqu'un champ image mail merge est rencontré dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier a , un flux ou unImage objet au moteur mail merge afin qu'il soit inséré dans le document.
+Cet événement se produit lors d'un publipostage lorsqu'un champ image publipostage est détecté dans le document. Vous pouvez répondre à cet événement pour renvoyer un nom de fichier, un flux ou unImage objet au moteur mail merge afin qu'il soit inséré dans le document.
 
-Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) et[`Image`](./image/) pour spécifier d'où l'image doit être prise. Définissez une seule de ces propriétés.
+Il y a trois propriétés disponibles[`ImageFileName`](./imagefilename/) , [`ImageStream`](./imagestream/) et[`Image`](./image/) pour spécifier d'où l'image doit être extraite. Définissez une seule de ces propriétés.
 
-Pour insérer un champ de fusion et publipostage image dans un document dans Word, sélectionnez Commande Insérer/Champ, puis sélectionnez MergeField et tapez Image:MyFieldName.
+Pour insérer un champ de fusion d'images dans un document dans Word, sélectionnez la commande Insérer/Champ, puis sélectionnez MergeField et tapez Image:MyFieldName.
 
 ## Exemples
 
@@ -62,7 +62,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Ouvrez le lecteur de données, qui doit être dans un mode permettant de lire tous les enregistrements en même temps.
+        // Ouvrez le lecteur de données, qui doit être dans un mode qui lit tous les enregistrements à la fois.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -76,11 +76,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 
     /// <summary>
-    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image:" dans son nom.
+    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise « Image : » dans son nom.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {
@@ -90,19 +90,19 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 }
 ```
 
-Montre comment définir les dimensions des images telles que MERGEFIELDS les accepte lors d'un publipostage.
+Montre comment définir les dimensions des images car MERGEFIELDS les accepte lors d'un publipostage.
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // Insère un MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utilisez le code de champ pour référencer
-    // une colonne dans la source de données contenant les noms de fichiers du système local des images que nous souhaitons utiliser dans le publipostage.
+    // Insérer un champ MERGEFIELD qui acceptera les images d'une source lors d'un publipostage. Utiliser le code du champ pour référencer
+    // une colonne dans la source de données contenant les noms de fichiers système locaux des images que nous souhaitons utiliser dans le publipostage.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
-    // La source de données doit avoir une telle colonne nommée "ImageColumn".
+    // La source de données doit avoir une colonne nommée « ImageColumn ».
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
     // Créez une source de données appropriée.
@@ -121,7 +121,7 @@ public void MergeFieldImageDimension()
 }
 
 /// <summary>
-/// Définit la taille de toutes les images fusionnées par courrier sur une largeur et une hauteur définies.
+/// Définit la taille de toutes les images fusionnées sur une largeur et une hauteur définies.
 /// </summary>
 private class MergedImageResizer : IFieldMergingCallback
 {
@@ -147,6 +147,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

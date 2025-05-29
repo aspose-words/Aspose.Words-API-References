@@ -3,7 +3,7 @@ title: MailMergeSettings.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words per .NET
-description: MailMergeSettings Clone metodo. Restituisce un clone profondo di questo oggetto in C#.
+description: Scopri il metodo MailMergeSettings Clone e crea senza sforzo una copia completa delle tue impostazioni per un'automazione impeccabile dei documenti e una maggiore efficienza.
 type: docs
 weight: 190
 url: /it/net/aspose.words.settings/mailmergesettings/clone/
@@ -18,7 +18,7 @@ public MailMergeSettings Clone()
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

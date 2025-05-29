@@ -2,15 +2,15 @@
 title: DocumentBase.ResourceLoadingCallback
 linktitle: ResourceLoadingCallback
 articleTitle: ResourceLoadingCallback
-second_title: Aspose.Words for .NET
-description: DocumentBase ResourceLoadingCallback mülk. Harici kaynakların nasıl yüklendiğini kontrol etmeye izin verir C#'da.
+second_title: .NET için Aspose.Words
+description: Harici kaynak yüklemesi üzerinde etkili kontrol için DocumentBase'inizi ResourceLoadingCallback özelliğiyle optimize edin. Performansı bugün artırın!
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words/documentbase/resourceloadingcallback/
 ---
 ## DocumentBase.ResourceLoadingCallback property
 
-Harici kaynakların nasıl yüklendiğini kontrol etmeye izin verir.
+Harici kaynakların nasıl yükleneceğini kontrol etmenizi sağlar.
 
 ```csharp
 public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
@@ -18,7 +18,7 @@ public IResourceLoadingCallback ResourceLoadingCallback { get; set; }
 
 ## Örnekler
 
-Dış kaynakları bir belgeye yükleme işleminin nasıl özelleştirileceğini gösterir.
+Harici kaynakların bir belgeye yüklenme sürecinin nasıl özelleştirileceğini gösterir.
 
 ```csharp
 public void ResourceLoadingCallback()
@@ -28,8 +28,8 @@ public void ResourceLoadingCallback()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Görüntüler genellikle bir URI veya bir bayt dizisi kullanılarak eklenir.
-    // Bir kaynak yükünün her örneği, geri çağırmamızın ResourceLoading yöntemini çağıracaktır.
+    // Resimler genellikle bir URI veya bayt dizisi kullanılarak eklenir.
+    // Kaynak yüklemesinin her örneği geri aramamızın ResourceLoading metodunu çağıracaktır.
     builder.InsertImage("Google logo");
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
@@ -40,15 +40,15 @@ public void ResourceLoadingCallback()
 }
 
 /// <summary>
-/// URI'lerin aksine, önceden tanımlanmış kısayolları kullanarak görüntüleri bir belgeye yüklememize olanak tanır.
+/// URI'lerin aksine, önceden tanımlanmış kısayollar kullanarak bir belgeye resim yüklememize olanak tanır.
 /// Bu, görüntü yükleme mantığını belge yapısının geri kalanından ayıracaktır.
 /// </summary>
 private class ImageNameHandler : IResourceLoadingCallback
 {
     public ResourceLoadingAction ResourceLoading(ResourceLoadingArgs args)
     {
-        // Bu geri arama, bir görüntüyü yüklerken görüntünün kısa yollarından biriyle karşılaşırsa,
-        // tanımlanan her kısayol için, onu bir URI olarak ele almak yerine benzersiz bir mantık uygulayacaktır.
+        // Bu geri çağırma, bir resim yüklenirken resim kısayollarından biriyle karşılaşırsa,
+        // Tanımlanan her kısaltmayı bir URI olarak ele almak yerine, ona özgü bir mantık uygulayacaktır.
         if (args.ResourceType == ResourceType.Image)
             switch (args.OriginalUri)
             {

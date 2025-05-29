@@ -3,14 +3,14 @@ title: EditableRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: EditableRangeEnd Accept metod. Accepterar en besökare i C#.
+description: Upptäck EditableRangeEnd Accept-metoden för att smidigt hantera besökarinteraktioner och förbättra din webbapplikations funktionalitet.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/editablerangeend/accept/
 ---
 ## EditableRangeEnd.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-`falsk` om besökaren begärde att uppräkningen skulle sluta.
+`falsk` om besökaren begärde att uppräkningen skulle avbrytas.
 
 ## Anmärkningar
 
 Samtal[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
 ## Exempel
 
-Visar hur man begränsar redigeringsrättigheterna för redigerbara intervall till en specifik grupp/användare.
+Visar hur man begränsar redigeringsrättigheterna för redigerbara områden till en specifik grupp/användare.
 
 ```csharp
 public void Visitor()
@@ -44,7 +44,7 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // När vi skrivskyddar dokument tillåter redigerbara intervall oss att välja specifika områden som användare kan redigera.
+    // När vi skrivskyddar dokument tillåter redigerbara områden oss att välja specifika områden som användare kan redigera.
     // Det finns två ömsesidigt uteslutande sätt att begränsa listan över tillåtna redigerare.
     // 1 - Ange en användare:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Skriv ut detaljer och innehåll för varje redigerbart område i dokumentet.
+    // Skriv ut detaljer och innehåll för alla redigerbara områden i dokumentet.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Samlar egenskaper och innehåll för besökta redigerbara intervall i en sträng.
+/// Samlar in egenskaper och innehåll från besökta redigerbara områden i en sträng.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet. Den här besökaren registrerar bara körningar som ligger inom redigerbara intervall.
+    /// Anropas när en Run-nod påträffas i dokumentet. Den här besökaren registrerar endast körningar som ligger inom redigerbara intervall.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

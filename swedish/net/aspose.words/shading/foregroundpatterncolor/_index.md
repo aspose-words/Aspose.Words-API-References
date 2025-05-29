@@ -3,14 +3,14 @@ title: Shading.ForegroundPatternColor
 linktitle: ForegroundPatternColor
 articleTitle: ForegroundPatternColor
 second_title: Aspose.Words för .NET
-description: Shading ForegroundPatternColor fast egendom. Hämtar eller ställer in färgen som appliceras på förgrunden avShading objekt i C#.
+description: Upptäck egenskapen Shading ForegroundPatternColor för att anpassa ditt skuggningsobjekts förgrundsfärg för förbättrad design och visuell attraktionskraft.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/shading/foregroundpatterncolor/
 ---
 ## Shading.ForegroundPatternColor property
 
-Hämtar eller ställer in färgen som appliceras på förgrunden av[`Shading`](../) objekt.
+Hämtar eller ställer in färgen som tillämpas på förgrunden av[`Shading`](../) objekt.
 
 ```csharp
 public Color ForegroundPatternColor { get; set; }
@@ -18,7 +18,7 @@ public Color ForegroundPatternColor { get; set; }
 
 ## Exempel
 
-Visar hur man dekorerar text med kanter och skuggningar.
+Visar hur man dekorerar text med ramar och skuggning.
 
 ```csharp
 Document doc = new Document();

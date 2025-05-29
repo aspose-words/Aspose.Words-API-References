@@ -3,7 +3,7 @@ title: FieldPrivate
 linktitle: FieldPrivate
 articleTitle: FieldPrivate
 second_title: Aspose.Words para .NET
-description: FieldPrivate constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldPrivate, el constructor predeterminado esencial para una codificación optimizada y un rendimiento mejorado en sus proyectos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldprivate/fieldprivate/

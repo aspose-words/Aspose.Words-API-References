@@ -3,14 +3,14 @@ title: ImageSaveOptions.ImageSize
 linktitle: ImageSize
 articleTitle: ImageSize
 second_title: Aspose.Words لـ .NET
-description: ImageSaveOptions ImageSize ملكية. الحصول على أو تعيين حجم الصورة التي تم إنشاؤها بالبكسل في C#.
+description: اكتشف خاصية ImageSize في ImageSaveOptions لإدارة أبعاد الصورة وتخصيصها بالبكسل بسهولة للحصول على أفضل النتائج.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.saving/imagesaveoptions/imagesize/
 ---
 ## ImageSaveOptions.ImageSize property
 
-الحصول على أو تعيين حجم الصورة التي تم إنشاؤها بالبكسل.
+يحصل على حجم الصورة المولدة بالبكسل أو يعينه.
 
 ```csharp
 public Size ImageSize { get; set; }
@@ -18,9 +18,9 @@ public Size ImageSize { get; set; }
 
 ## ملاحظات
 
-تؤثر هذه الخاصية فقط عند الحفظ في تنسيقات الصور النقطية.
+لا يكون لهذه الخاصية تأثير إلا عند الحفظ بتنسيقات الصور النقطية.
 
-القيمة الافتراضية هي (0 × 0)، مما يعني أنه سيتم حساب حجم الصورة المولدة وفقًا لحجم الصورة بالنقاط، والدقة والمقياس المحددين.
+القيمة الافتراضية هي (0 × 0)، مما يعني أن حجم الصورة المولدة سيتم حسابه وفقًا لحجم الصورة بالنقاط والدقة والمقياس المحددين.
 
 ## أمثلة
 
@@ -37,16 +37,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// أنشئ كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
-// لتعديل الطريقة التي تعرض بها هذه الطريقة المستند إلى صورة.
+// قم بإنشاء كائن "ImageSaveOptions" الذي يمكننا تمريره إلى طريقة "Save" الخاصة بالمستند
+// لتعديل الطريقة التي تقوم بها هذه الطريقة بتحويل المستند إلى صورة.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // قم بتعيين خاصية "PageSet" على رقم الصفحة الأولى من
-    // الذي يبدأ عرض المستند منه.
+    // اضبط خاصية "PageSet" على رقم الصفحة الأولى من
+    // الذي سيتم البدء في عرض المستند منه.
     options.PageSet = new PageSet(i);
-    // تصدير الصفحة بحجم 2325 × 5325 بكسل و600 نقطة في البوصة.
+    // تصدير الصفحة بدقة 2325 × 5325 بكسل و 600 نقطة في البوصة.
     options.Resolution = 600;
     options.ImageSize = new Size(2325, 5325);
 

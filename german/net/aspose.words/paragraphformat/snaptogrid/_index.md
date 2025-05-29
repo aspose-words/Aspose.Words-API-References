@@ -3,14 +3,14 @@ title: ParagraphFormat.SnapToGrid
 linktitle: SnapToGrid
 articleTitle: SnapToGrid
 second_title: Aspose.Words für .NET
-description: ParagraphFormat SnapToGrid eigendom. Gibt an ob der aktuelle Absatz die Dokumentrasterlinien pro Seite verwenden soll. Settings  wenn der Inhalt im Absatz angeordnet wird in C#.
+description: Entdecken Sie, wie die ParagraphFormat SnapToGrid-Eigenschaft die Layoutpräzision verbessert, indem sie Ihre Absätze für ein elegantes Erscheinungsbild an den Rasterlinien des Dokuments ausrichtet.
 type: docs
-weight: 290
+weight: 300
 url: /de/net/aspose.words/paragraphformat/snaptogrid/
 ---
 ## ParagraphFormat.SnapToGrid property
 
-Gibt an, ob der aktuelle Absatz die Dokumentrasterlinien pro Seite verwenden soll. Settings , wenn der Inhalt im Absatz angeordnet wird.
+Gibt an, ob der aktuelle Absatz beim Layouten des Inhalts im Absatz die Einstellungen für Dokumentrasterlinien pro Seite verwenden soll .
 
 ```csharp
 public bool SnapToGrid { get; set; }
@@ -18,14 +18,14 @@ public bool SnapToGrid { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie einen Grenzwert für die Anzahl der Zeilen festlegen, die jede Seite haben darf.
+Zeigt, wie Sie eine Begrenzung für die Zeilenanzahl festlegen, die jede Seite haben darf.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Pitching aktivieren und dann verwenden, um die Anzahl der Zeilen pro Seite in diesem Abschnitt festzulegen.
-// Eine ausreichend große Schriftgröße verschiebt einige Zeilen nach unten auf die nächste Seite, um überlappende Zeichen zu vermeiden.
+// Pitching aktivieren und dann damit die Zeilenanzahl pro Seite in diesem Abschnitt festlegen.
+// Eine ausreichend große Schriftgröße verschiebt einige Zeilen auf die nächste Seite, um überlappende Zeichen zu vermeiden.
 builder.PageSetup.LayoutMode = SectionLayoutMode.LineGrid;
 builder.PageSetup.LinesPerPage = 15;
 

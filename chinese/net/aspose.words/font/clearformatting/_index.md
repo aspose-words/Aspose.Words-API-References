@@ -2,10 +2,10 @@
 title: Font.ClearFormatting
 linktitle: ClearFormatting
 articleTitle: ClearFormatting
-second_title: 用于 .NET 的 Aspose.Words
-description: Font ClearFormatting 方法. 重置为默认字体格式 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Font ClearFormatting 方法将文本恢复到原始样式。享受干净、一致的格式，打造精致的外观！
 type: docs
-weight: 550
+weight: 560
 url: /zh/net/aspose.words/font/clearformatting/
 ---
 ## Font.ClearFormatting method
@@ -18,11 +18,11 @@ public void ClearFormatting()
 
 ## 评论
 
-删除在which 对象上显式指定的所有字体格式[`Font`](../)已获得，因此字体格式将从 适当的父级继承。
+从 which 中删除对象上明确指定的所有字体格式[`Font`](../)因此字体格式将从 适当的父级继承。
 
 ## 例子
 
-演示如何插入超链接字段。
+显示如何插入超链接字段。
 
 ```csharp
 Document doc = new Document();
@@ -38,7 +38,7 @@ builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + 左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口转到 URL。
+// 按住 Ctrl 键并左键单击 Microsoft Word 中文本中的链接将通过新的 Web 浏览器窗口带我们进入 URL。
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

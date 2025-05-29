@@ -2,8 +2,8 @@
 title: IMailMergeDataSource.TableName
 linktitle: TableName
 articleTitle: TableName
-second_title: Aspose.Words for .NET
-description: IMailMergeDataSource TableName mülk. Veri kaynağının adını döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Veri kaynağı adınıza kolayca erişmek ve belge otomasyon sürecinizi geliştirmek için IMailMergeDataSource TableName özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.mailmerging/imailmergedatasource/tablename/
@@ -18,17 +18,17 @@ public string TableName { get; }
 
 ### Geri dönüş değeri
 
-Veri kaynağının adı. Veri kaynağının adı yoksa dizeyi boşaltın.
+Veri kaynağının adı. Veri kaynağının adı yoksa boş dize.
 
 ## Notlar
 
-Eğer uyguluyorsanız[`IMailMergeDataSource`](../), bu özellikten data kaynağının adını döndürün.
+Eğer uyguluyorsanız[`IMailMergeDataSource`](../), bu özellikten data kaynağının adını döndür.
 
-Aspose.Words bu adı, şablon belgede belirtilen adres-mektup birleştirme bölgesi adıyla eşleştirmek için kullanır. Veri kaynağı adı ile adres-mektup birleştirme bölgesi adı arasındaki karşılaştırma büyük/küçük harfe duyarlı değildir.
+Aspose.Words bu adı şablon belgesinde belirtilen posta birleştirme bölgesi adıyla eşleştirmek için kullanır. Veri kaynağı adı ile posta birleştirme bölgesi adı arasındaki karşılaştırma büyük/küçük harfe duyarlı değildir.
 
 ## Örnekler
 
-Özel nesne biçimindeki bir veri kaynağıyla adres-mektup birleştirmenin nasıl yürütüleceğini gösterir.
+Özel bir nesne biçiminde bir veri kaynağıyla posta birleştirmenin nasıl gerçekleştirileceğini gösterir.
 
 ```csharp
 public void CustomDataSource()
@@ -54,7 +54,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Uygulamanızdaki "veri varlığı" sınıfına bir örnek.
+/// Uygulamanızdaki "veri varlığı" sınıfının bir örneği.
 /// </summary>
 public class Customer
 {
@@ -69,8 +69,8 @@ public class Customer
 }
 
 /// <summary>
- /// Aspose.Words'e izin vermek için uyguladığınız özel bir adres-mektup birleştirme veri kaynağı
-/// Müşteri nesnelerinizdeki posta birleştirme verilerini Microsoft Word belgelerine aktarmak için.
+ /// Aspose.Words'e izin vermek için uyguladığınız özel bir posta birleştirme veri kaynağı
+/// Müşteri nesnelerinizdeki verileri Microsoft Word belgelerine birleştirmek için.
 /// </summary>
 public class CustomerMailMergeDataSource : IMailMergeDataSource
 {
@@ -78,12 +78,12 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     {
         mCustomers = customers;
 
-        // Veri kaynağını başlattığımızda konumu ilk kayıttan önce olmalıdır.
+        // Veri kaynağını başlattığımızda, konumunun ilk kayıttan önce olması gerekir.
         mRecordIndex = -1;
     }
 
     /// <summary>
-    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle adres-mektup birleştirme yürütülürken kullanılır.
+    /// Veri kaynağının adı. Aspose.Words tarafından yalnızca tekrarlanabilir bölgelerle posta birleştirme işlemi yürütülürken kullanılır.
     /// </summary>
     public string TableName
     {
@@ -91,7 +91,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Aspose.Words her veri alanı için bir değer elde etmek amacıyla bu yöntemi çağırır.
+    /// Aspose.Words her veri alanı için bir değer almak amacıyla bu metodu çağırır.
     /// </summary>
     public bool GetValue(string fieldName, out object fieldValue)
     {
@@ -104,15 +104,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Aspose.Words adres-mektup birleştirme motoruna şunu belirtmek için "yanlış" değerini döndürün
-                // bu isimde bir alan bulamadık.
+                // Aspose.Words posta birleştirme motoruna "false" değerini döndürerek belirtin
+                // Bu isimde bir alan bulamadık.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Koleksiyondaki bir sonraki kayda geçmek için standart bir uygulama.
+    /// Bir koleksiyondaki bir sonraki kayda geçmek için standart bir uygulama.
     /// </summary>
     public bool MoveNext()
     {

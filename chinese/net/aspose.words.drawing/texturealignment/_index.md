@@ -2,10 +2,10 @@
 title: TextureAlignment Enum
 linktitle: TextureAlignment
 articleTitle: TextureAlignment
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.TextureAlignment 枚举. 指定纹理填充平铺的对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.TextureAlignment 枚举，实现精确的纹理填充对齐。使用无缝平铺选项增强您的文档设计！
 type: docs
-weight: 1370
+weight: 1780
 url: /zh/net/aspose.words.drawing/texturealignment/
 ---
 ## TextureAlignment enumeration
@@ -25,10 +25,10 @@ public enum TextureAlignment
 | TopRight | `2` | 右上角纹理对齐。 |
 | Left | `3` | 左纹理对齐。 |
 | Center | `4` | 中心纹理对齐。 |
-| Right | `5` | 纹理右对齐。 |
-| BottomLeft | `6` | 左下纹理对齐。 |
+| Right | `5` | 右纹理对齐。 |
+| BottomLeft | `6` | 左下角纹理对齐。 |
 | Bottom | `7` | 底部纹理对齐。 |
-| BottomRight | `8` | 右下纹理对齐。 |
+| BottomRight | `8` | 右下角纹理对齐。 |
 | None | `9` | 无纹理对齐。 |
 
 ## 例子
@@ -45,11 +45,17 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 shape.Fill.PresetTextured(PresetTexture.Canvas);
 shape.Fill.TextureAlignment = TextureAlignment.TopRight;
 
-// 如果您想获得“TextureAlignment”，请使用compliance 选项通过DML 定义形状
+// 如果想要获得“TextureAlignment”，请使用合规性选项通过 DML 定义形状
 // 文档保存后的属性。
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions { Compliance = OoxmlCompliance.Iso29500_2008_Strict };
 
 doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
+
+doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
+shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
+Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
 ```
 
 ### 也可以看看

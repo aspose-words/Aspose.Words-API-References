@@ -3,7 +3,7 @@ title: VbaModule.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: VbaModule Type fast egendom. Anger om modulen är en procedurmodul dokumentmodul klassmodul eller designermodul i C#.
+description: Upptäck egenskapen VbaModule Type och definiera dina moduler som procedur-, dokument-, klass- eller designermoduler för förbättrad funktionalitet och organisation.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.vba/vbamodule/type/

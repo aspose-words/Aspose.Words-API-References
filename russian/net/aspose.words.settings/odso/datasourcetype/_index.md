@@ -3,14 +3,14 @@ title: Odso.DataSourceType
 linktitle: DataSourceType
 articleTitle: DataSourceType
 second_title: Aspose.Words для .NET
-description: Odso DataSourceType свойство. Указывает тип внешнего источника данных к которому необходимо подключиться как часть информации о соединении ODSO для этого слияния почты. Значение по умолчаниюDefault  на С#.
+description: Откройте для себя свойство Odso DataSourceType для бесшовных соединений слияния почты. Легко указывайте внешние источники данных и повышайте эффективность рабочего процесса.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.settings/odso/datasourcetype/
 ---
 ## Odso.DataSourceType property
 
-Указывает тип внешнего источника данных, к которому необходимо подключиться, как часть информации о соединении ODSO для этого слияния почты. Значение по умолчанию:Default .
+Указывает тип внешнего источника данных, к которому будет осуществляться подключение в рамках информации о подключении ODSO для этого слияния почты. Значение по умолчанию:Default .
 
 ```csharp
 public OdsoDataSourceType DataSourceType { get; set; }
@@ -18,7 +18,7 @@ public OdsoDataSourceType DataSourceType { get; set; }
 
 ## Примечания
 
-Этот параметр представляет собой всего лишь вариант типа источника данных, который используется для этого слияния почты.
+Эта настройка представляет собой всего лишь предложение относительно типа источника данных, который будет использоваться для этого слияния почты.
 
 ## Примеры
 
@@ -35,9 +35,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -65,7 +65,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

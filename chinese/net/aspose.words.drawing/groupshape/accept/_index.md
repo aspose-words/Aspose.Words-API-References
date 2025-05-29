@@ -2,8 +2,8 @@
 title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
-second_title: 用于 .NET 的 Aspose.Words
-description: GroupShape Accept 方法. 接受访客 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GroupShape 的“接受”方法，无缝吸引访客，提升网站用户体验。立即提升互动体验！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.drawing/groupshape/accept/
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### 返回值
 
-如果访问了所有节点，则为 True；假如果[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
+如果访问了所有节点，则为 True；如果访问了所有节点，则为 false[`DocumentVisitor`](../../../aspose.words/documentvisitor/)在访问所有节点之前停止操作。
 
 ## 评论
 
-枚举该节点及其所有子节点。每个节点调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
+枚举此节点及其所有子节点。每个节点都会调用相应的方法[`DocumentVisitor`](../../../aspose.words/documentvisitor/)。
 
-有关更多信息，请参阅访客设计模式。
+欲了解更多信息，请参阅访客设计模式。
 
-通话[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于该组形状的所有 子形状并调用[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/)最后.
+呼叫[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/)，然后调用[`Accept`](../../../aspose.words/node/accept/)对于此组形状的所有 子形状并调用[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/)在最后。
 
 ## 例子
 
-演示如何创建一组形状，并使用文档访问者打印其内容。
+展示如何创建一组形状，并使用文档访问器打印其内容。
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // 如果需要创建“NonPrimitive”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
-    // TopCornersOneRoundedOneSnipped、SingleCornerRounded、TopCornersRounded、DiagonalCornersRounded
+    // 如果需要创建“非原始”形状，例如 SingleCornerSnipped、TopCornersSnipped、DiagonalCornersSnipped，
+    // 顶角一个圆角一个截角、单角圆角、顶角圆角、对角角圆角
     // 请使用 DocumentBuilder.InsertShape 方法。
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };

@@ -3,7 +3,7 @@ title: BubbleSizeCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: BubbleSizeCollection Count propriété. Obtient le nombre déléments dans cette collection en C#.
+description: Découvrez la propriété BubbleSizeCollection Count pour suivre facilement le nombre d'éléments de votre collection. Optimisez votre gestion des données dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/bubblesizecollection/count/

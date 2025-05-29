@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words para .NET
-description: Document MailMergeSettings propiedad. Obtiene o establece el objeto que contiene toda la información de combinación de correspondencia para un documento en C#.
+description: Descubra cómo utilizar la propiedad MailMergeSettings para administrar todos los datos de combinación de correspondencia de sus documentos de manera eficiente y mejorar su flujo de trabajo.
 type: docs
-weight: 270
+weight: 280
 url: /es/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-Obtiene o establece el objeto que contiene toda la información de combinación de correspondencia para un documento.
+Obtiene o establece el objeto que contiene toda la información de combinación de correspondencia de un documento.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,7 +18,7 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Observaciones
 
-Puede usar este objeto para especificar una fuente de datos de combinación de correspondencia para un documento y esta información (junto con los campos de datos disponibles) aparecerá en Microsoft Word cuando el usuario abra este documento. O puede usar este objeto para consultar la configuración de combinación de correspondencia que el usuario ha especificado en Microsoft Word para este documento.
+Puede utilizar este objeto para especificar una fuente de datos de combinación de correspondencia para un documento y esta información (junto con los campos de datos disponibles) aparecerá en Microsoft Word cuando el usuario abra este documento. O bien, puede utilizar este objeto para consultar la configuración de combinación de correspondencia que el usuario ha especificado en Microsoft Word para este documento.
 
 Este objeto nunca es`nulo`.
 
@@ -37,8 +37,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

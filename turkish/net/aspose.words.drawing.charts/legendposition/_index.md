@@ -2,15 +2,15 @@
 title: LegendPosition Enum
 linktitle: LegendPosition
 articleTitle: LegendPosition
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.LegendPosition Sıralama. Bir grafik açıklaması için olası konumları belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri görselleştirmesi için grafik efsanenizin konumunu kolayca özelleştirmek üzere Aspose.Words.Drawing.Charts.LegendPosition enum'unu keşfedin.
 type: docs
-weight: 910
+weight: 1230
 url: /tr/net/aspose.words.drawing.charts/legendposition/
 ---
 ## LegendPosition enumeration
 
-Bir grafik açıklaması için olası konumları belirtir.
+Bir grafik efsanesi için olası konumları belirtir.
 
 ```csharp
 public enum LegendPosition
@@ -20,16 +20,16 @@ public enum LegendPosition
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | Grafikte herhangi bir açıklama gösterilmeyecek. |
-| Bottom | `1` | Açıklamanın grafiğin alt kısmına çizileceğini belirtir. |
-| Left | `2` | Açıklamanın grafiğin soluna çizileceğini belirtir. |
-| Right | `3` | Açıklamanın grafiğin sağ tarafına çizileceğini belirtir. |
-| Top | `4` | Açıklamanın grafiğin üst kısmına çizileceğini belirtir. |
-| TopRight | `5` | Açıklamanın grafiğin sağ üst köşesine çizileceğini belirtir. |
+| None | `0` | Grafik için herhangi bir açıklama gösterilmeyecek. |
+| Bottom | `1` | Efsanenin grafiğin en altına çizileceğini belirtir. |
+| Left | `2` | Efsanenin grafiğin soluna çizileceğini belirtir. |
+| Right | `3` | Efsanenin grafiğin sağ tarafına çizileceğini belirtir. |
+| Top | `4` | Efsanenin grafiğin en üstüne çizileceğini belirtir. |
+| TopRight | `5` | Efsanenin grafiğin sağ üst köşesine çizileceğini belirtir. |
 
 ## Örnekler
 
-Bir grafiğin göstergesinin görünümünün nasıl düzenleneceğini gösterir.
+Bir grafiğin açıklamasının görünümünün nasıl düzenleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,11 +43,11 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Grafiğin açıklamasını sağ üst köşeye taşıyın.
+// Grafiğin açıklamasını sağ üst köşeye taşı.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 
-// Grafik gibi diğer grafik öğelerinin göstergeyle örtüşmesine izin vererek daha fazla alan verin.
+// Grafik gibi diğer grafik öğelerine, açıklamanın üzerine binmelerine izin vererek daha fazla yer verin.
 legend.Overlay = true;
 
 doc.Save(ArtifactsDir + "Charts.ChartLegend.docx");

@@ -3,9 +3,9 @@ title: ChartYValueType Enum
 linktitle: ChartYValueType
 articleTitle: ChartYValueType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueType opsomming. Ermöglicht die Angabe des Typs eines YWerts einer Diagrammreihe in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.ChartYValueType, um einfach Y-Werttypen für Ihre Diagrammreihen zu definieren und so Ihre Datenvisualisierungsfunktionen zu verbessern.
 type: docs
-weight: 890
+weight: 1210
 url: /de/net/aspose.words.drawing.charts/chartyvaluetype/
 ---
 ## ChartYValueType enumeration
@@ -21,7 +21,7 @@ public enum ChartYValueType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Double | `0` | Gibt an, dass ein Y-Wert eine Gleitkommazahl mit doppelter Genauigkeit ist. |
-| DateTime | `1` | Gibt an, dass ein Y-Wert ein Datum und eine Tageszeit ist. |
+| DateTime | `1` | Gibt an, dass ein Y-Wert ein Datum und eine Uhrzeit ist. |
 | Time | `2` | Gibt an, dass ein X-Wert eine Tageszeit ist. |
 
 ### Siehe auch

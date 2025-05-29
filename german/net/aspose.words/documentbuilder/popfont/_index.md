@@ -3,9 +3,9 @@ title: DocumentBuilder.PopFont
 linktitle: PopFont
 articleTitle: PopFont
 second_title: Aspose.Words für .NET
-description: DocumentBuilder PopFont methode. Ruft die zuvor auf dem Stapel gespeicherte Zeichenformatierung ab in C#.
+description: Entdecken Sie die DocumentBuilder PopFont-Methode, um mühelos die Zeichenformatierung aus dem Stapel wiederherzustellen und so Ihren Dokumenterstellungsprozess zu verbessern.
 type: docs
-weight: 590
+weight: 630
 url: /de/net/aspose.words/documentbuilder/popfont/
 ---
 ## DocumentBuilder.PopFont method
@@ -18,13 +18,13 @@ public void PopFont()
 
 ## Beispiele
 
-Zeigt, wie der Formatierungsstapel eines Document Builders verwendet wird.
+Zeigt, wie der Formatierungsstapel eines Dokument-Generators verwendet wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Richten Sie die Schriftartformatierung ein und schreiben Sie dann den Text, der vor dem Hyperlink steht.
+// Richten Sie die Schriftformatierung ein und schreiben Sie dann den Text, der vor dem Hyperlink steht.
 builder.Font.Name = "Arial";
 builder.Font.Size = 24;
 builder.Write("To visit Google, hold Ctrl and click ");
@@ -39,7 +39,7 @@ builder.InsertHyperlink("here", "http://www.google.com", false);
 Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
 Assert.AreEqual(Underline.Single, builder.Font.Underline);
 
-// Stellen Sie die zuvor gespeicherte Schriftartformatierung wieder her und entfernen Sie das Element vom Stapel.
+// Stellen Sie die zuvor gespeicherte Schriftformatierung wieder her und entfernen Sie das Element aus dem Stapel.
 builder.PopFont();
 
 Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());

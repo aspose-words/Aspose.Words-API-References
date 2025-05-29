@@ -3,14 +3,14 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words для .NET
-description: ShapeBase AllowOverlap свойство. Получает или задает значение указывающее может ли эта фигура перекрывать другие фигуры на С#.
+description: Откройте для себя свойство ShapeBase AllowOverlap, управляйте взаимодействием фигур, включая или отключая перекрытие с другими фигурами для повышения гибкости дизайна.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-Получает или задает значение, указывающее, может ли эта фигура перекрывать другие фигуры.
+Возвращает или задает значение, указывающее, может ли эта фигура перекрывать другие фигуры.
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // В RelativeHorizontalPosition для установки HorizontalAnchor доступны только поля, страницы и столбцы.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика HorizontalAnchor в RelativeHorizontalPosition доступны только Margin, Page, Column.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Только поле, страница и абзац доступны в RelativeVerticalPosition для средства установки вертикальной привязки.
-    // Для любых других значений будет выброшено исключение ArgumentException.
+    // Для установщика VerticalAnchor в RelativeVerticalPosition доступны только Margin, Page, Paragraph.
+    // Для любых других значений будет выдано исключение ArgumentException.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

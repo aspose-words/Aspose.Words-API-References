@@ -3,14 +3,14 @@ title: CustomPart.RelationshipType
 linktitle: RelationshipType
 articleTitle: RelationshipType
 second_title: Aspose.Words para .NET
-description: CustomPart RelationshipType propiedad. Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado en C#.
+description: Descubra la propiedad CustomPart RelationshipType para administrar y definir fácilmente relaciones entre partes principales y personalizadas para una funcionalidad mejorada.
 type: docs
 weight: 60
 url: /es/net/aspose.words.markup/custompart/relationshiptype/
 ---
 ## CustomPart.RelationshipType property
 
-Obtiene o establece el tipo de relación del artículo principal con este artículo personalizado.
+Obtiene o establece el tipo de relación de la parte principal a esta parte personalizada.
 
 ```csharp
 public string RelationshipType { get; set; }
@@ -18,13 +18,13 @@ public string RelationshipType { get; set; }
 
 ## Observaciones
 
-El tipo de relación para una pieza personalizada debe ser "desconocido", por ejemplo, un tipo de relación personalizada, , no uno de los tipos de relación definidos en ISO/IEC 29500.
+El tipo de relación para una parte personalizada debe ser "desconocido", por ejemplo, un tipo de relación personalizado, , no uno de los tipos de relación definidos en ISO/IEC 29500.
 
 El valor predeterminado es una cadena vacía. Un valor válido debe ser una cadena que no esté vacía.
 
 ## Ejemplos
 
-Muestra cómo acceder a la colección de piezas personalizadas arbitrarias de un documento.
+Muestra cómo acceder a la colección de partes personalizadas arbitrarias de un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Podemos eliminar elementos de esta colección individualmente o todos a la vez.
+//Podemos eliminar elementos de esta colección individualmente o todos a la vez.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -3,14 +3,14 @@ title: FindReplaceOptions.IgnoreDeleted
 linktitle: IgnoreDeleted
 articleTitle: IgnoreDeleted
 second_title: Aspose.Words لـ .NET
-description: FindReplaceOptions IgnoreDeleted ملكية. الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل حذف المراجعات. القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف خاصية تجاهل المحذوفات في FindReplaceOptions، وتحكم في ظهور النص في المراجعات المحذوفة باستخدام مفتاح تبديل منطقي سهل. حسّن تجربة التحرير لديك!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.replacing/findreplaceoptions/ignoredeleted/
 ---
 ## FindReplaceOptions.IgnoreDeleted property
 
-الحصول على قيمة منطقية أو تعيينها تشير إما إلى تجاهل النص داخل حذف المراجعات. القيمة الافتراضية هي`خطأ شنيع` .
+يحصل على قيمة منطقية أو يعينها للإشارة إلى تجاهل النص داخل مراجعات الحذف. القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool IgnoreDeleted { get; set; }
@@ -27,21 +27,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
-// ابدأ في تتبع المراجعات وقم بإزالة الفقرة الثانية التي ستؤدي إلى إنشاء مراجعة حذف.
-// ستظل هذه الفقرة موجودة في المستند حتى نقبل مراجعة الحذف.
+// ابدأ بتتبع المراجعات وقم بإزالة الفقرة الثانية، مما سيؤدي إلى إنشاء مراجعة حذف.
+// سوف تظل هذه الفقرة موجودة في المستند حتى نقبل تعديل الحذف.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
 doc.StopTrackRevisions();
 
 Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
 
-// يمكننا استخدام كائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
+// يمكننا استخدام الكائن "FindReplaceOptions" لتعديل عملية البحث والاستبدال.
 FindReplaceOptions options = new FindReplaceOptions();
 
-// اضبط علامة "IgnoreDeleted" على "صحيح" للحصول على عملية البحث والاستبدال
-// عملية لتجاهل الفقرات التي تحذف المراجعات.
-// اضبط علامة "IgnoreDeleted" على "خطأ" للحصول على عملية البحث والاستبدال
-// عملية للبحث أيضًا عن نص داخل حذف المراجعات.
+// اضبط علامة "IgnoreDeleted" على "true" للحصول على خاصية البحث والاستبدال
+// عملية لتجاهل الفقرات التي تحتوي على مراجعات حذف.
+// اضبط علامة "IgnoreDeleted" على "false" للحصول على البحث والاستبدال
+// عملية للبحث أيضًا عن نص داخل المراجعات المحذوفة.
 options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);

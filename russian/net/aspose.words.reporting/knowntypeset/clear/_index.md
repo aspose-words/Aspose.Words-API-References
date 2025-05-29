@@ -3,7 +3,7 @@ title: KnownTypeSet.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words для .NET
-description: KnownTypeSet Clear метод. Удаляет все элементы из набора на С#.
+description: Откройте для себя метод KnownTypeSet Clear, который позволит легко удалить все элементы из вашего набора и повысить эффективность управления данными.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.reporting/knowntypeset/clear/

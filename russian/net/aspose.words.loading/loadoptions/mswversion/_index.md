@@ -3,7 +3,7 @@ title: LoadOptions.MswVersion
 linktitle: MswVersion
 articleTitle: MswVersion
 second_title: Aspose.Words для .NET
-description: LoadOptions MswVersion свойство. Позволяет указать что процесс загрузки документа должен соответствовать определенной версии MS Word. Значение по умолчаниюWord2019 на С#.
+description: Оптимизируйте загрузку документов с помощью LoadOptions MswVersion. Обеспечьте совместимость с определенными версиями MS Word, используя по умолчанию Word 2019 для бесшовной интеграции.
 type: docs
 weight: 100
 url: /ru/net/aspose.words.loading/loadoptions/mswversion/
@@ -18,7 +18,7 @@ public MsWordVersion MswVersion { get; set; }
 
 ## Примечания
 
-Различные версии Word могут обрабатывать определенные аспекты содержимого и форматирования документа немного по-разному в процессе загрузки, что может привести к незначительным различиям в объектной модели документа.
+Различные версии Word могут обрабатывать некоторые аспекты содержимого документа и форматирования немного по-разному во время процесса загрузки, что может привести к незначительным различиям в объектной модели документа.
 
 ## Примеры
 
@@ -30,8 +30,8 @@ LoadOptions loadOptions = new LoadOptions();
 
 Assert.AreEqual(MsWordVersion.Word2019, loadOptions.MswVersion);
 
-// В этом документе отсутствует стиль форматирования абзаца по умолчанию.
-// Этот стиль по умолчанию будет восстановлен, когда мы загрузим документ с помощью Microsoft Word или Aspose.Words.
+// В этом документе отсутствует стиль форматирования абзацев по умолчанию.
+// Этот стиль по умолчанию будет восстановлен при загрузке документа с помощью Microsoft Word или Aspose.Words.
 loadOptions.MswVersion = MsWordVersion.Word2007;
 Document doc = new Document(MyDir + "Document.docx", loadOptions);
 

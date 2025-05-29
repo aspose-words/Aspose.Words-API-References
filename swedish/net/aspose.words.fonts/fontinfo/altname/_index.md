@@ -3,14 +3,14 @@ title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
 second_title: Aspose.Words för .NET
-description: FontInfo AltName fast egendom. Hämtar eller ställer in det alternativa namnet för teckensnittet i C#.
+description: Upptäck egenskapen FontInfo AltName, hantera enkelt alternativa teckensnittsnamn för att förbättra typografin och förbättra dina designprojekt.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-Hämtar eller ställer in det alternativa namnet för teckensnittet.
+Hämtar eller anger det alternativa namnet för teckensnittet.
 
 ```csharp
 public string AltName { get; set; }
@@ -18,11 +18,11 @@ public string AltName { get; set; }
 
 ## Anmärkningar
 
-Kan inte vara`null`. Kan vara en tom sträng.
+Kan inte vara`null`Kan vara en tom sträng.
 
 ## Exempel
 
-Visar hur du kommer åt och skriver ut detaljer för varje typsnitt i ett dokument.
+Visar hur man kommer åt och skriver ut information om varje teckensnitt i ett dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");

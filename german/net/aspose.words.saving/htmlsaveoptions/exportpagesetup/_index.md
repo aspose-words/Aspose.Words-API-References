@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions ExportPageSetup eigendom. Gibt an ob die Seiteneinrichtung nach HTML MHTML oder EPUB exportiert wird. Die Standardeinstellung istFALSCH  in C#.
+description: Entdecken Sie, wie die Eigenschaft „HtmlSaveOptions ExportPageSetup“ Ihre HTML-, MHTML- oder EPUB-Exporte verbessert, indem sie anpassbare Seiteneinstellungen für eine bessere Ausgabe ermöglicht.
 type: docs
 weight: 220
 url: /de/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-Gibt an, ob die Seiteneinrichtung nach HTML, MHTML oder EPUB exportiert wird. Die Standardeinstellung ist`FALSCH` .
+Gibt an, ob die Seiteneinrichtung in HTML, MHTML oder EPUB exportiert wird. Standard ist`FALSCH` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## Bemerkungen
 
-Jede[`Section`](../../../aspose.words/section/) Im Aspose.Words-Dokumentmodell werden Seiteneinrichtungsinformationen über bereitgestellt[`PageSetup`](../../../aspose.words/pagesetup/) Klasse. Wenn Sie ein Dokument in das HTML-Format exportieren, müssen Sie diese Informationen möglicherweise für die weitere Verwendung aufbewahren. Insbesondere kann die Seiteneinrichtung für die Wiedergabe auf ausgelagerten Medien (Drucken) oder die anschließende Konvertierung in die nativen Microsoft Word-Dateiformate (DOCX, DOC, RTF, WML) wichtig sein.
+Jede[`Section`](../../../aspose.words/section/) im Aspose.Words-Dokumentmodell bietet Informationen zur Seiteneinrichtung über[`PageSetup`](../../../aspose.words/pagesetup/) Klasse. Wenn Sie ein Dokument ins HTML-Format exportieren, benötigen Sie diese Informationen möglicherweise für die spätere Verwendung. Insbesondere kann die Seiteneinrichtung für die Darstellung auf seitenweise Medien (Druck) oder die anschließende Konvertierung in die nativen Microsoft Word-Dateiformate (DOCX, DOC, RTF, WML) wichtig sein.
 
-In den meisten Fällen ist HTML für die Anzeige in Browsern gedacht, in denen keine Paginierung durchgeführt wird. Daher ist dieses Feature standardmäßig inaktiv.
+In den meisten Fällen ist HTML für die Anzeige in Browsern vorgesehen, in denen keine Seitennummerierung erfolgt. Daher ist diese Funktion standardmäßig deaktiviert.
 
 ## Beispiele
 
-Zeigt, wie Sie entscheiden, ob die Abschnittsstruktur/Seiteneinrichtungsinformationen beim Speichern in HTML beibehalten werden sollen.
+Zeigt, wie Sie entscheiden, ob die Abschnittsstruktur/Seiteneinrichtungsinformationen beim Speichern im HTML-Format beibehalten werden sollen.
 
 ```csharp
 Document doc = new Document();
@@ -39,10 +39,10 @@ pageSetup.TopMargin = 36.0;
 pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
-// Beim Speichern des Dokuments in HTML können wir ein SaveOptions-Objekt übergeben
+// Beim Speichern des Dokuments im HTML-Format können wir ein SaveOptions-Objekt übergeben
 // um zu entscheiden, ob die Seiteneinrichtungseinstellungen beibehalten oder verworfen werden sollen.
 // Wenn wir das Flag „ExportPageSetup“ auf „true“ setzen, enthält das ausgegebene HTML-Dokument unsere Seiteneinrichtungskonfiguration.
-// Wenn wir das Flag „ExportPageSetup“ auf „false“ setzen, verwirft der Speichervorgang unsere Seiteneinrichtungseinstellungen
+// Wenn wir das Flag "ExportPageSetup" auf "false" setzen, werden beim Speichern unsere Seiteneinrichtungseinstellungen verworfen
 // für den ersten Abschnitt, und beide Abschnitte werden identisch aussehen.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 

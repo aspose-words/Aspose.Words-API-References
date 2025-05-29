@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words para .NET
-description: TextBox VerticalAnchor propiedad. Especifica la alineación vertical del texto dentro de una forma en C#.
+description: Descubra cómo la propiedad TextBox VerticalAnchor mejora la alineación del texto dentro de las formas para mejorar el diseño y la legibilidad en sus proyectos.
 type: docs
 weight: 120
 url: /es/net/aspose.words.drawing/textbox/verticalanchor/
@@ -30,12 +30,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Top" para
 // alinea el texto en este cuadro de texto con el lado superior de la forma.
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
-// alinea el texto en este cuadro de texto con el centro de la forma.
-// Establece la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
-// alinea el texto de este cuadro de texto con la parte inferior de la forma.
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Middle" para
+// alinea el texto en este cuadro de texto al centro de la forma.
+// Establezca la propiedad "VerticalAnchor" en "TextBoxAnchor.Bottom" para
+// alinea el texto en este cuadro de texto con la parte inferior de la forma.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);

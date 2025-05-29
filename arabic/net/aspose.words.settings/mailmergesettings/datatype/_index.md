@@ -3,14 +3,14 @@ title: MailMergeSettings.DataType
 linktitle: DataType
 articleTitle: DataType
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings DataType ملكية. تحديد نوع مصدر بيانات دمج المراسلات وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault  في C#.
+description: اكتشف خاصية نوع بيانات MailMergeSettings، التي تُحدد نوع مصدر بيانات دمج البريد وطريقة الوصول. حسّن سير عملك بسهولة!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.settings/mailmergesettings/datatype/
 ---
 ## MailMergeSettings.DataType property
 
-تحديد نوع مصدر بيانات دمج المراسلات وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault .
+يحدد نوع مصدر بيانات الدمج البريدي وطريقة الوصول إلى البيانات. القيمة الافتراضية هيDefault .
 
 ```csharp
 public MailMergeDataType DataType { get; set; }
@@ -18,7 +18,7 @@ public MailMergeDataType DataType { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ دمج البريد مع البيانات من كائن مصدر بيانات Office.
+يوضح كيفية تنفيذ دمج البريد باستخدام البيانات من كائن مصدر بيانات Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// قم بإنشاء مصدر بيانات على شكل ملف ASCII، باستخدام "|" شخصية
-// يعمل كمحدد يفصل بين الأعمدة. السطر الأول يحتوي على أسماء الأعمدة الثلاثة،
-// وكل سطر لاحق عبارة عن صف بقيمه الخاصة.
+// إنشاء مصدر بيانات في شكل ملف ASCII، مع حرف "|"
+// يعمل كفاصل يفصل الأعمدة. يحتوي السطر الأول على أسماء الأعمدة الثلاثة.
+// وكل سطر لاحق هو صف مع القيم الخاصة به.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";

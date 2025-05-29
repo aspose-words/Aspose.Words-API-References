@@ -3,14 +3,14 @@ title: FieldHyperlink.Target
 linktitle: Target
 articleTitle: Target
 second_title: Aspose.Words لـ .NET
-description: FieldHyperlink Target ملكية. الحصول على أو تعيين الهدف الذي يجب إعادة توجيه الارتباط إليه في C#.
+description: اكتشف خاصية FieldHyperlink Target، وقم بتكوين إعادة توجيه الارتباط بسهولة لتحسين تنقل المستخدم وتجارب الويب السلسة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldhyperlink/target/
 ---
 ## FieldHyperlink.Target property
 
-الحصول على أو تعيين الهدف الذي يجب إعادة توجيه الارتباط إليه.
+يحصل على الهدف الذي يجب إعادة توجيه الرابط إليه أو يعينه.
 
 ```csharp
 public string Target { get; set; }
@@ -26,16 +26,16 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
-// سيتم فتح المستند المرتبط ثم وضع المؤشر على الإشارة المرجعية المحددة.
+// عندما نضغط على حقل الارتباط التشعبي هذا في Microsoft Word،
+//سيتم فتح المستند المرتبط ثم وضع المؤشر عند الإشارة المرجعية المحددة.
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// عندما ننقر على حقل الارتباط التشعبي هذا في Microsoft Word،
-// سيفتح المستند المرتبط، وينتقل تلقائيًا لأسفل إلى إطار iframe المحدد.
+// عندما نضغط على حقل الارتباط التشعبي هذا في Microsoft Word،
+//سيتم فتح المستند المرتبط، والانتقال تلقائيًا إلى الإطار المحدد.
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";
 field.ScreenTip = "Open " + field.Address;

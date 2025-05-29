@@ -2,15 +2,15 @@
 title: OdsoFieldMapDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection GetEnumerator yöntem. Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Tüm koleksiyon öğeleri arasında zahmetsizce yineleme yapmak için OdsoFieldMapDataCollection'ın GetEnumerator metodunu keşfedin. Veri işleme becerilerinizi bugün geliştirin!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/getenumerator/
 ---
 ## OdsoFieldMapDataCollection.GetEnumerator method
 
-Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilecek bir numaralandırıcı nesnesini döndürür.
+Koleksiyondaki tüm öğeler üzerinde yineleme yapmak için kullanılabilen bir numaratör nesnesi döndürür.
 
 ```csharp
 public IEnumerator<OdsoFieldMapData> GetEnumerator()
@@ -18,12 +18,12 @@ public IEnumerator<OdsoFieldMapData> GetEnumerator()
 
 ## Örnekler
 
-Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarına eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// Bu koleksiyon, bir posta birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
 // önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
@@ -42,15 +42,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Bu koleksiyondaki öğeleri klonlayın.
+// Bu koleksiyondaki öğeleri klonla.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
+// "RemoveAt" metodu elemanlarını indekse göre tek tek kullan.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
+// Tüm koleksiyonu bir kerede temizlemek için "Clear" metodunu kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

@@ -3,7 +3,7 @@ title: Range.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: Range Text propiedad. Obtiene el texto del rango en C#.
+description: Descubra la propiedad Texto de rango para recuperar y manipular fácilmente texto dentro de un rango específico para una mejor gestión de contenido.
 type: docs
 weight: 60
 url: /es/net/aspose.words/range/text/

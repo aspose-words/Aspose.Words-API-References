@@ -3,7 +3,7 @@ title: BookmarkStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: BookmarkStart Accept méthode. Accepte un visiteur en C#.
+description: Découvrez la méthode Accept de BookmarkStart pour interagir facilement avec vos visiteurs et améliorer leur expérience. Boostez l'interaction sur votre site dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words/bookmarkstart/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Return_Value
 
-`FAUX` si le visiteur a demandé l'arrêt de l'énumération.
+`FAUX` si le visiteur a demandé l'arrêt du dénombrement.
 
 ## Remarques
 
 Appels[`VisitBookmarkStart`](../../documentvisitor/visitbookmarkstart/).
 
-Pour plus d’informations, consultez le modèle de conception Visiteur.
+Pour plus d'informations, consultez le modèle de conception Visitor.
 
 ## Exemples
 
@@ -51,7 +51,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -79,7 +79,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

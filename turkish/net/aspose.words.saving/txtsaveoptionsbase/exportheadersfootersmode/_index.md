@@ -2,15 +2,15 @@
 title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
-second_title: Aspose.Words for .NET
-description: TxtSaveOptionsBase ExportHeadersFootersMode mülk. Üstbilgilerin ve altbilgilerin metin formatlarına aktarılma yöntemini belirtir. Varsayılan değerPrimaryOnly  C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptionsBase ExportHeadersFootersMode özelliğinin metin biçimlerinde başlık ve altbilgi dışa aktarımını nasıl optimize ettiğini keşfedin. Varsayılan, PrimaryOnly.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 ---
 ## TxtSaveOptionsBase.ExportHeadersFootersMode property
 
-Üstbilgilerin ve altbilgilerin metin formatlarına aktarılma yöntemini belirtir. Varsayılan değer:PrimaryOnly .
+Başlıkların ve altbilgilerin metin biçimlerine aktarılma biçimini belirtir. Varsayılan değerPrimaryOnly .
 
 ```csharp
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -18,12 +18,12 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ## Örnekler
 
-Üstbilgilerin ve altbilgilerin düz metin biçimine nasıl aktarılacağının nasıl belirleneceğini gösterir.
+Üstbilgi ve altbilgilerin düz metin biçimine nasıl aktarılacağının nasıl belirleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Belgeye çift ve birincil üstbilgileri/altbilgileri ekleyin.
+// Belgeye eşit ve birincil üstbilgiler/altbilgiler ekleyin.
 // Birincil üstbilgi/altbilgiler, çift üstbilgi/altbilgileri geçersiz kılacaktır.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
@@ -34,7 +34,7 @@ doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].AppendParagraph(
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterPrimary));
 doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].AppendParagraph("Primary footer");
 
-// Bu üstbilgileri ve altbilgileri görüntülemek için sayfalar ekleyin.
+// Bu üstbilgi ve altbilgileri görüntülemek için sayfalar ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Page 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -42,44 +42,45 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.None" olarak ayarlayın
-// herhangi bir üstbilgi/altbilgiyi dışa aktarmamak için.
+// hiçbir başlık/altbilginin dışa aktarılmaması.
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.PrimaryOnly" olarak ayarlayın
-// yalnızca birincil üstbilgileri/altbilgileri dışa aktarmak için.
+// yalnızca birincil başlıkları/altbilgileri dışa aktarmak için.
 // "ExportHeadersFootersMode" özelliğini "TxtExportHeadersFootersMode.AllAtEnd" olarak ayarlayın
-// tüm bölüm gövdelerinin tüm üstbilgilerini ve altbilgilerini belgenin sonuna yerleştirmek için.
+// tüm bölüm gövdeleri için tüm üstbilgi ve altbilgileri belgenin sonuna yerleştirmek için.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt");
 
+string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Even header\r\n\r\n" +
-                        "Primary header\r\n\r\n" +
-                        "Even footer\r\n\r\n" +
-                        "Primary footer\r\n\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Even header{newLine}{newLine}" +
+                        $"Primary header{newLine}{newLine}" +
+                        $"Even footer{newLine}{newLine}" +
+                        $"Primary footer{newLine}{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual("Primary header\r\n" +
-                        "Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Primary footer\r\n", docText);
+        Assert.AreEqual($"Primary header{newLine}" +
+                        $"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Primary footer{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}", docText);
         break;
 }
 ```

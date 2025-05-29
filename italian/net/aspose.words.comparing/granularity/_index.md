@@ -3,14 +3,14 @@ title: Granularity Enum
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Comparing.Granularity enum. Specifica la granularità delle modifiche da tenere traccia quando si confrontano due documenti in C#.
+description: Scopri l'enum Aspose.Words.Comparing.Granularity per tracciare con precisione e semplicità le modifiche ai documenti. Migliora il confronto dei tuoi documenti oggi stesso!
 type: docs
-weight: 290
+weight: 490
 url: /it/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
 
-Specifica la granularità delle modifiche da tenere traccia quando si confrontano due documenti.
+Specifica la granularità delle modifiche da monitorare quando si confrontano due documenti.
 
 ```csharp
 public enum Granularity
@@ -20,12 +20,12 @@ public enum Granularity
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| CharLevel | `0` |  |
-| WordLevel | `1` |  |
+| CharLevel | `0` | Specifica le modifiche a livello di carattere. |
+| WordLevel | `1` | Specifica le modifiche a livello di parola. |
 
 ## Esempi
 
-Mostra per specificare una granularità durante il confronto dei documenti.
+Mostra come specificare una granularità durante il confronto dei documenti.
 
 ```csharp
 Document docA = new Document();
@@ -36,9 +36,9 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Specifica se le modifiche vengono monitorate
+// Specificare se le modifiche vengono monitorate
 // per carattere ('Granularity.CharLevel') o per parola ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);

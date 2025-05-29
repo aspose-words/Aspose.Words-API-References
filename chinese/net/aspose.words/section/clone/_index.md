@@ -2,10 +2,10 @@
 title: Section.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: 用于 .NET 的 Aspose.Words
-description: Section Clone 方法. 创建此部分的副本 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的“截面克隆”方法轻松复制截面。这款强大的工具可简化您的工作流程并提高工作效率！
 type: docs
-weight: 110
+weight: 130
 url: /zh/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
@@ -18,7 +18,7 @@ public Section Clone()
 
 ## 例子
 
-演示如何在文档中添加和删除部分。
+展示如何在文档中添加和删除章节。
 
 ```csharp
 Document doc = new Document();
@@ -35,7 +35,7 @@ doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// 将当前第一部分的副本附加到文档末尾。
+// 将现在第一部分的副本附加到文档末尾。
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

@@ -3,16 +3,16 @@ title: PageSetup Class
 linktitle: PageSetup
 articleTitle: PageSetup
 second_title: Aspose.Words para .NET
-description: Aspose.Words.PageSetup clase. Representa las propiedades de configuración de página de una sección en C#.
+description: Descubre la clase Aspose.Words.PageSetup para personalizar la configuración de página de las secciones de tu documento. ¡Optimiza el diseño y mejora la legibilidad hoy mismo!
 type: docs
-weight: 4360
+weight: 5090
 url: /es/net/aspose.words/pagesetup/
 ---
 ## PageSetup class
 
 Representa las propiedades de configuración de página de una sección.
 
-Para obtener más información, visite el[Trabajar con secciones](https://docs.aspose.com/words/net/working-with-sections/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con secciones](https://docs.aspose.com/words/net/working-with-sections/) Artículo de documentación.
 
 ```csharp
 public class PageSetup
@@ -23,9 +23,9 @@ public class PageSetup
 | Nombre | Descripción |
 | --- | --- |
 | [Bidi](../../aspose.words/pagesetup/bidi/) { get; set; } | Especifica que esta sección contiene texto bidireccional (scripts complejos). |
-| [BorderAlwaysInFront](../../aspose.words/pagesetup/borderalwaysinfront/) { get; set; } | Especifica dónde se coloca el borde de la página en relación con los textos y objetos que se cruzan. |
+| [BorderAlwaysInFront](../../aspose.words/pagesetup/borderalwaysinfront/) { get; set; } | Especifica dónde se posiciona el borde de la página en relación con los textos y objetos que se intersecan. |
 | [BorderAppliesTo](../../aspose.words/pagesetup/borderappliesto/) { get; set; } | Especifica en qué páginas se imprime el borde de la página. |
-| [BorderDistanceFrom](../../aspose.words/pagesetup/borderdistancefrom/) { get; set; } | Obtiene o establece un valor que indica si el borde de la página especificada se mide desde el borde de la página o desde el texto que rodea. |
+| [BorderDistanceFrom](../../aspose.words/pagesetup/borderdistancefrom/) { get; set; } | Obtiene o establece un valor que indica si el borde de página especificado se mide desde el borde de la página o desde el texto que rodea. |
 | [Borders](../../aspose.words/pagesetup/borders/) { get; } | Obtiene una colección de los bordes de la página. |
 | [BorderSurroundsFooter](../../aspose.words/pagesetup/bordersurroundsfooter/) { get; set; } | Especifica si el borde de la página incluye o excluye el pie de página. |
 | [BorderSurroundsHeader](../../aspose.words/pagesetup/bordersurroundsheader/) { get; set; } | Especifica si el borde de la página incluye o excluye el encabezado. |
@@ -33,25 +33,25 @@ public class PageSetup
 | [ChapterPageSeparator](../../aspose.words/pagesetup/chapterpageseparator/) { get; set; } | Obtiene o establece el carácter separador que aparece entre el número de capítulo y el número de página. |
 | [CharactersPerLine](../../aspose.words/pagesetup/charactersperline/) { get; set; } | Obtiene o establece el número de caracteres por línea en la cuadrícula del documento. |
 | [DifferentFirstPageHeaderFooter](../../aspose.words/pagesetup/differentfirstpageheaderfooter/) { get; set; } | Verdadero si se utiliza un encabezado o pie de página diferente en la primera página. |
-| [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/) { get; } | Proporciona opciones que controlan la numeración y la posición de las notas finales en esta sección. |
-| [FirstPageTray](../../aspose.words/pagesetup/firstpagetray/) { get; set; } | Obtiene o establece la bandeja de papel (bandeja) que se utilizará para la primera página de una sección. El valor es específico de la implementación (impresora). |
+| [EndnoteOptions](../../aspose.words/pagesetup/endnoteoptions/) { get; } | Proporciona opciones que controlan la numeración y el posicionamiento de las notas finales en esta sección. |
+| [FirstPageTray](../../aspose.words/pagesetup/firstpagetray/) { get; set; } | Obtiene o establece la bandeja de papel (bin) que se utilizará para la primera página de una sección. El valor es específico de la implementación (impresora). |
 | [FooterDistance](../../aspose.words/pagesetup/footerdistance/) { get; set; } | Devuelve o establece la distancia (en puntos) entre el pie de página y la parte inferior de la página. |
-| [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/) { get; } | Proporciona opciones que controlan la numeración y la posición de las notas al pie en esta sección. |
-| [Gutter](../../aspose.words/pagesetup/gutter/) { get; set; } | Obtiene o establece la cantidad de espacio adicional agregado al margen para la encuadernación del documento. |
+| [FootnoteOptions](../../aspose.words/pagesetup/footnoteoptions/) { get; } | Proporciona opciones que controlan la numeración y el posicionamiento de las notas al pie en esta sección. |
+| [Gutter](../../aspose.words/pagesetup/gutter/) { get; set; } | Obtiene o establece la cantidad de espacio adicional que se agrega al margen para la encuadernación del documento. |
 | [HeaderDistance](../../aspose.words/pagesetup/headerdistance/) { get; set; } | Devuelve o establece la distancia (en puntos) entre el encabezado y la parte superior de la página. |
 | [HeadingLevelForChapter](../../aspose.words/pagesetup/headinglevelforchapter/) { get; set; } | Obtiene o establece el estilo de nivel de encabezado que se aplica a los títulos de los capítulos en el documento. |
 | [LayoutMode](../../aspose.words/pagesetup/layoutmode/) { get; set; } | Obtiene o establece el modo de diseño de esta sección. |
 | [LeftMargin](../../aspose.words/pagesetup/leftmargin/) { get; set; } | Devuelve o establece la distancia (en puntos) entre el borde izquierdo de la página y el límite izquierdo del cuerpo del texto. |
 | [LineNumberCountBy](../../aspose.words/pagesetup/linenumbercountby/) { get; set; } | Devuelve o establece el incremento numérico para los números de línea. |
 | [LineNumberDistanceFromText](../../aspose.words/pagesetup/linenumberdistancefromtext/) { get; set; } | Obtiene o establece la distancia entre el borde derecho de los números de línea y el borde izquierdo del documento. |
-| [LineNumberRestartMode](../../aspose.words/pagesetup/linenumberrestartmode/) { get; set; } | Obtiene o establece la forma en que se ejecuta la numeración de líneas, es decir, si comienza de nuevo al principio de una nueva página o sección o se ejecuta continuamente. |
+| [LineNumberRestartMode](../../aspose.words/pagesetup/linenumberrestartmode/) { get; set; } | Obtiene o establece la forma en que se ejecuta la numeración de líneas, es decir, si comienza de nuevo al principio de una nueva página o sección o se ejecuta de forma continua. |
 | [LinesPerPage](../../aspose.words/pagesetup/linesperpage/) { get; set; } | Obtiene o establece el número de líneas por página en la cuadrícula del documento. |
 | [LineStartingNumber](../../aspose.words/pagesetup/linestartingnumber/) { get; set; } | Obtiene o establece el número de línea inicial. |
-| [Margins](../../aspose.words/pagesetup/margins/) { get; set; } | Devuelve o establece valores preestablecidos[`Margins`](../margins/) de la página. |
+| [Margins](../../aspose.words/pagesetup/margins/) { get; set; } | Devuelve o establece un valor preestablecido[`Margins`](../margins/) de la página. |
 | [MultiplePages](../../aspose.words/pagesetup/multiplepages/) { get; set; } | Para documentos de varias páginas, obtiene o establece cómo se imprime o representa un documento para que pueda encuadernarse como un folleto. |
-| [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | Verdadero si el documento tiene diferentes encabezados y pies de página para páginas pares e impares. |
+| [OddAndEvenPagesHeaderFooter](../../aspose.words/pagesetup/oddandevenpagesheaderfooter/) { get; set; } | Verdadero si el documento tiene encabezados y pies de página diferentes para las páginas pares e impares. |
 | [Orientation](../../aspose.words/pagesetup/orientation/) { get; set; } | Devuelve o establece la orientación de la página. |
-| [OtherPagesTray](../../aspose.words/pagesetup/otherpagestray/) { get; set; } | Obtiene o establece la bandeja de papel (bandeja) que se utilizará para todas las páginas excepto la primera de una sección. El valor es específico de la implementación (impresora). |
+| [OtherPagesTray](../../aspose.words/pagesetup/otherpagestray/) { get; set; } | Obtiene o establece la bandeja de papel (bin) que se utilizará para todas las páginas excepto la primera de una sección. El valor es específico de la implementación (impresora). |
 | [PageHeight](../../aspose.words/pagesetup/pageheight/) { get; set; } | Devuelve o establece la altura de la página en puntos. |
 | [PageNumberStyle](../../aspose.words/pagesetup/pagenumberstyle/) { get; set; } | Obtiene o establece el formato del número de página. |
 | [PageStartingNumber](../../aspose.words/pagesetup/pagestartingnumber/) { get; set; } | Obtiene o establece el número de página inicial de la sección. |
@@ -59,10 +59,10 @@ public class PageSetup
 | [PaperSize](../../aspose.words/pagesetup/papersize/) { get; set; } | Devuelve o establece el tamaño del papel. |
 | [RestartPageNumbering](../../aspose.words/pagesetup/restartpagenumbering/) { get; set; } | Verdadero si la numeración de páginas se reinicia al principio de la sección. |
 | [RightMargin](../../aspose.words/pagesetup/rightmargin/) { get; set; } | Devuelve o establece la distancia (en puntos) entre el borde derecho de la página y el límite derecho del cuerpo del texto. |
-| [RtlGutter](../../aspose.words/pagesetup/rtlgutter/) { get; set; } | Obtiene o establece si Microsoft Word usa medianiles para la sección en función de un idioma de derecha a izquierda o de izquierda a derecha. |
+| [RtlGutter](../../aspose.words/pagesetup/rtlgutter/) { get; set; } | Obtiene o establece si Microsoft Word utiliza márgenes para la sección en función de un idioma de derecha a izquierda o de izquierda a derecha. |
 | [SectionStart](../../aspose.words/pagesetup/sectionstart/) { get; set; } | Devuelve o establece el tipo de salto de sección para el objeto especificado. |
 | [SheetsPerBooklet](../../aspose.words/pagesetup/sheetsperbooklet/) { get; set; } | Devuelve o establece el número de páginas que se incluirán en cada folleto. |
-| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | Verdadero si las notas finales se imprimen al final de la siguiente sección que no suprime las notas finales. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección. |
+| [SuppressEndnotes](../../aspose.words/pagesetup/suppressendnotes/) { get; set; } | Verdadero si las notas finales se imprimen al final de la siguiente sección que no las suprime. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección. |
 | [TextColumns](../../aspose.words/pagesetup/textcolumns/) { get; } | Devuelve una colección que representa el conjunto de columnas de texto. |
 | [TextOrientation](../../aspose.words/pagesetup/textorientation/) { get; set; } | Permite especificar[`TextOrientation`](./textorientation/) para toda la página. El valor predeterminado esHorizontal |
 | [TopMargin](../../aspose.words/pagesetup/topmargin/) { get; set; } | Devuelve o establece la distancia (en puntos) entre el borde superior de la página y el límite superior del cuerpo del texto. |
@@ -72,21 +72,21 @@ public class PageSetup
 
 | Nombre | Descripción |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Restablece la configuración de página al tamaño, márgenes y orientación predeterminados del papel. |
+| [ClearFormatting](../../aspose.words/pagesetup/clearformatting/)() | Restablece la configuración de página al tamaño de papel, márgenes y orientación predeterminados. |
 
 ## Observaciones
 
-`PageSetup` El objeto contiene todos los atributos de configuración de página de una sección (margen izquierdo, margen inferior, tamaño de papel, etc.) como propiedades.
+`PageSetup` El objeto contiene todos los atributos de configuración de página de una sección (margen izquierdo, margen inferior, tamaño del papel, etc.) como propiedades.
 
 ## Ejemplos
 
-Muestra cómo aplicar y revertir la configuración de configuración de página a secciones de un documento.
+Muestra cómo aplicar y revertir configuraciones de configuración de página a secciones de un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Modifica las propiedades de configuración de la página para la sección actual del constructor y agrega texto.
+// Modifique las propiedades de configuración de la página para la sección actual del constructor y agregue texto.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
@@ -98,7 +98,7 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Podemos revertir las propiedades de configuración de la página a sus valores predeterminados usando el método "ClearFormatting".
+//Podemos revertir sus propiedades de configuración de página a sus valores predeterminados usando el método "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);

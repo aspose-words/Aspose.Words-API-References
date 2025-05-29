@@ -3,14 +3,14 @@ title: IBibliographyStylesProvider Interface
 linktitle: IBibliographyStylesProvider
 articleTitle: IBibliographyStylesProvider
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.IBibliographyStylesProvider koppel. Implementieren Sie diese Schnittstelle um den Bibliographiestil für bereitzustellenFieldBibliography UndFieldCitation Felder wenn sie aktualisiert werden in C#.
+description: Verbessern Sie die Formatierung Ihres Dokuments mit der Schnittstelle Aspose.Words.IBibliographyStylesProvider, die sich perfekt zum Anpassen von Bibliografiestilen in Zitaten eignet.
 type: docs
-weight: 2670
+weight: 3080
 url: /de/net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface
 
-Implementieren Sie diese Schnittstelle, um den Bibliographiestil für bereitzustellen[`FieldBibliography`](../fieldbibliography/) Und[`FieldCitation`](../fieldcitation/) Felder, wenn sie aktualisiert werden.
+Implementieren Sie diese Schnittstelle, um einen Bibliographiestil für bereitzustellen.[`FieldBibliography`](../fieldbibliography/) Und[`FieldCitation`](../fieldcitation/) Felder, wenn sie aktualisiert werden.
 
 ```csharp
 public interface IBibliographyStylesProvider
@@ -28,13 +28,17 @@ Zeigt, wie integrierte Stile überschrieben oder benutzerdefinierte Stile bereit
 
 ```csharp
 public void ChangeBibliographyStyles()
-{            
+{
     Document doc = new Document(MyDir + "Bibliography.docx");
+
+    // Wenn das Dokument bereits einen Stil hat, können Sie ihn mit dem folgenden Code ändern:
+    // doc.Bibliography.BibliographyStyle = "Bibliography benutzerdefinierter Stil.xsl";
 
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 
     doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
 }
 
 public class BibliographyStylesProvider : IBibliographyStylesProvider

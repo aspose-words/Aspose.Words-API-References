@@ -3,7 +3,7 @@ title: Border.TintAndShade
 linktitle: TintAndShade
 articleTitle: TintAndShade
 second_title: Aspose.Words pour .NET
-description: Border TintAndShade propriété. Obtient ou définit une valeur double qui éclaircit ou assombrit une couleur en C#.
+description: Découvrez Border TintAndShade, ajustez facilement la luminosité des couleurs grâce à une simple double valeur pour des designs époustouflants. Idéal pour vos projets créatifs !
 type: docs
 weight: 80
 url: /fr/net/aspose.words/border/tintandshade/
@@ -16,11 +16,16 @@ Obtient ou définit une valeur double qui éclaircit ou assombrit une couleur.
 public double TintAndShade { get; set; }
 ```
 
+### Exceptions
+
+| exception | condition |
+| --- | --- |
+| ArgumentOutOfRangeException | Lève une exception si vous tentez de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1. |
+| InvalidOperationException | Lève si cette propriété est définie pour un objet Border avec des couleurs non thématiques. |
+
 ## Remarques
 
-Les valeurs autorisées sont comprises entre -1 (le plus sombre) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre. Tenter de définir cette propriété sur une valeur inférieure à -1 ou supérieure à 1 entraîneArgumentOutOfRangeException.
-
-La définition de cette propriété pour l'objet Border avec des couleurs non thématiques entraîneInvalidOperationException.
+Les valeurs autorisées sont comprises entre -1 (le plus foncé) et 1 (le plus clair) pour cette propriété. Zéro (0) est neutre.
 
 ## Exemples
 
@@ -33,7 +38,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Border topBorder = builder.ParagraphFormat.Borders.Top;
 topBorder.LineWidth = 4.0d;
 topBorder.LineStyle = LineStyle.DashSmallGap;
-// Définit ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
+// Définissez ThemeColor uniquement lorsque LineWidth ou LineStyle est défini.
 topBorder.ThemeColor = ThemeColor.Accent1;
 topBorder.TintAndShade = 0.25d;
 

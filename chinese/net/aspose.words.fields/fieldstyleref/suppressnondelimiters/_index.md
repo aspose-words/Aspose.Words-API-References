@@ -2,15 +2,15 @@
 title: FieldStyleRef.SuppressNonDelimiters
 linktitle: SuppressNonDelimiters
 articleTitle: SuppressNonDelimiters
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldStyleRef SuppressNonDelimiters 财产. 获取或设置是否隐藏非分隔符 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 FieldStyleRef 的 SuppressNonDelimiters 属性控制非分隔符。增强应用程序中数据的清晰度和呈现效果。
 type: docs
 weight: 80
 url: /zh/net/aspose.words.fields/fieldstyleref/suppressnondelimiters/
 ---
 ## FieldStyleRef.SuppressNonDelimiters property
 
-获取或设置是否隐藏非分隔符。
+获取或设置是否抑制非分隔符。
 
 ```csharp
 public bool SuppressNonDelimiters { get; set; }
@@ -18,17 +18,17 @@ public bool SuppressNonDelimiters { get; set; }
 
 ## 例子
 
-演示如何使用 STYLEREF 字段。
+展示如何使用 STYLEREF 字段。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 使用 Microsoft Word 列表模板创建一个列表。
+// 使用 Microsoft Word 列表模板创建列表。
 Aspose.Words.Lists.List list = doc.Lists.Add(Aspose.Words.Lists.ListTemplate.NumberDefault);
 
-// 这个生成的列表将显示“1.a )”。
- // 括号前的空格是非分隔符，我们可以将其隐藏。
+// 此生成的列表将显示“1.a)”。
+ // 括号前的空格是非分隔符，我们可以抑制它。
 list.ListLevels[0].NumberFormat = "\x0000.";
 list.ListLevels[1].NumberFormat = "\x0001 )";
 
@@ -44,7 +44,7 @@ builder.Writeln("Item 3");
 builder.ListFormat.RemoveNumbers();
 builder.ParagraphFormat.Style = doc.Styles["Normal"];
 
-// 在标题中放置一个 STYLEREF 字段，并显示文档中第一个“List Paragraph”样式的文本。
+// 在标题中放置一个 STYLEREF 字段并显示文档中第一个“列表段落”样式的文本。
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 FieldStyleRef field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "List Paragraph";
@@ -57,7 +57,7 @@ field.SearchFromBottom = true;
 
 builder.MoveToDocumentEnd();
 
-// 我们还可以使用STYLEREF字段来引用列表的列表编号。
+// 我们还可以使用 STYLEREF 字段来引用列表的列表编号。
 builder.Write("\nParagraph number: ");
 field = (FieldStyleRef)builder.InsertField(FieldType.FieldStyleRef, true);
 field.StyleName = "Quote";

@@ -3,7 +3,7 @@ title: FieldRef.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words pour .NET
-description: FieldRef BookmarkName propriété. Obtient ou définit le nom du signet référencé en C#.
+description: Découvrez la propriété FieldRef BookmarkName pour gérer et personnaliser facilement vos signets. Améliorez la navigation dans vos documents sans effort !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldref/bookmarkname/
@@ -18,14 +18,14 @@ public string BookmarkName { get; set; }
 
 ## Exemples
 
-Montre comment créer un texte mis en signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
+Montre comment créer du texte marqué d'un signet avec un champ SET, puis l'afficher dans le document à l'aide d'un champ REF.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
- // Nommez le texte mis en signet avec un champ SET.
-// Ce champ fait référence au "signet" non pas à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
+ // Nommez le texte marqué avec un champ SET.
+// Ce champ fait référence au « signet », non pas à une structure de signet qui apparaît dans le texte, mais à une variable nommée.
 FieldSet fieldSet = (FieldSet)builder.InsertField(FieldType.FieldSet, false);
 fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
@@ -70,7 +70,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous de celui-ci.
+    // Insérer un champ REF et afficher si le signet référencé est au-dessus ou en dessous.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -82,7 +82,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Affiche le numéro de liste du signet, mais en omettant les caractères non délimiteurs, tels que les crochets angulaires.
+    // Affiche le numéro de liste du signet, mais avec les caractères non délimiteurs, tels que les chevrons, omis.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
@@ -107,7 +107,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // À la fin du document, le signet apparaîtra ici comme élément de liste.
+    // À la fin du document, le signet apparaîtra comme un élément de liste ici.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";

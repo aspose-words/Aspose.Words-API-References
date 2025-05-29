@@ -3,7 +3,7 @@ title: FieldMergeSeq
 linktitle: FieldMergeSeq
 articleTitle: FieldMergeSeq
 second_title: Aspose.Words для .NET
-description: FieldMergeSeq строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldMergeSeq — ваше решение для бесшовного слияния данных. Раскройте эффективность с нашим конструктором по умолчанию для оптимальной производительности!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldmergeseq/fieldmergeseq/

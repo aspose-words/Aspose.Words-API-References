@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: BaseWebExtensionCollection Item propiedad. Obtiene o establece un elemento en el índice especificado en C#.
+description: Descubra la propiedad Item de BaseWebExtensionCollection para gestionar fácilmente elementos por índice. ¡Simplifique su desarrollo con una gestión de datos eficiente hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -18,7 +18,7 @@ public T this[int index] { get; set; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Índice de base cero del artículo. |
+| index | Índice basado en cero del artículo. |
 
 ## Ejemplos
 
@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime todas las propiedades de la extensión web del documento.
+//Imprimir todas las propiedades de la extensión web del documento.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Elimina la extensión web.
+//Eliminar la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

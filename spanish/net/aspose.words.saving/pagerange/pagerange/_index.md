@@ -3,7 +3,7 @@ title: PageRange
 linktitle: PageRange
 articleTitle: PageRange
 second_title: Aspose.Words para .NET
-description: PageRange constructor. Crea un nuevo objeto de rango de páginas en C#.
+description: Crea rangos de páginas personalizados fácilmente con nuestro constructor de PageRange. Optimiza la gestión de tus documentos con precisión y flexibilidad.
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/pagerange/pagerange/
@@ -18,8 +18,8 @@ public PageRange(int from, int to)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| from | Int32 | El índice de base cero de la página inicial. |
-| to | Int32 | El índice de base cero de la página final. Si excede el índice de la última página del documento, se trunca para caber en el documento al renderizar. |
+| from | Int32 | El índice basado en cero de la página de inicio. |
+| to | Int32 | El índice basado en cero de la página final. Si excede el índice de la última página del documento, se trunca para que quepa en el documento al renderizarlo. |
 
 ## Observaciones
 

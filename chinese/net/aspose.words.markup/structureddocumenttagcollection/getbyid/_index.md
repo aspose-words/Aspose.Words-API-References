@@ -2,15 +2,15 @@
 title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagCollection GetById 方法. 按标识符返回结构化文档标签 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 GetById 方法轻松检索结构化文档标签。快速访问您的数据，提升文档管理效率。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
 ## StructuredDocumentTagCollection.GetById method
 
-按标识符返回结构化文档标签。
+通过标识符返回结构化文档标签。
 
 ```csharp
 public IStructuredDocumentTag GetById(int id)
@@ -33,10 +33,10 @@ Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
 // 通过Id获取结构化文档标签。
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// 根据标题获取结构化文档标签或范围标签。
+// 通过标题获取结构化文档标签或范围标签。
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

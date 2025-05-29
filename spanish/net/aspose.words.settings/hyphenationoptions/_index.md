@@ -3,16 +3,16 @@ title: HyphenationOptions Class
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.HyphenationOptions clase. Permite configurar las opciones de separación de palabras del documento en C#.
+description: Descubra la clase Aspose.Words.Settings.HyphenationOptions para personalizar sin esfuerzo la configuración de separación de palabras para sus documentos y mejorar la presentación del texto.
 type: docs
-weight: 5790
+weight: 6620
 url: /es/net/aspose.words.settings/hyphenationoptions/
 ---
 ## HyphenationOptions class
 
 Permite configurar las opciones de separación de palabras del documento.
 
-Para obtener más información, visite el[Trabajar con separación de palabras](https://docs.aspose.com/words/net/working-with-hyphenation/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con la separación de palabras](https://docs.aspose.com/words/net/working-with-hyphenation/) Artículo de documentación.
 
 ```csharp
 public class HyphenationOptions
@@ -28,10 +28,10 @@ public class HyphenationOptions
 
 | Nombre | Descripción |
 | --- | --- |
-| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Obtiene o establece el valor que determina si la separación de palabras automática está activada para el documento. El valor predeterminado para esta propiedad es`FALSO` . |
+| [AutoHyphenation](../../aspose.words.settings/hyphenationoptions/autohyphenation/) { get; set; } | Obtiene o establece un valor que determina si la separación automática de palabras está activada para el documento. El valor predeterminado para esta propiedad es`FALSO` . |
 | [ConsecutiveHyphenLimit](../../aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/) { get; set; } | Obtiene o establece el número máximo de líneas consecutivas que pueden terminar con guiones. El valor predeterminado para esta propiedad es 0. |
-| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtiene o establece el valor que determina si las palabras escritas en letras mayúsculas están divididas con guiones. El valor predeterminado para esta propiedad es`verdadero` . |
-| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea que separe las palabras con guiones. El valor predeterminado para esta propiedad es 360 (0,25 pulgadas). |
+| [HyphenateCaps](../../aspose.words.settings/hyphenationoptions/hyphenatecaps/) { get; set; } | Obtiene o establece un valor que determina si las palabras escritas en mayúsculas deben estar separadas por guiones. El valor predeterminado para esta propiedad es`verdadero` . |
+| [HyphenationZone](../../aspose.words.settings/hyphenationoptions/hyphenationzone/) { get; set; } | Obtiene o establece la distancia en 1/20 de un punto desde el margen derecho dentro del cual no desea separar palabras con guiones. El valor predeterminado para esta propiedad es 360 (0,25 pulgadas). |
 
 ## Ejemplos
 

@@ -2,8 +2,8 @@
 title: Node.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: Node NodeType 财产. 获取此节点的类型 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 Node 的 NodeType 属性可以轻松识别应用程序中的节点类型，从而提高开发效率和代码清晰度。
 type: docs
 weight: 50
 url: /zh/net/aspose.words/node/nodetype/
@@ -18,7 +18,7 @@ public abstract NodeType NodeType { get; }
 
 ## 例子
 
-演示如何使用节点的 NextSibling 属性来枚举其直接子节点。
+演示如何使用节点的 NextSibling 属性来枚举其直属子节点。
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -33,7 +33,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-演示如何从复合节点中删除特定类型的所有子节点。
+展示如何从复合节点中删除特定类型的所有子节点。
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -44,11 +44,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // 将下一个兄弟节点保存为变量，以防我们在删除该节点后想要移动到该节点。
+    // 将下一个同级节点保存为变量，以便我们删除此节点后移动到该节点。
     Node nextNode = curNode.NextSibling;
 
-    // 节体可以包含段落和表格节点。
-    // 如果节点是表，则将其从父节点中删除。
+    // 一个节体可以包含段落和表格节点。
+    // 如果该节点是一个表，则将其从父节点中移除。
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 
@@ -58,7 +58,7 @@ while (curNode != null)
 Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
 ```
 
-演示如何遍历复合节点的子节点树。
+展示如何遍历复合节点的子节点树。
 
 ```csharp
 public void RecurseChildren()
@@ -68,12 +68,12 @@ public void RecurseChildren()
     // 任何可以包含子节点的节点（例如文档本身）都是复合节点。
     Assert.True(doc.IsComposite);
 
-    // 调用递归函数，该函数将遍历并打印复合节点的所有子节点。
+    // 调用递归函数，遍历并打印复合节点的所有子节点。
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// 递归遍历一棵节点树，同时打印每个节点的类型
+/// 递归遍历节点树，同时打印每个节点的类型
 /// 缩进取决于深度以及所有内联节点的内容。
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
@@ -82,7 +82,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // 如果该节点是复合节点，则递归到该节点。否则，如果它是内联节点，则打印其内容。
+        // 如果该节点是复合节点，则递归进入该节点。否则，如果该节点是内联节点，则打印其内容。
         if (childNode.IsComposite)
         {
             Console.WriteLine();

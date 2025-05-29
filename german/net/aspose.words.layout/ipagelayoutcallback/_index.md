@@ -3,14 +3,14 @@ title: IPageLayoutCallback Interface
 linktitle: IPageLayoutCallback
 articleTitle: IPageLayoutCallback
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Layout.IPageLayoutCallback koppel. Implementieren Sie diese Schnittstelle wenn Sie Ihre eigene benutzerdefinierte Methode beim Erstellen und Rendern des Seitenlayoutmodells aufrufen möchten in C#.
+description: Passen Sie Ihr Dokumentlayout mit der Aspose.Words.Layout.IPageLayoutCallback-Schnittstelle an. Verbessern Sie das Rendering mit Ihren eigenen Methoden für optimale Ergebnisse.
 type: docs
-weight: 3310
+weight: 3760
 url: /de/net/aspose.words.layout/ipagelayoutcallback/
 ---
 ## IPageLayoutCallback interface
 
-Implementieren Sie diese Schnittstelle, wenn Sie Ihre eigene benutzerdefinierte Methode beim Erstellen und Rendern des Seitenlayoutmodells aufrufen möchten.
+Implementieren Sie diese Schnittstelle, wenn Sie möchten, dass während des Erstellens und Renderns des Seitenlayoutmodells Ihre eigene benutzerdefinierte Methode aufgerufen wird.
 
 ```csharp
 public interface IPageLayoutCallback
@@ -20,21 +20,21 @@ public interface IPageLayoutCallback
 
 | Name | Beschreibung |
 | --- | --- |
-| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Dies wird aufgerufen, um über den Fortschritt der Layouterstellung und des Renderings zu informieren. |
+| [Notify](../../aspose.words.layout/ipagelayoutcallback/notify/)(*[PageLayoutCallbackArgs](../pagelayoutcallbackargs/)*) | Dies wird aufgerufen, um über den Fortschritt beim Erstellen und Rendern des Layouts zu informieren. |
 
 ## Bemerkungen
 
-Der Hauptzweck dieser Schnittstelle besteht darin, dem Anwendungscode das Abbrechen des Build-Prozesses zu ermöglichen.
+Der Hauptzweck dieser Schnittstelle besteht darin, Anwendungscode das Abbrechen des Build-Prozesses zu ermöglichen.
 
-Es ist möglich, am Anfang des Dokuments nur ein Seitenlayoutmodell für einige Seiten zu erstellen, dann den Vorgang abzubrechen und nur das zu rendern, was bereits erstellt wurde.
+Es ist möglich, zu Beginn des Dokuments ein Seitenlayoutmodell für nur wenige Seiten zu erstellen, dann den Vorgang abzubrechen und nur das zu rendern, was bereits erstellt wurde.
 
-Beachten Sie jedoch, dass die Rendering-Ergebnisse möglicherweise nicht mit denen übereinstimmen, die für jede Seite gerendert würden, wenn der Prozess abgeschlossen wäre.
+Beachten Sie jedoch, dass die Rendering-Ergebnisse möglicherweise nicht mit dem übereinstimmen, was für jede Seite gerendert würde, wenn der Prozess abgeschlossen wäre.
 
-Diese Technik funktioniert möglicherweise nicht für jedes Dokument oder schlägt vollständig fehl.
+Diese Technik funktioniert möglicherweise nicht bei jedem Dokument oder schlägt vollständig fehl.
 
 ## Beispiele
 
-Zeigt, wie Layoutänderungen mit einem Layout-Callback verfolgt werden.
+Zeigt, wie Layoutänderungen mit einem Layout-Rückruf verfolgt werden.
 
 ```csharp
 public void PageLayoutCallback()
@@ -53,7 +53,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Benachrichtigt uns, wenn wir das Dokument in einem festen Seitenformat speichern
-/// und rendert eine Seite, auf der wir einen Seiten-Reflow durchführen, in ein Bild im lokalen Dateisystem.
+/// und rendert eine Seite, auf der wir einen Seitenumbruch in ein Bild im lokalen Dateisystem durchführen.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

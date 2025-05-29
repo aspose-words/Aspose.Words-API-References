@@ -3,14 +3,14 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Saving.BookmarksOutlineLevelCollection classe. Una raccolta di singoli segnalibri a livello di struttura in C#.
+description: Scopri la classe Aspose.Words.Saving.BookmarksOutlineLevelCollection: un potente strumento per gestire i segnalibri e migliorare la navigazione nei documenti senza sforzo.
 type: docs
-weight: 4850
+weight: 5590
 url: /it/net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
 
-Una raccolta di singoli segnalibri a livello di struttura.
+Una raccolta di segnalibri individuali di livello strutturato.
 
 Per saperne di più, visita il[Lavorare con i segnalibri](https://docs.aspose.com/words/net/working-with-bookmarks/) articolo di documentazione.
 
@@ -38,16 +38,16 @@ public class BookmarksOutlineLevelCollection : IEnumerable<KeyValuePair<string, 
 | [Add](../../aspose.words.saving/bookmarksoutlinelevelcollection/add/)(*string, int*) | Aggiunge un segnalibro alla raccolta. |
 | [Clear](../../aspose.words.saving/bookmarksoutlinelevelcollection/clear/)() | Rimuove tutti gli elementi dalla raccolta. |
 | [Contains](../../aspose.words.saving/bookmarksoutlinelevelcollection/contains/)(*string*) | Determina se la raccolta contiene un segnalibro con il nome specificato. |
-| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi della raccolta. |
-| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Restituisce l'indice in base zero del segnalibro specificato nella raccolta. |
+| [GetEnumerator](../../aspose.words.saving/bookmarksoutlinelevelcollection/getenumerator/)() | Restituisce un oggetto enumeratore che può essere utilizzato per scorrere tutti gli elementi nella raccolta. |
+| [IndexOfKey](../../aspose.words.saving/bookmarksoutlinelevelcollection/indexofkey/)(*string*) | Restituisce l'indice basato su zero del segnalibro specificato nella raccolta. |
 | [Remove](../../aspose.words.saving/bookmarksoutlinelevelcollection/remove/)(*string*) | Rimuove un segnalibro con il nome specificato dalla raccolta. |
 | [RemoveAt](../../aspose.words.saving/bookmarksoutlinelevelcollection/removeat/)(*int*) | Rimuove un segnalibro all'indice specificato. |
 
 ## Osservazioni
 
-Key è un nome di segnalibro stringa senza distinzione tra maiuscole e minuscole. Il valore è un livello di struttura del segnalibro int.
+La chiave è un nome di segnalibro stringa senza distinzione tra maiuscole e minuscole. Il valore è un livello di struttura del segnalibro int.
 
-Il livello della struttura del segnalibro può essere un valore compreso tra 0 e 9. Specifica 0 e il segnalibro di Word non verrà visualizzato nella struttura del documento. Specifica 1 e il segnalibro di Word verrà visualizzato nella struttura del documento al livello 1; 2 per il livello 2 e così via.
+Il livello di struttura del segnalibro può essere un valore compreso tra 0 e 9. Specificando 0, il segnalibro di Word non verrà visualizzato nella struttura del documento. Specificando 1, il segnalibro di Word verrà visualizzato nella struttura del documento al livello 1; 2 per il livello 2 e così via.
 
 ## Esempi
 
@@ -57,7 +57,7 @@ Mostra come impostare i livelli di struttura per i segnalibri.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un segnalibro con un altro segnalibro nidificato al suo interno.
+// Inserisce un segnalibro con un altro segnalibro annidato al suo interno.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -73,9 +73,9 @@ builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// Quando si salva in .pdf, è possibile accedere ai segnalibri tramite un menu a discesa e utilizzarli come ancoraggi dalla maggior parte dei lettori.
+// Salvando in formato .pdf, i segnalibri sono accessibili tramite un menu a discesa e possono essere utilizzati come punti di riferimento dalla maggior parte dei lettori.
 // I segnalibri possono anche avere valori numerici per i livelli di struttura,
-// abilita le voci di struttura di livello inferiore per nascondere le voci secondarie di livello superiore quando vengono compresse nel lettore.
+// abilita le voci di struttura di livello inferiore per nascondere le voci figlio di livello superiore quando compresse nel lettore.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -100,7 +100,7 @@ outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Lo svuotamento di questa raccolta conserverà i segnalibri e li metterà tutti sullo stesso livello di struttura.
+// Svuotando questa raccolta i segnalibri verranno conservati e tutti verranno inseriti nello stesso livello di struttura.
 outlineLevels.Clear();
 ```
 

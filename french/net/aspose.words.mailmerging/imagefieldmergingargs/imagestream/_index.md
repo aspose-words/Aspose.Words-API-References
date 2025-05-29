@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.ImageStream
 linktitle: ImageStream
 articleTitle: ImageStream
 second_title: Aspose.Words pour .NET
-description: ImageFieldMergingArgs ImageStream propriété. Spécifie le flux à partir duquel le moteur de publipostage doit lire une image en C#.
+description: Découvrez comment la propriété ImageFieldMergingArgs ImageStream améliore votre publipostage en intégrant de manière transparente des images pour des résultats professionnels.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/imagefieldmergingargs/imagestream/
@@ -38,7 +38,7 @@ public void ImageFromBlob()
     {
         conn.Open();
 
-        // Ouvrez le lecteur de données, qui doit être dans un mode permettant de lire tous les enregistrements en même temps.
+        // Ouvrez le lecteur de données, qui doit être dans un mode qui lit tous les enregistrements à la fois.
         OleDbCommand cmd = new OleDbCommand(query, conn);
         IDataReader dataReader = cmd.ExecuteReader();
 
@@ -52,11 +52,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Ne fais rien.
+        // Ne rien faire.
     }
 
     /// <summary>
-    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise "Image:" dans son nom.
+    /// Ceci est appelé lorsqu'un publipostage rencontre un MERGEFIELD dans le document avec une balise « Image : » dans son nom.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

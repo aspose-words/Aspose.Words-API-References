@@ -3,14 +3,14 @@ title: FontConfigSubstitutionRule.IsFontConfigAvailable
 linktitle: IsFontConfigAvailable
 articleTitle: IsFontConfigAvailable
 second_title: Aspose.Words para .NET
-description: FontConfigSubstitutionRule IsFontConfigAvailable método. Compruebe si la utilidad fontconfig está disponible o no en C#.
+description: Descubra si la utilidad FontConfig está disponible con el método IsFontConfigAvailable. Asegúrese de gestionar las fuentes de sus aplicaciones de forma óptima.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/fontconfigsubstitutionrule/isfontconfigavailable/
 ---
 ## FontConfigSubstitutionRule.IsFontConfigAvailable method
 
-Compruebe si la utilidad fontconfig está disponible o no.
+Comprueba si la utilidad fontconfig está disponible o no.
 
 ```csharp
 public bool IsFontConfigAvailable()
@@ -28,7 +28,7 @@ FontConfigSubstitutionRule fontConfigSubstitution =
 bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32Windows, PlatformID.WinCE}
     .Any(p => Environment.OSVersion.Platform == p);
 
-// El objeto FontConfigSubstitutionRule funciona de forma diferente en plataformas Windows o no Windows.
+// El objeto FontConfigSubstitutionRule funciona de manera diferente en plataformas Windows y no Windows.
 // En Windows, no está disponible.
 if (isWindows)
 {

@@ -3,14 +3,14 @@ title: FontSubstitutionSettings.DefaultFontSubstitution
 linktitle: DefaultFontSubstitution
 articleTitle: DefaultFontSubstitution
 second_title: Aspose.Words per .NET
-description: FontSubstitutionSettings DefaultFontSubstitution proprietà. Impostazioni relative alla regola di sostituzione dei caratteri predefinita in C#.
+description: Scopri come la proprietà DefaultFontSubstitution ottimizza le impostazioni dei font per una tipografia impeccabile. Migliora il tuo design con efficaci regole di sostituzione dei font.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/fontsubstitutionsettings/defaultfontsubstitution/
 ---
 ## FontSubstitutionSettings.DefaultFontSubstitution property
 
-Impostazioni relative alla regola di sostituzione dei caratteri predefinita.
+Impostazioni relative alla regola di sostituzione del font predefinito.
 
 ```csharp
 public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
@@ -18,7 +18,7 @@ public DefaultFontSubstitutionRule DefaultFontSubstitution { get; }
 
 ## Esempi
 
-Mostra come impostare la regola di sostituzione dei caratteri predefinita.
+Mostra come impostare la regola predefinita per la sostituzione dei font.
 
 ```csharp
 Document doc = new Document();
@@ -26,16 +26,16 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // Ottieni la regola di sostituzione predefinita in FontSettings.
-// Questa regola sostituirà tutti i caratteri mancanti con "Times New Roman".
+// Questa regola sostituirà tutti i font mancanti con "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// Imposta il carattere sostitutivo predefinito su "Courier New".
+// Imposta il sostituto del font predefinito su "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// Usando un generatore di documenti, aggiungi del testo in un carattere che non è necessario per vedere avvenire la sostituzione,
+// Utilizzando un generatore di documenti, aggiungi del testo in un font di cui non abbiamo bisogno per vedere la sostituzione avvenire,
 // e quindi visualizzare il risultato in un PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportCidUrlsForMhtmlResources
 linktitle: ExportCidUrlsForMhtmlResources
 articleTitle: ExportCidUrlsForMhtmlResources
 second_title: Aspose.Words لـ .NET
-description: HtmlSaveOptions ExportCidUrlsForMhtmlResources ملكية. يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID معرف المحتوى للإشارة إلى الموارد الصور والخطوط وCSS المضمنة في مستندات MHTML . القيمة الافتراضية هيخطأ شنيع  في C#.
+description: اكتشف كيف يُحسّن ExportCidUrlsForMhtmlResources من HtmlSaveOptions مستندات MHTML من خلال تفعيل عناوين URL الخاصة بـ CID للصور والخطوط وCSS. افتراضيًا، خطأ.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/htmlsaveoptions/exportcidurlsformhtmlresources/
 ---
 ## HtmlSaveOptions.ExportCidUrlsForMhtmlResources property
 
-يحدد ما إذا كان سيتم استخدام عناوين URL لـ CID (معرف المحتوى) للإشارة إلى الموارد (الصور والخطوط وCSS) المضمنة في مستندات MHTML . القيمة الافتراضية هي`خطأ شنيع` .
+يُحدد ما إذا كان سيتم استخدام عناوين URL لمعرف المحتوى (CID) للإشارة إلى الموارد (الصور، الخطوط، CSS) المضمنة في مستندات MHTML . القيمة الافتراضية هي`خطأ شنيع` .
 
 ```csharp
 public bool ExportCidUrlsForMhtmlResources { get; set; }
@@ -18,13 +18,13 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 
 ## ملاحظات
 
-يؤثر هذا الخيار فقط على المستندات التي يتم حفظها في MHTML.
+يؤثر هذا الخيار فقط على المستندات المحفوظة بتنسيق MHTML.
 
-افتراضيًا، تتم الإشارة إلى الموارد في مستندات MHTML بواسطة اسم الملف (على سبيل المثال، "image.png")، والتي تتم مطابقة مع رؤوس "Content-Location" لأجزاء MIME.
+بشكل افتراضي، تتم الإشارة إلى الموارد في مستندات MHTML حسب اسم الملف (على سبيل المثال، "image.png")، والتي تتم مطابقتها مع رؤوس "Content-Location" لأجزاء MIME.
 
-يتيح هذا الخيار طريقة بديلة، حيث تتم كتابة المراجع إلى ملفات الموارد على هيئة عناوين URL لـ CID (Content-ID) (على سبيل المثال، "cid:image.png") وتتم مطابقتها مع رؤوس "Content-ID".
+يتيح هذا الخيار طريقة بديلة، حيث تتم كتابة المراجع إلى ملفات الموارد كعناوين URL CID (Content-ID) (على سبيل المثال، "cid:image.png") ويتم مطابقتها مع رؤوس "Content-ID".
 
-من الناحية النظرية، يجب ألا يكون هناك فرق بين الطريقتين المرجعيتين ويجب أن تعمل أي منهما بشكل جيد في أي متصفح أو وكيل بريد. ومع ذلك، في الممارسة العملية، يفشل بعض الوكلاء في جلب الموارد حسب اسم الملف. إذا رفض متصفح أو وكيل البريد تحميل الموارد المضمنة في مستند MTHML (لا يعرض الصور أو لا يقوم بتحميل أنماط CSS)، فحاول تصدير المستند باستخدام عناوين URL الخاصة بـ CID.
+نظريًا، لا ينبغي أن يكون هناك فرق بين طريقتي الإشارة، ويجب أن تعمل أي منهما بشكل جيد في أي متصفح أو وكيل بريد. مع ذلك، عمليًا، تفشل بعض الوكلاء في جلب الموارد حسب اسم الملف. إذا رفض متصفحك أو وكيل بريدك تحميل الموارد المضمنة في مستند MTHML (لا يعرض صورًا أو لا يحمل أنماط CSS)، فحاول تصدير المستند باستخدام عناوين URL لمعرفات CID.
 
 ## أمثلة
 
@@ -33,8 +33,8 @@ public bool ExportCidUrlsForMhtmlResources { get; set; }
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// سيؤدي تعيين هذه العلامة إلى استبدال علامات "موقع المحتوى".
-// مع علامات "معرف المحتوى" لكل مورد من مستند الإدخال.
+// سيؤدي تعيين هذا العلم إلى استبدال علامات "المحتوى-الموقع"
+// مع علامات "Content-ID" لكل مورد من مستند الإدخال.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Mhtml)
 {
     ExportCidUrlsForMhtmlResources = exportCidUrlsForMhtmlResources,

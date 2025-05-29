@@ -2,8 +2,8 @@
 title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: Aspose.Words for .NET
-description: ChartYValueCollection Count mülk. Bu koleksiyondaki öğelerin sayısını alır C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş veri yönetimi için veri koleksiyonunuzdaki toplam öğe sayısına kolayca erişmek amacıyla ChartYValueCollection Count özelliğini keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/count/

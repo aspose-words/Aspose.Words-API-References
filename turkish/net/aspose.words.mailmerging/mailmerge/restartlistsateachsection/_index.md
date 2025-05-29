@@ -2,15 +2,15 @@
 title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
-second_title: Aspose.Words for .NET
-description: MailMerge RestartListsAtEachSection mülk. Adresmektup birleştirme yürütüldükten sonra her bölümde listelerin yeniden başlatılıp başlatılmayacağını belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: MailMerge RestartListsAtEachSection özelliğini keşfedin; sorunsuz posta birleştirmeleri için her bölümde kontrol listesi sıfırlanır. Belgenizin hassasiyetini bugün artırın!
 type: docs
 weight: 110
 url: /tr/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-Adres-mektup birleştirme yürütüldükten sonra her bölümde listelerin yeniden başlatılıp başlatılmayacağını belirten bir değer alır veya ayarlar.
+Bir posta birleştirmenin yürütülmesinden sonra listelerin her bölümde yeniden başlatılıp başlatılmayacağını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`doğru` .
 
 ## Örnekler
 
-Adres-mektup birleştirme gerçekleştirilirken her bölümde liste numaralandırmanın yeniden başlatılıp başlatılmayacağının nasıl denetleneceğini gösterir.
+Posta birleştirme işlemi gerçekleştirildiğinde liste numaralandırmasının her bölümde yeniden başlatılıp başlatılmayacağının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

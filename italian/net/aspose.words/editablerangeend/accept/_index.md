@@ -3,7 +3,7 @@ title: EditableRangeEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words per .NET
-description: EditableRangeEnd Accept metodo. Accetta un visitatore in C#.
+description: Scopri il metodo EditableRangeEnd Accept per gestire in modo fluido le interazioni dei visitatori e migliorare la funzionalità della tua applicazione web.
 type: docs
 weight: 40
 url: /it/net/aspose.words/editablerangeend/accept/
@@ -18,7 +18,7 @@ public override bool Accept(DocumentVisitor visitor)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| visitor | DocumentVisitor | Il visitatore che visiterà il node. |
+| visitor | DocumentVisitor | Il visitatore che visiterà il nodo. |
 
 ### Valore di ritorno
 
@@ -26,9 +26,9 @@ public override bool Accept(DocumentVisitor visitor)
 
 ## Osservazioni
 
-Chiamate[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
+chiamate[`VisitEditableRangeEnd`](../../documentvisitor/visiteditablerangeend/).
 
-Per maggiori informazioni vedere il modello di progettazione Visitor.
+Per maggiori informazioni, vedere il design pattern Visitor.
 
 ## Esempi
 
@@ -44,9 +44,9 @@ public void Visitor()
     builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                     " we cannot edit this paragraph without the password.");
 
-    // Quando proteggiamo i documenti dalla scrittura, gli intervalli modificabili ci consentono di scegliere aree specifiche che gli utenti possono modificare.
-    // Esistono due modi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
-    // 1 - Specifica un utente:
+    // Quando proteggiamo i documenti da scrittura, gli intervalli modificabili ci consentono di selezionare aree specifiche che gli utenti possono modificare.
+    // Esistono due metodi reciprocamente esclusivi per restringere l'elenco degli editor consentiti.
+    // 1 - Specificare un utente:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -54,7 +54,7 @@ public void Visitor()
 
     Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
 
-    // 2 - Specificare un gruppo a cui sono associati gli utenti autorizzati:
+    // 2 - Specifica un gruppo a cui sono associati gli utenti autorizzati:
     editableRange = builder.StartEditableRange().EditableRange;
     editableRange.EditorGroup = EditorType.Administrators;
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Raccoglie le proprietà e il contenuto degli intervalli modificabili visitati in una stringa.
+/// Raccoglie le proprietà e i contenuti degli intervalli modificabili visitati in una stringa.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui. Questo visitatore registra solo le esecuzioni che rientrano negli intervalli modificabili.
+    /// Chiamato quando viene rilevato un nodo Esegui nel documento. Questo visitatore registra solo le esecuzioni che rientrano in intervalli modificabili.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

@@ -2,15 +2,15 @@
 title: ContinuousSectionRestart Enum
 linktitle: ContinuousSectionRestart
 articleTitle: ContinuousSectionRestart
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Layout.ContinuousSectionRestart Sıralama. Sayfa numaralandırmayı yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Sürekli bölümlerde esnek sayfa numaralandırma seçenekleri için Aspose.Words.Layout.ContinuousSectionRestart enumunu keşfedin. Belge düzenini zahmetsizce geliştirin!
 type: docs
-weight: 3300
+weight: 3750
 url: /tr/net/aspose.words.layout/continuoussectionrestart/
 ---
 ## ContinuousSectionRestart enumeration
 
-Sayfa numaralandırmayı yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder.
+Sayfa numaralandırmasını yeniden başlatan sürekli bir bölümde sayfa numaralarını hesaplarken farklı davranışları temsil eder.
 
 ```csharp
 public enum ContinuousSectionRestart
@@ -20,19 +20,19 @@ public enum ContinuousSectionRestart
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Always | `0` | Sayfa numaralandırma, içerik akışından bağımsız olarak her zaman yeniden başlar. |
-| FromNewPageOnly | `1` | Sayfa numaralandırma, yalnızca bölümün başladığı sayfada bölümden önce başka içerik bulunmadığında yeniden başlar. |
+| Always | `0` | İçerik akışından bağımsız olarak sayfa numaralandırma her zaman yeniden başlar. |
+| FromNewPageOnly | `1` | Sayfa numaralandırması yalnızca bölümün başladığı sayfadaki bölümden önce başka içerik yoksa yeniden başlar. |
 
 ## Örnekler
 
-Sürekli bir bölümde sayfa numaralandırmanın nasıl kontrol edileceğini gösterir.
+Sürekli bir bölümde sayfa numaralandırmasının nasıl kontrol edileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Continuous section page numbering.docx");
 
 // Varsayılan olarak Aspose.Words davranışı Microsoft Word 2019 ile eşleşir.
-// Eski Aspose.Words davranışına, tekrarlayan Microsoft Word 2016'ya ihtiyacınız varsa, 'ContinuousSectionRestart.FromNewPageOnly'yi kullanın.
-// Sayfa numaralandırma ancak bölümün başladığı sayfada bölümden önce başka içerik kalmadığında yeniden başlar,
+// Eski Aspose.Words davranışına, tekrarlayan Microsoft Word 2016'ya ihtiyacınız varsa, 'ContinuousSectionRestart.FromNewPageOnly' kullanın.
+// Sayfa numaralandırması yalnızca bölümün başladığı sayfadaki bölümden önce başka bir içerik yoksa yeniden başlar,
 // bu nedenle numaralandırma ikinci sayfadan itibaren 2'ye sıfırlanacaktır.
 doc.LayoutOptions.ContinuousSectionPageNumberingRestart = ContinuousSectionRestart.FromNewPageOnly;
 doc.UpdatePageLayout();

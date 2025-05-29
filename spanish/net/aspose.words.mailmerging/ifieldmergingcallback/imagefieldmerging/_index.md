@@ -3,7 +3,7 @@ title: IFieldMergingCallback.ImageFieldMerging
 linktitle: ImageFieldMerging
 articleTitle: ImageFieldMerging
 second_title: Aspose.Words para .NET
-description: IFieldMergingCallback ImageFieldMerging método. Se llama cuando el motor de combinación de correspondencia Aspose.Words está a punto de insertar una imagen en un campo de combinación en C#.
+description: Descubra el método ImageFieldMerging en IFieldMergingCallback, diseñado para la inserción fluida de imágenes en la combinación de correspondencia de Aspose.Words. ¡Mejore la automatización de sus documentos!
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/ifieldmergingcallback/imagefieldmerging/
@@ -18,7 +18,7 @@ public void ImageFieldMerging(ImageFieldMergingArgs args)
 
 ## Ejemplos
 
-Muestra cómo insertar imágenes almacenadas en un campo BLOB de la base de datos en un informe.
+Muestra cómo insertar imágenes almacenadas en un campo BLOB de base de datos en un informe.
 
 ```csharp
 public void ImageFromBlob()
@@ -48,11 +48,11 @@ private class HandleMergeImageFieldFromBlob : IFieldMergingCallback
 {
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
-        // Hacer nada.
+        //No hacer nada.
     }
 
     /// <summary>
-    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Imagen:" en su nombre.
+    /// Esto se llama cuando una combinación de correspondencia encuentra un MERGEFIELD en el documento con una etiqueta "Image:" en su nombre.
     /// </summary>
     void IFieldMergingCallback.ImageFieldMerging(ImageFieldMergingArgs e)
     {

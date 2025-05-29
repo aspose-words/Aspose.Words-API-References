@@ -3,14 +3,14 @@ title: Body.ParentSection
 linktitle: ParentSection
 articleTitle: ParentSection
 second_title: Aspose.Words per .NET
-description: Body ParentSection proprietà. Ottiene la sezione principale di questa storia in C#.
+description: Scopri la proprietà Body ParentSection per accedere facilmente alla sezione padre di un articolo e migliorare l'efficienza della gestione dei contenuti.
 type: docs
 weight: 30
 url: /it/net/aspose.words/body/parentsection/
 ---
 ## Body.ParentSection property
 
-Ottiene la sezione principale di questa storia.
+Ottiene la sezione padre di questa storia.
 
 ```csharp
 public Section ParentSection { get; }
@@ -22,7 +22,7 @@ public Section ParentSection { get; }
 
 ## Esempi
 
-Mostra come memorizzare le note di chiusura alla fine di ogni sezione e modificare le loro posizioni.
+Mostra come memorizzare le note di chiusura alla fine di ogni sezione e modificarne la posizione.
 
 ```csharp
 public void SuppressEndnotes()
@@ -41,9 +41,9 @@ public void SuppressEndnotes()
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Mentre facciamo in modo che le sezioni visualizzino le rispettive note di chiusura, possiamo impostare il flag "SuppressEndnotes".
-    // dell'oggetto "PageSetup" di una sezione su "true" per ripristinare il comportamento predefinito e passare le relative note di chiusura
-    // alla sezione successiva.
+    // Mentre otteniamo che le sezioni visualizzino le rispettive note di chiusura, possiamo impostare il flag "SuppressEndnotes"
+    // dell'oggetto "PageSetup" di una sezione su "true" per ripristinare il comportamento predefinito e passare le sue note di chiusura
+    // passiamo alla sezione successiva.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -51,7 +51,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// Aggiunge una sezione con testo e una nota di chiusura a un documento.
+/// Aggiungere una sezione con testo e una nota di chiusura a un documento.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

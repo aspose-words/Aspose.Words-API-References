@@ -3,7 +3,7 @@ title: Cluster
 linktitle: Cluster
 articleTitle: Cluster
 second_title: Aspose.Words pour .NET
-description: Cluster constructeur. Initialise une nouvelle instance de cette classe en C#.
+description: Créez facilement de puissantes instances de cluster grâce à notre constructeur. Optimisez l'efficacité et l'évolutivité de votre projet dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.shaping/cluster/cluster/

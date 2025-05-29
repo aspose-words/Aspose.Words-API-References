@@ -3,9 +3,9 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.MailMergeDataType opsomming. Gibt den Typ einer externen SerienbriefDatenquelle an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.MailMergeDataType für die nahtlose Integration externer Datenquellen in Ihre Dokumentautomatisierungsprojekte.
 type: docs
-weight: 5820
+weight: 6650
 url: /de/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
@@ -20,14 +20,14 @@ public enum MailMergeDataType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| None | `-1` | Es ist keine Serienbrief-Datenquelle angegeben. |
+| None | `-1` | Es wurde keine Serienbrief-Datenquelle angegeben. |
 | TextFile | `0` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Textdatei verbunden wurde. |
 | Database | `1` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Access-Datenbank verbunden wurde. |
 | Spreadsheet | `2` | Gibt an, dass ein bestimmtes Dokument über das Dynamic Data Exchange (DDE)-System mit einer Excel-Tabelle verbunden wurde. |
-| Query | `3` | Gibt an, dass ein bestimmtes Dokument über ein externes Abfragetool mit einer externen Datenquelle verbunden wurde. |
+| Query | `3` | Gibt an, dass ein bestimmtes Dokument mithilfe eines externen Abfragetools mit einer externen Datenquelle verbunden wurde. |
 | Odbc | `4` | Gibt an, dass ein bestimmtes Dokument über die Open Database Connectivity-Schnittstelle mit einer externen Datenquelle verbunden wurde. |
 | Native | `5` | Gibt an, dass ein bestimmtes Dokument über die Office Data Source Object (ODSO)-Schnittstelle mit einer externen Datenquelle verbunden wurde. |
-| Default | `-1` | EntsprichtNone . |
+| Default | `-1` | Ist gleichNone . |
 
 ## Beispiele
 
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -74,7 +74,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

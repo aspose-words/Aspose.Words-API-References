@@ -3,7 +3,7 @@ title: FolderFontSource.FolderPath
 linktitle: FolderPath
 articleTitle: FolderPath
 second_title: Aspose.Words para .NET
-description: FolderFontSource FolderPath propiedad. Ruta a la carpeta en C#.
+description: Descubre la propiedad FolderFontSource FolderPath para acceder fácilmente a tu carpeta de fuentes. ¡Optimiza tu flujo de trabajo de diseño hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.fonts/folderfontsource/folderpath/
@@ -18,10 +18,10 @@ public string FolderPath { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar una carpeta del sistema local que contiene fuentes como fuente de fuentes.
+Muestra cómo utilizar una carpeta de sistema local que contiene fuentes como fuente de fuentes.
 
 ```csharp
-// Crea una fuente de fuente desde una carpeta que contiene archivos de fuentes.
+// Crea una fuente de fuente desde una carpeta que contiene archivos de fuente.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

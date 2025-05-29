@@ -3,7 +3,7 @@ title: CustomPart
 linktitle: CustomPart
 articleTitle: CustomPart
 second_title: Aspose.Words para .NET
-description: CustomPart constructor. Constructor predeterminado en C#.
+description: Descubra el constructor CustomPart, su solución ideal para componentes a medida. ¡Desbloquee la eficiencia y la precisión en sus proyectos hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/custompart/custompart/

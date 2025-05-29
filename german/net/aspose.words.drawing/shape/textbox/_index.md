@@ -3,9 +3,9 @@ title: Shape.TextBox
 linktitle: TextBox
 articleTitle: TextBox
 second_title: Aspose.Words für .NET
-description: Shape TextBox eigendom. Definiert Attribute die angeben wie Text in einer Form angezeigt wird in C#.
+description: Passen Sie die Eigenschaften Ihrer Shape-TextBox an, um die Textanzeige zu verbessern und die visuelle Attraktivität Ihrer Designs zu steigern. Entfesseln Sie noch heute Ihr kreatives Potenzial!
 type: docs
-weight: 220
+weight: 230
 url: /de/net/aspose.words.drawing/shape/textbox/
 ---
 ## Shape.TextBox property
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// Verschieben Sie den Dokument-Builder in die TextBox und fügen Sie Text hinzu.
+// Verschieben Sie den Dokumentgenerator in das Textfeld und fügen Sie Text hinzu.
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

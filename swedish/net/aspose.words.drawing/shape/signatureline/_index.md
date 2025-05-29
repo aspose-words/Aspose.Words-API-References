@@ -3,14 +3,14 @@ title: Shape.SignatureLine
 linktitle: SignatureLine
 articleTitle: SignatureLine
 second_title: Aspose.Words för .NET
-description: Shape SignatureLine fast egendom. BlirSignatureLine objekt om formen är en signaturlinje. Returnerarnull annars i C#.
+description: Upptäck hur du får åtkomst till SignatureLine-objektet för dina former. Identifiera enkelt signaturrader och förbättra ditt dokuments professionalism!
 type: docs
-weight: 160
+weight: 170
 url: /sv/net/aspose.words.drawing/shape/signatureline/
 ---
 ## Shape.SignatureLine property
 
-Blir[`SignatureLine`](../../signatureline/) objekt om formen är en signaturlinje. Returnerar`null` annars.
+Får[`SignatureLine`](../../signatureline/) objekt om formen är en signaturrad. Returnerar`null` annars.
 
 ```csharp
 public SignatureLine SignatureLine { get; }
@@ -18,7 +18,7 @@ public SignatureLine SignatureLine { get; }
 
 ## Anmärkningar
 
-Du kan infoga nya[`SignatureLine`](../../signatureline/) in i dokumentet med hjälp av[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) och
+Du kan lägga in nya[`SignatureLine`](../../signatureline/) in i dokumentet med hjälp av[`InsertSignatureLine`](../../../aspose.words/documentbuilder/insertsignatureline/) och
 
 ## Exempel
 
@@ -39,16 +39,16 @@ SignatureLineOptions options = new SignatureLineOptions
     SignerTitle = "Senior Manager"
 };
 
-// Infoga en form som kommer att innehålla en signaturlinje, vars utseende vi kommer att göra
-// anpassa med "SignatureLineOptions"-objektet vi har skapat ovan.
-// Om vi infogar en form vars koordinater kommer från det nedre högra hörnet på sidan,
-// vi kommer att behöva ange negativa x- och y-koordinater för att få formen att synas.
-Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0, 
+// Infoga en form som ska innehålla en signaturrad, vars utseende vi kommer att
+// anpassa med hjälp av objektet "SignatureLineOptions" som vi skapade ovan.
+// Om vi infogar en form vars koordinater har sitt ursprung i sidans nedre högra hörn,
+// vi måste ange negativa x- och y-koordinater för att få formen att synas.
+Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
 Assert.True(shape.IsSignatureLine);
 
-// Verifiera egenskaperna för vår signaturlinje via dess Shape-objekt.
+// Verifiera egenskaperna för vår signaturrad via dess Shape-objekt.
 SignatureLine signatureLine = shape.SignatureLine;
 
 Assert.AreEqual("john.doe@management.com", signatureLine.Email);

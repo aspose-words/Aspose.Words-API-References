@@ -3,14 +3,14 @@ title: UserInformation.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words لـ .NET
-description: UserInformation Name ملكية. الحصول على اسم المستخدم أو تعيينه في C#.
+description: أدر ملفات تعريف المستخدمين بسهولة باستخدام خاصية اسم معلومات المستخدم. استرجاع أسماء المستخدمين أو تحديثها بسهولة لتحسين التخصيص.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/userinformation/name/
 ---
 ## UserInformation.Name property
 
-الحصول على اسم المستخدم أو تعيينه.
+يحصل على اسم المستخدم أو يعينه.
 
 ```csharp
 public string Name { get; set; }
@@ -24,7 +24,7 @@ public string Name { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء كائن معلومات المستخدم وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
+// قم بإنشاء كائن UserInformation وقم بتعيينه كمصدر بيانات للحقول التي تعرض معلومات المستخدم.
 UserInformation userInformation = new UserInformation
 {
     Name = "John Doe",
@@ -33,13 +33,13 @@ UserInformation userInformation = new UserInformation
 };
 doc.FieldOptions.CurrentUser = userInformation;
 
-// أدخل حقول اسم المستخدم، ومعلومات المستخدم، وعنوان المستخدم، التي تعرض قيم
- // الخصائص الخاصة بكائن UserInformation الذي قمنا بإنشائه أعلاه.
+// أدخل حقول اسم المستخدم، والأحرف الأولى للمستخدم، وعنوان المستخدم، والتي تعرض قيم
+ // الخصائص الخاصة بكائن UserInformation الذي أنشأناه أعلاه.
 Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
 Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
 Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
 
-// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن أن تشير إليه الحقول من جميع المستندات.
+// يحتوي كائن خيارات الحقل أيضًا على مستخدم افتراضي ثابت يمكن للحقول من كافة المستندات الرجوع إليه.
 UserInformation.DefaultUser.Name = "Default User";
 UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";

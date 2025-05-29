@@ -2,15 +2,15 @@
 title: MarkupLevel Enum
 linktitle: MarkupLevel
 articleTitle: MarkupLevel
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.MarkupLevel Sıralama. Belge ağacında belirli bir öğenin bulunduğu düzeyi belirtir.StructuredDocumentTag oluşabilir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş organizasyon ve kontrol için StructuredDocumentTags'in belge ağacınızda nereye yerleştirileceğini tanımlayan Aspose.Words.Markup.MarkupLevel enum'unu keşfedin.
 type: docs
-weight: 3980
+weight: 4670
 url: /tr/net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
 
-Belge ağacında belirli bir öğenin bulunduğu düzeyi belirtir.[`StructuredDocumentTag`](../structureddocumenttag/) oluşabilir.
+Belirli bir belgenin bulunduğu belge ağacındaki düzeyi belirtir.[`StructuredDocumentTag`](../structureddocumenttag/) meydana gelebilir.
 
 ```csharp
 public enum MarkupLevel
@@ -21,26 +21,26 @@ public enum MarkupLevel
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Unknown | `0` | Bilinmeyen veya geçersiz değeri belirtir. |
-| Inline | `1` | Öğe satır içi düzeyde oluşur (örneğin metin dizileri arasında). |
-| Block | `2` | Öğe blok düzeyinde oluşur (örn. tablolar ve paragraflar arasında). |
-| Row | `3` | Öğe, tablodaki satırlar arasında bulunur. |
-| Cell | `4` | Öğe, satırdaki hücreler arasında bulunur. |
+| Inline | `1` | Öğe satır içi düzeyde (örneğin metin çalıştırmaları arasında) oluşur. |
+| Block | `2` | Öğe blok düzeyinde (örneğin tablolar ve paragraflar arasında) meydana gelir. |
+| Row | `3` | Öğe bir tablonun satırları arasında yer alır. |
+| Cell | `4` | Öğe bir satırdaki hücreler arasında meydana gelir. |
 
 ## Örnekler
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

@@ -3,7 +3,7 @@ title: Node.ToString
 linktitle: ToString
 articleTitle: ToString
 second_title: Aspose.Words per .NET
-description: Node ToString metodo. Esporta il contenuto del nodo in una stringa nel formato specificato in C#.
+description: Scopri il metodo Node ToString e converti facilmente il contenuto dei nodi in stringhe con formati personalizzabili per una migliore gestione dei dati. Ottimizza il tuo codice oggi stesso!
 type: docs
 weight: 160
 url: /it/net/aspose.words/node/tostring/
@@ -22,7 +22,7 @@ Il contenuto del nodo nel formato specificato.
 
 ## Esempi
 
-Mostra la differenza tra la chiamata ai metodi GetText e ToString su un nodo.
+Mostra la differenza tra la chiamata dei metodi GetText e ToString su un nodo.
 
 ```csharp
 Document doc = new Document();
@@ -31,21 +31,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText recupererà il testo visibile, nonché i codici di campo e i caratteri speciali.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc.GetText());
+Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
 
-// ToString ci darà l'aspetto del documento se salvato in un formato di salvataggio superato.
-Assert.AreEqual("«Field»\r\n", doc.ToString(SaveFormat.Text));
+// ToString ci fornirà l'aspetto del documento se salvato in un formato di salvataggio trasmesso.
+Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
 ```
 
-Esporta il contenuto di un nodo in String in formato HTML.
+Esporta il contenuto di un nodo in formato String in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Quando chiamiamo il metodo ToString utilizzando l'overload html SaveFormat,
-// converte i contenuti del nodo nella loro rappresentazione html grezza.
+// Quando chiamiamo il metodo ToString utilizzando il sovraccarico html SaveFormat,
+// converte il contenuto del nodo nella sua rappresentazione HTML grezza.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));
@@ -59,7 +59,7 @@ Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\
                 "</p>", node.ToString(saveOptions));
 ```
 
-Mostra come estrarre le etichette dell'elenco di tutti i paragrafi che sono elementi dell'elenco.
+Mostra come estrarre le etichette di elenco di tutti i paragrafi che sono elementi di elenco.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -67,21 +67,21 @@ doc.UpdateListLabels();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-// Trova se abbiamo l'elenco dei paragrafi. Nel nostro documento, l'elenco utilizza semplici numeri arabi,
-// che inizia alle tre e finisce alle sei.
-foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+// Verifica se abbiamo l'elenco dei paragrafi. Nel nostro documento, l'elenco utilizza numeri arabi semplici,
+// che iniziano alle tre e finiscono alle sei.
+foreach (Paragraph paragraph in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 {
     Console.WriteLine($"List item paragraph #{paras.IndexOf(paragraph)}");
 
-    // Questo è il testo che otteniamo quando restituiamo questo nodo in formato testo.
-     // Questo output di testo ometterà le etichette dell'elenco. Taglia eventuali caratteri di formattazione del paragrafo.
+    // Questo è il testo che otteniamo quando convertiamo questo nodo in formato testo.
+     // Questo output di testo ometterà le etichette degli elenchi. Eliminare eventuali caratteri di formattazione del paragrafo.
     string paragraphText = paragraph.ToString(SaveFormat.Text).Trim();
     Console.WriteLine($"\tExported Text: {paragraphText}");
 
     ListLabel label = paragraph.ListLabel;
 
     // Questo ottiene la posizione del paragrafo nel livello corrente dell'elenco. Se abbiamo un elenco con più livelli,
-    // questo ci dirà quale posizione è su quel livello.
+    // questo ci dirà quale posizione si trova a quel livello.
     Console.WriteLine($"\tNumerical Id: {label.LabelValue}");
 
     // Combinali insieme per includere l'etichetta dell'elenco con il testo nell'output.
@@ -116,15 +116,15 @@ Il contenuto del nodo nel formato specificato.
 
 ## Esempi
 
-Esporta il contenuto di un nodo in String in formato HTML.
+Esporta il contenuto di un nodo in formato String in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
 Node node = doc.LastSection.Body.LastParagraph;
 
-// Quando chiamiamo il metodo ToString utilizzando l'overload html SaveFormat,
-// converte i contenuti del nodo nella loro rappresentazione html grezza.
+// Quando chiamiamo il metodo ToString utilizzando il sovraccarico html SaveFormat,
+// converte il contenuto del nodo nella sua rappresentazione HTML grezza.
 Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
                 "</p>", node.ToString(SaveFormat.Html));

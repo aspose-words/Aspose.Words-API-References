@@ -3,14 +3,14 @@ title: PageSetup.BorderSurroundsHeader
 linktitle: BorderSurroundsHeader
 articleTitle: BorderSurroundsHeader
 second_title: Aspose.Words för .NET
-description: PageSetup BorderSurroundsHeader fast egendom. Anger om sidkanten inkluderar eller exkluderar rubriken i C#.
+description: Upptäck egenskapen PageSetup BorderSurroundsHeader för att anpassa dina sidkanter. Kontrollera inkludering av sidhuvud för en elegant dokumentlayout.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/pagesetup/bordersurroundsheader/
 ---
 ## PageSetup.BorderSurroundsHeader property
 
-Anger om sidkanten inkluderar eller exkluderar rubriken.
+Anger om sidkanten inkluderar eller exkluderar sidhuvudet.
 
 ```csharp
 public bool BorderSurroundsHeader { get; set; }
@@ -18,11 +18,11 @@ public bool BorderSurroundsHeader { get; set; }
 
 ## Anmärkningar
 
-Obs, att ändra den här egenskapen påverkar alla avsnitt i dokumentet.
+Observera att ändring av den här egenskapen påverkar alla avsnitt i dokumentet.
 
 ## Exempel
 
-Visar hur man använder en ram på sidan och sidhuvud/sidfot.
+Visar hur man applicerar en kantlinje på sidan och sidhuvudet/sidfoten.
 
 ```csharp
 Document doc = new Document();
@@ -35,15 +35,15 @@ builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Write("This is the footer.");
 builder.MoveToDocumentEnd();
 
-// Infoga en blå dubbellinjekant.
+// Infoga en blå dubbellinjeram.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.Borders.LineStyle = LineStyle.Double;
 pageSetup.Borders.Color = Color.Blue;
 
-// En sektions PageSetup-objekt har flaggorna "BorderSurroundsHeader" och "BorderSurroundsFooter" som bestämmer
-// om en sidkant omger huvudtexten, inkluderar även sidhuvudet respektive sidfoten.
-// Ställ in "BorderSurroundsHeader"-flaggan till "true" för att omge rubriken med vår kant,
-// och ställ sedan in "BorderSurroundsFooter"-flaggan för att lämna sidfoten utanför gränsen.
+// En sektions PageSetup-objekt har flaggorna "BorderSurroundsHeader" och "BorderSurroundsFooter" som avgör
+// om en sidkantlinje omger huvudtexten, även inkluderar sidhuvudet respektive sidfoten.
+// Sätt flaggan "BorderSurroundsHeader" till "true" för att omge sidhuvudet med vår kantlinje,
+// och sätt sedan flaggan "BorderSurroundsFooter" för att lämna sidfoten utanför ramen.
 pageSetup.BorderSurroundsHeader = true;
 pageSetup.BorderSurroundsFooter = false;
 

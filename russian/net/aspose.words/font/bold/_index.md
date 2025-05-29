@@ -3,7 +3,7 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words для .NET
-description: Font Bold свойство. True если шрифт отформатирован как жирный на С#.
+description: Откройте для себя свойство Font Bold, с легкостью определяйте, выделен ли ваш текст жирным шрифтом, что повысит читабельность и стиль ваших проектов веб-дизайна.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/font/bold/

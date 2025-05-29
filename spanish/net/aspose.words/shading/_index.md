@@ -3,16 +3,16 @@ title: Shading Class
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Shading clase. Contiene atributos de sombreado para un objeto en C#.
+description: Descubra la clase Aspose.Words.Shading, diseñada para mejorar sus documentos con atributos de sombreado personalizables para una apariencia profesional.
 type: docs
-weight: 5990
+weight: 6820
 url: /es/net/aspose.words/shading/
 ---
 ## Shading class
 
 Contiene atributos de sombreado para un objeto.
 
-Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) artículo de documentación.
+Para obtener más información, visite el[Programación con documentos](https://docs.aspose.com/words/net/programming-with-documents/) Artículo de documentación.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -27,7 +27,7 @@ public class Shading : InternableComplexAttr
 | [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece el color de un tema de fondo. |
 | [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Obtiene o establece el color que se aplica al primer plano del`Shading` objeto. |
 | [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Obtiene o establece el color del tema del patrón de primer plano en el esquema de color aplicado que está asociado con este`Shading` objeto. |
-| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece el color de un tema de primer plano. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Obtiene o establece un valor doble que aclara u oscurece un color de tema de primer plano. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Obtiene o establece la textura de sombreado. |
 
 ## Métodos
@@ -35,9 +35,9 @@ public class Shading : InternableComplexAttr
 | Nombre | Descripción |
 | --- | --- |
 | [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Elimina el sombreado del objeto. |
-| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Determina si el objeto especificado tiene el mismo valor que el objeto actual. |
+| override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Determina si el objeto especificado es igual en valor al objeto actual. |
 | [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Determina si el especificado`Shading` es igual en valor a la corriente`Shading` . |
-| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Sirve como función hash para este tipo. |
+| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Sirve como una función hash para este tipo. |
 
 ## Ejemplos
 
@@ -63,13 +63,13 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Muestra cómo aplicar colores de borde y sombreado mientras construye una tabla.
+Muestra cómo aplicar colores de borde y sombreado al crear una tabla.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inicia una tabla y establece un color/grosor predeterminado para sus bordes.
+// Inicia una tabla y establece un color y grosor predeterminado para sus bordes.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -83,7 +83,7 @@ builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
 // Restablecer el formato de celda para deshabilitar los colores de fondo
-// establece un grosor de borde personalizado para todas las celdas nuevas creadas por el constructor,
+// Establezca un grosor de borde personalizado para todas las celdas nuevas creadas por el generador,
 // luego construye una segunda fila.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;

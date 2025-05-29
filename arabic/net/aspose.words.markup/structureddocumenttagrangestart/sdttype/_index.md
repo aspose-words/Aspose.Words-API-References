@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTagRangeStart SdtType ملكية. الحصول على نوع علامة المستند المنظمة هذه في C#.
+description: اكتشف خاصية SdtType في StructuredDocumentTagRangeStart. تعرّف على كيفية تحديد أنواع علامات المستندات المنظمة لتحسين إدارة المستندات.
 type: docs
 weight: 140
 url: /ar/net/aspose.words.markup/structureddocumenttagrangestart/sdttype/
 ---
 ## StructuredDocumentTagRangeStart.SdtType property
 
-الحصول على نوع علامة المستند المنظمة هذه.
+يحصل على نوع علامة المستند المنظم هذا.
 
 ```csharp
 public SdtType SdtType { get; }
@@ -18,7 +18,7 @@ public SdtType SdtType { get; }
 
 ## أمثلة
 
-يوضح كيفية الحصول على خصائص علامات المستندات المنظمة متعددة الأقسام.
+يوضح كيفية الحصول على خصائص علامات المستند المنظمة متعددة الأقسام.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

@@ -3,14 +3,14 @@ title: Table.AllowCellSpacing
 linktitle: AllowCellSpacing
 articleTitle: AllowCellSpacing
 second_title: Aspose.Words для .NET
-description: Table AllowCellSpacing свойство. Получает или задает параметр Разрешить интервал между ячейками на С#.
+description: Откройте для себя свойство Table AllowCellSpacing, чтобы легко управлять интервалом ячеек в макетах. Улучшите свой дизайн с помощью настраиваемых параметров!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.tables/table/allowcellspacing/
 ---
 ## Table.AllowCellSpacing property
 
-Получает или задает параметр «Разрешить интервал между ячейками».
+Возвращает или задает параметр «Разрешить интервал между ячейками».
 
 ```csharp
 public bool AllowCellSpacing { get; set; }
@@ -38,15 +38,15 @@ builder.EndTable();
 
 table.CellSpacing = 3;
 
-// Установите для свойства «AllowCellSpacing» значение «true», чтобы включить интервал между ячейками
-// с величиной, равной значению свойства CellSpacing, в пунктах.
-// Установите для свойства «AllowCellSpacing» значение «false», чтобы отключить интервал между ячейками
-// и игнорировать значение свойства CellSpacing.
+// Установите свойство «AllowCellSpacing» в значение «true», чтобы включить интервал между ячейками
+// с величиной, равной значению свойства "CellSpacing" в пунктах.
+// Установите свойство «AllowCellSpacing» на «false», чтобы отключить интервал между ячейками
+// и игнорировать значение свойства "CellSpacing".
 table.AllowCellSpacing = allowCellSpacing;
 
 doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 
-// Настройка свойства CellSpacing автоматически включит интервал между ячейками.
+// Настройка свойства «CellSpacing» автоматически включит интервал между ячейками.
 table.CellSpacing = 5;
 
 Assert.True(table.AllowCellSpacing);

@@ -3,14 +3,14 @@ title: Font.Scaling
 linktitle: Scaling
 articleTitle: Scaling
 second_title: Aspose.Words لـ .NET
-description: Font Scaling ملكية. الحصول على أو تعيين مقياس عرض الأحرف بالنسبة المئوية في C#.
+description: اكتشف خاصية "تغيير حجم الخط" لضبط عرض الحرف كنسبة مئوية، مما يعزز قابلية قراءة النص ومرونة التصميم لمشاريعك.
 type: docs
-weight: 310
+weight: 320
 url: /ar/net/aspose.words/font/scaling/
 ---
 ## Font.Scaling property
 
-الحصول على أو تعيين مقياس عرض الأحرف بالنسبة المئوية.
+يحصل على مقياس عرض الحرف كنسبة مئوية أو يعينه.
 
 ```csharp
 public int Scaling { get; set; }
@@ -18,21 +18,21 @@ public int Scaling { get; set; }
 
 ## أمثلة
 
-يوضح كيفية ضبط القياس الأفقي والتباعد للأحرف.
+يوضح كيفية ضبط المقياس الأفقي والتباعد للأحرف.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// إضافة نص وزيادة عرض الأحرف إلى 150%.
+//أضف سلسلة من النص وزد عرض الحرف إلى 150%.
 builder.Font.Scaling = 150;
 builder.Writeln("Wide characters");
 
-// أضف نصًا وأضف 1pt من التباعد الأفقي الإضافي بين كل حرف.
+// أضف نصًا ممتدًا وأضف مسافة أفقية إضافية قدرها 1 نقطة بين كل حرف.
 builder.Font.Spacing = 1;
 builder.Writeln("Expanded by 1pt");
 
-// إضافة نص وتقريب الأحرف من بعضها البعض بمقدار 1pt.
+// أضف سلسلة من النص وقرب الأحرف من بعضها البعض بمقدار نقطة واحدة.
 builder.Font.Spacing = -1;
 builder.Writeln("Condensed by 1pt");
 

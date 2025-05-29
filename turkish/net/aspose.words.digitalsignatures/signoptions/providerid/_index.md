@@ -2,15 +2,15 @@
 title: SignOptions.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
-second_title: Aspose.Words for .NET
-description: SignOptions ProviderId mülk. İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değerBoş tümü sıfır Kılavuz  C#'da.
+second_title: .NET için Aspose.Words
+description: İmza sağlayıcınızın sınıf kimliğini tanımlayan SignOptions ProviderId özelliğini keşfedin. En iyi performans için benzersiz bir GUID ile kolayca özelleştirin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.digitalsignatures/signoptions/providerid/
 ---
 ## SignOptions.ProviderId property
 
-İmza sağlayıcının sınıf kimliğini belirtir. Varsayılan değer:**Boş (tümü sıfır) Kılavuz** .
+İmza sağlayıcısının sınıf kimliğini belirtir. Varsayılan değer**Boş (tamamı sıfır) Kılavuz** .
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,15 +18,15 @@ public Guid ProviderId { get; set; }
 
 ## Notlar
 
-Şifreleme servis sağlayıcısı (CSP), kimlik doğrulama, kodlama ve şifreleme için gerçekte şifreleme algoritmalarını gerçekleştiren bağımsız bir yazılım modülüdür. MS Office, varsayılan imza sağlayıcısı için {00000000-0000-0000-0000-000000000000} değerinin değerini ayırır.
+Kriptografik hizmet sağlayıcısı (CSP), kimlik doğrulama, kodlama ve şifreleme için aslında kriptografi algoritmaları gerçekleştiren bağımsız bir yazılım modülüdür. MS Office, varsayılan imza sağlayıcısı için {00000000-0000-0000-0000-000000000000} değerini ayırır.
 
-Ek olarak yüklenen sağlayıcının GUID'i, sağlayıcıyla birlikte gönderilen belgelerden alınmalıdır.
+Ek olarak kurulan sağlayıcının GUID'si sağlayıcıyla birlikte gönderilen dokümanlardan alınmalıdır.
 
-Ayrıca, kurulu tüm şifreleme sağlayıcıları Windows kayıt defterinde numaralandırılmıştır. Şu yolda bulunabilir: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Şuna karşılık gelen bir "CP Service UUID" anahtar adı vardır: imza sağlayıcısının GUID'i.
+Ayrıca, yüklü tüm şifreleme sağlayıcıları Windows kayıt defterinde listelenmiştir. Aşağıdaki yolda bulunabilir: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. İmza sağlayıcısının GUID'sine karşılık gelen "CP Service UUID" adlı bir anahtar vardır.
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

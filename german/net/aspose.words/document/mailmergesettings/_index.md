@@ -3,14 +3,14 @@ title: Document.MailMergeSettings
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words für .NET
-description: Document MailMergeSettings eigendom. Ruft das Objekt ab oder legt es fest das alle Serienbriefinformationen für ein Dokument enthält in C#.
+description: Entdecken Sie, wie Sie mit der Eigenschaft MailMergeSettings alle Serienbriefdaten Ihres Dokuments effizient verwalten und Ihren Arbeitsablauf verbessern können.
 type: docs
-weight: 270
+weight: 280
 url: /de/net/aspose.words/document/mailmergesettings/
 ---
 ## Document.MailMergeSettings property
 
-Ruft das Objekt ab oder legt es fest, das alle Serienbriefinformationen für ein Dokument enthält.
+Ruft das Objekt ab oder legt es fest, das alle Seriendruckinformationen für ein Dokument enthält.
 
 ```csharp
 public MailMergeSettings MailMergeSettings { get; set; }
@@ -18,9 +18,9 @@ public MailMergeSettings MailMergeSettings { get; set; }
 
 ## Bemerkungen
 
-Sie können dieses Objekt verwenden, um eine Serienbrief-Datenquelle für ein Dokument anzugeben. Diese Informationen (zusammen mit den verfügbaren Datenfeldern) werden in Microsoft Word angezeigt, wenn der Benutzer dieses Dokument öffnet. Oder Sie können dieses Objekt verwenden, um Serienbriefeinstellungen abzufragen dass der Benutzer in Microsoft Word für dieses Dokument angegeben hat.
+Sie können dieses Objekt verwenden, um eine Serienbrief-Datenquelle für ein Dokument anzugeben. Diese Informationen (zusammen mit den verfügbaren Datenfeldern) werden in Microsoft Word angezeigt, wenn der Benutzer dieses Dokument öffnet. Oder Sie können dieses Objekt verwenden, um Serienbriefeinstellungen abzufragen, die der Benutzer in Microsoft Word für dieses Dokument angegeben hat.
 
-Dieses Objekt ist niemals`Null`.
+Dieses Objekt ist nie`null`.
 
 ## Beispiele
 
@@ -37,9 +37,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -67,7 +67,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

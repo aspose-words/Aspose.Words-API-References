@@ -2,15 +2,15 @@
 title: Font.Shading
 linktitle: Shading
 articleTitle: Shading
-second_title: Aspose.Words for .NET
-description: Font Shading mülk. Bir değeri döndürürShading yazı tipinin gölgelendirme formatını ifade eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Metninizin görsel çekiciliğini artıran özelleştirilebilir yazı tipi biçimlendirmesi için Gölgeleme nesnesi sağlayan Font Gölgeleme özelliğini keşfedin.
 type: docs
-weight: 320
+weight: 330
 url: /tr/net/aspose.words/font/shading/
 ---
 ## Font.Shading property
 
-Bir değeri döndürür[`Shading`](../../shading/) yazı tipinin gölgelendirme formatını ifade eden nesne.
+Bir[`Shading`](../../shading/) yazı tipinin gölgelendirme biçimlendirmesine başvuran nesne.
 
 ```csharp
 public Shading Shading { get; }
@@ -18,7 +18,7 @@ public Shading Shading { get; }
 
 ## Örnekler
 
-Belge oluşturucu tarafından oluşturulan metne gölgelendirmenin nasıl uygulanacağını gösterir.
+Bir belge oluşturucu tarafından oluşturulan metne gölgelendirmenin nasıl uygulanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Color = Color.White;
 
-// Beyaz yazı tipi rengimiz kullanılarak oluşturulan metni görünür kılmanın bir yolu
-// bir arka plan gölgeleme efekti uygulamaktır.
+// Beyaz yazı tipi rengimizi kullanarak oluşturduğumuz metni görünür hale getirmenin bir yolu
+// arka plana gölgelendirme efekti uygulamaktır.
 Shading shading = builder.Font.Shading;
 shading.Texture = TextureIndex.TextureDiagonalUp;
 shading.BackgroundPatternColor = Color.OrangeRed;

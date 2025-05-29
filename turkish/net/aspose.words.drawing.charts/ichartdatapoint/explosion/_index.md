@@ -2,15 +2,15 @@
 title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
-second_title: Aspose.Words for .NET
-description: IChartDataPoint Explosion mülk. Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir negatif özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir C#'da.
+second_title: .NET için Aspose.Words
+description: Pasta grafikleri için IChartDataPoint Explosion özelliğini keşfedin. Veri noktası konumlandırmasını hassasiyetle kontrol edin—görsel veri hikayenizi bugün geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.drawing.charts/ichartdatapoint/explosion/
 ---
 ## IChartDataPoint.Explosion property
 
-Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif, özelliğin ayarlanmadığı ve hiçbir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca Pasta grafikleri için geçerlidir.
+Veri noktasının pastanın merkezinden ne kadar uzağa taşınacağını belirtir. Negatif olabilir, negatif özelliğin ayarlanmadığı ve herhangi bir patlamanın uygulanmaması gerektiği anlamına gelir. Yalnızca pasta grafikleri için geçerlidir.
 
 ```csharp
 public int Explosion { get; set; }
@@ -18,7 +18,7 @@ public int Explosion { get; set; }
 
 ## Örnekler
 
-Pasta grafiğinin dilimlerinin merkezden nasıl uzağa taşınacağını gösterir.
+Bir pasta grafiğinin dilimlerinin merkezden nasıl uzaklaştırılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,9 +30,9 @@ Chart chart = shape.Chart;
 Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Sales", chart.Series[0].Name);
 
-// Bir pasta grafiğinin "Dilimleri", ilgili veri noktasının Patlama özelliği aracılığıyla merkezden bir mesafe kadar uzaklaştırılabilir.
+// Bir pasta grafiğinin "dilimleri", ilgili veri noktasının Patlama niteliği aracılığıyla merkezden belirli bir mesafe kadar uzaklaştırılabilir.
 // Pasta grafiğinin ilk kısmına bir veri noktası ekleyin ve onu merkezden 10 puan uzaklaştırın.
-// Aspose.Words, eğer mevcut değilse, veri noktalarını otomatik olarak oluşturur.
+// Aspose.Words, veri noktaları yoksa bunları otomatik olarak oluşturur.
 ChartDataPoint dataPoint = chart.Series[0].DataPoints[0];
 dataPoint.Explosion = 10;
 

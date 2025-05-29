@@ -2,10 +2,10 @@
 title: BubbleSizeCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: BubbleSizeCollection Item 财产. 获取或设置指定索引处的气泡大小值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 BubbleSizeCollection Item 属性，轻松管理特定索引的气泡大小，精确增强数据可视化。
 type: docs
-weight: 20
+weight: 30
 url: /zh/net/aspose.words.drawing.charts/bubblesizecollection/item/
 ---
 ## BubbleSizeCollection indexer

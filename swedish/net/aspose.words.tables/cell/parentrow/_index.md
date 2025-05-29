@@ -3,7 +3,7 @@ title: Cell.ParentRow
 linktitle: ParentRow
 articleTitle: ParentRow
 second_title: Aspose.Words för .NET
-description: Cell ParentRow fast egendom. Returnerar cellens överordnade rad i C#.
+description: Upptäck egenskapen Cell ParentRow för att enkelt komma åt överordnad rad i valfri cell, vilket förbättrar din datahantering och navigeringseffektivitet.
 type: docs
 weight: 100
 url: /sv/net/aspose.words.tables/cell/parentrow/
@@ -16,22 +16,18 @@ Returnerar cellens överordnade rad.
 public Row ParentRow { get; }
 ```
 
-## Anmärkningar
-
-Ekvivalent medFirstNonMarkupParentNode gjutna till[`Row`](../../row/).
-
 ## Exempel
 
-Visar hur man ställer in ett bord för att hålla ihop på samma sida.
+Visar hur man dukar ett bord så att det står ihop på samma sida.
 
 ```csharp
 Document doc = new Document(MyDir + "Table spanning two pages.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Aktivera KeepWithNext för varje stycke i tabellen utom för
-// de sista i den sista raden kommer att förhindra att tabellen delas upp på flera sidor.
-foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true).OfType<Cell>())
-    foreach (Paragraph para in cell.Paragraphs.OfType<Paragraph>())
+// Aktiverar KeepWithNext för varje stycke i tabellen förutom
+// de sista på den sista raden förhindrar att tabellen delas upp över flera sidor.
+foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
+    foreach (Paragraph para in cell.Paragraphs)
     {
         Assert.True(para.IsInCell);
 

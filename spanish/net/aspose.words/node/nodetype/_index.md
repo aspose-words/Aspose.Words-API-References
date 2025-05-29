@@ -3,7 +3,7 @@ title: Node.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words para .NET
-description: Node NodeType propiedad. Obtiene el tipo de este nodo en C#.
+description: Descubra la propiedad Node NodeType para identificar fácilmente los tipos de nodos en su aplicación, mejorando la eficiencia de su desarrollo y la claridad del código.
 type: docs
 weight: 50
 url: /es/net/aspose.words/node/nodetype/
@@ -18,7 +18,7 @@ public abstract NodeType NodeType { get; }
 
 ## Ejemplos
 
-Muestra cómo utilizar la propiedad NextSibling de un nodo para enumerar sus hijos inmediatos.
+Muestra cómo utilizar la propiedad NextSibling de un nodo para enumerar a sus hijos inmediatos.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -44,10 +44,10 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Guarda el siguiente nodo hermano como una variable en caso de que queramos pasar a él después de eliminar este nodo.
+    // Guarda el siguiente nodo hermano como una variable en caso de que queramos movernos a él después de eliminar este nodo.
     Node nextNode = curNode.NextSibling;
 
-    // El cuerpo de una sección puede contener nodos de párrafo y tabla.
+    //El cuerpo de una sección puede contener nodos de párrafo y tabla.
     // Si el nodo es una tabla, elimínelo del padre.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
@@ -68,13 +68,13 @@ public void RecurseChildren()
     // Cualquier nodo que pueda contener nodos secundarios, como el propio documento, es compuesto.
     Assert.True(doc.IsComposite);
 
-    // Invoca la función recursiva que revisará e imprimirá todos los nodos secundarios de un nodo compuesto.
+    // Invoca la función recursiva que recorrerá e imprimirá todos los nodos secundarios de un nodo compuesto.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
-/// Atraviesa recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
-/// con una sangría que depende de la profundidad y del contenido de todos los nodos en línea.
+/// Recorre recursivamente un árbol de nodos mientras imprime el tipo de cada nodo
+/// con una sangría dependiendo de la profundidad así como del contenido de todos los nodos en línea.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -82,7 +82,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Recurre al nodo si es un nodo compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
+        // Recurse al nodo si es compuesto. De lo contrario, imprima su contenido si es un nodo en línea.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

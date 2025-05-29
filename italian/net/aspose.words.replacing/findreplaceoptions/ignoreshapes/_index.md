@@ -3,7 +3,7 @@ title: FindReplaceOptions.IgnoreShapes
 linktitle: IgnoreShapes
 articleTitle: IgnoreShapes
 second_title: Aspose.Words per .NET
-description: FindReplaceOptions IgnoreShapes proprietà. Ottiene o imposta un valore booleano che indica di ignorare le forme allinterno di un testo in C#.
+description: Scopri la proprietà IgnoreShapes di FindReplaceOptions. Controlla l'inclusione delle forme nell'elaborazione del testo con questa essenziale impostazione booleana per una maggiore precisione.
 type: docs
 weight: 110
 url: /it/net/aspose.words.replacing/findreplaceoptions/ignoreshapes/
@@ -27,11 +27,12 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
-builder.InsertShape(ShapeType.Balloon, 200, 200);            
+builder.InsertShape(ShapeType.Balloon, 200, 200);
 builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 
+FindReplaceOptions findReplaceOptions = new FindReplaceOptions() { IgnoreShapes = true };
 builder.Document.Range.Replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", new FindReplaceOptions() { IgnoreShapes = true });
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
 Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.Document.GetText().Trim());
 ```
 

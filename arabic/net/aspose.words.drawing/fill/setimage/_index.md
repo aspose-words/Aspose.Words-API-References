@@ -3,14 +3,14 @@ title: Fill.SetImage
 linktitle: SetImage
 articleTitle: SetImage
 second_title: Aspose.Words لـ .NET
-description: Fill SetImage طريقة. تغيير نوع التعبئة إلى صورة واحدة في C#.
+description: حسّن تصميمك باستخدام طريقة SetImage. انتقل بسهولة إلى نوع تعبئة صورة واحدة للحصول على صور مذهلة وتكامل سلس.
 type: docs
-weight: 240
+weight: 250
 url: /ar/net/aspose.words.drawing/fill/setimage/
 ---
 ## SetImage(*string*) {#setimage_2}
 
-تغيير نوع التعبئة إلى صورة واحدة.
+يغير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(string fileName)
@@ -28,7 +28,7 @@ public void SetImage(string fileName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// هناك عدة طرق لإعداد الصورة.
+// هناك عدة طرق لضبط الصورة.
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // 1 - استخدام اسم ملف النظام المحلي:
 shape.Fill.SetImage(ImageDir + "Logo.jpg");
@@ -38,7 +38,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
 shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
 doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
 
-// 3 - من الدفق:
+// 3 - من مجرى:
 using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
     shape.Fill.SetImage(stream);
 doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
 
 ## SetImage(*Stream*) {#setimage_1}
 
-تغيير نوع التعبئة إلى صورة واحدة.
+يغير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(Stream stream)
@@ -62,7 +62,31 @@ public void SetImage(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يحتوي على بايت الصورة. |
+| stream | Stream | التدفق الذي يحتوي على بايتات الصورة. |
+
+## أمثلة
+
+يوضح كيفية تعيين نوع تعبئة الشكل كصورة.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// هناك عدة طرق لضبط الصورة.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - استخدام اسم ملف النظام المحلي:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - تحميل ملف إلى مصفوفة بايت:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - من مجرى:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### أنظر أيضا
 
@@ -74,7 +98,7 @@ public void SetImage(Stream stream)
 
 ## SetImage(*byte[]*) {#setimage}
 
-تغيير نوع التعبئة إلى صورة واحدة.
+يغير نوع التعبئة إلى صورة واحدة.
 
 ```csharp
 public void SetImage(byte[] imageBytes)
@@ -82,7 +106,31 @@ public void SetImage(byte[] imageBytes)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| imageBytes | Byte[] | مجموعة بايت الصورة. |
+| imageBytes | Byte[] | مجموعة بايتات الصورة. |
+
+## أمثلة
+
+يوضح كيفية تعيين نوع تعبئة الشكل كصورة.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// هناك عدة طرق لضبط الصورة.
+Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
+// 1 - استخدام اسم ملف النظام المحلي:
+shape.Fill.SetImage(ImageDir + "Logo.jpg");
+doc.Save(ArtifactsDir + "Shape.FillImage.FileName.docx");
+
+// 2 - تحميل ملف إلى مصفوفة بايت:
+shape.Fill.SetImage(File.ReadAllBytes(ImageDir + "Logo.jpg"));
+doc.Save(ArtifactsDir + "Shape.FillImage.ByteArray.docx");
+
+// 3 - من مجرى:
+using (FileStream stream = new FileStream(ImageDir + "Logo.jpg", FileMode.Open))
+    shape.Fill.SetImage(stream);
+doc.Save(ArtifactsDir + "Shape.FillImage.Stream.docx");
+```
 
 ### أنظر أيضا
 

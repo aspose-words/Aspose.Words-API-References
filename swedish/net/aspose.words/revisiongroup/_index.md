@@ -3,9 +3,9 @@ title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
 second_title: Aspose.Words för .NET
-description: Aspose.Words.RevisionGroup klass. Representerar en grupp av sekventiellaRevision objekt i C#.
+description: Upptäck klassen Aspose.Words.RevisionGroup, utformad för att effektivt hantera och organisera sekventiella revisionsobjekt för effektiv dokumentredigering.
 type: docs
-weight: 4780
+weight: 5520
 url: /sv/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
@@ -22,9 +22,9 @@ public class RevisionGroup
 
 | namn | Beskrivning |
 | --- | --- |
-| [Author](../../aspose.words/revisiongroup/author/) { get; } | Hämtar författaren till denna versionsgrupp. |
-| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Hämtar typen av revisioner som ingår i denna grupp. |
-| [Text](../../aspose.words/revisiongroup/text/) { get; } | Returnerar infogat/raderad/flyttad text eller beskrivning av formatändring. |
+| [Author](../../aspose.words/revisiongroup/author/) { get; } | Hämtar författaren till denna revisionsgrupp. |
+| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Hämtar typen av revisioner som ingår i den här gruppen. |
+| [Text](../../aspose.words/revisiongroup/text/) { get; } | Returnerar infogad/borttagen/flyttad text eller beskrivning av formatändring. |
 
 ## Exempel
 

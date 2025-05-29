@@ -3,7 +3,7 @@ title: FieldMergeBarcode.BarcodeValue
 linktitle: BarcodeValue
 articleTitle: BarcodeValue
 second_title: Aspose.Words para .NET
-description: FieldMergeBarcode BarcodeValue propiedad. Obtiene o establece el valor del código de barras en C#.
+description: Descubra la propiedad FieldMergeBarcode BarcodeValue para administrar y personalizar fácilmente sus valores de código de barras para mejorar la precisión y la eficiencia de los datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldmergebarcode/barcodevalue/
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Inserte un campo MERGEBARCODE, que aceptará valores de una fuente de datos durante una combinación de correspondencia.
-// Este campo convertirá todos los valores en la columna "MyEAN13Barcode" de una fuente de datos combinada en códigos de barras EAN13.
+// Este campo convertirá todos los valores de la columna "MyEAN13Barcode" de una fuente de datos de combinación en códigos de barras EAN13.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "MyEAN13Barcode";
@@ -39,8 +39,8 @@ Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
 Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código de barras EAN13 con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyEAN13Barcode");
@@ -71,7 +71,7 @@ FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.Field
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
 
-// Aplicar colores y escalas personalizados.
+// Aplicar colores y escala personalizados.
 field.BackgroundColor = "0xF8BD69";
 field.ForegroundColor = "0xB5413B";
 field.ErrorCorrectionLevel = "3";
@@ -84,8 +84,8 @@ Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 
     field.GetFieldCode());
 builder.Writeln();
 
-// Crea una DataTable con una columna con el mismo nombre que BarcodeValue de nuestro campo MERGEBARCODE.
-// La combinación de correspondencia creará una nueva página para cada fila. Cada página contendrá un campo DISPLAYBARCODE,
+// Cree una DataTable con una columna con el mismo nombre que el BarcodeValue de nuestro campo MERGEBARCODE.
+La combinación de correspondencia creará una página nueva para cada fila. Cada página contendrá un campo DISPLAYBARCODE.
 // que mostrará un código QR con el valor de la fila fusionada.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");

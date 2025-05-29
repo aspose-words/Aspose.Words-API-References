@@ -2,8 +2,8 @@
 title: CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: CleanupOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CleanupOptions 构造函数，实现高效的数据管理。使用我们的默认构造函数简化您的流程，以获得最佳性能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/cleanupoptions/cleanupoptions/

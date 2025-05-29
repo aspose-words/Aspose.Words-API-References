@@ -3,14 +3,14 @@ title: FieldDisplayBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words для .NET
-description: FieldDisplayBarcode ScalingFactor свойство. Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах допустимые значения 10 1000  на С#.
+description: Откройте для себя свойство FieldDisplayBarcode ScalingFactor, чтобы легко настроить размер символа в целых процентах от 10% до 1000%. Оптимизируйте отображение штрихкодов!
 type: docs
 weight: 120
 url: /ru/net/aspose.words.fields/fielddisplaybarcode/scalingfactor/
 ---
 ## FieldDisplayBarcode.ScalingFactor property
 
-Получает или задает коэффициент масштабирования для символа. Значение указано в целых процентных пунктах, допустимые значения: [10, 1000] .
+Возвращает или задает коэффициент масштабирования для символа. Значение указывается в целых процентных пунктах, допустимые значения: [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -18,7 +18,7 @@ public string ScalingFactor { get; set; }
 
 ## Примеры
 
-Показывает, как вставить поле DISPLAYBARCODE и установить его свойства.
+Показывает, как вставить поле DISPLAYBARCODE и задать его свойства.
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// Ниже приведены четыре типа штрих-кодов, оформленных по-разному, которые могут отображаться в поле DISPLAYBARCODE.
-// 1 - QR-код с произвольными цветами:
+// Ниже приведены четыре типа штрих-кодов, оформленных различными способами, которые может отображать поле DISPLAYBARCODE.
+// 1 - QR-код с пользовательскими цветами:
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -40,7 +40,7 @@ field.SymbolRotation = "0";
 Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
 builder.Writeln();
 
-// 2 - штрих-код EAN13, цифры которого отображаются под полосками:
+// 2 - штрих-код EAN13, в котором цифры отображаются под штрихами:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "EAN13";
 field.BarcodeValue = "501234567890";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - штрих-код ITF4, с указанным регистром:
+// 4 - штрих-код ITF4, с указанным кодом корпуса:
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

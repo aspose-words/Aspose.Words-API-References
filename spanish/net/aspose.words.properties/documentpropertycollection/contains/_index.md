@@ -3,14 +3,14 @@ title: DocumentPropertyCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words para .NET
-description: DocumentPropertyCollection Contains método. Devolucionesverdadero si existe una propiedad con el nombre especificado en la colección en C#.
+description: Descubra si una propiedad existe en DocumentPropertyCollection con nuestro eficiente método "Contains". ¡Simplifique la gestión de sus datos hoy mismo!
 type: docs
 weight: 40
 url: /es/net/aspose.words.properties/documentpropertycollection/contains/
 ---
 ## DocumentPropertyCollection.Contains method
 
-Devoluciones`verdadero` si existe una propiedad con el nombre especificado en la colección.
+Devuelve`verdadero` si existe una propiedad con el nombre especificado en la colección.
 
 ```csharp
 public bool Contains(string name)
@@ -34,18 +34,18 @@ CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
 Assert.AreEqual(0, properties.Count);
 
-// Las propiedades personalizadas del documento son pares clave-valor que podemos agregar al documento.
+// Las propiedades de documento personalizadas son pares clave-valor que podemos agregar al documento.
 properties.Add("Authorized", true);
 properties.Add("Authorized By", "John Doe");
 properties.Add("Authorized Date", DateTime.Today);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-// La colección ordena las propiedades personalizadas en orden alfabético.
+//La colección ordena las propiedades personalizadas en orden alfabético.
 Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
 Assert.AreEqual(5, properties.Count);
 
-// Imprime todas las propiedades personalizadas del documento.
+// Imprime cada propiedad personalizada en el documento.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -59,10 +59,10 @@ field.Update();
 
 Assert.AreEqual("John Doe", field.Result);
 
-// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" > "Propiedades avanzadas" > "Costumbre".
+// Podemos encontrar estas propiedades personalizadas en Microsoft Word a través de "Archivo" -> "Propiedades" -> "Propiedades avanzadas" -> "Personalizado".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 
-// A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
+A continuación se muestran tres formas de eliminar propiedades personalizadas de un documento.
 // 1 - Eliminar por índice:
 properties.RemoveAt(1);
 

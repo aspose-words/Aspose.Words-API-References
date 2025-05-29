@@ -3,16 +3,16 @@ title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.NodeCollection clase. Representa una colección de nodos de un tipo específico en C#.
+description: Descubra la clase Aspose.Words.NodeCollection, su solución ideal para gestionar diversos tipos de nodos de forma eficiente en el procesamiento de documentos. ¡Mejore su flujo de trabajo hoy mismo!
 type: docs
-weight: 4200
+weight: 4890
 url: /es/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
 Representa una colección de nodos de un tipo específico.
 
-Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Artículo de documentación.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -22,7 +22,7 @@ public class NodeCollection : IEnumerable<Node>
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos en la colección. |
 | [Item](../../aspose.words/nodecollection/item/) { get; } | Recupera un nodo en el índice dado. |
 
 ## Métodos
@@ -32,28 +32,28 @@ public class NodeCollection : IEnumerable<Node>
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Determina si un nodo está en la colección. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración simple al estilo "foreach" sobre la colección de nodos. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Devuelve el índice basado en cero del nodo especificado. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia todos los nodos de la colección en una nueva matriz de nodos. |
+| [ToArray](../../aspose.words/nodecollection/toarray/)() | Copia todos los nodos de la colección a una nueva matriz de nodos. |
 
 ## Observaciones
 
-`NodeCollection` no es propietario de los nodos que contiene, sino que es solo una selección de nodes del tipo especificado, pero los nodos se almacenan en el árbol debajo de sus respectivos nodos principales.
+`NodeCollection` no posee los nodos que contiene, sino que es solo una selección de nodes del tipo especificado, pero los nodos se almacenan en el árbol bajo sus respectivos nodos padres.
 
-`NodeCollection`admite acceso indexado, iteración y proporciona métodos para agregar y eliminar.
+`NodeCollection` Admite acceso indexado, iteración y proporciona métodos de agregar y eliminar.
 
-El`NodeCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los nodos devueltos por el`NodeCollection` propiedades y métodos.
+El`NodeCollection` La colección está "activa", es decir, los cambios en los hijos del nodo object desde el que se creó se reflejan inmediatamente en los nodos devueltos por la colección.`NodeCollection` Propiedades y métodos de .
 
-`NodeCollection` es devuelto por[`GetChildNodes`](../compositenode/getchildnodes/) y también sirve como clase base para colecciones de nodos escritos como[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
+`NodeCollection` es devuelto por[`GetChildNodes`](../compositenode/getchildnodes/) y también sirve como clase base para colecciones de nodos tipificados como[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) etc.
 
-`NodeCollection` puede ser "plano" y contener sólo hijos inmediatos del nodo desde el que se creó , o puede ser "profundo" y contener todos los hijos descendientes.
+`NodeCollection`puede ser "plano" y contener sólo los hijos inmediatos del nodo desde el cual fue creado , o puede ser "profundo" y contener todos los hijos descendientes.
 
 ## Ejemplos
 
-Muestra cómo reemplazar todas las formas de cuadros de texto con formas de imágenes.
+Muestra cómo reemplazar todas las formas de cuadro de texto con formas de imagen.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

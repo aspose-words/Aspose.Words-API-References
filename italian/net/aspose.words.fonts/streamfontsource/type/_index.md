@@ -3,14 +3,14 @@ title: StreamFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: StreamFontSource Type proprietà. Restituisce il tipo di fonte del carattere in C#.
+description: Scopri la proprietà Tipo StreamFontSource per identificare facilmente il tipo di origine del tuo font, migliorando la flessibilità di progettazione e l'efficienza del progetto.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fonts/streamfontsource/type/
 ---
 ## StreamFontSource.Type property
 
-Restituisce il tipo di fonte del carattere.
+Restituisce il tipo di origine del font.
 
 ```csharp
 public FontSourceType Type { get; }

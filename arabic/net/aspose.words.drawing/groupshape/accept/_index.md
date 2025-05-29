@@ -3,14 +3,14 @@ title: GroupShape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words لـ .NET
-description: GroupShape Accept طريقة. يقبل الزائر في C#.
+description: اكتشف طريقة قبول GroupShape لتفاعل الزوار بسلاسة وتحسين تجربة المستخدم على موقعك الإلكتروني. عزز التفاعل اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing/groupshape/accept/
 ---
 ## GroupShape.Accept method
 
-يقبل الزائر.
+يقبل زائرًا.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -18,23 +18,23 @@ public override bool Accept(DocumentVisitor visitor)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| visitor | DocumentVisitor | الزائر الذي سيزور العقد. |
+| visitor | DocumentVisitor | الزائر الذي سيقوم بزيارة العقد. |
 
 ### قيمة الإرجاع
 
-صحيح إذا تمت زيارة جميع العقد؛ كاذبة إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) أوقفت العملية قبل زيارة كافة العقد.
+صحيح إذا تمت زيارة جميع العقد؛ خطأ إذا[`DocumentVisitor`](../../../aspose.words/documentvisitor/) تم إيقاف العملية قبل زيارة كافة العقد.
 
 ## ملاحظات
 
-يعدد هذه العقدة وجميع أبنائها. تستدعي كل عقدة الطريقة المقابلة لها[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+يُحصي هذه العقدة وجميع أبنائها. تستدعي كل عقدة طريقة مقابلة على[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-لمزيد من المعلومات، راجع نمط تصميم الزائر.
+لمزيد من المعلومات راجع نمط تصميم الزائر.
 
-المكالمات[`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) ، ثم يتصل[`Accept`](../../../aspose.words/node/accept/) لجميع الأشكال الفرعية لشكل المجموعة واستدعاءاتها[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) في النهاية.
+مكالمات [`VisitGroupShapeStart`](../../../aspose.words/documentvisitor/visitgroupshapestart/) ، ثم يدعو[`Accept`](../../../aspose.words/node/accept/) لجميع الأشكال الفرعية لهذه المجموعة من الأشكال والمكالمات[`VisitGroupShapeEnd`](../../../aspose.words/documentvisitor/visitgroupshapeend/) في النهاية.
 
 ## أمثلة
 
-يوضح كيفية إنشاء مجموعة من الأشكال، وطباعة محتوياتها باستخدام زائر المستند.
+يوضح كيفية إنشاء مجموعة من الأشكال وطباعة محتوياتها باستخدام زائر المستند.
 
 ```csharp
 public void GroupOfShapes()
@@ -42,19 +42,19 @@ public void GroupOfShapes()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // إذا كنت بحاجة إلى إنشاء أشكال "NonPrimitive"، مثل SingleCornerSnipped، وTopCornersSnipped، وDiagonalCornerSnipped،
-    // TopCornersOneRoundedOneSnipped، SingleCornerRounded، TopCornersRounded، DiagonalCornersRounded
-    // يرجى استخدام أساليب DocumentBuilder.InsertShape.
+    // إذا كنت بحاجة إلى إنشاء أشكال "غير بدائية"، مثل SingleCornerSnipped وTopCornersSnipped وDiagonalCornersSnipped،
+    // الزوايا العلوية مستديرة واحدة، زوايا علوية مستديرة واحدة، زوايا علوية مستديرة، زوايا قطرية مستديرة
+    // يرجى استخدام طرق DocumentBuilder.InsertShape.
     Shape balloon = new Shape(doc, ShapeType.Balloon)
     {
-        Width = 200, 
+        Width = 200,
         Height = 200,
         Stroke = { Color = Color.Red }
     };
 
     Shape cube = new Shape(doc, ShapeType.Cube)
     {
-        Width = 100, 
+        Width = 100,
         Height = 100,
         Stroke = { Color = Color.Blue }
     };
@@ -74,7 +74,7 @@ public void GroupOfShapes()
 }
 
 /// <summary>
-/// يطبع محتويات مجموعة الأشكال التي تمت زيارتها إلى وحدة التحكم.
+/// طباعة محتويات مجموعة الأشكال التي تمت زيارتها في وحدة التحكم.
 /// </summary>
 public class ShapeGroupPrinter : DocumentVisitor
 {

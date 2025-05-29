@@ -2,15 +2,15 @@
 title: Font.Engrave
 linktitle: Engrave
 articleTitle: Engrave
-second_title: Aspose.Words for .NET
-description: Font Engrave mülk. Yazı tipi gravür olarak biçimlendirilmişse doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: Font Engrave özelliğini keşfedin. Tasarımınızın inceliğini ve çekiciliğini artıran zarif bir gravür görünümü için yazı tiplerini kolayca biçimlendirin.
 type: docs
 weight: 120
 url: /tr/net/aspose.words/font/engrave/
 ---
 ## Font.Engrave property
 
-Yazı tipi gravür olarak biçimlendirilmişse doğrudur.
+Yazı tipi oyulmuş olarak biçimlendirilmişse doğrudur.
 
 ```csharp
 public bool Engrave { get; set; }
@@ -27,13 +27,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Size = 36;
 builder.Font.Color = Color.LightBlue;
 
-// Aşağıda metne 3B benzeri bir efekt uygulamak için gölgeleri kullanmanın iki yolu verilmiştir.
-// 1 - Harflerin sayfaya gömülmüş gibi görünmesini sağlamak için metni kazıyın:
+// Aşağıda metne 3 boyutlu efekt vermek için gölgelerin kullanıldığı iki yol gösterilmektedir.
+// 1 - Harflerin sayfaya gömülmüş gibi görünmesi için metni kazıyın:
 builder.Font.Engrave = true;
 
 builder.Writeln("This text is engraved.");
 
-// 2 - Harflerin sayfadan fırlamış gibi görünmesini sağlamak için metni kabartın:
+// 2 - Harflerin sayfadan fırlayacakmış gibi görünmesi için metni kabartın:
 builder.Font.Engrave = false;
 builder.Font.Emboss = true;
 

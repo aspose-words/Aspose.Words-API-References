@@ -3,14 +3,14 @@ title: TxtListIndentation.Character
 linktitle: Character
 articleTitle: Character
 second_title: Aspose.Words für .NET
-description: TxtListIndentation Character eigendom. Ruft ab oder legt fest welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist 0 das heißt es gibt keine Einrückung in C#.
+description: Entdecken Sie die Eigenschaft „TxtListIndentation“, um die Listeneinrückung mit Ihrem bevorzugten Zeichen anzupassen. Verbessern Sie mühelos Lesbarkeit und visuelle Attraktivität!
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtlistindentation/character/
 ---
 ## TxtListIndentation.Character property
 
-Ruft ab oder legt fest, welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist „\0“, das heißt, es gibt keine Einrückung.
+Ruft ab oder legt fest, welches Zeichen zum Einrücken von Listenebenen verwendet werden soll. Der Standardwert ist „\0“, d. h. es gibt keine Einrückung.
 
 ```csharp
 public char Character { get; set; }
@@ -32,25 +32,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Legen Sie die Eigenschaft „Character“ fest, um ein zu verwendendes Zeichen zuzuweisen
-// zum Auffüllen, das die Einrückung von Listen im Klartext simuliert.
+// Legen Sie die Eigenschaft "Character" fest, um ein zu verwendendes Zeichen zuzuweisen
+// zum Auffüllen, das Listeneinrückungen im Klartext simuliert.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Legen Sie die Eigenschaft „Count“ fest, um die Häufigkeit anzugeben
-// um das Füllzeichen für jede Listeneinrückungsebene zu platzieren.
+// Legen Sie die Eigenschaft „Count“ fest, um die Anzahl der
+// um das Füllzeichen für jede Listeneinzugsebene zu platzieren.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Siehe auch

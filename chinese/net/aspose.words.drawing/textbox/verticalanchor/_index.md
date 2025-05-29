@@ -2,8 +2,8 @@
 title: TextBox.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox VerticalAnchor 财产. 指定形状内文本的垂直对齐方式 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TextBox VerticalAnchor 属性如何增强形状内的文本对齐，以改善项目的设计和可读性。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.drawing/textbox/verticalanchor/
@@ -22,7 +22,7 @@ public TextBoxAnchor VerticalAnchor { get; set; }
 
 ## 例子
 
-演示如何垂直对齐文本框的文本内容。
+展示如何垂直对齐文本框的文本内容。
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ shape.TextBox.VerticalAnchor = verticalAnchor;
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// 从 Microsoft Word 2007 开始，文本框中文本的垂直对齐功能可用。
+// 从 Microsoft Word 2007 开始，文本框内的文本可以垂直对齐。
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```

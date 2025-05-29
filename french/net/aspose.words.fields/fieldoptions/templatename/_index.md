@@ -3,7 +3,7 @@ title: FieldOptions.TemplateName
 linktitle: TemplateName
 articleTitle: TemplateName
 second_title: Aspose.Words pour .NET
-description: FieldOptions TemplateName propriété. Obtient ou définit le nom de fichier du modèle utilisé par le document en C#.
+description: Découvrez la propriété FieldOptions TemplateName pour gérer facilement le nom du fichier modèle de votre document pour une organisation et une efficacité améliorées.
 type: docs
 weight: 190
 url: /fr/net/aspose.words.fields/fieldoptions/templatename/
@@ -20,7 +20,7 @@ public string TemplateName { get; set; }
 
 Cette propriété est utilisée par le[`FieldTemplate`](../../fieldtemplate/) champ si le[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) la propriété est vide.
 
-Si cette propriété est vide, le nom du fichier modèle par défaut`Normal.dotm` est utilisé.
+Si cette propriété est vide, le nom du fichier de modèle par défaut`Normal.dotm` est utilisé.
 
 ## Exemples
 
@@ -30,8 +30,8 @@ Montre comment utiliser un champ MODÈLE pour afficher l'emplacement du système
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nous pouvons définir un nom de modèle en utilisant les champs. Cette propriété est utilisée lorsque le "doc.AttachedTemplate" est vide.
-// Si cette propriété est vide, le nom de fichier modèle par défaut "Normal.dotm" est utilisé.
+// Nous pouvons définir un nom de modèle à l'aide des champs. Cette propriété est utilisée lorsque « doc.AttachedTemplate » est vide.
+// Si cette propriété est vide, le nom de fichier de modèle par défaut « Normal.dotm » est utilisé.
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);

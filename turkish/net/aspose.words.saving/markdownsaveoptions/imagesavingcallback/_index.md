@@ -2,15 +2,15 @@
 title: MarkdownSaveOptions.ImageSavingCallback
 linktitle: ImageSavingCallback
 articleTitle: ImageSavingCallback
-second_title: Aspose.Words for .NET
-description: MarkdownSaveOptions ImageSavingCallback mülk. Bir belge ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format C#'da.
+second_title: .NET için Aspose.Words
+description: MarkdownSaveOptions' ImageSavingCallback ile Markdown'da görüntü kaydetmeyi kontrol edin. Belge biçimlendirmesini geliştirin ve iş akışınızı zahmetsizce hızlandırın!
 type: docs
-weight: 30
+weight: 70
 url: /tr/net/aspose.words.saving/markdownsaveoptions/imagesavingcallback/
 ---
 ## MarkdownSaveOptions.ImageSavingCallback property
 
-Bir belge 'ye kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenize izin verirMarkdown format.
+Bir belge kaydedildiğinde görüntülerin nasıl kaydedileceğini kontrol etmenizi sağlar Markdown biçim.
 
 ```csharp
 public IImageSavingCallback ImageSavingCallback { get; set; }
@@ -18,7 +18,7 @@ public IImageSavingCallback ImageSavingCallback { get; set; }
 
 ## Örnekler
 
-Markdown belgesine kaydederken görüntü adının nasıl yeniden adlandırılacağını gösterir.
+Markdown belgesine kaydederken resim adının nasıl değiştirileceğini gösterir.
 
 ```csharp
 public void RenameImages()
@@ -26,13 +26,13 @@ public void RenameImages()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-
-    // Eğer görseller içeren bir belgeyi Markdown'a dönüştürürsek, birden fazla görsele bağlantı veren bir Markdown dosyası elde ederiz.
-    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacaktır.
-    // Her görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
+    // Resim içeren bir belgeyi Markdown'a dönüştürürsek, birden fazla resme bağlantı veren tek bir Markdown dosyası elde ederiz.
+    // Her görüntü yerel dosya sisteminde bir dosya biçiminde olacak.
+    // Ayrıca her bir görüntünün adını ve dosya sistemi konumunu özelleştirebilen bir geri çağırma da vardır.
     saveOptions.ImageSavingCallback = new SavedImageRename("MarkdownSaveOptions.HandleDocument.md");
+    saveOptions.SaveFormat = SaveFormat.Markdown;
 
-    // Geri çağrımızın ImageSaving() yöntemi şu anda çalıştırılacak.
+    // Geri aramamızın ImageSaving() metodu bu anda çalıştırılacak.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
     Assert.AreEqual(1,
@@ -46,7 +46,7 @@ public void RenameImages()
 }
 
 /// <summary>
-/// Markdown belgesi kaydedildiğinde üretilen kayıtlı görüntüleri yeniden adlandırır.
+/// Bir Markdown belgesi kaydedildiğinde üretilen kaydedilmiş görüntüleri yeniden adlandırır.
 /// </summary>
 public class SavedImageRename : IImageSavingCallback
 {

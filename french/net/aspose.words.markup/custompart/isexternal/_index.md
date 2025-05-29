@@ -3,14 +3,14 @@ title: CustomPart.IsExternal
 linktitle: IsExternal
 articleTitle: IsExternal
 second_title: Aspose.Words pour .NET
-description: CustomPart IsExternal propriété. False si cette partie personnalisée est stockée dans le package OOXML. Vrai si cette pièce personnalisée est une cible externe en C#.
+description: Découvrez la propriété CustomPart IsExternal, apprenez comment elle définit les parties personnalisées internes et externes dans les packages OOXML pour une gestion simplifiée des données.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.markup/custompart/isexternal/
 ---
 ## CustomPart.IsExternal property
 
-False si cette partie personnalisée est stockée dans le package OOXML. Vrai si cette pièce personnalisée est une cible externe.
+Faux si cette partie personnalisée est stockée dans le package OOXML. Vrai si cette partie personnalisée est une cible externe.
 
 ```csharp
 public bool IsExternal { get; set; }
@@ -22,7 +22,7 @@ La valeur par défaut est`FAUX`.
 
 ## Exemples
 
-Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
+Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -34,7 +34,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Énumère la collection et imprime chaque partie.
+// Énumérer la collection et imprimer chaque partie.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -51,7 +51,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

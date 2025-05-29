@@ -1,21 +1,55 @@
 ---
 title: ChartDataPointCollection.CopyFormat
-second_title: Aspose.Words for .NET API Referansı
-description: ChartDataPointCollection yöntem. 
+linktitle: CopyFormat
+articleTitle: CopyFormat
+second_title: .NET için Aspose.Words
+description: ChartDataPointCollection CopyFormat yöntemi ile veri noktaları arasındaki biçimlendirmeyi zahmetsizce kopyalayın. Veri görselleştirmenizi bugün geliştirin!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.drawing.charts/chartdatapointcollection/copyformat/
 ---
 ## ChartDataPointCollection.CopyFormat method
 
+Biçimi kaynak veri noktasından hedef veri noktasına kopyalar.
+
 ```csharp
 public void CopyFormat(int sourceIndex, int destinationIndex)
+```
+
+## Örnekler
+
+Veri noktası biçiminin nasıl kopyalanacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "DataPoint format.docx");
+
+// Grafik ve seriyi güncel formata getir.
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+ChartSeries series = shape.Chart.Series[0];
+ChartDataPointCollection dataPoints = series.DataPoints;
+
+Assert.IsTrue(dataPoints.HasDefaultFormat(0));
+Assert.IsFalse(dataPoints.HasDefaultFormat(1));
+
+// 1 indeksli veri noktasının biçimini 2 indeksli veri noktasına kopyala
+// böylece veri noktası 2, veri noktası 1 ile aynı görünür.
+dataPoints.CopyFormat(0, 1);
+
+Assert.IsTrue(dataPoints.HasDefaultFormat(0));
+Assert.IsTrue(dataPoints.HasDefaultFormat(1));
+
+// 0 endeksli veri noktasının biçimini, tüm veri noktalarının varsayılan seri değerlerine kopyalayın.
+// varsayılan formata sahip olan dizilerde veri noktası 0 ile aynı görünür.
+series.CopyFormatFrom(1);
+
+Assert.IsTrue(dataPoints.HasDefaultFormat(0));
+Assert.IsTrue(dataPoints.HasDefaultFormat(1));
+
+doc.Save(ArtifactsDir + "Charts.CopyDataPointFormat.docx");
 ```
 
 ### Ayrıca bakınız
 
 * class [ChartDataPointCollection](../)
-* ad alanı [Aspose.Words.Drawing.Charts](../../chartdatapointcollection/)
+* ad alanı [Aspose.Words.Drawing.Charts](../../../aspose.words.drawing.charts/)
 * toplantı [Aspose.Words](../../../)
-
-

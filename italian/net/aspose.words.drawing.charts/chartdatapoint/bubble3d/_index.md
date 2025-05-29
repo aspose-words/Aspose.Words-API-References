@@ -3,7 +3,7 @@ title: ChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words per .NET
-description: ChartDataPoint Bubble3D proprietà. Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D in C#.
+description: Migliora il tuo grafico a bolle con la proprietà Bubble3D di ChartDataPoint, aggiungendo straordinari effetti 3D alla visualizzazione dei dati per ottenere informazioni di grande impatto.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/chartdatapoint/bubble3d/

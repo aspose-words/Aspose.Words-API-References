@@ -3,14 +3,14 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: Aspose.Words для .NET
-description: ShapeBase CanHaveImage свойство. Возвращаетистинный если тип фигуры позволяет фигуре иметь изображение на С#.
+description: Откройте для себя свойство ShapeBase CanHaveImage — узнайте, как определить, поддерживает ли ваш тип фигуры изображения для повышения визуальной привлекательности!
 type: docs
 weight: 100
 url: /ru/net/aspose.words.drawing/shapebase/canhaveimage/
 ---
 ## ShapeBase.CanHaveImage property
 
-Возвращает`истинный` если тип фигуры позволяет фигуре иметь изображение.
+Возврат`истинный` если тип фигуры позволяет фигуре иметь изображение.
 
 ```csharp
 public bool CanHaveImage { get; }
@@ -18,22 +18,22 @@ public bool CanHaveImage { get; }
 
 ## Примечания
 
-Хотя Microsoft Word имеет специальный тип фигуры для изображений, похоже, что в документах Microsoft Word любая shape , за исключением групповой фигуры, может иметь изображение, поэтому это свойство возвращает`истинный` для всех фигур, кроме[`GroupShape`](../../groupshape/).
+Хотя в Microsoft Word есть специальный тип фигуры для изображений, похоже, что в документах Microsoft Word любая фигура shape , за исключением групповой фигуры, может иметь изображение, поэтому это свойство возвращает`истинный` для всех форм, кроме[`GroupShape`](../../groupshape/).
 
 ## Примеры
 
-Показывает, как вставлять и поворачивать изображение.
+Показывает, как вставить и повернуть изображение.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем фигуру с изображением.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+// Вставьте фигуру с изображением.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Поворот изображения на 45 градусов по часовой стрелке.
+// Повернуть изображение на 45 градусов по часовой стрелке.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

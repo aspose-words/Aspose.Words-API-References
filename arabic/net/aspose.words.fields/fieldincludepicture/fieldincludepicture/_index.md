@@ -3,7 +3,7 @@ title: FieldIncludePicture
 linktitle: FieldIncludePicture
 articleTitle: FieldIncludePicture
 second_title: Aspose.Words لـ .NET
-description: FieldIncludePicture البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldIncludePicture لدمج الصور بسلاسة. تمتع بوظائف مُحسّنة مع مُنشئنا الافتراضي اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldincludepicture/fieldincludepicture/

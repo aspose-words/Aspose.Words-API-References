@@ -3,16 +3,16 @@ title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.NodeList classe. Représente une collection de nœuds correspondant à une requête XPath exécutée à laide duSelectNodes méthode en C#.
+description: Explorez la classe Aspose.Words.NodeList, votre solution de référence pour gérer efficacement les résultats des requêtes XPath et améliorer les capacités de traitement des documents.
 type: docs
-weight: 4220
+weight: 4910
 url: /fr/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-Représente une collection de nœuds correspondant à une requête XPath exécutée à l'aide du[`SelectNodes`](../compositenode/selectnodes/) méthode.
+Représente une collection de nœuds correspondant à une requête XPath exécutée à l'aide de[`SelectNodes`](../compositenode/selectnodes/) méthode.
 
-Pour en savoir plus, visitez le[Modèle objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article documentaire.
+Pour en savoir plus, visitez le[Modèle d'objet de document (DOM) Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) article de documentation.
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -29,20 +29,20 @@ public class NodeList : IEnumerable<Node>
 
 | Nom | La description |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fournit une simple itération de style "foreach" sur la collection de nœuds. |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | Fournit une itération simple de style « foreach » sur la collection de nœuds. |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | Copie tous les nœuds de la collection vers un nouveau tableau de nœuds. |
 
 ## Remarques
 
 `NodeList` est renvoyé par[`SelectNodes`](../compositenode/selectnodes/) et contient une collection de nœuds correspondant à la requête XPath.
 
-`NodeList` prend en charge l’accès et l’itération indexés.
+`NodeList` prend en charge l'accès indexé et l'itération.
 
-Traitez le`NodeList` collection sous forme de collection « instantané ».`NodeList`start en tant que collection "live" car les nœuds ne sont pas réellement récupérés lorsque la requête XPath est exécutée. Les nœuds ne sont récupérés qu'à l'accès et à ce moment, le nœud et tous les nœuds qui le précèdent sont mis en cache pour former une collection "instantané".
+Traiter le`NodeList` collection comme une collection « instantané ».`NodeList` starts comme une collection « live » car les nœuds ne sont pas réellement récupérés lorsque la requête XPath est exécutée. Les nœuds ne sont récupérés que lors de l'accès et à ce moment-là, le nœud et tous les nœuds qui le précèdent sont mis en cache formant une collection « snapshot ».
 
 ## Exemples
 
-Montre comment rechercher tous les liens hypertexte dans un document Word, puis modifier leurs URL et leurs noms d’affichage.
+Montre comment rechercher tous les hyperliens dans un document Word, puis modifier leurs URL et leurs noms d’affichage.
 
 ```csharp
 using System;
@@ -61,8 +61,8 @@ namespace ApiExamples
         {
             Document doc = new Document(MyDir + "Hyperlinks.docx");
 
-            // Les hyperliens dans un document Word sont des champs. Pour commencer à chercher des hyperliens, il faut d’abord trouver tous les champs.
-            // Utilisez la méthode "SelectNodes" pour retrouver tous les champs du document via un XPath.
+            // Les hyperliens dans un document Word sont des champs. Pour rechercher des hyperliens, il faut d'abord trouver tous les champs.
+            // Utilisez la méthode « SelectNodes » pour rechercher tous les champs du document via un XPath.
             NodeList fieldStarts = doc.SelectNodes("//Début du champ");
 
             foreach (FieldStart fieldStart in fieldStarts.OfType<FieldStart>())
@@ -71,11 +71,11 @@ namespace ApiExamples
                 {
                     Hyperlink hyperlink = new Hyperlink(fieldStart);
 
-                    // Les hyperliens renvoyant vers des signets n'ont pas d'URL.
+                    // Les hyperliens qui renvoient vers des signets n'ont pas d'URL.
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // Attribue à chaque lien hypertexte URL une nouvelle URL et un nouveau nom.
+                    // Donnez à chaque lien hypertexte URL une nouvelle URL et un nouveau nom.
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -90,8 +90,8 @@ namespace ApiExamples
 
      ///<summary>
       ///Les champs HYPERLINK contiennent et affichent des hyperliens dans le corps du document. Un champ dans Aspose.Words
-      ///se compose de plusieurs nœuds et il peut être difficile de travailler directement avec tous ces nœuds.
-     ///Cette implémentation ne fonctionnera que si le code et le nom du lien hypertexte sont chacun constitués d'un seul nœud Run.
+      ///se compose de plusieurs nœuds, et il peut être difficile de travailler directement avec tous ces nœuds.
+     ///Cette implémentation ne fonctionnera que si le code et le nom du lien hypertexte se composent chacun d'un seul nœud Exécuter.
     ///
      ///La structure des nœuds pour les champs est la suivante :
      ///
@@ -114,22 +114,22 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // Recherche le nœud séparateur de champ.
+            // Rechercher le nœud séparateur de champ.
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // Normalement, on peut toujours trouver le nœud de fin du champ, mais le document exemple
-             // contient un saut de paragraphe à l'intérieur d'un lien hypertexte, qui met le champ à la fin
-            // dans le paragraphe suivant. Il sera beaucoup plus compliqué de gérer des champs qui s'étendent sur plusieurs
-            // paragraphes correctement. Dans ce cas, il suffit de permettre à la fin du champ d'être nulle.
+             // Normalement, nous pouvons toujours trouver le nœud de fin du champ, mais le document d'exemple
+             // contient un saut de paragraphe à l'intérieur d'un lien hypertexte, ce qui met le champ à la fin
+             // dans le paragraphe suivant. Il sera beaucoup plus compliqué de gérer des champs qui s'étendent sur plusieurs
+            // Paragraphes correctement. Dans ce cas, autoriser la valeur null pour le champ end suffit.
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // Le code du champ ressemble à "HYPERLINK "http:\\www.myurl.com"", mais il peut être composé de plusieurs exécutions.
+            // Le code du champ ressemble à quelque chose comme "HYPERLINK "http:\\www.myurl.com"", mais il peut être composé de plusieurs exécutions.
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
-            // Le lien hypertexte est local si \l est présent dans le code du champ.
+            // L'hyperlien est local si \l est présent dans le code du champ.
             mIsLocal = match.Groups[1].Length > 0; 
             mTarget = match.Groups[2].Value;
         }
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // Le nom d'affichage du lien hypertexte est stocké dans le résultat du champ, qui est un Run
+                 // Le nom d'affichage du lien hypertexte est stocké dans le champ résultat, qui est une exécution
                 // nœud entre le séparateur de champ et la fin du champ.
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // Si le résultat du champ comprend plusieurs exécutions, supprimez ces exécutions.
+                // Si le résultat du champ se compose de plusieurs exécutions, supprimez ces exécutions.
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,11 +189,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // Le code de champ d'un champ se trouve dans un nœud Exécuter entre le nœud de début du champ et le séparateur de champ.
+            // Le code de champ d'un champ se trouve dans un nœud Exécuter entre le nœud de départ du champ et le séparateur de champ.
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // Si le code de champ comprend plusieurs exécutions, supprimez ces exécutions.
+            // Si le code de champ se compose de plusieurs exécutions, supprimez ces exécutions.
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -242,12 +251,12 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // Un ou plusieurs HYPERLIEN sans espaces ou autre mot dans d'autres langues.
+            "\\S+" + // Un ou plusieurs HYPERLINK ou autre mot non-espace dans d'autres langues.
             "\\s+" + // Un ou plusieurs espaces.
-            "(?:\"\"\\s+)?" + // Non-capture "" facultatif et un ou plusieurs espaces.
-            "(\\\\l\\s+)?" + // Indicateur \l facultatif suivi d'un ou plusieurs espaces.
+            "(?:\"\"\\s+)?" + // Facultatif non capturant "" et un ou plusieurs espaces.
+            "(\\\\l\\s+)?" + // Indicateur facultatif \l suivi d'un ou plusieurs espaces.
             "\"" +  // Une apostrophe.
-            "([^\"]+)" + // Un ou plusieurs caractères, hors apostrophe (cible du lien hypertexte).
+            "([^\"]+)" + // Un ou plusieurs caractères, à l'exclusion de l'apostrophe (cible du lien hypertexte).
             "\"" // Une apostrophe fermante.
         );
     }

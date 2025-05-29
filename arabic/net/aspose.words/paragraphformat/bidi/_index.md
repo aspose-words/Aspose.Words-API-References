@@ -3,14 +3,14 @@ title: ParagraphFormat.Bidi
 linktitle: Bidi
 articleTitle: Bidi
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat Bidi ملكية. الحصول على أو تحديد ما إذا كانت هذه فقرة من اليمين إلى اليسار في C#.
+description: اكتشف خاصية ParagraphFormat Bidi للتحكم بسهولة في تنسيق النص من اليمين إلى اليسار لتحسين قابلية القراءة وتحسين تخطيط المستند.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/paragraphformat/bidi/
 ---
 ## ParagraphFormat.Bidi property
 
-الحصول على أو تحديد ما إذا كانت هذه فقرة من اليمين إلى اليسار.
+يحصل على ما إذا كانت هذه الفقرة من اليمين إلى اليسار أو يحدد ما إذا كانت كذلك.
 
 ```csharp
 public bool Bidi { get; set; }
@@ -18,28 +18,28 @@ public bool Bidi { get; set; }
 
 ## ملاحظات
 
-متى`حقيقي`، تم وضع عمليات التشغيل والكائنات المضمنة الأخرى في هذه الفقرة من اليمين إلى اليسار.
+متى`حقيقي`، يتم عرض عمليات التشغيل والكائنات المضمنة الأخرى في هذه الفقرة من اليمين إلى اليسار.
 
 ## أمثلة
 
-يوضح كيفية اكتشاف اتجاه نص مستند النص العادي.
+يوضح كيفية اكتشاف اتجاه نص المستند النصي العادي.
 
 ```csharp
-// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى مُنشئ المستند
-// لتعديل كيفية تحميل مستند نص عادي.
+// قم بإنشاء كائن "TxtLoadOptions"، والذي يمكننا تمريره إلى منشئ المستند
+// لتعديل كيفية تحميل مستند النص العادي.
 TxtLoadOptions loadOptions = new TxtLoadOptions();
 
-// قم بتعيين خاصية "DocumentDirection" على "DocumentDirection.Auto" التي يتم اكتشافها تلقائيًا
-// اتجاه كل فقرة من النص يقوم Aspose.Words بتحميلها من النص العادي.
-// خاصية "Bidi" لكل فقرة ستخزن اتجاهها.
+// تعيين خاصية "DocumentDirection" إلى "DocumentDirection.Auto" يكتشف تلقائيًا
+//اتجاه كل فقرة من النص الذي يقوم Aspose.Words بتحميله من النص العادي.
+// ستقوم خاصية "Bidi" الخاصة بكل فقرة بتخزين اتجاهها.
 loadOptions.DocumentDirection = DocumentDirection.Auto;
 
-// كشف النص العبري من اليمين إلى اليسار.
+// اكتشاف النص العبري من اليمين إلى اليسار.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
 Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
 
-// اكتشاف النص الإنجليزي باعتباره من اليمين إلى اليسار.
+// اكتشاف النص الإنجليزي من اليمين إلى اليسار.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
 Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
@@ -52,27 +52,27 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // يقوم حقل BIDIOUTLINE بترقيم الفقرات مثل حقول AUTONUM/LISTNUM،
-// ولكنه يكون مرئيًا فقط عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
-// سيعرض الحقل التالي ".1"، وهو ما يعادل رقم القائمة "1." من اليمين إلى اليسار (RTL).
+// ولكن لا يمكن رؤيته إلا عند تمكين لغة التحرير من اليمين إلى اليسار، مثل العبرية أو العربية.
+// سيعرض الحقل التالي ".1"، وهو المعادل من RTL لرقم القائمة "1".
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
 Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
 
-// أضف حقلين آخرين لـ BIDIOUTLINE، حيث سيتم عرض ".2" و".3".
+// أضف حقلين آخرين من BIDIOUTLINE، والذي سيعرض ".2" و".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-// اضبط محاذاة النص الأفقي لكل فقرة في المستند على RTL.
+// قم بتعيين محاذاة النص الأفقية لكل فقرة في المستند إلى RTL.
 foreach (Paragraph para in doc.GetChildNodes(NodeType.Paragraph, true))
 {
     para.ParagraphFormat.Bidi = true;
 }
 
 // إذا قمنا بتمكين لغة التحرير من اليمين إلى اليسار في Microsoft Word، فستعرض حقولنا أرقامًا.
-// وإلا فسوف يعرضون "###".
+// وإلا، فسوف يتم عرض "###".
 doc.Save(ArtifactsDir + "Field.BIDIOUTLINE.docx");
 ```
 

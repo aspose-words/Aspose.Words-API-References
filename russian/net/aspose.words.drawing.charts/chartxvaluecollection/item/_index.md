@@ -3,14 +3,14 @@ title: ChartXValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: ChartXValueCollection Item свойство. Получает или задает значение X по указанному индексу на С#.
+description: Откройте для себя свойство ChartXValueCollection Item, чтобы легко получать доступ к значениям X или изменять их по любому индексу, расширяя возможности визуализации данных.
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartxvaluecollection/item/
 ---
 ## ChartXValueCollection indexer
 
-Получает или задает значение X по указанному индексу.
+Возвращает или задает значение X по указанному индексу.
 
 ```csharp
 public ChartXValue this[int index] { get; set; }

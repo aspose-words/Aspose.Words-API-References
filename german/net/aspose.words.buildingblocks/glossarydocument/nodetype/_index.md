@@ -3,14 +3,14 @@ title: GlossaryDocument.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words für .NET
-description: GlossaryDocument NodeType eigendom. Gibt die zurückGlossaryDocument value in C#.
+description: Entdecken Sie die NodeType-Eigenschaft „GlossarDocument“, die den GlossaryDocument-Wert für eine verbesserte Inhaltsverwaltung effizient abruft.
 type: docs
 weight: 50
 url: /de/net/aspose.words.buildingblocks/glossarydocument/nodetype/
 ---
 ## GlossaryDocument.NodeType property
 
-Gibt die zurückGlossaryDocument value.
+Gibt dieGlossaryDocument Wert.
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -25,16 +25,16 @@ public void RecurseChildren()
 {
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
-    // Jeder Knoten, der untergeordnete Knoten enthalten kann, z. B. das Dokument selbst, ist zusammengesetzt.
+    // Jeder Knoten, der untergeordnete Knoten enthalten kann, wie z. B. das Dokument selbst, ist zusammengesetzt.
     Assert.True(doc.IsComposite);
 
-    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und ausgibt.
+    // Rufen Sie die rekursive Funktion auf, die alle untergeordneten Knoten eines zusammengesetzten Knotens durchläuft und druckt.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Durchläuft rekursiv einen Knotenbaum und gibt dabei den Typ jedes Knotens aus
-/// mit einem Einzug abhängig von der Tiefe sowie dem Inhalt aller Inline-Knoten.
+/// mit einem Einzug, der von der Tiefe sowie dem Inhalt aller Inline-Knoten abhängt.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls drucken Sie den Inhalt aus, wenn es sich um einen Inline-Knoten handelt.
+        // Rekursion in den Knoten, wenn es sich um einen zusammengesetzten Knoten handelt. Andernfalls wird der Inhalt gedruckt, wenn es sich um einen Inline-Knoten handelt.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

@@ -3,14 +3,14 @@ title: CompositeNode.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words för .NET
-description: CompositeNode IndexOf metod. Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen i C#.
+description: Upptäck hur metoden CompositeNode IndexOf effektivt lokaliserar indexet för en specificerad undernod i arrayen, vilket förbättrar din kodningsupplevelse.
 type: docs
-weight: 120
+weight: 140
 url: /sv/net/aspose.words/compositenode/indexof/
 ---
 ## CompositeNode.IndexOf method
 
-Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen.
+Returnerar indexet för den angivna undernoden i undernodsmatrisen.
 
 ```csharp
 public int IndexOf(Node child)
@@ -18,11 +18,11 @@ public int IndexOf(Node child)
 
 ## Anmärkningar
 
-Returnerar -1 om noden inte hittas i de underordnade noderna.
+Returnerar -1 om noden inte hittas i undernoderna.
 
 ## Exempel
 
-Visar hur man hämtar indexet för en given underordnad nod från dess förälder.
+Visar hur man hämtar indexet för en given undernod från dess förälder.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

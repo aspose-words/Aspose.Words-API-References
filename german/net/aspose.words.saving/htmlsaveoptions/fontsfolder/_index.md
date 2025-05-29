@@ -3,14 +3,14 @@ title: HtmlSaveOptions.FontsFolder
 linktitle: FontsFolder
 articleTitle: FontsFolder
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions FontsFolder eigendom. Gibt den physischen Ordner an in dem Schriftarten gespeichert werden wenn ein Dokument nach HTML exportiert wird. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die FontsFolder-Eigenschaft von HtmlSaveOptions, um die Schriftartenspeicherung für HTML-Exporte einfach zu verwalten und so die Dokumentpräsentation und -zugänglichkeit zu verbessern.
 type: docs
 weight: 310
 url: /de/net/aspose.words.saving/htmlsaveoptions/fontsfolder/
 ---
 ## HtmlSaveOptions.FontsFolder property
 
-Gibt den physischen Ordner an, in dem Schriftarten gespeichert werden, wenn ein Dokument nach HTML exportiert wird. Der Standardwert ist eine leere Zeichenfolge.
+Gibt den physischen Ordner an, in dem Schriftarten beim Exportieren eines Dokuments nach HTML gespeichert werden. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string FontsFolder { get; set; }
@@ -18,19 +18,19 @@ public string FontsFolder { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) im HTML-Format und[`ExportFontResources`](../exportfontresources/) ist eingestellt auf`WAHR` , Aspose.Words muss die im Dokument verwendeten Schriftarten als eigenständige Dateien speichern. `FontsFolder` Hier können Sie angeben, wo die Schriftarten gespeichert werden und [`FontsFolderAlias`](../fontsfolderalias/) ermöglicht die Angabe, wie die Schriftart-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) im HTML-Format und[`ExportFontResources`](../exportfontresources/) ist eingestellt auf`WAHR` , Aspose.Words muss die im Dokument verwendeten Schriftarten als eigenständige Dateien speichern. `FontsFolder` ermöglicht Ihnen, anzugeben, wo die Schriftarten gespeichert werden und [`FontsFolderAlias`](../fontsfolderalias/) ermöglicht die Angabe, wie die Schriftart-URIs erstellt werden.
 
-Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words die -Schriftarten standardmäßig im selben Ordner, in dem die Dokumentdatei gespeichert ist. Verwenden`FontsFolder` , um dieses Verhalten zu überschreiben.
+Wenn Sie ein Dokument in einer Datei speichern und einen Dateinamen angeben, speichert Aspose.Words standardmäßig die Schriftarten im selben Ordner wie die Dokumentdatei. Verwenden Sie`FontsFolder` , um dieses Verhalten zu überschreiben.
 
-Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words über keinen Ordner zum Speichern der Schriftarten, , muss die Schriftarten jedoch trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner im angeben`FontsFolder` Eigenschaft oder stellen Sie benutzerdefinierte Streams über bereit[`FontSavingCallback`](../fontsavingcallback/) Ereignishandler.
+Wenn Sie ein Dokument in einem Stream speichern, verfügt Aspose.Words nicht über einen Ordner, in dem die Schriftarten gespeichert werden können, , muss die Schriftarten aber trotzdem irgendwo speichern. In diesem Fall müssen Sie einen zugänglichen Ordner in der`FontsFolder` Eigenschaft oder stellen Sie benutzerdefinierte Streams bereit via die[`FontSavingCallback`](../fontsavingcallback/) Ereignishandler.
 
-Wenn der von angegebene Ordner`FontsFolder` nicht existiert, wird es automatisch erstellt.
+Wenn der von angegebene Ordner`FontsFolder` nicht vorhanden ist, wird es automatisch erstellt.
 
 [`ResourceFolder`](../resourcefolder/) ist eine weitere Möglichkeit, einen Ordner anzugeben, in dem Schriftarten gespeichert werden sollen.
 
 ## Beispiele
 
-Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments in HTML erstellt.
+Zeigt, wie Ordner und Ordneraliase für extern gespeicherte Ressourcen festgelegt werden, die Aspose.Words beim Speichern eines Dokuments im HTML-Format erstellt.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

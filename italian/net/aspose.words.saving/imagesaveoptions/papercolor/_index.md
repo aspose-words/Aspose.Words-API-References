@@ -3,7 +3,7 @@ title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
 second_title: Aspose.Words per .NET
-description: ImageSaveOptions PaperColor proprietà. Ottiene o imposta il colore di sfondo carta per le immagini generate in C#.
+description: Scopri la proprietà PaperColor di ImageSaveOptions per personalizzare facilmente i colori di sfondo delle immagini generate, migliorandone l'attrattiva visiva e l'unicità.
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/imagesaveoptions/papercolor/
@@ -20,11 +20,11 @@ public Color PaperColor { get; set; }
 
 ## Osservazioni
 
-Quando si esegue il rendering delle pagine di un documento che specifica il proprio colore di sfondo, il colore di sfondo del documento sovrascriverà il colore specificato da questa proprietà.
+Durante il rendering delle pagine di un documento che specifica il proprio colore di sfondo, , il colore di sfondo del documento sovrascriverà il colore specificato da questa proprietà.
 
 ## Esempi
 
-Trasforma una pagina di un documento Word in un'immagine con sfondo trasparente o colorato.
+Converte una pagina di un documento Word in un'immagine con sfondo trasparente o colorato.
 
 ```csharp
 Document doc = new Document();
@@ -36,10 +36,9 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Crea un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
-// per modificare il modo in cui il metodo trasforma il documento in un'immagine.
+// Creiamo un oggetto "ImageSaveOptions" che possiamo passare al metodo "Save" del documento
+// per modificare il modo in cui quel metodo trasforma il documento in un'immagine.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
 // Imposta la proprietà "PaperColor" su un colore trasparente per applicare un colore trasparente
 // sfondo del documento durante il rendering in un'immagine.
 imgOptions.PaperColor = Color.Transparent;

@@ -3,14 +3,14 @@ title: NumberStyle Enum
 linktitle: NumberStyle
 articleTitle: NumberStyle
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.NumberStyle énumération. Spécifie le style de numérotation dune liste les notes de bas de page et de fin les numéros de page en C#.
+description: Découvrez l'énumération Aspose.Words.NumberStyle pour personnaliser les numéros de page des notes de bas de page et des notes de fin, améliorant ainsi la mise en forme de votre document sans effort.
 type: docs
-weight: 4310
+weight: 5040
 url: /fr/net/aspose.words/numberstyle/
 ---
 ## NumberStyle enumeration
 
-Spécifie le style de numérotation d'une liste, les notes de bas de page et de fin, les numéros de page.
+Spécifie le style de numérotation d'une liste, des notes de bas de page et de fin, ainsi que des numéros de page.
 
 ```csharp
 public enum NumberStyle
@@ -22,7 +22,7 @@ public enum NumberStyle
 | --- | --- | --- |
 | Arabic | `0` | Numérotation arabe (1, 2, 3, ...) |
 | UppercaseRoman | `1` | Majuscules romaines (I, II, III, ...) |
-| LowercaseRoman | `2` | Minuscules romains (i, ii, iii, ...) |
+| LowercaseRoman | `2` | Minuscules romaines (i, ii, iii, ...) |
 | UppercaseLetter | `3` | Lettre majuscule (A, B, C, ...) |
 | LowercaseLetter | `4` | Lettre minuscule (a, b, c, ...) |
 | Ordinal | `5` | Ordinal (1er, 2e, 3e, ...) |
@@ -30,43 +30,43 @@ public enum NumberStyle
 | OrdinalText | `7` | Ordinal (texte) (Premier, Deuxième, Troisième, ...) |
 | Hex | `8` | Hexadécimal : 8, 9, A, B, C, D, E, F, 10, 11, 12 |
 | ChicagoManual | `9` | Manuel de style de Chicago : *, †, † |
-| Kanji | `10` | Idéographe-digital |
-| KanjiDigit | `11` | comptage japonais |
+| Kanji | `10` | Idéogramme-numérique |
+| KanjiDigit | `11` | Comptage japonais |
 | AiueoHalfWidth | `12` | Aiueo |
 | IrohaHalfWidth | `13` | Iroha |
 | ArabicFullWidth | `14` | Arabe pleine largeur : 1, 2, 3, 4 |
-| ArabicHalfWidth | `15` | Arabe demi-chasse : 1, 2, 3, 4 |
+| ArabicHalfWidth | `15` | Demi-largeur Arabe : 1, 2, 3, 4 |
 | KanjiTraditional | `16` | Légal japonais |
 | KanjiTraditional2 | `17` | Dix mille numériques japonais |
 | NumberInCircle | `18` | Cercles fermés |
-| DecimalFullWidth | `19` | Décimal pleine largeur : 1, 2, 3, 4 |
+| DecimalFullWidth | `19` | Largeur décimale complète : 1, 2, 3, 4 |
 | Aiueo | `20` | Aiueo pleine largeur |
 | Iroha | `21` | Iroha pleine largeur |
-| LeadingZero | `22` | Zéro initial (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
-| Bullet | `23` | Bullet (vérifiez le code du caractère dans le texte) |
+| LeadingZero | `22` | Zéro non significatif (01, 02,..., 09, 10, 11,..., 99, 100, 101,...) |
+| Bullet | `23` | Puce (vérifiez le code de caractère dans le texte) |
 | Ganada | `24` | Coréen Ganada |
 | Chosung | `25` | Corée Chosung |
-| GB1 | `26` | Point final fermé |
-| GB2 | `27` | Parenthèse fermée |
-| GB3 | `28` | Cercle fermé Chinese |
+| GB1 | `26` | Point final inclus |
+| GB2 | `27` | Parenthèses incluses |
+| GB3 | `28` | Cercle fermé chinois |
 | GB4 | `29` | Idéogramme cercle fermé |
 | Zodiac1 | `30` | Idéogramme traditionnel |
-| Zodiac2 | `31` | Idéogramme Zodiaque |
+| Zodiac2 | `31` | Idéogramme du zodiaque |
 | Zodiac3 | `32` | Idéogramme du zodiaque traditionnel |
-| TradChinNum1 | `33` | Comptage taïwanais |
+| TradChinNum1 | `33` | Comptage des Taïwanais |
 | TradChinNum2 | `34` | Idéogramme légal traditionnel |
-| TradChinNum3 | `35` | Taïwanais comptant des milliers |
-| TradChinNum4 | `36` | numérique taïwanais |
+| TradChinNum3 | `35` | Les Taïwanais comptent des milliers |
+| TradChinNum4 | `36` | Numérique taïwanais |
 | SimpChinNum1 | `37` | Comptage chinois |
-| SimpChinNum2 | `38` | Juridique chinois simplifié |
-| SimpChinNum3 | `39` | Chinois comptant des milliers |
+| SimpChinNum2 | `38` | Chinois juridique simplifié |
+| SimpChinNum3 | `39` | Compte chinois en milliers |
 | SimpChinNum4 | `40` | Chinois (non implémenté) |
-| HanjaRead | `41` | coréen numérique |
+| HanjaRead | `41` | Coréen numérique |
 | HanjaReadDigit | `42` | Comptage coréen |
-| Hangul | `43` | Corée légal |
-| Hanja | `44` | Corée digital2 |
+| Hangul | `43` | Légal coréen |
+| Hanja | `44` | Corée numérique2 |
 | Hebrew1 | `45` | Hébreu-1 |
-| Arabic1 | `46` | arabe alpha |
+| Arabic1 | `46` | alpha arabe |
 | Hebrew2 | `47` | Hébreu-2 |
 | Arabic2 | `48` | arabe abjad |
 | HindiLetter1 | `49` | Voyelles hindi |
@@ -75,26 +75,26 @@ public enum NumberStyle
 | HindiCardinalText | `52` | Descriptif hindi (cardinaux) |
 | ThaiLetter | `53` | Lettres thaïlandaises |
 | ThaiArabic | `54` | Numéros thaïlandais |
-| ThaiCardinalText | `55` | Descriptif thaïlandais (cardinaux) |
+| ThaiCardinalText | `55` | Descriptif thaï (cardinaux) |
 | VietCardinalText | `56` | Descriptif vietnamien (cardinaux) |
 | NumberInDash | `57` | Format du numéro de page : - 1 -, - 2 -, - 3 -, - 4 - |
 | LowercaseRussian | `58` | Alphabet russe minuscule |
 | UppercaseRussian | `59` | Alphabet russe majuscule |
 | None | `255` | Pas de puce ni de numéro. |
-| Custom | `65280` | Format de numéro personnalisé. Il est pris en charge uniquement par le format DOCX. |
+| Custom | `65280` | Format numérique personnalisé. Uniquement compatible avec le format DOCX. |
 
 ## Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

@@ -3,32 +3,34 @@ title: RtfLoadOptions.RecognizeUtf8Text
 linktitle: RecognizeUtf8Text
 articleTitle: RecognizeUtf8Text
 second_title: Aspose.Words für .NET
-description: RtfLoadOptions RecognizeUtf8Text eigendom. Wenn eingestellt aufWAHR CharsetDetector wird versuchen UTF8Zeichen zu erkennen sie bleiben beim Import erhalten in C#.
+description: Entdecken Sie, wie die Eigenschaft „RecognizeUtf8Text“ von RtfLoadOptions UTF-8-Zeichen während des Imports beibehält und so eine genaue Textdarstellung und nahtlose Integration gewährleistet.
 type: docs
 weight: 20
 url: /de/net/aspose.words.loading/rtfloadoptions/recognizeutf8text/
 ---
 ## RtfLoadOptions.RecognizeUtf8Text property
 
-Wenn eingestellt auf`WAHR` ,CharsetDetector wird versuchen, UTF8-Zeichen zu erkennen, sie bleiben beim Import erhalten.
-
-Der Standardwert ist`FALSCH` .
+Bei Einstellung auf`WAHR` , versucht, UTF8-Zeichen zu erkennen, sie bleiben beim Import erhalten.
 
 ```csharp
 public bool RecognizeUtf8Text { get; set; }
 ```
 
+## Bemerkungen
+
+Der Standardwert ist`FALSCH`.
+
 ## Beispiele
 
-Zeigt, wie UTF-8-Zeichen beim Laden eines RTF-Dokuments erkannt werden.
+Zeigt, wie beim Laden eines RTF-Dokuments UTF-8-Zeichen erkannt werden.
 
 ```csharp
 // Erstellen Sie ein „RtfLoadOptions“-Objekt, um zu ändern, wie wir ein RTF-Dokument laden.
 RtfLoadOptions loadOptions = new RtfLoadOptions();
 
-// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „false“, um anzunehmen, dass das Dokument den ISO 8859-1-Zeichensatz verwendet
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „false“, um anzunehmen, dass das Dokument den Zeichensatz ISO 8859-1 verwendet
 // und lädt jedes Zeichen im Dokument.
-// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „true“, um alle Zeichen variabler Länge zu analysieren, die im Text vorkommen können.
+// Setzen Sie die Eigenschaft „RecognizeUtf8Text“ auf „true“, um alle im Text vorkommenden Zeichen variabler Länge zu analysieren.
 loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);

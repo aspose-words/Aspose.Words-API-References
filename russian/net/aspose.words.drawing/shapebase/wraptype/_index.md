@@ -3,14 +3,14 @@ title: ShapeBase.WrapType
 linktitle: WrapType
 articleTitle: WrapType
 second_title: Aspose.Words для .NET
-description: ShapeBase WrapType свойство. Определяет является ли фигура строковой или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры на С#.
+description: Откройте для себя свойство ShapeBase WrapType, управляйте встроенными или плавающими фигурами и настраивайте обтекание текстом для повышения гибкости макета.
 type: docs
-weight: 600
+weight: 640
 url: /ru/net/aspose.words.drawing/shapebase/wraptype/
 ---
 ## ShapeBase.WrapType property
 
-Определяет, является ли фигура строковой или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры.
+Определяет, является ли фигура встроенной или плавающей. Для плавающих фигур определяет режим обтекания текста вокруг фигуры.
 
 ```csharp
 public WrapType WrapType { get; set; }
@@ -20,7 +20,7 @@ public WrapType WrapType { get; set; }
 
 Значение по умолчанию:None.
 
-Имеет эффект только для фигур верхнего уровня.
+Действует только для фигур верхнего уровня.
 
 ## Примеры
 
@@ -30,7 +30,7 @@ public WrapType WrapType { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;
@@ -47,7 +47,7 @@ doc.Save(ArtifactsDir + "Image.CreateFloatingPageCenter.docx");
 ```csharp
 Document doc = new Document();
 
-// Создаём плавающее текстовое поле.
+// Создаем плавающее текстовое поле.
 Shape textBox = new Shape(doc, ShapeType.TextBox);
 textBox.WrapType = WrapType.None;
 textBox.Height = 50;
@@ -57,7 +57,7 @@ textBox.Width = 200;
 textBox.HorizontalAlignment = HorizontalAlignment.Center;
 textBox.VerticalAlignment = VerticalAlignment.Top;
 
-// Добавляем абзац в текстовое поле и добавляем текст, который будет отображаться в текстовом поле.
+// Добавьте абзац в текстовое поле и добавьте фрагмент текста, который будет отображаться в текстовом поле.
 textBox.AppendChild(new Paragraph(doc));
 Paragraph para = textBox.FirstParagraph;
 para.ParagraphFormat.Alignment = ParagraphAlignment.Center;

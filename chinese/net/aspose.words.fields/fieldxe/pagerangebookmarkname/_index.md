@@ -2,15 +2,15 @@
 title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldXE PageRangeBookmarkName 财产. 获取或设置书签的名称该书签标记作为条目页码插入的页面范围 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldXE PageRangeBookmarkName 属性——有效管理书签名称，以便在文档中精确跟踪页面范围。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldxe/pagerangebookmarkname/
 ---
 ## FieldXE.PageRangeBookmarkName property
 
-获取或设置书签的名称，该书签标记作为条目页码插入的页面范围。
+获取或设置标记插入为条目页码的页面范围的书签名称。
 
 ```csharp
 public string PageRangeBookmarkName { get; set; }
@@ -18,21 +18,21 @@ public string PageRangeBookmarkName { get; set; }
 
 ## 例子
 
-演示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
+展示如何将书签的跨页指定为 INDEX 字段条目的页面范围。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
-// 每个条目都会在左侧显示XE字段的Text属性值，
-// 以及右侧包含 XE 字段的页码。
+// 每个条目将在左侧显示 XE 字段的 Text 属性值，
+// 以及右侧包含 XE 字段的页面的编号。
 // INDEX 条目将收集“Text”属性中具有匹配值的所有 XE 字段
-// 进入一个条目，而不是为每个 XE 字段创建一个条目。
+// 合并到一个条目中，而不是为每个 XE 字段创建一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // 对于显示页面范围的 INDEX 条目，我们可以指定分隔符字符串
-// 将出现在第一页的页码和最后一页的页码之间。
+// 它将出现在第一页的页码和最后一页的页码之间。
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
 
@@ -43,8 +43,8 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "My entry";
 
 // 如果 XE 字段使用 PageRangeBookmarkName 属性命名书签，
-// 它的 INDEX 条目将显示书签跨越的页面范围
-// 而不是包含 XE 字段的页码。
+// 其 INDEX 条目将显示书签跨越的页面范围
+// 而不是包含 XE 字段的页面的编号。
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
 Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
@@ -52,7 +52,7 @@ Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
 
 // 插入从第 3 页开始到第 5 页结束的书签。
 // 引用此书签的 XE 字段的 INDEX 条目将显示此页面范围。
-// 在我们的表中，INDEX 条目将显示“我的条目，第 3 至 5 页”。
+// 在我们的表格中，INDEX 条目将显示“我的条目，在第 3 至 5 页”。
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MyBookmark");
 builder.Write("Start of MyBookmark");

@@ -3,7 +3,7 @@ title: ImageSavingArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words для .NET
-description: ImageSavingArgs Document свойство. Получает объект документа который в данный момент сохраняется на С#.
+description: Откройте для себя свойство ImageSavingArgs Document для доступа к текущему сохраняемому документу, что повысит эффективность рабочего процесса и сэкономит время.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/imagesavingargs/document/
@@ -25,8 +25,8 @@ public void ImageSavingCallback()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для обозначения обратного вызова
-    // чтобы настроить процесс сохранения изображения.
+    // Когда мы сохраняем документ в HTML, мы можем передать объект SaveOptions для назначения обратного вызова
+    // для настройки процесса сохранения изображения.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -34,8 +34,8 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Печатает свойства каждого изображения, поскольку процесс сохранения сохраняет его в файл изображения в локальной файловой системе.
-/// при экспорте документа в HTML.
+/// Печатает свойства каждого изображения, поскольку процесс сохранения сохраняет его в файле изображения в локальной файловой системе.
+/// во время экспорта документа в HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback
 {

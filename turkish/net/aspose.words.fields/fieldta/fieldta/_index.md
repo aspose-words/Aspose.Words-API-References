@@ -2,8 +2,8 @@
 title: FieldTA
 linktitle: FieldTA
 articleTitle: FieldTA
-second_title: Aspose.Words for .NET
-description: FieldTA inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz entegrasyon için FieldTA'nın güçlü oluşturucusunu keşfedin. Özel çözümleri zahmetsizce oluşturun ve projenizin verimliliğini bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldta/fieldta/

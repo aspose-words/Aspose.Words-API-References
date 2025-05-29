@@ -3,14 +3,14 @@ title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words för .NET
-description: LoadOptions WarningCallback fast egendom. Anropas under en laddningsoperation när ett problem upptäcks som kan resultera i förlust av data eller formatering i C#.
+description: Upptäck egenskapen LoadOptions WarningCallback, som varnar dig under inläsningsåtgärder för att förhindra dataförlust och säkerställa formateringens integritet.
 type: docs
-weight: 170
+weight: 180
 url: /sv/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Anropas under en laddningsoperation, när ett problem upptäcks som kan resultera i förlust av data eller formatering.
+Anropas under en inläsningsoperation, när ett problem upptäcks som kan leda till förlust av data- eller formateringsåtergivning.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,17 +18,17 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Exempel
 
-Visar hur man skriver ut och lagrar varningar som uppstår när dokument laddas.
+Visar hur man skriver ut och lagrar varningar som uppstår vid dokumentinläsning.
 
 ```csharp
 public void LoadOptionsWarningCallback()
 {
-    // Skapa ett nytt LoadOptions-objekt och ställ in dess WarningCallback-attribut
+    // Skapa ett nytt LoadOptions-objekt och ange dess WarningCallback-attribut
     // som en instans av vår IWarningCallback-implementering.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Vår callback kommer att skriva ut alla varningar som dyker upp under laddningsoperationen.
+    // Vår återanropsfunktion skriver ut alla varningar som uppstår under laddningsoperationen.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
@@ -36,7 +36,7 @@ public void LoadOptionsWarningCallback()
 }
 
 /// <summary>
-/// IWarningCallback som skriver ut varningar och deras detaljer när de uppstår under dokumentladdning.
+/// IWarningCallback som skriver ut varningar och deras detaljer allt eftersom de uppstår under dokumentinläsning.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

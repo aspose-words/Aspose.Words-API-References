@@ -3,14 +3,14 @@ title: DocumentBuilder.ParagraphFormat
 linktitle: ParagraphFormat
 articleTitle: ParagraphFormat
 second_title: Aspose.Words para .NET
-description: DocumentBuilder ParagraphFormat propiedad. Devuelve un objeto que representa las propiedades de formato del párrafo actual en C#.
+description: Explore la propiedad ParagraphFormat de DocumentBuilder para acceder y personalizar funciones esenciales de formato de párrafo para un estilo mejorado del documento.
 type: docs
 weight: 170
 url: /es/net/aspose.words/documentbuilder/paragraphformat/
 ---
 ## DocumentBuilder.ParagraphFormat property
 
-Devuelve un objeto que representa las propiedades de formato del párrafo actual.
+Devuelve un objeto que representa las propiedades de formato de párrafo actuales.
 
 ```csharp
 public ParagraphFormat ParagraphFormat { get; }
@@ -18,7 +18,7 @@ public ParagraphFormat ParagraphFormat { get; }
 
 ## Ejemplos
 
-Muestra cómo crear una tabla formateada usando DocumentBuilder.
+Muestra cómo crear una tabla formateada utilizando DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Establece algunas opciones de formato para el texto y la apariencia de la tabla.
+// Establezca algunas opciones de formato para el texto y la apariencia de la tabla.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -38,9 +38,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Configurar las opciones de formato en un generador de documentos las aplicará
-// a la celda/fila actual en la que se encuentra el cursor,
-// así como cualquier celda y fila nueva creada con ese generador.
+// Al configurar las opciones de formato en un generador de documentos se aplicarán
+// a la celda/fila actual donde se encuentra el cursor,
+// así como cualquier celda y fila nueva creada utilizando ese generador.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -49,7 +49,7 @@ builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
 // Reconfigurar los objetos de formato del constructor para las nuevas filas y celdas que estamos a punto de crear.
-// El constructor no los aplicará a la primera fila ya creada para que se destaque como fila de encabezado.
+// El constructor no los aplicará a la primera fila ya creada para que destaque como una fila de encabezado.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

@@ -3,7 +3,7 @@ title: ImageFieldMergingArgs.Image
 linktitle: Image
 articleTitle: Image
 second_title: Aspose.Words für .NET
-description: ImageFieldMergingArgs Image eigendom. Gibt das Bild an das die SerienbriefEngine in das Dokument einfügen muss in C#.
+description: Entdecken Sie, wie Sie mit ImageFieldMergingArgs nahtlos Bilder in Ihre Dokumente einfügen und so ein reibungsloses Serienbrief-Erlebnis erzielen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/imagefieldmergingargs/image/
@@ -18,14 +18,14 @@ public Image Image { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die Bildzusammenführungslogik anzupassen.
+Zeigt, wie Sie mithilfe eines Rückrufs die Logik zum Zusammenführen von Bildern anpassen.
 
 ```csharp
 public void MergeFieldImages()
 {
     Document doc = new Document();
 
-    // Fügen Sie ein MERGEFIELD ein, das während eines Seriendrucks Bilder von einer Quelle akzeptiert. Verwenden Sie den Feldcode als Referenz
+    // Fügen Sie ein MERGEFIELD ein, das während eines Serienbriefs Bilder aus einer Quelle akzeptiert. Verwenden Sie den Feldcode zum Verweisen
     // eine Spalte in der Datenquelle, die lokale Systemdateinamen von Bildern enthält, die wir im Serienbrief verwenden möchten.
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
@@ -33,16 +33,16 @@ public void MergeFieldImages()
     // In diesem Fall erwartet das Feld, dass die Datenquelle eine solche Spalte mit dem Namen „ImageColumn“ hat.
     Assert.AreEqual("Image:ImageColumn", field.FieldName);
 
-    // Dateinamen können lang sein, und wenn wir eine Möglichkeit finden, ihre Speicherung in der Datenquelle zu vermeiden,
-    // Wir können die Größe erheblich reduzieren.
+    // Dateinamen können lang sein, und wenn wir einen Weg finden, sie nicht in der Datenquelle zu speichern,
+    // wir können seine Größe erheblich reduzieren.
     // Erstellen Sie eine Datenquelle, die mit Kurznamen auf Bilder verweist.
     DataTable dataTable = new DataTable("Images");
     dataTable.Columns.Add(new DataColumn("ImageColumn"));
     dataTable.Rows.Add("Dark logo");
     dataTable.Rows.Add("Transparent logo");
 
-    // Weisen Sie einen Zusammenführungsrückruf zu, der die gesamte Logik enthält, die diese Namen verarbeitet.
-     // und dann den Serienbrief ausführen.
+    // Weisen Sie einen Zusammenführungs-Callback zu, der die gesamte Logik enthält, die diese Namen verarbeitet.
+        // und führen Sie dann den Serienbrief aus.
     doc.MailMerge.FieldMergingCallback = new ImageFilenameCallback();
     doc.MailMerge.Execute(dataTable);
 
@@ -50,9 +50,9 @@ public void MergeFieldImages()
 }
 
 /// <summary>
-/// Enthält ein Wörterbuch, das Namen von Bildern den lokalen Systemdateinamen zuordnet, die diese Bilder enthalten.
-/// Wenn eine Serienbrief-Datenquelle einen der Namen des Wörterbuchs verwendet, um auf ein Bild zu verweisen,
-/// Dieser Rückruf übergibt den entsprechenden Dateinamen an das Zusammenführungsziel.
+/// Enthält ein Wörterbuch, das Bildnamen den lokalen Systemdateinamen zuordnet, die diese Bilder enthalten.
+/// Wenn eine Serienbrief-Datenquelle einen der Wörterbuchnamen verwendet, um auf ein Bild zu verweisen,
+/// Dieser Rückruf übergibt den jeweiligen Dateinamen an das Zusammenführungsziel.
 /// </summary>
 private class ImageFilenameCallback : IFieldMergingCallback
 {
@@ -72,7 +72,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
     {
         if (mImageFilenames.ContainsKey(args.FieldValue.ToString()))
         {
-            #if NET48 || JAVA
+            #if NET461_OR_GREATER || JAVA
             args.Image = Image.FromFile(mImageFilenames[args.FieldValue.ToString()]);
             #elif NET5_0_OR_GREATER
             args.Image = SKBitmap.Decode(mImageFilenames[args.FieldValue.ToString()]);

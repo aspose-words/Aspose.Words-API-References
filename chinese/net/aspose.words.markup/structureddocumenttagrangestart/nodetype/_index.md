@@ -2,8 +2,8 @@
 title: StructuredDocumentTagRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart NodeType 财产. 返回StructuredDocumentTagRangeStart 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 StructuredDocumentTagRangeStart NodeType 属性，这对于项目中高效的文档结构和增强的内容管理至关重要。
 type: docs
 weight: 100
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/nodetype/

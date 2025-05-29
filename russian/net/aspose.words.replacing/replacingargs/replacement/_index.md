@@ -3,7 +3,7 @@ title: ReplacingArgs.Replacement
 linktitle: Replacement
 articleTitle: Replacement
 second_title: Aspose.Words для .NET
-description: ReplacingArgs Replacement свойство. Получает или задает строку замены на С#.
+description: Откройте для себя свойство ReplacingArgs Replacement, чтобы легко управлять и настраивать строки замены для повышения эффективности кодирования.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.replacing/replacingargs/replacement/
@@ -32,7 +32,7 @@ public void ReplaceWithCallback()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
+    // Устанавливаем обратный вызов, который отслеживает любые замены, которые будет выполнять метод «Replace».
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,7 +46,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback

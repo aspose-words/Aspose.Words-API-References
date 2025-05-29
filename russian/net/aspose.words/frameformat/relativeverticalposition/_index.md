@@ -3,7 +3,7 @@ title: FrameFormat.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words для .NET
-description: FrameFormat RelativeVerticalPosition свойство. Получает относительное вертикальное положение кадра на С#.
+description: Откройте для себя свойство FrameFormat RelativeVerticalPosition, которое позволяет легко определить вертикальное выравнивание фрейма, улучшая макет и дизайн вашего документа.
 type: docs
 weight: 80
 url: /ru/net/aspose.words/frameformat/relativeverticalposition/

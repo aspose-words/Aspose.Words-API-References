@@ -2,15 +2,15 @@
 title: XamlFlowSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
-second_title: 用于 .NET 的 Aspose.Words
-description: XamlFlowSaveOptions ImagesFolderAlias 财产. 指定用于构建写入 XAML 文档的图像 URI 的文件夹名称 默认为空字符串 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 XamlFlowSaveOptions 的 ImagesFolderAlias 属性，自定义 XAML 文档中的图像 URI 路径。轻松增强您的项目！
 type: docs
 weight: 40
 url: /zh/net/aspose.words.saving/xamlflowsaveoptions/imagesfolderalias/
 ---
 ## XamlFlowSaveOptions.ImagesFolderAlias property
 
-指定用于构建写入 XAML 文档的图像 URI 的文件夹名称。 默认为空字符串。
+指定用于构建写入 XAML 文档的图像 URI 的文件夹的名称。 默认值为空字符串。
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,17 +18,17 @@ public string ImagesFolderAlias { get; set; }
 
 ## 评论
 
-当您保存一个[`Document`](../../../aspose.words/document/)在 XAML 格式中，Aspose.Words 需要将文档中嵌入的所有 图像保存为独立文件。[`ImagesFolder`](../imagesfolder/) 允许您指定图像的保存位置`ImagesFolderAlias` 允许指定如何构建图像 URI。
+当你保存[`Document`](../../../aspose.words/document/)在XAML格式中，Aspose.Words需要将文档中嵌入的所有 图像保存为独立文件。[`ImagesFolder`](../imagesfolder/) 允许您指定图像的保存位置，并且`ImagesFolderAlias` 允许指定如何构建图像 URI。
 
-如果`ImagesFolderAlias`不是空字符串，则 XAML 中写入的图像 URI 将是ImagesFolderAlias + &lt;图像文件名&gt;。
+如果`ImagesFolderAlias`不是空字符串，那么 XAML 中的图像 URI written 将是ImagesFolderAlias + &lt;图像文件名&gt;。
 
-如果`ImagesFolderAlias`是一个空字符串，那么写入 到 XAML 的图像 URI 将是ImagesFolder + &lt;图像文件名&gt;。
+如果`ImagesFolderAlias`是空字符串，则写入 XAML 的图像 URI 将是ImagesFolder + &lt;图像文件名&gt;。
 
-如果`ImagesFolderAlias`被设定为 '。' （点），那么无论其他选项如何，图像文件名 将被写入 XAML，不带路径。
+如果`ImagesFolderAlias`设置为“.”（点），那么无论其他选项如何，图像文件名 都将写入XAML而不带路径。
 
 ## 例子
 
-演示如何打印在将文档转换为流格式 .xaml 时创建的链接图像的文件名。
+展示如何打印将文档转换为流式 .xaml 时创建的链接图像的文件名。
 
 ```csharp
 public void ImageFolder()
@@ -43,17 +43,17 @@ public void ImageFolder()
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // 使用“ImagesFolder”属性在本地文件系统中分配一个文件夹
+    // 使用“ImagesFolder”属性在本地文件系统中分配一个文件夹，
     // Aspose.Words 将保存文档的所有链接图像。
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
     // 使用“ImagesFolderAlias”属性来使用此文件夹
-    // 当构造图像 URI 而不是图像文件夹的名称时。
+    // 构建图像 URI 时，而不是图像文件夹的名称。
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // 由“ImagesFolderAlias”指定的文件夹需要包含资源，而不是“ImagesFolder”。
+    // 由“ImagesFolderAlias”指定的文件夹将需要包含资源，而不是“ImagesFolder”。
     // 我们必须确保该文件夹存在，然后回调的流才能将其资源放入其中。
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -64,7 +64,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// 在父文档转换为流格式 .xaml 时计算并打印图像的文件名。
+/// 在将图像的父文档转换为流形式 .xaml 时，计算并打印图像的文件名。
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {

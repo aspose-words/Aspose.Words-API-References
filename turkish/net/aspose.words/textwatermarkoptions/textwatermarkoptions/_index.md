@@ -2,8 +2,8 @@
 title: TextWatermarkOptions
 linktitle: TextWatermarkOptions
 articleTitle: TextWatermarkOptions
-second_title: Aspose.Words for .NET
-description: TextWatermarkOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Kusursuz filigran özelleştirmesi için TextWatermarkOptions oluşturucusunu keşfedin. Gelişmiş tasarım esnekliği ve yaratıcılık için varsayılan ayarların kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/textwatermarkoptions/textwatermarkoptions/

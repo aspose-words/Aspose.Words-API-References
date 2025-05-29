@@ -2,15 +2,15 @@
 title: ImageSaveOptions.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions Clone yöntem. Bu nesnenin derin bir kopyasını oluşturur C#'da.
+second_title: .NET için Aspose.Words
+description: Nesnelerinizin derin bir klonunu zahmetsizce oluşturmak, kodlama verimliliğinizi ve esnekliğinizi artırmak için ImageSaveOptions Clone yöntemini keşfedin.
 type: docs
 weight: 210
 url: /tr/net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method
 
-Bu nesnenin derin bir kopyasını oluşturur.
+Bu nesnenin derin bir klonunu oluşturur.
 
 ```csharp
 public ImageSaveOptions Clone()
@@ -18,64 +18,26 @@ public ImageSaveOptions Clone()
 
 ## Örnekler
 
-Bir belgenin görüntüye dönüştürüleceği piksel başına bit oranının nasıl seçileceğini gösterir.
+Bir belgenin görüntüye dönüştürülmesi için bit/piksel oranının nasıl seçileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
-            DocumentBuilder builder = new DocumentBuilder(doc);
+DocumentBuilder builder = new DocumentBuilder(doc);
 
-            builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
-            builder.Writeln("Hello world!");
-            builder.InsertImage(ImageDir + "Logo.jpg");
+builder.ParagraphFormat.Style = doc.Styles["Heading 1"];
+builder.Writeln("Hello world!");
+builder.InsertImage(ImageDir + "Logo.jpg");
 
-            Assert.That(20000, Is.LessThan(new FileInfo(ImageDir + "Logo.jpg").Length));
+// Belgeyi bir resim olarak kaydettiğimizde, SaveOptions nesnesini görüntüye geçirebiliriz.
+// kaydetme işleminin üreteceği görüntü için bir piksel formatı seçin.
+// Çeşitli bit/piksel oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkileyecektir.
+ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
+imageSaveOptions.PixelFormat = imagePixelFormat;
 
-            // Belgeyi resim olarak kaydettiğimizde, bir SaveOptions nesnesini iletebiliriz
-            // kaydetme işleminin oluşturacağı görüntü için bir piksel formatı seçin.
-            // Piksel başına çeşitli bit oranları, oluşturulan görüntünün kalitesini ve dosya boyutunu etkileyecektir.
-            ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
-            imageSaveOptions.PixelFormat = imagePixelFormat;
+// ImageSaveOptions örneklerini klonlayabiliriz.
+Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
 
-            // ImageSaveOptions örneklerini klonlayabiliriz.
-            Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
-
-            doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
-
-#if NET48 || JAVA
-            switch (imagePixelFormat)
-            {
-                case ImagePixelFormat.Format1bppIndexed:
-                    Assert.That(10000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format16BppRgb555:
-                    Assert.That(80000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format24BppRgb:
-                    Assert.That(125000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format32BppRgb:
-                    Assert.That(150000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format48BppRgb:
-                    Assert.That(200000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-            }
-#elif NET5_0_OR_GREATER
-            switch (imagePixelFormat)
-            {
-                case ImagePixelFormat.Format1bppIndexed:
-                    Assert.That(10000, Is.AtLeast(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format24BppRgb:
-                    Assert.That(70000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-                case ImagePixelFormat.Format16BppRgb555:
-                case ImagePixelFormat.Format32BppRgb:
-                case ImagePixelFormat.Format48BppRgb:
-                    Assert.That(125000, Is.LessThan(new FileInfo(ArtifactsDir + "ImageSaveOptions.PixelFormat.png").Length));
-                    break;
-            }
-#endif
+doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```
 
 ### Ayrıca bakınız

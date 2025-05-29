@@ -3,9 +3,9 @@ title: DocumentBuilder.StartBookmark
 linktitle: StartBookmark
 articleTitle: StartBookmark
 second_title: Aspose.Words для .NET
-description: DocumentBuilder StartBookmark метод. Отмечает текущую позицию в документе как начало закладки на С#.
+description: Используйте метод DocumentBuilder StartBookmark, чтобы легко отмечать и управлять ключевыми позициями в документе, улучшая организацию и навигацию.
 type: docs
-weight: 610
+weight: 650
 url: /ru/net/aspose.words/documentbuilder/startbookmark/
 ---
 ## DocumentBuilder.StartBookmark method
@@ -22,13 +22,13 @@ public BookmarkStart StartBookmark(string bookmarkName)
 
 ### Возвращаемое значение
 
-Только что созданный начальный узел закладки.
+Начальный узел закладки, который был только что создан.
 
 ## Примечания
 
-Закладки в документе могут перекрываться и охватывать любой диапазон. Чтобы создать действительную закладку, вам нужно вызвать оба`StartBookmark` и[`EndBookmark`](../endbookmark/) с тем же самым*bookmarkName* параметр .
+Закладки в документе могут перекрываться и охватывать любой диапазон. Чтобы создать действительную закладку, вам нужно вызвать to оба`StartBookmark` и[`EndBookmark`](../endbookmark/) с тем же самым*bookmarkName* Параметр .
 
-Закладки неправильного формата или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
+Неправильно сформированные закладки или закладки с повторяющимися именами будут игнорироваться при сохранении документа.
 
 ## Примеры
 
@@ -38,8 +38,8 @@ public BookmarkStart StartBookmark(string bookmarkName)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Действительная закладка должна содержать основной текст документа, заключенный в
-// Узлы BookmarkStart и BookmarkEnd, созданные с соответствующим именем закладки.
+// Действительная закладка должна иметь текст документа, заключенный в
+// Узлы BookmarkStart и BookmarkEnd созданы с соответствующим именем закладки.
 builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
@@ -49,7 +49,7 @@ Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
 Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
 ```
 
-Показывает, как вставить гиперссылку, которая ссылается на локальную закладку.
+Показывает, как вставить гиперссылку, ссылающуюся на локальную закладку.
 
 ```csharp
 Document doc = new Document();
@@ -60,11 +60,12 @@ builder.Write("Bookmarked text. ");
 builder.EndBookmark("Bookmark1");
 builder.Writeln("Text outside of the bookmark.");
 
-// Вставляем поле ГИПЕРССЫЛКИ, которое ссылается на закладку. Мы можем передать переключатели полей
-// методу "InsertHyperlink" как часть аргумента, содержащего имя указанной закладки.
+// Вставьте поле HYPERLINK, которое ссылается на закладку. Мы можем передавать переключатели полей
+// в метод "InsertHyperlink" как часть аргумента, содержащего имя указанной закладки.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
-builder.InsertHyperlink("Link to Bookmark1", @"Bookmark1"" \o ""Hyperlink Tip", true);
+FieldHyperlink hyperlink = (FieldHyperlink)builder.InsertHyperlink("Link to Bookmark1", "Bookmark1", true);
+hyperlink.ScreenTip = "Hyperlink Tip";
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```

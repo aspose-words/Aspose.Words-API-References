@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words für .NET
-description: IReplacingCallback Replacing methode. Eine benutzerdefinierte Methode die während eines Ersetzungsvorgangs für jede gefundene Übereinstimmung aufgerufen wird kurz bevor ein Ersetzungsvorgang durchgeführt wird in C#.
+description: Optimieren Sie Ihren Code mit der IReplacingCallback-Methode! Passen Sie Ersetzungsvorgänge effizient an, indem Sie für jede gefundene Übereinstimmung benutzerdefinierte Aktionen ausführen.
 type: docs
 weight: 10
 url: /de/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede gefundene Übereinstimmung aufgerufen wird, kurz bevor ein Ersetzungsvorgang durchgeführt wird.
+Eine benutzerdefinierte Methode, die während eines Ersetzungsvorgangs für jede Übereinstimmung aufgerufen wird, die unmittelbar vor dem Ersetzen gefunden wurde.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Rückgabewert
 
-A[`ReplaceAction`](../../replaceaction/) Wert, der die Aktion angibt, die für die aktuelle Übereinstimmung ausgeführt werden soll.
+A[`ReplaceAction`](../../replaceaction/) Wert, der die für die aktuelle Übereinstimmung auszuführende Aktion angibt.
 
 ## Beispiele
 
-Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden, während alle Ersetzungen verfolgt werden.
+Zeigt, wie alle Vorkommen eines regulären Ausdrucksmusters durch eine andere Zeichenfolge ersetzt werden und dabei alle derartigen Ersetzungen nachverfolgt werden.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -33,10 +33,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Replace“ vornimmt.
+    // Legen Sie einen Rückruf fest, der alle Ersetzungen verfolgt, die die Methode „Ersetzen“ vornimmt.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,8 +50,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Verwaltet ein Protokoll aller Textersetzungen, die durch einen Such- und Ersetzungsvorgang durchgeführt werden
-/// und notiert den Wert des ursprünglich übereinstimmenden Texts.
+/// Führt ein Protokoll über jeden Textaustausch durch eine Suchen-und-Ersetzen-Operation
+/// und notiert den Wert des ursprünglichen übereinstimmenden Textes.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -73,14 +73,14 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Zeigt, wie der Inhalt eines gesamten Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
+Zeigt, wie der gesamte Inhalt eines Dokuments als Ersatz für eine Übereinstimmung in einem Suchen-und-Ersetzen-Vorgang eingefügt wird.
 
 ```csharp
 public void InsertDocumentAtReplace()
 {
     Document mainDoc = new Document(MyDir + "Document insertion destination.docx");
 
-    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Such- und Ersetzungsprozess zu ändern.
+    // Wir können ein „FindReplaceOptions“-Objekt verwenden, um den Suchen-und-Ersetzen-Prozess zu ändern.
     FindReplaceOptions options = new FindReplaceOptions();
     options.ReplacingCallback = new InsertDocumentAtReplaceHandler();
 
@@ -95,11 +95,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Ein Dokument nach dem Absatz einfügen, der den übereinstimmenden Text enthält.
+        // Fügen Sie nach dem Absatz, der den übereinstimmenden Text enthält, ein Dokument ein.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Den Absatz mit dem übereinstimmenden Text entfernen.
+        // Entfernen Sie den Absatz mit dem übereinstimmenden Text.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -107,7 +107,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// Fügt alle Knoten eines anderen Dokuments nach einem Absatz oder einer Tabelle ein.
+/// Fügt nach einem Absatz oder einer Tabelle alle Knoten eines anderen Dokuments ein.
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Den Knoten überspringen, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
+                // Überspringe den Knoten, wenn es sich um den letzten leeren Absatz in einem Abschnitt handelt.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

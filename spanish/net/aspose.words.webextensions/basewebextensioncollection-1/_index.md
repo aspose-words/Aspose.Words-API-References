@@ -3,16 +3,16 @@ title: BaseWebExtensionCollectionT Class
 linktitle: BaseWebExtensionCollectionT
 articleTitle: BaseWebExtensionCollectionT
 second_title: Aspose.Words para .NET
-description: Aspose.Words.WebExtensions.BaseWebExtensionCollection1T clase. Clase base paraTaskPaneCollection WebExtensionBindingCollection  WebExtensionPropertyCollection yWebExtensionReferenceCollection colecciones en C#.
+description: Descubra la clase Aspose.Words.WebExtensions.BaseWebExtensionCollection1T, su herramienta esencial para administrar colecciones TaskPane y WebExtension de manera eficiente.
 type: docs
-weight: 6700
+weight: 7550
 url: /es/net/aspose.words.webextensions/basewebextensioncollection-1/
 ---
 ## BaseWebExtensionCollection&lt;T&gt; class
 
 Clase base para[`TaskPaneCollection`](../taskpanecollection/) ,[`WebExtensionBindingCollection`](../webextensionbindingcollection/) , [`WebExtensionPropertyCollection`](../webextensionpropertycollection/) y[`WebExtensionReferenceCollection`](../webextensionreferencecollection/) colecciones.
 
-Para obtener más información, visite el[Trabajar con complementos de Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con complementos de Office](https://docs.aspose.com/words/net/work-with-office-add-ins/) Artículo de documentación.
 
 ```csharp
 public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
@@ -21,7 +21,7 @@ public abstract class BaseWebExtensionCollection<T> : IEnumerable<T>
 
 | Parámetro | Descripción |
 | --- | --- |
-| T | Tipo de artículo de colección. |
+| T | Tipo de elemento de colección. |
 
 ## Propiedades
 
@@ -48,7 +48,7 @@ Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime todas las propiedades de la extensión web del documento.
+//Imprimir todas las propiedades de la extensión web del documento.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -59,7 +59,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Elimina la extensión web.
+//Eliminar la extensión web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

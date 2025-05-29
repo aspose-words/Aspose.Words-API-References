@@ -3,16 +3,16 @@ title: Shading Class
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Shading сорт. Содержит атрибуты затенения для объекта на С#.
+description: Откройте для себя класс Aspose.Words.Shading, разработанный для улучшения ваших документов с помощью настраиваемых атрибутов затенения для придания им профессионального вида.
 type: docs
-weight: 5990
+weight: 6820
 url: /ru/net/aspose.words/shading/
 ---
 ## Shading class
 
 Содержит атрибуты затенения для объекта.
 
-Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) статья документации.
+Чтобы узнать больше, посетите[Программирование с документами](https://docs.aspose.com/words/net/programming-with-documents/) документальная статья.
 
 ```csharp
 public class Shading : InternableComplexAttr
@@ -22,26 +22,26 @@ public class Shading : InternableComplexAttr
 
 | Имя | Описание |
 | --- | --- |
-| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Получает или задает цвет, применяемый к фону`Shading` объект. |
-| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Получает или задает цвет темы фонового рисунка в примененной цветовой схеме, связанной с этим`Shading` объект. |
-| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Получает или задает двойное значение, которое осветляет или затемняет цвет фоновой темы. |
-| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Получает или задает цвет, применяемый к переднему плану`Shading` объект. |
-| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Получает или задает цвет темы узора переднего плана в применяемой цветовой схеме, связанной с этим`Shading` объект. |
-| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Получает или задает двойное значение, которое осветляет или затемняет цвет темы переднего плана. |
+| [BackgroundPatternColor](../../aspose.words/shading/backgroundpatterncolor/) { get; set; } | Возвращает или задает цвет, применяемый к фону`Shading` объект. |
+| [BackgroundPatternThemeColor](../../aspose.words/shading/backgroundpatternthemecolor/) { get; set; } | Возвращает или задает цвет темы фонового узора в примененной цветовой схеме, связанной с этим`Shading` объект. |
+| [BackgroundTintAndShade](../../aspose.words/shading/backgroundtintandshade/) { get; set; } | Возвращает или задает двойное значение, которое осветляет или затемняет цвет фоновой темы. |
+| [ForegroundPatternColor](../../aspose.words/shading/foregroundpatterncolor/) { get; set; } | Возвращает или задает цвет, применяемый к переднему плану`Shading` объект. |
+| [ForegroundPatternThemeColor](../../aspose.words/shading/foregroundpatternthemecolor/) { get; set; } | Возвращает или задает цвет темы узора переднего плана в примененной цветовой схеме, которая связана с этим`Shading` объект. |
+| [ForegroundTintAndShade](../../aspose.words/shading/foregroundtintandshade/) { get; set; } | Возвращает или задает двойное значение, которое осветляет или затемняет цвет темы переднего плана. |
 | [Texture](../../aspose.words/shading/texture/) { get; set; } | Получает или задает текстуру затенения. |
 
 ## Методы
 
 | Имя | Описание |
 | --- | --- |
-| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Удаляет затенение объекта. |
+| [ClearFormatting](../../aspose.words/shading/clearformatting/)() | Удаляет затенение с объекта. |
 | override [Equals](../../aspose.words/shading/equals/#equals_1)(*object*) | Определяет, равен ли указанный объект по значению текущему объекту. |
-| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Определяет, задано ли указанное`Shading` по значению равен текущему`Shading` . |
-| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Служит хеш-функцией для этого типа. |
+| [Equals](../../aspose.words/shading/equals/#equals)(*Shading*) | Определяет, является ли указанный`Shading` равен по значению текущему`Shading` . |
+| override [GetHashCode](../../aspose.words/shading/gethashcode/)() | Служит хэш-функцией для этого типа. |
 
 ## Примеры
 
-Показывает, как украшать текст границами и заливкой.
+Показывает, как оформить текст с помощью границ и заливки.
 
 ```csharp
 Document doc = new Document();
@@ -63,13 +63,13 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Показывает, как применять цвет границы и заливки при построении таблицы.
+Показывает, как применять цвет границ и заливки при построении таблицы.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Запускаем таблицу и устанавливаем цвет/толщину ее границ по умолчанию.
+// Создаем таблицу и устанавливаем цвет/толщину по умолчанию для ее границ.
 Table table = builder.StartTable();
 table.SetBorders(LineStyle.Single, 2.0, Color.Black);
 
@@ -82,9 +82,9 @@ builder.CellFormat.Shading.BackgroundPatternColor = Color.Orange;
 builder.Writeln("Row 1, Cell 2.");
 builder.EndRow();
 
-// Сбрасываем форматирование ячейки, чтобы отключить цвета фона
-// устанавливаем собственную толщину границы для всех новых ячеек, созданных построителем,
-// затем создаем вторую строку.
+// Сбросить форматирование ячеек, чтобы отключить цвета фона
+// задаем пользовательскую толщину границы для всех новых ячеек, созданных конструктором,
+// затем построим второй ряд.
 builder.CellFormat.ClearFormatting();
 builder.CellFormat.Borders.Left.LineWidth = 4.0;
 builder.CellFormat.Borders.Right.LineWidth = 4.0;

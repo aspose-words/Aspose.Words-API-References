@@ -3,14 +3,14 @@ title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
 second_title: Aspose.Words für .NET
-description: Document Cleanup methode. Bereinigt nicht verwendete Stile und Listen aus dem Dokument in C#.
+description: Optimieren Sie Ihre Dokumente mit unserer Cleanup-Methode – entfernen Sie ungenutzte Formatvorlagen und Listen für einen saubereren und effizienteren Workflow. Verbessern Sie noch heute die Lesbarkeit!
 type: docs
-weight: 540
+weight: 580
 url: /de/net/aspose.words/document/cleanup/
 ---
 ## Cleanup() {#cleanup}
 
-Bereinigt nicht verwendete Stile und Listen aus dem Dokument.
+Löscht nicht verwendete Stile und Listen aus dem Dokument.
 
 ```csharp
 public void Cleanup()
@@ -28,12 +28,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// In Kombination mit den integrierten Stilen verfügt das Dokument jetzt über acht Stile.
+// Zusammen mit den integrierten Stilen verfügt das Dokument jetzt über acht Stile.
 // Ein benutzerdefinierter Stil gilt als „verwendet“, wenn er auf einen Teil des Dokuments angewendet wird.
 // was bedeutet, dass die vier von uns hinzugefügten Stile derzeit nicht verwendet werden.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Einen benutzerdefinierten Zeichenstil und dann einen benutzerdefinierten Listenstil anwenden. Dadurch werden die Stile als „gebraucht“ markiert.
+// Wenden Sie einen benutzerdefinierten Zeichenstil und dann einen benutzerdefinierten Listenstil an. Dadurch werden die Stile als "verwendet" markiert.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -47,7 +47,7 @@ doc.Cleanup();
 
 Assert.AreEqual(6, doc.Styles.Count);
 
-// Durch das Entfernen jedes Knotens, auf den ein benutzerdefinierter Stil angewendet wird, wird dieser erneut als „unbenutzt“ markiert.
+// Durch das Entfernen aller Knoten, auf die ein benutzerdefinierter Stil angewendet wird, werden diese wieder als „unbenutzt“ markiert.
 // Führen Sie die Cleanup-Methode erneut aus, um sie zu entfernen.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup();
@@ -65,7 +65,7 @@ Assert.AreEqual(4, doc.Styles.Count);
 
 ## Cleanup(*[CleanupOptions](../../cleanupoptions/)*) {#cleanup_1}
 
-Bereinigt je nach Angabe nicht verwendete Stile und Listen aus dem Dokument[`CleanupOptions`](../../cleanupoptions/) .
+Löscht nicht verwendete Stile und Listen aus dem Dokument, abhängig von der gegebenen[`CleanupOptions`](../../cleanupoptions/) .
 
 ```csharp
 public void Cleanup(CleanupOptions options)
@@ -83,12 +83,12 @@ doc.Styles.Add(StyleType.List, "MyListStyle2");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
-// In Kombination mit den integrierten Stilen verfügt das Dokument jetzt über acht Stile.
-// Ein benutzerdefinierter Stil wird als „verwendet“ markiert, solange Text im Dokument vorhanden ist
-// in diesem Stil formatiert. Das bedeutet, dass die 4 von uns hinzugefügten Stile derzeit nicht verwendet werden.
+// Zusammen mit den integrierten Stilen verfügt das Dokument jetzt über acht Stile.
+// Ein benutzerdefinierter Stil wird als "verwendet" markiert, solange sich im Dokument Text befindet
+// in diesem Stil formatiert. Dies bedeutet, dass die 4 hinzugefügten Stile derzeit nicht verwendet werden.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Einen benutzerdefinierten Zeichenstil und dann einen benutzerdefinierten Listenstil anwenden. Dadurch werden sie als „gebraucht“ markiert.
+// Wenden Sie einen benutzerdefinierten Zeichenstil und dann einen benutzerdefinierten Listenstil an. Dadurch werden sie als "verwendet" markiert.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -98,8 +98,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Jetzt gibt es einen unbenutzten Zeichenstil und einen unbenutzten Listenstil.
-// Die Cleanup()-Methode kann bei Konfiguration mit einem CleanupOptions-Objekt auf nicht verwendete Stile abzielen und diese entfernen.
+// Jetzt gibt es einen nicht verwendeten Zeichenstil und einen nicht verwendeten Listenstil.
+// Die Cleanup()-Methode kann, wenn sie mit einem CleanupOptions-Objekt konfiguriert ist, nicht verwendete Stile gezielt ansprechen und entfernen.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -109,7 +109,7 @@ doc.Cleanup(cleanupOptions);
 
 Assert.AreEqual(4, doc.Styles.Count);
 
- // Durch das Entfernen jedes Knotens, auf den ein benutzerdefinierter Stil angewendet wird, wird dieser erneut als „unbenutzt“ markiert.
+    // Durch das Entfernen aller Knoten, auf die ein benutzerdefinierter Stil angewendet wird, werden diese wieder als „unbenutzt“ markiert.
 // Führen Sie die Cleanup-Methode erneut aus, um sie zu entfernen.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);

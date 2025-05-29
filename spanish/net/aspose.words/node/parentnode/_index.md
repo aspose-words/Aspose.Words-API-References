@@ -3,7 +3,7 @@ title: Node.ParentNode
 linktitle: ParentNode
 articleTitle: ParentNode
 second_title: Aspose.Words para .NET
-description: Node ParentNode propiedad. Obtiene el padre inmediato de este nodo en C#.
+description: Descubra la propiedad Node ParentNode para acceder fácilmente al padre inmediato de cualquier nodo, mejorando la eficiencia de su desarrollo web y la claridad del código.
 type: docs
 weight: 60
 url: /es/net/aspose.words/node/parentnode/
@@ -22,38 +22,38 @@ Si se acaba de crear un nodo y aún no se ha agregado al árbol, o si se ha elim
 
 ## Ejemplos
 
-Muestra cómo acceder al nodo principal de un nodo.
+Muestra cómo acceder al nodo padre de un nodo.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = doc.FirstSection.Body.FirstParagraph;
 
-// Agrega un nodo Ejecutar secundario al primer párrafo del documento.
+// Agrega un nodo secundario Run al primer párrafo del documento.
 Run run = new Run(doc, "Hello world!");
 para.AppendChild(run);
 
-// El párrafo es el nodo padre del nodo de ejecución. Podemos rastrear este linaje.
-// hasta llegar al nodo del documento, que es la raíz del árbol de nodos del documento.
+El párrafo es el nodo padre del nodo de ejecución. Podemos rastrear este linaje.
+// hasta el nodo del documento, que es la raíz del árbol de nodos del documento.
 Assert.AreEqual(para, run.ParentNode);
 Assert.AreEqual(doc.FirstSection.Body, para.ParentNode);
 Assert.AreEqual(doc.FirstSection, doc.FirstSection.Body.ParentNode);
 Assert.AreEqual(doc, doc.FirstSection.ParentNode);
 ```
 
-Muestra cómo crear un nodo y configurar su documento propietario.
+Muestra cómo crear un nodo y establecer su documento propietario.
 
 ```csharp
 Document doc = new Document();
 Paragraph para = new Paragraph(doc);
 para.AppendChild(new Run(doc, "Hello world!"));
 
-// Todavía no hemos agregado este párrafo como hijo a ningún nodo compuesto.
+// Aún no hemos añadido este párrafo como hijo a ningún nodo compuesto.
 Assert.IsNull(para.ParentNode);
 
 // Si un nodo es un tipo de nodo secundario apropiado de otro nodo compuesto,
-// podemos adjuntarlo como hijo solo si ambos nodos tienen el mismo documento de propietario.
-// El documento propietario es el documento que pasamos al constructor del nodo.
-// No hemos adjuntado este párrafo al documento, por lo que el documento no contiene su texto.
+//podemos adjuntarlo como hijo solo si ambos nodos tienen el mismo documento propietario.
+//El documento propietario es el documento que pasamos al constructor del nodo.
+//No hemos adjuntado este párrafo al documento, por lo que el documento no contiene su texto.
 Assert.AreEqual(para.Document, doc);
 Assert.AreEqual(string.Empty, doc.GetText().Trim());
 

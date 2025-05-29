@@ -3,14 +3,14 @@ title: Document.RemovePersonalInformation
 linktitle: RemovePersonalInformation
 articleTitle: RemovePersonalInformation
 second_title: Aspose.Words لـ .NET
-description: Document RemovePersonalInformation ملكية. الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة كافة معلومات المستخدم من التعليقات والمراجعات و خصائص المستند عند حفظ المستند في C#.
+description: تأكد من الخصوصية باستخدام ميزة إزالة المعلومات الشخصية للمستند في Word، والتي تقوم تلقائيًا بحذف بيانات المستخدم من التعليقات والخصائص عند الحفظ.
 type: docs
-weight: 340
+weight: 360
 url: /ar/net/aspose.words/document/removepersonalinformation/
 ---
 ## Document.RemovePersonalInformation property
 
-الحصول على أو تعيين علامة تشير إلى أن Microsoft Word سيقوم بإزالة كافة معلومات المستخدم من التعليقات والمراجعات و خصائص المستند عند حفظ المستند.
+يحصل على أو يعين علمًا يشير إلى أن Microsoft Word سيقوم بإزالة جميع معلومات المستخدم من التعليقات والمراجعات وخصائص المستند عند حفظ المستند.
 
 ```csharp
 public bool RemovePersonalInformation { get; set; }
@@ -24,7 +24,7 @@ public bool RemovePersonalInformation { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل بعض المحتوى بالمعلومات الشخصية.
+//أدخل بعض المحتوى الذي يحتوي على معلومات شخصية.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 doc.BuiltInDocumentProperties.Company = "Placeholder Inc.";
 
@@ -32,12 +32,12 @@ doc.StartTrackRevisions(doc.BuiltInDocumentProperties.Author, DateTime.Now);
 builder.Write("Hello world!");
 doc.StopTrackRevisions();
 
-// هذه العلامة تعادل ملف -> الخيارات -> مركز الثقة -> إعدادات مركز التوثيق... ->
+// هذا العلم يعادل ملف -> خيارات -> مركز التوثيق -> إعدادات مركز التوثيق... ->
 // خيارات الخصوصية -> "إزالة المعلومات الشخصية من خصائص الملف عند الحفظ" في Microsoft Word.
 doc.RemovePersonalInformation = saveWithoutPersonalInfo;
 
-// لن يصبح هذا الخيار ساري المفعول أثناء عملية الحفظ التي تتم باستخدام Aspose.Words.
-// ستتم إزالة البيانات الشخصية من المستند الذي تم تعيين العلامة عليه عندما نحفظها يدويًا باستخدام Microsoft Word.
+// لن يتم تطبيق هذا الخيار أثناء عملية الحفظ التي يتم إجراؤها باستخدام Aspose.Words.
+// سيتم إزالة البيانات الشخصية من مستندنا مع تعيين العلم عندما نحفظه يدويًا باستخدام Microsoft Word.
 doc.Save(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 doc = new Document(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 

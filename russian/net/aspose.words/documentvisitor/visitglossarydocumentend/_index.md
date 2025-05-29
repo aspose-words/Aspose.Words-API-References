@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitGlossaryDocumentEnd
 linktitle: VisitGlossaryDocumentEnd
 articleTitle: VisitGlossaryDocumentEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitGlossaryDocumentEnd метод. Вызывается когда перечисление документа глоссария завершено на С#.
+description: Изучите метод VisitGlossaryDocumentEnd в DocumentVisitor. Узнайте, как он улучшает перечисление документов глоссария для эффективного управления данными.
 type: docs
 weight: 240
 url: /ru/net/aspose.words/documentvisitor/visitglossarydocumentend/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| glossary | GlossaryDocument | Объект, который посещается. |
+| glossary | GlossaryDocument | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -26,7 +26,7 @@ public virtual VisitorAction VisitGlossaryDocumentEnd(GlossaryDocument glossary)
 
 ## Примечания
 
-Примечание. Узел документа глоссария и его дочерние элементы не посещаются, когда вы выполняете a Visitor через[`Document`](../../document/) . Если вы хотите выполнить Посетителя над документом глоссария a , вам нужно вызвать[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
+Примечание: узел документа глоссария и его дочерние элементы не посещаются при выполнении посетителя a над[`Document`](../../document/) . Если вы хотите выполнить Visitor над документом глоссария a , вам нужно вызвать[`Accept`](../../../aspose.words.buildingblocks/glossarydocument/accept/) .
 
 ## Примеры
 
@@ -38,42 +38,52 @@ public void GlossaryDocument()
     Document doc = new Document();
     GlossaryDocument glossaryDoc = new GlossaryDocument();
 
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 1" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 2" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 3" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 4" });
-    glossaryDoc.AppendChild(new BuildingBlock(glossaryDoc) { Name = "Block 5" });
+    BuildingBlock child1 = new BuildingBlock(glossaryDoc) { Name = "Block 1" };
+    glossaryDoc.AppendChild(child1);
+    BuildingBlock child2 = new BuildingBlock(glossaryDoc) { Name = "Block 2" };
+    glossaryDoc.AppendChild(child2);
+    BuildingBlock child3 = new BuildingBlock(glossaryDoc) { Name = "Block 3" };
+    glossaryDoc.AppendChild(child3);
+    BuildingBlock child4 = new BuildingBlock(glossaryDoc) { Name = "Block 4" };
+    glossaryDoc.AppendChild(child4);
+    BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
+    glossaryDoc.AppendChild(child5);
 
     Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
 
     doc.GlossaryDocument = glossaryDoc;
 
     // Существуют различные способы доступа к строительным блокам.
-    // 1 — Получить первый/последний стандартный блок в коллекции:
+    // 1 — Получить первый/последний строительный блок в коллекции:
     Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
     Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
 
-    // 2 — Получить строительный блок по индексу:
+    // 2 - Получить строительный блок по индексу:
     Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
     Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
 
-    // 3 — Получить первый строительный блок, соответствующий галерее, имени и категории:
+    // 3 — Получить первый строительный блок, соответствующий галерее, названию и категории:
     Assert.AreEqual("Block 4", 
         glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
 
-    // Мы сделаем это с помощью специального посетителя,
-    // который придаст каждому BuildingBlock в GlossaryDocument уникальный GUID
+    // Мы сделаем это с помощью пользовательского посетителя,
+    // который присвоит каждому BuildingBlock в GlossaryDocument уникальный GUID
     GlossaryDocVisitor visitor = new GlossaryDocVisitor();
+    // Перейти к началу/концу документа Глоссария.
     glossaryDoc.Accept(visitor);
+    // Посетить только начало документа Глоссарий.
+    glossaryDoc.AcceptStart(visitor);
+    // Посетите только конец документа Глоссарий.
+    glossaryDoc.AcceptEnd(visitor);
     Console.WriteLine(visitor.GetText());
 
-    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые детали» -> «Организатор строительных блоков».
+    // В Microsoft Word мы можем получить доступ к строительным блокам через «Вставка» -> «Быстрые элементы» -> «Организатор строительных блоков».
     doc.Save(ArtifactsDir + "BuildingBlocks.GlossaryDocument.dotx"); 
 }
 
 /// <summary>
-/// Дает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
-/// Сохраняет пары блоков построения GUID в словаре.
+/// Присваивает каждому строительному блоку в посещенном документе глоссария уникальный GUID.
+/// Сохраняет пары GUID-строительный блок в словаре.
 /// </summary>
 public class GlossaryDocVisitor : DocumentVisitor
 {

@@ -3,14 +3,14 @@ title: ParagraphFormat.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words لـ .NET
-description: ParagraphFormat LeftIndent ملكية. الحصول على أو تعيين القيمة بالنقاط التي تمثل المسافة البادئة اليسرى للفقرة في C#.
+description: اضبط المسافة البادئة اليسرى لفقراتك بسهولة باستخدام خاصية ParagraphFormat LeftIndent. خصّص تصميم نصك لتحسين قابلية قراءته!
 type: docs
 weight: 180
 url: /ar/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-الحصول على أو تعيين القيمة (بالنقاط) التي تمثل المسافة البادئة اليسرى للفقرة.
+يحصل على القيمة (بالنقاط) التي تمثل المسافة البادئة اليسرى للفقرة أو يعينها.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -24,9 +24,9 @@ public double LeftIndent { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// توسيط كل النص الذي يكتبه منشئ المستندات، وإعداد المسافات البادئة.
-// سيؤدي تكوين المسافة البادئة أدناه إلى إنشاء نص يتم وضعه بشكل غير متماثل على الصفحة.
-// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص النص، وليس منتصف الصفحة.
+// قم بتوسيط كل النص الذي يكتبه منشئ المستندات، وقم بإعداد المسافات البادئة.
+// سيؤدي تكوين المسافة البادئة أدناه إلى إنشاء مجموعة نصية ستظهر بشكل غير متماثل على الصفحة.
+// "المركز" الذي نقوم بمحاذاة النص إليه سيكون منتصف نص الموضوع، وليس منتصف الصفحة.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

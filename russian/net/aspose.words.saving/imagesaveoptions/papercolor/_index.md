@@ -3,14 +3,14 @@ title: ImageSaveOptions.PaperColor
 linktitle: PaperColor
 articleTitle: PaperColor
 second_title: Aspose.Words для .NET
-description: ImageSaveOptions PaperColor свойство. Получает или задает цвет фона бумаги для сгенерированных изображений на С#.
+description: Откройте для себя свойство ImageSaveOptions PaperColor, позволяющее легко настраивать цвета фона для созданных изображений, повышая их визуальную привлекательность и уникальность.
 type: docs
 weight: 110
 url: /ru/net/aspose.words.saving/imagesaveoptions/papercolor/
 ---
 ## ImageSaveOptions.PaperColor property
 
-Получает или задает цвет фона (бумаги) для сгенерированных изображений.
+Получает или задает цвет фона (бумаги) для созданных изображений.
 
 Значение по умолчанию:White.
 
@@ -20,7 +20,7 @@ public Color PaperColor { get; set; }
 
 ## Примечания
 
-При рендеринге страниц документа, для которого указан собственный цвет фона, , цвет фона документа будет переопределять цвет, указанный этим свойством.
+При отображении страниц документа, в котором указан собственный цвет фона, , цвет фона документа переопределит цвет, указанный этим свойством.
 
 ## Примеры
 
@@ -36,18 +36,17 @@ builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 
 builder.InsertImage(ImageDir + "Logo.jpg");
 
-// Создаем объект ImageSaveOptions, который мы можем передать методу Save документа.
+// Создаем объект "ImageSaveOptions", который можно передать методу "Save" документа
 // чтобы изменить способ, которым этот метод преобразует документ в изображение.
 ImageSaveOptions imgOptions = new ImageSaveOptions(SaveFormat.Png);
-
-// Установите для свойства PaperColor прозрачный цвет, чтобы применить прозрачный цвет.
+// Установите свойство "PaperColor" на прозрачный цвет, чтобы применить прозрачный
 // фон документа при его рендеринге в изображение.
 imgOptions.PaperColor = Color.Transparent;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
-// Установите для свойства PaperColor непрозрачный цвет, чтобы применить этот цвет
-// в качестве фона документа при его рендеринге в изображение.
+// Установите свойство "PaperColor" на непрозрачный цвет, чтобы применить этот цвет
+// в качестве фона документа при его преобразовании в изображение.
 imgOptions.PaperColor = Color.LightCoral;
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);

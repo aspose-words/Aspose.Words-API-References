@@ -3,7 +3,7 @@ title: Font.ComplexScript
 linktitle: ComplexScript
 articleTitle: ComplexScript
 second_title: Aspose.Words لـ .NET
-description: Font ComplexScript ملكية. يحدد ما إذا كان سيتم التعامل مع محتويات هذا التشغيل كنص نصي معقد بغض النظر عن قيم أحرف Unicode الخاصة بها عند تحديد التنسيق لهذا التشغيل في C#.
+description: اكتشف خاصية Font ComplexScript، مما يضمن تنسيق النص الخاص بك كنص معقد لتحسين قابلية القراءة والأسلوب، بغض النظر عن قيم Unicode.
 type: docs
 weight: 80
 url: /ar/net/aspose.words/font/complexscript/

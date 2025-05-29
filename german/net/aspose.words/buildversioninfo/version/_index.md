@@ -3,7 +3,7 @@ title: BuildVersionInfo.Version
 linktitle: Version
 articleTitle: Version
 second_title: Aspose.Words für .NET
-description: BuildVersionInfo Version eigendom. Ruft die Produktversion ab in C#.
+description: Entdecken Sie die Versionseigenschaft BuildVersionInfo, um einfach auf Ihre Produktversion zuzugreifen und sie zu verwalten und so die Leistung und Zuverlässigkeit der Software zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words/buildversioninfo/version/
@@ -18,7 +18,7 @@ public static string Version { get; }
 
 ## Bemerkungen
 
-Die Produktversion hat das Format „Major.Minor.Hotfix.0“.
+Die Produktversion liegt im Format „Major.Minor.Hotfix.0“ vor.
 
 ## Beispiele
 

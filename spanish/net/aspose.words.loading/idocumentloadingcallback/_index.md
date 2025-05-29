@@ -3,9 +3,9 @@ title: IDocumentLoadingCallback Interface
 linktitle: IDocumentLoadingCallback
 articleTitle: IDocumentLoadingCallback
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Loading.IDocumentLoadingCallback interfaz. Implemente esta interfaz si desea que se llame a su propio método personalizado durante la carga de un documento en C#.
+description: Personalice la carga de documentos con Aspose.Words.IDocumentLoadingCallback. Implemente su propio método para mayor control y flexibilidad en la gestión documental.
 type: docs
-weight: 3630
+weight: 4080
 url: /es/net/aspose.words.loading/idocumentloadingcallback/
 ---
 ## IDocumentLoadingCallback interface
@@ -20,7 +20,7 @@ public interface IDocumentLoadingCallback
 
 | Nombre | Descripción |
 | --- | --- |
-| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | Esto se llama para notificar el progreso de la carga del documento. |
+| [Notify](../../aspose.words.loading/idocumentloadingcallback/notify/)(*[DocumentLoadingArgs](../documentloadingargs/)*) | Esto se llama para notificar el progreso de carga del documento. |
 
 ## Ejemplos
 
@@ -41,17 +41,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Manejar el problema de duración de la carga.
+        // Manejar el problema de duración de carga.
     }
 }
 
 /// <summary>
-/// Cancelar la carga de un documento después de los segundos de "MaxDuration".
+/// Cancelar la carga de un documento después de los segundos "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Centro.
+    /// Ctr.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -59,7 +59,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Método de devolución de llamada que llamó durante la carga del documento.
+    /// Método de devolución de llamada que se llamó durante la carga del documento.
     /// </summary>
     /// <param name="args">Cargando argumentos.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -72,12 +72,12 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Fecha y hora en que se inicia la carga del documento.
+    /// Fecha y hora en que se inició la carga del documento.
     /// </summary>
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Duración máxima permitida en seg.
+    /// Duración máxima permitida en segundos.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

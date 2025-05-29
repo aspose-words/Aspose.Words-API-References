@@ -3,14 +3,14 @@ title: StructuredDocumentTag.SdtType
 linktitle: SdtType
 articleTitle: SdtType
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag SdtType свойство. Получает тип этогоТег структурированного документа  на С#.
+description: Откройте для себя свойство SdtType StructuredDocumentTag, чтобы легко определять типы тегов, улучшая управление документами и их организацию.
 type: docs
 weight: 250
 url: /ru/net/aspose.words.markup/structureddocumenttag/sdttype/
 ---
 ## StructuredDocumentTag.SdtType property
 
-Получает тип этого**Тег структурированного документа** .
+Получает тип этого**Структурированный тег документа** .
 
 ```csharp
 public SdtType SdtType { get; }

@@ -3,14 +3,14 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder Writeln طريقة. إدراج سلسلة وفاصل فقرة في المستند في C#.
+description: قم بتعزيز مستنداتك بسهولة باستخدام طريقة Writeln في DocumentBuilder—أدخل النصوص وفواصل الفقرات بسلاسة لتحسين قابلية القراءة.
 type: docs
-weight: 660
+weight: 700
 url: /ar/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
 
-إدراج سلسلة وفاصل فقرة في المستند.
+يقوم بإدراج سلسلة وفاصل فقرة في المستند.
 
 ```csharp
 public void Writeln(string text)
@@ -18,15 +18,15 @@ public void Writeln(string text)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| text | String | السلسلة المراد إدراجها في المستند. |
+| text | String | السلسلة التي سيتم إدراجها في المستند. |
 
 ## ملاحظات
 
-تنسيق الخط والفقرة الحالي المحدد بواسطة[`Font`](../font/) و[`ParagraphFormat`](../paragraphformat/) يتم استخدام الخصائص.
+الخط الحالي وتنسيق الفقرة المحدد بواسطة[`Font`](../font/) و[`ParagraphFormat`](../paragraphformat/) يتم استخدام الخصائص.
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -77,7 +77,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 
 ## Writeln() {#writeln}
 
-إدراج فاصل فقرة في المستند.
+يقوم بإدراج فاصل فقرة في المستند.
 
 ```csharp
 public void Writeln()
@@ -99,7 +99,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
-// أنشئ الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع رأس.
+// قم بإنشاء الرؤوس، ثم أضف ثلاث صفحات إلى المستند لعرض كل نوع من أنواع الرؤوس.
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderFirst);
 builder.Write("Header for the first page");
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderEven);

@@ -3,14 +3,14 @@ title: PdfSaveOptions.CacheBackgroundGraphics
 linktitle: CacheBackgroundGraphics
 articleTitle: CacheBackgroundGraphics
 second_title: Aspose.Words för .NET
-description: PdfSaveOptions CacheBackgroundGraphics fast egendom. Hämtar eller ställer in ett värde som avgör om grafik placerad i dokumentets bakgrund ska cachelagras eller inte i C#.
+description: Upptäck egenskapen PdfSaveOptions CacheBackgroundGraphics för att optimera cachelagring av dokumentgrafik, vilket förbättrar din PDF-skapande och prestanda.
 type: docs
-weight: 30
+weight: 40
 url: /sv/net/aspose.words.saving/pdfsaveoptions/cachebackgroundgraphics/
 ---
 ## PdfSaveOptions.CacheBackgroundGraphics property
 
-Hämtar eller ställer in ett värde som avgör om grafik placerad i dokumentets bakgrund ska cachelagras eller inte.
+Hämtar eller anger ett värde som avgör om grafik som placeras i dokumentets bakgrund ska cachelagras eller inte.
 
 ```csharp
 public bool CacheBackgroundGraphics { get; set; }
@@ -18,17 +18,17 @@ public bool CacheBackgroundGraphics { get; set; }
 
 ## Anmärkningar
 
-Standardvärdet är`Sann` och bakgrundsgrafik skrivs till PDF-dokumentet som ett xObject.
+Standardvärdet är`sann` och bakgrundsgrafik skrivs till PDF-dokumentet som ett xObject.
 
-När värdet är`falsk` bakgrundsgrafik cachelagras inte.
+När värdet är`falsk` Bakgrundsgrafik cachas inte.
 
 Vissa former stöds inte för cachning (former med fält, bokmärken, HRefs).
 
-Dokumentbakgrundsgrafik är olika former, diagram, bilder placerade i sidfoten eller sidhuvudet, samt bakgrund och kant på en sida.
+Dokumentbakgrundsgrafik är olika former, diagram, bilder placerade i sidfoten eller sidhuvudet, samt bakgrund och kantlinje på en sida.
 
 ## Exempel
 
-Visar hur man cachelagrar grafik placerad i dokumentets bakgrund.
+Visar hur man cachar grafik som placeras i dokumentets bakgrund.
 
 ```csharp
 Document doc = new Document(MyDir + "Background images.docx");

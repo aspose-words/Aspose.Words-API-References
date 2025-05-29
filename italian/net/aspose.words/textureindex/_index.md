@@ -3,9 +3,9 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words per .NET
-description: Aspose.Words.TextureIndex enum. Specifica la trama dellombreggiatura in C#.
+description: Scopri l'enum Aspose.Words.TextureIndex per texture di ombreggiatura avanzate. Migliora il design dei tuoi documenti con texture personalizzabili e di alta qualità.
 type: docs
-weight: 6450
+weight: 7300
 url: /it/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -73,7 +73,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Specifica che non dovrà essere utilizzato alcun motivo sulla regione ombreggiata corrente (ovvero il motivo dovrà essere un riempimento completo con il colore di sfondo). |
+| TextureNil | `65535` | Specifica che non verrà utilizzato alcun motivo sulla regione ombreggiata corrente (ovvero il motivo dovrà essere un riempimento completo con il colore di sfondo). |
 
 ## Esempi
 
@@ -108,17 +108,17 @@ Table table = doc.FirstSection.Body.Tables[0];
 // Allinea la tabella al centro della pagina.
 table.Alignment = TableAlignment.Center;
 
-// Cancella eventuali bordi e ombreggiature esistenti dalla tabella.
+// Cancella tutti i bordi e le ombreggiature esistenti dalla tabella.
 table.ClearBorders();
 table.ClearShading();
 
-// Aggiunge bordi verdi al contorno della tabella.
+// Aggiungere bordi verdi al contorno della tabella.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Riempie le celle con un colore solido verde chiaro.
+// Riempi le celle con un colore verde chiaro uniforme.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

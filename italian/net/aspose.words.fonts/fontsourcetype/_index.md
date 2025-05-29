@@ -3,14 +3,14 @@ title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fonts.FontSourceType enum. Specifica il tipo di fonte di carattere in C#.
+description: Scopri l'enum Aspose.Words.Fonts.FontSourceType per una gestione efficiente delle sorgenti dei font. Ottimizza l'elaborazione dei tuoi documenti con opzioni di font flessibili.
 type: docs
-weight: 2990
+weight: 3420
 url: /it/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
 
-Specifica il tipo di fonte di carattere.
+Specifica il tipo di origine del font.
 
 ```csharp
 public enum FontSourceType
@@ -20,15 +20,15 @@ public enum FontSourceType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| FontFile | `0` | A[`FileFontSource`](../filefontsource/) oggetto che rappresenta un file di carattere singolo. |
-| FontsFolder | `1` | A[`FolderFontSource`](../folderfontsource/) oggetto che rappresenta la cartella con i file dei caratteri. |
-| MemoryFont | `2` | A[`MemoryFontSource`](../memoryfontsource/) oggetto che rappresenta un singolo carattere in memoria. |
-| SystemFonts | `3` | A[`SystemFontSource`](../systemfontsource/) oggetto che rappresenta tutti i caratteri installati nel sistema. |
-| FontStream | `4` | A[`StreamFontSource`](../streamfontsource/) oggetto che rappresenta uno stream con dati di carattere. |
+| FontFile | `0` | Un[`FileFontSource`](../filefontsource/) oggetto che rappresenta un singolo file di font. |
+| FontsFolder | `1` | Un[`FolderFontSource`](../folderfontsource/) oggetto che rappresenta la cartella con i file dei font. |
+| MemoryFont | `2` | Un[`MemoryFontSource`](../memoryfontsource/) oggetto che rappresenta un singolo font in memoria. |
+| SystemFonts | `3` | Un[`SystemFontSource`](../systemfontsource/) oggetto che rappresenta tutti i font installati nel sistema. |
+| FontStream | `4` | Un[`StreamFontSource`](../streamfontsource/) oggetto che rappresenta un flusso con dati di font. |
 
 ## Esempi
 
-Mostra come utilizzare un file di font nel file system locale come origine di font.
+Mostra come utilizzare un file di font nel file system locale come origine del font.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

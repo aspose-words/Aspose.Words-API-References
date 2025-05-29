@@ -3,9 +3,9 @@ title: MetafileRenderingMode Enum
 linktitle: MetafileRenderingMode
 articleTitle: MetafileRenderingMode
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Saving.MetafileRenderingMode перечисление. Указывает как Aspose.Words должен отображать метафайлы WMF и EMF на С#.
+description: Узнайте, как Aspose.Words.Saving.MetafileRenderingMode улучшает рендеринг метафайлов WMF и EMF для достижения оптимального качества и производительности документов.
 type: docs
-weight: 5290
+weight: 6070
 url: /ru/net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
@@ -20,13 +20,13 @@ public enum MetafileRenderingMode
 
 | Имя | Ценность | Описание |
 | --- | --- | --- |
-| VectorWithFallback | `0` | Aspose.Words пытается визуализировать метафайл как векторную графику. Если Aspose.Words не может правильно преобразовать некоторые из записей метафайла в векторную графику, тогда Aspose.Words преобразует этот метафайл в растровое изображение. |
+| VectorWithFallback | `0` | Aspose.Words пытается отобразить метафайл как векторную графику. Если Aspose.Words не может правильно отобразить некоторые из записей метафайла в векторную графику, то Aspose.Words отобразит этот метафайл в растровое изображение. |
 | Vector | `1` | Aspose.Words отображает метафайл как векторную графику. |
-| Bitmap | `2` | Aspose.Words вызывает GDI+ для преобразования метафайла в растровое изображение, а затем сохраняет растровое изображение в выходной документ. |
+| Bitmap | `2` | Aspose.Words вызывает GDI+ для преобразования метафайла в растровое изображение, а затем сохраняет растровое изображение в выходном документе. |
 
 ## Примеры
 
-Показывает добавлен запасной вариант рендеринга растровых изображений и изменение типа предупреждений о неподдерживаемых записях метафайлов.
+В шоу добавлена возможность отката к растровому рендерингу и изменен тип предупреждений о неподдерживаемых записях метафайлов.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -35,15 +35,15 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Установите для свойства «EmulateRasterOperations» значение «false», чтобы вернуться к растровому изображению при
+    // Установите свойство "EmulateRasterOperations" в значение "false", чтобы вернуться к растровому изображению, когда
     // он обнаруживает метафайл, для рендеринга которого в выходном PDF-файле потребуются растровые операции.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Установите для свойства «RenderingMode» значение «VectorWithFallback», чтобы попытаться отобразить каждый метафайл с использованием векторной графики.
+    // Установите свойство «RenderingMode» на «VectorWithFallback», чтобы попытаться визуализировать каждый метафайл с использованием векторной графики.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Создаем объект «PdfSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ преобразования этого метода в .PDF и применения конфигурации
+    // Создаем объект "PdfSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ преобразования этим методом документа в .PDF и применения конфигурации
     // в нашем объекте MetafileRenderingOptions для операции сохранения.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
@@ -59,7 +59,7 @@ public void HandleBinaryRasterWarnings()
 }
 
 /// <summary>
-/// Печатает и собирает предупреждения, связанные с потерей форматирования, возникающие при сохранении документа.
+/// Печатает и собирает предупреждения, связанные с потерей форматирования, которые возникают при сохранении документа.
 /// </summary>
 public class HandleDocumentWarnings : IWarningCallback
 {

@@ -2,8 +2,8 @@
 title: List.ListLevels
 linktitle: ListLevels
 articleTitle: ListLevels
-second_title: 用于 .NET 的 Aspose.Words
-description: List ListLevels 财产. 获取此列表的列表级别的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ListLevels 属性可以轻松访问和管理您的列表级别，增强文档的组织性和清晰度。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.lists/list/listlevels/
@@ -18,11 +18,11 @@ public ListLevelCollection ListLevels { get; }
 
 ## 评论
 
-使用此属性可以访问和修改列表每个级别的单独格式。
+使用此属性来访问和修改列表每个级别的单独格式。
 
 ## 例子
 
-演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+展示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其列表的前两个级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其列表级别的前两个。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -57,7 +57,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// 创建段落并将自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将我们的自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

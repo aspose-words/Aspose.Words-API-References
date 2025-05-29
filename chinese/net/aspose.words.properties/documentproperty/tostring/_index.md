@@ -2,15 +2,15 @@
 title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentProperty ToString 方法. 以根据当前区域设置格式化的字符串形式返回属性值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 DocumentProperty ToString 方法，该方法根据语言环境将属性值格式化为字符串，从而增强数据呈现和用户体验。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-以根据当前区域设置格式化的字符串形式返回属性值。
+以根据当前语言环境格式化的字符串形式返回属性值。
 
 ```csharp
 public override string ToString()
@@ -47,8 +47,8 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// 每个文档都包含自定义属性的集合，这些属性与内置属性一样，都是键值对。
- // 该文档有一个固定的内置属性列表。用户创建所有自定义属性。
+// 每个文档都包含一个自定义属性集合，这些属性与内置属性一样，都是键值对。
+ // 文档具有固定的内置属性列表。用户创建所有自定义属性。
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

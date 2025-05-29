@@ -3,16 +3,14 @@ title: Metered Class
 linktitle: Metered
 articleTitle: Metered
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Metered فصل. يوفر طرقًا لتعيين المفتاح المقنن في C#.
+description: أطلق العنان لقوة فئة Aspose.Words.Metered! أدر مفتاحك المقياس بسهولة باستخدام أساليب فعّالة لمعالجة مستنداتك بسلاسة.
 type: docs
-weight: 4160
+weight: 4850
 url: /ar/net/aspose.words/metered/
 ---
 ## Metered class
 
-يوفر طرقًا لتعيين المفتاح المقنن.
-
-لمعرفة المزيد، قم بزيارة[الترخيص والاشتراك](https://docs.aspose.com/words/net/licensing/) مقالة توثيقية.
+يوفر طرقًا لتعيين المفتاح المقاس.
 
 ```csharp
 public class Metered
@@ -22,19 +20,21 @@ public class Metered
 
 | اسم | وصف |
 | --- | --- |
-| [Metered](metered/)() | تهيئة مثيل جديد لهذه الفئة. |
+| [Metered](metered/)() | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | يعين المفتاح العام والخاص. إذا قمت بشراء ترخيص مقنن، عند بدء التطبيق، يجب استدعاء واجهة برمجة التطبيقات هذه، عادةً، وهذا يكفي. ومع ذلك، إذا فشلت دائمًا في تحميل بيانات الاستهلاك وتجاوزت 24 ساعة، فسيتم ضبط الترخيص على حالة التقييم، لتجنب مثل هذه الحالة، يجب عليك التحقق بانتظام من حالة الترخيص، إذا كانت حالة التقييم، فاتصل بواجهة برمجة التطبيقات هذه مرة أخرى. |
+| [GetProductName](../../aspose.words/metered/getproductname/)() | إرجاع اسم المنتج |
+| [SetMeteredKey](../../aspose.words/metered/setmeteredkey/)(*string, string*) | يحدد المفتاح العام والخاص المقاس. إذا قمت بشراء ترخيص مقاس، عند بدء التطبيق، يجب استدعاء واجهة برمجة التطبيقات هذه، وعادةً ما يكون هذا كافيًا. ومع ذلك، إذا فشل دائمًا في تحميل بيانات الاستهلاك وتجاوز 24 ساعة، فسيتم تعيين الترخيص على حالة التقييم، لتجنب مثل هذه الحالة، يجب عليك التحقق بانتظام من حالة الترخيص، إذا كانت حالة التقييم، فاتصل بهذه الواجهة مرة أخرى. |
 | static [GetConsumptionCredit](../../aspose.words/metered/getconsumptioncredit/)() | يحصل على رصيد الاستهلاك |
-| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | الحصول على حجم ملف الاستهلاك |
+| static [GetConsumptionQuantity](../../aspose.words/metered/getconsumptionquantity/)() | يحصل على حجم ملف الاستهلاك |
+| static [IsMeteredLicensed](../../aspose.words/metered/ismeteredlicensed/)() | تحقق مما إذا كان القياس مرخصًا |
 
 ## أمثلة
 
-في هذا المثال، سيتم إجراء محاولة لتعيين المفتاح العام والخاص المحدود
+في هذا المثال، سيتم إجراء محاولة لتعيين مفتاح عام وخاص مقيس
 
 ```csharp
 [C#]
@@ -49,22 +49,24 @@ Dim matered As Metered = New Metered
 matered.SetMeteredKey("PublicKey", "PrivateKey")
 ```
 
-يوضح كيفية تفعيل الترخيص المقنن وتتبع الرصيد/الاستهلاك.
+يوضح كيفية تنشيط ترخيص مقيس وتتبع الائتمان/الاستهلاك.
 
 ```csharp
-// أنشئ ترخيصًا محدودًا جديدًا، ثم اطبع إحصائيات الاستخدام الخاصة به.
+// قم بإنشاء ترخيص مقنن جديد، ثم اطبع إحصائيات الاستخدام الخاصة به.
 Metered metered = new Metered();
 metered.SetMeteredKey("MyPublicKey", "MyPrivateKey");
 
+Console.WriteLine($"Is metered license accepted: {Metered.IsMeteredLicensed()}");
+Console.WriteLine($"Product name: {metered.GetProductName()}");
 Console.WriteLine($"Credit before operation: {Metered.GetConsumptionCredit()}");
 Console.WriteLine($"Consumption quantity before operation: {Metered.GetConsumptionQuantity()}");
 
-// قم بالتشغيل باستخدام Aspose.Words، ثم قم بطباعة الإحصائيات المقاسة لدينا مرة أخرى لمعرفة المبلغ الذي أنفقناه.
+// قم بالعمل باستخدام Aspose.Words، ثم قم بطباعة إحصائياتنا المقاسة مرة أخرى لمعرفة المبلغ الذي أنفقناه.
 Document doc = new Document(MyDir + "Document.docx");
 doc.Save(ArtifactsDir + "Metered.Usage.pdf");
 
-// لا تقوم آلية الترخيص المقننة بإرسال بيانات الاستخدام لشراء الخادم في كل مرة،
-// تحتاج إلى استخدام الانتظار.
+// لا تقوم آلية ترخيص Aspose Metered بإرسال بيانات الاستخدام إلى خادم الشراء في كل مرة،
+//يجب عليك استخدام الانتظار.
 System.Threading.Thread.Sleep(10000);
 
 Console.WriteLine($"Credit after operation: {Metered.GetConsumptionCredit()}");

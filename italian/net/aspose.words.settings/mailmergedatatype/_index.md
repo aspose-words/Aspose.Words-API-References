@@ -3,14 +3,14 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Settings.MailMergeDataType enum. Specifica il tipo di unorigine dati di stampa unione esterna in C#.
+description: Scopri l'enum Aspose.Words.MailMergeDataType per un'integrazione perfetta di fonti dati esterne nei tuoi progetti di automazione dei documenti.
 type: docs
-weight: 5820
+weight: 6650
 url: /it/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Specifica il tipo di un'origine dati di stampa unione esterna.
+Specifica il tipo di un'origine dati di unione di stampa esterna.
 
 ```csharp
 public enum MailMergeDataType
@@ -20,18 +20,18 @@ public enum MailMergeDataType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| None | `-1` | Nessuna origine dati di stampa unione specificata. |
-| TextFile | `0` | Specifica che un determinato documento è stato collegato a un file di testo tramite il sistema Dynamic Data Exchange (DDE). |
-| Database | `1` | Specifica che un determinato documento è stato connesso a un database Access tramite il sistema Dynamic Data Exchange (DDE). |
-| Spreadsheet | `2` | Specifica che un determinato documento è stato collegato a un foglio di calcolo Excel tramite il sistema Dynamic Data Exchange (DDE). |
-| Query | `3` | Specifica che un determinato documento è stato connesso a un'origine dati esterna utilizzando uno strumento di query esterno. |
-| Odbc | `4` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia Open Database Connectivity. |
-| Native | `5` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia ODSO (Office Data Source Object). |
+| None | `-1` | Non è specificata alcuna origine dati per la stampa unione. |
+| TextFile | `0` | Specifica che un dato documento è stato collegato a un file di testo tramite il sistema Dynamic Data Exchange (DDE). |
+| Database | `1` | Specifica che un determinato documento è stato connesso a un database di Access tramite il sistema Dynamic Data Exchange (DDE). |
+| Spreadsheet | `2` | Specifica che un dato documento è stato collegato a un foglio di calcolo Excel tramite il sistema Dynamic Data Exchange (DDE). |
+| Query | `3` | Specifica che un dato documento è stato connesso a un'origine dati esterna tramite uno strumento di query esterno. |
+| Odbc | `4` | Specifica che un dato documento è stato connesso a una fonte dati esterna tramite l'interfaccia Open Database Connectivity. |
+| Native | `5` | Specifica che un determinato documento è stato connesso a un'origine dati esterna tramite l'interfaccia Office Data Source Object (ODSO). |
 | Default | `-1` | Uguale aNone . |
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -44,7 +44,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

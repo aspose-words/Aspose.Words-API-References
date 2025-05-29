@@ -2,15 +2,15 @@
 title: Document.ExtractPages
 linktitle: ExtractPages
 articleTitle: ExtractPages
-second_title: Aspose.Words for .NET
-description: Document ExtractPages yöntem. Şunu döndürürDocument belirtilen sayfa aralığını temsil eden nesne C#'da.
+second_title: .NET için Aspose.Words
+description: Belirli sayfa aralıklarını zahmetsizce almak, belge yönetiminizi ve verimliliğinizi artırmak için Document ExtractPages yöntemini keşfedin.
 type: docs
-weight: 600
+weight: 640
 url: /tr/net/aspose.words/document/extractpages/
 ---
 ## Document.ExtractPages method
 
-Şunu döndürür:[`Document`](../) belirtilen sayfa aralığını temsil eden nesne.
+şunu döndürür:[`Document`](../) belirtilen sayfa aralığını temsil eden nesne.
 
 ```csharp
 public Document ExtractPages(int index, int count)
@@ -18,16 +18,16 @@ public Document ExtractPages(int index, int count)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Çıkarılacak ilk sayfanın sıfır tabanlı dizini. |
+| index | Int32 | Çıkarılacak ilk sayfanın sıfır tabanlı indeksi. |
 | count | Int32 | Çıkarılacak sayfa sayısı. |
 
 ## Notlar
 
-Ortaya çıkan belge, sanki 'Belirli sayfaları yazdır' işlemini gerçekleştirmişiz gibi MS Word'dekine benzemelidir - numaralandırma, üstbilgiler/altbilgiler ve çapraz tablo düzeni korunacaktır. Ancak çok sayıda nüans nedeniyle, görünen sayfa sayısını azaltırken mizanpajın tam olarak eşleştirilmesi, oldukça fazla çaba gerektiren, oldukça karmaşık bir iştir. Belgenin karmaşıklığına bağlı olarak, ortaya çıkan belge içeriği düzeninde, kaynak belgeyle karşılaştırıldığında küçük farklılıklar olabilir. Herhangi bir geri bildirim, çok takdir ediyorum.
+Sonuçta ortaya çıkan belge, 'Belirli sayfaları yazdır' işlemini gerçekleştirmişiz gibi MS Word'deki gibi görünmelidir; numaralandırma, başlıklar/altbilgiler ve çapraz tablo düzeni korunacaktır. Ancak sayfa sayısını azaltırken ortaya çıkan çok sayıda nüans nedeniyle, düzenin tam olarak eşleşmesi oldukça karmaşık bir iştir ve çok fazla çaba gerektirir. Belgenin karmaşıklığına bağlı olarak, sonuçta ortaya çıkan belge içeriği düzeninde kaynak belgeye kıyasla küçük farklılıklar olabilir. Her türlü geri bildirim büyük bir memnuniyetle karşılanacaktır.
 
 ## Örnekler
 
-Belgeden belirli aralıktaki sayfaların nasıl alınacağını gösterir.
+Belgeden belirtilen sayfa aralığının nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Layout entities.docx");

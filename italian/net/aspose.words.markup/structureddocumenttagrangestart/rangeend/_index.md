@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.RangeEnd
 linktitle: RangeEnd
 articleTitle: RangeEnd
 second_title: Aspose.Words per .NET
-description: StructuredDocumentTagRangeStart RangeEnd proprietà. Specifica la fine dellintervallo se ilStructuredDocumentTag è un tag di documento strutturato con intervalli. Altrimenti ritornanullo  in C#.
+description: Esplora le proprietà StructuredDocumentTagRangeStart e RangeEnd per definire i limiti dei tag del documento, migliorando così la gestione dei documenti strutturati.
 type: docs
 weight: 130
 url: /it/net/aspose.words.markup/structureddocumenttagrangestart/rangeend/
 ---
 ## StructuredDocumentTagRangeStart.RangeEnd property
 
-Specifica la fine dell'intervallo se il[`StructuredDocumentTag`](../../structureddocumenttag/) è un tag di documento strutturato con intervalli. Altrimenti ritorna`nullo` .
+Specifica la fine dell'intervallo se[`StructuredDocumentTag`](../../structureddocumenttag/) è un tag di documento strutturato con intervallo. Altrimenti restituisce`null` .
 
 ```csharp
 public StructuredDocumentTagRangeEnd RangeEnd { get; }
@@ -18,7 +18,7 @@ public StructuredDocumentTagRangeEnd RangeEnd { get; }
 
 ## Esempi
 
-Mostra come ottenere le proprietà dei tag di documenti strutturati a più sezioni.
+Mostra come ottenere le proprietà dei tag dei documenti strutturati multisezione.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

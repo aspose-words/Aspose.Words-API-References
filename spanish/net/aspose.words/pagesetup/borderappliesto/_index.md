@@ -3,7 +3,7 @@ title: PageSetup.BorderAppliesTo
 linktitle: BorderAppliesTo
 articleTitle: BorderAppliesTo
 second_title: Aspose.Words para .NET
-description: PageSetup BorderAppliesTo propiedad. Especifica en qué páginas se imprime el borde de la página en C#.
+description: Descubra cómo la propiedad PageSetup BorderAppliesTo mejora el diseño de su documento al controlar la impresión del borde de página para lograr una apariencia pulida y profesional.
 type: docs
 weight: 30
 url: /es/net/aspose.words/pagesetup/borderappliesto/

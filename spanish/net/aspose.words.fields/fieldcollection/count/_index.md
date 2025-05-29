@@ -3,14 +3,14 @@ title: FieldCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words para .NET
-description: FieldCollection Count propiedad. Devuelve el número de campos de la colección en C#.
+description: Descubra la propiedad FieldCollection Count, que devuelve de manera eficiente el número total de campos en su colección para una gestión de datos optimizada.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldcollection/count/
 ---
 ## FieldCollection.Count property
 
-Devuelve el número de campos de la colección.
+Devuelve el número de campos en la colección.
 
 ```csharp
 public int Count { get; }
@@ -36,7 +36,7 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
+A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
 // 1 - Obtener un campo para eliminarse a sí mismo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
@@ -50,7 +50,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Elimina todos los campos de la colección a la vez:
+// 4 - Eliminar todos los campos de la colección a la vez:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```
@@ -75,7 +75,7 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterar sobre la colección de campos e imprimir contenidos y escribir
+    // Iterar sobre la colección de campos e imprimir el contenido y el tipo
     // de cada campo utilizando una implementación de visitante personalizada.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
@@ -100,7 +100,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implementación del visitante del documento que imprime la información del campo.
+/// Implementación del documento de visitante que imprime información del campo.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -110,7 +110,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Obtiene el texto sin formato del documento acumulado por el visitante.
+    /// Obtiene el texto simple del documento que fue acumulado por el visitante.
     /// </summary>
     public string GetText()
     {

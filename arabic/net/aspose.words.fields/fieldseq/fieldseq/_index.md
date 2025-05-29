@@ -3,7 +3,7 @@ title: FieldSeq
 linktitle: FieldSeq
 articleTitle: FieldSeq
 second_title: Aspose.Words لـ .NET
-description: FieldSeq البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldSeq، الحل الأمثل لإدارة تسلسلات فعّالة. تمتع بتكامل سلس وأداء مُحسّن اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldseq/fieldseq/

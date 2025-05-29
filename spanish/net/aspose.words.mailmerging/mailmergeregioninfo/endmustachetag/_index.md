@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.EndMustacheTag
 linktitle: EndMustacheTag
 articleTitle: EndMustacheTag
 second_title: Aspose.Words para .NET
-description: MailMergeRegionInfo EndMustacheTag propiedad. Devuelve una etiqueta final bigote para la región en C#.
+description: Descubra la propiedad MailMergeRegionInfo EndMustacheTag, que devuelve eficientemente la etiqueta de cierre de bigote para las regiones de su documento. ¡Optimice su flujo de trabajo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.mailmerging/mailmergeregioninfo/endmustachetag/
 ---
 ## MailMergeRegionInfo.EndMustacheTag property
 
-Devuelve una etiqueta final "bigote" para la región.
+Devuelve una etiqueta "bigote" final para la región.
 
 ```csharp
 public MustacheTag EndMustacheTag { get; }

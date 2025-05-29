@@ -3,14 +3,14 @@ title: Font.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words per .NET
-description: Font Name proprietà. Ottiene o imposta il nome del carattere in C#.
+description: Scopri la proprietà Nome font per personalizzare e impostare facilmente gli stili dei tuoi font, migliorando l'attrattiva e la leggibilità del tuo design.
 type: docs
 weight: 230
 url: /it/net/aspose.words/font/name/
 ---
 ## Font.Name property
 
-Ottiene o imposta il nome del carattere.
+Ottiene o imposta il nome del font.
 
 ```csharp
 public string Name { get; set; }
@@ -18,13 +18,13 @@ public string Name { get; set; }
 
 ## Osservazioni
 
-Quando si ottiene, ritorna[`NameAscii`](../nameascii/).
+Quando si ottiene, restituisce[`NameAscii`](../nameascii/).
 
-Quando si imposta, imposta[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) e[`NameOther`](../nameother/) al valore specificato.
+Durante l'impostazione, imposta[`NameAscii`](../nameascii/) ,[`NameBi`](../namebi/) ,[`NameFarEast`](../namefareast/) e[`NameOther`](../nameother/) al valore specificato.
 
 ## Esempi
 
-Mostra come formattare una sequenza di testo utilizzando la relativa proprietà font.
+Mostra come formattare una sequenza di testo utilizzando la proprietà font.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ Mostra come inserire testo formattato utilizzando DocumentBuilder.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Specifica la formattazione del carattere, quindi aggiunge il testo.
+// Specificare la formattazione del carattere, quindi aggiungere il testo.
 Aspose.Words.Font font = builder.Font;
 font.Size = 16;
 font.Bold = true;

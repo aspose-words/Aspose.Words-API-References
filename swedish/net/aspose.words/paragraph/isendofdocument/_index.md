@@ -3,14 +3,14 @@ title: Paragraph.IsEndOfDocument
 linktitle: IsEndOfDocument
 articleTitle: IsEndOfDocument
 second_title: Aspose.Words för .NET
-description: Paragraph IsEndOfDocument fast egendom. Sant om detta stycke är det sista stycket i den sista delen av dokumentet i C#.
+description: Upptäck egenskapen IsEndOfDocument för stycken. Lär dig hur du identifierar det sista stycket i dokumentets sista avsnitt för effektiv formatering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/paragraph/isendofdocument/
 ---
 ## Paragraph.IsEndOfDocument property
 
-Sant om detta stycke är det sista stycket i den sista delen av dokumentet.
+Sant om detta stycke är det sista stycket i dokumentets sista avsnitt.
 
 ```csharp
 public bool IsEndOfDocument { get; }
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln"-metoden avslutar stycket efter att ha lagt till text
-// och startar sedan en ny rad och lägger till ett nytt stycke.
+// Metoden "Writeln" avslutar stycket efter att text har lagts till
+// och börjar sedan en ny rad och lägger till ett nytt stycke.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

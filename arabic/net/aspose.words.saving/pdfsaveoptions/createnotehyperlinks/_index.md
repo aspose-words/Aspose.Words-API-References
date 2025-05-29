@@ -3,14 +3,14 @@ title: PdfSaveOptions.CreateNoteHyperlinks
 linktitle: CreateNoteHyperlinks
 articleTitle: CreateNoteHyperlinks
 second_title: Aspose.Words لـ .NET
-description: PdfSaveOptions CreateNoteHyperlinks ملكية. يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/التعليقات الختامية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي سيؤدي إلى الحاشية السفلية/التعليقات الختامية المقابلة. الافتراضي هوخطأ شنيع  في C#.
+description: حسّن ملفات PDF الخاصة بك باستخدام ميزة CreateNoteHyperlinks من PdfSaveOptions. حوّل الحواشي السفلية والختامية إلى روابط قابلة للنقر لسهولة التصفح. افتراضيًا، خطأ.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/
 ---
 ## PdfSaveOptions.CreateNoteHyperlinks property
 
-يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/التعليقات الختامية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي سيؤدي إلى الحاشية السفلية/التعليقات الختامية المقابلة. الافتراضي هو`خطأ شنيع` .
+يحدد ما إذا كان سيتم تحويل مراجع الحواشي السفلية/الحواشي النهائية في القصة النصية الرئيسية إلى ارتباطات تشعبية نشطة. عند النقر فوق الارتباط التشعبي، سيقودك إلى الحاشية السفلية/الحواشي النهائية المقابلة. الإعداد الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool CreateNoteHyperlinks { get; set; }
@@ -18,18 +18,18 @@ public bool CreateNoteHyperlinks { get; set; }
 
 ## أمثلة
 
-يوضح كيفية جعل الحواشي السفلية والتعليقات الختامية تعمل كارتباطات تشعبية.
+يوضح كيفية جعل الحواشي السفلية والختامية تعمل كروابط تشعبية.
 
 ```csharp
 Document doc = new Document(MyDir + "Footnotes and endnotes.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions options = new PdfSaveOptions();
 
-// قم بتعيين خاصية "CreateNoteHyperlinks" على "true" لتحويل كافة رموز الحواشي السفلية/التعليقات الختامية
-// في النص بمثابة روابط تنقلنا، عند النقر عليها، إلى الحواشي السفلية/التعليقات الختامية الخاصة بكل منها.
-// قم بتعيين خاصية "CreateNoteHyperlinks" على "خطأ" حتى لا ترتبط رموز الحواشي السفلية/التعليقات الختامية بأي شيء.
+// اضبط خاصية "CreateNoteHyperlinks" على "true" لتحويل جميع رموز الحواشي السفلية/الختامية
+// في النص تعمل كروابط، وعند النقر عليها تأخذنا إلى الحواشي السفلية/الختامية الخاصة بها.
+// اضبط خاصية "CreateNoteHyperlinks" على "false" حتى لا ترتبط رموز الحاشية السفلية/النهاية بأي شيء.
 options.CreateNoteHyperlinks = createNoteHyperlinks;
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.NoteHyperlinks.pdf", options);

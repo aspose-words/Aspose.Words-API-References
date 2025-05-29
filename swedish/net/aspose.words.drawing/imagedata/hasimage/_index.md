@@ -3,14 +3,14 @@ title: ImageData.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words för .NET
-description: ImageData HasImage fast egendom. ReturnerarSann om formen har bildbytes eller länkar en bild i C#.
+description: Upptäck egenskapen ImageData HasImage. Kontrollera snabbt om en form innehåller bildbyte eller länkar, vilket enkelt förbättrar ditt designarbetsflöde.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.drawing/imagedata/hasimage/
 ---
 ## ImageData.HasImage property
 
-Returnerar`Sann` om formen har bildbytes eller länkar en bild.
+Returer`sann` om formen har bildbyte eller länkar en bild.
 
 ```csharp
 public bool HasImage { get; }
@@ -24,25 +24,15 @@ Visar hur man sparar alla bilder från ett dokument till filsystemet.
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 
 // Former med flaggan "HasImage" lagrar och visar alla dokumentets bilder.
-IEnumerable<Shape> shapesWithImages = 
-    imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Where(s => s.HasImage);
+Shape[] shapesWithImages = imgSourceDoc.GetChildNodes(NodeType.Shape, true).Cast<Shape>()
+    .Where(s => s.HasImage).ToArray();
 
 // Gå igenom varje form och spara dess bild.
-ImageFormatConverter formatConverter = new ImageFormatConverter();
-
-using (IEnumerator<Shape> enumerator = shapesWithImages.GetEnumerator())
+for (int shapeIndex = 0; shapeIndex < shapesWithImages.Length; ++shapeIndex)
 {
-    int shapeIndex = 0;
-
-    while (enumerator.MoveNext())
-    {
-        ImageData imageData = enumerator.Current.ImageData;
-        ImageFormat format = imageData.ToImage().RawFormat;
-        string fileExtension = formatConverter.ConvertToString(format);
-
-        using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{++shapeIndex}.{fileExtension}"))
-            imageData.Save(fileStream);
-    }
+    ImageData imageData = shapesWithImages[shapeIndex].ImageData;
+    using (FileStream fileStream = File.Create(ArtifactsDir + $"Drawing.SaveAllImages.{shapeIndex + 1}.{imageData.ImageType}"))
+        imageData.Save(fileStream);
 }
 ```
 

@@ -2,15 +2,15 @@
 title: ComparisonExpression.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
-second_title: 用于 .NET 的 Aspose.Words
-description: ComparisonExpression LeftExpression 财产. 获取左侧表达式 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索ComparisonExpression的LeftExpression属性。轻松访问和利用左表达式，增强数据操作和分析能力。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/comparisonexpression/leftexpression/
 ---
 ## ComparisonExpression.LeftExpression property
 
-获取左侧表达式。
+获取左表达式。
 
 ```csharp
 public string LeftExpression { get; }
@@ -18,7 +18,7 @@ public string LeftExpression { get; }
 
 ## 例子
 
-展示如何实现 IF 和 COMPARE 字段的自定义评估。
+展示如何对 IF 和 COMPARE 字段实现自定义评估。
 
 ```csharp
 public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparisonResult, string comparisonError,
@@ -31,11 +31,11 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
     DocumentBuilder builder = new DocumentBuilder();
 
     // 我们在此示例中使用的字段代码：
-    // 1." IF {0} {1} {2} \"真参数\" \"假参数\" "。
-    // 2.“比较{0} {1} {2}”。
+    // 1. "如果 {0} {1} {2} \"真参数\" \"假参数\" "。
+    // 2.“比较 {0} {1} {2}”。
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // 如果“comparisonResult”未定义，我们使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
+    // 如果“comparisonResult”未定义，我们将使用字符串而不是布尔值创建“ComparisonEvaluationResult”。
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

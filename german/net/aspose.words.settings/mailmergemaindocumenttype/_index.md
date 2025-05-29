@@ -3,9 +3,9 @@ title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType opsomming. Gibt die möglichen Typen für ein SerienbriefQuelldokument an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.MailMergeMainDocumentType, die verschiedene Quelldokumenttypen für Serienbriefe für eine nahtlose Dokumentautomatisierung definiert.
 type: docs
-weight: 5840
+weight: 6670
 url: /de/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
@@ -20,14 +20,14 @@ public enum MailMergeMainDocumentType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| NotAMergeDocument | `0` | Dieses Dokument ist kein Seriendruckdokument. |
-| FormLetters | `1` | Gibt an, dass das Seriendruck-Quelldokument vom Typ Serienbrief ist. |
-| MailingLabels | `2` | Gibt an, dass das Seriendruck-Quelldokument vom Typ „Mailing Label“ ist. |
-| Envelopes | `4` | Gibt an, dass das Serienbrief-Quelldokument vom Umschlagtyp ist. |
-| Catalog | `8` | Gibt an, dass das Seriendruck-Quelldokument vom Katalogtyp ist. |
-| Email | `16` | Gibt an, dass das Seriendruck-Quelldokument vom E-Mail-Nachrichtentyp ist. |
-| Fax | `32` | Gibt an, dass das Seriendruck-Quelldokument vom Faxtyp ist. |
-| Default | `0` | EntsprichtNotAMergeDocument |
+| NotAMergeDocument | `0` | Dieses Dokument ist kein Serienbriefdokument. |
+| FormLetters | `1` | Gibt an, dass das Serienbrief-Quelldokument vom Typ Serienbrief ist. |
+| MailingLabels | `2` | Gibt an, dass das Serienbrief-Quelldokument vom Typ Adressetikett ist. |
+| Envelopes | `4` | Gibt an, dass das Serienbrief-Quelldokument vom Typ „Umschlag“ ist. |
+| Catalog | `8` | Gibt an, dass das Serienbrief-Quelldokument vom Typ „Katalog“ ist. |
+| Email | `16` | Gibt an, dass das Serienbrief-Quelldokument vom Nachrichtentyp E-Mail ist. |
+| Fax | `32` | Gibt an, dass das Serienbrief-Quelldokument vom Typ Fax ist. |
+| Default | `0` | Ist gleichNotAMergeDocument |
 
 ## Beispiele
 
@@ -44,9 +44,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei mit dem Zeichen „|“ Charakter
-// fungiert als Trennzeichen, das die Spalten trennt. Die erste Zeile enthält die Namen der drei Spalten,
-// und jede nachfolgende Zeile ist eine Zeile mit ihren jeweiligen Werten.
+// Erstellen Sie eine Datenquelle in Form einer ASCII-Datei, mit dem Zeichen "|"
+// dient als Trennzeichen zwischen den Spalten. Die erste Zeile enthält die Namen der drei Spalten,
+// und jede nachfolgende Zeile ist eine Reihe mit den jeweiligen Werten.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -74,7 +74,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Beim Öffnen dieses Dokuments in Microsoft Word wird der Serienbrief ausgeführt, bevor der Inhalt angezeigt wird.
+    // Wenn Sie dieses Dokument in Microsoft Word öffnen, wird der Seriendruck ausgeführt, bevor der Inhalt angezeigt wird.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

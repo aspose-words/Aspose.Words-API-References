@@ -2,15 +2,15 @@
 title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
-second_title: Aspose.Words for .NET
-description: FontInfo Pitch mülk. Karakter aralığı yazı tipinin sabit aralıklı mı orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir C#'da.
+second_title: .NET için Aspose.Words
+description: FontInfo Pitch özelliğini keşfedin. Sabit pitch ile orantılı aralığı nasıl tanımladığını öğrenin ve tipografinizi daha iyi tasarım netliği için geliştirin.
 type: docs
-weight: 70
+weight: 80
 url: /tr/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Karakter aralığı, yazı tipinin sabit aralıklı mı, orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı bağlı olduğunu gösterir.
+Perde, yazı tipinin sabit perdeli, orantılı aralıklı olup olmadığını veya varsayılan bir ayara bağlı olup olmadığını gösterir.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -18,7 +18,7 @@ public FontPitch Pitch { get; set; }
 
 ## Örnekler
 
-Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
+Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve bunların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alternatif adlar genellikle boştur.
+        // Alt adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

@@ -3,14 +3,14 @@ title: FormField.DropDownItems
 linktitle: DropDownItems
 articleTitle: DropDownItems
 second_title: Aspose.Words для .NET
-description: FormField DropDownItems свойство. Обеспечивает доступ к элементам поля раскрывающейся формы на С#.
+description: Свойство DropDownItems объекта FormField позволяет легко получать доступ к раскрывающимся элементам и управлять ими, улучшая ваши формы за счет бесперебойного взаимодействия с пользователем.
 type: docs
 weight: 50
 url: /ru/net/aspose.words.fields/formfield/dropdownitems/
 ---
 ## FormField.DropDownItems property
 
-Обеспечивает доступ к элементам поля раскрывающейся формы.
+Предоставляет доступ к элементам раскрывающегося поля формы.
 
 ```csharp
 public DropDownItemCollection DropDownItems { get; }
@@ -18,11 +18,11 @@ public DropDownItemCollection DropDownItems { get; }
 
 ## Примечания
 
-Microsoft Word допускает максимум 25 элементов в поле раскрывающейся формы.
+Microsoft Word допускает максимум 25 элементов в раскрывающемся поле формы.
 
 ## Примеры
 
-Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
+Показывает, как вставлять различные виды полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
 
 ```csharp
 public void Visitor()
@@ -30,7 +30,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов для вставки поля со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -40,7 +40,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов для вставки флажка.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -69,7 +69,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ.
+    // Поля отображают наши поля формы. Мы можем увидеть их коды полей, открыв этот документ
     // в Microsoft и нажав Alt + F9. Эти поля не имеют переключателей,
     // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Реализация посетителя, которая печатает подробную информацию о полях формы, которые он посещает.
+ /// Реализация посетителя, которая печатает сведения о полях формы, которые он посещает.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -132,7 +132,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст, заканчивающийся символом новой строки, в текущий вывод.
+    /// Добавляет текст, завершающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -140,7 +140,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

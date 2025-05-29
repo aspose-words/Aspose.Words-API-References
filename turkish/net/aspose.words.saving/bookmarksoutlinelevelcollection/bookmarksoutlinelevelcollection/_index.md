@@ -2,8 +2,8 @@
 title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
-second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: BookmarksOutlineLevelCollection oluşturucusunu keşfedin—düzenli yer imlerini zahmetsizce oluşturmanın anahtarı. Bu varsayılan çözümle kodlamanızı geliştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/

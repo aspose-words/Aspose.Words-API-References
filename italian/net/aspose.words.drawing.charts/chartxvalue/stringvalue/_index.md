@@ -3,14 +3,14 @@ title: ChartXValue.StringValue
 linktitle: StringValue
 articleTitle: StringValue
 second_title: Aspose.Words per .NET
-description: ChartXValue StringValue proprietà. Ottiene il valore della stringa memorizzato in C#.
+description: Scopri la proprietà StringValue di ChartXValue che recupera e gestisce in modo efficiente i valori stringa memorizzati per una migliore visualizzazione dei dati.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing.charts/chartxvalue/stringvalue/
 ---
 ## ChartXValue.StringValue property
 
-Ottiene il valore della stringa memorizzato.
+Ottiene il valore della stringa memorizzata.
 
 ```csharp
 public string StringValue { get; }

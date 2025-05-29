@@ -3,7 +3,7 @@ title: IHyphenationCallback.RequestDictionary
 linktitle: RequestDictionary
 articleTitle: RequestDictionary
 second_title: Aspose.Words für .NET
-description: IHyphenationCallback RequestDictionary methode. Benachrichtigt die Anwendung dass das Silbentrennungswörterbuch für die angegebene Sprache nicht gefunden wurde und möglicherweise registriert werden muss in C#.
+description: Entdecken Sie die Methode „IHyphenationCallback RequestDictionary“, mit der Sie fehlende Silbentrennungswörterbücher effizient verarbeiten und so eine nahtlose Sprachunterstützung in Ihrer Anwendung gewährleisten können.
 type: docs
 weight: 10
 url: /de/net/aspose.words/ihyphenationcallback/requestdictionary/
@@ -12,9 +12,9 @@ url: /de/net/aspose.words/ihyphenationcallback/requestdictionary/
 
 Benachrichtigt die Anwendung, dass das Silbentrennungswörterbuch für die angegebene Sprache nicht gefunden wurde und möglicherweise registriert werden muss.
 
-Die Implementierung sollte ein Wörterbuch finden und es mit registrieren[`RegisterDictionary`](../../hyphenation/registerdictionary/) Methoden.
+Die Implementierung sollte ein Wörterbuch finden und es registrieren mit[`RegisterDictionary`](../../hyphenation/registerdictionary/) Methoden.
 
-Wenn das Wörterbuch für die angegebene Sprachimplementierung nicht verfügbar ist, können Sie sich von weiteren Aufrufen für dieselbe Sprache abmelden[`RegisterDictionary`](../../hyphenation/registerdictionary/) mit`Null` value.
+Wenn für die angegebene Sprache kein Wörterbuch verfügbar ist, kann die Implementierung weitere Aufrufe für dieselbe Sprache unter Verwendung von[`RegisterDictionary`](../../hyphenation/registerdictionary/) mit`null` Wert.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -22,15 +22,15 @@ public void RequestDictionary(string language)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen finden Sie in der .NET-Dokumentation für „Kulturname“ und RFC 4646. |
+| language | String | Ein Sprachname, z. B. „en-US“. Weitere Informationen zum „Kulturnamen“ finden Sie in der .NET-Dokumentation und in RFC 4646. |
 
 ## Bemerkungen
 
-Von dieser Methode ausgelöste Ausnahmen brechen die Ausführung des Seitenlayoutprozesses ab.
+Von dieser Methode ausgelöste Ausnahmen führen zum Abbruch der Ausführung des Seitenlayoutprozesses.
 
 ## Beispiele
 
-Zeigt, wie man ein Wörterbuch aus einer Datei öffnet und registriert.
+Zeigt, wie ein Wörterbuch aus einer Datei geöffnet und registriert wird.
 
 ```csharp
 public void RegisterDictionary()
@@ -45,11 +45,11 @@ public void RegisterDictionary()
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischen Computer, z. B. Deutsch, nicht trennen darf.
+    // Öffnen Sie ein Dokument mit einem Gebietsschema, das Microsoft Word auf einem englischsprachigen Computer möglicherweise nicht trennt, z. B. Deutsch.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Um dieses Dokument beim Speichern zu trennen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
-    // Dieser Rückruf verarbeitet die automatische Anfrage für dieses Wörterbuch.
+    // Um das Dokument beim Speichern mit Silbentrennung zu versehen, benötigen wir ein Silbentrennungswörterbuch für den Sprachcode „de-CH“.
+    // Dieser Rückruf verarbeitet die automatische Anforderung für dieses Wörterbuch.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
     // Wenn wir das Dokument speichern, wird die deutsche Silbentrennung wirksam.
@@ -61,10 +61,11 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>
-/// Ordnet ISO-Sprachcodes lokalen Systemdateinamen für Silbentrennungswörterbuchdateien zu.
+/// Verknüpft ISO-Sprachcodes mit lokalen Systemdateinamen für Silbentrennungswörterbuchdateien.
 /// </summary>
 private class CustomHyphenationDictionaryRegister : IHyphenationCallback
 {

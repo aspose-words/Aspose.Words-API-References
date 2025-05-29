@@ -3,14 +3,14 @@ title: SignatureLineOptions.AllowComments
 linktitle: AllowComments
 articleTitle: AllowComments
 second_title: Aspose.Words для .NET
-description: SignatureLineOptions AllowComments свойство. Получает или задает значение указывающее что подписывающая сторона может добавлять комментарии в диалоговом окне Подпись. Значение по умолчанию для этого свойстваЛОЖЬ  на С#.
+description: Включите комментарии подписывающего в диалоговом окне Sign с помощью свойства SignatureLineOptions AllowComments. Улучшите сотрудничество и обратную связь без усилий!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/signaturelineoptions/allowcomments/
 ---
 ## SignatureLineOptions.AllowComments property
 
-Получает или задает значение, указывающее, что подписывающая сторона может добавлять комментарии в диалоговом окне «Подпись». Значение по умолчанию для этого свойства:`ЛОЖЬ` .
+Возвращает или задает значение, указывающее, может ли подписывающая сторона добавлять комментарии в диалоговом окне «Подписание». Значение по умолчанию для этого свойства —`ЛОЖЬ` .
 
 ```csharp
 public bool AllowComments { get; set; }
@@ -18,7 +18,7 @@ public bool AllowComments { get; set; }
 
 ## Примеры
 
-Показывает, как подписать документ личным удостоверением и строкой подписи.
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
 
 ```csharp
 Document doc = new Document();
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указываем, что строка подписи содержит подпись.
+// Повторно откройте наш сохраненный документ и убедитесь, что свойства «IsSigned» и «IsValid» равны «true»,
+// указывая, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

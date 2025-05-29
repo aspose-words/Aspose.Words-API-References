@@ -3,7 +3,7 @@ title: OfficeMath.Justification
 linktitle: Justification
 articleTitle: Justification
 second_title: Aspose.Words pour .NET
-description: OfficeMath Justification propriété. Obtient/définit la justification Office Math en C#.
+description: Découvrez la propriété Justification OfficeMath pour personnaliser et définir facilement votre alignement Office Math. Améliorez la présentation de vos documents sans effort !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.math/officemath/justification/
@@ -18,23 +18,23 @@ public OfficeMathJustification Justification { get; set; }
 
 ## Remarques
 
-La justification ne peut pas être définie sur Office Math avec le type de format d'affichageInline.
+La justification ne peut pas être définie sur le type de format d'affichage Office MathInline.
 
-La justification en ligne ne peut pas être définie sur Office Math avec le type de format d'affichageDisplay.
+La justification en ligne ne peut pas être définie sur le type de format d'affichage Office MathDisplay.
 
 Correspondant[`DisplayType`](../displaytype/) doit être défini avant de définir la justification Office Math.
 
 ## Exemples
 
-Montre comment définir le formatage de l’affichage des mathématiques de bureau.
+Montre comment définir la mise en forme de l'affichage mathématique du bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Les nœuds OfficeMath qui sont des enfants d'autres nœuds OfficeMath sont toujours en ligne.
-// Le nœud avec lequel nous travaillons est le nœud de base pour changer son emplacement et son type d'affichage.
+// Le nœud avec lequel nous travaillons est le nœud de base pour modifier son emplacement et son type d'affichage.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

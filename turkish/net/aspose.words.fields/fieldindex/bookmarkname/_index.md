@@ -2,15 +2,15 @@
 title: FieldIndex.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: Aspose.Words for .NET
-description: FieldIndex BookmarkName mülk. Dizini oluşturmak için kullanılan belgenin bölümünü işaretleyen yer işaretinin adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge dizinlemeyi geliştiren yer imlerini kolayca yönetmek için FieldIndex BookmarkName özelliğini keşfedin. Sorunsuz gezinmeyle verimliliğinizi artırın!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldindex/bookmarkname/
 ---
 ## FieldIndex.BookmarkName property
 
-Dizini oluşturmak için kullanılan belgenin bölümünü işaretleyen yer işaretinin adını alır veya ayarlar.
+Dizin oluşturmak için kullanılan belge bölümünü işaretleyen yer iminin adını alır veya ayarlar.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,49 +18,49 @@ public string BookmarkName { get; set; }
 
 ## Örnekler
 
-Bir INDEX alanının nasıl oluşturulacağını ve ardından onu girişlerle doldurmak için XE alanlarının nasıl kullanılacağını gösterir.
+INDEX alanının nasıl oluşturulacağını ve ardından XE alanlarının bu alanı girişlerle nasıl dolduracağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir
-// ve sağda XE alanını içeren sayfa.
-// XE alanlarının "Text" özelliğinde aynı değer varsa,
-// INDEX alanı bunları tek bir girişte gruplandıracaktır.
+// Belgede bulunan her XE alanı için bir girdi görüntüleyecek bir INDEX alanı oluşturun.
+// Her giriş, sol tarafta XE alanının Metin özelliği değerini gösterecektir
+// ve sağ tarafta XE alanını içeren sayfa.
+// XE alanlarının "Metin" özelliğinde aynı değer varsa,
+// INDEX alanı bunları tek bir girdide gruplayacaktır.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
 // INDEX alanını yalnızca sınırlar içindeki XE alanlarını görüntüleyecek şekilde yapılandırın
-// "MainBookmark" adlı ve "EntryType" özellikleri "A" değerine sahip olan bir yer işaretinin.
-// Hem INDEX hem de XE alanları için "EntryType" özelliği dize değerinin yalnızca ilk karakterini kullanır.
+// "MainBookmark" adlı ve "EntryType" özelliklerinin değeri "A" olan bir yer iminin.
+// Hem INDEX hem de XE alanları için, "EntryType" özelliği dize değerinin yalnızca ilk karakterini kullanır.
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// Yeni bir sayfada yer imini değerle eşleşen bir adla başlatın
-// INDEX alanının "BookmarkName" özelliğinin.
+// Yeni bir sayfada, yer imini değerle eşleşen bir adla başlatın
+// INDEX alanının "BookmarkName" özelliği.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// INDEX alanı bu girişi alacaktır çünkü bu yer iminin içindedir,
-// ve giriş türü aynı zamanda INDEX alanının giriş türüyle de eşleşir.
+// INDEX alanı bu girişi alacaktır çünkü yer iminin içindedir,
+// ve giriş tipi de INDEX alanının giriş tipiyle eşleşiyor.
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
 Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
 
-// Giriş türleri eşleşmediğinden INDEX'te görünmeyecek bir XE alanı ekleyin.
+// Giriş türleri eşleşmediği için DİZİN'de görünmeyecek bir XE alanı ekleyin.
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// Yer imini sonlandırın ve ardından bir XE alanı ekleyin.
-// INDEX alanıyla aynı türdedir ancak görünmez
-// yer iminin sınırlarının dışında olduğundan.
+// Yer imini sonlandır ve ardından bir XE alanı ekle.
+// INDEX alanıyla aynı türdedir, ancak görünmeyecektir
+// yer imi sınırlarının dışında olduğundan.
 builder.EndBookmark("MainBookmark");
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

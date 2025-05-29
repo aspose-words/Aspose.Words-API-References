@@ -3,7 +3,7 @@ title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
 second_title: Aspose.Words para .NET
-description: FieldChar GetField método. Devuelve un campo para el campo char en C#.
+description: Descubra el método GetField en FieldChar, recupere campos sin esfuerzo para una gestión óptima de datos y un mejor rendimiento en sus aplicaciones.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldchar/getfield/
@@ -18,7 +18,7 @@ public Field GetField()
 
 ### Valor_devuelto
 
-Un campo para el campo char.
+Un campo para el carácter de campo.
 
 ## Observaciones
 
@@ -48,7 +48,7 @@ field = (FieldDate)fieldStart.GetField();
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Actualiza el campo para mostrar la fecha actual.
+//Actualiza el campo para mostrar la fecha actual.
 field.Update();
 ```
 

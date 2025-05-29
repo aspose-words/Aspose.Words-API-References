@@ -3,7 +3,7 @@ title: List.ListId
 linktitle: ListId
 articleTitle: ListId
 second_title: Aspose.Words для .NET
-description: List ListId свойство. Получает уникальный идентификатор списка на С#.
+description: Откройте для себя уникальное свойство ListId для легкого доступа и управления списками. Оптимизируйте свой рабочий процесс с помощью этого важного идентификатора.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.lists/list/listid/
@@ -18,11 +18,11 @@ public int ListId { get; }
 
 ## Примечания
 
-Обычно вам не нужно использовать это свойство. Но если вы его используете, вы обычно делаете so в сочетании с[`GetListByListId`](../../listcollection/getlistbylistid/) метод для поиска списка a по его идентификатору.
+Обычно вам не нужно использовать это свойство. Но если вы его используете, вы обычно делаете so вместе с[`GetListByListId`](../../listcollection/getlistbylistid/) метод поиска списка a по его идентификатору.
 
 ## Примеры
 
-Показывает, как проверить свойства документов владельцев списков.
+Показывает, как проверить свойства документа владельца списков.
 
 ```csharp
 Document doc = new Document();
@@ -59,7 +59,7 @@ builder.ListFormat.RemoveNumbers();
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem))
+foreach (Paragraph para in paras.OfType<Paragraph>().Where(p => p.ListFormat.IsListItem).ToList())
 { 
     Console.WriteLine($"This paragraph belongs to list ID# {para.ListFormat.List.ListId}, number style \"{para.ListFormat.ListLevel.NumberStyle}\"");
     Console.WriteLine($"\t\"{para.GetText().Trim()}\"");

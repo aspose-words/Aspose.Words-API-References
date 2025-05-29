@@ -3,7 +3,7 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words para .NET
-description: Border LineWidth propiedad. Obtiene o establece el ancho del borde en puntos en C#.
+description: Ajuste la propiedad Border LineWidth para personalizar el grosor del borde en puntos, mejorando la precisión y el atractivo visual de su diseño.
 type: docs
 weight: 50
 url: /es/net/aspose.words/border/linewidth/
@@ -18,7 +18,7 @@ public double LineWidth { get; set; }
 
 ## Observaciones
 
-Si establece un ancho de línea mayor que cero cuando el estilo de línea es ninguno, el estilo de línea is cambia automáticamente a una sola línea.
+Si establece un ancho de línea mayor que cero cuando el estilo de línea es ninguno, el estilo de línea cambiará automáticamente a línea única.
 
 ## Ejemplos
 

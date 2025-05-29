@@ -3,14 +3,14 @@ title: ReplacingArgs.MatchOffset
 linktitle: MatchOffset
 articleTitle: MatchOffset
 second_title: Aspose.Words para .NET
-description: ReplacingArgs MatchOffset propiedad. Obtiene la posición inicial de base cero de la coincidencia desde el inicio de el nodo que contiene el comienzo de la coincidencia en C#.
+description: Descubra la propiedad ReplacingArgs MatchOffset, encuentre fácilmente la posición inicial basada en cero de las coincidencias en sus nodos para un manejo eficiente de los datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.replacing/replacingargs/matchoffset/
 ---
 ## ReplacingArgs.MatchOffset property
 
-Obtiene la posición inicial de base cero de la coincidencia desde el inicio de el nodo que contiene el comienzo de la coincidencia.
+Obtiene la posición inicial basada en cero de la coincidencia desde el inicio del nodo que contiene el comienzo de la coincidencia.
 
 ```csharp
 public int MatchOffset { get; }
@@ -18,7 +18,7 @@ public int MatchOffset { get; }
 
 ## Ejemplos
 
-Muestra cómo aplicar una fuente diferente a contenido nuevo a través de FindReplaceOptions.
+Muestra cómo aplicar una fuente diferente al contenido nuevo a través de FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -30,10 +30,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Podemos utilizar un objeto "FindReplaceOptions" para modificar el proceso de buscar y reemplazar.
+    // Podemos usar un objeto "FindReplaceOptions" para modificar el proceso de búsqueda y reemplazo.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Establece la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
+    // Establezca la propiedad "HighlightColor" en un color de fondo que queremos aplicar al texto resultante de la operación.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -51,7 +51,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Reemplaza coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
+/// Reemplaza las coincidencias numéricas de búsqueda y reemplazo con sus equivalentes hexadecimales.
 /// Mantiene un registro de cada reemplazo.
 /// </summary>
 private class NumberHexer : IReplacingCallback

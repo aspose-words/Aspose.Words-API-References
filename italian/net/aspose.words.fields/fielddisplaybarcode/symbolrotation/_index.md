@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.SymbolRotation
 linktitle: SymbolRotation
 articleTitle: SymbolRotation
 second_title: Aspose.Words per .NET
-description: FieldDisplayBarcode SymbolRotation proprietà. Ottiene o imposta la rotazione del simbolo del codice a barre. I valori validi sono 0 3 in C#.
+description: Scopri la proprietà SymbolRotation di FieldDisplayBarcode. Regola facilmente la rotazione del codice a barre per una scansione ottimale con valori validi da 0 a 3. Migliora la visualizzazione dei tuoi dati!
 type: docs
 weight: 140
 url: /it/net/aspose.words.fields/fielddisplaybarcode/symbolrotation/

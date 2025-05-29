@@ -3,7 +3,7 @@ title: FieldChar.GetField
 linktitle: GetField
 articleTitle: GetField
 second_title: Aspose.Words för .NET
-description: FieldChar GetField metod. Returnerar ett fält för fältet char i C#.
+description: Upptäck GetField-metoden i FieldChar, hämta enkelt fält för optimal datahantering och förbättrad prestanda i dina applikationer.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldchar/getfield/
@@ -18,11 +18,11 @@ public Field GetField()
 
 ### Returvärde
 
-Ett fält för åkerrödingen.
+Ett fält för fältet tecken.
 
 ## Anmärkningar
 
-En ny[`Field`](../../field/) objekt skapas varje gång metoden anropas.
+En ny[`Field`](../../field/) objektet skapas varje gång metoden anropas.
 
 ## Exempel
 

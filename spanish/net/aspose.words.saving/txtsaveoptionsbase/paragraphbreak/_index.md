@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
 second_title: Aspose.Words para .NET
-description: TxtSaveOptionsBase ParagraphBreak propiedad. Especifica la cadena que se utilizará como salto de párrafo al exportar en formatos de texto en C#.
+description: Descubra la propiedad ParagraphBreak de TxtSaveOptionsBase, que permite saltos de párrafo personalizados para exportaciones de texto sin interrupciones. ¡Mejore la legibilidad de su documento!
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
@@ -32,13 +32,13 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento.
-// para modificar cómo guardamos el documento en texto plano.
+// Crea un objeto "TxtSaveOptions", que podemos pasar al método "Guardar" del documento
+// para modificar la forma en que guardamos el documento en texto plano.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
 
-// Establece "ParagraphBreak" en un valor personalizado que deseamos poner al final de cada párrafo.
+// Establezca "ParagraphBreak" en un valor personalizado que deseamos colocar al final de cada párrafo.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);

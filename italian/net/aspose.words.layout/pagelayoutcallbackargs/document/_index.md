@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words per .NET
-description: PageLayoutCallbackArgs Document proprietà. Ottiene il documento in C#.
+description: Scopri la proprietà Document PageLayoutCallbackArgs per accedere e gestire in modo efficiente i dati dei tuoi documenti. Migliora il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.layout/pagelayoutcallbackargs/document/
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Esempi
 
-Mostra come tenere traccia delle modifiche al layout con un callback del layout.
+Mostra come tenere traccia delle modifiche al layout con un callback di layout.
 
 ```csharp
 public void PageLayoutCallback()
@@ -37,7 +37,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Ci avvisa quando salviamo il documento in un formato di pagina fisso
-/// ed esegue il rendering di una pagina su cui eseguiamo il reflow della pagina su un'immagine nel file system locale.
+/// e visualizza una pagina su cui eseguiamo un reflow di pagina in un'immagine nel file system locale.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

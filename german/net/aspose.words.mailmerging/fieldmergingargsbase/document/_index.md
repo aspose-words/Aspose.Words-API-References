@@ -3,14 +3,14 @@ title: FieldMergingArgsBase.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words für .NET
-description: FieldMergingArgsBase Document eigendom. Gibt die zurückDocument Objekt für das der Seriendruck durchgeführt wird in C#.
+description: Entdecken Sie die FieldMergingArgsBase-Dokumenteigenschaft, die das Dokumentobjekt für nahtlose Serienbriefvorgänge bereitstellt. Optimieren Sie Ihren Workflow noch heute!
 type: docs
 weight: 10
 url: /de/net/aspose.words.mailmerging/fieldmergingargsbase/document/
 ---
 ## FieldMergingArgsBase.Document property
 
-Gibt die zurück`Document` Objekt, für das der Seriendruck durchgeführt wird.
+Gibt die`Document`Objekt, für das der Serienbrief ausgeführt wird.
 
 ```csharp
 public Document Document { get; }
@@ -18,7 +18,7 @@ public Document Document { get; }
 
 ## Beispiele
 
-Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Seriendaten in Form von HTML-Dokumenten verarbeitet.
+Zeigt, wie ein Serienbrief mit einem benutzerdefinierten Rückruf ausgeführt wird, der Serienbriefdaten in Form von HTML-Dokumenten verarbeitet.
 
 ```csharp
 public void MergeHtml()
@@ -51,25 +51,25 @@ public void MergeHtml()
 }
 
 /// <summary>
-/// Wenn der Seriendruck auf ein MERGEFIELD trifft, dessen Name mit dem Präfix „html_“ beginnt,
-/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis dem Dokumentspeicherort des MERGEFIELD hinzu.
+/// Wenn der Serienbrief auf ein MERGEFIELD trifft, dessen Name mit dem Präfix "html_" beginnt,
+/// Dieser Rückruf analysiert seine Zusammenführungsdaten als HTML-Inhalt und fügt das Ergebnis zum Dokumentspeicherort des MERGEFIELD hinzu.
 /// </summary>
 private class HandleMergeFieldInsertHtml : IFieldMergingCallback
 {
     /// <summary>
-    /// Wird aufgerufen, wenn ein Serienbrief Daten in einem MERGEFIELD zusammenführt.
+    /// Wird aufgerufen, wenn ein Serienbrief Daten in ein MERGEFIELD zusammenführt.
     /// </summary>
     void IFieldMergingCallback.FieldMerging(FieldMergingArgs args)
     {
         if (args.DocumentFieldName.StartsWith("html_") && args.Field.GetFieldCode().Contains("\\b"))
         {
-            // Geparste HTML-Daten zum Hauptteil des Dokuments hinzufügen.
+            // Fügen Sie dem Hauptteil des Dokuments analysierte HTML-Daten hinzu.
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.DocumentFieldName);
             builder.InsertHtml((string)args.FieldValue);
 
             // Da wir den zusammengeführten Inhalt bereits manuell eingefügt haben,
-             // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
+            // Wir müssen auf dieses Ereignis nicht reagieren, indem wir Inhalte über die Eigenschaft „Text“ zurückgeben.
             args.Text = string.Empty;
         }
     }

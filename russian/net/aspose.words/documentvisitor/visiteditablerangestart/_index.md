@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitEditableRangeStart
 linktitle: VisitEditableRangeStart
 articleTitle: VisitEditableRangeStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitEditableRangeStart метод. Вызывается когда в документе встречается начало редактируемого диапазона на С#.
+description: Откройте для себя метод DocumentVisitor VisitEditableRangeStart, который запускается в начале редактируемых диапазонов для беспрепятственного редактирования документов и улучшения пользовательского опыта.
 type: docs
 weight: 170
 url: /ru/net/aspose.words/documentvisitor/visiteditablerangestart/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitEditableRangeStart(EditableRangeStart editable
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| editableRangeStart | EditableRangeStart | Объект, который посещается. |
+| editableRangeStart | EditableRangeStart | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void EditableRangeToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     EditableRangeStructurePrinter visitor = new EditableRangeStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -55,7 +55,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -67,7 +67,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
-        // Мы хотим напечатать содержимое прогонов, но только если они находятся внутри фигур, как в случае с текстовыми полями
+        // Мы хотим распечатать содержимое последовательностей, но только если они находятся внутри фигур, как в случае текстовых полей
         if (mVisitorIsInsideEditableRange) IndentAndAppendLine("[Run] \"" + run.GetText() + "\"");
 
         return VisitorAction.Continue;
@@ -99,7 +99,7 @@ public class EditableRangeStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

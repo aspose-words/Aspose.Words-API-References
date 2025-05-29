@@ -3,14 +3,14 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words لـ .NET
-description: Font HighlightColor ملكية. الحصول على أو تعيين لون التمييز علامة التحديد في C#.
+description: اكتشف خاصية "لون تمييز الخط" - خصص لون تمييز نصك بسهولة لتحسين قابلية القراءة وجاذبيته البصرية. ارتقِ بتصميمك!
 type: docs
 weight: 150
 url: /ar/net/aspose.words/font/highlightcolor/
 ---
 ## Font.HighlightColor property
 
-الحصول على أو تعيين لون التمييز (علامة التحديد).
+يحصل على لون التمييز (العلامة) أو يعينه.
 
 ```csharp
 public Color HighlightColor { get; set; }
@@ -18,7 +18,7 @@ public Color HighlightColor { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
+يوضح كيفية تنسيق سلسلة من النص باستخدام خاصية الخط الخاصة به.
 
 ```csharp
 Document doc = new Document();

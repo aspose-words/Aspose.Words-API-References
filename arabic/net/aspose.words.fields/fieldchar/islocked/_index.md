@@ -3,14 +3,14 @@ title: FieldChar.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words لـ .NET
-description: FieldChar IsLocked ملكية. الحصول على أو تعيين ما إذا كان الحقل الأصلي مقفلاً لا ينبغي إعادة حساب النتيجة في C#.
+description: اكتشف خاصية FieldChar IsLocked، وتحكّم في إعادة حساب الحقول بسهولة. حسّن دقة وكفاءة مستندك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldchar/islocked/
 ---
 ## FieldChar.IsLocked property
 
-الحصول على أو تعيين ما إذا كان الحقل الأصلي مقفلاً (لا ينبغي إعادة حساب النتيجة).
+يحصل على أو يحدد ما إذا كان الحقل الرئيسي مقفلاً (لا ينبغي إعادة حساب نتيجته).
 
 ```csharp
 public bool IsLocked { get; set; }
@@ -34,13 +34,13 @@ Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
 Assert.AreEqual(false, fieldStart.IsDirty);
 Assert.AreEqual(false, fieldStart.IsLocked);
 
-// استرداد كائن الواجهة الذي يمثل الحقل الموجود في المستند.
+// استرداد كائن الواجهة الذي يمثل الحقل في المستند.
 field = (FieldDate)fieldStart.GetField();
 
 Assert.AreEqual(false, field.IsLocked);
 Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// قم بتحديث الحقل لإظهار التاريخ الحالي.
+//تحديث الحقل لإظهار التاريخ الحالي.
 field.Update();
 ```
 

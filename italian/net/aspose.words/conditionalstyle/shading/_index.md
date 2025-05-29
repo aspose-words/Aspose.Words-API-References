@@ -3,14 +3,14 @@ title: ConditionalStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words per .NET
-description: ConditionalStyle Shading proprietà. Ottiene aShading oggetto che fa riferimento alla formattazione dellombreggiatura per questo stile condizionale in C#.
+description: Scopri la proprietà Ombreggiatura Stile Condizionale per accedere alla formattazione delle ombreggiature per i tuoi stili. Migliora i tuoi progetti con effetti visivi personalizzati oggi stesso!
 type: docs
 weight: 70
 url: /it/net/aspose.words/conditionalstyle/shading/
 ---
 ## ConditionalStyle.Shading property
 
-Ottiene a[`Shading`](../../shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per questo stile condizionale.
+Ottiene un[`Shading`](../../shading/) oggetto che fa riferimento alla formattazione dell'ombreggiatura per questo stile condizionale.
 
 ```csharp
 public Shading Shading { get; }
@@ -39,8 +39,8 @@ builder.EndTable();
 // Crea uno stile di tabella personalizzato.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Gli stili condizionali sono modifiche alla formattazione che influiscono solo su alcune celle della tabella
-// basato su un predicato, ad esempio le celle nell'ultima riga.
+// Gli stili condizionali sono modifiche di formattazione che interessano solo alcune celle della tabella
+// in base a un predicato, ad esempio se le celle si trovano nell'ultima riga.
 // Di seguito sono riportati tre modi per accedere agli stili condizionali di uno stile di tabella dalla raccolta "ConditionalStyles".
 // 1 - Per tipo di stile:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
@@ -50,7 +50,7 @@ tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
 Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
 
-// 3 - Come immobile:
+// 3 - Come proprietà:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 // Applica la spaziatura interna e la formattazione del testo agli stili condizionali.
@@ -70,7 +70,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
     }
 }
 
-// Applica lo stile personalizzato, che contiene tutti gli stili condizionali, alla tabella.
+// Applica alla tabella lo stile personalizzato che contiene tutti gli stili condizionali.
 table.Style = tableStyle;
 
 // Il nostro stile applica alcuni stili condizionali per impostazione predefinita.

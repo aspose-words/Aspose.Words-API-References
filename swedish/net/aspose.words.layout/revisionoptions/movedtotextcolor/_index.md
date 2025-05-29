@@ -3,14 +3,14 @@ title: RevisionOptions.MovedToTextColor
 linktitle: MovedToTextColor
 articleTitle: MovedToTextColor
 second_title: Aspose.Words för .NET
-description: RevisionOptions MovedToTextColor fast egendom. Tillåter att ange färgen som ska användas för områden där innehållet har flyttats tillMoving . Standardvärdet ärByAuthor  i C#.
+description: Anpassa ditt innehåll med RevisionOptions MovedToTextColor-egenskap. Markera enkelt flyttade områden med din valda färg för bättre synlighet.
 type: docs
-weight: 90
+weight: 110
 url: /sv/net/aspose.words.layout/revisionoptions/movedtotextcolor/
 ---
 ## RevisionOptions.MovedToTextColor property
 
-Tillåter att ange färgen som ska användas för områden där innehållet har flyttats tillMoving . Standardvärdet ärByAuthor .
+Gör det möjligt att ange färgen som ska användas för områden dit innehåll flyttadesMoving . Standardvärdet ärByAuthor .
 
 ```csharp
 public RevisionColor MovedToTextColor { get; set; }
@@ -26,41 +26,41 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // Hämta RevisionOptions-objektet som styr utseendet på revisioner.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Gör insättningsrevisioner i grönt och kursivt.
+// Rendera infogningsrevideringar i grönt och kursiv stil.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Gör raderingsrevisioner i rött och fetstil.
+// Rendera borttagna revisioner i rött och fetstil.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Samma text kommer att visas två gånger i en rörelserevision:
-// en gång vid avgångsplatsen och en gång vid ankomstdestinationen.
-// Gör texten vid den flyttade från revisionen gul med dubbel genomstrykning
-// och dubbelt understruket blått vid den flyttade till revisionen.
+// Samma text kommer att förekomma två gånger i en satsrevision:
+// en gång vid avgångspunkten och en gång vid ankomstdestinationen.
+// Gör texten vid den flyttade versionen gul med en dubbel överstrykning
+// och dubbelt understruken blå vid den flyttade versionen.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Gör formatrevisioner i mörkrött och fetstil.
+// Rendera formatrevideringar i mörkrött och fetstil.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Placera en tjock mörkblå stapel till vänster på sidan bredvid rader som påverkas av ändringar.
+// Placera en tjock mörkblå stapel på vänster sida av sidan bredvid rader som påverkas av revisioner.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Visa revisionsmärken och originaltext.
+// Visa revisionsmarkeringar och originaltext.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Få rörelse, radering, formateringsrevisioner och kommentarer att dyka upp i gröna ballonger
-// till höger på sidan.
+// Få flyttningar, borttagningar, formateringsändringar och kommentarer att visas i gröna ballonger
+// på höger sida av sidan.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 
-// Dessa funktioner är endast tillämpliga på format som .pdf eller .jpg.
+// Dessa funktioner gäller endast för format som .pdf eller .jpg.
 doc.Save(ArtifactsDir + "Revision.RevisionOptions.pdf");
 ```
 

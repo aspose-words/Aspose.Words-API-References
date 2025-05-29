@@ -3,14 +3,14 @@ title: ChartDataLabel.ShowDataLabelsRange
 linktitle: ShowDataLabelsRange
 articleTitle: ShowDataLabelsRange
 second_title: Aspose.Words para .NET
-description: ChartDataLabel ShowDataLabelsRange propiedad. Permite especificar si los valores de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado esFALSO  en C#.
+description: Descubra la propiedad ChartDataLabel ShowDataLabelsRange para mejorar sus gráficos mostrando los valores de las etiquetas de datos. ¡Aumente la claridad con esta sencilla función!
 type: docs
-weight: 100
+weight: 150
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showdatalabelsrange/
 ---
 ## ChartDataLabel.ShowDataLabelsRange property
 
-Permite especificar si los valores de las etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado es`FALSO` .
+Permite especificar si los valores del rango de etiquetas de datos se mostrarán en las etiquetas de datos. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool ShowDataLabelsRange { get; set; }
@@ -35,14 +35,14 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Aplicar etiquetas de datos a cada serie del gráfico.
-    // Estas etiquetas aparecerán junto a cada punto de datos en el gráfico y mostrarán su valor.
+    //Estas etiquetas aparecerán junto a cada punto de datos en el gráfico y mostrarán su valor.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Cambia la cadena separadora para cada etiqueta de datos de una serie.
+    // Cambia la cadena separadora para cada etiqueta de datos en una serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // Para obtener un gráfico más limpio, podemos eliminar las etiquetas de datos individualmente.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // También podemos eliminar una serie completa de sus etiquetas de datos a la vez.
+    // Para obtener un gráfico más limpio, podemos eliminar las etiquetas de datos individualmente.
+    dataLabel.ClearFormat();
+
+    // También podemos eliminar una serie entera de sus etiquetas de datos a la vez.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Aplique etiquetas de datos con formato de número personalizado y separador a varios puntos de datos en una serie.
+/// Aplicar etiquetas de datos con formato de número personalizado y separador a varios puntos de datos en una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

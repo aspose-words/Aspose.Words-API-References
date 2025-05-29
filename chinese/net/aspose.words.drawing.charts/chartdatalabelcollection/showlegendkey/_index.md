@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowLegendKey
 linktitle: ShowLegendKey
 articleTitle: ShowLegendKey
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartDataLabelCollection ShowLegendKey 财产. 允许指定是否为整个系列的数据标签显示图例键 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ChartDataLabelCollection 中的 ShowLegendKey 属性控制图表的外观。轻松切换图例键，增强数据清晰度。
 type: docs
-weight: 110
+weight: 140
 url: /zh/net/aspose.words.drawing.charts/chartdatalabelcollection/showlegendkey/
 ---
 ## ChartDataLabelCollection.ShowLegendKey property
 
-允许指定是否为整个系列的数据标签显示图例键。 默认值为`错误的`.
+允许指定是否显示整个系列的数据标签的图例键。 默认值为`错误的`.
 
 ```csharp
 public bool ShowLegendKey { get; set; }
@@ -18,7 +18,7 @@ public bool ShowLegendKey { get; set; }
 
 ## 评论
 
-可以使用 the 覆盖单个数据标签为此属性定义的值[`ShowLegendKey`](../../chartdatalabel/showlegendkey/)属性.
+可以使用 覆盖此属性定义的单个数据标签值[`ShowLegendKey`](../../chartdatalabel/showlegendkey/)属性.
 
 ## 例子
 
@@ -38,7 +38,7 @@ ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// 启用数据标签，显示每个扇区的百分比和频率，并修改其外观。
+// 启用数据标签，显示每个部门的百分比和频率，并修改其外观。
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

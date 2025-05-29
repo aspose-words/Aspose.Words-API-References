@@ -3,7 +3,7 @@ title: SdtListItemCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
 second_title: Aspose.Words pour .NET
-description: SdtListItemCollection RemoveAt méthode. Supprime un élément de liste à lindex spécifié en C#.
+description: Supprimez facilement un élément de liste par index avec la méthode SdtListItemCollection RemoveAt. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 70
 url: /fr/net/aspose.words.markup/sdtlistitemcollection/removeat/
@@ -18,26 +18,26 @@ public void RemoveAt(int index)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| index | Int32 | Index de base zéro de l'élément à supprimer. |
+| index | Int32 | L'index de base zéro de l'élément à supprimer. |
 
 ## Exemples
 
-Montre comment utiliser les balises de documents structurés à liste déroulante.
+Montre comment travailler avec des balises de document structurées par liste déroulante.
 
 ```csharp
 Document doc = new Document();
 StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.DropDownList, MarkupLevel.Block);
 doc.FirstSection.Body.AppendChild(tag);
 
-// Une balise de document structuré par liste déroulante est un formulaire qui permet à l'utilisateur de
+// Une balise de document structurée de liste déroulante est un formulaire qui permet à l'utilisateur de
 // sélectionnez une option dans une liste en cliquant avec le bouton gauche et en ouvrant le formulaire dans Microsoft Word.
-// La propriété "ListItems" contient tous les éléments de la liste, et chaque élément de la liste est un "SdtListItem".
+// La propriété « ListItems » contient tous les éléments de la liste, et chaque élément de la liste est un « SdtListItem ».
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
 Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
 
-// Ajoute 3 éléments de liste supplémentaires. Initialisez ces éléments en utilisant un constructeur différent du premier élément
+// Ajouter 3 éléments supplémentaires à la liste. Initialiser ces éléments avec un constructeur différent du premier élément.
 // pour afficher les chaînes différentes de leurs valeurs.
 listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
@@ -45,12 +45,12 @@ listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
 Assert.AreEqual(4, listItems.Count);
 
-// La liste déroulante affiche le premier élément. Attribuez un élément de liste différent à "SelectedValue" pour l'afficher.
+// La liste déroulante affiche le premier élément. Affectez un autre élément à la valeur sélectionnée pour l'afficher.
 listItems.SelectedValue = listItems[3];
 
 Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
 
-// Énumère la collection et imprime chaque élément.
+// Énumérer la collection et imprimer chaque élément.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 {
     while (enumerator.MoveNext())
@@ -58,17 +58,17 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
             Console.WriteLine($"List item: {enumerator.Current.DisplayText}, value: {enumerator.Current.Value}");
 }
 
- // Supprime le dernier élément de la liste.
+ // Supprimer le dernier élément de la liste.
 listItems.RemoveAt(3);
 
 Assert.AreEqual(3, listItems.Count);
 
-// Puisque notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
+// Étant donné que notre contrôle déroulant est configuré pour afficher l'élément supprimé par défaut, donnez-lui un élément à afficher qui existe.
 listItems.SelectedValue = listItems[1];
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 
-// Utilisez la méthode "Clear" pour vider toute la collection d'éléments déroulants en une seule fois.
+// Utilisez la méthode « Clear » pour vider toute la collection d’éléments déroulants en une seule fois.
 listItems.Clear();
 
 Assert.AreEqual(0, listItems.Count);

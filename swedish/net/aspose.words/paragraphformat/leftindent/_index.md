@@ -3,14 +3,14 @@ title: ParagraphFormat.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words för .NET
-description: ParagraphFormat LeftIndent fast egendom. Hämtar eller ställer in värdet i poäng som representerar vänster indrag för stycke i C#.
+description: Justera vänsterindraget för dina stycken enkelt med egenskapen ParagraphFormat LeftIndent. Anpassa din textlayout för bättre läsbarhet!
 type: docs
 weight: 180
 url: /sv/net/aspose.words/paragraphformat/leftindent/
 ---
 ## ParagraphFormat.LeftIndent property
 
-Hämtar eller ställer in värdet (i poäng) som representerar vänster indrag för stycke.
+Hämtar eller anger värdet (i punkter) som representerar vänsterindraget för stycket.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,15 +18,15 @@ public double LeftIndent { get; set; }
 
 ## Exempel
 
-Visar hur du konfigurerar styckeformatering för att skapa text utanför centrum.
+Visar hur man konfigurerar styckeformatering för att skapa excentrerad text.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Centrera all text som dokumentbyggaren skriver och ställ in indrag.
-// Indragskonfigurationen nedan kommer att skapa en text som kommer att sitta asymmetriskt på sidan.
-// Mitten som vi justerar texten till kommer att vara mitten av texten, inte mitten av sidan.
+// Indragskonfigurationen nedan skapar en text som kommer att placeras asymmetriskt på sidan.
+// "Centrum" som vi justerar texten till kommer att vara mitten av texten, inte mitten av sidan.
 ParagraphFormat paragraphFormat = builder.ParagraphFormat;
 paragraphFormat.Alignment = ParagraphAlignment.Center;
 paragraphFormat.LeftIndent = 100;

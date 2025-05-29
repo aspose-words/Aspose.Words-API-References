@@ -3,7 +3,7 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words para .NET
-description: ShapeBase AllowOverlap propiedad. Obtiene o establece un valor que especifica si esta forma puede superponerse a otras formas en C#.
+description: Descubra la propiedad AllowOverlap de ShapeBase, controle las interacciones de formas habilitando o deshabilitando la superposición con otras formas para una mayor flexibilidad de diseño.
 type: docs
 weight: 10
 url: /es/net/aspose.words.drawing/shapebase/allowoverlap/
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Solo Margen, Página y Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo Margen, Página, Columna están disponibles en RelativeHorizontalPosition para el configurador HorizontalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Solo Margen, Página y Párrafo están disponibles en RelativeVerticalPosition para el configurador VerticalAnchor.
-    // Se lanzará ArgumentException para cualquier otro valor.
+    // Solo están disponibles Margen, Página y Párrafo en RelativeVerticalPosition para el configurador VerticalAnchor.
+    // La ArgumentException se lanzará para cualquier otro valor.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

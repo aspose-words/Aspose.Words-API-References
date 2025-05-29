@@ -3,14 +3,14 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words para .NET
-description: SaveOptions ExportGeneratorName propiedad. cuandoverdadero  hace que el nombre y la versión de Aspose.Words se incrusten en los archivos producidos. El valor predeterminado esverdadero  en C#.
+description: Mejore sus documentos con la propiedad SaveOptions ExportGeneratorName. Incorpore el nombre y la versión de Aspose.Words para una mejor trazabilidad. Valor predeterminado: verdadero.
 type: docs
 weight: 80
 url: /es/net/aspose.words.saving/saveoptions/exportgeneratorname/
 ---
 ## SaveOptions.ExportGeneratorName property
 
-cuando`verdadero` , hace que el nombre y la versión de Aspose.Words se incrusten en los archivos producidos. El valor predeterminado es`verdadero` .
+Cuando`verdadero` , hace que el nombre y la versión de Aspose.Words se incrusten en los archivos producidos. El valor predeterminado es`verdadero` .
 
 ```csharp
 public bool ExportGeneratorName { get; set; }

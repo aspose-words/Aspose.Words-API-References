@@ -3,9 +3,9 @@ title: BuiltInDocumentProperties.Thumbnail
 linktitle: Thumbnail
 articleTitle: Thumbnail
 second_title: Aspose.Words per .NET
-description: BuiltInDocumentProperties Thumbnail proprietà. Ottiene o imposta la miniatura del documento in C#.
+description: Gestisci l'aspetto visivo dei tuoi documenti con BuiltInDocumentProperties. Ottieni o imposta facilmente miniature per una presentazione e un'organizzazione ottimizzate.
 type: docs
-weight: 280
+weight: 310
 url: /it/net/aspose.words.properties/builtindocumentproperties/thumbnail/
 ---
 ## BuiltInDocumentProperties.Thumbnail property
@@ -16,13 +16,19 @@ Ottiene o imposta la miniatura del documento.
 public byte[] Thumbnail { get; set; }
 ```
 
+### Eccezioni
+
+| eccezione | condizione |
+| --- | --- |
+| InvalidOperationException | Generato se l'immagine non è valida o il suo formato non è supportato per il formato specifico del documento. |
+
 ## Osservazioni
 
-Per ora questa proprietà viene utilizzata solo quando un documento viene esportato in ePub, non viene letto e scritto in altri formati di documento.
+Per ora questa proprietà viene utilizzata solo quando un documento viene esportato in formato ePub, non viene letta e scritta in altri formati di documento.
 
-Su questa proprietà è possibile impostare un'immagine di formato arbitrario, ma il formato viene controllato durante l'esportazione. InvalidOperationException viene generato se l'immagine non è valida o il suo formato non è supportato per formato specifico del documento.
+È possibile impostare questa proprietà su un'immagine di formato arbitrario, ma il formato viene verificato durante l'esportazione.
 
-Per la pubblicazione su ePub possono essere utilizzate solo immagini gif, jpeg e png.
+Per la pubblicazione ePub è possibile utilizzare solo immagini gif, jpeg e png.
 
 ## Esempi
 
@@ -33,8 +39,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Se salviamo un documento, la cui proprietà "Thumbnail" contiene dati di immagine che abbiamo aggiunto, come Epub,
-// un lettore che apre quel documento può visualizzare l'immagine prima della prima pagina.
+// Se salviamo un documento, la cui proprietà "Miniatura" contiene dati di immagine che abbiamo aggiunto, come Epub,
+// Un lettore che apre quel documento potrebbe visualizzare l'immagine prima della prima pagina.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 byte[] thumbnailBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");

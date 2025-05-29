@@ -3,14 +3,14 @@ title: Document.HasMacros
 linktitle: HasMacros
 articleTitle: HasMacros
 second_title: Aspose.Words pour .NET
-description: Document HasMacros propriété. Retoursvrai si le document a un projet VBA macros en C#.
+description: Découvrez si votre document contient des macros de projet VBA grâce à la propriété HasMacros. Optimisez l'automatisation et l'efficacité de vos flux de travail dès aujourd'hui !
 type: docs
-weight: 190
+weight: 200
 url: /fr/net/aspose.words/document/hasmacros/
 ---
 ## Document.HasMacros property
 
-Retours`vrai` si le document a un projet VBA (macros).
+Retours`vrai` si le document contient un projet VBA (macros).
 
 ```csharp
 public bool HasMacros { get; }
@@ -26,18 +26,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.IsTrue(doc.HasMacros);
 
-// Insère un champ MACROBUTTON et référence l'une des macros du document par son nom dans la propriété MacroName.
+// Insérez un champ MACROBUTTON et référencez l'une des macros du document par son nom dans la propriété MacroName.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
 Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
 
-// Utilisez la propriété pour référencer "ViewZoom200", une macro fournie avec Microsoft Word.
-// On peut retrouver toutes les autres macros via View -> Macros (liste déroulante) -> Afficher les macros.
-// Dans ce menu, sélectionnez "Commandes Word" dans la liste déroulante "Macros dans :".
-// Si notre document contient une macro personnalisée portant le même nom qu'une macro stock,
-// notre macro sera celle exécutée par le champ MACROBUTTON.
+// Utilisez la propriété pour référencer « ViewZoom200 », une macro fournie avec Microsoft Word.
+// Nous pouvons trouver toutes les autres macros via Affichage -> Macros (liste déroulante) -> Afficher les macros.
+// Dans ce menu, sélectionnez « Commandes Word » dans la liste déroulante « Macros dans : ».
+// Si notre document contient une macro personnalisée portant le même nom qu'une macro standard,
+// notre macro sera celle que le champ MACROBUTTON exécute.
 builder.InsertParagraph();
 field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";

@@ -3,7 +3,7 @@ title: ChartMultilevelValue.Level3
 linktitle: Level3
 articleTitle: Level3
 second_title: Aspose.Words per .NET
-description: ChartMultilevelValue Level3 proprietà. Ottiene il nome del livello inferiore del grafico a cui fa riferimento questo valore in C#.
+description: Scopri la proprietà ChartMultilevelValue Level3 per identificare facilmente il livello inferiore del tuo grafico, migliorando la chiarezza e la comprensione dei dati.
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/chartmultilevelvalue/level3/

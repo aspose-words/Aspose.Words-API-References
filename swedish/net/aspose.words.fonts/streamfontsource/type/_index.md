@@ -3,14 +3,14 @@ title: StreamFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words för .NET
-description: StreamFontSource Type fast egendom. Returnerar typen av teckensnittskälla i C#.
+description: Upptäck egenskapen StreamFontSource Type för att enkelt identifiera din typsnittskälltyp, vilket förbättrar din designflexibilitet och projekteffektivitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fonts/streamfontsource/type/
 ---
 ## StreamFontSource.Type property
 
-Returnerar typen av teckensnittskälla.
+Returnerar typen av teckensnittskällan.
 
 ```csharp
 public FontSourceType Type { get; }

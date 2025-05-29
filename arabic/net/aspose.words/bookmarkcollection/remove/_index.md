@@ -3,14 +3,14 @@ title: BookmarkCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: BookmarkCollection Remove طريقة. إزالة الإشارة المرجعية المحددة من المستند في C#.
+description: أزل الإشارات المرجعية من مستنداتك بسهولة باستخدام طريقة إزالة BookmarkCollection. حسّن إدارة مستنداتك اليوم!
 type: docs
 weight: 50
 url: /ar/net/aspose.words/bookmarkcollection/remove/
 ---
 ## Remove(*[Bookmark](../../bookmark/)*) {#remove}
 
-إزالة الإشارة المرجعية المحددة من المستند.
+يزيل الإشارة المرجعية المحددة من المستند.
 
 ```csharp
 public void Remove(Bookmark bookmark)
@@ -22,7 +22,7 @@ public void Remove(Bookmark bookmark)
 
 ## أمثلة
 
-يوضح كيفية إزالة الإشارات المرجعية من مستند.
+يوضح كيفية إزالة الإشارات المرجعية من المستند.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// تقوم هذه المجموعة بتخزين الإشارات المرجعية.
+//تخزن هذه المجموعة الإشارات المرجعية.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
@@ -50,27 +50,27 @@ bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - تمرير الإشارة المرجعية إلى طريقة الإزالة الخاصة بالمجموعة:
+// 2 - تمرير الإشارة المرجعية إلى طريقة إزالة المجموعة:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - إزالة إشارة مرجعية من المجموعة بالاسم:
+// 3 - إزالة إشارة مرجعية من المجموعة حسب الاسم:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - إزالة إشارة مرجعية من فهرس مجموعة الإشارات المرجعية:
+// 4 - إزالة إشارة مرجعية من فهرس في مجموعة الإشارات المرجعية:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// يمكننا مسح مجموعة الإشارات المرجعية بأكملها.
+//يمكننا مسح مجموعة الإشارات المرجعية بأكملها.
 bookmarks.Clear();
 
-// النص الموجود داخل الإشارات المرجعية لا يزال موجودًا في المستند.
-Assert.That(bookmarks, Is.Empty);
+// النص الذي كان داخل الإشارات المرجعية لا يزال موجودًا في المستند.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +
@@ -89,7 +89,7 @@ Assert.AreEqual("Text inside MyBookmark_1.\r" +
 
 ## Remove(*string*) {#remove_1}
 
-إزالة إشارة مرجعية بالاسم المحدد.
+يزيل إشارة مرجعية بالاسم المحدد.
 
 ```csharp
 public void Remove(string bookmarkName)
@@ -97,11 +97,11 @@ public void Remove(string bookmarkName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| bookmarkName | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية المطلوب إزالتها. |
+| bookmarkName | String | الاسم غير الحساس لحالة الأحرف للإشارة المرجعية التي سيتم إزالتها. |
 
 ## أمثلة
 
-يوضح كيفية إزالة الإشارات المرجعية من مستند.
+يوضح كيفية إزالة الإشارات المرجعية من المستند.
 
 ```csharp
 Document doc = new Document();
@@ -118,7 +118,7 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// تقوم هذه المجموعة بتخزين الإشارات المرجعية.
+//تخزن هذه المجموعة الإشارات المرجعية.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
@@ -129,27 +129,27 @@ bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 - تمرير الإشارة المرجعية إلى طريقة الإزالة الخاصة بالمجموعة:
+// 2 - تمرير الإشارة المرجعية إلى طريقة إزالة المجموعة:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-// 3 - إزالة إشارة مرجعية من المجموعة بالاسم:
+// 3 - إزالة إشارة مرجعية من المجموعة حسب الاسم:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
 
-// 4 - إزالة إشارة مرجعية من فهرس مجموعة الإشارات المرجعية:
+// 4 - إزالة إشارة مرجعية من فهرس في مجموعة الإشارات المرجعية:
 doc.Range.Bookmarks.RemoveAt(0);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 
-// يمكننا مسح مجموعة الإشارات المرجعية بأكملها.
+//يمكننا مسح مجموعة الإشارات المرجعية بأكملها.
 bookmarks.Clear();
 
-// النص الموجود داخل الإشارات المرجعية لا يزال موجودًا في المستند.
-Assert.That(bookmarks, Is.Empty);
+// النص الذي كان داخل الإشارات المرجعية لا يزال موجودًا في المستند.
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

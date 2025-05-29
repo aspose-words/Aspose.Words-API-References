@@ -3,7 +3,7 @@ title: CsvDataSource
 linktitle: CsvDataSource
 articleTitle: CsvDataSource
 second_title: Aspose.Words für .NET
-description: CsvDataSource constructeur. Erstellt eine neue Datenquelle mit Daten aus einer CSVDatei unter Verwendung der Standardoptionen zum Parsen von CSVDaten in C#.
+description: Erstellen Sie mühelos eine leistungsstarke CSV-Datenquelle mit unserem CsvDataSource-Konstruktor. Vereinfachen Sie die Datenanalyse mit Standardoptionen für eine nahtlose Integration.
 type: docs
 weight: 10
 url: /de/net/aspose.words.reporting/csvdatasource/csvdatasource/
@@ -41,6 +41,25 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 | csvPath | String | Der Pfad zur CSV-Datei, die als Datenquelle verwendet werden soll. |
 | options | CsvDataLoadOptions | Optionen zum Parsen der CSV-Daten. |
 
+## Beispiele
+
+Zeigt, wie CSV als Datenquelle (Zeichenfolge) verwendet wird.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
+
 ### Siehe auch
 
 * class [CsvDataLoadOptions](../../csvdataloadoptions/)
@@ -52,7 +71,7 @@ public CsvDataSource(string csvPath, CsvDataLoadOptions options)
 
 ## CsvDataSource(*Stream*) {#constructor}
 
-Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung von Standardoptionen zum Parsen von CSV-Daten.
+Erstellt eine neue Datenquelle mit Daten aus einem CSV-Stream unter Verwendung der Standardoptionen zum Parsen von CSV-Daten.
 
 ```csharp
 public CsvDataSource(Stream csvStream)
@@ -82,6 +101,26 @@ public CsvDataSource(Stream csvStream, CsvDataLoadOptions options)
 | --- | --- | --- |
 | csvStream | Stream | Der CSV-Datenstrom, der als Datenquelle verwendet werden soll. |
 | options | CsvDataLoadOptions | Optionen zum Parsen der CSV-Daten. |
+
+## Beispiele
+
+Zeigt, wie CSV als Datenquelle (Stream) verwendet wird.
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+
+using (FileStream stream = File.OpenRead(MyDir + "List of people.csv"))
+{
+    CsvDataSource dataSource = new CsvDataSource(stream, loadOptions);
+    BuildReport(doc, dataSource, "persons");
+}
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataStream.docx");
+```
 
 ### Siehe auch
 

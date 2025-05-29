@@ -3,14 +3,14 @@ title: List.IsRestartAtEachSection
 linktitle: IsRestartAtEachSection
 articleTitle: IsRestartAtEachSection
 second_title: Aspose.Words für .NET
-description: List IsRestartAtEachSection eigendom. Gibt an ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert istFALSCH  in C#.
+description: Entdecken Sie die Eigenschaft „IsRestartAtEachSection“, um die Listennummerierung in Abschnitten zu steuern. Verbessern Sie die Dokumentorganisation mit dieser benutzerfreundlichen Funktion!
 type: docs
 weight: 50
 url: /de/net/aspose.words.lists/list/isrestartateachsection/
 ---
 ## List.IsRestartAtEachSection property
 
-Gibt an, ob die Liste in jedem Abschnitt neu gestartet werden soll. Der Standardwert ist`FALSCH` .
+Gibt an, ob die Liste bei jedem Abschnitt neu gestartet werden soll. Der Standardwert ist`FALSCH` .
 
 ```csharp
 public bool IsRestartAtEachSection { get; set; }
@@ -20,11 +20,11 @@ public bool IsRestartAtEachSection { get; set; }
 
 Diese Option wird nur in den Dokumentformaten RTF, DOC und DOCX unterstützt.
 
-Diese Option wird nur dann in DOCX geschrieben, wenn[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) ist dann höherEcma376_2006.
+Diese Option wird nur dann in DOCX geschrieben, wenn[`OoxmlCompliance`](../../../aspose.words.saving/ooxmlcompliance/) ist höher alsEcma376_2006.
 
 ## Beispiele
 
-Zeigt, wie eine Liste konfiguriert wird, um die Nummerierung in jedem Abschnitt neu zu starten.
+Zeigt, wie eine Liste so konfiguriert wird, dass die Nummerierung bei jedem Abschnitt neu beginnt.
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ Aspose.Words.Lists.List list = doc.Lists[0];
 list.IsRestartAtEachSection = restartListAtEachSection;
 
 // Die Eigenschaft „IsRestartAtEachSection“ ist nur anwendbar, wenn
-// Die OOXML-Konformitätsstufe des Dokuments entspricht einem Standard, der neuer als „OoxmlComplianceCore.Ecma376“ ist.
+// Die OOXML-Konformitätsstufe des Dokuments entspricht einem neueren Standard als „OoxmlComplianceCore.Ecma376“.
 OoxmlSaveOptions options = new OoxmlSaveOptions
 {
     Compliance = OoxmlCompliance.Iso29500_2008_Transitional

@@ -3,9 +3,9 @@ title: AxisCrosses Enum
 linktitle: AxisCrosses
 articleTitle: AxisCrosses
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.AxisCrosses opsomming. Gibt die möglichen Kreuzungspunkte für eine Achse an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.Drawing.Charts.AxisCrosses zum Definieren von Achsenkreuzungspunkten und verbessern Sie mühelos Ihre Diagrammfunktionen.
 type: docs
-weight: 540
+weight: 780
 url: /de/net/aspose.words.drawing.charts/axiscrosses/
 ---
 ## AxisCrosses enumeration
@@ -20,14 +20,14 @@ public enum AxisCrosses
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Automatic | `0` | Die Kategorieachse schneidet sich am Nullpunkt der Werteachse (falls möglich) oder am Minimalwert , wenn das Minimum größer als Null ist, oder am Maximum, wenn das Maximum kleiner als Null ist. |
-| Maximum | `1` | Eine senkrechte Achse kreuzt sich beim Maximalwert der Achse. |
-| Minimum | `2` | Eine senkrechte Achse schneidet sich am Minimalwert der Achse. |
-| Custom | `3` | Eine senkrechte Achse schneidet sich am angegebenen Wert der Achse. |
+| Automatic | `0` | Die Kategorieachse schneidet die Werteachse am Nullpunkt (sofern möglich) oder am Minimalwert , wenn dieser größer als Null ist, oder am Maximum, wenn dieser kleiner als Null ist. |
+| Maximum | `1` | Eine senkrechte Achse schneidet den Maximalwert der Achse. |
+| Minimum | `2` | Eine senkrechte Achse schneidet den Minimalwert der Achse. |
+| Custom | `3` | Eine senkrechte Achse schneidet den angegebenen Achsenwert. |
 
 ## Beispiele
 
-Zeigt, wie man ein Diagramm einfügt und das Erscheinungsbild seiner Achsen ändert.
+Zeigt, wie Sie ein Diagramm einfügen und die Darstellung seiner Achsen ändern.
 
 ```csharp
 Document doc = new Document();
@@ -45,7 +45,7 @@ chart.Series.Add("Aspose Test Series",
     new double[] { 640, 320, 280, 120, 150 });
 
 // Diagrammachsen haben verschiedene Optionen, die ihr Aussehen ändern können,
-// wie ihre Richtung, Dur-/Moll-Einheitenstriche und Teilstriche.
+// wie etwa ihre Richtung, große/kleine Einheitsstriche und Teilstriche.
 ChartAxis xAxis = chart.AxisX;
 xAxis.CategoryType = AxisCategoryType.Category;
 xAxis.Crosses = AxisCrosses.Minimum;
@@ -54,10 +54,12 @@ xAxis.MajorTickMark = AxisTickMark.Inside;
 xAxis.MinorTickMark = AxisTickMark.Cross;
 xAxis.MajorUnit = 10.0d;
 xAxis.MinorUnit = 15.0d;
-xAxis.TickLabelOffset = 50;
-xAxis.TickLabelPosition = AxisTickLabelPosition.Low;
-xAxis.TickLabelSpacingIsAuto = false;
+xAxis.TickLabels.Offset = 50;
+xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
+xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
+
+Assert.AreEqual(doc, xAxis.Document);
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -67,7 +69,10 @@ yAxis.MajorTickMark = AxisTickMark.Inside;
 yAxis.MinorTickMark = AxisTickMark.Cross;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 20.0d;
-yAxis.TickLabelPosition = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Position = AxisTickLabelPosition.NextToAxis;
+yAxis.TickLabels.Alignment = ParagraphAlignment.Center;
+yAxis.TickLabels.Font.Color = Color.Red;
+yAxis.TickLabels.Spacing = 1;
 
 // Säulendiagramme haben keine Z-Achse.
 Assert.Null(chart.AxisZ);

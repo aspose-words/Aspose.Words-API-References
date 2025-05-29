@@ -3,14 +3,14 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words для .NET
-description: HyphenationOptions ConsecutiveHyphenLimit свойство. Получает или задает максимальное количество последовательных строк которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства  0 на С#.
+description: Откройте для себя свойство ConsecutiveHyphenLimit в HyphenationOptions. Контролируйте использование дефисов в тексте для улучшения читаемости и форматирования. По умолчанию 0.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/
 ---
 ## HyphenationOptions.ConsecutiveHyphenLimit property
 
-Получает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0.
+Возвращает или задает максимальное количество последовательных строк, которые могут заканчиваться дефисами. Значение по умолчанию для этого свойства — 0.
 
 ```csharp
 public int ConsecutiveHyphenLimit { get; set; }
@@ -18,9 +18,9 @@ public int ConsecutiveHyphenLimit { get; set; }
 
 ## Примечания
 
-Если значение этого свойства установлено равным 0, любое количество последовательных строк может заканчиваться дефисом.
+Если значение этого свойства равно 0, любое количество последовательных строк может заканчиваться дефисами.
 
-Это свойство не действует при сохранении в фиксированных форматах страниц, например PDF.
+Свойство не действует при сохранении в форматах с фиксированным размером страницы, например, PDF.
 
 ## Примеры
 

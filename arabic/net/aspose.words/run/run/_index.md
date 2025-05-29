@@ -3,14 +3,14 @@ title: Run
 linktitle: Run
 articleTitle: Run
 second_title: Aspose.Words لـ .NET
-description: Run البناء. تهيئة مثيل جديد لـRun فئة في C#.
+description: أنشئ وخصّص مثيل فئة Run الخاص بك بسهولة. تمتع بميزات فعّالة لأداء مبسط ووظائف مُحسّنة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words/run/run/
 ---
 ## Run(*[DocumentBase](../../documentbase/)*) {#constructor}
 
-تهيئة مثيل جديد لـ[`Run`](../) فئة.
+يقوم بتهيئة مثيل جديد لـ[`Run`](../) الصف.
 
 ```csharp
 public Run(DocumentBase doc)
@@ -22,9 +22,9 @@ public Run(DocumentBase doc)
 
 ## ملاحظات
 
-متى[`Run`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
+متى[`Run`](../) يتم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس جزءًا من المستند بعد[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Run`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في الفقرة التي تريد إدراج التشغيل فيها.
+لإضافة[`Run`](../) لاستخدام المستند[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) على الفقرة التي تريد إدراج التشغيل فيها.
 
 ## أمثلة
 
@@ -33,27 +33,27 @@ public Run(DocumentBase doc)
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
-// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+//تحتوي الوثيقة الفارغة على قسم واحد ونص واحد وفقرة واحدة.
+//استدعاء طريقة "RemoveAllChildren" لإزالة كل هذه العقد،
 // وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
-// لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
+// لا تحتوي هذه الوثيقة الآن على أي عقد فرعية مركبة يمكننا إضافة محتوى إليها.
+// إذا أردنا تحريره، فسوف نحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإضافته كقسم فرعي إلى عقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
+// تعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس القسم وتذييله.
+// يحتاج القسم إلى نص، والذي سيحتوي على جميع محتوياته ويعرضها
+// على الصفحة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
+// قم بإنشاء فقرة، ثم اضبط بعض خصائص التنسيق، ثم أضفها كفقرة فرعية إلى النص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
-// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
+// أخيرًا، أضف بعض المحتوى لإنشاء المستند. أنشئ مسارًا،
+// قم بتعيين مظهره ومحتوياته، ثم قم بإضافته كطفل إلى الفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -84,7 +84,7 @@ doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 
 ## Run(*[DocumentBase](../../documentbase/), string*) {#constructor_1}
 
-تهيئة مثيل جديد لـ**يجري** فئة.
+يقوم بتهيئة مثيل جديد لـ**يجري** الصف.
 
 ```csharp
 public Run(DocumentBase doc, string text)
@@ -93,17 +93,17 @@ public Run(DocumentBase doc, string text)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | doc | DocumentBase | وثيقة المالك. |
-| text | String | نص الجري. |
+| text | String | نص الجريدة. |
 
 ## ملاحظات
 
-متى[`Run`](../) تم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس بعد جزءًا من المستند و[`ParentNode`](../../node/parentnode/) يكون`باطل`.
+متى[`Run`](../) يتم إنشاؤه، فهو ينتمي إلى المستند المحدد، ولكنه ليس جزءًا من المستند بعد[`ParentNode`](../../node/parentnode/) يكون`باطل`.
 
-لإلحاق[`Run`](../) لاستخدام الوثيقة[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) في الفقرة التي تريد إدراج التشغيل فيها.
+لإضافة[`Run`](../) لاستخدام المستند[`InsertAfter`](../../compositenode/insertafter/) أو[`InsertBefore`](../../compositenode/insertbefore/) على الفقرة التي تريد إدراج التشغيل فيها.
 
 ## أمثلة
 
-يوضح كيفية تنسيق مجموعة من النص باستخدام خاصية الخط الخاصة به.
+يوضح كيفية تنسيق سلسلة من النص باستخدام خاصية الخط الخاصة به.
 
 ```csharp
 Document doc = new Document();

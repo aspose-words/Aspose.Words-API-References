@@ -3,9 +3,9 @@ title: Document.Print
 linktitle: Print
 articleTitle: Print
 second_title: Aspose.Words para .NET
-description: Document Print método. Imprime todo el documento en la impresora predeterminada en C#.
+description: Imprima fácilmente todo su documento en su impresora predeterminada con nuestro método optimizado de Impresión de Documentos. ¡Disfrute de una impresión rápida y sin complicaciones!
 type: docs
-weight: 640
+weight: 680
 url: /es/net/aspose.words/document/print/
 ---
 ## Print() {#print}
@@ -25,11 +25,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// A continuación se muestran dos formas de imprimir nuestro documento.
-// 1 - Imprimir usando la impresora predeterminada:
+//A continuación se muestran dos formas de imprimir nuestro documento.
+// 1 - Imprimir utilizando la impresora predeterminada:
 doc.Print();
 
-// 2 - Especificar una impresora con la que deseamos imprimir el documento por nombre:
+// 2 - Especificamos una impresora con la que deseamos imprimir el documento por nombre:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -47,7 +47,7 @@ doc.Print(myPrinter);
 
 ## Print(*string*) {#print_3}
 
-Imprima todo el documento en la impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario).
+Imprimir todo el documento en la impresora especificada, utilizando el controlador de impresión estándar (sin interfaz de usuario).
 
 ```csharp
 public void Print(string printerName)
@@ -66,11 +66,11 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// A continuación se muestran dos formas de imprimir nuestro documento.
-// 1 - Imprimir usando la impresora predeterminada:
+//A continuación se muestran dos formas de imprimir nuestro documento.
+// 1 - Imprimir utilizando la impresora predeterminada:
 doc.Print();
 
-// 2 - Especificar una impresora con la que deseamos imprimir el documento por nombre:
+// 2 - Especificamos una impresora con la que deseamos imprimir el documento por nombre:
 string myPrinter = PrinterSettings.InstalledPrinters[4];
 
 Assert.AreEqual("HPDAAB96 (HP ENVY 5000 series)", myPrinter);
@@ -96,7 +96,7 @@ public void Print(PrinterSettings printerSettings)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | La configuración de la impresora a utilizar. |
+| printerSettings | PrinterSettings | La configuración de impresora a utilizar. |
 
 ## Observaciones
 
@@ -104,7 +104,7 @@ ElPrinterSettings El objeto le permite especificar la impresora en la que imprim
 
 ## Ejemplos
 
-Muestra cómo imprimir una serie de páginas.
+Muestra cómo imprimir un rango de páginas.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -112,21 +112,21 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // Crea un objeto "PrinterSettings" para modificar cómo imprimimos el documento.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// Establece la propiedad "PrintRange" en "PrintRange.SomePages" para
-// decirle a la impresora que pretendemos imprimir solo algunas páginas del documento.
+// Establezca la propiedad "PrintRange" en "PrintRange.SomePages" para
+// Le decimos a la impresora que queremos imprimir sólo algunas páginas del documento.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
 // Establezca la propiedad "FromPage" en "1" y la propiedad "ToPage" en "3" para imprimir las páginas 1 a 3.
-// La indexación de páginas está basada en 1.
+// La indexación de páginas se basa en 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// A continuación se muestran dos formas de imprimir nuestro documento.
-// 1 - Imprime mientras aplicas nuestra configuración de impresión:
+//A continuación se muestran dos formas de imprimir nuestro documento.
+// 1 - Imprimir mientras aplicamos nuestra configuración de impresión:
 doc.Print(printerSettings);
 
-// 2 - Imprime mientras aplicas nuestra configuración de impresión y al mismo tiempo
-// dando al documento un nombre personalizado que podamos reconocer en la cola de impresión:
+// 2 - Imprimir mientras aplicamos nuestra configuración de impresión, mientras también
+// dándole al documento un nombre personalizado que podamos reconocer en la cola de impresión:
 doc.Print(printerSettings, "My rendered document");
 ```
 
@@ -148,8 +148,8 @@ public void Print(PrinterSettings printerSettings, string documentName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| printerSettings | PrinterSettings | La configuración de la impresora a utilizar. |
-| documentName | String | El nombre del documento que se mostrará (por ejemplo, en un cuadro de diálogo de estado de impresión o en una cola de impresora) al imprimir el documento. |
+| printerSettings | PrinterSettings | La configuración de impresora a utilizar. |
+| documentName | String | El nombre del documento que se mostrará (por ejemplo, en un cuadro de diálogo de estado de impresión o en la cola de impresión) mientras se imprime el documento. |
 
 ## Observaciones
 
@@ -157,7 +157,7 @@ ElPrinterSettings El objeto le permite especificar la impresora en la que imprim
 
 ## Ejemplos
 
-Muestra cómo imprimir una serie de páginas.
+Muestra cómo imprimir un rango de páginas.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
@@ -165,21 +165,21 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // Crea un objeto "PrinterSettings" para modificar cómo imprimimos el documento.
 PrinterSettings printerSettings = new PrinterSettings();
 
-// Establece la propiedad "PrintRange" en "PrintRange.SomePages" para
-// decirle a la impresora que pretendemos imprimir solo algunas páginas del documento.
+// Establezca la propiedad "PrintRange" en "PrintRange.SomePages" para
+// Le decimos a la impresora que queremos imprimir sólo algunas páginas del documento.
 printerSettings.PrintRange = System.Drawing.Printing.PrintRange.SomePages;
 
 // Establezca la propiedad "FromPage" en "1" y la propiedad "ToPage" en "3" para imprimir las páginas 1 a 3.
-// La indexación de páginas está basada en 1.
+// La indexación de páginas se basa en 1.
 printerSettings.FromPage = 1;
 printerSettings.ToPage = 3;
 
-// A continuación se muestran dos formas de imprimir nuestro documento.
-// 1 - Imprime mientras aplicas nuestra configuración de impresión:
+//A continuación se muestran dos formas de imprimir nuestro documento.
+// 1 - Imprimir mientras aplicamos nuestra configuración de impresión:
 doc.Print(printerSettings);
 
-// 2 - Imprime mientras aplicas nuestra configuración de impresión y al mismo tiempo
-// dando al documento un nombre personalizado que podamos reconocer en la cola de impresión:
+// 2 - Imprimir mientras aplicamos nuestra configuración de impresión, mientras también
+// dándole al documento un nombre personalizado que podamos reconocer en la cola de impresión:
 doc.Print(printerSettings, "My rendered document");
 ```
 

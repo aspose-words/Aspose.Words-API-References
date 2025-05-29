@@ -3,14 +3,14 @@ title: PrinterSettingsContainer
 linktitle: PrinterSettingsContainer
 articleTitle: PrinterSettingsContainer
 second_title: Aspose.Words لـ .NET
-description: PrinterSettingsContainer البناء. إنشاء حاوية لـPrinterSettings  في C#.
+description: اكتشف مُنشئ PrinterSettingsContainer، وأنشئ إعدادات طابعتك وأدرها بكفاءة وسهولة. حسّن تجربة الطباعة لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/printersettingscontainer/printersettingscontainer/
 ---
 ## PrinterSettingsContainer constructor
 
-إنشاء حاوية لـPrinterSettings .
+ينشئ حاوية لـPrinterSettings .
 
 ```csharp
 public PrinterSettingsContainer(PrinterSettings settings)
@@ -18,11 +18,11 @@ public PrinterSettingsContainer(PrinterSettings settings)
 
 ## أمثلة
 
-يوضح كيفية الوصول إلى مصادر الورق وأحجامه وإدراجها في الطابعة.
+يوضح لك كيفية الوصول إلى مصادر وأحجام ورق الطابعة الخاصة بك وإدراجها.
 
 ```csharp
 // يحتوي "PrinterSettingsContainer" على كائن "PrinterSettings"،
-// الذي يحتوي على بيانات فريدة لبرامج تشغيل الطابعة المختلفة.
+// والتي تحتوي على بيانات فريدة لبرامج تشغيل الطابعة المختلفة.
 PrinterSettingsContainer container = new PrinterSettingsContainer(new PrinterSettings());
 
 Console.WriteLine($"This printer contains {container.PaperSources.Count} printer paper sources:");
@@ -33,12 +33,12 @@ foreach (PaperSource paperSource in container.PaperSources)
                       $"RawKind: {paperSource.RawKind} {(isDefault ? "(Default)" : "")}");
 }
 
-// تحتوي خاصية "أحجام الورق" على قائمة بأحجام الورق لتوجيه الطابعة لاستخدامها.
+// تحتوي خاصية "PaperSizes" على قائمة أحجام الورق التي يجب على الطابعة استخدامها.
 // يحتوي كل من PrinterSource وPrinterSize على خاصية "RawKind"،
-// والذي يعادل نوع الورق المدرج في تعداد PaperSourceKind.
-// إذا كان هناك مصدر ورق له نفس قيمة "RawKind" مثل قيمة صفحة الطباعة،
-// ستقوم الطابعة بطباعة الصفحة باستخدام مصدر الورق وحجمه المقدمين.
-// بخلاف ذلك، ستنتقل الطابعة افتراضيًا إلى المصدر المعين بواسطة خاصية "DefaultPageSettingsPaperSource".
+// وهو ما يعادل نوع الورق المدرج في مجموعة PaperSourceKind.
+// إذا كان هناك مصدر ورق بنفس قيمة "RawKind" مثل قيمة صفحة الطباعة،
+// ستقوم الطابعة بطباعة الصفحة باستخدام مصدر الورق والحجم المقدمين.
+// خلاف ذلك، سيتم تعيين الطابعة افتراضيًا على المصدر المحدد بواسطة الخاصية "DefaultPageSettingsPaperSource".
 Console.WriteLine($"{container.PaperSizes.Count} paper sizes:");
 foreach (System.Drawing.Printing.PaperSize paperSize in container.PaperSizes)
 {

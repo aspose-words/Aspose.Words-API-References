@@ -3,14 +3,14 @@ title: OfficeMath.MathObjectType
 linktitle: MathObjectType
 articleTitle: MathObjectType
 second_title: Aspose.Words för .NET
-description: OfficeMath MathObjectType fast egendom. Får typMathObjectType av detta Office Mathobjekt i C#.
+description: Upptäck OfficeMaths MathObjectType-egenskap för att enkelt komma åt och använda MathObjectTypes för förbättrad dokumentformatering och funktionalitet.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.math/officemath/mathobjecttype/
 ---
 ## OfficeMath.MathObjectType property
 
-Får typ`MathObjectType` av detta Office Math-objekt.
+Hämtar typ`MathObjectType`av detta Office Math-objekt.
 
 ```csharp
 public MathObjectType MathObjectType { get; }
@@ -18,7 +18,7 @@ public MathObjectType MathObjectType { get; }
 
 ## Exempel
 
-Visar hur man skriver ut nodstrukturen för varje kontors matematisk nod i ett dokument.
+Visar hur man skriver ut nodstrukturen för varje kontorsmatematiknod i ett dokument.
 
 ```csharp
 public void OfficeMathToText()
@@ -27,7 +27,7 @@ public void OfficeMathToText()
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
     // När vi får en sammansatt nod att acceptera en dokumentbesökare, besöker besökaren den accepterande noden,
-    // och sedan korsar alla nodens barn på ett djup-först sätt.
+    // och sedan korsar alla nodens barn på ett djup-först-sätt.
     // Besökaren kan läsa och ändra varje besökt nod.
     doc.Accept(visitor);
 
@@ -35,8 +35,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Går igenom en nods icke-binära träd av underordnade noder.
-/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras barn.
+/// Går igenom en nods icke-binära träd av undernoder.
+/// Skapar en karta i form av en sträng av alla påträffade OfficeMath-noder och deras undernoder.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -47,7 +47,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {
@@ -55,7 +55,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när en körnod påträffas i dokumentet.
+    /// Anropas när en Run-nod påträffas i dokumentet.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -77,7 +77,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas efter att alla undernoder i en OfficeMath-nod har besökts.
+    /// Anropas efter att alla undernoder till en OfficeMath-nod har besökts.
     /// </summary>
     public override VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
     {
@@ -89,9 +89,9 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt besökaren befinner sig i dokumentträdet.
+    /// Lägg till en rad i StringBuilder och dra in den beroende på hur djupt inne i dokumentträdet besökaren befinner sig.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param namn="text"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++) mBuilder.Append("|  ");

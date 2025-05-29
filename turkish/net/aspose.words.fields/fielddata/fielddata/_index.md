@@ -2,8 +2,8 @@
 title: FieldData
 linktitle: FieldData
 articleTitle: FieldData
-second_title: Aspose.Words for .NET
-description: FieldData inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz veri yönetimi için FieldData oluşturucusunu keşfedin. Uygulamanızın performansını ve verimliliğini artırmak için varsayılan oluşturucuyu kullanın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fielddata/fielddata/

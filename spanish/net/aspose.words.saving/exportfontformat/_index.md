@@ -3,14 +3,14 @@ title: ExportFontFormat Enum
 linktitle: ExportFontFormat
 articleTitle: ExportFontFormat
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Saving.ExportFontFormat enumeración. Indica el formato que se utiliza para exportar fuentes mientras se procesa en formato fijo HTML en C#.
+description: Descubra la enumeración Aspose.Words.Saving.ExportFontFormat para una exportación óptima de fuentes al renderizar a formato HTML fijo. ¡Mejore la calidad visual de su documento!
 type: docs
-weight: 4990
+weight: 5740
 url: /es/net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
 
-Indica el formato que se utiliza para exportar fuentes mientras se procesa en formato fijo HTML.
+Indica el formato que se utiliza para exportar fuentes mientras se renderiza en formato fijo HTML.
 
 ```csharp
 public enum ExportFontFormat
@@ -20,12 +20,12 @@ public enum ExportFontFormat
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| Woff | `0` | WOFF (formato de fuente abierta web). |
+| Woff | `0` | WOFF (Formato de fuente abierto para web). |
 | Ttf | `1` | TTF (formato de fuente TrueType). |
 
 ## Ejemplos
 
-Muestra cómo usar fuentes solo de la máquina de destino al guardar un documento en HTML.
+Muestra cómo utilizar únicamente fuentes de la máquina de destino al guardar un documento en HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

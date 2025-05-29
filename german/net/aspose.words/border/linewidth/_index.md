@@ -3,7 +3,7 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words für .NET
-description: Border LineWidth eigendom. Ruft die Rahmenbreite in Punkten ab oder legt sie fest in C#.
+description: Passen Sie die Eigenschaft „Border LineWidth“ an, um die Rahmenstärke in Punkten anzupassen und so die Präzision und visuelle Attraktivität Ihres Designs zu verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/border/linewidth/
@@ -18,11 +18,11 @@ public double LineWidth { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie die Linienbreite größer als Null festlegen, während der Linienstil „Keine“ ist, wird der Linienstil automatisch in „Einzeilig“ geändert.
+Wenn Sie bei keinem Linienstil eine Linienbreite größer als Null festlegen, wird der Linienstil automatisch in eine einzelne Linie geändert.
 
 ## Beispiele
 
-Zeigt, wie man eine von einem Rahmen umgebene Zeichenfolge in ein Dokument einfügt.
+Zeigt, wie eine von einem Rahmen umgebene Zeichenfolge in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();

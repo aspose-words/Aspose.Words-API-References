@@ -3,14 +3,14 @@ title: FieldIf.TrueText
 linktitle: TrueText
 articleTitle: TrueText
 second_title: Aspose.Words para .NET
-description: FieldIf TrueText propiedad. Obtiene o establece el texto mostrado si la expresión de comparación es verdadera en C#.
+description: Descubra la propiedad FieldIf TrueText, administre fácilmente el texto mostrado para obtener expresiones de comparación reales, mejorando la experiencia del usuario y la claridad de los datos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldif/truetext/
 ---
 ## FieldIf.TrueText property
 
-Obtiene o establece el texto mostrado si la expresión de comparación es verdadera.
+Obtiene o establece el texto que se muestra si la expresión de comparación es verdadera.
 
 ```csharp
 public string TrueText { get; set; }
@@ -18,7 +18,7 @@ public string TrueText { get; set; }
 
 ## Ejemplos
 
-Muestra cómo insertar un campo IF.
+Muestra cómo insertar un campo SI.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// El campo IF mostrará una cadena de su propiedad "TrueText",
+// El campo SI mostrará una cadena de su propiedad "TrueText",
 // o su propiedad "FalseText", dependiendo de la verdad de la declaración que hemos construido.
 field.TrueText = "True";
 field.FalseText = "False";
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Esta vez la declaración es correcta, por lo que el resultado mostrado será "Verdadero".
+// Esta vez la afirmación es correcta, por lo que el resultado mostrado será "Verdadero".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

@@ -3,14 +3,14 @@ title: Stroke.DashStyle
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words para .NET
-description: Stroke DashStyle propiedad. Especifica el patrón de puntos y rayas para un trazo en C#.
+description: Descubra la propiedad Stroke DashStyle para personalizar su diseño con patrones únicos de puntos y guiones para lograr efectos visuales sorprendentes.
 type: docs
-weight: 40
+weight: 70
 url: /es/net/aspose.words.drawing/stroke/dashstyle/
 ---
 ## Stroke.DashStyle property
 
-Especifica el patrón de puntos y rayas para un trazo.
+Especifica el patrón de puntos y guiones para un trazo.
 
 ```csharp
 public DashStyle DashStyle { get; set; }
@@ -22,13 +22,13 @@ El valor predeterminado esSolid.
 
 ## Ejemplos
 
-Muestra para crear una variedad de formas.
+Muestra cómo crear una variedad de formas.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
+A continuación se muestran cuatro ejemplos de formas que podemos insertar en nuestros documentos.
 // 1 - Línea roja punteada, horizontal y semitransparente
 // con una flecha en el extremo izquierdo y un diamante en el extremo derecho:
 Shape arrow = new Shape(doc, ShapeType.Line);
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Cuando invertimos la orientación de nuestra flecha, también invertimos la imagen que contiene la flecha.
-    // Voltear la imagen hacia el otro lado para cancelar esto antes de obtener la forma para mostrarla.
+    // Cuando cambiamos la orientación de nuestra flecha, también cambiamos la imagen que contiene la flecha.
+    // Gira la imagen hacia el otro lado para cancelar esto antes de que la forma la muestre.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

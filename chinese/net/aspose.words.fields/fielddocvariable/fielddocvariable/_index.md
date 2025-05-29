@@ -2,8 +2,8 @@
 title: FieldDocVariable
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDocVariable 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldDocVariable 构造函数——您在项目中高效处理数据和无缝集成的默认解决方案。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/fielddocvariable/fielddocvariable/

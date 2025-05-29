@@ -2,8 +2,8 @@
 title: FieldNumChars
 linktitle: FieldNumChars
 articleTitle: FieldNumChars
-second_title: Aspose.Words for .NET
-description: FieldNumChars inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızda etkili karakter yönetimi için güçlü bir araç olan FieldNumChars oluşturucusunu keşfedin. Bugün kusursuz kodlamanın kilidini açın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldnumchars/fieldnumchars/

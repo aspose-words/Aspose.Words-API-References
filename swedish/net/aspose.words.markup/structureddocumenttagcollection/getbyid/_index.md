@@ -3,14 +3,14 @@ title: StructuredDocumentTagCollection.GetById
 linktitle: GetById
 articleTitle: GetById
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTagCollection GetById metod. Returnerar den strukturerade dokumenttaggen med identifierare i C#.
+description: Hämta strukturerade dokumenttaggar utan problem med GetById-metoden. Få snabb åtkomst till dina data och effektivisera dokumenthanteringen.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/getbyid/
 ---
 ## StructuredDocumentTagCollection.GetById method
 
-Returnerar den strukturerade dokumenttaggen med identifierare.
+Returnerar den strukturerade dokumenttaggen efter identifierare.
 
 ```csharp
 public IStructuredDocumentTag GetById(int id)
@@ -18,7 +18,7 @@ public IStructuredDocumentTag GetById(int id)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| id | Int32 | Den strukturerade dokumenttaggens identifierare. |
+| id | Int32 | Taggidentifieraren för det strukturerade dokumentet. |
 
 ## Anmärkningar
 
@@ -26,17 +26,17 @@ Returnerar null om den strukturerade dokumenttaggen med den angivna identifierar
 
 ## Exempel
 
-Visar hur man får strukturerad dokumenttagg.
+Visar hur man får taggar för strukturerade dokument.
 
 ```csharp
 Document doc = new Document(MyDir + "Structured document tags by id.docx");
 
 // Hämta den strukturerade dokumenttaggen efter Id.
 IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
-Console.WriteLine(sdt.IsRanged());
+Console.WriteLine(sdt.IsMultiSection);
 Console.WriteLine(sdt.Title);
 
-// Hämta den strukturerade dokumenttaggen eller ranged taggen efter titel.
+// Hämta den strukturerade dokumenttaggen eller intervalltaggen efter titel.
 sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
 Console.WriteLine(sdt.Id);
 ```

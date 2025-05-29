@@ -3,9 +3,9 @@ title: DocumentBuilder.StartTable
 linktitle: StartTable
 articleTitle: StartTable
 second_title: Aspose.Words per .NET
-description: DocumentBuilder StartTable metodo. Avvia una tabella nel documento in C#.
+description: Crea facilmente tabelle professionali nei tuoi documenti con il metodo StartTable di DocumentBuilder. Migliora la formattazione con facilità!
 type: docs
-weight: 640
+weight: 680
 url: /it/net/aspose.words/documentbuilder/starttable/
 ---
 ## DocumentBuilder.StartTable method
@@ -24,7 +24,7 @@ Il nodo della tabella appena creato.
 
 Il prossimo metodo da chiamare è[`InsertCell`](../insertcell/).
 
-Questo metodo avvia una tabella nidificata quando viene chiamato all'interno di una cella.
+Questo metodo avvia una tabella annidata quando viene chiamato all'interno di una cella.
 
 ## Esempi
 
@@ -38,8 +38,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Inserisci una seconda cella, quindi configura le opzioni di riempimento del testo della cella.
-// Il builder applicherà queste impostazioni alla cella corrente e successivamente creerà eventuali nuove celle.
+// Inserire una seconda cella, quindi configurare le opzioni di riempimento del testo della cella.
+// Il builder applicherà queste impostazioni alla cella corrente e a tutte le nuove celle create in seguito.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -53,7 +53,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// La prima cella non è stata influenzata dalla riconfigurazione del riempimento e conserva ancora i valori predefiniti.
+// La prima cella non è stata interessata dalla riconfigurazione del padding e conserva ancora i valori predefiniti.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -66,11 +66,11 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// La prima cella continuerà a crescere nel documento di output per corrispondere alla dimensione della cella vicina.
+// La prima cella continuerà a crescere nel documento di output per adattarsi alle dimensioni della cella adiacente.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 
-Mostra come creare una tabella 2x2 formattata.
+Mostra come creare una tabella formattata 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -84,8 +84,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti della proprietà RowFormat/CellFormat
-// alla riga/cella corrente in cui si trova il cursore e a qualsiasi nuova riga/cella mentre le crea.
+// Durante la creazione della tabella, il generatore di documenti applicherà i valori correnti delle proprietà RowFormat/CellFormat
+// alla riga/cella corrente in cui si trova il cursore e a tutte le nuove righe/celle man mano che vengono create.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -100,7 +100,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Le righe e le celle aggiunte in precedenza non vengono influenzate retroattivamente dalle modifiche alla formattazione del builder.
+// Le righe e le celle aggiunte in precedenza non vengono retroattivamente influenzate dalle modifiche apportate alla formattazione del builder.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -120,7 +120,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 // Impostazione delle opzioni di formattazione della tabella per un generatore di documenti
-// li applicherà a ogni riga e cella che aggiungiamo con esso.
+// li applicheremo a ogni riga e cella che aggiungeremo.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -143,9 +143,9 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// La modifica della formattazione la applicherà alla cella corrente,
-// e tutte le nuove celle che creeremo successivamente con il builder.
-// Ciò non influenzerà le celle che abbiamo aggiunto in precedenza.
+// La modifica della formattazione verrà applicata alla cella corrente,
+// e tutte le nuove celle che creeremo in seguito con il builder.
+// Ciò non influirà sulle celle aggiunte in precedenza.
 builder.CellFormat.Shading.ClearFormatting();
 
 builder.InsertCell();

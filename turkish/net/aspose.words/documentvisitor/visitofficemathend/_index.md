@@ -2,8 +2,8 @@
 title: DocumentVisitor.VisitOfficeMathEnd
 linktitle: VisitOfficeMathEnd
 articleTitle: VisitOfficeMathEnd
-second_title: Aspose.Words for .NET
-description: DocumentVisitor VisitOfficeMathEnd yöntem. Bir Office Math nesnesinin numaralandırılması sona erdiğinde çağrılır C#'da.
+second_title: .NET için Aspose.Words
+description: Office Math nesne numaralandırmasını geliştirmek için tasarlanmış DocumentVisitor VisitOfficeMathEnd yöntemini keşfedin. Belge işlemenizi bugün optimize edin!
 type: docs
 weight: 300
 url: /tr/net/aspose.words/documentvisitor/visitofficemathend/
@@ -22,7 +22,7 @@ public virtual VisitorAction VisitOfficeMathEnd(OfficeMath officeMath)
 
 ### Geri dönüş değeri
 
-A[`VisitorAction`](../../visitoraction/) numaralandırmaya nasıl devam edileceğini belirten değer.
+A[`VisitorAction`](../../visitoraction/) sayımın nasıl devam edeceğini belirten değer.
 
 ## Örnekler
 
@@ -34,8 +34,8 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Bir belge ziyaretçisini kabul edecek bileşik bir düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
-    // ve ardından düğümün tüm alt öğelerini derinlik öncelikli bir şekilde geçer.
+    // Bir belge ziyaretçisini kabul etmek için bir bileşik düğüm aldığımızda, ziyaretçi kabul eden düğümü ziyaret eder,
+    // ve sonra düğümün tüm çocuklarını derinlemesine bir şekilde dolaşır.
     // Ziyaretçi ziyaret edilen her düğümü okuyabilir ve değiştirebilir.
     doc.Accept(visitor);
 
@@ -43,8 +43,8 @@ public void OfficeMathToText()
 }
 
 /// <summary>
-/// Bir düğümün ikili olmayan alt düğüm ağacını geçer.
-/// Karşılaşılan tüm OfficeMath düğümleri ve bunların alt öğelerinden oluşan bir dize biçiminde bir harita oluşturur.
+/// Bir düğümün alt düğümlerinin ikili olmayan ağacını dolaşır.
+/// Karşılaşılan tüm OfficeMath düğümlerinin ve bunların alt öğelerinin bir dize biçiminde bir haritasını oluşturur.
 /// </summary>
 public class OfficeMathStructurePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ziyaretçinin biriktirdiği belgenin düz metnini alır.
+    /// Ziyaretçinin topladığı belgenin düz metnini alır.
     /// </summary>
     public string GetText()
     {
@@ -97,7 +97,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derin olduğuna bağlı olarak onu girintileyin.
+    /// StringBuilder'a bir satır ekleyin ve ziyaretçinin belge ağacında ne kadar derine indiğine bağlı olarak girintisini ayarlayın.
     /// </summary>
     /// <param adı="metin"></param>
     private void IndentAndAppendLine(string text)

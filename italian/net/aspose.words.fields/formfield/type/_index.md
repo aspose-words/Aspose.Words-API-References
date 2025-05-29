@@ -3,14 +3,14 @@ title: FormField.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words per .NET
-description: FormField Type proprietà. Restituisce il tipo di campo modulo in C#.
+description: Scopri la proprietà FormField Type per identificare e utilizzare facilmente vari tipi di campi modulo, migliorando la funzionalità dei tuoi moduli web e l'esperienza utente.
 type: docs
 weight: 220
 url: /it/net/aspose.words.fields/formfield/type/
 ---
 ## FormField.Type property
 
-Restituisce il tipo di campo modulo.
+Restituisce il tipo di campo del modulo.
 
 ```csharp
 public FieldType Type { get; }
@@ -33,7 +33,7 @@ Assert.AreEqual("MyComboBox", comboBox.Name);
 Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
 Assert.AreEqual("Apple", comboBox.Result);
 
-// Il campo del modulo apparirà sotto forma di tag html "seleziona".
+// Il campo del modulo apparirà sotto forma di tag HTML "select".
 doc.Save(ArtifactsDir + "FormFields.Create.html");
 ```
 

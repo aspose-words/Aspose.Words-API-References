@@ -2,15 +2,15 @@
 title: RevisionGroupCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: Aspose.Words for .NET
-description: RevisionGroupCollection Item mülk. Belirtilen dizindeki revizyon grubunu döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: RevisionGroupCollection Item özelliğiyle belirli revizyon gruplarına zahmetsizce erişin. Hassas indekslemeyle veri yönetiminizi geliştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/revisiongroupcollection/item/
 ---
 ## RevisionGroupCollection indexer
 
-Belirtilen dizindeki revizyon grubunu döndürür.
+Belirtilen dizinde bir revizyon grubu döndürür.
 
 ```csharp
 public RevisionGroup this[int index] { get; }
@@ -18,7 +18,7 @@ public RevisionGroup this[int index] { get; }
 
 ## Örnekler
 
-Bir belgede bir grup revizyonun nasıl alınacağını gösterir.
+Bir belgedeki revizyon grubunun nasıl alınacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

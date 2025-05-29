@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportShapesAsSvg
 linktitle: ExportShapesAsSvg
 articleTitle: ExportShapesAsSvg
 second_title: Aspose.Words per .NET
-description: HtmlSaveOptions ExportShapesAsSvg proprietà. Controlla seShape nodi vengono convertiti in immagini SVG quando si salva in HTML MHTML EPUB o AZW3. Il valore predefinito èfalso  in C#.
+description: Scopri come utilizzare HtmlSaveOptions ExportShapesAsSvg per convertire i nodi Shape in immagini SVG durante il salvataggio nei formati HTML, MHTML, EPUB o AZW3.
 type: docs
 weight: 250
 url: /it/net/aspose.words.saving/htmlsaveoptions/exportshapesassvg/
@@ -18,11 +18,11 @@ public bool ExportShapesAsSvg { get; set; }
 
 ## Osservazioni
 
-Se questa opzione è impostata su`VERO` ,[`Shape`](../../../aspose.words.drawing/shape/) i nodi vengono esportati come elementi &lt;svg&gt;. Altrimenti, vengono renderizzati in bitmap e vengono esportati come elementi &lt;img&gt;.
+Se questa opzione è impostata su`VERO` ,[`Shape`](../../../aspose.words.drawing/shape/) i nodi vengono esportati come elementi &lt;svg&gt;. In caso contrario, vengono renderizzati in bitmap ed esportati come elementi &lt;img&gt;.
 
 ## Esempi
 
-Mostra come esportare la forma come grafica vettoriale scalabile.
+Mostra come esportare le forme come grafica vettoriale scalabile.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.MoveTo(textBox.FirstParagraph);
 builder.Write("My text box");
 
 // Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions
-// per determinare in che modo l'operazione di salvataggio esporterà le forme delle caselle di testo.
+// per determinare come l'operazione di salvataggio esporterà le forme delle caselle di testo.
 // Se impostiamo il flag "ExportTextBoxAsSvg" su "true",
 // l'operazione di salvataggio convertirà le forme con testo in oggetti SVG.
 // Se impostiamo il flag "ExportTextBoxAsSvg" su "false",
@@ -48,7 +48,7 @@ if (exportShapesAsSvg)
 {
     Assert.True(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" versione=\"1.1\" larghezza=\"133\" altezza= \"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" versione=\"1.1\" larghezza=\"133\" altezza=\"80\">"));
 }
 else
 {

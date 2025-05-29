@@ -3,14 +3,14 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTag DateDisplayFormat свойство. Строка представляющая формат отображения дат. Не может бытьнулевой . Даты на английском языке США  мм/дд/гггг на С#.
+description: Откройте для себя свойство StructuredDocumentTag DateDisplayFormat для легкой настройки форматов отображения даты. Повысьте ясность и привлекательность вашего документа!
 type: docs
 weight: 90
 url: /ru/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-Строка, представляющая формат отображения дат. Не может быть`нулевой` . Даты на английском языке (США) — «мм/дд/гггг».
+Строка, представляющая формат отображения дат.
 
 ```csharp
 public string DateDisplayFormat { get; set; }
@@ -18,28 +18,32 @@ public string DateDisplayFormat { get; set; }
 
 ## Примечания
 
-Доступ к этому ресурсу будет работать только дляDate Тип SDT.
+Не может быть`нулевой`.
+
+Даты для английского языка (США) — «мм/дд/гггг».
+
+Доступ к этому свойству будет возможен только дляDate Тип СДТ.
 
 Для всех остальных типов SDT возникнет исключение.
 
 ## Примеры
 
-Показывает, как предложить пользователю ввести дату с помощью тега структурированного документа.
+Показывает, как предложить пользователю ввести дату с помощью структурированного тега документа.
 
 ```csharp
 Document doc = new Document();
 
-// Вставляем тег структурированного документа, предлагающий пользователю ввести дату.
+// Вставьте структурированный тег документа, который предлагает пользователю ввести дату.
 // В Microsoft Word этот элемент известен как «Элемент управления содержимым выбора даты».
 // Когда мы нажимаем на стрелку в правом конце этого тега в Microsoft Word,
 // мы увидим всплывающее окно в виде кликабельного календаря.
-// Мы можем использовать это всплывающее окно, чтобы выбрать дату, которую будет отображать тег.
+// Мы можем использовать это всплывающее окно для выбора даты, которую будет отображать тег.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Отображение даты в соответствии с локалью арабского языка Саудовской Аравии.
+// Отображает дату в соответствии с региональным арабским языком Саудовской Аравии.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
-// Устанавливаем формат отображения даты.
+// Задайте формат отображения даты.
 sdtDate.DateDisplayFormat = "dd MMMM, yyyy";
 sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 

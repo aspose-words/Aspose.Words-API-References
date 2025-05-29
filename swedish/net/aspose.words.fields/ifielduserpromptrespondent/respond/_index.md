@@ -3,14 +3,14 @@ title: IFieldUserPromptRespondent.Respond
 linktitle: Respond
 articleTitle: Respond
 second_title: Aspose.Words för .NET
-description: IFieldUserPromptRespondent Respond metod. När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returnerasnull för att indikera att användaren inte har svarat på prompten dvs användaren har tryckt på knappen Avbryt i promptfönstret i C#.
+description: Upptäck metoden iFieldUserPromptRespondent Respond för att effektivt samla in användarsvar. Lär dig hur du hanterar avbokningar smidigt!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/ifielduserpromptrespondent/respond/
 ---
 ## IFieldUserPromptRespondent.Respond method
 
-När den är implementerad returneras ett svar från användaren vid uppmaning. Din implementering bör returneras`null` för att indikera att användaren inte har svarat på prompten (dvs användaren har tryckt på knappen Avbryt i promptfönstret).
+Returnerar ett svar från användaren vid en fråga när den är implementerad. Din implementering ska returnera`null` för att indikera att användaren inte har svarat på prompten (dvs. användaren har tryckt på knappen Avbryt i promptfönstret).
 
 ```csharp
 public string Respond(string promptText, string defaultResponse)
@@ -18,16 +18,16 @@ public string Respond(string promptText, string defaultResponse)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| promptText | String | Prompttext (dvs. titeln på promptfönstret). |
-| defaultResponse | String | Standardanvändarsvar (dvs. initialvärde som finns i uppmaningsfönstret). |
+| promptText | String | Prompttext (dvs. titel på promptfönstret). |
+| defaultResponse | String | Standardanvändarsvar (dvs. initialvärde som finns i promptfönstret). |
 
 ### Returvärde
 
-Användarsvar (dvs. bekräftat värde som finns i uppmaningsfönstret).
+Användarsvar (dvs. bekräftat värde i meddelandefönstret).
 
 ## Exempel
 
-Visar hur man skapar ett ASK-fält och ställer in dess egenskaper.
+Visar hur man skapar ett ASK-fält och anger dess egenskaper.
 
 ```csharp
 public void FieldAsk()
@@ -54,7 +54,7 @@ public void FieldAsk()
         " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
         fieldAsk.GetFieldCode());
 
-    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en e-postkoppling.
+    // ASK-fält tillämpar standardsvaret på sina respektive REF-fält under en dokumentkoppling.
     DataTable table = new DataTable("My Table");
     table.Columns.Add("Column 1");
     table.Rows.Add("Row 1");
@@ -63,8 +63,8 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptsvarare,
-    // som kommer att inträffa under en e-postkoppling.
+    // Vi kan ändra eller åsidosätta standardsvaret i våra ASK-fält med en anpassad promptresponder,
+    // vilket kommer att inträffa under en dokumentkoppling.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);
 
@@ -73,7 +73,7 @@ public void FieldAsk()
 }
 
 /// <summary>
-/// Lägger text framför standardsvaret i ett ASK-fält under en e-postkoppling.
+/// Lägger till text före standardsvaret i ett ASK-fält under en dokumentkoppling.
 /// </summary>
 private class MyPromptRespondent : IFieldUserPromptRespondent
 {

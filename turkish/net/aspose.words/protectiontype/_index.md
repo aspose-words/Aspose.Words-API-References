@@ -2,10 +2,10 @@
 title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.ProtectionType Sıralama. Bir belge için koruma türü C#'da.
+second_title: .NET için Aspose.Words
+description: Sağlam belge güvenliği için Aspose.Words.ProtectionType enum'unu keşfedin. Belgelerinizi bugün özelleştirilebilir koruma seçenekleriyle geliştirin!
 type: docs
-weight: 4510
+weight: 5240
 url: /tr/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -23,7 +23,7 @@ public enum ProtectionType
 | AllowOnlyComments | `1` | Kullanıcı yalnızca belgedeki yorumları değiştirebilir. |
 | AllowOnlyFormFields | `2` | Kullanıcı yalnızca belgedeki form alanlarına veri girebilir. |
 | AllowOnlyRevisions | `0` | Kullanıcı belgeye yalnızca revizyon işaretleri ekleyebilir. |
-| ReadOnly | `3` | Belgede değişiklik yapılmasına izin verilmez. Microsoft Word 2003. 'den beri mevcuttur |
+| ReadOnly | `3` | Belgede hiçbir değişikliğe izin verilmez. Microsoft Word 2003'ten beri kullanılabilir. |
 | NoProtection | `-1` | Belge korunmuyor. |
 
 ## Örnekler
@@ -41,14 +41,14 @@ builder.Writeln("Section 2. Hello again!");
 builder.Write("Please enter text here: ");
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Belgedeki her bölüme yazma koruması uygulayın.
+// Belgedeki her bölüme yazma koruması uygula.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
 // İlk bölüm için yazma korumasını kapatın.
 doc.Sections[0].ProtectedForForms = false;
 
-// Bu çıktı belgesinde ilk bölümü serbestçe düzenleyebileceğiz,
-// ve ikinci bölümde sadece form alanının içeriğini düzenleyebileceğiz.
+// Bu çıktı belgesinde, ilk bölümü serbestçe düzenleyebileceğiz,
+// ve sadece ikinci bölümdeki form alanının içeriğini düzenleyebileceğiz.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

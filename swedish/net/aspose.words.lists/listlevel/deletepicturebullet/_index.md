@@ -3,14 +3,14 @@ title: ListLevel.DeletePictureBullet
 linktitle: DeletePictureBullet
 articleTitle: DeletePictureBullet
 second_title: Aspose.Words för .NET
-description: ListLevel DeletePictureBullet metod. Tar bort bildpunkt för den aktuella listnivån i C#.
+description: Ta enkelt bort bildpunkter från din nuvarande listnivå med ListLevel DeletePictureBullet-metoden. Förenkla din dokumentformatering idag!
 type: docs
 weight: 160
 url: /sv/net/aspose.words.lists/listlevel/deletepicturebullet/
 ---
 ## ListLevel.DeletePictureBullet method
 
-Tar bort bildpunkt för den aktuella listnivån.
+Tar bort bildpunkten för den aktuella listnivån.
 
 ```csharp
 public void DeletePictureBullet()
@@ -18,19 +18,19 @@ public void DeletePictureBullet()
 
 ## Anmärkningar
 
-Standardpunkten kommer att visas efter borttagning.
+Standardpunkten visas efter borttagning.
 
 ## Exempel
 
-Visar hur du ställer in en anpassad bildikon för listobjektetiketter.
+Visar hur man ställer in en anpassad bildikon för listobjektsetiketter.
 
 ```csharp
 Document doc = new Document();
 
 List list = doc.Lists.Add(ListTemplate.BulletCircle);
 
-// Skapa en bildpunkt för den aktuella listnivån och ställ in en bild från ett lokalt filsystem
-// som ikonen som punkterna för denna listnivå kommer att visa.
+// Skapa en bildpunkt för den aktuella listnivån och ange en bild från ett lokalt filsystem
+// som ikonen som punkterna för den här listnivån kommer att visa.
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 

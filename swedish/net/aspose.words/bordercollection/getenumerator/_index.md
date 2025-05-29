@@ -3,14 +3,14 @@ title: BorderCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words för .NET
-description: BorderCollection GetEnumerator metod. Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen i C#.
+description: Upptäck BorderCollection GetEnumerator-metoden för att enkelt iterera genom alla gränser, vilket förbättrar din kodningseffektivitet och samlingshantering.
 type: docs
 weight: 160
 url: /sv/net/aspose.words/bordercollection/getenumerator/
 ---
 ## BorderCollection.GetEnumerator method
 
-Returnerar ett uppräkningsobjekt som kan användas för att iterera över alla gränser i samlingen.
+Returnerar ett uppräknarobjekt som kan användas för att iterera över alla gränser i samlingen.
 
 ```csharp
 public IEnumerator<Border> GetEnumerator()
@@ -18,13 +18,13 @@ public IEnumerator<Border> GetEnumerator()
 
 ## Exempel
 
-Visar hur man itererar över och redigerar alla kanter i ett objekt i styckeformat.
+Visar hur man itererar över och redigerar alla kantlinjer i ett styckeformatobjekt.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Konfigurera byggarens styckeformatinställningar för att skapa en grön vågkant på alla sidor.
+// Konfigurera inställningarna för styckeformat i verktyget för att skapa en grön vågkant på alla sidor.
 BorderCollection borders = builder.ParagraphFormat.Borders;
 
 using (IEnumerator<Border> enumerator = borders.GetEnumerator())
@@ -38,7 +38,7 @@ using (IEnumerator<Border> enumerator = borders.GetEnumerator())
     }
 }
 
-// Infoga ett stycke. Våra kantinställningar kommer att avgöra utseendet på dess kant.
+// Infoga ett stycke. Våra kantinställningar avgör hur kanten ska se ut.
 builder.Writeln("Hello world!");
 
 doc.Save(ArtifactsDir + "BorderCollection.GetBordersEnumerator.docx");

@@ -3,9 +3,9 @@ title: SectionCollection Class
 linktitle: SectionCollection
 articleTitle: SectionCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.SectionCollection klas. Eine Sammlung vonSection Objekte im Dokument in C#.
+description: Entdecken Sie die Klasse Aspose.Words.SectionCollection – Ihre Lösung für die effiziente Verwaltung von Dokumentabschnitten mit leistungsstarken Funktionen und Flexibilität.
 type: docs
-weight: 5740
+weight: 6570
 url: /de/net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
@@ -29,21 +29,21 @@ public class SectionCollection : NodeCollection
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt einen Knoten am Ende der Sammlung hinzu. |
+| [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Fügt am Ende der Sammlung einen Knoten hinzu. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Entfernt alle Knoten aus dieser Sammlung und aus dem Dokument. |
-| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung ist. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Sammlung von Knoten. |
+| [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bestimmt, ob ein Knoten in der Sammlung vorhanden ist. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Bietet eine einfache Iteration im „foreach“-Stil über die Knotensammlung. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Gibt den nullbasierten Index des angegebenen Knotens zurück. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt am angegebenen Index einen Knoten in die Sammlung ein. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Fügt einen Knoten am angegebenen Index in die Sammlung ein. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Entfernt den Knoten aus der Sammlung und aus dem Dokument. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Entfernt den Knoten am angegebenen Index aus der Sammlung und aus dem Dokument. |
-| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Kopiert alle Abschnitte aus der Sammlung in ein neues Array von Abschnitten. (2 methods) |
+| [ToArray](../../aspose.words/sectioncollection/toarray/#toarray_1)() | Kopiert alle Abschnitte aus der Sammlung in ein neues Abschnittsarray. (2 methods) |
 
 ## Bemerkungen
 
-Ein Microsoft Word-Dokument kann mehrere Abschnitte enthalten. Um einen Abschnitt in einem Microsoft Word zu erstellen, wählen Sie den Befehl „Einfügen/Umbruch“ und wählen Sie einen Umbruchtyp aus. Der Bruch gibt an, ob der Abschnitt auf einer neuen Seite oder auf derselben Seite beginnt.
+Ein Microsoft Word-Dokument kann mehrere Abschnitte enthalten. Um einen Abschnitt in Microsoft Word zu erstellen, wählen Sie den Befehl Einfügen/Umbruch und wählen Sie einen Umbruchtyp. Der Umbruch gibt an, ob der Abschnitt auf einer neuen Seite oder auf derselben Seite beginnt.
 
-Das programmgesteuerte Einfügen und Entfernen von Abschnitten kann verwendet werden, um während des Seriendrucks erstellte Dokumente anzupassen . Wenn ein Dokument abhängig von bestimmten Kriterien unterschiedliche Inhalte oder Teile davon haben muss, können Sie ein „Master“-Dokument erstellen, das mehrere Abschnitte enthält, und einige der Abschnitte vor oder nach dem Seriendruck löschen.
+Das programmatische Einfügen und Entfernen von Abschnitten kann verwendet werden, um während des Seriendrucks erstellte Dokumente anzupassen. Wenn ein Dokument je nach Kriterien unterschiedliche Inhalte oder Teile des Inhalts enthalten muss, können Sie ein Masterdokument mit mehreren Abschnitten erstellen und einige Abschnitte vor oder nach dem Seriendruck löschen.
 
 ## Beispiele
 
@@ -59,12 +59,12 @@ builder.Write("Section 2");
 
 Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
 
-// Den ersten Abschnitt aus dem Dokument löschen.
+// Löschen Sie den ersten Abschnitt aus dem Dokument.
 doc.Sections.RemoveAt(0);
 
 Assert.AreEqual("Section 2", doc.GetText().Trim());
 
-// Eine Kopie des nun ersten Abschnitts an das Ende des Dokuments anhängen.
+// Fügen Sie eine Kopie des jetzigen ersten Abschnitts an das Ende des Dokuments an.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);

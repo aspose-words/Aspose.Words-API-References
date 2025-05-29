@@ -3,14 +3,14 @@ title: Style.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words لـ .NET
-description: Style Type ملكية. الحصول على نوع النمط فقرة أو حرف في C#.
+description: اكتشف خاصية نوع النمط للوصول بسهولة إلى أنماط الفقرات أو الأحرف وتخصيصها، مما يعزز المظهر المرئي لمستندك.
 type: docs
-weight: 170
+weight: 200
 url: /ar/net/aspose.words/style/type/
 ---
 ## Style.Type property
 
-الحصول على نوع النمط (فقرة أو حرف).
+يحصل على نوع النمط (فقرة أو حرف).
 
 ```csharp
 public StyleType Type { get; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// تعداد وسرد جميع الأنماط التي يحتوي عليها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
+// قم بإحصاء وإدراج جميع الأنماط التي يحتويها المستند الذي تم إنشاؤه باستخدام Aspose.Words بشكل افتراضي.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

@@ -3,14 +3,14 @@ title: MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution
 linktitle: EmulateRenderingToSizeOnPageResolution
 articleTitle: EmulateRenderingToSizeOnPageResolution
 second_title: Aspose.Words لـ .NET
-description: MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution ملكية. الحصول على الدقة بالبكسل في البوصة أو تعيينها لمحاكاة عرض ملف التعريف حسب الحجم الموجود على الصفحة في C#.
+description: اكتشف خاصية MetafileRenderingOptions EmulateRenderingToSizeOnPageResolution. تحكم في دقة عرض ملف التعريف لعرض الصفحة بشكل مثالي.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/metafilerenderingoptions/emulaterenderingtosizeonpageresolution/
 ---
 ## MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution property
 
-الحصول على الدقة بالبكسل في البوصة أو تعيينها لمحاكاة عرض ملف التعريف حسب الحجم الموجود على الصفحة.
+يحصل على الدقة بالبكسل لكل بوصة أو يضبطها لمحاكاة عرض الملف التعريفي إلى الحجم الموجود في الصفحة.
 
 ```csharp
 public int EmulateRenderingToSizeOnPageResolution { get; set; }
@@ -18,25 +18,25 @@ public int EmulateRenderingToSizeOnPageResolution { get; set; }
 
 ## ملاحظات
 
-يستخدم هذا الخيار فقط عندما[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) تم ضبطه على`حقيقي`.
+يتم استخدام هذا الخيار فقط عندما[`EmulateRenderingToSizeOnPage`](../emulaterenderingtosizeonpage/) تم ضبطه على`حقيقي`.
 
-القيمة الافتراضية هي 96. وهذا هو دقة العرض الافتراضية. على سبيل المثال، فإن عرض ملف التعريف سوف يحاكي عرض ملف التعريف في برنامج MS Word مع عامل تكبير بنسبة 100%.
+القيمة الافتراضية هي 96. هذه دقة عرض افتراضية. أي أن عرض ملف التعريف سيُحاكي عرض ملف التعريف في مايكروسوفت وورد بنسبة تكبير 100%.
 
 ## أمثلة
 
-يوضح كيفية عرض ملف التعريف وفقًا لحجم الصفحة.
+يوضح كيفية عرض الملف التعريفي وفقًا للحجم على الصفحة.
 
 ```csharp
 Document doc = new Document(MyDir + "WMF with text.docx");
 
-// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" المستند
+// قم بإنشاء كائن "PdfSaveOptions" الذي يمكننا تمريره إلى طريقة "حفظ" الخاصة بالمستند
 // لتعديل كيفية تحويل هذه الطريقة للمستند إلى .PDF.
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 
-// قم بتعيين خاصية "EmulateRenderingToSizeOnPage" على "صحيح"
-// لمحاكاة العرض وفقًا لحجم ملف التعريف الموجود على الصفحة.
-// قم بتعيين خاصية "EmulateRenderingToSizeOnPage" على "خطأ"
-// لمحاكاة عرض ملف التعريف إلى حجمه الافتراضي بالبكسل.
+// اضبط خاصية "EmulateRenderingToSizeOnPage" على "true"
+// لمحاكاة العرض وفقًا لحجم الملف التعريفي الموجود على الصفحة.
+// اضبط خاصية "EmulateRenderingToSizeOnPage" على "false"
+// لمحاكاة عرض الملف التعريفي إلى حجمه الافتراضي بالبكسل.
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPage = renderToSize;
 saveOptions.MetafileRenderingOptions.EmulateRenderingToSizeOnPageResolution = 50;
 

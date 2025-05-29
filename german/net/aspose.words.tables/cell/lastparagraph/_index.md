@@ -3,7 +3,7 @@ title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
 second_title: Aspose.Words für .NET
-description: Cell LastParagraph eigendom. Ruft den letzten Absatz unter den unmittelbar untergeordneten Elementen ab in C#.
+description: Entdecken Sie die Cell LastParagraph-Eigenschaft. Greifen Sie einfach von unmittelbar untergeordneten Elementen auf den letzten Absatz zu und sorgen Sie so für eine effiziente Inhaltsverwaltung.
 type: docs
 weight: 60
 url: /de/net/aspose.words.tables/cell/lastparagraph/
@@ -18,13 +18,13 @@ public Paragraph LastParagraph { get; }
 
 ## Beispiele
 
-Zeigt, wie Einstellungen für vertikale Ränder auf das Format einer Tabellenzeile angewendet werden.
+Zeigt, wie Sie Einstellungen für vertikale Rahmen auf das Format einer Tabellenzeile anwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Erstelle eine Tabelle mit roten und blauen Innenrändern.
+// Erstellen Sie eine Tabelle mit roten und blauen Innenrändern.
 Table table = builder.StartTable();
 
 for (int i = 0; i < 3; i++)
@@ -42,7 +42,7 @@ for (int i = 0; i < 3; i++)
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // Passen Sie das Erscheinungsbild der Ränder an, die zwischen den Zellen angezeigt werden.
+    // Passen Sie das Erscheinungsbild der Rahmen an, die zwischen den Zellen angezeigt werden.
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

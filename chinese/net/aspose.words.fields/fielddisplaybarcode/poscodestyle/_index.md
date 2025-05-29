@@ -2,15 +2,15 @@
 title: FieldDisplayBarcode.PosCodeStyle
 linktitle: PosCodeStyle
 articleTitle: PosCodeStyle
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldDisplayBarcode PosCodeStyle 财产. 获取或设置销售点条形码的样式条形码类型 UPCAUPCEEAN13EAN8有效值不区分大小写为 STDSUP2SUP5CASE 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldDisplayBarcode PosCodeStyle 属性，用于自定义销售点条形码。支持 UPCA、EAN13 等多种条形码，以实现最佳效率。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.fields/fielddisplaybarcode/poscodestyle/
 ---
 ## FieldDisplayBarcode.PosCodeStyle property
 
-获取或设置销售点条形码的样式（条形码类型 UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
+获取或设置销售点条形码的样式（条形码类型：UPCA&#x7C;UPCE&#x7C;EAN13&#x7C;EAN8）。有效值（不区分大小写）为 [STD&#x7C;SUP2&#x7C;SUP5&#x7C;CASE].
 
 ```csharp
 public string PosCodeStyle { get; set; }
@@ -18,7 +18,7 @@ public string PosCodeStyle { get; set; }
 
 ## 例子
 
-演示如何插入 DISPLAYBARCODE 字段并设置其属性。
+展示如何插入 DISPLAYBARCODE 字段并设置其属性。
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldDisplayBarcode field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 
-// 下面是 DISPLAYBARCODE 字段可以显示的四种类型的条形码，以各种方式装饰。
-// 1 - 具有自定义颜色的 QR 码：
+// 以下是 DISPLAYBARCODE 字段可以显示的四种以各种方式装饰的条形码。
+// 1 - 自定义颜色的二维码：
 field.BarcodeType = "QR";
 field.BarcodeValue = "ABC123";
 field.BackgroundColor = "0xF8BD69";
@@ -60,7 +60,7 @@ field.AddStartStopChar = true;
 Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
 builder.Writeln();
 
-// 4 - ITF4 条形码，具有指定的案例代码：
+// 4 - ITF4 条形码，带有指定的案例代码：
 field = (FieldDisplayBarcode)builder.InsertField(FieldType.FieldDisplayBarcode, true);
 field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";

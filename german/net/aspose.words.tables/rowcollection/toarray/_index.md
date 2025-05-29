@@ -3,14 +3,14 @@ title: RowCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words für .NET
-description: RowCollection ToArray methode. Kopiert alle Zeilen aus der Sammlung in ein neues Array von Zeilen in C#.
+description: Konvertieren Sie Ihre RowCollection mühelos mit der ToArray-Methode in ein neues Array und sorgen Sie so für nahtloses Datenmanagement und verbesserte Leistung.
 type: docs
 weight: 20
 url: /de/net/aspose.words.tables/rowcollection/toarray/
 ---
 ## RowCollection.ToArray method
 
-Kopiert alle Zeilen aus der Sammlung in ein neues Array von Zeilen.
+Kopiert alle Zeilen aus der Sammlung in ein neues Zeilen-Array.
 
 ```csharp
 public Row[] ToArray()
@@ -22,7 +22,7 @@ Ein Array von Zeilen.
 
 ## Beispiele
 
-Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt werden.
+Zeigt, wie alle Tabellen im Dokument durchlaufen und der Inhalt jeder Zelle gedruckt wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -36,7 +36,7 @@ for (int i = 0; i < tables.Count; i++)
 
     RowCollection rows = tables[i].Rows;
 
-    // Wir können die Methode „ToArray“ für eine Zeilensammlung verwenden, um sie in ein Array zu klonen.
+    // Wir können die Methode „ToArray“ auf eine Zeilensammlung anwenden, um sie in ein Array zu klonen.
     Assert.AreEqual(rows, rows.ToArray());
     Assert.AreNotSame(rows, rows.ToArray());
 
@@ -46,7 +46,7 @@ for (int i = 0; i < tables.Count; i++)
 
         CellCollection cells = rows[j].Cells;
 
-        // Wir können die Methode „ToArray“ für eine Zellsammlung verwenden, um sie in ein Array zu klonen.
+        // Wir können die Methode „ToArray“ auf eine Zellensammlung anwenden, um sie in ein Array zu klonen.
         Assert.AreEqual(cells, cells.ToArray());
         Assert.AreNotSame(cells, cells.ToArray());
 

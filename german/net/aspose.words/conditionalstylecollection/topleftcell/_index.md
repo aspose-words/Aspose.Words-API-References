@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.TopLeftCell
 linktitle: TopLeftCell
 articleTitle: TopLeftCell
 second_title: Aspose.Words für .NET
-description: ConditionalStyleCollection TopLeftCell eigendom. Ruft den Zellenstil oben links ab in C#.
+description: Entdecken Sie die TopLeftCell-Eigenschaft der ConditionalStyleCollection, um den Stil Ihrer oberen linken Zelle einfach anzupassen und so die Ästhetik Ihrer Tabellenkalkulation zu verbessern.
 type: docs
 weight: 130
 url: /de/net/aspose.words/conditionalstylecollection/topleftcell/
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

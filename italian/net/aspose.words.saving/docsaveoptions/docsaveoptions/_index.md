@@ -3,14 +3,14 @@ title: DocSaveOptions
 linktitle: DocSaveOptions
 articleTitle: DocSaveOptions
 second_title: Aspose.Words per .NET
-description: DocSaveOptions costruttore. Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc formato in C#.
+description: Scopri il costruttore DocSaveOptions per salvare i documenti in formato Doc senza problemi. Migliora il tuo flusso di lavoro con una gestione dei documenti semplice ed efficiente.
 type: docs
 weight: 10
 url: /it/net/aspose.words.saving/docsaveoptions/docsaveoptions/
 ---
 ## DocSaveOptions() {#constructor}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelDoc formato.
 
 ```csharp
 public DocSaveOptions()
@@ -18,7 +18,7 @@ public DocSaveOptions()
 
 ## Esempi
 
-Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
+Mostra come impostare le opzioni di salvataggio per i vecchi formati di Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -27,11 +27,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Imposta una password che proteggerà il caricamento del documento da Microsoft Word o Aspose.Words.
+// Imposta una password che proteggerà il caricamento del documento da parte di Microsoft Word o Aspose.Words.
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una bolla di accompagnamento, possiamo conservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);
@@ -56,7 +56,7 @@ Assert.AreEqual("Hello world!", doc.GetText().Trim());
 
 ## DocSaveOptions(*[SaveFormat](../../../aspose.words/saveformat/)*) {#constructor_1}
 
-Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nel fileDoc oppure Dot formato.
+Inizializza una nuova istanza di questa classe che può essere utilizzata per salvare un documento nelDoc oppure Dot formato.
 
 ```csharp
 public DocSaveOptions(SaveFormat saveFormat)
@@ -68,7 +68,7 @@ public DocSaveOptions(SaveFormat saveFormat)
 
 ## Esempi
 
-Mostra come impostare le opzioni di salvataggio per i formati Microsoft Word precedenti.
+Mostra come impostare le opzioni di salvataggio per i vecchi formati di Microsoft Word.
 
 ```csharp
 Document doc = new Document();
@@ -77,11 +77,11 @@ builder.Write("Hello world!");
 
 DocSaveOptions options = new DocSaveOptions(SaveFormat.Doc);
 
-// Imposta una password che proteggerà il caricamento del documento da Microsoft Word o Aspose.Words.
+// Imposta una password che proteggerà il caricamento del documento da parte di Microsoft Word o Aspose.Words.
 // Nota che questo non crittografa in alcun modo il contenuto del documento.
 options.Password = "MyPassword";
 
-// Se il documento contiene una lista di distribuzione, possiamo preservarla durante il salvataggio impostando questo flag su true.
+// Se il documento contiene una bolla di accompagnamento, possiamo conservarla durante il salvataggio impostando questo flag su true.
 options.SaveRoutingSlip = true;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", options);

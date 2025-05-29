@@ -3,9 +3,9 @@ title: ShapeBase.Rotation
 linktitle: Rotation
 articleTitle: Rotation
 second_title: Aspose.Words для .NET
-description: ShapeBase Rotation свойство. Определяет угол в градусах на который поворачивается фигура. Положительное значение соответствует углу поворота по часовой стрелке на С#.
+description: Откройте для себя свойство ShapeBase Rotation, легко определяйте и настраивайте углы поворота для ваших фигур, повышая точность и креативность вашего дизайна.
 type: docs
-weight: 470
+weight: 500
 url: /ru/net/aspose.words.drawing/shapebase/rotation/
 ---
 ## ShapeBase.Rotation property
@@ -22,18 +22,18 @@ public double Rotation { get; set; }
 
 ## Примеры
 
-Показывает, как вставлять и поворачивать изображение.
+Показывает, как вставить и повернуть изображение.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем фигуру с изображением.
-Shape shape = builder.InsertImage(Image.FromFile(ImageDir + "Logo.jpg"));
+// Вставьте фигуру с изображением.
+Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 Assert.True(shape.CanHaveImage);
 Assert.True(shape.HasImage);
 
-// Поворот изображения на 45 градусов по часовой стрелке.
+// Повернуть изображение на 45 градусов по часовой стрелке.
 shape.Rotation = 45;
 
 doc.Save(ArtifactsDir + "Shape.Rotate.docx");

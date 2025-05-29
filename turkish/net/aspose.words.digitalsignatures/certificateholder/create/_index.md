@@ -2,15 +2,15 @@
 title: CertificateHolder.Create
 linktitle: Create
 articleTitle: Create
-second_title: Aspose.Words for .NET
-description: CertificateHolder Create yöntem. OluştururCertificateHolder PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne C#'da.
+second_title: .NET için Aspose.Words
+description: PKCS12 bayt dizisinden ve paroladan zahmetsizce bir CertificateHolder nesnesi oluşturun. Sezgisel yöntemimizle sertifika yönetimini basitleştirin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.digitalsignatures/certificateholder/create/
 ---
 ## Create(*byte[], SecureString*) {#create}
 
-Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne.
+Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve şifresini kullanan nesne.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, SecureString password)
@@ -18,7 +18,7 @@ public static CertificateHolder Create(byte[] certBytes, SecureString password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| certBytes | Byte[] | X.509 sertifikasından verileri içeren bir bayt dizisi. |
+| certBytes | Byte[] | X.509 sertifikasından veri içeren bir bayt dizisi. |
 | password | SecureString | X.509 sertifika verilerine erişmek için gereken şifre. |
 
 ### Geri dönüş değeri
@@ -29,42 +29,38 @@ Bir örneği[`CertificateHolder`](../)
 
 | istisna | şart |
 | --- | --- |
-| InvalidParameterException | Eğer atılırsa*certBytes* dır-dir`hükümsüz` |
-| InvalidParameterException | Eğer atılırsa*password* dır-dir`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*certBytes* dır`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*password* dır`hükümsüz` |
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
-| IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
+| IOException | Yanlış şifre veya bozuk dosya olması durumunda atılır. |
 
 ## Örnekler
 
-SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
+CertificateHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
 ```csharp
-// Aşağıda SertifikaHolder nesneleri oluşturmanın dört yolu verilmiştir.
-// 1 - Bir PKCS #12 dosyasını bayt dizisine yükleyin ve şifresini uygulayın:
+// Aşağıda CertificateHolder nesnelerini oluşturmanın dört yolu bulunmaktadır.
+// 1 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve şifresini uygulayın:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Bir bayt dizisine PKCS #12 dosyasını yükleyin ve güvenli bir parola uygulayın:
+// 2 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve güvenli bir parola uygulayın:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Sertifikanın takma adlara karşılık gelen özel anahtarları varsa,
-// ilgili anahtarları almak için takma adları kullanabiliriz. Öncelikle geçerli takma adları kontrol edeceğiz.
+// ilgili anahtarlarını almak için takma adları kullanabiliriz. İlk olarak geçerli takma adları kontrol edeceğiz.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
@@ -72,7 +68,7 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
 // 3 - Geçerli bir takma ad kullanın:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Özel anahtar döndüren ilk mevcut takma adı kullanmak için takma ad olarak "null"u iletin:
+// 4 - Özel bir anahtar döndüren ilk kullanılabilir takma adı kullanmak için takma ad olarak "null" değerini geçirin:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -86,7 +82,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*byte[], string*) {#create_1}
 
-Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve parolasını kullanan nesne.
+Oluşturur[`CertificateHolder`](../) PKCS12 deposunun bayt dizisini ve şifresini kullanan nesne.
 
 ```csharp
 public static CertificateHolder Create(byte[] certBytes, string password)
@@ -94,7 +90,7 @@ public static CertificateHolder Create(byte[] certBytes, string password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| certBytes | Byte[] | X.509 sertifikasından verileri içeren bir bayt dizisi. |
+| certBytes | Byte[] | X.509 sertifikasından veri içeren bir bayt dizisi. |
 | password | String | X.509 sertifika verilerine erişmek için gereken şifre. |
 
 ### Geri dönüş değeri
@@ -105,42 +101,38 @@ Bir örneği[`CertificateHolder`](../)
 
 | istisna | şart |
 | --- | --- |
-| InvalidParameterException | Eğer atılırsa*certBytes* dır-dir`hükümsüz` |
-| InvalidParameterException | Eğer atılırsa*password* dır-dir`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*certBytes* dır`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*password* dır`hükümsüz` |
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
-| IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
+| IOException | Yanlış şifre veya bozuk dosya olması durumunda atılır. |
 
 ## Örnekler
 
-SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
+CertificateHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
 ```csharp
-// Aşağıda SertifikaHolder nesneleri oluşturmanın dört yolu verilmiştir.
-// 1 - Bir PKCS #12 dosyasını bayt dizisine yükleyin ve şifresini uygulayın:
+// Aşağıda CertificateHolder nesnelerini oluşturmanın dört yolu bulunmaktadır.
+// 1 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve şifresini uygulayın:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Bir bayt dizisine PKCS #12 dosyasını yükleyin ve güvenli bir parola uygulayın:
+// 2 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve güvenli bir parola uygulayın:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Sertifikanın takma adlara karşılık gelen özel anahtarları varsa,
-// ilgili anahtarları almak için takma adları kullanabiliriz. Öncelikle geçerli takma adları kontrol edeceğiz.
+// ilgili anahtarlarını almak için takma adları kullanabiliriz. İlk olarak geçerli takma adları kontrol edeceğiz.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
@@ -148,7 +140,7 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
 // 3 - Geçerli bir takma ad kullanın:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Özel anahtar döndüren ilk mevcut takma adı kullanmak için takma ad olarak "null"u iletin:
+// 4 - Özel bir anahtar döndüren ilk kullanılabilir takma adı kullanmak için takma ad olarak "null" değerini geçirin:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 
@@ -162,7 +154,7 @@ CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 ## Create(*string, string*) {#create_2}
 
-Oluşturur[`CertificateHolder`](../) PKCS12 deposunun yolunu ve şifresini kullanan nesne.
+Oluşturur[`CertificateHolder`](../)PKCS12 deposuna giden yolu ve parolasını kullanan nesne.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password)
@@ -181,17 +173,17 @@ Bir örneği[`CertificateHolder`](../)
 
 | istisna | şart |
 | --- | --- |
-| InvalidParameterException | Eğer atılırsa*fileName* dır-dir`hükümsüz` |
-| InvalidParameterException | Eğer atılırsa*password* dır-dir`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*fileName* dır`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*password* dır`hükümsüz` |
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
-| IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
+| IOException | Yanlış şifre veya bozuk dosya olması durumunda atılır. |
 
 ## Örnekler
 
 Belgelerin dijital olarak nasıl imzalanacağını gösterir.
 
 ```csharp
-// PKCS#12 deposundan özel anahtar içermesi gereken bir X.509 sertifikası oluşturun.
+// Özel bir anahtar içermesi gereken bir PKCS#12 deposundan bir X.509 sertifikası oluşturun.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
 // Yeni dijital imzamızla uygulanacak bir yorum ve tarih oluşturun.
@@ -201,8 +193,8 @@ SignOptions signOptions = new SignOptions
     SignTime = DateTime.Now
 };
 
-// İmzasız bir belgeyi dosya akışı aracılığıyla yerel dosya sisteminden alın,
-// ardından çıktı dosyası akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturun.
+// Yerel dosya sisteminden bir dosya akışı aracılığıyla imzalanmamış bir belge alın,
+// daha sonra çıktı dosya akışının dosya adına göre belirlenen imzalı bir kopyasını oluşturur.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))
@@ -222,7 +214,7 @@ using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 
 ## Create(*string, string, string*) {#create_3}
 
-Oluşturur[`CertificateHolder`](../) PKCS12 deposunun yolunu, şifresini ve takma adını kullanarak hangi özel anahtar ve sertifikanın bulunacağını kullanan nesne.
+Oluşturur[`CertificateHolder`](../) PKCS12 deposuna giden yolu, parolasını ve özel anahtar ve sertifikanın bulunacağı takma adı kullanan nesne.
 
 ```csharp
 public static CertificateHolder Create(string fileName, string password, string alias)
@@ -242,43 +234,39 @@ Bir örneği[`CertificateHolder`](../)
 
 | istisna | şart |
 | --- | --- |
-| InvalidParameterException | Eğer atılırsa*fileName* dır-dir`hükümsüz` |
-| InvalidParameterException | Eğer atılırsa*password* dır-dir`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*fileName* dır`hükümsüz` |
+| InvalidParameterException | Eğer atılmışsa*password* dır`hükümsüz` |
 | SecurityException | PKCS12 deposunda takma ad yoksa atılır |
-| IOException | Yanlış şifre veya bozuk dosya varsa atılır. |
-| SecurityException | Belirtilen takma adda özel anahtar yoksa atılır |
+| IOException | Yanlış şifre veya bozuk dosya olması durumunda atılır. |
+| SecurityException | Belirtilen takma adla özel anahtar yoksa atılır |
 
 ## Örnekler
 
-SertifikaHolder nesnelerinin nasıl oluşturulacağını gösterir.
+CertificateHolder nesnelerinin nasıl oluşturulacağını gösterir.
 
 ```csharp
-// Aşağıda SertifikaHolder nesneleri oluşturmanın dört yolu verilmiştir.
-// 1 - Bir PKCS #12 dosyasını bayt dizisine yükleyin ve şifresini uygulayın:
+// Aşağıda CertificateHolder nesnelerini oluşturmanın dört yolu bulunmaktadır.
+// 1 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve şifresini uygulayın:
 byte[] certBytes = File.ReadAllBytes(MyDir + "morzal.pfx");
 CertificateHolder.Create(certBytes, "aw");
 
-// 2 - Bir bayt dizisine PKCS #12 dosyasını yükleyin ve güvenli bir parola uygulayın:
+// 2 - Bir PKCS #12 dosyasını bir bayt dizisine yükleyin ve güvenli bir parola uygulayın:
 SecureString password = new NetworkCredential("", "aw").SecurePassword;
 CertificateHolder.Create(certBytes, password);
 
 // Sertifikanın takma adlara karşılık gelen özel anahtarları varsa,
-// ilgili anahtarları almak için takma adları kullanabiliriz. Öncelikle geçerli takma adları kontrol edeceğiz.
+// ilgili anahtarlarını almak için takma adları kullanabiliriz. İlk olarak geçerli takma adları kontrol edeceğiz.
 using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Open))
 {
     Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
     pkcs12Store.Load(certStream, "aw".ToCharArray());
-    IEnumerator enumerator = pkcs12Store.Aliases.GetEnumerator();
-
-    while (enumerator.MoveNext())
+    foreach (string currentAlias in pkcs12Store.Aliases)
     {
-        if (enumerator.Current != null)
+        if ((currentAlias != null) &&
+            (pkcs12Store.IsKeyEntry(currentAlias) &&
+             pkcs12Store.GetKey(currentAlias).Key.IsPrivate))
         {
-            string currentAlias = enumerator.Current.ToString();
-            if (pkcs12Store.IsKeyEntry(currentAlias) && pkcs12Store.GetKey(currentAlias).Key.IsPrivate)
-            {
-                Console.WriteLine($"Valid alias found: {enumerator.Current}");
-            }
+            Console.WriteLine($"Valid alias found: {currentAlias}");
         }
     }
 }
@@ -286,7 +274,7 @@ using (FileStream certStream = new FileStream(MyDir + "morzal.pfx", FileMode.Ope
 // 3 - Geçerli bir takma ad kullanın:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
 
-// 4 - Özel anahtar döndüren ilk mevcut takma adı kullanmak için takma ad olarak "null"u iletin:
+// 4 - Özel bir anahtar döndüren ilk kullanılabilir takma adı kullanmak için takma ad olarak "null" değerini geçirin:
 CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 ```
 

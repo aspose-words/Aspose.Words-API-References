@@ -2,8 +2,8 @@
 title: LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: LayoutOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 LayoutOptions 构造函数，实现自定义布局。解锁默认设置，增强设计灵活性并优化用户体验。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.layout/layoutoptions/layoutoptions/

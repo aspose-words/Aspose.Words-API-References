@@ -3,7 +3,7 @@ title: BookmarkCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: BookmarkCollection Count свойство. Возвращает количество закладок в коллекции на С#.
+description: Откройте для себя свойство BookmarkCollection Count, которое эффективно возвращает общее количество закладок, расширяя ваши возможности управления данными.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/bookmarkcollection/count/
@@ -24,7 +24,7 @@ public int Count { get; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем пять закладок с текстом внутри их границ.
+// Вставьте пять закладок с текстом внутри их границ.
 for (int i = 1; i <= 5; i++)
 {
     string bookmarkName = "MyBookmark_" + i;
@@ -35,24 +35,24 @@ for (int i = 1; i <= 5; i++)
     builder.InsertBreak(BreakType.ParagraphBreak);
 }
 
-// Эта коллекция хранит закладки.
+// В этой коллекции хранятся закладки.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
 Assert.AreEqual(5, bookmarks.Count);
 
-// Существует несколько способов удаления закладок.
+// Есть несколько способов удалить закладки.
 // 1 - Вызов метода Remove закладки:
 bookmarks["MyBookmark_1"].Remove();
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
 
-// 2 – Передача закладки в метод Remove коллекции:
+// 2 - Передача закладки в метод Remove коллекции:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
 
-//3 - Удаление закладки из коллекции по имени:
+// 3 - Удаление закладки из коллекции по имени:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
 Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
@@ -66,7 +66,7 @@ Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
 bookmarks.Clear();
 
 // Текст, который был внутри закладок, все еще присутствует в документе.
-Assert.That(bookmarks, Is.Empty);
+Assert.AreEqual(0, bookmarks.Count);
 Assert.AreEqual("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +

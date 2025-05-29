@@ -3,14 +3,14 @@ title: MailMerge.MergeDuplicateRegions
 linktitle: MergeDuplicateRegions
 articleTitle: MergeDuplicateRegions
 second_title: Aspose.Words pour .NET
-description: MailMerge MergeDuplicateRegions propriété. Obtient ou définit une valeur indiquant si toutes les régions de publipostage de documents portant le nom dune source de données doivent être fusionnées lors de lexécution dun publipostage avec des régions par rapport à la source de données ou uniquement la première en C#.
+description: Optimisez votre processus de publipostage grâce à la propriété MergeDuplicateRegions. Contrôlez la fusion des régions de sources de données pour une gestion efficace des documents.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-Obtient ou définit une valeur indiquant si toutes les régions de publipostage de documents portant le nom d'une source de données doivent être fusionnées lors de l'exécution d'un publipostage avec des régions par rapport à la source de données ou uniquement la première.
+Obtient ou définit une valeur indiquant si toutes les régions de publipostage de document portant le nom d'une source de données doivent être fusionnées lors de l'exécution d'un publipostage avec des régions par rapport à la source de données ou uniquement la première.
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -30,11 +30,11 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // Si on définit la propriété "MergeDuplicateRegions" à "false", le publipostage affectera la première région,
-    // tandis que les MERGEFIELD du second seront laissés dans l'état de pré-fusion.
+    // Si nous définissons la propriété « MergeDuplicateRegions » sur « false », le publipostage affectera la première région,
+    // tandis que les MERGEFIELD du second seront laissés dans l'état pré-fusion.
     // Pour fusionner les deux régions comme ça,
     // il faudrait exécuter le publipostage deux fois sur une table du même nom.
-    // Si nous définissons la propriété "MergeDuplicateRegions" sur "true", le publipostage affectera les deux régions.
+    // Si nous définissons la propriété « MergeDuplicateRegions » sur « true », le publipostage affectera les deux régions.
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
     doc.MailMerge.ExecuteWithRegions(dataTable);
@@ -42,7 +42,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// Renvoie un document contenant deux régions de publipostage en double (partageant le même nom dans les balises "TableStart/End").
+/// Renvoie un document contenant deux régions de publipostage en double (partageant le même nom dans les balises « TableStart/End »).
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {
@@ -62,7 +62,7 @@ private static Document CreateSourceDocMergeDuplicateRegions()
 }
 
 /// <summary>
-/// Crée un tableau de données avec une ligne et deux colonnes.
+/// Crée une table de données avec une ligne et deux colonnes.
 /// </summary>
 private static DataTable CreateSourceTableMergeDuplicateRegions()
 {

@@ -3,14 +3,14 @@ title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words para .NET
-description: LoadOptions WarningCallback propiedad. Se llama durante una operación de carga cuando se detecta un problema que podría provocar la pérdida de fidelidad de los datos o del formato en C#.
+description: Descubra la propiedad LoadOptions WarningCallback, que le alerta durante las operaciones de carga para evitar la pérdida de datos y garantizar la integridad del formato.
 type: docs
-weight: 170
+weight: 180
 url: /es/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Se llama durante una operación de carga, cuando se detecta un problema que podría provocar la pérdida de fidelidad de los datos o del formato.
+Se llama durante una operación de carga, cuando se detecta un problema que podría provocar pérdida de fidelidad de datos o formato.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -23,7 +23,7 @@ Muestra cómo imprimir y almacenar advertencias que ocurren durante la carga de 
 ```csharp
 public void LoadOptionsWarningCallback()
 {
-    // Crea un nuevo objeto LoadOptions y establece su atributo AdvertenciaCallback
+    // Cree un nuevo objeto LoadOptions y establezca su atributo WarningCallback
     // como una instancia de nuestra implementación IWarningCallback.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();

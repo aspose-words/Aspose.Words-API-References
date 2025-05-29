@@ -2,8 +2,8 @@
 title: VbaModule.Type
 linktitle: Type
 articleTitle: Type
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaModule Type 财产. 指定模块是过程模块文档模块类模块还是设计器模块 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 VbaModule 类型属性，将您的模块定义为过程、文档、类或设计器，以增强功能和组织。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.vba/vbamodule/type/
@@ -18,7 +18,7 @@ public VbaModuleType Type { get; set; }
 
 ## 例子
 
-演示如何使用宏创建 VBA 项目。
+展示如何使用宏创建 VBA 项目。
 
 ```csharp
 Document doc = new Document();
@@ -28,13 +28,13 @@ VbaProject project = new VbaProject();
 project.Name = "Aspose.Project";
 doc.VbaProject = project;
 
-// 创建一个新模块并指定宏源代码。
+// 创建一个新模块并指定一个宏源代码。
 VbaModule module = new VbaModule();
 module.Name = "Aspose.Module";
 module.Type = VbaModuleType.ProceduralModule;
 module.SourceCode = "New source code";
 
-// 将模块添加到 VBA 项目中。
+// 将模块添加到 VBA 项目。
 doc.VbaProject.Modules.Add(module);
 
 doc.Save(ArtifactsDir + "VbaProject.CreateVBAMacros.docm");

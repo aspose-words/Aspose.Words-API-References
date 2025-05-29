@@ -2,15 +2,15 @@
 title: TxtSaveOptionsBase.ParagraphBreak
 linktitle: ParagraphBreak
 articleTitle: ParagraphBreak
-second_title: Aspose.Words for .NET
-description: TxtSaveOptionsBase ParagraphBreak mülk. Metin formatlarında dışa aktarırken paragraf sonu olarak kullanılacak dizeyi belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: TxtSaveOptionsBase'in ParagraphBreak özelliğini keşfedin, kusursuz metin biçimi dışa aktarımları için özel paragraf sonlarına izin verin. Belgenizin okunabilirliğini artırın!
 type: docs
 weight: 40
 url: /tr/net/aspose.words.saving/txtsaveoptionsbase/paragraphbreak/
 ---
 ## TxtSaveOptionsBase.ParagraphBreak property
 
-Metin formatlarında dışa aktarırken paragraf sonu olarak kullanılacak dizeyi belirtir.
+Metin biçimlerinde dışa aktarırken paragraf sonu olarak kullanılacak dizeyi belirtir.
 
 ```csharp
 public string ParagraphBreak { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:[`CrLf`](../../../aspose.words/controlchar/crlf/).
 
 ## Örnekler
 
-Bir .txt belgesinin özel paragraf sonuyla nasıl kaydedileceğini gösterir.
+Özel paragraf sonuyla bir .txt belgesinin nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Writeln("Paragraph 1.");
 builder.Writeln("Paragraph 2.");
 builder.Write("Paragraph 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
-// belgeyi düz metne kaydetme şeklimizi değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "TxtSaveOptions" nesnesi oluşturun
+// Belgeyi düz metne nasıl kaydedeceğimizi değiştirmek için.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);

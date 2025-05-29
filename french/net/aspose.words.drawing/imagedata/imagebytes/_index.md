@@ -3,7 +3,7 @@ title: ImageData.ImageBytes
 linktitle: ImageBytes
 articleTitle: ImageBytes
 second_title: Aspose.Words pour .NET
-description: ImageData ImageBytes propriété. Obtient ou définit les octets bruts de limage stockée dans la forme en C#.
+description: Découvrez la propriété ImageData ImageBytes pour gérer et manipuler facilement les octets d'image bruts dans vos formes pour un contenu visuel amélioré.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.drawing/imagedata/imagebytes/
@@ -18,13 +18,13 @@ public byte[] ImageBytes { get; set; }
 
 ## Remarques
 
-Définir la valeur sur`nul` ou un tableau vide supprimera l'image de la forme.
+Définition de la valeur à`nul` ou un tableau vide supprimera l'image de la forme.
 
-Retour`nul` si l'image n'est pas stockée dans le document (par exemple l'image est probablement liée dans ce cas).
+Retours`nul` si l'image n'est pas stockée dans le document (par exemple, l'image est probablement liée dans ce cas).
 
 ## Exemples
 
-Montre comment créer un fichier image à partir des données d’image brutes d’une forme.
+Montre comment créer un fichier image à partir des données d'image brutes d'une forme.
 
 ```csharp
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
@@ -35,7 +35,7 @@ Assert.True(imgShape.HasImage);
 // ToByteArray() renvoie le tableau stocké dans la propriété ImageBytes.
 Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
 
-// Enregistrez les données d'image de la forme dans un fichier image dans le système de fichiers local.
+// Enregistrez les données d'image de la forme dans un fichier image du système de fichiers local.
 using (Stream imgStream = imgShape.ImageData.ToStream())
 {
     using (FileStream outStream = new FileStream(ArtifactsDir + "Drawing.GetDataFromImage.png",

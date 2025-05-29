@@ -3,7 +3,7 @@ title: NodeImporter.ImportNode
 linktitle: ImportNode
 articleTitle: ImportNode
 second_title: Aspose.Words для .NET
-description: NodeImporter ImportNode метод. Импортирует узел из одного документа в другой на С#.
+description: Легко переносите узлы между документами с помощью метода ImportNode от NodeImporter. Улучшите свой рабочий процесс и оптимизируйте интеграцию данных уже сегодня!
 type: docs
 weight: 20
 url: /ru/net/aspose.words/nodeimporter/importnode/
@@ -19,7 +19,7 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | srcNode | Node | Узел для импорта. |
-| isImportChildren | Boolean | `истинный` рекурсивно импортировать все дочерние узлы; в противном случае,`ЛОЖЬ`. |
+| isImportChildren | Boolean | `истинный` для рекурсивного импорта всех дочерних узлов; в противном случае,`ЛОЖЬ`. |
 
 ### Возвращаемое значение
 
@@ -29,13 +29,13 @@ public Node ImportNode(Node srcNode, bool isImportChildren)
 
 Импорт узла создает копию исходного узла, принадлежащего импортирующему документу. Возвращенный узел не имеет родителя. Исходный узел не изменяется и не удаляется из исходного документа.
 
-Прежде чем узел из другого документа можно будет вставить в этот документ, его необходимо импортировать. Во время импорта специфичные для документа свойства, такие как ссылки на стили и списки, переводятся из оригинала в импортирующий документ. После того, как узел был импортирован, его можно вставить в соответствующее место документа с помощью[`InsertBefore`](../../compositenode/insertbefore/) или [`InsertAfter`](../../compositenode/insertafter/).
+Прежде чем узел из другого документа может быть вставлен в этот документ, он должен быть импортирован. Во время импорта специфические для документа свойства, такие как ссылки на стили и списки, транслируются из исходного в импортирующий документ. После импорта узла его можно вставить в соответствующее место в документе с помощью[`InsertBefore`](../../compositenode/insertbefore/) или [`InsertAfter`](../../compositenode/insertafter/).
 
-Если исходный узел уже принадлежит целевому документу, то просто создается глубокий clone исходного узла.
+Если исходный узел уже принадлежит целевому документу, то просто создается глубокий клон исходного узла.
 
 ## Примеры
 
-Показывает, как вставить содержимое одного документа в закладку в другом документе.
+Показывает, как вставить содержимое одного документа в закладку другого документа.
 
 ```csharp
 public void InsertAtBookmark()
@@ -74,7 +74,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
         // Проходим по всем узлам уровня блока в теле раздела,
-        // затем клонируем и вставляем каждый узел, кроме последнего пустого абзаца раздела.
+        // затем клонировать и вставить каждый узел, который не является последним пустым абзацем раздела.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {

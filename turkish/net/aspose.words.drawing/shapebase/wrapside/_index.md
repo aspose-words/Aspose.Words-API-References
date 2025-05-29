@@ -2,15 +2,15 @@
 title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
-second_title: Aspose.Words for .NET
-description: ShapeBase WrapSide mülk. Metnin şeklin etrafına nasıl sarıldığını belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın görsel çekiciliğini ve okunabilirliğini artırarak, şekillerin etrafına metin sarmayı kontrol etmek için ShapeBase WrapSide özelliğini keşfedin.
 type: docs
-weight: 590
+weight: 630
 url: /tr/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
 
-Metnin şeklin etrafına nasıl sarıldığını belirtir.
+Metnin şeklin etrafına nasıl sarılacağını belirtir.
 
 ```csharp
 public WrapSide WrapSide { get; set; }
@@ -20,11 +20,11 @@ public WrapSide WrapSide { get; set; }
 
 Varsayılan değer:Both.
 
-Yalnızca üst düzey şekiller için etkilidir.
+Sadece en üst seviye şekiller için etkilidir.
 
 ## Örnekler
 
-Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
+Tüm metin kutusu şekillerinin resim şekilleriyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

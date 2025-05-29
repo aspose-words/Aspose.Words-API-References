@@ -3,14 +3,14 @@ title: ChartAxis.CrossesAt
 linktitle: CrossesAt
 articleTitle: CrossesAt
 second_title: Aspose.Words för .NET
-description: ChartAxis CrossesAt fast egendom. Anger var på den vinkelräta axeln axeln korsar i C#.
+description: Upptäck egenskapen ChartAxis CrossesAt för att enkelt definiera skärningspunkter på diagrammets vinkelräta axel för förbättrad datavisualisering.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.drawing.charts/chartaxis/crossesat/
 ---
 ## ChartAxis.CrossesAt property
 
-Anger var på den vinkelräta axeln axeln korsar.
+Anger var axeln skärs på den vinkelräta axeln.
 
 ```csharp
 public double CrossesAt { get; set; }
@@ -18,13 +18,13 @@ public double CrossesAt { get; set; }
 
 ## Anmärkningar
 
-Egendomen har verkan endast om[`Crosses`](../crosses/) är inställda påCustom. Det stöds inte av MS Office 2016 nya sjökort.
+Fastigheten har endast verkan om[`Crosses`](../crosses/) är inställda påCustom. Det stöds inte av de nya diagrammen i MS Office 2016.
 
-Enheterna bestäms av typen av axel. När axeln är en värdeaxel är värdet för egenskapen ett decimaltal på värdeaxeln. När axeln är en tidskategoriaxel definieras värdet som ett heltal av dagar i förhållande till basdatumet (1899-12-30). För en textkategoriaxel är värdet ett heltalskategorinummer som börjar med 1 som den första kategorin.
+Enheterna bestäms av axeltypen. När axeln är en värdeaxel är värdet för egenskapen ett decimaltal på värdeaxeln. När axeln är en tidskategoriaxel definieras värdet som , ett heltal dagar i förhållande till basdatumet (30/12/1899). För en textkategoriaxel är värdet , ett heltal kategorinummer, som börjar med 1 som den första kategorin.
 
 ## Exempel
 
-Visar hur man får en grafaxel att korsa på en anpassad plats.
+Visar hur man får en grafaxel att korsa vid en anpassad plats.
 
 ```csharp
 Document doc = new Document();
@@ -38,9 +38,9 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// För kolumndiagram korsar Y-axeln vid noll som standard,
-// vilket betyder att kolumner för alla värden under noll pekar ner för att representera negativa värden.
-// Vi kan ställa in ett annat värde för Y-axelns korsning. I det här fallet kommer vi att ställa in den till 3.
+// För stapeldiagram korsar Y-axeln vid noll som standard,
+// vilket innebär att kolumner för alla värden under noll pekar nedåt för att representera negativa värden.
+// Vi kan ställa in ett annat värde för Y-axelns korsning. I det här fallet ställer vi in det till 3.
 ChartAxis axis = chart.AxisX;
 axis.Crosses = AxisCrosses.Custom;
 axis.CrossesAt = 3;

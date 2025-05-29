@@ -3,14 +3,14 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words для .NET
-description: MailMerge RestartListsAtEachSection свойство. Получает или задает значение указывающее перезапускаются ли списки в каждом разделе после выполнения слияния почты на С#.
+description: Откройте для себя свойство MailMerge RestartListsAtEachSection — управляйте сбросом списков в каждом разделе для бесшовных слияний почты. Повысьте точность вашего документа сегодня!
 type: docs
 weight: 110
 url: /ru/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
 ---
 ## MailMerge.RestartListsAtEachSection property
 
-Получает или задает значение, указывающее, перезапускаются ли списки в каждом разделе после выполнения слияния почты.
+Возвращает или задает значение, указывающее, перезапускаются ли списки в каждом разделе после выполнения слияния почты.
 
 ```csharp
 public bool RestartListsAtEachSection { get; set; }
@@ -22,7 +22,7 @@ public bool RestartListsAtEachSection { get; set; }
 
 ## Примеры
 
-Показывает, как контролировать, будет ли нумерация списка перезапускаться в каждом разделе при выполнении слияния почты.
+Показывает, как контролировать, будет ли нумерация списка начинаться заново в каждом разделе при выполнении слияния почты.
 
 ```csharp
 Document doc = new Document(MyDir + "Section breaks with numbering.docx");

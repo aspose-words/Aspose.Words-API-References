@@ -3,7 +3,7 @@ title: Cell.PreviousCell
 linktitle: PreviousCell
 articleTitle: PreviousCell
 second_title: Aspose.Words per .NET
-description: Cell PreviousCell proprietà. Ottiene il precedenteCell nodo in C#.
+description: Accedi facilmente al nodo Cella precedente con la proprietà Cella PrecedenteCella. Migliora la navigazione dei dati e semplifica il processo di codifica.
 type: docs
 weight: 110
 url: /it/net/aspose.words.tables/cell/previouscell/
@@ -18,7 +18,7 @@ public Cell PreviousCell { get; }
 
 ## Osservazioni
 
-Il metodo può essere utilizzato quando è necessario avere accesso digitato alle celle di a[`Row`](../../row/) . Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) un nodo viene trovato in una riga invece che in una cella, viene automaticamente attraversato per ottenere una cella contenuta all'interno.
+Il metodo può essere utilizzato quando è necessario disporre di accesso tipizzato alle celle di un[`Row`](../../row/) Se a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) il nodo si trova in una riga invece che in una cella, viene automaticamente attraversato per ottenere una cella contenuta al suo interno.
 
 ## Esempi
 

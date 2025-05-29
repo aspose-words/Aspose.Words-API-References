@@ -3,14 +3,14 @@ title: Section.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words för .NET
-description: Section Clone metod. Skapar en dubblett av detta avsnitt i C#.
+description: Duplicera enkelt avsnitt med vår metod för sektionskloning. Effektivisera ditt arbetsflöde och öka produktiviteten med detta kraftfulla verktyg!
 type: docs
-weight: 110
+weight: 130
 url: /sv/net/aspose.words/section/clone/
 ---
 ## Section.Clone method
 
-Skapar en dubblett av detta avsnitt.
+Skapar en kopia av detta avsnitt.
 
 ```csharp
 public Section Clone()

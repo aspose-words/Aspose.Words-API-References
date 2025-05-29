@@ -3,9 +3,9 @@ title: PageInfo Class
 linktitle: PageInfo
 articleTitle: PageInfo
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Rendering.PageInfo classe. Rappresenta informazioni su una particolare pagina del documento in C#.
+description: Scopri la classe Aspose.Words.Rendering.PageInfo, che fornisce dettagli essenziali su ciascuna pagina del documento, migliorando l'esperienza di rendering dei documenti.
 type: docs
-weight: 4570
+weight: 5300
 url: /it/net/aspose.words.rendering/pageinfo/
 ---
 ## PageInfo class
@@ -25,8 +25,8 @@ public class PageInfo
 | [Colored](../../aspose.words.rendering/pageinfo/colored/) { get; } | Restituisce`VERO` se la pagina contiene contenuti colorati. |
 | [HeightInPoints](../../aspose.words.rendering/pageinfo/heightinpoints/) { get; } | Ottiene l'altezza della pagina in punti. |
 | [Landscape](../../aspose.words.rendering/pageinfo/landscape/) { get; } | Restituisce`VERO` se l'orientamento della pagina specificato nel documento per questa pagina è orizzontale. |
-| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Ottiene la dimensione del foglio come enumerazione. |
-| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Ottiene il vassoio della carta (contenitore) per questa pagina come specificato nel documento. Il valore è specifico dell'implementazione (stampante). |
+| [PaperSize](../../aspose.words.rendering/pageinfo/papersize/) { get; } | Ottiene il formato della carta come enumerazione. |
+| [PaperTray](../../aspose.words.rendering/pageinfo/papertray/) { get; } | Ottiene il vassoio della carta (cestino) per questa pagina come specificato nel documento. Il valore è specifico dell'implementazione (stampante). |
 | [SizeInPoints](../../aspose.words.rendering/pageinfo/sizeinpoints/) { get; } | Ottiene la dimensione della pagina in punti. |
 | [WidthInPoints](../../aspose.words.rendering/pageinfo/widthinpoints/) { get; } | Ottiene la larghezza della pagina in punti. |
 
@@ -34,10 +34,10 @@ public class PageInfo
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | Ottiene il filePaperSize oggetto adatto a stampare la pagina rappresentata da questo`PageInfo` . |
+| [GetDotNetPaperSize](../../aspose.words.rendering/pageinfo/getdotnetpapersize/)(*PaperSizeCollection*) | Ottiene ilPaperSize oggetto adatto per stampare la pagina rappresentata da questo`PageInfo` . |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels)(*float, float*) | Calcola la dimensione della pagina in pixel per un fattore di zoom e una risoluzione specificati. |
 | [GetSizeInPixels](../../aspose.words.rendering/pageinfo/getsizeinpixels/#getsizeinpixels_1)(*float, float, float*) | Calcola la dimensione della pagina in pixel per un fattore di zoom e una risoluzione specificati. |
-| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | Ottiene il filePaperSource oggetto adatto a stampare la pagina rappresentata da questo`PageInfo` . |
+| [GetSpecifiedPrinterPaperSource](../../aspose.words.rendering/pageinfo/getspecifiedprinterpapersource/)(*PaperSourceCollection, PaperSource*) | Ottiene ilPaperSource oggetto adatto per stampare la pagina rappresentata da questo`PageInfo` . |
 
 ## Osservazioni
 
@@ -45,13 +45,13 @@ La larghezza e l'altezza della pagina restituite da questo oggetto rappresentano
 
 ## Esempi
 
-Mostra come stampare le informazioni sulle dimensioni e sull'orientamento della pagina per ogni pagina di un documento Word.
+Mostra come stampare le informazioni relative alle dimensioni e all'orientamento della pagina per ogni pagina di un documento Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// La prima sezione ha 2 pagine. Assegneremo a ciascuno un vassoio carta diverso per la stampante,
-// il cui numero corrisponderà a un tipo di origine cartacea. Queste fonti e i loro tipi varieranno
+// La prima sezione è composta da 2 pagine. Assegneremo a ciascuna un vassoio carta diverso,
+// il cui numero corrisponderà a un tipo di fonte cartacea. Queste fonti e i loro tipi varieranno
 // a seconda del driver della stampante installato.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 

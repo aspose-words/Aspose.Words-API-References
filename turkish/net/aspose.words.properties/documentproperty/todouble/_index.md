@@ -2,8 +2,8 @@
 title: DocumentProperty.ToDouble
 linktitle: ToDouble
 articleTitle: ToDouble
-second_title: Aspose.Words for .NET
-description: DocumentProperty ToDouble yöntem. Özellik değerini double olarak döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: ToDouble metoduyla DocumentProperty değerlerini zahmetsizce iki katına dönüştürün. Uygulamalarınız için hassas veri işlemeyi bugün açın!
 type: docs
 weight: 90
 url: /tr/net/aspose.words.properties/documentproperty/todouble/
@@ -18,7 +18,7 @@ public double ToDouble()
 
 ## Notlar
 
-Özellik türü değilse bir istisna atarNumber .
+Özellik türü uygun değilse bir istisna atarNumber .
 
 ## Örnekler
 

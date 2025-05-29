@@ -3,14 +3,14 @@ title: FormField.CheckBoxSize
 linktitle: CheckBoxSize
 articleTitle: CheckBoxSize
 second_title: Aspose.Words для .NET
-description: FormField CheckBoxSize свойство. Получает или задает размер флажка в пунктах. Имеет эффект только тогда когдаIsCheckBoxExactSize являетсяистинный  на С#.
+description: Откройте для себя свойство CheckBoxSize FormField, позволяющее настраивать размеры флажков в пунктах и улучшать формы при включении IsCheckBoxExactSize.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/formfield/checkboxsize/
 ---
 ## FormField.CheckBoxSize property
 
-Получает или задает размер флажка в пунктах. Имеет эффект только тогда, когда[`IsCheckBoxExactSize`](../ischeckboxexactsize/) является`истинный` .
+Получает или задает размер флажка в пунктах. Действует только когда[`IsCheckBoxExactSize`](../ischeckboxexactsize/) является`истинный` .
 
 ```csharp
 public double CheckBoxSize { get; set; }
@@ -18,11 +18,11 @@ public double CheckBoxSize { get; set; }
 
 ## Примечания
 
-Применимо только для поля формы флажка.
+Применимо только для поля формы с флажком.
 
 ## Примеры
 
-Показывает, как вставлять в документ различные типы полей формы и обрабатывать их с помощью реализации посетителя документа.
+Показывает, как вставлять различные виды полей формы в документ и обрабатывать их с помощью реализации посетителя документа.
 
 ```csharp
 public void Visitor()
@@ -30,7 +30,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Используйте конструктор документов, чтобы вставить поле со списком.
+    // Используйте конструктор документов для вставки поля со списком.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -40,7 +40,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // Используйте конструктор документов, чтобы вставить флажок.
+    // Используйте конструктор документов для вставки флажка.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -69,7 +69,7 @@ public void Visitor()
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // Поля отображают поля нашей формы. Мы можем увидеть их коды полей, открыв этот документ.
+    // Поля отображают наши поля формы. Мы можем увидеть их коды полей, открыв этот документ
     // в Microsoft и нажав Alt + F9. Эти поля не имеют переключателей,
     // и члены объекта FormField полностью управляют содержимым своих полей формы.
     Assert.AreEqual(3, doc.Range.Fields.Count);
@@ -91,7 +91,7 @@ public void Visitor()
 }
 
 /// <summary>
- /// Реализация посетителя, которая печатает подробную информацию о полях формы, которые он посещает.
+ /// Реализация посетителя, которая печатает сведения о полях формы, которые он посещает.
 /// </summary>
 public class FormFieldVisitor : DocumentVisitor
 {
@@ -132,7 +132,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляет текст, заканчивающийся символом новой строки, в текущий вывод.
+    /// Добавляет текст, завершающийся символом новой строки, к текущему выводу.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -140,7 +140,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {

@@ -3,9 +3,9 @@ title: FileFormatInfo.LoadFormat
 linktitle: LoadFormat
 articleTitle: LoadFormat
 second_title: Aspose.Words для .NET
-description: FileFormatInfo LoadFormat свойство. Получает обнаруженный формат документа на С#.
+description: Откройте для себя свойство FileFormatInfo LoadFormat, чтобы легко идентифицировать и получать доступ к обнаруженным форматам документов для бесперебойного управления файлами.
 type: docs
-weight: 40
+weight: 50
 url: /ru/net/aspose.words/fileformatinfo/loadformat/
 ---
 ## FileFormatInfo.LoadFormat property
@@ -18,17 +18,17 @@ public LoadFormat LoadFormat { get; }
 
 ## Примечания
 
-Когда документ OOXML зашифрован, невозможно определить, является ли он документом Excel, Word или PowerPoint, не расшифровав его предварительно, поэтому для зашифрованного документа OOXML это свойство всегда будет возвращать значение.Docx.
+Если документ OOXML зашифрован, невозможно определить, является ли он документом Excel, Word или PowerPoint, не расшифровав его предварительно, поэтому для зашифрованного документа OOXML это свойство всегда будет возвращатьDocx.
 
 ## Примеры
 
-Показывает, как использовать класс FileFormatUtil для определения формата и шифрования документа.
+Показывает, как использовать класс FileFormatUtil для определения формата документа и шифрования.
 
 ```csharp
 Document doc = new Document();
 
-// Настраиваем объект SaveOptions для шифрования документа
-// с паролем, когда мы его сохраняем, а затем сохраняем документ.
+// Настройте объект SaveOptions для шифрования документа
+// с паролем при сохранении, а затем сохраняем документ.
 OdtSaveOptions saveOptions = new OdtSaveOptions(SaveFormat.Odt);
 saveOptions.Password = "MyPassword";
 
@@ -44,15 +44,16 @@ Assert.True(info.IsEncrypted);
 Показывает, как использовать класс FileFormatUtil для определения формата документа и наличия цифровых подписей.
 
 ```csharp
-// Используйте экземпляр FileFormatInfo, чтобы убедиться, что документ не имеет цифровой подписи.
+// Используйте экземпляр FileFormatInfo, чтобы проверить, что документ не имеет цифровой подписи.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
 Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
 Assert.False(info.HasDigitalSignature);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
+SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDigitalSignatures.docx",
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now });
+    certificateHolder, signOptions);
 
 // Используйте новый FileFormatInstance, чтобы подтвердить, что он подписан.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
@@ -66,7 +67,7 @@ Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.Dete
 Показывает, как использовать методы FileFormatUtil для определения формата документа.
 
 ```csharp
-// Загрузите документ из файла, у которого отсутствует расширение файла, а затем определите его формат файла.
+// Загрузить документ из файла, у которого отсутствует расширение, а затем определить формат файла.
 using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing file extension"))
 {
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
@@ -74,15 +75,15 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
 
     Assert.AreEqual(LoadFormat.Doc, loadFormat);
 
-    // Ниже приведены два метода преобразования LoadFormat в соответствующий SaveFormat.
-    // 1 — Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
+    // Ниже приведены два метода преобразования LoadFormat в соответствующий ему SaveFormat.
+    // 1 - Получить строку расширения файла для LoadFormat, затем получить соответствующий SaveFormat из этой строки:
     string fileExtension = FileFormatUtil.LoadFormatToExtension(loadFormat);
     SaveFormat saveFormat = FileFormatUtil.ExtensionToSaveFormat(fileExtension);
 
-    // 2 — преобразовать LoadFormat непосредственно в его SaveFormat:
+    // 2 - Преобразовать LoadFormat непосредственно в его SaveFormat:
     saveFormat = FileFormatUtil.LoadFormatToSaveFormat(loadFormat);
 
-    // Загрузите документ из потока, а затем сохраните его с автоматически определенным расширением файла.
+    // Загружаем документ из потока, а затем сохраняем его в автоматически обнаруженном расширении файла.
     Document doc = new Document(docStream);
 
     Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));

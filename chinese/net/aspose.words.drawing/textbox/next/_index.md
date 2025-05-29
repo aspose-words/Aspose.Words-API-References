@@ -2,15 +2,15 @@
 title: TextBox.Next
 linktitle: Next
 articleTitle: Next
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox Next 财产. 返回或设置TextBox代表下一个TextBox以一系列形状 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TextBox Next 属性如何通过在项目中无缝链接 TextBox 来增强您的设计工作流程，从而改善组织。
 type: docs
 weight: 70
 url: /zh/net/aspose.words.drawing/textbox/next/
 ---
 ## TextBox.Next property
 
-返回或设置[`TextBox`](../)代表下一个[`TextBox`](../)以一系列形状.
+返回或设置[`TextBox`](../)代表下一个[`TextBox`](../)按照形状序列排列。
 
 ```csharp
 public TextBox Next { get; set; }
@@ -18,7 +18,7 @@ public TextBox Next { get; set; }
 
 ## 例子
 
-展示如何链接文本框。
+显示如何链接文本框。
 
 ```csharp
 Document doc = new Document();
@@ -46,7 +46,7 @@ if (textBox1.IsValidLinkTarget(textBox2))
 if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
-// 只有空文本框才可以有链接。
+// 只有空文本框才可能有链接。
 Assert.True(textBox3.IsValidLinkTarget(textBox4));
 
 builder.MoveTo(textBoxShape4.LastParagraph);
@@ -64,9 +64,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 {
     Console.WriteLine("This TextBox is the tail of the sequence");
 
-    // 断开textBox2和textBox3之间的前向链接，然后验证它们不再链接。
+    // 断开 textBox2 和 textBox3 之间的前向链接，然后验证它们不再链接。
     textBox3.Previous.BreakForwardLink();
-
     Assert.IsTrue(textBox2.Next == null);
     Assert.IsTrue(textBox3.Previous == null);
 }

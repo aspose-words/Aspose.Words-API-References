@@ -3,14 +3,14 @@ title: Cluster
 linktitle: Cluster
 articleTitle: Cluster
 second_title: Aspose.Words لـ .NET
-description: Cluster البناء. تهيئة المثيل الجديد لهذه الفئة في C#.
+description: أنشئ مجموعات قوية بسهولة باستخدام مُنشئنا. عزز كفاءة مشروعك وقابليته للتوسع اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.shaping/cluster/cluster/
 ---
 ## Cluster constructor
 
-تهيئة المثيل الجديد لهذه الفئة.
+يقوم بتهيئة مثيل جديد لهذه الفئة.
 
 ```csharp
 public Cluster(int[] codepoints, Glyph[] glyphs)
@@ -18,8 +18,8 @@ public Cluster(int[] codepoints, Glyph[] glyphs)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| codepoints | Int32[] | مجموعة من نقاط Unicode التي تشكل حرفًا. |
-| glyphs | Glyph[] | مصفوفة من[`Glyph`](../../glyph/)&gt; تأليف حرف . |
+| codepoints | Int32[] | مجموعة من نقاط Unicode التي تشكل رسمًا بيانيًا. |
+| glyphs | Glyph[] | مجموعة من[`Glyph`](../../glyph/)&gt;تأليف رسم بياني. |
 
 ### أنظر أيضا
 

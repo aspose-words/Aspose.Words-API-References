@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.LastPrinted
 linktitle: LastPrinted
 articleTitle: LastPrinted
 second_title: Aspose.Words för .NET
-description: BuiltInDocumentProperties LastPrinted fast egendom. Hämtar eller ställer in datumet när dokumentet senast skrevs ut i UTC i C#.
+description: Upptäck funktionen LastPrinted i BuiltInDocumentProperties för att enkelt spåra ditt dokuments senaste utskriftsdatum i UTC. Förbättra ditt arbetsflöde idag!
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.properties/builtindocumentproperties/lastprinted/
 ---
 ## BuiltInDocumentProperties.LastPrinted property
 
-Hämtar eller ställer in datumet när dokumentet senast skrevs ut i UTC.
+Hämtar eller ställer in datumet då dokumentet senast trycktes i UTC.
 
 ```csharp
 public DateTime LastPrinted { get; set; }
@@ -18,9 +18,9 @@ public DateTime LastPrinted { get; set; }
 
 ## Anmärkningar
 
-För dokument som kommer från RTF-format returnerar denna egenskap den lokala tiden för senaste utskrift.
+För dokument som kommer från RTF-format returnerar den här egenskapen den lokala tiden för den senaste utskriften.
 
-Om dokumentet aldrig skrevs ut kommer den här egenskapen att returnera DateTime.MinValue.
+Om dokumentet aldrig skrevs ut returnerar den här egenskapen DateTime.MinValue.
 
 Aspose.Words uppdaterar inte den här egenskapen.
 
@@ -35,14 +35,14 @@ BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 
 // Följande inbyggda egenskaper innehåller information om skapandet och redigeringen av detta dokument.
 // Vi kan högerklicka på det här dokumentet i Utforskaren och hitta
-// dessa egenskaper via "Egenskaper" -> "Detaljer" -> "Ursprung" kategori.
+// dessa egenskaper via kategorin "Egenskaper" -> "Detaljer" -> "Ursprung".
 // Fält som PRINTDATE och EDITTIME kan visa dessa värden i dokumentets brödtext.
 Console.WriteLine($"Created using {properties.NameOfApplication}, on {properties.CreatedTime}");
 Console.WriteLine($"Minutes spent editing: {properties.TotalEditingTime}");
 Console.WriteLine($"Date/time last printed: {properties.LastPrinted}");
 Console.WriteLine($"Template document: {properties.Template}");
 
-// Vi kan också ändra värden på inbyggda fastigheter.
+// Vi kan också ändra värdena för inbyggda egenskaper.
 properties.Company = "Doe Ltd.";
 properties.Manager = "Jane Doe";
 properties.Version = 5;

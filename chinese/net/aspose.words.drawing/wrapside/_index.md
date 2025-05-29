@@ -2,10 +2,10 @@
 title: WrapSide Enum
 linktitle: WrapSide
 articleTitle: WrapSide
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.WrapSide 枚举. 指定文本环绕形状或图片的哪一侧 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.WrapSide 枚举来控制环绕形状和图像的文本，增强文档布局和可读性。
 type: docs
-weight: 1390
+weight: 1800
 url: /zh/net/aspose.words.drawing/wrapside/
 ---
 ## WrapSide enumeration
@@ -21,14 +21,14 @@ public enum WrapSide
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Both | `0` | 文档文本在形状的两侧换行。 |
-| Left | `1` | 文档文本仅在形状的左侧换行。形状右侧有一个无文本区域。 |
-| Right | `2` | 文档文本仅在形状的右侧换行。形状左侧有一个无文本区域。 |
-| Largest | `3` | 文档文本在距离页边距最远的形状一侧换行，在形状的另一侧留下文本自由区域。 |
+| Left | `1` | 文档文本仅在形状左侧换行。形状右侧有一个无文本区域。 |
+| Right | `2` | 文档文本仅在形状右侧换行。形状左侧有一个无文本区域。 |
+| Largest | `3` | 文档文本在形状距离页边距最远的一侧换行，在形状的另一侧留下空白区域。 |
 | Default | `0` | 默认值为Both. |
 
 ## 例子
 
-演示如何用图像形状替换所有文本框形状。
+展示如何用图像形状替换所有文本框形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

@@ -3,7 +3,7 @@ title: PlainTextDocument
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
 second_title: Aspose.Words para .NET
-description: PlainTextDocument constructor. Crea un documento de texto sin formato a partir de un archivo. Detecta automáticamente el formato del archivo en C#.
+description: Crea fácilmente documentos de texto plano con nuestro constructor PlainTextDocument. ¡Disfruta de la detección automática del formato de archivo para una integración perfecta!
 type: docs
 weight: 10
 url: /es/net/aspose.words/plaintextdocument/plaintextdocument/
@@ -18,17 +18,17 @@ public PlainTextDocument(string fileName)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fileName | String | Nombre del archivo del que extraer el texto. |
+| fileName | String | Nombre del archivo del cual extraer el texto. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no se admite. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no es reconocido o no es compatible. |
 | [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
-| Exception | Hay un problema con el documento y se debe informar a los desarrolladores de Aspose.Words. |
+| Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
 ## Ejemplos
@@ -57,7 +57,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
-Crea un documento de texto sin formato a partir de un archivo. Permite especificar opciones adicionales como una contraseña de cifrado.
+Crea un documento de texto sin formato a partir de un archivo. Permite especificar opciones adicionales, como una contraseña de cifrado.
 
 ```csharp
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
@@ -65,18 +65,18 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| fileName | String | Nombre del archivo del que extraer el texto. |
+| fileName | String | Nombre del archivo del cual extraer el texto. |
 | loadOptions | LoadOptions | Opciones adicionales para usar al cargar un documento. Puede ser`nulo`. |
 
 ### Excepciones
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no se admite. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no es reconocido o no es compatible. |
 | [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
-| Exception | Hay un problema con el documento y se debe informar a los desarrolladores de Aspose.Words. |
+| Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero usted proporcionó una contraseña incorrecta. |
 | ArgumentException | El nombre del archivo no puede ser una cadena nula o vacía. |
 
 ## Ejemplos
@@ -126,22 +126,22 @@ public PlainTextDocument(Stream stream)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no se admite. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no es reconocido o no es compatible. |
 | [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
-| Exception | Hay un problema con el documento y se debe informar a los desarrolladores de Aspose.Words. |
+| Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
-| ArgumentNullException | La secuencia no puede ser nula. |
-| NotSupportedException | La transmisión no admite lectura ni búsqueda. |
-| ObjectDisposedException | El arroyo es un objeto desechado. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero usted proporcionó una contraseña incorrecta. |
+| ArgumentNullException | El flujo no puede ser nulo. |
+| NotSupportedException | El stream no admite ni lectura ni búsqueda. |
+| ObjectDisposedException | El arroyo es un objeto dispuesto. |
 
 ## Observaciones
 
-El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
+El documento debe almacenarse al inicio de la secuencia. La secuencia debe permitir posicionamiento aleatorio.
 
 ## Ejemplos
 
-Muestra cómo cargar el contenido de un documento de Microsoft Word en texto sin formato usando Stream.
+Muestra cómo cargar el contenido de un documento de Microsoft Word en texto simple mediante secuencias.
 
 ```csharp
 Document doc = new Document();
@@ -168,7 +168,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
-Crea un documento de texto sin formato a partir de una secuencia. Permite especificar opciones adicionales como una contraseña de cifrado.
+Crea un documento de texto sin formato a partir de una secuencia. Permite especificar opciones adicionales, como una contraseña de cifrado.
 
 ```csharp
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
@@ -183,22 +183,22 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | excepción | condición |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no se reconoce o no se admite. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | El formato del documento no es reconocido o no es compatible. |
 | [FileCorruptedException](../../filecorruptedexception/) | El documento parece estar dañado y no se puede cargar. |
-| Exception | Hay un problema con el documento y se debe informar a los desarrolladores de Aspose.Words. |
+| Exception | Hay un problema con el documento y debe informarse a los desarrolladores de Aspose.Words. |
 | IOException | Hay una excepción de entrada/salida. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está cifrado y requiere una contraseña para abrirse, pero usted proporcionó una contraseña incorrecta. |
-| ArgumentNullException | La secuencia no puede ser nula. |
-| NotSupportedException | La transmisión no admite lectura ni búsqueda. |
-| ObjectDisposedException | El arroyo es un objeto desechado. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | El documento está encriptado y requiere una contraseña para abrirlo, pero usted proporcionó una contraseña incorrecta. |
+| ArgumentNullException | El flujo no puede ser nulo. |
+| NotSupportedException | El stream no admite ni lectura ni búsqueda. |
+| ObjectDisposedException | El arroyo es un objeto dispuesto. |
 
 ## Observaciones
 
-El documento debe almacenarse al comienzo de la secuencia. La transmisión debe admitir el posicionamiento aleatorio.
+El documento debe almacenarse al inicio de la secuencia. La secuencia debe permitir posicionamiento aleatorio.
 
 ## Ejemplos
 
-Muestra cómo cargar el contenido de un documento cifrado de Microsoft Word en texto sin formato mediante streaming.
+Muestra cómo cargar el contenido de un documento cifrado de Microsoft Word en texto simple mediante secuencias.
 
 ```csharp
 Document doc = new Document();

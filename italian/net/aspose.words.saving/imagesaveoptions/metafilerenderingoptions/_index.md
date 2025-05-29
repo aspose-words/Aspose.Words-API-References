@@ -3,14 +3,14 @@ title: ImageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words per .NET
-description: ImageSaveOptions MetafileRenderingOptions proprietà. Permette di specificare come vengono trattati i metafile nelloutput renderizzato in C#.
+description: Scopri la proprietà MetafileRenderingOptions di ImageSaveOptions per controllare la gestione dei metafile nell'output renderizzato, per una migliore qualità dell'immagine.
 type: docs
 weight: 90
 url: /it/net/aspose.words.saving/imagesaveoptions/metafilerenderingoptions/
 ---
 ## ImageSaveOptions.MetafileRenderingOptions property
 
-Permette di specificare come vengono trattati i metafile nell'output renderizzato.
+Consente di specificare come vengono trattati i metafile nell'output renderizzato.
 
 ```csharp
 public MetafileRenderingOptions MetafileRenderingOptions { get; }
@@ -18,11 +18,11 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; }
 
 ## Osservazioni
 
-QuandoVector è specificato, Aspose.Words esegue il rendering del metafile in grafica vettoriale utilizzando prima il proprio motore di rendering del metafile, quindi esegue il rendering della grafica vettoriale nell'immagine.
+QuandoVector se specificato, Aspose.Words esegue prima il rendering del metafile in grafica vettoriale utilizzando il proprio motore di rendering dei metafile e poi esegue il rendering della grafica vector nell'immagine.
 
-QuandoBitmap è specificato, Aspose.Words renders metafile direttamente nell'immagine utilizzando il motore di rendering dei metafile GDI+.
+QuandoBitmap se specificato, Aspose.Words esegue il rendering del metafile direttamente nell'immagine utilizzando il motore di rendering dei metafile GDI+.
 
-Il motore di rendering dei metafile GDI+ funziona più velocemente, supporta quasi tutte le funzionalità dei metafile ma a risoluzioni basse potrebbe produrre risultati incoerenti rispetto al resto della grafica vettoriale (specialmente per il testo) sulla pagina. Il motore di rendering dei metafile Aspose.Words produrrà risultati più coerenti even su risoluzioni basse ma funziona più lentamente e potrebbe eseguire il rendering in modo impreciso di metafile complessi.
+Il motore di rendering dei metafile GDI+ è più veloce e supporta quasi tutte le funzionalità dei metafile, ma a basse risoluzioni potrebbe produrre risultati incoerenti rispetto al resto della grafica vettoriale (soprattutto per il testo) presente sulla pagina. Il motore di rendering dei metafile Aspose.Words produrrà risultati più coerenti anche a basse risoluzioni, ma è più lento e potrebbe rendere in modo impreciso i metafile complessi.
 
 Il valore predefinito per[`MetafileRenderingMode`](../../metafilerenderingmode/) ÈBitmap.
 
@@ -34,13 +34,13 @@ Mostra come impostare la modalità di rendering quando si salvano documenti con 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-builder.InsertImage(Image.FromFile(ImageDir + "Windows MetaFile.wmf"));
+builder.InsertImage(ImageDir + "Windows MetaFile.wmf");
 
 // Quando salviamo il documento come immagine, possiamo passare un oggetto SaveOptions a
-// determina in che modo l'operazione di salvataggio elaborerà i metafile di Windows nel documento.
+// determina come l'operazione di salvataggio elaborerà i metafile di Windows nel documento.
 // Se impostiamo la proprietà "RenderingMode" su "MetafileRenderingMode.Vector",
-// o "MetafileRenderingMode.VectorWithFallback", eseguiremo il rendering di tutti i metafile come grafica vettoriale.
-// Se impostiamo la proprietà "RenderingMode" su "MetafileRenderingMode.Bitmap", renderemo tutti i metafile come bitmap.
+// o "MetafileRenderingMode.VectorWithFallback", renderemo tutti i metafile come grafica vettoriale.
+// Se impostiamo la proprietà "RenderingMode" su "MetafileRenderingMode.Bitmap", tutti i metafile verranno renderizzati come bitmap.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Png);
 options.MetafileRenderingOptions.RenderingMode = metafileRenderingMode;
 // Aspose.Words utilizza GDI+ per l'emulazione delle operazioni raster, quando il valore è impostato su true.

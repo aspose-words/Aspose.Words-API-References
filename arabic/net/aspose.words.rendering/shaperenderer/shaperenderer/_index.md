@@ -3,14 +3,14 @@ title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words لـ .NET
-description: ShapeRenderer البناء. تهيئة مثيل جديد لهذه الفئة في C#.
+description: اكتشف منشئ ShapeRenderer لإنشاء الأشكال وتخصيصها بسهولة في مشاريعك، مما يعزز الجاذبية البصرية والوظائف.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.rendering/shaperenderer/shaperenderer/
 ---
 ## ShapeRenderer constructor
 
-تهيئة مثيل جديد لهذه الفئة.
+يقوم بتهيئة مثيل جديد لهذه الفئة.
 
 ```csharp
 public ShapeRenderer(ShapeBase shape)
@@ -22,7 +22,7 @@ public ShapeRenderer(ShapeBase shape)
 
 ## أمثلة
 
-يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
+يوضح كيفية عرض شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,8 +32,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومي.
-    // 1 - قم بإنشاء شكل باستخدام مخطط، ثم قم بعرضه على مقياس محدد.
+    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لعرض شكل إلى كائن رسومي.
+    // 1 - إنشاء شكل باستخدام مخطط، ثم تقديمه بمقياس محدد.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -44,7 +44,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - إنشاء مجموعة أشكال، وعرضها بحجم محدد.
+    // 2 - إنشاء مجموعة أشكال، ثم تقديمها إلى حجم معين.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -74,7 +74,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// يعرض ويعرض قائمة من الأشكال.
+/// يقوم بمعالجة وعرض قائمة من الأشكال.
 /// </summary>
 private class ShapeForm : Form
 {

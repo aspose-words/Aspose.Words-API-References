@@ -3,14 +3,14 @@ title: Node.GetAncestor
 linktitle: GetAncestor
 articleTitle: GetAncestor
 second_title: Aspose.Words لـ .NET
-description: Node GetAncestor طريقة. الحصول على السلف الأول لنوع الكائن المحدد في C#.
+description: اكتشف طريقة Node GetAncestor لاسترداد السلف الأول لنوع كائن محدد بسهولة، مما يعزز كفاءة ودقة الترميز لديك.
 type: docs
 weight: 110
 url: /ar/net/aspose.words/node/getancestor/
 ---
 ## GetAncestor(*Type*) {#getancestor_1}
 
-الحصول على السلف الأول لنوع الكائن المحدد.
+يحصل على السلف الأول لنوع الكائن المحدد.
 
 ```csharp
 public CompositeNode GetAncestor(Type ancestorType)
@@ -18,7 +18,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| ancestorType | Type | نوع كائن السلف الذي سيتم استرداده. |
+| ancestorType | Type | نوع الكائن السلف الذي سيتم استرجاعه. |
 
 ### قيمة الإرجاع
 
@@ -26,7 +26,7 @@ public CompositeNode GetAncestor(Type ancestorType)
 
 ## ملاحظات
 
-يتطابق نوع السلف إذا كان يساوي*ancestorType* أو مشتقة من*ancestorType*.
+يتطابق نوع السلف إذا كان مساويًا لـ*ancestorType* أو مشتقة من*ancestorType*.
 
 ## أمثلة
 
@@ -41,11 +41,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كأطفال.
+        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كخلايا فرعية.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فما هو العمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -57,10 +57,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
+/// يحسب مستوى الجدول المتداخل داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
-/// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
+/// عدد صحيح يشير إلى عمق التعشيش للجدول (عدد عقد الجدول الرئيسي).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -77,20 +77,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
-/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
+/// يحدد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالمرور بشكل متكرر عبر هذه الجداول للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
-/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يعود صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يتم إرجاع القيمة false إذا لم تحتوي أي خلايا في الجدول على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 
@@ -114,7 +114,7 @@ private static int GetChildTableCount(Table table)
 
 ## GetAncestor(*[NodeType](../../nodetype/)*) {#getancestor}
 
-يحصل على السلف الأول للمحدد[`NodeType`](../../nodetype/) .
+يحصل على السلف الأول للعنصر المحدد[`NodeType`](../../nodetype/) .
 
 ```csharp
 public CompositeNode GetAncestor(NodeType ancestorType)
@@ -122,7 +122,7 @@ public CompositeNode GetAncestor(NodeType ancestorType)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| ancestorType | NodeType | نوع عقدة السلف المطلوب استرداده. |
+| ancestorType | NodeType | نوع العقدة السلفية التي سيتم استرجاعها. |
 
 ### قيمة الإرجاع
 
@@ -141,11 +141,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كأطفال.
+        // اكتشف ما إذا كانت أي خلايا في الجدول تحتوي على جداول أخرى كخلايا فرعية.
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فبأي عمق.
+        // اكتشف ما إذا كان الجدول متداخلاً داخل جدول آخر، وإذا كان الأمر كذلك، فما هو العمق.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -157,10 +157,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// يحسب مستوى تداخل الجدول داخل الجداول الأخرى.
+/// يحسب مستوى الجدول المتداخل داخل الجداول الأخرى.
 /// </summary>
 /// <returns>
-/// عدد صحيح يشير إلى عمق تداخل الجدول (عدد عقد الجدول الأصل).
+/// عدد صحيح يشير إلى عمق التعشيش للجدول (عدد عقد الجدول الرئيسي).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -177,20 +177,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// تحديد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
-/// لا تقم بالتنقل عبر تلك الجداول بشكل متكرر للتحقق من وجود جداول أخرى.
+/// يحدد ما إذا كان الجدول يحتوي على أي جدول فرعي مباشر داخل خلاياه.
+/// لا تقم بالمرور بشكل متكرر عبر هذه الجداول للتحقق من وجود جداول أخرى.
 /// </summary>
 /// <returns>
-/// يُرجع صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
-/// يُرجع خطأ إذا لم تكن هناك خلايا في الجدول تحتوي على جدول.
+/// يعود صحيحًا إذا كانت هناك خلية فرعية واحدة على الأقل تحتوي على جدول.
+/// يتم إرجاع القيمة false إذا لم تحتوي أي خلايا في الجدول على جدول.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

@@ -3,14 +3,14 @@ title: ChartYValue.FromTimeSpan
 linktitle: FromTimeSpan
 articleTitle: FromTimeSpan
 second_title: Aspose.Words لـ .NET
-description: ChartYValue FromTimeSpan طريقة. إنشاء ملفChartYValue مثال علىTime اكتب في C#.
+description: اكتشف طريقة ChartYValue FromTimeSpan لإنشاء مثيلات من نوع الوقت لمخططاتك بسهولة. حسّن تصور بياناتك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.drawing.charts/chartyvalue/fromtimespan/
 ---
 ## ChartYValue.FromTimeSpan method
 
-إنشاء ملف[`ChartYValue`](../) مثال علىTime اكتب.
+ينشئ[`ChartYValue`](../) مثال على ذلكTime النوع.
 
 ```csharp
 public static ChartYValue FromTimeSpan(TimeSpan value)

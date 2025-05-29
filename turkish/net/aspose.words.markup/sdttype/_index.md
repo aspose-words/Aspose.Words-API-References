@@ -2,10 +2,10 @@
 title: SdtType Enum
 linktitle: SdtType
 articleTitle: SdtType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Markup.SdtType Sıralama. Yapılandırılmış belge etiketi SDT düğümünün türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş belge yönetimi ve sorunsuz iş akışları için yapılandırılmış belge etiketi türlerini tanımlayan Aspose.Words.Markup.SdtType enum'unu keşfedin.
 type: docs
-weight: 4040
+weight: 4730
 url: /tr/net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -20,25 +20,46 @@ public enum SdtType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| None | `0` | SDT'ye hiçbir tür atanmadı. |
-| Bibliography | `1` | SDT bir kaynakça girişini temsil eder. |
-| Citation | `2` | SDT bir alıntıyı temsil eder. |
+| None | `0` | SDT'ye hiçbir tür atanmamıştır. |
+| Bibliography | `1` | SDT bir bibliyografya girişini temsil eder. |
+| Citation | `2` | SDT bir atıfı temsil eder. |
 | Equation | `3` | SDT bir denklemi temsil eder. |
 | DropDownList | `4` | SDT, belgede görüntülendiğinde bir açılır listeyi temsil eder. |
-| ComboBox | `5` | SDT, belgede görüntülendiğinde bir birleşik giriş kutusunu temsil eder. |
+| ComboBox | `5` | SDT, belgede görüntülendiğinde bir birleşik kutuyu temsil eder. |
 | Date | `6` | SDT, belgede görüntülendiğinde bir tarih seçiciyi temsil eder. |
-| BuildingBlockGallery | `7` | SDT, bir yapı taşı galeri türünü temsil eder. |
-| DocPartObj | `8` | SDT, bir belge parçası türünü temsil eder. |
+| BuildingBlockGallery | `7` | SDT bir yapı bloğu galerisi türünü temsil eder. |
+| DocPartObj | `8` | SDT bir belge parçası türünü temsil eder. |
 | Group | `9` | SDT, belgede görüntülendiğinde kısıtlı bir gruplamayı temsil eder. |
 | Picture | `10` | SDT, belgede görüntülendiğinde bir resmi temsil eder. |
 | RichText | `11` | SDT, belgede görüntülendiğinde zengin bir metin kutusunu temsil eder. |
-| PlainText | `12` | SDT, belgede görüntülendiğinde düz bir metin kutusunu temsil eder. |
+| PlainText | `12` | SDT, belgede görüntülendiğinde düz metin kutusunu temsil eder. |
 | Checkbox | `13` | SDT, belgede görüntülendiğinde bir onay kutusunu temsil eder. |
-| RepeatingSection | `14` | SDT, belgede görüntülendiğinde yinelenen bölüm türünü temsil eder. |
-| RepeatingSectionItem | `15` | SDT yinelenen bölüm öğesini temsil eder. |
-| EntityPicker | `16` | SDT, kullanıcının harici içerik türünün bir örneğini seçmesine olanak tanıyan bir varlık seçiciyi temsil eder. |
+| RepeatingSection | `14` | SDT, belgede görüntülendiğinde tekrarlayan bölüm türünü temsil eder. |
+| RepeatingSectionItem | `15` | SDT tekrar eden bölüm öğesini temsil eder. |
+| EntityPicker | `16` | SDT, kullanıcının harici bir içerik türünün bir örneğini seçmesine olanak tanıyan bir varlık seçiciyi temsil eder. |
 
 ## Örnekler
+
+Citation türünde yapılandırılmış bir belge etiketinin nasıl oluşturulacağını gösterir.
+
+```csharp
+Document doc = new Document();
+
+StructuredDocumentTag sdt = new StructuredDocumentTag(doc, SdtType.Citation, MarkupLevel.Inline);
+Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
+paragraph.AppendChild(sdt);
+
+// Bir Alıntı alanı oluşturun.
+DocumentBuilder builder = new DocumentBuilder(doc);
+builder.MoveToParagraph(0, -1);
+builder.InsertField(@"CITATION Ath22 \l 1033 ", "(John Lennon, 2022)");
+
+// Alanı yapılandırılmış belge etiketine taşı.
+while (sdt.NextSibling != null)
+    sdt.AppendChild(sdt.NextSibling);
+
+doc.Save(ArtifactsDir + "StructuredDocumentTag.Citation.docx");
+```
 
 Satır düzeyinde grup yapılandırılmış belge etiketinin nasıl oluşturulacağını gösterir.
 
@@ -48,13 +69,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Table table = builder.StartTable();
 
-// Satır düzeyinde bir Grup yapılandırılmış belge etiketi oluşturun.
+// Satır düzeyinde Grup yapılandırılmış belge etiketi oluşturun.
 StructuredDocumentTag groupSdt = new StructuredDocumentTag(doc, SdtType.Group, MarkupLevel.Row);
 table.AppendChild(groupSdt);
 groupSdt.IsShowingPlaceholderText = false;
 groupSdt.RemoveAllChildren();
 
-// Yapılandırılmış belge etiketinin alt satırını oluşturun.
+// Yapılandırılmış belge etiketinin bir alt satırını oluştur.
 Row row = new Row(doc);
 groupSdt.AppendChild(row);
 
@@ -63,31 +84,31 @@ row.AppendChild(cell);
 
 builder.EndTable();
 
-// Hücre içeriğini ekleyin.
+// Hücre içeriğini ekle.
 cell.EnsureMinimum();
 builder.MoveTo(cell.LastParagraph);
 builder.Write("Lorem ipsum dolor.");
 
-//Tablodan sonra metni ekleyin.
+// Tablodan sonra metin ekle.
 builder.MoveTo(table.NextSibling);
 builder.Write("Nulla blandit nisi.");
 
 doc.Save(ArtifactsDir + "StructuredDocumentTag.SdtAtRowLevel.docx");
 ```
 
-İçerik kontrol öğelerine ilişkin stillerle nasıl çalışılacağını gösterir.
+İçerik kontrol öğeleri için stillerle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgeden yapılandırılmış belge etiketine stil uygulamanın iki yolu verilmiştir.
-// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygulayın:
+// Aşağıda, bir belgeden yapılandırılmış belge etiketine bir stil uygulamanın iki yolu bulunmaktadır.
+// 1 - Belgenin stil koleksiyonundan bir stil nesnesi uygula:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Belgedeki bir stile ada göre referans verin:
+// 2 - Belgedeki bir stile adıyla başvuruda bulunun:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 
@@ -109,7 +130,7 @@ foreach (Node node in tags)
 }
 ```
 
-Bir tablonun XML bölümündeki verilerle nasıl doldurulacağını gösterir.
+XML parçasındaki verilerle bir tablonun nasıl doldurulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -131,7 +152,7 @@ CustomXmlPart xmlPart = doc.CustomXmlParts.Add("Books",
         "</book>" +
     "</books>");
 
-// XML içeriğindeki veriler için başlıklar oluşturun.
+// XML içeriğinden veriler için başlıklar oluşturun.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Title");
@@ -140,15 +161,15 @@ builder.Write("Author");
 builder.EndRow();
 builder.EndTable();
 
-// İçinde yinelenen bölüm bulunan bir tablo oluşturun.
+// İçerisinde tekrar eden bir bölüm bulunan bir tablo oluştur.
 StructuredDocumentTag repeatingSectionSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSection, MarkupLevel.Row);
 repeatingSectionSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book", string.Empty);
 table.AppendChild(repeatingSectionSdt);
 
-// Yinelenen bölümün içine yinelenen bölüm öğesini ekleyin ve onu satır olarak işaretleyin.
-// Bu tabloda XML belgesinde bulabileceğimiz her öğe için bir satır bulunacaktır
-// "/books[1]/book" XPath'ı kullanarak, ki bunlardan üç tane var.
+// Tekrarlanan bölümün içine tekrarlanan bölüm öğesi ekle ve bunu bir satır olarak işaretle.
+// Bu tablo, XML belgesinde bulabileceğimiz her bir öğe için bir satıra sahip olacak
+// Üç tane olan "/books[1]/book" XPath'sini kullanarak.
 StructuredDocumentTag repeatingSectionItemSdt =
     new StructuredDocumentTag(doc, SdtType.RepeatingSectionItem, MarkupLevel.Row);
 repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
@@ -156,7 +177,7 @@ repeatingSectionSdt.AppendChild(repeatingSectionItemSdt);
 Row row = new Row(doc);
 repeatingSectionItemSdt.AppendChild(row);
 
-// XML verilerini her kitabın başlığı ve yazarı için oluşturulan tablo hücreleriyle eşleyin.
+// Her kitabın başlığı ve yazarı için oluşturulan tablo hücreleriyle XML verilerini eşle.
 StructuredDocumentTag titleSdt =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Cell);
 titleSdt.XmlMapping.SetMapping(xmlPart, "/books[1]/book[1]/title[1]", string.Empty);

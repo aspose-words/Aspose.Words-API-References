@@ -2,15 +2,15 @@
 title: FieldFormat.NumericFormat
 linktitle: NumericFormat
 articleTitle: NumericFormat
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldFormat NumericFormat 财产. 获取或设置应用于数字字段结果的格式对应开关 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldFormat NumericFormat 属性如何自定义数字字段结果，有效增强数据呈现和用户体验。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.fields/fieldformat/numericformat/
 ---
 ## FieldFormat.NumericFormat property
 
-获取或设置应用于数字字段结果的格式。对应\#开关.
+获取或设置应用于数值字段结果的格式。对应于 \# 开关。
 
 ```csharp
 public string NumericFormat { get; set; }
@@ -18,7 +18,7 @@ public string NumericFormat { get; set; }
 
 ## 例子
 
-展示如何设置字段结果的格式。
+显示如何格式化字段结果。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ Assert.AreEqual("= 2 + 3", field.GetFieldCode());
 Assert.AreEqual("5", field.Result);
 
 // 我们可以使用字段的属性将格式应用于字段的结果。
-// 下面是我们可以应用于字段结果的三种格式。
+// 以下是我们可以应用于字段结果的三种格式。
 // 1 - 数字格式：
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";

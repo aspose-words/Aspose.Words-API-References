@@ -2,8 +2,8 @@
 title: OdsoRecipientData
 linktitle: OdsoRecipientData
 articleTitle: OdsoRecipientData
-second_title: Aspose.Words for .NET
-description: OdsoRecipientData inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoRecipientData oluşturucusunu keşfedin – akıcı veri işleme için başvuracağınız çözüm. Verimli varsayılan oluşturucumuzla kodlamanızı basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.settings/odsorecipientdata/odsorecipientdata/

@@ -3,7 +3,7 @@ title: FieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: FieldCollection Remove método. Elimina el campo especificado de esta colección y del documento en C#.
+description: Elimine sin esfuerzo campos específicos de su documento con el método FieldCollection Remove, agilizando su proceso de gestión de datos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldcollection/remove/
@@ -40,7 +40,7 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
+A continuación se muestran cuatro formas de eliminar campos de una colección de campos.
 // 1 - Obtener un campo para eliminarse a sí mismo:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
@@ -54,7 +54,7 @@ Assert.AreEqual(4, fields.Count);
 fields.RemoveAt(2);
 Assert.AreEqual(3, fields.Count);
 
-// 4 - Elimina todos los campos de la colección a la vez:
+// 4 - Eliminar todos los campos de la colección a la vez:
 fields.Clear();
 Assert.AreEqual(0, fields.Count);
 ```

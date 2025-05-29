@@ -2,8 +2,8 @@
 title: FieldOptions.BuiltInTemplatesPaths
 linktitle: BuiltInTemplatesPaths
 articleTitle: BuiltInTemplatesPaths
-second_title: Aspose.Words for .NET
-description: FieldOptions BuiltInTemplatesPaths mülk. MS Word yerleşik şablonlarının yollarını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz belge oluşturma için FieldOptions BuiltInTemplatesPaths özelliğiyle MS Word'ün yerleşik şablon yollarının nasıl yönetileceğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
@@ -18,13 +18,13 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ## Notlar
 
-Bu özellik şu kişi tarafından kullanılır:[`FieldAutoText`](../../fieldautotext/) Ve[`FieldGlossary`](../../fieldglossary/) alanlarda referans verilen otomatik metin girişi bulunamazsa[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) şablon.
+Bu özellik tarafından kullanılıyor[`FieldAutoText`](../../fieldautotext/) Ve[`FieldGlossary`](../../fieldglossary/) alanlar, başvurulan otomatik metin girişi bulunmazsa[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) şablon.
 
-MS Word, varsayılan olarak yerleşik şablonları c:\Users\&lt;kullanıcı adı&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx ve C:\Users\&lt;kullanıcı adı&gt;\ konumunda saklar. AppData\Roaming\Microsoft\Templates\Normal.dotm dosyaları.
+Varsayılan olarak MS Word yerleşik şablonları c:\Users\&lt;kullanıcı adı&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx ve C:\Users\&lt;kullanıcı adı&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm dosyalarında depolar.
 
 ## Örnekler
 
-OTOMETİN ve SÖZLÜK alanlarıyla bir yapı taşının nasıl görüntüleneceğini gösterir.
+Bir yapı bloğunun AUTOTEXT ve GLOSSARY alanlarıyla nasıl görüntüleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -39,7 +39,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// Bir kaynak oluşturun ve bunu yapı taşımıza metin olarak ekleyin.
+// Bir kaynak oluşturup bunu yapı taşımıza metin olarak ekleyelim.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -52,14 +52,14 @@ doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu verilmiştir.
-// 1 - OTOMETİN alanını kullanma:
+// Aşağıda yapı taşımızın içeriğini görüntülemek için alanları kullanmanın iki yolu bulunmaktadır.
+// 1 - AUTOTEXT alanının kullanılması:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - SÖZLÜK alanını kullanma:
+// 2 - GLOSSARY alanının kullanılması:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

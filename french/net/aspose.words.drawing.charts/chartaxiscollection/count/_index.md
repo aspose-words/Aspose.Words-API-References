@@ -3,7 +3,7 @@ title: ChartAxisCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: ChartAxisCollection Count propriété. Obtient le nombre daxes dans cette collection en C#.
+description: Découvrez la propriété ChartAxisCollection Count pour accéder facilement au nombre total d'axes, améliorant ainsi votre expérience de visualisation de données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartaxiscollection/count/

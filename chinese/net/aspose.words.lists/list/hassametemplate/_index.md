@@ -2,8 +2,8 @@
 title: List.HasSameTemplate
 linktitle: HasSameTemplate
 articleTitle: HasSameTemplate
-second_title: 用于 .NET 的 Aspose.Words
-description: List HasSameTemplate 方法. 如果当前列表和给定列表是从同一模板创建的则返回 true 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 HasSameTemplate 方法，轻松检查两个列表是否共享相同的模板，确保数据管理的一致性和效率。
 type: docs
 weight: 120
 url: /zh/net/aspose.words.lists/list/hassametemplate/
@@ -18,7 +18,7 @@ public bool HasSameTemplate(List other)
 
 ## 例子
 
-演示如何使用相同的 ListDefId 定义列表。
+展示如何使用相同的 ListDefId 定义列表。
 
 ```csharp
 Document doc = new Document(MyDir + "Different lists.docx");

@@ -2,8 +2,8 @@
 title: CustomPartCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection GetEnumerator 方法. 返回一个枚举器对象可用于迭代集合中的所有项目 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CustomPartCollection 的 GetEnumerator 方法，轻松遍历集合中的所有项目。立即简化您的数据管理！
 type: docs
 weight: 70
 url: /zh/net/aspose.words.markup/custompartcollection/getenumerator/
@@ -18,7 +18,7 @@ public IEnumerator<CustomPart> GetEnumerator()
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

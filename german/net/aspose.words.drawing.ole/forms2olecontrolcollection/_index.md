@@ -3,16 +3,16 @@ title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection klas. Stellt eine Sammlung von darForms2OleControl Objekte in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Ole.Forms2OleControlCollection, Ihre Lösung für die effiziente Verwaltung von Forms2OleControl-Objekten bei der Dokumentverarbeitung.
 type: docs
-weight: 1120
+weight: 1470
 url: /de/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-Stellt eine Sammlung von dar[`Forms2OleControl`](../forms2olecontrol/) Objekte.
+Stellt eine Sammlung von[`Forms2OleControl`](../forms2olecontrol/) Objekte.
 
-Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Ole-Objekten](https://docs.aspose.com/words/net/working-with-ole-objects/) Dokumentationsartikel.
+Um mehr zu erfahren, besuchen Sie die[Arbeiten mit OLE-Objekten](https://docs.aspose.com/words/net/working-with-ole-objects/) Dokumentationsartikel.
 
 ```csharp
 public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
@@ -51,7 +51,7 @@ Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.To
 
 Forms2OleControl oleControl = (Forms2OleControl)shape.OleFormat.OleControl;
 
-// Einige OLE-Steuerelemente enthalten möglicherweise untergeordnete Steuerelemente, z. B. das in diesem Dokument mit drei Optionsschaltflächen.
+// Einige OLE-Steuerelemente können untergeordnete Steuerelemente enthalten, wie beispielsweise das in diesem Dokument mit drei Optionsschaltflächen.
 Forms2OleControlCollection oleControlCollection = oleControl.ChildNodes;
 
 Assert.AreEqual(3, oleControlCollection.Count);

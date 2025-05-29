@@ -3,9 +3,9 @@ title: VbaReferenceType Enum
 linktitle: VbaReferenceType
 articleTitle: VbaReferenceType
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Vba.VbaReferenceType перечисление. Позволяет указать типVbaReference объект на С#.
+description: Откройте для себя перечисление Aspose.Words.Vba.VbaReferenceType, чтобы легко определять типы объектов VbaReference, улучшая автоматизацию и управление документами.
 type: docs
-weight: 6610
+weight: 7460
 url: /ru/net/aspose.words.vba/vbareferencetype/
 ---
 ## VbaReferenceType enumeration
@@ -21,13 +21,13 @@ public enum VbaReferenceType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Registered | `13` | Указывает тип ссылки на библиотеку типов автоматизации. |
-| Project | `14` | Указан тип ссылки на внешний проект VBA. |
-| Original | `51` | Указывает исходный ссылочный тип библиотеки типов автоматизации. |
-| Control | `47` | Указывает измененный ссылочный тип библиотеки типов. |
+| Project | `14` | Указан внешний тип ссылки проекта VBA. |
+| Original | `51` | Указывает исходный тип ссылки библиотеки типов автоматизации. |
+| Control | `47` | Указывает тип ссылки библиотеки перевернутого типа. |
 
 ## Примеры
 
-Показывает, как получить или удалить элемент из коллекции ссылок VBA.
+Показывает, как получить/удалить элемент из коллекции ссылок VBA.
 
 ```csharp
 public void RemoveVbaReference()
@@ -73,7 +73,7 @@ private static string GetLibIdPath(VbaReference reference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdReferencePath(string libIdReference)
 {
@@ -88,7 +88,7 @@ private static string GetLibIdReferencePath(string libIdReference)
 }
 
 /// <summary>
-/// Возвращает путь от указанного идентификатора библиотеки типов автоматизации.
+/// Возвращает путь из указанного идентификатора библиотеки типов автоматизации.
 /// </summary>
 private static string GetLibIdProjectPath(string libIdProject)
 {

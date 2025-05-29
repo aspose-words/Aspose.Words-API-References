@@ -3,16 +3,16 @@ title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Rendering.ShapeRenderer clase. Proporciona métodos para representar a un individuo.Shape oGroupShape a una imagen rasterizada o vectorial o a un objeto de gráficos en C#.
+description: Descubra Aspose.Words.Rendering.ShapeRenderer para convertir sin esfuerzo formas y formas de grupo en imágenes raster o vectoriales de alta calidad para sus proyectos.
 type: docs
-weight: 4590
+weight: 5320
 url: /es/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-Proporciona métodos para representar a un individuo.[`Shape`](../../aspose.words.drawing/shape/) o[`GroupShape`](../../aspose.words.drawing/groupshape/) a una imagen rasterizada o vectorial o a un objeto de gráficos.
+Proporciona métodos para representar un individuo[`Shape`](../../aspose.words.drawing/shape/) o[`GroupShape`](../../aspose.words.drawing/groupshape/) a una imagen rasterizada o vectorial o a un objeto gráfico.
 
-Para obtener más información, visite el[Trabajar con formas](https://docs.aspose.com/words/net/working-with-shapes/) artículo de documentación.
+Para obtener más información, visite el[Trabajando con formas](https://docs.aspose.com/words/net/working-with-shapes/) Artículo de documentación.
 
 ```csharp
 public class ShapeRenderer : NodeRendererBase
@@ -36,20 +36,22 @@ public class ShapeRenderer : NodeRendererBase
 
 | Nombre | Descripción |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución específicos. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Representa la forma en unGraphics objeto a una escala especificada. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Representa la forma en unGraphics objeto a un tamaño especificado. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | Calcula los límites de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | Calcula los límites opacos de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | Calcula el tamaño de la forma en píxeles para un factor de zoom y una resolución especificados. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | Representa la forma en unaGraphics objeto a una escala especificada. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | Representa la forma en unaGraphics objeto a un tamaño especificado. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Representa la forma en una imagen y la guarda en una secuencia. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Representa la forma en una imagen SVG y la guarda en una secuencia. |
 | [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | Representa la forma en una imagen y la guarda en un archivo. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | Representa la forma en una imagen SVG y la guarda en un archivo. |
 
 ## Ejemplos
 
-Muestra cómo representar una forma con un objeto Gráficos y mostrarla usando un formulario de Windows.
+Muestra cómo representar una forma con un objeto Graphics y visualizarla mediante un formulario Windows Forms.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -60,7 +62,7 @@ public void RenderShapesOnForm()
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
     // A continuación se muestran dos formas de utilizar la clase "ShapeRenderer" para representar una forma en un objeto Graphics.
-    // 1: crea una forma con un gráfico y renderízala a una escala específica.
+    // 1 - Crea una forma con un gráfico y representalo en una escala específica.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

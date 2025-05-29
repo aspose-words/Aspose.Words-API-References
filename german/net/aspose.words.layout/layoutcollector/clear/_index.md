@@ -3,14 +3,14 @@ title: LayoutCollector.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words für .NET
-description: LayoutCollector Clear methode. Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde in C#.
+description: Löschen Sie alle erfassten Layoutdaten effizient mit der Methode LayoutCollector Clear. Ideal für die Dokumentenverwaltung nach Updates und den Layoutneuaufbau.
 type: docs
 weight: 30
 url: /de/net/aspose.words.layout/layoutcollector/clear/
 ---
 ## LayoutCollector.Clear method
 
-Löscht alle gesammelten Layoutdaten. Rufen Sie diese Methode auf, nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde.
+Löscht alle erfassten Layoutdaten. Rufen Sie diese Methode auf, nachdem das Dokument manuell aktualisiert oder das Layout neu erstellt wurde.
 
 ```csharp
 public void Clear()
@@ -25,7 +25,7 @@ Document doc = new Document();
 LayoutCollector layoutCollector = new LayoutCollector(doc);
 
 // Rufen Sie die Methode „GetNumPagesSpanned“ auf, um zu zählen, wie viele Seiten der Inhalt unseres Dokuments umfasst.
-// Da das Dokument leer ist, beträgt die Anzahl der Seiten derzeit Null.
+// Da das Dokument leer ist, beträgt die Seitenanzahl derzeit Null.
 Assert.AreEqual(doc, layoutCollector.Document);
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
@@ -39,8 +39,8 @@ builder.Write("Section 2");
 builder.InsertBreak(BreakType.PageBreak);
 builder.InsertBreak(BreakType.PageBreak);
 
-// Vor dem Layout-Kollektor müssen wir die Methode „UpdatePageLayout“ aufrufen, um sie uns zu geben
-// eine genaue Zahl für alle Layout-bezogenen Metriken, wie zum Beispiel die Seitenzahl.
+// Vor dem Layout-Sammler müssen wir die Methode "UpdatePageLayout" aufrufen, um uns
+// eine genaue Zahl für jede layoutbezogene Metrik, wie beispielsweise die Seitenanzahl.
 Assert.AreEqual(0, layoutCollector.GetNumPagesSpanned(doc));
 
 layoutCollector.Clear();
@@ -48,7 +48,7 @@ doc.UpdatePageLayout();
 
 Assert.AreEqual(5, layoutCollector.GetNumPagesSpanned(doc));
 
-// Wir können die Nummern der Start- und Endseiten jedes Knotens und deren gesamte Seitenspanne sehen.
+// Wir können die Nummern der Start- und Endseiten jedes Knotens und ihre Gesamtseitenspanne sehen.
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 foreach (Node node in nodes)
 {
@@ -58,7 +58,7 @@ foreach (Node node in nodes)
         $" spanning {layoutCollector.GetNumPagesSpanned(node)} pages.");
 }
 
-// Wir können die Layout-Entitäten mit einem LayoutEnumerator durchlaufen.
+// Wir können die Layout-Entitäten mithilfe eines LayoutEnumerators durchlaufen.
 LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
 Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);

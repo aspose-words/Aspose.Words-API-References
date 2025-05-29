@@ -2,15 +2,15 @@
 title: MappedDataFieldCollection.ContainsValue
 linktitle: ContainsValue
 articleTitle: ContainsValue
-second_title: Aspose.Words for .NET
-description: MappedDataFieldCollection ContainsValue yöntem. Koleksiyonda veri kaynağındaki belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler C#'da.
+second_title: .NET için Aspose.Words
+description: MappedDataFieldCollection'da ContainsValue metoduyla bir alan eşlemesinin olup olmadığını keşfedin. Veri yönetimi verimliliğinizi bugün artırın!
 type: docs
 weight: 60
 url: /tr/net/aspose.words.mailmerging/mappeddatafieldcollection/containsvalue/
 ---
 ## MappedDataFieldCollection.ContainsValue method
 
-Koleksiyonda veri kaynağındaki belirtilen alandan bir eşlemenin mevcut olup olmadığını belirler.
+Veri kaynağındaki belirtilen alandan bir eşlemenin koleksiyonda bulunup bulunmadığını belirler.
 
 ```csharp
 public bool ContainsValue(string dataSourceFieldName)
@@ -22,11 +22,11 @@ public bool ContainsValue(string dataSourceFieldName)
 
 ### Geri dönüş değeri
 
-`doğru` koleksiyonda öğe bulunursa; aksi takdirde,`YANLIŞ`.
+`doğru`eğer öğe koleksiyonda bulunursa; aksi takdirde,`YANLIŞ`.
 
 ## Örnekler
 
-Adres-mektup birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'lerin farklı adlarla nasıl eşleneceğini gösterir.
+Bir posta birleştirme sırasında verilerin aralarında aktarılması için veri sütunlarının ve MERGEFIELD'ların farklı adlarla nasıl eşleneceğini gösterir.
 
 ```csharp
 public void MappedDataFieldCollection()
@@ -34,29 +34,29 @@ public void MappedDataFieldCollection()
     Document doc = CreateSourceDocMappedDataFields();
     DataTable dataTable = CreateSourceTableMappedDataFields();
 
-    // Tabloda "Column2" adında bir sütun var ancak bu adda MERGEFIELD yok.
-    // Ayrıca "Column3" adında bir MERGEFIELD'ımız var ancak veri kaynağında bu isimde bir sütun yok.
-    // "Sütun2"deki veriler "Sütun3" MERGEFIELD için uygunsa,
-    // bu sütun adını "MappedDataFields" anahtar/değer çiftindeki MERGEFIELD ile eşleyebiliriz.
+    // Tabloda "Column2" adında bir sütun var, ancak bu isimde bir MERGEFIELD yok.
+    // Ayrıca, "Column3" adında bir MERGEFIELD'ımız var, ancak veri kaynağında bu isimde bir sütun bulunmuyor.
+    // "Column2"deki veriler "Column3" MERGEFIELD'ı için uygunsa,
+    // bu sütun adını "MappedDataFields" anahtar/değer çiftindeki MERGEFIELD'a eşleyebiliriz.
     MappedDataFieldCollection mappedDataFields = doc.MailMerge.MappedDataFields;
 
-    // Bir veri kaynağı sütun adını bunun gibi bir MERGEFIELD ismine bağlayabiliriz.
+    // Bir veri kaynağı sütun adını bir MERGEFIELD adına şu şekilde bağlayabiliriz.
     mappedDataFields.Add("MergeFieldName", "DataSourceColumnName");
 
-    // "Column2" adlı veri kaynağı sütununu "Column3" adlı MERGEFIELD'lere bağlayın.
+    // "Column2" adlı veri kaynağı sütununu "Column3" adlı MERGEFIELD'lara bağla.
     mappedDataFields.Add("Column3", "Column2");
 
-    // MERGEFIELD adı, ilgili veri kaynağı sütun adı "değer"in "anahtarıdır".
+    // MERGEFIELD adı, ilgili veri kaynağı sütun adı olan "değer"in "anahtarı"dır.
     Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
     Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
     Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
 
-    // Şimdi bu adres-mektup birleştirmeyi çalıştırırsak, "Sütun3" MERGEFIELD'ler tablonun "Sütun2"sinden veri alacaktır.
+    // Şimdi bu posta birleştirmeyi çalıştırırsak, "Sütun3" MERGEFIELD'ları tablonun "Sütun2"sinden veri alacaktır.
     doc.MailMerge.Execute(dataTable);
 
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
-    // Bu koleksiyondaki öğeler üzerinde yineleme yapabiliriz.
+    // Bu koleksiyondaki elemanlar üzerinde yineleme yapabiliriz.
     Assert.AreEqual(2, mappedDataFields.Count);
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
@@ -64,7 +64,7 @@ public void MappedDataFieldCollection()
             Console.WriteLine(
                 $"Column named {enumerator.Current.Value} is mapped to MERGEFIELDs named {enumerator.Current.Key}");
 
-    // Koleksiyondan öğeleri de kaldırabiliriz.
+    // Ayrıca koleksiyondan öğeleri kaldırabiliriz.
     mappedDataFields.Remove("MergeFieldName");
 
     Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
@@ -76,8 +76,8 @@ public void MappedDataFieldCollection()
 }
 
 /// <summary>
-/// 2 MERGEFIELD içeren bir belge oluşturun, bunlardan birinde MERGEFIELD yok
-/// aşağıdaki yöntemden veri tablosundaki ilgili sütun.
+/// 2 MERGEFIELD içeren bir belge oluşturun, bunlardan biri
+/// Aşağıdaki yöntemden veri tablosundaki karşılık gelen sütun.
 /// </summary>
 private static Document CreateSourceDocMappedDataFields()
 {
@@ -92,8 +92,8 @@ private static Document CreateSourceDocMappedDataFields()
 }
 
 /// <summary>
-/// 2 sütunlu bir veri tablosu oluşturun, bunlardan birinde sütun yok
-/// yukarıdaki yöntemden kaynak belgede karşılık gelen MERGEFIELD.
+/// 2 sütundan oluşan bir veri tablosu oluşturun, bunlardan birinde sütun yok
+/// Yukarıdaki yönteme ait kaynak belgedeki karşılık gelen MERGEFIELD.
 /// </summary>
 private static DataTable CreateSourceTableMappedDataFields()
 {

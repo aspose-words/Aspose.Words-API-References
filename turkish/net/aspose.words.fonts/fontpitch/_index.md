@@ -2,10 +2,10 @@
 title: FontPitch Enum
 linktitle: FontPitch
 articleTitle: FontPitch
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Fonts.FontPitch Sıralama. Yazı tipi aralığını temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Uygulamalarınızdaki yazı tipi stillerini yönetmek ve belge biçimlendirmesini geliştirmek için güçlü bir araç olan Aspose.Words.Fonts.FontPitch enum'ını keşfedin.
 type: docs
-weight: 2960
+weight: 3390
 url: /tr/net/aspose.words.fonts/fontpitch/
 ---
 ## FontPitch enumeration
@@ -20,17 +20,17 @@ public enum FontPitch
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Default | `0` | Bir yazı tipinin aralığı hakkında hiçbir bilginin mevcut olmadığını belirtir. |
+| Default | `0` | Bir yazı tipinin perdesi hakkında hiçbir bilginin mevcut olmadığını belirtir. |
 | Fixed | `1` | Bunun sabit genişlikte bir yazı tipi olduğunu belirtir. |
 | Variable | `2` | Bunun orantılı genişlikte bir yazı tipi olduğunu belirtir. |
 
 ## Notlar
 
-Karakter aralığı, yazı tipinin sabit aralıklı mı, orantılı aralıklı mı olduğunu yoksa varsayılan bir ayara mı dayandığını belirtir.
+Perde, yazı tipinin sabit perdeli, orantılı aralıklı olup olmadığını veya varsayılan bir ayara bağlı olup olmadığını gösterir.
 
 ## Örnekler
 
-Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve yazdırılacağını gösterir.
+Bir belgedeki her yazı tipinin ayrıntılarına nasıl erişileceğini ve bunların nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -43,7 +43,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alternatif adlar genellikle boştur.
+        // Alt adlar genellikle boştur.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

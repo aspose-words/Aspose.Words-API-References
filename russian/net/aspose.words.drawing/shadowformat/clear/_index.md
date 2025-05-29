@@ -3,14 +3,14 @@ title: ShadowFormat.Clear
 linktitle: Clear
 articleTitle: Clear
 second_title: Aspose.Words для .NET
-description: ShadowFormat Clear метод. Очищает формат тени на С#.
+description: Легко сбросьте формат тени с помощью метода ShadowFormat Clear. Улучшите свой дизайн с чистого листа сегодня!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.drawing/shadowformat/clear/
 ---
 ## ShadowFormat.Clear method
 
-Очищает формат тени.
+Очищает теневой формат.
 
 ```csharp
 public void Clear()
@@ -24,10 +24,10 @@ public void Clear()
 Document doc = new Document(MyDir + "Shape stroke pattern border.docx");
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
 
-if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)                
+if (shape.ShadowFormat.Visible && shape.ShadowFormat.Type == ShadowType.Shadow2)
     shape.ShadowFormat.Type = ShadowType.Shadow7;
 
-if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)            
+if (shape.ShadowFormat.Type == ShadowType.ShadowMixed)
     shape.ShadowFormat.Clear();
 ```
 

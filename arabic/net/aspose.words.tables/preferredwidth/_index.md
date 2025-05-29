@@ -3,14 +3,14 @@ title: PreferredWidth Class
 linktitle: PreferredWidth
 articleTitle: PreferredWidth
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.PreferredWidth فصل. يمثل القيمة ووحدة القياس الخاصة بها المستخدمة لتحديد العرض المفضل للجدول أو الخلية في C#.
+description: اكتشف فئة Aspose.Words.Tables.PreferredWidth، الحل الأمثل لتحديد عرض الجداول والخلايا الأمثل بدقة ومرونة. حسّن تخطيطات مستنداتك اليوم!
 type: docs
-weight: 6290
+weight: 7140
 url: /ar/net/aspose.words.tables/preferredwidth/
 ---
 ## PreferredWidth class
 
-يمثل القيمة ووحدة القياس الخاصة بها المستخدمة لتحديد العرض المفضل للجدول أو الخلية.
+يمثل قيمة ووحدة قياسها التي تُستخدم لتحديد العرض المفضل للجدول أو الخلية.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الجداول](https://docs.aspose.com/words/net/working-with-tables/) مقالة توثيقية.
 
@@ -22,35 +22,35 @@ public sealed class PreferredWidth
 
 | اسم | وصف |
 | --- | --- |
-| [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | للحصول على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه. |
-| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | يحصل على قيمة العرض المفضلة. وحدة القياس محددة في[`Type`](./type/) الملكية. |
+| [Type](../../aspose.words.tables/preferredwidth/type/) { get; } | يحصل على وحدة القياس المستخدمة لقيمة العرض المفضلة هذه. |
+| [Value](../../aspose.words.tables/preferredwidth/value/) { get; } | يحصل على قيمة العرض المُفضّلة. وحدة القياس مُحدّدة في[`Type`](./type/) الملكية. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد كنسبة مئوية. |
-| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل العرض المفضل المحدد باستخدام عدد من النقاط. |
-| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي. |
-| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | تحديد ما إذا كان المحدد`PreferredWidth` يساوي القيمة الحالية`PreferredWidth` . |
-| override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | بمثابة دالة تجزئة لهذا النوع. |
-| override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | تُرجع سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن. |
+| static [FromPercent](../../aspose.words.tables/preferredwidth/frompercent/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل عرضًا مفضلًا محددًا كنسبة مئوية. |
+| static [FromPoints](../../aspose.words.tables/preferredwidth/frompoints/)(*double*) | طريقة إنشاء تقوم بإرجاع مثيل جديد يمثل عرضًا مفضلًا يتم تحديده باستخدام عدد من النقاط. |
+| override [Equals](../../aspose.words.tables/preferredwidth/equals/#equals_1)(*object*) | يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي. |
+| [Equals](../../aspose.words.tables/preferredwidth/equals/#equals)(*PreferredWidth*) | يحدد ما إذا كان المحدد`PreferredWidth` يساوي القيمة الحالية`PreferredWidth` . |
+| override [GetHashCode](../../aspose.words.tables/preferredwidth/gethashcode/)() | يعمل كدالة تجزئة لهذا النوع. |
+| override [ToString](../../aspose.words.tables/preferredwidth/tostring/)() | يعيد سلسلة سهلة الاستخدام تعرض قيمة هذا الكائن. |
 
 ## مجالات
 
 | اسم | وصف |
 | --- | --- |
-| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | إرجاع مثيل يمثل القيمة "لم يتم تحديد العرض المفضل". |
+| static readonly [Auto](../../aspose.words.tables/preferredwidth/auto/) | يعيد مثيلًا يمثل قيمة "العرض المفضل غير محدد". |
 
 ## ملاحظات
 
-يمكن تحديد العرض المفضل كنسبة مئوية أو عدد النقاط أو قيمة خاصة "لا شيء/تلقائي".
+يمكن تحديد العرض المفضل كنسبة مئوية أو عدد من النقاط أو قيمة خاصة "لا شيء/تلقائي".
 
-مثيلات هذه الفئة غير قابلة للتغيير.
+إن حالات هذه الفئة غير قابلة للتغيير.
 
 ## أمثلة
 
-يوضح كيفية تعيين جدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
+يوضح كيفية ضبط الجدول ليتناسب تلقائيًا مع 50% من عرض الصفحة.
 
 ```csharp
 Document doc = new Document();
@@ -77,13 +77,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // هناك طريقتان لتطبيق فئة "PreferredWidth" على خلايا الجدول.
-// 1 - قم بتعيين العرض المفضل المطلق بناءً على النقاط:
+// 1 - تعيين العرض المفضل المطلق استنادًا إلى النقاط:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightYellow;
 builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
-// 2 - قم بتعيين العرض المفضل النسبي بناءً على النسبة المئوية لعرض الجدول:
+// 2 - تعيين عرض مفضل نسبيًا استنادًا إلى النسبة المئوية لعرض الجدول:
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPercent(20);
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightBlue;
@@ -91,10 +91,10 @@ builder.Writeln($"Cell with a width of {builder.CellFormat.PreferredWidth}.");
 
 builder.InsertCell();
 
-// الخلية التي لم يتم تحديد العرض المفضل لها سوف تشغل بقية المساحة المتوفرة.
+// ستشغل الخلية التي ليس لها عرض مفضل محدد بقية المساحة المتوفرة.
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// يقوم كل تكوين لخاصية "PreferredWidth" بإنشاء كائن جديد.
+// يؤدي كل تكوين لخاصية "PreferredWidth" إلى إنشاء كائن جديد.
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

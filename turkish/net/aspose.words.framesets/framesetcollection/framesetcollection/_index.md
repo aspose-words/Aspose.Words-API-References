@@ -2,8 +2,8 @@
 title: FramesetCollection
 linktitle: FramesetCollection
 articleTitle: FramesetCollection
-second_title: Aspose.Words for .NET
-description: FramesetCollection inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Web geliştirmede verimli çerçeve yönetimi için başvuracağınız çözüm olan FramesetCollection oluşturucusunu keşfedin. Kodlamanızı bugün basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.framesets/framesetcollection/framesetcollection/

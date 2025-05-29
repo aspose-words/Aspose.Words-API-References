@@ -2,15 +2,15 @@
 title: FieldHyperlink.SubAddress
 linktitle: SubAddress
 articleTitle: SubAddress
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldHyperlink SubAddress 财产. 获取或设置文件中此超链接跳转的位置例如书签 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FieldHyperlink SubAddress 属性可以轻松设置或检索特定文件位置或书签，以实现无缝超链接导航。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.fields/fieldhyperlink/subaddress/
 ---
 ## FieldHyperlink.SubAddress property
 
-获取或设置文件中此超链接跳转的位置，例如书签。
+获取或设置文件中的某个位置，例如书签，此超链接跳转至该位置。
 
 ```csharp
 public string SubAddress { get; set; }
@@ -18,7 +18,7 @@ public string SubAddress { get; set; }
 
 ## 例子
 
-演示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
+展示如何使用 HYPERLINK 字段链接到本地文件系统中的文档。
 
 ```csharp
 Document doc = new Document();
@@ -26,15 +26,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldHyperlink field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 
-// 当我们在 Microsoft Word 中单击此超链接字段时，
-// 它将打开链接的文档，然后将光标置于指定的书签处。
+// 当我们在 Microsoft Word 中单击此 HYPERLINK 字段时，
+// 它将打开链接的文档，然后将光标放在指定的书签处。
 field.Address = MyDir + "Bookmarks.docx";
 field.SubAddress = "MyBookmark3";
 field.ScreenTip = "Open " + field.Address + " on bookmark " + field.SubAddress + " in a new window";
 
 builder.Writeln();
 
-// 当我们在 Microsoft Word 中单击此超链接字段时，
+// 当我们在 Microsoft Word 中单击此 HYPERLINK 字段时，
 // 它将打开链接的文档，并自动向下滚动到指定的 iframe。
 field = (FieldHyperlink)builder.InsertField(FieldType.FieldHyperlink, true);
 field.Address = MyDir + "Iframes.html";

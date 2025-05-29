@@ -3,14 +3,14 @@ title: BorderCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: BorderCollection Item proprietà. Recupera aBorder oggetto per tipo di bordo in C#.
+description: Scopri la proprietà BorderCollection Item per accedere facilmente agli oggetti Border per tipo. Semplifica il tuo design con una gestione efficiente dei bordi!
 type: docs
 weight: 60
 url: /it/net/aspose.words/bordercollection/item/
 ---
 ## BorderCollection indexer (1 of 2)
 
-Recupera a[`Border`](../../border/) oggetto per tipo di bordo.
+Recupera un[`Border`](../../border/) oggetto per tipo di bordo.
 
 ```csharp
 public Border this[BorderType borderType] { get; }
@@ -22,7 +22,7 @@ public Border this[BorderType borderType] { get; }
 
 ## Osservazioni
 
-Tieni presente che non tutti i bordi sono presenti per i diversi elementi del documento. Questo metodo genera un'eccezione se richiedi un bordo non applicabile all'oggetto corrente.
+Si noti che non tutti i bordi sono presenti per i diversi elementi del documento. Questo metodo genera un'eccezione se si richiede un bordo non applicabile all'oggetto corrente.
 
 ## Esempi
 
@@ -60,7 +60,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 
 ## BorderCollection indexer (2 of 2)
 
-Recupera a[`Border`](../../border/) oggetto per indice.
+Recupera un[`Border`](../../border/) oggetto per indice.
 
 ```csharp
 public Border this[int index] { get; }
@@ -68,7 +68,7 @@ public Border this[int index] { get; }
 
 | Parametro | Descrizione |
 | --- | --- |
-| index | Indice in base zero del confine da recuperare. |
+| index | Indice a partire da zero del confine da recuperare. |
 
 ## Esempi
 
@@ -82,7 +82,7 @@ builder.Writeln("Paragraph 1.");
 builder.Write("Paragraph 2.");
 
 // Poiché abbiamo utilizzato la stessa configurazione del bordo durante la creazione
-// questi paragrafi, le loro raccolte di bordi condividono gli stessi elementi.
+// in questi paragrafi, le raccolte dei bordi condividono gli stessi elementi.
 BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
@@ -96,13 +96,13 @@ foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
 // Dopo aver modificato lo stile della linea dei bordi solo nel secondo paragrafo,
-// le raccolte border non condividono più gli stessi elementi.
+// le raccolte di bordi non condividono più gli stessi elementi.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // Cambiare l'aspetto di un bordo vuoto lo rende visibile.
+    // Modificando l'aspetto di un bordo vuoto, lo si rende visibile.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

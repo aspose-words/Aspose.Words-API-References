@@ -3,14 +3,14 @@ title: ChartLegendEntry.Font
 linktitle: Font
 articleTitle: Font
 second_title: Aspose.Words för .NET
-description: ChartLegendEntry Font fast egendom. Ger tillgång till teckensnittsformateringen för denna förklaringspost i C#.
+description: Upptäck teckensnittsegenskapen ChartLegendEntry för enkel åtkomst till anpassningsbar teckensnittsformatering, vilket förbättrar dina förklaringsposter för ett bättre visuellt tilltal.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.drawing.charts/chartlegendentry/font/
 ---
 ## ChartLegendEntry.Font property
 
-Ger tillgång till teckensnittsformateringen för denna förklaringspost.
+Ger åtkomst till teckensnittsformateringen för denna förklaring.
 
 ```csharp
 public Font Font { get; }
@@ -18,34 +18,22 @@ public Font Font { get; }
 
 ## Exempel
 
-Visar hur man arbetar med en förklaringspost för diagramserier.
+Visar hur man arbetar med ett teckensnitt för förklaringar.
 
 ```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
+Document doc = new Document(MyDir + "Reporting engine template - Chart series.docx");
+Chart chart = ((Shape)doc.GetChild(NodeType.Shape, 0, true)).Chart;
 
-Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+ChartLegend chartLegend = chart.Legend;
+// Ange standardteckenstorlek för alla förklaringar.
+chartLegend.Font.Size = 14;
+// Ändra teckensnitt för specifik förklaring.
+chartLegend.LegendEntries[1].Font.Italic = true;
+chartLegend.LegendEntries[1].Font.Size = 12;
+// Hämta förklaringspost för diagramserier.
+ChartLegendEntry legendEntry = chart.Series[0].LegendEntry;
 
-Chart chart = shape.Chart;
-ChartSeriesCollection series = chart.Series;
-series.Clear();
-
-string[] categories = new string[] { "AW Category 1", "AW Category 2" };
-
-ChartSeries series1 = series.Add("Series 1", categories, new double[] { 1, 2 });
-series.Add("Series 2", categories, new double[] { 3, 4 });
-series.Add("Series 3", categories, new double[] { 5, 6 });
-series.Add("Series 4", categories, new double[] { 0, 0 });
-
-ChartLegendEntryCollection legendEntries = chart.Legend.LegendEntries;
-legendEntries[3].IsHidden = true;
-
-foreach (ChartLegendEntry legendEntry in legendEntries)
-    legendEntry.Font.Size = 12;
-
-series1.LegendEntry.Font.Italic = true;
-
-doc.Save(ArtifactsDir + "Charts.LegendEntries.docx");
+doc.Save(ArtifactsDir + "Charts.LegendFont.docx");
 ```
 
 ### Se även

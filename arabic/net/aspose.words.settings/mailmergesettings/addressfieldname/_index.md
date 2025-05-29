@@ -3,14 +3,14 @@ title: MailMergeSettings.AddressFieldName
 linktitle: AddressFieldName
 articleTitle: AddressFieldName
 second_title: Aspose.Words لـ .NET
-description: MailMergeSettings AddressFieldName ملكية. يحدد العمود داخل مصدر البيانات الذي يحتوي على عناوين البريد الإلكتروني. القيمة الافتراضية هي سلسلة فارغة في C#.
+description: اكتشف خاصية AddressFieldName في MailMergeSettings لتحديد عمود عنوان بريدك الإلكتروني بسهولة في مصادر البيانات، مما يضمن دمج رسائل البريد الإلكتروني بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/mailmergesettings/addressfieldname/
 ---
 ## MailMergeSettings.AddressFieldName property
 
-يحدد العمود داخل مصدر البيانات الذي يحتوي على عناوين البريد الإلكتروني. القيمة الافتراضية هي سلسلة فارغة.
+يحدد العمود الذي يحتوي على عناوين البريد الإلكتروني في مصدر البيانات. القيمة الافتراضية هي سلسلة فارغة.
 
 ```csharp
 public string AddressFieldName { get; set; }
@@ -18,7 +18,7 @@ public string AddressFieldName { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنفيذ عملية دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
+يوضح كيفية تنفيذ دمج البريد أثناء الاتصال بمصدر بيانات خارجي.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,8 +38,8 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// يمكننا إعادة ضبط هذه الإعدادات عن طريق مسحها. بمجرد أن نفعل ذلك ونحفظ المستند،
-// لن يقوم Microsoft Word بعد الآن بتنفيذ عملية دمج البريد عندما نستخدمه لتحميل المستند.
+// يمكننا إعادة ضبط هذه الإعدادات بمسحها. بعد ذلك، نحفظ المستند،
+// لن يقوم Microsoft Word بعد الآن بتنفيذ دمج البريد عندما نستخدمه لتحميل المستند.
 settings.Clear();
 
 doc.Save(ArtifactsDir + "MailMerge.OdsoEmail.docx");

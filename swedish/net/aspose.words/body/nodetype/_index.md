@@ -3,14 +3,14 @@ title: Body.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: Body NodeType fast egendom. ReturnerarBody  i C#.
+description: Upptäck egenskapen Body NodeType som effektivt returnerar body-innehållet, vilket förbättrar din webbutvecklingsupplevelse och effektiviserar dina projekt.
 type: docs
 weight: 20
 url: /sv/net/aspose.words/body/nodetype/
 ---
 ## Body.NodeType property
 
-ReturnerarBody .
+ReturerBody .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exempel
 
-Visar hur man itererar genom barnen i en sammansatt nod.
+Visar hur man itererar igenom barnen till en sammansatt nod.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// En sektion är en sammansatt nod och kan innehålla underordnade noder,
-// men bara om de underordnade noderna är av nodtypen "Body" eller "HeaderFooter".
+// En sektion är en sammansatt nod och kan innehålla undernoder,
+// men bara om dessa undernoder är av nodtypen "Body" eller "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

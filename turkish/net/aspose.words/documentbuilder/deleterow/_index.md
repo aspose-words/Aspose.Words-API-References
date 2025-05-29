@@ -2,15 +2,15 @@
 title: DocumentBuilder.DeleteRow
 linktitle: DeleteRow
 articleTitle: DeleteRow
-second_title: Aspose.Words for .NET
-description: DocumentBuilder DeleteRow yöntem. Tablodan bir satırı siler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder DeleteRow yöntemiyle tablolardan satırları zahmetsizce kaldırın. Belge düzenlemenizi kolaylaştırın ve iş akışınızı geliştirin!
 type: docs
 weight: 200
 url: /tr/net/aspose.words/documentbuilder/deleterow/
 ---
 ## DocumentBuilder.DeleteRow method
 
-Tablodan bir satırı siler.
+Bir tablodan bir satırı siler.
 
 ```csharp
 public Row DeleteRow(int tableIndex, int rowIndex)
@@ -19,7 +19,7 @@ public Row DeleteRow(int tableIndex, int rowIndex)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | tableIndex | Int32 | Tablonun indeksi. |
-| rowIndex | Int32 | Tablodaki satırın dizini. |
+| rowIndex | Int32 | Tablodaki satırın indeksi. |
 
 ### Geri dönüş değeri
 
@@ -27,15 +27,15 @@ Az önce kaldırılan satır düğümü.
 
 ## Notlar
 
-İmleç silinen satırın içindeyse, imleç dışarı doğru bir sonraki satıra veya tablodan sonraki bir sonraki paragrafa taşınır.
+Eğer imleç silinen satırın içindeyse, imleç tablodan sonraki satıra veya paragrafa taşınır.
 
-Yalnızca bir satır içeren bir tablodan bir satırı silerseniz, bütün tablosu silinir.
+Yalnızca bir satır içeren bir tablodan bir satırı silerseniz, whole tablosu silinir.
 
-İndeks parametreleri için, indeks 0'dan büyük veya ona eşit olduğunda, ilk öğe 0 olacak şekilde başlangıç 'den bir indeks belirtir. İndeks 0'dan küçük olduğunda, son öğe -1 olacak şekilde, from dizini belirtilir.
+Dizin parametreleri için, dizin 0'dan büyük veya eşit olduğunda, 0'ın ilk öğe olduğu başlangıç olan from dizini belirtir. Dizin 0'dan küçük olduğunda, -1'in son öğe olduğu bitiş olan from dizini belirtir.
 
 ## Örnekler
 
-Tablodan bir satırın nasıl silineceğini gösterir.
+Bir tablodan satırın nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -55,7 +55,7 @@ builder.EndTable();
 
 Assert.AreEqual(2, table.Rows.Count);
 
-// Belgedeki ilk tablonun ilk satırını silin.
+// Belgedeki ilk tablonun ilk satırını sil.
 builder.DeleteRow(0, 0);
 
 Assert.AreEqual(1, table.Rows.Count);

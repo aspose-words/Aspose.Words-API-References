@@ -3,14 +3,14 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words لـ .NET
-description: HyphenationOptions HyphenateCaps ملكية. الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هيحقيقي  في C#.
+description: اكتشف خاصية HyphenateCaps في HyphenationOptions. تحكّم بسهولة في وضع الواصلة للكلمات المكتوبة بأحرف كبيرة - الإعداد الافتراضي هو true. حسّن نصك اليوم!
 type: docs
 weight: 40
 url: /ar/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/
 ---
 ## HyphenationOptions.HyphenateCaps property
 
-الحصول على قيمة أو تعيينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
+يحصل على القيمة أو يعينها لتحديد ما إذا كانت الكلمات المكتوبة بأحرف كبيرة جميعها موصولة بواصلة. القيمة الافتراضية لهذه الخاصية هي`حقيقي` .
 
 ```csharp
 public bool HyphenateCaps { get; set; }
@@ -18,7 +18,7 @@ public bool HyphenateCaps { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين الواصلة التلقائية.
+يوضح كيفية تكوين الوصلة التلقائية.
 
 ```csharp
 Document doc = new Document();

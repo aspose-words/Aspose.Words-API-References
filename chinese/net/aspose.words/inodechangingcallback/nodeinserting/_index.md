@@ -2,15 +2,15 @@
 title: INodeChangingCallback.NodeInserting
 linktitle: NodeInserting
 articleTitle: NodeInserting
-second_title: 用于 .NET 的 Aspose.Words
-description: INodeChangingCallback NodeInserting 方法. 在属于该文档的节点即将插入另一个节点之前调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 INodeChangingCallback NodeInserting 方法，该方法在插入文档节点之前触发，确保无缝集成和增强功能。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/inodechangingcallback/nodeinserting/
 ---
 ## INodeChangingCallback.NodeInserting method
 
-在属于该文档的节点即将插入另一个节点之前调用。
+在属于此文档的节点即将插入另一个节点之前调用。
 
 ```csharp
 public void NodeInserting(NodeChangingArgs args)
@@ -18,7 +18,7 @@ public void NodeInserting(NodeChangingArgs args)
 
 ## 例子
 
-展示如何通过回调自定义节点更改。
+展示如何使用回调自定义节点变化。
 
 ```csharp
 public void FontChangeViaCallback()
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

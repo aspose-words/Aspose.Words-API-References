@@ -3,7 +3,7 @@ title: FieldCreateDate.UseSakaEraCalendar
 linktitle: UseSakaEraCalendar
 articleTitle: UseSakaEraCalendar
 second_title: Aspose.Words für .NET
-description: FieldCreateDate UseSakaEraCalendar eigendom. Ruft ab oder legt fest ob der SakaÄraKalender verwendet werden soll in C#.
+description: Entdecken Sie die Eigenschaft FieldCreateDate UseSakaEraCalendar, um die Saka Era-Kalendereinstellungen in Ihren Anwendungen einfach zu verwalten und so die Datumsverwaltung zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldcreatedate/usesakaeracalendar/
@@ -18,7 +18,7 @@ public bool UseSakaEraCalendar { get; set; }
 
 ## Beispiele
 
-Zeigt, wie das Feld CREATEDATE verwendet wird, um das Erstellungsdatum und die Erstellungszeit des Dokuments anzuzeigen.
+Zeigt, wie das Feld CREATEDATE verwendet wird, um das Erstellungsdatum/die Erstellungszeit des Dokuments anzuzeigen.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
 builder.Writeln(" Date this document was created:");
 
-// Wir können das Feld CREATEDATE verwenden, um Datum und Uhrzeit der Erstellung des Dokuments anzuzeigen.
-// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, nach denen das CREATEDATE-Feld Datum/Uhrzeit anzeigen kann.
+// Wir können das Feld CREATEDATE verwenden, um das Datum und die Uhrzeit der Erstellung des Dokuments anzuzeigen.
+// Nachfolgend sind drei verschiedene Kalendertypen aufgeführt, je nachdem, ob das Feld CREATEDATE Datum/Uhrzeit anzeigen kann.
 // 1 - Islamischer Mondkalender:
 builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);

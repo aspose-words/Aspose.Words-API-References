@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentEnd
 linktitle: VisitCommentEnd
 articleTitle: VisitCommentEnd
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitCommentEnd метод. Вызывается когда перечисление текста комментария завершено на С#.
+description: Изучите метод DocumentVisitor VisitCommentEnd, разработанный для улучшения перечисления текста комментариев в ваших проектах для бесперебойной обработки документов.
 type: docs
 weight: 100
 url: /ru/net/aspose.words/documentvisitor/visitcommentend/
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitCommentEnd(Comment comment)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| comment | Comment | Объект, который посещается. |
+| comment | Comment | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Запуск записывается только в том случае, если он является дочерним элементом узла Comment или CommentRange.
+    /// Запуск регистрируется только в том случае, если он является дочерним элементом узла Comment или CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -108,7 +108,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла комментариев.
+    /// Вызывается после посещения всех дочерних узлов узла Comment.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -120,7 +120,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов комментария/диапазона комментариев.
     /// </summary>
     /// <param name="text"></param>

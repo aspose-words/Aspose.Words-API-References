@@ -3,9 +3,9 @@ title: Document.ProtectionType
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words per .NET
-description: Document ProtectionType proprietà. Ottiene il tipo di protezione del documento attualmente attivo in C#.
+description: Scopri il tipo di protezione attiva dei documenti per una maggiore sicurezza e integrità dei dati. Proteggi i tuoi file senza sforzo con le nostre funzionalità avanzate.
 type: docs
-weight: 330
+weight: 340
 url: /it/net/aspose.words/document/protectiontype/
 ---
 ## Document.ProtectionType property
@@ -20,13 +20,13 @@ public ProtectionType ProtectionType { get; }
 
 Questa proprietà consente di recuperare il tipo di protezione del documento attualmente impostato. Per modificare il tipo di protezione del documento utilizzare il[`Protect`](../protect/) e[`Unprotect`](../unprotect/) metodi.
 
-Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, apportare revisioni o completare un modulo.
+Quando un documento è protetto, l'utente può apportare solo modifiche limitate, come aggiungere annotazioni, effettuare revisioni o compilare un modulo.
 
-Tieni presente che la protezione del documento è diversa dalla protezione da scrittura. La protezione da scrittura viene specificata utilizzando il file[`WriteProtection`](../writeprotection/)
+Si noti che la protezione del documento è diversa dalla protezione in scrittura. La protezione in scrittura viene specificata utilizzando[`WriteProtection`](../writeprotection/)
 
 ## Esempi
 
-Mostra come proteggere e rimuovere la protezione di un documento.
+Mostra come proteggere e rimuovere la protezione da un documento.
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 // dovremo applicare la password per superare la protezione.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// Tieni presente che la protezione si applica solo agli utenti di Microsoft Word che aprono il nostro documento.
-// Non abbiamo crittografato il documento in alcun modo e non abbiamo bisogno della password per aprirlo e modificarlo a livello di codice.
+// Si noti che la protezione si applica solo agli utenti di Microsoft Word che aprono il nostro documento.
+// Non abbiamo crittografato il documento in alcun modo e non abbiamo bisogno della password per aprirlo e modificarlo a livello di programmazione.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);

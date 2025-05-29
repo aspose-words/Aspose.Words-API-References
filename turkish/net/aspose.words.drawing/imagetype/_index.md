@@ -2,15 +2,15 @@
 title: ImageType Enum
 linktitle: ImageType
 articleTitle: ImageType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.ImageType Sıralama. Microsoft Word belgesindeki görüntünün türünü biçimini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word belgelerindeki resim biçimlerini kolayca yönetmek için Aspose.Words.Drawing.ImageType enum'unu keşfedin. Belgenizin görsel çekiciliğini artırın!
 type: docs
-weight: 1080
+weight: 1410
 url: /tr/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
 
-Microsoft Word belgesindeki görüntünün türünü (biçimini) belirtir.
+Microsoft Word belgesindeki bir görüntünün türünü (biçimini) belirtir.
 
 ```csharp
 public enum ImageType
@@ -20,17 +20,28 @@ public enum ImageType
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| NoImage | `0` | Resim verisi yok. |
-| Unknown | `1` | Bilinmeyen bir görüntü türü veya Microsoft Word belgesinde doğrudan depolanamayan görüntü türü. |
-| Emf | `2` | Windows Geliştirilmiş Meta Dosyası. |
+| NoImage | `0` | Görüntü verisi yok. |
+| Unknown | `1` | Bilinmeyen bir görüntü türü veya doğrudan bir Microsoft Word belgesinin içine depolanamayan görüntü türü. |
+| Emf | `2` | Windows Gelişmiş Meta Dosyası. |
 | Wmf | `3` | Windows Meta Dosyası. |
-| Pict | `4` | Macintosh PICT. Mevcut bir görüntü bir belgede korunacaktır ancak yeni PICT görüntülerinin bir belgeye eklenmesi desteklenmez. |
+| Pict | `4` | Macintosh PICT. Mevcut bir görüntü bir belgede korunacaktır, ancak bir belgeye yeni PICT görüntüleri eklemek desteklenmez. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Taşınabilir Ağ Grafikleri. |
-| Bmp | `7` | Windows Bitmap. |
-| Eps | `8` | Encapsulated PostScript. |
+| Bmp | `7` | Windows Bit Eşlemi. |
+| Eps | `8` | Kapsüllenmiş PostScript. |
+| WebP | `9` | WebP. |
+| Gif | `10` | GIF |
 
 ## Örnekler
+
+WebP görüntüsünün nasıl okunacağını gösterir.
+
+```csharp
+Document doc = new Document(MyDir + "Document with WebP image.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.AreEqual(ImageType.WebP, shape.ImageData.ImageType);
+```
 
 Bir şekle nasıl resim ekleneceğini ve tipinin nasıl kontrol edileceğini gösterir.
 
@@ -38,16 +49,8 @@ Bir şekle nasıl resim ekleneceğini ve tipinin nasıl kontrol edileceğini gö
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
-
-using (MemoryStream stream = new MemoryStream(imageBytes))
-{
-    Image image = Image.FromStream(stream);
-
-    // URL'deki resim bir .gif'tir. Bunu bir belgeye eklemek, onu bir .png dosyasına dönüştürür.
-    Shape imgShape = builder.InsertImage(image);
-    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
-}
+Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
+Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 ```
 
 ### Ayrıca bakınız

@@ -3,9 +3,9 @@ title: ChartDataLabelCollection.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words för .NET
-description: ChartDataLabelCollection ShowValue fast egendom. Gör det möjligt att ange om värden ska visas i dataetiketterna för hela serien. Standardvärdet ärfalsk  i C#.
+description: Upptäck hur egenskapen ShowValue i ChartDataLabelCollection förbättrar din datavisualisering genom att visa serievärden. Optimera dina diagram idag!
 type: docs
-weight: 140
+weight: 170
 url: /sv/net/aspose.words.drawing.charts/chartdatalabelcollection/showvalue/
 ---
 ## ChartDataLabelCollection.ShowValue property
@@ -18,7 +18,7 @@ public bool ShowValue { get; set; }
 
 ## Anmärkningar
 
-Värdet som definierats för den här egenskapen kan åsidosättas för en individuell dataetikett med hjälp av [`ShowValue`](../../chartdatalabel/showvalue/) egenskap.
+Värde definierat för den här egenskapen kan åsidosättas för en enskild dataetikett med hjälp av [`ShowValue`](../../chartdatalabel/showvalue/) egendom.
 
 ## Exempel
 
@@ -33,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Rensa diagrammets demodataserie för att börja med ett rent diagram.
 chart.Series.Clear();
 
-// Infoga en anpassad diagramserie med ett kategorinamn för var och en av sektorerna och deras frekvenstabell.
+// Infoga en anpassad diagramserie med ett kategorinamn för varje sektor och deras frekvenstabell.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Aktivera dataetiketter som visar både procent och frekvens för varje sektor, och ändra deras utseende.
+// Aktivera dataetiketter som visar både procentandel och frekvens för varje sektor och ändra deras utseende.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

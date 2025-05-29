@@ -3,16 +3,16 @@ title: TableSubstitutionRule Class
 linktitle: TableSubstitutionRule
 articleTitle: TableSubstitutionRule
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule сорт. Правило замены шрифта таблицы на С#.
+description: Откройте для себя класс Aspose.Words.Fonts.TableSubstitutionRule для эффективного управления шрифтами и бесшовного форматирования текста в ваших документах.
 type: docs
-weight: 3060
+weight: 3490
 url: /ru/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
 
 Правило замены шрифта таблицы.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class TableSubstitutionRule : FontSubstitutionRule
@@ -28,20 +28,20 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | Имя | Описание |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Добавляет замещающие имена шрифтов для данного исходного имени шрифта. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Возвращает массив, содержащий имена замещающих шрифтов для указанного исходного имени шрифта. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Загружает настройки подстановки таблиц из XML-потока. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Загружает настройки подстановки таблиц из XML-файла. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Загружает предопределенные настройки замены таблиц для платформы Android. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | Добавляет заменяющие имена шрифтов для указанного исходного имени шрифта. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | Возвращает массив, содержащий заменяющие имена шрифтов для указанного исходного имени шрифта. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | Загружает настройки подстановки таблицы из потока XML. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | Загружает настройки подстановки таблицы из XML-файла. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | Загружает предопределенные настройки подстановки таблиц для платформы Android. |
 | [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | Загружает предопределенные настройки подстановки таблиц для платформы Linux. |
-| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Загружает предопределенные параметры замены таблиц для платформы Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Сохраняет текущие настройки замены таблицы в поток. |
+| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | Загружает предопределенные настройки подстановки таблиц для платформы Windows. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | Сохраняет текущие настройки подстановки таблицы в stream. |
 | [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | Сохраняет текущие настройки подстановки таблицы в файл. |
-| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Переопределить имена замещающих шрифтов для данного исходного имени шрифта. |
+| [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | Переопределить заменяющие имена шрифтов для указанного исходного имени шрифта. |
 
 ## Примечания
 
-Это правило определяет список имен замещающих шрифтов, которые будут использоваться, если исходный шрифт недоступен. Замены будут проверяться для имени шрифта и[`AltName`](../fontinfo/altname/) (если есть).
+Это правило определяет список имен заменяющих шрифтов, которые будут использоваться, если исходный шрифт недоступен. Заменители будут проверяться на наличие имени шрифта и[`AltName`](../fontinfo/altname/) (если есть).
 
 ## Примеры
 
@@ -52,7 +52,7 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// Создаем новое правило подстановки таблиц и загружаем таблицу подстановки шрифтов Microsoft Windows по умолчанию.
+// Создаем новое правило подстановки таблицы и загружаем таблицу подстановки шрифтов Microsoft Windows по умолчанию.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
@@ -63,15 +63,15 @@ Assert.AreEqual(new[] {"Times New Roman"},
 // Мы можем сохранить таблицу в виде XML-документа.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// В Linux есть своя таблица подстановок.
-// Существует несколько шрифтов-заменителей «Times New Roman CE».
-// Если первая замена "FreeSerif" также недоступна,
-// это правило будет циклически перебирать остальные в массиве, пока не найдет доступное.
+// В Linux есть собственная таблица замен.
+// Существует несколько альтернативных шрифтов для «Times New Roman CE».
+// Если первая замена, "FreeSerif", также недоступна,
+// это правило будет циклически перебирать остальные элементы массива, пока не найдет доступный.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// Сохраняем таблицу подстановок Linux в виде XML-документа с использованием потока.
+// Сохраняем таблицу подстановок Linux в виде XML-документа с помощью потока.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

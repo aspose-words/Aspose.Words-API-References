@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitRowEnd
 linktitle: VisitRowEnd
 articleTitle: VisitRowEnd
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitRowEnd metodo. Chiamato al termine dellenumerazione di una riga della tabella in C#.
+description: Scopri il metodo VisitRowEnd di DocumentVisitor, essenziale per gestire l'enumerazione delle righe delle tabelle nelle tue applicazioni. Migliora l'efficienza della tua programmazione oggi stesso!
 type: docs
 weight: 340
 url: /it/net/aspose.words/documentvisitor/visitrowend/
 ---
 ## DocumentVisitor.VisitRowEnd method
 
-Chiamato al termine dell'enumerazione di una riga della tabella.
+Chiamato quando l'enumerazione di una riga della tabella è terminata.
 
 ```csharp
 public virtual VisitorAction VisitRowEnd(Row row)
@@ -34,8 +34,8 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void TableToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi della tabella incontrati e dei loro figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi della tabella rilevati e dei loro elementi figlio.
 /// </summary>
 public class TableStructurePrinter : DocumentVisitor
 {
@@ -60,8 +60,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
-    /// Le esecuzioni che non si trovano all'interno delle tabelle non vengono registrate.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
+    /// Le esecuzioni che non sono presenti nelle tabelle non vengono registrate.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -71,7 +71,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una tabella nel documento.
+    /// Chiamato quando nel documento viene rilevata una tabella.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -92,7 +92,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Tabella sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Tabella.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -104,7 +104,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un nodo Riga nel documento.
+    /// Chiamato quando nel documento viene rilevato un nodo Row.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -124,7 +124,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Row sono stati visitati.
+    /// Chiamato dopo che sono stati visitati tutti i nodi figlio di un nodo Riga.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {
@@ -135,7 +135,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Cella.
+    /// Chiamato quando nel documento viene rilevato un nodo Cell.
     /// </summary>
     public override VisitorAction VisitCellStart(Cell cell)
     {
@@ -154,7 +154,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato dopo che tutti i nodi figli di un nodo Cella sono stati visitati.
+    /// Chiamato dopo che tutti i nodi figlio di un nodo Cell sono stati visitati.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -164,8 +164,8 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiungi una riga a StringBuilder e applica un rientro a seconda della profondità del visitatore
-    /// nell'albero dei nodi secondari della tabella corrente.
+    /// Aggiungi una riga allo StringBuilder e rientrala a seconda della profondità del visitatore
+    /// nell'albero dei nodi figlio della tabella corrente.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)
@@ -193,7 +193,7 @@ public void RemoveHiddenContentFromDocument()
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
     // Di seguito sono riportati tre tipi di campi che possono accettare un visitatore del documento,
-    // che gli consentirà di visitare il nodo accettante e quindi di attraversare i suoi nodi figli in modo approfondito.
+    // che gli consentirà di visitare il nodo accettante e quindi attraversare i suoi nodi figlio in modalità depth-first.
     // 1 - Nodo paragrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -214,7 +214,7 @@ public void RemoveHiddenContentFromDocument()
 public class RemoveHiddenContentVisitor : DocumentVisitor
 {
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldStart.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldStart.
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -225,7 +225,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldEnd.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldEnd.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {
@@ -236,7 +236,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo FieldSeparator.
+    /// Chiamato quando nel documento viene rilevato un nodo FieldSeparator.
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -247,7 +247,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -258,7 +258,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Paragrafo.
+    /// Chiamato quando nel documento viene rilevato un nodo Paragrafo.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -269,7 +269,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un FormField nel documento.
+    /// Chiamato quando nel documento viene rilevato un FormField.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -291,7 +291,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrata una forma nel documento.
+    /// Chiamato quando nel documento viene rilevata una forma.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -302,7 +302,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando viene incontrato un commento nel documento.
+    /// Chiamato quando nel documento viene rilevato un commento.
     /// </summary>
     public override VisitorAction VisitCommentStart(Comment comment)
     {
@@ -324,10 +324,12 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato uno SpecialCharacter.
+    /// Chiamato quando nel documento viene rilevato uno SpecialCharacter.
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -335,13 +337,13 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Tabella viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Tabella nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // Il contenuto all'interno delle celle della tabella può avere il flag di contenuto nascosto, ma le tabelle stesse no.
-        // Se questa tabella non avesse altro che contenuto nascosto, questo visitatore lo avrebbe rimosso tutto,
-        // e non rimarrebbero nodi figli.
+        // Il contenuto all'interno delle celle della tabella potrebbe avere il flag di contenuto nascosto, ma le tabelle stesse no.
+        // Se questa tabella non avesse altro che contenuti nascosti, questo visitatore li avrebbe rimossi tutti,
+        // e non rimarrebbero nodi figlio.
         // Pertanto, possiamo anche trattare la tabella stessa come contenuto nascosto e rimuoverla.
         // Le tabelle vuote ma senza contenuto nascosto avranno celle con paragrafi vuoti all'interno,
         // che questo visitatore non rimuoverà.
@@ -352,7 +354,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Cella termina nel documento.
+    /// Chiamato quando la visita di un nodo Cella è terminata nel documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {
@@ -363,7 +365,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando la visita di un nodo Riga viene terminata nel documento.
+    /// Chiamato quando la visita di un nodo Riga nel documento è terminata.
     /// </summary>
     public override VisitorAction VisitRowEnd(Row row)
     {

@@ -3,7 +3,7 @@ title: PageSavingArgs.PageIndex
 linktitle: PageIndex
 articleTitle: PageIndex
 second_title: Aspose.Words para .NET
-description: PageSavingArgs PageIndex propiedad. Índice de la página actual en C#.
+description: Descubra la propiedad PageIndex de PageSavingArgs para una gestión eficiente de páginas. Optimice su navegación con un seguimiento preciso de la página actual.
 type: docs
 weight: 40
 url: /es/net/aspose.words.saving/pagesavingargs/pageindex/
@@ -34,11 +34,11 @@ public void PageFileNames()
     builder.Writeln("Page 3.");
 
     // Crea un objeto "HtmlFixedSaveOptions", que podemos pasar al método "Guardar" del documento
-    // para modificar cómo convertimos el documento a HTML.
+    // para modificar la forma en que convertimos el documento a HTML.
     HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions();
 
-    // Guardaremos cada página de este documento en un archivo HTML independiente en el sistema de archivos local.
-    // Establece una devolución de llamada que nos permite nombrar cada documento HTML de salida.
+    // Guardaremos cada página de este documento en un archivo HTML separado en el sistema de archivos local.
+    // Establezca una devolución de llamada que nos permita nombrar cada documento HTML de salida.
     htmlFixedSaveOptions.PageSavingCallback = new CustomFileNamePageSavingCallback();
 
     doc.Save(ArtifactsDir + "SavingCallback.PageFileNames.html", htmlFixedSaveOptions);
@@ -59,10 +59,10 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         string outFileName = $"{ArtifactsDir}SavingCallback.PageFileNames.Page_{args.PageIndex}.html";
 
         // A continuación se muestran dos formas de especificar dónde Aspose.Words guardará cada página del documento.
-        // 1 - Establece un nombre de archivo para el archivo de la página de salida:
+        // 1 - Establezca un nombre de archivo para el archivo de página de salida:
         args.PageFileName = outFileName;
 
-        // 2 - Crea una secuencia personalizada para el archivo de la página de salida:
+        // 2 - Crea una secuencia personalizada para el archivo de página de salida:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
         Assert.False(args.KeepPageStreamOpen);

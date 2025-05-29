@@ -3,14 +3,14 @@ title: DocumentReaderPluginLoadException Class
 linktitle: DocumentReaderPluginLoadException
 articleTitle: DocumentReaderPluginLoadException
 second_title: Aspose.Words para .NET
-description: Aspose.Words.DocumentReaderPluginLoadException clase. Se produce durante la carga del documento cuando no se puede cargar el complemento necesario para leer el formato del documento en C#.
+description: Descubra la clase Aspose.Words.DocumentReaderPluginLoadException, diseñada para mejorar la carga de documentos al gestionar sin problemas los problemas de compatibilidad de formato.
 type: docs
-weight: 460
+weight: 680
 url: /es/net/aspose.words/documentreaderpluginloadexception/
 ---
 ## DocumentReaderPluginLoadException class
 
-Se produce durante la carga del documento, cuando no se puede cargar el complemento necesario para leer el formato del documento.
+Se lanza durante la carga del documento, cuando no se puede cargar el complemento necesario para leer el formato del documento.
 
 ```csharp
 public class DocumentReaderPluginLoadException : Exception

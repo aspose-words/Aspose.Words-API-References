@@ -3,14 +3,14 @@ title: IBibliographyStylesProvider Interface
 linktitle: IBibliographyStylesProvider
 articleTitle: IBibliographyStylesProvider
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.IBibliographyStylesProvider interfaccia. Implementa questa interfaccia per fornire uno stile bibliografico per ilFieldBibliography EFieldCitation campi quando vengono aggiornati in C#.
+description: Migliora la formattazione dei tuoi documenti con l'interfaccia Aspose.Words.IBibliographyStylesProvider, perfetta per personalizzare gli stili bibliografici nelle citazioni.
 type: docs
-weight: 2670
+weight: 3080
 url: /it/net/aspose.words.fields/ibibliographystylesprovider/
 ---
 ## IBibliographyStylesProvider interface
 
-Implementa questa interfaccia per fornire uno stile bibliografico per il[`FieldBibliography`](../fieldbibliography/) E[`FieldCitation`](../fieldcitation/) campi quando vengono aggiornati.
+Implementa questa interfaccia per fornire uno stile bibliografico per [`FieldBibliography`](../fieldbibliography/) E[`FieldCitation`](../fieldcitation/) campi quando vengono aggiornati.
 
 ```csharp
 public interface IBibliographyStylesProvider
@@ -24,17 +24,21 @@ public interface IBibliographyStylesProvider
 
 ## Esempi
 
-Mostra come sovrascrivere gli stili integrati o fornirne uno personalizzato.
+Mostra come sovrascrivere gli stili predefiniti o fornirne di personalizzati.
 
 ```csharp
 public void ChangeBibliographyStyles()
-{            
+{
     Document doc = new Document(MyDir + "Bibliography.docx");
+
+    // Se il documento ha già uno stile, puoi modificarlo con il seguente codice:
+    // doc.Bibliography.BibliographyStyle = "Stile personalizzato bibliografia.xsl";
 
     doc.FieldOptions.BibliographyStylesProvider = new BibliographyStylesProvider();
     doc.UpdateFields();
 
     doc.Save(ArtifactsDir + "Field.ChangeBibliographyStyles.docx");
+
 }
 
 public class BibliographyStylesProvider : IBibliographyStylesProvider

@@ -3,16 +3,16 @@ title: TableCollection Class
 linktitle: TableCollection
 articleTitle: TableCollection
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Tables.TableCollection clase. Proporciona acceso escrito a una colección deTable nodos en C#.
+description: Descubra la clase Aspose.Words.Tables.TableCollection para un acceso fácil y tipificado a los nodos de tabla, mejorando la eficiencia y la flexibilidad del procesamiento de documentos.
 type: docs
-weight: 6360
+weight: 7210
 url: /es/net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class
 
-Proporciona acceso escrito a una colección de[`Table`](../table/) nodos.
+Proporciona acceso tipificado a una colección de[`Table`](../table/) nodos.
 
-Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) artículo de documentación.
+Para obtener más información, visite el[Trabajar con tablas](https://docs.aspose.com/words/net/working-with-tables/) Artículo de documentación.
 
 ```csharp
 public class TableCollection : NodeCollection
@@ -22,8 +22,8 @@ public class TableCollection : NodeCollection
 
 | Nombre | Descripción |
 | --- | --- |
-| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos de la colección. |
-| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera un[`Table`](../table/) en el índice dado. (2 indexers) |
+| [Count](../../aspose.words/nodecollection/count/) { get; } | Obtiene el número de nodos en la colección. |
+| [Item](../../aspose.words.tables/tablecollection/item/) { get; } | Recupera una[`Table`](../table/) en el índice dado. (2 indexers) |
 
 ## Métodos
 
@@ -32,12 +32,12 @@ public class TableCollection : NodeCollection
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../../aspose.words/node/)*) | Agrega un nodo al final de la colección. |
 | [Clear](../../aspose.words/nodecollection/clear/)() | Elimina todos los nodos de esta colección y del documento. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../../aspose.words/node/)*) | Determina si un nodo está en la colección. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración de estilo "foreach" simple sobre la colección de nodos. |
-| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice de base cero del nodo especificado. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Proporciona una iteración simple al estilo "foreach" sobre la colección de nodos. |
+| [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../../aspose.words/node/)*) | Devuelve el índice basado en cero del nodo especificado. |
 | [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../../aspose.words/node/)*) | Inserta un nodo en la colección en el índice especificado. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../../aspose.words/node/)*) | Elimina el nodo de la colección y del documento. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Elimina el nodo en el índice especificado de la colección y del documento. |
-| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia todas las tablas de la colección en una nueva matriz de tablas. (2 methods) |
+| [ToArray](../../aspose.words.tables/tablecollection/toarray/#toarray_1)() | Copia todas las tablas de la colección a una nueva matriz de tablas. (2 methods) |
 
 ## Ejemplos
 
@@ -61,7 +61,7 @@ Assert.AreEqual(3, tables[0].Rows.Count);
 Assert.AreEqual(2, tables[1].Rows.Count);
 ```
 
-Muestra cómo saber si una tabla está anidada.
+Muestra cómo averiguar si las tablas están anidadas.
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -91,7 +91,7 @@ public void CalculateDepthOfNestedTables()
 /// Calcula en qué nivel está anidada una tabla dentro de otras tablas.
 /// </summary>
 /// <returns>
-/// Un número entero que indica la profundidad de anidamiento de la tabla (número de nodos de la tabla principal).
+/// Un entero que indica la profundidad de anidación de la tabla (número de nodos de la tabla principal).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -109,19 +109,19 @@ private static int GetNestedDepthOfTable(Table table)
 
 /// <summary>
 /// Determina si una tabla contiene alguna tabla secundaria inmediata dentro de sus celdas.
-/// No recorra recursivamente esas tablas para buscar más tablas.
+/// No recorra recursivamente esas tablas para buscar otras tablas.
 /// </summary>
 /// <returns>
 /// Devuelve verdadero si al menos una celda secundaria contiene una tabla.
-/// Devuelve falso si ninguna celda de la tabla contiene una tabla.
+/// Devuelve falso si ninguna celda en la tabla contiene una tabla.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

@@ -3,7 +3,7 @@ title: FieldUserInitials.UserInitials
 linktitle: UserInitials
 articleTitle: UserInitials
 second_title: Aspose.Words для .NET
-description: FieldUserInitials UserInitials свойство. Получает или задает инициалы текущего пользователя на С#.
+description: Получите доступ к свойству FieldUserInitials и настройте его, чтобы легко управлять инициалами пользователей, улучшая персонализацию и пользовательский опыт.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.fields/fielduserinitials/userinitials/
@@ -23,7 +23,7 @@ public string UserInitials { get; set; }
 ```csharp
 Document doc = new Document();
 
-// Создайте объект UserInformation и установите его в качестве источника информации о пользователе для любых полей, которые мы создаем.
+// Создаем объект UserInformation и устанавливаем его как источник информации о пользователе для любых полей, которые мы создаем.
 UserInformation userInformation = new UserInformation();
 userInformation.Initials = "J. D.";
 doc.FieldOptions.CurrentUser = userInformation;
@@ -37,14 +37,14 @@ Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
 Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. D.", fieldUserInitials.Result);
 
- // Мы можем установить это свойство, чтобы наше поле переопределяло значение, хранящееся в данный момент в объекте UserInformation.
+ // Мы можем задать это свойство, чтобы наше поле переопределяло значение, которое в данный момент хранится в объекте UserInformation.
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 
 Assert.AreEqual(" USERINITIALS  \"J. C.\"", fieldUserInitials.GetFieldCode());
 Assert.AreEqual("J. C.", fieldUserInitials.Result);
 
-// Это не влияет на значение объекта UserInformation.
+// Это не влияет на значение в объекте UserInformation.
 Assert.AreEqual("J. D.", doc.FieldOptions.CurrentUser.Initials);
 
 doc.UpdateFields();

@@ -3,9 +3,9 @@ title: Shape.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: Shape Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод Shape Accept, разработанный для повышения вовлеченности посетителей и оптимизации процесса принятия для достижения лучших результатов.
 type: docs
-weight: 240
+weight: 250
 url: /ru/net/aspose.words.drawing/shape/accept/
 ---
 ## Shape.Accept method
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 Звонки[`VisitShapeStart`](../../../aspose.words/documentvisitor/visitshapestart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов формы и вызовов[`VisitShapeEnd`](../../../aspose.words/documentvisitor/visitshapeend/) в конце.
 
 ## Примеры
 
-Показывает, как перебирать все фигуры в документе.
+Показывает, как перебрать все фигуры в документе.
 
 ```csharp
 public void VisitShapes()
@@ -47,7 +47,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Регистрирует информацию о внешнем виде посещенных фигур.
+/// Регистрирует информацию, связанную с внешним видом посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -77,7 +77,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла Shape.
+    /// Вызывается, когда посетитель посещает начало узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -97,7 +97,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -113,7 +112,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла Shape.
+    /// Вызывается, когда посетитель посещает конец узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -125,7 +124,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла GroupShape.
+    /// Вызывается, когда посетитель посещает начало узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -136,7 +135,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла GroupShape.
+    /// Вызывается, когда посетитель посещает конец узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

@@ -1,7 +1,9 @@
 ---
 title: Section.AcceptEnd
-second_title: Aspose.Words for .NET API Referansı
-description: Section yöntem. 
+linktitle: AcceptEnd
+articleTitle: AcceptEnd
+second_title: .NET için Aspose.Words
+description: Rehberimizde güçlü AcceptEnd yöntemini keşfedin. Uzman görüşleri ve pratik ipuçlarıyla becerilerinizi geliştirin ve iş akışınızı kolaylaştırın!
 type: docs
 weight: 80
 url: /tr/net/aspose.words/section/acceptend/
@@ -17,7 +19,5 @@ public override VisitorAction AcceptEnd(DocumentVisitor visitor)
 * enum [VisitorAction](../../visitoraction/)
 * class [DocumentVisitor](../../documentvisitor/)
 * class [Section](../)
-* ad alanı [Aspose.Words](../../section/)
+* ad alanı [Aspose.Words](../../../aspose.words/)
 * toplantı [Aspose.Words](../../../)
-
-

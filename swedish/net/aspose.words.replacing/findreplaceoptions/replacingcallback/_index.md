@@ -3,9 +3,9 @@ title: FindReplaceOptions.ReplacingCallback
 linktitle: ReplacingCallback
 articleTitle: ReplacingCallback
 second_title: Aspose.Words för .NET
-description: FindReplaceOptions ReplacingCallback fast egendom. Den användardefinierade metoden som anropas före varje ersättningsförekomst i C#.
+description: Upptäck egenskapen FindReplaceOptions ReplaceingCallback, en anpassningsbar metod som förbättrar din ersättningsfunktionalitet med precision och kontroll.
 type: docs
-weight: 150
+weight: 160
 url: /sv/net/aspose.words.replacing/findreplaceoptions/replacingcallback/
 ---
 ## FindReplaceOptions.ReplacingCallback property
@@ -29,10 +29,10 @@ public void ReplaceWithCallback()
     builder.Writeln("Our new location in New York City is opening tomorrow. " +
                     "Hope to see all our NYC-based customers at the opening!");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in en återuppringning som spårar alla ersättningar som "Ersätt"-metoden kommer att göra.
+    // Ställ in en återanropning som spårar alla ersättningar som "Replace"-metoden gör.
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -46,8 +46,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Upprätthåller en logg över varje textersättning som görs med en sök-och-ersätt-operation
-/// och noterar den ursprungliga matchade textens värde.
+/// Upprätthåller en logg över varje textersättning som görs av en sök-och-ersätt-operation
+/// och noterar den ursprungliga matchande textens värde.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -69,7 +69,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
+Visar hur man använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -81,10 +81,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill tillämpa på operationens resulterande text.
+    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill använda på operationens resulterande text.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -102,8 +102,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Ersätter numeriska sök-och-ersätt-matchningar med deras hexadecimala motsvarigheter.
-/// Upprätthåller en logg över varje ersättning.
+/// Ersätter numeriska sök-och-ersätt-träffar med deras hexadecimala motsvarigheter.
+/// För en logg över varje byte.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

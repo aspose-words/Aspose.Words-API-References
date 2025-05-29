@@ -2,15 +2,15 @@
 title: Border.Shadow
 linktitle: Shadow
 articleTitle: Shadow
-second_title: Aspose.Words for .NET
-description: Border Shadow mülk. Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızı geliştirmek için Border Shadow özelliğini keşfedin! Kenarlıklar için gölge efektlerini kontrol edin ve kullanıcı arayüzünüzü çarpıcı görsellerle yükseltin.
 type: docs
 weight: 60
 url: /tr/net/aspose.words/border/shadow/
 ---
 ## Border.Shadow property
 
-Kenarlığın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
+Sınırın gölgesi olup olmadığını belirten bir değer alır veya ayarlar.
 
 ```csharp
 public bool Shadow { get; set; }
@@ -18,7 +18,7 @@ public bool Shadow { get; set; }
 
 ## Notlar
 
-Microsoft Word'de, bir kenarlığın gölgeye sahip olması için, dört kenardaki (sol, üst, sağ ve alt) kenarlıkların aynı türde, genişlikte ve renkte olması ve hepsinde Shadow özelliğinin olarak ayarlanması gerekir`doğru`.
+Microsoft Word'de, bir kenarlığın gölgeye sahip olması için, dört taraftaki kenarlıklar (sol, üst, sağ ve alt) aynı türde, genişlikte, renkte olmalı ve hepsinin Gölge özelliği şu şekilde ayarlanmalıdır:`doğru`.
 
 ## Örnekler
 

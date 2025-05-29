@@ -2,8 +2,8 @@
 title: BookmarkCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: BookmarkCollection Item 财产. 返回指定索引处的书签 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 BookmarkCollection Item 属性，轻松通过索引检索书签，从而简化导航并增强用户体验。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/bookmarkcollection/item/
@@ -22,13 +22,13 @@ public Bookmark this[int index] { get; }
 
 ## 评论
 
-该索引是从零开始的。
+该索引从零开始。
 
-允许使用负索引，并指示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示最后一项，依此类推。
+允许使用负索引，表示从集合的后面进行访问。 例如 -1 表示最后一项，-2 表示倒数第二项，依此类推。
 
 如果索引大于或等于列表中的项目数，则返回空引用。
 
-如果索引为负并且其绝对值大于列表中的项目数，则返回空引用。
+如果索引为负数并且其绝对值大于列表中的项目数，则返回空引用。
 
 ## 例子
 
@@ -46,7 +46,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 
@@ -135,11 +135,11 @@ public Bookmark this[string bookmarkName] { get; }
 
 | 范围 | 描述 |
 | --- | --- |
-| bookmarkName | 书签名称不区分大小写。 |
+| bookmarkName | 不区分大小写的书签名称。 |
 
 ## 评论
 
-退货`无效的`如果找不到指定名称的书签。
+返回`无效的`如果找不到具有指定名称的书签。
 
 ## 例子
 
@@ -157,7 +157,7 @@ public void CreateUpdateAndPrintBookmarks()
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
-    // 再次打印所有书签以查看更新后的值。
+    // 再次打印所有书签以查看更新的值。
     PrintAllBookmarkInfo(bookmarks);
 }
 

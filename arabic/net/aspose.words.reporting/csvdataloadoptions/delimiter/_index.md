@@ -3,14 +3,14 @@ title: CsvDataLoadOptions.Delimiter
 linktitle: Delimiter
 articleTitle: Delimiter
 second_title: Aspose.Words لـ .NET
-description: CsvDataLoadOptions Delimiter ملكية. الحصول على أو تعيين الحرف الذي سيتم استخدامه كمحدد عمود في C#.
+description: اكتشف خاصية CsvDataLoadOptions Delimiter لتخصيص فواصل الأعمدة بسهولة لضمان تحميل بيانات أكثر كفاءة. حسّن إدارة بياناتك اليوم!
 type: docs
 weight: 30
 url: /ar/net/aspose.words.reporting/csvdataloadoptions/delimiter/
 ---
 ## CsvDataLoadOptions.Delimiter property
 
-الحصول على أو تعيين الحرف الذي سيتم استخدامه كمحدد عمود.
+يحصل على الحرف الذي سيتم استخدامه كفاصل للعمود أو يعينه.
 
 ```csharp
 public char Delimiter { get; set; }
@@ -18,7 +18,26 @@ public char Delimiter { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي '،' (فاصلة).
+القيمة الافتراضية هي ',' (فاصلة).
+
+## أمثلة
+
+يوضح كيفية استخدام CSV كمصدر بيانات (سلسلة).
+
+```csharp
+Document doc = new Document(MyDir + "Reporting engine template - CSV data destination.docx");
+
+CsvDataLoadOptions loadOptions = new CsvDataLoadOptions(true);
+loadOptions.Delimiter = ';';
+loadOptions.CommentChar = '$';
+loadOptions.HasHeaders = true;
+loadOptions.QuoteChar = '"';
+
+CsvDataSource dataSource = new CsvDataSource(MyDir + "List of people.csv", loadOptions);
+BuildReport(doc, dataSource, "persons");
+
+doc.Save(ArtifactsDir + "ReportingEngine.CsvDataString.docx");
+```
 
 ### أنظر أيضا
 

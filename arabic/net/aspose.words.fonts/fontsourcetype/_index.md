@@ -3,9 +3,9 @@ title: FontSourceType Enum
 linktitle: FontSourceType
 articleTitle: FontSourceType
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.FontSourceType تعداد. يحدد نوع مصدر الخط في C#.
+description: اكتشف Aspose.Words.Fonts.FontSourceType enum لإدارة مصادر الخطوط بكفاءة. حسّن معالجة مستنداتك مع خيارات خطوط مرنة.
 type: docs
-weight: 2990
+weight: 3420
 url: /ar/net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -20,11 +20,11 @@ public enum FontSourceType
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| FontFile | `0` | أ[`FileFontSource`](../filefontsource/) الكائن الذي يمثل ملف خط واحد. |
+| FontFile | `0` | أ[`FileFontSource`](../filefontsource/) كائن يمثل ملف خط واحد. |
 | FontsFolder | `1` | أ[`FolderFontSource`](../folderfontsource/) الكائن الذي يمثل المجلد الذي يحتوي على ملفات الخطوط. |
 | MemoryFont | `2` | أ[`MemoryFontSource`](../memoryfontsource/) كائن يمثل خطًا واحدًا في الذاكرة. |
 | SystemFonts | `3` | أ[`SystemFontSource`](../systemfontsource/) الكائن الذي يمثل جميع الخطوط المثبتة على النظام. |
-| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource/) كائن يمثل دفقًا ببيانات الخط. |
+| FontStream | `4` | أ[`StreamFontSource`](../streamfontsource/) كائن يمثل مجرى بيانات الخط. |
 
 ## أمثلة
 

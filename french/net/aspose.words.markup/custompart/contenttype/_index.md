@@ -3,14 +3,14 @@ title: CustomPart.ContentType
 linktitle: ContentType
 articleTitle: ContentType
 second_title: Aspose.Words pour .NET
-description: CustomPart ContentType propriété. Spécifie le type de contenu de cette pièce personnalisée en C#.
+description: Découvrez comment la propriété CustomPart ContentType définit le type de contenu de votre composant personnalisé, améliorant ainsi les fonctionnalités et l'expérience utilisateur.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.markup/custompart/contenttype/
 ---
 ## CustomPart.ContentType property
 
-Spécifie le type de contenu de cette pièce personnalisée.
+Spécifie le type de contenu de cette partie personnalisée.
 
 ```csharp
 public string ContentType { get; set; }
@@ -18,13 +18,13 @@ public string ContentType { get; set; }
 
 ## Remarques
 
-Cette propriété est applicable uniquement lorsque[`IsExternal`](../isexternal/) est`FAUX`.
+Cette propriété n'est applicable que lorsque[`IsExternal`](../isexternal/) est`FAUX`.
 
 La valeur par défaut est une chaîne vide. Une valeur valide doit être une chaîne non vide.
 
 ## Exemples
 
-Montre comment accéder à la collection de pièces personnalisées arbitraires d’un document.
+Montre comment accéder à la collection de parties personnalisées arbitraires d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -36,7 +36,7 @@ CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
 Assert.AreEqual(3, doc.PackageCustomParts.Count);
 
-// Énumère la collection et imprime chaque partie.
+// Énumérer la collection et imprimer chaque partie.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
 {
     int index = 0;
@@ -53,7 +53,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Nous pouvons supprimer des éléments de cette collection individuellement ou tous en même temps.
+// Nous pouvons supprimer des éléments de cette collection individuellement ou tous à la fois.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

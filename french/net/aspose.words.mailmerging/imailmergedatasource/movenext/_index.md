@@ -3,7 +3,7 @@ title: IMailMergeDataSource.MoveNext
 linktitle: MoveNext
 articleTitle: MoveNext
 second_title: Aspose.Words pour .NET
-description: IMailMergeDataSource MoveNext méthode. Passe à lenregistrement suivant dans la source de données en C#.
+description: Découvrez comment la méthode IMailMergeDataSource MoveNext passe de manière transparente à l'enregistrement suivant, améliorant ainsi l'efficacité de votre gestion des données.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.mailmerging/imailmergedatasource/movenext/
@@ -18,7 +18,7 @@ public bool MoveNext()
 
 ### Return_Value
 
-`vrai` s'il est déplacé vers l'enregistrement suivant avec succès ;`FAUX` si atteint la fin de la source de données.
+`vrai` si le déplacement vers l'enregistrement suivant est réussi ;`FAUX` si la fin de la source de données est atteinte.
 
 ## Exemples
 
@@ -48,7 +48,7 @@ public void CustomDataSource()
 }
 
 /// <summary>
-/// Un exemple de classe "entité de données" dans votre application.
+/// Un exemple de classe « entité de données » dans votre application.
 /// </summary>
 public class Customer
 {
@@ -77,7 +77,7 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
     }
 
     /// <summary>
-    /// Le nom de la source de données. Utilisé par Aspose.Words uniquement lors de l’exécution d’un publipostage avec des régions répétables.
+    /// Nom de la source de données. Utilisé par Aspose.Words uniquement lors d'un publipostage avec des régions répétables.
     /// </summary>
     public string TableName
     {
@@ -98,15 +98,15 @@ public class CustomerMailMergeDataSource : IMailMergeDataSource
                 fieldValue = mCustomers[mRecordIndex].Address;
                 return true;
             default:
-                // Renvoie "false" au moteur de publipostage Aspose.Words pour signifier
-                // que nous n'avons pas trouvé de champ portant ce nom.
+                // Renvoyer « false » au moteur de publipostage Aspose.Words pour signifier
+                // que nous n'avons pas pu trouver de champ avec ce nom.
                 fieldValue = null;
                 return false;
         }
     }
 
     /// <summary>
-    /// Une implémentation standard pour passer à un enregistrement suivant dans une collection.
+    /// Une implémentation standard pour passer à l'enregistrement suivant dans une collection.
     /// </summary>
     public bool MoveNext()
     {

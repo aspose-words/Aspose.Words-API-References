@@ -3,17 +3,60 @@ title: MailMergeRegionInfo.MustacheTags
 linktitle: MustacheTags
 articleTitle: MustacheTags
 second_title: Aspose.Words für .NET
-description: MailMergeRegionInfo MustacheTags eigendom. Gibt eine Liste untergeordneter SchnurrbartTags zurück in C#.
+description: Entdecken Sie die Eigenschaft „MailMergeRegionInfo MustacheTags“, die effizient eine umfassende Liste untergeordneter Mustache-Tags für eine nahtlose Datenintegration zurückgibt.
 type: docs
 weight: 50
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/mustachetags/
 ---
 ## MailMergeRegionInfo.MustacheTags property
 
-Gibt eine Liste untergeordneter „Schnurrbart“-Tags zurück.
+Gibt eine Liste der untergeordneten „Mustache“-Tags zurück.
 
 ```csharp
 public IList<MustacheTag> MustacheTags { get; }
+```
+
+## Beispiele
+
+Zeigt, wie Serienbriefbereiche überprüft werden.
+
+```csharp
+Document doc = new Document(MyDir + "Mail merge regions.docx");
+
+// Gibt eine vollständige Hierarchie von Zusammenführungsbereichen zurück, die im Dokument verfügbare MERGEFIELDs enthalten.
+MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
+
+// Top-Regionen im Dokument abrufen.
+IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
+
+Assert.AreEqual(2, topRegions.Count);
+Assert.AreEqual("Region1", topRegions[0].Name);
+Assert.AreEqual("Region2", topRegions[1].Name);
+Assert.AreEqual(1, topRegions[0].Level);
+Assert.AreEqual(1, topRegions[1].Level);
+
+// Verschachtelte Region in der ersten oberen Region abrufen.
+IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
+
+Assert.AreEqual(2, nestedRegions.Count);
+Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
+Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
+Assert.AreEqual(2, nestedRegions[0].Level);
+Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
+
+// Liste der Felder innerhalb der ersten oberen Region abrufen.
+IList<Field> fieldList = topRegions[0].Fields;
+
+Assert.AreEqual(4, fieldList.Count);
+
+FieldMergeField startFieldMergeField = nestedRegions[0].StartField;
+
+Assert.AreEqual("TableStart:NestedRegion1", startFieldMergeField.FieldName);
+
+FieldMergeField endFieldMergeField = nestedRegions[0].EndField;
+
+Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
 ```
 
 ### Siehe auch

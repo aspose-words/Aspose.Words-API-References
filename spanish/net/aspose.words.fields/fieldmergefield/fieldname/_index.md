@@ -3,7 +3,7 @@ title: FieldMergeField.FieldName
 linktitle: FieldName
 articleTitle: FieldName
 second_title: Aspose.Words para .NET
-description: FieldMergeField FieldName propiedad. Obtiene o establece el nombre de un campo de datos en C#.
+description: Descubra la propiedad FieldName de FieldMergeField para administrar y personalizar fácilmente sus campos de datos para una mejor integración y eficiencia de los datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldmergefield/fieldname/
@@ -24,7 +24,7 @@ Muestra cómo utilizar los campos MERGEFIELD para realizar una combinación de c
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Cree una tabla de datos para usarla como fuente de datos de combinación de correspondencia.
+// Cree una tabla de datos que se utilizará como fuente de datos de combinación de correspondencia.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -38,13 +38,14 @@ fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// Podemos aplicar texto antes y después del valor que acepta este campo cuando se realiza la fusión.
+//Podemos aplicar texto antes y después del valor que acepta este campo cuando se realiza la fusión.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
-// Inserta otro MERGEFIELD para una columna diferente en la fuente de datos.
+// Inserte otro MERGEFIELD para una columna diferente en la fuente de datos.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Last Name";
 fieldMergeField.TextAfter = ":";

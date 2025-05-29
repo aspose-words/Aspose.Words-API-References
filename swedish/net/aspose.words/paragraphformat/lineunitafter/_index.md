@@ -3,14 +3,14 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words för .NET
-description: ParagraphFormat LineUnitAfter fast egendom. Hämtar eller ställer in mängden mellanrum i rutnätslinjer efter styckena i C#.
+description: Upptäck egenskapen ParagraphFormat LineUnitAfter – styr avståndet i stödlinjer för förbättrad styckelayout och förbättrad dokumentläsbarhet.
 type: docs
 weight: 220
 url: /sv/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-Hämtar eller ställer in mängden mellanrum (i rutnätslinjer) efter styckena.
+Hämtar eller ställer in avståndet (i rutnät) efter styckena.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -18,14 +18,14 @@ public double LineUnitAfter { get; set; }
 
 ## Exempel
 
-Visar hur du ändrar styckeavstånd och indrag.
+Visar hur man ändrar styckeavstånd och indrag.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Nedan finns fem olika mellanrumsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
+// Nedan följer fem olika avståndsalternativ, tillsammans med de egenskaper som deras konfiguration indirekt påverkar.
 // 1 - Vänster indrag:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 

@@ -3,7 +3,7 @@ title: Watermark.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words para .NET
-description: Watermark Remove método. Elimina la marca de agua en C#.
+description: Elimina fácilmente las marcas de agua con nuestro método eficaz. ¡Restaura tus imágenes a su belleza original y mejora tus proyectos creativos hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words/watermark/remove/
@@ -23,11 +23,11 @@ Muestra cómo crear una marca de agua de texto.
 ```csharp
 Document doc = new Document();
 
-// Agrega una marca de agua de texto sin formato.
+//Agrega una marca de agua de texto simple.
 doc.Watermark.SetText("Aspose Watermark");
 
 // Si deseamos editar el formato del texto usándolo como marca de agua,
-// podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
+// Podemos hacerlo pasando un objeto TextWatermarkOptions al crear la marca de agua.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// Podemos eliminar una marca de agua de un documento como este.
+//Podemos eliminar una marca de agua de un documento como este.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

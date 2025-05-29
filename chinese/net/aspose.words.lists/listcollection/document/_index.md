@@ -2,8 +2,8 @@
 title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
-second_title: 用于 .NET 的 Aspose.Words
-description: ListCollection Document 财产. 获取所有者文档 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ListCollection Document 属性，轻松访问所有者文档，简化数据管理。立即解锁效率！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listcollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## 例子
 
-演示如何验证列表的所有者文档属性。
+显示如何验证列表的所有者文档属性。
 
 ```csharp
 Document doc = new Document();

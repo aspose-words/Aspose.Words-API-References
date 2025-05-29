@@ -3,14 +3,14 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words för .NET
-description: Table Style fast egendom. Hämtar eller ställer in tabellstilen som tillämpas på denna tabell i C#.
+description: Upptäck hur du enkelt kan anpassa ditt bords utseende med egenskapen Tabellstil – förbättra dina designer med unika stilar utan ansträngning!
 type: docs
 weight: 270
 url: /sv/net/aspose.words.tables/table/style/
 ---
 ## Table.Style property
 
-Hämtar eller ställer in tabellstilen som tillämpas på denna tabell.
+Hämtar eller ställer in tabellstilen som tillämpas på den här tabellen.
 
 ```csharp
 public Style Style { get; set; }

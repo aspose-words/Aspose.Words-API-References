@@ -2,10 +2,10 @@
 title: ChartXValue Class
 linktitle: ChartXValue
 articleTitle: ChartXValue
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Charts.ChartXValue 班级. 表示图表系列的 X 值 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Charts.ChartXValue 类，这是定义图表系列中的 X 值的解决方案，可轻松增强数据可视化。
 type: docs
-weight: 840
+weight: 1160
 url: /zh/net/aspose.words.drawing.charts/chartxvalue/
 ---
 ## ChartXValue class
@@ -25,7 +25,7 @@ public class ChartXValue
 | [MultilevelValue](../../aspose.words.drawing.charts/chartxvalue/multilevelvalue/) { get; } | 获取存储的多级值。 |
 | [StringValue](../../aspose.words.drawing.charts/chartxvalue/stringvalue/) { get; } | 获取存储的字符串值。 |
 | [TimeValue](../../aspose.words.drawing.charts/chartxvalue/timevalue/) { get; } | 获取存储的时间值。 |
-| [ValueType](../../aspose.words.drawing.charts/chartxvalue/valuetype/) { get; } | 获取存储在对象中的 X 值的类型。 |
+| [ValueType](../../aspose.words.drawing.charts/chartxvalue/valuetype/) { get; } | 获取对象中存储的 X 值的类型。 |
 
 ## 方法
 
@@ -41,9 +41,43 @@ public class ChartXValue
 
 ## 评论
 
-此类包含许多用于创建特定类型的 X 值的静态方法。 The [`ValueType`](./valuetype/)属性允许您确定现有 X 值的类型。
+此类包含许多用于创建特定类型的 X 值的静态方法。[`ValueType`](./valuetype/)属性允许您确定现有 X 值的类型。
 
 图表系列的所有非空 X 值必须相同[`ChartXValueType`](../chartxvaluetype/)类型。
+
+## 例子
+
+展示如何用数据填充图表系列。
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
+Chart chart = shape.Chart;
+ChartSeries series1 = chart.Series[0];
+
+// 清除第一个系列的 X 和 Y 值。
+series1.ClearValues();
+
+// 用数据填充系列。
+series1.Add(ChartXValue.FromDouble(3), ChartYValue.FromDouble(10), 10);
+series1.Add(ChartXValue.FromDouble(5), ChartYValue.FromDouble(5));
+series1.Add(ChartXValue.FromDouble(7), ChartYValue.FromDouble(11));
+series1.Add(ChartXValue.FromDouble(9));
+
+ChartSeries series2 = chart.Series[1];
+// 清除第二个系列的 X 和 Y 值。
+series2.Clear();
+
+// 用数据填充系列。
+series2.Add(ChartXValue.FromDouble(2), ChartYValue.FromDouble(4));
+series2.Add(ChartXValue.FromDouble(4), ChartYValue.FromDouble(7));
+series2.Add(ChartXValue.FromDouble(6), ChartYValue.FromDouble(14));
+series2.Add(ChartXValue.FromDouble(8), ChartYValue.FromDouble(7));
+
+doc.Save(ArtifactsDir + "Charts.PopulateChartWithData.docx");
+```
 
 ### 也可以看看
 

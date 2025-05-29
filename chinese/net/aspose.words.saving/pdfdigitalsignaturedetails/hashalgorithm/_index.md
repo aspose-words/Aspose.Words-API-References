@@ -2,8 +2,8 @@
 title: PdfDigitalSignatureDetails.HashAlgorithm
 linktitle: HashAlgorithm
 articleTitle: HashAlgorithm
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfDigitalSignatureDetails HashAlgorithm 财产. 获取或设置哈希算法 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PdfDigitalSignatureDetails HashAlgorithm 属性——有效管理和定制您的哈希算法以增强数字安全性。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/
@@ -18,11 +18,11 @@ public PdfDigitalSignatureHashAlgorithm HashAlgorithm { get; set; }
 
 ## 评论
 
-默认值是 SHA-256 算法。
+默认值为SHA-256算法。
 
 ## 例子
 
-演示如何签署生成的 PDF 文档。
+展示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -36,7 +36,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
+// 当我们使用“保存”方法呈现文档时对其进行数字签名。
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

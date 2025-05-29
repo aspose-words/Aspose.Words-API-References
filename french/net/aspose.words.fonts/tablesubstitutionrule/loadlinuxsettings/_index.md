@@ -3,14 +3,14 @@ title: TableSubstitutionRule.LoadLinuxSettings
 linktitle: LoadLinuxSettings
 articleTitle: LoadLinuxSettings
 second_title: Aspose.Words pour .NET
-description: TableSubstitutionRule LoadLinuxSettings méthode. Charge les paramètres de substitution de table prédéfinis pour la plateforme Linux en C#.
+description: Chargez facilement des paramètres de substitution de table prédéfinis pour Linux avec la méthode LoadLinuxSettings. Optimisez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/
 ---
 ## TableSubstitutionRule.LoadLinuxSettings method
 
-Charge les paramètres de substitution de table prédéfinis pour la plateforme Linux.
+Charge les paramètres de substitution de table prédéfinis pour la plate-forme Linux.
 
 ```csharp
 public void LoadLinuxSettings()
@@ -29,16 +29,16 @@ doc.FontSettings = fontSettings;
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// Sous Windows, le substitut par défaut de la police "Times New Roman CE" est "Times New Roman".
+// Sous Windows, le substitut par défaut de la police « Times New Roman CE » est « Times New Roman ».
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// On peut sauvegarder le tableau sous la forme d'un document XML.
+// Nous pouvons enregistrer le tableau sous la forme d'un document XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
 // Linux a sa propre table de substitution.
-// Il existe plusieurs polices de substitution pour "Times New Roman CE".
-// Si le premier substitut, "FreeSerif" est également indisponible,
+// Il existe plusieurs polices de substitution pour « Times New Roman CE ».
+// Si le premier substitut, « FreeSerif », n'est pas non plus disponible,
 // cette règle parcourra les autres dans le tableau jusqu'à ce qu'elle en trouve une disponible.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},

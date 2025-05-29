@@ -3,14 +3,14 @@ title: FieldDatabaseDataTable Class
 linktitle: FieldDatabaseDataTable
 articleTitle: FieldDatabaseDataTable
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.FieldDatabaseDataTable klas. Stellt Daten für die bereitFieldDatabase Feldergebnis. Bitte sehenDataTable Instanz in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.FieldDatabaseDataTable, Ihre Lösung für effiziente FieldDatabase-Feldergebnisse. Schalten Sie noch heute die nahtlose Datenintegration frei!
 type: docs
-weight: 1760
+weight: 2170
 url: /de/net/aspose.words.fields/fielddatabasedatatable/
 ---
 ## FieldDatabaseDataTable class
 
-Stellt Daten für die bereit[`FieldDatabase`](../fielddatabase/) Feldergebnis. Bitte sehenDataTable Instanz.
+Liefert Daten für die[`FieldDatabase`](../fielddatabase/) Feldergebnis. Bitte beachten SieDataTable Instanz.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
@@ -22,7 +22,7 @@ public class FieldDatabaseDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` Klasse. |
+| [FieldDatabaseDataTable](fielddatabasedatatable/)(*params string[]*) | Initialisiert eine neue Instanz des`FieldDatabaseDataTable` Klasse. |
 
 ## Eigenschaften
 
@@ -35,7 +35,57 @@ public class FieldDatabaseDataTable
 
 | Name | Beschreibung |
 | --- | --- |
-| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Initialisiert eine neue Instanz von`FieldDatabaseDataTable` class aus demDataTable Instanz. |
+| static [CreateFrom](../../aspose.words.fields/fielddatabasedatatable/createfrom/)(*DataTable*) | Initialisiert eine neue Instanz des`FieldDatabaseDataTable` class aus demDataTable Instanz. |
+
+## Beispiele
+
+Zeigt, wie Daten aus einer Datenbank extrahiert und als Feld in ein Dokument eingefügt werden.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Dieses DATABASE-Feld führt eine Abfrage einer Datenbank aus und zeigt das Ergebnis in einer Tabelle an.
+FieldDatabase field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.Query = "SELECT * FROM [Products]";
+
+Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+
+// Fügen Sie ein weiteres DATABASE-Feld mit einer komplexeren Abfrage ein, die alle Produkte in absteigender Reihenfolge nach Bruttoumsatz sortiert.
+field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);
+field.FileName = DatabaseDir + "Northwind.accdb";
+field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
+field.Query =
+    "SELECT [Products].ProductName, FORMAT(SUM([Order Details].UnitPrice * (1 - [Order Details].Discount) * [Order Details].Quantity), 'Currency') AS GrossSales " +
+    "FROM([Products] " +
+    "LEFT JOIN[Order Details] ON[Products].[ProductID] = [Order Details].[ProductID]) " +
+    "GROUP BY[Products].ProductName " +
+    "ORDER BY SUM([Order Details].UnitPrice* (1 - [Order Details].Discount) * [Order Details].Quantity) DESC";
+
+// Diese Eigenschaften haben die gleiche Funktion wie LIMIT- und TOP-Klauseln.
+// Konfigurieren Sie sie so, dass in der Tabelle des Felds nur die Zeilen 1 bis 10 des Abfrageergebnisses angezeigt werden.
+field.FirstRecord = "1";
+field.LastRecord = "10";
+
+// Diese Eigenschaft ist der Index des Formats, das wir für unsere Tabelle verwenden möchten. Die Liste der Tabellenformate finden Sie im Menü "Tabellen-AutoFormat..."
+// das wird angezeigt, wenn wir ein DATABASE-Feld in Microsoft Word erstellen. Index Nr. 10 entspricht dem Format „Colorful 3“.
+field.TableFormat = "10";
+
+// Die Eigenschaft „FormatAttribute“ ist eine Zeichenfolgendarstellung einer Ganzzahl, die mehrere Flags speichert.
+// Wir können das Format, auf das die Eigenschaft TableFormat verweist, teilweise anwenden, indem wir in dieser Eigenschaft verschiedene Flags setzen.
+// Die von uns verwendete Zahl ist die Summe einer Kombination von Werten, die verschiedenen Aspekten des Tabellenstils entsprechen.
+// 63 steht für 1 (Ränder) + 2 (Schattierung) + 4 (Schriftart) + 8 (Farbe) + 16 (Automatische Anpassung) + 32 (Überschriftenzeilen).
+field.FormatAttributes = "63";
+field.InsertHeadings = true;
+field.InsertOnceOnMailMerge = true;
+
+doc.FieldOptions.FieldDatabaseProvider = new OleDbFieldDatabaseProvider();
+doc.UpdateFields();
+
+doc.Save(ArtifactsDir + "Field.DATABASE.docx");
+```
 
 ### Siehe auch
 

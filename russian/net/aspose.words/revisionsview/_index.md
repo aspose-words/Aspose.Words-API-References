@@ -3,14 +3,14 @@ title: RevisionsView Enum
 linktitle: RevisionsView
 articleTitle: RevisionsView
 second_title: Aspose.Words для .NET
-description: Aspose.Words.RevisionsView перечисление. Позволяет указать работать ли с исходной или исправленной версией документа на С#.
+description: Откройте для себя перечисление Aspose.Words.RevisionsView, чтобы легко выбирать между исходными и измененными версиями документа для упрощения редактирования и совместной работы.
 type: docs
-weight: 4810
+weight: 5550
 url: /ru/net/aspose.words/revisionsview/
 ---
 ## RevisionsView enumeration
 
-Позволяет указать, работать ли с исходной или исправленной версией документа.
+Позволяет указать, следует ли работать с исходной или измененной версией документа.
 
 ```csharp
 public enum RevisionsView
@@ -21,7 +21,7 @@ public enum RevisionsView
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Original | `0` | Указывает исходную версию документа. |
-| Final | `1` | Указывает исправленную версию документа. |
+| Final | `1` | Указывает пересмотренную версию документа. |
 
 ## Примеры
 
@@ -36,7 +36,7 @@ Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
 Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
 Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
 
-// Просматриваем объект документа так, как будто все изменения приняты. В настоящее время поддерживаются метки списков.
+// Просмотр объекта документа, как будто все изменения приняты. В настоящее время поддерживает списочные метки.
 doc.RevisionsView = RevisionsView.Final;
 
 Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);

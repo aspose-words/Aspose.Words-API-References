@@ -3,14 +3,14 @@ title: TextWatermarkOptions.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words لـ .NET
-description: TextWatermarkOptions Color ملكية. الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver  في C#.
+description: خصّص خيارات علامة النص المائية باستخدام خاصية اللون لتحسين وضوحها. حدّد لون الخط المفضل لديك لإضفاء لمسة شخصية. الافتراضي هو الفضي.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/textwatermarkoptions/color/
 ---
 ## TextWatermarkOptions.Color property
 
-الحصول على لون الخط أو تحديده. القيمة الافتراضية هيSilver .
+يُحدِّد لون الخط أو يُحدِّده. القيمة الافتراضية هيSilver .
 
 ```csharp
 public Color Color { get; set; }
@@ -23,10 +23,10 @@ public Color Color { get; set; }
 ```csharp
 Document doc = new Document();
 
-// أضف علامة مائية نصية عادية.
+//أضف علامة مائية نصية عادية.
 doc.Watermark.SetText("Aspose Watermark");
 
-// إذا أردنا تعديل تنسيق النص باستخدامه كعلامة مائية،
+// إذا أردنا تحرير تنسيق النص باستخدامه كعلامة مائية،
 // يمكننا القيام بذلك عن طريق تمرير كائن TextWatermarkOptions عند إنشاء العلامة المائية.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
@@ -39,7 +39,7 @@ doc.Watermark.SetText("Aspose Watermark", textWatermarkOptions);
 
 doc.Save(ArtifactsDir + "Document.TextWatermark.docx");
 
-// يمكننا إزالة علامة مائية من مستند مثل هذا.
+//يمكننا إزالة العلامة المائية من مستند مثل هذا.
 if (doc.Watermark.Type == WatermarkType.Text)
     doc.Watermark.Remove();
 ```

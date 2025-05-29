@@ -3,14 +3,14 @@ title: Font.TextEffect
 linktitle: TextEffect
 articleTitle: TextEffect
 second_title: Aspose.Words för .NET
-description: Font TextEffect fast egendom. Får eller ställer in teckensnittsanimeringseffekten i C#.
+description: Upptäck egenskapen Font TextEffect för att enkelt anpassa teckensnittsanimationer och förbättra dina designer med dynamiska texteffekter för en fängslande användarupplevelse.
 type: docs
-weight: 450
+weight: 460
 url: /sv/net/aspose.words/font/texteffect/
 ---
 ## Font.TextEffect property
 
-Får eller ställer in teckensnittsanimeringseffekten.
+Hämtar eller ställer in teckensnittsanimationseffekten.
 
 ```csharp
 public TextEffect TextEffect { get; set; }
@@ -18,7 +18,7 @@ public TextEffect TextEffect { get; set; }
 
 ## Exempel
 
-Visar hur man applicerar en visuell effekt på en löpning.
+Visar hur man tillämpar en visuell effekt på en löprunda.
 
 ```csharp
 Document doc = new Document();
@@ -29,7 +29,7 @@ builder.Font.TextEffect = TextEffect.SparkleText;
 
 builder.Writeln("Text with a sparkle effect.");
 
-// Äldre versioner av Microsoft Word stöder endast teckensnittsanimeringseffekter.
+// Äldre versioner av Microsoft Word stöder endast teckensnittsanimationseffekter.
 doc.Save(ArtifactsDir + "Font.SparklingText.doc");
 ```
 

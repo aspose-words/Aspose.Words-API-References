@@ -3,14 +3,14 @@ title: FieldInclude.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words für .NET
-description: FieldInclude TextConverter eigendom. Ruft den Namen des Textkonverters für das Format der enthaltenen Datei ab oder legt diesen fest in C#.
+description: Entdecken Sie die TextConverter-Eigenschaft „FieldInclude“ – verwalten Sie Dateiformatkonvertierungen ganz einfach mit anpassbaren Textkonverternamen für eine effizientere Arbeitsabwicklung.
 type: docs
 weight: 50
 url: /de/net/aspose.words.fields/fieldinclude/textconverter/
 ---
 ## FieldInclude.TextConverter property
 
-Ruft den Namen des Textkonverters für das Format der enthaltenen Datei ab oder legt diesen fest.
+Ruft den Namen des Textkonverters für das Format der eingebundenen Datei ab oder legt ihn fest.
 
 ```csharp
 public string TextConverter { get; set; }

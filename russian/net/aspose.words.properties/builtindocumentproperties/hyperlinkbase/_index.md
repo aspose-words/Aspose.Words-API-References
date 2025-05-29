@@ -3,7 +3,7 @@ title: BuiltInDocumentProperties.HyperlinkBase
 linktitle: HyperlinkBase
 articleTitle: HyperlinkBase
 second_title: Aspose.Words для .NET
-description: BuiltInDocumentProperties HyperlinkBase свойство. Указывает базовую строку используемую для оценки относительных гиперссылок в этом документе на С#.
+description: Откройте для себя свойство BuiltInDocumentProperties HyperlinkBase, позволяющее оптимизировать относительные гиперссылки в документах для бесперебойной навигации и улучшения пользовательского опыта.
 type: docs
 weight: 120
 url: /ru/net/aspose.words.properties/builtindocumentproperties/hyperlinkbase/
@@ -28,19 +28,19 @@ Aspose.Words не использует это свойство.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем относительную гиперссылку на документ в локальной файловой системе с именем «Document.docx».
+// Вставить относительную гиперссылку на документ в локальной файловой системе с именем «Document.docx».
 // При нажатии на ссылку в Microsoft Word откроется указанный документ, если он доступен.
 builder.InsertHyperlink("Relative hyperlink", "Document.docx", false);
 
-// Эта ссылка является относительной. Если в той же папке нет «Document.docx»
-// поскольку документ содержит эту ссылку, ссылка будет разорвана.
+// Эта ссылка относительная. Если в той же папке нет "Document.docx"
+// так как документ содержит эту ссылку, ссылка будет недействительной.
 Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
-// Документ, на который мы пытаемся создать ссылку, находится в другом каталоге, чем тот, в котором мы планируем сохранить документ.
- // Мы могли бы исправить подобные ссылки, поместив в каждую из них абсолютное имя файла.
-// В качестве альтернативы мы могли бы предоставить базовую ссылку, в которой каждая гиперссылка с относительным именем файла
- // будет добавлено к ссылке, когда мы нажмем на нее.
+// Документ, на который мы пытаемся создать ссылку, находится в другом каталоге, нежели тот, в котором мы планируем сохранить документ.
+ // Мы могли бы исправить такие ссылки, указав в каждой из них абсолютное имя файла.
+// В качестве альтернативы мы могли бы предоставить базовую ссылку, которая будет соответствовать каждой гиперссылке с относительным именем файла
+ // будет добавлен к ссылке, когда мы нажмем на нее.
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 

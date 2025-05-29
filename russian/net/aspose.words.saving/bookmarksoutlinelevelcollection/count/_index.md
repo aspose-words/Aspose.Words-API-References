@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: BookmarksOutlineLevelCollection Count свойство. Получает количество элементов содержащихся в коллекции на С#.
+description: Откройте для себя свойство BookmarksOutlineLevelCollection Count, чтобы легко получить доступ к общему количеству элементов в вашей коллекции для эффективного управления данными.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/bookmarksoutlinelevelcollection/count/
@@ -18,13 +18,13 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как установить уровни структуры для закладок.
+Показывает, как устанавливать уровни структуры для закладок.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем закладку, внутри которой находится другая закладка.
+// Вставить закладку с другой вложенной в нее закладкой.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -35,14 +35,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Вставляем еще одну закладку.
+// Вставить еще одну закладку.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// При сохранении в формате .pdf доступ к закладкам можно получить через раскрывающееся меню, и большинство читателей могут использовать их в качестве привязок.
+// При сохранении в формате .pdf закладки доступны через раскрывающееся меню и используются в качестве якорей большинством читателей.
 // Закладки также могут иметь числовые значения для уровней структуры,
-// включение записей структуры нижнего уровня для скрытия дочерних записей более высокого уровня при свертывании в программе чтения.
+// включение записей структуры более низкого уровня для скрытия дочерних записей более высокого уровня при свертывании в программе чтения.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -60,7 +60,7 @@ Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Существует девять уровней структуры. Их нумерация будет оптимизирована во время операции сохранения.
+// Всего девять уровней структуры. Их нумерация будет оптимизирована во время операции сохранения.
 // В этом случае уровни «5» и «9» станут «2» и «3».
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);

@@ -2,8 +2,8 @@
 title: TextBox.LayoutFlow
 linktitle: LayoutFlow
 articleTitle: LayoutFlow
-second_title: 用于 .NET 的 Aspose.Words
-description: TextBox LayoutFlow 财产. 确定形状中文本布局的流程 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 TextBox LayoutFlow 属性如何增强形状中的文本布局，从而提高项目的设计灵活性和可读性。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.drawing/textbox/layoutflow/
@@ -22,7 +22,7 @@ public LayoutFlow LayoutFlow { get; set; }
 
 ## 例子
 
-演示如何设置文本框中文本的方向。
+展示如何设置文本框内文本的方向。
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 150, 100);
 TextBox textBox = textBoxShape.TextBox;
 
-// 将文档生成器移动到文本框内部并添加文本。
+// 将文档构建器移动到文本框内并添加文本。
 builder.MoveTo(textBoxShape.LastParagraph);
 builder.Writeln("Hello world!");
 builder.Write("Hello again!");

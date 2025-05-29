@@ -3,14 +3,14 @@ title: Table.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words für .NET
-description: Table LeftIndent eigendom. Ruft den Wert ab der den linken Einzug der Tabelle darstellt oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „Table LeftIndent“, um den linken Einzug Ihrer Tabelle einfach anzupassen. Verbessern Sie Ihr Design mit präziser Steuerung für bessere Layouts!
 type: docs
 weight: 190
 url: /de/net/aspose.words.tables/table/leftindent/
 ---
 ## Table.LeftIndent property
 
-Ruft den Wert ab, der den linken Einzug der Tabelle darstellt, oder legt diesen fest.
+Ruft den Wert ab oder legt ihn fest, der den linken Einzug der Tabelle darstellt.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,7 +18,7 @@ public double LeftIndent { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man mit DocumentBuilder eine formatierte Tabelle erstellt.
+Zeigt, wie mit DocumentBuilder eine formatierte Tabelle erstellt wird.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// Legen Sie einige Formatierungsoptionen für Text und Tabellendarstellung fest.
+// Legen Sie einige Formatierungsoptionen für die Text- und Tabellendarstellung fest.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -38,7 +38,7 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// Wenn Sie die Formatierungsoptionen in einem Dokument-Builder konfigurieren, werden diese angewendet
+// Durch die Konfiguration der Formatierungsoptionen in einem Dokument-Generator werden diese angewendet
 // zur aktuellen Zelle/Zeile, in der sich der Cursor befindet,
 // sowie alle neuen Zellen und Zeilen, die mit diesem Builder erstellt wurden.
 builder.Write("Header Row,\n Cell 1");
@@ -48,8 +48,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// Konfigurieren Sie die Formatierungsobjekte des Builders für neue Zeilen und Zellen neu, die wir erstellen möchten.
-// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass diese als Kopfzeile hervorsticht.
+// Konfigurieren Sie die Formatierungsobjekte des Builders für die neuen Zeilen und Zellen neu, die wir erstellen möchten.
+// Der Builder wendet diese nicht auf die erste bereits erstellte Zeile an, sodass sie als Kopfzeile hervorsticht.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

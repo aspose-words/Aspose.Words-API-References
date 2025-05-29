@@ -3,14 +3,14 @@ title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
 second_title: Aspose.Words для .NET
-description: Shape HasImage свойство. Возвращаетистинный если фигура содержит байты изображения или связывает изображение на С#.
+description: Узнайте, содержит ли фигура данные изображения или ссылки на изображение с помощью свойства HasImage. Улучшайте свои проекты без усилий!
 type: docs
-weight: 80
+weight: 90
 url: /ru/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-Возвращает`истинный` если фигура содержит байты изображения или связывает изображение.
+Возврат`истинный` если форма имеет байты изображения или ссылается на изображение.
 
 ```csharp
 public bool HasImage { get; }
@@ -33,13 +33,13 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Показывает, как извлечь изображения из документа и сохранить их в локальной файловой системе как отдельные файлы.
+Показывает, как извлекать изображения из документа и сохранять их в локальной файловой системе в виде отдельных файлов.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Получаем коллекцию фигур из документа,
-// и сохраняем данные изображения каждой формы с изображением в виде файла в локальной файловой системе.
+// Получить коллекцию фигур из документа,
+// и сохранить данные изображения каждой фигуры с изображением в виде файла в локальной файловой системе.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -50,7 +50,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Данные изображений фигур могут содержать изображения многих возможных форматов изображений.
-        // Мы можем автоматически определить расширение файла для каждого изображения в зависимости от его формата.
+        // Мы можем автоматически определить расширение файла для каждого изображения на основе его формата.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

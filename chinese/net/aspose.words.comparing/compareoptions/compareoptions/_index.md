@@ -2,8 +2,8 @@
 title: CompareOptions
 linktitle: CompareOptions
 articleTitle: CompareOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: CompareOptions 构造函数. 默认构造函数 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 CompareOptions 构造函数，实现无缝配置的必备工具。解锁项目优化设置的强大功能！
 type: docs
 weight: 10
 url: /zh/net/aspose.words.comparing/compareoptions/compareoptions/

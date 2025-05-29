@@ -3,14 +3,14 @@ title: Document.Unprotect
 linktitle: Unprotect
 articleTitle: Unprotect
 second_title: Aspose.Words لـ .NET
-description: Document Unprotect طريقة. إزالة الحماية عن المستند بغض النظر عن كلمة المرور في C#.
+description: قم بإلغاء قفل مستنداتك بسهولة باستخدام طريقة إلغاء حماية المستندات لدينا، وإزالة أي حماية بكلمة مرور لتسهيل الوصول والتحرير.
 type: docs
-weight: 740
+weight: 790
 url: /ar/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-إزالة الحماية عن المستند بغض النظر عن كلمة المرور.
+يزيل الحماية من المستند بغض النظر عن كلمة المرور.
 
 ```csharp
 public void Unprotect()
@@ -18,9 +18,9 @@ public void Unprotect()
 
 ## ملاحظات
 
-تعمل هذه الطريقة على إلغاء حماية المستند حتى لو كان يحتوي على كلمة مرور حماية.
+تؤدي هذه الطريقة إلى إلغاء حماية المستند حتى لو كان يحتوي على كلمة مرور للحماية.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
+لاحظ أن حماية المستندات تختلف عن حماية الكتابة. يتم تحديد حماية الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
 ## أمثلة
 
@@ -32,11 +32,11 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
-// سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
+// إذا فتحنا هذا المستند باستخدام Microsoft Word بهدف تحريره،
+// سوف نحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
+// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون مستندنا.
 // لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
@@ -58,7 +58,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - بكلمة المرور الصحيحة:
+// 2 - مع كلمة المرور الصحيحة:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
@@ -74,7 +74,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ## Unprotect(*string*) {#unprotect}
 
-إزالة الحماية عن المستند إذا تم تحديد كلمة مرور صحيحة.
+يزيل الحماية من المستند إذا تم تحديد كلمة مرور صحيحة.
 
 ```csharp
 public bool Unprotect(string password)
@@ -86,13 +86,13 @@ public bool Unprotect(string password)
 
 ### قيمة الإرجاع
 
-`حقيقي` إذا تم تحديد كلمة مرور صحيحة وكان المستند غير محمي.
+`حقيقي`إذا تم تحديد كلمة مرور صحيحة وكان المستند غير محمي.
 
 ## ملاحظات
 
-تعمل هذه الطريقة على إلغاء حماية المستند فقط في حالة تحديد كلمة مرور صحيحة.
+تؤدي هذه الطريقة إلى إلغاء حماية المستند فقط إذا تم تحديد كلمة مرور صحيحة.
 
-لاحظ أن حماية المستند تختلف عن الحماية ضد الكتابة. يتم تحديد الحماية ضد الكتابة باستخدام[`WriteProtection`](../writeprotection/).
+لاحظ أن حماية المستندات تختلف عن حماية الكتابة. يتم تحديد حماية الكتابة باستخدام[`WriteProtection`](../writeprotection/).
 
 ## أمثلة
 
@@ -104,11 +104,11 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// إذا فتحنا هذا المستند باستخدام برنامج Microsoft Word بهدف تعديله،
-// سنحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
+// إذا فتحنا هذا المستند باستخدام Microsoft Word بهدف تحريره،
+// سوف نحتاج إلى تطبيق كلمة المرور لتجاوز الحماية.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
-// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون وثيقتنا.
+// لاحظ أن الحماية تنطبق فقط على مستخدمي Microsoft Word الذين يفتحون مستندنا.
 // لم نقم بتشفير المستند بأي شكل من الأشكال، ولا نحتاج إلى كلمة المرور لفتحه وتحريره برمجيًا.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
@@ -130,7 +130,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - بكلمة المرور الصحيحة:
+// 2 - مع كلمة المرور الصحيحة:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);

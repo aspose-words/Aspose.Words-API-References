@@ -3,16 +3,16 @@ title: OleFormat Class
 linktitle: OleFormat
 articleTitle: OleFormat
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.OleFormat klass. Ger åtkomst till data för ett OLEobjekt eller ActiveXkontroll i C#.
+description: Upptäck klassen Aspose.Words.Drawing.OleFormat för sömlös åtkomst till OLE-objekt och ActiveX-kontroller, vilket förbättrar dina dokumentbehandlingsmöjligheter.
 type: docs
-weight: 1150
+weight: 1530
 url: /sv/net/aspose.words.drawing/oleformat/
 ---
 ## OleFormat class
 
-Ger åtkomst till data för ett OLE-objekt eller ActiveX-kontroll.
+Ger åtkomst till data i ett OLE-objekt eller en ActiveX-kontroll.
 
-För att lära dig mer, besök[Arbeta med Ole Objects](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
+För att lära dig mer, besök[Arbeta med Ole-objekt](https://docs.aspose.com/words/net/working-with-ole-objects/) dokumentationsartikel.
 
 ```csharp
 public class OleFormat
@@ -24,30 +24,30 @@ public class OleFormat
 | --- | --- |
 | [AutoUpdate](../../aspose.words.drawing/oleformat/autoupdate/) { get; set; } | Anger om länken till OLE-objektet uppdateras automatiskt eller inte i Microsoft Word. |
 | [Clsid](../../aspose.words.drawing/oleformat/clsid/) { get; } | Hämtar CLSID för OLE-objektet. |
-| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Får ikontext för OLE-objekt. |
-| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Returnerar`Sann` om OLE-objektet är länkat (när[`SourceFullName`](./sourcefullname/) anges). |
+| [IconCaption](../../aspose.words.drawing/oleformat/iconcaption/) { get; } | Hämtar ikontext för OLE-objekt. |
+| [IsLink](../../aspose.words.drawing/oleformat/islink/) { get; } | Returer`sann` om OLE-objektet är länkat (när[`SourceFullName`](./sourcefullname/) är specificerad). |
 | [IsLocked](../../aspose.words.drawing/oleformat/islocked/) { get; set; } | Anger om länken till OLE-objektet är låst från uppdateringar. |
-| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Blir[`OleControl`](./olecontrol/) objekt om detta OLE-objekt är en ActiveX-kontroll. Annars är den här egenskapen null. |
-| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Hämtar ritaspekten för OLE-objektet. När`Sann` , visas OLE-objektet som en ikon. When`falsk` , visas OLE-objektet som innehåll. |
-| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Ge åtkomst till[`OlePackage`](../olepackage/) om OLE-objekt är ett OLE Package. Returnerar`null` annars. |
-| [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Hämtar eller ställer in ProgID för OLE-objektet. |
-| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Hämtar eller ställer in sökvägen och namnet på källfilen för det länkade OLE-objektet. |
-| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Hämtar eller ställer in en sträng som används för att identifiera den del av källfilen som länkas. |
-| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Hämtar filtillägget som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
-| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Hämtar filnamnet som föreslås för det aktuella inbäddade objektet om du vill spara det i en fil. |
+| [OleControl](../../aspose.words.drawing/oleformat/olecontrol/) { get; } | Får[`OleControl`](./olecontrol/) objekt om detta OLE-objekt är en ActiveX-kontroll. Annars är egenskapen null. |
+| [OleIcon](../../aspose.words.drawing/oleformat/oleicon/) { get; } | Hämtar ritningsaspekten av OLE-objektet. När`sann` visas OLE-objektet som en ikon. När`falsk` , OLE-objektet visas som innehåll. |
+| [OlePackage](../../aspose.words.drawing/oleformat/olepackage/) { get; } | Ge åtkomst till[`OlePackage`](../olepackage/) om OLE-objektet är ett OLE-paket. Returnerar`null` annars. |
+| [ProgId](../../aspose.words.drawing/oleformat/progid/) { get; set; } | Hämtar eller anger ProgID för OLE-objektet. |
+| [SourceFullName](../../aspose.words.drawing/oleformat/sourcefullname/) { get; set; } | Hämtar eller anger sökvägen och namnet på källfilen för det länkade OLE-objektet. |
+| [SourceItem](../../aspose.words.drawing/oleformat/sourceitem/) { get; set; } | Hämtar eller anger en sträng som används för att identifiera den del av källfilen som länkas. |
+| [SuggestedExtension](../../aspose.words.drawing/oleformat/suggestedextension/) { get; } | Hämtar den föreslagna filändelsen för det aktuella inbäddade objektet om du vill spara det i en fil. |
+| [SuggestedFileName](../../aspose.words.drawing/oleformat/suggestedfilename/) { get; } | Hämtar det föreslagna filnamnet för det aktuella inbäddade objektet om du vill spara det i en fil. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Hämtar OLE-objektdatainmatning. |
+| [GetOleEntry](../../aspose.words.drawing/oleformat/getoleentry/)(*string*) | Hämtar datainmatning för OLE-objekt. |
 | [GetRawData](../../aspose.words.drawing/oleformat/getrawdata/)() | Hämtar rådata för OLE-objekt. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Sparar data för det inbäddade objektet i den angivna strömmen. |
-| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Sparar data för det inbäddade objektet i en fil med det angivna namnet. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save)(*Stream*) | Sparar data från det inbäddade objektet i den angivna strömmen. |
+| [Save](../../aspose.words.drawing/oleformat/save/#save_1)(*string*) | Sparar data från det inbäddade objektet i en fil med det angivna namnet. |
 
 ## Anmärkningar
 
-Använd[`OleFormat`](../shape/oleformat/)egenskap för att komma åt data för ett OLE-objekt. Du skapar inte instanser av`OleFormat` klass direkt.
+Använd[`OleFormat`](../shape/oleformat/) egenskapen för att komma åt data i ett OLE-objekt. Du skapar inte instanser av`OleFormat` klass direkt.
 
 ## Exempel
 
@@ -62,7 +62,7 @@ OleFormat oleFormat = shape.OleFormat;
 
 Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
 
-// Vårt objekt är varken automatisk uppdatering eller låst från uppdateringar.
+// Vårt mål är varken automatisk uppdatering eller låst från uppdateringar.
 Assert.False(oleFormat.AutoUpdate);
 Assert.AreEqual(false, oleFormat.IsLocked);
 
@@ -70,8 +70,8 @@ Assert.AreEqual(false, oleFormat.IsLocked);
 // vi kan använda egenskapen "SuggestedExtension" för att avgöra vilket filtillägg som ska tillämpas på filen.
 Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
 
-// Nedan finns två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
-// 1 - Spara det via en stream:
+// Nedan följer två sätt att spara ett OLE-objekt till en fil i det lokala filsystemet.
+// 1 - Spara det via en ström:
 using (FileStream fs = new FileStream(ArtifactsDir + "OLE spreadsheet extracted via stream" + oleFormat.SuggestedExtension, FileMode.Create))
 {
     oleFormat.Save(fs);

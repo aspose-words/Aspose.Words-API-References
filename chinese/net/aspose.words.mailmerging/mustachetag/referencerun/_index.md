@@ -2,15 +2,15 @@
 title: MustacheTag.ReferenceRun
 linktitle: ReferenceRun
 articleTitle: ReferenceRun
-second_title: 用于 .NET 的 Aspose.Words
-description: MustacheTag ReferenceRun 财产. 获取包含标记开头的运行 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 MustacheTag ReferenceRun。访问标记标签起始的运行，实现无缝数据管理并提升性能。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.mailmerging/mustachetag/referencerun/
 ---
 ## MustacheTag.ReferenceRun property
 
-获取包含标记开头的运行。
+获取包含标签开头的运行。
 
 ```csharp
 public Run ReferenceRun { get; }
@@ -18,7 +18,7 @@ public Run ReferenceRun { get; }
 
 ## 例子
 
-展示如何使用小胡子标签。
+展示如何使用胡子标签。
 
 ```csharp
 Document document = new Document(MyDir + "Mail merge mustache tags.docx");

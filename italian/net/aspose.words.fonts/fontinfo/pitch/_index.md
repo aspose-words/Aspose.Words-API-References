@@ -3,14 +3,14 @@ title: FontInfo.Pitch
 linktitle: Pitch
 articleTitle: Pitch
 second_title: Aspose.Words per .NET
-description: FontInfo Pitch proprietà. Il passo indica se il carattere ha passo fisso spaziatura proporzionale o si basa su unimpostazione predefinita in C#.
+description: Scopri la proprietà "Pitch" di FontInfo. Scopri come definisce la spaziatura a passo fisso rispetto a quella proporzionale, migliorando la tipografia e rendendo il design più chiaro.
 type: docs
-weight: 70
+weight: 80
 url: /it/net/aspose.words.fonts/fontinfo/pitch/
 ---
 ## FontInfo.Pitch property
 
-Il passo indica se il carattere ha passo fisso, spaziatura proporzionale o si basa su un'impostazione predefinita.
+Il passo indica se il font è a passo fisso, spaziato proporzionalmente o si basa su un'impostazione predefinita.
 
 ```csharp
 public FontPitch Pitch { get; set; }
@@ -18,7 +18,7 @@ public FontPitch Pitch { get; set; }
 
 ## Esempi
 
-Mostra come accedere e stampare i dettagli di ciascun carattere in un documento.
+Mostra come accedere e stampare i dettagli di ciascun font in un documento.
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -31,7 +31,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // I nomi alternativi sono generalmente vuoti.
+        // I nomi alt sono solitamente vuoti.
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

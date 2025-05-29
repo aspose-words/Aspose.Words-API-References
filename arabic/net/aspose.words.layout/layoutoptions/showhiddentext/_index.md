@@ -3,14 +3,14 @@ title: LayoutOptions.ShowHiddenText
 linktitle: ShowHiddenText
 articleTitle: ShowHiddenText
 second_title: Aspose.Words لـ .NET
-description: LayoutOptions ShowHiddenText ملكية. الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هوخطأ شنيع  في C#.
+description: اكتشف خاصية "إظهار النص المخفي" في LayoutOptions، وتحكّم بسهولة في عرض النصوص المخفية في مستنداتك. حسّن ظهور محتواك اليوم!
 type: docs
 weight: 80
 url: /ar/net/aspose.words.layout/layoutoptions/showhiddentext/
 ---
 ## LayoutOptions.ShowHiddenText property
 
-الحصول على أو تعيين الإشارة إلى ما إذا كان سيتم عرض النص المخفي في المستند. الافتراضي هو`خطأ شنيع` .
+يحصل على أو يعين مؤشرًا لما إذا كان يتم عرض النص المخفي في المستند. الافتراضي هو`خطأ شنيع` .
 
 ```csharp
 public bool ShowHiddenText { get; set; }
@@ -18,7 +18,7 @@ public bool ShowHiddenText { get; set; }
 
 ## ملاحظات
 
-تؤثر هذه الخاصية على كافة المحتويات المخفية، وليس النص فقط.
+تؤثر هذه الخاصية على كافة المحتوى المخفي، وليس النص فقط.
 
 ## أمثلة
 

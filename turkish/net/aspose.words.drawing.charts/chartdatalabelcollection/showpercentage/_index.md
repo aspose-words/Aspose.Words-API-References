@@ -2,15 +2,15 @@
 title: ChartDataLabelCollection.ShowPercentage
 linktitle: ShowPercentage
 articleTitle: ShowPercentage
-second_title: Aspose.Words for .NET
-description: ChartDataLabelCollection ShowPercentage mülk. Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirtmeye izin verir. Varsayılan değerYANLIŞ . Yalnızca Pasta grafikleri için geçerlidir C#'da.
+second_title: .NET için Aspose.Words
+description: Veri etiketleri için yüzde değerlerini görüntüleyerek Pasta grafiklerinizi geliştirmek için ChartDataLabelCollection'daki ShowPercentage özelliğini keşfedin. Netliği ve içgörüleri artırın!
 type: docs
-weight: 120
+weight: 150
 url: /tr/net/aspose.words.drawing.charts/chartdatalabelcollection/showpercentage/
 ---
 ## ChartDataLabelCollection.ShowPercentage property
 
-Tüm serinin veri etiketleri için yüzde değerinin görüntülenip görüntülenmeyeceğini belirtmeye izin verir. Varsayılan değer:`YANLIŞ` . Yalnızca Pasta grafikleri için geçerlidir.
+Tüm serinin veri etiketleri için yüzdelik değerin görüntülenip görüntülenmeyeceğini belirtmeye olanak tanır. Varsayılan değer`YANLIŞ` . Yalnızca Pasta grafikleri için geçerlidir.
 
 ```csharp
 public bool ShowPercentage { get; set; }
@@ -18,7 +18,7 @@ public bool ShowPercentage { get; set; }
 
 ## Notlar
 
-Bu özellik için tanımlanan değer, the kullanılarak tek bir veri etiketi için geçersiz kılınabilir[`ShowPercentage`](../../chartdatalabel/showpercentage/) özellik.
+Bu özellik için tanımlanan değer, kullanılarak ayrı bir veri etiketi için geçersiz kılınabilir[`ShowPercentage`](../../chartdatalabel/showpercentage/) mülk.
 
 ## Örnekler
 
@@ -33,12 +33,12 @@ Chart chart = builder.InsertChart(ChartType.Pie, 500, 300).Chart;
 // Temiz bir grafikle başlamak için grafiğin demo veri serisini temizleyin.
 chart.Series.Clear();
 
-// Sektörlerin her biri için kategori adını ve bunların frekans tablosunu içeren özel bir grafik serisi ekleyin.
+// Her sektör için bir kategori adı ve frekans tablosu içeren özel bir grafik serisi ekleyin.
 ChartSeries series = chart.Series.Add("Aspose Test Series",
     new[] { "Word", "PDF", "Excel" },
     new[] { 2.7, 3.2, 0.8 });
 
-// Her sektörün hem yüzdesini hem de sıklığını görüntüleyecek veri etiketlerini etkinleştirin ve görünümlerini değiştirin.
+// Her sektörün hem yüzdesini hem de frekansını gösterecek veri etiketlerini etkinleştirin ve görünümlerini değiştirin.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowLeaderLines = true;

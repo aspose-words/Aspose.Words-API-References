@@ -3,14 +3,14 @@ title: ChartSeries.DataPoints
 linktitle: DataPoints
 articleTitle: DataPoints
 second_title: Aspose.Words för .NET
-description: ChartSeries DataPoints fast egendom. Returnerar en samling formateringsobjekt för alla datapunkter i denna serie i C#.
+description: Upptäck egenskapen ChartSeries DataPoints, som erbjuder en omfattande samling formateringsverktyg för att förbättra varje datapunkt i din serie.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.drawing.charts/chartseries/datapoints/
 ---
 ## ChartSeries.DataPoints property
 
-Returnerar en samling formateringsobjekt för alla datapunkter i denna serie.
+Returnerar en samling formateringsobjekt för alla datapunkter i den här serien.
 
 ```csharp
 public ChartDataPointCollection DataPoints { get; }
@@ -42,7 +42,7 @@ public void DataLabels()
         Assert.AreEqual(4, series.DataLabels.Count);
     }
 
-    // Ändra separatorsträngen för varje dataetikett i en serie.
+    // Ändra avgränsningssträngen för varje dataetikett i en serie.
     using (IEnumerator<ChartDataLabel> enumerator = chart.Series[0].DataLabels.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // För en renare graf kan vi ta bort dataetiketter individuellt.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Vi kan också ta bort en hel serie av dess dataetiketter på en gång.
+    // För en renare graf kan vi ta bort dataetiketter individuellt.
+    dataLabel.ClearFormat();
+
+    // Vi kan också ta bort en hel serie av dess dataetiketter samtidigt.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Använd dataetiketter med anpassat nummerformat och separator på flera datapunkter i en serie.
+/// Använd dataetiketter med anpassat talformat och avgränsare på flera datapunkter i en serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

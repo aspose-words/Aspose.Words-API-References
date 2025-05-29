@@ -3,7 +3,7 @@ title: Run.PhoneticGuide
 linktitle: PhoneticGuide
 articleTitle: PhoneticGuide
 second_title: Aspose.Words pour .NET
-description: Run PhoneticGuide propriété. Obtient unPhoneticGuide objet en C#.
+description: Bénéficiez d'une prononciation fluide avec PhoneticGuide. Améliorez vos compétences linguistiques et votre communication en accédant à des informations phonétiques personnalisées.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/run/phoneticguide/
@@ -21,13 +21,15 @@ public PhoneticGuide PhoneticGuide { get; }
 Montre comment obtenir les propriétés du guide phonétique.
 
 ```csharp
-Document doc = new Document(MyDir + "Phonetic guide.docx");            
+Document doc = new Document(MyDir + "Phonetic guide.docx");
 
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
-// Utiliser un guide phonétique dans le texte asiatique.
+// Utiliser le guide phonétique dans le texte asiatique.
 Assert.AreEqual(true, runs[0].IsPhoneticGuide);
-Assert.AreEqual("base", runs[0].PhoneticGuide.BaseText);
-Assert.AreEqual("ruby", runs[0].PhoneticGuide.RubyText);
+
+PhoneticGuide phoneticGuide = runs[0].PhoneticGuide;
+Assert.AreEqual("base", phoneticGuide.BaseText);
+Assert.AreEqual("ruby", phoneticGuide.RubyText);
 ```
 
 ### Voir également

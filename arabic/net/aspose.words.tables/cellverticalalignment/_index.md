@@ -3,14 +3,14 @@ title: CellVerticalAlignment Enum
 linktitle: CellVerticalAlignment
 articleTitle: CellVerticalAlignment
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Tables.CellVerticalAlignment تعداد. يحدد الضبط الرأسي للنص داخل خلية الجدول في C#.
+description: اكتشف خاصية Aspose.Words.Tables.CellVerticalAlignment لمحاذاة مثالية للنص في خلايا الجدول. حسّن تصميم مستندك بسهولة!
 type: docs
-weight: 6280
+weight: 7130
 url: /ar/net/aspose.words.tables/cellverticalalignment/
 ---
 ## CellVerticalAlignment enumeration
 
-يحدد الضبط الرأسي للنص داخل خلية الجدول.
+يحدد محاذاة رأسية للنص داخل خلية الجدول.
 
 ```csharp
 public enum CellVerticalAlignment
@@ -20,13 +20,13 @@ public enum CellVerticalAlignment
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Top | `0` | تتم محاذاة النص في أعلى الخلية. |
-| Center | `1` | تتم محاذاة النص في منتصف الخلية. |
-| Bottom | `2` | تتم محاذاة النص في أسفل الخلية. |
+| Top | `0` | تم محاذاة النص في الجزء العلوي من الخلية. |
+| Center | `1` | تم محاذاة النص في منتصف الخلية. |
+| Bottom | `2` | تم محاذاة النص في أسفل الخلية. |
 
 ## أمثلة
 
-يوضح كيفية إنشاء جدول منسق 2x2.
+يوضح كيفية إنشاء جدول 2x2 منسق.
 
 ```csharp
 Document doc = new Document();
@@ -40,8 +40,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// أثناء إنشاء الجدول، سيطبق منشئ المستندات قيم خاصية RowFormat/CellFormat الحالية الخاصة به
-// إلى الصف/الخلية الحالية التي يوجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
+// أثناء إنشاء الجدول، سيقوم منشئ المستند بتطبيق قيم خصائص RowFormat/CellFormat الحالية
+// إلى الصف/الخلية الحالية التي يتواجد بها المؤشر وأي صفوف/خلايا جديدة أثناء إنشائها.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 

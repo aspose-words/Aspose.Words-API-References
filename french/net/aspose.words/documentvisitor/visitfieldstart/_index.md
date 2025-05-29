@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitFieldStart
 linktitle: VisitFieldStart
 articleTitle: VisitFieldStart
 second_title: Aspose.Words pour .NET
-description: DocumentVisitor VisitFieldStart méthode. Appelé lorsquun champ commence dans le document en C#.
+description: Découvrez la méthode DocumentVisitor VisitFieldStart, déclenchée au début d'un champ de votre document, améliorant votre efficacité de codage et votre flux de travail.
 type: docs
 weight: 200
 url: /fr/net/aspose.words/documentvisitor/visitfieldstart/
@@ -22,17 +22,17 @@ public virtual VisitorAction VisitFieldStart(FieldStart fieldStart)
 
 ### Return_Value
 
-UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l’énumération.
+UN[`VisitorAction`](../../visitoraction/) valeur qui spécifie comment continuer l'énumération.
 
 ## Remarques
 
-Un champ dans un document Word se compose d'un code de champ et d'une valeur de champ.
+Un champ dans un document Word se compose d’un code de champ et d’une valeur de champ.
 
 Par exemple, un champ qui affiche un numéro de page peut être représenté comme suit :
 
-[FieldStart]PAGE[FieldSeparator]98[FieldEnd]
+[Début du champ]PAGE[Séparateur de champ]98[Fin du champ]
 
-Le séparateur de champ sépare le code du champ de la valeur du champ dans le document. Notez que certains champs ont uniquement un code de champ et n'ont pas de séparateur de champ ni de valeur de champ.
+Le séparateur de champ sépare le code de la valeur du champ dans le document. Notez que certains champs ne contiennent que le code, sans séparateur ni valeur.
 
 Les champs peuvent être imbriqués.
 
@@ -46,8 +46,8 @@ public void FieldToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     FieldStructurePrinter visitor = new FieldStructurePrinter();
 
-    // Lorsque nous obtenons qu'un nœud composite accepte un visiteur de document, le visiteur visite le nœud accepteur,
-    // puis parcourt tous les enfants du nœud en profondeur.
+    // Lorsque nous obtenons un nœud composite pour accepter un visiteur de document, le visiteur visite le nœud acceptant,
+    // et parcourt ensuite tous les enfants du nœud de manière approfondie.
     // Le visiteur peut lire et modifier chaque nœud visité.
     doc.Accept(visitor);
 
@@ -55,8 +55,8 @@ public void FieldToText()
 }
 
 /// <summary>
-/// Parcourt l'arborescence non binaire des nœuds enfants d'un nœud.
-/// Crée une carte sous la forme d'une chaîne de tous les nœuds Field rencontrés et de leurs enfants.
+/// Parcourt l'arbre non binaire des nœuds enfants d'un nœud.
+/// Crée une carte sous la forme d'une chaîne de tous les nœuds de champ rencontrés et de leurs enfants.
 /// </summary>
 public class FieldStructurePrinter : DocumentVisitor
 {
@@ -119,7 +119,7 @@ public class FieldStructurePrinter : DocumentVisitor
     /// Ajoutez une ligne au StringBuilder et indentez-la en fonction de la profondeur du visiteur
     /// dans l'arborescence des nœuds enfants du champ.
     /// </summary>
-    /// <param name="text"></param>
+    /// <param name="texte"></param>
     private void IndentAndAppendLine(string text)
     {
         for (int i = 0; i < mDocTraversalDepth; i++)

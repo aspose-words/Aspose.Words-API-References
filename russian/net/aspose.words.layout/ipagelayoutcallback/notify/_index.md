@@ -3,14 +3,14 @@ title: IPageLayoutCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words для .NET
-description: IPageLayoutCallback Notify метод. Вызывается для уведомления о построении макета и ходе рендеринга на С#.
+description: Откройте для себя метод iPageLayoutCallback Notify для повышения эффективности построения и рендеринга макета. Оптимизируйте производительность своего приложения сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.layout/ipagelayoutcallback/notify/
 ---
 ## IPageLayoutCallback.Notify method
 
-Вызывается для уведомления о построении макета и ходе рендеринга.
+Вызывается для уведомления о ходе построения макета и рендеринга.
 
 ```csharp
 public void Notify(PageLayoutCallbackArgs args)
@@ -22,7 +22,7 @@ public void Notify(PageLayoutCallbackArgs args)
 
 ## Примечания
 
-Исключение, вызванное реализацией, прерывает процесс построения макета.
+Исключение, выдаваемое реализацией, прерывает процесс построения макета.
 
 ## Примеры
 
@@ -45,7 +45,7 @@ public void PageLayoutCallback()
 
 /// <summary>
 /// Уведомляет нас, когда мы сохраняем документ в фиксированном формате страницы
-/// и отображает страницу, на которой мы выполняем перекомпоновку страницы, в изображение в локальной файловой системе.
+/// и отображает страницу, которую мы преобразуем в изображение в локальной файловой системе.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback
 {

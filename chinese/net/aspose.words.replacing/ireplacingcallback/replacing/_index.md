@@ -2,15 +2,15 @@
 title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
-second_title: 用于 .NET 的 Aspose.Words
-description: IReplacingCallback Replacing 方法. 用户定义的方法在替换操作期间为替换之前找到的每个匹配项调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 IReplacingCallback 方法增强您的编码！通过对找到的每个匹配执行用户定义的操作，高效地自定义替换操作。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-用户定义的方法，在替换操作期间为替换之前找到的每个匹配项调用。
+一种用户定义方法，在替换操作期间，对在进行替换之前发现的每个匹配项调用该方法。
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### 返回值
 
-A[`ReplaceAction`](../../replaceaction/)指定当前匹配要采取的操作的值。
+A[`ReplaceAction`](../../replaceaction/)指定针对当前匹配要采取的操作的值。
 
 ## 例子
 
-演示如何将所有出现的正则表达式模式替换为另一个字符串，同时跟踪所有此类替换。
+展示如何用另一个字符串替换所有出现的正则表达式模式，同时跟踪所有此类替换。
 
 ```csharp
 public void ReplaceWithCallback()
@@ -73,7 +73,7 @@ private class TextFindAndReplacementLogger : IReplacingCallback
 }
 ```
 
-演示如何在查找和替换操作中插入整个文档的内容作为匹配项的替换。
+展示如何在查找和替换操作中插入整个文档的内容来替换匹配的内容。
 
 ```csharp
 public void InsertDocumentAtReplace()
@@ -95,7 +95,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // 在包含匹配文本的段落之后插入文档。
+        // 在包含匹配文本的段落后插入文档。
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
@@ -107,7 +107,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
 }
 
 /// <summary>
-/// 在段落或表格之后插入另一个文档的所有节点。
+/// 将另一个文档的所有节点插入段落或表格后。
 /// </summary>
 private static void InsertDocument(Node insertionDestination, Document docToInsert)
 {
@@ -121,7 +121,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // 如果该节点是节中最后一个空段落，则跳过该节点。
+                // 如果它是某一部分中的最后一个空段落，则跳过该节点。
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;

@@ -3,7 +3,7 @@ title: FieldRef.InsertParagraphNumberInRelativeContext
 linktitle: InsertParagraphNumberInRelativeContext
 articleTitle: InsertParagraphNumberInRelativeContext
 second_title: Aspose.Words pour .NET
-description: FieldRef InsertParagraphNumberInRelativeContext propriété. Obtient ou définit sil faut insérer le numéro de paragraphe du paragraphe référencé dans un contexte relatif en C#.
+description: Gérez facilement la numérotation des paragraphes grâce à la propriété FieldRef InsertParagraphNumberInRelativeContext. Améliorez l'organisation et la clarté de vos documents.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldref/insertparagraphnumberinrelativecontext/
@@ -44,7 +44,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
 
-    // Insère un champ REF et affiche si le signet référencé est au-dessus ou en dessous de celui-ci.
+    // Insérer un champ REF et afficher si le signet référencé est au-dessus ou en dessous.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
@@ -56,7 +56,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
 
-    // Affiche le numéro de liste du signet, mais en omettant les caractères non délimiteurs, tels que les crochets angulaires.
+    // Affiche le numéro de liste du signet, mais avec les caractères non délimiteurs, tels que les chevrons, omis.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
@@ -81,7 +81,7 @@ public void FieldRef()
 
     Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
 
-    // À la fin du document, le signet apparaîtra ici comme élément de liste.
+    // À la fin du document, le signet apparaîtra comme un élément de liste ici.
     builder.Writeln("List level above bookmark");
     builder.ListFormat.ListLevelNumber++;
     builder.ListFormat.ListLevel.NumberFormat = ">>> \x0002";

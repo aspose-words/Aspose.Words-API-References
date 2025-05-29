@@ -3,9 +3,9 @@ title: ImageType Enum
 linktitle: ImageType
 articleTitle: ImageType
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.ImageType enum. Specifica il tipo formato di unimmagine in un documento Microsoft Word in C#.
+description: Scopri l'enum Aspose.Words.Drawing.ImageType per gestire facilmente i formati immagine nei documenti di Microsoft Word. Migliora l'aspetto visivo del tuo documento!
 type: docs
-weight: 1080
+weight: 1410
 url: /it/net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -20,34 +20,37 @@ public enum ImageType
 
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
-| NoImage | `0` | Non ci sono dati immagine. |
-| Unknown | `1` | Un tipo di immagine sconosciuto o un tipo di immagine che non può essere archiviato direttamente in un documento Microsoft Word. |
+| NoImage | `0` | Non ci sono dati di immagine. |
+| Unknown | `1` | Un tipo di immagine sconosciuto o un tipo di immagine che non può essere memorizzato direttamente all'interno di un documento di Microsoft Word. |
 | Emf | `2` | Metafile avanzato di Windows. |
 | Wmf | `3` | Metafile di Windows. |
-| Pict | `4` | Macintosh IMMAGINE. Un'immagine esistente verrà conservata in un documento, ma l'inserimento di nuove immagini PICT in un documento non è supportato. |
+| Pict | `4` | Macintosh PICT. Un'immagine esistente verrà conservata in un documento, ma l'inserimento di nuove immagini PICT in un documento non è supportato. |
 | Jpeg | `5` | JPEG JFIF. |
 | Png | `6` | Grafica di rete portatile. |
 | Bmp | `7` | Bitmap di Windows. |
 | Eps | `8` | PostScript incapsulato. |
+| WebP | `9` | WebP. |
+| Gif | `10` | GIF |
 
 ## Esempi
 
-Mostra come aggiungere un'immagine a una forma e controllarne il tipo.
+Mostra come leggere un'immagine WebP.
+
+```csharp
+Document doc = new Document(MyDir + "Document with WebP image.docx");
+
+Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+Assert.AreEqual(ImageType.WebP, shape.ImageData.ImageType);
+```
+
+Mostra come aggiungere un'immagine a una forma e verificarne il tipo.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
-
-using (MemoryStream stream = new MemoryStream(imageBytes))
-{
-    Image image = Image.FromStream(stream);
-
-    // L'immagine nell'URL è un file .gif. Inserendolo in un documento lo converte in un file .png.
-    Shape imgShape = builder.InsertImage(image);
-    Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
-}
+Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
+Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
 ```
 
 ### Guarda anche

@@ -3,7 +3,7 @@ title: WriteProtection.ReadOnlyRecommended
 linktitle: ReadOnlyRecommended
 articleTitle: ReadOnlyRecommended
 second_title: Aspose.Words för .NET
-description: WriteProtection ReadOnlyRecommended fast egendom. Anger om dokumentförfattaren har rekommenderat att dokumentet öppnas som skrivskyddat i C#.
+description: Upptäck egenskapen WriteProtection ReadOnlyRecommended, som vägleder användare att öppna dokument i skrivskyddat läge för förbättrad säkerhet och integritet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.settings/writeprotection/readonlyrecommended/
@@ -31,7 +31,7 @@ doc.WriteProtection.ReadOnlyRecommended = true;
 Assert.IsTrue(doc.WriteProtection.IsWriteProtected);
 Assert.IsTrue(doc.WriteProtection.ValidatePassword("MyPassword"));
 
-// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och det krypterar inte heller innehållet.
+// Skyddet hindrar inte dokumentet från att redigeras programmatiskt, och krypterar inte heller innehållet.
 doc.Save(ArtifactsDir + "Document.WriteProtection.docx");
 doc = new Document(ArtifactsDir + "Document.WriteProtection.docx");
 

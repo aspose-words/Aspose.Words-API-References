@@ -3,14 +3,14 @@ title: ImageSize.HeightPixels
 linktitle: HeightPixels
 articleTitle: HeightPixels
 second_title: Aspose.Words för .NET
-description: ImageSize HeightPixels fast egendom. Får bildens höjd i pixlar i C#.
+description: Upptäck egenskapen ImageSize HeightPixels för att enkelt komma åt och optimera bildens höjd i pixlar för bättre prestanda och kvalitet.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/imagesize/heightpixels/
 ---
 ## ImageSize.HeightPixels property
 
-Får bildens höjd i pixlar.
+Hämtar bildens höjd i pixlar.
 
 ```csharp
 public int HeightPixels { get; }
@@ -24,12 +24,12 @@ Visar hur man läser egenskaperna för en bild i en form.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en form i dokumentet som innehåller en bild tagen från vårt lokala filsystem.
+// Infoga en form i dokumentet som innehåller en bild hämtad från vårt lokala filsystem.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Om formen innehåller en bild kommer dess ImageData-egenskap att vara giltig,
-// och det kommer att innehålla ett ImageSize-objekt.
-ImageSize imageSize = shape.ImageData.ImageSize; 
+// och den kommer att innehålla ett ImageSize-objekt.
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // ImageSize-objektet innehåller skrivskyddad information om bilden i formen.
 Assert.AreEqual(400, imageSize.HeightPixels);
@@ -39,7 +39,7 @@ const double delta = 0.05;
 Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
 Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
 
-// Vi kan basera storleken på formen på storleken på dess bild för att undvika att bilden sträcker ut.
+// Vi kan basera formens storlek på storleken på dess bild för att undvika att bilden sträcks ut.
 shape.Width = imageSize.WidthPoints * 2;
 shape.Height = imageSize.HeightPoints * 2;
 

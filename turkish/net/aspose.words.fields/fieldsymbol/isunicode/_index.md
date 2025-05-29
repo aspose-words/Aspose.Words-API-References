@@ -2,15 +2,15 @@
 title: FieldSymbol.IsUnicode
 linktitle: IsUnicode
 articleTitle: IsUnicode
-second_title: Aspose.Words for .NET
-description: FieldSymbol IsUnicode mülk. Karakter kodunun bir Unicode karakterin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Karakter kodlarını Unicode değerleri olarak kolayca yönetmek, kodlama verimliliğinizi ve doğruluğunuzu artırmak için FieldSymbol IsUnicode özelliğini keşfedin.
 type: docs
 weight: 80
 url: /tr/net/aspose.words.fields/fieldsymbol/isunicode/
 ---
 ## FieldSymbol.IsUnicode property
 
-Karakter kodunun bir Unicode karakterin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
+Karakter kodunun bir Unicode karakterinin değeri olarak yorumlanıp yorumlanmayacağını alır veya ayarlar.
 
 ```csharp
 public bool IsUnicode { get; set; }
@@ -18,17 +18,17 @@ public bool IsUnicode { get; set; }
 
 ## Örnekler
 
-SEMBOL alanının nasıl kullanılacağını gösterir.
+SYMBOL alanının nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda tek bir karakteri görüntülemek için SEMBOL alanını kullanmanın üç yolu verilmiştir.
-// 1 - ANSI karakter koduyla belirtilen © (Telif Hakkı) sembolünü görüntüleyen bir SEMBOL alanı ekleyin:
+// Aşağıda, tek bir karakteri görüntülemek için SYMBOL alanını kullanmanın üç yolu bulunmaktadır.
+// 1 - ANSI karakter koduyla belirtilen © (Telif Hakkı) sembolünü görüntüleyen bir SİMGE alanı ekleyin:
 FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// ANSI karakter kodu "U+00A9" veya tamsayı biçimindeki "169", telif hakkı sembolüne ayrılmıştır.
+// ANSI karakter kodu "U+00A9" veya tam sayı biçiminde "169", telif hakkı simgesi için ayrılmıştır.
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
@@ -36,27 +36,27 @@ Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
 
 builder.Writeln(" Line 1");
 
-// 2 - ∞ (Sonsuzluk) sembolünü görüntüleyen bir SEMBOL alanı ekleyin ve görünümünü değiştirin:
+// 2 - ∞ (Sonsuzluk) sembolünü görüntüleyen bir SİMGE alanı ekleyin ve görünümünü değiştirin:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 
-// Unicode'da sonsuzluk simgesi "221E" kodunun başında gelir.
+// Unicode'da sonsuzluk simgesi "221E" kodunu kaplar.
 field.CharacterCode = 0x221E.ToString();
 field.IsUnicode = true;
 
-// Windows Karakter Eşlemini kullandıktan sonra sembolümüzün yazı tipini değiştirin
-// yazı tipinin o sembolü temsil edebildiğinden emin olmak için.
+// Windows Karakter Eşlemi'ni kullandıktan sonra sembolümüzün yazı tipini değiştiriyoruz
+// yazı tipinin o sembolü temsil edebilmesini sağlamak için.
 field.FontName = "Calibri";
 field.FontSize = "24";
 
-// Metnin geri kalanını kendi satırlarında aşağı itmemeleri için bu bayrağı uzun semboller için ayarlayabiliriz.
+// Uzun semboller için bu bayrağı ayarlayarak, bunların satırlarındaki metnin geri kalanını aşağıya itmemesini sağlayabiliriz.
 field.DontAffectsLineSpacing = true;
 
 Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
 
 builder.Writeln("Line 2");
 
-// 3 - あ karakterini görüntüleyen bir SEMBOL alanı ekleyin,
-// Shift-JIS (Windows-932) kod sayfasını destekleyen bir yazı tipiyle:
+// 3 - あ karakterini görüntüleyen bir SYMBOL alanı ekleyin,
+// Shift-JIS'i (Windows-932) destekleyen bir yazı tipiyle kod sayfası:
 field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true);
 field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();

@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
 second_title: Aspose.Words för .NET
-description: ReplacingArgs GroupName fast egendom. Identifierar med namn en infångad grupp iMatch som ska ersättas medReplacement string i C#.
+description: Upptäck hur du effektivt använder egenskapen GroupName för att ersätta infångade grupper i dina matchningar med anpassade strängar. Förbättra dina färdigheter i strängmanipulation!
 type: docs
 weight: 20
 url: /sv/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Identifierar, med namn, en infångad grupp i[`Match`](../match/) som ska ersättas med[`Replacement`](../replacement/) string.
+Identifierar, med namn, en fångad grupp i[`Match`](../match/) som ska ersättas med[`Replacement`](../replacement/) sträng.
 
 ```csharp
 public string GroupName { get; set; }
@@ -24,7 +24,7 @@ Standard är`null`.
 
 ## Exempel
 
-Visar hur du använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
+Visar hur man använder ett annat teckensnitt på nytt innehåll via FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Vi kan använda ett "FindReplaceOptions"-objekt för att ändra sök-och-ersätt-processen.
+    // Vi kan använda ett "FindReplaceOptions"-objekt för att modifiera sök-och-ersätt-processen.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill tillämpa på operationens resulterande text.
+    // Ställ in egenskapen "HighlightColor" till en bakgrundsfärg som vi vill använda på operationens resulterande text.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Ersätter numeriska sök-och-ersätt-matchningar med deras hexadecimala motsvarigheter.
-/// Upprätthåller en logg över varje ersättning.
+/// Ersätter numeriska sök-och-ersätt-träffar med deras hexadecimala motsvarigheter.
+/// För en logg över varje byte.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

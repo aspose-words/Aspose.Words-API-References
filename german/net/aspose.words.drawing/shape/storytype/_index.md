@@ -3,14 +3,14 @@ title: Shape.StoryType
 linktitle: StoryType
 articleTitle: StoryType
 second_title: Aspose.Words für .NET
-description: Shape StoryType eigendom. Gibt zurückTextbox  in C#.
+description: Transformieren Sie Ihre StoryType-Eigenschaft mühelos mit unserer intuitiven Textbox-Funktion. Verbessern Sie die Benutzerfreundlichkeit und optimieren Sie Ihre Content-Erstellung noch heute!
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words.drawing/shape/storytype/
 ---
 ## Shape.StoryType property
 
-Gibt zurückTextbox .
+RückgabenTextbox .
 
 ```csharp
 public StoryType StoryType { get; }
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Protokolliert darstellungsbezogene Informationen zu besuchten Formen.
+/// Protokolliert erscheinungsbezogene Informationen zu besuchten Formen.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -43,7 +43,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängt eine Zeile an den StringBuilder an, wobei für jede Einrückungsebene ein Tabulatorzeichen vorangestellt wird.
+    /// Fügt dem StringBuilder eine Zeile mit einem vorangestellten Tabulatorzeichen für jede Einrückungsebene hinzu.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -53,7 +53,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Den gesamten Text zurückgeben, den der StringBuilder gesammelt hat.
+    /// Gibt den gesamten Text zurück, den der StringBuilder angesammelt hat.
     /// </summary>
     public string GetText()
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)

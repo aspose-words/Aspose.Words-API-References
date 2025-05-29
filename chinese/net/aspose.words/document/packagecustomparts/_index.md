@@ -2,10 +2,10 @@
 title: Document.PackageCustomParts
 linktitle: PackageCustomParts
 articleTitle: PackageCustomParts
-second_title: 用于 .NET 的 Aspose.Words
-description: Document PackageCustomParts 财产. 获取或设置使用未知关系链接到 OOXML 包的自定义部分任意内容的集合 在 C#.
+second_title: Aspose.Words for .NET
+description: 轻松管理 OOXML 包中的自定义部分。轻松访问和修改链接内容，增强文档的灵活性和功能性。
 type: docs
-weight: 310
+weight: 320
 url: /zh/net/aspose.words/document/packagecustomparts/
 ---
 ## Document.PackageCustomParts property
@@ -18,17 +18,17 @@ public CustomPartCollection PackageCustomParts { get; set; }
 
 ## 评论
 
-不要将这些自定义部分与自定义 XML 数据混淆。如果您需要访问自定义 XML 部分， 使用[`CustomXmlParts`](../customxmlparts/)财产。
+请勿将这些自定义部分与自定义 XML 数据混淆。如果您需要访问自定义 XML 部分，请使用[`CustomXmlParts`](../customxmlparts/)财产。
 
-此集合包含 OOXML 部分，其父级是 OOXML 包，并且它们的目标具有“未知关系”。 有关详细信息，请参阅[`CustomPart`](../../../aspose.words.markup/custompart/)。
+此集合包含 OOXML 部分，其父级是 OOXML 包，并且它们的目标是“未知关系”。 有关详细信息，请参阅[`CustomPart`](../../../aspose.words.markup/custompart/)。
 
-Aspose.Words 仅将自定义部件加载并保存到 OOXML 文档中。
+Aspose.Words 仅将自定义部分加载并保存到 OOXML 文档中。
 
-该属性不能`无效的`。
+此属性不能`无效的`。
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

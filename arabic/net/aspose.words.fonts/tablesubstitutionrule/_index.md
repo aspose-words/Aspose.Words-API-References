@@ -3,9 +3,9 @@ title: TableSubstitutionRule Class
 linktitle: TableSubstitutionRule
 articleTitle: TableSubstitutionRule
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.TableSubstitutionRule فصل. قاعدة استبدال خط الجدول في C#.
+description: اكتشف فئة Aspose.Words.Fonts.TableSubstitutionRule لإدارة الخطوط بكفاءة وتنسيق النصوص بسلاسة في مستنداتك.
 type: docs
-weight: 3060
+weight: 3490
 url: /ar/net/aspose.words.fonts/tablesubstitutionrule/
 ---
 ## TableSubstitutionRule class
@@ -22,26 +22,26 @@ public class TableSubstitutionRule : FontSubstitutionRule
 
 | اسم | وصف |
 | --- | --- |
-| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة مفعلة أم لا. |
+| virtual [Enabled](../../aspose.words.fonts/fontsubstitutionrule/enabled/) { get; set; } | يحدد ما إذا كانت القاعدة ممكّنة أم لا. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | إضافة أسماء الخطوط البديلة لاسم الخط الأصلي المحدد. |
-| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | إرجاع مصفوفة تحتوي على أسماء خطوط بديلة لاسم الخط الأصلي المحدد. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | تحميل إعدادات استبدال الجدول من تدفق XML. |
-| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | تحميل إعدادات استبدال الجدول من ملف XML. |
-| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Android. |
-| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | تحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Linux. |
-| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لنظام التشغيل Windows. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | يحفظ إعدادات استبدال الجدول الحالية للبث. |
-| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | يحفظ إعدادات استبدال الجدول الحالية في ملف. |
+| [AddSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/addsubstitutes/)(*string, params string[]*) | يضيف أسماء الخطوط البديلة لاسم الخط الأصلي المحدد. |
+| [GetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/getsubstitutes/)(*string*) | إرجاع المصفوفة التي تحتوي على أسماء الخطوط البديلة لاسم الخط الأصلي المحدد. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load)(*Stream*) | يقوم بتحميل إعدادات استبدال الجدول من دفق XML. |
+| [Load](../../aspose.words.fonts/tablesubstitutionrule/load/#load_1)(*string*) | يقوم بتحميل إعدادات استبدال الجدول من ملف XML. |
+| [LoadAndroidSettings](../../aspose.words.fonts/tablesubstitutionrule/loadandroidsettings/)() | يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لمنصة Android. |
+| [LoadLinuxSettings](../../aspose.words.fonts/tablesubstitutionrule/loadlinuxsettings/)() | يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لمنصة Linux. |
+| [LoadWindowsSettings](../../aspose.words.fonts/tablesubstitutionrule/loadwindowssettings/)() | يقوم بتحميل إعدادات استبدال الجدول المحددة مسبقًا لمنصة Windows. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save)(*Stream*) | يحفظ إعدادات استبدال الجدول الحالية إلى stream. |
+| [Save](../../aspose.words.fonts/tablesubstitutionrule/save/#save_1)(*string*) | يحفظ إعدادات استبدال الجدول الحالية في الملف. |
 | [SetSubstitutes](../../aspose.words.fonts/tablesubstitutionrule/setsubstitutes/)(*string, params string[]*) | تجاوز أسماء الخطوط البديلة لاسم الخط الأصلي المحدد. |
 
 ## ملاحظات
 
-تحدد هذه القاعدة قائمة أسماء الخطوط البديلة التي سيتم استخدامها في حالة عدم توفر الخط الأصلي. سيتم التحقق من البدائل لاسم الخط واسم الخط[`AltName`](../fontinfo/altname/) (إن وجد).
+تحدد هذه القاعدة قائمة أسماء الخطوط البديلة التي سيتم استخدامها إذا لم يكن الخط الأصلي متاحًا. سيتم التحقق من البدائل لمعرفة اسم الخط و[`AltName`](../fontinfo/altname/) (إن وجد).
 
 ## أمثلة
 
@@ -52,26 +52,26 @@ Document doc = new Document();
 FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
-// أنشئ قاعدة استبدال جدول جديدة وقم بتحميل جدول استبدال الخطوط الافتراضي لـ Microsoft Windows.
+// قم بإنشاء قاعدة استبدال جدول جديدة وتحميل جدول استبدال الخطوط الافتراضي لنظام التشغيل Microsoft Windows.
 TableSubstitutionRule tableSubstitutionRule = fontSettings.SubstitutionSettings.TableSubstitution;
 tableSubstitutionRule.LoadWindowsSettings();
 
-// في نظام التشغيل Windows، البديل الافتراضي للخط "Times New Roman CE" هو "Times New Roman".
+// في Windows، البديل الافتراضي للخط "Times New Roman CE" هو "Times New Roman".
 Assert.AreEqual(new[] {"Times New Roman"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// يمكننا حفظ الجدول في شكل مستند XML.
+//يمكننا حفظ الجدول في شكل مستند XML.
 tableSubstitutionRule.Save(ArtifactsDir + "FontSettings.TableSubstitutionRule.Windows.xml");
 
-// Linux لديه جدول استبدال خاص به.
-// هناك خطوط بديلة متعددة لـ "Times New Roman CE".
-// إذا كان البديل الأول، "FreeSerif" غير متاح أيضًا،
-// ستنتقل هذه القاعدة عبر القواعد الأخرى في المصفوفة حتى تجد قاعدة متاحة.
+//يحتوي Linux على جدول الاستبدال الخاص به.
+// هناك عدة خطوط بديلة لـ "Times New Roman CE".
+// إذا كان البديل الأول، "FreeSerif"، غير متاح أيضًا،
+// ستقوم هذه القاعدة بالتنقل بين القواعد الأخرى في المصفوفة حتى تجد قاعدة متاحة.
 tableSubstitutionRule.LoadLinuxSettings();
 Assert.AreEqual(new[] {"FreeSerif", "Liberation Serif", "DejaVu Serif"},
     tableSubstitutionRule.GetSubstitutes("Times New Roman CE").ToArray());
 
-// احفظ جدول استبدال Linux في شكل مستند XML باستخدام الدفق.
+// احفظ جدول الاستبدال الخاص بنظام Linux في شكل مستند XML باستخدام دفق.
 using (FileStream fileStream = new FileStream(ArtifactsDir + "FontSettings.TableSubstitutionRule.Linux.xml",
     FileMode.Create))
 {

@@ -3,14 +3,14 @@ title: SvgSaveOptions.ResourceSavingCallback
 linktitle: ResourceSavingCallback
 articleTitle: ResourceSavingCallback
 second_title: Aspose.Words pour .NET
-description: SvgSaveOptions ResourceSavingCallback propriété. Permet de contrôler la façon dont les ressources images sont enregistrées lorsquun document est exporté au format SVG en C#.
+description: Contrôlez l'économie de ressources d'image avec la fonction ResourceSavingCallback de SvgSaveOptions. Optimisez les exportations SVG pour une qualité et une efficacité accrues.
 type: docs
-weight: 40
+weight: 70
 url: /fr/net/aspose.words.saving/svgsaveoptions/resourcesavingcallback/
 ---
 ## SvgSaveOptions.ResourceSavingCallback property
 
-Permet de contrôler la façon dont les ressources (images) sont enregistrées lorsqu'un document est exporté au format SVG.
+Permet de contrôler la manière dont les ressources (images) sont enregistrées lorsqu'un document est exporté au format SVG.
 
 ```csharp
 public IResourceSavingCallback ResourceSavingCallback { get; set; }
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// Compte et imprime les URI des ressources contenues par au fur et à mesure de leur conversion en .svg.
+/// Compte et imprime les URI des ressources contenues par lorsqu'elles sont converties en .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

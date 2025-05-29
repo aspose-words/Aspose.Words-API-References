@@ -3,9 +3,9 @@ title: Section.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words pour .NET
-description: Section EnsureMinimum méthode. Garantit que la section aBody avec unParagraph  en C#.
+description: Optimisez votre contenu avec la méthode EnsureMinimum, garantissant que chaque section comprend un corps avec un paragraphe pour une clarté et une structure améliorées.
 type: docs
-weight: 130
+weight: 150
 url: /fr/net/aspose.words/section/ensureminimum/
 ---
 ## Section.EnsureMinimum method
@@ -18,12 +18,12 @@ public void EnsureMinimum()
 
 ## Exemples
 
-Montre comment préparer un nouveau nœud de section pour la modification.
+Montre comment préparer un nouveau nœud de section pour l'édition.
 
 ```csharp
 Document doc = new Document();
 
-// Un document vierge est livré avec une section, qui a un corps, qui à son tour contient un paragraphe.
+// Un document vierge est livré avec une section, qui a un corps, qui à son tour a un paragraphe.
 // Nous pouvons ajouter du contenu à ce document en ajoutant des éléments tels que des passages de texte, des formes ou des tableaux à ce paragraphe.
 Assert.AreEqual(NodeType.Section, doc.GetChild(NodeType.Any, 0, true).NodeType);
 Assert.AreEqual(NodeType.Body, doc.Sections[0].GetChild(NodeType.Any, 0, true).NodeType);
@@ -34,7 +34,7 @@ doc.Sections.Add(new Section(doc));
 
 Assert.AreEqual(0, doc.Sections[1].GetChildNodes(NodeType.Any, true).Count);
 
-// Exécutez la méthode "EnsureMinimum" pour ajouter un corps et un paragraphe à cette section et commencer à la modifier.
+// Exécutez la méthode « EnsureMinimum » pour ajouter un corps et un paragraphe à cette section pour commencer à la modifier.
 doc.LastSection.EnsureMinimum();
 
 Assert.AreEqual(NodeType.Body, doc.Sections[1].GetChild(NodeType.Any, 0, true).NodeType);

@@ -3,9 +3,9 @@ title: Row.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words для .NET
-description: Row GetText метод. Получает текст всех ячеек в этой строке включая символ конца строки на С#.
+description: Откройте для себя метод Row GetText, позволяющий легко извлекать текст из всех ячеек в строке, включая символ конца строки, для бесперебойного управления данными.
 type: docs
-weight: 140
+weight: 160
 url: /ru/net/aspose.words.tables/row/gettext/
 ---
 ## Row.GetText method
@@ -18,9 +18,9 @@ public override string GetText()
 
 ## Примечания
 
-Возвращает объединенный текст всех дочерних узлов с концом строкиcharacter .[`Cell`](../../../aspose.words/controlchar/cell/) добавлено в конце.
+Возвращает объединенный текст всех дочерних узлов с концом строки character [`Cell`](../../../aspose.words/controlchar/cell/) добавлено в конце.
 
-Возвращенная строка включает все управляющие и специальные символы, как описано в разделе[`ControlChar`](../../../aspose.words/controlchar/).
+Возвращаемая строка включает все управляющие и специальные символы, как описано в[`ControlChar`](../../../aspose.words/controlchar/).
 
 ## Примеры
 
@@ -32,7 +32,7 @@ public void TableToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     TableStructurePrinter visitor = new TableStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -59,7 +59,7 @@ public class TableStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Выполнения, не входящие в таблицы, не записываются.
+    /// Прогоны, не входящие в таблицы, не регистрируются.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -69,7 +69,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается таблица.
+    /// Вызывается при обнаружении таблицы в документе.
     /// </summary>
     public override VisitorAction VisitTableStart(Table table)
     {
@@ -90,7 +90,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла таблицы.
+    /// Вызывается после посещения всех дочерних узлов узла Table.
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
@@ -102,7 +102,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Row.
+    /// Вызывается, когда в документе встречается узел строки.
     /// </summary>
     public override VisitorAction VisitRowStart(Row row)
     {
@@ -162,7 +162,7 @@ public class TableStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов текущей таблицы.
     /// </summary>
     /// <param name="text"></param>

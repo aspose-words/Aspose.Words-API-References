@@ -3,14 +3,14 @@ title: HorizontalRuleFormat.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words для .NET
-description: HorizontalRuleFormat Color свойство. Получает или задает цвет кисти заполняющий горизонтальное правило на С#.
+description: Откройте для себя свойство HorizontalRuleFormat Color, чтобы настроить свой дизайн. Легко установите или получите цвет кисти для потрясающего эффекта горизонтальной линии!
 type: docs
 weight: 20
 url: /ru/net/aspose.words.drawing/horizontalruleformat/color/
 ---
 ## HorizontalRuleFormat.Color property
 
-Получает или задает цвет кисти, заполняющий горизонтальное правило.
+Получает или задает цвет кисти, заполняющей горизонтальную линейку.
 
 ```csharp
 public Color Color { get; set; }
@@ -20,11 +20,11 @@ public Color Color { get; set; }
 
 Это ярлык для[`Color`](../../fill/color/) свойство.
 
-Значение по умолчанию: .Gray.
+Значение по умолчанию: Gray .
 
 ## Примеры
 
-Показывает, как вставить фигуру горизонтальной линейки и настроить ее форматирование.
+Показывает, как вставить горизонтальную линейку и настроить ее форматирование.
 
 ```csharp
 Document doc = new Document();

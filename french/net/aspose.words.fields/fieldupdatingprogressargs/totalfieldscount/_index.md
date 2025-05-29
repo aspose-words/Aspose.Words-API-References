@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.TotalFieldsCount
 linktitle: TotalFieldsCount
 articleTitle: TotalFieldsCount
 second_title: Aspose.Words pour .NET
-description: FieldUpdatingProgressArgs TotalFieldsCount propriété. Obtient le nombre total de champs à mettre à jour en C#.
+description: Découvrez la propriété TotalFieldsCount dans FieldUpdatingProgressArgs pour suivre et gérer efficacement les mises à jour des champs pour des performances améliorées.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldupdatingprogressargs/totalfieldscount/
@@ -22,7 +22,7 @@ La valeur n'est pas constante et peut être augmentée pendant le processus de m
 
 ## Exemples
 
-Montre comment utiliser les méthodes de rappel lors d’une mise à jour de champ.
+Montre comment utiliser les méthodes de rappel lors d'une mise à jour de champ.
 
 ```csharp
 public void FieldUpdatingCallbackTest()

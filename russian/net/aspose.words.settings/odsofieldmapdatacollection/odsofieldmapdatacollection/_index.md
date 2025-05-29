@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя мощный конструктор по умолчанию OdsoFieldMapDataCollection для бесшовной интеграции данных. Улучшите свои проекты с помощью эффективных картографических решений!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/odsofieldmapdatacollection/

@@ -3,7 +3,7 @@ title: PageLayoutCallbackArgs.Event
 linktitle: Event
 articleTitle: Event
 second_title: Aspose.Words para .NET
-description: PageLayoutCallbackArgs Event propiedad. Obtiene el evento en C#.
+description: Descubra la propiedad de evento PageLayoutCallbackArgs para mejorar la funcionalidad de su aplicación. Desbloquee la gestión fluida de eventos para un mejor rendimiento.
 type: docs
 weight: 20
 url: /es/net/aspose.words.layout/pagelayoutcallbackargs/event/
@@ -36,7 +36,7 @@ public void PageLayoutCallback()
 }
 
 /// <summary>
-/// Nos notifica cuando guardamos el documento en un formato de página fijo
+/// Nos avisa cuando guardamos el documento en un formato de página fijo
 /// y representa una página en la que realizamos un reflujo de página en una imagen en el sistema de archivos local.
 /// </summary>
 private class RenderPageLayoutCallback : IPageLayoutCallback

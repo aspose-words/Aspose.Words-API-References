@@ -2,8 +2,8 @@
 title: FontSettings.SetFontsFolders
 linktitle: SetFontsFolders
 articleTitle: SetFontsFolders
-second_title: 用于 .NET 的 Aspose.Words
-description: FontSettings SetFontsFolders 方法. 设置 Aspose.Words 在渲染文档或嵌入字体时查找 TrueType 字体的文件夹 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何使用 Aspose.Words 中的 SetFontsFolders 方法自定义 TrueType 字体位置，以实现最佳文档渲染和嵌入。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fonts/fontsettings/setfontsfolders/
@@ -19,7 +19,7 @@ public void SetFontsFolders(string[] fontsFolders, bool recursive)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | fontsFolders | String[] | 包含 TrueType 字体的文件夹数组。 |
-| recursive | Boolean | 如果为 True，则递归扫描指定文件夹中的字体。 |
+| recursive | Boolean | 为 True，则以递归方式扫描指定文件夹中的字体。 |
 
 ## 评论
 
@@ -40,8 +40,8 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 builder.Font.Name = "Junction Light";
 builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
-// 我们的字体源不包含我们在本文档中用于文本的字体。
-// 如果我们在渲染此文档时使用这些字体设置，
+// 我们的字体源不包含我们用于此文档文本的字体。
+// 如果我们在呈现此文档时使用这些字体设置，
 // Aspose.Words 将对具有 Aspose.Words 无法找到的字体的文本应用后备字体。
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
@@ -53,9 +53,9 @@ Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName 
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
 // 使用“SetFontsFolders”方法从我们作为第一个参数传递的每个字体目录创建字体源。
-// 传递“false”作为“recursive”参数以包含目录中所有字体文件中的字体
-// 我们传入第一个参数，但不包含任何目录子文件夹中的任何字体。
-// 传递“true”作为“recursive”参数以包含我们传递的目录中的所有字体文件
+// 传递“false”作为“递归”参数以包含目录中所有字体文件的字体
+// 我们传递了第一个参数，但不包括任何目录子文件夹中的任何字体。
+// 传递“true”作为“递归”参数，以包含我们传递的目录中的所有字体文件
 // 在第一个参数中，以及其子目录中的所有字体。
 FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", FontsDir + "/Junction"},
     recursive);

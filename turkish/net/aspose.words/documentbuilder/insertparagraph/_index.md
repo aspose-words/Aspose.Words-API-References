@@ -2,15 +2,15 @@
 title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
-second_title: Aspose.Words for .NET
-description: DocumentBuilder InsertParagraph yöntem. Belgeye paragraf sonu ekler C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizi DocumentBuilder InsertParagraph yöntemiyle zahmetsizce geliştirin; okunabilirliği artırmak için kusursuz paragraf sonları oluşturun.
 type: docs
-weight: 420
+weight: 450
 url: /tr/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
 
-Belgeye paragraf sonu ekler.
+Belgeye bir paragraf sonu ekler.
 
 ```csharp
 public Paragraph InsertParagraph()
@@ -18,19 +18,19 @@ public Paragraph InsertParagraph()
 
 ### Geri dönüş değeri
 
-Az önce eklenen paragraf düğümü. Bu aynı düğüm[`CurrentParagraph`](../currentparagraph/).
+Az önce eklenen paragraf düğümü. Aynı düğümdür[`CurrentParagraph`](../currentparagraph/).
 
 ## Notlar
 
-Tarafından belirtilen geçerli paragraf biçimlendirmesi[`ParagraphFormat`](../paragraphformat/) mülkiyet kullanılır.
+Mevcut paragraf biçimlendirmesi, tarafından belirtilmiştir[`ParagraphFormat`](../paragraphformat/) mülk kullanılır.
 
-Geçerli paragrafı ikiye böler. Paragrafı ekledikten sonra imleç yeni paragrafın başına yerleştirilir.
+Mevcut paragrafı ikiye böler. Paragraf eklendikten sonra imleç yeni paragrafın başına yerleştirilir.
 
-Geçerli imleç konumuna paragraf sonu eklemek mümkün değilse bir istisna oluşturulur.
+Mevcut imleç konumuna paragraf sonu eklemek mümkün değilse bir istisna atılır.
 
 ## Örnekler
 
-Belgeye nasıl paragraf ekleneceğini gösterir.
+Belgeye bir paragrafın nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -50,8 +50,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// "Writeln" yöntemi, metin eklendikten sonra paragrafı sonlandırır
-// ve ardından yeni bir paragraf ekleyerek yeni bir satır başlatır.
+// "Writeln" yöntemi, metni ekledikten sonra paragrafı sonlandırır
+// ve ardından yeni bir satır başlatır ve yeni bir paragraf ekler.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

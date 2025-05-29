@@ -3,7 +3,7 @@ title: Shading.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words pour .NET
-description: Shading GetHashCode méthode. Sert de fonction de hachage pour ce type en C#.
+description: Découvrez la méthode Shading GetHashCode : elle génère efficacement des valeurs de hachage uniques, améliorant ainsi l'intégrité des données et les performances de vos applications.
 type: docs
 weight: 100
 url: /fr/net/aspose.words/shading/gethashcode/

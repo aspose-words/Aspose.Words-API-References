@@ -2,8 +2,8 @@
 title: FieldSkipIf.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
-second_title: Aspose.Words for .NET
-description: FieldSkipIf LeftExpression mülk. Karşılaştırma ifadesinin sol kısmını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldSkipIf LeftExpression özelliğini keşfedin, gelişmiş veri denetimi ve esneklik için karşılaştırma ifadelerinizin sol tarafını kolayca yönetin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldskipif/leftexpression/
@@ -18,36 +18,36 @@ public string LeftExpression { get; set; }
 
 ## Örnekler
 
-SKIPIF alanını kullanarak adres-mektup birleştirmede sayfaların nasıl atlanacağını gösterir.
+SKIPIF alanını kullanarak bir posta birleştirmede sayfaların nasıl atlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Bir SKIPIF alanı ekleyin. Adres-mektup birleştirme işleminin geçerli satırı koşulu karşılıyorsa
-// bu alanın ifadeleri hangi durumdaysa, adres-mektup birleştirme işlemi geçerli satırı iptal eder,
-// geçerli birleştirme belgesini atar ve ardından bir sonraki birleştirme belgesine başlamak için hemen bir sonraki satıra geçer.
+// Bir SKIPIF alanı ekleyin. Bir posta birleştirme işleminin geçerli satırı koşulu karşılıyorsa
+// bu alanın ifadeleri neyi belirtiyorsa, posta birleştirme işlemi geçerli satırı iptal eder,
+// geçerli birleştirme belgesini siler ve hemen bir sonraki birleştirme belgesine başlamak için bir sonraki satıra geçer.
 FieldSkipIf fieldSkipIf = (FieldSkipIf) builder.InsertField(FieldType.FieldSkipIf, true);
 
-// Oluşturucuyu SKIPIF alanının ayırıcısına taşıyın, böylece SKIPIF alanının içine bir MERGEFIELD yerleştirebiliriz.
+// SKIPIF alanının ayırıcısına oluşturucuyu taşıyalım, böylece SKIPIF alanının içine bir MERGEFIELD yerleştirebiliriz.
 builder.MoveTo(fieldSkipIf.Separator);
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Department";
 
-// MERGEFIELD veri tablomuzdaki "Departman" sütununu ifade eder. Eğer o tablodan bir satır
-// "Departman" sütununda "HR" değeri varsa bu satır koşulu yerine getirecektir.
+// MERGEFIELD, veri tablomuzdaki "Departman" sütununa atıfta bulunur. Bu tablodan bir satır
+// "Departman" sütununda "HR" değeri varsa, bu satır koşulu sağlayacaktır.
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "HR";
 
-// Belgemize içerik ekleyin, veri kaynağını oluşturun ve adres-mektup birleştirmeyi yürütün.
+// Belgemize içerik ekleyin, veri kaynağını oluşturun ve posta birleştirmeyi gerçekleştirin.
 builder.MoveToDocumentEnd();
 builder.Write("Dear ");
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Name";
 builder.Writeln(", ");
 
- // Bu tablonun üç satırı var ve bunlardan biri SKIPIF alanımızın koşulunu yerine getiriyor.
-// Adres-mektup birleştirme iki sayfa oluşturacaktır.
+ // Bu tablonun üç satırı var ve bunlardan biri SKIPIF alanımızın koşulunu sağlıyor.
+// Posta birleştirme işlemi iki sayfa üretecektir.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
 table.Columns.Add("Department");
@@ -59,7 +59,7 @@ doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.SKIPIF.docx");
 ```
 
-Adres-mektup birleştirmenin çıktı belgelerindeki adres-mektup birleştirme kayıtlarını numaralandırmak ve saymak için MERGEREC ve MERGESEQ alanlarının nasıl kullanılacağını gösterir.
+Bir posta birleştirme işleminin çıktı belgelerinde, MERGEREC ve MERGESEQ alanlarının posta birleştirme kayıtlarını numaralandırmak ve saymak için nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -70,21 +70,21 @@ FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType
 fieldMergeField.FieldName = "Name";
 builder.Writeln(",");
 
-// Bir MERGEREC alanı, her birleştirme çıktı belgesinde birleştirilen verilerin satır numarasını yazdıracaktır.
+// MERGEREC alanı, her birleştirme çıktı belgesinde birleştirilecek verilerin satır numarasını yazdıracaktır.
 builder.Write("\nRow number of record in data source: ");
 FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
 
 Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 
-// MERGESEQ alanı başarılı birleştirmelerin sayısını sayar ve geçerli değeri ilgili her sayfaya yazdırır.
-// Adres-mektup birleştirme hiçbir satırı atlamıyorsa ve hiçbir SKIP/SKIPIF/NEXT/NEXTIF alanını çağırmıyorsa, tüm birleştirmeler başarılı olur.
-// MERGESEQ ve MERGEREC alanları, adres-mektup birleştirme başarılı olduğunda aynı sonuçları gösterecektir.
+// MERGESEQ alanı başarılı birleştirmelerin sayısını sayar ve her ilgili sayfada geçerli değeri yazdırır.
+// Bir posta birleştirme işlemi hiçbir satırı atlamıyorsa ve hiçbir SKIP/SKIPIF/NEXT/NEXTIF alanını çağırmıyorsa, tüm birleştirmeler başarılıdır.
+// MERGESEQ ve MERGEREC alanları, posta birleştirme işlemi başarılı olursa aynı sonuçları görüntüler.
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
 Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
 
-// Adın "John Doe" olması durumunda birleştirmeyi atlayacak bir SKIPIF alanı ekleyin.
+// İsim "John Doe" ise birleştirmeyi atlayacak bir SKIPIF alanı ekleyin.
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);
 builder.MoveTo(fieldSkipIf.Separator);
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -92,17 +92,17 @@ fieldMergeField.FieldName = "Name";
 fieldSkipIf.LeftExpression = "=";
 fieldSkipIf.RightExpression = "John Doe";
 
-// 3 satırlı bir veri kaynağı oluşturun; bunlardan birinde "Ad" sütununun değeri "John Doe"dur.
-// Bir SKIPIF alanı bu değer tarafından bir kez tetikleneceğinden, adres-mektup birleştirmemizin çıktısı 3 yerine 2 sayfadan oluşacaktır.
-// 1. sayfada, MERGESEQ ve MERGEREC alanlarının her ikisi de "1" gösterecektir.
-// 2. sayfada MERGEREC alanında "3", MERGESEQ alanında ise "2" görüntülenecektir.
+// 3 satırdan oluşan bir veri kaynağı oluşturun, bunlardan birinde "Ad" sütunu için değer olarak "John Doe" bulunsun.
+// SKIPIF alanı bu değer tarafından bir kez tetikleneceğinden, posta birleştirme çıktımız 3 yerine 2 sayfa olacaktır.
+// 1. sayfada MERGESEQ ve MERGEREC alanlarının her ikisinde de "1" görüntülenecektir.
+// 2. sayfada MERGEREC alanı "3" değerini, MERGESEQ alanı ise "2" değerini gösterecektir.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Name");
-table.Rows.Add(new[] { "Jane Doe" });
-table.Rows.Add(new[] { "John Doe" });
-table.Rows.Add(new[] { "Joe Bloggs" });
+table.Rows.Add("Jane Doe");
+table.Rows.Add("John Doe");
+table.Rows.Add("Joe Bloggs");
 
-doc.MailMerge.Execute(table);            
+doc.MailMerge.Execute(table);
 doc.Save(ArtifactsDir + "Field.MERGEREC.MERGESEQ.docx");
 ```
 

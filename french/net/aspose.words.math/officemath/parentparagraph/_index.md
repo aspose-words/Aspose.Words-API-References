@@ -3,7 +3,7 @@ title: OfficeMath.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words pour .NET
-description: OfficeMath ParentParagraph propriété. Récupère le parentParagraph de ce nœud en C#.
+description: Découvrez la propriété OfficeMath ParentParagraph pour accéder facilement au paragraphe parent de n'importe quel nœud, améliorant ainsi la mise en forme et la structure de votre document.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.math/officemath/parentparagraph/
@@ -18,15 +18,15 @@ public Paragraph ParentParagraph { get; }
 
 ## Exemples
 
-Montre comment définir le formatage de l’affichage des mathématiques de bureau.
+Montre comment définir la mise en forme de l'affichage mathématique du bureau.
 
 ```csharp
 Document doc = new Document(MyDir + "Office math.docx");
 
-OfficeMath officeMath = (OfficeMath) doc.GetChild(NodeType.OfficeMath, 0, true);
+OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // Les nœuds OfficeMath qui sont des enfants d'autres nœuds OfficeMath sont toujours en ligne.
-// Le nœud avec lequel nous travaillons est le nœud de base pour changer son emplacement et son type d'affichage.
+// Le nœud avec lequel nous travaillons est le nœud de base pour modifier son emplacement et son type d'affichage.
 Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
 Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
 Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);

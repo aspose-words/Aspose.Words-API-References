@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchNode
 linktitle: MatchNode
 articleTitle: MatchNode
 second_title: Aspose.Words per .NET
-description: ReplacingArgs MatchNode proprietà. Ottiene il nodo che contiene linizio della corrispondenza in C#.
+description: Scopri la proprietà MatchNode di ReplacingArgs per accedere facilmente al nodo in cui inizia la corrispondenza, migliorando così l'efficienza e la precisione della tua codifica.
 type: docs
 weight: 40
 url: /it/net/aspose.words.replacing/replacingargs/matchnode/
@@ -44,7 +44,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuove il paragrafo con il testo corrispondente.
+        // Rimuovi il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

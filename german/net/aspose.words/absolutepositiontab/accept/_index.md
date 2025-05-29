@@ -3,14 +3,14 @@ title: AbsolutePositionTab.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words für .NET
-description: AbsolutePositionTab Accept methode. Akzeptiert einen Besucher in C#.
+description: Entdecken Sie die AbsolutePositionTab-Accept-Methode für nahtlose Besucherinteraktion. Verbessern Sie die Interaktivität Ihrer Website und steigern Sie die Benutzerzufriedenheit!
 type: docs
 weight: 10
 url: /de/net/aspose.words/absolutepositiontab/accept/
 ---
 ## AbsolutePositionTab.Accept method
 
-Akzeptiert einen Besucher.
+Nimmt einen Besucher auf.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,17 +22,17 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Rückgabewert
 
-`FALSCH` wenn der Besucher das Stoppen der Aufzählung angefordert hat.
+`FALSCH` wenn der Besucher die Beendigung der Aufzählung verlangt hat.
 
 ## Bemerkungen
 
 Anrufe[`VisitAbsolutePositionTab`](../../documentvisitor/visitabsolutepositiontab/).
 
-Weitere Informationen finden Sie im Visitor-Entwurfsmuster.
+Weitere Informationen finden Sie im Besucher-Entwurfsmuster.
 
 ## Beispiele
 
-Zeigt, wie Tabulatorzeichen für absolute Positionen mit einem Dokumentbesucher verarbeitet werden.
+Zeigt, wie Tabulatorzeichen mit absoluter Position mit einem Dokumentbesucher verarbeitet werden.
 
 ```csharp
 public void DocumentToTxt()
@@ -41,12 +41,17 @@ public void DocumentToTxt()
 
     // Extrahieren Sie den Textinhalt unseres Dokuments, indem Sie diesen benutzerdefinierten Dokumentbesucher akzeptieren.
     DocTextExtractor myDocTextExtractor = new DocTextExtractor();
-    doc.FirstSection.Body.Accept(myDocTextExtractor);
+    Section fisrtSection = doc.FirstSection;
+    fisrtSection.Body.Accept(myDocTextExtractor);
+    // Besuchen Sie nur den Anfang des Dokumenttexts.
+    fisrtSection.Body.AcceptStart(myDocTextExtractor);
+    // Besuchen Sie nur das Ende des Dokumenttexts.
+    fisrtSection.Body.AcceptEnd(myDocTextExtractor);
 
-    // Der Tabulator für die absolute Position, für den es in Stringform keine Entsprechung gibt, wurde explizit in ein Tabulatorzeichen umgewandelt.
+    // Die absolute Position Tab, für die es kein Äquivalent in Stringform gibt, wurde explizit in ein Tabulatorzeichen umgewandelt.
     Assert.AreEqual("Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor.GetText());
 
-    // Ein AbsolutePositionTab kann auch einen DocumentVisitor alleine akzeptieren.
+    // Ein AbsolutePositionTab kann auch selbst einen DocumentVisitor akzeptieren.
     AbsolutePositionTab absPositionTab = (AbsolutePositionTab)doc.FirstSection.Body.FirstParagraph.GetChild(NodeType.SpecialChar, 0, true);
 
     myDocTextExtractor = new DocTextExtractor();
@@ -84,7 +89,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Fügt Text zur aktuellen Ausgabe hinzu. Berücksichtigt das aktivierte/deaktivierte Ausgabeflag.
+    /// Fügt der aktuellen Ausgabe Text hinzu. Beachtet das aktivierte/deaktivierte Ausgabeflag.
     /// </summary>
     private void AppendText(string text)
     {
@@ -92,7 +97,7 @@ public class DocTextExtractor : DocumentVisitor
     }
 
     /// <summary>
-    /// Nur-Text des Dokuments, das vom Besucher gesammelt wurde.
+    /// Klartext des vom Besucher gesammelten Dokuments.
     /// </summary>
     public string GetText()
     {

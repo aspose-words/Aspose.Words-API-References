@@ -3,14 +3,14 @@ title: IFieldUpdatingProgressCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words para .NET
-description: IFieldUpdatingProgressCallback Notify método. Un método definido por el usuario que se llama cuando se cambia el progreso de la actualización en C#.
+description: Mejore el rendimiento de su aplicación con el método de notificación IFieldUpdatingProgressCallback, diseñado para rastrear y responder de manera eficiente a las actualizaciones de progreso.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/ifieldupdatingprogresscallback/notify/
 ---
 ## IFieldUpdatingProgressCallback.Notify method
 
-Un método definido por el usuario que se llama cuando se cambia el progreso de la actualización.
+Un método definido por el usuario que se llama cuando se cambia el progreso de actualización.
 
 ```csharp
 public void Notify(FieldUpdatingProgressArgs args)
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implemente esta interfaz si desea que se llamen a sus propios métodos personalizados durante una actualización de campo.
+/// Implemente esta interfaz si desea que sus propios métodos personalizados sean llamados durante una actualización de campo.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Un método definido por el usuario que se llama justo después de actualizar un campo.
+    /// Un método definido por el usuario que se llama justo después de que se actualiza un campo.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

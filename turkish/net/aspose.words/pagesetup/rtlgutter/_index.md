@@ -2,15 +2,15 @@
 title: PageSetup.RtlGutter
 linktitle: RtlGutter
 articleTitle: RtlGutter
-second_title: Aspose.Words for .NET
-description: PageSetup RtlGutter mülk. Microsoft Wordün bölüm için cilt paylarını sağdan sola dile mi yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Microsoft Word'deki PageSetup RtlGutter özelliğinin sağdan sola ve soldan sağa diller için bölüm düzenlerini nasıl optimize ettiğini keşfedin. Belge tasarımınızı geliştirin!
 type: docs
 weight: 380
 url: /tr/net/aspose.words/pagesetup/rtlgutter/
 ---
 ## PageSetup.RtlGutter property
 
-Microsoft Word'ün bölüm için cilt paylarını sağdan sola dile mi, yoksa soldan sağa dile mi dayalı olarak kullanacağını alır veya ayarlar.
+Microsoft Word'ün bölüm için sağdan sola veya soldan sağa bir dile dayalı oluklar kullanıp kullanmayacağını alır veya ayarlar.
 
 ```csharp
 public bool RtlGutter { get; set; }
@@ -18,12 +18,12 @@ public bool RtlGutter { get; set; }
 
 ## Örnekler
 
-Cilt payı marjlarının nasıl ayarlanacağını gösterir.
+Oluk kenar boşluklarının nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Birkaç sayfaya yayılan metni ekleyin.
+// Birkaç sayfaya yayılan metin ekleyin.
 DocumentBuilder builder = new DocumentBuilder(doc);
 for (int i = 0; i < 6; i++)
 {
@@ -32,19 +32,19 @@ for (int i = 0; i < 6; i++)
     builder.InsertBreak(BreakType.PageBreak);
 }
 
-// Cilt payı, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
-// bu, sayfa düzenini ihlal eden bir kitaptaki sayfaların ortadan katlanmasını telafi eder.
+// Bir oluk, sayfanın sol veya sağ kenar boşluğuna boşluklar ekler,
+// Kitabın sayfalarının ortadan katlanmasıyla sayfa düzeninin bozulmasına neden olan bir durumdur.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
-// Sayfalarımızın kenar boşluklarında metin için ne kadar alana sahip olduğunu belirleyin ve ardından kenar boşluğunu doldurmak için bir miktar ekleyin.
+ // Sayfalarımızın kenar boşluklarında metin için ne kadar alan olacağını belirleyin ve ardından kenar boşluğuna bir miktar boşluk ekleyin.
 Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
 
 pageSetup.Gutter = 100.0d;
 
-// Sağdan sola metin için cilt payını daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
+// Sağdan sola yazılan metinler için oluğu daha uygun bir konuma yerleştirmek amacıyla "RtlGutter" özelliğini "true" olarak ayarlayın.
 pageSetup.RtlGutter = true;
 
-// Alternatif olarak "MultiplePages" özelliğini "MultiplePagesType.MirrorMargins" olarak ayarlayın
+// "MultiplePages" özelliğini alternatif olarak "MultiplePagesType.MirrorMargins" olarak ayarlayın
 // her sayfada kenar boşluklarının sol/sağ sayfa tarafı konumu.
 pageSetup.MultiplePages = MultiplePagesType.MirrorMargins;
 

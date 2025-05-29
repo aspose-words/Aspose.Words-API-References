@@ -3,7 +3,7 @@ title: Cluster.DeepClone
 linktitle: DeepClone
 articleTitle: DeepClone
 second_title: Aspose.Words för .NET
-description: Cluster DeepClone metod. Returnerar en djup klon av denna instans i C#.
+description: Upptäck Cluster DeepClone-metoden för att enkelt skapa en komplett kopia av din instans, vilket säkerställer dataintegritet och sömlös funktionalitet.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.shaping/cluster/deepclone/

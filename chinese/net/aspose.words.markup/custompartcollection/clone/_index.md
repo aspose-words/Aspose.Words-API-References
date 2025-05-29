@@ -2,15 +2,15 @@
 title: CustomPartCollection.Clone
 linktitle: Clone
 articleTitle: Clone
-second_title: 用于 .NET 的 Aspose.Words
-description: CustomPartCollection Clone 方法. 制作此集合及其项目的深层副本 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用我们的深度复制方法轻松克隆您的 CustomPartCollection，确保所有项目都得到保留，以实现无缝数据管理。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.markup/custompartcollection/clone/
 ---
 ## CustomPartCollection.Clone method
 
-制作此集合及其项目的深层副本。
+对此集合及其项目进行深层复制。
 
 ```csharp
 public CustomPartCollection Clone()
@@ -18,7 +18,7 @@ public CustomPartCollection Clone()
 
 ## 例子
 
-演示如何访问文档的任意自定义部件集合。
+展示如何访问文档的任意自定义部分集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");

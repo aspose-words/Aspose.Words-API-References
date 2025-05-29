@@ -3,14 +3,14 @@ title: IFieldResultFormatter.FormatDateTime
 linktitle: FormatDateTime
 articleTitle: FormatDateTime
 second_title: Aspose.Words per .NET
-description: IFieldResultFormatter FormatDateTime metodo. Chiamato quando Aspose.Words applica un cambio di formato data/ora ovvero  gg.MM.aaaa in C#.
+description: Scopri il metodo FormatDateTime di iFieldResultFormatter per Aspose.Words. Formatta le date senza sforzo e con facilità utilizzando l'opzione gg.MM.aaaa!
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/ifieldresultformatter/formatdatetime/
 ---
 ## IFieldResultFormatter.FormatDateTime method
 
-Chiamato quando Aspose.Words applica un cambio di formato data/ora, ovvero \@ "gg.MM.aaaa".
+Chiamato quando Aspose.Words applica un cambio di formato data/ora, ad esempio \@ "gg.MM.aaaa".
 
 ```csharp
 public string FormatDateTime(DateTime value, string format, CalendarType calendarType)
@@ -18,11 +18,11 @@ public string FormatDateTime(DateTime value, string format, CalendarType calenda
 
 ## Osservazioni
 
-L'implementazione dovrebbe tornare`nullo` per indicare che deve essere applicata la formattazione predefinita.
+L'implementazione dovrebbe restituire`null` per indicare che deve essere applicata la formattazione predefinita.
 
 ## Esempi
 
-Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi man mano che i campi vengono aggiornati.
+Mostra come applicare automaticamente un formato personalizzato ai risultati dei campi quando questi vengono aggiornati.
 
 ```csharp
 public void FieldResultFormatting()
@@ -32,9 +32,9 @@ public void FieldResultFormatting()
     FieldResultFormatter formatter = new FieldResultFormatter("${0}", "Date: {0}", "Item # {0}:");
     doc.FieldOptions.ResultFormatter = formatter;
 
-    // Il nostro formattatore dei risultati dei campi applica un formato personalizzato ai campi appena creati di tre tipi di formati.
-    // I formattatori dei risultati dei campi applicano la nuova formattazione ai campi man mano che vengono aggiornati,
-    // cosa che accade non appena li creiamo utilizzando questo sovraccarico del metodo InsertField.
+    // Il nostro formattatore dei risultati di campo applica un formato personalizzato ai campi appena creati di tre tipi di formati.
+    // I formattatori dei risultati dei campi applicano una nuova formattazione ai campi man mano che vengono aggiornati,
+    // che avviene non appena li creiamo utilizzando questo sovraccarico del metodo InsertField.
     // 1 - Numerico:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -58,7 +58,7 @@ public void FieldResultFormatting()
 
 /// <summary>
 /// Quando i campi con formattazione vengono aggiornati, questo formattatore sovrascriverà la loro formattazione
-/// con un formato personalizzato, monitorando ogni invocazione.
+/// con un formato personalizzato, tenendo traccia di ogni invocazione.
 /// </summary>
 private class FieldResultFormatter : IFieldResultFormatter
 {
@@ -113,12 +113,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

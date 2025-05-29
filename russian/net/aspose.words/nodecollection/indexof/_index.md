@@ -3,14 +3,14 @@ title: NodeCollection.IndexOf
 linktitle: IndexOf
 articleTitle: IndexOf
 second_title: Aspose.Words для .NET
-description: NodeCollection IndexOf метод. Возвращает индекс указанного узла начинающийся с нуля на С#.
+description: Откройте для себя метод NodeCollection IndexOf, позволяющий эффективно находить нулевой индекс любого указанного узла в ваших коллекциях.
 type: docs
 weight: 70
 url: /ru/net/aspose.words/nodecollection/indexof/
 ---
 ## NodeCollection.IndexOf method
 
-Возвращает индекс указанного узла, начинающийся с нуля.
+Возвращает индекс указанного узла, отсчитываемый от нуля.
 
 ```csharp
 public int IndexOf(Node node)
@@ -26,7 +26,7 @@ public int IndexOf(Node node)
 
 ## Примечания
 
-Этот метод выполняет линейный поиск; следовательно, среднее время выполнения пропорционально[`Count`](../count/).
+Этот метод выполняет линейный поиск, поэтому среднее время выполнения пропорционально[`Count`](../count/).
 
 ## Примеры
 

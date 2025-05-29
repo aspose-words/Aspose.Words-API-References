@@ -3,7 +3,7 @@ title: ChartYValue.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words pour .NET
-description: ChartYValue Equals méthode. Obtient un indicateur indiquant si lobjet spécifié est égal à lobjet de valeur Y actuel en C#.
+description: Découvrez la méthode ChartYValue Equals pour vérifier facilement si un objet correspond à la valeur Y actuelle, améliorant ainsi l'efficacité de votre comparaison de données.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.drawing.charts/chartyvalue/equals/

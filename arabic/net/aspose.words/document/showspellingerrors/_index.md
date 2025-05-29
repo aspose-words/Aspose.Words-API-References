@@ -3,14 +3,14 @@ title: Document.ShowSpellingErrors
 linktitle: ShowSpellingErrors
 articleTitle: ShowSpellingErrors
 second_title: Aspose.Words لـ .NET
-description: Document ShowSpellingErrors ملكية. يحدد ما إذا كان سيتم عرض الأخطاء الإملائية في هذا المستند أم لا في C#.
+description: تحكّم في ظهور الأخطاء الإملائية في مستندك باستخدام خاصية "إظهار الأخطاء الإملائية". حسّن عملية التحرير وحسّن جودة المستند.
 type: docs
-weight: 400
+weight: 420
 url: /ar/net/aspose.words/document/showspellingerrors/
 ---
 ## Document.ShowSpellingErrors property
 
-يحدد ما إذا كان سيتم عرض الأخطاء الإملائية في هذا المستند أم لا.
+يحدد ما إذا كان سيتم عرض الأخطاء الإملائية في هذا المستند.
 
 ```csharp
 public bool ShowSpellingErrors { get; set; }
@@ -24,13 +24,13 @@ public bool ShowSpellingErrors { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل جملتين بها أخطاء يمكن التقاطها
-// بواسطة المدققين الإملائي والنحوي في Microsoft Word.
+// أدخل جملتين تحتويان على أخطاء ليتم التقاطها
+// بواسطة مدقق الإملاء والقواعد النحوية في Microsoft Word.
 builder.Writeln("There is a speling error in this sentence.");
 builder.Writeln("Their is a grammatical error in this sentence.");
 
-// إذا تم تمكين هذه الخيارات، فسيتم وضع خط تحت الأخطاء الإملائية
-// في مستند الإخراج بواسطة خط أحمر متعرج، وسيقوم الخط الأزرق المزدوج بتسليط الضوء على الأخطاء النحوية.
+// إذا تم تمكين هذه الخيارات، فسيتم تسطير الأخطاء الإملائية
+// في المستند الناتج بخط أحمر متعرج، وخط أزرق مزدوج يسلط الضوء على الأخطاء النحوية.
 doc.ShowGrammaticalErrors = showErrors;
 doc.ShowSpellingErrors = showErrors;
 

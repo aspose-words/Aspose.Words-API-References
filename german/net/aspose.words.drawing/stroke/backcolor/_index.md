@@ -3,14 +3,14 @@ title: Stroke.BackColor
 linktitle: BackColor
 articleTitle: BackColor
 second_title: Aspose.Words für .NET
-description: Stroke BackColor eigendom. Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest in C#.
+description: Passen Sie die Hintergrundfarbe Ihres Strichs mit der Eigenschaft „Stroke BackColor“ an. Verschönern Sie Ihre Designs mit lebendigen, maßgeschneiderten Farben für einen einzigartigen Look.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/stroke/backcolor/
 ---
 ## Stroke.BackColor property
 
-Ruft die Hintergrundfarbe des Strichs ab oder legt diese fest.
+Ruft die Hintergrundfarbe des Strichs ab oder legt sie fest.
 
 ```csharp
 public Color BackColor { get; set; }
@@ -18,7 +18,7 @@ public Color BackColor { get; set; }
 
 ## Bemerkungen
 
-Der Standardwert für a[`Shape`](../../shape/) is White.
+Der Standardwert für eine[`Shape`](../../shape/) ist White .
 
 ## Beispiele
 

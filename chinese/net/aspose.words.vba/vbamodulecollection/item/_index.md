@@ -2,15 +2,15 @@
 title: VbaModuleCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: VbaModuleCollection Item 财产. 检索VbaModule按索引的对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 VbaModuleCollection Item 属性轻松访问 VbaModule 对象。通过轻松索引和改进的管理功能增强您的 VBA 项目。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.vba/vbamodulecollection/item/
 ---
 ## VbaModuleCollection indexer (1 of 2)
 
-检索[`VbaModule`](../../vbamodule/)按索引的对象.
+检索[`VbaModule`](../../vbamodule/)按索引排序的对象.
 
 ```csharp
 public VbaModule this[int index] { get; }
@@ -22,7 +22,7 @@ public VbaModule this[int index] { get; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -33,7 +33,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
@@ -59,7 +59,7 @@ vbaModules.Remove(vbaModules[2]);
 
 ## VbaModuleCollection indexer (2 of 2)
 
-检索[`VbaModule`](../../vbamodule/)按名称指定对象，如果未找到则为 Null。
+检索[`VbaModule`](../../vbamodule/)按名称返回对象，如果未找到则返回 Null。
 
 ```csharp
 public VbaModule this[string name] { get; }
@@ -67,7 +67,7 @@ public VbaModule this[string name] { get; }
 
 ## 例子
 
-演示如何访问文档的 VBA 项目信息。
+展示如何访问文档的 VBA 项目信息。
 
 ```csharp
 Document doc = new Document(MyDir + "VBA project.docm");
@@ -78,7 +78,7 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 

@@ -3,14 +3,14 @@ title: ListLevel.Alignment
 linktitle: Alignment
 articleTitle: Alignment
 second_title: Aspose.Words pour .NET
-description: ListLevel Alignment propriété. Obtient ou définit la justification du numéro réel de lélément de liste en C#.
+description: Découvrez la propriété d'alignement ListLevel pour personnaliser facilement la justification des éléments de liste. Améliorez la clarté et l'attrait visuel de votre document dès aujourd'hui !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.lists/listlevel/alignment/
 ---
 ## ListLevel.Alignment property
 
-Obtient ou définit la justification du numéro réel de l'élément de liste.
+Obtient ou définit la justification du nombre réel de l'élément de la liste.
 
 ```csharp
 public ListLevelAlignment Alignment { get; set; }
@@ -18,20 +18,20 @@ public ListLevelAlignment Alignment { get; set; }
 
 ## Remarques
 
-Le libellé de la liste est justifié par rapport au[`NumberPosition`](../numberposition/) propriété.
+L'étiquette de la liste est justifiée par rapport à la[`NumberPosition`](../numberposition/) propriété.
 
 ## Exemples
 
-Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l’utilisation de DocumentBuilder.
+Montre comment appliquer une mise en forme de liste personnalisée aux paragraphes lors de l'utilisation de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 
 // Une liste nous permet d'organiser et de décorer des ensembles de paragraphes avec des symboles de préfixe et des retraits.
  // Nous pouvons créer des listes imbriquées en augmentant le niveau d'indentation.
- // Nous pouvons commencer et terminer une liste en utilisant la propriété "ListFormat" d'un générateur de documents.
+ // Nous pouvons commencer et terminer une liste en utilisant la propriété « ListFormat » d'un générateur de documents.
 // Chaque paragraphe que nous ajoutons entre le début et la fin d'une liste deviendra un élément de la liste.
-// Créez une liste à partir d'un modèle Microsoft Word et personnalisez les deux premiers niveaux de liste.
+// Créez une liste à partir d’un modèle Microsoft Word et personnalisez les deux premiers niveaux de sa liste.
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];

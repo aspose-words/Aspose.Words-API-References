@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.CssClassNamesPrefix
 linktitle: CssClassNamesPrefix
 articleTitle: CssClassNamesPrefix
 second_title: Aspose.Words для .NET
-description: HtmlFixedSaveOptions CssClassNamesPrefix свойство. Указывает префикс который добавляется ко всем именам классов в файле style.css. Значение по умолчаниюоу  на С#.
+description: Узнайте, как свойство HtmlFixedSaveOptions CssClassNamesPrefix улучшает ваш стиль, добавляя настраиваемый префикс ко всем именам классов в вашем style.css.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/htmlfixedsaveoptions/cssclassnamesprefix/
 ---
 ## HtmlFixedSaveOptions.CssClassNamesPrefix property
 
-Указывает префикс, который добавляется ко всем именам классов в файле style.css. Значение по умолчанию:`"оу"` .
+Указывает префикс, который добавляется ко всем именам классов в файле style.css. Значение по умолчанию:`"ой"` .
 
 ```csharp
 public string CssClassNamesPrefix { get; set; }

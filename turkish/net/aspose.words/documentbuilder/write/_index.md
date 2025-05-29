@@ -2,15 +2,15 @@
 title: DocumentBuilder.Write
 linktitle: Write
 articleTitle: Write
-second_title: Aspose.Words for .NET
-description: DocumentBuilder Write yöntem. Belgeye geçerli ekleme konumunda bir dize ekler C#'da.
+second_title: .NET için Aspose.Words
+description: DocumentBuilder'ın Write yöntemi ile metninizi belgenize zahmetsizce ekleyerek düzenleme verimliliğinizi artırın ve iş akışınızı hızlandırın.
 type: docs
-weight: 650
+weight: 690
 url: /tr/net/aspose.words/documentbuilder/write/
 ---
 ## DocumentBuilder.Write method
 
-Belgeye geçerli ekleme konumunda bir dize ekler.
+Belgeye geçerli ekleme konumuna bir dize ekler.
 
 ```csharp
 public void Write(string text)
@@ -22,11 +22,11 @@ public void Write(string text)
 
 ## Notlar
 
-Geçerli yazı tipi formatı,[`Font`](../font/) özellik kullanılıyor.
+tarafından belirtilen geçerli yazı tipi biçimlendirmesi[`Font`](../font/) özellik kullanıldı.
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -41,7 +41,7 @@ builder.Write("Text surrounded by green border.");
 doc.Save(ArtifactsDir + "Border.FontBorder.docx");
 ```
 
-Tablo oluşturmak için belge oluşturucunun nasıl kullanılacağını gösterir.
+Bir tablo oluşturmak için belge oluşturucunun nasıl kullanılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.Write("Row 1, Cell 1.");
 builder.InsertCell();
 builder.Write("Row 1, Cell 2.");
 
-// Yeni bir satır başlatmak için oluşturucunun "EndRow" yöntemini çağırın.
+// Yeni bir satır başlatmak için oluşturucunun "EndRow" metodunu çağırın.
 builder.EndRow();
 builder.InsertCell();
 builder.Write("Row 2, Cell 1.");
@@ -65,7 +65,7 @@ builder.EndTable();
 doc.Save(ArtifactsDir + "DocumentBuilder.CreateTable.docx");
 ```
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -79,8 +79,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -106,7 +106,7 @@ Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orie
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
-Özel kenarlıklara sahip bir tablonun nasıl oluşturulacağını gösterir.
+Özel kenarlıkları olan bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -114,7 +114,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
+// Bir belge oluşturucu için tablo biçimlendirme seçeneklerini ayarlama
 // bunları eklediğimiz her satıra ve hücreye uygulayacaktır.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
@@ -138,8 +138,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// Biçimlendirmeyi değiştirmek onu geçerli hücreye uygulayacaktır,
-// ve daha sonra oluşturucuyla oluşturduğumuz yeni hücreler.
+// Biçimlendirmeyi değiştirmek, bunu geçerli hücreye uygulayacaktır.
+// ve sonrasında builder ile oluşturduğumuz yeni hücreler.
 // Bu daha önce eklediğimiz hücreleri etkilemeyecektir.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -151,7 +151,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Dikey metne sığacak şekilde satır yüksekliğini artırın.
+// Dikey metne uyacak şekilde satır yüksekliğini artırın.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

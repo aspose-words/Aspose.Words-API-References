@@ -2,15 +2,15 @@
 title: SignatureLineOptions.DefaultInstructions
 linktitle: DefaultInstructions
 articleTitle: DefaultInstructions
-second_title: Aspose.Words for .NET
-description: SignatureLineOptions DefaultInstructions mülk. İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeridoğru  C#'da.
+second_title: .NET için Aspose.Words
+description: SignatureLineOptions DefaultInstructions özelliğinin, sorunsuz bir kullanıcı deneyimi için İmza iletişim kutunuzu özelleştirilebilir varsayılan talimatlarla nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 30
 url: /tr/net/aspose.words/signaturelineoptions/defaultinstructions/
 ---
 ## SignatureLineOptions.DefaultInstructions property
 
-İmza iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özelliğin varsayılan değeri:`doğru` .
+İşaret iletişim kutusunda varsayılan talimatların gösterildiğini belirten bir değer alır veya ayarlar. Bu özellik için varsayılan değer`doğru` .
 
 ```csharp
 public bool DefaultInstructions { get; set; }
@@ -18,7 +18,7 @@ public bool DefaultInstructions { get; set; }
 
 ## Örnekler
 
-Kişisel sertifika ve imza satırı içeren bir belgenin nasıl imzalanacağını gösterir.
+Kişisel sertifika ve imza satırı ile bir belgenin nasıl imzalanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

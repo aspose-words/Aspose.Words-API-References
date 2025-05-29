@@ -3,14 +3,14 @@ title: TableStyle.TopPadding
 linktitle: TopPadding
 articleTitle: TopPadding
 second_title: Aspose.Words für .NET
-description: TableStyle TopPadding eigendom. Ruft die Menge an Platz in Punkten ab die oberhalb des Inhalts von Tabellenzellen hinzugefügt werden soll oder legt diese fest in C#.
+description: Entdecken Sie die TableStyle TopPadding-Eigenschaft, mit der Sie den Abstand über dem Inhalt von Tabellenzellen einfach anpassen und so die Lesbarkeit und das Design Ihrer Tabelle verbessern können.
 type: docs
 weight: 140
 url: /de/net/aspose.words/tablestyle/toppadding/
 ---
 ## TableStyle.TopPadding property
 
-Ruft die Menge an Platz (in Punkten) ab, die oberhalb des Inhalts von Tabellenzellen hinzugefügt werden soll, oder legt diese fest.
+Ruft den Abstand (in Punkten) ab, der über dem Inhalt der Tabellenzellen hinzugefügt werden soll, oder legt diesen fest.
 
 ```csharp
 public double TopPadding { get; set; }
@@ -18,7 +18,7 @@ public double TopPadding { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Stileinstellungen für die Tabelle erstellen.
+Zeigt, wie benutzerdefinierte Stileinstellungen für die Tabelle erstellt werden.
 
 ```csharp
 Document doc = new Document();

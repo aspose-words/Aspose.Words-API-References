@@ -3,14 +3,14 @@ title: AxisBound
 linktitle: AxisBound
 articleTitle: AxisBound
 second_title: Aspose.Words لـ .NET
-description: AxisBound البناء. إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات  في C#.
+description: قم بإنشاء حدود المحور الديناميكية بسهولة باستخدام منشئ AxisBound، مما يسمح لتطبيق معالجة الكلمات الخاص بك بتحديد التخطيطات المثالية تلقائيًا لتحسين تجربة المستخدم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/axisbound/axisbound/
 ---
 ## AxisBound() {#constructor}
 
-إنشاء مثيل جديد يشير إلى أنه يجب تحديد المحور المرتبط تلقائيًا بواسطة تطبيق معالجة الكلمات .
+ينشئ مثيلًا جديدًا يشير إلى أنه يجب تحديد حدود المحور تلقائيًا بواسطة تطبيق معالجة الكلمات .
 
 ```csharp
 public AxisBound()
@@ -27,21 +27,21 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape chartShape = builder.InsertChart(ChartType.Scatter, 450, 300);
 Chart chart = chartShape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة ذات صفيفين عشريين. المصفوفة الأولى تحتوي على قيم X،
-// والثاني يحتوي على قيم Y المقابلة للنقاط في المخطط المبعثر.
-chart.Series.Add("Series 1", 
-    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 }, 
+// أضف سلسلة من مصفوفتين عشريتين. تحتوي المصفوفة الأولى على قيم X،
+// والثاني يحتوي على قيم Y المقابلة للنقاط في مخطط التشتت.
+chart.Series.Add("Series 1",
+    new[] { 1.1, 5.4, 7.9, 3.5, 2.1, 9.7 },
     new[] { 2.1, 0.3, 0.6, 3.3, 1.4, 1.9 });
 
-// بشكل افتراضي، يتم تطبيق القياس الافتراضي على المحورين X وY للرسم البياني،
-// بحيث يكون كلا النطاقين كبيرًا بما يكفي ليشمل كل قيمة X وY لكل سلسلة.
+// بشكل افتراضي، يتم تطبيق التدرج الافتراضي على المحورين X وY للرسم البياني،
+// بحيث يكون كلا النطاقين كبيرين بما يكفي لاحتواء كل قيمة X و Y لكل سلسلة.
 Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
 
-// يمكننا تحديد حدود المحور الخاصة بنا.
-// في هذه الحالة، سنجعل كلاً من مساطر المحور X وY تظهر نطاقًا من 0 إلى 10.
+//يمكننا تحديد حدود المحور الخاصة بنا.
+// في هذه الحالة، سنجعل مسطرتي المحور X والمحور Y تظهران نطاقًا يتراوح بين 0 إلى 10.
 chart.AxisX.Scaling.Minimum = new AxisBound(0);
 chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
@@ -50,7 +50,7 @@ chart.AxisY.Scaling.Maximum = new AxisBound(10);
 Assert.False(chart.AxisX.Scaling.Minimum.IsAuto);
 Assert.False(chart.AxisY.Scaling.Minimum.IsAuto);
 
-// قم بإنشاء مخطط خطي بسلسلة تتطلب نطاقًا من التواريخ على المحور السيني، والقيم العشرية للمحور الصادي.
+// قم بإنشاء مخطط خطي بسلسلة تتطلب نطاقًا من التواريخ على المحور X، وقيمًا عشرية على المحور Y.
 chartShape = builder.InsertChart(ChartType.Line, 450, 300);
 chart = chartShape.Chart;
 chart.Series.Clear();
@@ -64,9 +64,9 @@ DateTime[] dates = { new DateTime(1973, 5, 11),
 
 chart.Series.Add("Series 1", dates, new[] { 3.0, 4.7, 5.9, 7.1, 8.9 });
 
-// يمكننا تعيين حدود المحاور في شكل تواريخ أيضًا، مع تحديد المخطط بفترة.
-// سيؤدي تعيين النطاق إلى 1980-1990 إلى حذف قيمتي السلسلة
-// التي تقع خارج النطاق من الرسم البياني.
+// يمكننا أيضًا تعيين حدود المحور في شكل تواريخ، مما يحد من الرسم البياني إلى فترة زمنية.
+// سيؤدي تعيين النطاق إلى 1980-1990 إلى حذف القيمتين المتسلسلتين
+//التي تقع خارج النطاق من الرسم البياني.
 chart.AxisX.Scaling.Minimum = new AxisBound(new DateTime(1980, 1, 1));
 chart.AxisX.Scaling.Maximum = new AxisBound(new DateTime(1990, 1, 1));
 
@@ -83,7 +83,7 @@ doc.Save(ArtifactsDir + "Charts.AxisBound.docx");
 
 ## AxisBound(*double*) {#constructor_1}
 
-إنشاء محور محدد ممثلاً برقم.
+ينشئ حدود المحور التي يتم تمثيلها كرقم.
 
 ```csharp
 public AxisBound(double value)
@@ -100,10 +100,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت لمحور X، والقيم العشرية المقابلة لمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -112,12 +112,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// تعيين الحدود الدنيا والعليا للمحور السيني.
+// تعيين الحدود الدنيا والعليا لمحور X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
+// قم بتعيين الوحدات الرئيسية للمحور X إلى أسبوع، والوحدات الثانوية إلى يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -126,9 +126,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// تحديد خصائص المحور ص للقيم العشرية.
+// قم بتحديد خصائص المحور Y للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;
@@ -150,7 +150,7 @@ doc.Save(ArtifactsDir + "Charts.DateTimeValues.docx");
 
 ## AxisBound(*DateTime*) {#constructor_2}
 
-ينشئ محورًا محددًا يتم تمثيله كقيمة تاريخ ووقت.
+ينشئ حدودًا للمحور يتم تمثيلها كقيمة تاريخ ووقت.
 
 ```csharp
 public AxisBound(DateTime datetime)
@@ -167,10 +167,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت للمحور السيني، والقيم العشرية المعنية للمحور ص.
+// أضف سلسلة مخصصة تحتوي على قيم التاريخ/الوقت لمحور X، والقيم العشرية المقابلة لمحور Y.
 chart.Series.Add("Aspose Test Series",
     new[]
     {
@@ -179,12 +179,12 @@ chart.Series.Add("Aspose Test Series",
     },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2, 5.3 });
 
-// تعيين الحدود الدنيا والعليا للمحور السيني.
+// تعيين الحدود الدنيا والعليا لمحور X.
 ChartAxis xAxis = chart.AxisX;
 xAxis.Scaling.Minimum = new AxisBound(new DateTime(2017, 11, 05).ToOADate());
 xAxis.Scaling.Maximum = new AxisBound(new DateTime(2017, 12, 03));
 
-// اضبط الوحدات الرئيسية للمحور السيني على أسبوع، والوحدات الصغيرة على يوم.
+// قم بتعيين الوحدات الرئيسية للمحور X إلى أسبوع، والوحدات الثانوية إلى يوم.
 xAxis.BaseTimeUnit = AxisTimeUnit.Days;
 xAxis.MajorUnit = 7.0d;
 xAxis.MajorTickMark = AxisTickMark.Cross;
@@ -193,9 +193,9 @@ xAxis.MinorTickMark = AxisTickMark.Outside;
 xAxis.HasMajorGridlines = true;
 xAxis.HasMinorGridlines = true;
 
-// تحديد خصائص المحور ص للقيم العشرية.
+// قم بتحديد خصائص المحور Y للقيم العشرية.
 ChartAxis yAxis = chart.AxisY;
-yAxis.TickLabelPosition = AxisTickLabelPosition.High;
+yAxis.TickLabels.Position = AxisTickLabelPosition.High;
 yAxis.MajorUnit = 100.0d;
 yAxis.MinorUnit = 50.0d;
 yAxis.DisplayUnit.Unit = AxisBuiltInUnit.Hundreds;

@@ -3,7 +3,7 @@ title: VariableCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words für .NET
-description: VariableCollection Remove methode. Entfernt eine Dokumentvariable mit dem angegebenen Namen aus der Sammlung in C#.
+description: Entfernen Sie mühelos Dokumentvariablen mit der VariableCollection Remove-Methode. Optimieren Sie Ihr Datenmanagement mit dieser effizienten Lösung.
 type: docs
 weight: 80
 url: /de/net/aspose.words/variablecollection/remove/
@@ -18,7 +18,7 @@ public void Remove(string name)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| name | String | Der Name der Variablen, bei dem die Groß-/Kleinschreibung nicht beachtet wird. |
+| name | String | Der Name der Variable ohne Berücksichtigung der Groß- und Kleinschreibung. |
 
 ## Beispiele
 
@@ -28,14 +28,14 @@ Zeigt, wie mit der Variablensammlung eines Dokuments gearbeitet wird.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Jedes Dokument verfügt über eine Sammlung von Schlüssel/Wert-Paarvariablen, zu denen wir Elemente hinzufügen können.
+// Jedes Dokument verfügt über eine Sammlung von Schlüssel-/Wertpaarvariablen, denen wir Elemente hinzufügen können.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
 
 Assert.AreEqual(3, variables.Count);
 
-// Wir können die Werte von Variablen im Dokumentkörper mithilfe von DOCVARIABLE-Feldern anzeigen.
+// Wir können die Werte von Variablen im Dokumenttext mithilfe von DOCVARIABLE-Feldern anzeigen.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocVariable field = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 field.VariableName = "Home address";
@@ -43,7 +43,7 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// Durch Zuweisen von Werten zu vorhandenen Schlüsseln werden diese aktualisiert.
+// Durch die Zuweisung von Werten zu vorhandenen Schlüsseln werden diese aktualisiert.
 variables.Add("Home address", "456 Queen St.");
 
 // Wir müssen dann die DOCVARIABLE-Felder aktualisieren, um sicherzustellen, dass sie einen aktuellen Wert anzeigen.
@@ -57,17 +57,20 @@ Assert.AreEqual("456 Queen St.", field.Result);
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
-// Die Sammlung von Variablen sortiert Variablen automatisch alphabetisch nach Namen.
+// Die Variablensammlung sortiert Variablen automatisch alphabetisch nach Namen.
 Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
-// Über die Sammlung von Variablen aufzählen.
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
+// Aufzählung der Variablensammlung.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Im Folgenden finden Sie drei Möglichkeiten zum Entfernen von Dokumentvariablen aus einer Sammlung.
+// Unten sind drei Möglichkeiten zum Entfernen von Dokumentvariablen aus einer Sammlung aufgeführt.
 // 1 - Nach Namen:
 variables.Remove("City");
 
@@ -78,10 +81,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 – Die gesamte Sammlung auf einmal löschen:
+// 3 - Die gesamte Sammlung auf einmal löschen:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Siehe auch

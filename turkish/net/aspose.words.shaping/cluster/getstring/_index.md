@@ -2,15 +2,15 @@
 title: Cluster.GetString
 linktitle: GetString
 articleTitle: GetString
-second_title: Aspose.Words for .NET
-description: Cluster GetString yöntem. OluştururString belirtilen kümelerdeki kod noktalarını kullanma C#'da.
+second_title: .NET için Aspose.Words
+description: Verimli veri işleme için belirtilen kümelerden kod noktalarını kullanarak Cluster GetString metoduyla zahmetsizce Dizeler oluşturun.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.shaping/cluster/getstring/
 ---
 ## GetString(*Cluster[]*)
 
-OluştururString belirtilen kümelerdeki kod noktalarını kullanma.
+OluştururString belirtilen kümelerden kod noktalarını kullanarak.
 
 ```csharp
 public static string GetString(Cluster[] clusters)
@@ -26,7 +26,7 @@ public static string GetString(Cluster[] clusters)
 
 ## GetString()
 
-OluştururString bu kümedeki kod noktaları kullanılıyor.
+OluştururString bu kümeden kod noktaları kullanılıyor.
 
 ```csharp
 public string GetString()

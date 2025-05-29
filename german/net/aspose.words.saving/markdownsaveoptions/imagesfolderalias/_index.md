@@ -3,14 +3,14 @@ title: MarkdownSaveOptions.ImagesFolderAlias
 linktitle: ImagesFolderAlias
 articleTitle: ImagesFolderAlias
 second_title: Aspose.Words für .NET
-description: MarkdownSaveOptions ImagesFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein Dokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge in C#.
+description: Entdecken Sie die Eigenschaft „MarkdownSaveOptions ImagesFolderAlias“, um Bild-URIs in Ihren Dokumenten einfach zu verwalten. Optimieren Sie Ihren Workflow mit dieser wichtigen Funktion!
 type: docs
-weight: 50
+weight: 90
 url: /de/net/aspose.words.saving/markdownsaveoptions/imagesfolderalias/
 ---
 ## MarkdownSaveOptions.ImagesFolderAlias property
 
-Gibt den Namen des Ordners an, der zum Erstellen von Bild-URIs verwendet wird, die in ein Dokument geschrieben werden. Der Standardwert ist eine leere Zeichenfolge.
+Gibt den Namen des Ordners an, der zum Erstellen der in ein Dokument geschriebenen Bild-URIs verwendet wird. Der Standardwert ist eine leere Zeichenfolge.
 
 ```csharp
 public string ImagesFolderAlias { get; set; }
@@ -18,13 +18,13 @@ public string ImagesFolderAlias { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) InMarkdown format, Aspose.Words muss alle im Dokument eingebetteten Bilder als eigenständige Dateien speichern. [`ImagesFolder`](../imagesfolder/) ermöglicht Ihnen festzulegen, wo die Bilder gespeichert werden und `ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) InMarkdown Format, Aspose.Words muss alle im Dokument eingebetteten Bilder als eigenständige Dateien speichern. [`ImagesFolder`](../imagesfolder/) ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden sollen und `ImagesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
-Wenn`ImagesFolderAlias` ist kein leerer String, dann wird der Bild-URI in Markdown geschrieben ImagesFolderAlias + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias` ist keine leere Zeichenfolge, dann wird die Bild-URI geschrieben zu MarkdownImagesFolderAlias + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias` Ist ein leerer String, dann wird der Bild-URI in Markdown geschriebenImagesFolder + &lt;Bilddateiname&gt;.
+Wenn`ImagesFolderAlias` ist eine leere Zeichenfolge, dann wird die Bild-URI geschrieben zu MarkdownImagesFolder + &lt;Bilddateiname&gt;.
 
-Wenn`ImagesFolderAlias`ist eingestellt auf '.' (Punkt), dann wird die Bilddatei name unabhängig von anderen Optionen ohne Pfad in Markdown geschrieben.
+Wenn`ImagesFolderAlias` auf ‚.‘ (Punkt) gesetzt ist, dann wird der Bilddateiname ohne Pfad in Markdown geschrieben, unabhängig von anderen Optionen.
 
 ## Beispiele
 
@@ -34,33 +34,13 @@ Zeigt, wie der Name des Ordners angegeben wird, der zum Erstellen von Bild-URIs 
 DocumentBuilder builder = new DocumentBuilder();
 
 builder.Writeln("Some image below:");
-Image image = Image.FromFile(ImageDir + "Logo.jpg");
-builder.InsertImage(image);
+builder.InsertImage(ImageDir + "Logo.jpg");
 
+string imagesFolder = Path.Combine(ArtifactsDir, "ImagesDir");
 MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// Mit der Eigenschaft „ImagesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
+// Verwenden Sie die Eigenschaft "ImagesFolder", um einen Ordner im lokalen Dateisystem zuzuweisen, in den
 // Aspose.Words speichert alle verknüpften Bilder des Dokuments.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
-// Verwenden Sie die Eigenschaft „ImagesFolderAlias“, um diesen Ordner zu verwenden
-// beim Erstellen von Bild-URIs anstelle des Namens des Bilderordners.
-saveOptions.ImagesFolderAlias = "http://example.com/images";
-
-builder.Document.Save(ArtifactsDir + "MarkdownSaveOptions.ImagesFolder.md", saveOptions);
-```
-
-Zeigt, wie der Name des Ordners angegeben wird, der zum Erstellen von Bild-URIs verwendet wird (.NetStandard 2.0).
-
-```csharp
-DocumentBuilder builder = new DocumentBuilder();
-
-builder.Writeln("Some image below:");
-using (SKBitmap bitmap = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-    builder.InsertImage(bitmap);
-
-MarkdownSaveOptions saveOptions = new MarkdownSaveOptions();
-// Mit der Eigenschaft „ImagesFolder“ einen Ordner im lokalen Dateisystem zuweisen, in den
-// Aspose.Words speichert alle verknüpften Bilder des Dokuments.
-saveOptions.ImagesFolder = ArtifactsDir + "ImagesDir/";
+saveOptions.ImagesFolder = imagesFolder;
 // Verwenden Sie die Eigenschaft „ImagesFolderAlias“, um diesen Ordner zu verwenden
 // beim Erstellen von Bild-URIs anstelle des Namens des Bilderordners.
 saveOptions.ImagesFolderAlias = "http://example.com/images";

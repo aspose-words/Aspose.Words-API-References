@@ -3,14 +3,14 @@ title: ChartDataLabel.Index
 linktitle: Index
 articleTitle: Index
 second_title: Aspose.Words per .NET
-description: ChartDataLabel Index proprietà. Specifica lindice dellelemento contenitore. Questo indice determinerà a quale delle raccolte figli del genitore si applica questo elemento. Il valore predefinito è 0 in C#.
+description: Scopri la proprietà ChartDataLabel Index, definisci la gerarchia degli elementi e ottimizza la visualizzazione dei dati. Il valore predefinito è 0 per una facile integrazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing.charts/chartdatalabel/index/
 ---
 ## ChartDataLabel.Index property
 
-Specifica l'indice dell'elemento contenitore. Questo indice determinerà a quale delle raccolte figli del genitore si applica questo elemento. Il valore predefinito è 0.
+Specifica l'indice dell'elemento contenitore. Questo indice determina a quale delle raccolte figlie del genitore si applica questo elemento. Il valore predefinito è 0.
 
 ```csharp
 public int Index { get; }
@@ -35,7 +35,7 @@ public void DataLabels()
     Assert.AreEqual("Series 3", chart.Series[2].Name);
 
     // Applica etichette dati a ogni serie nel grafico.
-    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne visualizzeranno il valore.
+    // Queste etichette appariranno accanto a ciascun punto dati nel grafico e ne mostreranno il valore.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
@@ -52,24 +52,28 @@ public void DataLabels()
         }
     }
 
-    // Per un grafico dall'aspetto più pulito, possiamo rimuovere le etichette dei dati individualmente.
-    chart.Series[1].DataLabels[2].ClearFormat();
+    ChartDataLabel dataLabel = chart.Series[1].DataLabels[2];
+    dataLabel.Format.Fill.Color = Color.Red;
 
-    // Possiamo anche rimuovere un'intera serie di etichette dati contemporaneamente.
+    // Per ottenere un grafico più pulito, possiamo rimuovere le etichette dei dati singolarmente.
+    dataLabel.ClearFormat();
+
+    // Possiamo anche rimuovere contemporaneamente un'intera serie di etichette dati.
     chart.Series[2].DataLabels.ClearFormat();
 
     doc.Save(ArtifactsDir + "Charts.DataLabels.docx");
 }
 
 /// <summary>
-/// Applica etichette dati con formato numerico personalizzato e separatore a diversi punti dati in una serie.
+/// Applica etichette dati con formato numerico personalizzato e separatore a più punti dati in una serie.
 /// </summary>
 private static void ApplyDataLabels(ChartSeries series, int labelsCount, string numberFormat, string separator)
 {
+    series.HasDataLabels = true;
+    series.Explosion = 40;
+
     for (int i = 0; i < labelsCount; i++)
     {
-        series.HasDataLabels = true;
-
         Assert.False(series.DataLabels[i].IsVisible);
 
         series.DataLabels[i].ShowCategoryName = true;
@@ -78,7 +82,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        series.DataLabels[i].IsHidden = false;
+        Assert.False(series.DataLabels[i].IsHidden);
         Assert.False(series.DataLabels[i].ShowDataLabelsRange);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;

@@ -2,15 +2,15 @@
 title: FontInfo.AltName
 linktitle: AltName
 articleTitle: AltName
-second_title: 用于 .NET 的 Aspose.Words
-description: FontInfo AltName 财产. 获取或设置字体的备用名称 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 FontInfo AltName 属性，轻松管理备用字体名称以增强排版并改进您的设计项目。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fonts/fontinfo/altname/
 ---
 ## FontInfo.AltName property
 
-获取或设置字体的备用名称。
+获取或设置字体的替代名称。
 
 ```csharp
 public string AltName { get; set; }
@@ -18,11 +18,11 @@ public string AltName { get; set; }
 
 ## 评论
 
-不可能是`无效的`。可以是空字符串。
+不可能`无效的`. 可以是空字符串。
 
 ## 例子
 
-演示如何访问和打印文档中每种字体的详细信息。
+展示如何访问和打印文档中每种字体的详细信息。
 
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
@@ -35,7 +35,7 @@ while (fontCollectionEnumerator.MoveNext())
     {
         Console.WriteLine("Font name: " + fontInfo.Name);
 
-        // Alt 名称通常为空。
+        // Alt 名称通常为空白。
         Console.WriteLine("Alt name: " + fontInfo.AltName);
         Console.WriteLine("\t- Family: " + fontInfo.Family);
         Console.WriteLine("\t- " + (fontInfo.IsTrueType ? "Is TrueType" : "Is not TrueType"));

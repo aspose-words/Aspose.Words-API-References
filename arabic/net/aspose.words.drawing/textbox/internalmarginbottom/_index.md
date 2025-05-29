@@ -3,7 +3,7 @@ title: TextBox.InternalMarginBottom
 linktitle: InternalMarginBottom
 articleTitle: InternalMarginBottom
 second_title: Aspose.Words لـ .NET
-description: TextBox InternalMarginBottom ملكية. يحدد الهامش السفلي الداخلي بالنقاط للشكل في C#.
+description: اكتشف خاصية TextBox InternalMarginBottom لتخصيص الهامش السفلي الداخلي لشكلتك بالنقاط لتحسين دقة التصميم.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/textbox/internalmarginbottom/
@@ -28,7 +28,7 @@ public double InternalMarginBottom { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مربع نص آخر بهوامش محددة.
+//إدراج مربع نص آخر بهوامش محددة.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

@@ -3,14 +3,14 @@ title: FontSavingArgs.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words för .NET
-description: FontSavingArgs Bold fast egendom. Indikerar om det aktuella teckensnittet är fetstilt i C#.
+description: Upptäck egenskapen FontSavingArgs Bold för att enkelt avgöra om ditt teckensnitt är fetstilt. Förbättra din typografi för bättre läsbarhet och design.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/fontsavingargs/bold/
 ---
 ## FontSavingArgs.Bold property
 
-Indikerar om det aktuella teckensnittet är fetstilt.
+Anger om det aktuella teckensnittet är fetstilt.
 
 ```csharp
 public bool Bold { get; }
@@ -18,7 +18,7 @@ public bool Bold { get; }
 
 ## Exempel
 
-Visar hur man definierar anpassad logik för att exportera teckensnitt när man sparar till HTML.
+Visar hur man definierar anpassad logik för export av teckensnitt när man sparar till HTML.
 
 ```csharp
 public void SaveExportedFonts()
@@ -26,14 +26,14 @@ public void SaveExportedFonts()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Konfigurera ett SaveOptions-objekt för att exportera teckensnitt till separata filer.
-    // Ställ in en återuppringning som kommer att hantera teckensnittssparande på ett anpassat sätt.
+    // Ställ in en återanropning som hanterar teckensnittssparning på ett anpassat sätt.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
         FontSavingCallback = new HandleFontSaving()
     };
 
-    // Återuppringningen kommer att exportera .ttf-filer och spara dem tillsammans med utdatadokumentet.
+    // Återanropet exporterar .ttf-filer och sparar dem tillsammans med utdatadokumentet.
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
@@ -44,7 +44,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata .html.
+/// Skriver ut information om exporterade teckensnitt och sparar dem i samma lokala systemmapp som deras utdata-.html.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {
@@ -62,10 +62,10 @@ public class HandleFontSaving : IFontSavingCallback
         Assert.True(args.IsSubsettingNeeded);
 
         // Det finns två sätt att spara ett exporterat teckensnitt.
-        // 1 - Spara den på en lokal filsystemsplats:
+        // 1 - Spara det till en lokal filsystemplats:
         args.FontFileName = args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last();
 
-        // 2 - Spara det i en stream:
+        // 2 - Spara det till en ström:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
         Assert.False(args.KeepFontStreamOpen);

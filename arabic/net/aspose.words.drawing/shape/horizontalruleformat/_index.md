@@ -3,14 +3,14 @@ title: Shape.HorizontalRuleFormat
 linktitle: HorizontalRuleFormat
 articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words لـ .NET
-description: Shape HorizontalRuleFormat ملكية. يوفر الوصول إلى خصائص شكل القاعدة الأفقية. بالنسبة للشكل الذي لا يمثل قاعدة أفقية يتم إرجاعهباطل  في C#.
+description: تمتع بالوصول إلى خصائص HorizontalRuleFormat وتخصيصها لتحسين مرونة التصميم. حسّن أشكالك بإعدادات مخصصة لنتائج فريدة.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words.drawing/shape/horizontalruleformat/
 ---
 ## Shape.HorizontalRuleFormat property
 
-يوفر الوصول إلى خصائص شكل القاعدة الأفقية. بالنسبة للشكل الذي لا يمثل قاعدة أفقية، يتم إرجاعه`باطل` .
+يوفر الوصول إلى خصائص شكل القاعدة الأفقية. بالنسبة للشكل الذي ليس قاعدة أفقية، يتم إرجاع`باطل` .
 
 ```csharp
 public HorizontalRuleFormat HorizontalRuleFormat { get; }
@@ -18,7 +18,7 @@ public HorizontalRuleFormat HorizontalRuleFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية إدراج شكل قاعدة أفقية، وتخصيص تنسيقه.
+يوضح كيفية إدراج شكل مسطرة أفقية وتخصيص تنسيقها.
 
 ```csharp
 Document doc = new Document();

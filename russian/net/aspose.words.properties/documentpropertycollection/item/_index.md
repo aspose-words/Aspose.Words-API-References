@@ -3,7 +3,7 @@ title: DocumentPropertyCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: DocumentPropertyCollection Item свойство. ВозвращаетDocumentProperty объект по имени свойства на С#.
+description: Получите доступ к объектам DocumentProperty без усилий с помощью нашего элемента DocumentPropertyCollection. Извлекайте свойства по имени для бесперебойного управления документами.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.properties/documentpropertycollection/item/
@@ -18,22 +18,22 @@ public virtual DocumentProperty this[string name] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| name | Имя извлекаемого свойства без учета регистра. |
+| name | Нечувствительное к регистру имя извлекаемого свойства. |
 
 ## Примечания
 
-Возврат`нулевой` если свойство с указанным именем не найдено.
+Возвраты`нулевой` если свойство с указанным именем не найдено.
 
 ## Примеры
 
-Показывает, как создать настраиваемое свойство документа, содержащее дату и время.
+Показывает, как создать пользовательское свойство документа, содержащее дату и время.
 
 ```csharp
 Document doc = new Document();
 
 doc.CustomDocumentProperties.Add("AuthorizationDate", DateTime.Now);
-
-Console.WriteLine($"Document authorized on {doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime()}");
+DateTime authorizationDate = doc.CustomDocumentProperties["AuthorizationDate"].ToDateTime();
+Console.WriteLine($"Document authorized on {authorizationDate}");
 ```
 
 ### Смотрите также
@@ -55,17 +55,17 @@ public DocumentProperty this[int index] { get; }
 
 | Параметр | Описание |
 | --- | --- |
-| index | Нулевой индекс[`DocumentProperty`](../../documentproperty/) чтобы получить. |
+| index | Индекс с нулевой базой[`DocumentProperty`](../../documentproperty/) для извлечения. |
 
 ## Примеры
 
-Показывает, как работать с настраиваемыми свойствами документа.
+Показывает, как работать с пользовательскими свойствами документа.
 
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Каждый документ содержит коллекцию пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
- // Документ имеет фиксированный список встроенных свойств. Пользователь создает все настраиваемые свойства.
+// Каждый документ содержит набор пользовательских свойств, которые, как и встроенные свойства, представляют собой пары ключ-значение.
+ // Документ имеет фиксированный список встроенных свойств. Пользователь создает все пользовательские свойства.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

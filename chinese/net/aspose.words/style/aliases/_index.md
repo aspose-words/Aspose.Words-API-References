@@ -2,15 +2,15 @@
 title: Style.Aliases
 linktitle: Aliases
 articleTitle: Aliases
-second_title: 用于 .NET 的 Aspose.Words
-description: Style Aliases 财产. 获取此样式的所有别名如果样式没有别名则返回空字符串数组 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Style Aliases 属性轻松发现所有样式别名。如果不存在，则返回一个空字符串数组。简化您的样式管理！
 type: docs
 weight: 10
 url: /zh/net/aspose.words/style/aliases/
 ---
 ## Style.Aliases property
 
-获取此样式的所有别名。如果样式没有别名，则返回空字符串数组。
+获取此样式的所有别名。如果样式没有别名，则返回空的字符串数组。
 
 ```csharp
 public string[] Aliases { get; }
@@ -23,14 +23,14 @@ public string[] Aliases { get; }
 ```csharp
 Document doc = new Document(MyDir + "Style with alias.docx");
 
-// 该文档包含名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
-// 如果样式名称具有多个以逗号分隔的值，则每个子句都是一个单独的别名。
+// 本文档包含一个名为“MyStyle,MyStyle Alias 1,MyStyle Alias 2”的样式。
+// 如果样式的名称有多个用逗号分隔的值，则每个子句都是一个单独的别名。
 Style style = doc.Styles["MyStyle"];
 Assert.AreEqual(new [] { "MyStyle Alias 1", "MyStyle Alias 2" }, style.Aliases);
 Assert.AreEqual("Title", style.BaseStyleName);
 Assert.AreEqual("MyStyle Char", style.LinkedStyleName);
 
-// 我们可以使用其别名及其名称来引用样式。
+// 我们可以使用其别名以及名称来引用样式。
 Assert.AreEqual(doc.Styles["MyStyle Alias 1"], doc.Styles["MyStyle Alias 2"]);
 
 DocumentBuilder builder = new DocumentBuilder(doc);

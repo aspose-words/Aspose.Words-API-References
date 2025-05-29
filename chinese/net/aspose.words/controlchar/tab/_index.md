@@ -2,15 +2,15 @@
 title: ControlChar.Tab
 linktitle: Tab
 articleTitle: Tab
-second_title: 用于 .NET 的 Aspose.Words
-description: ControlChar Tab 场地. 制表符x0009或t 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 ControlChar Tab 字段，了解 Tab 字符 x0009 以实现高效的文本格式化和增强的数据管理。
 type: docs
 weight: 270
 url: /zh/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-制表符：“\x0009”或“\t”.
+制表符：“\x0009”或“\t”。
 
 ```csharp
 public static readonly string Tab;
@@ -24,10 +24,10 @@ public static readonly string Tab;
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将制表位设置为每 72 点（1 英寸）出现一次。
+// 设置制表位每 72 点（1 英寸）出现一次。
 builder.Document.DefaultTabStop = 72;
 
-// 每个制表符将其后面的文本捕捉到下一个最接近的制表位位置。
+// 每个制表符都会将其后的文本对齐到下一个最近的制表位位置。
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

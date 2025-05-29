@@ -3,14 +3,14 @@ title: FieldAddressBlock.LanguageId
 linktitle: LanguageId
 articleTitle: LanguageId
 second_title: Aspose.Words لـ .NET
-description: FieldAddressBlock LanguageId ملكية. الحصول على أو تعيين معرف اللغة المستخدم لتنسيق العنوان في C#.
+description: أدر تنسيق العناوين بسهولة باستخدام خاصية "معرّف اللغة" في "كتلة عنوان الحقل". عيّن أو استرجع معرّف اللغة لضمان توطين سلس.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/fieldaddressblock/languageid/
 ---
 ## FieldAddressBlock.LanguageId property
 
-الحصول على أو تعيين معرف اللغة المستخدم لتنسيق العنوان.
+يحصل على معرف اللغة المستخدم لتنسيق العنوان أو يعينه.
 
 ```csharp
 public string LanguageId { get; set; }
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// ضبط هذا على "2" سيشمل جميع البلدان والمناطق،
-// إلا إذا كان هو المحدد في خاصية ExcludedCountryOrRegionName.
+// سيؤدي تعيين هذا على "2" إلى تضمين جميع البلدان والمناطق،
+// ما لم يكن هو المحدد في خاصية ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // بشكل افتراضي، ستحتوي هذه الخاصية على معرف اللغة للحرف الأول من المستند.
-// يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة بهذا الشكل.
+//يمكننا تعيين ثقافة مختلفة للحقل لتنسيق النتيجة على هذا النحو.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

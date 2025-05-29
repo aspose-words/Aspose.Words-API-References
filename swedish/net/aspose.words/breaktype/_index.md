@@ -3,9 +3,9 @@ title: BreakType Enum
 linktitle: BreakType
 articleTitle: BreakType
 second_title: Aspose.Words för .NET
-description: Aspose.Words.BreakType uppräkning. Anger typen av brytning i ett dokument i C#.
+description: Upptäck enumerationen Aspose.Words.BreakType för att förbättra dokumentformateringen med exakta brytningstyper för förbättrad läsbarhet och layoutkontroll.
 type: docs
-weight: 110
+weight: 300
 url: /sv/net/aspose.words/breaktype/
 ---
 ## BreakType enumeration
@@ -20,25 +20,25 @@ public enum BreakType
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| ParagraphBreak | `0` | Bryt mellan stycken. |
+| ParagraphBreak | `0` | Paus mellan stycken. |
 | PageBreak | `1` | Explicit sidbrytning. |
 | ColumnBreak | `2` | Explicit kolumnbrytning. |
-| SectionBreakContinuous | `3` | Anger början av nytt avsnitt på samma sida som föregående avsnitt. |
+| SectionBreakContinuous | `3` | Anger början på nytt avsnitt på samma sida som föregående avsnitt. |
 | SectionBreakNewColumn | `4` | Anger början på nytt avsnitt i den nya kolumnen. |
-| SectionBreakNewPage | `5` | Anger början av ett nytt avsnitt på en ny sida. |
-| SectionBreakEvenPage | `6` | Anger början av nytt avsnitt på en ny jämn sida. |
-| SectionBreakOddPage | `7` | Anger början av ett nytt avsnitt på en udda sida. |
-| LineBreak | `8` | Explicit radbrytning. |
+| SectionBreakNewPage | `5` | Anger början på nytt avsnitt på en ny sida. |
+| SectionBreakEvenPage | `6` | Anger början på nytt avsnitt på en ny jämn sida. |
+| SectionBreakOddPage | `7` | Anger början på nytt avsnitt på en udda sida. |
+| LineBreak | `8` | Uttrycklig radbrytning. |
 
 ## Exempel
 
-Visar hur du skapar sidhuvuden och sidfötter i ett dokument med DocumentBuilder.
+Visar hur man skapar sidhuvuden och sidfot i ett dokument med hjälp av DocumentBuilder.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ange att vi vill ha olika sidhuvuden och sidfötter för första, jämna och udda sidor.
+// Ange att vi vill ha olika sidhuvuden och sidfot för första, jämna och udda sidor.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 
@@ -60,25 +60,25 @@ builder.Writeln("Page3");
 doc.Save(ArtifactsDir + "DocumentBuilder.HeadersAndFooters.docx");
 ```
 
-Visar hur man tillämpar och återställer sidinställningar till avsnitt i ett dokument.
+Visar hur man tillämpar och återställer inställningar för sidinställningar för avsnitt i ett dokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ändra sidinställningarna för byggarens nuvarande avsnitt och lägg till text.
+// Ändra sidinställningarna för den aktuella sektionen i skaparen och lägg till text.
 builder.PageSetup.Orientation = Orientation.Landscape;
 builder.PageSetup.VerticalAlignment = PageVerticalAlignment.Center;
 builder.Writeln("This is the first section, which landscape oriented with vertically centered text.");
 
 // Om vi startar ett nytt avsnitt med hjälp av en dokumentbyggare,
-// det kommer att ärva byggarens nuvarande sidinställningar.
+// den kommer att ärva skaparens nuvarande sidinställningar.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
 Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
 
-// Vi kan återställa dess sidinställningar till deras standardvärden med "ClearFormatting"-metoden.
+// Vi kan återställa dess sidinställningar till standardvärdena med hjälp av metoden "ClearFormatting".
 builder.PageSetup.ClearFormatting();
 
 Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
@@ -89,21 +89,21 @@ builder.Writeln("This is the second section, which is in default Letter paper si
 doc.Save(ArtifactsDir + "PageSetup.ClearFormatting.docx");
 ```
 
-Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med rubrikstilar som poster.
+Visar hur man infogar en innehållsförteckning (TOC) i ett dokument med hjälp av rubrikformat som poster.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Infoga en innehållsförteckning för dokumentets första sida.
-// Konfigurera tabellen för att ta upp stycken med rubriker på nivå 1 till 3.
-// Ställ också in dess poster att vara hyperlänkar som tar oss
-// till platsen för rubriken när du vänsterklickar i Microsoft Word.
+// Konfigurera tabellen för att hämta stycken med rubriker på nivå 1 till 3.
+// Ställ också in dess poster som hyperlänkar som tar oss
+// till rubrikens plats när man vänsterklickar i Microsoft Word.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 
-// Fyll i innehållsförteckningen genom att lägga till stycken med rubrikstilar.
-// Varje sådan rubrik med en nivå mellan 1 och 3 kommer att skapa en post i tabellen.
+// Fyll innehållsförteckningen genom att lägga till stycken med rubrikformat.
+// Varje sådan rubrik med en nivå mellan 1 och 3 skapar en post i tabellen.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 builder.Writeln("Heading 1");
 

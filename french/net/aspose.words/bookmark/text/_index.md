@@ -3,7 +3,7 @@ title: Bookmark.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: Bookmark Text propriété. Obtient ou définit le texte inclus dans le signet en C#.
+description: Gérez vos favoris sans effort ! Accédez ou modifiez le texte de vos favoris pour une organisation simplifiée et un accès rapide aux notes importantes.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/bookmark/text/
@@ -37,7 +37,7 @@ public void CreateUpdateAndPrintBookmarks()
 }
 
 /// <summary>
-/// Crée un document avec un nombre donné de signets.
+/// Créer un document avec un nombre donné de signets.
 /// </summary>
 private static Document CreateDocumentWithBookmarks(int numberOfBookmarks)
 {
@@ -65,7 +65,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Demande à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
+    // Demandez à chaque signet de la collection d'accepter un visiteur qui imprimera son contenu.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())

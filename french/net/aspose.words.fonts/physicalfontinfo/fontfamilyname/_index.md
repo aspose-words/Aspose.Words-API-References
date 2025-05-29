@@ -3,9 +3,9 @@ title: PhysicalFontInfo.FontFamilyName
 linktitle: FontFamilyName
 articleTitle: FontFamilyName
 second_title: Aspose.Words pour .NET
-description: PhysicalFontInfo FontFamilyName propriété. Nom de famille de la police en C#.
+description: Découvrez la propriété PhysicalFontInfo FontFamilyName, votre clé pour identifier et utiliser efficacement les familles de polices dans vos projets.
 type: docs
-weight: 20
+weight: 30
 url: /fr/net/aspose.words.fonts/physicalfontinfo/fontfamilyname/
 ---
 ## PhysicalFontInfo.FontFamilyName property
@@ -21,7 +21,7 @@ public string FontFamilyName { get; }
 Montre comment répertorier les polices disponibles.
 
 ```csharp
-// Configurez Aspose.Words pour rechercher les polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
+// Configurez Aspose.Words pour rechercher des polices à partir d'un dossier personnalisé, puis imprimez toutes les polices disponibles.
 FontSourceBase[] folderFontSource = { new FolderFontSource(FontsDir, true) };
 
 foreach (PhysicalFontInfo fontInfo in folderFontSource[0].GetAvailableFonts())

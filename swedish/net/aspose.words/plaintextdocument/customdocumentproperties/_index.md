@@ -3,14 +3,14 @@ title: PlainTextDocument.CustomDocumentProperties
 linktitle: CustomDocumentProperties
 articleTitle: CustomDocumentProperties
 second_title: Aspose.Words för .NET
-description: PlainTextDocument CustomDocumentProperties fast egendom. BlirCustomDocumentProperties av dokumentet i C#.
+description: Upptäck hur du får tillgång till CustomDocumentProperties i PlainTextDocument för förbättrad dokumenthantering och anpassning. Frigör ditt dokuments potential!
 type: docs
 weight: 30
 url: /sv/net/aspose.words/plaintextdocument/customdocumentproperties/
 ---
 ## PlainTextDocument.CustomDocumentProperties property
 
-Blir`CustomDocumentProperties` av dokumentet.
+Får`CustomDocumentProperties` av dokumentet.
 
 ```csharp
 public CustomDocumentProperties CustomDocumentProperties { get; }
@@ -18,7 +18,7 @@ public CustomDocumentProperties CustomDocumentProperties { get; }
 
 ## Exempel
 
-Visar hur du laddar innehållet i ett Microsoft Word-dokument i klartext och sedan kommer åt originaldokumentets anpassade egenskaper.
+Visar hur man laddar innehållet i ett Microsoft Word-dokument i klartext och sedan får åtkomst till originaldokumentets anpassade egenskaper.
 
 ```csharp
 Document doc = new Document();

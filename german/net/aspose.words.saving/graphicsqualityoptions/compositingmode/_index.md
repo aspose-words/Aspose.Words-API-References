@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.CompositingMode
 linktitle: CompositingMode
 articleTitle: CompositingMode
 second_title: Aspose.Words für .NET
-description: GraphicsQualityOptions CompositingMode eigendom. Ruft einen Wert ab oder legt diesen fest der angibt wie zusammengesetzte Bilder in diese Grafik gezeichnet werden in C#.
+description: Entdecken Sie die CompositingMode-Eigenschaft GraphicsQualityOptions, um die Bildwiedergabe zu optimieren und so die Leistung und Qualität Ihrer Grafiken zu verbessern.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/graphicsqualityoptions/compositingmode/
 ---
 ## GraphicsQualityOptions.CompositingMode property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, wie zusammengesetzte Bilder in diese Grafik gezeichnet werden.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, wie zusammengesetzte Bilder in diese Grafik gezeichnet werden.
 
 ```csharp
 public CompositingMode? CompositingMode { get; set; }
@@ -18,7 +18,7 @@ public CompositingMode? CompositingMode { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Renderqualitätsoptionen beim Konvertieren von Dokumenten in Bildformate festgelegt werden.
+Zeigt, wie Sie beim Konvertieren von Dokumenten in Bildformate Optionen für die Renderqualität festlegen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

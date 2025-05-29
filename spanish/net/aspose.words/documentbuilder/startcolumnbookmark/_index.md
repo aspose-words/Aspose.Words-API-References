@@ -3,14 +3,14 @@ title: DocumentBuilder.StartColumnBookmark
 linktitle: StartColumnBookmark
 articleTitle: StartColumnBookmark
 second_title: Aspose.Words para .NET
-description: DocumentBuilder StartColumnBookmark método. Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de la tabla en C#.
+description: Utilice el método StartColumnBookmark de DocumentBuilder para marcar fácilmente las posiciones de las celdas de la tabla como marcadores de columna, mejorando la navegación y la organización del documento.
 type: docs
-weight: 620
+weight: 660
 url: /es/net/aspose.words/documentbuilder/startcolumnbookmark/
 ---
 ## DocumentBuilder.StartColumnBookmark method
 
-Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de la tabla.
+Marca la posición actual en el documento como inicio de marcador de columna. La posición debe estar en una celda de tabla.
 
 ```csharp
 public BookmarkStart StartColumnBookmark(string bookmarkName)
@@ -26,11 +26,11 @@ El nodo de inicio del marcador que se acaba de crear.
 
 ## Observaciones
 
-Un marcador de columna cubre una o más columnas en un rango de filas. Para crear un marcador válido, you necesita llamar a ambos`StartColumnBookmark` y[`EndColumnBookmark`](../endcolumnbookmark/) con el mismo *bookmarkName*parámetro.
+Un marcador de columna cubre una o más columnas en un rango de filas. Para crear un marcador válido, debe llamar a ambos.`StartColumnBookmark` y[`EndColumnBookmark`](../endcolumnbookmark/) con el mismo *bookmarkName* parámetro.
 
 Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 
-La posición real del insertado.[`BookmarkStart`](../../bookmarkstart/) El nodo puede diferir de la posición actual del constructor document .
+La posición real del insertado[`BookmarkStart`](../../bookmarkstart/) El nodo puede diferir de la posición actual del constructor document .
 
 ## Ejemplos
 
@@ -43,7 +43,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.StartTable();
 
 builder.InsertCell();
-// Las celdas 1,2,4,5 se marcarán como favoritas.
+//Las celdas 1,2,4,5 se marcarán como favoritas.
 builder.StartColumnBookmark("MyBookmark_1");
 // Los marcadores mal formados o con nombres duplicados se ignorarán cuando se guarde el documento.
 builder.StartColumnBookmark("MyBookmark_1");

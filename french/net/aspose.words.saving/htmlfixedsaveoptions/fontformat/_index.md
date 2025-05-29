@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.FontFormat
 linktitle: FontFormat
 articleTitle: FontFormat
 second_title: Aspose.Words pour .NET
-description: HtmlFixedSaveOptions FontFormat propriété. Obtient ou définitExportFontFormat utilisé pour lexportation de polices. La valeur par défaut estWoff  en C#.
+description: Découvrez la propriété FontFormat de HtmlFixedSaveOptions pour personnaliser l'exportation des polices. Définissez et optimisez facilement votre format par défaut sur Woff pour de meilleures performances.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.saving/htmlfixedsaveoptions/fontformat/
 ---
 ## HtmlFixedSaveOptions.FontFormat property
 
-Obtient ou définit[`ExportFontFormat`](../../exportfontformat/) utilisé pour l'exportation de polices. La valeur par défaut estWoff .
+Obtient ou définit[`ExportFontFormat`](../../exportfontformat/) utilisé pour l'exportation des polices. La valeur par défaut estWoff .
 
 ```csharp
 public ExportFontFormat FontFormat { get; set; }
@@ -18,7 +18,7 @@ public ExportFontFormat FontFormat { get; set; }
 
 ## Exemples
 
-Montre comment utiliser les polices uniquement de la machine cible lors de l'enregistrement d'un document au format HTML.
+Montre comment utiliser uniquement les polices de la machine cible lors de l'enregistrement d'un document au format HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Bullet points with alternative font.docx");

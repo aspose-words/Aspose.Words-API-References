@@ -3,14 +3,14 @@ title: VariableCollection.IndexOfKey
 linktitle: IndexOfKey
 articleTitle: IndexOfKey
 second_title: Aspose.Words per .NET
-description: VariableCollection IndexOfKey metodo. Restituisce lindice in base zero della variabile del documento specificata nella raccolta in C#.
+description: Scopri il metodo IndexOfKey di VariableCollection. Trova rapidamente l'indice a base zero della variabile del tuo documento per una gestione efficiente dei dati.
 type: docs
 weight: 70
 url: /it/net/aspose.words/variablecollection/indexofkey/
 ---
 ## VariableCollection.IndexOfKey method
 
-Restituisce l'indice in base zero della variabile del documento specificata nella raccolta.
+Restituisce l'indice basato su zero della variabile del documento specificata nella raccolta.
 
 ```csharp
 public int IndexOfKey(string name)
@@ -18,11 +18,11 @@ public int IndexOfKey(string name)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome della variabile senza distinzione tra maiuscole e minuscole. |
+| name | String | Nome della variabile senza distinzione tra maiuscole e minuscole. |
 
 ### Valore di ritorno
 
-L'indice a base zero. Valore negativo se non trovato.
+Indice a base zero. Valore negativo se non trovato.
 
 ## Esempi
 
@@ -32,7 +32,7 @@ Mostra come lavorare con la raccolta di variabili di un documento.
 Document doc = new Document();
 VariableCollection variables = doc.Variables;
 
-// Ogni documento ha una raccolta di variabili di coppie chiave/valore a cui possiamo aggiungere elementi.
+// Ogni documento ha una raccolta di variabili di coppia chiave/valore, a cui possiamo aggiungere elementi.
 variables.Add("Home address", "123 Main St.");
 variables.Add("City", "London");
 variables.Add("Bedrooms", "3");
@@ -47,7 +47,7 @@ field.Update();
 
 Assert.AreEqual("123 Main St.", field.Result);
 
-// L'assegnazione di valori alle chiavi esistenti li aggiornerà.
+// L'assegnazione di valori alle chiavi esistenti le aggiornerà.
 variables.Add("Home address", "456 Queen St.");
 
 // Dovremo quindi aggiornare i campi DOCVARIABLE per garantire che visualizzino un valore aggiornato.
@@ -57,7 +57,7 @@ field.Update();
 
 Assert.AreEqual("456 Queen St.", field.Result);
 
-// Verifica che esistano le variabili del documento con un determinato nome o valore.
+// Verifica che esistano variabili del documento con un certo nome o valore.
 Assert.True(variables.Contains("City"));
 Assert.True(variables.Any(v => v.Value == "London"));
 
@@ -66,12 +66,15 @@ Assert.AreEqual(0, variables.IndexOfKey("Bedrooms"));
 Assert.AreEqual(1, variables.IndexOfKey("City"));
 Assert.AreEqual(2, variables.IndexOfKey("Home address"));
 
+Assert.AreEqual("3", variables[0]);
+Assert.AreEqual("London", variables["City"]);
+
 // Enumera la raccolta di variabili.
 using (IEnumerator<KeyValuePair<string, string>> enumerator = doc.Variables.GetEnumerator())
     while (enumerator.MoveNext())
         Console.WriteLine($"Name: {enumerator.Current.Key}, Value: {enumerator.Current.Value}");
 
-// Di seguito sono riportati tre modi per rimuovere le variabili del documento da una raccolta.
+// Di seguito sono riportati tre metodi per rimuovere le variabili del documento da una raccolta.
 // 1 - Per nome:
 variables.Remove("City");
 
@@ -82,10 +85,10 @@ variables.RemoveAt(1);
 
 Assert.False(variables.Contains("Home address"));
 
-// 3 - Cancella l'intera raccolta in una volta:
+// 3 - Cancella l'intera collezione in una volta sola:
 variables.Clear();
 
-Assert.That(variables, Is.Empty);
+Assert.AreEqual(0, variables.Count);
 ```
 
 ### Guarda anche

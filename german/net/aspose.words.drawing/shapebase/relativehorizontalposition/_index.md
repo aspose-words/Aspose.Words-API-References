@@ -3,14 +3,14 @@ title: ShapeBase.RelativeHorizontalPosition
 linktitle: RelativeHorizontalPosition
 articleTitle: RelativeHorizontalPosition
 second_title: Aspose.Words für .NET
-description: ShapeBase RelativeHorizontalPosition eigendom. Gibt relativ zur horizontalen Positionierung der Form an in C#.
+description: Entdecken Sie die ShapeBase RelativeHorizontalPosition-Eigenschaft, um die horizontale Positionierung von Formen zu optimieren. Optimieren Sie Ihr Design mit Präzision und Kontrolle!
 type: docs
-weight: 420
+weight: 450
 url: /de/net/aspose.words.drawing/shapebase/relativehorizontalposition/
 ---
 ## ShapeBase.RelativeHorizontalPosition property
 
-Gibt relativ zur horizontalen Positionierung der Form an.
+Gibt an, relativ zu was die Form horizontal positioniert ist.
 
 ```csharp
 public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
@@ -20,17 +20,17 @@ public RelativeHorizontalPosition RelativeHorizontalPosition { get; set; }
 
 Der Standardwert istColumn.
 
-Hat nur Auswirkungen auf schwebende Formen der obersten Ebene.
+Wirkt sich nur auf schwebende Formen der obersten Ebene aus.
 
 ## Beispiele
 
-Zeigt, wie man ein schwebendes Bild in der Mitte einer Seite einfügt.
+Zeigt, wie ein schwebendes Bild in die Mitte einer Seite eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text erscheint, und richten Sie es in der Mitte der Seite aus.
+// Fügen Sie ein schwebendes Bild ein, das hinter dem überlappenden Text angezeigt wird, und richten Sie es an der Seitenmitte aus.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

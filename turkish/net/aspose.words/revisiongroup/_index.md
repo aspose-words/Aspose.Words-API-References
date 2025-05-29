@@ -2,17 +2,17 @@
 title: RevisionGroup Class
 linktitle: RevisionGroup
 articleTitle: RevisionGroup
-second_title: Aspose.Words for .NET
-description: Aspose.Words.RevisionGroup sınıf. Sıralı bir grup temsil ederRevision nesneler C#'da.
+second_title: .NET için Aspose.Words
+description: Sıralı Revision nesnelerini verimli bir şekilde yönetmek ve düzenlemek ve belge düzenlemeyi kolaylaştırmak için tasarlanmış Aspose.Words.RevisionGroup sınıfını keşfedin.
 type: docs
-weight: 4780
+weight: 5520
 url: /tr/net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
 
 Sıralı bir grup temsil eder[`Revision`](../revision/) nesneler.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Belgedeki Değişiklikleri İzleme](https://docs.aspose.com/words/net/track-changes-in-a-document/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Bir Belgedeki Değişiklikleri İzle](https://docs.aspose.com/words/net/track-changes-in-a-document/) belgeleme makalesi.
 
 ```csharp
 public class RevisionGroup
@@ -22,13 +22,13 @@ public class RevisionGroup
 
 | İsim | Tanım |
 | --- | --- |
-| [Author](../../aspose.words/revisiongroup/author/) { get; } | Bu revizyon grubunun yazarını döndürür. |
-| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Bu gruba dahil olan revizyonların türünü alır. |
-| [Text](../../aspose.words/revisiongroup/text/) { get; } | Eklenen/silinen/taşınan metni veya biçim değişikliğinin açıklamasını döndürür. |
+| [Author](../../aspose.words/revisiongroup/author/) { get; } | Bu revizyon grubunun yazarını alır. |
+| [RevisionType](../../aspose.words/revisiongroup/revisiontype/) { get; } | Bu gruba dahil edilen revizyonların türünü alır. |
+| [Text](../../aspose.words/revisiongroup/text/) { get; } | Eklenen/silinmiş/taşınan metni veya biçim değişikliğinin açıklamasını döndürür. |
 
 ## Örnekler
 
-Bir belgedeki revizyon grubu hakkındaki bilgilerin nasıl yazdırılacağını gösterir.
+Bir belgedeki revizyon grubuyla ilgili bilgilerin nasıl yazdırılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

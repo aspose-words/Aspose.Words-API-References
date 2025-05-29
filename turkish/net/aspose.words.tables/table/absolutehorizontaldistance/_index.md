@@ -2,15 +2,15 @@
 title: Table.AbsoluteHorizontalDistance
 linktitle: AbsoluteHorizontalDistance
 articleTitle: AbsoluteHorizontalDistance
-second_title: Aspose.Words for .NET
-description: Table AbsoluteHorizontalDistance mülk. Tablo özellikleri tarafından belirtilen mutlak yatay kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0. dir C#'da.
+second_title: .NET için Aspose.Words
+description: Tablonuzun yatay konumunu noktalar halinde kolayca ayarlamak için Table AbsoluteHorizontalDistance özelliğini keşfedin. Varsayılan 0 ile düzeni optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.tables/table/absolutehorizontaldistance/
 ---
 ## Table.AbsoluteHorizontalDistance property
 
-Tablo özellikleri tarafından belirtilen mutlak yatay kayan tablo konumunu puan cinsinden alır veya ayarlar. Varsayılan değer 0. 'dir
+Tablo özellikleri tarafından belirtilen mutlak yatay yüzen tablo konumunu noktalar halinde alır veya ayarlar. Varsayılan değer 0'dır.
 
 ```csharp
 public double AbsoluteHorizontalDistance { get; set; }
@@ -18,7 +18,7 @@ public double AbsoluteHorizontalDistance { get; set; }
 
 ## Örnekler
 
-Kayan tabloların konumunun nasıl ayarlandığını gösterir.
+Yüzen tabloların konumunun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ builder.Write("Table 1, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// Tablonun konumunu sayfada bir yere ayarlayın; bu durumda sağ alt köşe gibi.
+// Tablonun konumunu sayfadaki bir yere, örneğin bu durumda sağ alt köşeye ayarlayın.
 table.RelativeVerticalAlignment = VerticalAlignment.Bottom;
 table.RelativeHorizontalAlignment = HorizontalAlignment.Right;
 
@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
- // Tabloyu eklediğimiz paragrafın konumundan itibaren noktalarda yatay ve dikey uzaklık da ayarlayabiliriz.
+ // Ayrıca tabloyu eklediğimiz paragrafın konumundan itibaren yatay ve dikey olarak puan cinsinden bir ofset de ayarlayabiliriz.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

@@ -3,14 +3,14 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words per .NET
-description: ParagraphFormat LineUnitAfter proprietà. Ottiene o imposta la quantità di spaziatura nelle griglie dopo i paragrafi in C#.
+description: Scopri la proprietà ParagraphFormat LineUnitAfter: controlla la spaziatura nelle linee della griglia per un layout di paragrafo migliorato e una migliore leggibilità del documento.
 type: docs
 weight: 220
 url: /it/net/aspose.words/paragraphformat/lineunitafter/
 ---
 ## ParagraphFormat.LineUnitAfter property
 
-Ottiene o imposta la quantità di spaziatura (nelle griglie) dopo i paragrafi.
+Ottiene o imposta la quantità di spaziatura (nelle linee della griglia) dopo i paragrafi.
 
 ```csharp
 public double LineUnitAfter { get; set; }
@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
-// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà che la loro configurazione influenza indirettamente.
+// Di seguito sono riportate cinque diverse opzioni di spaziatura, insieme alle proprietà sulle quali la loro configurazione influisce indirettamente.
 // 1 - Rientro sinistro:
 Assert.AreEqual(format.LeftIndent, 0.0d);
 
@@ -33,7 +33,7 @@ format.CharacterUnitLeftIndent = 10.0;
 
 Assert.AreEqual(format.LeftIndent, 120.0d);
 
-// 2 - Rientro destro:
+// 2 - Rientro a destra:
 Assert.AreEqual(format.RightIndent, 0.0d); 
 
 format.CharacterUnitRightIndent = -5.5;

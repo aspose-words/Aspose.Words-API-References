@@ -3,7 +3,7 @@ title: DocumentProperty.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words für .NET
-description: DocumentProperty Name eigendom. Gibt den Namen der Eigenschaft zurück in C#.
+description: Entdecken Sie die Funktion „DocumentProperty Name“, mit der Sie mühelos Eigenschaftsnamen abrufen und so die Effizienz Ihres Dokumentenmanagements und Workflows verbessern können.
 type: docs
 weight: 30
 url: /de/net/aspose.words.properties/documentproperty/name/
@@ -18,7 +18,7 @@ public string Name { get; }
 
 ## Bemerkungen
 
-Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
+Kann nicht sein`null` und darf keine leere Zeichenfolge sein.
 
 ## Beispiele
 
@@ -27,11 +27,11 @@ Zeigt, wie mit integrierten Dokumenteigenschaften gearbeitet wird.
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Das Objekt „Document“ enthält einige seiner Metadaten in seinen Mitgliedern.
+// Das Objekt „Dokument“ enthält einige seiner Metadaten in seinen Mitgliedern.
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // Das Dokument speichert auch Metadaten in seinen integrierten Eigenschaften.
-// Jede integrierte Eigenschaft ist Mitglied des „BuiltInDocumentProperties“-Objekts des Dokuments.
+// Jede integrierte Eigenschaft ist ein Mitglied des Objekts „BuiltInDocumentProperties“ des Dokuments.
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

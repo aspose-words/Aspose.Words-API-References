@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportDropDownFormFieldAsText
 linktitle: ExportDropDownFormFieldAsText
 articleTitle: ExportDropDownFormFieldAsText
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportDropDownFormFieldAsText fast egendom. Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardvärdet ärfalsk  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportDropDownFormFieldAsText förbättrar dina HTML/MHTML-exporter genom att styra formaten för rullgardinsmenyer. Optimera dina dokument!
 type: docs
 weight: 130
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportdropdownformfieldastext/
 ---
 ## HtmlSaveOptions.ExportDropDownFormFieldAsText property
 
-Styr hur formulärfält i rullgardinsmenyn sparas i HTML eller MHTML. Standardvärdet är`falsk` .
+Styr hur rullgardinsmenyfält sparas i HTML eller MHTML. Standardvärdet är`falsk` .
 
 ```csharp
 public bool ExportDropDownFormFieldAsText { get; set; }
@@ -18,26 +18,26 @@ public bool ExportDropDownFormFieldAsText { get; set; }
 
 ## Anmärkningar
 
-När inställd på`Sann` , exporterar rullgardinsfält som normal text. When`falsk`, exporterar rullgardinsfält som SELECT-element i HTML.
+När den är inställd på`sann` , exporterar rullgardinsmenyfält som vanlig text. När`falsk`, exporterar rullgardinsmenyfält som SELECT-element i HTML.
 
-Vid export till EPUB sparas formulärfälten i rullgardinsmenyn alltid som text på grund av till kraven i detta format.
+Vid export till EPUB sparas textfält i listrutorna alltid som text på grund av kraven i detta format.
 
 ## Exempel
 
-Visar hur du får formulärfält i rullgardinsmenyn att smälta in med stycketext när du sparar till html.
+Visar hur man får formulärfält i rullgardinsmenyer att blandas med stycketexten när man sparar till html.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Använd en dokumentbyggare för att infoga en kombinationsruta med värdet "Två" markerat.
+// Använd en dokumentbyggare för att infoga en kombinationsruta med värdet "Två" valt.
 builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 1);
 
-// Flaggan "ExportDropDownFormFieldAsText" för detta SaveOptions-objekt tillåter oss att
-// styr hur du hanterar kombinationsrutor när du sparar dokumentet i HTML.
+// Flaggan "ExportDropDownFormFieldAsText" för detta SaveOptions-objekt låter oss
+// styr hur sparade dokument till HTML hanterar rullgardinsmenyer.
 // Om du ställer in den på "true" konverteras varje kombinationsruta till enkel text
-// som visar kombinationsrutans för närvarande valda värde, vilket effektivt fryser det.
-// Om du ställer in den på "false" bevaras kombinationsrutans funktionalitet med <select> och <alternativ> taggar.
+// som visar kombinationsrutans för närvarande valda värde, vilket i praktiken fryser det.
+// Om du ställer in den på "false" bevaras funktionaliteten i kombinationsrutan med hjälp av taggarna <select> och <option>.
 HtmlSaveOptions options = new HtmlSaveOptions();
 options.ExportDropDownFormFieldAsText = exportDropDownFormFieldAsText;    
 

@@ -3,14 +3,14 @@ title: TextColumnCollection.LineBetween
 linktitle: LineBetween
 articleTitle: LineBetween
 second_title: Aspose.Words för .NET
-description: TextColumnCollection LineBetween fast egendom. NärSann lägger till en vertikal linje mellan kolumner i C#.
+description: Förbättra din layout med egenskapen TextColumnCollection LineBetween. Aktivera vertikala linjer mellan kolumner för ett elegant och organiserat utseende.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/textcolumncollection/linebetween/
 ---
 ## TextColumnCollection.LineBetween property
 
-När`Sann` lägger till en vertikal linje mellan kolumner.
+När`sann` , lägger till en vertikal linje mellan kolumner.
 
 ```csharp
 public bool LineBetween { get; set; }
@@ -24,9 +24,9 @@ Visar hur man separerar kolumner med en vertikal linje.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Konfigurera det aktuella avsnittets PageSetup-objekt för att dela upp texten i flera kolumner.
-// Ställ in egenskapen "LineBetween" till "true" för att sätta en skiljelinje mellan kolumner.
-// Ställ in egenskapen "LineBetween" till "false" för att lämna mellanrummet mellan kolumnerna tomt.
+// Konfigurera den aktuella sektionens PageSetup-objekt för att dela upp texten i flera kolumner.
+// Sätt egenskapen "LineBetween" till "true" för att lägga till en skiljelinje mellan kolumner.
+// Sätt egenskapen "LineBetween" till "false" för att lämna mellanrummet mellan kolumnerna tomt.
 TextColumnCollection columns = builder.PageSetup.TextColumns;
 columns.LineBetween = lineBetween;
 columns.SetCount(3);

@@ -3,14 +3,14 @@ title: ImageWatermarkOptions.IsWashout
 linktitle: IsWashout
 articleTitle: IsWashout
 second_title: Aspose.Words لـ .NET
-description: ImageWatermarkOptions IsWashout ملكية. الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف خاصية IsWashout في ImageWatermarkOptions. تحكم في تأثير إزالة العلامة المائية بسهولة باستخدام هذا الإعداد المنطقي البسيط.
 type: docs
 weight: 20
 url: /ar/net/aspose.words/imagewatermarkoptions/iswashout/
 ---
 ## ImageWatermarkOptions.IsWashout property
 
-الحصول على أو تعيين قيمة منطقية مسؤولة عن تأثير تبييض العلامة المائية. القيمة الافتراضية هي`حقيقي` .
+يحصل على قيمة منطقية أو يعينها وهي المسؤولة عن تأثير غسل العلامة المائية. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool IsWashout { get; set; }
@@ -24,14 +24,19 @@ public bool IsWashout { get; set; }
 Document doc = new Document();
 
             // تعديل مظهر العلامة المائية للصورة باستخدام كائن ImageWatermarkOptions،
-            // ثم قم بتمريرها أثناء إنشاء علامة مائية من ملف صورة.
+            // ثم مررها أثناء إنشاء علامة مائية من ملف صورة.
             ImageWatermarkOptions imageWatermarkOptions = new ImageWatermarkOptions();
             imageWatermarkOptions.Scale = 5;
             imageWatermarkOptions.IsWashout = false;
 
-#if NET48 || JAVA
+#if NET461_OR_GREATER || JAVA
+            // لدينا خيارات مختلفة لإدراج الصورة:
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-#elif NET5_0_OR_GREATER || __MOBILE__
+
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
+
+            doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+#elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
             {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);

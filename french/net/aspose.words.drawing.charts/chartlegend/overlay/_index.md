@@ -3,14 +3,14 @@ title: ChartLegend.Overlay
 linktitle: Overlay
 articleTitle: Overlay
 second_title: Aspose.Words pour .NET
-description: ChartLegend Overlay propriété. Détermine si dautres éléments du graphique doivent pouvoir chevaucher la légende. La valeur par défaut estFAUX  en C#.
+description: Superposition des éléments du graphique de contrôle avec la propriété ChartLegend Overlay. Améliorez la visualisation de vos données grâce à des paramètres de légende personnalisables pour des informations plus claires.
 type: docs
-weight: 20
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartlegend/overlay/
 ---
 ## ChartLegend.Overlay property
 
-Détermine si d'autres éléments du graphique doivent pouvoir chevaucher la légende. La valeur par défaut est`FAUX` .
+Détermine si d'autres éléments du graphique doivent être autorisés à chevaucher la légende. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool Overlay { get; set; }
@@ -18,7 +18,7 @@ public bool Overlay { get; set; }
 
 ## Exemples
 
-Montre comment modifier l’apparence de la légende d’un graphique.
+Montre comment modifier l'apparence de la légende d'un graphique.
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ Assert.AreEqual("Series 1", chart.Series[0].Name);
 Assert.AreEqual("Series 2", chart.Series[1].Name);
 Assert.AreEqual("Series 3", chart.Series[2].Name);
 
-// Déplace la légende du graphique vers le coin supérieur droit.
+// Déplacez la légende du graphique vers le coin supérieur droit.
 ChartLegend legend = chart.Legend;
 legend.Position = LegendPosition.TopRight;
 

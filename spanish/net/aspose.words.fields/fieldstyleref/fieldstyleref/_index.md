@@ -3,7 +3,7 @@ title: FieldStyleRef
 linktitle: FieldStyleRef
 articleTitle: FieldStyleRef
 second_title: Aspose.Words para .NET
-description: FieldStyleRef constructor. Constructor predeterminado en C#.
+description: Descubre el constructor FieldStyleRef, una potente herramienta para crear estilos de campo personalizados sin esfuerzo. ¡Descubre posibilidades de diseño únicas hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldstyleref/fieldstyleref/

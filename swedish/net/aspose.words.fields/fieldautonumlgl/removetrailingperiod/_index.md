@@ -3,14 +3,14 @@ title: FieldAutoNumLgl.RemoveTrailingPeriod
 linktitle: RemoveTrailingPeriod
 articleTitle: RemoveTrailingPeriod
 second_title: Aspose.Words för .NET
-description: FieldAutoNumLgl RemoveTrailingPeriod fast egendom. Hämtar eller ställer in om numret ska visas utan efterföljande period i C#.
+description: Hantera egenskapen RemoveTrailingPeriod i FieldAutoNumLgl för att anpassa talvisning – eliminera efterföljande punkter för en renare och professionellare formatering.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/
 ---
 ## FieldAutoNumLgl.RemoveTrailingPeriod property
 
-Hämtar eller ställer in om numret ska visas utan efterföljande period.
+Hämtar eller anger om talet ska visas utan en avslutande punkt.
 
 ```csharp
 public bool RemoveTrailingPeriod { get; set; }
@@ -18,7 +18,7 @@ public bool RemoveTrailingPeriod { get; set; }
 
 ## Exempel
 
-Visar hur man organiserar ett dokument med AUTONUMLGL-fält.
+Visar hur man organiserar ett dokument med hjälp av AUTONUMLGL-fält.
 
 ```csharp
 public void FieldAutoNumLgl()
@@ -31,39 +31,39 @@ public void FieldAutoNumLgl()
 
     // AUTONUMLGL-fält visar ett tal som ökar vid varje AUTONUMLGL-fält inom dess aktuella rubriknivå.
     // Dessa fält har en separat räkning för varje rubriknivå,
-     // och varje fält visar också AUTONUMLGL-fältantalet för alla rubriknivåer under sina egna.
-    // Genom att ändra räkningen för någon rubriknivå återställs räkningen för alla nivåer över den nivån till 1.
-    // Detta gör att vi kan organisera vårt dokument i form av en översiktslista.
-    // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 1, som visar "1." i dokumentet.
+     // och varje fält visar även AUTONUMLGL-fältets antal för alla rubriknivåer under det egna.
+    // Om du ändrar antalet för en rubriknivå återställs antalet för alla nivåer ovanför den nivån till 1.
+    // Detta låter oss organisera vårt dokument i form av en dispositionslista.
+    // Detta är det första AUTONUMLGL-fältet på rubriknivå 1, som visar "1." i dokumentet.
     InsertNumberedClause(builder, "\tHeading 1", fillerText, StyleIdentifier.Heading1);
 
-    // Detta är det andra AUTONUMLGL-fältet på en rubriknivå på 1, så det kommer att visa "2.".
+    // Detta är det andra AUTONUMLGL-fältet på rubriknivå 1, så det kommer att visa "2.".
     InsertNumberedClause(builder, "\tHeading 2", fillerText, StyleIdentifier.Heading1);
 
-    // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 2,
-    // och AUTONUMLGL-räkningen för rubriknivån under den är "2", så det kommer att visa "2.1.".
+    // Detta är det första AUTONUMLGL-fältet på rubriknivå 2,
+    // och AUTONUMLGL-räkningen för rubriknivån under den är "2", så den kommer att visa "2.1.".
     InsertNumberedClause(builder, "\tHeading 3", fillerText, StyleIdentifier.Heading2);
 
-     // Detta är det första AUTONUMLGL-fältet på en rubriknivå på 3.
-    // Arbetar på samma sätt som fältet ovan kommer det att visa "2.1.1.".
+     // Detta är det första AUTONUMLGL-fältet på rubriknivå 3.
+    // Genom att arbeta på samma sätt som fältet ovan kommer det att visa "2.1.1.".
     InsertNumberedClause(builder, "\tHeading 4", fillerText, StyleIdentifier.Heading3);
 
-    // Detta fält har en rubriknivå på 2, och dess respektive AUTONUMLGL-antal är på 2, så fältet kommer att visa "2.2.".
+    // Det här fältet har rubriknivå 2, och dess respektive AUTONUMLGL-antal är 2, så fältet kommer att visa "2.2.".
     InsertNumberedClause(builder, "\tHeading 5", fillerText, StyleIdentifier.Heading2);
 
-    // Öka antalet AUTONUMLGL för en rubriknivå under denna
-    // har återställt räkningen för denna nivå så att detta fält kommer att visa "2.2.1.".
+    // Ökar antalet AUTONUMLGL för en rubriknivå under denna
+    // har återställt räknaren för denna nivå så att det här fältet visar "2.2.1.".
     InsertNumberedClause(builder, "\tHeading 6", fillerText, StyleIdentifier.Heading3);
 
-    foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal))
+    foreach (FieldAutoNumLgl field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumLegal).ToList())
     {
-        // Skiljetecknet, som visas i fältresultatet omedelbart efter numret,
-        // är ett punkt som standard. Om vi lämnar denna egenskap null,
-        // vårt senaste AUTONUMLGL-fält kommer att visa "2.2.1." i dokumentet.
+        // Avgränsartecknet, som visas i fältresultatet omedelbart efter numret,
+        // är en punkt som standard. Om vi lämnar den här egenskapen null,
+        // vårt sista AUTONUMLGL-fält kommer att visa "2.2.1." i dokumentet.
         Assert.IsNull(field.SeparatorCharacter);
 
-        // Ställa in en anpassad separator och ta bort den avslutande perioden
-        // kommer att ändra fältets utseende från "2.2.1." till "2:2:1".
+        // Ställa in ett anpassat avgränsningstecken och ta bort den avslutande punkten
+        // ändrar fältets utseende från "2.2.1." till "2:2:1".
         // Vi kommer att tillämpa detta på alla fält som vi har skapat.
         field.SeparatorCharacter = ":";
         field.RemoveTrailingPeriod = true;
@@ -74,7 +74,7 @@ public void FieldAutoNumLgl()
 }
 
 /// <summary>
-/// Använder en dokumentbyggare för att infoga en sats numrerad med ett AUTONUMLGL-fält.
+/// Använder en dokumentbyggare för att infoga en klausul numrerad av ett AUTONUMLGL-fält.
 /// </summary>
 private static void InsertNumberedClause(DocumentBuilder builder, string heading, string contents, StyleIdentifier headingStyle)
 {
@@ -82,8 +82,8 @@ private static void InsertNumberedClause(DocumentBuilder builder, string heading
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = headingStyle;
     builder.Writeln(heading);
 
-    // Den här texten kommer att tillhöra det juridiska autonummerfältet ovanför.
-    // Det kommer att kollapsa när vi klickar på pilen bredvid motsvarande AUTONUMLGL-fält i Microsoft Word.
+    // Denna text kommer att tillhöra fältet auto num legal ovanför.
+    // Den kommer att fällas ihop när vi klickar på pilen bredvid motsvarande AUTONUMLGL-fält i Microsoft Word.
     builder.CurrentParagraph.ParagraphFormat.StyleIdentifier = StyleIdentifier.BodyText;
     builder.Writeln(contents);
 }

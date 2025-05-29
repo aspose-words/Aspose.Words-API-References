@@ -3,14 +3,14 @@ title: TxtListIndentation.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words für .NET
-description: TxtListIndentation Count eigendom. Ruft ab oder legt fest wie vieleCharacter als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0 das bedeutet keine Einrückung in C#.
+description: Entdecken Sie die Eigenschaft „TxtListIndentation Count“, um die Einrückungsebenen von Listen anzupassen. Stellen Sie die gewünschte Zeichenanzahl für eine bessere Lesbarkeit ein!
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/txtlistindentation/count/
 ---
 ## TxtListIndentation.Count property
 
-Ruft ab oder legt fest, wie viele[`Character`](../character/) als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0, das bedeutet keine Einrückung.
+Ruft ab oder legt fest, wie viele[`Character`](../character/)als Einrückung pro Listenebene zu verwenden. Der Standardwert ist 0, das bedeutet keine Einrückung.
 
 ```csharp
 public int Count { get; set; }
@@ -32,25 +32,26 @@ builder.Writeln("Item 2");
 builder.ListFormat.ListIndent(); 
 builder.Write("Item 3");
 
-// Erstelle ein „TxtSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+// Erstellen Sie ein "TxtSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
 // um zu ändern, wie wir das Dokument im Klartext speichern.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-// Legen Sie die Eigenschaft „Character“ fest, um ein zu verwendendes Zeichen zuzuweisen
-// zum Auffüllen, das die Einrückung von Listen im Klartext simuliert.
+// Legen Sie die Eigenschaft "Character" fest, um ein zu verwendendes Zeichen zuzuweisen
+// zum Auffüllen, das Listeneinrückungen im Klartext simuliert.
 txtSaveOptions.ListIndentation.Character = ' ';
 
-// Legen Sie die Eigenschaft „Count“ fest, um die Häufigkeit anzugeben
-// um das Füllzeichen für jede Listeneinrückungsebene zu platzieren.
+// Legen Sie die Eigenschaft „Count“ fest, um die Anzahl der
+// um das Füllzeichen für jede Listeneinzugsebene zu platzieren.
 txtSaveOptions.ListIndentation.Count = 3;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
+string newLine= Environment.NewLine;
 
-Assert.AreEqual("1. Item 1\r\n" +
-                "   a. Item 2\r\n" +
-                "      i. Item 3\r\n", docText);
+Assert.AreEqual($"1. Item 1{newLine}" +
+                $"   a. Item 2{newLine}" +
+                $"      i. Item 3{newLine}", docText);
 ```
 
 ### Siehe auch

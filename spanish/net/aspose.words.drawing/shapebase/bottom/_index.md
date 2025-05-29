@@ -3,7 +3,7 @@ title: ShapeBase.Bottom
 linktitle: Bottom
 articleTitle: Bottom
 second_title: Aspose.Words para .NET
-description: ShapeBase Bottom propiedad. Obtiene la posición del borde inferior del bloque contenedor de la forma en C#.
+description: Descubra la propiedad ShapeBase Bottom para acceder fácilmente a la posición del borde inferior del bloque contenedor de su forma para un control de diseño preciso.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/shapebase/bottom/
@@ -18,9 +18,9 @@ public double Bottom { get; }
 
 ## Observaciones
 
-Para una forma de nivel superior, el valor está en puntos y es relativo al anclaje de la forma.
+Para una forma de nivel superior, el valor está en puntos y es relativo al ancla de la forma.
 
-Para formas en un grupo, el valor está en el espacio de coordenadas y las unidades del grupo principal.
+Para las formas de un grupo, el valor está en el espacio de coordenadas y las unidades del grupo principal.
 
 ## Ejemplos
 
@@ -33,23 +33,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Configura la propiedad "RelativeHorizontalPosition" de la forma para tratar el valor de la propiedad "Left"
+// Configure la propiedad "RelativeHorizontalPosition" de la forma para tratar el valor de la propiedad "Left"
  // como la distancia horizontal de la forma, en puntos, desde el lado izquierdo de la página.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Establece la distancia horizontal de la forma desde el lado izquierdo de la página a 100.
+// Establezca la distancia horizontal de la forma desde el lado izquierdo de la página en 100.
 shape.Left = 100;
 
-// Utilice la propiedad "RelativeVerticalPosition" de manera similar para colocar la forma 80 puntos debajo de la parte superior de la página.
+// Utilice la propiedad "RelativeVerticalPosition" de manera similar para posicionar la forma 80 puntos debajo de la parte superior de la página.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Establece la altura de la forma, que escalará automáticamente el ancho para preservar las dimensiones.
+// Establezca la altura de la forma, que escalará automáticamente el ancho para preservar las dimensiones.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Las propiedades "Inferior" y "Derecha" contienen los bordes inferior y derecho de la imagen.
+// Las propiedades "Abajo" y "Derecha" contienen los bordes inferior y derecho de la imagen.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

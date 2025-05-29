@@ -3,14 +3,14 @@ title: CellFormat.LeftPadding
 linktitle: LeftPadding
 articleTitle: LeftPadding
 second_title: Aspose.Words для .NET
-description: CellFormat LeftPadding свойство. Возвращает или задает количество места в пунктах которое нужно добавить слева от содержимого ячейки на С#.
+description: Откройте для себя свойство CellFormat LeftPadding, которое позволяет легко настроить отступ слева в пунктах, улучшив внешний вид и читаемость содержимого ячейки.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/aspose.words.tables/cellformat/leftpadding/
 ---
 ## CellFormat.LeftPadding property
 
-Возвращает или задает количество места (в пунктах), которое нужно добавить слева от содержимого ячейки.
+Возвращает или задает размер пространства (в пунктах), добавляемого слева от содержимого ячейки.
 
 ```csharp
 public double LeftPadding { get; set; }
@@ -18,7 +18,7 @@ public double LeftPadding { get; set; }
 
 ## Примеры
 
-Показывает, как форматировать ячейки с помощью построителя документов.
+Показывает, как форматировать ячейки с помощью конструктора документов.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// Вставляем вторую ячейку, а затем настраиваем параметры заполнения текста ячейки.
-// Построитель применит эти настройки к своей текущей ячейке, а затем создаст все новые ячейки.
+// Вставьте вторую ячейку, а затем настройте параметры заполнения текста ячейки.
+// Конструктор применит эти настройки к текущей ячейке и ко всем новым ячейкам, которые он создаст впоследствии.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// На первую ячейку не повлияла реконфигурация заполнения, и она по-прежнему содержит значения по умолчанию.
+// Первая ячейка не была затронута реконфигурацией заполнения и по-прежнему содержит значения по умолчанию.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Первая ячейка в выходном документе по-прежнему будет расти, чтобы соответствовать размеру соседней ячейки.
+// Первая ячейка в выходном документе все равно увеличится до размера соседней ячейки.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

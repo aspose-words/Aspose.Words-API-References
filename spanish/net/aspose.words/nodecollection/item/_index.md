@@ -3,7 +3,7 @@ title: NodeCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: NodeCollection Item propiedad. Recupera un nodo en el índice dado en C#.
+description: Acceda a cualquier nodo fácilmente con la propiedad NodeCollection Item. Recupere nodos rápidamente por índice para una gestión de datos fluida y un rendimiento mejorado.
 type: docs
 weight: 20
 url: /es/net/aspose.words/nodecollection/item/
@@ -18,17 +18,17 @@ public Node this[int index] { get; }
 
 | Parámetro | Descripción |
 | --- | --- |
-| index | Un índice de la colección de nodos. |
+| index | Un índice en la colección de nodos. |
 
 ## Observaciones
 
-El índice tiene base cero.
+El índice está basado en cero.
 
-Se permiten índices negativos e indican el acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
+Se permiten índices negativos e indican acceso desde la parte posterior de la colección. Por ejemplo, -1 significa el último elemento, -2 significa el penúltimo y así sucesivamente.
 
 Si el índice es mayor o igual que el número de elementos de la lista, esto devuelve una referencia nula.
 
-Si el índice es negativo y su valor absoluto es mayor que el número de elementos de la lista, esto devuelve una referencia nula.
+Si el índice es negativo y su valor absoluto es mayor que la cantidad de elementos de la lista, esto devuelve una referencia nula.
 
 ## Ejemplos
 
@@ -44,7 +44,7 @@ paragraph.AppendChild(new Run(doc, "Hello world! "));
 Shape shape = new Shape(doc, ShapeType.Rectangle);
 shape.Width = 200;
 shape.Height = 200;
-// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y existe solo durante la vida útil del nodo.
+// Tenga en cuenta que 'CustomNodeId' no se guarda en un archivo de salida y solo existe durante la vida útil del nodo.
 shape.CustomNodeId = 100;
 shape.WrapType = WrapType.Inline;
 paragraph.AppendChild(shape);
@@ -52,7 +52,7 @@ paragraph.AppendChild(shape);
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
 // Iterar a través de la colección de hijos inmediatos del párrafo,
-// e imprimir cualquier corrida o forma que encontremos dentro.
+// e imprimir cualquier recorrido o forma que encontremos dentro.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);

@@ -3,16 +3,16 @@ title: GeneralFormatCollection Class
 linktitle: GeneralFormatCollection
 articleTitle: GeneralFormatCollection
 second_title: Aspose.Words pour .NET
-description: Aspose.Words.Fields.GeneralFormatCollection classe. Représente une collection typée de formats généraux en C#.
+description: Découvrez la classe Aspose.Words.Fields.GeneralFormatCollection, une collection typée puissante pour gérer sans effort les formats généraux dans vos documents.
 type: docs
-weight: 2650
+weight: 3060
 url: /fr/net/aspose.words.fields/generalformatcollection/
 ---
 ## GeneralFormatCollection class
 
 Représente une collection typée de formats généraux.
 
-Pour en savoir plus, visitez le[Travailler avec des champs](https://docs.aspose.com/words/net/working-with-fields/) article documentaire.
+Pour en savoir plus, visitez le[Travailler avec les champs](https://docs.aspose.com/words/net/working-with-fields/) article de documentation.
 
 ```csharp
 public class GeneralFormatCollection : IEnumerable<GeneralFormat>
@@ -22,7 +22,7 @@ public class GeneralFormatCollection : IEnumerable<GeneralFormat>
 
 | Nom | La description |
 | --- | --- |
-| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Obtient le nombre total d'éléments de la collection. |
+| [Count](../../aspose.words.fields/generalformatcollection/count/) { get; } | Obtient le nombre total d'éléments dans la collection. |
 | [Item](../../aspose.words.fields/generalformatcollection/item/) { get; } | Obtient un format général à l'index spécifié. |
 
 ## Méthodes
@@ -42,7 +42,7 @@ Montre comment formater les résultats des champs.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans aucun format appliqué.
+// Utilisez un générateur de documents pour insérer un champ qui affiche un résultat sans format appliqué.
 Field field = builder.InsertField("= 2 + 3");
 
 Assert.AreEqual("= 2 + 3", field.GetFieldCode());
@@ -50,7 +50,7 @@ Assert.AreEqual("5", field.Result);
 
 // Nous pouvons appliquer un format au résultat d'un champ en utilisant les propriétés du champ.
 // Vous trouverez ci-dessous trois types de formats que nous pouvons appliquer au résultat d'un champ.
-// 1 - Format numérique :
+// 1 - Format numérique :
 FieldFormat format = field.Format;
 format.NumericFormat = "$###.00";
 field.Update();
@@ -84,7 +84,7 @@ Assert.AreEqual("LVIII", field.Result);
 Assert.AreEqual(2, format.GeneralFormats.Count);
 Assert.AreEqual(GeneralFormat.LowercaseRoman, format.GeneralFormats[0]);
 
-// Nous pouvons supprimer nos formats pour rétablir le résultat du champ dans sa forme originale.
+// Nous pouvons supprimer nos formats pour ramener le résultat du champ à sa forme d'origine.
 format.GeneralFormats.Remove(GeneralFormat.LowercaseRoman);
 format.GeneralFormats.RemoveAt(0);
 Assert.AreEqual(0, format.GeneralFormats.Count);

@@ -3,14 +3,14 @@ title: FileFontSource
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words för .NET
-description: FileFontSource byggare. Ctor i C#.
+description: Upptäck FileFontSource-konstruktorn för sömlös teckensnittsintegration i dina projekt. Förbättra din design med lättanvända kodningslösningar!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fonts/filefontsource/filefontsource/
 ---
 ## FileFontSource(*string*) {#constructor}
 
-Ctor.
+ktor.
 
 ```csharp
 public FileFontSource(string filePath)
@@ -18,11 +18,11 @@ public FileFontSource(string filePath)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Sökväg till teckensnittsfil. |
+| filePath | String | Sökväg till teckensnittsfilen. |
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -46,7 +46,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int*) {#constructor_1}
 
-Ctor.
+ktor.
 
 ```csharp
 public FileFontSource(string filePath, int priority)
@@ -54,12 +54,12 @@ public FileFontSource(string filePath, int priority)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Sökväg till teckensnittsfil. |
-| priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
+| filePath | String | Sökväg till teckensnittsfilen. |
+| priority | Int32 | Prioritet för teckensnittskälla. Se[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
 
 ## Exempel
 
-Visar hur man använder en teckensnittsfil i det lokala filsystemet som en teckensnittskälla.
+Visar hur man använder en teckensnittsfil i det lokala filsystemet som teckensnittskälla.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);
@@ -83,7 +83,7 @@ Assert.AreEqual(0, fileFontSource.Priority);
 
 ## FileFontSource(*string, int, string*) {#constructor_2}
 
-Ctor.
+ktor.
 
 ```csharp
 public FileFontSource(string filePath, int priority, string cacheKey)
@@ -91,13 +91,13 @@ public FileFontSource(string filePath, int priority, string cacheKey)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| filePath | String | Sökväg till teckensnittsfil. |
-| priority | Int32 | Teckensnittskällas prioritet. Se den[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
-| cacheKey | String | Nyckeln till denna källa i cachen. Ser[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
+| filePath | String | Sökväg till teckensnittsfilen. |
+| priority | Int32 | Prioritet för teckensnittskälla. Se[`Priority`](../../fontsourcebase/priority/) fastighetsbeskrivning för mer information. |
+| cacheKey | String | Nyckeln till denna källa i cachen. Se[`CacheKey`](../cachekey/) fastighetsbeskrivning för mer information. |
 
 ## Exempel
 
-Visar hur man snabbar upp initieringsprocessen för teckensnittscache.
+Visar hur man påskyndar initialiseringsprocessen för teckensnittscachen.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -127,8 +127,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Ladda teckensnittsdata endast när det behövs istället för att lagra det i minnet
-/// under hela livslängden för objektet "FontSettings".
+/// Ladda endast teckensnittsdata när det behövs istället för att lagra dem i minnet
+/// för hela livslängden för "FontSettings"-objektet.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

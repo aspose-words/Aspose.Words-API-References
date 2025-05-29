@@ -3,7 +3,7 @@ title: TextBox.VerticalAnchor
 linktitle: VerticalAnchor
 articleTitle: VerticalAnchor
 second_title: Aspose.Words för .NET
-description: TextBox VerticalAnchor fast egendom. Anger den vertikala justeringen av texten inom en form i C#.
+description: Upptäck hur egenskapen TextBox VerticalAnchor förbättrar textjusteringen i former för förbättrad design och läsbarhet i dina projekt.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.drawing/textbox/verticalanchor/
@@ -22,7 +22,7 @@ Standardvärdet ärTop.
 
 ## Exempel
 
-Visar hur man vertikalt justerar textinnehållet i en textruta.
+Visar hur man justerar textinnehållet i en textruta vertikalt.
 
 ```csharp
 Document doc = new Document();
@@ -30,18 +30,18 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.TextBox, 200, 200);
 
-// Ställ in egenskapen "VerticalAnchor" till "TextBoxAnchor.Top" till
-// justera texten i denna textruta med formens övre sida.
-// Ställ in egenskapen "VerticalAnchor" till "TextBoxAnchor.Middle" till
-// justera texten i denna textruta till mitten av formen.
-// Ställ in egenskapen "VerticalAnchor" till "TextBoxAnchor.Bottom" till
-// justera texten i den här textrutan till botten av formen.
+// Ställ in egenskapen "VerticalAnchor" till "TextBoxAnchor.Top" för att
+// justera texten i den här textrutan med formens översida.
+// Sätt egenskapen "VerticalAnchor" till "TextBoxAnchor.Middle" till
+// justera texten i den här textrutan till formens mitt.
+// Sätt egenskapen "VerticalAnchor" till "TextBoxAnchor.Bottom" för att
+// justera texten i den här textrutan mot formens nederkant.
 shape.TextBox.VerticalAnchor = verticalAnchor;
 
 builder.MoveTo(shape.FirstParagraph);
 builder.Write("Hello world!");
 
-// Den vertikala justeringen av text inuti textrutor är tillgänglig från Microsoft Word 2007 och framåt.
+// Vertikal justering av text inuti textrutor är tillgänglig från och med Microsoft Word 2007.
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2007);
 doc.Save(ArtifactsDir + "Shape.VerticalAnchor.docx");
 ```

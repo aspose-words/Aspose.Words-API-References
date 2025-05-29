@@ -3,7 +3,7 @@ title: FileFormatUtil.ContentTypeToSaveFormat
 linktitle: ContentTypeToSaveFormat
 articleTitle: ContentTypeToSaveFormat
 second_title: Aspose.Words pour .NET
-description: FileFormatUtil ContentTypeToSaveFormat méthode. Convertit le type de contenu IANA en une valeur énumérée au format de sauvegarde en C#.
+description: Convertissez facilement les types de contenu IANA en valeurs de format d'enregistrement grâce à la méthode FileFormatUtil ContentTypeToSaveFormat. Simplifiez la gestion de vos fichiers dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/fileformatutil/contenttypetosaveformat/
@@ -20,14 +20,14 @@ public static SaveFormat ContentTypeToSaveFormat(string contentType)
 
 | exception | condition |
 | --- | --- |
-| ArgumentException | Lance quand on ne peut pas convertir. |
+| ArgumentException | Lancer quand on ne peut pas convertir. |
 
 ## Exemples
 
 Montre comment trouver le format de chargement/enregistrement Aspose correspondant à partir de chaque chaîne de type de média.
 
 ```csharp
- // Les méthodes ContentTypeToSaveFormat/ContentTypeToLoadFormat n'acceptent que les noms de types de médias IANA officiels, également appelés types MIME.
+ // Les méthodes ContentTypeToSaveFormat/ContentTypeToLoadFormat acceptent uniquement les noms de type de média IANA officiels, également appelés types MIME.
 // Tous les types de médias valides sont répertoriés ici : https://www.iana.org/assignments/media-types/media-types.xhtml.
 
 // Essayer d'associer un SaveFormat à une chaîne de type de média partielle ne fonctionnera pas.
@@ -49,7 +49,7 @@ Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("applicat
 Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
 Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
 
-// Pour les types de fichiers pouvant être enregistrés et chargés, nous pouvons faire correspondre un type de média à la fois à un format de chargement et à un format de sauvegarde.
+// Pour les types de fichiers qui peuvent être enregistrés et chargés, nous pouvons faire correspondre un type de média à la fois à un format de chargement et à un format d'enregistrement.
 Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
 Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
 

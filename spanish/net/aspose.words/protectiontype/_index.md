@@ -3,9 +3,9 @@ title: ProtectionType Enum
 linktitle: ProtectionType
 articleTitle: ProtectionType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.ProtectionType enumeración. Tipo de protección para un documento en C#.
+description: Descubra la enumeración Aspose.Words.ProtectionType para una seguridad documental robusta. ¡Mejore sus documentos con opciones de protección personalizables hoy mismo!
 type: docs
-weight: 4510
+weight: 5240
 url: /es/net/aspose.words/protectiontype/
 ---
 ## ProtectionType enumeration
@@ -20,9 +20,9 @@ public enum ProtectionType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| AllowOnlyComments | `1` | El usuario sólo puede modificar comentarios en el documento. |
-| AllowOnlyFormFields | `2` | El usuario solo puede ingresar datos en los campos del formulario en el documento. |
-| AllowOnlyRevisions | `0` | El usuario solo puede agregar marcas de revisión al documento. |
+| AllowOnlyComments | `1` | El usuario sólo puede modificar los comentarios en el documento. |
+| AllowOnlyFormFields | `2` | El usuario sólo puede ingresar datos en los campos de formulario del documento. |
+| AllowOnlyRevisions | `0` | El usuario sólo puede agregar marcas de revisión al documento. |
 | ReadOnly | `3` | No se permiten cambios en el documento. Disponible desde Microsoft Word 2003. |
 | NoProtection | `-1` | El documento no está protegido. |
 
@@ -44,11 +44,11 @@ builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholde
 // Aplicar protección contra escritura a cada sección del documento.
 doc.Protect(ProtectionType.AllowOnlyFormFields);
 
-// Desactiva la protección contra escritura para la primera sección.
+// Desactive la protección contra escritura para la primera sección.
 doc.Sections[0].ProtectedForForms = false;
 
-// En este documento de salida, podremos editar la primera sección libremente,
-// y solo podremos editar el contenido del campo del formulario en la segunda sección.
+//En este documento de salida, podremos editar la primera sección libremente,
+// y solo podremos editar el contenido del campo de formulario en la segunda sección.
 doc.Save(ArtifactsDir + "Section.Protect.docx");
 ```
 

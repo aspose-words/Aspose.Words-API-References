@@ -3,14 +3,14 @@ title: HtmlSaveOptions.TableWidthOutputMode
 linktitle: TableWidthOutputMode
 articleTitle: TableWidthOutputMode
 second_title: Aspose.Words für .NET
-description: HtmlSaveOptions TableWidthOutputMode eigendom. Steuert wie Tabellen Zeilen und Zellenbreiten nach HTML MHTML oder EPUB exportiert werden. Der Standardwert istAll  in C#.
+description: Optimieren Sie Ihre HTML-Exporte mit dem HtmlSaveOptions TableWidthOutputMode. Steuern Sie die Zeilen- und Zellenbreite der Tabelle für eine nahtlose MHTML- und EPUB-Formatierung.
 type: docs
-weight: 460
+weight: 480
 url: /de/net/aspose.words.saving/htmlsaveoptions/tablewidthoutputmode/
 ---
 ## HtmlSaveOptions.TableWidthOutputMode property
 
-Steuert, wie Tabellen-, Zeilen- und Zellenbreiten nach HTML, MHTML oder EPUB exportiert werden. Der Standardwert istAll .
+Steuert, wie Tabellen-, Zeilen- und Zellenbreiten in HTML, MHTML oder EPUB exportiert werden. Der Standardwert istAll .
 
 ```csharp
 public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
@@ -18,21 +18,21 @@ public HtmlElementSizeOutputMode TableWidthOutputMode { get; set; }
 
 ## Bemerkungen
 
-Im HTML-Format sind Tabellen-, Zeilen- und Zellenelemente (**&lt;Tabelle&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**Die Breite von ) kann entweder in relativen (Prozent) oder in absoluten Einheiten angegeben werden. In einem Dokument in Aspose.Words können die Breiten von Tabellen, Zeilen und Zellen ebenfalls in relativen oder absoluten Einheiten angegeben werden .
+Im HTML-Format sind Tabellen-, Zeilen- und Zellenelemente (**&lt;Tabelle&gt;** ,**&lt;tr&gt;** ,**&lt;th&gt;** ,**&lt;td&gt;**) Die Breite kann entweder in relativen (Prozent) oder in absoluten Einheiten angegeben werden. In einem Dokument in Aspose.Words kann die Breite von Tabellen, Zeilen und Zellen ebenfalls in relativen oder absoluten Einheiten angegeben werden.
 
-Wenn Sie ein Dokument mit Aspose.Words in HTML konvertieren, möchten Sie möglicherweise steuern, wie Tabellen-, Zeilen- und Zellenbreiten exportiert werden, um zu beeinflussen, wie das resultierende Dokument im visuellen Agenten (z. B. einem Browser oder Viewer) angezeigt wird.
+Wenn Sie ein Dokument mit Aspose.Words in HTML konvertieren, möchten Sie möglicherweise steuern, wie Tabellen-, Zeilen- und Zellenbreiten exportiert werden, um die Anzeige des resultierenden Dokuments im visuellen Agenten (z. B. einem Browser oder Viewer) zu beeinflussen.
 
-Verwenden Sie diese Eigenschaft als Filter, um anzugeben, welche Tabellenbreitenwerte in das Zieldokument exportiert werden. Wenn Sie beispielsweise ein Dokument in EPUB konvertieren und beabsichtigen, das Dokument auf einem mobilen Lesegerät anzuzeigen, , sollten Sie dies wahrscheinlich vermeiden Exportieren absoluter Breitenwerte. Dazu müssen Sie den Ausgabemodus angebenRelativeOnly oderNone , damit der Betrachter auf dem Mobilgerät die Tabelle so gestalten kann, dass sie so gut wie möglich an die Breite des Bildschirms passt.
+Verwenden Sie diese Eigenschaft als Filter, um festzulegen, welche Tabellenbreiten in das Zieldokument exportiert werden sollen. Wenn Sie beispielsweise ein Dokument ins EPUB-Format konvertieren und es auf einem mobilen Lesegerät anzeigen möchten, sollten Sie den Export absoluter Breitenwerte vermeiden. Geben Sie dazu den Ausgabemodus an.RelativeOnly oderNone , damit der Betrachter auf dem Mobilgerät die Tabelle optimal an die Bildschirmbreite anpassen kann.
 
 ## Beispiele
 
-Zeigt, wie negative Einzüge in der Ausgabe-.html beibehalten werden.
+Zeigt, wie negative Einrückungen in der HTML-Ausgabe beibehalten werden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Eine Tabelle mit einem negativen Einzug einfügen, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
+// Fügen Sie eine Tabelle mit negativem Einzug ein, wodurch sie nach links über die linke Seitengrenze hinaus verschoben wird.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -44,7 +44,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Fügen Sie eine Tabelle mit einem positiven Einzug ein, wodurch die Tabelle nach rechts verschoben wird.
+// Fügen Sie eine Tabelle mit einem positiven Einzug ein, der die Tabelle nach rechts verschiebt.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -54,7 +54,7 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Wenn wir ein Dokument in HTML speichern, behält Aspose.Words nur negative Einrückungen bei
+// Wenn wir ein Dokument im HTML-Format speichern, behält Aspose.Words nur negative Einrückungen bei
 // wie die, die wir auf die erste Tabelle angewendet haben, wenn wir das Flag „AllowNegativeIndent“ setzen
 // in einem SaveOptions-Objekt, das wir an „true“ übergeben.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)

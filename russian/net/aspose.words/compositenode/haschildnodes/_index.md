@@ -3,14 +3,14 @@ title: CompositeNode.HasChildNodes
 linktitle: HasChildNodes
 articleTitle: HasChildNodes
 second_title: Aspose.Words для .NET
-description: CompositeNode HasChildNodes свойство. Возвращаетистинный если у этого узла есть дочерние узлы на С#.
+description: Узнайте, есть ли у CompositeNode дочерние узлы со свойством HasChildNodes. Упростите кодирование с помощью этой важной функции для эффективного управления узлами.
 type: docs
 weight: 30
 url: /ru/net/aspose.words/compositenode/haschildnodes/
 ---
 ## CompositeNode.HasChildNodes property
 
-Возвращает`истинный` если у этого узла есть дочерние узлы.
+Возврат`истинный` если у этого узла есть дочерние узлы.
 
 ```csharp
 public bool HasChildNodes { get; }
@@ -24,13 +24,13 @@ public bool HasChildNodes { get; }
 Document doc = new Document(MyDir + "Tables.docx");
 
 // Ниже приведены два способа получения таблицы из документа.
-// 1 — Из коллекции «Таблицы» узла Body:
+// 1 - Из коллекции "Таблицы" узла Body:
 Table firstTable = doc.FirstSection.Body.Tables[0];
 
 // 2 - Использование метода "GetChild":
 Table secondTable = (Table)doc.GetChild(NodeType.Table, 1, true);
 
-// Добавляем все строки из текущей таблицы в следующую.
+// Добавить все строки из текущей таблицы в следующую.
 while (secondTable.HasChildNodes)
     firstTable.Rows.Add(secondTable.FirstRow);
 

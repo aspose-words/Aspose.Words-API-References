@@ -3,14 +3,14 @@ title: Font.Bold
 linktitle: Bold
 articleTitle: Bold
 second_title: Aspose.Words pour .NET
-description: Font Bold propriété. True si la police est formatée en gras en C#.
+description: Découvrez la propriété Font Bold, identifiez facilement si votre texte est en gras, améliorant la lisibilité et le style de vos projets de conception Web.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/font/bold/
 ---
 ## Font.Bold property
 
-True si la police est formatée en gras.
+Vrai si la police est formatée en gras.
 
 ```csharp
 public bool Bold { get; set; }
@@ -18,7 +18,7 @@ public bool Bold { get; set; }
 
 ## Exemples
 
-Montre comment insérer du texte formaté à l’aide de DocumentBuilder.
+Montre comment insérer du texte formaté à l'aide de DocumentBuilder.
 
 ```csharp
 Document doc = new Document();

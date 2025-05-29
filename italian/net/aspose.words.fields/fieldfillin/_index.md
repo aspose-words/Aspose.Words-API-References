@@ -3,9 +3,9 @@ title: FieldFillIn Class
 linktitle: FieldFillIn
 articleTitle: FieldFillIn
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Fields.FieldFillIn classe. Implementa il campo FILLIN in C#.
+description: Scopri la classe Aspose.Words.Fields.FieldFillIn per implementare facilmente i campi FILLIN, migliorando l'automazione dei documenti e l'interattività dell'utente.
 type: docs
-weight: 1890
+weight: 2300
 url: /it/net/aspose.words.fields/fieldfillin/
 ---
 ## FieldFillIn class
@@ -28,38 +28,38 @@ public class FieldFillIn : Field
 
 | Nome | Descrizione |
 | --- | --- |
-| [DefaultResponse](../../aspose.words.fields/fieldfillin/defaultresponse/) { get; set; } | Ottiene o imposta la risposta utente predefinita (valore iniziale contenuto nella finestra del prompt). |
+| [DefaultResponse](../../aspose.words.fields/fieldfillin/defaultresponse/) { get; set; } | Ottiene o imposta la risposta predefinita dell'utente (valore iniziale contenuto nella finestra del prompt). |
 | [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | Ottiene il testo che rappresenta il risultato del campo visualizzato. |
 | [End](../../aspose.words.fields/field/end/) { get; } | Ottiene il nodo che rappresenta la fine del campo. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene a[`FieldFormat`](../fieldformat/) oggetto che fornisce accesso digitato alla formattazione del campo. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | Ottiene un[`FieldFormat`](../fieldformat/)oggetto che fornisce accesso tipizzato alla formattazione del campo. |
 | [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | Ottiene o imposta se il risultato corrente del campo non è più corretto (obsoleto) a causa di altre modifiche apportate al documento. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato). |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato). |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | Ottiene o imposta l'LCID del campo. |
-| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldfillin/promptonceonmailmerge/) { get; set; } | Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per un'operazione di stampa unione. |
+| [PromptOnceOnMailMerge](../../aspose.words.fields/fieldfillin/promptonceonmailmerge/) { get; set; } | Ottiene o imposta se la risposta dell'utente deve essere ricevuta una volta per ogni operazione di unione di posta. |
 | [PromptText](../../aspose.words.fields/fieldfillin/prompttext/) { get; set; } | Ottiene o imposta il testo del prompt (il titolo della finestra del prompt). |
 | [Result](../../aspose.words.fields/field/result/) { get; set; } | Ottiene o imposta il testo compreso tra il separatore di campo e la fine del campo. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`nullo` . |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | Ottiene il nodo che rappresenta il separatore di campo. Può essere`null` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | Ottiene il nodo che rappresenta l'inizio del campo. |
-| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo Microsoft Word. |
+| virtual [Type](../../aspose.words.fields/field/type/) { get; } | Ottiene il tipo di campo di Microsoft Word. |
 
 ## Metodi
 
 | Nome | Descrizione |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo compreso tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi secondari. |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non è presente alcun separatore). |
-| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo figlio del suo nodo genitore, restituisce il paragrafo genitore. Se il campo è già stato rimosso, restituisce`nullo` . |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è un separatore). Sono inclusi sia il codice di campo che il risultato del campo dei campi figlio. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | Restituisce il testo tra l'inizio del campo e il separatore di campo (o la fine del campo se non c'è separatore). |
+| [Remove](../../aspose.words.fields/field/remove/)() | Rimuove il campo dal documento. Restituisce un nodo subito dopo il campo. Se la fine del campo è l'ultimo nodo figlio del suo nodo padre, restituisce il paragrafo padre. Se il campo è già stato rimosso, restituisce`null` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | Esegue lo scollegamento del campo. |
-| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento del campo. Genera un risultato se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)() | Esegue l'aggiornamento del campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | Esegue un aggiornamento di campo. Genera un'eccezione se il campo è già in fase di aggiornamento. |
 
 ## Osservazioni
 
-Richiede all'utente di inserire testo.
+Richiede all'utente di immettere testo.
 
 ## Esempi
 
-Mostra come utilizzare il campo FILLIN per richiedere una risposta all'utente.
+Mostra come utilizzare il campo FILLIN per chiedere all'utente una risposta.
 
 ```csharp
 public void FieldFillIn()
@@ -74,7 +74,7 @@ public void FieldFillIn()
     field.DefaultResponse = "A default response.";
 
     // Possiamo anche utilizzare questi campi per chiedere all'utente una risposta univoca per ogni pagina
-    // creato durante una stampa unione eseguita utilizzando Microsoft Word.
+    // creato durante una stampa unione effettuata tramite Microsoft Word.
     field.PromptOnceOnMailMerge = true;
 
     Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
@@ -82,8 +82,8 @@ public void FieldFillIn()
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";
 
-    // Se eseguiamo una stampa unione a livello di codice, possiamo utilizzare un risponditore prompt personalizzato
-    // per modificare automaticamente le risposte per i campi FILLIN incontrati dalla stampa unione.
+    // Se eseguiamo una stampa unione a livello di programmazione, possiamo utilizzare un prompt responder personalizzato
+    // per modificare automaticamente le risposte per i campi FILLIN rilevati dalla stampa unione.
     doc.FieldOptions.UserPromptRespondent = new PromptRespondent();
     doc.MailMerge.Execute(new [] { "MergeField" }, new object[] { "" });
 
@@ -92,7 +92,7 @@ public void FieldFillIn()
 }
 
 /// <summary>
-/// Antepone una riga alla risposta predefinita di ogni campo FILLIN durante una stampa unione.
+/// Aggiunge una riga all'inizio della risposta predefinita di ogni campo FILLIN durante una stampa unione.
 /// </summary>
 private class PromptRespondent : IFieldUserPromptRespondent
 {

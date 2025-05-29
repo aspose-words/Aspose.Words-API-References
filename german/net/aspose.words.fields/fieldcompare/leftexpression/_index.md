@@ -3,14 +3,14 @@ title: FieldCompare.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words für .NET
-description: FieldCompare LeftExpression eigendom. Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest in C#.
+description: Entdecken Sie die Eigenschaft „FieldCompare LeftExpression“, mit der Sie ganz einfach auf die linke Seite Ihrer Vergleichsausdrücke zugreifen oder diese ändern können, um die Datenanalyse zu verbessern.
 type: docs
 weight: 30
 url: /de/net/aspose.words.fields/fieldcompare/leftexpression/
 ---
 ## FieldCompare.LeftExpression property
 
-Ruft den linken Teil des Vergleichsausdrucks ab oder legt diesen fest.
+Ruft den linken Teil des Vergleichsausdrucks ab oder legt ihn fest.
 
 ```csharp
 public string LeftExpression { get; set; }
@@ -30,7 +30,7 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// Das COMPARE-Feld zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
+// Das Feld COMPARE zeigt eine „0“ oder eine „1“ an, abhängig von der Wahrheit seiner Aussage.
 // Das Ergebnis dieser Anweisung ist falsch, sodass in diesem Feld eine „0“ angezeigt wird.
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);

@@ -3,7 +3,7 @@ title: LoadOptions.ProgressCallback
 linktitle: ProgressCallback
 articleTitle: ProgressCallback
 second_title: Aspose.Words для .NET
-description: LoadOptions ProgressCallback свойство. Вызывается во время загрузки документа и принимает данные о ходе загрузки на С#.
+description: Откройте для себя свойство LoadOptions ProgressCallback для эффективного отслеживания хода загрузки документа. Повысьте производительность вашего приложения и пользовательский опыт!
 type: docs
 weight: 130
 url: /ru/net/aspose.words.loading/loadoptions/progresscallback/
@@ -39,17 +39,17 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Обработка проблемы с продолжительностью загрузки.
+        // Решить проблему длительности загрузки.
     }
 }
 
 /// <summary>
-/// Отменить загрузку документа по истечении секунд "MaxDuration".
+/// Отменить загрузку документа по истечении "MaxDuration" секунд.
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {
     /// <summary>
-    /// Центр.
+    /// Ктр.
     /// </summary>
     public LoadingProgressCallback()
     {
@@ -57,7 +57,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     }
 
     /// <summary>
-    /// Метод обратного вызова, который вызывается во время загрузки документа.
+    /// Метод обратного вызова, вызванный во время загрузки документа.
     /// </summary>
     /// <param name="args">Загрузка аргументов.</param>
     public void Notify(DocumentLoadingArgs args)
@@ -75,7 +75,7 @@ public class LoadingProgressCallback : IDocumentLoadingCallback
     private readonly DateTime mLoadingStartedAt;
 
     /// <summary>
-    /// Максимально допустимая продолжительность в секундах.
+    /// Максимально допустимая длительность в сек.
     /// </summary>
     private const double MaxDuration = 0.5;
 }

@@ -2,8 +2,8 @@
 title: FieldPrivate
 linktitle: FieldPrivate
 articleTitle: FieldPrivate
-second_title: Aspose.Words for .NET
-description: FieldPrivate inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Projelerinizde sorunsuz kodlama ve gelişmiş performans için temel varsayılan oluşturucu olan FieldPrivate oluşturucusunu keşfedin.
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldprivate/fieldprivate/

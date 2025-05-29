@@ -3,9 +3,9 @@ title: StructuredDocumentTagCollection Class
 linktitle: StructuredDocumentTagCollection
 articleTitle: StructuredDocumentTagCollection
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Markup.StructuredDocumentTagCollection klass. En samling avIStructuredDocumentTag instanser som representerar de strukturerade dokumenttaggarna i det angivna intervallet i C#.
+description: Utforska klassen Aspose.Words.Markup.StructuredDocumentTagCollection för effektiv hantering av strukturerade dokumenttaggar och förbättra dina dokumentbehandlingsmöjligheter.
 type: docs
-weight: 4070
+weight: 4760
 url: /sv/net/aspose.words.markup/structureddocumenttagcollection/
 ---
 ## StructuredDocumentTagCollection class
@@ -29,12 +29,29 @@ public class StructuredDocumentTagCollection : IEnumerable<IStructuredDocumentTa
 
 | namn | Beskrivning |
 | --- | --- |
-| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(*int*) | Returnerar den strukturerade dokumenttaggen med identifierare. |
-| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(*string*) | Returnerar den första strukturerade dokumenttaggen som påträffades i samlingen med den angivna taggen. |
+| [GetById](../../aspose.words.markup/structureddocumenttagcollection/getbyid/)(*int*) | Returnerar den strukturerade dokumenttaggen efter identifierare. |
+| [GetByTag](../../aspose.words.markup/structureddocumenttagcollection/getbytag/)(*string*) | Returnerar den första taggen för strukturerat dokument som påträffas i samlingen med den angivna taggen. |
 | [GetByTitle](../../aspose.words.markup/structureddocumenttagcollection/getbytitle/)(*string*) | Returnerar den första strukturerade dokumenttaggen som påträffas i samlingen med den angivna titeln. |
-| [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Returnerar ett uppräkningsobjekt. |
+| [GetEnumerator](../../aspose.words.markup/structureddocumenttagcollection/getenumerator/)() | Returnerar ett uppräknarobjekt. |
 | [Remove](../../aspose.words.markup/structureddocumenttagcollection/remove/)(*int*) | Tar bort den strukturerade dokumenttaggen med den angivna identifieraren. |
 | [RemoveAt](../../aspose.words.markup/structureddocumenttagcollection/removeat/)(*int*) | Tar bort en strukturerad dokumenttagg vid det angivna indexet. |
+
+## Exempel
+
+Visar hur man får taggar för strukturerade dokument.
+
+```csharp
+Document doc = new Document(MyDir + "Structured document tags by id.docx");
+
+// Hämta den strukturerade dokumenttaggen efter Id.
+IStructuredDocumentTag sdt = doc.Range.StructuredDocumentTags.GetById(1160505028);
+Console.WriteLine(sdt.IsMultiSection);
+Console.WriteLine(sdt.Title);
+
+// Hämta den strukturerade dokumenttaggen eller intervalltaggen efter titel.
+sdt = doc.Range.StructuredDocumentTags.GetByTitle("Alias4");
+Console.WriteLine(sdt.Id);
+```
 
 ### Se även
 

@@ -3,9 +3,9 @@ title: ChartAxis.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words para .NET
-description: ChartAxis Hidden propiedad. Obtiene o establece un indicador que indica si este eje está oculto o no en C#.
+description: Descubra la propiedad ChartAxis Hidden para gestionar fácilmente la visibilidad de los ejes en sus gráficos. ¡Mejore la presentación de sus datos con esta sencilla función!
 type: docs
-weight: 100
+weight: 110
 url: /es/net/aspose.words.drawing.charts/chartaxis/hidden/
 ---
 ## ChartAxis.Hidden property
@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 
-// Borra la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
+// Borre la serie de datos de demostración del gráfico para comenzar con un gráfico limpio.
 chart.Series.Clear();
 
-// Agregue una serie personalizada con categorías para el eje X y los respectivos valores decimales para el eje Y.
+// Agregue una serie personalizada con categorías para el eje X y valores decimales respectivos para el eje Y.
 chart.Series.Add("AW Series 1",
     new[] { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" },
     new[] { 1.2, 0.3, 2.1, 2.9, 4.2 });

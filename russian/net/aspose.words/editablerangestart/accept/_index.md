@@ -3,7 +3,7 @@ title: EditableRangeStart.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: EditableRangeStart Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод EditableRangeStart Accept, который поможет эффективно управлять взаимодействием посетителей и улучшить пользовательский опыт на вашем сайте.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/editablerangestart/accept/
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-`ЛОЖЬ` если посетитель запросил остановку перечисления.
+`ЛОЖЬ` если посетитель попросил остановить перечисление.
 
 ## Примечания
 
 Звонки[`VisitEditableRangeStart`](../../documentvisitor/visiteditablerangestart/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
 ## Примеры
 
@@ -45,8 +45,8 @@ public void Visitor()
                     " we cannot edit this paragraph without the password.");
 
     // Когда мы защищаем документы от записи, редактируемые диапазоны позволяют нам выбирать определенные области, которые пользователи могут редактировать.
-    // Есть два взаимоисключающих способа сузить список разрешенных редакторов.
-    // 1 - Указываем пользователя:
+    // Существует два взаимоисключающих способа сузить список разрешенных редакторов.
+    // 1 - Укажите пользователя:
     EditableRange editableRange = builder.StartEditableRange().EditableRange;
     editableRange.SingleUser = "john.doe@myoffice.com";
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
@@ -64,7 +64,7 @@ public void Visitor()
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 
-    // Распечатываем детали и содержимое каждого редактируемого диапазона в документе.
+    // Распечатать сведения и содержимое каждого редактируемого диапазона в документе.
     EditableRangePrinter editableRangePrinter = new EditableRangePrinter();
 
     doc.Accept(editableRangePrinter);
@@ -73,7 +73,7 @@ public void Visitor()
 }
 
 /// <summary>
-/// Собирает свойства и содержимое посещенных редактируемых диапазонов в строку.
+/// Собирает свойства и содержимое посещённых редактируемых диапазонов в строку.
 /// </summary>
 public class EditableRangePrinter : DocumentVisitor
 {
@@ -124,7 +124,7 @@ public class EditableRangePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только прогоны, находящиеся в пределах редактируемых диапазонов.
+    /// Вызывается, когда в документе встречается узел Run. Этот посетитель записывает только запуски, которые находятся внутри редактируемых диапазонов.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {

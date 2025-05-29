@@ -3,14 +3,14 @@ title: DigitalSignatureUtil.LoadSignatures
 linktitle: LoadSignatures
 articleTitle: LoadSignatures
 second_title: Aspose.Words لـ .NET
-description: DigitalSignatureUtil LoadSignatures طريقة. تحميل التوقيعات الرقمية من المستند في C#.
+description: حمّل التوقيعات الرقمية من مستنداتك بسهولة باستخدام طريقة DigitalSignatureUtil LoadSignatures. حسّن سير عملك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.digitalsignatures/digitalsignatureutil/loadsignatures/
 ---
 ## LoadSignatures(*string*) {#loadsignatures_1}
 
-تحميل التوقيعات الرقمية من المستند.
+يقوم بتحميل التوقيعات الرقمية من المستند.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(string fileName)
@@ -18,23 +18,23 @@ public static DigitalSignatureCollection LoadSignatures(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | المسار إلى الوثيقة. |
+| fileName | String | المسار إلى المستند. |
 
 ### قيمة الإرجاع
 
-مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
+مجموعة من التوقيعات الرقمية. تُرجع المجموعة فارغة إذا لم يكن الملف مُوقّعًا.
 
 ## أمثلة
 
-يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
+يوضح كيفية تحميل التوقيعات من مستند موقّع رقميًا.
 
 ```csharp
-// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بالمستند الموقع باستخدام فئة DigitalSignatureUtil.
-// 1 - التحميل من مستند من اسم ملف نظام ملفات محلي:
+// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية للمستند الموقّع باستخدام فئة DigitalSignatureUtil.
+// 1 - تحميل من مستند من نظام ملفات محلي اسم الملف:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من توقيع المستند رقميًا.
+// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من أن المستند موقّع رقميًا.
 Assert.AreEqual(1, digitalSignatures.Count);
 
 // 2 - التحميل من مستند من FileStream:
@@ -45,16 +45,16 @@ using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.
 }
 ```
 
-يوضح كيفية إزالة التوقيعات الرقمية من مستند موقع رقميًا.
+يوضح كيفية إزالة التوقيعات الرقمية من مستند موقّع رقميًا.
 
 ```csharp
 // هناك طريقتان لاستخدام فئة DigitalSignatureUtil لإزالة التوقيعات الرقمية
-// من مستند موقع عن طريق حفظ نسخة غير موقعة منه في مكان آخر في نظام الملفات المحلي.
-// 1 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال سلاسل اسم الملف:
+// من مستند موقّع عن طريق حفظ نسخة غير موقعة منه في مكان آخر في نظام الملفات المحلي.
+// 1 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة من خلال سلاسل أسماء الملفات:
 DigitalSignatureUtil.RemoveAllSignatures(MyDir + "Digitally signed.docx",
     ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx");
 
-// 2 - تحديد موقع كل من المستند الموقع والنسخة غير الموقعة من خلال تدفقات الملفات:
+// 2 - تحديد مواقع كل من المستند الموقع والنسخة غير الموقعة من خلال تدفقات الملفات:
 using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx", FileMode.Create))
@@ -63,9 +63,9 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
     }
 }
 
-// تحقق من أن كلا مستندي الإخراج لدينا لا يحتويان على توقيعات رقمية.
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx"), Is.Empty);
-Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx"), Is.Empty);
+// تأكد من أن كلا مستندي الإخراج لا يحتويان على توقيعات رقمية.
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
+Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
 ```
 
 ### أنظر أيضا
@@ -79,7 +79,7 @@ Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignature
 
 ## LoadSignatures(*Stream*) {#loadsignatures}
 
-تحميل التوقيعات الرقمية من المستند باستخدام الدفق.
+يقوم بتحميل التوقيعات الرقمية من المستند باستخدام stream.
 
 ```csharp
 public static DigitalSignatureCollection LoadSignatures(Stream stream)
@@ -87,23 +87,23 @@ public static DigitalSignatureCollection LoadSignatures(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | الدفق مع المستند. |
+| stream | Stream | البث مع المستند. |
 
 ### قيمة الإرجاع
 
-مجموعة من التوقيعات الرقمية. إرجاع مجموعة فارغة إذا لم يتم توقيع الملف.
+مجموعة من التوقيعات الرقمية. تُرجع المجموعة فارغة إذا لم يكن الملف مُوقّعًا.
 
 ## أمثلة
 
-يوضح كيفية تحميل التوقيعات من مستند موقع رقميًا.
+يوضح كيفية تحميل التوقيعات من مستند موقّع رقميًا.
 
 ```csharp
-// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية الخاصة بالمستند الموقع باستخدام فئة DigitalSignatureUtil.
-// 1 - التحميل من مستند من اسم ملف نظام ملفات محلي:
+// هناك طريقتان لتحميل مجموعة التوقيعات الرقمية للمستند الموقّع باستخدام فئة DigitalSignatureUtil.
+// 1 - تحميل من مستند من نظام ملفات محلي اسم الملف:
 DigitalSignatureCollection digitalSignatures = 
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
-// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من توقيع المستند رقميًا.
+// إذا كانت هذه المجموعة غير فارغة، فيمكننا التحقق من أن المستند موقّع رقميًا.
 Assert.AreEqual(1, digitalSignatures.Count);
 
 // 2 - التحميل من مستند من FileStream:

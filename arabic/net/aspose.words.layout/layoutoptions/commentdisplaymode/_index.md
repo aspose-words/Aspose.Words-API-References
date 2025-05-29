@@ -3,14 +3,14 @@ title: LayoutOptions.CommentDisplayMode
 linktitle: CommentDisplayMode
 articleTitle: CommentDisplayMode
 second_title: Aspose.Words لـ .NET
-description: LayoutOptions CommentDisplayMode ملكية. الحصول على أو تعيين الطريقة التي يتم بها عرض التعليقات. القيمة الافتراضية هيShowInBalloons  في C#.
+description: اكتشف خاصية LayoutOptions CommentDisplayMode لتخصيص عرض التعليقات. اضبطها بسهولة لتحسين تجربة المستخدم باستخدام خيارات مثل ShowInBalloons.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.layout/layoutoptions/commentdisplaymode/
 ---
 ## LayoutOptions.CommentDisplayMode property
 
-الحصول على أو تعيين الطريقة التي يتم بها عرض التعليقات. القيمة الافتراضية هيShowInBalloons .
+يحصل على طريقة عرض التعليقات أو يعينها. القيمة الافتراضية هيShowInBalloons .
 
 ```csharp
 public CommentDisplayMode CommentDisplayMode { get; set; }
@@ -18,11 +18,11 @@ public CommentDisplayMode CommentDisplayMode { get; set; }
 
 ## ملاحظات
 
-لاحظ أنه لا يتم عرض المراجعات في بالوناتShowInAnnotations .
+لاحظ أن المراجعات لا يتم تقديمها في البالونات لـShowInAnnotations .
 
 ## أمثلة
 
-يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق معروض.
+يوضح كيفية إظهار التعليقات عند حفظ مستند بتنسيق مُقدم.
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ Comment comment = new Comment(doc, "John Doe", "J.D.", DateTime.Now);
 comment.SetText("My comment.");
 builder.CurrentParagraph.AppendChild(comment);
 
-// ShowInAnnotations متاح فقط بتنسيقات Pdf1.7 وPdf1.5.
-// في التنسيقات الأخرى، سيعمل بشكل مشابه لـ Hide.
+//يتوفر ShowInAnnotations فقط بتنسيقي Pdf1.7 وPdf1.5.
+// في التنسيقات الأخرى، سوف يعمل بشكل مشابه لإخفاء.
 doc.LayoutOptions.CommentDisplayMode = CommentDisplayMode.ShowInAnnotations;
 
 doc.Save(ArtifactsDir + "Document.ShowCommentsInAnnotations.pdf");

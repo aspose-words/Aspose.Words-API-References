@@ -3,9 +3,9 @@ title: Fill.RotateWithObject
 linktitle: RotateWithObject
 articleTitle: RotateWithObject
 second_title: Aspose.Words pour .NET
-description: Fill RotateWithObject propriété. Obtient ou définit si le remplissage tourne avec lobjet spécifié en C#.
+description: Gérez la propriété RotateWithObject pour contrôler la rotation du remplissage avec votre objet. Améliorez la flexibilité et la précision de votre conception sans effort !
 type: docs
-weight: 170
+weight: 180
 url: /fr/net/aspose.words.drawing/fill/rotatewithobject/
 ---
 ## Fill.RotateWithObject property

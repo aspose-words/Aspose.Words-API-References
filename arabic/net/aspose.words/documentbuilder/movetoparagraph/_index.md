@@ -3,14 +3,14 @@ title: DocumentBuilder.MoveToParagraph
 linktitle: MoveToParagraph
 articleTitle: MoveToParagraph
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToParagraph طريقة. ينقل المؤشر إلى فقرة في القسم الحالي في C#.
+description: قم بالتنقل بسهولة في مستندك باستخدام طريقة MoveToParagraph في DocumentBuilder، مما يتيح لك تحريك المؤشر بسرعة إلى أي فقرة في قسمك.
 type: docs
-weight: 560
+weight: 600
 url: /ar/net/aspose.words/documentbuilder/movetoparagraph/
 ---
 ## DocumentBuilder.MoveToParagraph method
 
-ينقل المؤشر إلى فقرة في القسم الحالي.
+يحرك المؤشر إلى فقرة في القسم الحالي.
 
 ```csharp
 public void MoveToParagraph(int paragraphIndex, int characterIndex)
@@ -18,14 +18,14 @@ public void MoveToParagraph(int paragraphIndex, int characterIndex)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| paragraphIndex | Int32 | فهرس الفقرة المراد الانتقال إليها. |
-| characterIndex | Int32 | فهرس الحرف الموجود داخل الفقرة. القيمة السالبة تسمح لك بتحديد موضع من نهاية الفقرة. استخدم -1 للانتقال إلى نهاية الفقرة. |
+| paragraphIndex | Int32 | فهرس الفقرة التي سيتم الانتقال إليها. |
+| characterIndex | Int32 | فهرس الحرف داخل الفقرة. . تسمح لك القيمة السالبة بتحديد موضع من نهاية الفقرة. استخدم -1 للانتقال إلى نهاية الفقرة. |
 
 ## ملاحظات
 
-يتم تنفيذ التنقل داخل القصة الحالية للقسم الحالي. أي إذا قمت بتحريك المؤشر إلى الرأس الأساسي للقسم الأول، ثم*paragraphIndex*حدد فهرس الفقرة الموجودة داخل ذلك header لهذا القسم.
+يتم إجراء التنقل داخل القصة الحالية للقسم الحالي. أي إذا قمت بنقل المؤشر إلى العنوان الأساسي للقسم الأول، ثم*paragraphIndex* تم تحديد فهرس الفقرة داخل header لهذا القسم.
 
-متى*paragraphIndex* أكبر من أو يساوي 0، فهو يحدد فهرس from بداية القسم حيث يكون 0 هو الفقرة الأولى. متى*paragraphIndex* أقل من 0, وقد حددت فهرسًا من نهاية القسم حيث تكون -1 هي الفقرة الأخيرة.
+متى*paragraphIndex* أكبر من أو يساوي 0، فإنه يحدد فهرسًا من بداية القسم مع كون 0 هي الفقرة الأولى. عندما*paragraphIndex* أقل من 0، لقد حدد فهرسًا من نهاية القسم حيث -1 هي الفقرة الأخيرة.
 
 ## أمثلة
 
@@ -37,16 +37,16 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 Assert.AreEqual(22, paragraphs.Count);
 
-// قم بإنشاء منشئ المستندات لتحرير المستند. مؤشر البناء،
-// وهي النقطة التي سيتم فيها إدراج عقد جديدة عندما نطلق على طرق إنشاء المستند الخاصة بها،
-// موجود حاليًا في بداية المستند.
+// أنشئ مُنشئ مستندات لتحرير المستند. مؤشر المُنشئ،
+// وهي النقطة التي سيتم فيها إدراج عقد جديدة عندما نستدعي أساليب إنشاء المستندات الخاصة به،
+//يوجد حاليًا في بداية المستند.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
 
-// سيؤدي نقل هذا المؤشر إلى فقرة مختلفة إلى وضع هذا المؤشر أمام تلك الفقرة.
+// نقل المؤشر إلى فقرة مختلفة سيضع المؤشر أمام تلك الفقرة.
 builder.MoveToParagraph(2, 0);
-// سيتم إدراج أي محتوى جديد نضيفه عند هذه النقطة.
+// سيتم إدراج أي محتوى جديد نضيفه في تلك المرحلة.
 builder.Writeln("This is a new third paragraph. ");
 ```
 

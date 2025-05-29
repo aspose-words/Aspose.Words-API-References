@@ -3,14 +3,14 @@ title: Field.Result
 linktitle: Result
 articleTitle: Result
 second_title: Aspose.Words لـ .NET
-description: Field Result ملكية. الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل في C#.
+description: أدر خصائص نتائج الحقول بسهولة. تمكّن من الوصول إلى النصوص بين فواصل الحقول أو تعديلها لتسهيل معالجة البيانات وزيادة الكفاءة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/field/result/
 ---
 ## Field.Result property
 
-الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل.
+يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه.
 
 ```csharp
 public string Result { get; set; }
@@ -29,8 +29,8 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// هذا التحميل الزائد لطريقة InsertField يقوم تلقائيًا بتحديث الحقول المدرجة.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// يؤدي هذا التحميل الزائد لطريقة InsertField إلى تحديث الحقول المدرجة تلقائيًا.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
 ### أنظر أيضا

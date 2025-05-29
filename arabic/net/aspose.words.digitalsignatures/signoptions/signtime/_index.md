@@ -3,14 +3,14 @@ title: SignOptions.SignTime
 linktitle: SignTime
 articleTitle: SignTime
 second_title: Aspose.Words لـ .NET
-description: SignOptions SignTime ملكية. تاريخ التوقيع. القيمة الافتراضية هيالوقت الحالي Now في C#.
+description: اكتشف SignTime من SignOptions لتوقيع سهل. اضبط تاريخ التوقيع بسهولة، مع ضبطه افتراضيًا على الوقت الحالي. بسّط عملية مستنداتك!
 type: docs
 weight: 70
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signtime/
 ---
 ## SignOptions.SignTime property
 
-تاريخ التوقيع. القيمة الافتراضية هي**الوقت الحالي** (Now).
+تاريخ التوقيع. القيمة الافتراضية هي**الوقت الحالي** (Now)
 
 ```csharp
 public DateTime SignTime { get; set; }
@@ -18,21 +18,21 @@ public DateTime SignTime { get; set; }
 
 ## أمثلة
 
-يوضح كيفية توقيع المستندات رقميًا.
+يوضح كيفية التوقيع الرقمي على المستندات.
 
 ```csharp
-// أنشئ شهادة X.509 من متجر PKCS#12، والتي يجب أن تحتوي على مفتاح خاص.
+// قم بإنشاء شهادة X.509 من متجر PKCS#12، والتي يجب أن تحتوي على مفتاح خاص.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// قم بإنشاء تعليق وتاريخ سيتم تطبيقه مع توقيعنا الرقمي الجديد.
+// قم بإنشاء تعليق وتاريخ سيتم تطبيقهما باستخدام توقيعنا الرقمي الجديد.
 SignOptions signOptions = new SignOptions
 {
     Comments = "My comment", 
     SignTime = DateTime.Now
 };
 
-// خذ مستندًا غير موقع من نظام الملفات المحلي عبر دفق الملفات،
-// ثم قم بإنشاء نسخة موقعة منه يحددها اسم ملف دفق ملف الإخراج.
+// أخذ مستند غير موقع من نظام الملفات المحلي عبر مجرى ملف،
+// ثم قم بإنشاء نسخة موقعة منه يتم تحديدها من خلال اسم ملف مجرى ملف الإخراج.
 using (Stream streamIn = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (Stream streamOut = new FileStream(ArtifactsDir + "DigitalSignatureUtil.SignDocument.docx", FileMode.OpenOrCreate))

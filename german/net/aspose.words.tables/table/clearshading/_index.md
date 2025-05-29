@@ -3,14 +3,14 @@ title: Table.ClearShading
 linktitle: ClearShading
 articleTitle: ClearShading
 second_title: Aspose.Words für .NET
-description: Table ClearShading methode. Entfernt alle Schattierungen auf der Tabelle in C#.
+description: Entdecken Sie die Table ClearShading-Methode, um mühelos Tischschattierungen zu entfernen und so die Klarheit und Präsentation Ihrer Projekte zu verbessern.
 type: docs
-weight: 380
+weight: 400
 url: /de/net/aspose.words.tables/table/clearshading/
 ---
 ## Table.ClearShading method
 
-Entfernt alle Schattierungen auf der Tabelle.
+Entfernt alle Schattierungen aus der Tabelle.
 
 ```csharp
 public void ClearShading()
@@ -18,20 +18,20 @@ public void ClearShading()
 
 ## Beispiele
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

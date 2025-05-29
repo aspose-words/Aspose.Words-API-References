@@ -2,10 +2,10 @@
 title: ShapeBase.WrapSide
 linktitle: WrapSide
 articleTitle: WrapSide
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeBase WrapSide 财产. 指定文本如何环绕形状 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeBase WrapSide 属性来控制文本环绕形状，增强设计的视觉吸引力和可读性。
 type: docs
-weight: 590
+weight: 630
 url: /zh/net/aspose.words.drawing/shapebase/wrapside/
 ---
 ## ShapeBase.WrapSide property
@@ -20,11 +20,11 @@ public WrapSide WrapSide { get; set; }
 
 默认值为Both。
 
-仅对顶级形状有效。
+仅对顶层形状有效。
 
 ## 例子
 
-演示如何用图像形状替换所有文本框形状。
+展示如何用图像形状替换所有文本框形状。
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

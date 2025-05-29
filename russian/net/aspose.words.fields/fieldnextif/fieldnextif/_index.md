@@ -3,7 +3,7 @@ title: FieldNextIf
 linktitle: FieldNextIf
 articleTitle: FieldNextIf
 second_title: Aspose.Words для .NET
-description: FieldNextIf строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldNextIf, ваше решение для бесшовной интеграции и эффективного управления кодом. Упростите процесс разработки уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldnextif/fieldnextif/

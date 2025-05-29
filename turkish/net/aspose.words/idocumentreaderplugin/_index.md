@@ -2,15 +2,15 @@
 title: IDocumentReaderPlugin Interface
 linktitle: IDocumentReaderPlugin
 articleTitle: IDocumentReaderPlugin
-second_title: Aspose.Words for .NET
-description: Aspose.Words.IDocumentReaderPlugin arayüz. Bir belgedeki dosyayı okuyabilen harici okuyucu eklentileri için bir arayüz tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Harici okuyucuların sorunsuz entegrasyonunu sağlayarak dosyaları zahmetsizce belgelere dönüştürmenize olanak tanıyan Aspose.Words.IDocumentReaderPlugin arayüzünü keşfedin.
 type: docs
-weight: 3180
+weight: 3620
 url: /tr/net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface
 
-Bir belgedeki dosyayı okuyabilen harici okuyucu eklentileri için bir arayüz tanımlar.
+Bir dosyayı bir belgeye okuyabilen harici okuyucu eklentileri için bir arayüz tanımlar.
 
 ```csharp
 public interface IDocumentReaderPlugin
@@ -20,7 +20,7 @@ public interface IDocumentReaderPlugin
 
 | İsim | Tanım |
 | --- | --- |
-| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | Belirtilen akıştaki verileri okur.[`Document`](../document/) örnek. |
+| [Read](../../aspose.words/idocumentreaderplugin/read/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [Document](../document/)*) | Belirtilen akıştan verileri okur[`Document`](../document/) örnek. |
 
 ### Ayrıca bakınız
 

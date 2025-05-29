@@ -3,14 +3,14 @@ title: DocumentBuilder.InsertParagraph
 linktitle: InsertParagraph
 articleTitle: InsertParagraph
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertParagraph метод. Вставляет в документ разрыв абзаца на С#.
+description: Улучшайте свои документы без особых усилий с помощью метода InsertParagraph в DocumentBuilder, позволяющего плавно разбивать абзацы для улучшения читаемости.
 type: docs
-weight: 420
+weight: 450
 url: /ru/net/aspose.words/documentbuilder/insertparagraph/
 ---
 ## DocumentBuilder.InsertParagraph method
 
-Вставляет в документ разрыв абзаца.
+Вставляет разрыв абзаца в документ.
 
 ```csharp
 public Paragraph InsertParagraph()
@@ -22,11 +22,11 @@ public Paragraph InsertParagraph()
 
 ## Примечания
 
-Текущее форматирование абзаца, заданное параметром[`ParagraphFormat`](../paragraphformat/) имущество используется.
+Текущее форматирование абзаца, заданное[`ParagraphFormat`](../paragraphformat/) используется имущество.
 
-Разбивает текущий абзац на две части. После вставки абзаца курсор помещается в начало нового абзаца.
+Разбивает текущий абзац на два. После вставки абзаца курсор помещается в начало нового абзаца.
 
-Исключение выдается, если невозможно вставить разрыв абзаца в текущей позиции курсора.
+Исключение возникает, если в текущей позиции курсора невозможно вставить разрыв абзаца.
 
 ## Примеры
 
@@ -51,7 +51,7 @@ paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
 // Метод Writeln завершает абзац после добавления текста
-// а затем начинается новая строка, добавляющая новый абзац.
+// а затем начинает новую строку, добавляя новый абзац.
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

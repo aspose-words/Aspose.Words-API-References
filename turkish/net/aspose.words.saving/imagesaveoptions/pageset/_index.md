@@ -2,15 +2,15 @@
 title: ImageSaveOptions.PageSet
 linktitle: PageSet
 articleTitle: PageSet
-second_title: Aspose.Words for .NET
-description: ImageSaveOptions PageSet mülk. Oluşturulacak sayfaları alır veya ayarlar. Varsayılan belgedeki tüm sayfalardır C#'da.
+second_title: .NET için Aspose.Words
+description: Belgenizin işlenmesini özelleştirmek için ImageSaveOptions PageSet özelliğini keşfedin. Optimize edilmiş çıktı için hangi sayfaların kaydedileceğini kontrol edin. Şimdi keşfedin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/imagesaveoptions/pageset/
 ---
 ## ImageSaveOptions.PageSet property
 
-Oluşturulacak sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfalardır.
+İşlenecek sayfaları alır veya ayarlar. Varsayılan, belgedeki tüm sayfalardır.
 
 ```csharp
 public PageSet PageSet { get; set; }
@@ -18,11 +18,11 @@ public PageSet PageSet { get; set; }
 
 ## Notlar
 
-Bu özellik yalnızca belge sayfaları oluşturulurken etkilidir. Şekiller görüntülere dönüştürülürken bu özellik göz ardı edilir.
+Bu özellik yalnızca belge sayfaları işlenirken etkilidir. Şekiller resimlere işlenirken bu özellik göz ardı edilir.
 
 ## Örnekler
 
-Tam sayfa aralıklarına göre sayfaların nasıl çıkarılacağını gösterir.
+Sayfaların tam sayfa aralıklarına göre nasıl çıkarılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -35,7 +35,7 @@ imageOptions.PageSet = pageSet;
 doc.Save(ArtifactsDir + "ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
-Belgedeki hangi sayfanın görüntü olarak oluşturulacağının nasıl belirleneceğini gösterir.
+Bir belgedeki hangi sayfanın görüntü olarak işleneceğini nasıl belirteceğinizi gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -50,11 +50,10 @@ builder.Writeln("This is page 3.");
 
 Assert.AreEqual(3, doc.PageCount);
 
-// Belgeyi resim olarak kaydettiğimizde Aspose.Words varsayılan olarak yalnızca ilk sayfayı oluşturur.
-// Oluşturulacak farklı bir sayfayı belirtmek için bir SaveOptions nesnesini iletebiliriz.
+// Belgeyi resim olarak kaydettiğimizde Aspose.Words varsayılan olarak yalnızca ilk sayfayı işler.
+// Farklı bir sayfanın nasıl işleneceğini belirtmek için SaveOptions nesnesini geçirebiliriz.
 ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFormat.Gif);
-
-// Belgenin her sayfasını ayrı bir görüntü dosyasına dönüştürün.
+// Belgenin her sayfasını ayrı bir resim dosyasına dönüştür.
 for (int i = 1; i <= doc.PageCount; i++)
 {
     saveOptions.PageSet = new PageSet(1);
@@ -76,16 +75,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff);
 
 for (int i = 0; i < doc.PageCount; i++)
 {
     // "PageSet" özelliğini ilk sayfanın numarasına ayarlayın
-    // belgenin görüntülenmeye nereden başlayacağı.
+    // belgenin hangisinden oluşturulmaya başlanacağı.
     options.PageSet = new PageSet(i);
-    // Sayfayı 2325x5325 piksel ve 600 dpi çözünürlükte dışa aktarın.
+    // Sayfayı 2325x5325 piksel ve 600 dpi olarak dışa aktar.
     options.Resolution = 600;
     options.ImageSize = new Size(2325, 5325);
 
@@ -93,7 +92,7 @@ for (int i = 0; i < doc.PageCount; i++)
 }
 ```
 
-Bir belgedeki bir sayfanın JPEG görüntüsüne nasıl dönüştürüleceğini gösterir.
+Bir belgenin bir sayfasının JPEG görüntüsüne nasıl dönüştürüleceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -106,17 +105,16 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Page 3.");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi bir görüntüye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "ImageSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi görüntüye dönüştürme şeklini değiştirmek için.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
-
 // İkinci sayfayı seçmek için "PageSet"i "1" olarak ayarlayın
-// belgenin görüntülenmeye başlanacağı sıfır tabanlı dizin.
+// belgenin oluşturulmaya başlanacağı sıfır tabanlı dizin.
 options.PageSet = new PageSet(1);
 
 // Belgeyi JPEG formatında kaydettiğimizde Aspose.Words yalnızca bir sayfa oluşturur.
-// Bu görüntü ikinci sayfadan başlayarak bir sayfa içerecektir,
-// bu sadece orijinal belgenin ikinci sayfası olacaktır.
+// Bu resim ikinci sayfadan başlayarak tek bir sayfa içerecektir,
+// bu sadece orijinal belgenin ikinci sayfası olacak.
 doc.Save(ArtifactsDir + "ImageSaveOptions.OnePage.jpg", options);
 ```
 

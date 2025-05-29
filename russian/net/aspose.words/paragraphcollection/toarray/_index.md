@@ -3,7 +3,7 @@ title: ParagraphCollection.ToArray
 linktitle: ToArray
 articleTitle: ToArray
 second_title: Aspose.Words для .NET
-description: ParagraphCollection ToArray метод. Копирует все абзацы из коллекции в новый массив абзацев на С#.
+description: С легкостью преобразуйте ParagraphCollection в массив с помощью метода ToArray, оптимизируя управление данными и улучшая обработку документов.
 type: docs
 weight: 20
 url: /ru/net/aspose.words/paragraphcollection/toarray/

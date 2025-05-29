@@ -3,14 +3,14 @@ title: Granularity Enum
 linktitle: Granularity
 articleTitle: Granularity
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Comparing.Granularity uppräkning. Anger granulariteten för ändringar som ska spåras när två dokument jämförs i C#.
+description: Upptäck Aspose.Words.Comparing.Granularity-uppräkningen för att enkelt spåra dokumentändringar med precision. Förbättra din dokumentjämförelse idag!
 type: docs
-weight: 290
+weight: 490
 url: /sv/net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
 
-Anger granulariteten för ändringar som ska spåras när två dokument jämförs.
+Anger granulariteten för ändringar som ska spåras vid jämförelse av två dokument.
 
 ```csharp
 public enum Granularity
@@ -20,12 +20,12 @@ public enum Granularity
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| CharLevel | `0` |  |
-| WordLevel | `1` |  |
+| CharLevel | `0` | Anger ändringar på teckennivå. |
+| WordLevel | `1` | Anger ändringar på ordnivå. |
 
 ## Exempel
 
-Visar för att specificera en granularitet vid jämförelse av dokument.
+Visar för att ange en granularitet vid jämförelse av dokument.
 
 ```csharp
 Document docA = new Document();
@@ -36,14 +36,14 @@ Document docB = new Document();
 DocumentBuilder builderB = new DocumentBuilder(docB);
 builderB.Writeln("Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
-// Ange om ändringarna spåras
-// efter tecken ('Granularity.CharLevel'), eller efter ord ('Granularity.WordLevel').
-Aspose.Words.Comparing.CompareOptions compareOptions = new Aspose.Words.Comparing.CompareOptions();
+// Ange om ändringar spåras
+// per tecken ('Granularity.CharLevel'), eller per ord ('Granularity.WordLevel').
+CompareOptions compareOptions = new CompareOptions();
 compareOptions.Granularity = granularity;
 
 docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
-// Det första dokumentets samling av revisionsgrupper innehåller alla skillnader mellan dokument.
+// Det första dokumentets samling av revisionsgrupper innehåller alla skillnader mellan dokumenten.
 RevisionGroupCollection groups = docA.Revisions.Groups;
 Assert.AreEqual(5, groups.Count);
 ```

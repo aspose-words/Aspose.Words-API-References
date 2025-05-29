@@ -3,14 +3,14 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words för .NET
-description: Aspose.Words.TextureIndex uppräkning. Anger skuggningsstruktur i C#.
+description: Upptäck Aspose.Words.TextureIndex-enum för avancerade skuggningstexturer. Förbättra din dokumentdesign med anpassningsbara texturer av hög kvalitet.
 type: docs
-weight: 6450
+weight: 7300
 url: /sv/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Anger skuggningsstruktur.
+Anger skuggningstextur.
 
 ```csharp
 public enum TextureIndex
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Anger att det inte ska användas något mönster på det aktuella skuggade området (dvs mönstret ska vara en komplett fyllning med bakgrundsfärgen). |
+| TextureNil | `65535` | Anger att inget mönster ska användas i det aktuella skuggade området (dvs. mönstret ska vara en komplett fyllning med bakgrundsfärgen). |
 
 ## Exempel
 
-Visar hur man dekorerar text med kanter och skuggningar.
+Visar hur man dekorerar text med ramar och skuggning.
 
 ```csharp
 Document doc = new Document();
@@ -99,26 +99,26 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Visar hur man tillämpar en konturram på en tabell.
+Visar hur man tillämpar en konturkantlinje på en tabell.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Rikta in tabellen mot mitten av sidan.
+// Justera tabellen till mitten av sidan.
 table.Alignment = TableAlignment.Center;
 
-// Rensa alla befintliga kanter och skuggningar från tabellen.
+// Ta bort alla befintliga ramar och skuggningar från tabellen.
 table.ClearBorders();
 table.ClearShading();
 
-// Lägg till gröna ramar till tabellens konturer.
+// Lägg till gröna ramar runt tabellens kontur.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Fyll cellerna med en ljusgrön solid färg.
+// Fyll cellerna med en ljusgrön enfärgad.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");

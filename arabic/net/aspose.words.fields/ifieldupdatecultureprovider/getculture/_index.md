@@ -3,14 +3,14 @@ title: IFieldUpdateCultureProvider.GetCulture
 linktitle: GetCulture
 articleTitle: GetCulture
 second_title: Aspose.Words لـ .NET
-description: IFieldUpdateCultureProvider GetCulture طريقة. إرجاع أCultureInfoالكائن الذي سيتم استخدامه أثناء تحديث الحقل في C#.
+description: اكتشف طريقة GetCulture الخاصة بـIFieldUpdateCultureProvider، والتي تقوم بإرجاع كائن CultureInfo بكفاءة للحصول على تحديثات سلسة للحقول.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/ifieldupdatecultureprovider/getculture/
 ---
 ## IFieldUpdateCultureProvider.GetCulture method
 
-إرجاع أCultureInfoالكائن الذي سيتم استخدامه أثناء تحديث الحقل.
+يعيدCultureInfo الكائن الذي سيتم استخدامه أثناء تحديث الحقل.
 
 ```csharp
 public CultureInfo GetCulture(string culture, Field field)
@@ -19,7 +19,7 @@ public CultureInfo GetCulture(string culture, Field field)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | culture | String | اسم الثقافة المطلوبة للحقل الذي يتم تحديثه. |
-| field | Field | يتم تحديث الحقل. |
+| field | Field | الحقل يتم تحديثه. |
 
 ### قيمة الإرجاع
 
@@ -27,7 +27,7 @@ public CultureInfo GetCulture(string culture, Field field)
 
 ## أمثلة
 
-يوضح كيفية تحديد ثقافة تقوم بتوزيع تنسيق التاريخ/الوقت لكل حقل.
+يوضح كيفية تحديد ثقافة تقوم بتحليل تنسيق التاريخ/الوقت لكل حقل.
 
 ```csharp
 public void DefineDateTimeFormatting()
@@ -39,7 +39,7 @@ public void DefineDateTimeFormatting()
 
     doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 
-    // قم بتعيين موفر يُرجع كائن ثقافة خاصًا بكل حقل.
+    // تعيين موفر يقوم بإرجاع كائن ثقافة محدد لكل حقل.
     doc.FieldOptions.FieldUpdateCultureProvider = new FieldUpdateCultureProvider();
 
     FieldTime fieldDate = (FieldTime)doc.Range.Fields[0];
@@ -55,7 +55,7 @@ public void DefineDateTimeFormatting()
 private class FieldUpdateCultureProvider : IFieldUpdateCultureProvider
 {
     /// <summary>
-    /// يُرجع كائن CultureInfo ليتم استخدامه أثناء تحديث الحقل.
+    /// إرجاع كائن CultureInfo لاستخدامه أثناء تحديث الحقل.
     /// </summary>
     public CultureInfo GetCulture(string name, Field field)
     {

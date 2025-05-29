@@ -3,14 +3,14 @@ title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words для .NET
-description: TxtSaveOptionsBase ExportHeadersFootersMode свойство. Определяет способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчаниюPrimaryOnly  на С#.
+description: Узнайте, как свойство TxtSaveOptionsBase ExportHeadersFootersMode оптимизирует экспорт заголовков и нижних колонтитулов в текстовых форматах. Default, PrimaryOnly.
 type: docs
 weight: 20
 url: /ru/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/
 ---
 ## TxtSaveOptionsBase.ExportHeadersFootersMode property
 
-Определяет способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчанию:PrimaryOnly .
+Указывает способ экспорта верхних и нижних колонтитулов в текстовые форматы. Значение по умолчанию:PrimaryOnly .
 
 ```csharp
 public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -18,13 +18,13 @@ public TxtExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ## Примеры
 
-Показывает, как указать способ экспорта верхних и нижних колонтитулов в текстовый формат.
+Показывает, как указать способ экспорта верхних и нижних колонтитулов в формат обычного текста.
 
 ```csharp
 Document doc = new Document();
 
-// Вставляем четные и основные верхние/нижние колонтитулы в документ.
-// Первичный верхний/нижний колонтитул переопределяет четные верхние/нижние колонтитулы.
+// Вставить четные и основные верхние/нижние колонтитулы в документ.
+// Основные верхние/нижние колонтитулы переопределят четные верхние/нижние колонтитулы.
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.HeaderEven));
 doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderEven].AppendParagraph("Even header");
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterEven));
@@ -34,7 +34,7 @@ doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].AppendParagraph(
 doc.FirstSection.HeadersFooters.Add(new HeaderFooter(doc, HeaderFooterType.FooterPrimary));
 doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].AppendParagraph("Primary footer");
 
-// Вставка страниц для отображения этих верхних и нижних колонтитулов.
+// Вставьте страницы для отображения этих верхних и нижних колонтитулов.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Page 1");
 builder.InsertBreak(BreakType.PageBreak);
@@ -42,44 +42,45 @@ builder.Writeln("Page 2");
 builder.InsertBreak(BreakType.PageBreak); 
 builder.Write("Page 3");
 
-// Создаем объект «TxtSaveOptions», который мы можем передать методу «Save» документа.
-// чтобы изменить способ сохранения документа в виде открытого текста.
+// Создаем объект "TxtSaveOptions", который можно передать методу "Save" документа
+// чтобы изменить способ сохранения документа в виде обычного текста.
 TxtSaveOptions saveOptions = new TxtSaveOptions();
 
-// Установите для свойства «ExportHeadersFootersMode» значение «TxtExportHeadersFootersMode.None»
+// Установите свойство "ExportHeadersFootersMode" на "TxtExportHeadersFootersMode.None"
 // чтобы не экспортировать верхние/нижние колонтитулы.
-// Установите для свойства «ExportHeadersFootersMode» значение «TxtExportHeadersFootersMode.PrimaryOnly»
-// чтобы экспортировать только основные верхние и нижние колонтитулы.
-// Установите для свойства «ExportHeadersFootersMode» значение «TxtExportHeadersFootersMode.AllAtEnd»
-// чтобы разместить все верхние и нижние колонтитулы для всех разделов в конце документа.
+// Установите свойство "ExportHeadersFootersMode" на "TxtExportHeadersFootersMode.PrimaryOnly"
+// для экспорта только основных верхних/нижних колонтитулов.
+// Установите свойство "ExportHeadersFootersMode" на "TxtExportHeadersFootersMode.AllAtEnd"
+// для размещения всех верхних и нижних колонтитулов всех разделов в конце документа.
 saveOptions.ExportHeadersFootersMode = txtExportHeadersFootersMode;
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt", saveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ExportHeadersFooters.txt");
 
+string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Even header\r\n\r\n" +
-                        "Primary header\r\n\r\n" +
-                        "Even footer\r\n\r\n" +
-                        "Primary footer\r\n\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Even header{newLine}{newLine}" +
+                        $"Primary header{newLine}{newLine}" +
+                        $"Even footer{newLine}{newLine}" +
+                        $"Primary footer{newLine}{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual("Primary header\r\n" +
-                        "Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n" +
-                        "Primary footer\r\n", docText);
+        Assert.AreEqual($"Primary header{newLine}" +
+                        $"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}" +
+                        $"Primary footer{newLine}", docText);
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual("Page 1\r\n" +
-                        "Page 2\r\n" +
-                        "Page 3\r\n", docText);
+        Assert.AreEqual($"Page 1{newLine}" +
+                        $"Page 2{newLine}" +
+                        $"Page 3{newLine}", docText);
         break;
 }
 ```

@@ -2,10 +2,10 @@
 title: ChartYValueCollection Class
 linktitle: ChartYValueCollection
 articleTitle: ChartYValueCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Drawing.Charts.ChartYValueCollection sınıf. Bir grafik serisi için Y değerlerinin bir koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Grafik serilerindeki Y değerlerini etkili ve verimli bir şekilde yönetmek için başvuracağınız çözüm olan Aspose.Words.Drawing.Charts.ChartYValueCollection sınıfını keşfedin.
 type: docs
-weight: 880
+weight: 1200
 url: /tr/net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class
@@ -21,19 +21,20 @@ public class ChartYValueCollection : IEnumerable<ChartYValue>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartyvaluecollection/count/) { get; } | Bu koleksiyondaki öğelerin sayısını alır. |
+| [FormatCode](../../aspose.words.drawing.charts/chartyvaluecollection/formatcode/) { get; set; } | Y değerlerine uygulanan biçim kodunu alır veya ayarlar. |
 | [Item](../../aspose.words.drawing.charts/chartyvaluecollection/item/) { get; set; } | Belirtilen dizindeki Y değerini alır veya ayarlar. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
-| [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesini döndürür. |
+| [GetEnumerator](../../aspose.words.drawing.charts/chartyvaluecollection/getenumerator/)() | Bir numaralandırıcı nesnesi döndürür. |
 
 ## Notlar
 
-Koleksiyonun dışındaki tüm öğeleri**hükümsüz** aynısı olmalı[`ValueType`](../chartyvalue/valuetype/).
+Koleksiyondaki tüm öğeler hariç**hükümsüz** aynı olmalı[`ValueType`](../chartyvalue/valuetype/).
 
-Koleksiyon yalnızca Y değerlerinin değiştirilmesine izin verir. Bir grafik serisine yeni değerler eklemek veya değerleri kaldırmak için uygun yöntemleri kullanın.[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
+Koleksiyon yalnızca Y değerlerini değiştirmeye izin verir. Bir grafik serisine yeni değerler eklemek veya eklemek ya da değerleri kaldırmak için, uygun yöntemler[`ChartSeries`](../chartseries/) sınıf kullanılabilir.
 
 ## Örnekler
 
@@ -55,7 +56,7 @@ int maxValueIndex = 0;
 for (int i = 0; i < series.YValues.Count; i++)
 {
     // Tüm veri noktalarının bireysel formatını temizle.
-    // Sütun grafiklerinde veri noktaları ve veri değerleri bire birdir.
+    // Sütun grafiklerde veri noktaları ve veri değerleri birebirdir.
     series.DataPoints[i].ClearFormat();
 
     // Y değerini al.
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Maksimum ve minimum değerlerin renklerini değiştirin.
+// Maksimum ve minimum değerlerin renklerini değiştir.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

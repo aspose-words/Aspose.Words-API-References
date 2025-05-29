@@ -3,14 +3,14 @@ title: DocumentProperty.IsLinkToContent
 linktitle: IsLinkToContent
 articleTitle: IsLinkToContent
 second_title: Aspose.Words لـ .NET
-description: DocumentProperty IsLinkToContent ملكية. يوضح ما إذا كانت هذه الخاصية مرتبطة بالمحتوى أم لا في C#.
+description: اكتشف ما إذا كانت خاصية IsLinkToContent في DocumentProperty متصلة بالمحتوى. حسّن سير عملك بحلول إدارة مستندات سلسة.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.properties/documentproperty/islinktocontent/
 ---
 ## DocumentProperty.IsLinkToContent property
 
-يوضح ما إذا كانت هذه الخاصية مرتبطة بالمحتوى أم لا.
+يُظهر ما إذا كانت هذه الخاصية مرتبطة بالمحتوى أم لا.
 
 ```csharp
 public bool IsLinkToContent { get; }
@@ -18,7 +18,7 @@ public bool IsLinkToContent { get; }
 
 ## أمثلة
 
-يوضح كيفية ربط خاصية مستند مخصص بإشارة مرجعية.
+يوضح كيفية ربط خاصية مستند مخصصة بإشارة مرجعية.
 
 ```csharp
 Document doc = new Document();
@@ -28,8 +28,8 @@ builder.StartBookmark("MyBookmark");
 builder.Write("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-// ربط خاصية مخصصة جديدة بإشارة مرجعية. قيمة هذا العقار
-// ستكون محتويات الإشارة المرجعية التي تشير إليها في العضو "LinkSource".
+// اربط خاصية مخصصة جديدة بإشارة مرجعية. قيمة هذه الخاصية
+//سيكون محتوى الإشارة المرجعية التي تشير إليها في عضو "LinkSource".
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 

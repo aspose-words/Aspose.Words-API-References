@@ -3,9 +3,9 @@ title: ThumbnailGeneratingOptions Class
 linktitle: ThumbnailGeneratingOptions
 articleTitle: ThumbnailGeneratingOptions
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Rendering.ThumbnailGeneratingOptions сорт. Может использоваться для указания дополнительных параметров при создании миниатюры документа на С#.
+description: Откройте для себя класс Aspose.Words.Rendering.ThumbnailGeneratingOptions, чтобы улучшить генерацию эскизов документов с помощью настраиваемых функций и улучшенного качества.
 type: docs
-weight: 4600
+weight: 5330
 url: /ru/net/aspose.words.rendering/thumbnailgeneratingoptions/
 ---
 ## ThumbnailGeneratingOptions class
@@ -26,12 +26,12 @@ public class ThumbnailGeneratingOptions
 
 | Имя | Описание |
 | --- | --- |
-| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Указывает, создавать ли миниатюру из первой страницы документа или из первого изображения. |
-| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Размер созданного эскиза в пикселях. Значение по умолчанию: 600x900. |
+| [GenerateFromFirstPage](../../aspose.words.rendering/thumbnailgeneratingoptions/generatefromfirstpage/) { get; set; } | Указывает, следует ли создавать миниатюру с первой страницы документа или с первого изображения. |
+| [ThumbnailSize](../../aspose.words.rendering/thumbnailgeneratingoptions/thumbnailsize/) { get; set; } | Размер сгенерированной миниатюры в пикселях. По умолчанию 600x900. |
 
 ## Примечания
 
-Пользователь может вызвать метод[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) для создания [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) для документа.
+Пользователь может вызвать метод[`UpdateThumbnail`](../../aspose.words/document/updatethumbnail/) для генерации [`Thumbnail`](../../aspose.words.properties/builtindocumentproperties/thumbnail/) для документа.
 
 ## Примеры
 
@@ -45,7 +45,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // Существует два способа установки миниатюры изображения при сохранении документа в формате .epub.
-// 1 - Использовать первую страницу документа:
+// 1 — Использовать первую страницу документа:
 doc.UpdateThumbnail();
 doc.Save(ArtifactsDir + "Document.UpdateThumbnail.FirstPage.epub");
 

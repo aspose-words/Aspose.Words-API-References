@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words för .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount fast egendom. Hämtar antalet uppdaterade fält i C#.
+description: Upptäck egenskapen UpdatedFieldsCount i FieldUpdatingProgressArgs för att enkelt spåra antalet uppdaterade fält i din applikation.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -18,7 +18,7 @@ public int UpdatedFieldsCount { get; }
 
 ## Exempel
 
-Visar hur man använder återuppringningsmetoder under en fältuppdatering.
+Visar hur man använder återanropsmetoder under en fältuppdatering.
 
 ```csharp
 public void FieldUpdatingCallbackTest()
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Implementera detta gränssnitt om du vill ha dina egna anpassade metoder anropade under en fältuppdatering.
+/// Implementera detta gränssnitt om du vill att dina egna anpassade metoder anropas under en fältuppdatering.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {

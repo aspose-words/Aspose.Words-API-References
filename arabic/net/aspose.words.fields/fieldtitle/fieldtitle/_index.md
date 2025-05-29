@@ -3,7 +3,7 @@ title: FieldTitle
 linktitle: FieldTitle
 articleTitle: FieldTitle
 second_title: Aspose.Words لـ .NET
-description: FieldTitle البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ عنوان الحقل، الأداة الأساسية للتكامل والتخصيص بسلاسة. أطلق العنان لإمكانات مشروعك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldtitle/fieldtitle/

@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageMargins
 linktitle: ExportPageMargins
 articleTitle: ExportPageMargins
 second_title: Aspose.Words pour .NET
-description: HtmlSaveOptions ExportPageMargins propriété. Spécifie si les marges de la page sont exportées au format HTML MHTML ou EPUB. La valeur par défaut estFAUX  en C#.
+description: Découvrez comment la propriété HtmlSaveOptions ExportPageMargins améliore vos exportations HTML, MHTML et EPUB en contrôlant les marges de page pour une présentation soignée.
 type: docs
 weight: 210
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportpagemargins/
 ---
 ## HtmlSaveOptions.ExportPageMargins property
 
-Spécifie si les marges de la page sont exportées au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
+Spécifie si les marges de page sont exportées au format HTML, MHTML ou EPUB. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ExportPageMargins { get; set; }
@@ -28,7 +28,7 @@ Montre comment afficher les objets hors limites dans les documents HTML de sorti
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Utilisez un générateur pour insérer une forme sans retour à la ligne.
+// Utilisez un générateur pour insérer une forme sans habillage.
 Shape shape = builder.InsertShape(ShapeType.Cube, 200, 200);
 
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
@@ -36,13 +36,13 @@ shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.WrapType = WrapType.None;
 
 // Les valeurs de position de forme négatives peuvent placer la forme en dehors des limites de la page.
-// Si nous exportons ceci au format HTML, la forme apparaîtra tronquée.
+// Si nous exportons ceci en HTML, la forme apparaîtra tronquée.
 shape.Left = -150;
 
 // Lors de l'enregistrement du document au format HTML, nous pouvons passer un objet SaveOptions
 // pour décider s'il faut ajuster la page pour afficher entièrement les objets hors limites.
-// Si nous définissons l'indicateur "ExportPageMargins" sur "true", la forme sera entièrement visible dans le HTML de sortie.
-// Si on met le flag "ExportPageMargins" à "false",
+// Si nous définissons l'indicateur « ExportPageMargins » sur « true », la forme sera entièrement visible dans le code HTML de sortie.
+// Si nous définissons l'indicateur "ExportPageMargins" sur "false",
 // notre document affichera la forme tronquée comme nous la verrions dans Microsoft Word.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageMargins = exportPageMargins };
 

@@ -3,14 +3,14 @@ title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
 second_title: Aspose.Words para .NET
-description: MailMergeSettings DoNotSupressBlankLines propiedad. Especifica cómo una aplicación que realiza la combinación de correspondencia manejará las líneas en blanco en los documentos combinados resultantes de la combinación de correspondencia. El valor predeterminado esFALSO  en C#.
+description: Optimice la combinación de correspondencia con la propiedad DoNotSupressBlankLines de MailMergeSettings, lo que garantiza que las líneas en blanco se gestionen de manera eficaz para documentos impecables.
 type: docs
 weight: 90
 url: /es/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Especifica cómo una aplicación que realiza la combinación de correspondencia manejará las líneas en blanco en los documentos combinados resultantes de la combinación de correspondencia. El valor predeterminado es`FALSO` .
+Especifica cómo una aplicación que realiza la combinación de correspondencia debe manejar las líneas en blanco en los documentos combinados resultantes de la combinación de correspondencia. El valor predeterminado es`FALSO` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

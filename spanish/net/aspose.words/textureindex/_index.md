@@ -3,14 +3,14 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words para .NET
-description: Aspose.Words.TextureIndex enumeración. Especifica la textura de sombreado en C#.
+description: Descubra la enumeración Aspose.Words.TextureIndex para texturas de sombreado avanzadas. Mejore el diseño de sus documentos con texturas personalizables de alta calidad.
 type: docs
-weight: 6450
+weight: 7300
 url: /es/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
 
-Especifica la textura de sombreado.
+Especifica la textura del sombreado.
 
 ```csharp
 public enum TextureIndex
@@ -73,7 +73,7 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Especifica que no se utilizará ningún patrón en la región sombreada actual (es decir, el patrón deberá ser un relleno completo con el color de fondo). |
+| TextureNil | `65535` | Especifica que no se utilizará ningún patrón en la región sombreada actual (es decir, el patrón será un relleno completo con el color de fondo). |
 
 ## Ejemplos
 
@@ -105,14 +105,14 @@ Muestra cómo aplicar un borde de contorno a una tabla.
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Alinea la tabla con el centro de la página.
+// Alinea la tabla al centro de la página.
 table.Alignment = TableAlignment.Center;
 
-// Borra los bordes y sombreados existentes de la tabla.
+//Borra todos los bordes y sombreados existentes de la tabla.
 table.ClearBorders();
 table.ClearShading();
 
-// Agrega bordes verdes al contorno de la tabla.
+//Añade bordes verdes al contorno de la tabla.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

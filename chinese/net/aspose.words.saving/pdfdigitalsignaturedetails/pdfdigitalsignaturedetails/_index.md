@@ -2,15 +2,15 @@
 title: PdfDigitalSignatureDetails
 linktitle: PdfDigitalSignatureDetails
 articleTitle: PdfDigitalSignatureDetails
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfDigitalSignatureDetails 构造函数. 初始化此类的实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 PdfDigitalSignatureDetails 构造函数，旨在有效地初始化数字签名实例以实现安全文档管理。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.saving/pdfdigitalsignaturedetails/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails() {#constructor}
 
-初始化此类的实例。
+初始化此类的一个实例。
 
 ```csharp
 public PdfDigitalSignatureDetails()
@@ -18,7 +18,7 @@ public PdfDigitalSignatureDetails()
 
 ## 例子
 
-演示如何签署生成的 PDF 文档。
+展示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
+// 当我们使用“保存”方法呈现文档时对其进行数字签名。
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -41,6 +41,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```
@@ -55,7 +56,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 
 ## PdfDigitalSignatureDetails(*[CertificateHolder](../../../aspose.words.digitalsignatures/certificateholder/), string, string, DateTime*) {#constructor_1}
 
-初始化此类的实例。
+初始化此类的一个实例。
 
 ```csharp
 public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string reason, 
@@ -66,12 +67,12 @@ public PdfDigitalSignatureDetails(CertificateHolder certificateHolder, string re
 | --- | --- | --- |
 | certificateHolder | CertificateHolder | 包含证书本身的证书持有者。 |
 | reason | String | 签名的原因。 |
-| location | String | 签字地点。 |
+| location | String | 签约地点。 |
 | signatureDate | DateTime | 签署的日期和时间。 |
 
 ## 例子
 
-演示如何签署生成的 PDF 文档。
+展示如何签署生成的 PDF 文档。
 
 ```csharp
 Document doc = new Document();
@@ -85,7 +86,7 @@ CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.p
 PdfSaveOptions options = new PdfSaveOptions();
 
 // 将“SaveOptions”对象的“DigitalSignatureDetails”对象配置为
-// 当我们使用“Save”方法呈现文档时对文档进行数字签名。
+// 当我们使用“保存”方法呈现文档时对其进行数字签名。
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -94,6 +95,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

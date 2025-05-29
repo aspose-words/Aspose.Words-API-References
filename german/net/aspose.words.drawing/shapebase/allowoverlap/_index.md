@@ -3,14 +3,14 @@ title: ShapeBase.AllowOverlap
 linktitle: AllowOverlap
 articleTitle: AllowOverlap
 second_title: Aspose.Words für .NET
-description: ShapeBase AllowOverlap eigendom. Ruft einen Wert ab oder legt diesen fest der angibt ob diese Form andere Formen überlappen kann in C#.
+description: Entdecken Sie die ShapeBase AllowOverlap-Eigenschaft und steuern Sie Forminteraktionen, indem Sie die Überlappung mit anderen Formen aktivieren oder deaktivieren, um die Designflexibilität zu verbessern.
 type: docs
 weight: 10
 url: /de/net/aspose.words.drawing/shapebase/allowoverlap/
 ---
 ## ShapeBase.AllowOverlap property
 
-Ruft einen Wert ab oder legt diesen fest, der angibt, ob diese Form andere Formen überlappen kann.
+Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob diese Form andere Formen überlappen kann.
 
 ```csharp
 public bool AllowOverlap { get; set; }
@@ -20,13 +20,13 @@ public bool AllowOverlap { get; set; }
 
 Diese Eigenschaft beeinflusst das Verhalten der Form in Microsoft Word. Aspose.Words ignoriert den Wert dieser Eigenschaft.
 
-Diese Eigenschaft gilt nur für Formen der obersten Ebene.
+Diese Eigenschaft ist nur auf Formen der obersten Ebene anwendbar.
 
 Der Standardwert ist`WAHR`.
 
 ## Beispiele
 
-Zeigt, wie mit Floating-Table-Eigenschaften gearbeitet wird.
+Zeigt, wie mit den Eigenschaften schwebender Tabellen gearbeitet wird.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -39,12 +39,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // Nur Rand, Seite, Spalte in RelativeHorizontalPosition für HorizontalAnchor-Setter verfügbar.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den HorizontalAnchor-Setter sind in RelativeHorizontalPosition nur Margin, Page und Column verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // Nur Rand, Seite, Absatz verfügbar in RelativeVerticalPosition für VerticalAnchor-Setter.
-    // Die ArgumentException wird für alle anderen Werte ausgelöst.
+    // Für den VerticalAnchor-Setter sind in RelativeVerticalPosition nur Margin, Page und Paragraph verfügbar.
+    // Für alle anderen Werte wird die ArgumentException ausgelöst.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

@@ -2,15 +2,15 @@
 title: ViewOptions.DoNotDisplayPageBoundaries
 linktitle: DoNotDisplayPageBoundaries
 articleTitle: DoNotDisplayPageBoundaries
-second_title: Aspose.Words for .NET
-description: ViewOptions DoNotDisplayPageBoundaries mülk. Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır C#'da.
+second_title: .NET için Aspose.Words
+description: ViewOptions DoNotDisplayPageBoundaries özelliğinin, daha temiz ve daha profesyonel bir görünüm için üst kenar boşluğunu ortadan kaldırarak düzeninizi nasıl geliştirdiğini keşfedin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.settings/viewoptions/donotdisplaypageboundaries/
 ---
 ## ViewOptions.DoNotDisplayPageBoundaries property
 
-Metnin üst kısmı ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır.
+Metnin üstü ile sayfanın üst kenarı arasındaki boşluğun görüntülenmesini kapatır.
 
 ```csharp
 public bool DoNotDisplayPageBoundaries { get; set; }
@@ -18,7 +18,7 @@ public bool DoNotDisplayPageBoundaries { get; set; }
 
 ## Örnekler
 
-Görünüm seçeneklerinde dikey boşlukların ve üstbilgilerin/altbilgilerin nasıl gizleneceğini gösterir.
+Görünüm seçeneklerinde dikey boşlukların ve üstbilgi/altbilgilerin nasıl gizleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -37,11 +37,11 @@ builder.Writeln("This is the header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the footer.");
 
-// Bu belge, birkaç tam sayfalık yer kaplayan az miktarda içerik içeriyor.
+// Bu belge birkaç tam sayfa yer kaplayan az miktarda içerik barındırmaktadır.
 // Microsoft Word'ün eski sürümlerinin başlıkları atlaması için "DoNotDisplayPageBoundaries" bayrağını "true" olarak ayarlayın,
 // altbilgiler ve belgemizi görüntülerken dikey boşlukların çoğu.
 // Microsoft Word'ün eski sürümlerini almak için "DoNotDisplayPageBoundaries" bayrağını "false" olarak ayarlayın
-// belgemizi normal şekilde görüntülemek için.
+// Belgemizi normal şekilde görüntülemek için.
 doc.ViewOptions.DoNotDisplayPageBoundaries = doNotDisplayPageBoundaries;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayPageBoundaries.doc");

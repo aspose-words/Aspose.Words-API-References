@@ -2,8 +2,8 @@
 title: AxisScaling
 linktitle: AxisScaling
 articleTitle: AxisScaling
-second_title: Aspose.Words for .NET
-description: AxisScaling inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: AxisScaling oluşturucusunu keşfedin; uygulamalarda kusursuz ölçekleme için başvuracağınız çözüm. Verimli varsayılan oluşturucumuzla performansı artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.drawing.charts/axisscaling/axisscaling/

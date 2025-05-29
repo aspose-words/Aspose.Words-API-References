@@ -3,7 +3,7 @@ title: DownsampleOptions
 linktitle: DownsampleOptions
 articleTitle: DownsampleOptions
 second_title: Aspose.Words för .NET
-description: DownsampleOptions byggare. Default_Constructor i C#.
+description: Upptäck DownsampleOptions-konstruktorn för effektiv bildbehandling. Optimera ditt arbetsflöde med vår standardkonstruktor för sömlös integration.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.saving/downsampleoptions/downsampleoptions/

@@ -3,14 +3,14 @@ title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
 second_title: Aspose.Words لـ .NET
-description: Border LineWidth ملكية. الحصول على أو تعيين عرض الحدود بالنقاط في C#.
+description: قم بضبط خاصية Border LineWidth لتخصيص سمك الحدود بالنقاط، مما يعزز دقة تصميمك وجاذبيته البصرية.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/border/linewidth/
 ---
 ## Border.LineWidth property
 
-الحصول على أو تعيين عرض الحدود بالنقاط.
+يحصل على عرض الحدود بالنقاط أو يعينه.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -18,11 +18,11 @@ public double LineWidth { get; set; }
 
 ## ملاحظات
 
-إذا قمت بتعيين عرض الخط أكبر من الصفر عندما يكون نمط الخط بلا شيء، فسيتم تغيير نمط الخط is تلقائيًا إلى سطر واحد.
+إذا قمت بتعيين عرض الخط أكبر من الصفر عندما يكون نمط الخط لا شيء، فسيتم تغيير نمط الخط is تلقائيًا إلى خط واحد.
 
 ## أمثلة
 
-يوضح كيفية إدراج سلسلة محاطة بحد في مستند.
+يوضح كيفية إدراج سلسلة محاطة بحدود في مستند.
 
 ```csharp
 Document doc = new Document();

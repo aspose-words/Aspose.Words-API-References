@@ -3,14 +3,14 @@ title: Story.AppendParagraph
 linktitle: AppendParagraph
 articleTitle: AppendParagraph
 second_title: Aspose.Words لـ .NET
-description: Story AppendParagraph طريقة. طريقة اختصار لإنشاء ملفParagraph كائن بنص اختياري وإلحاقه بنهاية هذا الكائن في C#.
+description: اكتشف طريقة Story AppendParagraph، وقم بإنشاء كائن فقرة وإضافته بسهولة باستخدام نص قابل للتخصيص لتحسين المستند بشكل سلس.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/story/appendparagraph/
 ---
 ## Story.AppendParagraph method
 
-طريقة اختصار لإنشاء ملف[`Paragraph`](../../paragraph/) كائن بنص اختياري وإلحاقه بنهاية هذا الكائن.
+طريقة اختصار لإنشاء[`Paragraph`](../../paragraph/) كائن يحتوي على نص اختياري ويضيفه إلى نهاية هذا الكائن.
 
 ```csharp
 public Paragraph AppendParagraph(string text)
@@ -18,11 +18,11 @@ public Paragraph AppendParagraph(string text)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| text | String | النص للفقرة. يمكن ان يكون`باطل` أو سلسلة فارغة. |
+| text | String | نص الفقرة. يمكن أن يكون`باطل` أو سلسلة فارغة. |
 
 ### قيمة الإرجاع
 
-الفقرة التي تم إنشاؤها وإلحاقها حديثًا.
+الفقرة الجديدة التي تم إنشاؤها وإضافتها.
 
 ## أمثلة
 
@@ -31,8 +31,8 @@ public Paragraph AppendParagraph(string text)
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء رأس وألحق فقرة به. النص في تلك الفقرة
-// سيظهر في أعلى كل صفحة من هذا القسم، فوق النص الأساسي.
+// أنشئ رأسًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أعلى كل صفحة من هذا القسم، فوق النص الرئيسي.
 HeaderFooter header = new HeaderFooter(doc, HeaderFooterType.HeaderPrimary);
 doc.FirstSection.HeadersFooters.Add(header);
 
@@ -41,8 +41,8 @@ Paragraph para = header.AppendParagraph("My header.");
 Assert.True(header.IsHeader);
 Assert.True(para.IsEndOfHeaderFooter);
 
-// قم بإنشاء تذييل وإلحاق فقرة به. النص في تلك الفقرة
-// سيظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
+// أنشئ تذييلًا وأضف إليه فقرة. النص في تلك الفقرة
+// سوف تظهر في أسفل كل صفحة من هذا القسم، أسفل النص الرئيسي.
 HeaderFooter footer = new HeaderFooter(doc, HeaderFooterType.FooterPrimary);
 doc.FirstSection.HeadersFooters.Add(footer);
 

@@ -3,14 +3,14 @@ title: MailMergeSettings.MailAsAttachment
 linktitle: MailAsAttachment
 articleTitle: MailAsAttachment
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings MailAsAttachment propriété. Spécifie que les documents produits lors dune opération de fusion et publipostage doivent être envoyés par courrier électronique sous forme de pièce jointe plutôt que et non comme corps de lemail luimême. La valeur par défaut estFAUX  en C#.
+description: Découvrez comment la propriété MailAsAttachment dans MailMergeSettings améliore vos campagnes par e-mail en envoyant des documents fusionnés sous forme de pièces jointes pour un meilleur engagement.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.settings/mailmergesettings/mailasattachment/
 ---
 ## MailMergeSettings.MailAsAttachment property
 
-Spécifie que les documents produits lors d'une opération de fusion et publipostage doivent être envoyés par courrier électronique sous forme de pièce jointe plutôt que et non comme corps de l'e-mail lui-même. La valeur par défaut est`FAUX` .
+Spécifie que les documents produits lors d'une opération de publipostage doivent être envoyés par courriel en pièce jointe plutôt que dans le corps du courriel. La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool MailAsAttachment { get; set; }
@@ -18,7 +18,7 @@ public bool MailAsAttachment { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage lors de la connexion à une source de données externe.
+Montre comment exécuter un publipostage tout en se connectant à une source de données externe.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -38,7 +38,7 @@ Console.WriteLine($"UDL connection string:\n\t{odso.UdlConnectString}");
 Console.WriteLine($"Table:\n\t{odso.TableName}");
 Console.WriteLine($"Query:\n\t{doc.MailMergeSettings.Query}");
 
-// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois que nous avons fait cela et enregistré le document,
+// Nous pouvons réinitialiser ces paramètres en les effaçant. Une fois cette opération effectuée et le document enregistré,
 // Microsoft Word n'exécutera plus de publipostage lorsque nous l'utiliserons pour charger le document.
 settings.Clear();
 

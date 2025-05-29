@@ -3,7 +3,7 @@ title: FixedPageSaveOptions.MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words pour .NET
-description: FixedPageSaveOptions MetafileRenderingOptions propriété. Permet de spécifier les options de rendu du métafichier en C#.
+description: Découvrez la propriété MetafileRenderingOptions de FixedPageSaveOptions pour personnaliser et améliorer le rendu de votre métafichier pour des résultats optimaux.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/fixedpagesaveoptions/metafilerenderingoptions/
@@ -18,7 +18,7 @@ public MetafileRenderingOptions MetafileRenderingOptions { get; set; }
 
 ## Exemples
 
-Affiche l'ajout d'une solution de secours au rendu bitmap et la modification du type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
+Affiche un retour au rendu bitmap et un changement de type d'avertissements concernant les enregistrements de métafichiers non pris en charge.
 
 ```csharp
 public void HandleBinaryRasterWarnings()
@@ -27,16 +27,16 @@ public void HandleBinaryRasterWarnings()
 
     MetafileRenderingOptions metafileRenderingOptions = new MetafileRenderingOptions();
 
-    // Définissez la propriété "EmulateRasterOperations" sur "false" pour revenir au bitmap lorsque
-    // il rencontre un métafichier, qui nécessitera le rendu des opérations raster dans le PDF de sortie.
+    // Définissez la propriété « EmulateRasterOperations » sur « false » pour revenir au bitmap lorsque
+    // il rencontre un métafichier, qui nécessitera des opérations raster pour être rendu dans le PDF de sortie.
     metafileRenderingOptions.EmulateRasterOperations = false;
 
-    // Définissez la propriété "RenderingMode" sur "VectorWithFallback" pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
+    // Définissez la propriété « RenderingMode » sur « VectorWithFallback » pour essayer de restituer chaque métafichier à l'aide de graphiques vectoriels.
     metafileRenderingOptions.RenderingMode = MetafileRenderingMode.VectorWithFallback;
 
-    // Crée un objet "PdfSaveOptions" que l'on peut passer à la méthode "Save" du document
+    // Créez un objet « PdfSaveOptions » que nous pouvons transmettre à la méthode « Save » du document
     // pour modifier la façon dont cette méthode convertit le document en .PDF et applique la configuration
-    // dans notre objet MetafileRenderingOptions à l'opération de sauvegarde.
+    // dans notre objet MetafileRenderingOptions pour l'opération de sauvegarde.
     PdfSaveOptions saveOptions = new PdfSaveOptions();
     saveOptions.MetafileRenderingOptions = metafileRenderingOptions;
 

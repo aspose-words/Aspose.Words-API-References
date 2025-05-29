@@ -3,14 +3,14 @@ title: ControlChar.Tab
 linktitle: Tab
 articleTitle: Tab
 second_title: Aspose.Words för .NET
-description: ControlChar Tab fält. Tabtecken x0009 eller t i C#.
+description: Upptäck fältet ControlChar Tab, förstå tabulatortecknet x0009 för effektiv textformatering och förbättrad datahantering.
 type: docs
 weight: 270
 url: /sv/net/aspose.words/controlchar/tab/
 ---
 ## ControlChar.Tab field
 
-Tab-tecken: "\x0009" eller "\t".
+Tabbtecken: "\x0009" eller "\t".
 
 ```csharp
 public static readonly string Tab;
@@ -18,16 +18,16 @@ public static readonly string Tab;
 
 ## Exempel
 
-Visar hur man ställer in ett anpassat intervall för tabbstopppositioner.
+Visar hur man ställer in ett anpassat intervall för tabbstoppspositioner.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ställ in tabbstopp för att visas var 72:e punkt (1 tum).
+// Ställ in tabbstopp så att de visas var 72:e punkt (1 tum).
 builder.Document.DefaultTabStop = 72;
 
-// Varje tabbtecken fäster texten efter den till nästa tabbstoppposition.
+// Varje tabbtecken fäster texten efter det till nästa närmaste tabbstoppsposition.
 builder.Writeln("Hello" + ControlChar.Tab + "World!");
 builder.Writeln("Hello" + ControlChar.TabChar + "World!");
 ```

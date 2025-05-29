@@ -2,15 +2,15 @@
 title: StructuredDocumentTagRangeStart.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
-second_title: 用于 .NET 的 Aspose.Words
-description: StructuredDocumentTagRangeStart GetEnumerator 方法. 为该节点的子节点上的每个样式迭代提供支持 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 StructuredDocumentTagRangeStart GetEnumerator 方法，用于对子节点进行无缝迭代，增强文档结构和效率。
 type: docs
-weight: 220
+weight: 230
 url: /zh/net/aspose.words.markup/structureddocumenttagrangestart/getenumerator/
 ---
 ## StructuredDocumentTagRangeStart.GetEnumerator method
 
-为该节点的子节点上的每个样式迭代提供支持。
+为该节点的子节点提供对每个样式迭代的支持。
 
 ```csharp
 public IEnumerator<Node> GetEnumerator()

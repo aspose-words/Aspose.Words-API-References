@@ -3,14 +3,14 @@ title: FormFieldCollection.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words لـ .NET
-description: FormFieldCollection Remove طريقة. إزالة حقل نموذج بالاسم المحدد في C#.
+description: احذف حقول النموذج بالاسم بسهولة باستخدام طريقة إزالة FormFieldCollection. سهّل إدارة بياناتك مع هذه الميزة سهلة الاستخدام!
 type: docs
 weight: 50
 url: /ar/net/aspose.words.fields/formfieldcollection/remove/
 ---
 ## FormFieldCollection.Remove method
 
-إزالة حقل نموذج بالاسم المحدد.
+يزيل حقل النموذج بالاسم المحدد.
 
 ```csharp
 public void Remove(string formField)
@@ -18,7 +18,7 @@ public void Remove(string formField)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| formField | String | الاسم غير الحساس لحالة الأحرف لحقل النموذج المطلوب إزالته. |
+| formField | String | اسم حقل النموذج الذي لا يفرق بين الأحرف الكبيرة والصغيرة والذي سيتم إزالته. |
 
 ## ملاحظات
 
@@ -26,7 +26,7 @@ public void Remove(string formField)
 
 ## أمثلة
 
-يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في المستند ومعالجتها باستخدام تطبيق زائر المستند.
+يوضح كيفية إدراج أنواع مختلفة من حقول النموذج في مستند، ومعالجتها باستخدام تنفيذ زائر المستند.
 
 ```csharp
 public void Visitor()
@@ -34,7 +34,7 @@ public void Visitor()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // استخدم منشئ المستندات لإدراج مربع التحرير والسرد.
+    //استخدم منشئ المستندات لإدراج مربع المجموعة.
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
@@ -44,7 +44,7 @@ public void Visitor()
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
-    // استخدم منشئ المستندات لإدراج خانة الاختيار.
+    // استخدم منشئ المستندات لإدراج مربع الاختيار.
     builder.Write("Click this check box to tick/untick it: ");
     FormField checkBox = builder.InsertCheckBox("MyCheckBox", false, 50);
     checkBox.IsCheckBoxExactSize = true;
@@ -69,19 +69,19 @@ public void Visitor()
     Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
     Assert.AreEqual(50, textInput.MaxLength);
 
-    // تحتوي هذه المجموعة على جميع حقول النموذج لدينا.
+    //تحتوي هذه المجموعة على جميع حقول النماذج الخاصة بنا.
     FormFieldCollection formFields = doc.Range.FormFields;
     Assert.AreEqual(3, formFields.Count);
 
-    // تعرض الحقول حقول النموذج الخاصة بنا. يمكننا رؤية رموز الحقول الخاصة بهم عن طريق فتح هذا المستند
-    // في مايكروسوفت والضغط على Alt + F9. هذه الحقول ليس لها مفاتيح،
-    // وأعضاء كائن FormField يتحكمون بشكل كامل في محتوى حقول النموذج الخاصة بهم.
+    // تعرض الحقول حقول النموذج. يمكننا رؤية رموزها بفتح هذا المستند.
+    // في مايكروسوفت، اضغط على Alt + F9. هذه الحقول لا تحتوي على مفاتيح.
+    // ويتحكم أعضاء كائن FormField بشكل كامل في محتوى حقول النموذج الخاصة بهم.
     Assert.AreEqual(3, doc.Range.Fields.Count);
     Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
     Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
     Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
 
-    // السماح لكل حقل نموذج بقبول زائر المستند.
+    //السماح لكل حقل نموذج بقبول زائر المستند.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();
 
     using (IEnumerator<FormField> fieldEnumerator = formFields.GetEnumerator())
@@ -105,7 +105,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يتم الاتصال به عند مواجهة عقدة FormField في المستند.
+    /// يتم استدعاؤها عند مواجهة عقدة FormField في المستند.
     /// </summary>
     public override VisitorAction VisitFormField(FormField formField)
     {
@@ -131,12 +131,12 @@ public class FormFieldVisitor : DocumentVisitor
                 break;
         }
 
-        // اسمح للزائر بمواصلة زيارة العقد الأخرى.
+        // دع الزائر يواصل زيارة العقد الأخرى.
         return VisitorAction.Continue;
     }
 
     /// <summary>
-    /// يضيف سطرًا جديدًا منتهيًا بالحرف إلى الإخراج الحالي.
+    /// يضيف نصًا منتهيًا بحرف سطر جديد إلى الإخراج الحالي.
     /// </summary>
     private void AppendLine(string text)
     {
@@ -144,7 +144,7 @@ public class FormFieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// يحصل على النص العادي للمستند الذي قام الزائر بتجميعه.
+    /// يحصل على النص العادي للمستند الذي جمعه الزائر.
     /// </summary>
     public string GetText()
     {

@@ -3,7 +3,7 @@ title: IChartDataPoint.Bubble3D
 linktitle: Bubble3D
 articleTitle: Bubble3D
 second_title: Aspose.Words per .NET
-description: IChartDataPoint Bubble3D proprietà. Specifica se alle bolle nel grafico a bolle deve essere applicato un effetto 3D in C#.
+description: Scopri la proprietà Bubble3D di IChartDataPoint per migliorare i tuoi grafici a bolle con straordinari effetti 3D per una visualizzazione dei dati più coinvolgente.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.charts/ichartdatapoint/bubble3d/
@@ -31,7 +31,7 @@ Assert.AreEqual(1, chart.Series.Count);
 Assert.AreEqual("Y-Values", chart.Series[0].Name);
 Assert.True(chart.Series[0].Bubble3D);
 
-// Applica un'etichetta dati a ciascuna bolla che ne mostra il diametro.
+// Applica un'etichetta dati a ciascuna bolla che ne visualizza il diametro.
 for (int i = 0; i < 3; i++)
 {
     chart.Series[0].HasDataLabels = true;

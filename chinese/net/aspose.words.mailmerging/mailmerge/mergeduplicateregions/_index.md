@@ -2,15 +2,15 @@
 title: MailMerge.MergeDuplicateRegions
 linktitle: MergeDuplicateRegions
 articleTitle: MergeDuplicateRegions
-second_title: 用于 .NET 的 Aspose.Words
-description: MailMerge MergeDuplicateRegions 财产. 获取或设置一个值该值指示在针对数据源或仅第一个区域执行邮件合并时是否应合并具有数据源 名称的所有文档邮件合并区域 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 MergeDuplicateRegions 属性优化您的邮件合并流程。控制数据源区域的合并方式，实现高效的文档管理。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.mailmerging/mailmerge/mergeduplicateregions/
 ---
 ## MailMerge.MergeDuplicateRegions property
 
-获取或设置一个值，该值指示在针对数据源或仅第一个区域执行邮件合并时是否应合并具有数据源 名称的所有文档邮件合并区域。
+获取或设置一个值，该值指示在执行针对数据源的区域邮件合并时，是否应合并所有具有数据源名称的文档邮件合并区域 ，还是仅合并第一个。
 
 ```csharp
 public bool MergeDuplicateRegions { get; set; }
@@ -22,7 +22,7 @@ public bool MergeDuplicateRegions { get; set; }
 
 ## 例子
 
-演示如何使用重复的邮件合并区域。
+展示如何处理重复的邮件合并区域。
 
 ```csharp
 public void MergeDuplicateRegions(bool mergeDuplicateRegions)
@@ -30,10 +30,10 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
     Document doc = CreateSourceDocMergeDuplicateRegions();
     DataTable dataTable = CreateSourceTableMergeDuplicateRegions();
 
-    // 如果我们将“MergeDuplicateRegions”属性设置为“false”，则邮件合并将影响第一个区域，
-    // 而第二个的 MERGEFIELD 将保留在合并前状态。
-    // 为了像这样合并两个区域，
-    // 我们必须对同名的表执行两次邮件合并。
+    // 如果我们将“MergeDuplicateRegions”属性设置为“false”，邮件合并将影响第一个区域，
+    // 而第二个的 MERGEFIELD 将保持合并前的状态。
+    // 为了使两个区域合并，
+    // 我们必须在同名表上执行两次邮件合并。
     // 如果我们将“MergeDuplicateRegions”属性设置为“true”，则邮件合并将影响两个区域。
     doc.MailMerge.MergeDuplicateRegions = mergeDuplicateRegions;
 
@@ -42,7 +42,7 @@ public void MergeDuplicateRegions(bool mergeDuplicateRegions)
 }
 
 /// <summary>
-/// 返回包含两个重复邮件合并区域的文档（在“TableStart/End”标记中共享相同的名称）。
+/// 返回包含两个重复邮件合并区域（在“TableStart/End”标签中共享相同名称）的文档。
 /// </summary>
 private static Document CreateSourceDocMergeDuplicateRegions()
 {
@@ -62,7 +62,7 @@ private static Document CreateSourceDocMergeDuplicateRegions()
 }
 
 /// <summary>
-/// 创建一个一行两列的数据表。
+/// 创建一个具有一行和两列的数据表。
 /// </summary>
 private static DataTable CreateSourceTableMergeDuplicateRegions()
 {

@@ -3,14 +3,14 @@ title: CleanupOptions.UnusedLists
 linktitle: UnusedLists
 articleTitle: UnusedLists
 second_title: Aspose.Words для .NET
-description: CleanupOptions UnusedLists свойство. Указывает следует ли удалять из документа неиспользуемый список и определения списков. Значение по умолчаниюистинный  на С#.
+description: Оптимизируйте свои документы с помощью свойства UnusedLists в CleanupOptions. Легко удаляйте неиспользуемые списки и определения для более чистого и эффективного рабочего пространства.
 type: docs
 weight: 40
 url: /ru/net/aspose.words/cleanupoptions/unusedlists/
 ---
 ## CleanupOptions.UnusedLists property
 
-Указывает, следует ли удалять из документа неиспользуемый список и определения списков. Значение по умолчанию:`истинный` .
+Указывает, следует ли удалять из документа неиспользуемые списки и определения списков. Значение по умолчанию:`истинный` .
 
 ```csharp
 public bool UnusedLists { get; set; }
@@ -18,7 +18,7 @@ public bool UnusedLists { get; set; }
 
 ## Примеры
 
-Показывает, как удалить из документа все неиспользуемые пользовательские стили.
+Показывает, как удалить все неиспользуемые пользовательские стили из документа.
 
 ```csharp
 Document doc = new Document();
@@ -29,11 +29,11 @@ doc.Styles.Add(StyleType.Character, "MyParagraphStyle1");
 doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 
 // В сочетании со встроенными стилями документ теперь имеет восемь стилей.
-// Пользовательский стиль помечается как «использованный», пока в документе есть какой-либо текст
+// Пользовательский стиль помечается как «используемый», пока в документе есть какой-либо текст
 // отформатировано в этом стиле. Это означает, что 4 добавленных нами стиля в настоящее время не используются.
 Assert.AreEqual(8, doc.Styles.Count);
 
-// Применяем пользовательский стиль символов, а затем пользовательский стиль списка. При этом они будут помечены как «использованные».
+// Применить пользовательский стиль символов, а затем пользовательский стиль списка. Это пометит их как «используемые».
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Style = doc.Styles["MyParagraphStyle1"];
 builder.Writeln("Hello world!");
@@ -43,8 +43,8 @@ builder.ListFormat.List = list;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 
-// Теперь есть один неиспользуемый стиль символов и один неиспользуемый стиль списка.
-// Метод Cleanup(), настроенный с помощью объекта CleanupOptions, может нацеливаться на неиспользуемые стили и удалять их.
+// Теперь есть один неиспользуемый стиль символа и один неиспользуемый стиль списка.
+// Метод Cleanup(), настроенный с помощью объекта CleanupOptions, может определять неиспользуемые стили и удалять их.
 CleanupOptions cleanupOptions = new CleanupOptions
 {
     UnusedLists = true, UnusedStyles = true, UnusedBuiltinStyles = true
@@ -55,7 +55,7 @@ doc.Cleanup(cleanupOptions);
 Assert.AreEqual(4, doc.Styles.Count);
 
  // Удаление каждого узла, к которому применен пользовательский стиль, снова помечает его как «неиспользуемый».
-// Повторно запускаем метод очистки, чтобы удалить их.
+// Повторно запустите метод очистки, чтобы удалить их.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 

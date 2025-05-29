@@ -2,10 +2,10 @@
 title: FieldInfo Class
 linktitle: FieldInfo
 articleTitle: FieldInfo
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Fields.FieldInfo 班级. 实现 INFO 字段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Fields.FieldInfo 类，这是您在文档处理中高效实现 INFO 字段的首选解决方案。立即解锁强大功能！
 type: docs
-weight: 2080
+weight: 2490
 url: /zh/net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class
@@ -28,16 +28,16 @@ public class FieldInfo : Field
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示的字段结果的文本。 |
-| [End](../../aspose.words.fields/field/end/) { get; } | 获取表示字段结束的节点。 |
-| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式的类型化访问的对象。 |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | 获取表示显示字段结果的文本。 |
+| [End](../../aspose.words.fields/field/end/) { get; } | 获取代表字段结束的节点。 |
+| [Format](../../aspose.words.fields/field/format/) { get; } | 获得[`FieldFormat`](../fieldformat/)提供对字段格式进行类型化访问的对象。 |
 | [InfoType](../../aspose.words.fields/fieldinfo/infotype/) { get; set; } | 获取或设置要插入的文档属性的类型。 |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档进行的其他修改而不再正确（陈旧）。 |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | 获取或设置字段的当前结果是否由于对文档所做的其他修改而不再正确（陈旧）。 |
 | [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | 获取或设置字段是否被锁定（不应重新计算其结果）。 |
 | [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | 获取或设置字段的 LCID。 |
 | [NewValue](../../aspose.words.fields/fieldinfo/newvalue/) { get; set; } | 获取或设置更新属性的可选值。 |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结束之间的文本。 |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可`无效的`. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | 获取或设置字段分隔符和字段结尾之间的文本。 |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | 获取表示字段分隔符的节点。可以是`无效的`. |
 | [Start](../../aspose.words.fields/field/start/) { get; } | 获取表示字段开始的节点。 |
 | virtual [Type](../../aspose.words.fields/field/type/) { get; } | 获取 Microsoft Word 字段类型。 |
 
@@ -47,10 +47,10 @@ public class FieldInfo : Field
 | --- | --- |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 包括子字段的字段代码和字段结果。 |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | 返回字段开始和字段分隔符之间的文本（如果没有分隔符，则返回字段结束）。 |
-| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中删除该字段。返回字段后面的节点。如果字段的结尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被删除，则返回`无效的`. |
+| [Remove](../../aspose.words.fields/field/remove/)() | 从文档中移除该字段。返回紧接该字段之后的节点。如果该字段的末尾是其父节点的最后一个 child ，则返回其父段落。如果该字段已被移除，则返回`无效的`. |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | 执行字段取消链接。 |
-| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果该字段已被更新，则抛出异常。 |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果该字段已被更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)() | 执行字段更新。如果字段已在更新，则抛出异常。 |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | 执行字段更新。如果字段已在更新，则抛出异常。 |
 
 ## 评论
 
@@ -64,7 +64,7 @@ public class FieldInfo : Field
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 为“Comments”内置属性设置一个值，然后插入一个 INFO 字段以显示该属性的值。
+// 为“评论”内置属性设置一个值，然后插入一个 INFO 字段来显示该属性的值。
 doc.BuiltInDocumentProperties.Comments = "My comment";
 FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
@@ -75,7 +75,7 @@ Assert.AreEqual("My comment", field.Result);
 
 builder.Writeln();
 
-// 为字段的 NewValue 属性设置值并更新
+// 为字段的 NewValue 属性设置一个值并更新
 // 该字段还将用新值覆盖相应的内置属性。
 field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";

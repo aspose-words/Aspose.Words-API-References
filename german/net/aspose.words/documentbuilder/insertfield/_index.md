@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertField
 linktitle: InsertField
 articleTitle: InsertField
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertField methode. Fügt ein WordFeld in ein Dokument ein und aktualisiert optional das Feldergebnis in C#.
+description: Optimieren Sie Ihre Dokumente mit der InsertField-Methode von DocumentBuilder. Fügen Sie mühelos Word-Felder hinzu und aktualisieren Sie sie für dynamische Inhalte und verbesserte Funktionalität.
 type: docs
-weight: 320
+weight: 330
 url: /de/net/aspose.words/documentbuilder/insertfield/
 ---
 ## InsertField(*[FieldType](../../../aspose.words.fields/fieldtype/), bool*) {#insertfield}
@@ -18,7 +18,7 @@ public Field InsertField(FieldType fieldType, bool updateField)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| fieldType | FieldType | Der Typ des anzuhängenden Felds. |
+| fieldType | FieldType | Der Typ des anzuhängenden Feldes. |
 | updateField | Boolean | Gibt an, ob das Feld sofort aktualisiert werden soll. |
 
 ### Rückgabewert
@@ -27,18 +27,18 @@ A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld
 
 ## Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein. Aspose.Words kann Felder aller Typen aktualisieren, aber nicht alle. Weitere Details finden Sie im `InsertField` Überlast.
 
 ## Beispiele
 
-Zeigt, wie man mithilfe von FieldType ein Feld in ein Dokument einfügt.
+Zeigt, wie mit FieldType ein Feld in ein Dokument eingefügt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Zwei Felder einfügen und dabei ein Flag übergeben, das bestimmt, ob sie aktualisiert werden, wenn der Builder sie einfügt.
-// In manchen Fällen kann das Aktualisieren von Feldern rechenintensiv sein, und es kann eine gute Idee sein, die Aktualisierung zu verschieben.
+// Fügen Sie zwei Felder ein und übergeben Sie dabei ein Flag, das bestimmt, ob sie beim Einfügen durch den Builder aktualisiert werden sollen.
+// In einigen Fällen kann das Aktualisieren von Feldern rechenintensiv sein und es kann eine gute Idee sein, das Update zu verschieben.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 builder.Write("This document was written by ");
 builder.InsertField(FieldType.FieldAuthor, updateInsertedFieldsImmediately);
@@ -60,7 +60,7 @@ else
     Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
     Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
 
-    // Wir müssen diese Felder mithilfe der Aktualisierungsmethoden manuell aktualisieren.
+    // Wir müssen diese Felder manuell mit den Aktualisierungsmethoden aktualisieren.
     doc.Range.Fields[0].Update();
 
     Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
@@ -99,11 +99,11 @@ A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld
 
 ## Bemerkungen
 
-Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Einzelheiten finden Sie unter the `InsertField` Überlast.
+Diese Methode fügt ein Feld in ein Dokument ein und aktualisiert das Feldergebnis sofort. Aspose.Words kann Felder der meisten Typen aktualisieren, aber nicht alle. Weitere Details finden Sie im `InsertField` Überlast.
 
 ## Beispiele
 
-Zeigt, wie man mithilfe eines Feldcodes ein Feld in ein Dokument einfügt.
+Zeigt, wie Sie mithilfe eines Feldcodes ein Feld in ein Dokument einfügen.
 
 ```csharp
 Document doc = new Document();
@@ -114,11 +114,11 @@ Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 Assert.AreEqual(FieldType.FieldDate, field.Type);
 Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
 
-// Diese Überladung der InsertField-Methode aktualisiert automatisch eingefügte Felder.
-Assert.That(DateTime.Parse(field.Result), Is.EqualTo(DateTime.Today).Within(1).Days);
+// Diese Überladung der InsertField-Methode aktualisiert eingefügte Felder automatisch.
+Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
 ```
 
-Zeigt, wie man Felder einfügt und den Cursor des Document Builders darauf bewegt.
+Zeigt, wie Felder eingefügt und der Cursor des Dokumentgenerators dorthin bewegt wird.
 
 ```csharp
 Document doc = new Document();
@@ -133,10 +133,10 @@ builder.MoveToMergeField("MyMergeField1", true, false);
 Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
 Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
 
-// Wenn wir den Feldcode oder den Inhalt des Feldes mit dem Builder bearbeiten möchten,
+// Wenn wir den Feldcode oder den Inhalt des Felds mit dem Builder bearbeiten möchten,
 // sein Cursor müsste sich innerhalb eines Feldes befinden.
-// Um es in einem Feld zu platzieren, müssten wir die MoveTo-Methode des Document Builders aufrufen
-// und den Start- oder Trennknoten des Feldes als Argument übergeben.
+// Um es in einem Feld zu platzieren, müssen wir die MoveTo-Methode des Dokument-Generators aufrufen
+// und übergeben Sie den Start- oder Trennknoten des Feldes als Argument.
 builder.Write(" Text between our merge fields. ");
 
 doc.Save(ArtifactsDir + "DocumentBuilder.MergeFields.docx");
@@ -162,7 +162,7 @@ public Field InsertField(string fieldCode, string fieldValue)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | fieldCode | String | Der einzufügende Feldcode (ohne geschweifte Klammern). |
-| fieldValue | String | Der einzufügende Feldwert. Passieren`Null` für Felder, die keinen Wert haben. |
+| fieldValue | String | Der einzufügende Feldwert.`null` für Felder, die keinen Wert haben. |
 
 ### Rückgabewert
 
@@ -170,13 +170,13 @@ A[`Field`](../../../aspose.words.fields/field/) Objekt, das das eingefügte Feld
 
 ## Bemerkungen
 
-Felder in Microsoft Word-Dokumenten bestehen aus einem Feldcode und einem Feldergebnis. Der Feldcode ist wie eine Formel und das Feldergebnis ist wie der Wert, den die Formel erzeugt. Der Feldcode kann auch Feldswitches enthalten, die wie zusätzliche Anweisungen zum Ausführen einer bestimmten Aktion sind.
+Felder in Microsoft Word-Dokumenten bestehen aus einem Feldcode und einem Feldergebnis. Der Feldcode entspricht einer Formel, und das Feldergebnis entspricht dem von der Formel erzeugten Wert. Der Feldcode kann auch Feldschalter enthalten, die zusätzliche Anweisungen zum Ausführen einer bestimmten Aktion darstellen.
 
-Mit der Tastenkombination Alt+F9 können Sie in Ihrem Dokument in Microsoft Word zwischen der Anzeige von Feldcodes und Ergebnissen wechseln. Feldcodes werden zwischen geschweiften Klammern ( { } ) angezeigt.
+Sie können in Ihrem Dokument in Microsoft Word mit der Tastenkombination Alt+F9 zwischen der Anzeige von Feldfunktionen und Ergebnissen wechseln. Feldfunktionen werden in geschweiften Klammern ( { } ) angezeigt.
 
-Um ein Feld zu erstellen, müssen Sie einen Feldtyp, einen Feldcode und einen „Platzhalter“-Feldwert angeben. Wenn Sie sich über die Syntax eines bestimmten Feldcodes nicht sicher sind, erstellen Sie das Feld zuerst in Microsoft Word und wechseln Sie, um seinen Feldcode anzuzeigen .
+Um ein Feld zu erstellen, müssen Sie einen Feldtyp, einen Feldcode und einen „Platzhalter“-Feldwert angeben. Wenn Sie sich über die Syntax eines bestimmten Feldcodes nicht sicher sind, erstellen Sie das Feld zuerst in Microsoft Word und wechseln Sie, um seinen Feldcode anzuzeigen.
 
-Aspose.Words kann Feldergebnisse für die meisten Feldtypen berechnen, aber diese Methode aktualisiert das Feldergebnis nicht automatisch. Da das Feldergebnis nicht automatisch berechnet wird, wird von Ihnen erwartet, dass Sie einen Zeichenfolgenwert (oder sogar eine leere Zeichenfolge) übergeben, der in das Feldergebnis eingefügt wird. Dieser Wert verbleibt als Platzhalter im Feldergebnis, bis das Feld berechnet wird aktualisiert. Um das Feldergebnis zu aktualisieren, können Sie aufrufen[`Update`](../../../aspose.words.fields/field/update/)auf dem Feldobjekt return an Sie oder[`UpdateFields`](../../document/updatefields/) um Felder im gesamten Dokument zu aktualisieren.
+Aspose.Words kann Feldergebnisse für die meisten Feldtypen berechnen, diese Methode aktualisiert das Feldergebnis jedoch nicht automatisch. Da das Feldergebnis nicht automatisch berechnet wird, müssen Sie einen String-Wert (oder sogar einen leeren String) übergeben, der in das Feldergebnis eingefügt wird. Dieser Wert bleibt als Platzhalter im Feldergebnis erhalten, bis das Feld aktualisiert wird. Um das Feldergebnis zu aktualisieren, können Sie Folgendes aufrufen:[`Update`](../../../aspose.words.fields/field/update/) auf dem Feldobjekt returned an Sie oder[`UpdateFields`](../../document/updatefields/) um Felder im gesamten Dokument zu aktualisieren.
 
 ## Beispiele
 
@@ -198,23 +198,23 @@ builder.Writeln("Section 2, page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("Section 2, page 3.");
 
-// Den Document Builder in den primären Header des ersten Abschnitts verschieben,
-// was auf jeder Seite in diesem Abschnitt angezeigt wird.
+// Verschieben Sie den Dokumentgenerator in die primäre Kopfzeile des ersten Abschnitts.
+// die auf jeder Seite in diesem Abschnitt angezeigt wird.
 builder.MoveToSection(0);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 
-// Ein PAGE-Feld einfügen, das die Nummer der aktuellen Seite anzeigt.
+// Fügen Sie ein PAGE-Feld ein, das die Nummer der aktuellen Seite anzeigt.
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 
-// Konfigurieren Sie den Abschnitt so, dass die Seitenanzahl, die in den PAGE-Feldern angezeigt wird, bei 5 beginnt.
-// Konfigurieren Sie außerdem alle PAGE-Felder so, dass ihre Seitenzahlen in großen römischen Ziffern angezeigt werden.
+// Konfigurieren Sie den Abschnitt so, dass die in den PAGE-Feldern angezeigte Seitenanzahl bei 5 beginnt.
+// Konfigurieren Sie außerdem alle PAGE-Felder so, dass ihre Seitenzahlen mit römischen Großbuchstaben angezeigt werden.
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 pageSetup.RestartPageNumbering = true;
 pageSetup.PageStartingNumber = 5;
 pageSetup.PageNumberStyle = NumberStyle.UppercaseRoman;
 
-// Einen weiteren primären Header für den zweiten Abschnitt mit einem anderen PAGE-Feld erstellen.
+// Erstellen Sie eine weitere primäre Kopfzeile für den zweiten Abschnitt mit einem weiteren PAGE-Feld.
 builder.MoveToSection(1);
 builder.MoveToHeaderFooter(HeaderFooterType.HeaderPrimary);
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -222,7 +222,7 @@ builder.Write(" - ");
 builder.InsertField("PAGE", "");
 builder.Write(" - ");
 
-// Konfigurieren Sie den Abschnitt so, dass die Seitenzahl, die in den PAGE-Feldern angezeigt wird, bei 10 beginnt.
+// Konfigurieren Sie den Abschnitt so, dass die in den PAGE-Feldern angezeigte Seitenanzahl bei 10 beginnt.
 // Konfigurieren Sie außerdem alle PAGE-Felder so, dass ihre Seitenzahlen mit arabischen Zahlen angezeigt werden.
 pageSetup = doc.Sections[1].PageSetup;
 pageSetup.PageStartingNumber = 10;

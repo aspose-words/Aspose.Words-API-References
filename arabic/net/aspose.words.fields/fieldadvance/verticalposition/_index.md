@@ -3,14 +3,14 @@ title: FieldAdvance.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words لـ .NET
-description: FieldAdvance VerticalPosition ملكية. الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديًا من الحافة العلوية للصفحة في C#.
+description: اكتشف خاصية FieldAdvance VerticalPosition لتعديل موضع النص بسهولة على صفحتك، مما يعزز التحكم في التخطيط وسهولة القراءة.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.fields/fieldadvance/verticalposition/
 ---
 ## FieldAdvance.VerticalPosition property
 
-الحصول على أو تعيين عدد النقاط التي يجب من خلالها نقل النص الذي يلي الحقل عموديًا من الحافة العلوية للصفحة.
+يحصل على أو يعين عدد النقاط التي يجب أن يتحرك بها النص الذي يتبع الحقل عموديًا من الحافة العلوية للصفحة.
 
 ```csharp
 public string VerticalPosition { get; set; }
@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("This text is in its normal place.");
 
-// فيما يلي طريقتان لاستخدام حقل ADVANCE لضبط موضع النص الذي يتبعه.
-// يستمر تطبيق تأثيرات حقل ADVANCE حتى تنتهي الفقرة،
-// أو حقل ADVANCE آخر يقوم بتحديث قيم الإزاحة/الإحداثيات.
-// 1 - تحديد إزاحة الاتجاه:
+// فيما يلي طريقتان لاستخدام الحقل ADVANCE لتعديل موضع النص الذي يليه.
+// تستمر تأثيرات حقل ADVANCE في التطبيق حتى نهاية الفقرة،
+// أو يقوم حقل ADVANCE آخر بتحديث قيم الإزاحة/الإحداثيات.
+// 1 - تحديد الإزاحة الاتجاهية:
 FieldAdvance field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.RightOffset = "5";
 field.UpOffset = "5";
@@ -46,7 +46,7 @@ Assert.AreEqual(" ADVANCE  \\d 5 \\l 100", field.GetFieldCode());
 
 builder.Writeln("This text is moved down and to the left, overlapping the previous text.");
 
-// 2 - نقل النص إلى الموضع المحدد بالإحداثيات:
+// 2 - نقل النص إلى موضع محدد بواسطة الإحداثيات:
 field = (FieldAdvance)builder.InsertField(FieldType.FieldAdvance, true);
 field.HorizontalPosition = "-100";
 field.VerticalPosition = "200";

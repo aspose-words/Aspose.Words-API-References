@@ -2,15 +2,15 @@
 title: Cluster.GetWidth
 linktitle: GetWidth
 articleTitle: GetWidth
-second_title: 用于 .NET 的 Aspose.Words
-description: Cluster GetWidth 方法. 返回簇的宽度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Cluster GetWidth 方法轻松检索集群的宽度，增强您的数据分析和可视化能力。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.shaping/cluster/getwidth/
 ---
 ## Cluster.GetWidth method
 
-返回簇的宽度。
+返回集群的宽度。
 
 ```csharp
 public float GetWidth(int em, float fontSize)

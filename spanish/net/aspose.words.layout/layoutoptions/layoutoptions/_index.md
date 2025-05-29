@@ -3,7 +3,7 @@ title: LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words para .NET
-description: LayoutOptions constructor. Constructor predeterminado en C#.
+description: Descubre el constructor LayoutOptions para personalizar diseños. Desbloquea la configuración predeterminada para mejorar la flexibilidad de tu diseño y optimizar la experiencia del usuario.
 type: docs
 weight: 10
 url: /es/net/aspose.words.layout/layoutoptions/layoutoptions/

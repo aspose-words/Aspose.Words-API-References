@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words für .NET
-description: Story Tables eigendom. Ruft eine Sammlung von Tabellen ab die unmittelbar untergeordnete Elemente der Story sind in C#.
+description: Entdecken Sie Story Tables, eine kuratierte Sammlung von Tabellen, die direkt mit Ihrer Story verknüpft sind und so mühelos die Organisation und das Engagement verbessern.
 type: docs
 weight: 50
 url: /de/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Ruft eine Sammlung von Tabellen ab, die unmittelbar untergeordnete Elemente der Story sind.
+Ruft eine Sammlung von Tabellen ab, die unmittelbare untergeordnete Elemente der Story sind.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## Beispiele
 
-Zeigt, wie die ersten und letzten Zeilen aller Tabellen in einem Dokument entfernt werden.
+Zeigt, wie die erste und die letzte Zeile aller Tabellen in einem Dokument entfernt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

@@ -3,7 +3,7 @@ title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
 second_title: Aspose.Words für .NET
-description: FileFontSource Type eigendom. Gibt den Typ der Schriftartquelle zurück in C#.
+description: Entdecken Sie die FileFontSource-Type-Eigenschaft, um Schriftartquellentypen einfach zu identifizieren und Ihre Designprojekte mit präzisen Typografielösungen zu verbessern.
 type: docs
 weight: 40
 url: /de/net/aspose.words.fonts/filefontsource/type/
@@ -18,7 +18,7 @@ public override FontSourceType Type { get; }
 
 ## Beispiele
 
-Zeigt, wie eine Schriftartendatei im lokalen Dateisystem als Schriftartenquelle verwendet wird.
+Zeigt, wie eine Schriftartdatei im lokalen Dateisystem als Schriftartquelle verwendet wird.
 
 ```csharp
 FileFontSource fileFontSource = new FileFontSource(MyDir + "Alte DIN 1451 Mittelschrift.ttf", 0);

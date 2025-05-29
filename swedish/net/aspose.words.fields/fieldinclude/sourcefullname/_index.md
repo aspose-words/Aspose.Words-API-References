@@ -3,14 +3,14 @@ title: FieldInclude.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words för .NET
-description: FieldInclude SourceFullName fast egendom. Hämtar eller ställer in platsen för dokumentet i C#.
+description: Upptäck hur du använder egenskapen FieldInclude SourceFullName för att effektivt hantera dokumentplatser. Förbättra ditt arbetsflöde idag!
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldinclude/sourcefullname/
 ---
 ## FieldInclude.SourceFullName property
 
-Hämtar eller ställer in platsen för dokumentet.
+Hämtar eller anger dokumentets plats.
 
 ```csharp
 public string SourceFullName { get; set; }
@@ -18,14 +18,14 @@ public string SourceFullName { get; set; }
 
 ## Exempel
 
-Visar hur man skapar ett INKLUDERA-fält och ställer in dess egenskaper.
+Visar hur man skapar ett INCLUDE-fält och anger dess egenskaper.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Vi kan använda ett INCLUDE-fält för att importera en del av ett annat dokument i det lokala filsystemet.
-// Bokmärket från det andra dokumentet som vi refererar till med det här fältet innehåller denna importerade del.
+// Bokmärket från det andra dokumentet som vi refererar till med det här fältet innehåller den importerade delen.
 FieldInclude field = (FieldInclude)builder.InsertField(FieldType.FieldInclude, true);
 field.SourceFullName = MyDir + "Bookmarks.docx";
 field.BookmarkName = "MyBookmark1";

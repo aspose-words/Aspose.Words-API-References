@@ -2,15 +2,15 @@
 title: PageSetup.BottomMargin
 linktitle: BottomMargin
 articleTitle: BottomMargin
-second_title: 用于 .NET 的 Aspose.Words
-description: PageSetup BottomMargin 财产. 返回或设置页面底部边缘与正文底部边界之间的距离以磅为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 PageSetup BottomMargin 属性调整文档的布局，定义页面底边和正文之间的空间，以实现最佳呈现效果。
 type: docs
 weight: 80
 url: /zh/net/aspose.words/pagesetup/bottommargin/
 ---
 ## PageSetup.BottomMargin property
 
-返回或设置页面底部边缘与正文底部边界之间的距离（以磅为单位）。
+返回或设置页面底边和正文底边之间的距离（以磅为单位）。
 
 ```csharp
 public double BottomMargin { get; set; }

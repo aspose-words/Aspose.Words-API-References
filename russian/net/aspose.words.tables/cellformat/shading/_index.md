@@ -3,14 +3,14 @@ title: CellFormat.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words для .NET
-description: CellFormat Shading свойство. ВозвращаетShading объект который относится к форматированию затенения ячейки на С#.
+description: Откройте для себя свойство затенения CellFormat, чтобы улучшить визуальную привлекательность вашей электронной таблицы с помощью настраиваемых параметров затенения ячеек.
 type: docs
-weight: 90
+weight: 100
 url: /ru/net/aspose.words.tables/cellformat/shading/
 ---
 ## CellFormat.Shading property
 
-Возвращает[`Shading`](../../../aspose.words/shading/) объект, который относится к форматированию затенения ячейки.
+Возвращает[`Shading`](../../../aspose.words/shading/) объект, ссылающийся на форматирование затенения для ячейки.
 
 ```csharp
 public Shading Shading { get; }
@@ -36,13 +36,13 @@ builder.InsertCell();
 builder.Write("U.K.");
 builder.EndTable();
 
-// Используйте свойство «RowFormat» первой строки, чтобы изменить форматирование
+// Используйте свойство "RowFormat" первой строки для изменения форматирования
 // содержимого всех ячеек в этой строке.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Используйте свойство CellFormat первой ячейки последней строки, чтобы изменить форматирование содержимого этой ячейки.
+// Используйте свойство «CellFormat» первой ячейки в последней строке, чтобы изменить форматирование содержимого этой ячейки.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;
@@ -50,7 +50,7 @@ cellFormat.Shading.BackgroundPatternColor = Color.Orange;
 doc.Save(ArtifactsDir + "Table.RowCellFormat.docx");
 ```
 
-Показывает, как создать таблицу с настраиваемыми границами.
+Показывает, как создать таблицу с пользовательскими границами.
 
 ```csharp
 Document doc = new Document();
@@ -58,8 +58,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.StartTable();
 
-// Установка параметров форматирования таблицы для построителя документов
-// будет применять их к каждой строке и ячейке, которые мы добавляем вместе с ними.
+// Настройка параметров форматирования таблиц для конструктора документов
+// применит их к каждой строке и ячейке, которые мы добавим вместе с ним.
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 builder.CellFormat.ClearFormatting();
@@ -82,8 +82,8 @@ builder.InsertCell();
 builder.Write("Row 1, Col 2");
 builder.EndRow();
 
-// При изменении форматирования оно будет применено к текущей ячейке,
-// и любые новые ячейки, которые мы создадим впоследствии с помощью построителя.
+// Изменение форматирования применится к текущей ячейке,
+// и любые новые ячейки, которые мы создадим с помощью конструктора впоследствии.
 // Это не повлияет на ячейки, которые мы добавили ранее.
 builder.CellFormat.Shading.ClearFormatting();
 
@@ -95,7 +95,7 @@ builder.Write("Row 2, Col 2");
 
 builder.EndRow();
 
-// Увеличиваем высоту строки, чтобы она соответствовала вертикальному тексту.
+// Увеличиваем высоту строки, чтобы вместить вертикальный текст.
 builder.InsertCell();
 builder.RowFormat.Height = 150;
 builder.CellFormat.Orientation = TextOrientation.Upward;

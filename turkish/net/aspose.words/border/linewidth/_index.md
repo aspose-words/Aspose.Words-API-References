@@ -2,15 +2,15 @@
 title: Border.LineWidth
 linktitle: LineWidth
 articleTitle: LineWidth
-second_title: Aspose.Words for .NET
-description: Border LineWidth mülk. Kenarlık genişliğini nokta cinsinden alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Tasarımınızın hassasiyetini ve görsel çekiciliğini artırmak için Kenarlık Çizgi Genişliği özelliğini ayarlayarak kenarlık kalınlığını noktalar halinde özelleştirin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words/border/linewidth/
 ---
 ## Border.LineWidth property
 
-Kenarlık genişliğini nokta cinsinden alır veya ayarlar.
+Sınır genişliğini noktalar halinde alır veya ayarlar.
 
 ```csharp
 public double LineWidth { get; set; }
@@ -18,11 +18,11 @@ public double LineWidth { get; set; }
 
 ## Notlar
 
-Çizgi stili yokken çizgi genişliğini sıfırdan büyük ayarlarsanız çizgi stili is otomatik olarak tek satıra değiştirilir.
+Satır stili "hiçbiri" olduğunda satır genişliğini sıfırdan büyük ayarlarsanız, satır stili is otomatik olarak tek satıra dönüşür.
 
 ## Örnekler
 
-Kenarlıkla çevrelenmiş bir dizenin belgeye nasıl ekleneceğini gösterir.
+Bir belgeye kenarlıkla çevrili bir dizenin nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();

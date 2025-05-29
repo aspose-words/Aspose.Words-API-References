@@ -2,15 +2,15 @@
 title: FieldIncludeText.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET
-description: FieldIncludeText Encoding mülk. Başvurulan dosya içindeki verilere uygulanan kodlamayı alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Dosyalarınızdaki veri kodlamasını kolayca yönetmek için FieldIncludeText Encoding özelliğini keşfedin. Bu temel özellik ile veri işlemeyi geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldincludetext/encoding/
 ---
 ## FieldIncludeText.Encoding property
 
-Başvurulan dosya içindeki verilere uygulanan kodlamayı alır veya ayarlar.
+Başvurulan dosyadaki verilere uygulanan kodlamayı alır veya ayarlar.
 
 ```csharp
 public string Encoding { get; set; }
@@ -26,7 +26,7 @@ public void FieldIncludeText()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Aşağıda yerel dosya sistemindeki bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu verilmiştir.
+    // Aşağıda, yerel dosya sisteminde bir XML dosyasının içeriğini görüntülemek için INCLUDETEXT alanlarını kullanmanın iki yolu bulunmaktadır.
     // 1 - Bir XML belgesinde XSL dönüşümü gerçekleştirin:
     FieldIncludeText fieldIncludeText = CreateFieldIncludeText(builder, MyDir + "CD collection data.xml", false, "text/xml", "XML", "ISO-8859-1");
     fieldIncludeText.XslTransformation = MyDir + "CD collection XSL transformation.xsl";

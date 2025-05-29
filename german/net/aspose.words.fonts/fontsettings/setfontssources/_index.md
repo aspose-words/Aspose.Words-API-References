@@ -3,7 +3,7 @@ title: FontSettings.SetFontsSources
 linktitle: SetFontsSources
 articleTitle: SetFontsSources
 second_title: Aspose.Words für .NET
-description: FontSettings SetFontsSources methode. Legt die Quellen fest in denen Aspose.Words beim Rendern von Dokumenten oder beim Einbetten von Schriftarten nach TrueTypeSchriftarten sucht in C#.
+description: Entdecken Sie, wie die Methode SetFontsSources in Aspose.Words die Dokumentwiedergabe verbessert, indem sie TrueType-Schriftquellen für optimale Ergebnisse angibt.
 type: docs
 weight: 100
 url: /de/net/aspose.words.fonts/fontsettings/setfontssources/
@@ -24,11 +24,11 @@ public void SetFontsSources(FontSourceBase[] sources)
 
 Standardmäßig sucht Aspose.Words nach auf dem System installierten Schriftarten.
 
-Durch das Festlegen dieser Eigenschaft wird der Cache aller zuvor geladenen Schriftarten zurückgesetzt.
+Durch Festlegen dieser Eigenschaft wird der Cache aller zuvor geladenen Schriftarten zurückgesetzt.
 
 ## Beispiele
 
-Zeigt, wie Sie eine Schriftartenquelle zu unseren vorhandenen Schriftartenquellen hinzufügen.
+Zeigt, wie wir unseren vorhandenen Schriftartquellen eine Schriftartquelle hinzufügen.
 
 ```csharp
 Document doc = new Document();
@@ -47,19 +47,19 @@ Assert.AreEqual(1, originalFontSources.Length);
 
 Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// Der Standardschriftquelle fehlen zwei der Schriftarten, die wir in unserem Dokument verwenden.
-// Wenn wir dieses Dokument speichern, wendet Aspose.Words Fallback-Schriftarten auf den gesamten Text an, der mit nicht zugänglichen Schriftarten formatiert ist.
+// In der Standardschriftartquelle fehlen zwei der Schriftarten, die wir in unserem Dokument verwenden.
+// Wenn wir dieses Dokument speichern, wendet Aspose.Words Ersatzschriftarten auf den gesamten Text an, der mit nicht zugänglichen Schriftarten formatiert ist.
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
 
-// Erstelle eine Schriftartenquelle aus einem Ordner, der Schriftarten enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftarten enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
 
-// Anwenden eines neuen Arrays von Schriftartquellen, das die ursprünglichen Schriftartquellen sowie unsere benutzerdefinierten Schriftarten enthält.
+// Wenden Sie ein neues Array von Schriftartquellen an, das die ursprünglichen Schriftartquellen sowie unsere benutzerdefinierten Schriftarten enthält.
 FontSourceBase[] updatedFontSources = {originalFontSources[0], folderFontSource};
 FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 
-// Stellen Sie sicher, dass Aspose.Words Zugriff auf alle erforderlichen Schriftarten hat, bevor wir das Dokument in PDF rendern.
+// Überprüfen Sie, ob Aspose.Words Zugriff auf alle erforderlichen Schriftarten hat, bevor wir das Dokument in PDF rendern.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
@@ -68,7 +68,7 @@ Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName ==
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
-// Die ursprünglichen Schriftartquellen wiederherstellen.
+// Stellen Sie die ursprünglichen Schriftartquellen wieder her.
 FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 ```
 
@@ -83,7 +83,7 @@ FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
 ## SetFontsSources(*FontSourceBase[], Stream*) {#setfontssources_1}
 
-Legt die Quellen fest, in denen Aspose.Words nach TrueType-Schriftarten sucht, und lädt zusätzlich den zuvor gespeicherten Schriftarten-Suchcache.
+Legt die Quellen fest, in denen Aspose.Words nach TrueType-Schriftarten sucht und lädt zusätzlich zuvor gespeicherte Schriftartensuch-Cache.
 
 ```csharp
 public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
@@ -92,19 +92,19 @@ public void SetFontsSources(FontSourceBase[] sources, Stream cacheInputStream)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | sources | FontSourceBase[] | Ein Array von Quellen, die TrueType-Schriftarten enthalten. |
-| cacheInputStream | Stream | Eingabestream mit gespeichertem Cache für die Schriftartensuche. |
+| cacheInputStream | Stream | Eingabestream mit gespeichertem Schriftartensuchcache. |
 
 ## Bemerkungen
 
-Das Laden eines zuvor gespeicherten Schriftarten-Suchcaches beschleunigt den Initialisierungsprozess des Schriftarten-Caches. Dies ist besonders nützlich, wenn der Zugriff auf Schriftartquellen kompliziert ist (z. B. wenn Schriftarten über das Netzwerk geladen werden).
+Das Laden eines zuvor gespeicherten Font-Suchcaches beschleunigt die Initialisierung des Font-Caches. Dies ist besonders nützlich, wenn der Zugriff auf Fontquellen kompliziert ist (z. B. wenn Fonts über das Netzwerk geladen werden).
 
-Beim Speichern und Laden des Schriftarten-Suchcaches werden Schriftarten in den bereitgestellten Quellen über den Cache-Schlüssel identifiziert. Für die Schriftarten im[`SystemFontSource`](../../systemfontsource/) Und[`FolderFontSource`](../../folderfontsource/) Der Cache-Schlüssel ist der Pfad zur Schriftartendatei. Für[`MemoryFontSource`](../../memoryfontsource/) Und[`StreamFontSource`](../../streamfontsource/) Der Cache-Schlüssel ist definiert im[`CacheKey`](../../memoryfontsource/cachekey/) Und[`CacheKey`](../../streamfontsource/cachekey/) Properties bzw. Für die[`FileFontSource`](../../filefontsource/) Cache-Schlüssel ist entweder[`CacheKey`](../../filefontsource/cachekey/) -Eigenschaft oder einen Dateipfad, wenn die[`CacheKey`](../../filefontsource/cachekey/) Ist`Null`.
+Beim Speichern und Laden des Font-Such-Cache werden die Fonts in den bereitgestellten Quellen über den Cache-Schlüssel identifiziert. Für die Fonts im[`SystemFontSource`](../../systemfontsource/) Und[`FolderFontSource`](../../folderfontsource/) Cache-Schlüssel ist der Pfad zur Schriftartdatei. Für[`MemoryFontSource`](../../memoryfontsource/) Und[`StreamFontSource`](../../streamfontsource/)Cache-Schlüssel ist definiert in der[`CacheKey`](../../memoryfontsource/cachekey/) Und[`CacheKey`](../../streamfontsource/cachekey/) properties bzw. Für die[`FileFontSource`](../../filefontsource/) Cache-Schlüssel ist entweder[`CacheKey`](../../filefontsource/cachekey/) -Eigenschaft oder ein Dateipfad, wenn die[`CacheKey`](../../filefontsource/cachekey/) Ist`null`.
 
-Es wird dringend empfohlen, beim Laden des Caches dieselben Schriftartenquellen bereitzustellen wie zum Zeitpunkt des Speicherns des Caches. Alle Änderungen an den Schriftartenquellen (z. B. das Hinzufügen neuer Schriftarten, das Verschieben von Schriftartendateien oder das Ändern des Cache-Schlüssels) können dazu führen, dass die Schriftart ungenau ist Auflösung durch Aspose.Words.
+Es wird dringend empfohlen, beim Laden des Caches dieselben Schriftartquellen anzugeben wie zum Zeitpunkt der Speicherung des Caches. Jegliche Änderungen an den Schriftartquellen (z. B. Hinzufügen neuer Schriftarten, Verschieben von Schriftartdateien oder Ändern des Cache-Schlüssels) können zu einer ungenauen Schriftartauflösung durch Aspose.Words führen.
 
 ## Beispiele
 
-Zeigt, wie der Initialisierungsprozess für den Schriftcache beschleunigt werden kann.
+Zeigt, wie der Initialisierungsprozess des Schriftartcaches beschleunigt werden kann.
 
 ```csharp
 public void LoadFontSearchCache()
@@ -125,7 +125,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }
@@ -134,8 +134,8 @@ public void LoadFontSearchCache()
 }
 
 /// <summary>
-/// Laden Sie die Schriftartdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
-/// für die gesamte Lebensdauer des „FontSettings“-Objekts.
+/// Laden Sie die Schriftdaten nur bei Bedarf, anstatt sie im Speicher zu speichern
+/// für die gesamte Lebensdauer des Objekts „FontSettings“.
 /// </summary>
 private class SearchCacheStream : StreamFontSource
 {

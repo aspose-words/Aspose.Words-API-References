@@ -2,17 +2,17 @@
 title: NodeCollection Class
 linktitle: NodeCollection
 articleTitle: NodeCollection
-second_title: Aspose.Words for .NET
-description: Aspose.Words.NodeCollection sınıf. Belirli bir türdeki düğümlerin koleksiyonunu temsil eder C#'da.
+second_title: .NET için Aspose.Words
+description: Belge işlemede çeşitli düğüm türlerini verimli bir şekilde yönetmek için başvuracağınız çözüm olan Aspose.Words.NodeCollection sınıfını keşfedin. İş akışınızı bugün geliştirin!
 type: docs
-weight: 4200
+weight: 4890
 url: /tr/net/aspose.words/nodecollection/
 ---
 ## NodeCollection class
 
-Belirli bir türdeki düğümlerin koleksiyonunu temsil eder.
+Belirli bir türdeki düğümlerin bir koleksiyonunu temsil eder.
 
-Daha fazlasını öğrenmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) dokümantasyon makalesi.
+Daha fazla bilgi edinmek için şu adresi ziyaret edin:[Aspose.Words Belge Nesne Modeli (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/) belgeleme makalesi.
 
 ```csharp
 public class NodeCollection : IEnumerable<Node>
@@ -23,37 +23,37 @@ public class NodeCollection : IEnumerable<Node>
 | İsim | Tanım |
 | --- | --- |
 | [Count](../../aspose.words/nodecollection/count/) { get; } | Koleksiyondaki düğüm sayısını alır. |
-| [Item](../../aspose.words/nodecollection/item/) { get; } | Verilen dizindeki bir düğümü alır. |
+| [Item](../../aspose.words/nodecollection/item/) { get; } | Belirtilen dizindeki bir düğümü alır. |
 
 ## yöntemler
 
 | İsim | Tanım |
 | --- | --- |
 | [Add](../../aspose.words/nodecollection/add/)(*[Node](../node/)*) | Koleksiyonun sonuna bir düğüm ekler. |
-| [Clear](../../aspose.words/nodecollection/clear/)() | Tüm düğümleri bu koleksiyondan ve belgeden kaldırır. |
+| [Clear](../../aspose.words/nodecollection/clear/)() | Bu koleksiyondan ve belgeden tüm düğümleri kaldırır. |
 | [Contains](../../aspose.words/nodecollection/contains/)(*[Node](../node/)*) | Bir düğümün koleksiyonda olup olmadığını belirler. |
-| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğümlerin koleksiyonu üzerinde basit bir "foreach" stili yinelemesi sağlar. |
+| [GetEnumerator](../../aspose.words/nodecollection/getenumerator/)() | Düğüm koleksiyonu üzerinde basit bir "foreach" tarzı yineleme sağlar. |
 | [IndexOf](../../aspose.words/nodecollection/indexof/)(*[Node](../node/)*) | Belirtilen düğümün sıfır tabanlı dizinini döndürür. |
-| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Belirtilen dizindeki koleksiyona bir düğüm ekler. |
+| [Insert](../../aspose.words/nodecollection/insert/)(*int, [Node](../node/)*) | Belirtilen dizinde koleksiyona bir düğüm ekler. |
 | [Remove](../../aspose.words/nodecollection/remove/)(*[Node](../node/)*) | Düğümü koleksiyondan ve belgeden kaldırır. |
 | [RemoveAt](../../aspose.words/nodecollection/removeat/)(*int*) | Belirtilen dizindeki düğümü koleksiyondan ve belgeden kaldırır. |
 | [ToArray](../../aspose.words/nodecollection/toarray/)() | Koleksiyondaki tüm düğümleri yeni bir düğüm dizisine kopyalar. |
 
 ## Notlar
 
-`NodeCollection` içerdiği düğümlerin sahibi değildir; yalnızca belirtilen türden bir düğüm seçimidir, ancak düğümler, ağaçta ilgili üst düğümleri altında depolanır.
+`NodeCollection` içerdiği düğümlerin sahibi değildir, bunun yerine belirtilen türdeki nodes düğümlerinin bir seçimidir, ancak düğümler ağaçta kendi üst düğümlerinin altında saklanır.
 
-`NodeCollection`indekslenmiş erişimi, yinelemeyi destekler ve ekleme ve kaldırma yöntemleri sağlar.
+`NodeCollection` dizinli erişimi, yinelemeyi destekler ve ekleme ve kaldırma yöntemleri sağlar.
 
-`NodeCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün alt öğelerinde yapılan değişiklikler, koleksiyon tarafından döndürülen düğümlere anında yansıtılır.`NodeCollection` özellikleri ve yöntemleri.
+The`NodeCollection` koleksiyon "canlıdır", yani oluşturulduğu object düğümünün çocuklarında yapılan değişiklikler, tarafından döndürülen düğümlere hemen yansıtılır`NodeCollection` özellikleri ve yöntemleri.
 
-`NodeCollection` tarafından iade edilir[`GetChildNodes`](../compositenode/getchildnodes/) ve aynı zamanda aşağıdaki gibi yazılan düğüm koleksiyonları için temel sınıf görevi görür:[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) vesaire.
+`NodeCollection` tarafından iade edilir[`GetChildNodes`](../compositenode/getchildnodes/) ve ayrıca şu türdeki düğüm koleksiyonları için bir temel sınıf görevi görür:[`SectionCollection`](../sectioncollection/) , [`ParagraphCollection`](../paragraphcollection/) vesaire.
 
-`NodeCollection` "düz" olabilir ve oluşturulduğu düğümün yalnızca doğrudan alt öğelerini içerebilir veya "derin" olabilir ve tüm alt alt öğeleri içerebilir.
+`NodeCollection`"düz" olabilir ve yalnızca oluşturulduğu düğümün doğrudan alt öğelerini içerebilir veya "derin" olabilir ve tüm alt öğeleri içerebilir.
 
 ## Örnekler
 
-Tüm metin kutusu şekillerinin görüntü şekilleriyle nasıl değiştirileceğini gösterir.
+Tüm metin kutusu şekillerinin resim şekilleriyle nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");

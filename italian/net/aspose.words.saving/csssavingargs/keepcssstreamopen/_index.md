@@ -3,14 +3,14 @@ title: CssSavingArgs.KeepCssStreamOpen
 linktitle: KeepCssStreamOpen
 articleTitle: KeepCssStreamOpen
 second_title: Aspose.Words per .NET
-description: CssSavingArgs KeepCssStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato uninformazione CSS in C#.
+description: Scopri la proprietà KeepCssStreamOpen in CssSavingArgs. Controlla il comportamento del flusso di Aspose.Words per un salvataggio CSS efficiente e prestazioni migliorate.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/csssavingargs/keepcssstreamopen/
 ---
 ## CssSavingArgs.KeepCssStreamOpen property
 
-Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato un'informazione CSS.
+Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato le informazioni CSS.
 
 ```csharp
 public bool KeepCssStreamOpen { get; set; }
@@ -18,7 +18,7 @@ public bool KeepCssStreamOpen { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`CssStream`](../cssstream/) proprietà dopo aver scritto un'informazione CSS al suo interno. Specifica`VERO` per mantenere aperto il flusso.
+Il valore predefinito è`falso` e Aspose.Words chiuderà il flusso fornito nel[`CssStream`](../cssstream/) proprietà dopo aver scritto un'informazione CSS in essa. Specificare`VERO` per mantenere aperto il flusso.
 
 ## Esempi
 
@@ -29,19 +29,19 @@ public void ExternalCssFilenames()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Crea un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
+    // Creiamo un oggetto "HtmlFixedSaveOptions", che possiamo passare al metodo "Save" del documento
     // per modificare il modo in cui convertiamo il documento in HTML.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" su
+    // Imposta la proprietà "CssStylesheetType" su "CssStyleSheetType.External" per
     // accompagna un documento HTML salvato con un file di foglio di stile CSS esterno.
     options.CssStyleSheetType = CssStyleSheetType.External;
 
     // Di seguito sono riportati due modi per specificare directory e nomi di file per i fogli di stile CSS di output.
-    // 1 - Utilizza la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
+    // 1 - Utilizzare la proprietà "CssStyleSheetFileName" per assegnare un nome file al nostro foglio di stile:
     options.CssStyleSheetFileName = ArtifactsDir + "SavingCallback.ExternalCssFilenames.css";
 
-    // 2 - Usa un callback personalizzato per nominare il nostro foglio di stile:
+    // 2 - Utilizza un callback personalizzato per nominare il nostro foglio di stile:
     options.CssSavingCallback =
         new CustomCssSavingCallback(ArtifactsDir + "SavingCallback.ExternalCssFilenames.css", true, false);
 
@@ -62,7 +62,7 @@ private class CustomCssSavingCallback : ICssSavingCallback
 
     public void CssSaving(CssSavingArgs args)
     {
-        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Document".
+        // Possiamo accedere all'intero documento sorgente tramite la proprietà "Documento".
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);

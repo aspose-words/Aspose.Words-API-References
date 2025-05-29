@@ -3,7 +3,7 @@ title: CommentRangeEnd.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: CommentRangeEnd NodeType propriété. RetoursCommentRangeEnd  en C#.
+description: Explorez la propriété NodeType CommentRangeEnd pour récupérer efficacement le CommentRangeEnd, améliorant ainsi votre expérience de codage et de développement.
 type: docs
 weight: 30
 url: /fr/net/aspose.words/commentrangeend/nodetype/
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exemples
 
-Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
+Montre comment parcourir l'arbre des nœuds enfants d'un nœud composite.
 
 ```csharp
 public void RecurseChildren()
@@ -28,13 +28,13 @@ public void RecurseChildren()
     // Tout nœud pouvant contenir des nœuds enfants, comme le document lui-même, est composite.
     Assert.True(doc.IsComposite);
 
-    // Invoque la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
+    // Invoquez la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
-/// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
+/// avec un retrait dépendant de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -42,7 +42,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Effectuer une récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, afficher son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

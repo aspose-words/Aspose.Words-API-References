@@ -3,7 +3,7 @@ title: FieldDate
 linktitle: FieldDate
 articleTitle: FieldDate
 second_title: Aspose.Words para .NET
-description: FieldDate constructor. Constructor predeterminado en C#.
+description: Descubra el constructor FieldDate: su solución ideal para gestionar fechas de forma eficiente en programación. ¡Simplifique su código con nuestro intuitivo constructor predeterminado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddate/fielddate/

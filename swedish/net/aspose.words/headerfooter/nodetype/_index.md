@@ -3,14 +3,14 @@ title: HeaderFooter.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words för .NET
-description: HeaderFooter NodeType fast egendom. ReturnerarHeaderFooter  i C#.
+description: Upptäck HeaderFooter NodeType-egenskapen som effektivt hämtar sidhuvud- och sidfotsdetaljer, vilket förbättrar din innehållsstruktur och användarupplevelse.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/headerfooter/nodetype/
 ---
 ## HeaderFooter.NodeType property
 
-ReturnerarHeaderFooter .
+ReturerHeaderFooter .
 
 ```csharp
 public override NodeType NodeType { get; }
@@ -18,7 +18,7 @@ public override NodeType NodeType { get; }
 
 ## Exempel
 
-Visar hur man itererar genom barnen i en sammansatt nod.
+Visar hur man itererar igenom barnen till en sammansatt nod.
 
 ```csharp
 Document doc = new Document();
@@ -32,8 +32,8 @@ builder.Write("Primary footer");
 
 Section section = doc.FirstSection;
 
-// En sektion är en sammansatt nod och kan innehålla underordnade noder,
-// men bara om de underordnade noderna är av nodtypen "Body" eller "HeaderFooter".
+// En sektion är en sammansatt nod och kan innehålla undernoder,
+// men bara om dessa undernoder är av nodtypen "Body" eller "HeaderFooter".
 foreach (Node node in section)
 {
     switch (node.NodeType)

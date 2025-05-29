@@ -3,9 +3,9 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words pour .NET
-description: DocumentBuilder Writeln méthode. Insère une chaîne et un saut de paragraphe dans le document en C#.
+description: Améliorez vos documents sans effort avec la méthode Writeln de DocumentBuilder : insérez du texte et des sauts de paragraphe de manière transparente pour une meilleure lisibilité.
 type: docs
-weight: 660
+weight: 700
 url: /fr/net/aspose.words/documentbuilder/writeln/
 ---
 ## Writeln(*string*) {#writeln_1}
@@ -22,11 +22,11 @@ public void Writeln(string text)
 
 ## Remarques
 
-Formatage actuel de la police et du paragraphe spécifié par le[`Font`](../font/) et[`ParagraphFormat`](../paragraphformat/) les propriétés sont utilisées.
+Police actuelle et formatage de paragraphe spécifiés par le[`Font`](../font/) et[`ParagraphFormat`](../paragraphformat/) les propriétés sont utilisées.
 
 ## Exemples
 
-Montre comment créer un tableau 2x2 formaté.
+Montre comment créer un tableau formaté 2x2.
 
 ```csharp
 Document doc = new Document();
@@ -56,7 +56,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Les lignes et cellules précédemment ajoutées ne sont pas affectées rétroactivement par les modifications apportées au formatage du générateur.
+// Les lignes et cellules ajoutées précédemment ne sont pas affectées rétroactivement par les modifications apportées à la mise en forme du générateur.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
@@ -95,7 +95,7 @@ Montre comment créer des en-têtes et des pieds de page dans un document à l'a
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Spécifie que nous voulons des en-têtes et pieds de page différents pour les premières pages, paires et impaires.
+// Spécifiez que nous voulons des en-têtes et des pieds de page différents pour les premières pages, les pages paires et les pages impaires.
 builder.PageSetup.DifferentFirstPageHeaderFooter = true;
 builder.PageSetup.OddAndEvenPagesHeaderFooter = true;
 

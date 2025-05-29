@@ -2,15 +2,15 @@
 title: Shape.HasImage
 linktitle: HasImage
 articleTitle: HasImage
-second_title: Aspose.Words for .NET
-description: Shape HasImage mülk. İadelerdoğru şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa C#'da.
+second_title: .NET için Aspose.Words
+description: HasImage özelliği ile bir şeklin resim verisi içerip içermediğini veya bir resme bağlantı verip vermediğini keşfedin. Tasarımlarınızı zahmetsizce geliştirin!
 type: docs
-weight: 80
+weight: 90
 url: /tr/net/aspose.words.drawing/shape/hasimage/
 ---
 ## Shape.HasImage property
 
-İadeler`doğru` şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
+Geri Döndürür`doğru` eğer şeklin görüntü baytları varsa veya bir görüntüye bağlantı veriyorsa.
 
 ```csharp
 public bool HasImage { get; }
@@ -18,7 +18,7 @@ public bool HasImage { get; }
 
 ## Örnekler
 
-Bir belgedeki resim içeren tüm şekillerin nasıl silineceğini gösterir.
+Bir belgeden resimli tüm şekillerin nasıl silineceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
@@ -33,13 +33,13 @@ foreach (Shape shape in shapes.OfType<Shape>())
 Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
 ```
 
-Bir belgeden görüntülerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
+Bir belgeden resimlerin nasıl çıkarılacağını ve bunların yerel dosya sistemine ayrı dosyalar olarak nasıl kaydedileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-// Belgedeki şekillerin koleksiyonunu alın,
-// ve resim içeren her şeklin resim verilerini dosya olarak yerel dosya sistemine kaydedin.
+// Şekil koleksiyonunu belgeden al,
+// ve her şeklin görüntü verisini, görüntü içeren bir dosya olarak yerel dosya sistemine kaydeder.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
 Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
@@ -50,7 +50,7 @@ foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage)
     {
          // Şekillerin görüntü verileri birçok olası görüntü formatındaki görüntüleri içerebilir.
-        // Her görsel için formatına göre otomatik olarak bir dosya uzantısı belirleyebiliriz.
+        // Her bir resim için, formatına bağlı olarak otomatik olarak bir dosya uzantısı belirleyebiliriz.
         string imageFileName =
             $"File.ExtractImages.{imageIndex}{FileFormatUtil.ImageTypeToExtension(shape.ImageData.ImageType)}";
         shape.ImageData.Save(ArtifactsDir + imageFileName);

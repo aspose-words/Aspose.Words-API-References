@@ -3,14 +3,14 @@ title: PageBorderAppliesTo Enum
 linktitle: PageBorderAppliesTo
 articleTitle: PageBorderAppliesTo
 second_title: Aspose.Words för .NET
-description: Aspose.Words.PageBorderAppliesTo uppräkning. Anger vilka sidor som sidkanten skrivs ut på i C#.
+description: Upptäck enumerationen Aspose.Words.PageBorderAppliesTo för att styra utskrift av sidkanter över specifika sidor för förbättrad dokumentformatering.
 type: docs
-weight: 4340
+weight: 5070
 url: /sv/net/aspose.words/pageborderappliesto/
 ---
 ## PageBorderAppliesTo enumeration
 
-Anger vilka sidor som sidkanten skrivs ut på.
+Anger vilka sidor sidkantlinjen skrivs ut på.
 
 ```csharp
 public enum PageBorderAppliesTo
@@ -20,13 +20,13 @@ public enum PageBorderAppliesTo
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| AllPages | `0` | Sidkanten visas på alla sidor i avsnittet. |
-| FirstPage | `1` | Sidkanten visas endast på första sidan i avsnittet. |
-| OtherPages | `2` | Sidkanten visas på alla sidor utom den första sidan i avsnittet. |
+| AllPages | `0` | Sidkantlinjen visas på alla sidor i avsnittet. |
+| FirstPage | `1` | Sidkantlinjen visas endast på avsnittets första sida. |
+| OtherPages | `2` | Sidkantlinjen visas på alla sidor utom den första sidan i avsnittet. |
 
 ## Exempel
 
-Visar hur man skapar en bred blå bandkant längst upp på första sidan.
+Visar hur man skapar en bred blå kantlinje högst upp på första sidan.
 
 ```csharp
 Document doc = new Document();

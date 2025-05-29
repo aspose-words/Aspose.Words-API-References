@@ -2,10 +2,10 @@
 title: DigitalSignatureType Enum
 linktitle: DigitalSignatureType
 articleTitle: DigitalSignatureType
-second_title: Aspose.Words for .NET
-description: Aspose.Words.DigitalSignatures.DigitalSignatureType Sıralama. Dijital imzanın türünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Çok yönlü dijital imza seçenekleriyle belge güvenliğinizi artırmak için Aspose.Words.DigitalSignatures.DigitalSignatureType enum'unu keşfedin.
 type: docs
-weight: 400
+weight: 600
 url: /tr/net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -26,19 +26,20 @@ public enum DigitalSignatureType
 
 ## Örnekler
 
-X.509 sertifikalarına sahip belgelerin nasıl imzalanacağını gösterir.
+X.509 sertifikalarıyla belgelerin nasıl imzalanacağını gösterir.
 
 ```csharp
 // Bir belgenin imzalanmadığını doğrulayın.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir SertifikaHolder nesnesi oluşturun.
+// Belgeyi imzalamak için kullanacağımız PKCS12 dosyasından bir CertificateHolder nesnesi oluşturalım.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
 // Bir belgenin imzalı bir kopyasını yerel dosya sistemine kaydetmenin iki yolu vardır:
-// 1 - Bir belgeyi yerel sistem dosya adına göre atayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen konuma kaydedin.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// 1 - Bir belgeyi yerel sistem dosya adıyla tanımlayın ve imzalı bir kopyasını başka bir dosya adıyla belirtilen bir konuma kaydedin.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 

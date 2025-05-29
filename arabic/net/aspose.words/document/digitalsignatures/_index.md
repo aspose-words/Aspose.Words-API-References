@@ -3,14 +3,14 @@ title: Document.DigitalSignatures
 linktitle: DigitalSignatures
 articleTitle: DigitalSignatures
 second_title: Aspose.Words لـ .NET
-description: Document DigitalSignatures ملكية. الحصول على مجموعة التوقيعات الرقمية لهذه الوثيقة ونتائج التحقق من صحتها في C#.
+description: اكتشف خاصية DigitalSignatures للوصول إلى التوقيعات الرقمية للمستندات والتحقق منها بسهولة. اضمن مصداقيتها وأمانها بسهولة.
 type: docs
-weight: 100
+weight: 110
 url: /ar/net/aspose.words/document/digitalsignatures/
 ---
 ## Document.DigitalSignatures property
 
-الحصول على مجموعة التوقيعات الرقمية لهذه الوثيقة ونتائج التحقق من صحتها.
+يحصل على مجموعة التوقيعات الرقمية لهذه الوثيقة ونتائج التحقق منها.
 
 ```csharp
 public DigitalSignatureCollection DigitalSignatures { get; }
@@ -18,13 +18,13 @@ public DigitalSignatureCollection DigitalSignatures { get; }
 
 ## ملاحظات
 
-تحتوي هذه المجموعة على التوقيعات الرقمية التي تم تحميلها من المستند الأصلي. لن يتم حفظ هذه التوقيعات الرقمية عندما تقوم بحفظ هذا[`Document`](../) object في ملف أو دفق لأن الحفظ أو التحويل سيؤدي إلى إنتاج مستند مختلف عن المستند الأصلي ولن تعد التوقيعات الرقمية الأصلية صالحة.
+تحتوي هذه المجموعة على توقيعات رقمية تم تحميلها من المستند الأصلي. لن يتم حفظ هذه التوقيعات الرقمية عند حفظ هذا[`Document`](../) object في ملف أو مجرى لأن الحفظ أو التحويل سيؤدي إلى إنشاء مستند مختلف عن المستند الأصلي ولن تكون التوقيعات الرقمية الأصلية صالحة بعد الآن.
 
-هذه المجموعة ليست أبدا`باطل`. إذا لم يتم توقيع المستند، فسوف يحتوي على صفر عناصر.
+هذه المجموعة ليست أبدًا`باطل`إذا لم يتم توقيع المستند، فسوف يحتوي على صفر من العناصر.
 
 ## أمثلة
 
-يوضح كيفية التحقق من صحة وعرض المعلومات حول كل توقيع في المستند.
+يوضح كيفية التحقق من صحة المعلومات وعرضها حول كل توقيع في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");
@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature signature in doc.DigitalSignatures)
 {
     Console.WriteLine($"{(signature.IsValid ? "Valid" : "Invalid")} signature: ");
-    Console.WriteLine($"\tReason:\t{signature.Comments}"); 
+    Console.WriteLine($"\tReason:\t{signature.Comments}");
     Console.WriteLine($"\tType:\t{signature.SignatureType}");
     Console.WriteLine($"\tSign time:\t{signature.SignTime}");
     Console.WriteLine($"\tSubject name:\t{signature.CertificateHolder.Certificate.SubjectName}");
@@ -41,23 +41,24 @@ foreach (DigitalSignature signature in doc.DigitalSignatures)
 }
 ```
 
-يوضح كيفية توقيع المستندات بشهادات X.509.
+يوضح كيفية توقيع المستندات باستخدام شهادات X.509.
 
 ```csharp
-// التحقق من عدم توقيع المستند.
+//التأكد من عدم توقيع المستند.
 Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
 
-// أنشئ كائن حامل الشهادة من ملف PKCS12، والذي سنستخدمه لتوقيع المستند.
+// قم بإنشاء كائن CertificateHolder من ملف PKCS12، والذي سنستخدمه لتوقيع المستند.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 
-// هناك طريقتان لحفظ نسخة موقعة من المستند في نظام الملفات المحلي:
-// 1 - قم بتعيين مستند باسم ملف نظام محلي واحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
-DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx", 
-    certificateHolder, new SignOptions() { SignTime = DateTime.Now } );
+// هناك طريقتان لحفظ نسخة موقعة من مستند في نظام الملفات المحلي:
+// 1 - تعيين مستند من خلال اسم ملف النظام المحلي وحفظ نسخة موقعة في موقع محدد بواسطة اسم ملف آخر.
+SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
+DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
+    certificateHolder, signOptions);
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// 2 - خذ مستندًا من الدفق واحفظ نسخة موقعة في دفق آخر.
+// 2 - أخذ مستند من مجرى وحفظ نسخة موقعة في مجرى آخر.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     using (FileStream outDoc = new FileStream(ArtifactsDir + "Document.DigitalSignature.docx", FileMode.Create))
@@ -68,7 +69,7 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
 
 Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
 
-// يرجى التحقق من صحة جميع التوقيعات الرقمية للمستند والتحقق من تفاصيلها.
+// يرجى التأكد من صحة كافة التوقيعات الرقمية للوثيقة والتحقق من تفاصيلها.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 

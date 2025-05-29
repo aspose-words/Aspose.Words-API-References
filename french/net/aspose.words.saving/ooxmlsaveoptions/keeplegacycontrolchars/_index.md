@@ -3,9 +3,9 @@ title: OoxmlSaveOptions.KeepLegacyControlChars
 linktitle: KeepLegacyControlChars
 articleTitle: KeepLegacyControlChars
 second_title: Aspose.Words pour .NET
-description: OoxmlSaveOptions KeepLegacyControlChars propriété. Conserve la représentation originale des caractères de contrôle hérités en C#.
+description: Découvrez la propriété KeepLegacyControlChars d'OoxmlSaveOptions pour conserver le format d'origine des caractères de contrôle hérités pour une conversion de document transparente.
 type: docs
-weight: 40
+weight: 50
 url: /fr/net/aspose.words.saving/ooxmlsaveoptions/keeplegacycontrolchars/
 ---
 ## OoxmlSaveOptions.KeepLegacyControlChars property
@@ -18,17 +18,17 @@ public bool KeepLegacyControlChars { get; set; }
 
 ## Exemples
 
-Montre comment prendre en charge les caractères de contrôle hérités lors de la conversion en .docx.
+Montre comment prendre en charge les caractères de contrôle hérités lors de la conversion au format .docx.
 
 ```csharp
 Document doc = new Document(MyDir + "Legacy control character.doc");
 
 // Lorsque nous enregistrons le document au format OOXML, nous pouvons créer un objet OoxmlSaveOptions
-// puis transmettez-le à la méthode de sauvegarde du document pour modifier la façon dont nous enregistrons le document.
-// Définissez la propriété "KeepLegacyControlChars" sur "true" pour préserver
-// le caractère hérité "ShortDateTime" lors de l'enregistrement.
-// Définissez la propriété "KeepLegacyControlChars" sur "false" pour supprimer
-// le caractère hérité "ShortDateTime" du document de sortie.
+// puis transmettez-le à la méthode d'enregistrement du document pour modifier la façon dont nous enregistrons le document.
+// Définissez la propriété « KeepLegacyControlChars » sur « true » pour préserver
+// le caractère hérité « ShortDateTime » lors de l'enregistrement.
+// Définissez la propriété « KeepLegacyControlChars » sur « false » pour supprimer
+// le caractère hérité « ShortDateTime » du document de sortie.
 OoxmlSaveOptions so = new OoxmlSaveOptions(SaveFormat.Docx);
 so.KeepLegacyControlChars = keepLegacyControlChars;
 

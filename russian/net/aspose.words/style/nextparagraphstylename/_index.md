@@ -3,14 +3,14 @@ title: Style.NextParagraphStyleName
 linktitle: NextParagraphStyleName
 articleTitle: NextParagraphStyleName
 second_title: Aspose.Words для .NET
-description: Style NextParagraphStyleName свойство. Получает/устанавливает имя стиля который будет автоматически применяться к новому абзацу вставленному после абзаца a  отформатированного с использованием указанного стиля на С#.
+description: Узнайте, как эффективно использовать свойство NextParagraphStyleName для автоматизации применения стилей к новым абзацам, улучшая форматирование документа.
 type: docs
-weight: 130
+weight: 140
 url: /ru/net/aspose.words/style/nextparagraphstylename/
 ---
 ## Style.NextParagraphStyleName property
 
-Получает/устанавливает имя стиля, который будет автоматически применяться к новому абзацу, вставленному после абзаца a , отформатированного с использованием указанного стиля.
+Возвращает/задает имя стиля, который будет автоматически применен к новому абзацу, вставленному после абзаца a , отформатированного с использованием указанного стиля.
 
 ```csharp
 public string NextParagraphStyleName { get; set; }
@@ -18,7 +18,7 @@ public string NextParagraphStyleName { get; set; }
 
 ## Примечания
 
-Это свойство не используется Aspose.Words. Следующий стиль абзаца only будет применен автоматически при редактировании документа в MS Word.
+Это свойство не используется Aspose.Words. Следующий стиль абзаца будет применен автоматически только при редактировании документа в MS Word.
 
 ## Примеры
 
@@ -29,7 +29,7 @@ Document doc = new Document();
 
 Assert.AreEqual(4, doc.Styles.Count);
 
-// Перечисляем и перечисляем все стили, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
+// Перечислить и вывести список всех стилей, которые по умолчанию содержит документ, созданный с помощью Aspose.Words.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
 {
     while (stylesEnum.MoveNext())

@@ -3,14 +3,14 @@ title: MailMergeRegionInfo.Regions
 linktitle: Regions
 articleTitle: Regions
 second_title: Aspose.Words für .NET
-description: MailMergeRegionInfo Regions eigendom. Gibt eine Liste der untergeordneten Regionen zurück in C#.
+description: Entdecken Sie die Regionseigenschaft „MailMergeRegionInfo“, die effizient eine umfassende Liste untergeordneter Regionen für eine nahtlose Datenverwaltung zurückgibt.
 type: docs
 weight: 80
 url: /de/net/aspose.words.mailmerging/mailmergeregioninfo/regions/
 ---
 ## MailMergeRegionInfo.Regions property
 
-Gibt eine Liste der untergeordneten Regionen zurück.
+Gibt eine Liste untergeordneter Regionen zurück.
 
 ```csharp
 public IList<MailMergeRegionInfo> Regions { get; }
@@ -18,7 +18,7 @@ public IList<MailMergeRegionInfo> Regions { get; }
 
 ## Beispiele
 
-Zeigt, wie Seriendruckbereiche überprüft werden.
+Zeigt, wie Serienbriefbereiche überprüft werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Mail merge regions.docx");
@@ -43,6 +43,7 @@ Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
 Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
 Assert.AreEqual(2, nestedRegions[0].Level);
 Assert.AreEqual(2, nestedRegions[1].Level);
+Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
 
 // Liste der Felder innerhalb der ersten oberen Region abrufen.
 IList<Field> fieldList = topRegions[0].Fields;

@@ -3,14 +3,14 @@ title: PageSetup.SuppressEndnotes
 linktitle: SuppressEndnotes
 articleTitle: SuppressEndnotes
 second_title: Aspose.Words para .NET
-description: PageSetup SuppressEndnotes propiedad. Verdadero si las notas finales se imprimen al final de la siguiente sección que no suprime las notas finales. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección en C#.
+description: Descubra cómo la propiedad SuppressEndnotes de PageSetup mejora el diseño de su documento al controlar la ubicación de las notas finales para lograr secciones más claras y organizadas.
 type: docs
 weight: 410
 url: /es/net/aspose.words/pagesetup/suppressendnotes/
 ---
 ## PageSetup.SuppressEndnotes property
 
-Verdadero si las notas finales se imprimen al final de la siguiente sección que no suprime las notas finales. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección.
+Verdadero si las notas finales se imprimen al final de la siguiente sección que no las suprime. Las notas finales suprimidas se imprimen antes de las notas finales de esa sección.
 
 ```csharp
 public bool SuppressEndnotes { get; set; }
@@ -29,7 +29,7 @@ public void SuppressEndnotes()
      // De forma predeterminada, un documento compila todas las notas finales al final.
     Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
 
-    // Usamos la propiedad "Position" del objeto "EndnoteOptions" del documento
+    // Utilizamos la propiedad "Posición" del objeto "EndnoteOptions" del documento
      // para recopilar notas finales al final de cada sección.
     doc.EndnoteOptions.Position = EndnotePosition.EndOfSection;
 
@@ -37,9 +37,9 @@ public void SuppressEndnotes()
     InsertSectionWithEndnote(doc, "Section 2", "Endnote 2, will be pushed down to section 3");
     InsertSectionWithEndnote(doc, "Section 3", "Endnote 3, will stay in section 3");
 
-    // Mientras hacemos que las secciones muestren sus respectivas notas finales, podemos configurar el indicador "SuppressEndnotes"
-    // del objeto "PageSetup" de una sección a "true" para volver al comportamiento predeterminado y pasar sus notas finales
-    // a la siguiente sección.
+    // Mientras hacemos que las secciones muestren sus respectivas notas finales, podemos configurar el indicador "Suprimir notas finales"
+    // del objeto "PageSetup" de una sección a "verdadero" para volver al comportamiento predeterminado y pasar sus notas finales
+    //pasamos a la siguiente sección.
     PageSetup pageSetup = doc.Sections[1].PageSetup;
     pageSetup.SuppressEndnotes = true;
 
@@ -47,7 +47,7 @@ public void SuppressEndnotes()
 }
 
 /// <summary>
-/// Agregar una sección con texto y una nota final a un documento.
+/// Añade una sección con texto y una nota final a un documento.
 /// </summary>
 private static void InsertSectionWithEndnote(Document doc, string sectionBodyText, string endnoteText)
 {

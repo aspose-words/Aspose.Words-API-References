@@ -3,7 +3,7 @@ title: ComHelper
 linktitle: ComHelper
 articleTitle: ComHelper
 second_title: Aspose.Words för .NET
-description: ComHelper byggare. Initierar en ny instans av den här klassen i C#.
+description: Upptäck ComHelper, den kraftfulla konstruktorn som enkelt initierar nya klassinstanser, vilket förbättrar din programmeringseffektivitet och produktivitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/comhelper/comhelper/
@@ -18,10 +18,10 @@ public ComHelper()
 
 ## Exempel
 
-Visar hur man öppnar dokument med ComHelper-klassen.
+Visar hur man öppnar dokument med hjälp av ComHelper-klassen.
 
 ```csharp
-// ComHelper-klassen tillåter oss att ladda dokument från COM-klienter.
+// ComHelper-klassen låter oss läsa in dokument inifrån COM-klienter.
 ComHelper comHelper = new ComHelper();
 
 // 1 - Använda ett lokalt systemfilnamn:

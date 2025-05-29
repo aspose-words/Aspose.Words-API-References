@@ -3,7 +3,7 @@ title: FieldPageRef.InsertHyperlink
 linktitle: InsertHyperlink
 articleTitle: InsertHyperlink
 second_title: Aspose.Words pour .NET
-description: FieldPageRef InsertHyperlink propriété. Obtient ou définit sil faut insérer un lien hypertexte vers le paragraphe marqué dun signet en C#.
+description: Découvrez comment la propriété FieldPageRef InsertHyperlink améliore vos documents en créant facilement des liens vers des paragraphes marqués d'un signet pour une navigation fluide.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldpageref/inserthyperlink/
@@ -18,32 +18,32 @@ public bool InsertHyperlink { get; set; }
 
 ## Exemples
 
-Permet d'insérer des champs PAGEREF pour afficher l'emplacement relatif des signets.
+Affiche l'insertion de champs PAGEREF pour afficher l'emplacement relatif des signets.
 
 ```csharp
 public void FieldPageRef()
 {
     Document doc = new Document();
-    DocumentBuilder builder = new DocumentBuilder(doc);            
+    DocumentBuilder builder = new DocumentBuilder(doc);
 
     InsertAndNameBookmark(builder, "MyBookmark1");
 
-    // Insère un champ PAGEREF qui affiche la page sur laquelle se trouve un signet.
+    // Insérer un champ PAGEREF qui affiche sur quelle page se trouve un signet.
     // Définissez l'indicateur InsertHyperlink pour que le champ fonctionne également comme un lien cliquable vers le signet.
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
         InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
 
-    // Nous pouvons utiliser le drapeau \p pour afficher le champ PAGEREF
+    // Nous pouvons utiliser l'indicateur \p pour obtenir le champ PAGEREF à afficher
     // la position du signet par rapport à la position du champ.
-    // Bookmark1 est sur la même page et au-dessus de ce champ, donc le résultat affiché de ce champ sera "au-dessus".
+    // Le signet 1 est sur la même page et au-dessus de ce champ, donc le résultat affiché de ce champ sera « au-dessus ».
     Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
 
-    // Bookmark2 sera sur la même page et en dessous de ce champ, donc le résultat affiché de ce champ sera "en dessous".
+    // Le signet 2 sera sur la même page et en dessous de ce champ, donc le résultat affiché de ce champ sera « en dessous ».
     Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
 
-    // Bookmark3 sera sur une page différente, donc le champ affichera "sur la page 2".
+    // Le signet 3 sera sur une page différente, le champ affichera donc « sur la page 2 ».
     Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
         InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
 

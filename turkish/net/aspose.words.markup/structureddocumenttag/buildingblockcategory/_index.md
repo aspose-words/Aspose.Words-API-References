@@ -2,15 +2,15 @@
 title: StructuredDocumentTag.BuildingBlockCategory
 linktitle: BuildingBlockCategory
 articleTitle: BuildingBlockCategory
-second_title: Aspose.Words for .NET
-description: StructuredDocumentTag BuildingBlockCategory mülk. Bunun için yapı taşının kategorisini belirtirSDT node. Olamazhükümsüz  C#'da.
+second_title: .NET için Aspose.Words
+description: SDT düğümlerinde yapı taşı kategorilerini tanımlamak için gerekli olan StructuredDocumentTag BuildingBlockCategory özelliğini keşfedin. Belge yapınızı geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.markup/structureddocumenttag/buildingblockcategory/
 ---
 ## StructuredDocumentTag.BuildingBlockCategory property
 
-Bunun için yapı taşının kategorisini belirtir**SDT** node. Olamaz`hükümsüz` .
+Bu yapı bloğunun kategorisini belirtir**SDT** node. olamaz`hükümsüz` .
 
 ```csharp
 public string BuildingBlockCategory { get; set; }
@@ -18,13 +18,13 @@ public string BuildingBlockCategory { get; set; }
 
 ## Notlar
 
-Bu özelliğe erişim yalnızca şunun için işe yarayacaktır:BuildingBlockGallery ve DocPartObj SDT türleri. Bunun için salt okunurdur**SDT** belge parçası türünün.
+Bu özelliğe erişim yalnızca şu amaçlar için çalışacaktır:BuildingBlockGallery ve DocPartObj SDT türleri. Salt okunurdur**SDT** belge parçası türünün.
 
-Diğer tüm SDT türleri için istisna meydana gelecektir.
+Diğer tüm SDT tipleri için istisna oluşacaktır.
 
 ## Örnekler
 
-Yapılandırılmış belge etiketinin yapı taşı olarak nasıl ekleneceğini ve kategorisi ile galerisinin nasıl ayarlanacağını gösterir.
+Yapılandırılmış bir belge etiketinin yapı taşı olarak nasıl ekleneceğini ve kategorisinin ve galerisinin nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();

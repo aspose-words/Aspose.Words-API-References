@@ -3,7 +3,7 @@ title: ImageData.SourceFullName
 linktitle: SourceFullName
 articleTitle: SourceFullName
 second_title: Aspose.Words pour .NET
-description: ImageData SourceFullName propriété. Obtient ou définit le chemin et le nom du fichier source de limage liée en C#.
+description: Découvrez la propriété ImageData SourceFullName pour gérer facilement les chemins d'accès et les noms de fichiers des images liées, améliorant ainsi l'efficacité de votre gestion des images.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.drawing/imagedata/sourcefullname/
@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 string imageFileName = ImageDir + "Windows MetaFile.wmf";
 
 // Vous trouverez ci-dessous deux manières d'appliquer une image à une forme afin qu'elle puisse l'afficher.
-// 1 - Définit la forme pour contenir l'image.
+// 1 - Définissez la forme pour contenir l'image.
 Shape shape = new Shape(builder.Document, ShapeType.Image);
 shape.WrapType = WrapType.Inline;
 shape.ImageData.SetImage(imageFileName);
@@ -55,9 +55,9 @@ shape.ImageData.SourceFullName = imageFileName;
 builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 
-// La création de liens vers des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
-// Cependant, le document ne peut afficher correctement l'image que lorsque
-// le fichier image est présent à l'emplacement vers lequel pointe la propriété "SourceFullName" de la forme.
+// Lier des images permettra d'économiser de l'espace et d'obtenir un document plus petit.
+// Cependant, le document ne peut afficher correctement l'image que pendant
+// le fichier image est présent à l'emplacement vers lequel pointe la propriété « SourceFullName » de la forme.
 Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
 ```
 

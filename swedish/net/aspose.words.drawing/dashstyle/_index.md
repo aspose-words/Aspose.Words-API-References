@@ -3,9 +3,9 @@ title: DashStyle Enum
 linktitle: DashStyle
 articleTitle: DashStyle
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Drawing.DashStyle uppräkning. Streckad linjestil i C#.
+description: Upptäck Aspose.Words.Drawing.DashStyle-enum för mångsidiga streckade linjestilar. Förbättra dina dokumentdesigner med anpassningsbara visuella element.
 type: docs
-weight: 930
+weight: 1250
 url: /sv/net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -20,30 +20,30 @@ public enum DashStyle
 
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
-| Solid | `0` | Solid (kontinuerlig) penna. |
-| ShortDash | `1` | System dash stil. |
-| ShortDot | `2` | System dash stil. |
-| ShortDashDot | `3` | System dash stil. |
-| ShortDashDotDot | `4` | System dash stil. |
+| Solid | `0` | Heldragen (kontinuerlig) penna. |
+| ShortDash | `1` | Systemets instrumentpanelsstil. |
+| ShortDot | `2` | Systemets instrumentpanelsstil. |
+| ShortDashDot | `3` | Systemets instrumentpanelsstil. |
+| ShortDashDotDot | `4` | Systemets instrumentpanelsstil. |
 | Dot | `5` | Fyrkantig prickstil. |
-| Dash | `6` | Bindestreckstil. |
-| LongDash | `7` | Långt streck stil. |
-| DashDot | `8` | Kort streck. |
+| Dash | `6` | Dash-stil. |
+| LongDash | `7` | Lång streckstil. |
+| DashDot | `8` | Streck kort streck. |
 | LongDashDot | `9` | Långt streck kort streck. |
 | LongDashDotDot | `10` | Långt streck kort streck kort streck. |
 | Default | `0` | Samma somSolid . |
 
 ## Exempel
 
-Visar för att skapa en mängd olika former.
+Visar hur man skapar en mängd olika former.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns fyra exempel på former som vi kan infoga i våra dokument.
+// Nedan följer fyra exempel på former som vi kan infoga i våra dokument.
 // 1 - Prickad, horisontell, halvtransparent röd linje
-// med en pil till vänster och en romb till höger:
+// med en pil i vänster ände och en diamant i höger ände:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -80,7 +80,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Pil med en vänd orientering fylld i med Aspose-logotypen:
+// 4 - Pil med en omvänd orientering fylld med Aspose-logotypen:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -92,8 +92,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // När vi vänder på riktningen på vår pil vänder vi också bilden som pilen innehåller.
-    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen att visa den.
+    // När vi vänder orienteringen på vår pil, vänder vi också bilden som pilen innehåller.
+    // Vänd bilden åt andra hållet för att ta bort detta innan du får formen för att visa den.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

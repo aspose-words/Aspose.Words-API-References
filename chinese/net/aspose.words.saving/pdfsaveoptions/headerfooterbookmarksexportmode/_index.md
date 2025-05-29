@@ -2,15 +2,15 @@
 title: PdfSaveOptions.HeaderFooterBookmarksExportMode
 linktitle: HeaderFooterBookmarksExportMode
 articleTitle: HeaderFooterBookmarksExportMode
-second_title: 用于 .NET 的 Aspose.Words
-description: PdfSaveOptions HeaderFooterBookmarksExportMode 财产. 确定如何导出页眉/页脚中的书签 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 PdfSaveOptions HeaderFooterBookmarksExportMode 属性如何优化页眉和页脚中的书签导出以增强 PDF 功能。
 type: docs
 weight: 180
 url: /zh/net/aspose.words.saving/pdfsaveoptions/headerfooterbookmarksexportmode/
 ---
 ## PdfSaveOptions.HeaderFooterBookmarksExportMode property
 
-确定如何导出页眉/页脚中的书签。
+确定页眉/页脚中的书签如何导出。
 
 ```csharp
 public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; set; }
@@ -20,11 +20,11 @@ public HeaderFooterBookmarksExportMode HeaderFooterBookmarksExportMode { get; se
 
 默认值为All。
 
-该属性与[`OutlineOptions`](../outlineoptions/)选项。
+此属性与[`OutlineOptions`](../outlineoptions/)选项。
 
 ## 例子
 
-演示如何处理我们正在渲染为 PDF 的文档中页眉/页脚中的书签。
+显示处理我们正在呈现为 PDF 的文档中的页眉/页脚中的书签。
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks in headers and footers.docx");
@@ -37,13 +37,13 @@ PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.PageMode = PdfPageMode.UseOutlines;
 
 // 将“DefaultBookmarksOutlineLevel”属性设置为“1”以显示所有
-// 输出 PDF 中大纲第一层的书签。
+// 输出 PDF 中大纲第一级的书签。
 saveOptions.OutlineOptions.DefaultBookmarksOutlineLevel = 1;
 
 // 将“HeaderFooterBookmarksExportMode”属性设置为“HeaderFooterBookmarksExportMode.None”
 // 不导出页眉/页脚内的任何书签。
 // 将“HeaderFooterBookmarksExportMode”属性设置为“HeaderFooterBookmarksExportMode.First”
-// 仅导出第一部分页眉/页脚中的书签。
+// 仅导出第一部分的页眉/页脚中的书签。
 // 将“HeaderFooterBookmarksExportMode”属性设置为“HeaderFooterBookmarksExportMode.All”
 // 导出所有页眉/页脚中的书签。
 saveOptions.HeaderFooterBookmarksExportMode = headerFooterBookmarksExportMode;

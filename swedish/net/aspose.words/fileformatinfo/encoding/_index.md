@@ -3,14 +3,14 @@ title: FileFormatInfo.Encoding
 linktitle: Encoding
 articleTitle: Encoding
 second_title: Aspose.Words för .NET
-description: FileFormatInfo Encoding fast egendom. Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTMLdokument i C#.
+description: Upptäck egenskapen FileFormatInfo Encoding för att enkelt identifiera dokumentkodning. Stöder för närvarande HTML-format för korrekta resultat.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/fileformatinfo/encoding/
 ---
 ## FileFormatInfo.Encoding property
 
-Hämtar den upptäckta kodningen om det är tillämpligt för det aktuella dokumentformatet. Detekterar för närvarande kodning endast för HTML-dokument.
+Hämtar den detekterade kodningen om den är tillämplig för det aktuella dokumentformatet. För närvarande identifieras kodning endast för HTML-dokument.
 
 ```csharp
 public Encoding Encoding { get; }
@@ -18,14 +18,14 @@ public Encoding Encoding { get; }
 
 ## Exempel
 
-Visar hur man upptäcker kodning i en html-fil.
+Visar hur man identifierar kodning i en html-fil.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
 
 Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
 
-// Encoding-egenskapen används endast när vi skapar ett FileFormatInfo-objekt för ett HTML-dokument.
+// Egenskapen Encoding används endast när vi skapar ett FileFormatInfo-objekt för ett HTML-dokument.
 Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
 Assert.AreEqual(1252, info.Encoding.CodePage);
 ```

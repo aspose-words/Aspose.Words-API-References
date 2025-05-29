@@ -3,14 +3,14 @@ title: GraphicsQualityOptions.SmoothingMode
 linktitle: SmoothingMode
 articleTitle: SmoothingMode
 second_title: Aspose.Words لـ .NET
-description: GraphicsQualityOptions SmoothingMode ملكية. الحصول على جودة العرض لهذه الرسومات أو تعيينها في C#.
+description: اكتشف خاصية GraphicsQualityOptions SmoothingMode لتحسين جودة العرض ورفع أداء الرسومات لديك دون عناء.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.saving/graphicsqualityoptions/smoothingmode/
 ---
 ## GraphicsQualityOptions.SmoothingMode property
 
-الحصول على جودة العرض لهذه الرسومات أو تعيينها.
+يحصل على جودة العرض لهذه الرسومات أو يعينها.
 
 ```csharp
 public SmoothingMode? SmoothingMode { get; set; }

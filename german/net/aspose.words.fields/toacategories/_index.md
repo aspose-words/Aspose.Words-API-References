@@ -3,14 +3,14 @@ title: ToaCategories Class
 linktitle: ToaCategories
 articleTitle: ToaCategories
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Fields.ToaCategories klas. Stellt eine Tabelle mit Behördenkategorien dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Fields.ToaCategories für die effiziente Verwaltung von Rechtsgrundlagenkategorien in Ihren Dokumenten. Verbessern Sie Ihre Dokumentstruktur!
 type: docs
-weight: 2780
+weight: 3190
 url: /de/net/aspose.words.fields/toacategories/
 ---
 ## ToaCategories class
 
-Stellt eine Tabelle mit Behördenkategorien dar.
+Stellt eine Tabelle mit Autoritätskategorien dar.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Feldern](https://docs.aspose.com/words/net/working-with-fields/) Dokumentationsartikel.
 
@@ -28,12 +28,12 @@ public class ToaCategories
 
 | Name | Beschreibung |
 | --- | --- |
-| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Ruft die Standardtabelle der Behördenkategorien ab. |
-| [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Ruft die Kategorieüberschrift nach Kategorienummer ab oder legt sie fest. |
+| static [DefaultCategories](../../aspose.words.fields/toacategories/defaultcategories/) { get; } | Ruft die Standardkategorien des Rechtsgrundlagenverzeichnisses ab. |
+| [Item](../../aspose.words.fields/toacategories/item/) { get; set; } | Ruft die Kategorieüberschrift anhand der Kategorienummer ab oder legt sie fest. |
 
 ## Beispiele
 
-Zeigt, wie eine Reihe von Kategorien für TOA-Felder angegeben werden.
+Zeigt, wie ein Satz von Kategorien für TOA-Felder angegeben wird.
 
 ```csharp
 Document doc = new Document();
@@ -57,14 +57,14 @@ Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
 // 2 TOA-Felder einfügen. TOA-Felder erstellen einen Eintrag für jedes TA-Feld im Dokument.
 // Verwenden Sie den Schalter „\c“, um den Index einer Kategorie aus unserer Sammlung auszuwählen.
 // Mit diesem Schalter nimmt ein TOA-Feld nur Einträge aus TA-Feldern auf, die
-// habe auch einen „\c“-Schalter mit einem passenden Kategorieindex. Jedes TOA-Feld wird ebenfalls angezeigt
-// der Name der Kategorie, auf die der Schalter „\c“ zeigt.
+// haben auch einen "\c"-Schalter mit einem passenden Kategorieindex. Jedes TOA-Feld zeigt auch
+// der Name der Kategorie, auf die der Schalter "\c" verweist.
 builder.InsertField("TOA \\c 1 \\h", null);
 builder.InsertField("TOA \\c 2 \\h", null);
 builder.InsertBreak(BreakType.PageBreak);
 
-// TOA-Einträge in 2 Kategorien einfügen. Unser erstes TOA-Feld erhält einen Eintrag,
-// aus dem zweiten TA-Feld, dessen Schalter „\c“ ebenfalls auf die erste Kategorie zeigt.
+// TOA-Einträge in zwei Kategorien einfügen. Unser erstes TOA-Feld erhält einen Eintrag,
+// aus dem zweiten TA-Feld, dessen "\c"-Schalter ebenfalls auf die erste Kategorie zeigt.
 // Das zweite TOA-Feld enthält zwei Einträge aus den anderen beiden TA-Feldern.
 builder.InsertField("TA \\c 2 \\l \"entry 1\"");
 builder.InsertBreak(BreakType.PageBreak);

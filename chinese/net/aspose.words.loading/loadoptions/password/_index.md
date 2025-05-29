@@ -2,15 +2,15 @@
 title: LoadOptions.Password
 linktitle: Password
 articleTitle: Password
-second_title: 用于 .NET 的 Aspose.Words
-description: LoadOptions Password 财产. 获取或设置打开加密文档的密码 可以无效的或空字符串默认为无效的 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 LoadOptions 的 Password 属性轻松管理加密文档。安全地设置或检索您的密码，实现无缝访问。
 type: docs
 weight: 110
 url: /zh/net/aspose.words.loading/loadoptions/password/
 ---
 ## LoadOptions.Password property
 
-获取或设置打开加密文档的密码。 可以`无效的`或空字符串。默认为`无效的`.
+获取或设置打开加密文档的密码。 可以是`无效的`或空字符串。默认为`无效的`.
 
 ```csharp
 public string Password { get; set; }
@@ -22,13 +22,13 @@ public string Password { get; set; }
 
 ## 例子
 
-演示如何签署加密的文档文件。
+显示如何签署加密文档文件。
 
 ```csharp
-// 从 PKCS#12 存储创建 X.509 证书，该证书应包含私钥。
+// 从 PKCS#12 存储区创建 X.509 证书，该证书应包含私钥。
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// 创建评论、日期和解密密码，这些密码将与我们的新数字签名一起应用。
+// 创建将与我们的新数字签名一起应用的评论、日期和解密密码。
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// 为未签名的输入文档设置本地系统文件名，为其新的数字签名副本设置输出文件名。
+// 为未签名的输入文档设置本地系统文件名，并为其新的数字签名副本设置输出文件名。
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

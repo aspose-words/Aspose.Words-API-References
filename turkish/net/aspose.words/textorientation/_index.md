@@ -2,10 +2,10 @@
 title: TextOrientation Enum
 linktitle: TextOrientation
 articleTitle: TextOrientation
-second_title: Aspose.Words for .NET
-description: Aspose.Words.TextOrientation Sıralama. Bir sayfadaki bir tablo hücresindeki veya bir metin çerçevesindeki metnin yönünü belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: Tablo hücrelerinde ve metin çerçevelerinde metin hizalamasını kolayca kontrol etmek, belge sunumunu ve okunabilirliğini geliştirmek için Aspose.Words.TextOrientation enum'unu keşfedin.
 type: docs
-weight: 6430
+weight: 7280
 url: /tr/net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
@@ -22,14 +22,14 @@ public enum TextOrientation
 | --- | --- | --- |
 | Horizontal | `0` | Metin yatay olarak düzenlenmiştir (lr-tb). |
 | Downward | `1` | Metin yukarıdan aşağıya doğru görünecek şekilde 90 derece sağa döndürülür (tb-rl). |
-| Upward | `3` | Metin aşağıdan yukarıya doğru görünecek şekilde 90 derece sola döndürülür (bt-lr). |
-| HorizontalRotatedFarEast | `4` | Metin yatay olarak düzenlenmiştir ancak Uzak Doğu karakterleri 90 derece sola döndürülmüştür (lr-tb-v). |
-| VerticalFarEast | `5` | Uzak Doğu karakterleri dikey görünür, diğer metinler yukarıdan aşağıya doğru görünecek şekilde 90 derece sağa döndürülür (tb-rl-v). |
-| VerticalRotatedFarEast | `7` | Uzak Doğu karakterleri dikey görünür, diğer metinler dikey olarak yukarıdan aşağıya, ardından yatay olarak soldan sağa görünecek şekilde 90 derece sağa döndürülür (tb-lr-v). |
+| Upward | `3` | Metin, aşağıdan yukarıya doğru görünecek şekilde 90 derece sola döndürülür (bt-lr). |
+| HorizontalRotatedFarEast | `4` | Metin yatay olarak düzenlenmiştir, ancak Uzak Doğu karakterleri 90 derece sola döndürülmüştür (lr-tb-v). |
+| VerticalFarEast | `5` | Uzak Doğu karakterleri dikey görünür, diğer metin yukarıdan aşağıya doğru görünmesi için 90 derece sağa döndürülür (tb-rl-v). |
+| VerticalRotatedFarEast | `7` | Uzak Doğu karakterleri dikey görünür, diğer metinler 90 derece sağa döndürülür ve dikey olarak yukarıdan aşağıya, sonra yatay olarak soldan sağa (tb-lr-v) görünür. |
 
 ## Örnekler
 
-Biçimlendirilmiş bir 2x2 tablonun nasıl oluşturulacağını gösterir.
+Biçimlendirilmiş 2x2'lik bir tablonun nasıl oluşturulacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -43,8 +43,8 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2.");
 builder.EndRow();
 
-// Tabloyu oluştururken belge oluşturucu mevcut RowFormat/CellFormat özellik değerlerini uygulayacaktır
-// imlecin bulunduğu geçerli satıra/hücreye ve onları oluştururken yeni satırlara/hücrelere.
+// Tablo oluşturulurken, belge oluşturucu geçerli RowFormat/CellFormat özellik değerlerini uygulayacaktır
+// imlecin bulunduğu geçerli satıra/hücreye ve bunları oluştururken oluşacak yeni satırlara/hücrelere.
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
 Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
 
@@ -59,7 +59,7 @@ builder.Write("Row 2, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Önceden eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesindeki değişikliklerden geriye dönük olarak etkilenmez.
+// Daha önce eklenen satırlar ve hücreler, oluşturucunun biçimlendirmesinde yapılan değişikliklerden geriye dönük olarak etkilenmez.
 Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
 Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
 Assert.AreEqual(100, table.Rows[1].RowFormat.Height);

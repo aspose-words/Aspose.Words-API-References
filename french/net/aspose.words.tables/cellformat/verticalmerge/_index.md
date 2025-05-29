@@ -3,14 +3,14 @@ title: CellFormat.VerticalMerge
 linktitle: VerticalMerge
 articleTitle: VerticalMerge
 second_title: Aspose.Words pour .NET
-description: CellFormat VerticalMerge propriété. Spécifie comment la cellule est fusionnée verticalement avec dautres cellules en C#.
+description: Découvrez la propriété CellFormat VerticalMerge pour une fusion verticale fluide des cellules dans les feuilles de calcul. Améliorez l'organisation et la présentation de vos données sans effort !
 type: docs
-weight: 120
+weight: 130
 url: /fr/net/aspose.words.tables/cellformat/verticalmerge/
 ---
 ## CellFormat.VerticalMerge property
 
-Spécifie comment la cellule est fusionnée verticalement avec d'autres cellules.
+Spécifie comment la cellule est fusionnée avec d'autres cellules verticalement.
 
 ```csharp
 public CellMerge VerticalMerge { get; set; }
@@ -32,8 +32,8 @@ public void CheckCellsMerged()
     Document doc = new Document(MyDir + "Table with merged cells.docx");
     Table table = doc.FirstSection.Body.Tables[0];
 
-    foreach (Row row in table.Rows.OfType<Row>())
-        foreach (Cell cell in row.Cells.OfType<Cell>())
+    foreach (Row row in table.Rows)
+        foreach (Cell cell in row.Cells)
             Console.WriteLine(PrintCellMergeType(cell));
 }
 
@@ -53,31 +53,31 @@ public string PrintCellMergeType(Cell cell)
 }
 ```
 
-Montre comment fusionner verticalement les cellules d’un tableau.
+Montre comment fusionner les cellules d'un tableau verticalement.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Insère une cellule dans la première colonne de la première ligne.
+// Insérer une cellule dans la première colonne de la première ligne.
 // Cette cellule sera la première d'une plage de cellules fusionnées verticalement.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.First;
 builder.Write("Text in merged cells.");
 
-// Insère une cellule dans la deuxième colonne de la première ligne, puis termine la ligne.
+// Insérer une cellule dans la deuxième colonne de la première ligne, puis terminer la ligne.
 // Configurez également le générateur pour désactiver la fusion verticale dans les cellules créées.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");
 builder.EndRow();
 
- // Insère une cellule dans la première colonne de la deuxième ligne.
-// Au lieu d'ajouter du contenu textuel, nous fusionnerons cette cellule avec la première cellule que nous avons ajoutée directement ci-dessus.
+ // Insérer une cellule dans la première colonne de la deuxième ligne.
+// Au lieu d'ajouter du contenu textuel, nous allons fusionner cette cellule avec la première cellule que nous avons ajoutée directement au-dessus.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.Previous;
 
-// Insère une autre cellule indépendante dans la deuxième colonne de la deuxième ligne.
+// Insérer une autre cellule indépendante dans la deuxième colonne de la deuxième ligne.
 builder.InsertCell();
 builder.CellFormat.VerticalMerge = CellMerge.None;
 builder.Write("Text in unmerged cell.");

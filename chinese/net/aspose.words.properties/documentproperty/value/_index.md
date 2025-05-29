@@ -2,8 +2,8 @@
 title: DocumentProperty.Value
 linktitle: Value
 articleTitle: Value
-second_title: 用于 .NET 的 Aspose.Words
-description: DocumentProperty Value 财产. 获取或设置属性的值 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解如何有效地管理 DocumentProperty 值——轻松检索或更新属性值以增强文档控制和生产力。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.properties/documentproperty/value/
@@ -18,7 +18,7 @@ public object Value { get; set; }
 
 ## 评论
 
-不可能是`无效的`。
+不可能`无效的`。
 
 ## 例子
 
@@ -31,7 +31,7 @@ Document doc = new Document(MyDir + "Properties.docx");
 Console.WriteLine($"Document filename:\n\t \"{doc.OriginalFileName}\"");
 
 // 该文档还将元数据存储在其内置属性中。
-// 每个内置属性都是文档的“BuiltInDocumentProperties”对象的成员。
+// 每个内置属性都是文档“BuiltInDocumentProperties”对象的成员。
 Console.WriteLine("Built-in Properties:");
 foreach (DocumentProperty docProperty in doc.BuiltInDocumentProperties)
 {

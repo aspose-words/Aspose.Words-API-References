@@ -3,7 +3,7 @@ title: FieldAutoNumLgl
 linktitle: FieldAutoNumLgl
 articleTitle: FieldAutoNumLgl
 second_title: Aspose.Words для .NET
-description: FieldAutoNumLgl строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldAutoNumLgl — ваше решение для бесшовной автоматической нумерации. Повысьте эффективность кодирования с помощью нашего интуитивно понятного конструктора по умолчанию!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldautonumlgl/fieldautonumlgl/

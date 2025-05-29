@@ -3,7 +3,7 @@ title: FieldInclude
 linktitle: FieldInclude
 articleTitle: FieldInclude
 second_title: Aspose.Words pour .NET
-description: FieldInclude constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur FieldInclude, votre solution idéale pour une intégration de données fluide. Bénéficiez dès aujourd'hui de fonctionnalités puissantes grâce à notre constructeur par défaut !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldinclude/fieldinclude/

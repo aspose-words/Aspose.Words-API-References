@@ -3,9 +3,9 @@ title: FieldMergeField Class
 linktitle: FieldMergeField
 articleTitle: FieldMergeField
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fields.FieldMergeField فصل. ينفذ حقل MERGEFIELD في C#.
+description: اكتشف فئة Aspose.Words.Fields.FieldMergeField لأتمتة مستندات سلسة. حسّن سير عملك باستخدام وظيفة MERGEFIELD الفعّالة.
 type: docs
-weight: 2150
+weight: 2560
 url: /ar/net/aspose.words.fields/fieldmergefield/
 ---
 ## FieldMergeField class
@@ -22,47 +22,47 @@ public class FieldMergeField : Field
 
 | اسم | وصف |
 | --- | --- |
-| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | الحصول على النص الذي يمثل نتيجة الحقل المعروض. |
+| [DisplayResult](../../aspose.words.fields/field/displayresult/) { get; } | يحصل على النص الذي يمثل نتيجة الحقل المعروضة. |
 | [End](../../aspose.words.fields/field/end/) { get; } | يحصل على العقدة التي تمثل نهاية الحقل. |
-| [FieldName](../../aspose.words.fields/fieldmergefield/fieldname/) { get; set; } | الحصول على اسم حقل البيانات أو تعيينه. |
-| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix/) { get; } | يقوم بإرجاع اسم حقل البيانات فقط. يتم تجريد أي بادئة من خاصية البادئة. |
-| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/) الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
-| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | الحصول على أو تعيين ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب تعديلات أخرى تم إجراؤها على المستند. |
-| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | الحصول على أو تعيين ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب النتيجة). |
-| [IsMapped](../../aspose.words.fields/fieldmergefield/ismapped/) { get; set; } | الحصول على أو تعيين ما إذا كان هذا الحقل حقلاً معينًا. |
-| [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting/) { get; set; } | الحصول على أو تعيين ما إذا كان سيتم تمكين تحويل الأحرف للتنسيق العمودي. |
-| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | الحصول على أو تعيين LCID الخاص بالحقل. |
-| [Result](../../aspose.words.fields/field/result/) { get; set; } | الحصول على أو تعيين النص الموجود بين فاصل الحقل ونهاية الحقل. |
-| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقول. يمكن ان يكون`باطل` . |
+| [FieldName](../../aspose.words.fields/fieldmergefield/fieldname/) { get; set; } | يحصل على اسم حقل البيانات أو يعينه. |
+| [FieldNameNoPrefix](../../aspose.words.fields/fieldmergefield/fieldnamenoprefix/) { get; } | يُرجع اسم حقل البيانات فقط. تُحذف أي بادئة من خاصية البادئة. |
+| [Format](../../aspose.words.fields/field/format/) { get; } | يحصل على[`FieldFormat`](../fieldformat/)الكائن الذي يوفر الوصول المكتوب إلى تنسيق الحقل. |
+| [IsDirty](../../aspose.words.fields/field/isdirty/) { get; set; } | يحصل على أو يحدد ما إذا كانت النتيجة الحالية للحقل لم تعد صحيحة (قديمة) بسبب التعديلات الأخرى التي تم إجراؤها على المستند. |
+| [IsLocked](../../aspose.words.fields/field/islocked/) { get; set; } | يحصل على أو يحدد ما إذا كان الحقل مقفلاً (لا ينبغي إعادة حساب نتيجته). |
+| [IsMapped](../../aspose.words.fields/fieldmergefield/ismapped/) { get; set; } | يحصل على أو يحدد ما إذا كان هذا الحقل حقلًا معينًا. |
+| [IsVerticalFormatting](../../aspose.words.fields/fieldmergefield/isverticalformatting/) { get; set; } | يحصل على أو يحدد ما إذا كان سيتم تمكين تحويل الأحرف للتنسيق الرأسي. |
+| [LocaleId](../../aspose.words.fields/field/localeid/) { get; set; } | يحصل على أو يعين LCID للحقل. |
+| [Result](../../aspose.words.fields/field/result/) { get; set; } | يحصل على النص الموجود بين فاصل الحقل ونهاية الحقل أو يعينه. |
+| [Separator](../../aspose.words.fields/field/separator/) { get; } | يحصل على العقدة التي تمثل فاصل الحقل. يمكن أن يكون`باطل` . |
 | [Start](../../aspose.words.fields/field/start/) { get; } | يحصل على العقدة التي تمثل بداية الحقل. |
-| [TextAfter](../../aspose.words.fields/fieldmergefield/textafter/) { get; set; } | الحصول على النص الذي سيتم إدراجه بعد الحقل أو تعيينه إذا لم يكن الحقل فارغًا. |
-| [TextBefore](../../aspose.words.fields/fieldmergefield/textbefore/) { get; set; } | الحصول على النص الذي سيتم إدراجه قبل الحقل أو تعيينه إذا لم يكن الحقل فارغًا. |
-| override [Type](../../aspose.words.fields/fieldmergefield/type/) { get; } | الحصول على نوع حقل Microsoft Word. |
+| [TextAfter](../../aspose.words.fields/fieldmergefield/textafter/) { get; set; } | يحصل على النص الذي سيتم إدراجه بعد الحقل أو يعينه إذا لم يكن الحقل فارغًا. |
+| [TextBefore](../../aspose.words.fields/fieldmergefield/textbefore/) { get; set; } | يحصل على النص الذي سيتم إدراجه قبل الحقل أو يعينه إذا لم يكن الحقل فارغًا. |
+| override [Type](../../aspose.words.fields/fieldmergefield/type/) { get; } | يحصل على نوع حقل Microsoft Word. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
+| [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)() | يعيد النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). يتم تضمين كل من رمز الحقل ونتيجة الحقل للحقول الفرعية. |
 | [GetFieldCode](../../aspose.words.fields/field/getfieldcode/)(*bool*) | إرجاع النص بين بداية الحقل وفاصل الحقل (أو نهاية الحقل إذا لم يكن هناك فاصل). |
-| [Remove](../../aspose.words.fields/field/remove/)() | إزالة الحقل من المستند. إرجاع عقدة مباشرة بعد الحقل. إذا كانت نهاية الحقل هي الطفل الأخير للعقدة الأصلية، فسيتم إرجاع الفقرة الأصلية الخاصة به. إذا تمت إزالة الحقل بالفعل، فسيتم إرجاعه`باطل` . |
+| [Remove](../../aspose.words.fields/field/remove/)() | يُزيل الحقل من المستند. يُرجع عقدة بعد الحقل مباشرةً. إذا كانت نهاية الحقل هي آخر عقدة فرعية للعقدة الأصلية، تُرجع فقرته الأصلية. إذا كان الحقل قد حُذف مُسبقًا، تُرجع`باطل` . |
 | [Unlink](../../aspose.words.fields/field/unlink/)() | يقوم بإلغاء ربط الحقل. |
-| [Update](../../aspose.words.fields/field/update/)() | يقوم بإجراء التحديث الميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
-| [Update](../../aspose.words.fields/field/update/)(*bool*) | إجراء تحديث ميداني. يتم الرمي إذا تم تحديث الحقل بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)() | يُجري تحديث الحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
+| [Update](../../aspose.words.fields/field/update/)(*bool*) | يُجري تحديثًا للحقل. يُطرح هذا الخطأ إذا كان الحقل قيد التحديث بالفعل. |
 
 ## ملاحظات
 
-استرداد اسم حقل البيانات ضمن أحرف الدمج في مستند رئيسي لدمج المراسلات. عند دمج المستند الرئيسي مع مصدر البيانات المحدد، يتم إدراج المعلومات من حقل البيانات المحدد بدلاً من حقل الدمج.
+يسترد اسم حقل البيانات ضمن أحرف الدمج في مستند رئيسي لدمج البريد. عندما يتم دمج المستند الرئيسي مع مصدر البيانات المحدد، يتم إدراج المعلومات من حقل البيانات المحدد بدلاً من حقل الدمج.
 
 ## أمثلة
 
-يوضح كيفية استخدام حقول MERGEFIELD لإجراء عملية دمج البريد.
+يوضح كيفية استخدام حقول MERGEFIELD لإجراء دمج البريد.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج المراسلات.
+// قم بإنشاء جدول بيانات لاستخدامه كمصدر بيانات لدمج البريد.
 DataTable table = new DataTable("Employees");
 table.Columns.Add("Courtesy Title");
 table.Columns.Add("First Name");
@@ -70,17 +70,18 @@ table.Columns.Add("Last Name");
 table.Rows.Add("Mr.", "John", "Doe");
 table.Rows.Add("Mrs.", "Jane", "Cardholder");
 
-// قم بإدراج MERGEFIELD مع تعيين خاصية FieldName على اسم عمود في مصدر البيانات.
+// إدراج MERGEFIELD مع تعيين خاصية FieldName إلى اسم عمود في مصدر البيانات.
 FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
 fieldMergeField.FieldName = "Courtesy Title";
 fieldMergeField.IsMapped = true;
 fieldMergeField.IsVerticalFormatting = false;
 
-// يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
+//يمكننا تطبيق النص قبل وبعد القيمة التي يقبلها هذا الحقل عند حدوث الدمج.
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
 Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
+Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
 
 // أدخل MERGEFIELD آخر لعمود مختلف في مصدر البيانات.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);

@@ -3,14 +3,14 @@ title: RevisionOptions.ShowRevisionBars
 linktitle: ShowRevisionBars
 articleTitle: ShowRevisionBars
 second_title: Aspose.Words لـ .NET
-description: RevisionOptions ShowRevisionBars ملكية. يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هيحقيقي  في C#.
+description: اكتشف كيف تُحسّن خاصية ShowRevisionBars في RevisionOptions وضوح المستند من خلال عرض أشرطة المراجعة للمحتوى المُحرّر. افتراضيًا، صحيح.
 type: docs
-weight: 180
+weight: 200
 url: /ar/net/aspose.words.layout/revisionoptions/showrevisionbars/
 ---
 ## RevisionOptions.ShowRevisionBars property
 
-يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى تمت مراجعته. القيمة الافتراضية هي`حقيقي` .
+يسمح بتحديد ما إذا كان يجب عرض أشرطة المراجعة بالقرب من الأسطر التي تحتوي على محتوى منقح. القيمة الافتراضية هي`حقيقي` .
 
 ```csharp
 public bool ShowRevisionBars { get; set; }
@@ -24,7 +24,7 @@ public bool ShowRevisionBars { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل مراجعة، ثم قم بتغيير لون كافة المراجعات إلى اللون الأخضر.
+//أدرج مراجعة، ثم قم بتغيير لون جميع المراجعات إلى اللون الأخضر.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
@@ -34,8 +34,9 @@ builder.Writeln("This is not a revision.");
 // قم بإزالة الشريط الذي يظهر على يسار كل سطر تمت مراجعته.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### أنظر أيضا

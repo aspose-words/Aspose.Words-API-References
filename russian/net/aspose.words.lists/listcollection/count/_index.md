@@ -3,7 +3,7 @@ title: ListCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words для .NET
-description: ListCollection Count свойство. Получает количество нумерованных и маркированных списков в документе на С#.
+description: Откройте для себя свойство ListCollection Count, чтобы легко получить количество нумерованных и маркированных списков в документе, улучшая организацию контента.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.lists/listcollection/count/
@@ -18,7 +18,7 @@ public int Count { get; }
 
 ## Примеры
 
-Показывает, как проверить свойства документов владельцев списков.
+Показывает, как проверить свойства документа владельца списков.
 
 ```csharp
 Document doc = new Document();

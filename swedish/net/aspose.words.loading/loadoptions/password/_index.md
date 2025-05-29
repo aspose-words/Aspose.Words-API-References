@@ -3,7 +3,7 @@ title: LoadOptions.Password
 linktitle: Password
 articleTitle: Password
 second_title: Aspose.Words för .NET
-description: LoadOptions Password fast egendom. Hämtar eller ställer in lösenordet för att öppna ett krypterat dokument. Kan varanull eller tom sträng. Standard ärnull  i C#.
+description: Hantera dina krypterade dokument enkelt med LoadOptions lösenordsfunktion. Ställ in eller hämta ditt lösenord säkert för smidig åtkomst.
 type: docs
 weight: 110
 url: /sv/net/aspose.words.loading/loadoptions/password/
@@ -18,17 +18,17 @@ public string Password { get; set; }
 
 ## Anmärkningar
 
-Du måste känna till lösenordet för att öppna ett krypterat dokument. Om dokumentet inte är krypterat, ställ in detta på`null` eller tom sträng.
+Du behöver veta lösenordet för att öppna ett krypterat dokument. Om dokumentet inte är krypterat, ställ in det på`null` eller tom sträng.
 
 ## Exempel
 
-Visar hur man signerar krypterad dokumentfil.
+Visar hur man signerar en krypterad dokumentfil.
 
 ```csharp
-// Skapa ett X.509-certifikat från en PKCS#12-butik, som bör innehålla en privat nyckel.
+// Skapa ett X.509-certifikat från ett PKCS#12-arkiv, vilket ska innehålla en privat nyckel.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Skapa en kommentar, datum och dekrypteringslösenord som kommer att tillämpas med vår nya digitala signatur.
+// Skapa ett lösenord för kommentar, datum och dekryptering som kommer att tillämpas med vår nya digitala signatur.
 SignOptions signOptions = new SignOptions
 {
     Comments = "Comment",
@@ -36,7 +36,7 @@ SignOptions signOptions = new SignOptions
     DecryptionPassword = "docPassword"
 };
 
-// Ställ in ett lokalt systemfilnamn för det osignerade indatadokumentet och ett utdatafilnamn för dess nya digitalt signerade kopia.
+// Ange ett lokalt systemfilnamn för det osignerade indatadokumentet och ett utdatafilnamn för dess nya digitalt signerade kopia.
 string inputFileName = MyDir + "Encrypted.docx";
 string outputFileName = ArtifactsDir + "DigitalSignatureUtil.DecryptionPassword.docx";
 

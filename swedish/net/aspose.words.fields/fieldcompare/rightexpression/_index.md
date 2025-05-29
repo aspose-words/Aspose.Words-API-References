@@ -3,14 +3,14 @@ title: FieldCompare.RightExpression
 linktitle: RightExpression
 articleTitle: RightExpression
 second_title: Aspose.Words för .NET
-description: FieldCompare RightExpression fast egendom. Hämtar eller ställer in den högra delen av jämförelseuttrycket i C#.
+description: Upptäck FieldCompares RightExpression-egenskap för att enkelt hantera och anpassa höger sida av dina jämförelseuttryck för optimal prestanda.
 type: docs
 weight: 40
 url: /sv/net/aspose.words.fields/fieldcompare/rightexpression/
 ---
 ## FieldCompare.RightExpression property
 
-Hämtar eller ställer in den högra delen av jämförelseuttrycket.
+Hämtar eller anger den högra delen av jämförelseuttrycket.
 
 ```csharp
 public string RightExpression { get; set; }
@@ -18,7 +18,7 @@ public string RightExpression { get; set; }
 
 ## Exempel
 
-Visar hur man jämför uttryck med ett COMPARE-fält.
+Visar hur man jämför uttryck med hjälp av ett JÄMFÖR-fält.
 
 ```csharp
 Document doc = new Document();
@@ -30,8 +30,8 @@ field.ComparisonOperator = "<";
 field.RightExpression = "2";
 field.Update();
 
-// COMPARE-fältet visar en "0" eller en "1", beroende på påståendets sanning.
-// Resultatet av detta påstående är falskt så att detta fält kommer att visa en "0".
+// JÄMFÖR-fältet visar en "0" eller en "1", beroende på hur sant dess påstående är.
+// Resultatet av denna sats är falskt så att detta fält kommer att visa en "0".
 Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
 Assert.AreEqual("0", field.Result);
 
@@ -43,7 +43,7 @@ field.ComparisonOperator = "=";
 field.RightExpression = "2 + 3";
 field.Update();
 
-// Detta fält visar en "1" eftersom påståendet är sant.
+// Det här fältet visar en "1" eftersom påståendet är sant.
 Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
 Assert.AreEqual("1", field.Result);
 

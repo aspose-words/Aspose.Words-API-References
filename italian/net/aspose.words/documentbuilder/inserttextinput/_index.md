@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertTextInput
 linktitle: InsertTextInput
 articleTitle: InsertTextInput
 second_title: Aspose.Words per .NET
-description: DocumentBuilder InsertTextInput metodo. Inserisce un campo modulo di testo nella posizione corrente in C#.
+description: Aggiungi facilmente campi di testo nei moduli con il metodo InsertTextInput di DocumentBuilder. Migliora l'interattività e l'esperienza utente del tuo documento oggi stesso!
 type: docs
-weight: 470
+weight: 510
 url: /it/net/aspose.words/documentbuilder/inserttextinput/
 ---
 ## DocumentBuilder.InsertTextInput method
@@ -19,11 +19,11 @@ public FormField InsertTextInput(string name, TextFormFieldType type, string for
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| name | String | Il nome del campo modulo. Può essere una stringa vuota. |
-| type | TextFormFieldType | Specifica il tipo del campo del modulo di testo. |
+| name | String | Il nome del campo del modulo. Può essere una stringa vuota. |
+| type | TextFormFieldType | Specifica il tipo di campo del modulo di testo. |
 | format | String | Stringa di formato utilizzata per formattare il valore del campo del modulo. |
-| fieldValue | String | Testo che verrà visualizzato nel campo. |
-| maxLength | Int32 | Lunghezza massima che l'utente può inserire nel campo del modulo. Impostato su zero per una lunghezza illimitata. |
+| fieldValue | String | Testo che verrà mostrato nel campo. |
+| maxLength | Int32 | Lunghezza massima che l'utente può inserire nel campo del modulo. Imposta a zero per una lunghezza illimitata. |
 
 ### Valore di ritorno
 
@@ -31,23 +31,23 @@ Il nodo del campo modulo appena inserito.
 
 ## Osservazioni
 
-Se specifichi un nome per il campo modulo, verrà creato automaticamente un segnalibro con lo stesso nome.
+Se si specifica un nome per il campo del modulo, verrà automaticamente creato un segnalibro con lo stesso nome.
 
 ## Esempi
 
-Mostra come inserire un campo modulo di input testo in un documento.
+Mostra come inserire un campo modulo di immissione testo in un documento.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un modulo che richiede all'utente di inserire del testo.
+// Inserisce un modulo che richiede all'utente di immettere del testo.
 builder.InsertTextInput("TextInput", TextFormFieldType.Regular, "", "Enter your text here", 0);
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTextInput.docx");
 ```
 
-Mostra come inserire un campo modulo di immissione testo.
+Mostra come inserire un campo di modulo di immissione testo.
 
 ```csharp
 Document doc = new Document();
@@ -55,12 +55,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Please enter text here: ");
 
-// Inserisci un campo di immissione testo, che consentirà all'utente di fare clic su di esso e inserire il testo.
-// Assegna del testo segnaposto che l'utente può sovrascrivere e passare
-// una lunghezza massima del testo pari a 0 per non applicare limiti al contenuto del campo modulo.
+// Inserisce un campo di immissione testo, che consentirà all'utente di cliccarci sopra e immettere testo.
+// Assegna un testo segnaposto che l'utente può sovrascrivere e passare
+// una lunghezza massima del testo pari a 0 per non applicare alcun limite al contenuto del campo del modulo.
 builder.InsertTextInput("TextInput1", TextFormFieldType.Regular, "", "Placeholder text", 0);
 
-// Il campo del modulo apparirà sotto forma di tag html "input", con un tipo di "testo".
+// Il campo del modulo apparirà sotto forma di tag HTML "input", con tipo "testo".
 doc.Save(ArtifactsDir + "FormFields.TextInput.html");
 ```
 
@@ -69,9 +69,9 @@ Mostra come creare campi modulo.
 ```csharp
 DocumentBuilder builder = new DocumentBuilder();
 
-// I campi del modulo sono oggetti nel documento con cui l'utente può interagire chiedendogli di inserire valori.
-// Possiamo crearli utilizzando un generatore di documenti e di seguito sono riportati due modi per farlo.
-// 1 - Inserimento di testo di base:
+// I campi modulo sono oggetti nel documento con cui l'utente può interagire, chiedendogli di immettere valori.
+// Possiamo crearli utilizzando un generatore di documenti. Di seguito sono riportati due metodi per farlo.
+// 1 - Input di testo di base:
 builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
     "", "Enter your name here", 30);
 

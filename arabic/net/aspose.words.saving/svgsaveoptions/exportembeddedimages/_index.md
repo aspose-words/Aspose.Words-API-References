@@ -3,14 +3,14 @@ title: SvgSaveOptions.ExportEmbeddedImages
 linktitle: ExportEmbeddedImages
 articleTitle: ExportEmbeddedImages
 second_title: Aspose.Words لـ .NET
-description: SvgSaveOptions ExportEmbeddedImages ملكية. تحديد ما إذا كان يجب تضمين الصور في مستند SVG كأساس 64. ملاحظة يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف SVG الناتج بشكل ملحوظ في C#.
+description: اكتشف كيف تتيح لك خاصية SvgSaveOptions ExportEmbeddedImages تضمين الصور في ملفات SVG بتنسيق base64، مما يعزز قابلية النقل أثناء إدارة حجم الملف.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.saving/svgsaveoptions/exportembeddedimages/
 ---
 ## SvgSaveOptions.ExportEmbeddedImages property
 
-تحديد ما إذا كان يجب تضمين الصور في مستند SVG كأساس 64. ملاحظة: يمكن أن يؤدي تعيين هذه العلامة إلى زيادة حجم ملف SVG الناتج بشكل ملحوظ.
+يحدد ما إذا كان يجب تضمين الصور في مستند SVG بصيغة base64. انتبه إلى أن تنشيط هذا الخيار قد يؤدي إلى زيادة كبيرة في حجم ملف SVG الناتج.
 
 ```csharp
 public bool ExportEmbeddedImages { get; set; }
@@ -18,7 +18,7 @@ public bool ExportEmbeddedImages { get; set; }
 
 ## أمثلة
 
-يوضح كيفية معالجة وطباعة معرفات URI للموارد المرتبطة التي تم إنشاؤها أثناء تحويل مستند إلى .svg.
+يوضح كيفية التعامل مع عناوين URI للموارد المرتبطة وطباعتها والتي تم إنشاؤها أثناء تحويل مستند إلى .svg.
 
 ```csharp
 public void SvgResourceFolder()
@@ -42,7 +42,7 @@ public void SvgResourceFolder()
 }
 
 /// <summary>
-/// يحسب ويطبع عناوين URI للموارد الموجودة في الملف عند تحويلها إلى .svg.
+/// يقوم بحساب وطباعة عناوين URI للموارد المضمنة بواسطة أثناء تحويلها إلى .svg.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

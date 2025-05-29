@@ -3,9 +3,9 @@ title: ChartXValueCollection Class
 linktitle: ChartXValueCollection
 articleTitle: ChartXValueCollection
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Drawing.Charts.ChartXValueCollection klas. Stellt eine Sammlung von XWerten für eine Diagrammreihe dar in C#.
+description: Entdecken Sie die Klasse Aspose.Words.Drawing.Charts.ChartXValueCollection, Ihre Lösung für die effektive Verwaltung von X-Wertesammlungen in Diagrammreihen.
 type: docs
-weight: 850
+weight: 1170
 url: /de/net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class
@@ -21,6 +21,7 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 | Name | Beschreibung |
 | --- | --- |
 | [Count](../../aspose.words.drawing.charts/chartxvaluecollection/count/) { get; } | Ruft die Anzahl der Elemente in dieser Sammlung ab. |
+| [FormatCode](../../aspose.words.drawing.charts/chartxvaluecollection/formatcode/) { get; set; } | Ruft den auf die X-Werte angewendeten Formatcode ab oder legt ihn fest. |
 | [Item](../../aspose.words.drawing.charts/chartxvaluecollection/item/) { get; set; } | Ruft den X-Wert am angegebenen Index ab oder legt ihn fest. |
 
 ## Methoden
@@ -31,13 +32,13 @@ public class ChartXValueCollection : IEnumerable<ChartXValue>
 
 ## Bemerkungen
 
-Alle Objekte der Sammlung außer**Null** muss das Gleiche haben[`ValueType`](../chartxvalue/valuetype/).
+Alle Gegenstände der Sammlung außer**null** muss das gleiche haben[`ValueType`](../chartxvalue/valuetype/).
 
-Die Sammlung erlaubt nur das Ändern von X-Werten. Um einer Diagrammreihe neue Werte hinzuzufügen oder einzufügen oder Werte zu entfernen, verwenden Sie die entsprechenden Methoden der[`ChartSeries`](../chartseries/) Klasse verwendet werden kann.
+Die Sammlung erlaubt nur das Ändern von X-Werten. Um einer Diagrammreihe neue Werte hinzuzufügen, einzufügen oder Werte zu entfernen, verwenden Sie die entsprechenden Methoden der[`ChartSeries`](../chartseries/) Klasse kann verwendet werden.
 
 ## Beispiele
 
-Zeigt, wie man Diagrammseriendaten erhält.
+Zeigt, wie man Diagrammreihendaten erhält.
 
 ```csharp
 Document doc = new Document();
@@ -54,8 +55,8 @@ int maxValueIndex = 0;
 
 for (int i = 0; i < series.YValues.Count; i++)
 {
-    // Individuelles Format aller Datenpunkte löschen.
-    // Datenpunkte und Datenwerte stehen in Säulendiagrammen eins zu eins.
+    // Klares individuelles Format aller Datenpunkte.
+    // Datenpunkte und Datenwerte sind in Säulendiagrammen eins zu eins.
     series.DataPoints[i].ClearFormat();
 
     // Y-Wert abrufen.
@@ -74,7 +75,7 @@ for (int i = 0; i < series.YValues.Count; i++)
     }
 }
 
-// Farben der Max- und Min-Werte ändern.
+// Farben der Maximal- und Minimalwerte ändern.
 series.DataPoints[minValueIndex].Format.Fill.ForeColor = Color.Red;
 series.DataPoints[maxValueIndex].Format.Fill.ForeColor = Color.Green;
 

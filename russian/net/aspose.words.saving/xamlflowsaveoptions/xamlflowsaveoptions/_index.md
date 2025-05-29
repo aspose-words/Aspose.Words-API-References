@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions
 linktitle: XamlFlowSaveOptions
 articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words для .NET
-description: XamlFlowSaveOptions строитель. Инициализирует новый экземпляр этого класса который можно использовать для сохранения документа вXamlFlow формат на С#.
+description: Откройте для себя конструктор XamlFlowSaveOptions для легкой инициализации и сохранения документов в формате XamlFlow. Улучшите свой рабочий процесс сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.saving/xamlflowsaveoptions/xamlflowsaveoptions/
@@ -18,7 +18,7 @@ public XamlFlowSaveOptions()
 
 ## Примеры
 
-Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
+Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в формат .xaml с потоковой формой.
 
 ```csharp
 public void ImageFolder()
@@ -27,23 +27,23 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Создаем объект «XamlFlowSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ сохранения документа в формате сохранения XAML.
+    // Создаем объект "XamlFlowSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ сохранения документа в формате XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Используйте свойство «ImagesFolder», чтобы назначить папку в локальной файловой системе, в которую
+    // Используйте свойство "ImagesFolder", чтобы назначить папку в локальной файловой системе, в которую
     // Aspose.Words сохранит все связанные изображения документа.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Используйте свойство «ImagesFolderAlias» для использования этой папки
-    // при создании URI изображений вместо имени папки изображений.
+    // Используйте свойство "ImagesFolderAlias" для использования этой папки
+    // при построении URI изображений вместо имени папки с изображениями.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // Папка, указанная в «ImagesFolderAlias», должна будет содержать ресурсы вместо «ImagesFolder».
+    // Папка, указанная в «ImagesFolderAlias», должна содержать ресурсы вместо «ImagesFolder».
     // Мы должны убедиться, что папка существует, прежде чем потоки обратного вызова смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -54,7 +54,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковую форму .xaml.
+/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковый формат .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -68,8 +68,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Если бы мы указали псевдоним папки с изображениями, нам также потребовалось бы
-        // чтобы перенаправить каждый поток, чтобы поместить его изображение в папку псевдонимов.
+        // Если бы мы указали псевдоним папки с изображениями, нам также понадобилось бы
+        // для перенаправления каждого потока для помещения его изображения в папку псевдонима.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }
@@ -97,11 +97,11 @@ public XamlFlowSaveOptions(SaveFormat saveFormat)
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| saveFormat | SaveFormat | ВозможноXamlFlow илиXamlFlowPack. |
+| saveFormat | SaveFormat | Может бытьXamlFlow илиXamlFlowPack. |
 
 ## Примеры
 
-Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в потоковую форму .xaml.
+Показывает, как распечатать имена файлов связанных изображений, созданных при преобразовании документа в формат .xaml с потоковой формой.
 
 ```csharp
 public void ImageFolder()
@@ -110,23 +110,23 @@ public void ImageFolder()
 
     ImageUriPrinter callback = new ImageUriPrinter(ArtifactsDir + "XamlFlowImageFolderAlias");
 
-    // Создаем объект «XamlFlowSaveOptions», который мы можем передать методу «Save» документа.
-    // чтобы изменить способ сохранения документа в формате сохранения XAML.
+    // Создаем объект "XamlFlowSaveOptions", который можно передать методу "Save" документа
+    // чтобы изменить способ сохранения документа в формате XAML.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
     Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
 
-    // Используйте свойство «ImagesFolder», чтобы назначить папку в локальной файловой системе, в которую
+    // Используйте свойство "ImagesFolder", чтобы назначить папку в локальной файловой системе, в которую
     // Aspose.Words сохранит все связанные изображения документа.
     options.ImagesFolder = ArtifactsDir + "XamlFlowImageFolder";
 
-    // Используйте свойство «ImagesFolderAlias» для использования этой папки
-    // при создании URI изображений вместо имени папки изображений.
+    // Используйте свойство "ImagesFolderAlias" для использования этой папки
+    // при построении URI изображений вместо имени папки с изображениями.
     options.ImagesFolderAlias = ArtifactsDir + "XamlFlowImageFolderAlias";
 
     options.ImageSavingCallback = callback;
 
-    // Папка, указанная в «ImagesFolderAlias», должна будет содержать ресурсы вместо «ImagesFolder».
+    // Папка, указанная в «ImagesFolderAlias», должна содержать ресурсы вместо «ImagesFolder».
     // Мы должны убедиться, что папка существует, прежде чем потоки обратного вызова смогут поместить в нее свои ресурсы.
     Directory.CreateDirectory(options.ImagesFolderAlias);
 
@@ -137,7 +137,7 @@ public void ImageFolder()
 }
 
 /// <summary>
-/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковую форму .xaml.
+/// Подсчитывает и печатает имена файлов изображений, пока их родительский документ преобразуется в потоковый формат .xaml.
 /// </summary>
 private class ImageUriPrinter : IImageSavingCallback
 {
@@ -151,8 +151,8 @@ private class ImageUriPrinter : IImageSavingCallback
     {
         Resources.Add(args.ImageFileName);
 
-        // Если бы мы указали псевдоним папки с изображениями, нам также потребовалось бы
-        // чтобы перенаправить каждый поток, чтобы поместить его изображение в папку псевдонимов.
+        // Если бы мы указали псевдоним папки с изображениями, нам также понадобилось бы
+        // для перенаправления каждого потока для помещения его изображения в папку псевдонима.
         args.ImageStream = new FileStream($"{ImagesFolderAlias}/{args.ImageFileName}", FileMode.Create);
         args.KeepImageStreamOpen = false;
     }

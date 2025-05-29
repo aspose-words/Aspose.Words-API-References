@@ -2,15 +2,15 @@
 title: BookmarksOutlineLevelCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: BookmarksOutlineLevelCollection RemoveAt yöntem. Belirtilen dizindeki yer imini kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Yer imlerinizi RemoveAt yöntemiyle kolayca yönetin. Uygulamanızda akıcı bir deneyim için yer imlerini dizine göre hızla kaldırın!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.saving/bookmarksoutlinelevelcollection/removeat/
 ---
 ## BookmarksOutlineLevelCollection.RemoveAt method
 
-Belirtilen dizindeki yer imini kaldırır.
+Belirtilen dizindeki bir yer işaretini kaldırır.
 
 ```csharp
 public void RemoveAt(int index)
@@ -18,7 +18,7 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Sıfır tabanlı endeks. |
+| index | Int32 | Sıfır bazlı endeks. |
 
 ## Örnekler
 
@@ -28,7 +28,7 @@ Yer imleri için anahat düzeylerinin nasıl ayarlanacağını gösterir.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// İçine başka bir yer imi yerleştirilmiş bir yer imi ekleyin.
+// İçerisine başka bir yer imi yerleştirerek bir yer imi ekle.
 builder.StartBookmark("Bookmark 1");
 builder.Writeln("Text inside Bookmark 1.");
 
@@ -39,14 +39,14 @@ builder.EndBookmark("Bookmark 2");
 builder.Writeln("Text inside Bookmark 1.");
 builder.EndBookmark("Bookmark 1");
 
-// Başka bir yer imi ekleyin.
+// Başka bir yer imi ekle.
 builder.StartBookmark("Bookmark 3");
 builder.Writeln("Text inside Bookmark 3.");
 builder.EndBookmark("Bookmark 3");
 
-// .pdf olarak kaydederken, yer imlerine açılır menü aracılığıyla erişilebilir ve çoğu okuyucu tarafından bağlantı noktası olarak kullanılabilir.
-// Yer imleri aynı zamanda anahat düzeyleri için sayısal değerlere de sahip olabilir,
-// okuyucuda daraltıldığında üst düzey alt girişleri gizlemek için alt düzey anahat girişlerini etkinleştirme.
+// .pdf'e kaydederken, yer imlerine açılır menü aracılığıyla erişilebilir ve çoğu okuyucu tarafından bağlantı noktası olarak kullanılabilir.
+// Yer imleri ayrıca anahat düzeyleri için sayısal değerlere sahip olabilir,
+// okuyucuda daraltıldığında daha yüksek seviyeli alt girdileri gizlemek için daha düşük seviyeli ana hat girdilerinin etkinleştirilmesi.
 PdfSaveOptions pdfSaveOptions = new PdfSaveOptions();
 BookmarksOutlineLevelCollection outlineLevels = pdfSaveOptions.OutlineOptions.BookmarksOutlineLevels;
 
@@ -60,18 +60,18 @@ Assert.AreEqual(1, outlineLevels[0]);
 Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
 Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
 
-// İki öğeyi kaldırabiliriz, böylece yalnızca "Yer İşareti 1" için anahat düzeyi ataması kalır.
+// "Yer İşareti 1" için yalnızca anahat düzeyi tanımı kalacak şekilde iki öğeyi kaldırabiliriz.
 outlineLevels.RemoveAt(2);
 outlineLevels.Remove("Bookmark 2");
 
-// Dokuz anahat düzeyi vardır. Kaydetme işlemi sırasında numaralandırmaları optimize edilecektir.
+// Dokuz anahat seviyesi vardır. Numaralandırmaları kaydetme işlemi sırasında optimize edilecektir.
 // Bu durumda "5" ve "9" seviyeleri "2" ve "3" olacaktır.
 outlineLevels.Add("Bookmark 2", 5);
 outlineLevels.Add("Bookmark 3", 9);
 
 doc.Save(ArtifactsDir + "BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
-// Bu koleksiyonun boşaltılması yer imlerini koruyacak ve hepsini aynı anahat düzeyine koyacaktır.
+// Bu koleksiyonu boşaltmak yer imlerini koruyacak ve hepsini aynı anahat düzeyine yerleştirecektir.
 outlineLevels.Clear();
 ```
 

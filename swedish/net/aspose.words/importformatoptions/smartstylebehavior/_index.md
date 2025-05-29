@@ -3,14 +3,14 @@ title: ImportFormatOptions.SmartStyleBehavior
 linktitle: SmartStyleBehavior
 articleTitle: SmartStyleBehavior
 second_title: Aspose.Words för .NET
-description: ImportFormatOptions SmartStyleBehavior fast egendom. Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll och måldokument. Standardvärdet ärfalsk  i C#.
+description: Upptäck hur egenskapen ImportFormatOptions SmartStyleBehavior optimerar stilimporter med lika namn i dokument. Anpassa din importprocess utan ansträngning!
 type: docs
 weight: 80
 url: /sv/net/aspose.words/importformatoptions/smartstylebehavior/
 ---
 ## ImportFormatOptions.SmartStyleBehavior property
 
-Hämtar eller ställer in ett booleskt värde som anger hur stilar kommer att importeras när de har samma namn i käll- och måldokument. Standardvärdet är`falsk` .
+Hämtar eller ställer in ett booleskt värde som anger hur stilar importeras när de har samma namn i käll- och destinationsdokument. Standardvärdet är`falsk` .
 
 ```csharp
 public bool SmartStyleBehavior { get; set; }
@@ -18,13 +18,13 @@ public bool SmartStyleBehavior { get; set; }
 
 ## Anmärkningar
 
-När detta alternativ är**aktiverad** , kommer källformatet att utökas till ett direktattribut inuti a destinationsdokument, omKeepSourceFormatting importläge används.
+När det här alternativet är**aktiverad** , kommer källstilen att utökas till ett direkt attribut inuti destinationsdokumentet a , omKeepSourceFormatting importläget används.
 
-När detta alternativ är**Inaktiverad**, kommer källformatet att utökas endast om det är numrerat. Befintliga destinationsattribut kommer inte att åsidosättas, inklusive listor.
+När det här alternativet är**funktionshindrad**, källstilen kommer endast att expanderas om den är numrerad. Existing destinationattribut kommer inte att åsidosättas, inklusive listor.
 
 ## Exempel
 
-Visar hur du löser dubbletter av stilar när du infogar dokument.
+Visar hur man åtgärdar dubbletter av format när man infogar dokument.
 
 ```csharp
 Document dstDoc = new Document();
@@ -38,14 +38,14 @@ myStyle.Font.Color = Color.Blue;
 builder.ParagraphFormat.StyleName = myStyle.Name;
 builder.Writeln("Hello world!");
 
-// Klona dokumentet och redigera klonens "MyStyle"-stil, så det är en annan färg än originalets.
-// Om vi infogar klonen i originaldokumentet kommer de två stilarna med samma namn att orsaka en konflikt.
+// Klona dokumentet och redigera klonens "MyStyle"-stil så att den har en annan färg än originalets.
+// Om vi infogar klonen i originaldokumentet kommer de två stilarna med samma namn att orsaka en kollision.
 Document srcDoc = dstDoc.Clone();
 srcDoc.Styles["MyStyle"].Font.Color = Color.Red;
 
 // När vi aktiverar SmartStyleBehavior och använder importformatläget KeepSourceFormatting,
-// Aspose.Words kommer att lösa stilkrockar genom att konvertera källdokumentstilar.
-// med samma namn som målstilar till direkta styckeattribut.
+// Aspose.Words löser stilkrockar genom att konvertera källdokumentets stilar.
+// med samma namn som destinationsformat till direkta styckeattribut.
 ImportFormatOptions options = new ImportFormatOptions();
 options.SmartStyleBehavior = true;
 

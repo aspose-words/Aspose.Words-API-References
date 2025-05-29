@@ -2,15 +2,15 @@
 title: ReplacingArgs.GroupName
 linktitle: GroupName
 articleTitle: GroupName
-second_title: Aspose.Words for .NET
-description: ReplacingArgs GroupName mülk. Yakalanan bir grubu adıyla tanımlar.Match ile değiştirilecekReplacement dize C#'da.
+second_title: .NET için Aspose.Words
+description: Eşleşmelerinizdeki yakalanan grupları özel dizelerle değiştirmek için GroupName özelliğini etkili bir şekilde nasıl kullanacağınızı keşfedin. Dize işleme becerilerinizi geliştirin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.replacing/replacingargs/groupname/
 ---
 ## ReplacingArgs.GroupName property
 
-Yakalanan bir grubu adıyla tanımlar.[`Match`](../match/) ile değiştirilecek[`Replacement`](../replacement/) dize.
+Yakalanan bir grubu adıyla tanımlar[`Match`](../match/) ile değiştirilecek olan[`Replacement`](../replacement/) dize.
 
 ```csharp
 public string GroupName { get; set; }
@@ -18,9 +18,9 @@ public string GroupName { get; set; }
 
 ## Notlar
 
-Grup adı ne zaman`hükümsüz` ,[`GroupIndex`](../groupindex/) Grubu tanımlamak için kullanılır.
+Grup adı olduğunda`hükümsüz` ,[`GroupIndex`](../groupindex/) Grubu tanımlamak için kullanılır.
 
-Varsayılan:`hükümsüz`.
+Varsayılan`hükümsüz`.
 
 ## Örnekler
 
@@ -36,10 +36,10 @@ public void ConvertNumbersToHexadecimal()
     builder.Writeln("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\n" +
                     "123, 456, 789 and 17379.");
 
-    // Bul ve değiştir işlemini değiştirmek için bir "FindReplaceOptions" nesnesi kullanabiliriz.
+    // Bul ve değiştir işlemini değiştirmek için "FindReplaceOptions" nesnesini kullanabiliriz.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz arka plan rengine ayarlayın.
+    // "HighlightColor" özelliğini, işlemin sonuç metnine uygulamak istediğimiz bir arka plan rengine ayarlayın.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,7 +57,7 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sayısal bulma ve değiştirme eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
+/// Sayısal bul-değiştir eşleşmelerini onaltılık eşdeğerleriyle değiştirir.
 /// Her değişimin kaydını tutar.
 /// </summary>
 private class NumberHexer : IReplacingCallback

@@ -3,14 +3,14 @@ title: Document.FontSettings
 linktitle: FontSettings
 articleTitle: FontSettings
 second_title: Aspose.Words لـ .NET
-description: Document FontSettings ملكية. الحصول على إعدادات خط المستند أو تعيينها في C#.
+description: اكتشف كيفية تخصيص إعدادات خطوط المستندات بسهولة. حسّن مستنداتك بخيارات خطوط مُخصصة لتحسين سهولة القراءة والأسلوب.
 type: docs
-weight: 140
+weight: 150
 url: /ar/net/aspose.words/document/fontsettings/
 ---
 ## Document.FontSettings property
 
-الحصول على إعدادات خط المستند أو تعيينها.
+يحصل على إعدادات خط المستند أو يعينها.
 
 ```csharp
 public FontSettings FontSettings { get; set; }
@@ -18,13 +18,13 @@ public FontSettings FontSettings { get; set; }
 
 ## ملاحظات
 
-تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم تعيينه على`باطل` إعدادات الخط الثابت الافتراضي [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سوف يستخدم.
+تسمح هذه الخاصية بتحديد إعدادات الخط لكل مستند. إذا تم ضبطها على`باطل` ، إعدادات الخط الثابت الافتراضية [`DefaultInstance`](../../../aspose.words.fonts/fontsettings/defaultinstance/) سيتم استخدامها.
 
 القيمة الافتراضية هي`باطل`.
 
 ## أمثلة
 
-يوضح كيفية ضبط قواعد استبدال الخط.
+يوضح كيفية تعيين قواعد استبدال الخط.
 
 ```csharp
 Document doc = new Document();
@@ -37,28 +37,28 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// تحتوي مصادر الخطوط الافتراضية على الخط الأول الذي يستخدمه المستند.
+//تحتوي مصادر الخط الافتراضية على الخط الأول الذي تستخدمه المستند.
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 
-// الخط الثاني، "Amethysta"، غير متوفر.
+// الخط الثاني "Amethysta" غير متوفر.
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
 
-// يمكننا تكوين جدول استبدال الخطوط الذي يحدد
-// الخطوط التي سيستخدمها Aspose.Words كبدائل للخطوط غير المتوفرة.
-// قم بتعيين خطين بديلين لـ "Amethysta": "Arvo" و"Courier New".
+// يمكننا تكوين جدول استبدال الخط الذي يحدد
+// ما هي الخطوط التي سيستخدمها Aspose.Words كبدائل للخطوط غير المتوفرة.
+// تعيين خطين بديلين لـ "Amethysta": "Arvo"، و"Courier New".
 // إذا كان البديل الأول غير متاح، يحاول Aspose.Words استخدام البديل الثاني، وهكذا.
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
- // "Amethysta" غير متاح، وتنص قاعدة الاستبدال على أن الخط الأول الذي سيتم استخدامه كبديل هو "Arvo".
+ // "Amethysta" غير متوفر، وقاعدة الاستبدال تنص على أن الخط الأول الذي يجب استخدامه كبديل هو "Arvo".
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
- // "Arvo" غير متاح أيضًا، ولكن "Courier New" متاح أيضًا.
+ // "Arvo" غير متوفر أيضًا، ولكن "Courier New" متوفر.
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// سيعرض مستند الإخراج النص الذي يستخدم الخط "Amethysta" المنسق باستخدام "Courier New".
+// ستعرض وثيقة الإخراج النص الذي يستخدم الخط "Amethysta" بتنسيق "Courier New".
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
 ```
 

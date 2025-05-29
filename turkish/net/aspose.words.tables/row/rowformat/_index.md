@@ -2,8 +2,8 @@
 title: Row.RowFormat
 linktitle: RowFormat
 articleTitle: RowFormat
-second_title: Aspose.Words for .NET
-description: Row RowFormat mülk. Satırın biçimlendirme özelliklerine erişim sağlar C#'da.
+second_title: .NET için Aspose.Words
+description: Özelleştirilebilir satır biçimlendirme seçeneklerine kolayca erişmek ve verilerinizin sunumunu zahmetsizce geliştirmek için Row RowFormat özelliğini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.tables/row/rowformat/
@@ -18,7 +18,7 @@ public RowFormat RowFormat { get; }
 
 ## Örnekler
 
-Bir tablo satırının formatının nasıl değiştirileceğini gösterir.
+Bir tablo satırının biçimlendirmesinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
@@ -33,7 +33,7 @@ firstRow.RowFormat.AllowBreakAcrossPages = true;
 doc.Save(ArtifactsDir + "Table.RowFormat.docx");
 ```
 
-Bir tablodaki satırların ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
+Bir tablodaki satır ve hücrelerin biçiminin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -52,12 +52,12 @@ builder.Write("U.K.");
 builder.EndTable();
 
 // Biçimlendirmeyi değiştirmek için ilk satırın "RowFormat" özelliğini kullanın
-// bu satırdaki tüm hücrelerin içeriği.
+// Bu satırdaki tüm hücrelerin içerikleri.
 RowFormat rowFormat = table.FirstRow.RowFormat;
 rowFormat.Height = 25;
 rowFormat.Borders[BorderType.Bottom].Color = Color.Red;
 
-// Hücrenin içeriğinin biçimlendirmesini değiştirmek için son satırdaki ilk hücrenin "CellFormat" özelliğini kullanın.
+// Son satırdaki ilk hücrenin "CellFormat" özelliğini kullanarak o hücrenin içeriğinin biçimlendirmesini değiştirin.
 CellFormat cellFormat = table.LastRow.FirstCell.CellFormat;
 cellFormat.Width = 100;
 cellFormat.Shading.BackgroundPatternColor = Color.Orange;

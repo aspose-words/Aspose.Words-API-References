@@ -3,14 +3,14 @@ title: SignatureLineOptions.Email
 linktitle: Email
 articleTitle: Email
 second_title: Aspose.Words för .NET
-description: SignatureLineOptions Email fast egendom. Hämtar eller ställer in den föreslagna undertecknarens epostadress. Standardvärdet för den här egenskapen ärtom sträng Empty i C#.
+description: Hantera enkelt föreslagna e-postadresser för undertecknare med SignatureLineOptions. Förbättra ditt e-postarbetsflöde med anpassningsbara alternativ för smidig kommunikation.
 type: docs
 weight: 40
 url: /sv/net/aspose.words/signaturelineoptions/email/
 ---
 ## SignatureLineOptions.Email property
 
-Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är**tom sträng** (Empty).
+Hämtar eller ställer in den föreslagna undertecknarens e-postadress. Standardvärdet för den här egenskapen är**tom sträng** (Empty ).
 
 ```csharp
 public string Email { get; set; }
@@ -56,7 +56,7 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Öppna vårt sparade dokument igen och kontrollera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
+// Öppna vårt sparade dokument igen och verifiera att egenskaperna "IsSigned" och "IsValid" båda är lika med "true",
 // indikerar att signaturraden innehåller en signatur.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);

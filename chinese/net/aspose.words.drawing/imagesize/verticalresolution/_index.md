@@ -2,15 +2,15 @@
 title: ImageSize.VerticalResolution
 linktitle: VerticalResolution
 articleTitle: VerticalResolution
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSize VerticalResolution 财产. 获取垂直分辨率以 DPI 为单位 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ImageSize VerticalResolution 属性以轻松访问垂直 DPI 分辨率，从而提高图像质量和性能。
 type: docs
 weight: 50
 url: /zh/net/aspose.words.drawing/imagesize/verticalresolution/
 ---
 ## ImageSize.VerticalResolution property
 
-获取垂直分辨率（以 DPI 为单位）。
+获取 DPI 中的垂直分辨率。
 
 ```csharp
 public double VerticalResolution { get; }
@@ -18,18 +18,18 @@ public double VerticalResolution { get; }
 
 ## 例子
 
-演示如何读取形状中图像的属性。
+展示如何读取形状中图像的属性。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 将一个形状插入到文档中，其中包含从本地文件系统获取的图像。
+// 将包含从我们的本地文件系统获取的图像的形状插入到文档中。
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 
-// 如果形状包含图像，则其 ImageData 属性将有效，
+// 如果形状包含图像，其 ImageData 属性将有效，
 // 它将包含一个 ImageSize 对象。
-ImageSize imageSize = shape.ImageData.ImageSize; 
+ImageSize imageSize = shape.ImageData.ImageSize;
 
 // ImageSize 对象包含有关形状内图像的只读信息。
 Assert.AreEqual(400, imageSize.HeightPixels);

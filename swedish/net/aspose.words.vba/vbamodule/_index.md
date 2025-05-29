@@ -3,14 +3,14 @@ title: VbaModule Class
 linktitle: VbaModule
 articleTitle: VbaModule
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Vba.VbaModule klass. Ger tillgång till VBAprojektmodul i C#.
+description: Lås upp kraften i Aspose.Words.Vba.VbaModule för sömlös åtkomst till dina VBA-projektmoduler. Öka produktiviteten och effektivisera din dokumentautomation!
 type: docs
-weight: 6550
+weight: 7400
 url: /sv/net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
 
-Ger tillgång till VBA-projektmodul.
+Ger åtkomst till VBA-projektmodulen.
 
 För att lära dig mer, besök[Arbeta med VBA-makron](https://docs.aspose.com/words/net/working-with-vba-macros/) dokumentationsartikel.
 
@@ -28,8 +28,8 @@ public class VbaModule
 
 | namn | Beskrivning |
 | --- | --- |
-| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | Hämtar eller ställer in VBA-projektmodulens namn. |
-| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | Hämtar eller ställer in VBA-projektmodulens källkod. |
+| [Name](../../aspose.words.vba/vbamodule/name/) { get; set; } | Hämtar eller ställer in VBA-projektets modulnamn. |
+| [SourceCode](../../aspose.words.vba/vbamodule/sourcecode/) { get; set; } | Hämtar eller ställer in källkoden för VBA-projektmodulen. |
 | [Type](../../aspose.words.vba/vbamodule/type/) { get; set; } | Anger om modulen är en procedurmodul, dokumentmodul, klassmodul eller designermodul. |
 
 ## Metoder
@@ -51,14 +51,14 @@ Console.WriteLine(vbaProject.IsSigned
     ? $"Project name: {vbaProject.Name} signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n"
     : $"Project name: {vbaProject.Name} not signed; Project code page: {vbaProject.CodePage}; Modules count: {vbaProject.Modules.Count()}\n");
 
-VbaModuleCollection vbaModules = doc.VbaProject.Modules; 
+VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
 Assert.AreEqual(vbaModules.Count(), 3);
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");
 
-// Ställ in ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen med index eller namn.
+// Ange ny källkod för VBA-modulen. Du kan komma åt VBA-moduler i samlingen antingen via index eller namn.
 vbaModules[0].SourceCode = "Your VBA code...";
 vbaModules["Module1"].SourceCode = "Your VBA code...";
 

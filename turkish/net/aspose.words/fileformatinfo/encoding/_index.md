@@ -2,15 +2,15 @@
 title: FileFormatInfo.Encoding
 linktitle: Encoding
 articleTitle: Encoding
-second_title: Aspose.Words for .NET
-description: FileFormatInfo Encoding mülk. Geçerli belge biçimine uygunsa algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge kodlamasını zahmetsizce tanımlamak için FileFormatInfo Encoding özelliğini keşfedin. Şu anda doğru sonuçlar için HTML formatlarını destekler.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/fileformatinfo/encoding/
 ---
 ## FileFormatInfo.Encoding property
 
-Geçerli belge biçimine uygunsa, algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar.
+Geçerli belge biçimine uygulanabilirse algılanan kodlamayı alır. Şu anda yalnızca HTML belgeleri için kodlamayı algılar.
 
 ```csharp
 public Encoding Encoding { get; }
@@ -18,7 +18,7 @@ public Encoding Encoding { get; }
 
 ## Örnekler
 
-Bir html dosyasındaki kodlamanın nasıl algılanacağını gösterir.
+Bir html dosyasındaki kodlamanın nasıl tespit edileceğini gösterir.
 
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");

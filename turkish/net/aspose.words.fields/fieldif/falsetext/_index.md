@@ -2,15 +2,15 @@
 title: FieldIf.FalseText
 linktitle: FalseText
 articleTitle: FalseText
-second_title: Aspose.Words for .NET
-description: FieldIf FalseText mülk. Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.YANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: FieldIf FalseText özelliğini keşfedin, yanlış karşılaştırmalar için görüntülenen metni kolayca yönetin, uygulamalarınızda kullanıcı deneyimini ve işlevselliği artırın.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fields/fieldif/falsetext/
 ---
 ## FieldIf.FalseText property
 
-Karşılaştırma ifadesi ise görüntülenen metni alır veya ayarlar.`YANLIŞ` .
+Karşılaştırma ifadesinin görüntülenmesi durumunda görüntülenecek metni alır veya ayarlar`YANLIŞ` .
 
 ```csharp
 public string FalseText { get; set; }
@@ -18,7 +18,7 @@ public string FalseText { get; set; }
 
 ## Örnekler
 
-IF alanının nasıl ekleneceğini gösterir.
+Bir IF alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -30,13 +30,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// IF alanı "TrueText" özelliğinden bir dize görüntüleyecektir,
-// veya oluşturduğumuz ifadenin doğruluğuna bağlı olarak "FalseText" özelliği.
+// IF alanı, "TrueText" özelliğinden bir dize görüntüler,
+// veya oluşturduğumuz ifadenin doğruluğuna bağlı olarak onun "FalseText" özelliği.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Bu durumda "0 = 1" yanlış olduğundan görüntülenen sonuç "Yanlış" olacaktır.
+// Bu durumda "0 = 1" yanlıştır, dolayısıyla görüntülenen sonuç "False" olacaktır.
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -50,7 +50,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Bu sefer ifade doğrudur, dolayısıyla görüntülenen sonuç "Doğru" olacaktır.
+// Bu sefer ifade doğru olduğundan görüntülenen sonuç "True" olacaktır.
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

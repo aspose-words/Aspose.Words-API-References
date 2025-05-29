@@ -3,14 +3,14 @@ title: DocumentBuilder.CurrentSection
 linktitle: CurrentSection
 articleTitle: CurrentSection
 second_title: Aspose.Words для .NET
-description: DocumentBuilder CurrentSection свойство. Получает раздел выбранный в данный момент в этомDocumentBuilder  на С#.
+description: Откройте для себя свойство DocumentBuilder CurrentSection, которое позволяет легко получать доступ к выбранному разделу документа и управлять им, что расширяет возможности редактирования.
 type: docs
 weight: 60
 url: /ru/net/aspose.words/documentbuilder/currentsection/
 ---
 ## DocumentBuilder.CurrentSection property
 
-Получает раздел, выбранный в данный момент в этом[`DocumentBuilder`](../) .
+Получает раздел, который в данный момент выбран в этом[`DocumentBuilder`](../) .
 
 ```csharp
 public Section CurrentSection { get; }
@@ -27,23 +27,23 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 
-// Настраиваем свойство «RelativeHorizontalPosition» фигуры для обработки значения свойства «Left».
- // как горизонтальное расстояние фигуры в пунктах от левой части страницы.
+// Настройте свойство "RelativeHorizontalPosition" фигуры для обработки значения свойства "Left"
+ // как горизонтальное расстояние фигуры в пунктах от левого края страницы.
 shape.RelativeHorizontalPosition = RelativeHorizontalPosition.Page;
 
-// Установите горизонтальное расстояние фигуры от левой части страницы до 100.
+// Установите горизонтальное расстояние фигуры от левого края страницы на 100.
 shape.Left = 100;
 
-// Используйте свойство RelativeVerticalPosition аналогичным образом, чтобы расположить фигуру на 80 пунктов ниже верхнего края страницы.
+// Используйте свойство "RelativeVerticalPosition" аналогичным образом, чтобы расположить фигуру на 80 пунктов ниже верхней части страницы.
 shape.RelativeVerticalPosition = RelativeVerticalPosition.Page;
 shape.Top = 80;
 
-// Установите высоту фигуры, которая автоматически масштабирует ширину для сохранения размеров.
+// Задайте высоту фигуры, которая автоматически масштабирует ширину для сохранения размеров.
 shape.Height = 125;
 
 Assert.AreEqual(125.0d, shape.Width);
 
-// Свойства «Низ» и «Правый» содержат нижний и правый края изображения.
+// Свойства «Bottom» и «Right» содержат нижний и правый края изображения.
 Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
 Assert.AreEqual(shape.Left + shape.Width, shape.Right);
 

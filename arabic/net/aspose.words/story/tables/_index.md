@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words لـ .NET
-description: Story Tables ملكية. الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة في C#.
+description: اكتشف Story Tables، وهي عبارة عن مجموعة مختارة من الجداول المرتبطة مباشرة بقصتك، مما يعزز التنظيم والمشاركة بسهولة.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-الحصول على مجموعة من الجداول التي تعتبر أبناء القصة مباشرة.
+يحصل على مجموعة من الجداول التي تعتبر أبناءًا مباشرين للقصة.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## أمثلة
 
-يوضح كيفية إزالة الصفين الأول والأخير من كافة الجداول في المستند.
+يوضح كيفية إزالة الصفوف الأولى والأخيرة من كافة الجداول في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

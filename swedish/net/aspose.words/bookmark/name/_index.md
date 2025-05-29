@@ -3,14 +3,14 @@ title: Bookmark.Name
 linktitle: Name
 articleTitle: Name
 second_title: Aspose.Words för .NET
-description: Bookmark Name fast egendom. Hämtar eller ställer in namnet på bokmärket i C#.
+description: Hantera dina bokmärken enkelt med Bokmärkesnamn. Ställ enkelt in eller uppdatera dina bokmärkesnamn för bättre organisation och snabb åtkomst.
 type: docs
 weight: 60
 url: /sv/net/aspose.words/bookmark/name/
 ---
 ## Bookmark.Name property
 
-Hämtar eller ställer in namnet på bokmärket.
+Hämtar eller anger namnet på bokmärket.
 
 ```csharp
 public string Name { get; set; }
@@ -18,31 +18,31 @@ public string Name { get; set; }
 
 ## Anmärkningar
 
-Observera att om du ändrar namnet på ett bokmärke till ett namn som redan finns i dokumentet, kommer inget fel att ges och endast det första bokmärket kommer att lagras när du sparar dokumentet.
+Observera att om du ändrar namnet på ett bokmärke till ett namn som redan finns i dokumentet, kommer inget felmeddelande att visas och endast det första bokmärket kommer att lagras när du sparar dokumentet.
 
 ## Exempel
 
-Visar hur man infogar ett bokmärke.
+Visar hur man lägger till ett bokmärke.
 
 ```csharp
 Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);            
+DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Ett giltigt bokmärke har ett namn, en BookmarkStart och en BookmarkEnd-nod.
-// Alla blanksteg i namnen på bokmärken kommer att konverteras till understreck om vi öppnar det sparade dokumentet med Microsoft Word.
-// Om vi markerar bokmärkets namn i Microsoft Word via Infoga -> Länkar -> Bokmärk och tryck på "Gå till",
-// markören hoppar till texten mellan BookmarkStart och BookmarkEnd noderna.
+// Alla blanksteg i namnen på bokmärken konverteras till understreck om vi öppnar det sparade dokumentet med Microsoft Word.
+// Om vi markerar bokmärkets namn i Microsoft Word via Infoga -> Länkar -> Bokmärke och trycker på "Gå till",
+// markören hoppar till texten som finns mellan noderna BookmarkStart och BookmarkEnd.
 builder.StartBookmark("My Bookmark");
 builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
-// Bokmärken lagras i denna samling.
+// Bokmärken lagras i den här samlingen.
 Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```
 
-Visar hur du lägger till bokmärken och uppdaterar deras innehåll.
+Visar hur man lägger till bokmärken och uppdaterar deras innehåll.
 
 ```csharp
 public void CreateUpdateAndPrintBookmarks()
@@ -52,7 +52,7 @@ public void CreateUpdateAndPrintBookmarks()
     BookmarkCollection bookmarks = doc.Range.Bookmarks;
     PrintAllBookmarkInfo(bookmarks);
 
-    // Bokmärken kan nås i bokmärkessamlingen genom index eller namn, och deras namn kan uppdateras.
+    // Bokmärken kan nås i bokmärkessamlingen via index eller namn, och deras namn kan uppdateras.
     bookmarks[0].Name = $"{bookmarks[0].Name}_NewName";
     bookmarks["MyBookmark_2"].Text = $"Updated text contents of {bookmarks[1].Name}";
 
@@ -89,7 +89,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 {
     BookmarkInfoPrinter bookmarkVisitor = new BookmarkInfoPrinter();
 
-    // Skaffa varje bokmärke i samlingen för att acceptera en besökare som skriver ut dess innehåll.
+    // Få varje bokmärke i samlingen att acceptera en besökare som skriver ut dess innehåll.
     using (IEnumerator<Bookmark> enumerator = bookmarks.GetEnumerator())
     {
         while (enumerator.MoveNext())
@@ -108,7 +108,7 @@ private static void PrintAllBookmarkInfo(BookmarkCollection bookmarks)
 }
 
 /// <summary>
-/// Skriver ut innehållet i alla besökta bokmärken till konsolen.
+/// Skriver ut innehållet i varje besökt bokmärke till konsolen.
 /// </summary>
 public class BookmarkInfoPrinter : DocumentVisitor
 {

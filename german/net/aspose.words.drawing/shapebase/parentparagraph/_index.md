@@ -3,9 +3,9 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words für .NET
-description: ShapeBase ParentParagraph eigendom. Gibt den unmittelbar übergeordneten Absatz zurück in C#.
+description: Entdecken Sie die ShapeBase ParentParagraph-Eigenschaft – greifen Sie effizient auf den unmittelbar übergeordneten Absatz zu, um die Inhaltsverwaltung zu optimieren und die Organisation zu verbessern.
 type: docs
-weight: 410
+weight: 430
 url: /de/net/aspose.words.drawing/shapebase/parentparagraph/
 ---
 ## ShapeBase.ParentParagraph property
@@ -18,11 +18,11 @@ public Paragraph ParentParagraph { get; }
 
 ## Bemerkungen
 
-Für untergeordnete Formen einer Gruppenform und untergeordnete Formen eines Office Math-Objekts wird immer zurückgegeben`Null`.
+Für untergeordnete Formen einer Gruppenform und untergeordnete Formen eines Office Math-Objekts gibt immer`null`.
 
 ## Beispiele
 
-Zeigt, wie man ein Textfeld einfügt und die Schriftart seines Inhalts festlegt.
+Zeigt, wie Sie ein Textfeld einfügen und die Schriftart seines Inhalts festlegen.
 
 ```csharp
 Document doc = new Document();
@@ -34,12 +34,12 @@ Shape shape = builder.InsertShape(ShapeType.TextBox, 300, 50);
 builder.MoveTo(shape.LastParagraph);
 builder.Write("This text is inside the text box.");
 
-// Setzen Sie die „Hidden“-Eigenschaft des „Font“-Objekts der Form auf „true“, um das Textfeld vor den Augen zu verbergen
+// Setzen Sie die Eigenschaft „Hidden“ des Objekts „Font“ der Form auf „true“, um das Textfeld auszublenden
 // und reduzieren Sie den Platz, den es normalerweise einnehmen würde.
 // Setzen Sie die Eigenschaft „Hidden“ des „Font“-Objekts der Form auf „false“, um das Textfeld sichtbar zu lassen.
 shape.Font.Hidden = hideShape;
 
-// Wenn die Form sichtbar ist, ändern wir ihr Aussehen über das Schriftartobjekt.
+// Wenn die Form sichtbar ist, ändern wir ihr Erscheinungsbild über das Schriftobjekt.
 if (!hideShape)
 {
     shape.Font.HighlightColor = Color.LightGray;
@@ -47,7 +47,7 @@ if (!hideShape)
     shape.Font.Underline = Underline.Dash;
 }
 
-// Den Builder aus dem Textfeld zurück in das Hauptdokument verschieben.
+// Verschieben Sie den Builder aus dem Textfeld zurück in das Hauptdokument.
 builder.MoveTo(shape.ParentParagraph);
 
 builder.Writeln("\nThis text is outside the text box.");

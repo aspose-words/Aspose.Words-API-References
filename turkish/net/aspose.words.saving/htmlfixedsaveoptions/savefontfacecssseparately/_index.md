@@ -2,15 +2,15 @@
 title: HtmlFixedSaveOptions.SaveFontFaceCssSeparately
 linktitle: SaveFontFaceCssSeparately
 articleTitle: SaveFontFaceCssSeparately
-second_title: Aspose.Words for .NET
-description: HtmlFixedSaveOptions SaveFontFaceCssSeparately mülk. Bayrak bir belge harici stil sayfasıyla kaydedilirken fontface CSS kurallarının ayrı bir fontFaces.css dosyasına yerleştirilmesi gerekip gerekmediğini belirtir yaniExportEmbeddedCss YANLIŞ . Varsayılan değerYANLIŞ  tüm CSS kuralları tek bir styles.css dosyasına yazılır C#'da.
+second_title: .NET için Aspose.Words
+description: SaveFontFaceCssSeparately özelliğinin, daha temiz dışa aktarımlar için yazı tipi kurallarını ayrı bir dosyaya kaydederek belgenizin CSS yönetimini nasıl optimize ettiğini keşfedin.
 type: docs
-weight: 160
+weight: 180
 url: /tr/net/aspose.words.saving/htmlfixedsaveoptions/savefontfacecssseparately/
 ---
 ## HtmlFixedSaveOptions.SaveFontFaceCssSeparately property
 
-Bayrak, bir belge harici stil sayfasıyla kaydedilirken "@font-face" CSS kurallarının ayrı bir "fontFaces.css" dosyasına yerleştirilmesi gerekip gerekmediğini belirtir (yani,[`ExportEmbeddedCss`](../exportembeddedcss/) :`YANLIŞ` ). Varsayılan değer:`YANLIŞ` , tüm CSS kuralları tek bir "styles.css" dosyasına yazılır.
+Bayrağı, bir belge harici stil sayfasıyla kaydedildiğinde (yani, "@font-face" CSS kurallarının ayrı bir "fontFaces.css" dosyasına yerleştirilip yerleştirilmeyeceğini belirtir.[`ExportEmbeddedCss`](../exportembeddedcss/) şudur`YANLIŞ` ). Varsayılan değer`YANLIŞ` , tüm CSS kuralları tek bir dosyaya yazılır "styles.css".
 
 ```csharp
 public bool SaveFontFaceCssSeparately { get; set; }
@@ -18,11 +18,11 @@ public bool SaveFontFaceCssSeparately { get; set; }
 
 ## Notlar
 
-Bu özelliği şuna ayarlıyoruz:`doğru` eski kodla uyumluluk için eski davranışı (ayrı dosyalar) geri yükler.
+Bu özelliği şu şekilde ayarlamak:`doğru` eski davranışı (ayrı dosyaları) eski kodla uyumluluk için geri yükler.
 
 ## Örnekler
 
-CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıfı adlarına nasıl önek ekleneceğini gösterir.
+CSS'nin ayrı bir dosyaya nasıl yerleştirileceğini ve tüm CSS sınıf adlarına bir önek nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Bookmarks.docx");

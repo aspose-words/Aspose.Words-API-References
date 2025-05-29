@@ -3,16 +3,16 @@ title: MailMergeSettings Class
 linktitle: MailMergeSettings
 articleTitle: MailMergeSettings
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Settings.MailMergeSettings klass. Anger all kopplingsinformation för ett dokument i C#.
+description: Upptäck klassen Aspose.Words.MailMergeSettings för att effektivisera dokumentautomation med kraftfulla funktioner för dokumentkoppling och ökad effektivitet.
 type: docs
-weight: 5850
+weight: 6680
 url: /sv/net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
 
-Anger all kopplingsinformation för ett dokument.
+Anger all information om dokumentkoppling för ett dokument.
 
-För att lära dig mer, besök[Mail Merge och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
+För att lära dig mer, besök[Koppla dokument och rapportering](https://docs.aspose.com/words/net/mail-merge-and-reporting/) dokumentationsartikel.
 
 ```csharp
 public class MailMergeSettings
@@ -30,45 +30,45 @@ public class MailMergeSettings
 | --- | --- |
 | [ActiveRecord](../../aspose.words.settings/mailmergesettings/activerecord/) { get; set; } | Anger det enbaserade indexet för posten från datakällan som ska visas i Microsoft Word. Standardvärdet är 1. |
 | [AddressFieldName](../../aspose.words.settings/mailmergesettings/addressfieldname/) { get; set; } | Anger kolumnen i datakällan som innehåller e-postadresser. Standardvärdet är en tom sträng. |
-| [CheckErrors](../../aspose.words.settings/mailmergesettings/checkerrors/) { get; set; } | Anger vilken typ av felrapportering som ska utföras av Microsoft Word när en sammankoppling av e-post utförs. Standardvärdet ärDefault . |
+| [CheckErrors](../../aspose.words.settings/mailmergesettings/checkerrors/) { get; set; } | Anger vilken typ av felrapportering som ska utföras av Microsoft Word vid dokumentkoppling. Standardvärdet ärDefault . |
 | [ConnectString](../../aspose.words.settings/mailmergesettings/connectstring/) { get; set; } | Anger anslutningssträngen som används för att ansluta till en extern datakälla. Standardvärdet är en tom sträng. |
-| [DataSource](../../aspose.words.settings/mailmergesettings/datasource/) { get; set; } | Anger sökvägen till kopplingsdatakällan. Standardvärdet är en tom sträng. |
-| [DataType](../../aspose.words.settings/mailmergesettings/datatype/) { get; set; } | Anger typen av kopplingsdatakällan och metoden för dataåtkomst. Standardvärdet ärDefault . |
-| [Destination](../../aspose.words.settings/mailmergesettings/destination/) { get; set; } | Anger hur Microsoft Word kommer att mata ut resultaten av en e-postsammanfogning. Standardvärdet ärDefault . |
-| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines/) { get; set; } | Anger hur ett program som utför kopplingen ska hantera tomma rader i de sammanslagna dokumenten som är resultatet av kopplingen. Standardvärdet är`falsk` . |
-| [HeaderSource](../../aspose.words.settings/mailmergesettings/headersource/) { get; set; } | Anger sökvägen till källan för kopplingshuvudet. Standardvärdet är en tom sträng. |
-| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery/) { get; set; } | Inte säker på den här. Microsoft Word Automation Reference föreslår att denna anger att frågan exekveras varje gång dokumentet öppnas i Microsoft Word. Men OOXML-specifikationen antyder att denna anger att frågan innehåller en referens till en extern frågefil som innehåller den faktiska frågan. Standardvärdet är`falsk` . |
-| [MailAsAttachment](../../aspose.words.settings/mailmergesettings/mailasattachment/) { get; set; } | Anger att dokumenten som skapas under en sammankopplingsåtgärd ska skickas som en bilaga via e-post snarare än själva e-postmeddelandets brödtext. Standardvärdet är`falsk` . |
-| [MailSubject](../../aspose.words.settings/mailmergesettings/mailsubject/) { get; set; } | Anger texten som ska visas i ämnesraden för e-postmeddelanden eller fax som produceras under sammanslagningen. Standardvärdet är en tom sträng. |
-| [MainDocumentType](../../aspose.words.settings/mailmergesettings/maindocumenttype/) { get; set; } | Anger huvuddokumenttypen för sammankoppling. Standardvärdet ärDefault . |
-| [Odso](../../aspose.words.settings/mailmergesettings/odso/) { get; set; } | Hämtar eller ställer in objektet som anger ODSO-inställningarna (Office Data Source Object). |
-| [Query](../../aspose.words.settings/mailmergesettings/query/) { get; set; } | Innehåller Structured Query Language-strängen som ska köras mot den angivna externa datakällan för att returnera den uppsättning poster som ska importeras till dokumentet när kopplingsoperationen utförs. Standardvärdet är en tom sträng. |
-| [ViewMergedData](../../aspose.words.settings/mailmergesettings/viewmergeddata/) { get; set; } | Anger att Microsoft Word ska visa data från den angivna externa datakällan där sammanslagningsfälten har infogats (t.ex. förhandsgranska sammanslagna data). Standardvärdet är`falsk` . |
+| [DataSource](../../aspose.words.settings/mailmergesettings/datasource/) { get; set; } | Anger sökvägen till datakällan för dokumentkopplingen. Standardvärdet är en tom sträng. |
+| [DataType](../../aspose.words.settings/mailmergesettings/datatype/) { get; set; } | Anger typen av datakälla för dokumentkoppling och metoden för dataåtkomst. Standardvärdet ärDefault . |
+| [Destination](../../aspose.words.settings/mailmergesettings/destination/) { get; set; } | Anger hur Microsoft Word ska skriva ut resultatet av en dokumentkoppling. Standardvärdet ärDefault . |
+| [DoNotSupressBlankLines](../../aspose.words.settings/mailmergesettings/donotsupressblanklines/) { get; set; } | Anger hur ett program som utför dokumentkopplingen ska hantera tomma rader i de sammanfogade dokumenten som är resultatet av dokumentkopplingen. Standardvärdet är`falsk` . |
+| [HeaderSource](../../aspose.words.settings/mailmergesettings/headersource/) { get; set; } | Anger sökvägen till källan för headern för koppling av dokument. Standardvärdet är en tom sträng. |
+| [LinkToQuery](../../aspose.words.settings/mailmergesettings/linktoquery/) { get; set; } | Inte säker på den här. Microsoft Word Automation Reference föreslår att detta anger att frågan körs varje gång dokumentet öppnas i Microsoft Word. Men OOXML-specifikationen föreslår att detta anger att frågan innehåller en referens till en extern frågefil som innehåller den faktiska frågan. Standardvärdet är`falsk` . |
+| [MailAsAttachment](../../aspose.words.settings/mailmergesettings/mailasattachment/) { get; set; } | Anger att dokument som skapas under en dokumentkoppling ska skickas via e-post som en bilaga snarare än som brödtexten i själva e-postmeddelandet. Standardvärdet är `falsk` . |
+| [MailSubject](../../aspose.words.settings/mailmergesettings/mailsubject/) { get; set; } | Anger texten som ska visas i ämnesraden för e-postmeddelanden eller fax som skapas under dokumentkopplingen. Standardvärdet är en tom sträng. |
+| [MainDocumentType](../../aspose.words.settings/mailmergesettings/maindocumenttype/) { get; set; } | Anger huvuddokumenttypen för dokumentkopplingen. Standardvärdet ärDefault . |
+| [Odso](../../aspose.words.settings/mailmergesettings/odso/) { get; set; } | Hämtar eller ställer in objektet som anger inställningarna för Office Data Source Object (ODSO). |
+| [Query](../../aspose.words.settings/mailmergesettings/query/) { get; set; } | Innehåller strängen för Structured Query Language som ska köras mot den angivna externa datakällan för att returnera den uppsättning poster som ska importeras till dokumentet när dokumentkopplingen utförs. Standardvärdet är en tom sträng. |
+| [ViewMergedData](../../aspose.words.settings/mailmergesettings/viewmergeddata/) { get; set; } | Anger att Microsoft Word ska visa data från den angivna externa datakällan där kopplingsfält har infogats (t.ex. förhandsgranska kopplingsdata). Standardvärdet är`falsk` . |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Rensar inställningarna för sammankoppling av dokument på ett sådant sätt att när dokumentet sparas, kommer inga sammanslagningsinställningar att sparas och det blir ett normalt dokument. |
+| [Clear](../../aspose.words.settings/mailmergesettings/clear/)() | Rensar inställningarna för koppling av dokument på ett sådant sätt att när dokumentet sparas, sparas inga inställningar för koppling av dokument och det blir ett normalt dokument. |
 | [Clone](../../aspose.words.settings/mailmergesettings/clone/)() | Returnerar en djup klon av detta objekt. |
 
 ## Anmärkningar
 
-Du kan använda det här objektet för att ange en kopplingsdatakälla för ett dokument och denna information (tillsammans med de tillgängliga datafälten) kommer att visas i Microsoft Word när användaren öppnar det här dokumentet. Eller så kan du använda det här objektet för att fråga inställningar för koppling av brev som användaren har angett i Microsoft Word för detta dokument.
+Du kan använda det här objektet för att ange en datakälla för kopplad dokument för ett dokument och denna information (tillsammans med tillgängliga datafält) visas i Microsoft Word när användaren öppnar dokumentet. Eller så kan du använda det här objektet för att fråga efter inställningar för kopplad dokument som användaren har angett i Microsoft Word för det här dokumentet.
 
-Du behöver normalt inte skapa objekt av den här klassen direkt eftersom inställningar för koppling av dokument för ett dokument alltid är tillgängliga via[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) fast egendom.
+Du behöver normalt inte skapa objekt av den här klassen direkt eftersom inställningarna för dokumentkoppling för ett dokument alltid är tillgängliga via[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) egendom.
 
-För att upptäcka om det här dokumentet är ett huvuddokument för sammankoppling av e-post, kontrollera värdet på [`MainDocumentType`](./maindocumenttype/) fast egendom.
+För att avgöra om det här dokumentet är ett huvuddokument för dokumentkoppling, kontrollera värdet för [`MainDocumentType`](./maindocumenttype/) egendom.
 
-För att ta bort sammanslagningsinställningar och datakällainformation från ett dokument kan du använda [`Clear`](./clear/) metod. Aspose.Words kommer inte att skriva sammanslagningsinställningar till ett dokument om [`MainDocumentType`](./maindocumenttype/) egenskapen är inställd påNotAMergeDocument eller[`DataType`](./datatype/) egenskapen är inställd påNone.
+För att ta bort inställningar för dokumentkoppling och datakällinformation från ett dokument kan du använda [`Clear`](./clear/) metod. Aspose.Words skriver inte inställningar för koppling av dokument till ett dokument om [`MainDocumentType`](./maindocumenttype/) egendomen är inställd påNotAMergeDocument eller den[`DataType`](./datatype/) egendomen är inställd påNone.
 
-Det bästa sättet att lära sig hur man använder egenskaperna för detta objekt är att skapa ett dokument med en önskad -datakälla manuellt i Microsoft Word och sedan öppna det dokumentet med Aspose.Words och undersöka egenskaperna för[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och[`Odso`](./odso/) föremål. Det här är ett bra tillvägagångssätt om du till exempel vill lära dig hur du programmatiskt konfigurerar en datakälla.
+Det bästa sättet att lära sig använda egenskaperna för det här objektet är att manuellt skapa ett dokument med en önskad -datakälla i Microsoft Word och sedan öppna dokumentet med Aspose.Words och undersöka egenskaperna för den.[`MailMergeSettings`](../../aspose.words/document/mailmergesettings/) och[`Odso`](./odso/) objekt. Detta är en bra metod att använda om du till exempel vill lära dig hur man programmatiskt konfigurerar en datakälla.
 
-Aspose.Words bevarar kopplingsinformation när du laddar, sparar och konverterar documents mellan olika format, men använder inte denna information när du utför sin egen kopplingsinformation med hjälp av[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objekt.
+Aspose.Words bevarar information om dokumentkoppling när den laddar, sparar och konverterar dokument mellan olika format, men använder inte denna information när den utför sin egen dokumentkoppling med hjälp av[`MailMerge`](../../aspose.words.mailmerging/mailmerge/) objekt.
 
 ## Exempel
 
-Visar hur man kör en sammankoppling med data från ett Office-datakällobjekt.
+Visar hur man utför en dokumentkoppling med data från ett Office-datakällobjekt.
 
 ```csharp
 Document doc = new Document();
@@ -81,9 +81,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Skapa en datakälla i form av en ASCII-fil, med "|" karaktär
-// fungerar som avgränsaren som separerar kolumner. Den första raden innehåller de tre kolumnernas namn,
-// och varje efterföljande rad är en rad med sina respektive värden.
+// Skapa en datakälla i form av en ASCII-fil, med tecknet "|"
+// fungerar som avgränsare som separerar kolumner. Den första raden innehåller namnen på de tre kolumnerna,
+// och varje efterföljande rad är en rad med deras respektive värden.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -111,7 +111,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Att öppna detta dokument i Microsoft Word kommer att köra sammanslagningen innan innehållet visas.
+ // Om du öppnar det här dokumentet i Microsoft Word körs dokumentkopplingen innan innehållet visas.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

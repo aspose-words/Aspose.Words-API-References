@@ -3,14 +3,14 @@ title: DocumentPartSavingArgs.DocumentPartFileName
 linktitle: DocumentPartFileName
 articleTitle: DocumentPartFileName
 second_title: Aspose.Words für .NET
-description: DocumentPartSavingArgs DocumentPartFileName eigendom. Ruft den Dateinamen ohne Pfad ab unter dem der Dokumentteil gespeichert wird oder legt ihn fest in C#.
+description: Entdecken Sie die DocumentPartFileName-Eigenschaft für DocumentPartSavingArgs. Verwalten Sie Dateinamen ganz einfach für nahtloses Speichern von Dokumentteilen ohne Pfade.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/documentpartsavingargs/documentpartfilename/
 ---
 ## DocumentPartSavingArgs.DocumentPartFileName property
 
-Ruft den Dateinamen (ohne Pfad) ab, unter dem der Dokumentteil gespeichert wird, oder legt ihn fest.
+Ruft den Dateinamen (ohne Pfad) ab oder legt ihn fest, unter dem der Dokumentteil gespeichert wird.
 
 ```csharp
 public string DocumentPartFileName { get; set; }
@@ -18,15 +18,15 @@ public string DocumentPartFileName { get; set; }
 
 ## Bemerkungen
 
-Mit dieser Eigenschaft können Sie neu definieren, wie die Dateinamen der Dokumentteile beim Export nach HTML oder EPUB generiert werden .
+Mit dieser Eigenschaft können Sie neu definieren, wie die Dateinamen der Dokumentteile beim Exportieren in HTML oder EPUB generiert werden .
 
-Wenn der Rückruf aufgerufen wird, enthält diese Eigenschaft den Dateinamen, der von Aspose.Words generiert wurde. Sie können den Wert dieser Eigenschaft ändern, um den Dokumentteil in einer anderen Datei zu speichern. Beachten Sie, dass der Dateiname für jedes Teil eindeutig sein muss.
+Wenn der Rückruf aufgerufen wird, enthält diese Eigenschaft den Dateinamen, der von Aspose.Words generiert wurde. Sie können den Wert dieser Eigenschaft ändern, um den Dokumentteil in einer anderen Datei zu speichern. Beachten Sie, dass der Dateiname für jeden Teil eindeutig sein muss.
 
-`DocumentPartFileName` darf nur den Dateinamen ohne Pfad enthalten. Aspose.Words bestimmt den Pfad zum Speichern anhand des Dokumentdateinamens. Wenn der Dateiname des Ausgabedokuments nicht angegeben wurde, beispielsweise beim Speichern in einem Stream, wird dieser Dateiname nur für die Referenzierung von Dokumentteilen verwendet. Das Gleiche gilt beim Speichern im EPUB-Format.
+`DocumentPartFileName` darf nur den Dateinamen ohne Pfad enthalten. Aspose.Words ermittelt den Speicherpfad anhand des Dokumentdateinamens. Wenn der Dateiname des Ausgabedokuments nicht angegeben wurde, z. B. beim Speichern in einem Stream, wird dieser Dateiname nur zum Referenzieren von Dokumentteilen verwendet. Dasselbe gilt beim Speichern im EPUB-Format.
 
 ## Beispiele
 
-Zeigt, wie man ein Dokument in Teile aufteilt und diese speichert.
+Zeigt, wie ein Dokument in Teile aufgeteilt und gespeichert wird.
 
 ```csharp
 public void DocumentPartsFileNames()
@@ -34,13 +34,13 @@ public void DocumentPartsFileNames()
     Document doc = new Document(MyDir + "Rendering.docx");
     string outFileName = "SavingCallback.DocumentPartsFileNames.html";
 
-    // Erstellen Sie ein „HtmlFixedSaveOptions“-Objekt, das wir an die „Save“-Methode des Dokuments übergeben können
+    // Erstellen Sie ein "HtmlFixedSaveOptions"-Objekt, das wir an die "Save"-Methode des Dokuments übergeben können
     // um zu ändern, wie wir das Dokument in HTML konvertieren.
     HtmlSaveOptions options = new HtmlSaveOptions();
 
-    // Wenn wir das Dokument normal speichern, gibt es ein Ausgabe-HTML
+    // Wenn wir das Dokument normal speichern, gibt es eine Ausgabe-HTML
     // Dokument mit dem gesamten Inhalt des Quelldokuments.
-    // Setzen Sie die Eigenschaft „DocumentSplitCriteria“ auf „DocumentSplitCriteria.SectionBreak“.
+    // Setzen Sie die Eigenschaft "DocumentSplitCriteria" auf "DocumentSplitCriteria.SectionBreak" auf
     // unser Dokument in mehreren HTML-Dateien speichern: eine für jeden Abschnitt.
     options.DocumentSplitCriteria = DocumentSplitCriteria.SectionBreak;
 
@@ -56,7 +56,7 @@ public void DocumentPartsFileNames()
 }
 
 /// <summary>
-/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die der Speichervorgang ein Dokument aufteilt.
+/// Legt benutzerdefinierte Dateinamen für Ausgabedokumente fest, in die beim Speichern ein Dokument aufgeteilt wird.
 /// </summary>
 private class SavedDocumentPartRename : IDocumentPartSavingCallback
 {
@@ -68,7 +68,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
-        // Über die Eigenschaft „Document“ können wir auf das gesamte Quelldokument zugreifen.
+        // Über die Eigenschaft „Dokument“ können wir auf das gesamte Quelldokument zugreifen.
         Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
 
         string partType = string.Empty;
@@ -91,7 +91,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
 
         string partFileName = $"{mOutFileName} part {++mCount}, of type {partType}{Path.GetExtension(args.DocumentPartFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabeteildatei fest:
         args.DocumentPartFileName = partFileName;
 
@@ -121,7 +121,7 @@ public class SavedImageRename : IImageSavingCallback
     {
         string imageFileName = $"{mOutFileName} shape {++mCount}, of type {args.CurrentShape.ShapeType}{Path.GetExtension(args.ImageFileName)}";
 
-        // Nachfolgend finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichert.
+        // Unten finden Sie zwei Möglichkeiten, anzugeben, wo Aspose.Words jeden Teil des Dokuments speichern soll.
         // 1 – Legen Sie einen Dateinamen für die Ausgabebilddatei fest:
         args.ImageFileName = imageFileName;
 

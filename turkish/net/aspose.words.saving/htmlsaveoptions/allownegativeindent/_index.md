@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.AllowNegativeIndent
 linktitle: AllowNegativeIndent
 articleTitle: AllowNegativeIndent
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions AllowNegativeIndent mülk. HTML MHTML veya EPUBa kaydederken paragrafların negatif sol ve sağ girintilerinin normalize edilip edilmeyeceğini belirtir. Varsayılan değerYANLIŞ  C#'da.
+second_title: .NET için Aspose.Words
+description: HTML, MHTML veya EPUB'a kaydederken paragraf girintilerini kontrol etmek için HtmlSaveOptions AllowNegativeIndent özelliğini keşfedin. Belge biçimlendirmenizi bugün optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/htmlsaveoptions/allownegativeindent/
 ---
 ## HtmlSaveOptions.AllowNegativeIndent property
 
-HTML, MHTML veya EPUB'a kaydederken paragrafların negatif sol ve sağ girintilerinin normalize edilip edilmeyeceğini belirtir. Varsayılan değer:`YANLIŞ` .
+HTML, MHTML veya EPUB'a kaydederken paragrafların negatif sol ve sağ girintilerinin normalleştirilip normalleştirilmeyeceğini belirtir. Varsayılan değer`YANLIŞ` .
 
 ```csharp
 public bool AllowNegativeIndent { get; set; }
@@ -18,17 +18,17 @@ public bool AllowNegativeIndent { get; set; }
 
 ## Notlar
 
-Negatif girintiye izin verilmediğinde, HTML'ye sıfır kenar boşluğu olarak dışa aktarılır. Negatif girintiye izin verildiğinde, paragraf kısmen tarayıcı penceresinin dışında görünebilir.
+Negatif girintiye izin verilmediğinde, HTML'e sıfır kenar boşluğu olarak aktarılır. Negatif girintiye izin verildiğinde, bir paragraf kısmen tarayıcı penceresinin dışında görünebilir.
 
 ## Örnekler
 
-.html çıktısında negatif girintilerin nasıl korunacağını gösterir.
+Çıktı .html'de negatif girintilerin nasıl korunacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Negatif girintili bir tablo ekleyin, bu tabloyu sol sayfa sınırının ötesine itecek.
+// Negatif girintili bir tablo ekle, bu tabloyu sol sayfa sınırının ötesine itecektir.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -40,7 +40,7 @@ table.PreferredWidth = PreferredWidth.FromPoints(144);
 
 builder.InsertBreak(BreakType.ParagraphBreak);
 
-// Tabloyu sağa itecek pozitif girintili bir tablo ekleyin.
+// Tabloyu sağa itecek pozitif girintili bir tablo ekle.
 table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, Cell 1");
@@ -50,9 +50,9 @@ builder.EndTable();
 table.LeftIndent = 36;
 table.PreferredWidth = PreferredWidth.FromPoints(144);
 
-// Bir belgeyi HTML'ye kaydettiğimizde Aspose.Words yalnızca negatif girintileri korur
+// Bir belgeyi HTML'e kaydettiğimizde, Aspose.Words yalnızca negatif girintileri koruyacaktır
 // "AllowNegativeIndent" bayrağını ayarlarsak ilk tabloya uyguladığımız gibi
-// SaveOptions nesnesinde "true" değerine geçeceğiz.
+// "true"ya geçireceğimiz SaveOptions nesnesinde.
 HtmlSaveOptions options = new HtmlSaveOptions(SaveFormat.Html)
 {
     AllowNegativeIndent = allowNegativeIndent,

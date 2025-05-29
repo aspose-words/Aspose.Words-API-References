@@ -3,7 +3,7 @@ title: ComparisonExpression.LeftExpression
 linktitle: LeftExpression
 articleTitle: LeftExpression
 second_title: Aspose.Words pour .NET
-description: ComparisonExpression LeftExpression propriété. Obtient lexpression de gauche en C#.
+description: Découvrez la propriété LeftExpression de ComparisonExpression. Accédez facilement à l'expression de gauche et utilisez-la pour une manipulation et une analyse optimisées des données.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/comparisonexpression/leftexpression/
@@ -30,12 +30,12 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     DocumentBuilder builder = new DocumentBuilder();
 
-    // Codes de champs que nous utilisons dans cet exemple :
-    // 1. " SI {0} {1} {2} \"vrai argument\" \"faux argument\" ".
+    // Codes de champ que nous utilisons dans cet exemple :
+    // 1. " SI {0} {1} {2} \"argument vrai\" \"argument faux\" ".
     // 2. " COMPARER {0} {1} {2} ".
     Field field = builder.InsertField(string.Format(fieldCode, left, @operator, right), null);
 
-    // Si le "comparisonResult" n'est pas défini, nous créons "ComparisonEvaluationResult" avec une chaîne, au lieu de bool.
+    // Si le « comparisonResult » n'est pas défini, nous créons « ComparisonEvaluationResult » avec une chaîne, au lieu d'un booléen.
     ComparisonEvaluationResult result = comparisonResult != -1
         ? new ComparisonEvaluationResult(comparisonResult == 1)
         : comparisonError != null ? new ComparisonEvaluationResult(comparisonError) : null;
@@ -57,6 +57,11 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     public ComparisonExpressionEvaluator(ComparisonEvaluationResult result)
     {
         mResult = result;
+        if (mResult != null)
+        {
+            Console.WriteLine(mResult.ErrorMessage);
+            Console.WriteLine(mResult.Result);
+        }
     }
 
     public ComparisonEvaluationResult Evaluate(Field field, ComparisonExpression expression)

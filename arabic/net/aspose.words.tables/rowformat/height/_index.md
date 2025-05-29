@@ -3,14 +3,14 @@ title: RowFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words لـ .NET
-description: RowFormat Height ملكية. الحصول على أو تحديد ارتفاع صف الجدول بالنقاط في C#.
+description: اكتشف خاصية ارتفاع RowFormat لضبط ارتفاع صف الجدول بسهولة بالنقاط، مما يعزز تخطيط مستندك وقابليته للقراءة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.tables/rowformat/height/
 ---
 ## RowFormat.Height property
 
-الحصول على أو تحديد ارتفاع صف الجدول بالنقاط.
+يحصل على ارتفاع صف الجدول بالنقاط أو يعينه.
 
 ```csharp
 public double Height { get; set; }
@@ -18,7 +18,7 @@ public double Height { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تنسيق الصفوف باستخدام أداة إنشاء المستندات.
+يوضح كيفية تنسيق الصفوف باستخدام منشئ المستندات.
 
 ```csharp
 Document doc = new Document();
@@ -28,7 +28,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
-// ابدأ الصف الثاني، ثم قم بتكوين ارتفاعه. سيقوم المنشئ بتطبيق هذه الإعدادات على
+// ابدأ صفًا ثانيًا، ثم اضبط ارتفاعه. سيُطبّق المُنشئ هذه الإعدادات على
 // الصف الحالي، بالإضافة إلى أي صفوف جديدة يتم إنشاؤها بعد ذلك.
 builder.EndRow();
 
@@ -60,7 +60,7 @@ Table table = builder.StartTable();
 builder.InsertCell();
 table.LeftIndent = 20;
 
-// قم بتعيين بعض خيارات التنسيق لمظهر النص والجدول.
+// تعيين بعض خيارات التنسيق لمظهر النص والجدول.
 builder.RowFormat.Height = 40;
 builder.RowFormat.HeightRule = HeightRule.AtLeast;
 builder.CellFormat.Shading.BackgroundPatternColor = Color.FromArgb(198, 217, 241);
@@ -70,9 +70,9 @@ builder.Font.Size = 16;
 builder.Font.Name = "Arial";
 builder.Font.Bold = true;
 
-// سيؤدي تكوين خيارات التنسيق في أداة إنشاء المستندات إلى تطبيقها
-// إلى الخلية/الصف الحالي الذي يوجد به المؤشر،
-// بالإضافة إلى أي خلايا وصفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
+// سيؤدي تكوين خيارات التنسيق في منشئ المستندات إلى تطبيقها
+// إلى الخلية/الصف الحالي الذي يوجد فيه المؤشر،
+// بالإضافة إلى أي خلايا أو صفوف جديدة تم إنشاؤها باستخدام هذا المنشئ.
 builder.Write("Header Row,\n Cell 1");
 builder.InsertCell();
 builder.Write("Header Row,\n Cell 2");
@@ -80,8 +80,8 @@ builder.InsertCell();
 builder.Write("Header Row,\n Cell 3");
 builder.EndRow();
 
-// أعد تكوين كائنات التنسيق الخاصة بالمنشئ للصفوف والخلايا الجديدة التي نحن على وشك إنشاؤها.
-// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل بحيث يبرز كصف رأس.
+// إعادة تكوين كائنات تنسيق المنشئ للصفوف والخلايا الجديدة التي سنقوم بإنشائها.
+// لن يقوم المنشئ بتطبيق هذه العناصر على الصف الأول الذي تم إنشاؤه بالفعل حتى يظهر كصف رأس.
 builder.CellFormat.Shading.BackgroundPatternColor = Color.White;
 builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
 builder.RowFormat.Height = 30;

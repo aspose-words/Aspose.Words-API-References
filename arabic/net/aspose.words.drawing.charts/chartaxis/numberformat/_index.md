@@ -3,14 +3,14 @@ title: ChartAxis.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words لـ .NET
-description: ChartAxis NumberFormat ملكية. إرجاع أChartNumberFormat كائن يسمح بتحديد تنسيقات الأرقام للمحور في C#.
+description: اكتشف خاصية ChartAxis NumberFormat لتخصيص تنسيقات أرقام الرسم البياني الخاص بك بسهولة باستخدام كائن ChartNumberFormat لتحسين تصور البيانات.
 type: docs
-weight: 190
+weight: 200
 url: /ar/net/aspose.words.drawing.charts/chartaxis/numberformat/
 ---
 ## ChartAxis.NumberFormat property
 
-إرجاع أ[`ChartNumberFormat`](../../chartnumberformat/) كائن يسمح بتحديد تنسيقات الأرقام للمحور.
+يعيد[`ChartNumberFormat`](../../chartnumberformat/) كائن يسمح بتحديد تنسيقات الأرقام للمحور.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -18,7 +18,7 @@ public ChartNumberFormat NumberFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية تعيين التنسيق لقيم المخطط.
+يوضح كيفية تعيين التنسيق لقيم الرسم البياني.
 
 ```csharp
 Document doc = new Document();
@@ -27,19 +27,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
 Chart chart = shape.Chart;
 
-// امسح سلسلة البيانات التجريبية للمخطط للبدء بمخطط نظيف.
+// قم بمسح سلسلة بيانات العرض التوضيحي للرسم البياني للبدء برسم بياني نظيف.
 chart.Series.Clear();
 
-// أضف سلسلة مخصصة إلى المخطط مع فئات المحور السيني،
- // وقيم رقمية كبيرة خاصة بالمحور Y.
+// أضف سلسلة مخصصة إلى الرسم البياني مع فئات للمحور X،
+ // والقيم الرقمية الكبيرة المقابلة للمحور Y.
 chart.Series.Add("Aspose Test Series",
-    new [] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
+    new[] { "Word", "PDF", "Excel", "GoogleDocs", "Note" },
     new double[] { 1900000, 850000, 2100000, 600000, 1500000 });
 
- // قم بتعيين تنسيق الأرقام لتسميات تحديد المحور Y بحيث لا يتم تجميع الأرقام بفواصل.
+ // قم بتعيين تنسيق الأرقام لعناوين علامات المحور Y لعدم تجميع الأرقام بفاصلات.
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
-// يمكن لهذه العلامة تجاوز القيمة المذكورة أعلاه ورسم تنسيق الأرقام من الخلية المصدر.
+// يمكن لهذا العلم تجاوز القيمة أعلاه ورسم تنسيق الرقم من الخلية المصدر.
 Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");

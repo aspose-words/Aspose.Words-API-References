@@ -2,8 +2,8 @@
 title: ShapeRenderer
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
-second_title: 用于 .NET 的 Aspose.Words
-description: ShapeRenderer 构造函数. 初始化此类的新实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ShapeRenderer 构造函数，以便在项目中轻松创建和自定义形状，增强视觉吸引力和功能。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.rendering/shaperenderer/shaperenderer/
@@ -18,11 +18,11 @@ public ShapeRenderer(ShapeBase shape)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| shape | ShapeBase | 您要渲染的 DrawinML 形状对象。 |
+| shape | ShapeBase | 您想要渲染的 DrawinML 形状对象。 |
 
 ## 例子
 
-演示如何使用 Graphics 对象渲染形状并使用 Windows 窗体显示它。
+展示如何使用 Graphics 对象呈现形状并使用 Windows 窗体显示它。
 
 ```csharp
 public void RenderShapesOnForm()
@@ -32,8 +32,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // 下面是使用“ShapeRenderer”类将形状渲染到 Graphics 对象的两种方法。
-    // 1 - 创建带有图表的形状，并将其渲染为特定比例。
+    // 下面是两种使用“ShapeRenderer”类将形状渲染为 Graphics 对象的方法。
+    // 1 - 使用图表创建形状，并将其渲染到特定比例。
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",

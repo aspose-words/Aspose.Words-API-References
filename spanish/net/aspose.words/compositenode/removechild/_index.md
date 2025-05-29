@@ -3,22 +3,23 @@ title: CompositeNode.RemoveChild
 linktitle: RemoveChild
 articleTitle: RemoveChild
 second_title: Aspose.Words para .NET
-description: CompositeNode RemoveChild método. Elimina el nodo secundario especificado en C#.
+description: Administre sin esfuerzo su CompositeNode con el método RemoveChild, diseñado para agilizar la eliminación de nodos para un mejor rendimiento y eficiencia.
 type: docs
-weight: 170
+weight: 190
 url: /es/net/aspose.words/compositenode/removechild/
 ---
-## CompositeNode.RemoveChild method
+## CompositeNode.RemoveChild&lt;T&gt; method
 
 Elimina el nodo secundario especificado.
 
 ```csharp
-public Node RemoveChild(Node oldChild)
+public T RemoveChild<T>(T oldChild)
+    where T : Node
 ```
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| oldChild | Node | El nodo que se va a eliminar. |
+| oldChild | T | El nodo a eliminar. |
 
 ### Valor_devuelto
 
@@ -26,11 +27,11 @@ El nodo eliminado.
 
 ## Observaciones
 
-el padre de*oldChild* se establece en`nulo` después de que se extrae el ganglio.
+El padre de*oldChild* está configurado para`nulo` después de eliminar el nodo.
 
 ## Ejemplos
 
-Muestra cómo utilizar los métodos de Node y CompositeNode para eliminar una sección antes de la última sección del documento.
+Muestra cómo utilizar los métodos Node y CompositeNode para eliminar una sección antes de la última sección del documento.
 
 ```csharp
 Document doc = new Document();
@@ -40,15 +41,15 @@ builder.Writeln("Section 1 text.");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("Section 2 text.");
 
-// Ambas secciones son hermanas entre sí.
+//Ambas secciones son hermanas entre sí.
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Elimina una sección según su relación de hermana con otra sección.
+// Eliminar una sección en función de su relación con otra sección.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// La sección que eliminamos fue la primera, dejando el documento solo con la segunda.
+//La sección que eliminamos fue la primera, dejando el documento solo con la segunda.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

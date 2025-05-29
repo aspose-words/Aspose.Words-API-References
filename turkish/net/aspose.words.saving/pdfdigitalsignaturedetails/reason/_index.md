@@ -2,15 +2,15 @@
 title: PdfDigitalSignatureDetails.Reason
 linktitle: Reason
 articleTitle: Reason
-second_title: Aspose.Words for .NET
-description: PdfDigitalSignatureDetails Reason mülk. İmzalama nedenini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Gelişmiş güvenlik ve uyumluluk için belge imzalama nedenlerinizi kolayca yönetmek ve özelleştirmek amacıyla PdfDigitalSignatureDetails Reason özelliğini keşfedin.
 type: docs
 weight: 50
 url: /tr/net/aspose.words.saving/pdfdigitalsignaturedetails/reason/
 ---
 ## PdfDigitalSignatureDetails.Reason property
 
-İmzalama nedenini alır veya ayarlar.
+İmzalamanın nedenini alır veya ayarlar.
 
 ```csharp
 public string Reason { get; set; }
@@ -31,12 +31,12 @@ builder.Writeln("Contents of signed PDF.");
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw");
 
-// Belgenin "Save" yöntemine aktarabileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
-// bu yöntemin belgeyi .PDF'ye dönüştürme biçimini değiştirmek için.
+// Belgenin "Kaydet" metoduna geçirebileceğimiz bir "PdfSaveOptions" nesnesi oluşturun
+// bu yöntemin belgeyi .PDF'e nasıl dönüştüreceğini değiştirmek için.
 PdfSaveOptions options = new PdfSaveOptions();
 
 // "SaveOptions" nesnesinin "DigitalSignatureDetails" nesnesini yapılandırın
-// belgeyi "Kaydet" yöntemiyle oluştururken dijital olarak imzalayın.
+// "Kaydet" metoduyla oluşturduğumuz belgeyi dijital olarak imzalıyoruz.
 DateTime signingTime = new DateTime(2015, 7, 20);
 options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
@@ -45,6 +45,7 @@ options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm
 Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
 Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
 Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
+Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

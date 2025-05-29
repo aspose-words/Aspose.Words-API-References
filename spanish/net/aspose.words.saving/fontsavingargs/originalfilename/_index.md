@@ -3,7 +3,7 @@ title: FontSavingArgs.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words para .NET
-description: FontSavingArgs OriginalFileName propiedad. Obtiene el nombre del archivo de fuente original con una extensión en C#.
+description: Descubra la propiedad FontSavingArgs OriginalFileName para recuperar fácilmente el nombre del archivo de fuente original y mejorar la eficiencia de la administración de fuentes.
 type: docs
 weight: 100
 url: /es/net/aspose.words.saving/fontsavingargs/originalfilename/
@@ -18,19 +18,19 @@ public string OriginalFileName { get; }
 
 ## Observaciones
 
-Esta propiedad contiene el nombre de archivo original de la fuente actual, si se conoce. De lo contrario, puede ser una cadena vacía.
+Esta propiedad contiene el nombre del archivo original de la fuente actual, si se conoce. De lo contrario, puede ser una cadena vacía.
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

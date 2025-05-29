@@ -3,7 +3,7 @@ title: ListCollection.Document
 linktitle: Document
 articleTitle: Document
 second_title: Aspose.Words para .NET
-description: ListCollection Document propiedad. Obtiene el documento del propietario en C#.
+description: Descubra la propiedad Documento ListCollection para acceder fácilmente al documento del propietario y optimizar la gestión de datos. ¡Desbloquee la eficiencia hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.lists/listcollection/document/
@@ -18,7 +18,7 @@ public DocumentBase Document { get; }
 
 ## Ejemplos
 
-Muestra cómo verificar las propiedades del documento del propietario de las listas.
+Muestra cómo verificar las propiedades del documento propietario de las listas.
 
 ```csharp
 Document doc = new Document();

@@ -3,14 +3,14 @@ title: TableStyle.Shading
 linktitle: Shading
 articleTitle: Shading
 second_title: Aspose.Words لـ .NET
-description: TableStyle Shading ملكية. يحصل علىShading الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول في C#.
+description: اكتشف خاصية TableStyle Shading لتحسين خلايا الجدول لديك باستخدام تنسيق التظليل القابل للتخصيص للحصول على مظهر أنيق واحترافي.
 type: docs
 weight: 130
 url: /ar/net/aspose.words/tablestyle/shading/
 ---
 ## TableStyle.Shading property
 
-يحصل على[`Shading`](../../shading/) الكائن الذي يشير إلى تنسيق التظليل لخلايا الجدول.
+يحصل على[`Shading`](../../shading/) كائن يشير إلى تنسيق التظليل لخلايا الجدول.
 
 ```csharp
 public Shading Shading { get; }
@@ -49,7 +49,7 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 
 table.Style = tableStyle;
 
-// قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
+//قد يؤثر تعيين خصائص نمط الجدول على خصائص الجدول نفسه.
 Assert.True(table.Bidi);
 Assert.AreEqual(5.0d, table.CellSpacing);
 Assert.AreEqual("MyTableStyle1", table.StyleName);

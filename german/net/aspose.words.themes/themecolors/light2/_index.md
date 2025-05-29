@@ -3,14 +3,14 @@ title: ThemeColors.Light2
 linktitle: Light2
 articleTitle: Light2
 second_title: Aspose.Words für .NET
-description: ThemeColors Light2 eigendom. Gibt die Farbe Licht an. 2 in C#.
+description: Entdecken Sie die ThemeColors Light2-Eigenschaft, um Ihr Design mit lebendigen Light 2-Farben anzupassen. Verbessern Sie mühelos die visuelle Attraktivität Ihres Projekts!
 type: docs
 weight: 120
 url: /de/net/aspose.words.themes/themecolors/light2/
 ---
 ## ThemeColors.Light2 property
 
-Gibt die Farbe Licht an. 2.
+Gibt die Farbe Licht 2 an.
 
 ```csharp
 public Color Light2 { get; set; }
@@ -18,29 +18,29 @@ public Color Light2 { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie benutzerdefinierte Farben und Schriftarten für Designs festlegen.
+Zeigt, wie benutzerdefinierte Farben und Schriftarten für Designs festgelegt werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Theme colors.docx");
 
-// Das „Theme“-Objekt gibt uns Zugriff auf das Dokumentthema, eine Quelle für Standardschriftarten und -farben.
+// Das Objekt „Design“ gibt uns Zugriff auf das Dokumentdesign, eine Quelle für Standardschriftarten und -farben.
 Theme theme = doc.Theme;
 
-// Einige Stile wie „Überschrift 1“ und „Untertitel“ erben diese Schriftarten.
+// Einige Stile, wie „Überschrift 1“ und „Untertitel“, übernehmen diese Schriftarten.
 theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
-// Andere Sprachen haben möglicherweise auch ihre benutzerdefinierten Schriftarten in diesem Thema.
+// Auch andere Sprachen können in diesem Design über eigene Schriftarten verfügen.
 Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
 Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
 Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
 
-// Die Eigenschaft „Colors“ enthält die Farbpalette aus Microsoft Word,
-// was erscheint, wenn die Schattierung oder die Schriftfarbe geändert wird.
-// Wenden Sie benutzerdefinierte Farben auf die Farbpalette an, damit wir in Microsoft Word problemlos darauf zugreifen können
-// wenn wir zum Beispiel über „Home“ -> die Schriftfarbe ändern "Schriftart" -> "Schriftfarbe",
-// oder eine Form einfügen und dann über „Formformat“ eine Farbe dafür festlegen -> „Formstile“.
+// Die Eigenschaft „Farben“ enthält die Farbpalette von Microsoft Word,
+// das beim Ändern der Schattierung oder Schriftfarbe erscheint.
+// Wenden Sie benutzerdefinierte Farben auf die Farbpalette an, damit wir in Microsoft Word einfach darauf zugreifen können
+// wenn wir beispielsweise über "Home" -> "Schriftart" -> "Schriftfarbe" die Schriftfarbe ändern,
+// oder fügen Sie eine Form ein und legen Sie dann über „Formformat“ -> „Formstile“ eine Farbe dafür fest.
 ThemeColors colors = theme.Colors;
 colors.Dark1 = Color.MidnightBlue;
 colors.Light1 = Color.PaleGreen;
@@ -54,7 +54,7 @@ colors.Accent4 = Color.Gold;
 colors.Accent5 = Color.BlueViolet;
 colors.Accent6 = Color.DarkViolet;
 
-// Benutzerdefinierte Farben auf Hyperlinks im angeklickten und nicht angeklickten Zustand anwenden.
+// Wenden Sie benutzerdefinierte Farben auf Hyperlinks im angeklickten und nicht angeklickten Zustand an.
 colors.Hyperlink = Color.Black;
 colors.FollowedHyperlink = Color.Gray;
 

@@ -2,8 +2,8 @@
 title: GraphicsQualityOptions.CompositingQuality
 linktitle: CompositingQuality
 articleTitle: CompositingQuality
-second_title: 用于 .NET 的 Aspose.Words
-description: GraphicsQualityOptions CompositingQuality 财产. 获取或设置绘制到此 Graphics 的合成图像的渲染质量 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 GraphicsQualityOptions 的 CompositingQuality 属性，增强图像渲染效果。优化合成图像，获得惊艳的视觉质量！
 type: docs
 weight: 30
 url: /zh/net/aspose.words.saving/graphicsqualityoptions/compositingquality/
@@ -18,7 +18,7 @@ public CompositingQuality? CompositingQuality { get; set; }
 
 ## 例子
 
-演示如何在将文档转换为图像格式时设置渲染质量选项。
+展示如何在将文档转换为图像格式时设置渲染质量选项。
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

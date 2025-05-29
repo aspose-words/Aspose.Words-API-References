@@ -3,9 +3,9 @@ title: Document.LastSection
 linktitle: LastSection
 articleTitle: LastSection
 second_title: Aspose.Words para .NET
-description: Document LastSection propiedad. Obtiene la última sección del documento en C#.
+description: Descubra la propiedad LastSection para acceder fácilmente a la sección final de su documento, mejorando la navegación y la eficiencia de la gestión de contenido.
 type: docs
-weight: 240
+weight: 250
 url: /es/net/aspose.words/document/lastsection/
 ---
 ## Document.LastSection property
@@ -18,7 +18,7 @@ public Section LastSection { get; }
 
 ## Observaciones
 
-Devoluciones`nulo` si no hay secciones.
+Devuelve`nulo`si no hay secciones.
 
 ## Ejemplos
 
@@ -40,8 +40,8 @@ builder.InsertBreak(BreakType.SectionBreakNewPage);
 
 Assert.AreEqual(2, doc.Sections.Count);
 
-// Cada sección tiene su propia configuración de configuración de página.
-// Podemos dividir el texto de la segunda sección en dos columnas.
+//Cada sección tiene su propia configuración de página.
+//Podemos dividir el texto de la segunda sección en dos columnas.
 // Esto no afectará el texto de la primera sección.
 doc.LastSection.PageSetup.TextColumns.SetCount(2);
 builder.Writeln("Column 1.");

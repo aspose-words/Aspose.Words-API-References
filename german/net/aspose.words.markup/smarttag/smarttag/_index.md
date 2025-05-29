@@ -3,14 +3,14 @@ title: SmartTag
 linktitle: SmartTag
 articleTitle: SmartTag
 second_title: Aspose.Words für .NET
-description: SmartTag constructeur. Initialisiert eine neue Instanz vonSmartTag Klasse in C#.
+description: Erstellen Sie mühelos dynamische SmartTags mit unserem Konstruktor. Optimieren Sie Ihre Projekte mit anpassbaren Funktionen und nahtloser Integration für optimale Leistung.
 type: docs
 weight: 10
 url: /de/net/aspose.words.markup/smarttag/smarttag/
 ---
 ## SmartTag constructor
 
-Initialisiert eine neue Instanz von[`SmartTag`](../) Klasse.
+Initialisiert eine neue Instanz des[`SmartTag`](../) Klasse.
 
 ```csharp
 public SmartTag(DocumentBase doc)
@@ -22,37 +22,37 @@ public SmartTag(DocumentBase doc)
 
 ## Bemerkungen
 
-Wenn Sie einen neuen Knoten erstellen, müssen Sie ein Dokument angeben, zu dem der Knoten gehört. Ein Knoten kann ohne ein Dokument nicht existieren, da er von den dokumentweiten Strukturen wie Listen und Stilen abhängt. Obwohl ein Knoten immer zu einem Dokument gehört, kann ein Knoten Teil des Dokumentbaums sein oder auch nicht.
+Beim Erstellen eines neuen Knotens müssen Sie das Dokument angeben, zu dem der Knoten gehört. Ein Knoten kann nicht ohne Dokument existieren, da er von dokumentweiten Strukturen wie Listen und Stilen abhängt. Obwohl ein Knoten immer zu einem Dokument gehört, kann er Teil des Dokumentbaums sein oder nicht.
 
-Wenn ein Knoten erstellt wird, gehört er zu einem Dokument, ist aber noch nicht Teil des Dokumentbaums und[`ParentNode`](../../../aspose.words/node/parentnode/) Ist`Null` . Um einen Knoten in das Dokument einzufügen, verwenden Sie the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) methoden auf dem übergeordneten Knoten.
+Wenn ein Knoten erstellt wird, gehört er zu einem Dokument, ist aber noch nicht Teil des Dokumentbaums und[`ParentNode`](../../../aspose.words/node/parentnode/) ist null. Um einen Knoten in das Dokument einzufügen, verwenden Sie the [`InsertAfter`](../../../aspose.words/compositenode/insertafter/) oder[`InsertBefore`](../../../aspose.words/compositenode/insertbefore/) -Methoden auf dem übergeordneten Knoten.
 
 ## Beispiele
 
-Zeigt, wie man Smarttags erstellt.
+Zeigt, wie Smarttags erstellt werden.
 
 ```csharp
 public void Create()
 {
     Document doc = new Document();
 
-    // Ein Smarttag erscheint in einem Dokument, wobei Microsoft Word einen Teil seines Textes als irgendeine Form von Daten erkennt.
-    // beispielsweise einen Namen, ein Datum oder eine Adresse und wandelt ihn in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
+    // Ein Smarttag erscheint in einem Dokument, in dem Microsoft Word einen Teil des Textes als eine Art Daten erkennt.
+    // wie etwa einen Namen, ein Datum oder eine Adresse, und wandelt es in einen Hyperlink um, der eine violette gepunktete Unterstreichung anzeigt.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Smart Tags sind zusammengesetzte Knoten, die ihren erkannten Text vollständig enthalten.
-    // Inhalte manuell zu diesem Smarttag hinzufügen.
+    // Smarttags sind zusammengesetzte Knoten, die den erkannten Text vollständig enthalten.
+    // Fügen Sie diesem Smarttag manuell Inhalte hinzu.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word erkennt die oben genannten Inhalte möglicherweise als Datum.
-    // Smart Tags verwenden die Eigenschaft „Element“, um den Typ der darin enthaltenen Daten widerzuspiegeln.
+    // Microsoft Word erkennt den obigen Inhalt möglicherweise als Datum.
+    // Smarttags verwenden die Eigenschaft „Element“, um den Typ der enthaltenen Daten widerzuspiegeln.
     smartTag.Element = "date";
 
-    // Einige Smart-Tag-Typen verarbeiten ihren Inhalt weiter in benutzerdefinierte XML-Eigenschaften.
+    // Einige Smarttag-Typen verarbeiten ihren Inhalt weiter in benutzerdefinierte XML-Eigenschaften.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Setze den URI des Smarttags auf den Standardwert.
+    // Setzen Sie die URI des Smarttags auf den Standardwert.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
@@ -71,10 +71,10 @@ public void Create()
     // Drucken Sie alle Smarttags in unserem Dokument mithilfe eines Dokumentbesuchers.
     doc.Accept(new SmartTagPrinter());
 
-    // Ältere Versionen von Microsoft Word unterstützen Smart Tags.
+    // Ältere Versionen von Microsoft Word unterstützen Smarttags.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Verwenden Sie die Methode „RemoveSmartTags“, um alle Smart Tags aus einem Dokument zu entfernen.
+    // Verwenden Sie die Methode „RemoveSmartTags“, um alle Smarttags aus einem Dokument zu entfernen.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -97,7 +97,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines SmartTag-Knotens beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines SmartTag-Knotens beendet ist.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

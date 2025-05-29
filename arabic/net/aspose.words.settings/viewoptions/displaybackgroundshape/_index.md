@@ -3,7 +3,7 @@ title: ViewOptions.DisplayBackgroundShape
 linktitle: DisplayBackgroundShape
 articleTitle: DisplayBackgroundShape
 second_title: Aspose.Words لـ .NET
-description: ViewOptions DisplayBackgroundShape ملكية. يتحكم في عرض شكل الخلفية في عرض تخطيط الطباعة في C#.
+description: اكتشف خاصية DisplayBackgroundShape في ViewOptions لتحسين تخطيط الطباعة الخاص بك باستخدام أشكال خلفية قابلة للتخصيص للحصول على مظهر أنيق.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.settings/viewoptions/displaybackgroundshape/
@@ -31,13 +31,13 @@ const string html =
 
 Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
-// مصدر المستند له خلفية ملونة مسطحة،
-// الذي سيؤدي وجوده إلى تعيين علامة "DisplayBackgroundShape" على "صحيح".
+// المصدر للمستند له خلفية ملونة مسطحة،
+// سيؤدي وجودها إلى تعيين علم "DisplayBackgroundShape" إلى "true".
 Assert.True(doc.ViewOptions.DisplayBackgroundShape);
 
-// احتفظ بـ "DisplayBackgroundShape" على أنه "صحيح" حتى يعرض المستند لون الخلفية.
+//احتفظ بـ "DisplayBackgroundShape" على القيمة "true" لجعل المستند يعرض لون الخلفية.
 // قد يؤثر هذا على بعض ألوان النص لتحسين الرؤية.
-// اضبط "DisplayBackgroundShape" على "خطأ" حتى لا يتم عرض لون الخلفية.
+// قم بضبط "DisplayBackgroundShape" على "false" لعدم عرض لون الخلفية.
 doc.ViewOptions.DisplayBackgroundShape = displayBackgroundShape;
 
 doc.Save(ArtifactsDir + "ViewOptions.DisplayBackgroundShape.docx");

@@ -2,15 +2,15 @@
 title: HtmlSaveOptions.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
-second_title: Aspose.Words for .NET
-description: HtmlSaveOptions ExportHeadersFootersMode mülk. Üstbilgilerin ve altbilgilerin HTML MHTML veya EPUBa nasıl aktarılacağını belirtir. Varsayılan değerPerSection HTML/MHTML için veNone EPUB. için C#'da.
+second_title: .NET için Aspose.Words
+description: HtmlSaveOptions ExportHeadersFootersMode özelliğinin HTML, MHTML ve EPUB biçimleri için başlık ve altbilgi çıktısını nasıl optimize ettiğini keşfedin. Belgenizin sunumunu en üst düzeye çıkarın!
 type: docs
 weight: 160
 url: /tr/net/aspose.words.saving/htmlsaveoptions/exportheadersfootersmode/
 ---
 ## HtmlSaveOptions.ExportHeadersFootersMode property
 
-Üstbilgilerin ve altbilgilerin HTML, MHTML veya EPUB'a nasıl aktarılacağını belirtir. Varsayılan değer:PerSection HTML/MHTML için veNone EPUB. için
+Başlıkların ve altbilgilerin HTML, MHTML veya EPUB'a nasıl çıktılanacağını belirtir. Varsayılan değerPerSection HTML/MHTML ve içinNone EPUB için.
 
 ```csharp
 public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
@@ -18,34 +18,34 @@ public ExportHeadersFootersMode ExportHeadersFootersMode { get; set; }
 
 ## Notlar
 
-HTML sayfalara ayrılmadığından üstbilgileri ve altbilgileri anlamlı bir şekilde HTML'ye çıkarmak zordur.
+HTML'de sayfalandırma olmadığından, başlıkları ve alt bilgileri anlamlı bir şekilde HTML'e aktarmak zordur.
 
-Bu özellik olduğundaPerSection, Aspose.Words Export her bölümün başında ve sonunda yalnızca birincil üstbilgiler ve altbilgiler bulunur.
+Bu özellik ne zamanPerSection, Aspose.Words yalnızca her bölümün başında ve sonunda birincil üstbilgileri ve altbilgileri dışa aktarır.
 
-Ne zamanFirstSectionHeaderLastSectionFooter yalnızca ilk birincil üstbilgi ve son birincil altbilgi (öncekiyle bağlantılı olanlar dahil) dışa aktarılır.
+Ne zamanFirstSectionHeaderLastSectionFooter yalnızca ilk birincil başlık ve son birincil altbilgi (öncekilere bağlı olanlar dahil) dışa aktarılır.
 
-Bu özelliği olarak ayarlayarak üstbilgilerin ve altbilgilerin dışa aktarılmasını tamamen devre dışı bırakabilirsiniz.None.
+Bu property değerini ayarlayarak başlık ve altbilgilerin dışa aktarılmasını tamamen devre dışı bırakabilirsiniz.None.
 
 ## Örnekler
 
-Bir belgeyi HTML'ye kaydederken üstbilgilerin/altbilgilerin nasıl atlanacağını gösterir.
+Bir belgeyi HTML'e kaydederken üstbilgilerin/altbilgilerin nasıl atlanacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
-// Bu belge üstbilgi ve altbilgileri içerir. Bunlara "HeadersFooters" koleksiyonu aracılığıyla erişebiliriz.
+// Bu belge başlıklar ve altbilgiler içerir. Bunlara "HeadersFooters" koleksiyonu aracılığıyla erişebiliriz.
 Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
 
-// .html gibi formatlar belgeyi sayfalara bölmez, dolayısıyla üstbilgiler/altbilgiler aynı şekilde çalışmaz
-// belgeyi Microsoft Word kullanarak .docx olarak açtığımızda bunu yaparlar.
-// Üstbilgileri/altbilgileri olan bir belgeyi html'ye dönüştürürsek, dönüşüm üstbilgileri/altbilgileri gövde metnine asimile edecektir.
-// HTML'ye dönüştürürken üstbilgileri/altbilgileri atlamak için SaveOptions nesnesini kullanabiliriz.
+// .html gibi formatlar belgeyi sayfalara bölmez, bu nedenle üstbilgiler/altbilgiler aynı şekilde çalışmaz
+// Microsoft Word kullanarak belgeyi .docx olarak açtığımızda olur.
+// Başlık/altbilgi içeren bir dokümanı HTML'e dönüştürürsek, dönüşüm başlık/altbilgileri gövde metnine asimile edecektir.
+// HTML'e dönüştürürken başlıkları/altbilgileri atlamak için SaveOptions nesnesini kullanabiliriz.
 HtmlSaveOptions saveOptions =
     new HtmlSaveOptions(SaveFormat.Html) { ExportHeadersFootersMode = ExportHeadersFootersMode.None };
 
 doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 
-// Kaydedilen belgemizi açın ve başlık metnini içermediğini doğrulayın
+// Kaydedilen belgemizi açın ve başlığın metnini içermediğini doğrulayın
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
 Assert.IsFalse(doc.Range.Text.Contains("First header"));

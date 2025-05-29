@@ -2,15 +2,15 @@
 title: MergeFieldImageDimension
 linktitle: MergeFieldImageDimension
 articleTitle: MergeFieldImageDimension
-second_title: 用于 .NET 的 Aspose.Words
-description: MergeFieldImageDimension 构造函数. 使用给定的点值创建图像尺寸实例 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 MergeFieldImageDimension 构造函数创建精确的图像尺寸（以点为单位）。使用精确的尺寸来增强您的设计，以获得更好的效果。
 type: docs
 weight: 10
 url: /zh/net/aspose.words.fields/mergefieldimagedimension/mergefieldimagedimension/
 ---
 ## MergeFieldImageDimension(*double*) {#constructor}
 
-使用给定的点值创建图像尺寸实例。
+使用给定的点值创建图像维度实例。
 
 ```csharp
 public MergeFieldImageDimension(double value)
@@ -18,23 +18,23 @@ public MergeFieldImageDimension(double value)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 价值。 |
+| value | Double | 值。 |
 
 ## 评论
 
-您应该使用负值来表示应应用相应图像维度 的原始值。
+您应该使用负值来表示应应用相应图像维度的原始值。
 
 ## 例子
 
-展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
+展示如何在邮件合并期间设置 MERGEFIELDS 接受的图像尺寸。
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
-    // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
+    // 插入一个合并字段，用于在邮件合并期间接收来自源的图片。使用字段代码来引用
+    // 数据源中的一列包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
@@ -83,6 +83,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;
@@ -109,24 +110,24 @@ public MergeFieldImageDimension(double value, MergeFieldImageDimensionUnit unit)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| value | Double | 价值。 |
-| unit | MergeFieldImageDimensionUnit | 那个单位。 |
+| value | Double | 值。 |
+| unit | MergeFieldImageDimensionUnit | 该單位。 |
 
 ## 评论
 
-您应该使用负值来表示应应用相应图像维度 的原始值。
+您应该使用负值来表示应应用相应图像维度的原始值。
 
 ## 例子
 
-展示如何在 MERGEFIELDS 在邮件合并期间接受图像时设置图像尺寸。
+展示如何在邮件合并期间设置 MERGEFIELDS 接受的图像尺寸。
 
 ```csharp
 public void MergeFieldImageDimension()
 {
     Document doc = new Document();
 
-    // 插入一个 MERGEFIELD，它将在邮件合并期间接受来自源的图像。使用字段代码来引用
-    // 数据源中的一列，包含我们希望在邮件合并中使用的图像的本地系统文件名。
+    // 插入一个合并字段，用于在邮件合并期间接收来自源的图片。使用字段代码来引用
+    // 数据源中的一列包含我们希望在邮件合并中使用的图像的本地系统文件名。
     DocumentBuilder builder = new DocumentBuilder(doc);
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
@@ -175,6 +176,7 @@ private class MergedImageResizer : IFieldMergingCallback
         Assert.AreEqual(mUnit, args.ImageWidth.Unit);
         Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
         Assert.AreEqual(mUnit, args.ImageHeight.Unit);
+        Assert.Null(args.Shape);
     }
 
     private readonly double mImageWidth;

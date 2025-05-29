@@ -3,14 +3,14 @@ title: Story.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words pour .NET
-description: Story Tables propriété. Obtient une collection de tables qui sont des enfants immédiats de lhistoire en C#.
+description: Découvrez Story Tables, une collection organisée de tableaux directement liés à votre histoire, améliorant l'organisation et l'engagement sans effort.
 type: docs
 weight: 50
 url: /fr/net/aspose.words/story/tables/
 ---
 ## Story.Tables property
 
-Obtient une collection de tables qui sont des enfants immédiats de l'histoire.
+Obtient une collection de tables qui sont les enfants immédiats de l'histoire.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -18,7 +18,7 @@ public TableCollection Tables { get; }
 
 ## Exemples
 
-Montre comment supprimer les première et dernière lignes de tous les tableaux d’un document.
+Montre comment supprimer la première et la dernière ligne de tous les tableaux d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");

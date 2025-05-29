@@ -2,10 +2,10 @@
 title: IDocumentConverterPlugin Interface
 linktitle: IDocumentConverterPlugin
 articleTitle: IDocumentConverterPlugin
-second_title: Aspose.Words for .NET
-description: Aspose.Words.IDocumentConverterPlugin arayüz. Harici dönüştürücü eklentisi için bir arayüz tanımlar C#'da.
+second_title: .NET için Aspose.Words
+description: Aspose.Words.IDocumentConverterPlugin arayüzünü keşfedin; kusursuz harici belge dönüştürme çözümünüz. İş akışınızı bugün geliştirin!
 type: docs
-weight: 3160
+weight: 3590
 url: /tr/net/aspose.words/idocumentconverterplugin/
 ---
 ## IDocumentConverterPlugin interface
@@ -20,7 +20,8 @@ public interface IDocumentConverterPlugin
 
 | İsim | Tanım |
 | --- | --- |
-| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(*Stream, Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür. |
+| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Belirtilen giriş çıkış akışlarını ve kaydetme seçeneklerini kullanarak belgeyi dönüştürür. |
+| [ConvertToImages](../../aspose.words/idocumentconverterplugin/converttoimages/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | Giriş akışından gelen belgedeki sayfaları resim dizisine dönüştürür. |
 
 ### Ayrıca bakınız
 

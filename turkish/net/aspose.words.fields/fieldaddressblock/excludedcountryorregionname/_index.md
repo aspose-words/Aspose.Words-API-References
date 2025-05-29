@@ -2,8 +2,8 @@
 title: FieldAddressBlock.ExcludedCountryOrRegionName
 linktitle: ExcludedCountryOrRegionName
 articleTitle: ExcludedCountryOrRegionName
-second_title: Aspose.Words for .NET
-description: FieldAddressBlock ExcludedCountryOrRegionName mülk. Hariç tutulan ülke/bölge adını alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldAddressBlock ExcludedCountryOrRegionName özelliğiyle hariç tutulan ülkeleri/bölgeleri zahmetsizce yönetin. Adres işlemenizi bugün optimize edin!
 type: docs
 weight: 20
 url: /tr/net/aspose.words.fields/fieldaddressblock/excludedcountryorregionname/
@@ -18,7 +18,7 @@ public string ExcludedCountryOrRegionName { get; set; }
 
 ## Örnekler
 
-ADRESSBLOCK alanının nasıl ekleneceğini gösterir.
+ADDRESSBLOCK alanının nasıl ekleneceğini gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri içerecektir,
-// ExcludedCountryOrRegionName özelliğinde belirtilmediği sürece.
+// Bunu "2" olarak ayarlamak tüm ülkeleri ve bölgeleri kapsayacaktır.
+// ExcludedCountryOrRegionName özelliğinde belirtilen olmadığı sürece.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
-// Varsayılan olarak bu özellik belgenin ilk karakterinin dil kimliğini içerecektir.
-// Sonucun bu şekilde formatlanması için alana farklı bir kültür ayarlayabiliriz.
+// Varsayılan olarak bu özellik, belgenin ilk karakterinin dil kimliğini içerecektir.
+// Sonucu bu şekilde biçimlendirmek için alan için farklı bir kültür ayarlayabiliriz.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

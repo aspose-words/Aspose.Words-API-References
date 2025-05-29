@@ -3,14 +3,14 @@ title: FieldMergeBarcode.ScalingFactor
 linktitle: ScalingFactor
 articleTitle: ScalingFactor
 second_title: Aspose.Words für .NET
-description: FieldMergeBarcode ScalingFactor eigendom. Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind 10 1000 in C#.
+description: Entdecken Sie die Eigenschaft „FieldMergeBarcode ScalingFactor“, um Ihre Barcode-Größe für optimale Sichtbarkeit einfach in ganzen Prozentpunkten (10-1000) anzupassen.
 type: docs
 weight: 120
 url: /de/net/aspose.words.fields/fieldmergebarcode/scalingfactor/
 ---
 ## FieldMergeBarcode.ScalingFactor property
 
-Ruft einen Skalierungsfaktor für das Symbol ab oder legt diesen fest. Der Wert wird in ganzen Prozentpunkten angegeben und die gültigen Werte sind [10, 1000]
+Ruft einen Skalierungsfaktor für das Symbol ab oder legt ihn fest. Der Wert wird in ganzen Prozentpunkten angegeben. Die gültigen Werte sind [10, 1000]
 
 ```csharp
 public string ScalingFactor { get; set; }
@@ -18,14 +18,14 @@ public string ScalingFactor { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man einen Serienbrief für QR-Barcodes durchführt.
+Zeigt, wie ein Serienbrief mit QR-Barcodes erstellt wird.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein MERGEBARCODE-Feld einfügen, das während eines Seriendrucks Werte aus einer Datenquelle akzeptiert.
-// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer Zusammenführungsdatenquelle in QR-Codes.
+// Fügen Sie ein MERGEBARCODE-Feld ein, das während eines Serienbriefs Werte aus einer Datenquelle akzeptiert.
+// Dieses Feld konvertiert alle Werte in der Spalte „MyQRCode“ einer zusammengeführten Datenquelle in QR-Codes.
 FieldMergeBarcode field = (FieldMergeBarcode)builder.InsertField(FieldType.FieldMergeBarcode, true);
 field.BarcodeType = "QR";
 field.BarcodeValue = "MyQRCode";
@@ -45,7 +45,7 @@ builder.Writeln();
 
 // Erstellen Sie eine DataTable mit einer Spalte mit demselben Namen wie der BarcodeValue unseres MERGEBARCODE-Felds.
 // Der Serienbrief erstellt für jede Zeile eine neue Seite. Jede Seite enthält ein DISPLAYBARCODE-Feld.
-// wodurch ein QR-Code mit dem Wert aus der zusammengeführten Zeile angezeigt wird.
+// wodurch ein QR-Code mit dem Wert aus der zusammengeführte Zeile angezeigt wird.
 DataTable table = new DataTable("Barcodes");
 table.Columns.Add("MyQRCode");
 table.Rows.Add(new[] { "ABC123" });

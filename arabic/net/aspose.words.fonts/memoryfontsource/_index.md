@@ -3,14 +3,14 @@ title: MemoryFontSource Class
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Fonts.MemoryFontSource فصل. يمثل ملف خط TrueType الفردي المخزن في الذاكرة في C#.
+description: اكتشف فئة Aspose.Words.Fonts.MemoryFontSource، التي تتيح الوصول بشكل سلس إلى خطوط TrueType المخزنة في الذاكرة لتحسين معالجة المستندات.
 type: docs
-weight: 3020
+weight: 3450
 url: /ar/net/aspose.words.fonts/memoryfontsource/
 ---
 ## MemoryFontSource class
 
-يمثل ملف خط TrueType الفردي المخزن في الذاكرة.
+يمثل ملف الخط TrueType الوحيد المخزن في الذاكرة.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الخطوط](https://docs.aspose.com/words/net/working-with-fonts/) مقالة توثيقية.
 
@@ -22,19 +22,19 @@ public class MemoryFontSource : FontSourceBase
 
 | اسم | وصف |
 | --- | --- |
-| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | الممثل. |
-| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | الممثل. |
-| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | الممثل. |
+| [MemoryFontSource](memoryfontsource/#constructor)(*byte[]*) | المولد. |
+| [MemoryFontSource](memoryfontsource/#constructor_1)(*byte[], int*) | المولد. |
+| [MemoryFontSource](memoryfontsource/#constructor_2)(*byte[], int, string*) | المولد. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
 | [CacheKey](../../aspose.words.fonts/memoryfontsource/cachekey/) { get; } | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. |
-| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | بيانات الخط الثنائي. |
-| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يُرجع أولوية مصدر الخط. |
-| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | إرجاع نوع مصدر الخط. |
-| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤه أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
+| [FontData](../../aspose.words.fonts/memoryfontsource/fontdata/) { get; } | بيانات الخط الثنائية. |
+| [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | يعيد أولوية مصدر الخط. |
+| override [Type](../../aspose.words.fonts/memoryfontsource/type/) { get; } | يعيد نوع مصدر الخط. |
+| [WarningCallback](../../aspose.words.fonts/fontsourcebase/warningcallback/) { get; set; } | يتم استدعاؤها أثناء معالجة مصدر الخط عند اكتشاف مشكلة قد تؤدي إلى فقدان دقة التنسيق. |
 
 ## طُرق
 
@@ -44,7 +44,7 @@ public class MemoryFontSource : FontSourceBase
 
 ## أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مجموعة بايتات تحتوي على بيانات من ملف الخط كمصدر للخط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");

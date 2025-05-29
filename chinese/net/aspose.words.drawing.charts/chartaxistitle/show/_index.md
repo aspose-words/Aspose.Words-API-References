@@ -2,15 +2,15 @@
 title: ChartAxisTitle.Show
 linktitle: Show
 articleTitle: Show
-second_title: 用于 .NET 的 Aspose.Words
-description: ChartAxisTitle Show 财产. 确定是否应显示轴的标题 默认值为错误的 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 ChartAxisTitle Show 属性，控制轴标题的可见性。使用清晰易懂、信息丰富的标题增强您的图表，从而获得更深入的数据洞察。
 type: docs
-weight: 20
+weight: 40
 url: /zh/net/aspose.words.drawing.charts/chartaxistitle/show/
 ---
 ## ChartAxisTitle.Show property
 
-确定是否应显示轴的标题。 默认值为`错误的`.
+确定是否显示轴的标题。 默认值为`错误的`.
 
 ```csharp
 public bool Show { get; set; }
@@ -33,12 +33,15 @@ seriesColl.Clear();
 
 seriesColl.Add("AW Series 1", new string[] { "AW Category 1", "AW Category 2" }, new double[] { 1, 2 });
 
-// 设置轴标题。
-chart.AxisX.Title.Text = "Categories";
-chart.AxisX.Title.Show = true;
-chart.AxisY.Title.Text = "Values";
-chart.AxisY.Title.Show = true;
-chart.AxisY.Title.Overlay = true;
+ChartAxisTitle chartAxisXTitle = chart.AxisX.Title;
+chartAxisXTitle.Text = "Categories";
+chartAxisXTitle.Show = true;
+ChartAxisTitle chartAxisYTitle = chart.AxisY.Title;
+chartAxisYTitle.Text = "Values";
+chartAxisYTitle.Show = true;
+chartAxisYTitle.Overlay = true;
+chartAxisYTitle.Font.Size = 12;
+chartAxisYTitle.Font.Color = Color.Blue;
 
 doc.Save(ArtifactsDir + "Charts.ChartAxisTitle.docx");
 ```

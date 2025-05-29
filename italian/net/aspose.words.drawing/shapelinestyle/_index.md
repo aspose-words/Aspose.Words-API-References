@@ -3,14 +3,14 @@ title: ShapeLineStyle Enum
 linktitle: ShapeLineStyle
 articleTitle: ShapeLineStyle
 second_title: Aspose.Words per .NET
-description: Aspose.Words.Drawing.ShapeLineStyle enum. Specifica lo stile di linea composto di aShape  in C#.
+description: Scopri l'enumerazione Aspose.Words.Drawing.ShapeLineStyle per migliorare la progettazione dei tuoi documenti con stili di linea composti personalizzabili per le forme.
 type: docs
-weight: 1270
+weight: 1660
 url: /it/net/aspose.words.drawing/shapelinestyle/
 ---
 ## ShapeLineStyle enumeration
 
-Specifica lo stile di linea composto di a[`Shape`](../shape/) .
+Specifica lo stile della linea composta di un[`Shape`](../shape/) .
 
 ```csharp
 public enum ShapeLineStyle

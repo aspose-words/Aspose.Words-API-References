@@ -3,14 +3,14 @@ title: DefaultFontSubstitutionRule.DefaultFontName
 linktitle: DefaultFontName
 articleTitle: DefaultFontName
 second_title: Aspose.Words لـ .NET
-description: DefaultFontSubstitutionRule DefaultFontName ملكية. الحصول على اسم الخط الافتراضي أو تعيينه في C#.
+description: اكتشف كيفية إدارة DefaultFontSubstitutionRule بسهولة وتخصيص اسم الخط الافتراضي لديك لتحسين مرونة التصميم.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/defaultfontsubstitutionrule/defaultfontname/
 ---
 ## DefaultFontSubstitutionRule.DefaultFontName property
 
-الحصول على اسم الخط الافتراضي أو تعيينه.
+يحصل على اسم الخط الافتراضي أو يعينه.
 
 ```csharp
 public string DefaultFontName { get; set; }
@@ -18,7 +18,7 @@ public string DefaultFontName { get; set; }
 
 ## ملاحظات
 
-القيمة الافتراضية هي "تايمز نيو رومان".
+القيمة الافتراضية هي 'Times New Roman'.
 
 ## أمثلة
 
@@ -30,17 +30,17 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 
 // احصل على قاعدة الاستبدال الافتراضية ضمن FontSettings.
-// ستستبدل هذه القاعدة كافة الخطوط المفقودة بـ "Times New Roman".
+// ستقوم هذه القاعدة باستبدال جميع الخطوط المفقودة بـ "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
 Assert.True(defaultFontSubstitutionRule.Enabled);
 Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
 
-// قم بتعيين بديل الخط الافتراضي على "Courier New".
+// تعيين الخط البديل الافتراضي إلى "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
 
-// باستخدام أداة إنشاء المستندات، أضف بعض النص بخط لا نحتاجه حتى يتم الاستبدال،
-// ثم قم بتقديم النتيجة في ملف PDF.
+// باستخدام منشئ المستندات، أضف بعض النصوص بخط لا نحتاج إليه لرؤية عملية الاستبدال،
+// ثم قم بعرض النتيجة في ملف PDF.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Font.Name = "Missing Font";
@@ -62,18 +62,18 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-// تحتوي مصادر الخطوط التي يستخدمها المستند على الخط "Arial"، وليس "Arvo".
+// تحتوي مصادر الخطوط التي يستخدمها المستند على الخط "Arial"، ولكن ليس "Arvo".
 Assert.AreEqual(1, fontSources.Length);
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
 Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
 
-// قم بتعيين خاصية "DefaultFontName" على "Courier New" لـ،
- // أثناء عرض المستند، قم بتطبيق هذا الخط في جميع الحالات عندما لا يتوفر خط آخر.
+// قم بتعيين خاصية "DefaultFontName" إلى "Courier New" إلى،
+// أثناء عرض المستند، قم بتطبيق هذا الخط في جميع الحالات التي لا يتوفر فيها خط آخر.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
 Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
 
-// سيستخدم Aspose.Words الآن الخط الافتراضي بدلاً من أي خطوط مفقودة أثناء أي استدعاءات عرض.
+// سيستخدم Aspose.Words الآن الخط الافتراضي بدلاً من أي خطوط مفقودة أثناء أي مكالمات عرض.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");
 ```
 

@@ -2,15 +2,15 @@
 title: ParagraphFormat.AddSpaceBetweenFarEastAndDigit
 linktitle: AddSpaceBetweenFarEastAndDigit
 articleTitle: AddSpaceBetweenFarEastAndDigit
-second_title: 用于 .NET 的 Aspose.Words
-description: ParagraphFormat AddSpaceBetweenFarEastAndDigit 财产. 获取或设置一个标志指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 AddSpaceBetweenFarEastAndDigit 属性优化文档的布局，通过调整东亚文本和数字之间的间距来增强可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/paragraphformat/addspacebetweenfareastanddigit/
 ---
 ## ParagraphFormat.AddSpaceBetweenFarEastAndDigit property
 
-获取或设置一个标志，指示当前段落中数字的regions 与东亚文本区域之间的字符间距是否自动调整。
+获取或设置一个标志，指示当前段落中的数字区域和东亚文本区域之间的字符间距是否自动调整。
 
 ```csharp
 public bool AddSpaceBetweenFarEastAndDigit { get; set; }
@@ -18,7 +18,7 @@ public bool AddSpaceBetweenFarEastAndDigit { get; set; }
 
 ## 例子
 
-演示如何在文档中插入段落。
+展示如何在文档中插入段落。
 
 ```csharp
 Document doc = new Document();
@@ -38,8 +38,8 @@ paragraphFormat.AddSpaceBetweenFarEastAndAlpha = true;
 paragraphFormat.AddSpaceBetweenFarEastAndDigit = true;
 paragraphFormat.KeepTogether = true;
 
-// “Writeln”方法在附加文本后结束段落
-// 然后开始一个新行，添加一个新段落。
+//“Writeln”方法在附加文本后结束段落
+// 然后开始新的一行，添加一个新段落。
 builder.Writeln("Hello world!");
 
 Assert.True(builder.CurrentParagraph.IsEndOfDocument);

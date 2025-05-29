@@ -3,14 +3,14 @@ title: Font.Underline
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words لـ .NET
-description: Font Underline ملكية. الحصول على أو تعيين نوع التسطير المطبق على الخط في C#.
+description: اكتشف خاصية "تسطير الخط" لتخصيص أنماط النص. حدّد أنواع التسطير وعدّلها بسهولة لتحسين جودة الطباعة في تصاميمك.
 type: docs
-weight: 530
+weight: 540
 url: /ar/net/aspose.words/font/underline/
 ---
 ## Font.Underline property
 
-الحصول على أو تعيين نوع التسطير المطبق على الخط.
+يحصل على نوع الخط السفلي المطبق على الخط أو يعينه.
 
 ```csharp
 public Underline Underline { get; set; }
@@ -18,7 +18,7 @@ public Underline Underline { get; set; }
 
 ## أمثلة
 
-يوضح كيفية تكوين نمط ولون التسطير في النص.
+يوضح كيفية تكوين نمط ولون تسطير النص.
 
 ```csharp
 Document doc = new Document();
@@ -49,7 +49,7 @@ font.Underline = Underline.Dash;
 builder.Write("Hello world!");
 ```
 
-يوضح كيفية إدراج حقل الارتباط التشعبي.
+يوضح كيفية إدراج حقل ارتباط تشعبي.
 
 ```csharp
 Document doc = new Document();
@@ -57,15 +57,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// أدخل ارتباطًا تشعبيًا وقم بإبرازه بتنسيق مخصص.
-// سيكون الارتباط التشعبي عبارة عن جزء من النص قابل للنقر عليه والذي سينقلنا إلى الموقع المحدد في عنوان URL.
+//أدرج ارتباطًا تشعبيًا وأبرزه باستخدام التنسيق المخصص.
+// سيكون الرابط التشعبي عبارة عن جزء نصي قابل للنقر والذي سيأخذنا إلى الموقع المحدد في عنوان URL.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com"، خطأ);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سينقلنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
+// الضغط على Ctrl + النقر بزر الماوس الأيسر على الرابط الموجود في النص في Microsoft Word سيأخذنا إلى عنوان URL عبر نافذة متصفح ويب جديدة.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

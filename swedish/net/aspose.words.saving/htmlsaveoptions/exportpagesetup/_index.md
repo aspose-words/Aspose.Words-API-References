@@ -3,14 +3,14 @@ title: HtmlSaveOptions.ExportPageSetup
 linktitle: ExportPageSetup
 articleTitle: ExportPageSetup
 second_title: Aspose.Words för .NET
-description: HtmlSaveOptions ExportPageSetup fast egendom. Anger om sidinställningarna exporteras till HTML MHTML eller EPUB. Standard ärfalsk  i C#.
+description: Upptäck hur egenskapen HtmlSaveOptions ExportPageSetup förbättrar dina HTML-, MHTML- eller EPUB-exporter genom att möjliggöra anpassningsbara sidinställningar för bättre resultat.
 type: docs
 weight: 220
 url: /sv/net/aspose.words.saving/htmlsaveoptions/exportpagesetup/
 ---
 ## HtmlSaveOptions.ExportPageSetup property
 
-Anger om sidinställningarna exporteras till HTML, MHTML eller EPUB. Standard är`falsk` .
+Anger om utskriftsformatet exporteras till HTML, MHTML eller EPUB. Standard är`falsk` .
 
 ```csharp
 public bool ExportPageSetup { get; set; }
@@ -18,13 +18,13 @@ public bool ExportPageSetup { get; set; }
 
 ## Anmärkningar
 
-Varje[`Section`](../../../aspose.words/section/) i Aspose.Words dokumentmodell ger sidinställningar information via[`PageSetup`](../../../aspose.words/pagesetup/) klass. När du exporterar ett dokument till HTML-format kan du behöva behålla denna information för vidare användning. I synnerhet kan sidinställningarna vara viktiga för rendering till sidmedia (utskrift) eller efterföljande konvertering till de ursprungliga Microsoft Word-filformaten (DOCX, DOC, RTF, WML).
+Varje[`Section`](../../../aspose.words/section/) I Aspose.Words-dokumentmodellen tillhandahålls information om sidinställningar via[`PageSetup`](../../../aspose.words/pagesetup/) klass. När du exporterar ett dokument till HTML-format kan du behöva spara denna information för vidare användning. Särskilt sidinställningar kan vara viktiga för rendering till sidformat (utskrift) eller efterföljande konvertering till de ursprungliga Microsoft Word-filformaten (DOCX, DOC, RTF, WML).
 
-de flesta fall är HTML avsedd för visning i webbläsare där paginering inte utförs. Så denna feature är inaktiv som standard.
+I de flesta fall är HTML avsett för visning i webbläsare där paginering inte utförs. Så den här funktionen är inaktiv som standard.
 
 ## Exempel
 
-Visar hur du bestämmer om du vill behålla information om avsnittsstruktur/sidinställningar när du sparar till HTML.
+Visar hur man avgör om sektionsstruktur/sidinställningar ska bevaras när man sparar till HTML.
 
 ```csharp
 Document doc = new Document();
@@ -40,9 +40,9 @@ pageSetup.BottomMargin = 36.0;
 pageSetup.PaperSize = PaperSize.A5;
 
 // När vi sparar dokumentet till HTML kan vi skicka ett SaveOptions-objekt
-// för att bestämma om sidinställningarna ska bevaras eller ignoreras.
-// Om vi ställer in flaggan "ExportPageSetup" till "true", kommer HTML-dokumentet att innehålla vår sidinställningar.
-// Om vi ställer in "ExportPageSetup"-flaggan till "false", kommer sparoperationen att ignorera våra sidinställningar
+// för att bestämma om inställningarna för sidinställningar ska behållas eller ignoreras.
+// Om vi ställer in flaggan "ExportPageSetup" till "true" kommer HTML-dokumentet att innehålla vår konfiguration för sidinställningar.
+// Om vi ställer in flaggan "ExportPageSetup" till "false" kommer sparåtgärden att ignorera våra sidinställningar.
 // för det första avsnittet, och båda avsnitten kommer att se identiska ut.
 HtmlSaveOptions options = new HtmlSaveOptions { ExportPageSetup = exportPageSetup };
 

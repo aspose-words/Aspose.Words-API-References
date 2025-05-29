@@ -3,14 +3,14 @@ title: ShapeBase.RelativeVerticalPosition
 linktitle: RelativeVerticalPosition
 articleTitle: RelativeVerticalPosition
 second_title: Aspose.Words для .NET
-description: ShapeBase RelativeVerticalPosition свойство. Указывает относительно того как фигура расположена по вертикали на С#.
+description: Откройте для себя свойство ShapeBase RelativeVerticalPosition, которое улучшает вертикальное выравнивание фигур, обеспечивая точный контроль компоновки в ваших проектах.
 type: docs
-weight: 440
+weight: 470
 url: /ru/net/aspose.words.drawing/shapebase/relativeverticalposition/
 ---
 ## ShapeBase.RelativeVerticalPosition property
 
-Указывает относительно того, как фигура расположена по вертикали.
+Указывает, относительно чего фигура расположена по вертикали.
 
 ```csharp
 public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
@@ -20,7 +20,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 
 Значение по умолчанию:Paragraph.
 
-Имеет эффект только для плавающих фигур верхнего уровня.
+Действует только для плавающих фигур верхнего уровня.
 
 ## Примеры
 
@@ -30,7 +30,7 @@ public RelativeVerticalPosition RelativeVerticalPosition { get; set; }
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Вставляем плавающее изображение, которое появится за перекрывающимся текстом, и выравниваем его по центру страницы.
+// Вставьте плавающее изображение, которое будет отображаться за перекрывающимся текстом, и выровняйте его по центру страницы.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 shape.WrapType = WrapType.None;
 shape.BehindText = true;

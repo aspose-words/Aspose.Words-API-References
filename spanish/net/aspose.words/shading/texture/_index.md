@@ -3,7 +3,7 @@ title: Shading.Texture
 linktitle: Texture
 articleTitle: Texture
 second_title: Aspose.Words para .NET
-description: Shading Texture propiedad. Obtiene o establece la textura de sombreado en C#.
+description: Descubre la propiedad Textura de Sombreado para realzar tus diseños. Personaliza y configura texturas fácilmente para lograr efectos visuales impactantes en tus proyectos.
 type: docs
 weight: 70
 url: /es/net/aspose.words/shading/texture/

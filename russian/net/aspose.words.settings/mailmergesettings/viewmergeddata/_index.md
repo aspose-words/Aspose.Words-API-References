@@ -3,7 +3,7 @@ title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
 second_title: Aspose.Words для .NET
-description: MailMergeSettings ViewMergedData свойство. Указывает что Microsoft Word должен отображать данные из указанного внешнего источника данных в который были вставлены поля слияния например предварительный просмотр объединенных данных. Значение по умолчаниюЛОЖЬ  на С#.
+description: Узнайте, как свойство ViewMergedData MailMergeSettings в Microsoft Word улучшает процесс создания документов за счет предварительного просмотра объединенных данных из внешних источников.
 type: docs
 weight: 170
 url: /ru/net/aspose.words.settings/mailmergesettings/viewmergeddata/
@@ -31,9 +31,9 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Создаем источник данных в виде ASCII-файла с символом "|" характер
-// действует как разделитель, разделяющий столбцы. Первая строка содержит имена трех столбцов,
-// и каждая последующая строка представляет собой строку с соответствующими значениями.
+// Создаем источник данных в виде ASCII-файла с символом "|"
+// действует как разделитель, который разделяет столбцы. Первая строка содержит имена трех столбцов,
+// и каждая последующая строка — это строка с соответствующими им значениями.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };
 string dataSrcFilename = ArtifactsDir + "MailMerge.MailMergeSettings.DataSource.txt";
@@ -61,7 +61,7 @@ odso.FirstRowContainsColumnNames = true;
 Assert.AreNotSame(odso, odso.Clone());
 Assert.AreNotSame(settings, settings.Clone());
 
- // Открытие этого документа в Microsoft Word приведет к выполнению слияния почты перед отображением содержимого.
+ // При открытии этого документа в Microsoft Word будет выполнено слияние почты перед отображением содержимого.
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");
 ```
 

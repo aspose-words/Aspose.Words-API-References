@@ -3,7 +3,7 @@ title: FieldNumPages
 linktitle: FieldNumPages
 articleTitle: FieldNumPages
 second_title: Aspose.Words لـ .NET
-description: FieldNumPages البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldNumPages، الأداة الأساسية لإدارة صفحات مشاريعك بسلاسة. أطلق العنان لكفاءتك وحسّن تجربة البرمجة لديك!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldnumpages/fieldnumpages/

@@ -3,14 +3,14 @@ title: RevisionOptions.DeletedTextColor
 linktitle: DeletedTextColor
 articleTitle: DeletedTextColor
 second_title: Aspose.Words для .NET
-description: RevisionOptions DeletedTextColor свойство. Позволяет указать цвет который будет использоваться для удаленного содержимого.Deletion . Значение по умолчаниюByAuthor  на С#.
+description: Настройте RevisionOptions с помощью свойства DeletedTextColor, чтобы выделить удаленный контент. По умолчанию — ByAuthor. Повысьте ясность вашего документа!
 type: docs
-weight: 20
+weight: 30
 url: /ru/net/aspose.words.layout/revisionoptions/deletedtextcolor/
 ---
 ## RevisionOptions.DeletedTextColor property
 
-Позволяет указать цвет, который будет использоваться для удаленного содержимого.Deletion . Значение по умолчанию:ByAuthor .
+Позволяет указать цвет, который будет использоваться для удаленного контента.Deletion . Значение по умолчанию:ByAuthor .
 
 ```csharp
 public RevisionColor DeletedTextColor { get; set; }
@@ -18,45 +18,45 @@ public RevisionColor DeletedTextColor { get; set; }
 
 ## Примеры
 
-Показывает, как изменить внешний вид редакций.
+Показывает, как изменить внешний вид ревизий.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-// Получаем объект RevisionOptions, который управляет внешним видом редакций.
+// Получить объект RevisionOptions, который управляет внешним видом ревизий.
 RevisionOptions revisionOptions = doc.LayoutOptions.RevisionOptions;
 
-// Отображение изменений вставки зеленым и курсивом.
+// Выделить исправления вставки зеленым курсивом.
 revisionOptions.InsertedTextColor = RevisionColor.Green;
 revisionOptions.InsertedTextEffect = RevisionTextEffect.Italic;
 
-// Отобразить удаленные версии красным и жирным шрифтом.
+// Выделить удаленные ревизии красным и жирным шрифтом.
 revisionOptions.DeletedTextColor = RevisionColor.Red;
 revisionOptions.DeletedTextEffect = RevisionTextEffect.Bold;
 
-// Один и тот же текст появится дважды в версии движения:
-// один раз в пункте отправления и один раз в пункте назначения.
-// Отобразить текст в перенесенной из редакции желтого цвета с двойным перечеркиванием
-// и двойное подчеркивание синим цветом в перенесенной версии.
+// Один и тот же текст будет появляться дважды в редакции движения:
+// один раз в пункте отправления и один раз в пункте прибытия.
+// Отобразить текст в ревизии, из которой был перемещен, желтым с двойным зачеркиванием
+// и дважды подчеркнута синим цветом в месте, куда перенесена редакция.
 revisionOptions.MovedFromTextColor = RevisionColor.Yellow;
 revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleStrikeThrough;
 revisionOptions.MovedToTextColor = RevisionColor.ClassicBlue;
-revisionOptions.MovedFromTextEffect = RevisionTextEffect.DoubleUnderline;
+revisionOptions.MovedToTextEffect = RevisionTextEffect.DoubleUnderline;
 
-// Редакции формата отображаются темно-красным и жирным шрифтом.
+// Выделите изменения формата темно-красным и жирным шрифтом.
 revisionOptions.RevisedPropertiesColor = RevisionColor.DarkRed;
 revisionOptions.RevisedPropertiesEffect = RevisionTextEffect.Bold;
 
-// Размещаем толстую темно-синюю полосу в левой части страницы рядом со строками, на которые внесены изменения.
+// Разместите толстую темно-синюю полосу в левой части страницы рядом со строками, затронутыми изменениями.
 revisionOptions.RevisionBarsColor = RevisionColor.DarkBlue;
 revisionOptions.RevisionBarsWidth = 15.0f;
 
-// Показать отметки редакции и исходный текст.
+// Показать исправленные отметки и исходный текст.
 revisionOptions.ShowOriginalRevision = true;
 revisionOptions.ShowRevisionMarks = true;
 
-// Получение перемещения, удаления, изменений форматирования и комментариев, которые будут отображаться в зеленых выносках
-// в правой части страницы.
+// Отображение перемещений, удалений, изменений форматирования и комментариев в зеленых шариках
+// на правой стороне страницы.
 revisionOptions.ShowInBalloons = ShowInBalloons.Format;
 revisionOptions.CommentColor = RevisionColor.BrightGreen;
 

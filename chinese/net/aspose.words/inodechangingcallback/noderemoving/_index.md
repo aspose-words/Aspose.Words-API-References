@@ -2,15 +2,15 @@
 title: INodeChangingCallback.NodeRemoving
 linktitle: NodeRemoving
 articleTitle: NodeRemoving
-second_title: 用于 .NET 的 Aspose.Words
-description: INodeChangingCallback NodeRemoving 方法. 在属于该文档的节点即将从文档中删除之前调用 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 INodeChangingCallback NodeRemoving 方法，该方法在文档节点被删除之前触发，确保文档管理的顺利进行。
 type: docs
 weight: 40
 url: /zh/net/aspose.words/inodechangingcallback/noderemoving/
 ---
 ## INodeChangingCallback.NodeRemoving method
 
-在属于该文档的节点即将从文档中删除之前调用。
+在属于此文档的节点即将从文档中删除之前调用。
 
 ```csharp
 public void NodeRemoving(NodeChangingArgs args)
@@ -18,7 +18,7 @@ public void NodeRemoving(NodeChangingArgs args)
 
 ## 例子
 
-展示如何通过回调自定义节点更改。
+展示如何使用回调自定义节点变化。
 
 ```csharp
 public void FontChangeViaCallback()
@@ -43,7 +43,7 @@ public void FontChangeViaCallback()
 
 /// <summary>
 /// 记录每个节点插入和删除的日期和时间。
-/// 为运行节点的文本内容设置自定义字体名称/大小。
+/// 为 Run 节点的文本内容设置自定义字体名称/大小。
 /// </summary>
 public class HandleNodeChangingFontChanger : INodeChangingCallback
 {
@@ -54,7 +54,7 @@ public class HandleNodeChangingFontChanger : INodeChangingCallback
 
         if (args.Node.NodeType == NodeType.Run)
         {
-            Aspose.Words.Font font = ((Run) args.Node).Font;
+            Aspose.Words.Font font = ((Run)args.Node).Font;
             mLog.Append($"\tFont:\tChanged from \"{font.Name}\" {font.Size}pt");
 
             font.Size = 24;

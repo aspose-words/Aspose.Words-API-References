@@ -3,7 +3,7 @@ title: FieldPrivate
 linktitle: FieldPrivate
 articleTitle: FieldPrivate
 second_title: Aspose.Words для .NET
-description: FieldPrivate строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор FieldPrivate — основной конструктор по умолчанию для упрощения кодирования и повышения производительности ваших проектов.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldprivate/fieldprivate/

@@ -2,15 +2,15 @@
 title: Forms2OleControlCollection Class
 linktitle: Forms2OleControlCollection
 articleTitle: Forms2OleControlCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Drawing.Ole.Forms2OleControlCollection 班级. 代表集合Forms2OleControl对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.Drawing.Ole.Forms2OleControlCollection 类，这是在文档处理中有效管理 Forms2OleControl 对象的解决方案。
 type: docs
-weight: 1120
+weight: 1470
 url: /zh/net/aspose.words.drawing.ole/forms2olecontrolcollection/
 ---
 ## Forms2OleControlCollection class
 
-代表集合[`Forms2OleControl`](../forms2olecontrol/)对象.
+代表[`Forms2OleControl`](../forms2olecontrol/)对象.
 
 要了解更多信息，请访问[使用 Ole 对象](https://docs.aspose.com/words/net/working-with-ole-objects/)文档文章。
 
@@ -28,8 +28,8 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | 获取集合中对象的计数。 |
-| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | 获取[`Forms2OleControl`](../forms2olecontrol/)指定索引处的对象. |
+| [Count](../../aspose.words.drawing.ole/forms2olecontrolcollection/count/) { get; } | 获取集合中的对象数量。 |
+| [Item](../../aspose.words.drawing.ole/forms2olecontrolcollection/item/) { get; } | 获取[`Forms2OleControl`](../forms2olecontrol/)指定索引处的对象。 |
 
 ## 方法
 
@@ -39,12 +39,12 @@ public class Forms2OleControlCollection : IEnumerable<Forms2OleControl>
 
 ## 例子
 
-演示如何访问嵌入在文档中的 OLE 控件及其子控件。
+演示如何访问文档中嵌入的 OLE 控件及其子控件。
 
 ```csharp
 Document doc = new Document(MyDir + "OLE ActiveX controls.docm");
 
-// Shapes 在文档主体中存储和显示 OLE 对象。
+// 形状在文档主体中存储和显示 OLE 对象。
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 Assert.AreEqual("6e182020-f460-11ce-9bcd-00aa00608e01", shape.OleFormat.Clsid.ToString());

@@ -3,7 +3,7 @@ title: FieldCompare
 linktitle: FieldCompare
 articleTitle: FieldCompare
 second_title: Aspose.Words для .NET
-description: FieldCompare строитель. Конструктор по умолчанию на С#.
+description: Откройте для себя конструктор по умолчанию FieldCompare для бесшовного сравнения данных. Повысьте эффективность кодирования с помощью нашего мощного, удобного инструмента!
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/fieldcompare/fieldcompare/

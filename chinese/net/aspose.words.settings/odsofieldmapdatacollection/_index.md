@@ -2,15 +2,15 @@
 title: OdsoFieldMapDataCollection Class
 linktitle: OdsoFieldMapDataCollection
 articleTitle: OdsoFieldMapDataCollection
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.Settings.OdsoFieldMapDataCollection 班级. 的类型化集合OdsoFieldMapData对象 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words OdsoFieldMapDataCollection 类，这是一个功能强大的类型集合，用于有效管理 OdsoFieldMapData 对象。
 type: docs
-weight: 5910
+weight: 6740
 url: /zh/net/aspose.words.settings/odsofieldmapdatacollection/
 ---
 ## OdsoFieldMapDataCollection class
 
-的类型化集合[`OdsoFieldMapData`](../odsofieldmapdata/)对象.
+类型的集合[`OdsoFieldMapData`](../odsofieldmapdata/)对象.
 
 要了解更多信息，请访问[邮件合并和报告](https://docs.aspose.com/words/net/mail-merge-and-reporting/)文档文章。
 
@@ -35,20 +35,20 @@ public class OdsoFieldMapDataCollection : IEnumerable<OdsoFieldMapData>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | 将一个对象添加到此集合的末尾。 |
+| [Add](../../aspose.words.settings/odsofieldmapdatacollection/add/)(*[OdsoFieldMapData](../odsofieldmapdata/)*) | 将对象添加到此集合的末尾。 |
 | [Clear](../../aspose.words.settings/odsofieldmapdatacollection/clear/)() | 从此集合中删除所有元素。 |
 | [GetEnumerator](../../aspose.words.settings/odsofieldmapdatacollection/getenumerator/)() | 返回一个枚举器对象，可用于迭代集合中的所有项目。 |
 | [RemoveAt](../../aspose.words.settings/odsofieldmapdatacollection/removeat/)(*int*) | 删除指定索引处的元素。 |
 
 ## 例子
 
-演示如何访问将数据源列映射到合并字段的数据集合。
+展示如何访问将数据源列映射到合并字段的数据集合。
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// 该集合定义邮件合并如何映射数据源中的列
-// 预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
+// 此集合定义邮件合并如何映射数据源中的列
+// 到预定义的 MERGEFIELD、ADDRESSBLOCK 和 GREETINGLINE 字段。
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
 
@@ -69,12 +69,12 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // 克隆此集合中的元素。
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// 按索引单独使用“RemoveAt”方法元素。
+// 使用“RemoveAt”方法按索引单独删除元素。
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// 使用“Clear”方法一次性清除整个集合。
+// 使用“Clear”方法一次清除整个集合。
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

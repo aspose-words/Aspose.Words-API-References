@@ -3,7 +3,7 @@ title: FieldTitle.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: FieldTitle Text propriété. Obtient ou définit le texte du titre en C#.
+description: Gérez facilement votre propriété Texte du Titre du Champ. Obtenez ou définissez facilement le texte du titre pour une meilleure clarté et une meilleure expérience utilisateur dans votre application.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldtitle/text/
@@ -23,10 +23,10 @@ Montre comment utiliser le champ TITRE.
 ```csharp
 Document doc = new Document();
 
- // Définissez une valeur pour la propriété de document intégrée "Titre".
+ // Définissez une valeur pour la propriété de document intégrée « Titre ».
 doc.BuiltInDocumentProperties.Title = "My Title";
 
-// On peut utiliser le champ TITRE pour afficher la valeur de cette propriété dans le document.
+// Nous pouvons utiliser le champ TITLE pour afficher la valeur de cette propriété dans le document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
@@ -34,8 +34,8 @@ field.Update();
 Assert.AreEqual(" TITLE ", field.GetFieldCode());
 Assert.AreEqual("My Title", field.Result);
 
-// Définition d'une valeur pour la propriété Text du champ,
-// puis la mise à jour du champ écrasera également la propriété intégrée correspondante par la nouvelle valeur.
+// Définition d'une valeur pour la propriété Texte du champ,
+// et la mise à jour du champ écrasera également la propriété intégrée correspondante avec la nouvelle valeur.
 builder.Writeln();
 field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";

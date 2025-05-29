@@ -3,14 +3,14 @@ title: TableStyle.LeftIndent
 linktitle: LeftIndent
 articleTitle: LeftIndent
 second_title: Aspose.Words för .NET
-description: TableStyle LeftIndent fast egendom. Hämtar eller ställer in värdet som representerar vänster indrag i en tabell i C#.
+description: Upptäck egenskapen TableStyle LeftIndent för att enkelt anpassa tabellens vänstra indrag för förbättrad layoutkontroll och visuell tilltal.
 type: docs
 weight: 90
 url: /sv/net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property
 
-Hämtar eller ställer in värdet som representerar vänster indrag i en tabell.
+Hämtar eller anger värdet som representerar den vänstra indragningen i en tabell.
 
 ```csharp
 public double LeftIndent { get; set; }
@@ -18,20 +18,20 @@ public double LeftIndent { get; set; }
 
 ## Exempel
 
-Visar hur man ställer in positionen för ett bord.
+Visar hur man ställer in en tabells position.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att justera en tabell horisontellt.
-// 1 - Använd egenskapen "Alignment" för att justera den till en plats på sidan, till exempel mitten:
+// Nedan följer två sätt att justera en tabell horisontellt.
+// 1 - Använd egenskapen "Justering" för att justera den till en plats på sidan, till exempel mitten:
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 tableStyle.Alignment = TableAlignment.Center;
 tableStyle.Borders.Color = Color.Blue;
 tableStyle.Borders.LineStyle = LineStyle.Single;
 
-// Infoga en tabell och tillämpa stilen vi skapade på den.
+// Infoga en tabell och använd den stil vi skapade på den.
 Table table = builder.StartTable();
 builder.InsertCell();
 builder.Write("Aligned to the center of the page");

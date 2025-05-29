@@ -3,14 +3,14 @@ title: IReplacingCallback.Replacing
 linktitle: Replacing
 articleTitle: Replacing
 second_title: Aspose.Words per .NET
-description: IReplacingCallback Replacing metodo. Un metodo definito dallutente che viene chiamato durante unoperazione di sostituzione per ogni corrispondenza trovata subito prima che venga effettuata una sostituzione in C#.
+description: Migliora la tua programmazione con il metodo IReplacingCallback! Personalizza le operazioni di sostituzione in modo efficiente eseguendo azioni definite dall'utente per ogni corrispondenza trovata.
 type: docs
 weight: 10
 url: /it/net/aspose.words.replacing/ireplacingcallback/replacing/
 ---
 ## IReplacingCallback.Replacing method
 
-Un metodo definito dall'utente che viene chiamato durante un'operazione di sostituzione per ogni corrispondenza trovata subito prima che venga effettuata una sostituzione.
+Un metodo definito dall'utente che viene chiamato durante un'operazione di sostituzione per ogni corrispondenza trovata appena prima che venga effettuata una sostituzione.
 
 ```csharp
 public ReplaceAction Replacing(ReplacingArgs args)
@@ -18,11 +18,11 @@ public ReplaceAction Replacing(ReplacingArgs args)
 
 ### Valore di ritorno
 
-A[`ReplaceAction`](../../replaceaction/) valore che specifica l'azione da intraprendere per la partita corrente.
+Un[`ReplaceAction`](../../replaceaction/) valore che specifica l'azione da intraprendere per la corrispondenza corrente.
 
 ## Esempi
 
-Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte queste sostituzioni.
+Mostra come sostituire tutte le occorrenze di un modello di espressione regolare con un'altra stringa, tenendo traccia di tutte le sostituzioni.
 
 ```csharp
 public void ReplaceWithCallback()
@@ -36,7 +36,7 @@ public void ReplaceWithCallback()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta un callback che tenga traccia di eventuali sostituzioni effettuate dal metodo "Replace".
+    // Imposta un callback che tiene traccia di tutte le sostituzioni effettuate dal metodo "Replace".
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -50,8 +50,8 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Mantiene un registro di ogni sostituzione di testo eseguita da un'operazione di ricerca e sostituzione
-/// e prende nota del valore del testo corrispondente originale.
+/// Mantiene un registro di ogni sostituzione di testo effettuata tramite un'operazione di ricerca e sostituzione
+/// e annota il valore del testo originale corrispondente.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
 {
@@ -99,7 +99,7 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Rimuove il paragrafo con il testo corrispondente.
+        // Rimuovi il paragrafo con il testo corrispondente.
         para.Remove();
 
         return ReplaceAction.Skip;

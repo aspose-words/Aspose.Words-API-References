@@ -3,14 +3,14 @@ title: SectionStart Enum
 linktitle: SectionStart
 articleTitle: SectionStart
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.SectionStart تعداد. نوع الفاصل في بداية المقطع في C#.
+description: استكشف Aspose.Words.SectionStart enum لفهم فواصل الأقسام وتحسين تنسيق المستند لتحسين التحكم والعرض.
 type: docs
-weight: 5760
+weight: 6590
 url: /ar/net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
 
-نوع الفاصل في بداية المقطع.
+نوع الفاصل في بداية القسم.
 
 ```csharp
 public enum SectionStart
@@ -20,11 +20,11 @@ public enum SectionStart
 
 | اسم | قيمة | وصف |
 | --- | --- | --- |
-| Continuous | `0` | يبدأ القسم الجديد في نفس صفحة القسم السابق. |
+| Continuous | `0` | يبدأ القسم الجديد في نفس الصفحة مثل القسم السابق. |
 | NewColumn | `1` | يبدأ القسم من عمود جديد. |
 | NewPage | `2` | يبدأ القسم من صفحة جديدة. |
 | EvenPage | `3` | يبدأ القسم في صفحة زوجية جديدة. |
-| OddPage | `4` | يبدأ القسم بصفحة فردية جديدة. |
+| OddPage | `4` | يبدأ القسم في صفحة فردية جديدة. |
 
 ## أمثلة
 
@@ -33,27 +33,27 @@ public enum SectionStart
 ```csharp
 Document doc = new Document();
 
-// يحتوي المستند الفارغ على قسم واحد ونص واحد وفقرة واحدة.
-// اتصل بالطريقة "RemoveAllChildren" لإزالة كل تلك العقد،
+//تحتوي الوثيقة الفارغة على قسم واحد ونص واحد وفقرة واحدة.
+//استدعاء طريقة "RemoveAllChildren" لإزالة كل هذه العقد،
 // وينتهي الأمر بعقدة مستند بدون أطفال.
 doc.RemoveAllChildren();
 
-// لا يحتوي هذا المستند الآن على عقد فرعية مركبة يمكننا إضافة محتوى إليها.
-// إذا أردنا تعديله، فسنحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
-// أولاً، قم بإنشاء قسم جديد، ثم قم بإلحاقه كفرع لعقدة المستند الجذر.
+// لا تحتوي هذه الوثيقة الآن على أي عقد فرعية مركبة يمكننا إضافة محتوى إليها.
+// إذا أردنا تحريره، فسوف نحتاج إلى إعادة ملء مجموعة العقد الخاصة به.
+// أولاً، قم بإنشاء قسم جديد، ثم قم بإضافته كقسم فرعي إلى عقدة المستند الجذر.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// قم بتعيين بعض خصائص إعداد الصفحة للقسم.
+// تعيين بعض خصائص إعداد الصفحة للقسم.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// يحتاج القسم إلى نص يحتوي على جميع محتوياته ويعرضها
-// في الصفحة الواقعة بين رأس القسم وتذييله.
+// يحتاج القسم إلى نص، والذي سيحتوي على جميع محتوياته ويعرضها
+// على الصفحة بين رأس القسم وتذييله.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// أنشئ فقرة، وعيّن بعض خصائص التنسيق، ثم ألحقها كطفل فرعي بالنص.
+// قم بإنشاء فقرة، ثم اضبط بعض خصائص التنسيق، ثم أضفها كفقرة فرعية إلى النص.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -61,8 +61,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// وأخيرًا، أضف بعض المحتوى لإجراء المستند. إنشاء تشغيل،
-// اضبط مظهرها ومحتوياتها، ثم ألحقها كطفل للفقرة.
+// أخيرًا، أضف بعض المحتوى لإنشاء المستند. أنشئ مسارًا،
+// قم بتعيين مظهره ومحتوياته، ثم قم بإضافته كطفل إلى الفقرة.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;
@@ -73,16 +73,16 @@ Assert.AreEqual("Hello World!", doc.GetText().Trim());
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
 
-يوضح كيفية تحديد كيفية فصل قسم جديد عن القسم السابق.
+يوضح كيفية تحديد كيفية فصل القسم الجديد عن القسم السابق.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("This text is in section 1.");
 
-// تحدد أنواع الفواصل المقطعية كيفية فصل قسم جديد عن القسم السابق.
+// تحدد أنواع فواصل الأقسام كيفية فصل القسم الجديد عن القسم السابق.
 // فيما يلي خمسة أنواع من فواصل الأقسام.
-// 1 - يبدأ القسم التالي في صفحة جديدة:
+// 1 - يبدأ القسم التالي على صفحة جديدة:
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
@@ -94,13 +94,13 @@ builder.Writeln("This text is in section 3.");
 
 Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
 
-// 3 - يبدأ القسم التالي في صفحة زوجية جديدة:
+// 3 - يبدأ القسم التالي على صفحة زوجية جديدة:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
 Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
 
-// 4 - يبدأ القسم التالي في صفحة فردية جديدة:
+// 4 - يبدأ القسم التالي على صفحة فردية جديدة:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 

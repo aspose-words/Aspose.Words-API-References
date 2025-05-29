@@ -3,7 +3,7 @@ title: BuildingBlock.Category
 linktitle: Category
 articleTitle: Category
 second_title: Aspose.Words für .NET
-description: BuildingBlock Category eigendom. Gibt die Kategorisierung der zweiten Ebene für den Baustein an in C#.
+description: Entdecken Sie unsere BuildingBlock-Kategorieeigenschaften für eine verbesserte Kategorisierung der zweiten Ebene, die Ihre Projekte rationalisiert und die Effizienz Ihrer Organisation steigert.
 type: docs
 weight: 30
 url: /de/net/aspose.words.buildingblocks/buildingblock/category/
@@ -18,15 +18,15 @@ public string Category { get; set; }
 
 ## Bemerkungen
 
-Bausteine in der Microsoft Word-Benutzeroberfläche sind in Galerien angeordnet. Jede[`Gallery`](../gallery/) kann mehrere Kategorien haben. Jeder Block innerhalb a`Category` hat ein[`Name`](../name/).
+Bausteine in der Microsoft Word-Benutzeroberfläche sind in Galerien angeordnet. Jeder[`Gallery`](../gallery/) kann mehrere Kategorien haben. Jeder Block innerhalb a`Category` hat eine[`Name`](../name/).
 
-Kann nicht sein`Null` und darf keine leere Zeichenfolge sein.
+Kann nicht sein`null` und darf keine leere Zeichenfolge sein.
 
-Entspricht dem**docPartPr.category.name** Element in OOXML.
+Entspricht dem**docPartPr.Kategorie.Name** Element in OOXML.
 
 ## Beispiele
 
-Zeigt, wie man einem Dokument einen benutzerdefinierten Baustein hinzufügt.
+Zeigt, wie einem Dokument ein benutzerdefinierter Baustein hinzugefügt wird.
 
 ```csharp
 public void CreateAndInsert()
@@ -44,24 +44,25 @@ public void CreateAndInsert()
 
     glossaryDoc.AppendChild(block);
 
-    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert, und wir können ihnen einen neuen eindeutigen Wert geben.
+    // Alle neuen Baustein-GUIDs haben standardmäßig denselben Nullwert und wir können ihnen einen neuen eindeutigen Wert zuweisen.
     Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
 
     block.Guid = Guid.NewGuid();
 
     // Die folgenden Eigenschaften kategorisieren Bausteine
-    // in das Menü gelangen wir in Microsoft Word über „Einfügen“ -> „Schnellteile“ -> „Baustein-Organizer“.
+    // Im Menü können wir in Microsoft Word über „Einfügen“ -> „Schnellbausteine“ -> „Baustein-Organizer“ darauf zugreifen.
     Assert.AreEqual("(Empty Category)", block.Category);
     Assert.AreEqual(BuildingBlockType.None, block.Type);
     Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
     Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
 
-    // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einige Inhalte geben,
-    // was wir mit einem Dokumentbesucher tun werden. Dieser Besucher legt außerdem eine Kategorie, eine Galerie und ein Verhalten fest.
+    // Bevor wir diesen Baustein zu unserem Dokument hinzufügen können, müssen wir ihm einen Inhalt geben,
+    // Dies tun wir mithilfe eines Dokumentbesuchers. Dieser Besucher legt auch eine Kategorie, eine Galerie und ein Verhalten fest.
     BuildingBlockVisitor visitor = new BuildingBlockVisitor(glossaryDoc);
+    // Besuchen Sie den Anfang/das Ende des BuildingBlocks.
     block.Accept(visitor);
 
-    // Wir können über das Glossardokument auf den Block zugreifen, den wir gerade erstellt haben.
+    // Wir können auf den Block zugreifen, den wir gerade aus dem Glossardokument erstellt haben.
     BuildingBlock customBlock = glossaryDoc.GetBuildingBlock(BuildingBlockGallery.QuickParts,
         "My custom building blocks", "Custom Block");
 
@@ -71,12 +72,12 @@ public void CreateAndInsert()
     // Jetzt können wir es als neuen Abschnitt in das Dokument einfügen.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 
-    // Wir können es auch im Building Blocks Organizer von Microsoft Word finden und manuell platzieren.
+    // Wir können es auch im Baustein-Organizer von Microsoft Word finden und manuell platzieren.
     doc.Save(ArtifactsDir + "BuildingBlocks.CreateAndInsert.dotx");
 }
 
 /// <summary>
-/// Richtet einen besuchten Baustein ein, der als Schnellteil in das Dokument eingefügt wird, und fügt seinem Inhalt Text hinzu.
+/// Richtet einen besuchten Baustein zum Einfügen in das Dokument als Schnellbaustein ein und fügt seinem Inhalt Text hinzu.
 /// </summary>
 public class BuildingBlockVisitor : DocumentVisitor
 {
@@ -88,7 +89,7 @@ public class BuildingBlockVisitor : DocumentVisitor
 
     public override VisitorAction VisitBuildingBlockStart(BuildingBlock block)
     {
-        // Konfigurieren Sie den Baustein als Schnellteil und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
+        // Konfigurieren Sie den Baustein als Schnellbaustein und fügen Sie Eigenschaften hinzu, die vom Building Blocks Organizer verwendet werden.
         block.Behavior = BuildingBlockBehavior.Paragraph;
         block.Category = "My custom building blocks";
         block.Description =

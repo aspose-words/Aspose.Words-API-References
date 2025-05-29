@@ -2,15 +2,15 @@
 title: Document.AcceptAllRevisions
 linktitle: AcceptAllRevisions
 articleTitle: AcceptAllRevisions
-second_title: 用于 .NET 的 Aspose.Words
-description: Document AcceptAllRevisions 方法. 接受文档中所有跟踪的更改 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 AcceptAllRevisions 方法简化您的编辑过程，轻松接受文档中所有跟踪的更改，以获得完善的最终版本。
 type: docs
-weight: 520
+weight: 540
 url: /zh/net/aspose.words/document/acceptallrevisions/
 ---
 ## Document.AcceptAllRevisions method
 
-接受文档中所有跟踪的更改。
+接受文档中的所有修订。
 
 ```csharp
 public void AcceptAllRevisions()
@@ -18,26 +18,26 @@ public void AcceptAllRevisions()
 
 ## 评论
 
-这个方法是一个快捷方式[`AcceptAll`](../../revisioncollection/acceptall/)。
+此方法是[`AcceptAll`](../../revisioncollection/acceptall/)。
 
 ## 例子
 
-展示如何接受文档中的所有跟踪更改。
+显示如何接受文档中的所有跟踪更改。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 编辑文档，同时跟踪更改以创建一些修订。
+// 在跟踪更改的同时编辑文档以创建一些修订。
 doc.StartTrackRevisions("John Doe");
 builder.Write("Hello world! ");
-builder.Write("Hello again! "); 
+builder.Write("Hello again! ");
 builder.Write("This is another revision.");
 doc.StopTrackRevisions();
 
 Assert.AreEqual(3, doc.Revisions.Count);
 
-// 我们可以迭代每个修订版本并接受/拒绝它作为我们文档的一部分。
+// 我们可以遍历每个修订版本并将其作为文档的一部分接受/拒绝。
 // 如果我们知道我们希望接受每个修订，我们可以通过调用此方法更直接地做到这一点。
 doc.AcceptAllRevisions();
 

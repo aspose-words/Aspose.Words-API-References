@@ -3,14 +3,14 @@ title: Field.DisplayResult
 linktitle: DisplayResult
 articleTitle: DisplayResult
 second_title: Aspose.Words для .NET
-description: Field DisplayResult свойство. Получает текст представляющий результат отображаемого поля на С#.
+description: Откройте для себя свойство Field DisplayResult, которое предоставляет текст для отображаемых результатов поля, повышая ясность и удобство использования.
 type: docs
 weight: 10
 url: /ru/net/aspose.words.fields/field/displayresult/
 ---
 ## Field.DisplayResult property
 
-Получает текст, представляющий результат отображаемого поля.
+Получает текст, представляющий отображаемый результат поля.
 
 ```csharp
 public string DisplayResult { get; }
@@ -18,11 +18,11 @@ public string DisplayResult { get; }
 
 ## Примечания
 
-[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) необходимо вызвать метод, чтобы получить правильное значение для the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) и[`FieldAutoNumLgl`](../../fieldautonumlgl/) поля.
+[`UpdateListLabels`](../../../aspose.words/document/updatelistlabels/) необходимо вызвать метод для получения правильного значения для the [`FieldListNum`](../../fieldlistnum/) ,[`FieldAutoNum`](../../fieldautonum/) ,[`FieldAutoNumOut`](../../fieldautonumout/) и[`FieldAutoNumLgl`](../../fieldautonumlgl/) поля.
 
 ## Примеры
 
-Показывает, как получить реальный текст, отображаемый в поле документа.
+Показывает, как получить реальный текст, отображаемый полем в документе.
 
 ```csharp
 Document doc = new Document();
@@ -37,8 +37,8 @@ fieldAuthor.AuthorName = "John Doe";
 Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
 
  // Поля не поддерживают точные значения результатов в режиме реального времени.
-// Чтобы наши поля отображали точные результаты в любой момент времени,
-// например, прямо перед операцией сохранения, нам нужно обновить их вручную.
+// Чтобы убедиться, что наши поля отображают точные результаты в любой момент времени,
+// например, прямо перед операцией сохранения, нам необходимо обновить их вручную.
 fieldAuthor.Update();
 
 Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);

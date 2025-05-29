@@ -3,14 +3,14 @@ title: SvgSaveOptions.TextOutputMode
 linktitle: TextOutputMode
 articleTitle: TextOutputMode
 second_title: Aspose.Words لـ .NET
-description: SvgSaveOptions TextOutputMode ملكية. الحصول على أو تعيين قيمة تحدد كيفية عرض النص في SVG في C#.
+description: اكتشف خاصية TextOutputMode في SvgSaveOptions، التي تتحكم في عرض النص في SVG لتحسين جودة الصورة والتخصيص. حسّن رسوماتك اليوم!
 type: docs
-weight: 90
+weight: 120
 url: /ar/net/aspose.words.saving/svgsaveoptions/textoutputmode/
 ---
 ## SvgSaveOptions.TextOutputMode property
 
-الحصول على أو تعيين قيمة تحدد كيفية عرض النص في SVG.
+يحصل على قيمة تحدد كيفية عرض النص في SVG أو يعينها.
 
 ```csharp
 public SvgTextOutputMode TextOutputMode { get; set; }
@@ -18,7 +18,7 @@ public SvgTextOutputMode TextOutputMode { get; set; }
 
 ## ملاحظات
 
-استخدم هذه الخاصية للحصول على أو تعيين الوضع الذي يجب أن يتم به عرض النص داخل المستند عند الحفظ بتنسيق SVG.
+استخدم هذه الخاصية للحصول على أو تعيين وضع كيفية تقديم النص داخل المستند عند الحفظ بتنسيق SVG.
 
 القيمة الافتراضية هيUseTargetMachineFonts.
 

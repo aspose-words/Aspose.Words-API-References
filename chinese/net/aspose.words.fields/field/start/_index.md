@@ -2,8 +2,8 @@
 title: Field.Start
 linktitle: Start
 articleTitle: Start
-second_title: 用于 .NET 的 Aspose.Words
-description: Field Start 财产. 获取表示字段开始的节点 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索“字段起始”属性，轻松访问字段的起始节点，增强数据管理并简化工作流程。
 type: docs
 weight: 90
 url: /zh/net/aspose.words.fields/field/start/
@@ -18,7 +18,7 @@ public FieldStart Start { get; }
 
 ## 例子
 
-展示如何使用字段集合。
+展示如何处理字段集合。
 
 ```csharp
 public void FieldCollection()
@@ -81,7 +81,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldStart 节点时调用。
+    /// 当在文档中遇到 FieldStart 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldStart(FieldStart fieldStart)
     {
@@ -93,7 +93,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldSeparator 节点时调用。
+    /// 当在文档中遇到 FieldSeparator 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldSeparator(FieldSeparator fieldSeparator)
     {
@@ -103,7 +103,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// 在文档中遇到 FieldEnd 节点时调用。
+    /// 当在文档中遇到 FieldEnd 节点时调用。
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

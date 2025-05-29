@@ -2,15 +2,15 @@
 title: DocumentProperty.ToString
 linktitle: ToString
 articleTitle: ToString
-second_title: Aspose.Words for .NET
-description: DocumentProperty ToString yöntem. Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Yerel ayarlara göre özellik değerlerini dizeler halinde biçimlendiren, veri sunumunu ve kullanıcı deneyimini geliştiren DocumentProperty ToString yöntemini keşfedin.
 type: docs
 weight: 110
 url: /tr/net/aspose.words.properties/documentproperty/tostring/
 ---
 ## DocumentProperty.ToString method
 
-Özellik değerini geçerli yerel ayara göre biçimlendirilmiş bir dize olarak döndürür.
+Özellik değerini geçerli yerel ayarlara göre biçimlendirilmiş bir dize olarak döndürür.
 
 ```csharp
 public override string ToString()
@@ -18,7 +18,7 @@ public override string ToString()
 
 ## Notlar
 
-Bir boole özelliğini "Y" veya "N"ye dönüştürür. Bir tarih özelliğini kısa bir tarih dizesine dönüştürür. Diğer tüm türler için bir özelliği Object.ToString() kullanarak dönüştürür.
+Bir boolean özelliğini "Y" veya "N"ye dönüştürür. Bir tarih özelliğini kısa bir tarih dizesine dönüştürür. Diğer tüm türler için bir özelliği Object.ToString() kullanarak dönüştürür.
 
 ## Örnekler
 
@@ -47,8 +47,8 @@ Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// Her belge, yerleşik özellikler gibi anahtar/değer çiftleri olan özel özelliklerin bir koleksiyonunu içerir.
- // Belgenin sabit bir yerleşik özellikler listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
+// Her belge, yerleşik özellikler gibi anahtar-değer çiftleri olan bir dizi özel özellik içerir.
+ // Belgenin yerleşik özelliklerin sabit bir listesi vardır. Kullanıcı tüm özel özellikleri oluşturur.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

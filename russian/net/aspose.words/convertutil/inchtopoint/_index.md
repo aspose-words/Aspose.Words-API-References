@@ -3,7 +3,7 @@ title: ConvertUtil.InchToPoint
 linktitle: InchToPoint
 articleTitle: InchToPoint
 second_title: Aspose.Words для .NET
-description: ConvertUtil InchToPoint метод. Преобразует дюймы в пункты на С#.
+description: Легко конвертируйте дюймы в точки с помощью метода InchToPoint от ConvertUtil. Повысьте точность проектирования и измерений уже сегодня!
 type: docs
 weight: 10
 url: /ru/net/aspose.words/convertutil/inchtopoint/
@@ -22,11 +22,11 @@ public static double InchToPoint(double inches)
 
 ## Примечания
 
-1 дюйм равен 72 баллам.
+1 дюйм равен 72 точкам.
 
 ## Примеры
 
-Показывает, как настроить размер бумаги, ориентацию, поля и другие параметры раздела.
+Показывает, как настроить размер бумаги, ориентацию, поля, а также другие параметры раздела.
 
 ```csharp
 Document doc = new Document();
@@ -52,8 +52,8 @@ doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Параметр «Параметры страницы» раздела определяет размер полей страницы в пунктах.
-// Мы также можем использовать класс ConvertUtil для использования более знакомой единицы измерения,
+// «Параметры страницы» раздела определяют размер полей страницы в пунктах.
+// Мы также можем использовать класс «ConvertUtil» для использования более привычной единицы измерения,
 // например, дюймы при определении границ.
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.InchToPoint(1.0);
@@ -61,11 +61,11 @@ pageSetup.BottomMargin = ConvertUtil.InchToPoint(2.0);
 pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
-// Дюйм — 72 пункта.
+// Дюйм — это 72 пункта.
 Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
 Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
 
-// Добавляем контент, чтобы продемонстрировать новые поля.
+// Добавьте контент для демонстрации новых полей.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +
                 $"{pageSetup.RightMargin} points/{ConvertUtil.PointToInch(pageSetup.RightMargin)} inches from the right, " +
                 $"{pageSetup.TopMargin} points/{ConvertUtil.PointToInch(pageSetup.TopMargin)} inches from the top, " +

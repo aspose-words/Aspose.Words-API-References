@@ -3,14 +3,14 @@ title: FieldOptions.BuiltInTemplatesPaths
 linktitle: BuiltInTemplatesPaths
 articleTitle: BuiltInTemplatesPaths
 second_title: Aspose.Words لـ .NET
-description: FieldOptions BuiltInTemplatesPaths ملكية. الحصول على أو تعيين مسارات قوالب MS Word المضمنة في C#.
+description: اكتشف كيفية إدارة مسارات القالب المضمنة في MS Word باستخدام خاصية FieldOptions BuiltInTemplatesPaths لإنشاء مستندات بسلاسة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.fields/fieldoptions/builtintemplatespaths/
 ---
 ## FieldOptions.BuiltInTemplatesPaths property
 
-الحصول على أو تعيين مسارات قوالب MS Word المضمنة.
+يحصل على مسارات قوالب MS Word المضمنة أو يعينها.
 
 ```csharp
 public string[] BuiltInTemplatesPaths { get; set; }
@@ -18,18 +18,18 @@ public string[] BuiltInTemplatesPaths { get; set; }
 
 ## ملاحظات
 
-يتم استخدام هذه الخاصية من قبل[`FieldAutoText`](../../fieldautotext/) و[`FieldGlossary`](../../fieldglossary/) الحقول، إذا لم يتم العثور على إدخال النص التلقائي المشار إليه في[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) نموذج.
+يتم استخدام هذه الخاصية بواسطة[`FieldAutoText`](../../fieldautotext/) و[`FieldGlossary`](../../fieldglossary/) الحقول، إذا لم يتم العثور على إدخال النص التلقائي المشار إليه في[`AttachedTemplate`](../../../aspose.words/document/attachedtemplate/) نموذج.
 
-افتراضيًا، يقوم برنامج MS Word بتخزين القوالب المضمنة في c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx and C:\Users\&lt;username&gt;\ ملفات AppData\Roaming\Microsoft\Templates\Normal.dotm.
+بشكل افتراضي، يقوم MS Word بتخزين القوالب المضمنة في الملفات c:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Document Building Blocks\1033\16\Built-In Building Blocks.dotx و C:\Users\&lt;username&gt;\AppData\Roaming\Microsoft\Templates\Normal.dotm.
 
 ## أمثلة
 
-يوضح كيفية عرض الكتلة البرمجية الإنشائية باستخدام حقلي النص التلقائي والمسرد.
+يوضح كيفية عرض كتلة بناء باستخدام حقول AUTOTEXT وGLOSSARY.
 
 ```csharp
 Document doc = new Document();
 
-// قم بإنشاء مستند معجم وأضف كتلة إنشاء نص تلقائي إليه.
+// قم بإنشاء مستند المصطلحات وأضف إليه كتلة بناء النص التلقائي.
 doc.GlossaryDocument = new GlossaryDocument();
 BuildingBlock buildingBlock = new BuildingBlock(doc.GlossaryDocument);
 buildingBlock.Name = "MyBlock";
@@ -39,7 +39,7 @@ buildingBlock.Description = "MyBlock description";
 buildingBlock.Behavior = BuildingBlockBehavior.Paragraph;
 doc.GlossaryDocument.AppendChild(buildingBlock);
 
-// أنشئ مصدرًا وأضفه كنص إلى الكتلة البرمجية الإنشائية الخاصة بنا.
+// قم بإنشاء مصدر وأضفه كنص إلى كتلة البناء الخاصة بنا.
 Document buildingBlockSource = new Document();
 DocumentBuilder buildingBlockSourceBuilder = new DocumentBuilder(buildingBlockSource);
 buildingBlockSourceBuilder.Writeln("Hello World!");
@@ -47,19 +47,19 @@ buildingBlockSourceBuilder.Writeln("Hello World!");
 Node buildingBlockContent = doc.GlossaryDocument.ImportNode(buildingBlockSource.FirstSection, true);
 buildingBlock.AppendChild(buildingBlockContent);
 
-// قم بتعيين ملف يحتوي على أجزاء قد لا تحتوي عليها وثيقتنا أو القالب المرفق بها.
+// قم بتعيين ملف يحتوي على أجزاء قد لا تحتوي عليها مستندنا أو القالب المرفق به.
 doc.FieldOptions.BuiltInTemplatesPaths = new[] { MyDir + "Busniess brochure.dotx" };
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// فيما يلي طريقتان لاستخدام الحقول لعرض محتويات الكتلة البرمجية الإنشائية الخاصة بنا.
+// فيما يلي طريقتان لاستخدام الحقول لعرض محتويات كتلة البناء الخاصة بنا.
 // 1 - استخدام حقل النص التلقائي:
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
 Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
 
-// 2 - استخدام حقل المسرد:
+// 2 - استخدام حقل المصطلحات:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 

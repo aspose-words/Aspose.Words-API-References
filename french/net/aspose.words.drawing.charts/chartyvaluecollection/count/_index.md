@@ -3,7 +3,7 @@ title: ChartYValueCollection.Count
 linktitle: Count
 articleTitle: Count
 second_title: Aspose.Words pour .NET
-description: ChartYValueCollection Count propriété. Obtient le nombre déléments dans cette collection en C#.
+description: Découvrez la propriété ChartYValueCollection Count pour accéder facilement au nombre total d'éléments de votre collection de données pour une gestion améliorée des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartyvaluecollection/count/

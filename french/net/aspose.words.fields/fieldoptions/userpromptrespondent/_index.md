@@ -3,14 +3,14 @@ title: FieldOptions.UserPromptRespondent
 linktitle: UserPromptRespondent
 articleTitle: UserPromptRespondent
 second_title: Aspose.Words pour .NET
-description: FieldOptions UserPromptRespondent propriété. Obtient ou définit le répondant sur les invites de lutilisateur lors de la mise à jour du champ en C#.
+description: Découvrez comment la propriété FieldOptions UserPromptRespondent améliore l'expérience utilisateur en gérant les interactions des répondants lors des mises à jour des champs.
 type: docs
 weight: 220
 url: /fr/net/aspose.words.fields/fieldoptions/userpromptrespondent/
 ---
 ## FieldOptions.UserPromptRespondent property
 
-Obtient ou définit le répondant sur les invites de l'utilisateur lors de la mise à jour du champ.
+Obtient ou définit le répondant aux invites utilisateur lors de la mise à jour du champ.
 
 ```csharp
 public IFieldUserPromptRespondent UserPromptRespondent { get; set; }
@@ -32,7 +32,7 @@ public void FieldAsk()
     Document doc = new Document();
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // Placez un champ où sera placée la réponse à notre champ ASK.
+    // Placez un champ où la réponse à notre champ ASK sera placée.
     FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
@@ -60,7 +60,7 @@ public void FieldAsk()
     FieldMergeField fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     fieldMergeField.FieldName = "Column 1";
 
-    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur personnalisé,
+    // Nous pouvons modifier ou remplacer la réponse par défaut dans nos champs ASK avec un répondeur d'invite personnalisé,
     // qui se produira lors d'un publipostage.
     doc.FieldOptions.UserPromptRespondent = new MyPromptRespondent();
     doc.MailMerge.Execute(table);

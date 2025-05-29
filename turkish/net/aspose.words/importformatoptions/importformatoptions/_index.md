@@ -2,8 +2,8 @@
 title: ImportFormatOptions
 linktitle: ImportFormatOptions
 articleTitle: ImportFormatOptions
-second_title: Aspose.Words for .NET
-description: ImportFormatOptions inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: Sorunsuz entegrasyon için ImportFormatOptions oluşturucusunu keşfedin. Kodlama verimliliğinizi artırmak için varsayılan oluşturucumuzla güçlü özelliklerin kilidini açın.
 type: docs
 weight: 10
 url: /tr/net/aspose.words/importformatoptions/importformatoptions/

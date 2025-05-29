@@ -3,14 +3,14 @@ title: BuiltInDocumentProperties.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words لـ .NET
-description: BuiltInDocumentProperties Item ملكية. إرجاع أDocumentProperty كائن باسم الخاصية في C#.
+description: الوصول إلى كائنات DocumentProperty بسهولة باستخدام خاصية BuiltInDocumentProperties. سهّل إدارة مستنداتك اليوم!
 type: docs
-weight: 130
+weight: 140
 url: /ar/net/aspose.words.properties/builtindocumentproperties/item/
 ---
 ## BuiltInDocumentProperties indexer
 
-إرجاع أ[`DocumentProperty`](../../documentproperty/) كائن باسم الخاصية.
+يعيد[`DocumentProperty`](../../documentproperty/) الكائن حسب اسم الخاصية.
 
 ```csharp
 public override DocumentProperty this[string name] { get; }
@@ -18,15 +18,15 @@ public override DocumentProperty this[string name] { get; }
 
 | معامل | وصف |
 | --- | --- |
-| name | اسم الخاصية غير حساس لحالة الأحرف المراد استرداده. |
+| name | الاسم غير الحساس لحالة الأحرف للخاصية التي سيتم استردادها. |
 
 ## ملاحظات
 
-تتوافق أسماء سلسلة الخصائص مع أسماء الخصائص typed المتوفرة منها[`BuiltInDocumentProperties`](../).
+أسماء سلسلة الخصائص تتوافق مع أسماء خصائص typed المتوفرة من[`BuiltInDocumentProperties`](../).
 
-إذا طلبت خاصية غير موجودة في المستند، ولكن تم التعرف على name الخاص بالخاصية كاسم مدمج صالح، فستتم إضافة اسم جديد[`DocumentProperty`](../../documentproperty/) يتم إنشاء وإضافته إلى المجموعة وإعادته. تم تعيين الخاصية التي تم إنشاؤها حديثًا كقيمة افتراضية (سلسلة فارغة، صفر،`خطأ شنيع` أو DateTime.MinValue اعتمادًا على نوع الخاص بالخاصية المضمنة).
+إذا طلبت خاصية غير موجودة في المستند، ولكن تم التعرف على اسم الخاصية كاسم مدمج صالح، فسيتم إنشاء ملف جديد[`DocumentProperty`](../../documentproperty/) تم إنشاء وإضافته إلى المجموعة وإعادته. تم تعيين قيمة افتراضية للخاصية المُنشأة حديثًا (سلسلة فارغة، صفر،`خطأ شنيع` أو DateTime.MinValue اعتمادًا على type للخاصية المضمنة).
 
-إذا طلبت خاصية غير موجودة في المستند ولم يتم التعرف على name كاسم مضمن،`باطل` يتم إرجاع.
+إذا طلبت خاصية غير موجودة في المستند ولم يتم التعرف على name كاسم مضمن،`باطل` تم إرجاعه.
 
 ## أمثلة
 
@@ -35,8 +35,8 @@ public override DocumentProperty this[string name] { get; }
 ```csharp
 Document doc = new Document(MyDir + "Properties.docx");
 
-// يحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، هي أزواج قيمة المفتاح.
- // يحتوي المستند على قائمة ثابتة بالخصائص المضمنة. يقوم المستخدم بإنشاء كافة الخصائص المخصصة.
+// تحتوي كل مستند على مجموعة من الخصائص المخصصة، والتي، مثل الخصائص المضمنة، عبارة عن أزواج من القيمة الأساسية.
+ // تحتوي الوثيقة على قائمة ثابتة من الخصائص المضمنة. يُنشئ المستخدم جميع الخصائص المخصصة.
 Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");

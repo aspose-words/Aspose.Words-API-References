@@ -3,16 +3,16 @@ title: FileFontSource Class
 linktitle: FileFontSource
 articleTitle: FileFontSource
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Fonts.FileFontSource сорт. Представляет один файл шрифта TrueType хранящийся в файловой системе на С#.
+description: Откройте для себя Aspose.Words.Fonts.FileFontSource. Легко управляйте файлами шрифтов TrueType в вашей системе для улучшенного форматирования документов и гибкости дизайна.
 type: docs
-weight: 2870
+weight: 3280
 url: /ru/net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
 
 Представляет один файл шрифта TrueType, хранящийся в файловой системе.
 
-Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) статья документации.
+Чтобы узнать больше, посетите[Работа со шрифтами](https://docs.aspose.com/words/net/working-with-fonts/) документальная статья.
 
 ```csharp
 public class FileFontSource : FontSourceBase
@@ -22,15 +22,15 @@ public class FileFontSource : FontSourceBase
 
 | Имя | Описание |
 | --- | --- |
-| [FileFontSource](filefontsource/#constructor)(*string*) | Cтор. |
-| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Cтор. |
-| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Cтор. |
+| [FileFontSource](filefontsource/#constructor)(*string*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_1)(*string, int*) | Ctor. |
+| [FileFontSource](filefontsource/#constructor_2)(*string, int, string*) | Ctor. |
 
 ## Характеристики
 
 | Имя | Описание |
 | --- | --- |
-| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Ключ этого источника в кеше. |
+| [CacheKey](../../aspose.words.fonts/filefontsource/cachekey/) { get; } | Ключ этого источника в кэше. |
 | [FilePath](../../aspose.words.fonts/filefontsource/filepath/) { get; } | Путь к файлу шрифта. |
 | [Priority](../../aspose.words.fonts/fontsourcebase/priority/) { get; } | Возвращает приоритет источника шрифта. |
 | override [Type](../../aspose.words.fonts/filefontsource/type/) { get; } | Возвращает тип источника шрифта. |

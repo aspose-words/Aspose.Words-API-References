@@ -3,7 +3,7 @@ title: ConditionalStyleCollection.OddColumnBanding
 linktitle: OddColumnBanding
 articleTitle: OddColumnBanding
 second_title: Aspose.Words für .NET
-description: ConditionalStyleCollection OddColumnBanding eigendom. Ruft den ungeraden Spaltenbandstil ab in C#.
+description: Entdecken Sie die OddColumnBanding-Eigenschaft in der ConditionalStyleCollection für verbesserte Tabellengestaltung. Werten Sie Ihr Design mit einzigartigen Spaltenbandstilen auf!
 type: docs
 weight: 110
 url: /de/net/aspose.words/conditionalstylecollection/oddcolumnbanding/
@@ -36,12 +36,12 @@ builder.InsertCell();
 builder.Write("Cell 4");
 builder.EndTable();
 
-// Einen benutzerdefinierten Tabellenstil erstellen.
+// Erstellen Sie einen benutzerdefinierten Tabellenstil.
 TableStyle tableStyle = (TableStyle)doc.Styles.Add(StyleType.Table, "MyTableStyle1");
 
-// Bedingte Stile sind Formatierungsänderungen, die sich nur auf einige Zellen der Tabelle auswirken
-// basierend auf einem Prädikat, z. B. den Zellen in der letzten Zeile.
-// Nachfolgend finden Sie drei Möglichkeiten, auf die bedingten Stile eines Tabellenstils aus der „ConditionalStyles“-Sammlung zuzugreifen.
+// Bedingte Stile sind Formatierungsänderungen, die nur einige Zellen der Tabelle betreffen
+// basierend auf einem Prädikat, z. B. dass sich die Zellen in der letzten Zeile befinden.
+// Unten sind drei Möglichkeiten aufgeführt, um auf die bedingten Stile eines Tabellenstils aus der Sammlung „ConditionalStyles“ zuzugreifen.
 // 1 - Nach Stiltyp:
 tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPatternColor = Color.AliceBlue;
 

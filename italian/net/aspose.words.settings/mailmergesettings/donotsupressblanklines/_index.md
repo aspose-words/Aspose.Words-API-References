@@ -3,14 +3,14 @@ title: MailMergeSettings.DoNotSupressBlankLines
 linktitle: DoNotSupressBlankLines
 articleTitle: DoNotSupressBlankLines
 second_title: Aspose.Words per .NET
-description: MailMergeSettings DoNotSupressBlankLines proprietà. Specifica il modo in cui unapplicazione che esegue la stampa unione dovrà gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito èfalso  in C#.
+description: Ottimizza la tua stampa unione con la proprietà DoNotSupressBlankLines di MailMergeSettings, assicurandoti che le righe vuote vengano gestite in modo efficace per ottenere documenti rifiniti.
 type: docs
 weight: 90
 url: /it/net/aspose.words.settings/mailmergesettings/donotsupressblanklines/
 ---
 ## MailMergeSettings.DoNotSupressBlankLines property
 
-Specifica il modo in cui un'applicazione che esegue la stampa unione dovrà gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito è`falso` .
+Specifica come un'applicazione che esegue la stampa unione deve gestire le righe vuote nei documenti uniti risultanti dalla stampa unione. Il valore predefinito è`falso` .
 
 ```csharp
 public bool DoNotSupressBlankLines { get; set; }
@@ -18,7 +18,7 @@ public bool DoNotSupressBlankLines { get; set; }
 
 ## Esempi
 
-Mostra come eseguire una stampa unione con i dati di un oggetto origine dati di Office.
+Mostra come eseguire una stampa unione con dati provenienti da un oggetto origine dati di Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,7 +31,7 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea un'origine dati sotto forma di file ASCII, con "|" carattere
+// Crea una sorgente dati sotto forma di file ASCII, con il carattere "|"
 // funge da delimitatore che separa le colonne. La prima riga contiene i nomi delle tre colonne,
 // e ogni riga successiva è una riga con i rispettivi valori.
 string[] lines = { "FirstName|LastName|Message",

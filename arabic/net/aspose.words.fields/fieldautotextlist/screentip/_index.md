@@ -3,14 +3,14 @@ title: FieldAutoTextList.ScreenTip
 linktitle: ScreenTip
 articleTitle: ScreenTip
 second_title: Aspose.Words لـ .NET
-description: FieldAutoTextList ScreenTip ملكية. الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه في C#.
+description: اكتشف خاصية ScreenTip في FieldAutoTextList، وقم بتخصيص نص ScreenTip الخاص بك بسهولة لتحسين تجربة المستخدم وزيادة الوضوح في تطبيقك.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.fields/fieldautotextlist/screentip/
 ---
 ## FieldAutoTextList.ScreenTip property
 
-الحصول على نص تلميح الشاشة المراد عرضه أو تعيينه.
+يحصل على نص تلميح الشاشة الذي سيتم عرضه أو يعينه.
 
 ```csharp
 public string ScreenTip { get; set; }
@@ -25,7 +25,7 @@ public void FieldAutoTextList()
 {
     Document doc = new Document();
 
-    // قم بإنشاء مستند معجم وقم بتعبئته بإدخالات نصية تلقائية.
+    // قم بإنشاء مستند مسرد وقم بملئه بإدخالات نصية تلقائية.
     doc.GlossaryDocument = new GlossaryDocument();
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 1", "Contents of AutoText 1");
     AppendAutoTextEntry(doc.GlossaryDocument, "AutoText 2", "Contents of AutoText 2");
@@ -33,8 +33,8 @@ public void FieldAutoTextList()
 
     DocumentBuilder builder = new DocumentBuilder(doc);
 
-    // أنشئ حقل قائمة نصوص تلقائية وقم بتعيين النص الذي سيعرضه الحقل في Microsoft Word.
-    // قم بتعيين النص لمطالبة المستخدم بالنقر بزر الماوس الأيمن فوق هذا الحقل لتحديد كتلة إنشاء النص التلقائي،
+    // قم بإنشاء حقل AUTOTEXTLIST وحدد النص الذي سيعرضه الحقل في Microsoft Word.
+    // تعيين النص ليطلب من المستخدم النقر بزر الماوس الأيمن على هذا الحقل لتحديد كتلة بناء النص التلقائي،
     // الذي سيتم عرض محتوياته في الحقل.
     FieldAutoTextList field = (FieldAutoTextList)builder.InsertField(FieldType.FieldAutoTextList, true);
     field.EntryName = "Right click here to select an AutoText block";
@@ -49,7 +49,7 @@ public void FieldAutoTextList()
 }
 
 /// <summary>
-/// قم بإنشاء كتلة إنشاء من نوع النص التلقائي وأضفها إلى مستند المسرد.
+/// قم بإنشاء كتلة بناء من نوع النص التلقائي وأضفها إلى مستند المصطلحات.
 /// </summary>
 private static void AppendAutoTextEntry(GlossaryDocument glossaryDoc, string name, string contents)
 {

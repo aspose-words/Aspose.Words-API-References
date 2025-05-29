@@ -2,15 +2,15 @@
 title: TableStyle.AllowBreakAcrossPages
 linktitle: AllowBreakAcrossPages
 articleTitle: AllowBreakAcrossPages
-second_title: 用于 .NET 的 Aspose.Words
-description: TableStyle AllowBreakAcrossPages 财产. 获取或设置一个标志指示是否允许表行中的文本跨分页符拆分 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 TableStyle AllowBreakAcrossPages 属性，控制表格中的文本流并增强文档跨页的可读性。
 type: docs
 weight: 20
 url: /zh/net/aspose.words/tablestyle/allowbreakacrosspages/
 ---
 ## TableStyle.AllowBreakAcrossPages property
 
-获取或设置一个标志，指示是否允许表行中的文本跨分页符拆分。
+获取或设置一个标志，指示是否允许表格行中的文本跨分页符拆分。
 
 ```csharp
 public bool AllowBreakAcrossPages { get; set; }
@@ -22,7 +22,7 @@ public bool AllowBreakAcrossPages { get; set; }
 
 ## 例子
 
-演示如何为表格创建自定义样式设置。
+展示如何为表格创建自定义样式设置。
 
 ```csharp
 Document doc = new Document();

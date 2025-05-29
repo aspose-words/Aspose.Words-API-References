@@ -3,14 +3,14 @@ title: MailMergeMainDocumentType Enum
 linktitle: MailMergeMainDocumentType
 articleTitle: MailMergeMainDocumentType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeMainDocumentType enumeración. Especifica los tipos posibles para un documento de origen de combinación de correspondencia en C#.
+description: Descubra la enumeración Aspose.Words.MailMergeMainDocumentType, que define varios tipos de documentos fuente de combinación de correspondencia para una automatización perfecta de documentos.
 type: docs
-weight: 5840
+weight: 6670
 url: /es/net/aspose.words.settings/mailmergemaindocumenttype/
 ---
 ## MailMergeMainDocumentType enumeration
 
-Especifica los tipos posibles para un documento de origen de combinación de correspondencia.
+Especifica los tipos posibles para un documento fuente de combinación de correspondencia.
 
 ```csharp
 public enum MailMergeMainDocumentType
@@ -21,13 +21,13 @@ public enum MailMergeMainDocumentType
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
 | NotAMergeDocument | `0` | Este documento no es un documento de combinación de correspondencia. |
-| FormLetters | `1` | Especifica que el documento de origen de combinación de correspondencia es del tipo carta modelo. |
-| MailingLabels | `2` | Especifica que el documento de origen de combinación de correspondencia es del tipo etiqueta de correo. |
-| Envelopes | `4` | Especifica que el documento de origen de combinación de correspondencia es del tipo sobre. |
-| Catalog | `8` | Especifica que el documento de origen de combinación de correspondencia es del tipo catálogo. |
-| Email | `16` | Especifica que el documento de origen de combinación de correspondencia es del tipo de mensaje de correo electrónico. |
-| Fax | `32` | Especifica que el documento de origen de combinación de correspondencia es del tipo fax. |
-| Default | `0` | Igual aNotAMergeDocument |
+| FormLetters | `1` | Especifica que el documento de origen de la combinación de correspondencia es del tipo carta modelo. |
+| MailingLabels | `2` | Especifica que el documento de origen de la combinación de correspondencia es del tipo de etiqueta de correo. |
+| Envelopes | `4` | Especifica que el documento de origen de la combinación de correspondencia es del tipo sobre. |
+| Catalog | `8` | Especifica que el documento de origen de la combinación de correspondencia es del tipo catálogo. |
+| Email | `16` | Especifica que el documento de origen de la combinación de correspondencia es del tipo de mensaje de correo electrónico. |
+| Fax | `32` | Especifica que el documento de origen de la combinación de correspondencia es del tipo fax. |
+| Default | `0` | Es igual aNotAMergeDocument |
 
 ## Ejemplos
 
@@ -44,8 +44,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

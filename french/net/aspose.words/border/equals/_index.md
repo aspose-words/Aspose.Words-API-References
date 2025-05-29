@@ -3,7 +3,7 @@ title: Border.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words pour .NET
-description: Border Equals méthode. Détermine si la bordure spécifiée est égale en valeur à la bordure actuelle en C#.
+description: Découvrez la méthode « Bordure égale » pour comparer facilement les valeurs des bordures et améliorer la précision de votre conception. Obtenez des résultats cohérents sans effort !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/border/equals/
@@ -41,7 +41,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(*object*) {#equals_1}
 
-Détermine si l'objet spécifié a une valeur égale à l'objet actuel.
+Détermine si l'objet spécifié est égal en valeur à l'objet actuel.
 
 ```csharp
 public override bool Equals(object obj)
@@ -96,7 +96,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
 foreach (Border border in secondParagraphBorders)
     border.LineStyle = LineStyle.DotDash;
 
-// Après avoir modifié le style de ligne des bordures uniquement dans le deuxième paragraphe,
+// Après avoir modifié le style de ligne des bordures dans le deuxième paragraphe seulement,
 // les collections de bordures ne partagent plus les mêmes éléments.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {

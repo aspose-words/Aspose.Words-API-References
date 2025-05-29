@@ -3,9 +3,9 @@ title: TextureIndex Enum
 linktitle: TextureIndex
 articleTitle: TextureIndex
 second_title: Aspose.Words für .NET
-description: Aspose.Words.TextureIndex opsomming. Gibt die Schattierungstextur an in C#.
+description: Entdecken Sie die Aspose.Words.TextureIndex-Aufzählung für erweiterte Schattierungstexturen. Verbessern Sie Ihr Dokumentdesign mit anpassbaren, hochwertigen Texturen.
 type: docs
-weight: 6450
+weight: 7300
 url: /de/net/aspose.words/textureindex/
 ---
 ## TextureIndex enumeration
@@ -73,11 +73,11 @@ public enum TextureIndex
 | TextureNone | `0` |  |
 | TextureSolid | `1` |  |
 | TextureVertical | `21` |  |
-| TextureNil | `65535` | Gibt an, dass im aktuellen schattierten Bereich kein Muster verwendet werden soll (dh das Muster soll eine vollständige Füllung mit der Hintergrundfarbe sein). |
+| TextureNil | `65535` | Gibt an, dass im aktuellen schattierten Bereich kein Muster verwendet werden soll (d. h. das Muster soll eine vollständige Füllung mit der Hintergrundfarbe sein). |
 
 ## Beispiele
 
-Zeigt, wie Text mit Rändern und Schattierungen dekoriert wird.
+Zeigt, wie Sie Text mit Rahmen und Schattierungen verzieren.
 
 ```csharp
 Document doc = new Document();
@@ -99,20 +99,20 @@ builder.Write("This paragraph is formatted with a double border and shading.");
 doc.Save(ArtifactsDir + "DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
-Zeigt, wie man einen Umrissrahmen auf eine Tabelle anwendet.
+Zeigt, wie Sie einer Tabelle einen Gliederungsrahmen hinzufügen.
 
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Richten Sie die Tabelle in der Mitte der Seite aus.
+// Richten Sie die Tabelle an der Seitenmitte aus.
 table.Alignment = TableAlignment.Center;
 
 // Alle vorhandenen Ränder und Schattierungen aus der Tabelle löschen.
 table.ClearBorders();
 table.ClearShading();
 
-// Füge grüne Ränder zum Umriss der Tabelle hinzu.
+// Fügen Sie dem Umriss der Tabelle grüne Ränder hinzu.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);

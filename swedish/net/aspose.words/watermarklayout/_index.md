@@ -3,14 +3,14 @@ title: WatermarkLayout Enum
 linktitle: WatermarkLayout
 articleTitle: WatermarkLayout
 second_title: Aspose.Words för .NET
-description: Aspose.Words.WatermarkLayout uppräkning. Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum i C#.
+description: Upptäck Aspose.Words.WatermarkLayout-enum för optimal vattenstämpelpositionering. Förbättra din dokumentdesign med exakt layoutkontroll och anpassning.
 type: docs
-weight: 6680
+weight: 7530
 url: /sv/net/aspose.words/watermarklayout/
 ---
 ## WatermarkLayout enumeration
 
-Definierar layouten för vattenstämpeln i förhållande till vattenstämpelns centrum.
+Definierar vattenstämpelns layout i förhållande till vattenstämpelns mitt.
 
 ```csharp
 public enum WatermarkLayout
@@ -30,11 +30,11 @@ Visar hur man skapar en textvattenstämpel.
 ```csharp
 Document doc = new Document();
 
-// Lägg till en vanlig text vattenstämpel.
+// Lägg till ett vattenmärke i vanlig text.
 doc.Watermark.SetText("Aspose Watermark");
 
-// Om vi vill redigera textformateringen med den som vattenstämpel,
-// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när du skapar vattenstämpeln.
+// Om vi vill redigera textformateringen med hjälp av den som vattenstämpel,
+// vi kan göra det genom att skicka ett TextWatermarkOptions-objekt när vi skapar vattenstämpeln.
 TextWatermarkOptions textWatermarkOptions = new TextWatermarkOptions();
 textWatermarkOptions.FontFamily = "Arial";
 textWatermarkOptions.FontSize = 36;

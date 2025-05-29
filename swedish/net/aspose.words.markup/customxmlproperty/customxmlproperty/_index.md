@@ -3,7 +3,7 @@ title: CustomXmlProperty
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words för .NET
-description: CustomXmlProperty byggare. Initierar en ny instans av den här klassen i C#.
+description: Upptäck CustomXmlProperty-konstruktorn. Skapa och initiera enkelt nya instanser för sömlös XML-egenskapshantering i dina projekt.
 type: docs
 weight: 10
 url: /sv/net/aspose.words.markup/customxmlproperty/customxmlproperty/
@@ -18,9 +18,9 @@ public CustomXmlProperty(string name, string uri, string value)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| name | String | Namnet på fastigheten. Kan inte vara`null`. |
-| uri | String | Namnutrymmets URI för egendomen. Kan inte vara`null`. |
-| value | String | Fastighetens värde. Kan inte vara`null`. |
+| name | String | Fastighetens namn. Kan inte vara`null`. |
+| uri | String | Egenskapens namnrymds-URI. Kan inte vara`null`. |
+| value | String | Fastighetens värde. Kan inte`null`. |
 
 ## Exempel
 
@@ -31,16 +31,16 @@ public void Create()
 {
     Document doc = new Document();
 
-    // En smart tagg visas i ett dokument med Microsoft Word känner igen en del av sin text som någon form av data,
-    // som ett namn, datum eller adress, och konverterar det till en hyperlänk som visar en lila prickad underlinje.
+    // En smart tagg visas i ett dokument där Microsoft Word känner igen en del av texten som någon form av data,
+    // såsom ett namn, datum eller adress, och konverterar den till en hyperlänk som visar en lila prickad understrykning.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Smarta taggar är sammansatta noder som innehåller sin igenkända text i sin helhet.
-    // Lägg till innehåll till denna smarta tag manuellt.
+    // Smarta taggar är sammansatta noder som innehåller sin tolkade text i sin helhet.
+    // Lägg till innehåll i den här smarta taggen manuellt.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word kan känna igen ovanstående innehåll som ett datum.
-    // Smarta taggar använder egenskapen "Element" för att återspegla typen av data de innehåller.
+    // Microsoft Word kan identifiera ovanstående innehåll som ett datum.
+    // Smarta taggar använder egenskapen "Element" för att återspegla vilken typ av data de innehåller.
     smartTag.Element = "date";
 
     // Vissa smarta taggtyper bearbetar sitt innehåll vidare till anpassade XML-egenskaper.
@@ -67,7 +67,7 @@ public void Create()
     // Skriv ut alla smarta taggar i vårt dokument med hjälp av en dokumentbesökare.
     doc.Accept(new SmartTagPrinter());
 
-    // Äldre versioner av Microsoft Word stöder smarta taggar.
+    // Äldre versioner av Microsoft Word har stöd för smarta taggar.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Använd metoden "RemoveSmartTags" för att ta bort alla smarta taggar från ett dokument.
@@ -93,7 +93,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Anropas när besöket av en SmartTag-nod avslutas.
+    /// Anropas när besöket av en SmartTag-nod är avslutat.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

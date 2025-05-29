@@ -3,7 +3,7 @@ title: OfficeMath.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words для .NET
-description: OfficeMath Accept метод. Принимает посетителя на С#.
+description: Откройте для себя метод OfficeMath Accept для бесперебойного управления посетителями. Улучшите свой рабочий процесс с помощью простой интеграции и повышенной эффективности!
 type: docs
 weight: 60
 url: /ru/net/aspose.words.math/officemath/accept/
@@ -22,19 +22,19 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Возвращаемое значение
 
-Истинно, если были посещены все узлы; ложь, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию перед посещением всех узлов.
+True, если все узлы были посещены; false, если[`DocumentVisitor`](../../../aspose.words/documentvisitor/) остановил операцию до посещения всех узлов.
 
 ## Примечания
 
-Перечисляет этот узел и все его дочерние элементы. Каждый узел вызывает соответствующий метод[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
+Перечисляет этот узел и всех его потомков. Каждый узел вызывает соответствующий метод на[`DocumentVisitor`](../../../aspose.words/documentvisitor/).
 
-Дополнительные сведения см. в шаблоне проектирования «Посетитель».
+Более подробную информацию см. в шаблоне проектирования «Посетитель».
 
-Звонки[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для all дочерних узлов Office Math и вызовов[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) в конце.
+Звонки[`VisitOfficeMathStart`](../../../aspose.words/documentvisitor/visitofficemathstart/) , затем звонит[`Accept`](../../../aspose.words/node/accept/) для всех дочерних узлов Office Math и вызовов[`VisitOfficeMathEnd`](../../../aspose.words/documentvisitor/visitofficemathend/) в конце.
 
 ## Примеры
 
-Показывает, как распечатать структуру каждого узла офисной математики в документе.
+Показывает, как распечатать структуру узлов каждого узла офисной математики в документе.
 
 ```csharp
 public void OfficeMathToText()
@@ -42,7 +42,7 @@ public void OfficeMathToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     OfficeMathStructurePrinter visitor = new OfficeMathStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -63,7 +63,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Получает открытый текст документа, накопленный посетителем.
+    /// Получает простой текст документа, накопленный посетителем.
     /// </summary>
     public string GetText()
     {
@@ -105,7 +105,7 @@ public class OfficeMathStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку к StringBuilder и отступаем от нее в зависимости от того, насколько глубоко посетитель находится в дереве документа.
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко посетитель находится в дереве документа.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

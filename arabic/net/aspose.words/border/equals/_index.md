@@ -3,14 +3,14 @@ title: Border.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: Border Equals طريقة. تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي في C#.
+description: اكتشف طريقة "تساوي الحدود" لمقارنة قيم الحدود بسهولة وتحسين دقة تصميمك. حقق نتائج متسقة دون عناء!
 type: docs
 weight: 100
 url: /ar/net/aspose.words/border/equals/
 ---
 ## Equals(*[Border](../)*) {#equals}
 
-تحديد ما إذا كان الحد المحدد مساويًا في القيمة للحد الحالي.
+يحدد ما إذا كانت الحدود المحددة مساوية في القيمة للحد الحالي.
 
 ```csharp
 public bool Equals(Border rhs)
@@ -18,7 +18,7 @@ public bool Equals(Border rhs)
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 
@@ -65,7 +65,7 @@ doc.Save(ArtifactsDir + "Border.SharedElements.docx");
 
 ## Equals(*object*) {#equals_1}
 
-تحديد ما إذا كان الكائن المحدد يساوي قيمة الكائن الحالي.
+يحدد ما إذا كان الكائن المحدد يساوي في القيمة الكائن الحالي.
 
 ```csharp
 public override bool Equals(object obj)
@@ -73,7 +73,7 @@ public override bool Equals(object obj)
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -103,7 +103,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

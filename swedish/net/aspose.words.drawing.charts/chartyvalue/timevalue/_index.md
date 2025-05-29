@@ -3,7 +3,7 @@ title: ChartYValue.TimeValue
 linktitle: TimeValue
 articleTitle: TimeValue
 second_title: Aspose.Words för .NET
-description: ChartYValue TimeValue fast egendom. Hämtar det lagrade tidsvärdet i C#.
+description: Upptäck egenskapen ChartYValue TimeValue för att enkelt komma åt och hantera dina lagrade tidsvärden för förbättrad datavisualisering och analys.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.drawing.charts/chartyvalue/timevalue/

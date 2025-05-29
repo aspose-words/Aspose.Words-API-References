@@ -2,15 +2,15 @@
 title: Table.StyleOptions
 linktitle: StyleOptions
 articleTitle: StyleOptions
-second_title: 用于 .NET 的 Aspose.Words
-description: Table StyleOptions 财产. 获取或设置指定如何将表样式应用于此表的位标志 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索表格样式选项 (Table StyleOptions) 属性，使用灵活的位标志自定义表格外观。轻松提升表格风格！
 type: docs
 weight: 300
 url: /zh/net/aspose.words.tables/table/styleoptions/
 ---
 ## Table.StyleOptions property
 
-获取或设置指定如何将表样式应用于此表的位标志。
+获取或设置指定如何将表格样式应用于此表格的位标志。
 
 ```csharp
 public TableStyleOptions StyleOptions { get; set; }
@@ -18,7 +18,7 @@ public TableStyleOptions StyleOptions { get; set; }
 
 ## 例子
 
-演示如何在应用样式时构建新表格。
+展示如何在应用样式的同时构建新表。
 
 ```csharp
 Document doc = new Document();
@@ -32,7 +32,7 @@ builder.InsertCell();
 // 请注意，保存为 .doc 格式时并非所有表格样式都可用。
 table.StyleIdentifier = StyleIdentifier.MediumShading1Accent1;
 
-// 根据谓词将样式部分应用到表的特征，然后构建表。
+// 根据谓词将样式部分应用于表的特征，然后构建表。
 table.StyleOptions =
     TableStyleOptions.FirstColumn | TableStyleOptions.RowBands | TableStyleOptions.FirstRow;
 table.AutoFit(AutoFitBehavior.AutoFitToContents);

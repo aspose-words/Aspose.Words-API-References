@@ -2,15 +2,15 @@
 title: Document.Unprotect
 linktitle: Unprotect
 articleTitle: Unprotect
-second_title: Aspose.Words for .NET
-description: Document Unprotect yöntem. Paroladan bağımsız olarak belgedeki korumayı kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Belge Korumasını Kaldırma yöntemimizle belgelerinizin kilidini kolayca açın, kolay erişim ve düzenleme için tüm parola korumalarını kaldırın.
 type: docs
-weight: 740
+weight: 790
 url: /tr/net/aspose.words/document/unprotect/
 ---
 ## Unprotect() {#unprotect_1}
 
-Paroladan bağımsız olarak belgedeki korumayı kaldırır.
+Paroladan bağımsız olarak belgenin korumasını kaldırır.
 
 ```csharp
 public void Unprotect()
@@ -20,7 +20,7 @@ public void Unprotect()
 
 Bu yöntem, koruma parolası olsa bile belgenin korumasını kaldırır.
 
-Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
+Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması, şunu kullanarak belirtilir:[`WriteProtection`](../writeprotection/).
 
 ## Örnekler
 
@@ -32,12 +32,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Bu belgeyi düzenlemek amacıyla Microsoft Word ile açarsak,
-// korumayı aşmak için şifreyi uygulamamız gerekecek.
+// Bu belgeyi düzenlemeyi amaçlayarak Microsoft Word ile açarsak,
+// Korumayı aşabilmek için şifreyi uygulamamız gerekecek.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Korumanın yalnızca belgemizi açan Microsoft Word kullanıcıları için geçerli olduğunu unutmayın.
-// Belgeyi hiçbir şekilde şifrelemedik ve onu programlı olarak açmak ve düzenlemek için şifreye ihtiyacımız yok.
+// Belgeyi hiçbir şekilde şifrelemedik ve programlı olarak açmak ve düzenlemek için şifreye ihtiyacımız yok.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
@@ -58,7 +58,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - Doğru şifreyle:
+// 2 - Doğru şifre ile:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
@@ -74,7 +74,7 @@ Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
 
 ## Unprotect(*string*) {#unprotect}
 
-Doğru parola belirtilirse belgedeki korumayı kaldırır.
+Doğru bir parola belirtilirse belgeden korumayı kaldırır.
 
 ```csharp
 public bool Unprotect(string password)
@@ -82,17 +82,17 @@ public bool Unprotect(string password)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| password | String | Belgenin korumasını kaldırmak için kullanılan parola. |
+| password | String | Belgenin korumasını kaldırmak için kullanılacak şifre. |
 
 ### Geri dönüş değeri
 
-`doğru` doğru bir parola belirtildiyse ve belge korumasızsa.
+`doğru`eğer doğru bir şifre belirtilmişse ve belge korumasız ise.
 
 ## Notlar
 
-Bu yöntem yalnızca doğru parola belirtildiğinde belgenin korumasını kaldırır.
+Bu yöntem yalnızca doğru bir parola belirtildiği takdirde belgenin korumasını kaldırır.
 
-Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması,[`WriteProtection`](../writeprotection/).
+Belge korumasının yazma korumasından farklı olduğunu unutmayın. Yazma koruması, şunu kullanarak belirtilir:[`WriteProtection`](../writeprotection/).
 
 ## Örnekler
 
@@ -104,12 +104,12 @@ doc.Protect(ProtectionType.ReadOnly, "password");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// Bu belgeyi düzenlemek amacıyla Microsoft Word ile açarsak,
-// korumayı aşmak için şifreyi uygulamamız gerekecek.
+// Bu belgeyi düzenlemeyi amaçlayarak Microsoft Word ile açarsak,
+// Korumayı aşabilmek için şifreyi uygulamamız gerekecek.
 doc.Save(ArtifactsDir + "Document.Protect.docx");
 
 // Korumanın yalnızca belgemizi açan Microsoft Word kullanıcıları için geçerli olduğunu unutmayın.
-// Belgeyi hiçbir şekilde şifrelemedik ve onu programlı olarak açmak ve düzenlemek için şifreye ihtiyacımız yok.
+// Belgeyi hiçbir şekilde şifrelemedik ve programlı olarak açmak ve düzenlemek için şifreye ihtiyacımız yok.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
 Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
@@ -130,7 +130,7 @@ doc.Unprotect("WrongPassword");
 
 Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
 
-// 2 - Doğru şifreyle:
+// 2 - Doğru şifre ile:
 doc.Unprotect("NewPassword");
 
 Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);

@@ -3,14 +3,14 @@ title: Document.StopTrackRevisions
 linktitle: StopTrackRevisions
 articleTitle: StopTrackRevisions
 second_title: Aspose.Words per .NET
-description: Document StopTrackRevisions metodo. Interrompe il contrassegno automatico delle modifiche al documento come revisioni in C#.
+description: Scopri come utilizzare il metodo StopTrackRevisions per impedire la marcatura automatica delle modifiche ai documenti, migliorando l'efficienza delle modifiche e la chiarezza dei documenti.
 type: docs
-weight: 720
+weight: 770
 url: /it/net/aspose.words/document/stoptrackrevisions/
 ---
 ## Document.StopTrackRevisions method
 
-Interrompe il contrassegno automatico delle modifiche al documento come revisioni.
+Interrompe la marcatura automatica delle modifiche al documento come revisioni.
 
 ```csharp
 public void StopTrackRevisions()
@@ -24,7 +24,7 @@ Mostra come tenere traccia delle revisioni durante la modifica di un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La modifica di un documento di solito non conta come una revisione finché non iniziamo a monitorarli.
+// Solitamente la modifica di un documento non viene considerata una revisione finché non iniziamo a monitorarla.
 builder.Write("Hello world! ");
 
 Assert.AreEqual(0, doc.Revisions.Count);
@@ -37,17 +37,17 @@ builder.Write("Hello again! ");
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.True(doc.FirstSection.Body.Paragraphs[0].Runs[1].IsInsertRevision);
 Assert.AreEqual("John Doe", doc.Revisions[0].Author);
-Assert.That(doc.Revisions[0].DateTime, Is.EqualTo(DateTime.Now).Within(10).Milliseconds);
+Assert.IsTrue((DateTime.Now - doc.Revisions[0].DateTime).Milliseconds <= 10);
 
-// Interrompe il monitoraggio delle revisioni per non contare eventuali modifiche future come revisioni.
+// Interrompere il monitoraggio delle revisioni per non conteggiare più le modifiche future come revisioni.
 doc.StopTrackRevisions();
 builder.Write("Hello again! ");
 
 Assert.AreEqual(1, doc.Revisions.Count);
 Assert.False(doc.FirstSection.Body.Paragraphs[0].Runs[2].IsInsertRevision);
 
-// La creazione di revisioni fornisce loro la data e l'ora dell'operazione.
-// Possiamo disabilitarlo passando DateTime.MinValue quando iniziamo a monitorare le revisioni.
+// La creazione delle revisioni fornisce loro una data e un'ora dell'operazione.
+// Possiamo disattivarlo passando DateTime.MinValue quando iniziamo a monitorare le revisioni.
 doc.StartTrackRevisions("John Doe", DateTime.MinValue);
 builder.Write("Hello again! ");
 
@@ -55,10 +55,10 @@ Assert.AreEqual(2, doc.Revisions.Count);
 Assert.AreEqual("John Doe", doc.Revisions[1].Author);
 Assert.AreEqual(DateTime.MinValue, doc.Revisions[1].DateTime);
 
-// Possiamo accettare/rifiutare queste revisioni a livello di codice
-// chiamando metodi come Document.AcceptAllRevisions o il metodo Accept di ciascuna revisione.
-// In Microsoft Word possiamo elaborarli manualmente tramite "Revisione" -> "I cambiamenti".
-doc.Save(ArtifactsDir + "Document.StartTrackRevisions.docx");
+// Possiamo accettare/rifiutare queste revisioni a livello di programmazione
+// chiamando metodi come Document.AcceptAllRevisions o il metodo Accept di ogni revisione.
+// In Microsoft Word possiamo elaborarli manualmente tramite "Revisione" -> "Modifiche".
+doc.Save(ArtifactsDir + "Revision.StartTrackRevisions.docx");
 ```
 
 ### Guarda anche

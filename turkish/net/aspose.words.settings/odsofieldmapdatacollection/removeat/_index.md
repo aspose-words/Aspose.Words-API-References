@@ -2,8 +2,8 @@
 title: OdsoFieldMapDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: OdsoFieldMapDataCollection RemoveAt yöntem. Belirtilen dizindeki öğeyi kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: OdsoFieldMapDataCollection'daki RemoveAt metodunu kullanarak öğeleri dizine göre kolayca silin ve veri yönetimi görevlerinizi kolaylaştırın.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odsofieldmapdatacollection/removeat/
@@ -18,16 +18,16 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Öğenin sıfır tabanlı dizini. |
+| index | Int32 | Elemanın sıfırdan başlayan indeksi. |
 
 ## Örnekler
 
-Veri kaynağı sütunlarını birleştirme alanlarıyla eşleştiren veri koleksiyonuna nasıl erişileceğini gösterir.
+Veri kaynağı sütunlarını birleştirme alanlarına eşleyen veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
 
-// Bu koleksiyon, adres-mektup birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
+// Bu koleksiyon, bir posta birleştirmenin bir veri kaynağındaki sütunları nasıl eşleyeceğini tanımlar
 // önceden tanımlanmış MERGEFIELD, ADDRESSBLOCK ve GREETINGLINE alanlarına.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
 Assert.AreEqual(30, dataCollection.Count);
@@ -46,15 +46,15 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
     }
 }
 
-// Bu koleksiyondaki öğeleri klonlayın.
+// Bu koleksiyondaki öğeleri klonla.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// "RemoveAt" yönteminin öğelerini ayrı ayrı dizine göre kullanın.
+// "RemoveAt" metodu elemanlarını indekse göre tek tek kullan.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);
 
-// Koleksiyonun tamamını bir kerede temizlemek için "Temizle" yöntemini kullanın.
+// Tüm koleksiyonu bir kerede temizlemek için "Clear" metodunu kullanın.
 dataCollection.Clear();
 
 Assert.AreEqual(0, dataCollection.Count);

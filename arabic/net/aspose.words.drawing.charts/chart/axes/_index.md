@@ -3,14 +3,14 @@ title: Chart.Axes
 linktitle: Axes
 articleTitle: Axes
 second_title: Aspose.Words لـ .NET
-description: Chart Axes ملكية. الحصول على مجموعة من جميع محاور هذا المخطط في C#.
+description: اكتشف خاصية "محاور المخطط" للوصول إلى جميع محاور المخطط بسهولة. حسّن تصور بياناتك من خلال إدارة شاملة للمحاور.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.drawing.charts/chart/axes/
 ---
 ## Chart.Axes property
 
-الحصول على مجموعة من جميع محاور هذا المخطط.
+يحصل على مجموعة من جميع محاور هذا الرسم البياني.
 
 ```csharp
 public ChartAxisCollection Axes { get; }
@@ -25,9 +25,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertChart(ChartType.Column, 500, 300);
-Chart chart = shape.Chart;            
+Chart chart = shape.Chart;
 
-// إخفاء خطوط الشبكة الرئيسية على المحور Y الأساسي والثانوي.
+// إخفاء خطوط الشبكة الرئيسية على المحورين Y الأساسي والثانوي.
 foreach (ChartAxis axis in chart.Axes)
 {
     if (axis.Type == ChartAxisType.Value)

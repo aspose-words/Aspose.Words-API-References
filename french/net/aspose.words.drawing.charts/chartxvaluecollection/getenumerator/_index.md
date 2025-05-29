@@ -3,9 +3,9 @@ title: ChartXValueCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: ChartXValueCollection GetEnumerator méthode. Renvoie un objet énumérateur en C#.
+description: Découvrez la méthode GetEnumerator de ChartXValueCollection : récupérez efficacement des données avec un objet énumérateur puissant pour une gestion simplifiée des données.
 type: docs
-weight: 30
+weight: 40
 url: /fr/net/aspose.words.drawing.charts/chartxvaluecollection/getenumerator/
 ---
 ## ChartXValueCollection.GetEnumerator method

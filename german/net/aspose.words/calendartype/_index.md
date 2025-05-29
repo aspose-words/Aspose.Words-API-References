@@ -3,9 +3,9 @@ title: CalendarType Enum
 linktitle: CalendarType
 articleTitle: CalendarType
 second_title: Aspose.Words für .NET
-description: Aspose.Words.CalendarType opsomming. Gibt den Typ eines Kalenders an in C#.
+description: Entdecken Sie die Aufzählung Aspose.Words.CalendarType, um Ihre Kalendertypen für eine verbesserte Dokumentenverwaltung und -automatisierung einfach anzugeben und anzupassen.
 type: docs
-weight: 190
+weight: 380
 url: /de/net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -20,7 +20,7 @@ public enum CalendarType
 
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
-| Gregorian | `0` | Der gregorianische Kalender. |
+| Gregorian | `0` | Der Gregorianische Kalender. |
 | Hijri | `1` | Der Hijri-Mondkalender. |
 | Hebrew | `2` | Der hebräische Mondkalender. |
 | SakaEra | `3` | Der Saka-Ära-Kalender. |
@@ -28,7 +28,7 @@ public enum CalendarType
 
 ## Beispiele
 
-Zeigt, wie automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird, wenn die Felder aktualisiert werden.
+Zeigt, wie beim Aktualisieren der Felder automatisch ein benutzerdefiniertes Format auf Feldergebnisse angewendet wird.
 
 ```csharp
 public void FieldResultFormatting()
@@ -40,7 +40,7 @@ public void FieldResultFormatting()
 
     // Unser Feldergebnisformatierer wendet ein benutzerdefiniertes Format auf neu erstellte Felder mit drei Formattypen an.
     // Feldergebnisformatierer wenden neue Formatierungen auf Felder an, wenn diese aktualisiert werden.
-    // was passiert, sobald wir sie mit dieser InsertField-Methodenüberladung erstellen.
+    // was passiert, sobald wir sie mit dieser Überladung der InsertField-Methode erstellen.
     // 1 - Numerisch:
     builder.InsertField(" = 2 + 3 \\# $###");
 
@@ -53,7 +53,7 @@ public void FieldResultFormatting()
     Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
     Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
 
-    // 3 - Allgemein:
+    // 3 - Allgemeines:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
     Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
@@ -119,12 +119,11 @@ private class FieldResultFormatter : IFieldResultFormatter
     {
         if (formatInvocationType == FormatInvocationType.All)
             return FormatInvocations.Count;
-
         return FormatInvocations.Count(f => f.FormatInvocationType == formatInvocationType);
     }
 
     public void PrintFormatInvocations()
-    { 
+    {
         foreach (FormatInvocation f in FormatInvocations)
             Console.WriteLine($"Invocation type:\t{f.FormatInvocationType}\n" +
                               $"\tOriginal value:\t\t{f.Value}\n" +

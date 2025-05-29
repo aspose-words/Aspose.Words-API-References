@@ -3,14 +3,14 @@ title: FieldSeq.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
 second_title: Aspose.Words för .NET
-description: FieldSeq BookmarkName fast egendom. Hämtar eller ställer in ett bokmärkesnamn som refererar till ett objekt någon annanstans i dokumentet snarare än på den aktuella platsen i C#.
+description: Upptäck egenskapen FieldSeq BookmarkName för att enkelt hantera dokumentnavigering. Ange eller hämta bokmärkesnamn för smidig objektreferens.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldseq/bookmarkname/
 ---
 ## FieldSeq.BookmarkName property
 
-Hämtar eller ställer in ett bokmärkesnamn som refererar till ett objekt någon annanstans i dokumentet snarare än på den aktuella platsen.
+Hämtar eller anger ett bokmärkesnamn som refererar till ett objekt någon annanstans i dokumentet snarare än på den aktuella platsen.
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,33 +18,33 @@ public string BookmarkName { get; set; }
 
 ## Exempel
 
-Visar hur man kombinerar innehållsförteckning och sekvensfält.
+Visar hur man kombinerar innehållsförtecknings- och sekvensfält.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ett TOC-fält kan skapa en post i dess innehållsförteckning för varje SEQ-fält som finns i dokumentet.
+// Ett innehållsförteckningsfält kan skapa en post i sin innehållsförteckning för varje SEQ-fält som finns i dokumentet.
 // Varje post innehåller stycket som innehåller SEQ-fältet,
-// och numret på sidan som fältet visas på.
+// och numret på sidan där fältet visas.
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-// Konfigurera detta TOC-fält så att det har en SequenceIdentifier-egenskap med värdet "MySequence".
+// Konfigurera detta innehållsförteckningsfält så att det har en SequenceIdentifier-egenskap med värdet "MySequence".
 fieldToc.TableOfFiguresLabel = "MySequence";
 
-// Konfigurera detta innehållsförteckningsfält för att bara ta upp SEQ-fält som ligger inom gränserna för ett bokmärke
-// heter "TOCBookmark".
+// Konfigurera detta innehållsförteckningsfält för att endast hämta SEQ-fält som ligger inom gränserna för ett bokmärke
+// med namnet "TOCBookmark".
 fieldToc.BookmarkName = "TOCBookmark";
 builder.InsertBreak(BreakType.PageBreak);
 
 Assert.AreEqual(" TOC  \\c MySequence \\b TOCBookmark", fieldToc.GetFieldCode());
 
 // SEQ-fält visar ett antal som ökar vid varje SEQ-fält.
-// Dessa fält har också separata räkningar för varje unik namngiven sekvens
-// identifieras av SEQ-fältets "SequenceIdentifier"-egenskap.
-// Infoga ett SEQ-fält som har en sekvensidentifierare som matchar innehållsförteckningarna
-// TableOfFiguresLabel-egenskap. Detta fält kommer inte att skapa en post i innehållsförteckningen eftersom det är utanför
-// bokmärkets gränser angivna av "BookmarkName".
+// Dessa fält har också separata antal för varje unik namngiven sekvens
+// identifierad av SEQ-fältets egenskap "SequenceIdentifier".
+// Infoga ett SEQ-fält som har en sekvensidentifierare som matchar innehållsförteckningen
+// egenskapen TableOfFiguresLabel. Det här fältet skapar inte en post i innehållsförteckningen eftersom det ligger utanför
+// bokmärkets gränser angivna av "Bokmärkesnamn".
 builder.Write("MySequence #");
 FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
@@ -52,29 +52,29 @@ builder.Writeln(", will not show up in the TOC because it is outside of the book
 
 builder.StartBookmark("TOCBookmark");
 
-// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och är inom bokmärkets gränser.
-// Stycket som innehåller detta fält kommer att visas i innehållsförteckningen som en post.
+// Sekvensen i detta SEQ-fält matchar egenskapen "TableOfFiguresLabel" i innehållsförteckningen och ligger inom bokmärkets gränser.
+// Stycket som innehåller det här fältet kommer att visas i innehållsförteckningen som en post.
 builder.Write("MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 builder.Writeln(", will show up in the TOC next to the entry for the above caption.");
 
-// Detta SEQ-fälts sekvens matchar inte innehållsförteckningens "TableOfFiguresLabel"-egenskap,
-// och är inom gränserna för bokmärket. Dess stycke kommer inte att visas i innehållsförteckningen som en post.
+// Sekvensen i detta SEQ-fält matchar inte egenskapen "TableOfFiguresLabel" i innehållsförteckningen.
+// och ligger inom bokmärkets gränser. Dess stycke kommer inte att visas i innehållsförteckningen som en post.
 builder.Write("MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "OtherSequence";
 builder.Writeln(", will not show up in the TOC because it's from a different sequence identifier.");
 
-// Detta SEQ-fälts sekvens matchar innehållsförteckningens "TableOfFiguresLabel"-egenskap och ligger inom bokmärkets gränser.
-// Detta fält refererar också till ett annat bokmärke. Innehållet i det bokmärket kommer att visas i TOC-posten för detta SEQ-fält.
+// Sekvensen i detta SEQ-fält matchar egenskapen "TableOfFiguresLabel" i innehållsförteckningen och ligger inom bokmärkets gränser.
+// Detta fält refererar också till ett annat bokmärke. Innehållet i det bokmärket kommer att visas i innehållsförteckningen för detta sekvensfält.
 // Själva SEQ-fältet visar inte innehållet i det bokmärket.
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.BookmarkName = "SEQBookmark";
 Assert.AreEqual(" SEQ  MySequence SEQBookmark", fieldSeq.GetFieldCode());
 
-// Skapa ett bokmärke med innehåll som kommer att dyka upp i TOC-posten på grund av att ovanstående SEQ-fält refererar till det.
+// Skapa ett bokmärke med innehåll som visas i innehållsförteckningen på grund av att ovanstående SEQ-fält refererar till det.
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("SEQBookmark");
 builder.Write("MySequence #");

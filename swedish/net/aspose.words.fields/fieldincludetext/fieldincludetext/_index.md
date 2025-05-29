@@ -3,7 +3,7 @@ title: FieldIncludeText
 linktitle: FieldIncludeText
 articleTitle: FieldIncludeText
 second_title: Aspose.Words för .NET
-description: FieldIncludeText byggare. Default_Constructor i C#.
+description: Upptäck FieldIncludeText-konstruktorn – din självklara lösning för sömlös integration och förbättrad funktionalitet i dina projekt. Frigör dess potential idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldincludetext/fieldincludetext/

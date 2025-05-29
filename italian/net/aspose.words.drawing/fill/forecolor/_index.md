@@ -3,9 +3,9 @@ title: Fill.ForeColor
 linktitle: ForeColor
 articleTitle: ForeColor
 second_title: Aspose.Words per .NET
-description: Fill ForeColor proprietà. Ottiene o imposta un oggetto Color che rappresenta il colore di primo piano per il riempimento in C#.
+description: Imposta la proprietà ForeColor per personalizzare il colore di primo piano del riempimento con un oggetto Color, migliorando così l'aspetto visivo e la flessibilità di progettazione.
 type: docs
-weight: 60
+weight: 70
 url: /it/net/aspose.words.drawing/fill/forecolor/
 ---
 ## Fill.ForeColor property
@@ -18,11 +18,11 @@ public Color ForeColor { get; set; }
 
 ## Osservazioni
 
-Questa proprietà reimposta il componente alfa del fileColor al colore completamente opaco a differenza del[`Color`](../color/) proprietà, che lo preserva.
+Questa proprietà reimposta la componente alfa delColor al colore completamente opaco a differenza del[`Color`](../color/) proprietà, che la preserva.
 
 ## Esempi
 
-Mostra per creare una varietà di forme.
+Mostra come creare forme diverse.
 
 ```csharp
 Document doc = new Document();
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Spessa linea diagonale nera con estremità arrotondate:
+// 2 - Linea diagonale nera spessa con estremità arrotondate:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Freccia con orientamento invertito riempito con il logo Aspose:
+// 4 - Freccia con orientamento capovolto riempita con il logo Aspose:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Quando invertiamo l'orientamento della nostra freccia, invertiamo anche l'immagine che la freccia contiene.
-    // Capovolgi l'immagine nell'altro modo per annullarla prima di ottenere la forma per visualizzarla.
+    // Quando invertiamo l'orientamento della freccia, invertiamo anche l'immagine che la freccia contiene.
+    // Capovolgi l'immagine nell'altro senso per annullare questo effetto prima di ottenere la forma per visualizzarlo.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

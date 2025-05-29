@@ -3,7 +3,7 @@ title: ChartAxisCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: ChartAxisCollection Item proprietà. Ottiene lasse allindice specificato in C#.
+description: Accedi all'asse specifico di cui hai bisogno con la proprietà ChartAxisCollection Item. Semplifica la visualizzazione dei dati recuperando gli assi senza sforzo!
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing.charts/chartaxiscollection/item/

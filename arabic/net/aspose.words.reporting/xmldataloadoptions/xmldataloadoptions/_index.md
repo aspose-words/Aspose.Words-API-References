@@ -3,14 +3,14 @@ title: XmlDataLoadOptions
 linktitle: XmlDataLoadOptions
 articleTitle: XmlDataLoadOptions
 second_title: Aspose.Words لـ .NET
-description: XmlDataLoadOptions البناء. تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية في C#.
+description: اكتشف منشئ XmlDataLoadOptions، المصمم لتهيئة تحميل البيانات الخاصة بك بسهولة باستخدام الإعدادات الافتراضية للحصول على الأداء الأمثل.
 type: docs
 weight: 10
 url: /ar/net/aspose.words.reporting/xmldataloadoptions/xmldataloadoptions/
 ---
 ## XmlDataLoadOptions constructor
 
-تهيئة مثيل جديد لهذه الفئة بالخيارات الافتراضية.
+يقوم بتهيئة مثيل جديد لهذه الفئة باستخدام الخيارات الافتراضية.
 
 ```csharp
 public XmlDataLoadOptions()

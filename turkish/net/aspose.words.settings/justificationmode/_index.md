@@ -2,15 +2,15 @@
 title: JustificationMode Enum
 linktitle: JustificationMode
 articleTitle: JustificationMode
-second_title: Aspose.Words for .NET
-description: Aspose.Words.Settings.JustificationMode Sıralama. Bir belge için karakter aralığı ayarını belirtir. Varsayılan değerGenişletmek  C#'da.
+second_title: .NET için Aspose.Words
+description: Belgelerinizde hassas karakter aralığı ayarlamaları için Aspose.Words JustificationMode enum'unu keşfedin. Özelleştirilebilir ayarlarla okunabilirliği artırın!
 type: docs
-weight: 5800
+weight: 6630
 url: /tr/net/aspose.words.settings/justificationmode/
 ---
 ## JustificationMode enumeration
 
-Bir belge için karakter aralığı ayarını belirtir. Varsayılan değer:`Genişletmek` .
+Bir belge için karakter aralığı ayarlamasını belirtir. Varsayılan değer`Genişletmek` .
 
 ```csharp
 public enum JustificationMode
@@ -20,9 +20,9 @@ public enum JustificationMode
 
 | İsim | Değer | Tanım |
 | --- | --- | --- |
-| Expand | `0` |  |
-| Compress | `1` |  |
-| CompressKana | `2` |  |
+| Expand | `0` | Karakter aralığını sıkıştırmayın. |
+| Compress | `1` | Karakter aralığını sıkıştır. |
+| CompressKana | `2` | Kana hecelerinin, Hiragana ve Katakana kurallarını kullanarak sıkıştırın. |
 
 ## Örnekler
 
@@ -32,7 +32,7 @@ Karakter aralığı kontrolünün nasıl yönetileceğini gösterir.
 Document doc = new Document(MyDir + "Document.docx");
 
 JustificationMode justificationMode = doc.JustificationMode;
-if (justificationMode == JustificationMode.Expand)                
+if (justificationMode == JustificationMode.Expand)
     doc.JustificationMode = JustificationMode.Compress;
 
 doc.Save(ArtifactsDir + "Document.SetJustificationMode.docx");

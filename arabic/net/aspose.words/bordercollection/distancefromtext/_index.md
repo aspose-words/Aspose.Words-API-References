@@ -3,14 +3,14 @@ title: BorderCollection.DistanceFromText
 linktitle: DistanceFromText
 articleTitle: DistanceFromText
 second_title: Aspose.Words لـ .NET
-description: BorderCollection DistanceFromText ملكية. الحصول على أو تعيين مسافة الحد من النص بالنقاط في C#.
+description: اكتشف خاصية BorderCollection DistanceFromText لتخصيص مسافات حدود النص بسهولة في تصميماتك. حسّن تصميمك بسهولة!
 type: docs
 weight: 40
 url: /ar/net/aspose.words/bordercollection/distancefromtext/
 ---
 ## BorderCollection.DistanceFromText property
 
-الحصول على أو تعيين مسافة الحد من النص بالنقاط.
+يحصل على أو يعين مسافة الحدود من النص بالنقاط.
 
 ```csharp
 public double DistanceFromText { get; set; }
@@ -18,15 +18,15 @@ public double DistanceFromText { get; set; }
 
 ## ملاحظات
 
-الحصول على المسافة من النص للحد الأول.
+يحصل على المسافة من النص للحد الأول.
 
-يضبط المسافة من النص لجميع الحدود في المجموعة باستثناء الحدود القطرية.
+تعيين المسافة من النص لجميع الحدود في المجموعة باستثناء الحدود القطرية.
 
 ليس له أي تأثير وسيتم إعادة تعيينه تلقائيًا إلى الصفر بالنسبة لحدود خلايا الجدول.
 
 ## أمثلة
 
-يوضح كيفية إنشاء حدود صفحة خضراء متموجة مع الظل.
+يوضح كيفية إنشاء حدود صفحة متموجة باللون الأخضر مع ظل.
 
 ```csharp
 Document doc = new Document();

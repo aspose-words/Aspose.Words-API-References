@@ -3,9 +3,9 @@ title: Fill.TwoColorGradient
 linktitle: TwoColorGradient
 articleTitle: TwoColorGradient
 second_title: Aspose.Words para .NET
-description: Fill TwoColorGradient método. Establece el relleno especificado en un degradado de dos colores en C#.
+description: Aplique un sorprendente relleno degradado de dos colores con nuestro método Rellenar degradado de dos colores, mejorando sus diseños con efectos vibrantes y personalizables.
 type: docs
-weight: 260
+weight: 270
 url: /es/net/aspose.words.drawing/fill/twocolorgradient/
 ---
 ## TwoColorGradient(*[GradientStyle](../../gradientstyle/), [GradientVariant](../../gradientvariant/)*) {#twocolorgradient}
@@ -19,7 +19,7 @@ public void TwoColorGradient(GradientStyle style, GradientVariant variant)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
-| variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
+| variant | GradientVariant | La variante de gradiente[`GradientVariant`](../../gradientvariant/) |
 
 ## Ejemplos
 
@@ -30,7 +30,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -44,7 +44,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
@@ -83,7 +83,7 @@ public void TwoColorGradient(Color color1, Color color2, GradientStyle style,
 | color1 | Color | El primer color para construir el degradado. |
 | color2 | Color | El segundo color para construir el degradado. |
 | style | GradientStyle | El estilo degradado[`GradientStyle`](../../gradientstyle/). |
-| variant | GradientVariant | La variante gradiente[`GradientVariant`](../../gradientvariant/) |
+| variant | GradientVariant | La variante de gradiente[`GradientVariant`](../../gradientvariant/) |
 
 ## Ejemplos
 
@@ -94,7 +94,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
-// Aplicar relleno degradado de un color a la forma con ForeColor de relleno degradado.
+// Aplicar relleno degradado de un color a la forma con ForeColor del relleno degradado.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
 Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
@@ -108,7 +108,7 @@ shape.Fill.TwoColorGradient(GradientStyle.FromCorner, GradientVariant.Variant4);
 // Cambia el color de fondo del relleno degradado.
 shape.Fill.BackColor = Color.Yellow;
 // Tenga en cuenta que cambia "GradientAngle" por "GradientStyle.FromCorner/GradientStyle.FromCenter"
-// el relleno degradado no obtiene ningún efecto, funcionará solo para degradado lineal.
+// El relleno de degradado no tiene ningún efecto, solo funcionará con degradado lineal.
 shape.Fill.GradientAngle = 15;
 
 Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());

@@ -3,7 +3,7 @@ title: Row.NextRow
 linktitle: NextRow
 articleTitle: NextRow
 second_title: Aspose.Words para .NET
-description: Row NextRow propiedad. Obtiene el siguienteRow nodo en C#.
+description: Descubra la propiedad NextRow para acceder sin esfuerzo al siguiente nodo Fila, mejorando su experiencia de navegación y gestión de datos.
 type: docs
 weight: 70
 url: /es/net/aspose.words.tables/row/nextrow/
@@ -18,7 +18,7 @@ public Row NextRow { get; }
 
 ## Observaciones
 
-El método se puede utilizar cuando necesita tener acceso escrito a las filas de la tabla. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/)El nodo se encuentra en una tabla en lugar de en una fila, se recorre automáticamente para obtener una fila contenida dentro.
+El método se puede usar cuando se necesita acceso tipificado a las filas de la tabla. Si a [`StructuredDocumentTag`](../../../aspose.words.markup/structureddocumenttag/) El nodo se encuentra en una tabla en lugar de en una fila, se recorre automáticamente para obtener una fila contenida dentro.
 
 ## Ejemplos
 

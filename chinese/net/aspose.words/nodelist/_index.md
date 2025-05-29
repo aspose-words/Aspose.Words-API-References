@@ -2,17 +2,17 @@
 title: NodeList Class
 linktitle: NodeList
 articleTitle: NodeList
-second_title: 用于 .NET 的 Aspose.Words
-description: Aspose.Words.NodeList 班级. 表示与使用以下命令执行的 XPath 查询匹配的节点集合SelectNodes方法 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 Aspose.Words.NodeList 类，这是高效管理 XPath 查询结果和增强文档处理能力的首选解决方案。
 type: docs
-weight: 4220
+weight: 4910
 url: /zh/net/aspose.words/nodelist/
 ---
 ## NodeList class
 
-表示与使用以下命令执行的 XPath 查询匹配的节点集合[`SelectNodes`](../compositenode/selectnodes/)方法.
+表示与使用以下方法执行的 XPath 查询匹配的节点集合[`SelectNodes`](../compositenode/selectnodes/)方法.
 
-要了解更多信息，请访问[Aspose.Words 文档对象模型 (DOM)](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
+要了解更多信息，请访问[Aspose.Words 文档对象模型（DOM）](https://docs.aspose.com/words/net/aspose-words-document-object-model/)文档文章。
 
 ```csharp
 public class NodeList : IEnumerable<Node>
@@ -29,20 +29,20 @@ public class NodeList : IEnumerable<Node>
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | 在节点集合上提供简单的“foreach”样式迭代。 |
+| [GetEnumerator](../../aspose.words/nodelist/getenumerator/)() | 提供对节点集合的简单“foreach”样式迭代。 |
 | [ToArray](../../aspose.words/nodelist/toarray/)() | 将集合中的所有节点复制到新的节点数组。 |
 
 ## 评论
 
-`NodeList`由返回[`SelectNodes`](../compositenode/selectnodes/)并包含与 XPath 查询匹配的节点的集合 。
+`NodeList`返回的是[`SelectNodes`](../compositenode/selectnodes/)并包含与 XPath 查询匹配的节点 collection 。
 
 `NodeList`支持索引访问和迭代。
 
-治疗`NodeList`集合作为“快照”集合。`NodeList`将 启动为“实时”集合，因为运行XPath 查询时实际上并未检索节点。 仅在访问时检索节点，此时该节点和 之前的所有节点都被缓存，形成“快照”集合。
+治疗`NodeList`集合作为“快照”集合。`NodeList` starts 作为“实时”集合，因为运行 XPath 查询时实际上并未检索节点。 仅在访问时检索节点，此时该节点和其之前的所有节点都被缓存，形成“快照”集合。
 
 ## 例子
 
-演示如何查找 Word 文档中的所有超链接，然后更改其 URL 和显示名称。
+展示如何查找 Word 文档中的所有超链接，然后更改它们的 URL 和显示名称。
 
 ```csharp
 using System;
@@ -75,7 +75,7 @@ namespace ApiExamples
                     if (hyperlink.IsLocal)
                         continue;
 
-                    // 为每个 URL 超链接指定一个新的 URL 和名称。
+                    // 为每个 URL 超链接赋予一个新的 URL 和名称。
                     hyperlink.Target = NewUrl;
                     hyperlink.Name = NewName;
                 }
@@ -84,14 +84,14 @@ namespace ApiExamples
             doc.Save(ArtifactsDir + "ReplaceHyperlinks.Fields.docx");
         }
 
-        private const string NewUrl = @"http://www.aspose.com";
+        private const string NewUrl = @"http://www.aspose.com”;
         private const string NewName = "Aspose - The .NET & Java Component Publisher";
     }
 
      ///<summary>
-      ///HYPERLINK 字段包含并显示文档正文中的超链接。 Aspose.Words 中的字段
-     ///由多个节点组成，直接使用所有这些节点可能很困难。
-     ///仅当超链接代码和名称仅包含一个运行节点时，此实现才有效。
+      ///HYPERLINK 字段包含并显示文档正文中的超链接。Aspose.Words 中的一个字段
+     ///由多个节点组成，直接处理所有这些节点可能会很困难。
+     ///仅当超链接代码和名称各自仅由一个 Run 节点组成时，此实现才会有效。
     ///
      ///字段的节点结构如下：
      ///
@@ -114,18 +114,18 @@ namespace ApiExamples
 
             mFieldStart = fieldStart;
 
-            // 找到字段分隔符节点。
+            // 查找字段分隔符节点。
             mFieldSeparator = FindNextSibling(mFieldStart, NodeType.FieldSeparator);
             if (mFieldSeparator == null)
                 throw new InvalidOperationException("Cannot find field separator.");
 
-             // 通常情况下，我们总能找到字段的结束节点，但是示例文档
-            // 在超链接内包含段落分隔符，这会将字段置于末尾
-            // 在下一段中。处理跨多个字段的情况会复杂得多
-            // 段落正确。在这种情况下，允许字段结束为空就足够了。
+             // 正常情况下，我们总能找到字段的结束节点，但示例文档
+            // 包含超链接内的段落分隔符，使字段结束
+            // 在下一段中。处理跨越多个字段会更加复杂
+            // 段落正确。在这种情况下，允许字段 end 为空就足够了。
             mFieldEnd = FindNextSibling(mFieldSeparator, NodeType.FieldEnd);
 
-            // 字段代码看起来类似于“HYPERLINK "http:\\www.myurl.com"”，但它可以由多次运行组成。
+            // 字段代码看起来像“HYPERLINK“http:\\www.myurl.com””，但它可以由多次运行组成。
             string fieldCode = GetTextSameParent(mFieldStart.NextSibling, mFieldSeparator);
             Match match = gRegex.Match(fieldCode.Trim());
 
@@ -139,15 +139,18 @@ namespace ApiExamples
          ///</summary>
         internal string Name
         {
-            get => GetTextSameParent(mFieldSeparator, mFieldEnd); 
+            get
+            {
+                return GetTextSameParent(mFieldSeparator, mFieldEnd);
+            }
             set
             {
-                 // 超链接显示名称存储在字段result中，该字段是一个Run
-                // 字段分隔符和字段结束之间的节点。
+                 // 超链接显示名称存储在字段 result 中，该字段为 Run
+                // 字段分隔符和字段结尾之间的节点。
                 Run fieldResult = (Run) mFieldSeparator.NextSibling;
                 fieldResult.Text = value;
 
-                // 如果字段结果包含多个运行，则删除这些运行。
+                // 如果字段结果由多个运行组成，则删除这些运行。
                 RemoveSameParent(fieldResult.NextSibling, mFieldEnd);
             }
         }
@@ -157,7 +160,10 @@ namespace ApiExamples
          ///</summary>
         internal string Target
         {
-            get => mTarget;
+            get
+            {
+                return mTarget;
+            }
             set
             {
                 mTarget = value;
@@ -170,7 +176,10 @@ namespace ApiExamples
          ///</summary>
         internal bool IsLocal
         {
-            get => mIsLocal; 
+            get
+            {
+                return mIsLocal;
+            }
             set
             {
                 mIsLocal = value;
@@ -180,11 +189,11 @@ namespace ApiExamples
 
         private void UpdateFieldCode()
         {
-            // 字段的字段代码位于字段起始节点和字段分隔符之间的 Run 节点中。
+            // 字段的字段代码位于字段的起始节点和字段分隔符之间的 Run 节点中。
             Run fieldCode = (Run) mFieldStart.NextSibling;
             fieldCode.Text = string.Format("HYPERLINK {0}\"{1}\"", ((mIsLocal) ? "\\l " : ""), mTarget);
 
-            // 如果字段代码包含多个运行，则删除这些运行。
+            // 如果字段代码由多个运行组成，则删除这些运行。
             RemoveSameParent(fieldCode.NextSibling, mFieldSeparator);
         }
 
@@ -242,9 +251,9 @@ namespace ApiExamples
         private string mTarget;
 
         private static readonly Regex gRegex = new Regex(
-            "\\S+" + // 一个或多个非空格超链接或其他语言中的其他单词。
+            "\\S+" + // 一个或多个非空格 HYPERLINK 或其他语言中的其他单词。
             "\\s+" + // 一个或多个空格。
-            "(?:\"\"\\s+)?" + // 不捕获可选的“”和一个或多个空格。
+            "(?:\"\"\\s+)?" + // 非捕获可选的“”和一个或多个空格。
             "(\\\\l\\s+)?" + // 可选的 \l 标志后跟一个或多个空格。
             "\"" +  // 一个撇号。
             "([^\"]+)" + // 一个或多个字符，不包括撇号（超链接目标）。

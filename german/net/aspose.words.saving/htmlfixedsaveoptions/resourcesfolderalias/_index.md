@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ResourcesFolderAlias
 linktitle: ResourcesFolderAlias
 articleTitle: ResourcesFolderAlias
 second_title: Aspose.Words für .NET
-description: HtmlFixedSaveOptions ResourcesFolderAlias eigendom. Gibt den Namen des Ordners an der zum Erstellen von BildURIs verwendet wird die in ein HTMLDokument geschrieben werden. Der Standardwert istNull  in C#.
+description: Entdecken Sie die HtmlFixedSaveOptions ResourcesFolderAlias-Eigenschaft, um Bild-URIs in Ihren HTML-Dokumenten anzupassen. Verbessern Sie mühelos Ihre Webinhalte!
 type: docs
-weight: 150
+weight: 170
 url: /de/net/aspose.words.saving/htmlfixedsaveoptions/resourcesfolderalias/
 ---
 ## HtmlFixedSaveOptions.ResourcesFolderAlias property
 
-Gibt den Namen des Ordners an, der zum Erstellen von Bild-URIs verwendet wird, die in ein HTML-Dokument geschrieben werden. Der Standardwert ist`Null` .
+Gibt den Namen des Ordners an, der zum Erstellen von Bild-URIs verwendet wird, die in ein HTML-Dokument geschrieben werden. Der Standardwert ist`null` .
 
 ```csharp
 public string ResourcesFolderAlias { get; set; }
@@ -18,11 +18,11 @@ public string ResourcesFolderAlias { get; set; }
 
 ## Bemerkungen
 
-Wenn Sie a speichern[`Document`](../../../aspose.words/document/) Im HTML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ResourcesFolder`](../resourcesfolder/) Mit können Sie angeben, wo die Bilder gespeichert werden`ResourcesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
+Wenn Sie eine[`Document`](../../../aspose.words/document/) Im HTML-Format muss Aspose.Words alle im Dokument eingebetteten -Bilder als eigenständige Dateien speichern.[`ResourcesFolder`](../resourcesfolder/) ermöglicht Ihnen, festzulegen, wo die Bilder gespeichert werden und`ResourcesFolderAlias` ermöglicht die Angabe, wie die Bild-URIs erstellt werden.
 
 ## Beispiele
 
-Zeigt, wie Sie einen Rückruf verwenden, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
+Zeigt, wie ein Rückruf verwendet wird, um die URIs externer Ressourcen zu drucken, die beim Konvertieren eines Dokuments in HTML erstellt wurden.
 
 ```csharp
 public void HtmlFixedResourceFolder()
@@ -42,7 +42,7 @@ public void HtmlFixedResourceFolder()
     };
 
     // Ein durch ResourcesFolderAlias angegebener Ordner enthält die Ressourcen anstelle von ResourcesFolder.
-    // Wir müssen sicherstellen, dass der Ordner existiert, bevor die Streams ihre Ressourcen darin ablegen können.
+    // Wir müssen sicherstellen, dass der Ordner vorhanden ist, bevor die Streams ihre Ressourcen darin ablegen können.
     Directory.CreateDirectory(options.ResourcesFolderAlias);
 
     doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.HtmlFixedResourceFolder.html", options);
@@ -56,7 +56,7 @@ public void HtmlFixedResourceFolder()
 }
 
 /// <summary>
-/// Zählt und druckt URIs von Ressourcen, die in enthalten sind, während sie in festes HTML konvertiert werden.
+/// Zählt und druckt URIs der enthaltenen Ressourcen, wenn sie in festes HTML konvertiert werden.
 /// </summary>
 private class ResourceUriPrinter : IResourceSavingCallback
 {

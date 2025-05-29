@@ -3,14 +3,14 @@ title: ImageSavingArgs.KeepImageStreamOpen
 linktitle: KeepImageStreamOpen
 articleTitle: KeepImageStreamOpen
 second_title: Aspose.Words per .NET
-description: ImageSavingArgs KeepImageStreamOpen proprietà. Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato unimmagine in C#.
+description: Scopri la proprietà KeepImageStreamOpen in ImageSavingArgs per Aspose.Words. Controlla il comportamento del flusso per un salvataggio efficiente delle immagini e prestazioni migliorate.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/imagesavingargs/keepimagestreamopen/
 ---
 ## ImageSavingArgs.KeepImageStreamOpen property
 
-Specifica se Aspose.Words deve mantenere aperto lo stream o chiuderlo dopo aver salvato un'immagine.
+Specifica se Aspose.Words deve mantenere aperto il flusso o chiuderlo dopo aver salvato un'immagine.
 
 ```csharp
 public bool KeepImageStreamOpen { get; set; }
@@ -18,11 +18,11 @@ public bool KeepImageStreamOpen { get; set; }
 
 ## Osservazioni
 
-L'impostazione predefinita è`falso` e Aspose.Words chiuderà lo stream che hai fornito nel file[`ImageStream`](../imagestream/) proprietà dopo aver scritto un'immagine al suo interno. Specificare`VERO` per mantenere aperto il flusso.
+Il valore predefinito è`falso` e Aspose.Words chiuderà il flusso fornito nel[`ImageStream`](../imagestream/) proprietà dopo aver scritto un'immagine in essa. Specificare`VERO` per mantenere aperto il flusso.
 
 ## Esempi
 
-Mostra come coinvolgere un callback per il salvataggio dell'immagine in un processo di conversione HTML.
+Mostra come coinvolgere un callback di salvataggio delle immagini in un processo di conversione HTML.
 
 ```csharp
 public void ImageSavingCallback()
@@ -30,7 +30,7 @@ public void ImageSavingCallback()
     Document doc = new Document(MyDir + "Rendering.docx");
 
     // Quando salviamo il documento in HTML, possiamo passare un oggetto SaveOptions per designare un callback
-    // per personalizzare il processo di salvataggio dell'immagine.
+    // per personalizzare il processo di salvataggio delle immagini.
     HtmlSaveOptions options = new HtmlSaveOptions();
     options.ImageSavingCallback = new ImageShapePrinter();
 
@@ -38,7 +38,7 @@ public void ImageSavingCallback()
 }
 
 /// <summary>
-/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file di immagine nel file system locale
+/// Stampa le proprietà di ciascuna immagine mentre il processo di salvataggio la salva in un file immagine nel file system locale
 /// durante l'esportazione di un documento in HTML.
 /// </summary>
 private class ImageShapePrinter : IImageSavingCallback

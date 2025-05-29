@@ -3,7 +3,7 @@ title: EditableRangeEnd.EditableRangeStart
 linktitle: EditableRangeStart
 articleTitle: EditableRangeStart
 second_title: Aspose.Words för .NET
-description: EditableRangeEnd EditableRangeStart fast egendom. MotsvarandeEditableRangeStart  mottagen av ID i C#.
+description: Upptäck egenskaperna EditableRangeEnd och EditableRangeStart. Hantera enkelt dataintervall med unika ID:n för förbättrad kontroll och effektivitet.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/editablerangeend/editablerangestart/
@@ -28,7 +28,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world! Since we have set the document's protection level to read-only," +
                 " we cannot edit this paragraph without the password.");
 
-// Redigerbara intervall tillåter oss att lämna delar av skyddade dokument öppna för redigering.
+// Redigerbara områden låter oss lämna delar av skyddade dokument öppna för redigering.
 EditableRangeStart editableRangeStart = builder.StartEditableRange();
 builder.Writeln("This paragraph is inside an editable range, and can be edited.");
 EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
@@ -40,7 +40,7 @@ EditableRange editableRange = editableRangeStart.EditableRange;
 Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
 Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
 
-// Olika delar av det redigerbara intervallet länkar till varandra.
+// Olika delar av det redigerbara området länkar till varandra.
 Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
 Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
 Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
@@ -55,7 +55,7 @@ builder.Writeln("This paragraph is outside the editable range, and cannot be edi
 
 doc.Save(ArtifactsDir + "EditableRange.CreateAndRemove.docx");
 
-// Ta bort ett redigerbart område. Alla noder som fanns inom intervallet kommer att förbli intakta.
+// Ta bort ett redigerbart område. Alla noder som fanns inom området kommer att förbli intakta.
 editableRange.Remove();
 ```
 

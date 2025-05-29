@@ -2,8 +2,8 @@
 title: List.Equals
 linktitle: Equals
 articleTitle: Equals
-second_title: Aspose.Words for .NET
-description: List Equals yöntem. Belirtilen listeyle karşılaştırır C#'da.
+second_title: .NET için Aspose.Words
+description: List Equals yönteminin listeleri doğruluk açısından nasıl etkili bir şekilde karşılaştırdığını keşfedin. Bu temel programlama tekniğiyle kodlama becerilerinizi geliştirin!
 type: docs
 weight: 100
 url: /tr/net/aspose.words.lists/list/equals/
@@ -26,7 +26,7 @@ public bool Equals(List list)
 
 ## Equals(*object*) {#equals_1}
 
-Belirtilen nesnenin değer olarak geçerli nesneye eşit olup olmadığını belirler.
+Belirtilen nesnenin geçerli nesneye eşit değerde olup olmadığını belirler.
 
 ```csharp
 public override bool Equals(object obj)

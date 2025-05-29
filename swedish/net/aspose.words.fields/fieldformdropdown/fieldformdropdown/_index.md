@@ -3,7 +3,7 @@ title: FieldFormDropDown
 linktitle: FieldFormDropDown
 articleTitle: FieldFormDropDown
 second_title: Aspose.Words för .NET
-description: FieldFormDropDown byggare. Default_Constructor i C#.
+description: Skapa dynamiska formulär enkelt med FieldFormDropDown-konstruktorn. Förenkla skapandet av rullgardinsmenyer och förbättra användarupplevelsen idag!
 type: docs
 weight: 10
 url: /sv/net/aspose.words.fields/fieldformdropdown/fieldformdropdown/

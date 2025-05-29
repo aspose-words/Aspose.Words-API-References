@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertSignatureLine
 linktitle: InsertSignatureLine
 articleTitle: InsertSignatureLine
 second_title: Aspose.Words для .NET
-description: DocumentBuilder InsertSignatureLine метод. Вставляет строку подписи в текущую позицию на С#.
+description: Легко добавляйте профессиональные линии подписи в ваши документы с помощью метода DocumentBuilder InsertSignatureLine. Улучшите свой рабочий процесс сегодня!
 type: docs
-weight: 440
+weight: 470
 url: /ru/net/aspose.words/documentbuilder/insertsignatureline/
 ---
 ## InsertSignatureLine(*[SignatureLineOptions](../../signaturelineoptions/)*) {#insertsignatureline}
@@ -26,7 +26,7 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions)
 
 ## Примеры
 
-Показывает, как подписать документ личным удостоверением и строкой подписи.
+Показывает, как подписать документ с помощью личного сертификата и строки подписи.
 
 ```csharp
 Document doc = new Document();
@@ -64,8 +64,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Снова открываем сохраненный документ и проверяем, что свойства «IsSigned» и «IsValid» равны «true»,
-// указываем, что строка подписи содержит подпись.
+// Повторно откройте наш сохраненный документ и убедитесь, что свойства «IsSigned» и «IsValid» равны «true»,
+// указывая, что строка подписи содержит подпись.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;
@@ -97,11 +97,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 | Параметр | Тип | Описание |
 | --- | --- | --- |
 | signatureLineOptions | SignatureLineOptions | Объект, хранящий параметры создания строки подписи. |
-| horzPos | RelativeHorizontalPosition | Указывает, откуда измеряется расстояние до линии подписи. |
-| left | Double | Расстояние в пунктах от начала координат до левой части линии подписи. |
-| vertPos | RelativeVerticalPosition | Указывает, откуда измеряется расстояние до линии подписи. |
-| top | Double | Расстояние в пунктах от начала координат до верхней части линии подписи. |
-| wrapType | WrapType | Указывает, как обтекать строку подписи текстом. |
+| horzPos | RelativeHorizontalPosition | Указывает, от какой точки измеряется расстояние до линии подписи. |
+| left | Double | Расстояние в пунктах от начала координат до левой стороны строки подписи. |
+| vertPos | RelativeVerticalPosition | Указывает, от какой точки измеряется расстояние до линии подписи. |
+| top | Double | Расстояние в пунктах от начала координат до верхней стороны строки подписи. |
+| wrapType | WrapType | Указывает, как обтекать текстом строку подписи. |
 
 ### Возвращаемое значение
 
@@ -109,11 +109,11 @@ public Shape InsertSignatureLine(SignatureLineOptions signatureLineOptions,
 
 ## Примечания
 
-Вы можете изменить размер изображения, местоположение, метод позиционирования и другие настройки с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
+Вы можете изменить размер изображения, местоположение, метод позиционирования и другие параметры с помощью [`Shape`](../../../aspose.words.drawing/shape/) объект, возвращаемый этим методом.
 
 ## Примеры
 
-Показывает, как вставить в документ встроенную строку подписи.
+Показывает, как вставить в документ строку встроенной подписи.
 
 ```csharp
 Document doc = new Document();
@@ -133,7 +133,7 @@ SignatureLineOptions options = new SignatureLineOptions
 builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, 2.0,
     RelativeVerticalPosition.Page, 3.0, WrapType.Inline);
 
-// Строку подписи можно подписать в Microsoft Word, дважды щелкнув ее.
+// Строку подписи можно подписать в Microsoft Word, дважды щелкнув по ней.
 doc.Save(ArtifactsDir + "DocumentBuilder.SignatureLineInline.docx");
 ```
 

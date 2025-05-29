@@ -3,14 +3,14 @@ title: Font.SmallCaps
 linktitle: SmallCaps
 articleTitle: SmallCaps
 second_title: Aspose.Words für .NET
-description: Font SmallCaps eigendom. True wenn die Schriftart als kleine Großbuchstaben formatiert ist in C#.
+description: Entdecken Sie die Font SmallCaps-Eigenschaft. Formatieren Sie Text ganz einfach in Kapitälchen für bessere Lesbarkeit und ein stilvolles Aussehen Ihrer Designs.
 type: docs
-weight: 360
+weight: 370
 url: /de/net/aspose.words/font/smallcaps/
 ---
 ## Font.SmallCaps property
 
-True, wenn die Schriftart als kleine Großbuchstaben formatiert ist.
+Wahr, wenn die Schriftart als Großbuchstaben formatiert ist.
 
 ```csharp
 public bool SmallCaps { get; set; }
@@ -32,9 +32,9 @@ para.AppendChild(run);
 
 para = (Paragraph)para.ParentNode.AppendChild(new Paragraph(doc));
 
-// 2 – Setzen Sie das SmallCaps-Flag, um alle Zeichen in Kleinbuchstaben anzuzeigen:
+// 2 - Setzen Sie das SmallCaps-Flag, um alle Zeichen in Kapitälchen anzuzeigen:
 // Wenn ein Zeichen klein geschrieben ist, wird es in Großbuchstaben angezeigt
-// hat aber die gleiche Höhe wie der Kleinbuchstabe (die x-Höhe der Schriftart).
+// hat aber die gleiche Höhe wie die Kleinbuchstaben (die x-Höhe der Schriftart).
 // Zeichen, die ursprünglich in Großbuchstaben geschrieben waren, sehen gleich aus.
 run = new Run(doc, "Small Capitals");
 run.Font.SmallCaps = true;

@@ -3,14 +3,14 @@ title: Document.UpdatePageLayout
 linktitle: UpdatePageLayout
 articleTitle: UpdatePageLayout
 second_title: Aspose.Words لـ .NET
-description: Document UpdatePageLayout طريقة. يعيد بناء تخطيط الصفحة للمستند في C#.
+description: قم بتجديد بنية مستندك باستخدام طريقة UpdatePageLayout، مما يضمن لك الحصول على تخطيط مصقول ومنظم لتحسين قابلية القراءة والعرض.
 type: docs
-weight: 770
+weight: 830
 url: /ar/net/aspose.words/document/updatepagelayout/
 ---
 ## Document.UpdatePageLayout method
 
-يعيد بناء تخطيط الصفحة للمستند.
+إعادة بناء تخطيط الصفحة للمستند.
 
 ```csharp
 public void UpdatePageLayout()
@@ -18,29 +18,29 @@ public void UpdatePageLayout()
 
 ## ملاحظات
 
-تقوم هذه الطريقة بتنسيق المستند إلى صفحات وتحديث الحقول ذات الصلة برقم الصفحة في المستند مثل مثل PAGE وPAGES وPAGEREF وREF. معلومات تخطيط الصفحة المحدثة مطلوبة للعرض الصحيح للمستند إلى تنسيقات الصفحات الثابتة.
+تُنسّق هذه الطريقة المستند إلى صفحات وتُحدّث حقول أرقام الصفحات فيه، مثل PAGE وPAGES وPAGEREF وREF. معلومات تخطيط الصفحة المُحدّثة ضرورية لعرض تنسيقات document بشكل صحيح إلى تنسيقات الصفحات الثابتة.
 
-يتم استدعاء هذه الطريقة تلقائيًا عندما تقوم لأول مرة بتحويل مستند إلى PDF أو XPS أو صورة أو طباعته. ومع ذلك، إذا قمت بتعديل المستند بعد عرضه ثم حاولت عرضه مرة أخرى - فلن يقوم Aspose.Words بتحديث تخطيط الصفحة تلقائيًا. في هذه الحالة يجب عليك الاتصال`UpdatePageLayout` قبل العرض مرة أخرى.
+يتم استدعاء هذه الطريقة تلقائيًا عند تحويل مستند إلى PDF أو XPS أو صورة أو طباعته لأول مرة. ومع ذلك، إذا عدّلت المستند بعد عرضه ثم حاولت عرضه مرة أخرى، فلن يُحدّث Aspose.Words تخطيط الصفحة تلقائيًا. في هذه الحالة، يجب عليك استدعاء`UpdatePageLayout` before يتم عرضه مرة أخرى.
 
 ## أمثلة
 
-يوضح متى يجب إعادة حساب تخطيط صفحة المستند.
+يُظهر متى يجب إعادة حساب تخطيط الصفحة للمستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// سيتم تلقائيًا حفظ مستند إلى PDF أو صورة أو طباعته لأول مرة
-// قم بتخزين تخطيط المستند داخل صفحاته.
+// سيتم حفظ المستند بتنسيق PDF، أو إلى صورة، أو طباعته لأول مرة تلقائيًا
+// تخزين تخطيط المستند داخل صفحاته.
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.1.pdf");
 
-// قم بتعديل المستند بطريقة ما.
+//تعديل المستند بطريقة ما.
 doc.Styles["Normal"].Font.Size = 6;
 doc.Sections[0].PageSetup.Orientation = Aspose.Words.Orientation.Landscape;
 doc.Sections[0].PageSetup.Margins = Margins.Mirrored;
 
- // في الإصدار الحالي من Aspose.Words، لا يؤدي تعديل المستند إلى إعادة البناء تلقائيًا
-// تخطيط الصفحة المخزنة مؤقتًا. إذا أردنا التخطيط المخبأ
-// للبقاء على اطلاع، سنحتاج إلى تحديثه يدويًا.
+// في الإصدار الحالي من Aspose.Words، لا يؤدي تعديل المستند إلى إعادة البناء تلقائيًا
+// تخطيط الصفحة المُخزّن مؤقتًا. إذا أردنا تخطيطًا مُخزّنًا مؤقتًا
+//للبقاء على اطلاع، سوف نحتاج إلى تحديثه يدويًا.
 doc.UpdatePageLayout();
 
 doc.Save(ArtifactsDir + "Document.UpdatePageLayout.2.pdf");

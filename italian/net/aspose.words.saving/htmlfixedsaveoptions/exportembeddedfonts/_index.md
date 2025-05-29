@@ -3,14 +3,14 @@ title: HtmlFixedSaveOptions.ExportEmbeddedFonts
 linktitle: ExportEmbeddedFonts
 articleTitle: ExportEmbeddedFonts
 second_title: Aspose.Words per .NET
-description: HtmlFixedSaveOptions ExportEmbeddedFonts proprietà. Specifica se i caratteri devono essere incorporati nel documento Html in formato Base64. Nota che limpostazione di questo flag può aumentare significativamente la dimensione del file Html di output in C#.
+description: Controlla l'incorporamento dei font nel tuo HTML con la proprietà ExportEmbeddedFonts. Migliora la qualità del documento gestendo efficacemente le dimensioni dei file.
 type: docs
 weight: 50
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedfonts/
 ---
 ## HtmlFixedSaveOptions.ExportEmbeddedFonts property
 
-Specifica se i caratteri devono essere incorporati nel documento Html in formato Base64. Nota che l'impostazione di questo flag può aumentare significativamente la dimensione del file Html di output.
+Specifica se i font devono essere incorporati nel documento HTML in formato Base64. Nota: l'impostazione di questo flag può aumentare significativamente la dimensione del file HTML di output.
 
 ```csharp
 public bool ExportEmbeddedFonts { get; set; }
@@ -18,18 +18,18 @@ public bool ExportEmbeddedFonts { get; set; }
 
 ## Esempi
 
-Mostra come determinare dove archiviare i caratteri incorporati durante l'esportazione di un documento in HTML.
+Mostra come determinare dove archiviare i font incorporati quando si esporta un documento in formato HTML.
 
 ```csharp
 Document doc = new Document(MyDir + "Embedded font.docx");
 
-// Quando esportiamo un documento con caratteri incorporati in .html,
-// Aspose.Words può posizionare i caratteri in due possibili posizioni.
-// Impostando il flag "ExportEmbeddedFonts" su "true" verranno memorizzati i dati grezzi per i caratteri incorporati nel foglio di stile CSS,
-// nella proprietà "url" della regola "@font-face". Ciò potrebbe creare un enorme file di fogli di stile CSS
-// e riduci il numero di file esterni creati da questa conversione HTML.
-// Impostando questo flag su "false" verrà creato un file per ciascun carattere.
-// Il foglio di stile CSS si collegherà a ciascun file di font utilizzando la proprietà "url" della regola "@font-face".
+// Quando esportiamo un documento con font incorporati in .html,
+// Aspose.Words può posizionare i font in due possibili posizioni.
+// Impostando il flag "ExportEmbeddedFonts" su "true" verranno memorizzati i dati grezzi per i font incorporati nel foglio di stile CSS,
+// nella proprietà "url" della regola "@font-face". Questo potrebbe creare un enorme file di foglio di stile CSS.
+// e ridurre il numero di file esterni che questa conversione HTML creerà.
+// Impostando questo flag su "false" verrà creato un file per ogni font.
+// Il foglio di stile CSS creerà un collegamento a ciascun file di font utilizzando la proprietà "url" della regola "@font-face".
 HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
 {
     ExportEmbeddedFonts = exportEmbeddedFonts

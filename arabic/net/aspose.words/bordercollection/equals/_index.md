@@ -3,14 +3,14 @@ title: BorderCollection.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words لـ .NET
-description: BorderCollection Equals طريقة. مقارنة مجموعات الحدود في C#.
+description: اكتشف طريقة BorderCollection Equals لمقارنة مجموعات الحدود بكفاءة وتعزيز إنتاجيتك في البرمجة. حسّن مشاريعك اليوم!
 type: docs
 weight: 150
 url: /ar/net/aspose.words/bordercollection/equals/
 ---
 ## BorderCollection.Equals method
 
-مقارنة مجموعات الحدود.
+يقارن مجموعات الحدود.
 
 ```csharp
 public bool Equals(BorderCollection brColl)
@@ -18,7 +18,7 @@ public bool Equals(BorderCollection brColl)
 
 ## أمثلة
 
-يوضح كيف يمكن لمجموعات الحدود مشاركة العناصر.
+يُظهر كيف يمكن لمجموعات الحدود مشاركة العناصر.
 
 ```csharp
 Document doc = new Document();
@@ -48,7 +48,7 @@ for (int i = 0; i < firstParagraphBorders.Count; i++)
     Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
     Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
 
-    // تغيير مظهر الحدود الفارغة يجعلها مرئية.
+    // يؤدي تغيير مظهر الحدود الفارغة إلى جعلها مرئية.
     Assert.True(secondParagraphBorders[i].IsVisible);
 }
 

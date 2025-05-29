@@ -3,16 +3,16 @@ title: SpecialChar Class
 linktitle: SpecialChar
 articleTitle: SpecialChar
 second_title: Aspose.Words para .NET
-description: Aspose.Words.SpecialChar clase. Clase base para caracteres especiales en el documento en C#.
+description: Descubra la clase Aspose.Words.SpecialChar, su herramienta esencial para gestionar caracteres especiales en documentos. ¡Mejore su procesamiento de documentos hoy mismo!
 type: docs
-weight: 6100
+weight: 6950
 url: /es/net/aspose.words/specialchar/
 ---
 ## SpecialChar class
 
 Clase base para caracteres especiales en el documento.
 
-Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) artículo de documentación.
+Para obtener más información, visite el[Modelo de objetos de documento (DOM) de Aspose.Words](https://docs.aspose.com/words/net/aspose-words-document-object-model/) Artículo de documentación.
 
 ```csharp
 public class SpecialChar : Inline
@@ -22,21 +22,21 @@ public class SpecialChar : Inline
 
 | Nombre | Descripción |
 | --- | --- |
-| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica el identificador de nodo personalizado. |
+| [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Especifica un identificador de nodo personalizado. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Obtiene el documento al que pertenece este nodo. |
 | [Font](../../aspose.words/inline/font/) { get; } | Proporciona acceso al formato de fuente de este objeto. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devoluciones`verdadero` si este nodo puede contener otros nodos. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Devuelve`verdadero` si este nodo puede contener otros nodos. |
 | [IsDeleteRevision](../../aspose.words/inline/isdeleterevision/) { get; } | Devuelve verdadero si este objeto se eliminó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsFormatRevision](../../aspose.words/inline/isformatrevision/) { get; } | Devuelve verdadero si se cambió el formato del objeto en Microsoft Word mientras estaba habilitado el seguimiento de cambios. |
 | [IsInsertRevision](../../aspose.words/inline/isinsertrevision/) { get; } | Devuelve verdadero si este objeto se insertó en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devoluciones`verdadero` si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo que sigue inmediatamente a este nodo. |
-| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | DevolucionesSpecialChar . |
+| [IsMoveFromRevision](../../aspose.words/inline/ismovefromrevision/) { get; } | Devuelve`verdadero` Si este objeto se movió (eliminó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [IsMoveToRevision](../../aspose.words/inline/ismovetorevision/) { get; } | Devuelve`verdadero` Si este objeto se movió (insertó) en Microsoft Word mientras el seguimiento de cambios estaba habilitado. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Obtiene el nodo inmediatamente siguiente a este nodo. |
+| override [NodeType](../../aspose.words/specialchar/nodetype/) { get; } | DevuelveSpecialChar . |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Obtiene el padre inmediato de este nodo. |
 | [ParentParagraph](../../aspose.words/inline/parentparagraph/) { get; } | Recupera el padre[`Paragraph`](../paragraph/) de este nodo. |
 | [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Obtiene el nodo inmediatamente anterior a este nodo. |
-| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/) objeto que representa la parte de un documento contenido en este nodo. |
+| [Range](../../aspose.words/node/range/) { get; } | Devuelve un[`Range`](../range/)objeto que representa la porción de un documento que está contenida en este nodo. |
 
 ## Métodos
 
@@ -45,21 +45,21 @@ public class SpecialChar : Inline
 | override [Accept](../../aspose.words/specialchar/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Acepta un visitante. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Crea un duplicado del nodo. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Obtiene el primer ancestro del especificado[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer antepasado del tipo de objeto especificado. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Obtiene el primer ancestro del tipo de objeto especificado. |
 | override [GetText](../../aspose.words/specialchar/gettext/)() | Obtiene el carácter especial que representa este nodo. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo transversal del árbol de pedidos anticipados. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo transversal del árbol de pedidos anticipados. |
-| [Remove](../../aspose.words/node/remove/)() | Se elimina del padre. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo a una cadena en el formato especificado. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo a una cadena usando las opciones de guardado especificadas. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Obtiene el siguiente nodo según el algoritmo de recorrido del árbol de preorden. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Obtiene el nodo anterior según el algoritmo de recorrido del árbol de preorden. |
+| [Remove](../../aspose.words/node/remove/)() | Se elimina a sí mismo del padre. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exporta el contenido del nodo en una cadena en el formato especificado. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporta el contenido del nodo en una cadena utilizando las opciones de guardado especificadas. |
 
 ## Observaciones
 
-Un documento de Microsoft Word puede incluir una cantidad de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para obtener la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
+Un documento de Microsoft Word puede incluir una serie de caracteres especiales que representan campos, campos de formulario, formas, objetos OLE, notas al pie, etc. Para ver la lista de caracteres especiales, consulte[`ControlChar`](../controlchar/).
 
-`SpecialChar`es un nodo en línea y sólo puede ser hijo de[`Paragraph`](../paragraph/).
+`SpecialChar` es un nodo en línea y solo puede ser un hijo de[`Paragraph`](../paragraph/).
 
-`SpecialChar` char se utiliza como clase base para clases más específicas que representan caracteres especiales para los que Aspose.Words proporciona acceso programático. El`SpecialChar` La clase también se utiliza para representar un carácter especial para el cual Aspose.Words no proporciona acceso programático detallado.
+`SpecialChar` char se utiliza como clase base para clases más específicas que representan caracteres especiales a los que Aspose.Words proporciona acceso programático. `SpecialChar`La clase también se utiliza para representar caracteres especiales para los cuales Aspose.Words no proporciona acceso programático detallado.
 
 ## Ejemplos
 
@@ -71,8 +71,8 @@ public void RemoveHiddenContentFromDocument()
     Document doc = new Document(MyDir + "Hidden content.docx");
     RemoveHiddenContentVisitor hiddenContentRemover = new RemoveHiddenContentVisitor();
 
-    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documentos,
-    // lo que le permitirá visitar el nodo de aceptación y luego atravesar sus nodos secundarios en profundidad.
+    // A continuación se muestran tres tipos de campos que pueden aceptar un visitante de documento,
+    // lo que le permitirá visitar el nodo aceptador y luego recorrer sus nodos secundarios en profundidad.
     // 1 - Nodo de párrafo:
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 4, true);
     para.Accept(hiddenContentRemover);
@@ -137,7 +137,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando se encuentra un nodo Párrafo en el documento.
+    /// Se llama cuando se encuentra un nodo de párrafo en el documento.
     /// </summary>
     public override VisitorAction VisitParagraphStart(Paragraph paragraph)
     {
@@ -207,6 +207,8 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitSpecialChar(SpecialChar specialChar)
     {
+        Console.WriteLine(specialChar.GetText());
+
         if (specialChar.Font.Hidden)
             specialChar.Remove();
 
@@ -218,11 +220,11 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     /// </summary>
     public override VisitorAction VisitTableEnd(Table table)
     {
-        // El contenido dentro de las celdas de la tabla puede tener la marca de contenido oculto, pero las tablas mismas no.
-        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo.
-        // y no quedarán nodos secundarios.
-        // Por lo tanto, también podemos tratar la tabla como contenido oculto y eliminarla.
-        // Las tablas que están vacías pero que no tienen contenido oculto tendrán celdas con párrafos vacíos en su interior.
+        // El contenido dentro de las celdas de la tabla puede tener la bandera de contenido oculto, pero las tablas en sí mismas no pueden.
+        // Si esta tabla no tuviera nada más que contenido oculto, este visitante lo habría eliminado todo,
+        // y no quedarían nodos secundarios.
+        // De esta forma también podemos tratar la tabla en sí como contenido oculto y eliminarla.
+        // Las tablas que están vacías pero no tienen contenido oculto tendrán celdas con párrafos vacíos dentro,
         // que este visitante no eliminará.
         if (!table.HasChildNodes)
             table.Remove();
@@ -231,7 +233,7 @@ public class RemoveHiddenContentVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Se llama cuando finaliza la visita a un nodo celular en el documento.
+    /// Se llama cuando finaliza la visita a un nodo de celda en el documento.
     /// </summary>
     public override VisitorAction VisitCellEnd(Cell cell)
     {

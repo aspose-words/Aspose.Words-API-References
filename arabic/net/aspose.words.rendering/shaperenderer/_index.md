@@ -3,14 +3,14 @@ title: ShapeRenderer Class
 linktitle: ShapeRenderer
 articleTitle: ShapeRenderer
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.Rendering.ShapeRenderer فصل. يوفر طرقًا لتمثيل الفردShape أوGroupShape إلى صورة نقطية أو متجهة أو إلى كائن رسومي في C#.
+description: اكتشف Aspose.Words.Rendering.ShapeRenderer لتحويل الأشكال وGroupShapes إلى صور نقطية أو متجهة عالية الجودة بسهولة لمشاريعك.
 type: docs
-weight: 4590
+weight: 5320
 url: /ar/net/aspose.words.rendering/shaperenderer/
 ---
 ## ShapeRenderer class
 
-يوفر طرقًا لتمثيل الفرد[`Shape`](../../aspose.words.drawing/shape/) أو[`GroupShape`](../../aspose.words.drawing/groupshape/) إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
+يوفر طرقًا لعرض فردي[`Shape`](../../aspose.words.drawing/shape/) أو[`GroupShape`](../../aspose.words.drawing/groupshape/) إلى صورة نقطية أو متجهة أو إلى كائن رسومي.
 
 لمعرفة المزيد، قم بزيارة[العمل مع الأشكال](https://docs.aspose.com/words/net/working-with-shapes/) مقالة توثيقية.
 
@@ -22,34 +22,36 @@ public class ShapeRenderer : NodeRendererBase
 
 | اسم | وصف |
 | --- | --- |
-| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) | تهيئة مثيل جديد لهذه الفئة. |
+| [ShapeRenderer](shaperenderer/)(*[ShapeBase](../../aspose.words.drawing/shapebase/)*) | يقوم بتهيئة مثيل جديد لهذه الفئة. |
 
 ## الخصائص
 
 | اسم | وصف |
 | --- | --- |
-| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | الحصول على الحدود الفعلية للشكل بالنقاط. |
-| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | الحصول على الحدود المعتمة للشكل بالنقاط. |
-| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | الحصول على الحجم الفعلي للشكل بالنقاط. |
+| [BoundsInPoints](../../aspose.words.rendering/noderendererbase/boundsinpoints/) { get; } | يحصل على الحدود الفعلية للشكل بالنقاط. |
+| [OpaqueBoundsInPoints](../../aspose.words.rendering/noderendererbase/opaqueboundsinpoints/) { get; } | يحصل على الحدود المعتمة للشكل بالنقاط. |
+| [SizeInPoints](../../aspose.words.rendering/noderendererbase/sizeinpoints/) { get; } | يحصل على الحجم الفعلي للشكل بالنقاط. |
 
 ## طُرق
 
 | اسم | وصف |
 | --- | --- |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | حساب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | حساب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | حساب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
-| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | يحول الشكل إلى aGraphics كائن بمقياس محدد. |
-| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | يحول الشكل إلى aGraphics كائن بحجم محدد. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يعرض الشكل في صورة ويحفظ في دفق. |
-| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يحول الشكل إلى صورة ويحفظ في ملف. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float*) | يحسب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetBoundsInPixels](../../aspose.words.rendering/noderendererbase/getboundsinpixels/)(*float, float, float*) | يحسب حدود الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float*) | يحسب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetOpaqueBoundsInPixels](../../aspose.words.rendering/noderendererbase/getopaqueboundsinpixels/)(*float, float, float*) | يحسب الحدود المعتمة للشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float*) | يحسب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [GetSizeInPixels](../../aspose.words.rendering/noderendererbase/getsizeinpixels/)(*float, float, float*) | يحسب حجم الشكل بالبكسل لعامل تكبير ودقة محددين. |
+| [RenderToScale](../../aspose.words.rendering/noderendererbase/rendertoscale/)(*Graphics, float, float, float*) | يعرض الشكل فيGraphics الكائن إلى مقياس محدد. |
+| [RenderToSize](../../aspose.words.rendering/noderendererbase/rendertosize/)(*Graphics, float, float, float, float*) | يعرض الشكل فيGraphics الكائن إلى حجم محدد. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يقوم بتحويل الشكل إلى صورة ويحفظه في مجرى. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*Stream, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | يقوم بتحويل الشكل إلى صورة SVG وحفظه في مجرى مائي. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [ImageSaveOptions](../../aspose.words.saving/imagesaveoptions/)*) | يقوم بتحويل الشكل إلى صورة ويحفظه في ملف. |
+| [Save](../../aspose.words.rendering/noderendererbase/save/)(*string, [SvgSaveOptions](../../aspose.words.saving/svgsaveoptions/)*) | يقوم بتحويل الشكل إلى صورة SVG وحفظه في ملف. |
 
 ## أمثلة
 
-يوضح كيفية تقديم شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
+يوضح كيفية عرض شكل باستخدام كائن رسومي وعرضه باستخدام نموذج Windows.
 
 ```csharp
 public void RenderShapesOnForm()
@@ -59,8 +61,8 @@ public void RenderShapesOnForm()
 
     ShapeForm shapeForm = new ShapeForm(new Size(1017, 840));
 
-    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لتقديم شكل إلى كائن رسومي.
-    // 1 - قم بإنشاء شكل باستخدام مخطط، ثم قم بعرضه على مقياس محدد.
+    // فيما يلي طريقتان لاستخدام فئة "ShapeRenderer" لعرض شكل إلى كائن رسومي.
+    // 1 - إنشاء شكل باستخدام مخطط، ثم تقديمه بمقياس محدد.
     Chart chart = builder.InsertChart(ChartType.Pie, 500, 400).Chart;
     chart.Series.Clear();
     chart.Series.Add("Desktop Browser Market Share (Oct. 2020)",
@@ -71,7 +73,7 @@ public void RenderShapesOnForm()
 
     shapeForm.AddShapeToRenderToScale(chartShape, 0, 0, 1.5f);
 
-    // 2 - إنشاء مجموعة أشكال، وعرضها بحجم محدد.
+    // 2 - إنشاء مجموعة أشكال، ثم تقديمها إلى حجم معين.
     GroupShape group = new GroupShape(doc);
     group.Bounds = new RectangleF(0, 0, 100, 100);
     group.CoordSize = new Size(500, 500);
@@ -101,7 +103,7 @@ public void RenderShapesOnForm()
 }
 
 /// <summary>
-/// يعرض ويعرض قائمة من الأشكال.
+/// يقوم بمعالجة وعرض قائمة من الأشكال.
 /// </summary>
 private class ShapeForm : Form
 {

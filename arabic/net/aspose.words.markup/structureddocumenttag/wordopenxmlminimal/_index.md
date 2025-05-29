@@ -3,14 +3,14 @@ title: StructuredDocumentTag.WordOpenXMLMinimal
 linktitle: WordOpenXMLMinimal
 articleTitle: WordOpenXMLMinimal
 second_title: Aspose.Words لـ .NET
-description: StructuredDocumentTag WordOpenXMLMinimal ملكية. يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc تنسيق. خلافا لWordOpenXMLالخاصية تقوم هذه الطريقة بإنشاء مستند مبسط يستبعد أي أجزاء غير متعلقة بالمحتوى في C#.
+description: اكتشف خاصية StructuredDocumentTag WordOpenXMLMinimal، التي توفر سلسلة XML نظيفة بتنسيق FlatOpc، باستثناء العناصر غير المتعلقة بالمحتوى لمعالجة المستندات بشكل مبسط.
 type: docs
 weight: 310
 url: /ar/net/aspose.words.markup/structureddocumenttag/wordopenxmlminimal/
 ---
 ## StructuredDocumentTag.WordOpenXMLMinimal property
 
-يحصل على سلسلة تمثل XML الموجود داخل العقدة في ملفFlatOpc تنسيق. خلافا ل[`WordOpenXML`](../wordopenxml/)الخاصية، تقوم هذه الطريقة بإنشاء مستند مبسط يستبعد أي أجزاء غير متعلقة بالمحتوى.
+يحصل على سلسلة تمثل XML الموجود داخل العقدة فيFlatOpc format. على عكس[`WordOpenXML`](../wordopenxml/) الخاصية، هذه الطريقة تولد مستندًا مبسطًا يستبعد أي أجزاء غير مرتبطة بالمحتوى.
 
 ```csharp
 public string WordOpenXMLMinimal { get; }
@@ -18,7 +18,7 @@ public string WordOpenXMLMinimal { get; }
 
 ## أمثلة
 
-يوضح كيفية العمل مع أنماط عناصر التحكم في المحتوى.
+يوضح كيفية العمل مع الأنماط لعناصر التحكم في المحتوى.
 
 ```csharp
 Document doc = new Document();
@@ -30,7 +30,7 @@ Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - قم بالإشارة إلى النمط الموجود في المستند بالاسم:
+// 2 - الإشارة إلى النمط في المستند بالاسم:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

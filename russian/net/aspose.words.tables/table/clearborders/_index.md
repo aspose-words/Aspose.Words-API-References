@@ -3,9 +3,9 @@ title: Table.ClearBorders
 linktitle: ClearBorders
 articleTitle: ClearBorders
 second_title: Aspose.Words для .NET
-description: Table ClearBorders метод. Удаляет все границы таблиц и ячеек в этой таблице на С#.
+description: Откройте для себя метод Table ClearBorders, который позволит без труда удалить все границы таблиц и ячеек, повысив ясность и привлекательность вашего дизайна.
 type: docs
-weight: 370
+weight: 390
 url: /ru/net/aspose.words.tables/table/clearborders/
 ---
 ## Table.ClearBorders method
@@ -24,26 +24,26 @@ public void ClearBorders()
 Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 
-// Выравниваем таблицу по центру страницы.
+// Выровняйте таблицу по центру страницы.
 table.Alignment = TableAlignment.Center;
 
-// Очистим все существующие границы и затенение таблицы.
+// Удалим все существующие границы и заливку из таблицы.
 table.ClearBorders();
 table.ClearShading();
 
-// Добавляем зеленые рамки к контуру таблицы.
+// Добавляем зеленые границы к контуру таблицы.
 table.SetBorder(BorderType.Left, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Right, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Top, LineStyle.Single, 1.5, Color.Green, true);
 table.SetBorder(BorderType.Bottom, LineStyle.Single, 1.5, Color.Green, true);
 
-// Заполняем ячейки светло-зеленым сплошным цветом.
+// Заполните ячейки светло-зеленым сплошным цветом.
 table.SetShading(TextureIndex.TextureSolid, Color.LightGreen, Color.Empty);
 
 doc.Save(ArtifactsDir + "Table.SetOutlineBorders.docx");
 ```
 
-Показывает, как удалить все границы таблицы.
+Показывает, как удалить все границы из таблицы.
 
 ```csharp
 Document doc = new Document();
@@ -54,7 +54,7 @@ builder.InsertCell();
 builder.Write("Hello world!");
 builder.EndTable();
 
-// Изменяем цвет и толщину верхней границы.
+// Измените цвет и толщину верхней границы.
 Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
 
@@ -62,7 +62,7 @@ Assert.AreEqual(1.5d, topBorder.LineWidth);
 Assert.AreEqual(Color.Red.ToArgb(), topBorder.Color.ToArgb());
 Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
 
-// Очистим границы всех ячеек таблицы, а затем сохраним документ.
+// Очищаем границы всех ячеек таблицы, а затем сохраняем документ.
 table.ClearBorders();
 doc.Save(ArtifactsDir + "Table.ClearBorders.docx");
 

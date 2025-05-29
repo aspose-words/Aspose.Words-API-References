@@ -3,7 +3,7 @@ title: OoxmlSaveOptions.CompressionLevel
 linktitle: CompressionLevel
 articleTitle: CompressionLevel
 second_title: Aspose.Words für .NET
-description: OoxmlSaveOptions CompressionLevel eigendom. Gibt die Komprimierungsstufe an die zum Speichern des Dokuments verwendet wird. Der Standardwert istNormal  in C#.
+description: Entdecken Sie die OoxmlSaveOptions CompressionLevel-Eigenschaft, um das Speichern von Dokumenten mit anpassbaren Komprimierungsstufen für eine verbesserte Leistung zu optimieren.
 type: docs
 weight: 30
 url: /de/net/aspose.words.saving/ooxmlsaveoptions/compressionlevel/
@@ -18,7 +18,7 @@ public CompressionLevel CompressionLevel { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Sie die Komprimierungsstufe angeben, die beim Speichern eines OOXML-Dokuments verwendet werden soll.
+Zeigt, wie Sie die zu verwendende Komprimierungsstufe beim Speichern eines OOXML-Dokuments angeben.
 
 ```csharp
 Document doc = new Document(MyDir + "Big document.docx");
@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Big document.docx");
 // die Standardkomprimierung, die Aspose.Words beim Speichern von OOXML-Dokumenten verwendet.
 // Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.Fast“, um eine schnellere und schwächere Komprimierung anzuwenden.
 // Setzen Sie die Eigenschaft „CompressionLevel“ auf „CompressionLevel.SuperFast“, um sie anzuwenden
-// die Standardkomprimierung, die Microsoft Word verwendet.
+// die von Microsoft Word verwendete Standardkomprimierung.
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions(SaveFormat.Docx);
 saveOptions.CompressionLevel = compressionLevel;
 

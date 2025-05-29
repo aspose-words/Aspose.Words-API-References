@@ -2,15 +2,15 @@
 title: DocSaveOptions.AlwaysCompressMetafiles
 linktitle: AlwaysCompressMetafiles
 articleTitle: AlwaysCompressMetafiles
-second_title: Aspose.Words for .NET
-description: DocSaveOptions AlwaysCompressMetafiles mülk. Ne zamanYANLIŞ  küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değerdoğru  tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır C#'da.
+second_title: .NET için Aspose.Words
+description: AlwaysCompressMetafiles özelliğiyle belge yönetiminizi optimize edin. Verimlilik için metafile sıkıştırmasını kontrol ederek performansı iyileştirin.
 type: docs
 weight: 20
 url: /tr/net/aspose.words.saving/docsaveoptions/alwayscompressmetafiles/
 ---
 ## DocSaveOptions.AlwaysCompressMetafiles property
 
-Ne zaman`YANLIŞ` , küçük meta dosyalar performans nedeniyle sıkıştırılmaz. Varsayılan değer:`doğru` , tüm meta dosyalar boyutuna bakılmaksızın sıkıştırılır.
+Ne zaman`YANLIŞ` , küçük meta dosyaları performans nedeniyle sıkıştırılmaz. Varsayılan değer`doğru` , tüm meta dosyaları boyutuna bakılmaksızın sıkıştırılır.
 
 ```csharp
 public bool AlwaysCompressMetafiles { get; set; }
@@ -18,24 +18,19 @@ public bool AlwaysCompressMetafiles { get; set; }
 
 ## Örnekler
 
-Bir belgeyi kaydederken meta dosya sıkıştırmasının nasıl değiştirileceğini gösterir.
+Bir belgeyi kaydederken meta dosyalarının sıkıştırmasının nasıl değiştirileceğini gösterir.
 
 ```csharp
-// Microsoft Denklem 3.0 formülünü içeren bir belgeyi açın.
+// Microsoft Equation 3.0 formülü içeren bir belgeyi açın.
 Document doc = new Document(MyDir + "Microsoft equation object.docx");
 
-// Bir belgeyi kaydettiğimizde performans nedeniyle daha küçük meta dosyalar sıkıştırılmaz.
-// Kaydederken her meta dosyayı sıkıştırmak için SaveOptions nesnesine bir bayrak ayarlayabiliriz.
-// LibreOffice gibi bazı düzenleyiciler sıkıştırılmamış meta dosyaları okuyamaz.
+// Bir belgeyi kaydettiğimizde, performans nedenlerinden dolayı daha küçük meta dosyaları sıkıştırılmaz.
+// SaveOptions nesnesinde, kaydederken her meta dosyasını sıkıştırmak için bir bayrak ayarlayabiliriz.
+// LibreOffice gibi bazı editörler sıkıştırılmamış meta dosyalarını okuyamaz.
 DocSaveOptions saveOptions = new DocSaveOptions();
 saveOptions.AlwaysCompressMetafiles = compressAllMetafiles;
 
 doc.Save(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx", saveOptions);
-
-if (compressAllMetafiles)
-    Assert.That(10000, Is.LessThan(new FileInfo(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx").Length));
-else
-    Assert.That(30000, Is.AtLeast(new FileInfo(ArtifactsDir + "DocSaveOptions.AlwaysCompressMetafiles.docx").Length));
 ```
 
 ### Ayrıca bakınız

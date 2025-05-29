@@ -3,14 +3,14 @@ title: TextBox.Parent
 linktitle: Parent
 articleTitle: Parent
 second_title: Aspose.Words per .NET
-description: TextBox Parent proprietà. Ottiene una forma genitore per ilTextBox  in C#.
+description: Scopri la proprietà TextBox Parent per accedere facilmente alla sua forma padre, migliorando il flusso di lavoro di progettazione e aumentando l'efficienza nei tuoi progetti.
 type: docs
 weight: 90
 url: /it/net/aspose.words.drawing/textbox/parent/
 ---
 ## TextBox.Parent property
 
-Ottiene una forma genitore per il[`TextBox`](../) .
+Ottiene una forma padre per il[`TextBox`](../) .
 
 ```csharp
 public Shape Parent { get; }

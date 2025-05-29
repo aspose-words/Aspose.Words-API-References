@@ -3,14 +3,14 @@ title: Cell.Tables
 linktitle: Tables
 articleTitle: Tables
 second_title: Aspose.Words för .NET
-description: Cell Tables fast egendom. Hämtar en samling tabeller som är omedelbart underordnade cellen i C#.
+description: Upptäck celltabeller. Få enkel åtkomst till en samling tabeller direkt i din cell för effektiv organisation och förbättrad datahantering.
 type: docs
 weight: 120
 url: /sv/net/aspose.words.tables/cell/tables/
 ---
 ## Cell.Tables property
 
-Hämtar en samling tabeller som är omedelbart underordnade cellen.
+Hämtar en samling tabeller som är direkta underordnade tabeller till cellen.
 
 ```csharp
 public TableCollection Tables { get; }
@@ -33,7 +33,7 @@ public void CalculateDepthOfNestedTables()
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // Ta reda på om tabellen är kapslad i en annan tabell, och i så fall på vilket djup.
+        // Ta reda på om tabellen är kapslad inuti en annan tabell, och i så fall på vilket djup.
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -45,10 +45,10 @@ public void CalculateDepthOfNestedTables()
 }
 
 /// <summary>
-/// Beräknar vilken nivå en tabell är kapslad i andra tabeller.
+/// Beräknar vilken nivå en tabell är kapslad inuti andra tabeller.
 /// </summary>
 /// <returns>
-/// Ett heltal som anger tabellens kapsningsdjup (antal överordnade tabellnoder).
+/// Ett heltal som anger tabellens kapslingsdjup (antal noder i överordnade tabeller).
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -65,20 +65,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// Bestämmer om en tabell innehåller någon omedelbar underordnad tabell i sina celler.
-/// Gå inte rekursivt genom dessa tabeller för att leta efter ytterligare tabeller.
+/// Avgör om en tabell innehåller någon direkt underordnad tabell i sina celler.
+/// Gå inte rekursivt igenom dessa tabeller för att söka efter ytterligare tabeller.
 /// </summary>
 /// <returns>
-/// Returnerar sant om minst en underordnad cell innehåller en tabell.
-/// Returnerar false om inga celler i tabellen innehåller en tabell.
+/// Returnerar sant om minst en undercell innehåller en tabell.
+/// Returnerar falskt om inga celler i tabellen innehåller en tabell.
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

@@ -3,7 +3,7 @@ title: Node.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: Node Remove metod. Tar bort sig själv från föräldern i C#.
+description: Upptäck Node Remove-metoden för att enkelt koppla bort noder från deras överordnade noder, vilket förbättrar din kodens effektivitet och struktur.
 type: docs
 weight: 150
 url: /sv/net/aspose.words/node/remove/
@@ -44,11 +44,11 @@ Node curNode = doc.FirstSection.Body.FirstChild;
 
 while (curNode != null)
 {
-    // Spara nästa syskonnod som en variabel ifall vi vill flytta till den efter att ha tagit bort denna nod.
+    // Spara nästa syskonnod som en variabel ifall vi vill flytta till den efter att vi tagit bort den här noden.
     Node nextNode = curNode.NextSibling;
 
-    // En sektionskropp kan innehålla paragraf- och tabellnoder.
-    // Om noden är en tabell, ta bort den från den överordnade.
+    // En sektionstext kan innehålla stycke- och tabellnoder.
+    // Om noden är en tabell, ta bort den från föräldern.
     if (curNode.NodeType == NodeType.Table)
         curNode.Remove();
 

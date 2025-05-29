@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words för .NET
-description: StructuredDocumentTag Style fast egendom. Hämtar eller ställer in stilen för den strukturerade dokumenttaggen i C#.
+description: Upptäck hur du hanterar egenskapen Style i StructuredDocumentTags för att enkelt förbättra dokumentformateringen och förbättra läsbarheten.
 type: docs
 weight: 260
 url: /sv/net/aspose.words.markup/structureddocumenttag/style/
@@ -18,7 +18,7 @@ public Style Style { get; set; }
 
 ## Anmärkningar
 
-EndastCharacter stil ellerParagraph stil med länkad teckenstil kan ställas in.
+Endast Character stil ellerParagraph stil med länkad teckenstil kan ställas in.
 
 ## Exempel
 
@@ -28,13 +28,13 @@ Visar hur man arbetar med stilar för innehållskontrollelement.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Nedan finns två sätt att tillämpa en stil från dokumentet på en strukturerad dokumenttagg.
+// Nedan följer två sätt att tillämpa en stil från dokumentet på en strukturerad dokumenttagg.
 // 1 - Använd ett stilobjekt från dokumentets stilsamling:
 Style quoteStyle = doc.Styles[StyleIdentifier.Quote];
 StructuredDocumentTag sdtPlainText =
     new StructuredDocumentTag(doc, SdtType.PlainText, MarkupLevel.Inline) { Style = quoteStyle };
 
-// 2 - Referera till en stil i dokumentet efter namn:
+// 2 - Referera till en stil i dokumentet med namn:
 StructuredDocumentTag sdtRichText =
     new StructuredDocumentTag(doc, SdtType.RichText, MarkupLevel.Inline) { StyleName = "Quote" };
 

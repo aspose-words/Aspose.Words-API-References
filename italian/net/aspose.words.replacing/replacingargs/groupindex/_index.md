@@ -3,14 +3,14 @@ title: ReplacingArgs.GroupIndex
 linktitle: GroupIndex
 articleTitle: GroupIndex
 second_title: Aspose.Words per .NET
-description: ReplacingArgs GroupIndex proprietà. Identifica per indice un gruppo catturato nel fileMatch che va sostituito con ilReplacement stringa in C#.
+description: Scopri come utilizzare la proprietà GroupIndex in ReplacingArgs per identificare e sostituire facilmente i gruppi acquisiti nelle corrispondenze con le tue stringhe personalizzate.
 type: docs
 weight: 10
 url: /it/net/aspose.words.replacing/replacingargs/groupindex/
 ---
 ## ReplacingArgs.GroupIndex property
 
-Identifica, per indice, un gruppo catturato nel file[`Match`](../match/) che va sostituito con il[`Replacement`](../replacement/) stringa.
+Identifica, tramite indice, un gruppo catturato nel[`Match`](../match/) che deve essere sostituito con il[`Replacement`](../replacement/) stringa.
 
 ```csharp
 public int GroupIndex { get; set; }
@@ -18,13 +18,13 @@ public int GroupIndex { get; set; }
 
 ## Osservazioni
 
-`GroupIndex`ha effetto solo quando[`GroupName`](../groupname/) È`nullo`.
+`GroupIndex` ha effetto solo quando[`GroupName`](../groupname/) È`null`.
 
-L'impostazione predefinita è zero.
+Il valore predefinito è zero.
 
 ## Esempi
 
-Mostra come applicare un carattere diverso al nuovo contenuto tramite FindReplaceOptions.
+Mostra come applicare un font diverso al nuovo contenuto tramite FindReplaceOptions.
 
 ```csharp
 public void ConvertNumbersToHexadecimal()
@@ -39,7 +39,7 @@ public void ConvertNumbersToHexadecimal()
     // Possiamo utilizzare un oggetto "FindReplaceOptions" per modificare il processo di ricerca e sostituzione.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Imposta la proprietà "HighlightColor" su un colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
+    // Imposta la proprietà "HighlightColor" sul colore di sfondo che vogliamo applicare al testo risultante dall'operazione.
     options.ApplyFont.HighlightColor = Color.LightGray;
 
     NumberHexer numberHexer = new NumberHexer();
@@ -57,8 +57,8 @@ public void ConvertNumbersToHexadecimal()
 }
 
 /// <summary>
-/// Sostituisce le corrispondenze numeriche di ricerca e sostituzione con i loro equivalenti esadecimali.
-/// Mantiene un registro di ogni sostituzione.
+/// Sostituisce le corrispondenze numeriche tramite ricerca e sostituzione con i loro equivalenti esadecimali.
+/// Tiene un registro di ogni sostituzione.
 /// </summary>
 private class NumberHexer : IReplacingCallback
 {

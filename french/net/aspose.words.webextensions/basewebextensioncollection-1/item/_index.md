@@ -3,7 +3,7 @@ title: BaseWebExtensionCollection1.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words pour .NET
-description: BaseWebExtensionCollection Item propriété. Obtient ou définit un élément à lindex spécifié en C#.
+description: Découvrez la propriété Item de BaseWebExtensionCollection pour gérer facilement les éléments par index. Simplifiez votre développement grâce à une gestion efficace des données dès aujourd'hui !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.webextensions/basewebextensioncollection-1/item/
@@ -22,14 +22,14 @@ public T this[int index] { get; set; }
 
 ## Exemples
 
-Montre comment utiliser la collection d’extensions Web d’un document.
+Montre comment travailler avec la collection d'extensions Web d'un document.
 
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
 
 Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
 
-// Imprime toutes les propriétés de l'extension Web du document.
+// Imprimez toutes les propriétés de l'extension Web du document.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
 using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollection.GetEnumerator())
 {
@@ -40,7 +40,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
     }
 }
 
-// Supprime l'extension Web.
+// Supprimez l'extension Web.
 doc.WebExtensionTaskPanes.Remove(0);
 
 Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);

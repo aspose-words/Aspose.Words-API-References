@@ -2,15 +2,15 @@
 title: Cell.LastParagraph
 linktitle: LastParagraph
 articleTitle: LastParagraph
-second_title: 用于 .NET 的 Aspose.Words
-description: Cell LastParagraph 财产. 获取直接子级中的最后一段 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索单元格 LastParagraph 属性。轻松从直接子元素访问最后一段，实现高效的内容管理。
 type: docs
 weight: 60
 url: /zh/net/aspose.words.tables/cell/lastparagraph/
 ---
 ## Cell.LastParagraph property
 
-获取直接子级中的最后一段。
+获取直接子段落中的最后一段。
 
 ```csharp
 public Paragraph LastParagraph { get; }
@@ -18,7 +18,7 @@ public Paragraph LastParagraph { get; }
 
 ## 例子
 
-演示如何将垂直边框设置应用到表格行的格式。
+展示如何将垂直边框设置应用于表格行的格式。
 
 ```csharp
 Document doc = new Document();
@@ -37,12 +37,12 @@ for (int i = 0; i < 3; i++)
     Row row = builder.EndRow();
     BorderCollection borders = row.RowFormat.Borders;
 
-    // 调整行之间出现的边框的外观。
+    // 调整行间边框的外观。
     borders.Horizontal.Color = Color.Red;
     borders.Horizontal.LineStyle = LineStyle.Dot;
     borders.Horizontal.LineWidth = 2.0d;
 
-    // 调整单元格之间出现的边框的外观。
+    // 调整单元格之间边框的外观。
     borders.Vertical.Color = Color.Blue;
     borders.Vertical.LineStyle = LineStyle.Dot;
     borders.Vertical.LineWidth = 2.0d;

@@ -3,14 +3,14 @@ title: SignOptions.SignatureLineImage
 linktitle: SignatureLineImage
 articleTitle: SignatureLineImage
 second_title: Aspose.Words لـ .NET
-description: SignOptions SignatureLineImage ملكية. الصورة التي ستظهر في المرتبطةSignatureLine . القيمة الافتراضية هيباطل  في C#.
+description: اكتشف خاصية SignOptions SignatureLineImage لتحسين توقيعاتك الرقمية بصور مخصصة. ارتقِ باحترافية علامتك التجارية اليوم!
 type: docs
 weight: 60
 url: /ar/net/aspose.words.digitalsignatures/signoptions/signaturelineimage/
 ---
 ## SignOptions.SignatureLineImage property
 
-الصورة التي ستظهر في المرتبطة[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . القيمة الافتراضية هي`باطل` .
+الصورة التي سيتم عرضها في المرتبطة[`SignatureLine`](../../../aspose.words.drawing/signatureline/) . القيمة الافتراضية هي`باطل` .
 
 ```csharp
 public byte[] SignatureLineImage { get; set; }
@@ -22,111 +22,86 @@ public byte[] SignatureLineImage { get; set; }
 
 ```csharp
 [Description("WORDSNET-16868")]
-        public static void Sign()
-        {
-            string signeeName = "Ron Williams";
-            string srcDocumentPath = MyDir + "Document.docx";
-            string dstDocumentPath = ArtifactsDir + "SignDocumentCustom.Sign.docx";
-            string certificatePath = MyDir + "morzal.pfx";
-            string certificatePassword = "aw";
+public static void Sign()
+{
+    string signeeName = "Ron Williams";
+    string srcDocumentPath = MyDir + "Document.docx";
+    string dstDocumentPath = ArtifactsDir + "SignDocumentCustom.Sign.docx";
+    string certificatePath = MyDir + "morzal.pfx";
+    string certificatePassword = "aw";
 
-            CreateSignees();
+    CreateSignees();
 
-            Signee signeeInfo = mSignees.Find(c => c.Name == signeeName);
+    Signee signeeInfo = mSignees.Find(c => c.Name == signeeName);
 
-            if (signeeInfo != null)
-                SignDocument(srcDocumentPath, dstDocumentPath, signeeInfo, certificatePath, certificatePassword);
-            else
-                Assert.Fail("Signee does not exist.");
-        }
+    if (signeeInfo != null)
+        SignDocument(srcDocumentPath, dstDocumentPath, signeeInfo, certificatePath, certificatePassword);
+    else
+        Assert.Fail("Signee does not exist.");
+}
 
-        /// <summary>
-        /// ينشئ نسخة من مستند المصدر موقعًا باستخدام معلومات الموقع المقدمة وشهادة X509.
-        /// </summary>
-        private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
-            Signee signeeInfo, string certificatePath, string certificatePassword)
-        {
-            Document document = new Document(srcDocumentPath);
-            DocumentBuilder builder = new DocumentBuilder(document);
+/// <summary>
+/// إنشاء نسخة من مستند المصدر الموقع باستخدام معلومات التوقيع المقدمة وشهادة X509.
+/// </summary>
+private static void SignDocument(string srcDocumentPath, string dstDocumentPath,
+    Signee signeeInfo, string certificatePath, string certificatePassword)
+{
+    Document document = new Document(srcDocumentPath);
+    DocumentBuilder builder = new DocumentBuilder(document);
 
-            // قم بتكوين سطر التوقيع وإدراجه، وهو كائن في المستند سيعرض التوقيع الذي وقعنا به.
-            SignatureLineOptions signatureLineOptions = new SignatureLineOptions
-            {
-                Signer = signeeInfo.Name, 
-                SignerTitle = signeeInfo.Position
-            };
+    // قم بتكوين وإدراج سطر التوقيع، وهو كائن في المستند سيعرض التوقيع الذي سنوقعه به.
+    SignatureLineOptions signatureLineOptions = new SignatureLineOptions
+    {
+        Signer = signeeInfo.Name, 
+        SignerTitle = signeeInfo.Position
+    };
 
-            SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
-            signatureLine.Id = signeeInfo.PersonId;
+    SignatureLine signatureLine = builder.InsertSignatureLine(signatureLineOptions).SignatureLine;
+    signatureLine.Id = signeeInfo.PersonId;
 
-            // أولاً، سنقوم بحفظ نسخة غير موقعة من وثيقتنا.
-            builder.Document.Save(dstDocumentPath);
+    // أولاً، سوف نقوم بحفظ نسخة غير موقعة من مستندنا.
+    builder.Document.Save(dstDocumentPath);
 
-            CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
+    CertificateHolder certificateHolder = CertificateHolder.Create(certificatePath, certificatePassword);
 
-            SignOptions signOptions = new SignOptions
-            {
-                SignatureLineId = signeeInfo.PersonId,
-                SignatureLineImage = signeeInfo.Image
-            };
+    SignOptions signOptions = new SignOptions
+    {
+        SignatureLineId = signeeInfo.PersonId,
+        SignatureLineImage = signeeInfo.Image
+    };
 
-            // استبدل المستند غير الموقع الذي حفظناه أعلاه بنسخة موقعة باستخدام الشهادة.
-            DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
-        }
+    //استبدل المستند غير الموقع الذي حفظناه أعلاه بإصدار موقع باستخدام الشهادة.
+    DigitalSignatureUtil.Sign(dstDocumentPath, dstDocumentPath, certificateHolder, signOptions);
+}
 
-#if NET48 || JAVA
-        /// <summary>
-        /// تحويل الصورة إلى مصفوفة بايت.
-        /// </summary>
-        private static byte[] ImageToByteArray(Image imageIn)
-        {
-            using (MemoryStream ms = new MemoryStream())
-            {
-                imageIn.Save(ms, ImageFormat.Png);
-                return ms.ToArray();
-            }
-        }
-#endif
+public class Signee
+{
+    public Guid PersonId { get; set; }
+    public string Name { get; set; }
+    public string Position { get; set; }
+    public byte[] Image { get; set; }
 
-        public class Signee
-        {
-            public Guid PersonId { get; set; }
-            public string Name { get; set; }
-            public string Position { get; set; }
-            public byte[] Image { get; set; }
+    public Signee(Guid guid, string name, string position, byte[] image)
+    {
+        PersonId = guid;
+        Name = name;
+        Position = position;
+        Image = image;
+    }
+}
 
-            public Signee(Guid guid, string name, string position, byte[] image)
-            {
-                PersonId = guid;
-                Name = name;
-                Position = position;
-                Image = image;
-            }
-        }
+private static void CreateSignees()
+{
+    var signImagePath = ImageDir + "Logo.jpg";
 
-        private static void CreateSignees()
-        {
-            mSignees = new List<Signee>
-            {
-                #if NET48 || JAVA
-                new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer",
-                    ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg"))),
-                #elif NET5_0_OR_GREATER || __MOBILE__
-                new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", 
-                    SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes),
-                #endif
+    mSignees = new List<Signee>
+    {
+        new Signee(Guid.NewGuid(), "Ron Williams", "Chief Executive Officer", TestUtil.ImageToByteArray(signImagePath)),
+        new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", TestUtil.ImageToByteArray(signImagePath))
+    };
+}
 
-                #if NET48 || JAVA
-                new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance",
-                    ImageToByteArray(Image.FromFile(ImageDir + "Logo.jpg")))
-                #elif NET5_0_OR_GREATER || __MOBILE__
-                new Signee(Guid.NewGuid(), "Stephen Morse", "Head of Compliance", 
-                    SkiaSharp.SKBitmap.Decode(ImageDir + "Logo.jpg").Bytes)
-                #endif
-            };
-        }
-
-        private static List<Signee> mSignees;
+private static List<Signee> mSignees;
 ```
 
 ### أنظر أيضا

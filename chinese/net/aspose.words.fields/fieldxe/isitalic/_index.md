@@ -2,15 +2,15 @@
 title: FieldXE.IsItalic
 linktitle: IsItalic
 articleTitle: IsItalic
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldXE IsItalic 财产. 获取或设置是否将斜体格式应用于条目的页码 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 FieldXE 的 IsItalic 属性如何通过轻松将斜体格式应用于页码以获得精美的外观来增强文档的样式。
 type: docs
 weight: 40
 url: /zh/net/aspose.words.fields/fieldxe/isitalic/
 ---
 ## FieldXE.IsItalic property
 
-获取或设置是否将斜体格式应用于条目的页码。
+获取或设置是否对条目的页码应用斜体格式。
 
 ```csharp
 public bool IsItalic { get; set; }
@@ -18,28 +18,28 @@ public bool IsItalic { get; set; }
 
 ## 例子
 
-演示如何使用 XE 字段用条目填充 INDEX 字段，并修改其外观。
+展示如何使用 XE 字段填充 INDEX 字段，以及如何修改其外观。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
-// 每个条目都会在左侧显示XE字段的Text属性值，
-// 以及右侧包含 XE 字段的页码。
+// 每个条目将在左侧显示 XE 字段的 Text 属性值，
+// 以及右侧包含 XE 字段的页面的编号。
 // 如果 XE 字段的“Text”属性具有相同的值，
 // INDEX 字段会将它们分组为一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.LanguageId = "1033";
 
 // 将此属性的值设置为“A”将按首字母对所有条目进行分组，
-// 并将该字母以大写形式放在每个组的上方。
+// 并将大写字母放在每个组上方。
 index.Heading = "A";
 
-// 将 INDEX 字段创建的表设置为跨越 2 列。
+// 设置由INDEX字段创建的表跨越2列。
 index.NumberOfColumns = "2";
 
-// 设置省略起始字母在“ac”字符范围之外的所有条目。
+// 设置省略任何以“ac”字符范围之外的字母开头的条目。
 index.LetterRange = "a-c";
 
 Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
@@ -75,7 +75,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Avocado";
 
 // 该条目不会出现，因为它以字母“D”开头，
-// 它超出了 INDEX 字段的 LetterRange 属性定义的“ac”字符范围。
+// 这超出了 INDEX 字段的 LetterRange 属性定义的“ac”字符范围。
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Durian";

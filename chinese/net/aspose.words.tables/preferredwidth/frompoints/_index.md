@@ -2,8 +2,8 @@
 title: PreferredWidth.FromPoints
 linktitle: FromPoints
 articleTitle: FromPoints
-second_title: 用于 .NET 的 Aspose.Words
-description: PreferredWidth FromPoints 方法. 一种创建方法返回一个新实例该实例表示使用多个点指定的首选宽度 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 PreferredWidth FromPoints 方法以创建具有定义宽度（以点为单位）的新实例，从而提高设计精度和效率。
 type: docs
 weight: 30
 url: /zh/net/aspose.words.tables/preferredwidth/frompoints/
@@ -22,7 +22,7 @@ public static PreferredWidth FromPoints(double points)
 
 ## 例子
 
-演示如何在指定单元格的首选宽度时使用单位转换工具。
+展示如何在指定单元格的首选宽度时使用单位转换工具。
 
 ```csharp
 Document doc = new Document();
@@ -35,14 +35,14 @@ builder.InsertCell();
 Assert.AreEqual(216.0d, table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value);
 ```
 
-演示如何设置表格单元格的首选宽度。
+展示如何设置表格单元格的首选宽度。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
-// 有两种方法将“PreferredWidth”类应用于表格单元格。
+// 有两种方法可以将“PreferredWidth”类应用于表格单元格。
 // 1 - 根据点设置绝对首选宽度：
 builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(40);
@@ -60,7 +60,7 @@ builder.InsertCell();
 // 未指定首选宽度的单元格将占用剩余的可用空间。
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
-// “PreferredWidth”属性的每个配置都会创建一个新对象。
+// “PreferredWidth”属性的每次配置都会创建一个新对象。
 Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
     builder.CellFormat.PreferredWidth.GetHashCode());
 

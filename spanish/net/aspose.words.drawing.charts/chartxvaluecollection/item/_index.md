@@ -3,9 +3,9 @@ title: ChartXValueCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words para .NET
-description: ChartXValueCollection Item propiedad. Obtiene o establece el valor X en el índice especificado en C#.
+description: Descubra la propiedad de elemento ChartXValueCollection para acceder o modificar fácilmente los valores X en cualquier índice, mejorando su experiencia de visualización de datos.
 type: docs
-weight: 20
+weight: 30
 url: /es/net/aspose.words.drawing.charts/chartxvaluecollection/item/
 ---
 ## ChartXValueCollection indexer

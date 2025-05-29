@@ -3,7 +3,7 @@ title: Font.NoProofing
 linktitle: NoProofing
 articleTitle: NoProofing
 second_title: Aspose.Words för .NET
-description: Font NoProofing fast egendom. Sant när de formaterade tecknen inte ska stavningskontrolleras i C#.
+description: Upptäck Font NoProofing. Förhindra stavningskontroll på formaterad text för renare design. Förbättra dina dokument med precision och professionalism!
 type: docs
 weight: 280
 url: /sv/net/aspose.words/font/noproofing/
@@ -18,15 +18,15 @@ public bool NoProofing { get; set; }
 
 ## Exempel
 
-Visar hur du förhindrar att text stavningskontrolleras av Microsoft Word.
+Visar hur man förhindrar att text stavningskontrolleras av Microsoft Word.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Normalt betonar Microsoft Word stavfel med en ojämn röd underlinje.
-// Vi kan avaktivera "NoProofing"-flaggan för att skapa en del av text som
-// går förbi stavningskontrollen samtidigt som den inaktiveras helt.
+// Normalt sett betonar Microsoft Word stavfel med en ojämn röd understrykning.
+// Vi kan avaktivera flaggan "NoProofing" för att skapa en del av texten som
+// kringgår stavningskontrollen samtidigt som den inaktiveras helt.
 builder.Font.NoProofing = true;
 
 builder.Writeln("Proofing has been disabled, so these spelking errrs will not display red lines underneath.");

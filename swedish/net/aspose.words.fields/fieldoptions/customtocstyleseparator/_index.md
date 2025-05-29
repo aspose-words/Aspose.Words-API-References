@@ -3,14 +3,14 @@ title: FieldOptions.CustomTocStyleSeparator
 linktitle: CustomTocStyleSeparator
 articleTitle: CustomTocStyleSeparator
 second_title: Aspose.Words för .NET
-description: FieldOptions CustomTocStyleSeparator fast egendom. Hämtar eller ställer in anpassad stilseparator för tväxelnFieldToc field i C#.
+description: Upptäck egenskapen FieldOptions CustomTocStyleSeparator för att enkelt anpassa ditt FieldToc-fälts stilavgränsare för förbättrad dokumentnavigering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.fields/fieldoptions/customtocstyleseparator/
 ---
 ## FieldOptions.CustomTocStyleSeparator property
 
-Hämtar eller ställer in anpassad stilseparator för \t-växeln[`FieldToc`](../../fieldtoc/) field.
+Hämtar eller ställer in anpassad stilavgränsare för \t-växeln i[`FieldToc`](../../fieldtoc/) fält.
 
 ```csharp
 public string CustomTocStyleSeparator { get; set; }
@@ -18,11 +18,11 @@ public string CustomTocStyleSeparator { get; set; }
 
 ## Anmärkningar
 
-Som standard är anpassade stilar definierade av \t-växeln i[`FieldToc`](../../fieldtoc/)fältet separeras av en avgränsare hämtad från den aktuella kulturen. Den här egenskapen åsidosätter det beteendet genom att ange en användardefinierad avgränsare.
+Som standard är anpassade stilar definierade av \t-växeln i[`FieldToc`](../../fieldtoc/) fält är separerade med ett avgränsare taget från den aktuella kulturen. Den här egenskapen åsidosätter det beteendet genom att ange ett användardefinierat avgränsare.
 
 ## Exempel
 
-Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikstilar.
+Visar hur man infogar en innehållsförteckning och fyller den med poster baserat på rubrikformat.
 
 ```csharp
 public void FieldToc()
@@ -32,30 +32,30 @@ public void FieldToc()
 
     builder.StartBookmark("MyBookmark");
 
-    // Infoga ett innehållsförteckning-fält, som kommer att kompilera alla rubriker till en innehållsförteckning.
-    // För varje rubrik kommer det här fältet att skapa en rad med texten i den rubrikstilen till vänster,
-    // och sidan rubriken visas till höger.
+    // Infoga ett innehållsförteckningsfält, vilket sammanställer alla rubriker till en innehållsförteckning.
+    // För varje rubrik skapar det här fältet en rad med texten i den rubrikstilen till vänster,
+    // och sidan där rubriken visas till höger.
     FieldToc field = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 
-    // Använd egenskapen BookmarkName för att bara lista rubriker
-    // som visas inom gränserna för ett bokmärke med namnet "Mitt bokmärke".
+    // Använd egenskapen BookmarkName för att endast lista rubriker
+    // som visas inom gränserna för ett bokmärke med namnet "MittBokmärke".
     field.BookmarkName = "MyBookmark";
 
-    // Text med en inbyggd rubrikstil, till exempel "Rubrik 1", som tillämpas på den kommer att räknas som en rubrik.
-    // Vi kan namnge ytterligare stilar som ska plockas upp som rubriker av innehållsförteckningen i den här egenskapen och deras innehållsförteckningsnivåer.
+    // Text med en inbyggd rubrikstil, till exempel "Rubrik 1", räknas som en rubrik.
+    // Vi kan namnge ytterligare stilar som ska hämtas som rubriker av innehållsförteckningen i den här egenskapen och deras innehållsförteckningsnivåer.
     field.CustomStyles = "Quote; 6; Intense Quote; 7";
 
-    // Som standard är Styles/TOC-nivåer separerade i CustomStyles-egenskapen med ett kommatecken,
+    // Som standard separeras nivåerna för stilar/innehållsförteckningar i egenskapen CustomStyles med ett kommatecken,
     // men vi kan ställa in en anpassad avgränsare i den här egenskapen.
     doc.FieldOptions.CustomTocStyleSeparator = ";";
 
-    // Konfigurera fältet för att utesluta alla rubriker som har innehållsförteckningsnivåer utanför detta intervall.
+    // Konfigurera fältet för att exkludera rubriker som har innehållsförteckningsnivåer utanför detta intervall.
     field.HeadingLevelRange = "1-3";
 
     // Innehållsförteckningen visar inte sidnumren för rubriker vars innehållsförteckningsnivåer ligger inom detta intervall.
     field.PageNumberOmittingLevelRange = "2-5";
 
-     // Ställ in en anpassad sträng som skiljer varje rubrik från dess sidnummer.
+     // Ställ in en anpassad sträng som separerar varje rubrik från dess sidnummer.
     field.EntrySeparator = "-";
     field.InsertHyperlinks = true;
     field.HideInWebLayout = false;
@@ -73,13 +73,13 @@ public void FieldToc()
     InsertNewPageWithHeading(builder, "Fifth entry", "Heading 2");
     InsertNewPageWithHeading(builder, "Sixth entry", "Heading 3");
 
-    // Den här posten visas inte eftersom "Rubrik 4" ligger utanför intervallet "1-3" som vi har ställt in tidigare.
+    // Den här posten visas inte eftersom "Rubrik 4" ligger utanför intervallet "1-3" som vi ställde in tidigare.
     InsertNewPageWithHeading(builder, "Seventh entry", "Heading 4");
 
     builder.EndBookmark("MyBookmark");
     builder.Writeln("Paragraph text.");
 
-    // Den här posten visas inte eftersom den ligger utanför bokmärket som anges av innehållsförteckningen.
+    // Den här posten visas inte eftersom den ligger utanför bokmärket som anges i innehållsförteckningen.
     InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
 
     Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
@@ -90,7 +90,7 @@ public void FieldToc()
 }
 
 /// <summary>
-/// Starta en ny sida och infoga ett stycke av en angiven stil.
+/// Börja en ny sida och infoga ett stycke med en angiven stil.
 /// </summary>
 public void InsertNewPageWithHeading(DocumentBuilder builder, string captionText, string styleName)
 {

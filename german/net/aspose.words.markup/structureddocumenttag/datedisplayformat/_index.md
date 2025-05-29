@@ -3,20 +3,24 @@ title: StructuredDocumentTag.DateDisplayFormat
 linktitle: DateDisplayFormat
 articleTitle: DateDisplayFormat
 second_title: Aspose.Words für .NET
-description: StructuredDocumentTag DateDisplayFormat eigendom. Zeichenfolge die das Format darstellt in dem Datumsangaben angezeigt werden. Kann nicht seinNull . Das Datum für Englisch USA ist mm/tt/jjjj in C#.
+description: Entdecken Sie die DateDisplayFormat-Eigenschaft von StructuredDocumentTag, um Datumsanzeigeformate mühelos anzupassen. Verbessern Sie die Übersichtlichkeit und Attraktivität Ihres Dokuments!
 type: docs
 weight: 90
 url: /de/net/aspose.words.markup/structureddocumenttag/datedisplayformat/
 ---
 ## StructuredDocumentTag.DateDisplayFormat property
 
-Zeichenfolge, die das Format darstellt, in dem Datumsangaben angezeigt werden. Kann nicht sein`Null` . Das Datum für Englisch (USA) ist „mm/tt/jjjj“.
+Zeichenfolge, die das Format darstellt, in dem Datumsangaben angezeigt werden.
 
 ```csharp
 public string DateDisplayFormat { get; set; }
 ```
 
 ## Bemerkungen
+
+Kann nicht sein`null`.
+
+Die Datumsangaben für Englisch (USA) lauten „mm/dd/yyyy“.
 
 Der Zugriff auf diese Eigenschaft funktioniert nur fürDate SDT-Typ.
 
@@ -29,14 +33,14 @@ Zeigt, wie der Benutzer mit einem strukturierten Dokument-Tag zur Eingabe eines 
 ```csharp
 Document doc = new Document();
 
-// Fügen Sie ein strukturiertes Dokument-Tag ein, das den Benutzer zur Eingabe eines Datums auffordert.
-// In Microsoft Word wird dieses Element als „Inhaltssteuerelement für die Datumsauswahl“ bezeichnet.
+// Fügen Sie ein strukturiertes Dokument-Tag ein, das den Benutzer auffordert, ein Datum einzugeben.
+// In Microsoft Word wird dieses Element als „Datumsauswahl-Inhaltssteuerelement“ bezeichnet.
 // Wenn wir in Microsoft Word auf den Pfeil am rechten Ende dieses Tags klicken,
 // Wir sehen ein Popup in Form eines anklickbaren Kalenders.
 // Wir können dieses Popup verwenden, um ein Datum auszuwählen, das das Tag anzeigen soll.
 StructuredDocumentTag sdtDate = new StructuredDocumentTag(doc, SdtType.Date, MarkupLevel.Inline);
 
-// Zeigt das Datum entsprechend der saudi-arabischen Arabisch-Sprache an.
+// Zeigt das Datum entsprechend der saudi-arabischen Landeseinstellung an.
 sdtDate.DateDisplayLocale = CultureInfo.GetCultureInfo("ar-SA").LCID;
 
 // Legen Sie das Format fest, in dem das Datum angezeigt werden soll.
@@ -46,7 +50,7 @@ sdtDate.DateStorageFormat = SdtDateStorageFormat.DateTime;
 // Zeigt das Datum gemäß dem Hijri-Kalender an.
 sdtDate.CalendarType = SdtCalendarType.Hijri;
 
-// Bevor der Benutzer ein Datum in Microsoft Word auswählt, zeigt das Tag den Text „Klicken Sie hier, um ein Datum einzugeben.“ an.
+// Bevor der Benutzer in Microsoft Word ein Datum auswählt, zeigt das Tag den Text „Klicken Sie hier, um ein Datum einzugeben.“ an.
 // Legen Sie entsprechend dem Kalender des Tags die Eigenschaft „FullDate“ fest, damit das Tag ein Standarddatum anzeigt.
 sdtDate.FullDate = new DateTime(1440, 10, 20);
 

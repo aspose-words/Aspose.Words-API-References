@@ -3,14 +3,14 @@ title: Shape.ExtrusionEnabled
 linktitle: ExtrusionEnabled
 articleTitle: ExtrusionEnabled
 second_title: Aspose.Words для .NET
-description: Shape ExtrusionEnabled свойство. Возвращаетистинный если эффект выдавливания включен на С#.
+description: Узнайте, активна ли функция Shape Extrusion. Легко улучшайте свои проекты с помощью потрясающих 3D-эффектов для профессионального прикосновения!
 type: docs
-weight: 30
+weight: 40
 url: /ru/net/aspose.words.drawing/shape/extrusionenabled/
 ---
 ## Shape.ExtrusionEnabled property
 
-Возвращает`истинный` если эффект выдавливания включен.
+Возврат`истинный` если эффект выдавливания включен.
 
 ```csharp
 public bool ExtrusionEnabled { get; }
@@ -18,7 +18,7 @@ public bool ExtrusionEnabled { get; }
 
 ## Примеры
 
-Показывает, как перебирать все фигуры в документе.
+Показывает, как перебрать все фигуры в документе.
 
 ```csharp
 public void VisitShapes()
@@ -31,7 +31,7 @@ public void VisitShapes()
 }
 
 /// <summary>
-/// Регистрирует информацию о внешнем виде посещенных фигур.
+/// Регистрирует информацию, связанную с внешним видом посещенных фигур.
 /// </summary>
 private class ShapeAppearancePrinter : DocumentVisitor
 {
@@ -61,7 +61,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла Shape.
+    /// Вызывается, когда посетитель посещает начало узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeStart(Shape shape)
     {
@@ -81,7 +81,6 @@ private class ShapeAppearancePrinter : DocumentVisitor
             Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
-
         }
 
         if (shape.Filled)
@@ -97,7 +96,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла Shape.
+    /// Вызывается, когда посетитель посещает конец узла Shape.
     /// </summary>
     public override VisitorAction VisitShapeEnd(Shape shape)
     {
@@ -109,7 +108,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает начало узла GroupShape.
+    /// Вызывается, когда посетитель посещает начало узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeStart(GroupShape groupShape)
     {
@@ -120,7 +119,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается, когда этот посетитель посещает конец узла GroupShape.
+    /// Вызывается, когда посетитель посещает конец узла GroupShape.
     /// </summary>
     public override VisitorAction VisitGroupShapeEnd(GroupShape groupShape)
     {

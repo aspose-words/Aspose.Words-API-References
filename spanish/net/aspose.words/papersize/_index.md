@@ -3,9 +3,9 @@ title: PaperSize Enum
 linktitle: PaperSize
 articleTitle: PaperSize
 second_title: Aspose.Words para .NET
-description: Aspose.Words.PaperSize enumeración. Especifica el tamaño del papel en C#.
+description: Descubre la enumeración Aspose.Words.PaperSize para definir tamaños de papel personalizados en tus documentos. ¡Mejora el formato de tus documentos fácilmente!
 type: docs
-weight: 4380
+weight: 5110
 url: /es/net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -37,7 +37,9 @@ public enum PaperSize
 | Paper10x14 | `14` | 10 x 14 pulgadas. |
 | Paper11x17 | `15` | 11 x 17 pulgadas. |
 | Number10Envelope | `16` | 4,125 x 9,5 pulgadas. |
-| Custom | `17` | Tamaño de papel personalizado. |
+| JisB4 | `17` | 257 x 364 mm. |
+| JisB5 | `18` | 182 x 257 mm. |
+| Custom | `19` | Tamaño de papel personalizado. |
 
 ## Ejemplos
 
@@ -61,13 +63,13 @@ builder.Writeln("Hello world!");
 doc.Save(ArtifactsDir + "PageSetup.PageMargins.docx");
 ```
 
-Muestra cómo configurar los tamaños de página.
+Muestra cómo configurar tamaños de página.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Podemos cambiar el tamaño de la página actual a un tamaño predefinido
+//Podemos cambiar el tamaño de la página actual a un tamaño predefinido
 // utilizando la propiedad "PaperSize" del objeto PageSetup de esta sección.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
@@ -76,8 +78,8 @@ Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-// Cada sección tiene su propio objeto PageSetup. Cuando utilizamos un generador de documentos para crear una nueva sección,
-// el objeto PageSetup de esa sección hereda todos los valores del objeto PageSetup de la sección anterior.
+Cada sección tiene su propio objeto PageSetup. Cuando usamos un generador de documentos para crear una nueva sección,
+// El objeto PageSetup de esa sección hereda todos los valores del objeto PageSetup de la sección anterior.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
 Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
@@ -90,7 +92,7 @@ Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-// Establece un tamaño personalizado para las páginas de esta sección.
+// Establezca un tamaño personalizado para las páginas de esta sección.
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
@@ -111,22 +113,22 @@ Document doc = new Document();
 // y terminar con un nodo de documento sin hijos.
 doc.RemoveAllChildren();
 
-// Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
+//Este documento ahora no tiene nodos secundarios compuestos a los que podamos agregar contenido.
 // Si deseamos editarlo, necesitaremos volver a llenar su colección de nodos.
-// Primero, crea una nueva sección y luego agrégala como secundaria al nodo del documento raíz.
+// Primero, cree una nueva sección y luego añádala como un elemento secundario al nodo del documento raíz.
 Section section = new Section(doc);
 doc.AppendChild(section);
 
-// Establece algunas propiedades de configuración de página para la sección.
+// Establezca algunas propiedades de configuración de página para la sección.
 section.PageSetup.SectionStart = SectionStart.NewPage;
 section.PageSetup.PaperSize = PaperSize.Letter;
 
-// Una sección necesita un cuerpo, que contendrá y mostrará todo su contenido
+// Una sección necesita un cuerpo, que contendrá y mostrará todo su contenido.
 // en la página entre el encabezado y el pie de página de la sección.
 Body body = new Body(doc);
 section.AppendChild(body);
 
-// Crea un párrafo, establece algunas propiedades de formato y luego añádelo como elemento secundario al cuerpo.
+// Cree un párrafo, establezca algunas propiedades de formato y luego añádalo como elemento secundario al cuerpo.
 Paragraph para = new Paragraph(doc);
 
 para.ParagraphFormat.StyleName = "Heading 1";
@@ -134,8 +136,8 @@ para.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 
 body.AppendChild(para);
 
-// Finalmente, agrega algo de contenido para hacer el documento. Crea una carrera,
-// establece su apariencia y contenido, y luego lo agrega como elemento secundario al párrafo.
+// Finalmente, agrega algo de contenido para completar el documento. Crea una ejecución.
+// establece su apariencia y contenido, y luego lo agrega como un elemento secundario al párrafo.
 Run run = new Run(doc);
 run.Text = "Hello World!";
 run.Font.Color = Color.Red;

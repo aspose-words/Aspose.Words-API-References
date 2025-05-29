@@ -3,7 +3,7 @@ title: FrameFormat.Height
 linktitle: Height
 articleTitle: Height
 second_title: Aspose.Words для .NET
-description: FrameFormat Height свойство. Получает высоту указанного кадра на С#.
+description: Откройте для себя свойство FrameFormat Height, чтобы легко получить доступ и использовать высоту указанного кадра для повышения гибкости дизайна.
 type: docs
 weight: 10
 url: /ru/net/aspose.words/frameformat/height/

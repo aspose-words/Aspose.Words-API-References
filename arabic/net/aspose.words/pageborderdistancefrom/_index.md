@@ -3,9 +3,9 @@ title: PageBorderDistanceFrom Enum
 linktitle: PageBorderDistanceFrom
 articleTitle: PageBorderDistanceFrom
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.PageBorderDistanceFrom تعداد. يحدد موضع حدود الصفحة بالنسبة لهامش الصفحة في C#.
+description: اكتشف خاصية Aspose.Words.PageBorderDistanceFrom لتحديد حدود الصفحات بدقة. حسّن تنسيق المستند من خلال تحديد موضع الهوامش بشكل مثالي.
 type: docs
-weight: 4350
+weight: 5080
 url: /ar/net/aspose.words/pageborderdistancefrom/
 ---
 ## PageBorderDistanceFrom enumeration
@@ -25,7 +25,7 @@ public enum PageBorderDistanceFrom
 
 ## أمثلة
 
-يوضح كيفية إنشاء حد شريطي أزرق عريض في أعلى الصفحة الأولى.
+يوضح كيفية إنشاء حدود ذات شريط أزرق عريض في الجزء العلوي من الصفحة الأولى.
 
 ```csharp
 Document doc = new Document();

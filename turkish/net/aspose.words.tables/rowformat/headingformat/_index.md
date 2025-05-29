@@ -2,8 +2,8 @@
 title: RowFormat.HeadingFormat
 linktitle: HeadingFormat
 articleTitle: HeadingFormat
-second_title: Aspose.Words for .NET
-description: RowFormat HeadingFormat mülk. Tablo birden fazla sayfaya yayıldığında satır her sayfada tablo başlığı olarak tekrarlanıyorsa doğrudur C#'da.
+second_title: .NET için Aspose.Words
+description: RowFormat HeadingFormat özelliğini keşfedin, çok sayfalı belgelerde açıklık ve okunabilirliği artırmak için tablo başlıklarınızın her sayfada tekrarlandığından emin olun.
 type: docs
 weight: 30
 url: /tr/net/aspose.words.tables/rowformat/headingformat/
@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Table table = builder.StartTable();
 
 // "HeadingFormat" bayrağı "true" olarak ayarlandığında eklenen tüm satırlar
-// kapsadığı her sayfada tablonun en üstünde görünecektir.
+// yayıldığı her sayfada tablonun en üstünde görünecektir.
 builder.RowFormat.HeadingFormat = true;
 builder.ParagraphFormat.Alignment = ParagraphAlignment.Center;
 builder.CellFormat.Width = 100;
@@ -42,7 +42,7 @@ builder.CellFormat.Width = 50;
 builder.ParagraphFormat.ClearFormatting();
 builder.RowFormat.HeadingFormat = false;
 
-// Tablonun iki sayfaya yayılmasına yetecek kadar satır ekleyin.
+// Tablonun iki sayfaya yayılması için yeterli sayıda satır ekleyin.
 for (int i = 0; i < 50; i++)
 {
     builder.InsertCell();

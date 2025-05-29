@@ -3,14 +3,14 @@ title: PlainTextDocument
 linktitle: PlainTextDocument
 articleTitle: PlainTextDocument
 second_title: Aspose.Words لـ .NET
-description: PlainTextDocument البناء. إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا في C#.
+description: أنشئ مستندات نصية عادية بسهولة باستخدام مُنشئ PlainTextDocument. استمتع بالكشف التلقائي عن تنسيقات الملفات لتكامل سلس!
 type: docs
 weight: 10
 url: /ar/net/aspose.words/plaintextdocument/plaintextdocument/
 ---
 ## PlainTextDocument(*string*) {#constructor_2}
 
-إنشاء مستند نصي عادي من ملف. يكتشف تنسيق الملف تلقائيًا.
+يُنشئ مستند نص عادي من ملف. يكتشف تنسيق الملف تلقائيًا.
 
 ```csharp
 public PlainTextDocument(string fileName)
@@ -18,22 +18,22 @@ public PlainTextDocument(string fileName)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المراد استخراج النص منه. |
+| fileName | String | اسم الملف الذي سيتم استخراج النص منه. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو لم يتم دعمه. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
+| Exception | هناك مشكلة في المستند ويجب الإبلاغ عنها إلى مطوري Aspose.Words. |
 | IOException | هناك استثناء الإدخال/الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
-| ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | تم تشفير المستند ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
+| ArgumentException | لا يمكن أن يكون اسم الملف فارغًا أو سلسلة فارغة. |
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي.
 
 ```csharp
 Document doc = new Document(); 
@@ -57,7 +57,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(*string, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_3}
 
-إنشاء مستند نصي عادي من ملف. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يُنشئ مستند نص عادي من ملف. يسمح بتحديد خيارات إضافية، مثل كلمة مرور التشفير.
 
 ```csharp
 public PlainTextDocument(string fileName, LoadOptions loadOptions)
@@ -65,23 +65,23 @@ public PlainTextDocument(string fileName, LoadOptions loadOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| fileName | String | اسم الملف المراد استخراج النص منه. |
-| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن ان يكون`باطل`. |
+| fileName | String | اسم الملف الذي سيتم استخراج النص منه. |
+| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن`باطل`. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو لم يتم دعمه. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
+| Exception | هناك مشكلة في المستند ويجب الإبلاغ عنها إلى مطوري Aspose.Words. |
 | IOException | هناك استثناء الإدخال/الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
-| ArgumentException | لا يمكن أن يكون اسم الملف سلسلة فارغة أو فارغة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | تم تشفير المستند ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
+| ArgumentException | لا يمكن أن يكون اسم الملف فارغًا أو سلسلة فارغة. |
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word المشفر بنص عادي.
+يوضح كيفية تحميل محتويات مستند Microsoft Word المشفر في نص عادي.
 
 ```csharp
 Document doc = new Document();
@@ -112,7 +112,7 @@ Assert.AreEqual("Hello world!", plaintext.Text.Trim());
 
 ## PlainTextDocument(*Stream*) {#constructor}
 
-إنشاء مستند نصي عادي من الدفق. يكتشف تنسيق الملف تلقائيًا.
+يُنشئ مستند نص عادي من مصدر. يكتشف تنسيق الملف تلقائيًا.
 
 ```csharp
 public PlainTextDocument(Stream stream)
@@ -120,28 +120,28 @@ public PlainTextDocument(Stream stream)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يتم استخراج النص منه. |
+| stream | Stream | المصدر الذي سيتم استخراج النص منه. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو لم يتم دعمه. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
+| Exception | هناك مشكلة في المستند ويجب الإبلاغ عنها إلى مطوري Aspose.Words. |
 | IOException | هناك استثناء الإدخال/الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | تم تشفير المستند ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
-| NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
-| ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
+| NotSupportedException | لا يدعم البث القراءة أو البحث. |
+| ObjectDisposedException | الدفق هو كائن متصرف. |
 
 ## ملاحظات
 
-يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
+يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق التموضع العشوائي.
 
 ## أمثلة
 
-يوضح كيفية تحميل محتويات مستند Microsoft Word بنص عادي باستخدام الدفق.
+يوضح كيفية تحميل محتويات مستند Microsoft Word في نص عادي باستخدام الدفق.
 
 ```csharp
 Document doc = new Document();
@@ -168,7 +168,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 
 ## PlainTextDocument(*Stream, [LoadOptions](../../../aspose.words.loading/loadoptions/)*) {#constructor_1}
 
-إنشاء مستند نصي عادي من الدفق. يسمح بتحديد خيارات إضافية مثل كلمة مرور التشفير.
+يُنشئ مستند نص عادي من مصدر. يسمح بتحديد خيارات إضافية، مثل كلمة مرور التشفير.
 
 ```csharp
 public PlainTextDocument(Stream stream, LoadOptions loadOptions)
@@ -176,25 +176,25 @@ public PlainTextDocument(Stream stream, LoadOptions loadOptions)
 
 | معامل | يكتب | وصف |
 | --- | --- | --- |
-| stream | Stream | الدفق الذي يتم استخراج النص منه. |
-| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن ان يكون`باطل`. |
+| stream | Stream | المصدر الذي سيتم استخراج النص منه. |
+| loadOptions | LoadOptions | خيارات إضافية لاستخدامها عند تحميل مستند. يمكن`باطل`. |
 
 ### استثناءات
 
 | استثناء | حالة |
 | --- | --- |
-| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو أنه غير مدعوم. |
+| [UnsupportedFileFormatException](../../unsupportedfileformatexception/) | لم يتم التعرف على تنسيق المستند أو لم يتم دعمه. |
 | [FileCorruptedException](../../filecorruptedexception/) | يبدو أن المستند تالف ولا يمكن تحميله. |
-| Exception | توجد مشكلة في المستند ويجب إبلاغ مطوري Aspose.Words بها. |
+| Exception | هناك مشكلة في المستند ويجب الإبلاغ عنها إلى مطوري Aspose.Words. |
 | IOException | هناك استثناء الإدخال/الإخراج. |
-| [IncorrectPasswordException](../../incorrectpasswordexception/) | المستند مشفر ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
+| [IncorrectPasswordException](../../incorrectpasswordexception/) | تم تشفير المستند ويتطلب كلمة مرور لفتحه، ولكنك أدخلت كلمة مرور غير صحيحة. |
 | ArgumentNullException | لا يمكن أن يكون الدفق فارغًا. |
-| NotSupportedException | الدفق لا يدعم القراءة أو البحث. |
-| ObjectDisposedException | الدفق هو كائن تم التخلص منه. |
+| NotSupportedException | لا يدعم البث القراءة أو البحث. |
+| ObjectDisposedException | الدفق هو كائن متصرف. |
 
 ## ملاحظات
 
-يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق تحديد المواقع العشوائية.
+يجب تخزين المستند في بداية الدفق. يجب أن يدعم الدفق التموضع العشوائي.
 
 ## أمثلة
 

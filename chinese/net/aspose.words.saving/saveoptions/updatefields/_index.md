@@ -2,15 +2,15 @@
 title: SaveOptions.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
-second_title: 用于 .NET 的 Aspose.Words
-description: SaveOptions UpdateFields 财产. 获取或设置一个值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段 此属性的默认值为真的 在 C#.
+second_title: Aspose.Words for .NET
+description: 了解 SaveOptions 的 UpdateFields 属性如何通过在转换为固定格式之前更新特定字段类型来优化文档保存。默认值为 true。
 type: docs
-weight: 160
+weight: 170
 url: /zh/net/aspose.words.saving/saveoptions/updatefields/
 ---
 ## SaveOptions.UpdateFields property
 
-获取或设置一个值，确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 此属性的默认值为`真的`.
+获取或设置一个值，该值确定在将文档保存为固定页面格式之前是否应更新某些类型的字段。 此属性的默认值为`真的`.
 
 ```csharp
 public bool UpdateFields { get; set; }
@@ -22,15 +22,15 @@ public bool UpdateFields { get; set; }
 
 ## 例子
 
-演示如何在将文档保存为 PDF 之前立即更新文档中的所有字段。
+展示如何在将文档保存为 PDF 之前立即更新文档中的所有字段。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// 插入带有 PAGE 和 NUMPAGES 字段的文本。这些字段不会实时显示正确的值。
-// 我们需要使用“Field.Update()”和“Document.UpdateFields()”等更新方法手动更新它们
-// 每次我们需要它们显示准确的值时。
+// 插入包含 PAGE 和 NUMPAGES 字段的文本。这些字段无法实时显示正确的值。
+// 我们需要使用更新方法（例如“Field.Update()”和“Document.UpdateFields()”）手动更新它们
+// 每次我们都需要它们显示准确的值。
 builder.Write("Page ");
 builder.InsertField("PAGE", "");
 builder.Write(" of ");
@@ -42,10 +42,10 @@ builder.Writeln("Hello World!");
 // 修改该方法将文档转换为 .PDF 的方式。
 PdfSaveOptions options = new PdfSaveOptions();
 
-// 将“UpdateFields”属性设置为“false”，以便在保存操作之前不更新文档中的所有字段。
-// 如果我们知道所有字段在保存之前都是最新的，这是更好的选择。
-// 将“UpdateFields”属性设置为“true”以迭代所有文档
-// 字段并在将其保存为 PDF 之前更新它们。这将确保所有字段都会显示
+// 将“UpdateFields”属性设置为“false”以在保存操作之前不更新文档中的所有字段。
+// 如果我们知道在保存之前所有字段都是最新的，那么这是更好的选择。
+// 将“UpdateFields”属性设置为“true”以遍历所有文档
+// 字段，并在保存为 PDF 之前更新它们。这将确保所有字段都显示
 // PDF 中最准确的值。
 options.UpdateFields = updateFields;
 

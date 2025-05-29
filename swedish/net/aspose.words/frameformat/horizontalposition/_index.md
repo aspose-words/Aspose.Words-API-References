@@ -3,14 +3,14 @@ title: FrameFormat.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: Aspose.Words för .NET
-description: FrameFormat HorizontalPosition fast egendom. Får horisontellt avstånd mellan kanten på ramen och objektet som anges avRelativeHorizontalPosition egenskap i C#.
+description: Upptäck egenskapen FrameFormat HorizontalPosition för att enkelt mäta avståndet mellan ramens kant och det angivna objektet för exakt layoutkontroll.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/frameformat/horizontalposition/
 ---
 ## FrameFormat.HorizontalPosition property
 
-Får horisontellt avstånd mellan kanten på ramen och objektet som anges av[`RelativeHorizontalPosition`](../relativehorizontalposition/) egenskap.
+Hämtar det horisontella avståndet mellan ramens kant och det objekt som anges av[`RelativeHorizontalPosition`](../relativehorizontalposition/) egendom.
 
 ```csharp
 public double HorizontalPosition { get; }

@@ -3,16 +3,16 @@ title: CustomXmlProperty Class
 linktitle: CustomXmlProperty
 articleTitle: CustomXmlProperty
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Markup.CustomXmlProperty сорт. Представляет один пользовательский атрибут XML или свойство смарттега на С#.
+description: Откройте для себя класс Aspose.Words.Markup.CustomXmlProperty, разработанный для упрощения управления пользовательскими атрибутами XML и свойствами смарт-тегов для улучшенного контроля над документами.
 type: docs
-weight: 3940
+weight: 4630
 url: /ru/net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
 
 Представляет один пользовательский атрибут XML или свойство смарт-тега.
 
-Чтобы узнать больше, посетите[Структурированные теги документа или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) статья документации.
+Чтобы узнать больше, посетите[Структурированные теги документов или контроль содержимого](https://docs.aspose.com/words/net/working-with-content-control-sdt/) документальная статья.
 
 ```csharp
 public class CustomXmlProperty
@@ -28,13 +28,13 @@ public class CustomXmlProperty
 
 | Имя | Описание |
 | --- | --- |
-| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Указывает имя пользовательского атрибута XML или свойства смарт-тега. |
-| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Получает или задает URI пространства имен пользовательского атрибута XML или свойства смарт-тега. |
-| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Получает или задает значение пользовательского атрибута XML или свойства смарт-тега. |
+| [Name](../../aspose.words.markup/customxmlproperty/name/) { get; } | Указывает имя настраиваемого атрибута XML или свойства смарт-тега. |
+| [Uri](../../aspose.words.markup/customxmlproperty/uri/) { get; set; } | Возвращает или задает URI пространства имен пользовательского атрибута XML или свойства смарт-тега. |
+| [Value](../../aspose.words.markup/customxmlproperty/value/) { get; set; } | Возвращает или задает значение настраиваемого атрибута XML или свойства смарт-тега. |
 
 ## Примечания
 
-Используется как предмет[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) коллекция.
+Используется как элемент[`CustomXmlPropertyCollection`](../customxmlpropertycollection/) коллекция.
 
 ## Примеры
 
@@ -45,24 +45,24 @@ public void Create()
 {
     Document doc = new Document();
 
-    // Смарт-тег появляется в документе, когда Microsoft Word распознает часть его текста как некоторую форму данных,
-    // например, имя, дата или адрес, и преобразует его в гиперссылку, подчеркнутую фиолетовым пунктиром.
+    // Смарт-тег появляется в документе, в котором Microsoft Word распознает часть текста как некоторую форму данных,
+    // например имя, дату или адрес, и преобразует его в гиперссылку, которая отображается подчеркиванием из фиолетовых точек.
     SmartTag smartTag = new SmartTag(doc);
 
-    // Смарт-теги — это составные узлы, которые полностью содержат распознанный текст.
+    // Смарт-теги — это составные узлы, содержащие распознанный текст целиком.
     // Добавьте содержимое в этот смарт-тег вручную.
     smartTag.AppendChild(new Run(doc, "May 29, 2019"));
 
-    // Microsoft Word может распознать приведенное выше содержимое как дату.
-    // Смарт-теги используют свойство «Элемент», чтобы отразить тип содержащихся в них данных.
+    // Microsoft Word может распознать указанное выше содержимое как дату.
+    // Смарт-теги используют свойство «Элемент» для отражения типа содержащихся в них данных.
     smartTag.Element = "date";
 
-    // Некоторые типы смарт-тегов преобразуют свое содержимое в пользовательские свойства XML.
+    // Некоторые типы смарт-тегов дополнительно обрабатывают свое содержимое в пользовательские свойства XML.
     smartTag.Properties.Add(new CustomXmlProperty("Day", string.Empty, "29"));
     smartTag.Properties.Add(new CustomXmlProperty("Month", string.Empty, "5"));
     smartTag.Properties.Add(new CustomXmlProperty("Year", string.Empty, "2019"));
 
-    // Установите для URI смарт-тега значение по умолчанию.
+    // Установите URI смарт-тега на значение по умолчанию.
     smartTag.Uri = "urn:schemas-microsoft-com:office:smarttags";
 
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
@@ -78,13 +78,13 @@ public void Create()
     doc.FirstSection.Body.FirstParagraph.AppendChild(smartTag);
     doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, " is a stock ticker."));
 
-    // Распечатываем все смарт-теги в нашем документе с помощью посетителя документа.
+    // Распечатаем все смарт-теги в нашем документе с помощью посетителя документа.
     doc.Accept(new SmartTagPrinter());
 
     // Старые версии Microsoft Word поддерживают смарт-теги.
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
-    // Используйте метод «RemoveSmartTags», чтобы удалить все смарт-теги из документа.
+    // Используйте метод «RemoveSmartTags» для удаления всех смарт-тегов из документа.
     Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
 
     doc.RemoveSmartTags();
@@ -93,7 +93,7 @@ public void Create()
 }
 
 /// <summary>
-/// Распечатывает посещенные смарт-теги и их содержимое.
+/// Печатает посещённые смарт-теги и их содержимое.
 /// </summary>
 private class SmartTagPrinter : DocumentVisitor
 {
@@ -107,7 +107,7 @@ private class SmartTagPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается при завершении посещения узла SmartTag.
+    /// Вызывается, когда посещение узла SmartTag завершено.
     /// </summary>
     public override VisitorAction VisitSmartTagEnd(SmartTag smartTag)
     {

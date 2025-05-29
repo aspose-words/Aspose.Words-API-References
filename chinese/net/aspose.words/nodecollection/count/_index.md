@@ -2,8 +2,8 @@
 title: NodeCollection.Count
 linktitle: Count
 articleTitle: Count
-second_title: 用于 .NET 的 Aspose.Words
-description: NodeCollection Count 财产. 获取集合中的节点数 在 C#.
+second_title: Aspose.Words for .NET
+description: 发现 NodeCollection Count 属性可以轻松访问集合中的节点总数，增强数据管理和效率。
 type: docs
 weight: 10
 url: /zh/net/aspose.words/nodecollection/count/
@@ -18,12 +18,12 @@ public int Count { get; }
 
 ## 例子
 
-演示如何遍历复合节点的子节点集合。
+展示如何遍历复合节点的子节点集合。
 
 ```csharp
 Document doc = new Document();
 
-// 将两个运行和一个形状作为子节点添加到本文档的第一段。
+// 将两个运行和一个形状作为子节点添加到此文档的第一段。
 Paragraph paragraph = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
 paragraph.AppendChild(new Run(doc, "Hello world! "));
 
@@ -37,8 +37,8 @@ paragraph.AppendChild(shape);
 
 paragraph.AppendChild(new Run(doc, "Hello again!"));
 
-// 遍历该段落的直接子级集合，
-// 并打印我们在其中找到的任何运行或形状。
+// 遍历段落的直接子段落集合，
+// 并打印我们在其中发现的任何运行或形状。
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
 Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
@@ -58,7 +58,7 @@ foreach (Node child in children)
     }
 ```
 
-演示如何查明表是否嵌套。
+显示如何确定表是否嵌套。
 
 ```csharp
 public void CalculateDepthOfNestedTables()
@@ -69,11 +69,11 @@ public void CalculateDepthOfNestedTables()
     {
         Table table = (Table)tables[i];
 
-        // 查明表中的任何单元格是否有其他表作为子项。
+        // 查明表格中是否有单元格具有其他表格作为子表格。
         int count = GetChildTableCount(table);
         Console.WriteLine("Table #{0} has {1} tables directly within its cells", i, count);
 
-        // 查明该表是否嵌套在另一个表内，如果是，嵌套深度是多少。
+        // 查明表是否嵌套在另一个表中，如果是，则嵌套深度是多少。
         int tableDepth = GetNestedDepthOfTable(table);
 
         if (tableDepth > 0)
@@ -88,7 +88,7 @@ public void CalculateDepthOfNestedTables()
 /// 计算一个表嵌套在其他表中的级别。
 /// </summary>
 /// <returns>
-/// 一个整数，表示表的嵌套深度（父表节点数）。
+/// 一个整数，表示表的嵌套深度（父表节点的数量）。
 /// </returns>
 private static int GetNestedDepthOfTable(Table table)
 {
@@ -105,20 +105,20 @@ private static int GetNestedDepthOfTable(Table table)
 }
 
 /// <summary>
-/// 确定表的单元格中是否包含任何直接子表。
-/// 不要递归遍历这些表来检查其他表。
+/// 确定表的单元格内是否包含任何直接子表。
+/// 不要递归遍历这些表来检查进一步的表。
 /// </summary>
 /// <returns>
-/// 如果至少一个子单元格包含表格，则返回 true。
-/// 如果表中没有单元格包含表，则返回 false。
+/// 如果至少有一个子单元格包含表格，则返回 true。
+/// 如果表格中没有单元格包含表格，则返回 false。
 /// </returns>
 private static int GetChildTableCount(Table table)
 {
     int childTableCount = 0;
 
-    foreach (Row row in table.Rows.OfType<Row>())
+    foreach (Row row in table.Rows)
     {
-        foreach (Cell Cell in row.Cells.OfType<Cell>())
+        foreach (Cell Cell in row.Cells)
         {
             TableCollection childTables = Cell.Tables;
 

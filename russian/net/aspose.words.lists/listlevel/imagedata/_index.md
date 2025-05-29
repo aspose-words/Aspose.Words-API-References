@@ -3,7 +3,7 @@ title: ListLevel.ImageData
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words для .NET
-description: ListLevel ImageData свойство. Возвращает данные изображения формы маркера изображения для текущего уровня списка на С#.
+description: Откройте для себя свойство ListLevel ImageData для доступа к данным изображений и их улучшения для фигур маркеров изображений на текущем уровне списка. Улучшите свой дизайн сегодня!
 type: docs
 weight: 40
 url: /ru/net/aspose.words.lists/listlevel/imagedata/
@@ -18,7 +18,7 @@ public ImageData ImageData { get; }
 
 ## Примечания
 
-Если этот уровень не определяет возврат маркеров с картинками`нулевой` . Прежде чем устанавливать новое изображение для формы маркера, отличного от рисунка, используйте[`CreatePictureBullet`](../createpicturebullet/) метод первый.
+Если этот уровень не определяет маркер изображения, возвращается`нулевой` . Перед установкой нового изображения для формы маркера без изображения используйте[`CreatePictureBullet`](../createpicturebullet/) метод первый.
 
 ### Смотрите также
 

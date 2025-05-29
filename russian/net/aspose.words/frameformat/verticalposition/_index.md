@@ -3,14 +3,14 @@ title: FrameFormat.VerticalPosition
 linktitle: VerticalPosition
 articleTitle: VerticalPosition
 second_title: Aspose.Words для .NET
-description: FrameFormat VerticalPosition свойство. Получает расстояние по вертикали между краем кадра и элементом указаннымRelativeVerticalPosition свойство на С#.
+description: Откройте для себя свойство FrameFormat VerticalPosition, которое измеряет вертикальное расстояние от края рамки до указанного элемента, повышая точность макета.
 type: docs
 weight: 110
 url: /ru/net/aspose.words/frameformat/verticalposition/
 ---
 ## FrameFormat.VerticalPosition property
 
-Получает расстояние по вертикали между краем кадра и элементом, указанным[`RelativeVerticalPosition`](../relativeverticalposition/) свойство.
+Получает вертикальное расстояние между краем рамки и элементом, указанным параметром[`RelativeVerticalPosition`](../relativeverticalposition/) свойство.
 
 ```csharp
 public double VerticalPosition { get; }

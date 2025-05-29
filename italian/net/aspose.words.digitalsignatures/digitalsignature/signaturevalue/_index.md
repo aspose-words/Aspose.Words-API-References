@@ -3,14 +3,14 @@ title: DigitalSignature.SignatureValue
 linktitle: SignatureValue
 articleTitle: SignatureValue
 second_title: Aspose.Words per .NET
-description: DigitalSignature SignatureValue proprietà. Ottiene un array di byte che rappresenta un valore di firma in C#.
+description: Scopri la proprietà SignatureValue di DigitalSignature, che fornisce un array di byte per la rappresentazione sicura della firma. Migliora la tua sicurezza digitale oggi stesso!
 type: docs
 weight: 60
 url: /it/net/aspose.words.digitalsignatures/digitalsignature/signaturevalue/
 ---
 ## DigitalSignature.SignatureValue property
 
-Ottiene un array di byte che rappresenta un valore di firma.
+Ottiene un array di byte che rappresentano un valore di firma.
 
 ```csharp
 public byte[] SignatureValue { get; }
@@ -18,7 +18,7 @@ public byte[] SignatureValue { get; }
 
 ## Esempi
 
-Mostra come ottenere un valore di firma digitale da un documento firmato digitalmente.
+Mostra come ottenere il valore di una firma digitale da un documento firmato digitalmente.
 
 ```csharp
 Document doc = new Document(MyDir + "Digitally signed.docx");

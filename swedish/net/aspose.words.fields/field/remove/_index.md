@@ -3,14 +3,14 @@ title: Field.Remove
 linktitle: Remove
 articleTitle: Remove
 second_title: Aspose.Words för .NET
-description: Field Remove metod. Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod returnerar dess överordnade stycke. Om fältet redan är borttaget returnerasnull  i C#.
+description: Ta enkelt bort fält från dokument med metoden Field Remove. Få exakta nodreturer och hantera tomma fält sömlöst. Optimera ditt arbetsflöde!
 type: docs
 weight: 120
 url: /sv/net/aspose.words.fields/field/remove/
 ---
 ## Field.Remove method
 
-Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista child av dess överordnade nod, returnerar dess överordnade stycke. Om fältet redan är borttaget, returneras`null` .
+Tar bort fältet från dokumentet. Returnerar en nod direkt efter fältet. Om fältets slut är den sista undernoden till dess överordnade nod, returneras dess överordnade stycke. Om fältet redan är borttaget returneras`null` .
 
 ```csharp
 public Node Remove()
@@ -36,12 +36,12 @@ FieldCollection fields = doc.Range.Fields;
 
 Assert.AreEqual(6, fields.Count);
 
-// Nedan finns fyra sätt att ta bort fält från en fältsamling.
-// 1 - Få ett fält för att ta bort sig själv:
+// Nedan följer fyra sätt att ta bort fält från en fältsamling.
+// 1 - Få ett fält att ta bort sig självt:
 fields[0].Remove();
 Assert.AreEqual(5, fields.Count);
 
-// 2 - Få samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
+// 2 - Hämta samlingen för att ta bort ett fält som vi skickar till dess borttagningsmetod:
 Field lastField = fields[3];
 fields.Remove(lastField);
 Assert.AreEqual(4, fields.Count);
@@ -64,8 +64,8 @@ public void FieldPrivate()
     Document doc = new Document(MyDir + "Field sample - PRIVATE.docx");
 
     // WordPerfect 5.x/6.x-dokument som det vi har laddat kan innehålla PRIVATA fält.
-    // Microsoft Word bevarar PRIVATA fält under laddnings-/sparaoperationer,
-    // men ger dem ingen funktionalitet.
+    // Microsoft Word bevarar PRIVATA fält under laddning/spara,
+    // men tillhandahåller ingen funktionalitet för dem.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
     Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
@@ -77,7 +77,7 @@ public void FieldPrivate()
 
     // Dessa fält är inte ett gångbart sätt att skydda känslig information.
     // Om inte bakåtkompatibilitet med äldre versioner av WordPerfect är avgörande,
-    // vi kan säkert ta bort dessa fält. Vi kan göra detta med hjälp av en DocumentVisiitor-implementering.
+    // vi kan säkert ta bort dessa fält. Vi kan göra detta med hjälp av en DocumentVisitor-implementering.
     Assert.AreEqual(2, doc.Range.Fields.Count);
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
@@ -104,7 +104,7 @@ public class FieldPrivateRemover : DocumentVisitor
 
     /// <summary>
     /// Anropas när en FieldEnd-nod påträffas i dokumentet.
-    /// Om noden tillhör ett PRIVAT fält tas hela fältet bort.
+    /// Om noden tillhör ett PRIVAT-fält tas hela fältet bort.
     /// </summary>
     public override VisitorAction VisitFieldEnd(FieldEnd fieldEnd)
     {

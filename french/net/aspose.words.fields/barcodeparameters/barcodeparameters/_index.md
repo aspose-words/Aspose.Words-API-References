@@ -3,7 +3,7 @@ title: BarcodeParameters
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.Words pour .NET
-description: BarcodeParameters constructeur. Default_Constructor en C#.
+description: Découvrez le constructeur BarcodeParameters pour une intégration fluide. Gérez efficacement vos codes-barres grâce à notre constructeur par défaut facile à utiliser.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/barcodeparameters/barcodeparameters/

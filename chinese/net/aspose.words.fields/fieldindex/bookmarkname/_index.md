@@ -2,15 +2,15 @@
 title: FieldIndex.BookmarkName
 linktitle: BookmarkName
 articleTitle: BookmarkName
-second_title: 用于 .NET 的 Aspose.Words
-description: FieldIndex BookmarkName 财产. 获取或设置书签的名称该书签标记用于构建索引的文档部分 在 C#.
+second_title: Aspose.Words for .NET
+description: 探索 FieldIndex BookmarkName 属性，轻松管理书签，增强文档索引功能。无缝导航，提升效率！
 type: docs
 weight: 20
 url: /zh/net/aspose.words.fields/fieldindex/bookmarkname/
 ---
 ## FieldIndex.BookmarkName property
 
-获取或设置书签的名称，该书签标记用于构建索引的文档部分。
+获取或设置标记用于构建索引的文档部分的书签的名称。
 
 ```csharp
 public string BookmarkName { get; set; }
@@ -18,20 +18,20 @@ public string BookmarkName { get; set; }
 
 ## 例子
 
-演示如何创建 INDEX 字段，然后使用 XE 字段用条目填充该字段。
+展示如何创建 INDEX 字段，然后使用 XE 字段填充条目。
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // 创建一个 INDEX 字段，它将显示文档中找到的每个 XE 字段的条目。
-// 每个条目都会在左侧显示XE字段的Text属性值
+// 每个条目将在左侧显示 XE 字段的 Text 属性值
 // 以及右侧包含 XE 字段的页面。
 // 如果 XE 字段的“Text”属性具有相同的值，
 // INDEX 字段会将它们分组为一个条目。
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// 配置 INDEX 字段仅显示范围内的 XE 字段
+// 配置 INDEX 字段仅显示边界内的 XE 字段
 // 名为“MainBookmark”的书签，其“EntryType”属性的值为“A”。
 // 对于 INDEX 和 XE 字段，“EntryType”属性仅使用其字符串值的第一个字符。
 index.BookmarkName = "MainBookmark";
@@ -39,13 +39,13 @@ index.EntryType = "A";
 
 Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
 
-// 在新页面上，以与值匹配的名称开始书签
+// 在新页面上，使用与值匹配的名称开始书签
 // INDEX 字段的“BookmarkName”属性。
 builder.InsertBreak(BreakType.PageBreak);
 builder.StartBookmark("MainBookmark");
 
-// INDEX 字段将拾取此条目，因为它位于书签内，
-// 并且它的条目类型也与 INDEX 字段的条目类型匹配。
+// INDEX 字段将选取此条目，因为它位于书签内，
+// 并且其条目类型也与 INDEX 字段的条目类型匹配。
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
@@ -58,7 +58,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Index entry 2";
 indexEntry.EntryType = "B";
 
-// 结束书签并随后插入 XE 字段。
+// 结束书签并在之后插入 XE 字段。
 // 与INDEX字段类型相同，但不会出现
 // 因为它超出了书签的边界。
 builder.EndBookmark("MainBookmark");

@@ -3,14 +3,14 @@ title: CellFormat.BottomPadding
 linktitle: BottomPadding
 articleTitle: BottomPadding
 second_title: Aspose.Words för .NET
-description: CellFormat BottomPadding fast egendom. Returnerar eller ställer in mängden utrymme i poäng som ska läggas till under innehållet i cellen i C#.
+description: Upptäck egenskapen CellFormat BottomPadding för att anpassa avståndet i dina celler. Förbättra dina layouter med exakta punktjusteringar för bättre presentation.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.tables/cellformat/bottompadding/
 ---
 ## CellFormat.BottomPadding property
 
-Returnerar eller ställer in mängden utrymme (i poäng) som ska läggas till under innehållet i cellen.
+Returnerar eller anger mängden mellanslag (i punkter) som ska läggas till under cellens innehåll.
 
 ```csharp
 public double BottomPadding { get; set; }
@@ -29,7 +29,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 1.");
 
 // Infoga en andra cell och konfigurera sedan utfyllnadsalternativ för celltext.
-// Byggaren kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
+// Skaparen kommer att tillämpa dessa inställningar på sin nuvarande cell, och alla nya celler skapas efteråt.
 builder.InsertCell();
 
 CellFormat cellFormat = builder.CellFormat;
@@ -43,7 +43,7 @@ builder.Write("Row 1, cell 2.");
 builder.EndRow();
 builder.EndTable();
 
-// Den första cellen påverkades inte av utfyllnadsomställningen och har fortfarande standardvärdena.
+// Den första cellen påverkades inte av omkonfigureringen av utfyllnaden och innehåller fortfarande standardvärdena.
 Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
 Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
@@ -56,7 +56,7 @@ Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
 Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
 
-// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess närliggande cell.
+// Den första cellen kommer fortfarande att växa i utdatadokumentet för att matcha storleken på dess angränsande cell.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");
 ```
 

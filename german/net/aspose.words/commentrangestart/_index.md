@@ -3,14 +3,14 @@ title: CommentRangeStart Class
 linktitle: CommentRangeStart
 articleTitle: CommentRangeStart
 second_title: Aspose.Words für .NET
-description: Aspose.Words.CommentRangeStart klas. Bezeichnet den Anfang eines Textbereichs dem ein Kommentar zugeordnet ist in C#.
+description: Entdecken Sie die Klasse Aspose.Words.CommentRangeStart, die mit Kommentaren verknüpfte Textbereiche markiert, um die Dokumentenverwaltung und Bearbeitungseffizienz zu verbessern.
 type: docs
-weight: 260
+weight: 450
 url: /de/net/aspose.words/commentrangestart/
 ---
 ## CommentRangeStart class
 
-Bezeichnet den Anfang eines Textbereichs, dem ein Kommentar zugeordnet ist.
+Kennzeichnet den Beginn eines Textbereichs, dem ein Kommentar zugeordnet ist.
 
 Um mehr zu erfahren, besuchen Sie die[Arbeiten mit Kommentaren](https://docs.aspose.com/words/net/working-with-comments/) Dokumentationsartikel.
 
@@ -30,38 +30,38 @@ public sealed class CommentRangeStart : Node
 | --- | --- |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Gibt die benutzerdefinierte Knotenkennung an. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Ruft das Dokument ab, zu dem dieser Knoten gehört. |
-| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Gibt die Kennung des Kommentars an, mit dem diese Region verknüpft ist. |
-| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Gibt zurück`WAHR` ob dieser Knoten andere Knoten enthalten kann. |
+| [Id](../../aspose.words/commentrangestart/id/) { get; set; } | Gibt die Kennung des Kommentars an, mit dem dieser Bereich verknüpft ist. |
+| virtual [IsComposite](../../aspose.words/node/iscomposite/) { get; } | Rückgaben`WAHR` wenn dieser Knoten andere Knoten enthalten kann. |
 | [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar folgt. |
-| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | Gibt zurückCommentRangeStart . |
-| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft das unmittelbare übergeordnete Element dieses Knotens ab. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorangeht. |
-| [Range](../../aspose.words/node/range/) { get; } | Gibt a zurück[`Range`](../range/) Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
+| override [NodeType](../../aspose.words/commentrangestart/nodetype/) { get; } | RückgabenCommentRangeStart . |
+| [ParentNode](../../aspose.words/node/parentnode/) { get; } | Ruft den unmittelbar übergeordneten Knoten dieses Knotens ab. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Ruft den Knoten ab, der diesem Knoten unmittelbar vorausgeht. |
+| [Range](../../aspose.words/node/range/) { get; } | Gibt einen[`Range`](../range/)Objekt, das den Teil eines Dokuments darstellt, der in diesem Knoten enthalten ist. |
 
 ## Methoden
 
 | Name | Beschreibung |
 | --- | --- |
-| override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Akzeptiert einen Besucher. |
+| override [Accept](../../aspose.words/commentrangestart/accept/)(*[DocumentVisitor](../documentvisitor/)*) | Nimmt einen Besucher auf. |
 | [Clone](../../aspose.words/node/clone/)(*bool*) | Erstellt ein Duplikat des Knotens. |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen ab[`NodeType`](../nodetype/) . |
-| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorfahren des angegebenen Objekttyps ab. |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../nodetype/)*) | Ruft den ersten Vorfahren des angegebenen[`NodeType`](../nodetype/) . |
+| [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Ruft den ersten Vorgänger des angegebenen Objekttyps ab. |
 | virtual [GetText](../../aspose.words/node/gettext/)() | Ruft den Text dieses Knotens und aller seiner untergeordneten Knoten ab. |
 | [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../node/)*) | Ruft den nächsten Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../node/)*) | Ruft den vorherigen Knoten gemäß dem Pre-Order-Tree-Traversal-Algorithmus ab. |
 | [Remove](../../aspose.words/node/remove/)() | Entfernt sich selbst vom übergeordneten Element. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in einen String im angegebenen Format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens mit den angegebenen Speicheroptionen in einen String. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../saveformat/)*) | Exportiert den Inhalt des Knotens in eine Zeichenfolge im angegebenen Format. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exportiert den Inhalt des Knotens unter Verwendung der angegebenen Speicheroptionen in eine Zeichenfolge. |
 
 ## Bemerkungen
 
-Um einen Kommentar zu erstellen, der in einem Textbereich verankert ist, müssen Sie einen erstellen[`Comment`](../comment/) and dann erstellen`CommentRangeStart` Und[`CommentRangeEnd`](../commentrangeend/)und setzen Sie ihre Bezeichner auf den gleichen Wert[`Id`](../comment/id/) Wert.
+Um einen Kommentar zu erstellen, der an einem Textbereich verankert ist, müssen Sie einen[`Comment`](../comment/) und dann erstellen`CommentRangeStart` Und[`CommentRangeEnd`](../commentrangeend/) und setzen Sie ihre Kennungen auf den gleichen[`Id`](../comment/id/) Wert.
 
-`CommentRangeStart` ist ein Knoten auf Inline-Ebene und kann nur ein untergeordnetes Element von sein[`Paragraph`](../paragraph/).
+`CommentRangeStart` ist ein Inline-Level-Knoten und kann nur ein Kind von[`Paragraph`](../paragraph/).
 
 ## Beispiele
 
-Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbesuchers gedruckt wird.
+Zeigt, wie der Inhalt aller Kommentare und deren Kommentarbereiche mithilfe eines Dokumentbetrachters gedruckt werden.
 
 ```csharp
 public void CreateCommentsAndPrintAllInfo()
@@ -84,7 +84,7 @@ public void CreateCommentsAndPrintAllInfo()
     para.AppendChild(new CommentRangeEnd(doc, newComment.Id));
     para.AppendChild(newComment); 
 
-    // Zwei Antworten zum Kommentar hinzufügen.
+    // Fügen Sie dem Kommentar zwei Antworten hinzu.
     newComment.AddReply("John Doe", "JD", DateTime.Now, "New reply.");
     newComment.AddReply("John Doe", "JD", DateTime.Now, "Another reply.");
 
@@ -92,26 +92,30 @@ public void CreateCommentsAndPrintAllInfo()
 }
 
 /// <summary>
-/// Durchläuft jeden Kommentar der obersten Ebene und gibt dessen Kommentarbereich, Inhalte und Antworten aus.
+/// Durchläuft jeden Kommentar der obersten Ebene und druckt seinen Kommentarbereich, Inhalt und seine Antworten.
 /// </summary>
 private static void PrintAllCommentInfo(NodeCollection comments)
 {
     CommentInfoPrinter commentVisitor = new CommentInfoPrinter();
 
-    // Alle Kommentare der obersten Ebene durchlaufen. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorfahren.
-    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null))
+    // Durchlaufe alle Kommentare der obersten Ebene. Im Gegensatz zu Kommentaren vom Typ „Antwort“ haben Kommentare der obersten Ebene keinen Vorgänger.
+    foreach (Comment comment in comments.Where(c => ((Comment)c).Ancestor == null).ToList())
     {
-        // Besuchen Sie zunächst den Anfang des Kommentarbereichs.
+        // Besuchen Sie zuerst den Anfang des Kommentarbereichs.
         CommentRangeStart commentRangeStart = (CommentRangeStart)comment.PreviousSibling.PreviousSibling.PreviousSibling;
         commentRangeStart.Accept(commentVisitor);
 
-        // Dann besuchen Sie den Kommentar und eventuelle Antworten.
+        // Sehen Sie sich dann den Kommentar und alle Antworten an, die er möglicherweise enthält.
         comment.Accept(commentVisitor);
+        // Besuchen Sie nur den Anfang des Kommentars.
+        comment.AcceptStart(commentVisitor);
+        // Besuchen Sie nur das Ende des Kommentars.
+        comment.AcceptEnd(commentVisitor);
 
         foreach (Comment reply in comment.Replies)
             reply.Accept(commentVisitor);
 
-        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers aus.
+        // Besuchen Sie abschließend das Ende des Kommentarbereichs und drucken Sie dann den Textinhalt des Besuchers.
         CommentRangeEnd commentRangeEnd = (CommentRangeEnd)comment.PreviousSibling;
         commentRangeEnd.Accept(commentVisitor);
 
@@ -186,7 +190,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet wird.
+    /// Wird aufgerufen, wenn der Besuch eines Kommentarknotens im Dokument beendet ist.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -198,7 +202,7 @@ public class CommentInfoPrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Hängen Sie eine Zeile an den StringBuilder an und rücken Sie sie ein, je nachdem, wie tief sich der Besucher im Dokumentbaum befindet.
+    /// Fügen Sie dem StringBuilder eine Zeile hinzu und rücken Sie sie ein, je nachdem, wie tief der Besucher im Dokumentbaum ist.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

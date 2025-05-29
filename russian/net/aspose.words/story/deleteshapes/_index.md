@@ -3,7 +3,7 @@ title: Story.DeleteShapes
 linktitle: DeleteShapes
 articleTitle: DeleteShapes
 second_title: Aspose.Words для .NET
-description: Story DeleteShapes метод. Удаляет все фигуры из текста этой истории на С#.
+description: Без усилий удалите все фигуры из текста вашей истории с помощью метода DeleteShapes. Упростите свой контент и повысьте ясность уже сегодня!
 type: docs
 weight: 70
 url: /ru/net/aspose.words/story/deleteshapes/

@@ -2,15 +2,15 @@
 title: ImageSaveOptions.ThresholdForFloydSteinbergDithering
 linktitle: ThresholdForFloydSteinbergDithering
 articleTitle: ThresholdForFloydSteinbergDithering
-second_title: 用于 .NET 的 Aspose.Words
-description: ImageSaveOptions ThresholdForFloydSteinbergDithering 财产. 获取或设置阈值该阈值确定 FloydSteinberg 方法中二值化误差的值  当ImageBinarizationMethod是FloydSteinbergDithering 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 Floyd-Steinberg 抖动算法的 ImageSaveOptions Threshold 来优化您的图像。控制二值化误差，获得更佳的图像处理效果。
 type: docs
 weight: 160
 url: /zh/net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property
 
-获取或设置阈值，该阈值确定 Floyd-Steinberg 方法中二值化误差的值 。 当[`ImageBinarizationMethod`](../../imagebinarizationmethod/)是FloydSteinbergDithering.
+获取或设置确定 Floyd-Steinberg 方法中的二值化误差值的阈值。 当[`ImageBinarizationMethod`](../../imagebinarizationmethod/)是FloydSteinbergDithering.
 
 ```csharp
 public byte ThresholdForFloydSteinbergDithering { get; set; }
@@ -22,7 +22,7 @@ public byte ThresholdForFloydSteinbergDithering { get; set; }
 
 ## 例子
 
-演示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
+展示如何在使用 Floyd-Steinberg 方法渲染 TIFF 图像时设置 TIFF 二值化错误阈值。
 
 ```csharp
 Document doc = new Document();
@@ -34,8 +34,8 @@ builder.InsertImage(ImageDir + "Logo.jpg");
 
 // 当我们将文档保存为 TIFF 时，我们可以将 SaveOptions 对象传递给
 // 调整 Aspose.Words 在渲染此图像时将应用的抖动。
-// “ThresholdForFloydSteinbergDithering”属性的默认值为 128。
-// 较高的值往往会产生较暗的图像。
+// “ThresholdForFloydSteinbergDithering”属性的默认值为128。
+// 值越高，图像就越暗。
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)
 {
     TiffCompression = TiffCompression.Ccitt3,

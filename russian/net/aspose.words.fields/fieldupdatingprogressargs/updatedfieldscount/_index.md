@@ -3,7 +3,7 @@ title: FieldUpdatingProgressArgs.UpdatedFieldsCount
 linktitle: UpdatedFieldsCount
 articleTitle: UpdatedFieldsCount
 second_title: Aspose.Words для .NET
-description: FieldUpdatingProgressArgs UpdatedFieldsCount свойство. Получает количество обновленных полей на С#.
+description: Откройте для себя свойство UpdatedFieldsCount объекта FieldUpdatingProgressArgs, чтобы легко отслеживать количество обновленных полей в вашем приложении.
 type: docs
 weight: 30
 url: /ru/net/aspose.words.fields/fieldupdatingprogressargs/updatedfieldscount/
@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 }
 
 /// <summary>
-/// Реализуйте этот интерфейс, если вы хотите, чтобы во время обновления поля вызывались ваши собственные методы.
+/// Реализуйте этот интерфейс, если вы хотите, чтобы ваши собственные методы вызывались во время обновления поля.
 /// </summary>
 public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgressCallback
 {
@@ -52,7 +52,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается непосредственно перед обновлением поля.
+    /// Пользовательский метод, который вызывается непосредственно перед обновлением поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdating(Field field)
     {
@@ -64,7 +64,7 @@ public class FieldUpdatingCallback : IFieldUpdatingCallback, IFieldUpdatingProgr
     }
 
     /// <summary>
-    /// Определенный пользователем метод, который вызывается сразу после обновления поля.
+    /// Пользовательский метод, который вызывается сразу после обновления поля.
     /// </summary>
     void IFieldUpdatingCallback.FieldUpdated(Field field)
     {

@@ -3,14 +3,14 @@ title: ImageSaveOptions.TiffBinarizationMethod
 linktitle: TiffBinarizationMethod
 articleTitle: TiffBinarizationMethod
 second_title: Aspose.Words för .NET
-description: ImageSaveOptions TiffBinarizationMethod fast egendom. Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format närSaveFormat ärTiff och TiffCompression är lika medCcitt3 ellerCcitt4  i C#.
+description: Upptäck egenskapen TiffBinarizationMethod för ImageSaveOptions. Konvertera enkelt bilder till 1 bpp-format med Ccitt3- eller Ccitt4-komprimering.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
 
-Hämtar eller ställer in metod som används vid konvertering av bilder till 1 bpp format när[`SaveFormat`](../saveformat/) ärTiff och [`TiffCompression`](../tiffcompression/) är lika medCcitt3 ellerCcitt4 .
+Hämtar eller ställer in metoden som används vid konvertering av bilder till 1 bpp-format när[`SaveFormat`](../saveformat/) ärTiff och [`TiffCompression`](../tiffcompression/) är lika medCcitt3 ellerCcitt4 .
 
 ```csharp
 public ImageBinarizationMethod TiffBinarizationMethod { get; set; }
@@ -22,7 +22,7 @@ Standardvärdet ärThreshold.
 
 ## Exempel
 
-Visar hur man ställer in TIFF-binariseringsfeltröskeln när man använder Floyd-Steinberg-metoden för att rendera en TIFF-bild.
+Visar hur man ställer in tröskelvärdet för TIFF-binariseringsfel när Floyd-Steinberg-metoden används för att rendera en TIFF-bild.
 
 ```csharp
 Document doc = new Document();
@@ -33,7 +33,7 @@ builder.Writeln("Hello world!");
 builder.InsertImage(ImageDir + "Logo.jpg");
 
 // När vi sparar dokumentet som en TIFF kan vi skicka ett SaveOptions-objekt till
-// justera vibreringen som Aspose.Words kommer att tillämpa när den här bilden renderas.
+// justera ditheringen som Aspose.Words kommer att tillämpa när bilden renderas.
 // Standardvärdet för egenskapen "ThresholdForFloydSteinbergDithering" är 128.
 // Högre värden tenderar att ge mörkare bilder.
 ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Tiff)

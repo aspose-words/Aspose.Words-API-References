@@ -2,15 +2,15 @@
 title: Stroke.Opacity
 linktitle: Opacity
 articleTitle: Opacity
-second_title: Aspose.Words for .NET
-description: Stroke Opacity mülk. Konturun şeffaflık miktarını tanımlar. Geçerli aralık 0 ila 1. arasındadır C#'da.
+second_title: .NET için Aspose.Words
+description: Stroke Opacity özelliğini keşfedin, tasarımlarınızda çarpıcı görsel efektler için stroke şeffaflığını 0 ile 1 arasında kontrol edin. Bugün yaratıcılığınızı artırın!
 type: docs
-weight: 150
+weight: 200
 url: /tr/net/aspose.words.drawing/stroke/opacity/
 ---
 ## Stroke.Opacity property
 
-Konturun şeffaflık miktarını tanımlar. Geçerli aralık 0 ila 1. arasındadır
+Bir vuruşun şeffaflık miktarını tanımlar. Geçerli aralık 0 ile 1 arasındadır.
 
 ```csharp
 public double Opacity { get; set; }
@@ -22,15 +22,15 @@ Varsayılan değer 1'dir.
 
 ## Örnekler
 
-Çeşitli şekiller oluşturmayı gösterir.
+Çeşitli şekiller yaratmayı gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Aşağıda belgelerimize ekleyebileceğimiz dört şekil örneği verilmiştir.
-// 1 - Noktalı, yatay, yarı şeffaf kırmızı çizgi
-// sol uçta bir ok ve sağ uçta bir baklava işaretiyle:
+// Aşağıda belgelerimize ekleyebileceğimiz şekillerin dört örneği bulunmaktadır.
+// 1 - Noktalı, yatay, yarı saydam kırmızı çizgi
+// sol ucunda bir ok ve sağ ucunda bir elmas bulunan:
 Shape arrow = new Shape(doc, ShapeType.Line);
 arrow.Width = 200;
 arrow.Stroke.Color = Color.Red;
@@ -47,7 +47,7 @@ Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
 
 builder.InsertNode(arrow);
 
-// 2 - Yuvarlak uçlu kalın siyah çapraz çizgi:
+// 2 - Uçları yuvarlatılmış kalın siyah çapraz çizgi:
 Shape line = new Shape(doc, ShapeType.Line);
 line.Top = 40;
 line.Width = 200;
@@ -67,7 +67,7 @@ filledInArrow.Fill.Visible = true;
 
 builder.InsertNode(filledInArrow);
 
-// 4 - Aspose logosuyla dolu ters çevrilmiş yönlendirmeli ok:
+// 4 - Aspose logosuyla doldurulmuş, ters yöne bakan ok:
 Shape filledInArrowImg = new Shape(doc, ShapeType.Arrow);
 filledInArrowImg.Width = 200;
 filledInArrowImg.Height = 40;
@@ -79,8 +79,8 @@ byte[] imageBytes = File.ReadAllBytes(ImageDir + "Logo.jpg");
 using (MemoryStream stream = new MemoryStream(imageBytes))
 {
     Image image = Image.FromStream(stream);
-    // Okumuzun yönünü çevirdiğimizde okun içerdiği görüntüyü de çevirmiş oluyoruz.
-    // Gösterilecek şekli almadan önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
+    // Okumuzun yönünü çevirdiğimizde, okun içerdiği görüntüyü de çevirmiş oluyoruz.
+    // Şekli görüntülemeden önce bunu iptal etmek için görüntüyü diğer yöne çevirin.
     image.RotateFlip(RotateFlipType.RotateNoneFlipXY);
 
     filledInArrowImg.ImageData.SetImage(image);

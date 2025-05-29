@@ -2,8 +2,8 @@
 title: FileFontSource.Type
 linktitle: Type
 articleTitle: Type
-second_title: Aspose.Words for .NET
-description: FileFontSource Type mülk. Yazı tipi kaynağının türünü döndürür C#'da.
+second_title: .NET için Aspose.Words
+description: Yazı tipi kaynak türlerini kolayca belirlemek ve tasarım projelerinizi hassas tipografi çözümleriyle geliştirmek için FileFontSource Type özelliğini keşfedin.
 type: docs
 weight: 40
 url: /tr/net/aspose.words.fonts/filefontsource/type/

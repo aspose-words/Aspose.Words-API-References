@@ -3,7 +3,7 @@ title: TextBox.InternalMarginLeft
 linktitle: InternalMarginLeft
 articleTitle: InternalMarginLeft
 second_title: Aspose.Words per .NET
-description: TextBox InternalMarginLeft proprietà. Specifica il margine interno sinistro in punti per una forma in C#.
+description: Scopri la proprietà TextBox InternalMarginLeft per personalizzare il margine interno sinistro della tua forma in punti, per una maggiore flessibilità di progettazione.
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/textbox/internalmarginleft/
@@ -28,7 +28,7 @@ Mostra come impostare i margini interni per una casella di testo.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Inserisci un'altra casella di testo con margini specifici.
+// Inserisce un'altra casella di testo con margini specifici.
 Shape textBoxShape = builder.InsertShape(ShapeType.TextBox, 100, 100);
 TextBox textBox = textBoxShape.TextBox;
 textBox.InternalMarginTop = 15;

@@ -3,14 +3,14 @@ title: GradientStopCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words لـ .NET
-description: GradientStopCollection GetEnumerator طريقة. يُرجع عدادًا يتكرر خلال المجموعة في C#.
+description: اكتشف طريقة GradientStopCollection GetEnumerator للتنقل بسهولة عبر توقفات التدرج لديك، مما يعزز تصميم واجهة المستخدم لديك من خلال انتقالات سلسة.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.drawing/gradientstopcollection/getenumerator/
 ---
 ## GradientStopCollection.GetEnumerator method
 
-يُرجع عدادًا يتكرر خلال المجموعة.
+يعيد مُعَدِّدًا يتكرر خلال المجموعة.
 
 ```csharp
 public IEnumerator<GradientStop> GetEnumerator()

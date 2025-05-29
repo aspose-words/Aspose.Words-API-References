@@ -2,15 +2,15 @@
 title: FieldIndex.UseYomi
 linktitle: UseYomi
 articleTitle: UseYomi
-second_title: Aspose.Words for .NET
-description: FieldIndex UseYomi mülk. Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: FieldIndex UseYomi özelliğiyle dizinlemenizi geliştirin. Gelişmiş arama görünürlüğü ve daha iyi kullanıcı deneyimi için yomi metnini kolayca etkinleştirin.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.fields/fieldindex/useyomi/
 ---
 ## FieldIndex.UseYomi property
 
-Dizin girişleri için yomi metni kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar.
+Dizin girişleri için yomi metninin kullanımının etkinleştirilip etkinleştirilmeyeceğini alır veya ayarlar.
 
 ```csharp
 public bool UseYomi { get; set; }
@@ -18,21 +18,21 @@ public bool UseYomi { get; set; }
 
 ## Örnekler
 
-INDEX alanı girişlerinin fonetik olarak nasıl sıralanacağını gösterir.
+INDEX alan girişlerinin fonetik olarak nasıl sıralanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Belgede bulunan her XE alanı için bir giriş görüntüleyecek bir INDEX alanı oluşturun.
-// Her girişte XE alanının Text özelliği değeri sol tarafta görüntülenecektir,
-// ve sağdaki XE alanını içeren sayfanın numarası.
-// INDEX girişi "Text" özelliğinde eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
-// her XE alanı için bir giriş yapmak yerine tek bir girişe.
+// Belgede bulunan her XE alanı için bir girdi görüntüleyecek bir INDEX alanı oluşturun.
+// Her giriş, sol tarafta XE alanının Metin özelliği değerini görüntüler,
+// ve sağ tarafta XE alanını içeren sayfanın numarası.
+// INDEX girişi, "Metin" özelliğindeki eşleşen değerlere sahip tüm XE alanlarını toplayacaktır
+// her XE alanı için bir giriş yapmak yerine, tek bir girişe.
 FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 
-// INDEX tablosu, girişlerini Metin özelliklerinin değerlerine göre alfabetik sıraya göre otomatik olarak sıralar.
-// INDEX tablosunu, bunun yerine Hiragana'yı kullanarak girişleri fonetik olarak sıralayacak şekilde ayarlayın.
+// INDEX tablosu, girdilerini otomatik olarak Metin özelliklerinin değerlerine göre alfabetik sıraya göre sıralar.
+// INDEX tablosunu Hiragana kullanarak girdileri fonetik olarak sıralayacak şekilde ayarlayın.
 index.UseYomi = sortEntriesUsingYomi;
 
 if (sortEntriesUsingYomi)
@@ -40,11 +40,11 @@ if (sortEntriesUsingYomi)
 else
     Assert.AreEqual(" INDEX ", index.GetFieldCode());
 
-// INDEX alanının içindekiler tablosunda giriş olarak görünecek 4 XE alanı ekleyin.
-// "Text" özelliği, telaffuzu belirsiz olabilecek bir kelimenin Kanji dilinde yazılışını içerebilir,
-// kelimenin "Yomi" versiyonu Hiragana kullanıldığında tam olarak nasıl telaffuz edildiğini yazacaktır.
-// INDEX alanımızı Yomi kullanacak şekilde ayarlarsak bu girdileri sıralayacaktır
-// Metin değerleri yerine Yomi özelliklerinin değerine göre.
+// INDEX alanının içerik tablosunda giriş olarak gösterilecek 4 XE alanı ekleyin.
+// "Metin" özelliği, telaffuzu belirsiz olabilen bir kelimenin Kanji dilindeki yazımını içerebilir.
+// "Yomi" versiyonu ise kelimenin Hiragana kullanılarak telaffuz edildiği gibi yazılacak.
+// INDEX alanımızı Yomi kullanacak şekilde ayarlarsak, bu girdileri sıralayacaktır
+// Metin değerleri yerine Yomi özelliklerinin değeriyle.
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "愛子";

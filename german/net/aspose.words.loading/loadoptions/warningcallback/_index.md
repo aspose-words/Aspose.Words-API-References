@@ -3,14 +3,14 @@ title: LoadOptions.WarningCallback
 linktitle: WarningCallback
 articleTitle: WarningCallback
 second_title: Aspose.Words für .NET
-description: LoadOptions WarningCallback eigendom. Wird während eines Ladevorgangs aufgerufen wenn ein Problem erkannt wird das zu einem Verlust der Daten oder Formatierungstreue führen könnte in C#.
+description: Entdecken Sie die LoadOptions WarningCallback-Eigenschaft, die Sie während Ladevorgängen warnt, um Datenverlust zu verhindern und die Formatierungsintegrität sicherzustellen.
 type: docs
-weight: 170
+weight: 180
 url: /de/net/aspose.words.loading/loadoptions/warningcallback/
 ---
 ## LoadOptions.WarningCallback property
 
-Wird während eines Ladevorgangs aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Daten- oder Formatierungstreue führen könnte.
+Wird während eines Ladevorgangs aufgerufen, wenn ein Problem erkannt wird, das zu einem Verlust der Daten- oder Formatierungsgenauigkeit führen kann.
 
 ```csharp
 public IWarningCallback WarningCallback { get; set; }
@@ -18,17 +18,17 @@ public IWarningCallback WarningCallback { get; set; }
 
 ## Beispiele
 
-Zeigt, wie Warnungen gedruckt und gespeichert werden, die beim Laden von Dokumenten auftreten.
+Zeigt, wie Warnungen, die beim Laden von Dokumenten auftreten, gedruckt und gespeichert werden.
 
 ```csharp
 public void LoadOptionsWarningCallback()
 {
-    // Ein neues LoadOptions-Objekt erstellen und sein WarningCallback-Attribut festlegen
+    // Erstellen Sie ein neues LoadOptions-Objekt und legen Sie sein WarningCallback-Attribut fest
     // als Instanz unserer IWarningCallback-Implementierung.
     LoadOptions loadOptions = new LoadOptions();
     loadOptions.WarningCallback = new DocumentLoadingWarningCallback();
 
-    // Unser Rückruf gibt alle Warnungen aus, die während des Ladevorgangs auftreten.
+    // Unser Rückruf druckt alle Warnungen aus, die während des Ladevorgangs auftreten.
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
@@ -36,7 +36,7 @@ public void LoadOptionsWarningCallback()
 }
 
 /// <summary>
-/// IWarningCallback, der Warnungen und deren Details ausgibt, sobald sie beim Laden des Dokuments auftreten.
+/// IWarningCallback, das Warnungen und ihre Details druckt, wenn sie beim Laden des Dokuments auftreten.
 /// </summary>
 private class DocumentLoadingWarningCallback : IWarningCallback
 {

@@ -3,7 +3,7 @@ title: FieldAddressBlock.NameAndAddressFormat
 linktitle: NameAndAddressFormat
 articleTitle: NameAndAddressFormat
 second_title: Aspose.Words для .NET
-description: FieldAddressBlock NameAndAddressFormat свойство. Получает или задает формат имени и адреса на С#.
+description: Откройте для себя свойство NameAndAddressFormat объекта FieldAddressBlock, чтобы легко настраивать форматы имени и адреса для улучшенного управления данными.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.fields/fieldaddressblock/nameandaddressformat/
@@ -28,15 +28,15 @@ FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.Field
 
 Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
 
-// Установка значения «2» будет включать все страны и регионы,
-// если только оно не указано в свойстве ExcludedCountryOrRegionName.
+// Если установить значение "2", будут включены все страны и регионы,
+// если только это не тот, который указан в свойстве ExcludedCountryOrRegionName.
 field.IncludeCountryOrRegionName = "2";
 field.FormatAddressOnCountryOrRegion = true;
 field.ExcludedCountryOrRegionName = "United States";
 field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>";
 
 // По умолчанию это свойство будет содержать идентификатор языка первого символа документа.
-// Мы можем установить другую культуру для поля, чтобы отформатировать результат следующим образом.
+// Мы можем задать другую культуру для поля, чтобы отформатировать результат следующим образом.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
 Assert.AreEqual(

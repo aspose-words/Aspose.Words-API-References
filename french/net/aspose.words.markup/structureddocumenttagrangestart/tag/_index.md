@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Tag
 linktitle: Tag
 articleTitle: Tag
 second_title: Aspose.Words pour .NET
-description: StructuredDocumentTagRangeStart Tag propriété. Spécifie une balise associée au nœud de balise de document structuré actuel. Ne peut pas êtrenul  en C#.
+description: Découvrez la propriété StructuredDocumentTagRangeStart pour un balisage optimisé des documents. Associez facilement des balises à des nœuds pour optimiser votre flux de travail !
 type: docs
 weight: 150
 url: /fr/net/aspose.words.markup/structureddocumenttagrangestart/tag/
@@ -18,11 +18,11 @@ public string Tag { get; set; }
 
 ## Remarques
 
-Une balise est une chaîne arbitraire que les applications peuvent associer à la balise document structurée afin de l'identifier sans fournir de nom convivial visible.
+Une balise est une chaîne arbitraire que les applications peuvent associer à une balise de document structuré afin de l'identifier sans fournir de nom convivial visible.
 
 ## Exemples
 
-Montre comment obtenir les propriétés des balises de documents structurés à plusieurs sections.
+Montre comment obtenir les propriétés des balises de document structurées à plusieurs sections.
 
 ```csharp
 Document doc = new Document(MyDir + "Multi-section structured document tags.docx");

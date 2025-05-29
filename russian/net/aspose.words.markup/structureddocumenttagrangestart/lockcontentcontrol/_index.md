@@ -3,14 +3,14 @@ title: StructuredDocumentTagRangeStart.LockContentControl
 linktitle: LockContentControl
 articleTitle: LockContentControl
 second_title: Aspose.Words для .NET
-description: StructuredDocumentTagRangeStart LockContentControl свойство. Если установлено значениеистинный  это свойство запретит пользователю удалять этот тег структурированного документа на С#.
+description: Узнайте, как свойство LockContentControl в StructuredDocumentTagRangeStart повышает безопасность документа, предотвращая нежелательное удаление важных тегов.
 type: docs
 weight: 80
 url: /ru/net/aspose.words.markup/structureddocumenttagrangestart/lockcontentcontrol/
 ---
 ## StructuredDocumentTagRangeStart.LockContentControl property
 
-Если установлено значение`истинный` , это свойство запретит пользователю удалять этот тег структурированного документа.
+При установке на`истинный` , это свойство запретит пользователю удалять этот структурированный тег документа.
 
 ```csharp
 public bool LockContentControl { get; set; }

@@ -2,8 +2,8 @@
 title: FontSettings.FallbackSettings
 linktitle: FallbackSettings
 articleTitle: FallbackSettings
-second_title: Aspose.Words for .NET
-description: FontSettings FallbackSettings mülk. Yazı tipi geri dönüş mekanizmasıyla ilgili ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Optimize edilmiş font geri dönüş mekanizmaları için FontSettings FallbackSettings özelliğini keşfedin. Tasarımınızı kusursuz metin işlemeyle geliştirin!
 type: docs
 weight: 30
 url: /tr/net/aspose.words.fonts/fontsettings/fallbacksettings/
@@ -18,7 +18,7 @@ public FontFallbackSettings FallbackSettings { get; }
 
 ## Örnekler
 
-Yedek yazı tiplerinin Unicode karakter kodu aralıklarına nasıl dağıtılacağını gösterir.
+Yedek yazı tiplerinin Unicode karakter kodu aralıkları arasında nasıl dağıtılacağını gösterir.
 
 ```csharp
 Document doc = new Document();
@@ -27,28 +27,28 @@ FontSettings fontSettings = new FontSettings();
 doc.FontSettings = fontSettings;
 FontFallbackSettings fontFallbackSettings = fontSettings.FallbackSettings;
 
-// Yazı tipi ayarlarımızı yalnızca "MyFonts" klasöründeki yazı tiplerini kaynaklayacak şekilde yapılandırın.
+// Font ayarlarımızı yalnızca "MyFonts" klasöründen font alacak şekilde yapılandıralım.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 fontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-// "BuildAutomatic" yönteminin çağrılması, bir geri dönüş şeması oluşturacaktır.
-// erişilebilir yazı tiplerini mümkün olduğunca çok sayıda Unicode karakter koduna dağıtır.
-// Bizim durumumuzda, yalnızca "MyFonts" klasörü içindeki bir avuç yazı tipine erişimi var.
+// "BuildAutomatic" yöntemini çağırmak, bir geri dönüş şeması oluşturacaktır.
+// Erişilebilir yazı tiplerini mümkün olduğunca çok sayıda Unicode karakter koduna dağıtır.
+// Bizim durumumuzda, yalnızca "MyFonts" klasöründeki bir avuç yazı tipine erişimi var.
 fontFallbackSettings.BuildAutomatic();
 fontFallbackSettings.Save(ArtifactsDir + "FontSettings.FallbackSettingsCustom.BuildAutomatic.xml");
 
-// Bunun gibi bir dosyadan özel bir ikame şeması da yükleyebiliriz.
-// Bu şema, "AllegroOpen" yazı tipini "0000-00ff" Unicode blokları boyunca, "AllegroOpen" yazı tipini "0100-024f" boyunca uygular,
-// ve şemadaki diğer yazı tiplerinin kapsamadığı diğer tüm aralıklardaki "M+ 2m" yazı tipi.
+// Bu şekilde bir dosyadan özel bir ikame şeması da yükleyebiliriz.
+// Bu şema "0000-00ff" Unicode blokları boyunca "AllegroOpen" yazı tipini, "0100-024f" boyunca "AllegroOpen" yazı tipini uygular.
+// ve şema içindeki diğer fontların kapsamadığı tüm diğer aralıklardaki "M+ 2m" fontu.
 fontFallbackSettings.Load(MyDir + "Custom font fallback settings.xml");
 
-// Bir belge oluşturucu oluşturun ve yazı tipini hiçbir kaynağımızda bulunmayan bir yazı tipine ayarlayın.
-// Yazı tipi ayarlarımız, kullanılamayan yazı tipini kullanarak yazdığımız karakterler için geri dönüş şemasını çağıracaktır.
+// Bir belge oluşturucu oluşturun ve yazı tipini kaynaklarımızda bulunmayan bir yazı tipine ayarlayın.
+// Yazı tipi ayarlarımız, mevcut olmayan yazı tipini kullanarak yazdığımız karakterler için yedek şemayı çağıracaktır.
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.Name = "Missing Font";
 
-// 0x0021'den 0x052F'ye kadar her Unicode karakteri yazdırmak için oluşturucuyu kullanın,
-// özel yazı tipi geri dönüş şemamızda tanımladığımız Unicode bloklarını bölen açıklayıcı çizgilerle.
+// 0x0021'den 0x052F'ye kadar her Unicode karakterini yazdırmak için oluşturucuyu kullanın,
+// özel yazı tipi yedekleme şemalarımızda tanımladığımız Unicode bloklarını ayıran açıklayıcı çizgilerle.
 for (int i = 0x0021; i < 0x0530; i++)
 {
     switch (i)

@@ -3,14 +3,14 @@ title: SignatureLine.ProviderId
 linktitle: ProviderId
 articleTitle: ProviderId
 second_title: Aspose.Words para .NET
-description: SignatureLine ProviderId propiedad. Obtiene o establece el identificador del proveedor de firmas para esta línea de firma. El valor predeterminado es 00000000000000000000000000000000 en C#.
+description: Descubra la propiedad SignatureLine ProviderId para gestionar fácilmente los identificadores de proveedores de firma. Simplifique su flujo de trabajo con nuestra configuración predeterminada.
 type: docs
 weight: 80
 url: /es/net/aspose.words.drawing/signatureline/providerid/
 ---
 ## SignatureLine.ProviderId property
 
-Obtiene o establece el identificador del proveedor de firmas para esta línea de firma. El valor predeterminado es "{00000000-0000-0000-0000-000000000000}".
+Obtiene o establece el identificador del proveedor de firma para esta línea de firma. El valor predeterminado es "{00000000-0000-0000-0000-000000000000}".
 
 ```csharp
 public Guid ProviderId { get; set; }
@@ -18,11 +18,11 @@ public Guid ProviderId { get; set; }
 
 ## Observaciones
 
-El proveedor de servicios criptográficos (CSP) es un módulo de software independiente que en realidad realiza algoritmos de criptografía para autenticación, codificación y cifrado. MS Office reserva el valor de {00000000-0000-0000-0000-000000000000} para su proveedor de firma predeterminado.
+El proveedor de servicios criptográficos (CSP) es un módulo de software independiente que ejecuta algoritmos criptográficos de autenticación, codificación y cifrado. MS Office reserva el valor {00000000-0000-0000-0000-00000000000} para su proveedor de firmas predeterminado.
 
 El GUID del proveedor instalado adicionalmente debe obtenerse de la documentación enviada con el proveedor.
 
-Además, todos los proveedores criptográficos instalados se enumeran en el registro de Windows. Se puede encontrar en la siguiente ruta: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Hay un nombre de clave "CP Service UUID" que corresponde a un GUID del proveedor de firmas.
+Además, todos los proveedores criptográficos instalados se enumeran en el registro de Windows. Se puede encontrar en la siguiente ruta: HKLM\SOFTWARE\Microsoft\Cryptography\Defaults\Provider. Hay un nombre de clave "CP Service UUID" que corresponde a un GUID del proveedor de firma.
 
 ## Ejemplos
 
@@ -64,8 +64,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

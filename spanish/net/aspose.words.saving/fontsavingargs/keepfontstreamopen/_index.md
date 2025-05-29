@@ -3,7 +3,7 @@ title: FontSavingArgs.KeepFontStreamOpen
 linktitle: KeepFontStreamOpen
 articleTitle: KeepFontStreamOpen
 second_title: Aspose.Words para .NET
-description: FontSavingArgs KeepFontStreamOpen propiedad. Especifica si Aspose.Words debe mantener la secuencia abierta o cerrarla después de guardar una fuente en C#.
+description: Descubra cómo la propiedad KeepFontStreamOpen en FontSavingArgs permite a Aspose.Words administrar flujos de fuentes de manera eficiente, mejorando su experiencia de procesamiento de documentos.
 type: docs
 weight: 90
 url: /es/net/aspose.words.saving/fontsavingargs/keepfontstreamopen/
@@ -18,19 +18,19 @@ public bool KeepFontStreamOpen { get; set; }
 
 ## Observaciones
 
-El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que proporcionó en el[`FontStream`](../fontstream/) propiedad después de escribir una fuente en ella. Especificar`verdadero` para mantener la corriente abierta.
+El valor predeterminado es`FALSO` y Aspose.Words cerrará la transmisión que usted proporcionó en el[`FontStream`](../fontstream/) propiedad después de escribir una fuente en ella. Especificar`verdadero` para mantener el arroyo abierto.
 
 ## Ejemplos
 
-Muestra cómo definir una lógica personalizada para exportar fuentes al guardar en HTML.
+Muestra cómo definir lógica personalizada para exportar fuentes al guardar en HTML.
 
 ```csharp
 public void SaveExportedFonts()
 {
     Document doc = new Document(MyDir + "Rendering.docx");
 
-    // Configurar un objeto SaveOptions para exportar fuentes a archivos separados.
-    // Establece una devolución de llamada que manejará el guardado de fuentes de forma personalizada.
+    // Configure un objeto SaveOptions para exportar fuentes a archivos separados.
+    // Establezca una devolución de llamada que manejará el guardado de fuentes de una manera personalizada.
     HtmlSaveOptions options = new HtmlSaveOptions
     {
         ExportFontResources = true,
@@ -48,7 +48,7 @@ public void SaveExportedFonts()
 }
 
 /// <summary>
-/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su salida .html.
+/// Imprime información sobre las fuentes exportadas y las guarda en la misma carpeta del sistema local que su archivo .html de salida.
 /// </summary>
 public class HandleFontSaving : IFontSavingCallback
 {

@@ -3,14 +3,14 @@ title: Footnote Class
 linktitle: Footnote
 articleTitle: Footnote
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Notes.Footnote klass. Representerar en behållare för text i en fotnot eller slutnot i C#.
+description: Upptäck klassen Aspose.Words.Notes.Footnote, ditt viktiga verktyg för att hantera fotnoter och slutnoter med enkelhet och precision i dina dokument.
 type: docs
-weight: 4260
+weight: 4950
 url: /sv/net/aspose.words.notes/footnote/
 ---
 ## Footnote class
 
-Representerar en behållare för text i en fotnot eller slutnot.
+Representerar en behållare för texten i en fotnot eller slutnot.
 
 För att lära dig mer, besök[Arbeta med fotnot och slutnot](https://docs.aspose.com/words/net/working-with-footnote-and-endnote/) dokumentationsartikel.
 
@@ -22,76 +22,79 @@ public class Footnote : InlineStory
 
 | namn | Beskrivning |
 | --- | --- |
-| [Footnote](footnote/)(*[DocumentBase](../../aspose.words/documentbase/), [FootnoteType](../footnotetype/)*) | Initierar en instans av`Footnote` class. |
+| [Footnote](footnote/)(*[DocumentBase](../../aspose.words/documentbase/), [FootnoteType](../footnotetype/)*) | Initierar en instans av`Footnote` klass. |
 
 ## Egenskaper
 
 | namn | Beskrivning |
 | --- | --- |
+| [ActualReferenceMark](../../aspose.words.notes/footnote/actualreferencemark/) { get; } | Hämtar den faktiska texten för referensmärket som visas i dokumentet för denna fotnot. |
 | [Count](../../aspose.words/compositenode/count/) { get; } | Hämtar antalet omedelbara barn till denna nod. |
 | [CustomNodeId](../../aspose.words/node/customnodeid/) { get; set; } | Anger anpassad nodidentifierare. |
 | virtual [Document](../../aspose.words/node/document/) { get; } | Hämtar dokumentet som denna nod tillhör. |
-| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Får det första barnet i noden. |
-| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Får första stycket i berättelsen. |
-| [Font](../../aspose.words/inlinestory/font/) { get; } | Ger tillgång till teckensnittsformateringen av ankartecknet för detta objekt. |
+| [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Hämtar nodens första barn. |
+| [FirstParagraph](../../aspose.words/inlinestory/firstparagraph/) { get; } | Hämtar det första stycket i berättelsen. |
+| [Font](../../aspose.words/inlinestory/font/) { get; } | Ger åtkomst till teckensnittsformateringen för ankartecknet i detta objekt. |
 | [FootnoteType](../../aspose.words.notes/footnote/footnotetype/) { get; } | Returnerar ett värde som anger om detta är en fotnot eller slutnot. |
-| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returnerar`Sann` om denna nod har några undernoder. |
-| [IsAuto](../../aspose.words.notes/footnote/isauto/) { get; set; } | Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller fotnot med användardefinierat anpassat referensmärke. |
-| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returnerar`Sann` eftersom denna nod kan ha underordnade noder. |
-| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returnerar sant om detta objekt raderades i Microsoft Word medan ändringsspårning var aktiverad. |
+| [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returer`sann` om den här noden har några undernoder. |
+| [IsAuto](../../aspose.words.notes/footnote/isauto/) { get; set; } | Innehåller ett värde som anger om detta är en automatiskt numrerad fotnot eller en fotnot med användardefinierat anpassat referensmärke. |
+| override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returer`sann` eftersom denna nod kan ha underordnade noder. |
+| [IsDeleteRevision](../../aspose.words/inlinestory/isdeleterevision/) { get; } | Returnerar sant om det här objektet togs bort i Microsoft Word medan ändringsspårning var aktiverad. |
 | [IsInsertRevision](../../aspose.words/inlinestory/isinsertrevision/) { get; } | Returnerar sant om det här objektet infogades i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returnerar`Sann` om det här objektet flyttades (borttogs) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returnerar`Sann` om detta objekt flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
-| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista underordnade. |
+| [IsMoveFromRevision](../../aspose.words/inlinestory/ismovefromrevision/) { get; } | Returer`sann` om det här objektet flyttades (raderades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [IsMoveToRevision](../../aspose.words/inlinestory/ismovetorevision/) { get; } | Returer`sann` om det här objektet flyttades (infogades) i Microsoft Word medan ändringsspårning var aktiverad. |
+| [LastChild](../../aspose.words/compositenode/lastchild/) { get; } | Hämtar nodens sista barn. |
 | [LastParagraph](../../aspose.words/inlinestory/lastparagraph/) { get; } | Hämtar det sista stycket i berättelsen. |
-| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden omedelbart efter denna nod. |
-| override [NodeType](../../aspose.words.notes/footnote/nodetype/) { get; } | ReturnerarFootnote . |
-| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Får en samling stycken som är omedelbara barn till berättelsen. |
+| [NextSibling](../../aspose.words/node/nextsibling/) { get; } | Hämtar noden som följer direkt efter denna nod. |
+| override [NodeType](../../aspose.words.notes/footnote/nodetype/) { get; } | ReturerFootnote . |
+| [Paragraphs](../../aspose.words/inlinestory/paragraphs/) { get; } | Hämtar en samling stycken som är direkta underordnade stycken till berättelsen. |
 | [ParentNode](../../aspose.words/node/parentnode/) { get; } | Hämtar den omedelbara föräldern till denna nod. |
 | [ParentParagraph](../../aspose.words/inlinestory/parentparagraph/) { get; } | Hämtar föräldern[`Paragraph`](../../aspose.words/paragraph/) av denna nod. |
-| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden omedelbart före denna nod. |
-| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/) objekt som representerar den del av ett dokument som finns i denna nod. |
-| [ReferenceMark](../../aspose.words.notes/footnote/referencemark/) { get; set; } | Hämtar/ställer in anpassat referensmärke som ska användas för denna fotnot. Standardvärdet är**tom sträng** (Empty ), vilket betyder att automatiskt numrerade fotnoter används. |
-| override [StoryType](../../aspose.words.notes/footnote/storytype/) { get; } | ReturnerarFootnotes ellerEndnotes . |
-| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Får en samling tabeller som är omedelbara barn till berättelsen. |
+| [PreviousSibling](../../aspose.words/node/previoussibling/) { get; } | Hämtar noden som omedelbart föregår denna nod. |
+| [Range](../../aspose.words/node/range/) { get; } | Returnerar en[`Range`](../../aspose.words/range/)objekt som representerar den del av ett dokument som finns i denna nod. |
+| [ReferenceMark](../../aspose.words.notes/footnote/referencemark/) { get; set; } | Hämtar/ställer in ett anpassat referensmärke som ska användas för denna fotnot. Standardvärdet är**tom sträng** (Empty ), vilket betyder att automatiskt numrerade fotnoter används. |
+| override [StoryType](../../aspose.words.notes/footnote/storytype/) { get; } | ReturerFootnotes ellerEndnotes . |
+| [Tables](../../aspose.words/inlinestory/tables/) { get; } | Hämtar en samling tabeller som är direkta underordnade tabeller till berättelsen. |
 
 ## Metoder
 
 | namn | Beskrivning |
 | --- | --- |
-| override [Accept](../../aspose.words.notes/footnote/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare. |
-| [AppendChild](../../aspose.words/compositenode/appendchild/)(*[Node](../../aspose.words/node/)*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
-| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en dubblett av noden. |
-| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar navigator som kan användas för att korsa och läsa noder. |
-| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Om det sista underordnade inte är ett stycke, skapar och lägger till ett tomt stycke. |
+| override [Accept](../../aspose.words.notes/footnote/accept/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Tar emot en besökare. |
+| override [AcceptEnd](../../aspose.words.notes/footnote/acceptend/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare för att besöka slutet av fotnoten. |
+| override [AcceptStart](../../aspose.words.notes/footnote/acceptstart/)(*[DocumentVisitor](../../aspose.words/documentvisitor/)*) | Accepterar en besökare för att besöka början av fotnoten. |
+| [AppendChild&lt;T&gt;](../../aspose.words/compositenode/appendchild/)(*T*) | Lägger till den angivna noden i slutet av listan över underordnade noder för denna nod. |
+| [Clone](../../aspose.words/node/clone/)(*bool*) | Skapar en duplikat av noden. |
+| [CreateNavigator](../../aspose.words/compositenode/createnavigator/)() | Skapar en navigator som kan användas för att korsa och läsa noder. |
+| [EnsureMinimum](../../aspose.words/inlinestory/ensureminimum/)() | Om det sista underordnade stycket inte är ett stycke skapas och läggs till ett tomt stycke. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*[NodeType](../../aspose.words/nodetype/)*) | Hämtar den första förfadern till den angivna[`NodeType`](../../aspose.words/nodetype/) . |
 | [GetAncestor](../../aspose.words/node/getancestor/)(*Type*) | Hämtar den första förfadern till den angivna objekttypen. |
 | [GetChild](../../aspose.words/compositenode/getchild/)(*[NodeType](../../aspose.words/nodetype/), int, bool*) | Returnerar en N:te underordnad nod som matchar den angivna typen. |
-| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returnerar en aktiv samling av underordnade noder som matchar den angivna typen. |
-| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Tillhandahåller stöd för varje stiliteration över undernoderna för denna nod. |
-| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade. |
-| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returnerar indexet för den angivna undernoden i den underordnade nodmatrisen. |
-| [InsertAfter](../../aspose.words/compositenode/insertafter/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
-| [InsertBefore](../../aspose.words/compositenode/insertbefore/)(*[Node](../../aspose.words/node/), [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
-| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdet. |
-| [PrependChild](../../aspose.words/compositenode/prependchild/)(*[Node](../../aspose.words/node/)*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
-| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för förbeställningsträdet. |
+| [GetChildNodes](../../aspose.words/compositenode/getchildnodes/)(*[NodeType](../../aspose.words/nodetype/), bool*) | Returnerar en live-samling av underordnade noder som matchar den angivna typen. |
+| [GetEnumerator](../../aspose.words/compositenode/getenumerator/)() | Ger stöd för iterationen för varje stil över de underordnade noderna till denna nod. |
+| override [GetText](../../aspose.words/compositenode/gettext/)() | Hämtar texten för denna nod och alla dess underordnade noder. |
+| [IndexOf](../../aspose.words/compositenode/indexof/)(*[Node](../../aspose.words/node/)*) | Returnerar indexet för den angivna undernoden i undernodsmatrisen. |
+| [InsertAfter&lt;T&gt;](../../aspose.words/compositenode/insertafter/)(*T, [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart efter den angivna referensnoden. |
+| [InsertBefore&lt;T&gt;](../../aspose.words/compositenode/insertbefore/)(*T, [Node](../../aspose.words/node/)*) | Infogar den angivna noden omedelbart före den angivna referensnoden. |
+| [NextPreOrder](../../aspose.words/node/nextpreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar nästa nod enligt algoritmen för förbeställningsträdtraversering. |
+| [PrependChild&lt;T&gt;](../../aspose.words/compositenode/prependchild/)(*T*) | Lägger till den angivna noden i början av listan över underordnade noder för denna nod. |
+| [PreviousPreOrder](../../aspose.words/node/previouspreorder/)(*[Node](../../aspose.words/node/)*) | Hämtar föregående nod enligt algoritmen för trädtraversering i förbeställning. |
 | [Remove](../../aspose.words/node/remove/)() | Tar bort sig själv från föräldern. |
-| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder för den aktuella noden. |
-| [RemoveChild](../../aspose.words/compositenode/removechild/)(*[Node](../../aspose.words/node/)*) | Tar bort den angivna underordnade noden. |
-| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/)underliggande noder till den aktuella noden. |
+| [RemoveAllChildren](../../aspose.words/compositenode/removeallchildren/)() | Tar bort alla undernoder till den aktuella noden. |
+| [RemoveChild&lt;T&gt;](../../aspose.words/compositenode/removechild/)(*T*) | Tar bort den angivna undernoden. |
+| [RemoveSmartTags](../../aspose.words/compositenode/removesmarttags/)() | Tar bort alla[`SmartTag`](../../aspose.words.markup/smarttag/) underordnade noder till den aktuella noden. |
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(*string*) | Väljer en lista med noder som matchar XPath-uttrycket. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(*string*) | Väljer den första[`Node`](../../aspose.words/node/) som matchar XPath-uttrycket. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar innehållet i noden till en sträng i angivet format. |
-| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar innehållet i noden till en sträng med de angivna sparalternativen. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveFormat](../../aspose.words/saveformat/)*) | Exporterar nodens innehåll till en sträng i det angivna formatet. |
+| [ToString](../../aspose.words/node/tostring/)(*[SaveOptions](../../aspose.words.saving/saveoptions/)*) | Exporterar nodens innehåll till en sträng med de angivna sparalternativen. |
 
 ## Anmärkningar
 
-De`Footnote` klass används för att representera både fotnoter och slutnoter i ett Word-dokument.
+De`Footnote` klassen används för att representera både fotnoter och slutnoter i ett Word-dokument.
 
-`Footnote` är en nod på inline-nivå och kan bara vara ett barn till[`Paragraph`](../../aspose.words/paragraph/).
+`Footnote` är en inline-nivånod och kan bara vara underordnad[`Paragraph`](../../aspose.words/paragraph/).
 
-`Footnote` kan innehålla[`Paragraph`](../../aspose.words/paragraph/) och[`Table`](../../aspose.words.tables/table/) barnnoder.
+`Footnote` kan innehålla[`Paragraph`](../../aspose.words/paragraph/) och[`Table`](../../aspose.words.tables/table/) underordnade noder.
 
 ## Exempel
 
@@ -101,16 +104,16 @@ Visar hur man infogar och anpassar fotnoter.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Lägg till text och referera till den med en fotnot. Denna fotnot kommer att placera en liten upphöjd referens
+// Lägg till text och referera till den med en fotnot. Denna fotnot placerar en liten upphöjd referens
 // markera efter texten som den refererar till och skapa en post under huvudtexten längst ner på sidan.
 // Denna post kommer att innehålla fotnotens referensmärke och referenstexten,
-// som vi kommer att skicka till dokumentbyggarens "InsertFootnote"-metod.
+// som vi skickar till dokumentbyggarens "InsertFootnote"-metod.
 builder.Write("Main body text.");
 Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Om den här egenskapen är inställd på "true", är vår fotnots referensmärke
+// Om den här egenskapen är satt till "sant", så är vår fotnots referensmarkering
 // kommer att vara dess index bland alla avsnittets fotnoter.
-// Detta är den första fotnoten, så referensmärket blir "1".
+// Detta är den första fotnoten, så referenstecknet blir "1".
 Assert.True(footnote.IsAuto);
 
  // Vi kan flytta dokumentbyggaren inuti fotnoten för att redigera dess referenstext.
@@ -123,13 +126,13 @@ Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", f
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-// Vi kan ställa in ett anpassat referensmärke som fotnoten kommer att använda istället för dess indexnummer.
+// Vi kan ange ett anpassat referensmärke som fotnoten kommer att använda istället för sitt indexnummer.
 footnote.ReferenceMark = "RefMark";
 
 Assert.False(footnote.IsAuto);
 
-// Ett bokmärke med flaggan "IsAuto" inställd på sant kommer fortfarande att visa sitt verkliga index
-// även om tidigare bokmärken visar anpassade referensmärken, så kommer detta bokmärkes referensmärke att vara en "3".
+// Ett bokmärke med flaggan "IsAuto" satt till sant kommer fortfarande att visa sitt verkliga index
+// även om tidigare bokmärken visar anpassade referensmarkeringar, så kommer detta bokmärkes referensmarkering att vara en "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 

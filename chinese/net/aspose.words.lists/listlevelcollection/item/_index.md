@@ -2,15 +2,15 @@
 title: ListLevelCollection.Item
 linktitle: Item
 articleTitle: Item
-second_title: 用于 .NET 的 Aspose.Words
-description: ListLevelCollection Item 财产. 按索引获取列表级别 在 C#.
+second_title: Aspose.Words for .NET
+description: 使用 ListLevelCollection Item 属性轻松访问列表层级。通过索引检索任意层级，实现无缝文档格式化。
 type: docs
 weight: 20
 url: /zh/net/aspose.words.lists/listlevelcollection/item/
 ---
 ## ListLevelCollection indexer
 
-按索引获取列表级别。
+通过索引获取列表级别。
 
 ```csharp
 public ListLevel this[int index] { get; set; }
@@ -18,7 +18,7 @@ public ListLevel this[int index] { get; set; }
 
 ## 例子
 
-演示如何创建列表样式并在文档中使用它。
+展示如何创建列表样式并在文档中使用它。
 
 ```csharp
 Document doc = new Document();
@@ -26,8 +26,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 我们可以在样式中包含整个 List 对象。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 我们可以在一种样式中包含整个列表对象。
 Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
@@ -56,7 +56,7 @@ Assert.False(list2.IsListStyleDefinition);
 Assert.True(list2.IsListStyleReference);
 Assert.AreEqual(listStyle, list2.Style);
 
-// 添加我们的列表将格式化的一些列表项。
+// 添加一些我们的列表将格式化的列表项。
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");
 builder.Writeln("Item 2");
@@ -74,7 +74,7 @@ builder.ListFormat.RemoveNumbers();
 builder.Document.Save(ArtifactsDir + "Lists.CreateAndUseListStyle.docx");
 ```
 
-演示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
+展示如何在使用 DocumentBuilder 时将自定义列表格式应用于段落。
 
 ```csharp
 Document doc = new Document();
@@ -82,8 +82,8 @@ Document doc = new Document();
 // 列表允许我们使用前缀符号和缩进来组织和装饰段落集。
  // 我们可以通过增加缩进级别来创建嵌套列表。
  // 我们可以使用文档构建器的“ListFormat”属性来开始和结束列表。
-// 我们在列表的开头和结尾之间添加的每个段落都将成为列表中的一个项目。
-// 从 Microsoft Word 模板创建列表，并自定义其列表的前两个级别。
+// 我们在列表的开始和结束之间添加的每个段落都将成为列表中的一个项目。
+// 从 Microsoft Word 模板创建列表，并自定义其列表级别的前两个。
 List list = doc.Lists.Add(ListTemplate.NumberDefault);
 
 ListLevel listLevel = list.ListLevels[0];
@@ -109,7 +109,7 @@ listLevel.NumberFormat = "\xf0af";
 listLevel.TrailingCharacter = ListTrailingCharacter.Space;
 listLevel.NumberPosition = 144;
 
-// 创建段落并将自定义列表格式的两个列表级别应用到它们。
+// 创建段落并将我们的自定义列表格式的两个列表级别应用于它们。
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.ListFormat.List = list;

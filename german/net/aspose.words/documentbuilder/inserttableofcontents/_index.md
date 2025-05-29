@@ -3,9 +3,9 @@ title: DocumentBuilder.InsertTableOfContents
 linktitle: InsertTableOfContents
 articleTitle: InsertTableOfContents
 second_title: Aspose.Words für .NET
-description: DocumentBuilder InsertTableOfContents methode. Fügt ein TOCFeld Inhaltsverzeichnis in das Dokument ein in C#.
+description: Verbessern Sie Ihre Dokumente mühelos mit der DocumentBuilder-Methode „InsertTableOfContents“ und fügen Sie ein dynamisches Inhaltsverzeichnis für eine einfache Navigation und verbesserte Organisation hinzu.
 type: docs
-weight: 460
+weight: 500
 url: /de/net/aspose.words/documentbuilder/inserttableofcontents/
 ---
 ## DocumentBuilder.InsertTableOfContents method
@@ -24,30 +24,30 @@ public Field InsertTableOfContents(string switches)
 
 Diese Methode fügt an der aktuellen Position ein TOC-Feld (Inhaltsverzeichnis) in das Dokument ein.
 
-Ein Inhaltsverzeichnis in einem Word-Dokument kann auf verschiedene Arten erstellt und mit verschiedenen Optionen formatiert werden. Die Art und Weise, wie die Tabelle von Microsoft Word erstellt und angezeigt wird, wird durch die Feldschalter gesteuert.
+Ein Inhaltsverzeichnis in einem Word-Dokument kann auf verschiedene Arten erstellt und mit verschiedenen Optionen formatiert werden. Die Art und Weise, wie die Tabelle in Microsoft Word erstellt und angezeigt wird, wird über die Feldschalter gesteuert.
 
-Der einfachste Weg, die Schalter anzugeben, besteht darin, über das Menü „Einfügen-&gt;Referenz-&gt;Index und Tabellen“ ein Inhaltsverzeichnis in ein Word-Dokument einzufügen und zu konfigurieren und dann die Anzeige der Feldcodes einzuschalten, um die Schalter anzuzeigen. Sie können Alt+F9 in Microsoft Word drücken, um die Anzeige von Feldcodes ein- oder auszuschalten.
+Die einfachste Möglichkeit, die Schalter festzulegen, besteht darin, ein Inhaltsverzeichnis in ein Word-Dokument einzufügen und zu konfigurieren. Verwenden Sie dazu das Menü „Einfügen“ &gt; „Referenz“ &gt; „Index und Tabellen“. Aktivieren Sie anschließend die Anzeige der Feldfunktionen, um die Schalter anzuzeigen. In Microsoft Word können Sie die Anzeige der Feldfunktionen mit Alt+F9 ein- oder ausschalten.
 
-Nach dem Erstellen eines Inhaltsverzeichnisses wird beispielsweise das folgende Feld in das Dokument eingefügt :**{ TOC \o "1-3" \h \z \u }** . Sie können kopieren**\o "1-3" \h \z \u** und verwenden Sie es als Schalterparameter.
+Beispielsweise wird nach dem Erstellen eines Inhaltsverzeichnisses folgendes Feld in das Dokument eingefügt :**{ Inhaltsverzeichnis \o "1-3" \h \z \u }** . Sie können kopieren**\o "1-3" \h \z \u** und verwenden Sie es als Schalterparameter.
 
-Beachten Sie, dass`InsertTableOfContents` fügt nur ein TOC-Feld ein, aber erstellt nicht tatsächlich das Inhaltsverzeichnis. Das Inhaltsverzeichnis wird von Microsoft Word erstellt, wenn das Feld aktualisiert wird.
+Beachten Sie, dass`InsertTableOfContents` fügt lediglich ein Inhaltsverzeichnisfeld ein, erstellt aber nicht das eigentliche Inhaltsverzeichnis. Das Inhaltsverzeichnis wird von Microsoft Word erstellt, wenn das Feld aktualisiert wird.
 
 Wenn Sie mit dieser Methode ein Inhaltsverzeichnis einfügen und dann die Datei in Microsoft Word öffnen, wird das Inhaltsverzeichnis nicht angezeigt, da das Inhaltsverzeichnisfeld noch nicht aktualisiert wurde.
 
-In Microsoft Word werden Felder beim Öffnen eines Dokuments nicht automatisch aktualisiert, Sie können Felder in einem Dokument jedoch jederzeit aktualisieren, indem Sie F9 drücken.
+In Microsoft Word werden Felder beim Öffnen eines Dokuments nicht automatisch aktualisiert, Sie können Felder in einem Dokument jedoch jederzeit durch Drücken von F9 aktualisieren.
 
 ## Beispiele
 
-Zeigt, wie man ein Inhaltsverzeichnis (TOC) in ein Dokument einfügt, indem man Überschriftenstile als Einträge verwendet.
+Zeigt, wie Sie ein Inhaltsverzeichnis (TOC) in ein Dokument einfügen, indem Sie Überschriftenstile als Einträge verwenden.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Ein Inhaltsverzeichnis für die erste Seite des Dokuments einfügen.
-// Konfigurieren Sie die Tabelle so, dass sie Absätze mit Überschriften der Ebenen 1 bis 3 aufnimmt.
-// Legen Sie außerdem fest, dass seine Einträge Hyperlinks sind, die uns weiterleiten
-// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste darauf geklickt wird.
+// Fügen Sie ein Inhaltsverzeichnis für die erste Seite des Dokuments ein.
+// Konfigurieren Sie die Tabelle so, dass Absätze mit Überschriften der Ebenen 1 bis 3 aufgenommen werden.
+// Legen Sie außerdem fest, dass die Einträge Hyperlinks sind, die uns
+// zur Position der Überschrift, wenn in Microsoft Word mit der linken Maustaste geklickt wird.
 builder.InsertTableOfContents("\\o \"1-3\" \\h \\z \\u");
 builder.InsertBreak(BreakType.PageBreak);
 

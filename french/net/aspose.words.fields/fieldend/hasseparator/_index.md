@@ -3,14 +3,14 @@ title: FieldEnd.HasSeparator
 linktitle: HasSeparator
 articleTitle: HasSeparator
 second_title: Aspose.Words pour .NET
-description: FieldEnd HasSeparator propriété. Retoursvraisi ce champ a un séparateur en C#.
+description: Découvrez la propriété FieldEnd HasSeparator, vérifiez facilement si votre champ inclut un séparateur pour une meilleure organisation et clarté des données.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/fieldend/hasseparator/
 ---
 ## FieldEnd.HasSeparator property
 
-Retours`vrai`si ce champ a un séparateur.
+Retours`vrai` si ce champ a un séparateur.
 
 ```csharp
 public bool HasSeparator { get; }
@@ -38,8 +38,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Parcourir la collection de champs, imprimer le contenu et le type
-    // de chaque champ en utilisant une implémentation de visiteur personnalisée.
+    // Itérer sur la collection de champs et imprimer le contenu et le type
+    // de chaque champ à l'aide d'une implémentation de visiteur personnalisée.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -63,7 +63,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Implémentation du visiteur du document qui imprime les informations sur le champ.
+/// Implémentation du visiteur de document qui imprime les informations du champ.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {

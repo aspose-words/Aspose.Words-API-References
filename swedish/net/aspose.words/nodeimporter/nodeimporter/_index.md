@@ -3,14 +3,14 @@ title: NodeImporter
 linktitle: NodeImporter
 articleTitle: NodeImporter
 second_title: Aspose.Words för .NET
-description: NodeImporter byggare. Initierar en ny instans avNodeImporter class i C#.
+description: Upptäck NodeImporter-konstruktorn och skapa enkelt nya NodeImporter-instanser för att effektivisera din datahantering och förbättra projekteffektiviteten.
 type: docs
 weight: 10
 url: /sv/net/aspose.words/nodeimporter/nodeimporter/
 ---
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/)*) {#constructor}
 
-Initierar en ny instans av[`NodeImporter`](../) class.
+Initierar en ny instans av[`NodeImporter`](../) klass.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode)
@@ -20,7 +20,7 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Källdokumentet. |
 | dstDoc | DocumentBase | Måldokumentet som kommer att vara ägare till importerade noder. |
-| importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
+| importFormatMode | ImportFormatMode | Anger hur formatering som krockar ska sammanfogas. |
 
 ## Exempel
 
@@ -62,8 +62,8 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
         NodeImporter importer =
             new NodeImporter(docToInsert, insertionDestination.Document, ImportFormatMode.KeepSourceFormatting);
 
-        // Slinga igenom alla noder på blocknivå i sektionens kropp,
-        // klona sedan och infoga varje nod som inte är det sista tomma stycket i ett avsnitt.
+        // Loopa igenom alla blocknivånoder i sektionens brödtext,
+        // klona och infoga sedan varje nod som inte är det sista tomma stycket i ett avsnitt.
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
@@ -99,7 +99,7 @@ static void InsertDocument(Node insertionDestination, Document docToInsert)
 
 ## NodeImporter(*[DocumentBase](../../documentbase/), [DocumentBase](../../documentbase/), [ImportFormatMode](../../importformatmode/), [ImportFormatOptions](../../importformatoptions/)*) {#constructor_1}
 
-Initierar en ny instans av[`NodeImporter`](../) class.
+Initierar en ny instans av[`NodeImporter`](../) klass.
 
 ```csharp
 public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode importFormatMode, 
@@ -110,40 +110,40 @@ public NodeImporter(DocumentBase srcDoc, DocumentBase dstDoc, ImportFormatMode i
 | --- | --- | --- |
 | srcDoc | DocumentBase | Källdokumentet. |
 | dstDoc | DocumentBase | Måldokumentet som kommer att vara ägare till importerade noder. |
-| importFormatMode | ImportFormatMode | Anger hur stilformatering som krockar sammanfogas. |
+| importFormatMode | ImportFormatMode | Anger hur formatering som krockar ska sammanfogas. |
 | importFormatOptions | ImportFormatOptions | Anger olika alternativ för att formatera importerad nod. |
 
 ## Exempel
 
-Visar hur man löser en konflikt när man importerar dokument som har listor med samma listdefinitionsidentifierare.
+Visar hur man löser en konflikt vid import av dokument som har listor med samma listdefinitionsidentifierare.
 
 ```csharp
 Document srcDoc = new Document(MyDir + "List with the same definition identifier - source.docx");
 Document dstDoc = new Document(MyDir + "List with the same definition identifier - destination.docx");
 
-// Ställ in egenskapen "KeepSourceNumbering" till "true" för att tillämpa ett annat listdefinitions-ID
-// till identiska stilar som Aspose.Words importerar dem till måldokument.
+// Sätt egenskapen "KeepSourceNumbering" till "true" för att använda ett annat listdefinitions-ID
+// till identiska stilar som Aspose.Words importerar dem till destinationsdokument.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions { KeepSourceNumbering = true };
 
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.UseDestinationStyles, importFormatOptions);
 dstDoc.UpdateListLabels();
 ```
 
-Visar hur man löser listnumreringskrockar i käll- och måldokument.
+Visar hur man löser konflikter mellan listnumreringar i käll- och måldokument.
 
 ```csharp
 // Öppna ett dokument med ett anpassat listnumreringsschema och klona det sedan.
-// Eftersom båda har samma numreringsformat kommer formaten att krocka om vi importerar ett dokument till det andra.
+// Eftersom båda har samma numreringsformat kommer formaten att krocka om vi importerar det ena dokumentet till det andra.
 Document srcDoc = new Document(MyDir + "Custom list numbering.docx");
 Document dstDoc = srcDoc.Clone();
 
-// När vi importerar dokumentets klon till originalet och sedan lägger till det,
-// då kommer de två listorna med samma listformat att förenas.
-// Om vi ställer in "KeepSourceNumbering"-flaggan till "false", kommer listan från dokumentklonen
-// som vi lägger till originalet kommer att fortsätta numreringen av listan vi lägger till den.
+// När vi importerar dokumentets klon till originalet och sedan lägger till den,
+// då kommer de två listorna med samma listformat att sammanfogas.
+// Om vi ställer in flaggan "KeepSourceNumbering" till "false", så klonas listan från dokumentet
+// som vi lägger till i originalet kommer att fortsätta numreringen av listan vi lägger till den i.
 // Detta kommer effektivt att slå samman de två listorna till en.
-// Om vi ställer in "KeepSourceNumbering"-flaggan till "true", kommer dokumentklonen
- // list kommer att bevara sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor.
+// Om vi ställer in flaggan "KeepSourceNumbering" till "true", så klonas dokumentet
+ // list behåller sin ursprungliga numrering, vilket gör att de två listorna visas som separata listor.
 ImportFormatOptions importFormatOptions = new ImportFormatOptions();
 importFormatOptions.KeepSourceNumbering = keepSourceNumbering;
 

@@ -3,14 +3,14 @@ title: MailMergeDataType Enum
 linktitle: MailMergeDataType
 articleTitle: MailMergeDataType
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Settings.MailMergeDataType enumeración. Especifica el tipo de fuente de datos de combinación de correspondencia externa en C#.
+description: Descubra la enumeración Aspose.Words.MailMergeDataType para una integración perfecta de fuentes de datos externas en sus proyectos de automatización de documentos.
 type: docs
-weight: 5820
+weight: 6650
 url: /es/net/aspose.words.settings/mailmergedatatype/
 ---
 ## MailMergeDataType enumeration
 
-Especifica el tipo de fuente de datos de combinación de correspondencia externa.
+Especifica el tipo de una fuente de datos de combinación de correspondencia externa.
 
 ```csharp
 public enum MailMergeDataType
@@ -20,14 +20,14 @@ public enum MailMergeDataType
 
 | Nombre | Valor | Descripción |
 | --- | --- | --- |
-| None | `-1` | No se especifica ninguna fuente de datos de combinación de correspondencia. |
-| TextFile | `0` | Especifica que un documento determinado se ha conectado a un archivo de texto a través del sistema Dynamic Data Exchange (DDE). |
-| Database | `1` | Especifica que un documento determinado se ha conectado a una base de datos de Access a través del sistema Dynamic Data Exchange (DDE). |
-| Spreadsheet | `2` | Especifica que un documento determinado se ha conectado a una hoja de cálculo de Excel a través del sistema Dynamic Data Exchange (DDE). |
+| None | `-1` | No se especificó ninguna fuente de datos de combinación de correspondencia. |
+| TextFile | `0` | Especifica que un documento determinado se ha conectado a un archivo de texto a través del sistema de intercambio dinámico de datos (DDE). |
+| Database | `1` | Especifica que un documento determinado se ha conectado a una base de datos de Access a través del sistema de intercambio dinámico de datos (DDE). |
+| Spreadsheet | `2` | Especifica que un documento determinado se ha conectado a una hoja de cálculo de Excel a través del sistema de intercambio dinámico de datos (DDE). |
 | Query | `3` | Especifica que un documento determinado se ha conectado a una fuente de datos externa mediante una herramienta de consulta externa. |
-| Odbc | `4` | Especifica que un documento determinado se ha conectado a una fuente de datos externa a través de la interfaz de conectividad abierta de bases de datos. |
-| Native | `5` | Especifica que un documento determinado se ha conectado a una fuente de datos externa a través de la interfaz del objeto de fuente de datos de Office (ODSO). |
-| Default | `-1` | Igual aNone . |
+| Odbc | `4` | Especifica que un documento determinado se ha conectado a una fuente de datos externa a través de la interfaz de Open Database Connectivity. |
+| Native | `5` | Especifica que un documento determinado se ha conectado a una fuente de datos externa a través de la interfaz del objeto de origen de datos de Office (ODSO). |
+| Default | `-1` | Es igual aNone . |
 
 ## Ejemplos
 
@@ -44,8 +44,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crea una fuente de datos en forma de archivo ASCII, con el "|" personaje
-// actuando como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas,
+// Crea una fuente de datos en forma de archivo ASCII, con el carácter "|"
+// Actúa como delimitador que separa las columnas. La primera línea contiene los nombres de las tres columnas.
 // y cada línea subsiguiente es una fila con sus respectivos valores.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

@@ -3,14 +3,14 @@ title: FieldSeparator.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words för .NET
-description: FieldSeparator Accept metod. Accepterar en besökare i C#.
+description: Upptäck hur FieldSeparator Accept-metoden förbättrar besökarnas engagemang och effektiviserar databehandlingen för dina applikationer.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.fields/fieldseparator/accept/
 ---
 ## FieldSeparator.Accept method
 
-Accepterar en besökare.
+Tar emot en besökare.
 
 ```csharp
 public override bool Accept(DocumentVisitor visitor)
@@ -22,13 +22,13 @@ public override bool Accept(DocumentVisitor visitor)
 
 ### Returvärde
 
-**Falsk** om besökaren begärde att uppräkningen skulle sluta.
+**Falsk** om besökaren begärde att uppräkningen skulle avbrytas.
 
 ## Anmärkningar
 
 Samtal[`VisitFieldSeparator`](../../../aspose.words/documentvisitor/visitfieldseparator/).
 
-För mer information se Visitor design mönster.
+För mer information, se designmönstret för besökare.
 
 ## Exempel
 
@@ -52,8 +52,8 @@ public void FieldCollection()
 
     Assert.AreEqual(6, fields.Count);
 
-    // Iterera över fältsamlingen och skriv ut innehåll och skriv
-    // av varje fält med en anpassad besöksimplementering.
+    // Iterera över fältsamlingen och skriv ut innehåll och typ
+    // för varje fält med hjälp av en anpassad besökarimplementering.
     FieldVisitor fieldVisitor = new FieldVisitor();
 
     using (IEnumerator<Field> fieldEnumerator = fields.GetEnumerator())
@@ -77,7 +77,7 @@ public void FieldCollection()
 }
 
 /// <summary>
-/// Dokumentbesökarimplementering som skriver ut fältinformation.
+/// Implementering av dokumentbesökare som skriver ut fältinformation.
 /// </summary>
 public class FieldVisitor : DocumentVisitor
 {
@@ -87,7 +87,7 @@ public class FieldVisitor : DocumentVisitor
     }
 
     /// <summary>
-    /// Hämtar vanlig text av dokumentet som samlades av besökaren.
+    /// Hämtar klartexten från dokumentet som besökaren samlade in.
     /// </summary>
     public string GetText()
     {

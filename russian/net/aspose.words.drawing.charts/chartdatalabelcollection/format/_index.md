@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.Format
 linktitle: Format
 articleTitle: Format
 second_title: Aspose.Words для .NET
-description: ChartDataLabelCollection Format свойство. Предоставляет доступ к заполнению и форматированию строк меток данных на С#.
+description: Откройте для себя свойство ChartDataLabelCollection Format для легкого доступа к настраиваемому форматированию заливки и линий для ваших меток данных. Улучшите свои диаграммы сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.drawing.charts/chartdatalabelcollection/format/
@@ -18,7 +18,7 @@ public ChartFormat Format { get; }
 
 ## Примеры
 
-Показывает, как настроить форматирование заливки, обводки и выносок для меток данных диаграммы.
+Показывает, как задать форматирование заливки, обводки и выносок для меток данных диаграммы.
 
 ```csharp
 Document doc = new Document();
@@ -27,19 +27,19 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Column, 432, 252);
 Chart chart = shape.Chart;
 
-// Удалить созданную по умолчанию серию.
+// Удалить сгенерированную по умолчанию серию.
 chart.Series.Clear();
 
-// Добавляем новую серию.
+// Добавить новую серию.
 ChartSeries series = chart.Series.Add("AW Series 1",
     new string[] { "AW Category 1", "AW Category 2", "AW Category 3", "AW Category 4" },
     new double[] { 100, 200, 300, 400 });
 
-// Показ меток данных.
+// Показать метки данных.
 series.HasDataLabels = true;
 series.DataLabels.ShowValue = true;
 
-// Форматируем метки данных как выноски.
+// Форматировать метки данных как выноски.
 ChartFormat format = series.DataLabels.Format;
 format.ShapeType = ChartShapeType.WedgeRectCallout;
 format.Stroke.Color = Color.DarkGreen;

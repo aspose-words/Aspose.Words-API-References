@@ -3,14 +3,14 @@ title: Document.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words für .NET
-description: Document RenderToScale methode. Rendert eine Dokumentseite in eineGraphics Objekt in einem bestimmten Maßstab in C#.
+description: Entdecken Sie die RenderToScale-Methode, um Dokumentseiten effizient in Grafikobjekte im gewünschten Maßstab zu rendern und so optimale visuelle Ergebnisse zu erzielen.
 type: docs
-weight: 680
+weight: 730
 url: /de/net/aspose.words/document/rendertoscale/
 ---
 ## Document.RenderToScale method
 
-Rendert eine Dokumentseite in eineGraphics Objekt in einem bestimmten Maßstab.
+Rendert eine Dokumentseite in eineGraphics Objekt auf einen bestimmten Maßstab.
 
 ```csharp
 public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, float scale)
@@ -19,7 +19,7 @@ public SizeF RenderToScale(int pageIndex, Graphics graphics, float x, float y, f
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | pageIndex | Int32 | Der 0-basierte Seitenindex. |
-| graphics | Graphics | Das Objekt, zu dem gerendert werden soll. |
+| graphics | Graphics | Das Objekt, in das gerendert werden soll. |
 | x | Single | Die X-Koordinate (in Welteinheiten) der oberen linken Ecke der gerenderten Seite. |
 | y | Single | Die Y-Koordinate (in Welteinheiten) der oberen linken Ecke der gerenderten Seite. |
 | scale | Single | Der Maßstab für die Darstellung der Seite (1,0 ist 100 %). |
@@ -30,23 +30,24 @@ Die Breite und Höhe (in Welteinheiten) der gerenderten Seite.
 
 ## Beispiele
 
-Zeigt, wie die einzelnen Seiten eines Dokuments in Grafiken umgewandelt werden, um ein Bild mit Miniaturansichten aller Seiten zu erstellen.
+Zeigt, wie man aus den einzelnen Seiten eines Dokuments Grafiken macht, um ein Bild mit Miniaturansichten aller Seiten zu erstellen.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Berechnen Sie die Anzahl der Zeilen und Spalten, die wir mit Miniaturansichten füllen.
+// Berechnen Sie die Anzahl der Zeilen und Spalten, die wir mit Miniaturansichten füllen werden.
 const int thumbColumns = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbColumns, out int remainder);
+int thumbRows = doc.PageCount / thumbColumns;
+int remainder = doc.PageCount % thumbColumns;
 
 if (remainder > 0)
     thumbRows++;
 
-// Skaliert die Miniaturansichten relativ zur Größe der ersten Seite.
+// Skalieren Sie die Miniaturansichten relativ zur Größe der ersten Seite.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Berechnen Sie die Größe des Bildes, das alle Miniaturansichten enthält.
+// Berechnen Sie die Größe des Bildes, das alle Miniaturansichten enthalten soll.
 int imgWidth = thumbSize.Width * thumbColumns;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -56,12 +57,13 @@ using (Bitmap img = new Bitmap(imgWidth, imgHeight))
     {
         gr.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
 
-        // Den Hintergrund, der standardmäßig transparent ist, mit Weiß füllen.
+        // Füllen Sie den Hintergrund, der standardmäßig transparent ist, mit Weiß.
         gr.FillRectangle(new SolidBrush(Color.White), 0, 0, imgWidth, imgHeight);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbColumns, out int columnIdx);
+            int rowIdx = pageIndex / thumbColumns;
+            int columnIdx = pageIndex % thumbColumns;
 
             // Geben Sie an, wo das Miniaturbild angezeigt werden soll.
             float thumbLeft = columnIdx * thumbSize.Width;
@@ -82,18 +84,19 @@ Rendert einzelne Seiten in Grafiken, um ein Bild mit Miniaturansichten aller Sei
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// Berechnen Sie die Anzahl der Zeilen und Spalten, die wir mit Miniaturansichten füllen.
+// Berechnen Sie die Anzahl der Zeilen und Spalten, die wir mit Miniaturansichten füllen werden.
 const int thumbnailColumnsNum = 2;
-int thumbRows = Math.DivRem(doc.PageCount, thumbnailColumnsNum, out int remainder);
+int thumbRows = doc.PageCount / thumbnailColumnsNum;
+int remainder = doc.PageCount % thumbnailColumnsNum;
 
 if (remainder > 0)
     thumbRows++;
 
- // Skaliert die Miniaturansichten relativ zur Größe der ersten Seite.
+    // Skalieren Sie die Miniaturansichten relativ zur Größe der ersten Seite.
 const float scale = 0.25f;
 Size thumbSize = doc.GetPageInfo(0).GetSizeInPixels(scale, 96);
 
-// Berechnen Sie die Größe des Bildes, das alle Miniaturansichten enthält.
+// Berechnen Sie die Größe des Bildes, das alle Miniaturansichten enthalten soll.
 int imgWidth = thumbSize.Width * thumbnailColumnsNum;
 int imgHeight = thumbSize.Height * thumbRows;
 
@@ -101,12 +104,13 @@ using (SKBitmap bitmap = new SKBitmap(imgWidth, imgHeight))
 {
     using (SKCanvas canvas = new SKCanvas(bitmap))
     {
-        // Den Hintergrund, der standardmäßig transparent ist, mit Weiß füllen.
+        // Füllen Sie den Hintergrund, der standardmäßig transparent ist, mit Weiß.
         canvas.Clear(SKColors.White);
 
         for (int pageIndex = 0; pageIndex < doc.PageCount; pageIndex++)
         {
-            int rowIdx = Math.DivRem(pageIndex, thumbnailColumnsNum, out int columnIdx);
+            int rowIdx = pageIndex / thumbnailColumnsNum;
+            int columnIdx = pageIndex % thumbnailColumnsNum;
 
             // Geben Sie an, wo das Miniaturbild angezeigt werden soll.
             float thumbLeft = columnIdx * thumbSize.Width;

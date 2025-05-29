@@ -2,8 +2,8 @@
 title: OdsoRecipientDataCollection.RemoveAt
 linktitle: RemoveAt
 articleTitle: RemoveAt
-second_title: Aspose.Words for .NET
-description: OdsoRecipientDataCollection RemoveAt yöntem. Belirtilen dizindeki öğeyi kaldırır C#'da.
+second_title: .NET için Aspose.Words
+description: Veri yönetimi verimliliğinizi artırmak için öğeleri dizine göre zahmetsizce kaldırmak üzere OdsoRecipientDataCollection RemoveAt yöntemini keşfedin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words.settings/odsorecipientdatacollection/removeat/
@@ -18,11 +18,11 @@ public void RemoveAt(int index)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| index | Int32 | Öğenin sıfır tabanlı dizini. |
+| index | Int32 | Elemanın sıfırdan başlayan indeksi. |
 
 ## Örnekler
 
-Adres-mektup birleştirmenin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirleyen veri koleksiyonuna nasıl erişileceğini gösterir.
+Bir posta birleştirme işleminin hangi birleştirme veri kaynağı kayıtlarını hariç tutacağını belirten veri koleksiyonuna nasıl erişileceğini gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Odso data.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 // Bu koleksiyondaki elemanları klonlayabiliriz.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Ayrıca öğeleri tek tek kaldırabiliriz veya koleksiyonun tamamını bir kerede temizleyebiliriz.
+// Ayrıca öğeleri tek tek kaldırabilir veya tüm koleksiyonu bir kerede temizleyebiliriz.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(69, dataCollection.Count);

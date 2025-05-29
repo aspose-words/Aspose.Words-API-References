@@ -3,14 +3,14 @@ title: RevisionGroup.RevisionType
 linktitle: RevisionType
 articleTitle: RevisionType
 second_title: Aspose.Words لـ .NET
-description: RevisionGroup RevisionType ملكية. الحصول على نوع المراجعات المضمنة في هذه المجموعة في C#.
+description: اكتشف خاصية RevisionGroup RevisionType لتحديد أنواع المراجعات في مشروعك وإدارتها بسهولة. بسّط سير عملك اليوم!
 type: docs
 weight: 20
 url: /ar/net/aspose.words/revisiongroup/revisiontype/
 ---
 ## RevisionGroup.RevisionType property
 
-الحصول على نوع المراجعات المضمنة في هذه المجموعة.
+يحصل على نوع المراجعات المضمنة في هذه المجموعة.
 
 ```csharp
 public RevisionType RevisionType { get; }
@@ -18,7 +18,7 @@ public RevisionType RevisionType { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة معلومات حول مجموعة من المراجعات في مستند.
+يوضح كيفية طباعة المعلومات حول مجموعة من المراجعات في مستند.
 
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");

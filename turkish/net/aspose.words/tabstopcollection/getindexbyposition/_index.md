@@ -2,15 +2,15 @@
 title: TabStopCollection.GetIndexByPosition
 linktitle: GetIndexByPosition
 articleTitle: GetIndexByPosition
-second_title: Aspose.Words for .NET
-description: TabStopCollection GetIndexByPosition yöntem. Nokta cinsinden belirtilen konuma sahip bir sekme durağının dizinini alır C#'da.
+second_title: .NET için Aspose.Words
+description: Herhangi bir belirtilen nokta pozisyonundaki bir sekme durağının dizinini kolayca bulmak için TabStopCollection GetIndexByPosition metodunu keşfedin. Hassas düzen kontrolü için mükemmel!
 type: docs
 weight: 90
 url: /tr/net/aspose.words/tabstopcollection/getindexbyposition/
 ---
 ## TabStopCollection.GetIndexByPosition method
 
-Nokta cinsinden belirtilen konuma sahip bir sekme durağının dizinini alır.
+Belirtilen noktadaki bir sekme durağının dizinini alır.
 
 ```csharp
 public int GetIndexByPosition(double position)
@@ -18,21 +18,21 @@ public int GetIndexByPosition(double position)
 
 ## Örnekler
 
-Orada bir sekme durağının bulunup bulunmadığını görmek ve dizinini almak için bir konumun nasıl aranacağını gösterir.
+Bir sekme durağının orada olup olmadığını görmek ve indeksini almak için bir konumun nasıl aranacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.TabStops;
 
-// 30 mm'lik bir konuma bir sekme durağı ekleyin.
+// 30 mm'lik bir konuma sekme durağı ekleyin.
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 
-// "GetIndexByPosition" tarafından döndürülen "0" sonucu, bir sekme durağının olduğunu doğrular
-// 30mm'de bu koleksiyonda var ve 0 dizininde.
+// "GetIndexByPosition" tarafından döndürülen "0" sonucu, bir sekme durağının
+// bu koleksiyonda 30mm mevcuttur ve indeksi 0'dır.
 Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
 
-// "GetIndexByPosition" tarafından döndürülen "-1" şunu doğrular:
-// bu koleksiyonda 60mm konumlu sekme durağı yoktur.
+// "GetIndexByPosition" tarafından döndürülen "-1" bunu doğrular
+// Bu koleksiyonda 60mm pozisyonunda bir sekme durağı bulunmamaktadır.
 Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
 ```
 

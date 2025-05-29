@@ -3,14 +3,14 @@ title: DocumentVisitor.VisitCommentRangeStart
 linktitle: VisitCommentRangeStart
 articleTitle: VisitCommentRangeStart
 second_title: Aspose.Words для .NET
-description: DocumentVisitor VisitCommentRangeStart метод. Вызывается когда встречается начало закомментированного диапазона текста на С#.
+description: Изучите метод DocumentVisitor VisitCommentRangeStart для эффективной обработки текстовых комментариев в коде, повышения читабельности и организации.
 type: docs
 weight: 120
 url: /ru/net/aspose.words/documentvisitor/visitcommentrangestart/
 ---
 ## DocumentVisitor.VisitCommentRangeStart method
 
-Вызывается, когда встречается начало закомментированного диапазона текста.
+Вызывается при обнаружении начала закомментированного диапазона текста.
 
 ```csharp
 public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRangeStart)
@@ -18,7 +18,7 @@ public virtual VisitorAction VisitCommentRangeStart(CommentRangeStart commentRan
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| commentRangeStart | CommentRangeStart | Объект, который посещается. |
+| commentRangeStart | CommentRangeStart | Посещаемый объект. |
 
 ### Возвращаемое значение
 
@@ -34,7 +34,7 @@ public void CommentsToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     CommentStructurePrinter visitor = new CommentStructurePrinter();
 
-    // Когда мы получаем составной узел для приема посетителя документа, посетитель посещает принимающий узел,
+    // Когда мы заставляем составной узел принять посетителя документа, посетитель посещает принимающий узел,
     // а затем обходит все дочерние узлы в глубину.
     // Посетитель может читать и изменять каждый посещенный узел.
     doc.Accept(visitor);
@@ -61,7 +61,7 @@ public class CommentStructurePrinter : DocumentVisitor
 
     /// <summary>
     /// Вызывается, когда в документе встречается узел Run.
-    /// Запуск записывается только в том случае, если он является дочерним элементом узла Comment или CommentRange.
+    /// Запуск регистрируется только в том случае, если он является дочерним элементом узла Comment или CommentRange.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -108,7 +108,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Вызывается после посещения всех дочерних узлов узла комментариев.
+    /// Вызывается после посещения всех дочерних узлов узла Comment.
     /// </summary>
     public override VisitorAction VisitCommentEnd(Comment comment)
     {
@@ -120,7 +120,7 @@ public class CommentStructurePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от глубины погружения посетителя
+    /// Добавляем строку в StringBuilder и делаем отступ в зависимости от того, насколько глубоко находится посетитель
     /// в дерево дочерних узлов комментария/диапазона комментариев.
     /// </summary>
     /// <param name="text"></param>

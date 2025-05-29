@@ -2,8 +2,8 @@
 title: Node.PreviousSibling
 linktitle: PreviousSibling
 articleTitle: PreviousSibling
-second_title: Aspose.Words for .NET
-description: Node PreviousSibling mülk. Bu düğümden hemen önceki düğümü alır C#'da.
+second_title: .NET için Aspose.Words
+description: Mevcut düğümünüzden önce gelen düğüme kolayca erişmek için Node PreviousSibling özelliğini keşfedin ve DOM manipülasyon becerilerinizi geliştirin.
 type: docs
 weight: 70
 url: /tr/net/aspose.words/node/previoussibling/
@@ -18,7 +18,7 @@ public Node PreviousSibling { get; }
 
 ## Notlar
 
-Önceki düğüm yoksa, bir`hükümsüz` döndürülür.
+Eğer öncesinde bir düğüm yoksa,`hükümsüz` döndürülür.
 
 ## Örnekler
 
@@ -36,11 +36,11 @@ builder.Writeln("Section 2 text.");
 Section lastSection = (Section)doc.LastChild;
 Section firstSection = (Section)lastSection.PreviousSibling;
 
-// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldırın.
+// Bir bölümü, başka bir bölümle olan kardeş ilişkisine göre kaldır.
 if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
-// Kaldırdığımız bölüm ilk bölümdü, belgede yalnızca ikinci bölüm kaldı.
+// Kaldırdığımız bölüm ilk bölümdü, belgede sadece ikinci bölüm kaldı.
 Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
 ```
 

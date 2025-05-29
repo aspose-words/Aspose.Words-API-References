@@ -3,9 +3,9 @@ title: IDocumentConverterPlugin Interface
 linktitle: IDocumentConverterPlugin
 articleTitle: IDocumentConverterPlugin
 second_title: Aspose.Words لـ .NET
-description: Aspose.Words.IDocumentConverterPlugin واجهه المستخدم. يحدد واجهة للمكون الإضافي للمحول الخارجي في C#.
+description: اكتشف واجهة Aspose.Words.IDocumentConverterPlugin - الحل الأمثل لتحويل مستندات خارجية بسلاسة. حسّن سير عملك اليوم!
 type: docs
-weight: 3160
+weight: 3590
 url: /ar/net/aspose.words/idocumentconverterplugin/
 ---
 ## IDocumentConverterPlugin interface
@@ -20,7 +20,8 @@ public interface IDocumentConverterPlugin
 
 | اسم | وصف |
 | --- | --- |
-| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(*Stream, Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | تحويل المستند باستخدام تدفقات الإدخال والإخراج المحددة وخيارات الحفظ. |
+| [Convert](../../aspose.words/idocumentconverterplugin/convert/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), Stream, [SaveOptions](../../aspose.words.saving/saveoptions/)*) | يحول المستند باستخدام تدفقات الإدخال والإخراج المحددة وخيارات الحفظ. |
+| [ConvertToImages](../../aspose.words/idocumentconverterplugin/converttoimages/)(*Stream, [LoadOptions](../../aspose.words.loading/loadoptions/), [SaveOptions](../../aspose.words.saving/saveoptions/)*) | يحول الصفحات من مستند من مجرى الإدخال إلى مجموعة من الصور. |
 
 ### أنظر أيضا
 

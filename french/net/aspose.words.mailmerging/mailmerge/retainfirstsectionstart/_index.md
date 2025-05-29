@@ -3,14 +3,14 @@ title: MailMerge.RetainFirstSectionStart
 linktitle: RetainFirstSectionStart
 articleTitle: RetainFirstSectionStart
 second_title: Aspose.Words pour .NET
-description: MailMerge RetainFirstSectionStart propriété. Obtient ou définit une valeur indiquant si leSectionStart de la première section du document et ses copies pour les lignes de source de données suivantes sont conservées lors du publipostage ou mises à jour selon le comportement de MS Word en C#.
+description: Découvrez comment la propriété MailMerge RetainFirstSectionStart améliore la personnalisation de votre document, garantissant des démarrages de section cohérents lors des fusions de courrier.
 type: docs
 weight: 120
 url: /fr/net/aspose.words.mailmerging/mailmerge/retainfirstsectionstart/
 ---
 ## MailMerge.RetainFirstSectionStart property
 
-Obtient ou définit une valeur indiquant si le[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/) de la première section du document et ses copies pour les lignes de source de données suivantes sont conservées lors du publipostage ou mises à jour selon le comportement de MS Word.
+Obtient ou définit une valeur indiquant si le[`SectionStart`](../../../aspose.words/pagesetup/sectionstart/) de la première section du document et de ses copies pour les lignes de source de données suivantes sont conservées lors du publipostage ou mises à jour conformément au comportement de MS Word.
 
 ```csharp
 public bool RetainFirstSectionStart { get; set; }

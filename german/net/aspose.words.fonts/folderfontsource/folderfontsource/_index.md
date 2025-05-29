@@ -3,7 +3,7 @@ title: FolderFontSource
 linktitle: FolderFontSource
 articleTitle: FolderFontSource
 second_title: Aspose.Words für .NET
-description: FolderFontSource constructeur. Ctor in C#.
+description: Entdecken Sie den FolderFontSource-Konstruktor für nahtloses Schriftmanagement. Optimieren Sie Ihre Webprojekte noch heute mit effizienter Schriftbeschaffung!
 type: docs
 weight: 10
 url: /de/net/aspose.words.fonts/folderfontsource/folderfontsource/
@@ -26,7 +26,7 @@ public FolderFontSource(string folderPath, bool scanSubfolders)
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();
@@ -59,14 +59,14 @@ public FolderFontSource(string folderPath, bool scanSubfolders, int priority)
 | --- | --- | --- |
 | folderPath | String | Pfad zum Ordner. |
 | scanSubfolders | Boolean | Legt fest, ob Unterordner gescannt werden sollen oder nicht. |
-| priority | Int32 | Priorität der Schriftartquelle. Siehe die[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
+| priority | Int32 | Priorität der Schriftartquelle. Siehe[`Priority`](../../fontsourcebase/priority/) Weitere Informationen finden Sie in der Objektbeschreibung. |
 
 ## Beispiele
 
 Zeigt, wie ein lokaler Systemordner, der Schriftarten enthält, als Schriftartenquelle verwendet wird.
 
 ```csharp
-// Erstellen Sie eine Schriftartenquelle aus einem Ordner, der Schriftartendateien enthält.
+// Erstellen Sie eine Schriftartquelle aus einem Ordner, der Schriftartdateien enthält.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false, 1);
 
 Document doc = new Document();

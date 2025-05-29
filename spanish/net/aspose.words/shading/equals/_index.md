@@ -3,7 +3,7 @@ title: Shading.Equals
 linktitle: Equals
 articleTitle: Equals
 second_title: Aspose.Words para .NET
-description: Shading Equals método. Determina si el especificadoShading es igual en valor a la corrienteShading  en C#.
+description: Descubre el método Shading Equals para comparar fácilmente los valores de sombreado y garantizar resultados precisos en tus proyectos. ¡Optimiza tu programación hoy mismo!
 type: docs
 weight: 90
 url: /es/net/aspose.words/shading/equals/
@@ -26,7 +26,7 @@ public bool Equals(Shading rhs)
 
 ## Equals(*object*) {#equals_1}
 
-Determina si el objeto especificado tiene el mismo valor que el objeto actual.
+Determina si el objeto especificado es igual en valor al objeto actual.
 
 ```csharp
 public override bool Equals(object obj)

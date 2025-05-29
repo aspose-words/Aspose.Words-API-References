@@ -3,14 +3,14 @@ title: PclSaveOptions.SaveFormat
 linktitle: SaveFormat
 articleTitle: SaveFormat
 second_title: Aspose.Words für .NET
-description: PclSaveOptions SaveFormat eigendom. Gibt das Format an in dem das Dokument gespeichert wird wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPcl  in C#.
+description: Entdecken Sie die SaveFormat-Eigenschaft von PclSaveOptions, um Dokumente einfach im PCL-Format zu speichern und so Kompatibilität und eine hochwertige Ausgabe für Ihre Projekte sicherzustellen.
 type: docs
 weight: 40
 url: /de/net/aspose.words.saving/pclsaveoptions/saveformat/
 ---
 ## PclSaveOptions.SaveFormat property
 
-Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicheroptionsobjekt verwendet wird. Kann nur seinPcl .
+Gibt das Format an, in dem das Dokument gespeichert wird, wenn dieses Speicheroptionsobjekt verwendet wird. Kann nurPcl .
 
 ```csharp
 public override SaveFormat SaveFormat { get; set; }
@@ -18,7 +18,7 @@ public override SaveFormat SaveFormat { get; set; }
 
 ## Beispiele
 
-Zeigt, wie man komplexe Elemente rastern kann, während man ein Dokument in PCL speichert.
+Zeigt, wie komplexe Elemente beim Speichern eines Dokuments im PCL-Format gerastert werden.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");

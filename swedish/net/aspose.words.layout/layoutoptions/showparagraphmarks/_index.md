@@ -3,14 +3,14 @@ title: LayoutOptions.ShowParagraphMarks
 linktitle: ShowParagraphMarks
 articleTitle: ShowParagraphMarks
 second_title: Aspose.Words för .NET
-description: LayoutOptions ShowParagraphMarks fast egendom. Hämtar eller ställer in en indikation på om stycketecken återges. Standard ärfalsk  i C#.
+description: Upptäck hur egenskapen ShowParagraphMarks i LayoutOptions förbättrar textformateringen genom att växla mellan synligheten av styckemarkeringar. Förbättra tydligheten i ditt dokument idag!
 type: docs
 weight: 90
 url: /sv/net/aspose.words.layout/layoutoptions/showparagraphmarks/
 ---
 ## LayoutOptions.ShowParagraphMarks property
 
-Hämtar eller ställer in en indikation på om stycketecken återges. Standard är`falsk` .
+Hämtar eller anger om stycketecken återges. Standard är`falsk` .
 
 ```csharp
 public bool ShowParagraphMarks { get; set; }
@@ -18,13 +18,13 @@ public bool ShowParagraphMarks { get; set; }
 
 ## Exempel
 
-Visar hur man visar styckemärken i ett renderat utdatadokument.
+Visar hur man visar stycketecken i ett renderat utdatadokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Lägg till några stycken och aktivera sedan styckemärken för att visa slutet på stycken
-// med en pilkråka (¶) symbol när vi renderar dokumentet.
+// Lägg till några stycken och aktivera sedan stycketecken för att visa slutet på stycken
+// med en pilcrow-symbol (¶) när vi renderar dokumentet.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 

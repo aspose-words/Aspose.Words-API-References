@@ -3,14 +3,14 @@ title: ChartDataLabelCollection.NumberFormat
 linktitle: NumberFormat
 articleTitle: NumberFormat
 second_title: Aspose.Words لـ .NET
-description: ChartDataLabelCollection NumberFormat ملكية. يحصل علىChartNumberFormat مثيل يسمح بتعيين تنسيق الأرقام لتسميات البيانات الخاصة بسلسلة بأكملها في C#.
+description: اكتشف خاصية ChartDataLabelCollection NumberFormat لتخصيص تنسيقات تسميات البيانات بسهولة لسلسلتك بأكملها، مما يعزز الوضوح والعرض.
 type: docs
 weight: 50
 url: /ar/net/aspose.words.drawing.charts/chartdatalabelcollection/numberformat/
 ---
 ## ChartDataLabelCollection.NumberFormat property
 
-يحصل على[`ChartNumberFormat`](../../chartnumberformat/) مثيل يسمح بتعيين تنسيق الأرقام لتسميات البيانات الخاصة بسلسلة بأكملها.
+يحصل على[`ChartNumberFormat`](../../chartnumberformat/) مثال يسمح بتعيين تنسيق الأرقام لملصقات البيانات الخاصة بالسلسلة بأكملها.
 
 ```csharp
 public ChartNumberFormat NumberFormat { get; }
@@ -18,32 +18,32 @@ public ChartNumberFormat NumberFormat { get; }
 
 ## أمثلة
 
-يوضح كيفية تمكين تسميات البيانات وتكوينها لسلسلة مخططات.
+يوضح كيفية تمكين وتكوين تسميات البيانات لسلسلة الرسم البياني.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أضف مخططًا خطيًا، ثم امسح سلسلة بيانات العرض التوضيحي الخاصة به للبدء بمخطط نظيف،
-// ثم قم بتعيين العنوان.
+// أضف مخططًا خطيًا، ثم امسح سلسلة البيانات التجريبية الخاصة به للبدء بمخطط نظيف،
+//ثم قم بتعيين عنوان.
 Shape shape = builder.InsertChart(ChartType.Line, 500, 300);
 Chart chart = shape.Chart;
 chart.Series.Clear();
 chart.Title.Text = "Monthly sales report";
 
-// قم بإدراج سلسلة مخططات مخصصة بالأشهر كفئات للمحور السيني،
-// والمبالغ العشرية المعنية للمحور ص.
-ChartSeries series = chart.Series.Add("Revenue", 
-    new[] { "January", "February", "March" }, 
+// إدراج سلسلة مخططات مخصصة مع الأشهر كفئات للمحور X،
+// والمبالغ العشرية المقابلة للمحور Y.
+ChartSeries series = chart.Series.Add("Revenue",
+    new[] { "January", "February", "March" },
     new[] { 25.611d, 21.439d, 33.750d });
 
-// قم بتمكين تسميات البيانات، ثم قم بتطبيق تنسيق أرقام مخصص للقيم المعروضة في تسميات البيانات.
-// سيتعامل هذا التنسيق مع القيم العشرية المعروضة كملايين الدولارات الأمريكية.
+// قم بتمكين تسميات البيانات، ثم قم بتطبيق تنسيق رقم مخصص للقيم المعروضة في تسميات البيانات.
+// سيعامل هذا التنسيق القيم العشرية المعروضة كملايين الدولارات الأمريكية.
 series.HasDataLabels = true;
 ChartDataLabelCollection dataLabels = series.DataLabels;
 dataLabels.ShowValue = true;
 dataLabels.NumberFormat.FormatCode = "\"US$\" #,##0.000\"M\"";
-dataLabels.Font.Size = 12;            
+dataLabels.Font.Size = 12;
 
 doc.Save(ArtifactsDir + "Charts.DataLabelNumberFormat.docx");
 ```

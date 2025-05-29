@@ -3,14 +3,14 @@ title: MailMergeSettings.ViewMergedData
 linktitle: ViewMergedData
 articleTitle: ViewMergedData
 second_title: Aspose.Words pour .NET
-description: MailMergeSettings ViewMergedData propriété. Spécifie que Microsoft Word doit afficher les données de la source de données externe spécifiée dans laquelle les champs de fusion ont été insérés par exemple prévisualiser les données fusionnées. La valeur par défaut estFAUX  en C#.
+description: Découvrez comment la propriété ViewMergedData de MailMergeSettings dans Microsoft Word améliore la création de vos documents en prévisualisant les données fusionnées à partir de sources externes.
 type: docs
 weight: 170
 url: /fr/net/aspose.words.settings/mailmergesettings/viewmergeddata/
 ---
 ## MailMergeSettings.ViewMergedData property
 
-Spécifie que Microsoft Word doit afficher les données de la source de données externe spécifiée dans laquelle les champs de fusion ont été insérés (par exemple, prévisualiser les données fusionnées). La valeur par défaut est`FAUX` .
+Spécifie que Microsoft Word doit afficher les données de la source de données externe spécifiée où les champs de fusion ont été insérés (par exemple, aperçu des données fusionnées). La valeur par défaut est`FAUX` .
 
 ```csharp
 public bool ViewMergedData { get; set; }
@@ -18,7 +18,7 @@ public bool ViewMergedData { get; set; }
 
 ## Exemples
 
-Montre comment exécuter un publipostage avec des données provenant d’un objet source de données Office.
+Montre comment exécuter un publipostage avec des données provenant d'un objet source de données Office.
 
 ```csharp
 Document doc = new Document();
@@ -31,8 +31,8 @@ builder.InsertField("MERGEFIELD LastName", "<LastName>");
 builder.Writeln(": ");
 builder.InsertField("MERGEFIELD Message", "<Message>");
 
-// Crée une source de données sous forme de fichier ASCII, avec le "|" personnage
-// agissant comme délimiteur qui sépare les colonnes. La première ligne contient les noms des trois colonnes,
+// Créer une source de données sous la forme d'un fichier ASCII, avec le caractère "|"
+// agit comme séparateur de colonnes. La première ligne contient les noms des trois colonnes.
 // et chaque ligne suivante est une ligne avec leurs valeurs respectives.
 string[] lines = { "FirstName|LastName|Message",
     "John|Doe|Hello! This message was created with Aspose Words mail merge." };

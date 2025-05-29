@@ -2,15 +2,15 @@
 title: Shape.HasSmartArt
 linktitle: HasSmartArt
 articleTitle: HasSmartArt
-second_title: Aspose.Words for .NET
-description: Shape HasSmartArt mülk. İadelerdoğru Eğer buShape bir SmartArt nesnesi var C#'da.
+second_title: .NET için Aspose.Words
+description: Shape'inizin HasSmartArt özelliğine sahip bir SmartArt nesnesi içerip içermediğini keşfedin. Projeleriniz için yaratıcı tasarım olanaklarının kilidini açın!
 type: docs
-weight: 90
+weight: 100
 url: /tr/net/aspose.words.drawing/shape/hassmartart/
 ---
 ## Shape.HasSmartArt property
 
-İadeler`doğru` Eğer bu[`Shape`](../) bir SmartArt nesnesi var.
+Geri Döndürür`doğru` eğer bu[`Shape`](../) bir SmartArt nesnesi var.
 
 ```csharp
 public bool HasSmartArt { get; }
@@ -18,7 +18,7 @@ public bool HasSmartArt { get; }
 
 ## Örnekler
 
-SmartArt nesneleri içeren bir belgedeki şekillerin sayısının nasıl sayılacağını gösterir.
+SmartArt nesneleriyle bir belgedeki şekil sayısının nasıl sayılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "SmartArt.docx");

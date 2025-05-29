@@ -3,14 +3,14 @@ title: SvgSaveOptions.FitToViewPort
 linktitle: FitToViewPort
 articleTitle: FitToViewPort
 second_title: Aspose.Words para .NET
-description: SvgSaveOptions FitToViewPort propiedad. Especifica si el SVG de salida debe llenar el área de la ventana gráfica disponible ventana del navegador o contenedor. Cuando se establece enverdadero El ancho y alto del SVG de salida se establecen en 100 en C#.
+description: Descubra cómo la propiedad FitToViewPort de SvgSaveOptions optimiza su salida SVG para llenar perfectamente cualquier ventana o contenedor del navegador y obtener imágenes impactantes.
 type: docs
 weight: 30
 url: /es/net/aspose.words.saving/svgsaveoptions/fittoviewport/
 ---
 ## SvgSaveOptions.FitToViewPort property
 
-Especifica si el SVG de salida debe llenar el área de la ventana gráfica disponible (ventana del navegador o contenedor). Cuando se establece en`verdadero` El ancho y alto del SVG de salida se establecen en 100%.
+Especifica si el SVG de salida debe llenar el área de la ventana gráfica disponible (ventana del navegador o contenedor). Cuando se establece en`verdadero`El ancho y la altura del SVG de salida se establecen al 100%.
 
 El valor predeterminado es`FALSO`.
 

@@ -3,9 +3,9 @@ title: DocumentBuilder.MoveToField
 linktitle: MoveToField
 articleTitle: MoveToField
 second_title: Aspose.Words لـ .NET
-description: DocumentBuilder MoveToField طريقة. يحرك المؤشر إلى حقل في المستند في C#.
+description: قم بالتنقل بسهولة عبر مستنداتك باستخدام طريقة MoveToField في DocumentBuilder، مما يسمح بتحريك المؤشر بسرعة إلى أي حقل لتحسين كفاءة التحرير.
 type: docs
-weight: 530
+weight: 570
 url: /ar/net/aspose.words/documentbuilder/movetofield/
 ---
 ## DocumentBuilder.MoveToField method
@@ -19,7 +19,7 @@ public void MoveToField(Field field, bool isAfter)
 | معامل | يكتب | وصف |
 | --- | --- | --- |
 | field | Field | الحقل الذي سيتم نقل المؤشر إليه. |
-| isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. متى`خطأ شنيع`، يحرك المؤشر ليكون قبل بدء الحقل. |
+| isAfter | Boolean | متى`حقيقي` ، يحرك المؤشر ليكون بعد نهاية الحقل. عندما`خطأ شنيع`، يحرك المؤشر ليكون قبل بداية الحقل. |
 
 ## أمثلة
 
@@ -29,19 +29,19 @@ public void MoveToField(Field field, bool isAfter)
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// أدخل حقلاً باستخدام DocumentBuilder وأضف سلسلة من النص بعده.
+// قم بإدراج حقل باستخدام DocumentBuilder وأضف سلسلة من النص بعده.
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
 // مؤشر المنشئ موجود حاليًا في نهاية المستند.
 Assert.Null(builder.CurrentNode);
 
-// حرك المؤشر إلى الحقل أثناء تحديد ما إذا كنت تريد وضع هذا المؤشر قبل الحقل أم بعده.
+// نقل المؤشر إلى الحقل مع تحديد ما إذا كان سيتم وضع هذا المؤشر قبل الحقل أو بعده.
 builder.MoveToField(field, moveCursorToAfterTheField);
 
-// لاحظ أن المؤشر خارج الحقل في كلتا الحالتين.
-// هذا يعني أنه لا يمكننا تعديل الحقل باستخدام المنشئ بهذه الطريقة.
+// لاحظ أن المؤشر يقع خارج الحقل في كلتا الحالتين.
+// وهذا يعني أننا لا نستطيع تحرير الحقل باستخدام المنشئ مثل هذا.
 // لتحرير حقل، يمكننا استخدام طريقة MoveTo الخاصة بالمنشئ في FieldStart الخاص بالحقل
-// أو عقدة FieldSeparator لوضع المؤشر بالداخل.
+// أو عقدة FieldSeparator لوضع المؤشر بداخلها.
 if (moveCursorToAfterTheField)
 {
     Assert.Null(builder.CurrentNode);

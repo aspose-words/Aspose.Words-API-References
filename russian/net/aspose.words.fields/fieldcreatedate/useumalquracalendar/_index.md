@@ -3,14 +3,14 @@ title: FieldCreateDate.UseUmAlQuraCalendar
 linktitle: UseUmAlQuraCalendar
 articleTitle: UseUmAlQuraCalendar
 second_title: Aspose.Words для .NET
-description: FieldCreateDate UseUmAlQuraCalendar свойство. Получает или задает необходимость использования календаря УмальКура на С#.
+description: Управляйте форматами дат без усилий с помощью свойства FieldCreateDate UseUmAlQuraCalendar. Переключитесь на календарь UmalQura для точной обработки дат.
 type: docs
 weight: 40
 url: /ru/net/aspose.words.fields/fieldcreatedate/useumalquracalendar/
 ---
 ## FieldCreateDate.UseUmAlQuraCalendar property
 
-Получает или задает необходимость использования календаря Ум-аль-Кура.
+Возвращает или задает, использовать ли календарь Ум-аль-Кура.
 
 ```csharp
 public bool UseUmAlQuraCalendar { get; set; }

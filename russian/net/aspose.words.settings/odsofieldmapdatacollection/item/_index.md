@@ -3,7 +3,7 @@ title: OdsoFieldMapDataCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapDataCollection Item свойство. Получает или задает элемент в этой коллекции на С#.
+description: Откройте для себя свойство Item OdsoFieldMapDataCollection, чтобы легко управлять и настраивать вашу коллекцию данных. Улучшите обработку данных сегодня!
 type: docs
 weight: 30
 url: /ru/net/aspose.words.settings/odsofieldmapdatacollection/item/
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

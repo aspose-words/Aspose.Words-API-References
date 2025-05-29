@@ -3,14 +3,14 @@ title: ViewOptions.FormsDesign
 linktitle: FormsDesign
 articleTitle: FormsDesign
 second_title: Aspose.Words per .NET
-description: ViewOptions FormsDesign proprietà. Specifica se il documento è in modalità progettazione moduli in C#.
+description: Scopri come ViewOptions FormsDesign migliora l'esperienza dei tuoi documenti attivando e disattivando la modalità di progettazione dei moduli per una modifica e una personalizzazione senza interruzioni.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/viewoptions/formsdesign/
 ---
 ## ViewOptions.FormsDesign property
 
-Specifica se il documento è in modalità progettazione moduli.
+Specifica se il documento è in modalità di progettazione moduli.
 
 ```csharp
 public bool FormsDesign { get; set; }
@@ -29,8 +29,8 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Writeln("Hello world!");
 
-// Imposta la proprietà "FormsDesign" su "false" per mantenere disabilitata la modalità di progettazione dei moduli.
-// Imposta la proprietà "FormsDesign" su "true" per abilitare la modalità di progettazione dei moduli.
+// Impostare la proprietà "FormsDesign" su "false" per mantenere disabilitata la modalità di progettazione dei moduli.
+// Impostare la proprietà "FormsDesign" su "true" per abilitare la modalità di progettazione dei moduli.
 doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");

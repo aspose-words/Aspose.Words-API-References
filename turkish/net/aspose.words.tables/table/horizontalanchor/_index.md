@@ -2,15 +2,15 @@
 title: Table.HorizontalAnchor
 linktitle: HorizontalAnchor
 articleTitle: HorizontalAnchor
-second_title: Aspose.Words for .NET
-description: Table HorizontalAnchor mülk. Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değerColumn  C#'da.
+second_title: .NET için Aspose.Words
+description: Kayan tablo konumlandırmasını optimize etmek için Table HorizontalAnchor özelliğini keşfedin. Gelişmiş düzen kontrolü için yatay hizalamayı kolayca özelleştirin.
 type: docs
 weight: 170
 url: /tr/net/aspose.words.tables/table/horizontalanchor/
 ---
 ## Table.HorizontalAnchor property
 
-Kayan tablonun yatay konumunun hesaplanması gereken temel nesneyi alır. Varsayılan değer:Column .
+Yüzen tablonun yatay konumlandırmasının hesaplanacağı temel nesneyi alır. Varsayılan değerColumn .
 
 ```csharp
 public RelativeHorizontalPosition HorizontalAnchor { get; set; }
@@ -18,7 +18,7 @@ public RelativeHorizontalPosition HorizontalAnchor { get; set; }
 
 ## Örnekler
 
-Kayan tablo özellikleriyle nasıl çalışılacağını gösterir.
+Yüzen tablo özellikleriyle nasıl çalışılacağını gösterir.
 
 ```csharp
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
@@ -31,12 +31,12 @@ if (table.TextWrapping == TextWrapping.Around)
     Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
     Assert.AreEqual(false, table.AllowOverlap);
 
-    // HorizontalAnchor ayarlayıcı için RelativeHorizontalPosition'da yalnızca Kenar Boşluğu, Sayfa, Sütun mevcuttur.
-    // ArgumentException diğer değerler için atılacak.
+    // YatayBağlantı ayarlayıcısı için RelativeHorizontalPosition'da yalnızca Kenar Boşluğu, Sayfa, Sütun kullanılabilir.
+    // Diğer tüm değerler için ArgumentException atılacaktır.
     table.HorizontalAnchor = RelativeHorizontalPosition.Column;
 
-    // VerticalAnchor ayarlayıcı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf mevcuttur.
-    // ArgumentException diğer değerler için atılacak.
+    // VerticalAnchor ayarlayıcısı için RelativeVerticalPosition'da yalnızca Kenar Boşluğu, Sayfa, Paragraf kullanılabilir.
+    // Diğer tüm değerler için ArgumentException atılacaktır.
     table.VerticalAnchor = RelativeVerticalPosition.Page;
 }
 ```

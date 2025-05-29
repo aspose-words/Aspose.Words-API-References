@@ -2,15 +2,15 @@
 title: EndnoteOptions.NumberStyle
 linktitle: NumberStyle
 articleTitle: NumberStyle
-second_title: Aspose.Words for .NET
-description: EndnoteOptions NumberStyle mülk. Otomatik olarak numaralandırılan son notlar için sayı biçimini belirtir C#'da.
+second_title: .NET için Aspose.Words
+description: EndnoteOptions NumberStyle özelliğini keşfedin ve dipnotlarınızın sayı biçimini zahmetsizce özelleştirin. Belgenizin profesyonelliğini bugün artırın!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.notes/endnoteoptions/numberstyle/
 ---
 ## EndnoteOptions.NumberStyle property
 
-Otomatik olarak numaralandırılan son notlar için sayı biçimini belirtir.
+Otomatik olarak numaralandırılan dipnotlar için sayı biçimini belirtir.
 
 ```csharp
 public NumberStyle NumberStyle { get; set; }
@@ -18,24 +18,24 @@ public NumberStyle NumberStyle { get; set; }
 
 ## Notlar
 
-Bu özellik için tüm sayı stilleri geçerli değildir. Uygulanabilir sayı stillerinin listesi için Microsoft Word'deki Dipnot veya Sonnot Ekle iletişim kutusuna bakın. Uygun olmayan bir sayı stilini seçerseniz, Microsoft Word varsayılan değere geri döner.
+Tüm sayı stilleri bu özellik için geçerli değildir. Uygulanabilir sayı stilleri listesi için Microsoft Word'deki Dipnot veya Sonnot Ekle iletişim kutusuna bakın. Uygulanabilir olmayan bir sayı stili seçerseniz, Microsoft Word varsayılan bir değere geri döner.
 
 ## Örnekler
 
-Dipnot/sonnot referans işaretlerinin sayı stilinin nasıl değiştirileceğini gösterir.
+Dipnot/sonnot referans işaretlerinin numara stilinin nasıl değiştirileceğini gösterir.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Dipnotlar ve son notlar metne referans veya yan yorum eklemenin bir yoludur
- // bu, ana gövde metninin akışına müdahale etmez.
+// Dipnotlar ve son notlar metne bir referans veya yan yorum eklemenin bir yoludur
+ // ana gövde metninin akışını engellemeyen.
 // Dipnot/sonnot eklemek küçük bir üst simge referans sembolü ekler
-// dipnot/son notu eklediğimiz ana gövde metninde.
-// Her dipnot/sonnot ayrıca referansla eşleşen bir sembolden oluşan bir giriş oluşturur.
-// ana gövde metnindeki sembol. Belge oluşturucunun "InsertEndnote" yöntemine ilettiğimiz referans metni.
-// Dipnot girişleri varsayılan olarak aşağıdakileri içeren her sayfanın altında görünür:
-// referans sembolleri ve son notları belgenin sonunda görünür.
+// Dipnot/Sonnotu eklediğimiz ana metin gövdesinde.
+// Her dipnot/sonnot ayrıca referansla eşleşen bir sembolden oluşan bir giriş oluşturur
+// ana gövde metnindeki sembol. Belge oluşturucunun "InsertEndnote" metoduna geçirdiğimiz referans metni.
+// Dipnot girişleri, varsayılan olarak, aşağıdaki bilgileri içeren her sayfanın altında gösterilir:
+// referans sembolleri ve dipnotlar belgenin sonunda gösterilir.
 builder.Write("Text 1. ");
 builder.InsertFootnote(FootnoteType.Footnote, "Footnote 1.");
 builder.Write("Text 2. ");
@@ -52,15 +52,15 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 2.");
 builder.Write("Text 3. ");
 builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote reference mark");
 
-// Varsayılan olarak her dipnot ve son notun referans sembolü onun indeksidir
-// belgenin tüm dipnotları/son notları arasında. Her belge ayrı sayımları tutar
-// dipnotlar ve sonnotlar için. Dipnotlar varsayılan olarak Arap rakamları kullanılarak numaralarını görüntüler.
-// ve son notlar sayılarını küçük Romen rakamlarıyla görüntüler.
+// Varsayılan olarak, her dipnot ve sonnot için referans sembolü onun dizinidir
+// belgenin tüm dipnotları/sonnotları arasında. Her belge ayrı sayımları korur
+// dipnotlar ve son notlar için. Varsayılan olarak, dipnotlar numaralarını Arap rakamları kullanarak görüntüler,
+// ve dipnotlarda numaralar küçük harfli Roma rakamlarıyla gösterilir.
 Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
 Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
 
-// Dipnotlara ve sonnotlara özel numaralandırma stilleri uygulamak için "NumberStyle" özelliğini kullanabiliriz.
-// Bu, özel referans işaretlerine sahip dipnotları/son notları etkilemeyecektir.
+// Dipnotlara ve son notlara özel numaralandırma stilleri uygulamak için "NumberStyle" özelliğini kullanabiliriz.
+// Bu, özel referans işaretlerine sahip dipnotları/sonnotları etkilemeyecektir.
 doc.FootnoteOptions.NumberStyle = NumberStyle.UppercaseRoman;
 doc.EndnoteOptions.NumberStyle = NumberStyle.UppercaseLetter;
 

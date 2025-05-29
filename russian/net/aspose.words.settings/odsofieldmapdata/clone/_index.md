@@ -3,14 +3,14 @@ title: OdsoFieldMapData.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words для .NET
-description: OdsoFieldMapData Clone метод. Возвращает глубокую копию этого объекта на С#.
+description: Легко создайте глубокий клон вашего объекта OdsoFieldMapData с помощью нашего метода Clone. Улучшите управление данными с точностью и легкостью.
 type: docs
 weight: 60
 url: /ru/net/aspose.words.settings/odsofieldmapdata/clone/
 ---
 ## OdsoFieldMapData.Clone method
 
-Возвращает глубокую копию этого объекта.
+Возвращает глубокий клон этого объекта.
 
 ```csharp
 public OdsoFieldMapData Clone()
@@ -45,7 +45,7 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 // Клонируем элементы этой коллекции.
 Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
 
-// Используйте элементы метода «RemoveAt» индивидуально по индексу.
+// Используем метод «RemoveAt» для отдельных элементов по индексу.
 dataCollection.RemoveAt(0);
 
 Assert.AreEqual(29, dataCollection.Count);

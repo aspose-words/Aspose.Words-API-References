@@ -3,7 +3,7 @@ title: FieldAutoText
 linktitle: FieldAutoText
 articleTitle: FieldAutoText
 second_title: Aspose.Words لـ .NET
-description: FieldAutoText البناء. Default_Constructor في C#.
+description: اكتشف مُنشئ FieldAutoText - الحل الأمثل لأتمتة النصوص بسلاسة. أطلق العنان لكفاءتك وحسّن تجربة البرمجة لديك اليوم!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fields/fieldautotext/fieldautotext/

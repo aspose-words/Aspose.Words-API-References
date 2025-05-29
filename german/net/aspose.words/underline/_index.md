@@ -3,9 +3,9 @@ title: Underline Enum
 linktitle: Underline
 articleTitle: Underline
 second_title: Aspose.Words für .NET
-description: Aspose.Words.Underline opsomming. Gibt den Typ der Unterstreichung an die auf eine Schriftart angewendet wird in C#.
+description: Entdecken Sie Aspose.Words.Underline Enum für vielseitige Optionen zum Unterstreichen von Schriftarten. Verbessern Sie Ihre Dokumentformatierung noch heute mit anpassbaren Stilen!
 type: docs
-weight: 6510
+weight: 7360
 url: /de/net/aspose.words/underline/
 ---
 ## Underline enumeration
@@ -41,7 +41,7 @@ public enum Underline
 
 ## Beispiele
 
-Zeigt, wie ein Hyperlinkfeld eingefügt wird.
+Zeigt, wie ein Hyperlink-Feld eingefügt wird.
 
 ```csharp
 Document doc = new Document();
@@ -49,15 +49,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("For more information, please visit the ");
 
-// Einen Hyperlink einfügen und ihn mit benutzerdefinierter Formatierung hervorheben.
-// Der Hyperlink ist ein anklickbarer Text, der uns zu dem in der URL angegebenen Ort führt.
+// Fügen Sie einen Hyperlink ein und heben Sie ihn mit benutzerdefinierter Formatierung hervor.
+// Der Hyperlink ist ein anklickbarer Text, der uns zum in der URL angegebenen Ort führt.
 builder.Font.Color = Color.Blue;
 builder.Font.Underline = Underline.Single;
 builder.InsertHyperlink("Google website", "https://www.google.com", false);
 builder.Font.ClearFormatting();
 builder.Writeln(".");
 
-// Strg + Linksklick auf den Link im Text in Microsoft Word führt uns über ein neues Webbrowser-Fenster zur URL.
+// Strg + Linksklick auf den Link im Text in Microsoft Word führt uns über ein neues Webbrowserfenster zur URL.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHyperlink.docx");
 ```
 

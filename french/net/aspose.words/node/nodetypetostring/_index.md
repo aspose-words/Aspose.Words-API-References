@@ -3,7 +3,7 @@ title: Node.NodeTypeToString
 linktitle: NodeTypeToString
 articleTitle: NodeTypeToString
 second_title: Aspose.Words pour .NET
-description: Node NodeTypeToString méthode. Une méthode utilitaire qui convertit une valeur dénumération de type de nœud en une chaîne conviviale en C#.
+description: Découvrez la méthode Node NodeTypeToString, convertissez sans effort les énumérations de type de nœud en chaînes conviviales pour un codage transparent et une lisibilité améliorée.
 type: docs
 weight: 170
 url: /fr/net/aspose.words/node/nodetypetostring/
@@ -18,7 +18,7 @@ public static string NodeTypeToString(NodeType nodeType)
 
 ## Exemples
 
-Montre comment utiliser la propriété NextSibling d’un nœud pour énumérer ses enfants immédiats.
+Montre comment utiliser la propriété NextSibling d'un nœud pour énumérer ses enfants immédiats.
 
 ```csharp
 Document doc = new Document(MyDir + "Paragraphs.docx");
@@ -33,7 +33,7 @@ for (Node node = doc.FirstSection.Body.FirstChild; node != null; node = node.Nex
 }
 ```
 
-Montre comment parcourir l’arborescence des nœuds enfants d’un nœud composite.
+Montre comment parcourir l'arbre des nœuds enfants d'un nœud composite.
 
 ```csharp
 public void RecurseChildren()
@@ -43,13 +43,13 @@ public void RecurseChildren()
     // Tout nœud pouvant contenir des nœuds enfants, comme le document lui-même, est composite.
     Assert.True(doc.IsComposite);
 
-    // Invoque la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
+    // Invoquez la fonction récursive qui parcourra et imprimera tous les nœuds enfants d'un nœud composite.
     TraverseAllNodes(doc, 0);
 }
 
 /// <summary>
 /// Parcourt récursivement une arborescence de nœuds tout en imprimant le type de chaque nœud
-/// avec un retrait en fonction de la profondeur ainsi que du contenu de tous les nœuds en ligne.
+/// avec un retrait dépendant de la profondeur ainsi que du contenu de tous les nœuds en ligne.
 /// </summary>
 public void TraverseAllNodes(CompositeNode parentNode, int depth)
 {
@@ -57,7 +57,7 @@ public void TraverseAllNodes(CompositeNode parentNode, int depth)
     {
         Console.Write($"{new string('\t', depth)}{Node.NodeTypeToString(childNode.NodeType)}");
 
-        // Récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, imprimez son contenu s'il s'agit d'un nœud en ligne.
+        // Effectuer une récursion dans le nœud s'il s'agit d'un nœud composite. Sinon, afficher son contenu s'il s'agit d'un nœud en ligne.
         if (childNode.IsComposite)
         {
             Console.WriteLine();

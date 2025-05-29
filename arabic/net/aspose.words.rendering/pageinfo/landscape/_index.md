@@ -3,14 +3,14 @@ title: PageInfo.Landscape
 linktitle: Landscape
 articleTitle: Landscape
 second_title: Aspose.Words لـ .NET
-description: PageInfo Landscape ملكية. إرجاعحقيقي إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو الاتجاه الأفقي في C#.
+description: اكتشف ما إذا كان اتجاه صفحة مستندك أفقيًا باستخدام PageInfo. وفّر تصميمًا مثاليًا لعروض تقديمية ومطبوعات رائعة.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.rendering/pageinfo/landscape/
 ---
 ## PageInfo.Landscape property
 
-إرجاع`حقيقي` إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو الاتجاه الأفقي.
+إرجاع`حقيقي` إذا كان اتجاه الصفحة المحدد في المستند لهذه الصفحة هو أفقي.
 
 ```csharp
 public bool Landscape { get; }
@@ -18,13 +18,13 @@ public bool Landscape { get; }
 
 ## أمثلة
 
-يوضح كيفية طباعة حجم الصفحة ومعلومات الاتجاه لكل صفحة في مستند Word.
+يوضح كيفية طباعة معلومات حجم الصفحة والاتجاه لكل صفحة في مستند Word.
 
 ```csharp
 Document doc = new Document(MyDir + "Rendering.docx");
 
-// القسم الأول يحتوي على صفحتين. سنقوم بتخصيص درج ورق طابعة مختلف لكل واحد،
-// الذي سيتطابق رقمه مع نوع مصدر الورق. وسوف تختلف هذه المصادر وأنواعها
+// القسم الأول يتكون من صفحتين. سنخصص لكل صفحة درج ورق طابعة مختلف.
+// سيتطابق رقمه مع نوع مصدر الورق. ستختلف هذه المصادر وأنواعها.
 // اعتمادًا على برنامج تشغيل الطابعة المثبت.
 PrinterSettings.PaperSourceCollection paperSources = new PrinterSettings().PaperSources;
 
@@ -38,17 +38,17 @@ float dpi = 96;
 
 for (int i = 0; i < doc.PageCount; i++)
 {
-    // تحتوي كل صفحة على كائن PageInfo، والفهرس الخاص به هو رقم الصفحة المعنية.
+    // تحتوي كل صفحة على كائن PageInfo، والذي يكون فهرسه هو رقم الصفحة المعنية.
     PageInfo pageInfo = doc.GetPageInfo(i);
 
-    // اطبع اتجاه الصفحة وأبعادها.
+    //طباعة اتجاه الصفحة وأبعادها.
     Console.WriteLine($"Page {i + 1}:");
     Console.WriteLine($"\tOrientation:\t{(pageInfo.Landscape ? "Landscape" : "Portrait")}");
     Console.WriteLine($"\tPaper size:\t\t{pageInfo.PaperSize} ({pageInfo.WidthInPoints:F0}x{pageInfo.HeightInPoints:F0}pt)");
     Console.WriteLine($"\tSize in points:\t{pageInfo.SizeInPoints}");
     Console.WriteLine($"\tSize in pixels:\t{pageInfo.GetSizeInPixels(1.0f, 96)} at {scale * 100}% scale, {dpi} dpi");
 
-    // اطبع معلومات الدرج المصدر.
+    //طباعة معلومات الدرج المصدر.
     Console.WriteLine($"\tTray:\t{pageInfo.PaperTray}");
     PaperSource source = pageInfo.GetSpecifiedPrinterPaperSource(paperSources, paperSources[0]);
     Console.WriteLine($"\tSuitable print source:\t{source.SourceName}, kind: {source.Kind}");
@@ -69,7 +69,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 }
 
 /// <summary>
-/// تحديد حجم الورق المناسب واتجاهه ودرج الورق عند الطباعة.
+/// يحدد حجم الورق والاتجاه ودرج الورق المناسب عند الطباعة.
 /// </summary>
 public class MyPrintDocument : PrintDocument
 {
@@ -79,7 +79,7 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-    /// تهيئة نطاق الصفحات المراد طباعتها وفقًا لاختيار المستخدم.
+    /// يقوم بتهيئة نطاق الصفحات التي سيتم طباعتها وفقًا لاختيار المستخدم.
     /// </summary>
     protected override void OnBeginPrint(PrintEventArgs e)
     {
@@ -101,45 +101,45 @@ public class MyPrintDocument : PrintDocument
     }
 
     /// <summary>
-     /// يتم الاتصال به قبل طباعة كل صفحة.
+     /// يتم استدعاؤها قبل طباعة كل صفحة.
     /// </summary>
     protected override void OnQueryPageSettings(QueryPageSettingsEventArgs e)
     {
         base.OnQueryPageSettings(e);
 
          // يمكن أن يحتوي مستند Microsoft Word واحد على أقسام متعددة تحدد الصفحات بأحجام مختلفة،
-         // التوجهات، وصواني الورق. يستدعي إطار عمل الطباعة .NET هذا الرمز من قبل
-        // تتم طباعة كل صفحة، مما يتيح لنا فرصة تحديد كيفية طباعة الصفحة الحالية.
+         // الاتجاهات، وصواني الورق. يستدعي إطار عمل الطباعة .NET هذا الكود قبل
+        // تتم طباعة كل صفحة، مما يمنحنا فرصة لتحديد كيفية طباعة الصفحة الحالية.
         PageInfo pageInfo = mDocument.GetPageInfo(mCurrentPage - 1);
         e.PageSettings.PaperSize = pageInfo.GetDotNetPaperSize(PrinterSettings.PaperSizes);
 
         // يقوم Microsoft Word بتخزين مصدر الورق (درج الطابعة) لكل قسم كقيمة خاصة بالطابعة.
-        // للحصول على قيمة الدرج الصحيحة، ستحتاج إلى استخدام خاصية "RawKind"، التي يجب أن ترجعها طابعتك.
+        // للحصول على قيمة الدرج الصحيحة، ستحتاج إلى استخدام خاصية "RawKind"، والتي يجب أن تقوم الطابعة الخاصة بك بإرجاعها.
         e.PageSettings.PaperSource.RawKind = pageInfo.PaperTray;
         e.PageSettings.Landscape = pageInfo.Landscape;
     }
 
     /// <summary>
-     /// يتم استدعاء كل صفحة لعرضها للطباعة.
+     /// يتم استدعاء كل صفحة لتقديمها للطباعة.
     /// </summary>
     protected override void OnPrintPage(PrintPageEventArgs e)
     {
         base.OnPrintPage(e);
 
-        // يقوم محرك عرض Aspose.Words بإنشاء صفحة مرسومة من أصل الورقة (x = 0, y = 0).
-        // سيكون هناك هامش ثابت في الطابعة، والذي سيعرض كل صفحة. نحن بحاجة إلى التعويض بهذا الهامش الصعب.
+        // يقوم محرك العرض Aspose.Words بإنشاء صفحة مرسومة من الأصل (x = 0، y = 0) للورقة.
+        // سيكون هناك هامشٌ ثابتٌ في الطابعة، والذي سيُطبع كل صفحة. نحتاج إلى تعويضه بهذا الهامش الثابت.
         float hardOffsetX, hardOffsetY;
 
         // فيما يلي طريقتان لتعيين هامش ثابت.
         if (e.PageSettings != null && e.PageSettings.HardMarginX != 0 && e.PageSettings.HardMarginY != 0)
         {
-            // 1 - عبر خاصية "إعدادات الصفحة".
+            // 1 - عبر خاصية "PageSettings".
             hardOffsetX = e.PageSettings.HardMarginX;
             hardOffsetY = e.PageSettings.HardMarginY;
         }
         else
         {
-            // 2 - استخدام القيم الخاصة بنا، إذا كانت خاصية "إعدادات الصفحة" غير متوفرة.
+            // 2 - استخدام قيمنا الخاصة، إذا كانت خاصية "PageSettings" غير متوفرة.
             hardOffsetX = 20;
             hardOffsetY = 20;
         }

@@ -3,14 +3,14 @@ title: NodeCollection.Contains
 linktitle: Contains
 articleTitle: Contains
 second_title: Aspose.Words för .NET
-description: NodeCollection Contains metod. Bestämmer om en nod finns i samlingen i C#.
+description: Upptäck hur NodeCollection Contains-metoden effektivt kontrollerar om en nod finns i din samling, vilket förbättrar dina datahanteringsmöjligheter.
 type: docs
 weight: 50
 url: /sv/net/aspose.words/nodecollection/contains/
 ---
 ## NodeCollection.Contains method
 
-Bestämmer om en nod finns i samlingen.
+Avgör om en nod finns i samlingen.
 
 ```csharp
 public bool Contains(Node node)
@@ -18,11 +18,11 @@ public bool Contains(Node node)
 
 | Parameter | Typ | Beskrivning |
 | --- | --- | --- |
-| node | Node | Noden att lokalisera. |
+| node | Node | Noden som ska lokaliseras. |
 
 ### Returvärde
 
-`Sann` om föremål finns i samlingen; annat,`falsk`.
+`sann`om föremålet finns i samlingen; annars,`falsk`.
 
 ## Anmärkningar
 
@@ -40,8 +40,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Write("Run 1. ");
 builder.Write("Run 2. ");
 
-// Varje anrop av "Write"-metoden skapar en ny körning,
-// som sedan visas i den överordnade Paragraphs RunCollection.
+// Varje anrop av metoden "Write" skapar en ny Run,
+// som sedan visas i det överordnade styckets RunCollection.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
 Assert.AreEqual(2, runs.Count);
@@ -53,7 +53,7 @@ runs.Insert(3, newRun);
 Assert.True(runs.Contains(newRun));
 Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
 
-// Gå till enskilda körningar och ta bort dem för att ta bort deras text från dokumentet.
+// Få åtkomst till enskilda körningar och ta bort dem för att ta bort deras text från dokumentet.
 Run run = runs[1];
 runs.Remove(run);
 

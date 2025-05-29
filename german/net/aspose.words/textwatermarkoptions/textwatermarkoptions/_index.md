@@ -3,7 +3,7 @@ title: TextWatermarkOptions
 linktitle: TextWatermarkOptions
 articleTitle: TextWatermarkOptions
 second_title: Aspose.Words für .NET
-description: TextWatermarkOptions constructeur. Default_Constructor in C#.
+description: Entdecken Sie den TextWatermarkOptions-Konstruktor für die nahtlose Anpassung von Wasserzeichen. Schalten Sie Standardeinstellungen frei, um mehr Flexibilität und Kreativität beim Design zu ermöglichen.
 type: docs
 weight: 10
 url: /de/net/aspose.words/textwatermarkoptions/textwatermarkoptions/

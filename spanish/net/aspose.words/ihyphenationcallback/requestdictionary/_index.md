@@ -3,18 +3,18 @@ title: IHyphenationCallback.RequestDictionary
 linktitle: RequestDictionary
 articleTitle: RequestDictionary
 second_title: Aspose.Words para .NET
-description: IHyphenationCallback RequestDictionary método. Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo en C#.
+description: Descubra el método IHyphenationCallback RequestDictionary, que maneja de manera eficiente los diccionarios de separación de palabras faltantes para lograr una compatibilidad perfecta de idiomas en su aplicación.
 type: docs
 weight: 10
 url: /es/net/aspose.words/ihyphenationcallback/requestdictionary/
 ---
 ## IHyphenationCallback.RequestDictionary method
 
-Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y que es posible que sea necesario registrarlo.
+Notifica a la aplicación que no se encontró el diccionario de separación de palabras para el idioma especificado y es posible que sea necesario registrarlo.
 
-La implementación debería encontrar un diccionario y registrarlo usando[`RegisterDictionary`](../../hyphenation/registerdictionary/) métodos.
+La implementación debe encontrar un diccionario y registrarlo usando[`RegisterDictionary`](../../hyphenation/registerdictionary/) métodos.
 
-Si el diccionario no está disponible para la implementación del idioma especificado, puede optar por no recibir más llamadas para el mismo idioma usando[`RegisterDictionary`](../../hyphenation/registerdictionary/) con`nulo` valor.
+Si el diccionario no está disponible para la implementación del idioma especificado, se puede optar por no realizar más llamadas para el mismo idioma utilizando[`RegisterDictionary`](../../hyphenation/registerdictionary/) con`nulo` valor.
 
 ```csharp
 public void RequestDictionary(string language)
@@ -22,7 +22,7 @@ public void RequestDictionary(string language)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| language | String | Un nombre de idioma, por ejemplo, "en-US". Consulte la documentación de .NET para conocer el "nombre de la cultura" y RFC 4646 para obtener más detalles. |
+| language | String | Un nombre de idioma, p. ej., "en-US". Consulte la documentación de .NET para obtener información sobre el nombre de la cultura y el RFC 4646 para obtener más información. |
 
 ## Observaciones
 
@@ -39,20 +39,20 @@ public void RegisterDictionary()
     WarningInfoCollection warningInfoCollection = new WarningInfoCollection();
     Hyphenation.WarningCallback = warningInfoCollection;
 
-    // Registre un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
+    // Registrar un diccionario de separación de palabras en inglés (EE. UU.) por secuencia.
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
     Assert.AreEqual(0, warningInfoCollection.Count);
 
-    // Abra un documento con una configuración regional en la que Microsoft Word no puede dividir con guiones en una máquina en inglés, como el alemán.
+    // Abra un documento con una configuración regional que Microsoft Word no pueda separar en una máquina que use inglés, como por ejemplo alemán.
     Document doc = new Document(MyDir + "German text.docx");
 
-    // Para dividir ese documento con guiones al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
+    // Para separar palabras de ese documento al guardarlo, necesitamos un diccionario de separación de palabras para el código de idioma "de-CH".
     // Esta devolución de llamada manejará la solicitud automática de ese diccionario.
     Hyphenation.Callback = new CustomHyphenationDictionaryRegister();
 
-    // Cuando guardemos el documento, la separación de palabras en alemán entrará en vigor.
+    // Cuando guardemos el documento, la separación de palabras en alemán tendrá efecto.
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // Este diccionario contiene dos patrones idénticos, lo que activará una advertencia.
@@ -61,6 +61,7 @@ public void RegisterDictionary()
     Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
     Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
                     "Content can be wrapped differently.", warningInfoCollection[0].Description);
+
 }
 
 /// <summary>

@@ -3,9 +3,9 @@ title: Document.LayoutOptions
 linktitle: LayoutOptions
 articleTitle: LayoutOptions
 second_title: Aspose.Words för .NET
-description: Document LayoutOptions fast egendom. Får enLayoutOptions objekt som representerar alternativ för att styra layoutprocessen för detta dokument i C#.
+description: Utforska egenskapen Dokumentlayoutalternativ för att effektivt styra dokumentets layout. Lås upp flexibla designalternativ för optimal presentation.
 type: docs
-weight: 250
+weight: 260
 url: /sv/net/aspose.words/document/layoutoptions/
 ---
 ## Document.LayoutOptions property
@@ -33,13 +33,13 @@ doc.LayoutOptions.ShowHiddenText = showHiddenText;
 doc.Save(ArtifactsDir + "Document.LayoutOptionsHiddenText.pdf");
 ```
 
-Visar hur man visar styckemärken i ett renderat utdatadokument.
+Visar hur man visar stycketecken i ett renderat utdatadokument.
 
 ```csharp
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
-// Lägg till några stycken och aktivera sedan styckemärken för att visa slutet på stycken
-// med en pilkråka (¶) symbol när vi renderar dokumentet.
+// Lägg till några stycken och aktivera sedan stycketecken för att visa slutet på stycken
+// med en pilcrow-symbol (¶) när vi renderar dokumentet.
 builder.Writeln("Hello world!");
 builder.Writeln("Hello again!");
 
@@ -54,18 +54,19 @@ Visar hur man ändrar utseendet på revisioner i ett renderat utdatadokument.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// Infoga en revision och ändra sedan färgen på alla versioner till grön.
+// Infoga en revision och ändra sedan färgen på alla revisioner till grön.
 builder.Writeln("This is not a revision.");
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("This is a revision.");
 doc.StopTrackRevisions();
 builder.Writeln("This is not a revision.");
 
-// Ta bort stapeln som visas till vänster om varje reviderad rad.
+// Ta bort fältet som visas till vänster om varje reviderad rad.
 doc.LayoutOptions.RevisionOptions.InsertedTextColor = RevisionColor.BrightGreen;
 doc.LayoutOptions.RevisionOptions.ShowRevisionBars = false;
+doc.LayoutOptions.RevisionOptions.RevisionBarsPosition = HorizontalAlignment.Right;
 
-doc.Save(ArtifactsDir + "Document.LayoutOptionsRevisions.pdf");
+doc.Save(ArtifactsDir + "Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ### Se även

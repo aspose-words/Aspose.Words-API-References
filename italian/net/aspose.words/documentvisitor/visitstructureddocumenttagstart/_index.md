@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitStructuredDocumentTagStart
 linktitle: VisitStructuredDocumentTagStart
 articleTitle: VisitStructuredDocumentTagStart
 second_title: Aspose.Words per .NET
-description: DocumentVisitor VisitStructuredDocumentTagStart metodo. Chiamato quando è iniziata lenumerazione di un tag di documento strutturato in C#.
+description: Scopri il metodo VisitStructuredDocumentTagStart di DocumentVisitor, essenziale per avviare in modo efficiente l'enumerazione dei tag dei documenti strutturati. Migliora il tuo codice oggi stesso!
 type: docs
 weight: 470
 url: /it/net/aspose.words/documentvisitor/visitstructureddocumenttagstart/
@@ -34,8 +34,8 @@ public void StructuredDocumentTagToText()
     Document doc = new Document(MyDir + "DocumentVisitor-compatible features.docx");
     StructuredDocumentTagNodePrinter visitor = new StructuredDocumentTagNodePrinter();
 
-    // Quando facciamo in modo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
-    // e poi attraversa tutti i figli del nodo in modo approfondito.
+    // Quando otteniamo che un nodo composito accetti un visitatore del documento, il visitatore visita il nodo accettante,
+    // e quindi attraversa tutti i nodi figlio in modalità depth-first.
     // Il visitatore può leggere e modificare ogni nodo visitato.
     doc.Accept(visitor);
 
@@ -44,7 +44,7 @@ public void StructuredDocumentTagToText()
 
 /// <summary>
 /// Attraversa l'albero non binario dei nodi figlio di un nodo.
-/// Crea una mappa sotto forma di una stringa di tutti i nodi StructuredDocumentTag incontrati e dei relativi figli.
+/// Crea una mappa sotto forma di stringa di tutti i nodi StructuredDocumentTag rilevati e dei relativi elementi figlio.
 /// </summary>
 public class StructuredDocumentTagNodePrinter : DocumentVisitor
 {
@@ -55,7 +55,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Ottiene il testo semplice del documento accumulato dal visitatore.
+    /// Ottiene il testo normale del documento accumulato dal visitatore.
     /// </summary>
     public string GetText()
     {
@@ -63,7 +63,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Chiamato quando nel documento viene incontrato un nodo Esegui.
+    /// Chiamato quando nel documento viene rilevato un nodo Run.
     /// </summary>
     public override VisitorAction VisitRun(Run run)
     {
@@ -95,7 +95,7 @@ public class StructuredDocumentTagNodePrinter : DocumentVisitor
     }
 
     /// <summary>
-    /// Aggiunge una riga allo StringBuilder e la rientra in base alla profondità con cui si trova il visitatore nell'albero del documento.
+    /// Aggiungere una riga allo StringBuilder e rientrarla a seconda della profondità a cui si trova il visitatore nell'albero del documento.
     /// </summary>
     /// <param name="text"></param>
     private void IndentAndAppendLine(string text)

@@ -3,14 +3,14 @@ title: MemoryFontSource
 linktitle: MemoryFontSource
 articleTitle: MemoryFontSource
 second_title: Aspose.Words لـ .NET
-description: MemoryFontSource البناء. الممثل في C#.
+description: اكتشف MemoryFontSource، مُنشئ خطوط قوي لإدارة خطوط مشاريعك بسلاسة. حسّن تصميمك بسهولة وكفاءة!
 type: docs
 weight: 10
 url: /ar/net/aspose.words.fonts/memoryfontsource/memoryfontsource/
 ---
 ## MemoryFontSource(*byte[]*) {#constructor}
 
-الممثل.
+المولد.
 
 ```csharp
 public MemoryFontSource(byte[] fontData)
@@ -22,7 +22,7 @@ public MemoryFontSource(byte[] fontData)
 
 ## أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مجموعة بايتات تحتوي على بيانات من ملف الخط كمصدر للخط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -46,7 +46,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int*) {#constructor_1}
 
-الممثل.
+المولد.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority)
@@ -59,7 +59,7 @@ public MemoryFontSource(byte[] fontData, int priority)
 
 ## أمثلة
 
-يوضح كيفية استخدام مصفوفة بايت مع البيانات من ملف خط كمصدر خط.
+يوضح كيفية استخدام مجموعة بايتات تحتوي على بيانات من ملف الخط كمصدر للخط.
 
 ```csharp
 byte[] fontBytes = File.ReadAllBytes(MyDir + "Alte DIN 1451 Mittelschrift.ttf");
@@ -83,7 +83,7 @@ Assert.AreEqual(0, memoryFontSource.Priority);
 
 ## MemoryFontSource(*byte[], int, string*) {#constructor_2}
 
-الممثل.
+المولد.
 
 ```csharp
 public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
@@ -93,7 +93,7 @@ public MemoryFontSource(byte[] fontData, int priority, string cacheKey)
 | --- | --- | --- |
 | fontData | Byte[] | بيانات الخط الثنائي. |
 | priority | Int32 | أولوية مصدر الخط. انظر[`Priority`](../../fontsourcebase/priority/) وصف العقار لمزيد من المعلومات. |
-| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. يرى[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
+| cacheKey | String | مفتاح هذا المصدر في ذاكرة التخزين المؤقت. انظر[`CacheKey`](../cachekey/) وصف العقار لمزيد من المعلومات. |
 
 ## أمثلة
 
@@ -118,7 +118,7 @@ public void LoadFontSearchCache()
         parsedFonts.SaveSearchCache(cacheStream);
         loadedCache.SetFontsSources(new FontSourceBase[]
         {
-            new SearchCacheStream(cacheKey1),                    
+            new SearchCacheStream(cacheKey1),
             new MemoryFontSource(File.ReadAllBytes(FontsDir + "Arvo-Bold.ttf"), 0, cacheKey2)
         }, cacheStream);
     }

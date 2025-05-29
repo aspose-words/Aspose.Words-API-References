@@ -3,7 +3,7 @@ title: SignatureLine.IsSigned
 linktitle: IsSigned
 articleTitle: IsSigned
 second_title: Aspose.Words para .NET
-description: SignatureLine IsSigned propiedad. Indica que la línea de firma está firmada mediante firma digital en C#.
+description: Descubra cómo la propiedad IsSigned de SignatureLine confirma la autenticidad de la firma digital, garantizando transacciones seguras y confiables. ¡Mejore la integridad de sus documentos!
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/signatureline/issigned/
@@ -56,8 +56,8 @@ CertificateHolder certHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "a
 DigitalSignatureUtil.Sign(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.docx", 
     ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx", certHolder, signOptions);
 
-// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean iguales a "true",
-// indicando que la línea de firma contiene una firma.
+// Vuelva a abrir nuestro documento guardado y verifique que las propiedades "IsSigned" e "IsValid" sean ambas iguales a "true",
+// indica que la línea de firma contiene una firma.
 doc = new Document(ArtifactsDir + "DocumentBuilder.SignatureLineProviderId.Signed.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 signatureLine = shape.SignatureLine;

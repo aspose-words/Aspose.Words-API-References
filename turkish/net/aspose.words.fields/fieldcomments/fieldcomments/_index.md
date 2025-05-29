@@ -2,8 +2,8 @@
 title: FieldComments
 linktitle: FieldComments
 articleTitle: FieldComments
-second_title: Aspose.Words for .NET
-description: FieldComments inşaatçı. Default_Constructor C#'da.
+second_title: .NET için Aspose.Words
+description: FieldComments oluşturucusunu keşfedin; projelerinizde kusursuz entegrasyon ve gelişmiş işlevsellik için başvuracağınız çözüm. Bugün geliştirmeyi basitleştirin!
 type: docs
 weight: 10
 url: /tr/net/aspose.words.fields/fieldcomments/fieldcomments/

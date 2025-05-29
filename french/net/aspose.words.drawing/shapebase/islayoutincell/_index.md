@@ -3,9 +3,9 @@ title: ShapeBase.IsLayoutInCell
 linktitle: IsLayoutInCell
 articleTitle: IsLayoutInCell
 second_title: Aspose.Words pour .NET
-description: ShapeBase IsLayoutInCell propriété. Obtient ou définit un indicateur indiquant si la forme est affichée à lintérieur ou à lextérieur dun tableau en C#.
+description: Découvrez la propriété ShapeBase IsLayoutInCell, contrôlez le placement des formes dans les tableaux pour une flexibilité de conception améliorée et une gestion de la mise en page améliorée.
 type: docs
-weight: 310
+weight: 330
 url: /fr/net/aspose.words.drawing/shapebase/islayoutincell/
 ---
 ## ShapeBase.IsLayoutInCell property
@@ -20,7 +20,7 @@ public bool IsLayoutInCell { get; set; }
 
 La valeur par défaut est`vrai`.
 
-N'a d'effet que sur les formes de niveau supérieur, la propriété[`WrapType`](../wraptype/) dont est défini sur value autre que[`Inline`](../../../aspose.words/inline/).
+N'a d'effet que pour les formes de niveau supérieur, la propriété[`WrapType`](../wraptype/) dont la valeur est définie sur value autre que[`Inline`](../../../aspose.words/inline/).
 
 ## Exemples
 
@@ -50,15 +50,15 @@ builder.MoveTo(table.FirstRow.FirstCell.FirstParagraph);
 Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 50,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 
-// Définissez la propriété "IsLayoutInCell" sur "true" pour afficher la forme en tant qu'élément en ligne à l'intérieur du paragraphe de la cellule.
+// Définissez la propriété « IsLayoutInCell » sur « true » pour afficher la forme comme un élément en ligne à l'intérieur du paragraphe de la cellule.
 // L'origine des coordonnées qui déterminera l'emplacement de la forme sera le coin supérieur gauche de la cellule de la forme.
-// Si nous redimensionnons la cellule, la forme se déplacera pour conserver la même position en partant du coin supérieur gauche de la cellule.
-// Définissez la propriété "IsLayoutInCell" sur "false" pour afficher la forme comme une forme flottante indépendante.
+// Si nous redimensionnons la cellule, la forme se déplacera pour maintenir la même position à partir du coin supérieur gauche de la cellule.
+// Définissez la propriété « IsLayoutInCell » sur « false » pour afficher la forme comme une forme flottante indépendante.
 // L'origine des coordonnées qui déterminera l'emplacement de la forme sera le coin supérieur gauche de la page,
 // et la forme ne répondra à aucun redimensionnement de sa cellule.
 shape.IsLayoutInCell = isLayoutInCell;
 
-// Nous ne pouvons appliquer la propriété "IsLayoutInCell" qu'aux formes flottantes.
+// Nous ne pouvons appliquer la propriété « IsLayoutInCell » qu'aux formes flottantes.
 shape.WrapType = WrapType.None;
 
 doc.Save(ArtifactsDir + "Shape.LayoutInTableCell.docx");

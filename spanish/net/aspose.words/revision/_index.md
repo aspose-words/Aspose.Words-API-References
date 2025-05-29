@@ -3,16 +3,16 @@ title: Revision Class
 linktitle: Revision
 articleTitle: Revision
 second_title: Aspose.Words para .NET
-description: Aspose.Words.Revision clase. Representa una revisión cambio rastreado en un nodo o estilo de documento. UsarRevisionType para comprobar el tipo de esta revisión en C#.
+description: Explora la clase Aspose.Words.Revision para gestionar los cambios registrados en los documentos. Identifica fácilmente los tipos de revisión para una edición fluida de documentos.
 type: docs
-weight: 4760
+weight: 5500
 url: /es/net/aspose.words/revision/
 ---
 ## Revision class
 
-Representa una revisión (cambio rastreado) en un nodo o estilo de documento. Usar[`RevisionType`](./revisiontype/) para comprobar el tipo de esta revisión.
+Representa una revisión (cambio rastreado) en un nodo o estilo de documento. Uso[`RevisionType`](./revisiontype/) para comprobar el tipo de esta revisión.
 
-Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) artículo de documentación.
+Para obtener más información, visite el[Seguimiento de cambios en un documento](https://docs.aspose.com/words/net/track-changes-in-a-document/) Artículo de documentación.
 
 ```csharp
 public class Revision
@@ -22,11 +22,11 @@ public class Revision
 
 | Nombre | Descripción |
 | --- | --- |
-| [Author](../../aspose.words/revision/author/) { get; set; } | Obtiene o establece el autor de esta revisión. No puede ser una cadena vacía o`nulo` . |
+| [Author](../../aspose.words/revision/author/) { get; set; } | Obtiene o establece el autor de esta revisión. No puede ser una cadena vacía ni`nulo` . |
 | [DateTime](../../aspose.words/revision/datetime/) { get; set; } | Obtiene o establece la fecha/hora de esta revisión. |
-| [Group](../../aspose.words/revision/group/) { get; } | Obtiene el grupo de revisión. Devoluciones`nulo` si la revisión no pertenece a ningún grupo. |
-| [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Obtiene el nodo principal inmediato (propietario) de esta revisión. Esta propiedad funcionará para cualquier tipo de revisión que no seaStyleDefinitionChange . |
-| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Obtiene el estilo principal inmediato (propietario) de esta revisión. Esta propiedad funcionará solo para laStyleDefinitionChange tipo de revisión. |
+| [Group](../../aspose.words/revision/group/) { get; } | Obtiene el grupo de revisión. Devuelve`nulo` si la revisión no pertenece a ningún grupo. |
+| [ParentNode](../../aspose.words/revision/parentnode/) { get; } | Obtiene el nodo padre inmediato (propietario) de esta revisión. Esta propiedad funcionará para cualquier tipo de revisión que no seaStyleDefinitionChange . |
+| [ParentStyle](../../aspose.words/revision/parentstyle/) { get; } | Obtiene el estilo padre inmediato (propietario) de esta revisión. Esta propiedad funcionará solo para elStyleDefinitionChange tipo de revisión. |
 | [RevisionType](../../aspose.words/revision/revisiontype/) { get; } | Obtiene el tipo de esta revisión. |
 
 ## Métodos
@@ -44,12 +44,12 @@ Muestra cómo trabajar con revisiones en un documento.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-// La edición normal del documento no cuenta como revisión.
+//La edición normal del documento no cuenta como una revisión.
 builder.Write("This does not count as a revision. ");
 
 Assert.IsFalse(doc.HasRevisions);
 
-// Para registrar nuestras ediciones como revisiones, debemos declarar un autor y luego comenzar a rastrearlas.
+// Para registrar nuestras ediciones como revisiones, necesitamos declarar un autor y luego comenzar a rastrearlas.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
@@ -57,13 +57,13 @@ builder.Write("This is revision #1. ");
 Assert.IsTrue(doc.HasRevisions);
 Assert.AreEqual(1, doc.Revisions.Count);
 
-// Esta bandera corresponde a la "Revisión" -> "Seguimiento" -> Opción "Seguimiento de cambios" en Microsoft Word.
+// Esta bandera corresponde a la opción "Revisar" -> "Seguimiento" -> "Control de cambios" en Microsoft Word.
 // El método "StartTrackRevisions" no afecta su valor,
-// y el documento realiza un seguimiento de las revisiones mediante programación a pesar de tener un valor de "falso".
-// Si abrimos este documento usando Microsoft Word, no realizará un seguimiento de las revisiones.
+// y el documento está rastreando revisiones programáticamente a pesar de tener un valor de "falso".
+// Si abrimos este documento con Microsoft Word, no se realizará un seguimiento de las revisiones.
 Assert.IsFalse(doc.TrackRevisions);
 
-// Hemos agregado texto usando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
+//Hemos agregado texto usando el generador de documentos, por lo que la primera revisión es una revisión de tipo inserción.
 Revision revision = doc.Revisions[0];
 Assert.AreEqual("John Doe", revision.Author);
 Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
@@ -71,20 +71,20 @@ Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
 Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
 Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
 
-// Eliminar una ejecución para crear una revisión de tipo eliminación.
+//Elimina una ejecución para crear una revisión de tipo eliminación.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
 // Agregar una nueva revisión la coloca al comienzo de la colección de revisiones.
 Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
 Assert.AreEqual(2, doc.Revisions.Count);
 
-// Las revisiones de inserción aparecen en el cuerpo del documento incluso antes de que aceptemos/rechacemos la revisión.
-// Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que componen eliminan revisiones.
-// también permanece en el documento hasta que aceptemos la revisión.
+// Las revisiones insertadas aparecen en el cuerpo del documento incluso antes de que aceptemos o rechacemos la revisión.
+Rechazar la revisión eliminará sus nodos del cuerpo. Por el contrario, los nodos que conforman la revisión eliminan las revisiones.
+// también permanecerá en el documento hasta que aceptemos la revisión.
 Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
 
-// Al aceptar la revisión eliminada se eliminará su nodo principal del texto del párrafo
-// y luego eliminar la revisión de la colección.
+// Al aceptar la revisión de eliminación se eliminará su nodo principal del texto del párrafo.
+// y luego eliminar la revisión de la colección en sí.
 doc.Revisions[0].Accept();
 
 Assert.AreEqual(1, doc.Revisions.Count);
@@ -93,7 +93,7 @@ Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
 builder.Writeln("");
 builder.Write("This is revision #2.");
 
-// Ahora mueva el nodo para crear un tipo de revisión móvil.
+// Ahora mueva el nodo para crear un tipo de revisión en movimiento.
 Node node = doc.FirstSection.Body.Paragraphs[1];
 Node endNode = doc.FirstSection.Body.Paragraphs[1].NextSibling;
 Node referenceNode = doc.FirstSection.Body.Paragraphs[0];

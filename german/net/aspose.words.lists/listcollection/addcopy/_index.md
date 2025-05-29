@@ -3,14 +3,14 @@ title: ListCollection.AddCopy
 linktitle: AddCopy
 articleTitle: AddCopy
 second_title: Aspose.Words für .NET
-description: ListCollection AddCopy methode. Erstellt eine neue Liste indem die angegebene Liste kopiert und zur Listensammlung im Dokument hinzugefügt wird in C#.
+description: Entdecken Sie die AddCopy-Methode von ListCollection, um mühelos eine Liste zu duplizieren und die Sammlung Ihres Dokuments einfach und effizient zu erweitern.
 type: docs
 weight: 50
 url: /de/net/aspose.words.lists/listcollection/addcopy/
 ---
 ## ListCollection.AddCopy method
 
-Erstellt eine neue Liste, indem die angegebene Liste kopiert und zur Listensammlung im Dokument hinzugefügt wird.
+Erstellt eine neue Liste, indem die angegebene Liste kopiert und der Listensammlung im Dokument hinzugefügt wird.
 
 ```csharp
 public List AddCopy(List srcList)
@@ -26,9 +26,9 @@ Die neu erstellte Liste.
 
 ## Bemerkungen
 
-Die Quellenliste kann aus einem beliebigen Dokument stammen. Wenn die Quellliste zu einem anderen Dokument gehört, wird eine Kopie der Liste erstellt und dem aktuellen Dokument hinzugefügt.
+Die Quellliste kann aus einem beliebigen Dokument stammen. Gehört die Quellliste zu einem anderen Dokument, wird eine Kopie der Liste erstellt und dem aktuellen Dokument hinzugefügt.
 
-Wenn es sich bei der Quellliste um einen Verweis auf oder eine Definition eines Listenstils handelt, hat die neu erstellte Liste keinen Bezug zum ursprünglichen Listenstil.
+Wenn die Quellliste ein Verweis auf einen Listenstil oder eine Definition eines Listenstils ist, steht die neu erstellte Liste in keinem Zusammenhang mit dem ursprünglichen Listenstil.
 
 ## Beispiele
 
@@ -71,11 +71,11 @@ Zeigt, wie die Nummerierung in einer Liste durch Kopieren einer Liste neu gestar
 ```csharp
 Document doc = new Document();
 
-// Eine Liste ermöglicht es uns, Absätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
- // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
- // Wir können eine Liste beginnen und beenden, indem wir die „ListFormat“-Eigenschaft eines Document Builders verwenden.
+// Eine Liste ermöglicht es uns, Absatzsätze mit Präfixsymbolen und Einzügen zu organisieren und zu dekorieren.
+    // Wir können verschachtelte Listen erstellen, indem wir die Einrückungsebene erhöhen.
+    // Wir können eine Liste beginnen und beenden, indem wir die Eigenschaft „ListFormat“ eines Dokument-Generators verwenden.
 // Jeder Absatz, den wir zwischen dem Anfang und dem Ende einer Liste hinzufügen, wird zu einem Element in der Liste.
-// Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie deren erste Listenebene an.
+// Erstellen Sie eine Liste aus einer Microsoft Word-Vorlage und passen Sie die erste Listenebene an.
 List list1 = doc.Lists.Add(ListTemplate.NumberArabicParenthesis);
 list1.ListLevels[0].Font.Color = Color.Red;
 list1.ListLevels[0].Alignment = ListLevelAlignment.Right;
@@ -89,13 +89,13 @@ builder.Writeln("Item 1");
 builder.Writeln("Item 2");
 builder.ListFormat.RemoveNumbers();
 
-// Wir können eine Kopie einer vorhandenen Liste zur Listensammlung des Dokuments hinzufügen
+// Wir können der Listensammlung des Dokuments eine Kopie einer vorhandenen Liste hinzufügen
 // um eine ähnliche Liste zu erstellen, ohne Änderungen am Original vorzunehmen.
 List list2 = doc.Lists.AddCopy(list1);
 list2.ListLevels[0].Font.Color = Color.Blue;
 list2.ListLevels[0].StartAt = 10;
 
-// Die zweite Liste auf neue Absätze anwenden.
+// Wenden Sie die zweite Liste auf neue Absätze an.
 builder.Writeln("List 2 starts below:");
 builder.ListFormat.List = list2;
 builder.Writeln("Item 1");

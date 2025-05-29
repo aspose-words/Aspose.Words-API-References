@@ -2,15 +2,15 @@
 title: MailMerge.UseWholeParagraphAsRegion
 linktitle: UseWholeParagraphAsRegion
 articleTitle: UseWholeParagraphAsRegion
-second_title: Aspose.Words for .NET
-description: MailMerge UseWholeParagraphAsRegion mülk. Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar.TabloBaşlangıcı veyaTablo Sonu field veya arasındaki belirli aralıkTabloBaşlangıcı VeTablo Sonu alanlar adresmektup birleştirme bölgesine dahil edilmelidir C#'da.
+second_title: .NET için Aspose.Words
+description: Posta birleştirme bölgelerinizi geliştirmek ve içerik ekleme üzerinde tam kontrol sağlamak için MailMerge UseWholeParagraphAsRegion özelliğini nasıl kullanacağınızı keşfedin.
 type: docs
 weight: 160
 url: /tr/net/aspose.words.mailmerging/mailmerge/usewholeparagraphasregion/
 ---
 ## MailMerge.UseWholeParagraphAsRegion property
 
-Paragrafın tamamının olup olmadığını belirten bir değer alır veya ayarlar.**TabloBaşlangıcı** veya**Tablo Sonu** field veya arasındaki belirli aralık**TabloBaşlangıcı** Ve**Tablo Sonu** alanlar adres-mektup birleştirme bölgesine dahil edilmelidir.
+Tüm paragrafın bir değerle gösterilip gösterilmediğini belirten bir değer alır veya ayarlar**TabloBaşlangıcı** veya**Tablo Sonu** field veya belirli aralık**TabloBaşlangıcı** Ve**Tablo Sonu** alanlar posta birleştirme bölgesine dahil edilmelidir.
 
 ```csharp
 public bool UseWholeParagraphAsRegion { get; set; }
@@ -22,7 +22,7 @@ Varsayılan değer:`doğru` .
 
 ## Örnekler
 
-Adres-mektup birleştirme bölgeleri ve paragraflar arasındaki ilişkiyi gösterir.
+Posta birleştirme bölgeleri ile paragraflar arasındaki ilişkiyi gösterir.
 
 ```csharp
 public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
@@ -30,12 +30,12 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     Document doc = CreateSourceDocWithNestedMergeRegions();
     DataTable dataTable = CreateSourceTableDataTableForOneRegion();
 
-    // Varsayılan olarak bir paragraf birden fazla adres-mektup birleştirme bölgesine ait olamaz.
-    // Dokümanımızın içeriği bu kriterleri karşılamıyor.
+    // Varsayılan olarak, bir paragraf en fazla birden fazla posta birleştirme bölgesine ait olabilir.
+    // Belgemizin içeriği bu ölçütleri karşılamıyor.
     // "UseWholeParagraphAsRegion" bayrağını "true" olarak ayarlarsak,
-    // bu belgede adres-mektup birleştirmeyi çalıştırmak bir istisna oluşturacaktır.
+    // Bu belge üzerinde bir posta birleştirme çalıştırmak bir istisna oluşturacaktır.
     // "UseWholeParagraphAsRegion" bayrağını "false" olarak ayarlarsak,
-    // bu belge üzerinde adres-mektup birleştirme işlemi yapabileceğiz.
+    // Bu belge üzerinde bir posta birleştirme işlemi gerçekleştirebileceğiz.
     doc.MailMerge.UseWholeParagraphAsRegion = useWholeParagraphAsRegion;
 
     if (useWholeParagraphAsRegion)
@@ -43,13 +43,13 @@ public void UseWholeParagraphAsRegion(bool useWholeParagraphAsRegion)
     else
         doc.MailMerge.ExecuteWithRegions(dataTable);
 
-    // Adres-mektup birleştirme ilk bölgemizi doldururken ikinci bölgeyi kullanılmadan bırakır
-    //çünkü kuralı bozan bölgedir.
+    // Posta birleştirme ilk bölgemizi doldururken ikinci bölgeyi kullanılmadan bırakır
+    // çünkü kuralı bozan bölge burası.
     doc.Save(ArtifactsDir + "MailMerge.UseWholeParagraphAsRegion.docx");
 }
 
 /// <summary>
-/// Bir paragrafı paylaşan iki adres-mektup birleştirme bölgesine sahip bir belge oluşturun.
+/// Bir paragrafı paylaşan iki birleştirme bölgesi içeren bir belge oluşturun.
 /// </summary>
 private static Document CreateSourceDocWithNestedMergeRegions()
 {
@@ -71,7 +71,7 @@ private static Document CreateSourceDocWithNestedMergeRegions()
 }
 
 /// <summary>
-/// Adres-mektup birleştirme sırasında bir bölgeyi doldurabilecek bir veri tablosu oluşturun.
+/// Bir posta birleştirme sırasında bir bölgeyi doldurabilecek bir veri tablosu oluşturun.
 /// </summary>
 private static DataTable CreateSourceTableDataTableForOneRegion()
 {

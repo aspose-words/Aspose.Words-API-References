@@ -3,14 +3,14 @@ title: CustomPartCollection.Clone
 linktitle: Clone
 articleTitle: Clone
 second_title: Aspose.Words för .NET
-description: CustomPartCollection Clone metod. Gör en djup kopia av den här samlingen och dess föremål i C#.
+description: Klona enkelt din CustomPartCollection med vår djupkopieringsmetod, vilket säkerställer att alla objekt bevaras för sömlös datahantering.
 type: docs
 weight: 60
 url: /sv/net/aspose.words.markup/custompartcollection/clone/
 ---
 ## CustomPartCollection.Clone method
 
-Gör en djup kopia av den här samlingen och dess föremål.
+Skapar en djup kopia av den här samlingen och dess objekt.
 
 ```csharp
 public CustomPartCollection Clone()
@@ -18,7 +18,7 @@ public CustomPartCollection Clone()
 
 ## Exempel
 
-Visar hur man kommer åt ett dokuments godtyckliga anpassade delarsamling.
+Visar hur man kommer åt ett dokuments godtyckliga samling av anpassade delar.
 
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
@@ -47,7 +47,7 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
     }
 }
 
-// Vi kan ta bort element från denna samling individuellt eller alla på en gång.
+// Vi kan ta bort element från den här samlingen individuellt, eller alla på en gång.
 doc.PackageCustomParts.RemoveAt(2);
 
 Assert.AreEqual(2, doc.PackageCustomParts.Count);

@@ -2,8 +2,8 @@
 title: Document.AttachedTemplate
 linktitle: AttachedTemplate
 articleTitle: AttachedTemplate
-second_title: Aspose.Words for .NET
-description: Document AttachedTemplate mülk. Belgeye eklenen şablonun tam yolunu alır veya ayarlar C#'da.
+second_title: .NET için Aspose.Words
+description: Belge Ekli Şablon özelliğinizi nasıl etkili bir şekilde yöneteceğinizi keşfedin. Sorunsuz entegrasyon için belgenizin şablonunun tam yolunu kolayca ayarlayın veya alın.
 type: docs
 weight: 20
 url: /tr/net/aspose.words/document/attachedtemplate/
@@ -20,27 +20,27 @@ public string AttachedTemplate { get; set; }
 
 | istisna | şart |
 | --- | --- |
-| ArgumentNullException | Ayarlamaya çalışırsanız fırlatır`hükümsüz` değer. |
+| ArgumentNullException | Bir ayarlamayı denerseniz atar`hükümsüz` değer. |
 
 ## Notlar
 
-Boş dize, belgenin Normal şablona eklendiği anlamına gelir.
+Boş dize, belgenin Normal şablonuna eklendiği anlamına gelir.
 
 ## Örnekler
 
-Ekli şablonları olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
+Ekli şablonu olmayan belgeler için varsayılan şablonun nasıl ayarlanacağını gösterir.
 
 ```csharp
 Document doc = new Document();
 
-// Otomatik stil güncellemeyi etkinleştirin ancak şablon belgesi eklemeyin.
+// Otomatik stil güncellemesini etkinleştirin, ancak şablon belge eklemeyin.
 doc.AutomaticallyUpdateStyles = true;
 
 Assert.AreEqual(string.Empty, doc.AttachedTemplate);
 
-// Şablon belge olmadığından belgenin stil değişikliklerini izleyecek yeri yoktu.
-// Şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
-// eğer kaydettiğimiz belgede belge yoksa.
+// Şablon belge olmadığından, belgede stil değişikliklerini izleyecek bir yer yoktu.
+// Bir şablonu otomatik olarak ayarlamak için SaveOptions nesnesini kullanın
+// eğer kaydettiğimiz bir belgede yoksa.
 SaveOptions options = SaveOptions.CreateSaveOptions("Document.DefaultTemplate.docx");
 options.DefaultTemplate = MyDir + "Business brochure.dotx";
 

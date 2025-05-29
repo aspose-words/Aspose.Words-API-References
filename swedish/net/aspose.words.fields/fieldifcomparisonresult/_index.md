@@ -3,14 +3,14 @@ title: FieldIfComparisonResult Enum
 linktitle: FieldIfComparisonResult
 articleTitle: FieldIfComparisonResult
 second_title: Aspose.Words för .NET
-description: Aspose.Words.Fields.FieldIfComparisonResult uppräkning. Anger resultatet av IFfältets tillståndsutvärdering i C#.
+description: Upptäck Aspose.Words.Fields.FieldIfComparisonResult-enumen, som definierar resultaten av IF-fältutvärderingar och förbättrar dina dokumentautomatiseringsfunktioner.
 type: docs
-weight: 2010
+weight: 2420
 url: /sv/net/aspose.words.fields/fieldifcomparisonresult/
 ---
 ## FieldIfComparisonResult enumeration
 
-Anger resultatet av IF-fältets tillståndsutvärdering.
+Anger resultatet av utvärderingen av IF-fältets villkor.
 
 ```csharp
 public enum FieldIfComparisonResult
@@ -21,12 +21,12 @@ public enum FieldIfComparisonResult
 | namn | Värde | Beskrivning |
 | --- | --- | --- |
 | Error | `0` | Det finns ett fel i villkoret. |
-| True | `1` | Villkoret är`Sann` . |
+| True | `1` | Villkoret är`sann` . |
 | False | `2` | Villkoret är`falsk` . |
 
 ## Exempel
 
-Visar hur man infogar ett IF-fält.
+Visar hur man infogar ett OM-fält.
 
 ```csharp
 Document doc = new Document();
@@ -38,13 +38,13 @@ field.LeftExpression = "0";
 field.ComparisonOperator = "=";
 field.RightExpression = "1";
 
-// IF-fältet kommer att visa en sträng från antingen dess "TrueText"-egenskap,
-// eller dess "FalseText"-egenskap, beroende på sanningen i påståendet som vi har konstruerat.
+// OM-fältet visar en sträng från antingen dess "TrueText"-egenskap,
+// eller dess "FalseText"-egenskap, beroende på sanningshalten i det påstående vi har konstruerat.
 field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// I det här fallet är "0 = 1" felaktigt, så det visade resultatet blir "False".
+// I det här fallet är "0 = 1" felaktigt, så det visade resultatet blir "Falskt".
 Assert.AreEqual(" IF  0 = 1 True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.False, field.EvaluateCondition());
 Assert.AreEqual("False", field.Result);
@@ -58,7 +58,7 @@ field.TrueText = "True";
 field.FalseText = "False";
 field.Update();
 
-// Den här gången är påståendet korrekt, så det visade resultatet blir "True".
+// Den här gången är påståendet korrekt, så det visade resultatet blir "Sant".
 Assert.AreEqual(" IF  5 = \"2 + 3\" True False", field.GetFieldCode());
 Assert.AreEqual(FieldIfComparisonResult.True, field.EvaluateCondition());
 Assert.AreEqual("True", field.Result);

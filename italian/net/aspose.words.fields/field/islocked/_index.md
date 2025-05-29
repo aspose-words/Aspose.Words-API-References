@@ -3,14 +3,14 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words per .NET
-description: Field IsLocked proprietà. Ottiene o imposta se il campo è bloccato non deve ricalcolare il risultato in C#.
+description: Scopri la proprietà IsLocked per i campi: controlla il ricalcolo e migliora l'integrità dei dati. Ottieni una gestione efficiente dei risultati dei tuoi dati oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/field/islocked/
 ---
 ## Field.IsLocked property
 
-Ottiene o imposta se il campo è bloccato (non deve ricalcolare il risultato).
+Ottiene o imposta se il campo è bloccato (non dovrebbe ricalcolare il suo risultato).
 
 ```csharp
 public bool IsLocked { get; set; }

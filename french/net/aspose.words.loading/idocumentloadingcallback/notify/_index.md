@@ -3,14 +3,14 @@ title: IDocumentLoadingCallback.Notify
 linktitle: Notify
 articleTitle: Notify
 second_title: Aspose.Words pour .NET
-description: IDocumentLoadingCallback Notify méthode. Ceci est appelé pour informer de la progression du chargement du document en C#.
+description: Suivez facilement la progression du chargement des documents grâce à la méthode de notification IDocumentLoadingCallback. Améliorez l'expérience utilisateur grâce aux mises à jour en temps réel !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.loading/idocumentloadingcallback/notify/
 ---
 ## IDocumentLoadingCallback.Notify method
 
-Ceci est appelé pour informer de la progression du chargement du document.
+Ceci est appelé pour notifier la progression du chargement du document.
 
 ```csharp
 public void Notify(DocumentLoadingArgs args)
@@ -22,13 +22,13 @@ public void Notify(DocumentLoadingArgs args)
 
 ## Remarques
 
-Les principales utilisations de cette interface sont de permettre au code d'application d'obtenir l'état de progression et d'abandonner le processus de chargement.
+Les principales utilisations de cette interface sont de permettre au code d'application d'obtenir l'état de progression et d'interrompre le processus de chargement.
 
 Une exception doit être levée à partir du rappel de progression pour l'avortement et elle doit être interceptée dans le code du consommateur.
 
 ## Exemples
 
-Montre comment avertir l'utilisateur si le chargement du document a dépassé le temps de chargement prévu.
+Montre comment avertir l'utilisateur si le chargement du document dépasse le temps de chargement prévu.
 
 ```csharp
 public void ProgressCallback()
@@ -45,12 +45,12 @@ public void ProgressCallback()
     {
         Console.WriteLine(exception.Message);
 
-        // Gère le problème de durée de chargement.
+        // Gérer le problème de durée de chargement.
     }
 }
 
 /// <summary>
-/// Annule le chargement d'un document après les secondes "MaxDuration".
+/// Annuler le chargement d'un document après les secondes "MaxDuration".
 /// </summary>
 public class LoadingProgressCallback : IDocumentLoadingCallback
 {

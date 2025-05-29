@@ -3,16 +3,16 @@ title: ReplacingArgs Class
 linktitle: ReplacingArgs
 articleTitle: ReplacingArgs
 second_title: Aspose.Words для .NET
-description: Aspose.Words.Replacing.ReplacingArgs сорт. Предоставляет данные для пользовательской операции замены на С#.
+description: Откройте для себя класс Aspose.Words.Replacing.ReplacingArgs для эффективной замены пользовательского текста в ваших документах. Улучшите свой рабочий процесс сегодня!
 type: docs
-weight: 4650
+weight: 5390
 url: /ru/net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
 
 Предоставляет данные для пользовательской операции замены.
 
-Чтобы узнать больше, посетите[Найти и заменить](https://docs.aspose.com/words/net/find-and-replace/) статья документации.
+Чтобы узнать больше, посетите[Найти и заменить](https://docs.aspose.com/words/net/find-and-replace/) документальная статья.
 
 ```csharp
 public class ReplacingArgs
@@ -24,9 +24,9 @@ public class ReplacingArgs
 | --- | --- |
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Идентифицирует по индексу захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Идентифицирует по имени захваченную группу в[`Match`](./match/) , который необходимо заменить на[`Replacement`](./replacement/) строка. |
-| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате одного совпадения выражения Regular во время**Заменять** . |
+| [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | Match в результате одного совпадения выражения regular во время**Заменять** . |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Получает узел, содержащий начало совпадения. |
-| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Получает начальную позицию совпадения с отсчетом от нуля от начала узла, содержащего начало совпадения. |
+| [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Получает начальную позицию совпадения (начиная с нуля) от начала узла, содержащего начало совпадения. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Получает или задает строку замены. |
 
 ## Примеры
@@ -45,7 +45,7 @@ public void ReplaceWithCallback()
     // Мы можем использовать объект «FindReplaceOptions» для изменения процесса поиска и замены.
     FindReplaceOptions options = new FindReplaceOptions();
 
-    // Установите обратный вызов, который отслеживает любые замены, которые сделает метод "Replace".
+    // Устанавливаем обратный вызов, который отслеживает любые замены, которые будет выполнять метод «Replace».
     TextFindAndReplacementLogger logger = new TextFindAndReplacementLogger();
     options.ReplacingCallback = logger;
 
@@ -59,7 +59,7 @@ public void ReplaceWithCallback()
 }
 
 /// <summary>
-/// Ведёт журнал каждой замены текста, выполненной операцией поиска и замены
+/// Ведет журнал каждой замены текста, выполненной операцией поиска и замены
 /// и отмечает значение исходного совпавшего текста.
 /// </summary>
 private class TextFindAndReplacementLogger : IReplacingCallback
@@ -104,11 +104,11 @@ private class InsertDocumentAtReplaceHandler : IReplacingCallback
     {
         Document subDoc = new Document(MyDir + "Document.docx");
 
-        // Вставляем документ после абзаца, содержащего совпадающий текст.
+        // Вставить документ после абзаца, содержащего совпадающий текст.
         Paragraph para = (Paragraph)args.MatchNode.ParentNode;
         InsertDocument(para, subDoc);
 
-        // Удаляем абзац с совпадающим текстом.
+        // Удалить абзац с совпадающим текстом.
         para.Remove();
 
         return ReplaceAction.Skip;
@@ -130,7 +130,7 @@ private static void InsertDocument(Node insertionDestination, Document docToInse
         foreach (Section srcSection in docToInsert.Sections.OfType<Section>())
             foreach (Node srcNode in srcSection.Body)
             {
-                // Пропускаем узел, если это последний пустой абзац в разделе.
+                // Пропустить узел, если это последний пустой абзац в разделе.
                 if (srcNode.NodeType == NodeType.Paragraph)
                 {
                     Paragraph para = (Paragraph)srcNode;
