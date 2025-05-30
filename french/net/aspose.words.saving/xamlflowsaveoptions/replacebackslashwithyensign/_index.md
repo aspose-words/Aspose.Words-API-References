@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ReplaceBackslashWithYenSign
 linktitle: ReplaceBackslashWithYenSign
 articleTitle: ReplaceBackslashWithYenSign
 second_title: Aspose.Words pour .NET
-description: Découvrez comment la propriété ReplaceBackslashWithYenSign de XamlFlowSaveOptions améliore la mise en forme de vos données en convertissant les barres obliques inverses en signes yen. Valeur par défaut : false.
+description: Découvrez comment la propriété ReplaceBackslashWithYenSign de XamlFlowSaveOptions améliore la mise en forme de vos données en convertissant les barres obliques inverses en signes yen. Valeur par défaut  false.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/xamlflowsaveoptions/replacebackslashwithyensign/

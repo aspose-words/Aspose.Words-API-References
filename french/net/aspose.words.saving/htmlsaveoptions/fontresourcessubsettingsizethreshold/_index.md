@@ -3,7 +3,7 @@ title: HtmlSaveOptions.FontResourcesSubsettingSizeThreshold
 linktitle: FontResourcesSubsettingSizeThreshold
 articleTitle: FontResourcesSubsettingSizeThreshold
 second_title: Aspose.Words pour .NET
-description: Optimisez vos fichiers HTML, MHTML ou EPUB avec la propriété FontResourcesSubsettingSizeThreshold, garantissant une gestion efficace des ressources de polices. Valeur par défaut : 0.
+description: Optimisez vos fichiers HTML, MHTML ou EPUB avec la propriété FontResourcesSubsettingSizeThreshold, garantissant une gestion efficace des ressources de polices. Valeur par défaut  0.
 type: docs
 weight: 290
 url: /fr/net/aspose.words.saving/htmlsaveoptions/fontresourcessubsettingsizethreshold/
