@@ -3,7 +3,7 @@ title: FieldToa.SequenceSeparator
 linktitle: SequenceSeparator
 articleTitle: SequenceSeparator
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété FieldToa SequenceSeparator : personnalisez facilement la séquence de caractères pour séparer les numéros de séquence et de page pour une clarté accrue.
+description: Découvrez la propriété FieldToa SequenceSeparator  personnalisez facilement la séquence de caractères pour séparer les numéros de séquence et de page pour une clarté accrue.
 type: docs
 weight: 90
 url: /fr/net/aspose.words.fields/fieldtoa/sequenceseparator/

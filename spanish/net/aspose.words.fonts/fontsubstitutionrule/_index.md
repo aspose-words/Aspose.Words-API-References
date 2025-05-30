@@ -3,7 +3,7 @@ title: FontSubstitutionRule Class
 linktitle: FontSubstitutionRule
 articleTitle: FontSubstitutionRule
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Fonts.FontSubstitutionRule: su guía esencial para la sustitución efectiva de fuentes en el procesamiento y diseño de documentos.
+description: Descubra la clase Aspose.Words.Fonts.FontSubstitutionRule su guía esencial para la sustitución efectiva de fuentes en el procesamiento y diseño de documentos.
 type: docs
 weight: 3430
 url: /es/net/aspose.words.fonts/fontsubstitutionrule/

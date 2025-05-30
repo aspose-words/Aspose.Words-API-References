@@ -3,7 +3,7 @@ title: Font.AutoColor
 linktitle: AutoColor
 articleTitle: AutoColor
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Font AutoColor : obtenez la couleur actuelle du texte (noir ou blanc) pour des ajustements automatiques. Optimisez votre design sans effort !
+description: Découvrez la propriété Font AutoColor  obtenez la couleur actuelle du texte (noir ou blanc) pour des ajustements automatiques. Optimisez votre design sans effort !
 type: docs
 weight: 20
 url: /fr/net/aspose.words/font/autocolor/

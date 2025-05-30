@@ -3,7 +3,7 @@ title: GeneralFormatCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: Descubra cómo mejorar su colección con el método Add GeneralFormatCollection: ¡agregue de manera eficiente formatos versátiles para una mejor gestión de datos!
+description: Descubra cómo mejorar su colección con el método Add GeneralFormatCollection ¡agregue de manera eficiente formatos versátiles para una mejor gestión de datos!
 type: docs
 weight: 30
 url: /es/net/aspose.words.fields/generalformatcollection/add/

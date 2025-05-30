@@ -3,7 +3,7 @@ title: ChartAxis.AxisBetweenCategories
 linktitle: AxisBetweenCategories
 articleTitle: AxisBetweenCategories
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété ChartAxis AxisBetweenCategories : contrôlez le positionnement des axes de valeurs pour une meilleure visualisation des catégories dans vos graphiques. Optimisez la présentation de vos données !
+description: Découvrez la propriété ChartAxis AxisBetweenCategories  contrôlez le positionnement des axes de valeurs pour une meilleure visualisation des catégories dans vos graphiques. Optimisez la présentation de vos données !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.drawing.charts/chartaxis/axisbetweencategories/

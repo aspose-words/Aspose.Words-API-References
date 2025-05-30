@@ -3,7 +3,7 @@ title: Table.Style
 linktitle: Style
 articleTitle: Style
 second_title: Aspose.Words para .NET
-description: Descubra cómo personalizar fácilmente la apariencia de su tabla con la propiedad Estilo de tabla: ¡mejore sus diseños con estilos únicos sin esfuerzo!
+description: Descubra cómo personalizar fácilmente la apariencia de su tabla con la propiedad Estilo de tabla ¡mejore sus diseños con estilos únicos sin esfuerzo!
 type: docs
 weight: 270
 url: /es/net/aspose.words.tables/table/style/

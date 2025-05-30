@@ -3,7 +3,7 @@ title: FieldInclude.TextConverter
 linktitle: TextConverter
 articleTitle: TextConverter
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad FieldInclude TextConverter: administre fácilmente las conversiones de formatos de archivo con nombres de convertidores de texto personalizables para mejorar la eficiencia del flujo de trabajo.
+description: Descubra la propiedad FieldInclude TextConverter administre fácilmente las conversiones de formatos de archivo con nombres de convertidores de texto personalizables para mejorar la eficiencia del flujo de trabajo.
 type: docs
 weight: 50
 url: /es/net/aspose.words.fields/fieldinclude/textconverter/

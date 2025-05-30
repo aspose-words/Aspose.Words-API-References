@@ -3,7 +3,7 @@ title: Bibliography.BibliographyStyle
 linktitle: BibliographyStyle
 articleTitle: BibliographyStyle
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad BibliographyStyle: administre y personalice fácilmente el estilo activo de su bibliografía para una mejor organización y presentación.
+description: Descubra la propiedad BibliographyStyle administre y personalice fácilmente el estilo activo de su bibliografía para una mejor organización y presentación.
 type: docs
 weight: 10
 url: /es/net/aspose.words.bibliography/bibliography/bibliographystyle/

@@ -3,7 +3,7 @@ title: ContributorCollection.Producer
 linktitle: Producer
 articleTitle: Producer
 second_title: Aspose.Words per .NET
-description: Gestisci i tuoi contenuti multimediali con la proprietà Producer di ContributorCollection: imposta o recupera facilmente il produttore della fonte per un'organizzazione semplificata dei contenuti.
+description: Gestisci i tuoi contenuti multimediali con la proprietà Producer di ContributorCollection imposta o recupera facilmente il produttore della fonte per un'organizzazione semplificata dei contenuti.
 type: docs
 weight: 140
 url: /it/net/aspose.words.bibliography/contributorcollection/producer/

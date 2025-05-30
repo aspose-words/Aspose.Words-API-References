@@ -3,7 +3,7 @@ title: RevisionGroupCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: Descubra el método GetEnumerator de RevisionGroupCollection: recupere de manera eficiente objetos enumeradores para una administración de datos optimizada y un rendimiento mejorado.
+description: Descubra el método GetEnumerator de RevisionGroupCollection recupere de manera eficiente objetos enumeradores para una administración de datos optimizada y un rendimiento mejorado.
 type: docs
 weight: 30
 url: /es/net/aspose.words/revisiongroupcollection/getenumerator/

@@ -3,7 +3,7 @@ title: FieldAutoTextList.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words para .NET
-description: Descubra cómo administrar entradas de Autotexto con la propiedad EntryName de FieldAutoTextList: configure o recupere nombres fácilmente para una edición optimizada de documentos.
+description: Descubra cómo administrar entradas de Autotexto con la propiedad EntryName de FieldAutoTextList configure o recupere nombres fácilmente para una edición optimizada de documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldautotextlist/entryname/

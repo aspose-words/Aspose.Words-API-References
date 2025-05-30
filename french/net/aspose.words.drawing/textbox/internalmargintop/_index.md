@@ -3,7 +3,7 @@ title: TextBox.InternalMarginTop
 linktitle: InternalMarginTop
 articleTitle: InternalMarginTop
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété TextBox InternalMarginTop : contrôlez la marge supérieure de votre forme en points pour une mise en page précise et une flexibilité de conception améliorée.
+description: Découvrez la propriété TextBox InternalMarginTop  contrôlez la marge supérieure de votre forme en points pour une mise en page précise et une flexibilité de conception améliorée.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing/textbox/internalmargintop/

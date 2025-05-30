@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words per .NET
-description: Gestisci la casella di controllo SDT con la proprietà Checked di StructuredDocumentTag. Ottieni/imposta facilmente il suo stato: il valore predefinito è "false". Migliora l'interattività dei documenti oggi stesso!
+description: Gestisci la casella di controllo SDT con la proprietà Checked di StructuredDocumentTag. Ottieni/imposta facilmente il suo stato il valore predefinito è "false". Migliora l'interattività dei documenti oggi stesso!
 type: docs
 weight: 60
 url: /it/net/aspose.words.markup/structureddocumenttag/checked/

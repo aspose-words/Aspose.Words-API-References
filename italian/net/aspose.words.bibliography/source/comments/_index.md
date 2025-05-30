@@ -3,7 +3,7 @@ title: Source.Comments
 linktitle: Comments
 articleTitle: Comments
 second_title: Aspose.Words per .NET
-description: Gestisci facilmente i commenti alle fonti: ottieni o imposta commenti per qualsiasi fonte per migliorare la chiarezza e il coinvolgimento dei tuoi contenuti. Ottimizza il tuo flusso di lavoro oggi stesso!
+description: Gestisci facilmente i commenti alle fonti ottieni o imposta commenti per qualsiasi fonte per migliorare la chiarezza e il coinvolgimento dei tuoi contenuti. Ottimizza il tuo flusso di lavoro oggi stesso!
 type: docs
 weight: 100
 url: /it/net/aspose.words.bibliography/source/comments/

@@ -3,7 +3,7 @@ title: AnthropicAiModel Class
 linktitle: AnthropicAiModel
 articleTitle: AnthropicAiModel
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.AI.AnthropicAiModel: su puerta de entrada a una integración perfecta con los modelos de IA de Anthropics para un mejor procesamiento de documentos.
+description: Descubra la clase Aspose.Words.AI.AnthropicAiModel su puerta de entrada a una integración perfecta con los modelos de IA de Anthropics para un mejor procesamiento de documentos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.ai/anthropicaimodel/

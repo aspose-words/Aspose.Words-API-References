@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words per .NET
-description: Controlla l'unione degli elenchi con la proprietà MergePastedLists di ImportFormatOptions. Gestisci facilmente gli elenchi incollati per migliorare la formattazione del documento. Valore predefinito: false.
+description: Controlla l'unione degli elenchi con la proprietà MergePastedLists di ImportFormatOptions. Gestisci facilmente gli elenchi incollati per migliorare la formattazione del documento. Valore predefinito false.
 type: docs
 weight: 70
 url: /it/net/aspose.words/importformatoptions/mergepastedlists/

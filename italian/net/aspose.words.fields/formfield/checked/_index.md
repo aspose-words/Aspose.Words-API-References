@@ -3,7 +3,7 @@ title: FormField.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words per .NET
-description: Gestisci il tuo modulo con facilità utilizzando la proprietà FormField Checked. Controlla lo stato delle caselle di controllo senza sforzo: l'impostazione predefinita è deselezionata per un'esperienza utente ottimizzata.
+description: Gestisci il tuo modulo con facilità utilizzando la proprietà FormField Checked. Controlla lo stato delle caselle di controllo senza sforzo l'impostazione predefinita è deselezionata per un'esperienza utente ottimizzata.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/formfield/checked/

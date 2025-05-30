@@ -3,7 +3,7 @@ title: CompatibilityOptions.PrintColBlack
 linktitle: PrintColBlack
 articleTitle: PrintColBlack
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété PrintColBlack pour CompatibilityOptions : imprimez facilement en noir et blanc époustouflant sans tramage pour des résultats nets et clairs.
+description: Découvrez la propriété PrintColBlack pour CompatibilityOptions  imprimez facilement en noir et blanc époustouflant sans tramage pour des résultats nets et clairs.
 type: docs
 weight: 400
 url: /fr/net/aspose.words.settings/compatibilityoptions/printcolblack/

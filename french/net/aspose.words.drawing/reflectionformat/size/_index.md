@@ -3,7 +3,7 @@ title: ReflectionFormat.Size
 linktitle: Size
 articleTitle: Size
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété ReflectionFormat Size : contrôlez la taille de la réflexion (0,0-1,0) pour des effets visuels époustouflants dans vos créations. Améliorez l'esthétique de votre projet !
+description: Découvrez la propriété ReflectionFormat Size  contrôlez la taille de la réflexion (0,0-1,0) pour des effets visuels époustouflants dans vos créations. Améliorez l'esthétique de votre projet !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.drawing/reflectionformat/size/

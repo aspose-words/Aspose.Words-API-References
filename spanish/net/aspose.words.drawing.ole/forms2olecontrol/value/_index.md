@@ -3,7 +3,7 @@ title: Forms2OleControl.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad Valor de Forms2OleControl, que refleja los estados de los controles. Administre fácilmente los valores de los botones de opción: 1 para activado, 0 para desactivado. ¡Simplifique su programación!
+description: Descubra la propiedad Valor de Forms2OleControl, que refleja los estados de los controles. Administre fácilmente los valores de los botones de opción 1 para activado, 0 para desactivado. ¡Simplifique su programación!
 type: docs
 weight: 90
 url: /es/net/aspose.words.drawing.ole/forms2olecontrol/value/

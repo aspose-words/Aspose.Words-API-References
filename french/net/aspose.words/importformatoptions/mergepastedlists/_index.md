@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words pour .NET
-description: Fusion de listes de contrôle avec la propriété MergePastedLists de ImportFormatOptions. Gérez facilement les listes collées pour améliorer la mise en forme des documents. Valeur par défaut : false.
+description: Fusion de listes de contrôle avec la propriété MergePastedLists de ImportFormatOptions. Gérez facilement les listes collées pour améliorer la mise en forme des documents. Valeur par défaut  false.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/importformatoptions/mergepastedlists/

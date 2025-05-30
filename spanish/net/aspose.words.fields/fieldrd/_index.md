@@ -3,7 +3,7 @@ title: FieldRD Class
 linktitle: FieldRD
 articleTitle: FieldRD
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Fields.FieldRD: implemente de manera eficiente campos RD para un mejor procesamiento y automatización de documentos en sus proyectos.
+description: Descubra la clase Aspose.Words.Fields.FieldRD implemente de manera eficiente campos RD para un mejor procesamiento y automatización de documentos en sus proyectos.
 type: docs
 weight: 2730
 url: /es/net/aspose.words.fields/fieldrd/

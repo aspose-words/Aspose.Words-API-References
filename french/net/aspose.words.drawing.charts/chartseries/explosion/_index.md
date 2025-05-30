@@ -3,7 +3,7 @@ title: ChartSeries.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Explosion de ChartSeries pour personnaliser les points de données d'un graphique à secteurs. Ajustez le positionnement pour des visualisations percutantes : idéal pour la narration de données !
+description: Découvrez la propriété Explosion de ChartSeries pour personnaliser les points de données d'un graphique à secteurs. Ajustez le positionnement pour des visualisations percutantes  idéal pour la narration de données !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.drawing.charts/chartseries/explosion/

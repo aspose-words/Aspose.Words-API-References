@@ -3,7 +3,7 @@ title: FieldNextIf Class
 linktitle: FieldNextIf
 articleTitle: FieldNextIf
 second_title: Aspose.Words pour .NET
-description: Découvrez la classe Aspose.Words.Fields.FieldNextIf : implémentez efficacement les champs NEXTIF pour améliorer l'automatisation des documents et rationaliser vos flux de travail.
+description: Découvrez la classe Aspose.Words.Fields.FieldNextIf  implémentez efficacement les champs NEXTIF pour améliorer l'automatisation des documents et rationaliser vos flux de travail.
 type: docs
 weight: 2600
 url: /fr/net/aspose.words.fields/fieldnextif/

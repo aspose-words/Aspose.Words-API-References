@@ -3,7 +3,7 @@ title: VariableCollection.Item
 linktitle: Item
 articleTitle: Item
 second_title: Aspose.Words per .NET
-description: Gestisci le variabili dei documenti senza sforzo con VariableCollection Item. Imposta o recupera facilmente nomi senza distinzione tra maiuscole e minuscole: non sono ammessi valori nulli, garantendo l'integrità dei dati.
+description: Gestisci le variabili dei documenti senza sforzo con VariableCollection Item. Imposta o recupera facilmente nomi senza distinzione tra maiuscole e minuscole non sono ammessi valori nulli, garantendo l'integrità dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words/variablecollection/item/

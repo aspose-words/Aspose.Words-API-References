@@ -3,7 +3,7 @@ title: SaveOptions.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words för .NET
-description: Upptäck hur egenskapen SaveOptions UpdateFields optimerar dokumentsparning genom att uppdatera specifika fälttyper innan de konverteras till fasta format. Standardvärde: sant.
+description: Upptäck hur egenskapen SaveOptions UpdateFields optimerar dokumentsparning genom att uppdatera specifika fälttyper innan de konverteras till fasta format. Standardvärde sant.
 type: docs
 weight: 170
 url: /sv/net/aspose.words.saving/saveoptions/updatefields/

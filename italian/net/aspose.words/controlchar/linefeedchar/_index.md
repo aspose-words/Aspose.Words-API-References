@@ -3,7 +3,7 @@ title: ControlChar.LineFeedChar
 linktitle: LineFeedChar
 articleTitle: LineFeedChar
 second_title: Aspose.Words per .NET
-description: Scopri il campo ControlChar LineFeedChar: ottimizza l'elaborazione del testo con il carattere di avanzamento riga essenziale (char10 o n) per una gestione dei dati senza interruzioni.
+description: Scopri il campo ControlChar LineFeedChar ottimizza l'elaborazione del testo con il carattere di avanzamento riga essenziale (char10 o n) per una gestione dei dati senza interruzioni.
 type: docs
 weight: 150
 url: /it/net/aspose.words/controlchar/linefeedchar/

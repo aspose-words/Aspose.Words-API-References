@@ -3,7 +3,7 @@ title: CleanupOptions.DuplicateStyle
 linktitle: DuplicateStyle
 articleTitle: DuplicateStyle
 second_title: Aspose.Words pour .NET
-description: Optimisez vos documents avec la propriété DuplicateStyle de CleanupOptions : supprimez facilement les styles en double pour une mise en forme plus nette et plus efficace. La valeur par défaut est « false ».
+description: Optimisez vos documents avec la propriété DuplicateStyle de CleanupOptions  supprimez facilement les styles en double pour une mise en forme plus nette et plus efficace. La valeur par défaut est « false ».
 type: docs
 weight: 20
 url: /fr/net/aspose.words/cleanupoptions/duplicatestyle/

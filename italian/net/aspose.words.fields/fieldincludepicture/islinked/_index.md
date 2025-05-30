@@ -3,7 +3,7 @@ title: FieldIncludePicture.IsLinked
 linktitle: IsLinked
 articleTitle: IsLinked
 second_title: Aspose.Words per .NET
-description: Ottimizza i tuoi documenti con la proprietà FieldIncludePicture IsLinked: controlla l'archiviazione delle immagini per ridurre le dimensioni dei file e migliorare le prestazioni.
+description: Ottimizza i tuoi documenti con la proprietà FieldIncludePicture IsLinked controlla l'archiviazione delle immagini per ridurre le dimensioni dei file e migliorare le prestazioni.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldincludepicture/islinked/

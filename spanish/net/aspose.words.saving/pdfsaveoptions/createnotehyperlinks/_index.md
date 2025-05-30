@@ -3,7 +3,7 @@ title: PdfSaveOptions.CreateNoteHyperlinks
 linktitle: CreateNoteHyperlinks
 articleTitle: CreateNoteHyperlinks
 second_title: Aspose.Words para .NET
-description: Mejore sus archivos PDF con CreateNoteHyperlinks de PdfSaveOptions. Convierta notas al pie y notas finales en enlaces interactivos para facilitar la navegación. Valor predeterminado: falso.
+description: Mejore sus archivos PDF con CreateNoteHyperlinks de PdfSaveOptions. Convierta notas al pie y notas finales en enlaces interactivos para facilitar la navegación. Valor predeterminado falso.
 type: docs
 weight: 60
 url: /es/net/aspose.words.saving/pdfsaveoptions/createnotehyperlinks/

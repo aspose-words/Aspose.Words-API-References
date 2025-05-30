@@ -3,7 +3,7 @@ title: FieldSymbol.IsShiftJis
 linktitle: IsShiftJis
 articleTitle: IsShiftJis
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété FieldSymbol IsShiftJis : gérez facilement les codes de caractères SHIFTJIS pour une gestion améliorée des données et une interprétation transparente des caractères.
+description: Découvrez la propriété FieldSymbol IsShiftJis  gérez facilement les codes de caractères SHIFTJIS pour une gestion améliorée des données et une interprétation transparente des caractères.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.fields/fieldsymbol/isshiftjis/

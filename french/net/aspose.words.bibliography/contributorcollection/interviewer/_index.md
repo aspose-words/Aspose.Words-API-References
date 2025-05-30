@@ -3,7 +3,7 @@ title: ContributorCollection.Interviewer
 linktitle: Interviewer
 articleTitle: Interviewer
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Interviewer de ContributorCollection : gérez et personnalisez facilement les informations sur l'intervieweur pour vos sources. Optimisez votre gestion de données dès aujourd'hui !
+description: Découvrez la propriété Interviewer de ContributorCollection  gérez et personnalisez facilement les informations sur l'intervieweur pour vos sources. Optimisez votre gestion de données dès aujourd'hui !
 type: docs
 weight: 110
 url: /fr/net/aspose.words.bibliography/contributorcollection/interviewer/

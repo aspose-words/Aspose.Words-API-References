@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words för .NET
-description: Upptäck egenskapen GlowFormat Radius för att anpassa dina glödeffekter. Justera radien i punkter för fantastiska visuella förbättringar. Standardvärde: 0,0.
+description: Upptäck egenskapen GlowFormat Radius för att anpassa dina glödeffekter. Justera radien i punkter för fantastiska visuella förbättringar. Standardvärde 0,0.
 type: docs
 weight: 20
 url: /sv/net/aspose.words.drawing/glowformat/radius/

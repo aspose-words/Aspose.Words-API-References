@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBodyEnd
 linktitle: VisitBodyEnd
 articleTitle: VisitBodyEnd
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode DocumentVisitor VisitBodyEnd : gérez efficacement l'énumération des récits textuels et améliorez vos capacités de traitement de documents.
+description: Découvrez la méthode DocumentVisitor VisitBodyEnd  gérez efficacement l'énumération des récits textuels et améliorez vos capacités de traitement de documents.
 type: docs
 weight: 20
 url: /fr/net/aspose.words/documentvisitor/visitbodyend/

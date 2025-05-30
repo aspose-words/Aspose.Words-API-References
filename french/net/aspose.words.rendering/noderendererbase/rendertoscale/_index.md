@@ -3,7 +3,7 @@ title: NodeRendererBase.RenderToScale
 linktitle: RenderToScale
 articleTitle: RenderToScale
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode NodeRendererBase RenderToScale : restituez efficacement des formes en objets graphiques à n'importe quelle échelle pour une sortie visuelle améliorée.
+description: Découvrez la méthode NodeRendererBase RenderToScale  restituez efficacement des formes en objets graphiques à n'importe quelle échelle pour une sortie visuelle améliorée.
 type: docs
 weight: 70
 url: /fr/net/aspose.words.rendering/noderendererbase/rendertoscale/

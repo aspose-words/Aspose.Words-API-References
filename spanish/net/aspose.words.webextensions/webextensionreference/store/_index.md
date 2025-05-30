@@ -3,7 +3,7 @@ title: WebExtensionReference.Store
 linktitle: Store
 articleTitle: Store
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad WebExtensionReference Store: su puerta de entrada para acceder y administrar extensiones web en el mercado de manera eficiente.
+description: Descubra la propiedad WebExtensionReference Store su puerta de entrada para acceder y administrar extensiones web en el mercado de manera eficiente.
 type: docs
 weight: 30
 url: /es/net/aspose.words.webextensions/webextensionreference/store/

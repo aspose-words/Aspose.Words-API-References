@@ -3,7 +3,7 @@ title: Metered.GetConsumptionCredit
 linktitle: GetConsumptionCredit
 articleTitle: GetConsumptionCredit
 second_title: Aspose.Words pour .NET
-description: Réalisez des économies grâce à la méthode GetConsumptionCredit avec compteur : récupérez efficacement vos crédits de consommation pour une gestion plus intelligente de l'énergie.
+description: Réalisez des économies grâce à la méthode GetConsumptionCredit avec compteur  récupérez efficacement vos crédits de consommation pour une gestion plus intelligente de l'énergie.
 type: docs
 weight: 40
 url: /fr/net/aspose.words/metered/getconsumptioncredit/

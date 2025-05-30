@@ -3,7 +3,7 @@ title: RevisionOptions.InsertedTextColor
 linktitle: InsertedTextColor
 articleTitle: InsertedTextColor
 second_title: Aspose.Words für .NET
-description: Passen Sie Ihr Bearbeitungserlebnis mit der RevisionOptions InsertedTextColor-Eigenschaft an und legen Sie eindeutige Farben für eingefügte Inhalte fest. Standard: ByAuthor.
+description: Passen Sie Ihr Bearbeitungserlebnis mit der RevisionOptions InsertedTextColor-Eigenschaft an und legen Sie eindeutige Farben für eingefügte Inhalte fest. Standard ByAuthor.
 type: docs
 weight: 60
 url: /de/net/aspose.words.layout/revisionoptions/insertedtextcolor/

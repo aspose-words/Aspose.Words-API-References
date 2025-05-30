@@ -3,7 +3,7 @@ title: SvgSaveOptions.MaxImageResolution
 linktitle: MaxImageResolution
 articleTitle: MaxImageResolution
 second_title: Aspose.Words pour .NET
-description: Contrôlez la qualité de vos images raster exportées avec SvgSaveOptions MaxImageResolution. Définissez la densité de pixels pour des résultats optimaux. Valeur par défaut : 0.
+description: Contrôlez la qualité de vos images raster exportées avec SvgSaveOptions MaxImageResolution. Définissez la densité de pixels pour des résultats optimaux. Valeur par défaut  0.
 type: docs
 weight: 50
 url: /fr/net/aspose.words.saving/svgsaveoptions/maximageresolution/

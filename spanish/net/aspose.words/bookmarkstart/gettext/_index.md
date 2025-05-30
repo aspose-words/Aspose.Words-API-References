@@ -3,7 +3,7 @@ title: BookmarkStart.GetText
 linktitle: GetText
 articleTitle: GetText
 second_title: Aspose.Words para .NET
-description: Descubra el método GetText de BookmarkStart: recupere texto de forma eficiente y sencilla. ¡Simplifique su codificación y mejore su funcionalidad hoy mismo!
+description: Descubra el método GetText de BookmarkStart recupere texto de forma eficiente y sencilla. ¡Simplifique su codificación y mejore su funcionalidad hoy mismo!
 type: docs
 weight: 60
 url: /es/net/aspose.words/bookmarkstart/gettext/

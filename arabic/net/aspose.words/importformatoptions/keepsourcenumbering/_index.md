@@ -3,7 +3,7 @@ title: ImportFormatOptions.KeepSourceNumbering
 linktitle: KeepSourceNumbering
 articleTitle: KeepSourceNumbering
 second_title: Aspose.Words لـ .NET
-description: تحكم في ترقيم المستندات باستخدام خاصية KeepSourceNumbering في ImportFormatOptions. أدر التعارضات بسهولة لضمان عمليات استيراد سلسة. الافتراضي: خطأ.
+description: تحكم في ترقيم المستندات باستخدام خاصية KeepSourceNumbering في ImportFormatOptions. أدر التعارضات بسهولة لضمان عمليات استيراد سلسة. الافتراضي خطأ.
 type: docs
 weight: 60
 url: /ar/net/aspose.words/importformatoptions/keepsourcenumbering/

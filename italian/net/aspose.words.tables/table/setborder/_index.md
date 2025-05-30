@@ -3,7 +3,7 @@ title: Table.SetBorder
 linktitle: SetBorder
 articleTitle: SetBorder
 second_title: Aspose.Words per .NET
-description: Personalizza l'aspetto della tua tabella con il metodo SetBorder: regola lo stile, la larghezza e il colore delle linee per un aspetto professionale. Migliora il tuo design oggi stesso!
+description: Personalizza l'aspetto della tua tabella con il metodo SetBorder regola lo stile, la larghezza e il colore delle linee per un aspetto professionale. Migliora il tuo design oggi stesso!
 type: docs
 weight: 430
 url: /it/net/aspose.words.tables/table/setborder/

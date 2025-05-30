@@ -3,7 +3,7 @@ title: ChartDataTable.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words für .NET
-description: Steuern Sie die Sichtbarkeit Ihres Diagramms mit der Eigenschaft „ChartDataTable Show“. Schalten Sie die Datentabellenanzeige einfach um, um bessere Einblicke in die Daten zu erhalten. Standard: „false“.
+description: Steuern Sie die Sichtbarkeit Ihres Diagramms mit der Eigenschaft „ChartDataTable Show“. Schalten Sie die Datentabellenanzeige einfach um, um bessere Einblicke in die Daten zu erhalten. Standard „false“.
 type: docs
 weight: 70
 url: /de/net/aspose.words.drawing.charts/chartdatatable/show/

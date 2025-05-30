@@ -3,7 +3,7 @@ title: TabStop
 linktitle: TabStop
 articleTitle: TabStop
 second_title: Aspose.Words para .NET
-description: Descubre el constructor TabStop: crea y personaliza instancias fácilmente para optimizar la funcionalidad de tus proyectos. ¡Mejora tu eficiencia de programación hoy mismo!
+description: Descubre el constructor TabStop crea y personaliza instancias fácilmente para optimizar la funcionalidad de tus proyectos. ¡Mejora tu eficiencia de programación hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words/tabstop/tabstop/

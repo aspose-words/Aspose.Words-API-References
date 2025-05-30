@@ -3,7 +3,7 @@ title: Document.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words per .NET
-description: Aggiorna il tuo documento con il metodo UpdateFields: aggiorna in modo efficiente tutti i valori dei campi per una maggiore precisione e una modifica fluida.
+description: Aggiorna il tuo documento con il metodo UpdateFields aggiorna in modo efficiente tutti i valori dei campi per una maggiore precisione e una modifica fluida.
 type: docs
 weight: 810
 url: /it/net/aspose.words/document/updatefields/

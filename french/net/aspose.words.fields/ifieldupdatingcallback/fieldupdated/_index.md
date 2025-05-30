@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdated
 linktitle: FieldUpdated
 articleTitle: FieldUpdated
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode IFieldUpdatingCallback FieldUpdated : votre solution pour des mises à jour de champs fluides dans vos applications. Améliorez les performances grâce à des rappels personnalisés !
+description: Découvrez la méthode IFieldUpdatingCallback FieldUpdated  votre solution pour des mises à jour de champs fluides dans vos applications. Améliorez les performances grâce à des rappels personnalisés !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.fields/ifieldupdatingcallback/fieldupdated/

@@ -3,7 +3,7 @@ title: Source.ChapterNumber
 linktitle: ChapterNumber
 articleTitle: ChapterNumber
 second_title: Aspose.Words pour .NET
-description: Gérez le numéro de chapitre de votre source sans effort avec la propriété ChapterNumber : simple à utiliser et essentielle pour un référencement organisé.
+description: Gérez le numéro de chapitre de votre source sans effort avec la propriété ChapterNumber  simple à utiliser et essentielle pour un référencement organisé.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.bibliography/source/chapternumber/

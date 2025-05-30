@@ -3,7 +3,7 @@ title: ChartDataTable.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words per .NET
-description: Controlla la visibilità del tuo grafico con la proprietà ChartDataTable Show. Attiva e disattiva facilmente la visualizzazione della tabella dati per ottenere informazioni più approfondite. Valore predefinito: false.
+description: Controlla la visibilità del tuo grafico con la proprietà ChartDataTable Show. Attiva e disattiva facilmente la visualizzazione della tabella dati per ottenere informazioni più approfondite. Valore predefinito false.
 type: docs
 weight: 70
 url: /it/net/aspose.words.drawing.charts/chartdatatable/show/

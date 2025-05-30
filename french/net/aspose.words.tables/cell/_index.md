@@ -3,7 +3,7 @@ title: Cell Class
 linktitle: Cell
 articleTitle: Cell
 second_title: Aspose.Words pour .NET
-description: Découvrez la classe Aspose.Words.Tables.Cell : votre solution pour une gestion efficace des cellules de tableau dans le traitement de vos documents. Améliorez votre flux de travail dès aujourd'hui !
+description: Découvrez la classe Aspose.Words.Tables.Cell  votre solution pour une gestion efficace des cellules de tableau dans le traitement de vos documents. Améliorez votre flux de travail dès aujourd'hui !
 type: docs
 weight: 7090
 url: /fr/net/aspose.words.tables/cell/

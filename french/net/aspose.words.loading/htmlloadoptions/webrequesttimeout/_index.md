@@ -3,7 +3,7 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété WebRequestTimeout de HtmlLoadOptions, qui vous permet de personnaliser les paramètres de délai d'expiration pour des performances web optimales. Valeur par défaut : 100 secondes.
+description: Découvrez la propriété WebRequestTimeout de HtmlLoadOptions, qui vous permet de personnaliser les paramètres de délai d'expiration pour des performances web optimales. Valeur par défaut  100 secondes.
 type: docs
 weight: 80
 url: /fr/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/

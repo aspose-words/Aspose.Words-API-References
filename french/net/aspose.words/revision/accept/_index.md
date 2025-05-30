@@ -3,7 +3,7 @@ title: Revision.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Optimisez votre flux de travail avec la méthode Revision Accept : approuvez les modifications sans effort et améliorez la collaboration pour une gestion de projet plus fluide.
+description: Optimisez votre flux de travail avec la méthode Revision Accept  approuvez les modifications sans effort et améliorez la collaboration pour une gestion de projet plus fluide.
 type: docs
 weight: 70
 url: /fr/net/aspose.words/revision/accept/

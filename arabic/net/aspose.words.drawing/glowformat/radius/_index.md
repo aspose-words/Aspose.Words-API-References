@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words لـ .NET
-description: اكتشف خاصية نصف قطر تنسيق التوهج لتخصيص تأثيرات التوهج. اضبط نصف القطر بالنقاط لتحسينات بصرية مذهلة. القيمة الافتراضية: 0.0.
+description: اكتشف خاصية نصف قطر تنسيق التوهج لتخصيص تأثيرات التوهج. اضبط نصف القطر بالنقاط لتحسينات بصرية مذهلة. القيمة الافتراضية 0.0.
 type: docs
 weight: 20
 url: /ar/net/aspose.words.drawing/glowformat/radius/

@@ -3,7 +3,7 @@ title: OdtSaveOptions.MeasureUnit
 linktitle: MeasureUnit
 articleTitle: MeasureUnit
 second_title: Aspose.Words per .NET
-description: Personalizza l'unità di misura del tuo documento con OdtSaveOptions. Scegli le tue unità di misura preferite per la precisione: l'unità predefinita è Centimetri.
+description: Personalizza l'unità di misura del tuo documento con OdtSaveOptions. Scegli le tue unità di misura preferite per la precisione l'unità predefinita è Centimetri.
 type: docs
 weight: 40
 url: /it/net/aspose.words.saving/odtsaveoptions/measureunit/

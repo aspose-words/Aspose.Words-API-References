@@ -3,7 +3,7 @@ title: FieldCompare.ComparisonOperator
 linktitle: ComparisonOperator
 articleTitle: ComparisonOperator
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad FieldCompare ComparisonOperator: administre fácilmente sus operadores de comparación para mejorar el análisis y la eficiencia de los datos.
+description: Descubra la propiedad FieldCompare ComparisonOperator administre fácilmente sus operadores de comparación para mejorar el análisis y la eficiencia de los datos.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldcompare/comparisonoperator/

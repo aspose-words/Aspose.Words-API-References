@@ -3,7 +3,7 @@ title: FieldDocVariable
 linktitle: FieldDocVariable
 articleTitle: FieldDocVariable
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldDocVariable: su solución predeterminada para un manejo eficiente de datos y una integración perfecta en sus proyectos.
+description: Descubra el constructor FieldDocVariable su solución predeterminada para un manejo eficiente de datos y una integración perfecta en sus proyectos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fielddocvariable/fielddocvariable/

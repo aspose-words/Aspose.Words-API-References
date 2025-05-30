@@ -3,7 +3,7 @@ title: CsvDataLoadOptions
 linktitle: CsvDataLoadOptions
 articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words pour .NET
-description: Découvrez le constructeur CsvDataLoadOptions : initialisez facilement avec les paramètres par défaut pour un chargement de données efficace et une intégration transparente.
+description: Découvrez le constructeur CsvDataLoadOptions  initialisez facilement avec les paramètres par défaut pour un chargement de données efficace et une intégration transparente.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.reporting/csvdataloadoptions/csvdataloadoptions/

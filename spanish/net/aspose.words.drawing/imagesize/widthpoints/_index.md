@@ -3,7 +3,7 @@ title: ImageSize.WidthPoints
 linktitle: WidthPoints
 articleTitle: WidthPoints
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ImageSize WidthPoints para obtener fácilmente el ancho de la imagen en puntos: ¡perfecto para mediciones precisas en proyectos de diseño!
+description: Descubra la propiedad ImageSize WidthPoints para obtener fácilmente el ancho de la imagen en puntos ¡perfecto para mediciones precisas en proyectos de diseño!
 type: docs
 weight: 70
 url: /es/net/aspose.words.drawing/imagesize/widthpoints/

@@ -3,7 +3,7 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words för .NET
-description: Förbättra dina dokument med egenskapen SaveOptions ExportGeneratorName. Bädda in Aspose.Words namn och version för bättre spårbarhet. Standardvärde: sant.
+description: Förbättra dina dokument med egenskapen SaveOptions ExportGeneratorName. Bädda in Aspose.Words namn och version för bättre spårbarhet. Standardvärde sant.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.saving/saveoptions/exportgeneratorname/

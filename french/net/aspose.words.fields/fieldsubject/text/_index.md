@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words pour .NET
-description: Gérez la propriété Texte du sujet du champ sans effort : obtenez ou définissez votre texte d'objet pour une gestion transparente des données et une expérience utilisateur améliorée.
+description: Gérez la propriété Texte du sujet du champ sans effort  obtenez ou définissez votre texte d'objet pour une gestion transparente des données et une expérience utilisateur améliorée.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldsubject/text/

@@ -3,7 +3,7 @@ title: SaveOptions.UpdateFields
 linktitle: UpdateFields
 articleTitle: UpdateFields
 second_title: Aspose.Words para .NET
-description: Descubra cómo la propiedad SaveOptions UpdateFields optimiza el guardado de documentos actualizando tipos de campos específicos antes de convertirlos a formatos fijos. Valor predeterminado: verdadero.
+description: Descubra cómo la propiedad SaveOptions UpdateFields optimiza el guardado de documentos actualizando tipos de campos específicos antes de convertirlos a formatos fijos. Valor predeterminado verdadero.
 type: docs
 weight: 170
 url: /es/net/aspose.words.saving/saveoptions/updatefields/

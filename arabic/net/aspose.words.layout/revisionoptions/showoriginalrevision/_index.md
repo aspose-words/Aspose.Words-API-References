@@ -3,7 +3,7 @@ title: RevisionOptions.ShowOriginalRevision
 linktitle: ShowOriginalRevision
 articleTitle: ShowOriginalRevision
 second_title: Aspose.Words لـ .NET
-description: تحكّم في مراجعات مستنداتك باستخدام خاصية ShowOriginalRevision. يمكنك التبديل بسهولة بين النص الأصلي والمُراجع للحصول على رؤية أوضح. الإعداد الافتراضي: خطأ.
+description: تحكّم في مراجعات مستنداتك باستخدام خاصية ShowOriginalRevision. يمكنك التبديل بسهولة بين النص الأصلي والمُراجع للحصول على رؤية أوضح. الإعداد الافتراضي خطأ.
 type: docs
 weight: 190
 url: /ar/net/aspose.words.layout/revisionoptions/showoriginalrevision/

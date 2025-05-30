@@ -3,7 +3,7 @@ title: HyphenationOptions
 linktitle: HyphenationOptions
 articleTitle: HyphenationOptions
 second_title: Aspose.Words para .NET
-description: Descubra el constructor HyphenationOptions: su solución ideal para una separación de palabras de texto eficiente con configuraciones personalizables para obtener resultados óptimos.
+description: Descubra el constructor HyphenationOptions su solución ideal para una separación de palabras de texto eficiente con configuraciones personalizables para obtener resultados óptimos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.settings/hyphenationoptions/hyphenationoptions/

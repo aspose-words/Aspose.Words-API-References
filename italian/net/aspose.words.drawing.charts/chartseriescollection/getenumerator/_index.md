@@ -3,7 +3,7 @@ title: ChartSeriesCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words per .NET
-description: Scopri il metodo ChartSeriesCollection GetEnumerator: recupera in modo efficiente gli oggetti enumeratori per una manipolazione e un'analisi dei dati senza interruzioni.
+description: Scopri il metodo ChartSeriesCollection GetEnumerator recupera in modo efficiente gli oggetti enumeratori per una manipolazione e un'analisi dei dati senza interruzioni.
 type: docs
 weight: 50
 url: /it/net/aspose.words.drawing.charts/chartseriescollection/getenumerator/

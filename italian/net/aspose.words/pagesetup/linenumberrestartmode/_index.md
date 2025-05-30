@@ -3,7 +3,7 @@ title: PageSetup.LineNumberRestartMode
 linktitle: LineNumberRestartMode
 articleTitle: LineNumberRestartMode
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà LineNumberRestartMode di PageSetup per controllare la numerazione delle righe: puoi scegliere tra il riavvio da nuove pagine o la numerazione continua per documenti senza interruzioni.
+description: Scopri la proprietà LineNumberRestartMode di PageSetup per controllare la numerazione delle righe puoi scegliere tra il riavvio da nuove pagine o la numerazione continua per documenti senza interruzioni.
 type: docs
 weight: 230
 url: /it/net/aspose.words/pagesetup/linenumberrestartmode/

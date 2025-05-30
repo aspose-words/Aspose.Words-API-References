@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words für .NET
-description: Steuern Sie die Listenzusammenführung mit der Eigenschaft „MergePastedLists“ von ImportFormatOptions. Verwalten Sie eingefügte Listen einfach, um die Dokumentformatierung zu verbessern. Standardwert: „false“.
+description: Steuern Sie die Listenzusammenführung mit der Eigenschaft „MergePastedLists“ von ImportFormatOptions. Verwalten Sie eingefügte Listen einfach, um die Dokumentformatierung zu verbessern. Standardwert „false“.
 type: docs
 weight: 70
 url: /de/net/aspose.words/importformatoptions/mergepastedlists/

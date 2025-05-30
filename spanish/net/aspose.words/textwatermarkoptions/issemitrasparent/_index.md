@@ -3,7 +3,7 @@ title: TextWatermarkOptions.IsSemitrasparent
 linktitle: IsSemitrasparent
 articleTitle: IsSemitrasparent
 second_title: Aspose.Words para .NET
-description: Descubre la propiedad IsSemitransparent de TextWatermarkOptions: controla fácilmente la opacidad de la marca de agua. ¡Mejora tus diseños con ajustes de transparencia personalizables!
+description: Descubre la propiedad IsSemitransparent de TextWatermarkOptions controla fácilmente la opacidad de la marca de agua. ¡Mejora tus diseños con ajustes de transparencia personalizables!
 type: docs
 weight: 50
 url: /es/net/aspose.words/textwatermarkoptions/issemitrasparent/

@@ -3,7 +3,7 @@ title: FieldAutoTextList
 linktitle: FieldAutoTextList
 articleTitle: FieldAutoTextList
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldAutoTextList: su solución ideal para una gestión de texto fluida. ¡Desbloquee la eficiencia con nuestro constructor predeterminado hoy mismo!
+description: Descubra el constructor FieldAutoTextList su solución ideal para una gestión de texto fluida. ¡Desbloquee la eficiencia con nuestro constructor predeterminado hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldautotextlist/fieldautotextlist/

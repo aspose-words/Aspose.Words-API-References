@@ -3,7 +3,7 @@ title: FieldBibliography.SourceTag
 linktitle: SourceTag
 articleTitle: SourceTag
 second_title: Aspose.Words per .NET
-description: Gestisci la tua bibliografia senza sforzi con la proprietà SourceTag: filtra le fonti in base ai tag corrispondenti per ottenere un elenco di riferimenti personalizzato e organizzato.
+description: Gestisci la tua bibliografia senza sforzi con la proprietà SourceTag filtra le fonti in base ai tag corrispondenti per ottenere un elenco di riferimenti personalizzato e organizzato.
 type: docs
 weight: 40
 url: /it/net/aspose.words.fields/fieldbibliography/sourcetag/

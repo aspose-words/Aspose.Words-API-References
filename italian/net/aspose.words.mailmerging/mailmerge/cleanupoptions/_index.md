@@ -3,7 +3,7 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words per .NET
-description: Ottimizza la tua stampa unione con la proprietà CleanupOptions: gestisci facilmente gli elementi da rimuovere per un processo fluido ed efficiente.
+description: Ottimizza la tua stampa unione con la proprietà CleanupOptions gestisci facilmente gli elementi da rimuovere per un processo fluido ed efficiente.
 type: docs
 weight: 10
 url: /it/net/aspose.words.mailmerging/mailmerge/cleanupoptions/

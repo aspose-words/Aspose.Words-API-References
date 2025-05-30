@@ -3,7 +3,7 @@ title: ChartTitle.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words per .NET
-description: Migliora i tuoi grafici con titoli personalizzabili. Controlla facilmente la visibilità: l'impostazione predefinita è "vero". Migliora la presentazione dei tuoi dati oggi stesso!
+description: Migliora i tuoi grafici con titoli personalizzabili. Controlla facilmente la visibilità l'impostazione predefinita è "vero". Migliora la presentazione dei tuoi dati oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.drawing.charts/charttitle/show/

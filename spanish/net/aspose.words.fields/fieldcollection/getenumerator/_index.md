@@ -3,7 +3,7 @@ title: FieldCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: Descubra el método GetEnumerator de FieldCollection: devuelva de manera eficiente un objeto enumerador y mejore sus capacidades de manejo de datos.
+description: Descubra el método GetEnumerator de FieldCollection devuelva de manera eficiente un objeto enumerador y mejore sus capacidades de manejo de datos.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldcollection/getenumerator/

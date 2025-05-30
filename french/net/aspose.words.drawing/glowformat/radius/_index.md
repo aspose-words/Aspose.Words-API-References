@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Rayon GlowFormat pour personnaliser vos effets de lueur. Ajustez le rayon en points pour des améliorations visuelles exceptionnelles. Valeur par défaut : 0,0.
+description: Découvrez la propriété Rayon GlowFormat pour personnaliser vos effets de lueur. Ajustez le rayon en points pour des améliorations visuelles exceptionnelles. Valeur par défaut  0,0.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/glowformat/radius/
