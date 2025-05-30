@@ -3,7 +3,7 @@ title: TextPath.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words para .NET
-description: Descubre la propiedad TextPath StrikeThrough: tacha fácilmente el texto para lograr un énfasis visual claro en tus proyectos. ¡Mejora tu diseño hoy mismo!
+description: Descubre la propiedad TextPath StrikeThrough tacha fácilmente el texto para lograr un énfasis visual claro en tus proyectos. ¡Mejora tu diseño hoy mismo!
 type: docs
 weight: 150
 url: /es/net/aspose.words.drawing/textpath/strikethrough/

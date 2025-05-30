@@ -3,7 +3,7 @@ title: Font.Position
 linktitle: Position
 articleTitle: Position
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Position de la police : ajustez facilement l'alignement du texte en points pour un contrôle précis de votre typographie. Sublimez votre design grâce à un positionnement flexible !
+description: Découvrez la propriété Position de la police  ajustez facilement l'alignement du texte en points pour un contrôle précis de votre typographie. Sublimez votre design grâce à un positionnement flexible !
 type: docs
 weight: 310
 url: /fr/net/aspose.words/font/position/

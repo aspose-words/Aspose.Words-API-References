@@ -3,7 +3,7 @@ title: Stroke.Opacity
 linktitle: Opacity
 articleTitle: Opacity
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Opacité du trait : contrôlez la transparence du trait de 0 à 1 pour des effets visuels époustouflants dans vos créations. Développez votre créativité dès aujourd'hui !
+description: Découvrez la propriété Opacité du trait  contrôlez la transparence du trait de 0 à 1 pour des effets visuels époustouflants dans vos créations. Développez votre créativité dès aujourd'hui !
 type: docs
 weight: 200
 url: /fr/net/aspose.words.drawing/stroke/opacity/

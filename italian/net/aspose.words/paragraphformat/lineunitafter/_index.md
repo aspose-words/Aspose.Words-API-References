@@ -3,7 +3,7 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà ParagraphFormat LineUnitAfter: controlla la spaziatura nelle linee della griglia per un layout di paragrafo migliorato e una migliore leggibilità del documento.
+description: Scopri la proprietà ParagraphFormat LineUnitAfter controlla la spaziatura nelle linee della griglia per un layout di paragrafo migliorato e una migliore leggibilità del documento.
 type: docs
 weight: 220
 url: /it/net/aspose.words/paragraphformat/lineunitafter/

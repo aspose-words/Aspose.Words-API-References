@@ -3,7 +3,7 @@ title: RevisionOptions.ShowRevisionBars
 linktitle: ShowRevisionBars
 articleTitle: ShowRevisionBars
 second_title: Aspose.Words för .NET
-description: Upptäck hur egenskapen ShowRevisionBars i RevisionOptions förbättrar dokumentets tydlighet genom att visa revisionsstaplar för redigerat innehåll. Standardvärde: sant.
+description: Upptäck hur egenskapen ShowRevisionBars i RevisionOptions förbättrar dokumentets tydlighet genom att visa revisionsstaplar för redigerat innehåll. Standardvärde sant.
 type: docs
 weight: 200
 url: /sv/net/aspose.words.layout/revisionoptions/showrevisionbars/

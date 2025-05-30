@@ -3,7 +3,7 @@ title: StructuredDocumentTag.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words per .NET
-description: Scopri il metodo AcceptEnd di StructuredDocumentTag: gestisci in modo efficiente le interazioni dei visitatori alla fine dei tuoi documenti strutturati per un'elaborazione senza interruzioni.
+description: Scopri il metodo AcceptEnd di StructuredDocumentTag gestisci in modo efficiente le interazioni dei visitatori alla fine dei tuoi documenti strutturati per un'elaborazione senza interruzioni.
 type: docs
 weight: 340
 url: /it/net/aspose.words.markup/structureddocumenttag/acceptend/

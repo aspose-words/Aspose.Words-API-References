@@ -3,7 +3,7 @@ title: FieldSectionPages
 linktitle: FieldSectionPages
 articleTitle: FieldSectionPages
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldSectionPages: su solución ideal para una gestión eficiente de páginas. ¡Desbloquee una integración perfecta y mejore su flujo de trabajo hoy mismo!
+description: Descubra el constructor FieldSectionPages su solución ideal para una gestión eficiente de páginas. ¡Desbloquee una integración perfecta y mejore su flujo de trabajo hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldsectionpages/fieldsectionpages/

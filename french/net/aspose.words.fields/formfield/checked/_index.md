@@ -3,7 +3,7 @@ title: FormField.Checked
 linktitle: Checked
 articleTitle: Checked
 second_title: Aspose.Words pour .NET
-description: Gérez facilement votre formulaire grâce à la propriété « FormField Checked ». Contrôlez facilement l'état des cases à cocher : la case est décochée par défaut pour une expérience utilisateur simplifiée.
+description: Gérez facilement votre formulaire grâce à la propriété « FormField Checked ». Contrôlez facilement l'état des cases à cocher  la case est décochée par défaut pour une expérience utilisateur simplifiée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/formfield/checked/

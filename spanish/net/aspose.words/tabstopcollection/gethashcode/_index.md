@@ -3,7 +3,7 @@ title: TabStopCollection.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words para .NET
-description: Descubra el método GetHashCode de TabStopCollection: una función hash esencial para la gestión eficiente de datos y la optimización del rendimiento.
+description: Descubra el método GetHashCode de TabStopCollection una función hash esencial para la gestión eficiente de datos y la optimización del rendimiento.
 type: docs
 weight: 80
 url: /es/net/aspose.words/tabstopcollection/gethashcode/

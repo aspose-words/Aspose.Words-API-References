@@ -3,7 +3,7 @@ title: CustomXmlPartCollection
 linktitle: CustomXmlPartCollection
 articleTitle: CustomXmlPartCollection
 second_title: Aspose.Words para .NET
-description: Descubra el constructor CustomXmlPartCollection: su solución ideal para una gestión eficiente de componentes XML. ¡Simplifique su código con nuestro constructor predeterminado!
+description: Descubra el constructor CustomXmlPartCollection su solución ideal para una gestión eficiente de componentes XML. ¡Simplifique su código con nuestro constructor predeterminado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.markup/customxmlpartcollection/customxmlpartcollection/

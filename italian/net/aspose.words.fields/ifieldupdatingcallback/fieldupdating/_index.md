@@ -3,7 +3,7 @@ title: IFieldUpdatingCallback.FieldUpdating
 linktitle: FieldUpdating
 articleTitle: FieldUpdating
 second_title: Aspose.Words per .NET
-description: Scopri il metodo IFieldUpdatingCallback: la soluzione per gli aggiornamenti dei campi personalizzati, che garantisce precisione e controllo nella gestione dei dati.
+description: Scopri il metodo IFieldUpdatingCallback la soluzione per gli aggiornamenti dei campi personalizzati, che garantisce precisione e controllo nella gestione dei dati.
 type: docs
 weight: 20
 url: /it/net/aspose.words.fields/ifieldupdatingcallback/fieldupdating/

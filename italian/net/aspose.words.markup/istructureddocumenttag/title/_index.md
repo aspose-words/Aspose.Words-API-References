@@ -3,7 +3,7 @@ title: IStructuredDocumentTag.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Titolo di IStructuredDocumentTag: definisci un nome intuitivo per il tuo SDT e migliora la chiarezza del documento. Scopri di più!
+description: Scopri la proprietà Titolo di IStructuredDocumentTag definisci un nome intuitivo per il tuo SDT e migliora la chiarezza del documento. Scopri di più!
 type: docs
 weight: 140
 url: /it/net/aspose.words.markup/istructureddocumenttag/title/

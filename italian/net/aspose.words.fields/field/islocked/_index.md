@@ -3,7 +3,7 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà IsLocked per i campi: controlla il ricalcolo e migliora l'integrità dei dati. Ottieni una gestione efficiente dei risultati dei tuoi dati oggi stesso!
+description: Scopri la proprietà IsLocked per i campi controlla il ricalcolo e migliora l'integrità dei dati. Ottieni una gestione efficiente dei risultati dei tuoi dati oggi stesso!
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/field/islocked/

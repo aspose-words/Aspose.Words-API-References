@@ -3,7 +3,7 @@ title: DocumentProperty.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words para .NET
-description: Descubra cómo administrar de manera eficiente los valores de DocumentProperty: recupere o actualice fácilmente los valores de propiedad para mejorar el control y la productividad de los documentos.
+description: Descubra cómo administrar de manera eficiente los valores de DocumentProperty recupere o actualice fácilmente los valores de propiedad para mejorar el control y la productividad de los documentos.
 type: docs
 weight: 50
 url: /es/net/aspose.words.properties/documentproperty/value/

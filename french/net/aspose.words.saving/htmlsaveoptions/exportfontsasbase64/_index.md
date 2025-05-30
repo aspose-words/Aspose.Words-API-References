@@ -3,7 +3,7 @@ title: HtmlSaveOptions.ExportFontsAsBase64
 linktitle: ExportFontsAsBase64
 articleTitle: ExportFontsAsBase64
 second_title: Aspose.Words pour .NET
-description: Découvrez comment la propriété HtmlSaveOptions ExportFontsAsBase64 améliore votre code HTML en intégrant les polices encodées en Base64 pour de meilleures performances. Valeur par défaut : false.
+description: Découvrez comment la propriété HtmlSaveOptions ExportFontsAsBase64 améliore votre code HTML en intégrant les polices encodées en Base64 pour de meilleures performances. Valeur par défaut  false.
 type: docs
 weight: 150
 url: /fr/net/aspose.words.saving/htmlsaveoptions/exportfontsasbase64/

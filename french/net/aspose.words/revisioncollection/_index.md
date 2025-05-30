@@ -3,7 +3,7 @@ title: RevisionCollection Class
 linktitle: RevisionCollection
 articleTitle: RevisionCollection
 second_title: Aspose.Words pour .NET
-description: Découvrez la classe Aspose.Words.RevisionCollection : gérez efficacement les révisions de documents avec une puissante collection d'objets Revision pour une édition transparente.
+description: Découvrez la classe Aspose.Words.RevisionCollection  gérez efficacement les révisions de documents avec une puissante collection d'objets Revision pour une édition transparente.
 type: docs
 weight: 5510
 url: /fr/net/aspose.words/revisioncollection/

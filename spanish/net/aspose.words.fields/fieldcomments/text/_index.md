@@ -3,7 +3,7 @@ title: FieldComments.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: Administre sus comentarios sin esfuerzo con la propiedad Texto FieldComments: obtenga o configure fácilmente el texto del comentario para mejorar la interacción del usuario.
+description: Administre sus comentarios sin esfuerzo con la propiedad Texto FieldComments obtenga o configure fácilmente el texto del comentario para mejorar la interacción del usuario.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldcomments/text/

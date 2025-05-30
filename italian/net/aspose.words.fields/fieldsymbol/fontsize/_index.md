@@ -3,7 +3,7 @@ title: FieldSymbol.FontSize
 linktitle: FontSize
 articleTitle: FontSize
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà FontSize di FieldSymbol: regola facilmente la dimensione del carattere in punti per una migliore visualizzazione dei caratteri nelle tue applicazioni. Ottimizza subito la leggibilità!
+description: Scopri la proprietà FontSize di FieldSymbol regola facilmente la dimensione del carattere in punti per una migliore visualizzazione dei caratteri nelle tue applicazioni. Ottimizza subito la leggibilità!
 type: docs
 weight: 50
 url: /it/net/aspose.words.fields/fieldsymbol/fontsize/

@@ -3,7 +3,7 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà ConsecutiveHyphenLimit in HyphenationOptions. Controlla l'uso del trattino nel testo per migliorare la leggibilità e la formattazione. Valore predefinito: 0.
+description: Scopri la proprietà ConsecutiveHyphenLimit in HyphenationOptions. Controlla l'uso del trattino nel testo per migliorare la leggibilità e la formattazione. Valore predefinito 0.
 type: docs
 weight: 30
 url: /it/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/

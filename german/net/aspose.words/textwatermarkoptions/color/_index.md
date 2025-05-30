@@ -3,7 +3,7 @@ title: TextWatermarkOptions.Color
 linktitle: Color
 articleTitle: Color
 second_title: Aspose.Words für .NET
-description: Passen Sie Ihre TextWatermarkOptions mit der Eigenschaft „Farbe“ an, um die Sichtbarkeit zu verbessern. Wählen Sie Ihre bevorzugte Schriftfarbe für eine persönliche Note. Standardmäßig: Silber.
+description: Passen Sie Ihre TextWatermarkOptions mit der Eigenschaft „Farbe“ an, um die Sichtbarkeit zu verbessern. Wählen Sie Ihre bevorzugte Schriftfarbe für eine persönliche Note. Standardmäßig Silber.
 type: docs
 weight: 20
 url: /de/net/aspose.words/textwatermarkoptions/color/

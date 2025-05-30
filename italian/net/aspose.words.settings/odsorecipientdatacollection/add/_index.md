@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words per .NET
-description: Migliora senza sforzo la gestione dei tuoi dati con il metodo Add di OdsoRecipientDataCollection: aggiungi rapidamente oggetti per semplificare il processo di raccolta.
+description: Migliora senza sforzo la gestione dei tuoi dati con il metodo Add di OdsoRecipientDataCollection aggiungi rapidamente oggetti per semplificare il processo di raccolta.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsorecipientdatacollection/add/

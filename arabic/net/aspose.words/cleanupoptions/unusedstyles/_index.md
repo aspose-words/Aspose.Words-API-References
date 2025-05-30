@@ -3,7 +3,7 @@ title: CleanupOptions.UnusedStyles
 linktitle: UnusedStyles
 articleTitle: UnusedStyles
 second_title: Aspose.Words لـ .NET
-description: حسّن مستنداتك باستخدام خاصية UnusedStyles في CleanupOptions، مما يضمن إزالة الأنماط غير المستخدمة للحصول على محتوى أنظف وأسرع تحميلًا. القيمة الافتراضية: true.
+description: حسّن مستنداتك باستخدام خاصية UnusedStyles في CleanupOptions، مما يضمن إزالة الأنماط غير المستخدمة للحصول على محتوى أنظف وأسرع تحميلًا. القيمة الافتراضية true.
 type: docs
 weight: 50
 url: /ar/net/aspose.words/cleanupoptions/unusedstyles/

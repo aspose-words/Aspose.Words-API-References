@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words för .NET
-description: Kontrolllistor som slås samman med egenskapen ImportFormatOptions MergePastedLists. Hantera enkelt inklistrade listor för att förbättra dokumentformateringen. Standardvärde: falskt.
+description: Kontrolllistor som slås samman med egenskapen ImportFormatOptions MergePastedLists. Hantera enkelt inklistrade listor för att förbättra dokumentformateringen. Standardvärde falskt.
 type: docs
 weight: 70
 url: /sv/net/aspose.words/importformatoptions/mergepastedlists/

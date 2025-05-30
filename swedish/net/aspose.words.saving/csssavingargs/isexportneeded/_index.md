@@ -3,7 +3,7 @@ title: CssSavingArgs.IsExportNeeded
 linktitle: IsExportNeeded
 articleTitle: IsExportNeeded
 second_title: Aspose.Words för .NET
-description: Styr CSS-export med egenskapen CssSavingArgs IsExportNeeded. Välj att bädda in eller spara CSS till en fil för optimerade HTML-dokument. Standardvärde: sant.
+description: Styr CSS-export med egenskapen CssSavingArgs IsExportNeeded. Välj att bädda in eller spara CSS till en fil för optimerade HTML-dokument. Standardvärde sant.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.saving/csssavingargs/isexportneeded/

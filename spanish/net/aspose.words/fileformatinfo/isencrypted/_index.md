@@ -3,7 +3,7 @@ title: FileFormatInfo.IsEncrypted
 linktitle: IsEncrypted
 articleTitle: IsEncrypted
 second_title: Aspose.Words para .NET
-description: Descubra si su documento es seguro con la propiedad FileFormatInfo IsEncrypted: devuelve verdadero para archivos cifrados que necesitan una contraseña para acceder.
+description: Descubra si su documento es seguro con la propiedad FileFormatInfo IsEncrypted devuelve verdadero para archivos cifrados que necesitan una contraseña para acceder.
 type: docs
 weight: 40
 url: /es/net/aspose.words/fileformatinfo/isencrypted/

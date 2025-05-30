@@ -3,7 +3,7 @@ title: SaveOptions.ExportGeneratorName
 linktitle: ExportGeneratorName
 articleTitle: ExportGeneratorName
 second_title: Aspose.Words لـ .NET
-description: حسّن مستنداتك باستخدام خاصية ExportGeneratorName في SaveOptions. أدرج اسم وإصدار Aspose.Words لتحسين إمكانية التتبع. الافتراضي: صحيح.
+description: حسّن مستنداتك باستخدام خاصية ExportGeneratorName في SaveOptions. أدرج اسم وإصدار Aspose.Words لتحسين إمكانية التتبع. الافتراضي صحيح.
 type: docs
 weight: 80
 url: /ar/net/aspose.words.saving/saveoptions/exportgeneratorname/

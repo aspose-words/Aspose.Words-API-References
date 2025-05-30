@@ -3,7 +3,7 @@ title: BuildingBlock.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode BuildingBlock AcceptEnd : gérez de manière transparente l'accès des visiteurs et améliorez leur expérience à la fin de votre BuildingBlock.
+description: Découvrez la méthode BuildingBlock AcceptEnd  gérez de manière transparente l'accès des visiteurs et améliorez leur expérience à la fin de votre BuildingBlock.
 type: docs
 weight: 140
 url: /fr/net/aspose.words.buildingblocks/buildingblock/acceptend/

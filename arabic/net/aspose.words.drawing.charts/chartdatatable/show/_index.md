@@ -3,7 +3,7 @@ title: ChartDataTable.Show
 linktitle: Show
 articleTitle: Show
 second_title: Aspose.Words لـ .NET
-description: تحكم في عرض مخططك باستخدام خاصية "عرض جدول بيانات المخطط". يمكنك تبديل عرض جدول البيانات بسهولة لتحسين رؤى البيانات. الافتراضي: خطأ.
+description: تحكم في عرض مخططك باستخدام خاصية "عرض جدول بيانات المخطط". يمكنك تبديل عرض جدول البيانات بسهولة لتحسين رؤى البيانات. الافتراضي خطأ.
 type: docs
 weight: 70
 url: /ar/net/aspose.words.drawing.charts/chartdatatable/show/

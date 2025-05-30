@@ -3,7 +3,7 @@ title: ImageData Class
 linktitle: ImageData
 articleTitle: ImageData
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Drawing.ImageData: su solución para definir y gestionar imágenes en formas. ¡Mejore el diseño de sus documentos sin esfuerzo!
+description: Descubra la clase Aspose.Words.Drawing.ImageData su solución para definir y gestionar imágenes en formas. ¡Mejore el diseño de sus documentos sin esfuerzo!
 type: docs
 weight: 1390
 url: /es/net/aspose.words.drawing/imagedata/

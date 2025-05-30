@@ -3,7 +3,7 @@ title: OdsoRecipientDataCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode OdsoRecipientDataCollection GetEnumerator : parcourez efficacement les éléments de collection en toute simplicité et améliorez vos capacités de gestion des données.
+description: Découvrez la méthode OdsoRecipientDataCollection GetEnumerator  parcourez efficacement les éléments de collection en toute simplicité et améliorez vos capacités de gestion des données.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.settings/odsorecipientdatacollection/getenumerator/

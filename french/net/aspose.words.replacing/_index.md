@@ -3,7 +3,7 @@ title: Aspose.Words.Replacing
 linktitle: Aspose.Words.Replacing
 articleTitle: Aspose.Words.Replacing
 second_title: Aspose.Words pour .NET
-description: Améliorez sans effort vos documents avec l'espace de noms Aspose.Words.Replacing : des classes puissantes pour des opérations de recherche/remplacement efficaces dans l'arborescence de vos documents.
+description: Améliorez sans effort vos documents avec l'espace de noms Aspose.Words.Replacing  des classes puissantes pour des opérations de recherche/remplacement efficaces dans l'arborescence de vos documents.
 type: docs
 weight: 230
 url: /fr/net/aspose.words.replacing/

@@ -3,7 +3,7 @@ title: OpenAiModel.WithProject
 linktitle: WithProject
 articleTitle: WithProject
 second_title: Aspose.Words pour .NET
-description: Améliorez vos capacités d'IA avec la méthode WithProject d'OpenAiModel : attribuez facilement des projets pour optimiser les performances et rationaliser votre flux de travail.
+description: Améliorez vos capacités d'IA avec la méthode WithProject d'OpenAiModel  attribuez facilement des projets pour optimiser les performances et rationaliser votre flux de travail.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.ai/openaimodel/withproject/

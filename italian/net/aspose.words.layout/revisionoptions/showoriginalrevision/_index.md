@@ -3,7 +3,7 @@ title: RevisionOptions.ShowOriginalRevision
 linktitle: ShowOriginalRevision
 articleTitle: ShowOriginalRevision
 second_title: Aspose.Words per .NET
-description: Controlla le revisioni dei tuoi documenti con la proprietà ShowOriginalRevision. Passa facilmente dal testo originale a quello revisionato per una visione più chiara. Valore predefinito: false.
+description: Controlla le revisioni dei tuoi documenti con la proprietà ShowOriginalRevision. Passa facilmente dal testo originale a quello revisionato per una visione più chiara. Valore predefinito false.
 type: docs
 weight: 190
 url: /it/net/aspose.words.layout/revisionoptions/showoriginalrevision/

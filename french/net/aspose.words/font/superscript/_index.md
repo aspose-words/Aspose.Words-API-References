@@ -3,7 +3,7 @@ title: Font.Superscript
 linktitle: Superscript
 articleTitle: Superscript
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Police en exposant : formatez facilement votre texte en exposant pour une meilleure lisibilité et un style amélioré dans vos documents. Optimisez votre design dès aujourd'hui !
+description: Découvrez la propriété Police en exposant  formatez facilement votre texte en exposant pour une meilleure lisibilité et un style amélioré dans vos documents. Optimisez votre design dès aujourd'hui !
 type: docs
 weight: 450
 url: /fr/net/aspose.words/font/superscript/

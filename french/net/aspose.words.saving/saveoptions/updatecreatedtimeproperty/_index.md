@@ -3,7 +3,7 @@ title: SaveOptions.UpdateCreatedTimeProperty
 linktitle: UpdateCreatedTimeProperty
 articleTitle: UpdateCreatedTimeProperty
 second_title: Aspose.Words pour .NET
-description: Optimisez vos options d'enregistrement avec la propriété UpdateCreatedTime. Contrôlez les mises à jour de CreatedTime avant l'enregistrement, améliorant ainsi la précision des données. Valeur par défaut : false.
+description: Optimisez vos options d'enregistrement avec la propriété UpdateCreatedTime. Contrôlez les mises à jour de CreatedTime avant l'enregistrement, améliorant ainsi la précision des données. Valeur par défaut  false.
 type: docs
 weight: 160
 url: /fr/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/

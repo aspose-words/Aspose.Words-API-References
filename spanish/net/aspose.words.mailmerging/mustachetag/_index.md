@@ -3,7 +3,7 @@ title: MustacheTag Class
 linktitle: MustacheTag
 articleTitle: MustacheTag
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.MailMerging.MustacheTag: gestione de forma eficiente las etiquetas Mustache para lograr una automatización perfecta de documentos y una mejor combinación de correo.
+description: Descubra la clase Aspose.Words.MailMerging.MustacheTag gestione de forma eficiente las etiquetas Mustache para lograr una automatización perfecta de documentos y una mejor combinación de correo.
 type: docs
 weight: 4570
 url: /es/net/aspose.words.mailmerging/mustachetag/

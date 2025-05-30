@@ -3,7 +3,7 @@ title: MailMergeRegionInfo.StartField
 linktitle: StartField
 articleTitle: StartField
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà StartField di MailMergeRegionInfo: recupera in modo efficiente il campo iniziale per le tue aree di unione e semplifica l'automazione dei tuoi documenti.
+description: Scopri la proprietà StartField di MailMergeRegionInfo recupera in modo efficiente il campo iniziale per le tue aree di unione e semplifica l'automazione dei tuoi documenti.
 type: docs
 weight: 90
 url: /it/net/aspose.words.mailmerging/mailmergeregioninfo/startfield/

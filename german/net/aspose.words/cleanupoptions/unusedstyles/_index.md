@@ -3,7 +3,7 @@ title: CleanupOptions.UnusedStyles
 linktitle: UnusedStyles
 articleTitle: UnusedStyles
 second_title: Aspose.Words für .NET
-description: Optimieren Sie Ihre Dokumente mit der Eigenschaft „UnusedStyles“ von CleanupOptions. So stellen Sie sicher, dass nicht verwendete Stile entfernt werden, um sauberere und schneller ladende Inhalte zu gewährleisten. Standard: „true“.
+description: Optimieren Sie Ihre Dokumente mit der Eigenschaft „UnusedStyles“ von CleanupOptions. So stellen Sie sicher, dass nicht verwendete Stile entfernt werden, um sauberere und schneller ladende Inhalte zu gewährleisten. Standard „true“.
 type: docs
 weight: 50
 url: /de/net/aspose.words/cleanupoptions/unusedstyles/

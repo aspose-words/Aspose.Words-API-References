@@ -3,7 +3,7 @@ title: ImageSize.HeightPoints
 linktitle: HeightPoints
 articleTitle: HeightPoints
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà ImageSize HeightPoints per calcolare facilmente l'altezza dell'immagine in punti: 1 punto equivale a 1/72 di pollice. Ottimizza le tue immagini senza sforzo!
+description: Scopri la proprietà ImageSize HeightPoints per calcolare facilmente l'altezza dell'immagine in punti 1 punto equivale a 1/72 di pollice. Ottimizza le tue immagini senza sforzo!
 type: docs
 weight: 30
 url: /it/net/aspose.words.drawing/imagesize/heightpoints/

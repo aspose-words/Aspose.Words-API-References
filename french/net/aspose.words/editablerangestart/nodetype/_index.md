@@ -3,7 +3,7 @@ title: EditableRangeStart.NodeType
 linktitle: NodeType
 articleTitle: NodeType
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété NodeType EditableRangeStart : améliorez l'édition de vos documents avec une gestion transparente des plages et une expérience utilisateur améliorée !
+description: Découvrez la propriété NodeType EditableRangeStart  améliorez l'édition de vos documents avec une gestion transparente des plages et une expérience utilisateur améliorée !
 type: docs
 weight: 30
 url: /fr/net/aspose.words/editablerangestart/nodetype/

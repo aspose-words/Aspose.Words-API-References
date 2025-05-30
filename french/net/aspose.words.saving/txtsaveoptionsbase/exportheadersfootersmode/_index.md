@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words pour .NET
-description: Découvrez comment la propriété TxtSaveOptionsBase ExportHeadersFootersMode optimise l'exportation des en-têtes et pieds de page au format texte. Valeur par défaut : PrimaryOnly.
+description: Découvrez comment la propriété TxtSaveOptionsBase ExportHeadersFootersMode optimise l'exportation des en-têtes et pieds de page au format texte. Valeur par défaut  PrimaryOnly.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/

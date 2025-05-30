@@ -3,7 +3,7 @@ title: FieldGlossary.EntryName
 linktitle: EntryName
 articleTitle: EntryName
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad EntryName de FieldGlossary para administrar fácilmente las entradas del glosario: obtenga o configure nombres para una integración perfecta del contenido.
+description: Descubra la propiedad EntryName de FieldGlossary para administrar fácilmente las entradas del glosario obtenga o configure nombres para una integración perfecta del contenido.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldglossary/entryname/

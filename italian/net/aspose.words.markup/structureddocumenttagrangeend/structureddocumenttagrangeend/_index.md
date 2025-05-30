@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore StructuredDocumentTagRangeEnd: inizializza in modo efficiente gli intervalli di tag dei documenti per una gestione avanzata dei contenuti e un'integrazione perfetta.
+description: Scopri il costruttore StructuredDocumentTagRangeEnd inizializza in modo efficiente gli intervalli di tag dei documenti per una gestione avanzata dei contenuti e un'integrazione perfetta.
 type: docs
 weight: 10
 url: /it/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/

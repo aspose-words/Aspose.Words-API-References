@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertFootnote
 linktitle: InsertFootnote
 articleTitle: InsertFootnote
 second_title: Aspose.Words per .NET
-description: Migliora i tuoi documenti senza sforzo con il metodo InsertFootnote di DocumentBuilder: aggiungi facilmente note a piè di pagina o note di chiusura per maggiore chiarezza e professionalità.
+description: Migliora i tuoi documenti senza sforzo con il metodo InsertFootnote di DocumentBuilder aggiungi facilmente note a piè di pagina o note di chiusura per maggiore chiarezza e professionalità.
 type: docs
 weight: 340
 url: /it/net/aspose.words/documentbuilder/insertfootnote/

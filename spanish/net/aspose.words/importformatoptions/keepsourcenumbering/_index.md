@@ -3,7 +3,7 @@ title: ImportFormatOptions.KeepSourceNumbering
 linktitle: KeepSourceNumbering
 articleTitle: KeepSourceNumbering
 second_title: Aspose.Words para .NET
-description: Controle la numeración de documentos con la propiedad KeepSourceNumbering de ImportFormatOptions. Gestione fácilmente los conflictos para una importación fluida. Valor predeterminado: falso.
+description: Controle la numeración de documentos con la propiedad KeepSourceNumbering de ImportFormatOptions. Gestione fácilmente los conflictos para una importación fluida. Valor predeterminado falso.
 type: docs
 weight: 60
 url: /es/net/aspose.words/importformatoptions/keepsourcenumbering/

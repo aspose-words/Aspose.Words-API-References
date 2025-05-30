@@ -3,7 +3,7 @@ title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die Skalierungseigenschaft von ImageWatermarkOptions, um die Bildskalierung für optimale Wasserzeichen einfach anzupassen. Standardwert: 0 (automatisch) für nahtlose Integration.
+description: Entdecken Sie die Skalierungseigenschaft von ImageWatermarkOptions, um die Bildskalierung für optimale Wasserzeichen einfach anzupassen. Standardwert 0 (automatisch) für nahtlose Integration.
 type: docs
 weight: 30
 url: /de/net/aspose.words/imagewatermarkoptions/scale/

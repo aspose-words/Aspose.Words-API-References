@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertHtml
 linktitle: InsertHtml
 articleTitle: InsertHtml
 second_title: Aspose.Words pour .NET
-description: Améliorez sans effort vos documents avec la méthode InsertHtml de DocumentBuilder : insérez de manière transparente des chaînes HTML pour une intégration de contenu dynamique.
+description: Améliorez sans effort vos documents avec la méthode InsertHtml de DocumentBuilder  insérez de manière transparente des chaînes HTML pour une intégration de contenu dynamique.
 type: docs
 weight: 380
 url: /fr/net/aspose.words/documentbuilder/inserthtml/

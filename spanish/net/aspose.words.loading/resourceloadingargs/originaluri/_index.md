@@ -3,7 +3,7 @@ title: ResourceLoadingArgs.OriginalUri
 linktitle: OriginalUri
 articleTitle: OriginalUri
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ResourceLoadingArgs OriginalUri: acceda al URI original de los recursos de los documentos importados para una gestión optimizada de los datos.
+description: Descubra la propiedad ResourceLoadingArgs OriginalUri acceda al URI original de los recursos de los documentos importados para una gestión optimizada de los datos.
 type: docs
 weight: 10
 url: /es/net/aspose.words.loading/resourceloadingargs/originaluri/

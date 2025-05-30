@@ -3,7 +3,7 @@ title: FieldAddressBlock
 linktitle: FieldAddressBlock
 articleTitle: FieldAddressBlock
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore FieldAddressBlock: la soluzione ideale per una gestione semplificata degli indirizzi. Semplifica la programmazione con il nostro efficiente costruttore predefinito!
+description: Scopri il costruttore FieldAddressBlock la soluzione ideale per una gestione semplificata degli indirizzi. Semplifica la programmazione con il nostro efficiente costruttore predefinito!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldaddressblock/fieldaddressblock/

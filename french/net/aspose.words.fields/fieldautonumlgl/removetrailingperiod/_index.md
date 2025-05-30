@@ -3,7 +3,7 @@ title: FieldAutoNumLgl.RemoveTrailingPeriod
 linktitle: RemoveTrailingPeriod
 articleTitle: RemoveTrailingPeriod
 second_title: Aspose.Words pour .NET
-description: Gérez la propriété RemoveTrailingPeriod de FieldAutoNumLgl pour personnaliser l'affichage des nombres : éliminez les points de fin pour un formatage plus propre et professionnel.
+description: Gérez la propriété RemoveTrailingPeriod de FieldAutoNumLgl pour personnaliser l'affichage des nombres  éliminez les points de fin pour un formatage plus propre et professionnel.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fields/fieldautonumlgl/removetrailingperiod/

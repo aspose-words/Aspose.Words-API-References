@@ -3,7 +3,7 @@ title: FieldTC.OmitPageNumber
 linktitle: OmitPageNumber
 articleTitle: OmitPageNumber
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà OmitPageNumber di FieldTC: controlla la visibilità del numero di pagina del sommario per una maggiore chiarezza e professionalità del documento.
+description: Scopri la proprietà OmitPageNumber di FieldTC controlla la visibilità del numero di pagina del sommario per una maggiore chiarezza e professionalità del documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words.fields/fieldtc/omitpagenumber/

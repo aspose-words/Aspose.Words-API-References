@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitBodyEnd
 linktitle: VisitBodyEnd
 articleTitle: VisitBodyEnd
 second_title: Aspose.Words para .NET
-description: Descubra el método DocumentVisitor VisitBodyEnd: administre de manera eficiente la enumeración de historias de texto y mejore sus capacidades de procesamiento de documentos.
+description: Descubra el método DocumentVisitor VisitBodyEnd administre de manera eficiente la enumeración de historias de texto y mejore sus capacidades de procesamiento de documentos.
 type: docs
 weight: 20
 url: /es/net/aspose.words/documentvisitor/visitbodyend/

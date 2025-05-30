@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà GlowFormat Radius per personalizzare i tuoi effetti di bagliore. Regola il raggio in punti per ottenere straordinari miglioramenti visivi. Valore predefinito: 0,0.
+description: Scopri la proprietà GlowFormat Radius per personalizzare i tuoi effetti di bagliore. Regola il raggio in punti per ottenere straordinari miglioramenti visivi. Valore predefinito 0,0.
 type: docs
 weight: 20
 url: /it/net/aspose.words.drawing/glowformat/radius/

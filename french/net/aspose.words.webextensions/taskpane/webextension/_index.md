@@ -3,7 +3,7 @@ title: TaskPane.WebExtension
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété WebExtension du volet des tâches : la clé pour améliorer les fonctionnalités des extensions Web et l'expérience utilisateur. Accédez à de nouvelles possibilités dès aujourd'hui !
+description: Découvrez la propriété WebExtension du volet des tâches  la clé pour améliorer les fonctionnalités des extensions Web et l'expérience utilisateur. Accédez à de nouvelles possibilités dès aujourd'hui !
 type: docs
 weight: 60
 url: /fr/net/aspose.words.webextensions/taskpane/webextension/

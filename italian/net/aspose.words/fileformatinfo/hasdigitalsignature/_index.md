@@ -3,7 +3,7 @@ title: FileFormatInfo.HasDigitalSignature
 linktitle: HasDigitalSignature
 articleTitle: HasDigitalSignature
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà FileFormatInfo HasDigitalSignature: controlla rapidamente se il tuo documento include una firma digitale, migliorando sicurezza e autenticità.
+description: Scopri la proprietà FileFormatInfo HasDigitalSignature controlla rapidamente se il tuo documento include una firma digitale, migliorando sicurezza e autenticità.
 type: docs
 weight: 20
 url: /it/net/aspose.words/fileformatinfo/hasdigitalsignature/

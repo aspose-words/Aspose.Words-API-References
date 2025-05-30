@@ -3,7 +3,7 @@ title: BorderCollection.Right
 linktitle: Right
 articleTitle: Right
 second_title: Aspose.Words pour .NET
-description: Découvrez BorderCollection : une propriété idéale pour un contrôle précis des bordures de vos créations. Sublimez vos mises en page avec une bordure parfaite à chaque fois !
+description: Découvrez BorderCollection  une propriété idéale pour un contrôle précis des bordures de vos créations. Sublimez vos mises en page avec une bordure parfaite à chaque fois !
 type: docs
 weight: 100
 url: /fr/net/aspose.words/bordercollection/right/

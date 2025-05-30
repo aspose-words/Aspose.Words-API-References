@@ -3,7 +3,7 @@ title: IChartDataPoint.Explosion
 linktitle: Explosion
 articleTitle: Explosion
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad IChartDataPoint Explosion para gráficos circulares. Controle la posición de los puntos de datos con precisión: ¡mejore su narrativa visual de datos hoy mismo!
+description: Descubra la propiedad IChartDataPoint Explosion para gráficos circulares. Controle la posición de los puntos de datos con precisión ¡mejore su narrativa visual de datos hoy mismo!
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing.charts/ichartdatapoint/explosion/

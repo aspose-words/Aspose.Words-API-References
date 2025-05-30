@@ -3,7 +3,7 @@ title: ImportFormatOptions.MergePastedLists
 linktitle: MergePastedLists
 articleTitle: MergePastedLists
 second_title: Aspose.Words لـ .NET
-description: دمج قوائم التحكم باستخدام خاصية ImportFormatOptions MergePastedLists. إدارة القوائم الملصقة بسهولة لتحسين تنسيق المستندات. الافتراضي: خطأ.
+description: دمج قوائم التحكم باستخدام خاصية ImportFormatOptions MergePastedLists. إدارة القوائم الملصقة بسهولة لتحسين تنسيق المستندات. الافتراضي خطأ.
 type: docs
 weight: 70
 url: /ar/net/aspose.words/importformatoptions/mergepastedlists/

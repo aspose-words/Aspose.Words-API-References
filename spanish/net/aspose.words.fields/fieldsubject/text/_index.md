@@ -3,7 +3,7 @@ title: FieldSubject.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: Administre la propiedad Texto de FieldSubject sin esfuerzo: obtenga o configure el texto de su asunto para un manejo perfecto de los datos y una mejor experiencia del usuario.
+description: Administre la propiedad Texto de FieldSubject sin esfuerzo obtenga o configure el texto de su asunto para un manejo perfecto de los datos y una mejor experiencia del usuario.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldsubject/text/

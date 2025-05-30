@@ -3,7 +3,7 @@ title: AdvancedCompareOptions
 linktitle: AdvancedCompareOptions
 articleTitle: AdvancedCompareOptions
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore AdvancedCompareOptions: la soluzione ideale per impostazioni di confronto personalizzabili. Ottimizza il tuo codice con facilità!
+description: Scopri il costruttore AdvancedCompareOptions la soluzione ideale per impostazioni di confronto personalizzabili. Ottimizza il tuo codice con facilità!
 type: docs
 weight: 10
 url: /it/net/aspose.words.comparing/advancedcompareoptions/advancedcompareoptions/

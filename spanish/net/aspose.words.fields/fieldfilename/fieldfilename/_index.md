@@ -3,7 +3,7 @@ title: FieldFileName
 linktitle: FieldFileName
 articleTitle: FieldFileName
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldFileName: su solución ideal para gestionar archivos de forma fluida. ¡Desbloquee la eficiencia con nuestro constructor predeterminado hoy mismo!
+description: Descubra el constructor FieldFileName su solución ideal para gestionar archivos de forma fluida. ¡Desbloquee la eficiencia con nuestro constructor predeterminado hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldfilename/fieldfilename/

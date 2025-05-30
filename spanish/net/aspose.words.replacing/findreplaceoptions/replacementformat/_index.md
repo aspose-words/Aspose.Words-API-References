@@ -3,7 +3,7 @@ title: FindReplaceOptions.ReplacementFormat
 linktitle: ReplacementFormat
 articleTitle: ReplacementFormat
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ReplacementFormat de FindReplaceOptions: personalice fácilmente el formato de reemplazo de texto para mejorar la eficiencia de la edición de documentos.
+description: Descubra la propiedad ReplacementFormat de FindReplaceOptions personalice fácilmente el formato de reemplazo de texto para mejorar la eficiencia de la edición de documentos.
 type: docs
 weight: 150
 url: /es/net/aspose.words.replacing/findreplaceoptions/replacementformat/

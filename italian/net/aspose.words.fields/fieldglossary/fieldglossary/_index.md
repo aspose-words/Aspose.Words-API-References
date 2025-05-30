@@ -3,7 +3,7 @@ title: FieldGlossary
 linktitle: FieldGlossary
 articleTitle: FieldGlossary
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore FieldGlossary: il tuo strumento ideale per creare glossari personalizzati senza sforzo. Migliora i tuoi progetti con facilità ed efficienza!
+description: Scopri il costruttore FieldGlossary il tuo strumento ideale per creare glossari personalizzati senza sforzo. Migliora i tuoi progetti con facilità ed efficienza!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldglossary/fieldglossary/

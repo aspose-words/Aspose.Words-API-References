@@ -3,7 +3,7 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Hash di OdsoRecipientData, che fornisce un codice hash univoco per i record, migliorando l'integrità dei dati in Microsoft Word. Valore predefinito: 0.
+description: Scopri la proprietà Hash di OdsoRecipientData, che fornisce un codice hash univoco per i record, migliorando l'integrità dei dati in Microsoft Word. Valore predefinito 0.
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/odsorecipientdata/hash/

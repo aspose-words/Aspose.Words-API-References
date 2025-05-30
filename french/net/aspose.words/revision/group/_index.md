@@ -3,7 +3,7 @@ title: Revision.Group
 linktitle: Group
 articleTitle: Group
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Groupe de révision : récupérez facilement les groupes de révision ou obtenez une valeur nulle si aucun groupe n'existe. Simplifiez la gestion de vos données dès aujourd'hui !
+description: Découvrez la propriété Groupe de révision  récupérez facilement les groupes de révision ou obtenez une valeur nulle si aucun groupe n'existe. Simplifiez la gestion de vos données dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words/revision/group/

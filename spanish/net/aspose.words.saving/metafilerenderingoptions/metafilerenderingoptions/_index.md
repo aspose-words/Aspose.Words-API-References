@@ -3,7 +3,7 @@ title: MetafileRenderingOptions
 linktitle: MetafileRenderingOptions
 articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words para .NET
-description: Descubra el constructor MetafileRenderingOptions: su solución ideal para un renderizado eficiente con la configuración predeterminada. ¡Optimice sus gráficos hoy mismo!
+description: Descubra el constructor MetafileRenderingOptions su solución ideal para un renderizado eficiente con la configuración predeterminada. ¡Optimice sus gráficos hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.saving/metafilerenderingoptions/metafilerenderingoptions/

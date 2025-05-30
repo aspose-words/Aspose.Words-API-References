@@ -3,7 +3,7 @@ title: SaveOptions.UpdateCreatedTimeProperty
 linktitle: UpdateCreatedTimeProperty
 articleTitle: UpdateCreatedTimeProperty
 second_title: Aspose.Words för .NET
-description: Optimera dina SaveOptions med UpdateCreatedTimeProperty. Kontrollera CreatedTime-uppdateringar innan du sparar, vilket förbättrar datanoggrannheten. Standardvärde: falskt.
+description: Optimera dina SaveOptions med UpdateCreatedTimeProperty. Kontrollera CreatedTime-uppdateringar innan du sparar, vilket förbättrar datanoggrannheten. Standardvärde falskt.
 type: docs
 weight: 160
 url: /sv/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/

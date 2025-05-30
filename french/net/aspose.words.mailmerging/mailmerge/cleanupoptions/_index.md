@@ -3,7 +3,7 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words pour .NET
-description: Optimisez votre publipostage avec la propriété CleanupOptions : gérez facilement les éléments à supprimer pour un processus transparent et efficace.
+description: Optimisez votre publipostage avec la propriété CleanupOptions  gérez facilement les éléments à supprimer pour un processus transparent et efficace.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.mailmerging/mailmerge/cleanupoptions/

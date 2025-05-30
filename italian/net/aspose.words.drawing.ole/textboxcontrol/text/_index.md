@@ -3,7 +3,7 @@ title: TextBoxControl.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words per .NET
-description: Gestisci facilmente il testo di TextBoxControl: ottieni o imposta il suo contenuto per un'interazione utente fluida e funzionalità avanzate nella tua applicazione.
+description: Gestisci facilmente il testo di TextBoxControl ottieni o imposta il suo contenuto per un'interazione utente fluida e funzionalità avanzate nella tua applicazione.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing.ole/textboxcontrol/text/

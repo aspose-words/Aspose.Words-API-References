@@ -3,7 +3,7 @@ title: TextColumnCollection.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété d'espacement TextColumnCollection : gérez facilement l'espacement des colonnes en points pour une mise en page soignée et professionnelle. Améliorez votre design dès aujourd'hui !
+description: Découvrez la propriété d'espacement TextColumnCollection  gérez facilement l'espacement des colonnes en points pour une mise en page soignée et professionnelle. Améliorez votre design dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words/textcolumncollection/spacing/

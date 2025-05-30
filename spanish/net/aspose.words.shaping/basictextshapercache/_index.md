@@ -3,7 +3,7 @@ title: BasicTextShaperCache Class
 linktitle: BasicTextShaperCache
 articleTitle: BasicTextShaperCache
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Shaping.BasicTextShaperCache: su solución para el almacenamiento en caché eficiente y seguro para subprocesos de instancias de ITextShaper para un procesamiento de texto mejorado.
+description: Descubra la clase Aspose.Words.Shaping.BasicTextShaperCache su solución para el almacenamiento en caché eficiente y seguro para subprocesos de instancias de ITextShaper para un procesamiento de texto mejorado.
 type: docs
 weight: 6830
 url: /es/net/aspose.words.shaping/basictextshapercache/

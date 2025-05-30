@@ -3,7 +3,7 @@ title: Source.RecordingNumber
 linktitle: RecordingNumber
 articleTitle: RecordingNumber
 second_title: Aspose.Words para .NET
-description: Administre sus grabaciones sin esfuerzo con la propiedad Source RecordingNumber: recupere o actualice rápidamente los números de grabación de origen para una gestión de audio perfecta.
+description: Administre sus grabaciones sin esfuerzo con la propiedad Source RecordingNumber recupere o actualice rápidamente los números de grabación de origen para una gestión de audio perfecta.
 type: docs
 weight: 370
 url: /es/net/aspose.words.bibliography/source/recordingnumber/

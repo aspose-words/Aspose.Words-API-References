@@ -3,7 +3,7 @@ title: CompositeNode.GetChildNodes
 linktitle: GetChildNodes
 articleTitle: GetChildNodes
 second_title: Aspose.Words para .NET
-description: Descubra el método GetChildNodes de CompositeNode: recupere sin esfuerzo una colección en vivo de nodos secundarios adaptados a su tipo específico para un mejor rendimiento.
+description: Descubra el método GetChildNodes de CompositeNode recupere sin esfuerzo una colección en vivo de nodos secundarios adaptados a su tipo específico para un mejor rendimiento.
 type: docs
 weight: 110
 url: /es/net/aspose.words/compositenode/getchildnodes/

@@ -3,7 +3,7 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété de hachage OdsoRecipientData, qui fournit un code de hachage unique pour les enregistrements, améliorant ainsi l'intégrité des données dans Microsoft Word. Valeur par défaut : 0.
+description: Découvrez la propriété de hachage OdsoRecipientData, qui fournit un code de hachage unique pour les enregistrements, améliorant ainsi l'intégrité des données dans Microsoft Word. Valeur par défaut  0.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.settings/odsorecipientdata/hash/

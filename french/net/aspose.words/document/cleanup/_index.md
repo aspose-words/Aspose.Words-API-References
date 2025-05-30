@@ -3,7 +3,7 @@ title: Document.Cleanup
 linktitle: Cleanup
 articleTitle: Cleanup
 second_title: Aspose.Words pour .NET
-description: Optimisez vos documents grâce à notre méthode de nettoyage : supprimez les styles et listes inutiles pour un flux de travail plus clair et plus efficace. Améliorez la lisibilité dès aujourd'hui !
+description: Optimisez vos documents grâce à notre méthode de nettoyage  supprimez les styles et listes inutiles pour un flux de travail plus clair et plus efficace. Améliorez la lisibilité dès aujourd'hui !
 type: docs
 weight: 580
 url: /fr/net/aspose.words/document/cleanup/

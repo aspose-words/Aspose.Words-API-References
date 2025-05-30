@@ -3,7 +3,7 @@ title: OfficeMath.AcceptEnd
 linktitle: AcceptEnd
 articleTitle: AcceptEnd
 second_title: Aspose.Words per .NET
-description: Scopri il metodo AcceptEnd di OfficeMath: gestisci senza problemi l'accesso dei visitatori e migliora l'esperienza di calcolo in ufficio. Aumenta l'efficienza oggi stesso!
+description: Scopri il metodo AcceptEnd di OfficeMath gestisci senza problemi l'accesso dei visitatori e migliora l'esperienza di calcolo in ufficio. Aumenta l'efficienza oggi stesso!
 type: docs
 weight: 70
 url: /it/net/aspose.words.math/officemath/acceptend/

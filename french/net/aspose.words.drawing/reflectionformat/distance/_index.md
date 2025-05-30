@@ -3,7 +3,7 @@ title: ReflectionFormat.Distance
 linktitle: Distance
 articleTitle: Distance
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Distance de ReflectionFormat : ajustez facilement la séparation de votre image réfléchie en points pour des effets visuels saisissants. La valeur par défaut est 0,0.
+description: Découvrez la propriété Distance de ReflectionFormat  ajustez facilement la séparation de votre image réfléchie en points pour des effets visuels saisissants. La valeur par défaut est 0,0.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.drawing/reflectionformat/distance/

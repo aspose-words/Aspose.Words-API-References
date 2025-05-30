@@ -3,7 +3,7 @@ title: SaveOptions.UpdateCreatedTimeProperty
 linktitle: UpdateCreatedTimeProperty
 articleTitle: UpdateCreatedTimeProperty
 second_title: Aspose.Words لـ .NET
-description: حسّن خيارات الحفظ باستخدام خاصية UpdateCreatedTimeProperty. تحكّم في تحديثات CreatedTime قبل الحفظ، مما يُحسّن دقة البيانات. الافتراضي: خطأ.
+description: حسّن خيارات الحفظ باستخدام خاصية UpdateCreatedTimeProperty. تحكّم في تحديثات CreatedTime قبل الحفظ، مما يُحسّن دقة البيانات. الافتراضي خطأ.
 type: docs
 weight: 160
 url: /ar/net/aspose.words.saving/saveoptions/updatecreatedtimeproperty/

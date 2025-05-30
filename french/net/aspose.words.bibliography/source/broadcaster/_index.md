@@ -3,7 +3,7 @@ title: Source.Broadcaster
 linktitle: Broadcaster
 articleTitle: Broadcaster
 second_title: Aspose.Words pour .NET
-description: Découvrez la fonctionnalité Source Broadcaster : gérez facilement le diffuseur de votre source pour un contrôle et des performances de streaming optimisés. Optimisez votre expérience multimédia !
+description: Découvrez la fonctionnalité Source Broadcaster  gérez facilement le diffuseur de votre source pour un contrôle et des performances de streaming optimisés. Optimisez votre expérience multimédia !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.bibliography/source/broadcaster/

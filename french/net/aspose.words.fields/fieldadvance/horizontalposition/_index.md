@@ -3,7 +3,7 @@ title: FieldAdvance.HorizontalPosition
 linktitle: HorizontalPosition
 articleTitle: HorizontalPosition
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété HorizontalPosition de FieldAdvance : ajustez facilement le positionnement du texte pour un contrôle précis de la mise en page de vos documents. Améliorez votre mise en forme dès aujourd'hui !
+description: Découvrez la propriété HorizontalPosition de FieldAdvance  ajustez facilement le positionnement du texte pour un contrôle précis de la mise en page de vos documents. Améliorez votre mise en forme dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldadvance/horizontalposition/

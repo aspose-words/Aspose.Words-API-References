@@ -3,7 +3,7 @@ title: OfficeMath.DisplayType
 linktitle: DisplayType
 articleTitle: DisplayType
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété DisplayType d'OfficeMath pour une mise en forme flexible des équations : choisissez entre un affichage en ligne ou autonome pour une clarté améliorée du document.
+description: Découvrez la propriété DisplayType d'OfficeMath pour une mise en forme flexible des équations  choisissez entre un affichage en ligne ou autonome pour une clarté améliorée du document.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.math/officemath/displaytype/

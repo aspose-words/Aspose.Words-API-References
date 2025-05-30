@@ -3,7 +3,7 @@ title: StructuredDocumentTag.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode StructuredDocumentTag Accept : intégrez de manière transparente les interactions des visiteurs pour une fonctionnalité de document améliorée et un engagement utilisateur.
+description: Découvrez la méthode StructuredDocumentTag Accept  intégrez de manière transparente les interactions des visiteurs pour une fonctionnalité de document améliorée et un engagement utilisateur.
 type: docs
 weight: 330
 url: /fr/net/aspose.words.markup/structureddocumenttag/accept/

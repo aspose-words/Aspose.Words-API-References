@@ -3,7 +3,7 @@ title: Table.AbsoluteVerticalDistance
 linktitle: AbsoluteVerticalDistance
 articleTitle: AbsoluteVerticalDistance
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad AbsoluteVerticalDistance para tablas: controle la posición vertical en puntos para un diseño preciso. El valor predeterminado es 0. ¡Optimice su diseño!
+description: Descubra la propiedad AbsoluteVerticalDistance para tablas controle la posición vertical en puntos para un diseño preciso. El valor predeterminado es 0. ¡Optimice su diseño!
 type: docs
 weight: 30
 url: /es/net/aspose.words.tables/table/absoluteverticaldistance/
