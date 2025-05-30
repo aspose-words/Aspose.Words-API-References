@@ -3,7 +3,7 @@ title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà PageRangeBookmarkName di FieldXE: gestisci in modo efficiente i nomi dei segnalibri per un monitoraggio preciso dell'intervallo di pagine nei tuoi documenti.
+description: Scopri la proprietà PageRangeBookmarkName di FieldXE gestisci in modo efficiente i nomi dei segnalibri per un monitoraggio preciso dell'intervallo di pagine nei tuoi documenti.
 type: docs
 weight: 60
 url: /it/net/aspose.words.fields/fieldxe/pagerangebookmarkname/

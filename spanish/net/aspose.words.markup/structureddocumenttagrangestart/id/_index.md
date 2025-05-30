@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeStart.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad StructuredDocumentTagRangeStart Id: su clave para un identificador numérico único y de solo lectura para un etiquetado de documentos eficiente.
+description: Descubra la propiedad StructuredDocumentTagRangeStart Id su clave para un identificador numérico único y de solo lectura para un etiquetado de documentos eficiente.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/structureddocumenttagrangestart/id/

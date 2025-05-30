@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.ExportEmbeddedSvg
 linktitle: ExportEmbeddedSvg
 articleTitle: ExportEmbeddedSvg
 second_title: Aspose.Words för .NET
-description: Upptäck HtmlFixedSaveOptions ExportEmbeddedSvg-egenskap, bädda enkelt in SVG-resurser i dina HTML-dokument för förbättrad visuell presentation. Standardvärde: sant.
+description: Upptäck HtmlFixedSaveOptions ExportEmbeddedSvg-egenskap, bädda enkelt in SVG-resurser i dina HTML-dokument för förbättrad visuell presentation. Standardvärde sant.
 type: docs
 weight: 70
 url: /sv/net/aspose.words.saving/htmlfixedsaveoptions/exportembeddedsvg/

@@ -3,7 +3,7 @@ title: Stroke.Color2
 linktitle: Color2
 articleTitle: Color2
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad Stroke Color2: mejore sus diseños con un segundo color de trazo personalizable para lograr imágenes vibrantes y llamativas.
+description: Descubra la propiedad Stroke Color2 mejore sus diseños con un segundo color de trazo personalizable para lograr imágenes vibrantes y llamativas.
 type: docs
 weight: 60
 url: /es/net/aspose.words.drawing/stroke/color2/

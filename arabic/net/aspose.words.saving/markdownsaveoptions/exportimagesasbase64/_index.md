@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ExportImagesAsBase64
 linktitle: ExportImagesAsBase64
 articleTitle: ExportImagesAsBase64
 second_title: Aspose.Words لـ .NET
-description: اكتشف كيف تُحسّن خاصية MarkdownSaveOptions ExportImagesAsBase64 ملفاتك الناتجة من خلال السماح بحفظ الصور بتنسيق Base64. الافتراضي: خطأ.
+description: اكتشف كيف تُحسّن خاصية MarkdownSaveOptions ExportImagesAsBase64 ملفاتك الناتجة من خلال السماح بحفظ الصور بتنسيق Base64. الافتراضي خطأ.
 type: docs
 weight: 40
 url: /ar/net/aspose.words.saving/markdownsaveoptions/exportimagesasbase64/

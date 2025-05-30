@@ -3,7 +3,7 @@ title: ShapeBase.ParentParagraph
 linktitle: ParentParagraph
 articleTitle: ParentParagraph
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ParentParagraph de ShapeBase: acceda de manera eficiente al párrafo padre inmediato para una administración de contenido optimizada y una organización mejorada.
+description: Descubra la propiedad ParentParagraph de ShapeBase acceda de manera eficiente al párrafo padre inmediato para una administración de contenido optimizada y una organización mejorada.
 type: docs
 weight: 430
 url: /es/net/aspose.words.drawing/shapebase/parentparagraph/

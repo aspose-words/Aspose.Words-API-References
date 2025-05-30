@@ -3,7 +3,7 @@ title: ParagraphFormat.LineUnitAfter
 linktitle: LineUnitAfter
 articleTitle: LineUnitAfter
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ParagraphFormat LineUnitAfter: controla el espaciado en las líneas de cuadrícula para mejorar el diseño de los párrafos y la legibilidad del documento.
+description: Descubra la propiedad ParagraphFormat LineUnitAfter controla el espaciado en las líneas de cuadrícula para mejorar el diseño de los párrafos y la legibilidad del documento.
 type: docs
 weight: 220
 url: /es/net/aspose.words/paragraphformat/lineunitafter/

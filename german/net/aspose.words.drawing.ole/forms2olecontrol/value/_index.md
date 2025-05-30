@@ -3,7 +3,7 @@ title: Forms2OleControl.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die Forms2OleControl-Eigenschaft „Value“, die den Zustand von Steuerelementen widerspiegelt. Verwalten Sie Optionsfeldwerte ganz einfach: 1 für aktiviert, 0 für deaktiviert. Vereinfachen Sie Ihre Programmierung!
+description: Entdecken Sie die Forms2OleControl-Eigenschaft „Value“, die den Zustand von Steuerelementen widerspiegelt. Verwalten Sie Optionsfeldwerte ganz einfach 1 für aktiviert, 0 für deaktiviert. Vereinfachen Sie Ihre Programmierung!
 type: docs
 weight: 90
 url: /de/net/aspose.words.drawing.ole/forms2olecontrol/value/

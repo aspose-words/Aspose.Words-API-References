@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words para .NET
-description: Descubre la propiedad GlowFormat Radius para personalizar tus efectos de brillo. Ajusta el radio en puntos para lograr mejoras visuales impresionantes. Valor predeterminado: 0.0.
+description: Descubre la propiedad GlowFormat Radius para personalizar tus efectos de brillo. Ajusta el radio en puntos para lograr mejoras visuales impresionantes. Valor predeterminado 0.0.
 type: docs
 weight: 20
 url: /es/net/aspose.words.drawing/glowformat/radius/

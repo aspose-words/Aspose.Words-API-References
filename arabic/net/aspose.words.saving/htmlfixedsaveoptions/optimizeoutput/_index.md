@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.OptimizeOutput
 linktitle: OptimizeOutput
 articleTitle: OptimizeOutput
 second_title: Aspose.Words لـ .NET
-description: حسّن مخرجات HTML باستخدام خاصية HtmlFixedSaveOptions. حسّن الأداء بإزالة اللوحات المكررة ودمج الرموز المتشابهة. الافتراضي: صحيح.
+description: حسّن مخرجات HTML باستخدام خاصية HtmlFixedSaveOptions. حسّن الأداء بإزالة اللوحات المكررة ودمج الرموز المتشابهة. الافتراضي صحيح.
 type: docs
 weight: 110
 url: /ar/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/

@@ -3,7 +3,7 @@ title: Font.HighlightColor
 linktitle: HighlightColor
 articleTitle: HighlightColor
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Font HighlightColor: personalizza facilmente il colore di evidenziazione del testo per una migliore leggibilità e un impatto visivo migliore. Migliora il tuo design!
+description: Scopri la proprietà Font HighlightColor personalizza facilmente il colore di evidenziazione del testo per una migliore leggibilità e un impatto visivo migliore. Migliora il tuo design!
 type: docs
 weight: 150
 url: /it/net/aspose.words/font/highlightcolor/

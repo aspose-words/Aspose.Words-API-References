@@ -3,7 +3,7 @@ title: ShapeBase.CanHaveImage
 linktitle: CanHaveImage
 articleTitle: CanHaveImage
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà ShapeBase CanHaveImage: impara a determinare se il tuo tipo di forma supporta le immagini per un impatto visivo migliore!
+description: Scopri la proprietà ShapeBase CanHaveImage impara a determinare se il tuo tipo di forma supporta le immagini per un impatto visivo migliore!
 type: docs
 weight: 100
 url: /it/net/aspose.words.drawing/shapebase/canhaveimage/

@@ -3,7 +3,7 @@ title: ChartDataLabelCollection.GetEnumerator
 linktitle: GetEnumerator
 articleTitle: GetEnumerator
 second_title: Aspose.Words para .NET
-description: Descubra el método GetEnumerator de ChartDataLabelCollection: recupere de manera eficiente objetos enumeradores para lograr gráficos de datos sin inconvenientes y una visualización mejorada.
+description: Descubra el método GetEnumerator de ChartDataLabelCollection recupere de manera eficiente objetos enumeradores para lograr gráficos de datos sin inconvenientes y una visualización mejorada.
 type: docs
 weight: 190
 url: /es/net/aspose.words.drawing.charts/chartdatalabelcollection/getenumerator/

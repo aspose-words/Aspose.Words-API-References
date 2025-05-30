@@ -3,7 +3,7 @@ title: DropDownItemCollection Class
 linktitle: DropDownItemCollection
 articleTitle: DropDownItemCollection
 second_title: Aspose.Words para .NET
-description: Explore la clase Aspose.Words.Fields.DropDownItemCollection: ¡su solución ideal para administrar elementos desplegables en campos de formulario sin esfuerzo!
+description: Explore la clase Aspose.Words.Fields.DropDownItemCollection ¡su solución ideal para administrar elementos desplegables en campos de formulario sin esfuerzo!
 type: docs
 weight: 1910
 url: /es/net/aspose.words.fields/dropdownitemcollection/

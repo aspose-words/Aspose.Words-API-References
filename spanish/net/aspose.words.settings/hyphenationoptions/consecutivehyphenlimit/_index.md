@@ -3,7 +3,7 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ConsecutiveHyphenLimit en HyphenationOptions. Controle el uso de guiones en su texto para mejorar la legibilidad y el formato. Valor predeterminado: 0.
+description: Descubra la propiedad ConsecutiveHyphenLimit en HyphenationOptions. Controle el uso de guiones en su texto para mejorar la legibilidad y el formato. Valor predeterminado 0.
 type: docs
 weight: 30
 url: /es/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/

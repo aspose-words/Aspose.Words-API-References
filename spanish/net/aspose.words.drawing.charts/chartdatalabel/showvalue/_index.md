@@ -3,7 +3,7 @@ title: ChartDataLabel.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad ChartDataLabel ShowValue para mejorar la visualización de sus datos. Controle la visualización de valores en las etiquetas para una visión más clara. Valor predeterminado: falso.
+description: Descubra la propiedad ChartDataLabel ShowValue para mejorar la visualización de sus datos. Controle la visualización de valores en las etiquetas para una visión más clara. Valor predeterminado falso.
 type: docs
 weight: 200
 url: /es/net/aspose.words.drawing.charts/chartdatalabel/showvalue/

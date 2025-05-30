@@ -3,7 +3,7 @@ title: Field.IsLocked
 linktitle: IsLocked
 articleTitle: IsLocked
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété IsLocked pour les champs : contrôlez les recalculs et améliorez l'intégrité des données. Bénéficiez d'une gestion efficace de vos données dès aujourd'hui !
+description: Découvrez la propriété IsLocked pour les champs  contrôlez les recalculs et améliorez l'intégrité des données. Bénéficiez d'une gestion efficace de vos données dès aujourd'hui !
 type: docs
 weight: 50
 url: /fr/net/aspose.words.fields/field/islocked/

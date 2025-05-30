@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words per .NET
-description: Ottimizza le tue esportazioni Markdown con la proprietà ImageResolution, impostando risoluzioni di output personalizzate per immagini più nitide. Predefinito: 96 dpi.
+description: Ottimizza le tue esportazioni Markdown con la proprietà ImageResolution, impostando risoluzioni di output personalizzate per immagini più nitide. Predefinito 96 dpi.
 type: docs
 weight: 60
 url: /it/net/aspose.words.saving/markdownsaveoptions/imageresolution/

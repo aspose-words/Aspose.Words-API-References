@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection Class
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Saving.BookmarksOutlineLevelCollection: una poderosa herramienta para administrar marcadores y mejorar la navegación de documentos sin esfuerzo.
+description: Descubra la clase Aspose.Words.Saving.BookmarksOutlineLevelCollection una poderosa herramienta para administrar marcadores y mejorar la navegación de documentos sin esfuerzo.
 type: docs
 weight: 5590
 url: /es/net/aspose.words.saving/bookmarksoutlinelevelcollection/

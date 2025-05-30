@@ -3,7 +3,7 @@ title: FieldQuote
 linktitle: FieldQuote
 articleTitle: FieldQuote
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldQuote: su solución ideal para gestionar datos eficientemente. ¡Descubra hoy mismo una integración perfecta y un rendimiento mejorado!
+description: Descubra el constructor FieldQuote su solución ideal para gestionar datos eficientemente. ¡Descubra hoy mismo una integración perfecta y un rendimiento mejorado!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldquote/fieldquote/

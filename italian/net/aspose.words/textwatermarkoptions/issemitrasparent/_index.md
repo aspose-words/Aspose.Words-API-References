@@ -3,7 +3,7 @@ title: TextWatermarkOptions.IsSemitrasparent
 linktitle: IsSemitrasparent
 articleTitle: IsSemitrasparent
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà IsSemitransparent di TextWatermarkOptions: controlla facilmente l'opacità della filigrana. Migliora i tuoi progetti con impostazioni di trasparenza personalizzabili!
+description: Scopri la proprietà IsSemitransparent di TextWatermarkOptions controlla facilmente l'opacità della filigrana. Migliora i tuoi progetti con impostazioni di trasparenza personalizzabili!
 type: docs
 weight: 50
 url: /it/net/aspose.words/textwatermarkoptions/issemitrasparent/

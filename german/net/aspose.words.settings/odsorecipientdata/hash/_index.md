@@ -3,7 +3,7 @@ title: OdsoRecipientData.Hash
 linktitle: Hash
 articleTitle: Hash
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die Hash-Eigenschaft von OdsoRecipientData, die einen eindeutigen Hashcode für Datensätze bereitstellt und so die Datenintegrität in Microsoft Word verbessert. Standardwert: 0.
+description: Entdecken Sie die Hash-Eigenschaft von OdsoRecipientData, die einen eindeutigen Hashcode für Datensätze bereitstellt und so die Datenintegrität in Microsoft Word verbessert. Standardwert 0.
 type: docs
 weight: 40
 url: /de/net/aspose.words.settings/odsorecipientdata/hash/

@@ -3,7 +3,7 @@ title: GlowFormat.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die Transparenzeigenschaft von GlowFormat und passen Sie Leuchteffekte einfach von undurchsichtig bis transparent (0,0 bis 1,0) an, um eine beeindruckende visuelle Wirkung zu erzielen. Standard: 0,0.
+description: Entdecken Sie die Transparenzeigenschaft von GlowFormat und passen Sie Leuchteffekte einfach von undurchsichtig bis transparent (0,0 bis 1,0) an, um eine beeindruckende visuelle Wirkung zu erzielen. Standard 0,0.
 type: docs
 weight: 30
 url: /de/net/aspose.words.drawing/glowformat/transparency/

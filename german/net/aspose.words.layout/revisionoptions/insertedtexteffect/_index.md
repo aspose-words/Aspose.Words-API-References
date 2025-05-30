@@ -3,7 +3,7 @@ title: RevisionOptions.InsertedTextEffect
 linktitle: InsertedTextEffect
 articleTitle: InsertedTextEffect
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die RevisionOptions InsertedTextEffect-Eigenschaft, um Ihren Inhalt mit einzigartigen Effekten anzupassen. Standard: Unterstreichen. Steigern Sie die Wirkung Ihres Textes!
+description: Entdecken Sie die RevisionOptions InsertedTextEffect-Eigenschaft, um Ihren Inhalt mit einzigartigen Effekten anzupassen. Standard Unterstreichen. Steigern Sie die Wirkung Ihres Textes!
 type: docs
 weight: 70
 url: /de/net/aspose.words.layout/revisionoptions/insertedtexteffect/

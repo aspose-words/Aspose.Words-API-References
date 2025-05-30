@@ -3,7 +3,7 @@ title: GlowFormat.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words för .NET
-description: Upptäck GlowFormats egenskap Transparens, justera enkelt glödeffekter från ogenomskinlig till klar (0,0 till 1,0) för en fantastisk visuell effekt. Standardvärde: 0,0.
+description: Upptäck GlowFormats egenskap Transparens, justera enkelt glödeffekter från ogenomskinlig till klar (0,0 till 1,0) för en fantastisk visuell effekt. Standardvärde 0,0.
 type: docs
 weight: 30
 url: /sv/net/aspose.words.drawing/glowformat/transparency/

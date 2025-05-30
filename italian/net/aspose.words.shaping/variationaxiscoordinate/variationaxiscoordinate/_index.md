@@ -3,7 +3,7 @@ title: VariationAxisCoordinate
 linktitle: VariationAxisCoordinate
 articleTitle: VariationAxisCoordinate
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore VariationAxisCoordinate: il tuo punto di riferimento per una gestione efficiente dei dati e la personalizzazione nei tuoi progetti. Sfrutta tutto il suo potenziale oggi stesso!
+description: Scopri il costruttore VariationAxisCoordinate il tuo punto di riferimento per una gestione efficiente dei dati e la personalizzazione nei tuoi progetti. Sfrutta tutto il suo potenziale oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.shaping/variationaxiscoordinate/variationaxiscoordinate/

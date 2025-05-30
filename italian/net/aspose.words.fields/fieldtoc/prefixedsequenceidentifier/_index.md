@@ -3,7 +3,7 @@ title: FieldToc.PrefixedSequenceIdentifier
 linktitle: PrefixedSequenceIdentifier
 articleTitle: PrefixedSequenceIdentifier
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà FieldToc PrefixedSequenceIdentifier: gestisci in modo efficiente gli identificatori di sequenza e migliora il numero di pagina della tua voce con prefissi univoci.
+description: Scopri la proprietà FieldToc PrefixedSequenceIdentifier gestisci in modo efficiente gli identificatori di sequenza e migliora il numero di pagina della tua voce con prefissi univoci.
 type: docs
 weight: 120
 url: /it/net/aspose.words.fields/fieldtoc/prefixedsequenceidentifier/

@@ -3,7 +3,7 @@ title: FieldEnd.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode Accept de FieldEnd : engagez vos visiteurs en toute fluidité et améliorez leur expérience grâce à nos solutions innovantes. Libérez le potentiel de votre site dès aujourd'hui !
+description: Découvrez la méthode Accept de FieldEnd  engagez vos visiteurs en toute fluidité et améliorez leur expérience grâce à nos solutions innovantes. Libérez le potentiel de votre site dès aujourd'hui !
 type: docs
 weight: 30
 url: /fr/net/aspose.words.fields/fieldend/accept/

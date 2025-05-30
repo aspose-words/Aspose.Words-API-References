@@ -3,7 +3,7 @@ title: MemoryFontSource.CacheKey
 linktitle: CacheKey
 articleTitle: CacheKey
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété MemoryFontSource CacheKey : débloquez une mise en cache efficace avec une clé unique pour des performances améliorées et une gestion optimisée de la mémoire.
+description: Découvrez la propriété MemoryFontSource CacheKey  débloquez une mise en cache efficace avec une clé unique pour des performances améliorées et une gestion optimisée de la mémoire.
 type: docs
 weight: 20
 url: /fr/net/aspose.words.fonts/memoryfontsource/cachekey/

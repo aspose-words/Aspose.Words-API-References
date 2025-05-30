@@ -3,7 +3,7 @@ title: Table.Title
 linktitle: Title
 articleTitle: Title
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Titolo tabella: imposta o modifica facilmente il titolo della tua tabella per una migliore accessibilità e una migliore rappresentazione dei dati.
+description: Scopri la proprietà Titolo tabella imposta o modifica facilmente il titolo della tua tabella per una migliore accessibilità e una migliore rappresentazione dei dati.
 type: docs
 weight: 320
 url: /it/net/aspose.words.tables/table/title/

@@ -3,7 +3,7 @@ title: FieldDisplayBarcode.BarcodeType
 linktitle: BarcodeType
 articleTitle: BarcodeType
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété BarcodeType de FieldDisplayBarcode : gérez et personnalisez facilement les types de codes-barres comme QR pour un affichage et des fonctionnalités de données améliorés.
+description: Découvrez la propriété BarcodeType de FieldDisplayBarcode  gérez et personnalisez facilement les types de codes-barres comme QR pour un affichage et des fonctionnalités de données améliorés.
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fielddisplaybarcode/barcodetype/

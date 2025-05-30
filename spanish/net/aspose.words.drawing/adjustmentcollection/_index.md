@@ -3,7 +3,7 @@ title: AdjustmentCollection Class
 linktitle: AdjustmentCollection
 articleTitle: AdjustmentCollection
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Drawing.AdjustmentCollection: su solución para administrar valores de ajuste de solo lectura para formas. ¡Mejore el diseño de sus documentos sin esfuerzo!
+description: Descubra la clase Aspose.Words.Drawing.AdjustmentCollection su solución para administrar valores de ajuste de solo lectura para formas. ¡Mejore el diseño de sus documentos sin esfuerzo!
 type: docs
 weight: 710
 url: /es/net/aspose.words.drawing/adjustmentcollection/

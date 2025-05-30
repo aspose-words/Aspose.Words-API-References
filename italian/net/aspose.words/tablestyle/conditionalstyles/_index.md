@@ -3,7 +3,7 @@ title: TableStyle.ConditionalStyles
 linktitle: ConditionalStyles
 articleTitle: ConditionalStyles
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà TableStyle ConditionalStyles: personalizza la tua tabella con stili condizionali unici per migliorarne l'aspetto visivo e la funzionalità.
+description: Scopri la proprietà TableStyle ConditionalStyles personalizza la tua tabella con stili condizionali unici per migliorarne l'aspetto visivo e la funzionalità.
 type: docs
 weight: 80
 url: /it/net/aspose.words/tablestyle/conditionalstyles/

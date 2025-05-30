@@ -3,7 +3,7 @@ title: ChartDataLabel.ShowValue
 linktitle: ShowValue
 articleTitle: ShowValue
 second_title: Aspose.Words لـ .NET
-description: اكتشف خاصية "عرض قيمة تسمية بيانات الرسم البياني" (ChartDataLabel ShowValue) لتحسين عرض بياناتك. تحكّم في عرض القيم في التسميات للحصول على رؤى أوضح. الافتراضي: خطأ.
+description: اكتشف خاصية "عرض قيمة تسمية بيانات الرسم البياني" (ChartDataLabel ShowValue) لتحسين عرض بياناتك. تحكّم في عرض القيم في التسميات للحصول على رؤى أوضح. الافتراضي خطأ.
 type: docs
 weight: 200
 url: /ar/net/aspose.words.drawing.charts/chartdatalabel/showvalue/

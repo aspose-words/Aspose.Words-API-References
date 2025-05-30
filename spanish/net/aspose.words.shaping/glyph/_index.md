@@ -3,7 +3,7 @@ title: Glyph Class
 linktitle: Glyph
 articleTitle: Glyph
 second_title: Aspose.Words para .NET
-description: Descubra la clase Aspose.Words.Shaping.Glyph: su clave para la tipografía avanzada y la representación precisa de glifos para un formato de documento perfecto.
+description: Descubra la clase Aspose.Words.Shaping.Glyph su clave para la tipografía avanzada y la representación precisa de glifos para un formato de documento perfecto.
 type: docs
 weight: 6870
 url: /es/net/aspose.words.shaping/glyph/

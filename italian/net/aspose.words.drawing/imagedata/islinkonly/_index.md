@@ -3,7 +3,7 @@ title: ImageData.IsLinkOnly
 linktitle: IsLinkOnly
 articleTitle: IsLinkOnly
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà IsLinkOnly di ImageData: indica se un'immagine è collegata esternamente, migliorando l'efficienza dei documenti e la gestione dell'archiviazione.
+description: Scopri la proprietà IsLinkOnly di ImageData indica se un'immagine è collegata esternamente, migliorando l'efficienza dei documenti e la gestione dell'archiviazione.
 type: docs
 weight: 160
 url: /it/net/aspose.words.drawing/imagedata/islinkonly/

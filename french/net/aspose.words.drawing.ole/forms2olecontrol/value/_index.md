@@ -3,7 +3,7 @@ title: Forms2OleControl.Value
 linktitle: Value
 articleTitle: Value
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété Value de Forms2OleControl, qui reflète les états des contrôles. Gérez facilement les valeurs des boutons d'option : 1 pour coché, 0 pour décoché. Simplifiez votre codage !
+description: Découvrez la propriété Value de Forms2OleControl, qui reflète les états des contrôles. Gérez facilement les valeurs des boutons d'option  1 pour coché, 0 pour décoché. Simplifiez votre codage !
 type: docs
 weight: 90
 url: /fr/net/aspose.words.drawing.ole/forms2olecontrol/value/

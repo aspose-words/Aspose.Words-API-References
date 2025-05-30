@@ -3,7 +3,7 @@ title: TaskPane.WebExtension
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà WebExtension di TaskPane: la chiave per migliorare le funzionalità delle estensioni web e l'esperienza utente. Scopri nuove possibilità oggi stesso!
+description: Scopri la proprietà WebExtension di TaskPane la chiave per migliorare le funzionalità delle estensioni web e l'esperienza utente. Scopri nuove possibilità oggi stesso!
 type: docs
 weight: 60
 url: /it/net/aspose.words.webextensions/taskpane/webextension/

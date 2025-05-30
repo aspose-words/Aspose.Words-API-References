@@ -3,7 +3,7 @@ title: TextPath.StrikeThrough
 linktitle: StrikeThrough
 articleTitle: StrikeThrough
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété TextPath StrikeThrough : formatez facilement du texte barré pour une mise en valeur visuelle claire dans vos projets. Améliorez votre design dès aujourd'hui !
+description: Découvrez la propriété TextPath StrikeThrough  formatez facilement du texte barré pour une mise en valeur visuelle claire dans vos projets. Améliorez votre design dès aujourd'hui !
 type: docs
 weight: 150
 url: /fr/net/aspose.words.drawing/textpath/strikethrough/

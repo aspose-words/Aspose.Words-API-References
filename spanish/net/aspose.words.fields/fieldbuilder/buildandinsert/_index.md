@@ -3,7 +3,7 @@ title: FieldBuilder.BuildAndInsert
 linktitle: BuildAndInsert
 articleTitle: BuildAndInsert
 second_title: Aspose.Words para .NET
-description: Mejore sin esfuerzo sus documentos con el método BuildAndInsert de FieldBuilder: agregue rápidamente campos antes de cualquier nodo en línea para una integración perfecta.
+description: Mejore sin esfuerzo sus documentos con el método BuildAndInsert de FieldBuilder agregue rápidamente campos antes de cualquier nodo en línea para una integración perfecta.
 type: docs
 weight: 40
 url: /es/net/aspose.words.fields/fieldbuilder/buildandinsert/

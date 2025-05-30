@@ -3,7 +3,7 @@ title: FieldFillIn
 linktitle: FieldFillIn
 articleTitle: FieldFillIn
 second_title: Aspose.Words para .NET
-description: Descubra el constructor FieldFillIn: su solución ideal para una gestión de datos fluida. ¡Experimente la eficiencia y la simplicidad en sus proyectos de programación!
+description: Descubra el constructor FieldFillIn su solución ideal para una gestión de datos fluida. ¡Experimente la eficiencia y la simplicidad en sus proyectos de programación!
 type: docs
 weight: 10
 url: /es/net/aspose.words.fields/fieldfillin/fieldfillin/

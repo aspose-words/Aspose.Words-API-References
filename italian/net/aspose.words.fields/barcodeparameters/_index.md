@@ -3,7 +3,7 @@ title: BarcodeParameters Class
 linktitle: BarcodeParameters
 articleTitle: BarcodeParameters
 second_title: Aspose.Words per .NET
-description: Scopri la classe Aspose.Words.Fields.BarcodeParameters: il tuo strumento essenziale per la generazione e la personalizzazione fluide dei codici a barre nell'elaborazione dei documenti.
+description: Scopri la classe Aspose.Words.Fields.BarcodeParameters il tuo strumento essenziale per la generazione e la personalizzazione fluide dei codici a barre nell'elaborazione dei documenti.
 type: docs
 weight: 1880
 url: /it/net/aspose.words.fields/barcodeparameters/

@@ -3,7 +3,7 @@ title: GlowFormat.Transparency
 linktitle: Transparency
 articleTitle: Transparency
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad Transparencia de GlowFormat y ajuste fácilmente los efectos de brillo de opaco a transparente (0.0 a 1.0) para un impacto visual impresionante. Valor predeterminado: 0.0.
+description: Descubra la propiedad Transparencia de GlowFormat y ajuste fácilmente los efectos de brillo de opaco a transparente (0.0 a 1.0) para un impacto visual impresionante. Valor predeterminado 0.0.
 type: docs
 weight: 30
 url: /es/net/aspose.words.drawing/glowformat/transparency/

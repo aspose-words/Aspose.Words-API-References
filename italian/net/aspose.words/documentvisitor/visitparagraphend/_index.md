@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitParagraphEnd
 linktitle: VisitParagraphEnd
 articleTitle: VisitParagraphEnd
 second_title: Aspose.Words per .NET
-description: Scopri il metodo VisitParagraphEnd di DocumentVisitor: gestisci in modo efficiente il completamento dell'enumerazione dei paragrafi nelle tue applicazioni per migliorare le prestazioni.
+description: Scopri il metodo VisitParagraphEnd di DocumentVisitor gestisci in modo efficiente il completamento dell'enumerazione dei paragrafi nelle tue applicazioni per migliorare le prestazioni.
 type: docs
 weight: 320
 url: /it/net/aspose.words/documentvisitor/visitparagraphend/

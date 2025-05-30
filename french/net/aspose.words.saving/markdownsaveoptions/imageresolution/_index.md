@@ -3,7 +3,7 @@ title: MarkdownSaveOptions.ImageResolution
 linktitle: ImageResolution
 articleTitle: ImageResolution
 second_title: Aspose.Words pour .NET
-description: Optimisez vos exportations Markdown avec la propriété ImageResolution, qui permet de définir des résolutions de sortie personnalisées pour des images plus nettes. Par défaut : 96 ppp.
+description: Optimisez vos exportations Markdown avec la propriété ImageResolution, qui permet de définir des résolutions de sortie personnalisées pour des images plus nettes. Par défaut  96 ppp.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.saving/markdownsaveoptions/imageresolution/

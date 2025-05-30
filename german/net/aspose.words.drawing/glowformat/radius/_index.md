@@ -3,7 +3,7 @@ title: GlowFormat.Radius
 linktitle: Radius
 articleTitle: Radius
 second_title: Aspose.Words für .NET
-description: Entdecken Sie die GlowFormat-Radius-Eigenschaft, um Ihre Leuchteffekte anzupassen. Passen Sie den Radius in Punkten an, um beeindruckende visuelle Verbesserungen zu erzielen. Standard: 0,0.
+description: Entdecken Sie die GlowFormat-Radius-Eigenschaft, um Ihre Leuchteffekte anzupassen. Passen Sie den Radius in Punkten an, um beeindruckende visuelle Verbesserungen zu erzielen. Standard 0,0.
 type: docs
 weight: 20
 url: /de/net/aspose.words.drawing/glowformat/radius/

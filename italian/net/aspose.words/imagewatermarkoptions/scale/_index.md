@@ -3,7 +3,7 @@ title: ImageWatermarkOptions.Scale
 linktitle: Scale
 articleTitle: Scale
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Scala di ImageWatermarkOptions per regolare facilmente il ridimensionamento dell'immagine e ottenere una filigrana ottimale. Valore predefinito: 0 automatico per un'integrazione perfetta.
+description: Scopri la proprietà Scala di ImageWatermarkOptions per regolare facilmente il ridimensionamento dell'immagine e ottenere una filigrana ottimale. Valore predefinito 0 automatico per un'integrazione perfetta.
 type: docs
 weight: 30
 url: /it/net/aspose.words/imagewatermarkoptions/scale/

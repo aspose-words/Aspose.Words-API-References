@@ -3,7 +3,7 @@ title: FontSavingArgs Class
 linktitle: FontSavingArgs
 articleTitle: FontSavingArgs
 second_title: Aspose.Words pour .NET
-description: Découvrez la classe Aspose.Words.Saving.FontSavingArgs : améliorez le traitement des documents avec des données d'événement FontSaving détaillées pour une personnalisation et un contrôle supérieurs.
+description: Découvrez la classe Aspose.Words.Saving.FontSavingArgs  améliorez le traitement des documents avec des données d'événement FontSaving détaillées pour une personnalisation et un contrôle supérieurs.
 type: docs
 weight: 5780
 url: /fr/net/aspose.words.saving/fontsavingargs/

@@ -3,7 +3,7 @@ title: CustomPartCollection.Add
 linktitle: Add
 articleTitle: Add
 second_title: Aspose.Words para .NET
-description: Mejore sin esfuerzo su proyecto con el método Add de CustomPartCollection: agregue rápidamente elementos a su colección para lograr una integración y eficiencia perfectas.
+description: Mejore sin esfuerzo su proyecto con el método Add de CustomPartCollection agregue rápidamente elementos a su colección para lograr una integración y eficiencia perfectas.
 type: docs
 weight: 40
 url: /es/net/aspose.words.markup/custompartcollection/add/

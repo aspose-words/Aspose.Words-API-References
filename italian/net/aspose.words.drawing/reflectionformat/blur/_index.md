@@ -3,7 +3,7 @@ title: ReflectionFormat.Blur
 linktitle: Blur
 articleTitle: Blur
 second_title: Aspose.Words per .NET
-description: Regola la proprietà "Blur" di ReflectionFormat per controllare l'effetto di sfocatura dei riflessi nel tuo progetto. Migliora gli elementi visivi con precisione: il valore predefinito è 0,0.
+description: Regola la proprietà "Blur" di ReflectionFormat per controllare l'effetto di sfocatura dei riflessi nel tuo progetto. Migliora gli elementi visivi con precisione il valore predefinito è 0,0.
 type: docs
 weight: 10
 url: /it/net/aspose.words.drawing/reflectionformat/blur/

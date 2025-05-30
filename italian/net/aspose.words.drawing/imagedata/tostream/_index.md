@@ -3,7 +3,7 @@ title: ImageData.ToStream
 linktitle: ToStream
 articleTitle: ToStream
 second_title: Aspose.Words per .NET
-description: Scopri il metodo ImageData ToStream: converti in modo efficiente le immagini in flussi di byte per una gestione dei dati ottimale e prestazioni applicative migliorate.
+description: Scopri il metodo ImageData ToStream converti in modo efficiente le immagini in flussi di byte per una gestione dei dati ottimale e prestazioni applicative migliorate.
 type: docs
 weight: 240
 url: /it/net/aspose.words.drawing/imagedata/tostream/

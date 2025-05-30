@@ -3,7 +3,7 @@ title: StructuredDocumentTagRangeEnd
 linktitle: StructuredDocumentTagRangeEnd
 articleTitle: StructuredDocumentTagRangeEnd
 second_title: Aspose.Words pour .NET
-description: Découvrez le constructeur StructuredDocumentTagRangeEnd : initialisez efficacement les plages de balises de document pour une gestion de contenu améliorée et une intégration transparente.
+description: Découvrez le constructeur StructuredDocumentTagRangeEnd  initialisez efficacement les plages de balises de document pour une gestion de contenu améliorée et une intégration transparente.
 type: docs
 weight: 10
 url: /fr/net/aspose.words.markup/structureddocumenttagrangeend/structureddocumenttagrangeend/

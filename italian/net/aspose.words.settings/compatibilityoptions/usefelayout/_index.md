@@ -3,7 +3,7 @@ title: CompatibilityOptions.UseFELayout
 linktitle: UseFELayout
 articleTitle: UseFELayout
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà UseFELayout di CompatibilityOptions: assicurati un layout ottimale per gli alfabeti complessi e dell'Asia orientale per un'esperienza utente fluida.
+description: Scopri la proprietà UseFELayout di CompatibilityOptions assicurati un layout ottimale per gli alfabeti complessi e dell'Asia orientale per un'esperienza utente fluida.
 type: docs
 weight: 620
 url: /it/net/aspose.words.settings/compatibilityoptions/usefelayout/

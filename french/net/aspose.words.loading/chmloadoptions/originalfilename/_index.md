@@ -3,7 +3,7 @@ title: ChmLoadOptions.OriginalFileName
 linktitle: OriginalFileName
 articleTitle: OriginalFileName
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété ChmLoadOptions OriginalFileName : définissez facilement le nom du fichier CHM pour un accès simplifié. La valeur par défaut est null. Optimisez votre expérience !
+description: Découvrez la propriété ChmLoadOptions OriginalFileName  définissez facilement le nom du fichier CHM pour un accès simplifié. La valeur par défaut est null. Optimisez votre expérience !
 type: docs
 weight: 20
 url: /fr/net/aspose.words.loading/chmloadoptions/originalfilename/

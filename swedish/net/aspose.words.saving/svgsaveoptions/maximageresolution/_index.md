@@ -3,7 +3,7 @@ title: SvgSaveOptions.MaxImageResolution
 linktitle: MaxImageResolution
 articleTitle: MaxImageResolution
 second_title: Aspose.Words för .NET
-description: Kontrollera kvaliteten på dina exporterade rasterbilder med SvgSaveOptions MaxImageResolution. Ställ in pixeltätheten för optimala resultat. Standardvärde: 0.
+description: Kontrollera kvaliteten på dina exporterade rasterbilder med SvgSaveOptions MaxImageResolution. Ställ in pixeltätheten för optimala resultat. Standardvärde 0.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/svgsaveoptions/maximageresolution/

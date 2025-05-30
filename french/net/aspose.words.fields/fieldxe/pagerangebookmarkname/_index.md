@@ -3,7 +3,7 @@ title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété FieldXE PageRangeBookmarkName : gérez efficacement les noms de signets pour un suivi précis de la plage de pages dans vos documents.
+description: Découvrez la propriété FieldXE PageRangeBookmarkName  gérez efficacement les noms de signets pour un suivi précis de la plage de pages dans vos documents.
 type: docs
 weight: 60
 url: /fr/net/aspose.words.fields/fieldxe/pagerangebookmarkname/

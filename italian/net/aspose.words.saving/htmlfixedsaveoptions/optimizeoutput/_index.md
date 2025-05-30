@@ -3,7 +3,7 @@ title: HtmlFixedSaveOptions.OptimizeOutput
 linktitle: OptimizeOutput
 articleTitle: OptimizeOutput
 second_title: Aspose.Words per .NET
-description: Ottimizza l'output HTML con la proprietà HtmlFixedSaveOptions. Migliora le prestazioni rimuovendo i canvas ridondanti e unendo glifi simili. Valore predefinito: true.
+description: Ottimizza l'output HTML con la proprietà HtmlFixedSaveOptions. Migliora le prestazioni rimuovendo i canvas ridondanti e unendo glifi simili. Valore predefinito true.
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/htmlfixedsaveoptions/optimizeoutput/

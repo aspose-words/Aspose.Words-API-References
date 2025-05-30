@@ -3,7 +3,7 @@ title: Metered.GetConsumptionCredit
 linktitle: GetConsumptionCredit
 articleTitle: GetConsumptionCredit
 second_title: Aspose.Words para .NET
-description: Descubra ahorros con el método GetConsumptionCredit medido: recupere de manera eficiente sus créditos de consumo para una gestión de energía más inteligente.
+description: Descubra ahorros con el método GetConsumptionCredit medido recupere de manera eficiente sus créditos de consumo para una gestión de energía más inteligente.
 type: docs
 weight: 40
 url: /es/net/aspose.words/metered/getconsumptioncredit/

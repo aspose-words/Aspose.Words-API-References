@@ -3,7 +3,7 @@ title: DocumentBuilder.Writeln
 linktitle: Writeln
 articleTitle: Writeln
 second_title: Aspose.Words para .NET
-description: Mejore sus documentos sin esfuerzo con el método Writeln de DocumentBuilder: inserte texto y saltos de párrafo sin problemas para una mejor legibilidad.
+description: Mejore sus documentos sin esfuerzo con el método Writeln de DocumentBuilder inserte texto y saltos de párrafo sin problemas para una mejor legibilidad.
 type: docs
 weight: 700
 url: /es/net/aspose.words/documentbuilder/writeln/

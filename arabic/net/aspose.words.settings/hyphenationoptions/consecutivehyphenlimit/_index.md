@@ -3,7 +3,7 @@ title: HyphenationOptions.ConsecutiveHyphenLimit
 linktitle: ConsecutiveHyphenLimit
 articleTitle: ConsecutiveHyphenLimit
 second_title: Aspose.Words لـ .NET
-description: اكتشف خاصية ConsecutiveHyphenLimit في HyphenationOptions. تحكّم في استخدام الواصلات في نصك لتحسين سهولة القراءة والتنسيق. القيمة الافتراضية: 0.
+description: اكتشف خاصية ConsecutiveHyphenLimit في HyphenationOptions. تحكّم في استخدام الواصلات في نصك لتحسين سهولة القراءة والتنسيق. القيمة الافتراضية 0.
 type: docs
 weight: 30
 url: /ar/net/aspose.words.settings/hyphenationoptions/consecutivehyphenlimit/

@@ -3,7 +3,7 @@ title: ControlChar.ColumnBreakChar
 linktitle: ColumnBreakChar
 articleTitle: ColumnBreakChar
 second_title: Aspose.Words pour .NET
-description: Découvrez le champ ControlChar ColumnBreakChar : optimisez vos données avec le puissant caractère de fin de colonne, char14, pour une mise en forme transparente !
+description: Découvrez le champ ControlChar ColumnBreakChar  optimisez vos données avec le puissant caractère de fin de colonne, char14, pour une mise en forme transparente !
 type: docs
 weight: 40
 url: /fr/net/aspose.words/controlchar/columnbreakchar/

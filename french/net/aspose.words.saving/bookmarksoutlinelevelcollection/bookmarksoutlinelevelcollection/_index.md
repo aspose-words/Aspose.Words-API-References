@@ -3,7 +3,7 @@ title: BookmarksOutlineLevelCollection
 linktitle: BookmarksOutlineLevelCollection
 articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words pour .NET
-description: Découvrez le constructeur BookmarksOutlineLevelCollection : la solution idéale pour créer facilement des signets organisés. Améliorez votre code avec cette solution par défaut !
+description: Découvrez le constructeur BookmarksOutlineLevelCollection  la solution idéale pour créer facilement des signets organisés. Améliorez votre code avec cette solution par défaut !
 type: docs
 weight: 10
 url: /fr/net/aspose.words.saving/bookmarksoutlinelevelcollection/bookmarksoutlinelevelcollection/

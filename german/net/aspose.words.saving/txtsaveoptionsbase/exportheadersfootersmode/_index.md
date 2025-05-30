@@ -3,7 +3,7 @@ title: TxtSaveOptionsBase.ExportHeadersFootersMode
 linktitle: ExportHeadersFootersMode
 articleTitle: ExportHeadersFootersMode
 second_title: Aspose.Words für .NET
-description: Entdecken Sie, wie die Eigenschaft „TxtSaveOptionsBase ExportHeadersFootersMode“ den Export von Kopf- und Fußzeilen in Textformaten optimiert. Standard: „PrimaryOnly“.
+description: Entdecken Sie, wie die Eigenschaft „TxtSaveOptionsBase ExportHeadersFootersMode“ den Export von Kopf- und Fußzeilen in Textformaten optimiert. Standard „PrimaryOnly“.
 type: docs
 weight: 20
 url: /de/net/aspose.words.saving/txtsaveoptionsbase/exportheadersfootersmode/

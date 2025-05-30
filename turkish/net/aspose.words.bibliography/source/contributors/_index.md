@@ -3,7 +3,7 @@ title: Source.Contributors
 linktitle: Contributors
 articleTitle: Contributors
 second_title: .NET için Aspose.Words
-description: Kaynağınız için kapsamlı bir katkıda bulunanlar listesi keşfedin: yazarlar, editörler ve yazarlar. Araştırmanızı değerli içgörülerle geliştirin!
+description: Kaynağınız için kapsamlı bir katkıda bulunanlar listesi keşfedin yazarlar, editörler ve yazarlar. Araştırmanızı değerli içgörülerle geliştirin!
 type: docs
 weight: 120
 url: /tr/net/aspose.words.bibliography/source/contributors/

@@ -3,7 +3,7 @@ title: TextPath.Spacing
 linktitle: Spacing
 articleTitle: Spacing
 second_title: Aspose.Words para .NET
-description: Descubre el espaciado de TextPath. Controla el espaciado del texto fácilmente. Optimiza la legibilidad con ajustes precisos: ¡1 es igual a 100 para una alineación perfecta!
+description: Descubre el espaciado de TextPath. Controla el espaciado del texto fácilmente. Optimiza la legibilidad con ajustes precisos ¡1 es igual a 100 para una alineación perfecta!
 type: docs
 weight: 140
 url: /es/net/aspose.words.drawing/textpath/spacing/

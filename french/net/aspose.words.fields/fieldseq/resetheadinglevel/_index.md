@@ -3,7 +3,7 @@ title: FieldSeq.ResetHeadingLevel
 linktitle: ResetHeadingLevel
 articleTitle: ResetHeadingLevel
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété FieldSeq ResetHeadingLevel : gérez facilement les niveaux de titre en réinitialisant les numéros de séquence. Simplifiez la mise en forme de vos documents dès aujourd'hui !
+description: Découvrez la propriété FieldSeq ResetHeadingLevel  gérez facilement les niveaux de titre en réinitialisant les numéros de séquence. Simplifiez la mise en forme de vos documents dès aujourd'hui !
 type: docs
 weight: 40
 url: /fr/net/aspose.words.fields/fieldseq/resetheadinglevel/

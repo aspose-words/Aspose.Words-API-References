@@ -3,7 +3,7 @@ title: SmartTag.AcceptStart
 linktitle: AcceptStart
 articleTitle: AcceptStart
 second_title: Aspose.Words para .NET
-description: Descubra el método SmartTag AcceptStart: ¡dé la bienvenida sin problemas a los visitantes a su experiencia SmartTag y mejore la participación del usuario hoy mismo!
+description: Descubra el método SmartTag AcceptStart ¡dé la bienvenida sin problemas a los visitantes a su experiencia SmartTag y mejore la participación del usuario hoy mismo!
 type: docs
 weight: 80
 url: /es/net/aspose.words.markup/smarttag/acceptstart/

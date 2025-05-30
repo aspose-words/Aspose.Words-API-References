@@ -3,7 +3,7 @@ title: FieldShape.Text
 linktitle: Text
 articleTitle: Text
 second_title: Aspose.Words para .NET
-description: Administre el texto de FieldShape fácilmente: obtenga o establezca valores sin esfuerzo para una recuperación de datos perfecta y una funcionalidad mejorada en sus aplicaciones.
+description: Administre el texto de FieldShape fácilmente obtenga o establezca valores sin esfuerzo para una recuperación de datos perfecta y una funcionalidad mejorada en sus aplicaciones.
 type: docs
 weight: 20
 url: /es/net/aspose.words.fields/fieldshape/text/

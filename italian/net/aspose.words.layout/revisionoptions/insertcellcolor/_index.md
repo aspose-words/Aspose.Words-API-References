@@ -3,7 +3,7 @@ title: RevisionOptions.InsertCellColor
 linktitle: InsertCellColor
 articleTitle: InsertCellColor
 second_title: Aspose.Words per .NET
-description: Personalizza il tuo foglio di calcolo con la proprietà InsertCellColor in RevisionOptions. Scegli il colore che preferisci per le celle inserite: il colore predefinito è il blu!
+description: Personalizza il tuo foglio di calcolo con la proprietà InsertCellColor in RevisionOptions. Scegli il colore che preferisci per le celle inserite il colore predefinito è il blu!
 type: docs
 weight: 50
 url: /it/net/aspose.words.layout/revisionoptions/insertcellcolor/

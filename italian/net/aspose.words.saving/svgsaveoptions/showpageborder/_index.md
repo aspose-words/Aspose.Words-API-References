@@ -3,7 +3,7 @@ title: SvgSaveOptions.ShowPageBorder
 linktitle: ShowPageBorder
 articleTitle: ShowPageBorder
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà ShowPageBorder di SvgSaveOptions per personalizzare il contorno della tua pagina. Controlla i bordi senza sforzo: l'impostazione predefinita è "true" per un utilizzo semplice!
+description: Scopri la proprietà ShowPageBorder di SvgSaveOptions per personalizzare il contorno della tua pagina. Controlla i bordi senza sforzo l'impostazione predefinita è "true" per un utilizzo semplice!
 type: docs
 weight: 110
 url: /it/net/aspose.words.saving/svgsaveoptions/showpageborder/

@@ -3,7 +3,7 @@ title: WebExtensionReference.Id
 linktitle: Id
 articleTitle: Id
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà WebExtensionReference Id: il tuo identificatore univoco per le estensioni web nei provider di cataloghi. Migliora la visibilità della tua estensione oggi stesso!
+description: Scopri la proprietà WebExtensionReference Id il tuo identificatore univoco per le estensioni web nei provider di cataloghi. Migliora la visibilità della tua estensione oggi stesso!
 type: docs
 weight: 20
 url: /it/net/aspose.words.webextensions/webextensionreference/id/

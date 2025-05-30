@@ -3,7 +3,7 @@ title: HtmlLoadOptions.WebRequestTimeout
 linktitle: WebRequestTimeout
 articleTitle: WebRequestTimeout
 second_title: Aspose.Words för .NET
-description: Upptäck HtmlLoadOptions WebRequestTimeout-egenskap, som låter dig anpassa timeout-inställningar för optimal webbprestanda. Standardvärde: 100 sekunder.
+description: Upptäck HtmlLoadOptions WebRequestTimeout-egenskap, som låter dig anpassa timeout-inställningar för optimal webbprestanda. Standardvärde 100 sekunder.
 type: docs
 weight: 80
 url: /sv/net/aspose.words.loading/htmlloadoptions/webrequesttimeout/

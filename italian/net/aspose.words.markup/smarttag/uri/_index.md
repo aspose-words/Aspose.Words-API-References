@@ -3,7 +3,7 @@ title: SmartTag.Uri
 linktitle: Uri
 articleTitle: Uri
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà Uri dello SmartTag: definisci l'URI dello spazio dei nomi del tuo smart tag per ottenere funzionalità avanzate e un'integrazione perfetta nelle tue applicazioni.
+description: Scopri la proprietà Uri dello SmartTag definisci l'URI dello spazio dei nomi del tuo smart tag per ottenere funzionalità avanzate e un'integrazione perfetta nelle tue applicazioni.
 type: docs
 weight: 50
 url: /it/net/aspose.words.markup/smarttag/uri/

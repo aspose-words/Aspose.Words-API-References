@@ -3,7 +3,7 @@ title: FieldXE.PageRangeBookmarkName
 linktitle: PageRangeBookmarkName
 articleTitle: PageRangeBookmarkName
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad FieldXE PageRangeBookmarkName: administre de manera eficiente los nombres de marcadores para lograr un seguimiento preciso del rango de páginas en sus documentos.
+description: Descubra la propiedad FieldXE PageRangeBookmarkName administre de manera eficiente los nombres de marcadores para lograr un seguimiento preciso del rango de páginas en sus documentos.
 type: docs
 weight: 60
 url: /es/net/aspose.words.fields/fieldxe/pagerangebookmarkname/

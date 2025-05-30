@@ -3,7 +3,7 @@ title: FieldShape
 linktitle: FieldShape
 articleTitle: FieldShape
 second_title: Aspose.Words per .NET
-description: Scopri il costruttore FieldShape: la soluzione ideale per la creazione efficiente di forme. Ottieni design e funzionalità impeccabili oggi stesso!
+description: Scopri il costruttore FieldShape la soluzione ideale per la creazione efficiente di forme. Ottieni design e funzionalità impeccabili oggi stesso!
 type: docs
 weight: 10
 url: /it/net/aspose.words.fields/fieldshape/fieldshape/

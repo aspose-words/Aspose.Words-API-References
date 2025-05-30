@@ -3,7 +3,7 @@ title: TaskPane.WebExtension
 linktitle: WebExtension
 articleTitle: WebExtension
 second_title: Aspose.Words para .NET
-description: Descubra la propiedad WebExtension del Panel de Tareas: la clave para mejorar la funcionalidad de las extensiones web y la experiencia del usuario. ¡Descubra nuevas posibilidades hoy mismo!
+description: Descubra la propiedad WebExtension del Panel de Tareas la clave para mejorar la funcionalidad de las extensiones web y la experiencia del usuario. ¡Descubra nuevas posibilidades hoy mismo!
 type: docs
 weight: 60
 url: /es/net/aspose.words.webextensions/taskpane/webextension/

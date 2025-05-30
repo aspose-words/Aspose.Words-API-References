@@ -3,7 +3,7 @@ title: HyphenationOptions.HyphenateCaps
 linktitle: HyphenateCaps
 articleTitle: HyphenateCaps
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà HyphenateCaps in HyphenationOptions. Controlla facilmente la sillabazione per le parole in maiuscolo: l'impostazione predefinita è "true". Ottimizza il tuo testo oggi stesso!
+description: Scopri la proprietà HyphenateCaps in HyphenationOptions. Controlla facilmente la sillabazione per le parole in maiuscolo l'impostazione predefinita è "true". Ottimizza il tuo testo oggi stesso!
 type: docs
 weight: 40
 url: /it/net/aspose.words.settings/hyphenationoptions/hyphenatecaps/

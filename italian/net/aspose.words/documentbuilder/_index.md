@@ -3,7 +3,7 @@ title: DocumentBuilder Class
 linktitle: DocumentBuilder
 articleTitle: DocumentBuilder
 second_title: Aspose.Words per .NET
-description: Scopri la classe Aspose.Words.DocumentBuilder: la soluzione per inserire senza sforzo testo, immagini ed elementi di formattazione nei documenti.
+description: Scopri la classe Aspose.Words.DocumentBuilder la soluzione per inserire senza sforzo testo, immagini ed elementi di formattazione nei documenti.
 type: docs
 weight: 660
 url: /it/net/aspose.words/documentbuilder/

@@ -3,7 +3,7 @@ title: Comment.AddReply
 linktitle: AddReply
 articleTitle: AddReply
 second_title: Aspose.Words per .NET
-description: Arricchisci le tue discussioni con il metodo Comment AddReply: aggiungi facilmente risposte ai commenti e migliora il coinvolgimento sulla tua piattaforma!
+description: Arricchisci le tue discussioni con il metodo Comment AddReply aggiungi facilmente risposte ai commenti e migliora il coinvolgimento sulla tua piattaforma!
 type: docs
 weight: 160
 url: /it/net/aspose.words/comment/addreply/

@@ -3,7 +3,7 @@ title: Cell.Accept
 linktitle: Accept
 articleTitle: Accept
 second_title: Aspose.Words pour .NET
-description: Découvrez la méthode Cell Accept : améliorez l'engagement des visiteurs et simplifiez les interactions pour une expérience fluide. Libérez le potentiel de votre site dès aujourd'hui !
+description: Découvrez la méthode Cell Accept  améliorez l'engagement des visiteurs et simplifiez les interactions pour une expérience fluide. Libérez le potentiel de votre site dès aujourd'hui !
 type: docs
 weight: 130
 url: /fr/net/aspose.words.tables/cell/accept/

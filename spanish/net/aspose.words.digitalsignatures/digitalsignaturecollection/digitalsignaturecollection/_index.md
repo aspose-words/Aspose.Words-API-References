@@ -3,7 +3,7 @@ title: DigitalSignatureCollection
 linktitle: DigitalSignatureCollection
 articleTitle: DigitalSignatureCollection
 second_title: Aspose.Words para .NET
-description: Descubra el constructor DigitalSignatureCollection: su solución ideal para una gestión eficiente de firmas digitales. ¡Simplifique su flujo de trabajo hoy mismo!
+description: Descubra el constructor DigitalSignatureCollection su solución ideal para una gestión eficiente de firmas digitales. ¡Simplifique su flujo de trabajo hoy mismo!
 type: docs
 weight: 10
 url: /es/net/aspose.words.digitalsignatures/digitalsignaturecollection/digitalsignaturecollection/

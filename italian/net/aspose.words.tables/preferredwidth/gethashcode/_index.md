@@ -3,7 +3,7 @@ title: PreferredWidth.GetHashCode
 linktitle: GetHashCode
 articleTitle: GetHashCode
 second_title: Aspose.Words per .NET
-description: Scopri il metodo GetHashCode di PreferredWidth: una funzione hash essenziale per la gestione efficiente dei dati e la generazione di valori univoci nelle tue applicazioni.
+description: Scopri il metodo GetHashCode di PreferredWidth una funzione hash essenziale per la gestione efficiente dei dati e la generazione di valori univoci nelle tue applicazioni.
 type: docs
 weight: 70
 url: /it/net/aspose.words.tables/preferredwidth/gethashcode/

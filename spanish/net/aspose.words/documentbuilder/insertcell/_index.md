@@ -3,7 +3,7 @@ title: DocumentBuilder.InsertCell
 linktitle: InsertCell
 articleTitle: InsertCell
 second_title: Aspose.Words para .NET
-description: Mejore sin esfuerzo sus documentos con el método InsertCell de DocumentBuilder: agregue rápidamente celdas de tabla personalizables para mejorar la organización y la claridad.
+description: Mejore sin esfuerzo sus documentos con el método InsertCell de DocumentBuilder agregue rápidamente celdas de tabla personalizables para mejorar la organización y la claridad.
 type: docs
 weight: 270
 url: /es/net/aspose.words/documentbuilder/insertcell/

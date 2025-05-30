@@ -3,7 +3,7 @@ title: SectionCollection Class
 linktitle: SectionCollection
 articleTitle: SectionCollection
 second_title: Aspose.Words per .NET
-description: Scopri la classe Aspose.Words.SectionCollection: la soluzione ideale per gestire in modo efficiente le sezioni dei documenti, con funzionalità potenti e flessibilità.
+description: Scopri la classe Aspose.Words.SectionCollection la soluzione ideale per gestire in modo efficiente le sezioni dei documenti, con funzionalità potenti e flessibilità.
 type: docs
 weight: 6570
 url: /it/net/aspose.words/sectioncollection/

@@ -3,7 +3,7 @@ title: DocumentVisitor.VisitCommentStart
 linktitle: VisitCommentStart
 articleTitle: VisitCommentStart
 second_title: Aspose.Words per .NET
-description: Scopri il metodo VisitCommentStart di DocumentVisitor: la chiave per gestire in modo efficiente l'enumerazione del testo dei commenti nei tuoi progetti.
+description: Scopri il metodo VisitCommentStart di DocumentVisitor la chiave per gestire in modo efficiente l'enumerazione del testo dei commenti nei tuoi progetti.
 type: docs
 weight: 130
 url: /it/net/aspose.words/documentvisitor/visitcommentstart/

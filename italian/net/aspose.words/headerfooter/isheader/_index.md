@@ -3,7 +3,7 @@ title: HeaderFooter.IsHeader
 linktitle: IsHeader
 articleTitle: IsHeader
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà IsHeader di HeaderFooter: identifica facilmente se l'oggetto HeaderFooter è un'intestazione per una formattazione semplificata del documento.
+description: Scopri la proprietà IsHeader di HeaderFooter identifica facilmente se l'oggetto HeaderFooter è un'intestazione per una formattazione semplificata del documento.
 type: docs
 weight: 30
 url: /it/net/aspose.words/headerfooter/isheader/

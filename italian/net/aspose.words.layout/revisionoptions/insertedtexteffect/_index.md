@@ -3,7 +3,7 @@ title: RevisionOptions.InsertedTextEffect
 linktitle: InsertedTextEffect
 articleTitle: InsertedTextEffect
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà InsertedTextEffect di RevisionOptions per personalizzare i tuoi contenuti con effetti unici. Predefinito: Sottolineato. Aumenta l'impatto del tuo testo!
+description: Scopri la proprietà InsertedTextEffect di RevisionOptions per personalizzare i tuoi contenuti con effetti unici. Predefinito Sottolineato. Aumenta l'impatto del tuo testo!
 type: docs
 weight: 70
 url: /it/net/aspose.words.layout/revisionoptions/insertedtexteffect/

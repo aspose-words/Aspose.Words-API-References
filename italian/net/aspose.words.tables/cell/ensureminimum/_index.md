@@ -3,7 +3,7 @@ title: Cell.EnsureMinimum
 linktitle: EnsureMinimum
 articleTitle: EnsureMinimum
 second_title: Aspose.Words per .NET
-description: Ottimizza la struttura delle tue celle con il metodo EnsureMinimum: aggiungi senza sforzo un paragrafo se l'ultimo figlio non lo è. Migliora la chiarezza del tuo documento!
+description: Ottimizza la struttura delle tue celle con il metodo EnsureMinimum aggiungi senza sforzo un paragrafo se l'ultimo figlio non lo è. Migliora la chiarezza del tuo documento!
 type: docs
 weight: 160
 url: /it/net/aspose.words.tables/cell/ensureminimum/

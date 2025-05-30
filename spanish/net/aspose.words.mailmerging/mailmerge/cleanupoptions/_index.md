@@ -3,7 +3,7 @@ title: MailMerge.CleanupOptions
 linktitle: CleanupOptions
 articleTitle: CleanupOptions
 second_title: Aspose.Words para .NET
-description: Optimice la combinación de correspondencia con la propiedad CleanupOptions: administre fácilmente qué elementos eliminar para un proceso fluido y eficiente.
+description: Optimice la combinación de correspondencia con la propiedad CleanupOptions administre fácilmente qué elementos eliminar para un proceso fluido y eficiente.
 type: docs
 weight: 10
 url: /es/net/aspose.words.mailmerging/mailmerge/cleanupoptions/
