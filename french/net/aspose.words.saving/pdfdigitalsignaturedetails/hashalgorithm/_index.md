@@ -3,7 +3,7 @@ title: PdfDigitalSignatureDetails.HashAlgorithm
 linktitle: HashAlgorithm
 articleTitle: HashAlgorithm
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété PdfDigitalSignatureDetails HashAlgorithm : gérez et personnalisez efficacement vos algorithmes de hachage pour une sécurité numérique renforcée.
+description: Découvrez la propriété PdfDigitalSignatureDetails HashAlgorithm  gérez et personnalisez efficacement vos algorithmes de hachage pour une sécurité numérique renforcée.
 type: docs
 weight: 30
 url: /fr/net/aspose.words.saving/pdfdigitalsignaturedetails/hashalgorithm/

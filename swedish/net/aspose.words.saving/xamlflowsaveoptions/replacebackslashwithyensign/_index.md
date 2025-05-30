@@ -3,7 +3,7 @@ title: XamlFlowSaveOptions.ReplaceBackslashWithYenSign
 linktitle: ReplaceBackslashWithYenSign
 articleTitle: ReplaceBackslashWithYenSign
 second_title: Aspose.Words för .NET
-description: Upptäck hur XamlFlowSaveOptions egenskap ReplaceBackslashWithYenSign förbättrar din dataformatering genom att konvertera bakåtsnedstreck till yen-tecken. Standardvärde: falskt.
+description: Upptäck hur XamlFlowSaveOptions egenskap ReplaceBackslashWithYenSign förbättrar din dataformatering genom att konvertera bakåtsnedstreck till yen-tecken. Standardvärde falskt.
 type: docs
 weight: 50
 url: /sv/net/aspose.words.saving/xamlflowsaveoptions/replacebackslashwithyensign/

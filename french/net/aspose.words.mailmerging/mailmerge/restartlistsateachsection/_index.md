@@ -3,7 +3,7 @@ title: MailMerge.RestartListsAtEachSection
 linktitle: RestartListsAtEachSection
 articleTitle: RestartListsAtEachSection
 second_title: Aspose.Words pour .NET
-description: Découvrez la propriété MailMerge RestartListsAtEachSection : la liste de contrôle se réinitialise dans chaque section pour des publipostages fluides. Améliorez la précision de vos documents dès aujourd'hui !
+description: Découvrez la propriété MailMerge RestartListsAtEachSection  la liste de contrôle se réinitialise dans chaque section pour des publipostages fluides. Améliorez la précision de vos documents dès aujourd'hui !
 type: docs
 weight: 110
 url: /fr/net/aspose.words.mailmerging/mailmerge/restartlistsateachsection/
