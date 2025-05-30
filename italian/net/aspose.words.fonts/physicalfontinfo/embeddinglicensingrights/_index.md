@@ -3,7 +3,7 @@ title: PhysicalFontInfo.EmbeddingLicensingRights
 linktitle: EmbeddingLicensingRights
 articleTitle: EmbeddingLicensingRights
 second_title: Aspose.Words per .NET
-description: Scopri la proprietà PhysicalFontInfo EmbeddingLicensingRights: sblocca i diritti essenziali di incorporamento dei font per un'integrazione di design impeccabile.
+description: Scopri la proprietà PhysicalFontInfo EmbeddingLicensingRights sblocca i diritti essenziali di incorporamento dei font per un'integrazione di design impeccabile.
 type: docs
 weight: 10
 url: /it/net/aspose.words.fonts/physicalfontinfo/embeddinglicensingrights/
