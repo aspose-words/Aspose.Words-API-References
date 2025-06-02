@@ -3,7 +3,7 @@ title: MultiPageLayout.BorderWidth
 linktitle: BorderWidth
 articleTitle: BorderWidth
 second_title: Aspose.Words for .NET
-description: MultiPageLayout BorderWidth property. Gets or sets the width of the pages border. The default is 0.
+description: Sets the thickness of page borders in multi-page image exports to enhance structure and clarity.
 type: docs
 weight: 80
 url: /net/aspose.words.saving/multipagelayout/borderwidth/
