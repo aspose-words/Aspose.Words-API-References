@@ -5,7 +5,7 @@ articleTitle: TableCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.TableCollection class for easy, typed access to Table nodes, enhancing document processing efficiency and flexibility.
 type: docs
-weight: 7210
+weight: 7220
 url: /net/aspose.words.tables/tablecollection/
 ---
 ## TableCollection class

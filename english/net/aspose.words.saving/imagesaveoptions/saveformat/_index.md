@@ -5,7 +5,7 @@ articleTitle: SaveFormat
 second_title: Aspose.Words for .NET
 description: Discover the ImageSaveOptions SaveFormat property to effortlessly save documents in formats like TIFF, PNG, JPEG, and more. Enhance your workflow today!
 type: docs
-weight: 140
+weight: 150
 url: /net/aspose.words.saving/imagesaveoptions/saveformat/
 ---
 ## ImageSaveOptions.SaveFormat property

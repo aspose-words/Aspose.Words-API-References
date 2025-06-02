@@ -5,7 +5,7 @@ articleTitle: VerticalResolution
 second_title: Aspose.Words for .NET
 description: Discover the ImageSaveOptions VerticalResolution property to easily set and optimize image quality in DPI for stunning visuals. Enhance your projects today!
 type: docs
-weight: 200
+weight: 210
 url: /net/aspose.words.saving/imagesaveoptions/verticalresolution/
 ---
 ## ImageSaveOptions.VerticalResolution property

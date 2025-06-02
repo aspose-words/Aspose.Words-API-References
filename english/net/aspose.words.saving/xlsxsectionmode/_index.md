@@ -5,7 +5,7 @@ articleTitle: XlsxSectionMode
 second_title: Aspose.Words for .NET
 description: Discover how the Aspose.Words XlsxSectionMode enum optimizes document saving in XLSX format, enhancing your workflow and document management.
 type: docs
-weight: 6530
+weight: 6540
 url: /net/aspose.words.saving/xlsxsectionmode/
 ---
 ## XlsxSectionMode enumeration

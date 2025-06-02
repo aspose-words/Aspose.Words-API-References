@@ -5,7 +5,7 @@ articleTitle: UseGdiEmfRenderer
 second_title: Aspose.Words for .NET
 description: Optimize EMF saving with ImageSaveOptions. Control GDI or Aspose.Words renderer settings for enhanced image quality and performance.
 type: docs
-weight: 190
+weight: 200
 url: /net/aspose.words.saving/imagesaveoptions/usegdiemfrenderer/
 ---
 ## ImageSaveOptions.UseGdiEmfRenderer property

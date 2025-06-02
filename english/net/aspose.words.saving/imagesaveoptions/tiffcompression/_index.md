@@ -5,7 +5,7 @@ articleTitle: TiffCompression
 second_title: Aspose.Words for .NET
 description: Optimize your TIFF images with the ImageSaveOptions TiffCompression property, allowing you to choose the best compression method for quality results.
 type: docs
-weight: 180
+weight: 190
 url: /net/aspose.words.saving/imagesaveoptions/tiffcompression/
 ---
 ## ImageSaveOptions.TiffCompression property
