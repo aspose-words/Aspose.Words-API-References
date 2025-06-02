@@ -3,7 +3,7 @@ title: MultiPageLayout.BackColor
 linktitle: BackColor
 articleTitle: BackColor
 second_title: Aspose.Words for .NET
-description: MultiPageLayout BackColor property. Gets or sets the background color of the output. The default is Empty.
+description: Sets the background color of the output image when rendering multiple pages together.
 type: docs
 weight: 60
 url: /net/aspose.words.saving/multipagelayout/backcolor/

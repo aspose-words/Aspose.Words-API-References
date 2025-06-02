@@ -3,7 +3,7 @@ title: MultiPageLayout.Grid
 linktitle: Grid
 articleTitle: Grid
 second_title: Aspose.Words for .NET
-description: MultiPageLayout Grid method. Creates a layout in which pages are rendered lefttoright toptobottom in a grid with the specified number of columns.
+description: Arranges pages left to right, top to bottom in a grid layout for compact multi-page image output.
 type: docs
 weight: 30
 url: /net/aspose.words.saving/multipagelayout/grid/

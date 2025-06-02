@@ -3,7 +3,7 @@ title: MultiPageLayout.SinglePage
 linktitle: SinglePage
 articleTitle: SinglePage
 second_title: Aspose.Words for .NET
-description: MultiPageLayout SinglePage property. Creates a layout that renders only the first of specified pages.
+description: Outputs only the first page into the image, useful for previews, covers, or summaries.
 type: docs
 weight: 10
 url: /net/aspose.words.saving/multipagelayout/singlepage/

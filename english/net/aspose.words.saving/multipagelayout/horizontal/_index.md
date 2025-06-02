@@ -3,7 +3,7 @@ title: MultiPageLayout.Horizontal
 linktitle: Horizontal
 articleTitle: Horizontal
 second_title: Aspose.Words for .NET
-description: MultiPageLayout Horizontal method. Creates a layout in which all specified pages are rendered horizontally side by side left to right in a single output.
+description: Renders all pages side-by-side horizontally in a single output image for easier comparison.
 type: docs
 weight: 40
 url: /net/aspose.words.saving/multipagelayout/horizontal/

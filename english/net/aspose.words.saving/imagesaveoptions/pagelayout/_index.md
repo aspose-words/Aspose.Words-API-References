@@ -3,7 +3,7 @@ title: ImageSaveOptions.PageLayout
 linktitle: PageLayout
 articleTitle: PageLayout
 second_title: Aspose.Words for .NET
-description: ImageSaveOptions PageLayout property. Gets or sets the layout used when rendering multiple pages into a single output.
+description: Specifies how multiple document pages are arranged in a single image for accurate visual output.
 type: docs
 weight: 100
 url: /net/aspose.words.saving/imagesaveoptions/pagelayout/
