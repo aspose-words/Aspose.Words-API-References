@@ -5,7 +5,7 @@ articleTitle: ThemeFonts
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ThemeFonts class, a powerful tool for managing multilingual font schemes, enhancing your document's style and readability.
 type: docs
-weight: 7350
+weight: 7360
 url: /net/aspose.words.themes/themefonts/
 ---
 ## ThemeFonts class

@@ -5,7 +5,7 @@ articleTitle: TiffCompression
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TiffCompression enum for optimal TIFF file saving. Choose the best compression type for high-quality page images effortlessly.
 type: docs
-weight: 6430
+weight: 6440
 url: /net/aspose.words.saving/tiffcompression/
 ---
 ## TiffCompression enumeration

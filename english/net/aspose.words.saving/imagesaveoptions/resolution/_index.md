@@ -5,7 +5,7 @@ articleTitle: Resolution
 second_title: Aspose.Words for .NET
 description: Optimize your images with ImageSaveOptions! Control horizontal and vertical resolution in DPI for stunning quality and clarity. Enhance your visuals today!
 type: docs
-weight: 130
+weight: 140
 url: /net/aspose.words.saving/imagesaveoptions/resolution/
 ---
 ## ImageSaveOptions.Resolution property

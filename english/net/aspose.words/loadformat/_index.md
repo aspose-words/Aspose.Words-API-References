@@ -56,18 +56,19 @@ Shows how save a web page as a .docx file.
 ```csharp
 const string url = "https://products.aspose.com/words/";
 
-using (WebClient client = new WebClient())
+using (HttpClient client = new HttpClient())
 {
-    var bytes = client.DownloadData(url);
+    byte[] bytes = client.GetByteArrayAsync(url).GetAwaiter().GetResult();
+
     using (MemoryStream stream = new MemoryStream(bytes))
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);
+        // Verify document content.
+        Assert.True(doc.GetText().Contains("HYPERLINK \"https://products.aspose.com/words/net/\" \\o \"Aspose.Words\""));
 
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }

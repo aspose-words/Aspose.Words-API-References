@@ -5,7 +5,7 @@ articleTitle: NumeralFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.NumeralFormat enum for optimal number representation in fixed page formats. Enhance your document rendering today!
 type: docs
-weight: 6090
+weight: 6100
 url: /net/aspose.words.saving/numeralformat/
 ---
 ## NumeralFormat enumeration

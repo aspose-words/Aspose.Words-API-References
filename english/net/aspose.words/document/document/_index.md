@@ -299,9 +299,10 @@ Shows how to load a document from a URL.
 const string url = "https://filesamples.com/samples/document/docx/sample3.docx";
 
 // Download the document into a byte array, then load that array into a document using a memory stream.
-using (WebClient webClient = new WebClient())
+using (HttpClient httpClient = new HttpClient())
 {
-    byte[] dataBytes = webClient.DownloadData(url);
+    HttpResponseMessage response = httpClient.GetAsync(url).Result;
+    byte[] dataBytes = response.Content.ReadAsByteArrayAsync().Result;
 
     using (MemoryStream byteStream = new MemoryStream(dataBytes))
     {
@@ -309,8 +310,8 @@ using (WebClient webClient = new WebClient())
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
         Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
-                        "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
-                        "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",
+                      "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
+                      "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",
             doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
@@ -380,28 +381,6 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
 }
 ```
 
-Shows how save a web page as a .docx file.
-
-```csharp
-const string url = "https://products.aspose.com/words/";
-
-using (WebClient client = new WebClient())
-{
-    var bytes = client.DownloadData(url);
-    using (MemoryStream stream = new MemoryStream(bytes))
-    {
-        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
-        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
-
-        // Load the HTML document from stream and pass the LoadOptions object.
-        Document doc = new Document(stream, options);
-
-        // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
-    }
-}
-```
-
 Shows how to load an encrypted Microsoft Word document.
 
 ```csharp
@@ -420,6 +399,29 @@ doc = new Document(MyDir + "Encrypted.docx", options);
 using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 {
     doc = new Document(stream, options);
+}
+```
+
+Shows how save a web page as a .docx file.
+
+```csharp
+const string url = "https://products.aspose.com/words/";
+
+using (HttpClient client = new HttpClient())
+{
+    byte[] bytes = client.GetByteArrayAsync(url).GetAwaiter().GetResult();
+
+    using (MemoryStream stream = new MemoryStream(bytes))
+    {
+        // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
+        LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+        // Load the HTML document from stream and pass the LoadOptions object.
+        Document doc = new Document(stream, options);
+        // Verify document content.
+        Assert.True(doc.GetText().Contains("HYPERLINK \"https://products.aspose.com/words/net/\" \\o \"Aspose.Words\""));
+
+        doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
+    }
 }
 ```
 

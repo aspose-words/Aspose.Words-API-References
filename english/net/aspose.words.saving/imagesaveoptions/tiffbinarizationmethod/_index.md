@@ -5,7 +5,7 @@ articleTitle: TiffBinarizationMethod
 second_title: Aspose.Words for .NET
 description: Discover the TiffBinarizationMethod property for ImageSaveOptions. Easily convert images to 1 bpp format with Ccitt3 or Ccitt4 compression.
 type: docs
-weight: 170
+weight: 180
 url: /net/aspose.words.saving/imagesaveoptions/tiffbinarizationmethod/
 ---
 ## ImageSaveOptions.TiffBinarizationMethod property
