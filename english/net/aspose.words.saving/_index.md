@@ -30,6 +30,7 @@ The **Aspose.Words.Saving** namespace provides classes and enumerations that all
 | [ImageSavingArgs](./imagesavingargs/) | Provides data for the [`ImageSaving`](../aspose.words.saving/iimagesavingcallback/imagesaving/) event. |
 | [MarkdownSaveOptions](./markdownsaveoptions/) | Class to specify additional options when saving a document into the Markdown format. |
 | [MetafileRenderingOptions](./metafilerenderingoptions/) | Allows to specify additional metafile rendering options. |
+| [MultiPageLayout](./multipagelayout/) | Defines a layout for rendering multiple pages into a single output. |
 | [OdtSaveOptions](./odtsaveoptions/) | Can be used to specify additional options when saving a document into the Odt or Ott format. |
 | [OoxmlSaveOptions](./ooxmlsaveoptions/) | Can be used to specify additional options when saving a document into the Docx, Docm, Dotx, Dotm or FlatOpc format. |
 | [OutlineOptions](./outlineoptions/) | Allows to specify outline options. |

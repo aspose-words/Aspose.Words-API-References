@@ -5,7 +5,7 @@ articleTitle: Clone
 second_title: Aspose.Words for .NET
 description: Discover the ImageSaveOptions Clone method to effortlessly create a deep clone of your objects, enhancing your coding efficiency and flexibility.
 type: docs
-weight: 210
+weight: 220
 url: /net/aspose.words.saving/imagesaveoptions/clone/
 ---
 ## ImageSaveOptions.Clone method

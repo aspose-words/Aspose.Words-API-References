@@ -5,7 +5,7 @@ articleTitle: ThresholdForFloydSteinbergDithering
 second_title: Aspose.Words for .NET
 description: Optimize your images with the ImageSaveOptions Threshold for Floyd-Steinberg Dithering. Control binarization error for stunning results in image processing.
 type: docs
-weight: 160
+weight: 170
 url: /net/aspose.words.saving/imagesaveoptions/thresholdforfloydsteinbergdithering/
 ---
 ## ImageSaveOptions.ThresholdForFloydSteinbergDithering property

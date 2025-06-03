@@ -48,6 +48,7 @@ public class ImageSaveOptions : FixedPageSaveOptions
 | [MetafileRenderingOptions](../../aspose.words.saving/imagesaveoptions/metafilerenderingoptions/) { get; } | Allows to specify how metafiles are treated in the rendered output. |
 | [NumeralFormat](../../aspose.words.saving/fixedpagesaveoptions/numeralformat/) { get; set; } | Gets or sets [`NumeralFormat`](../numeralformat/) used for rendering of numerals. European numerals are used by default. |
 | virtual [OptimizeOutput](../../aspose.words.saving/fixedpagesaveoptions/optimizeoutput/) { get; set; } | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to `true`. Default is `false`. |
+| [PageLayout](../../aspose.words.saving/imagesaveoptions/pagelayout/) { get; set; } | Gets or sets the layout used when rendering multiple pages into a single output. |
 | [PageSavingCallback](../../aspose.words.saving/fixedpagesaveoptions/pagesavingcallback/) { get; set; } | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [PageSet](../../aspose.words.saving/imagesaveoptions/pageset/) { get; set; } | Gets or sets the pages to render. Default is all the pages in the document. |
 | [PaperColor](../../aspose.words.saving/imagesaveoptions/papercolor/) { get; set; } | Gets or sets the background (paper) color for the generated images. |

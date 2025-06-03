@@ -5,7 +5,7 @@ articleTitle: TaskPaneCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensions.TaskPaneCollection class, your solution for managing persistent task pane objects efficiently. Enhance your web applications today!
 type: docs
-weight: 7570
+weight: 7580
 url: /net/aspose.words.webextensions/taskpanecollection/
 ---
 ## TaskPaneCollection class
