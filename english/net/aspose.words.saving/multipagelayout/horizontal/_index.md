@@ -5,7 +5,7 @@ articleTitle: Horizontal
 second_title: Aspose.Words for .NET
 description: Renders all pages side-by-side horizontally in a single output image for easier comparison.
 type: docs
-weight: 40
+weight: 20
 url: /net/aspose.words.saving/multipagelayout/horizontal/
 ---
 ## MultiPageLayout.Horizontal method

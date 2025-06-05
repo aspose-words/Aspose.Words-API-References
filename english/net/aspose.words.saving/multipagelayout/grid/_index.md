@@ -5,7 +5,7 @@ articleTitle: Grid
 second_title: Aspose.Words for .NET
 description: Arranges pages left to right, top to bottom in a grid layout for compact multi-page image output.
 type: docs
-weight: 30
+weight: 10
 url: /net/aspose.words.saving/multipagelayout/grid/
 ---
 ## MultiPageLayout.Grid method
