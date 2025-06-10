@@ -111,69 +111,6 @@ expect(paragraphs.at(3).paragraphFormat.style.name).toEqual("Heading 1");
 doc.save(base.artifactsDir + "DocumentBuilder.insertHtml.docx");
 ```
 
-Shows how to execute a mail merge with a custom callback that handles merge data in the form of HTML documents.
-
-```js
-test('MergeHtml', () => {
-  let doc = new aw.Document();
-  let builder = new aw.DocumentBuilder(doc);
-
-  builder.insertField(@"MERGEFIELD  html_Title  \b Content");
-  builder.insertField(@"MERGEFIELD  html_Body  \b Content");
-
-  object[] mergeData =
-  {
-    "<html>" +
-      "<h1>" +
-        "<span style=\"color: #0000ff; font-family: Arial;\">Hello World!</span>" +
-      "</h1>" +
-    "</html>", 
-
-    "<html>" +
-      "<blockquote>" +
-        "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>" +
-      "</blockquote>" +
-    "</html>"
-  };
-
-  doc.mailMerge.fieldMergingCallback = new HandleMergeFieldInsertHtml();
-  doc.mailMerge.execute(new[] { "html_Title", "html_Body" }, mergeData);
-
-  doc.save(base.artifactsDir + "MailMergeEvent.MergeHtml.docx");
-});
-
-
-  /// <summary>
-  /// If the mail merge encounters a MERGEFIELD whose name starts with the "html_" prefix,
-  /// this callback parses its merge data as HTML content and adds the result to the document location of the MERGEFIELD.
-  /// </summary>
-private class HandleMergeFieldInsertHtml : IFieldMergingCallback
-{
-    /// <summary>
-    /// Called when a mail merge merges data into a MERGEFIELD.
-    /// </summary>
-  void aw.MailMerging.IFieldMergingCallback.fieldMerging(FieldMergingArgs args)
-  {
-    if (args.documentFieldName.StartsWith("html_") && args.field.getFieldCode().includes("\\b"))
-    {
-        // Add parsed HTML data to the document's body.
-      let builder = new aw.DocumentBuilder(args.document);
-      builder.moveToMergeField(args.documentFieldName);
-      builder.insertHtml((string)args.fieldValue);
-
-        // Since we have already inserted the merged content manually,
-        // we will not need to respond to this event by returning content via the "Text" property. 
-      args.text = '';
-    }
-  }
-
-  void aw.MailMerging.IFieldMergingCallback.imageFieldMerging(ImageFieldMergingArgs args)
-  {
-      // Do nothing.
-  }
-}
-```
-
 Shows how to apply a document builder's formatting while inserting HTML content.
 
 ```js
@@ -200,29 +137,6 @@ expect(paragraphs.at(1).paragraphFormat.alignment).toEqual(
   useBuilderFormatting ? aw.ParagraphAlignment.Distributed : aw.ParagraphAlignment.Left);
 
 doc.save(base.artifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
-```
-
-Shows how to use options while inserting html.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.insertField(" MERGEFIELD Name ");
-builder.insertParagraph();
-builder.insertField(" MERGEFIELD EMAIL ");
-builder.insertParagraph();
-
-// By default "DocumentBuilder.insertHtml" inserts a HTML fragment that ends with a block-level HTML element,
-// it normally closes that block-level element and inserts a paragraph break.
-// As a result, a new empty paragraph appears after inserted document.
-// If we specify "HtmlInsertOptions.RemoveLastEmptyParagraph", those extra empty paragraphs will be removed.
-builder.moveToMergeField("NAME");
-builder.insertHtml("<p>John Smith</p>", aw.HtmlInsertOptions.UseBuilderFormatting | aw.HtmlInsertOptions.RemoveLastEmptyParagraph);
-builder.moveToMergeField("EMAIL");
-builder.insertHtml("<p>jsmith@example.com</p>", aw.HtmlInsertOptions.UseBuilderFormatting);
-
-doc.save(base.artifactsDir + "MailMerge.removeLastEmptyParagraph.docx");
 ```
 
 ## See Also

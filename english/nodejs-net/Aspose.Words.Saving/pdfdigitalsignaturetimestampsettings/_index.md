@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureTimestampSettings class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PdfDigitalSignatureTimestampSettings class. Contains settings of the digital signature timestamp"
 type: docs
-weight: 630
+weight: 640
 url: /nodejs-net/aspose.words.saving/pdfdigitalsignaturetimestampsettings/
 ---
 

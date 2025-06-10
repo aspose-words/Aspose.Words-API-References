@@ -5,7 +5,7 @@ articleTitle: scale property
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.scale property. Gets or sets the zoom factor for the generated images."
 type: docs
-weight: 130
+weight: 140
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/scale/
 ---
 

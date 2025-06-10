@@ -5,7 +5,7 @@ articleTitle: OutlineOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OutlineOptions class. Allows to specify outline options"
 type: docs
-weight: 530
+weight: 540
 url: /nodejs-net/aspose.words.saving/outlineoptions/
 ---
 

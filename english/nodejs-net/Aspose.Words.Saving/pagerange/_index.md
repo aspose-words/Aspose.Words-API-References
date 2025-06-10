@@ -5,7 +5,7 @@ articleTitle: PageRange class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PageRange class. Represents a continuous range of pages"
 type: docs
-weight: 540
+weight: 550
 url: /nodejs-net/aspose.words.saving/pagerange/
 ---
 

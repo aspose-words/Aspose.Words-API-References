@@ -103,7 +103,6 @@ The main classes in this module are:
 | [JSSizeF](./jssizef/) | Stores an ordered pair of floating-point numbers, which specify a Height and Width. |
 | [License](./license/) | Provides methods to license the component. To learn more, visit the [Licensing and Subscription](https://docs.aspose.com/words/nodejs-net/licensing/) documentation article. |
 | [List](./list/) | Represents formatting of a list. To learn more, visit the [Working with Lists](https://docs.aspose.com/words/nodejs-net/working-with-lists/) documentation article. |
-| [Log](./log/) |  |
 | [Node](./node/) | Base class for all nodes of a Word document. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |
 | [NodeChangingArgs](./nodechangingargs/) | Provides data for methods of the [INodeChangingCallback](./inodechangingcallback/) interface. |
 | [NodeCollection](./nodecollection/) | Represents a collection of nodes of a specific type. To learn more, visit the [Aspose.Words Document Object Model (DOM)](https://docs.aspose.com/words/nodejs-net/aspose-words-document-object-model/) documentation article. |

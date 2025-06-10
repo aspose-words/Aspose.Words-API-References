@@ -18,23 +18,6 @@ Returns a collection of mail merge field names used by the field.
 getFieldNames()
 ```
 
-### Examples
-
-Shows how to get mail merge field names used by a field.
-
-```js
-let doc = new aw.Document(base.myDir + "Field sample - ADDRESSBLOCK.docx");
-
-string[] addressFieldsExpect =
-{
-  "Company", "First Name", "Middle Name", "Last Name", "Suffix", "Address 1", "City", "State",
-  "Country or Region", "Postal Code"
-};
-
-let addressBlockField = (FieldAddressBlock) doc.range.fields.at(0);
-string[] addressBlockFieldNames = addressBlockField.getFieldNames();
-```
-
 ### See Also
 
 * module [Aspose.Words.Fields](../../)

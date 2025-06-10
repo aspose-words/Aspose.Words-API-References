@@ -5,7 +5,7 @@ articleTitle: WatermarkType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.WatermarkType enumeration. Specifies the watermark type."
 type: docs
-weight: 1520
+weight: 1510
 url: /nodejs-net/aspose.words/watermarktype/
 ---
 

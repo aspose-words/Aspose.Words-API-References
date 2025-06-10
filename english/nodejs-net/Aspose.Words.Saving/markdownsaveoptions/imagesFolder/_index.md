@@ -42,28 +42,6 @@ If the folder specified by [MarkdownSaveOptions.imagesFolder](./) doesn't exist,
 
 
 
-### Examples
-
-Shows how to specifies the name of the folder used to construct image URIs.
-
-```js
-let builder = new aw.DocumentBuilder();
-
-builder.writeln("Some image below:");            
-builder.insertImage(base.imageDir + "Logo.jpg");
-
-string imagesFolder = Path.Combine(base.artifactsDir, "ImagesDir");
-let saveOptions = new aw.Saving.MarkdownSaveOptions();
-// Use the "ImagesFolder" property to assign a folder in the local file system into which
-// Aspose.words will save all the document's linked images.
-saveOptions.imagesFolder = imagesFolder;
-// Use the "ImagesFolderAlias" property to use this folder
-// when constructing image URIs instead of the images folder's name.
-saveOptions.imagesFolderAlias = "http://example.com/images";
-
-builder.document.save(base.artifactsDir + "MarkdownSaveOptions.imagesFolder.md", saveOptions);
-```
-
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

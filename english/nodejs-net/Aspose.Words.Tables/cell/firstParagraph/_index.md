@@ -20,30 +20,6 @@ get firstParagraph(): Aspose.Words.Paragraph
 
 ### Examples
 
-Shows how to create a nested table using a document builder.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Build the outer table.
-let cell = builder.insertCell();
-builder.writeln("Outer Table Cell 1");
-builder.insertCell();
-builder.writeln("Outer Table Cell 2");
-builder.endTable();
-
-// Move to the first cell of the outer table, the build another table inside the cell.
-builder.moveTo(cell.firstParagraph);
-builder.insertCell();
-builder.writeln("Inner Table Cell 1");
-builder.insertCell();
-builder.writeln("Inner Table Cell 2");
-builder.endTable();
-
-doc.save(base.artifactsDir + "DocumentBuilder.InsertNestedTable.docx");
-```
-
 Shows how to build a nested table without using a document builder.
 
 ```js
@@ -93,6 +69,30 @@ function createTable(doc, rowCount, cellCount, cellText)
 
   return table;
 }
+```
+
+Shows how to create a nested table using a document builder.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+// Build the outer table.
+let cell = builder.insertCell();
+builder.writeln("Outer Table Cell 1");
+builder.insertCell();
+builder.writeln("Outer Table Cell 2");
+builder.endTable();
+
+// Move to the first cell of the outer table, the build another table inside the cell.
+builder.moveTo(cell.firstParagraph);
+builder.insertCell();
+builder.writeln("Inner Table Cell 1");
+builder.insertCell();
+builder.writeln("Inner Table Cell 2");
+builder.endTable();
+
+doc.save(base.artifactsDir + "DocumentBuilder.InsertNestedTable.docx");
 ```
 
 ### See Also

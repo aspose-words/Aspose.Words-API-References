@@ -5,7 +5,7 @@ articleTitle: NodeChangingArgs class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NodeChangingArgs class. Provides data for methods of the [INodeChangingCallback](../inodechangingcallback/) interface."
 type: docs
-weight: 840
+weight: 830
 url: /nodejs-net/aspose.words/nodechangingargs/
 ---
 

@@ -28,24 +28,6 @@ directly into the **img** elements and separate files are not created.
 
 
 
-### Examples
-
-Shows how to save a .md document with images embedded inside it.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-
-let saveOptions = new aw.Saving.MarkdownSaveOptions { ExportImagesAsBase64 = exportImagesAsBase64 };
-
-doc.save(base.artifactsDir + "MarkdownSaveOptions.exportImagesAsBase64.md", saveOptions);
-
-let outDocContents = fs.readFileSync(base.artifactsDir + "MarkdownSaveOptions.exportImagesAsBase64.md").toString();
-
-Assert.true(exportImagesAsBase64
-  ? outDocContents.contains("data:image/jpeg;base64")
-  : outDocContents.contains("MarkdownSaveOptions.exportImagesAsBase64.001.jpeg"));
-```
-
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

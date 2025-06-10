@@ -5,7 +5,7 @@ articleTitle: OdtSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.OdtSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Odt](../../aspose.words/saveformat/#Odt) or [SaveFormat.Ott](../../aspose.words/saveformat/#Ott) format"
 type: docs
-weight: 500
+weight: 510
 url: /nodejs-net/aspose.words.saving/odtsaveoptions/
 ---
 
