@@ -5,7 +5,7 @@ articleTitle: Margins enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Margins enumeration. Specifies preset margins."
 type: docs
-weight: 800
+weight: 790
 url: /nodejs-net/aspose.words/margins/
 ---
 

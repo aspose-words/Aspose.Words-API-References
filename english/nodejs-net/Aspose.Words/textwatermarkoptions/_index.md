@@ -5,7 +5,7 @@ articleTitle: TextWatermarkOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.TextWatermarkOptions class. Contains options that can be specified when adding a watermark with text"
 type: docs
-weight: 1400
+weight: 1390
 url: /nodejs-net/aspose.words/textwatermarkoptions/
 ---
 

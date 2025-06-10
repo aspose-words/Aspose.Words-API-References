@@ -5,7 +5,7 @@ articleTitle: PsSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.PsSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Ps](../../aspose.words/saveformat/#Ps) format"
 type: docs
-weight: 740
+weight: 750
 url: /nodejs-net/aspose.words.saving/pssaveoptions/
 ---
 

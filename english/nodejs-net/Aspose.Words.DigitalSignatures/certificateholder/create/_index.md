@@ -157,42 +157,6 @@ using (Stream streamIn = new FileStream(base.myDir + "Document.docx", FileMode.o
 }
 ```
 
-Shows how to create CertificateHolder objects.
-
-```js
-// Below are four ways of creating CertificateHolder objects.
-// 1 -  Load a PKCS #12 file into a byte array and apply its password:
-byte[] certBytes = File.ReadAllBytes(base.myDir + "morzal.pfx");
-aw.DigitalSignatures.CertificateHolder.create(certBytes, "aw");
-
-// 2 -  Load a PKCS #12 file into a byte array, and apply a secure password:
-SecureString password = new NetworkCredential("", "aw").SecurePassword;
-aw.DigitalSignatures.CertificateHolder.create(certBytes, password);
-
-// If the certificate has private keys corresponding to aliases,
-// we can use the aliases to fetch their respective keys. First, we will check for valid aliases.
-using (FileStream certStream = new FileStream(base.myDir + "morzal.pfx", FileMode.open))
-{
-  Pkcs12Store pkcs12Store = new Pkcs12StoreBuilder().Build();
-  pkcs12Store.load(certStream, "aw".ToCharArray());
-  for (let currentAlias of pkcs12Store.aliases)
-  {
-    if ((currentAlias != null) &&
-      (pkcs12Store.IsKeyEntry(currentAlias) &&
-      pkcs12Store.getKey(currentAlias).Key.IsPrivate))
-    {
-      console.log(`Valid alias found: ${currentAlias}`);
-    }
-  }
-}
-
-// 3 -  Use a valid alias:
-aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw", "c20be521-11ea-4976-81ed-865fbbfc9f24");
-
-// 4 -  Pass "null" as the alias in order to use the first available alias that returns a private key:
-aw.DigitalSignatures.CertificateHolder.create(base.myDir + "morzal.pfx", "aw", null);
-```
-
 ## See Also
 
 * module [Aspose.Words.DigitalSignatures](../../)

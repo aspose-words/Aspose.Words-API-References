@@ -5,7 +5,7 @@ articleTitle: pixelFormat property
 second_title: Aspose.Words for Node.js
 description: "ImageSaveOptions.pixelFormat property. Gets or sets the pixel format for the generated images."
 type: docs
-weight: 110
+weight: 120
 url: /nodejs-net/aspose.words.saving/imagesaveoptions/pixelFormat/
 ---
 

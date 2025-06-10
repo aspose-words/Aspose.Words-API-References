@@ -5,7 +5,7 @@ articleTitle: NumSpacing enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.NumSpacing enumeration. Specifies possible values in which numeral spacing can be displayed."
 type: docs
-weight: 890
+weight: 880
 url: /nodejs-net/aspose.words/numspacing/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: Run class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Run class. Represents a run of characters with the same font formatting"
 type: docs
-weight: 1120
+weight: 1110
 url: /nodejs-net/aspose.words/run/
 ---
 
@@ -107,21 +107,6 @@ All text of the document is stored in runs of text.
 
 ### Examples
 
-Shows how to format a run of text using its font property.
-
-```js
-let doc = new aw.Document();
-let run = new aw.Run(doc, "Hello world!");
-
-let font = run.font;
-font.name = "Courier New";
-font.size = 36;
-font.highlightColor = "#FFFF00";
-
-doc.firstSection.body.firstParagraph.appendChild(run);
-doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
-```
-
 Shows how to add, update and delete child nodes in a CompositeNode's collection of children.
 
 ```js
@@ -170,6 +155,21 @@ paragraph.getChildNodes(aw.NodeType.Run, true).remove(paragraphText);
 
 expect(paragraph.getText().trim()).toEqual("Run 1. Updated run 2. Run 3.");
 expect(paragraph.getChildNodes(aw.NodeType.Any, true).count).toEqual(3);
+```
+
+Shows how to format a run of text using its font property.
+
+```js
+let doc = new aw.Document();
+let run = new aw.Run(doc, "Hello world!");
+
+let font = run.font;
+font.name = "Courier New";
+font.size = 36;
+font.highlightColor = "#FFFF00";
+
+doc.firstSection.body.firstParagraph.appendChild(run);
+doc.save(base.artifactsDir + "Font.CreateFormattedRun.docx");
 ```
 
 Shows how to construct an Aspose.words document by hand.

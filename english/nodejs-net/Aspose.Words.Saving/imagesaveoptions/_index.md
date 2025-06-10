@@ -46,6 +46,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/no
 | [metafileRenderingOptions](./metafileRenderingOptions/) | Allows to specify how metafiles are treated in the rendered output. |
 | [numeralFormat](../fixedpagesaveoptions/numeralFormat/) | Gets or sets [NumeralFormat](../numeralformat/) used for rendering of numerals. European numerals are used by default.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [optimizeOutput](../fixedpagesaveoptions/optimizeOutput/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to ``true``.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
+| [pageLayout](./pageLayout/) | Gets or sets the layout used when rendering multiple pages into a single output. |
 | [pageSavingCallback](../fixedpagesaveoptions/pageSavingCallback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [pageSet](./pageSet/) | Gets or sets the pages to render. Default is all the pages in the document. |
 | [paperColor](./paperColor/) | Gets or sets the background (paper) color for the generated images. The default value is white. |

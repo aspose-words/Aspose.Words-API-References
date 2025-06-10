@@ -44,21 +44,6 @@ Allows to specify additional options when loading [LoadFormat.Markdown](../../as
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [useSystemLcid](../loadoptions/useSystemLcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
-### Examples
-
-Shows how to preserve empty line while load a document.
-
-```js
-string mdText = `${Environment.NewLine}Line1${Environment.NewLine}${Environment.NewLine}Line2${Environment.NewLine}${Environment.NewLine}`;
-using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(mdText)))
-{
-  let loadOptions = new aw.Loading.MarkdownLoadOptions() { PreserveEmptyLines = true };
-  let doc = new aw.Document(stream, loadOptions);
-
-  expect(doc.getText()).toEqual("\rLine1\r\rLine2\r\f");
-}
-```
-
 ### See Also
 
 * module [Aspose.Words.Loading](../)
