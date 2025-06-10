@@ -118,15 +118,15 @@ you navigate to a different place in the document to reflect formatting properti
 |[ insert_html(html, use_builder_formatting)](./insert_html/#str_bool) | Inserts an HTML string into the document. |
 |[ insert_html(html, options)](./insert_html/#str_htmlinsertoptions) | Inserts an HTML string into the document. Allows to specify additional options. |
 |[ insert_hyperlink(display_text, url_or_bookmark, is_bookmark)](./insert_hyperlink/#str_str_bool) | Inserts a hyperlink into the document. |
-|[ insert_image(file_name)](./insert_image/#str) | Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale. |
-|[ insert_image(stream)](./insert_image/#bytesio) | Inserts an image from a stream into the document. The image is inserted inline and at 100% scale. |
-|[ insert_image(image_bytes)](./insert_image/#bytes) | Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale. |
-|[ insert_image(file_name, width, height)](./insert_image/#str_float_float) | Inserts an inline image from a file or URL into the document and scales it to the specified size. |
-|[ insert_image(stream, width, height)](./insert_image/#bytesio_float_float) | Inserts an inline image from a stream into the document and scales it to the specified size. |
-|[ insert_image(image_bytes, width, height)](./insert_image/#bytes_float_float) | Inserts an inline image from a byte array into the document and scales it to the specified size. |
-|[ insert_image(file_name, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#str_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a file or URL at the specified position and size. |
-|[ insert_image(stream, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytesio_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a stream at the specified position and size. |
-|[ insert_image(image_bytes, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytes_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) | Inserts an image from a byte array at the specified position and size. |
+|[ insert_image(file_name)](./insert_image/#str) |  |
+|[ insert_image(stream)](./insert_image/#bytesio) |  |
+|[ insert_image(image_bytes)](./insert_image/#bytes) |  |
+|[ insert_image(file_name, width, height)](./insert_image/#str_float_float) |  |
+|[ insert_image(stream, width, height)](./insert_image/#bytesio_float_float) |  |
+|[ insert_image(image_bytes, width, height)](./insert_image/#bytes_float_float) |  |
+|[ insert_image(file_name, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#str_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) |  |
+|[ insert_image(stream, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytesio_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) |  |
+|[ insert_image(image_bytes, horz_pos, left, vert_pos, top, width, height, wrap_type)](./insert_image/#bytes_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype) |  |
 |[ insert_node(node)](./insert_node/#node) | Inserts a node before the cursor. |
 |[ insert_ole_object(stream, prog_id, as_icon, presentation)](./insert_ole_object/#bytesio_str_bool_bytesio) | Inserts an embedded OLE object from a stream into the document. |
 |[ insert_ole_object(file_name, is_linked, as_icon, presentation)](./insert_ole_object/#str_bool_bool_bytesio) | Inserts an embedded or linked OLE object from a file into the document. Detects OLE object type using file extension. |

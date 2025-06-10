@@ -5,7 +5,7 @@ articleTitle: SaveOptions class
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.SaveOptions class. This is an abstract base class for classes that allow the user to specify additional options when saving a document into a particular format"
 type: docs
-weight: 790
+weight: 800
 url: /python-net/aspose.words.saving/saveoptions/
 ---
 

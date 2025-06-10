@@ -5,7 +5,7 @@ articleTitle: PdfAttachmentsEmbeddingMode enumeration
 second_title: Aspose.Words for Python
 description: "aspose.words.saving.PdfAttachmentsEmbeddingMode enumeration. Specifies how attachments are embedded to PDF document."
 type: docs
-weight: 600
+weight: 610
 url: /python-net/aspose.words.saving/pdfattachmentsembeddingmode/
 ---
 

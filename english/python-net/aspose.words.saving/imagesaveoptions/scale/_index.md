@@ -5,7 +5,7 @@ articleTitle: scale property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.scale property. Gets or sets the zoom factor for the generated images."
 type: docs
-weight: 130
+weight: 140
 url: /python-net/aspose.words.saving/imagesaveoptions/scale/
 ---
 

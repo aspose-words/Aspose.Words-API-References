@@ -11,9 +11,6 @@ url: /python-net/aspose.words.drawing/imagedata/set_image/
 
 ## set_image(stream) {#bytesio}
 
-Sets the image that the shape displays.
-
-
 ```python
 def set_image(self, stream: io.BytesIO):
     ...
@@ -21,12 +18,9 @@ def set_image(self, stream: io.BytesIO):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | io.BytesIO | The stream that contains the image. |
+| stream | io.BytesIO |  |
 
 ## set_image(file_name) {#str}
-
-Sets the image that the shape displays.
-
 
 ```python
 def set_image(self, file_name: str):
@@ -35,7 +29,7 @@ def set_image(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str | The image file. Can be a file name or a URL. |
+| file_name | str |  |
 
 ## Examples
 
