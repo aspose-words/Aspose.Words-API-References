@@ -47,31 +47,6 @@ Allows to specify color of document revisions.
 | NoHighlight | No color is used to highlight revision changes. |
 | ByAuthor | Revisions of each author receive their own color for highlighting from a predefined set of hi-contrast colors. |
 
-### Examples
-
-Shows how to alter the appearance of revisions in a rendered output document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-// Insert a revision, then change the color of all revisions to green.
-builder.writeln("This is not a revision.");
-doc.startTrackRevisions("John Doe", Date.now());
-expect(doc.layoutOptions.revisionOptions.insertedTextColor).toEqual(aw.Layout.RevisionColor.ByAuthor);
-expect(doc.layoutOptions.revisionOptions.showRevisionBars).toEqual(true);
-builder.writeln("This is a revision.");
-doc.stopTrackRevisions();
-builder.writeln("This is not a revision.");
-
-// Remove the bar that appears to the left of every revised line.
-doc.layoutOptions.revisionOptions.insertedTextColor = aw.Layout.RevisionColor.BrightGreen;
-doc.layoutOptions.revisionOptions.showRevisionBars = false;
-doc.layoutOptions.revisionOptions.revisionBarsPosition = aw.Drawing.HorizontalAlignment.Right;
-
-doc.save(base.artifactsDir + "Revision.LayoutOptionsRevisions.pdf");
-```
-
 ### See Also
 
 * module [Aspose.Words.Layout](../)

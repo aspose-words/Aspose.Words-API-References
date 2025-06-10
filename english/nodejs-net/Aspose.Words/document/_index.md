@@ -264,51 +264,6 @@ In Microsoft Word, a valid document needs to have at least one section.
 |[ updateWordCount()](./updateWordCount/#default) | Updates word count properties of the document. |
 |[ updateWordCount(updateLinesCount)](./updateWordCount/#boolean) | Updates word count properties of the document, optionally updates [BuiltInDocumentProperties.lines](../../aspose.words.properties/builtindocumentproperties/lines/) property. |
 
-### Examples
-
-Shows how to execute a mail merge with data from a DataTable.
-
-```js
-test('ExecuteDataTable', () => {
-  let table = new DataTable("Test");
-  table.columns.add("CustomerName");
-  table.columns.add("Address");
-  table.rows.add(new object[] { "Thomas Hardy", "120 Hanover Sq., London" });
-  table.rows.add(new object[] { "Paolo Accorti", "Via Monte Bianco 34, Torino" });
-
-  // Below are two ways of using a DataTable as the data source for a mail merge.
-  // 1 -  Use the entire table for the mail merge to create one output mail merge document for every row in the table:
-  let doc = CreateSourceDocExecuteDataTable();
-
-  doc.mailMerge.execute(table);
-
-  doc.save(base.artifactsDir + "MailMerge.ExecuteDataTable.wholeTable.docx");
-
-  // 2 -  Use one row of the table to create one output mail merge document:
-  doc = CreateSourceDocExecuteDataTable();
-
-  doc.mailMerge.execute(table.rows.at(1));
-
-  doc.save(base.artifactsDir + "MailMerge.ExecuteDataTable.OneRow.docx");
-});
-
-
-  /// <summary>
-  /// Creates a mail merge source document.
-  /// </summary>
-private static Document CreateSourceDocExecuteDataTable()
-{
-  let doc = new aw.Document();
-  let builder = new aw.DocumentBuilder(doc);
-
-  builder.insertField(" MERGEFIELD CustomerName ");
-  builder.insertParagraph();
-  builder.insertField(" MERGEFIELD Address ");
-
-  return doc;
-}
-```
-
 ### See Also
 
 * module [Aspose.Words](../)

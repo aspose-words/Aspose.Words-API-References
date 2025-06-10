@@ -47,25 +47,6 @@ To learn more, visit the [Specify Load Options](https://docs.aspose.com/words/no
 | [updateDirtyFields](../loadoptions/updateDirtyFields/) | Specifies whether to update the fields with the ``dirty`` attribute.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 | [useSystemLcid](../loadoptions/useSystemLcid/) | Gets or sets whether to use LCID value obtained from Windows registry to determine page setup default margins.<br>(Inherited from [LoadOptions](../loadoptions/)) |
 
-### Examples
-
-Shows how to skip images during loading PDF files.
-
-```js
-let options = new aw.Loading.PdfLoadOptions();
-options.skipPdfImages = isSkipPdfImages;
-options.pageIndex = 0;
-options.pageCount = 1;
-
-let doc = new aw.Document(base.myDir + "Images.pdf", options);
-let shapeCollection = doc.getChildNodes(aw.NodeType.Shape, true);
-
-if (isSkipPdfImages)
-  expect(shapeCollection.count).toEqual(0);
-else
-  expect(shapeCollection.count).not.toEqual(0);
-```
-
 ### See Also
 
 * module [Aspose.Words.Loading](../)

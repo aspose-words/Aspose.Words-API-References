@@ -5,7 +5,7 @@ articleTitle: TxtListIndentation class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.TxtListIndentation class. Specifies how list levels are indented when document is exporting to [SaveFormat.Text](../../aspose.words/saveformat/#Text) format"
 type: docs
-weight: 840
+weight: 850
 url: /nodejs-net/aspose.words.saving/txtlistindentation/
 ---
 

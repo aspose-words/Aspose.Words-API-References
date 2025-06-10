@@ -22,19 +22,6 @@ Specifies how Aspose.Words exports OfficeMath to Markdown.
 | Image | Export OfficeMath as image. |
 | MathML | Export OfficeMath as MathML. |
 
-### Examples
-
-Shows how OfficeMath will be written to the document.
-
-```js
-let doc = new aw.Document(base.myDir + "Office math.docx");
-
-let saveOptions = new aw.Saving.MarkdownSaveOptions();
-saveOptions.officeMathExportMode = aw.Saving.MarkdownOfficeMathExportMode.Image;
-
-doc.save(base.artifactsDir + "MarkdownSaveOptions.officeMathExportMode.md", saveOptions);
-```
-
 ### See Also
 
 * module [Aspose.Words.Saving](../)

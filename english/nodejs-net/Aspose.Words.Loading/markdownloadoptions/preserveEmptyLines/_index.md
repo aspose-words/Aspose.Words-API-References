@@ -23,21 +23,6 @@ end of the document are also ignored. This option allows to import such empty li
 get preserveEmptyLines(): boolean
 ```
 
-### Examples
-
-Shows how to preserve empty line while load a document.
-
-```js
-string mdText = `${Environment.NewLine}Line1${Environment.NewLine}${Environment.NewLine}Line2${Environment.NewLine}${Environment.NewLine}`;
-using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(mdText)))
-{
-  let loadOptions = new aw.Loading.MarkdownLoadOptions() { PreserveEmptyLines = true };
-  let doc = new aw.Document(stream, loadOptions);
-
-  expect(doc.getText()).toEqual("\rLine1\r\rLine2\r\f");
-}
-```
-
 ### See Also
 
 * module [Aspose.Words.Loading](../../)

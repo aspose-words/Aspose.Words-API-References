@@ -158,23 +158,6 @@ appropriate for a postal mailing address, in the order required by the destinati
 |[ update()](../../aspose.words/field/update/#default) | Performs the field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |
 |[ update(ignoreMergeFormat)](../../aspose.words/field/update/#boolean) | Performs a field update. Throws if the field is being updated already.<br>(Inherited from [Field](../../aspose.words/field/)) |
 
-### Examples
-
-Shows how to get mail merge field names used by a field.
-
-```js
-let doc = new aw.Document(base.myDir + "Field sample - ADDRESSBLOCK.docx");
-
-string[] addressFieldsExpect =
-{
-  "Company", "First Name", "Middle Name", "Last Name", "Suffix", "Address 1", "City", "State",
-  "Country or Region", "Postal Code"
-};
-
-let addressBlockField = (FieldAddressBlock) doc.range.fields.at(0);
-string[] addressBlockFieldNames = addressBlockField.getFieldNames();
-```
-
 ### See Also
 
 * module [Aspose.Words.Fields](../)

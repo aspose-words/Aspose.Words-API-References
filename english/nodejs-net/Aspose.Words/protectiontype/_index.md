@@ -5,7 +5,7 @@ articleTitle: ProtectionType enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.ProtectionType enumeration. Protection type for a document."
 type: docs
-weight: 1040
+weight: 1030
 url: /nodejs-net/aspose.words/protectiontype/
 ---
 

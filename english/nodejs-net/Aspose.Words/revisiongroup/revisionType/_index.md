@@ -18,22 +18,6 @@ Gets the type of revisions included in this group.
 get revisionType(): Aspose.Words.RevisionType
 ```
 
-### Examples
-
-Shows how to print info about a group of revisions in a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Revisions.docx");
-
-expect(doc.revisions.groups.count).toEqual(7);
-
-for (let group of doc.revisions.groups)
-{
-  console.log(
-    `Revision author: ${group.author}; Revision type: ${group.revisionType} \n\tRevision text: ${group.text}`);
-}
-```
-
 ### See Also
 
 * module [Aspose.Words](../../)

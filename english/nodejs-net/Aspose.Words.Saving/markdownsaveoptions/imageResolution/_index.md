@@ -20,19 +20,6 @@ Default is ``96 dpi``.
 get imageResolution(): number
 ```
 
-### Examples
-
-Shows how to set the output resolution for images.
-
-```js
-let doc = new aw.Document(base.myDir + "Rendering.docx");
-
-let saveOptions = new aw.Saving.MarkdownSaveOptions();
-saveOptions.imageResolution = 300;
-
-doc.save(base.artifactsDir + "MarkdownSaveOptions.imageResolution.md", saveOptions);
-```
-
 ### See Also
 
 * module [Aspose.Words.Saving](../../)

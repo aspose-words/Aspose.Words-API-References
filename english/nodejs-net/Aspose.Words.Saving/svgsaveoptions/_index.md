@@ -5,7 +5,7 @@ articleTitle: SvgSaveOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.Saving.SvgSaveOptions class. Can be used to specify additional options when saving a document into the [SaveFormat.Svg](../../aspose.words/saveformat/#Svg) format"
 type: docs
-weight: 790
+weight: 800
 url: /nodejs-net/aspose.words.saving/svgsaveoptions/
 ---
 
