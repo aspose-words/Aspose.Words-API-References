@@ -4,7 +4,7 @@ linktitle: Replacer
 second_title: Aspose.Words for Java
 description: Provides methods intended to find and replace text in the document in Java.
 type: docs
-weight: 558
+weight: 559
 url: /java/com.aspose.words/replacer/
 ---
 

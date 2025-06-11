@@ -143,7 +143,6 @@ Shows how to use a callback to print the URIs of external resources created whil
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [getUseTargetMachineFonts()](#getUseTargetMachineFonts) | Flag indicates whether fonts from target machine must be used to display the document. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
@@ -188,7 +187,6 @@ Shows how to use a callback to print the URIs of external resources created whil
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 | [setUseTargetMachineFonts(boolean value)](#setUseTargetMachineFonts-boolean) | Flag indicates whether fonts from target machine must be used to display the document. |
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
@@ -2446,22 +2444,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### getUseJAIImageRendering() {#getUseJAIImageRendering}
-```
-public boolean getUseJAIImageRendering()
-```
-
-
-Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Returns:**
-boolean
 ### getUseTargetMachineFonts() {#getUseTargetMachineFonts}
 ```
 public boolean getUseTargetMachineFonts()
@@ -4817,25 +4799,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
-```
-public void setUseJAIImageRendering(boolean value)
-```
-
-
-Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setUseTargetMachineFonts(boolean value) {#setUseTargetMachineFonts-boolean}
 ```

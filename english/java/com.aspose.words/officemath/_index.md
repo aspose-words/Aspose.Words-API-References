@@ -4,7 +4,7 @@ linktitle: OfficeMath
 second_title: Aspose.Words for Java
 description: Represents an Office Math object such as function equation matrix or alike in Java.
 type: docs
-weight: 489
+weight: 490
 url: /java/com.aspose.words/officemath/
 ---
 

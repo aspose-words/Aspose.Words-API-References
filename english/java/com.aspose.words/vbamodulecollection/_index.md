@@ -4,7 +4,7 @@ linktitle: VbaModuleCollection
 second_title: Aspose.Words for Java
 description: Represents a collection of VbaModule objects in Java.
 type: docs
-weight: 695
+weight: 696
 url: /java/com.aspose.words/vbamodulecollection/
 ---
 
