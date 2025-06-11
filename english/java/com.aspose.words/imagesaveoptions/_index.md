@@ -145,6 +145,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [getMetafileRenderingOptions()](#getMetafileRenderingOptions) | Allows to specify how metafiles are treated in the rendered output. |
 | [getNumeralFormat()](#getNumeralFormat) | Gets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
 | [getOptimizeOutput()](#getOptimizeOutput) | Flag indicates whether it is required to optimize output. |
+| [getPageLayout()](#getPageLayout) | Gets the layout used when rendering multiple pages into a single output. |
 | [getPageSavingCallback()](#getPageSavingCallback) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [getPageSet()](#getPageSet) | Gets the pages to render. |
 | [getPaperColor()](#getPaperColor) | Gets the background (paper) color for the generated images. |
@@ -165,7 +166,6 @@ Shows how to configure compression while saving a document as a JPEG.
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseGdiEmfRenderer()](#getUseGdiEmfRenderer) | Gets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [getVerticalResolution()](#getVerticalResolution) | Gets the vertical resolution for the generated images, in dots per inch. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
@@ -186,6 +186,7 @@ Shows how to configure compression while saving a document as a JPEG.
 | [setMetafileRenderingOptions(MetafileRenderingOptions value)](#setMetafileRenderingOptions-com.aspose.words.MetafileRenderingOptions) | Allows to specify metafile rendering options. |
 | [setNumeralFormat(int value)](#setNumeralFormat-int) | Sets [NumeralFormat](../../com.aspose.words/numeralformat/) used for rendering of numerals. |
 | [setOptimizeOutput(boolean value)](#setOptimizeOutput-boolean) | Flag indicates whether it is required to optimize output. |
+| [setPageLayout(MultiPageLayout value)](#setPageLayout-com.aspose.words.MultiPageLayout) | Sets the layout used when rendering multiple pages into a single output. |
 | [setPageSavingCallback(IPageSavingCallback value)](#setPageSavingCallback-com.aspose.words.IPageSavingCallback) | Allows to control how separate pages are saved when a document is exported to fixed page format. |
 | [setPageSet(PageSet value)](#setPageSet-com.aspose.words.PageSet) | Sets the pages to render. |
 | [setPaperColor(Color value)](#setPaperColor-java.awt.Color) | Sets the background (paper) color for the generated images. |
@@ -207,7 +208,6 @@ Shows how to configure compression while saving a document as a JPEG.
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseGdiEmfRenderer(boolean value)](#setUseGdiEmfRenderer-boolean) | Sets a value determining whether to use GDI+ or Aspose.Words metafile renderer when saving to EMF. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 | [setVerticalResolution(float value)](#setVerticalResolution-float) | Sets the vertical resolution for the generated images, in dots per inch. |
 ### ImageSaveOptions(int saveFormat) {#ImageSaveOptions-int}
 ```
@@ -1163,6 +1163,51 @@ Shows how to optimize document objects while saving to xps.
 
 **Returns:**
 boolean - The corresponding  boolean  value.
+### getPageLayout() {#getPageLayout}
+```
+public MultiPageLayout getPageLayout()
+```
+
+
+Gets the layout used when rendering multiple pages into a single output.
+
+ **Remarks:** 
+
+Use one of the factory methods of [MultiPageLayout](../../com.aspose.words/multipagelayout/) to configure this property.
+
+For [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) the default value is [MultiPageLayout.tiffFrames()](../../com.aspose.words/multipagelayout/\#tiffFrames). For other formats the default value is [MultiPageLayout.singlePage()](../../com.aspose.words/multipagelayout/\#singlePage).
+
+This property has effect only when saving to the following formats: [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.GIF](../../com.aspose.words/saveformat/\#GIF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.WEB\_P](../../com.aspose.words/saveformat/\#WEB-P)
+
+ **Examples:** 
+
+Shows how to save the document into JPG image with multi-page layout settings.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ // Set up a grid layout with:
+ // - 3 columns per row.
+ // - 10pts spacing between pages (horizontal and vertical).
+ options.setPageLayout(MultiPageLayout.grid(3, 10f, 10f));
+
+ // Alternative layouts:
+ // options.MultiPageLayout = MultiPageLayout.Horizontal(10);
+ // options.MultiPageLayout = MultiPageLayout.Vertical(10);
+
+ // Customize the background and border.
+ options.getPageLayout().setBackColor(Color.lightGray);
+ options.getPageLayout().setBorderColor(Color.BLUE);
+ options.getPageLayout().setBorderWidth(2f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.GridLayout.jpg", options);
+ 
+```
+
+**Returns:**
+[MultiPageLayout](../../com.aspose.words/multipagelayout/) - The layout used when rendering multiple pages into a single output.
 ### getPageSavingCallback() {#getPageSavingCallback}
 ```
 public IPageSavingCallback getPageSavingCallback()
@@ -2304,22 +2349,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### getUseJAIImageRendering() {#getUseJAIImageRendering}
-```
-public boolean getUseJAIImageRendering()
-```
-
-
-Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Returns:**
-boolean
 ### getVerticalResolution() {#getVerticalResolution}
 ```
 public float getVerticalResolution()
@@ -3279,6 +3308,54 @@ Shows how to optimize document objects while saving to xps.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | The corresponding  boolean  value. |
+
+### setPageLayout(MultiPageLayout value) {#setPageLayout-com.aspose.words.MultiPageLayout}
+```
+public void setPageLayout(MultiPageLayout value)
+```
+
+
+Sets the layout used when rendering multiple pages into a single output.
+
+ **Remarks:** 
+
+Use one of the factory methods of [MultiPageLayout](../../com.aspose.words/multipagelayout/) to configure this property.
+
+For [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF) the default value is [MultiPageLayout.tiffFrames()](../../com.aspose.words/multipagelayout/\#tiffFrames). For other formats the default value is [MultiPageLayout.singlePage()](../../com.aspose.words/multipagelayout/\#singlePage).
+
+This property has effect only when saving to the following formats: [SaveFormat.JPEG](../../com.aspose.words/saveformat/\#JPEG), [SaveFormat.GIF](../../com.aspose.words/saveformat/\#GIF), [SaveFormat.PNG](../../com.aspose.words/saveformat/\#PNG), [SaveFormat.BMP](../../com.aspose.words/saveformat/\#BMP), [SaveFormat.TIFF](../../com.aspose.words/saveformat/\#TIFF), [SaveFormat.WEB\_P](../../com.aspose.words/saveformat/\#WEB-P)
+
+ **Examples:** 
+
+Shows how to save the document into JPG image with multi-page layout settings.
+
+```
+
+ Document doc = new Document(getMyDir() + "Rendering.docx");
+
+ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.JPEG);
+ // Set up a grid layout with:
+ // - 3 columns per row.
+ // - 10pts spacing between pages (horizontal and vertical).
+ options.setPageLayout(MultiPageLayout.grid(3, 10f, 10f));
+
+ // Alternative layouts:
+ // options.MultiPageLayout = MultiPageLayout.Horizontal(10);
+ // options.MultiPageLayout = MultiPageLayout.Vertical(10);
+
+ // Customize the background and border.
+ options.getPageLayout().setBackColor(Color.lightGray);
+ options.getPageLayout().setBorderColor(Color.BLUE);
+ options.getPageLayout().setBorderWidth(2f);
+
+ doc.save(getArtifactsDir() + "ImageSaveOptions.GridLayout.jpg", options);
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [MultiPageLayout](../../com.aspose.words/multipagelayout/) | The layout used when rendering multiple pages into a single output. |
 
 ### setPageSavingCallback(IPageSavingCallback value) {#setPageSavingCallback-com.aspose.words.IPageSavingCallback}
 ```
@@ -4526,25 +4603,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
-```
-public void setUseJAIImageRendering(boolean value)
-```
-
-
-Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 
 ### setVerticalResolution(float value) {#setVerticalResolution-float}
 ```

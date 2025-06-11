@@ -4,7 +4,7 @@ linktitle: IDocumentProcessorPlugin
 second_title: Aspose.Words for Java
 description: Defines an interface for external document processor plugin in Java.
 type: docs
-weight: 750
+weight: 751
 url: /java/com.aspose.words/idocumentprocessorplugin/
 ---
 ```

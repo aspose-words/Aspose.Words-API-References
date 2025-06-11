@@ -256,7 +256,6 @@ Shows how to split a document into parts and save them.
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setAllowNegativeIndent(boolean value)](#setAllowNegativeIndent-boolean) | Specifies whether negative left and right indents of paragraphs are normalized when saving to HTML, MHTML or EPUB. |
 | [setCssClassNamePrefix(String value)](#setCssClassNamePrefix-java.lang.String) | Specifies a prefix which is added to all CSS class names. |
@@ -322,7 +321,6 @@ Shows how to split a document into parts and save them.
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 ### HtmlSaveOptions() {#HtmlSaveOptions}
 ```
 public HtmlSaveOptions()
@@ -3998,22 +3996,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### getUseJAIImageRendering() {#getUseJAIImageRendering}
-```
-public boolean getUseJAIImageRendering()
-```
-
-
-Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Returns:**
-boolean
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -7783,23 +7765,4 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
-```
-public void setUseJAIImageRendering(boolean value)
-```
-
-
-Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 

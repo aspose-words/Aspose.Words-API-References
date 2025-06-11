@@ -4,7 +4,7 @@ linktitle: ReportBuilder
 second_title: Aspose.Words for Java
 description: Provides methods intended to fill template with data using LINQ Reporting Engine in Java.
 type: docs
-weight: 562
+weight: 563
 url: /java/com.aspose.words/reportbuilder/
 ---
 

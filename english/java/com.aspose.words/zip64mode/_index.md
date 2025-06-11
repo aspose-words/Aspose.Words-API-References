@@ -4,7 +4,7 @@ linktitle: Zip64Mode
 second_title: Aspose.Words for Java
 description: Specifies when to use ZIP64 format extensions for OOXML files in Java.
 type: docs
-weight: 738
+weight: 739
 url: /java/com.aspose.words/zip64mode/
 ---
 

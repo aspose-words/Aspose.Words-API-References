@@ -4,7 +4,7 @@ linktitle: Story
 second_title: Aspose.Words for Java
 description: Base class for elements that contain block-level nodes Paragraph and Table in Java.
 type: docs
-weight: 624
+weight: 625
 url: /java/com.aspose.words/story/
 ---
 

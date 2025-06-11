@@ -487,6 +487,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Metered](../com.aspose.words/metered/) | Provides methods to set metered key. |
 | [MorphDataControl](../com.aspose.words/morphdatacontrol/) | The MorphDataControl structure is an aggregate of six controls: CheckBox, ComboBox, ListBox, OptionButton, TextBox, and ToggleButton. |
 | [MsWordVersion](../com.aspose.words/mswordversion/) | Allows Aspose.Wods to mimic MS Word version-specific application behavior. |
+| [MultiPageLayout](../com.aspose.words/multipagelayout/) | Defines a layout for rendering multiple pages into a single output. |
 | [MultiplePagesType](../com.aspose.words/multiplepagestype/) | Specifies how document is printed out. |
 | [MustacheTag](../com.aspose.words/mustachetag/) | Represents "mustache" tag. |
 | [NativeLibSettings](../com.aspose.words/nativelibsettings/) | This class helps to set various options such as temporary folder for Aspose.Words native libraries and whether native libraries should be loaded and used. |

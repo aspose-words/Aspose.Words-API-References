@@ -4,7 +4,7 @@ linktitle: SvgSaveOptions
 second_title: Aspose.Words for Java
 description: Can be used to specify additional options when saving a document into the SaveFormat.SVG format in Java.
 type: docs
-weight: 639
+weight: 640
 url: /java/com.aspose.words/svgsaveoptions/
 ---
 
@@ -102,7 +102,6 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [getUpdateLastSavedTimeProperty()](#getUpdateLastSavedTimeProperty) | Gets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [getUseAntiAliasing()](#getUseAntiAliasing) | Gets a value determining whether or not to use anti-aliasing for rendering. |
 | [getUseHighQualityRendering()](#getUseHighQualityRendering) | Gets a value determining whether or not to use high quality (i.e. |
-| [getUseJAIImageRendering()](#getUseJAIImageRendering) | Gets a value that determines whether JAI is employed during the rendering of document images. |
 | [setAllowEmbeddingPostScriptFonts(boolean value)](#setAllowEmbeddingPostScriptFonts-boolean) | Sets a boolean value indicating whether to allow embedding fonts with PostScript outlines when embedding TrueType fonts in a document upon it is saved. |
 | [setColorMode(int value)](#setColorMode-int) | Sets a value determining how colors are rendered. |
 | [setDefaultTemplate(String value)](#setDefaultTemplate-java.lang.String) | Sets path to default template (including filename). |
@@ -139,7 +138,6 @@ Shows how to manipulate and print the URIs of linked resources created while con
 | [setUpdateLastSavedTimeProperty(boolean value)](#setUpdateLastSavedTimeProperty-boolean) | Sets a value determining whether the [BuiltInDocumentProperties.getLastSavedTime()](../../com.aspose.words/builtindocumentproperties/\#getLastSavedTime) / [BuiltInDocumentProperties.setLastSavedTime(java.util.Date)](../../com.aspose.words/builtindocumentproperties/\#setLastSavedTime-java.util.Date) property is updated before saving. |
 | [setUseAntiAliasing(boolean value)](#setUseAntiAliasing-boolean) | Sets a value determining whether or not to use anti-aliasing for rendering. |
 | [setUseHighQualityRendering(boolean value)](#setUseHighQualityRendering-boolean) | Sets a value determining whether or not to use high quality (i.e. |
-| [setUseJAIImageRendering(boolean value)](#setUseJAIImageRendering-boolean) | Sets a value that determines whether JAI is employed during the rendering of document images. |
 ### createSaveOptions(int saveFormat) {#createSaveOptions-int}
 ```
 public static SaveOptions createSaveOptions(int saveFormat)
@@ -1917,22 +1915,6 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 
 **Returns:**
 boolean - A value determining whether or not to use high quality (i.e.
-### getUseJAIImageRendering() {#getUseJAIImageRendering}
-```
-public boolean getUseJAIImageRendering()
-```
-
-
-Gets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Returns:**
-boolean
 ### setAllowEmbeddingPostScriptFonts(boolean value) {#setAllowEmbeddingPostScriptFonts-boolean}
 ```
 public void setAllowEmbeddingPostScriptFonts(boolean value)
@@ -3749,23 +3731,4 @@ Shows how to improve the quality of a rendered document with SaveOptions.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | boolean | A value determining whether or not to use high quality (i.e. |
-
-### setUseJAIImageRendering(boolean value) {#setUseJAIImageRendering-boolean}
-```
-public void setUseJAIImageRendering(boolean value)
-```
-
-
-Sets a value that determines whether JAI is employed during the rendering of document images. In some cases, this may improve performance.
-
- **Remarks:** 
-
-The default value is  true .
-
-JAI will only be utilized if it is included as a dependency. Certain images might not render correctly if JAI is disabled.
-
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| value | boolean |  |
 

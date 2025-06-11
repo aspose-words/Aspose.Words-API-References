@@ -4,7 +4,7 @@ linktitle: SummaryLength
 second_title: Aspose.Words for Java
 description: Enumerates possible lengths of summary in Java.
 type: docs
-weight: 638
+weight: 639
 url: /java/com.aspose.words/summarylength/
 ---
 

@@ -4,7 +4,7 @@ linktitle: IComparisonExpressionEvaluator
 second_title: Aspose.Words for Java
 description: When implemented allows to override default comparison expressions evaluation for the FieldIf and FieldCompare fields in Java.
 type: docs
-weight: 744
+weight: 745
 url: /java/com.aspose.words/icomparisonexpressionevaluator/
 ---
 ```

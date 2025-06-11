@@ -4,7 +4,7 @@ linktitle: SplitCriteria
 second_title: Aspose.Words for Java
 description: Specifies how the document is split into parts in Java.
 type: docs
-weight: 620
+weight: 621
 url: /java/com.aspose.words/splitcriteria/
 ---
 

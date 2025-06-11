@@ -4,7 +4,7 @@ linktitle: ViewType
 second_title: Aspose.Words for Java
 description: Possible values for the view mode in Microsoft Word in Java.
 type: docs
-weight: 703
+weight: 704
 url: /java/com.aspose.words/viewtype/
 ---
 
