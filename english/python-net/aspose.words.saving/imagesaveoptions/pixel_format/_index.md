@@ -5,7 +5,7 @@ articleTitle: pixel_format property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.pixel_format property. Gets or sets the pixel format for the generated images."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.saving/imagesaveoptions/pixel_format/
 ---
 

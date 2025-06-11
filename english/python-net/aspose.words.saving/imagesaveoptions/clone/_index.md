@@ -5,7 +5,7 @@ articleTitle: clone method
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.clone method. Creates a deep clone of this object."
 type: docs
-weight: 190
+weight: 200
 url: /python-net/aspose.words.saving/imagesaveoptions/clone/
 ---
 

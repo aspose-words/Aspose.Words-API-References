@@ -46,6 +46,7 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [metafile_rendering_options](./metafile_rendering_options/) | Allows to specify how metafiles are treated in the rendered output. |
 | [numeral_format](../fixedpagesaveoptions/numeral_format/) | Gets or sets [NumeralFormat](../numeralformat/) used for rendering of numerals. European numerals are used by default.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [optimize_output](../fixedpagesaveoptions/optimize_output/) | Flag indicates whether it is required to optimize output. If this flag is set redundant nested canvases and empty canvases are removed, also neighbor glyphs with the same formatting are concatenated. Note: The accuracy of the content display may be affected if this property is set to ``True``.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
+| [page_layout](./page_layout/) | Gets or sets the layout used when rendering multiple pages into a single output. |
 | [page_saving_callback](../fixedpagesaveoptions/page_saving_callback/) | Allows to control how separate pages are saved when a document is exported to fixed page format.<br>(Inherited from [FixedPageSaveOptions](../fixedpagesaveoptions/)) |
 | [page_set](./page_set/) | Gets or sets the pages to render. Default is all the pages in the document. |
 | [paper_color](./paper_color/) | Gets or sets the background (paper) color for the generated images. The default value is aspose.pydrawing.Color.white. |

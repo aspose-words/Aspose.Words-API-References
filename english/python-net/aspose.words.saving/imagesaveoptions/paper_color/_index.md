@@ -5,7 +5,7 @@ articleTitle: paper_color property
 second_title: Aspose.Words for Python
 description: "ImageSaveOptions.paper_color property. Gets or sets the background (paper) color for the generated images"
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.saving/imagesaveoptions/paper_color/
 ---
 
