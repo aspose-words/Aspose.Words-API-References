@@ -28,8 +28,8 @@ To learn more, visit the [Working with Watermark](https://docs.aspose.com/words/
 | Name | Description |
 | --- | --- |
 |[ remove()](./remove/#default) | Removes the watermark. |
-|[ set_image(image_path, options)](./set_image/#str_imagewatermarkoptions) | Adds Image watermark into the document. |
-|[ set_image(image_stream, options)](./set_image/#bytesio_imagewatermarkoptions) | Adds Image watermark into the document. |
+|[ set_image(image_path, options)](./set_image/#str_imagewatermarkoptions) |  |
+|[ set_image(image_stream, options)](./set_image/#bytesio_imagewatermarkoptions) |  |
 |[ set_text(text)](./set_text/#str) | Adds Text watermark into the document. |
 |[ set_text(text, options)](./set_text/#str_textwatermarkoptions) | Adds Text watermark into the document. |
 

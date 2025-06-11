@@ -28,7 +28,7 @@ Regardless of whether the image is stored inside the shape or linked, you can al
 image using the [ImageData.to_byte_array()](./to_byte_array/#default), [ImageData.to_stream()](./to_stream/#default) or [ImageData.save()](./save/#str) methods.
 If the image is stored inside the shape, you can also directly access it using the [ImageData.image_bytes](./image_bytes/) property.
 
-To store an image inside a shape use the [ImageData.set_image()](./set_image/#str) method. To link an image to a shape, set the [ImageData.source_full_name](./source_full_name/) property.
+To store an image inside a shape use the Aspose.Words.Drawing.ImageData.SetImage(System.String) method. To link an image to a shape, set the [ImageData.source_full_name](./source_full_name/) property.
 
 
 
@@ -63,8 +63,8 @@ To store an image inside a shape use the [ImageData.set_image()](./set_image/#st
 |[ fit_image_to_shape()](./fit_image_to_shape/#default) | Fits the image data to Shape frame so that the aspect ratio of the image data matches the aspect ratio of Shape frame. |
 |[ save(stream)](./save/#bytesio) | Saves the image into the specified stream. |
 |[ save(file_name)](./save/#str) | Saves the image into a file. |
-|[ set_image(stream)](./set_image/#bytesio) | Sets the image that the shape displays. |
-|[ set_image(file_name)](./set_image/#str) | Sets the image that the shape displays. |
+|[ set_image(stream)](./set_image/#bytesio) |  |
+|[ set_image(file_name)](./set_image/#str) |  |
 |[ to_byte_array()](./to_byte_array/#default) | Returns image bytes for any image regardless whether the image is stored or linked. |
 |[ to_stream()](./to_stream/#default) | Creates and returns a stream that contains the image bytes. |
 

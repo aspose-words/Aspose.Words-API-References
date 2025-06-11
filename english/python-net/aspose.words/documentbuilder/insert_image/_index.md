@@ -11,9 +11,6 @@ url: /python-net/aspose.words/documentbuilder/insert_image/
 
 ## insert_image(file_name) {#str}
 
-Inserts an image from a file or URL into the document. The image is inserted inline and at 100% scale.
-
-
 ```python
 def insert_image(self, file_name: str):
     ...
@@ -21,28 +18,9 @@ def insert_image(self, file_name: str):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str | The file with the image. Can be any valid local or remote URI. |
-
-### Remarks
-
-This overload will automatically download the image before inserting into the document
-if you specify a remote URI.
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| file_name | str |  |
 
 ## insert_image(stream) {#bytesio}
-
-Inserts an image from a stream into the document. The image is inserted inline and at 100% scale.
-
 
 ```python
 def insert_image(self, stream: io.BytesIO):
@@ -51,25 +29,9 @@ def insert_image(self, stream: io.BytesIO):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | io.BytesIO | The stream that contains the image. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| stream | io.BytesIO |  |
 
 ## insert_image(image_bytes) {#bytes}
-
-Inserts an image from a byte array into the document. The image is inserted inline and at 100% scale.
-
 
 ```python
 def insert_image(self, image_bytes: bytes):
@@ -78,25 +40,9 @@ def insert_image(self, image_bytes: bytes):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image_bytes | bytes | The byte array that contains the image. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| image_bytes | bytes |  |
 
 ## insert_image(file_name, width, height) {#str_float_float}
-
-Inserts an inline image from a file or URL into the document and scales it to the specified size.
-
 
 ```python
 def insert_image(self, file_name: str, width: float, height: float):
@@ -105,27 +51,11 @@ def insert_image(self, file_name: str, width: float, height: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str | The file that contains the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| file_name | str |  |
+| width | float |  |
+| height | float |  |
 
 ## insert_image(stream, width, height) {#bytesio_float_float}
-
-Inserts an inline image from a stream into the document and scales it to the specified size.
-
 
 ```python
 def insert_image(self, stream: io.BytesIO, width: float, height: float):
@@ -134,27 +64,11 @@ def insert_image(self, stream: io.BytesIO, width: float, height: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | io.BytesIO | The stream that contains the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| stream | io.BytesIO |  |
+| width | float |  |
+| height | float |  |
 
 ## insert_image(image_bytes, width, height) {#bytes_float_float}
-
-Inserts an inline image from a byte array into the document and scales it to the specified size.
-
 
 ```python
 def insert_image(self, image_bytes: bytes, width: float, height: float):
@@ -163,27 +77,11 @@ def insert_image(self, image_bytes: bytes, width: float, height: float):
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image_bytes | bytes | The byte array that contains the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| image_bytes | bytes |  |
+| width | float |  |
+| height | float |  |
 
 ## insert_image(file_name, horz_pos, left, vert_pos, top, width, height, wrap_type) {#str_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype}
-
-Inserts an image from a file or URL at the specified position and size.
-
 
 ```python
 def insert_image(self, file_name: str, horz_pos: aspose.words.drawing.RelativeHorizontalPosition, left: float, vert_pos: aspose.words.drawing.RelativeVerticalPosition, top: float, width: float, height: float, wrap_type: aspose.words.drawing.WrapType):
@@ -192,32 +90,16 @@ def insert_image(self, file_name: str, horz_pos: aspose.words.drawing.RelativeHo
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| file_name | str | The file that contains the image. |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
-| left | float | Distance in points from the origin to the left side of the image. |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
-| top | float | Distance in points from the origin to the top side of the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| file_name | str |  |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | float |  |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | float |  |
+| width | float |  |
+| height | float |  |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ## insert_image(stream, horz_pos, left, vert_pos, top, width, height, wrap_type) {#bytesio_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype}
-
-Inserts an image from a stream at the specified position and size.
-
 
 ```python
 def insert_image(self, stream: io.BytesIO, horz_pos: aspose.words.drawing.RelativeHorizontalPosition, left: float, vert_pos: aspose.words.drawing.RelativeVerticalPosition, top: float, width: float, height: float, wrap_type: aspose.words.drawing.WrapType):
@@ -226,32 +108,16 @@ def insert_image(self, stream: io.BytesIO, horz_pos: aspose.words.drawing.Relati
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | io.BytesIO | The stream that contains the image. |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
-| left | float | Distance in points from the origin to the left side of the image. |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
-| top | float | Distance in points from the origin to the top side of the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| stream | io.BytesIO |  |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | float |  |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | float |  |
+| width | float |  |
+| height | float |  |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ## insert_image(image_bytes, horz_pos, left, vert_pos, top, width, height, wrap_type) {#bytes_relativehorizontalposition_float_relativeverticalposition_float_float_float_wraptype}
-
-Inserts an image from a byte array at the specified position and size.
-
 
 ```python
 def insert_image(self, image_bytes: bytes, horz_pos: aspose.words.drawing.RelativeHorizontalPosition, left: float, vert_pos: aspose.words.drawing.RelativeVerticalPosition, top: float, width: float, height: float, wrap_type: aspose.words.drawing.WrapType):
@@ -260,27 +126,14 @@ def insert_image(self, image_bytes: bytes, horz_pos: aspose.words.drawing.Relati
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| image_bytes | bytes | The byte array that contains the image. |
-| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) | Specifies where the distance to the image is measured from. |
-| left | float | Distance in points from the origin to the left side of the image. |
-| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) | Specifies where the distance to the image measured from. |
-| top | float | Distance in points from the origin to the top side of the image. |
-| width | float | The width of the image in points. Can be a negative or zero value to request 100% scale. |
-| height | float | The height of the image in points. Can be a negative or zero value to request 100% scale. |
-| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) | Specifies how to wrap text around the image. |
-
-### Remarks
-
-You can change the image size, location, positioning method and other settings using the 
-[Shape](../../../aspose.words.drawing/shape/) object returned by this method.
-
-
-
-
-### Returns
-
-The image node that was just inserted.
-
+| image_bytes | bytes |  |
+| horz_pos | [RelativeHorizontalPosition](../../../aspose.words.drawing/relativehorizontalposition/) |  |
+| left | float |  |
+| vert_pos | [RelativeVerticalPosition](../../../aspose.words.drawing/relativeverticalposition/) |  |
+| top | float |  |
+| width | float |  |
+| height | float |  |
+| wrap_type | [WrapType](../../../aspose.words.drawing/wraptype/) |  |
 
 ## Examples
 

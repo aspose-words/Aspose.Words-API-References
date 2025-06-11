@@ -54,7 +54,6 @@ with img_shape.image_data.to_stream() as img_stream:
 
 * module [aspose.words.drawing](../../)
 * class [ImageData](../)
-* method [ImageData.set_image()](../set_image/#str)
 * method [ImageData.to_byte_array()](../to_byte_array/#default)
 * method [ImageData.to_stream()](../to_stream/#default)
 * method [ImageData.save()](../save/#str)
