@@ -23,15 +23,15 @@ System::String Aspose::Words::Fields::FieldMacroButton::get_DisplayText()
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Macro.docm");
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Macro.docm");
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 ASSERT_TRUE(doc->get_HasMacros());
 
 // Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
-auto field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldMacroButton, true));
 field->set_MacroName(u"MyMacro");
-field->set_DisplayText(String(u"Double click to run macro: ") + field->get_MacroName());
+field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
 
 ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
 
@@ -41,14 +41,14 @@ ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->Ge
 // If our document contains a custom macro with the same name as a stock macro,
 // our macro will be the one that the MACROBUTTON field runs.
 builder->InsertParagraph();
-field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldMacroButton, true));
 field->set_MacroName(u"ViewZoom200");
-field->set_DisplayText(String(u"Run ") + field->get_MacroName());
+field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
 
 ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 
 // Save the document as a macro-enabled document type.
-doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
+doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
 
 ## See Also

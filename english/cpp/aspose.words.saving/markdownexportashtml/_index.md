@@ -23,6 +23,32 @@ enum class MarkdownExportAsHtml
 | None | 0 | Export all elements using Markdown syntax without any raw HTML. |
 | Tables | 1 | Export tables as raw HTML. |
 
+
+## Examples
+
+
+
+Shows how to export a table to Markdown as raw HTML. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Sample table:");
+
+// Create table.
+builder->InsertCell();
+builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Right);
+builder->Write(u"Cell1");
+builder->InsertCell();
+builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+builder->Write(u"Cell2");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_ExportAsHtml(Aspose::Words::Saving::MarkdownExportAsHtml::Tables);
+
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ExportTableAsHtml.md", saveOptions);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

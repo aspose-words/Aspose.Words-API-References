@@ -23,12 +23,12 @@ Aspose::Words::SaveFormat Aspose::Words::Saving::RtfSaveOptions::get_SaveFormat(
 
 Shows how to save a document to .rtf with custom options. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
-auto options = MakeObject<RtfSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::RtfSaveOptions>();
 
-ASSERT_EQ(SaveFormat::Rtf, options->get_SaveFormat());
+ASSERT_EQ(Aspose::Words::SaveFormat::Rtf, options->get_SaveFormat());
 
 // Set the "ExportCompactSize" property to "true" to
 // reduce the saved document's size at the cost of right-to-left text compatibility.
@@ -40,7 +40,7 @@ options->set_ExportCompactSize(true);
 // but prevent old readers from being able to read any non-metafile or BMP images that the document may contain.
 options->set_ExportImagesForOldReaders(exportImagesForOldReaders);
 
-doc->Save(ArtifactsDir + u"RtfSaveOptions.ExportImages.rtf", options);
+doc->Save(get_ArtifactsDir() + u"RtfSaveOptions.ExportImages.rtf", options);
 ```
 
 ## See Also

@@ -22,13 +22,13 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | --- | --- |
 | [Equals](../loadoptions/equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_BaseUri](../loadoptions/get_baseuri/)() const | Gets or sets the string that will be used to resolve relative URIs found in the document into absolute URIs when required. Can be **null** or empty string. Default is **null**. |
-| [get_BlockImportMode](./get_blockimportmode/)() const | Gets a value that specifies how properties of block-level elements are imported. Default value is [Merge](../blockimportmode/). |
+| [get_BlockImportMode](./get_blockimportmode/)() const | Gets or sets a value that specifies how properties of block-level elements are imported. Default value is [Merge](../blockimportmode/). |
 | [get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/)() const | Gets or sets whether to convert metafile([Wmf](../) or [Emf](../)) images to [Png](../) image format. |
 | [get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/)() const | Gets or sets whether to convert shapes with EquationXML to Office [Math](../../aspose.words.math/) objects. |
 | [get_ConvertSvgToEmf](./get_convertsvgtoemf/)() const | Gets or sets a value indicating whether to convert loaded SVG images to the EMF format. Default value is **false** and, if possible, loaded SVG images are stored as is without conversion. |
 | [get_Encoding](../loadoptions/get_encoding/)() const | Gets or sets the encoding that will be used to load an HTML, TXT, or CHM document if the encoding is not specified inside the document. Can be **null**. Default is **null**. |
 | [get_FontSettings](../loadoptions/get_fontsettings/)() const | Allows to specify document font settings. |
-| [get_IgnoreNoscriptElements](./get_ignorenoscriptelements/)() const | Gets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**. |
+| [get_IgnoreNoscriptElements](./get_ignorenoscriptelements/)() const | Gets or sets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**. |
 | [get_IgnoreOleData](../loadoptions/get_ignoreoledata/)() const | Specifies whether to ignore the OLE data. |
 | [get_LanguagePreferences](../loadoptions/get_languagepreferences/)() const | Gets language preferences that will be used when document is loading. |
 | [get_LoadFormat](../loadoptions/get_loadformat/)() const | Specifies the format of the document to be loaded. Default is [Auto](../../aspose.words/loadformat/). |
@@ -54,13 +54,13 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [LoadOptions](../loadoptions/loadoptions/)(const System::String\&) | A shortcut to initialize a new instance of this class with the specified password to load an encrypted document. |
 | [LoadOptions](../loadoptions/loadoptions/)(Aspose::Words::LoadFormat, const System::String\&, const System::String\&) | A shortcut to initialize a new instance of this class with properties set to the specified values. |
 | [set_BaseUri](../loadoptions/set_baseuri/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_BaseUri](../loadoptions/get_baseuri/). |
-| [set_BlockImportMode](./set_blockimportmode/)(Aspose::Words::Loading::BlockImportMode) | Sets a value that specifies how properties of block-level elements are imported. Default value is [Merge](../blockimportmode/). |
+| [set_BlockImportMode](./set_blockimportmode/)(Aspose::Words::Loading::BlockImportMode) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_BlockImportMode](./get_blockimportmode/). |
 | [set_ConvertMetafilesToPng](../loadoptions/set_convertmetafilestopng/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertMetafilesToPng](../loadoptions/get_convertmetafilestopng/). |
 | [set_ConvertShapeToOfficeMath](../loadoptions/set_convertshapetoofficemath/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath](../loadoptions/get_convertshapetoofficemath/). |
 | [set_ConvertSvgToEmf](./set_convertsvgtoemf/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_ConvertSvgToEmf](./get_convertsvgtoemf/). |
 | [set_Encoding](../loadoptions/set_encoding/)(const System::SharedPtr\<System::Text::Encoding\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_Encoding](../loadoptions/get_encoding/). |
 | [set_FontSettings](../loadoptions/set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_FontSettings](../loadoptions/get_fontsettings/). |
-| [set_IgnoreNoscriptElements](./set_ignorenoscriptelements/)(bool) | Sets a value indicating whether to ignore <noscript> HTML elements. Default value is **false**. |
+| [set_IgnoreNoscriptElements](./set_ignorenoscriptelements/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_IgnoreNoscriptElements](./get_ignorenoscriptelements/). |
 | [set_IgnoreOleData](../loadoptions/set_ignoreoledata/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_IgnoreOleData](../loadoptions/get_ignoreoledata/). |
 | [set_LoadFormat](../loadoptions/set_loadformat/)(Aspose::Words::LoadFormat) | Setter for [Aspose::Words::Loading::LoadOptions::get_LoadFormat](../loadoptions/get_loadformat/). |
 | [set_MswVersion](../loadoptions/set_mswversion/)(Aspose::Words::Settings::MsWordVersion) | Setter for [Aspose::Words::Loading::LoadOptions::get_MswVersion](../loadoptions/get_mswversion/). |
@@ -68,15 +68,43 @@ class HtmlLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_PreferredControlType](./set_preferredcontroltype/)(Aspose::Words::Loading::HtmlControlType) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_PreferredControlType](./get_preferredcontroltype/). |
 | [set_PreserveIncludePictureField](../loadoptions/set_preserveincludepicturefield/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField](../loadoptions/get_preserveincludepicturefield/). |
 | [set_ProgressCallback](../loadoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Loading::IDocumentLoadingCallback\>\&) | Called during loading a document and accepts data about loading progress. |
-| [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
+| [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [set_SupportFontFaceRules](./set_supportfontfacerules/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportFontFaceRules](./get_supportfontfacerules/). |
 | [set_SupportVml](./set_supportvml/)(bool) | Setter for [Aspose::Words::Loading::HtmlLoadOptions::get_SupportVml](./get_supportvml/). |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
 | [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UseSystemLcid](../loadoptions/get_usesystemlcid/). |
-| [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
+| [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | [set_WebRequestTimeout](./set_webrequesttimeout/)(int32_t) | The number of milliseconds to wait before the web request times out. The default value is 100000 milliseconds (100 seconds). |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to support conditional comments while loading an HTML document. 
+```cpp
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::HtmlLoadOptions>();
+
+// If the value is true, then we take VML code into account while parsing the loaded document.
+loadOptions->set_SupportVml(supportVml);
+
+// This document contains a JPEG image within "<!--[if gte vml 1]>" tags,
+// and a different PNG image within "<![if !vml]>" tags.
+// If we set the "SupportVml" flag to "true", then Aspose.Words will load the JPEG.
+// If we set this flag to "false", then Aspose.Words will only load the PNG.
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VML conditional.htm", loadOptions);
+
+if (supportVml)
+{
+    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+}
+else
+{
+    ASSERT_EQ(Aspose::Words::Drawing::ImageType::Png, (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_ImageData()->get_ImageType());
+}
+```
+
 ## See Also
 
 * Class [LoadOptions](../loadoptions/)

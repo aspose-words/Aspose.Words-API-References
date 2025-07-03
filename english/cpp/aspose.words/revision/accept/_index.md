@@ -23,8 +23,8 @@ void Aspose::Words::Revision::Accept()
 
 Shows how to work with revisions in a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Normal editing of the document does not count as a revision.
 builder->Write(u"This does not count as a revision. ");
@@ -46,10 +46,10 @@ ASSERT_EQ(1, doc->get_Revisions()->get_Count());
 ASSERT_FALSE(doc->get_TrackRevisions());
 
 // We have added text using the document builder, so the first revision is an insertion-type revision.
-SharedPtr<Revision> revision = doc->get_Revisions()->idx_get(0);
+System::SharedPtr<Aspose::Words::Revision> revision = doc->get_Revisions()->idx_get(0);
 ASSERT_EQ(u"John Doe", revision->get_Author());
 ASSERT_EQ(u"This is revision #1. ", revision->get_ParentNode()->GetText());
-ASSERT_EQ(RevisionType::Insertion, revision->get_RevisionType());
+ASSERT_EQ(Aspose::Words::RevisionType::Insertion, revision->get_RevisionType());
 ASSERT_EQ(revision->get_DateTime().get_Date(), System::DateTime::get_Now().get_Date());
 ASPOSE_ASSERT_EQ(doc->get_Revisions()->get_Groups()->idx_get(0), revision->get_Group());
 
@@ -57,7 +57,7 @@ ASPOSE_ASSERT_EQ(doc->get_Revisions()->get_Groups()->idx_get(0), revision->get_G
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->Remove();
 
 // Adding a new revision places it at the beginning of the revision collection.
-ASSERT_EQ(RevisionType::Deletion, doc->get_Revisions()->idx_get(0)->get_RevisionType());
+ASSERT_EQ(Aspose::Words::RevisionType::Deletion, doc->get_Revisions()->idx_get(0)->get_RevisionType());
 ASSERT_EQ(2, doc->get_Revisions()->get_Count());
 
 // Insert revisions show up in the document body even before we accept/reject the revision.
@@ -76,18 +76,18 @@ builder->Writeln(u"");
 builder->Write(u"This is revision #2.");
 
 // Now move the node to create a moving revision type.
-SharedPtr<Node> node = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1);
-SharedPtr<Node> endNode = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_NextSibling();
-SharedPtr<Node> referenceNode = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0);
+System::SharedPtr<Aspose::Words::Node> node = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1);
+System::SharedPtr<Aspose::Words::Node> endNode = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_NextSibling();
+System::SharedPtr<Aspose::Words::Node> referenceNode = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0);
 
 while (node != endNode)
 {
-    SharedPtr<Node> nextNode = node->get_NextSibling();
-    doc->get_FirstSection()->get_Body()->InsertBefore(node, referenceNode);
+    System::SharedPtr<Aspose::Words::Node> nextNode = node->get_NextSibling();
+    doc->get_FirstSection()->get_Body()->InsertBefore<System::SharedPtr<Aspose::Words::Node>>(node, referenceNode);
     node = nextNode;
 }
 
-ASSERT_EQ(RevisionType::Moving, doc->get_Revisions()->idx_get(0)->get_RevisionType());
+ASSERT_EQ(Aspose::Words::RevisionType::Moving, doc->get_Revisions()->idx_get(0)->get_RevisionType());
 ASSERT_EQ(8, doc->get_Revisions()->get_Count());
 ASSERT_EQ(u"This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc->GetText().Trim());
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::SignatureLineOptions::set_SignerTitle method
 linktitle: set_SignerTitle
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::SignatureLineOptions::set_SignerTitle method. Setter for Aspose::Words::SignatureLineOptions::get_SignerTitle in C++.'
+description: 'Aspose::Words::SignatureLineOptions::set_SignerTitle method. Sets suggested signer''s title. Default value for this property is empty string in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words/signaturelineoptions/set_signertitle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/signaturelineoptions/set_signertitle/
 ## SignatureLineOptions::set_SignerTitle method
 
 
-Setter for [Aspose::Words::SignatureLineOptions::get_SignerTitle](../get_signertitle/).
+Sets suggested signer's title. Default value for this property is **empty string**.
 
 ```cpp
 void Aspose::Words::SignatureLineOptions::set_SignerTitle(const System::String &value)

@@ -23,29 +23,25 @@ void Aspose::Words::Section::DeleteHeaderFooterShapes()
 
 Shows how to remove all shapes from all headers footers in a section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a primary header with a shape.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
-builder->InsertShape(ShapeType::Rectangle, 100, 100);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 100, 100);
 
 // Create a primary footer with an image.
-builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
-builder->InsertImage(ImageDir + u"Logo Icon.ico");
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
+builder->InsertImage(get_ImageDir() + u"Logo icon.ico");
 
-ASSERT_EQ(1,
-          doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(1,
-          doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::HeaderPrimary)->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary)->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
 
 // Remove all shapes from the headers and footers in the first section.
 doc->get_FirstSection()->DeleteHeaderFooterShapes();
 
-ASSERT_EQ(0,
-          doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::HeaderPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(0,
-          doc->get_FirstSection()->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary)->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::HeaderPrimary)->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+ASSERT_EQ(0, doc->get_FirstSection()->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary)->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
 ```
 
 ## See Also

@@ -23,10 +23,10 @@ System::String Aspose::Words::Fields::FieldAddressBlock::get_NameAndAddressForma
 
 Shows how to insert an ADDRESSBLOCK field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<FieldAddressBlock>(builder->InsertField(FieldType::FieldAddressBlock, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAddressBlock>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAddressBlock, true));
 
 ASSERT_EQ(u" ADDRESSBLOCK ", field->GetFieldCode());
 
@@ -39,11 +39,9 @@ field->set_NameAndAddressFormat(u"<Title> <Forename> <Surname> <Address Line 1> 
 
 // By default, this property will contain the language ID of the first character of the document.
 // We can set a different culture for the field to format the result with like this.
-field->set_LanguageId(System::Convert::ToString(MakeObject<System::Globalization::CultureInfo>(u"en-US")->get_LCID()));
+field->set_LanguageId(System::Convert::ToString(System::MakeObject<System::Globalization::CultureInfo>(u"en-US")->get_LCID()));
 
-ASSERT_EQ(
-    u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033",
-    field->GetFieldCode());
+ASSERT_EQ(u" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033", field->GetFieldCode());
 ```
 
 ## See Also

@@ -37,8 +37,8 @@ Badly formed bookmarks or bookmarks with duplicate names will be ignored when th
 
 Shows how create a bookmark. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // A valid bookmark needs to have document body text enclosed by
 // BookmarkStart and BookmarkEnd nodes created with a matching bookmark name.
@@ -54,8 +54,8 @@ ASSERT_EQ(u"Hello world!", doc->get_Range()->get_Bookmarks()->idx_get(0)->get_Te
 
 Shows how to insert a hyperlink which references a local bookmark. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartBookmark(u"Bookmark1");
 builder->Write(u"Bookmarked text. ");
@@ -65,11 +65,11 @@ builder->Writeln(u"Text outside of the bookmark.");
 // Insert a HYPERLINK field that links to the bookmark. We can pass field switches
 // to the "InsertHyperlink" method as part of the argument containing the referenced bookmark's name.
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
-builder->get_Font()->set_Underline(Underline::Single);
-auto hyperlink = System::ExplicitCast<FieldHyperlink>(builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1", true));
+builder->get_Font()->set_Underline(Aspose::Words::Underline::Single);
+auto hyperlink = System::ExplicitCast<Aspose::Words::Fields::FieldHyperlink>(builder->InsertHyperlink(u"Link to Bookmark1", u"Bookmark1", true));
 hyperlink->set_ScreenTip(u"Hyperlink Tip");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertHyperlinkToLocalBookmark.docx");
 ```
 
 ## See Also

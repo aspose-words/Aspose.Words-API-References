@@ -26,6 +26,24 @@ System::SharedPtr<Aspose::Words::Node> Aspose::Words::DocumentBuilder::InsertDoc
 
 First node of the inserted content.
 
+## Examples
+
+
+
+Shows how to insert a document into another document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->MoveToDocumentEnd();
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+
+auto docToInsert = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Formatted elements.docx");
+
+builder->InsertDocument(docToInsert, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocument.docx");
+```
+
 ## See Also
 
 * Class [Node](../../node/)
@@ -60,10 +78,10 @@ First node of the inserted content.
 
 Shows how to resolve duplicate styles while inserting documents. 
 ```cpp
-auto dstDoc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(dstDoc);
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 
-SharedPtr<Style> myStyle = builder->get_Document()->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
 myStyle->get_Font()->set_Size(14);
 myStyle->get_Font()->set_Name(u"Courier New");
 myStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
@@ -73,18 +91,18 @@ builder->Writeln(u"Hello world!");
 
 // Clone the document and edit the clone's "MyStyle" style, so it is a different color than that of the original.
 // If we insert the clone into the original document, the two styles with the same name will cause a clash.
-SharedPtr<Document> srcDoc = dstDoc->Clone();
+System::SharedPtr<Aspose::Words::Document> srcDoc = dstDoc->Clone();
 srcDoc->get_Styles()->idx_get(u"MyStyle")->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 // When we enable SmartStyleBehavior and use the KeepSourceFormatting import format mode,
 // Aspose.Words will resolve style clashes by converting source document styles.
 // with the same names as destination styles into direct paragraph attributes.
-auto options = MakeObject<ImportFormatOptions>();
+auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_SmartStyleBehavior(true);
 
-builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
 
-dstDoc->Save(ArtifactsDir + u"DocumentBuilder.SmartStyleBehavior.docx");
+dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip method
 linktitle: set_ScreenTip
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip method. Setter for Aspose::Words::Fields::FieldAutoTextList::get_ScreenTip in C++.'
+description: 'Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip method. Sets the text of the ScreenTip to show in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.fields/fieldautotextlist/set_screentip/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldautotextlist/set_screentip/
 ## FieldAutoTextList::set_ScreenTip method
 
 
-Setter for [Aspose::Words::Fields::FieldAutoTextList::get_ScreenTip](../get_screentip/).
+Sets the text of the ScreenTip to show.
 
 ```cpp
 void Aspose::Words::Fields::FieldAutoTextList::set_ScreenTip(const System::String &value)

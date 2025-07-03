@@ -50,12 +50,12 @@ class Style : public Aspose::Words::IParaAttrSource,
 | [set_BaseStyleName](./set_basestylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_BaseStyleName](./get_basestylename/). |
 | [set_IsQuickStyle](./set_isquickstyle/)(bool) | Setter for [Aspose::Words::Style::get_IsQuickStyle](./get_isquickstyle/). |
 | [set_LinkedStyleName](./set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](./get_linkedstylename/). |
-| [set_Locked](./set_locked/)(bool) | Specifies whether this style is locked. |
+| [set_Locked](./set_locked/)(bool) | Setter for [Aspose::Words::Style::get_Locked](./get_locked/). |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](./get_name/). |
 | [set_NextParagraphStyleName](./set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](./get_nextparagraphstylename/). |
-| [set_Priority](./set_priority/)(int32_t) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
-| [set_SemiHidden](./set_semihidden/)(bool) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
-| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
+| [set_Priority](./set_priority/)(int32_t) | Setter for [Aspose::Words::Style::get_Priority](./get_priority/). |
+| [set_SemiHidden](./set_semihidden/)(bool) | Setter for [Aspose::Words::Style::get_SemiHidden](./get_semihidden/). |
+| [set_UnhideWhenUsed](./set_unhidewhenused/)(bool) | Setter for [Aspose::Words::Style::get_UnhideWhenUsed](./get_unhidewhenused/). |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -64,20 +64,22 @@ class Style : public Aspose::Words::IParaAttrSource,
 
 Shows how to create and apply a custom style. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-SharedPtr<Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
 style->get_Font()->set_Name(u"Times New Roman");
 style->get_Font()->set_Size(16);
 style->get_Font()->set_Color(System::Drawing::Color::get_Navy());
+// Automatically redefine style.
+style->set_AutomaticallyUpdate(true);
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Apply one of the styles from the document to the paragraph that the document builder is creating.
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"MyStyle"));
 builder->Writeln(u"Hello world!");
 
-SharedPtr<Style> firstParagraphStyle = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Style();
+System::SharedPtr<Aspose::Words::Style> firstParagraphStyle = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Style();
 
 ASPOSE_ASSERT_EQ(style, firstParagraphStyle);
 
@@ -87,7 +89,10 @@ doc->get_Styles()->idx_get(u"MyStyle")->Remove();
 firstParagraphStyle = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Style();
 
 // Any text that used a removed style reverts to the default formatting.
-ASSERT_FALSE(doc->get_Styles()->LINQ_Any([](SharedPtr<Style> s) { return s->get_Name() == u"MyStyle"; }));
+ASSERT_FALSE(doc->get_Styles()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Style>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Style> s)>>([](System::SharedPtr<Aspose::Words::Style> s) -> bool
+{
+    return s->get_Name() == u"MyStyle";
+}))));
 ASSERT_EQ(u"Times New Roman", firstParagraphStyle->get_Font()->get_Name());
 ASPOSE_ASSERT_EQ(12.0, firstParagraphStyle->get_Font()->get_Size());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font()->get_Color().ToArgb());
@@ -96,17 +101,17 @@ ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), firstParagraphStyle->get_Font(
 
 Shows how to create and use a paragraph style with list formatting. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a custom paragraph style.
-SharedPtr<Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle1");
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle1");
 style->get_Font()->set_Size(24);
 style->get_Font()->set_Name(u"Verdana");
 style->get_ParagraphFormat()->set_SpaceAfter(12);
 
 // Create a list and make sure the paragraphs that use this style will use this list.
-style->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
+style->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
 style->get_ListFormat()->set_ListLevelNumber(0);
 
 // Apply the paragraph style to the document builder's current paragraph, and then add some text.
@@ -117,7 +122,7 @@ builder->Writeln(u"Hello World: MyStyle1, bulleted list.");
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"));
 builder->Writeln(u"Hello World: Normal.");
 
-builder->get_Document()->Save(ArtifactsDir + u"Styles.ParagraphStyleBulletedList.docx");
+builder->get_Document()->Save(get_ArtifactsDir() + u"Styles.ParagraphStyleBulletedList.docx");
 ```
 
 ## See Also

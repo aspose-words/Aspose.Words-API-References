@@ -27,6 +27,29 @@ If [ImagesFolderAlias](./) is an empty string, then the image URI written to Mar
 
 If [ImagesFolderAlias](./) is set to '.' (dot), then the image file name will be written to Markdown without path regardless of other options.
 
+## Examples
+
+
+
+Shows how to specifies the name of the folder used to construct image URIs. 
+```cpp
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
+
+builder->Writeln(u"Some image below:");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+
+System::String imagesFolder = System::IO::Path::Combine(get_ArtifactsDir(), u"ImagesDir");
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+// Use the "ImagesFolder" property to assign a folder in the local file system into which
+// Aspose.Words will save all the document's linked images.
+saveOptions->set_ImagesFolder(imagesFolder);
+// Use the "ImagesFolderAlias" property to use this folder
+// when constructing image URIs instead of the images folder's name.
+saveOptions->set_ImagesFolderAlias(u"http://example.com/images");
+
+builder->get_Document()->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImagesFolder.md", saveOptions);
+```
+
 ## See Also
 
 * Class [MarkdownSaveOptions](../)

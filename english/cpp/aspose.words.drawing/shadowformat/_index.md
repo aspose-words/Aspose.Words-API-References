@@ -22,12 +22,27 @@ class ShadowFormat : public System::Object
 | --- | --- |
 | [Clear](./clear/)() | Clears shadow format. |
 | [get_Color](./get_color/)() | Gets a **Color** object that represents the color for the shadow. The default value is **Black**. |
-| [get_Type](./get_type/)() | Gets the specified [ShadowType](../shadowtype/) for [ShadowFormat](./). |
+| [get_Type](./get_type/)() | Gets or sets the specified [ShadowType](../shadowtype/) for [ShadowFormat](./). |
 | [get_Visible](./get_visible/)() | Returns **true** if the formatting applied to this instance is visible. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Type](./set_type/)(Aspose::Words::Drawing::ShadowType) | Sets the specified [ShadowType](../shadowtype/) for [ShadowFormat](./). |
+| [set_Type](./set_type/)(Aspose::Words::Drawing::ShadowType) | Setter for [Aspose::Words::Drawing::ShadowFormat::get_Type](./get_type/). |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to get shadow color. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shadow color.docx");
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
+System::SharedPtr<Aspose::Words::Drawing::ShadowFormat> shadowFormat = shape->get_ShadowFormat();
+
+ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), shadowFormat->get_Color().ToArgb());
+ASSERT_EQ(Aspose::Words::Drawing::ShadowType::ShadowMixed, shadowFormat->get_Type());
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Drawing](../)

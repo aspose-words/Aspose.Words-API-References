@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDdeAuto::set_InsertAsRtf method
 linktitle: set_InsertAsRtf
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDdeAuto::set_InsertAsRtf method. Setter for Aspose::Words::Fields::FieldDdeAuto::get_InsertAsRtf in C++.'
+description: 'Aspose::Words::Fields::FieldDdeAuto::set_InsertAsRtf method. Sets whether to insert the linked object in rich-text format (RTF) in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.fields/fieldddeauto/set_insertasrtf/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldddeauto/set_insertasrtf/
 ## FieldDdeAuto::set_InsertAsRtf method
 
 
-Setter for [Aspose::Words::Fields::FieldDdeAuto::get_InsertAsRtf](../get_insertasrtf/).
+Sets whether to insert the linked object in rich-text format (RTF).
 
 ```cpp
 void Aspose::Words::Fields::FieldDdeAuto::set_InsertAsRtf(bool value)

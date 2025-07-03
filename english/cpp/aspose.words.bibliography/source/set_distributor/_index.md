@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_Distributor method
 linktitle: set_Distributor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_Distributor method. Sets the distributor of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_Distributor method. Setter for Aspose::Words::Bibliography::Source::get_Distributor in C++.'
 type: docs
 weight: 73000
 url: /cpp/aspose.words.bibliography/source/set_distributor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_distributor/
 ## Source::set_Distributor method
 
 
-Sets the distributor of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_Distributor](../get_distributor/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_Distributor(const System::String &value)

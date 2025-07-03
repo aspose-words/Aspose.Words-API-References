@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::ContributorCollection::set_Interviewer method
 linktitle: set_Interviewer
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::ContributorCollection::set_Interviewer method. Sets the interviewer of a source in C++.'
+description: 'Aspose::Words::Bibliography::ContributorCollection::set_Interviewer method. Setter for Aspose::Words::Bibliography::ContributorCollection::get_Interviewer in C++.'
 type: docs
 weight: 30000
 url: /cpp/aspose.words.bibliography/contributorcollection/set_interviewer/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/contributorcollection/set_interviewer/
 ## ContributorCollection::set_Interviewer method
 
 
-Sets the interviewer of a source.
+Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Interviewer](../get_interviewer/).
 
 ```cpp
 void Aspose::Words::Bibliography::ContributorCollection::set_Interviewer(const System::SharedPtr<Aspose::Words::Bibliography::Contributor> &value)

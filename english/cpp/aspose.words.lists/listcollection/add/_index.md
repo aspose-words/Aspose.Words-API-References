@@ -37,8 +37,8 @@ All lists created using this method have 9 list levels.
 
 Shows how to work with list levels. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 
@@ -49,7 +49,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -57,21 +57,21 @@ ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 // to begin a self-contained sub-list at the current list item.
 // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
 // Deeper list levels use letters and lowercase Roman numerals.
-for (int i = 0; i < 9; i++)
+for (int32_t i = 0; i < 9; i++)
 {
     builder->get_ListFormat()->set_ListLevelNumber(i);
-    builder->Writeln(String(u"Level ") + i);
+    builder->Writeln(System::String(u"Level ") + i);
 }
 
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
 
-for (int i = 0; i < 9; i++)
+for (int32_t i = 0; i < 9; i++)
 {
     builder->get_ListFormat()->set_ListLevelNumber(i);
-    builder->Writeln(String(u"Level ") + i);
+    builder->Writeln(System::String(u"Level ") + i);
 }
 
 // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
@@ -79,25 +79,25 @@ builder->get_ListFormat()->set_List(nullptr);
 
 ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 
-doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
+doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
 
 Shows how to restart numbering in a list by copying a list. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 // We can create nested lists by increasing the indent level.
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // Create a list from a Microsoft Word template, and customize its first list level.
-SharedPtr<List> list1 = doc->get_Lists()->Add(ListTemplate::NumberArabicParenthesis);
+System::SharedPtr<Aspose::Words::Lists::List> list1 = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberArabicParenthesis);
 list1->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Red());
-list1->get_ListLevels()->idx_get(0)->set_Alignment(ListLevelAlignment::Right);
+list1->get_ListLevels()->idx_get(0)->set_Alignment(Aspose::Words::Lists::ListLevelAlignment::Right);
 
 // Apply our list to some paragraphs.
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"List 1 starts below:");
 builder->get_ListFormat()->set_List(list1);
@@ -107,7 +107,7 @@ builder->get_ListFormat()->RemoveNumbers();
 
 // We can add a copy of an existing list to the document's list collection
 // to create a similar list without making changes to the original.
-SharedPtr<List> list2 = doc->get_Lists()->AddCopy(list1);
+System::SharedPtr<Aspose::Words::Lists::List> list2 = doc->get_Lists()->AddCopy(list1);
 list2->get_ListLevels()->idx_get(0)->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 list2->get_ListLevels()->idx_get(0)->set_StartAt(10);
 
@@ -118,32 +118,38 @@ builder->Writeln(u"Item 1");
 builder->Writeln(u"Item 2");
 builder->get_ListFormat()->RemoveNumbers();
 
-doc->Save(ArtifactsDir + u"Lists.RestartNumberingUsingListCopy.docx");
+doc->Save(get_ArtifactsDir() + u"Lists.RestartNumberingUsingListCopy.docx");
 ```
 
 
 Shows how to create a list by applying a new list format to a collection of paragraphs. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Paragraph 1");
 builder->Writeln(u"Paragraph 2");
 builder->Write(u"Paragraph 3");
 
-SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
 
-ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
+}))));
 
-SharedPtr<List> list = doc->get_Lists()->Add(ListTemplate::NumberUppercaseLetterDot);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberUppercaseLetterDot);
 
-for (const auto& paragraph : System::IterateOver(paras->LINQ_OfType<SharedPtr<Paragraph>>()))
+for (auto&& paragraph : System::IterateOver(paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()))
 {
     paragraph->get_ListFormat()->set_List(list);
     paragraph->get_ListFormat()->set_ListLevelNumber(1);
 }
 
-ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
+}))));
 ```
 
 ## See Also
@@ -181,16 +187,16 @@ The newly created list references the list style. If you change the properties o
 
 Shows how to create a list style and use it in a document. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 // We can create nested lists by increasing the indent level.
 // We can begin and end a list by using a document builder's "ListFormat" property.
 // Each paragraph that we add between a list's start and the end will become an item in the list.
 // We can contain an entire List object within a style.
-SharedPtr<Style> listStyle = doc->get_Styles()->Add(StyleType::List, u"MyListStyle");
+System::SharedPtr<Aspose::Words::Style> listStyle = doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle");
 
-SharedPtr<List> list1 = listStyle->get_List();
+System::SharedPtr<Aspose::Words::Lists::List> list1 = listStyle->get_List();
 
 ASSERT_TRUE(list1->get_IsListStyleDefinition());
 ASSERT_FALSE(list1->get_IsListStyleReference());
@@ -198,19 +204,19 @@ ASSERT_TRUE(list1->get_IsMultiLevel());
 ASPOSE_ASSERT_EQ(listStyle, list1->get_Style());
 
 // Change the appearance of all list levels in our list.
-for (const auto& level : list1->get_ListLevels())
+for (auto&& level : list1->get_ListLevels())
 {
     level->get_Font()->set_Name(u"Verdana");
     level->get_Font()->set_Color(System::Drawing::Color::get_Blue());
     level->get_Font()->set_Bold(true);
 }
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Using list style first time:");
 
 // Create another list from a list within a style.
-SharedPtr<List> list2 = doc->get_Lists()->Add(listStyle);
+System::SharedPtr<Aspose::Words::Lists::List> list2 = doc->get_Lists()->Add(listStyle);
 
 ASSERT_FALSE(list2->get_IsListStyleDefinition());
 ASSERT_TRUE(list2->get_IsListStyleReference());
@@ -225,13 +231,13 @@ builder->get_ListFormat()->RemoveNumbers();
 builder->Writeln(u"Using list style second time:");
 
 // Create and apply another list based on the list style.
-SharedPtr<List> list3 = doc->get_Lists()->Add(listStyle);
+System::SharedPtr<Aspose::Words::Lists::List> list3 = doc->get_Lists()->Add(listStyle);
 builder->get_ListFormat()->set_List(list3);
 builder->Writeln(u"Item 1");
 builder->Writeln(u"Item 2");
 builder->get_ListFormat()->RemoveNumbers();
 
-builder->get_Document()->Save(ArtifactsDir + u"Lists.CreateAndUseListStyle.docx");
+builder->get_Document()->Save(get_ArtifactsDir() + u"Lists.CreateAndUseListStyle.docx");
 ```
 
 ## See Also

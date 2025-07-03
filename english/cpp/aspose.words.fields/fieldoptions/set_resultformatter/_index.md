@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldOptions::set_ResultFormatter method
 linktitle: set_ResultFormatter
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldOptions::set_ResultFormatter method. Setter for Aspose::Words::Fields::FieldOptions::get_ResultFormatter in C++.'
+description: 'Aspose::Words::Fields::FieldOptions::set_ResultFormatter method. Allows to control how the field result is formatted in C++.'
 type: docs
 weight: 41000
 url: /cpp/aspose.words.fields/fieldoptions/set_resultformatter/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldoptions/set_resultformatter/
 ## FieldOptions::set_ResultFormatter method
 
 
-Setter for [Aspose::Words::Fields::FieldOptions::get_ResultFormatter](../get_resultformatter/).
+Allows to control how the field result is formatted.
 
 ```cpp
 void Aspose::Words::Fields::FieldOptions::set_ResultFormatter(const System::SharedPtr<Aspose::Words::Fields::IFieldResultFormatter> &value)

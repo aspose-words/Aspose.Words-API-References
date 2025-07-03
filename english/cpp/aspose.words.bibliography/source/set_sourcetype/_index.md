@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_SourceType method
 linktitle: set_SourceType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_SourceType method. Sets the source type of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_SourceType method. Setter for Aspose::Words::Bibliography::Source::get_SourceType in C++.'
 type: docs
 weight: 96000
 url: /cpp/aspose.words.bibliography/source/set_sourcetype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_sourcetype/
 ## Source::set_SourceType method
 
 
-Sets the source type of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_SourceType](../get_sourcetype/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_SourceType(Aspose::Words::Bibliography::SourceType value)

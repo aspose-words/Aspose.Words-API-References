@@ -23,11 +23,11 @@ bool Aspose::Words::Markup::StructuredDocumentTag::get_IsTemporary() const
 
 Shows how to make single-use controls. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Insert a plain text structured document tag,
 // which will act as a plain text form that the user may enter text into.
-auto tag = MakeObject<StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
 
 // Set the "IsTemporary" property to "true" to make the structured document tag disappear and
 // assimilate its contents into the document after the user edits it once in Microsoft Word.
@@ -35,12 +35,12 @@ auto tag = MakeObject<StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLeve
 // of the structured document tag any number of times.
 tag->set_IsTemporary(isTemporary);
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Please enter text: ");
 builder->InsertNode(tag);
 
 // Insert another structured document tag in the form of a check box and set its default state to "checked".
-tag = MakeObject<StructuredDocumentTag>(doc, SdtType::Checkbox, MarkupLevel::Inline);
+tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::Checkbox, Aspose::Words::Markup::MarkupLevel::Inline);
 tag->set_Checked(true);
 
 // Set the "IsTemporary" property to "true" to make the check box become a symbol
@@ -51,7 +51,7 @@ tag->set_IsTemporary(isTemporary);
 builder->Write(u"\nPlease click the check box: ");
 builder->InsertNode(tag);
 
-doc->Save(ArtifactsDir + u"StructuredDocumentTag.IsTemporary.docx");
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.IsTemporary.docx");
 ```
 
 ## See Also

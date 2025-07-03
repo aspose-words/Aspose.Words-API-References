@@ -21,50 +21,27 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 
 
-Shows how to traverse through a composite node's collection of child nodes. 
+Shows how to print all of a document's comments and their replies. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Comments.docx");
 
-// Add two runs and one shape as child nodes to the first paragraph of this document.
-auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
-paragraph->AppendChild(MakeObject<Run>(doc, u"Hello world! "));
+System::SharedPtr<Aspose::Words::NodeCollection> comments = doc->GetChildNodes(Aspose::Words::NodeType::Comment, true);
 
-auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
-shape->set_Width(200);
-shape->set_Height(200);
-// Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
-shape->set_CustomNodeId(100);
-shape->set_WrapType(WrapType::Inline);
-paragraph->AppendChild(shape);
-
-paragraph->AppendChild(MakeObject<Run>(doc, u"Hello again!"));
-
-// Iterate through the paragraph's collection of immediate children,
-// and print any runs or shapes that we find within.
-SharedPtr<NodeCollection> children = paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false);
-
-ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count());
-
-for (const auto& child : System::IterateOver(children))
+// If a comment has no ancestor, it is a "top-level" comment as opposed to a reply-type comment.
+// Print all top-level comments along with any replies they may have.
+for (auto&& comment : comments->LINQ_OfType<System::SharedPtr<Aspose::Words::Comment> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Comment>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Comment> c)>>([](System::SharedPtr<Aspose::Words::Comment> c) -> bool
 {
-    switch (child->get_NodeType())
+    return c->get_Ancestor() == nullptr;
+})))->LINQ_ToList())
+{
+    std::cout << "Top-level comment:" << std::endl;
+    std::cout << System::String::Format(u"\t\"{0}\", by {1}", comment->GetText().Trim(), comment->get_Author()) << std::endl;
+    std::cout << System::String::Format(u"Has {0} replies", comment->get_Replies()->get_Count()) << std::endl;
+    for (auto&& commentReply : System::IterateOver<Aspose::Words::Comment>(comment->get_Replies()))
     {
-    case NodeType::Run:
-        std::cout << "Run contents:" << std::endl;
-        std::cout << "\t\"" << child->GetText().Trim() << "\"" << std::endl;
-        break;
-
-    case NodeType::Shape: {
-        auto childShape = System::ExplicitCast<Shape>(child);
-        std::cout << "Shape:" << std::endl;
-        std::cout << String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-        ASSERT_EQ(100, shape->get_CustomNodeId());
-        break;
+        std::cout << System::String::Format(u"\t\"{0}\", by {1}", commentReply->GetText().Trim(), commentReply->get_Author()) << std::endl;
     }
-
-    default:
-        break;
-    }
+    std::cout << std::endl;
 }
 ```
 

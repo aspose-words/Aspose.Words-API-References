@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_City method
 linktitle: set_City
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_City method. Sets the city of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_City method. Setter for Aspose::Words::Bibliography::Source::get_City in C++.'
 type: docs
 weight: 65000
 url: /cpp/aspose.words.bibliography/source/set_city/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_city/
 ## Source::set_City method
 
 
-Sets the city of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_City](../get_city/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_City(const System::String &value)

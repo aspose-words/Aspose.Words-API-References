@@ -23,23 +23,14 @@ bool Aspose::Words::Fonts::FontInfoCollection::get_SaveSubsetFonts() const
 
 Shows how to save a document with embedded TrueType fonts. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-SharedPtr<Aspose::Words::Fonts::FontInfoCollection> fontInfos = doc->get_FontInfos();
+System::SharedPtr<Aspose::Words::Fonts::FontInfoCollection> fontInfos = doc->get_FontInfos();
 fontInfos->set_EmbedTrueTypeFonts(embedAllFonts);
 fontInfos->set_EmbedSystemFonts(embedAllFonts);
 fontInfos->set_SaveSubsetFonts(embedAllFonts);
 
-doc->Save(ArtifactsDir + u"Font.FontInfoCollection.docx");
-
-if (embedAllFonts)
-{
-    ASSERT_LT(25000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Font.FontInfoCollection.docx")->get_Length());
-}
-else
-{
-    ASSERT_GE(15000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"Font.FontInfoCollection.docx")->get_Length());
-}
+doc->Save(get_ArtifactsDir() + u"Font.FontInfoCollection.docx");
 ```
 
 ## See Also

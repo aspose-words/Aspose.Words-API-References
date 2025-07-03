@@ -34,6 +34,33 @@ class MultiPageLayout : public System::Object
 | static [TiffFrames](./tiffframes/)() | Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image. Applicable only to TIFF image formats. |
 | static [Type](./type/)() |  |
 | static [Vertical](./vertical/)(float) | Creates a layout where all specified pages are rendered vertically one below the other in a single output. |
+
+## Examples
+
+
+
+Shows how to save the document into JPG image with multi-page layout settings. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+// Set up a grid layout with:
+// - 3 columns per row.
+// - 10pts spacing between pages (horizontal and vertical).
+options->set_PageLayout(Aspose::Words::Saving::MultiPageLayout::Grid(3, 10.0f, 10.0f));
+
+// Alternative layouts:
+// options.MultiPageLayout = MultiPageLayout.Horizontal(10);
+// options.MultiPageLayout = MultiPageLayout.Vertical(10);
+
+// Customize the background and border.
+options->get_PageLayout()->set_BackColor(System::Drawing::Color::get_LightGray());
+options->get_PageLayout()->set_BorderColor(System::Drawing::Color::get_Blue());
+options->get_PageLayout()->set_BorderWidth(2.0f);
+
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.GridLayout.jpg", options);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

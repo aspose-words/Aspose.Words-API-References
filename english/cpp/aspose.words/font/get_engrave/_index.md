@@ -23,8 +23,8 @@ bool Aspose::Words::Font::get_Engrave()
 
 Shows how to apply engraving/embossing effects to text. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(36);
 builder->get_Font()->set_Color(System::Drawing::Color::get_LightBlue());
@@ -41,7 +41,7 @@ builder->get_Font()->set_Emboss(true);
 
 builder->Writeln(u"This text is embossed.");
 
-doc->Save(ArtifactsDir + u"Font.EngraveEmboss.docx");
+doc->Save(get_ArtifactsDir() + u"Font.EngraveEmboss.docx");
 ```
 
 ## See Also

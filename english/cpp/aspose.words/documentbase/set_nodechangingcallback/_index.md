@@ -2,7 +2,7 @@
 title: Aspose::Words::DocumentBase::set_NodeChangingCallback method
 linktitle: set_NodeChangingCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DocumentBase::set_NodeChangingCallback method. Setter for Aspose::Words::DocumentBase::get_NodeChangingCallback in C++.'
+description: 'Aspose::Words::DocumentBase::set_NodeChangingCallback method. Called when a node is inserted or removed in the document in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words/documentbase/set_nodechangingcallback/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentbase/set_nodechangingcallback/
 ## DocumentBase::set_NodeChangingCallback method
 
 
-Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../get_nodechangingcallback/).
+Called when a node is inserted or removed in the document.
 
 ```cpp
 void Aspose::Words::DocumentBase::set_NodeChangingCallback(const System::SharedPtr<Aspose::Words::INodeChangingCallback> &value)

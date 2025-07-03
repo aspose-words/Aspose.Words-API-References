@@ -35,32 +35,30 @@ No new section is created in the destination document.
 
 Shows how to append the contents of a section to another section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Write(u"Section 2");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Write(u"Section 3");
 
-SharedPtr<Section> section = doc->get_Sections()->idx_get(2);
+System::SharedPtr<Aspose::Words::Section> section = doc->get_Sections()->idx_get(2);
 
-ASSERT_EQ(String(u"Section 3") + ControlChar::SectionBreak(), section->GetText());
+ASSERT_EQ(System::String(u"Section 3") + Aspose::Words::ControlChar::SectionBreak(), section->GetText());
 
 // Insert the contents of the first section to the beginning of the third section.
-SharedPtr<Section> sectionToPrepend = doc->get_Sections()->idx_get(0);
+System::SharedPtr<Aspose::Words::Section> sectionToPrepend = doc->get_Sections()->idx_get(0);
 section->PrependContent(sectionToPrepend);
 
 // Insert the contents of the second section to the end of the third section.
-SharedPtr<Section> sectionToAppend = doc->get_Sections()->idx_get(1);
+System::SharedPtr<Aspose::Words::Section> sectionToAppend = doc->get_Sections()->idx_get(1);
 section->AppendContent(sectionToAppend);
 
 // The "PrependContent" and "AppendContent" methods did not create any new sections.
 ASSERT_EQ(3, doc->get_Sections()->get_Count());
-ASSERT_EQ(String(u"Section 1") + ControlChar::ParagraphBreak() + u"Section 3" + ControlChar::ParagraphBreak() + u"Section 2" +
-              ControlChar::SectionBreak(),
-          section->GetText());
+ASSERT_EQ(System::String(u"Section 1") + Aspose::Words::ControlChar::ParagraphBreak() + u"Section 3" + Aspose::Words::ControlChar::ParagraphBreak() + u"Section 2" + Aspose::Words::ControlChar::SectionBreak(), section->GetText());
 ```
 
 ## See Also

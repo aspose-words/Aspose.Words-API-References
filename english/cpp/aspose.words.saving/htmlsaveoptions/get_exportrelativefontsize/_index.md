@@ -31,8 +31,8 @@ When this option is enabled, document elements other than text will still have a
 
 Shows how to use relative font sizes when saving to .html. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Default font size, ");
 builder->get_Font()->set_Size(24);
@@ -46,28 +46,20 @@ builder->Write(u"8x default font size");
 // using the "em" measurement unit, which is a factor that multiplies the current font size.
 // Set the "ExportRelativeFontSize" flag to "false" to declare font sizes
 // using the "pt" measurement unit, which is the font's absolute size in points.
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportRelativeFontSize(exportRelativeFontSize);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.RelativeFontSize.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.RelativeFontSize.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.RelativeFontSize.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.RelativeFontSize.html");
 
 if (exportRelativeFontSize)
 {
-    ASSERT_TRUE(outDocContents.Contains(String(u"<body style=\"font-family:'Times New Roman'\">") + u"<div>" +
-                                        u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Default font size, </span>" + u"</p>" +
-                                        u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:2em\">" + u"<span>2x default font size,</span>" +
-                                        u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:8em\">" +
-                                        u"<span>8x default font size</span>" + u"</p>" + u"</div>" + u"</body>"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<body style=\"font-family:'Times New Roman'\">") + u"<div>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Default font size, </span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:2em\">" + u"<span>2x default font size,</span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:8em\">" + u"<span>8x default font size</span>" + u"</p>" + u"</div>" + u"</body>"));
 }
 else
 {
-    ASSERT_TRUE(outDocContents.Contains(String(u"<body style=\"font-family:'Times New Roman'; font-size:12pt\">") + u"<div>" +
-                                        u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Default font size, </span>" + u"</p>" +
-                                        u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:24pt\">" + u"<span>2x default font size,</span>" +
-                                        u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:96pt\">" +
-                                        u"<span>8x default font size</span>" + u"</p>" + u"</div>" + u"</body>"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<body style=\"font-family:'Times New Roman'; font-size:12pt\">") + u"<div>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt\">" + u"<span>Default font size, </span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:24pt\">" + u"<span>2x default font size,</span>" + u"</p>" + u"<p style=\"margin-top:0pt; margin-bottom:0pt; font-size:96pt\">" + u"<span>8x default font size</span>" + u"</p>" + u"</div>" + u"</body>"));
 }
 ```
 

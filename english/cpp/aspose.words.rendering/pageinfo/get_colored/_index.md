@@ -16,6 +16,19 @@ Returns **true** if the page contains colored content.
 bool Aspose::Words::Rendering::PageInfo::get_Colored()
 ```
 
+
+## Examples
+
+
+
+Shows how to check whether the page is in color or not. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+
+// Check that the first page of the document is not colored.
+ASSERT_FALSE(doc->GetPageInfo(0)->get_Colored());
+```
+
 ## See Also
 
 * Class [PageInfo](../)

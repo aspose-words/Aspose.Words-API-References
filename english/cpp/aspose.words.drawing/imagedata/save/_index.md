@@ -25,40 +25,6 @@ void Aspose::Words::Drawing::ImageData::Save(const System::SharedPtr<System::IO:
 
 Is it the responsibility of the caller to dispose the stream object.
 
-## Examples
-
-
-
-Shows how to save all images from a document to the file system. 
-```cpp
-auto imgSourceDoc = MakeObject<Document>(MyDir + u"Images.docx");
-
-// Shapes with the "HasImage" flag set store and display all the document's images.
-auto shapesWithImages =
-    imgSourceDoc->GetChildNodes(NodeType::Shape, true)->LINQ_Cast<SharedPtr<Shape>>()->LINQ_Where([](SharedPtr<Shape> s) { return s->get_HasImage(); });
-
-// Go through each shape and save its image.
-auto formatConverter = MakeObject<System::Drawing::ImageFormatConverter>();
-
-{
-    SharedPtr<System::Collections::Generic::IEnumerator<SharedPtr<Shape>>> enumerator = shapesWithImages->GetEnumerator();
-    int shapeIndex = 0;
-
-    while (enumerator->MoveNext())
-    {
-        SharedPtr<ImageData> imageData = enumerator->get_Current()->get_ImageData();
-        SharedPtr<System::Drawing::Imaging::ImageFormat> format = imageData->ToImage()->get_RawFormat();
-        String fileExtension = formatConverter->ConvertToString(format);
-
-        {
-            SharedPtr<System::IO::FileStream> fileStream =
-                System::IO::File::Create(ArtifactsDir + String::Format(u"Drawing.SaveAllImages.{0}.{1}", ++shapeIndex, fileExtension));
-            imageData->Save(fileStream);
-        }
-    }
-}
-```
-
 ## See Also
 
 * Class [ImageData](../)
@@ -84,24 +50,26 @@ void Aspose::Words::Drawing::ImageData::Save(const System::String &fileName)
 
 Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
 
 // Get the collection of shapes from the document,
 // and save the image data of every shape with an image as a file to the local file system.
-SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Drawing::Shape>(s))->get_HasImage();
+}))));
 
-int imageIndex = 0;
-for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
+int32_t imageIndex = 0;
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
 {
     if (shape->get_HasImage())
     {
         // The image data of shapes may contain images of many possible image formats.
         // We can determine a file extension for each image automatically, based on its format.
-        String imageFileName =
-            String::Format(u"File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
-        shape->get_ImageData()->Save(ArtifactsDir + imageFileName);
+        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, Aspose::Words::FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
+        shape->get_ImageData()->Save(get_ArtifactsDir() + imageFileName);
         imageIndex++;
     }
 }

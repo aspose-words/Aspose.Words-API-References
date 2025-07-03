@@ -76,15 +76,15 @@ class TableStyle : public Aspose::Words::Style,
 | [set_LeftIndent](./set_leftindent/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftIndent](./get_leftindent/). |
 | [set_LeftPadding](./set_leftpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_LeftPadding](./get_leftpadding/). |
 | [set_LinkedStyleName](../style/set_linkedstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_LinkedStyleName](../style/get_linkedstylename/). |
-| [set_Locked](../style/set_locked/)(bool) | Specifies whether this style is locked. |
+| [set_Locked](../style/set_locked/)(bool) | Setter for [Aspose::Words::Style::get_Locked](../style/get_locked/). |
 | [set_Name](../style/set_name/)(const System::String\&) | Setter for [Aspose::Words::Style::get_Name](../style/get_name/). |
 | [set_NextParagraphStyleName](../style/set_nextparagraphstylename/)(const System::String\&) | Setter for [Aspose::Words::Style::get_NextParagraphStyleName](../style/get_nextparagraphstylename/). |
-| [set_Priority](../style/set_priority/)(int32_t) | Gets/sets the integer value that represents the priority for sorting the styles in the Styles task pane. |
+| [set_Priority](../style/set_priority/)(int32_t) | Setter for [Aspose::Words::Style::get_Priority](../style/get_priority/). |
 | [set_RightPadding](./set_rightpadding/)(double) | Setter for [Aspose::Words::TableStyle::get_RightPadding](./get_rightpadding/). |
 | [set_RowStripe](./set_rowstripe/)(int32_t) | Setter for [Aspose::Words::TableStyle::get_RowStripe](./get_rowstripe/). |
-| [set_SemiHidden](../style/set_semihidden/)(bool) | Gets/sets whether the style hides from the Styles gallery and from the Styles task pane. |
+| [set_SemiHidden](../style/set_semihidden/)(bool) | Setter for [Aspose::Words::Style::get_SemiHidden](../style/get_semihidden/). |
 | [set_TopPadding](./set_toppadding/)(double) | Setter for [Aspose::Words::TableStyle::get_TopPadding](./get_toppadding/). |
-| [set_UnhideWhenUsed](../style/set_unhidewhenused/)(bool) | Gets/sets whether the style used in the current document unhides from the Styles gallery and from the Styles task pane. True when the used style should be shown in the Styles gallery. |
+| [set_UnhideWhenUsed](../style/set_unhidewhenused/)(bool) | Setter for [Aspose::Words::Style::get_UnhideWhenUsed](../style/get_unhidewhenused/). |
 | [set_VerticalAlignment](./set_verticalalignment/)(Aspose::Words::Tables::CellVerticalAlignment) | Setter for [Aspose::Words::TableStyle::get_VerticalAlignment](./get_verticalalignment/). |
 | static [Type](./type/)() |  |
 
@@ -94,10 +94,10 @@ class TableStyle : public Aspose::Words::Style,
 
 Shows how to create custom style settings for the table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Name");
 builder->InsertCell();
@@ -107,7 +107,7 @@ builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_AllowBreakAcrossPages(true);
 tableStyle->set_Bidi(true);
 tableStyle->set_CellSpacing(5);
@@ -117,8 +117,8 @@ tableStyle->set_RightPadding(10);
 tableStyle->set_TopPadding(20);
 tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
-tableStyle->get_Borders()->set_LineStyle(LineStyle::DotDash);
-tableStyle->set_VerticalAlignment(CellVerticalAlignment::Center);
+tableStyle->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::DotDash);
+tableStyle->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
 
 table->set_Style(tableStyle);
 
@@ -127,7 +127,7 @@ ASSERT_TRUE(table->get_Bidi());
 ASPOSE_ASSERT_EQ(5.0, table->get_CellSpacing());
 ASSERT_EQ(u"MyTableStyle1", table->get_StyleName());
 
-doc->Save(ArtifactsDir + u"Table.TableStyleCreation.docx");
+doc->Save(get_ArtifactsDir() + u"Table.TableStyleCreation.docx");
 ```
 
 ## See Also

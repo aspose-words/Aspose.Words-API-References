@@ -32,42 +32,27 @@ Additional information that you can optionally use.
 
 Shows how to save a document to an image via stream, and then read the image from that stream. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Times New Roman");
 builder->get_Font()->set_Size(24);
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-builder->InsertImage(ImageDir + u"Logo.jpg");
-
-{
-    auto stream = MakeObject<System::IO::MemoryStream>();
-    doc->Save(stream, SaveFormat::Bmp);
-
-    stream->set_Position(0);
-
-    // Read the stream back into an image.
-    {
-        SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
-        ASPOSE_ASSERT_EQ(System::Drawing::Imaging::ImageFormat::get_Bmp(), image->get_RawFormat());
-        ASSERT_EQ(816, image->get_Width());
-        ASSERT_EQ(1056, image->get_Height());
-    }
-}
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 ```
 
 
 Shows how to save a document to a stream. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
 {
-    auto dstStream = MakeObject<System::IO::MemoryStream>();
-    doc->Save(dstStream, SaveFormat::Docx);
+    auto dstStream = System::MakeObject<System::IO::MemoryStream>();
+    doc->Save(dstStream, Aspose::Words::SaveFormat::Docx);
 
     // Verify that the stream contains the document.
-    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", MakeObject<Document>(dstStream)->GetText().Trim());
+    ASSERT_EQ(u"Hello World!\r\rHello Word!\r\r\rHello World!", System::MakeObject<Aspose::Words::Document>(dstStream)->GetText().Trim());
 }
 ```
 
@@ -96,35 +81,6 @@ System::SharedPtr<Aspose::Words::Saving::SaveOutputParameters> Aspose::Words::Do
 ### ReturnValue
 
 Additional information that you can optionally use.
-
-## Examples
-
-
-
-Shows how to convert only some of the pages in a document to PDF. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-builder->Writeln(u"Page 1.");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page 2.");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page 3.");
-
-{
-    SharedPtr<System::IO::Stream> stream = System::IO::File::Create(ArtifactsDir + u"PdfSaveOptions.OnePage.pdf");
-    // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-    // to modify how that method converts the document to .PDF.
-    auto options = MakeObject<PdfSaveOptions>();
-
-    // Set the "PageIndex" to "1" to render a portion of the document starting from the second page.
-    options->set_PageSet(MakeObject<PageSet>(1));
-
-    // This document will contain one page starting from page two, which will only contain the second page.
-    doc->Save(stream, options);
-}
-```
 
 ## See Also
 
@@ -157,9 +113,9 @@ Additional information that you can optionally use.
 
 Shows how to open a document and convert it to .PDF. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-doc->Save(ArtifactsDir + u"Document.ConvertToPdf.pdf");
+doc->Save(get_ArtifactsDir() + u"Document.ConvertToPdf.pdf");
 ```
 
 ## See Also
@@ -193,9 +149,9 @@ Additional information that you can optionally use.
 
 Shows how to convert from DOCX to HTML format. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-doc->Save(ArtifactsDir + u"Document.ConvertToHtml.html", SaveFormat::Html);
+doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", Aspose::Words::SaveFormat::Html);
 ```
 
 ## See Also
@@ -228,139 +184,99 @@ Additional information that you can optionally use.
 
 
 
+Shows how to improve the quality of a rendered document with SaveOptions. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_Font()->set_Size(60);
+builder->Writeln(u"Some text.");
+
+System::SharedPtr<Aspose::Words::Saving::SaveOptions> options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+
+doc->Save(get_ArtifactsDir() + u"Document.ImageSaveOptions.Default.jpg", options);
+
+options->set_UseAntiAliasing(true);
+options->set_UseHighQualityRendering(true);
+
+doc->Save(get_ArtifactsDir() + u"Document.ImageSaveOptions.HighQuality.jpg", options);
+```
+
+
 Shows how to render one page from a document to a JPEG image. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
-builder->InsertImage(ImageDir + u"Logo.jpg");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = MakeObject<ImageSaveOptions>(SaveFormat::Jpeg);
-
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
 // Set the "PageSet" to "1" to select the second page via
 // the zero-based index to start rendering the document from.
-options->set_PageSet(MakeObject<PageSet>(1));
+options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
 
 // When we save the document to the JPEG format, Aspose.Words only renders one page.
 // This image will contain one page starting from page two,
 // which will just be the second page of the original document.
-doc->Save(ArtifactsDir + u"ImageSaveOptions.OnePage.jpg", options);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
 ```
 
 
 Shows how to render every page of a document to a separate TIFF image. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
-builder->InsertImage(ImageDir + u"Logo.jpg");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = MakeObject<ImageSaveOptions>(SaveFormat::Tiff);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
 
-for (int i = 0; i < doc->get_PageCount(); i++)
+for (int32_t i = 0; i < doc->get_PageCount(); i++)
 {
     // Set the "PageSet" property to the number of the first page from
     // which to start rendering the document from.
-    options->set_PageSet(MakeObject<PageSet>(i));
+    options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(i));
+    // Export page at 2325x5325 pixels and 600 dpi.
+    options->set_Resolution(600.0f);
+    options->set_ImageSize(System::Drawing::Size(2325, 5325));
 
-    doc->Save(ArtifactsDir + String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
+    doc->Save(get_ArtifactsDir() + System::String::Format(u"ImageSaveOptions.PageByPage.{0}.tiff", i + 1), options);
 }
 ```
 
 
 Shows how to configure compression while saving a document as a JPEG. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->InsertImage(ImageDir + u"Logo.jpg");
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto imageOptions = MakeObject<ImageSaveOptions>(SaveFormat::Jpeg);
-
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
 // Set the "JpegQuality" property to "10" to use stronger compression when rendering the document.
 // This will reduce the file size of the document, but the image will display more prominent compression artifacts.
 imageOptions->set_JpegQuality(10);
-
-doc->Save(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
-
-ASSERT_GE(20000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighCompression.jpg")->get_Length());
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighCompression.jpg", imageOptions);
 
 // Set the "JpegQuality" property to "100" to use weaker compression when rending the document.
 // This will improve the quality of the image at the cost of an increased file size.
 imageOptions->set_JpegQuality(100);
-
-doc->Save(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
-
-ASSERT_LT(60000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.JpegQuality.HighQuality.jpg")->get_Length());
-```
-
-
-Shows how to convert a whole document to PDF with three levels in the document outline. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Insert headings of levels 1 to 5.
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
-
-ASSERT_TRUE(builder->get_ParagraphFormat()->get_IsHeading());
-
-builder->Writeln(u"Heading 1");
-
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
-
-builder->Writeln(u"Heading 1.1");
-builder->Writeln(u"Heading 1.2");
-
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
-
-builder->Writeln(u"Heading 1.2.1");
-builder->Writeln(u"Heading 1.2.2");
-
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading4);
-
-builder->Writeln(u"Heading 1.2.2.1");
-builder->Writeln(u"Heading 1.2.2.2");
-
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading5);
-
-builder->Writeln(u"Heading 1.2.2.2.1");
-builder->Writeln(u"Heading 1.2.2.2.2");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-auto options = MakeObject<PdfSaveOptions>();
-
-// The output PDF document will contain an outline, which is a table of contents that lists headings in the document body.
-// Clicking on an entry in this outline will take us to the location of its respective heading.
-// Set the "HeadingsOutlineLevels" property to "4" to exclude all headings whose levels are above 4 from the outline.
-options->get_OutlineOptions()->set_HeadingsOutlineLevels(4);
-
-// If an outline entry has subsequent entries of a higher level inbetween itself and the next entry of the same or lower level,
-// an arrow will appear to the left of the entry. This entry is the "owner" of several such "sub-entries".
-// In our document, the outline entries from the 5th heading level are sub-entries of the second 4th level outline entry,
-// the 4th and 5th heading level entries are sub-entries of the second 3rd level entry, and so on.
-// In the outline, we can click on the arrow of the "owner" entry to collapse/expand all its sub-entries.
-// Set the "ExpandedOutlineLevels" property to "2" to automatically expand all heading level 2 and lower outline entries
-// and collapse all level and 3 and higher entries when we open the document.
-options->get_OutlineOptions()->set_ExpandedOutlineLevels(2);
-
-doc->Save(ArtifactsDir + u"PdfSaveOptions.ExpandedOutlineLevels.pdf", options);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.JpegQuality.HighQuality.jpg", imageOptions);
 ```
 
 ## See Also

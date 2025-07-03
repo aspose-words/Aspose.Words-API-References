@@ -29,8 +29,8 @@ The text of all headers and footers is cleared, but [HeaderFooter](../../headerf
 
 Shows how to clear the contents of a section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world!");
 
@@ -41,7 +41,7 @@ ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count())
 // but leave a blank paragraph to add content again.
 doc->get_FirstSection()->ClearContent();
 
-ASSERT_EQ(String::Empty, doc->GetText().Trim());
+ASSERT_EQ(System::String::Empty, doc->GetText().Trim());
 ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
 ```
 

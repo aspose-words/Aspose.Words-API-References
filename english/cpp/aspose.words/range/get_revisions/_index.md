@@ -19,7 +19,29 @@ System::SharedPtr<Aspose::Words::RevisionCollection> Aspose::Words::Range::get_R
 ## Remarks
 
 
-The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection. 
+The returned collection is a "live" collection, which means if you remove parts of a document that contain revisions, the deleted revisions will automatically disappear from this collection.
+
+## Examples
+
+
+
+Shows how to work with revisions in range. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
+
+System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+for (auto&& revision : System::IterateOver(paragraph->get_Range()->get_Revisions()))
+{
+    if (revision->get_RevisionType() == Aspose::Words::RevisionType::Deletion)
+    {
+        revision->Accept();
+    }
+}
+
+// Reject the first section revisions.
+doc->get_FirstSection()->get_Range()->get_Revisions()->RejectAll();
+```
+
 ## See Also
 
 * Class [RevisionCollection](../../revisioncollection/)

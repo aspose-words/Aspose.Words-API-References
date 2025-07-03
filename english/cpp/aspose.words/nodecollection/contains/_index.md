@@ -35,8 +35,8 @@ This method performs a linear search; therefore, the average execution time is p
 
 Shows how to work with a [NodeCollection](../). 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add text to the document by inserting Runs using a DocumentBuilder.
 builder->Write(u"Run 1. ");
@@ -44,23 +44,23 @@ builder->Write(u"Run 2. ");
 
 // Every invocation of the "Write" method creates a new Run,
 // which then appears in the parent Paragraph's RunCollection.
-SharedPtr<RunCollection> runs = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs();
+System::SharedPtr<Aspose::Words::RunCollection> runs = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs();
 
 ASSERT_EQ(2, runs->get_Count());
 
 // We can also insert a node into the RunCollection manually.
-auto newRun = MakeObject<Run>(doc, u"Run 3. ");
+auto newRun = System::MakeObject<Aspose::Words::Run>(doc, u"Run 3. ");
 runs->Insert(3, newRun);
 
 ASSERT_TRUE(runs->Contains(newRun));
 ASSERT_EQ(u"Run 1. Run 2. Run 3.", doc->GetText().Trim());
 
 // Access individual runs and remove them to remove their text from the document.
-SharedPtr<Run> run = runs->idx_get(1);
+System::SharedPtr<Aspose::Words::Run> run = runs->idx_get(1);
 runs->Remove(run);
 
 ASSERT_EQ(u"Run 1. Run 3.", doc->GetText().Trim());
-ASSERT_FALSE(run == nullptr);
+ASSERT_FALSE(System::TestTools::IsNull(run));
 ASSERT_FALSE(runs->Contains(run));
 ```
 

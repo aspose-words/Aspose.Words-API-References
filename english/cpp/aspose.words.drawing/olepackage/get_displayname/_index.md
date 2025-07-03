@@ -23,23 +23,23 @@ System::String Aspose::Words::Drawing::OlePackage::get_DisplayName() const
 
 Shows how insert an OLE object into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // OLE objects allow us to open other files in the local file system using another installed application
 // in our operating system by double-clicking on the shape that contains the OLE object in the document body.
 // In this case, our external file will be a ZIP archive.
-ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(DatabaseDir + u"cat001.zip");
+System::ArrayPtr<uint8_t> zipFileBytes = System::IO::File::ReadAllBytes(get_DatabaseDir() + u"cat001.zip");
 
 {
-    auto stream = MakeObject<System::IO::MemoryStream>(zipFileBytes);
-    SharedPtr<Shape> shape = builder->InsertOleObject(stream, u"Package", true, nullptr);
+    auto stream = System::MakeObject<System::IO::MemoryStream>(zipFileBytes);
+    System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertOleObject(stream, u"Package", true, nullptr);
 
     shape->get_OleFormat()->get_OlePackage()->set_FileName(u"Package file name.zip");
     shape->get_OleFormat()->get_OlePackage()->set_DisplayName(u"Package display name.zip");
 }
 
-doc->Save(ArtifactsDir + u"Shape.InsertOlePackage.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.InsertOlePackage.docx");
 ```
 
 ## See Also

@@ -23,8 +23,8 @@ Aspose::Words::Notes::EndnotePosition Aspose::Words::Notes::EndnoteOptions::get_
 
 Shows how to select a different place where the document collects and displays its endnotes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // An endnote is a way to attach a reference or a side comment to text
 // that does not interfere with the main body text's flow.
@@ -34,8 +34,8 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // that matches the reference symbol in the main body text.
 // The reference text that we pass to the document builder's "InsertEndnote" method.
 builder->Write(u"Hello world!");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote contents.");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote contents.");
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Write(u"This is the second section.");
 
 // We can use the "Position" property to determine where the document will place all its endnotes.
@@ -45,7 +45,7 @@ builder->Write(u"This is the second section.");
 // every footnote will show up in a collection at the end of the section whose text contains the endnote's reference mark.
 doc->get_EndnoteOptions()->set_Position(endnotePosition);
 
-doc->Save(ArtifactsDir + u"InlineStory.PositionEndnote.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.PositionEndnote.docx");
 ```
 
 ## See Also

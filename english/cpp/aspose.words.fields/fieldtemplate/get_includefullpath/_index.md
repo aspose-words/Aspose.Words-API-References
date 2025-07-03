@@ -23,24 +23,24 @@ bool Aspose::Words::Fields::FieldTemplate::get_IncludeFullPath()
 
 Shows how to use a TEMPLATE field to display the local file system location of a document's template. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // We can set a template name using by the fields. This property is used when the "doc.AttachedTemplate" is empty.
 // If this property is empty the default template file name "Normal.dotm" is used.
-doc->get_FieldOptions()->set_TemplateName(String::Empty);
+doc->get_FieldOptions()->set_TemplateName(System::String::Empty);
 
-auto field = System::ExplicitCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTemplate, false));
 ASSERT_EQ(u" TEMPLATE ", field->GetFieldCode());
 
 builder->Writeln();
-field = System::ExplicitCast<FieldTemplate>(builder->InsertField(FieldType::FieldTemplate, false));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldTemplate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTemplate, false));
 field->set_IncludeFullPath(true);
 
 ASSERT_EQ(u" TEMPLATE  \\p", field->GetFieldCode());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.TEMPLATE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.TEMPLATE.docx");
 ```
 
 ## See Also

@@ -23,7 +23,7 @@ bool Aspose::Words::InlineStory::get_IsInsertRevision()
 
 Shows how to view revision-related properties of [InlineStory](../) nodes. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Revision footnotes.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revision footnotes.docx");
 
 // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
 // is turned on in Microsoft Word, the changes we apply count as revisions.
@@ -33,8 +33,7 @@ auto doc = MakeObject<Document>(MyDir + u"Revision footnotes.docx");
 // or reject them to undo and discard the proposed change.
 ASSERT_TRUE(doc->get_HasRevisions());
 
-SharedPtr<System::Collections::Generic::List<SharedPtr<Footnote>>> footnotes =
-    doc->GetChildNodes(NodeType::Footnote, true)->LINQ_Cast<SharedPtr<Footnote>>()->LINQ_ToList();
+System::SharedPtr<System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Notes::Footnote>>> footnotes = doc->GetChildNodes(Aspose::Words::NodeType::Footnote, true)->LINQ_Cast<System::SharedPtr<Aspose::Words::Notes::Footnote> >()->LINQ_ToList();
 
 ASSERT_EQ(5, footnotes->get_Count());
 

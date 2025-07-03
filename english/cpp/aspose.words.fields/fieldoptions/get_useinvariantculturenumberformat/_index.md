@@ -31,15 +31,16 @@ The default value is **false**.
 
 Shows how to format numbers according to the invariant culture. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-System::Threading::Thread::get_CurrentThread()->set_CurrentCulture(MakeObject<System::Globalization::CultureInfo>(u"de-DE"));
-SharedPtr<Field> field = builder->InsertField(u" = 1234567,89 \\# $#,###,###.##");
+System::Threading::Thread::get_CurrentThread()->set_CurrentCulture(System::MakeObject<System::Globalization::CultureInfo>(u"de-DE"));
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u" = 1234567,89 \\# $#,###,###.##");
 field->Update();
 
 // Sometimes, fields may not format their numbers correctly under certain cultures.
 ASSERT_FALSE(doc->get_FieldOptions()->get_UseInvariantCultureNumberFormat());
+ASSERT_EQ(u"$1.234.567,89 ,     ", field->get_Result());
 
 // To fix this, we could change the culture for the entire thread.
 // Another way to fix this is to set this flag,

@@ -2,7 +2,7 @@
 title: Aspose::Words::DocumentBase::set_ResourceLoadingCallback method
 linktitle: set_ResourceLoadingCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::DocumentBase::set_ResourceLoadingCallback method. Setter for Aspose::Words::DocumentBase::get_ResourceLoadingCallback in C++.'
+description: 'Aspose::Words::DocumentBase::set_ResourceLoadingCallback method. Allows to control how external resources are loaded in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words/documentbase/set_resourceloadingcallback/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/documentbase/set_resourceloadingcallback/
 ## DocumentBase::set_ResourceLoadingCallback method
 
 
-Setter for [Aspose::Words::DocumentBase::get_ResourceLoadingCallback](../get_resourceloadingcallback/).
+Allows to control how external resources are loaded.
 
 ```cpp
 void Aspose::Words::DocumentBase::set_ResourceLoadingCallback(const System::SharedPtr<Aspose::Words::Loading::IResourceLoadingCallback> &value)

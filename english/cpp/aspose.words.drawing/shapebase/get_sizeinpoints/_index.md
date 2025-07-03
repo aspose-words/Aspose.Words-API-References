@@ -23,12 +23,12 @@ System::Drawing::SizeF Aspose::Words::Drawing::ShapeBase::get_SizeInPoints()
 
 Shows how to verify a shape's size and markup language. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Transparent background logo.png");
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Transparent background logo.png");
 
-ASSERT_EQ(ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
+ASSERT_EQ(Aspose::Words::Drawing::ShapeMarkupLanguage::Dml, shape->get_MarkupLanguage());
 ASPOSE_ASSERT_EQ(System::Drawing::SizeF(300.0f, 300.0f), shape->get_SizeInPoints());
 ```
 

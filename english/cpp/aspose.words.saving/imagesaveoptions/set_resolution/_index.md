@@ -27,32 +27,26 @@ This property has effect only when saving to raster image formats.
 
 Shows how to specify a resolution while rendering a document to PNG. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Times New Roman");
 builder->get_Font()->set_Size(24);
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-builder->InsertImage(ImageDir + u"Logo.jpg");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto options = MakeObject<ImageSaveOptions>(SaveFormat::Png);
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
 
 // Set the "Resolution" property to "72" to render the document in 72dpi.
 options->set_Resolution(72.0f);
-
-doc->Save(ArtifactsDir + u"ImageSaveOptions.Resolution.72dpi.png", options);
-
-ASSERT_GE(120000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.Resolution.72dpi.png")->get_Length());
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.72dpi.png", options);
 
 // Set the "Resolution" property to "300" to render the document in 300dpi.
 options->set_Resolution(300.0f);
-
-doc->Save(ArtifactsDir + u"ImageSaveOptions.Resolution.300dpi.png", options);
-
-ASSERT_LT(700000, MakeObject<System::IO::FileInfo>(ArtifactsDir + u"ImageSaveOptions.Resolution.300dpi.png")->get_Length());
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.Resolution.300dpi.png", options);
 ```
 
 ## See Also

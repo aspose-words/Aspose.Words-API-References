@@ -23,23 +23,19 @@ System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> Aspose::Words::Vba::V
 
 Shows how to access a document's VBA project information. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"VBA project.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"VBA project.docm");
 
 // A VBA project contains a collection of VBA modules.
-SharedPtr<VbaProject> vbaProject = doc->get_VbaProject();
-std::cout << (vbaProject->get_IsSigned() ? String::Format(u"Project name: {0} signed; Project code page: {1}; Modules count: {2}\n",
-                                                          vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count())
-                                         : String::Format(u"Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n",
-                                                          vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count()))
-          << std::endl;
+System::SharedPtr<Aspose::Words::Vba::VbaProject> vbaProject = doc->get_VbaProject();
+std::cout << (vbaProject->get_IsSigned() ? System::String::Format(u"Project name: {0} signed; Project code page: {1}; Modules count: {2}\n", vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count()) : System::String::Format(u"Project name: {0} not signed; Project code page: {1}; Modules count: {2}\n", vbaProject->get_Name(), vbaProject->get_CodePage(), vbaProject->get_Modules()->LINQ_Count())) << std::endl;
 
-SharedPtr<VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
+System::SharedPtr<Aspose::Words::Vba::VbaModuleCollection> vbaModules = doc->get_VbaProject()->get_Modules();
 
 ASSERT_EQ(vbaModules->LINQ_Count(), 3);
 
-for (const auto& module_ : vbaModules)
+for (auto&& module_ : vbaModules)
 {
-    std::cout << "Module name: " << module_->get_Name() << ";\nModule code:\n" << module_->get_SourceCode() << "\n" << std::endl;
+    std::cout << System::String::Format(u"Module name: {0};\nModule code:\n{1}\n", module_->get_Name(), module_->get_SourceCode()) << std::endl;
 }
 
 // Set new source code for VBA module. You can access VBA modules in the collection either by index or by name.

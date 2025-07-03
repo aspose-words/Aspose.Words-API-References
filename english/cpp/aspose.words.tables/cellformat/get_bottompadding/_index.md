@@ -23,10 +23,10 @@ double Aspose::Words::Tables::CellFormat::get_BottomPadding()
 
 Shows how to format cells with a document builder. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Row 1, cell 1.");
 
@@ -34,7 +34,7 @@ builder->Write(u"Row 1, cell 1.");
 // The builder will apply these settings at its current cell, and any new cells creates afterwards.
 builder->InsertCell();
 
-SharedPtr<CellFormat> cellFormat = builder->get_CellFormat();
+System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = builder->get_CellFormat();
 cellFormat->set_Width(250);
 cellFormat->set_LeftPadding(30);
 cellFormat->set_RightPadding(30);
@@ -59,7 +59,7 @@ ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellF
 ASPOSE_ASSERT_EQ(30.0, table->get_FirstRow()->get_Cells()->idx_get(1)->get_CellFormat()->get_BottomPadding());
 
 // The first cell will still grow in the output document to match the size of its neighboring cell.
-doc->Save(ArtifactsDir + u"DocumentBuilder.SetCellFormatting.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetCellFormatting.docx");
 ```
 
 ## See Also

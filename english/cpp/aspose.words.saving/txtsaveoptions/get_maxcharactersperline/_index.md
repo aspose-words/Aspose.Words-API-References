@@ -23,17 +23,16 @@ int32_t Aspose::Words::Saving::TxtSaveOptions::get_MaxCharactersPerLine() const
 
 Shows how to set maximum number of characters per line. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ") +
-               u"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ") + u"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Set 30 characters as maximum allowed per one line.
-auto saveOptions = MakeObject<TxtSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 saveOptions->set_MaxCharactersPerLine(30);
 
-doc->Save(ArtifactsDir + u"TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.MaxCharactersPerLine.txt", saveOptions);
 ```
 
 ## See Also

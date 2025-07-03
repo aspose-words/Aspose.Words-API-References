@@ -23,15 +23,15 @@ System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> Aspose::W
 
 Shows how to load the contents of a Microsoft Word document in plaintext and then access the original document's custom properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
-doc->get_CustomDocumentProperties()->Add(u"Location of writing", String(u"123 Main St, London, UK"));
+doc->get_CustomDocumentProperties()->Add(u"Location of writing", System::String(u"123 Main St, London, UK"));
 
-doc->Save(ArtifactsDir + u"PlainTextDocument.CustomDocumentProperties.docx");
+doc->Save(get_ArtifactsDir() + u"PlainTextDocument.CustomDocumentProperties.docx");
 
-auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocument.CustomDocumentProperties.docx");
+auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.CustomDocumentProperties.docx");
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ASPOSE_ASSERT_EQ(u"123 Main St, London, UK", plaintext->get_CustomDocumentProperties()->idx_get(u"Location of writing")->get_Value());

@@ -27,10 +27,10 @@ If you created a new blank document, returns the [Doc](../../loadformat/) value.
 
 Shows how to retrieve details of a document's load operation. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-ASSERT_EQ(MyDir + u"Document.docx", doc->get_OriginalFileName());
-ASSERT_EQ(LoadFormat::Docx, doc->get_OriginalLoadFormat());
+ASSERT_EQ(get_MyDir() + u"Document.docx", doc->get_OriginalFileName());
+ASSERT_EQ(Aspose::Words::LoadFormat::Docx, doc->get_OriginalLoadFormat());
 ```
 
 ## See Also

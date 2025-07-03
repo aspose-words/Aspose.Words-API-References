@@ -23,8 +23,8 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Story::get_LastParagr
 
 Shows how to move a [DocumentBuilder](../../documentbuilder/)'s cursor position to a specified node. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Run 1. ");
 
 // The document builder has a cursor, which acts as the part of the document

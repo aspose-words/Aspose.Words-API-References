@@ -23,8 +23,8 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::DocumentBuild
 
 Shows how to create bulleted and numbered lists. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Aspose.Words main advantages are:");
 
@@ -45,7 +45,7 @@ builder->Writeln(u"Easy to understand API");
 // End the bulleted list.
 builder->get_ListFormat()->RemoveNumbers();
 
-builder->InsertBreak(BreakType::ParagraphBreak);
+builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 builder->Writeln(u"Aspose.Words allows:");
 
 // 2 -  A numbered list:
@@ -97,7 +97,7 @@ builder->Writeln(u"Doing many other things!");
 // End the numbered list.
 builder->get_ListFormat()->RemoveNumbers();
 
-doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
+doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
 ## See Also

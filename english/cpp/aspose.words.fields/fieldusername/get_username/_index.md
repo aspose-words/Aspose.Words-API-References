@@ -23,18 +23,18 @@ System::String Aspose::Words::Fields::FieldUserName::get_UserName()
 
 Shows how to use the USERNAME field. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a UserInformation object and set it as the source of user information for any fields that we create.
-auto userInformation = MakeObject<UserInformation>();
+auto userInformation = System::MakeObject<Aspose::Words::Fields::UserInformation>();
 userInformation->set_Name(u"John Doe");
 doc->get_FieldOptions()->set_CurrentUser(userInformation);
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a USERNAME field to display the current user's name,
 // taken from the UserInformation object we created above.
-auto fieldUserName = System::ExplicitCast<FieldUserName>(builder->InsertField(FieldType::FieldUserName, true));
+auto fieldUserName = System::ExplicitCast<Aspose::Words::Fields::FieldUserName>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldUserName, true));
 ASSERT_EQ(userInformation->get_Name(), fieldUserName->get_Result());
 
 ASSERT_EQ(u" USERNAME ", fieldUserName->GetFieldCode());
@@ -51,7 +51,7 @@ ASSERT_EQ(u"Jane Doe", fieldUserName->get_Result());
 ASSERT_EQ(u"John Doe", doc->get_FieldOptions()->get_CurrentUser()->get_Name());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.USERNAME.docx");
+doc->Save(get_ArtifactsDir() + u"Field.USERNAME.docx");
 ```
 
 ## See Also

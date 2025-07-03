@@ -23,59 +23,59 @@ void Aspose::Words::Tables::Table::ClearBorders()
 
 Shows how to apply an outline border to a table. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
-SharedPtr<Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Align the table to the center of the page.
-table->set_Alignment(TableAlignment::Center);
+table->set_Alignment(Aspose::Words::Tables::TableAlignment::Center);
 
 // Clear any existing borders and shading from the table.
 table->ClearBorders();
 table->ClearShading();
 
 // Add green borders to the outline of the table.
-table->SetBorder(BorderType::Left, LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
-table->SetBorder(BorderType::Right, LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
-table->SetBorder(BorderType::Top, LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
-table->SetBorder(BorderType::Bottom, LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
+table->SetBorder(Aspose::Words::BorderType::Left, Aspose::Words::LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
+table->SetBorder(Aspose::Words::BorderType::Right, Aspose::Words::LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
+table->SetBorder(Aspose::Words::BorderType::Top, Aspose::Words::LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
+table->SetBorder(Aspose::Words::BorderType::Bottom, Aspose::Words::LineStyle::Single, 1.5, System::Drawing::Color::get_Green(), true);
 
 // Fill the cells with a light green solid color.
-table->SetShading(TextureIndex::TextureSolid, System::Drawing::Color::get_LightGreen(), System::Drawing::Color::Empty);
+table->SetShading(Aspose::Words::TextureIndex::TextureSolid, System::Drawing::Color::get_LightGreen(), System::Drawing::Color::Empty);
 
-doc->Save(ArtifactsDir + u"Table.SetOutlineBorders.docx");
+doc->Save(get_ArtifactsDir() + u"Table.SetOutlineBorders.docx");
 ```
 
 
 Shows how to remove all borders from a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Hello world!");
 builder->EndTable();
 
 // Modify the color and thickness of the top border.
-SharedPtr<Border> topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(BorderType::Top);
-table->SetBorder(BorderType::Top, LineStyle::Double, 1.5, System::Drawing::Color::get_Red(), true);
+System::SharedPtr<Aspose::Words::Border> topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(Aspose::Words::BorderType::Top);
+table->SetBorder(Aspose::Words::BorderType::Top, Aspose::Words::LineStyle::Double, 1.5, System::Drawing::Color::get_Red(), true);
 
 ASPOSE_ASSERT_EQ(1.5, topBorder->get_LineWidth());
 ASSERT_EQ(System::Drawing::Color::get_Red().ToArgb(), topBorder->get_Color().ToArgb());
-ASSERT_EQ(LineStyle::Double, topBorder->get_LineStyle());
+ASSERT_EQ(Aspose::Words::LineStyle::Double, topBorder->get_LineStyle());
 
 // Clear the borders of all cells in the table, and then save the document.
 table->ClearBorders();
-doc->Save(ArtifactsDir + u"Table.ClearBorders.docx");
+doc->Save(get_ArtifactsDir() + u"Table.ClearBorders.docx");
 
 // Verify the values of the table's properties after re-opening the document.
-doc = MakeObject<Document>(ArtifactsDir + u"Table.ClearBorders.docx");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Table.ClearBorders.docx");
 table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
-topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(BorderType::Top);
+topBorder = table->get_FirstRow()->get_RowFormat()->get_Borders()->idx_get(Aspose::Words::BorderType::Top);
 
 ASPOSE_ASSERT_EQ(0.0, topBorder->get_LineWidth());
 ASSERT_EQ(System::Drawing::Color::Empty.ToArgb(), topBorder->get_Color().ToArgb());
-ASSERT_EQ(LineStyle::None, topBorder->get_LineStyle());
+ASSERT_EQ(Aspose::Words::LineStyle::None, topBorder->get_LineStyle());
 ```
 
 ## See Also

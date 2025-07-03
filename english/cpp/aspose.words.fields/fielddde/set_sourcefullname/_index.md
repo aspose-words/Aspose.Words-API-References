@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDde::set_SourceFullName method
 linktitle: set_SourceFullName
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDde::set_SourceFullName method. Setter for Aspose::Words::Fields::FieldDde::get_SourceFullName in C++.'
+description: 'Aspose::Words::Fields::FieldDde::set_SourceFullName method. Sets the name and location of the source file in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words.fields/fielddde/set_sourcefullname/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fielddde/set_sourcefullname/
 ## FieldDde::set_SourceFullName method
 
 
-Setter for [Aspose::Words::Fields::FieldDde::get_SourceFullName](../get_sourcefullname/).
+Sets the name and location of the source file.
 
 ```cpp
 void Aspose::Words::Fields::FieldDde::set_SourceFullName(const System::String &value)

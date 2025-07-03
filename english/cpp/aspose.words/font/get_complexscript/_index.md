@@ -23,14 +23,14 @@ bool Aspose::Words::Font::get_ComplexScript()
 
 Shows how to add text that is always treated as complex script. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_ComplexScript(true);
 
 builder->Writeln(u"Text treated as complex script.");
 
-doc->Save(ArtifactsDir + u"Font.ComplexScript.docx");
+doc->Save(get_ArtifactsDir() + u"Font.ComplexScript.docx");
 ```
 
 ## See Also

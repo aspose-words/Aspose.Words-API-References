@@ -33,18 +33,16 @@ Depends on the value of [PageHorizontalAlignment](../get_pagehorizontalalignment
 
 Shows how to adjust page margins when saving a document to HTML. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-auto saveOptions = MakeObject<HtmlFixedSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 saveOptions->set_PageMargins(15);
 
-doc->Save(ArtifactsDir + u"HtmlFixedSaveOptions.PageMargins.html", saveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.PageMargins.html", saveOptions);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlFixedSaveOptions.PageMargins/styles.css");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.PageMargins/styles.css");
 
-ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(
-                outDocContents, u"[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }")
-                ->get_Success());
+ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }")->get_Success());
 ```
 
 ## See Also

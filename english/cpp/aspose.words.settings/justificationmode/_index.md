@@ -24,6 +24,24 @@ enum class JustificationMode
 | Compress | 1 | Compress character spacing. |
 | CompressKana | 2 | Compress, using rules of the kana syllabaries, Hiragana and Katakana. |
 
+
+## Examples
+
+
+
+Shows how to manage character spacing control. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+
+Aspose::Words::Settings::JustificationMode justificationMode = doc->get_JustificationMode();
+if (justificationMode == Aspose::Words::Settings::JustificationMode::Expand)
+{
+    doc->set_JustificationMode(Aspose::Words::Settings::JustificationMode::Compress);
+}
+
+doc->Save(get_ArtifactsDir() + u"Document.SetJustificationMode.docx");
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Settings](../)

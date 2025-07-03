@@ -27,11 +27,11 @@ The default value is **false**.
 
 Shows how to extract embedded OLE objects into files. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"OLE spreadsheet.docm");
-auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE spreadsheet.docm");
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
-SharedPtr<OleFormat> oleFormat = shape->get_OleFormat();
+System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
 
 ASSERT_EQ(u"Excel.Sheet.12", oleFormat->get_ProgId());
 
@@ -46,13 +46,12 @@ ASSERT_EQ(u".xlsx", oleFormat->get_SuggestedExtension());
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:
 {
-    auto fs = MakeObject<System::IO::FileStream>(ArtifactsDir + u"OLE spreadsheet extracted via stream" + oleFormat->get_SuggestedExtension(),
-                                                 System::IO::FileMode::Create);
+    auto fs = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"OLE spreadsheet extracted via stream" + oleFormat->get_SuggestedExtension(), System::IO::FileMode::Create);
     oleFormat->Save(fs);
 }
 
 // 2 -  Save it directly to a filename:
-oleFormat->Save(ArtifactsDir + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
+oleFormat->Save(get_ArtifactsDir() + u"OLE spreadsheet saved directly" + oleFormat->get_SuggestedExtension());
 ```
 
 ## See Also

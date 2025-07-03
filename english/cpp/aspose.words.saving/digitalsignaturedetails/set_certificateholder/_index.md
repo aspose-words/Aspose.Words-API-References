@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::DigitalSignatureDetails::set_CertificateHolder method
 linktitle: set_CertificateHolder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::DigitalSignatureDetails::set_CertificateHolder method. Sets a CertificateHolder object that contains the certificate used to sign a document in C++.'
+description: 'Aspose::Words::Saving::DigitalSignatureDetails::set_CertificateHolder method. Setter for Aspose::Words::Saving::DigitalSignatureDetails::get_CertificateHolder in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.saving/digitalsignaturedetails/set_certificateholder/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/digitalsignaturedetails/set_certificateholder/
 ## DigitalSignatureDetails::set_CertificateHolder method
 
 
-Sets a [CertificateHolder](../get_certificateholder/) object that contains the certificate used to sign a document.
+Setter for [Aspose::Words::Saving::DigitalSignatureDetails::get_CertificateHolder](../get_certificateholder/).
 
 ```cpp
 void Aspose::Words::Saving::DigitalSignatureDetails::set_CertificateHolder(const System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> &value)

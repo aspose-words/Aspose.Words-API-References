@@ -25,40 +25,35 @@ If this option is set to **true**, [Shape](../../../aspose.words.drawing/shape/)
 
 
 
-Shows how to export text boxes as scalable vector graphics. 
+Shows how to export shape as scalable vector graphics. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> textBox = builder->InsertShape(ShapeType::TextBox, 100.0, 60.0);
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBox = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100.0, 60.0);
 builder->MoveTo(textBox->get_FirstParagraph());
 builder->Write(u"My text box");
 
 // When we save the document to HTML, we can pass a SaveOptions object
 // to determine how the saving operation will export text box shapes.
-// If we set the "ExportShapesAsSvg" flag to "true",
+// If we set the "ExportTextBoxAsSvg" flag to "true",
 // the save operation will convert shapes with text into SVG objects.
-// If we set the "ExportShapesAsSvg" flag to "false",
+// If we set the "ExportTextBoxAsSvg" flag to "false",
 // the save operation will convert shapes with text into images.
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportShapesAsSvg(exportShapesAsSvg);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportTextBox.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportTextBox.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.ExportTextBox.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportTextBox.html");
 
 if (exportShapesAsSvg)
 {
-    ASSERT_TRUE(outDocContents.Contains(
-        String(u"<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">") +
-        u"<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">") + u"<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
 }
 else
 {
-    ASSERT_TRUE(outDocContents.Contains(
-        String(u"<p style=\"margin-top:0pt; margin-bottom:0pt\">") +
-        u"<img src=\"HtmlSaveOptions.ExportTextBox.001.png\" width=\"136\" height=\"83\" alt=\"\" " +
-        u"style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" + u"</p>"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<p style=\"margin-top:0pt; margin-bottom:0pt\">") + u"<img src=\"HtmlSaveOptions.ExportTextBox.001.png\" width=\"136\" height=\"83\" alt=\"\" " + u"style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" + u"</p>"));
 }
 ```
 

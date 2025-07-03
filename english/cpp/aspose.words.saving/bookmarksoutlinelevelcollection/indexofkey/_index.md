@@ -31,8 +31,8 @@ The zero based index. Negative value if not found.
 
 Shows how to set outline levels for bookmarks. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a bookmark with another bookmark nested inside it.
 builder->StartBookmark(u"Bookmark 1");
@@ -53,8 +53,8 @@ builder->EndBookmark(u"Bookmark 3");
 // When saving to .pdf, bookmarks can be accessed via a drop-down menu and used as anchors by most readers.
 // Bookmarks can also have numeric values for outline levels,
 // enabling lower level outline entries to hide higher-level child entries when collapsed in the reader.
-auto pdfSaveOptions = MakeObject<PdfSaveOptions>();
-SharedPtr<BookmarksOutlineLevelCollection> outlineLevels = pdfSaveOptions->get_OutlineOptions()->get_BookmarksOutlineLevels();
+auto pdfSaveOptions = System::MakeObject<Aspose::Words::Saving::PdfSaveOptions>();
+System::SharedPtr<Aspose::Words::Saving::BookmarksOutlineLevelCollection> outlineLevels = pdfSaveOptions->get_OutlineOptions()->get_BookmarksOutlineLevels();
 
 outlineLevels->Add(u"Bookmark 1", 1);
 outlineLevels->Add(u"Bookmark 2", 2);
@@ -75,7 +75,7 @@ outlineLevels->Remove(u"Bookmark 2");
 outlineLevels->Add(u"Bookmark 2", 5);
 outlineLevels->Add(u"Bookmark 3", 9);
 
-doc->Save(ArtifactsDir + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
+doc->Save(get_ArtifactsDir() + u"BookmarksOutlineLevelCollection.BookmarkLevels.pdf", pdfSaveOptions);
 
 // Emptying this collection will preserve the bookmarks and put them all on the same outline level.
 outlineLevels->Clear();

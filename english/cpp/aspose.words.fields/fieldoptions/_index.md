@@ -23,9 +23,9 @@ class FieldOptions : public System::Object
 | [get_BarcodeGenerator](./get_barcodegenerator/)() const | Gets or set custom barcode generator. |
 | [get_BibliographyStylesProvider](./get_bibliographystylesprovider/)() const | Gets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [get_BuiltInTemplatesPaths](./get_builtintemplatespaths/)() const | Gets or sets paths of MS Word built-in templates. |
-| [get_ComparisonExpressionEvaluator](./get_comparisonexpressionevaluator/)() const | Gets or sets the field comparison expressions evaluator. |
+| [get_ComparisonExpressionEvaluator](./get_comparisonexpressionevaluator/)() const | Gets the field comparison expressions evaluator. |
 | [get_CurrentUser](./get_currentuser/)() const | Gets or sets the current user information. |
-| [get_CustomTocStyleSeparator](./get_customtocstyleseparator/)() const | Gets or sets custom style separator for the \t switch in [FieldToc](../fieldtoc/) field. |
+| [get_CustomTocStyleSeparator](./get_customtocstyleseparator/)() const | Gets custom style separator for the \t switch in [FieldToc](../fieldtoc/) field. |
 | [get_DefaultDocumentAuthor](./get_defaultdocumentauthor/)() const | Gets or sets default document author's name. If author's name is already specified in built-in document properties, this option is not considered. |
 | [get_FieldDatabaseProvider](./get_fielddatabaseprovider/)() const | Gets a provider that returns a query result for the [FieldDatabase](../fielddatabase/) field. |
 | [get_FieldIndexFormat](./get_fieldindexformat/)() | Gets or sets a [FieldIndexFormat](./get_fieldindexformat/) that represents the formatting for the [FieldIndex](../fieldindex/) fields in the document. |
@@ -47,9 +47,9 @@ class FieldOptions : public System::Object
 | [set_BarcodeGenerator](./set_barcodegenerator/)(const System::SharedPtr\<Aspose::Words::Fields::IBarcodeGenerator\>\&) | Gets or set custom barcode generator. |
 | [set_BibliographyStylesProvider](./set_bibliographystylesprovider/)(const System::SharedPtr\<Aspose::Words::Fields::IBibliographyStylesProvider\>\&) | Sets a provider that returns a bibliography style for the [FieldBibliography](../fieldbibliography/) and [FieldCitation](../fieldcitation/) fields. |
 | [set_BuiltInTemplatesPaths](./set_builtintemplatespaths/)(const System::ArrayPtr\<System::String\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_BuiltInTemplatesPaths](./get_builtintemplatespaths/). |
-| [set_ComparisonExpressionEvaluator](./set_comparisonexpressionevaluator/)(const System::SharedPtr\<Aspose::Words::Fields::IComparisonExpressionEvaluator\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_ComparisonExpressionEvaluator](./get_comparisonexpressionevaluator/). |
+| [set_ComparisonExpressionEvaluator](./set_comparisonexpressionevaluator/)(const System::SharedPtr\<Aspose::Words::Fields::IComparisonExpressionEvaluator\>\&) | Sets the field comparison expressions evaluator. |
 | [set_CurrentUser](./set_currentuser/)(const System::SharedPtr\<Aspose::Words::Fields::UserInformation\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_CurrentUser](./get_currentuser/). |
-| [set_CustomTocStyleSeparator](./set_customtocstyleseparator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator](./get_customtocstyleseparator/). |
+| [set_CustomTocStyleSeparator](./set_customtocstyleseparator/)(const System::String\&) | Sets custom style separator for the \t switch in [FieldToc](../fieldtoc/) field. |
 | [set_DefaultDocumentAuthor](./set_defaultdocumentauthor/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_DefaultDocumentAuthor](./get_defaultdocumentauthor/). |
 | [set_FieldDatabaseProvider](./set_fielddatabaseprovider/)(const System::SharedPtr\<Aspose::Words::Fields::IFieldDatabaseProvider\>\&) | Sets a provider that returns a query result for the [FieldDatabase](../fielddatabase/) field. |
 | [set_FieldIndexFormat](./set_fieldindexformat/)(Aspose::Words::Fields::FieldIndexFormat) | Setter for [Aspose::Words::Fields::FieldOptions::get_FieldIndexFormat](./get_fieldindexformat/). |
@@ -61,7 +61,7 @@ class FieldOptions : public System::Object
 | [set_IsBidiTextSupportedOnUpdate](./set_isbiditextsupportedonupdate/)(bool) | Setter for [Aspose::Words::Fields::FieldOptions::get_IsBidiTextSupportedOnUpdate](./get_isbiditextsupportedonupdate/). |
 | [set_LegacyNumberFormat](./set_legacynumberformat/)(bool) | Setter for [Aspose::Words::Fields::FieldOptions::get_LegacyNumberFormat](./get_legacynumberformat/). |
 | [set_PreProcessCulture](./set_preprocessculture/)(const System::SharedPtr\<System::Globalization::CultureInfo\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_PreProcessCulture](./get_preprocessculture/). |
-| [set_ResultFormatter](./set_resultformatter/)(const System::SharedPtr\<Aspose::Words::Fields::IFieldResultFormatter\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_ResultFormatter](./get_resultformatter/). |
+| [set_ResultFormatter](./set_resultformatter/)(const System::SharedPtr\<Aspose::Words::Fields::IFieldResultFormatter\>\&) | Allows to control how the field result is formatted. |
 | [set_TemplateName](./set_templatename/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_TemplateName](./get_templatename/). |
 | [set_ToaCategories](./set_toacategories/)(const System::SharedPtr\<Aspose::Words::Fields::ToaCategories\>\&) | Setter for [Aspose::Words::Fields::FieldOptions::get_ToaCategories](./get_toacategories/). |
 | [set_UseInvariantCultureNumberFormat](./set_useinvariantculturenumberformat/)(bool) | Setter for [Aspose::Words::Fields::FieldOptions::get_UseInvariantCultureNumberFormat](./get_useinvariantculturenumberformat/). |

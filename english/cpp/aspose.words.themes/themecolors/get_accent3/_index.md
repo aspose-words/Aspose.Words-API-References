@@ -23,27 +23,27 @@ System::Drawing::Color Aspose::Words::Themes::ThemeColors::get_Accent3()
 
 Shows how to set custom colors and fonts for themes. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Theme colors.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Theme colors.docx");
 
 // The "Theme" object gives us access to the document theme, a source of default fonts and colors.
-SharedPtr<Theme> theme = doc->get_Theme();
+System::SharedPtr<Aspose::Words::Themes::Theme> theme = doc->get_Theme();
 
 // Some styles, such as "Heading 1" and "Subtitle", will inherit these fonts.
 theme->get_MajorFonts()->set_Latin(u"Courier New");
 theme->get_MinorFonts()->set_Latin(u"Agency FB");
 
 // Other languages may also have their custom fonts in this theme.
-ASSERT_EQ(String::Empty, theme->get_MajorFonts()->get_ComplexScript());
-ASSERT_EQ(String::Empty, theme->get_MajorFonts()->get_EastAsian());
-ASSERT_EQ(String::Empty, theme->get_MinorFonts()->get_ComplexScript());
-ASSERT_EQ(String::Empty, theme->get_MinorFonts()->get_EastAsian());
+ASSERT_EQ(System::String::Empty, theme->get_MajorFonts()->get_ComplexScript());
+ASSERT_EQ(System::String::Empty, theme->get_MajorFonts()->get_EastAsian());
+ASSERT_EQ(System::String::Empty, theme->get_MinorFonts()->get_ComplexScript());
+ASSERT_EQ(System::String::Empty, theme->get_MinorFonts()->get_EastAsian());
 
 // The "Colors" property contains the color palette from Microsoft Word,
 // which appears when changing shading or font color.
 // Apply custom colors to the color palette so we have easy access to them in Microsoft Word
 // when we, for example, change the font color via "Home" -> "Font" -> "Font Color",
 // or insert a shape, and then set a color for it via "Shape Format" -> "Shape Styles".
-SharedPtr<ThemeColors> colors = theme->get_Colors();
+System::SharedPtr<Aspose::Words::Themes::ThemeColors> colors = theme->get_Colors();
 colors->set_Dark1(System::Drawing::Color::get_MidnightBlue());
 colors->set_Light1(System::Drawing::Color::get_PaleGreen());
 colors->set_Dark2(System::Drawing::Color::get_Indigo());
@@ -60,7 +60,7 @@ colors->set_Accent6(System::Drawing::Color::get_DarkViolet());
 colors->set_Hyperlink(System::Drawing::Color::get_Black());
 colors->set_FollowedHyperlink(System::Drawing::Color::get_Gray());
 
-doc->Save(ArtifactsDir + u"Themes.CustomColorsAndFonts.docx");
+doc->Save(get_ArtifactsDir() + u"Themes.CustomColorsAndFonts.docx");
 ```
 
 ## See Also

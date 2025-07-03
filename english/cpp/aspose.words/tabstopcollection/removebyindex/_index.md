@@ -27,11 +27,11 @@ void Aspose::Words::TabStopCollection::RemoveByIndex(int32_t index)
 
 Shows how to select a tab stop in a document by its index and remove it. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_TabStops();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::TabStopCollection> tabStops = doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_ParagraphFormat()->get_TabStops();
 
-tabStops->Add(ConvertUtil::MillimeterToPoint(30), TabAlignment::Left, TabLeader::Dashes);
-tabStops->Add(ConvertUtil::MillimeterToPoint(60), TabAlignment::Left, TabLeader::Dashes);
+tabStops->Add(Aspose::Words::ConvertUtil::MillimeterToPoint(30), Aspose::Words::TabAlignment::Left, Aspose::Words::TabLeader::Dashes);
+tabStops->Add(Aspose::Words::ConvertUtil::MillimeterToPoint(60), Aspose::Words::TabAlignment::Left, Aspose::Words::TabLeader::Dashes);
 
 ASSERT_EQ(2, tabStops->get_Count());
 
@@ -40,7 +40,7 @@ tabStops->RemoveByIndex(0);
 
 ASSERT_EQ(1, tabStops->get_Count());
 
-doc->Save(ArtifactsDir + u"TabStopCollection.RemoveByIndex.docx");
+doc->Save(get_ArtifactsDir() + u"TabStopCollection.RemoveByIndex.docx");
 ```
 
 ## See Also

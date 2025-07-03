@@ -23,19 +23,19 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 Shows how to iterate over and edit all of the borders in a paragraph format object. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Configure the builder's paragraph format settings to create a green wave border on all sides.
-SharedPtr<BorderCollection> borders = builder->get_ParagraphFormat()->get_Borders();
+System::SharedPtr<Aspose::Words::BorderCollection> borders = builder->get_ParagraphFormat()->get_Borders();
 
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<SharedPtr<Border>>> enumerator = borders->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Border>>> enumerator = borders->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        SharedPtr<Border> border = enumerator->get_Current();
+        System::SharedPtr<Aspose::Words::Border> border = enumerator->get_Current();
         border->set_Color(System::Drawing::Color::get_Green());
-        border->set_LineStyle(LineStyle::Wave);
+        border->set_LineStyle(Aspose::Words::LineStyle::Wave);
         border->set_LineWidth(3);
     }
 }
@@ -43,7 +43,7 @@ SharedPtr<BorderCollection> borders = builder->get_ParagraphFormat()->get_Border
 // Insert a paragraph. Our border settings will determine the appearance of its border.
 builder->Writeln(u"Hello world!");
 
-doc->Save(ArtifactsDir + u"BorderCollection.GetBordersEnumerator.docx");
+doc->Save(get_ArtifactsDir() + u"BorderCollection.GetBordersEnumerator.docx");
 ```
 
 ## See Also

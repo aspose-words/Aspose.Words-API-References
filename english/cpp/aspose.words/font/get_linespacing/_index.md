@@ -23,8 +23,8 @@ double Aspose::Words::Font::get_LineSpacing()
 
 Shows how to get a font's line spacing, in points. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set different fonts for the DocumentBuilder and verify their line spacing.
 builder->get_Font()->set_Name(u"Calibri");

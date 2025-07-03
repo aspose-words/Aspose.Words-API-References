@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::SvgSaveOptions::set_RemoveJavaScriptFromLinks method
 linktitle: set_RemoveJavaScriptFromLinks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::SvgSaveOptions::set_RemoveJavaScriptFromLinks method. Specifies whether JavaScript will be removed from links. Default is false. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)" in C++.'
+description: 'Aspose::Words::Saving::SvgSaveOptions::set_RemoveJavaScriptFromLinks method. Setter for Aspose::Words::Saving::SvgSaveOptions::get_RemoveJavaScriptFromLinks in C++.'
 type: docs
 weight: 14750
 url: /cpp/aspose.words.saving/svgsaveoptions/set_removejavascriptfromlinks/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/set_removejavascriptfromlinks/
 ## SvgSaveOptions::set_RemoveJavaScriptFromLinks method
 
 
-Specifies whether JavaScript will be removed from links. Default is **false**. If this option is enabled, all links containing JavaScript will be replaced with "javascript:void(0)".
+Setter for [Aspose::Words::Saving::SvgSaveOptions::get_RemoveJavaScriptFromLinks](../get_removejavascriptfromlinks/).
 
 ```cpp
 void Aspose::Words::Saving::SvgSaveOptions::set_RemoveJavaScriptFromLinks(bool value)

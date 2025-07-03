@@ -27,19 +27,18 @@ void Aspose::Words::WebExtensions::BaseWebExtensionCollection<T>::Remove(int32_t
 
 Shows how to work with a document's collection of web extensions. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Web extension.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Web extension.docx");
 
 ASSERT_EQ(1, doc->get_WebExtensionTaskPanes()->get_Count());
 
 // Print all properties of the document's web extension.
-SharedPtr<WebExtensionPropertyCollection> webExtensionPropertyCollection =
-    doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
+System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionPropertyCollection> webExtensionPropertyCollection = doc->get_WebExtensionTaskPanes()->idx_get(0)->get_WebExtension()->get_Properties();
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<SharedPtr<WebExtensionProperty>>> enumerator = webExtensionPropertyCollection->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionProperty>>> enumerator = webExtensionPropertyCollection->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        SharedPtr<WebExtensionProperty> webExtensionProperty = enumerator->get_Current();
-        std::cout << "Binding name: " << webExtensionProperty->get_Name() << "; Binding value: " << webExtensionProperty->get_Value() << std::endl;
+        System::SharedPtr<Aspose::Words::WebExtensions::WebExtensionProperty> webExtensionProperty = enumerator->get_Current();
+        std::cout << System::String::Format(u"Binding name: {0}; Binding value: {1}", webExtensionProperty->get_Name(), webExtensionProperty->get_Value()) << std::endl;
     }
 }
 

@@ -28,7 +28,7 @@ class WebExtension : public System::Object
 | [get_Reference](./get_reference/)() const | Specifies the primary reference to an web extension. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Id](./set_id/)(const System::String\&) | Uniquely identifies the web extension instance in the current document. |
+| [set_Id](./set_id/)(const System::String\&) | Setter for [Aspose::Words::WebExtensions::WebExtension::get_Id](./get_id/). |
 | [set_IsFrozen](./set_isfrozen/)(bool) | Setter for [Aspose::Words::WebExtensions::WebExtension::get_IsFrozen](./get_isfrozen/). |
 | static [Type](./type/)() |  |
 
@@ -38,13 +38,13 @@ class WebExtension : public System::Object
 
 Shows how to add a web extension to a document. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create task pane with "MyScript" add-in, which will be used by the document,
 // then set its default location.
-auto myScriptTaskPane = MakeObject<TaskPane>();
+auto myScriptTaskPane = System::MakeObject<Aspose::Words::WebExtensions::TaskPane>();
 doc->get_WebExtensionTaskPanes()->Add(myScriptTaskPane);
-myScriptTaskPane->set_DockState(TaskPaneDockState::Right);
+myScriptTaskPane->set_DockState(Aspose::Words::WebExtensions::TaskPaneDockState::Right);
 myScriptTaskPane->set_IsVisible(true);
 myScriptTaskPane->set_Width(300);
 myScriptTaskPane->set_IsLocked(true);
@@ -53,26 +53,53 @@ myScriptTaskPane->set_IsLocked(true);
 myScriptTaskPane->set_Row(1);
 
 // Create an add-in called "MyScript Math Sample", which the task pane will display within.
-SharedPtr<WebExtension> webExtension = myScriptTaskPane->get_WebExtension();
+System::SharedPtr<Aspose::Words::WebExtensions::WebExtension> webExtension = myScriptTaskPane->get_WebExtension();
 
 // Set application store reference parameters for our add-in, such as the ID.
 webExtension->get_Reference()->set_Id(u"WA104380646");
 webExtension->get_Reference()->set_Version(u"1.0.0.0");
-webExtension->get_Reference()->set_StoreType(WebExtensionStoreType::OMEX);
+webExtension->get_Reference()->set_StoreType(Aspose::Words::WebExtensions::WebExtensionStoreType::OMEX);
 webExtension->get_Reference()->set_Store(System::Globalization::CultureInfo::get_CurrentCulture()->get_Name());
-webExtension->get_Properties()->Add(MakeObject<WebExtensionProperty>(u"MyScript", u"MyScript Math Sample"));
-webExtension->get_Bindings()->Add(MakeObject<WebExtensionBinding>(u"MyScript", WebExtensionBindingType::Text, u"104380646"));
+webExtension->get_Properties()->Add(System::MakeObject<Aspose::Words::WebExtensions::WebExtensionProperty>(u"MyScript", u"MyScript Math Sample"));
+webExtension->get_Bindings()->Add(System::MakeObject<Aspose::Words::WebExtensions::WebExtensionBinding>(u"MyScript", Aspose::Words::WebExtensions::WebExtensionBindingType::Text, u"104380646"));
 
 // Allow the user to interact with the add-in.
 webExtension->set_IsFrozen(false);
 
 // We can access the web extension in Microsoft Word via Developer -> Add-ins.
-doc->Save(ArtifactsDir + u"Document.WebExtension.docx");
+doc->Save(get_ArtifactsDir() + u"Document.WebExtension.docx");
 
 // Remove all web extension task panes at once like this.
 doc->get_WebExtensionTaskPanes()->Clear();
 
 ASSERT_EQ(0, doc->get_WebExtensionTaskPanes()->get_Count());
+
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.WebExtension.docx");
+
+myScriptTaskPane = doc->get_WebExtensionTaskPanes()->idx_get(0);
+ASSERT_EQ(Aspose::Words::WebExtensions::TaskPaneDockState::Right, myScriptTaskPane->get_DockState());
+ASSERT_TRUE(myScriptTaskPane->get_IsVisible());
+ASPOSE_ASSERT_EQ(300.0, myScriptTaskPane->get_Width());
+ASSERT_TRUE(myScriptTaskPane->get_IsLocked());
+ASSERT_EQ(1, myScriptTaskPane->get_Row());
+
+webExtension = myScriptTaskPane->get_WebExtension();
+ASSERT_EQ(System::String::Empty, webExtension->get_Id());
+
+ASSERT_EQ(u"WA104380646", webExtension->get_Reference()->get_Id());
+ASSERT_EQ(u"1.0.0.0", webExtension->get_Reference()->get_Version());
+ASSERT_EQ(Aspose::Words::WebExtensions::WebExtensionStoreType::OMEX, webExtension->get_Reference()->get_StoreType());
+ASSERT_EQ(System::Globalization::CultureInfo::get_CurrentCulture()->get_Name(), webExtension->get_Reference()->get_Store());
+ASSERT_EQ(0, webExtension->get_AlternateReferences()->get_Count());
+
+ASSERT_EQ(u"MyScript", webExtension->get_Properties()->idx_get(0)->get_Name());
+ASSERT_EQ(u"MyScript Math Sample", webExtension->get_Properties()->idx_get(0)->get_Value());
+
+ASSERT_EQ(u"MyScript", webExtension->get_Bindings()->idx_get(0)->get_Id());
+ASSERT_EQ(Aspose::Words::WebExtensions::WebExtensionBindingType::Text, webExtension->get_Bindings()->idx_get(0)->get_BindingType());
+ASSERT_EQ(u"104380646", webExtension->get_Bindings()->idx_get(0)->get_AppRef());
+
+ASSERT_FALSE(webExtension->get_IsFrozen());
 ```
 
 ## See Also

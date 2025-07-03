@@ -54,11 +54,11 @@ class LoadOptions : public System::Object
 | [set_Password](./set_password/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_Password](./get_password/). |
 | [set_PreserveIncludePictureField](./set_preserveincludepicturefield/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField](./get_preserveincludepicturefield/). |
 | [set_ProgressCallback](./set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Loading::IDocumentLoadingCallback\>\&) | Called during loading a document and accepts data about loading progress. |
-| [set_ResourceLoadingCallback](./set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](./get_resourceloadingcallback/). |
+| [set_ResourceLoadingCallback](./set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [set_TempFolder](./set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](./get_tempfolder/). |
-| [set_UpdateDirtyFields](./set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
+| [set_UpdateDirtyFields](./set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](./get_updatedirtyfields/). |
 | [set_UseSystemLcid](./set_usesystemlcid/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UseSystemLcid](./get_usesystemlcid/). |
-| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](./get_warningcallback/). |
+| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -67,22 +67,25 @@ class LoadOptions : public System::Object
 
 Shows how to load an encrypted Microsoft Word document. 
 ```cpp
-SharedPtr<Document> doc;
+System::SharedPtr<Aspose::Words::Document> doc;
 
 // Aspose.Words throw an exception if we try to open an encrypted document without its password.
-ASSERT_THROW(doc = MakeObject<Document>(MyDir + u"Encrypted.docx"), IncorrectPasswordException);
+ASSERT_THROW(static_cast<std::function<void()>>([&doc]() -> void
+{
+    doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx");
+})(), Aspose::Words::IncorrectPasswordException);
 
 // When loading such a document, the password is passed to the document's constructor using a LoadOptions object.
-auto options = MakeObject<LoadOptions>(u"docPassword");
+auto options = System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"docPassword");
 
 // There are two ways of loading an encrypted document with a LoadOptions object.
 // 1 -  Load the document from the local file system by filename:
-doc = MakeObject<Document>(MyDir + u"Encrypted.docx", options);
+doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Encrypted.docx", options);
 
 // 2 -  Load the document from a stream:
 {
-    SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(MyDir + u"Encrypted.docx");
-    doc = MakeObject<Document>(stream, options);
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Encrypted.docx");
+    doc = System::MakeObject<Aspose::Words::Document>(stream, options);
 }
 ```
 

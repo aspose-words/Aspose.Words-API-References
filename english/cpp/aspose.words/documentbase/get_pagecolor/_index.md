@@ -29,13 +29,13 @@ If the page color is not set (e.g. there is no background shape in the document)
 
 Shows how to set the background color for all pages of a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
 doc->set_PageColor(System::Drawing::Color::get_LightGray());
 
-doc->Save(ArtifactsDir + u"DocumentBase.SetPageColor.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBase.SetPageColor.docx");
 ```
 
 ## See Also

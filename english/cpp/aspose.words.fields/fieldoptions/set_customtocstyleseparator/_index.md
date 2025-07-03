@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator method
 linktitle: set_CustomTocStyleSeparator
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator method. Setter for Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator in C++.'
+description: 'Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator method. Sets custom style separator for the \t switch in FieldToc field in C++.'
 type: docs
 weight: 29000
 url: /cpp/aspose.words.fields/fieldoptions/set_customtocstyleseparator/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldoptions/set_customtocstyleseparator/
 ## FieldOptions::set_CustomTocStyleSeparator method
 
 
-Setter for [Aspose::Words::Fields::FieldOptions::get_CustomTocStyleSeparator](../get_customtocstyleseparator/).
+Sets custom style separator for the \t switch in [FieldToc](../../fieldtoc/) field.
 
 ```cpp
 void Aspose::Words::Fields::FieldOptions::set_CustomTocStyleSeparator(const System::String &value)

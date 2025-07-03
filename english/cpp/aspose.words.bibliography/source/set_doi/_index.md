@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_Doi method
 linktitle: set_Doi
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_Doi method. Sets the digital object identifier in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_Doi method. Setter for Aspose::Words::Bibliography::Source::get_Doi in C++.'
 type: docs
 weight: 74000
 url: /cpp/aspose.words.bibliography/source/set_doi/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_doi/
 ## Source::set_Doi method
 
 
-Sets the digital object identifier.
+Setter for [Aspose::Words::Bibliography::Source::get_Doi](../get_doi/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_Doi(const System::String &value)

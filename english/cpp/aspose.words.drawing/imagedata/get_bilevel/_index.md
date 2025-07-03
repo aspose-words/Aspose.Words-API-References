@@ -27,17 +27,17 @@ The default value is **false**.
 
 Shows how to edit a shape's image data. 
 ```cpp
-auto imgSourceDoc = MakeObject<Document>(MyDir + u"Images.docx");
-auto sourceShape = System::ExplicitCast<Shape>(imgSourceDoc->GetChildNodes(NodeType::Shape, true)->idx_get(0));
+auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+auto sourceShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->idx_get(0));
 
-auto dstDoc = MakeObject<Document>();
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 
 // Import a shape from the source document and append it to the first paragraph.
-auto importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
-dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
+auto importedShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(dstDoc->ImportNode(sourceShape, true));
+dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(importedShape);
 
 // The imported shape contains an image. We can access the image's properties and raw data via the ImageData object.
-SharedPtr<ImageData> imageData = importedShape->get_ImageData();
+System::SharedPtr<Aspose::Words::Drawing::ImageData> imageData = importedShape->get_ImageData();
 imageData->set_Title(u"Imported Image");
 
 ASSERT_TRUE(imageData->get_HasImage());
@@ -60,15 +60,15 @@ imageData->set_Contrast(1.0);
 imageData->set_ChromaKey(System::Drawing::Color::get_White());
 
 // Import the source shape again and set the image to monochrome.
-importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
-dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
+importedShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(dstDoc->ImportNode(sourceShape, true));
+dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(importedShape);
 
 importedShape->get_ImageData()->set_GrayScale(true);
 
 // Import the source shape again to create a third image and set it to BiLevel.
 // BiLevel sets every pixel to either black or white, whichever is closer to the original color.
-importedShape = System::ExplicitCast<Shape>(dstDoc->ImportNode(sourceShape, true));
-dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(importedShape);
+importedShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(dstDoc->ImportNode(sourceShape, true));
+dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(importedShape);
 
 importedShape->get_ImageData()->set_BiLevel(true);
 
@@ -79,7 +79,7 @@ importedShape->get_ImageData()->set_CropLeft(0.3);
 importedShape->get_ImageData()->set_CropTop(0.3);
 importedShape->get_ImageData()->set_CropRight(0.3);
 
-dstDoc->Save(ArtifactsDir + u"Drawing.ImageData.docx");
+dstDoc->Save(get_ArtifactsDir() + u"Drawing.ImageData.docx");
 ```
 
 ## See Also

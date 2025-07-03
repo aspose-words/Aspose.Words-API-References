@@ -23,13 +23,13 @@ System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<As
 
 Shows how to print all the digital signatures of a signed document. 
 ```cpp
-SharedPtr<DigitalSignatureCollection> digitalSignatures = DigitalSignatureUtil::LoadSignatures(MyDir + u"Digitally signed.docx");
+System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignatureCollection> digitalSignatures = Aspose::Words::DigitalSignatures::DigitalSignatureUtil::LoadSignatures(get_MyDir() + u"Digitally signed.docx");
 
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<SharedPtr<DigitalSignature>>> enumerator = digitalSignatures->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature>>> enumerator = digitalSignatures->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        SharedPtr<DigitalSignature> ds = enumerator->get_Current();
+        System::SharedPtr<Aspose::Words::DigitalSignatures::DigitalSignature> ds = enumerator->get_Current();
 
         if (ds != nullptr)
         {

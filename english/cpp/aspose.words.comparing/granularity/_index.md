@@ -30,23 +30,23 @@ enum class Granularity
 
 Shows to specify a granularity while comparing documents. 
 ```cpp
-auto docA = MakeObject<Document>();
-auto builderA = MakeObject<DocumentBuilder>(docA);
+auto docA = System::MakeObject<Aspose::Words::Document>();
+auto builderA = System::MakeObject<Aspose::Words::DocumentBuilder>(docA);
 builderA->Writeln(u"Alpha Lorem ipsum dolor sit amet, consectetur adipiscing elit");
 
-auto docB = MakeObject<Document>();
-auto builderB = MakeObject<DocumentBuilder>(docB);
+auto docB = System::MakeObject<Aspose::Words::Document>();
+auto builderB = System::MakeObject<Aspose::Words::DocumentBuilder>(docB);
 builderB->Writeln(u"Lorems ipsum dolor sit amet consectetur - \"adipiscing\" elit");
 
 // Specify whether changes are tracking
 // by character ('Granularity.CharLevel'), or by word ('Granularity.WordLevel').
-auto compareOptions = MakeObject<Aspose::Words::Comparing::CompareOptions>();
+auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOptions>();
 compareOptions->set_Granularity(granularity);
 
 docA->Compare(docB, u"author", System::DateTime::get_Now(), compareOptions);
 
 // The first document's collection of revision groups contains all the differences between documents.
-SharedPtr<RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
+System::SharedPtr<Aspose::Words::RevisionGroupCollection> groups = docA->get_Revisions()->get_Groups();
 ASSERT_EQ(5, groups->get_Count());
 ```
 

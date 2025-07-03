@@ -37,8 +37,8 @@ int32_t Aspose::Words::Saving::HtmlSaveOptions::get_FontResourcesSubsettingSizeT
 
 Shows how to work with font subsetting. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Arial");
 builder->Writeln(u"Hello world!");
@@ -60,27 +60,30 @@ builder->Writeln(u"Hello world!");
 // If an exported font creates a size bigger file than that, then the save operation will apply subsetting to that font.
 // Setting a threshold of 0 applies subsetting to all fonts,
 // and setting it to "int.MaxValue" effectively disables subsetting.
-String fontsFolder = ArtifactsDir + u"HtmlSaveOptions.FontSubsetting.Fonts";
+System::String fontsFolder = get_ArtifactsDir() + u"HtmlSaveOptions.FontSubsetting.Fonts";
 
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportFontResources(true);
 options->set_FontsFolder(fontsFolder);
 options->set_FontResourcesSubsettingSizeThreshold(fontResourcesSubsettingSizeThreshold);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.FontSubsetting.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FontSubsetting.html", options);
 
-ArrayPtr<String> fontFileNames = System::IO::Directory::GetFiles(fontsFolder)->LINQ_Where([](String s) { return s.EndsWith(u".ttf"); })->LINQ_ToArray();
+System::ArrayPtr<System::String> fontFileNames = System::IO::Directory::GetFiles(fontsFolder)->LINQ_Where(static_cast<System::Func<System::String, bool>>(static_cast<std::function<bool(System::String s)>>([](System::String s) -> bool
+{
+    return s.EndsWith(u".ttf");
+})))->LINQ_ToArray();
 
 ASSERT_EQ(3, fontFileNames->get_Length());
 
-for (String filename : fontFileNames)
+for (System::String filename : fontFileNames)
 {
     // By default, the .ttf files for each of our three fonts will be over 700MB.
     // Subsetting will reduce them all to under 30MB.
-    auto fontFileInfo = MakeObject<System::IO::FileInfo>(filename);
+    auto fontFileInfo = System::MakeObject<System::IO::FileInfo>(filename);
 
     ASSERT_TRUE(fontFileInfo->get_Length() > 700000 || fontFileInfo->get_Length() < 30000);
-    ASSERT_TRUE(System::Math::Max(fontResourcesSubsettingSizeThreshold, 30000) > MakeObject<System::IO::FileInfo>(filename)->get_Length());
+    ASSERT_TRUE(System::Math::Max(fontResourcesSubsettingSizeThreshold, 30000) > System::MakeObject<System::IO::FileInfo>(filename)->get_Length());
 }
 ```
 

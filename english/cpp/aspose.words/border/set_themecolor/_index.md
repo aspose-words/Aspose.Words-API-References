@@ -2,7 +2,7 @@
 title: Aspose::Words::Border::set_ThemeColor method
 linktitle: set_ThemeColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Border::set_ThemeColor method. Sets the theme color in the applied color scheme that is associated with this Border object in C++.'
+description: 'Aspose::Words::Border::set_ThemeColor method. Setter for Aspose::Words::Border::get_ThemeColor in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words/border/set_themecolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/border/set_themecolor/
 ## Border::set_ThemeColor method
 
 
-Sets the theme color in the applied color scheme that is associated with this [Border](../) object.
+Setter for [Aspose::Words::Border::get_ThemeColor](../get_themecolor/).
 
 ```cpp
 void Aspose::Words::Border::set_ThemeColor(Aspose::Words::Themes::ThemeColor value)

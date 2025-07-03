@@ -33,7 +33,7 @@ Some fields, such as XE (Index Entry) fields and SEQ (Sequence) fields, cannot b
 
 Shows how to unlink a field. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Linked fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Linked fields.docx");
 doc->get_Range()->get_Fields()->idx_get(1)->Unlink();
 ```
 

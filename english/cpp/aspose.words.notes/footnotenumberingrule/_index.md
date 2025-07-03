@@ -32,8 +32,8 @@ enum class FootnoteNumberingRule
 
 Shows how to restart footnote/endnote numbering at certain places in the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Footnotes and endnotes are a way to attach a reference or a side comment to text
 // that does not interfere with the main body text's flow.
@@ -44,39 +44,39 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Footnote entries, by default, show up at the bottom of each page that contains
 // their reference symbols, and endnotes show up at the end of the document.
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 2.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 2.");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 3.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 3.");
 builder->Write(u"Text 4. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 4.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 4.");
 
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 2.");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 2.");
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 3.");
 builder->Write(u"Text 4. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 4.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 4.");
 
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), FootnoteNumberingRule::Default);
-ASSERT_EQ(FootnoteNumberingRule::Default, FootnoteNumberingRule::Continuous);
+ASSERT_EQ(doc->get_FootnoteOptions()->get_RestartRule(), Aspose::Words::Notes::FootnoteNumberingRule::Default);
+ASSERT_EQ(Aspose::Words::Notes::FootnoteNumberingRule::Default, Aspose::Words::Notes::FootnoteNumberingRule::Continuous);
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.
-doc->get_FootnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartPage);
-doc->get_EndnoteOptions()->set_RestartRule(FootnoteNumberingRule::RestartSection);
+doc->get_FootnoteOptions()->set_RestartRule(Aspose::Words::Notes::FootnoteNumberingRule::RestartPage);
+doc->get_EndnoteOptions()->set_RestartRule(Aspose::Words::Notes::FootnoteNumberingRule::RestartSection);
 
-doc->Save(ArtifactsDir + u"InlineStory.NumberingRule.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.NumberingRule.docx");
 ```
 
 ## See Also

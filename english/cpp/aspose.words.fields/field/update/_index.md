@@ -23,18 +23,18 @@ void Aspose::Words::Fields::Field::Update()
 
 Shows how to insert a field into a document using FieldType. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert two fields while passing a flag which determines whether to update them as the builder inserts them.
 // In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
 builder->Write(u"This document was written by ");
-builder->InsertField(FieldType::FieldAuthor, updateInsertedFieldsImmediately);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, updateInsertedFieldsImmediately);
 
 builder->InsertParagraph();
 builder->Write(u"\nThis is page ");
-builder->InsertField(FieldType::FieldPage, updateInsertedFieldsImmediately);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, updateInsertedFieldsImmediately);
 
 ASSERT_EQ(u" AUTHOR ", doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode());
 ASSERT_EQ(u" PAGE ", doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode());
@@ -46,8 +46,8 @@ if (updateInsertedFieldsImmediately)
 }
 else
 {
-    ASSERT_EQ(String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-    ASSERT_EQ(String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
+    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
     // We will need to update these fields using the update methods manually.
     doc->get_Range()->get_Fields()->idx_get(0)->Update();
@@ -63,11 +63,11 @@ else
 
 Shows how to format field results. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Use a document builder to insert a field that displays a result with no format applied.
-SharedPtr<Field> field = builder->InsertField(u"= 2 + 3");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"= 2 + 3");
 
 ASSERT_EQ(u"= 2 + 3", field->GetFieldCode());
 ASSERT_EQ(u"5", field->get_Result());
@@ -75,7 +75,7 @@ ASSERT_EQ(u"5", field->get_Result());
 // We can apply a format to a field's result using the field's properties.
 // Below are three types of formats that we can apply to a field's result.
 // 1 -  Numeric format:
-SharedPtr<FieldFormat> format = field->get_Format();
+System::SharedPtr<Aspose::Words::Fields::FieldFormat> format = field->get_Format();
 format->set_NumericFormat(u"$###.00");
 field->Update();
 
@@ -89,31 +89,31 @@ format->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
 ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
-std::cout << "Today's date, in " << format->get_DateTimeFormat() << " format:\n\t" << field->get_Result() << std::endl;
+std::cout << System::String::Format(u"Today's date, in {0} format:\n\t{1}", format->get_DateTimeFormat(), field->get_Result()) << std::endl;
 
 // 3 -  General format:
 field = builder->InsertField(u"= 25 + 33");
 format = field->get_Format();
-format->get_GeneralFormats()->Add(GeneralFormat::LowercaseRoman);
-format->get_GeneralFormats()->Add(GeneralFormat::Upper);
+format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Add(Aspose::Words::Fields::GeneralFormat::Upper);
 field->Update();
 
-int index = 0;
+int32_t index = 0;
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<GeneralFormat>> generalFormatEnumerator = format->get_GeneralFormats()->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<Aspose::Words::Fields::GeneralFormat>> generalFormatEnumerator = format->get_GeneralFormats()->GetEnumerator();
     while (generalFormatEnumerator->MoveNext())
     {
-        std::cout << String::Format(u"General format index {0}: {1}", index++, generalFormatEnumerator->get_Current()) << std::endl;
+        std::cout << System::String::Format(u"General format index {0}: {1}", index++, generalFormatEnumerator->get_Current()) << std::endl;
     }
 }
 
 ASSERT_EQ(u"= 25 + 33 \\* roman \\* Upper", field->GetFieldCode());
 ASSERT_EQ(u"LVIII", field->get_Result());
 ASSERT_EQ(2, format->get_GeneralFormats()->get_Count());
-ASSERT_EQ(GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
+ASSERT_EQ(Aspose::Words::Fields::GeneralFormat::LowercaseRoman, format->get_GeneralFormats()->idx_get(0));
 
 // We can remove our formats to revert the field's result to its original form.
-format->get_GeneralFormats()->Remove(GeneralFormat::LowercaseRoman);
+format->get_GeneralFormats()->Remove(Aspose::Words::Fields::GeneralFormat::LowercaseRoman);
 format->get_GeneralFormats()->RemoveAt(0);
 ASSERT_EQ(0, format->get_GeneralFormats()->get_Count());
 field->Update();
@@ -148,34 +148,40 @@ void Aspose::Words::Fields::Field::Update(bool ignoreMergeFormat)
 
 Shows how to preserve or discard INCLUDEPICTURE fields when loading a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto includePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
-includePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
+auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+includePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 includePicture->Update(true);
 
 {
-    auto docStream = MakeObject<System::IO::MemoryStream>();
-    doc->Save(docStream, MakeObject<OoxmlSaveOptions>(SaveFormat::Docx));
+    auto docStream = System::MakeObject<System::IO::MemoryStream>();
+    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx));
 
     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
     // into image shapes when loading a document that contains them.
-    auto loadOptions = MakeObject<Loading::LoadOptions>();
+    auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
     loadOptions->set_PreserveIncludePictureField(preserveIncludePictureField);
 
-    doc = MakeObject<Document>(docStream, loadOptions);
+    doc = System::MakeObject<Aspose::Words::Document>(docStream, loadOptions);
 
     if (preserveIncludePictureField)
     {
-        ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldIncludePicture; }));
+        ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+        {
+            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+        }))));
 
         doc->UpdateFields();
-        doc->Save(ArtifactsDir + u"Field.PreserveIncludePicture.docx");
+        doc->Save(get_ArtifactsDir() + u"Field.PreserveIncludePicture.docx");
     }
     else
     {
-        ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldIncludePicture; }));
+        ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+        {
+            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+        }))));
     }
 }
 ```

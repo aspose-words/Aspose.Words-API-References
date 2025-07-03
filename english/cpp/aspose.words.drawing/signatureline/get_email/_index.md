@@ -23,10 +23,10 @@ System::String Aspose::Words::Drawing::SignatureLine::get_Email()
 
 Shows how to create a line for a signature and insert it into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto options = MakeObject<SignatureLineOptions>();
+auto options = System::MakeObject<Aspose::Words::SignatureLineOptions>();
 options->set_AllowComments(true);
 options->set_DefaultInstructions(true);
 options->set_Email(u"john.doe@management.com");
@@ -39,13 +39,12 @@ options->set_SignerTitle(u"Senior Manager");
 // customize using the "SignatureLineOptions" object we have created above.
 // If we insert a shape whose coordinates originate at the bottom right hand corner of the page,
 // we will need to supply negative x and y coordinates to bring the shape into view.
-SharedPtr<Shape> shape = builder->InsertSignatureLine(options, RelativeHorizontalPosition::RightMargin, -170.0, RelativeVerticalPosition::BottomMargin,
-                                                      -60.0, WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertSignatureLine(options, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, -170.0, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, -60.0, Aspose::Words::Drawing::WrapType::None);
 
 ASSERT_TRUE(shape->get_IsSignatureLine());
 
 // Verify the properties of our signature line via its Shape object.
-SharedPtr<SignatureLine> signatureLine = shape->get_SignatureLine();
+System::SharedPtr<Aspose::Words::Drawing::SignatureLine> signatureLine = shape->get_SignatureLine();
 
 ASSERT_EQ(u"john.doe@management.com", signatureLine->get_Email());
 ASSERT_EQ(u"John Doe", signatureLine->get_Signer());
@@ -55,7 +54,7 @@ ASSERT_TRUE(signatureLine->get_ShowDate());
 ASSERT_TRUE(signatureLine->get_AllowComments());
 ASSERT_TRUE(signatureLine->get_DefaultInstructions());
 
-doc->Save(ArtifactsDir + u"Shape.SignatureLine.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.SignatureLine.docx");
 ```
 
 ## See Also

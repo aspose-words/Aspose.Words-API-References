@@ -21,14 +21,14 @@ class FieldSeq : public Aspose::Words::Fields::Field,
 
 | Method | Description |
 | --- | --- |
-| [get_BookmarkName](./get_bookmarkname/)() | Gets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+| [get_BookmarkName](./get_bookmarkname/)() | Gets or sets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
 | [get_DisplayResult](../field/get_displayresult/)() | Gets the text that represents the displayed field result. |
 | [get_End](../field/get_end/)() const | Gets the node that represents the field end. |
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_InsertNextNumber](./get_insertnextnumber/)() | Gets or sets whether to insert the next sequence number for the specified item. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_ResetHeadingLevel](./get_resetheadinglevel/)() | Gets or sets an integer number representing a heading level to reset the sequence number to. Returns -1 if the number is absent. |
@@ -43,9 +43,9 @@ class FieldSeq : public Aspose::Words::Fields::Field,
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Sets a bookmark name that refers to an item elsewhere in the document rather than in the current location. |
+| [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSeq::get_BookmarkName](./get_bookmarkname/). |
 | [set_InsertNextNumber](./set_insertnextnumber/)(bool) | Setter for [Aspose::Words::Fields::FieldSeq::get_InsertNextNumber](./get_insertnextnumber/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_ResetHeadingLevel](./set_resetheadinglevel/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldSeq::get_ResetHeadingLevel](./get_resetheadinglevel/). |
@@ -63,12 +63,12 @@ class FieldSeq : public Aspose::Words::Fields::Field,
 
 Shows how to populate a TOC field with entries using SEQ fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // A TOC field can create an entry in its table of contents for each SEQ field found in the document.
 // Each entry contains the paragraph that includes the SEQ field and the page's number that the field appears on.
-auto fieldToc = System::ExplicitCast<FieldToc>(builder->InsertField(FieldType::FieldTOC, true));
+auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -90,14 +90,14 @@ fieldToc->set_SequenceSeparator(u">");
 
 ASSERT_EQ(u" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc->GetFieldCode());
 
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
 // There are two ways of using SEQ fields to populate this TOC.
 // 1 -  Inserting a SEQ field that belongs to the TOC's prefix sequence:
 // This field will increment the SEQ sequence count for the "PrefixSequence" by 1.
 // Since this field does not belong to the main sequence identified
 // by the "TableOfFiguresLabel" property of the TOC, it will not appear as an entry.
-auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
 
@@ -111,7 +111,7 @@ ASSERT_EQ(u" SEQ  PrefixSequence", fieldSeq->GetFieldCode());
 // The "PrefixSequence" count is at 1, this main sequence SEQ field is on page 2,
 // and the separator is ">", so entry will display "1>2".
 builder->Write(u"First TOC entry, MySequence #");
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
 ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
@@ -119,23 +119,23 @@ ASSERT_EQ(u" SEQ  MySequence", fieldSeq->GetFieldCode());
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,
 // so the TOC entry will display "2>3" at its page count.
-builder->InsertBreak(BreakType::PageBreak);
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"PrefixSequence");
 builder->InsertParagraph();
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 builder->Write(u"Second TOC entry, MySequence #");
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.TOC.SEQ.docx");
+doc->Save(get_ArtifactsDir() + u"Field.TOC.SEQ.docx");
 ```
 
 
 Shows create numbering using SEQ fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -143,7 +143,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Insert a SEQ field that will display the current count value of "MySequence",
 // after using the "ResetNumber" property to set it to 100.
 builder->Write(u"#");
-auto fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetNumber(u"100");
 fieldSeq->Update();
@@ -153,21 +153,21 @@ ASSERT_EQ(u"100", fieldSeq->get_Result());
 
 // Display the next number in this sequence with another SEQ field.
 builder->Write(u", #");
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->Update();
 
 ASSERT_EQ(u"101", fieldSeq->get_Result());
 
 // Insert a level 1 heading.
-builder->InsertBreak(BreakType::ParagraphBreak);
+builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Heading 1"));
 builder->Writeln(u"This level 1 heading will reset MySequence to 1");
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"));
 
 // Insert another SEQ field from the same sequence and configure it to reset the count at every heading with 1.
 builder->Write(u"\n#");
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_ResetHeadingLevel(u"1");
 fieldSeq->Update();
@@ -178,7 +178,7 @@ ASSERT_EQ(u"1", fieldSeq->get_Result());
 
 // Move to the next number of this sequence.
 builder->Write(u", #");
-fieldSeq = System::ExplicitCast<FieldSeq>(builder->InsertField(FieldType::FieldSequence, true));
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
 fieldSeq->set_SequenceIdentifier(u"MySequence");
 fieldSeq->set_InsertNextNumber(true);
 fieldSeq->Update();
@@ -187,7 +187,78 @@ ASSERT_EQ(u" SEQ  MySequence \\n", fieldSeq->GetFieldCode());
 ASSERT_EQ(u"2", fieldSeq->get_Result());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.SEQ.ResetNumbering.docx");
+doc->Save(get_ArtifactsDir() + u"Field.SEQ.ResetNumbering.docx");
+```
+
+
+Shows how to combine table of contents and sequence fields. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// A TOC field can create an entry in its table of contents for each SEQ field found in the document.
+// Each entry contains the paragraph that contains the SEQ field,
+// and the number of the page that the field appears on.
+auto fieldToc = System::ExplicitCast<Aspose::Words::Fields::FieldToc>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTOC, true));
+
+// Configure this TOC field to have a SequenceIdentifier property with a value of "MySequence".
+fieldToc->set_TableOfFiguresLabel(u"MySequence");
+
+// Configure this TOC field to only pick up SEQ fields that are within the bounds of a bookmark
+// named "TOCBookmark".
+fieldToc->set_BookmarkName(u"TOCBookmark");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+
+ASSERT_EQ(u" TOC  \\c MySequence \\b TOCBookmark", fieldToc->GetFieldCode());
+
+// SEQ fields display a count that increments at each SEQ field.
+// These fields also maintain separate counts for each unique named sequence
+// identified by the SEQ field's "SequenceIdentifier" property.
+// Insert a SEQ field that has a sequence identifier that matches the TOC's
+// TableOfFiguresLabel property. This field will not create an entry in the TOC since it is outside
+// the bookmark's bounds designated by "BookmarkName".
+builder->Write(u"MySequence #");
+auto fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq->set_SequenceIdentifier(u"MySequence");
+builder->Writeln(u", will not show up in the TOC because it is outside of the bookmark.");
+
+builder->StartBookmark(u"TOCBookmark");
+
+// This SEQ field's sequence matches the TOC's "TableOfFiguresLabel" property and is within the bookmark's bounds.
+// The paragraph that contains this field will show up in the TOC as an entry.
+builder->Write(u"MySequence #");
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq->set_SequenceIdentifier(u"MySequence");
+builder->Writeln(u", will show up in the TOC next to the entry for the above caption.");
+
+// This SEQ field's sequence does not match the TOC's "TableOfFiguresLabel" property,
+// and is within the bounds of the bookmark. Its paragraph will not show up in the TOC as an entry.
+builder->Write(u"MySequence #");
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq->set_SequenceIdentifier(u"OtherSequence");
+builder->Writeln(u", will not show up in the TOC because it's from a different sequence identifier.");
+
+// This SEQ field's sequence matches the TOC's "TableOfFiguresLabel" property and is within the bounds of the bookmark.
+// This field also references another bookmark. The contents of that bookmark will appear in the TOC entry for this SEQ field.
+// The SEQ field itself will not display the contents of that bookmark.
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq->set_SequenceIdentifier(u"MySequence");
+fieldSeq->set_BookmarkName(u"SEQBookmark");
+ASSERT_EQ(u" SEQ  MySequence SEQBookmark", fieldSeq->GetFieldCode());
+
+// Create a bookmark with contents that will show up in the TOC entry due to the above SEQ field referencing it.
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->StartBookmark(u"SEQBookmark");
+builder->Write(u"MySequence #");
+fieldSeq = System::ExplicitCast<Aspose::Words::Fields::FieldSeq>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSequence, true));
+fieldSeq->set_SequenceIdentifier(u"MySequence");
+builder->Writeln(u", text from inside SEQBookmark.");
+builder->EndBookmark(u"SEQBookmark");
+
+builder->EndBookmark(u"TOCBookmark");
+
+doc->UpdateFields();
+doc->Save(get_ArtifactsDir() + u"Field.SEQ.Bookmark.docx");
 ```
 
 ## See Also

@@ -27,27 +27,27 @@ Aspose.Words does not update this property.
 
 Shows the relationship between "HeadingPairs" and "TitlesOfParts" properties. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Heading pairs and titles of parts.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Heading pairs and titles of parts.docx");
 
 // We can find the combined values of these collections via
 // "File" -> "Properties" -> "Advanced Properties" -> "Contents" tab.
 // The HeadingPairs property is a collection of <string, int> pairs that
 // determines how many document parts a heading spans across.
-ArrayPtr<SharedPtr<System::Object>> headingPairs = doc->get_BuiltInDocumentProperties()->get_HeadingPairs();
+System::ArrayPtr<System::SharedPtr<System::Object>> headingPairs = doc->get_BuiltInDocumentProperties()->get_HeadingPairs();
 
 // The TitlesOfParts property contains the names of parts that belong to the above headings.
-ArrayPtr<String> titlesOfParts = doc->get_BuiltInDocumentProperties()->get_TitlesOfParts();
+System::ArrayPtr<System::String> titlesOfParts = doc->get_BuiltInDocumentProperties()->get_TitlesOfParts();
 
-int headingPairsIndex = 0;
-int titlesOfPartsIndex = 0;
+int32_t headingPairsIndex = 0;
+int32_t titlesOfPartsIndex = 0;
 while (headingPairsIndex < headingPairs->get_Length())
 {
-    std::cout << "Parts for " << headingPairs[headingPairsIndex++] << ":" << std::endl;
-    int partsCount = System::Convert::ToInt32(headingPairs[headingPairsIndex++]);
+    std::cout << System::String::Format(u"Parts for {0}:", headingPairs[headingPairsIndex++]) << std::endl;
+    int32_t partsCount = System::Convert::ToInt32(headingPairs[headingPairsIndex++]);
 
-    for (int i = 0; i < partsCount; i++)
+    for (int32_t i = 0; i < partsCount; i++)
     {
-        std::cout << "\t\"" << titlesOfParts[titlesOfPartsIndex++] << "\"" << std::endl;
+        std::cout << System::String::Format(u"\t\"{0}\"", titlesOfParts[titlesOfPartsIndex++]) << std::endl;
     }
 }
 ```

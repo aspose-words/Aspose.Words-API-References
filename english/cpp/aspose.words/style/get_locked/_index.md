@@ -16,6 +16,24 @@ Specifies whether this style is locked.
 bool Aspose::Words::Style::get_Locked() const
 ```
 
+
+## Examples
+
+
+
+Shows how to lock style. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+System::SharedPtr<Aspose::Words::Style> styleHeading1 = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Heading1);
+if (!styleHeading1->get_Locked())
+{
+    styleHeading1->set_Locked(true);
+}
+
+doc->Save(get_ArtifactsDir() + u"Styles.LockStyle.docx");
+```
+
 ## See Also
 
 * Class [Style](../)

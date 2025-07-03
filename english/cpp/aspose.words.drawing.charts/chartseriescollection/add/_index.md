@@ -21,6 +21,29 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 Recently added [ChartSeries](../../chartseries/) object.
 
+## Examples
+
+
+
+Shows how to create histogram chart. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Histogram chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Histogram, 450, 450);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Avg Temperature since 1991");
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+// Add a series.
+chart->get_Series()->Add(u"Avg Temperature", System::MakeArray<double>({51.8, 53.6, 50.3, 54.7, 53.9, 54.3, 53.4, 52.9, 53.3, 53.7, 53.8, 52.0, 55.0, 52.1, 53.4, 53.8, 53.8, 51.9, 52.1, 52.7, 51.8, 56.6, 53.3, 55.6, 56.3, 56.2, 56.1, 56.2, 53.6, 55.7, 56.3, 55.9, 55.6}));
+
+doc->Save(get_ArtifactsDir() + u"Charts.Histogram.docx");
+```
+
 ## See Also
 
 * Class [ChartSeries](../../chartseries/)
@@ -40,83 +63,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 ### ReturnValue
 
 Recently added [ChartSeries](../../chartseries/) object.
-
-## Examples
-
-
-
-Shows how to create an appropriate type of chart series for a graph type. 
-```cpp
-void ChartSeriesCollection_()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    SharedPtr<Chart> chart = AppendChart(builder, ChartType::Column, 500, 300);
-
-    ArrayPtr<String> categories = MakeArray<String>({u"Category 1", u"Category 2", u"Category 3"});
-
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart->get_Series()->Add(u"Series 1", categories, MakeArray<double>({76.6, 82.1, 91.6}));
-    chart->get_Series()->Add(u"Series 2", categories, MakeArray<double>({64.2, 79.5, 94.0}));
-
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType::Area, 500, 300);
-
-    ArrayPtr<System::DateTime> dates =
-        MakeArray<System::DateTime>({System::DateTime(2014, 3, 31), System::DateTime(2017, 1, 23), System::DateTime(2017, 6, 18),
-                                     System::DateTime(2019, 11, 22), System::DateTime(2020, 9, 7)});
-
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart->get_Series()->Add(u"Series 1", dates, MakeArray<double>({15.8, 21.5, 22.9, 28.7, 33.1}));
-
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType::Scatter, 500, 300);
-
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6}),
-                             MakeArray<double>({3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9}));
-    chart->get_Series()->Add(u"Series 2", MakeArray<double>({2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3}),
-                             MakeArray<double>({7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6}));
-
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType::Bubble, 500, 300);
-
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({1.1, 5.0, 9.8}), MakeArray<double>({1.2, 4.9, 9.9}), MakeArray<double>({2.0, 4.0, 8.0}));
-
-    doc->Save(ArtifactsDir + u"Charts.ChartSeriesCollection.docx");
-}
-
-static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartType chartType, double width, double height)
-{
-    SharedPtr<Shape> chartShape = builder->InsertChart(chartType, width, height);
-    SharedPtr<Chart> chart = chartShape->get_Chart();
-    chart->get_Series()->Clear();
-
-    return chart;
-}
-```
 
 ## See Also
 
@@ -138,83 +84,6 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 
 Recently added [ChartSeries](../../chartseries/) object.
 
-## Examples
-
-
-
-Shows how to create an appropriate type of chart series for a graph type. 
-```cpp
-void ChartSeriesCollection_()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    SharedPtr<Chart> chart = AppendChart(builder, ChartType::Column, 500, 300);
-
-    ArrayPtr<String> categories = MakeArray<String>({u"Category 1", u"Category 2", u"Category 3"});
-
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart->get_Series()->Add(u"Series 1", categories, MakeArray<double>({76.6, 82.1, 91.6}));
-    chart->get_Series()->Add(u"Series 2", categories, MakeArray<double>({64.2, 79.5, 94.0}));
-
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType::Area, 500, 300);
-
-    ArrayPtr<System::DateTime> dates =
-        MakeArray<System::DateTime>({System::DateTime(2014, 3, 31), System::DateTime(2017, 1, 23), System::DateTime(2017, 6, 18),
-                                     System::DateTime(2019, 11, 22), System::DateTime(2020, 9, 7)});
-
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart->get_Series()->Add(u"Series 1", dates, MakeArray<double>({15.8, 21.5, 22.9, 28.7, 33.1}));
-
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType::Scatter, 500, 300);
-
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6}),
-                             MakeArray<double>({3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9}));
-    chart->get_Series()->Add(u"Series 2", MakeArray<double>({2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3}),
-                             MakeArray<double>({7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6}));
-
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType::Bubble, 500, 300);
-
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({1.1, 5.0, 9.8}), MakeArray<double>({1.2, 4.9, 9.9}), MakeArray<double>({2.0, 4.0, 8.0}));
-
-    doc->Save(ArtifactsDir + u"Charts.ChartSeriesCollection.docx");
-}
-
-static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartType chartType, double width, double height)
-{
-    SharedPtr<Shape> chartShape = builder->InsertChart(chartType, width, height);
-    SharedPtr<Chart> chart = chartShape->get_Chart();
-    chart->get_Series()->Clear();
-
-    return chart;
-}
-```
-
 ## See Also
 
 * Class [ChartSeries](../../chartseries/)
@@ -228,84 +97,6 @@ Adds new [ChartSeries](../../chartseries/) to this collection. Use this method t
 
 ```cpp
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Drawing::Charts::ChartSeriesCollection::Add(const System::String &seriesName, const System::ArrayPtr<System::DateTime> &dates, const System::ArrayPtr<double> &values)
-```
-
-
-## Examples
-
-
-
-Shows how to create an appropriate type of chart series for a graph type. 
-```cpp
-void ChartSeriesCollection_()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    SharedPtr<Chart> chart = AppendChart(builder, ChartType::Column, 500, 300);
-
-    ArrayPtr<String> categories = MakeArray<String>({u"Category 1", u"Category 2", u"Category 3"});
-
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart->get_Series()->Add(u"Series 1", categories, MakeArray<double>({76.6, 82.1, 91.6}));
-    chart->get_Series()->Add(u"Series 2", categories, MakeArray<double>({64.2, 79.5, 94.0}));
-
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType::Area, 500, 300);
-
-    ArrayPtr<System::DateTime> dates =
-        MakeArray<System::DateTime>({System::DateTime(2014, 3, 31), System::DateTime(2017, 1, 23), System::DateTime(2017, 6, 18),
-                                     System::DateTime(2019, 11, 22), System::DateTime(2020, 9, 7)});
-
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart->get_Series()->Add(u"Series 1", dates, MakeArray<double>({15.8, 21.5, 22.9, 28.7, 33.1}));
-
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType::Scatter, 500, 300);
-
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6}),
-                             MakeArray<double>({3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9}));
-    chart->get_Series()->Add(u"Series 2", MakeArray<double>({2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3}),
-                             MakeArray<double>({7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6}));
-
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
-
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType::Bubble, 500, 300);
-
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({1.1, 5.0, 9.8}), MakeArray<double>({1.2, 4.9, 9.9}), MakeArray<double>({2.0, 4.0, 8.0}));
-
-    doc->Save(ArtifactsDir + u"Charts.ChartSeriesCollection.docx");
-}
-
-static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartType chartType, double width, double height)
-{
-    SharedPtr<Shape> chartShape = builder->InsertChart(chartType, width, height);
-    SharedPtr<Chart> chart = chartShape->get_Chart();
-    chart->get_Series()->Clear();
-
-    return chart;
-}
 ```
 
 ## See Also
@@ -327,6 +118,61 @@ System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> Aspose::Words::Dr
 ### ReturnValue
 
 Recently added [ChartSeries](../../chartseries/) object.
+
+## Examples
+
+
+
+Shows how to create treemap chart. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Treemap chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Treemap, 450, 280);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"World Population");
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+// Add a series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Population by Region", System::MakeArray<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>>({System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"China"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"India"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Indonesia"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Pakistan"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Bangladesh"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Japan"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Philippines"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Asia", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Africa", u"Nigeria"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Africa", u"Ethiopia"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Africa", u"Egypt"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Africa", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Europe", u"Russia"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Europe", u"Germany"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Europe", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Latin America", u"Brazil"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Latin America", u"Mexico"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Latin America", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Northern America", u"United States", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Northern America", u"Other"), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Oceania")}), System::MakeArray<double>({1409670000, 1400744000, 279118866, 241499431, 169828911, 123930000, 112892781, 764000000, 223800000, 107334000, 105914499, 903000000, 146150789, 84607016, 516000000, 203080756, 129713690, 310000000, 335893238, 35000000, 42000000}));
+
+// Show data labels.
+series->set_HasDataLabels(true);
+series->get_DataLabels()->set_ShowValue(true);
+series->get_DataLabels()->set_ShowCategoryName(true);
+System::String thousandSeparator = System::Globalization::CultureInfo::get_CurrentCulture()->get_NumberFormat()->get_CurrencyGroupSeparator();
+series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::Format(u"#{0}0", thousandSeparator));
+
+doc->Save(get_ArtifactsDir() + u"Charts.Treemap.docx");
+```
+
+
+Shows how to create sunburst chart. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Sunburst chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Sunburst, 450, 450);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Sales");
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+// Add a series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Sales", System::MakeArray<System::SharedPtr<Aspose::Words::Drawing::Charts::ChartMultilevelValue>>({System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Europe", u"UK", u"London Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Europe", u"UK", u"Liverpool Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Europe", u"UK", u"Manchester Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Europe", u"France", u"Paris Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Europe", u"France", u"Lyon Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"USA", u"Denver Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"USA", u"Seattle Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"USA", u"Detroit Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"USA", u"Houston Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"Canada", u"Toronto Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - NA", u"Canada", u"Montreal Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Oceania", u"Australia", u"Sydney Dep."), System::MakeObject<Aspose::Words::Drawing::Charts::ChartMultilevelValue>(u"Sales - Oceania", u"New Zealand", u"Auckland Dep.")}), System::MakeArray<double>({1236, 851, 536, 468, 179, 527, 799, 1148, 921, 457, 482, 761, 694}));
+
+// Show data labels.
+series->set_HasDataLabels(true);
+series->get_DataLabels()->set_ShowValue(false);
+series->get_DataLabels()->set_ShowCategoryName(true);
+
+doc->Save(get_ArtifactsDir() + u"Charts.Sunburst.docx");
+```
 
 ## See Also
 
@@ -353,77 +199,71 @@ Recently added [ChartSeries](../../chartseries/) object.
 
 
 
-Shows how to create an appropriate type of chart series for a graph type. 
+Shows how to create pareto chart. 
 ```cpp
-void ChartSeriesCollection_()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-    // There are several ways of populating a chart's series collection.
-    // Different series schemas are intended for different chart types.
-    // 1 -  Column chart with columns grouped and banded along the X-axis by category:
-    SharedPtr<Chart> chart = AppendChart(builder, ChartType::Column, 500, 300);
+// Insert a Pareto chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Pareto, 450, 450);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Best-Selling Car");
 
-    ArrayPtr<String> categories = MakeArray<String>({u"Category 1", u"Category 2", u"Category 3"});
+// Delete default generated series.
+chart->get_Series()->Clear();
 
-    // Insert two series of decimal values containing a value for each respective category.
-    // This column chart will have three groups, each with two columns.
-    chart->get_Series()->Add(u"Series 1", categories, MakeArray<double>({76.6, 82.1, 91.6}));
-    chart->get_Series()->Add(u"Series 2", categories, MakeArray<double>({64.2, 79.5, 94.0}));
+// Add a series.
+chart->get_Series()->Add(u"Best-Selling Car", System::MakeArray<System::String>({u"Tesla Model Y", u"Toyota Corolla", u"Toyota RAV4", u"Ford F-Series", u"Honda CR-V"}), System::MakeArray<double>({1.43, 0.91, 1.17, 0.98, 0.85}));
 
-    // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
+doc->Save(get_ArtifactsDir() + u"Charts.Pareto.docx");
+```
 
-    // 2 -  Area chart with dates distributed along the X-axis:
-    chart = AppendChart(builder, ChartType::Area, 500, 300);
 
-    ArrayPtr<System::DateTime> dates =
-        MakeArray<System::DateTime>({System::DateTime(2014, 3, 31), System::DateTime(2017, 1, 23), System::DateTime(2017, 6, 18),
-                                     System::DateTime(2019, 11, 22), System::DateTime(2020, 9, 7)});
+Shows how to create box and whisker chart. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-    // Insert a series with a decimal value for each respective date.
-    // The dates will be distributed along a linear X-axis,
-    // and the values added to this series will create data points.
-    chart->get_Series()->Add(u"Series 1", dates, MakeArray<double>({15.8, 21.5, 22.9, 28.7, 33.1}));
+// Insert a Box & Whisker chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::BoxAndWhisker, 450, 450);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Points by Years");
 
-    ASSERT_EQ(ChartAxisType::Category, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
+// Delete default generated series.
+chart->get_Series()->Clear();
 
-    // 3 -  2D scatter plot:
-    chart = AppendChart(builder, ChartType::Scatter, 500, 300);
+// Add a series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Points by Years", System::MakeArray<System::String>({u"WC", u"WC", u"WC", u"WC", u"WC", u"WC", u"WC", u"WC", u"WC", u"WC", u"NR", u"NR", u"NR", u"NR", u"NR", u"NR", u"NR", u"NR", u"NR", u"NR", u"NA", u"NA", u"NA", u"NA", u"NA", u"NA", u"NA", u"NA", u"NA", u"NA"}), System::MakeArray<double>({91, 80, 100, 77, 90, 104, 105, 118, 120, 101, 114, 107, 110, 60, 79, 78, 77, 102, 101, 113, 94, 93, 84, 71, 80, 103, 80, 94, 100, 101}));
 
-    // Each series will need two decimal arrays of equal length.
-    // The first array contains X-values, and the second contains corresponding Y-values
-    // of data points on the chart's graph.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({3.1, 3.5, 6.3, 4.1, 2.2, 8.3, 1.2, 3.6}),
-                             MakeArray<double>({3.1, 6.3, 4.6, 0.9, 8.5, 4.2, 2.3, 9.9}));
-    chart->get_Series()->Add(u"Series 2", MakeArray<double>({2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3}),
-                             MakeArray<double>({7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6}));
+// Show data labels.
+series->set_HasDataLabels(true);
 
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisX()->get_Type());
-    ASSERT_EQ(ChartAxisType::Value, chart->get_AxisY()->get_Type());
+doc->Save(get_ArtifactsDir() + u"Charts.BoxAndWhisker.docx");
+```
 
-    // 4 -  Bubble chart:
-    chart = AppendChart(builder, ChartType::Bubble, 500, 300);
 
-    // Each series will need three decimal arrays of equal length.
-    // The first array contains X-values, the second contains corresponding Y-values,
-    // and the third contains diameters for each of the graph's data points.
-    chart->get_Series()->Add(u"Series 1", MakeArray<double>({1.1, 5.0, 9.8}), MakeArray<double>({1.2, 4.9, 9.9}), MakeArray<double>({2.0, 4.0, 8.0}));
+Shows how to create funnel chart. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-    doc->Save(ArtifactsDir + u"Charts.ChartSeriesCollection.docx");
-}
+// Insert a Funnel chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Funnel, 450, 450);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+chart->get_Title()->set_Text(u"Population by Age Group");
 
-static SharedPtr<Chart> AppendChart(SharedPtr<DocumentBuilder> builder, ChartType chartType, double width, double height)
-{
-    SharedPtr<Shape> chartShape = builder->InsertChart(chartType, width, height);
-    SharedPtr<Chart> chart = chartShape->get_Chart();
-    chart->get_Series()->Clear();
+// Delete default generated series.
+chart->get_Series()->Clear();
 
-    return chart;
-}
+// Add a series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Population by Age Group", System::MakeArray<System::String>({u"0-9", u"10-19", u"20-29", u"30-39", u"40-49", u"50-59", u"60-69", u"70-79", u"80-89", u"90-"}), System::MakeArray<double>({0.121, 0.128, 0.132, 0.146, 0.124, 0.124, 0.111, 0.075, 0.032, 0.007}));
+
+// Show data labels.
+series->set_HasDataLabels(true);
+System::String decimalSeparator = System::Globalization::CultureInfo::get_CurrentCulture()->get_NumberFormat()->get_CurrencyDecimalSeparator();
+series->get_DataLabels()->get_NumberFormat()->set_FormatCode(System::String::Format(u"0{0}0%", decimalSeparator));
+
+doc->Save(get_ArtifactsDir() + u"Charts.Funnel.docx");
 ```
 
 ## See Also

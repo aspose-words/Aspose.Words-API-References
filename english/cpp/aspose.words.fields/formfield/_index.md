@@ -29,7 +29,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [get_Default](./get_default/)() | Gets or sets the default value of the check box form field. Default value for this property is **false**. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
 | [get_DropDownItems](./get_dropdownitems/)() | Provides access to the items of a dropdown form field. |
-| [get_DropDownSelectedIndex](./get_dropdownselectedindex/)() | Gets or sets the index specifying the currently selected item in a dropdown form field. |
+| [get_DropDownSelectedIndex](./get_dropdownselectedindex/)() | Gets the index specifying the currently selected item in a dropdown form field. |
 | [get_Enabled](./get_enabled/)() | True if a form field is enabled. |
 | [get_EntryMacro](./get_entrymacro/)() | Returns or sets an entry macro name for the form field. |
 | [get_ExitMacro](./get_exitmacro/)() | Returns or sets an exit macro name for the form field. |
@@ -58,7 +58,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [get_StatusText](./get_statustext/)() | Returns or sets the text that's displayed in the status bar when a form field has the focus. |
 | [get_TextInputDefault](./get_textinputdefault/)() | Gets or sets the default string or a calculation expression of a text form field. |
 | [get_TextInputFormat](./get_textinputformat/)() | Returns or sets the text formatting for a text form field. |
-| [get_TextInputType](./get_textinputtype/)() | Gets or sets the type of a text form field. |
+| [get_TextInputType](./get_textinputtype/)() | Gets the type of a text form field. |
 | [get_Type](./get_type/)() | Returns the form field type. |
 | [GetAncestor](../../aspose.words/node/getancestor/)(Aspose::Words::NodeType) | Gets the first ancestor of the specified [NodeType](../../aspose.words/nodetype/). |
 | [GetAncestorOf](../../aspose.words/node/getancestorof/)() |  |
@@ -76,13 +76,13 @@ class FormField : public Aspose::Words::SpecialChar
 | [set_Checked](./set_checked/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_Checked](./get_checked/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_Default](./set_default/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_Default](./get_default/). |
-| [set_DropDownSelectedIndex](./set_dropdownselectedindex/)(int32_t) | Setter for [Aspose::Words::Fields::FormField::get_DropDownSelectedIndex](./get_dropdownselectedindex/). |
-| [set_Enabled](./set_enabled/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_Enabled](./get_enabled/). |
+| [set_DropDownSelectedIndex](./set_dropdownselectedindex/)(int32_t) | Sets the index specifying the currently selected item in a dropdown form field. |
+| [set_Enabled](./set_enabled/)(bool) | True if a form field is enabled. |
 | [set_EntryMacro](./set_entrymacro/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_EntryMacro](./get_entrymacro/). |
 | [set_ExitMacro](./set_exitmacro/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_ExitMacro](./get_exitmacro/). |
 | [set_HelpText](./set_helptext/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_HelpText](./get_helptext/). |
 | [set_IsCheckBoxExactSize](./set_ischeckboxexactsize/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_IsCheckBoxExactSize](./get_ischeckboxexactsize/). |
-| [set_MaxLength](./set_maxlength/)(int32_t) | Setter for [Aspose::Words::Fields::FormField::get_MaxLength](./get_maxlength/). |
+| [set_MaxLength](./set_maxlength/)(int32_t) | Maximum length for the text field. Zero when the length is not limited. |
 | [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_Name](./get_name/). |
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_OwnHelp](./set_ownhelp/)(bool) | Setter for [Aspose::Words::Fields::FormField::get_OwnHelp](./get_ownhelp/). |
@@ -92,7 +92,7 @@ class FormField : public Aspose::Words::SpecialChar
 | [set_StatusText](./set_statustext/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_StatusText](./get_statustext/). |
 | [set_TextInputDefault](./set_textinputdefault/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_TextInputDefault](./get_textinputdefault/). |
 | [set_TextInputFormat](./set_textinputformat/)(const System::String\&) | Setter for [Aspose::Words::Fields::FormField::get_TextInputFormat](./get_textinputformat/). |
-| [set_TextInputType](./set_textinputtype/)(Aspose::Words::Fields::TextFormFieldType) | Setter for [Aspose::Words::Fields::FormField::get_TextInputType](./get_textinputtype/). |
+| [set_TextInputType](./set_textinputtype/)(Aspose::Words::Fields::TextFormFieldType) | Sets the type of a text form field. |
 | [SetParent](../../aspose.words/node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTextInputValue](./settextinputvalue/)(const System::SharedPtr\<System::Object\>\&) | Applies the text format specified in [TextInputFormat](./get_textinputformat/) and stores the value in [Result](./get_result/). |
 | [ToString](../../aspose.words/node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
@@ -115,37 +115,37 @@ A complete form field in a Word document is a complex structure represented by s
 
 Shows how to insert a combo box. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Please select a fruit: ");
 
 // Insert a combo box which will allow a user to choose an option from a collection of strings.
-SharedPtr<FormField> comboBox = builder->InsertComboBox(u"MyComboBox", MakeArray<String>({u"Apple", u"Banana", u"Cherry"}), 0);
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"Apple", u"Banana", u"Cherry"}), 0);
 
 ASSERT_EQ(u"MyComboBox", comboBox->get_Name());
-ASSERT_EQ(FieldType::FieldFormDropDown, comboBox->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldFormDropDown, comboBox->get_Type());
 ASSERT_EQ(u"Apple", comboBox->get_Result());
 
 // The form field will appear in the form of a "select" html tag.
-doc->Save(ArtifactsDir + u"FormFields.Create.html");
+doc->Save(get_ArtifactsDir() + u"FormFields.Create.html");
 ```
 
 
 Shows how to formatting the entire [FormField](./), including the field value. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Form fields.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Form fields.docx");
 
-SharedPtr<FormField> formField = doc->get_Range()->get_FormFields()->idx_get(0);
+System::SharedPtr<Aspose::Words::Fields::FormField> formField = doc->get_Range()->get_FormFields()->idx_get(0);
 formField->get_Font()->set_Bold(true);
 formField->get_Font()->set_Size(24);
 formField->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 formField->set_Result(u"Aspose.FormField");
 
-doc = DocumentHelper::SaveOpen(doc);
+doc = Aspose::Words::ApiExamples::DocumentHelper::SaveOpen(doc);
 
-SharedPtr<Run> formFieldRun = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1);
+System::SharedPtr<Aspose::Words::Run> formFieldRun = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(1);
 
 ASSERT_EQ(u"Aspose.FormField", formFieldRun->get_Text());
 ASPOSE_ASSERT_EQ(true, formFieldRun->get_Font()->get_Bold());

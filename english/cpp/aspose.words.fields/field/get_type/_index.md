@@ -23,16 +23,16 @@ virtual Aspose::Words::Fields::FieldType Aspose::Words::Fields::Field::get_Type(
 
 Shows how to insert a field into a document using a field code. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(FieldType::FieldDate, field->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
 ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
-ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
+ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
 ```
 
 ## See Also

@@ -29,7 +29,7 @@ class FieldPageRef : public Aspose::Words::Fields::Field,
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_InsertHyperlink](./get_inserthyperlink/)() | Gets whether to insert a hyperlink to the bookmarked paragraph. |
 | [get_InsertRelativePosition](./get_insertrelativeposition/)() | Gets whether to insert a relative position of the bookmarked paragraph. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -44,7 +44,7 @@ class FieldPageRef : public Aspose::Words::Fields::Field,
 | [set_BookmarkName](./set_bookmarkname/)(const System::String\&) | Sets the name of the bookmark. |
 | [set_InsertHyperlink](./set_inserthyperlink/)(bool) | Sets whether to insert a hyperlink to the bookmarked paragraph. |
 | [set_InsertRelativePosition](./set_insertrelativeposition/)(bool) | Sets whether to insert a relative position of the bookmarked paragraph. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |

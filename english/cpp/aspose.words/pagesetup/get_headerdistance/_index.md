@@ -23,21 +23,21 @@ double Aspose::Words::PageSetup::get_HeaderDistance()
 
 Shows how to adjust paper size, orientation, margins, along with other settings for a section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->get_PageSetup()->set_PaperSize(PaperSize::Legal);
-builder->get_PageSetup()->set_Orientation(Orientation::Landscape);
-builder->get_PageSetup()->set_TopMargin(ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_BottomMargin(ConvertUtil::InchToPoint(1.0));
-builder->get_PageSetup()->set_LeftMargin(ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_RightMargin(ConvertUtil::InchToPoint(1.5));
-builder->get_PageSetup()->set_HeaderDistance(ConvertUtil::InchToPoint(0.2));
-builder->get_PageSetup()->set_FooterDistance(ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Legal);
+builder->get_PageSetup()->set_Orientation(Aspose::Words::Orientation::Landscape);
+builder->get_PageSetup()->set_TopMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_BottomMargin(Aspose::Words::ConvertUtil::InchToPoint(1.0));
+builder->get_PageSetup()->set_LeftMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_RightMargin(Aspose::Words::ConvertUtil::InchToPoint(1.5));
+builder->get_PageSetup()->set_HeaderDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
+builder->get_PageSetup()->set_FooterDistance(Aspose::Words::ConvertUtil::InchToPoint(0.2));
 
 builder->Writeln(u"Hello world!");
 
-doc->Save(ArtifactsDir + u"PageSetup.PageMargins.docx");
+doc->Save(get_ArtifactsDir() + u"PageSetup.PageMargins.docx");
 ```
 
 ## See Also

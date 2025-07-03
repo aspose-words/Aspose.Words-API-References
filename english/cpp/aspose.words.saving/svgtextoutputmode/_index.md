@@ -31,15 +31,15 @@ enum class SvgTextOutputMode
 
 Shows how to mimic the properties of images when converting a .docx document to .svg. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
 // Configure the SvgSaveOptions object to save with no page borders or selectable text.
-auto options = MakeObject<SvgSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
 options->set_FitToViewPort(true);
 options->set_ShowPageBorder(false);
-options->set_TextOutputMode(SvgTextOutputMode::UsePlacedGlyphs);
+options->set_TextOutputMode(Aspose::Words::Saving::SvgTextOutputMode::UsePlacedGlyphs);
 
-doc->Save(ArtifactsDir + u"SvgSaveOptions.SaveLikeImage.svg", options);
+doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.SaveLikeImage.svg", options);
 ```
 
 ## See Also

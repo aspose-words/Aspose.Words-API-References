@@ -36,18 +36,18 @@ This method inserts a field into a document. Aspose.Words can update fields of m
 
 Shows how to insert a field into a document using FieldType. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert two fields while passing a flag which determines whether to update them as the builder inserts them.
 // In some cases, updating fields could be computationally expensive, and it may be a good idea to defer the update.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
 builder->Write(u"This document was written by ");
-builder->InsertField(FieldType::FieldAuthor, updateInsertedFieldsImmediately);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, updateInsertedFieldsImmediately);
 
 builder->InsertParagraph();
 builder->Write(u"\nThis is page ");
-builder->InsertField(FieldType::FieldPage, updateInsertedFieldsImmediately);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldPage, updateInsertedFieldsImmediately);
 
 ASSERT_EQ(u" AUTHOR ", doc->get_Range()->get_Fields()->idx_get(0)->GetFieldCode());
 ASSERT_EQ(u" PAGE ", doc->get_Range()->get_Fields()->idx_get(1)->GetFieldCode());
@@ -59,8 +59,8 @@ if (updateInsertedFieldsImmediately)
 }
 else
 {
-    ASSERT_EQ(String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
-    ASSERT_EQ(String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
+    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
+    ASSERT_EQ(System::String::Empty, doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
     // We will need to update these fields using the update methods manually.
     doc->get_Range()->get_Fields()->idx_get(0)->Update();
@@ -108,8 +108,8 @@ This method inserts a field into a document and updates the field result immedia
 
 Shows how to insert fields, and move the document builder's cursor to them. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD MyMergeField1 \\* MERGEFORMAT");
 builder->InsertField(u"MERGEFIELD MyMergeField2 \\* MERGEFORMAT");
 
@@ -126,22 +126,22 @@ ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_End(), builder-
 // and pass the field's start or separator node as an argument.
 builder->Write(u" Text between our merge fields. ");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.MergeFields.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.MergeFields.docx");
 ```
 
 
 Shows how to insert a field into a document using a field code. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(FieldType::FieldDate, field->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
 ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
-ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
+ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
 ```
 
 ## See Also
@@ -185,25 +185,25 @@ Aspose.Words can calculate field results for most of the field types, but this m
 
 Shows how to set up page numbering in a section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Section 1, page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 2.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Section 1, page 3.");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Writeln(u"Section 2, page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 2.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Section 2, page 3.");
 
 // Move the document builder to the first section's primary header,
 // which every page in that section will display.
 builder->MoveToSection(0);
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
 
 // Insert a PAGE field, which will display the number of the current page.
 builder->Write(u"Page ");
@@ -211,15 +211,15 @@ builder->InsertField(u"PAGE", u"");
 
 // Configure the section to have the page count that PAGE fields display start from 5.
 // Also, configure all PAGE fields to display their page numbers using uppercase Roman numerals.
-SharedPtr<PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 pageSetup->set_RestartPageNumbering(true);
 pageSetup->set_PageStartingNumber(5);
-pageSetup->set_PageNumberStyle(NumberStyle::UppercaseRoman);
+pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
 
 // Create another primary header for the second section, with another PAGE field.
 builder->MoveToSection(1);
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
-builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
+builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
 builder->Write(u" - ");
 builder->InsertField(u"PAGE", u"");
 builder->Write(u" - ");
@@ -229,9 +229,9 @@ builder->Write(u" - ");
 pageSetup = doc->get_Sections()->idx_get(1)->get_PageSetup();
 pageSetup->set_PageStartingNumber(10);
 pageSetup->set_RestartPageNumbering(true);
-pageSetup->set_PageNumberStyle(NumberStyle::Arabic);
+pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::Arabic);
 
-doc->Save(ArtifactsDir + u"PageSetup.PageNumbering.docx");
+doc->Save(get_ArtifactsDir() + u"PageSetup.PageNumbering.docx");
 ```
 
 ## See Also

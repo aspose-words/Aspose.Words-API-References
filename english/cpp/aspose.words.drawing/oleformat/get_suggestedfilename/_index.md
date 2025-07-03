@@ -23,18 +23,18 @@ System::String Aspose::Words::Drawing::OleFormat::get_SuggestedFileName()
 
 Shows how to get an OLE object's suggested file name. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"OLE shape.rtf");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE shape.rtf");
 
-auto oleShape = System::ExplicitCast<Shape>(doc->get_FirstSection()->get_Body()->GetChild(NodeType::Shape, 0, true));
+auto oleShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->get_FirstSection()->get_Body()->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 // OLE objects can provide a suggested filename and extension,
 // which we can use when saving the object's contents into a file in the local file system.
-String suggestedFileName = oleShape->get_OleFormat()->get_SuggestedFileName();
+System::String suggestedFileName = oleShape->get_OleFormat()->get_SuggestedFileName();
 
 ASSERT_EQ(u"CSV.csv", suggestedFileName);
 
 {
-    auto fileStream = MakeObject<System::IO::FileStream>(ArtifactsDir + suggestedFileName, System::IO::FileMode::Create);
+    auto fileStream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + suggestedFileName, System::IO::FileMode::Create);
     oleShape->get_OleFormat()->Save(fileStream);
 }
 ```

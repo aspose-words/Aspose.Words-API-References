@@ -23,7 +23,7 @@ Aspose::Words::EmphasisMark Aspose::Words::Font::get_EmphasisMark()
 
 Shows how to add additional character rendered above/below the glyph-character. 
 ```cpp
-auto builder = MakeObject<DocumentBuilder>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
 // Possible types of emphasis mark:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
@@ -34,7 +34,7 @@ builder->Writeln();
 builder->get_Font()->ClearFormatting();
 builder->Write(u"Simple text");
 
-builder->get_Document()->Save(ArtifactsDir + u"Fonts.SetEmphasisMark.docx");
+builder->get_Document()->Save(get_ArtifactsDir() + u"Fonts.SetEmphasisMark.docx");
 ```
 
 ## See Also

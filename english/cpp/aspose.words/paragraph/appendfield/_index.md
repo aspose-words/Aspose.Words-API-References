@@ -32,12 +32,12 @@ A [Field](../../../aspose.words.fields/field/) object that represents the append
 
 Shows various ways of appending fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(FieldType::FieldDate, true);
+paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");
@@ -52,7 +52,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
 
 ## See Also
@@ -86,12 +86,12 @@ A [Field](../../../aspose.words.fields/field/) object that represents the append
 
 Shows various ways of appending fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(FieldType::FieldDate, true);
+paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");
@@ -106,7 +106,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
 
 ## See Also
@@ -140,12 +140,12 @@ A [Field](../../../aspose.words.fields/field/) object that represents the append
 
 Shows various ways of appending fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of appending a field to the end of a paragraph.
 // 1 -  Append a DATE field using a field type, and then update it:
-paragraph->AppendField(FieldType::FieldDate, true);
+paragraph->AppendField(Aspose::Words::Fields::FieldType::FieldDate, true);
 
 // 2 -  Append a TIME field using a field code:
 paragraph->AppendField(u" TIME  \\@ \"HH:mm:ss\" ");
@@ -160,7 +160,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u"Real value", doc->get_Range()->get_Fields()->idx_get(2)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.AppendField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.AppendField.docx");
 ```
 
 ## See Also

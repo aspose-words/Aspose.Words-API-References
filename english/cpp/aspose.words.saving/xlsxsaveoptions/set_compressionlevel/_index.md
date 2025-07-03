@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel method
 linktitle: set_CompressionLevel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel method. Specifies the compression level used to save document. The default value is Normal in C++.'
+description: 'Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel method. Setter for Aspose::Words::Saving::XlsxSaveOptions::get_CompressionLevel in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.saving/xlsxsaveoptions/set_compressionlevel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xlsxsaveoptions/set_compressionlevel/
 ## XlsxSaveOptions::set_CompressionLevel method
 
 
-Specifies the compression level used to save document. The default value is [Normal](../../compressionlevel/).
+Setter for [Aspose::Words::Saving::XlsxSaveOptions::get_CompressionLevel](../get_compressionlevel/).
 
 ```cpp
 void Aspose::Words::Saving::XlsxSaveOptions::set_CompressionLevel(Aspose::Words::Saving::CompressionLevel value)

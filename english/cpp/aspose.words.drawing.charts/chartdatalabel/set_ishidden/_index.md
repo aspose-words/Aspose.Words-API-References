@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataLabel::set_IsHidden method
 linktitle: set_IsHidden
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::set_IsHidden method. Setter for Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataLabel::set_IsHidden method. Gets/sets a flag indicating whether this label is hidden. The default value is false in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_ishidden/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatalabel/set_ishidden/
 ## ChartDataLabel::set_IsHidden method
 
 
-Setter for [Aspose::Words::Drawing::Charts::ChartDataLabel::get_IsHidden](../get_ishidden/).
+Gets/sets a flag indicating whether this label is hidden. The default value is **false**.
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataLabel::set_IsHidden(bool value)

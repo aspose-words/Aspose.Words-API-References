@@ -23,8 +23,8 @@ bool Aspose::Words::DocumentBuilder::get_Bold()
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
 // and then fill them manually.
@@ -44,7 +44,7 @@ builder->MoveToMergeField(u"ChiefTechnologyOfficer");
 builder->set_Italic(true);
 builder->Writeln(u"John Bloggs");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_Institution method
 linktitle: set_Institution
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_Institution method. Sets the institution of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_Institution method. Setter for Aspose::Words::Bibliography::Source::get_Institution in C++.'
 type: docs
 weight: 77000
 url: /cpp/aspose.words.bibliography/source/set_institution/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_institution/
 ## Source::set_Institution method
 
 
-Sets the institution of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_Institution](../get_institution/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_Institution(const System::String &value)

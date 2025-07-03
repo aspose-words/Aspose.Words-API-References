@@ -23,17 +23,17 @@ System::Guid Aspose::Words::Drawing::OleFormat::get_Clsid()
 
 Shows how to access an OLE control embedded in a document and its child controls. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"OLE ActiveX controls.docm");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE ActiveX controls.docm");
 
 // Shapes store and display OLE objects in the document's body.
-auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 ASSERT_EQ(u"6e182020-f460-11ce-9bcd-00aa00608e01", System::ObjectExt::ToString(shape->get_OleFormat()->get_Clsid()));
 
-auto oleControl = System::ExplicitCast<Forms2OleControl>(shape->get_OleFormat()->get_OleControl());
+auto oleControl = System::ExplicitCast<Aspose::Words::Drawing::Ole::Forms2OleControl>(shape->get_OleFormat()->get_OleControl());
 
 // Some OLE controls may contain child controls, such as the one in this document with three options buttons.
-SharedPtr<Forms2OleControlCollection> oleControlCollection = oleControl->get_ChildNodes();
+System::SharedPtr<Aspose::Words::Drawing::Ole::Forms2OleControlCollection> oleControlCollection = oleControl->get_ChildNodes();
 
 ASSERT_EQ(3, oleControlCollection->get_Count());
 

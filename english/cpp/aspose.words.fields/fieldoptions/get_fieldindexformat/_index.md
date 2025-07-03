@@ -23,19 +23,19 @@ Aspose::Words::Fields::FieldIndexFormat Aspose::Words::Fields::FieldOptions::get
 
 Shows how to formatting [FieldIndex](../../fieldindex/) fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"A");
-builder->InsertBreak(BreakType::LineBreak);
+builder->InsertBreak(Aspose::Words::BreakType::LineBreak);
 builder->InsertField(u"XE \"A\"");
 builder->Write(u"B");
 
 builder->InsertField(u" INDEX \\e \" · \" \\h \"A\" \\c \"2\" \\z \"1033\"", nullptr);
 
-doc->get_FieldOptions()->set_FieldIndexFormat(FieldIndexFormat::Fancy);
+doc->get_FieldOptions()->set_FieldIndexFormat(Aspose::Words::Fields::FieldIndexFormat::Fancy);
 doc->UpdateFields();
 
-doc->Save(ArtifactsDir + u"Field.SetFieldIndexFormat.docx");
+doc->Save(get_ArtifactsDir() + u"Field.SetFieldIndexFormat.docx");
 ```
 
 ## See Also

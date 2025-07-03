@@ -30,17 +30,17 @@ enum class ExportFontFormat
 
 Shows how use fonts only from the target machine when saving a document to HTML. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Bullet points with alternative font.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Bullet points with alternative font.docx");
 
-auto saveOptions = MakeObject<HtmlFixedSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 saveOptions->set_ExportEmbeddedCss(true);
 saveOptions->set_UseTargetMachineFonts(useTargetMachineFonts);
-saveOptions->set_FontFormat(ExportFontFormat::Ttf);
+saveOptions->set_FontFormat(Aspose::Words::Saving::ExportFontFormat::Ttf);
 saveOptions->set_ExportEmbeddedFonts(false);
 
-doc->Save(ArtifactsDir + u"HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptions);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlFixedSaveOptions.UsingMachineFonts.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UsingMachineFonts.html");
 
 if (useTargetMachineFonts)
 {
@@ -48,10 +48,7 @@ if (useTargetMachineFonts)
 }
 else
 {
-    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(
-                    outDocContents, String(u"@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], ") +
-                                        u"url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }")
-                    ->get_Success());
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], ") + u"url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }")->get_Success());
 }
 ```
 

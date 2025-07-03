@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::IStructuredDocumentTag::set_LockContentControl method
 linktitle: set_LockContentControl
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_LockContentControl method. When set to true, this property will prohibit a user from deleting this SDT in C++.'
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_LockContentControl method. Setter for Aspose::Words::Markup::IStructuredDocumentTag::get_LockContentControl in C++.'
 type: docs
 weight: 20000
 url: /cpp/aspose.words.markup/istructureddocumenttag/set_lockcontentcontrol/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/set_lockcontentcontrol/
 ## IStructuredDocumentTag::set_LockContentControl method
 
 
-When set to true, this property will prohibit a user from deleting this **SDT**.
+Setter for [Aspose::Words::Markup::IStructuredDocumentTag::get_LockContentControl](../get_lockcontentcontrol/).
 
 ```cpp
 virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_LockContentControl(bool value)=0

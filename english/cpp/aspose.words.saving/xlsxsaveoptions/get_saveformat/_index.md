@@ -16,6 +16,22 @@ Specifies the format in which the document will be saved if this save options ob
 Aspose::Words::SaveFormat Aspose::Words::Saving::XlsxSaveOptions::get_SaveFormat() override
 ```
 
+
+## Examples
+
+
+
+Shows how to compress XLSX document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape with linked chart.docx");
+
+auto xlsxSaveOptions = System::MakeObject<Aspose::Words::Saving::XlsxSaveOptions>();
+xlsxSaveOptions->set_CompressionLevel(Aspose::Words::Saving::CompressionLevel::Maximum);
+xlsxSaveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Xlsx);
+
+doc->Save(get_ArtifactsDir() + u"XlsxSaveOptions.CompressXlsx.xlsx", xlsxSaveOptions);
+```
+
 ## See Also
 
 * Enum [SaveFormat](../../../aspose.words/saveformat/)

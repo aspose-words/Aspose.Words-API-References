@@ -23,8 +23,8 @@ bool Aspose::Words::Layout::LayoutOptions::get_ShowHiddenText() const
 
 Shows how to hide text in a rendered output document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert hidden text, then specify whether we wish to omit it from a rendered document.
 builder->Writeln(u"This text is not hidden.");
@@ -33,7 +33,7 @@ builder->Writeln(u"This text is hidden.");
 
 doc->get_LayoutOptions()->set_ShowHiddenText(showHiddenText);
 
-doc->Save(ArtifactsDir + u"Document.LayoutOptionsHiddenText.pdf");
+doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsHiddenText.pdf");
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataTable::set_Show method
 linktitle: set_Show
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_Show method. Sets a flag indicating whether the data table will be shown for the chart. Default value is false in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_Show method. Setter for Aspose::Words::Drawing::Charts::ChartDataTable::get_Show in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/set_show/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/set_show/
 ## ChartDataTable::set_Show method
 
 
-Sets a flag indicating whether the data table will be shown for the chart. Default value is **false**.
+Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_Show](../get_show/).
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataTable::set_Show(bool value)

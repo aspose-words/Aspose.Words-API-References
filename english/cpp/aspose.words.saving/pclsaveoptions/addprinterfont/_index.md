@@ -28,18 +28,18 @@ void Aspose::Words::Saving::PclSaveOptions::AddPrinterFont(const System::String 
 
 Shows how to get a printer to substitute all instances of a specific font with a different font. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Courier");
 builder->Write(u"Hello world!");
 
-auto saveOptions = MakeObject<PclSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::PclSaveOptions>();
 saveOptions->AddPrinterFont(u"Courier New", u"Courier");
 
 // When printing this document, the printer will use the "Courier New" font
 // to access places where our document used the "Courier" font.
-doc->Save(ArtifactsDir + u"PclSaveOptions.AddPrinterFont.pcl", saveOptions);
+doc->Save(get_ArtifactsDir() + u"PclSaveOptions.AddPrinterFont.pcl", saveOptions);
 ```
 
 ## See Also

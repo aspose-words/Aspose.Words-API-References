@@ -23,17 +23,17 @@ System::String Aspose::Words::Fields::FieldUserInitials::get_UserInitials()
 
 Shows how to use the USERINITIALS field. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a UserInformation object and set it as the source of user information for any fields that we create.
-auto userInformation = MakeObject<UserInformation>();
+auto userInformation = System::MakeObject<Aspose::Words::Fields::UserInformation>();
 userInformation->set_Initials(u"J. D.");
 doc->get_FieldOptions()->set_CurrentUser(userInformation);
 
 // Create a USERINITIALS field to display the current user's initials,
 // taken from the UserInformation object we created above.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto fieldUserInitials = System::ExplicitCast<FieldUserInitials>(builder->InsertField(FieldType::FieldUserInitials, true));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto fieldUserInitials = System::ExplicitCast<Aspose::Words::Fields::FieldUserInitials>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldUserInitials, true));
 ASSERT_EQ(userInformation->get_Initials(), fieldUserInitials->get_Result());
 
 ASSERT_EQ(u" USERINITIALS ", fieldUserInitials->GetFieldCode());
@@ -50,7 +50,7 @@ ASSERT_EQ(u"J. C.", fieldUserInitials->get_Result());
 ASSERT_EQ(u"J. D.", doc->get_FieldOptions()->get_CurrentUser()->get_Initials());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.USERINITIALS.docx");
+doc->Save(get_ArtifactsDir() + u"Field.USERINITIALS.docx");
 ```
 
 ## See Also

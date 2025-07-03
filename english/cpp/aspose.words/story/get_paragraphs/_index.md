@@ -23,14 +23,17 @@ System::SharedPtr<Aspose::Words::ParagraphCollection> Aspose::Words::Story::get_
 
 Shows how to check whether a paragraph is a move revision. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
 
 // This document contains "Move" revisions, which appear when we highlight text with the cursor,
 // and then drag it to move it to another location
 // while tracking revisions in Microsoft Word via "Review" -> "Track changes".
-ASSERT_EQ(6, doc->get_Revisions()->LINQ_Count([](SharedPtr<Revision> r) { return r->get_RevisionType() == RevisionType::Moving; }));
+ASSERT_EQ(6, doc->get_Revisions()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Revision>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Revision> r)>>([](System::SharedPtr<Aspose::Words::Revision> r) -> bool
+{
+    return r->get_RevisionType() == Aspose::Words::RevisionType::Moving;
+}))));
 
-SharedPtr<ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
+System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
 // Move revisions consist of pairs of "Move from", and "Move to" revisions.
 // These revisions are potential changes to the document that we can either accept or reject.

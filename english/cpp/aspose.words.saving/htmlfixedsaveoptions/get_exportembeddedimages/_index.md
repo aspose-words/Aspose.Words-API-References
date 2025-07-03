@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportEmbeddedImages() con
 
 Shows how to determine where to store images when exporting a document to Html. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
 
 // When we export a document with embedded images to .html,
 // Aspose.Words can place the images in two possible locations.
@@ -31,27 +31,22 @@ auto doc = MakeObject<Document>(MyDir + u"Images.docx");
 // for all images within the output HTML document, in the "src" attribute of <image> tags.
 // Setting this flag to "false" will create an image file in the local file system for every image,
 // and store all these files in a separate folder.
-auto htmlFixedSaveOptions = MakeObject<HtmlFixedSaveOptions>();
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 htmlFixedSaveOptions->set_ExportEmbeddedImages(exportImages);
 
-doc->Save(ArtifactsDir + u"HtmlFixedSaveOptions.ExportEmbeddedImages.html", htmlFixedSaveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedImages.html", htmlFixedSaveOptions);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlFixedSaveOptions.ExportEmbeddedImages.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedImages.html");
 
 if (exportImages)
 {
-    ASSERT_FALSE(System::IO::File::Exists(ArtifactsDir + u"HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(
-                    outDocContents, u"<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" src=\".+\" />")
-                    ->get_Success());
+    ASSERT_FALSE(System::IO::File::Exists(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, u"<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" src=\".+\" />")->get_Success());
 }
 else
 {
-    ASSERT_TRUE(System::IO::File::Exists(ArtifactsDir + u"HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(
-                    outDocContents, String(u"<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" ") +
-                                        u"src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />")
-                    ->get_Success());
+    ASSERT_TRUE(System::IO::File::Exists(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" ") + u"src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />")->get_Success());
 }
 ```
 

@@ -36,8 +36,8 @@ For the index parameters, when index is greater than or equal to 0, it specifies
 
 Shows how to move a document builder's cursor to a cell in a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create an empty 2x2 table.
 builder->StartTable();
@@ -56,7 +56,7 @@ builder->EndTable();
 builder->MoveToCell(0, 1, 1, 0);
 builder->Write(u"Column 2, cell 2.");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.MoveToCell.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.MoveToCell.docx");
 ```
 
 ## See Also

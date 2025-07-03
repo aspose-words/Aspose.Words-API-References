@@ -26,7 +26,7 @@ class FontSourceBase : public Aspose::Fonts::IFontSource
 | [GetAvailableFonts](./getavailablefonts/)() | Returns list of fonts available via this source. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](./get_warningcallback/). |
+| [set_WarningCallback](./set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -35,14 +35,14 @@ class FontSourceBase : public Aspose::Fonts::IFontSource
 
 Shows how to use a font file in the local file system as a font source. 
 ```cpp
-auto fileFontSource = MakeObject<FileFontSource>(MyDir + u"Alte DIN 1451 Mittelschrift.ttf", 0);
+auto fileFontSource = System::MakeObject<Aspose::Words::Fonts::FileFontSource>(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", 0);
 
-auto doc = MakeObject<Document>();
-doc->set_FontSettings(MakeObject<FontSettings>());
-doc->get_FontSettings()->SetFontsSources(MakeArray<SharedPtr<FontSourceBase>>({fileFontSource}));
+auto doc = System::MakeObject<Aspose::Words::Document>();
+doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
+doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({fileFontSource}));
 
-ASSERT_EQ(MyDir + u"Alte DIN 1451 Mittelschrift.ttf", fileFontSource->get_FilePath());
-ASSERT_EQ(FontSourceType::FontFile, fileFontSource->get_Type());
+ASSERT_EQ(get_MyDir() + u"Alte DIN 1451 Mittelschrift.ttf", fileFontSource->get_FilePath());
+ASSERT_EQ(Aspose::Words::Fonts::FontSourceType::FontFile, fileFontSource->get_Type());
 ASSERT_EQ(0, fileFontSource->get_Priority());
 ```
 

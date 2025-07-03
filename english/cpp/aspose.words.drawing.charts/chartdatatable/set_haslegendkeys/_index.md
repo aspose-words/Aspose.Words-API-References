@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataTable::set_HasLegendKeys method
 linktitle: set_HasLegendKeys
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasLegendKeys method. Sets a flag indicating whether legend keys are displayed in the data table. The default value is true in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasLegendKeys method. Setter for Aspose::Words::Drawing::Charts::ChartDataTable::get_HasLegendKeys in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/set_haslegendkeys/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/set_haslegendkeys/
 ## ChartDataTable::set_HasLegendKeys method
 
 
-Sets a flag indicating whether legend keys are displayed in the data table. The default value is **true**.
+Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasLegendKeys](../get_haslegendkeys/).
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataTable::set_HasLegendKeys(bool value)

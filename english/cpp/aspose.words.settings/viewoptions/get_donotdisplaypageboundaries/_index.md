@@ -23,20 +23,20 @@ bool Aspose::Words::Settings::ViewOptions::get_DoNotDisplayPageBoundaries() cons
 
 Shows how to hide vertical whitespace and headers/footers in view options. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert content that spans across 3 pages.
 builder->Writeln(u"Paragraph 1, Page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Paragraph 2, Page 2.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Paragraph 3, Page 3.");
 
 // Insert a header and a footer.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"This is the header.");
-builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
 builder->Writeln(u"This is the footer.");
 
 // This document contains a small amount of content that takes up a few full pages worth of space.
@@ -46,7 +46,7 @@ builder->Writeln(u"This is the footer.");
 // to normally display our document.
 doc->get_ViewOptions()->set_DoNotDisplayPageBoundaries(doNotDisplayPageBoundaries);
 
-doc->Save(ArtifactsDir + u"ViewOptions.DisplayPageBoundaries.doc");
+doc->Save(get_ArtifactsDir() + u"ViewOptions.DisplayPageBoundaries.doc");
 ```
 
 ## See Also

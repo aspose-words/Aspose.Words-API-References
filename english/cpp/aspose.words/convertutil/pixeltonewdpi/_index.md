@@ -29,34 +29,30 @@ static int32_t Aspose::Words::ConvertUtil::PixelToNewDpi(double pixels, double o
 
 Shows how to use convert points to pixels with default and custom resolution. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Define the size of the top margin of this section in pixels, according to a custom DPI.
 const double myDpi = 192;
 
-SharedPtr<PageSetup> pageSetup = builder->get_PageSetup();
-pageSetup->set_TopMargin(ConvertUtil::PixelToPoint(100, myDpi));
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = builder->get_PageSetup();
+pageSetup->set_TopMargin(Aspose::Words::ConvertUtil::PixelToPoint(100, myDpi));
 
 ASSERT_NEAR(37.5, pageSetup->get_TopMargin(), 0.01);
 
 // At the default DPI of 96, a pixel is 0.75 points.
-ASPOSE_ASSERT_EQ(0.75, ConvertUtil::PixelToPoint(1));
+ASPOSE_ASSERT_EQ(0.75, Aspose::Words::ConvertUtil::PixelToPoint(1));
 
-builder->Writeln(
-    String::Format(u"This Text is {0} points/{1} ", pageSetup->get_TopMargin(), ConvertUtil::PointToPixel(pageSetup->get_TopMargin(), myDpi)) +
-    String::Format(u"pixels (at a DPI of {0}) from the top of the page.", myDpi));
+builder->Writeln(System::String::Format(u"This Text is {0} points/{1} ", pageSetup->get_TopMargin(), Aspose::Words::ConvertUtil::PointToPixel(pageSetup->get_TopMargin(), myDpi)) + System::String::Format(u"pixels (at a DPI of {0}) from the top of the page.", myDpi));
 
 // Set a new DPI and adjust the top margin value accordingly.
 const double newDpi = 300;
-pageSetup->set_TopMargin(ConvertUtil::PixelToNewDpi(pageSetup->get_TopMargin(), myDpi, newDpi));
+pageSetup->set_TopMargin(Aspose::Words::ConvertUtil::PixelToNewDpi(pageSetup->get_TopMargin(), myDpi, newDpi));
 ASSERT_NEAR(59.0, pageSetup->get_TopMargin(), 0.01);
 
-builder->Writeln(String::Format(u"At a DPI of {0}, the text is now {1} points/{2} ", newDpi, pageSetup->get_TopMargin(),
-                                ConvertUtil::PointToPixel(pageSetup->get_TopMargin(), myDpi)) +
-                 u"pixels from the top of the page.");
+builder->Writeln(System::String::Format(u"At a DPI of {0}, the text is now {1} points/{2} ", newDpi, pageSetup->get_TopMargin(), Aspose::Words::ConvertUtil::PointToPixel(pageSetup->get_TopMargin(), myDpi)) + u"pixels from the top of the page.");
 
-doc->Save(ArtifactsDir + u"UtilityClasses.PointsAndPixelsDpi.docx");
+doc->Save(get_ArtifactsDir() + u"UtilityClasses.PointsAndPixelsDpi.docx");
 ```
 
 ## See Also

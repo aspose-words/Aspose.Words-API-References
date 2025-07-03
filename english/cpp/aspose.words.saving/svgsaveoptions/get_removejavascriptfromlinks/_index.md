@@ -16,6 +16,21 @@ Specifies whether JavaScript will be removed from links. Default is **false**. I
 bool Aspose::Words::Saving::SvgSaveOptions::get_RemoveJavaScriptFromLinks() const
 ```
 
+
+## Examples
+
+
+
+Shows how to remove JavaScript from the links (svg). 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"JavaScript in HREF.docx");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::SvgSaveOptions>();
+saveOptions->set_RemoveJavaScriptFromLinks(true);
+
+doc->Save(get_ArtifactsDir() + u"SvgSaveOptions.RemoveJavaScriptFromLinksSvg.html", saveOptions);
+```
+
 ## See Also
 
 * Class [SvgSaveOptions](../)

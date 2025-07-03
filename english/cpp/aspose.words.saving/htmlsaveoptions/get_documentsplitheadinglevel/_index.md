@@ -29,8 +29,8 @@ By default, only **Heading 1** and **Heading 2** paragraphs cause the document t
 
 Shows how to split an output HTML document by headings into several parts. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Every paragraph that we format using a "Heading" style can serve as a heading.
 // Each heading may also have a heading level, determined by the number of its heading style.
@@ -53,30 +53,30 @@ builder->Writeln(u"Heading #6");
 // and save each document in a separate HTML file in the local file system.
 // We will also set the maximum heading level, which splits the document to 2.
 // Saving the document will split it at headings of levels 1 and 2, but not at 3 to 9.
-auto options = MakeObject<HtmlSaveOptions>();
-options->set_DocumentSplitCriteria(DocumentSplitCriteria::HeadingParagraph);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+options->set_DocumentSplitCriteria(Aspose::Words::Saving::DocumentSplitCriteria::HeadingParagraph);
 options->set_DocumentSplitHeadingLevel(2);
 
 // Our document has four headings of levels 1 - 2. One of those headings will not be
 // a split point since it is at the beginning of the document.
 // The saving operation will split our document at three places, into four smaller documents.
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html", options);
 
-doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels.html");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels.html");
 
 ASSERT_EQ(u"Heading #1", doc->GetText().Trim());
 
-doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels-01.html");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-01.html");
 
-ASSERT_EQ(String(u"Heading #2\r") + u"Heading #3", doc->GetText().Trim());
+ASSERT_EQ(System::String(u"Heading #2\r") + u"Heading #3", doc->GetText().Trim());
 
-doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels-02.html");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-02.html");
 
 ASSERT_EQ(u"Heading #4", doc->GetText().Trim());
 
-doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.HeadingLevels-03.html");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.HeadingLevels-03.html");
 
-ASSERT_EQ(String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
+ASSERT_EQ(System::String(u"Heading #5\r") + u"Heading #6", doc->GetText().Trim());
 ```
 
 ## See Also

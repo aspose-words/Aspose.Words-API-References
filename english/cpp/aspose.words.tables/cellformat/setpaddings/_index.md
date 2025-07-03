@@ -23,8 +23,8 @@ void Aspose::Words::Tables::CellFormat::SetPaddings(double leftPadding, double t
 
 Shows how to pad the contents of a cell with whitespace. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set a padding distance (in points) between the border and the text contents
 // of each table cell we create with the document builder.
@@ -33,10 +33,9 @@ builder->get_CellFormat()->SetPaddings(5, 10, 40, 50);
 // Create a table with one cell whose contents will have whitespace padding.
 builder->StartTable();
 builder->InsertCell();
-builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ") +
-               u"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ") + u"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
-doc->Save(ArtifactsDir + u"CellFormat.Padding.docx");
+doc->Save(get_ArtifactsDir() + u"CellFormat.Padding.docx");
 ```
 
 ## See Also

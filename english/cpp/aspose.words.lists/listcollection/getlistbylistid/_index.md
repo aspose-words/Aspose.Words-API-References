@@ -35,20 +35,18 @@ You don't normally need to use this method. Most of the time you apply list form
 
 Shows how to verify owner document properties of lists. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-SharedPtr<ListCollection> lists = doc->get_Lists();
-
+System::SharedPtr<Aspose::Words::Lists::ListCollection> lists = doc->get_Lists();
 ASPOSE_ASSERT_EQ(doc, lists->get_Document());
 
-SharedPtr<List> list = lists->Add(ListTemplate::BulletDefault);
-
+System::SharedPtr<Aspose::Words::Lists::List> list = lists->Add(Aspose::Words::Lists::ListTemplate::BulletDefault);
 ASPOSE_ASSERT_EQ(doc, list->get_Document());
 
-std::cout << (String(u"Current list count: ") + lists->get_Count()) << std::endl;
-std::cout << (String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list))) << std::endl;
-std::cout << (String(u"ListId: ") + list->get_ListId()) << std::endl;
-std::cout << (String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
+std::cout << (System::String(u"Current list count: ") + lists->get_Count()) << std::endl;
+std::cout << (System::String(u"Is the first document list: ") + (System::ObjectExt::Equals(lists->idx_get(0), list))) << std::endl;
+std::cout << (System::String(u"ListId: ") + list->get_ListId()) << std::endl;
+std::cout << (System::String(u"List is the same by ListId: ") + (System::ObjectExt::Equals(lists->GetListByListId(1), list))) << std::endl;
 ```
 
 ## See Also

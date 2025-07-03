@@ -23,8 +23,8 @@ bool Aspose::Words::Font::get_NoProofing()
 
 Shows how to prevent text from being spell checked by Microsoft Word. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Normally, Microsoft Word emphasizes spelling errors with a jagged red underline.
 // We can un-set the "NoProofing" flag to create a portion of text that
@@ -33,7 +33,7 @@ builder->get_Font()->set_NoProofing(true);
 
 builder->Writeln(u"Proofing has been disabled, so these spelking errrs will not display red lines underneath.");
 
-doc->Save(ArtifactsDir + u"Font.NoProofing.docx");
+doc->Save(get_ArtifactsDir() + u"Font.NoProofing.docx");
 ```
 
 ## See Also

@@ -23,8 +23,8 @@ System::SharedPtr<Aspose::Words::Lists::ListFormat> Aspose::Words::Paragraph::ge
 
 Shows how to output all paragraphs in a document that are list items. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_ListFormat()->ApplyNumberDefault();
 builder->Writeln(u"Numbered list item 1");
@@ -38,15 +38,15 @@ builder->Writeln(u"Bulleted list item 2");
 builder->Writeln(u"Bulleted list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
 
-for (auto para : System::IterateOver(
-         paras->LINQ_OfType<SharedPtr<Paragraph>>()->LINQ_Where([](SharedPtr<Paragraph> p) { return p->get_ListFormat()->get_IsListItem(); })))
+for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
-    std::cout << String::Format(u"This paragraph belongs to list ID# {0}, number style \"{1}\"", para->get_ListFormat()->get_List()->get_ListId(),
-                                para->get_ListFormat()->get_ListLevel()->get_NumberStyle())
-              << std::endl;
-    std::cout << "\t\"" << para->GetText().Trim() << "\"" << std::endl;
+    return p->get_ListFormat()->get_IsListItem();
+})))->LINQ_ToList())
+{
+    std::cout << System::String::Format(u"This paragraph belongs to list ID# {0}, number style \"{1}\"", para->get_ListFormat()->get_List()->get_ListId(), para->get_ListFormat()->get_ListLevel()->get_NumberStyle()) << std::endl;
+    std::cout << System::String::Format(u"\t\"{0}\"", para->GetText().Trim()) << std::endl;
 }
 ```
 

@@ -21,60 +21,32 @@ bool Aspose::Words::PageSetup::get_OddAndEvenPagesHeaderFooter() const
 
 
 
-Shows how to create headers and footers in a document using [DocumentBuilder](../../documentbuilder/). 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Specify that we want different headers and footers for first, even and odd pages.
-builder->get_PageSetup()->set_DifferentFirstPageHeaderFooter(true);
-builder->get_PageSetup()->set_OddAndEvenPagesHeaderFooter(true);
-
-// Create the headers, then add three pages to the document to display each header type.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderFirst);
-builder->Write(u"Header for the first page");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderEven);
-builder->Write(u"Header for even pages");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
-builder->Write(u"Header for all other pages");
-
-builder->MoveToSection(0);
-builder->Writeln(u"Page1");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page2");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page3");
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
-```
-
-
 Shows how to enable or disable even page headers/footers. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two types of header/footers.
 // 1 -  The "Primary" header/footer, which appears on every page in the section.
 // We can override the primary header/footer by a first and an even page header/footer.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
 builder->Writeln(u"Primary header.");
 
-builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
 builder->Writeln(u"Primary footer.");
 
 // 2 -  The "Even" header/footer, which appears on every even page of this section.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderEven);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderEven);
 builder->Writeln(u"Even page header.");
 
-builder->MoveToHeaderFooter(HeaderFooterType::FooterEven);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterEven);
 builder->Writeln(u"Even page footer.");
 
 builder->MoveToSection(0);
 builder->Writeln(u"Page 1.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 2.");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 builder->Writeln(u"Page 3.");
 
 // Each section has a "PageSetup" object that specifies page appearance-related properties
@@ -85,7 +57,7 @@ builder->Writeln(u"Page 3.");
 // to display the primary header/footer on even pages.
 builder->get_PageSetup()->set_OddAndEvenPagesHeaderFooter(oddAndEvenPagesHeaderFooter);
 
-doc->Save(ArtifactsDir + u"PageSetup.OddAndEvenPagesHeaderFooter.docx");
+doc->Save(get_ArtifactsDir() + u"PageSetup.OddAndEvenPagesHeaderFooter.docx");
 ```
 
 ## See Also

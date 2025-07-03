@@ -31,10 +31,10 @@ The default value is **false**.
 
 Shows how enable legacy number formatting for fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Field> field = builder->InsertField(u"= 2 + 3 \\# $##");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"= 2 + 3 \\# $##");
 
 ASSERT_EQ(u"$ 5", field->get_Result());
 

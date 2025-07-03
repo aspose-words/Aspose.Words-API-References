@@ -27,8 +27,8 @@ The default value is [CrLf](../../../aspose.words/controlchar/crlf/).
 
 Shows how to save a .txt document with a custom paragraph break. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Paragraph 1.");
 builder->Writeln(u"Paragraph 2.");
@@ -36,18 +36,18 @@ builder->Write(u"Paragraph 3.");
 
 // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
 // to modify how we save the document to plaintext.
-auto txtSaveOptions = MakeObject<TxtSaveOptions>();
+auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 
-ASSERT_EQ(SaveFormat::Text, txtSaveOptions->get_SaveFormat());
+ASSERT_EQ(Aspose::Words::SaveFormat::Text, txtSaveOptions->get_SaveFormat());
 
 // Set the "ParagraphBreak" to a custom value that we wish to put at the end of every paragraph.
 txtSaveOptions->set_ParagraphBreak(u" End of paragraph.\n\n\t");
 
-doc->Save(ArtifactsDir + u"TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);
 
-String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.ParagraphBreak.txt");
+System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.ParagraphBreak.txt");
 
-ASSERT_EQ(String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End of paragraph.\n\n\t" + u"Paragraph 3. End of paragraph.\n\n\t", docText);
+ASSERT_EQ(System::String(u"Paragraph 1. End of paragraph.\n\n\t") + u"Paragraph 2. End of paragraph.\n\n\t" + u"Paragraph 3. End of paragraph.\n\n\t", docText);
 ```
 
 ## See Also

@@ -27,17 +27,17 @@ The default value is an empty string.
 
 Shows how to insert a shape which contains an image, and is also a hyperlink. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Logo.jpg");
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 shape->set_HRef(u"https://forum.aspose.com/");
 shape->set_Target(u"New Window");
 shape->set_ScreenTip(u"Aspose.Words Support Forums");
 
 // Ctrl + left-clicking the shape in Microsoft Word will open a new web browser window
 // and take us to the hyperlink in the "HRef" property.
-doc->Save(ArtifactsDir + u"Image.InsertImageWithHyperlink.docx");
+doc->Save(get_ArtifactsDir() + u"Image.InsertImageWithHyperlink.docx");
 ```
 
 ## See Also

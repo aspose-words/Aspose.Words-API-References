@@ -23,42 +23,46 @@ Aspose::Words::NodeType Aspose::Words::Body::get_NodeType() const override
 
 Shows how to iterate through the children of a composite node. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Section 1");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
 builder->Write(u"Primary header");
-builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
 builder->Write(u"Primary footer");
 
-SharedPtr<Section> section = doc->get_FirstSection();
+System::SharedPtr<Aspose::Words::Section> section = doc->get_FirstSection();
 
 // A Section is a composite node and can contain child nodes,
 // but only if those child nodes are of a "Body" or "HeaderFooter" node type.
-for (const auto& node : System::IterateOver(section))
+for (auto&& node : System::IterateOver(section))
 {
     switch (node->get_NodeType())
     {
-    case NodeType::Body: {
-        auto body = System::ExplicitCast<Body>(node);
+        case Aspose::Words::NodeType::Body:
+            {
+                auto body = System::ExplicitCast<Aspose::Words::Body>(node);
 
-        std::cout << "Body:" << std::endl;
-        std::cout << "\t\"" << body->GetText().Trim() << "\"" << std::endl;
-        break;
-    }
+                std::cout << "Body:" << std::endl;
+                std::cout << System::String::Format(u"\t\"{0}\"", body->GetText().Trim()) << std::endl;
+                break;
+            }
 
-    case NodeType::HeaderFooter: {
-        auto headerFooter = System::ExplicitCast<HeaderFooter>(node);
+        case Aspose::Words::NodeType::HeaderFooter:
+            {
+                auto headerFooter = System::ExplicitCast<Aspose::Words::HeaderFooter>(node);
 
-        std::cout << String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
-        std::cout << "\t\"" << headerFooter->GetText().Trim() << "\"" << std::endl;
-        break;
-    }
+                std::cout << System::String::Format(u"HeaderFooter type: {0}:", headerFooter->get_HeaderFooterType()) << std::endl;
+                std::cout << System::String::Format(u"\t\"{0}\"", headerFooter->GetText().Trim()) << std::endl;
+                break;
+            }
 
-    default: {
-        throw System::Exception(u"Unexpected node type in a section.");
-    }
+        default:
+            {
+                throw System::Exception(u"Unexpected node type in a section.");
+            }
+
     }
 }
 ```

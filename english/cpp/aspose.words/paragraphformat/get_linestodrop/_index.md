@@ -23,8 +23,8 @@ int32_t Aspose::Words::ParagraphFormat::get_LinesToDrop()
 
 Shows how to set the size of a drop cap. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Modify the "LinesToDrop" property to designate a paragraph as a drop cap,
 // which will turn it into a large capital letter that will decorate the next paragraph.
@@ -37,7 +37,7 @@ builder->Writeln(u"H");
 builder->get_ParagraphFormat()->set_LinesToDrop(0);
 builder->Writeln(u"ello world!");
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.LinesToDrop.odt");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.LinesToDrop.odt");
 ```
 
 ## See Also

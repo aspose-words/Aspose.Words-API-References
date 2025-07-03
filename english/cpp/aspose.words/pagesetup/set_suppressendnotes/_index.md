@@ -2,7 +2,7 @@
 title: Aspose::Words::PageSetup::set_SuppressEndnotes method
 linktitle: set_SuppressEndnotes
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::PageSetup::set_SuppressEndnotes method. Setter for Aspose::Words::PageSetup::get_SuppressEndnotes in C++.'
+description: 'Aspose::Words::PageSetup::set_SuppressEndnotes method. True if endnotes are printed at the end of the next section that doesn''t suppress endnotes. Suppressed endnotes are printed before the endnotes in that section in C++.'
 type: docs
 weight: 87000
 url: /cpp/aspose.words/pagesetup/set_suppressendnotes/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/pagesetup/set_suppressendnotes/
 ## PageSetup::set_SuppressEndnotes method
 
 
-Setter for [Aspose::Words::PageSetup::get_SuppressEndnotes](../get_suppressendnotes/).
+True if endnotes are printed at the end of the next section that doesn't suppress endnotes. Suppressed endnotes are printed before the endnotes in that section.
 
 ```cpp
 void Aspose::Words::PageSetup::set_SuppressEndnotes(bool value)

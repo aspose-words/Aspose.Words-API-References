@@ -32,12 +32,38 @@ class SignOptions : public System::Object
 | [set_Comments](./set_comments/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_Comments](./get_comments/). |
 | [set_DecryptionPassword](./set_decryptionpassword/)(const System::String\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_DecryptionPassword](./get_decryptionpassword/). |
 | [set_ProviderId](./set_providerid/)(System::Guid) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_ProviderId](./get_providerid/). |
-| [set_SignatureLineId](./set_signaturelineid/)(System::Guid) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineId](./get_signaturelineid/). |
-| [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\>\&) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignatureLineImage](./get_signaturelineimage/). |
+| [set_SignatureLineId](./set_signaturelineid/)(System::Guid) | Signature line identifier. Default value is **Empty (all zeroes) Guid**. |
+| [set_SignatureLineImage](./set_signaturelineimage/)(const System::ArrayPtr\<uint8_t\>\&) | The image that will be shown in associated [SignatureLine](../../aspose.words.drawing/signatureline/). Default value is **null**. |
 | [set_SignTime](./set_signtime/)(System::DateTime) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_SignTime](./get_signtime/). |
-| [set_XmlDsigLevel](./set_xmldsiglevel/)(Aspose::Words::DigitalSignatures::XmlDsigLevel) | Specifies the level of a digital signature based on XML-DSig standard. The default value is [XmlDSig](../xmldsiglevel/). |
+| [set_XmlDsigLevel](./set_xmldsiglevel/)(Aspose::Words::DigitalSignatures::XmlDsigLevel) | Setter for [Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel](./get_xmldsiglevel/). |
 | [SignOptions](./signoptions/)() |  |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to digitally sign documents. 
+```cpp
+// Create an X.509 certificate from a PKCS#12 store, which should contain a private key.
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+
+// Create a comment and date which will be applied with our new digital signature.
+auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
+signOptions->set_Comments(u"My comment");
+signOptions->set_SignTime(System::DateTime::get_Now());
+
+// Take an unsigned document from the local file system via a file stream,
+// then create a signed copy of it determined by the filename of the output file stream.
+{
+    System::SharedPtr<System::IO::Stream> streamIn = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Document.docx", System::IO::FileMode::Open);
+    {
+        System::SharedPtr<System::IO::Stream> streamOut = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"DigitalSignatureUtil.SignDocument.docx", System::IO::FileMode::OpenOrCreate);
+        Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(streamIn, streamOut, certificateHolder, signOptions);
+    }
+}
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::DigitalSignatures](../)

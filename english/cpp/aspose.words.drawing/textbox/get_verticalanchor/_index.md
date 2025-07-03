@@ -27,10 +27,10 @@ The default value is [Top](../../textboxanchor/).
 
 Shows how to vertically align the text contents of a text box. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::TextBox, 200, 200);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 200, 200);
 
 // Set the "VerticalAnchor" property to "TextBoxAnchor.Top" to
 // align the text in this text box with the top side of the shape.
@@ -44,8 +44,8 @@ builder->MoveTo(shape->get_FirstParagraph());
 builder->Write(u"Hello world!");
 
 // The vertical aligning of text inside text boxes is available from Microsoft Word 2007 onwards.
-doc->get_CompatibilityOptions()->OptimizeFor(MsWordVersion::Word2007);
-doc->Save(ArtifactsDir + u"Shape.VerticalAnchor.docx");
+doc->get_CompatibilityOptions()->OptimizeFor(Aspose::Words::Settings::MsWordVersion::Word2007);
+doc->Save(get_ArtifactsDir() + u"Shape.VerticalAnchor.docx");
 ```
 
 ## See Also

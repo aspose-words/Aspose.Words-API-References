@@ -38,23 +38,23 @@ The shape node that was inserted.
 
 Shows how to insert DML shapes into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two wrapping types that shapes may have.
 // 1 -  Floating:
-builder->InsertShape(ShapeType::TopCornersRounded, RelativeHorizontalPosition::Page, 100, RelativeVerticalPosition::Page, 100, 50, 50, WrapType::None);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::TopCornersRounded, Aspose::Words::Drawing::RelativeHorizontalPosition::Page, 100, Aspose::Words::Drawing::RelativeVerticalPosition::Page, 100, 50, 50, Aspose::Words::Drawing::WrapType::None);
 
 // 2 -  Inline:
-builder->InsertShape(ShapeType::DiagonalCornersRounded, 50, 50);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::DiagonalCornersRounded, 50, 50);
 
 // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
 // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
-auto saveOptions = MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
-saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx);
+saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Transitional);
 
-doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
 
 ## See Also
@@ -93,23 +93,23 @@ The shape node that was inserted.
 
 Shows how to insert DML shapes into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two wrapping types that shapes may have.
 // 1 -  Floating:
-builder->InsertShape(ShapeType::TopCornersRounded, RelativeHorizontalPosition::Page, 100, RelativeVerticalPosition::Page, 100, 50, 50, WrapType::None);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::TopCornersRounded, Aspose::Words::Drawing::RelativeHorizontalPosition::Page, 100, Aspose::Words::Drawing::RelativeVerticalPosition::Page, 100, 50, 50, Aspose::Words::Drawing::WrapType::None);
 
 // 2 -  Inline:
-builder->InsertShape(ShapeType::DiagonalCornersRounded, 50, 50);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::DiagonalCornersRounded, 50, 50);
 
 // If you need to create "non-primitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
 // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, or DiagonalCornersRounded,
 // then save the document with "Strict" or "Transitional" compliance, which allows saving shape as DML.
-auto saveOptions = MakeObject<OoxmlSaveOptions>(SaveFormat::Docx);
-saveOptions->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx);
+saveOptions->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Transitional);
 
-doc->Save(ArtifactsDir + u"Shape.ShapeInsertion.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"Shape.ShapeInsertion.docx", saveOptions);
 ```
 
 ## See Also

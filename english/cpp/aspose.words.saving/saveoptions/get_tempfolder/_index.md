@@ -33,18 +33,18 @@ Aspose.Words automatically deletes all temporary files when saving is complete.
 
 Shows how to use the hard drive instead of memory when saving a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
 // When we save a document, various elements are temporarily stored in memory as the save operation is taking place.
 // We can use this option to use a temporary folder in the local file system instead,
 // which will reduce our application's memory overhead.
-auto options = MakeObject<DocSaveOptions>();
-options->set_TempFolder(ArtifactsDir + u"TempFiles");
+auto options = System::MakeObject<Aspose::Words::Saving::DocSaveOptions>();
+options->set_TempFolder(get_ArtifactsDir() + u"TempFiles");
 
 // The specified temporary folder must exist in the local file system before the save operation.
 System::IO::Directory::CreateDirectory_(options->get_TempFolder());
 
-doc->Save(ArtifactsDir + u"DocSaveOptions.TempFolder.doc", options);
+doc->Save(get_ArtifactsDir() + u"DocSaveOptions.TempFolder.doc", options);
 
 // The folder will persist with no residual contents from the load operation.
 ASSERT_EQ(0, System::IO::Directory::GetFiles(options->get_TempFolder())->get_Length());

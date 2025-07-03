@@ -32,6 +32,32 @@ This method does not use mail merge regions.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
 
+## Examples
+
+
+
+Shows how to merge an image from a URI as mail merge data into a MERGEFIELD. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// MERGEFIELDs with "Image:" tags will receive an image during a mail merge.
+// The string after the colon in the "Image:" tag corresponds to a column name
+// in the data source whose cells contain URIs of image files.
+builder->InsertField(u"MERGEFIELD  Image:logo_FromWeb ");
+builder->InsertField(u"MERGEFIELD  Image:logo_FromFileSystem ");
+
+// Create a data source that contains URIs of images that we will merge.
+// A URI can be a web URL that points to an image, or a local file system filename of an image file.
+System::ArrayPtr<System::String> columns = System::MakeArray<System::String>({u"logo_FromWeb", u"logo_FromFileSystem"});
+System::ArrayPtr<System::SharedPtr<System::Object>> URIs = System::MakeArray<System::SharedPtr<System::Object>>({System::ExplicitCast<System::Object>(get_ImageUrl()), System::ExplicitCast<System::Object>(get_ImageDir() + u"Logo.jpg")});
+
+// Execute a mail merge on a data source with one row.
+doc->get_MailMerge()->Execute(columns, URIs);
+
+doc->Save(get_ArtifactsDir() + u"MailMergeEvent.ImageFromUrl.docx");
+```
+
 ## See Also
 
 * Class [MailMerge](../)
@@ -58,128 +84,6 @@ Use this method to fill mail merge fields in the document with values from any d
 You can use this method only when [IsBidiTextSupportedOnUpdate](../../../aspose.words.fields/fieldoptions/get_isbiditextsupportedonupdate/) is **false**, that is you do not need Right-To-Left language (such as Arabic or Hebrew) compatibility.
 
 This method ignores the [RemoveUnusedRegions](../../mailmergecleanupoptions/) option.
-
-## Examples
-
-
-
-Shows how to execute a mail merge with a data source in the form of a custom object. 
-```cpp
-void CustomDataSource()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-    builder->InsertField(u" MERGEFIELD FullName ");
-    builder->InsertParagraph();
-    builder->InsertField(u" MERGEFIELD Address ");
-
-    SharedPtr<System::Collections::Generic::List<SharedPtr<ExMailMergeCustom::Customer>>> customers =
-        MakeObject<System::Collections::Generic::List<SharedPtr<ExMailMergeCustom::Customer>>>();
-    customers->Add(MakeObject<ExMailMergeCustom::Customer>(u"Thomas Hardy", u"120 Hanover Sq., London"));
-    customers->Add(MakeObject<ExMailMergeCustom::Customer>(u"Paolo Accorti", u"Via Monte Bianco 34, Torino"));
-
-    // To use a custom object as a data source, it must implement the IMailMergeDataSource interface.
-    auto dataSource = MakeObject<ExMailMergeCustom::CustomerMailMergeDataSource>(customers);
-
-    doc->get_MailMerge()->Execute(dataSource);
-
-    doc->Save(ArtifactsDir + u"MailMergeCustom.CustomDataSource.docx");
-}
-
-class Customer : public System::Object
-{
-public:
-    String get_FullName()
-    {
-        return pr_FullName;
-    }
-
-    void set_FullName(String value)
-    {
-        pr_FullName = value;
-    }
-
-    String get_Address()
-    {
-        return pr_Address;
-    }
-
-    void set_Address(String value)
-    {
-        pr_Address = value;
-    }
-
-    Customer(String aFullName, String anAddress)
-    {
-        set_FullName(aFullName);
-        set_Address(anAddress);
-    }
-
-private:
-    String pr_FullName;
-    String pr_Address;
-};
-
-class CustomerMailMergeDataSource : public IMailMergeDataSource
-{
-public:
-    String get_TableName() override
-    {
-        return u"Customer";
-    }
-
-    CustomerMailMergeDataSource(SharedPtr<System::Collections::Generic::List<SharedPtr<ExMailMergeCustom::Customer>>> customers) : mRecordIndex(0)
-    {
-        mCustomers = customers;
-
-        // When we initialize the data source, its position must be before the first record.
-        mRecordIndex = -1;
-    }
-
-    bool GetValue(String fieldName, SharedPtr<System::Object>& fieldValue) override
-    {
-        if (fieldName == u"FullName")
-        {
-            fieldValue = System::ObjectExt::Box<String>(mCustomers->idx_get(mRecordIndex)->get_FullName());
-            return true;
-        }
-        else if (fieldName == u"Address")
-        {
-            fieldValue = System::ObjectExt::Box<String>(mCustomers->idx_get(mRecordIndex)->get_Address());
-            return true;
-        }
-        else
-        {
-            fieldValue.reset();
-            return false;
-        }
-    }
-
-    bool MoveNext() override
-    {
-        if (!get_IsEof())
-        {
-            mRecordIndex++;
-        }
-
-        return !get_IsEof();
-    }
-
-    SharedPtr<IMailMergeDataSource> GetChildDataSource(String tableName) override
-    {
-        return nullptr;
-    }
-
-private:
-    bool get_IsEof()
-    {
-        return mRecordIndex >= mCustomers->get_Count();
-    }
-
-    SharedPtr<System::Collections::Generic::List<SharedPtr<ExMailMergeCustom::Customer>>> mCustomers;
-    int mRecordIndex;
-};
-```
 
 ## See Also
 

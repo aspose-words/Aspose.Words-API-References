@@ -27,8 +27,8 @@ When text has 'automatic color', the actual color of text is calculated automati
 
 Shows how to improve readability by automatically selecting text color based on the brightness of its background. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // If a run's Font object does not specify text color, it will automatically
 // select either black or white depending on the background color's color.
@@ -40,8 +40,7 @@ builder->get_Font()->get_Shading()->set_BackgroundPatternColor(System::Drawing::
 
 builder->Writeln(u"The text color automatically chosen for this run is white.");
 
-ASSERT_EQ(System::Drawing::Color::get_White().ToArgb(),
-          doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
+ASSERT_EQ(System::Drawing::Color::get_White().ToArgb(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
 
 // If we change the background to a light color, black will be a more
 // suitable text color than white so that the auto color will display it in black.
@@ -49,10 +48,9 @@ builder->get_Font()->get_Shading()->set_BackgroundPatternColor(System::Drawing::
 
 builder->Writeln(u"The text color automatically chosen for this run is black.");
 
-ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(),
-          doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
+ASSERT_EQ(System::Drawing::Color::get_Black().ToArgb(), doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(1)->get_Runs()->idx_get(0)->get_Font()->get_AutoColor().ToArgb());
 
-doc->Save(ArtifactsDir + u"Font.SetFontAutoColor.docx");
+doc->Save(get_ArtifactsDir() + u"Font.SetFontAutoColor.docx");
 ```
 
 ## See Also

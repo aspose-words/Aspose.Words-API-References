@@ -21,6 +21,23 @@ System::SharedPtr<Aspose::Words::Math::OfficeMath> Aspose::Words::Fields::FieldE
 
 Returns **null** if field code is empty or invalid, otherwise an [OfficeMath](../../../aspose.words.math/officemath/) instance.
 
+## Examples
+
+
+
+Shows how to replace the EQ field with Office [Math](../../../aspose.words.math/). 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Field sample - EQ.docx");
+System::SharedPtr<Aspose::Words::Fields::FieldEQ> fieldEQ = doc->get_Range()->get_Fields()->LINQ_OfType<System::SharedPtr<Aspose::Words::Fields::FieldEQ> >()->LINQ_First();
+
+System::SharedPtr<Aspose::Words::Math::OfficeMath> officeMath = fieldEQ->AsOfficeMath();
+
+fieldEQ->get_Start()->get_ParentNode()->InsertBefore<System::SharedPtr<Aspose::Words::Math::OfficeMath>>(officeMath, fieldEQ->get_Start());
+fieldEQ->Remove();
+
+doc->Save(get_ArtifactsDir() + u"Field.EQAsOfficeMath.docx");
+```
+
 ## See Also
 
 * Class [OfficeMath](../../../aspose.words.math/officemath/)

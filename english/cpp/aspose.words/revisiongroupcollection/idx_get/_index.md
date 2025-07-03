@@ -23,9 +23,9 @@ System::SharedPtr<Aspose::Words::RevisionGroup> Aspose::Words::RevisionGroupColl
 
 Shows how to get a group of revisions in a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
 
-SharedPtr<RevisionGroup> revisionGroup = doc->get_Revisions()->get_Groups()->idx_get(0);
+System::SharedPtr<Aspose::Words::RevisionGroup> revisionGroup = doc->get_Revisions()->get_Groups()->idx_get(0);
 ```
 
 ## See Also

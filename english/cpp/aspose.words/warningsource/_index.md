@@ -49,6 +49,28 @@ enum class WarningSource
 | Xml | 26 | Module that reads XML files. |
 | Xlsx | 27 | Module that writes XLSX files. |
 
+
+## Examples
+
+
+
+Shows how to work with the warning source. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Emphases markdown warning.docx");
+
+auto warnings = System::MakeObject<Aspose::Words::WarningInfoCollection>();
+doc->set_WarningCallback(warnings);
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.EmphasesWarningSourceMarkdown.md");
+
+for (auto&& warningInfo : warnings)
+{
+    if (warningInfo->get_Source() == Aspose::Words::WarningSource::Markdown)
+    {
+        ASSERT_EQ(u"The (*, 0:11) cannot be properly written into Markdown.", warningInfo->get_Description());
+    }
+}
+```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

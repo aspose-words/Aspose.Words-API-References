@@ -28,14 +28,14 @@ void Aspose::Words::DocumentBuilder::MoveToField(const System::SharedPtr<Aspose:
 
 Shows how to move a document builder's node insertion point cursor to a specific field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a field using the DocumentBuilder and add a run of text after it.
-SharedPtr<Field> field = builder->InsertField(u" AUTHOR \"John Doe\" ");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u" AUTHOR \"John Doe\" ");
 
 // The builder's cursor is currently at end of the document.
-ASSERT_TRUE(builder->get_CurrentNode() == nullptr);
+ASSERT_TRUE(System::TestTools::IsNull(builder->get_CurrentNode()));
 
 // Move the cursor to the field while specifying whether to place that cursor before or after the field.
 builder->MoveToField(field, moveCursorToAfterTheField);
@@ -46,7 +46,7 @@ builder->MoveToField(field, moveCursorToAfterTheField);
 // or FieldSeparator node to place the cursor inside.
 if (moveCursorToAfterTheField)
 {
-    ASSERT_TRUE(builder->get_CurrentNode() == nullptr);
+    ASSERT_TRUE(System::TestTools::IsNull(builder->get_CurrentNode()));
     builder->Write(u" Text immediately after the field.");
 
     ASSERT_EQ(u"\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.", doc->GetText().Trim());

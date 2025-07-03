@@ -23,15 +23,15 @@ System::Drawing::Color Aspose::Words::Font::get_UnderlineColor()
 
 Shows how to configure the style and color of a text underline. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->get_Font()->set_Underline(Underline::Dotted);
+builder->get_Font()->set_Underline(Aspose::Words::Underline::Dotted);
 builder->get_Font()->set_UnderlineColor(System::Drawing::Color::get_Red());
 
 builder->Writeln(u"Underlined text.");
 
-doc->Save(ArtifactsDir + u"Font.Underlines.docx");
+doc->Save(get_ArtifactsDir() + u"Font.Underlines.docx");
 ```
 
 ## See Also

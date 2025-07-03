@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldTA::set_LongCitation method
 linktitle: set_LongCitation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldTA::set_LongCitation method. Setter for Aspose::Words::Fields::FieldTA::get_LongCitation in C++.'
+description: 'Aspose::Words::Fields::FieldTA::set_LongCitation method. Sets the long citation for the entry in C++.'
 type: docs
 weight: 13000
 url: /cpp/aspose.words.fields/fieldta/set_longcitation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldta/set_longcitation/
 ## FieldTA::set_LongCitation method
 
 
-Setter for [Aspose::Words::Fields::FieldTA::get_LongCitation](../get_longcitation/).
+Sets the long citation for the entry.
 
 ```cpp
 void Aspose::Words::Fields::FieldTA::set_LongCitation(const System::String &value)

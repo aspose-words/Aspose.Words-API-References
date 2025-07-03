@@ -25,7 +25,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of Latin text and regions of East Asian text in the current paragraph. |
 | [get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/)() | Gets or sets a flag indicating whether inter-character spacing is automatically adjusted between regions of numbers and regions of East Asian text in the current paragraph. |
 | [get_Alignment](./get_alignment/)() | Gets or sets text alignment for the paragraph. |
-| [get_BaselineAlignment](./get_baselinealignment/)() | Gets fonts vertical position on a line. |
+| [get_BaselineAlignment](./get_baselinealignment/)() | Gets or sets fonts vertical position on a line. |
 | [get_Bidi](./get_bidi/)() | Gets or sets whether this is a right-to-left paragraph. |
 | [get_Borders](./get_borders/)() | Gets collection of borders of the paragraph. |
 | [get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/)() | Gets or sets the value (in characters) for the first-line or hanging indent. Use positive values to set the first-line indent, and negative values to set the hanging indent. |
@@ -45,7 +45,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [get_LinesToDrop](./get_linestodrop/)() | Gets or sets the number of lines of the paragraph text used to calculate the drop cap height. |
 | [get_LineUnitAfter](./get_lineunitafter/)() | Gets or sets the amount of spacing (in gridlines) after the paragraphs. |
 | [get_LineUnitBefore](./get_lineunitbefore/)() | Gets or sets the amount of spacing (in gridlines) before the paragraphs. |
-| [get_MirrorIndents](./get_mirrorindents/)() | Gets a flag indicating whether the left and right indents are of the same width. |
+| [get_MirrorIndents](./get_mirrorindents/)() | Gets or sets a flag indicating whether the left and right indents are of the same width. |
 | [get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/)() | When **true**, [SpaceBefore](./get_spacebefore/) and [SpaceAfter](./get_spaceafter/) will be ignored between the paragraphs of the same style. |
 | [get_OutlineLevel](./get_outlinelevel/)() | Specifies the outline level of the paragraph in the document. |
 | [get_PageBreakBefore](./get_pagebreakbefore/)() | True if a page break is forced before the paragraph. |
@@ -69,7 +69,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [set_AddSpaceBetweenFarEastAndAlpha](./set_addspacebetweenfareastandalpha/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndAlpha](./get_addspacebetweenfareastandalpha/). |
 | [set_AddSpaceBetweenFarEastAndDigit](./set_addspacebetweenfareastanddigit/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_AddSpaceBetweenFarEastAndDigit](./get_addspacebetweenfareastanddigit/). |
 | [set_Alignment](./set_alignment/)(Aspose::Words::ParagraphAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_Alignment](./get_alignment/). |
-| [set_BaselineAlignment](./set_baselinealignment/)(Aspose::Words::BaselineAlignment) | Sets fonts vertical position on a line. |
+| [set_BaselineAlignment](./set_baselinealignment/)(Aspose::Words::BaselineAlignment) | Setter for [Aspose::Words::ParagraphFormat::get_BaselineAlignment](./get_baselinealignment/). |
 | [set_Bidi](./set_bidi/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_Bidi](./get_bidi/). |
 | [set_CharacterUnitFirstLineIndent](./set_characterunitfirstlineindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent](./get_characterunitfirstlineindent/). |
 | [set_CharacterUnitLeftIndent](./set_characterunitleftindent/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_CharacterUnitLeftIndent](./get_characterunitleftindent/). |
@@ -86,7 +86,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 | [set_LinesToDrop](./set_linestodrop/)(int32_t) | Setter for [Aspose::Words::ParagraphFormat::get_LinesToDrop](./get_linestodrop/). |
 | [set_LineUnitAfter](./set_lineunitafter/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitAfter](./get_lineunitafter/). |
 | [set_LineUnitBefore](./set_lineunitbefore/)(double) | Setter for [Aspose::Words::ParagraphFormat::get_LineUnitBefore](./get_lineunitbefore/). |
-| [set_MirrorIndents](./set_mirrorindents/)(bool) | Sets a flag indicating whether the left and right indents are of the same width. |
+| [set_MirrorIndents](./set_mirrorindents/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_MirrorIndents](./get_mirrorindents/). |
 | [set_NoSpaceBetweenParagraphsOfSameStyle](./set_nospacebetweenparagraphsofsamestyle/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_NoSpaceBetweenParagraphsOfSameStyle](./get_nospacebetweenparagraphsofsamestyle/). |
 | [set_OutlineLevel](./set_outlinelevel/)(Aspose::Words::OutlineLevel) | Setter for [Aspose::Words::ParagraphFormat::get_OutlineLevel](./get_outlinelevel/). |
 | [set_PageBreakBefore](./set_pagebreakbefore/)(bool) | Setter for [Aspose::Words::ParagraphFormat::get_PageBreakBefore](./get_pagebreakbefore/). |
@@ -111,7 +111,7 @@ class ParagraphFormat : public Aspose::Words::IBorderAttrSource,
 
 Shows how to construct an Aspose.Words document by hand. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A blank document contains one section, one body and one paragraph.
 // Call the "RemoveAllChildren" method to remove all those nodes,
@@ -121,36 +121,36 @@ doc->RemoveAllChildren();
 // This document now has no composite child nodes that we can add content to.
 // If we wish to edit it, we will need to repopulate its node collection.
 // First, create a new section, and then append it as a child to the root document node.
-auto section = MakeObject<Section>(doc);
-doc->AppendChild(section);
+auto section = System::MakeObject<Aspose::Words::Section>(doc);
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
-auto body = MakeObject<Body>(doc);
-section->AppendChild(body);
+auto body = System::MakeObject<Aspose::Words::Body>(doc);
+section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 
 // Create a paragraph, set some formatting properties, and then append it as a child to the body.
-auto para = MakeObject<Paragraph>(doc);
+auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
 
-body->AppendChild(para);
+body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 
 // Finally, add some content to do the document. Create a run,
 // set its appearance and contents, and then append it as a child to the paragraph.
-auto run = MakeObject<Run>(doc);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
-doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
+doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
 
 ## See Also

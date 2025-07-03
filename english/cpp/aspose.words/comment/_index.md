@@ -91,7 +91,7 @@ class Comment : public Aspose::Words::InlineStory,
 | [SelectSingleNode](../compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../node/) that matches the XPath expression. |
 | [set_Author](./set_author/)(const System::String\&) | Setter for [Aspose::Words::Comment::get_Author](./get_author/). |
 | [set_CustomNodeId](../node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../node/get_customnodeid/). |
-| [set_DateTime](./set_datetime/)(System::DateTime) | Setter for [Aspose::Words::Comment::get_DateTime](./get_datetime/). |
+| [set_DateTime](./set_datetime/)(System::DateTime) | Gets the date and time that the comment was made. |
 | [set_Done](./set_done/)(bool) | Setter for [Aspose::Words::Comment::get_Done](./get_done/). |
 | [set_Id](./set_id/)(int32_t) | Setter for [Aspose::Words::Comment::get_Id](./get_id/). |
 | [set_Initial](./set_initial/)(const System::String\&) | Setter for [Aspose::Words::Comment::get_Initial](./get_initial/). |
@@ -123,48 +123,48 @@ To anchor a comment to a region of text three objects are required: [Comment](./
 
 Shows how to add a comment to a document, and then reply to it. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto comment = MakeObject<Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
+auto comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
 comment->SetText(u"My comment.");
 
 // Place the comment at a node in the document's body.
 // This comment will show up at the location of its paragraph,
 // outside the right-side margin of the page, and with a dotted line connecting it to its paragraph.
-builder->get_CurrentParagraph()->AppendChild(comment);
+builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
 
 // Add a reply, which will show up under its parent comment.
 comment->AddReply(u"Joe Bloggs", u"J.B.", System::DateTime::get_Now(), u"New reply");
 
 // Comments and replies are both Comment nodes.
-ASSERT_EQ(2, doc->GetChildNodes(NodeType::Comment, true)->get_Count());
+ASSERT_EQ(2, doc->GetChildNodes(Aspose::Words::NodeType::Comment, true)->get_Count());
 
 // Comments that do not reply to other comments are "top-level". They have no ancestor comments.
-ASSERT_TRUE(comment->get_Ancestor() == nullptr);
+ASSERT_TRUE(System::TestTools::IsNull(comment->get_Ancestor()));
 
 // Replies have an ancestor top-level comment.
 ASPOSE_ASSERT_EQ(comment, comment->get_Replies()->idx_get(0)->get_Ancestor());
 
-doc->Save(ArtifactsDir + u"Comment.AddCommentWithReply.docx");
+doc->Save(get_ArtifactsDir() + u"Comment.AddCommentWithReply.docx");
 ```
 
 
 Shows how to add a comment to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Hello world!");
 
-auto comment = MakeObject<Comment>(doc, u"John Doe", u"JD", System::DateTime::get_Today());
-builder->get_CurrentParagraph()->AppendChild(comment);
-builder->MoveTo(comment->AppendChild(MakeObject<Paragraph>(doc)));
+auto comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"JD", System::DateTime::get_Today());
+builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
+builder->MoveTo(comment->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc)));
 builder->Write(u"Comment text.");
 
 ASSERT_EQ(System::DateTime::get_Today(), comment->get_DateTime());
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it.
-doc->Save(ArtifactsDir + u"InlineStory.AddComment.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.AddComment.docx");
 ```
 
 ## See Also

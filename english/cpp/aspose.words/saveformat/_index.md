@@ -68,9 +68,9 @@ enum class SaveFormat
 
 Shows how to convert from DOCX to HTML format. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-doc->Save(ArtifactsDir + u"Document.ConvertToHtml.html", SaveFormat::Html);
+doc->Save(get_ArtifactsDir() + u"Document.ConvertToHtml.html", Aspose::Words::SaveFormat::Html);
 ```
 
 ## See Also

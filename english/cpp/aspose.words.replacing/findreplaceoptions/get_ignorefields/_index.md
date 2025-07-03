@@ -29,14 +29,14 @@ To ignore only field codes, please use corresponding option [IgnoreFieldCodes](.
 
 Shows how to ignore text inside fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 builder->InsertField(u"QUOTE", u"Hello again!");
 
 // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
-auto options = MakeObject<FindReplaceOptions>();
+auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 
 // Set the "IgnoreFields" flag to "true" to get the find-and-replace
 // operation to ignore text inside fields.
@@ -46,9 +46,7 @@ options->set_IgnoreFields(ignoreTextInsideFields);
 
 doc->get_Range()->Replace(u"Hello", u"Greetings", options);
 
-ASSERT_EQ(ignoreTextInsideFields ? String(u"Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015")
-                                 : String(u"Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015"),
-          doc->GetText().Trim());
+ASSERT_EQ(ignoreTextInsideFields ? System::String(u"Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015") : System::String(u"Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015"), doc->GetText().Trim());
 ```
 
 ## See Also
