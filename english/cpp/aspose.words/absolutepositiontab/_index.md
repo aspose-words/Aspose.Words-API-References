@@ -56,69 +56,6 @@ class AbsolutePositionTab : public Aspose::Words::SpecialChar
 | [ToString](../node/tostring/)(Aspose::Words::SaveFormat) | Exports the content of the node into a string in the specified format. |
 | [ToString](../node/tostring/)(const System::SharedPtr\<Aspose::Words::Saving::SaveOptions\>\&) | Exports the content of the node into a string using the specified save options. |
 | static [Type](./type/)() |  |
-
-## Examples
-
-
-
-Shows how to process absolute position tab characters with a document visitor. 
-```cpp
-void DocumentToTxt()
-{
-    auto doc = MakeObject<Document>(MyDir + u"Absolute position tab.docx");
-
-    // Extract the text contents of our document by accepting this custom document visitor.
-    auto myDocTextExtractor = MakeObject<ExAbsolutePositionTab::DocTextExtractor>();
-    doc->get_FirstSection()->get_Body()->Accept(myDocTextExtractor);
-
-    // The absolute position tab, which has no equivalent in string form, has been explicitly converted to a tab character.
-    ASSERT_EQ(u"Before AbsolutePositionTab\tAfter AbsolutePositionTab", myDocTextExtractor->GetText());
-
-    // An AbsolutePositionTab can accept a DocumentVisitor by itself too.
-    auto absPositionTab =
-        System::ExplicitCast<AbsolutePositionTab>(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->GetChild(NodeType::SpecialChar, 0, true));
-
-    myDocTextExtractor = MakeObject<ExAbsolutePositionTab::DocTextExtractor>();
-    absPositionTab->Accept(myDocTextExtractor);
-
-    ASSERT_EQ(u"\t", myDocTextExtractor->GetText());
-}
-
-class DocTextExtractor : public DocumentVisitor
-{
-public:
-    DocTextExtractor()
-    {
-        mBuilder = MakeObject<System::Text::StringBuilder>();
-    }
-
-    VisitorAction VisitRun(SharedPtr<Run> run) override
-    {
-        AppendText(run->get_Text());
-        return VisitorAction::Continue;
-    }
-
-    VisitorAction VisitAbsolutePositionTab(SharedPtr<AbsolutePositionTab> tab) override
-    {
-        mBuilder->Append(u"\t");
-        return VisitorAction::Continue;
-    }
-
-    String GetText()
-    {
-        return mBuilder->ToString();
-    }
-
-private:
-    SharedPtr<System::Text::StringBuilder> mBuilder;
-
-    void AppendText(String text)
-    {
-        mBuilder->Append(text);
-    }
-};
-```
-
 ## See Also
 
 * Class [SpecialChar](../specialchar/)

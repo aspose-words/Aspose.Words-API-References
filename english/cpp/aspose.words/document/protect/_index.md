@@ -35,25 +35,25 @@ When you protect a document, and the document does not have a protection passwor
 
 Shows how to turn off protection for a section. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Section 1. Hello world!");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 
 builder->Writeln(u"Section 2. Hello again!");
 builder->Write(u"Please enter text here: ");
-builder->InsertTextInput(u"TextInput1", TextFormFieldType::Regular, u"", u"Placeholder text", 0);
+builder->InsertTextInput(u"TextInput1", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Placeholder text", 0);
 
 // Apply write protection to every section in the document.
-doc->Protect(ProtectionType::AllowOnlyFormFields);
+doc->Protect(Aspose::Words::ProtectionType::AllowOnlyFormFields);
 
 // Turn off write protection for the first section.
 doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 
 // In this output document, we will be able to edit the first section freely,
 // and we will only be able to edit the contents of the form field in the second section.
-doc->Save(ArtifactsDir + u"Section.Protect.docx");
+doc->Save(get_ArtifactsDir() + u"Section.Protect.docx");
 ```
 
 ## See Also
@@ -89,42 +89,42 @@ Note that document protection is different from write protection. Write protecti
 
 Shows how to protect and unprotect a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-doc->Protect(ProtectionType::ReadOnly, u"password");
+auto doc = System::MakeObject<Aspose::Words::Document>();
+doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"password");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, doc->get_ProtectionType());
 
 // If we open this document with Microsoft Word intending to edit it,
 // we will need to apply the password to get through the protection.
-doc->Save(ArtifactsDir + u"Document.Protect.docx");
+doc->Save(get_ArtifactsDir() + u"Document.Protect.docx");
 
 // Note that the protection only applies to Microsoft Word users opening our document.
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
-auto protectedDoc = MakeObject<Document>(ArtifactsDir + u"Document.Protect.docx");
+auto protectedDoc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.Protect.docx");
 
-ASSERT_EQ(ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, protectedDoc->get_ProtectionType());
 
-auto builder = MakeObject<DocumentBuilder>(protectedDoc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(protectedDoc);
 builder->Writeln(u"Text added to a protected document.");
 
 // There are two ways of removing protection from a document.
 // 1 - With no password:
 doc->Unprotect();
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::NoProtection, doc->get_ProtectionType());
 
-doc->Protect(ProtectionType::ReadOnly, u"NewPassword");
+doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"NewPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, doc->get_ProtectionType());
 
 doc->Unprotect(u"WrongPassword");
 
-ASSERT_EQ(ProtectionType::ReadOnly, doc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::ReadOnly, doc->get_ProtectionType());
 
 // 2 - With the correct password:
 doc->Unprotect(u"NewPassword");
 
-ASSERT_EQ(ProtectionType::NoProtection, doc->get_ProtectionType());
+ASSERT_EQ(Aspose::Words::ProtectionType::NoProtection, doc->get_ProtectionType());
 ```
 
 ## See Also

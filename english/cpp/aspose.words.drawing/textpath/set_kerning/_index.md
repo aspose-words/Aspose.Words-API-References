@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::TextPath::set_Kerning method
 linktitle: set_Kerning
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::TextPath::set_Kerning method. Setter for Aspose::Words::Drawing::TextPath::get_Kerning in C++.'
+description: 'Aspose::Words::Drawing::TextPath::set_Kerning method. Determines whether kerning is turned on in C++.'
 type: docs
 weight: 29000
 url: /cpp/aspose.words.drawing/textpath/set_kerning/
@@ -10,12 +10,16 @@ url: /cpp/aspose.words.drawing/textpath/set_kerning/
 ## TextPath::set_Kerning method
 
 
-Setter for [Aspose::Words::Drawing::TextPath::get_Kerning](../get_kerning/).
+Determines whether kerning is turned on.
 
 ```cpp
 void Aspose::Words::Drawing::TextPath::set_Kerning(bool value)
 ```
 
+## Remarks
+
+
+The default value is **false**. 
 ## See Also
 
 * Class [TextPath](../)

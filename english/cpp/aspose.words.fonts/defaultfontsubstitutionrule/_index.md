@@ -34,13 +34,13 @@ class DefaultFontSubstitutionRule : public Aspose::Words::Fonts::FontSubstitutio
 
 Shows how to set the default font substitution rule. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto fontSettings = MakeObject<FontSettings>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
 doc->set_FontSettings(fontSettings);
 
 // Get the default substitution rule within FontSettings.
 // This rule will substitute all missing fonts with "Times New Roman".
-SharedPtr<DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
+System::SharedPtr<Aspose::Words::Fonts::DefaultFontSubstitutionRule> defaultFontSubstitutionRule = fontSettings->get_SubstitutionSettings()->get_DefaultFontSubstitution();
 ASSERT_TRUE(defaultFontSubstitutionRule->get_Enabled());
 ASSERT_EQ(u"Times New Roman", defaultFontSubstitutionRule->get_DefaultFontName());
 
@@ -49,12 +49,12 @@ defaultFontSubstitutionRule->set_DefaultFontName(u"Courier New");
 
 // Using a document builder, add some text in a font that we do not have to see the substitution take place,
 // and then render the result in a PDF.
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Missing Font");
 builder->Writeln(u"Line written in a missing font, which will be substituted with Courier New.");
 
-doc->Save(ArtifactsDir + u"FontSettings.DefaultFontSubstitutionRule.pdf");
+doc->Save(get_ArtifactsDir() + u"FontSettings.DefaultFontSubstitutionRule.pdf");
 ```
 
 ## See Also

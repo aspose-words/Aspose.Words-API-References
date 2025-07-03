@@ -27,11 +27,11 @@ If this option is specified, [PageSet](../../fixedpagesaveoptions/get_pageset/) 
 
 Shows how to save a document to the XPS format in the form of a book fold. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Paragraphs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Paragraphs.docx");
 
 // Create an "XpsSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .XPS.
-auto xpsOptions = MakeObject<XpsSaveOptions>(SaveFormat::Xps);
+auto xpsOptions = System::MakeObject<Aspose::Words::Saving::XpsSaveOptions>(Aspose::Words::SaveFormat::Xps);
 
 // Set the "UseBookFoldPrintingSettings" property to "true" to arrange the contents
 // in the output XPS in a way that helps us use it to make a booklet.
@@ -42,15 +42,15 @@ xpsOptions->set_UseBookFoldPrintingSettings(renderTextAsBookFold);
 // properties of the page setup objects of all sections to "MultiplePagesType.BookFoldPrinting".
 if (renderTextAsBookFold)
 {
-    for (const auto& s : System::IterateOver<Section>(doc->get_Sections()))
+    for (auto&& s : System::IterateOver<Aspose::Words::Section>(doc->get_Sections()))
     {
-        s->get_PageSetup()->set_MultiplePages(MultiplePagesType::BookFoldPrinting);
+        s->get_PageSetup()->set_MultiplePages(Aspose::Words::Settings::MultiplePagesType::BookFoldPrinting);
     }
 }
 
 // Once we print this document, we can turn it into a booklet by stacking the pages
 // to come out of the printer and folding down the middle.
-doc->Save(ArtifactsDir + u"XpsSaveOptions.BookFold.xps", xpsOptions);
+doc->Save(get_ArtifactsDir() + u"XpsSaveOptions.BookFold.xps", xpsOptions);
 ```
 
 ## See Also

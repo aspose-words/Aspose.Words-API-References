@@ -23,8 +23,8 @@ Aspose::Words::Notes::FootnotePosition Aspose::Words::Notes::FootnoteOptions::ge
 
 Shows how to select a different place where the document collects and displays its footnotes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // A footnote is a way to attach a reference or a side comment to text
 // that does not interfere with the main body text's flow.
@@ -34,7 +34,7 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // that matches the reference symbol in the main body text.
 // The reference text that we pass to the document builder's "InsertFootnote" method.
 builder->Write(u"Hello world!");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote contents.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote contents.");
 
 // We can use the "Position" property to determine where the document will place all its footnotes.
 // If we set the value of the "Position" property to "FootnotePosition.BottomOfPage",
@@ -43,7 +43,7 @@ builder->InsertFootnote(FootnoteType::Footnote, u"Footnote contents.");
 // every footnote will show up at the end of the page's text that contains its reference mark.
 doc->get_FootnoteOptions()->set_Position(footnotePosition);
 
-doc->Save(ArtifactsDir + u"InlineStory.PositionFootnote.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.PositionFootnote.docx");
 ```
 
 ## See Also

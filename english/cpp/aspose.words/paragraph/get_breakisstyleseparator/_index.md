@@ -23,14 +23,14 @@ bool Aspose::Words::Paragraph::get_BreakIsStyleSeparator()
 
 Shows how to write text to the same line as a TOC heading and have it not show up in the TOC. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertTableOfContents(u"\\o \\h \\z \\u");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
 // Insert a paragraph with a style that the TOC will pick up as an entry.
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
 
 // Both these strings are in the same paragraph and will therefore show up on the same TOC entry.
 builder->Write(u"Heading 1. ");
@@ -40,13 +40,13 @@ builder->Write(u"Will appear in the TOC. ");
 // and use a different style without showing up in the TOC.
 // If we use a heading type style after the separator, we can draw multiple TOC entries from one document text line.
 builder->InsertStyleSeparator();
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Quote);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Quote);
 builder->Write(u"Won't appear in the TOC. ");
 
 ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_BreakIsStyleSeparator());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Paragraph.BreakIsStyleSeparator.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.BreakIsStyleSeparator.docx");
 ```
 
 ## See Also

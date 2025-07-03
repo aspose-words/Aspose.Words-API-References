@@ -29,12 +29,12 @@ Has effect for top level shapes only.
 
 Shows how to lock/unlock a shape's aspect ratio. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a shape. If we open this document in Microsoft Word, we can left click the shape to reveal
 // eight sizing handles around its perimeter, which we can click and drag to change its size.
-SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Logo.jpg");
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Set the "AspectRatioLocked" property to "true" to preserve the shape's aspect ratio
 // when using any of the four diagonal sizing handles, which change both the image's height and width.
@@ -43,7 +43,7 @@ SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Logo.jpg");
 // freely change the image's aspect ratio with all sizing handles.
 shape->set_AspectRatioLocked(lockAspectRatio);
 
-doc->Save(ArtifactsDir + u"Shape.AspectRatio.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.AspectRatio.docx");
 ```
 
 ## See Also

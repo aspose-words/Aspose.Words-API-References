@@ -37,34 +37,34 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 Shows how to create form fields. 
 ```cpp
-auto builder = MakeObject<DocumentBuilder>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>();
 
 // Form fields are objects in the document that the user can interact with by being prompted to enter values.
 // We can create them using a document builder, and below are two ways of doing so.
 // 1 -  Basic text input:
-builder->InsertTextInput(u"My text input", TextFormFieldType::Regular, u"", u"Enter your name here", 30);
+builder->InsertTextInput(u"My text input", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Enter your name here", 30);
 
 // 2 -  Combo box with prompt text, and a range of possible values:
-ArrayPtr<String> items = MakeArray<String>({u"-- Select your favorite footwear --", u"Sneakers", u"Oxfords", u"Flip-flops", u"Other"});
+System::ArrayPtr<System::String> items = System::MakeArray<System::String>({u"-- Select your favorite footwear --", u"Sneakers", u"Oxfords", u"Flip-flops", u"Other"});
 
 builder->InsertParagraph();
 builder->InsertComboBox(u"My combo box", items, 0);
 
-builder->get_Document()->Save(ArtifactsDir + u"DocumentBuilder.CreateForm.docx");
+builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateForm.docx");
 ```
 
 
 Shows how to insert a combo box form field into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a form that prompts the user to pick one of the items from the menu.
 builder->Write(u"Pick a fruit: ");
-ArrayPtr<String> items = MakeArray<String>({u"Apple", u"Banana", u"Cherry"});
+System::ArrayPtr<System::String> items = System::MakeArray<System::String>({u"Apple", u"Banana", u"Cherry"});
 builder->InsertComboBox(u"DropDown", items, 0);
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertComboBox.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertComboBox.docx");
 ```
 
 ## See Also

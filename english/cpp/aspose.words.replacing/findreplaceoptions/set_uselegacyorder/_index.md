@@ -2,7 +2,7 @@
 title: Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder method
 linktitle: set_UseLegacyOrder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder method. Setter for Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder in C++.'
+description: 'Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder method. True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is false in C++.'
 type: docs
 weight: 33000
 url: /cpp/aspose.words.replacing/findreplaceoptions/set_uselegacyorder/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.replacing/findreplaceoptions/set_uselegacyorder/
 ## FindReplaceOptions::set_UseLegacyOrder method
 
 
-Setter for [Aspose::Words::Replacing::FindReplaceOptions::get_UseLegacyOrder](../get_uselegacyorder/).
+True indicates that a text search is performed sequentially from top to bottom considering the text boxes. Default value is **false**.
 
 ```cpp
 void Aspose::Words::Replacing::FindReplaceOptions::set_UseLegacyOrder(bool value)

@@ -16,6 +16,22 @@ Gets the actual text of the reference mark displayed in the document for this fo
 System::String Aspose::Words::Notes::Footnote::get_ActualReferenceMark()
 ```
 
+
+## Examples
+
+
+
+Shows how to get actual footnote reference mark. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+auto footnote = System::ExplicitCast<Aspose::Words::Notes::Footnote>(doc->GetChild(Aspose::Words::NodeType::Footnote, 1, true));
+doc->UpdateFields();
+doc->UpdateActualReferenceMarks();
+
+ASSERT_EQ(u"1", footnote->get_ActualReferenceMark());
+```
+
 ## See Also
 
 * Class [Footnote](../)

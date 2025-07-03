@@ -35,9 +35,9 @@ If the folder specified by [ImagesFolder](./) doesn't exist, it will be created 
 
 Shows how to specify the folder for storing linked images after saving to .html. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
-String imagesDir = System::IO::Path::Combine(ArtifactsDir, u"SaveHtmlWithOptions");
+System::String imagesDir = System::IO::Path::Combine(get_ArtifactsDir(), u"SaveHtmlWithOptions");
 
 if (System::IO::Directory::Exists(imagesDir))
 {
@@ -47,11 +47,11 @@ if (System::IO::Directory::Exists(imagesDir))
 System::IO::Directory::CreateDirectory_(imagesDir);
 
 // Set an option to export form fields as plain text instead of HTML input elements.
-auto options = MakeObject<HtmlSaveOptions>(SaveFormat::Html);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
 options->set_ExportTextInputFormFieldAsText(true);
 options->set_ImagesFolder(imagesDir);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.SaveHtmlWithOptions.html", options);
 ```
 
 ## See Also

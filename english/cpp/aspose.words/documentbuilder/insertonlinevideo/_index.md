@@ -87,6 +87,42 @@ The image node that was just inserted.
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
 
+## Examples
+
+
+
+Shows how to insert an online video into a document with a custom thumbnail. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::String videoUrl = u"https://vimeo.com/52477838";
+System::String videoEmbedCode = System::String(u"<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" ") + u"title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+
+System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(get_ImageDir() + u"Logo.jpg");
+
+{
+    auto stream = System::MakeObject<System::IO::MemoryStream>(thumbnailImageBytes);
+    {
+        System::SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
+        // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
+        // that will play when we click on the shape in Microsoft Word.
+        // 1 -  Insert an inline shape at the builder's node insertion cursor:
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
+
+        builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+
+        // 2 -  Insert a floating shape:
+        double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
+        double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
+
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), Aspose::Words::Drawing::WrapType::Square);
+    }
+}
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
+```
+
 ## See Also
 
 * Class [Shape](../../../aspose.words.drawing/shape/)
@@ -121,6 +157,42 @@ The image node that was just inserted.
 
 
 You can change the image size, location, positioning method and other settings using the [Shape](../../../aspose.words.drawing/shape/) object returned by this method.
+
+## Examples
+
+
+
+Shows how to insert an online video into a document with a custom thumbnail. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::String videoUrl = u"https://vimeo.com/52477838";
+System::String videoEmbedCode = System::String(u"<iframe src=\"https://player.vimeo.com/video/52477838\" width=\"640\" height=\"360\" frameborder=\"0\" ") + u"title=\"Aspose\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+
+System::ArrayPtr<uint8_t> thumbnailImageBytes = System::IO::File::ReadAllBytes(get_ImageDir() + u"Logo.jpg");
+
+{
+    auto stream = System::MakeObject<System::IO::MemoryStream>(thumbnailImageBytes);
+    {
+        System::SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
+        // Below are two ways of creating a shape with a custom thumbnail, which links to an online video
+        // that will play when we click on the shape in Microsoft Word.
+        // 1 -  Insert an inline shape at the builder's node insertion cursor:
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, image->get_Width(), image->get_Height());
+
+        builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+
+        // 2 -  Insert a floating shape:
+        double left = builder->get_PageSetup()->get_RightMargin() - image->get_Width();
+        double top = builder->get_PageSetup()->get_BottomMargin() - image->get_Height();
+
+        builder->InsertOnlineVideo(videoUrl, videoEmbedCode, thumbnailImageBytes, Aspose::Words::Drawing::RelativeHorizontalPosition::RightMargin, left, Aspose::Words::Drawing::RelativeVerticalPosition::BottomMargin, top, image->get_Width(), image->get_Height(), Aspose::Words::Drawing::WrapType::Square);
+    }
+}
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOnlineVideoCustomThumbnail.docx");
+```
 
 ## See Also
 
@@ -162,6 +234,21 @@ Insertion of online video from the following resources is supported:
 If your online video is not displaying correctly, use [InsertOnlineVideo()](../), which accepts custom embedded html code.
 
 The code for embedding video can vary between providers, consult your corresponding provider of choice for details.
+
+## Examples
+
+
+
+Shows how to insert an online video into a document using a URL. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->InsertOnlineVideo(u"https://youtu.be/g1N9ke8Prmk", 360, 270);
+
+// We can watch the video from Microsoft Word by clicking on the shape.
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertVideoWithUrl.docx");
+```
 
 ## See Also
 

@@ -23,26 +23,26 @@ void Aspose::Words::Fonts::FontFallbackSettings::LoadMsOfficeFallbackSettings()
 
 Shows how to load pre-defined fallback font settings. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto fontSettings = MakeObject<FontSettings>();
+auto fontSettings = System::MakeObject<Aspose::Words::Fonts::FontSettings>();
 doc->set_FontSettings(fontSettings);
-SharedPtr<FontFallbackSettings> fontFallbackSettings = fontSettings->get_FallbackSettings();
+System::SharedPtr<Aspose::Words::Fonts::FontFallbackSettings> fontFallbackSettings = fontSettings->get_FallbackSettings();
 
 // Save the default fallback font scheme to an XML document.
 // For example, one of the elements has a value of "0C00-0C7F" for Range and a corresponding "Vani" value for FallbackFonts.
 // This means that if the font some text is using does not have symbols for the 0x0C00-0x0C7F Unicode block,
 // the fallback scheme will use symbols from the "Vani" font substitute.
-fontFallbackSettings->Save(ArtifactsDir + u"FontSettings.FallbackSettings.Default.xml");
+fontFallbackSettings->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettings.Default.xml");
 
 // Below are two pre-defined font fallback schemes we can choose from.
 // 1 -  Use the default Microsoft Office scheme, which is the same one as the default:
 fontFallbackSettings->LoadMsOfficeFallbackSettings();
-fontFallbackSettings->Save(ArtifactsDir + u"FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
+fontFallbackSettings->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettings.LoadMsOfficeFallbackSettings.xml");
 
 // 2 -  Use the scheme built from Google Noto fonts:
 fontFallbackSettings->LoadNotoFallbackSettings();
-fontFallbackSettings->Save(ArtifactsDir + u"FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
+fontFallbackSettings->Save(get_ArtifactsDir() + u"FontSettings.FallbackSettings.LoadNotoFallbackSettings.xml");
 ```
 
 ## See Also

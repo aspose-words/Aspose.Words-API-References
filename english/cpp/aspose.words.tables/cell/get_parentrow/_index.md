@@ -23,14 +23,14 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Cell::get_P
 
 Shows how to set a table to stay together on the same page. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Table spanning two pages.docx");
-SharedPtr<Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table spanning two pages.docx");
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Enabling KeepWithNext for every paragraph in the table except for the
 // last ones in the last row will prevent the table from splitting across multiple pages.
-for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell, true)->LINQ_OfType<SharedPtr<Cell>>()))
+for (auto&& cell : System::IterateOver<Aspose::Words::Tables::Cell>(table->GetChildNodes(Aspose::Words::NodeType::Cell, true)))
 {
-    for (const auto& para : System::IterateOver(cell->get_Paragraphs()->LINQ_OfType<SharedPtr<Paragraph>>()))
+    for (auto&& para : System::IterateOver<Aspose::Words::Paragraph>(cell->get_Paragraphs()))
     {
         ASSERT_TRUE(para->get_IsInCell());
 
@@ -41,7 +41,7 @@ for (const auto& cell : System::IterateOver(table->GetChildNodes(NodeType::Cell,
     }
 }
 
-doc->Save(ArtifactsDir + u"Table.KeepTableTogether.docx");
+doc->Save(get_ArtifactsDir() + u"Table.KeepTableTogether.docx");
 ```
 
 ## See Also

@@ -63,8 +63,8 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_HasImage](./get_hasimage/)() | Returns **true** if the shape has image bytes or links an image. |
 | [get_HasSmartArt](./get_hassmartart/)() | Returns **true** if this [Shape](./) has a SmartArt object. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
-| [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
-| [get_Hidden](../shapebase/get_hidden/)() | Gets a boolean value indicating whether the shape is visible. |
+| [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets or sets the value that represents the percentage of shape's relative height. |
+| [get_Hidden](../shapebase/get_hidden/)() | Gets or sets a boolean value indicating whether the shape is visible. |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HorizontalRuleFormat](./get_horizontalruleformat/)() | Provides access to the properties of the horizontal rule shape. For a shape that is not a horizontal rule, returns **null**. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
@@ -86,7 +86,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastParagraph](./get_lastparagraph/)() | Gets the last paragraph in the shape. |
 | [get_Left](../shapebase/get_left/)() | Gets or sets the position of the left edge of the containing block of the shape. |
-| [get_LeftRelative](../shapebase/get_leftrelative/)() | Gets the value that represents shape's relative left position in percent. |
+| [get_LeftRelative](../shapebase/get_leftrelative/)() | Gets or sets the value that represents shape's relative left position in percent. |
 | [get_MarkupLanguage](../shapebase/get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
@@ -122,10 +122,10 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [get_TextPath](./get_textpath/)() | Defines the text of the text path (of a WordArt object). |
 | [get_Title](../shapebase/get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](../shapebase/get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
-| [get_TopRelative](../shapebase/get_toprelative/)() | Gets the value that represents shape's relative top position in percent. |
+| [get_TopRelative](../shapebase/get_toprelative/)() | Gets or sets the value that represents shape's relative top position in percent. |
 | [get_VerticalAlignment](../shapebase/get_verticalalignment/)() | Specifies how the shape is positioned vertically. |
 | [get_Width](../shapebase/get_width/)() | Gets or sets the width of the containing block of the shape. |
-| [get_WidthRelative](../shapebase/get_widthrelative/)() | Gets the value that represents the percentage of shape's relative width. |
+| [get_WidthRelative](../shapebase/get_widthrelative/)() | Gets or sets the value that represents the percentage of shape's relative width. |
 | [get_WrapSide](../shapebase/get_wrapside/)() | Specifies how the text is wrapped around the shape. |
 | [get_WrapType](../shapebase/get_wraptype/)() | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [get_ZOrder](../shapebase/get_zorder/)() | Determines the display order of overlapping shapes. |
@@ -154,7 +154,7 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
 | [set_AllowOverlap](../shapebase/set_allowoverlap/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AllowOverlap](../shapebase/get_allowoverlap/). |
-| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Defines alternative text to be displayed instead of a graphic. |
+| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AlternativeText](../shapebase/get_alternativetext/). |
 | [set_AnchorLocked](../shapebase/set_anchorlocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AnchorLocked](../shapebase/get_anchorlocked/). |
 | [set_AspectRatioLocked](../shapebase/set_aspectratiolocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked](../shapebase/get_aspectratiolocked/). |
 | [set_BehindText](../shapebase/set_behindtext/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../shapebase/get_behindtext/). |
@@ -170,14 +170,14 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_Filled](./set_filled/)(bool) | Setter for [Aspose::Words::Drawing::Shape::get_Filled](./get_filled/). |
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
-| [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
-| [set_Hidden](../shapebase/set_hidden/)(bool) | Sets a boolean value indicating whether the shape is visible. |
+| [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HeightRelative](../shapebase/get_heightrelative/). |
+| [set_Hidden](../shapebase/set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Hidden](../shapebase/get_hidden/). |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |
 | [set_IsLayoutInCell](../shapebase/set_islayoutincell/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell](../shapebase/get_islayoutincell/). |
 | [set_Left](../shapebase/set_left/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Left](../shapebase/get_left/). |
-| [set_LeftRelative](../shapebase/set_leftrelative/)(float) | Sets the value that represents shape's relative left position in percent. |
+| [set_LeftRelative](../shapebase/set_leftrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_LeftRelative](../shapebase/get_leftrelative/). |
 | [set_Name](../shapebase/set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Name](../shapebase/get_name/). |
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
@@ -193,10 +193,10 @@ class Shape : public Aspose::Words::Drawing::ShapeBase,
 | [set_Target](../shapebase/set_target/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Target](../shapebase/get_target/). |
 | [set_Title](../shapebase/set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Title](../shapebase/get_title/). |
 | [set_Top](../shapebase/set_top/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Top](../shapebase/get_top/). |
-| [set_TopRelative](../shapebase/set_toprelative/)(float) | Sets the value that represents shape's relative top position in percent. |
+| [set_TopRelative](../shapebase/set_toprelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_TopRelative](../shapebase/get_toprelative/). |
 | [set_VerticalAlignment](../shapebase/set_verticalalignment/)(Aspose::Words::Drawing::VerticalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](../shapebase/get_verticalalignment/). |
 | [set_Width](../shapebase/set_width/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](../shapebase/get_width/). |
-| [set_WidthRelative](../shapebase/set_widthrelative/)(float) | Sets the value that represents the percentage of shape's relative width. |
+| [set_WidthRelative](../shapebase/set_widthrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WidthRelative](../shapebase/get_widthrelative/). |
 | [set_WrapSide](../shapebase/set_wrapside/)(Aspose::Words::Drawing::WrapSide) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapSide](../shapebase/get_wrapside/). |
 | [set_WrapType](../shapebase/set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](../shapebase/get_wraptype/). |
 | [set_ZOrder](../shapebase/set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](../shapebase/get_zorder/). |
@@ -222,24 +222,26 @@ Shapes that can have text, can contain [Paragraph](../../aspose.words/paragraph/
 
 Shows how to extract images from a document, and save them to the local file system as individual files. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
 
 // Get the collection of shapes from the document,
 // and save the image data of every shape with an image as a file to the local file system.
-SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_Count([](SharedPtr<Node> s) { return (System::ExplicitCast<Shape>(s))->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> s)>>([](System::SharedPtr<Aspose::Words::Node> s) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Drawing::Shape>(s))->get_HasImage();
+}))));
 
-int imageIndex = 0;
-for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
+int32_t imageIndex = 0;
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
 {
     if (shape->get_HasImage())
     {
         // The image data of shapes may contain images of many possible image formats.
         // We can determine a file extension for each image automatically, based on its format.
-        String imageFileName =
-            String::Format(u"File.ExtractImages.{0}{1}", imageIndex, FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
-        shape->get_ImageData()->Save(ArtifactsDir + imageFileName);
+        System::String imageFileName = System::String::Format(u"File.ExtractImages.{0}{1}", imageIndex, Aspose::Words::FileFormatUtil::ImageTypeToExtension(shape->get_ImageData()->get_ImageType()));
+        shape->get_ImageData()->Save(get_ArtifactsDir() + imageFileName);
         imageIndex++;
     }
 }
@@ -248,61 +250,61 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
 
 Shows how to insert a floating image to the center of a page. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Logo.jpg");
-shape->set_WrapType(WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(HorizontalAlignment::Center);
-shape->set_VerticalAlignment(VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
+shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
 
-doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
+doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 
 
 Shows how to delete all shapes from a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert two shapes along with a group shape with another shape inside it.
-builder->InsertShape(ShapeType::Rectangle, 400, 200);
-builder->InsertShape(ShapeType::Star, 300, 300);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 400, 200);
+builder->InsertShape(Aspose::Words::Drawing::ShapeType::Star, 300, 300);
 
-auto group = MakeObject<GroupShape>(doc);
+auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
 group->set_Bounds(System::Drawing::RectangleF(100.0f, 50.0f, 200.0f, 100.0f));
 group->set_CoordOrigin(System::Drawing::Point(-1000, -500));
 
-auto subShape = MakeObject<Shape>(doc, ShapeType::Cube);
+auto subShape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Cube);
 subShape->set_Width(500);
 subShape->set_Height(700);
 subShape->set_Left(0);
 subShape->set_Top(0);
 
-group->AppendChild(subShape);
+group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(subShape);
 builder->InsertNode(group);
 
-ASSERT_EQ(3, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(3, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
 
 // Remove all Shape nodes from the document.
-SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
 shapes->Clear();
 
 // All shapes are gone, but the group shape is still in the document.
-ASSERT_EQ(1, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(1, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
 
 // Remove all group shapes separately.
-SharedPtr<NodeCollection> groupShapes = doc->GetChildNodes(NodeType::GroupShape, true);
+System::SharedPtr<Aspose::Words::NodeCollection> groupShapes = doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true);
 groupShapes->Clear();
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::GroupShape, true)->get_Count());
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::GroupShape, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
 ```
 
 ## See Also

@@ -25,7 +25,7 @@ class FieldAutoNumOut : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -37,7 +37,7 @@ class FieldAutoNumOut : public Aspose::Words::Fields::Field
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -52,8 +52,8 @@ class FieldAutoNumOut : public Aspose::Words::Fields::Field
 
 Shows how to number paragraphs using AUTONUMOUT fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // AUTONUMOUT fields display a number that increments at each AUTONUMOUT field.
 // Unlike AUTONUM fields, AUTONUMOUT fields use the outline numbering scheme,
@@ -61,20 +61,22 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // This allows us to automatically number items like a numbered list.
 // LISTNUM fields are a newer alternative to AUTONUMOUT fields.
 // This field will display "1.".
-builder->InsertField(FieldType::FieldAutoNumOutline, true);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNumOutline, true);
 builder->Writeln(u"\tParagraph 1.");
 
 // This field will display "2.".
-builder->InsertField(FieldType::FieldAutoNumOutline, true);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldAutoNumOutline, true);
 builder->Writeln(u"\tParagraph 2.");
 
-for (auto field : System::IterateOver<FieldAutoNumOut>(
-         doc->get_Range()->get_Fields()->LINQ_Where([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldAutoNumOutline; })))
+for (auto&& field : System::IterateOver<Aspose::Words::Fields::FieldAutoNumOut>(doc->get_Range()->get_Fields()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+{
+    return f->get_Type() == Aspose::Words::Fields::FieldType::FieldAutoNumOutline;
+})))->LINQ_ToList()))
 {
     ASSERT_EQ(u" AUTONUMOUT ", field->GetFieldCode());
 }
 
-doc->Save(ArtifactsDir + u"Field.AUTONUMOUT.docx");
+doc->Save(get_ArtifactsDir() + u"Field.AUTONUMOUT.docx");
 ```
 
 ## See Also

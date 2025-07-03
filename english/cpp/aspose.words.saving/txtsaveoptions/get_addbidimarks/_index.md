@@ -23,8 +23,8 @@ bool Aspose::Words::Saving::TxtSaveOptions::get_AddBidiMarks() const
 
 Shows how to insert Unicode Character 'RIGHT-TO-LEFT MARK' (U+200F) before each bi-directional [Run](../../../aspose.words/run/) in text. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 builder->get_ParagraphFormat()->set_Bidi(true);
@@ -33,7 +33,7 @@ builder->Writeln(u"مرحبا بالعالم!");
 
 // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
 // to modify how we save the document to plaintext.
-auto saveOptions = MakeObject<TxtSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 saveOptions->set_Encoding(System::Text::Encoding::get_Unicode());
 
 // Set the "AddBidiMarks" property to "true" to add marks before runs
@@ -42,9 +42,9 @@ saveOptions->set_Encoding(System::Text::Encoding::get_Unicode());
 // and right-to-left run equally with nothing to indicate which is which.
 saveOptions->set_AddBidiMarks(addBidiMarks);
 
-doc->Save(ArtifactsDir + u"TxtSaveOptions.AddBidiMarks.txt", saveOptions);
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.AddBidiMarks.txt", saveOptions);
 
-String docText = System::Text::Encoding::get_Unicode()->GetString(System::IO::File::ReadAllBytes(ArtifactsDir + u"TxtSaveOptions.AddBidiMarks.txt"));
+System::String docText = System::Text::Encoding::get_Unicode()->GetString(System::IO::File::ReadAllBytes(get_ArtifactsDir() + u"TxtSaveOptions.AddBidiMarks.txt"));
 
 if (addBidiMarks)
 {

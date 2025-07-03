@@ -23,18 +23,18 @@ bool Aspose::Words::Drawing::ShapeBase::get_IsTopLevel()
 
 Shows how to tell whether a shape is a part of a group shape. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
 shape->set_Width(200);
 shape->set_Height(200);
-shape->set_WrapType(WrapType::None);
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
 
 // A shape by default is not part of any group shape, and therefore has the "IsTopLevel" property set to "true".
 ASSERT_TRUE(shape->get_IsTopLevel());
 
-auto group = MakeObject<GroupShape>(doc);
-group->AppendChild(shape);
+auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
+group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 
 // Once we assimilate a shape into a group shape, the "IsTopLevel" property changes to "false".
 ASSERT_FALSE(shape->get_IsTopLevel());

@@ -27,21 +27,21 @@ The default value is **false**.
 
 Shows how to get a text box to resize itself to fit its contents tightly. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> textBoxShape = builder->InsertShape(ShapeType::TextBox, 150, 100);
-SharedPtr<TextBox> textBox = textBoxShape->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 150, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox = textBoxShape->get_TextBox();
 
 // Apply these values to both these members to get the parent shape to fit
 // tightly around the text contents, ignoring the dimensions we have set.
 textBox->set_FitShapeToText(true);
-textBox->set_TextBoxWrapMode(TextBoxWrapMode::None);
+textBox->set_TextBoxWrapMode(Aspose::Words::Drawing::TextBoxWrapMode::None);
 
 builder->MoveTo(textBoxShape->get_LastParagraph());
 builder->Write(u"Text fit tightly inside textbox.");
 
-doc->Save(ArtifactsDir + u"Shape.TextBoxFitShapeToText.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.TextBoxFitShapeToText.docx");
 ```
 
 ## See Also

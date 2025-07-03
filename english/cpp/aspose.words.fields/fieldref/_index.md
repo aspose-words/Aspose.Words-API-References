@@ -35,7 +35,7 @@ class FieldRef : public Aspose::Words::Fields::Field,
 | [get_InsertParagraphNumberInFullContext](./get_insertparagraphnumberinfullcontext/)() | Gets whether to insert the paragraph number of the referenced paragraph in full context. |
 | [get_InsertParagraphNumberInRelativeContext](./get_insertparagraphnumberinrelativecontext/)() | Gets whether to insert the paragraph number of the referenced paragraph in relative context. |
 | [get_InsertRelativePosition](./get_insertrelativeposition/)() | Gets whether to insert the relative position of the referenced paragraph. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_NumberSeparator](./get_numberseparator/)() | Gets the character sequence that is used to separate sequence numbers and page numbers. |
@@ -57,7 +57,7 @@ class FieldRef : public Aspose::Words::Fields::Field,
 | [set_InsertParagraphNumberInFullContext](./set_insertparagraphnumberinfullcontext/)(bool) | Sets whether to insert the paragraph number of the referenced paragraph in full context. |
 | [set_InsertParagraphNumberInRelativeContext](./set_insertparagraphnumberinrelativecontext/)(bool) | Sets whether to insert the paragraph number of the referenced paragraph in relative context. |
 | [set_InsertRelativePosition](./set_insertrelativeposition/)(bool) | Sets whether to insert the relative position of the referenced paragraph. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_NumberSeparator](./set_numberseparator/)(const System::String\&) | Sets the character sequence that is used to separate sequence numbers and page numbers. |
@@ -74,12 +74,12 @@ class FieldRef : public Aspose::Words::Fields::Field,
 
 Shows how to create bookmarked text with a SET field, and then display it in the document using a REF field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Name bookmarked text with a SET field.
 // This field refers to the "bookmark" not a bookmark structure that appears within the text, but a named variable.
-auto fieldSet = System::ExplicitCast<FieldSet>(builder->InsertField(FieldType::FieldSet, false));
+auto fieldSet = System::ExplicitCast<Aspose::Words::Fields::FieldSet>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSet, false));
 fieldSet->set_BookmarkName(u"MyBookmark");
 fieldSet->set_BookmarkText(u"Hello world!");
 fieldSet->Update();
@@ -87,14 +87,14 @@ fieldSet->Update();
 ASSERT_EQ(u" SET  MyBookmark \"Hello world!\"", fieldSet->GetFieldCode());
 
 // Refer to the bookmark by name in a REF field and display its contents.
-auto fieldRef = System::ExplicitCast<FieldRef>(builder->InsertField(FieldType::FieldRef, true));
+auto fieldRef = System::ExplicitCast<Aspose::Words::Fields::FieldRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldRef, true));
 fieldRef->set_BookmarkName(u"MyBookmark");
 fieldRef->Update();
 
 ASSERT_EQ(u" REF  MyBookmark", fieldRef->GetFieldCode());
 ASSERT_EQ(u"Hello world!", fieldRef->get_Result());
 
-doc->Save(ArtifactsDir + u"Field.SET.REF.docx");
+doc->Save(get_ArtifactsDir() + u"Field.SET.REF.docx");
 ```
 
 ## See Also

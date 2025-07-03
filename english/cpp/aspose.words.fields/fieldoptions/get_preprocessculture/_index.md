@@ -29,13 +29,13 @@ The default value is **null**. When this property is set to **null**, the [Field
 
 Shows how to set the preprocess culture. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set the culture according to which some fields will format their displayed values.
-doc->get_FieldOptions()->set_PreProcessCulture(MakeObject<System::Globalization::CultureInfo>(u"de-DE"));
+doc->get_FieldOptions()->set_PreProcessCulture(System::MakeObject<System::Globalization::CultureInfo>(u"de-DE"));
 
-SharedPtr<Field> field = builder->InsertField(u" DOCPROPERTY CreateTime");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u" DOCPROPERTY CreateTime");
 
 // The DOCPROPERTY field will display its result formatted according to the preprocess culture
 // we have set to German. The field will display the date/time using the "dd.mm.yyyy hh:mm" format.

@@ -31,7 +31,7 @@ When **false**, causes no roundtrip information to be output into produced files
 
 Shows how to preserve hidden elements when converting to .html. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
 // When converting a document to .html, some elements such as hidden bookmarks, original shape positions,
 // or footnotes will be either removed or converted to plain text and effectively be lost.
@@ -44,45 +44,38 @@ auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
 // If we set the "ExportRoundTripInformation" flag to "false", the save operation will discard these elements.
 // We will want to preserve such elements if we intend to load the saved HTML using Aspose.Words,
 // as they could be of use once again.
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportRoundtripInformation(exportRoundtripInformation);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.RoundTripInformation.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.RoundTripInformation.html");
-doc = MakeObject<Document>(ArtifactsDir + u"HtmlSaveOptions.RoundTripInformation.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"HtmlSaveOptions.RoundTripInformation.html");
 
 if (exportRoundtripInformation)
 {
     ASSERT_TRUE(outDocContents.Contains(u"<div style=\"-aw-headerfooter-type:header-primary; clear:both\">"));
     ASSERT_TRUE(outDocContents.Contains(u"<span style=\"-aw-import:ignore\">&#xa0;</span>"));
 
-    ASSERT_TRUE(outDocContents.Contains(String(u"td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; ") +
-                                        u"padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
-                                        u"-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; ") + u"padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " + u"-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
 
-    ASSERT_TRUE(outDocContents.Contains(
-        u"<li style=\"margin-left:30.2pt; padding-left:5.8pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'\">"));
+    ASSERT_TRUE(outDocContents.Contains(u"<li style=\"margin-left:30.2pt; padding-left:5.8pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'\">"));
 
-    ASSERT_TRUE(
-        outDocContents.Contains(String(u"<img src=\"HtmlSaveOptions.RoundTripInformation.003.jpeg\" width=\"350\" height=\"180\" alt=\"\" ") +
-                                u"style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<img src=\"HtmlSaveOptions.RoundTripInformation.003.jpeg\" width=\"350\" height=\"180\" alt=\"\" ") + u"style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />"));
 
-    ASSERT_TRUE(outDocContents.Contains(String(u"<span>Page number </span>") + u"<span style=\"-aw-field-start:true\"></span>" +
-                                        u"<span style=\"-aw-field-code:' PAGE   \\\\* MERGEFORMAT '\"></span>" +
-                                        u"<span style=\"-aw-field-separator:true\"></span>" + u"<span>1</span>" +
-                                        u"<span style=\"-aw-field-end:true\"></span>"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<span>Page number </span>") + u"<span style=\"-aw-field-start:true\"></span>" + u"<span style=\"-aw-field-code:' PAGE   \\\\* MERGEFORMAT '\"></span>" + u"<span style=\"-aw-field-separator:true\"></span>" + u"<span>1</span>" + u"<span style=\"-aw-field-end:true\"></span>"));
 
-    ASSERT_EQ(1, doc->get_Range()->get_Fields()->LINQ_Count([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldPage; }));
+    ASSERT_EQ(1, doc->get_Range()->get_Fields()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+    {
+        return f->get_Type() == Aspose::Words::Fields::FieldType::FieldPage;
+    }))));
 }
 else
 {
     ASSERT_TRUE(outDocContents.Contains(u"<div style=\"clear:both\">"));
     ASSERT_TRUE(outDocContents.Contains(u"<span>&#xa0;</span>"));
 
-    ASSERT_TRUE(
-        outDocContents.Contains(String(u"<td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; ") +
-                                u"padding-right:2.4pt; padding-left:5.03pt; vertical-align:top\">"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; ") + u"padding-right:2.4pt; padding-left:5.03pt; vertical-align:top\">"));
 
     ASSERT_TRUE(outDocContents.Contains(u"<li style=\"margin-left:30.2pt; padding-left:5.8pt\">"));
 
@@ -90,7 +83,10 @@ else
 
     ASSERT_TRUE(outDocContents.Contains(u"<span>Page number 1</span>"));
 
-    ASSERT_EQ(0, doc->get_Range()->get_Fields()->LINQ_Count([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldPage; }));
+    ASSERT_EQ(0, doc->get_Range()->get_Fields()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+    {
+        return f->get_Type() == Aspose::Words::Fields::FieldType::FieldPage;
+    }))));
 }
 ```
 

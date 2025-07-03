@@ -23,28 +23,25 @@ int32_t Aspose::Words::Fields::Field::get_LocaleId()
 
 Shows how to insert a field and work with its locale. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a DATE field, and then print the date it will display.
 // Your thread's current culture determines the formatting of the date.
-SharedPtr<Field> field = builder->InsertField(u"DATE");
-std::cout << "Today's date, as displayed in the \"" << System::Globalization::CultureInfo::get_CurrentCulture()->get_EnglishName()
-          << "\" culture: " << field->get_Result() << std::endl;
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE");
+std::cout << System::String::Format(u"Today's date, as displayed in the \"{0}\" culture: {1}", System::Globalization::CultureInfo::get_CurrentCulture()->get_EnglishName(), field->get_Result()) << std::endl;
 
 ASSERT_EQ(1033, field->get_LocaleId());
 
 // Changing the culture of our thread will impact the result of the DATE field.
 // Another way to get the DATE field to display a date in a different culture is to use its LocaleId property.
 // This way allows us to avoid changing the thread's culture to get this effect.
-doc->get_FieldOptions()->set_FieldUpdateCultureSource(FieldUpdateCultureSource::FieldCode);
-auto de = MakeObject<System::Globalization::CultureInfo>(u"de-DE");
+doc->get_FieldOptions()->set_FieldUpdateCultureSource(Aspose::Words::Fields::FieldUpdateCultureSource::FieldCode);
+auto de = System::MakeObject<System::Globalization::CultureInfo>(u"de-DE");
 field->set_LocaleId(de->get_LCID());
 field->Update();
 
-std::cout << "Today's date, as displayed according to the \""
-          << System::Globalization::CultureInfo::GetCultureInfo(field->get_LocaleId())->get_EnglishName() << "\" culture: " << field->get_Result()
-          << std::endl;
+std::cout << System::String::Format(u"Today's date, as displayed according to the \"{0}\" culture: {1}", System::Globalization::CultureInfo::GetCultureInfo(field->get_LocaleId())->get_EnglishName(), field->get_Result()) << std::endl;
 ```
 
 ## See Also

@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XpsSaveOptions::set_DigitalSignatureDetails method
 linktitle: set_DigitalSignatureDetails
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::XpsSaveOptions::set_DigitalSignatureDetails method. Sets DigitalSignatureDetails object used to sign a document in C++.'
+description: 'Aspose::Words::Saving::XpsSaveOptions::set_DigitalSignatureDetails method. Setter for Aspose::Words::Saving::XpsSaveOptions::get_DigitalSignatureDetails in C++.'
 type: docs
 weight: 7500
 url: /cpp/aspose.words.saving/xpssaveoptions/set_digitalsignaturedetails/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xpssaveoptions/set_digitalsignaturedetails/
 ## XpsSaveOptions::set_DigitalSignatureDetails method
 
 
-Sets [DigitalSignatureDetails](../../digitalsignaturedetails/) object used to sign a document.
+Setter for [Aspose::Words::Saving::XpsSaveOptions::get_DigitalSignatureDetails](../get_digitalsignaturedetails/).
 
 ```cpp
 void Aspose::Words::Saving::XpsSaveOptions::set_DigitalSignatureDetails(const System::SharedPtr<Aspose::Words::Saving::DigitalSignatureDetails> &value)

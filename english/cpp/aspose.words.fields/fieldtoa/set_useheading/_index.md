@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldToa::set_UseHeading method
 linktitle: set_UseHeading
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldToa::set_UseHeading method. Setter for Aspose::Words::Fields::FieldToa::get_UseHeading in C++.'
+description: 'Aspose::Words::Fields::FieldToa::set_UseHeading method. Sets whether to include the category heading for the entries in a table of authorities in C++.'
 type: docs
 weight: 22000
 url: /cpp/aspose.words.fields/fieldtoa/set_useheading/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldtoa/set_useheading/
 ## FieldToa::set_UseHeading method
 
 
-Setter for [Aspose::Words::Fields::FieldToa::get_UseHeading](../get_useheading/).
+Sets whether to include the category heading for the entries in a table of authorities.
 
 ```cpp
 void Aspose::Words::Fields::FieldToa::set_UseHeading(bool value)

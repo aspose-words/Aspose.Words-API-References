@@ -30,7 +30,7 @@ class FieldNoteRef : public Aspose::Words::Fields::Field,
 | [get_InsertHyperlink](./get_inserthyperlink/)() | Gets whether to insert a hyperlink to the bookmarked paragraph. |
 | [get_InsertReferenceMark](./get_insertreferencemark/)() | Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style. |
 | [get_InsertRelativePosition](./get_insertrelativeposition/)() | Gets whether to insert a relative position of the bookmarked paragraph. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -46,7 +46,7 @@ class FieldNoteRef : public Aspose::Words::Fields::Field,
 | [set_InsertHyperlink](./set_inserthyperlink/)(bool) | Sets whether to insert a hyperlink to the bookmarked paragraph. |
 | [set_InsertReferenceMark](./set_insertreferencemark/)(bool) | Inserts the reference mark with the same character formatting as the Footnote Reference or Endnote Reference style. |
 | [set_InsertRelativePosition](./set_insertrelativeposition/)(bool) | Sets whether to insert a relative position of the bookmarked paragraph. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -54,6 +54,38 @@ class FieldNoteRef : public Aspose::Words::Fields::Field,
 | [Unlink](../field/unlink/)() | Performs the field unlink. |
 | [Update](../field/update/)() | Performs the field update. Throws if the field is being updated already. |
 | [Update](../field/update/)(bool) | Performs a field update. Throws if the field is being updated already. |
+
+## Examples
+
+
+
+Shows how to cross-reference footnotes with the NOTEREF field. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Write(u"CrossReference: ");
+
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldNoteRef>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldNoteRef, false));
+// <--- don't update field
+field->set_BookmarkName(u"CrossRefBookmark");
+field->set_InsertHyperlink(true);
+field->set_InsertReferenceMark(true);
+field->set_InsertRelativePosition(false);
+builder->Writeln();
+
+builder->StartBookmark(u"CrossRefBookmark");
+builder->Write(u"Hello world!");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Cross referenced footnote.");
+builder->EndBookmark(u"CrossRefBookmark");
+builder->Writeln();
+
+doc->UpdateFields();
+
+// This field works only in older versions of Microsoft Word.
+doc->Save(get_ArtifactsDir() + u"Field.NOTEREF.doc");
+```
+
 ## See Also
 
 * Class [Field](../field/)

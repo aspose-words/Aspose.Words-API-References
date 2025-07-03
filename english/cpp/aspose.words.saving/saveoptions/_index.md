@@ -30,14 +30,14 @@ class SaveOptions : public System::Object
 | [get_DmlRenderingMode](./get_dmlrenderingmode/)() const | Gets or sets a value determining how DrawingML shapes are rendered. |
 | [get_ExportGeneratorName](./get_exportgeneratorname/)() const | When **true**, causes the name and version of Aspose.Words to be embedded into produced files. Default value is **true**. |
 | [get_ImlRenderingMode](./get_imlrenderingmode/)() const | Gets or sets a value determining how ink (InkML) objects are rendered. |
-| [get_MemoryOptimization](./get_memoryoptimization/)() const | Gets or sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
+| [get_MemoryOptimization](./get_memoryoptimization/)() const | Gets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [get_PrettyFormat](./get_prettyformat/)() const | When **true**, pretty formats output where applicable. Default value is **false**. |
 | [get_ProgressCallback](./get_progresscallback/)() const | Called during saving a document and accepts data about saving progress. |
 | virtual [get_SaveFormat](./get_saveformat/)() | Specifies the format in which the document will be saved if this save options object is used. |
 | [get_TempFolder](./get_tempfolder/)() const | Specifies the folder for temporary files used when saving to a DOC or DOCX file. By default this property is **null** and no temporary files are used. |
 | [get_UpdateAmbiguousTextFont](./get_updateambiguoustextfont/)() const | Determines whether the font attributes will be changed according to the character code being used. |
-| [get_UpdateCreatedTimeProperty](./get_updatecreatedtimeproperty/)() const | Gets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
-| [get_UpdateFields](./get_updatefields/)() const | Gets or sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
+| [get_UpdateCreatedTimeProperty](./get_updatecreatedtimeproperty/)() const | Gets or sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
+| [get_UpdateFields](./get_updatefields/)() const | Gets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/)() const | Gets or sets a value determining whether the [LastPrinted](../../aspose.words.properties/builtindocumentproperties/get_lastprinted/) property is updated before saving. |
 | [get_UpdateLastSavedTimeProperty](./get_updatelastsavedtimeproperty/)() const | Gets or sets a value determining whether the [LastSavedTime](../../aspose.words.properties/builtindocumentproperties/get_lastsavedtime/) property is updated before saving. |
 | [get_UseAntiAliasing](./get_useantialiasing/)() const | Gets or sets a value determining whether or not to use anti-aliasing for rendering. |
@@ -52,14 +52,14 @@ class SaveOptions : public System::Object
 | [set_DmlRenderingMode](./set_dmlrenderingmode/)(Aspose::Words::Saving::DmlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_DmlRenderingMode](./get_dmlrenderingmode/). |
 | [set_ExportGeneratorName](./set_exportgeneratorname/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName](./get_exportgeneratorname/). |
 | [set_ImlRenderingMode](./set_imlrenderingmode/)(Aspose::Words::Saving::ImlRenderingMode) | Setter for [Aspose::Words::Saving::SaveOptions::get_ImlRenderingMode](./get_imlrenderingmode/). |
-| [set_MemoryOptimization](./set_memoryoptimization/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_MemoryOptimization](./get_memoryoptimization/). |
+| [set_MemoryOptimization](./set_memoryoptimization/)(bool) | Sets value determining if memory optimization should be performed before saving the document. Default value for this property is **false**. |
 | [set_PrettyFormat](./set_prettyformat/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_PrettyFormat](./get_prettyformat/). |
 | [set_ProgressCallback](./set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Saving::IDocumentSavingCallback\>\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_ProgressCallback](./get_progresscallback/). |
 | virtual [set_SaveFormat](./set_saveformat/)(Aspose::Words::SaveFormat) | Setter for [Aspose::Words::Saving::SaveOptions::get_SaveFormat](./get_saveformat/). |
 | [set_TempFolder](./set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Saving::SaveOptions::get_TempFolder](./get_tempfolder/). |
-| [set_UpdateAmbiguousTextFont](./set_updateambiguoustextfont/)(bool) | Determines whether the font attributes will be changed according to the character code being used. |
-| [set_UpdateCreatedTimeProperty](./set_updatecreatedtimeproperty/)(bool) | Sets a value determining whether the [CreatedTime](../../aspose.words.properties/builtindocumentproperties/get_createdtime/) property is updated before saving. Default value is **false**;. |
-| [set_UpdateFields](./set_updatefields/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateFields](./get_updatefields/). |
+| [set_UpdateAmbiguousTextFont](./set_updateambiguoustextfont/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateAmbiguousTextFont](./get_updateambiguoustextfont/). |
+| [set_UpdateCreatedTimeProperty](./set_updatecreatedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateCreatedTimeProperty](./get_updatecreatedtimeproperty/). |
+| [set_UpdateFields](./set_updatefields/)(bool) | Sets a value determining if fields of certain types should be updated before saving the document to a fixed page format. Default value for this property is **true**. |
 | [set_UpdateLastPrintedProperty](./set_updatelastprintedproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastPrintedProperty](./get_updatelastprintedproperty/). |
 | [set_UpdateLastSavedTimeProperty](./set_updatelastsavedtimeproperty/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty](./get_updatelastsavedtimeproperty/). |
 | [set_UseAntiAliasing](./set_useantialiasing/)(bool) | Setter for [Aspose::Words::Saving::SaveOptions::get_UseAntiAliasing](./get_useantialiasing/). |
@@ -72,23 +72,23 @@ class SaveOptions : public System::Object
 
 Shows how to use a specific encoding when saving a document to .epub. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
 // Use a SaveOptions object to specify the encoding for a document that we will save.
-auto saveOptions = MakeObject<HtmlSaveOptions>();
-saveOptions->set_SaveFormat(SaveFormat::Epub);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Epub);
 saveOptions->set_Encoding(System::Text::Encoding::get_UTF8());
 
 // By default, an output .epub document will have all its contents in one HTML part.
 // A split criterion allows us to segment the document into several HTML parts.
 // We will set the criteria to split the document into heading paragraphs.
 // This is useful for readers who cannot read HTML files more significant than a specific size.
-saveOptions->set_DocumentSplitCriteria(DocumentSplitCriteria::HeadingParagraph);
+saveOptions->set_DocumentSplitCriteria(Aspose::Words::Saving::DocumentSplitCriteria::HeadingParagraph);
 
 // Specify that we want to export document properties.
 saveOptions->set_ExportDocumentProperties(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.Doc2EpubSaveOptions.epub", saveOptions);
 ```
 
 ## See Also

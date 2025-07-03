@@ -44,13 +44,13 @@ class RevisionOptions : public System::Object
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_CommentColor](./set_commentcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_CommentColor](./get_commentcolor/). |
-| [set_DeleteCellColor](./set_deletecellcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for deleted cells [Deletion](../../aspose.words/revisiontype/). Default value is [Pink](../revisioncolor/). |
+| [set_DeleteCellColor](./set_deletecellcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeleteCellColor](./get_deletecellcolor/). |
 | [set_DeletedTextColor](./set_deletedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextColor](./get_deletedtextcolor/). |
 | [set_DeletedTextEffect](./set_deletedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_DeletedTextEffect](./get_deletedtexteffect/). |
-| [set_InsertCellColor](./set_insertcellcolor/)(Aspose::Words::Layout::RevisionColor) | Allows to specify the color to be used for inserted cells [Insertion](../../aspose.words/revisiontype/). Default value is [Blue](../revisioncolor/). |
+| [set_InsertCellColor](./set_insertcellcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertCellColor](./get_insertcellcolor/). |
 | [set_InsertedTextColor](./set_insertedtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertedTextColor](./get_insertedtextcolor/). |
 | [set_InsertedTextEffect](./set_insertedtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertedTextEffect](./get_insertedtexteffect/). |
-| [set_MeasurementUnit](./set_measurementunit/)(Aspose::Words::MeasurementUnits) | Allows to specify the measurement units for revision comments. Default value is [Centimeters](../../aspose.words/measurementunits/) |
+| [set_MeasurementUnit](./set_measurementunit/)(Aspose::Words::MeasurementUnits) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MeasurementUnit](./get_measurementunit/). |
 | [set_MovedFromTextColor](./set_movedfromtextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedFromTextColor](./get_movedfromtextcolor/). |
 | [set_MovedFromTextEffect](./set_movedfromtexteffect/)(Aspose::Words::Layout::RevisionTextEffect) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedFromTextEffect](./get_movedfromtexteffect/). |
 | [set_MovedToTextColor](./set_movedtotextcolor/)(Aspose::Words::Layout::RevisionColor) | Setter for [Aspose::Words::Layout::RevisionOptions::get_MovedToTextColor](./get_movedtotextcolor/). |
@@ -72,8 +72,8 @@ class RevisionOptions : public System::Object
 
 Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a revision, then change the color of all revisions to green.
 builder->Writeln(u"This is not a revision.");
@@ -83,10 +83,11 @@ doc->StopTrackRevisions();
 builder->Writeln(u"This is not a revision.");
 
 // Remove the bar that appears to the left of every revised line.
-doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(RevisionColor::BrightGreen);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(Aspose::Words::Layout::RevisionColor::BrightGreen);
 doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Aspose::Words::Drawing::HorizontalAlignment::Right);
 
-doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
+doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ## See Also

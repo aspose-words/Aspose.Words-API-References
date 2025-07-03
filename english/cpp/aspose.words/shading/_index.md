@@ -25,20 +25,20 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 | [Equals](./equals/)(const System::SharedPtr\<Aspose::Words::Shading\>\&) | Determines whether the specified [Shading](./) is equal in value to the current [Shading](./). |
 | [Equals](./equals/)(System::SharedPtr\<System::Object\>) override | Determines whether the specified object is equal in value to the current object. |
 | [get_BackgroundPatternColor](./get_backgroundpatterncolor/)() | Gets or sets the color that's applied to the background of the [Shading](./) object. |
-| [get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/)() | Gets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/)() | Gets or sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [get_BackgroundTintAndShade](./get_backgroundtintandshade/)() | Gets or sets a double value that lightens or darkens a background theme color. |
 | [get_ForegroundPatternColor](./get_foregroundpatterncolor/)() | Gets or sets the color that's applied to the foreground of the [Shading](./) object. |
-| [get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/)() | Gets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/)() | Gets or sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
 | [get_ForegroundTintAndShade](./get_foregroundtintandshade/)() | Gets or sets a double value that lightens or darkens a foreground theme color. |
 | [get_Texture](./get_texture/)() | Gets or sets the shading texture. |
 | [GetHashCode](./gethashcode/)() const override | Serves as a hash function for this type. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackgroundPatternColor](./set_backgroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_BackgroundPatternColor](./get_backgroundpatterncolor/). |
-| [set_BackgroundPatternThemeColor](./set_backgroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the background pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_BackgroundPatternThemeColor](./set_backgroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Shading::get_BackgroundPatternThemeColor](./get_backgroundpatternthemecolor/). |
 | [set_BackgroundTintAndShade](./set_backgroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_BackgroundTintAndShade](./get_backgroundtintandshade/). |
 | [set_ForegroundPatternColor](./set_foregroundpatterncolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Shading::get_ForegroundPatternColor](./get_foregroundpatterncolor/). |
-| [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](./) object. |
+| [set_ForegroundPatternThemeColor](./set_foregroundpatternthemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Shading::get_ForegroundPatternThemeColor](./get_foregroundpatternthemecolor/). |
 | [set_ForegroundTintAndShade](./set_foregroundtintandshade/)(double) | Setter for [Aspose::Words::Shading::get_ForegroundTintAndShade](./get_foregroundtintandshade/). |
 | [set_Texture](./set_texture/)(Aspose::Words::TextureIndex) | Setter for [Aspose::Words::Shading::get_Texture](./get_texture/). |
 | static [Type](./type/)() |  |
@@ -49,12 +49,12 @@ class Shading : public Aspose::Words::InternableComplexAttr,
 
 Shows how to apply border and shading color while building a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Start a table and set a default color/thickness for its borders.
-SharedPtr<Table> table = builder->StartTable();
-table->SetBorders(LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+table->SetBorders(Aspose::Words::LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
 
 // Create a row with two cells with different background colors.
 builder->InsertCell();
@@ -79,29 +79,29 @@ builder->Writeln(u"Row 2, Cell 1.");
 builder->InsertCell();
 builder->Writeln(u"Row 2, Cell 2.");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
 
 Shows how to decorate text with borders and shading. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<BorderCollection> borders = builder->get_ParagraphFormat()->get_Borders();
+System::SharedPtr<Aspose::Words::BorderCollection> borders = builder->get_ParagraphFormat()->get_Borders();
 borders->set_DistanceFromText(20);
-borders->idx_get(BorderType::Left)->set_LineStyle(LineStyle::Double);
-borders->idx_get(BorderType::Right)->set_LineStyle(LineStyle::Double);
-borders->idx_get(BorderType::Top)->set_LineStyle(LineStyle::Double);
-borders->idx_get(BorderType::Bottom)->set_LineStyle(LineStyle::Double);
+borders->idx_get(Aspose::Words::BorderType::Left)->set_LineStyle(Aspose::Words::LineStyle::Double);
+borders->idx_get(Aspose::Words::BorderType::Right)->set_LineStyle(Aspose::Words::LineStyle::Double);
+borders->idx_get(Aspose::Words::BorderType::Top)->set_LineStyle(Aspose::Words::LineStyle::Double);
+borders->idx_get(Aspose::Words::BorderType::Bottom)->set_LineStyle(Aspose::Words::LineStyle::Double);
 
-SharedPtr<Shading> shading = builder->get_ParagraphFormat()->get_Shading();
-shading->set_Texture(TextureIndex::TextureDiagonalCross);
+System::SharedPtr<Aspose::Words::Shading> shading = builder->get_ParagraphFormat()->get_Shading();
+shading->set_Texture(Aspose::Words::TextureIndex::TextureDiagonalCross);
 shading->set_BackgroundPatternColor(System::Drawing::Color::get_LightCoral());
 shading->set_ForegroundPatternColor(System::Drawing::Color::get_LightSalmon());
 
 builder->Write(u"This paragraph is formatted with a double border and shading.");
-doc->Save(ArtifactsDir + u"DocumentBuilder.ApplyBordersAndShading.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.ApplyBordersAndShading.docx");
 ```
 
 ## See Also

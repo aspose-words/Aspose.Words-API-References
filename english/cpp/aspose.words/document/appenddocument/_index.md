@@ -28,51 +28,49 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 
 Shows how to append a document to the end of another document. 
 ```cpp
-auto srcDoc = MakeObject<Document>();
+auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 srcDoc->get_FirstSection()->get_Body()->AppendParagraph(u"Source document text. ");
 
-auto dstDoc = MakeObject<Document>();
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 dstDoc->get_FirstSection()->get_Body()->AppendParagraph(u"Destination document text. ");
 
 // Append the source document to the destination document while preserving its formatting,
 // then save the source document to the local file system.
-dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting);
+dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
 
-dstDoc->Save(ArtifactsDir + u"Document.AppendDocument.docx");
+dstDoc->Save(get_ArtifactsDir() + u"Document.AppendDocument.docx");
 ```
 
 
 Shows how to append all the documents in a folder to the end of a template document. 
 ```cpp
-auto dstDoc = MakeObject<Document>();
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 
-auto builder = MakeObject<DocumentBuilder>(dstDoc);
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
 builder->Writeln(u"Template Document");
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Normal);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Normal);
 builder->Writeln(u"Some content here");
 
 // Append all unencrypted documents with the .doc extension
 // from our local file system directory to the base document.
-auto isDocFile = [](String item)
+System::SharedPtr<System::Collections::Generic::List<System::String>> docFiles = System::IO::Directory::GetFiles(get_MyDir(), u"*.doc")->LINQ_Where(static_cast<System::Func<System::String, bool>>(static_cast<std::function<bool(System::String item)>>([](System::String item) -> bool
 {
     return item.EndsWith(u".doc");
-};
-
-SharedPtr<System::Collections::Generic::List<String>> docFiles = System::IO::Directory::GetFiles(MyDir, u"*.doc")->LINQ_Where(isDocFile)->LINQ_ToList();
-for (const auto& fileName : docFiles)
+})))->LINQ_ToList();
+for (auto&& fileName : docFiles)
 {
-    SharedPtr<FileFormatInfo> info = FileFormatUtil::DetectFileFormat(fileName);
+    System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(fileName);
     if (info->get_IsEncrypted())
     {
         continue;
     }
 
-    auto srcDoc = MakeObject<Document>(fileName);
-    dstDoc->AppendDocument(srcDoc, ImportFormatMode::UseDestinationStyles);
+    auto srcDoc = System::MakeObject<Aspose::Words::Document>(fileName);
+    dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::UseDestinationStyles);
 }
 
-dstDoc->Save(ArtifactsDir + u"Document.AppendAllDocumentsInFolder.doc");
+dstDoc->Save(get_ArtifactsDir() + u"Document.AppendAllDocumentsInFolder.doc");
 ```
 
 ## See Also
@@ -105,8 +103,8 @@ void Aspose::Words::Document::AppendDocument(const System::SharedPtr<Aspose::Wor
 Shows how to manage list style clashes while appending a document. 
 ```cpp
 // Load a document with text in a custom style and clone it.
-auto srcDoc = MakeObject<Document>(MyDir + u"Custom list numbering.docx");
-SharedPtr<Document> dstDoc = srcDoc->Clone();
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Custom list numbering.docx");
+System::SharedPtr<Aspose::Words::Document> dstDoc = srcDoc->Clone();
 
 // We now have two documents, each with an identical style named "CustomStyle".
 // Change the text color for one of the styles to set it apart from the other.
@@ -116,66 +114,66 @@ dstDoc->get_Styles()->idx_get(u"CustomStyle")->get_Font()->set_Color(System::Dra
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
 // Set the "KeepSourceNumbering" property to "true" import all clashing
 // list style numbering with the same appearance that it had in the source document.
-auto options = MakeObject<ImportFormatOptions>();
+auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_KeepSourceNumbering(keepSourceNumbering);
 
 // Joining two documents that have different styles that share the same name causes a style clash.
 // We can specify an import format mode while appending documents to resolve this clash.
-dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepDifferentStyles, options);
+dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepDifferentStyles, options);
 dstDoc->UpdateListLabels();
 
-dstDoc->Save(ArtifactsDir + u"DocumentBuilder.AppendDocumentAndResolveStyles.docx");
+dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.AppendDocumentAndResolveStyles.docx");
 ```
 
 
 Shows how to manage list style clashes while inserting a document. 
 ```cpp
-auto dstDoc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(dstDoc);
-builder->InsertBreak(BreakType::ParagraphBreak);
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
+builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 
-dstDoc->get_Lists()->Add(ListTemplate::NumberDefault);
-SharedPtr<Aspose::Words::Lists::List> list = dstDoc->get_Lists()->idx_get(0);
+dstDoc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
+System::SharedPtr<Aspose::Words::Lists::List> list = dstDoc->get_Lists()->idx_get(0);
 
 builder->get_ListFormat()->set_List(list);
 
-for (int i = 1; i <= 15; i++)
+for (int32_t i = 1; i <= 15; i++)
 {
-    builder->Write(String::Format(u"List Item {0}\n", i));
+    builder->Write(System::String::Format(u"List Item {0}\n", i));
 }
 
-auto attachDoc = System::ExplicitCast<Document>(dstDoc->Clone(true));
+auto attachDoc = System::ExplicitCast<Aspose::Words::Document>(System::ExplicitCast<Aspose::Words::Node>(dstDoc)->Clone(true));
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
 // Set the "KeepSourceNumbering" property to "true" import all clashing
 // list style numbering with the same appearance that it had in the source document.
-auto importOptions = MakeObject<ImportFormatOptions>();
+auto importOptions = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 importOptions->set_KeepSourceNumbering(keepSourceNumbering);
 
-builder->InsertBreak(BreakType::SectionBreakNewPage);
-builder->InsertDocument(attachDoc, ImportFormatMode::KeepSourceFormatting, importOptions);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertDocument(attachDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, importOptions);
 
-dstDoc->Save(ArtifactsDir + u"DocumentBuilder.InsertDocumentAndResolveStyles.docx");
+dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocumentAndResolveStyles.docx");
 ```
 
 
 Shows how to manage list style clashes while appending a clone of a document to itself. 
 ```cpp
-auto srcDoc = MakeObject<Document>(MyDir + u"List item.docx");
-auto dstDoc = MakeObject<Document>(MyDir + u"List item.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"List item.docx");
 
 // If there is a clash of list styles, apply the list format of the source document.
 // Set the "KeepSourceNumbering" property to "false" to not import any list numbers into the destination document.
 // Set the "KeepSourceNumbering" property to "true" import all clashing
 // list style numbering with the same appearance that it had in the source document.
-auto builder = MakeObject<DocumentBuilder>(dstDoc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 builder->MoveToDocumentEnd();
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 
-auto options = MakeObject<ImportFormatOptions>();
+auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_KeepSourceNumbering(keepSourceNumbering);
-builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
 
 dstDoc->UpdateListLabels();
 ```

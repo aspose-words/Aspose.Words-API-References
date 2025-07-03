@@ -30,7 +30,7 @@ class FieldIf : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LeftExpression](./get_leftexpression/)() | Gets or sets the left part of the comparison expression. |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -48,7 +48,7 @@ class FieldIf : public Aspose::Words::Fields::Field,
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_ComparisonOperator](./set_comparisonoperator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIf::get_ComparisonOperator](./get_comparisonoperator/). |
 | [set_FalseText](./set_falsetext/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIf::get_FalseText](./get_falsetext/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LeftExpression](./set_leftexpression/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIf::get_LeftExpression](./get_leftexpression/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -72,11 +72,11 @@ A field in the following format will be used as a mail merge source: { IF 0 = 0 
 
 Shows how to insert an IF field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Statement 1: ");
-auto field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIf, true));
 field->set_LeftExpression(u"0");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"1");
@@ -89,11 +89,11 @@ field->Update();
 
 // In this case, "0 = 1" is incorrect, so the displayed result will be "False".
 ASSERT_EQ(u" IF  0 = 1 True False", field->GetFieldCode());
-ASSERT_EQ(FieldIfComparisonResult::False, field->EvaluateCondition());
+ASSERT_EQ(Aspose::Words::Fields::FieldIfComparisonResult::False, field->EvaluateCondition());
 ASSERT_EQ(u"False", field->get_Result());
 
 builder->Write(u"\nStatement 2: ");
-field = System::ExplicitCast<FieldIf>(builder->InsertField(FieldType::FieldIf, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldIf>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIf, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");
@@ -103,11 +103,11 @@ field->Update();
 
 // This time the statement is correct, so the displayed result will be "True".
 ASSERT_EQ(u" IF  5 = \"2 + 3\" True False", field->GetFieldCode());
-ASSERT_EQ(FieldIfComparisonResult::True, field->EvaluateCondition());
+ASSERT_EQ(Aspose::Words::Fields::FieldIfComparisonResult::True, field->EvaluateCondition());
 ASSERT_EQ(u"True", field->get_Result());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.IF.docx");
+doc->Save(get_ArtifactsDir() + u"Field.IF.docx");
 ```
 
 ## See Also

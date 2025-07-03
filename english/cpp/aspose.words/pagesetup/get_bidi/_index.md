@@ -27,16 +27,16 @@ When **true**, the columns in this section are laid out from right to left.
 
 Shows how to set the order of text columns in a section. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-SharedPtr<PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
 pageSetup->get_TextColumns()->SetCount(3);
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Write(u"Column 1.");
-builder->InsertBreak(BreakType::ColumnBreak);
+builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
 builder->Write(u"Column 2.");
-builder->InsertBreak(BreakType::ColumnBreak);
+builder->InsertBreak(Aspose::Words::BreakType::ColumnBreak);
 builder->Write(u"Column 3.");
 
 // Set the "Bidi" property to "true" to arrange the columns starting from the page's right side.
@@ -45,7 +45,7 @@ builder->Write(u"Column 3.");
 // The order of the columns will match the direction of the left-to-right text.
 pageSetup->set_Bidi(reverseColumns);
 
-doc->Save(ArtifactsDir + u"PageSetup.Bidi.docx");
+doc->Save(get_ArtifactsDir() + u"PageSetup.Bidi.docx");
 ```
 
 ## See Also

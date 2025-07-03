@@ -23,8 +23,8 @@ bool Aspose::Words::Saving::HtmlFixedSaveOptions::get_ExportFormFields() const
 
 Shows how to export form fields to Html. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertCheckBox(u"CheckBox", false, 15);
 
@@ -34,27 +34,20 @@ builder->InsertCheckBox(u"CheckBox", false, 15);
 // Setting this flag to "false" will display form fields as plain text.
 // This will freeze them at their current value, and prevent the reader of our HTML document
 // from being able to interact with them.
-auto htmlFixedSaveOptions = MakeObject<HtmlFixedSaveOptions>();
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 htmlFixedSaveOptions->set_ExportFormFields(exportFormFields);
 
-doc->Save(ArtifactsDir + u"HtmlFixedSaveOptions.ExportFormFields.html", htmlFixedSaveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportFormFields.html", htmlFixedSaveOptions);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlFixedSaveOptions.ExportFormFields.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlFixedSaveOptions.ExportFormFields.html");
 
 if (exportFormFields)
 {
-    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(
-                    outDocContents, String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") +
-                                        u"<input style=\"position:absolute; left:0pt; top:0pt;\" type=\"checkbox\" name=\"CheckBox\" />")
-                    ->get_Success());
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") + u"<input style=\"position:absolute; left:0pt; top:0pt;\" type=\"checkbox\" name=\"CheckBox\" />")->get_Success());
 }
 else
 {
-    ASSERT_TRUE(
-        System::Text::RegularExpressions::Regex::Match(
-            outDocContents, String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") +
-                                u"<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"")
-            ->get_Success());
+    ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(outDocContents, System::String(u"<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>") + u"<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"")->get_Success());
 }
 ```
 

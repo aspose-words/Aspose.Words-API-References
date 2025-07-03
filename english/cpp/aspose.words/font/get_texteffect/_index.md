@@ -23,16 +23,16 @@ Aspose::Words::TextEffect Aspose::Words::Font::get_TextEffect()
 
 Shows how to apply a visual effect to a run. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Size(36);
-builder->get_Font()->set_TextEffect(TextEffect::SparkleText);
+builder->get_Font()->set_TextEffect(Aspose::Words::TextEffect::SparkleText);
 
 builder->Writeln(u"Text with a sparkle effect.");
 
 // Older versions of Microsoft Word only support font animation effects.
-doc->Save(ArtifactsDir + u"Font.SparklingText.doc");
+doc->Save(get_ArtifactsDir() + u"Font.SparklingText.doc");
 ```
 
 ## See Also

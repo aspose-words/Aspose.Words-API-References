@@ -39,19 +39,11 @@ enum class ImageType
 
 Shows how to add an image to a shape and check its type. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-ArrayPtr<uint8_t> imageBytes = System::IO::File::ReadAllBytes(ImageDir + u"Logo.jpg");
-
-{
-    auto stream = MakeObject<System::IO::MemoryStream>(imageBytes);
-    SharedPtr<System::Drawing::Image> image = System::Drawing::Image::FromStream(stream);
-
-    // The image in the URL is a .gif. Inserting it into a document converts it into a .png.
-    SharedPtr<Shape> imgShape = builder->InsertImage(image);
-    ASSERT_EQ(ImageType::Jpeg, imgShape->get_ImageData()->get_ImageType());
-}
+System::SharedPtr<Aspose::Words::Drawing::Shape> imgShape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+ASSERT_EQ(Aspose::Words::Drawing::ImageType::Jpeg, imgShape->get_ImageData()->get_ImageType());
 ```
 
 ## See Also

@@ -42,12 +42,12 @@ You can change the image size, location, positioning method and other settings u
 
 Shows how to specify position and wrapping while inserting a chart. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->InsertChart(ChartType::Pie, RelativeHorizontalPosition::Margin, 100, RelativeVerticalPosition::Margin, 100, 200, 100, WrapType::Square);
+builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Pie, Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, 100, Aspose::Words::Drawing::RelativeVerticalPosition::Margin, 100, 200, 100, Aspose::Words::Drawing::WrapType::Square);
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertedChartRelativePosition.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertedChartRelativePosition.docx");
 ```
 
 ## See Also
@@ -131,14 +131,14 @@ You can change the image size, location, positioning method and other settings u
 
 Shows how to insert a pie chart into a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Chart> chart = builder->InsertChart(ChartType::Pie, ConvertUtil::PixelToPoint(300), ConvertUtil::PixelToPoint(300))->get_Chart();
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Pie, Aspose::Words::ConvertUtil::PixelToPoint(300), Aspose::Words::ConvertUtil::PixelToPoint(300))->get_Chart();
 chart->get_Series()->Clear();
-chart->get_Series()->Add(u"My fruit", MakeArray<String>({u"Apples", u"Bananas", u"Cherries"}), MakeArray<double>({1.3, 2.2, 1.5}));
+chart->get_Series()->Add(u"My fruit", System::MakeArray<System::String>({u"Apples", u"Bananas", u"Cherries"}), System::MakeArray<double>({1.3, 2.2, 1.5}));
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertPieChart.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertPieChart.docx");
 ```
 
 ## See Also

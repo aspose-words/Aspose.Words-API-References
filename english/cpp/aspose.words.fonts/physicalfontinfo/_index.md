@@ -36,9 +36,9 @@ class PhysicalFontInfo : public System::Object
 Shows how to list available fonts. 
 ```cpp
 // Configure Aspose.Words to source fonts from a custom folder, and then print every available font.
-ArrayPtr<SharedPtr<FontSourceBase>> folderFontSource = MakeArray<SharedPtr<FontSourceBase>>({MakeObject<FolderFontSource>(FontsDir, true)});
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>> folderFontSource = System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({System::MakeObject<Aspose::Words::Fonts::FolderFontSource>(get_FontsDir(), true)});
 
-for (const auto& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFonts()))
+for (auto&& fontInfo : System::IterateOver(folderFontSource[0]->GetAvailableFonts()))
 {
     std::cout << "FontFamilyName : " << fontInfo->get_FontFamilyName() << std::endl;
     std::cout << "FullFontName  : " << fontInfo->get_FullFontName() << std::endl;

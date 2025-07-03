@@ -24,6 +24,21 @@ enum class MarkdownOfficeMathExportMode
 | Image | 1 | Export OfficeMath as image. |
 | MathML | 2 | Export OfficeMath as MathML. |
 
+
+## Examples
+
+
+
+Shows how OfficeMath will be written to the document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::MarkdownOfficeMathExportMode::Image);
+
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

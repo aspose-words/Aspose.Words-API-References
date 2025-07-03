@@ -23,8 +23,8 @@ double Aspose::Words::Font::get_Kerning()
 
 Shows how to specify the font size at which kerning begins to take effect. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_Name(u"Arial Black");
 
 // Set the builder's font size, and minimum size at which kerning will take effect.
@@ -41,7 +41,7 @@ builder->get_Font()->set_Kerning(12);
 
 builder->Writeln(u"TALLY. (Kerning applied)");
 
-doc->Save(ArtifactsDir + u"Font.Kerning.docx");
+doc->Save(get_ArtifactsDir() + u"Font.Kerning.docx");
 ```
 
 ## See Also

@@ -27,17 +27,17 @@ When this property is set to **true** Aspose.Words outputs **lang** HTML attribu
 
 Shows how to preserve language information when saving to .html. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Use the builder to write text while formatting it in different locales.
-builder->get_Font()->set_LocaleId(MakeObject<System::Globalization::CultureInfo>(u"en-US")->get_LCID());
+builder->get_Font()->set_LocaleId(System::MakeObject<System::Globalization::CultureInfo>(u"en-US")->get_LCID());
 builder->Writeln(u"Hello world!");
 
-builder->get_Font()->set_LocaleId(MakeObject<System::Globalization::CultureInfo>(u"en-GB")->get_LCID());
+builder->get_Font()->set_LocaleId(System::MakeObject<System::Globalization::CultureInfo>(u"en-GB")->get_LCID());
 builder->Writeln(u"Hello again!");
 
-builder->get_Font()->set_LocaleId(MakeObject<System::Globalization::CultureInfo>(u"ru-RU")->get_LCID());
+builder->get_Font()->set_LocaleId(System::MakeObject<System::Globalization::CultureInfo>(u"ru-RU")->get_LCID());
 builder->Write(u"Привет, мир!");
 
 // When saving the document to HTML, we can pass a SaveOptions object
@@ -46,13 +46,13 @@ builder->Write(u"Привет, мир!");
 // the output HTML document will contain the locales in "lang" attributes of <span> tags.
 // If we set the "ExportLanguageInformation" flag to "false',
 // the text in the output HTML document will not contain any locale information.
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportLanguageInformation(exportLanguageInformation);
 options->set_PrettyFormat(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportLanguageInformation.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportLanguageInformation.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.ExportLanguageInformation.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportLanguageInformation.html");
 
 if (exportLanguageInformation)
 {

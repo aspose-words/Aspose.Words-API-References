@@ -23,17 +23,17 @@ Aspose::Words::Underline Aspose::Words::DocumentBuilder::get_Underline()
 
 Shows how to format text inserted by a document builder. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->set_Underline(Underline::Dash);
+builder->set_Underline(Aspose::Words::Underline::Dash);
 builder->get_Font()->set_Color(System::Drawing::Color::get_Blue());
 builder->get_Font()->set_Size(32);
 
 // The builder applies formatting to its current paragraph and any new text added by it afterward.
 builder->Writeln(u"Large, blue, and underlined text.");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertUnderline.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertUnderline.docx");
 ```
 
 ## See Also

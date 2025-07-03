@@ -27,8 +27,8 @@ Number of joins performed. When **N** adjacent runs are being joined they count 
 
 Shows how to simplify paragraphs by merging superfluous runs. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert four runs of text into the paragraph.
 builder->Write(u"Run 1. ");
@@ -39,12 +39,12 @@ builder->Write(u"Run 4. ");
 // If we open this document in Microsoft Word, the paragraph will look like one seamless text body.
 // However, it will consist of four separate runs with the same formatting. Fragmented paragraphs like this
 // may occur when we manually edit parts of one paragraph many times in Microsoft Word.
-SharedPtr<Paragraph> para = builder->get_CurrentParagraph();
+System::SharedPtr<Aspose::Words::Paragraph> para = builder->get_CurrentParagraph();
 
 ASSERT_EQ(4, para->get_Runs()->get_Count());
 
 // Change the style of the last run to set it apart from the first three.
-para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(StyleIdentifier::Emphasis);
+para->get_Runs()->idx_get(3)->get_Font()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Emphasis);
 
 // We can run the "JoinRunsWithSameFormatting" method to optimize the document's contents
 // by merging similar runs into one, reducing their overall count.

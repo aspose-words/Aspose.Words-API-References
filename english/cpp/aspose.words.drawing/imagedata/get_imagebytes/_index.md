@@ -29,9 +29,9 @@ Returns **null** if the image is not stored in the document (e.g the image is pr
 
 Shows how to create an image file from a shape's raw image data. 
 ```cpp
-auto imgSourceDoc = MakeObject<Document>(MyDir + u"Images.docx");
+auto imgSourceDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
 
-auto imgShape = System::ExplicitCast<Shape>(imgSourceDoc->GetChild(NodeType::Shape, 0, true));
+auto imgShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(imgSourceDoc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
 ASSERT_TRUE(imgShape->get_HasImage());
 
@@ -40,10 +40,9 @@ ASPOSE_ASSERT_EQ(imgShape->get_ImageData()->get_ImageBytes(), imgShape->get_Imag
 
 // Save the shape's image data to an image file in the local file system.
 {
-    SharedPtr<System::IO::Stream> imgStream = imgShape->get_ImageData()->ToStream();
+    System::SharedPtr<System::IO::Stream> imgStream = imgShape->get_ImageData()->ToStream();
     {
-        auto outStream = MakeObject<System::IO::FileStream>(ArtifactsDir + u"Drawing.GetDataFromImage.png", System::IO::FileMode::Create,
-                                                            System::IO::FileAccess::ReadWrite);
+        auto outStream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"Drawing.GetDataFromImage.png", System::IO::FileMode::Create, System::IO::FileAccess::ReadWrite);
         imgStream->CopyTo(outStream);
     }
 }

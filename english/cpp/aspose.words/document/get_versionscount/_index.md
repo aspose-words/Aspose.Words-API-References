@@ -29,13 +29,13 @@ This property allows to detect if there were document versions stored in this do
 
 Shows how to work with the versions count feature of older Microsoft Word documents. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Versions.doc");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Versions.doc");
 
 // We can read this property of a document, but we cannot preserve it while saving.
 ASSERT_EQ(4, doc->get_VersionsCount());
 
-doc->Save(ArtifactsDir + u"Document.VersionsCount.doc");
-doc = MakeObject<Document>(ArtifactsDir + u"Document.VersionsCount.doc");
+doc->Save(get_ArtifactsDir() + u"Document.VersionsCount.doc");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.VersionsCount.doc");
 
 ASSERT_EQ(0, doc->get_VersionsCount());
 ```

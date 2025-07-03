@@ -2,7 +2,7 @@
 title: Aspose::Words::Shading::set_ForegroundPatternThemeColor method
 linktitle: set_ForegroundPatternThemeColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Shading::set_ForegroundPatternThemeColor method. Sets the foreground pattern theme color in the applied color scheme that is associated with this Shading object in C++.'
+description: 'Aspose::Words::Shading::set_ForegroundPatternThemeColor method. Setter for Aspose::Words::Shading::get_ForegroundPatternThemeColor in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words/shading/set_foregroundpatternthemecolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/shading/set_foregroundpatternthemecolor/
 ## Shading::set_ForegroundPatternThemeColor method
 
 
-Sets the foreground pattern theme color in the applied color scheme that is associated with this [Shading](../) object.
+Setter for [Aspose::Words::Shading::get_ForegroundPatternThemeColor](../get_foregroundpatternthemecolor/).
 
 ```cpp
 void Aspose::Words::Shading::set_ForegroundPatternThemeColor(Aspose::Words::Themes::ThemeColor value)

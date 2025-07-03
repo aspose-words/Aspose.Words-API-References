@@ -52,8 +52,8 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_Glow](../shapebase/get_glow/)() | Gets glow formatting for the shape. |
 | [get_HasChildNodes](../../aspose.words/compositenode/get_haschildnodes/)() | Returns **true** if this node has any child nodes. |
 | [get_Height](../shapebase/get_height/)() | Gets or sets the height of the containing block of the shape. |
-| [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets the value that represents the percentage of shape's relative height. |
-| [get_Hidden](../shapebase/get_hidden/)() | Gets a boolean value indicating whether the shape is visible. |
+| [get_HeightRelative](../shapebase/get_heightrelative/)() | Gets or sets the value that represents the percentage of shape's relative height. |
+| [get_Hidden](../shapebase/get_hidden/)() | Gets or sets a boolean value indicating whether the shape is visible. |
 | [get_HorizontalAlignment](../shapebase/get_horizontalalignment/)() | Specifies how the shape is positioned horizontally. |
 | [get_HRef](../shapebase/get_href/)() | Gets or sets the full hyperlink address for a shape. |
 | [get_IsComposite](../../aspose.words/compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
@@ -72,7 +72,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_IsWordArt](../shapebase/get_iswordart/)() | Returns **true** if this shape is a WordArt object. |
 | [get_LastChild](../../aspose.words/compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_Left](../shapebase/get_left/)() | Gets or sets the position of the left edge of the containing block of the shape. |
-| [get_LeftRelative](../shapebase/get_leftrelative/)() | Gets the value that represents shape's relative left position in percent. |
+| [get_LeftRelative](../shapebase/get_leftrelative/)() | Gets or sets the value that represents shape's relative left position in percent. |
 | [get_MarkupLanguage](../shapebase/get_markuplanguage/)() const | Gets MarkupLanguage used for this graphic object. |
 | [get_Name](../shapebase/get_name/)() | Gets or sets the optional shape name. |
 | [get_NextNode](../../aspose.words/node/get_nextnode/)() const |  |
@@ -98,10 +98,10 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [get_Target](../shapebase/get_target/)() | Gets or sets the target frame for the shape hyperlink. |
 | [get_Title](../shapebase/get_title/)() | Gets or sets the title (caption) of the current shape object. |
 | [get_Top](../shapebase/get_top/)() | Gets or sets the position of the top edge of the containing block of the shape. |
-| [get_TopRelative](../shapebase/get_toprelative/)() | Gets the value that represents shape's relative top position in percent. |
+| [get_TopRelative](../shapebase/get_toprelative/)() | Gets or sets the value that represents shape's relative top position in percent. |
 | [get_VerticalAlignment](../shapebase/get_verticalalignment/)() | Specifies how the shape is positioned vertically. |
 | [get_Width](../shapebase/get_width/)() | Gets or sets the width of the containing block of the shape. |
-| [get_WidthRelative](../shapebase/get_widthrelative/)() | Gets the value that represents the percentage of shape's relative width. |
+| [get_WidthRelative](../shapebase/get_widthrelative/)() | Gets or sets the value that represents the percentage of shape's relative width. |
 | [get_WrapSide](../shapebase/get_wrapside/)() | Specifies how the text is wrapped around the shape. |
 | [get_WrapType](../shapebase/get_wraptype/)() | Defines whether the shape is inline or floating. For floating shapes defines the wrapping mode for text around the shape. |
 | [get_ZOrder](../shapebase/get_zorder/)() | Determines the display order of overlapping shapes. |
@@ -131,7 +131,7 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [SelectNodes](../../aspose.words/compositenode/selectnodes/)(const System::String\&) | Selects a list of nodes matching the XPath expression. |
 | [SelectSingleNode](../../aspose.words/compositenode/selectsinglenode/)(const System::String\&) | Selects the first [Node](../../aspose.words/node/) that matches the XPath expression. |
 | [set_AllowOverlap](../shapebase/set_allowoverlap/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AllowOverlap](../shapebase/get_allowoverlap/). |
-| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Defines alternative text to be displayed instead of a graphic. |
+| [set_AlternativeText](../shapebase/set_alternativetext/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AlternativeText](../shapebase/get_alternativetext/). |
 | [set_AnchorLocked](../shapebase/set_anchorlocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AnchorLocked](../shapebase/get_anchorlocked/). |
 | [set_AspectRatioLocked](../shapebase/set_aspectratiolocked/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_AspectRatioLocked](../shapebase/get_aspectratiolocked/). |
 | [set_BehindText](../shapebase/set_behindtext/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_BehindText](../shapebase/get_behindtext/). |
@@ -145,14 +145,14 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [set_DistanceTop](../shapebase/set_distancetop/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_DistanceTop](../shapebase/get_distancetop/). |
 | [set_FlipOrientation](../shapebase/set_fliporientation/)(Aspose::Words::Drawing::FlipOrientation) | Setter for [Aspose::Words::Drawing::ShapeBase::get_FlipOrientation](../shapebase/get_fliporientation/). |
 | [set_Height](../shapebase/set_height/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Height](../shapebase/get_height/). |
-| [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Sets the value that represents the percentage of shape's relative height. |
-| [set_Hidden](../shapebase/set_hidden/)(bool) | Sets a boolean value indicating whether the shape is visible. |
+| [set_HeightRelative](../shapebase/set_heightrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HeightRelative](../shapebase/get_heightrelative/). |
+| [set_Hidden](../shapebase/set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Hidden](../shapebase/get_hidden/). |
 | [set_HorizontalAlignment](../shapebase/set_horizontalalignment/)(Aspose::Words::Drawing::HorizontalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HorizontalAlignment](../shapebase/get_horizontalalignment/). |
 | [set_HRef](../shapebase/set_href/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_HRef](../shapebase/get_href/). |
 | [set_IsDecorative](../shapebase/set_isdecorative/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsDecorative](../shapebase/get_isdecorative/). |
 | [set_IsLayoutInCell](../shapebase/set_islayoutincell/)(bool) | Setter for [Aspose::Words::Drawing::ShapeBase::get_IsLayoutInCell](../shapebase/get_islayoutincell/). |
 | [set_Left](../shapebase/set_left/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Left](../shapebase/get_left/). |
-| [set_LeftRelative](../shapebase/set_leftrelative/)(float) | Sets the value that represents shape's relative left position in percent. |
+| [set_LeftRelative](../shapebase/set_leftrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_LeftRelative](../shapebase/get_leftrelative/). |
 | [set_Name](../shapebase/set_name/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Name](../shapebase/get_name/). |
 | [set_NextNode](../../aspose.words/node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [set_PrevNode](../../aspose.words/node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
@@ -165,10 +165,10 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 | [set_Target](../shapebase/set_target/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Target](../shapebase/get_target/). |
 | [set_Title](../shapebase/set_title/)(const System::String\&) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Title](../shapebase/get_title/). |
 | [set_Top](../shapebase/set_top/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Top](../shapebase/get_top/). |
-| [set_TopRelative](../shapebase/set_toprelative/)(float) | Sets the value that represents shape's relative top position in percent. |
+| [set_TopRelative](../shapebase/set_toprelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_TopRelative](../shapebase/get_toprelative/). |
 | [set_VerticalAlignment](../shapebase/set_verticalalignment/)(Aspose::Words::Drawing::VerticalAlignment) | Setter for [Aspose::Words::Drawing::ShapeBase::get_VerticalAlignment](../shapebase/get_verticalalignment/). |
 | [set_Width](../shapebase/set_width/)(double) | Setter for [Aspose::Words::Drawing::ShapeBase::get_Width](../shapebase/get_width/). |
-| [set_WidthRelative](../shapebase/set_widthrelative/)(float) | Sets the value that represents the percentage of shape's relative width. |
+| [set_WidthRelative](../shapebase/set_widthrelative/)(float) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WidthRelative](../shapebase/get_widthrelative/). |
 | [set_WrapSide](../shapebase/set_wrapside/)(Aspose::Words::Drawing::WrapSide) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapSide](../shapebase/get_wrapside/). |
 | [set_WrapType](../shapebase/set_wraptype/)(Aspose::Words::Drawing::WrapType) | Setter for [Aspose::Words::Drawing::ShapeBase::get_WrapType](../shapebase/get_wraptype/). |
 | [set_ZOrder](../shapebase/set_zorder/)(int32_t) | Setter for [Aspose::Words::Drawing::ShapeBase::get_ZOrder](../shapebase/get_zorder/). |
@@ -183,90 +183,6 @@ class GroupShape : public Aspose::Words::Drawing::ShapeBase
 A [GroupShape](./) is a composite node and can have [Shape](../shape/) and [GroupShape](./) nodes as children.
 
 Each [GroupShape](./) defines a new coordinate system for its child shapes. The coordinate system is defined using the [CoordSize](../shapebase/get_coordsize/) and [CoordOrigin](../shapebase/get_coordorigin/) properties.
-
-## Examples
-
-
-
-Shows how to create a group of shapes, and print its contents using a document visitor. 
-```cpp
-void GroupOfShapes()
-{
-    auto doc = MakeObject<Document>();
-    auto builder = MakeObject<DocumentBuilder>(doc);
-
-    // If you need to create "NonPrimitive" shapes, such as SingleCornerSnipped, TopCornersSnipped, DiagonalCornersSnipped,
-    // TopCornersOneRoundedOneSnipped, SingleCornerRounded, TopCornersRounded, DiagonalCornersRounded
-    // please use DocumentBuilder.InsertShape methods.
-    auto balloon = MakeObject<Shape>(doc, ShapeType::Balloon);
-    balloon->set_Width(200);
-    balloon->set_Height(200);
-    balloon->get_Stroke()->set_Color(System::Drawing::Color::get_Red());
-
-    auto cube = MakeObject<Shape>(doc, ShapeType::Cube);
-    cube->set_Width(100);
-    cube->set_Height(100);
-    cube->get_Stroke()->set_Color(System::Drawing::Color::get_Blue());
-
-    auto group = MakeObject<GroupShape>(doc);
-    group->AppendChild(balloon);
-    group->AppendChild(cube);
-
-    ASSERT_TRUE(group->get_IsGroup());
-
-    builder->InsertNode(group);
-
-    auto printer = MakeObject<ExDrawing::ShapeGroupPrinter>();
-    group->Accept(printer);
-
-    std::cout << printer->GetText() << std::endl;
-}
-
-class ShapeGroupPrinter : public DocumentVisitor
-{
-public:
-    ShapeGroupPrinter()
-    {
-        mBuilder = MakeObject<System::Text::StringBuilder>();
-    }
-
-    String GetText()
-    {
-        return mBuilder->ToString();
-    }
-
-    VisitorAction VisitGroupShapeStart(SharedPtr<GroupShape> groupShape) override
-    {
-        mBuilder->AppendLine(u"Shape group started:");
-        return VisitorAction::Continue;
-    }
-
-    VisitorAction VisitGroupShapeEnd(SharedPtr<GroupShape> groupShape) override
-    {
-        mBuilder->AppendLine(u"End of shape group");
-        return VisitorAction::Continue;
-    }
-
-    VisitorAction VisitShapeStart(SharedPtr<Shape> shape) override
-    {
-        mBuilder->AppendLine(String(u"\tShape - ") + System::ObjectExt::ToString(shape->get_ShapeType()) + u":");
-        mBuilder->AppendLine(String(u"\t\tWidth: ") + shape->get_Width());
-        mBuilder->AppendLine(String(u"\t\tHeight: ") + shape->get_Height());
-        mBuilder->AppendLine(String(u"\t\tStroke color: ") + shape->get_Stroke()->get_Color());
-        mBuilder->AppendLine(String(u"\t\tFill color: ") + shape->get_Fill()->get_ForeColor());
-        return VisitorAction::Continue;
-    }
-
-    VisitorAction VisitShapeEnd(SharedPtr<Shape> shape) override
-    {
-        mBuilder->AppendLine(u"\tEnd of shape");
-        return VisitorAction::Continue;
-    }
-
-private:
-    SharedPtr<System::Text::StringBuilder> mBuilder;
-};
-```
 
 ## See Also
 

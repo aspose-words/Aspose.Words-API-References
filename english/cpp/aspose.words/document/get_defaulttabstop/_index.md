@@ -23,15 +23,15 @@ double Aspose::Words::Document::get_DefaultTabStop()
 
 Shows how to set a custom interval for tab stop positions. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set tab stops to appear every 72 points (1 inch).
 builder->get_Document()->set_DefaultTabStop(72);
 
 // Each tab character snaps the text after it to the next closest tab stop position.
-builder->Writeln(String(u"Hello") + ControlChar::Tab() + u"World!");
-builder->Writeln(String(u"Hello") + ControlChar::TabChar + u"World!");
+builder->Writeln(System::String(u"Hello") + Aspose::Words::ControlChar::Tab() + u"World!");
+builder->Writeln(System::String(u"Hello") + Aspose::Words::ControlChar::TabChar + u"World!");
 ```
 
 ## See Also

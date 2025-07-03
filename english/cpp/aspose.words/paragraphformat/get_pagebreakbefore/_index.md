@@ -23,8 +23,8 @@ bool Aspose::Words::ParagraphFormat::get_PageBreakBefore()
 
 Shows how to create paragraphs with page breaks at the beginning. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set this flag to "true" to apply a page break to each paragraph's beginning
 // that the document builder will create under this ParagraphFormat configuration.
@@ -36,8 +36,8 @@ builder->get_ParagraphFormat()->set_PageBreakBefore(pageBreakBefore);
 builder->Writeln(u"Paragraph 1.");
 builder->Writeln(u"Paragraph 2.");
 
-auto layoutCollector = MakeObject<LayoutCollector>(doc);
-SharedPtr<ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
+auto layoutCollector = System::MakeObject<Aspose::Words::Layout::LayoutCollector>(doc);
+System::SharedPtr<Aspose::Words::ParagraphCollection> paragraphs = doc->get_FirstSection()->get_Body()->get_Paragraphs();
 
 if (pageBreakBefore)
 {
@@ -50,7 +50,7 @@ else
     ASSERT_EQ(1, layoutCollector->GetStartPageIndex(paragraphs->idx_get(1)));
 }
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.PageBreakBefore.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.PageBreakBefore.docx");
 ```
 
 ## See Also

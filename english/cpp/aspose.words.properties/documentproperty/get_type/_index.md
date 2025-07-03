@@ -23,31 +23,30 @@ Aspose::Words::Properties::PropertyType Aspose::Words::Properties::DocumentPrope
 
 Shows how to work with built-in document properties. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
 
 // The "Document" object contains some of its metadata in its members.
-std::cout << "Document filename:\n\t \"" << doc->get_OriginalFileName() << "\"" << std::endl;
+std::cout << System::String::Format(u"Document filename:\n\t \"{0}\"", doc->get_OriginalFileName()) << std::endl;
 
 // The document also stores metadata in its built-in properties.
 // Each built-in property is a member of the document's "BuiltInDocumentProperties" object.
 std::cout << "Built-in Properties:" << std::endl;
-for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties()))
+for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties()))
 {
     std::cout << docProperty->get_Name() << std::endl;
-    std::cout << String::Format(u"\tType:\t{0}", docProperty->get_Type()) << std::endl;
+    std::cout << System::String::Format(u"\tType:\t{0}", docProperty->get_Type()) << std::endl;
 
     // Some properties may store multiple values.
-    if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
+    if (System::ObjectExt::Is<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
-        for (const auto& value : System::IterateOver(
-                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+        for (auto&& value : System::IterateOver(System::AsCast<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
-            std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
+            std::cout << System::String::Format(u"\tValue:\t\"{0}\"", value) << std::endl;
         }
     }
     else
     {
-        std::cout << "\tValue:\t\"" << docProperty->get_Value() << "\"" << std::endl;
+        std::cout << System::String::Format(u"\tValue:\t\"{0}\"", docProperty->get_Value()) << std::endl;
     }
 }
 ```
@@ -55,14 +54,14 @@ for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentPrope
 
 Shows how to work with a document's custom properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
 
 ASSERT_EQ(0, properties->get_Count());
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties->Add(u"Authorized", true);
-properties->Add(u"Authorized By", String(u"John Doe"));
+properties->Add(u"Authorized By", System::String(u"John Doe"));
 properties->Add(u"Authorized Date", System::DateTime::get_Today());
 properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 properties->Add(u"Authorized Amount", 123.45);
@@ -73,24 +72,22 @@ ASSERT_EQ(5, properties->get_Count());
 
 // Print every custom property in the document.
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<SharedPtr<DocumentProperty>>> enumerator = properties->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::SharedPtr<Aspose::Words::Properties::DocumentProperty>>> enumerator = properties->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << String::Format(u"Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", enumerator->get_Current()->get_Name(),
-                                    enumerator->get_Current()->get_Type(), enumerator->get_Current()->get_Value())
-                  << std::endl;
+        std::cout << System::String::Format(u"Name: \"{0}\"\n\tType: \"{1}\"\n\tValue: \"{2}\"", enumerator->get_Current()->get_Name(), enumerator->get_Current()->get_Type(), enumerator->get_Current()->get_Value()) << std::endl;
     }
 }
 
 // Display the value of a custom property using a DOCPROPERTY field.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDocProperty>(builder->InsertField(u" DOCPROPERTY \"Authorized By\""));
 field->Update();
 
 ASSERT_EQ(u"John Doe", field->get_Result());
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
-doc->Save(ArtifactsDir + u"DocumentProperties.DocumentPropertyCollection.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentProperties.DocumentPropertyCollection.docx");
 
 // Below are three ways or removing custom properties from a document.
 // 1 -  Remove by index:

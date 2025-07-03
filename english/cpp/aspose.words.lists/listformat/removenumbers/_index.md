@@ -27,8 +27,8 @@ Calling this method is equivalent to setting the [List](../get_list/) property t
 
 Shows how to create bulleted and numbered lists. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Aspose.Words main advantages are:");
 
@@ -49,7 +49,7 @@ builder->Writeln(u"Easy to understand API");
 // End the bulleted list.
 builder->get_ListFormat()->RemoveNumbers();
 
-builder->InsertBreak(BreakType::ParagraphBreak);
+builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 builder->Writeln(u"Aspose.Words allows:");
 
 // 2 -  A numbered list:
@@ -101,14 +101,14 @@ builder->Writeln(u"Doing many other things!");
 // End the numbered list.
 builder->get_ListFormat()->RemoveNumbers();
 
-doc->Save(ArtifactsDir + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
+doc->Save(get_ArtifactsDir() + u"Lists.ApplyDefaultBulletsAndNumbers.docx");
 ```
 
 
 Shows how to remove list formatting from all paragraphs in the main text of a section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_ListFormat()->ApplyNumberDefault();
 builder->Writeln(u"Numbered list item 1");
@@ -116,16 +116,21 @@ builder->Writeln(u"Numbered list item 2");
 builder->Writeln(u"Numbered list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
+ASSERT_EQ(3, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
+}))));
 
-ASSERT_EQ(3, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
-
-for (const auto& paragraph : System::IterateOver<Paragraph>(paras))
+for (auto&& paragraph : System::IterateOver<Aspose::Words::Paragraph>(paras))
 {
     paragraph->get_ListFormat()->RemoveNumbers();
 }
 
-ASSERT_EQ(0, paras->LINQ_Count([](SharedPtr<Node> n) { return System::ExplicitCast<Paragraph>(n)->get_ListFormat()->get_IsListItem(); }));
+ASSERT_EQ(0, paras->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> n)>>([](System::SharedPtr<Aspose::Words::Node> n) -> bool
+{
+    return (System::ExplicitCast<Aspose::Words::Paragraph>(n))->get_ListFormat()->get_IsListItem();
+}))));
 ```
 
 ## See Also

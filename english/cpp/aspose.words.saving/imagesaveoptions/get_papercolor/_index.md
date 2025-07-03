@@ -27,30 +27,29 @@ When rendering pages of a document that specifies its own background color, then
 
 Renders a page of a Word document into an image with transparent or colored background. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_Font()->set_Name(u"Times New Roman");
 builder->get_Font()->set_Size(24);
 builder->Writeln(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-builder->InsertImage(ImageDir + u"Logo.jpg");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
 // to modify the way in which that method renders the document into an image.
-auto imgOptions = MakeObject<ImageSaveOptions>(SaveFormat::Png);
-
+auto imgOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Png);
 // Set the "PaperColor" property to a transparent color to apply a transparent
 // background to the document while rendering it to an image.
 imgOptions->set_PaperColor(System::Drawing::Color::get_Transparent());
 
-doc->Save(ArtifactsDir + u"ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.PaperColor.Transparent.png", imgOptions);
 
 // Set the "PaperColor" property to an opaque color to apply that color
 // as the background of the document as we render it to an image.
 imgOptions->set_PaperColor(System::Drawing::Color::get_LightCoral());
 
-doc->Save(ArtifactsDir + u"ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.PaperColor.LightCoral.png", imgOptions);
 ```
 
 ## See Also

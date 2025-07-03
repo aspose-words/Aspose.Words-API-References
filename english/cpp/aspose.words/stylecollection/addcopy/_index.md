@@ -41,11 +41,11 @@ If collection already contains a style with the same name, then new name is auto
 
 Shows how to clone a document's style. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // The AddCopy method creates a copy of the specified style and
 // automatically generates a new name for the style, such as "Heading 1_0".
-SharedPtr<Style> newStyle = doc->get_Styles()->AddCopy(doc->get_Styles()->idx_get(u"Heading 1"));
+System::SharedPtr<Aspose::Words::Style> newStyle = doc->get_Styles()->AddCopy(doc->get_Styles()->idx_get(u"Heading 1"));
 
 // Use the style's "Name" property to change the style's identifying name.
 newStyle->set_Name(u"My Heading 1");
@@ -66,15 +66,15 @@ ASPOSE_ASSERT_NE(doc->get_Styles()->idx_get(u"Heading 1")->get_Font()->get_Color
 
 Shows how to import a style from one document into a different document. 
 ```cpp
-auto srcDoc = MakeObject<Document>();
+auto srcDoc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a custom style for the source document.
-SharedPtr<Style> srcStyle = srcDoc->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> srcStyle = srcDoc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
 srcStyle->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 // Import the source document's custom style into the destination document.
-auto dstDoc = MakeObject<Document>();
-SharedPtr<Style> newStyle = dstDoc->get_Styles()->AddCopy(srcStyle);
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Style> newStyle = dstDoc->get_Styles()->AddCopy(srcStyle);
 
 // The imported style has an appearance identical to its source style.
 ASSERT_EQ(u"MyStyle", newStyle->get_Name());

@@ -25,20 +25,20 @@ Shows how to detect plaintext document text direction.
 ```cpp
 // Create a "TxtLoadOptions" object, which we can pass to a document's constructor
 // to modify how we load a plaintext document.
-auto loadOptions = MakeObject<TxtLoadOptions>();
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::TxtLoadOptions>();
 
 // Set the "DocumentDirection" property to "DocumentDirection.Auto" automatically detects
 // the direction of every paragraph of text that Aspose.Words loads from plaintext.
 // Each paragraph's "Bidi" property will store its direction.
-loadOptions->set_DocumentDirection(DocumentDirection::Auto);
+loadOptions->set_DocumentDirection(Aspose::Words::Loading::DocumentDirection::Auto);
 
 // Detect Hebrew text as right-to-left.
-auto doc = MakeObject<Document>(MyDir + u"Hebrew text.txt", loadOptions);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Hebrew text.txt", loadOptions);
 
 ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Bidi());
 
 // Detect English text as right-to-left.
-doc = MakeObject<Document>(MyDir + u"English text.txt", loadOptions);
+doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"English text.txt", loadOptions);
 
 ASSERT_FALSE(doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->get_Bidi());
 ```

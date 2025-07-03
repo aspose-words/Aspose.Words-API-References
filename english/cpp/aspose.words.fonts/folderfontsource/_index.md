@@ -30,7 +30,7 @@ class FolderFontSource : public Aspose::Words::Fonts::FontSourceBase
 | [GetAvailableFonts](../fontsourcebase/getavailablefonts/)() | Returns list of fonts available via this source. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Fonts::FontSourceBase::get_WarningCallback](../fontsourcebase/get_warningcallback/). |
+| [set_WarningCallback](../fontsourcebase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during processing of font source when an issue is detected that might result in formatting fidelity loss. |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -40,15 +40,15 @@ class FolderFontSource : public Aspose::Words::Fonts::FontSourceBase
 Shows how to use a local system folder which contains fonts as a font source. 
 ```cpp
 // Create a font source from a folder that contains font files.
-auto folderFontSource = MakeObject<FolderFontSource>(FontsDir, false, 1);
+auto folderFontSource = System::MakeObject<Aspose::Words::Fonts::FolderFontSource>(get_FontsDir(), false, 1);
 
-auto doc = MakeObject<Document>();
-doc->set_FontSettings(MakeObject<FontSettings>());
-doc->get_FontSettings()->SetFontsSources(MakeArray<SharedPtr<FontSourceBase>>({folderFontSource}));
+auto doc = System::MakeObject<Aspose::Words::Document>();
+doc->set_FontSettings(System::MakeObject<Aspose::Words::Fonts::FontSettings>());
+doc->get_FontSettings()->SetFontsSources(System::MakeArray<System::SharedPtr<Aspose::Words::Fonts::FontSourceBase>>({folderFontSource}));
 
-ASSERT_EQ(FontsDir, folderFontSource->get_FolderPath());
+ASSERT_EQ(get_FontsDir(), folderFontSource->get_FolderPath());
 ASPOSE_ASSERT_EQ(false, folderFontSource->get_ScanSubfolders());
-ASSERT_EQ(FontSourceType::FontsFolder, folderFontSource->get_Type());
+ASSERT_EQ(Aspose::Words::Fonts::FontSourceType::FontsFolder, folderFontSource->get_Type());
 ASSERT_EQ(1, folderFontSource->get_Priority());
 ```
 

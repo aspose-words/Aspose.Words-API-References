@@ -27,6 +27,30 @@ enum class FootnoteSeparatorType
 | EndnoteContinuationSeparator | 4 | Printed above endnote text on a page when the text must be continued from a previous page. |
 | EndnoteContinuationNotice | 5 | Printed below endnote text on a page when endnote text must be continued on a succeeding page. |
 
+
+## Examples
+
+
+
+Shows how to remove endnote separator. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> endnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::EndnoteSeparator);
+// Remove endnote separator.
+endnoteSeparator->get_FirstParagraph()->get_FirstChild()->Remove();
+```
+
+
+Shows how to manage footnote separator format. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::FootnoteSeparator);
+// Align footnote separator.
+footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Notes](../)

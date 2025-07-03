@@ -35,26 +35,23 @@ The display order of child shapes in a group shape is determined by their order 
 
 Shows how to manipulate the order of shapes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert three different colored rectangles that partially overlap each other.
 // When we insert a shape that overlaps another shape, Aspose.Words places the newer shape on top of the old one.
 // The light green rectangle will overlap the light blue rectangle and partially obscure it,
 // and the light blue rectangle will obscure the orange rectangle.
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, 100, RelativeVerticalPosition::TopMargin,
-                                              100, 200, 200, WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 100, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 100, 200, 200, Aspose::Words::Drawing::WrapType::None);
 shape->set_FillColor(System::Drawing::Color::get_Orange());
 
-shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, 150, RelativeVerticalPosition::TopMargin, 150, 200, 200,
-                             WrapType::None);
+shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 150, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 150, 200, 200, Aspose::Words::Drawing::WrapType::None);
 shape->set_FillColor(System::Drawing::Color::get_LightBlue());
 
-shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, 200, RelativeVerticalPosition::TopMargin, 200, 200, 200,
-                             WrapType::None);
+shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 200, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 200, 200, 200, Aspose::Words::Drawing::WrapType::None);
 shape->set_FillColor(System::Drawing::Color::get_LightGreen());
 
-ArrayPtr<SharedPtr<Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<SharedPtr<Shape>>()->LINQ_ToArray();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
 
 // The "ZOrder" property of a shape determines its stacking priority among other overlapping shapes.
 // If two overlapping shapes have different "ZOrder" values,
@@ -66,7 +63,7 @@ shapes[0]->set_ZOrder(3);
 shapes[1]->set_ZOrder(2);
 shapes[2]->set_ZOrder(1);
 
-doc->Save(ArtifactsDir + u"Shape.ZOrder.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.ZOrder.docx");
 ```
 
 ## See Also

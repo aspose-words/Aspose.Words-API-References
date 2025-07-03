@@ -23,15 +23,15 @@ System::ArrayPtr<uint8_t> Aspose::Words::Drawing::OleFormat::GetRawData()
 
 Shows how to access the raw data of an embedded OLE object. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"OLE objects.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE objects.docx");
 
-for (const auto& shape : System::IterateOver(doc->GetChildNodes(NodeType::Shape, true)))
+for (auto&& shape : System::IterateOver<Aspose::Words::Drawing::Shape>(doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)))
 {
-    SharedPtr<OleFormat> oleFormat = (System::ExplicitCast<Shape>(shape))->get_OleFormat();
+    System::SharedPtr<Aspose::Words::Drawing::OleFormat> oleFormat = shape->get_OleFormat();
     if (oleFormat != nullptr)
     {
-        std::cout << "This is " << (oleFormat->get_IsLink() ? String(u"a linked") : String(u"an embedded")) << " object" << std::endl;
-        ArrayPtr<uint8_t> oleRawData = oleFormat->GetRawData();
+        std::cout << System::String::Format(u"This is {0} object", (oleFormat->get_IsLink() ? System::String(u"a linked") : System::String(u"an embedded"))) << std::endl;
+        System::ArrayPtr<uint8_t> oleRawData = oleFormat->GetRawData();
 
         ASSERT_EQ(24576, oleRawData->get_Length());
     }

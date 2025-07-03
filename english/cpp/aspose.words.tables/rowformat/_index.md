@@ -40,26 +40,26 @@ class RowFormat : public Aspose::Words::IBorderAttrSource
 
 Shows how to build a table with custom borders. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartTable();
 
 // Setting table formatting options for a document builder
 // will apply them to every row and cell that we add with it.
-builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
 
 builder->get_CellFormat()->ClearFormatting();
 builder->get_CellFormat()->set_Width(150);
-builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_GreenYellow());
 builder->get_CellFormat()->set_WrapText(false);
 builder->get_CellFormat()->set_FitText(true);
 
 builder->get_RowFormat()->ClearFormatting();
-builder->get_RowFormat()->set_HeightRule(HeightRule::Exactly);
+builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Exactly);
 builder->get_RowFormat()->set_Height(50);
-builder->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::Engrave3D);
+builder->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Engrave3D);
 builder->get_RowFormat()->get_Borders()->set_Color(System::Drawing::Color::get_Orange());
 
 builder->InsertCell();
@@ -85,26 +85,26 @@ builder->EndRow();
 // Increase row height to fit the vertical text.
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(150);
-builder->get_CellFormat()->set_Orientation(TextOrientation::Upward);
+builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Upward);
 builder->Write(u"Row 3, Col 1");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_Orientation(TextOrientation::Downward);
+builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
 builder->Write(u"Row 3, Col 2");
 
 builder->EndRow();
 builder->EndTable();
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
 
 Shows how to modify the format of rows and cells in a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"City");
 builder->InsertCell();
@@ -118,31 +118,31 @@ builder->EndTable();
 
 // Use the first row's "RowFormat" property to modify the formatting
 // of the contents of all cells in this row.
-SharedPtr<RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
+System::SharedPtr<Aspose::Words::Tables::RowFormat> rowFormat = table->get_FirstRow()->get_RowFormat();
 rowFormat->set_Height(25);
-rowFormat->get_Borders()->idx_get(BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
+rowFormat->get_Borders()->idx_get(Aspose::Words::BorderType::Bottom)->set_Color(System::Drawing::Color::get_Red());
 
 // Use the "CellFormat" property of the first cell in the last row to modify the formatting of that cell's contents.
-SharedPtr<CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();
+System::SharedPtr<Aspose::Words::Tables::CellFormat> cellFormat = table->get_LastRow()->get_FirstCell()->get_CellFormat();
 cellFormat->set_Width(100);
 cellFormat->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_Orange());
 
-doc->Save(ArtifactsDir + u"Table.RowCellFormat.docx");
+doc->Save(get_ArtifactsDir() + u"Table.RowCellFormat.docx");
 ```
 
 
 Shows how to modify formatting of a table row. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
-SharedPtr<Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // Use the first row's "RowFormat" property to set formatting that modifies that entire row's appearance.
-SharedPtr<Row> firstRow = table->get_FirstRow();
-firstRow->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::None);
-firstRow->get_RowFormat()->set_HeightRule(HeightRule::Auto);
+System::SharedPtr<Aspose::Words::Tables::Row> firstRow = table->get_FirstRow();
+firstRow->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::None);
+firstRow->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Auto);
 firstRow->get_RowFormat()->set_AllowBreakAcrossPages(true);
 
-doc->Save(ArtifactsDir + u"Table.RowFormat.docx");
+doc->Save(get_ArtifactsDir() + u"Table.RowFormat.docx");
 ```
 
 ## See Also

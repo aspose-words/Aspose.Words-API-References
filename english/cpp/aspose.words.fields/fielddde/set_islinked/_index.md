@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldDde::set_IsLinked method
 linktitle: set_IsLinked
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldDde::set_IsLinked method. Setter for Aspose::Words::Fields::FieldDde::get_IsLinked in C++.'
+description: 'Aspose::Words::Fields::FieldDde::set_IsLinked method. Sets whether to reduce the file size by not storing graphics data with the document in C++.'
 type: docs
 weight: 22000
 url: /cpp/aspose.words.fields/fielddde/set_islinked/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fielddde/set_islinked/
 ## FieldDde::set_IsLinked method
 
 
-Setter for [Aspose::Words::Fields::FieldDde::get_IsLinked](../get_islinked/).
+Sets whether to reduce the file size by not storing graphics data with the document.
 
 ```cpp
 void Aspose::Words::Fields::FieldDde::set_IsLinked(bool value)

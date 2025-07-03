@@ -99,21 +99,21 @@ When [HeaderFooter](./) contains at least one [Paragraph](../paragraph/), it is 
 
 Shows how to create a header and a footer. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a header and append a paragraph to it. The text in that paragraph
 // will appear at the top of every page of this section, above the main body text.
-auto header = MakeObject<HeaderFooter>(doc, HeaderFooterType::HeaderPrimary);
+auto header = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::HeaderPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(header);
 
-SharedPtr<Paragraph> para = header->AppendParagraph(u"My header.");
+System::SharedPtr<Aspose::Words::Paragraph> para = header->AppendParagraph(u"My header.");
 
 ASSERT_TRUE(header->get_IsHeader());
 ASSERT_TRUE(para->get_IsEndOfHeaderFooter());
 
 // Create a footer and append a paragraph to it. The text in that paragraph
 // will appear at the bottom of every page of this section, below the main body text.
-auto footer = MakeObject<HeaderFooter>(doc, HeaderFooterType::FooterPrimary);
+auto footer = System::MakeObject<Aspose::Words::HeaderFooter>(doc, Aspose::Words::HeaderFooterType::FooterPrimary);
 doc->get_FirstSection()->get_HeadersFooters()->Add(footer);
 
 para = footer->AppendParagraph(u"My footer.");
@@ -125,62 +125,66 @@ ASPOSE_ASSERT_EQ(footer, para->get_ParentStory());
 ASPOSE_ASSERT_EQ(footer->get_ParentSection(), para->get_ParentSection());
 ASPOSE_ASSERT_EQ(footer->get_ParentSection(), header->get_ParentSection());
 
-doc->Save(ArtifactsDir + u"HeaderFooter.Create.docx");
+doc->Save(get_ArtifactsDir() + u"HeaderFooter.Create.docx");
 ```
 
 
 Shows how to delete all footers from a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Header and footer types.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Header and footer types.docx");
 
 // Iterate through each section and remove footers of every kind.
-for (const auto& section : System::IterateOver(doc->LINQ_OfType<SharedPtr<Section>>()))
+for (auto&& section : System::IterateOver(doc->LINQ_OfType<System::SharedPtr<Aspose::Words::Section> >()))
 {
     // There are three kinds of footer and header types.
     // 1 -  The "First" header/footer, which only appears on the first page of a section.
-    SharedPtr<HeaderFooter> footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterFirst);
-    if (footer != nullptr)
+    System::SharedPtr<Aspose::Words::HeaderFooter> footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterFirst);
+    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression = footer;
+    if (condExpression != nullptr)
     {
-        footer->Remove();
+        condExpression->Remove();
     }
 
     // 2 -  The "Primary" header/footer, which appears on odd pages.
-    footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterPrimary);
-    if (footer != nullptr)
+    footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression2 = footer;
+    if (condExpression2 != nullptr)
     {
-        footer->Remove();
+        condExpression2->Remove();
     }
 
     // 3 -  The "Even" header/footer, which appears on even pages.
-    footer = section->get_HeadersFooters()->idx_get(HeaderFooterType::FooterEven);
-    if (footer != nullptr)
+    footer = section->get_HeadersFooters()->idx_get(Aspose::Words::HeaderFooterType::FooterEven);
+    System::SharedPtr<Aspose::Words::HeaderFooter> condExpression3 = footer;
+    if (condExpression3 != nullptr)
     {
-        footer->Remove();
+        condExpression3->Remove();
     }
 
-    ASSERT_EQ(0,
-              section->get_HeadersFooters()->LINQ_Count([](SharedPtr<Node> hf) { return !(System::ExplicitCast<HeaderFooter>(hf))->get_IsHeader(); }));
+    ASSERT_EQ(0, section->get_HeadersFooters()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Node>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Node> hf)>>([](System::SharedPtr<Aspose::Words::Node> hf) -> bool
+    {
+        return !(System::ExplicitCast<Aspose::Words::HeaderFooter>(hf))->get_IsHeader();
+    }))));
 }
 
-doc->Save(ArtifactsDir + u"HeaderFooter.RemoveFooters.docx");
+doc->Save(get_ArtifactsDir() + u"HeaderFooter.RemoveFooters.docx");
 ```
 
 
 Shows how to replace text in a document's footer. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Footer.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footer.docx");
 
-SharedPtr<HeaderFooterCollection> headersFooters = doc->get_FirstSection()->get_HeadersFooters();
-SharedPtr<HeaderFooter> footer = headersFooters->idx_get(HeaderFooterType::FooterPrimary);
-
-auto options = MakeObject<FindReplaceOptions>();
+System::SharedPtr<Aspose::Words::HeaderFooterCollection> headersFooters = doc->get_FirstSection()->get_HeadersFooters();
+System::SharedPtr<Aspose::Words::HeaderFooter> footer = headersFooters->idx_get(Aspose::Words::HeaderFooterType::FooterPrimary);
+auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_MatchCase(false);
 options->set_FindWholeWordsOnly(false);
 
-int currentYear = System::DateTime::get_Now().get_Year();
-footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", String::Format(u"Copyright (C) {0} by Aspose Pty Ltd.", currentYear), options);
+int32_t currentYear = System::DateTime::get_Now().get_Year();
+footer->get_Range()->Replace(u"(C) 2006 Aspose Pty Ltd.", System::String::Format(u"Copyright (C) {0} by Aspose Pty Ltd.", currentYear), options);
 
-doc->Save(ArtifactsDir + u"HeaderFooter.ReplaceText.docx");
+doc->Save(get_ArtifactsDir() + u"HeaderFooter.ReplaceText.docx");
 ```
 
 ## See Also

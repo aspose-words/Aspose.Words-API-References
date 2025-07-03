@@ -29,34 +29,40 @@ One of the possible use cases may be using a MERGEFIELD as a child field to dyna
 
 Shows how to preserve or discard INCLUDEPICTURE fields when loading a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto includePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
-includePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
+auto includePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+includePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 includePicture->Update(true);
 
 {
-    auto docStream = MakeObject<System::IO::MemoryStream>();
-    doc->Save(docStream, MakeObject<OoxmlSaveOptions>(SaveFormat::Docx));
+    auto docStream = System::MakeObject<System::IO::MemoryStream>();
+    doc->Save(docStream, System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>(Aspose::Words::SaveFormat::Docx));
 
     // We can set a flag in a LoadOptions object to decide whether to convert all INCLUDEPICTURE fields
     // into image shapes when loading a document that contains them.
-    auto loadOptions = MakeObject<Loading::LoadOptions>();
+    auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
     loadOptions->set_PreserveIncludePictureField(preserveIncludePictureField);
 
-    doc = MakeObject<Document>(docStream, loadOptions);
+    doc = System::MakeObject<Aspose::Words::Document>(docStream, loadOptions);
 
     if (preserveIncludePictureField)
     {
-        ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldIncludePicture; }));
+        ASSERT_TRUE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+        {
+            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+        }))));
 
         doc->UpdateFields();
-        doc->Save(ArtifactsDir + u"Field.PreserveIncludePicture.docx");
+        doc->Save(get_ArtifactsDir() + u"Field.PreserveIncludePicture.docx");
     }
     else
     {
-        ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any([](SharedPtr<Field> f) { return f->get_Type() == FieldType::FieldIncludePicture; }));
+        ASSERT_FALSE(doc->get_Range()->get_Fields()->LINQ_Any(static_cast<System::Func<System::SharedPtr<Aspose::Words::Fields::Field>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Fields::Field> f)>>([](System::SharedPtr<Aspose::Words::Fields::Field> f) -> bool
+        {
+            return f->get_Type() == Aspose::Words::Fields::FieldType::FieldIncludePicture;
+        }))));
     }
 }
 ```

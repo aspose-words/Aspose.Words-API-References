@@ -27,23 +27,23 @@ The returned string includes all control and special characters as described in 
 
 Shows the difference between calling the GetText and ToString methods on a node. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015\u000c", doc->GetText());
+ASSERT_EQ(u"\u0013MERGEFIELD Field\u0014«Field»\u0015", doc->GetText().Trim());
 
 // ToString will give us the document's appearance if saved to a passed save format.
-ASSERT_EQ(u"«Field»\r\n", doc->ToString(SaveFormat::Text));
+ASSERT_EQ(u"«Field»", doc->ToString(Aspose::Words::SaveFormat::Text).Trim());
 ```
 
 
 Shows how to output all paragraphs in a document that are list items. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->get_ListFormat()->ApplyNumberDefault();
 builder->Writeln(u"Numbered list item 1");
@@ -57,15 +57,15 @@ builder->Writeln(u"Bulleted list item 2");
 builder->Writeln(u"Bulleted list item 3");
 builder->get_ListFormat()->RemoveNumbers();
 
-SharedPtr<NodeCollection> paras = doc->GetChildNodes(NodeType::Paragraph, true);
+System::SharedPtr<Aspose::Words::NodeCollection> paras = doc->GetChildNodes(Aspose::Words::NodeType::Paragraph, true);
 
-for (auto para : System::IterateOver(
-         paras->LINQ_OfType<SharedPtr<Paragraph>>()->LINQ_Where([](SharedPtr<Paragraph> p) { return p->get_ListFormat()->get_IsListItem(); })))
+for (auto&& para : paras->LINQ_OfType<System::SharedPtr<Aspose::Words::Paragraph> >()->LINQ_Where(static_cast<System::Func<System::SharedPtr<Aspose::Words::Paragraph>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Paragraph> p)>>([](System::SharedPtr<Aspose::Words::Paragraph> p) -> bool
 {
-    std::cout << String::Format(u"This paragraph belongs to list ID# {0}, number style \"{1}\"", para->get_ListFormat()->get_List()->get_ListId(),
-                                para->get_ListFormat()->get_ListLevel()->get_NumberStyle())
-              << std::endl;
-    std::cout << "\t\"" << para->GetText().Trim() << "\"" << std::endl;
+    return p->get_ListFormat()->get_IsListItem();
+})))->LINQ_ToList())
+{
+    std::cout << System::String::Format(u"This paragraph belongs to list ID# {0}, number style \"{1}\"", para->get_ListFormat()->get_List()->get_ListId(), para->get_ListFormat()->get_ListLevel()->get_NumberStyle()) << std::endl;
+    std::cout << System::String::Format(u"\t\"{0}\"", para->GetText().Trim()) << std::endl;
 }
 ```
 

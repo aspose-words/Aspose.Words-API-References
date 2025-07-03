@@ -26,11 +26,11 @@ Shows how to identify move revision shapes.
 // A move revision is when we move an element in the document body by cut-and-pasting it in Microsoft Word while
 // tracking changes. If we involve an inline shape in such a text movement, that shape will also be a revision.
 // Copying-and-pasting or moving floating shapes do not create move revisions.
-auto doc = MakeObject<Document>(MyDir + u"Revision shape.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revision shape.docx");
 
 // Move revisions consist of pairs of "Move from", and "Move to" revisions. We moved in this document in one shape,
 // but until we accept or reject the move revision, there will be two instances of that shape.
-ArrayPtr<SharedPtr<Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<SharedPtr<Shape>>()->LINQ_ToArray();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
 
 ASSERT_EQ(2, shapes->get_Length());
 

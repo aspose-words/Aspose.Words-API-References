@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FormField::set_MaxLength method
 linktitle: set_MaxLength
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_MaxLength method. Setter for Aspose::Words::Fields::FormField::get_MaxLength in C++.'
+description: 'Aspose::Words::Fields::FormField::set_MaxLength method. Maximum length for the text field. Zero when the length is not limited in C++.'
 type: docs
 weight: 38000
 url: /cpp/aspose.words.fields/formfield/set_maxlength/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/formfield/set_maxlength/
 ## FormField::set_MaxLength method
 
 
-Setter for [Aspose::Words::Fields::FormField::get_MaxLength](../get_maxlength/).
+Maximum length for the text field. Zero when the length is not limited.
 
 ```cpp
 void Aspose::Words::Fields::FormField::set_MaxLength(int32_t value)

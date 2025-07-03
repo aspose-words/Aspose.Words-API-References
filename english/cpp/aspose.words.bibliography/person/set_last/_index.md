@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Person::set_Last method
 linktitle: set_Last
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Person::set_Last method. Sets the last name of a person in C++.'
+description: 'Aspose::Words::Bibliography::Person::set_Last method. Setter for Aspose::Words::Bibliography::Person::get_Last in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.bibliography/person/set_last/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/person/set_last/
 ## Person::set_Last method
 
 
-Sets the last name of a person.
+Setter for [Aspose::Words::Bibliography::Person::get_Last](../get_last/).
 
 ```cpp
 void Aspose::Words::Bibliography::Person::set_Last(const System::String &value)

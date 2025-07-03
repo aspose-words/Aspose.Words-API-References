@@ -27,12 +27,12 @@ The default value is 1/20 inch.
 
 Shows how to set internal margins for a text box. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert another textbox with specific margins.
-SharedPtr<Shape> textBoxShape = builder->InsertShape(ShapeType::TextBox, 100, 100);
-SharedPtr<TextBox> textBox = textBoxShape->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox = textBoxShape->get_TextBox();
 textBox->set_InternalMarginTop(15);
 textBox->set_InternalMarginBottom(15);
 textBox->set_InternalMarginLeft(15);
@@ -41,7 +41,7 @@ textBox->set_InternalMarginRight(15);
 builder->MoveTo(textBoxShape->get_LastParagraph());
 builder->Write(u"Text placed according to textbox margins.");
 
-doc->Save(ArtifactsDir + u"Shape.TextBoxMargins.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.TextBoxMargins.docx");
 ```
 
 ## See Also

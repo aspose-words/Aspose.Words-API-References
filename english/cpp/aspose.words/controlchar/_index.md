@@ -60,8 +60,8 @@ class ControlChar
 
 Shows how to use control characters. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert paragraphs with text with DocumentBuilder.
 builder->Writeln(u"Hello world!");
@@ -69,12 +69,11 @@ builder->Writeln(u"Hello again!");
 
 // Converting the document to text form reveals that control characters
 // represent some of the document's structural elements, such as page breaks.
-ASSERT_EQ(String::Format(u"Hello world!{0}", ControlChar::Cr()) + String::Format(u"Hello again!{0}", ControlChar::Cr()) + ControlChar::PageBreak(),
-          doc->GetText());
+ASSERT_EQ(System::String::Format(u"Hello world!{0}", Aspose::Words::ControlChar::Cr()) + System::String::Format(u"Hello again!{0}", Aspose::Words::ControlChar::Cr()) + Aspose::Words::ControlChar::PageBreak(), doc->GetText());
 
 // When converting a document to string form,
 // we can omit some of the control characters with the Trim method.
-ASSERT_EQ(String::Format(u"Hello world!{0}", ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
+ASSERT_EQ(System::String::Format(u"Hello world!{0}", Aspose::Words::ControlChar::Cr()) + u"Hello again!", doc->GetText().Trim());
 ```
 
 ## See Also

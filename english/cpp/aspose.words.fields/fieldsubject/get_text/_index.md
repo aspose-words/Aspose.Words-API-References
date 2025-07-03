@@ -23,14 +23,14 @@ System::String Aspose::Words::Fields::FieldSubject::get_Text()
 
 Shows how to use the SUBJECT field. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Set a value for the document's "Subject" built-in property.
 doc->get_BuiltInDocumentProperties()->set_Subject(u"My subject");
 
 // Create a SUBJECT field to display the value of that built-in property.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::ExplicitCast<FieldSubject>(builder->InsertField(FieldType::FieldSubject, true));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSubject>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSubject, true));
 field->Update();
 
 ASSERT_EQ(u" SUBJECT ", field->GetFieldCode());
@@ -47,7 +47,7 @@ ASSERT_EQ(u"My new subject", field->get_Result());
 
 ASSERT_EQ(u"My new subject", doc->get_BuiltInDocumentProperties()->get_Subject());
 
-doc->Save(ArtifactsDir + u"Field.SUBJECT.docx");
+doc->Save(get_ArtifactsDir() + u"Field.SUBJECT.docx");
 ```
 
 ## See Also

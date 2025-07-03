@@ -29,22 +29,22 @@ Microsoft Word stores only the date part (no time) for custom date properties.
 
 Shows how to create a custom document property which contains a date and time. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 doc->get_CustomDocumentProperties()->Add(u"AuthorizationDate", System::DateTime::get_Now());
-
-std::cout << "Document authorized on " << doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime() << std::endl;
+System::DateTime authorizationDate = doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime();
+std::cout << System::String::Format(u"Document authorized on {0}", authorizationDate) << std::endl;
 ```
 
 
 Shows various type conversion methods of custom document properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
 
 System::DateTime authDate = System::DateTime::get_Today();
 properties->Add(u"Authorized", true);
-properties->Add(u"Authorized By", String(u"John Doe"));
+properties->Add(u"Authorized By", System::String(u"John Doe"));
 properties->Add(u"Authorized Date", authDate);
 properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 properties->Add(u"Authorized Amount", 123.45);

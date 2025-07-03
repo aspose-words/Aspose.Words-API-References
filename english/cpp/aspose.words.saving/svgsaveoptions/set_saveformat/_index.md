@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::SvgSaveOptions::set_SaveFormat method
 linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::SvgSaveOptions::set_SaveFormat method. Setter for Aspose::Words::Saving::SvgSaveOptions::get_SaveFormat in C++.'
+description: 'Aspose::Words::Saving::SvgSaveOptions::set_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Svg in C++.'
 type: docs
 weight: 18000
 url: /cpp/aspose.words.saving/svgsaveoptions/set_saveformat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/svgsaveoptions/set_saveformat/
 ## SvgSaveOptions::set_SaveFormat method
 
 
-Setter for [Aspose::Words::Saving::SvgSaveOptions::get_SaveFormat](../get_saveformat/).
+Specifies the format in which the document will be saved if this save options object is used. Can only be [Svg](../../../aspose.words/saveformat/).
 
 ```cpp
 void Aspose::Words::Saving::SvgSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override

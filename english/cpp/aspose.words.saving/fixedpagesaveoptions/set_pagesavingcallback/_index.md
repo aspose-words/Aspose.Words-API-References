@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback method
 linktitle: set_PageSavingCallback
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback method. Setter for Aspose::Words::Saving::FixedPageSaveOptions::get_PageSavingCallback in C++.'
+description: 'Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback method. Allows to control how separate pages are saved when a document is exported to fixed page format in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_pagesavingcallback/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/fixedpagesaveoptions/set_pagesavingcallback/
 ## FixedPageSaveOptions::set_PageSavingCallback method
 
 
-Setter for [Aspose::Words::Saving::FixedPageSaveOptions::get_PageSavingCallback](../get_pagesavingcallback/).
+Allows to control how separate pages are saved when a document is exported to fixed page format.
 
 ```cpp
 void Aspose::Words::Saving::FixedPageSaveOptions::set_PageSavingCallback(const System::SharedPtr<Aspose::Words::Saving::IPageSavingCallback> &value)

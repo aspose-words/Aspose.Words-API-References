@@ -2,7 +2,7 @@
 title: Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior method
 linktitle: set_Behavior
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior method. Setter for Aspose::Words::BuildingBlocks::BuildingBlock::get_Behavior in C++.'
+description: 'Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior method. Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document in C++.'
 type: docs
 weight: 17000
 url: /cpp/aspose.words.buildingblocks/buildingblock/set_behavior/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.buildingblocks/buildingblock/set_behavior/
 ## BuildingBlock::set_Behavior method
 
 
-Setter for [Aspose::Words::BuildingBlocks::BuildingBlock::get_Behavior](../get_behavior/).
+Specifies the behavior that shall be applied when the contents of the building block is inserted into the main document.
 
 ```cpp
 void Aspose::Words::BuildingBlocks::BuildingBlock::set_Behavior(Aspose::Words::BuildingBlocks::BuildingBlockBehavior value)

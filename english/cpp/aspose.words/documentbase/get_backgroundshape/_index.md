@@ -31,23 +31,23 @@ Setting this property to a non-null value will also set the [DisplayBackgroundSh
 
 Shows how to set a background shape for every page of a document. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-ASSERT_TRUE(doc->get_BackgroundShape() == nullptr);
+ASSERT_TRUE(System::TestTools::IsNull(doc->get_BackgroundShape()));
 
 // The only shape type that we can use as a background is a rectangle.
-auto shapeRectangle = MakeObject<Shape>(doc, ShapeType::Rectangle);
+auto shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
 
 // There are two ways of using this shape as a page background.
 // 1 -  A flat color:
 shapeRectangle->set_FillColor(System::Drawing::Color::get_LightBlue());
 doc->set_BackgroundShape(shapeRectangle);
 
-doc->Save(ArtifactsDir + u"DocumentBase.BackgroundShape.FlatColor.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBase.BackgroundShape.FlatColor.docx");
 
 // 2 -  An image:
-shapeRectangle = MakeObject<Shape>(doc, ShapeType::Rectangle);
-shapeRectangle->get_ImageData()->SetImage(ImageDir + u"Transparent background logo.png");
+shapeRectangle = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
+shapeRectangle->get_ImageData()->SetImage(get_ImageDir() + u"Transparent background logo.png");
 
 // Adjust the image's appearance to make it more suitable as a watermark.
 shapeRectangle->get_ImageData()->set_Contrast(0.2);
@@ -57,9 +57,12 @@ doc->set_BackgroundShape(shapeRectangle);
 
 ASSERT_TRUE(doc->get_BackgroundShape()->get_HasImage());
 
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::PdfSaveOptions>();
+saveOptions->set_CacheBackgroundGraphics(false);
+
 // Microsoft Word does not support shapes with images as backgrounds,
 // but we can still see these backgrounds in other save formats such as .pdf.
-doc->Save(ArtifactsDir + u"DocumentBase.BackgroundShape.Image.pdf");
+doc->Save(get_ArtifactsDir() + u"DocumentBase.BackgroundShape.Image.pdf", saveOptions);
 ```
 
 ## See Also

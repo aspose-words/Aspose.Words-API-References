@@ -16,6 +16,39 @@ Gets a collection of Y values for this chart series.
 System::SharedPtr<Aspose::Words::Drawing::Charts::ChartYValueCollection> Aspose::Words::Drawing::Charts::ChartSeries::get_YValues()
 ```
 
+
+## Examples
+
+
+
+Shows how to work with the format code of the chart data. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// Insert a Bubble chart.
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Bubble, 432, 252);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+
+// Delete default generated series.
+chart->get_Series()->Clear();
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartSeries> series = chart->get_Series()->Add(u"Series1", System::MakeArray<double>({1, 1.9, 2.45, 3}), System::MakeArray<double>({1, -0.9, 1.82, 0}), System::MakeArray<double>({2, 1.1, 2.95, 2}));
+
+// Show data labels.
+series->set_HasDataLabels(true);
+series->get_DataLabels()->set_ShowCategoryName(true);
+series->get_DataLabels()->set_ShowValue(true);
+series->get_DataLabels()->set_ShowBubbleSize(true);
+
+// Set data format codes.
+series->get_XValues()->set_FormatCode(u"#,##0.0#");
+series->get_YValues()->set_FormatCode(u"#,##0.0#;[Red]\\-#,##0.0#");
+series->get_BubbleSizes()->set_FormatCode(u"#,##0.0#");
+
+doc->Save(get_ArtifactsDir() + u"Charts.FormatCode.docx");
+```
+
 ## See Also
 
 * Class [ChartYValueCollection](../../chartyvaluecollection/)

@@ -23,22 +23,22 @@ System::String Aspose::Words::Fields::FieldAuthor::get_AuthorName()
 
 Shows how to use an AUTHOR field to display a document creator's name. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // AUTHOR fields source their results from the built-in document property called "Author".
 // If we create and save a document in Microsoft Word,
 // it will have our username in that property.
 // However, if we create a document programmatically using Aspose.Words,
 // the "Author" property, by default, will be an empty string.
-ASSERT_EQ(String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(System::String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
 
 // Set a backup author name for AUTHOR fields to use
 // if the "Author" property contains an empty string.
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
@@ -67,7 +67,7 @@ ASSERT_EQ(u"Jane Doe", field->get_Result());
 ASSERT_EQ(u"Jane Doe", doc->get_BuiltInDocumentProperties()->get_Author());
 ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
 
-doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
+doc->Save(get_ArtifactsDir() + u"Field.AUTHOR.docx");
 ```
 
 ## See Also

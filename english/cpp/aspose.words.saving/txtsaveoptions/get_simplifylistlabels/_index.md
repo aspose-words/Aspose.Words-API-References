@@ -23,8 +23,8 @@ bool Aspose::Words::Saving::TxtSaveOptions::get_SimplifyListLabels() const
 
 Shows how to change the appearance of lists when saving a document to plaintext. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a bulleted list with five levels of indentation.
 builder->get_ListFormat()->ApplyBulletDefault();
@@ -40,24 +40,24 @@ builder->Write(u"Item 5");
 
 // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
 // to modify how we save the document to plaintext.
-auto txtSaveOptions = MakeObject<TxtSaveOptions>();
+auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 
 // Set the "SimplifyListLabels" property to "true" to convert some list
 // symbols into simpler ASCII characters, such as '*', 'o', '+', '>', etc.
 // Set the "SimplifyListLabels" property to "false" to preserve as many original list symbols as possible.
 txtSaveOptions->set_SimplifyListLabels(simplifyListLabels);
 
-doc->Save(ArtifactsDir + u"TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions);
 
-String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.SimplifyListLabels.txt");
+System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.SimplifyListLabels.txt");
 
 if (simplifyListLabels)
 {
-    ASSERT_EQ(String(u"* Item 1\r\n") + u"  > Item 2\r\n" + u"    + Item 3\r\n" + u"      - Item 4\r\n" + u"        o Item 5\r\n", docText);
+    ASSERT_EQ(System::String(u"* Item 1\r\n") + u"  > Item 2\r\n" + u"    + Item 3\r\n" + u"      - Item 4\r\n" + u"        o Item 5\r\n", docText);
 }
 else
 {
-    ASSERT_EQ(String(u"· Item 1\r\n") + u"o Item 2\r\n" + u"§ Item 3\r\n" + u"· Item 4\r\n" + u"o Item 5\r\n", docText);
+    ASSERT_EQ(System::String(u"· Item 1\r\n") + u"o Item 2\r\n" + u"§ Item 3\r\n" + u"· Item 4\r\n" + u"o Item 5\r\n", docText);
 }
 ```
 

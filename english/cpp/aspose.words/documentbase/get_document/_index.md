@@ -16,6 +16,20 @@ Gets this instance.
 System::SharedPtr<Aspose::Words::DocumentBase> Aspose::Words::DocumentBase::get_Document() const override
 ```
 
+
+## Examples
+
+
+
+Shows how to create simple document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+
+// New Document objects by default come with the minimal set of nodes
+// required to begin adding content such as text and shapes: a Section, a Body, and a Paragraph.
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(System::MakeObject<Aspose::Words::Section>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Body>>(System::MakeObject<Aspose::Words::Body>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc))->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
+```
+
 ## See Also
 
 * Class [DocumentBase](../)

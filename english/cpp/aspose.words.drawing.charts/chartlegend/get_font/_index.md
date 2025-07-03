@@ -16,6 +16,28 @@ Provides access to the default font formatting of legend entries. To override th
 System::SharedPtr<Aspose::Words::Font> Aspose::Words::Drawing::Charts::ChartLegend::get_Font()
 ```
 
+
+## Examples
+
+
+
+Shows how to work with a legend font. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Reporting engine template - Chart series.docx");
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = (System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true)))->get_Chart();
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegend> chartLegend = chart->get_Legend();
+// Set default font size all legend entries.
+chartLegend->get_Font()->set_Size(14);
+// Change font for specific legend entry.
+chartLegend->get_LegendEntries()->idx_get(1)->get_Font()->set_Italic(true);
+chartLegend->get_LegendEntries()->idx_get(1)->get_Font()->set_Size(12);
+// Get legend entry for chart series.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartLegendEntry> legendEntry = chart->get_Series()->idx_get(0)->get_LegendEntry();
+
+doc->Save(get_ArtifactsDir() + u"Charts.LegendFont.docx");
+```
+
 ## See Also
 
 * Class [Font](../../../aspose.words/font/)

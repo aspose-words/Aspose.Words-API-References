@@ -25,9 +25,33 @@ class AdvancedCompareOptions : public System::Object
 | [get_IgnoreStoreItemId](./get_ignorestoreitemid/)() const | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_IgnoreDmlUniqueId](./set_ignoredmluniqueid/)(bool) | Specifies whether to ignore difference in DrawingML unique Id. |
-| [set_IgnoreStoreItemId](./set_ignorestoreitemid/)(bool) | Specifies whether to ignore difference in StructuredDocumentTag store item Id. |
+| [set_IgnoreDmlUniqueId](./set_ignoredmluniqueid/)(bool) | Setter for [Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreDmlUniqueId](./get_ignoredmluniqueid/). |
+| [set_IgnoreStoreItemId](./set_ignorestoreitemid/)(bool) | Setter for [Aspose::Words::Comparing::AdvancedCompareOptions::get_IgnoreStoreItemId](./get_ignorestoreitemid/). |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to compare SDT with same content but different store item id. 
+```cpp
+auto docA = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document with SDT 1.docx");
+auto docB = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document with SDT 2.docx");
+
+// Configure options to compare SDT with same content but different store item id.
+auto compareOptions = System::MakeObject<Aspose::Words::Comparing::CompareOptions>();
+compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(false);
+
+docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
+ASSERT_EQ(8, docA->get_Revisions()->get_Count());
+
+compareOptions->get_AdvancedOptions()->set_IgnoreStoreItemId(true);
+
+docA->get_Revisions()->RejectAll();
+docA->Compare(docB, u"user", System::DateTime::get_Now(), compareOptions);
+ASSERT_EQ(0, docA->get_Revisions()->get_Count());
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Comparing](../)

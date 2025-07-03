@@ -28,7 +28,7 @@ class FieldMergeField : public Aspose::Words::Fields::Field,
 | [get_FieldNameNoPrefix](./get_fieldnamenoprefix/)() const | Returns just the name of the data field. Any prefix is stripped to the prefix property. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_IsMapped](./get_ismapped/)() | Gets whether this field is a mapped field. |
 | [get_IsVerticalFormatting](./get_isverticalformatting/)() | Gets whether to enable character conversion for vertical formatting. |
@@ -45,7 +45,7 @@ class FieldMergeField : public Aspose::Words::Fields::Field,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_FieldName](./set_fieldname/)(const System::String\&) | Sets the name of a data field. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_IsMapped](./set_ismapped/)(bool) | Sets whether this field is a mapped field. |
 | [set_IsVerticalFormatting](./set_isverticalformatting/)(bool) | Sets whether to enable character conversion for vertical formatting. |

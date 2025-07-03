@@ -26,7 +26,7 @@ class FieldCompare : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LeftExpression](./get_leftexpression/)() | Gets or sets the left part of the comparison expression. |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -41,7 +41,7 @@ class FieldCompare : public Aspose::Words::Fields::Field
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_ComparisonOperator](./set_comparisonoperator/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldCompare::get_ComparisonOperator](./get_comparisonoperator/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LeftExpression](./set_leftexpression/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldCompare::get_LeftExpression](./get_leftexpression/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -58,10 +58,10 @@ class FieldCompare : public Aspose::Words::Fields::Field
 
 Shows how to compare expressions using a COMPARE field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCompare, true));
 field->set_LeftExpression(u"3");
 field->set_ComparisonOperator(u"<");
 field->set_RightExpression(u"2");
@@ -74,7 +74,7 @@ ASSERT_EQ(u"0", field->get_Result());
 
 builder->Writeln();
 
-field = System::ExplicitCast<FieldCompare>(builder->InsertField(FieldType::FieldCompare, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldCompare>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldCompare, true));
 field->set_LeftExpression(u"5");
 field->set_ComparisonOperator(u"=");
 field->set_RightExpression(u"2 + 3");
@@ -85,7 +85,7 @@ ASSERT_EQ(u" COMPARE  5 = \"2 + 3\"", field->GetFieldCode());
 ASSERT_EQ(u"1", field->get_Result());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.COMPARE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.COMPARE.docx");
 ```
 
 ## See Also

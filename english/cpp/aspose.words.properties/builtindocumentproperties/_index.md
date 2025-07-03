@@ -29,8 +29,8 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [get_CharactersWithSpaces](./get_characterswithspaces/)() | Represents an estimate of the number of characters (including spaces) in the document. |
 | [get_Comments](./get_comments/)() | Gets or sets the document comments. |
 | [get_Company](./get_company/)() | Gets or sets the company property. |
-| [get_ContentStatus](./get_contentstatus/)() | Gets or sets the content status of the document. |
-| [get_ContentType](./get_contenttype/)() | Gets or sets the content type of the document. |
+| [get_ContentStatus](./get_contentstatus/)() | Gets the content status of the document. |
+| [get_ContentType](./get_contenttype/)() | Gets the content type of the document. |
 | [get_Count](../documentpropertycollection/get_count/)() | Gets number of items in the collection. |
 | [get_CreatedTime](./get_createdtime/)() | Gets or sets date of the document creation in UTC. |
 | [get_HeadingPairs](./get_headingpairs/)() | Specifies document headings and their names. |
@@ -70,11 +70,11 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [set_Bytes](./set_bytes/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Bytes](./get_bytes/). |
 | [set_Category](./set_category/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Category](./get_category/). |
 | [set_Characters](./set_characters/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Characters](./get_characters/). |
-| [set_CharactersWithSpaces](./set_characterswithspaces/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_CharactersWithSpaces](./get_characterswithspaces/). |
+| [set_CharactersWithSpaces](./set_characterswithspaces/)(int32_t) | Represents an estimate of the number of characters (including spaces) in the document. |
 | [set_Comments](./set_comments/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Comments](./get_comments/). |
 | [set_Company](./set_company/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Company](./get_company/). |
-| [set_ContentStatus](./set_contentstatus/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_ContentStatus](./get_contentstatus/). |
-| [set_ContentType](./set_contenttype/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_ContentType](./get_contenttype/). |
+| [set_ContentStatus](./set_contentstatus/)(const System::String\&) | Sets the content status of the document. |
+| [set_ContentType](./set_contenttype/)(const System::String\&) | Sets the content type of the document. |
 | [set_CreatedTime](./set_createdtime/)(System::DateTime) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_CreatedTime](./get_createdtime/). |
 | [set_HeadingPairs](./set_headingpairs/)(const System::ArrayPtr\<System::SharedPtr\<System::Object\>\>\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_HeadingPairs](./get_headingpairs/). |
 | [set_HyperlinkBase](./set_hyperlinkbase/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_HyperlinkBase](./get_hyperlinkbase/). |
@@ -83,10 +83,10 @@ class BuiltInDocumentProperties : public Aspose::Words::Properties::DocumentProp
 | [set_LastSavedBy](./set_lastsavedby/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedBy](./get_lastsavedby/). |
 | [set_LastSavedTime](./set_lastsavedtime/)(System::DateTime) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_LastSavedTime](./get_lastsavedtime/). |
 | [set_Lines](./set_lines/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Lines](./get_lines/). |
-| [set_LinksUpToDate](./set_linksuptodate/)(bool) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_LinksUpToDate](./get_linksuptodate/). |
+| [set_LinksUpToDate](./set_linksuptodate/)(bool) | Indicates whether hyperlinks in a document are up-to-date. |
 | [set_Manager](./set_manager/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Manager](./get_manager/). |
 | [set_NameOfApplication](./set_nameofapplication/)(const System::String\&) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_NameOfApplication](./get_nameofapplication/). |
-| [set_Pages](./set_pages/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Pages](./get_pages/). |
+| [set_Pages](./set_pages/)(int32_t) | Represents an estimate of the number of pages in the document. |
 | [set_Paragraphs](./set_paragraphs/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Paragraphs](./get_paragraphs/). |
 | [set_RevisionNumber](./set_revisionnumber/)(int32_t) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_RevisionNumber](./get_revisionnumber/). |
 | [set_Security](./set_security/)(Aspose::Words::Properties::DocumentSecurity) | Setter for [Aspose::Words::Properties::BuiltInDocumentProperties::get_Security](./get_security/). |
@@ -114,31 +114,30 @@ The properties in the collection are sorted alphabetically by name.
 
 Shows how to work with built-in document properties. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
 
 // The "Document" object contains some of its metadata in its members.
-std::cout << "Document filename:\n\t \"" << doc->get_OriginalFileName() << "\"" << std::endl;
+std::cout << System::String::Format(u"Document filename:\n\t \"{0}\"", doc->get_OriginalFileName()) << std::endl;
 
 // The document also stores metadata in its built-in properties.
 // Each built-in property is a member of the document's "BuiltInDocumentProperties" object.
 std::cout << "Built-in Properties:" << std::endl;
-for (const auto& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties()))
+for (auto&& docProperty : System::IterateOver(doc->get_BuiltInDocumentProperties()))
 {
     std::cout << docProperty->get_Name() << std::endl;
-    std::cout << String::Format(u"\tType:\t{0}", docProperty->get_Type()) << std::endl;
+    std::cout << System::String::Format(u"\tType:\t{0}", docProperty->get_Type()) << std::endl;
 
     // Some properties may store multiple values.
-    if (System::ObjectExt::Is<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value()))
+    if (System::ObjectExt::Is<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value()))
     {
-        for (const auto& value : System::IterateOver(
-                 System::AsCast<System::Collections::Generic::ICollection<SharedPtr<System::Object>>>(docProperty->get_Value())))
+        for (auto&& value : System::IterateOver(System::AsCast<System::Collections::Generic::ICollection<System::SharedPtr<System::Object>>>(docProperty->get_Value())))
         {
-            std::cout << "\tValue:\t\"" << value << "\"" << std::endl;
+            std::cout << System::String::Format(u"\tValue:\t\"{0}\"", value) << std::endl;
         }
     }
     else
     {
-        std::cout << "\tValue:\t\"" << docProperty->get_Value() << "\"" << std::endl;
+        std::cout << System::String::Format(u"\tValue:\t\"{0}\"", docProperty->get_Value()) << std::endl;
     }
 }
 ```

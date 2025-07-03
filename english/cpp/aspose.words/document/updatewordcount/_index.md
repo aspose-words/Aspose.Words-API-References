@@ -31,12 +31,11 @@ When you use an evaluation version, the evaluation watermark will also be includ
 
 Shows how to update all list labels in a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->Writeln(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-                 u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder->Write(String(u"Ut enim ad minim veniam, ") + u"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+builder->Writeln(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->Write(System::String(u"Ut enim ad minim veniam, ") + u"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Aspose.Words does not track document metrics like these in real time.
 ASSERT_EQ(0, doc->get_BuiltInDocumentProperties()->get_Characters());
@@ -84,12 +83,11 @@ void Aspose::Words::Document::UpdateWordCount(bool updateLinesCount)
 
 Shows how to update all list labels in a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-builder->Writeln(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-                 u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder->Write(String(u"Ut enim ad minim veniam, ") + u"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
+builder->Writeln(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->Write(System::String(u"Ut enim ad minim veniam, ") + u"quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Aspose.Words does not track document metrics like these in real time.
 ASSERT_EQ(0, doc->get_BuiltInDocumentProperties()->get_Characters());

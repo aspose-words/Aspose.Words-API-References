@@ -25,7 +25,7 @@ class FieldTitle : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -38,7 +38,7 @@ class FieldTitle : public Aspose::Words::Fields::Field
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -54,14 +54,14 @@ class FieldTitle : public Aspose::Words::Fields::Field
 
 Shows how to use the TITLE field. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Set a value for the "Title" built-in document property.
 doc->get_BuiltInDocumentProperties()->set_Title(u"My Title");
 
 // We can use the TITLE field to display the value of this property in the document.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::ExplicitCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTitle, false));
 field->Update();
 
 ASSERT_EQ(u" TITLE ", field->GetFieldCode());
@@ -70,7 +70,7 @@ ASSERT_EQ(u"My Title", field->get_Result());
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
 builder->Writeln();
-field = System::ExplicitCast<FieldTitle>(builder->InsertField(FieldType::FieldTitle, false));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldTitle>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldTitle, false));
 field->set_Text(u"My New Title");
 field->Update();
 
@@ -79,7 +79,7 @@ ASSERT_EQ(u"My New Title", field->get_Result());
 ASSERT_EQ(u"My New Title", doc->get_BuiltInDocumentProperties()->get_Title());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.TITLE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.TITLE.docx");
 ```
 
 ## See Also

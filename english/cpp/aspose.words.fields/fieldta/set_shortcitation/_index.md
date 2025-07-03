@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldTA::set_ShortCitation method
 linktitle: set_ShortCitation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldTA::set_ShortCitation method. Setter for Aspose::Words::Fields::FieldTA::get_ShortCitation in C++.'
+description: 'Aspose::Words::Fields::FieldTA::set_ShortCitation method. Sets the short citation for the entry in C++.'
 type: docs
 weight: 15000
 url: /cpp/aspose.words.fields/fieldta/set_shortcitation/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldta/set_shortcitation/
 ## FieldTA::set_ShortCitation method
 
 
-Setter for [Aspose::Words::Fields::FieldTA::get_ShortCitation](../get_shortcitation/).
+Sets the short citation for the entry.
 
 ```cpp
 void Aspose::Words::Fields::FieldTA::set_ShortCitation(const System::String &value)

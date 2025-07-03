@@ -23,22 +23,22 @@ void Aspose::Words::Tables::Cell::EnsureMinimum()
 
 Shows how to ensure a cell node contains the nodes we need to begin adding content to it. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto table = MakeObject<Table>(doc);
-doc->get_FirstSection()->get_Body()->AppendChild(table);
-auto row = MakeObject<Row>(doc);
-table->AppendChild(row);
-auto cell = MakeObject<Cell>(doc);
-row->AppendChild(cell);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto table = System::MakeObject<Aspose::Words::Tables::Table>(doc);
+doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Tables::Table>>(table);
+auto row = System::MakeObject<Aspose::Words::Tables::Row>(doc);
+table->AppendChild<System::SharedPtr<Aspose::Words::Tables::Row>>(row);
+auto cell = System::MakeObject<Aspose::Words::Tables::Cell>(doc);
+row->AppendChild<System::SharedPtr<Aspose::Words::Tables::Cell>>(cell);
 
 // Cells may contain paragraphs with typical elements such as runs, shapes, and even other tables.
 // Our new cell does not have any paragraphs, and we cannot add contents such as run and shape nodes to it until it does.
-ASSERT_EQ(0, cell->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(0, cell->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
 
 // Calling the "EnsureMinimum" method on a cell will ensure that
 // the cell has at least one empty paragraph, which we can then add contents to.
 cell->EnsureMinimum();
-cell->get_FirstParagraph()->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
+cell->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 ```
 
 ## See Also

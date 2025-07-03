@@ -29,15 +29,15 @@ This property is used when the document is exported to fixed page formats.
 
 Shows how to render Ink object. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Ink object.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Ink object.docx");
 
 // Set 'ImlRenderingMode.InkML' ignores fall-back shape of ink (InkML) object and renders InkML itself.
 // If the rendering result is unsatisfactory,
 // please use 'ImlRenderingMode.Fallback' to get a result similar to previous versions.
-auto saveOptions = MakeObject<ImageSaveOptions>(SaveFormat::Jpeg);
-saveOptions->set_ImlRenderingMode(ImlRenderingMode::InkML);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+saveOptions->set_ImlRenderingMode(Aspose::Words::Saving::ImlRenderingMode::InkML);
 
-doc->Save(ArtifactsDir + u"ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.RenderInkObject.jpeg", saveOptions);
 ```
 
 ## See Also

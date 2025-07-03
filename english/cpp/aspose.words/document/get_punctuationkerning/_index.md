@@ -16,6 +16,17 @@ Specifies whether kerning applies to both Latin text and punctuation.
 bool Aspose::Words::Document::get_PunctuationKerning()
 ```
 
+
+## Examples
+
+
+
+Shows how to work with kerning applies to both Latin text and punctuation. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+ASSERT_TRUE(doc->get_PunctuationKerning());
+```
+
 ## See Also
 
 * Class [Document](../)

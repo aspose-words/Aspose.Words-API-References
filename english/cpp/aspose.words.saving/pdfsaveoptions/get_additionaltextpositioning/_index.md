@@ -21,25 +21,7 @@ bool Aspose::Words::Saving::PdfSaveOptions::get_AdditionalTextPositioning() cons
 
 If **true**, additional text positioning operators are written to the output PDF. This may help to overcome issues with inaccurate text positioning with some printers. The downside is the increased PDF document size.
 
-The default value is **false**.
-
-## Examples
-
-
-
-Show how to write additional text positioning operators. 
-```cpp
-auto doc = MakeObject<Document>(MyDir + u"Text positioning operators.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-auto saveOptions = MakeObject<PdfSaveOptions>();
-saveOptions->set_TextCompression(PdfTextCompression::None);
-saveOptions->set_AdditionalTextPositioning(applyAdditionalTextPositioning);
-
-doc->Save(ArtifactsDir + u"PdfSaveOptions.AdditionalTextPositioning.pdf", saveOptions);
-```
-
+The default value is **false**. 
 ## See Also
 
 * Class [PdfSaveOptions](../)

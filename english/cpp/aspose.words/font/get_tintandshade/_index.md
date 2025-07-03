@@ -29,15 +29,15 @@ Zero (0) is neutral.
 
 Shows how to create and use themed style. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln();
 
 // Create some style with theme font properties.
-SharedPtr<Style> style = doc->get_Styles()->Add(StyleType::Paragraph, u"ThemedStyle");
-style->get_Font()->set_ThemeFont(ThemeFont::Major);
-style->get_Font()->set_ThemeColor(ThemeColor::Accent5);
+System::SharedPtr<Aspose::Words::Style> style = doc->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"ThemedStyle");
+style->get_Font()->set_ThemeFont(Aspose::Words::Themes::ThemeFont::Major);
+style->get_Font()->set_ThemeColor(Aspose::Words::Themes::ThemeColor::Accent5);
 style->get_Font()->set_TintAndShade(0.3);
 
 builder->get_ParagraphFormat()->set_StyleName(u"ThemedStyle");

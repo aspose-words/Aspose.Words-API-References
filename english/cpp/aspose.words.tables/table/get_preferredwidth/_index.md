@@ -27,10 +27,10 @@ The default value is [Auto](../../preferredwidth/auto/).
 
 Shows how to set a table to auto fit to 50% of the width of the page. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Cell #1");
 builder->InsertCell();
@@ -38,9 +38,9 @@ builder->Write(u"Cell #2");
 builder->InsertCell();
 builder->Write(u"Cell #3");
 
-table->set_PreferredWidth(PreferredWidth::FromPercent(50));
+table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPercent(50));
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTableWithPreferredWidth.docx");
 ```
 
 ## See Also

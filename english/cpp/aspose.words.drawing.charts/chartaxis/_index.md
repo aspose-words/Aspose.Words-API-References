@@ -31,8 +31,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [get_DisplayUnit](./get_displayunit/)() | Specifies the scaling value of the display units for the value axis. |
 | [get_Document](./get_document/)() | Returns the document containing the parent chart. |
 | [get_Format](./get_format/)() | Provides access to line formatting of the axis and fill of the tick labels. |
-| [get_HasMajorGridlines](./get_hasmajorgridlines/)() | Gets a flag indicating whether the axis has major gridlines. |
-| [get_HasMinorGridlines](./get_hasminorgridlines/)() | Gets a flag indicating whether the axis has minor gridlines. |
+| [get_HasMajorGridlines](./get_hasmajorgridlines/)() | Gets or sets a flag indicating whether the axis has major gridlines. |
+| [get_HasMinorGridlines](./get_hasminorgridlines/)() | Gets or sets a flag indicating whether the axis has minor gridlines. |
 | [get_Hidden](./get_hidden/)() | Gets or sets a flag indicating whether this axis is hidden or not. |
 | [get_MajorTickMark](./get_majortickmark/)() | Returns or sets the major tick marks. |
 | [get_MajorUnit](./get_majorunit/)() | Returns or sets the distance between major tick marks. |
@@ -56,8 +56,8 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 | [set_CategoryType](./set_categorytype/)(Aspose::Words::Drawing::Charts::AxisCategoryType) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CategoryType](./get_categorytype/). |
 | [set_Crosses](./set_crosses/)(Aspose::Words::Drawing::Charts::AxisCrosses) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Crosses](./get_crosses/). |
 | [set_CrossesAt](./set_crossesat/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_CrossesAt](./get_crossesat/). |
-| [set_HasMajorGridlines](./set_hasmajorgridlines/)(bool) | Sets a flag indicating whether the axis has major gridlines. |
-| [set_HasMinorGridlines](./set_hasminorgridlines/)(bool) | Sets a flag indicating whether the axis has minor gridlines. |
+| [set_HasMajorGridlines](./set_hasmajorgridlines/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_HasMajorGridlines](./get_hasmajorgridlines/). |
+| [set_HasMinorGridlines](./set_hasminorgridlines/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_HasMinorGridlines](./get_hasminorgridlines/). |
 | [set_Hidden](./set_hidden/)(bool) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_Hidden](./get_hidden/). |
 | [set_MajorTickMark](./set_majortickmark/)(Aspose::Words::Drawing::Charts::AxisTickMark) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorTickMark](./get_majortickmark/). |
 | [set_MajorUnit](./set_majorunit/)(double) | Setter for [Aspose::Words::Drawing::Charts::ChartAxis::get_MajorUnit](./get_majorunit/). |
@@ -77,48 +77,52 @@ class ChartAxis : public Aspose::Words::Drawing::Charts::Core::IDmlChartTitleHol
 
 Shows how to insert a chart and modify the appearance of its axes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> shape = builder->InsertChart(ChartType::Column, 500, 300);
-SharedPtr<Chart> chart = shape->get_Chart();
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Column, 500, 300);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
 
 // Clear the chart's demo data series to start with a clean chart.
 chart->get_Series()->Clear();
 
 // Insert a chart series with categories for the X-axis and respective numeric values for the Y-axis.
-chart->get_Series()->Add(u"Aspose Test Series", MakeArray<String>({u"Word", u"PDF", u"Excel", u"GoogleDocs", u"Note"}),
-                         MakeArray<double>({640, 320, 280, 120, 150}));
+chart->get_Series()->Add(u"Aspose Test Series", System::MakeArray<System::String>({u"Word", u"PDF", u"Excel", u"GoogleDocs", u"Note"}), System::MakeArray<double>({640, 320, 280, 120, 150}));
 
 // Chart axes have various options that can change their appearance,
 // such as their direction, major/minor unit ticks, and tick marks.
-SharedPtr<ChartAxis> xAxis = chart->get_AxisX();
-xAxis->set_CategoryType(AxisCategoryType::Category);
-xAxis->set_Crosses(AxisCrosses::Minimum);
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> xAxis = chart->get_AxisX();
+xAxis->set_CategoryType(Aspose::Words::Drawing::Charts::AxisCategoryType::Category);
+xAxis->set_Crosses(Aspose::Words::Drawing::Charts::AxisCrosses::Minimum);
 xAxis->set_ReverseOrder(false);
-xAxis->set_MajorTickMark(AxisTickMark::Inside);
-xAxis->set_MinorTickMark(AxisTickMark::Cross);
+xAxis->set_MajorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Inside);
+xAxis->set_MinorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Cross);
 xAxis->set_MajorUnit(10.0);
 xAxis->set_MinorUnit(15.0);
 xAxis->get_TickLabels()->set_Offset(50);
-xAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::Low);
+xAxis->get_TickLabels()->set_Position(Aspose::Words::Drawing::Charts::AxisTickLabelPosition::Low);
 xAxis->get_TickLabels()->set_IsAutoSpacing(false);
 xAxis->set_TickMarkSpacing(1);
 
-SharedPtr<ChartAxis> yAxis = chart->get_AxisY();
-yAxis->set_CategoryType(AxisCategoryType::Automatic);
-yAxis->set_Crosses(AxisCrosses::Maximum);
+ASPOSE_ASSERT_EQ(doc, xAxis->get_Document());
+
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartAxis> yAxis = chart->get_AxisY();
+yAxis->set_CategoryType(Aspose::Words::Drawing::Charts::AxisCategoryType::Automatic);
+yAxis->set_Crosses(Aspose::Words::Drawing::Charts::AxisCrosses::Maximum);
 yAxis->set_ReverseOrder(true);
-yAxis->set_MajorTickMark(AxisTickMark::Inside);
-yAxis->set_MinorTickMark(AxisTickMark::Cross);
+yAxis->set_MajorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Inside);
+yAxis->set_MinorTickMark(Aspose::Words::Drawing::Charts::AxisTickMark::Cross);
 yAxis->set_MajorUnit(100.0);
 yAxis->set_MinorUnit(20.0);
-yAxis->get_TickLabels()->set_Position(AxisTickLabelPosition::NextToAxis);
+yAxis->get_TickLabels()->set_Position(Aspose::Words::Drawing::Charts::AxisTickLabelPosition::NextToAxis);
+yAxis->get_TickLabels()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+yAxis->get_TickLabels()->get_Font()->set_Color(System::Drawing::Color::get_Red());
+yAxis->get_TickLabels()->set_Spacing(1);
 
 // Column charts do not have a Z-axis.
-ASSERT_TRUE(chart->get_AxisZ() == nullptr);
+ASSERT_TRUE(System::TestTools::IsNull(chart->get_AxisZ()));
 
-doc->Save(ArtifactsDir + u"Charts.AxisProperties.docx");
+doc->Save(get_ArtifactsDir() + u"Charts.AxisProperties.docx");
 ```
 
 ## See Also

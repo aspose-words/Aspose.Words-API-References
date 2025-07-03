@@ -23,19 +23,19 @@ System::SharedPtr<System::Text::Encoding> Aspose::Words::Saving::HtmlFixedSaveOp
 
 Shows how to set which encoding to use while exporting a document to HTML. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello World!");
 
 // The default encoding is UTF-8. If we want to represent our document using a different encoding,
 // we can use a SaveOptions object to set a specific encoding.
-auto htmlFixedSaveOptions = MakeObject<HtmlFixedSaveOptions>();
+auto htmlFixedSaveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
 htmlFixedSaveOptions->set_Encoding(System::Text::Encoding::GetEncoding(u"ASCII"));
 
 ASSERT_EQ(u"US-ASCII", htmlFixedSaveOptions->get_Encoding()->get_EncodingName());
 
-doc->Save(ArtifactsDir + u"HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOptions);
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOptions);
 ```
 
 ## See Also

@@ -23,23 +23,23 @@ System::SharedPtr<Aspose::Words::Drawing::TextBox> Aspose::Words::Drawing::TextB
 
 Shows how to link text boxes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> textBoxShape1 = builder->InsertShape(ShapeType::TextBox, 100, 100);
-SharedPtr<TextBox> textBox1 = textBoxShape1->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape1 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox1 = textBoxShape1->get_TextBox();
 builder->Writeln();
 
-SharedPtr<Shape> textBoxShape2 = builder->InsertShape(ShapeType::TextBox, 100, 100);
-SharedPtr<TextBox> textBox2 = textBoxShape2->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape2 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox2 = textBoxShape2->get_TextBox();
 builder->Writeln();
 
-SharedPtr<Shape> textBoxShape3 = builder->InsertShape(ShapeType::TextBox, 100, 100);
-SharedPtr<TextBox> textBox3 = textBoxShape3->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape3 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox3 = textBoxShape3->get_TextBox();
 builder->Writeln();
 
-SharedPtr<Shape> textBoxShape4 = builder->InsertShape(ShapeType::TextBox, 100, 100);
-SharedPtr<TextBox> textBox4 = textBoxShape4->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape4 = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 100, 100);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox4 = textBoxShape4->get_TextBox();
 
 // Create links between some of the text boxes.
 if (textBox1->IsValidLinkTarget(textBox2))
@@ -76,12 +76,11 @@ if (textBox3->get_Next() == nullptr && textBox3->get_Previous() != nullptr)
 
     // Break the forward link between textBox2 and textBox3, and then verify that they are no longer linked.
     textBox3->get_Previous()->BreakForwardLink();
-
     ASSERT_TRUE(textBox2->get_Next() == nullptr);
     ASSERT_TRUE(textBox3->get_Previous() == nullptr);
 }
 
-doc->Save(ArtifactsDir + u"Shape.CreateLinkBetweenTextBoxes.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.CreateLinkBetweenTextBoxes.docx");
 ```
 
 ## See Also

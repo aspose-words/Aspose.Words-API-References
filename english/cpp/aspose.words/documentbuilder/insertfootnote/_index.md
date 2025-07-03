@@ -32,27 +32,27 @@ Returns a footnote object that was just created.
 
 Shows how to reference text with a footnote and an endnote. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert some text and mark it with a footnote with the IsAuto property set to "true" by default,
 // so the marker seen in the body text will be auto-numbered at "1",
 // and the footnote will appear at the bottom of the page.
 builder->Write(u"This text will be referenced by a footnote.");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
 
 // Insert more text and mark it with an endnote with a custom reference mark,
 // which will be used in place of the number "2" and set "IsAuto" to false.
 builder->Write(u"This text will be referenced by an endnote.");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
 
 // Footnotes always appear at the bottom of their referenced text,
 // so this page break will not affect the footnote.
 // On the other hand, endnotes are always at the end of the document
 // so that this page break will push the endnote down to the next page.
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
 ## See Also
@@ -88,27 +88,27 @@ Returns a footnote object that was just created.
 
 Shows how to reference text with a footnote and an endnote. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert some text and mark it with a footnote with the IsAuto property set to "true" by default,
 // so the marker seen in the body text will be auto-numbered at "1",
 // and the footnote will appear at the bottom of the page.
 builder->Write(u"This text will be referenced by a footnote.");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote comment regarding referenced text.");
 
 // Insert more text and mark it with an endnote with a custom reference mark,
 // which will be used in place of the number "2" and set "IsAuto" to false.
 builder->Write(u"This text will be referenced by an endnote.");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote comment regarding referenced text.", u"CustomMark");
 
 // Footnotes always appear at the bottom of their referenced text,
 // so this page break will not affect the footnote.
 // On the other hand, endnotes are always at the end of the document
 // so that this page break will push the endnote down to the next page.
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertFootnote.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertFootnote.docx");
 ```
 
 ## See Also

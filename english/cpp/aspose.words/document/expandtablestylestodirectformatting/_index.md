@@ -28,36 +28,6 @@ This version of Aspose.Words provides limited support for table styles as follow
 * Table styles defined in DOC documents are preserved as table styles when saving the document as DOC only.
 
 
-
-## Examples
-
-
-
-Shows how to apply the properties of a table's style directly to the table's elements. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-SharedPtr<Table> table = builder->StartTable();
-builder->InsertCell();
-builder->Write(u"Hello world!");
-builder->EndTable();
-
-auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
-tableStyle->set_RowStripe(3);
-tableStyle->set_CellSpacing(5);
-tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
-tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
-tableStyle->get_Borders()->set_LineStyle(LineStyle::DotDash);
-
-table->set_Style(tableStyle);
-
-// This method concerns table style properties such as the ones we set above.
-doc->ExpandTableStylesToDirectFormatting();
-
-doc->Save(ArtifactsDir + u"Document.TableStyleToDirectFormatting.docx");
-```
-
 ## See Also
 
 * Class [Document](../)

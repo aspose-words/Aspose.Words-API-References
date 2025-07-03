@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::HtmlSaveOptions::set_ReplaceBackslashWithYenSign method
 linktitle: set_ReplaceBackslashWithYenSign
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ReplaceBackslashWithYenSign method. Specifies whether backslash characters should be replaced with yen signs. Default value is false in C++.'
+description: 'Aspose::Words::Saving::HtmlSaveOptions::set_ReplaceBackslashWithYenSign method. Setter for Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign in C++.'
 type: docs
 weight: 88500
 url: /cpp/aspose.words.saving/htmlsaveoptions/set_replacebackslashwithyensign/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/htmlsaveoptions/set_replacebackslashwithyensign/
 ## HtmlSaveOptions::set_ReplaceBackslashWithYenSign method
 
 
-Specifies whether backslash characters should be replaced with yen signs. Default value is **false**.
+Setter for [Aspose::Words::Saving::HtmlSaveOptions::get_ReplaceBackslashWithYenSign](../get_replacebackslashwithyensign/).
 
 ```cpp
 void Aspose::Words::Saving::HtmlSaveOptions::set_ReplaceBackslashWithYenSign(bool value)

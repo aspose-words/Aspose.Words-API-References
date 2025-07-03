@@ -23,10 +23,10 @@ void Aspose::Words::ConditionalStyleCollection::ClearFormatting()
 
 Shows how to reset conditional table styles. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"First row");
 builder->EndRow();
@@ -34,7 +34,7 @@ builder->InsertCell();
 builder->Write(u"Last row");
 builder->EndTable();
 
-auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
 table->set_Style(tableStyle);
 
 // Set the table style to color the borders of the first row of the table in red.
@@ -52,11 +52,10 @@ ASPOSE_ASSERT_EQ(System::Drawing::Color::Empty, tableStyle->get_ConditionalStyle
 // 2 -  Clear the conditional styles for the entire table:
 tableStyle->get_ConditionalStyles()->ClearFormatting();
 
-auto isEmptyColor = [](SharedPtr<ConditionalStyle> s)
+ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(static_cast<System::Func<System::SharedPtr<Aspose::Words::ConditionalStyle>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::ConditionalStyle> s)>>([](System::SharedPtr<Aspose::Words::ConditionalStyle> s) -> bool
 {
     return s->get_Borders()->get_Color() == System::Drawing::Color::Empty;
-};
-ASSERT_TRUE(tableStyle->get_ConditionalStyles()->LINQ_All(isEmptyColor));
+}))));
 ```
 
 ## See Also

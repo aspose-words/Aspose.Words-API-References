@@ -169,56 +169,28 @@ Note that [Font](./get_font/), [ParagraphFormat](./get_paragraphformat/) and [Pa
 
 
 
-Shows how to create headers and footers in a document using [DocumentBuilder](./). 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-// Specify that we want different headers and footers for first, even and odd pages.
-builder->get_PageSetup()->set_DifferentFirstPageHeaderFooter(true);
-builder->get_PageSetup()->set_OddAndEvenPagesHeaderFooter(true);
-
-// Create the headers, then add three pages to the document to display each header type.
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderFirst);
-builder->Write(u"Header for the first page");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderEven);
-builder->Write(u"Header for even pages");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
-builder->Write(u"Header for all other pages");
-
-builder->MoveToSection(0);
-builder->Writeln(u"Page1");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page2");
-builder->InsertBreak(BreakType::PageBreak);
-builder->Writeln(u"Page3");
-
-doc->Save(ArtifactsDir + u"DocumentBuilder.HeadersAndFooters.docx");
-```
-
-
 Shows how to build a table with custom borders. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartTable();
 
 // Setting table formatting options for a document builder
 // will apply them to every row and cell that we add with it.
-builder->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+builder->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
 
 builder->get_CellFormat()->ClearFormatting();
 builder->get_CellFormat()->set_Width(150);
-builder->get_CellFormat()->set_VerticalAlignment(CellVerticalAlignment::Center);
+builder->get_CellFormat()->set_VerticalAlignment(Aspose::Words::Tables::CellVerticalAlignment::Center);
 builder->get_CellFormat()->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_GreenYellow());
 builder->get_CellFormat()->set_WrapText(false);
 builder->get_CellFormat()->set_FitText(true);
 
 builder->get_RowFormat()->ClearFormatting();
-builder->get_RowFormat()->set_HeightRule(HeightRule::Exactly);
+builder->get_RowFormat()->set_HeightRule(Aspose::Words::HeightRule::Exactly);
 builder->get_RowFormat()->set_Height(50);
-builder->get_RowFormat()->get_Borders()->set_LineStyle(LineStyle::Engrave3D);
+builder->get_RowFormat()->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Engrave3D);
 builder->get_RowFormat()->get_Borders()->set_Color(System::Drawing::Color::get_Orange());
 
 builder->InsertCell();
@@ -244,24 +216,24 @@ builder->EndRow();
 // Increase row height to fit the vertical text.
 builder->InsertCell();
 builder->get_RowFormat()->set_Height(150);
-builder->get_CellFormat()->set_Orientation(TextOrientation::Upward);
+builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Upward);
 builder->Write(u"Row 3, Col 1");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_Orientation(TextOrientation::Downward);
+builder->get_CellFormat()->set_Orientation(Aspose::Words::TextOrientation::Downward);
 builder->Write(u"Row 3, Col 2");
 
 builder->EndRow();
 builder->EndTable();
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertTable.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertTable.docx");
 ```
 
 
 Shows how to use a document builder to create a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Start the table, then populate the first row with two cells.
 builder->StartTable();
@@ -278,7 +250,7 @@ builder->InsertCell();
 builder->Write(u"Row 2, Cell 2.");
 builder->EndTable();
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.CreateTable.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.CreateTable.docx");
 ```
 
 ## See Also

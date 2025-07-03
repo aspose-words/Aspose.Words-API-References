@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldTC::set_TypeIdentifier method
 linktitle: set_TypeIdentifier
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldTC::set_TypeIdentifier method. Setter for Aspose::Words::Fields::FieldTC::get_TypeIdentifier in C++.'
+description: 'Aspose::Words::Fields::FieldTC::set_TypeIdentifier method. Sets a type identifier for this field (which is typically a letter) in C++.'
 type: docs
 weight: 12000
 url: /cpp/aspose.words.fields/fieldtc/set_typeidentifier/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldtc/set_typeidentifier/
 ## FieldTC::set_TypeIdentifier method
 
 
-Setter for [Aspose::Words::Fields::FieldTC::get_TypeIdentifier](../get_typeidentifier/).
+Sets a type identifier for this field (which is typically a letter).
 
 ```cpp
 void Aspose::Words::Fields::FieldTC::set_TypeIdentifier(const System::String &value)

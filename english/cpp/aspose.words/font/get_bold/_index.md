@@ -23,16 +23,16 @@ bool Aspose::Words::Font::get_Bold()
 
 Shows how to insert formatted text using [DocumentBuilder](../../documentbuilder/). 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Specify font formatting, then add text.
-SharedPtr<Aspose::Words::Font> font = builder->get_Font();
+System::SharedPtr<Aspose::Words::Font> font = builder->get_Font();
 font->set_Size(16);
 font->set_Bold(true);
 font->set_Color(System::Drawing::Color::get_Blue());
 font->set_Name(u"Courier New");
-font->set_Underline(Underline::Dash);
+font->set_Underline(Aspose::Words::Underline::Dash);
 
 builder->Write(u"Hello world!");
 ```

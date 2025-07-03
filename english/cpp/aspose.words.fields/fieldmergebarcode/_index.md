@@ -37,7 +37,7 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | [get_FixCheckDigit](./get_fixcheckdigit/)() | Gets whether to fix the check digit if it’s invalid. |
 | [get_ForegroundColor](./get_foregroundcolor/)() | Gets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PosCodeStyle](./get_poscodestyle/)() | Gets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |
@@ -63,7 +63,7 @@ class FieldMergeBarcode : public Aspose::Words::Fields::Field,
 | [set_ErrorCorrectionLevel](./set_errorcorrectionlevel/)(const System::String\&) | Sets an error correction level of QR Code. Valid values are [0, 3]. |
 | [set_FixCheckDigit](./set_fixcheckdigit/)(bool) | Sets whether to fix the check digit if it’s invalid. |
 | [set_ForegroundColor](./set_foregroundcolor/)(const System::String\&) | Sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PosCodeStyle](./set_poscodestyle/)(const System::String\&) | Sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |

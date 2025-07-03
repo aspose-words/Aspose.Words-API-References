@@ -21,7 +21,7 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | Method | Description |
 | --- | --- |
 | [get_BackColor](./get_backcolor/)() | Gets or sets the background color of the stroke. |
-| [get_BackThemeColor](./get_backthemecolor/)() | Gets a ThemeColor object that represents the stroke background color. |
+| [get_BackThemeColor](./get_backthemecolor/)() | Gets or sets a ThemeColor object that represents the stroke background color. |
 | [get_BackTintAndShade](./get_backtintandshade/)() | Gets or sets a double value that lightens or darkens the stroke background color. |
 | [get_BaseForeColor](./get_baseforecolor/)() | Gets the base foreground color of the stroke without any modifiers. |
 | [get_Color](./get_color/)() | Defines the color of a stroke. |
@@ -33,7 +33,7 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | [get_EndCap](./get_endcap/)() | Defines the cap style for the end of a stroke. |
 | [get_Fill](./get_fill/)() | Gets fill formatting for the [Stroke](./). |
 | [get_ForeColor](./get_forecolor/)() | Gets or sets the foreground color of the stroke. |
-| [get_ForeThemeColor](./get_forethemecolor/)() | Gets a ThemeColor object that represents the stroke foreground color. |
+| [get_ForeThemeColor](./get_forethemecolor/)() | Gets or sets a ThemeColor object that represents the stroke foreground color. |
 | [get_ForeTintAndShade](./get_foretintandshade/)() | Gets or sets a double value that lightens or darkens the stroke foreground color. |
 | [get_ImageBytes](./get_imagebytes/)() | Defines the image for a stroke image or pattern fill. |
 | [get_JoinStyle](./get_joinstyle/)() | Defines the join style of a polyline. |
@@ -49,25 +49,25 @@ class Stroke : public Aspose::Words::Drawing::Core::IFillable
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [set_BackColor](./set_backcolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_BackColor](./get_backcolor/). |
-| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the stroke background color. |
+| [set_BackThemeColor](./set_backthemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Drawing::Stroke::get_BackThemeColor](./get_backthemecolor/). |
 | [set_BackTintAndShade](./set_backtintandshade/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_BackTintAndShade](./get_backtintandshade/). |
 | [set_Color](./set_color/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color](./get_color/). |
 | [set_Color2](./set_color2/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_Color2](./get_color2/). |
-| [set_DashStyle](./set_dashstyle/)(Aspose::Words::Drawing::DashStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_DashStyle](./get_dashstyle/). |
-| [set_EndArrowLength](./set_endarrowlength/)(Aspose::Words::Drawing::ArrowLength) | Setter for [Aspose::Words::Drawing::Stroke::get_EndArrowLength](./get_endarrowlength/). |
-| [set_EndArrowType](./set_endarrowtype/)(Aspose::Words::Drawing::ArrowType) | Setter for [Aspose::Words::Drawing::Stroke::get_EndArrowType](./get_endarrowtype/). |
-| [set_EndArrowWidth](./set_endarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Setter for [Aspose::Words::Drawing::Stroke::get_EndArrowWidth](./get_endarrowwidth/). |
-| [set_EndCap](./set_endcap/)(Aspose::Words::Drawing::EndCap) | Setter for [Aspose::Words::Drawing::Stroke::get_EndCap](./get_endcap/). |
+| [set_DashStyle](./set_dashstyle/)(Aspose::Words::Drawing::DashStyle) | Specifies the dot and dash pattern for a stroke. |
+| [set_EndArrowLength](./set_endarrowlength/)(Aspose::Words::Drawing::ArrowLength) | Defines the arrowhead length for the end of a stroke. |
+| [set_EndArrowType](./set_endarrowtype/)(Aspose::Words::Drawing::ArrowType) | Defines the arrowhead for the end of a stroke. |
+| [set_EndArrowWidth](./set_endarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Defines the arrowhead width for the end of a stroke. |
+| [set_EndCap](./set_endcap/)(Aspose::Words::Drawing::EndCap) | Defines the cap style for the end of a stroke. |
 | [set_ForeColor](./set_forecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::Drawing::Stroke::get_ForeColor](./get_forecolor/). |
-| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Sets a ThemeColor object that represents the stroke foreground color. |
+| [set_ForeThemeColor](./set_forethemecolor/)(Aspose::Words::Themes::ThemeColor) | Setter for [Aspose::Words::Drawing::Stroke::get_ForeThemeColor](./get_forethemecolor/). |
 | [set_ForeTintAndShade](./set_foretintandshade/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_ForeTintAndShade](./get_foretintandshade/). |
 | [set_JoinStyle](./set_joinstyle/)(Aspose::Words::Drawing::JoinStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_JoinStyle](./get_joinstyle/). |
 | [set_LineStyle](./set_linestyle/)(Aspose::Words::Drawing::ShapeLineStyle) | Setter for [Aspose::Words::Drawing::Stroke::get_LineStyle](./get_linestyle/). |
 | [set_On](./set_on/)(bool) | Setter for [Aspose::Words::Drawing::Stroke::get_On](./get_on/). |
-| [set_Opacity](./set_opacity/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Opacity](./get_opacity/). |
-| [set_StartArrowLength](./set_startarrowlength/)(Aspose::Words::Drawing::ArrowLength) | Setter for [Aspose::Words::Drawing::Stroke::get_StartArrowLength](./get_startarrowlength/). |
-| [set_StartArrowType](./set_startarrowtype/)(Aspose::Words::Drawing::ArrowType) | Setter for [Aspose::Words::Drawing::Stroke::get_StartArrowType](./get_startarrowtype/). |
-| [set_StartArrowWidth](./set_startarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Setter for [Aspose::Words::Drawing::Stroke::get_StartArrowWidth](./get_startarrowwidth/). |
+| [set_Opacity](./set_opacity/)(double) | Defines the amount of transparency of a stroke. Valid range is from 0 to 1. |
+| [set_StartArrowLength](./set_startarrowlength/)(Aspose::Words::Drawing::ArrowLength) | Defines the arrowhead length for the start of a stroke. |
+| [set_StartArrowType](./set_startarrowtype/)(Aspose::Words::Drawing::ArrowType) | Defines the arrowhead for the start of a stroke. |
+| [set_StartArrowWidth](./set_startarrowwidth/)(Aspose::Words::Drawing::ArrowWidth) | Defines the arrowhead width for the start of a stroke. |
 | [set_Transparency](./set_transparency/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Transparency](./get_transparency/). |
 | [set_Visible](./set_visible/)(bool) | Setter for [Aspose::Words::Drawing::Stroke::get_Visible](./get_visible/). |
 | [set_Weight](./set_weight/)(double) | Setter for [Aspose::Words::Drawing::Stroke::get_Weight](./get_weight/). |
@@ -83,11 +83,10 @@ Use the [Stroke](../shape/get_stroke/) property to access stroke properties of a
 
 Shows how change stroke properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, 100, RelativeVerticalPosition::TopMargin,
-                                              100, 200, 200, WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 100, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 100, 200, 200, Aspose::Words::Drawing::WrapType::None);
 
 // Basic shapes, such as the rectangle, have two visible parts.
 // 1 -  The fill, which applies to the area within the outline of the shape:
@@ -95,16 +94,17 @@ shape->get_Fill()->set_ForeColor(System::Drawing::Color::get_White());
 
 // 2 -  The stroke, which marks the outline of the shape:
 // Modify various properties of this shape's stroke.
-SharedPtr<Stroke> stroke = shape->get_Stroke();
+System::SharedPtr<Aspose::Words::Drawing::Stroke> stroke = shape->get_Stroke();
 stroke->set_On(true);
 stroke->set_Weight(5);
 stroke->set_Color(System::Drawing::Color::get_Red());
-stroke->set_DashStyle(DashStyle::ShortDashDotDot);
-stroke->set_JoinStyle(JoinStyle::Miter);
-stroke->set_EndCap(EndCap::Square);
-stroke->set_LineStyle(ShapeLineStyle::Triple);
+stroke->set_DashStyle(Aspose::Words::Drawing::DashStyle::ShortDashDotDot);
+stroke->set_JoinStyle(Aspose::Words::Drawing::JoinStyle::Miter);
+stroke->set_EndCap(Aspose::Words::Drawing::EndCap::Square);
+stroke->set_LineStyle(Aspose::Words::Drawing::ShapeLineStyle::Triple);
+stroke->get_Fill()->TwoColorGradient(System::Drawing::Color::get_Red(), System::Drawing::Color::get_Blue(), Aspose::Words::Drawing::GradientStyle::Vertical, Aspose::Words::Drawing::GradientVariant::Variant1);
 
-doc->Save(ArtifactsDir + u"Shape.Stroke.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.Stroke.docx");
 ```
 
 ## See Also

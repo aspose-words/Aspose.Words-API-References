@@ -23,23 +23,23 @@ bool Aspose::Words::Loading::LoadOptions::get_ConvertShapeToOfficeMath() const
 
 Shows how to convert EquationXML shapes to Office [Math](../../../aspose.words.math/) objects. 
 ```cpp
-auto loadOptions = MakeObject<LoadOptions>();
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 
 // Use this flag to specify whether to convert the shapes with EquationXML attributes
 // to Office Math objects and then load the document.
 loadOptions->set_ConvertShapeToOfficeMath(isConvertShapeToOfficeMath);
 
-auto doc = MakeObject<Document>(MyDir + u"Math shapes.docx", loadOptions);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Math shapes.docx", loadOptions);
 
 if (isConvertShapeToOfficeMath)
 {
-    ASSERT_EQ(16, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-    ASSERT_EQ(34, doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count());
+    ASSERT_EQ(16, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+    ASSERT_EQ(34, doc->GetChildNodes(Aspose::Words::NodeType::OfficeMath, true)->get_Count());
 }
 else
 {
-    ASSERT_EQ(24, doc->GetChildNodes(NodeType::Shape, true)->get_Count());
-    ASSERT_EQ(0, doc->GetChildNodes(NodeType::OfficeMath, true)->get_Count());
+    ASSERT_EQ(24, doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->get_Count());
+    ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::OfficeMath, true)->get_Count());
 }
 ```
 

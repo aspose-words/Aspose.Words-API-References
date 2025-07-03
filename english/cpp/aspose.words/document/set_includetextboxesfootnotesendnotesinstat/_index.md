@@ -2,7 +2,7 @@
 title: Aspose::Words::Document::set_IncludeTextboxesFootnotesEndnotesInStat method
 linktitle: set_IncludeTextboxesFootnotesEndnotesInStat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Document::set_IncludeTextboxesFootnotesEndnotesInStat method. Specifies whether to include textboxes, footnotes and endnotes in word count statistics in C++.'
+description: 'Aspose::Words::Document::set_IncludeTextboxesFootnotesEndnotesInStat method. Setter for Aspose::Words::Document::get_IncludeTextboxesFootnotesEndnotesInStat in C++.'
 type: docs
 weight: 80000
 url: /cpp/aspose.words/document/set_includetextboxesfootnotesendnotesinstat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/document/set_includetextboxesfootnotesendnotesinstat/
 ## Document::set_IncludeTextboxesFootnotesEndnotesInStat method
 
 
-Specifies whether to include textboxes, footnotes and endnotes in word count statistics.
+Setter for [Aspose::Words::Document::get_IncludeTextboxesFootnotesEndnotesInStat](../get_includetextboxesfootnotesendnotesinstat/).
 
 ```cpp
 void Aspose::Words::Document::set_IncludeTextboxesFootnotesEndnotesInStat(bool value)

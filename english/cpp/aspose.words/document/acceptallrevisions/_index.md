@@ -23,8 +23,8 @@ void Aspose::Words::Document::AcceptAllRevisions()
 
 Shows how to accept all tracking changes in the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Edit the document while tracking changes to create a few revisions.
 doc->StartTrackRevisions(u"John Doe");

@@ -27,19 +27,17 @@ The default value is **true**.
 
 Shows how to enable/disable automatic table cell resizing. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::FromPoints(100));
-builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-               u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(100));
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
 builder->InsertCell();
-builder->get_CellFormat()->set_PreferredWidth(PreferredWidth::Auto());
-builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-               u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->get_CellFormat()->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::Auto());
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 builder->EndRow();
 builder->EndTable();
 
@@ -49,7 +47,7 @@ builder->EndTable();
 // to accommodate their contents.
 table->set_AllowAutoFit(allowAutoFit);
 
-doc->Save(ArtifactsDir + u"Table.AllowAutoFitOnTable.html");
+doc->Save(get_ArtifactsDir() + u"Table.AllowAutoFitOnTable.html");
 ```
 
 ## See Also

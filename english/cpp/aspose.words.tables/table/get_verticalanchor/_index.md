@@ -23,23 +23,23 @@ Aspose::Words::Drawing::RelativeVerticalPosition Aspose::Words::Tables::Table::g
 
 Shows how to work with floating tables properties. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Table wrapped by text.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Table wrapped by text.docx");
 
-SharedPtr<Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
-if (table->get_TextWrapping() == TextWrapping::Around)
+if (table->get_TextWrapping() == Aspose::Words::Tables::TextWrapping::Around)
 {
-    ASSERT_EQ(RelativeHorizontalPosition::Margin, table->get_HorizontalAnchor());
-    ASSERT_EQ(RelativeVerticalPosition::Paragraph, table->get_VerticalAnchor());
+    ASSERT_EQ(Aspose::Words::Drawing::RelativeHorizontalPosition::Margin, table->get_HorizontalAnchor());
+    ASSERT_EQ(Aspose::Words::Drawing::RelativeVerticalPosition::Paragraph, table->get_VerticalAnchor());
     ASPOSE_ASSERT_EQ(false, table->get_AllowOverlap());
 
     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
     // The ArgumentException will be thrown for any other values.
-    table->set_HorizontalAnchor(RelativeHorizontalPosition::Column);
+    table->set_HorizontalAnchor(Aspose::Words::Drawing::RelativeHorizontalPosition::Column);
 
     // Only Margin, Page, Paragraph available in RelativeVerticalPosition for VerticalAnchor setter.
     // The ArgumentException will be thrown for any other values.
-    table->set_VerticalAnchor(RelativeVerticalPosition::Page);
+    table->set_VerticalAnchor(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
 }
 ```
 

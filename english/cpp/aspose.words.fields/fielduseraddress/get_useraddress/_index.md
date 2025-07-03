@@ -23,17 +23,17 @@ System::String Aspose::Words::Fields::FieldUserAddress::get_UserAddress()
 
 Shows how to use the USERADDRESS field. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a UserInformation object and set it as the source of user information for any fields that we create.
-auto userInformation = MakeObject<UserInformation>();
+auto userInformation = System::MakeObject<Aspose::Words::Fields::UserInformation>();
 userInformation->set_Address(u"123 Main Street");
 doc->get_FieldOptions()->set_CurrentUser(userInformation);
 
 // Create a USERADDRESS field to display the current user's address,
 // taken from the UserInformation object we created above.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto fieldUserAddress = System::ExplicitCast<FieldUserAddress>(builder->InsertField(FieldType::FieldUserAddress, true));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto fieldUserAddress = System::ExplicitCast<Aspose::Words::Fields::FieldUserAddress>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldUserAddress, true));
 
 ASSERT_EQ(u" USERADDRESS ", fieldUserAddress->GetFieldCode());
 ASSERT_EQ(u"123 Main Street", fieldUserAddress->get_Result());
@@ -49,7 +49,7 @@ ASSERT_EQ(u"456 North Road", fieldUserAddress->get_Result());
 ASSERT_EQ(u"123 Main Street", doc->get_FieldOptions()->get_CurrentUser()->get_Address());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.USERADDRESS.docx");
+doc->Save(get_ArtifactsDir() + u"Field.USERADDRESS.docx");
 ```
 
 ## See Also

@@ -23,8 +23,8 @@ Aspose::Words::Notes::FootnoteType Aspose::Words::Notes::Footnote::get_FootnoteT
 
 Shows the difference between footnotes and endnotes. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two ways of attaching numbered references to the text. Both these references will add a
 // small superscript reference mark at the location that we insert them.
@@ -33,20 +33,19 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // and reference text, which we will pass to the document builder's "InsertFootnote" method.
 // 1 -  A footnote, whose entry will appear on the same page as the text that it references:
 builder->Write(u"Footnote referenced main body text.");
-SharedPtr<Footnote> footnote =
-    builder->InsertFootnote(FootnoteType::Footnote, u"Footnote text, will appear at the bottom of the page that contains the referenced text.");
+System::SharedPtr<Aspose::Words::Notes::Footnote> footnote = builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote text, will appear at the bottom of the page that contains the referenced text.");
 
 // 2 -  An endnote, whose entry will appear at the end of the document:
 builder->Write(u"Endnote referenced main body text.");
-SharedPtr<Footnote> endnote = builder->InsertFootnote(FootnoteType::Endnote, u"Endnote text, will appear at the very end of the document.");
+System::SharedPtr<Aspose::Words::Notes::Footnote> endnote = builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote text, will appear at the very end of the document.");
 
-builder->InsertBreak(BreakType::SectionBreakNewPage);
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 
-ASSERT_EQ(FootnoteType::Footnote, footnote->get_FootnoteType());
-ASSERT_EQ(FootnoteType::Endnote, endnote->get_FootnoteType());
+ASSERT_EQ(Aspose::Words::Notes::FootnoteType::Footnote, footnote->get_FootnoteType());
+ASSERT_EQ(Aspose::Words::Notes::FootnoteType::Endnote, endnote->get_FootnoteType());
 
-doc->Save(ArtifactsDir + u"InlineStory.FootnoteEndnote.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.FootnoteEndnote.docx");
 ```
 
 ## See Also

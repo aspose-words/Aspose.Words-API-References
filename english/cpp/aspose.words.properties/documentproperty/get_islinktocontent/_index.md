@@ -23,8 +23,8 @@ bool Aspose::Words::Properties::DocumentProperty::get_IsLinkToContent()
 
 Shows how to link a custom document property to a bookmark. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartBookmark(u"MyBookmark");
 builder->Write(u"Hello world!");
@@ -32,14 +32,14 @@ builder->EndBookmark(u"MyBookmark");
 
 // Link a new custom property to a bookmark. The value of this property
 // will be the contents of the bookmark that it references in the "LinkSource" member.
-SharedPtr<CustomDocumentProperties> customProperties = doc->get_CustomDocumentProperties();
-SharedPtr<DocumentProperty> customProperty = customProperties->AddLinkToContent(u"Bookmark", u"MyBookmark");
+System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> customProperties = doc->get_CustomDocumentProperties();
+System::SharedPtr<Aspose::Words::Properties::DocumentProperty> customProperty = customProperties->AddLinkToContent(u"Bookmark", u"MyBookmark");
 
 ASPOSE_ASSERT_EQ(true, customProperty->get_IsLinkToContent());
 ASSERT_EQ(u"MyBookmark", customProperty->get_LinkSource());
 ASPOSE_ASSERT_EQ(u"Hello world!", customProperty->get_Value());
 
-doc->Save(ArtifactsDir + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```
 
 ## See Also

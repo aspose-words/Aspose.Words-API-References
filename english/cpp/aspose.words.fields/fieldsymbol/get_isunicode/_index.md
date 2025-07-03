@@ -23,12 +23,12 @@ bool Aspose::Words::Fields::FieldSymbol::get_IsUnicode()
 
 Shows how to use the SYMBOL field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are three ways to use a SYMBOL field to display a single character.
 // 1 -  Add a SYMBOL field which displays the © (Copyright) symbol, specified by an ANSI character code:
-auto field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldSymbol>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSymbol, true));
 
 // The ANSI character code "U+00A9", or "169" in integer form, is reserved for the copyright symbol.
 field->set_CharacterCode(System::Convert::ToString(0x00a9));
@@ -39,7 +39,7 @@ ASSERT_EQ(u" SYMBOL  169 \\a", field->GetFieldCode());
 builder->Writeln(u" Line 1");
 
 // 2 -  Add a SYMBOL field which displays the ∞ (Infinity) symbol, and modify its appearance:
-field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldSymbol>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSymbol, true));
 
 // In Unicode, the infinity symbol occupies the "221E" code.
 field->set_CharacterCode(System::Convert::ToString(0x221E));
@@ -59,7 +59,7 @@ builder->Writeln(u"Line 2");
 
 // 3 -  Add a SYMBOL field which displays the あ character,
 // with a font that supports Shift-JIS (Windows-932) codepage:
-field = System::ExplicitCast<FieldSymbol>(builder->InsertField(FieldType::FieldSymbol, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldSymbol>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldSymbol, true));
 field->set_FontName(u"MS Gothic");
 field->set_CharacterCode(System::Convert::ToString(0x82A0));
 field->set_IsShiftJis(true);
@@ -68,7 +68,7 @@ ASSERT_EQ(u" SYMBOL  33440 \\f \"MS Gothic\" \\j", field->GetFieldCode());
 
 builder->Write(u"Line 3");
 
-doc->Save(ArtifactsDir + u"Field.SYMBOL.docx");
+doc->Save(get_ArtifactsDir() + u"Field.SYMBOL.docx");
 ```
 
 ## See Also

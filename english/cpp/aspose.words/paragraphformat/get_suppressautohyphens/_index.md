@@ -23,13 +23,13 @@ bool Aspose::Words::ParagraphFormat::get_SuppressAutoHyphens()
 
 Shows how to suppress hyphenation for a paragraph. 
 ```cpp
-Hyphenation::RegisterDictionary(u"de-CH", MyDir + u"hyph_de_CH.dic");
+Aspose::Words::Hyphenation::RegisterDictionary(u"de-CH", get_MyDir() + u"hyph_de_CH.dic");
 
-ASSERT_TRUE(Hyphenation::IsDictionaryRegistered(u"de-CH"));
+ASSERT_TRUE(Aspose::Words::Hyphenation::IsDictionaryRegistered(u"de-CH"));
 
 // Open a document containing text with a locale matching that of our dictionary.
 // When we save this document to a fixed page save format, its text will have hyphenation.
-auto doc = MakeObject<Document>(MyDir + u"German text.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"German text.docx");
 
 // We can set the "SuppressAutoHyphens" property to "true" to disable hyphenation
 // for a specific paragraph while keeping it enabled for the rest of the document.
@@ -37,7 +37,7 @@ auto doc = MakeObject<Document>(MyDir + u"German text.docx");
 // which means every paragraph by default uses hyphenation if any is available.
 doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat()->set_SuppressAutoHyphens(suppressAutoHyphens);
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.SuppressHyphens.pdf");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.SuppressHyphens.pdf");
 ```
 
 ## See Also

@@ -29,10 +29,10 @@ For all other SDT types exception will occur.
 
 Show how to create a structured document tag in the form of a check box. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto sdtCheckBox = MakeObject<StructuredDocumentTag>(doc, SdtType::Checkbox, MarkupLevel::Inline);
+auto sdtCheckBox = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::Checkbox, Aspose::Words::Markup::MarkupLevel::Inline);
 sdtCheckBox->set_Checked(true);
 
 // We can set the symbols used to represent the checked/unchecked state of a checkbox content control.
@@ -41,7 +41,7 @@ sdtCheckBox->SetUncheckedSymbol(0x00AE, u"Times New Roman");
 
 builder->InsertNode(sdtCheckBox);
 
-doc->Save(ArtifactsDir + u"StructuredDocumentTag.CheckBox.docx");
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.CheckBox.docx");
 ```
 
 ## See Also

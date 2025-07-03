@@ -24,10 +24,9 @@ bool Aspose::Words::Settings::ViewOptions::get_DisplayBackgroundShape() const
 Shows how to hide/display document background images in view options. 
 ```cpp
 // Use an HTML string to create a new document with a flat background color.
-const String html = u"<html>\r\n                <body style='background-color: blue'>\r\n                    <p>Hello world!</p>\r\n                "
-                    u"</body>\r\n            </html>";
+const System::String html = u"<html>\r\n                <body style='background-color: blue'>\r\n                    <p>Hello world!</p>\r\n                </body>\r\n            </html>";
 
-auto doc = MakeObject<Document>(MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_Unicode()->GetBytes(html)));
+auto doc = System::MakeObject<Aspose::Words::Document>(System::MakeObject<System::IO::MemoryStream>(System::Text::Encoding::get_Unicode()->GetBytes(html)));
 
 // The source for the document has a flat color background,
 // the presence of which will set the "DisplayBackgroundShape" flag to "true".
@@ -38,7 +37,7 @@ ASSERT_TRUE(doc->get_ViewOptions()->get_DisplayBackgroundShape());
 // Set the "DisplayBackgroundShape" to "false" to not display the background color.
 doc->get_ViewOptions()->set_DisplayBackgroundShape(displayBackgroundShape);
 
-doc->Save(ArtifactsDir + u"ViewOptions.DisplayBackgroundShape.docx");
+doc->Save(get_ArtifactsDir() + u"ViewOptions.DisplayBackgroundShape.docx");
 ```
 
 ## See Also

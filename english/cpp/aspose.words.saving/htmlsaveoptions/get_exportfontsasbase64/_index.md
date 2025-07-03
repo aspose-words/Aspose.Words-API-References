@@ -27,31 +27,30 @@ By default, fonts are written to separate files. If this option is set to **true
 
 Shows how to save a .html document with images embedded inside it. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
-auto options = MakeObject<HtmlSaveOptions>();
-options->set_ExportImagesAsBase64(exportItemsAsBase64);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+options->set_ExportImagesAsBase64(exportImagesAsBase64);
 options->set_PrettyFormat(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportImagesAsBase64.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportImagesAsBase64.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.ExportImagesAsBase64.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportImagesAsBase64.html");
 
-ASSERT_TRUE(exportItemsAsBase64 ? outDocContents.Contains(u"<img src=\"data:image/png;base64")
-                                : outDocContents.Contains(u"<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""));
+ASSERT_TRUE(exportImagesAsBase64 ? outDocContents.Contains(u"<img src=\"data:image/png;base64") : outDocContents.Contains(u"<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""));
 ```
 
 
 Shows how to embed fonts inside a saved HTML document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportFontsAsBase64(true);
-options->set_CssStyleSheetType(CssStyleSheetType::Embedded);
+options->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::Embedded);
 options->set_PrettyFormat(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportFontsAsBase64.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportFontsAsBase64.html", options);
 ```
 
 ## See Also

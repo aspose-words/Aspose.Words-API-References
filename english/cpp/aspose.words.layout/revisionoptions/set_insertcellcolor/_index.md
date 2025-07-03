@@ -2,7 +2,7 @@
 title: Aspose::Words::Layout::RevisionOptions::set_InsertCellColor method
 linktitle: set_InsertCellColor
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Layout::RevisionOptions::set_InsertCellColor method. Allows to specify the color to be used for inserted cells Insertion. Default value is Blue in C++.'
+description: 'Aspose::Words::Layout::RevisionOptions::set_InsertCellColor method. Setter for Aspose::Words::Layout::RevisionOptions::get_InsertCellColor in C++.'
 type: docs
 weight: 25500
 url: /cpp/aspose.words.layout/revisionoptions/set_insertcellcolor/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.layout/revisionoptions/set_insertcellcolor/
 ## RevisionOptions::set_InsertCellColor method
 
 
-Allows to specify the color to be used for inserted cells [Insertion](../../../aspose.words/revisiontype/). Default value is [Blue](../../revisioncolor/).
+Setter for [Aspose::Words::Layout::RevisionOptions::get_InsertCellColor](../get_insertcellcolor/).
 
 ```cpp
 void Aspose::Words::Layout::RevisionOptions::set_InsertCellColor(Aspose::Words::Layout::RevisionColor value)

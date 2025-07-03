@@ -23,7 +23,7 @@ System::SharedPtr<Aspose::Words::RunCollection> Aspose::Words::Paragraph::get_Ru
 
 Shows how to determine the revision type of an inline node. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Revision runs.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revision runs.docx");
 
 // When we edit the document while the "Track Changes" option, found in via Review -> Tracking,
 // is turned on in Microsoft Word, the changes we apply count as revisions.
@@ -34,10 +34,10 @@ auto doc = MakeObject<Document>(MyDir + u"Revision runs.docx");
 ASSERT_EQ(6, doc->get_Revisions()->get_Count());
 
 // The parent node of a revision is the run that the revision concerns. A Run is an Inline node.
-auto run = System::ExplicitCast<Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
+auto run = System::ExplicitCast<Aspose::Words::Run>(doc->get_Revisions()->idx_get(0)->get_ParentNode());
 
-SharedPtr<Paragraph> firstParagraph = run->get_ParentParagraph();
-SharedPtr<RunCollection> runs = firstParagraph->get_Runs();
+System::SharedPtr<Aspose::Words::Paragraph> firstParagraph = run->get_ParentParagraph();
+System::SharedPtr<Aspose::Words::RunCollection> runs = firstParagraph->get_Runs();
 
 ASSERT_EQ(6, runs->ToArray()->get_Length());
 

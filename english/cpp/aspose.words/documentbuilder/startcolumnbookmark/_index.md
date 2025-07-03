@@ -39,8 +39,8 @@ The actual position of the inserted [BookmarkStart](../../bookmarkstart/) node m
 
 Shows how to create a column bookmark. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartTable();
 
@@ -68,13 +68,17 @@ builder->Write(u"Cell 5");
 builder->EndColumnBookmark(u"MyBookmark_1");
 builder->EndColumnBookmark(u"MyBookmark_1");
 
+ASSERT_THROW(static_cast<std::function<void()>>([&builder]() -> void
+{
+    builder->EndColumnBookmark(u"BadEndBookmark");
+
 builder->InsertCell();
 builder->Write(u"Cell 6");
 
 builder->EndRow();
 builder->EndTable();
 
-doc->Save(ArtifactsDir + u"Bookmarks.CreateColumnBookmark.docx");
+doc->Save(get_ArtifactsDir() + u"Bookmarks.CreateColumnBookmark.docx");
 ```
 
 ## See Also

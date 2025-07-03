@@ -23,12 +23,12 @@ void Aspose::Words::Document::Cleanup()
 
 Shows how to remove unused custom styles from a document. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-doc->get_Styles()->Add(StyleType::List, u"MyListStyle1");
-doc->get_Styles()->Add(StyleType::List, u"MyListStyle2");
-doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle1");
-doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
+doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle1");
+doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle2");
+doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle1");
+doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle2");
 
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style counts as "used" while applied to some part of the document,
@@ -36,11 +36,11 @@ doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 ASSERT_EQ(8, doc->get_Styles()->get_Count());
 
 // Apply a custom character style, and then a custom list style. Doing so will mark the styles as "used".
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_Style(doc->get_Styles()->idx_get(u"MyParagraphStyle1"));
 builder->Writeln(u"Hello world!");
 
-SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(doc->get_Styles()->idx_get(u"MyListStyle1"));
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(doc->get_Styles()->idx_get(u"MyListStyle1"));
 builder->get_ListFormat()->set_List(list);
 builder->Writeln(u"Item 1");
 builder->Writeln(u"Item 2");
@@ -78,12 +78,12 @@ void Aspose::Words::Document::Cleanup(const System::SharedPtr<Aspose::Words::Cle
 
 Shows how to remove all unused custom styles from a document. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-doc->get_Styles()->Add(StyleType::List, u"MyListStyle1");
-doc->get_Styles()->Add(StyleType::List, u"MyListStyle2");
-doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle1");
-doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
+doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle1");
+doc->get_Styles()->Add(Aspose::Words::StyleType::List, u"MyListStyle2");
+doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle1");
+doc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"MyParagraphStyle2");
 
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style is marked as "used" while there is any text within the document
@@ -91,18 +91,18 @@ doc->get_Styles()->Add(StyleType::Character, u"MyParagraphStyle2");
 ASSERT_EQ(8, doc->get_Styles()->get_Count());
 
 // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->get_Font()->set_Style(doc->get_Styles()->idx_get(u"MyParagraphStyle1"));
 builder->Writeln(u"Hello world!");
 
-SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(doc->get_Styles()->idx_get(u"MyListStyle1"));
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->Add(doc->get_Styles()->idx_get(u"MyListStyle1"));
 builder->get_ListFormat()->set_List(list);
 builder->Writeln(u"Item 1");
 builder->Writeln(u"Item 2");
 
 // Now, there is one unused character style and one unused list style.
 // The Cleanup() method, when configured with a CleanupOptions object, can target unused styles and remove them.
-auto cleanupOptions = MakeObject<CleanupOptions>();
+auto cleanupOptions = System::MakeObject<Aspose::Words::CleanupOptions>();
 cleanupOptions->set_UnusedLists(true);
 cleanupOptions->set_UnusedStyles(true);
 cleanupOptions->set_UnusedBuiltinStyles(true);

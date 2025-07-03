@@ -27,18 +27,18 @@ Although Microsoft Word has a special shape type for images, it appears that in 
 
 Shows how to insert and rotate an image. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a shape with an image.
-SharedPtr<Shape> shape = builder->InsertImage(System::Drawing::Image::FromFile(ImageDir + u"Logo.jpg"));
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 ASSERT_TRUE(shape->get_CanHaveImage());
 ASSERT_TRUE(shape->get_HasImage());
 
 // Rotate the image 45 degrees clockwise.
 shape->set_Rotation(45);
 
-doc->Save(ArtifactsDir + u"Shape.Rotate.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.Rotate.docx");
 ```
 
 ## See Also

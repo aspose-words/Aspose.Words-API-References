@@ -33,21 +33,21 @@ This property is used to resolve relative URIs into absolute in the following ca
 Shows how to open an HTML document with images from a stream using a base URI. 
 ```cpp
 {
-    SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(MyDir + u"Document.html");
+    System::SharedPtr<System::IO::Stream> stream = System::IO::File::OpenRead(get_MyDir() + u"Document.html");
     // Pass the URI of the base folder while loading it
     // so that any images with relative URIs in the HTML document can be found.
-    auto loadOptions = MakeObject<LoadOptions>();
-    loadOptions->set_BaseUri(ImageDir);
+    auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
+    loadOptions->set_BaseUri(get_ImageDir());
 
-    auto doc = MakeObject<Document>(stream, loadOptions);
+    auto doc = System::MakeObject<Aspose::Words::Document>(stream, loadOptions);
 
     // Verify that the first shape of the document contains a valid image.
-    auto shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+    auto shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
     ASSERT_TRUE(shape->get_IsImage());
-    ASSERT_FALSE(shape->get_ImageData()->get_ImageBytes() == nullptr);
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
-    ASSERT_NEAR(32.0, ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
+    ASSERT_FALSE(System::TestTools::IsNull(shape->get_ImageData()->get_ImageBytes()));
+    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Width()), 0.01);
+    ASSERT_NEAR(32.0, Aspose::Words::ConvertUtil::PointToPixel(shape->get_Height()), 0.01);
 }
 ```
 

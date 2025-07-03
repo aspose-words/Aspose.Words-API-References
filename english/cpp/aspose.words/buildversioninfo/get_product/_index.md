@@ -23,7 +23,7 @@ static System::String Aspose::Words::BuildVersionInfo::get_Product()
 
 Shows how to display information about your installed version of Aspose.Words. 
 ```cpp
-std::cout << "I am currently using " << BuildVersionInfo::get_Product() << ", version number " << BuildVersionInfo::get_Version() << "!" << std::endl;
+std::cout << System::String::Format(u"I am currently using {0}, version number {1}!", Aspose::Words::BuildVersionInfo::get_Product(), Aspose::Words::BuildVersionInfo::get_Version()) << std::endl;
 ```
 
 ## See Also

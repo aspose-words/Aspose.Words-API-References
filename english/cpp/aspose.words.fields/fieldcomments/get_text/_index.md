@@ -23,14 +23,14 @@ System::String Aspose::Words::Fields::FieldComments::get_Text()
 
 Shows how to use the COMMENTS field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set a value for the document's "Comments" built-in property.
 doc->get_BuiltInDocumentProperties()->set_Comments(u"My comment.");
 
 // Create a COMMENTS field to display the value of that built-in property.
-auto field = System::ExplicitCast<FieldComments>(builder->InsertField(FieldType::FieldComments, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldComments>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldComments, true));
 field->Update();
 
 ASSERT_EQ(u" COMMENTS ", field->GetFieldCode());
@@ -45,7 +45,7 @@ field->Update();
 ASSERT_EQ(u" COMMENTS  \"My overriding comment.\"", field->GetFieldCode());
 ASSERT_EQ(u"My overriding comment.", field->get_Result());
 
-doc->Save(ArtifactsDir + u"Field.COMMENTS.docx");
+doc->Save(get_ArtifactsDir() + u"Field.COMMENTS.docx");
 ```
 
 ## See Also

@@ -23,19 +23,19 @@ bool Aspose::Words::PageSetup::get_BorderSurroundsFooter()
 
 Shows how to apply a border to the page and header/footer. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world! This is the main body text.");
-builder->MoveToHeaderFooter(HeaderFooterType::HeaderPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::HeaderPrimary);
 builder->Write(u"This is the header.");
-builder->MoveToHeaderFooter(HeaderFooterType::FooterPrimary);
+builder->MoveToHeaderFooter(Aspose::Words::HeaderFooterType::FooterPrimary);
 builder->Write(u"This is the footer.");
 builder->MoveToDocumentEnd();
 
 // Insert a blue double-line border.
-SharedPtr<PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
-pageSetup->get_Borders()->set_LineStyle(LineStyle::Double);
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_Sections()->idx_get(0)->get_PageSetup();
+pageSetup->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Double);
 pageSetup->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
 
 // A section's PageSetup object has "BorderSurroundsHeader" and "BorderSurroundsFooter" flags that determine
@@ -45,7 +45,7 @@ pageSetup->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
 pageSetup->set_BorderSurroundsHeader(true);
 pageSetup->set_BorderSurroundsFooter(false);
 
-doc->Save(ArtifactsDir + u"PageSetup.PageBorder.docx");
+doc->Save(get_ArtifactsDir() + u"PageSetup.PageBorder.docx");
 ```
 
 ## See Also

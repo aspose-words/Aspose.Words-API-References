@@ -23,36 +23,7 @@ EMF+ Dual metafiles contains both EMF+ and EMF parts. MS Word and GDI+ always re
 
 This option is used only when metafile is rendered as vector graphics. When metafile is rendered to bitmap, EMF+ part is always used.
 
-The default value is [EmfPlusWithFallback](../../emfplusdualrenderingmode/).
-
-## Examples
-
-
-
-Shows how to configure Enhanced Windows Metafile-related rendering options when saving to PDF. 
-```cpp
-auto doc = MakeObject<Document>(MyDir + u"EMF.docx");
-
-// Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
-// to modify how that method converts the document to .PDF.
-auto saveOptions = MakeObject<PdfSaveOptions>();
-
-// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.Emf"
-// to only render the EMF part of an EMF+ dual metafile.
-// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlus" to
-// to render the EMF+ part of an EMF+ dual metafile.
-// Set the "EmfPlusDualRenderingMode" property to "EmfPlusDualRenderingMode.EmfPlusWithFallback"
-// to render the EMF+ part of an EMF+ dual metafile if all of the EMF+ records are supported.
-// Otherwise, Aspose.Words will render the EMF part.
-saveOptions->get_MetafileRenderingOptions()->set_EmfPlusDualRenderingMode(renderingMode);
-
-// Set the "UseEmfEmbeddedToWmf" property to "true" to render embedded EMF data
-// for metafiles that we can render as vector graphics.
-saveOptions->get_MetafileRenderingOptions()->set_UseEmfEmbeddedToWmf(true);
-
-doc->Save(ArtifactsDir + u"PdfSaveOptions.RenderMetafile.pdf", saveOptions);
-```
-
+The default value is [EmfPlusWithFallback](../../emfplusdualrenderingmode/). 
 ## See Also
 
 * Enum [EmfPlusDualRenderingMode](../../emfplusdualrenderingmode/)

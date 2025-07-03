@@ -23,18 +23,18 @@ bool Aspose::Words::Fields::FieldFileSize::get_IsInKilobytes()
 
 Shows how to display the file size of a document with a FILESIZE field. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
 ASSERT_EQ(18105, doc->get_BuiltInDocumentProperties()->get_Bytes());
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->MoveToDocumentEnd();
 builder->InsertParagraph();
 
 // Below are three different units of measure
 // with which FILESIZE fields can display the document's file size.
 // 1 -  Bytes:
-auto field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldFileSize, true));
 field->Update();
 
 ASSERT_EQ(u" FILESIZE ", field->GetFieldCode());
@@ -42,7 +42,7 @@ ASSERT_EQ(u"18105", field->get_Result());
 
 // 2 -  Kilobytes:
 builder->InsertParagraph();
-field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldFileSize, true));
 field->set_IsInKilobytes(true);
 field->Update();
 
@@ -51,7 +51,7 @@ ASSERT_EQ(u"18", field->get_Result());
 
 // 3 -  Megabytes:
 builder->InsertParagraph();
-field = System::ExplicitCast<FieldFileSize>(builder->InsertField(FieldType::FieldFileSize, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldFileSize>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldFileSize, true));
 field->set_IsInMegabytes(true);
 field->Update();
 
@@ -60,7 +60,7 @@ ASSERT_EQ(u"0", field->get_Result());
 
 // To update the values of these fields while editing in Microsoft Word,
 // we must first save the changes, and then manually update these fields.
-doc->Save(ArtifactsDir + u"Field.FILESIZE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.FILESIZE.docx");
 ```
 
 ## See Also

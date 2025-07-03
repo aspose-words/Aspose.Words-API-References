@@ -23,12 +23,12 @@ System::SharedPtr<Aspose::Words::Range> Aspose::Words::Node::get_Range()
 
 Shows how to delete all the nodes from a range. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add text to the first section in the document, and then add another section.
 builder->Write(u"Section 1. ");
-builder->InsertBreak(BreakType::SectionBreakContinuous);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakContinuous);
 builder->Write(u"Section 2.");
 
 ASSERT_EQ(u"Section 1. \fSection 2.", doc->GetText().Trim());

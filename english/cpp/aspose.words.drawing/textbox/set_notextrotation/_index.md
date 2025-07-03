@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::TextBox::set_NoTextRotation method
 linktitle: set_NoTextRotation
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::TextBox::set_NoTextRotation method. Sets a boolean value indicating either text of the TextBox should not rotate when the shape is rotated in C++.'
+description: 'Aspose::Words::Drawing::TextBox::set_NoTextRotation method. Setter for Aspose::Words::Drawing::TextBox::get_NoTextRotation in C++.'
 type: docs
 weight: 25000
 url: /cpp/aspose.words.drawing/textbox/set_notextrotation/
@@ -10,16 +10,12 @@ url: /cpp/aspose.words.drawing/textbox/set_notextrotation/
 ## TextBox::set_NoTextRotation method
 
 
-Sets a boolean value indicating either text of the [TextBox](../) should not rotate when the shape is rotated.
+Setter for [Aspose::Words::Drawing::TextBox::get_NoTextRotation](../get_notextrotation/).
 
 ```cpp
 void Aspose::Words::Drawing::TextBox::set_NoTextRotation(bool value)
 ```
 
-## Remarks
-
-
-The default value is **false**
 ## See Also
 
 * Class [TextBox](../)

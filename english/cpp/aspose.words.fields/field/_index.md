@@ -25,7 +25,7 @@ class Field : public virtual System::Object
 | [get_FieldEnd](./get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](./get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](./get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](./get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](./get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](./get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](./get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](./get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -37,7 +37,7 @@ class Field : public virtual System::Object
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](./remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](./set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](./set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](./get_isdirty/). |
 | [set_IsLocked](./set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](./get_islocked/). |
 | [set_LocaleId](./set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](./get_localeid/). |
 | [set_Result](./set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](./get_result/). |
@@ -66,16 +66,16 @@ You do not create instances of the [Field](./) class directly. To create a new f
 
 Shows how to insert a field into a document using a field code. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
+System::SharedPtr<Aspose::Words::Fields::Field> field = builder->InsertField(u"DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-ASSERT_EQ(FieldType::FieldDate, field->get_Type());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, field->get_Type());
 ASSERT_EQ(u"DATE \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());
 
 // This overload of the InsertField method automatically updates inserted fields.
-ASSERT_LE(System::Math::Abs((System::DateTime::Parse(field->get_Result()) - System::DateTime::get_Today()).get_Hours()), 24);
+ASSERT_TRUE((System::DateTime::get_Today() - System::DateTime::Parse(field->get_Result())).get_Days() <= 1);
 ```
 
 ## See Also

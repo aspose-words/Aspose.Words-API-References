@@ -23,8 +23,8 @@ bool Aspose::Words::Saving::TxtSaveOptions::get_PreserveTableLayout() const
 
 Shows how to preserve the layout of tables when converting to plaintext. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->StartTable();
 builder->InsertCell();
@@ -40,7 +40,7 @@ builder->EndTable();
 
 // Create a "TxtSaveOptions" object, which we can pass to the document's "Save" method
 // to modify how we save the document to plaintext.
-auto txtSaveOptions = MakeObject<TxtSaveOptions>();
+auto txtSaveOptions = System::MakeObject<Aspose::Words::Saving::TxtSaveOptions>();
 
 // Set the "PreserveTableLayout" property to "true" to apply whitespace padding to the contents
 // of the output plaintext document to preserve as much of the table's layout as possible.
@@ -48,19 +48,17 @@ auto txtSaveOptions = MakeObject<TxtSaveOptions>();
 // as a continuous body of text, with just a new line for each row.
 txtSaveOptions->set_PreserveTableLayout(preserveTableLayout);
 
-doc->Save(ArtifactsDir + u"TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions);
+doc->Save(get_ArtifactsDir() + u"TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions);
 
-String docText = System::IO::File::ReadAllText(ArtifactsDir + u"TxtSaveOptions.PreserveTableLayout.txt");
+System::String docText = System::IO::File::ReadAllText(get_ArtifactsDir() + u"TxtSaveOptions.PreserveTableLayout.txt");
 
 if (preserveTableLayout)
 {
-    ASSERT_EQ(String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") +
-                  u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n",
-              docText);
+    ASSERT_EQ(System::String(u"Row 1, cell 1                                            Row 1, cell 2\r\n") + u"Row 2, cell 1                                            Row 2, cell 2\r\n\r\n", docText);
 }
 else
 {
-    ASSERT_EQ(String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n", docText);
+    ASSERT_EQ(System::String(u"Row 1, cell 1\r") + u"Row 1, cell 2\r" + u"Row 2, cell 1\r" + u"Row 2, cell 2\r\r\n", docText);
 }
 ```
 
