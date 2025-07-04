@@ -5,7 +5,7 @@ articleTitle: IDocumentReaderPlugin
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.IDocumentReaderPlugin interface, enabling seamless integration of external readers to convert files into documents effortlessly.
 type: docs
-weight: 3620
+weight: 3610
 url: /net/aspose.words/idocumentreaderplugin/
 ---
 ## IDocumentReaderPlugin interface

@@ -47,7 +47,7 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir 
 LoadOptions loadOptions = new LoadOptions("MyPassword");
 doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", loadOptions);
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

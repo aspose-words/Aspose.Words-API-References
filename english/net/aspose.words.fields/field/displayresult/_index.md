@@ -34,14 +34,14 @@ fieldAuthor.AuthorName = "John Doe";
 
 // We can use the DisplayResult property to verify what exact text
 // a field would display in its place in the document.
-Assert.AreEqual(string.Empty, fieldAuthor.DisplayResult);
+Assert.That(fieldAuthor.DisplayResult, Is.EqualTo(string.Empty));
 
 // Fields do not maintain accurate result values in real-time. 
 // To make sure our fields display accurate results at any given time,
 // such as right before a save operation, we need to update them manually.
 fieldAuthor.Update();
 
-Assert.AreEqual("John Doe", fieldAuthor.DisplayResult);
+Assert.That(fieldAuthor.DisplayResult, Is.EqualTo("John Doe"));
 
 doc.Save(ArtifactsDir + "Field.DisplayResult.docx");
 ```

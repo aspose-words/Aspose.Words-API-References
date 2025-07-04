@@ -33,7 +33,7 @@ Document doc = new Document(new MemoryStream(Encoding.Unicode.GetBytes(html)));
 
 // The source for the document has a flat color background,
 // the presence of which will set the "DisplayBackgroundShape" flag to "true".
-Assert.True(doc.ViewOptions.DisplayBackgroundShape);
+Assert.That(doc.ViewOptions.DisplayBackgroundShape, Is.True);
 
 // Keep the "DisplayBackgroundShape" as "true" to get the document to display the background color.
 // This may affect some text colors to improve visibility.

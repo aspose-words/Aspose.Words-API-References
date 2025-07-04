@@ -40,28 +40,20 @@ Table table = doc.FirstSection.Body.Tables[0];
 switch (tableContentAlignment)
 {
     case TableContentAlignment.Auto:
-        Assert.AreEqual(ParagraphAlignment.Right,
-            table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment);
-        Assert.AreEqual(ParagraphAlignment.Center,
-            table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment);
+        Assert.That(table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+        Assert.That(table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Center));
         break;
     case TableContentAlignment.Left:
-        Assert.AreEqual(ParagraphAlignment.Left,
-            table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment);
-        Assert.AreEqual(ParagraphAlignment.Left,
-            table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment);
+        Assert.That(table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+        Assert.That(table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
         break;
     case TableContentAlignment.Center:
-        Assert.AreEqual(ParagraphAlignment.Center,
-            table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment);
-        Assert.AreEqual(ParagraphAlignment.Center,
-            table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment);
+        Assert.That(table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Center));
+        Assert.That(table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Center));
         break;
     case TableContentAlignment.Right:
-        Assert.AreEqual(ParagraphAlignment.Right,
-            table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment);
-        Assert.AreEqual(ParagraphAlignment.Right,
-            table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment);
+        Assert.That(table.FirstRow.Cells[0].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+        Assert.That(table.FirstRow.Cells[1].FirstParagraph.ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
         break;
 }
 ```

@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.DigitalSignatures.DigitalSignatureType enum to enhance your document security with versatile digital signature options.
 type: docs
-weight: 600
+weight: 590
 url: /net/aspose.words.digitalsignatures/digitalsignaturetype/
 ---
 ## DigitalSignatureType enumeration
@@ -30,7 +30,7 @@ Shows how to sign documents with X.509 certificates.
 
 ```csharp
 // Verify that a document is not signed.
-Assert.False(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature);
+Assert.That(FileFormatUtil.DetectFileFormat(MyDir + "Document.docx").HasDigitalSignature, Is.False);
 
 // Create a CertificateHolder object from a PKCS12 file, which we will use to sign the document.
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
@@ -41,7 +41,7 @@ SignOptions signOptions = new SignOptions { SignTime = DateTime.Now };
 DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "Document.DigitalSignature.docx",
     certificateHolder, signOptions);
 
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+Assert.That(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature, Is.True);
 
 // 2 - Take a document from a stream and save a signed copy to another stream.
 using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open))
@@ -52,17 +52,17 @@ using (FileStream inDoc = new FileStream(MyDir + "Document.docx", FileMode.Open)
     }
 }
 
-Assert.True(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature);
+Assert.That(FileFormatUtil.DetectFileFormat(ArtifactsDir + "Document.DigitalSignature.docx").HasDigitalSignature, Is.True);
 
 // Please verify that all of the document's digital signatures are valid and check their details.
 Document signedDoc = new Document(ArtifactsDir + "Document.DigitalSignature.docx");
 DigitalSignatureCollection digitalSignatureCollection = signedDoc.DigitalSignatures;
 
-Assert.True(digitalSignatureCollection.IsValid);
-Assert.AreEqual(1, digitalSignatureCollection.Count);
-Assert.AreEqual(DigitalSignatureType.XmlDsig, digitalSignatureCollection[0].SignatureType);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].IssuerName);
-Assert.AreEqual("CN=Morzal.Me", signedDoc.DigitalSignatures[0].SubjectName);
+Assert.That(digitalSignatureCollection.IsValid, Is.True);
+Assert.That(digitalSignatureCollection.Count, Is.EqualTo(1));
+Assert.That(digitalSignatureCollection[0].SignatureType, Is.EqualTo(DigitalSignatureType.XmlDsig));
+Assert.That(signedDoc.DigitalSignatures[0].IssuerName, Is.EqualTo("CN=Morzal.Me"));
+Assert.That(signedDoc.DigitalSignatures[0].SubjectName, Is.EqualTo("CN=Morzal.Me"));
 ```
 
 ### See Also

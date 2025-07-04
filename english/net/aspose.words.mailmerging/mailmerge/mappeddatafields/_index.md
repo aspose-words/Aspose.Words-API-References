@@ -43,9 +43,9 @@ public void MappedDataFieldCollection()
     mappedDataFields.Add("Column3", "Column2");
 
     // The MERGEFIELD name is the "key" to the respective data source column name "value".
-    Assert.AreEqual("DataSourceColumnName", mappedDataFields["MergeFieldName"]);
-    Assert.True(mappedDataFields.ContainsKey("MergeFieldName"));
-    Assert.True(mappedDataFields.ContainsValue("DataSourceColumnName"));
+    Assert.That(mappedDataFields["MergeFieldName"], Is.EqualTo("DataSourceColumnName"));
+    Assert.That(mappedDataFields.ContainsKey("MergeFieldName"), Is.True);
+    Assert.That(mappedDataFields.ContainsValue("DataSourceColumnName"), Is.True);
 
     // Now if we run this mail merge, the "Column3" MERGEFIELDs will take data from "Column2" of the table.
     doc.MailMerge.Execute(dataTable);
@@ -53,7 +53,7 @@ public void MappedDataFieldCollection()
     doc.Save(ArtifactsDir + "MailMerge.MappedDataFieldCollection.docx");
 
     // We can iterate over the elements in this collection.
-    Assert.AreEqual(2, mappedDataFields.Count);
+    Assert.That(mappedDataFields.Count, Is.EqualTo(2));
 
     using (IEnumerator<KeyValuePair<string, string>> enumerator = mappedDataFields.GetEnumerator())
         while (enumerator.MoveNext())
@@ -63,12 +63,12 @@ public void MappedDataFieldCollection()
     // We can also remove elements from the collection.
     mappedDataFields.Remove("MergeFieldName");
 
-    Assert.False(mappedDataFields.ContainsKey("MergeFieldName"));
-    Assert.False(mappedDataFields.ContainsValue("DataSourceColumnName"));
+    Assert.That(mappedDataFields.ContainsKey("MergeFieldName"), Is.False);
+    Assert.That(mappedDataFields.ContainsValue("DataSourceColumnName"), Is.False);
 
     mappedDataFields.Clear();
 
-    Assert.AreEqual(0, mappedDataFields.Count);
+    Assert.That(mappedDataFields.Count, Is.EqualTo(0));
 }
 
 /// <summary>

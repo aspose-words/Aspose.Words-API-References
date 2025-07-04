@@ -27,11 +27,11 @@ Removes all smart tags from descendant nodes of a composite node.
 ```csharp
 Document doc = new Document(MyDir + "Smart tags.doc");
 
-Assert.AreEqual(8, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(8));
 
 doc.RemoveSmartTags();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
 ```
 
 Shows how to create smart tags.
@@ -81,11 +81,11 @@ public void Create()
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
-    Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(2));
 
     doc.RemoveSmartTags();
 
-    Assert.AreEqual(0, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
 }
 
 /// <summary>

@@ -5,7 +5,7 @@ articleTitle: ListCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Lists.ListCollection class for efficient management of bulleted and numbered lists, enhancing document formatting and organization.
 type: docs
-weight: 3920
+weight: 3910
 url: /net/aspose.words.lists/listcollection/
 ---
 ## ListCollection class
@@ -138,7 +138,7 @@ Shows how to work with list levels.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Assert.False(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 // We can create nested lists by increasing the indent level. 
@@ -149,7 +149,7 @@ Assert.False(builder.ListFormat.IsListItem);
 // Numbered lists create a logical order for their paragraphs by numbering each item.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
-Assert.True(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.True);
 
 // By setting the "ListLevelNumber" property, we can increase the list level
 // to begin a self-contained sub-list at the current list item.
@@ -175,7 +175,7 @@ for (int i = 0; i < 9; i++)
 // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
 builder.ListFormat.List = null;
 
-Assert.False(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ```

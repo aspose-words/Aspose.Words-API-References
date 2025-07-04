@@ -54,7 +54,7 @@ ReportingEngine engine = new ReportingEngine() { Options = ReportBuildOptions.Al
 engine.BuildReport(doc, new object());
 
 // We get an empty string because we can't access the GetType() method.
-Assert.AreEqual(string.Empty, doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(string.Empty));
 ```
 
 ### See Also

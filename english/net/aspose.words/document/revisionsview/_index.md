@@ -29,16 +29,16 @@ Document doc = new Document(MyDir + "Revisions at list levels.docx");
 doc.UpdateListLabels();
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
-Assert.AreEqual("1.", paragraphs[0].ListLabel.LabelString);
-Assert.AreEqual("a.", paragraphs[1].ListLabel.LabelString);
-Assert.AreEqual(string.Empty, paragraphs[2].ListLabel.LabelString);
+Assert.That(paragraphs[0].ListLabel.LabelString, Is.EqualTo("1."));
+Assert.That(paragraphs[1].ListLabel.LabelString, Is.EqualTo("a."));
+Assert.That(paragraphs[2].ListLabel.LabelString, Is.EqualTo(string.Empty));
 
 // View the document object as if all the revisions are accepted. Currently supports list labels.
 doc.RevisionsView = RevisionsView.Final;
 
-Assert.AreEqual(string.Empty, paragraphs[0].ListLabel.LabelString);
-Assert.AreEqual("1.", paragraphs[1].ListLabel.LabelString);
-Assert.AreEqual("a.", paragraphs[2].ListLabel.LabelString);
+Assert.That(paragraphs[0].ListLabel.LabelString, Is.EqualTo(string.Empty));
+Assert.That(paragraphs[1].ListLabel.LabelString, Is.EqualTo("1."));
+Assert.That(paragraphs[2].ListLabel.LabelString, Is.EqualTo("a."));
 ```
 
 ### See Also

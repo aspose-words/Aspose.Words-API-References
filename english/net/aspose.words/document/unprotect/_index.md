@@ -30,7 +30,7 @@ Shows how to protect and unprotect a document.
 Document doc = new Document();
 doc.Protect(ProtectionType.ReadOnly, "password");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 // If we open this document with Microsoft Word intending to edit it,
 // we will need to apply the password to get through the protection.
@@ -40,7 +40,7 @@ doc.Save(ArtifactsDir + "Document.Protect.docx");
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
-Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
+Assert.That(protectedDoc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
@@ -48,20 +48,20 @@ builder.Writeln("Text added to a protected document.");
 // 1 - With no password:
 doc.Unprotect();
 
-Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.NoProtection));
 
 doc.Protect(ProtectionType.ReadOnly, "NewPassword");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 doc.Unprotect("WrongPassword");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 // 2 - With the correct password:
 doc.Unprotect("NewPassword");
 
-Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.NoProtection));
 ```
 
 ### See Also
@@ -102,7 +102,7 @@ Shows how to protect and unprotect a document.
 Document doc = new Document();
 doc.Protect(ProtectionType.ReadOnly, "password");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 // If we open this document with Microsoft Word intending to edit it,
 // we will need to apply the password to get through the protection.
@@ -112,7 +112,7 @@ doc.Save(ArtifactsDir + "Document.Protect.docx");
 // We have not encrypted the document in any way, and we do not need the password to open and edit it programmatically.
 Document protectedDoc = new Document(ArtifactsDir + "Document.Protect.docx");
 
-Assert.AreEqual(ProtectionType.ReadOnly, protectedDoc.ProtectionType);
+Assert.That(protectedDoc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 DocumentBuilder builder = new DocumentBuilder(protectedDoc);
 builder.Writeln("Text added to a protected document.");
@@ -120,20 +120,20 @@ builder.Writeln("Text added to a protected document.");
 // 1 - With no password:
 doc.Unprotect();
 
-Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.NoProtection));
 
 doc.Protect(ProtectionType.ReadOnly, "NewPassword");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 doc.Unprotect("WrongPassword");
 
-Assert.AreEqual(ProtectionType.ReadOnly, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.ReadOnly));
 
 // 2 - With the correct password:
 doc.Unprotect("NewPassword");
 
-Assert.AreEqual(ProtectionType.NoProtection, doc.ProtectionType);
+Assert.That(doc.ProtectionType, Is.EqualTo(ProtectionType.NoProtection));
 ```
 
 ### See Also

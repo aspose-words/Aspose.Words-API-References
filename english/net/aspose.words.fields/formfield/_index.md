@@ -5,7 +5,7 @@ articleTitle: FormField
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FormField class to easily create and manage customizable form fields in your documents for enhanced user interaction.
 type: docs
-weight: 3030
+weight: 3020
 url: /net/aspose.words.fields/formfield/
 ---
 ## FormField class
@@ -104,10 +104,10 @@ doc = DocumentHelper.SaveOpen(doc);
 
 Run formFieldRun = doc.FirstSection.Body.FirstParagraph.Runs[1];
 
-Assert.AreEqual("Aspose.FormField", formFieldRun.Text);
-Assert.AreEqual(true, formFieldRun.Font.Bold);
-Assert.AreEqual(24, formFieldRun.Font.Size);
-Assert.AreEqual(Color.Red.ToArgb(), formFieldRun.Font.Color.ToArgb());
+Assert.That(formFieldRun.Text, Is.EqualTo("Aspose.FormField"));
+Assert.That(formFieldRun.Font.Bold, Is.EqualTo(true));
+Assert.That(formFieldRun.Font.Size, Is.EqualTo(24));
+Assert.That(formFieldRun.Font.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
 ```
 
 Shows how to insert a combo box.
@@ -121,9 +121,9 @@ builder.Write("Please select a fruit: ");
 // Insert a combo box which will allow a user to choose an option from a collection of strings.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
-Assert.AreEqual("MyComboBox", comboBox.Name);
-Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
-Assert.AreEqual("Apple", comboBox.Result);
+Assert.That(comboBox.Name, Is.EqualTo("MyComboBox"));
+Assert.That(comboBox.Type, Is.EqualTo(FieldType.FieldFormDropDown));
+Assert.That(comboBox.Result, Is.EqualTo("Apple"));
 
 // The form field will appear in the form of a "select" html tag.
 doc.Save(ArtifactsDir + "FormFields.Create.html");

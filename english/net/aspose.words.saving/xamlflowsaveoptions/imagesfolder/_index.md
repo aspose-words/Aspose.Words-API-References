@@ -39,7 +39,7 @@ public void ImageFolder()
     // to modify how we save the document to the XAML save format.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
-    Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
+    Assert.That(options.SaveFormat, Is.EqualTo(SaveFormat.XamlFlow));
 
     // Use the "ImagesFolder" property to assign a folder in the local file system into which
     // Aspose.Words will save all the document's linked images.

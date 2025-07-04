@@ -5,7 +5,7 @@ articleTitle: FieldPrintDate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldPrintDate class to effortlessly implement the PRINTDATE field, enhancing document automation and efficiency.
 type: docs
-weight: 2700
+weight: 2690
 url: /net/aspose.words.fields/fieldprintdate/
 ---
 ## FieldPrintDate class
@@ -69,31 +69,31 @@ Document doc = new Document(MyDir + "Field sample - PRINTDATE.docx");
 // If no printing has taken place, these fields will display "0/0/0000".
 FieldPrintDate field = (FieldPrintDate)doc.Range.Fields[0];
 
-Assert.AreEqual("3/25/2020 12:00:00 AM", field.Result);
-Assert.AreEqual(" PRINTDATE ", field.GetFieldCode());
+Assert.That(field.Result, Is.EqualTo("3/25/2020 12:00:00 AM"));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINTDATE "));
 
 // Below are three different calendar types according to which the PRINTDATE field
 // can display the date and time of the last printing operation.
 // 1 -  Islamic Lunar Calendar:
 field = (FieldPrintDate)doc.Range.Fields[1];
 
-Assert.True(field.UseLunarCalendar);
-Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
-Assert.AreEqual(" PRINTDATE  \\h", field.GetFieldCode());
+Assert.That(field.UseLunarCalendar, Is.True);
+Assert.That(field.Result, Is.EqualTo("8/1/1441 12:00:00 AM"));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINTDATE  \\h"));
 
 field = (FieldPrintDate)doc.Range.Fields[2];
 
 // 2 -  Umm al-Qura calendar:
-Assert.True(field.UseUmAlQuraCalendar);
-Assert.AreEqual("8/1/1441 12:00:00 AM", field.Result);
-Assert.AreEqual(" PRINTDATE  \\u", field.GetFieldCode());
+Assert.That(field.UseUmAlQuraCalendar, Is.True);
+Assert.That(field.Result, Is.EqualTo("8/1/1441 12:00:00 AM"));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINTDATE  \\u"));
 
 field = (FieldPrintDate)doc.Range.Fields[3];
 
 // 3 -  Indian National Calendar:
-Assert.True(field.UseSakaEraCalendar);
-Assert.AreEqual("1/5/1942 12:00:00 AM", field.Result);
-Assert.AreEqual(" PRINTDATE  \\s", field.GetFieldCode());
+Assert.That(field.UseSakaEraCalendar, Is.True);
+Assert.That(field.Result, Is.EqualTo("1/5/1942 12:00:00 AM"));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINTDATE  \\s"));
 ```
 
 ### See Also

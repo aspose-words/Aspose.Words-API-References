@@ -5,7 +5,7 @@ articleTitle: MarkupLevel
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.MarkupLevel enum, defining where StructuredDocumentTags fit in your document tree for enhanced organization and control.
 type: docs
-weight: 4670
+weight: 4660
 url: /net/aspose.words.markup/markuplevel/
 ---
 ## MarkupLevel enumeration
@@ -47,7 +47,7 @@ StructuredDocumentTag sdtRichText =
 builder.InsertNode(sdtPlainText);
 builder.InsertNode(sdtRichText);
 
-Assert.AreEqual(NodeType.StructuredDocumentTag, sdtPlainText.NodeType);
+Assert.That(sdtPlainText.NodeType, Is.EqualTo(NodeType.StructuredDocumentTag));
 
 NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 
@@ -57,8 +57,8 @@ foreach (Node node in tags)
 
     Console.WriteLine(sdt.WordOpenXMLMinimal);
 
-    Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
-    Assert.AreEqual("Quote", sdt.StyleName);
+    Assert.That(sdt.Style.StyleIdentifier, Is.EqualTo(StyleIdentifier.Quote));
+    Assert.That(sdt.StyleName, Is.EqualTo("Quote"));
 }
 ```
 

@@ -67,13 +67,13 @@ private class CustomCssSavingCallback : ICssSavingCallback
     public void CssSaving(CssSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);
         args.IsExportNeeded = mIsExportNeeded;
         args.KeepCssStreamOpen = mKeepCssStreamOpen;
 
-        Assert.True(args.CssStream.CanWrite);
+        Assert.That(args.CssStream.CanWrite, Is.True);
     }
 
     private readonly string mCssTextFileName;

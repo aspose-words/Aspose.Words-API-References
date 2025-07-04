@@ -40,15 +40,15 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ex
 
 if (exportSvgs)
 {
-    Assert.False(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg"));
-    Assert.True(Regex.Match(outDocContents,
-        "<image id=\"image004\" xlink:href=.+/>").Success);
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg"), Is.False);
+    Assert.That(Regex.Match(outDocContents,
+        "<image id=\"image004\" xlink:href=.+/>").Success, Is.True);
 }
 else
 {
-    Assert.True(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg"));
-    Assert.True(Regex.Match(outDocContents,
-        "<object type=\"image/svg[+]xml\" data=\"HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001[.]svg\"></object>").Success);
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001.svg"), Is.True);
+    Assert.That(Regex.Match(outDocContents,
+        "<object type=\"image/svg[+]xml\" data=\"HtmlFixedSaveOptions.ExportEmbeddedSvgs/svg001[.]svg\"></object>").Success, Is.True);
 }
 ```
 

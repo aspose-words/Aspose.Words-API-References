@@ -5,7 +5,7 @@ articleTitle: FieldSubject
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSubject class for easy implementation of the SUBJECT field, enhancing document automation and formatting efficiency.
 type: docs
-weight: 2860
+weight: 2850
 url: /net/aspose.words.fields/fieldsubject/
 ---
 ## FieldSubject class
@@ -70,8 +70,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldSubject field = (FieldSubject)builder.InsertField(FieldType.FieldSubject, true);
 field.Update();
 
-Assert.AreEqual(" SUBJECT ", field.GetFieldCode());
-Assert.AreEqual("My subject", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SUBJECT "));
+Assert.That(field.Result, Is.EqualTo("My subject"));
 
 // If we give the SUBJECT field's Text property value and update it, the field will
 // overwrite the current value of the "Subject" built-in property with the value of its Text property,
@@ -79,10 +79,10 @@ Assert.AreEqual("My subject", field.Result);
 field.Text = "My new subject";
 field.Update();
 
-Assert.AreEqual(" SUBJECT  \"My new subject\"", field.GetFieldCode());
-Assert.AreEqual("My new subject", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SUBJECT  \"My new subject\""));
+Assert.That(field.Result, Is.EqualTo("My new subject"));
 
-Assert.AreEqual("My new subject", doc.BuiltInDocumentProperties.Subject);
+Assert.That(doc.BuiltInDocumentProperties.Subject, Is.EqualTo("My new subject"));
 
 doc.Save(ArtifactsDir + "Field.SUBJECT.docx");
 ```

@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Insert headings that can serve as TOC entries of levels 1 and 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-Assert.True(builder.ParagraphFormat.IsHeading);
+Assert.That(builder.ParagraphFormat.IsHeading, Is.True);
 
 builder.Writeln("Heading 1");
 

@@ -43,11 +43,11 @@ public void ConvertNumbersToHexadecimal()
 
     Console.WriteLine(numberHexer.GetLog());
 
-    Assert.AreEqual(4, replacementCount);
-    Assert.AreEqual("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
-                    "0x7B, 0x1C8, 0x315 and 0x43E3.", doc.GetText().Trim());
-    Assert.AreEqual(4, doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
-            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()));
+    Assert.That(replacementCount, Is.EqualTo(4));
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
+                    "0x7B, 0x1C8, 0x315 and 0x43E3."));
+    Assert.That(doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
+            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()), Is.EqualTo(4));
 }
 
 /// <summary>

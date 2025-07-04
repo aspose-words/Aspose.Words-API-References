@@ -5,7 +5,7 @@ articleTitle: DocSaveOptions
 second_title: Aspose.Words for .NET
 description: Optimize document saving with Aspose.Words.Saving.DocSaveOptions. Customize your Doc and Dot formats for enhanced quality and flexibility.
 type: docs
-weight: 5680
+weight: 5670
 url: /net/aspose.words.saving/docsaveoptions/
 ---
 ## DocSaveOptions class
@@ -86,7 +86,7 @@ Assert.Throws<IncorrectPasswordException>(() => doc = new Document(ArtifactsDir 
 LoadOptions loadOptions = new LoadOptions("MyPassword");
 doc = new Document(ArtifactsDir + "DocSaveOptions.SaveAsDoc.doc", loadOptions);
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

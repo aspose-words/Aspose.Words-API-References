@@ -38,8 +38,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 options.PageLayout = MultiPageLayout.Grid(3, 10, 10);
 
 // Alternative layouts:
-// options.MultiPageLayout = MultiPageLayout.Horizontal(10);
-// options.MultiPageLayout = MultiPageLayout.Vertical(10);
+// options.PageLayout = MultiPageLayout.Horizontal(10);
+// options.PageLayout = MultiPageLayout.Vertical(10);
 
 // Customize the background and border.
 options.PageLayout.BackColor = Color.LightGray;

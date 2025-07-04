@@ -5,7 +5,7 @@ articleTitle: ComHelper
 second_title: Aspose.Words for .NET
 description: Unlock seamless document integration with Aspose.Words.ComHelper. Effortlessly load and manage documents for COM clients with powerful features.
 type: docs
-weight: 410
+weight: 400
 url: /net/aspose.words/comhelper/
 ---
 ## ComHelper class
@@ -57,14 +57,14 @@ ComHelper comHelper = new ComHelper();
 // 1 -  Using a local system filename:
 Document doc = comHelper.Open(MyDir + "Document.docx");
 
-Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
 
 // 2 -  From a stream:
 using (FileStream stream = new FileStream(MyDir + "Document.docx", FileMode.Open))
 {
     doc = comHelper.Open(stream);
 
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
 }
 ```
 

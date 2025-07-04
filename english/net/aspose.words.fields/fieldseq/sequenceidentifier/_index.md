@@ -35,8 +35,8 @@ fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.ResetNumber = "100";
 fieldSeq.Update();
 
-Assert.AreEqual(" SEQ  MySequence \\r 100", fieldSeq.GetFieldCode());
-Assert.AreEqual("100", fieldSeq.Result);
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence \\r 100"));
+Assert.That(fieldSeq.Result, Is.EqualTo("100"));
 
 // Display the next number in this sequence with another SEQ field.
 builder.Write(", #");
@@ -44,7 +44,7 @@ fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.Update();
 
-Assert.AreEqual("101", fieldSeq.Result);
+Assert.That(fieldSeq.Result, Is.EqualTo("101"));
 
 // Insert a level 1 heading.
 builder.InsertBreak(BreakType.ParagraphBreak);
@@ -60,8 +60,8 @@ fieldSeq.ResetHeadingLevel = "1";
 fieldSeq.Update();
 
 // The above heading is a level 1 heading, so the count for this sequence is reset to 1.
-Assert.AreEqual(" SEQ  MySequence \\s 1", fieldSeq.GetFieldCode());
-Assert.AreEqual("1", fieldSeq.Result);
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence \\s 1"));
+Assert.That(fieldSeq.Result, Is.EqualTo("1"));
 
 // Move to the next number of this sequence.
 builder.Write(", #");
@@ -70,8 +70,8 @@ fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.InsertNextNumber = true;
 fieldSeq.Update();
 
-Assert.AreEqual(" SEQ  MySequence \\n", fieldSeq.GetFieldCode());
-Assert.AreEqual("2", fieldSeq.Result);
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence \\n"));
+Assert.That(fieldSeq.Result, Is.EqualTo("2"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SEQ.ResetNumbering.docx");
@@ -105,7 +105,7 @@ fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc.SequenceSeparator = ">";
 
-Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\c MySequence \\s PrefixSequence \\d >"));
 
 builder.InsertBreak(BreakType.PageBreak);
 
@@ -118,7 +118,7 @@ FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true)
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
-Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  PrefixSequence"));
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -131,7 +131,7 @@ builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 
-Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence"));
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,

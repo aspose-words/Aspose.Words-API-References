@@ -5,7 +5,7 @@ articleTitle: IImageSavingCallback
 second_title: Aspose.Words for .NET
 description: Control image saving in Aspose.Words with the IImageSavingCallback interface. Optimize document exports to HTML and other formats effortlessly.
 type: docs
-weight: 5920
+weight: 5910
 url: /net/aspose.words.saving/iimagesavingcallback/
 ---
 ## IImageSavingCallback interface
@@ -41,14 +41,12 @@ public void RenameImages()
     // The ImageSaving() method of our callback will be run at this time.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
-    Assert.AreEqual(1,
-        Directory.GetFiles(ArtifactsDir)
+    Assert.That(Directory.GetFiles(ArtifactsDir)
             .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".jpeg")));
-    Assert.AreEqual(8,
-        Directory.GetFiles(ArtifactsDir)
+            .Count(f => f.EndsWith(".jpeg")), Is.EqualTo(1));
+    Assert.That(Directory.GetFiles(ArtifactsDir)
             .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".png")));
+            .Count(f => f.EndsWith(".png")), Is.EqualTo(8));
 }
 
 /// <summary>
@@ -68,9 +66,9 @@ public class SavedImageRename : IImageSavingCallback
         args.ImageFileName = imageFileName;
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
-        Assert.True(args.ImageStream.CanWrite);
-        Assert.True(args.IsImageAvailable);
-        Assert.False(args.KeepImageStreamOpen);
+        Assert.That(args.ImageStream.CanWrite, Is.True);
+        Assert.That(args.IsImageAvailable, Is.True);
+        Assert.That(args.KeepImageStreamOpen, Is.False);
     }
 
     private int mCount;
@@ -121,7 +119,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         string partType = string.Empty;
 
@@ -150,8 +148,8 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
         // 2 -  Create a custom stream for the output part file:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
-        Assert.True(args.DocumentPartStream.CanWrite);
-        Assert.False(args.KeepDocumentPartStreamOpen);
+        Assert.That(args.DocumentPartStream.CanWrite, Is.True);
+        Assert.That(args.KeepDocumentPartStreamOpen, Is.False);
     }
 
     private int mCount;
@@ -180,9 +178,9 @@ public class SavedImageRename : IImageSavingCallback
         // 2 -  Create a custom stream for the output image file:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
-        Assert.True(args.ImageStream.CanWrite);
-        Assert.True(args.IsImageAvailable);
-        Assert.False(args.KeepImageStreamOpen);
+        Assert.That(args.ImageStream.CanWrite, Is.True);
+        Assert.That(args.IsImageAvailable, Is.True);
+        Assert.That(args.KeepImageStreamOpen, Is.False);
     }
 
     private int mCount;

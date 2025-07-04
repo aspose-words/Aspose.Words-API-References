@@ -23,7 +23,7 @@ Shows how to work with a document's collection of web extensions.
 ```csharp
 Document doc = new Document(MyDir + "Web extension.docx");
 
-Assert.AreEqual(1, doc.WebExtensionTaskPanes.Count);
+Assert.That(doc.WebExtensionTaskPanes.Count, Is.EqualTo(1));
 
 // Print all properties of the document's web extension.
 WebExtensionPropertyCollection webExtensionPropertyCollection = doc.WebExtensionTaskPanes[0].WebExtension.Properties;
@@ -39,7 +39,7 @@ using (IEnumerator<WebExtensionProperty> enumerator = webExtensionPropertyCollec
 // Remove the web extension.
 doc.WebExtensionTaskPanes.Remove(0);
 
-Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+Assert.That(doc.WebExtensionTaskPanes.Count, Is.EqualTo(0));
 ```
 
 ### See Also

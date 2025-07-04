@@ -42,26 +42,26 @@ public void FieldRef()
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\f \\h"));
 
     // Insert a REF field, and display whether the referenced bookmark is above or below it.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\p"));
 
     // Display the list number of the bookmark as it appears in the document.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\n"));
 
     // Display the bookmark's list number, but with non-delimiter characters, such as the angle brackets, omitted.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\n \\t"));
 
     // Move down one list level.
     builder.ListFormat.ListLevelNumber++;
@@ -71,7 +71,7 @@ public void FieldRef()
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\w", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\w"));
 
     builder.InsertBreak(BreakType.PageBreak);
 
@@ -79,7 +79,7 @@ public void FieldRef()
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\r"));
 
     // At the end of the document, the bookmark will show up as a list item here.
     builder.Writeln("List level above bookmark");

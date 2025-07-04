@@ -5,7 +5,7 @@ articleTitle: IsLastRow
 second_title: Aspose.Words for .NET
 description: Discover the Row IsLastRow property. Easily identify if a row is the last in a table for streamlined data management and enhanced programming efficiency.
 type: docs
-weight: 50
+weight: 60
 url: /net/aspose.words.tables/row/islastrow/
 ---
 ## Row.IsLastRow property
@@ -29,7 +29,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
     foreach (Paragraph para in cell.Paragraphs)
     {
-        Assert.True(para.IsInCell);
+        Assert.That(para.IsInCell, Is.True);
 
         if (!(cell.ParentRow.IsLastRow && para.IsEndOfCell))
             para.ParagraphFormat.KeepWithNext = true;

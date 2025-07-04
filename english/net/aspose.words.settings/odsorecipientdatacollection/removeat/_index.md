@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Odso data.docx");
 
 OdsoRecipientDataCollection dataCollection = doc.MailMergeSettings.Odso.RecipientDatas;
 
-Assert.AreEqual(70, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(70));
 
 using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator())
 {
@@ -45,16 +45,16 @@ using (IEnumerator<OdsoRecipientData> enumerator = dataCollection.GetEnumerator(
 }
 
 // We can clone the elements in this collection.
-Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
+Assert.That(dataCollection[0].Clone(), Is.Not.EqualTo(dataCollection[0]));
 
 // We can also remove elements individually, or clear the entire collection at once.
 dataCollection.RemoveAt(0);
 
-Assert.AreEqual(69, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(69));
 
 dataCollection.Clear();
 
-Assert.AreEqual(0, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(0));
 ```
 
 ### See Also

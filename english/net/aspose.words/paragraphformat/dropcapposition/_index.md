@@ -41,8 +41,8 @@ builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Normal;
 builder.Writeln("Numbered list item 1.");
 
 // Every paragraph that comprises a list will have this flag.
-Assert.True(builder.CurrentParagraph.IsListItem);
-Assert.True(builder.ParagraphFormat.IsListItem);
+Assert.That(builder.CurrentParagraph.IsListItem, Is.True);
+Assert.That(builder.ParagraphFormat.IsListItem, Is.True);
 
 // Create a bulleted list.
 List bulletedList = doc.Lists.Add(ListTemplate.BulletDefault);

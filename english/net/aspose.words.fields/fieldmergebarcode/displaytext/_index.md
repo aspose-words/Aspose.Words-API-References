@@ -35,8 +35,8 @@ field.DisplayText = true;
 field.PosCodeStyle = "CASE";
 field.FixCheckDigit = true;
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x"));
 builder.Writeln();
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
@@ -49,12 +49,10 @@ table.Rows.Add(new[] { "123456789012" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```

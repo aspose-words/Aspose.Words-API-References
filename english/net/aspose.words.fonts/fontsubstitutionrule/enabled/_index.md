@@ -32,8 +32,8 @@ bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32W
 // On Windows, it is unavailable.
 if (isWindows)
 {
-    Assert.False(fontConfigSubstitution.Enabled);
-    Assert.False(fontConfigSubstitution.IsFontConfigAvailable());
+    Assert.That(fontConfigSubstitution.Enabled, Is.False);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.False);
 }
 
 bool isLinuxOrMac =
@@ -42,8 +42,8 @@ bool isLinuxOrMac =
 // On Linux/Mac, we will have access to it, and will be able to perform operations.
 if (isLinuxOrMac)
 {
-    Assert.True(fontConfigSubstitution.Enabled);
-    Assert.True(fontConfigSubstitution.IsFontConfigAvailable());
+    Assert.That(fontConfigSubstitution.Enabled, Is.True);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.True);
 
     fontConfigSubstitution.ResetCache();
 }
@@ -56,11 +56,11 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 
 // By default, a blank document always contains a system font source.
-Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
+Assert.That(doc.FontSettings.GetFontsSources().Length, Is.EqualTo(1));
 
 SystemFontSource systemFontSource = (SystemFontSource) doc.FontSettings.GetFontsSources()[0];
-Assert.AreEqual(FontSourceType.SystemFonts, systemFontSource.Type);
-Assert.AreEqual(0, systemFontSource.Priority);
+Assert.That(systemFontSource.Type, Is.EqualTo(FontSourceType.SystemFonts));
+Assert.That(systemFontSource.Priority, Is.EqualTo(0));
 
 PlatformID pid = Environment.OSVersion.Platform;
 bool isWindows = (pid == PlatformID.Win32NT) || (pid == PlatformID.Win32S) ||
@@ -68,8 +68,7 @@ bool isWindows = (pid == PlatformID.Win32NT) || (pid == PlatformID.Win32S) ||
 if (isWindows)
 {
     const string fontsPath = @"C:\WINDOWS\Fonts";
-    Assert.AreEqual(fontsPath.ToLower(),
-        SystemFontSource.GetSystemFontFolders().FirstOrDefault()?.ToLower());
+    Assert.That(SystemFontSource.GetSystemFontFolders().FirstOrDefault()?.ToLower(), Is.EqualTo(fontsPath.ToLower()));
 }
 
 foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
@@ -81,24 +80,21 @@ foreach (string systemFontFolder in SystemFontSource.GetSystemFontFolders())
 doc.FontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
 doc.FontSettings.SubstitutionSettings.TableSubstitution.AddSubstitutes("Kreon-Regular", new[] {"Calibri"});
 
-Assert.AreEqual(1,
-    doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
-Assert.Contains("Calibri",
-    doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray());
+Assert.That(doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count(), Is.EqualTo(1));
+Assert.That(doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").ToArray(), Does.Contain("Calibri"));
 
 // Alternatively, we could add a folder font source in which the corresponding folder contains the font.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, false);
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {systemFontSource, folderFontSource});
-Assert.AreEqual(2, doc.FontSettings.GetFontsSources().Length);
+Assert.That(doc.FontSettings.GetFontsSources().Length, Is.EqualTo(2));
 
 // Resetting the font sources still leaves us with the system font source as well as our substitutes.
 doc.FontSettings.ResetFontSources();
 
-Assert.AreEqual(1, doc.FontSettings.GetFontsSources().Length);
-Assert.AreEqual(FontSourceType.SystemFonts, doc.FontSettings.GetFontsSources()[0].Type);
-Assert.AreEqual(1,
-    doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count());
-Assert.True(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled);
+Assert.That(doc.FontSettings.GetFontsSources().Length, Is.EqualTo(1));
+Assert.That(doc.FontSettings.GetFontsSources()[0].Type, Is.EqualTo(FontSourceType.SystemFonts));
+Assert.That(doc.FontSettings.SubstitutionSettings.TableSubstitution.GetSubstitutes("Kreon-Regular").Count(), Is.EqualTo(1));
+Assert.That(doc.FontSettings.SubstitutionSettings.FontNameSubstitution.Enabled, Is.True);
 ```
 
 ### See Also

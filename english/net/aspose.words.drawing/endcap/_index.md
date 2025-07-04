@@ -5,7 +5,7 @@ articleTitle: EndCap
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.EndCap enum for customizable line cap styles. Enhance your document designs with unique visual effects!
 type: docs
-weight: 1260
+weight: 1250
 url: /net/aspose.words.drawing/endcap/
 ---
 ## EndCap enumeration
@@ -48,7 +48,7 @@ arrow.Stroke.EndArrowWidth = ArrowWidth.Wide;
 arrow.Stroke.DashStyle = DashStyle.Dash;
 arrow.Stroke.Opacity = 0.5;
 
-Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
+Assert.That(arrow.Stroke.JoinStyle, Is.EqualTo(JoinStyle.Miter));
 
 builder.InsertNode(arrow);
 

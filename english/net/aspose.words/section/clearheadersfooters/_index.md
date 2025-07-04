@@ -29,7 +29,7 @@ Shows how to clear the contents of all headers and footers in a section.
 ```csharp
 Document doc = new Document();
 
-Assert.AreEqual(0, doc.FirstSection.HeadersFooters.Count);
+Assert.That(doc.FirstSection.HeadersFooters.Count, Is.EqualTo(0));
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -38,19 +38,19 @@ builder.Writeln("This is the primary header.");
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.Writeln("This is the primary footer.");
 
-Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
+Assert.That(doc.FirstSection.HeadersFooters.Count, Is.EqualTo(2));
 
-Assert.AreEqual("This is the primary header.", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
-Assert.AreEqual("This is the primary footer.", doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim(), Is.EqualTo("This is the primary header."));
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim(), Is.EqualTo("This is the primary footer."));
 
 // Empty all the headers and footers in this section of all their contents.
 // The headers and footers themselves will still be present but will have nothing to display.
 doc.FirstSection.ClearHeadersFooters();
 
-Assert.AreEqual(2, doc.FirstSection.HeadersFooters.Count);
+Assert.That(doc.FirstSection.HeadersFooters.Count, Is.EqualTo(2));
 
-Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
-Assert.AreEqual(string.Empty, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim(), Is.EqualTo(string.Empty));
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetText().Trim(), Is.EqualTo(string.Empty));
 ```
 
 ### See Also
@@ -91,28 +91,28 @@ doc.Watermark.SetText("Aspose Watermark");
 
 // Make sure the headers and footers have content.
 HeaderFooterCollection headersFooters = doc.FirstSection.HeadersFooters;
-Assert.AreEqual("First header", headersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
-Assert.AreEqual("Second header", headersFooters[HeaderFooterType.HeaderEven].GetText().Trim());
-Assert.AreEqual("Third header", headersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
-Assert.AreEqual("First footer", headersFooters[HeaderFooterType.FooterFirst].GetText().Trim());
-Assert.AreEqual("Second footer", headersFooters[HeaderFooterType.FooterEven].GetText().Trim());
-Assert.AreEqual("Third footer", headersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
+Assert.That(headersFooters[HeaderFooterType.HeaderFirst].GetText().Trim(), Is.EqualTo("First header"));
+Assert.That(headersFooters[HeaderFooterType.HeaderEven].GetText().Trim(), Is.EqualTo("Second header"));
+Assert.That(headersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim(), Is.EqualTo("Third header"));
+Assert.That(headersFooters[HeaderFooterType.FooterFirst].GetText().Trim(), Is.EqualTo("First footer"));
+Assert.That(headersFooters[HeaderFooterType.FooterEven].GetText().Trim(), Is.EqualTo("Second footer"));
+Assert.That(headersFooters[HeaderFooterType.FooterPrimary].GetText().Trim(), Is.EqualTo("Third footer"));
 
 // Removes all header and footer content except watermarks.
 doc.FirstSection.ClearHeadersFooters(true);
 
 headersFooters = doc.FirstSection.HeadersFooters;
-Assert.AreEqual("", headersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
-Assert.AreEqual("", headersFooters[HeaderFooterType.HeaderEven].GetText().Trim());
-Assert.AreEqual("", headersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim());
-Assert.AreEqual("", headersFooters[HeaderFooterType.FooterFirst].GetText().Trim());
-Assert.AreEqual("", headersFooters[HeaderFooterType.FooterEven].GetText().Trim());
-Assert.AreEqual("", headersFooters[HeaderFooterType.FooterPrimary].GetText().Trim());
-Assert.AreEqual(WatermarkType.Text, doc.Watermark.Type);
+Assert.That(headersFooters[HeaderFooterType.HeaderFirst].GetText().Trim(), Is.EqualTo(""));
+Assert.That(headersFooters[HeaderFooterType.HeaderEven].GetText().Trim(), Is.EqualTo(""));
+Assert.That(headersFooters[HeaderFooterType.HeaderPrimary].GetText().Trim(), Is.EqualTo(""));
+Assert.That(headersFooters[HeaderFooterType.FooterFirst].GetText().Trim(), Is.EqualTo(""));
+Assert.That(headersFooters[HeaderFooterType.FooterEven].GetText().Trim(), Is.EqualTo(""));
+Assert.That(headersFooters[HeaderFooterType.FooterPrimary].GetText().Trim(), Is.EqualTo(""));
+Assert.That(doc.Watermark.Type, Is.EqualTo(WatermarkType.Text));
 
 // Removes all header and footer content including watermarks.
 doc.FirstSection.ClearHeadersFooters(false);
-Assert.AreEqual(WatermarkType.None, doc.Watermark.Type);
+Assert.That(doc.Watermark.Type, Is.EqualTo(WatermarkType.None));
 ```
 
 ### See Also

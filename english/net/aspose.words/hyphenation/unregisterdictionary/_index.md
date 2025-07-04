@@ -35,14 +35,14 @@ Shows how to register a hyphenation dictionary.
 // Register a dictionary file from the local file system to the "de-CH" locale.
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
-Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
+Assert.That(Hyphenation.IsDictionaryRegistered("de-CH"), Is.True);
 
 // Open a document containing text with a locale matching that of our dictionary,
 // and save it to a fixed-page save format. The text in that document will be hyphenated.
 Document doc = new Document(MyDir + "German text.docx");
 
-Assert.True(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
-    r => r.Font.LocaleId == new CultureInfo("de-CH").LCID));
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs.OfType<Run>().All(
+    r => r.Font.LocaleId == new CultureInfo("de-CH").LCID), Is.True);
 
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 
@@ -50,7 +50,7 @@ doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Registered.pdf");
 // and save it to another PDF, which will not have hyphenated text.
 Hyphenation.UnregisterDictionary("de-CH");
 
-Assert.False(Hyphenation.IsDictionaryRegistered("de-CH"));
+Assert.That(Hyphenation.IsDictionaryRegistered("de-CH"), Is.False);
 
 doc = new Document(MyDir + "German text.docx");
 doc.Save(ArtifactsDir + "Hyphenation.Dictionary.Unregistered.pdf");

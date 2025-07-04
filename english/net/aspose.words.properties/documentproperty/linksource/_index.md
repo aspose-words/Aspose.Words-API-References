@@ -33,9 +33,9 @@ builder.EndBookmark("MyBookmark");
 CustomDocumentProperties customProperties = doc.CustomDocumentProperties;
 DocumentProperty customProperty = customProperties.AddLinkToContent("Bookmark", "MyBookmark");
 
-Assert.AreEqual(true, customProperty.IsLinkToContent);
-Assert.AreEqual("MyBookmark", customProperty.LinkSource);
-Assert.AreEqual("Hello world!", customProperty.Value);
+Assert.That(customProperty.IsLinkToContent, Is.EqualTo(true));
+Assert.That(customProperty.LinkSource, Is.EqualTo("MyBookmark"));
+Assert.That(customProperty.Value, Is.EqualTo("Hello world!"));
 
 doc.Save(ArtifactsDir + "DocumentProperties.LinkCustomDocumentPropertiesToBookmark.docx");
 ```

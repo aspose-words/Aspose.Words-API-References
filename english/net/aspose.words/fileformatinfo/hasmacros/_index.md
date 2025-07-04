@@ -22,7 +22,7 @@ Shows how to check VBA macro presence without loading document.
 
 ```csharp
 FileFormatInfo fileFormatInfo = FileFormatUtil.DetectFileFormat(MyDir + "Macro.docm");
-Assert.IsTrue(fileFormatInfo.HasMacros);
+Assert.That(fileFormatInfo.HasMacros, Is.True);
 ```
 
 ### See Also

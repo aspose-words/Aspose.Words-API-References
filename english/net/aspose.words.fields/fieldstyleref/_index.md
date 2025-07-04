@@ -5,7 +5,7 @@ articleTitle: FieldStyleRef
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldStyleRef class, designed to enhance document styling with the STYLEREF field for seamless formatting solutions.
 type: docs
-weight: 2850
+weight: 2840
 url: /net/aspose.words.fields/fieldstyleref/
 ---
 ## FieldStyleRef class

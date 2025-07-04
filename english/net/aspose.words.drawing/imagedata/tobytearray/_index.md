@@ -28,10 +28,10 @@ Shows how to create an image file from a shape's raw image data.
 Document imgSourceDoc = new Document(MyDir + "Images.docx");
 Shape imgShape = (Shape) imgSourceDoc.GetChild(NodeType.Shape, 0, true);
 
-Assert.True(imgShape.HasImage);
+Assert.That(imgShape.HasImage, Is.True);
 
 // ToByteArray() returns the array stored in the ImageBytes property.
-Assert.AreEqual(imgShape.ImageData.ImageBytes, imgShape.ImageData.ToByteArray());
+Assert.That(imgShape.ImageData.ToByteArray(), Is.EqualTo(imgShape.ImageData.ImageBytes));
 
 // Save the shape's image data to an image file in the local file system.
 using (Stream imgStream = imgShape.ImageData.ToStream())

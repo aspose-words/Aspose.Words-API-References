@@ -5,7 +5,7 @@ articleTitle: Comment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Comment class, your essential tool for managing comment text in documents. Enhance your workflow with seamless integration!
 type: docs
-weight: 420
+weight: 410
 url: /net/aspose.words/comment/
 ---
 ## Comment class
@@ -124,7 +124,7 @@ builder.CurrentParagraph.AppendChild(comment);
 builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
 builder.Write("Comment text.");
 
-Assert.AreEqual(DateTime.Today, comment.DateTime);
+Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");
@@ -148,13 +148,13 @@ builder.CurrentParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // Comments and replies are both Comment nodes.
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Comment, true).Count, Is.EqualTo(2));
 
 // Comments that do not reply to other comments are "top-level". They have no ancestor comments.
-Assert.Null(comment.Ancestor);
+Assert.That(comment.Ancestor, Is.Null);
 
 // Replies have an ancestor top-level comment.
-Assert.AreEqual(comment, comment.Replies[0].Ancestor);
+Assert.That(comment.Replies[0].Ancestor, Is.EqualTo(comment));
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ```

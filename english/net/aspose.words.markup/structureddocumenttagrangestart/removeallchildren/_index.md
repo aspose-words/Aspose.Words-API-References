@@ -35,24 +35,24 @@ public void SdtRangeExtendedMethods()
 
     rangeStart = (StructuredDocumentTagRangeStart)doc.GetChild(
         NodeType.StructuredDocumentTagRangeStart, 0, false);
-    Assert.AreEqual(null, rangeStart);
+    Assert.That(rangeStart, Is.EqualTo(null));
 
     StructuredDocumentTagRangeEnd rangeEnd = (StructuredDocumentTagRangeEnd)doc.GetChild(
         NodeType.StructuredDocumentTagRangeEnd, 0, false);
 
-    Assert.AreEqual(null, rangeEnd);
-    Assert.AreEqual("StructuredDocumentTag element", doc.GetText().Trim());
+    Assert.That(rangeEnd, Is.EqualTo(null));
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("StructuredDocumentTag element"));
 
     rangeStart = InsertStructuredDocumentTagRanges(doc);
 
     Node paragraphNode = rangeStart.LastOrDefault();
-    Assert.AreEqual("StructuredDocumentTag element", paragraphNode?.GetText().Trim());
+    Assert.That(paragraphNode?.GetText().Trim(), Is.EqualTo("StructuredDocumentTag element"));
 
     // Removes ranged structured document tag and content inside.
     rangeStart.RemoveAllChildren();
 
     paragraphNode = rangeStart.LastOrDefault();
-    Assert.AreEqual(null, paragraphNode?.GetText());
+    Assert.That(paragraphNode?.GetText(), Is.EqualTo(null));
 }
 
 public StructuredDocumentTagRangeStart InsertStructuredDocumentTagRanges(Document doc)

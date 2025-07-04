@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Format revision.docx");
 
 // This paragraph is a "Format" revision, which occurs when we change the formatting of existing text
 // while tracking revisions in Microsoft Word via "Review" -> "Track changes".
-Assert.True(doc.FirstSection.Body.FirstParagraph.IsFormatRevision);
+Assert.That(doc.FirstSection.Body.FirstParagraph.IsFormatRevision, Is.True);
 ```
 
 ### See Also

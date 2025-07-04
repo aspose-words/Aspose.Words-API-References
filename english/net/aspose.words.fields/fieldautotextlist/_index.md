@@ -5,7 +5,7 @@ articleTitle: FieldAutoTextList
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAutoTextList class, designed to streamline document automation with efficient AUTOTEXTLIST field implementation.
 type: docs
-weight: 2030
+weight: 2020
 url: /net/aspose.words.fields/fieldautotextlist/
 ---
 ## FieldAutoTextList class
@@ -82,9 +82,9 @@ public void FieldAutoTextList()
     field.ListStyle = "Heading 1";
     field.ScreenTip = "Hover tip text for AutoTextList goes here";
 
-    Assert.AreEqual(" AUTOTEXTLIST  \"Right click here to select an AutoText block\" " +
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTOTEXTLIST  \"Right click here to select an AutoText block\" " +
                     "\\s \"Heading 1\" " +
-                    "\\t \"Hover tip text for AutoTextList goes here\"", field.GetFieldCode());
+                    "\\t \"Hover tip text for AutoTextList goes here\""));
 
     doc.Save(ArtifactsDir + "Field.AUTOTEXTLIST.dotx");
 }

@@ -26,27 +26,27 @@ Shows how to ensure that a document contains the minimal set of nodes required f
 Document doc = new Document();
 NodeCollection nodes = doc.GetChildNodes(NodeType.Any, true);
 
-Assert.AreEqual(NodeType.Section, nodes[0].NodeType);
-Assert.AreEqual(doc, nodes[0].ParentNode);
+Assert.That(nodes[0].NodeType, Is.EqualTo(NodeType.Section));
+Assert.That(nodes[0].ParentNode, Is.EqualTo(doc));
 
-Assert.AreEqual(NodeType.Body, nodes[1].NodeType);
-Assert.AreEqual(nodes[0], nodes[1].ParentNode);
+Assert.That(nodes[1].NodeType, Is.EqualTo(NodeType.Body));
+Assert.That(nodes[1].ParentNode, Is.EqualTo(nodes[0]));
 
-Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
-Assert.AreEqual(nodes[1], nodes[2].ParentNode);
+Assert.That(nodes[2].NodeType, Is.EqualTo(NodeType.Paragraph));
+Assert.That(nodes[2].ParentNode, Is.EqualTo(nodes[1]));
 
 // This is the minimal set of nodes that we need to be able to edit the document.
 // We will no longer be able to edit the document if we remove any of them.
 doc.RemoveAllChildren();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
 
 // Call this method to make sure that the document has at least those three nodes so we can edit it again.
 doc.EnsureMinimum();
 
-Assert.AreEqual(NodeType.Section, nodes[0].NodeType);
-Assert.AreEqual(NodeType.Body, nodes[1].NodeType);
-Assert.AreEqual(NodeType.Paragraph, nodes[2].NodeType);
+Assert.That(nodes[0].NodeType, Is.EqualTo(NodeType.Section));
+Assert.That(nodes[1].NodeType, Is.EqualTo(NodeType.Body));
+Assert.That(nodes[2].NodeType, Is.EqualTo(NodeType.Paragraph));
 
 ((Paragraph)nodes[2]).Runs.Add(new Run(doc, "Hello world!"));
 ```

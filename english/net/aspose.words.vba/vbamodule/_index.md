@@ -5,7 +5,7 @@ articleTitle: VbaModule
 second_title: Aspose.Words for .NET
 description: Unlock the power of Aspose.Words.Vba.VbaModule for seamless access to your VBA project modules. Enhance productivity and streamline your document automation!
 type: docs
-weight: 7410
+weight: 7400
 url: /net/aspose.words.vba/vbamodule/
 ---
 ## VbaModule class
@@ -53,7 +53,7 @@ Console.WriteLine(vbaProject.IsSigned
 
 VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
-Assert.AreEqual(vbaModules.Count(), 3);
+Assert.That(3, Is.EqualTo(vbaModules.Count()));
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");

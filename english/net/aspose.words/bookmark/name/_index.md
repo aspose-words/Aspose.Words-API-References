@@ -37,7 +37,7 @@ builder.Write("Contents of MyBookmark.");
 builder.EndBookmark("My Bookmark");
 
 // Bookmarks are stored in this collection.
-Assert.AreEqual("My Bookmark", doc.Range.Bookmarks[0].Name);
+Assert.That(doc.Range.Bookmarks[0].Name, Is.EqualTo("My Bookmark"));
 
 doc.Save(ArtifactsDir + "Bookmarks.Insert.docx");
 ```

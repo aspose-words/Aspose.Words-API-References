@@ -5,7 +5,7 @@ articleTitle: IResourceLoadingCallback
 second_title: Aspose.Words for .NET
 description: Control external resource loading in Aspose.Words with the IResourceLoadingCallback interface. Enhance document imports and image insertion seamlessly.
 type: docs
-weight: 4090
+weight: 4080
 url: /net/aspose.words.loading/iresourceloadingcallback/
 ---
 ## IResourceLoadingCallback interface
@@ -40,7 +40,7 @@ public void ResourceLoadingCallback()
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
 
-    Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(3));
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
 }
@@ -64,6 +64,7 @@ private class ImageNameHandler : IResourceLoadingCallback
                         byte[] imageData = client.GetByteArrayAsync("http://www.google.com/images/logos/ps_logo2.png").GetAwaiter().GetResult();
                         args.SetData(imageData);
                     }
+
                     return ResourceLoadingAction.UserProvided;
 
                 case "Aspose logo":

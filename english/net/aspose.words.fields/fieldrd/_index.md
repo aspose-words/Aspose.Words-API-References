@@ -5,7 +5,7 @@ articleTitle: FieldRD
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldRD class—efficiently implement RD fields for enhanced document processing and automation in your projects.
 type: docs
-weight: 2730
+weight: 2720
 url: /net/aspose.words.fields/fieldrd/
 ---
 ## FieldRD class
@@ -76,7 +76,7 @@ builder.Writeln("TOC entry from within this document");
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx"));
 
 // Create the document that the RD field is referencing and insert a heading. 
 // This heading will show up as an entry in the TOC field in our first document.

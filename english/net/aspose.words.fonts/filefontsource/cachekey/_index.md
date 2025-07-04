@@ -50,7 +50,7 @@ public void LoadFontSearchCache()
         }, cacheStream);
     }
 
-    Assert.AreEqual(parsedFonts.GetFontsSources().Length, loadedCache.GetFontsSources().Length);
+    Assert.That(loadedCache.GetFontsSources().Length, Is.EqualTo(parsedFonts.GetFontsSources().Length));
 }
 
 /// <summary>

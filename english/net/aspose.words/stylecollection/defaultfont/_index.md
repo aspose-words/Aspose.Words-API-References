@@ -36,8 +36,8 @@ styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
 // Add a style, and then verify that it has the default settings.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
-Assert.AreEqual("Courier New", styles[4].Font.Name);
-Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
+Assert.That(styles[4].Font.Name, Is.EqualTo("Courier New"));
+Assert.That(styles["MyStyle"].ParagraphFormat.FirstLineIndent, Is.EqualTo(15.0));
 ```
 
 ### See Also

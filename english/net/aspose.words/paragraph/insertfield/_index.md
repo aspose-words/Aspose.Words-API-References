@@ -53,12 +53,12 @@ Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 // and get it to display a placeholder value:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
-Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Placeholder value."));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Real value."));
 
 doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 ```
@@ -118,12 +118,12 @@ Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 // and get it to display a placeholder value:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
-Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Placeholder value."));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Real value."));
 
 doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 ```
@@ -183,12 +183,12 @@ Field field = para.InsertField(" QUOTE \" Real value\" ", run, true);
 // and get it to display a placeholder value:
 para.InsertField(" QUOTE \" Real value.\"", " Placeholder value.", field.Start, false);
 
-Assert.AreEqual(" Placeholder value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Placeholder value."));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual(" Real value.", doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(" Real value."));
 
 doc.Save(ArtifactsDir + "Paragraph.InsertField.docx");
 ```

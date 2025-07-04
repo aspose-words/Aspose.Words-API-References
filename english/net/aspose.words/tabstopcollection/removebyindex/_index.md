@@ -31,12 +31,12 @@ TabStopCollection tabStops = doc.FirstSection.Body.Paragraphs[0].ParagraphFormat
 tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Dashes);
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
-Assert.AreEqual(2, tabStops.Count);
+Assert.That(tabStops.Count, Is.EqualTo(2));
 
 // Remove the first tab stop.
 tabStops.RemoveByIndex(0);
 
-Assert.AreEqual(1, tabStops.Count);
+Assert.That(tabStops.Count, Is.EqualTo(1));
 
 doc.Save(ArtifactsDir + "TabStopCollection.RemoveByIndex.docx");
 ```

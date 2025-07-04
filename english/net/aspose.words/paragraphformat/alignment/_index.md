@@ -42,7 +42,7 @@ paragraphFormat.KeepTogether = true;
 // and then starts a new line, adding a new paragraph.
 builder.Writeln("Hello world!");
 
-Assert.True(builder.CurrentParagraph.IsEndOfDocument);
+Assert.That(builder.CurrentParagraph.IsEndOfDocument, Is.True);
 ```
 
 Shows how to construct an Aspose.Words document by hand.
@@ -85,7 +85,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```

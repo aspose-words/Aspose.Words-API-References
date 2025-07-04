@@ -29,14 +29,14 @@ builder.Write("Section 1. ");
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Write("Section 2.");
 
-Assert.AreEqual("Section 1. \fSection 2.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 1. \fSection 2."));
 
 // Remove the first section entirely by removing all the nodes
 // within its range, including the section itself.
 doc.Sections[0].Range.Delete();
 
-Assert.AreEqual(1, doc.Sections.Count);
-Assert.AreEqual("Section 2.", doc.GetText().Trim());
+Assert.That(doc.Sections.Count, Is.EqualTo(1));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2."));
 ```
 
 ### See Also

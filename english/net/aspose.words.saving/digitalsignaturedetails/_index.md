@@ -5,7 +5,7 @@ articleTitle: DigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DigitalSignatureDetails class for seamless digital document signing. Enhance security and authenticity effortlessly!
 type: docs
-weight: 5640
+weight: 5630
 url: /net/aspose.words.saving/digitalsignaturedetails/
 ---
 ## DigitalSignatureDetails class
@@ -44,8 +44,8 @@ DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;
 
-Assert.AreEqual(certificateHolder, digitalSignatureDetails.CertificateHolder);
-Assert.AreEqual("Some comments", digitalSignatureDetails.SignOptions.Comments);
+Assert.That(digitalSignatureDetails.CertificateHolder, Is.EqualTo(certificateHolder));
+Assert.That(digitalSignatureDetails.SignOptions.Comments, Is.EqualTo("Some comments"));
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```

@@ -5,7 +5,7 @@ articleTitle: DownsampleOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.DownsampleOptions class to easily customize image downsampling for optimized document quality and performance.
 type: docs
-weight: 5720
+weight: 5710
 url: /net/aspose.words.saving/downsampleoptions/
 ---
 ## DownsampleOptions class
@@ -44,9 +44,9 @@ Document doc = new Document(MyDir + "Images.docx");
 PdfSaveOptions options = new PdfSaveOptions();
 
 // By default, Aspose.Words downsample all images in a document that we save to PDF to 220 ppi.
-Assert.True(options.DownsampleOptions.DownsampleImages);
-Assert.AreEqual(220, options.DownsampleOptions.Resolution);
-Assert.AreEqual(0, options.DownsampleOptions.ResolutionThreshold);
+Assert.That(options.DownsampleOptions.DownsampleImages, Is.True);
+Assert.That(options.DownsampleOptions.Resolution, Is.EqualTo(220));
+Assert.That(options.DownsampleOptions.ResolutionThreshold, Is.EqualTo(0));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DownsampleOptions.Default.pdf", options);
 

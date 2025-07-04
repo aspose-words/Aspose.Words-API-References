@@ -5,7 +5,7 @@ articleTitle: AxisTimeUnit
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisTimeUnit enum—your solution for defining time units on chart axes efficiently and effectively.
 type: docs
-weight: 860
+weight: 850
 url: /net/aspose.words.drawing.charts/axistimeunit/
 ---
 ## AxisTimeUnit enumeration

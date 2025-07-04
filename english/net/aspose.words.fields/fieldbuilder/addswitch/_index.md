@@ -41,7 +41,7 @@ builder.AddSwitch("\\s", 25);
 builder.AddSwitch("\\u");
 Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
-Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL 402 \\f Arial \\s 25 \\u "));
 
 // 2 -  Nested field:
 // Use a field builder to create a formula field used as an inner field by another field builder.
@@ -58,7 +58,7 @@ field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empt
 
 // The outer SYMBOL field will use the formula field result, 174, as its argument,
 // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
-Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 "));
 
 // 3 -  Multiple nested fields and arguments:
 // Now, we will use a builder to create an IF field, which displays one of two custom string values,
@@ -96,9 +96,9 @@ builder.AddArgument(trueOutput);
 builder.AddArgument(falseOutput);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-Assert.AreEqual(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
+Assert.That(field.GetFieldCode(), Is.EqualTo(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
                 "\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " +
-                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field.GetFieldCode());
+                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
@@ -142,7 +142,7 @@ builder.AddSwitch("\\s", 25);
 builder.AddSwitch("\\u");
 Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
-Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL 402 \\f Arial \\s 25 \\u "));
 
 // 2 -  Nested field:
 // Use a field builder to create a formula field used as an inner field by another field builder.
@@ -159,7 +159,7 @@ field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empt
 
 // The outer SYMBOL field will use the formula field result, 174, as its argument,
 // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
-Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 "));
 
 // 3 -  Multiple nested fields and arguments:
 // Now, we will use a builder to create an IF field, which displays one of two custom string values,
@@ -197,9 +197,9 @@ builder.AddArgument(trueOutput);
 builder.AddArgument(falseOutput);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-Assert.AreEqual(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
+Assert.That(field.GetFieldCode(), Is.EqualTo(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
                 "\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " +
-                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field.GetFieldCode());
+                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
@@ -243,7 +243,7 @@ builder.AddSwitch("\\s", 25);
 builder.AddSwitch("\\u");
 Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
-Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL 402 \\f Arial \\s 25 \\u "));
 
 // 2 -  Nested field:
 // Use a field builder to create a formula field used as an inner field by another field builder.
@@ -260,7 +260,7 @@ field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empt
 
 // The outer SYMBOL field will use the formula field result, 174, as its argument,
 // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
-Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 "));
 
 // 3 -  Multiple nested fields and arguments:
 // Now, we will use a builder to create an IF field, which displays one of two custom string values,
@@ -298,9 +298,9 @@ builder.AddArgument(trueOutput);
 builder.AddArgument(falseOutput);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-Assert.AreEqual(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
+Assert.That(field.GetFieldCode(), Is.EqualTo(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
                 "\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " +
-                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field.GetFieldCode());
+                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SYMBOL.docx");
@@ -344,7 +344,7 @@ builder.AddSwitch("\\s", 25);
 builder.AddSwitch("\\u");
 Field field = builder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 
-Assert.AreEqual(" SYMBOL 402 \\f Arial \\s 25 \\u ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL 402 \\f Arial \\s 25 \\u "));
 
 // 2 -  Nested field:
 // Use a field builder to create a formula field used as an inner field by another field builder.
@@ -361,7 +361,7 @@ field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empt
 
 // The outer SYMBOL field will use the formula field result, 174, as its argument,
 // which will make the field display the ® (Registered Sign) symbol since its character number is 174.
-Assert.AreEqual(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL \u0013 = 100 + 74 \u0014\u0015 "));
 
 // 3 -  Multiple nested fields and arguments:
 // Now, we will use a builder to create an IF field, which displays one of two custom string values,
@@ -399,9 +399,9 @@ builder.AddArgument(trueOutput);
 builder.AddArgument(falseOutput);
 field = builder.BuildAndInsert(doc.FirstSection.Body.AppendParagraph(string.Empty));
 
-Assert.AreEqual(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
+Assert.That(field.GetFieldCode(), Is.EqualTo(" IF \u0013 = 2 + 3 \u0014\u0015 = \u0013 = 2.5 * 5.2 \u0014\u0015 " +
                 "\"True, both expressions amount to \u0013 = 2 + 3 \u0014\u0015\" " +
-                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" ", field.GetFieldCode());
+                "\"False, \u0013 = 2 + 3 \u0014\u0015 does not equal \u0013 = 2.5 * 5.2 \u0014\u0015\" "));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.SYMBOL.docx");

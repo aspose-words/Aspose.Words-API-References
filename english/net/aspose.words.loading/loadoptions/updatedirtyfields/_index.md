@@ -28,13 +28,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 doc.BuiltInDocumentProperties.Author = "John Doe";
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 
-Assert.False(field.IsDirty);
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.IsDirty, Is.False);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // Update the property. The field still displays the old value.
 doc.BuiltInDocumentProperties.Author = "John & Jane Doe";
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // Since the field's value is out of date, we can mark it as "dirty".
 // This value will stay out of date until we update the field manually with the Field.Update() method.
@@ -52,20 +52,20 @@ using (MemoryStream docStream = new MemoryStream())
     options.UpdateDirtyFields = updateDirtyFields;
     doc = new Document(docStream, options);
 
-    Assert.AreEqual("John & Jane Doe", doc.BuiltInDocumentProperties.Author);
+    Assert.That(doc.BuiltInDocumentProperties.Author, Is.EqualTo("John & Jane Doe"));
 
     field = (FieldAuthor)doc.Range.Fields[0];
 
     // Updating dirty fields like this automatically set their "IsDirty" flag to false.
     if (updateDirtyFields)
     {
-        Assert.AreEqual("John & Jane Doe", field.Result);
-        Assert.False(field.IsDirty);
+        Assert.That(field.Result, Is.EqualTo("John & Jane Doe"));
+        Assert.That(field.IsDirty, Is.False);
     }
     else
     {
-        Assert.AreEqual("John Doe", field.Result);
-        Assert.True(field.IsDirty);
+        Assert.That(field.Result, Is.EqualTo("John Doe"));
+        Assert.That(field.IsDirty, Is.True);
     }
 }
 ```

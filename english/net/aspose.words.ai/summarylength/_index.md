@@ -5,7 +5,7 @@ articleTitle: SummaryLength
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.AI.SummaryLength enum, offering flexible summary length options for enhanced document summarization and improved content clarity.
 type: docs
-weight: 110
+weight: 100
 url: /net/aspose.words.ai/summarylength/
 ---
 ## SummaryLength enumeration
@@ -36,7 +36,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 

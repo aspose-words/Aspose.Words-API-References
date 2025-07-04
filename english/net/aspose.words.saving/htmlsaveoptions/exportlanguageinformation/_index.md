@@ -56,15 +56,15 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportL
 
 if (exportLanguageInformation)
 {
-    Assert.True(outDocContents.Contains("<span>Hello world!</span>"));
-    Assert.True(outDocContents.Contains("<span lang=\"en-GB\">Hello again!</span>"));
-    Assert.True(outDocContents.Contains("<span lang=\"ru-RU\">Привет, мир!</span>"));
+    Assert.That(outDocContents.Contains("<span>Hello world!</span>"), Is.True);
+    Assert.That(outDocContents.Contains("<span lang=\"en-GB\">Hello again!</span>"), Is.True);
+    Assert.That(outDocContents.Contains("<span lang=\"ru-RU\">Привет, мир!</span>"), Is.True);
 }
 else
 {
-    Assert.True(outDocContents.Contains("<span>Hello world!</span>"));
-    Assert.True(outDocContents.Contains("<span>Hello again!</span>"));
-    Assert.True(outDocContents.Contains("<span>Привет, мир!</span>"));
+    Assert.That(outDocContents.Contains("<span>Hello world!</span>"), Is.True);
+    Assert.That(outDocContents.Contains("<span>Hello again!</span>"), Is.True);
+    Assert.That(outDocContents.Contains("<span>Привет, мир!</span>"), Is.True);
 }
 ```
 

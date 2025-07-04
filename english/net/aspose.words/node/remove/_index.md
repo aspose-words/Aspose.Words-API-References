@@ -24,13 +24,13 @@ Shows how to delete all shapes with images from a document.
 Document doc = new Document(MyDir + "Images.docx");
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.OfType<Shape>().Count(s => s.HasImage));
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(9));
 
 foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage) 
         shape.Remove();
 
-Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(0));
 ```
 
 Shows how to remove all child nodes of a specific type from a composite node.
@@ -38,7 +38,7 @@ Shows how to remove all child nodes of a specific type from a composite node.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
 
 Node curNode = doc.FirstSection.Body.FirstChild;
 
@@ -55,7 +55,7 @@ while (curNode != null)
     curNode = nextNode;
 }
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: Forms2OleControlType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.Forms2OleControlType enum, featuring a range of Forms 2.0 control types for enhanced document automation.
 type: docs
-weight: 1480
+weight: 1470
 url: /net/aspose.words.drawing.ole/forms2olecontroltype/
 ---
 ## Forms2OleControlType enumeration
@@ -47,8 +47,8 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 CheckBoxControl checkBoxControl = (CheckBoxControl)shape.OleFormat.OleControl;
 checkBoxControl.Checked = true;
 
-Assert.AreEqual(true, checkBoxControl.Checked);
-Assert.AreEqual(Forms2OleControlType.CheckBox, checkBoxControl.Type);
+Assert.That(checkBoxControl.Checked, Is.EqualTo(true));
+Assert.That(checkBoxControl.Type, Is.EqualTo(Forms2OleControlType.CheckBox));
 ```
 
 ### See Also

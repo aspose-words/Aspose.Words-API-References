@@ -5,7 +5,7 @@ articleTitle: FootnoteOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FootnoteOptions class for customizable footnote numbering in your documents and sections. Enhance your document's clarity today!
 type: docs
-weight: 4970
+weight: 4960
 url: /net/aspose.words.notes/footnoteoptions/
 ---
 ## FootnoteOptions class
@@ -98,8 +98,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
-Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
+Assert.That(doc.FootnoteOptions.StartNumber, Is.EqualTo(1));
+Assert.That(doc.EndnoteOptions.StartNumber, Is.EqualTo(1));
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.
@@ -143,8 +143,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote refer
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
-Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
+Assert.That(doc.FootnoteOptions.NumberStyle, Is.EqualTo(NumberStyle.Arabic));
+Assert.That(doc.EndnoteOptions.NumberStyle, Is.EqualTo(NumberStyle.LowercaseRoman));
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.
@@ -193,8 +193,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
-Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
+Assert.That(FootnoteNumberingRule.Default, Is.EqualTo(doc.FootnoteOptions.RestartRule));
+Assert.That(FootnoteNumberingRule.Continuous, Is.EqualTo(FootnoteNumberingRule.Default));
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.

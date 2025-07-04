@@ -5,7 +5,7 @@ articleTitle: FieldFormula
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldFormula class to effortlessly implement and manage formula fields in your documents for enhanced functionality.
 type: docs
-weight: 2360
+weight: 2350
 url: /net/aspose.words.fields/fieldformula/
 ---
 ## FieldFormula class
@@ -71,8 +71,8 @@ fieldBuilder.AddArgument(5);
 FieldFormula field = (FieldFormula)fieldBuilder.BuildAndInsert(doc.FirstSection.Body.FirstParagraph);
 field.Update();
 
-Assert.AreEqual(" = 2 * 5 ", field.GetFieldCode());
-Assert.AreEqual("10", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" = 2 * 5 "));
+Assert.That(field.Result, Is.EqualTo("10"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.FORMULA.docx");

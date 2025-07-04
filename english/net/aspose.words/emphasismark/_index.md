@@ -5,7 +5,7 @@ articleTitle: EmphasisMark
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.EmphasisMark enum, featuring diverse emphasis types to enhance your document formatting. Elevate your text's impact today!
 type: docs
-weight: 1870
+weight: 1860
 url: /net/aspose.words/emphasismark/
 ---
 ## EmphasisMark enumeration
@@ -35,7 +35,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Possible types of emphasis mark:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
-builder.Font.EmphasisMark = emphasisMark; 
+builder.Font.EmphasisMark = emphasisMark;
 
 builder.Write("Emphasis text");
 builder.Writeln();

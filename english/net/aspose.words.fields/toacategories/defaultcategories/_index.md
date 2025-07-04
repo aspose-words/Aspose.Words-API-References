@@ -33,15 +33,15 @@ ToaCategories toaCategories = new ToaCategories();
 doc.FieldOptions.ToaCategories = toaCategories;
 
 // This collection of categories comes with default values, which we can overwrite with custom values.
-Assert.AreEqual("Cases", toaCategories[1]);
-Assert.AreEqual("Statutes", toaCategories[2]);
+Assert.That(toaCategories[1], Is.EqualTo("Cases"));
+Assert.That(toaCategories[2], Is.EqualTo("Statutes"));
 
 toaCategories[1] = "My Category 1";
 toaCategories[2] = "My Category 2";
 
 // We can always access the default values via this collection.
-Assert.AreEqual("Cases", ToaCategories.DefaultCategories[1]);
-Assert.AreEqual("Statutes", ToaCategories.DefaultCategories[2]);
+Assert.That(ToaCategories.DefaultCategories[1], Is.EqualTo("Cases"));
+Assert.That(ToaCategories.DefaultCategories[2], Is.EqualTo("Statutes"));
 
 // Insert 2 TOA fields. TOA fields create an entry for each TA field in the document.
 // Use the "\c" switch to select the index of a category from our collection.

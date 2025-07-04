@@ -58,9 +58,9 @@ builder.EndTable();
 Border topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 table.SetBorder(BorderType.Top, LineStyle.Double, 1.5, Color.Red, true);
 
-Assert.AreEqual(1.5d, topBorder.LineWidth);
-Assert.AreEqual(Color.Red.ToArgb(), topBorder.Color.ToArgb());
-Assert.AreEqual(LineStyle.Double, topBorder.LineStyle);
+Assert.That(topBorder.LineWidth, Is.EqualTo(1.5d));
+Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.Double));
 
 // Clear the borders of all cells in the table, and then save the document.
 table.ClearBorders();
@@ -71,9 +71,9 @@ doc = new Document(ArtifactsDir + "Table.ClearBorders.docx");
 table = doc.FirstSection.Body.Tables[0];
 topBorder = table.FirstRow.RowFormat.Borders[BorderType.Top];
 
-Assert.AreEqual(0.0d, topBorder.LineWidth);
-Assert.AreEqual(Color.Empty.ToArgb(), topBorder.Color.ToArgb());
-Assert.AreEqual(LineStyle.None, topBorder.LineStyle);
+Assert.That(topBorder.LineWidth, Is.EqualTo(0.0d));
+Assert.That(topBorder.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
+Assert.That(topBorder.LineStyle, Is.EqualTo(LineStyle.None));
 ```
 
 ### See Also

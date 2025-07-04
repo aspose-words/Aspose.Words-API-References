@@ -5,7 +5,7 @@ articleTitle: FieldType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldType enum to efficiently manage Microsoft Word field types and enhance your document automation.
 type: docs
-weight: 2950
+weight: 2940
 url: /net/aspose.words.fields/fieldtype/
 ---
 ## FieldType enumeration
@@ -128,11 +128,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
-Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
+Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
 ```
 
 Shows how to work with a FieldStart node.
@@ -147,15 +147,15 @@ field.Update();
 
 FieldChar fieldStart = field.Start;
 
-Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
-Assert.AreEqual(false, fieldStart.IsDirty);
-Assert.AreEqual(false, fieldStart.IsLocked);
+Assert.That(fieldStart.FieldType, Is.EqualTo(FieldType.FieldDate));
+Assert.That(fieldStart.IsDirty, Is.EqualTo(false));
+Assert.That(fieldStart.IsLocked, Is.EqualTo(false));
 
 // Retrieve the facade object which represents the field in the document.
 field = (FieldDate)fieldStart.GetField();
 
-Assert.AreEqual(false, field.IsLocked);
-Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.IsLocked, Is.EqualTo(false));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\@ \"dddd, MMMM dd, yyyy\""));
 
 // Update the field to show the current date.
 field.Update();

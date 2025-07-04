@@ -5,7 +5,7 @@ articleTitle: FontSourceBase
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FontSourceBase, the essential abstract class for defining diverse font sources in your applications. Enhance your document formatting!
 type: docs
-weight: 3410
+weight: 3400
 url: /net/aspose.words.fonts/fontsourcebase/
 ---
 ## FontSourceBase class
@@ -43,9 +43,9 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {fileFontSource});
 
-Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
-Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
-Assert.AreEqual(0, fileFontSource.Priority);
+Assert.That(fileFontSource.FilePath, Is.EqualTo(MyDir + "Alte DIN 1451 Mittelschrift.ttf"));
+Assert.That(fileFontSource.Type, Is.EqualTo(FontSourceType.FontFile));
+Assert.That(fileFontSource.Priority, Is.EqualTo(0));
 ```
 
 ### See Also

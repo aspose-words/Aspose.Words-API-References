@@ -46,7 +46,7 @@ Chart chart = chartShape.Chart;
 // Four clusters of three columns will represent this data.
 ChartSeriesCollection chartData = chart.Series;
 
-Assert.AreEqual(3, chartData.Count);
+Assert.That(chartData.Count, Is.EqualTo(3));
 
 // Print the name of every series in the chart.
 using (IEnumerator<ChartSeries> enumerator = chart.Series.GetEnumerator())
@@ -67,7 +67,7 @@ chart.Series.Add("Series 4", categories, new[] { 4.4, 7.0, 3.5, 2.1 });
 // This will remove one of the three demo series that came with the chart.
 chartData.RemoveAt(2);
 
-Assert.False(chartData.Any(s => s.Name == "Series 3"));
+Assert.That(chartData.Any(s => s.Name == "Series 3"), Is.False);
 // We can also clear all the chart's data at once with this method.
 // When creating a new chart, this is the way to wipe all the demo data
 // before we can begin working on a blank chart.

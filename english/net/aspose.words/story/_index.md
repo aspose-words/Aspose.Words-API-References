@@ -5,7 +5,7 @@ articleTitle: Story
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Story class, your essential tool for managing block-level elements like Paragraphs and Tables efficiently.
 type: docs
-weight: 6970
+weight: 6960
 url: /net/aspose.words/story/
 ---
 ## Story class
@@ -89,13 +89,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // which has a parent Paragraph, which is a child node of the first section's Body.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(1));
 
 // We can delete all shapes from the child paragraphs of this Body.
-Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
+Assert.That(doc.FirstSection.Body.StoryType, Is.EqualTo(StoryType.MainText));
 doc.FirstSection.Body.DeleteShapes();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

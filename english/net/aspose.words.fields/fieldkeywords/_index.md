@@ -5,7 +5,7 @@ articleTitle: FieldKeywords
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldKeywords class to efficiently implement the KEYWORDS field, enhancing your document's metadata and searchability.
 type: docs
-weight: 2500
+weight: 2490
 url: /net/aspose.words.fields/fieldkeywords/
 ---
 ## FieldKeywords class
@@ -70,17 +70,17 @@ doc.BuiltInDocumentProperties.Keywords = "Keyword1, Keyword2";
 FieldKeywords field = (FieldKeywords)builder.InsertField(FieldType.FieldKeyword, true);
 field.Update();
 
-Assert.AreEqual(" KEYWORDS ", field.GetFieldCode());
-Assert.AreEqual("Keyword1, Keyword2", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" KEYWORDS "));
+Assert.That(field.Result, Is.EqualTo("Keyword1, Keyword2"));
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
 field.Text = "OverridingKeyword";
 field.Update();
 
-Assert.AreEqual(" KEYWORDS  OverridingKeyword", field.GetFieldCode());
-Assert.AreEqual("OverridingKeyword", field.Result);
-Assert.AreEqual("OverridingKeyword", doc.BuiltInDocumentProperties.Keywords);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" KEYWORDS  OverridingKeyword"));
+Assert.That(field.Result, Is.EqualTo("OverridingKeyword"));
+Assert.That(doc.BuiltInDocumentProperties.Keywords, Is.EqualTo("OverridingKeyword"));
 
 doc.Save(ArtifactsDir + "Field.KEYWORDS.docx");
 ```

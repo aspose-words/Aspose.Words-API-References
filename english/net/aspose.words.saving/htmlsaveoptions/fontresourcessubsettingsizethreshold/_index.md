@@ -69,7 +69,7 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.FontSubsetting.html", options);
 
 string[] fontFileNames = Directory.GetFiles(fontsFolder).Where(s => s.EndsWith(".ttf")).ToArray();
 
-Assert.AreEqual(3, fontFileNames.Length);
+Assert.That(fontFileNames.Length, Is.EqualTo(3));
 
 foreach (string filename in fontFileNames)
 {
@@ -77,8 +77,8 @@ foreach (string filename in fontFileNames)
     // Subsetting will reduce them all to under 30MB.
     FileInfo fontFileInfo = new FileInfo(filename);
 
-    Assert.True(fontFileInfo.Length > 700000 || fontFileInfo.Length < 30000);
-    Assert.True(Math.Max(fontResourcesSubsettingSizeThreshold, 30000) > new FileInfo(filename).Length);
+    Assert.That(fontFileInfo.Length > 700000 || fontFileInfo.Length < 30000, Is.True);
+    Assert.That(System.Math.Max(fontResourcesSubsettingSizeThreshold, 30000) > new FileInfo(filename).Length, Is.True);
 }
 ```
 

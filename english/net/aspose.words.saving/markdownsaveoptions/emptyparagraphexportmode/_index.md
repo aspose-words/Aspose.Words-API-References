@@ -37,13 +37,13 @@ string result = File.ReadAllText(ArtifactsDir + "MarkdownSaveOptions.EmptyParagr
 switch (exportMode)
 {
     case MarkdownEmptyParagraphExportMode.None:
-        Assert.AreEqual("First\r\n\r\nLast\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\r\nLast\r\n"));
         break;
     case MarkdownEmptyParagraphExportMode.EmptyLine:
-        Assert.AreEqual("First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n"));
         break;
     case MarkdownEmptyParagraphExportMode.MarkdownHardLineBreak:
-        Assert.AreEqual("First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n"));
         break;
 }
 ```

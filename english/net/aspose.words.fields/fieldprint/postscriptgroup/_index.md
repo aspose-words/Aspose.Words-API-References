@@ -37,7 +37,7 @@ field.PostScriptGroup = "para";
 // this command will turn the entire area that we specified in "field.PostScriptGroup" white.
 field.PrinterInstructions = "erasepage";
 
-Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINT  erasepage \\p para"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.PRINT.docx");

@@ -25,9 +25,9 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // A Story is a type of node that has child Paragraph nodes, such as a Body.
-Assert.AreEqual(builder.CurrentStory, doc.FirstSection.Body);
-Assert.AreEqual(builder.CurrentStory, builder.CurrentParagraph.ParentNode);
-Assert.AreEqual(StoryType.MainText, builder.CurrentStory.StoryType);
+Assert.That(doc.FirstSection.Body, Is.EqualTo(builder.CurrentStory));
+Assert.That(builder.CurrentParagraph.ParentNode, Is.EqualTo(builder.CurrentStory));
+Assert.That(builder.CurrentStory.StoryType, Is.EqualTo(StoryType.MainText));
 
 builder.CurrentStory.AppendParagraph("Text added to current Story.");
 
@@ -39,7 +39,7 @@ builder.InsertCell();
 builder.Write("Row 1, cell 2");
 builder.EndTable();
 
-Assert.IsTrue(builder.CurrentStory.Tables.Contains(table));
+Assert.That(builder.CurrentStory.Tables.Contains(table), Is.True);
 ```
 
 ### See Also

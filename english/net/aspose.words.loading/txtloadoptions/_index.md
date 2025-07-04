@@ -5,7 +5,7 @@ articleTitle: TxtLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TxtLoadOptions for enhanced text document loading. Customize your Document object with flexible options for optimal performance.
 type: docs
-weight: 4190
+weight: 4180
 url: /net/aspose.words.loading/txtloadoptions/
 ---
 ## TxtLoadOptions class
@@ -79,8 +79,8 @@ using (Stream stream = new MemoryStream())
     foreach (Field field in doc.Range.Fields)
         Console.WriteLine(field.Result);
 
-    Assert.AreEqual(doc.Range.Fields[0].Result.Trim(), "https://www.aspose.com/");
-    Assert.AreEqual(doc.Range.Fields[1].Result.Trim(), "https://docs.aspose.com/words/net/");
+    Assert.That("https://www.aspose.com/", Is.EqualTo(doc.Range.Fields[0].Result.Trim()));
+    Assert.That("https://docs.aspose.com/words/net/", Is.EqualTo(doc.Range.Fields[1].Result.Trim()));
 }
 ```
 

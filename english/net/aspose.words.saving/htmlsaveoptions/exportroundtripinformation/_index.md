@@ -51,50 +51,50 @@ doc = new Document(ArtifactsDir + "HtmlSaveOptions.RoundTripInformation.html");
 
 if (exportRoundtripInformation)
 {
-    Assert.True(outDocContents.Contains("<div style=\"-aw-headerfooter-type:header-primary; clear:both\">"));
-    Assert.True(outDocContents.Contains("<span style=\"-aw-import:ignore\">&#xa0;</span>"));
+    Assert.That(outDocContents.Contains("<div style=\"-aw-headerfooter-type:header-primary; clear:both\">"), Is.True);
+    Assert.That(outDocContents.Contains("<span style=\"-aw-import:ignore\">&#xa0;</span>"), Is.True);
 
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
         "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top; " +
-        "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"));
+        "-aw-border-bottom:0.5pt single; -aw-border-left:0.5pt single; -aw-border-top:0.5pt single\">"), Is.True);
 
-    Assert.True(outDocContents.Contains(
-        "<li style=\"margin-left:30.2pt; padding-left:5.8pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'\">"));
+    Assert.That(outDocContents.Contains(
+        "<li style=\"margin-left:30.2pt; padding-left:5.8pt; -aw-font-family:'Courier New'; -aw-font-weight:normal; -aw-number-format:'o'\">"), Is.True);
 
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<img src=\"HtmlSaveOptions.RoundTripInformation.003.jpeg\" width=\"350\" height=\"180\" alt=\"\" " +
-        "style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />"));
+        "style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />"), Is.True);
 
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<span>Page number </span>" +
         "<span style=\"-aw-field-start:true\"></span>" +
         "<span style=\"-aw-field-code:' PAGE   \\\\* MERGEFORMAT '\"></span>" +
         "<span style=\"-aw-field-separator:true\"></span>" +
         "<span>1</span>" +
-        "<span style=\"-aw-field-end:true\"></span>"));
+        "<span style=\"-aw-field-end:true\"></span>"), Is.True);
 
-    Assert.AreEqual(1, doc.Range.Fields.Count(f => f.Type == FieldType.FieldPage));
+    Assert.That(doc.Range.Fields.Count(f => f.Type == FieldType.FieldPage), Is.EqualTo(1));
 }
 else
 {
-    Assert.True(outDocContents.Contains("<div style=\"clear:both\">"));
-    Assert.True(outDocContents.Contains("<span>&#xa0;</span>"));
+    Assert.That(outDocContents.Contains("<div style=\"clear:both\">"), Is.True);
+    Assert.That(outDocContents.Contains("<span>&#xa0;</span>"), Is.True);
 
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<td colspan=\"2\" style=\"width:210.6pt; border-style:solid; border-width:0.75pt 6pt 0.75pt 0.75pt; " +
-        "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top\">"));
+        "padding-right:2.4pt; padding-left:5.03pt; vertical-align:top\">"), Is.True);
 
-    Assert.True(outDocContents.Contains(
-        "<li style=\"margin-left:30.2pt; padding-left:5.8pt\">"));
+    Assert.That(outDocContents.Contains(
+        "<li style=\"margin-left:30.2pt; padding-left:5.8pt\">"), Is.True);
 
-    Assert.True(outDocContents.Contains(
-        "<img src=\"HtmlSaveOptions.RoundTripInformation.003.jpeg\" width=\"350\" height=\"180\" alt=\"\" />"));
+    Assert.That(outDocContents.Contains(
+        "<img src=\"HtmlSaveOptions.RoundTripInformation.003.jpeg\" width=\"350\" height=\"180\" alt=\"\" />"), Is.True);
 
-    Assert.True(outDocContents.Contains(
-        "<span>Page number 1</span>"));
+    Assert.That(outDocContents.Contains(
+        "<span>Page number 1</span>"), Is.True);
 
-    Assert.AreEqual(0, doc.Range.Fields.Count(f => f.Type == FieldType.FieldPage));
+    Assert.That(doc.Range.Fields.Count(f => f.Type == FieldType.FieldPage), Is.EqualTo(0));
 }
 ```
 

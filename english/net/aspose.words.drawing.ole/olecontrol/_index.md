@@ -5,7 +5,7 @@ articleTitle: OleControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.OleControl class to seamlessly integrate OLE ActiveX controls in your applications for enhanced functionality.
 type: docs
-weight: 1500
+weight: 1490
 url: /net/aspose.words.drawing.ole/olecontrol/
 ---
 ## OleControl class
@@ -35,17 +35,17 @@ Document doc = new Document(MyDir + "ActiveX controls.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 OleControl oleControl = shape.OleFormat.OleControl;
 
-Assert.AreEqual("CheckBox1", oleControl.Name);
+Assert.That(oleControl.Name, Is.EqualTo("CheckBox1"));
 
 if (oleControl.IsForms2OleControl)
 {
     Forms2OleControl checkBox = (Forms2OleControl)oleControl;
-    Assert.AreEqual("First", checkBox.Caption);
-    Assert.AreEqual("0", checkBox.Value);
-    Assert.AreEqual(true, checkBox.Enabled);
-    Assert.AreEqual(Forms2OleControlType.CheckBox, checkBox.Type);
-    Assert.AreEqual(null, checkBox.ChildNodes);
-    Assert.AreEqual(string.Empty, checkBox.GroupName);
+    Assert.That(checkBox.Caption, Is.EqualTo("First"));
+    Assert.That(checkBox.Value, Is.EqualTo("0"));
+    Assert.That(checkBox.Enabled, Is.EqualTo(true));
+    Assert.That(checkBox.Type, Is.EqualTo(Forms2OleControlType.CheckBox));
+    Assert.That(checkBox.ChildNodes, Is.EqualTo(null));
+    Assert.That(checkBox.GroupName, Is.EqualTo(string.Empty));
 
     // Note, that you can't set GroupName for a Frame.
     checkBox.GroupName = "Aspose group name";

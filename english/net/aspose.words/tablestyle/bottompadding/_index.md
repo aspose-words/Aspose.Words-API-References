@@ -5,7 +5,7 @@ articleTitle: BottomPadding
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle BottomPadding property, customize your table cell spacing for enhanced layout and readability. Optimize your design effortlessly!
 type: docs
-weight: 50
+weight: 40
 url: /net/aspose.words/tablestyle/bottompadding/
 ---
 ## TableStyle.BottomPadding property
@@ -50,9 +50,9 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 table.Style = tableStyle;
 
 // Setting the style properties of a table may affect the properties of the table itself.
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+Assert.That(table.Bidi, Is.True);
+Assert.That(table.CellSpacing, Is.EqualTo(5.0d));
+Assert.That(table.StyleName, Is.EqualTo("MyTableStyle1"));
 
 doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ```

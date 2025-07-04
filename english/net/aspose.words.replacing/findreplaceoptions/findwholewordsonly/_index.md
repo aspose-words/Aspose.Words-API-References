@@ -35,9 +35,7 @@ options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
 
-Assert.AreEqual(
-    findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville."));
 ```
 
 ### See Also

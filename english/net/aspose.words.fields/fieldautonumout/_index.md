@@ -5,7 +5,7 @@ articleTitle: FieldAutoNumOut
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAutoNumOut class for seamless AUTONUMOUT field implementation, enhancing document automation and efficiency.
 type: docs
-weight: 2010
+weight: 2000
 url: /net/aspose.words.fields/fieldautonumout/
 ---
 ## FieldAutoNumOut class
@@ -76,7 +76,7 @@ builder.InsertField(FieldType.FieldAutoNumOutline, true);
 builder.Writeln("\tParagraph 2.");
 
 foreach (FieldAutoNumOut field in doc.Range.Fields.Where(f => f.Type == FieldType.FieldAutoNumOutline).ToList())
-    Assert.AreEqual(" AUTONUMOUT ", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTONUMOUT "));
 
 doc.Save(ArtifactsDir + "Field.AUTONUMOUT.docx");
 ```

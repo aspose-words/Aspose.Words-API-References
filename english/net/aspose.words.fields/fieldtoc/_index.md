@@ -5,7 +5,7 @@ articleTitle: FieldToc
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldToc class for seamless Table of Contents creation in documents. Enhance your workflow with powerful features!
 type: docs
-weight: 2940
+weight: 2930
 url: /net/aspose.words.fields/fieldtoc/
 ---
 ## FieldToc class
@@ -133,7 +133,7 @@ public void FieldToc()
     // This entry does not appear because it is outside the bookmark specified by the TOC.
     InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
 
-    Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w"));
 
     field.UpdatePageNumbers();
     doc.UpdateFields();
@@ -181,7 +181,7 @@ fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc.SequenceSeparator = ">";
 
-Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\c MySequence \\s PrefixSequence \\d >"));
 
 builder.InsertBreak(BreakType.PageBreak);
 
@@ -194,7 +194,7 @@ FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true)
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
-Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  PrefixSequence"));
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -207,7 +207,7 @@ builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 
-Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence"));
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,

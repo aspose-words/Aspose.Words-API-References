@@ -44,10 +44,9 @@ options.IgnoreFields = ignoreTextInsideFields;
 
 doc.Range.Replace("Hello", "Greetings", options);
 
-Assert.AreEqual(
-    ignoreTextInsideFields
+Assert.That(doc.GetText().Trim(), Is.EqualTo(ignoreTextInsideFields
         ? "Greetings world!\r\u0013QUOTE\u0014Hello again!\u0015"
-        : "Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015", doc.GetText().Trim());
+        : "Greetings world!\r\u0013QUOTE\u0014Greetings again!\u0015"));
 ```
 
 ### See Also

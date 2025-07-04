@@ -5,7 +5,7 @@ articleTitle: PlainTextDocument
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PlainTextDocument class to effortlessly extract and utilize plaintext from your documents for enhanced readability and processing.
 type: docs
-weight: 5170
+weight: 5160
 url: /net/aspose.words/plaintextdocument/
 ---
 ## PlainTextDocument class
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

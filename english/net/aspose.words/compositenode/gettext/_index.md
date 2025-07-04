@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("\u0013MERGEFIELD Field\u0014«Field»\u0015"));
 
 // ToString will give us the document's appearance if saved to a passed save format.
-Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
+Assert.That(doc.ToString(SaveFormat.Text).Trim(), Is.EqualTo("«Field»"));
 ```
 
 Shows how to output all paragraphs in a document that are list items.

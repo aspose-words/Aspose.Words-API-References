@@ -5,7 +5,7 @@ articleTitle: FootnoteNumberingRule
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words FootnoteNumberingRule enum to control automatic footnote and endnote numbering. Optimize your document formatting effortlessly!
 type: docs
-weight: 4960
+weight: 4950
 url: /net/aspose.words.notes/footnotenumberingrule/
 ---
 ## FootnoteNumberingRule enumeration
@@ -66,8 +66,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 4.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and endnotes and does not restart these counts at any point.
-Assert.AreEqual(doc.FootnoteOptions.RestartRule, FootnoteNumberingRule.Default);
-Assert.AreEqual(FootnoteNumberingRule.Default, FootnoteNumberingRule.Continuous);
+Assert.That(FootnoteNumberingRule.Default, Is.EqualTo(doc.FootnoteOptions.RestartRule));
+Assert.That(FootnoteNumberingRule.Continuous, Is.EqualTo(FootnoteNumberingRule.Default));
 
 // We can use the "RestartRule" property to get the document to restart
 // the footnote/endnote counts at a new page or section.

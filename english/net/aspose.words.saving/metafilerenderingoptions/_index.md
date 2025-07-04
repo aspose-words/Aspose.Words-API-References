@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.MetafileRenderingOptions for enhanced metafile rendering control and customization in your documents. Optimize your workflow today!
 type: docs
-weight: 6080
+weight: 6070
 url: /net/aspose.words.saving/metafilerenderingoptions/
 ---
 ## MetafileRenderingOptions class
@@ -65,9 +65,8 @@ public void HandleBinaryRasterWarnings()
 
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
-    Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
-        callback.Warnings[0].Description);
+    Assert.That(callback.Warnings.Count, Is.EqualTo(1));
+    Assert.That(callback.Warnings[0].Description, Is.EqualTo("'R2_XORPEN' binary raster operation is not supported."));
 }
 
 /// <summary>

@@ -23,7 +23,7 @@ Shows how to print info about a group of revisions in a document.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-Assert.AreEqual(7, doc.Revisions.Groups.Count);
+Assert.That(doc.Revisions.Groups.Count, Is.EqualTo(7));
 
 foreach (RevisionGroup group in doc.Revisions.Groups)
 {

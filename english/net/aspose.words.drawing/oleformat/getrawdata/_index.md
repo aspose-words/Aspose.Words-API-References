@@ -31,7 +31,7 @@ foreach (Shape shape in doc.GetChildNodes(NodeType.Shape, true))
         Console.WriteLine($"This is {(oleFormat.IsLink ? "a linked" : "an embedded")} object");
         byte[] oleRawData = oleFormat.GetRawData();
 
-        Assert.AreEqual(24576, oleRawData.Length);
+        Assert.That(oleRawData.Length, Is.EqualTo(24576));
     }
 }
 ```

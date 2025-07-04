@@ -42,40 +42,40 @@ for (int i = 1; i <= 5; i++)
 // This collection stores bookmarks.
 BookmarkCollection bookmarks = doc.Range.Bookmarks;
 
-Assert.AreEqual(5, bookmarks.Count);
+Assert.That(bookmarks.Count, Is.EqualTo(5));
 
 // There are several ways of removing bookmarks.
 // 1 -  Calling the bookmark's Remove method:
 bookmarks["MyBookmark_1"].Remove();
 
-Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_1"));
+Assert.That(bookmarks.Any(b => b.Name == "MyBookmark_1"), Is.False);
 
 // 2 -  Passing the bookmark to the collection's Remove method:
 Bookmark bookmark = doc.Range.Bookmarks[0];
 doc.Range.Bookmarks.Remove(bookmark);
 
-Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_2"));
+Assert.That(bookmarks.Any(b => b.Name == "MyBookmark_2"), Is.False);
 
 // 3 -  Removing a bookmark from the collection by name:
 doc.Range.Bookmarks.Remove("MyBookmark_3");
 
-Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_3"));
+Assert.That(bookmarks.Any(b => b.Name == "MyBookmark_3"), Is.False);
 
 // 4 -  Removing a bookmark at an index in the bookmark collection:
 doc.Range.Bookmarks.RemoveAt(0);
 
-Assert.False(bookmarks.Any(b => b.Name == "MyBookmark_4"));
+Assert.That(bookmarks.Any(b => b.Name == "MyBookmark_4"), Is.False);
 
 // We can clear the entire bookmark collection.
 bookmarks.Clear();
 
 // The text that was inside the bookmarks is still present in the document.
-Assert.AreEqual(0, bookmarks.Count);
-Assert.AreEqual("Text inside MyBookmark_1.\r" +
+Assert.That(bookmarks.Count, Is.EqualTo(0));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Text inside MyBookmark_1.\r" +
                 "Text inside MyBookmark_2.\r" +
                 "Text inside MyBookmark_3.\r" +
                 "Text inside MyBookmark_4.\r" +
-                "Text inside MyBookmark_5.", doc.GetText().Trim());
+                "Text inside MyBookmark_5."));
 ```
 
 ### See Also

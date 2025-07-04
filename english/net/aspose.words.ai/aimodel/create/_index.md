@@ -26,7 +26,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 

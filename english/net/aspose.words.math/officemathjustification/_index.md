@@ -5,7 +5,7 @@ articleTitle: OfficeMathJustification
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Math.OfficeMathJustification enum for precise equation alignment. Enhance your document's clarity with optimal justification options.
 type: docs
-weight: 4830
+weight: 4820
 url: /net/aspose.words.math/officemathjustification/
 ---
 ## OfficeMathJustification enumeration
@@ -38,9 +38,9 @@ OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
-Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
-Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
-Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
+Assert.That(officeMath.MathObjectType, Is.EqualTo(MathObjectType.OMathPara));
+Assert.That(officeMath.NodeType, Is.EqualTo(NodeType.OfficeMath));
+Assert.That(officeMath.ParentParagraph, Is.EqualTo(officeMath.ParentNode));
 
 // Change the location and display type of the OfficeMath node.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

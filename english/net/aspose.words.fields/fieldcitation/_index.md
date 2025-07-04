@@ -5,7 +5,7 @@ articleTitle: FieldCitation
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldCitation class for seamless citation management in documents. Enhance your writing with efficient field implementation!
 type: docs
-weight: 2090
+weight: 2080
 url: /net/aspose.words.fields/fieldcitation/
 ---
 ## FieldCitation class
@@ -85,7 +85,7 @@ fieldCitation.SuppressAuthor = false;
 fieldCitation.SuppressTitle = true;
 fieldCitation.SuppressYear = true;
 
-Assert.AreEqual(" CITATION  Book1 \\p 85 \\t \\y", fieldCitation.GetFieldCode());
+Assert.That(fieldCitation.GetFieldCode(), Is.EqualTo(" CITATION  Book1 \\p 85 \\t \\y"));
 
 // Create a more detailed citation which cites two sources.
 builder.InsertParagraph();
@@ -102,7 +102,7 @@ fieldCitation.SuppressTitle = false;
 fieldCitation.SuppressYear = false;
 fieldCitation.VolumeNumber = "VII";
 
-Assert.AreEqual(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII", fieldCitation.GetFieldCode());
+Assert.That(fieldCitation.GetFieldCode(), Is.EqualTo(" CITATION  Book1 \\m Book2 \\l en-US \\p 19 \\f \"Prefix \" \\s \" Suffix\" \\v VII"));
 
 // We can use a BIBLIOGRAPHY field to display all the sources within the document.
 builder.InsertBreak(BreakType.PageBreak);
@@ -111,7 +111,7 @@ fieldBibliography.FormatLanguageId = "5129";
 fieldBibliography.FilterLanguageId = "5129";
 fieldBibliography.SourceTag = "Book2";
 
-Assert.AreEqual(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2", fieldBibliography.GetFieldCode());
+Assert.That(fieldBibliography.GetFieldCode(), Is.EqualTo(" BIBLIOGRAPHY  \\l 5129 \\f 5129 \\m Book2"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CITATION.docx");

@@ -42,18 +42,18 @@ SignatureLineOptions options = new SignatureLineOptions
 Shape shape = builder.InsertSignatureLine(options, RelativeHorizontalPosition.RightMargin, -170.0,
         RelativeVerticalPosition.BottomMargin, -60.0, WrapType.None);
 
-Assert.True(shape.IsSignatureLine);
+Assert.That(shape.IsSignatureLine, Is.True);
 
 // Verify the properties of our signature line via its Shape object.
 SignatureLine signatureLine = shape.SignatureLine;
 
-Assert.AreEqual("john.doe@management.com", signatureLine.Email);
-Assert.AreEqual("John Doe", signatureLine.Signer);
-Assert.AreEqual("Senior Manager", signatureLine.SignerTitle);
-Assert.AreEqual("Please sign here", signatureLine.Instructions);
-Assert.True(signatureLine.ShowDate);
-Assert.True(signatureLine.AllowComments);
-Assert.True(signatureLine.DefaultInstructions);
+Assert.That(signatureLine.Email, Is.EqualTo("john.doe@management.com"));
+Assert.That(signatureLine.Signer, Is.EqualTo("John Doe"));
+Assert.That(signatureLine.SignerTitle, Is.EqualTo("Senior Manager"));
+Assert.That(signatureLine.Instructions, Is.EqualTo("Please sign here"));
+Assert.That(signatureLine.ShowDate, Is.True);
+Assert.That(signatureLine.AllowComments, Is.True);
+Assert.That(signatureLine.DefaultInstructions, Is.True);
 
 doc.Save(ArtifactsDir + "Shape.SignatureLine.docx");
 ```

@@ -20,6 +20,10 @@ public abstract class GoogleAiModel : AiModel, IAiModelText
 
 | Name | Description |
 | --- | --- |
+| virtual [CheckGrammar](../../aspose.words.ai/aimodel/checkgrammar/)(*[Document](../../aspose.words/document/), [CheckGrammarOptions](../checkgrammaroptions/)*) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document. |
+| override [Summarize](../../aspose.words.ai/googleaimodel/summarize/#summarize)(*[Document](../../aspose.words/document/), [SummarizeOptions](../summarizeoptions/)*) | Summarizes specified [`Document`](../../aspose.words/document/) object. |
+| override [Summarize](../../aspose.words.ai/googleaimodel/summarize/#summarize_1)(*Document[], [SummarizeOptions](../summarizeoptions/)*) | Summarizes specified [`Document`](../../aspose.words/document/) objects. |
+| override [Translate](../../aspose.words.ai/googleaimodel/translate/)(*[Document](../../aspose.words/document/), [Language](../language/)*) | Translates a specified document. |
 | [WithApiKey](../../aspose.words.ai/aimodel/withapikey/)(*string*) | Sets a specified API key to the model. |
 
 ## Examples
@@ -32,7 +36,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 
@@ -48,6 +52,5 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 ### See Also
 
 * class [AiModel](../aimodel/)
-* interface [IAiModelText](../iaimodeltext/)
 * namespace [Aspose.Words.AI](../../aspose.words.ai/)
 * assembly [Aspose.Words](../../)

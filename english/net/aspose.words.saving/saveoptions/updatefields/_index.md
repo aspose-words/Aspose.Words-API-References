@@ -50,7 +50,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 options.UpdateFields = updateFields;
 
 // We can clone PdfSaveOptions objects.
-Assert.AreNotSame(options, options.Clone());
+Assert.That(options.Clone(), Is.Not.SameAs(options));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.UpdateFields.pdf", options);
 ```

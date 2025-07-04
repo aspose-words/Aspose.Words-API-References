@@ -5,7 +5,7 @@ articleTitle: FieldAddIn
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAddIn class to enhance document automation with powerful ADDIN field capabilities. Boost your productivity today!
 type: docs
-weight: 1930
+weight: 1920
 url: /net/aspose.words.fields/fieldaddin/
 ---
 ## FieldAddIn class
@@ -62,7 +62,7 @@ Document doc = new Document(MyDir + "Field sample - ADDIN.docx");
 // Aspose.Words does not support inserting ADDIN fields, but we can still load and read them.
 FieldAddIn field = (FieldAddIn)doc.Range.Fields[0];
 
-Assert.AreEqual(" ADDIN \"My value\" ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" ADDIN \"My value\" "));
 ```
 
 ### See Also

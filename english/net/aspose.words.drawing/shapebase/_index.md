@@ -5,7 +5,7 @@ articleTitle: ShapeBase
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Drawing.ShapeBase class, your foundation for creating dynamic drawings, including AutoShapes, OLE objects, and ActiveX controls.
 type: docs
-weight: 1650
+weight: 1640
 url: /net/aspose.words.drawing/shapebase/
 ---
 ## ShapeBase class

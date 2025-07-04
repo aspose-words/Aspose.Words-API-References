@@ -31,8 +31,8 @@ doc.Save(ArtifactsDir + "PlainTextDocument.BuiltInProperties.docx");
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.BuiltInProperties.docx");
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
-Assert.AreEqual("John Doe", plaintext.BuiltInDocumentProperties.Author);
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
+Assert.That(plaintext.BuiltInDocumentProperties.Author, Is.EqualTo("John Doe"));
 ```
 
 ### See Also

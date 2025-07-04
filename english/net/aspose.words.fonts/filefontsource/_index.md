@@ -5,7 +5,7 @@ articleTitle: FileFontSource
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FileFontSource. Easily manage TrueType font files on your system for enhanced document formatting and design flexibility.
 type: docs
-weight: 3280
+weight: 3270
 url: /net/aspose.words.fonts/filefontsource/
 ---
 ## FileFontSource class
@@ -53,9 +53,9 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {fileFontSource});
 
-Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
-Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
-Assert.AreEqual(0, fileFontSource.Priority);
+Assert.That(fileFontSource.FilePath, Is.EqualTo(MyDir + "Alte DIN 1451 Mittelschrift.ttf"));
+Assert.That(fileFontSource.Type, Is.EqualTo(FontSourceType.FontFile));
+Assert.That(fileFontSource.Priority, Is.EqualTo(0));
 ```
 
 ### See Also

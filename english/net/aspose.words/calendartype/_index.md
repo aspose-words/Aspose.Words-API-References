@@ -5,7 +5,7 @@ articleTitle: CalendarType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CalendarType enum to easily specify and customize your calendar types for enhanced document management and automation.
 type: docs
-weight: 380
+weight: 370
 url: /net/aspose.words/calendartype/
 ---
 ## CalendarType enumeration
@@ -44,20 +44,20 @@ public void FieldResultFormatting()
     // 1 -  Numeric:
     builder.InsertField(" = 2 + 3 \\# $###");
 
-    Assert.AreEqual("$5", doc.Range.Fields[0].Result);
-    Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric));
+    Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("$5"));
+    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.Numeric), Is.EqualTo(1));
 
     // 2 -  Date/time:
     builder.InsertField("DATE \\@ \"d MMMM yyyy\"");
 
-    Assert.IsTrue(doc.Range.Fields[1].Result.StartsWith("Date: "));
-    Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime));
+    Assert.That(doc.Range.Fields[1].Result.StartsWith("Date: "), Is.True);
+    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.DateTime), Is.EqualTo(1));
 
     // 3 -  General:
     builder.InsertField("QUOTE \"2\" \\* Ordinal");
 
-    Assert.AreEqual("Item # 2:", doc.Range.Fields[2].Result);
-    Assert.AreEqual(1, formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.General));
+    Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Item # 2:"));
+    Assert.That(formatter.CountFormatInvocations(FieldResultFormatter.FormatInvocationType.General), Is.EqualTo(1));
 
     formatter.PrintFormatInvocations();
 }
@@ -77,7 +77,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
     public string FormatNumeric(double value, string format)
     {
-        if (string.IsNullOrEmpty(mNumberFormat)) 
+        if (string.IsNullOrEmpty(mNumberFormat))
             return null;
 
         string newValue = String.Format(mNumberFormat, value);
@@ -133,7 +133,7 @@ private class FieldResultFormatter : IFieldResultFormatter
 
     private readonly string mNumberFormat;
     private readonly string mDateFormat;
-    private readonly string mGeneralFormat; 
+    private readonly string mGeneralFormat;
     private List<FormatInvocation> FormatInvocations { get; } = new List<FormatInvocation>();
 
     private class FormatInvocation

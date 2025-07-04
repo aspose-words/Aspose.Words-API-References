@@ -44,7 +44,7 @@ chart.Series.Add("Aspose Test Series",
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
 // This flag can override the above value and draw the number format from the source cell.
-Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
+Assert.That(chart.AxisY.NumberFormat.IsLinkedToSource, Is.False);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ```

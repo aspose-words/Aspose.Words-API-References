@@ -5,7 +5,7 @@ articleTitle: ConvertUtil
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ConvertUtil class for seamless unit conversion. Enhance your document processing with essential helper functions today!
 type: docs
-weight: 560
+weight: 550
 url: /net/aspose.words/convertutil/
 ---
 ## ConvertUtil class
@@ -69,8 +69,8 @@ pageSetup.LeftMargin = ConvertUtil.InchToPoint(2.5);
 pageSetup.RightMargin = ConvertUtil.InchToPoint(1.5);
 
 // An inch is 72 points.
-Assert.AreEqual(72.0d, ConvertUtil.InchToPoint(1));
-Assert.AreEqual(1.0d, ConvertUtil.PointToInch(72));
+Assert.That(ConvertUtil.InchToPoint(1), Is.EqualTo(72.0d));
+Assert.That(ConvertUtil.PointToInch(72), Is.EqualTo(1.0d));
 
 // Add content to demonstrate the new margins.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToInch(pageSetup.LeftMargin)} inches from the left, " +

@@ -50,7 +50,7 @@ public void PageFileNames()
     string[] filePaths = Directory.GetFiles(ArtifactsDir).Where(
         s => s.StartsWith(ArtifactsDir + "SavingCallback.PageFileNames.Page_")).OrderBy(s => s).ToArray();
 
-    Assert.AreEqual(3, filePaths.Length);
+    Assert.That(filePaths.Length, Is.EqualTo(3));
 }
 
 /// <summary>
@@ -69,7 +69,7 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         // 2 -  Create a custom stream for the output page file:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
-        Assert.False(args.KeepPageStreamOpen);
+        Assert.That(args.KeepPageStreamOpen, Is.False);
     }
 }
 ```

@@ -40,9 +40,9 @@ doc.Save(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc", saveOpti
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateLastPrintedProperty.doc");
 
 if (isUpdateLastPrintedProperty)
-    Assert.AreNotEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+    Assert.That(doc.BuiltInDocumentProperties.LastPrinted, Is.Not.EqualTo(lastPrinted));
 else
-    Assert.AreEqual(lastPrinted, doc.BuiltInDocumentProperties.LastPrinted);
+    Assert.That(doc.BuiltInDocumentProperties.LastPrinted, Is.EqualTo(lastPrinted));
 ```
 
 ### See Also

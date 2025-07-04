@@ -371,7 +371,7 @@ DocumentBuilder secondDoc = new DocumentBuilder();
 secondDoc.Write("Hello second word!");
 
 Document mergedDoc = Merger.Merge(new Document[] { firstDoc.Document, secondDoc.Document }, MergeFormatMode.KeepSourceLayout);
-Assert.AreEqual("Hello first word!\fHello second word!\f", mergedDoc.GetText());
+Assert.That(mergedDoc.GetText(), Is.EqualTo("Hello first word!\fHello second word!\f"));
 ```
 
 ### See Also

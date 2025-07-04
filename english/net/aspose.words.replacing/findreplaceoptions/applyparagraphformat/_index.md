@@ -30,9 +30,9 @@ builder.Write("This one also will.");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[2].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
 
 // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 FindReplaceOptions options = new FindReplaceOptions();
@@ -44,13 +44,13 @@ options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 // Replace every full stop that is right before a paragraph break with an exclamation point.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
-Assert.AreEqual(2, count);
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[2].ParagraphFormat.Alignment);
-Assert.AreEqual("Every paragraph that ends with a full stop like this one will be right aligned!\r" +
+Assert.That(count, Is.EqualTo(2));
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[2].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Every paragraph that ends with a full stop like this one will be right aligned!\r" +
                 "This one will not!\r" +
-                "This one also will!", doc.GetText().Trim());
+                "This one also will!"));
 ```
 
 ### See Also

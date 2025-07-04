@@ -5,7 +5,7 @@ articleTitle: VerticalAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.VerticalAlignment enum for precise vertical alignment of text frames and tables in your documents. Enhance layout control!
 type: docs
-weight: 1790
+weight: 1780
 url: /net/aspose.words.drawing/verticalalignment/
 ---
 ## VerticalAlignment enumeration

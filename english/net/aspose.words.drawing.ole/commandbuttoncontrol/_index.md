@@ -5,7 +5,7 @@ articleTitle: CommandButtonControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.CommandButtonControl class to easily create interactive buttons that run macros, enhancing user engagement in your applications.
 type: docs
-weight: 1450
+weight: 1440
 url: /net/aspose.words.drawing.ole/commandbuttoncontrol/
 ---
 ## CommandButtonControl class
@@ -48,7 +48,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 CommandButtonControl button1 = new CommandButtonControl();
 Shape shape = builder.InsertForms2OleControl(button1);
-Assert.AreEqual(Forms2OleControlType.CommandButton, button1.Type);
+Assert.That(button1.Type, Is.EqualTo(Forms2OleControlType.CommandButton));
 ```
 
 ### See Also

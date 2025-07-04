@@ -5,7 +5,7 @@ articleTitle: ExportFontFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.ExportFontFormat enum for optimal font export when rendering to HTML fixed format. Enhance your document's visual quality!
 type: docs
-weight: 5740
+weight: 5730
 url: /net/aspose.words.saving/exportfontformat/
 ---
 ## ExportFontFormat enumeration
@@ -43,11 +43,11 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html", saveOptio
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.UsingMachineFonts.html");
 
 if (useTargetMachineFonts)
-    Assert.False(Regex.Match(outDocContents, "@font-face").Success);
+    Assert.That(Regex.Match(outDocContents, "@font-face").Success, Is.False);
 else
-    Assert.True(Regex.Match(outDocContents,
+    Assert.That(Regex.Match(outDocContents,
         "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], " +
-        "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }").Success);
+        "url[(]'HtmlFixedSaveOptions.UsingMachineFonts/font001.ttf'[)] format[(]'truetype'[)]; }").Success, Is.True);
 ```
 
 ### See Also

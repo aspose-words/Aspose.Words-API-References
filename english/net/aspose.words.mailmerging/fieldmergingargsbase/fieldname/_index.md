@@ -63,7 +63,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
     {
         if (args.DocumentFieldName == "CourseName")
         {
-            Assert.AreEqual("StudentCourse", args.TableName);
+            Assert.That(args.TableName, Is.EqualTo("StudentCourse"));
 
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.FieldName);
@@ -72,7 +72,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
             string fieldValue = args.FieldValue.ToString();
 
             // In this case, for every record index 'n', the corresponding field value is "Course n".
-            Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
+            Assert.That(args.RecordIndex, Is.EqualTo(char.GetNumericValue(fieldValue[7])));
 
             builder.Write(fieldValue);
             mCheckBoxCount++;

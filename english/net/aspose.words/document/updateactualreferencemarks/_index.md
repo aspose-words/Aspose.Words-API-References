@@ -31,7 +31,7 @@ Footnote footnote = (Footnote)doc.GetChild(NodeType.Footnote, 1, true);
 doc.UpdateFields();
 doc.UpdateActualReferenceMarks();
 
-Assert.AreEqual("1", footnote.ActualReferenceMark);
+Assert.That(footnote.ActualReferenceMark, Is.EqualTo("1"));
 ```
 
 ### See Also

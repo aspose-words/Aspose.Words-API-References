@@ -34,7 +34,7 @@ List list = doc.Lists.Add(ListTemplate.BulletCircle);
 list.ListLevels[0].CreatePictureBullet();
 list.ListLevels[0].ImageData.SetImage(ImageDir + "Logo icon.ico");
 
-Assert.IsTrue(list.ListLevels[0].ImageData.HasImage);
+Assert.That(list.ListLevels[0].ImageData.HasImage, Is.True);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 
@@ -46,7 +46,7 @@ doc.Save(ArtifactsDir + "Lists.CreatePictureBullet.docx");
 
 list.ListLevels[0].DeletePictureBullet();
 
-Assert.IsNull(list.ListLevels[0].ImageData);
+Assert.That(list.ListLevels[0].ImageData, Is.Null);
 ```
 
 ### See Also

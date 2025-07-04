@@ -46,15 +46,15 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.DropDownFormField.html", options);
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.DropDownFormField.html");
 
 if (exportDropDownFormFieldAsText)
-    Assert.True(outDocContents.Contains(
-        "<span>Two</span>"));
+    Assert.That(outDocContents.Contains(
+        "<span>Two</span>"), Is.True);
 else
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<select name=\"MyComboBox\">" +
             "<option>One</option>" +
             "<option selected=\"selected\">Two</option>" +
             "<option>Three</option>" +
-        "</select>"));
+        "</select>"), Is.True);
 ```
 
 ### See Also

@@ -33,7 +33,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
         doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.True(exception?.Message.Contains("EstimatedProgress"));
+    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
 }
 
 /// <summary>
@@ -88,7 +88,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
         doc.Save(ArtifactsDir + $"OoxmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.True(exception?.Message.Contains("EstimatedProgress"));
+    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
 }
 
 /// <summary>
@@ -143,7 +143,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
         doc.Save(ArtifactsDir + $"XamlFlowSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.True(exception?.Message.Contains("EstimatedProgress"));
+    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
 }
 
 /// <summary>

@@ -5,7 +5,7 @@ articleTitle: SignOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.DigitalSignatures.SignOptions class to customize your document signing process with flexible and secure options for enhanced workflow.
 type: docs
-weight: 620
+weight: 610
 url: /net/aspose.words.digitalsignatures/signoptions/
 ---
 ## SignOptions class

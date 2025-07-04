@@ -51,13 +51,13 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.PreserveTableLayout.txt", txtSaveOptions
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.PreserveTableLayout.txt");
 
 if (preserveTableLayout)
-    Assert.AreEqual("Row 1, cell 1                                            Row 1, cell 2\r\n" +
-                    "Row 2, cell 1                                            Row 2, cell 2\r\n\r\n", docText);
+    Assert.That(docText, Is.EqualTo("Row 1, cell 1                                            Row 1, cell 2\r\n" +
+                    "Row 2, cell 1                                            Row 2, cell 2\r\n\r\n"));
 else
-    Assert.AreEqual("Row 1, cell 1\r" +
+    Assert.That(docText, Is.EqualTo("Row 1, cell 1\r" +
                     "Row 1, cell 2\r" +
                     "Row 2, cell 1\r" +
-                    "Row 2, cell 2\r\r\n", docText);
+                    "Row 2, cell 2\r\r\n"));
 ```
 
 ### See Also

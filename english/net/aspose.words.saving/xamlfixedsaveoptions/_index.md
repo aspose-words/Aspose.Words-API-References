@@ -5,7 +5,7 @@ articleTitle: XamlFixedSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XamlFixedSaveOptions for enhanced document saving in XamlFixed format. Unlock advanced features for superior results!
 type: docs
-weight: 6500
+weight: 6490
 url: /net/aspose.words.saving/xamlfixedsaveoptions/
 ---
 ## XamlFixedSaveOptions class
@@ -79,7 +79,7 @@ public void ResourceFolder()
     // to modify how we save the document to the XAML save format.
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
-    Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
+    Assert.That(options.SaveFormat, Is.EqualTo(SaveFormat.XamlFixed));
 
     // Use the "ResourcesFolder" property to assign a folder in the local file system into which
     // Aspose.Words will save all the document's linked resources, such as images and fonts.

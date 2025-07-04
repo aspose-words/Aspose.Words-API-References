@@ -44,7 +44,7 @@ builder.Write("Section 3");
 
 Section section = doc.Sections[2];
 
-Assert.AreEqual("Section 3" + ControlChar.SectionBreak, section.GetText());
+Assert.That(section.GetText(), Is.EqualTo("Section 3" + ControlChar.SectionBreak));
 
 // Insert the contents of the first section to the beginning of the third section.
 Section sectionToPrepend = doc.Sections[0];
@@ -55,10 +55,10 @@ Section sectionToAppend = doc.Sections[1];
 section.AppendContent(sectionToAppend);
 
 // The "PrependContent" and "AppendContent" methods did not create any new sections.
-Assert.AreEqual(3, doc.Sections.Count);
-Assert.AreEqual("Section 1" + ControlChar.ParagraphBreak +
+Assert.That(doc.Sections.Count, Is.EqualTo(3));
+Assert.That(section.GetText(), Is.EqualTo("Section 1" + ControlChar.ParagraphBreak +
                 "Section 3" + ControlChar.ParagraphBreak +
-                "Section 2" + ControlChar.SectionBreak, section.GetText());
+                "Section 2" + ControlChar.SectionBreak));
 ```
 
 ### See Also

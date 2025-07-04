@@ -31,8 +31,8 @@ doc.BuiltInDocumentProperties.Comments = "My comment.";
 FieldComments field = (FieldComments)builder.InsertField(FieldType.FieldComments, true);
 field.Update();
 
-Assert.AreEqual(" COMMENTS ", field.GetFieldCode());
-Assert.AreEqual("My comment.", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" COMMENTS "));
+Assert.That(field.Result, Is.EqualTo("My comment."));
 
 // If we give the COMMENTS field's Text property value and update it, the field will
 // overwrite the current value of the "Comments" built-in property with the value of its Text property,
@@ -40,8 +40,8 @@ Assert.AreEqual("My comment.", field.Result);
 field.Text = "My overriding comment.";
 field.Update();
 
-Assert.AreEqual(" COMMENTS  \"My overriding comment.\"", field.GetFieldCode());
-Assert.AreEqual("My overriding comment.", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" COMMENTS  \"My overriding comment.\""));
+Assert.That(field.Result, Is.EqualTo("My overriding comment."));
 
 doc.Save(ArtifactsDir + "Field.COMMENTS.docx");
 ```

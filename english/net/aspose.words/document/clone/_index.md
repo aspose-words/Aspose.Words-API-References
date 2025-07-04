@@ -34,10 +34,8 @@ builder.Write("Hello world!");
 // but with a unique copy of each of the original document's nodes.
 Document clone = doc.Clone();
 
-Assert.AreEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText(),
-    clone.FirstSection.Body.FirstParagraph.Runs[0].Text);
-Assert.AreNotEqual(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(),
-    clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode());
+Assert.That(clone.FirstSection.Body.FirstParagraph.Runs[0].Text, Is.EqualTo(doc.FirstSection.Body.FirstParagraph.Runs[0].GetText()));
+Assert.That(clone.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode(), Is.Not.EqualTo(doc.FirstSection.Body.FirstParagraph.Runs[0].GetHashCode()));
 ```
 
 ### See Also

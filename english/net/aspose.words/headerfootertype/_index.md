@@ -5,7 +5,7 @@ articleTitle: HeaderFooterType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.HeaderFooterType enum for easy identification of header and footer types in Word documents. Enhance your document processing today!
 type: docs
-weight: 3550
+weight: 3540
 url: /net/aspose.words/headerfootertype/
 ---
 ## HeaderFooterType enumeration

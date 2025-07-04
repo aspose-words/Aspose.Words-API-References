@@ -5,7 +5,7 @@ articleTitle: FlipOrientation
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.FlipOrientation enum for versatile shape orientation options. Enhance your document design with flexible customization!
 type: docs
-weight: 1290
+weight: 1280
 url: /net/aspose.words.drawing/fliporientation/
 ---
 ## FlipOrientation enumeration
@@ -39,7 +39,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-Assert.AreEqual(FlipOrientation.None, shape.FlipOrientation);
+Assert.That(shape.FlipOrientation, Is.EqualTo(FlipOrientation.None));
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);

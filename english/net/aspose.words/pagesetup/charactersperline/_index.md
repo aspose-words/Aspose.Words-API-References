@@ -37,7 +37,7 @@ builder.PageSetup.CharactersPerLine = 10;
 // The number of characters also depends on the size of the font.
 doc.Styles["Normal"].Font.Size = 20;
 
-Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
+Assert.That(doc.FirstSection.PageSetup.CharactersPerLine, Is.EqualTo(8));
 
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 

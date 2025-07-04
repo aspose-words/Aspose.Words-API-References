@@ -23,11 +23,11 @@ Shows how to detect encoding in an html file.
 ```csharp
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.html");
 
-Assert.AreEqual(LoadFormat.Html, info.LoadFormat);
+Assert.That(info.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 // The Encoding property is used only when we create a FileFormatInfo object for an html document.
-Assert.AreEqual("Western European (Windows)", info.Encoding.EncodingName);
-Assert.AreEqual(1252, info.Encoding.CodePage);
+Assert.That(info.Encoding.EncodingName, Is.EqualTo("Western European (Windows)"));
+Assert.That(info.Encoding.CodePage, Is.EqualTo(1252));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: IHyphenationCallback
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.IHyphenationCallback interface to easily implement and register hyphenation dictionaries for enhanced document formatting.
 type: docs
-weight: 3630
+weight: 3620
 url: /net/aspose.words/ihyphenationcallback/
 ---
 ## IHyphenationCallback interface
@@ -37,7 +37,7 @@ public void RegisterDictionary()
     Stream dictionaryStream = new FileStream(MyDir + "hyph_en_US.dic", FileMode.Open);
     Hyphenation.RegisterDictionary("en-US", dictionaryStream);
 
-    Assert.AreEqual(0, warningInfoCollection.Count);
+    Assert.That(warningInfoCollection.Count, Is.EqualTo(0));
 
     // Open a document with a locale that Microsoft Word may not hyphenate on an English machine, such as German.
     Document doc = new Document(MyDir + "German text.docx");
@@ -50,11 +50,11 @@ public void RegisterDictionary()
     doc.Save(ArtifactsDir + "Hyphenation.RegisterDictionary.pdf");
 
     // This dictionary contains two identical patterns, which will trigger a warning.
-    Assert.AreEqual(1, warningInfoCollection.Count);
-    Assert.AreEqual(WarningType.MinorFormattingLoss, warningInfoCollection[0].WarningType);
-    Assert.AreEqual(WarningSource.Layout, warningInfoCollection[0].Source);
-    Assert.AreEqual("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
-                    "Content can be wrapped differently.", warningInfoCollection[0].Description);
+    Assert.That(warningInfoCollection.Count, Is.EqualTo(1));
+    Assert.That(warningInfoCollection[0].WarningType, Is.EqualTo(WarningType.MinorFormattingLoss));
+    Assert.That(warningInfoCollection[0].Source, Is.EqualTo(WarningSource.Layout));
+    Assert.That(warningInfoCollection[0].Description, Is.EqualTo("Hyphenation dictionary contains duplicate patterns. The only first found pattern will be used. " +
+                    "Content can be wrapped differently."));
 
 }
 

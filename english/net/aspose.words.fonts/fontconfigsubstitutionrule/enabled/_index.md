@@ -32,8 +32,8 @@ bool isWindows = new[] {PlatformID.Win32NT, PlatformID.Win32S, PlatformID.Win32W
 // On Windows, it is unavailable.
 if (isWindows)
 {
-    Assert.False(fontConfigSubstitution.Enabled);
-    Assert.False(fontConfigSubstitution.IsFontConfigAvailable());
+    Assert.That(fontConfigSubstitution.Enabled, Is.False);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.False);
 }
 
 bool isLinuxOrMac =
@@ -42,8 +42,8 @@ bool isLinuxOrMac =
 // On Linux/Mac, we will have access to it, and will be able to perform operations.
 if (isLinuxOrMac)
 {
-    Assert.True(fontConfigSubstitution.Enabled);
-    Assert.True(fontConfigSubstitution.IsFontConfigAvailable());
+    Assert.That(fontConfigSubstitution.Enabled, Is.True);
+    Assert.That(fontConfigSubstitution.IsFontConfigAvailable(), Is.True);
 
     fontConfigSubstitution.ResetCache();
 }

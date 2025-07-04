@@ -29,15 +29,15 @@ Document doc = new Document();
 // These styles will all have the "BuiltIn" flag set to "true".
 Style style = doc.Styles["Emphasis"];
 
-Assert.True(style.BuiltIn);
+Assert.That(style.BuiltIn, Is.True);
 
 // Create a custom style and add it to the collection.
-// Custom styles such as this will have the "BuiltIn" flag set to "false". 
+// Custom styles such as this will have the "BuiltIn" flag set to "false".
 style = doc.Styles.Add(StyleType.Character, "MyStyle");
 style.Font.Color = Color.Navy;
 style.Font.Name = "Courier New";
 
-Assert.False(style.BuiltIn);
+Assert.That(style.BuiltIn, Is.False);
 ```
 
 ### See Also

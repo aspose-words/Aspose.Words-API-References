@@ -30,20 +30,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldAutoNum field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 1.");
 
-Assert.AreEqual(" AUTONUM ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTONUM "));
 
 field = (FieldAutoNum)builder.InsertField(FieldType.FieldAutoNum, true);
 builder.Writeln("\tParagraph 2.");
 
 // The separator character, which appears in the field result immediately after the number,is a full stop by default.
 // If we leave this property null, our second AUTONUM field will display "2." in the document.
-Assert.IsNull(field.SeparatorCharacter);
+Assert.That(field.SeparatorCharacter, Is.Null);
 
 // We can set this property to apply the first character of its string as the new separator character.
 // In this case, our AUTONUM field will now display "2:".
 field.SeparatorCharacter = ":";
 
-Assert.AreEqual(" AUTONUM  \\s :", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTONUM  \\s :"));
 
 doc.Save(ArtifactsDir + "Field.AUTONUM.docx");
 ```

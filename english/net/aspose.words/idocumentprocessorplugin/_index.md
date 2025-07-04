@@ -5,7 +5,7 @@ articleTitle: IDocumentProcessorPlugin
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words IDocumentProcessorPlugin interface to enhance your document processing with powerful external plugins for seamless integration.
 type: docs
-weight: 3610
+weight: 3600
 url: /net/aspose.words/idocumentprocessorplugin/
 ---
 ## IDocumentProcessorPlugin interface

@@ -5,7 +5,7 @@ articleTitle: PdfFontEmbeddingMode
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfFontEmbeddingMode enum for optimal font embedding in PDFs. Enhance document quality and ensure consistent text display.
 type: docs
-weight: 6270
+weight: 6260
 url: /net/aspose.words.saving/pdffontembeddingmode/
 ---
 ## PdfFontEmbeddingMode enumeration

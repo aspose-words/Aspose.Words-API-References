@@ -30,44 +30,44 @@ Document doc = new Document(MyDir + "Smart tags.doc");
 // Smart tags may be nested, so this collection contains more.
 SmartTag[] smartTags = doc.GetChildNodes(NodeType.SmartTag, true).OfType<SmartTag>().ToArray();
 
-Assert.AreEqual(8, smartTags.Length);
+Assert.That(smartTags.Length, Is.EqualTo(8));
 
 // The "Properties" member of a smart tag contains its metadata, which will be different for each type of smart tag.
 // The properties of a "date"-type smart tag contain its year, month, and day.
 CustomXmlPropertyCollection properties = smartTags[7].Properties;
 
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 using (IEnumerator<CustomXmlProperty> enumerator = properties.GetEnumerator())
 {
     while (enumerator.MoveNext())
     {
         Console.WriteLine($"Property name: {enumerator.Current.Name}, value: {enumerator.Current.Value}");
-        Assert.AreEqual("", enumerator.Current.Uri);
+        Assert.That(enumerator.Current.Uri, Is.EqualTo(""));
     }
 }
 
 // We can also access the properties in various ways, such as a key-value pair.
-Assert.True(properties.Contains("Day"));
-Assert.AreEqual("22", properties["Day"].Value);
-Assert.AreEqual("2003", properties[2].Value);
-Assert.AreEqual(1, properties.IndexOfKey("Month"));
+Assert.That(properties.Contains("Day"), Is.True);
+Assert.That(properties["Day"].Value, Is.EqualTo("22"));
+Assert.That(properties[2].Value, Is.EqualTo("2003"));
+Assert.That(properties.IndexOfKey("Month"), Is.EqualTo(1));
 
 // Below are three ways of removing elements from the properties collection.
 // 1 -  Remove by index:
 properties.RemoveAt(3);
 
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 2 -  Remove by name:
 properties.Remove("Year");
 
-Assert.AreEqual(2, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(2));
 
 // 3 -  Clear the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also

@@ -33,7 +33,7 @@ HtmlLoadOptions loadOptions = new HtmlLoadOptions();
 loadOptions.SupportFontFaceRules = true;
 Document doc = new Document(MyDir + "Html with FontFace.html", loadOptions);
 
-Assert.AreEqual("Squarish Sans CT Regular", doc.FontInfos[0].Name);
+Assert.That(doc.FontInfos[0].Name, Is.EqualTo("Squarish Sans CT Regular"));
 ```
 
 ### See Also

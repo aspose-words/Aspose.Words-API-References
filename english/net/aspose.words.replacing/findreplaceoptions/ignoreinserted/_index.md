@@ -31,7 +31,7 @@ doc.StartTrackRevisions("John Doe", DateTime.Now);
 builder.Writeln("Hello again!");
 doc.StopTrackRevisions();
 
-Assert.True(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision);
+Assert.That(doc.FirstSection.Body.Paragraphs[1].IsInsertRevision, Is.True);
 
 // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 FindReplaceOptions options = new FindReplaceOptions();
@@ -44,10 +44,9 @@ options.IgnoreInserted = ignoreTextInsideInsertRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);
 
-Assert.AreEqual(
-    ignoreTextInsideInsertRevisions
+Assert.That(doc.GetText().Trim(), Is.EqualTo(ignoreTextInsideInsertRevisions
         ? "Greetings world!\rHello again!"
-        : "Greetings world!\rGreetings again!", doc.GetText().Trim());
+        : "Greetings world!\rGreetings again!"));
 ```
 
 ### See Also

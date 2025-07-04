@@ -5,7 +5,7 @@ articleTitle: IFieldDatabaseProvider
 second_title: Aspose.Words for .NET
 description: Enhance your document automation with the Aspose.Words.Fields.IFieldDatabaseProvider interface. Seamlessly supply data for FieldDatabase updates.
 type: docs
-weight: 3100
+weight: 3090
 url: /net/aspose.words.fields/ifielddatabaseprovider/
 ---
 ## IFieldDatabaseProvider interface
@@ -36,7 +36,7 @@ field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\""));
 
 // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);

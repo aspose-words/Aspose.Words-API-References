@@ -37,7 +37,7 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
-Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\b MainBookmark \\f A"));
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
@@ -50,7 +50,7 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
-Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  \"Index entry 1\" \\f A"));
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
 builder.InsertBreak(BreakType.PageBreak);

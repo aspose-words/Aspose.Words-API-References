@@ -31,18 +31,15 @@ public void FieldNoteRef()
 
     // This NOTEREF field will display the number of the footnote inside the referenced bookmark.
     // Setting the InsertHyperlink property lets us jump to the bookmark by Ctrl + clicking the field in Microsoft Word.
-    Assert.AreEqual(" NOTEREF  MyBookmark2 \\h",
-        InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode());
+    Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, false, false, "Hyperlink to Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h"));
 
     // When using the \p flag, after the footnote number, the field also displays the bookmark's position relative to the field.
     // Bookmark1 is above this field and contains footnote number 1, so the result will be "1 above" on update.
-    Assert.AreEqual(" NOTEREF  MyBookmark1 \\h \\p",
-        InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode());
+    Assert.That(InsertFieldNoteRef(builder, "MyBookmark1", true, true, false, "Bookmark1, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark1 \\h \\p"));
 
     // Bookmark2 is below this field and contains footnote number 2, so the field will display "2 below".
     // The \f flag makes the number 2 appear in the same format as the footnote number label in the actual text.
-    Assert.AreEqual(" NOTEREF  MyBookmark2 \\h \\p \\f",
-        InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode());
+    Assert.That(InsertFieldNoteRef(builder, "MyBookmark2", true, true, true, "Bookmark2, with footnote number ").GetFieldCode(), Is.EqualTo(" NOTEREF  MyBookmark2 \\h \\p \\f"));
 
     builder.InsertBreak(BreakType.PageBreak);
     InsertBookmarkWithFootnote(builder, "MyBookmark2", "Contents of MyBookmark2", "Footnote from MyBookmark2");

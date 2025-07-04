@@ -5,7 +5,7 @@ articleTitle: ChartYValueCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartYValueCollection class, your go-to solution for managing Y values in chart series efficiently and effectively.
 type: docs
-weight: 1200
+weight: 1190
 url: /net/aspose.words.drawing.charts/chartyvaluecollection/
 ---
 ## ChartYValueCollection class

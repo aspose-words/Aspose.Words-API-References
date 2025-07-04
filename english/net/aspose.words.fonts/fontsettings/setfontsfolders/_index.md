@@ -45,12 +45,12 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.AreEqual(1, originalFontSources.Length);
-Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.That(originalFontSources.Length, Is.EqualTo(1));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
 
 // The default font sources are missing the two fonts that we are using in this document.
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"), Is.False);
 
 // Use the "SetFontsFolders" method to create a font source from each font directory that we pass as the first argument.
 // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directories
@@ -62,20 +62,20 @@ FontSettings.DefaultInstance.SetFontsFolders(new[] {FontsDir + "/Amethysta", Fon
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.AreEqual(2, newFontSources.Length);
-Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.AreEqual(1, newFontSources[0].GetAvailableFonts().Count);
-Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.That(newFontSources.Length, Is.EqualTo(2));
+Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.False);
+Assert.That(newFontSources[0].GetAvailableFonts().Count, Is.EqualTo(1));
+Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.True);
 
 // The "Junction" folder itself contains no font files, but has subfolders that do.
 if (recursive)
 {
-    Assert.AreEqual(6, newFontSources[1].GetAvailableFonts().Count);
-    Assert.True(newFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+    Assert.That(newFontSources[1].GetAvailableFonts().Count, Is.EqualTo(11));
+    Assert.That(newFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"), Is.True);
 }
 else
 {
-    Assert.AreEqual(0, newFontSources[1].GetAvailableFonts().Count);
+    Assert.That(newFontSources[1].GetAvailableFonts().Count, Is.EqualTo(0));
 }
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolders.pdf");

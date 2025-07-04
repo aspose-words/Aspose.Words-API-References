@@ -5,7 +5,7 @@ articleTitle: FieldEmbed
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEmbed class for seamless EMBED field implementation, enhancing document functionality and versatility.
 type: docs
-weight: 2260
+weight: 2250
 url: /net/aspose.words.fields/fieldembed/
 ---
 ## FieldEmbed class
@@ -63,26 +63,26 @@ Document doc = new Document(MyDir + "Legacy fields.doc");
 // An EMBED field has the same function, but for an embedded object,
 // such as a spreadsheet from an external Excel document.
 // However, these fields will not appear in the document's Fields collection.
-Assert.AreEqual(0, doc.Range.Fields.Count);
+Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
 
 // These fields are supported only by old versions of Microsoft Word.
 // The document loading process will convert these fields into Shape objects,
 // which we can access in the document's node collection.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
-Assert.AreEqual(3, shapes.Count);
+Assert.That(shapes.Count, Is.EqualTo(3));
 
 // The first Shape node corresponds to the SHAPE field in the input document,
 // which is the inline canvas for the AutoShape.
 Shape shape = (Shape)shapes[0];
-Assert.AreEqual(ShapeType.Image, shape.ShapeType);
+Assert.That(shape.ShapeType, Is.EqualTo(ShapeType.Image));
 
 // The second Shape node is the AutoShape itself.
 shape = (Shape)shapes[1];
-Assert.AreEqual(ShapeType.Can, shape.ShapeType);
+Assert.That(shape.ShapeType, Is.EqualTo(ShapeType.Can));
 
 // The third Shape is what was the EMBED field that contained the external spreadsheet.
 shape = (Shape)shapes[2];
-Assert.AreEqual(ShapeType.OleObject, shape.ShapeType);
+Assert.That(shape.ShapeType, Is.EqualTo(ShapeType.OleObject));
 ```
 
 ### See Also

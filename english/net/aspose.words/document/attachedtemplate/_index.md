@@ -36,7 +36,7 @@ Document doc = new Document();
 // Enable automatic style updating, but do not attach a template document.
 doc.AutomaticallyUpdateStyles = true;
 
-Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+Assert.That(doc.AttachedTemplate, Is.EqualTo(string.Empty));
 
 // Since there is no template document, the document had nowhere to track style changes.
 // Use a SaveOptions object to automatically set a template

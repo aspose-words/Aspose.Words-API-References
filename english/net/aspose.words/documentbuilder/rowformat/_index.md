@@ -41,54 +41,13 @@ builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
 // The first row was unaffected by the padding reconfiguration and still holds the default values.
-Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0.0d));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
 
-Assert.AreEqual(100.0d, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100.0d));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
-```
-
-Shows how to build a formatted 2x2 table.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-Table table = builder.StartTable();
-builder.InsertCell();
-builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
-builder.Write("Row 1, cell 1.");
-builder.InsertCell();
-builder.Write("Row 1, cell 2.");
-builder.EndRow();
-
-// While building the table, the document builder will apply its current RowFormat/CellFormat property values
-// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
-
-builder.InsertCell();
-builder.RowFormat.Height = 100;
-builder.RowFormat.HeightRule = HeightRule.Exactly;
-builder.CellFormat.Orientation = TextOrientation.Upward;
-builder.Write("Row 2, cell 1.");
-builder.InsertCell();
-builder.CellFormat.Orientation = TextOrientation.Downward;
-builder.Write("Row 2, cell 2.");
-builder.EndRow();
-builder.EndTable();
-
-// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
-Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
-Assert.AreEqual(TextOrientation.Upward, table.Rows[1].Cells[0].CellFormat.Orientation);
-Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orientation);
-
-doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
 Shows how to build a table with custom borders.
@@ -150,6 +109,47 @@ builder.EndRow();
 builder.EndTable();
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertTable.docx");
+```
+
+Shows how to build a formatted 2x2 table.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+Table table = builder.StartTable();
+builder.InsertCell();
+builder.CellFormat.VerticalAlignment = CellVerticalAlignment.Center;
+builder.Write("Row 1, cell 1.");
+builder.InsertCell();
+builder.Write("Row 1, cell 2.");
+builder.EndRow();
+
+// While building the table, the document builder will apply its current RowFormat/CellFormat property values
+// to the current row/cell that its cursor is in and any new rows/cells as it creates them.
+Assert.That(table.Rows[0].Cells[0].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+Assert.That(table.Rows[0].Cells[1].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+
+builder.InsertCell();
+builder.RowFormat.Height = 100;
+builder.RowFormat.HeightRule = HeightRule.Exactly;
+builder.CellFormat.Orientation = TextOrientation.Upward;
+builder.Write("Row 2, cell 1.");
+builder.InsertCell();
+builder.CellFormat.Orientation = TextOrientation.Downward;
+builder.Write("Row 2, cell 2.");
+builder.EndRow();
+builder.EndTable();
+
+// Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
+Assert.That(table.Rows[1].Cells[0].CellFormat.Orientation, Is.EqualTo(TextOrientation.Upward));
+Assert.That(table.Rows[1].Cells[1].CellFormat.Orientation, Is.EqualTo(TextOrientation.Downward));
+
+doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```
 
 ### See Also

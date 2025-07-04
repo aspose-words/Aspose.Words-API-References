@@ -33,7 +33,7 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPositio
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);
 shape.ImageData.SetImage(ImageDir + "Logo.jpg");
 
-Assert.AreEqual(FlipOrientation.None, shape.FlipOrientation);
+Assert.That(shape.FlipOrientation, Is.EqualTo(FlipOrientation.None));
 
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 250,
     RelativeVerticalPosition.TopMargin, 100, 100, 100, WrapType.None);

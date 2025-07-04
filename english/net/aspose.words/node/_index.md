@@ -5,7 +5,7 @@ articleTitle: Node
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Node class, the essential foundation for all Word document nodes, enabling seamless document manipulation and customization.
 type: docs
-weight: 4860
+weight: 4850
 url: /net/aspose.words/node/
 ---
 ## Node class
@@ -68,7 +68,7 @@ Shows how to remove all child nodes of a specific type from a composite node.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
 
 Node curNode = doc.FirstSection.Body.FirstChild;
 
@@ -85,7 +85,7 @@ while (curNode != null)
     curNode = nextNode;
 }
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(0));
 ```
 
 Shows how to clone a composite node.
@@ -99,14 +99,14 @@ para.AppendChild(new Run(doc, "Hello world!"));
 // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 Node cloneWithChildren = para.Clone(true);
 
-Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
-Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
+Assert.That(((CompositeNode)cloneWithChildren).HasChildNodes, Is.True);
+Assert.That(cloneWithChildren.GetText().Trim(), Is.EqualTo("Hello world!"));
 
 // 2 -  Create a clone of a node just by itself without any children.
 Node cloneWithoutChildren = para.Clone(false);
 
-Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
-Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
+Assert.That(((CompositeNode)cloneWithoutChildren).HasChildNodes, Is.False);
+Assert.That(cloneWithoutChildren.GetText().Trim(), Is.EqualTo(string.Empty));
 ```
 
 Shows how to traverse through a composite node's collection of child nodes.
@@ -132,7 +132,7 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 // and print any runs or shapes that we find within.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
+Assert.That(paragraph.GetChildNodes(NodeType.Any, false).Count, Is.EqualTo(3));
 
 foreach (Node child in children)
     switch (child.NodeType)

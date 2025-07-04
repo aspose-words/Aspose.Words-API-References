@@ -5,7 +5,7 @@ articleTitle: PdfDigitalSignatureDetails
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PdfDigitalSignatureDetails class for seamless PDF digital signing. Enhance document security with easy integration and robust features.
 type: docs
-weight: 6230
+weight: 6220
 url: /net/aspose.words.saving/pdfdigitalsignaturedetails/
 ---
 ## PdfDigitalSignatureDetails class
@@ -64,10 +64,10 @@ options.DigitalSignatureDetails =
     new PdfDigitalSignatureDetails(certificateHolder, "Test Signing", "My Office", signingTime);
 options.DigitalSignatureDetails.HashAlgorithm = PdfDigitalSignatureHashAlgorithm.RipeMD160;
 
-Assert.AreEqual("Test Signing", options.DigitalSignatureDetails.Reason);
-Assert.AreEqual("My Office", options.DigitalSignatureDetails.Location);
-Assert.AreEqual(signingTime, options.DigitalSignatureDetails.SignatureDate.ToLocalTime());
-Assert.AreEqual(certificateHolder, options.DigitalSignatureDetails.CertificateHolder);
+Assert.That(options.DigitalSignatureDetails.Reason, Is.EqualTo("Test Signing"));
+Assert.That(options.DigitalSignatureDetails.Location, Is.EqualTo("My Office"));
+Assert.That(options.DigitalSignatureDetails.SignatureDate.ToLocalTime(), Is.EqualTo(signingTime));
+Assert.That(options.DigitalSignatureDetails.CertificateHolder, Is.EqualTo(certificateHolder));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.PdfDigitalSignature.pdf", options);
 ```

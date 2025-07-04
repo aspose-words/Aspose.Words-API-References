@@ -29,11 +29,11 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Das
 
 // A result of "0" returned by "GetIndexByPosition" confirms that a tab stop
 // at 30mm exists in this collection, and it is at index 0.
-Assert.AreEqual(0, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)));
+Assert.That(tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(30)), Is.EqualTo(0));
 
 // A "-1" returned by "GetIndexByPosition" confirms that
 // there is no tab stop in this collection with a position of 60mm.
-Assert.AreEqual(-1, tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)));
+Assert.That(tabStops.GetIndexByPosition(ConvertUtil.MillimeterToPoint(60)), Is.EqualTo(-1));
 ```
 
 ### See Also

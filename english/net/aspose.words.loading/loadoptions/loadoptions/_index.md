@@ -33,10 +33,10 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
     // Verify that the first shape of the document contains a valid image.
     Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-    Assert.IsTrue(shape.IsImage);
-    Assert.IsNotNull(shape.ImageData.ImageBytes);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Width), 0.01);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Height), 0.01);
+    Assert.That(shape.IsImage, Is.True);
+    Assert.That(shape.ImageData.ImageBytes, Is.Not.Null);
+    Assert.That(ConvertUtil.PointToPixel(shape.Width), Is.EqualTo(32.0).Within(0.01));
+    Assert.That(ConvertUtil.PointToPixel(shape.Height), Is.EqualTo(32.0).Within(0.01));
 }
 ```
 
@@ -120,11 +120,11 @@ using (HttpClient client = new HttpClient())
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);
-        // Verify document content.
-        Assert.True(doc.GetText().Contains("HYPERLINK \"https://products.aspose.com/words/net/\" \\o \"Aspose.Words\""));
 
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
@@ -138,13 +138,13 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object. 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
-Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
+Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(imageShape.IsImage);
+Assert.That(imageShape.IsImage, Is.True);
 
 // This output document will display the image that was missing.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");

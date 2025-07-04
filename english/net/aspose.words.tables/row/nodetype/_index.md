@@ -5,7 +5,7 @@ articleTitle: NodeType
 second_title: Aspose.Words for .NET
 description: Discover the Row NodeType property that efficiently returns Row data, enhancing your data management and improving application performance.
 type: docs
-weight: 80
+weight: 90
 url: /net/aspose.words.tables/row/nodetype/
 ---
 ## Row.NodeType property
@@ -26,7 +26,7 @@ public void RecurseChildren()
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.True(doc.IsComposite);
+    Assert.That(doc.IsComposite, Is.True);
 
     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
     TraverseAllNodes(doc, 0);

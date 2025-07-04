@@ -5,7 +5,7 @@ articleTitle: SoftEdgeFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.SoftEdgeFormat class to enhance your documents with stunning soft edge effects for a professional look.
 type: docs
-weight: 1710
+weight: 1700
 url: /net/aspose.words.drawing/softedgeformat/
 ---
 ## SoftEdgeFormat class
@@ -51,13 +51,13 @@ shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 SoftEdgeFormat softEdgeFormat = shape.SoftEdge;
 
 // Check soft edge radius.
-Assert.AreEqual(30, softEdgeFormat.Radius);
+Assert.That(softEdgeFormat.Radius, Is.EqualTo(30));
 
 // Remove soft edge from the shape.
 softEdgeFormat.Remove();
 
 // Check radius of the removed soft edge.
-Assert.AreEqual(0, softEdgeFormat.Radius);
+Assert.That(softEdgeFormat.Radius, Is.EqualTo(0));
 ```
 
 ### See Also

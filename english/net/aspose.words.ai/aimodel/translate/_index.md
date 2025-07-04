@@ -1,19 +1,19 @@
 ---
-title: IAiModelText.Translate
+title: AiModel.Translate
 linktitle: Translate
 articleTitle: Translate
 second_title: Aspose.Words for .NET
-description: Effortlessly translate documents with our IAiModelText Translate method. Harness AI for accurate, fast translations in your desired language.
+description: AiModel Translate method. Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating.
 type: docs
-weight: 30
-url: /net/aspose.words.ai/iaimodeltext/translate/
+weight: 40
+url: /net/aspose.words.ai/aimodel/translate/
 ---
-## IAiModelText.Translate method
+## AiModel.Translate method
 
 Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating.
 
 ```csharp
-public Document Translate(Document sourceDocument, Language targetLanguage)
+public abstract Document Translate(Document sourceDocument, Language targetLanguage)
 ```
 
 | Parameter | Type | Description |
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use Google generative language models.
-IAiModelText model = (GoogleAiModel)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
+AiModel model = AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
 
 Document translatedDoc = model.Translate(doc, Language.Arabic);
 translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
@@ -44,6 +44,6 @@ translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");
 
 * class [Document](../../../aspose.words/document/)
 * enum [Language](../../language/)
-* interface [IAiModelText](../)
+* class [AiModel](../)
 * namespace [Aspose.Words.AI](../../../aspose.words.ai/)
 * assembly [Aspose.Words](../../../)

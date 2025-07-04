@@ -5,7 +5,7 @@ articleTitle: AxisDisplayUnit
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisDisplayUnit class to customize value axis scaling options for enhanced chart clarity and precision.
 type: docs
-weight: 790
+weight: 780
 url: /net/aspose.words.drawing.charts/axisdisplayunit/
 ---
 ## AxisDisplayUnit class
@@ -43,8 +43,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Scatter, 450, 250);
 Chart chart = shape.Chart;
 
-Assert.AreEqual(1, chart.Series.Count);
-Assert.AreEqual("Y-Values", chart.Series[0].Name);
+Assert.That(chart.Series.Count, Is.EqualTo(1));
+Assert.That(chart.Series[0].Name, Is.EqualTo("Y-Values"));
 
 // Set the minor tick marks of the Y-axis to point away from the plot area,
 // and the major tick marks to cross the axis.
@@ -76,8 +76,8 @@ axis.Scaling.Minimum = new AxisBound(-10);
 axis.Scaling.Maximum = new AxisBound(30);
 axis.TickLabels.Alignment = ParagraphAlignment.Right;
 
-Assert.AreEqual(1, axis.TickLabels.Spacing);
-Assert.AreEqual(doc, axis.DisplayUnit.Document);
+Assert.That(axis.TickLabels.Spacing, Is.EqualTo(1));
+Assert.That(axis.DisplayUnit.Document, Is.EqualTo(doc));
 
 // Set the tick labels to display their value in millions.
 axis.DisplayUnit.Unit = AxisBuiltInUnit.Millions;

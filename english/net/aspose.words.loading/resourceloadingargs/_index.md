@@ -5,7 +5,7 @@ articleTitle: ResourceLoadingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Loading.ResourceLoadingArgs class, designed to enhance resource loading efficiency in your applications. Unlock seamless integration today!
 type: docs
-weight: 4150
+weight: 4140
 url: /net/aspose.words.loading/resourceloadingargs/
 ---
 ## ResourceLoadingArgs class
@@ -48,7 +48,7 @@ public void ResourceLoadingCallback()
     builder.InsertImage("Aspose logo");
     builder.InsertImage("Watermark");
 
-    Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(3));
 
     doc.Save(ArtifactsDir + "DocumentBase.ResourceLoadingCallback.docx");
 }
@@ -72,6 +72,7 @@ private class ImageNameHandler : IResourceLoadingCallback
                         byte[] imageData = client.GetByteArrayAsync("http://www.google.com/images/logos/ps_logo2.png").GetAwaiter().GetResult();
                         args.SetData(imageData);
                     }
+
                     return ResourceLoadingAction.UserProvided;
 
                 case "Aspose logo":

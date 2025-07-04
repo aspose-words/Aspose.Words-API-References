@@ -36,14 +36,14 @@ builder.PushFont();
 builder.Font.StyleIdentifier = StyleIdentifier.Hyperlink;
 builder.InsertHyperlink("here", "http://www.google.com", false);
 
-Assert.AreEqual(Color.Blue.ToArgb(), builder.Font.Color.ToArgb());
-Assert.AreEqual(Underline.Single, builder.Font.Underline);
+Assert.That(builder.Font.Color.ToArgb(), Is.EqualTo(Color.Blue.ToArgb()));
+Assert.That(builder.Font.Underline, Is.EqualTo(Underline.Single));
 
 // Restore the font formatting that we saved earlier and remove the element from the stack.
 builder.PopFont();
 
-Assert.AreEqual(Color.Empty.ToArgb(), builder.Font.Color.ToArgb());
-Assert.AreEqual(Underline.None, builder.Font.Underline);
+Assert.That(builder.Font.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
+Assert.That(builder.Font.Underline, Is.EqualTo(Underline.None));
 
 builder.Write(". We hope you enjoyed the example.");
 

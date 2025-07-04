@@ -5,7 +5,7 @@ articleTitle: FieldLastSavedBy
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldLastSavedBy class to enhance document management with LASTSAVEDBY field functionality. Optimize your workflow today!
 type: docs
-weight: 2510
+weight: 2500
 url: /net/aspose.words.fields/fieldlastsavedby/
 ---
 ## FieldLastSavedBy class
@@ -69,8 +69,8 @@ doc.BuiltInDocumentProperties.LastSavedBy = "John Doe";
 // We can use the LASTSAVEDBY field to display the value of this property in the document.
 FieldLastSavedBy field = (FieldLastSavedBy)builder.InsertField(FieldType.FieldLastSavedBy, true);
 
-Assert.AreEqual(" LASTSAVEDBY ", field.GetFieldCode());
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" LASTSAVEDBY "));
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 doc.Save(ArtifactsDir + "Field.LASTSAVEDBY.docx");
 ```

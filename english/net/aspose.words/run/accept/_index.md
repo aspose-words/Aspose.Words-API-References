@@ -49,7 +49,7 @@ public void HeaderFooterToText()
 
     // An alternative way of accessing a document's header/footers section-by-section is by accessing the collection.
     HeaderFooter[] headerFooters = doc.FirstSection.HeadersFooters.ToArray();
-    Assert.AreEqual(3, headerFooters.Length);
+    Assert.That(headerFooters.Length, Is.EqualTo(3));
 }
 
 /// <summary>

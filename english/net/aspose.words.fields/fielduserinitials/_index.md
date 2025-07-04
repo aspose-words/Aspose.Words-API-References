@@ -5,7 +5,7 @@ articleTitle: FieldUserInitials
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldUserInitials class to easily implement USERINITIALS fields, enhancing document personalization and user engagement.
 type: docs
-weight: 3000
+weight: 2990
 url: /net/aspose.words.fields/fielduserinitials/
 ---
 ## FieldUserInitials class
@@ -71,20 +71,20 @@ doc.FieldOptions.CurrentUser = userInformation;
 // taken from the UserInformation object we created above.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserInitials fieldUserInitials = (FieldUserInitials)builder.InsertField(FieldType.FieldUserInitials, true);
-Assert.AreEqual(userInformation.Initials, fieldUserInitials.Result);
+Assert.That(fieldUserInitials.Result, Is.EqualTo(userInformation.Initials));
 
-Assert.AreEqual(" USERINITIALS ", fieldUserInitials.GetFieldCode());
-Assert.AreEqual("J. D.", fieldUserInitials.Result);
+Assert.That(fieldUserInitials.GetFieldCode(), Is.EqualTo(" USERINITIALS "));
+Assert.That(fieldUserInitials.Result, Is.EqualTo("J. D."));
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object. 
 fieldUserInitials.UserInitials = "J. C.";
 fieldUserInitials.Update();
 
-Assert.AreEqual(" USERINITIALS  \"J. C.\"", fieldUserInitials.GetFieldCode());
-Assert.AreEqual("J. C.", fieldUserInitials.Result);
+Assert.That(fieldUserInitials.GetFieldCode(), Is.EqualTo(" USERINITIALS  \"J. C.\""));
+Assert.That(fieldUserInitials.Result, Is.EqualTo("J. C."));
 
 // This does not affect the value in the UserInformation object.
-Assert.AreEqual("J. D.", doc.FieldOptions.CurrentUser.Initials);
+Assert.That(doc.FieldOptions.CurrentUser.Initials, Is.EqualTo("J. D."));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.USERINITIALS.docx");

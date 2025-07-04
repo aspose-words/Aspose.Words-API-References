@@ -5,7 +5,7 @@ articleTitle: OoxmlSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.OoxmlSaveOptions to enhance document saving in Docx, Docm, Dotx, Dotm, and FlatOpc formats with customizable features.
 type: docs
-weight: 6140
+weight: 6130
 url: /net/aspose.words.saving/ooxmlsaveoptions/
 ---
 ## OoxmlSaveOptions class
@@ -69,7 +69,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -85,7 +85,7 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
-Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
 ```
 
 ### See Also

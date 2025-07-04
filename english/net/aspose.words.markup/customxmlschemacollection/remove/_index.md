@@ -40,8 +40,8 @@ CustomXmlSchemaCollection schemas = xmlPart.Schemas.Clone();
 schemas.Add("http://www.w3.org/2001/XMLSchema-instance");
 schemas.Add("http://schemas.microsoft.com/office/2006/metadata/contentType");
 
-Assert.AreEqual(3, schemas.Count);
-Assert.AreEqual(2, schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"));
+Assert.That(schemas.Count, Is.EqualTo(3));
+Assert.That(schemas.IndexOf("http://schemas.microsoft.com/office/2006/metadata/contentType"), Is.EqualTo(2));
 
 // Enumerate the schemas and print each element.
 using (IEnumerator<string> enumerator = schemas.GetEnumerator())
@@ -60,7 +60,7 @@ schemas.Remove("http://www.w3.org/2001/XMLSchema");
 // 3 -  Use the "Clear" method to empty the collection at once.
 schemas.Clear();
 
-Assert.AreEqual(0, schemas.Count);
+Assert.That(schemas.Count, Is.EqualTo(0));
 ```
 
 ### See Also

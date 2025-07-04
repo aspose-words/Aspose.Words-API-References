@@ -65,7 +65,7 @@ public void FieldTOA()
     builder.Font.Color = Color.Green;
     builder.Font.Name = "Arial Black";
 
-    Assert.AreEqual(" TOA  \\c 1 \\h \\b MyBookmark \\e \" \t p.\" \\l \" & p. \" \\p \\g \" to \" \\f", fieldToa.GetFieldCode());
+    Assert.That(fieldToa.GetFieldCode(), Is.EqualTo(" TOA  \\c 1 \\h \\b MyBookmark \\e \" \t p.\" \\l \" & p. \" \\p \\g \" to \" \\f"));
 
     builder.InsertBreak(BreakType.PageBreak);
 
@@ -73,7 +73,7 @@ public void FieldTOA()
     // the bookmark's bounds that the TOA's BookmarkName property specifies.
     FieldTA fieldTA = InsertToaEntry(builder, "1", "Source 1");
 
-    Assert.AreEqual(" TA  \\c 1 \\l \"Source 1\"", fieldTA.GetFieldCode());
+    Assert.That(fieldTA.GetFieldCode(), Is.EqualTo(" TA  \\c 1 \\l \"Source 1\""));
 
     // This TA field is inside the bookmark,
     // but the entry category does not match that of the table, so the TA field will not include it.
@@ -87,7 +87,7 @@ public void FieldTOA()
     // but we can use them as a shorthand to refer to bulky source names that multiple TA fields reference.
     fieldTA.ShortCitation = "S.3";
 
-    Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\s S.3", fieldTA.GetFieldCode());
+    Assert.That(fieldTA.GetFieldCode(), Is.EqualTo(" TA  \\c 1 \\l \"Source 3\" \\s S.3"));
 
     // We can format the page number to make it bold/italic using the following properties.
     // We will still see these effects if we set our table to ignore formatting.
@@ -95,7 +95,7 @@ public void FieldTOA()
     fieldTA.IsBold = true;
     fieldTA.IsItalic = true;
 
-    Assert.AreEqual(" TA  \\c 1 \\l \"Source 2\" \\b \\i", fieldTA.GetFieldCode());
+    Assert.That(fieldTA.GetFieldCode(), Is.EqualTo(" TA  \\c 1 \\l \"Source 2\" \\b \\i"));
 
     // We can configure TA fields to get their TOA entries to refer to a range of pages that a bookmark spans across.
     // Note that this entry refers to the same source as the one above to share one row in our table.
@@ -110,7 +110,7 @@ public void FieldTOA()
     builder.InsertBreak(BreakType.PageBreak);
     builder.EndBookmark("MyMultiPageBookmark");
 
-    Assert.AreEqual(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark", fieldTA.GetFieldCode());
+    Assert.That(fieldTA.GetFieldCode(), Is.EqualTo(" TA  \\c 1 \\l \"Source 3\" \\r MyMultiPageBookmark"));
 
     // If we have enabled the "Passim" feature of our table, having 5 or more TA entries with the same source will invoke it.
     for (int i = 0; i < 5; i++)

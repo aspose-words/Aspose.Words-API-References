@@ -36,7 +36,7 @@ public void FieldFillIn()
     // created during a mail merge done using Microsoft Word.
     field.PromptOnceOnMailMerge = true;
 
-    Assert.AreEqual(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" FILLIN  \"Please enter a response:\" \\d \"A default response.\" \\o"));
 
     FieldMergeField mergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
     mergeField.FieldName = "MergeField";

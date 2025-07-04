@@ -5,7 +5,7 @@ articleTitle: ReplacingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Replacing.ReplacingArgs class for efficient custom text replacement in your documents. Enhance your workflow today!
 type: docs
-weight: 5390
+weight: 5380
 url: /net/aspose.words.replacing/replacingargs/
 ---
 ## ReplacingArgs class
@@ -25,6 +25,7 @@ public class ReplacingArgs
 | [GroupIndex](../../aspose.words.replacing/replacingargs/groupindex/) { get; set; } | Identifies, by index, a captured group in the [`Match`](./match/) that is to be replaced with the [`Replacement`](./replacement/) string. |
 | [GroupName](../../aspose.words.replacing/replacingargs/groupname/) { get; set; } | Identifies, by name, a captured group in the [`Match`](./match/) that is to be replaced with the [`Replacement`](./replacement/) string. |
 | [Match](../../aspose.words.replacing/replacingargs/match/) { get; } | The Match resulting from a single regular expression match during a **Replace**. |
+| [MatchEndNode](../../aspose.words.replacing/replacingargs/matchendnode/) { get; } | Gets the node that contains the end of the match. |
 | [MatchNode](../../aspose.words.replacing/replacingargs/matchnode/) { get; } | Gets the node that contains the beginning of the match. |
 | [MatchOffset](../../aspose.words.replacing/replacingargs/matchoffset/) { get; } | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [Replacement](../../aspose.words.replacing/replacingargs/replacement/) { get; set; } | Gets or sets the replacement string. |
@@ -51,11 +52,11 @@ public void ReplaceWithCallback()
 
     doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
-                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
 
-    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
-                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
+    Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
 }
 
 /// <summary>

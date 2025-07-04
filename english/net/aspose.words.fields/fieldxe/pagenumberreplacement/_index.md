@@ -36,7 +36,7 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 // specify a custom separator between the XE field's Text property value and the string.
 index.CrossReferenceSeparator = ", see: ";
 
-Assert.AreEqual(" INDEX  \\k \", see: \"", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\k \", see: \""));
 
 // Insert an XE field, which creates a regular INDEX entry which displays this field's page number,
 // and does not invoke the CrossReferenceSeparator value.
@@ -45,7 +45,7 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apple";
 
-Assert.AreEqual(" XE  Apple", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  Apple"));
 
 // Insert another XE field on page 3 and set a value for the PageNumberReplacement property.
 // This value will show up instead of the number of the page that this field is on,
@@ -56,7 +56,7 @@ indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Banana";
 indexEntry.PageNumberReplacement = "Tropical fruit";
 
-Assert.AreEqual(" XE  Banana \\t \"Tropical fruit\"", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  Banana \\t \"Tropical fruit\""));
 
 doc.UpdatePageLayout();
 doc.UpdateFields();

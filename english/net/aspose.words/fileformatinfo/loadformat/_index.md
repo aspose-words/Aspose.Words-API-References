@@ -37,8 +37,8 @@ doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 // Verify the file type of our document, and its encryption status.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
-Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-Assert.True(info.IsEncrypted);
+Assert.That(FileFormatUtil.LoadFormatToExtension(info.LoadFormat), Is.EqualTo(".odt"));
+Assert.That(info.IsEncrypted, Is.True);
 ```
 
 Shows how to use the FileFormatUtil class to detect the document format and presence of digital signatures.
@@ -47,8 +47,8 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
-Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-Assert.False(info.HasDigitalSignature);
+Assert.That(FileFormatUtil.LoadFormatToExtension(info.LoadFormat), Is.EqualTo(".docx"));
+Assert.That(info.HasDigitalSignature, Is.False);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
@@ -58,10 +58,10 @@ DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDi
 // Use a new FileFormatInstance to confirm that it is signed.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
-Assert.True(info.HasDigitalSignature);
+Assert.That(info.HasDigitalSignature, Is.True);
 
 // We can load and access the signatures of a signed document in a collection like this.
-Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count, Is.EqualTo(1));
 ```
 
 Shows how to use the FileFormatUtil methods to detect the format of a document.
@@ -73,7 +73,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
     LoadFormat loadFormat = info.LoadFormat;
 
-    Assert.AreEqual(LoadFormat.Doc, loadFormat);
+    Assert.That(loadFormat, Is.EqualTo(LoadFormat.Doc));
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -86,7 +86,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // Load a document from the stream, and then save it to the automatically detected file extension.
     Document doc = new Document(docStream);
 
-    Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
+    Assert.That(FileFormatUtil.SaveFormatToExtension(saveFormat), Is.EqualTo(".doc"));
 
     doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
 }

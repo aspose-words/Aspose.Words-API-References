@@ -29,11 +29,11 @@ Document doc = new Document(MyDir + "Rounded rectangle shape.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 AdjustmentCollection adjustments = shape.Adjustments;
-Assert.AreEqual(1, adjustments.Count);
+Assert.That(adjustments.Count, Is.EqualTo(1));
 
 Adjustment adjustment = adjustments[0];
-Assert.AreEqual("adj", adjustment.Name);
-Assert.AreEqual(16667, adjustment.Value);
+Assert.That(adjustment.Name, Is.EqualTo("adj"));
+Assert.That(adjustment.Value, Is.EqualTo(16667));
 
 adjustment.Value = 30000;
 

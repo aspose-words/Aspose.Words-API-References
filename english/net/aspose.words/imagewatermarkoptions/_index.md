@@ -5,7 +5,7 @@ articleTitle: ImageWatermarkOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ImageWatermarkOptions. Customize your image watermarks effortlessly with versatile options for enhanced document presentation.
 type: docs
-weight: 3670
+weight: 3660
 url: /net/aspose.words/imagewatermarkoptions/
 ---
 ## ImageWatermarkOptions class
@@ -45,17 +45,17 @@ Document doc = new Document();
             imageWatermarkOptions.IsWashout = false;
 
 #if NET461_OR_GREATER || JAVA
-            // We have a different options to insert image:
-            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
-
+            // We have a different options to insert image.
+            // Use on of the following methods to add image watermark.
             doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"));
 
+            doc.Watermark.SetImage(Image.FromFile(ImageDir + "Logo.jpg"), imageWatermarkOptions);
+
             doc.Watermark.SetImage(ImageDir + "Logo.jpg", imageWatermarkOptions);
+
 #elif NET5_0_OR_GREATER
             using (SKBitmap image = SKBitmap.Decode(ImageDir + "Logo.jpg"))
-            {
                 doc.Watermark.SetImage(image, imageWatermarkOptions);
-            }
 #endif
 
             doc.Save(ArtifactsDir + "Document.ImageWatermark.docx");

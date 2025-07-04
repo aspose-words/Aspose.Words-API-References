@@ -5,7 +5,7 @@ articleTitle: ChartSeries
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartSeries class, your key to enhancing chart series properties for dynamic document creation and visualization.
 type: docs
-weight: 1070
+weight: 1060
 url: /net/aspose.words.drawing.charts/chartseries/
 ---
 ## ChartSeries class
@@ -66,17 +66,17 @@ public void DataLabels()
     Shape chartShape = builder.InsertChart(ChartType.Line, 400, 300);
     Chart chart = chartShape.Chart;
 
-    Assert.AreEqual(3, chart.Series.Count);
-    Assert.AreEqual("Series 1", chart.Series[0].Name);
-    Assert.AreEqual("Series 2", chart.Series[1].Name);
-    Assert.AreEqual("Series 3", chart.Series[2].Name);
+    Assert.That(chart.Series.Count, Is.EqualTo(3));
+    Assert.That(chart.Series[0].Name, Is.EqualTo("Series 1"));
+    Assert.That(chart.Series[1].Name, Is.EqualTo("Series 2"));
+    Assert.That(chart.Series[2].Name, Is.EqualTo("Series 3"));
 
     // Apply data labels to every series in the chart.
     // These labels will appear next to each data point in the graph and display its value.
     foreach (ChartSeries series in chart.Series)
     {
         ApplyDataLabels(series, 4, "000.0", ", ");
-        Assert.AreEqual(4, series.DataLabels.Count);
+        Assert.That(series.DataLabels.Count, Is.EqualTo(4));
     }
 
     // Change the separator string for every data label in a series.
@@ -84,7 +84,7 @@ public void DataLabels()
     {
         while (enumerator.MoveNext())
         {
-            Assert.AreEqual(", ", enumerator.Current.Separator);
+            Assert.That(enumerator.Current.Separator, Is.EqualTo(", "));
             enumerator.Current.Separator = " & ";
         }
     }
@@ -111,7 +111,7 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
 
     for (int i = 0; i < labelsCount; i++)
     {
-        Assert.False(series.DataLabels[i].IsVisible);
+        Assert.That(series.DataLabels[i].IsVisible, Is.False);
 
         series.DataLabels[i].ShowCategoryName = true;
         series.DataLabels[i].ShowSeriesName = true;
@@ -119,15 +119,15 @@ private static void ApplyDataLabels(ChartSeries series, int labelsCount, string 
         series.DataLabels[i].ShowLeaderLines = true;
         series.DataLabels[i].ShowLegendKey = true;
         series.DataLabels[i].ShowPercentage = false;
-        Assert.False(series.DataLabels[i].IsHidden);
-        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
+        Assert.That(series.DataLabels[i].IsHidden, Is.False);
+        Assert.That(series.DataLabels[i].ShowDataLabelsRange, Is.False);
 
         series.DataLabels[i].NumberFormat.FormatCode = numberFormat;
         series.DataLabels[i].Separator = separator;
 
-        Assert.False(series.DataLabels[i].ShowDataLabelsRange);
-        Assert.True(series.DataLabels[i].IsVisible);
-        Assert.False(series.DataLabels[i].IsHidden);
+        Assert.That(series.DataLabels[i].ShowDataLabelsRange, Is.False);
+        Assert.That(series.DataLabels[i].IsVisible, Is.True);
+        Assert.That(series.DataLabels[i].IsHidden, Is.False);
     }
 }
 ```

@@ -5,7 +5,7 @@ articleTitle: PdfSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfSaveOptions to enhance your document saving experience. Customize settings for optimal PDF output quality and performance.
 type: docs
-weight: 6330
+weight: 6320
 url: /net/aspose.words.saving/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
@@ -144,7 +144,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Insert headings of levels 1 to 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-Assert.True(builder.ParagraphFormat.IsHeading);
+Assert.That(builder.ParagraphFormat.IsHeading, Is.True);
 
 builder.Writeln("Heading 1");
 

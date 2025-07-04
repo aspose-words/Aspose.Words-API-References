@@ -35,13 +35,13 @@ DigitalSignatureCollection digitalSignatures =
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
 // If this collection is nonempty, then we can verify that the document is digitally signed.
-Assert.AreEqual(1, digitalSignatures.Count);
+Assert.That(digitalSignatures.Count, Is.EqualTo(1));
 
 // 2 -  Load from a document from a FileStream:
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
-    Assert.AreEqual(1, digitalSignatures.Count);
+    Assert.That(digitalSignatures.Count, Is.EqualTo(1));
 }
 ```
 
@@ -64,8 +64,8 @@ using (Stream streamIn = new FileStream(MyDir + "Digitally signed.docx", FileMod
 }
 
 // Verify that both our output documents have no digital signatures.
-Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count);
-Assert.AreEqual(0, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count);
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromString.docx").Count, Is.EqualTo(0));
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "DigitalSignatureUtil.LoadAndRemove.FromStream.docx").Count, Is.EqualTo(0));
 ```
 
 ### See Also
@@ -104,13 +104,13 @@ DigitalSignatureCollection digitalSignatures =
     DigitalSignatureUtil.LoadSignatures(MyDir + "Digitally signed.docx");
 
 // If this collection is nonempty, then we can verify that the document is digitally signed.
-Assert.AreEqual(1, digitalSignatures.Count);
+Assert.That(digitalSignatures.Count, Is.EqualTo(1));
 
 // 2 -  Load from a document from a FileStream:
 using (Stream stream = new FileStream(MyDir + "Digitally signed.docx", FileMode.Open))
 {
     digitalSignatures = DigitalSignatureUtil.LoadSignatures(stream);
-    Assert.AreEqual(1, digitalSignatures.Count);
+    Assert.That(digitalSignatures.Count, Is.EqualTo(1));
 }
 ```
 

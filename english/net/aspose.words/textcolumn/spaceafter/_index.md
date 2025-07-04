@@ -32,7 +32,7 @@ columns.SetCount(2);
 // Determine the amount of room that we have available for arranging columns.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
-Assert.AreEqual(470.30d, contentWidth, 0.01d);
+Assert.That(contentWidth, Is.EqualTo(470.30d).Within(0.01d));
 
 // Set the first column to be narrow.
 TextColumn column = columns[0];

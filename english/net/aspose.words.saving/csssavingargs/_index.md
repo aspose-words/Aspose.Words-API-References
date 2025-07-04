@@ -5,7 +5,7 @@ articleTitle: CssSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CssSavingArgs class, designed to enhance your document processing with customizable CssSaving event data for optimal results.
 type: docs
-weight: 5620
+weight: 5610
 url: /net/aspose.words.saving/csssavingargs/
 ---
 ## CssSavingArgs class
@@ -80,13 +80,13 @@ private class CustomCssSavingCallback : ICssSavingCallback
     public void CssSaving(CssSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);
         args.IsExportNeeded = mIsExportNeeded;
         args.KeepCssStreamOpen = mKeepCssStreamOpen;
 
-        Assert.True(args.CssStream.CanWrite);
+        Assert.That(args.CssStream.CanWrite, Is.True);
     }
 
     private readonly string mCssTextFileName;

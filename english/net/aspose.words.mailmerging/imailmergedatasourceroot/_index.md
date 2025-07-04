@@ -5,7 +5,7 @@ articleTitle: IMailMergeDataSourceRoot
 second_title: Aspose.Words for .NET
 description: Unlock powerful mail merging with Aspose.Words.MailMerging.IMailMergeDataSourceRoot. Seamlessly integrate custom data sources for master-detail data handling.
 type: docs
-weight: 4510
+weight: 4500
 url: /net/aspose.words.mailmerging/imailmergedatasourceroot/
 ---
 ## IMailMergeDataSourceRoot interface

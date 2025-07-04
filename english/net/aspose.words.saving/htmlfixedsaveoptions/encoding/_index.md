@@ -33,7 +33,7 @@ HtmlFixedSaveOptions htmlFixedSaveOptions = new HtmlFixedSaveOptions
     Encoding = Encoding.ASCII
 };
 
-Assert.AreEqual("US-ASCII", htmlFixedSaveOptions.Encoding.EncodingName);
+Assert.That(htmlFixedSaveOptions.Encoding.EncodingName, Is.EqualTo("US-ASCII"));
 
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.UseEncoding.html", htmlFixedSaveOptions);
 ```

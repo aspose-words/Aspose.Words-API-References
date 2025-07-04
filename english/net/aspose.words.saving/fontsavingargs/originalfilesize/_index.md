@@ -41,9 +41,7 @@ public void SaveExportedFonts()
     doc.Save(ArtifactsDir + "HtmlSaveOptions.SaveExportedFonts.html", options);
 
     foreach (string fontFilename in Array.FindAll(Directory.GetFiles(ArtifactsDir), s => s.EndsWith(".ttf")))
-    {
         Console.WriteLine(fontFilename);
-    }
 
 }
 
@@ -60,10 +58,10 @@ public class HandleFontSaving : IFontSavingCallback
         Console.WriteLine($"\nSource:\t{args.OriginalFileName}, {args.OriginalFileSize} bytes\n");
 
         // We can also access the source document from here.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
-        Assert.True(args.IsExportNeeded);
-        Assert.True(args.IsSubsettingNeeded);
+        Assert.That(args.IsExportNeeded, Is.True);
+        Assert.That(args.IsSubsettingNeeded, Is.True);
 
         // There are two ways of saving an exported font.
         // 1 -  Save it to a local file system location:
@@ -72,7 +70,7 @@ public class HandleFontSaving : IFontSavingCallback
         // 2 -  Save it to a stream:
         args.FontStream =
             new FileStream(ArtifactsDir + args.OriginalFileName.Split(Path.DirectorySeparatorChar).Last(), FileMode.Create);
-        Assert.False(args.KeepFontStreamOpen);
+        Assert.That(args.KeepFontStreamOpen, Is.False);
     }
 }
 ```

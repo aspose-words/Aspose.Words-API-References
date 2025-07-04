@@ -41,7 +41,7 @@ if (lastSection.PreviousSibling != null)
     doc.RemoveChild(firstSection);
 
 // The section we removed was the first one, leaving the document with only the second.
-Assert.AreEqual("Section 2 text.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2 text."));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: MarkerSymbol
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Drawing.Charts.MarkerSymbol enum for customizable marker styles that enhance your chart visuals and improve data presentation.
 type: docs
-weight: 1240
+weight: 1230
 url: /net/aspose.words.drawing.charts/markersymbol/
 ---
 ## MarkerSymbol enumeration
@@ -46,10 +46,10 @@ public void ChartDataPoint()
     Shape shape = builder.InsertChart(ChartType.Line, 500, 350);
     Chart chart = shape.Chart;
 
-    Assert.AreEqual(3, chart.Series.Count);
-    Assert.AreEqual("Series 1", chart.Series[0].Name);
-    Assert.AreEqual("Series 2", chart.Series[1].Name);
-    Assert.AreEqual("Series 3", chart.Series[2].Name);
+    Assert.That(chart.Series.Count, Is.EqualTo(3));
+    Assert.That(chart.Series[0].Name, Is.EqualTo("Series 1"));
+    Assert.That(chart.Series[1].Name, Is.EqualTo("Series 2"));
+    Assert.That(chart.Series[2].Name, Is.EqualTo("Series 3"));
 
     // Emphasize the chart's data points by making them appear as diamond shapes.
     foreach (ChartSeries series in chart.Series)
@@ -63,7 +63,7 @@ public void ChartDataPoint()
     {
         while (enumerator.MoveNext())
         {
-            Assert.False(enumerator.Current.InvertIfNegative);
+            Assert.That(enumerator.Current.InvertIfNegative, Is.False);
         }
     }
 
@@ -90,7 +90,7 @@ private static void ApplyDataPoints(ChartSeries series, int dataPointsCount, Mar
         point.Marker.Symbol = markerSymbol;
         point.Marker.Size = dataPointSize;
 
-        Assert.AreEqual(i, point.Index);
+        Assert.That(point.Index, Is.EqualTo(i));
     }
 }
 ```

@@ -26,7 +26,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldAddressBlock field = (FieldAddressBlock)builder.InsertField(FieldType.FieldAddressBlock, true);
 
-Assert.AreEqual(" ADDRESSBLOCK ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" ADDRESSBLOCK "));
 
 // Setting this to "2" will include all countries and regions,
 // unless it is the one specified in the ExcludedCountryOrRegionName property.
@@ -39,9 +39,7 @@ field.NameAndAddressFormat = "<Title> <Forename> <Surname> <Address Line 1> <Reg
 // We can set a different culture for the field to format the result with like this.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
-Assert.AreEqual(
-    " ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033",
-    field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" ADDRESSBLOCK  \\c 2 \\d \\e \"United States\" \\f \"<Title> <Forename> <Surname> <Address Line 1> <Region> <Postcode> <Country>\" \\l 1033"));
 ```
 
 ### See Also

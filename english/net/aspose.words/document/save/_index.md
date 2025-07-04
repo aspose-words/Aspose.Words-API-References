@@ -240,7 +240,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Insert headings of levels 1 to 5.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-Assert.True(builder.ParagraphFormat.IsHeading);
+Assert.That(builder.ParagraphFormat.IsHeading, Is.True);
 
 builder.Writeln("Heading 1");
 
@@ -324,7 +324,7 @@ using (MemoryStream dstStream = new MemoryStream())
     doc.Save(dstStream, SaveFormat.Docx);
 
     // Verify that the stream contains the document.
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", new Document(dstStream).GetText().Trim());
+    Assert.That(new Document(dstStream).GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
 }
 ```
 
@@ -350,9 +350,9 @@ Document doc = new Document();
                 // Read the stream back into an image.
                 using (Image image = Image.FromStream(stream))
                 {
-                    Assert.AreEqual(ImageFormat.Bmp, image.RawFormat);
-                    Assert.AreEqual(816, image.Width);
-                    Assert.AreEqual(1056, image.Height);
+                    Assert.That(image.RawFormat, Is.EqualTo(ImageFormat.Bmp));
+                    Assert.That(image.Width, Is.EqualTo(816));
+                    Assert.That(image.Height, Is.EqualTo(1056));
                 }
             }
 #elif NET5_0_OR_GREATER
@@ -363,14 +363,14 @@ Document doc = new Document();
                 stream.Position = 0;
 
                 SKCodec codec = SKCodec.Create(stream);
-                Assert.AreEqual(SKEncodedImageFormat.Bmp, codec.EncodedFormat);
+                Assert.That(SKEncodedImageFormat.Bmp, Is.EqualTo(codec.EncodedFormat));
 
                 stream.Position = 0;
 
                 using (SKBitmap image = SKBitmap.Decode(stream))
                 {
-                    Assert.AreEqual(816, image.Width);
-                    Assert.AreEqual(1056, image.Height);
+                    Assert.That(816, Is.EqualTo(image.Width));
+                    Assert.That(1056, Is.EqualTo(image.Height));
                 }
             }
 #endif

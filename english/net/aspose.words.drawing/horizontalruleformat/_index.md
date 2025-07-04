@@ -5,7 +5,7 @@ articleTitle: HorizontalRuleFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.HorizontalRuleFormat class for advanced horizontal rule formatting. Enhance your document design effortlessly!
 type: docs
-weight: 1380
+weight: 1370
 url: /net/aspose.words.drawing/horizontalruleformat/
 ---
 ## HorizontalRuleFormat class
@@ -44,8 +44,8 @@ horizontalRuleFormat.Height = 3;
 horizontalRuleFormat.Color = Color.Blue;
 horizontalRuleFormat.NoShade = true;
 
-Assert.True(shape.IsHorizontalRule);
-Assert.True(shape.HorizontalRuleFormat.NoShade);
+Assert.That(shape.IsHorizontalRule, Is.True);
+Assert.That(shape.HorizontalRuleFormat.NoShade, Is.True);
 ```
 
 ### See Also

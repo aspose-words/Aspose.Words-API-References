@@ -1,19 +1,19 @@
 ---
-title: IAiModelText.Summarize
+title: AiModel.Summarize
 linktitle: Summarize
 articleTitle: Summarize
 second_title: Aspose.Words for .NET
-description: Effortlessly summarize documents with IAiModelText. Customize summary length using advanced AI for precise content extraction and enhanced readability.
+description: AiModel Summarize method. Generates a summary of the specified document with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
 type: docs
-weight: 20
-url: /net/aspose.words.ai/iaimodeltext/summarize/
+weight: 30
+url: /net/aspose.words.ai/aimodel/summarize/
 ---
 ## Summarize(*[Document](../../../aspose.words/document/), [SummarizeOptions](../../summarizeoptions/)*) {#summarize}
 
 Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
 
 ```csharp
-public Document Summarize(Document sourceDocument, SummarizeOptions options = null)
+public abstract Document Summarize(Document sourceDocument, SummarizeOptions options = null)
 ```
 
 | Parameter | Type | Description |
@@ -35,7 +35,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 
@@ -52,7 +52,7 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 
 * class [Document](../../../aspose.words/document/)
 * class [SummarizeOptions](../../summarizeoptions/)
-* interface [IAiModelText](../)
+* class [AiModel](../)
 * namespace [Aspose.Words.AI](../../../aspose.words.ai/)
 * assembly [Aspose.Words](../../../)
 
@@ -63,7 +63,7 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array.
 
 ```csharp
-public Document Summarize(Document[] sourceDocuments, SummarizeOptions options = null)
+public abstract Document Summarize(Document[] sourceDocuments, SummarizeOptions options = null)
 ```
 
 | Parameter | Type | Description |
@@ -85,7 +85,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 
@@ -102,6 +102,6 @@ multiDocumentSummary.Save(ArtifactsDir + "AI.AiSummarize.Multi.docx");
 
 * class [Document](../../../aspose.words/document/)
 * class [SummarizeOptions](../../summarizeoptions/)
-* interface [IAiModelText](../)
+* class [AiModel](../)
 * namespace [Aspose.Words.AI](../../../aspose.words.ai/)
 * assembly [Aspose.Words](../../../)

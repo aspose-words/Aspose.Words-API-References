@@ -5,7 +5,7 @@ articleTitle: Language
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.AI.Language enum for seamless AI-driven text translation. Enhance your documents with accurate, multilingual support today!
 type: docs
-weight: 80
+weight: 70
 url: /net/aspose.words.ai/language/
 ---
 ## Language enumeration
@@ -334,7 +334,7 @@ Document doc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use Google generative language models.
-IAiModelText model = (GoogleAiModel)AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
+AiModel model = AiModel.Create(AiModelType.Gemini15Flash).WithApiKey(apiKey);
 
 Document translatedDoc = model.Translate(doc, Language.Arabic);
 translatedDoc.Save(ArtifactsDir + "AI.AiTranslate.docx");

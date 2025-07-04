@@ -49,7 +49,7 @@ doc.Save(ArtifactsDir + "Table.AllowCellSpacing.html");
 // Adjusting the "CellSpacing" property will automatically enable cell spacing.
 table.CellSpacing = 5;
 
-Assert.True(table.AllowCellSpacing);
+Assert.That(table.AllowCellSpacing, Is.True);
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: PreferredWidthType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Tables.PreferredWidthType enum. Easily define table and cell width measurements for precise document formatting.
 type: docs
-weight: 7160
+weight: 7150
 url: /net/aspose.words.tables/preferredwidthtype/
 ---
 ## PreferredWidthType enumeration
@@ -34,8 +34,8 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Cell firstCell = table.FirstRow.FirstCell;
 
-Assert.AreEqual(PreferredWidthType.Percent, firstCell.CellFormat.PreferredWidth.Type);
-Assert.AreEqual(11.16d, firstCell.CellFormat.PreferredWidth.Value);
+Assert.That(firstCell.CellFormat.PreferredWidth.Type, Is.EqualTo(PreferredWidthType.Percent));
+Assert.That(firstCell.CellFormat.PreferredWidth.Value, Is.EqualTo(11.16d));
 ```
 
 ### See Also

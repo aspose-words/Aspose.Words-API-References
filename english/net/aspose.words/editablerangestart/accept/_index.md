@@ -52,7 +52,7 @@ public void Visitor()
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
     builder.EndEditableRange();
 
-    Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
+    Assert.That(editableRange.EditorGroup, Is.EqualTo(EditorType.Unspecified));
 
     // 2 -  Specify a group that allowed users are associated with:
     editableRange = builder.StartEditableRange().EditableRange;
@@ -60,7 +60,7 @@ public void Visitor()
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
     builder.EndEditableRange();
 
-    Assert.AreEqual(string.Empty, editableRange.SingleUser);
+    Assert.That(editableRange.SingleUser, Is.EqualTo(string.Empty));
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 

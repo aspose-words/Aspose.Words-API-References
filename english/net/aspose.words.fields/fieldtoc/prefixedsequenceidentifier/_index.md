@@ -46,7 +46,7 @@ fieldToc.PrefixedSequenceIdentifier = "PrefixSequence";
 // We can specify a custom separator that will appear between these two numbers.
 fieldToc.SequenceSeparator = ">";
 
-Assert.AreEqual(" TOC  \\c MySequence \\s PrefixSequence \\d >", fieldToc.GetFieldCode());
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\c MySequence \\s PrefixSequence \\d >"));
 
 builder.InsertBreak(BreakType.PageBreak);
 
@@ -59,7 +59,7 @@ FieldSeq fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true)
 fieldSeq.SequenceIdentifier = "PrefixSequence";
 builder.InsertParagraph();
 
-Assert.AreEqual(" SEQ  PrefixSequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  PrefixSequence"));
 
 // 2 -  Inserting a SEQ field that belongs to the TOC's main sequence:
 // This SEQ field will create an entry in the TOC.
@@ -72,7 +72,7 @@ builder.Write("First TOC entry, MySequence #");
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 
-Assert.AreEqual(" SEQ  MySequence", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence"));
 
 // Insert a page, advance the prefix sequence by 2, and insert a SEQ field to create a TOC entry afterwards.
 // The prefix sequence is now at 2, and the main sequence SEQ field is on page 3,

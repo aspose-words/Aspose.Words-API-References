@@ -35,8 +35,7 @@ doc.ViewOptions.FormsDesign = useFormsDesign;
 
 doc.Save(ArtifactsDir + "ViewOptions.FormsDesign.xml");
 
-Assert.AreEqual(useFormsDesign,
-    File.ReadAllText(ArtifactsDir + "ViewOptions.FormsDesign.xml").Contains("<w:formsDesign />"));
+Assert.That(File.ReadAllText(ArtifactsDir + "ViewOptions.FormsDesign.xml").Contains("<w:formsDesign />"), Is.EqualTo(useFormsDesign));
 ```
 
 ### See Also

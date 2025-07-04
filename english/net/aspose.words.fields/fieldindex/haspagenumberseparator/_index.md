@@ -37,15 +37,15 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.PageNumberSeparator = ", on page(s) ";
 index.PageNumberListSeparator = " & ";
 
-Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\l \" & \"", index.GetFieldCode());
-Assert.True(index.HasPageNumberSeparator);
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\e \", on page(s) \" \\l \" & \""));
+Assert.That(index.HasPageNumberSeparator, Is.True);
 
 // After we insert these XE fields, the INDEX field will display "First entry, on page(s) 2 & 3 & 4".
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "First entry";
 
-Assert.AreEqual(" XE  \"First entry\"", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  \"First entry\""));
 
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

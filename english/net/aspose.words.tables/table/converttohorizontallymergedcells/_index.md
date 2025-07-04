@@ -37,8 +37,8 @@ Document doc = new Document(MyDir + "Table with merged cells.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 Row row = table.Rows[0];
 
-Assert.AreEqual(5, row.Cells.Count);
-Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None));
+Assert.That(row.Cells.Count, Is.EqualTo(5));
+Assert.That(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge.None), Is.True);
 
 // Use the "ConvertToHorizontallyMergedCells" method to convert cells horizontally merged
 // by its width to the cell horizontally merged by flags.
@@ -46,15 +46,15 @@ Assert.True(row.Cells.All(c => ((Cell)c).CellFormat.HorizontalMerge == CellMerge
 table.ConvertToHorizontallyMergedCells();
 row = table.Rows[0];
 
-Assert.AreEqual(7, row.Cells.Count);
+Assert.That(row.Cells.Count, Is.EqualTo(7));
 
-Assert.AreEqual(CellMerge.None, row.Cells[0].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.First, row.Cells[1].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.Previous, row.Cells[2].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.None, row.Cells[3].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.First, row.Cells[4].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.Previous, row.Cells[5].CellFormat.HorizontalMerge);
-Assert.AreEqual(CellMerge.None, row.Cells[6].CellFormat.HorizontalMerge);
+Assert.That(row.Cells[0].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.None));
+Assert.That(row.Cells[1].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.First));
+Assert.That(row.Cells[2].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.Previous));
+Assert.That(row.Cells[3].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.None));
+Assert.That(row.Cells[4].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.First));
+Assert.That(row.Cells[5].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.Previous));
+Assert.That(row.Cells[6].CellFormat.HorizontalMerge, Is.EqualTo(CellMerge.None));
 ```
 
 ### See Also

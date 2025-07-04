@@ -5,7 +5,7 @@ articleTitle: Orientation
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Orientation enum for seamless page orientation control. Enhance your document formatting with ease and precision!
 type: docs
-weight: 5050
+weight: 5040
 url: /net/aspose.words/orientation/
 ---
 ## Orientation enumeration
@@ -40,14 +40,14 @@ builder.Writeln("This is the first section, which landscape oriented with vertic
 // it will inherit the builder's current page setup properties.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-Assert.AreEqual(Orientation.Landscape, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Center, doc.Sections[1].PageSetup.VerticalAlignment);
+Assert.That(doc.Sections[1].PageSetup.Orientation, Is.EqualTo(Orientation.Landscape));
+Assert.That(doc.Sections[1].PageSetup.VerticalAlignment, Is.EqualTo(PageVerticalAlignment.Center));
 
 // We can revert its page setup properties to their default values using the "ClearFormatting" method.
 builder.PageSetup.ClearFormatting();
 
-Assert.AreEqual(Orientation.Portrait, doc.Sections[1].PageSetup.Orientation);
-Assert.AreEqual(PageVerticalAlignment.Top, doc.Sections[1].PageSetup.VerticalAlignment);
+Assert.That(doc.Sections[1].PageSetup.Orientation, Is.EqualTo(Orientation.Portrait));
+Assert.That(doc.Sections[1].PageSetup.VerticalAlignment, Is.EqualTo(PageVerticalAlignment.Top));
 
 builder.Writeln("This is the second section, which is in default Letter paper size, portrait orientation and top alignment.");
 

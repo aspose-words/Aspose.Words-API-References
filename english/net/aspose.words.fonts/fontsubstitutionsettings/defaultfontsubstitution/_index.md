@@ -29,8 +29,8 @@ doc.FontSettings = fontSettings;
 // This rule will substitute all missing fonts with "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
-Assert.True(defaultFontSubstitutionRule.Enabled);
-Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
+Assert.That(defaultFontSubstitutionRule.Enabled, Is.True);
+Assert.That(defaultFontSubstitutionRule.DefaultFontName, Is.EqualTo("Times New Roman"));
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";

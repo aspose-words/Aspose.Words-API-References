@@ -35,14 +35,14 @@ builder.Write("Hello again! ");
 builder.Write("This is another revision.");
 doc.StopTrackRevisions();
 
-Assert.AreEqual(3, doc.Revisions.Count);
+Assert.That(doc.Revisions.Count, Is.EqualTo(3));
 
 // We can iterate through every revision and accept/reject it as a part of our document.
 // If we know we wish to accept every revision, we can do it more straightforwardly so by calling this method.
 doc.AcceptAllRevisions();
 
-Assert.AreEqual(0, doc.Revisions.Count);
-Assert.AreEqual("Hello world! Hello again! This is another revision.", doc.GetText().Trim());
+Assert.That(doc.Revisions.Count, Is.EqualTo(0));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world! Hello again! This is another revision."));
 ```
 
 ### See Also

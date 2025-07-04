@@ -34,24 +34,24 @@ builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Aspose.Words does not track document metrics like these in real time.
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(1));
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 // To get accurate values for three of these properties, we will need to update them manually.
 doc.UpdateWordCount();
 
-Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(196));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(36));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(2));
 
 // For the line count, we will need to call a specific overload of the updating method.
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 doc.UpdateWordCount(true);
 
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(4));
 ```
 
 Shows how to work with document properties in the "Content" category.
@@ -70,33 +70,33 @@ public void Content()
     // Page count: The PageCount property shows the page count in real time and its value can be assigned to the Pages property
 
     // The "Pages" property stores the page count of the document. 
-    Assert.AreEqual(6, properties.Pages);
+    Assert.That(properties.Pages, Is.EqualTo(6));
 
     // The "Words", "Characters", and "CharactersWithSpaces" built-in properties also display various document statistics,
     // but we need to call the "UpdateWordCount" method on the whole document before we can expect them to contain accurate values.
     doc.UpdateWordCount();
 
-    Assert.AreEqual(1035, properties.Words);
-    Assert.AreEqual(6026, properties.Characters);
-    Assert.AreEqual(7041, properties.CharactersWithSpaces);
+    Assert.That(properties.Words, Is.EqualTo(1035));
+    Assert.That(properties.Characters, Is.EqualTo(6026));
+    Assert.That(properties.CharactersWithSpaces, Is.EqualTo(7041));
 
     // Count the number of lines in the document, and then assign the result to the "Lines" built-in property.
     LineCounter lineCounter = new LineCounter(doc);
     properties.Lines = lineCounter.GetLineCount();
 
-    Assert.AreEqual(142, properties.Lines);
+    Assert.That(properties.Lines, Is.EqualTo(142));
 
     // Assign the number of Paragraph nodes in the document to the "Paragraphs" built-in property.
     properties.Paragraphs = doc.GetChildNodes(NodeType.Paragraph, true).Count;
-    Assert.AreEqual(29, properties.Paragraphs);
+    Assert.That(properties.Paragraphs, Is.EqualTo(29));
 
     // Get an estimate of the file size of our document via the "Bytes" built-in property.
-    Assert.AreEqual(20310, properties.Bytes);
+    Assert.That(properties.Bytes, Is.EqualTo(20310));
 
     // Set a different template for our document, and then update the "Template" built-in property manually to reflect this change.
     doc.AttachedTemplate = MyDir + "Business brochure.dotx";
 
-    Assert.AreEqual("Normal", properties.Template);
+    Assert.That(properties.Template, Is.EqualTo("Normal"));
 
     properties.Template = doc.AttachedTemplate;
 
@@ -104,10 +104,10 @@ public void Content()
     properties.ContentStatus = "Draft";
 
     // Upon saving, the "ContentType" built-in property will contain the MIME type of the output save format.
-    Assert.AreEqual(string.Empty, properties.ContentType);
+    Assert.That(properties.ContentType, Is.EqualTo(string.Empty));
 
     // If the document contains links, and they are all up to date, we can set the "LinksUpToDate" property to "true".
-    Assert.False(properties.LinksUpToDate);
+    Assert.That(properties.LinksUpToDate, Is.False);
 
     doc.Save(ArtifactsDir + "DocumentProperties.Content.docx");
 }

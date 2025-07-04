@@ -32,15 +32,15 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
+Assert.That(doc.FirstSection.Body.Paragraphs.Count, Is.EqualTo(1));
 
 // Running the "ClearContent" method will remove all the section contents
 // but leave a blank paragraph to add content again.
 doc.FirstSection.ClearContent();
 
-Assert.AreEqual(string.Empty, doc.GetText().Trim());
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
+Assert.That(doc.GetText().Trim(), Is.EqualTo(string.Empty));
+Assert.That(doc.FirstSection.Body.Paragraphs.Count, Is.EqualTo(1));
 ```
 
 ### See Also

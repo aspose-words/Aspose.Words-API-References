@@ -25,10 +25,10 @@ Document doc = new Document(MyDir + "Multi-section structured document tags.docx
 StructuredDocumentTagRangeStart tag =
     doc.GetChild(NodeType.StructuredDocumentTagRangeStart, 0, true) as StructuredDocumentTagRangeStart;
 
-Assert.True(tag.WordOpenXMLMinimal
+Assert.That(tag.WordOpenXMLMinimal
     .Contains(
-        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"));
-Assert.False(tag.WordOpenXMLMinimal.Contains("xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\""));
+        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"), Is.True);
+Assert.That(tag.WordOpenXMLMinimal.Contains("xmlns:w16cid=\"http://schemas.microsoft.com/office/word/2016/wordml/cid\""), Is.False);
 ```
 
 ### See Also

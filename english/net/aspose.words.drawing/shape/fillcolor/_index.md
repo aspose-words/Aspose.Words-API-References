@@ -46,7 +46,7 @@ shape.FillColor = Color.LightBlue;
 // The "Opacity" property determines how transparent the color is on a 0-1 scale,
 // with 1 being fully opaque, and 0 being invisible.
 // The shape fill by default is fully opaque, so we cannot see the text that this shape is on top of.
-Assert.AreEqual(1.0d, shape.Fill.Opacity);
+Assert.That(shape.Fill.Opacity, Is.EqualTo(1.0d));
 
 // Set the shape fill color's opacity to a lower value so that we can see the text underneath it.
 shape.Fill.Opacity = 0.3;

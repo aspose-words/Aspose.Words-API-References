@@ -37,13 +37,11 @@ builder.InsertField(" MERGEFIELD LastName ");
 builder.Writeln(",");
 builder.Writeln("Greetings!");
 
-Assert.AreEqual(
-    "Dear \u0013 MERGEFIELD FirstName \u0014«FirstName»\u0015 \u0013 MERGEFIELD LastName \u0014«LastName»\u0015,\rGreetings!", 
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Dear \u0013 MERGEFIELD FirstName \u0014«FirstName»\u0015 \u0013 MERGEFIELD LastName \u0014«LastName»\u0015,\rGreetings!"));
 
 doc.MailMerge.DeleteFields();
 
-Assert.AreEqual("Dear  ,\rGreetings!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Dear  ,\rGreetings!"));
 ```
 
 ### See Also

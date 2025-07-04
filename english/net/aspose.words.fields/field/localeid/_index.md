@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Field field = builder.InsertField(@"DATE");
 Console.WriteLine($"Today's date, as displayed in the \"{CultureInfo.CurrentCulture.EnglishName}\" culture: {field.Result}");
 
-Assert.AreEqual(1033, field.LocaleId);
+Assert.That(field.LocaleId, Is.EqualTo(1033));
 // Changing the culture of our thread will impact the result of the DATE field.
 // Another way to get the DATE field to display a date in a different culture is to use its LocaleId property.
 // This way allows us to avoid changing the thread's culture to get this effect.

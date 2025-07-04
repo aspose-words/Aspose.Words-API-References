@@ -46,13 +46,13 @@ shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 SoftEdgeFormat softEdgeFormat = shape.SoftEdge;
 
 // Check soft edge radius.
-Assert.AreEqual(30, softEdgeFormat.Radius);
+Assert.That(softEdgeFormat.Radius, Is.EqualTo(30));
 
 // Remove soft edge from the shape.
 softEdgeFormat.Remove();
 
 // Check radius of the removed soft edge.
-Assert.AreEqual(0, softEdgeFormat.Radius);
+Assert.That(softEdgeFormat.Radius, Is.EqualTo(0));
 ```
 
 ### See Also

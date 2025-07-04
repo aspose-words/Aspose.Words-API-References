@@ -50,20 +50,19 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(
 
 // Every node has a parent document, which is the document that contains the node.
 // Inserting a node into a document that the node does not belong to will throw an exception.
-Assert.AreNotEqual(dstDoc, srcDoc.FirstSection.Document);
+Assert.That(srcDoc.FirstSection.Document, Is.Not.EqualTo(dstDoc));
 Assert.Throws<ArgumentException>(() => dstDoc.AppendChild(srcDoc.FirstSection));
 
 // Use the ImportNode method to create a copy of a node, which will have the document
 // that called the ImportNode method set as its new owner document.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true);
 
-Assert.AreEqual(dstDoc, importedSection.Document);
+Assert.That(importedSection.Document, Is.EqualTo(dstDoc));
 
 // We can now insert the node into the document.
 dstDoc.AppendChild(importedSection);
 
-Assert.AreEqual("Destination document first paragraph text.\r\nSource document first paragraph text.\r\n",
-    dstDoc.ToString(SaveFormat.Text));
+Assert.That(dstDoc.ToString(SaveFormat.Text), Is.EqualTo("Destination document first paragraph text.\r\nSource document first paragraph text.\r\n"));
 ```
 
 ### See Also
@@ -128,14 +127,14 @@ dstBuilder.Writeln("Destination document text.");
 // If we use destination styles, then the imported source text with the same style name
 // as destination text will adopt the destination style.
 Section importedSection = (Section)dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.UseDestinationStyles);
-Assert.AreEqual(dstStyle.Font.Name, importedSection.Body.FirstParagraph.Runs[0].Font.Name);
-Assert.AreEqual(dstStyle.Name, importedSection.Body.FirstParagraph.Runs[0].Font.StyleName);
+Assert.That(importedSection.Body.FirstParagraph.Runs[0].Font.Name, Is.EqualTo(dstStyle.Font.Name));
+Assert.That(importedSection.Body.FirstParagraph.Runs[0].Font.StyleName, Is.EqualTo(dstStyle.Name));
 
 // If we use ImportFormatMode.KeepDifferentStyles, the source style is preserved,
 // and the naming clash resolves by adding a suffix.
 dstDoc.ImportNode(srcDoc.FirstSection, true, ImportFormatMode.KeepDifferentStyles);
-Assert.AreEqual(dstStyle.Font.Name, dstDoc.Styles["My style"].Font.Name);
-Assert.AreEqual(srcStyle.Font.Name, dstDoc.Styles["My style_0"].Font.Name);
+Assert.That(dstDoc.Styles["My style"].Font.Name, Is.EqualTo(dstStyle.Font.Name));
+Assert.That(dstDoc.Styles["My style_0"].Font.Name, Is.EqualTo(srcStyle.Font.Name));
 ```
 
 ### See Also

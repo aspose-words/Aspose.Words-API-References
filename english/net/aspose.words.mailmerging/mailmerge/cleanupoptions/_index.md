@@ -41,14 +41,12 @@ doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.ExecuteWithRegions(dataTable);
 
 if (doc.MailMerge.CleanupOptions == MailMergeCleanupOptions.RemoveEmptyParagraphs) 
-    Assert.AreEqual(
-        "John Doe\r" +
-        "Jane Doe", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("John Doe\r" +
+        "Jane Doe"));
 else
-    Assert.AreEqual(
-        "John Doe\r" +
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("John Doe\r" +
         " \r" +
-        "Jane Doe", doc.GetText().Trim());
+        "Jane Doe"));
 ```
 
 Shows how to automatically remove MERGEFIELDs that go unused during mail merge.
@@ -80,9 +78,9 @@ doc.MailMerge.Execute(dataTable);
 
 if (mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveUnusedFields || 
     mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveStaticFields)
-    Assert.AreEqual(0, doc.Range.Fields.Count);
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
 else
-    Assert.AreEqual(2, doc.Range.Fields.Count);
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
 ```
 
 ### See Also

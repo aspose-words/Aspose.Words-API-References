@@ -5,7 +5,7 @@ articleTitle: IFieldUpdatingProgressCallback
 second_title: Aspose.Words for .NET
 description: Track field updating progress seamlessly with the Aspose.Words.Fields.IFieldUpdatingProgressCallback interface. Enhance your document management today!
 type: docs
-weight: 3140
+weight: 3130
 url: /net/aspose.words.fields/ifieldupdatingprogresscallback/
 ---
 ## IFieldUpdatingProgressCallback interface
@@ -44,7 +44,7 @@ public void FieldUpdatingCallbackTest()
 
     doc.UpdateFields();
 
-    Assert.True(callback.FieldUpdatedCalls.Contains("Updating John Doe"));
+    Assert.That(callback.FieldUpdatedCalls.Contains("Updating John Doe"), Is.True);
 }
 
 /// <summary>

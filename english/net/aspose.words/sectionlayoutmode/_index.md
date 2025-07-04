@@ -5,7 +5,7 @@ articleTitle: SectionLayoutMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.SectionLayoutMode enum to optimize section layouts and enhance document grid behavior for improved formatting control.
 type: docs
-weight: 6590
+weight: 6580
 url: /net/aspose.words/sectionlayoutmode/
 ---
 ## SectionLayoutMode enumeration
@@ -27,26 +27,6 @@ public enum SectionLayoutMode
 
 ## Examples
 
-Shows how to specify a for the number of characters that each line may have.
-
-```csharp
-Document doc = new Document();
-DocumentBuilder builder = new DocumentBuilder(doc);
-
-// Enable pitching, and then use it to set the number of characters per line in this section.
-builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
-builder.PageSetup.CharactersPerLine = 10;
-
-// The number of characters also depends on the size of the font.
-doc.Styles["Normal"].Font.Size = 20;
-
-Assert.AreEqual(8, doc.FirstSection.PageSetup.CharactersPerLine);
-
-builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-
-doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
-```
-
 Shows how to specify a limit for the number of lines that each page may have.
 
 ```csharp
@@ -64,6 +44,26 @@ for (int i = 0; i < 30; i++)
     builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ");
 
 doc.Save(ArtifactsDir + "PageSetup.LinesPerPage.docx");
+```
+
+Shows how to specify a for the number of characters that each line may have.
+
+```csharp
+Document doc = new Document();
+DocumentBuilder builder = new DocumentBuilder(doc);
+
+// Enable pitching, and then use it to set the number of characters per line in this section.
+builder.PageSetup.LayoutMode = SectionLayoutMode.Grid;
+builder.PageSetup.CharactersPerLine = 10;
+
+// The number of characters also depends on the size of the font.
+doc.Styles["Normal"].Font.Size = 20;
+
+Assert.That(doc.FirstSection.PageSetup.CharactersPerLine, Is.EqualTo(8));
+
+builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+
+doc.Save(ArtifactsDir + "PageSetup.CharactersPerLine.docx");
 ```
 
 ### See Also

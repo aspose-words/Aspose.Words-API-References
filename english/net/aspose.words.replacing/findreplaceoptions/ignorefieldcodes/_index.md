@@ -38,10 +38,9 @@ FindReplaceOptions options = new FindReplaceOptions {IgnoreFieldCodes = ignoreFi
 doc.Range.Replace(new Regex("T"), "*", options);
 Console.WriteLine(doc.GetText());
 
-Assert.AreEqual(
-    ignoreFieldCodes
+Assert.That(doc.GetText().Trim(), Is.EqualTo(ignoreFieldCodes
         ? "\u0013INCLUDETEXT\u0014*est I*!\u0015"
-        : "\u0013INCLUDE*EX*\u0014*est I*!\u0015", doc.GetText().Trim());
+        : "\u0013INCLUDE*EX*\u0014*est I*!\u0015"));
 ```
 
 ### See Also

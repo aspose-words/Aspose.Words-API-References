@@ -45,7 +45,7 @@ public void FieldNext()
     // Make sure never to try to skip to the next row while already on the last row.
     FieldNext fieldNext = (FieldNext)builder.InsertField(FieldType.FieldNext, true);
 
-    Assert.AreEqual(" NEXT ", fieldNext.GetFieldCode());
+    Assert.That(fieldNext.GetFieldCode(), Is.EqualTo(" NEXT "));
 
     // After the merge, the data source values that these MERGEFIELDs accept
     // will end up on the same page as the MERGEFIELDs above. 
@@ -58,7 +58,7 @@ public void FieldNext()
     fieldNextIf.RightExpression = "2 + 3";
     fieldNextIf.ComparisonOperator = "=";
 
-    Assert.AreEqual(" NEXTIF  5 = \"2 + 3\"", fieldNextIf.GetFieldCode());
+    Assert.That(fieldNextIf.GetFieldCode(), Is.EqualTo(" NEXTIF  5 = \"2 + 3\""));
 
     // If the comparison asserted by the above field is correct,
     // the following 3 merge fields will take data from the third row.

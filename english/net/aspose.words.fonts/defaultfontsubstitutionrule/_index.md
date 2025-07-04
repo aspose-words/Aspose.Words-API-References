@@ -5,7 +5,7 @@ articleTitle: DefaultFontSubstitutionRule
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.DefaultFontSubstitutionRule class for seamless font management and enhanced document formatting. Optimize your workflow today!
 type: docs
-weight: 3250
+weight: 3240
 url: /net/aspose.words.fonts/defaultfontsubstitutionrule/
 ---
 ## DefaultFontSubstitutionRule class
@@ -42,8 +42,8 @@ doc.FontSettings = fontSettings;
 // This rule will substitute all missing fonts with "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
-Assert.True(defaultFontSubstitutionRule.Enabled);
-Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
+Assert.That(defaultFontSubstitutionRule.Enabled, Is.True);
+Assert.That(defaultFontSubstitutionRule.DefaultFontName, Is.EqualTo("Times New Roman"));
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
