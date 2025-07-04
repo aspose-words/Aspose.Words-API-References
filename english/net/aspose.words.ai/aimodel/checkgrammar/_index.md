@@ -3,7 +3,7 @@ title: AiModel.CheckGrammar
 linktitle: CheckGrammar
 articleTitle: CheckGrammar
 second_title: Aspose.Words for .NET
-description: AiModel CheckGrammar method. Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
+description: AI-powered grammar checker API for documents. Automatically detect and fix grammar errors in Word files using advanced language models.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/aimodel/checkgrammar/

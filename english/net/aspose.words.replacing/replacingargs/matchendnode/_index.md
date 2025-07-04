@@ -3,7 +3,7 @@ title: ReplacingArgs.MatchEndNode
 linktitle: MatchEndNode
 articleTitle: MatchEndNode
 second_title: Aspose.Words for .NET
-description: ReplacingArgs MatchEndNode property. Gets the node that contains the end of the match.
+description: ReplacingArgs MatchEndNode property guide. Access the ending node of text matches during document search and replace operations.
 type: docs
 weight: 40
 url: /net/aspose.words.replacing/replacingargs/matchendnode/

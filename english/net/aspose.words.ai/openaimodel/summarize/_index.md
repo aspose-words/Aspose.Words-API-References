@@ -3,7 +3,7 @@ title: OpenAiModel.Summarize
 linktitle: Summarize
 articleTitle: Summarize
 second_title: Aspose.Words for .NET
-description: OpenAiModel Summarize method. Generates a summary of the specified document with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
+description: OpenAI document summarization with customizable length control. Generate intelligent summaries using GPT technology for any document.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/openaimodel/summarize/

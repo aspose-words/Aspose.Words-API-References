@@ -3,7 +3,7 @@ title: AnthropicAiModel.Translate
 linktitle: Translate
 articleTitle: Translate
 second_title: Aspose.Words for .NET
-description: AnthropicAiModel Translate method. Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating.
+description: Anthropic AI translation service for documents. Translate files into any language using Claude's advanced natural language processing.
 type: docs
 weight: 20
 url: /net/aspose.words.ai/anthropicaimodel/translate/

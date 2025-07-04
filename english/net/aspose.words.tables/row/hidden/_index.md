@@ -3,7 +3,7 @@ title: Row.Hidden
 linktitle: Hidden
 articleTitle: Hidden
 second_title: Aspose.Words for .NET
-description: Row Hidden property. Gets or sets a flag indicating whether this row is hidden or not.
+description: Row Hidden property documentation. Control table row visibility in Word documents programmatically with boolean hide/show settings.
 type: docs
 weight: 40
 url: /net/aspose.words.tables/row/hidden/

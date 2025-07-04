@@ -3,7 +3,7 @@ title: AnthropicAiModel.Summarize
 linktitle: Summarize
 articleTitle: Summarize
 second_title: Aspose.Words for .NET
-description: AnthropicAiModel Summarize method. Generates a summary of the specified document with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
+description: Anthropic AI document summarizer with adjustable summary length. Create professional document summaries using Claude AI technology.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/anthropicaimodel/summarize/

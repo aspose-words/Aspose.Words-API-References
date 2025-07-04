@@ -3,7 +3,7 @@ title: AiModel.Translate
 linktitle: Translate
 articleTitle: Translate
 second_title: Aspose.Words for .NET
-description: AiModel Translate method. Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating.
+description: Professional document translation API supporting multiple languages. Translate Word documents accurately with AI-powered language processing.
 type: docs
 weight: 40
 url: /net/aspose.words.ai/aimodel/translate/

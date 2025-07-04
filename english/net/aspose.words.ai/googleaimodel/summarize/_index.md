@@ -3,7 +3,7 @@ title: GoogleAiModel.Summarize
 linktitle: Summarize
 articleTitle: Summarize
 second_title: Aspose.Words for .NET
-description: GoogleAiModel Summarize method. Summarizes specified Document object.
+description: Google AI document summarization tool. Extract key insights and create concise summaries from Word documents automatically.
 type: docs
 weight: 10
 url: /net/aspose.words.ai/googleaimodel/summarize/

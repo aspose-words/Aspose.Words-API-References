@@ -3,7 +3,7 @@ title: AiModel.Summarize
 linktitle: Summarize
 articleTitle: Summarize
 second_title: Aspose.Words for .NET
-description: AiModel Summarize method. Generates a summary of the specified document with options to adjust the length of the summary. This operation leverages the connected AI model for content processing.
+description: Smart document summarization API with customizable length options. Generate concise summaries from any document using AI technology.
 type: docs
 weight: 30
 url: /net/aspose.words.ai/aimodel/summarize/
