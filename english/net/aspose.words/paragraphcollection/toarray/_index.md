@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Paragraphs.docx");
 
 Paragraph[] paras = doc.FirstSection.Body.Paragraphs.ToArray();
 
-Assert.AreEqual(22, paras.Length);
+Assert.That(paras.Length, Is.EqualTo(22));
 ```
 
 Shows how to use "hot remove" to remove a node during enumeration.
@@ -48,7 +48,7 @@ foreach (Paragraph para in doc.FirstSection.Body.Paragraphs.ToArray())
     if (para.Range.Text.Contains("third"))
         para.Remove();
 
-Assert.False(doc.GetText().Contains("The third paragraph"));
+Assert.That(doc.GetText().Contains("The third paragraph"), Is.False);
 ```
 
 ### See Also

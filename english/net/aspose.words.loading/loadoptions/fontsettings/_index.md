@@ -62,7 +62,7 @@ Document doc = new Document(MyDir + "Missing font.html", loadOptions);
 
 // At this point such text will still be in "MissingFont".
 // Font substitution will take place when we render the document.
-Assert.AreEqual("MissingFont", doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name);
+Assert.That(doc.FirstSection.Body.FirstParagraph.Runs[0].Font.Name, Is.EqualTo("MissingFont"));
 
 doc.Save(ArtifactsDir + "FontSettings.ResolveFontsBeforeLoadingDocument.pdf");
 ```

@@ -22,6 +22,35 @@ Document may generate warnings at any stage of its existence, so it's important 
 
 ## Examples
 
+Shows how to set the property for finding the closest match for a missing font from the available font sources.
+
+```csharp
+// Open a document that contains text formatted with a font that does not exist in any of our font sources.
+Document doc = new Document(MyDir + "Missing font.docx");
+
+// Assign a callback for handling font substitution warnings.
+WarningInfoCollection warningCollector = new WarningInfoCollection();
+doc.WarningCallback = warningCollector;
+
+// Set a default font name and enable font substitution.
+FontSettings fontSettings = new FontSettings();
+fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
+fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
+
+// Original font metrics should be used after font substitution.
+doc.LayoutOptions.KeepOriginalFontMetrics = true;
+
+// We will get a font substitution warning if we save a document with a missing font.
+doc.FontSettings = fontSettings;
+doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
+
+foreach (WarningInfo info in warningCollector)
+{
+    if (info.WarningType == WarningType.FontSubstitution)
+        Console.WriteLine(info.Description);
+}
+```
+
 Shows how to use the IWarningCallback interface to monitor font substitution warnings.
 
 ```csharp
@@ -49,10 +78,10 @@ public void SubstitutionWarning()
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
-    Assert.True(callback.FontSubstitutionWarnings[0].Description
+    Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
+    Assert.That(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback
@@ -67,61 +96,6 @@ private class FontSubstitutionWarningCollector : IWarningCallback
     }
 
     public WarningInfoCollection FontSubstitutionWarnings = new WarningInfoCollection();
-}
-```
-
-Shows how to set the property for finding the closest match for a missing font from the available font sources.
-
-```csharp
-public void EnableFontSubstitution()
-{
-    // Open a document that contains text formatted with a font that does not exist in any of our font sources.
-    Document doc = new Document(MyDir + "Missing font.docx");
-
-    // Assign a callback for handling font substitution warnings.
-    HandleDocumentSubstitutionWarnings substitutionWarningHandler = new HandleDocumentSubstitutionWarnings();
-    doc.WarningCallback = substitutionWarningHandler;
-
-    // Set a default font name and enable font substitution.
-    FontSettings fontSettings = new FontSettings();
-    fontSettings.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Arial";
-    ;
-    fontSettings.SubstitutionSettings.FontInfoSubstitution.Enabled = true;
-
-    // Original font metrics should be used after font substitution.
-    doc.LayoutOptions.KeepOriginalFontMetrics = true;
-
-    // We will get a font substitution warning if we save a document with a missing font.
-    doc.FontSettings = fontSettings;
-    doc.Save(ArtifactsDir + "FontSettings.EnableFontSubstitution.pdf");
-
-    using (IEnumerator<WarningInfo> warnings = substitutionWarningHandler.FontWarnings.GetEnumerator())
-        while (warnings.MoveNext())
-            Console.WriteLine(warnings.Current.Description);
-
-    // We can also verify warnings in the collection and clear them.
-    Assert.AreEqual(WarningSource.Layout, substitutionWarningHandler.FontWarnings[0].Source);
-    Assert.AreEqual(
-        "Font '28 Days Later' has not been found. Using 'Calibri' font instead. Reason: alternative name from document.",
-        substitutionWarningHandler.FontWarnings[0].Description);
-
-    substitutionWarningHandler.FontWarnings.Clear();
-
-    Assert.AreEqual(0, substitutionWarningHandler.FontWarnings.Count);
-}
-
-public class HandleDocumentSubstitutionWarnings : IWarningCallback
-{
-    /// <summary>
-    /// Called every time a warning occurs during loading/saving.
-    /// </summary>
-    public void Warning(WarningInfo info)
-    {
-        if (info.WarningType == WarningType.FontSubstitution)
-            FontWarnings.Warning(info);
-    }
-
-    public WarningInfoCollection FontWarnings = new WarningInfoCollection();
 }
 ```
 

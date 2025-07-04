@@ -23,24 +23,24 @@ void Aspose::Words::Document::UpdateThumbnail()
 
 Shows how to update a document's thumbnail. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
-builder->InsertImage(ImageDir + u"Logo.jpg");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // There are two ways of setting a thumbnail image when saving a document to .epub.
 // 1 -  Use the document's first page:
 doc->UpdateThumbnail();
-doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstPage.epub");
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstPage.epub");
 
 // 2 -  Use the first image found in the document:
-auto options = MakeObject<ThumbnailGeneratingOptions>();
+auto options = System::MakeObject<Aspose::Words::Rendering::ThumbnailGeneratingOptions>();
 options->set_ThumbnailSize(System::Drawing::Size(400, 400));
 options->set_GenerateFromFirstPage(false);
 
 doc->UpdateThumbnail(options);
-doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
 ## See Also
@@ -68,24 +68,24 @@ void Aspose::Words::Document::UpdateThumbnail(const System::SharedPtr<Aspose::Wo
 
 Shows how to update a document's thumbnail. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
-builder->InsertImage(ImageDir + u"Logo.jpg");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
 
 // There are two ways of setting a thumbnail image when saving a document to .epub.
 // 1 -  Use the document's first page:
 doc->UpdateThumbnail();
-doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstPage.epub");
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstPage.epub");
 
 // 2 -  Use the first image found in the document:
-auto options = MakeObject<ThumbnailGeneratingOptions>();
+auto options = System::MakeObject<Aspose::Words::Rendering::ThumbnailGeneratingOptions>();
 options->set_ThumbnailSize(System::Drawing::Size(400, 400));
 options->set_GenerateFromFirstPage(false);
 
 doc->UpdateThumbnail(options);
-doc->Save(ArtifactsDir + u"Document.UpdateThumbnail.FirstImage.epub");
+doc->Save(get_ArtifactsDir() + u"Document.UpdateThumbnail.FirstImage.epub");
 ```
 
 ## See Also

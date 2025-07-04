@@ -5,7 +5,7 @@ articleTitle: BorderType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.BorderType enum for customizable border options. Enhance your documents with precise border control and style!
 type: docs
-weight: 290
+weight: 280
 url: /net/aspose.words/bordertype/
 ---
 ## BorderType enumeration

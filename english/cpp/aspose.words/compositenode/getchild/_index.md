@@ -35,75 +35,50 @@ If index is out of range, a **null** is returned.
 
 
 
-Shows how to apply the properties of a table's style directly to the table's elements. 
-```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-
-SharedPtr<Table> table = builder->StartTable();
-builder->InsertCell();
-builder->Write(u"Hello world!");
-builder->EndTable();
-
-auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
-tableStyle->set_RowStripe(3);
-tableStyle->set_CellSpacing(5);
-tableStyle->get_Shading()->set_BackgroundPatternColor(System::Drawing::Color::get_AntiqueWhite());
-tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Blue());
-tableStyle->get_Borders()->set_LineStyle(LineStyle::DotDash);
-
-table->set_Style(tableStyle);
-
-// This method concerns table style properties such as the ones we set above.
-doc->ExpandTableStylesToDirectFormatting();
-
-doc->Save(ArtifactsDir + u"Document.TableStyleToDirectFormatting.docx");
-```
-
-
 Shows how to traverse through a composite node's collection of child nodes. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Add two runs and one shape as child nodes to the first paragraph of this document.
-auto paragraph = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
-paragraph->AppendChild(MakeObject<Run>(doc, u"Hello world! "));
+auto paragraph = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world! "));
 
-auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
 shape->set_Width(200);
 shape->set_Height(200);
 // Note that the 'CustomNodeId' is not saved to an output file and exists only during the node lifetime.
 shape->set_CustomNodeId(100);
-shape->set_WrapType(WrapType::Inline);
-paragraph->AppendChild(shape);
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::Inline);
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
 
-paragraph->AppendChild(MakeObject<Run>(doc, u"Hello again!"));
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello again!"));
 
 // Iterate through the paragraph's collection of immediate children,
 // and print any runs or shapes that we find within.
-SharedPtr<NodeCollection> children = paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false);
+System::SharedPtr<Aspose::Words::NodeCollection> children = paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false);
 
 ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count());
 
-for (const auto& child : System::IterateOver(children))
+for (auto&& child : System::IterateOver(children))
 {
     switch (child->get_NodeType())
     {
-    case NodeType::Run:
-        std::cout << "Run contents:" << std::endl;
-        std::cout << "\t\"" << child->GetText().Trim() << "\"" << std::endl;
-        break;
+        case Aspose::Words::NodeType::Run:
+            std::cout << "Run contents:" << std::endl;
+            std::cout << System::String::Format(u"\t\"{0}\"", child->GetText().Trim()) << std::endl;
+            break;
 
-    case NodeType::Shape: {
-        auto childShape = System::ExplicitCast<Shape>(child);
-        std::cout << "Shape:" << std::endl;
-        std::cout << String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
-        ASSERT_EQ(100, shape->get_CustomNodeId());
-        break;
-    }
+        case Aspose::Words::NodeType::Shape:
+        {
+            auto childShape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(child);
+            std::cout << "Shape:" << std::endl;
+            std::cout << System::String::Format(u"\t{0}, {1}x{2}", childShape->get_ShapeType(), childShape->get_Width(), childShape->get_Height()) << std::endl;
+            ASSERT_EQ(100, shape->get_CustomNodeId());
+            break;
+        }
 
-    default:
-        break;
+        default:
+            break;
     }
 }
 ```

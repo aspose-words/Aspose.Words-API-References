@@ -5,7 +5,7 @@ articleTitle: ICssSavingCallback
 second_title: Aspose.Words for .NET
 description: Control CSS saving in Aspose.Words with the ICssSavingCallback interface. Customize your HTML document output for enhanced styling and flexibility.
 type: docs
-weight: 5880
+weight: 5870
 url: /net/aspose.words.saving/icsssavingcallback/
 ---
 ## ICssSavingCallback interface
@@ -65,13 +65,13 @@ private class CustomCssSavingCallback : ICssSavingCallback
     public void CssSaving(CssSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);
         args.IsExportNeeded = mIsExportNeeded;
         args.KeepCssStreamOpen = mKeepCssStreamOpen;
 
-        Assert.True(args.CssStream.CanWrite);
+        Assert.That(args.CssStream.CanWrite, Is.True);
     }
 
     private readonly string mCssTextFileName;

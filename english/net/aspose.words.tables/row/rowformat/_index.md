@@ -5,7 +5,7 @@ articleTitle: RowFormat
 second_title: Aspose.Words for .NET
 description: Discover the Row RowFormat property for easy access to customizable row formatting options, enhancing your data presentation effortlessly.
 type: docs
-weight: 110
+weight: 120
 url: /net/aspose.words.tables/row/rowformat/
 ---
 ## Row.RowFormat property

@@ -28,8 +28,8 @@ builder.Writeln("Hello world!");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 
-Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
-Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.Custom));
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.None));
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```

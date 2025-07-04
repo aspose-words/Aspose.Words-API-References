@@ -32,9 +32,9 @@ Shows how to use a document builder to insert html content into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-const string html = "<p align='right'>Paragraph right</p>" + 
+const string html = "<p align='right'>Paragraph right</p>" +
                     "<b>Implicit paragraph left</b>" +
-                    "<div align='center'>Div center</div>" + 
+                    "<div align='center'>Div center</div>" +
                     "<h1 align='left'>Heading 1 left.</h1>";
 
 builder.InsertHtml(html);
@@ -42,18 +42,18 @@ builder.InsertHtml(html);
 // Inserting HTML code parses the formatting of each element into equivalent document text formatting.
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual("Paragraph right", paragraphs[0].GetText().Trim());
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
+Assert.That(paragraphs[0].GetText().Trim(), Is.EqualTo("Paragraph right"));
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
 
-Assert.AreEqual("Implicit paragraph left", paragraphs[1].GetText().Trim());
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
-Assert.True(paragraphs[1].Runs[0].Font.Bold);
+Assert.That(paragraphs[1].GetText().Trim(), Is.EqualTo("Implicit paragraph left"));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[1].Runs[0].Font.Bold, Is.True);
 
-Assert.AreEqual("Div center", paragraphs[2].GetText().Trim());
-Assert.AreEqual(ParagraphAlignment.Center, paragraphs[2].ParagraphFormat.Alignment);
+Assert.That(paragraphs[2].GetText().Trim(), Is.EqualTo("Div center"));
+Assert.That(paragraphs[2].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Center));
 
-Assert.AreEqual("Heading 1 left.", paragraphs[3].GetText().Trim());
-Assert.AreEqual("Heading 1", paragraphs[3].ParagraphFormat.Style.Name);
+Assert.That(paragraphs[3].GetText().Trim(), Is.EqualTo("Heading 1 left."));
+Assert.That(paragraphs[3].ParagraphFormat.Style.Name, Is.EqualTo("Heading 1"));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtml.docx");
 ```
@@ -168,14 +168,13 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 // The first paragraph has an alignment specified. When InsertHtml parses the HTML code,
 // the paragraph alignment value found in the HTML code always supersedes the document builder's value.
-Assert.AreEqual("Paragraph 1.", paragraphs[0].GetText().Trim());
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
+Assert.That(paragraphs[0].GetText().Trim(), Is.EqualTo("Paragraph 1."));
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
 
 // The second paragraph has no alignment specified. It can have its alignment value filled in
 // by the builder's value depending on the flag we passed to the InsertHtml method.
-Assert.AreEqual("Paragraph 2.", paragraphs[1].GetText().Trim());
-Assert.AreEqual(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left,
-    paragraphs[1].ParagraphFormat.Alignment);
+Assert.That(paragraphs[1].GetText().Trim(), Is.EqualTo("Paragraph 2."));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(useBuilderFormatting ? ParagraphAlignment.Distributed : ParagraphAlignment.Left));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertHtmlWithFormatting.docx");
 ```

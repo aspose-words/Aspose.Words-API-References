@@ -5,7 +5,7 @@ articleTitle: HtmlVersion
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.HtmlVersion enum to optimize document saving in HTML and MHTML formats, enhancing compatibility and performance.
 type: docs
-weight: 5870
+weight: 5860
 url: /net/aspose.words.saving/htmlversion/
 ---
 ## HtmlVersion enumeration
@@ -47,12 +47,12 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportX
 string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
         $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
+        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"), Is.True);
 else
-    Assert.True(outDocContents.Contains("<html>"));
+    Assert.That(outDocContents.Contains("<html>"), Is.True);
 ```
 
 Shows how to save a document to a specific version of HTML.
@@ -74,14 +74,14 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.HtmlVer
 switch (htmlVersion)
 {
     case HtmlVersion.Html5:
-        Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"));
+        Assert.That(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"), Is.True);
+        Assert.That(outDocContents.Contains("<a id=\"_Toc76372689\"></a>"), Is.True);
+        Assert.That(outDocContents.Contains("<table style=\"padding:0pt; -aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\">"), Is.True);
         break;
     case HtmlVersion.Xhtml:
-        Assert.True(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"));
-        Assert.True(outDocContents.Contains("<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"));
-        Assert.True(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""));
+        Assert.That(outDocContents.Contains("<a name=\"_Toc76372689\"></a>"), Is.True);
+        Assert.That(outDocContents.Contains("<ul type=\"disc\" style=\"margin:0pt; padding-left:0pt\">"), Is.True);
+        Assert.That(outDocContents.Contains("<table cellspacing=\"0\" cellpadding=\"0\" style=\"-aw-border-insideh:0.5pt single #000000; -aw-border-insidev:0.5pt single #000000; border-collapse:collapse\""), Is.True);
         break;
 }
 ```

@@ -30,10 +30,10 @@ Shows how to remove blank pages from the document.
 
 ```csharp
 Document doc = new Document(MyDir + "Blank pages.docx");
-Assert.AreEqual(2, doc.PageCount);
+Assert.That(doc.PageCount, Is.EqualTo(2));
 doc.RemoveBlankPages();
 doc.UpdatePageLayout();
-Assert.AreEqual(1, doc.PageCount);
+Assert.That(doc.PageCount, Is.EqualTo(1));
 ```
 
 ### See Also

@@ -21,7 +21,23 @@ bool Aspose::Words::Loading::LoadOptions::get_IgnoreOleData() const
 
 Ignoring OLE data may reduce memory consumption and increase performance without data lost in a case when destination format does not support OLE objects.
 
-The default value is **false**. 
+The default value is **false**.
+
+## Examples
+
+
+
+Shows how to ingore OLE data while loading. 
+```cpp
+// Ignoring OLE data may reduce memory consumption and increase performance
+// without data lost in a case when destination format does not support OLE objects.
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
+loadOptions->set_IgnoreOleData(true);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"OLE objects.docx", loadOptions);
+
+doc->Save(get_ArtifactsDir() + u"LoadOptions.IgnoreOleData.docx");
+```
+
 ## See Also
 
 * Class [LoadOptions](../)

@@ -57,8 +57,8 @@ The paragraphs do not physically belong to a list. The paragraphs just reference
 
 Shows how to work with list levels. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 
@@ -69,7 +69,7 @@ ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 // Below are two types of lists that we can create using a document builder.
 // 1 -  A numbered list:
 // Numbered lists create a logical order for their paragraphs by numbering each item.
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::NumberDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault));
 
 ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 
@@ -77,21 +77,21 @@ ASSERT_TRUE(builder->get_ListFormat()->get_IsListItem());
 // to begin a self-contained sub-list at the current list item.
 // The Microsoft Word list template called "NumberDefault" uses numbers to create list levels for the first list level.
 // Deeper list levels use letters and lowercase Roman numerals.
-for (int i = 0; i < 9; i++)
+for (int32_t i = 0; i < 9; i++)
 {
     builder->get_ListFormat()->set_ListLevelNumber(i);
-    builder->Writeln(String(u"Level ") + i);
+    builder->Writeln(System::String(u"Level ") + i);
 }
 
 // 2 -  A bulleted list:
 // This list will apply an indent and a bullet symbol ("•") before each paragraph.
 // Deeper levels of this list will use different symbols, such as "■" and "○".
-builder->get_ListFormat()->set_List(doc->get_Lists()->Add(ListTemplate::BulletDefault));
+builder->get_ListFormat()->set_List(doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::BulletDefault));
 
-for (int i = 0; i < 9; i++)
+for (int32_t i = 0; i < 9; i++)
 {
     builder->get_ListFormat()->set_ListLevelNumber(i);
-    builder->Writeln(String(u"Level ") + i);
+    builder->Writeln(System::String(u"Level ") + i);
 }
 
 // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
@@ -99,7 +99,7 @@ builder->get_ListFormat()->set_List(nullptr);
 
 ASSERT_FALSE(builder->get_ListFormat()->get_IsListItem());
 
-doc->Save(ArtifactsDir + u"Lists.SpecifyListLevel.docx");
+doc->Save(get_ArtifactsDir() + u"Lists.SpecifyListLevel.docx");
 ```
 
 ## See Also

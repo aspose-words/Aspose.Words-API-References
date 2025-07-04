@@ -34,27 +34,27 @@ Shape node containing Ole object and inserted at the current Builder position.
 
 Shows how to insert an embedded or linked OLE object as icon into the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
 // the icon according to 'progId' and uses the filename for the icon caption.
-builder->InsertOleObjectAsIcon(MyDir + u"Presentation.pptx", u"Package", false, ImageDir + u"Logo icon.ico", u"My embedded file");
+builder->InsertOleObjectAsIcon(get_MyDir() + u"Presentation.pptx", u"Package", false, get_ImageDir() + u"Logo icon.ico", u"My embedded file");
 
-builder->InsertBreak(BreakType::LineBreak);
+builder->InsertBreak(Aspose::Words::BreakType::LineBreak);
 
 {
-    auto stream = MakeObject<System::IO::FileStream>(MyDir + u"Presentation.pptx", System::IO::FileMode::Open);
+    auto stream = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Presentation.pptx", System::IO::FileMode::Open);
     // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
     // the icon according to the file extension and uses the filename for the icon caption.
-    SharedPtr<Shape> shape = builder->InsertOleObjectAsIcon(stream, u"PowerPoint.Application", ImageDir + u"Logo icon.ico", u"My embedded file stream");
+    System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertOleObjectAsIcon(stream, u"PowerPoint.Application", get_ImageDir() + u"Logo icon.ico", u"My embedded file stream");
 
-    SharedPtr<OlePackage> setOlePackage = shape->get_OleFormat()->get_OlePackage();
+    System::SharedPtr<Aspose::Words::Drawing::OlePackage> setOlePackage = shape->get_OleFormat()->get_OlePackage();
     setOlePackage->set_FileName(u"Presentation.pptx");
     setOlePackage->set_DisplayName(u"Presentation.pptx");
 }
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
 ```
 
 ## See Also
@@ -83,6 +83,39 @@ System::SharedPtr<Aspose::Words::Drawing::Shape> Aspose::Words::DocumentBuilder:
 ### ReturnValue
 
 Shape node containing Ole object and inserted at the current Builder position.
+
+## Examples
+
+
+
+Shows how to insert an OLE object into a document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+// OLE objects are links to files in our local file system that can be opened by other installed applications.
+// Double clicking these shapes will launch the application, and then use it to open the linked object.
+// There are three ways of using the InsertOleObject method to insert these shapes and configure their appearance.
+// 1 -  Image taken from the local file system:
+{
+    auto imageStream = System::MakeObject<System::IO::FileStream>(get_ImageDir() + u"Logo.jpg", System::IO::FileMode::Open);
+    // If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+    // the icon according to the file extension and uses the filename for the icon caption.
+    builder->InsertOleObject(get_MyDir() + u"Spreadsheet.xlsx", false, false, imageStream);
+}
+
+// If 'presentation' is omitted and 'asIcon' is set, this overloaded method selects
+// the icon according to 'progId' and uses the filename for the icon caption.
+// 2 -  Icon based on the application that will open the object:
+builder->InsertOleObject(get_MyDir() + u"Spreadsheet.xlsx", u"Excel.Sheet", false, true, nullptr);
+
+// If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
+// the icon according to 'progId' and uses the predefined icon caption.
+// 3 -  Image icon that's 32 x 32 pixels or smaller from the local file system, with a custom caption:
+builder->InsertOleObjectAsIcon(get_MyDir() + u"Presentation.pptx", false, get_ImageDir() + u"Logo icon.ico", u"Double click to view presentation!");
+
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOleObject.docx");
+```
 
 ## See Also
 
@@ -118,27 +151,27 @@ Shape node containing Ole object and inserted at the current Builder position.
 
 Shows how to insert an embedded or linked OLE object as icon into the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
 // the icon according to 'progId' and uses the filename for the icon caption.
-builder->InsertOleObjectAsIcon(MyDir + u"Presentation.pptx", u"Package", false, ImageDir + u"Logo icon.ico", u"My embedded file");
+builder->InsertOleObjectAsIcon(get_MyDir() + u"Presentation.pptx", u"Package", false, get_ImageDir() + u"Logo icon.ico", u"My embedded file");
 
-builder->InsertBreak(BreakType::LineBreak);
+builder->InsertBreak(Aspose::Words::BreakType::LineBreak);
 
 {
-    auto stream = MakeObject<System::IO::FileStream>(MyDir + u"Presentation.pptx", System::IO::FileMode::Open);
+    auto stream = System::MakeObject<System::IO::FileStream>(get_MyDir() + u"Presentation.pptx", System::IO::FileMode::Open);
     // If 'iconFile' and 'iconCaption' are omitted, this overloaded method selects
     // the icon according to the file extension and uses the filename for the icon caption.
-    SharedPtr<Shape> shape = builder->InsertOleObjectAsIcon(stream, u"PowerPoint.Application", ImageDir + u"Logo icon.ico", u"My embedded file stream");
+    System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertOleObjectAsIcon(stream, u"PowerPoint.Application", get_ImageDir() + u"Logo icon.ico", u"My embedded file stream");
 
-    SharedPtr<OlePackage> setOlePackage = shape->get_OleFormat()->get_OlePackage();
+    System::SharedPtr<Aspose::Words::Drawing::OlePackage> setOlePackage = shape->get_OleFormat()->get_OlePackage();
     setOlePackage->set_FileName(u"Presentation.pptx");
     setOlePackage->set_DisplayName(u"Presentation.pptx");
 }
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertOleObjectAsIcon.docx");
 ```
 
 ## See Also

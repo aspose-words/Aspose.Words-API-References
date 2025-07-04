@@ -28,7 +28,7 @@ class FieldIncludePicture : public Aspose::Words::Fields::Field,
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
 | [get_GraphicFilter](./get_graphicfilter/)() | Gets or sets the name of the filter for the format of the graphic that is to be inserted. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLinked](./get_islinked/)() override | Gets or sets whether to reduce the file size by not storing graphics data with the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
@@ -45,7 +45,7 @@ class FieldIncludePicture : public Aspose::Words::Fields::Field,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_GraphicFilter](./set_graphicfilter/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldIncludePicture::get_GraphicFilter](./get_graphicfilter/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLinked](./set_islinked/)(bool) | Setter for [Aspose::Words::Fields::FieldIncludePicture::get_IsLinked](./get_islinked/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
@@ -64,13 +64,13 @@ class FieldIncludePicture : public Aspose::Words::Fields::Field,
 
 Shows how to insert images using IMPORT and INCLUDEPICTURE fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two similar field types that we can use to display images linked from the local file system.
 // 1 -  The INCLUDEPICTURE field:
-auto fieldIncludePicture = System::ExplicitCast<FieldIncludePicture>(builder->InsertField(FieldType::FieldIncludePicture, true));
-fieldIncludePicture->set_SourceFullName(ImageDir + u"Transparent background logo.png");
+auto fieldIncludePicture = System::ExplicitCast<Aspose::Words::Fields::FieldIncludePicture>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldIncludePicture, true));
+fieldIncludePicture->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldIncludePicture->GetFieldCode(), u" INCLUDEPICTURE  .*")->get_Success());
 
@@ -81,15 +81,15 @@ fieldIncludePicture->set_ResizeHorizontally(true);
 fieldIncludePicture->set_ResizeVertically(true);
 
 // 2 -  The IMPORT field:
-auto fieldImport = System::ExplicitCast<FieldImport>(builder->InsertField(FieldType::FieldImport, true));
-fieldImport->set_SourceFullName(ImageDir + u"Transparent background logo.png");
+auto fieldImport = System::ExplicitCast<Aspose::Words::Fields::FieldImport>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldImport, true));
+fieldImport->set_SourceFullName(get_ImageDir() + u"Transparent background logo.png");
 fieldImport->set_GraphicFilter(u"PNG32");
 fieldImport->set_IsLinked(true);
 
 ASSERT_TRUE(System::Text::RegularExpressions::Regex::Match(fieldImport->GetFieldCode(), u" IMPORT  .* \\\\c PNG32 \\\\d")->get_Success());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"Field.IMPORT.INCLUDEPICTURE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.IMPORT.INCLUDEPICTURE.docx");
 ```
 
 ## See Also

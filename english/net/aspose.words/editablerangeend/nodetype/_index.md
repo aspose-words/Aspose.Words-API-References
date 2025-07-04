@@ -37,19 +37,19 @@ EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 // These nodes have matching IDs and encompass editable nodes.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
-Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
-Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
+Assert.That(editableRange.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRange.Id, Is.EqualTo(editableRangeEnd.Id));
 
 // Different parts of the editable range link to each other.
-Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
-Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
-Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
-Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
+Assert.That(editableRange.EditableRangeStart.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRangeEnd.EditableRangeStart.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRangeStart.EditableRange.Id, Is.EqualTo(editableRange.Id));
+Assert.That(editableRange.EditableRangeEnd.Id, Is.EqualTo(editableRangeEnd.Id));
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
-Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
+Assert.That(editableRangeStart.NodeType, Is.EqualTo(NodeType.EditableRangeStart));
+Assert.That(editableRangeEnd.NodeType, Is.EqualTo(NodeType.EditableRangeEnd));
 
 builder.Writeln("This paragraph is outside the editable range, and cannot be edited.");
 

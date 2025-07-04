@@ -41,27 +41,24 @@ Aspose.Words aims to output XHTML according to the XHTML 1.0 Transitional specif
 
 Shows how to display a DOCTYPE heading when converting documents to the Xhtml 1.0 transitional standard. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-auto options = MakeObject<HtmlSaveOptions>(SaveFormat::Html);
-options->set_HtmlVersion(HtmlVersion::Xhtml);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>(Aspose::Words::SaveFormat::Html);
+options->set_HtmlVersion(Aspose::Words::Saving::HtmlVersion::Xhtml);
 options->set_ExportXhtmlTransitional(showDoctypeDeclaration);
 options->set_PrettyFormat(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.ExportXhtmlTransitional.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html", options);
 
 // Our document will only contain a DOCTYPE declaration heading if we have set the "ExportXhtmlTransitional" flag to "true".
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.ExportXhtmlTransitional.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.ExportXhtmlTransitional.html");
 
 if (showDoctypeDeclaration)
 {
-    ASSERT_TRUE(outDocContents.Contains(String(u"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n") +
-                                        u"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" "
-                                        u"\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" +
-                                        u"<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n") + u"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n" + u"<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
 }
 else
 {

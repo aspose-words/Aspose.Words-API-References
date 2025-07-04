@@ -26,9 +26,9 @@ Shows how to get extended properties.
 
 ```csharp
 Document doc = new Document(MyDir + "Extended properties.docx");
-Assert.IsTrue(doc.BuiltInDocumentProperties.ScaleCrop);
-Assert.IsTrue(doc.BuiltInDocumentProperties.SharedDocument);
-Assert.IsTrue(doc.BuiltInDocumentProperties.HyperlinksChanged);
+Assert.That(doc.BuiltInDocumentProperties.ScaleCrop, Is.True);
+Assert.That(doc.BuiltInDocumentProperties.SharedDocument, Is.True);
+Assert.That(doc.BuiltInDocumentProperties.HyperlinksChanged, Is.True);
 ```
 
 ### See Also

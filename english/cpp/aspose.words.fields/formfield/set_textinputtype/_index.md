@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FormField::set_TextInputType method
 linktitle: set_TextInputType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FormField::set_TextInputType method. Setter for Aspose::Words::Fields::FormField::get_TextInputType in C++.'
+description: 'Aspose::Words::Fields::FormField::set_TextInputType method. Sets the type of a text form field in C++.'
 type: docs
 weight: 46000
 url: /cpp/aspose.words.fields/formfield/set_textinputtype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/formfield/set_textinputtype/
 ## FormField::set_TextInputType method
 
 
-Setter for [Aspose::Words::Fields::FormField::get_TextInputType](../get_textinputtype/).
+Sets the type of a text form field.
 
 ```cpp
 void Aspose::Words::Fields::FormField::set_TextInputType(Aspose::Words::Fields::TextFormFieldType value)

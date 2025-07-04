@@ -33,9 +33,9 @@ doc.Save(ArtifactsDir + "MarkdownSaveOptions.ExportImagesAsBase64.md", saveOptio
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "MarkdownSaveOptions.ExportImagesAsBase64.md");
 
-Assert.True(exportImagesAsBase64
+Assert.That(exportImagesAsBase64
     ? outDocContents.Contains("data:image/jpeg;base64")
-    : outDocContents.Contains("MarkdownSaveOptions.ExportImagesAsBase64.001.jpeg"));
+    : outDocContents.Contains("MarkdownSaveOptions.ExportImagesAsBase64.001.jpeg"), Is.True);
 ```
 
 ### See Also

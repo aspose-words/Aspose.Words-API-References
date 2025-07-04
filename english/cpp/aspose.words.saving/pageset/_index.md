@@ -30,6 +30,36 @@ class PageSet : public System::Collections::Generic::IEnumerable<int32_t>
 | [PageSet](./pageset/)(const System::ArrayPtr\<int32_t\>\&) | Creates a page set based on exact page indices. |
 | [PageSet](./pageset/)(const System::ArrayPtr\<System::SharedPtr\<Aspose::Words::Saving::PageRange\>\>\&) | Creates a page set based on ranges. |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to render one page from a document to a JPEG image. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->Writeln(u"Page 1.");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->Writeln(u"Page 2.");
+builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+builder->Writeln(u"Page 3.");
+
+// Create an "ImageSaveOptions" object which we can pass to the document's "Save" method
+// to modify the way in which that method renders the document into an image.
+auto options = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Jpeg);
+// Set the "PageSet" to "1" to select the second page via
+// the zero-based index to start rendering the document from.
+options->set_PageSet(System::MakeObject<Aspose::Words::Saving::PageSet>(1));
+
+// When we save the document to the JPEG format, Aspose.Words only renders one page.
+// This image will contain one page starting from page two,
+// which will just be the second page of the original document.
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.OnePage.jpg", options);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Saving](../)

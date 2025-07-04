@@ -5,7 +5,7 @@ articleTitle: OptionButtonControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.OptionButtonControl class, perfect for creating exclusive choice options in your applications. Enhance user experience today!
 type: docs
-weight: 1510
+weight: 1500
 url: /net/aspose.words.drawing.ole/optionbuttoncontrol/
 ---
 ## OptionButtonControl class
@@ -51,8 +51,8 @@ OptionButtonControl optionButton2 = (OptionButtonControl)shape2.OleFormat.OleCon
 // Select second option button.
 optionButton2.Selected = true;
 
-Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton1.Type);
-Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton2.Type);
+Assert.That(optionButton1.Type, Is.EqualTo(Forms2OleControlType.OptionButton));
+Assert.That(optionButton2.Type, Is.EqualTo(Forms2OleControlType.OptionButton));
 
 doc.Save(ArtifactsDir + "Shape.SelectRadioControl.docx");
 ```

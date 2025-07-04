@@ -40,16 +40,16 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ex
 
 if (exportImages)
 {
-    Assert.False(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    Assert.True(Regex.Match(outDocContents,
-        "<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" src=\".+\" />").Success);
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"), Is.False);
+    Assert.That(Regex.Match(outDocContents,
+        "<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" src=\".+\" />").Success, Is.True);
 }
 else
 {
-    Assert.True(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"));
-    Assert.True(Regex.Match(outDocContents,
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedImages/image001.jpeg"), Is.True);
+    Assert.That(Regex.Match(outDocContents,
         "<img class=\"awimg\" style=\"left:0pt; top:0pt; width:493.1pt; height:300.55pt;\" " +
-        "src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />").Success);
+        "src=\"HtmlFixedSaveOptions[.]ExportEmbeddedImages/image001[.]jpeg\" />").Success, Is.True);
 }
 ```
 

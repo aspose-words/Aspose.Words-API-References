@@ -47,27 +47,27 @@ builder.InsertParagraph();
 builder.Write("\nThis is page ");
 builder.InsertField(FieldType.FieldPage, updateInsertedFieldsImmediately);
 
-Assert.AreEqual(" AUTHOR ", doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(" PAGE ", doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" AUTHOR "));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" PAGE "));
 
 if (updateInsertedFieldsImmediately)
 {
-    Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
-    Assert.AreEqual("1", doc.Range.Fields[1].Result);
+    Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("John Doe"));
+    Assert.That(doc.Range.Fields[1].Result, Is.EqualTo("1"));
 }
 else
 {
-    Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
-    Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
+    Assert.That(doc.Range.Fields[0].Result, Is.EqualTo(string.Empty));
+    Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(string.Empty));
 
     // We will need to update these fields using the update methods manually.
     doc.Range.Fields[0].Update();
 
-    Assert.AreEqual("John Doe", doc.Range.Fields[0].Result);
+    Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("John Doe"));
 
     doc.UpdateFields();
 
-    Assert.AreEqual("1", doc.Range.Fields[1].Result);
+    Assert.That(doc.Range.Fields[1].Result, Is.EqualTo("1"));
 }
 ```
 
@@ -111,11 +111,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
-Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
+Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
 ```
 
 Shows how to insert fields, and move the document builder's cursor to them.
@@ -130,8 +130,8 @@ builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 builder.MoveToMergeField("MyMergeField1", true, false);
 
 // Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
-Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
+Assert.That(builder.CurrentNode, Is.EqualTo(doc.Range.Fields[1].Start));
+Assert.That(builder.CurrentNode.PreviousSibling, Is.EqualTo(doc.Range.Fields[0].End));
 
 // If we wish to edit the field's field code or contents using the builder,
 // its cursor would need to be inside a field.

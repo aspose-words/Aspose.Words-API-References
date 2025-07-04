@@ -23,15 +23,19 @@ bool Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter() const
 
 Shows how to specifies ignoring or not source formatting of headers/footers content. 
 ```cpp
-auto dstDoc = MakeObject<Document>(MyDir + u"Document.docx");
-auto srcDoc = MakeObject<Document>(MyDir + u"Header and footer types.docx");
+auto dstDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Header and footer types.docx");
 
-auto importFormatOptions = MakeObject<ImportFormatOptions>();
+// If 'IgnoreHeaderFooter' is false then the original formatting for header/footer content
+// from "Header and footer types.docx" will be used.
+// If 'IgnoreHeaderFooter' is true then the formatting for header/footer content
+// from "Document.docx" will be used.
+auto importFormatOptions = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 importFormatOptions->set_IgnoreHeaderFooter(false);
 
-dstDoc->AppendDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, importFormatOptions);
+dstDoc->AppendDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, importFormatOptions);
 
-dstDoc->Save(ArtifactsDir + u"DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
+dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.DoNotIgnoreHeaderFooter.docx");
 ```
 
 ## See Also

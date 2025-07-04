@@ -29,23 +29,23 @@ When exporting to EPUB, text drop-down form fields are always saved as text due 
 
 Shows how to get drop-down combo box form fields to blend in with paragraph text when saving to html. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Use a document builder to insert a combo box with the value "Two" selected.
-builder->InsertComboBox(u"MyComboBox", MakeArray<String>({u"One", u"Two", u"Three"}), 1);
+builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"One", u"Two", u"Three"}), 1);
 
 // The "ExportDropDownFormFieldAsText" flag of this SaveOptions object allows us to
 // control how saving the document to HTML treats drop-down combo boxes.
 // Setting it to "true" will convert each combo box into simple text
 // that displays the combo box's currently selected value, effectively freezing it.
 // Setting it to "false" will preserve the functionality of the combo box using <select> and <option> tags.
-auto options = MakeObject<HtmlSaveOptions>();
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
 options->set_ExportDropDownFormFieldAsText(exportDropDownFormFieldAsText);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.DropDownFormField.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.DropDownFormField.html", options);
 
-String outDocContents = System::IO::File::ReadAllText(ArtifactsDir + u"HtmlSaveOptions.DropDownFormField.html");
+System::String outDocContents = System::IO::File::ReadAllText(get_ArtifactsDir() + u"HtmlSaveOptions.DropDownFormField.html");
 
 if (exportDropDownFormFieldAsText)
 {
@@ -53,8 +53,7 @@ if (exportDropDownFormFieldAsText)
 }
 else
 {
-    ASSERT_TRUE(outDocContents.Contains(String(u"<select name=\"MyComboBox\">") + u"<option>One</option>" +
-                                        u"<option selected=\"selected\">Two</option>" + u"<option>Three</option>" + u"</select>"));
+    ASSERT_TRUE(outDocContents.Contains(System::String(u"<select name=\"MyComboBox\">") + u"<option>One</option>" + u"<option selected=\"selected\">Two</option>" + u"<option>Three</option>" + u"</select>"));
 }
 ```
 

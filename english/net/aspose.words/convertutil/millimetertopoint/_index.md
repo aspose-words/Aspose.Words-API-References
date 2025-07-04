@@ -42,7 +42,7 @@ pageSetup.LeftMargin = ConvertUtil.MillimeterToPoint(80);
 pageSetup.RightMargin = ConvertUtil.MillimeterToPoint(40);
 
 // A centimeter is approximately 28.3 points.
-Assert.AreEqual(28.34d, ConvertUtil.MillimeterToPoint(10), 0.01d);
+Assert.That(ConvertUtil.MillimeterToPoint(10), Is.EqualTo(28.34d).Within(0.01d));
 
 // Add content to demonstrate the new margins.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points from the left, " +

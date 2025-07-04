@@ -31,8 +31,8 @@ DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(
 OoxmlSaveOptions saveOptions = new OoxmlSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;
 
-Assert.AreEqual(certificateHolder, digitalSignatureDetails.CertificateHolder);
-Assert.AreEqual("Some comments", digitalSignatureDetails.SignOptions.Comments);
+Assert.That(digitalSignatureDetails.CertificateHolder, Is.EqualTo(certificateHolder));
+Assert.That(digitalSignatureDetails.SignOptions.Comments, Is.EqualTo("Some comments"));
 
 doc.Save(ArtifactsDir + "OoxmlSaveOptions.DigitalSignature.docx", saveOptions);
 ```

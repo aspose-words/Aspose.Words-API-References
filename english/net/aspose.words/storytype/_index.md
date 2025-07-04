@@ -5,7 +5,7 @@ articleTitle: StoryType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.StoryType enum, efficiently manage Word document text stories with ease. Enhance your document processing experience today!
 type: docs
-weight: 6980
+weight: 6970
 url: /net/aspose.words/storytype/
 ---
 ## StoryType enumeration
@@ -51,13 +51,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // which has a parent Paragraph, which is a child node of the first section's Body.
 builder.InsertShape(ShapeType.Cube, 100.0, 100.0);
 
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(1));
 
 // We can delete all shapes from the child paragraphs of this Body.
-Assert.AreEqual(StoryType.MainText, doc.FirstSection.Body.StoryType);
+Assert.That(doc.FirstSection.Body.StoryType, Is.EqualTo(StoryType.MainText));
 doc.FirstSection.Body.DeleteShapes();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

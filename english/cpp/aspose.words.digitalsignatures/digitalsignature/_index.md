@@ -39,16 +39,16 @@ class DigitalSignature : public System::Object
 
 Shows how to validate and display information about each signature in a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Digitally signed.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Digitally signed.docx");
 
-for (const auto& signature : doc->get_DigitalSignatures())
+for (auto&& signature : doc->get_DigitalSignatures())
 {
-    std::cout << (signature->get_IsValid() ? String(u"Valid") : String(u"Invalid")) << " signature: " << std::endl;
-    std::cout << "\tReason:\t" << signature->get_Comments() << std::endl;
-    std::cout << String::Format(u"\tType:\t{0}", signature->get_SignatureType()) << std::endl;
-    std::cout << "\tSign time:\t" << signature->get_SignTime() << std::endl;
-    std::cout << "\tSubject name:\t" << signature->get_CertificateHolder()->get_Certificate()->get_SubjectName() << std::endl;
-    std::cout << "\tIssuer name:\t" << signature->get_CertificateHolder()->get_Certificate()->get_IssuerName()->get_Name() << std::endl;
+    std::cout << System::String::Format(u"{0} signature: ", (signature->get_IsValid() ? System::String(u"Valid") : System::String(u"Invalid"))) << std::endl;
+    std::cout << System::String::Format(u"\tReason:\t{0}", signature->get_Comments()) << std::endl;
+    std::cout << System::String::Format(u"\tType:\t{0}", signature->get_SignatureType()) << std::endl;
+    std::cout << System::String::Format(u"\tSign time:\t{0}", signature->get_SignTime()) << std::endl;
+    std::cout << System::String::Format(u"\tSubject name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_SubjectName()) << std::endl;
+    std::cout << System::String::Format(u"\tIssuer name:\t{0}", signature->get_CertificateHolder()->get_Certificate()->get_IssuerName()->get_Name()) << std::endl;
     std::cout << std::endl;
 }
 ```

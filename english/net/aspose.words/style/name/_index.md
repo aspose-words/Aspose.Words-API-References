@@ -29,7 +29,7 @@ Shows how to access a document's style collection.
 ```csharp
 Document doc = new Document();
 
-Assert.AreEqual(4, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(4));
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
@@ -42,7 +42,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
         Console.WriteLine($"\tIs heading:\t\t\t{curStyle.IsHeading}");
         Console.WriteLine($"\tIs QuickStyle:\t\t{curStyle.IsQuickStyle}");
 
-        Assert.AreEqual(doc, curStyle.Document);
+        Assert.That(curStyle.Document, Is.EqualTo(doc));
     }
 }
 ```
@@ -63,13 +63,13 @@ newStyle.Name = "My Heading 1";
 // Changing settings of one of the styles do not affect the other.
 newStyle.Font.Color = Color.Red;
 
-Assert.AreEqual("My Heading 1", newStyle.Name);
-Assert.AreEqual("Heading 1", doc.Styles["Heading 1"].Name);
+Assert.That(newStyle.Name, Is.EqualTo("My Heading 1"));
+Assert.That(doc.Styles["Heading 1"].Name, Is.EqualTo("Heading 1"));
 
-Assert.AreEqual(doc.Styles["Heading 1"].Type, newStyle.Type);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Name, newStyle.Font.Name);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Size, newStyle.Font.Size);
-Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
+Assert.That(newStyle.Type, Is.EqualTo(doc.Styles["Heading 1"].Type));
+Assert.That(newStyle.Font.Name, Is.EqualTo(doc.Styles["Heading 1"].Font.Name));
+Assert.That(newStyle.Font.Size, Is.EqualTo(doc.Styles["Heading 1"].Font.Size));
+Assert.That(newStyle.Font.Color, Is.Not.EqualTo(doc.Styles["Heading 1"].Font.Color));
 ```
 
 ### See Also

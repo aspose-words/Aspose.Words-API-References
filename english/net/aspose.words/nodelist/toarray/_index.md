@@ -48,12 +48,12 @@ using (IEnumerator<Node> e = nodeList.GetEnumerator())
 nodeList = doc.SelectNodes("//Body/Paragraph");
 
 // We can treat the list as an array.
-Assert.AreEqual(4, nodeList.ToArray().Length);
+Assert.That(nodeList.ToArray().Length, Is.EqualTo(4));
 
 // Use SelectSingleNode to select the first result of the same expression as above.
 Node node = doc.SelectSingleNode("//Body/Paragraph");
 
-Assert.AreEqual(typeof(Paragraph), node.GetType());
+Assert.That(node.GetType(), Is.EqualTo(typeof(Paragraph)));
 ```
 
 ### See Also

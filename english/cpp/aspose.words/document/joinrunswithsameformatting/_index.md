@@ -35,18 +35,18 @@ Shows how to join runs in a document to reduce unneeded runs.
 ```cpp
 // Open a document that contains adjacent runs of text with identical formatting,
 // which commonly occurs if we edit the same paragraph multiple times in Microsoft Word.
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
 // If any number of these runs are adjacent with identical formatting,
 // then the document may be simplified.
-ASSERT_EQ(317, doc->GetChildNodes(NodeType::Run, true)->get_Count());
+ASSERT_EQ(317, doc->GetChildNodes(Aspose::Words::NodeType::Run, true)->get_Count());
 
 // Combine such runs with this method and verify the number of run joins that will take place.
 ASSERT_EQ(121, doc->JoinRunsWithSameFormatting());
 
 // The number of joins and the number of runs we have after the join
 // should add up the number of runs we had initially.
-ASSERT_EQ(196, doc->GetChildNodes(NodeType::Run, true)->get_Count());
+ASSERT_EQ(196, doc->GetChildNodes(Aspose::Words::NodeType::Run, true)->get_Count());
 ```
 
 ## See Also

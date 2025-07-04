@@ -23,7 +23,7 @@ bool Aspose::Words::Paragraph::get_IsFormatRevision()
 
 Shows how to check whether a paragraph is a format revision. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Format revision.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Format revision.docx");
 
 // This paragraph is a "Format" revision, which occurs when we change the formatting of existing text
 // while tracking revisions in Microsoft Word via "Review" -> "Track changes".

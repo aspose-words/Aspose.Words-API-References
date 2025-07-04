@@ -35,14 +35,14 @@ Shows how to move a builder's cursor position to a specified paragraph.
 Document doc = new Document(MyDir + "Paragraphs.docx");
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(22, paragraphs.Count);
+Assert.That(paragraphs.Count, Is.EqualTo(22));
 
 // Create document builder to edit the document. The builder's cursor,
 // which is the point where it will insert new nodes when we call its document construction methods,
 // is currently at the beginning of the document.
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Assert.AreEqual(0, paragraphs.IndexOf(builder.CurrentParagraph));
+Assert.That(paragraphs.IndexOf(builder.CurrentParagraph), Is.EqualTo(0));
 
 // Move that cursor to a different paragraph will place that cursor in front of that paragraph.
 builder.MoveToParagraph(2, 0);

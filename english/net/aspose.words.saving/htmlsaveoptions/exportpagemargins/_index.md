@@ -52,13 +52,13 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportP
 
 if (exportPageMargins)
 {
-    Assert.True(outDocContents.Contains("<style type=\"text/css\">div.Section_1 { margin:70.85pt }</style>"));
-    Assert.True(outDocContents.Contains("<div class=\"Section_1\"><p style=\"margin-top:0pt; margin-left:150pt; margin-bottom:0pt\">"));
+    Assert.That(outDocContents.Contains("<style type=\"text/css\">div.Section_1 { margin:70.85pt }</style>"), Is.True);
+    Assert.That(outDocContents.Contains("<div class=\"Section_1\"><p style=\"margin-top:0pt; margin-left:150pt; margin-bottom:0pt\">"), Is.True);
 }
 else
 {
-    Assert.False(outDocContents.Contains("style type=\"text/css\">"));
-    Assert.True(outDocContents.Contains("<div><p style=\"margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt\">"));
+    Assert.That(outDocContents.Contains("style type=\"text/css\">"), Is.False);
+    Assert.That(outDocContents.Contains("<div><p style=\"margin-top:0pt; margin-left:220.85pt; margin-bottom:0pt\">"), Is.True);
 }
 ```
 

@@ -31,15 +31,15 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 Shows how to load the contents of a Microsoft Word document in plaintext using stream. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
-doc->Save(ArtifactsDir + u"PlainTextDocument.LoadFromStream.docx");
+doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx");
 
 {
-    auto stream = MakeObject<System::IO::FileStream>(ArtifactsDir + u"PlainTextDocument.LoadFromStream.docx", System::IO::FileMode::Open);
-    auto plaintext = MakeObject<PlainTextDocument>(stream);
+    auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStream.docx", System::IO::FileMode::Open);
+    auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream);
 
     ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 }
@@ -75,22 +75,22 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext using stream. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-auto saveOptions = MakeObject<OoxmlSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_Password(u"MyPassword");
 
-doc->Save(ArtifactsDir + u"PlainTextDocument.LoadFromStreamWithOptions.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStreamWithOptions.docx", saveOptions);
 
-auto loadOptions = MakeObject<LoadOptions>();
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_Password(u"MyPassword");
 
 {
-    auto stream = MakeObject<System::IO::FileStream>(ArtifactsDir + u"PlainTextDocument.LoadFromStreamWithOptions.docx", System::IO::FileMode::Open);
-    auto plaintext = MakeObject<PlainTextDocument>(stream, loadOptions);
+    auto stream = System::MakeObject<System::IO::FileStream>(get_ArtifactsDir() + u"PlainTextDocument.LoadFromStreamWithOptions.docx", System::IO::FileMode::Open);
+    auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(stream, loadOptions);
 
     ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 }
@@ -122,13 +122,13 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileNa
 
 Shows how to load the contents of a Microsoft Word document in plaintext. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
-doc->Save(ArtifactsDir + u"PlainTextDocument.Load.docx");
+doc->Save(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
-auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocument.Load.docx");
+auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.Load.docx");
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```
@@ -159,19 +159,19 @@ Aspose::Words::PlainTextDocument::PlainTextDocument(const System::String &fileNa
 
 Shows how to load the contents of an encrypted Microsoft Word document in plaintext. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
-auto saveOptions = MakeObject<OoxmlSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_Password(u"MyPassword");
 
-doc->Save(ArtifactsDir + u"PlainTextDocument.LoadEncrypted.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"PlainTextDocument.LoadEncrypted.docx", saveOptions);
 
-auto loadOptions = MakeObject<LoadOptions>();
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::LoadOptions>();
 loadOptions->set_Password(u"MyPassword");
 
-auto plaintext = MakeObject<PlainTextDocument>(ArtifactsDir + u"PlainTextDocument.LoadEncrypted.docx", loadOptions);
+auto plaintext = System::MakeObject<Aspose::Words::PlainTextDocument>(get_ArtifactsDir() + u"PlainTextDocument.LoadEncrypted.docx", loadOptions);
 
 ASSERT_EQ(u"Hello world!", plaintext->get_Text().Trim());
 ```

@@ -29,13 +29,13 @@ shape.Height = 200;
 shape.WrapType = WrapType.None;
 
 // A shape by default is not part of any group shape, and therefore has the "IsTopLevel" property set to "true".
-Assert.True(shape.IsTopLevel);
+Assert.That(shape.IsTopLevel, Is.True);
 
 GroupShape group = new GroupShape(doc);
 group.AppendChild(shape);
 
 // Once we assimilate a shape into a group shape, the "IsTopLevel" property changes to "false".
-Assert.False(shape.IsTopLevel);
+Assert.That(shape.IsTopLevel, Is.False);
 ```
 
 ### See Also

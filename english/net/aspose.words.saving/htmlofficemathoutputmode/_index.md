@@ -5,7 +5,7 @@ articleTitle: HtmlOfficeMathOutputMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.HtmlOfficeMathOutputMode enhances OfficeMath export to HTML, MHTML, and EPUB for seamless document conversion.
 type: docs
-weight: 5850
+weight: 5840
 url: /net/aspose.words.saving/htmlofficemathoutputmode/
 ---
 ## HtmlOfficeMathOutputMode enumeration
@@ -47,14 +47,14 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.OfficeM
 switch (htmlOfficeMathOutputMode)
 {
     case HtmlOfficeMathOutputMode.Image:
-        Assert.True(Regex.Match(outDocContents,
+        Assert.That(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt\">" +
                 "<img src=\"HtmlSaveOptions.OfficeMathOutputMode.001.png\" width=\"163\" height=\"19\" alt=\"\" style=\"vertical-align:middle; " +
                 "-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
-            "</p>").Success);
+            "</p>").Success, Is.True);
         break;
     case HtmlOfficeMathOutputMode.MathML:
-        Assert.True(Regex.Match(outDocContents,
+        Assert.That(Regex.Match(outDocContents,
             "<p style=\"margin-top:0pt; margin-bottom:10pt; text-align:center\">" +
                 "<math xmlns=\"http://www.w3.org/1998/Math/MathML\">" +
                     "<mi>i</mi>" +
@@ -65,13 +65,13 @@ switch (htmlOfficeMathOutputMode)
                     "<mo>≥</mo>" +
                     ".*" +
                 "</math>" +
-            "</p>").Success);
+            "</p>").Success, Is.True);
         break;
     case HtmlOfficeMathOutputMode.Text:
-        Assert.True(Regex.Match(outDocContents,
+        Assert.That(Regex.Match(outDocContents,
             @"<p style=\""margin-top:0pt; margin-bottom:10pt; text-align:center\"">" +
                 @"<span style=\""font-family:'Cambria Math'\"">i[+]b-c≥iM[+]bM-cM </span>" +
-            "</p>").Success);
+            "</p>").Success, Is.True);
         break;
 }
 ```

@@ -5,7 +5,7 @@ articleTitle: DmlRenderingMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.DmlRenderingMode enhances DrawingML shape rendering for high-quality fixed page formats. Optimize your document visuals!
 type: docs
-weight: 5670
+weight: 5660
 url: /net/aspose.words.saving/dmlrenderingmode/
 ---
 ## DmlRenderingMode enumeration
@@ -59,7 +59,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // render DrawingML effects with more accuracy and also with more processing cost.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
-Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);
+Assert.That(options.DmlRenderingMode, Is.EqualTo(DmlRenderingMode.DrawingML));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 ```

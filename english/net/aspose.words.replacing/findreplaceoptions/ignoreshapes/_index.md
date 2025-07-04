@@ -33,7 +33,7 @@ builder.Write("Lorem ipsum dolor sit amet, consectetur adipiscing elit.");
 FindReplaceOptions findReplaceOptions = new FindReplaceOptions() { IgnoreShapes = true };
 builder.Document.Range.Replace("Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.", findReplaceOptions);
-Assert.AreEqual("Lorem ipsum dolor sit amet, consectetur adipiscing elit.", builder.Document.GetText().Trim());
+Assert.That(builder.Document.GetText().Trim(), Is.EqualTo("Lorem ipsum dolor sit amet, consectetur adipiscing elit."));
 ```
 
 ### See Also

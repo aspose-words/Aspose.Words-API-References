@@ -28,7 +28,7 @@ doc.FirstSection.Body.AppendChild(table);
 // Tables contain rows, which contain cells, which may contain paragraphs
 // with typical elements such as runs, shapes, and even other tables.
 // Our new table has none of these nodes, and we cannot add contents to it until it does.
-Assert.AreEqual(0, table.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(table.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
 
 // Calling the "EnsureMinimum" method on a table will ensure that
 // the table has at least one row and one cell with an empty paragraph.

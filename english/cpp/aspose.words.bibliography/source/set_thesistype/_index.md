@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_ThesisType method
 linktitle: set_ThesisType
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_ThesisType method. Sets the thesis type of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_ThesisType method. Setter for Aspose::Words::Bibliography::Source::get_ThesisType in C++.'
 type: docs
 weight: 102000
 url: /cpp/aspose.words.bibliography/source/set_thesistype/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_thesistype/
 ## Source::set_ThesisType method
 
 
-Sets the thesis type of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_ThesisType](../get_thesistype/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_ThesisType(const System::String &value)

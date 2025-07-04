@@ -17,6 +17,20 @@ System::String Aspose::Words::Saving::HtmlFixedSaveOptions::get_IdPrefix() const
 ```
 
 
+## Examples
+
+
+
+Shows how to add a prefix that is prepended to all generated element IDs. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Id prefix.docx");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::HtmlFixedSaveOptions>();
+saveOptions->set_IdPrefix(u"pfx1_");
+
+doc->Save(get_ArtifactsDir() + u"HtmlFixedSaveOptions.IdPrefix.html", saveOptions);
+```
+
 ## See Also
 
 * Class [HtmlFixedSaveOptions](../)

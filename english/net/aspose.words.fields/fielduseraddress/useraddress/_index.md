@@ -32,18 +32,18 @@ doc.FieldOptions.CurrentUser = userInformation;
 // taken from the UserInformation object we created above.
 DocumentBuilder builder = new DocumentBuilder(doc);
 FieldUserAddress fieldUserAddress = (FieldUserAddress)builder.InsertField(FieldType.FieldUserAddress, true);
-Assert.AreEqual(" USERADDRESS ", fieldUserAddress.GetFieldCode());
-Assert.AreEqual("123 Main Street", fieldUserAddress.Result);
+Assert.That(fieldUserAddress.GetFieldCode(), Is.EqualTo(" USERADDRESS "));
+Assert.That(fieldUserAddress.Result, Is.EqualTo("123 Main Street"));
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object.
 fieldUserAddress.UserAddress = "456 North Road";
 fieldUserAddress.Update();
 
-Assert.AreEqual(" USERADDRESS  \"456 North Road\"", fieldUserAddress.GetFieldCode());
-Assert.AreEqual("456 North Road", fieldUserAddress.Result);
+Assert.That(fieldUserAddress.GetFieldCode(), Is.EqualTo(" USERADDRESS  \"456 North Road\""));
+Assert.That(fieldUserAddress.Result, Is.EqualTo("456 North Road"));
 
 // This does not affect the value in the UserInformation object.
-Assert.AreEqual("123 Main Street", doc.FieldOptions.CurrentUser.Address);
+Assert.That(doc.FieldOptions.CurrentUser.Address, Is.EqualTo("123 Main Street"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.USERADDRESS.docx");

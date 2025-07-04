@@ -5,7 +5,7 @@ articleTitle: WithProject
 second_title: Aspose.Words for .NET
 description: Enhance your AI capabilities with the OpenAiModel's WithProject method—easily assign projects to optimize performance and streamline your workflow.
 type: docs
-weight: 20
+weight: 40
 url: /net/aspose.words.ai/openaimodel/withproject/
 ---
 ## OpenAiModel.WithProject method
@@ -26,7 +26,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 

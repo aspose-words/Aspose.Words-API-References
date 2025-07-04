@@ -5,7 +5,7 @@ articleTitle: FieldSectionPages
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSectionPages class to efficiently implement the SECTIONPAGES field and enhance your document processing capabilities.
 type: docs
-weight: 2780
+weight: 2770
 url: /net/aspose.words.fields/fieldsectionpages/
 ---
 ## FieldSectionPages class
@@ -69,19 +69,19 @@ builder.ParagraphFormat.Alignment = ParagraphAlignment.Right;
 builder.Write("Section ");
 FieldSection fieldSection = (FieldSection)builder.InsertField(FieldType.FieldSection, true);
 
-Assert.AreEqual(" SECTION ", fieldSection.GetFieldCode());
+Assert.That(fieldSection.GetFieldCode(), Is.EqualTo(" SECTION "));
 
 // A PAGE field displays the number of the page it is in.
 builder.Write("\nPage ");
 FieldPage fieldPage = (FieldPage)builder.InsertField(FieldType.FieldPage, true);
 
-Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
+Assert.That(fieldPage.GetFieldCode(), Is.EqualTo(" PAGE "));
 
 // A SECTIONPAGES field displays the number of pages that the section it is in spans across.
 builder.Write(" of ");
 FieldSectionPages fieldSectionPages = (FieldSectionPages)builder.InsertField(FieldType.FieldSectionPages, true);
 
-Assert.AreEqual(" SECTIONPAGES ", fieldSectionPages.GetFieldCode());
+Assert.That(fieldSectionPages.GetFieldCode(), Is.EqualTo(" SECTIONPAGES "));
 
 // Move out of the header back into the main document and insert two pages.
 // All these pages will be in the first section. Our fields, which appear once every header,

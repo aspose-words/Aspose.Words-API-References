@@ -34,7 +34,7 @@ Shows how to omit headers/footers when saving a document to HTML.
 Document doc = new Document(MyDir + "Header and footer types.docx");
 
 // This document contains headers and footers. We can access them via the "HeadersFooters" collection.
-Assert.AreEqual("First header", doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim());
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderFirst].GetText().Trim(), Is.EqualTo("First header"));
 
 // Formats such as .html do not split the document into pages, so headers/footers will not function the same way
 // they would when we open the document as a .docx using Microsoft Word.
@@ -48,7 +48,7 @@ doc.Save(ArtifactsDir + "HeaderFooter.ExportMode.html", saveOptions);
 // Open our saved document and verify that it does not contain the header's text
 doc = new Document(ArtifactsDir + "HeaderFooter.ExportMode.html");
 
-Assert.IsFalse(doc.Range.Text.Contains("First header"));
+Assert.That(doc.Range.Text.Contains("First header"), Is.False);
 ```
 
 ### See Also

@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
-Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
+Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
 ```
 
 Shows how to get a field's field code.
@@ -42,14 +42,13 @@ FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
-Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
+Assert.That(fieldIf.GetFieldCode(false), Is.EqualTo(" IF  > 0 \" (surplus of ) \" \"\" "));
 
 // 2 -  Include its inner fields:
-Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
-    fieldIf.GetFieldCode(true));
+Assert.That(fieldIf.GetFieldCode(true), Is.EqualTo($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" "));
 
 // By default, the GetFieldCode method displays inner fields.
-Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
+Assert.That(fieldIf.GetFieldCode(true), Is.EqualTo(fieldIf.GetFieldCode()));
 ```
 
 ### See Also
@@ -83,14 +82,13 @@ FieldIf fieldIf = (FieldIf)doc.Range.Fields[0];
 
 // There are two ways of getting a field's field code:
 // 1 -  Omit its inner fields:
-Assert.AreEqual(" IF  > 0 \" (surplus of ) \" \"\" ", fieldIf.GetFieldCode(false));
+Assert.That(fieldIf.GetFieldCode(false), Is.EqualTo(" IF  > 0 \" (surplus of ) \" \"\" "));
 
 // 2 -  Include its inner fields:
-Assert.AreEqual($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" ",
-    fieldIf.GetFieldCode(true));
+Assert.That(fieldIf.GetFieldCode(true), Is.EqualTo($" IF \u0013 MERGEFIELD NetIncome \u0014\u0015 > 0 \" (surplus of \u0013 MERGEFIELD  NetIncome \\f $ \u0014\u0015) \" \"\" "));
 
 // By default, the GetFieldCode method displays inner fields.
-Assert.AreEqual(fieldIf.GetFieldCode(), fieldIf.GetFieldCode(true));
+Assert.That(fieldIf.GetFieldCode(true), Is.EqualTo(fieldIf.GetFieldCode()));
 ```
 
 ### See Also

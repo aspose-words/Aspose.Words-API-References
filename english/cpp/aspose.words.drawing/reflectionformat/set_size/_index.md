@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::ReflectionFormat::set_Size method
 linktitle: set_Size
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::ReflectionFormat::set_Size method. Sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0 in C++.'
+description: 'Aspose::Words::Drawing::ReflectionFormat::set_Size method. Setter for Aspose::Words::Drawing::ReflectionFormat::get_Size in C++.'
 type: docs
 weight: 11000
 url: /cpp/aspose.words.drawing/reflectionformat/set_size/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing/reflectionformat/set_size/
 ## ReflectionFormat::set_Size method
 
 
-Sets a double value between 0.0 and 1.0 representing the size of the reflection as a percentage of the reflected object. The default value is 0.0.
+Setter for [Aspose::Words::Drawing::ReflectionFormat::get_Size](../get_size/).
 
 ```cpp
 void Aspose::Words::Drawing::ReflectionFormat::set_Size(double value)

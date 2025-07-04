@@ -5,7 +5,7 @@ articleTitle: SdtType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Markup.SdtType enum, defining structured document tag types for enhanced document management and streamlined workflows.
 type: docs
-weight: 4730
+weight: 4720
 url: /net/aspose.words.markup/sdttype/
 ---
 ## SdtType enumeration
@@ -115,7 +115,7 @@ StructuredDocumentTag sdtRichText =
 builder.InsertNode(sdtPlainText);
 builder.InsertNode(sdtRichText);
 
-Assert.AreEqual(NodeType.StructuredDocumentTag, sdtPlainText.NodeType);
+Assert.That(sdtPlainText.NodeType, Is.EqualTo(NodeType.StructuredDocumentTag));
 
 NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 
@@ -125,8 +125,8 @@ foreach (Node node in tags)
 
     Console.WriteLine(sdt.WordOpenXMLMinimal);
 
-    Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
-    Assert.AreEqual("Quote", sdt.StyleName);
+    Assert.That(sdt.Style.StyleIdentifier, Is.EqualTo(StyleIdentifier.Quote));
+    Assert.That(sdt.StyleName, Is.EqualTo("Quote"));
 }
 ```
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::TextPath::set_Bold method
 linktitle: set_Bold
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::TextPath::set_Bold method. Setter for Aspose::Words::Drawing::TextPath::get_Bold in C++.'
+description: 'Aspose::Words::Drawing::TextPath::set_Bold method. True if the font is formatted as bold in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words.drawing/textpath/set_bold/
@@ -10,12 +10,16 @@ url: /cpp/aspose.words.drawing/textpath/set_bold/
 ## TextPath::set_Bold method
 
 
-Setter for [Aspose::Words::Drawing::TextPath::get_Bold](../get_bold/).
+True if the font is formatted as bold.
 
 ```cpp
 void Aspose::Words::Drawing::TextPath::set_Bold(bool value)
 ```
 
+## Remarks
+
+
+The default value is **false**. 
 ## See Also
 
 * Class [TextPath](../)

@@ -5,7 +5,7 @@ articleTitle: WithApiKey
 second_title: Aspose.Words for .NET
 description: Unlock the power of AiModel with the WithApiKey method. Effortlessly set your API key for enhanced functionality and seamless integration.
 type: docs
-weight: 20
+weight: 50
 url: /net/aspose.words.ai/aimodel/withapikey/
 ---
 ## AiModel.WithApiKey method
@@ -26,7 +26,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 

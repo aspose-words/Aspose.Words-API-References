@@ -33,7 +33,7 @@ FieldListNum field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, t
 field.StartingNumber = "0";
 builder.Writeln("Paragraph 1");
 
-Assert.AreEqual(" LISTNUM  \\s 0", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" LISTNUM  \\s 0"));
 
 // LISTNUM fields maintain separate counts for each list level. 
 // Inserting a LISTNUM field in the same paragraph as another LISTNUM field
@@ -59,7 +59,7 @@ field = (FieldListNum)builder.InsertField(FieldType.FieldListNum, true);
 field.ListLevel = "2";
 builder.Writeln("Paragraph 3");
 
-Assert.AreEqual(" LISTNUM  \\l 2", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" LISTNUM  \\l 2"));
 
 // We can set the ListName property to get the field to emulate a different AUTONUM field type.
 // "NumberDefault" emulates AUTONUM, "OutlineDefault" emulates AUTONUMOUT,
@@ -70,8 +70,8 @@ field.StartingNumber = "1";
 field.ListName = "OutlineDefault";
 builder.Writeln("Paragraph 4");
 
-Assert.IsTrue(field.HasListName);
-Assert.AreEqual(" LISTNUM  OutlineDefault \\s 1", field.GetFieldCode());
+Assert.That(field.HasListName, Is.True);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" LISTNUM  OutlineDefault \\s 1"));
 
 // The ListName does not carry over from the previous field, so we will need to set it for each new field.
 // This field continues the count with the different list name and displays "II.".

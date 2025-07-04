@@ -42,7 +42,7 @@ Assert.Throws<IncorrectPasswordException>(() =>
 // Open the encrypted document by passing the correct password in a LoadOptions object.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Password.docx", new LoadOptions("MyPassword"));
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

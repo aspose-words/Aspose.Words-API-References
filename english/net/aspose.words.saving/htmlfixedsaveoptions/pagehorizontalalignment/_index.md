@@ -35,16 +35,16 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ho
 switch (pageHorizontalAlignment)
 {
     case HtmlFixedPageHorizontalAlignment.Center:
-        Assert.True(Regex.Match(outDocContents,
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success);
+        Assert.That(Regex.Match(outDocContents,
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt auto; overflow:hidden; }").Success, Is.True);
         break;
     case HtmlFixedPageHorizontalAlignment.Left:
-        Assert.True(Regex.Match(outDocContents,
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success);
+        Assert.That(Regex.Match(outDocContents,
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt auto 10pt 10pt; overflow:hidden; }").Success, Is.True);
         break;
     case HtmlFixedPageHorizontalAlignment.Right:
-        Assert.True(Regex.Match(outDocContents,
-            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success);
+        Assert.That(Regex.Match(outDocContents,
+            "[.]awpage { position:relative; border:solid 1pt black; margin:10pt 10pt 10pt auto; overflow:hidden; }").Success, Is.True);
         break;
 }
 ```

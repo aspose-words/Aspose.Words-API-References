@@ -42,11 +42,11 @@ pageSetup.LeftMargin = ConvertUtil.PixelToPoint(225);
 pageSetup.RightMargin = ConvertUtil.PixelToPoint(125);
 
 // A pixel is 0.75 points.
-Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
-Assert.AreEqual(1.0d, ConvertUtil.PointToPixel(0.75));
+Assert.That(ConvertUtil.PixelToPoint(1), Is.EqualTo(0.75d));
+Assert.That(ConvertUtil.PointToPixel(0.75), Is.EqualTo(1.0d));
 
 // The default DPI value used is 96.
-Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1, 96));
+Assert.That(ConvertUtil.PixelToPoint(1, 96), Is.EqualTo(0.75d));
 
 // Add content to demonstrate the new margins.
 builder.Writeln($"This Text is {pageSetup.LeftMargin} points/{ConvertUtil.PointToPixel(pageSetup.LeftMargin)} pixels from the left, " +
@@ -96,10 +96,10 @@ const double myDpi = 192;
 PageSetup pageSetup = builder.PageSetup;
 pageSetup.TopMargin = ConvertUtil.PixelToPoint(100, myDpi);
 
-Assert.AreEqual(37.5d, pageSetup.TopMargin, 0.01d);
+Assert.That(pageSetup.TopMargin, Is.EqualTo(37.5d).Within(0.01d));
 
 // At the default DPI of 96, a pixel is 0.75 points.
-Assert.AreEqual(0.75d, ConvertUtil.PixelToPoint(1));
+Assert.That(ConvertUtil.PixelToPoint(1), Is.EqualTo(0.75d));
 
 builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 $"pixels (at a DPI of {myDpi}) from the top of the page.");
@@ -107,7 +107,7 @@ builder.Writeln($"This Text is {pageSetup.TopMargin} points/{ConvertUtil.PointTo
 // Set a new DPI and adjust the top margin value accordingly.
 const double newDpi = 300;
 pageSetup.TopMargin = ConvertUtil.PixelToNewDpi(pageSetup.TopMargin, myDpi, newDpi);
-Assert.AreEqual(59.0d, pageSetup.TopMargin, 0.01d);
+Assert.That(pageSetup.TopMargin, Is.EqualTo(59.0d).Within(0.01d));
 
 builder.Writeln($"At a DPI of {newDpi}, the text is now {pageSetup.TopMargin} points/{ConvertUtil.PointToPixel(pageSetup.TopMargin, myDpi)} " +
                 "pixels from the top of the page.");

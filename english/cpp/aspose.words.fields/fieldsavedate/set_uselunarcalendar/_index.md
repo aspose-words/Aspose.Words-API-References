@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSaveDate::set_UseLunarCalendar method
 linktitle: set_UseLunarCalendar
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSaveDate::set_UseLunarCalendar method. Sets whether to use the Hijri Lunar or Hebrew Lunar calendar in C++.'
+description: 'Aspose::Words::Fields::FieldSaveDate::set_UseLunarCalendar method. Setter for Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar in C++.'
 type: docs
 weight: 7000
 url: /cpp/aspose.words.fields/fieldsavedate/set_uselunarcalendar/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldsavedate/set_uselunarcalendar/
 ## FieldSaveDate::set_UseLunarCalendar method
 
 
-Sets whether to use the Hijri Lunar or Hebrew Lunar calendar.
+Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseLunarCalendar](../get_uselunarcalendar/).
 
 ```cpp
 void Aspose::Words::Fields::FieldSaveDate::set_UseLunarCalendar(bool value)

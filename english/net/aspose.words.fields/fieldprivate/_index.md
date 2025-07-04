@@ -5,7 +5,7 @@ articleTitle: FieldPrivate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldPrivate class for seamless integration of PRIVATE fields, enhancing document automation and customization.
 type: docs
-weight: 2710
+weight: 2700
 url: /net/aspose.words.fields/fieldprivate/
 ---
 ## FieldPrivate class
@@ -69,8 +69,8 @@ public void FieldPrivate()
     // but provides no functionality for them.
     FieldPrivate field = (FieldPrivate)doc.Range.Fields[0];
 
-    Assert.AreEqual(" PRIVATE \"My value\" ", field.GetFieldCode());
-    Assert.AreEqual(FieldType.FieldPrivate, field.Type);
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" PRIVATE \"My value\" "));
+    Assert.That(field.Type, Is.EqualTo(FieldType.FieldPrivate));
 
     // We can also insert PRIVATE fields using a document builder.
     DocumentBuilder builder = new DocumentBuilder(doc);
@@ -79,13 +79,13 @@ public void FieldPrivate()
     // These fields are not a viable way of protecting sensitive information.
     // Unless backward compatibility with older versions of WordPerfect is essential,
     // we can safely remove these fields. We can do this using a DocumentVisiitor implementation.
-    Assert.AreEqual(2, doc.Range.Fields.Count);
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
 
     FieldPrivateRemover remover = new FieldPrivateRemover();
     doc.Accept(remover);
 
-    Assert.AreEqual(2, remover.GetFieldsRemovedCount());
-    Assert.AreEqual(0, doc.Range.Fields.Count);
+    Assert.That(remover.GetFieldsRemovedCount(), Is.EqualTo(2));
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
 }
 
 /// <summary>

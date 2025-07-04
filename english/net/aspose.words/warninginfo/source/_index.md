@@ -30,7 +30,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
 foreach (WarningInfo warningInfo in warnings)
 {
     if (warningInfo.Source == WarningSource.Markdown)
-        Assert.AreEqual("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.Description);
+        Assert.That(warningInfo.Description, Is.EqualTo("The (*, 0:11) cannot be properly written into Markdown."));
 }
 ```
 

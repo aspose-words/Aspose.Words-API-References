@@ -5,7 +5,7 @@ articleTitle: FontFamily
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FontFamily enum—your key to managing diverse font families effortlessly for enhanced document styling and formatting.
 type: docs
-weight: 3340
+weight: 3330
 url: /net/aspose.words.fonts/fontfamily/
 ---
 ## FontFamily enumeration

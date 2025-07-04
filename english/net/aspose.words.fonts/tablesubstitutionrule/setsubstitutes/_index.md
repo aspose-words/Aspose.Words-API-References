@@ -37,11 +37,11 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 // The default font sources contain the first font that the document uses.
-Assert.AreEqual(1, fontSources.Length);
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.That(fontSources.Length, Is.EqualTo(1));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
 
 // The second font, "Amethysta", is unavailable.
-Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
 
 // We can configure a font substitution table which determines
 // which fonts Aspose.Words will use as substitutes for unavailable fonts.
@@ -51,11 +51,11 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-// "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo". 
-Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+// "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo".
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.False);
 
-// "Arvo" is also unavailable, but "Courier New" is. 
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
+// "Arvo" is also unavailable, but "Courier New" is.
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"), Is.True);
 
 // The output document will display the text that uses the "Amethysta" font formatted with "Courier New".
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");
@@ -89,22 +89,21 @@ tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
 // Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 // We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Arial").ToArray(), Is.EqualTo(new[] {"Missing Font", "Kreon"}));
 
 // We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
-Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman"), Is.Null);
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
-Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo"}));
 
 // We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 // In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
-Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo", "M+ 2m"}));
 
 // SetSubstitutes() can set a new list of substitute fonts for a font.
 tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
-Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
-    tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Squarish Sans CT", "M+ 2m"}));
 
 // Writing text in fonts that we do not have access to will invoke our substitution rules.
 DocumentBuilder builder = new DocumentBuilder(doc);

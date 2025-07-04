@@ -51,7 +51,7 @@ builder.InsertParagraph();
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
-Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
+Assert.That(doc.Range.FormFields[2].Name, Is.EqualTo("CheckBox_OnlyChecked"));
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");
@@ -110,7 +110,7 @@ builder.InsertParagraph();
 builder.Write("Very large checked check box: ");
 builder.InsertCheckBox("CheckBox_OnlyCheckedValue", true, 100);
 
-Assert.AreEqual("CheckBox_OnlyChecked", doc.Range.FormFields[2].Name);
+Assert.That(doc.Range.FormFields[2].Name, Is.EqualTo("CheckBox_OnlyChecked"));
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertCheckBox.docx");

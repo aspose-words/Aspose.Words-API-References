@@ -25,7 +25,7 @@ class FieldDocVariable : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -38,7 +38,7 @@ class FieldDocVariable : public Aspose::Words::Fields::Field
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -54,15 +54,15 @@ class FieldDocVariable : public Aspose::Words::Fields::Field
 
 Shows how to use DOCPROPERTY fields to display document properties and variables. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Below are two ways of using DOCPROPERTY fields.
 // 1 -  Display a built-in property:
 // Set a custom value for the "Category" built-in property, then insert a DOCPROPERTY field that references it.
 doc->get_BuiltInDocumentProperties()->set_Category(u"My category");
 
-auto fieldDocProperty = System::ExplicitCast<FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
+auto fieldDocProperty = System::ExplicitCast<Aspose::Words::Fields::FieldDocProperty>(builder->InsertField(u" DOCPROPERTY Category "));
 fieldDocProperty->Update();
 
 ASSERT_EQ(u" DOCPROPERTY Category ", fieldDocProperty->GetFieldCode());
@@ -75,14 +75,14 @@ builder->InsertParagraph();
 ASSERT_EQ(0, doc->get_Variables()->get_Count());
 doc->get_Variables()->Add(u"My variable", u"My variable's value");
 
-auto fieldDocVariable = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto fieldDocVariable = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDocVariable, true));
 fieldDocVariable->set_VariableName(u"My Variable");
 fieldDocVariable->Update();
 
 ASSERT_EQ(u" DOCVARIABLE  \"My Variable\"", fieldDocVariable->GetFieldCode());
 ASSERT_EQ(u"My variable's value", fieldDocVariable->get_Result());
 
-doc->Save(ArtifactsDir + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```
 
 ## See Also

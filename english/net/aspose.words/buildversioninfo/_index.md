@@ -5,7 +5,7 @@ articleTitle: BuildVersionInfo
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.BuildVersionInfo class for detailed insights on product name and version. Enhance your document management with reliable data!
 type: docs
-weight: 310
+weight: 300
 url: /net/aspose.words/buildversioninfo/
 ---
 ## BuildVersionInfo class

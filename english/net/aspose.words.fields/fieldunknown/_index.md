@@ -5,7 +5,7 @@ articleTitle: FieldUnknown
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldUnknown class for handling unrecognized fields efficiently. Enhance your document processing with seamless integration!
 type: docs
-weight: 2960
+weight: 2950
 url: /net/aspose.words.fields/fieldunknown/
 ---
 ## FieldUnknown class
@@ -62,11 +62,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Field field = builder.InsertField(" NOTAREALFIELD //a");
 
 // The "FieldNone" field type is reserved for fields such as these.
-Assert.AreEqual(FieldType.FieldNone, field.Type);
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldNone));
 
 // We can also still work with these fields and assign them as instances of the FieldUnknown class.
 FieldUnknown fieldUnknown = (FieldUnknown)field;
-Assert.AreEqual(" NOTAREALFIELD //a", fieldUnknown.GetFieldCode());
+Assert.That(fieldUnknown.GetFieldCode(), Is.EqualTo(" NOTAREALFIELD //a"));
 ```
 
 ### See Also

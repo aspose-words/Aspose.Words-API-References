@@ -38,25 +38,25 @@ doc.UpdateFields();
 
 FieldCollection fields = doc.Range.Fields;
 
-Assert.AreEqual(6, fields.Count);
+Assert.That(fields.Count, Is.EqualTo(6));
 
 // Below are four ways of removing fields from a field collection.
 // 1 -  Get a field to remove itself:
 fields[0].Remove();
-Assert.AreEqual(5, fields.Count);
+Assert.That(fields.Count, Is.EqualTo(5));
 
 // 2 -  Get the collection to remove a field that we pass to its removal method:
 Field lastField = fields[3];
 fields.Remove(lastField);
-Assert.AreEqual(4, fields.Count);
+Assert.That(fields.Count, Is.EqualTo(4));
 
 // 3 -  Remove a field from a collection at an index:
 fields.RemoveAt(2);
-Assert.AreEqual(3, fields.Count);
+Assert.That(fields.Count, Is.EqualTo(3));
 
 // 4 -  Remove all the fields from the collection at once:
 fields.Clear();
-Assert.AreEqual(0, fields.Count);
+Assert.That(fields.Count, Is.EqualTo(0));
 ```
 
 ### See Also

@@ -43,8 +43,8 @@ Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");
 
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(3, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
-Assert.AreEqual(1, shapes.Count(s => s.ShapeType == ShapeType.Image));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.TextBox), Is.EqualTo(3));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.Image), Is.EqualTo(1));
 
 foreach (Shape shape in shapes)
 {
@@ -70,8 +70,8 @@ foreach (Shape shape in shapes)
 
 shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(0, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
-Assert.AreEqual(4, shapes.Count(s => s.ShapeType == ShapeType.Image));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.TextBox), Is.EqualTo(0));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.Image), Is.EqualTo(4));
 
 doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 ```
@@ -82,7 +82,7 @@ Shows how to add, update and delete child nodes in a CompositeNode's collection 
 Document doc = new Document();
 
 // An empty document, by default, has one paragraph.
-Assert.AreEqual(1, doc.FirstSection.Body.Paragraphs.Count);
+Assert.That(doc.FirstSection.Body.Paragraphs.Count, Is.EqualTo(1));
 
 // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
 Paragraph paragraph = doc.FirstSection.Body.FirstParagraph;
@@ -98,30 +98,30 @@ Run run3 = new Run(doc, "Run 3. ");
 // that itself is a part of the document's node tree, as we did with the first run.
 // We can determine where the text contents of nodes that we insert
 // appears in the document by specifying an insertion location relative to another node in the paragraph.
-Assert.AreEqual("Initial text.", paragraph.GetText().Trim());
+Assert.That(paragraph.GetText().Trim(), Is.EqualTo("Initial text."));
 
 // Insert the second run into the paragraph in front of the initial run.
 paragraph.InsertBefore(run2, paragraphText);
 
-Assert.AreEqual("Run 2. Initial text.", paragraph.GetText().Trim());
+Assert.That(paragraph.GetText().Trim(), Is.EqualTo("Run 2. Initial text."));
 
 // Insert the third run after the initial run.
 paragraph.InsertAfter(run3, paragraphText);
 
-Assert.AreEqual("Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
+Assert.That(paragraph.GetText().Trim(), Is.EqualTo("Run 2. Initial text. Run 3."));
 
 // Insert the first run to the start of the paragraph's child nodes collection.
 paragraph.PrependChild(run1);
 
-Assert.AreEqual("Run 1. Run 2. Initial text. Run 3.", paragraph.GetText().Trim());
-Assert.AreEqual(4, paragraph.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(paragraph.GetText().Trim(), Is.EqualTo("Run 1. Run 2. Initial text. Run 3."));
+Assert.That(paragraph.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(4));
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
 ((Run)paragraph.GetChildNodes(NodeType.Run, true)[1]).Text = "Updated run 2. ";
 paragraph.GetChildNodes(NodeType.Run, true).Remove(paragraphText);
 
-Assert.AreEqual("Run 1. Updated run 2. Run 3.", paragraph.GetText().Trim());
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(paragraph.GetText().Trim(), Is.EqualTo("Run 1. Updated run 2. Run 3."));
+Assert.That(paragraph.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(3));
 ```
 
 ### See Also

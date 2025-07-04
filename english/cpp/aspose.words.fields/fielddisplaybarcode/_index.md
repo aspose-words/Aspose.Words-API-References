@@ -35,7 +35,7 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [get_FixCheckDigit](./get_fixcheckdigit/)() | Gets or sets whether to fix the check digit if it’s invalid. |
 | [get_ForegroundColor](./get_foregroundcolor/)() | Gets or sets the foreground color of the barcode symbol. Valid values are in the range [0, 0xFFFFFF]. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_PosCodeStyle](./get_poscodestyle/)() | Gets or sets the style of a Point of Sale barcode (barcode types UPCA|UPCE|EAN13|EAN8). The valid values (case insensitive) are [STD|SUP2|SUP5|CASE]. |
@@ -60,7 +60,7 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 | [set_ErrorCorrectionLevel](./set_errorcorrectionlevel/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ErrorCorrectionLevel](./get_errorcorrectionlevel/). |
 | [set_FixCheckDigit](./set_fixcheckdigit/)(bool) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_FixCheckDigit](./get_fixcheckdigit/). |
 | [set_ForegroundColor](./set_foregroundcolor/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_ForegroundColor](./get_foregroundcolor/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_PosCodeStyle](./set_poscodestyle/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldDisplayBarcode::get_PosCodeStyle](./get_poscodestyle/). |
@@ -79,10 +79,10 @@ class FieldDisplayBarcode : public Aspose::Words::Fields::Field,
 
 Shows how to insert a DISPLAYBARCODE field, and set its properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
 
 // Below are four types of barcodes, decorated in various ways, that the DISPLAYBARCODE field can display.
 // 1 -  QR code with custom colors:
@@ -99,7 +99,7 @@ ASSERT_EQ(u" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \
 builder->Writeln();
 
 // 2 -  EAN13 barcode, with the digits displayed below the bars:
-field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"EAN13");
 field->set_BarcodeValue(u"501234567890");
 field->set_DisplayText(true);
@@ -110,7 +110,7 @@ ASSERT_EQ(u" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field->GetFie
 builder->Writeln();
 
 // 3 -  CODE39 barcode:
-field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"CODE39");
 field->set_BarcodeValue(u"12345ABCDE");
 field->set_AddStartStopChar(true);
@@ -119,14 +119,14 @@ ASSERT_EQ(u" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field->GetFieldCode());
 builder->Writeln();
 
 // 4 -  ITF4 barcode, with a specified case code:
-field = System::ExplicitCast<FieldDisplayBarcode>(builder->InsertField(FieldType::FieldDisplayBarcode, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDisplayBarcode>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDisplayBarcode, true));
 field->set_BarcodeType(u"ITF14");
 field->set_BarcodeValue(u"09312345678907");
 field->set_CaseCodeStyle(u"STD");
 
 ASSERT_EQ(u" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field->GetFieldCode());
 
-doc->Save(ArtifactsDir + u"Field.DISPLAYBARCODE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.DISPLAYBARCODE.docx");
 ```
 
 ## See Also

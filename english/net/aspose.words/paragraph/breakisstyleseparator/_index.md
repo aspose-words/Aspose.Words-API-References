@@ -41,7 +41,7 @@ builder.InsertStyleSeparator();
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Quote;
 builder.Write("Won't appear in the TOC. ");
 
-Assert.True(doc.FirstSection.Body.FirstParagraph.BreakIsStyleSeparator);
+Assert.That(doc.FirstSection.Body.FirstParagraph.BreakIsStyleSeparator, Is.True);
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Paragraph.BreakIsStyleSeparator.docx");

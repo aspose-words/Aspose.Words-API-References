@@ -35,7 +35,7 @@ ImageSaveOptions imageSaveOptions = new ImageSaveOptions(SaveFormat.Png);
 imageSaveOptions.PixelFormat = imagePixelFormat;
 
 // We can clone ImageSaveOptions instances.
-Assert.AreNotEqual(imageSaveOptions, imageSaveOptions.Clone());
+Assert.That(imageSaveOptions.Clone(), Is.Not.EqualTo(imageSaveOptions));
 
 doc.Save(ArtifactsDir + "ImageSaveOptions.PixelFormat.png", imageSaveOptions);
 ```

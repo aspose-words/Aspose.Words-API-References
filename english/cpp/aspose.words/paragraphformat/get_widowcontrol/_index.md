@@ -23,8 +23,8 @@ bool Aspose::Words::ParagraphFormat::get_WidowControl()
 
 Shows how to enable widow/orphan control for a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // When we write the text that does not fit onto one page, one line may spill over onto the next page.
 // The single line that ends up on the next page is called an "Orphan",
@@ -39,10 +39,9 @@ builder->get_ParagraphFormat()->set_WidowControl(widowControl);
 
 // Insert text that produces an orphan and a widow.
 builder->get_Font()->set_Size(68);
-builder->Write(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-               u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->Write(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.WidowControl.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.WidowControl.docx");
 ```
 
 ## See Also

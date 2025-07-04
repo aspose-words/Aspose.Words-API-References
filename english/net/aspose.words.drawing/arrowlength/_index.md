@@ -5,7 +5,7 @@ articleTitle: ArrowLength
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.ArrowLength enum to customize arrow lengths for enhanced line graphics in your documents. Elevate your design today!
 type: docs
-weight: 720
+weight: 710
 url: /net/aspose.words.drawing/arrowlength/
 ---
 ## ArrowLength enumeration
@@ -48,7 +48,7 @@ arrow.Stroke.EndArrowWidth = ArrowWidth.Wide;
 arrow.Stroke.DashStyle = DashStyle.Dash;
 arrow.Stroke.Opacity = 0.5;
 
-Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
+Assert.That(arrow.Stroke.JoinStyle, Is.EqualTo(JoinStyle.Miter));
 
 builder.InsertNode(arrow);
 

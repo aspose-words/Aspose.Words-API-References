@@ -29,11 +29,11 @@ Cannot be **null**, but can be an empty string.
 
 Shows how to set the title of a shape. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a shape, give it a title, and then add it to the document.
-auto shape = MakeObject<Shape>(doc, ShapeType::Cube);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Cube);
 shape->set_Width(200);
 shape->set_Height(200);
 shape->set_Title(u"My cube");
@@ -42,12 +42,12 @@ builder->InsertNode(shape);
 
 // When we save a document with a shape that has a title,
 // Aspose.Words will store that title in the shape's Alt Text.
-doc->Save(ArtifactsDir + u"Shape.Title.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.Title.docx");
 
-doc = MakeObject<Document>(ArtifactsDir + u"Shape.Title.docx");
-shape = System::ExplicitCast<Shape>(doc->GetChild(NodeType::Shape, 0, true));
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Shape.Title.docx");
+shape = System::ExplicitCast<Aspose::Words::Drawing::Shape>(doc->GetChild(Aspose::Words::NodeType::Shape, 0, true));
 
-ASSERT_EQ(String::Empty, shape->get_Title());
+ASSERT_EQ(System::String::Empty, shape->get_Title());
 ASSERT_EQ(u"Title: My cube", shape->get_AlternativeText());
 ```
 

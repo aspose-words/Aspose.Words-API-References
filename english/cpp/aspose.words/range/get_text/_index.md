@@ -27,8 +27,8 @@ The returned string includes all control and special characters as described in 
 
 Shows how to get the text contents of all the nodes that a range covers. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Hello world!");
 

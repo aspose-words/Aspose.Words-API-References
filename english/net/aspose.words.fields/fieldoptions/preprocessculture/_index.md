@@ -37,13 +37,13 @@ Field field = builder.InsertField(" DOCPROPERTY CreateTime");
 
 // The DOCPROPERTY field will display its result formatted according to the preprocess culture
 // we have set to German. The field will display the date/time using the "dd.mm.yyyy hh:mm" format.
-Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success);
+Assert.That(Regex.Match(field.Result, @"\d{2}[.]\d{2}[.]\d{4} \d{2}[:]\d{2}").Success, Is.True);
 
 doc.FieldOptions.PreProcessCulture = CultureInfo.InvariantCulture;
 field.Update();
 
 // After switching to the invariant culture, the DOCPROPERTY field will use the "mm/dd/yyyy hh:mm" format.
-Assert.IsTrue(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").Success);
+Assert.That(Regex.Match(field.Result, @"\d{2}[/]\d{2}[/]\d{4} \d{2}[:]\d{2}").Success, Is.True);
 ```
 
 ### See Also

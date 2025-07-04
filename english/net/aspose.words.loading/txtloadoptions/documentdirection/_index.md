@@ -33,12 +33,12 @@ loadOptions.DocumentDirection = DocumentDirection.Auto;
 // Detect Hebrew text as right-to-left.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
-Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.True);
 
 // Detect English text as right-to-left.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
-Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.False);
 ```
 
 ### See Also

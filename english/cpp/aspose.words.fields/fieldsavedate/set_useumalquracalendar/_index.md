@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldSaveDate::set_UseUmAlQuraCalendar method
 linktitle: set_UseUmAlQuraCalendar
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldSaveDate::set_UseUmAlQuraCalendar method. Sets whether to use the Um-al-Qura calendar in C++.'
+description: 'Aspose::Words::Fields::FieldSaveDate::set_UseUmAlQuraCalendar method. Setter for Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar in C++.'
 type: docs
 weight: 9000
 url: /cpp/aspose.words.fields/fieldsavedate/set_useumalquracalendar/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldsavedate/set_useumalquracalendar/
 ## FieldSaveDate::set_UseUmAlQuraCalendar method
 
 
-Sets whether to use the Um-al-Qura calendar.
+Setter for [Aspose::Words::Fields::FieldSaveDate::get_UseUmAlQuraCalendar](../get_useumalquracalendar/).
 
 ```cpp
 void Aspose::Words::Fields::FieldSaveDate::set_UseUmAlQuraCalendar(bool value)

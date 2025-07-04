@@ -23,10 +23,10 @@ System::String Aspose::Words::Markup::StructuredDocumentTag::get_Title() const o
 
 Shows how to create a structured document tag in a plain text box and modify its appearance. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a structured document tag that will contain plain text.
-auto tag = MakeObject<StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Inline);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Inline);
 
 // Set the title and color of the frame that appears when you mouse over the structured document tag in Microsoft Word.
 tag->set_Title(u"My plain text");
@@ -37,7 +37,7 @@ tag->set_Color(System::Drawing::Color::get_Magenta());
 tag->set_Tag(u"MyPlainTextSDT");
 
 // Every structured document tag has a random unique ID.
-ASSERT_GT(tag->get_Id(), 0);
+ASSERT_TRUE(tag->get_Id() > 0);
 
 // Set the font for the text inside the structured document tag.
 tag->get_ContentsFont()->set_Name(u"Arial");
@@ -56,20 +56,20 @@ tag->set_Multiline(true);
 
 // Set the "Appearance" property to "SdtAppearance.Tags" to show tags around content.
 // By default structured document tag shows as BoundingBox.
-tag->set_Appearance(SdtAppearance::Tags);
+tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertNode(tag);
 
 // Insert a clone of our structured document tag in a new paragraph.
-auto tagClone = System::ExplicitCast<StructuredDocumentTag>(tag->Clone(true));
+auto tagClone = System::ExplicitCast<Aspose::Words::Markup::StructuredDocumentTag>(System::ExplicitCast<Aspose::Words::Node>(tag)->Clone(true));
 builder->InsertParagraph();
 builder->InsertNode(tagClone);
 
 // Use the "RemoveSelfOnly" method to remove a structured document tag, while keeping its contents in the document.
 tagClone->RemoveSelfOnly();
 
-doc->Save(ArtifactsDir + u"StructuredDocumentTag.PlainText.docx");
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.PlainText.docx");
 ```
 
 ## See Also

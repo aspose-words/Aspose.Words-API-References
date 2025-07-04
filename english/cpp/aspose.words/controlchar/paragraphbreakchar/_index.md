@@ -23,68 +23,68 @@ static constexpr char16_t Aspose::Words::ControlChar::ParagraphBreakChar
 
 Shows how to add various control characters to a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add a regular space.
-builder->Write(String(u"Before space.") + ControlChar::SpaceChar + u"After space.");
+builder->Write(System::String(u"Before space.") + Aspose::Words::ControlChar::SpaceChar + u"After space.");
 
 // Add an NBSP, which is a non-breaking space.
 // Unlike the regular space, this space cannot have an automatic line break at its position.
-builder->Write(String(u"Before space.") + ControlChar::NonBreakingSpace() + u"After space.");
+builder->Write(System::String(u"Before space.") + Aspose::Words::ControlChar::NonBreakingSpace() + u"After space.");
 
 // Add a tab character.
-builder->Write(String(u"Before tab.") + ControlChar::Tab() + u"After tab.");
+builder->Write(System::String(u"Before tab.") + Aspose::Words::ControlChar::Tab() + u"After tab.");
 
 // Add a line break.
-builder->Write(String(u"Before line break.") + ControlChar::LineBreak() + u"After line break.");
+builder->Write(System::String(u"Before line break.") + Aspose::Words::ControlChar::LineBreak() + u"After line break.");
 
 // Add a new line and starts a new paragraph.
-ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Paragraph, true)->get_Count());
-builder->Write(String(u"Before line feed.") + ControlChar::LineFeed() + u"After line feed.");
-ASSERT_EQ(2, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Paragraph, true)->get_Count());
+ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)->get_Count());
+builder->Write(System::String(u"Before line feed.") + Aspose::Words::ControlChar::LineFeed() + u"After line feed.");
+ASSERT_EQ(2, doc->get_FirstSection()->get_Body()->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)->get_Count());
 
 // The line feed character has two versions.
-ASSERT_EQ(ControlChar::LineFeed(), ControlChar::Lf());
+ASSERT_EQ(Aspose::Words::ControlChar::LineFeed(), Aspose::Words::ControlChar::Lf());
 
 // Carriage returns and line feeds can be represented together by one character.
-ASSERT_EQ(ControlChar::CrLf(), ControlChar::Cr() + ControlChar::Lf());
+ASSERT_EQ(Aspose::Words::ControlChar::CrLf(), Aspose::Words::ControlChar::Cr() + Aspose::Words::ControlChar::Lf());
 
 // Add a paragraph break, which will start a new paragraph.
-builder->Write(String(u"Before paragraph break.") + ControlChar::ParagraphBreak() + u"After paragraph break.");
-ASSERT_EQ(3, doc->get_FirstSection()->get_Body()->GetChildNodes(NodeType::Paragraph, true)->get_Count());
+builder->Write(System::String(u"Before paragraph break.") + Aspose::Words::ControlChar::ParagraphBreak() + u"After paragraph break.");
+ASSERT_EQ(3, doc->get_FirstSection()->get_Body()->GetChildNodes(Aspose::Words::NodeType::Paragraph, true)->get_Count());
 
 // Add a section break. This does not make a new section or paragraph.
 ASSERT_EQ(1, doc->get_Sections()->get_Count());
-builder->Write(String(u"Before section break.") + ControlChar::SectionBreak() + u"After section break.");
+builder->Write(System::String(u"Before section break.") + Aspose::Words::ControlChar::SectionBreak() + u"After section break.");
 ASSERT_EQ(1, doc->get_Sections()->get_Count());
 
 // Add a page break.
-builder->Write(String(u"Before page break.") + ControlChar::PageBreak() + u"After page break.");
+builder->Write(System::String(u"Before page break.") + Aspose::Words::ControlChar::PageBreak() + u"After page break.");
 
 // A page break is the same value as a section break.
-ASSERT_EQ(ControlChar::PageBreak(), ControlChar::SectionBreak());
+ASSERT_EQ(Aspose::Words::ControlChar::PageBreak(), Aspose::Words::ControlChar::SectionBreak());
 
 // Insert a new section, and then set its column count to two.
-doc->AppendChild(MakeObject<Section>(doc));
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(System::MakeObject<Aspose::Words::Section>(doc));
 builder->MoveToSection(1);
 builder->get_CurrentSection()->get_PageSetup()->get_TextColumns()->SetCount(2);
 
 // We can use a control character to mark the point where text moves to the next column.
-builder->Write(String(u"Text at end of column 1.") + ControlChar::ColumnBreak() + u"Text at beginning of column 2.");
+builder->Write(System::String(u"Text at end of column 1.") + Aspose::Words::ControlChar::ColumnBreak() + u"Text at beginning of column 2.");
 
-doc->Save(ArtifactsDir + u"ControlChar.InsertControlChars.docx");
+doc->Save(get_ArtifactsDir() + u"ControlChar.InsertControlChars.docx");
 
 // There are char and string counterparts for most characters.
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::Cell()), ControlChar::CellChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::NonBreakingSpace()), ControlChar::NonBreakingSpaceChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::Tab()), ControlChar::TabChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::LineBreak()), ControlChar::LineBreakChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::LineFeed()), ControlChar::LineFeedChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ParagraphBreak()), ControlChar::ParagraphBreakChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::SectionBreak()), ControlChar::SectionBreakChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::PageBreak()), ControlChar::SectionBreakChar);
-ASPOSE_ASSERT_EQ(System::Convert::ToChar(ControlChar::ColumnBreak()), ControlChar::ColumnBreakChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::Cell()), Aspose::Words::ControlChar::CellChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::NonBreakingSpace()), Aspose::Words::ControlChar::NonBreakingSpaceChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::Tab()), Aspose::Words::ControlChar::TabChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::LineBreak()), Aspose::Words::ControlChar::LineBreakChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::LineFeed()), Aspose::Words::ControlChar::LineFeedChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::ParagraphBreak()), Aspose::Words::ControlChar::ParagraphBreakChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::SectionBreak()), Aspose::Words::ControlChar::SectionBreakChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::PageBreak()), Aspose::Words::ControlChar::SectionBreakChar);
+ASPOSE_ASSERT_EQ(System::Convert::ToChar(Aspose::Words::ControlChar::ColumnBreak()), Aspose::Words::ControlChar::ColumnBreakChar);
 ```
 
 ## See Also

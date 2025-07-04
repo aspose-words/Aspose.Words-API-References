@@ -5,7 +5,7 @@ articleTitle: TextFormFieldType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.TextFormFieldType enum, defining various text form field types for enhanced document automation and customization.
 type: docs
-weight: 3180
+weight: 3170
 url: /net/aspose.words.fields/textformfieldtype/
 ---
 ## TextFormFieldType enumeration
@@ -37,7 +37,7 @@ DocumentBuilder builder = new DocumentBuilder();
 // Form fields are objects in the document that the user can interact with by being prompted to enter values.
 // We can create them using a document builder, and below are two ways of doing so.
 // 1 -  Basic text input:
-builder.InsertTextInput("My text input", TextFormFieldType.Regular, 
+builder.InsertTextInput("My text input", TextFormFieldType.Regular,
     "", "Enter your name here", 30);
 
 // 2 -  Combo box with prompt text, and a range of possible values:

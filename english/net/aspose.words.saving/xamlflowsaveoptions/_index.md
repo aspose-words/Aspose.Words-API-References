@@ -5,7 +5,7 @@ articleTitle: XamlFlowSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XamlFlowSaveOptions for enhanced document saving in XamlFlow formats. Unlock advanced features for seamless integration!
 type: docs
-weight: 6510
+weight: 6500
 url: /net/aspose.words.saving/xamlflowsaveoptions/
 ---
 ## XamlFlowSaveOptions class
@@ -69,7 +69,7 @@ public void ImageFolder()
     // to modify how we save the document to the XAML save format.
     XamlFlowSaveOptions options = new XamlFlowSaveOptions();
 
-    Assert.AreEqual(SaveFormat.XamlFlow, options.SaveFormat);
+    Assert.That(options.SaveFormat, Is.EqualTo(SaveFormat.XamlFlow));
 
     // Use the "ImagesFolder" property to assign a folder in the local file system into which
     // Aspose.Words will save all the document's linked images.

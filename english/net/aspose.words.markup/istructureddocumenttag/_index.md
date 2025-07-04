@@ -5,7 +5,7 @@ articleTitle: IStructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Explore the Aspose.Words.Markup.IStructuredDocumentTag interface for efficient management of Structured Document Tags and enhance your document processing today!
 type: docs
-weight: 4660
+weight: 4650
 url: /net/aspose.words.markup/istructureddocumenttag/
 ---
 ## IStructuredDocumentTag interface
@@ -53,7 +53,7 @@ Document doc = new Document(MyDir + "Structured document tags.docx");
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags. 
 IEnumerable<IStructuredDocumentTag> sdts = doc.Range.StructuredDocumentTags.ToList();
-Assert.AreEqual(5, sdts.Count());
+Assert.That(sdts.Count(), Is.EqualTo(5));
 
 // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
 foreach (IStructuredDocumentTag sdt in sdts)
@@ -61,7 +61,7 @@ foreach (IStructuredDocumentTag sdt in sdts)
         sdt.RemoveSelfOnly();
 
 sdts = doc.Range.StructuredDocumentTags.ToList();
-Assert.AreEqual(0, sdts.Count());
+Assert.That(sdts.Count(), Is.EqualTo(0));
 ```
 
 ### See Also

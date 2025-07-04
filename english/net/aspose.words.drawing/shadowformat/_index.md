@@ -5,7 +5,7 @@ articleTitle: ShadowFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.ShadowFormat for enhanced object shadow effects. Elevate your document design with customizable shadow formatting options.
 type: docs
-weight: 1620
+weight: 1610
 url: /net/aspose.words.drawing/shadowformat/
 ---
 ## ShadowFormat class
@@ -41,8 +41,8 @@ Document doc = new Document(MyDir + "Shadow color.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 ShadowFormat shadowFormat = shape.ShadowFormat;
 
-Assert.AreEqual(Color.Red.ToArgb(), shadowFormat.Color.ToArgb());
-Assert.AreEqual(ShadowType.ShadowMixed, shadowFormat.Type);
+Assert.That(shadowFormat.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+Assert.That(shadowFormat.Type, Is.EqualTo(ShadowType.ShadowMixed));
 ```
 
 ### See Also

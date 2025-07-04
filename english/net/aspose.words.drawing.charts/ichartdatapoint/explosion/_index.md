@@ -27,8 +27,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Pie, 500, 350);
 Chart chart = shape.Chart;
 
-Assert.AreEqual(1, chart.Series.Count);
-Assert.AreEqual("Sales", chart.Series[0].Name);
+Assert.That(chart.Series.Count, Is.EqualTo(1));
+Assert.That(chart.Series[0].Name, Is.EqualTo("Sales"));
 
 // "Slices" of a pie chart may be moved away from the center by a distance via the respective data point's Explosion attribute.
 // Add a data point to the first portion of the pie chart and move it away from the center by 10 points.

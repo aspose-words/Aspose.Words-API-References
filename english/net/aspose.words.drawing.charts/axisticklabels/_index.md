@@ -5,7 +5,7 @@ articleTitle: AxisTickLabels
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisTickLabels class, designed to enhance your chart's axis tick mark labels with customizable properties for better data visualization.
 type: docs
-weight: 840
+weight: 830
 url: /net/aspose.words.drawing.charts/axisticklabels/
 ---
 ## AxisTickLabels class
@@ -63,7 +63,7 @@ xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
 xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
 
-Assert.AreEqual(doc, xAxis.Document);
+Assert.That(xAxis.Document, Is.EqualTo(doc));
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -79,7 +79,7 @@ yAxis.TickLabels.Font.Color = Color.Red;
 yAxis.TickLabels.Spacing = 1;
 
 // Column charts do not have a Z-axis.
-Assert.Null(chart.AxisZ);
+Assert.That(chart.AxisZ, Is.Null);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ```

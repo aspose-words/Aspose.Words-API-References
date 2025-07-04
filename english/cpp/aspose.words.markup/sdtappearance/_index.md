@@ -25,6 +25,22 @@ enum class SdtAppearance
 | Hidden | 2 | Represents a structured document tag that is not shown. |
 | Default | n/a | Defaults to [BoundingBox](./). |
 
+
+## Examples
+
+
+
+Shows how to show tag around content. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
+auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChild(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, 0, true));
+
+if (tag->get_Appearance() == Aspose::Words::Markup::SdtAppearance::Hidden)
+{
+    tag->set_Appearance(Aspose::Words::Markup::SdtAppearance::Tags);
+}
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

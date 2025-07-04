@@ -37,7 +37,7 @@ Document doc = new Document(MyDir + "Properties.docx");
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties. 
-Assert.AreEqual("Value of custom document property", doc.CustomDocumentProperties["CustomProperty"].ToString());
+Assert.That(doc.CustomDocumentProperties["CustomProperty"].ToString(), Is.EqualTo("Value of custom document property"));
 
 doc.CustomDocumentProperties.Add("CustomProperty2", "Value of custom document property #2");
 

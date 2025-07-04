@@ -48,18 +48,18 @@ public void Direction(FindReplaceDirection findReplaceDirection)
 
     doc.Range.Replace(new Regex(@"Match \d*"), "Replacement", options);
 
-    Assert.AreEqual("Replacement.\r" +
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Replacement.\r" +
                     "Replacement.\r" +
                     "Replacement.\r" +
-                    "Replacement.", doc.GetText().Trim());
+                    "Replacement."));
 
     switch (findReplaceDirection)
     {
         case FindReplaceDirection.Forward:
-            Assert.AreEqual(new[] { "Match 1", "Match 2", "Match 3", "Match 4" }, callback.Matches);
+            Assert.That(callback.Matches, Is.EqualTo(new[] { "Match 1", "Match 2", "Match 3", "Match 4" }));
             break;
         case FindReplaceDirection.Backward:
-            Assert.AreEqual(new[] { "Match 4", "Match 3", "Match 2", "Match 1" }, callback.Matches);
+            Assert.That(callback.Matches, Is.EqualTo(new[] { "Match 4", "Match 3", "Match 2", "Match 1" }));
             break;
     }
 }

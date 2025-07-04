@@ -34,15 +34,15 @@ dstDoc.FirstSection.Body.FirstParagraph.AppendChild(importedShape);
 ImageData imageData = importedShape.ImageData;
 imageData.Title = "Imported Image";
 
-Assert.True(imageData.HasImage);
+Assert.That(imageData.HasImage, Is.True);
 
 // If an image has no borders, its ImageData object will define the border color as empty.
-Assert.AreEqual(4, imageData.Borders.Count);
-Assert.AreEqual(Color.Empty, imageData.Borders[0].Color);
+Assert.That(imageData.Borders.Count, Is.EqualTo(4));
+Assert.That(imageData.Borders[0].Color, Is.EqualTo(Color.Empty));
 
 // This image does not link to another shape or image file in the local file system.
-Assert.False(imageData.IsLink);
-Assert.False(imageData.IsLinkOnly);
+Assert.That(imageData.IsLink, Is.False);
+Assert.That(imageData.IsLinkOnly, Is.False);
 
 // The "Brightness" and "Contrast" properties define image brightness and contrast
 // on a 0-1 scale, with the default value at 0.5.

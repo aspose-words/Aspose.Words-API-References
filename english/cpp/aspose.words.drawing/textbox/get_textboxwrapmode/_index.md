@@ -27,11 +27,11 @@ The default value is [Square](../../textboxwrapmode/).
 
 Shows how to set a wrapping mode for the contents of a text box. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Shape> textBoxShape = builder->InsertShape(ShapeType::TextBox, 300, 300);
-SharedPtr<TextBox> textBox = textBoxShape->get_TextBox();
+System::SharedPtr<Aspose::Words::Drawing::Shape> textBoxShape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 300, 300);
+System::SharedPtr<Aspose::Words::Drawing::TextBox> textBox = textBoxShape->get_TextBox();
 
 // Set the "TextBoxWrapMode" property to "TextBoxWrapMode.None" to increase the text box's width
 // to accommodate text, should it be large enough.
@@ -43,7 +43,7 @@ builder->MoveTo(textBoxShape->get_LastParagraph());
 builder->get_Font()->set_Size(32);
 builder->Write(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 
-doc->Save(ArtifactsDir + u"Shape.TextBoxContentsWrapMode.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.TextBoxContentsWrapMode.docx");
 ```
 
 ## See Also

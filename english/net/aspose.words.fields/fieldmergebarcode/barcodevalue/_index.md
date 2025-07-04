@@ -35,8 +35,8 @@ field.DisplayText = true;
 field.PosCodeStyle = "CASE";
 field.FixCheckDigit = true;
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyEAN13Barcode EAN13 \\t \\p CASE \\x"));
 builder.Writeln();
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
@@ -49,12 +49,10 @@ table.Rows.Add(new[] { "123456789012" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x",
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"501234567890\" EAN13 \\t \\p CASE \\x"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"123456789012\" EAN13 \\t \\p CASE \\x"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.EAN13.docx");
 ```
@@ -79,9 +77,8 @@ field.ScalingFactor = "250";
 field.SymbolHeight = "1000";
 field.SymbolRotation = "0";
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-    field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0"));
 builder.Writeln();
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
@@ -94,12 +91,10 @@ table.Rows.Add(new[] { "DEF456" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B", 
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ```

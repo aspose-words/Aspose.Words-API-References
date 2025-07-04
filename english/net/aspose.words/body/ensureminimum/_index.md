@@ -40,7 +40,7 @@ Body body = new Body(doc);
 section.AppendChild(body);
 
 // This body has no children, so we cannot add runs to it yet.
-Assert.AreEqual(0, doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(doc.FirstSection.Body.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
 
 // Call the "EnsureMinimum" to make sure that this body contains at least one empty paragraph. 
 body.EnsureMinimum();
@@ -48,7 +48,7 @@ body.EnsureMinimum();
 // Now, we can add runs to the body, and get the document to display them.
 body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

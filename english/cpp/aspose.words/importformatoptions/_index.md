@@ -20,7 +20,7 @@ class ImportFormatOptions : public System::Object
 
 | Method | Description |
 | --- | --- |
-| [get_AdjustSentenceAndWordSpacing](./get_adjustsentenceandwordspacing/)() const | Gets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
+| [get_AdjustSentenceAndWordSpacing](./get_adjustsentenceandwordspacing/)() const | Gets or sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
 | [get_ForceCopyStyles](./get_forcecopystyles/)() const | Gets or sets a boolean value indicating either to copy conflicting styles in [KeepSourceFormatting](../importformatmode/) mode. The default value is **false**. |
 | [get_IgnoreHeaderFooter](./get_ignoreheaderfooter/)() const | Gets or sets a boolean value that specifies that source formatting of headers/footers content ignored if [KeepSourceFormatting](../importformatmode/) mode is used. The default value is **true**. |
 | [get_IgnoreTextBoxes](./get_ignoretextboxes/)() const | Gets or sets a boolean value that specifies that source formatting of textboxes content ignored if [KeepSourceFormatting](../importformatmode/) mode is used. The default value is **true**. |
@@ -30,7 +30,7 @@ class ImportFormatOptions : public System::Object
 | [GetType](./gettype/)() const override |  |
 | [ImportFormatOptions](./importformatoptions/)() |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_AdjustSentenceAndWordSpacing](./set_adjustsentenceandwordspacing/)(bool) | Sets a boolean value that specifies whether to adjust sentence and word spacing automatically. The default value is **false**. |
+| [set_AdjustSentenceAndWordSpacing](./set_adjustsentenceandwordspacing/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_AdjustSentenceAndWordSpacing](./get_adjustsentenceandwordspacing/). |
 | [set_ForceCopyStyles](./set_forcecopystyles/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_ForceCopyStyles](./get_forcecopystyles/). |
 | [set_IgnoreHeaderFooter](./set_ignoreheaderfooter/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreHeaderFooter](./get_ignoreheaderfooter/). |
 | [set_IgnoreTextBoxes](./set_ignoretextboxes/)(bool) | Setter for [Aspose::Words::ImportFormatOptions::get_IgnoreTextBoxes](./get_ignoretextboxes/). |
@@ -45,10 +45,10 @@ class ImportFormatOptions : public System::Object
 
 Shows how to resolve duplicate styles while inserting documents. 
 ```cpp
-auto dstDoc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(dstDoc);
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 
-SharedPtr<Style> myStyle = builder->get_Document()->get_Styles()->Add(StyleType::Paragraph, u"MyStyle");
+System::SharedPtr<Aspose::Words::Style> myStyle = builder->get_Document()->get_Styles()->Add(Aspose::Words::StyleType::Paragraph, u"MyStyle");
 myStyle->get_Font()->set_Size(14);
 myStyle->get_Font()->set_Name(u"Courier New");
 myStyle->get_Font()->set_Color(System::Drawing::Color::get_Blue());
@@ -58,18 +58,18 @@ builder->Writeln(u"Hello world!");
 
 // Clone the document and edit the clone's "MyStyle" style, so it is a different color than that of the original.
 // If we insert the clone into the original document, the two styles with the same name will cause a clash.
-SharedPtr<Document> srcDoc = dstDoc->Clone();
+System::SharedPtr<Aspose::Words::Document> srcDoc = dstDoc->Clone();
 srcDoc->get_Styles()->idx_get(u"MyStyle")->get_Font()->set_Color(System::Drawing::Color::get_Red());
 
 // When we enable SmartStyleBehavior and use the KeepSourceFormatting import format mode,
 // Aspose.Words will resolve style clashes by converting source document styles.
 // with the same names as destination styles into direct paragraph attributes.
-auto options = MakeObject<ImportFormatOptions>();
+auto options = System::MakeObject<Aspose::Words::ImportFormatOptions>();
 options->set_SmartStyleBehavior(true);
 
-builder->InsertDocument(srcDoc, ImportFormatMode::KeepSourceFormatting, options);
+builder->InsertDocument(srcDoc, Aspose::Words::ImportFormatMode::KeepSourceFormatting, options);
 
-dstDoc->Save(ArtifactsDir + u"DocumentBuilder.SmartStyleBehavior.docx");
+dstDoc->Save(get_ArtifactsDir() + u"DocumentBuilder.SmartStyleBehavior.docx");
 ```
 
 ## See Also

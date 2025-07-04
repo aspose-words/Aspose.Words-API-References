@@ -37,12 +37,12 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 Shows how to insert checkboxes into the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert checkboxes of varying sizes and default checked statuses.
 builder->Write(u"Unchecked check box of a default size: ");
-builder->InsertCheckBox(String::Empty, false, false, 0);
+builder->InsertCheckBox(System::String::Empty, false, false, 0);
 builder->InsertParagraph();
 
 builder->Write(u"Large checked check box: ");
@@ -56,7 +56,7 @@ builder->InsertCheckBox(u"CheckBox_OnlyCheckedValue", true, 100);
 ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2)->get_Name());
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCheckBox.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCheckBox.docx");
 ```
 
 ## See Also
@@ -96,12 +96,12 @@ If you specify a name for the form field, then a bookmark is automatically creat
 
 Shows how to insert checkboxes into the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert checkboxes of varying sizes and default checked statuses.
 builder->Write(u"Unchecked check box of a default size: ");
-builder->InsertCheckBox(String::Empty, false, false, 0);
+builder->InsertCheckBox(System::String::Empty, false, false, 0);
 builder->InsertParagraph();
 
 builder->Write(u"Large checked check box: ");
@@ -115,7 +115,7 @@ builder->InsertCheckBox(u"CheckBox_OnlyCheckedValue", true, 100);
 ASSERT_EQ(u"CheckBox_OnlyChecked", doc->get_Range()->get_FormFields()->idx_get(2)->get_Name());
 
 // We can interact with these check boxes in Microsoft Word by double clicking them.
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertCheckBox.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertCheckBox.docx");
 ```
 
 ## See Also

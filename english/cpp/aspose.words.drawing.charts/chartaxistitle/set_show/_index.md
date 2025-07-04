@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Show method
 linktitle: set_Show
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Show method. Determines whether the title shall be shown for the axis. The default value is false in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Show method. Setter for Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show in C++.'
 type: docs
 weight: 10000
 url: /cpp/aspose.words.drawing.charts/chartaxistitle/set_show/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartaxistitle/set_show/
 ## ChartAxisTitle::set_Show method
 
 
-Determines whether the title shall be shown for the axis. The default value is **false**.
+Setter for [Aspose::Words::Drawing::Charts::ChartAxisTitle::get_Show](../get_show/).
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartAxisTitle::set_Show(bool value)

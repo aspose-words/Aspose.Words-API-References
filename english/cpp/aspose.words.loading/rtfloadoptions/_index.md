@@ -57,11 +57,11 @@ class RtfLoadOptions : public Aspose::Words::Loading::LoadOptions
 | [set_PreserveIncludePictureField](../loadoptions/set_preserveincludepicturefield/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_PreserveIncludePictureField](../loadoptions/get_preserveincludepicturefield/). |
 | [set_ProgressCallback](../loadoptions/set_progresscallback/)(const System::SharedPtr\<Aspose::Words::Loading::IDocumentLoadingCallback\>\&) | Called during loading a document and accepts data about loading progress. |
 | [set_RecognizeUtf8Text](./set_recognizeutf8text/)(bool) | Setter for [Aspose::Words::Loading::RtfLoadOptions::get_RecognizeUtf8Text](./get_recognizeutf8text/). |
-| [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_ResourceLoadingCallback](../loadoptions/get_resourceloadingcallback/). |
+| [set_ResourceLoadingCallback](../loadoptions/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources (images, style sheets) are loaded when a document is imported from HTML, MHTML. |
 | [set_TempFolder](../loadoptions/set_tempfolder/)(const System::String\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_TempFolder](../loadoptions/get_tempfolder/). |
-| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Specifies whether to update the fields with the **dirty** attribute. |
+| [set_UpdateDirtyFields](../loadoptions/set_updatedirtyfields/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../loadoptions/get_updatedirtyfields/). |
 | [set_UseSystemLcid](../loadoptions/set_usesystemlcid/)(bool) | Setter for [Aspose::Words::Loading::LoadOptions::get_UseSystemLcid](../loadoptions/get_usesystemlcid/). |
-| [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::Loading::LoadOptions::get_WarningCallback](../loadoptions/get_warningcallback/). |
+| [set_WarningCallback](../loadoptions/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during a load operation, when an issue is detected that might result in data or formatting fidelity loss. |
 | static [Type](./type/)() |  |
 
 ## Examples
@@ -71,18 +71,16 @@ class RtfLoadOptions : public Aspose::Words::Loading::LoadOptions
 Shows how to detect UTF-8 characters while loading an RTF document. 
 ```cpp
 // Create an "RtfLoadOptions" object to modify how we load an RTF document.
-auto loadOptions = MakeObject<RtfLoadOptions>();
+auto loadOptions = System::MakeObject<Aspose::Words::Loading::RtfLoadOptions>();
 
 // Set the "RecognizeUtf8Text" property to "false" to assume that the document uses the ISO 8859-1 charset
 // and loads every character in the document.
 // Set the "RecognizeUtf8Text" property to "true" to parse any variable-length characters that may occur in the text.
 loadOptions->set_RecognizeUtf8Text(recognizeUtf8Text);
 
-auto doc = MakeObject<Document>(MyDir + u"UTF-8 characters.rtf", loadOptions);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"UTF-8 characters.rtf", loadOptions);
 
-ASSERT_EQ(recognizeUtf8Text ? String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤"
-                            : String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤",
-          doc->get_FirstSection()->get_Body()->GetText().Trim());
+ASSERT_EQ(recognizeUtf8Text ? System::String(u"“John Doe´s list of currency symbols”™\r") + u"€, ¢, £, ¥, ¤" : System::String(u"â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r") + u"â‚¬, Â¢, Â£, Â¥, Â¤", doc->get_FirstSection()->get_Body()->GetText().Trim());
 ```
 
 ## See Also

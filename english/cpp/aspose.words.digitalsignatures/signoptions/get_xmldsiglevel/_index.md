@@ -16,6 +16,22 @@ Specifies the level of a digital signature based on XML-DSig standard. The defau
 Aspose::Words::DigitalSignatures::XmlDsigLevel Aspose::Words::DigitalSignatures::SignOptions::get_XmlDsigLevel() const
 ```
 
+
+## Examples
+
+
+
+Shows how to sign document based on XML-DSig standard. 
+```cpp
+System::SharedPtr<Aspose::Words::DigitalSignatures::CertificateHolder> certificateHolder = Aspose::Words::DigitalSignatures::CertificateHolder::Create(get_MyDir() + u"morzal.pfx", u"aw");
+auto signOptions = System::MakeObject<Aspose::Words::DigitalSignatures::SignOptions>();
+signOptions->set_XmlDsigLevel(Aspose::Words::DigitalSignatures::XmlDsigLevel::XAdEsEpes);
+
+System::String inputFileName = get_MyDir() + u"Document.docx";
+System::String outputFileName = get_ArtifactsDir() + u"DigitalSignatureUtil.XmlDsig.docx";
+Aspose::Words::DigitalSignatures::DigitalSignatureUtil::Sign(inputFileName, outputFileName, certificateHolder, signOptions);
+```
+
 ## See Also
 
 * Enum [XmlDsigLevel](../../xmldsiglevel/)

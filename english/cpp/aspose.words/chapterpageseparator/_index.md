@@ -27,6 +27,21 @@ enum class ChapterPageSeparator
 | EnDash | 4 | A standard dash. |
 
 
+## Examples
+
+
+
+Shows how to work with page chapters. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Big document.docx");
+
+System::SharedPtr<Aspose::Words::PageSetup> pageSetup = doc->get_FirstSection()->get_PageSetup();
+
+pageSetup->set_PageNumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+pageSetup->set_ChapterPageSeparator(Aspose::Words::ChapterPageSeparator::Colon);
+pageSetup->set_HeadingLevelForChapter(1);
+```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

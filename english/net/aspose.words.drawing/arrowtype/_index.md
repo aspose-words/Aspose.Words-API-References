@@ -5,7 +5,7 @@ articleTitle: ArrowType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.ArrowType enum to customize arrow styles for line ends, enhancing your document's visual appeal and precision.
 type: docs
-weight: 730
+weight: 720
 url: /net/aspose.words.drawing/arrowtype/
 ---
 ## ArrowType enumeration
@@ -51,7 +51,7 @@ arrow.Stroke.EndArrowWidth = ArrowWidth.Wide;
 arrow.Stroke.DashStyle = DashStyle.Dash;
 arrow.Stroke.Opacity = 0.5;
 
-Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
+Assert.That(arrow.Stroke.JoinStyle, Is.EqualTo(JoinStyle.Miter));
 
 builder.InsertNode(arrow);
 

@@ -34,8 +34,8 @@ StructuredDocumentTag tag = new StructuredDocumentTag(doc, SdtType.PlainText, Ma
 doc.FirstSection.Body.AppendChild(tag);
 
 // This structured document tag, which is in the form of a text box, already displays placeholder text.
-Assert.AreEqual("Click here to enter text.", tag.GetText().Trim());
-Assert.True(tag.IsShowingPlaceholderText);
+Assert.That(tag.GetText().Trim(), Is.EqualTo("Click here to enter text."));
+Assert.That(tag.IsShowingPlaceholderText, Is.True);
 
 // Create a building block with text contents.
 GlossaryDocument glossaryDoc = doc.GlossaryDocument;
@@ -50,21 +50,21 @@ glossaryDoc.AppendChild(substituteBlock);
 // the structured document tag to display the contents of the building block in place of the original default text.
 tag.PlaceholderName = "My placeholder";
 
-Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
-Assert.True(tag.IsShowingPlaceholderText);
+Assert.That(tag.GetText().Trim(), Is.EqualTo("Custom placeholder text."));
+Assert.That(tag.IsShowingPlaceholderText, Is.True);
 
 // Edit the text of the structured document tag and hide the placeholder text.
 Run run = (Run)tag.GetChild(NodeType.Run, 0, true);
 run.Text = "New text.";
 tag.IsShowingPlaceholderText = false;
 
-Assert.AreEqual("New text.", tag.GetText().Trim());
+Assert.That(tag.GetText().Trim(), Is.EqualTo("New text."));
 
 // Use the "Clear" method to clear this structured document tag's contents and display the placeholder again.
 tag.Clear();
 
-Assert.True(tag.IsShowingPlaceholderText);
-Assert.AreEqual("Custom placeholder text.", tag.GetText().Trim());
+Assert.That(tag.IsShowingPlaceholderText, Is.True);
+Assert.That(tag.GetText().Trim(), Is.EqualTo("Custom placeholder text."));
 ```
 
 ### See Also

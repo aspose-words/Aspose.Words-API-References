@@ -38,24 +38,24 @@ builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Aspose.Words does not track document metrics like these in real time.
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(1));
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 // To get accurate values for three of these properties, we will need to update them manually.
 doc.UpdateWordCount();
 
-Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(196));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(36));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(2));
 
 // For the line count, we will need to call a specific overload of the updating method.
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 doc.UpdateWordCount(true);
 
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(4));
 ```
 
 ### See Also
@@ -96,24 +96,24 @@ builder.Write("Ut enim ad minim veniam, " +
                 "quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.");
 
 // Aspose.Words does not track document metrics like these in real time.
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(0, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Paragraphs);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(0));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(1));
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 // To get accurate values for three of these properties, we will need to update them manually.
 doc.UpdateWordCount();
 
-Assert.AreEqual(196, doc.BuiltInDocumentProperties.Characters);
-Assert.AreEqual(36, doc.BuiltInDocumentProperties.Words);
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Paragraphs);
+Assert.That(doc.BuiltInDocumentProperties.Characters, Is.EqualTo(196));
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(36));
+Assert.That(doc.BuiltInDocumentProperties.Paragraphs, Is.EqualTo(2));
 
 // For the line count, we will need to call a specific overload of the updating method.
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(1));
 
 doc.UpdateWordCount(true);
 
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Lines);
+Assert.That(doc.BuiltInDocumentProperties.Lines, Is.EqualTo(4));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: CompatibilityOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Settings.CompatibilityOptions for seamless integration of user preferences from Microsoft Word's Compatibility tab. Enhance your document experience!
 type: docs
-weight: 6620
+weight: 6610
 url: /net/aspose.words.settings/compatibilityoptions/
 ---
 ## CompatibilityOptions class
@@ -137,7 +137,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 doc.CompatibilityOptions.OptimizeFor(MsWordVersion.Word2003);
 builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-Assert.AreEqual(ShapeMarkupLanguage.Vml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Vml));
 
 // The "ISO/IEC 29500:2008" OOXML standard does not support VML shapes.
 // If we set the "Compliance" property of the SaveOptions object to "OoxmlCompliance.Iso29500_2008_Strict",
@@ -153,7 +153,7 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx", saveOptions);
 // Our saved document defines the shape using DML to adhere to the "ISO/IEC 29500:2008" OOXML standard.
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.Iso29500Strict.docx");
 
-Assert.AreEqual(ShapeMarkupLanguage.Dml, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage);
+Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
 ```
 
 Shows how to optimize the document for different versions of Microsoft Word.

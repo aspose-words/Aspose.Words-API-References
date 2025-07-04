@@ -33,7 +33,7 @@ Shows how to work with a document's custom properties.
 Document doc = new Document();
 CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties.Add("Authorized", true);
@@ -43,8 +43,8 @@ properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumb
 properties.Add("Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
-Assert.AreEqual(5, properties.Count);
+Assert.That(properties.IndexOf("Authorized Amount"), Is.EqualTo(1));
+Assert.That(properties.Count, Is.EqualTo(5));
 
 // Print every custom property in the document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
@@ -58,7 +58,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
@@ -67,19 +67,19 @@ doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 // 1 -  Remove by index:
 properties.RemoveAt(1);
 
-Assert.False(properties.Contains("Authorized Amount"));
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Contains("Authorized Amount"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 // 2 -  Remove by name:
 properties.Remove("Authorized Revision");
 
-Assert.False(properties.Contains("Authorized Revision"));
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Contains("Authorized Revision"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 3 -  Empty the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also
@@ -116,7 +116,7 @@ Shows how to work with a document's custom properties.
 Document doc = new Document();
 CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties.Add("Authorized", true);
@@ -126,8 +126,8 @@ properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumb
 properties.Add("Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
-Assert.AreEqual(5, properties.Count);
+Assert.That(properties.IndexOf("Authorized Amount"), Is.EqualTo(1));
+Assert.That(properties.Count, Is.EqualTo(5));
 
 // Print every custom property in the document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
@@ -141,7 +141,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
@@ -150,19 +150,19 @@ doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 // 1 -  Remove by index:
 properties.RemoveAt(1);
 
-Assert.False(properties.Contains("Authorized Amount"));
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Contains("Authorized Amount"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 // 2 -  Remove by name:
 properties.Remove("Authorized Revision");
 
-Assert.False(properties.Contains("Authorized Revision"));
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Contains("Authorized Revision"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 3 -  Empty the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also
@@ -209,7 +209,7 @@ Shows how to work with a document's custom properties.
 Document doc = new Document();
 CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties.Add("Authorized", true);
@@ -219,8 +219,8 @@ properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumb
 properties.Add("Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
-Assert.AreEqual(5, properties.Count);
+Assert.That(properties.IndexOf("Authorized Amount"), Is.EqualTo(1));
+Assert.That(properties.Count, Is.EqualTo(5));
 
 // Print every custom property in the document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
@@ -234,7 +234,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
@@ -243,19 +243,19 @@ doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 // 1 -  Remove by index:
 properties.RemoveAt(1);
 
-Assert.False(properties.Contains("Authorized Amount"));
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Contains("Authorized Amount"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 // 2 -  Remove by name:
 properties.Remove("Authorized Revision");
 
-Assert.False(properties.Contains("Authorized Revision"));
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Contains("Authorized Revision"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 3 -  Empty the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also
@@ -292,7 +292,7 @@ Shows how to work with a document's custom properties.
 Document doc = new Document();
 CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties.Add("Authorized", true);
@@ -302,8 +302,8 @@ properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumb
 properties.Add("Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
-Assert.AreEqual(5, properties.Count);
+Assert.That(properties.IndexOf("Authorized Amount"), Is.EqualTo(1));
+Assert.That(properties.Count, Is.EqualTo(5));
 
 // Print every custom property in the document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
@@ -317,7 +317,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
@@ -326,19 +326,19 @@ doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 // 1 -  Remove by index:
 properties.RemoveAt(1);
 
-Assert.False(properties.Contains("Authorized Amount"));
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Contains("Authorized Amount"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 // 2 -  Remove by name:
 properties.Remove("Authorized Revision");
 
-Assert.False(properties.Contains("Authorized Revision"));
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Contains("Authorized Revision"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 3 -  Empty the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also
@@ -375,7 +375,7 @@ Shows how to work with a document's custom properties.
 Document doc = new Document();
 CustomDocumentProperties properties = doc.CustomDocumentProperties;
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 
 // Custom document properties are key-value pairs that we can add to the document.
 properties.Add("Authorized", true);
@@ -385,8 +385,8 @@ properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumb
 properties.Add("Authorized Amount", 123.45);
 
 // The collection sorts the custom properties in alphabetic order.
-Assert.AreEqual(1, properties.IndexOf("Authorized Amount"));
-Assert.AreEqual(5, properties.Count);
+Assert.That(properties.IndexOf("Authorized Amount"), Is.EqualTo(1));
+Assert.That(properties.Count, Is.EqualTo(5));
 
 // Print every custom property in the document.
 using (IEnumerator<DocumentProperty> enumerator = properties.GetEnumerator())
@@ -400,7 +400,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldDocProperty field = (FieldDocProperty)builder.InsertField(" DOCPROPERTY \"Authorized By\"");
 field.Update();
 
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // We can find these custom properties in Microsoft Word via "File" -> "Properties" > "Advanced Properties" > "Custom".
 doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
@@ -409,19 +409,19 @@ doc.Save(ArtifactsDir + "DocumentProperties.DocumentPropertyCollection.docx");
 // 1 -  Remove by index:
 properties.RemoveAt(1);
 
-Assert.False(properties.Contains("Authorized Amount"));
-Assert.AreEqual(4, properties.Count);
+Assert.That(properties.Contains("Authorized Amount"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(4));
 
 // 2 -  Remove by name:
 properties.Remove("Authorized Revision");
 
-Assert.False(properties.Contains("Authorized Revision"));
-Assert.AreEqual(3, properties.Count);
+Assert.That(properties.Contains("Authorized Revision"), Is.False);
+Assert.That(properties.Count, Is.EqualTo(3));
 
 // 3 -  Empty the entire collection at once:
 properties.Clear();
 
-Assert.AreEqual(0, properties.Count);
+Assert.That(properties.Count, Is.EqualTo(0));
 ```
 
 ### See Also

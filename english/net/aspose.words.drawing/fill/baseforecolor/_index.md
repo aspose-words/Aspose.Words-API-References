@@ -30,14 +30,14 @@ shape.Fill.ForeTintAndShade = 0.5;
 shape.Stroke.Fill.ForeColor = Color.Green;
 shape.Stroke.Fill.Transparency = 0.5;
 
-Assert.AreEqual(Color.FromArgb(255, 255, 188, 188).ToArgb(), shape.Fill.ForeColor.ToArgb());
-Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.BaseForeColor.ToArgb());
+Assert.That(shape.Fill.ForeColor.ToArgb(), Is.EqualTo(Color.FromArgb(255, 255, 188, 188).ToArgb()));
+Assert.That(shape.Fill.BaseForeColor.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
 
-Assert.AreEqual(Color.FromArgb(128, 0, 128, 0).ToArgb(), shape.Stroke.ForeColor.ToArgb());
-Assert.AreEqual(Color.Green.ToArgb(), shape.Stroke.BaseForeColor.ToArgb());
+Assert.That(shape.Stroke.ForeColor.ToArgb(), Is.EqualTo(Color.FromArgb(128, 0, 128, 0).ToArgb()));
+Assert.That(shape.Stroke.BaseForeColor.ToArgb(), Is.EqualTo(Color.Green.ToArgb()));
 
-Assert.AreEqual(Color.Green.ToArgb(), shape.Stroke.Fill.ForeColor.ToArgb());
-Assert.AreEqual(Color.Green.ToArgb(), shape.Stroke.Fill.BaseForeColor.ToArgb());
+Assert.That(shape.Stroke.Fill.ForeColor.ToArgb(), Is.EqualTo(Color.Green.ToArgb()));
+Assert.That(shape.Stroke.Fill.BaseForeColor.ToArgb(), Is.EqualTo(Color.Green.ToArgb()));
 ```
 
 ### See Also

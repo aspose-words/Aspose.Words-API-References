@@ -23,21 +23,21 @@ bool Aspose::Words::Fields::FieldChar::get_IsDirty() const
 
 Shows how to work with a [FieldStart](../../fieldstart/) node. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-auto field = System::ExplicitCast<FieldDate>(builder->InsertField(FieldType::FieldDate, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDate, true));
 field->get_Format()->set_DateTimeFormat(u"dddd, MMMM dd, yyyy");
 field->Update();
 
-SharedPtr<FieldChar> fieldStart = field->get_Start();
+System::SharedPtr<Aspose::Words::Fields::FieldChar> fieldStart = field->get_Start();
 
-ASSERT_EQ(FieldType::FieldDate, fieldStart->get_FieldType());
+ASSERT_EQ(Aspose::Words::Fields::FieldType::FieldDate, fieldStart->get_FieldType());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsDirty());
 ASPOSE_ASSERT_EQ(false, fieldStart->get_IsLocked());
 
 // Retrieve the facade object which represents the field in the document.
-field = System::ExplicitCast<FieldDate>(fieldStart->GetField());
+field = System::ExplicitCast<Aspose::Words::Fields::FieldDate>(fieldStart->GetField());
 
 ASPOSE_ASSERT_EQ(false, field->get_IsLocked());
 ASSERT_EQ(u" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field->GetFieldCode());

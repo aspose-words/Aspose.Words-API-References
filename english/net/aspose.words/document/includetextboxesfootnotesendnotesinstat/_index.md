@@ -29,12 +29,12 @@ builder.InsertFootnote(FootnoteType.Footnote, "sit amet");
 // By default option is set to 'false'.
 doc.UpdateWordCount();
 // Words count without textboxes, footnotes and endnotes.
-Assert.AreEqual(2, doc.BuiltInDocumentProperties.Words);
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(2));
 
 doc.IncludeTextboxesFootnotesEndnotesInStat = true;
 doc.UpdateWordCount();
 // Words count with textboxes, footnotes and endnotes.
-Assert.AreEqual(4, doc.BuiltInDocumentProperties.Words);
+Assert.That(doc.BuiltInDocumentProperties.Words, Is.EqualTo(4));
 ```
 
 ### See Also

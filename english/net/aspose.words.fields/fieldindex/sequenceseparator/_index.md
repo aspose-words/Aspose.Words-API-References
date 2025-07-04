@@ -40,9 +40,9 @@ index.SequenceName = "MySequence";
 // PageNumberSeparator and SequenceSeparator cannot be longer than 15 characters.
 index.PageNumberSeparator = "\tMySequence at ";
 index.SequenceSeparator = " on page ";
-Assert.IsTrue(index.HasSequenceName);
+Assert.That(index.HasSequenceName, Is.True);
 
-Assert.AreEqual(" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \"", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\s MySequence \\e \"\tMySequence at \" \\d \" on page \""));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -53,7 +53,7 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldSeq sequenceField = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 sequenceField.SequenceIdentifier = "MySequence";
 
-Assert.AreEqual(" SEQ  MySequence", sequenceField.GetFieldCode());
+Assert.That(sequenceField.GetFieldCode(), Is.EqualTo(" SEQ  MySequence"));
 
 // Insert an XE field which will create an entry in the INDEX field.
 // Since "MySequence" is at 1 and this XE field is on page 2, along with the custom separators we defined above,
@@ -61,7 +61,7 @@ Assert.AreEqual(" SEQ  MySequence", sequenceField.GetFieldCode());
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Cat";
 
-Assert.AreEqual(" XE  Cat", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  Cat"));
 
 // Insert a page break and use SEQ fields to advance "MySequence" to 3.
 builder.InsertBreak(BreakType.PageBreak);

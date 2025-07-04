@@ -23,13 +23,13 @@ bool Aspose::Words::Saving::PclSaveOptions::get_RasterizeTransformedElements() c
 
 Shows how to rasterize complex elements while saving a document to PCL. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
-auto saveOptions = MakeObject<PclSaveOptions>();
-saveOptions->set_SaveFormat(SaveFormat::Pcl);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::PclSaveOptions>();
+saveOptions->set_SaveFormat(Aspose::Words::SaveFormat::Pcl);
 saveOptions->set_RasterizeTransformedElements(true);
 
-doc->Save(ArtifactsDir + u"PclSaveOptions.RasterizeElements.pcl", saveOptions);
+doc->Save(get_ArtifactsDir() + u"PclSaveOptions.RasterizeElements.pcl", saveOptions);
 ```
 
 ## See Also

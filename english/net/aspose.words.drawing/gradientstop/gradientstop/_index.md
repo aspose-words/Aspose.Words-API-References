@@ -53,16 +53,16 @@ gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
-Assert.AreEqual(2, gradientStops.Count);
+Assert.That(gradientStops.Count, Is.EqualTo(2));
 
-Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
-Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
-Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
-Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);
+Assert.That(gradientStops[0].BaseColor, Is.EqualTo(Color.FromArgb(255, 0, 255, 255)));
+Assert.That(gradientStops[0].Color.ToArgb(), Is.EqualTo(Color.Aqua.ToArgb()));
+Assert.That(gradientStops[0].Position, Is.EqualTo(0.1d).Within(0.01d));
+Assert.That(gradientStops[0].Transparency, Is.EqualTo(0.25d).Within(0.01d));
 
-Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
-Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
-Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
+Assert.That(gradientStops[1].Color.ToArgb(), Is.EqualTo(Color.Chocolate.ToArgb()));
+Assert.That(gradientStops[1].Position, Is.EqualTo(0.75d).Within(0.01d));
+Assert.That(gradientStops[1].Transparency, Is.EqualTo(0.3d).Within(0.01d));
 
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.
@@ -125,16 +125,16 @@ gradientStops.Insert(1, new GradientStop(Color.Chocolate, 0.75, 0.3));
 gradientStop = gradientStops[2];
 gradientStops.Remove(gradientStop);
 
-Assert.AreEqual(2, gradientStops.Count);
+Assert.That(gradientStops.Count, Is.EqualTo(2));
 
-Assert.AreEqual(Color.FromArgb(255, 0, 255, 255), gradientStops[0].BaseColor);
-Assert.AreEqual(Color.Aqua.ToArgb(), gradientStops[0].Color.ToArgb());
-Assert.AreEqual(0.1d, gradientStops[0].Position, 0.01d);
-Assert.AreEqual(0.25d, gradientStops[0].Transparency, 0.01d);
+Assert.That(gradientStops[0].BaseColor, Is.EqualTo(Color.FromArgb(255, 0, 255, 255)));
+Assert.That(gradientStops[0].Color.ToArgb(), Is.EqualTo(Color.Aqua.ToArgb()));
+Assert.That(gradientStops[0].Position, Is.EqualTo(0.1d).Within(0.01d));
+Assert.That(gradientStops[0].Transparency, Is.EqualTo(0.25d).Within(0.01d));
 
-Assert.AreEqual(Color.Chocolate.ToArgb(), gradientStops[1].Color.ToArgb());
-Assert.AreEqual(0.75d, gradientStops[1].Position, 0.01d);
-Assert.AreEqual(0.3d, gradientStops[1].Transparency, 0.01d);
+Assert.That(gradientStops[1].Color.ToArgb(), Is.EqualTo(Color.Chocolate.ToArgb()));
+Assert.That(gradientStops[1].Position, Is.EqualTo(0.75d).Within(0.01d));
+Assert.That(gradientStops[1].Transparency, Is.EqualTo(0.3d).Within(0.01d));
 
 // Use the compliance option to define the shape using DML
 // if you want to get "GradientStops" property after the document saves.

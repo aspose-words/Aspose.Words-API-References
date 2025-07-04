@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_StateOrProvince method
 linktitle: set_StateOrProvince
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_StateOrProvince method. Sets the state or province of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_StateOrProvince method. Setter for Aspose::Words::Bibliography::Source::get_StateOrProvince in C++.'
 type: docs
 weight: 98000
 url: /cpp/aspose.words.bibliography/source/set_stateorprovince/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_stateorprovince/
 ## Source::set_StateOrProvince method
 
 
-Sets the state or province of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_StateOrProvince](../get_stateorprovince/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_StateOrProvince(const System::String &value)

@@ -44,13 +44,13 @@ builder.CurrentParagraph.AppendChild(comment);
 comment.AddReply("Joe Bloggs", "J.B.", DateTime.Now, "New reply");
 
 // Comments and replies are both Comment nodes.
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Comment, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Comment, true).Count, Is.EqualTo(2));
 
 // Comments that do not reply to other comments are "top-level". They have no ancestor comments.
-Assert.Null(comment.Ancestor);
+Assert.That(comment.Ancestor, Is.Null);
 
 // Replies have an ancestor top-level comment.
-Assert.AreEqual(comment, comment.Replies[0].Ancestor);
+Assert.That(comment.Replies[0].Ancestor, Is.EqualTo(comment));
 
 doc.Save(ArtifactsDir + "Comment.AddCommentWithReply.docx");
 ```

@@ -5,7 +5,7 @@ articleTitle: FieldNumWords
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldNumWords class for easy word count management in documents. Enhance your text processing with this powerful feature!
 type: docs
-weight: 2640
+weight: 2630
 url: /net/aspose.words.fields/fieldnumwords/
 ---
 ## FieldNumWords class
@@ -82,10 +82,10 @@ FieldPage fieldPage = (FieldPage)builder.InsertField(FieldType.FieldPage, true);
 builder.Write(" of ");
 FieldNumPages fieldNumPages = (FieldNumPages)builder.InsertField(FieldType.FieldNumPages, true);
 
-Assert.AreEqual(" NUMCHARS ", fieldNumChars.GetFieldCode());
-Assert.AreEqual(" NUMWORDS ", fieldNumWords.GetFieldCode());
-Assert.AreEqual(" NUMPAGES ", fieldNumPages.GetFieldCode());
-Assert.AreEqual(" PAGE ", fieldPage.GetFieldCode());
+Assert.That(fieldNumChars.GetFieldCode(), Is.EqualTo(" NUMCHARS "));
+Assert.That(fieldNumWords.GetFieldCode(), Is.EqualTo(" NUMWORDS "));
+Assert.That(fieldNumPages.GetFieldCode(), Is.EqualTo(" NUMPAGES "));
+Assert.That(fieldPage.GetFieldCode(), Is.EqualTo(" PAGE "));
 
 // These fields will not maintain accurate values in real time
 // while we edit the document programmatically using Aspose.Words, or in Microsoft Word.

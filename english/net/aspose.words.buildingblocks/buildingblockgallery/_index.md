@@ -5,7 +5,7 @@ articleTitle: BuildingBlockGallery
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words BuildingBlockGallery enum, your guide to predefined galleries for efficient document management and organization. Enhance your workflow today!
 type: docs
-weight: 350
+weight: 340
 url: /net/aspose.words.buildingblocks/buildingblockgallery/
 ---
 ## BuildingBlockGallery enumeration
@@ -85,22 +85,21 @@ public void GlossaryDocument()
     BuildingBlock child5 = new BuildingBlock(glossaryDoc) { Name = "Block 5" };
     glossaryDoc.AppendChild(child5);
 
-    Assert.AreEqual(5, glossaryDoc.BuildingBlocks.Count);
+    Assert.That(glossaryDoc.BuildingBlocks.Count, Is.EqualTo(5));
 
     doc.GlossaryDocument = glossaryDoc;
 
     // There are various ways of accessing building blocks.
     // 1 -  Get the first/last building blocks in the collection:
-    Assert.AreEqual("Block 1", glossaryDoc.FirstBuildingBlock.Name);
-    Assert.AreEqual("Block 5", glossaryDoc.LastBuildingBlock.Name);
+    Assert.That(glossaryDoc.FirstBuildingBlock.Name, Is.EqualTo("Block 1"));
+    Assert.That(glossaryDoc.LastBuildingBlock.Name, Is.EqualTo("Block 5"));
 
     // 2 -  Get a building block by index:
-    Assert.AreEqual("Block 2", glossaryDoc.BuildingBlocks[1].Name);
-    Assert.AreEqual("Block 3", glossaryDoc.BuildingBlocks.ToArray()[2].Name);
+    Assert.That(glossaryDoc.BuildingBlocks[1].Name, Is.EqualTo("Block 2"));
+    Assert.That(glossaryDoc.BuildingBlocks.ToArray()[2].Name, Is.EqualTo("Block 3"));
 
     // 3 -  Get the first building block that matches a gallery, name and category:
-    Assert.AreEqual("Block 4", 
-        glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name);
+    Assert.That(glossaryDoc.GetBuildingBlock(BuildingBlockGallery.All, "(Empty Category)", "Block 4").Name, Is.EqualTo("Block 4"));
 
     // We will do that using a custom visitor,
     // which will give every BuildingBlock in the GlossaryDocument a unique GUID

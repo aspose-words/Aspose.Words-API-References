@@ -29,28 +29,27 @@ Has effect only for top level shapes, the property [WrapType](../get_wraptype/) 
 
 Shows how to determine how to display a shape in a table cell. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->InsertCell();
 builder->EndTable();
 
-auto tableStyle = System::ExplicitCast<TableStyle>(doc->get_Styles()->Add(StyleType::Table, u"MyTableStyle1"));
+auto tableStyle = System::ExplicitCast<Aspose::Words::TableStyle>(doc->get_Styles()->Add(Aspose::Words::StyleType::Table, u"MyTableStyle1"));
 tableStyle->set_BottomPadding(20);
 tableStyle->set_LeftPadding(10);
 tableStyle->set_RightPadding(10);
 tableStyle->set_TopPadding(20);
 tableStyle->get_Borders()->set_Color(System::Drawing::Color::get_Black());
-tableStyle->get_Borders()->set_LineStyle(LineStyle::Single);
+tableStyle->get_Borders()->set_LineStyle(Aspose::Words::LineStyle::Single);
 
 table->set_Style(tableStyle);
 
 builder->MoveTo(table->get_FirstRow()->get_FirstCell()->get_FirstParagraph());
 
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHorizontalPosition::LeftMargin, 50, RelativeVerticalPosition::TopMargin,
-                                              100, 100, 100, WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, Aspose::Words::Drawing::RelativeHorizontalPosition::LeftMargin, 50, Aspose::Words::Drawing::RelativeVerticalPosition::TopMargin, 100, 100, 100, Aspose::Words::Drawing::WrapType::None);
 
 // Set the "IsLayoutInCell" property to "true" to display the shape as an inline element inside the cell's paragraph.
 // The coordinate origin that will determine the shape's location will be the top left corner of the shape's cell.
@@ -61,9 +60,9 @@ SharedPtr<Shape> shape = builder->InsertShape(ShapeType::Rectangle, RelativeHori
 shape->set_IsLayoutInCell(isLayoutInCell);
 
 // We can only apply the "IsLayoutInCell" property to floating shapes.
-shape->set_WrapType(WrapType::None);
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
 
-doc->Save(ArtifactsDir + u"Shape.LayoutInTableCell.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.LayoutInTableCell.docx");
 ```
 
 ## See Also

@@ -31,7 +31,7 @@ using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(mdText)))
     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions() { PreserveEmptyLines = true };
     Document doc = new Document(stream, loadOptions);
 
-    Assert.AreEqual("\rLine1\r\rLine2\r\f", doc.GetText());
+    Assert.That(doc.GetText(), Is.EqualTo("\rLine1\r\rLine2\r\f"));
 }
 ```
 

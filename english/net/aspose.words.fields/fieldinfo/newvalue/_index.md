@@ -30,8 +30,8 @@ FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.Update();
 
-Assert.AreEqual(" INFO  Comments", field.GetFieldCode());
-Assert.AreEqual("My comment", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" INFO  Comments"));
+Assert.That(field.Result, Is.EqualTo("My comment"));
 
 builder.Writeln();
 
@@ -42,9 +42,9 @@ field.InfoType = "Comments";
 field.NewValue = "New comment";
 field.Update();
 
-Assert.AreEqual(" INFO  Comments \"New comment\"", field.GetFieldCode());
-Assert.AreEqual("New comment", field.Result);
-Assert.AreEqual("New comment", doc.BuiltInDocumentProperties.Comments);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" INFO  Comments \"New comment\""));
+Assert.That(field.Result, Is.EqualTo("New comment"));
+Assert.That(doc.BuiltInDocumentProperties.Comments, Is.EqualTo("New comment"));
 
 doc.Save(ArtifactsDir + "Field.INFO.docx");
 ```

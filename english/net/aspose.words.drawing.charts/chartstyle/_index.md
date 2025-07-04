@@ -5,7 +5,7 @@ articleTitle: ChartStyle
 second_title: Aspose.Words for .NET
 description: Apply predefined chart styles in Aspose.Words. Enhance visuals with ChartStyle enum for professional document formatting.
 type: docs
-weight: 1130
+weight: 1120
 url: /net/aspose.words.drawing.charts/chartstyle/
 ---
 ## ChartStyle enumeration
@@ -57,7 +57,7 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 Chart chart = shape.Chart;
 
 // Get the chart style.
-Assert.AreEqual(ChartStyle.Black, chart.Style);
+Assert.That(chart.Style, Is.EqualTo(ChartStyle.Black));
 ```
 
 ### See Also

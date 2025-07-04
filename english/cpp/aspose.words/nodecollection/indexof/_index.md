@@ -35,18 +35,18 @@ This method performs a linear search; therefore, the average execution time is p
 
 Shows how to get the index of a node in a collection. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
 
-SharedPtr<Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
-SharedPtr<NodeCollection> allTables = doc->GetChildNodes(NodeType::Table, true);
+System::SharedPtr<Aspose::Words::Tables::Table> table = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+System::SharedPtr<Aspose::Words::NodeCollection> allTables = doc->GetChildNodes(Aspose::Words::NodeType::Table, true);
 
 ASSERT_EQ(0, allTables->IndexOf(table));
 
-SharedPtr<Row> row = table->get_Rows()->idx_get(2);
+System::SharedPtr<Aspose::Words::Tables::Row> row = table->get_Rows()->idx_get(2);
 
 ASSERT_EQ(2, table->IndexOf(row));
 
-SharedPtr<Cell> cell = row->get_LastCell();
+System::SharedPtr<Aspose::Words::Tables::Cell> cell = row->get_LastCell();
 
 ASSERT_EQ(4, row->IndexOf(cell));
 ```

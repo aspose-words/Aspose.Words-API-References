@@ -63,18 +63,18 @@ You do not create instances of this class. You access the collection of XML sche
 
 Shows how to work with an XML schema collection. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-String xmlPartId = System::Guid::NewGuid().ToString(u"B");
-String xmlPartContent = u"<root><text>Hello, World!</text></root>";
-SharedPtr<CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
+System::String xmlPartId = System::Guid::NewGuid().ToString(u"B");
+System::String xmlPartContent = u"<root><text>Hello, World!</text></root>";
+System::SharedPtr<Aspose::Words::Markup::CustomXmlPart> xmlPart = doc->get_CustomXmlParts()->Add(xmlPartId, xmlPartContent);
 
 // Add an XML schema association.
 xmlPart->get_Schemas()->Add(u"http://www.w3.org/2001/XMLSchema");
 
 // Clone the custom XML part's XML schema association collection,
 // and then add a couple of new schemas to the clone.
-SharedPtr<CustomXmlSchemaCollection> schemas = xmlPart->get_Schemas()->Clone();
+System::SharedPtr<Aspose::Words::Markup::CustomXmlSchemaCollection> schemas = xmlPart->get_Schemas()->Clone();
 schemas->Add(u"http://www.w3.org/2001/XMLSchema-instance");
 schemas->Add(u"http://schemas.microsoft.com/office/2006/metadata/contentType");
 
@@ -83,7 +83,7 @@ ASSERT_EQ(2, schemas->IndexOf(u"http://schemas.microsoft.com/office/2006/metadat
 
 // Enumerate the schemas and print each element.
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<String>> enumerator = schemas->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> enumerator = schemas->GetEnumerator();
     while (enumerator->MoveNext())
     {
         std::cout << enumerator->get_Current() << std::endl;

@@ -48,7 +48,7 @@ builder.Writeln("This is page 2.");
 builder.InsertBreak(BreakType.PageBreak);
 builder.Writeln("This is page 3.");
 
-Assert.AreEqual(3, doc.PageCount);
+Assert.That(doc.PageCount, Is.EqualTo(3));
 
 // When we save the document as an image, Aspose.Words only renders the first page by default.
 // We can pass a SaveOptions object to specify a different page to render.

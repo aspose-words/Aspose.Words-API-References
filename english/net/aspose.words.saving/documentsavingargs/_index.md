@@ -5,7 +5,7 @@ articleTitle: DocumentSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DocumentSavingArgs class, essential for handling document saving events efficiently in your applications.
 type: docs
-weight: 5700
+weight: 5690
 url: /net/aspose.words.saving/documentsavingargs/
 ---
 ## DocumentSavingArgs class
@@ -41,7 +41,7 @@ public void ProgressCallback(SaveFormat saveFormat, string ext)
 
     var exception = Assert.Throws<OperationCanceledException>(() =>
         doc.Save(ArtifactsDir + $"HtmlSaveOptions.ProgressCallback.{ext}", saveOptions));
-    Assert.True(exception?.Message.Contains("EstimatedProgress"));
+    Assert.That(exception?.Message.Contains("EstimatedProgress"), Is.True);
 }
 
 /// <summary>

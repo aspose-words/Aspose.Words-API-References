@@ -5,7 +5,7 @@ articleTitle: CellSpacing
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle CellSpacing property to easily adjust cell spacing in points, enhancing your table's appearance and readability.
 type: docs
-weight: 60
+weight: 50
 url: /net/aspose.words/tablestyle/cellspacing/
 ---
 ## TableStyle.CellSpacing property
@@ -50,9 +50,9 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 table.Style = tableStyle;
 
 // Setting the style properties of a table may affect the properties of the table itself.
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+Assert.That(table.Bidi, Is.True);
+Assert.That(table.CellSpacing, Is.EqualTo(5.0d));
+Assert.That(table.StyleName, Is.EqualTo("MyTableStyle1"));
 
 doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ```

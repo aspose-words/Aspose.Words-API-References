@@ -39,14 +39,14 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ex
 
 if (exportEmbeddedCss)
 {
-    Assert.True(Regex.Match(outDocContents, "<style type=\"text/css\">").Success);
-    Assert.False(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"));
+    Assert.That(Regex.Match(outDocContents, "<style type=\"text/css\">").Success, Is.True);
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"), Is.False);
 }
 else
 {
-    Assert.True(Regex.Match(outDocContents,
-        "<link rel=\"stylesheet\" type=\"text/css\" href=\"HtmlFixedSaveOptions[.]ExportEmbeddedCss/styles[.]css\" media=\"all\" />").Success);
-    Assert.True(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"));
+    Assert.That(Regex.Match(outDocContents,
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"HtmlFixedSaveOptions[.]ExportEmbeddedCss/styles[.]css\" media=\"all\" />").Success, Is.True);
+    Assert.That(File.Exists(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedCss/styles.css"), Is.True);
 }
 ```
 

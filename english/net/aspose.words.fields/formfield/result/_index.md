@@ -41,9 +41,9 @@ builder.Write("Please select a fruit: ");
 // Insert a combo box which will allow a user to choose an option from a collection of strings.
 FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "Apple", "Banana", "Cherry" }, 0);
 
-Assert.AreEqual("MyComboBox", comboBox.Name);
-Assert.AreEqual(FieldType.FieldFormDropDown, comboBox.Type);
-Assert.AreEqual("Apple", comboBox.Result);
+Assert.That(comboBox.Name, Is.EqualTo("MyComboBox"));
+Assert.That(comboBox.Type, Is.EqualTo(FieldType.FieldFormDropDown));
+Assert.That(comboBox.Result, Is.EqualTo("Apple"));
 
 // The form field will appear in the form of a "select" html tag.
 doc.Save(ArtifactsDir + "FormFields.Create.html");

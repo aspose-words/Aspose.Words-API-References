@@ -5,7 +5,7 @@ articleTitle: TxtSaveOptionsBase
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.TxtSaveOptionsBase for enhanced document saving. Customize your text format options for optimal results and efficiency.
 type: docs
-weight: 6480
+weight: 6470
 url: /net/aspose.words.saving/txtsaveoptionsbase/
 ---
 ## TxtSaveOptionsBase class
@@ -63,7 +63,7 @@ builder.Write("Paragraph 3.");
 // to modify how we save the document to plaintext.
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
-Assert.AreEqual(SaveFormat.Text, txtSaveOptions.SaveFormat);
+Assert.That(txtSaveOptions.SaveFormat, Is.EqualTo(SaveFormat.Text));
 
 // Set the "ParagraphBreak" to a custom value that we wish to put at the end of every paragraph.
 txtSaveOptions.ParagraphBreak = " End of paragraph.\n\n\t";
@@ -72,9 +72,9 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt", txtSaveOptions);
 
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.ParagraphBreak.txt");
 
-Assert.AreEqual("Paragraph 1. End of paragraph.\n\n\t" +
+Assert.That(docText, Is.EqualTo("Paragraph 1. End of paragraph.\n\n\t" +
                 "Paragraph 2. End of paragraph.\n\n\t" +
-                "Paragraph 3. End of paragraph.\n\n\t", docText);
+                "Paragraph 3. End of paragraph.\n\n\t"));
 ```
 
 ### See Also

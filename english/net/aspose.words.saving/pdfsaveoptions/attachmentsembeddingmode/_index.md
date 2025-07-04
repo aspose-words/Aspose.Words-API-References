@@ -35,7 +35,7 @@ builder.InsertOleObject(MyDir + "Spreadsheet.xlsx", "Excel.Sheet", false, true, 
 PdfSaveOptions saveOptions = new PdfSaveOptions();
 saveOptions.AttachmentsEmbeddingMode = PdfAttachmentsEmbeddingMode.Annotations;
 
-doc.Save(ArtifactsDir + "PdfSaveOptions.PdfEmbedAttachments.pdf", saveOptions);
+doc.Save(ArtifactsDir + "PdfSaveOptions.AttachmentsEmbeddingMode.pdf", saveOptions);
 ```
 
 ### See Also

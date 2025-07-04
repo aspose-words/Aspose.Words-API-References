@@ -27,10 +27,10 @@ Shows how to read a loaded document's Open Office XML compliance version.
 ```csharp
 // The compliance version varies between documents created by different versions of Microsoft Word.
 Document doc = new Document(MyDir + "Document.doc");
-Assert.AreEqual(doc.Compliance, OoxmlCompliance.Ecma376_2006);
+Assert.That(OoxmlCompliance.Ecma376_2006, Is.EqualTo(doc.Compliance));
 
 doc = new Document(MyDir + "Document.docx");
-Assert.AreEqual(doc.Compliance, OoxmlCompliance.Iso29500_2008_Transitional);
+Assert.That(OoxmlCompliance.Iso29500_2008_Transitional, Is.EqualTo(doc.Compliance));
 ```
 
 ### See Also

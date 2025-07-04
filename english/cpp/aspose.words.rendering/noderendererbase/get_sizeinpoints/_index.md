@@ -27,20 +27,20 @@ This property returns the size of the actual (as rendered on the page) bounding 
 
 Shows how to measure and scale shapes. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Office math.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
 
-auto officeMath = System::ExplicitCast<OfficeMath>(doc->GetChild(NodeType::OfficeMath, 0, true));
-auto renderer = MakeObject<OfficeMathRenderer>(officeMath);
+auto officeMath = System::ExplicitCast<Aspose::Words::Math::OfficeMath>(doc->GetChild(Aspose::Words::NodeType::OfficeMath, 0, true));
+auto renderer = System::MakeObject<Aspose::Words::Rendering::OfficeMathRenderer>(officeMath);
 
 // Verify the size of the image that the OfficeMath object will create when we render it.
-ASSERT_NEAR(122, renderer->get_SizeInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(122.0f, renderer->get_SizeInPoints().get_Width(), 0.25f);
 ASSERT_NEAR(13.0f, renderer->get_SizeInPoints().get_Height(), 0.15f);
 
-ASSERT_NEAR(122, renderer->get_BoundsInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(122.0f, renderer->get_BoundsInPoints().get_Width(), 0.25f);
 ASSERT_NEAR(13.0f, renderer->get_BoundsInPoints().get_Height(), 0.15f);
 
 // Shapes with transparent parts may contain different values in the "OpaqueBoundsInPoints" properties.
-ASSERT_NEAR(122, renderer->get_OpaqueBoundsInPoints().get_Width(), 0.25f);
+ASSERT_NEAR(122.0f, renderer->get_OpaqueBoundsInPoints().get_Width(), 0.25f);
 ASSERT_NEAR(14.2f, renderer->get_OpaqueBoundsInPoints().get_Height(), 0.1f);
 
 // Get the shape size in pixels, with linear scaling to a specific DPI.

@@ -30,29 +30,29 @@ TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
-Assert.AreEqual(2, tabStops.Count);
-Assert.IsFalse(tabStops[0].IsClear);
-Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
+Assert.That(tabStops.Count, Is.EqualTo(2));
+Assert.That(tabStops[0].IsClear, Is.False);
+Assert.That(tabStops[0].Equals(tabStops[1]), Is.False);
 
 // Every "tab" character takes the builder's cursor to the location of the next tab stop.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(2, paragraphs.Count);
+Assert.That(paragraphs.Count, Is.EqualTo(2));
 
 // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
-Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
-Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
+Assert.That(paragraphs[1].ParagraphFormat.TabStops, Is.EqualTo(paragraphs[0].ParagraphFormat.TabStops));
+Assert.That(paragraphs[1].ParagraphFormat.TabStops, Is.Not.SameAs(paragraphs[0].ParagraphFormat.TabStops));
 
 // A tab stop collection can point us to TabStops before and after certain positions.
-Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
-Assert.AreEqual(432.0, tabStops.After(100.0).Position);
+Assert.That(tabStops.Before(100.0).Position, Is.EqualTo(72.0));
+Assert.That(tabStops.After(100.0).Position, Is.EqualTo(432.0));
 
 // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
-Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);
+Assert.That(paragraphs[1].ParagraphFormat.TabStops.Count, Is.EqualTo(0));
 
 doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ```
@@ -87,29 +87,29 @@ TabStopCollection tabStops = builder.ParagraphFormat.TabStops;
 tabStops.Add(new TabStop(72.0));
 tabStops.Add(new TabStop(432.0, TabAlignment.Right, TabLeader.Dashes));
 
-Assert.AreEqual(2, tabStops.Count);
-Assert.IsFalse(tabStops[0].IsClear);
-Assert.IsFalse(tabStops[0].Equals(tabStops[1]));
+Assert.That(tabStops.Count, Is.EqualTo(2));
+Assert.That(tabStops[0].IsClear, Is.False);
+Assert.That(tabStops[0].Equals(tabStops[1]), Is.False);
 
 // Every "tab" character takes the builder's cursor to the location of the next tab stop.
 builder.Writeln("Start\tTab 1\tTab 2");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(2, paragraphs.Count);
+Assert.That(paragraphs.Count, Is.EqualTo(2));
 
 // Each paragraph gets its tab stop collection, which clones its values from the document builder's tab stop collection.
-Assert.AreEqual(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
-Assert.AreNotSame(paragraphs[0].ParagraphFormat.TabStops, paragraphs[1].ParagraphFormat.TabStops);
+Assert.That(paragraphs[1].ParagraphFormat.TabStops, Is.EqualTo(paragraphs[0].ParagraphFormat.TabStops));
+Assert.That(paragraphs[1].ParagraphFormat.TabStops, Is.Not.SameAs(paragraphs[0].ParagraphFormat.TabStops));
 
 // A tab stop collection can point us to TabStops before and after certain positions.
-Assert.AreEqual(72.0, tabStops.Before(100.0).Position);
-Assert.AreEqual(432.0, tabStops.After(100.0).Position);
+Assert.That(tabStops.Before(100.0).Position, Is.EqualTo(72.0));
+Assert.That(tabStops.After(100.0).Position, Is.EqualTo(432.0));
 
 // We can clear a paragraph's tab stop collection to revert to the default tabbing behavior.
 paragraphs[1].ParagraphFormat.TabStops.Clear();
 
-Assert.AreEqual(0, paragraphs[1].ParagraphFormat.TabStops.Count);
+Assert.That(paragraphs[1].ParagraphFormat.TabStops.Count, Is.EqualTo(0));
 
 doc.Save(ArtifactsDir + "TabStopCollection.TabStopCollection.docx");
 ```

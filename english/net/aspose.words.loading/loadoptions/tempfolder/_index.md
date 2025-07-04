@@ -52,7 +52,7 @@ Directory.CreateDirectory(options.TempFolder);
 Document doc = new Document(MyDir + "Document.docx", options);
 
 // The folder will persist with no residual contents from the load operation.
-Assert.AreEqual(0, Directory.GetFiles(options.TempFolder).Length);
+Assert.That(Directory.GetFiles(options.TempFolder).Length, Is.EqualTo(0));
 ```
 
 ### See Also

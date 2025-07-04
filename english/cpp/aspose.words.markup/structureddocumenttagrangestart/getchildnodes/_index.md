@@ -23,21 +23,20 @@ System::SharedPtr<Aspose::Words::NodeCollection> Aspose::Words::Markup::Structur
 
 Shows how to get child nodes of [StructuredDocumentTagRangeStart](../). 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Multi-section structured document tags.docx");
-auto tag =
-    System::AsCast<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
+auto tag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
-std::cout << "\t|Child nodes count: " << tag->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count() << "\n" << std::endl;
+std::cout << System::String::Format(u"\t|Child nodes count: {0}\n", tag->GetChildNodes(Aspose::Words::NodeType::Any, false)->get_Count()) << std::endl;
 
-for (const auto& node : System::IterateOver(tag->GetChildNodes(Aspose::Words::NodeType::Any, false)))
+for (auto&& node : System::IterateOver(tag->GetChildNodes(Aspose::Words::NodeType::Any, false)))
 {
-    std::cout << String::Format(u"\t|Child node type: {0}", node->get_NodeType()) << std::endl;
+    std::cout << System::String::Format(u"\t|Child node type: {0}", node->get_NodeType()) << std::endl;
 }
 
-for (const auto& node : System::IterateOver(tag->GetChildNodes(NodeType::Run, true)))
+for (auto&& node : System::IterateOver(tag->GetChildNodes(Aspose::Words::NodeType::Run, true)))
 {
-    std::cout << "\t|Child node text: " << node->GetText() << std::endl;
+    std::cout << System::String::Format(u"\t|Child node text: {0}", node->GetText()) << std::endl;
 }
 ```
 

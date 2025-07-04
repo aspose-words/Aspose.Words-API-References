@@ -2,7 +2,7 @@
 title: Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method
 linktitle: set_HasVerticalBorder
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method. Sets a flag indicating whether a vertical border of the data table is displayed. The default value is true in C++.'
+description: 'Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder method. Setter for Aspose::Words::Drawing::Charts::ChartDataTable::get_HasVerticalBorder in C++.'
 type: docs
 weight: 14000
 url: /cpp/aspose.words.drawing.charts/chartdatatable/set_hasverticalborder/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.drawing.charts/chartdatatable/set_hasverticalborder/
 ## ChartDataTable::set_HasVerticalBorder method
 
 
-Sets a flag indicating whether a vertical border of the data table is displayed. The default value is **true**.
+Setter for [Aspose::Words::Drawing::Charts::ChartDataTable::get_HasVerticalBorder](../get_hasverticalborder/).
 
 ```cpp
 void Aspose::Words::Drawing::Charts::ChartDataTable::set_HasVerticalBorder(bool value)

@@ -28,12 +28,12 @@ builder.Writeln("Hello world!");
 // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
-Assert.AreEqual("application/msword", parameters.ContentType);
+Assert.That(parameters.ContentType, Is.EqualTo("application/msword"));
 
 // This property changes depending on the save format.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
-Assert.AreEqual("application/pdf", parameters.ContentType);
+Assert.That(parameters.ContentType, Is.EqualTo("application/pdf"));
 ```
 
 ### See Also

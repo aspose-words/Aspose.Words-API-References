@@ -33,9 +33,9 @@ BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.Pa
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
-    Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
-    Assert.AreEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
-    Assert.False(firstParagraphBorders[i].IsVisible);
+    Assert.That(firstParagraphBorders[i].Equals(secondParagraphBorders[i]), Is.True);
+    Assert.That(secondParagraphBorders[i].GetHashCode(), Is.EqualTo(firstParagraphBorders[i].GetHashCode()));
+    Assert.That(firstParagraphBorders[i].IsVisible, Is.False);
 }
 
 foreach (Border border in secondParagraphBorders)
@@ -45,11 +45,11 @@ foreach (Border border in secondParagraphBorders)
 // the border collections no longer share the same elements.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
-    Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
-    Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
+    Assert.That(firstParagraphBorders[i].Equals(secondParagraphBorders[i]), Is.False);
+    Assert.That(secondParagraphBorders[i].GetHashCode(), Is.Not.EqualTo(firstParagraphBorders[i].GetHashCode()));
 
     // Changing the appearance of an empty border makes it visible.
-    Assert.True(secondParagraphBorders[i].IsVisible);
+    Assert.That(secondParagraphBorders[i].IsVisible, Is.True);
 }
 
 doc.Save(ArtifactsDir + "Border.SharedElements.docx");
@@ -88,9 +88,9 @@ BorderCollection firstParagraphBorders = doc.FirstSection.Body.FirstParagraph.Pa
 BorderCollection secondParagraphBorders = builder.CurrentParagraph.ParagraphFormat.Borders;
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
-    Assert.IsTrue(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
-    Assert.AreEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
-    Assert.False(firstParagraphBorders[i].IsVisible);
+    Assert.That(firstParagraphBorders[i].Equals(secondParagraphBorders[i]), Is.True);
+    Assert.That(secondParagraphBorders[i].GetHashCode(), Is.EqualTo(firstParagraphBorders[i].GetHashCode()));
+    Assert.That(firstParagraphBorders[i].IsVisible, Is.False);
 }
 
 foreach (Border border in secondParagraphBorders)
@@ -100,11 +100,11 @@ foreach (Border border in secondParagraphBorders)
 // the border collections no longer share the same elements.
 for (int i = 0; i < firstParagraphBorders.Count; i++)
 {
-    Assert.IsFalse(firstParagraphBorders[i].Equals(secondParagraphBorders[i]));
-    Assert.AreNotEqual(firstParagraphBorders[i].GetHashCode(), secondParagraphBorders[i].GetHashCode());
+    Assert.That(firstParagraphBorders[i].Equals(secondParagraphBorders[i]), Is.False);
+    Assert.That(secondParagraphBorders[i].GetHashCode(), Is.Not.EqualTo(firstParagraphBorders[i].GetHashCode()));
 
     // Changing the appearance of an empty border makes it visible.
-    Assert.True(secondParagraphBorders[i].IsVisible);
+    Assert.That(secondParagraphBorders[i].IsVisible, Is.True);
 }
 
 doc.Save(ArtifactsDir + "Border.SharedElements.docx");

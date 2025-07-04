@@ -25,7 +25,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Accept](./accept/)(System::SharedPtr\<Aspose::Words::DocumentVisitor\>) override | Accepts a visitor. |
 | [AppendChild](./appendchild/)(const System::SharedPtr\<Aspose::Words::Node\>\&) | Adds the specified node to the end of the stdContent range. |
 | [Clone](../../aspose.words/node/clone/)(bool) | Creates a duplicate of the node. |
-| [get_Appearance](./get_appearance/)() override | Gets the appearance of the structured document tag. |
+| [get_Appearance](./get_appearance/)() override | Gets or sets the appearance of the structured document tag. |
 | [get_Color](./get_color/)() override | Gets or sets the color of the structured document tag. |
 | [get_CustomNodeId](../../aspose.words/node/get_customnodeid/)() const | Specifies custom node identifier. |
 | virtual [get_Document](../../aspose.words/node/get_document/)() const | Gets the document to which this node belongs. |
@@ -66,7 +66,7 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 | [Remove](../../aspose.words/node/remove/)() | Removes itself from the parent. |
 | [RemoveAllChildren](./removeallchildren/)() | Removes all the nodes between this range start node and the range end node. |
 | [RemoveSelfOnly](./removeselfonly/)() override | Removes this range start and appropriate range end nodes of the structured document tag, but keeps its content inside the document tree. |
-| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override | Sets the appearance of the structured document tag. |
+| [set_Appearance](./set_appearance/)(Aspose::Words::Markup::SdtAppearance) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Appearance](./get_appearance/). |
 | [set_Color](./set_color/)(System::Drawing::Color) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_Color](./get_color/). |
 | [set_CustomNodeId](../../aspose.words/node/set_customnodeid/)(int32_t) | Setter for [Aspose::Words::Node::get_CustomNodeId](../../aspose.words/node/get_customnodeid/). |
 | [set_IsShowingPlaceholderText](./set_isshowingplaceholdertext/)(bool) override | Setter for [Aspose::Words::Markup::StructuredDocumentTagRangeStart::get_IsShowingPlaceholderText](./get_isshowingplaceholdertext/). |
@@ -90,30 +90,29 @@ class StructuredDocumentTagRangeStart : public Aspose::Words::Node,
 
 Shows how to get the properties of multi-section structured document tags. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Multi-section structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Multi-section structured document tags.docx");
 
-auto rangeStartTag =
-    System::AsCast<StructuredDocumentTagRangeStart>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
-auto rangeEndTag =
-    System::AsCast<StructuredDocumentTagRangeEnd>(doc->GetChildNodes(NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
+auto rangeStartTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeStart>(doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTagRangeStart, true)->idx_get(0));
+auto rangeEndTag = System::AsCast<Aspose::Words::Markup::StructuredDocumentTagRangeEnd>(doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTagRangeEnd, true)->idx_get(0));
 
 std::cout << "StructuredDocumentTagRangeStart values:" << std::endl;
-std::cout << "\t|Id: " << rangeStartTag->get_Id() << std::endl;
-std::cout << "\t|Title: " << rangeStartTag->get_Title() << std::endl;
-std::cout << "\t|PlaceholderName: " << rangeStartTag->get_PlaceholderName() << std::endl;
-std::cout << String::Format(u"\t|IsShowingPlaceholderText: {0}", rangeStartTag->get_IsShowingPlaceholderText()) << std::endl;
-std::cout << String::Format(u"\t|LockContentControl: {0}", rangeStartTag->get_LockContentControl()) << std::endl;
-std::cout << String::Format(u"\t|LockContents: {0}", rangeStartTag->get_LockContents()) << std::endl;
-std::cout << String::Format(u"\t|Level: {0}", rangeStartTag->get_Level()) << std::endl;
-std::cout << String::Format(u"\t|NodeType: {0}", rangeStartTag->get_NodeType()) << std::endl;
-std::cout << "\t|RangeEnd: " << rangeStartTag->get_RangeEnd() << std::endl;
-std::cout << "\t|Color: " << rangeStartTag->get_Color().ToArgb() << std::endl;
-std::cout << String::Format(u"\t|SdtType: {0}", rangeStartTag->get_SdtType()) << std::endl;
-std::cout << "\t|Tag: " << rangeStartTag->get_Tag() << "\n" << std::endl;
+std::cout << System::String::Format(u"\t|Id: {0}", rangeStartTag->get_Id()) << std::endl;
+std::cout << System::String::Format(u"\t|Title: {0}", rangeStartTag->get_Title()) << std::endl;
+std::cout << System::String::Format(u"\t|PlaceholderName: {0}", rangeStartTag->get_PlaceholderName()) << std::endl;
+std::cout << System::String::Format(u"\t|IsShowingPlaceholderText: {0}", rangeStartTag->get_IsShowingPlaceholderText()) << std::endl;
+std::cout << System::String::Format(u"\t|LockContentControl: {0}", rangeStartTag->get_LockContentControl()) << std::endl;
+std::cout << System::String::Format(u"\t|LockContents: {0}", rangeStartTag->get_LockContents()) << std::endl;
+std::cout << System::String::Format(u"\t|Level: {0}", rangeStartTag->get_Level()) << std::endl;
+std::cout << System::String::Format(u"\t|NodeType: {0}", rangeStartTag->get_NodeType()) << std::endl;
+std::cout << System::String::Format(u"\t|RangeEnd: {0}", rangeStartTag->get_RangeEnd()) << std::endl;
+std::cout << System::String::Format(u"\t|Color: {0}", rangeStartTag->get_Color().ToArgb()) << std::endl;
+std::cout << System::String::Format(u"\t|SdtType: {0}", rangeStartTag->get_SdtType()) << std::endl;
+std::cout << System::String::Format(u"\t|FlatOpcContent: {0}", rangeStartTag->get_WordOpenXML()) << std::endl;
+std::cout << System::String::Format(u"\t|Tag: {0}\n", rangeStartTag->get_Tag()) << std::endl;
 
 std::cout << "StructuredDocumentTagRangeEnd values:" << std::endl;
-std::cout << "\t|Id: " << rangeEndTag->get_Id() << std::endl;
-std::cout << String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
+std::cout << System::String::Format(u"\t|Id: {0}", rangeEndTag->get_Id()) << std::endl;
+std::cout << System::String::Format(u"\t|NodeType: {0}", rangeEndTag->get_NodeType()) << std::endl;
 ```
 
 ## See Also

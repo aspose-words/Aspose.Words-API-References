@@ -16,6 +16,21 @@ Specifies the output resolution for images when exporting to Markdown. Default i
 int32_t Aspose::Words::Saving::MarkdownSaveOptions::get_ImageResolution() const
 ```
 
+
+## Examples
+
+
+
+Shows how to set the output resolution for images. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_ImageResolution(300);
+
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.ImageResolution.md", saveOptions);
+```
+
 ## See Also
 
 * Class [MarkdownSaveOptions](../)

@@ -29,9 +29,9 @@ public void NodeXPathNavigator()
 
     if (navigator != null)
     {
-        Assert.AreEqual("Document", navigator.Name);
-        Assert.AreEqual(false, navigator.MoveToNext());
-        Assert.AreEqual(1, navigator.SelectChildren(XPathNodeType.All).Count);
+        Assert.That(navigator.Name, Is.EqualTo("Document"));
+        Assert.That(navigator.MoveToNext(), Is.EqualTo(false));
+        Assert.That(navigator.SelectChildren(XPathNodeType.All).Count, Is.EqualTo(1));
 
         // The document tree has the document, first section,
         // body, and first paragraph as nodes, with each being an only child of the previous.

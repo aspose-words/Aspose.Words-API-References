@@ -29,30 +29,30 @@ This option will be written to DOCX only if [OoxmlCompliance](../../../aspose.wo
 
 Shows how to configure a list to restart numbering at each section. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-doc->get_Lists()->Add(ListTemplate::NumberDefault);
+doc->get_Lists()->Add(Aspose::Words::Lists::ListTemplate::NumberDefault);
 
-SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
+System::SharedPtr<Aspose::Words::Lists::List> list = doc->get_Lists()->idx_get(0);
 list->set_IsRestartAtEachSection(restartListAtEachSection);
 
 // The "IsRestartAtEachSection" property will only be applicable when
 // the document's OOXML compliance level is to a standard that is newer than "OoxmlComplianceCore.Ecma376".
-auto options = MakeObject<OoxmlSaveOptions>();
-options->set_Compliance(OoxmlCompliance::Iso29500_2008_Transitional);
+auto options = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
+options->set_Compliance(Aspose::Words::Saving::OoxmlCompliance::Iso29500_2008_Transitional);
 
 builder->get_ListFormat()->set_List(list);
 
 builder->Writeln(u"List item 1");
 builder->Writeln(u"List item 2");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 builder->Writeln(u"List item 3");
 builder->Writeln(u"List item 4");
 
-doc->Save(ArtifactsDir + u"OoxmlSaveOptions.RestartingDocumentList.docx", options);
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx", options);
 
-doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.RestartingDocumentList.docx");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OoxmlSaveOptions.RestartingDocumentList.docx");
 
 ASPOSE_ASSERT_EQ(restartListAtEachSection, doc->get_Lists()->idx_get(0)->get_IsRestartAtEachSection());
 ```

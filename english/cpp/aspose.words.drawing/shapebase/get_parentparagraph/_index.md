@@ -23,12 +23,12 @@ System::SharedPtr<Aspose::Words::Paragraph> Aspose::Words::Drawing::ShapeBase::g
 
 Shows how to insert a text box, and set the font of its contents. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::TextBox, 300, 50);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::TextBox, 300, 50);
 builder->MoveTo(shape->get_LastParagraph());
 builder->Write(u"This text is inside the text box.");
 
@@ -42,7 +42,7 @@ if (!hideShape)
 {
     shape->get_Font()->set_HighlightColor(System::Drawing::Color::get_LightGray());
     shape->get_Font()->set_Color(System::Drawing::Color::get_Red());
-    shape->get_Font()->set_Underline(Underline::Dash);
+    shape->get_Font()->set_Underline(Aspose::Words::Underline::Dash);
 }
 
 // Move the builder out of the text box back into the main document.
@@ -50,7 +50,7 @@ builder->MoveTo(shape->get_ParentParagraph());
 
 builder->Writeln(u"\nThis text is outside the text box.");
 
-doc->Save(ArtifactsDir + u"Shape.Font.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.Font.docx");
 ```
 
 ## See Also

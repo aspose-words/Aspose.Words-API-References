@@ -54,7 +54,7 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx", options)
 
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.RestartingDocumentList.docx");
 
-Assert.AreEqual(restartListAtEachSection, doc.Lists[0].IsRestartAtEachSection);
+Assert.That(doc.Lists[0].IsRestartAtEachSection, Is.EqualTo(restartListAtEachSection));
 ```
 
 ### See Also

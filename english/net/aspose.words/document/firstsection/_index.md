@@ -49,7 +49,7 @@ Document doc = new Document();
 
 // A blank document contains one section by default,
 // which contains child nodes that we can edit.
-Assert.AreEqual(1, doc.Sections.Count);
+Assert.That(doc.Sections.Count, Is.EqualTo(1));
 
 // Use a document builder to add text to the first section.
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -58,7 +58,7 @@ builder.Writeln("Hello world!");
 // Create a second section by inserting a section break.
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-Assert.AreEqual(2, doc.Sections.Count);
+Assert.That(doc.Sections.Count, Is.EqualTo(2));
 
 // Each section has its own page setup settings.
 // We can split the text in the second section into two columns.
@@ -68,8 +68,8 @@ builder.Writeln("Column 1.");
 builder.InsertBreak(BreakType.ColumnBreak);
 builder.Writeln("Column 2.");
 
-Assert.AreEqual(1, doc.FirstSection.PageSetup.TextColumns.Count);
-Assert.AreEqual(2, doc.LastSection.PageSetup.TextColumns.Count);
+Assert.That(doc.FirstSection.PageSetup.TextColumns.Count, Is.EqualTo(1));
+Assert.That(doc.LastSection.PageSetup.TextColumns.Count, Is.EqualTo(2));
 
 doc.Save(ArtifactsDir + "Section.Create.docx");
 ```

@@ -54,7 +54,7 @@ foreach (Revision r in docOriginal.Revisions)
 // Accepting these revisions will transform the original document into the edited document.
 docOriginal.Revisions.AcceptAll();
 
-Assert.AreEqual(docOriginal.GetText(), docEdited.GetText());
+Assert.That(docEdited.GetText(), Is.EqualTo(docOriginal.GetText()));
 ```
 
 ### See Also

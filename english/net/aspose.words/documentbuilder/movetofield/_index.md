@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Field field = builder.InsertField(" AUTHOR \"John Doe\" ");
 
 // The builder's cursor is currently at end of the document.
-Assert.Null(builder.CurrentNode);
+Assert.That(builder.CurrentNode, Is.Null);
 
 // Move the cursor to the field while specifying whether to place that cursor before or after the field.
 builder.MoveToField(field, moveCursorToAfterTheField);
@@ -44,19 +44,17 @@ builder.MoveToField(field, moveCursorToAfterTheField);
 // or FieldSeparator node to place the cursor inside.
 if (moveCursorToAfterTheField)
 {
-    Assert.Null(builder.CurrentNode);
+    Assert.That(builder.CurrentNode, Is.Null);
     builder.Write(" Text immediately after the field.");
 
-    Assert.AreEqual("\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field.", 
-        doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("\u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015 Text immediately after the field."));
 }
 else
 {
-    Assert.AreEqual(field.Start, builder.CurrentNode);
+    Assert.That(builder.CurrentNode, Is.EqualTo(field.Start));
     builder.Write("Text immediately before the field. ");
 
-    Assert.AreEqual("Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015", 
-        doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Text immediately before the field. \u0013 AUTHOR \"John Doe\" \u0014John Doe\u0015"));
 }
 ```
 

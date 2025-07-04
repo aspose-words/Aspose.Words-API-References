@@ -53,7 +53,7 @@ Console.WriteLine(vbaProject.IsSigned
 
 VbaModuleCollection vbaModules = doc.VbaProject.Modules;
 
-Assert.AreEqual(vbaModules.Count(), 3);
+Assert.That(3, Is.EqualTo(vbaModules.Count()));
 
 foreach (VbaModule module in vbaModules)
     Console.WriteLine($"Module name: {module.Name};\nModule code:\n{module.SourceCode}\n");

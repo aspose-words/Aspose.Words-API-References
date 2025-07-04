@@ -29,21 +29,20 @@ Editable range identifiers are supposed to be unique across a document and Aspos
 
 Shows how to work with an editable range. 
 ```cpp
-auto doc = MakeObject<Document>();
-doc->Protect(ProtectionType::ReadOnly, u"MyPassword");
+auto doc = System::MakeObject<Aspose::Words::Document>();
+doc->Protect(Aspose::Words::ProtectionType::ReadOnly, u"MyPassword");
 
-auto builder = MakeObject<DocumentBuilder>(doc);
-builder->Writeln(String(u"Hello world! Since we have set the document's protection level to read-only,") +
-                 u" we cannot edit this paragraph without the password.");
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->Writeln(System::String(u"Hello world! Since we have set the document's protection level to read-only,") + u" we cannot edit this paragraph without the password.");
 
 // Editable ranges allow us to leave parts of protected documents open for editing.
-SharedPtr<EditableRangeStart> editableRangeStart = builder->StartEditableRange();
+System::SharedPtr<Aspose::Words::EditableRangeStart> editableRangeStart = builder->StartEditableRange();
 builder->Writeln(u"This paragraph is inside an editable range, and can be edited.");
-SharedPtr<EditableRangeEnd> editableRangeEnd = builder->EndEditableRange();
+System::SharedPtr<Aspose::Words::EditableRangeEnd> editableRangeEnd = builder->EndEditableRange();
 
 // A well-formed editable range has a start node, and end node.
 // These nodes have matching IDs and encompass editable nodes.
-SharedPtr<EditableRange> editableRange = editableRangeStart->get_EditableRange();
+System::SharedPtr<Aspose::Words::EditableRange> editableRange = editableRangeStart->get_EditableRange();
 
 ASSERT_EQ(editableRangeStart->get_Id(), editableRange->get_Id());
 ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_Id());
@@ -56,12 +55,12 @@ ASSERT_EQ(editableRangeEnd->get_Id(), editableRange->get_EditableRangeEnd()->get
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-ASSERT_EQ(NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
-ASSERT_EQ(NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
+ASSERT_EQ(Aspose::Words::NodeType::EditableRangeStart, editableRangeStart->get_NodeType());
+ASSERT_EQ(Aspose::Words::NodeType::EditableRangeEnd, editableRangeEnd->get_NodeType());
 
 builder->Writeln(u"This paragraph is outside the editable range, and cannot be edited.");
 
-doc->Save(ArtifactsDir + u"EditableRange.CreateAndRemove.docx");
+doc->Save(get_ArtifactsDir() + u"EditableRange.CreateAndRemove.docx");
 
 // Remove an editable range. All the nodes that were inside the range will remain intact.
 editableRange->Remove();

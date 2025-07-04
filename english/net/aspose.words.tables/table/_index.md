@@ -5,7 +5,7 @@ articleTitle: Table
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.Table class to easily create and manage tables in Word documents, enhancing your document's layout and functionality.
 type: docs
-weight: 7200
+weight: 7190
 url: /net/aspose.words.tables/table/
 ---
 ## Table class
@@ -155,7 +155,7 @@ Shows how to iterate through all tables in the document and print the contents o
 Document doc = new Document(MyDir + "Tables.docx");
 TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(2, tables.ToArray().Length);
+Assert.That(tables.ToArray().Length, Is.EqualTo(2));
 
 for (int i = 0; i < tables.Count; i++)
 {
@@ -164,8 +164,8 @@ for (int i = 0; i < tables.Count; i++)
     RowCollection rows = tables[i].Rows;
 
     // We can use the "ToArray" method on a row collection to clone it into an array.
-    Assert.AreEqual(rows, rows.ToArray());
-    Assert.AreNotSame(rows, rows.ToArray());
+    Assert.That(rows.ToArray(), Is.EqualTo(rows));
+    Assert.That(rows.ToArray(), Is.Not.SameAs(rows));
 
     for (int j = 0; j < rows.Count; j++)
     {
@@ -174,8 +174,8 @@ for (int i = 0; i < tables.Count; i++)
         CellCollection cells = rows[j].Cells;
 
         // We can use the "ToArray" method on a cell collection to clone it into an array.
-        Assert.AreEqual(cells, cells.ToArray());
-        Assert.AreNotSame(cells, cells.ToArray());
+        Assert.That(cells.ToArray(), Is.EqualTo(cells));
+        Assert.That(cells.ToArray(), Is.Not.SameAs(cells));
 
         for (int k = 0; k < cells.Count; k++)
         {
@@ -206,8 +206,8 @@ builder.EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
+Assert.That(table.Rows[0].Cells[0].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+Assert.That(table.Rows[0].Cells[1].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
 
 builder.InsertCell();
 builder.RowFormat.Height = 100;
@@ -221,12 +221,12 @@ builder.EndRow();
 builder.EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
-Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
-Assert.AreEqual(TextOrientation.Upward, table.Rows[1].Cells[0].CellFormat.Orientation);
-Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orientation);
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
+Assert.That(table.Rows[1].Cells[0].CellFormat.Orientation, Is.EqualTo(TextOrientation.Upward));
+Assert.That(table.Rows[1].Cells[1].CellFormat.Orientation, Is.EqualTo(TextOrientation.Downward));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```

@@ -23,20 +23,20 @@ bool Aspose::Words::Font::get_DoubleStrikeThrough()
 
 Shows how to add a line strikethrough to text. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto para = System::ExplicitCast<Paragraph>(doc->GetChild(NodeType::Paragraph, 0, true));
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto para = System::ExplicitCast<Aspose::Words::Paragraph>(doc->GetChild(Aspose::Words::NodeType::Paragraph, 0, true));
 
-auto run = MakeObject<Run>(doc, u"Text with a single-line strikethrough.");
+auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Text with a single-line strikethrough.");
 run->get_Font()->set_StrikeThrough(true);
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-para = System::ExplicitCast<Paragraph>(para->get_ParentNode()->AppendChild(MakeObject<Paragraph>(doc)));
+para = System::ExplicitCast<Aspose::Words::Paragraph>(para->get_ParentNode()->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc)));
 
-run = MakeObject<Run>(doc, u"Text with a double-line strikethrough.");
+run = System::MakeObject<Aspose::Words::Run>(doc, u"Text with a double-line strikethrough.");
 run->get_Font()->set_DoubleStrikeThrough(true);
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-doc->Save(ArtifactsDir + u"Font.StrikeThrough.docx");
+doc->Save(get_ArtifactsDir() + u"Font.StrikeThrough.docx");
 ```
 
 ## See Also

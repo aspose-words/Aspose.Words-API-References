@@ -5,7 +5,7 @@ articleTitle: Style
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Style class for managing custom and built-in styles effortlessly. Enhance your document formatting with ease and precision.
 type: docs
-weight: 6990
+weight: 6980
 url: /net/aspose.words/style/
 ---
 ## Style class
@@ -100,7 +100,7 @@ builder.Writeln("Hello world!");
 
 Style firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
-Assert.AreEqual(style, firstParagraphStyle);
+Assert.That(firstParagraphStyle, Is.EqualTo(style));
 
 // Remove our custom style from the document's styles collection.
 doc.Styles["MyStyle"].Remove();
@@ -108,10 +108,10 @@ doc.Styles["MyStyle"].Remove();
 firstParagraphStyle = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Style;
 
 // Any text that used a removed style reverts to the default formatting.
-Assert.False(doc.Styles.Any(s => s.Name == "MyStyle"));
-Assert.AreEqual("Times New Roman", firstParagraphStyle.Font.Name);
-Assert.AreEqual(12.0d, firstParagraphStyle.Font.Size);
-Assert.AreEqual(Color.Empty.ToArgb(), firstParagraphStyle.Font.Color.ToArgb());
+Assert.That(doc.Styles.Any(s => s.Name == "MyStyle"), Is.False);
+Assert.That(firstParagraphStyle.Font.Name, Is.EqualTo("Times New Roman"));
+Assert.That(firstParagraphStyle.Font.Size, Is.EqualTo(12.0d));
+Assert.That(firstParagraphStyle.Font.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
 ```
 
 ### See Also

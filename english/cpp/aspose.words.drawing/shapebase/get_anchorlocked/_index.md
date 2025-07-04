@@ -31,15 +31,15 @@ This property affects behavior of the shape's anchor in Microsoft Word. When the
 
 Shows how to lock or unlock a shape's paragraph anchor. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Writeln(u"Hello world!");
 
 builder->Write(u"Our shape will have an anchor attached to this paragraph.");
-SharedPtr<Shape> shape = builder->InsertShape(ShapeType::Rectangle, 200, 160);
-shape->set_WrapType(WrapType::None);
-builder->InsertBreak(BreakType::ParagraphBreak);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertShape(Aspose::Words::Drawing::ShapeType::Rectangle, 200, 160);
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
+builder->InsertBreak(Aspose::Words::BreakType::ParagraphBreak);
 
 builder->Writeln(u"Hello again!");
 
@@ -51,7 +51,7 @@ shape->set_AnchorLocked(anchorLocked);
 
 // If the shape does not have a visible anchor symbol to its left,
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
-doc->Save(ArtifactsDir + u"Shape.AnchorLocked.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.AnchorLocked.docx");
 ```
 
 ## See Also

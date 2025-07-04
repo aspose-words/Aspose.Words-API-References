@@ -32,7 +32,7 @@ field.BookmarkName = "MyBookmark1";
 field.LockFields = false;
 field.TextConverter = "Microsoft Word";
 
-Assert.True(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success);
+Assert.That(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success, Is.True);
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INCLUDE.docx");

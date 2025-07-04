@@ -23,22 +23,24 @@ System::SharedPtr<Aspose::Words::Tables::Row> Aspose::Words::Tables::Table::get_
 
 Shows how to remove the first and last rows of all tables in a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
 
-SharedPtr<TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
+System::SharedPtr<Aspose::Words::Tables::TableCollection> tables = doc->get_FirstSection()->get_Body()->get_Tables();
 
 ASSERT_EQ(5, tables->idx_get(0)->get_Rows()->get_Count());
 ASSERT_EQ(4, tables->idx_get(1)->get_Rows()->get_Count());
 
-for (const auto& table : System::IterateOver(tables->LINQ_OfType<SharedPtr<Table>>()))
+for (auto&& table : System::IterateOver(tables->LINQ_OfType<System::SharedPtr<Aspose::Words::Tables::Table> >()))
 {
-    if (table->get_FirstRow() != nullptr)
+    System::SharedPtr<Aspose::Words::Tables::Row> condExpression = table->get_FirstRow();
+    if (condExpression != nullptr)
     {
-        table->get_FirstRow()->Remove();
+        condExpression->Remove();
     }
-    if (table->get_LastRow() != nullptr)
+    System::SharedPtr<Aspose::Words::Tables::Row> condExpression2 = table->get_LastRow();
+    if (condExpression2 != nullptr)
     {
-        table->get_LastRow()->Remove();
+        condExpression2->Remove();
     }
 }
 
@@ -49,14 +51,14 @@ ASSERT_EQ(2, tables->idx_get(1)->get_Rows()->get_Count());
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:
-SharedPtr<Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::ExplicitCast<Table>(doc->GetChild(NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())
@@ -67,7 +69,7 @@ while (secondTable->get_HasChildNodes())
 // Remove the empty table container.
 secondTable->Remove();
 
-doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
+doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
 
 ## See Also

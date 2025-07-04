@@ -30,22 +30,18 @@ public void FieldPageRef()
 
     // Insert a PAGEREF field that displays what page a bookmark is on.
     // Set the InsertHyperlink flag to make the field also function as a clickable link to the bookmark.
-    Assert.AreEqual(" PAGEREF  MyBookmark3 \\h", 
-        InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode());
+    Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, false, "Hyperlink to Bookmark3, on page: ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h"));
 
     // We can use the \p flag to get the PAGEREF field to display
     // the bookmark's position relative to the position of the field.
     // Bookmark1 is on the same page and above this field, so this field's displayed result will be "above".
-    Assert.AreEqual(" PAGEREF  MyBookmark1 \\h \\p", 
-        InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode());
+    Assert.That(InsertFieldPageRef(builder, "MyBookmark1", true, true, "Bookmark1 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark1 \\h \\p"));
 
     // Bookmark2 will be on the same page and below this field, so this field's displayed result will be "below".
-    Assert.AreEqual(" PAGEREF  MyBookmark2 \\h \\p", 
-        InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode());
+    Assert.That(InsertFieldPageRef(builder, "MyBookmark2", true, true, "Bookmark2 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark2 \\h \\p"));
 
     // Bookmark3 will be on a different page, so the field will display "on page 2".
-    Assert.AreEqual(" PAGEREF  MyBookmark3 \\h \\p", 
-        InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode());
+    Assert.That(InsertFieldPageRef(builder, "MyBookmark3", true, true, "Bookmark3 is ").GetFieldCode(), Is.EqualTo(" PAGEREF  MyBookmark3 \\h \\p"));
 
     InsertAndNameBookmark(builder, "MyBookmark2");
     builder.InsertBreak(BreakType.PageBreak);

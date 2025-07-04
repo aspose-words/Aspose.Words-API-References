@@ -27,17 +27,17 @@ Although Aspose.Words is able to read and write this option, its usage is applic
 
 Shows how to set a custom zoom factor, which older versions of Microsoft Word will apply to a document upon loading. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
-doc->get_ViewOptions()->set_ViewType(ViewType::PageLayout);
+doc->get_ViewOptions()->set_ViewType(Aspose::Words::Settings::ViewType::PageLayout);
 doc->get_ViewOptions()->set_ZoomPercent(50);
 
-ASSERT_EQ(ZoomType::Custom, doc->get_ViewOptions()->get_ZoomType());
-ASSERT_EQ(ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
+ASSERT_EQ(Aspose::Words::Settings::ZoomType::Custom, doc->get_ViewOptions()->get_ZoomType());
+ASSERT_EQ(Aspose::Words::Settings::ZoomType::None, doc->get_ViewOptions()->get_ZoomType());
 
-doc->Save(ArtifactsDir + u"ViewOptions.SetZoomPercentage.doc");
+doc->Save(get_ArtifactsDir() + u"ViewOptions.SetZoomPercentage.doc");
 ```
 
 ## See Also

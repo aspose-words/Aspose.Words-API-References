@@ -27,7 +27,7 @@ public void RemoveVbaReference()
     Document doc = new Document(MyDir + "VBA project.docm");
 
     VbaReferenceCollection references = doc.VbaProject.References;
-    Assert.AreEqual(5 ,references.Count);
+    Assert.That(references.Count, Is.EqualTo(5 ));
 
     for (int i = references.Count - 1; i >= 0; i--)
     {
@@ -37,10 +37,10 @@ public void RemoveVbaReference()
         if (path == brokenPath)
             references.RemoveAt(i);
     }
-    Assert.AreEqual(4 ,references.Count);
+    Assert.That(references.Count, Is.EqualTo(4 ));
 
     references.Remove(references[1]);
-    Assert.AreEqual(3 ,references.Count);
+    Assert.That(references.Count, Is.EqualTo(3 ));
 
     doc.Save(ArtifactsDir + "VbaProject.RemoveVbaReference.docm"); 
 }

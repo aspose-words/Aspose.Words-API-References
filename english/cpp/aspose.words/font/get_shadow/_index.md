@@ -23,8 +23,8 @@ bool Aspose::Words::Font::get_Shadow()
 
 Shows how to create a run of text formatted with a shadow. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Set the Shadow flag to apply an offset shadow effect,
 // making it look like the letters are floating above the page.
@@ -33,7 +33,7 @@ builder->get_Font()->set_Size(36);
 
 builder->Writeln(u"This text has a shadow.");
 
-doc->Save(ArtifactsDir + u"Font.Shadow.docx");
+doc->Save(get_ArtifactsDir() + u"Font.Shadow.docx");
 ```
 
 ## See Also

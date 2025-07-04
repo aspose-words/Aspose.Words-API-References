@@ -56,8 +56,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.");
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes, which both begin at 1.
-Assert.AreEqual(1, doc.FootnoteOptions.StartNumber);
-Assert.AreEqual(1, doc.EndnoteOptions.StartNumber);
+Assert.That(doc.FootnoteOptions.StartNumber, Is.EqualTo(1));
+Assert.That(doc.EndnoteOptions.StartNumber, Is.EqualTo(1));
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.

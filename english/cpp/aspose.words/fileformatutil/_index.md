@@ -39,12 +39,12 @@ class FileFormatUtil
 
 Shows how to detect encoding in an html file. 
 ```cpp
-SharedPtr<FileFormatInfo> info = FileFormatUtil::DetectFileFormat(MyDir + u"Document.html");
+System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(get_MyDir() + u"Document.html");
 
-ASSERT_EQ(LoadFormat::Html, info->get_LoadFormat());
+ASSERT_EQ(Aspose::Words::LoadFormat::Html, info->get_LoadFormat());
 
 // The Encoding property is used only when we create a FileFormatInfo object for an html document.
-ASSERT_EQ(u"Windows-1252", info->get_Encoding()->get_WebName());
+ASSERT_EQ(u"Western European (Windows)", info->get_Encoding()->get_EncodingName());
 ASSERT_EQ(1252, info->get_Encoding()->get_CodePage());
 ```
 

@@ -5,7 +5,7 @@ articleTitle: CommentCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CommentCollection class for easy access to Comment nodes, enhancing document editing and collaboration in your projects.
 type: docs
-weight: 430
+weight: 420
 url: /net/aspose.words/commentcollection/
 ---
 ## CommentCollection class
@@ -56,7 +56,7 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(comment);
 // Comments have a "Done" flag, which is set to "false" by default. 
 // If a comment suggests that we make a change within the document,
 // we can apply the change, and then also set the "Done" flag afterwards to indicate the correction.
-Assert.False(comment.Done);
+Assert.That(comment.Done, Is.False);
 
 doc.FirstSection.Body.FirstParagraph.Runs[0].Text = "Hello world!";
 comment.Done = true;

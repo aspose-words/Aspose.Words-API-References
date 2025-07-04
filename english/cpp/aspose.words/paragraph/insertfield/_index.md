@@ -34,24 +34,24 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 Shows various ways of adding fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of inserting a field into a paragraph.
 // 1 -  Insert an AUTHOR field into a paragraph after one of the paragraph's child nodes:
-auto run = MakeObject<Run>(doc);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"This run was written by ");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ObjectExt::Box<String>(u"John Doe"));
-para->InsertField(FieldType::FieldAuthor, true, run, true);
+doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
+para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
-run = MakeObject<Run>(doc);
+run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u".");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-SharedPtr<Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
+System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
 
 // 3 -  Insert a QUOTE field before one of the paragraph's child nodes,
 // and get it to display a placeholder value:
@@ -64,7 +64,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.InsertField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
 
 ## See Also
@@ -101,24 +101,24 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 Shows various ways of adding fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of inserting a field into a paragraph.
 // 1 -  Insert an AUTHOR field into a paragraph after one of the paragraph's child nodes:
-auto run = MakeObject<Run>(doc);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"This run was written by ");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ObjectExt::Box<String>(u"John Doe"));
-para->InsertField(FieldType::FieldAuthor, true, run, true);
+doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
+para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
-run = MakeObject<Run>(doc);
+run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u".");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-SharedPtr<Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
+System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
 
 // 3 -  Insert a QUOTE field before one of the paragraph's child nodes,
 // and get it to display a placeholder value:
@@ -131,7 +131,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.InsertField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
 
 ## See Also
@@ -168,24 +168,24 @@ A [Field](../../../aspose.words.fields/field/) object that represents the insert
 
 Shows various ways of adding fields to a paragraph. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
 
 // Below are three ways of inserting a field into a paragraph.
 // 1 -  Insert an AUTHOR field into a paragraph after one of the paragraph's child nodes:
-auto run = MakeObject<Run>(doc);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"This run was written by ");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ObjectExt::Box<String>(u"John Doe"));
-para->InsertField(FieldType::FieldAuthor, true, run, true);
+doc->get_BuiltInDocumentProperties()->idx_get(u"Author")->set_Value(System::ExplicitCast<System::Object>(u"John Doe"));
+para->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true, run, true);
 
 // 2 -  Insert a QUOTE field after one of the paragraph's child nodes:
-run = MakeObject<Run>(doc);
+run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u".");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-SharedPtr<Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
+System::SharedPtr<Aspose::Words::Fields::Field> field = para->InsertField(u" QUOTE \" Real value\" ", run, true);
 
 // 3 -  Insert a QUOTE field before one of the paragraph's child nodes,
 // and get it to display a placeholder value:
@@ -198,7 +198,7 @@ doc->UpdateFields();
 
 ASSERT_EQ(u" Real value.", doc->get_Range()->get_Fields()->idx_get(1)->get_Result());
 
-doc->Save(ArtifactsDir + u"Paragraph.InsertField.docx");
+doc->Save(get_ArtifactsDir() + u"Paragraph.InsertField.docx");
 ```
 
 ## See Also

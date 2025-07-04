@@ -5,7 +5,7 @@ articleTitle: PageSet
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.PageSet class for efficient document management. Easily define random page sets and enhance your workflow today!
 type: docs
-weight: 6180
+weight: 6170
 url: /net/aspose.words.saving/pageset/
 ---
 ## PageSet class

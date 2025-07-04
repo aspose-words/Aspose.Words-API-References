@@ -37,14 +37,14 @@ Document doc = new Document(MyDir + "Rendering.docx");
 
 // If any number of these runs are adjacent with identical formatting,
 // then the document may be simplified.
-Assert.AreEqual(317, doc.GetChildNodes(NodeType.Run, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Run, true).Count, Is.EqualTo(317));
 
 // Combine such runs with this method and verify the number of run joins that will take place.
-Assert.AreEqual(121, doc.JoinRunsWithSameFormatting());
+Assert.That(doc.JoinRunsWithSameFormatting(), Is.EqualTo(121));
 
 // The number of joins and the number of runs we have after the join
 // should add up the number of runs we had initially.
-Assert.AreEqual(196, doc.GetChildNodes(NodeType.Run, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Run, true).Count, Is.EqualTo(196));
 ```
 
 ### See Also

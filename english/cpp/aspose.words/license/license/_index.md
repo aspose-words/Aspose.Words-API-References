@@ -21,22 +21,24 @@ Aspose::Words::License::License()
 
 
 
-Shows how initialize a license for Aspose.Words using a license file in the local file system. 
+Shows how to initialize a license for Aspose.Words using a license file in the local file system. 
 ```cpp
-// Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
-String licenseFileName = System::IO::Path::Combine(LicenseDir, u"Aspose.Words.Cpp.lic");
+System::String testLicenseFileName = u"Aspose.Total.C++.lic";
 
-auto license = MakeObject<License>();
+// Set the license for our Aspose.Words product by passing the local file system filename of a valid license file.
+System::String licenseFileName = System::IO::Path::Combine(get_LicenseDir(), testLicenseFileName);
+
+auto license = System::MakeObject<Aspose::Words::License>();
 license->SetLicense(licenseFileName);
 
 // Create a copy of our license file in the binaries folder of our application.
-String licenseCopyFileName = System::IO::Path::Combine(AssemblyDir, u"Aspose.Words.Cpp.lic");
+System::String licenseCopyFileName = System::IO::Path::Combine(get_AssemblyDir(), testLicenseFileName);
 System::IO::File::Copy(licenseFileName, licenseCopyFileName);
 
 // If we pass a file's name without a path,
 // the SetLicense will search several local file system locations for this file.
 // One of those locations will be the "bin" folder, which contains a copy of our license file.
-license->SetLicense(u"Aspose.Words.Cpp.lic");
+license->SetLicense(testLicenseFileName);
 ```
 
 ## See Also

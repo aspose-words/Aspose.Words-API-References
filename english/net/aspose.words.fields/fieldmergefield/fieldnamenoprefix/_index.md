@@ -42,8 +42,8 @@ fieldMergeField.IsVerticalFormatting = false;
 fieldMergeField.TextBefore = "Dear ";
 fieldMergeField.TextAfter = " ";
 
-Assert.AreEqual(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \"", fieldMergeField.GetFieldCode());
-Assert.AreEqual(FieldType.FieldMergeField, fieldMergeField.Type);
+Assert.That(fieldMergeField.GetFieldCode(), Is.EqualTo(" MERGEFIELD  \"Courtesy Title\" \\m \\b \"Dear \" \\f \" \""));
+Assert.That(fieldMergeField.Type, Is.EqualTo(FieldType.FieldMergeField));
 
 // Insert another MERGEFIELD for a different column in the data source.
 fieldMergeField = (FieldMergeField)builder.InsertField(FieldType.FieldMergeField, true);
@@ -53,7 +53,7 @@ fieldMergeField.TextAfter = ":";
 doc.UpdateFields();
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual("Dear Mr. Doe:\u000cDear Mrs. Cardholder:", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Dear Mr. Doe:\u000cDear Mrs. Cardholder:"));
 ```
 
 ### See Also

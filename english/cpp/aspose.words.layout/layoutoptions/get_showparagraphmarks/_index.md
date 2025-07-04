@@ -23,8 +23,8 @@ bool Aspose::Words::Layout::LayoutOptions::get_ShowParagraphMarks() const
 
 Shows how to show paragraph marks in a rendered output document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add some paragraphs, then enable paragraph marks to show the ends of paragraphs
 // with a pilcrow (¶) symbol when we render the document.
@@ -33,7 +33,7 @@ builder->Writeln(u"Hello again!");
 
 doc->get_LayoutOptions()->set_ShowParagraphMarks(showParagraphMarks);
 
-doc->Save(ArtifactsDir + u"Document.LayoutOptionsParagraphMarks.pdf");
+doc->Save(get_ArtifactsDir() + u"Document.LayoutOptionsParagraphMarks.pdf");
 ```
 
 ## See Also

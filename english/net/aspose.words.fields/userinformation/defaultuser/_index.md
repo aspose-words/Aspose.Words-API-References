@@ -39,9 +39,9 @@ doc.FieldOptions.CurrentUser = userInformation;
 
 // Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
 // the respective properties of the UserInformation object that we have created above. 
-Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
-Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
-Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
+Assert.That(builder.InsertField(" USERNAME ").Result, Is.EqualTo(userInformation.Name));
+Assert.That(builder.InsertField(" USERINITIALS ").Result, Is.EqualTo(userInformation.Initials));
+Assert.That(builder.InsertField(" USERADDRESS ").Result, Is.EqualTo(userInformation.Address));
 
 // The field options object also has a static default user that fields from all documents can refer to.
 UserInformation.DefaultUser.Name = "Default User";
@@ -49,9 +49,9 @@ UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";
 doc.FieldOptions.CurrentUser = UserInformation.DefaultUser;
 
-Assert.AreEqual("Default User", builder.InsertField(" USERNAME ").Result);
-Assert.AreEqual("D. U.", builder.InsertField(" USERINITIALS ").Result);
-Assert.AreEqual("One Microsoft Way", builder.InsertField(" USERADDRESS ").Result);
+Assert.That(builder.InsertField(" USERNAME ").Result, Is.EqualTo("Default User"));
+Assert.That(builder.InsertField(" USERINITIALS ").Result, Is.EqualTo("D. U."));
+Assert.That(builder.InsertField(" USERADDRESS ").Result, Is.EqualTo("One Microsoft Way"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");

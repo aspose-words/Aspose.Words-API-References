@@ -5,7 +5,7 @@ articleTitle: StructuredDocumentTag
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Markup.StructuredDocumentTag class for efficient content control in documents. Enhance your document management with SDT features!
 type: docs
-weight: 4750
+weight: 4740
 url: /net/aspose.words.markup/structureddocumenttag/
 ---
 ## StructuredDocumentTag class
@@ -141,7 +141,7 @@ StructuredDocumentTag sdtRichText =
 builder.InsertNode(sdtPlainText);
 builder.InsertNode(sdtRichText);
 
-Assert.AreEqual(NodeType.StructuredDocumentTag, sdtPlainText.NodeType);
+Assert.That(sdtPlainText.NodeType, Is.EqualTo(NodeType.StructuredDocumentTag));
 
 NodeCollection tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true);
 
@@ -151,8 +151,8 @@ foreach (Node node in tags)
 
     Console.WriteLine(sdt.WordOpenXMLMinimal);
 
-    Assert.AreEqual(StyleIdentifier.Quote, sdt.Style.StyleIdentifier);
-    Assert.AreEqual("Quote", sdt.StyleName);
+    Assert.That(sdt.Style.StyleIdentifier, Is.EqualTo(StyleIdentifier.Quote));
+    Assert.That(sdt.StyleName, Is.EqualTo("Quote"));
 }
 ```
 

@@ -23,9 +23,9 @@ double Aspose::Words::ParagraphFormat::get_CharacterUnitFirstLineIndent()
 
 Shows how to change paragraph spacing and indents. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
-SharedPtr<ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+System::SharedPtr<Aspose::Words::ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat();
 
 // Below are five different spacing options, along with the properties that their configuration indirectly affects.
 // 1 -  Left indent:
@@ -63,10 +63,8 @@ format->set_LineUnitAfter(10.9);
 
 ASSERT_NEAR(format->get_SpaceAfter(), 130.8, 0.1);
 
-builder->Writeln(String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") +
-                 u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
-builder->Write(String(u"测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试") +
-               u"文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档");
+builder->Writeln(System::String(u"Lorem ipsum dolor sit amet, consectetur adipiscing elit, ") + u"sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
+builder->Write(System::String(u"测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试") + u"文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档测试文档");
 ```
 
 ## See Also

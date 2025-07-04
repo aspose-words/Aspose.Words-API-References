@@ -5,7 +5,7 @@ articleTitle: RevisionOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Layout.RevisionOptions class to efficiently manage document revisions and enhance your layout process for optimal results.
 type: docs
-weight: 3840
+weight: 3830
 url: /net/aspose.words.layout/revisionoptions/
 ---
 ## RevisionOptions class

@@ -23,13 +23,13 @@ bool Aspose::Words::Saving::SaveOptions::get_ExportGeneratorName() const
 
 Shows how to disable adding name and version of Aspose.Words into produced files. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Use https://docs.aspose.com/words/net/generator-or-producer-name-included-in-output-documents/ to know how to check the result.
-auto saveOptions = MakeObject<OoxmlSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_ExportGeneratorName(false);
 
-doc->Save(ArtifactsDir + u"OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.ExportGeneratorName.docx", saveOptions);
 ```
 
 ## See Also

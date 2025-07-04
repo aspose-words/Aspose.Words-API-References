@@ -5,7 +5,7 @@ articleTitle: FieldBidiOutline
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldBidiOutline class for seamless BIDIOUTLINE field implementation, enhancing your document processing capabilities.
 type: docs
-weight: 2060
+weight: 2050
 url: /net/aspose.words.fields/fieldbidioutline/
 ---
 ## FieldBidiOutline class
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" BIDIOUTLINE "));
 
 // Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);

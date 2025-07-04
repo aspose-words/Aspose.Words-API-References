@@ -49,11 +49,9 @@ doc.MailMerge.Execute(dataTable);
 
 doc.Save(ArtifactsDir + "MailMerge.UnconditionalMergeFieldsAndRegions.docx");
 
-Assert.AreEqual(
-    countAllMergeFields
+Assert.That(doc.GetText().Trim(), Is.EqualTo(countAllMergeFields
         ? "\u0013 IF 1 = 2 \"James Bond\"\u0014\u0015"
-        : "\u0013 IF 1 = 2 \u0013 MERGEFIELD  FullName \u0014«FullName»\u0015\u0014\u0015",
-    doc.GetText().Trim());
+        : "\u0013 IF 1 = 2 \u0013 MERGEFIELD  FullName \u0014«FullName»\u0015\u0014\u0015"));
 ```
 
 ### See Also

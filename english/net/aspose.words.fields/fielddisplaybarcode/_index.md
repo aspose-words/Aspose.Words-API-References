@@ -5,7 +5,7 @@ articleTitle: FieldDisplayBarcode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDisplayBarcode class to effortlessly implement DISPLAYBARCODE fields in your documents. Enhance your document management today!
 type: docs
-weight: 2210
+weight: 2200
 url: /net/aspose.words.fields/fielddisplaybarcode/
 ---
 ## FieldDisplayBarcode class
@@ -89,9 +89,8 @@ field.ScalingFactor = "250";
 field.SymbolHeight = "1000";
 field.SymbolRotation = "0";
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0",
-    field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyQRCode QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0"));
 builder.Writeln();
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
@@ -104,12 +103,10 @@ table.Rows.Add(new[] { "DEF456" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B", 
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"ABC123\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"DEF456\" QR \\q 3 \\s 250 \\h 1000 \\r 0 \\b 0xF8BD69 \\f 0xB5413B"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.QR.docx");
 ```
@@ -133,7 +130,7 @@ field.ScalingFactor = "250";
 field.SymbolHeight = "1000";
 field.SymbolRotation = "0";
 
-Assert.AreEqual(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  ABC123 QR \\b 0xF8BD69 \\f 0xB5413B \\q 3 \\s 250 \\h 1000 \\r 0"));
 builder.Writeln();
 
 // 2 -  EAN13 barcode, with the digits displayed below the bars:
@@ -144,7 +141,7 @@ field.DisplayText = true;
 field.PosCodeStyle = "CASE";
 field.FixCheckDigit = true;
 
-Assert.AreEqual(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  501234567890 EAN13 \\t \\p CASE \\x"));
 builder.Writeln();
 
 // 3 -  CODE39 barcode:
@@ -153,7 +150,7 @@ field.BarcodeType = "CODE39";
 field.BarcodeValue = "12345ABCDE";
 field.AddStartStopChar = true;
 
-Assert.AreEqual(" DISPLAYBARCODE  12345ABCDE CODE39 \\d", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  12345ABCDE CODE39 \\d"));
 builder.Writeln();
 
 // 4 -  ITF4 barcode, with a specified case code:
@@ -162,7 +159,7 @@ field.BarcodeType = "ITF14";
 field.BarcodeValue = "09312345678907";
 field.CaseCodeStyle = "STD";
 
-Assert.AreEqual(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DISPLAYBARCODE  09312345678907 ITF14 \\c STD"));
 
 doc.Save(ArtifactsDir + "Field.DISPLAYBARCODE.docx");
 ```

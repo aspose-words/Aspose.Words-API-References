@@ -228,7 +228,7 @@ builder.CurrentParagraph.AppendChild(comment);
 builder.MoveTo(comment.AppendChild(new Paragraph(doc)));
 builder.Write("Comment text.");
 
-Assert.AreEqual(DateTime.Today, comment.DateTime);
+Assert.That(comment.DateTime, Is.EqualTo(DateTime.Today));
 
 // In Microsoft Word, we can right-click this comment in the document body to edit it, or reply to it. 
 doc.Save(ArtifactsDir + "InlineStory.AddComment.docx");

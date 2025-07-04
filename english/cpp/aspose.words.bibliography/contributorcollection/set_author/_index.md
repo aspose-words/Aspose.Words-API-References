@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::ContributorCollection::set_Author method
 linktitle: set_Author
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::ContributorCollection::set_Author method. Sets the author of a source in C++.'
+description: 'Aspose::Words::Bibliography::ContributorCollection::set_Author method. Setter for Aspose::Words::Bibliography::ContributorCollection::get_Author in C++.'
 type: docs
 weight: 21000
 url: /cpp/aspose.words.bibliography/contributorcollection/set_author/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/contributorcollection/set_author/
 ## ContributorCollection::set_Author method
 
 
-Sets the author of a source.
+Setter for [Aspose::Words::Bibliography::ContributorCollection::get_Author](../get_author/).
 
 ```cpp
 void Aspose::Words::Bibliography::ContributorCollection::set_Author(const System::SharedPtr<Aspose::Words::Bibliography::Contributor> &value)

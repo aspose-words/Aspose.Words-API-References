@@ -5,7 +5,7 @@ articleTitle: ControlChar
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ControlChar class to effectively manage control characters in your documents for enhanced formatting and readability.
 type: docs
-weight: 550
+weight: 540
 url: /net/aspose.words/controlchar/
 ---
 ## ControlChar class
@@ -69,14 +69,14 @@ builder.Writeln("Hello again!");
 
 // Converting the document to text form reveals that control characters
 // represent some of the document's structural elements, such as page breaks.
-Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
+Assert.That(doc.GetText(), Is.EqualTo($"Hello world!{ControlChar.Cr}" +
                 $"Hello again!{ControlChar.Cr}" +
-                ControlChar.PageBreak, doc.GetText());
+                ControlChar.PageBreak));
 
 // When converting a document to string form,
 // we can omit some of the control characters with the Trim method.
-Assert.AreEqual($"Hello world!{ControlChar.Cr}" +
-                "Hello again!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo($"Hello world!{ControlChar.Cr}" +
+                "Hello again!"));
 ```
 
 ### See Also

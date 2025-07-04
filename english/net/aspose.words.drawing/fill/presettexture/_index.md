@@ -39,8 +39,8 @@ doc.Save(ArtifactsDir + "Shape.TextureFill.docx", saveOptions);
 doc = new Document(ArtifactsDir + "Shape.TextureFill.docx");
 shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-Assert.AreEqual(TextureAlignment.TopRight, shape.Fill.TextureAlignment);
-Assert.AreEqual(PresetTexture.Canvas, shape.Fill.PresetTexture);
+Assert.That(shape.Fill.TextureAlignment, Is.EqualTo(TextureAlignment.TopRight));
+Assert.That(shape.Fill.PresetTexture, Is.EqualTo(PresetTexture.Canvas));
 ```
 
 ### See Also

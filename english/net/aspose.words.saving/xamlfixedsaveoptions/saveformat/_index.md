@@ -30,7 +30,7 @@ public void ResourceFolder()
     // to modify how we save the document to the XAML save format.
     XamlFixedSaveOptions options = new XamlFixedSaveOptions();
 
-    Assert.AreEqual(SaveFormat.XamlFixed, options.SaveFormat);
+    Assert.That(options.SaveFormat, Is.EqualTo(SaveFormat.XamlFixed));
 
     // Use the "ResourcesFolder" property to assign a folder in the local file system into which
     // Aspose.Words will save all the document's linked resources, such as images and fonts.

@@ -55,19 +55,19 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportT
 
 if (exportTocPageNumbers)
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<span>Entry 1</span>" +
         "<span style=\"width:428.14pt; font-family:'Lucida Console'; font-size:10pt; display:inline-block; -aw-font-family:'Times New Roman'; " +
         "-aw-tabstop-align:right; -aw-tabstop-leader:dots; -aw-tabstop-pos:469.8pt\">.......................................................................</span>" +
         "<span>2</span>" +
-        "</p>"));
+        "</p>"), Is.True);
 }
 else
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
         "<span>Entry 2</span>" +
-        "</p>"));
+        "</p>"), Is.True);
 }
 ```
 

@@ -2,7 +2,7 @@
 title: Aspose::Words::Style::set_SemiHidden method
 linktitle: set_SemiHidden
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Style::set_SemiHidden method. Gets/sets whether the style hides from the Styles gallery and from the Styles task pane in C++.'
+description: 'Aspose::Words::Style::set_SemiHidden method. Setter for Aspose::Words::Style::get_SemiHidden in C++.'
 type: docs
 weight: 29000
 url: /cpp/aspose.words/style/set_semihidden/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/style/set_semihidden/
 ## Style::set_SemiHidden method
 
 
-Gets/sets whether the style hides from the Styles gallery and from the Styles task pane.
+Setter for [Aspose::Words::Style::get_SemiHidden](../get_semihidden/).
 
 ```cpp
 void Aspose::Words::Style::set_SemiHidden(bool value)

@@ -33,14 +33,14 @@ public void FieldTocEntryIdentifier()
     fieldToc.EntryIdentifier = "A";
     fieldToc.EntryLevelRange = "1-3";
 
-    Assert.AreEqual(" TOC  \\f A \\l 1-3", fieldToc.GetFieldCode());
+    Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\f A \\l 1-3"));
 
     // These two entries will appear in the table.
     builder.InsertBreak(BreakType.PageBreak);
     InsertTocEntry(builder, "TC field 1", "A", "1");
     InsertTocEntry(builder, "TC field 2", "A", "2");
 
-    Assert.AreEqual(" TC  \"TC field 1\" \\n \\f A \\l 1", doc.Range.Fields[1].GetFieldCode());
+    Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" TC  \"TC field 1\" \\n \\f A \\l 1"));
 
     // This entry will be omitted from the table because it has a different type from "A".
     InsertTocEntry(builder, "TC field 3", "B", "1");

@@ -5,7 +5,7 @@ articleTitle: SubDocument
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.SubDocument class, efficiently manage and reference external documents for seamless integration and enhanced document processing.
 type: docs
-weight: 7030
+weight: 7020
 url: /net/aspose.words/subdocument/
 ---
 ## SubDocument class
@@ -63,7 +63,7 @@ NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
 // This node serves as a reference to an external document, and its contents cannot be accessed.
 SubDocument subDocument = (SubDocument)subDocuments[0];
 
-Assert.False(subDocument.IsComposite);
+Assert.That(subDocument.IsComposite, Is.False);
 ```
 
 ### See Also

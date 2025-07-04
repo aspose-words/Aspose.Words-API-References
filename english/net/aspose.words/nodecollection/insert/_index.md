@@ -53,22 +53,22 @@ builder.Write("Run 2. ");
 // which then appears in the parent Paragraph's RunCollection.
 RunCollection runs = doc.FirstSection.Body.FirstParagraph.Runs;
 
-Assert.AreEqual(2, runs.Count);
+Assert.That(runs.Count, Is.EqualTo(2));
 
 // We can also insert a node into the RunCollection manually.
 Run newRun = new Run(doc, "Run 3. ");
 runs.Insert(3, newRun);
 
-Assert.True(runs.Contains(newRun));
-Assert.AreEqual("Run 1. Run 2. Run 3.", doc.GetText().Trim());
+Assert.That(runs.Contains(newRun), Is.True);
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Run 1. Run 2. Run 3."));
 
 // Access individual runs and remove them to remove their text from the document.
 Run run = runs[1];
 runs.Remove(run);
 
-Assert.AreEqual("Run 1. Run 3.", doc.GetText().Trim());
-Assert.NotNull(run);
-Assert.False(runs.Contains(run));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Run 1. Run 3."));
+Assert.That(run, Is.Not.Null);
+Assert.That(runs.Contains(run), Is.False);
 ```
 
 ### See Also

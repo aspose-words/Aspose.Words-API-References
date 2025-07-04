@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
+Assert.That(doc.Range.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

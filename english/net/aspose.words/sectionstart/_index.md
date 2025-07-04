@@ -5,7 +5,7 @@ articleTitle: SectionStart
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.SectionStart enum to understand section breaks and enhance document formatting for better control and presentation.
 type: docs
-weight: 6600
+weight: 6590
 url: /net/aspose.words/sectionstart/
 ---
 ## SectionStart enumeration
@@ -68,7 +68,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```
@@ -86,25 +86,25 @@ builder.Writeln("This text is in section 1.");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Writeln("This text is in section 2.");
 
-Assert.AreEqual(SectionStart.NewPage, doc.Sections[1].PageSetup.SectionStart);
+Assert.That(doc.Sections[1].PageSetup.SectionStart, Is.EqualTo(SectionStart.NewPage));
 
 // 2 -  Starts the next section on the current page:
 builder.InsertBreak(BreakType.SectionBreakContinuous);
 builder.Writeln("This text is in section 3.");
 
-Assert.AreEqual(SectionStart.Continuous, doc.Sections[2].PageSetup.SectionStart);
+Assert.That(doc.Sections[2].PageSetup.SectionStart, Is.EqualTo(SectionStart.Continuous));
 
 // 3 -  Starts the next section on a new even page:
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.Writeln("This text is in section 4.");
 
-Assert.AreEqual(SectionStart.EvenPage, doc.Sections[3].PageSetup.SectionStart);
+Assert.That(doc.Sections[3].PageSetup.SectionStart, Is.EqualTo(SectionStart.EvenPage));
 
 // 4 -  Starts the next section on a new odd page:
 builder.InsertBreak(BreakType.SectionBreakOddPage);
 builder.Writeln("This text is in section 5.");
 
-Assert.AreEqual(SectionStart.OddPage, doc.Sections[4].PageSetup.SectionStart);
+Assert.That(doc.Sections[4].PageSetup.SectionStart, Is.EqualTo(SectionStart.OddPage));
 
 // 5 -  Starts the next section on a new column:
 TextColumnCollection columns = builder.PageSetup.TextColumns;
@@ -113,7 +113,7 @@ columns.SetCount(2);
 builder.InsertBreak(BreakType.SectionBreakNewColumn);
 builder.Writeln("This text is in section 6.");
 
-Assert.AreEqual(SectionStart.NewColumn, doc.Sections[5].PageSetup.SectionStart);
+Assert.That(doc.Sections[5].PageSetup.SectionStart, Is.EqualTo(SectionStart.NewColumn));
 
 doc.Save(ArtifactsDir + "PageSetup.SetSectionStart.docx");
 ```

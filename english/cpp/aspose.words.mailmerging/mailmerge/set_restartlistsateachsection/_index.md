@@ -2,7 +2,7 @@
 title: Aspose::Words::MailMerging::MailMerge::set_RestartListsAtEachSection method
 linktitle: set_RestartListsAtEachSection
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::MailMerging::MailMerge::set_RestartListsAtEachSection method. Setter for Aspose::Words::MailMerging::MailMerge::get_RestartListsAtEachSection in C++.'
+description: 'Aspose::Words::MailMerging::MailMerge::set_RestartListsAtEachSection method. Sets a value indicating whether lists are restarted at each section after executing of a mail merge in C++.'
 type: docs
 weight: 36000
 url: /cpp/aspose.words.mailmerging/mailmerge/set_restartlistsateachsection/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.mailmerging/mailmerge/set_restartlistsateachsection/
 ## MailMerge::set_RestartListsAtEachSection method
 
 
-Setter for [Aspose::Words::MailMerging::MailMerge::get_RestartListsAtEachSection](../get_restartlistsateachsection/).
+Sets a value indicating whether lists are restarted at each section after executing of a mail merge.
 
 ```cpp
 void Aspose::Words::MailMerging::MailMerge::set_RestartListsAtEachSection(bool value)

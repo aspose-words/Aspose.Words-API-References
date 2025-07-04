@@ -27,20 +27,20 @@ System::SharedPtr<Aspose::Words::Properties::DocumentProperty> Aspose::Words::Pr
 
 Shows how to work with custom document properties. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Properties.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Properties.docx");
 
 // Every document contains a collection of custom properties, which, like the built-in properties, are key-value pairs.
 // The document has a fixed list of built-in properties. The user creates all of the custom properties.
 ASSERT_EQ(u"Value of custom document property", System::ObjectExt::ToString(doc->get_CustomDocumentProperties()->idx_get(u"CustomProperty")));
 
-doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", String(u"Value of custom document property #2"));
+doc->get_CustomDocumentProperties()->Add(u"CustomProperty2", System::String(u"Value of custom document property #2"));
 
 std::cout << "Custom Properties:" << std::endl;
-for (const auto& customDocumentProperty : System::IterateOver(doc->get_CustomDocumentProperties()))
+for (auto&& customDocumentProperty : System::IterateOver(doc->get_CustomDocumentProperties()))
 {
     std::cout << customDocumentProperty->get_Name() << std::endl;
-    std::cout << String::Format(u"\tType:\t{0}", customDocumentProperty->get_Type()) << std::endl;
-    std::cout << "\tValue:\t\"" << customDocumentProperty->get_Value() << "\"" << std::endl;
+    std::cout << System::String::Format(u"\tType:\t{0}", customDocumentProperty->get_Type()) << std::endl;
+    std::cout << System::String::Format(u"\tValue:\t\"{0}\"", customDocumentProperty->get_Value()) << std::endl;
 }
 ```
 
@@ -74,11 +74,11 @@ Returns **null** if a property with the specified name is not found.
 
 Shows how to create a custom document property which contains a date and time. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 doc->get_CustomDocumentProperties()->Add(u"AuthorizationDate", System::DateTime::get_Now());
-
-std::cout << "Document authorized on " << doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime() << std::endl;
+System::DateTime authorizationDate = doc->get_CustomDocumentProperties()->idx_get(u"AuthorizationDate")->ToDateTime();
+std::cout << System::String::Format(u"Document authorized on {0}", authorizationDate) << std::endl;
 ```
 
 ## See Also

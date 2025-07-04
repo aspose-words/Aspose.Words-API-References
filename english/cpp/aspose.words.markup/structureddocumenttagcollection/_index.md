@@ -31,6 +31,25 @@ class StructuredDocumentTagCollection : public System::Collections::Generic::IEn
 | [Remove](./remove/)(int32_t) | Removes the structured document tag with the specified identifier. |
 | [RemoveAt](./removeat/)(int32_t) | Removes a structured document tag at the specified index. |
 | static [Type](./type/)() |  |
+
+## Examples
+
+
+
+Shows how to get structured document tag. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags by id.docx");
+
+// Get the structured document tag by Id.
+System::SharedPtr<Aspose::Words::Markup::IStructuredDocumentTag> sdt = doc->get_Range()->get_StructuredDocumentTags()->GetById(1160505028);
+std::cout << System::Convert::ToString(sdt->get_IsMultiSection()) << std::endl;
+std::cout << sdt->get_Title() << std::endl;
+
+// Get the structured document tag or ranged tag by Title.
+sdt = doc->get_Range()->get_StructuredDocumentTags()->GetByTitle(u"Alias4");
+std::cout << sdt->get_Id() << std::endl;
+```
+
 ## See Also
 
 * Namespace [Aspose::Words::Markup](../)

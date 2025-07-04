@@ -28,14 +28,13 @@ Aspose::Words::Saving::PageRange::PageRange(int32_t from, int32_t to)
 
 Shows how to extract pages based on exact page ranges. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Images.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
 
-auto imageOptions = MakeObject<ImageSaveOptions>(SaveFormat::Tiff);
-auto pageSet = MakeObject<PageSet>(MakeArray<SharedPtr<PageRange>>(
-    {MakeObject<PageRange>(1, 1), MakeObject<PageRange>(2, 3), MakeObject<PageRange>(1, 3), MakeObject<PageRange>(2, 4), MakeObject<PageRange>(1, 1)}));
+auto imageOptions = System::MakeObject<Aspose::Words::Saving::ImageSaveOptions>(Aspose::Words::SaveFormat::Tiff);
+auto pageSet = System::MakeObject<Aspose::Words::Saving::PageSet>(System::MakeArray<System::SharedPtr<Aspose::Words::Saving::PageRange>>({System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 3), System::MakeObject<Aspose::Words::Saving::PageRange>(2, 4), System::MakeObject<Aspose::Words::Saving::PageRange>(1, 1)}));
 
 imageOptions->set_PageSet(pageSet);
-doc->Save(ArtifactsDir + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
+doc->Save(get_ArtifactsDir() + u"ImageSaveOptions.ExportVariousPageRanges.tiff", imageOptions);
 ```
 
 ## See Also

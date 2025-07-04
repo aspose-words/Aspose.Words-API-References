@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::XlsxSaveOptions::set_SaveFormat method
 linktitle: set_SaveFormat
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::XlsxSaveOptions::set_SaveFormat method. Specifies the format in which the document will be saved if this save options object is used. Can only be Xlsx in C++.'
+description: 'Aspose::Words::Saving::XlsxSaveOptions::set_SaveFormat method. Setter for Aspose::Words::Saving::XlsxSaveOptions::get_SaveFormat in C++.'
 type: docs
 weight: 8000
 url: /cpp/aspose.words.saving/xlsxsaveoptions/set_saveformat/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/xlsxsaveoptions/set_saveformat/
 ## XlsxSaveOptions::set_SaveFormat method
 
 
-Specifies the format in which the document will be saved if this save options object is used. Can only be [Xlsx](../../../aspose.words/saveformat/).
+Setter for [Aspose::Words::Saving::XlsxSaveOptions::get_SaveFormat](../get_saveformat/).
 
 ```cpp
 void Aspose::Words::Saving::XlsxSaveOptions::set_SaveFormat(Aspose::Words::SaveFormat value) override

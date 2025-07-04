@@ -30,7 +30,7 @@ Shows how to resolve all font names before writing them to HTML.
 Document doc = new Document(MyDir + "Missing font.docx");
 
 // This document contains text that names a font that we do not have.
-Assert.NotNull(doc.FontInfos["28 Days Later"]);
+Assert.That(doc.FontInfos["28 Days Later"], Is.Not.Null);
 
 // If we have no way of getting this font, and we want to be able to display all the text
 // in this document in an output HTML, we can substitute it with another font.
@@ -58,9 +58,9 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.ResolveFontNames.html", saveOptions);
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ResolveFontNames.html");
 
-Assert.True(resolveFontNames
+Assert.That(resolveFontNames
     ? Regex.Match(outDocContents, "<span style=\"font-family:Arial\">").Success
-    : Regex.Match(outDocContents, "<span style=\"font-family:\'28 Days Later\'\">").Success);
+    : Regex.Match(outDocContents, "<span style=\"font-family:\'28 Days Later\'\">").Success, Is.True);
 ```
 
 ### See Also

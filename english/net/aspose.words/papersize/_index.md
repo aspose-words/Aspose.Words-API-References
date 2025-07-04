@@ -5,7 +5,7 @@ articleTitle: PaperSize
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.PaperSize enum for defining custom paper sizes in your documents. Enhance your document formatting with ease!
 type: docs
-weight: 5110
+weight: 5100
 url: /net/aspose.words/papersize/
 ---
 ## PaperSize enumeration
@@ -73,8 +73,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // by using the "PaperSize" property of this section's PageSetup object.
 builder.PageSetup.PaperSize = PaperSize.Tabloid;
 
-Assert.AreEqual(792.0d, builder.PageSetup.PageWidth);
-Assert.AreEqual(1224.0d, builder.PageSetup.PageHeight);
+Assert.That(builder.PageSetup.PageWidth, Is.EqualTo(792.0d));
+Assert.That(builder.PageSetup.PageHeight, Is.EqualTo(1224.0d));
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
@@ -82,13 +82,13 @@ builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.
 // that section's PageSetup object inherits all the previous section's PageSetup object's values.
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
-Assert.AreEqual(PaperSize.Tabloid, builder.PageSetup.PaperSize);
+Assert.That(builder.PageSetup.PaperSize, Is.EqualTo(PaperSize.Tabloid));
 
 builder.PageSetup.PaperSize = PaperSize.A5;
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
-Assert.AreEqual(419.55d, builder.PageSetup.PageWidth);
-Assert.AreEqual(595.30d, builder.PageSetup.PageHeight);
+Assert.That(builder.PageSetup.PageWidth, Is.EqualTo(419.55d));
+Assert.That(builder.PageSetup.PageHeight, Is.EqualTo(595.30d));
 
 builder.InsertBreak(BreakType.SectionBreakEvenPage);
 
@@ -96,7 +96,7 @@ builder.InsertBreak(BreakType.SectionBreakEvenPage);
 builder.PageSetup.PageWidth = 620;
 builder.PageSetup.PageHeight = 480;
 
-Assert.AreEqual(PaperSize.Custom, builder.PageSetup.PaperSize);
+Assert.That(builder.PageSetup.PaperSize, Is.EqualTo(PaperSize.Custom));
 
 builder.Writeln($"This page is {builder.PageSetup.PageWidth}x{builder.PageSetup.PageHeight}.");
 
@@ -143,7 +143,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```

@@ -31,8 +31,8 @@ doc.Save(ArtifactsDir + "PlainTextDocument.CustomDocumentProperties.docx");
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.CustomDocumentProperties.docx");
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
-Assert.AreEqual("123 Main St, London, UK", plaintext.CustomDocumentProperties["Location of writing"].Value);
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
+Assert.That(plaintext.CustomDocumentProperties["Location of writing"].Value, Is.EqualTo("123 Main St, London, UK"));
 ```
 
 ### See Also

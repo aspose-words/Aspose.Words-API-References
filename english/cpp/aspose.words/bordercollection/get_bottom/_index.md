@@ -23,12 +23,12 @@ System::SharedPtr<Aspose::Words::Border> Aspose::Words::BorderCollection::get_Bo
 
 Shows how to apply border and shading color while building a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Start a table and set a default color/thickness for its borders.
-SharedPtr<Table> table = builder->StartTable();
-table->SetBorders(LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
+table->SetBorders(Aspose::Words::LineStyle::Single, 2.0, System::Drawing::Color::get_Black());
 
 // Create a row with two cells with different background colors.
 builder->InsertCell();
@@ -53,7 +53,7 @@ builder->Writeln(u"Row 2, Cell 1.");
 builder->InsertCell();
 builder->Writeln(u"Row 2, Cell 2.");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.TableBordersAndShading.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.TableBordersAndShading.docx");
 ```
 
 ## See Also

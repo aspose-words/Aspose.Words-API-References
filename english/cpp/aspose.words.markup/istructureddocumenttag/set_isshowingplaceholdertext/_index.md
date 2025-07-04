@@ -2,7 +2,7 @@
 title: Aspose::Words::Markup::IStructuredDocumentTag::set_IsShowingPlaceholderText method
 linktitle: set_IsShowingPlaceholderText
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_IsShowingPlaceholderText method. Specifies whether the content of this SDT shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to true, this state shall be resumed (showing placeholder text) upon opening this document in C++.'
+description: 'Aspose::Words::Markup::IStructuredDocumentTag::set_IsShowingPlaceholderText method. Setter for Aspose::Words::Markup::IStructuredDocumentTag::get_IsShowingPlaceholderText in C++.'
 type: docs
 weight: 19000
 url: /cpp/aspose.words.markup/istructureddocumenttag/set_isshowingplaceholdertext/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.markup/istructureddocumenttag/set_isshowingplaceholdertex
 ## IStructuredDocumentTag::set_IsShowingPlaceholderText method
 
 
-Specifies whether the content of this **SDT** shall be interpreted to contain placeholder text (as opposed to regular text contents within the SDT). if set to true, this state shall be resumed (showing placeholder text) upon opening this document.
+Setter for [Aspose::Words::Markup::IStructuredDocumentTag::get_IsShowingPlaceholderText](../get_isshowingplaceholdertext/).
 
 ```cpp
 virtual void Aspose::Words::Markup::IStructuredDocumentTag::set_IsShowingPlaceholderText(bool value)=0

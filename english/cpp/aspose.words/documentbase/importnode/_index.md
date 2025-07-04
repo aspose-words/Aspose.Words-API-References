@@ -42,27 +42,30 @@ If the source node already belongs to the destination document, then simply a de
 
 Shows how to import a node from one document to another. 
 ```cpp
-auto srcDoc = MakeObject<Document>();
-auto dstDoc = MakeObject<Document>();
+auto srcDoc = System::MakeObject<Aspose::Words::Document>();
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
 
-srcDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(MakeObject<Run>(srcDoc, u"Source document first paragraph text."));
-dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(MakeObject<Run>(dstDoc, u"Destination document first paragraph text."));
+srcDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(srcDoc, u"Source document first paragraph text."));
+dstDoc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(dstDoc, u"Destination document first paragraph text."));
 
 // Every node has a parent document, which is the document that contains the node.
 // Inserting a node into a document that the node does not belong to will throw an exception.
 ASPOSE_ASSERT_NE(dstDoc, srcDoc->get_FirstSection()->get_Document());
-ASSERT_THROW(dstDoc->AppendChild(srcDoc->get_FirstSection()), System::ArgumentException);
+ASSERT_THROW(static_cast<std::function<void()>>([&dstDoc, &srcDoc]() -> void
+{
+    dstDoc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(srcDoc->get_FirstSection());
+})(), System::ArgumentException);
 
 // Use the ImportNode method to create a copy of a node, which will have the document
 // that called the ImportNode method set as its new owner document.
-auto importedSection = System::ExplicitCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true));
+auto importedSection = System::ExplicitCast<Aspose::Words::Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true));
 
 ASPOSE_ASSERT_EQ(dstDoc, importedSection->get_Document());
 
 // We can now insert the node into the document.
-dstDoc->AppendChild(importedSection);
+dstDoc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(importedSection);
 
-ASSERT_EQ(u"Destination document first paragraph text.\r\nSource document first paragraph text.\r\n", dstDoc->ToString(SaveFormat::Text));
+ASSERT_EQ(u"Destination document first paragraph text.\r\nSource document first paragraph text.\r\n", dstDoc->ToString(Aspose::Words::SaveFormat::Text));
 ```
 
 ## See Also
@@ -109,30 +112,30 @@ Shows how to import node from source document to destination document with speci
 ```cpp
 // Create two documents and add a character style to each document.
 // Configure the styles to have the same name, but different text formatting.
-auto srcDoc = MakeObject<Document>();
-SharedPtr<Style> srcStyle = srcDoc->get_Styles()->Add(StyleType::Character, u"My style");
+auto srcDoc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Style> srcStyle = srcDoc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"My style");
 srcStyle->get_Font()->set_Name(u"Courier New");
-auto srcBuilder = MakeObject<DocumentBuilder>(srcDoc);
+auto srcBuilder = System::MakeObject<Aspose::Words::DocumentBuilder>(srcDoc);
 srcBuilder->get_Font()->set_Style(srcStyle);
 srcBuilder->Writeln(u"Source document text.");
 
-auto dstDoc = MakeObject<Document>();
-SharedPtr<Style> dstStyle = dstDoc->get_Styles()->Add(StyleType::Character, u"My style");
+auto dstDoc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Style> dstStyle = dstDoc->get_Styles()->Add(Aspose::Words::StyleType::Character, u"My style");
 dstStyle->get_Font()->set_Name(u"Calibri");
-auto dstBuilder = MakeObject<DocumentBuilder>(dstDoc);
+auto dstBuilder = System::MakeObject<Aspose::Words::DocumentBuilder>(dstDoc);
 dstBuilder->get_Font()->set_Style(dstStyle);
 dstBuilder->Writeln(u"Destination document text.");
 
 // Import the Section from the destination document into the source document, causing a style name collision.
 // If we use destination styles, then the imported source text with the same style name
 // as destination text will adopt the destination style.
-auto importedSection = System::ExplicitCast<Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true, ImportFormatMode::UseDestinationStyles));
+auto importedSection = System::ExplicitCast<Aspose::Words::Section>(dstDoc->ImportNode(srcDoc->get_FirstSection(), true, Aspose::Words::ImportFormatMode::UseDestinationStyles));
 ASSERT_EQ(dstStyle->get_Font()->get_Name(), importedSection->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_Name());
 ASSERT_EQ(dstStyle->get_Name(), importedSection->get_Body()->get_FirstParagraph()->get_Runs()->idx_get(0)->get_Font()->get_StyleName());
 
 // If we use ImportFormatMode.KeepDifferentStyles, the source style is preserved,
 // and the naming clash resolves by adding a suffix.
-dstDoc->ImportNode(srcDoc->get_FirstSection(), true, ImportFormatMode::KeepDifferentStyles);
+dstDoc->ImportNode(srcDoc->get_FirstSection(), true, Aspose::Words::ImportFormatMode::KeepDifferentStyles);
 ASSERT_EQ(dstStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My style")->get_Font()->get_Name());
 ASSERT_EQ(srcStyle->get_Font()->get_Name(), dstDoc->get_Styles()->idx_get(u"My style_0")->get_Font()->get_Name());
 ```

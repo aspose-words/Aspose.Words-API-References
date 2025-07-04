@@ -27,13 +27,13 @@ using (MemoryStream stream = new MemoryStream(Encoding.ASCII.GetBytes("++12 and 
     Document doc = new Document(stream, loadOptions);
 
     Paragraph para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-    Assert.AreEqual(Underline.Single, para.Runs[0].Font.Underline);
+    Assert.That(para.Runs[0].Font.Underline, Is.EqualTo(Underline.Single));
 
     loadOptions = new MarkdownLoadOptions() { ImportUnderlineFormatting = false };
     doc = new Document(stream, loadOptions);
 
     para = (Paragraph)doc.GetChild(NodeType.Paragraph, 0, true);
-    Assert.AreEqual(Underline.None, para.Runs[0].Font.Underline);
+    Assert.That(para.Runs[0].Font.Underline, Is.EqualTo(Underline.None));
 }
 ```
 

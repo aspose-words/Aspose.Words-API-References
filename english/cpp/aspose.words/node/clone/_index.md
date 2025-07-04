@@ -37,22 +37,22 @@ This method always performs a deep copy of the node. The *isCloneChildren* param
 
 Shows how to clone a composite node. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
-para->AppendChild(MakeObject<Run>(doc, u"Hello world!"));
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Paragraph> para = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!"));
 
 // Below are two ways of cloning a composite node.
 // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
-SharedPtr<Node> cloneWithChildren = para->Clone(true);
+System::SharedPtr<Aspose::Words::Node> cloneWithChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(true);
 
-ASSERT_TRUE((System::ExplicitCast<CompositeNode>(cloneWithChildren))->get_HasChildNodes());
+ASSERT_TRUE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithChildren))->get_HasChildNodes());
 ASSERT_EQ(u"Hello world!", cloneWithChildren->GetText().Trim());
 
 // 2 -  Create a clone of a node just by itself without any children.
-SharedPtr<Node> cloneWithoutChildren = para->Clone(false);
+System::SharedPtr<Aspose::Words::Node> cloneWithoutChildren = System::ExplicitCast<Aspose::Words::Node>(para)->Clone(false);
 
-ASSERT_FALSE((System::ExplicitCast<CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
-ASSERT_EQ(String::Empty, cloneWithoutChildren->GetText().Trim());
+ASSERT_FALSE((System::ExplicitCast<Aspose::Words::CompositeNode>(cloneWithoutChildren))->get_HasChildNodes());
+ASSERT_EQ(System::String::Empty, cloneWithoutChildren->GetText().Trim());
 ```
 
 ## See Also

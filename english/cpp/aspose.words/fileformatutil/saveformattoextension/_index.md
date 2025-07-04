@@ -31,26 +31,26 @@ Shows how to use the [FileFormatUtil](../) methods to detect the format of a doc
 ```cpp
 // Load a document from a file that is missing a file extension, and then detect its file format.
 {
-    SharedPtr<System::IO::FileStream> docStream = System::IO::File::OpenRead(MyDir + u"Word document with missing file extension");
-    SharedPtr<FileFormatInfo> info = FileFormatUtil::DetectFileFormat(docStream);
-    LoadFormat loadFormat = info->get_LoadFormat();
+    System::SharedPtr<System::IO::FileStream> docStream = System::IO::File::OpenRead(get_MyDir() + u"Word document with missing file extension");
+    System::SharedPtr<Aspose::Words::FileFormatInfo> info = Aspose::Words::FileFormatUtil::DetectFileFormat(docStream);
+    Aspose::Words::LoadFormat loadFormat = info->get_LoadFormat();
 
-    ASSERT_EQ(LoadFormat::Doc, loadFormat);
+    ASSERT_EQ(Aspose::Words::LoadFormat::Doc, loadFormat);
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
-    String fileExtension = FileFormatUtil::LoadFormatToExtension(loadFormat);
-    SaveFormat saveFormat = FileFormatUtil::ExtensionToSaveFormat(fileExtension);
+    System::String fileExtension = Aspose::Words::FileFormatUtil::LoadFormatToExtension(loadFormat);
+    Aspose::Words::SaveFormat saveFormat = Aspose::Words::FileFormatUtil::ExtensionToSaveFormat(fileExtension);
 
     // 2 -  Convert the LoadFormat directly to its SaveFormat:
-    saveFormat = FileFormatUtil::LoadFormatToSaveFormat(loadFormat);
+    saveFormat = Aspose::Words::FileFormatUtil::LoadFormatToSaveFormat(loadFormat);
 
     // Load a document from the stream, and then save it to the automatically detected file extension.
-    auto doc = MakeObject<Document>(docStream);
+    auto doc = System::MakeObject<Aspose::Words::Document>(docStream);
 
-    ASSERT_EQ(u".doc", FileFormatUtil::SaveFormatToExtension(saveFormat));
+    ASSERT_EQ(u".doc", Aspose::Words::FileFormatUtil::SaveFormatToExtension(saveFormat));
 
-    doc->Save(ArtifactsDir + u"File.SaveToDetectedFileFormat" + FileFormatUtil::SaveFormatToExtension(saveFormat));
+    doc->Save(get_ArtifactsDir() + u"File.SaveToDetectedFileFormat" + Aspose::Words::FileFormatUtil::SaveFormatToExtension(saveFormat));
 }
 ```
 

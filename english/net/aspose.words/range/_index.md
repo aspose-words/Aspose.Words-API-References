@@ -5,7 +5,7 @@ articleTitle: Range
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Range class, your key to managing document sections effortlessly. Enhance your document processing with seamless control and flexibility.
 type: docs
-weight: 5250
+weight: 5240
 url: /net/aspose.words/range/
 ---
 ## Range class
@@ -62,7 +62,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 builder.Write("Hello world!");
 
-Assert.AreEqual("Hello world!", doc.Range.Text.Trim());
+Assert.That(doc.Range.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

@@ -50,8 +50,8 @@ Document dstDoc = new Document();
 Style newStyle = dstDoc.Styles.AddCopy(srcStyle);
 
 // The imported style has an appearance identical to its source style.
-Assert.AreEqual("MyStyle", newStyle.Name);
-Assert.AreEqual(Color.Red.ToArgb(), newStyle.Font.Color.ToArgb());
+Assert.That(newStyle.Name, Is.EqualTo("MyStyle"));
+Assert.That(newStyle.Font.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
 ```
 
 Shows how to clone a document's style.
@@ -70,13 +70,13 @@ newStyle.Name = "My Heading 1";
 // Changing settings of one of the styles do not affect the other.
 newStyle.Font.Color = Color.Red;
 
-Assert.AreEqual("My Heading 1", newStyle.Name);
-Assert.AreEqual("Heading 1", doc.Styles["Heading 1"].Name);
+Assert.That(newStyle.Name, Is.EqualTo("My Heading 1"));
+Assert.That(doc.Styles["Heading 1"].Name, Is.EqualTo("Heading 1"));
 
-Assert.AreEqual(doc.Styles["Heading 1"].Type, newStyle.Type);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Name, newStyle.Font.Name);
-Assert.AreEqual(doc.Styles["Heading 1"].Font.Size, newStyle.Font.Size);
-Assert.AreNotEqual(doc.Styles["Heading 1"].Font.Color, newStyle.Font.Color);
+Assert.That(newStyle.Type, Is.EqualTo(doc.Styles["Heading 1"].Type));
+Assert.That(newStyle.Font.Name, Is.EqualTo(doc.Styles["Heading 1"].Font.Name));
+Assert.That(newStyle.Font.Size, Is.EqualTo(doc.Styles["Heading 1"].Font.Size));
+Assert.That(newStyle.Font.Color, Is.Not.EqualTo(doc.Styles["Heading 1"].Font.Color));
 ```
 
 ### See Also

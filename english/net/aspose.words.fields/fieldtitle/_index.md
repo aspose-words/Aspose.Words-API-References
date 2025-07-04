@@ -5,7 +5,7 @@ articleTitle: FieldTitle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldTitle class for seamless TITLE field implementation. Enhance document management with powerful features today!
 type: docs
-weight: 2920
+weight: 2910
 url: /net/aspose.words.fields/fieldtitle/
 ---
 ## FieldTitle class
@@ -70,8 +70,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldTitle field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Update();
 
-Assert.AreEqual(" TITLE ", field.GetFieldCode());
-Assert.AreEqual("My Title", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TITLE "));
+Assert.That(field.Result, Is.EqualTo("My Title"));
 
 // Setting a value for the field's Text property,
 // and then updating the field will also overwrite the corresponding built-in property with the new value.
@@ -80,9 +80,9 @@ field = (FieldTitle)builder.InsertField(FieldType.FieldTitle, false);
 field.Text = "My New Title";
 field.Update();
 
-Assert.AreEqual(" TITLE  \"My New Title\"", field.GetFieldCode());
-Assert.AreEqual("My New Title", field.Result);
-Assert.AreEqual("My New Title", doc.BuiltInDocumentProperties.Title);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TITLE  \"My New Title\""));
+Assert.That(field.Result, Is.EqualTo("My New Title"));
+Assert.That(doc.BuiltInDocumentProperties.Title, Is.EqualTo("My New Title"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.TITLE.docx");

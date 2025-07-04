@@ -36,7 +36,7 @@ public void FieldCollection()
 
     FieldCollection fields = doc.Range.Fields;
 
-    Assert.AreEqual(6, fields.Count);
+    Assert.That(fields.Count, Is.EqualTo(6));
 
     // Iterate over the field collection, and print contents and type
     // of every field using a custom visitor implementation.

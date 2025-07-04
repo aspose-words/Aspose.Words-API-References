@@ -704,8 +704,8 @@ Shape imageShape = builder.InsertImage(ImageDir + "Logo.jpg", RelativeHorizontal
 
 // Passing negative values as the intended dimensions will automatically define
 // the shape's dimensions based on the dimensions of its image.
-Assert.AreEqual(300.0d, imageShape.Width);
-Assert.AreEqual(300.0d, imageShape.Height);
+Assert.That(imageShape.Width, Is.EqualTo(300.0d));
+Assert.That(imageShape.Height, Is.EqualTo(300.0d));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertImageOriginalSize.docx");
 ```

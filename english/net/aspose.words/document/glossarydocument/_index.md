@@ -43,16 +43,16 @@ public void CreateAndInsert()
     glossaryDoc.AppendChild(block);
 
     // All new building block GUIDs have the same zero value by default, and we can give them a new unique value.
-    Assert.AreEqual("00000000-0000-0000-0000-000000000000", block.Guid.ToString());
+    Assert.That(block.Guid.ToString(), Is.EqualTo("00000000-0000-0000-0000-000000000000"));
 
     block.Guid = Guid.NewGuid();
 
     // The following properties categorize building blocks
     // in the menu we can access in Microsoft Word via "Insert" -> "Quick Parts" -> "Building Blocks Organizer".
-    Assert.AreEqual("(Empty Category)", block.Category);
-    Assert.AreEqual(BuildingBlockType.None, block.Type);
-    Assert.AreEqual(BuildingBlockGallery.All, block.Gallery);
-    Assert.AreEqual(BuildingBlockBehavior.Content, block.Behavior);
+    Assert.That(block.Category, Is.EqualTo("(Empty Category)"));
+    Assert.That(block.Type, Is.EqualTo(BuildingBlockType.None));
+    Assert.That(block.Gallery, Is.EqualTo(BuildingBlockGallery.All));
+    Assert.That(block.Behavior, Is.EqualTo(BuildingBlockBehavior.Content));
 
     // Before we can add this building block to our document, we will need to give it some contents,
     // which we will do using a document visitor. This visitor will also set a category, gallery, and behavior.
@@ -65,8 +65,8 @@ public void CreateAndInsert()
         "My custom building blocks", "Custom Block");
 
     // The block itself is a section that contains the text.
-    Assert.AreEqual($"Text inside {customBlock.Name}\f", customBlock.FirstSection.Body.FirstParagraph.GetText());
-    Assert.AreEqual(customBlock.FirstSection, customBlock.LastSection);
+    Assert.That(customBlock.FirstSection.Body.FirstParagraph.GetText(), Is.EqualTo($"Text inside {customBlock.Name}\f"));
+    Assert.That(customBlock.LastSection, Is.EqualTo(customBlock.FirstSection));
     // Now, we can insert it into the document as a new section.
     doc.AppendChild(doc.ImportNode(customBlock.FirstSection, true));
 

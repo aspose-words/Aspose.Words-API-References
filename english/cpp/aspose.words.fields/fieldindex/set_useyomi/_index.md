@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldIndex::set_UseYomi method
 linktitle: set_UseYomi
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldIndex::set_UseYomi method. Sets whether to enable the use of yomi text for index entries in C++.'
+description: 'Aspose::Words::Fields::FieldIndex::set_UseYomi method. Setter for Aspose::Words::Fields::FieldIndex::get_UseYomi in C++.'
 type: docs
 weight: 33000
 url: /cpp/aspose.words.fields/fieldindex/set_useyomi/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldindex/set_useyomi/
 ## FieldIndex::set_UseYomi method
 
 
-Sets whether to enable the use of yomi text for index entries.
+Setter for [Aspose::Words::Fields::FieldIndex::get_UseYomi](../get_useyomi/).
 
 ```cpp
 void Aspose::Words::Fields::FieldIndex::set_UseYomi(bool value)

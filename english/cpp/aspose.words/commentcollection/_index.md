@@ -41,14 +41,14 @@ class CommentCollection : public Aspose::Words::NodeCollection
 
 Shows how to mark a comment as "done". 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Helo world!");
 
 // Insert a comment to point out an error.
-auto comment = MakeObject<Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
+auto comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
 comment->SetText(u"Fix the spelling error!");
-doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(comment);
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
 
 // Comments have a "Done" flag, which is set to "false" by default.
 // If a comment suggests that we make a change within the document,
@@ -60,11 +60,11 @@ comment->set_Done(true);
 
 // Comments that are "done" will differentiate themselves
 // from ones that are not "done" with a faded text color.
-comment = MakeObject<Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
+comment = System::MakeObject<Aspose::Words::Comment>(doc, u"John Doe", u"J.D.", System::DateTime::get_Now());
 comment->SetText(u"Add text to this paragraph.");
-builder->get_CurrentParagraph()->AppendChild(comment);
+builder->get_CurrentParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Comment>>(comment);
 
-doc->Save(ArtifactsDir + u"Comment.Done.docx");
+doc->Save(get_ArtifactsDir() + u"Comment.Done.docx");
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: VerticalAlignment
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle VerticalAlignment property to effortlessly control cell alignment in your tables, enhancing readability and presentation.
 type: docs
-weight: 150
+weight: 140
 url: /net/aspose.words/tablestyle/verticalalignment/
 ---
 ## TableStyle.VerticalAlignment property
@@ -54,9 +54,9 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 table.Style = tableStyle;
 
 // Setting the style properties of a table may affect the properties of the table itself.
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+Assert.That(table.Bidi, Is.True);
+Assert.That(table.CellSpacing, Is.EqualTo(5.0d));
+Assert.That(table.StyleName, Is.EqualTo("MyTableStyle1"));
 
 doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ```

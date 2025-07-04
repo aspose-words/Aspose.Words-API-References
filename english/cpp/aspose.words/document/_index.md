@@ -78,7 +78,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [get_HyphenationOptions](./get_hyphenationoptions/)() | Provides access to document hyphenation options. |
 | [get_IncludeTextboxesFootnotesEndnotesInStat](./get_includetextboxesfootnotesendnotesinstat/)() | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
 | [get_IsComposite](../compositenode/get_iscomposite/)() override | Returns **true** as this node can have child nodes. |
-| [get_JustificationMode](./get_justificationmode/)() | Gets the character spacing adjustment of a document. |
+| [get_JustificationMode](./get_justificationmode/)() | Gets or sets the character spacing adjustment of a document. |
 | [get_LastChild](../compositenode/get_lastchild/)() const | Gets the last child of the node. |
 | [get_LastSection](./get_lastsection/)() | Gets the last section in the document. |
 | [get_LayoutOptions](./get_layoutoptions/)() const | Gets a [LayoutOptions](../../aspose.words.layout/layoutoptions/) object that represents options to control the layout process of this document. |
@@ -169,17 +169,17 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_FontSettings](./set_fontsettings/)(const System::SharedPtr\<Aspose::Words::Fonts::FontSettings\>\&) | Setter for [Aspose::Words::Document::get_FontSettings](./get_fontsettings/). |
 | [set_GlossaryDocument](./set_glossarydocument/)(const System::SharedPtr\<Aspose::Words::BuildingBlocks::GlossaryDocument\>\&) | Setter for [Aspose::Words::Document::get_GlossaryDocument](./get_glossarydocument/). |
 | [set_GrammarChecked](./set_grammarchecked/)(bool) | Setter for [Aspose::Words::Document::get_GrammarChecked](./get_grammarchecked/). |
-| [set_IncludeTextboxesFootnotesEndnotesInStat](./set_includetextboxesfootnotesendnotesinstat/)(bool) | Specifies whether to include textboxes, footnotes and endnotes in word count statistics. |
-| [set_JustificationMode](./set_justificationmode/)(Aspose::Words::Settings::JustificationMode) | Sets the character spacing adjustment of a document. |
+| [set_IncludeTextboxesFootnotesEndnotesInStat](./set_includetextboxesfootnotesendnotesinstat/)(bool) | Setter for [Aspose::Words::Document::get_IncludeTextboxesFootnotesEndnotesInStat](./get_includetextboxesfootnotesendnotesinstat/). |
+| [set_JustificationMode](./set_justificationmode/)(Aspose::Words::Settings::JustificationMode) | Setter for [Aspose::Words::Document::get_JustificationMode](./get_justificationmode/). |
 | [set_MailMergeSettings](./set_mailmergesettings/)(const System::SharedPtr\<Aspose::Words::Settings::MailMergeSettings\>\&) | Setter for [Aspose::Words::Document::get_MailMergeSettings](./get_mailmergesettings/). |
 | [set_NextNode](../node/set_nextnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_NodeChangingCallback](../documentbase/set_nodechangingcallback/)(const System::SharedPtr\<Aspose::Words::INodeChangingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_NodeChangingCallback](../documentbase/get_nodechangingcallback/). |
+| [set_NodeChangingCallback](../documentbase/set_nodechangingcallback/)(const System::SharedPtr\<Aspose::Words::INodeChangingCallback\>\&) | Called when a node is inserted or removed in the document. |
 | [set_PackageCustomParts](./set_packagecustomparts/)(const System::SharedPtr\<Aspose::Words::Markup::CustomPartCollection\>\&) | Setter for [Aspose::Words::Document::get_PackageCustomParts](./get_packagecustomparts/). |
 | [set_PageColor](../documentbase/set_pagecolor/)(System::Drawing::Color) | Setter for [Aspose::Words::DocumentBase::get_PageColor](../documentbase/get_pagecolor/). |
 | [set_PrevNode](../node/set_prevnode/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
-| [set_PunctuationKerning](./set_punctuationkerning/)(bool) | Specifies whether kerning applies to both Latin text and punctuation. |
+| [set_PunctuationKerning](./set_punctuationkerning/)(bool) | Setter for [Aspose::Words::Document::get_PunctuationKerning](./get_punctuationkerning/). |
 | [set_RemovePersonalInformation](./set_removepersonalinformation/)(bool) | Setter for [Aspose::Words::Document::get_RemovePersonalInformation](./get_removepersonalinformation/). |
-| [set_ResourceLoadingCallback](../documentbase/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_ResourceLoadingCallback](../documentbase/get_resourceloadingcallback/). |
+| [set_ResourceLoadingCallback](../documentbase/set_resourceloadingcallback/)(const System::SharedPtr\<Aspose::Words::Loading::IResourceLoadingCallback\>\&) | Allows to control how external resources are loaded. |
 | [set_RevisionsView](./set_revisionsview/)(Aspose::Words::RevisionsView) | Setter for [Aspose::Words::Document::get_RevisionsView](./get_revisionsview/). |
 | [set_ShadeFormData](./set_shadeformdata/)(bool) | Setter for [Aspose::Words::Document::get_ShadeFormData](./get_shadeformdata/). |
 | [set_ShowGrammaticalErrors](./set_showgrammaticalerrors/)(bool) | Setter for [Aspose::Words::Document::get_ShowGrammaticalErrors](./get_showgrammaticalerrors/). |
@@ -187,7 +187,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [set_SpellingChecked](./set_spellingchecked/)(bool) | Setter for [Aspose::Words::Document::get_SpellingChecked](./get_spellingchecked/). |
 | [set_TrackRevisions](./set_trackrevisions/)(bool) | Setter for [Aspose::Words::Document::get_TrackRevisions](./get_trackrevisions/). |
 | [set_VbaProject](./set_vbaproject/)(const System::SharedPtr\<Aspose::Words::Vba::VbaProject\>\&) | Setter for [Aspose::Words::Document::get_VbaProject](./get_vbaproject/). |
-| [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Setter for [Aspose::Words::DocumentBase::get_WarningCallback](../documentbase/get_warningcallback/). |
+| [set_WarningCallback](../documentbase/set_warningcallback/)(const System::SharedPtr\<Aspose::Words::IWarningCallback\>\&) | Called during various document processing procedures when an issue is detected that might result in data or formatting fidelity loss. |
 | [SetParent](../node/setparent/)(const System::SharedPtr\<Aspose::Words::Node\>\&) |  |
 | [SetTemplateWeakPtr](../compositenode/settemplateweakptr/)(uint32_t) override |  |
 | [StartTrackRevisions](./starttrackrevisions/)(const System::String\&, System::DateTime) | Starts automatically marking all further changes you make to the document programmatically as revision changes. |
@@ -203,7 +203,7 @@ class Document : public Aspose::Words::DocumentBase,
 | [UpdateFields](./updatefields/)() | Updates the values of fields in the whole document. |
 | [UpdateListLabels](./updatelistlabels/)() | Updates list labels for all list items in the document. |
 | [UpdatePageLayout](./updatepagelayout/)() | Rebuilds the page layout of the document. |
-| [UpdateTableLayout](./updatetablelayout/)() |  |
+| [UpdateTableLayout](./updatetablelayout/)() | Implements an earlier approach to table column widths re-calculation that has known issues. |
 | [UpdateThumbnail](./updatethumbnail/)(const System::SharedPtr\<Aspose::Words::Rendering::ThumbnailGeneratingOptions\>\&) | Updates [Thumbnail](../../aspose.words.properties/builtindocumentproperties/get_thumbnail/) of the document according to the specified options. |
 | [UpdateThumbnail](./updatethumbnail/)() | Updates [Thumbnail](../../aspose.words.properties/builtindocumentproperties/get_thumbnail/) of the document using default options. |
 | [UpdateWordCount](./updatewordcount/)() | Updates word count properties of the document. |

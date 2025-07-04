@@ -16,6 +16,20 @@ Retrieves a [FootnoteSeparator](../../footnoteseparator/) of the specified type.
 System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> Aspose::Words::Notes::FootnoteSeparatorCollection::idx_get(Aspose::Words::Notes::FootnoteSeparatorType separatorType)
 ```
 
+
+## Examples
+
+
+
+Shows how to manage footnote separator format. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::FootnoteSeparator);
+// Align footnote separator.
+footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+```
+
 ## See Also
 
 * Class [FootnoteSeparator](../../footnoteseparator/)

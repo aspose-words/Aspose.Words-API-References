@@ -29,15 +29,15 @@ For all other SDT types exception will occur.
 
 Shows how to insert a structured document tag as a building block, and set its category and gallery. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto buildingBlockSdt = MakeObject<StructuredDocumentTag>(doc, SdtType::BuildingBlockGallery, MarkupLevel::Block);
+auto buildingBlockSdt = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::BuildingBlockGallery, Aspose::Words::Markup::MarkupLevel::Block);
 buildingBlockSdt->set_BuildingBlockCategory(u"Built-in");
 buildingBlockSdt->set_BuildingBlockGallery(u"Table of Contents");
 
-doc->get_FirstSection()->get_Body()->AppendChild(buildingBlockSdt);
+doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(buildingBlockSdt);
 
-doc->Save(ArtifactsDir + u"StructuredDocumentTag.BuildingBlockCategories.docx");
+doc->Save(get_ArtifactsDir() + u"StructuredDocumentTag.BuildingBlockCategories.docx");
 ```
 
 ## See Also

@@ -5,7 +5,7 @@ articleTitle: WebExtensionStoreType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WebExtensionStoreType enum, featuring diverse web extension store types for seamless integration and enhanced functionality.
 type: docs
-weight: 7680
+weight: 7670
 url: /net/aspose.words.webextensions/webextensionstoretype/
 ---
 ## WebExtensionStoreType enumeration
@@ -68,34 +68,34 @@ doc.Save(ArtifactsDir + "Document.WebExtension.docx");
 // Remove all web extension task panes at once like this.
 doc.WebExtensionTaskPanes.Clear();
 
-Assert.AreEqual(0, doc.WebExtensionTaskPanes.Count);
+Assert.That(doc.WebExtensionTaskPanes.Count, Is.EqualTo(0));
 
 doc = new Document(ArtifactsDir + "Document.WebExtension.docx");
 
 myScriptTaskPane = doc.WebExtensionTaskPanes[0];
-Assert.AreEqual(TaskPaneDockState.Right, myScriptTaskPane.DockState);
-Assert.True(myScriptTaskPane.IsVisible);
-Assert.AreEqual(300.0d, myScriptTaskPane.Width);
-Assert.True(myScriptTaskPane.IsLocked);
-Assert.AreEqual(1, myScriptTaskPane.Row);
+Assert.That(myScriptTaskPane.DockState, Is.EqualTo(TaskPaneDockState.Right));
+Assert.That(myScriptTaskPane.IsVisible, Is.True);
+Assert.That(myScriptTaskPane.Width, Is.EqualTo(300.0d));
+Assert.That(myScriptTaskPane.IsLocked, Is.True);
+Assert.That(myScriptTaskPane.Row, Is.EqualTo(1));
 
 webExtension = myScriptTaskPane.WebExtension;
-Assert.AreEqual(string.Empty, webExtension.Id);
+Assert.That(webExtension.Id, Is.EqualTo(string.Empty));
 
-Assert.AreEqual("WA104380646", webExtension.Reference.Id);
-Assert.AreEqual("1.0.0.0", webExtension.Reference.Version);
-Assert.AreEqual(WebExtensionStoreType.OMEX, webExtension.Reference.StoreType);
-Assert.AreEqual(CultureInfo.CurrentCulture.Name, webExtension.Reference.Store);
-Assert.AreEqual(0, webExtension.AlternateReferences.Count);
+Assert.That(webExtension.Reference.Id, Is.EqualTo("WA104380646"));
+Assert.That(webExtension.Reference.Version, Is.EqualTo("1.0.0.0"));
+Assert.That(webExtension.Reference.StoreType, Is.EqualTo(WebExtensionStoreType.OMEX));
+Assert.That(webExtension.Reference.Store, Is.EqualTo(CultureInfo.CurrentCulture.Name));
+Assert.That(webExtension.AlternateReferences.Count, Is.EqualTo(0));
 
-Assert.AreEqual("MyScript", webExtension.Properties[0].Name);
-Assert.AreEqual("MyScript Math Sample", webExtension.Properties[0].Value);
+Assert.That(webExtension.Properties[0].Name, Is.EqualTo("MyScript"));
+Assert.That(webExtension.Properties[0].Value, Is.EqualTo("MyScript Math Sample"));
 
-Assert.AreEqual("MyScript", webExtension.Bindings[0].Id);
-Assert.AreEqual(WebExtensionBindingType.Text, webExtension.Bindings[0].BindingType);
-Assert.AreEqual("104380646", webExtension.Bindings[0].AppRef);
+Assert.That(webExtension.Bindings[0].Id, Is.EqualTo("MyScript"));
+Assert.That(webExtension.Bindings[0].BindingType, Is.EqualTo(WebExtensionBindingType.Text));
+Assert.That(webExtension.Bindings[0].AppRef, Is.EqualTo("104380646"));
 
-Assert.False(webExtension.IsFrozen);
+Assert.That(webExtension.IsFrozen, Is.False);
 ```
 
 ### See Also

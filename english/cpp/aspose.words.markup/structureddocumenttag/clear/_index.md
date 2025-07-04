@@ -29,24 +29,24 @@ If this structured document tag is mapped to custom XML (with using the [XmlMapp
 
 Shows how to delete contents of structured document tag elements. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a plain text structured document tag, and then append it to the document.
-auto tag = MakeObject<StructuredDocumentTag>(doc, SdtType::PlainText, MarkupLevel::Block);
-doc->get_FirstSection()->get_Body()->AppendChild(tag);
+auto tag = System::MakeObject<Aspose::Words::Markup::StructuredDocumentTag>(doc, Aspose::Words::Markup::SdtType::PlainText, Aspose::Words::Markup::MarkupLevel::Block);
+doc->get_FirstSection()->get_Body()->AppendChild<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>(tag);
 
 // This structured document tag, which is in the form of a text box, already displays placeholder text.
 ASSERT_EQ(u"Click here to enter text.", tag->GetText().Trim());
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Create a building block with text contents.
-SharedPtr<GlossaryDocument> glossaryDoc = doc->get_GlossaryDocument();
-auto substituteBlock = MakeObject<BuildingBlock>(glossaryDoc);
+System::SharedPtr<Aspose::Words::BuildingBlocks::GlossaryDocument> glossaryDoc = doc->get_GlossaryDocument();
+auto substituteBlock = System::MakeObject<Aspose::Words::BuildingBlocks::BuildingBlock>(glossaryDoc);
 substituteBlock->set_Name(u"My placeholder");
-substituteBlock->AppendChild(MakeObject<Section>(glossaryDoc));
+substituteBlock->AppendChild<System::SharedPtr<Aspose::Words::Section>>(System::MakeObject<Aspose::Words::Section>(glossaryDoc));
 substituteBlock->get_FirstSection()->EnsureMinimum();
-substituteBlock->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(MakeObject<Run>(glossaryDoc, u"Custom placeholder text."));
-glossaryDoc->AppendChild(substituteBlock);
+substituteBlock->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(System::MakeObject<Aspose::Words::Run>(glossaryDoc, u"Custom placeholder text."));
+glossaryDoc->AppendChild<System::SharedPtr<Aspose::Words::BuildingBlocks::BuildingBlock>>(substituteBlock);
 
 // Set the structured document tag's "PlaceholderName" property to our building block's name to get
 // the structured document tag to display the contents of the building block in place of the original default text.
@@ -56,7 +56,7 @@ ASSERT_EQ(u"Custom placeholder text.", tag->GetText().Trim());
 ASSERT_TRUE(tag->get_IsShowingPlaceholderText());
 
 // Edit the text of the structured document tag and hide the placeholder text.
-auto run = System::ExplicitCast<Run>(tag->GetChild(NodeType::Run, 0, true));
+auto run = System::ExplicitCast<Aspose::Words::Run>(tag->GetChild(Aspose::Words::NodeType::Run, 0, true));
 run->set_Text(u"New text.");
 tag->set_IsShowingPlaceholderText(false);
 

@@ -33,48 +33,48 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Normal editing of the document does not count as a revision.
 builder.Write("This does not count as a revision. ");
 
-Assert.IsFalse(doc.HasRevisions);
+Assert.That(doc.HasRevisions, Is.False);
 
 // To register our edits as revisions, we need to declare an author, and then start tracking them.
 doc.StartTrackRevisions("John Doe", DateTime.Now);
 
 builder.Write("This is revision #1. ");
 
-Assert.IsTrue(doc.HasRevisions);
-Assert.AreEqual(1, doc.Revisions.Count);
+Assert.That(doc.HasRevisions, Is.True);
+Assert.That(doc.Revisions.Count, Is.EqualTo(1));
 
 // This flag corresponds to the "Review" -> "Tracking" -> "Track Changes" option in Microsoft Word.
 // The "StartTrackRevisions" method does not affect its value,
 // and the document is tracking revisions programmatically despite it having a value of "false".
 // If we open this document using Microsoft Word, it will not be tracking revisions.
-Assert.IsFalse(doc.TrackRevisions);
+Assert.That(doc.TrackRevisions, Is.False);
 
 // We have added text using the document builder, so the first revision is an insertion-type revision.
 Revision revision = doc.Revisions[0];
-Assert.AreEqual("John Doe", revision.Author);
-Assert.AreEqual("This is revision #1. ", revision.ParentNode.GetText());
-Assert.AreEqual(RevisionType.Insertion, revision.RevisionType);
-Assert.AreEqual(revision.DateTime.Date, DateTime.Now.Date);
-Assert.AreEqual(doc.Revisions.Groups[0], revision.Group);
+Assert.That(revision.Author, Is.EqualTo("John Doe"));
+Assert.That(revision.ParentNode.GetText(), Is.EqualTo("This is revision #1. "));
+Assert.That(revision.RevisionType, Is.EqualTo(RevisionType.Insertion));
+Assert.That(DateTime.Now.Date, Is.EqualTo(revision.DateTime.Date));
+Assert.That(revision.Group, Is.EqualTo(doc.Revisions.Groups[0]));
 
 // Remove a run to create a deletion-type revision.
 doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
 
 // Adding a new revision places it at the beginning of the revision collection.
-Assert.AreEqual(RevisionType.Deletion, doc.Revisions[0].RevisionType);
-Assert.AreEqual(2, doc.Revisions.Count);
+Assert.That(doc.Revisions[0].RevisionType, Is.EqualTo(RevisionType.Deletion));
+Assert.That(doc.Revisions.Count, Is.EqualTo(2));
 
 // Insert revisions show up in the document body even before we accept/reject the revision.
 // Rejecting the revision will remove its nodes from the body. Conversely, nodes that make up delete revisions
 // also linger in the document until we accept the revision.
-Assert.AreEqual("This does not count as a revision. This is revision #1.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("This does not count as a revision. This is revision #1."));
 
 // Accepting the delete revision will remove its parent node from the paragraph text
 // and then remove the collection's revision itself.
 doc.Revisions[0].Accept();
 
-Assert.AreEqual(1, doc.Revisions.Count);
-Assert.AreEqual("This is revision #1.", doc.GetText().Trim());
+Assert.That(doc.Revisions.Count, Is.EqualTo(1));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("This is revision #1."));
 
 builder.Writeln("");
 builder.Write("This is revision #2.");
@@ -91,15 +91,15 @@ while (node != endNode)
     node = nextNode;
 }
 
-Assert.AreEqual(RevisionType.Moving, doc.Revisions[0].RevisionType);
-Assert.AreEqual(8, doc.Revisions.Count);
-Assert.AreEqual("This is revision #2.\rThis is revision #1. \rThis is revision #2.", doc.GetText().Trim());
+Assert.That(doc.Revisions[0].RevisionType, Is.EqualTo(RevisionType.Moving));
+Assert.That(doc.Revisions.Count, Is.EqualTo(8));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("This is revision #2.\rThis is revision #1. \rThis is revision #2."));
 
 // The moving revision is now at index 1. Reject the revision to discard its contents.
 doc.Revisions[1].Reject();
 
-Assert.AreEqual(6, doc.Revisions.Count);
-Assert.AreEqual("This is revision #1. \rThis is revision #2.", doc.GetText().Trim());
+Assert.That(doc.Revisions.Count, Is.EqualTo(6));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("This is revision #1. \rThis is revision #2."));
 ```
 
 ### See Also

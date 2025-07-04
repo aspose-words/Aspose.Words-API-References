@@ -26,11 +26,11 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("DATE \\@ \"dddd, MMMM dd, yyyy\"");
 
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual("DATE \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.GetFieldCode(), Is.EqualTo("DATE \\@ \"dddd, MMMM dd, yyyy\""));
 
 // This overload of the InsertField method automatically updates inserted fields.
-Assert.True((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1);
+Assert.That((DateTime.Today - DateTime.Parse(field.Result)).Days <= 1, Is.True);
 ```
 
 ### See Also

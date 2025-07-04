@@ -28,10 +28,10 @@ Shape shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // Apply One-color gradient fill to the shape with ForeColor of gradient fill.
 shape.Fill.OneColorGradient(Color.Red, GradientStyle.Horizontal, GradientVariant.Variant2, 0.1);
 
-Assert.AreEqual(Color.Red.ToArgb(), shape.Fill.ForeColor.ToArgb());
-Assert.AreEqual(GradientStyle.Horizontal, shape.Fill.GradientStyle);
-Assert.AreEqual(GradientVariant.Variant2, shape.Fill.GradientVariant);
-Assert.AreEqual(270, shape.Fill.GradientAngle);
+Assert.That(shape.Fill.ForeColor.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+Assert.That(shape.Fill.GradientStyle, Is.EqualTo(GradientStyle.Horizontal));
+Assert.That(shape.Fill.GradientVariant, Is.EqualTo(GradientVariant.Variant2));
+Assert.That(shape.Fill.GradientAngle, Is.EqualTo(270));
 
 shape = builder.InsertShape(ShapeType.Rectangle, 80, 80);
 // Apply Two-color gradient fill to the shape.
@@ -42,10 +42,10 @@ shape.Fill.BackColor = Color.Yellow;
 // gradient fill don't get any effect, it will work only for linear gradient.
 shape.Fill.GradientAngle = 15;
 
-Assert.AreEqual(Color.Yellow.ToArgb(), shape.Fill.BackColor.ToArgb());
-Assert.AreEqual(GradientStyle.FromCorner, shape.Fill.GradientStyle);
-Assert.AreEqual(GradientVariant.Variant4, shape.Fill.GradientVariant);
-Assert.AreEqual(0, shape.Fill.GradientAngle);
+Assert.That(shape.Fill.BackColor.ToArgb(), Is.EqualTo(Color.Yellow.ToArgb()));
+Assert.That(shape.Fill.GradientStyle, Is.EqualTo(GradientStyle.FromCorner));
+Assert.That(shape.Fill.GradientVariant, Is.EqualTo(GradientVariant.Variant4));
+Assert.That(shape.Fill.GradientAngle, Is.EqualTo(0));
 
 // Use the compliance option to define the shape using DML if you want to get "GradientStyle",
 // "GradientVariant" and "GradientAngle" properties after the document saves.

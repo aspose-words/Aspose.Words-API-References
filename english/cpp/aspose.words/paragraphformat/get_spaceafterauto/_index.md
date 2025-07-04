@@ -38,8 +38,8 @@ When you set paragraph Space Before and Space After to Auto, **Microsoft** Word 
 
 Shows how to set automatic paragraph spacing. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Apply a large amount of spacing before and after paragraphs that this builder will create.
 builder->get_ParagraphFormat()->set_SpaceBefore(24);
@@ -55,7 +55,7 @@ builder->get_ParagraphFormat()->set_SpaceBeforeAuto(autoSpacing);
 builder->Writeln(u"Paragraph 1.");
 builder->Writeln(u"Paragraph 2.");
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.ParagraphSpacingAuto.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
 ## See Also

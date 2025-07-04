@@ -40,7 +40,7 @@ long updatedChecksum = richText.XmlMapping.CustomXmlPart.DataChecksum;
 Console.WriteLine(updatedChecksum);
 
 // We changed the XmlPart of the tag, and the checksum was updated at runtime.
-Assert.AreNotEqual(checksum, updatedChecksum);
+Assert.That(updatedChecksum, Is.Not.EqualTo(checksum));
 ```
 
 ### See Also

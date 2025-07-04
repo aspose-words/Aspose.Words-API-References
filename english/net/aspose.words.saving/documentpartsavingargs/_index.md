@@ -5,7 +5,7 @@ articleTitle: DocumentPartSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.DocumentPartSavingArgs class, essential for enhancing document processing with customizable saving options and efficient callbacks.
 type: docs
-weight: 5690
+weight: 5680
 url: /net/aspose.words.saving/documentpartsavingargs/
 ---
 ## DocumentPartSavingArgs class
@@ -80,7 +80,7 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
     void IDocumentPartSavingCallback.DocumentPartSaving(DocumentPartSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         string partType = string.Empty;
 
@@ -109,8 +109,8 @@ private class SavedDocumentPartRename : IDocumentPartSavingCallback
         // 2 -  Create a custom stream for the output part file:
         args.DocumentPartStream = new FileStream(ArtifactsDir + partFileName, FileMode.Create);
 
-        Assert.True(args.DocumentPartStream.CanWrite);
-        Assert.False(args.KeepDocumentPartStreamOpen);
+        Assert.That(args.DocumentPartStream.CanWrite, Is.True);
+        Assert.That(args.KeepDocumentPartStreamOpen, Is.False);
     }
 
     private int mCount;
@@ -139,9 +139,9 @@ public class SavedImageRename : IImageSavingCallback
         // 2 -  Create a custom stream for the output image file:
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
-        Assert.True(args.ImageStream.CanWrite);
-        Assert.True(args.IsImageAvailable);
-        Assert.False(args.KeepImageStreamOpen);
+        Assert.That(args.ImageStream.CanWrite, Is.True);
+        Assert.That(args.IsImageAvailable, Is.True);
+        Assert.That(args.KeepImageStreamOpen, Is.False);
     }
 
     private int mCount;

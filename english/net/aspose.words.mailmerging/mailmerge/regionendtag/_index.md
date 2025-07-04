@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // "TableStart" and "TableEnd" tags, which go inside MERGEFIELDs,
 // denote the strings that signify the starts and ends of mail merge regions.
-Assert.AreEqual("TableStart", doc.MailMerge.RegionStartTag);
-Assert.AreEqual("TableEnd", doc.MailMerge.RegionEndTag);
+Assert.That(doc.MailMerge.RegionStartTag, Is.EqualTo("TableStart"));
+Assert.That(doc.MailMerge.RegionEndTag, Is.EqualTo("TableEnd"));
 
 // Use these tags to start and end a mail merge region named "MailMergeRegion1",
 // which will contain MERGEFIELDs for two columns.
@@ -40,13 +40,13 @@ builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 // We can keep track of merge regions and their columns by looking at these collections.
 IList<MailMergeRegionInfo> regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
-Assert.AreEqual(1, regions.Count);
-Assert.AreEqual("MailMergeRegion1", regions[0].Name);
+Assert.That(regions.Count, Is.EqualTo(1));
+Assert.That(regions[0].Name, Is.EqualTo("MailMergeRegion1"));
 
 string[] mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1");
 
-Assert.AreEqual("Column1", mergeFieldNames[0]);
-Assert.AreEqual("Column2", mergeFieldNames[1]);
+Assert.That(mergeFieldNames[0], Is.EqualTo("Column1"));
+Assert.That(mergeFieldNames[1], Is.EqualTo("Column2"));
 
 // Insert a region with the same name inside the existing region, which will make it a parent.
 // Now a "Column2" field will be inside a new region.
@@ -59,13 +59,13 @@ builder.InsertField(" MERGEFIELD TableEnd:MailMergeRegion1");
 // it will return all such regions in a collection.
 regions = doc.MailMerge.GetRegionsByName("MailMergeRegion1");
 
-Assert.AreEqual(2, regions.Count);
+Assert.That(regions.Count, Is.EqualTo(2));
 // Check that the second region now has a parent region.
-Assert.AreEqual("MailMergeRegion1", regions[1].ParentRegion.Name);
+Assert.That(regions[1].ParentRegion.Name, Is.EqualTo("MailMergeRegion1"));
 
 mergeFieldNames = doc.MailMerge.GetFieldNamesForRegion("MailMergeRegion1", 1);
 
-Assert.AreEqual("Column2", mergeFieldNames[0]);
+Assert.That(mergeFieldNames[0], Is.EqualTo("Column2"));
 ```
 
 ### See Also

@@ -23,8 +23,8 @@ Aspose::Words::Layout::RevisionColor Aspose::Words::Layout::RevisionOptions::get
 
 Shows how to alter the appearance of revisions in a rendered output document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a revision, then change the color of all revisions to green.
 builder->Writeln(u"This is not a revision.");
@@ -34,10 +34,11 @@ doc->StopTrackRevisions();
 builder->Writeln(u"This is not a revision.");
 
 // Remove the bar that appears to the left of every revised line.
-doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(RevisionColor::BrightGreen);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_InsertedTextColor(Aspose::Words::Layout::RevisionColor::BrightGreen);
 doc->get_LayoutOptions()->get_RevisionOptions()->set_ShowRevisionBars(false);
+doc->get_LayoutOptions()->get_RevisionOptions()->set_RevisionBarsPosition(Aspose::Words::Drawing::HorizontalAlignment::Right);
 
-doc->Save(ArtifactsDir + u"Document.LayoutOptionsRevisions.pdf");
+doc->Save(get_ArtifactsDir() + u"Revision.LayoutOptionsRevisions.pdf");
 ```
 
 ## See Also

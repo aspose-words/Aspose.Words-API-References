@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_BookTitle method
 linktitle: set_BookTitle
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_BookTitle method. Sets the book title of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_BookTitle method. Setter for Aspose::Words::Bibliography::Source::get_BookTitle in C++.'
 type: docs
 weight: 60000
 url: /cpp/aspose.words.bibliography/source/set_booktitle/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_booktitle/
 ## Source::set_BookTitle method
 
 
-Sets the book title of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_BookTitle](../get_booktitle/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_BookTitle(const System::String &value)

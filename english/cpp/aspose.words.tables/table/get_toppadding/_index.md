@@ -23,10 +23,10 @@ double Aspose::Words::Tables::Table::get_TopPadding()
 
 Shows how to configure content padding in a table. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
-SharedPtr<Table> table = builder->StartTable();
+System::SharedPtr<Aspose::Words::Tables::Table> table = builder->StartTable();
 builder->InsertCell();
 builder->Write(u"Row 1, cell 1.");
 builder->InsertCell();
@@ -39,9 +39,9 @@ table->set_LeftPadding(30);
 table->set_RightPadding(60);
 table->set_TopPadding(10);
 table->set_BottomPadding(90);
-table->set_PreferredWidth(PreferredWidth::FromPoints(250));
+table->set_PreferredWidth(Aspose::Words::Tables::PreferredWidth::FromPoints(250));
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.SetRowFormatting.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.SetRowFormatting.docx");
 ```
 
 ## See Also

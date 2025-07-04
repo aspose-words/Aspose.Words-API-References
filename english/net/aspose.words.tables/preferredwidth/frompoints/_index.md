@@ -32,7 +32,7 @@ Table table = builder.StartTable();
 builder.CellFormat.PreferredWidth = PreferredWidth.FromPoints(ConvertUtil.InchToPoint(3));
 builder.InsertCell();
 
-Assert.AreEqual(216.0d, table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value);
+Assert.That(table.FirstRow.FirstCell.CellFormat.PreferredWidth.Value, Is.EqualTo(216.0d));
 ```
 
 Shows how to set a preferred width for table cells.
@@ -61,8 +61,7 @@ builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Each configuration of the "PreferredWidth" property creates a new object.
-Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
-    builder.CellFormat.PreferredWidth.GetHashCode());
+Assert.That(builder.CellFormat.PreferredWidth.GetHashCode(), Is.Not.EqualTo(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode()));
 
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
 builder.Writeln("Automatically sized cell.");

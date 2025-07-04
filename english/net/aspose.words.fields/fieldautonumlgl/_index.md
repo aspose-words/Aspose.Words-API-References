@@ -5,7 +5,7 @@ articleTitle: FieldAutoNumLgl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAutoNumLgl class for seamless implementation of AUTONUMLGL fields, enhancing document automation and formatting.
 type: docs
-weight: 2000
+weight: 1990
 url: /net/aspose.words.fields/fieldautonumlgl/
 ---
 ## FieldAutoNumLgl class
@@ -100,14 +100,14 @@ public void FieldAutoNumLgl()
         // The separator character, which appears in the field result immediately after the number,
         // is a full stop by default. If we leave this property null,
         // our last AUTONUMLGL field will display "2.2.1." in the document.
-        Assert.IsNull(field.SeparatorCharacter);
+        Assert.That(field.SeparatorCharacter, Is.Null);
 
         // Setting a custom separator character and removing the trailing period
         // will change that field's appearance from "2.2.1." to "2:2:1".
         // We will apply this to all the fields that we have created.
         field.SeparatorCharacter = ":";
         field.RemoveTrailingPeriod = true;
-        Assert.AreEqual(" AUTONUMLGL  \\s : \\e", field.GetFieldCode());
+        Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTONUMLGL  \\s : \\e"));
     }
 
     doc.Save(ArtifactsDir + "Field.AUTONUMLGL.docx");

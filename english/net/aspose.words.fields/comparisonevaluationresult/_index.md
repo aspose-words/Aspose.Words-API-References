@@ -5,7 +5,7 @@ articleTitle: ComparisonEvaluationResult
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.ComparisonEvaluationResult class for efficient document comparison analysis. Unlock insights and enhance your workflow!
 type: docs
-weight: 1890
+weight: 1880
 url: /net/aspose.words.fields/comparisonevaluationresult/
 ---
 ## ComparisonEvaluationResult class
@@ -61,7 +61,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     builder.Document.UpdateFields();
 
-    Assert.AreEqual(expectedResult, field.Result);
+    Assert.That(field.Result, Is.EqualTo(expectedResult));
     evaluator.AssertInvocationsCount(1).AssertInvocationArguments(0, left, @operator, right);
 }
 
@@ -94,7 +94,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
     public ComparisonExpressionEvaluator AssertInvocationsCount(int expected)
     {
-        Assert.AreEqual(expected, mInvocations.Count);
+        Assert.That(mInvocations.Count, Is.EqualTo(expected));
         return this;
     }
 
@@ -106,9 +106,9 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     {
         string[] arguments = mInvocations[invocationIndex];
 
-        Assert.AreEqual(expectedLeftExpression, arguments[0]);
-        Assert.AreEqual(expectedComparisonOperator, arguments[1]);
-        Assert.AreEqual(expectedRightExpression, arguments[2]);
+        Assert.That(arguments[0], Is.EqualTo(expectedLeftExpression));
+        Assert.That(arguments[1], Is.EqualTo(expectedComparisonOperator));
+        Assert.That(arguments[2], Is.EqualTo(expectedRightExpression));
 
         return this;
     }

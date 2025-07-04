@@ -27,7 +27,7 @@ NodeCollection subDocuments = doc.GetChildNodes(NodeType.SubDocument, true);
 // This node serves as a reference to an external document, and its contents cannot be accessed.
 SubDocument subDocument = (SubDocument)subDocuments[0];
 
-Assert.False(subDocument.IsComposite);
+Assert.That(subDocument.IsComposite, Is.False);
 ```
 
 ### See Also

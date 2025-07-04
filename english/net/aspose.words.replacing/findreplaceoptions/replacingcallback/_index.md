@@ -38,11 +38,11 @@ public void ReplaceWithCallback()
 
     doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
-                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
 
-    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
-                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
+    Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
 }
 
 /// <summary>
@@ -94,11 +94,11 @@ public void ConvertNumbersToHexadecimal()
 
     Console.WriteLine(numberHexer.GetLog());
 
-    Assert.AreEqual(4, replacementCount);
-    Assert.AreEqual("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
-                    "0x7B, 0x1C8, 0x315 and 0x43E3.", doc.GetText().Trim());
-    Assert.AreEqual(4, doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
-            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()));
+    Assert.That(replacementCount, Is.EqualTo(4));
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Numbers that the find-and-replace operation will convert to hexadecimal and highlight:\r" +
+                    "0x7B, 0x1C8, 0x315 and 0x43E3."));
+    Assert.That(doc.GetChildNodes(NodeType.Run, true).OfType<Run>()
+            .Count(r => r.Font.HighlightColor.ToArgb() == Color.LightGray.ToArgb()), Is.EqualTo(4));
 }
 
 /// <summary>

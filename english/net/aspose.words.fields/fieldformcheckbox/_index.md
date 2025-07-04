@@ -5,7 +5,7 @@ articleTitle: FieldFormCheckBox
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldFormCheckBox class, designed to easily implement FORMCHECKBOX fields for enhanced document interactivity and functionality.
 type: docs
-weight: 2320
+weight: 2310
 url: /net/aspose.words.fields/fieldformcheckbox/
 ---
 ## FieldFormCheckBox class
@@ -64,13 +64,13 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 Document doc = new Document(MyDir + "Form fields.docx");
 
 FieldFormCheckBox fieldFormCheckBox = (FieldFormCheckBox)doc.Range.Fields[1];
-Assert.AreEqual(" FORMCHECKBOX \u0001", fieldFormCheckBox.GetFieldCode());
+Assert.That(fieldFormCheckBox.GetFieldCode(), Is.EqualTo(" FORMCHECKBOX \u0001"));
 
 FieldFormDropDown fieldFormDropDown = (FieldFormDropDown)doc.Range.Fields[2];
-Assert.AreEqual(" FORMDROPDOWN \u0001", fieldFormDropDown.GetFieldCode());
+Assert.That(fieldFormDropDown.GetFieldCode(), Is.EqualTo(" FORMDROPDOWN \u0001"));
 
 FieldFormText fieldFormText = (FieldFormText)doc.Range.Fields[0];
-Assert.AreEqual(" FORMTEXT \u0001", fieldFormText.GetFieldCode());
+Assert.That(fieldFormText.GetFieldCode(), Is.EqualTo(" FORMTEXT \u0001"));
 ```
 
 ### See Also

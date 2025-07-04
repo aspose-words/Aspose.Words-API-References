@@ -23,12 +23,11 @@ void Aspose::Words::StyleCollection::ClearQuickStyleGallery()
 
 Shows how to remove styles from [Style](../../style/) Gallery panel. 
 ```cpp
-auto doc = MakeObject<Document>();
-
+auto doc = System::MakeObject<Aspose::Words::Document>();
 // Note that remove styles work only with DOCX format for now.
 doc->get_Styles()->ClearQuickStyleGallery();
 
-doc->Save(ArtifactsDir + u"Styles.RemoveStylesFromStyleGallery.docx");
+doc->Save(get_ArtifactsDir() + u"Styles.RemoveStylesFromStyleGallery.docx");
 ```
 
 ## See Also

@@ -27,8 +27,8 @@ Not all number styles are applicable for this property. For the list of applicab
 
 Shows how to change the number style of footnote/endnote reference marks. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Footnotes and endnotes are a way to attach a reference or a side comment to text
 // that does not interfere with the main body text's flow.
@@ -39,34 +39,34 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Footnote entries, by default, show up at the bottom of each page that contains
 // their reference symbols, and endnotes show up at the end of the document.
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 2.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 2.");
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 3.", u"Custom footnote reference mark");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 3.", u"Custom footnote reference mark");
 
 builder->InsertParagraph();
 
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 2.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 2.");
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote reference mark");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 3.", u"Custom endnote reference mark");
 
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-ASSERT_EQ(NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
-ASSERT_EQ(NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
+ASSERT_EQ(Aspose::Words::NumberStyle::Arabic, doc->get_FootnoteOptions()->get_NumberStyle());
+ASSERT_EQ(Aspose::Words::NumberStyle::LowercaseRoman, doc->get_EndnoteOptions()->get_NumberStyle());
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.
-doc->get_FootnoteOptions()->set_NumberStyle(NumberStyle::UppercaseRoman);
-doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::UppercaseLetter);
+doc->get_FootnoteOptions()->set_NumberStyle(Aspose::Words::NumberStyle::UppercaseRoman);
+doc->get_EndnoteOptions()->set_NumberStyle(Aspose::Words::NumberStyle::UppercaseLetter);
 
-doc->Save(ArtifactsDir + u"InlineStory.RefMarkNumberStyle.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.RefMarkNumberStyle.docx");
 ```
 
 ## See Also

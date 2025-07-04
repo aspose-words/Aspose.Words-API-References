@@ -5,7 +5,7 @@ articleTitle: FieldCreateDate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldCreateDate class for seamless document management. Easily implement the CREATEDATE field and enhance your workflows.
 type: docs
-weight: 2130
+weight: 2120
 url: /net/aspose.words.fields/fieldcreatedate/
 ---
 ## FieldCreateDate class
@@ -74,21 +74,21 @@ builder.Write("According to the Lunar Calendar - ");
 FieldCreateDate field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseLunarCalendar = true;
 
-Assert.AreEqual(" CREATEDATE  \\h", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" CREATEDATE  \\h"));
 
 // 2 -  Umm al-Qura calendar:
 builder.Write("\nAccording to the Umm al-Qura Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseUmAlQuraCalendar = true;
 
-Assert.AreEqual(" CREATEDATE  \\u", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" CREATEDATE  \\u"));
 
 // 3 -  Indian National Calendar:
 builder.Write("\nAccording to the Indian National Calendar - ");
 field = (FieldCreateDate)builder.InsertField(FieldType.FieldCreateDate, true);
 field.UseSakaEraCalendar = true;
 
-Assert.AreEqual(" CREATEDATE  \\s", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" CREATEDATE  \\s"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.CREATEDATE.docx");

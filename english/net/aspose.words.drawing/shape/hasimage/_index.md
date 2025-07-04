@@ -24,13 +24,13 @@ Shows how to delete all shapes with images from a document.
 Document doc = new Document(MyDir + "Images.docx");
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.OfType<Shape>().Count(s => s.HasImage));
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(9));
 
 foreach (Shape shape in shapes.OfType<Shape>())
     if (shape.HasImage) 
         shape.Remove();
 
-Assert.AreEqual(0, shapes.OfType<Shape>().Count(s => s.HasImage));
+Assert.That(shapes.OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(0));
 ```
 
 Shows how to extract images from a document, and save them to the local file system as individual files.
@@ -42,7 +42,7 @@ Document doc = new Document(MyDir + "Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+Assert.That(shapes.Count(s => ((Shape)s).HasImage), Is.EqualTo(9));
 
 int imageIndex = 0;
 foreach (Shape shape in shapes.OfType<Shape>())

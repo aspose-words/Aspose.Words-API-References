@@ -27,8 +27,8 @@ This property has effect only when [RestartRule](../get_restartrule/) is set to 
 
 Shows how to set a number at which the document begins the footnote/endnote count. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Footnotes and endnotes are a way to attach a reference or a side comment to text
 // that does not interfere with the main body text's flow.
@@ -40,20 +40,20 @@ auto builder = MakeObject<DocumentBuilder>(doc);
 // Footnote entries, by default, show up at the bottom of each page that contains
 // their reference symbols, and endnotes show up at the end of the document.
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 2.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 2.");
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Footnote, u"Footnote 3.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Footnote, u"Footnote 3.");
 
 builder->InsertParagraph();
 
 builder->Write(u"Text 1. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 1.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 1.");
 builder->Write(u"Text 2. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 2.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 2.");
 builder->Write(u"Text 3. ");
-builder->InsertFootnote(FootnoteType::Endnote, u"Endnote 3.");
+builder->InsertFootnote(Aspose::Words::Notes::FootnoteType::Endnote, u"Endnote 3.");
 
 // By default, the reference symbol for each footnote and endnote is its index
 // among all the document's footnotes/endnotes. Each document maintains separate counts
@@ -63,10 +63,10 @@ ASSERT_EQ(1, doc->get_EndnoteOptions()->get_StartNumber());
 
 // We can use the "StartNumber" property to get the document to
 // begin a footnote or endnote count at a different number.
-doc->get_EndnoteOptions()->set_NumberStyle(NumberStyle::Arabic);
+doc->get_EndnoteOptions()->set_NumberStyle(Aspose::Words::NumberStyle::Arabic);
 doc->get_EndnoteOptions()->set_StartNumber(50);
 
-doc->Save(ArtifactsDir + u"InlineStory.StartNumber.docx");
+doc->Save(get_ArtifactsDir() + u"InlineStory.StartNumber.docx");
 ```
 
 ## See Also

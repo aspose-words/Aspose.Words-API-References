@@ -5,7 +5,7 @@ articleTitle: IReplacingCallback
 second_title: Aspose.Words for .NET
 description: Enhance your document processing with Aspose.Words' IReplacingCallback interface. Create custom find and replace methods for tailored results.
 type: docs
-weight: 5360
+weight: 5350
 url: /net/aspose.words.replacing/ireplacingcallback/
 ---
 ## IReplacingCallback interface
@@ -41,11 +41,9 @@ public void Order(bool differentFirstPageHeaderFooter)
     doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
     if (differentFirstPageHeaderFooter)
-        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n"));
     else
-        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n"));
 }
 
 /// <summary>
@@ -87,11 +85,11 @@ public void ReplaceWithCallback()
 
     doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
-                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
 
-    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
-                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
+    Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
 }
 
 /// <summary>

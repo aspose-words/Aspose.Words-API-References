@@ -46,17 +46,17 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportT
 
 if (exportShapesAsSvg)
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"));
+        "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"133\" height=\"80\">"), Is.True);
 }
 else
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
             "<img src=\"HtmlSaveOptions.ExportTextBox.001.png\" width=\"136\" height=\"83\" alt=\"\" " +
             "style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
-        "</p>"));
+        "</p>"), Is.True);
 }
 ```
 

@@ -5,7 +5,7 @@ articleTitle: FieldData
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldData class, your key to efficiently implementing DATA fields in documents. Enhance your document automation today!
 type: docs
-weight: 2140
+weight: 2130
 url: /net/aspose.words.fields/fielddata/
 ---
 ## FieldData class
@@ -59,7 +59,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldData field = (FieldData)builder.InsertField(FieldType.FieldData, true);
-Assert.AreEqual(" DATA ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATA "));
 ```
 
 ### See Also

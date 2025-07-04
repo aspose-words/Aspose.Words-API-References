@@ -25,7 +25,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Set the Outline flag to change the text's fill color to white and
-// leave a thin outline around each character in the original color of the text. 
+// leave a thin outline around each character in the original color of the text.
 builder.Font.Outline = true;
 builder.Font.Color = Color.Blue;
 builder.Font.Size = 36;

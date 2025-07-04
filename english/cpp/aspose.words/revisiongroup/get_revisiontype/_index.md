@@ -23,15 +23,13 @@ Aspose::Words::RevisionType Aspose::Words::RevisionGroup::get_RevisionType()
 
 Shows how to print info about a group of revisions in a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Revisions.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Revisions.docx");
 
 ASSERT_EQ(7, doc->get_Revisions()->get_Groups()->get_Count());
 
-for (const auto& group : doc->get_Revisions()->get_Groups())
+for (auto&& group : doc->get_Revisions()->get_Groups())
 {
-    std::cout << String::Format(u"Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group->get_Author(), group->get_RevisionType(),
-                                group->get_Text())
-              << std::endl;
+    std::cout << System::String::Format(u"Revision author: {0}; Revision type: {1} \n\tRevision text: {2}", group->get_Author(), group->get_RevisionType(), group->get_Text()) << std::endl;
 }
 ```
 

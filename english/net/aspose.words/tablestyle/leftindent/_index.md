@@ -5,7 +5,7 @@ articleTitle: LeftIndent
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle LeftIndent property to easily customize your table's left indent for enhanced layout control and visual appeal.
 type: docs
-weight: 90
+weight: 80
 url: /net/aspose.words/tablestyle/leftindent/
 ---
 ## TableStyle.LeftIndent property

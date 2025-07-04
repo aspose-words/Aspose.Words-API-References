@@ -5,7 +5,7 @@ articleTitle: BorderCollection
 second_title: Aspose.Words for .NET
 description: Explore Aspose.Words.BorderCollection, your go-to solution for managing and customizing Border objects effortlessly for enhanced document formatting.
 type: docs
-weight: 280
+weight: 270
 url: /net/aspose.words/bordercollection/
 ---
 ## BorderCollection class

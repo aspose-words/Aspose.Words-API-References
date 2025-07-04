@@ -42,8 +42,8 @@ Footnote endnote = builder.InsertFootnote(FootnoteType.Endnote,
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 
-Assert.AreEqual(FootnoteType.Footnote, footnote.FootnoteType);
-Assert.AreEqual(FootnoteType.Endnote, endnote.FootnoteType);
+Assert.That(footnote.FootnoteType, Is.EqualTo(FootnoteType.Footnote));
+Assert.That(endnote.FootnoteType, Is.EqualTo(FootnoteType.Endnote));
 
 doc.Save(ArtifactsDir + "InlineStory.FootnoteEndnote.docx");
 ```

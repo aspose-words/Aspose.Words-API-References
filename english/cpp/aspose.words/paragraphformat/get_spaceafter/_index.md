@@ -29,8 +29,8 @@ Valid values ​​range from 0 to 1584 inclusive.
 
 Shows how to set automatic paragraph spacing. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Apply a large amount of spacing before and after paragraphs that this builder will create.
 builder->get_ParagraphFormat()->set_SpaceBefore(24);
@@ -46,14 +46,14 @@ builder->get_ParagraphFormat()->set_SpaceBeforeAuto(autoSpacing);
 builder->Writeln(u"Paragraph 1.");
 builder->Writeln(u"Paragraph 2.");
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.ParagraphSpacingAuto.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingAuto.docx");
 ```
 
 
 Shows how to apply no spacing between paragraphs with the same style. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Apply a large amount of spacing before and after paragraphs that this builder will create.
 builder->get_ParagraphFormat()->set_SpaceBefore(24);
@@ -66,17 +66,17 @@ builder->get_ParagraphFormat()->set_SpaceAfter(24);
 builder->get_ParagraphFormat()->set_NoSpaceBetweenParagraphsOfSameStyle(noSpaceBetweenParagraphsOfSameStyle);
 
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Quote"));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
 builder->get_ParagraphFormat()->set_Style(doc->get_Styles()->idx_get(u"Normal"));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
-builder->Writeln(String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
+builder->Writeln(System::String::Format(u"Paragraph in the \"{0}\" style.", builder->get_ParagraphFormat()->get_Style()->get_Name()));
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.ParagraphSpacingSameStyle.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.ParagraphSpacingSameStyle.docx");
 ```
 
 ## See Also

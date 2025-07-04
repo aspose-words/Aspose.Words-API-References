@@ -23,14 +23,14 @@ bool Aspose::Words::Replacing::FindReplaceOptions::get_LegacyMode() const
 
 Shows how to recognize and use substitutions within replacement patterns. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->Write(u"Jason gave money to Paul.");
 
-auto regex = MakeObject<System::Text::RegularExpressions::Regex>(u"([A-z]+) gave money to ([A-z]+)");
+auto regex = System::MakeObject<System::Text::RegularExpressions::Regex>(u"([A-z]+) gave money to ([A-z]+)");
 
-auto options = MakeObject<FindReplaceOptions>();
+auto options = System::MakeObject<Aspose::Words::Replacing::FindReplaceOptions>();
 options->set_UseSubstitutions(true);
 
 // Using legacy mode does not support many advanced features, so we need to set it to 'false'.

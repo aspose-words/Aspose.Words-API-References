@@ -23,14 +23,14 @@ bool Aspose::Words::ParagraphFormat::get_FarEastLineBreakControl()
 
 Shows how to set special properties for Asian typography. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
-SharedPtr<ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat();
+System::SharedPtr<Aspose::Words::ParagraphFormat> format = doc->get_FirstSection()->get_Body()->get_FirstParagraph()->get_ParagraphFormat();
 format->set_FarEastLineBreakControl(true);
 format->set_WordWrap(false);
 format->set_HangingPunctuation(true);
 
-doc->Save(ArtifactsDir + u"ParagraphFormat.AsianTypographyProperties.docx");
+doc->Save(get_ArtifactsDir() + u"ParagraphFormat.AsianTypographyProperties.docx");
 ```
 
 ## See Also

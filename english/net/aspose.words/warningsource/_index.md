@@ -5,7 +5,7 @@ articleTitle: WarningSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.WarningSource enum, identifying warning sources during document loading and saving for enhanced document management.
 type: docs
-weight: 7510
+weight: 7500
 url: /net/aspose.words/warningsource/
 ---
 ## WarningSource enumeration
@@ -63,7 +63,7 @@ doc.Save(ArtifactsDir + "DocumentBuilder.EmphasesWarningSourceMarkdown.md");
 foreach (WarningInfo warningInfo in warnings)
 {
     if (warningInfo.Source == WarningSource.Markdown)
-        Assert.AreEqual("The (*, 0:11) cannot be properly written into Markdown.", warningInfo.Description);
+        Assert.That(warningInfo.Description, Is.EqualTo("The (*, 0:11) cannot be properly written into Markdown."));
 }
 ```
 

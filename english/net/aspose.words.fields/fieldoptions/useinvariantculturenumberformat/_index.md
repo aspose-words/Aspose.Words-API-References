@@ -37,8 +37,8 @@ Field field = builder.InsertField(" = 1234567,89 \\# $#,###,###.##");
 field.Update();
 
 // Sometimes, fields may not format their numbers correctly under certain cultures. 
-Assert.IsFalse(doc.FieldOptions.UseInvariantCultureNumberFormat);
-Assert.AreEqual("$1.234.567,89 ,     ", field.Result);
+Assert.That(doc.FieldOptions.UseInvariantCultureNumberFormat, Is.False);
+Assert.That(field.Result, Is.EqualTo("$1.234.567,89 ,     "));
 
 // To fix this, we could change the culture for the entire thread.
 // Another way to fix this is to set this flag,
@@ -46,7 +46,7 @@ Assert.AreEqual("$1.234.567,89 ,     ", field.Result);
 // This way allows us to avoid changing the culture for the entire thread.
 doc.FieldOptions.UseInvariantCultureNumberFormat = true;
 field.Update();
-Assert.AreEqual("$1.234.567,89", field.Result);
+Assert.That(field.Result, Is.EqualTo("$1.234.567,89"));
 ```
 
 ### See Also

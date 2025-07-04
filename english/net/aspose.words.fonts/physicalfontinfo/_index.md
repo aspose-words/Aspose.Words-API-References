@@ -5,7 +5,7 @@ articleTitle: PhysicalFontInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.PhysicalFontInfo class, which provides essential details about physical fonts for enhanced document processing and design.
 type: docs
-weight: 3460
+weight: 3450
 url: /net/aspose.words.fonts/physicalfontinfo/
 ---
 ## PhysicalFontInfo class

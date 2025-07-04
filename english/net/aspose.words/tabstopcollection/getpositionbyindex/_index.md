@@ -36,7 +36,7 @@ tabStops.Add(ConvertUtil.MillimeterToPoint(30), TabAlignment.Left, TabLeader.Das
 tabStops.Add(ConvertUtil.MillimeterToPoint(60), TabAlignment.Left, TabLeader.Dashes);
 
 // Verify the position of the second tab stop in the collection.
-Assert.AreEqual(ConvertUtil.MillimeterToPoint(60), tabStops.GetPositionByIndex(1), 0.1d);
+Assert.That(tabStops.GetPositionByIndex(1), Is.EqualTo(ConvertUtil.MillimeterToPoint(60)).Within(0.1d));
 ```
 
 ### See Also

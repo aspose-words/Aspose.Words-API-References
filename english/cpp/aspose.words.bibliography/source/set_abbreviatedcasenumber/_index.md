@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_AbbreviatedCaseNumber method
 linktitle: set_AbbreviatedCaseNumber
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_AbbreviatedCaseNumber method. Sets the abbreviated case number of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_AbbreviatedCaseNumber method. Setter for Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber in C++.'
 type: docs
 weight: 58000
 url: /cpp/aspose.words.bibliography/source/set_abbreviatedcasenumber/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_abbreviatedcasenumber/
 ## Source::set_AbbreviatedCaseNumber method
 
 
-Sets the abbreviated case number of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_AbbreviatedCaseNumber](../get_abbreviatedcasenumber/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_AbbreviatedCaseNumber(const System::String &value)

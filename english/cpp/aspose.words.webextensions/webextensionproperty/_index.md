@@ -24,8 +24,8 @@ class WebExtensionProperty : public System::Object
 | [get_Value](./get_value/)() const | Specifies a custom property value. |
 | [GetType](./gettype/)() const override |  |
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
-| [set_Name](./set_name/)(const System::String\&) | Specifies a custom property name. |
-| [set_Value](./set_value/)(const System::String\&) | Specifies a custom property value. |
+| [set_Name](./set_name/)(const System::String\&) | Setter for [Aspose::Words::WebExtensions::WebExtensionProperty::get_Name](./get_name/). |
+| [set_Value](./set_value/)(const System::String\&) | Setter for [Aspose::Words::WebExtensions::WebExtensionProperty::get_Value](./get_value/). |
 | static [Type](./type/)() |  |
 | [WebExtensionProperty](./webextensionproperty/)(const System::String\&, const System::String\&) | Creates web extension custom property with specified name and value. |
 ## See Also

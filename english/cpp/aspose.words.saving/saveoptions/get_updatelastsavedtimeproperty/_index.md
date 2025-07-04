@@ -23,7 +23,7 @@ bool Aspose::Words::Saving::SaveOptions::get_UpdateLastSavedTimeProperty() const
 
 Shows how to determine whether to preserve the document's "Last saved time" property when saving. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
 
 ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), doc->get_BuiltInDocumentProperties()->get_LastSavedTime());
 
@@ -33,18 +33,17 @@ ASSERT_EQ(System::DateTime(2021, 5, 11, 6, 32, 0), doc->get_BuiltInDocumentPrope
 // set the output document's "Last saved time" built-in property to the current date/time.
 // Set the "UpdateLastSavedTimeProperty" property to "false" to
 // preserve the original value of the input document's "Last saved time" built-in property.
-auto saveOptions = MakeObject<OoxmlSaveOptions>();
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OoxmlSaveOptions>();
 saveOptions->set_UpdateLastSavedTimeProperty(updateLastSavedTimeProperty);
 
-doc->Save(ArtifactsDir + u"OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
+doc->Save(get_ArtifactsDir() + u"OoxmlSaveOptions.LastSavedTime.docx", saveOptions);
 
-doc = MakeObject<Document>(ArtifactsDir + u"OoxmlSaveOptions.LastSavedTime.docx");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OoxmlSaveOptions.LastSavedTime.docx");
 System::DateTime lastSavedTimeNew = doc->get_BuiltInDocumentProperties()->get_LastSavedTime();
 
 if (updateLastSavedTimeProperty)
 {
-    ASSERT_GT(System::DateTime::get_Now(), lastSavedTimeNew.AddDays(-1));
-    ASSERT_LT(System::DateTime::get_Now(), lastSavedTimeNew.AddDays(1));
+    ASSERT_TRUE((System::DateTime::get_Now() - lastSavedTimeNew).get_Days() < 1);
 }
 else
 {

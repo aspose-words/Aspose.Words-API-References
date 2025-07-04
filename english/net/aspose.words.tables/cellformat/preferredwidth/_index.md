@@ -52,8 +52,7 @@ builder.InsertCell();
 builder.CellFormat.PreferredWidth = PreferredWidth.Auto;
 
 // Each configuration of the "PreferredWidth" property creates a new object.
-Assert.AreNotEqual(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode(),
-    builder.CellFormat.PreferredWidth.GetHashCode());
+Assert.That(builder.CellFormat.PreferredWidth.GetHashCode(), Is.Not.EqualTo(table.FirstRow.Cells[1].CellFormat.PreferredWidth.GetHashCode()));
 
 builder.CellFormat.Shading.BackgroundPatternColor = Color.LightGreen;
 builder.Writeln("Automatically sized cell.");

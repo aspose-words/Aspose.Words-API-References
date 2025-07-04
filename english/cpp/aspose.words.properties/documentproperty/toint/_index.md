@@ -23,12 +23,12 @@ int32_t Aspose::Words::Properties::DocumentProperty::ToInt()
 
 Shows various type conversion methods of custom document properties. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Properties::CustomDocumentProperties> properties = doc->get_CustomDocumentProperties();
 
 System::DateTime authDate = System::DateTime::get_Today();
 properties->Add(u"Authorized", true);
-properties->Add(u"Authorized By", String(u"John Doe"));
+properties->Add(u"Authorized By", System::String(u"John Doe"));
 properties->Add(u"Authorized Date", authDate);
 properties->Add(u"Authorized Revision", doc->get_BuiltInDocumentProperties()->get_RevisionNumber());
 properties->Add(u"Authorized Amount", 123.45);

@@ -35,22 +35,22 @@ If the folder specified by [FontsFolder](./) doesn't exist, it will be created a
 
 Shows how to set folders and folder aliases for externally saved resources that Aspose.Words will create when saving a document to HTML. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Rendering.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Rendering.docx");
 
-auto options = MakeObject<HtmlSaveOptions>();
-options->set_CssStyleSheetType(CssStyleSheetType::External);
+auto options = System::MakeObject<Aspose::Words::Saving::HtmlSaveOptions>();
+options->set_CssStyleSheetType(Aspose::Words::Saving::CssStyleSheetType::External);
 options->set_ExportFontResources(true);
 options->set_ImageResolution(72);
 options->set_FontResourcesSubsettingSizeThreshold(0);
-options->set_FontsFolder(ArtifactsDir + u"Fonts");
-options->set_ImagesFolder(ArtifactsDir + u"Images");
-options->set_ResourceFolder(ArtifactsDir + u"Resources");
+options->set_FontsFolder(get_ArtifactsDir() + u"Fonts");
+options->set_ImagesFolder(get_ArtifactsDir() + u"Images");
+options->set_ResourceFolder(get_ArtifactsDir() + u"Resources");
 options->set_FontsFolderAlias(u"http://example.com/fonts");
 options->set_ImagesFolderAlias(u"http://example.com/images");
 options->set_ResourceFolderAlias(u"http://example.com/resources");
 options->set_ExportOriginalUrlForLinkedImages(true);
 
-doc->Save(ArtifactsDir + u"HtmlSaveOptions.FolderAlias.html", options);
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.FolderAlias.html", options);
 ```
 
 ## See Also

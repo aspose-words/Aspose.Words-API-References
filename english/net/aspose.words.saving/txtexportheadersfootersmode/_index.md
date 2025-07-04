@@ -5,7 +5,7 @@ articleTitle: TxtExportHeadersFootersMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words' TxtExportHeadersFootersMode enum enhances plain text exports by customizing header and footer handling for optimal results.
 type: docs
-weight: 6450
+weight: 6440
 url: /net/aspose.words.saving/txtexportheadersfootersmode/
 ---
 ## TxtExportHeadersFootersMode enumeration
@@ -70,25 +70,25 @@ string newLine = Environment.NewLine;
 switch (txtExportHeadersFootersMode)
 {
     case TxtExportHeadersFootersMode.AllAtEnd:
-        Assert.AreEqual($"Page 1{newLine}" +
+        Assert.That(docText, Is.EqualTo($"Page 1{newLine}" +
                         $"Page 2{newLine}" +
                         $"Page 3{newLine}" +
                         $"Even header{newLine}{newLine}" +
                         $"Primary header{newLine}{newLine}" +
                         $"Even footer{newLine}{newLine}" +
-                        $"Primary footer{newLine}{newLine}", docText);
+                        $"Primary footer{newLine}{newLine}"));
         break;
     case TxtExportHeadersFootersMode.PrimaryOnly:
-        Assert.AreEqual($"Primary header{newLine}" +
+        Assert.That(docText, Is.EqualTo($"Primary header{newLine}" +
                         $"Page 1{newLine}" +
                         $"Page 2{newLine}" +
                         $"Page 3{newLine}" +
-                        $"Primary footer{newLine}", docText);
+                        $"Primary footer{newLine}"));
         break;
     case TxtExportHeadersFootersMode.None:
-        Assert.AreEqual($"Page 1{newLine}" +
+        Assert.That(docText, Is.EqualTo($"Page 1{newLine}" +
                         $"Page 2{newLine}" +
-                        $"Page 3{newLine}", docText);
+                        $"Page 3{newLine}"));
         break;
 }
 ```

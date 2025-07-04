@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PdfSaveOptions::set_PageMode method
 linktitle: set_PageMode
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PdfSaveOptions::set_PageMode method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_PageMode in C++.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_PageMode method. Specifies how the PDF document should be displayed when opened in a PDF reader in C++.'
 type: docs
 weight: 58000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_pagemode/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/set_pagemode/
 ## PdfSaveOptions::set_PageMode method
 
 
-Setter for [Aspose::Words::Saving::PdfSaveOptions::get_PageMode](../get_pagemode/).
+Specifies how the PDF document should be displayed when opened in a PDF reader.
 
 ```cpp
 void Aspose::Words::Saving::PdfSaveOptions::set_PageMode(Aspose::Words::Saving::PdfPageMode value)

@@ -27,8 +27,8 @@ void Aspose::Words::Fields::FieldCollection::Remove(const System::SharedPtr<Aspo
 
 Shows how to remove fields from a field collection. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 builder->InsertField(u" DATE \\@ \"dddd, d MMMM yyyy\" ");
 builder->InsertField(u" TIME ");
@@ -38,7 +38,7 @@ builder->InsertField(u" SUBJECT \"My Subject\" ");
 builder->InsertField(u" QUOTE \"Hello world!\" ");
 doc->UpdateFields();
 
-SharedPtr<FieldCollection> fields = doc->get_Range()->get_Fields();
+System::SharedPtr<Aspose::Words::Fields::FieldCollection> fields = doc->get_Range()->get_Fields();
 
 ASSERT_EQ(6, fields->get_Count());
 
@@ -48,7 +48,7 @@ fields->idx_get(0)->Remove();
 ASSERT_EQ(5, fields->get_Count());
 
 // 2 -  Get the collection to remove a field that we pass to its removal method:
-SharedPtr<Field> lastField = fields->idx_get(3);
+System::SharedPtr<Aspose::Words::Fields::Field> lastField = fields->idx_get(3);
 fields->Remove(lastField);
 ASSERT_EQ(4, fields->get_Count());
 

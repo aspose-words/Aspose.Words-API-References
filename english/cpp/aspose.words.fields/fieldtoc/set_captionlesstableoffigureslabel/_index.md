@@ -2,7 +2,7 @@
 title: Aspose::Words::Fields::FieldToc::set_CaptionlessTableOfFiguresLabel method
 linktitle: set_CaptionlessTableOfFiguresLabel
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Fields::FieldToc::set_CaptionlessTableOfFiguresLabel method. Sets the name of the sequence identifier used when building a table of figures that does not include caption''s label and number in C++.'
+description: 'Aspose::Words::Fields::FieldToc::set_CaptionlessTableOfFiguresLabel method. Setter for Aspose::Words::Fields::FieldToc::get_CaptionlessTableOfFiguresLabel in C++.'
 type: docs
 weight: 24000
 url: /cpp/aspose.words.fields/fieldtoc/set_captionlesstableoffigureslabel/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.fields/fieldtoc/set_captionlesstableoffigureslabel/
 ## FieldToc::set_CaptionlessTableOfFiguresLabel method
 
 
-Sets the name of the sequence identifier used when building a table of figures that does not include caption's label and number.
+Setter for [Aspose::Words::Fields::FieldToc::get_CaptionlessTableOfFiguresLabel](../get_captionlesstableoffigureslabel/).
 
 ```cpp
 void Aspose::Words::Fields::FieldToc::set_CaptionlessTableOfFiguresLabel(const System::String &value)

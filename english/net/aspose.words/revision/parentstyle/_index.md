@@ -70,7 +70,7 @@ using (IEnumerator<Revision> e = revisions.GetEnumerator())
 // Reject all revisions via the collection, reverting the document to its original form.
 revisions.RejectAll();
 
-Assert.AreEqual(0, revisions.Count);
+Assert.That(revisions.Count, Is.EqualTo(0));
 ```
 
 ### See Also

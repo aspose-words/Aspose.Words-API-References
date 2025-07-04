@@ -23,11 +23,11 @@ System::Drawing::PointF Aspose::Words::Drawing::ShapeBase::LocalToParent(System:
 
 Shows how to translate the x and y coordinate location on a shape's coordinate plane to a location on the parent shape's coordinate plane. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Insert a group shape, and place it 100 points below and to the right of
 // the document's x and Y coordinate origin point.
-auto group = MakeObject<GroupShape>(doc);
+auto group = System::MakeObject<Aspose::Words::Drawing::GroupShape>(doc);
 group->set_Bounds(System::Drawing::RectangleF(100.0f, 100.0f, 500.0f, 500.0f));
 
 // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
@@ -57,16 +57,16 @@ ASPOSE_ASSERT_EQ(System::Drawing::PointF(650.0f, 650.0f), group->LocalToParent(S
 // we will need to first confirm a location in the group shape that will match the document's location.
 ASPOSE_ASSERT_EQ(System::Drawing::PointF(700.0f, 700.0f), group->LocalToParent(System::Drawing::PointF(350.0f, 350.0f)));
 
-auto shape = MakeObject<Shape>(doc, ShapeType::Rectangle);
+auto shape = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::Rectangle);
 shape->set_Width(100);
 shape->set_Height(100);
 shape->set_Left(700);
 shape->set_Top(700);
 
-group->AppendChild(shape);
-doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(group);
+group->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(shape);
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::GroupShape>>(group);
 
-doc->Save(ArtifactsDir + u"Shape.LocalToParent.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.LocalToParent.docx");
 ```
 
 ## See Also

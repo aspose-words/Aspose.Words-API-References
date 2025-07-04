@@ -75,35 +75,35 @@ All text of the document is stored in runs of text.
 
 Shows how to format a run of text using its font property. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto run = MakeObject<Run>(doc, u"Hello world!");
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto run = System::MakeObject<Aspose::Words::Run>(doc, u"Hello world!");
 
-SharedPtr<Aspose::Words::Font> font = run->get_Font();
+System::SharedPtr<Aspose::Words::Font> font = run->get_Font();
 font->set_Name(u"Courier New");
 font->set_Size(36);
 font->set_HighlightColor(System::Drawing::Color::get_Yellow());
 
-doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(run);
-doc->Save(ArtifactsDir + u"Font.CreateFormattedRun.docx");
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
+doc->Save(get_ArtifactsDir() + u"Font.CreateFormattedRun.docx");
 ```
 
 
 Shows how to add, update and delete child nodes in a [CompositeNode](../compositenode/)'s collection of children. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // An empty document, by default, has one paragraph.
 ASSERT_EQ(1, doc->get_FirstSection()->get_Body()->get_Paragraphs()->get_Count());
 
 // Composite nodes such as our paragraph can contain other composite and inline nodes as children.
-SharedPtr<Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
-auto paragraphText = MakeObject<Run>(doc, u"Initial text. ");
-paragraph->AppendChild(paragraphText);
+System::SharedPtr<Aspose::Words::Paragraph> paragraph = doc->get_FirstSection()->get_Body()->get_FirstParagraph();
+auto paragraphText = System::MakeObject<Aspose::Words::Run>(doc, u"Initial text. ");
+paragraph->AppendChild<System::SharedPtr<Aspose::Words::Run>>(paragraphText);
 
 // Create three more run nodes.
-auto run1 = MakeObject<Run>(doc, u"Run 1. ");
-auto run2 = MakeObject<Run>(doc, u"Run 2. ");
-auto run3 = MakeObject<Run>(doc, u"Run 3. ");
+auto run1 = System::MakeObject<Aspose::Words::Run>(doc, u"Run 1. ");
+auto run2 = System::MakeObject<Aspose::Words::Run>(doc, u"Run 2. ");
+auto run3 = System::MakeObject<Aspose::Words::Run>(doc, u"Run 3. ");
 
 // The document body will not display these runs until we insert them into a composite node
 // that itself is a part of the document's node tree, as we did with the first run.
@@ -112,33 +112,33 @@ auto run3 = MakeObject<Run>(doc, u"Run 3. ");
 ASSERT_EQ(u"Initial text.", paragraph->GetText().Trim());
 
 // Insert the second run into the paragraph in front of the initial run.
-paragraph->InsertBefore(run2, paragraphText);
+paragraph->InsertBefore<System::SharedPtr<Aspose::Words::Run>>(run2, paragraphText);
 
 ASSERT_EQ(u"Run 2. Initial text.", paragraph->GetText().Trim());
 
 // Insert the third run after the initial run.
-paragraph->InsertAfter(run3, paragraphText);
+paragraph->InsertAfter<System::SharedPtr<Aspose::Words::Run>>(run3, paragraphText);
 
 ASSERT_EQ(u"Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
 
 // Insert the first run to the start of the paragraph's child nodes collection.
-paragraph->PrependChild(run1);
+paragraph->PrependChild<System::SharedPtr<Aspose::Words::Run>>(run1);
 
 ASSERT_EQ(u"Run 1. Run 2. Initial text. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(4, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(4, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
 
 // We can modify the contents of the run by editing and deleting existing child nodes.
-(System::ExplicitCast<Run>(paragraph->GetChildNodes(NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
-paragraph->GetChildNodes(NodeType::Run, true)->Remove(paragraphText);
+(System::ExplicitCast<Aspose::Words::Run>(paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->idx_get(1)))->set_Text(u"Updated run 2. ");
+paragraph->GetChildNodes(Aspose::Words::NodeType::Run, true)->Remove(paragraphText);
 
 ASSERT_EQ(u"Run 1. Updated run 2. Run 3.", paragraph->GetText().Trim());
-ASSERT_EQ(3, paragraph->GetChildNodes(NodeType::Any, true)->get_Count());
+ASSERT_EQ(3, paragraph->GetChildNodes(Aspose::Words::NodeType::Any, true)->get_Count());
 ```
 
 
 Shows how to construct an Aspose.Words document by hand. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // A blank document contains one section, one body and one paragraph.
 // Call the "RemoveAllChildren" method to remove all those nodes,
@@ -148,36 +148,36 @@ doc->RemoveAllChildren();
 // This document now has no composite child nodes that we can add content to.
 // If we wish to edit it, we will need to repopulate its node collection.
 // First, create a new section, and then append it as a child to the root document node.
-auto section = MakeObject<Section>(doc);
-doc->AppendChild(section);
+auto section = System::MakeObject<Aspose::Words::Section>(doc);
+doc->AppendChild<System::SharedPtr<Aspose::Words::Section>>(section);
 
 // Set some page setup properties for the section.
-section->get_PageSetup()->set_SectionStart(SectionStart::NewPage);
-section->get_PageSetup()->set_PaperSize(PaperSize::Letter);
+section->get_PageSetup()->set_SectionStart(Aspose::Words::SectionStart::NewPage);
+section->get_PageSetup()->set_PaperSize(Aspose::Words::PaperSize::Letter);
 
 // A section needs a body, which will contain and display all its contents
 // on the page between the section's header and footer.
-auto body = MakeObject<Body>(doc);
-section->AppendChild(body);
+auto body = System::MakeObject<Aspose::Words::Body>(doc);
+section->AppendChild<System::SharedPtr<Aspose::Words::Body>>(body);
 
 // Create a paragraph, set some formatting properties, and then append it as a child to the body.
-auto para = MakeObject<Paragraph>(doc);
+auto para = System::MakeObject<Aspose::Words::Paragraph>(doc);
 
 para->get_ParagraphFormat()->set_StyleName(u"Heading 1");
-para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
+para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
 
-body->AppendChild(para);
+body->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(para);
 
 // Finally, add some content to do the document. Create a run,
 // set its appearance and contents, and then append it as a child to the paragraph.
-auto run = MakeObject<Run>(doc);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"Hello World!");
 run->get_Font()->set_Color(System::Drawing::Color::get_Red());
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
 ASSERT_EQ(u"Hello World!", doc->GetText().Trim());
 
-doc->Save(ArtifactsDir + u"Section.CreateManually.docx");
+doc->Save(get_ArtifactsDir() + u"Section.CreateManually.docx");
 ```
 
 ## See Also

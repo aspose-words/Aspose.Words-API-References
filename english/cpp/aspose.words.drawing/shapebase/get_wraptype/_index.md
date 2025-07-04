@@ -29,47 +29,47 @@ Has effect only for top level shapes.
 
 Shows how to insert a floating image to the center of a page. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a floating image that will appear behind the overlapping text and align it to the page's center.
-SharedPtr<Shape> shape = builder->InsertImage(ImageDir + u"Logo.jpg");
-shape->set_WrapType(WrapType::None);
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertImage(get_ImageDir() + u"Logo.jpg");
+shape->set_WrapType(Aspose::Words::Drawing::WrapType::None);
 shape->set_BehindText(true);
-shape->set_RelativeHorizontalPosition(RelativeHorizontalPosition::Page);
-shape->set_RelativeVerticalPosition(RelativeVerticalPosition::Page);
-shape->set_HorizontalAlignment(HorizontalAlignment::Center);
-shape->set_VerticalAlignment(VerticalAlignment::Center);
+shape->set_RelativeHorizontalPosition(Aspose::Words::Drawing::RelativeHorizontalPosition::Page);
+shape->set_RelativeVerticalPosition(Aspose::Words::Drawing::RelativeVerticalPosition::Page);
+shape->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
+shape->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Center);
 
-doc->Save(ArtifactsDir + u"Image.CreateFloatingPageCenter.docx");
+doc->Save(get_ArtifactsDir() + u"Image.CreateFloatingPageCenter.docx");
 ```
 
 
 Shows how to create and format a text box. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
 // Create a floating text box.
-auto textBox = MakeObject<Shape>(doc, ShapeType::TextBox);
-textBox->set_WrapType(WrapType::None);
+auto textBox = System::MakeObject<Aspose::Words::Drawing::Shape>(doc, Aspose::Words::Drawing::ShapeType::TextBox);
+textBox->set_WrapType(Aspose::Words::Drawing::WrapType::None);
 textBox->set_Height(50);
 textBox->set_Width(200);
 
 // Set the horizontal, and vertical alignment of the text inside the shape.
-textBox->set_HorizontalAlignment(HorizontalAlignment::Center);
-textBox->set_VerticalAlignment(VerticalAlignment::Top);
+textBox->set_HorizontalAlignment(Aspose::Words::Drawing::HorizontalAlignment::Center);
+textBox->set_VerticalAlignment(Aspose::Words::Drawing::VerticalAlignment::Top);
 
 // Add a paragraph to the text box and add a run of text that the text box will display.
-textBox->AppendChild(MakeObject<Paragraph>(doc));
-SharedPtr<Paragraph> para = textBox->get_FirstParagraph();
-para->get_ParagraphFormat()->set_Alignment(ParagraphAlignment::Center);
-auto run = MakeObject<Run>(doc);
+textBox->AppendChild<System::SharedPtr<Aspose::Words::Paragraph>>(System::MakeObject<Aspose::Words::Paragraph>(doc));
+System::SharedPtr<Aspose::Words::Paragraph> para = textBox->get_FirstParagraph();
+para->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+auto run = System::MakeObject<Aspose::Words::Run>(doc);
 run->set_Text(u"Hello world!");
-para->AppendChild(run);
+para->AppendChild<System::SharedPtr<Aspose::Words::Run>>(run);
 
-doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild(textBox);
+doc->get_FirstSection()->get_Body()->get_FirstParagraph()->AppendChild<System::SharedPtr<Aspose::Words::Drawing::Shape>>(textBox);
 
-doc->Save(ArtifactsDir + u"Shape.CreateTextBox.docx");
+doc->Save(get_ArtifactsDir() + u"Shape.CreateTextBox.docx");
 ```
 
 ## See Also

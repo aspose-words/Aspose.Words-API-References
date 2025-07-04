@@ -82,7 +82,21 @@ class FootnoteSeparator : public Aspose::Words::Story
 
 [FootnoteSeparator](./) can contain [Paragraph](../../aspose.words/paragraph/) and [Table](../../aspose.words.tables/table/) child nodes.
 
-There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](../footnoteseparatortype/) in a document. 
+There can only be one [FootnoteSeparator](./) of each [FootnoteSeparatorType](../footnoteseparatortype/) in a document.
+
+## Examples
+
+
+
+Shows how to manage footnote separator format. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Footnotes and endnotes.docx");
+
+System::SharedPtr<Aspose::Words::Notes::FootnoteSeparator> footnoteSeparator = doc->get_FootnoteSeparators()->idx_get(Aspose::Words::Notes::FootnoteSeparatorType::FootnoteSeparator);
+// Align footnote separator.
+footnoteSeparator->get_FirstParagraph()->get_ParagraphFormat()->set_Alignment(Aspose::Words::ParagraphAlignment::Center);
+```
+
 ## See Also
 
 * Class [Story](../../aspose.words/story/)

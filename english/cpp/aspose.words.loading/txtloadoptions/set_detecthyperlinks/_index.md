@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::TxtLoadOptions::set_DetectHyperlinks method
 linktitle: set_DetectHyperlinks
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::TxtLoadOptions::set_DetectHyperlinks method. Specifies either to detect hyperlinks in text. The default value is false in C++.'
+description: 'Aspose::Words::Loading::TxtLoadOptions::set_DetectHyperlinks method. Setter for Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks in C++.'
 type: docs
 weight: 10500
 url: /cpp/aspose.words.loading/txtloadoptions/set_detecthyperlinks/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.loading/txtloadoptions/set_detecthyperlinks/
 ## TxtLoadOptions::set_DetectHyperlinks method
 
 
-Specifies either to detect hyperlinks in text. The default value is **false**.
+Setter for [Aspose::Words::Loading::TxtLoadOptions::get_DetectHyperlinks](../get_detecthyperlinks/).
 
 ```cpp
 void Aspose::Words::Loading::TxtLoadOptions::set_DetectHyperlinks(bool value)

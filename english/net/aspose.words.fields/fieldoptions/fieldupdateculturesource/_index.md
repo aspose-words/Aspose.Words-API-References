@@ -48,7 +48,7 @@ doc.FieldOptions.FieldUpdateCultureSource = FieldUpdateCultureSource.FieldCode;
 doc.MailMerge.Execute(new[] { "Date2" }, new object[] { new DateTime(2020, 1, 01) });
 
 // The first merge result contains a date formatted in English, while the second one is in German.
-Assert.AreEqual("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020", doc.Range.Text.Trim());
+Assert.That(doc.Range.Text.Trim(), Is.EqualTo("Wednesday, 1 January 2020 - Mittwoch, 1 Januar 2020"));
 
 // Restore the thread's original culture.
 Thread.CurrentThread.CurrentCulture = currentCulture;

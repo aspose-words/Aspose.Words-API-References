@@ -40,8 +40,8 @@ doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.PageMargins.html", saveOptions);
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.PageMargins/styles.css");
 
-Assert.True(Regex.Match(outDocContents,
-    "[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }").Success);
+Assert.That(Regex.Match(outDocContents,
+    "[.]awpage { position:relative; border:solid 1pt black; margin:15pt auto 15pt auto; overflow:hidden; }").Success, Is.True);
 ```
 
 ### See Also

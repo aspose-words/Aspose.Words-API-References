@@ -35,6 +35,31 @@ As a difference from [InsertDocument()](../) this method moves the content of th
 
 Note, if the last node of the source document is not a paragraph, then nothing will be done.
 
+## Examples
+
+
+
+Shows how to insert a document inline at the cursor position. 
+```cpp
+auto srcDoc = System::MakeObject<Aspose::Words::DocumentBuilder>();
+srcDoc->Write(u"[src content]");
+
+// Create destination document.
+auto dstDoc = System::MakeObject<Aspose::Words::DocumentBuilder>();
+dstDoc->Write(u"Before ");
+dstDoc->InsertNode(System::MakeObject<Aspose::Words::BookmarkStart>(dstDoc->get_Document(), u"src_place"));
+dstDoc->InsertNode(System::MakeObject<Aspose::Words::BookmarkEnd>(dstDoc->get_Document(), u"src_place"));
+dstDoc->Write(u" after");
+
+ASSERT_EQ(u"Before  after", dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)));
+
+// Insert source document into destination inline.
+dstDoc->MoveToBookmark(u"src_place");
+dstDoc->InsertDocumentInline(srcDoc->get_Document(), Aspose::Words::ImportFormatMode::UseDestinationStyles, System::MakeObject<Aspose::Words::ImportFormatOptions>());
+
+ASSERT_EQ(u"Before [src content] after", dstDoc->get_Document()->GetText().TrimEnd(System::MakeObject<System::Array<char16_t>>(0)));
+```
+
 ## See Also
 
 * Class [Node](../../node/)

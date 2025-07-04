@@ -5,7 +5,7 @@ articleTitle: PageSavingArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.PageSavingArgs class, essential for optimizing document processing with detailed PageSaving event data. Enhance your workflow!
 type: docs
-weight: 6170
+weight: 6160
 url: /net/aspose.words.saving/pagesavingargs/
 ---
 ## PageSavingArgs class
@@ -63,7 +63,7 @@ public void PageFileNames()
     string[] filePaths = Directory.GetFiles(ArtifactsDir).Where(
         s => s.StartsWith(ArtifactsDir + "SavingCallback.PageFileNames.Page_")).OrderBy(s => s).ToArray();
 
-    Assert.AreEqual(3, filePaths.Length);
+    Assert.That(filePaths.Length, Is.EqualTo(3));
 }
 
 /// <summary>
@@ -82,7 +82,7 @@ private class CustomFileNamePageSavingCallback : IPageSavingCallback
         // 2 -  Create a custom stream for the output page file:
         args.PageStream = new FileStream(outFileName, FileMode.Create);
 
-        Assert.False(args.KeepPageStreamOpen);
+        Assert.That(args.KeepPageStreamOpen, Is.False);
     }
 }
 ```

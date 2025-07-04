@@ -27,8 +27,8 @@ void Aspose::Words::VariableCollection::Remove(const System::String &name)
 
 Shows how to work with a document's variable collection. 
 ```cpp
-auto doc = MakeObject<Document>();
-SharedPtr<VariableCollection> variables = doc->get_Variables();
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::VariableCollection> variables = doc->get_Variables();
 
 // Every document has a collection of key/value pair variables, which we can add items to.
 variables->Add(u"Home address", u"123 Main St.");
@@ -38,8 +38,8 @@ variables->Add(u"Bedrooms", u"3");
 ASSERT_EQ(3, variables->get_Count());
 
 // We can display the values of variables in the document body using DOCVARIABLE fields.
-auto builder = MakeObject<DocumentBuilder>(doc);
-auto field = System::ExplicitCast<FieldDocVariable>(builder->InsertField(FieldType::FieldDocVariable, true));
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldDocVariable>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldDocVariable, true));
 field->set_VariableName(u"Home address");
 field->Update();
 
@@ -57,20 +57,25 @@ ASSERT_EQ(u"456 Queen St.", field->get_Result());
 
 // Verify that the document variables with a certain name or value exist.
 ASSERT_TRUE(variables->Contains(u"City"));
-ASSERT_TRUE(variables->LINQ_Any([](auto v) { return v.get_Value() == u"London"; }));
+ASSERT_TRUE(variables->LINQ_Any(static_cast<System::Func<System::Collections::Generic::KeyValuePair<System::String, System::String>, bool>>(static_cast<std::function<bool(System::Collections::Generic::KeyValuePair<System::String, System::String> v)>>([](System::Collections::Generic::KeyValuePair<System::String, System::String> v) -> bool
+{
+    return v.get_Value() == u"London";
+}))));
 
 // The collection of variables automatically sorts variables alphabetically by name.
 ASSERT_EQ(0, variables->IndexOfKey(u"Bedrooms"));
 ASSERT_EQ(1, variables->IndexOfKey(u"City"));
 ASSERT_EQ(2, variables->IndexOfKey(u"Home address"));
 
+ASSERT_EQ(u"3", variables->idx_get(0));
+ASSERT_EQ(u"London", variables->idx_get(u"City"));
+
 // Enumerate over the collection of variables.
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<System::Collections::Generic::KeyValuePair<String, String>>> enumerator =
-        doc->get_Variables()->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::Collections::Generic::KeyValuePair<System::String, System::String>>> enumerator = doc->get_Variables()->GetEnumerator();
     while (enumerator->MoveNext())
     {
-        std::cout << "Name: " << enumerator->get_Current().get_Key() << ", Value: " << enumerator->get_Current().get_Value() << std::endl;
+        std::cout << System::String::Format(u"Name: {0}, Value: {1}", enumerator->get_Current().get_Key(), enumerator->get_Current().get_Value()) << std::endl;
     }
 }
 

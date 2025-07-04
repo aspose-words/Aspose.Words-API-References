@@ -41,15 +41,15 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ex
 
 if (exportEmbeddedFonts)
 {
-    Assert.True(Regex.Match(outDocContents,
-        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(].+[)] format[(]'woff'[)]; }").Success);
-    Assert.AreEqual(0, Directory.GetFiles(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedFonts").Count(f => f.EndsWith(".woff")));
+    Assert.That(Regex.Match(outDocContents,
+        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(].+[)] format[(]'woff'[)]; }").Success, Is.True);
+    Assert.That(Directory.GetFiles(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedFonts").Count(f => f.EndsWith(".woff")), Is.EqualTo(0));
 }
 else
 {
-    Assert.True(Regex.Match(outDocContents,
-        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(]'font001[.]woff'[)] format[(]'woff'[)]; }").Success);
-    Assert.AreEqual(2, Directory.GetFiles(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedFonts").Count(f => f.EndsWith(".woff")));
+    Assert.That(Regex.Match(outDocContents,
+        "@font-face { font-family:'Arial'; font-style:normal; font-weight:normal; src:local[(]'☺'[)], url[(]'font001[.]woff'[)] format[(]'woff'[)]; }").Success, Is.True);
+    Assert.That(Directory.GetFiles(ArtifactsDir + "HtmlFixedSaveOptions.ExportEmbeddedFonts").Count(f => f.EndsWith(".woff")), Is.EqualTo(2));
 }
 ```
 

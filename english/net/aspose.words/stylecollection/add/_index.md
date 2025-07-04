@@ -45,8 +45,8 @@ styles.DefaultParagraphFormat.FirstLineIndent = 15.0;
 // Add a style, and then verify that it has the default settings.
 styles.Add(StyleType.Paragraph, "MyStyle");
 
-Assert.AreEqual("Courier New", styles[4].Font.Name);
-Assert.AreEqual(15.0, styles["MyStyle"].ParagraphFormat.FirstLineIndent);
+Assert.That(styles[4].Font.Name, Is.EqualTo("Courier New"));
+Assert.That(styles["MyStyle"].ParagraphFormat.FirstLineIndent, Is.EqualTo(15.0));
 ```
 
 Shows how to create a list style and use it in a document.
@@ -63,10 +63,10 @@ Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
 
-Assert.True(list1.IsListStyleDefinition);
-Assert.False(list1.IsListStyleReference);
-Assert.True(list1.IsMultiLevel);
-Assert.AreEqual(listStyle, list1.Style);
+Assert.That(list1.IsListStyleDefinition, Is.True);
+Assert.That(list1.IsListStyleReference, Is.False);
+Assert.That(list1.IsMultiLevel, Is.True);
+Assert.That(list1.Style, Is.EqualTo(listStyle));
 
 // Change the appearance of all list levels in our list.
 foreach (ListLevel level in list1.ListLevels)
@@ -83,9 +83,9 @@ builder.Writeln("Using list style first time:");
 // Create another list from a list within a style.
 List list2 = doc.Lists.Add(listStyle);
 
-Assert.False(list2.IsListStyleDefinition);
-Assert.True(list2.IsListStyleReference);
-Assert.AreEqual(listStyle, list2.Style);
+Assert.That(list2.IsListStyleDefinition, Is.False);
+Assert.That(list2.IsListStyleReference, Is.True);
+Assert.That(list2.Style, Is.EqualTo(listStyle));
 
 // Add some list items that our list will format.
 builder.ListFormat.List = list2;

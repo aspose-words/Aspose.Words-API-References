@@ -52,7 +52,7 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.Relativ
 
 if (exportRelativeFontSize)
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<body style=\"font-family:'Times New Roman'\">" +
             "<div>" +
                 "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
@@ -65,11 +65,11 @@ if (exportRelativeFontSize)
                     "<span>8x default font size</span>" +
                 "</p>" +
             "</div>" +
-        "</body>"));
+        "</body>"), Is.True);
 }
 else
 {
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         "<body style=\"font-family:'Times New Roman'; font-size:12pt\">" +
             "<div>" +
                 "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
@@ -82,7 +82,7 @@ else
                     "<span>8x default font size</span>" +
                 "</p>" +
             "</div>" +
-        "</body>"));
+        "</body>"), Is.True);
 }
 ```
 

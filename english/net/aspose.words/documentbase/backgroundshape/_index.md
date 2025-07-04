@@ -31,7 +31,7 @@ Shows how to set a background shape for every page of a document.
 ```csharp
 Document doc = new Document();
 
-Assert.IsNull(doc.BackgroundShape);
+Assert.That(doc.BackgroundShape, Is.Null);
 
 // The only shape type that we can use as a background is a rectangle.
 Shape shapeRectangle = new Shape(doc, ShapeType.Rectangle);
@@ -53,7 +53,7 @@ shapeRectangle.ImageData.Brightness = 0.7;
 
 doc.BackgroundShape = shapeRectangle;
 
-Assert.IsTrue(doc.BackgroundShape.HasImage);
+Assert.That(doc.BackgroundShape.HasImage, Is.True);
 
 Aspose.Words.Saving.PdfSaveOptions saveOptions = new Aspose.Words.Saving.PdfSaveOptions
 {

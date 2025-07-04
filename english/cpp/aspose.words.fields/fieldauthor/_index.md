@@ -26,7 +26,7 @@ class FieldAuthor : public Aspose::Words::Fields::Field
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_Result](../field/get_result/)() | Gets or sets text that is between the field separator and field end. |
@@ -39,7 +39,7 @@ class FieldAuthor : public Aspose::Words::Fields::Field
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_AuthorName](./set_authorname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldAuthor::get_AuthorName](./get_authorname/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_Result](../field/set_result/)(const System::String\&) | Setter for [Aspose::Words::Fields::Field::get_Result](../field/get_result/). |
@@ -54,22 +54,22 @@ class FieldAuthor : public Aspose::Words::Fields::Field
 
 Shows how to use an AUTHOR field to display a document creator's name. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // AUTHOR fields source their results from the built-in document property called "Author".
 // If we create and save a document in Microsoft Word,
 // it will have our username in that property.
 // However, if we create a document programmatically using Aspose.Words,
 // the "Author" property, by default, will be an empty string.
-ASSERT_EQ(String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
+ASSERT_EQ(System::String::Empty, doc->get_BuiltInDocumentProperties()->get_Author());
 
 // Set a backup author name for AUTHOR fields to use
 // if the "Author" property contains an empty string.
 doc->get_FieldOptions()->set_DefaultDocumentAuthor(u"Joe Bloggs");
 
 builder->Write(u"This document was created by ");
-auto field = System::ExplicitCast<FieldAuthor>(builder->InsertField(FieldType::FieldAuthor, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldAuthor>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldAuthor, true));
 field->Update();
 
 ASSERT_EQ(u" AUTHOR ", field->GetFieldCode());
@@ -98,7 +98,7 @@ ASSERT_EQ(u"Jane Doe", field->get_Result());
 ASSERT_EQ(u"Jane Doe", doc->get_BuiltInDocumentProperties()->get_Author());
 ASSERT_EQ(u"Joe Bloggs", doc->get_FieldOptions()->get_DefaultDocumentAuthor());
 
-doc->Save(ArtifactsDir + u"Field.AUTHOR.docx");
+doc->Save(get_ArtifactsDir() + u"Field.AUTHOR.docx");
 ```
 
 ## See Also

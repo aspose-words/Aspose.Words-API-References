@@ -30,12 +30,12 @@ Shows how to work with the versions count feature of older Microsoft Word docume
 Document doc = new Document(MyDir + "Versions.doc");
 
 // We can read this property of a document, but we cannot preserve it while saving.
-Assert.AreEqual(4, doc.VersionsCount);
+Assert.That(doc.VersionsCount, Is.EqualTo(4));
 
 doc.Save(ArtifactsDir + "Document.VersionsCount.doc");
 doc = new Document(ArtifactsDir + "Document.VersionsCount.doc");
 
-Assert.AreEqual(0, doc.VersionsCount);
+Assert.That(doc.VersionsCount, Is.EqualTo(0));
 ```
 
 ### See Also

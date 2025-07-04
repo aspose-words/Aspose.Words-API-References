@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_Station method
 linktitle: set_Station
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_Station method. Sets the station of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_Station method. Setter for Aspose::Words::Bibliography::Source::get_Station in C++.'
 type: docs
 weight: 99000
 url: /cpp/aspose.words.bibliography/source/set_station/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_station/
 ## Source::set_Station method
 
 
-Sets the station of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_Station](../get_station/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_Station(const System::String &value)

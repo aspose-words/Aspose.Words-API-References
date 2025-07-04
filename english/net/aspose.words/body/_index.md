@@ -5,7 +5,7 @@ articleTitle: Body
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Body class, your essential tool for managing section text effortlessly and enhancing document processing efficiency.
 type: docs
-weight: 220
+weight: 210
 url: /net/aspose.words/body/
 ---
 ## Body class
@@ -131,7 +131,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```

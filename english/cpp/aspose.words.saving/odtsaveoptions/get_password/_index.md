@@ -27,28 +27,28 @@ In order to save document without encryption this property should be **null** or
 
 Shows how to encrypt a saved ODT/OTT document with a password, and then load it using Aspose.Words. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Hello world!");
 
 // Create a new OdtSaveOptions, and pass either "SaveFormat.Odt",
 // or "SaveFormat.Ott" as the format to save the document in.
-auto saveOptions = MakeObject<OdtSaveOptions>(saveFormat);
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::OdtSaveOptions>(saveFormat);
 saveOptions->set_Password(u"@sposeEncrypted_1145");
 
-String extensionString = FileFormatUtil::SaveFormatToExtension(saveFormat);
+System::String extensionString = Aspose::Words::FileFormatUtil::SaveFormatToExtension(saveFormat);
 
 // If we open this document with an appropriate editor,
 // it will prompt us for the password we specified in the SaveOptions object.
-doc->Save(ArtifactsDir + u"OdtSaveOptions.Encrypt" + extensionString, saveOptions);
+doc->Save(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, saveOptions);
 
-SharedPtr<FileFormatInfo> docInfo = FileFormatUtil::DetectFileFormat(ArtifactsDir + u"OdtSaveOptions.Encrypt" + extensionString);
+System::SharedPtr<Aspose::Words::FileFormatInfo> docInfo = Aspose::Words::FileFormatUtil::DetectFileFormat(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString);
 
 ASSERT_TRUE(docInfo->get_IsEncrypted());
 
 // If we wish to open or edit this document again using Aspose.Words,
 // we will have to provide a LoadOptions object with the correct password to the loading constructor.
-doc = MakeObject<Document>(ArtifactsDir + u"OdtSaveOptions.Encrypt" + extensionString, MakeObject<LoadOptions>(u"@sposeEncrypted_1145"));
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"OdtSaveOptions.Encrypt" + extensionString, System::MakeObject<Aspose::Words::Loading::LoadOptions>(u"@sposeEncrypted_1145"));
 
 ASSERT_EQ(u"Hello world!", doc->GetText().Trim());
 ```

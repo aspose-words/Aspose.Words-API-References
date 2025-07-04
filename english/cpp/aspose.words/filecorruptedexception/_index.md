@@ -27,9 +27,9 @@ try
 {
     // If we get an "Unreadable content" error message when trying to open a document using Microsoft Word,
     // chances are that we will get an exception thrown when trying to load that document using Aspose.Words.
-    auto doc = MakeObject<Document>(MyDir + u"Corrupted document.docx");
+    auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Corrupted document.docx");
 }
-catch (FileCorruptedException& e)
+catch (Aspose::Words::FileCorruptedException& e)
 {
     std::cout << e->get_Message() << std::endl;
 }

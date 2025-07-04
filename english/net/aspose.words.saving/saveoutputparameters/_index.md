@@ -5,7 +5,7 @@ articleTitle: SaveOutputParameters
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.SaveOutputParameters class, which provides essential details post-document save, enhancing your document management experience.
 type: docs
-weight: 6400
+weight: 6390
 url: /net/aspose.words.saving/saveoutputparameters/
 ---
 ## SaveOutputParameters class
@@ -36,12 +36,12 @@ builder.Writeln("Hello world!");
 // After we save a document, we can access the Internet Media Type (MIME type) of the newly created output document.
 SaveOutputParameters parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.doc");
 
-Assert.AreEqual("application/msword", parameters.ContentType);
+Assert.That(parameters.ContentType, Is.EqualTo("application/msword"));
 
 // This property changes depending on the save format.
 parameters = doc.Save(ArtifactsDir + "Document.SaveOutputParameters.pdf");
 
-Assert.AreEqual("application/pdf", parameters.ContentType);
+Assert.That(parameters.ContentType, Is.EqualTo("application/pdf"));
 ```
 
 ### See Also

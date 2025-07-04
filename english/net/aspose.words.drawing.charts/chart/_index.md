@@ -5,7 +5,7 @@ articleTitle: Chart
 second_title: Aspose.Words for .NET
 description: Unlock powerful chart shape properties with Aspose.Words.Drawing.Charts.Chart class. Enhance your documents with dynamic visual data representation.
 type: docs
-weight: 880
+weight: 870
 url: /net/aspose.words.drawing.charts/chart/
 ---
 ## Chart class

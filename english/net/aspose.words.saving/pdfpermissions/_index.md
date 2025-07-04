@@ -5,7 +5,7 @@ articleTitle: PdfPermissions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.PdfPermissions enum for controlling user access on encrypted PDFs. Enhance security and manage document operations effectively.
 type: docs
-weight: 6320
+weight: 6310
 url: /net/aspose.words.saving/pdfpermissions/
 ---
 ## PdfPermissions enumeration

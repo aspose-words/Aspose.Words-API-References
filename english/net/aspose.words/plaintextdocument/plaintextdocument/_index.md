@@ -44,7 +44,7 @@ doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also
@@ -98,7 +98,7 @@ loadOptions.Password = "MyPassword";
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.LoadEncrypted.docx", loadOptions);
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also
@@ -154,7 +154,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 {
     PlainTextDocument plaintext = new PlainTextDocument(stream);
 
-    Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+    Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 }
 ```
 
@@ -218,7 +218,7 @@ using (FileStream stream = new FileStream(ArtifactsDir + "PlainTextDocument.Load
 {
     PlainTextDocument plaintext = new PlainTextDocument(stream, loadOptions);
 
-    Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+    Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 }
 ```
 

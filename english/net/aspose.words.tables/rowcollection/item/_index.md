@@ -38,7 +38,7 @@ Shows how to iterate through all tables in the document and print the contents o
 Document doc = new Document(MyDir + "Tables.docx");
 TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(2, tables.ToArray().Length);
+Assert.That(tables.ToArray().Length, Is.EqualTo(2));
 
 for (int i = 0; i < tables.Count; i++)
 {
@@ -47,8 +47,8 @@ for (int i = 0; i < tables.Count; i++)
     RowCollection rows = tables[i].Rows;
 
     // We can use the "ToArray" method on a row collection to clone it into an array.
-    Assert.AreEqual(rows, rows.ToArray());
-    Assert.AreNotSame(rows, rows.ToArray());
+    Assert.That(rows.ToArray(), Is.EqualTo(rows));
+    Assert.That(rows.ToArray(), Is.Not.SameAs(rows));
 
     for (int j = 0; j < rows.Count; j++)
     {
@@ -57,8 +57,8 @@ for (int i = 0; i < tables.Count; i++)
         CellCollection cells = rows[j].Cells;
 
         // We can use the "ToArray" method on a cell collection to clone it into an array.
-        Assert.AreEqual(cells, cells.ToArray());
-        Assert.AreNotSame(cells, cells.ToArray());
+        Assert.That(cells.ToArray(), Is.EqualTo(cells));
+        Assert.That(cells.ToArray(), Is.Not.SameAs(cells));
 
         for (int k = 0; k < cells.Count; k++)
         {

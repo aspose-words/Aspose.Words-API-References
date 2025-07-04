@@ -57,23 +57,23 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.Metafil
 switch (htmlMetafileFormat)
 {
     case HtmlMetafileFormat.Png:
-        Assert.True(outDocContents.Contains(
+        Assert.That(outDocContents.Contains(
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<img src=\"HtmlSaveOptions.MetafileFormat.001.png\" width=\"500\" height=\"40\" alt=\"\" " +
                 "style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
-            "</p>"));
+            "</p>"), Is.True);
         break;
     case HtmlMetafileFormat.Svg:
-        Assert.True(outDocContents.Contains(
+        Assert.That(outDocContents.Contains(
             "<span style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\">" +
-            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height=\"40\">"));
+            "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" width=\"499\" height=\"40\">"), Is.True);
         break;
     case HtmlMetafileFormat.EmfOrWmf:
-        Assert.True(outDocContents.Contains(
+        Assert.That(outDocContents.Contains(
             "<p style=\"margin-top:0pt; margin-bottom:0pt\">" +
                 "<img src=\"HtmlSaveOptions.MetafileFormat.001.emf\" width=\"500\" height=\"40\" alt=\"\" " +
                 "style=\"-aw-left-pos:0pt; -aw-rel-hpos:column; -aw-rel-vpos:paragraph; -aw-top-pos:0pt; -aw-wrap-type:inline\" />" +
-            "</p>"));
+            "</p>"), Is.True);
         break;
 }
 ```

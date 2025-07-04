@@ -36,7 +36,7 @@ options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
 
-Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
+Assert.That("Paul took money from Jason.\f", Is.EqualTo(doc.GetText()));
 ```
 
 ### See Also
@@ -99,11 +99,9 @@ public void Order(bool differentFirstPageHeaderFooter)
     doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
     if (differentFirstPageHeaderFooter)
-        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n"));
     else
-        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n"));
 }
 
 /// <summary>

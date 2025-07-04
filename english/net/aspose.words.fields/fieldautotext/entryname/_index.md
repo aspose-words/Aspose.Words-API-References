@@ -51,13 +51,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldAutoText fieldAutoText = (FieldAutoText)builder.InsertField(FieldType.FieldAutoText, true);
 fieldAutoText.EntryName = "MyBlock";
 
-Assert.AreEqual(" AUTOTEXT  MyBlock", fieldAutoText.GetFieldCode());
+Assert.That(fieldAutoText.GetFieldCode(), Is.EqualTo(" AUTOTEXT  MyBlock"));
 
 // 2 -  Using a GLOSSARY field:
 FieldGlossary fieldGlossary = (FieldGlossary)builder.InsertField(FieldType.FieldGlossary, true);
 fieldGlossary.EntryName = "MyBlock";
 
-Assert.AreEqual(" GLOSSARY  MyBlock", fieldGlossary.GetFieldCode());
+Assert.That(fieldGlossary.GetFieldCode(), Is.EqualTo(" GLOSSARY  MyBlock"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.AUTOTEXT.GLOSSARY.dotx");

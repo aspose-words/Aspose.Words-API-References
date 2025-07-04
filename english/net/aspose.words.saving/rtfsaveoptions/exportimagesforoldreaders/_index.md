@@ -32,7 +32,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 // Create an "RtfSaveOptions" object to pass to the document's "Save" method to modify how we save it to an RTF.
 RtfSaveOptions options = new RtfSaveOptions();
 
-Assert.AreEqual(SaveFormat.Rtf, options.SaveFormat);
+Assert.That(options.SaveFormat, Is.EqualTo(SaveFormat.Rtf));
 
 // Set the "ExportCompactSize" property to "true" to
 // reduce the saved document's size at the cost of right-to-left text compatibility.

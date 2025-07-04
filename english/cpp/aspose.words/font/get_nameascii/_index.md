@@ -23,8 +23,8 @@ System::String Aspose::Words::Font::get_NameAscii()
 
 Shows how Microsoft Word can combine two different fonts in one run. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Suppose a run that we use the builder to insert while using this font configuration
 // contains characters within the ASCII characters' range. In that case,
@@ -42,7 +42,7 @@ builder->get_Font()->set_NameOther(u"Courier New");
 // Each character will be displayed using either of the fonts, depending on.
 builder->Writeln(u"Hello, Привет");
 
-doc->Save(ArtifactsDir + u"Font.NameAscii.docx");
+doc->Save(get_ArtifactsDir() + u"Font.NameAscii.docx");
 ```
 
 ## See Also

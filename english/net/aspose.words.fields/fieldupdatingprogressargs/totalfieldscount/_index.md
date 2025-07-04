@@ -42,7 +42,7 @@ public void FieldUpdatingCallbackTest()
 
     doc.UpdateFields();
 
-    Assert.True(callback.FieldUpdatedCalls.Contains("Updating John Doe"));
+    Assert.That(callback.FieldUpdatedCalls.Contains("Updating John Doe"), Is.True);
 }
 
 /// <summary>

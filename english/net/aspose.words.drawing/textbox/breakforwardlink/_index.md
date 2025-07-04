@@ -51,12 +51,12 @@ if (textBox2.IsValidLinkTarget(textBox3))
     textBox2.Next = textBox3;
 
 // Only an empty text box may have a link.
-Assert.True(textBox3.IsValidLinkTarget(textBox4));
+Assert.That(textBox3.IsValidLinkTarget(textBox4), Is.True);
 
 builder.MoveTo(textBoxShape4.LastParagraph);
 builder.Write("Hello world!");
 
-Assert.False(textBox3.IsValidLinkTarget(textBox4));
+Assert.That(textBox3.IsValidLinkTarget(textBox4), Is.False);
 
 if (textBox1.Next != null && textBox1.Previous == null)
     Console.WriteLine("This TextBox is the head of the sequence");
@@ -70,8 +70,8 @@ if (textBox3.Next == null && textBox3.Previous != null)
 
     // Break the forward link between textBox2 and textBox3, and then verify that they are no longer linked.
     textBox3.Previous.BreakForwardLink();
-    Assert.IsTrue(textBox2.Next == null);
-    Assert.IsTrue(textBox3.Previous == null);
+    Assert.That(textBox2.Next == null, Is.True);
+    Assert.That(textBox3.Previous == null, Is.True);
 }
 
 doc.Save(ArtifactsDir + "Shape.CreateLinkBetweenTextBoxes.docx");

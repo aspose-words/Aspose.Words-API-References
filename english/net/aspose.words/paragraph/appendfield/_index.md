@@ -43,12 +43,12 @@ paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 // 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
-Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Placeholder value"));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Real value"));
 
 doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 ```
@@ -97,12 +97,12 @@ paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 // 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
-Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Placeholder value"));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Real value"));
 
 doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 ```
@@ -151,12 +151,12 @@ paragraph.AppendField(" TIME  \\@ \"HH:mm:ss\" ");
 // 3 -  Append a QUOTE field using a field code, and get it to display a placeholder value:
 paragraph.AppendField(" QUOTE \"Real value\"", "Placeholder value");
 
-Assert.AreEqual("Placeholder value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Placeholder value"));
 
 // This field will display its placeholder value until we update it.
 doc.UpdateFields();
 
-Assert.AreEqual("Real value", doc.Range.Fields[2].Result);
+Assert.That(doc.Range.Fields[2].Result, Is.EqualTo("Real value"));
 
 doc.Save(ArtifactsDir + "Paragraph.AppendField.docx");
 ```

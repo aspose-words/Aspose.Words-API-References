@@ -23,8 +23,8 @@ bool Aspose::Words::Document::get_RemovePersonalInformation()
 
 Shows how to enable the removal of personal information during a manual save. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert some content with personal information.
 doc->get_BuiltInDocumentProperties()->set_Author(u"John Doe");
@@ -40,8 +40,8 @@ doc->set_RemovePersonalInformation(saveWithoutPersonalInfo);
 
 // This option will not take effect during a save operation made using Aspose.Words.
 // Personal data will be removed from our document with the flag set when we save it manually using Microsoft Word.
-doc->Save(ArtifactsDir + u"Document.RemovePersonalInformation.docx");
-doc = MakeObject<Document>(ArtifactsDir + u"Document.RemovePersonalInformation.docx");
+doc->Save(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
+doc = System::MakeObject<Aspose::Words::Document>(get_ArtifactsDir() + u"Document.RemovePersonalInformation.docx");
 
 ASPOSE_ASSERT_EQ(saveWithoutPersonalInfo, doc->get_RemovePersonalInformation());
 ASSERT_EQ(u"John Doe", doc->get_BuiltInDocumentProperties()->get_Author());

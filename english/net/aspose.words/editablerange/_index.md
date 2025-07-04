@@ -5,7 +5,7 @@ articleTitle: EditableRange
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.EditableRange class, your solution for managing editable text areas effortlessly. Enhance document editing with ease!
 type: docs
-weight: 1830
+weight: 1820
 url: /net/aspose.words/editablerange/
 ---
 ## EditableRange class
@@ -59,19 +59,19 @@ EditableRangeEnd editableRangeEnd = builder.EndEditableRange();
 // These nodes have matching IDs and encompass editable nodes.
 EditableRange editableRange = editableRangeStart.EditableRange;
 
-Assert.AreEqual(editableRangeStart.Id, editableRange.Id);
-Assert.AreEqual(editableRangeEnd.Id, editableRange.Id);
+Assert.That(editableRange.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRange.Id, Is.EqualTo(editableRangeEnd.Id));
 
 // Different parts of the editable range link to each other.
-Assert.AreEqual(editableRangeStart.Id, editableRange.EditableRangeStart.Id);
-Assert.AreEqual(editableRangeStart.Id, editableRangeEnd.EditableRangeStart.Id);
-Assert.AreEqual(editableRange.Id, editableRangeStart.EditableRange.Id);
-Assert.AreEqual(editableRangeEnd.Id, editableRange.EditableRangeEnd.Id);
+Assert.That(editableRange.EditableRangeStart.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRangeEnd.EditableRangeStart.Id, Is.EqualTo(editableRangeStart.Id));
+Assert.That(editableRangeStart.EditableRange.Id, Is.EqualTo(editableRange.Id));
+Assert.That(editableRange.EditableRangeEnd.Id, Is.EqualTo(editableRangeEnd.Id));
 
 // We can access the node types of each part like this. The editable range itself is not a node,
 // but an entity which consists of a start, an end, and their enclosed contents.
-Assert.AreEqual(NodeType.EditableRangeStart, editableRangeStart.NodeType);
-Assert.AreEqual(NodeType.EditableRangeEnd, editableRangeEnd.NodeType);
+Assert.That(editableRangeStart.NodeType, Is.EqualTo(NodeType.EditableRangeStart));
+Assert.That(editableRangeEnd.NodeType, Is.EqualTo(NodeType.EditableRangeEnd));
 
 builder.Writeln("This paragraph is outside the editable range, and cannot be edited.");
 
@@ -101,7 +101,7 @@ public void Visitor()
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.SingleUser}.");
     builder.EndEditableRange();
 
-    Assert.AreEqual(EditorType.Unspecified, editableRange.EditorGroup);
+    Assert.That(editableRange.EditorGroup, Is.EqualTo(EditorType.Unspecified));
 
     // 2 -  Specify a group that allowed users are associated with:
     editableRange = builder.StartEditableRange().EditableRange;
@@ -109,7 +109,7 @@ public void Visitor()
     builder.Writeln($"This paragraph is inside the first editable range, can only be edited by {editableRange.EditorGroup}.");
     builder.EndEditableRange();
 
-    Assert.AreEqual(string.Empty, editableRange.SingleUser);
+    Assert.That(editableRange.SingleUser, Is.EqualTo(string.Empty));
 
     builder.Writeln("This paragraph is outside the editable range, and cannot be edited by anybody.");
 

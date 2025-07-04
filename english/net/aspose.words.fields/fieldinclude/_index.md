@@ -5,7 +5,7 @@ articleTitle: FieldInclude
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldInclude class to seamlessly implement INCLUDE fields in your documents, enhancing automation and efficiency.
 type: docs
-weight: 2440
+weight: 2430
 url: /net/aspose.words.fields/fieldinclude/
 ---
 ## FieldInclude class
@@ -74,7 +74,7 @@ field.BookmarkName = "MyBookmark1";
 field.LockFields = false;
 field.TextConverter = "Microsoft Word";
 
-Assert.True(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success);
+Assert.That(Regex.Match(field.GetFieldCode(), " INCLUDE .* MyBookmark1 \\\\c \"Microsoft Word\"").Success, Is.True);
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.INCLUDE.docx");

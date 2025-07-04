@@ -45,8 +45,8 @@ doc.Save(ArtifactsDir + "Shape.Title.docx");
 doc = new Document(ArtifactsDir + "Shape.Title.docx");
 shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-Assert.AreEqual(string.Empty, shape.Title);
-Assert.AreEqual("Title: My cube", shape.AlternativeText);
+Assert.That(shape.Title, Is.EqualTo(string.Empty));
+Assert.That(shape.AlternativeText, Is.EqualTo("Title: My cube"));
 ```
 
 ### See Also

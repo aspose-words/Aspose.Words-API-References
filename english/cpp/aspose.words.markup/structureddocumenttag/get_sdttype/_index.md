@@ -23,14 +23,13 @@ Aspose::Words::Markup::SdtType Aspose::Words::Markup::StructuredDocumentTag::get
 
 Shows how to get the type of a structured document tag. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Structured document tags.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Structured document tags.docx");
 
-SharedPtr<System::Collections::Generic::List<SharedPtr<StructuredDocumentTag>>> sdTags =
-    doc->GetChildNodes(NodeType::StructuredDocumentTag, true)->LINQ_OfType<SharedPtr<StructuredDocumentTag>>()->LINQ_ToList();
+System::SharedPtr<System::Collections::Generic::List<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag>>> tags = doc->GetChildNodes(Aspose::Words::NodeType::StructuredDocumentTag, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Markup::StructuredDocumentTag> >()->LINQ_ToList();
 
-ASSERT_EQ(SdtType::RepeatingSection, sdTags->idx_get(0)->get_SdtType());
-ASSERT_EQ(SdtType::RepeatingSectionItem, sdTags->idx_get(1)->get_SdtType());
-ASSERT_EQ(SdtType::RichText, sdTags->idx_get(2)->get_SdtType());
+ASSERT_EQ(Aspose::Words::Markup::SdtType::RepeatingSection, tags->idx_get(0)->get_SdtType());
+ASSERT_EQ(Aspose::Words::Markup::SdtType::RepeatingSectionItem, tags->idx_get(1)->get_SdtType());
+ASSERT_EQ(Aspose::Words::Markup::SdtType::RichText, tags->idx_get(2)->get_SdtType());
 ```
 
 ## See Also

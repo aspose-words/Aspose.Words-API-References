@@ -5,7 +5,7 @@ articleTitle: ThemeColor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words ThemeColor enum for customizing document themes with vibrant colors, enhancing your document's visual appeal and professionalism.
 type: docs
-weight: 7330
+weight: 7320
 url: /net/aspose.words.themes/themecolor/
 ---
 ## ThemeColor enumeration
@@ -81,68 +81,68 @@ Console.WriteLine("Originally the Normal style theme color is: {0} and RGB color
 font.ThemeFont = ThemeFont.Minor;
 font.ThemeColor = ThemeColor.Accent2;
 
-Assert.AreEqual(ThemeFont.Minor, font.ThemeFont);
-Assert.AreEqual("Algerian", font.Name);
+Assert.That(font.ThemeFont, Is.EqualTo(ThemeFont.Minor));
+Assert.That(font.Name, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeFont.Minor, font.ThemeFontAscii);
-Assert.AreEqual("Algerian", font.NameAscii);
+Assert.That(font.ThemeFontAscii, Is.EqualTo(ThemeFont.Minor));
+Assert.That(font.NameAscii, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeFont.Minor, font.ThemeFontBi);
-Assert.AreEqual("Andalus", font.NameBi);
+Assert.That(font.ThemeFontBi, Is.EqualTo(ThemeFont.Minor));
+Assert.That(font.NameBi, Is.EqualTo("Andalus"));
 
-Assert.AreEqual(ThemeFont.Minor, font.ThemeFontFarEast);
-Assert.AreEqual("Aharoni", font.NameFarEast);
+Assert.That(font.ThemeFontFarEast, Is.EqualTo(ThemeFont.Minor));
+Assert.That(font.NameFarEast, Is.EqualTo("Aharoni"));
 
-Assert.AreEqual(ThemeFont.Minor, font.ThemeFontOther);
-Assert.AreEqual("Algerian", font.NameOther);
+Assert.That(font.ThemeFontOther, Is.EqualTo(ThemeFont.Minor));
+Assert.That(font.NameOther, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeColor.Accent2, font.ThemeColor);
-Assert.AreEqual(Color.Empty, font.Color);
+Assert.That(font.ThemeColor, Is.EqualTo(ThemeColor.Accent2));
+Assert.That(font.Color, Is.EqualTo(Color.Empty));
 
 // There are several ways of reset them font and color.
 // 1 -  By setting ThemeFont.None/ThemeColor.None:
 font.ThemeFont = ThemeFont.None;
 font.ThemeColor = ThemeColor.None;
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFont);
-Assert.AreEqual("Algerian", font.Name);
+Assert.That(font.ThemeFont, Is.EqualTo(ThemeFont.None));
+Assert.That(font.Name, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontAscii);
-Assert.AreEqual("Algerian", font.NameAscii);
+Assert.That(font.ThemeFontAscii, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameAscii, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontBi);
-Assert.AreEqual("Andalus", font.NameBi);
+Assert.That(font.ThemeFontBi, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameBi, Is.EqualTo("Andalus"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontFarEast);
-Assert.AreEqual("Aharoni", font.NameFarEast);
+Assert.That(font.ThemeFontFarEast, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameFarEast, Is.EqualTo("Aharoni"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontOther);
-Assert.AreEqual("Algerian", font.NameOther);
+Assert.That(font.ThemeFontOther, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameOther, Is.EqualTo("Algerian"));
 
-Assert.AreEqual(ThemeColor.None, font.ThemeColor);
-Assert.AreEqual(Color.Empty, font.Color);
+Assert.That(font.ThemeColor, Is.EqualTo(ThemeColor.None));
+Assert.That(font.Color, Is.EqualTo(Color.Empty));
 
 // 2 -  By setting non-theme font/color names:
 font.Name = "Arial";
 font.Color = Color.Blue;
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFont);
-Assert.AreEqual("Arial", font.Name);
+Assert.That(font.ThemeFont, Is.EqualTo(ThemeFont.None));
+Assert.That(font.Name, Is.EqualTo("Arial"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontAscii);
-Assert.AreEqual("Arial", font.NameAscii);
+Assert.That(font.ThemeFontAscii, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameAscii, Is.EqualTo("Arial"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontBi);
-Assert.AreEqual("Arial", font.NameBi);
+Assert.That(font.ThemeFontBi, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameBi, Is.EqualTo("Arial"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontFarEast);
-Assert.AreEqual("Arial", font.NameFarEast);
+Assert.That(font.ThemeFontFarEast, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameFarEast, Is.EqualTo("Arial"));
 
-Assert.AreEqual(ThemeFont.None, font.ThemeFontOther);
-Assert.AreEqual("Arial", font.NameOther);
+Assert.That(font.ThemeFontOther, Is.EqualTo(ThemeFont.None));
+Assert.That(font.NameOther, Is.EqualTo("Arial"));
 
-Assert.AreEqual(ThemeColor.None, font.ThemeColor);
-Assert.AreEqual(Color.Blue.ToArgb(), font.Color.ToArgb());
+Assert.That(font.ThemeColor, Is.EqualTo(ThemeColor.None));
+Assert.That(font.Color.ToArgb(), Is.EqualTo(Color.Blue.ToArgb()));
 ```
 
 ### See Also

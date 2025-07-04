@@ -31,7 +31,7 @@ public void MergeFieldImages()
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // In this case, the field expects the data source to have such a column named "ImageColumn".
-    Assert.AreEqual("Image:ImageColumn", field.FieldName);
+    Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
 
     // Filenames can be lengthy, and if we can find a way to avoid storing them in the data source,
     // we may considerably reduce its size.
@@ -80,7 +80,7 @@ private class ImageFilenameCallback : IFieldMergingCallback
             #endif
         }
 
-        Assert.NotNull(args.Image);
+        Assert.That(args.Image, Is.Not.Null);
     }
 
     private readonly Dictionary<string, string> mImageFilenames;

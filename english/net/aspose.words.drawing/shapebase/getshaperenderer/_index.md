@@ -32,7 +32,7 @@ Shows how to use a shape renderer to export shapes to files in the local file sy
 Document doc = new Document(MyDir + "Various shapes.docx");
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(7, shapes.Length);
+Assert.That(shapes.Length, Is.EqualTo(7));
 
 // There are 7 shapes in the document, including one group shape with 2 child shapes.
 // We will render every shape to an image file in the local file system

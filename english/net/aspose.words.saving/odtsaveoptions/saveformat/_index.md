@@ -38,14 +38,14 @@ doc.Save(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString, saveOptions)
 
 FileFormatInfo docInfo = FileFormatUtil.DetectFileFormat(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString);
 
-Assert.IsTrue(docInfo.IsEncrypted);
+Assert.That(docInfo.IsEncrypted, Is.True);
 
 // If we wish to open or edit this document again using Aspose.Words,
 // we will have to provide a LoadOptions object with the correct password to the loading constructor.
 doc = new Document(ArtifactsDir + "OdtSaveOptions.Encrypt" + extensionString,
     new LoadOptions("@sposeEncrypted_1145"));
 
-Assert.AreEqual("Hello world!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

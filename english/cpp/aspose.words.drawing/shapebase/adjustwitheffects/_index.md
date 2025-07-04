@@ -23,9 +23,9 @@ System::Drawing::RectangleF Aspose::Words::Drawing::ShapeBase::AdjustWithEffects
 
 Shows how to check how a shape's bounds are affected by shape effects. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Shape shadow effect.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Shape shadow effect.docx");
 
-ArrayPtr<SharedPtr<Shape>> shapes = doc->GetChildNodes(NodeType::Shape, true)->LINQ_OfType<SharedPtr<Shape>>()->LINQ_ToArray();
+System::ArrayPtr<System::SharedPtr<Aspose::Words::Drawing::Shape>> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true)->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_ToArray();
 
 ASSERT_EQ(2, shapes->get_Length());
 
@@ -44,7 +44,7 @@ ASPOSE_ASSERT_EQ(20.0, shapes[1]->get_StrokeWeight());
 ASSERT_FALSE(shapes[0]->get_ShadowEnabled());
 ASSERT_TRUE(shapes[1]->get_ShadowEnabled());
 
-SharedPtr<Shape> shape = shapes[0];
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = shapes[0];
 
 // Create a RectangleF object, representing a rectangle,
 // which we could potentially use as the coordinates and bounds for a shape.
@@ -75,13 +75,13 @@ ASPOSE_ASSERT_EQ(167, rectangleFOut.get_Y());
 
 // The effects have also affected the visible dimensions of the shape.
 ASPOSE_ASSERT_EQ(1045, rectangleFOut.get_Width());
-ASPOSE_ASSERT_EQ(1132, rectangleFOut.get_Height());
+ASPOSE_ASSERT_EQ(1133.5, rectangleFOut.get_Height());
 
 // The effects have also affected the visible bounds of the shape.
 ASPOSE_ASSERT_EQ(-28.5, shape->get_BoundsWithEffects().get_X());
 ASPOSE_ASSERT_EQ(-33, shape->get_BoundsWithEffects().get_Y());
 ASPOSE_ASSERT_EQ(192, shape->get_BoundsWithEffects().get_Width());
-ASPOSE_ASSERT_EQ(279, shape->get_BoundsWithEffects().get_Height());
+ASPOSE_ASSERT_EQ(280.5, shape->get_BoundsWithEffects().get_Height());
 ```
 
 ## See Also

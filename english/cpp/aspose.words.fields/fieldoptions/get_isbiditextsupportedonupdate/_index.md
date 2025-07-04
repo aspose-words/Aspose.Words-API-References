@@ -31,18 +31,18 @@ The default value is **false**.
 
 Shows how to use [FieldOptions](../) to ensure that field updating fully supports bi-directional text. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Ensure that any field operation involving right-to-left text is performs as expected.
 doc->get_FieldOptions()->set_IsBidiTextSupportedOnUpdate(true);
 
 // Use a document builder to insert a field that contains the right-to-left text.
-SharedPtr<FormField> comboBox = builder->InsertComboBox(u"MyComboBox", MakeArray<String>({u"עֶשְׂרִים", u"שְׁלוֹשִׁים", u"אַרְבָּעִים", u"חֲמִשִּׁים", u"שִׁשִּׁים"}), 0);
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBox = builder->InsertComboBox(u"MyComboBox", System::MakeArray<System::String>({u"עֶשְׂרִים", u"שְׁלוֹשִׁים", u"אַרְבָּעִים", u"חֲמִשִּׁים", u"שִׁשִּׁים"}), 0);
 comboBox->set_CalculateOnExit(true);
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"FieldOptions.Bidi.docx");
+doc->Save(get_ArtifactsDir() + u"FieldOptions.Bidi.docx");
 ```
 
 ## See Also

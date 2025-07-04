@@ -35,7 +35,7 @@ duplicateStyle.Font.Size = 14;
 duplicateStyle.Font.Name = "Courier New";
 duplicateStyle.Font.Color = Color.Blue;
 
-Assert.AreEqual(6, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(6));
 
 // Apply both styles to different paragraphs within the document.
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -47,8 +47,8 @@ builder.Writeln("Hello again!");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
-Assert.AreEqual(duplicateStyle, paragraphs[1].ParagraphFormat.Style);
+Assert.That(paragraphs[0].ParagraphFormat.Style, Is.EqualTo(myStyle));
+Assert.That(paragraphs[1].ParagraphFormat.Style, Is.EqualTo(duplicateStyle));
 
 // Configure a CleanOptions object, then call the Cleanup method to substitute all duplicate styles
 // with the original and remove the duplicates from the document.
@@ -56,9 +56,9 @@ CleanupOptions cleanupOptions = new CleanupOptions { DuplicateStyle = true };
 
 doc.Cleanup(cleanupOptions);
 
-Assert.AreEqual(5, doc.Styles.Count);
-Assert.AreEqual(myStyle, paragraphs[0].ParagraphFormat.Style);
-Assert.AreEqual(myStyle, paragraphs[1].ParagraphFormat.Style);
+Assert.That(doc.Styles.Count, Is.EqualTo(5));
+Assert.That(paragraphs[0].ParagraphFormat.Style, Is.EqualTo(myStyle));
+Assert.That(paragraphs[1].ParagraphFormat.Style, Is.EqualTo(myStyle));
 ```
 
 ### See Also

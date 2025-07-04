@@ -28,8 +28,8 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {memoryFontSource});
 
-Assert.AreEqual(FontSourceType.MemoryFont, memoryFontSource.Type);
-Assert.AreEqual(0, memoryFontSource.Priority);
+Assert.That(memoryFontSource.Type, Is.EqualTo(FontSourceType.MemoryFont));
+Assert.That(memoryFontSource.Priority, Is.EqualTo(0));
 ```
 
 ### See Also

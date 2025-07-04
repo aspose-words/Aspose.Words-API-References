@@ -23,14 +23,14 @@ System::String Aspose::Words::Fields::FieldKeywords::get_Text()
 
 Shows to insert a KEYWORDS field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add some keywords, also referred to as "tags" in File Explorer.
 doc->get_BuiltInDocumentProperties()->set_Keywords(u"Keyword1, Keyword2");
 
 // The KEYWORDS field displays the value of this property.
-auto field = System::ExplicitCast<FieldKeywords>(builder->InsertField(FieldType::FieldKeyword, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldKeywords>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldKeyword, true));
 field->Update();
 
 ASSERT_EQ(u" KEYWORDS ", field->GetFieldCode());
@@ -45,7 +45,7 @@ ASSERT_EQ(u" KEYWORDS  OverridingKeyword", field->GetFieldCode());
 ASSERT_EQ(u"OverridingKeyword", field->get_Result());
 ASSERT_EQ(u"OverridingKeyword", doc->get_BuiltInDocumentProperties()->get_Keywords());
 
-doc->Save(ArtifactsDir + u"Field.KEYWORDS.docx");
+doc->Save(get_ArtifactsDir() + u"Field.KEYWORDS.docx");
 ```
 
 ## See Also

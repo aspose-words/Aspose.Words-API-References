@@ -2,7 +2,7 @@
 title: Aspose::Words::ParagraphFormat::set_BaselineAlignment method
 linktitle: set_BaselineAlignment
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::ParagraphFormat::set_BaselineAlignment method. Sets fonts vertical position on a line in C++.'
+description: 'Aspose::Words::ParagraphFormat::set_BaselineAlignment method. Setter for Aspose::Words::ParagraphFormat::get_BaselineAlignment in C++.'
 type: docs
 weight: 47500
 url: /cpp/aspose.words/paragraphformat/set_baselinealignment/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words/paragraphformat/set_baselinealignment/
 ## ParagraphFormat::set_BaselineAlignment method
 
 
-Sets fonts vertical position on a line.
+Setter for [Aspose::Words::ParagraphFormat::get_BaselineAlignment](../get_baselinealignment/).
 
 ```cpp
 void Aspose::Words::ParagraphFormat::set_BaselineAlignment(Aspose::Words::BaselineAlignment value)

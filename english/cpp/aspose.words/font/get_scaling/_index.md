@@ -23,8 +23,8 @@ int32_t Aspose::Words::Font::get_Scaling()
 
 Shows how to set horizontal scaling and spacing for characters. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Add run of text and increase character width to 150%.
 builder->get_Font()->set_Scaling(150);
@@ -38,7 +38,7 @@ builder->Writeln(u"Expanded by 1pt");
 builder->get_Font()->set_Spacing(-1);
 builder->Writeln(u"Condensed by 1pt");
 
-doc->Save(ArtifactsDir + u"Font.ScalingSpacing.docx");
+doc->Save(get_ArtifactsDir() + u"Font.ScalingSpacing.docx");
 ```
 
 ## See Also

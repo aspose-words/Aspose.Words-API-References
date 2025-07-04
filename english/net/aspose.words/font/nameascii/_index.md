@@ -30,7 +30,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.Font.NameAscii = "Calibri";
 
 // With no other font specified, the builder will also apply this font to all characters that it inserts.
-Assert.AreEqual("Calibri", builder.Font.Name);
+Assert.That(builder.Font.Name, Is.EqualTo("Calibri"));
 
 // Specify a font to use for all characters outside of the ASCII range.
 // Ideally, this font should have a glyph for each required non-ASCII character code.

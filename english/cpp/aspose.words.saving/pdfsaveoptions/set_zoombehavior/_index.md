@@ -2,7 +2,7 @@
 title: Aspose::Words::Saving::PdfSaveOptions::set_ZoomBehavior method
 linktitle: set_ZoomBehavior
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Saving::PdfSaveOptions::set_ZoomBehavior method. Setter for Aspose::Words::Saving::PdfSaveOptions::get_ZoomBehavior in C++.'
+description: 'Aspose::Words::Saving::PdfSaveOptions::set_ZoomBehavior method. Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer in C++.'
 type: docs
 weight: 65000
 url: /cpp/aspose.words.saving/pdfsaveoptions/set_zoombehavior/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.saving/pdfsaveoptions/set_zoombehavior/
 ## PdfSaveOptions::set_ZoomBehavior method
 
 
-Setter for [Aspose::Words::Saving::PdfSaveOptions::get_ZoomBehavior](../get_zoombehavior/).
+Sets a value determining what type of zoom should be applied when a document is opened with a PDF viewer.
 
 ```cpp
 void Aspose::Words::Saving::PdfSaveOptions::set_ZoomBehavior(Aspose::Words::Saving::PdfZoomBehavior value)

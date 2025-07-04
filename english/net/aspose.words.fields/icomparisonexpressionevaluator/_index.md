@@ -5,7 +5,7 @@ articleTitle: IComparisonExpressionEvaluator
 second_title: Aspose.Words for .NET
 description: Enhance your document processing with Aspose.Words.Fields.IComparisonExpressionEvaluator. Customize comparison evaluations for FieldIf and FieldCompare fields effortlessly!
 type: docs
-weight: 3090
+weight: 3080
 url: /net/aspose.words.fields/icomparisonexpressionevaluator/
 ---
 ## IComparisonExpressionEvaluator interface
@@ -51,7 +51,7 @@ public void ConditionEvaluationExtensionPoint(string fieldCode, sbyte comparison
 
     builder.Document.UpdateFields();
 
-    Assert.AreEqual(expectedResult, field.Result);
+    Assert.That(field.Result, Is.EqualTo(expectedResult));
     evaluator.AssertInvocationsCount(1).AssertInvocationArguments(0, left, @operator, right);
 }
 
@@ -84,7 +84,7 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
 
     public ComparisonExpressionEvaluator AssertInvocationsCount(int expected)
     {
-        Assert.AreEqual(expected, mInvocations.Count);
+        Assert.That(mInvocations.Count, Is.EqualTo(expected));
         return this;
     }
 
@@ -96,9 +96,9 @@ private class ComparisonExpressionEvaluator : IComparisonExpressionEvaluator
     {
         string[] arguments = mInvocations[invocationIndex];
 
-        Assert.AreEqual(expectedLeftExpression, arguments[0]);
-        Assert.AreEqual(expectedComparisonOperator, arguments[1]);
-        Assert.AreEqual(expectedRightExpression, arguments[2]);
+        Assert.That(arguments[0], Is.EqualTo(expectedLeftExpression));
+        Assert.That(arguments[1], Is.EqualTo(expectedComparisonOperator));
+        Assert.That(arguments[2], Is.EqualTo(expectedRightExpression));
 
         return this;
     }

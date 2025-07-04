@@ -23,8 +23,8 @@ void Aspose::Words::Document::StopTrackRevisions()
 
 Shows how to track revisions while editing a document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Editing a document usually does not count as a revision until we begin tracking them.
 builder->Write(u"Hello world! ");
@@ -39,7 +39,7 @@ builder->Write(u"Hello again! ");
 ASSERT_EQ(1, doc->get_Revisions()->get_Count());
 ASSERT_TRUE(doc->get_FirstSection()->get_Body()->get_Paragraphs()->idx_get(0)->get_Runs()->idx_get(1)->get_IsInsertRevision());
 ASSERT_EQ(u"John Doe", doc->get_Revisions()->idx_get(0)->get_Author());
-ASSERT_LE((System::DateTime::get_Now() - doc->get_Revisions()->idx_get(0)->get_DateTime()).get_Milliseconds(), 10);
+ASSERT_TRUE((System::DateTime::get_Now() - doc->get_Revisions()->idx_get(0)->get_DateTime()).get_Milliseconds() <= 10);
 
 // Stop tracking revisions to not count any future edits as revisions.
 doc->StopTrackRevisions();
@@ -60,7 +60,7 @@ ASSERT_EQ(System::DateTime::MinValue, doc->get_Revisions()->idx_get(1)->get_Date
 // We can accept/reject these revisions programmatically
 // by calling methods such as Document.AcceptAllRevisions, or each revision's Accept method.
 // In Microsoft Word, we can process them manually via "Review" -> "Changes".
-doc->Save(ArtifactsDir + u"Document.StartTrackRevisions.docx");
+doc->Save(get_ArtifactsDir() + u"Revision.StartTrackRevisions.docx");
 ```
 
 ## See Also

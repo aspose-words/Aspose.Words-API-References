@@ -5,7 +5,7 @@ articleTitle: RowStripe
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle RowStripe property to easily customize odd/even row banding for enhanced table readability and visual appeal.
 type: docs
-weight: 120
+weight: 110
 url: /net/aspose.words/tablestyle/rowstripe/
 ---
 ## TableStyle.RowStripe property
@@ -59,8 +59,7 @@ tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.Bac
 table.Style = tableStyle;
 
 // The "StyleOptions" property enables row banding by default.
-Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
-    table.StyleOptions);
+Assert.That(table.StyleOptions, Is.EqualTo(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands));
 
 // Use the "StyleOptions" property also to enable column banding.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;

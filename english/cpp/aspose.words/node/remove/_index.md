@@ -23,12 +23,15 @@ void Aspose::Words::Node::Remove()
 
 Shows how to delete all shapes with images from a document. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Images.docx");
-SharedPtr<NodeCollection> shapes = doc->GetChildNodes(NodeType::Shape, true);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Images.docx");
+System::SharedPtr<Aspose::Words::NodeCollection> shapes = doc->GetChildNodes(Aspose::Words::NodeType::Shape, true);
 
-ASSERT_EQ(9, shapes->LINQ_OfType<SharedPtr<Shape>>()->LINQ_Count([](SharedPtr<Shape> s) { return s->get_HasImage(); }));
+ASSERT_EQ(9, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+{
+    return s->get_HasImage();
+}))));
 
-for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape>>()))
+for (auto&& shape : System::IterateOver(shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()))
 {
     if (shape->get_HasImage())
     {
@@ -36,26 +39,29 @@ for (const auto& shape : System::IterateOver(shapes->LINQ_OfType<SharedPtr<Shape
     }
 }
 
-ASSERT_EQ(0, shapes->LINQ_OfType<SharedPtr<Shape>>()->LINQ_Count([](SharedPtr<Shape> s) { return s->get_HasImage(); }));
+ASSERT_EQ(0, shapes->LINQ_OfType<System::SharedPtr<Aspose::Words::Drawing::Shape> >()->LINQ_Count(static_cast<System::Func<System::SharedPtr<Aspose::Words::Drawing::Shape>, bool>>(static_cast<std::function<bool(System::SharedPtr<Aspose::Words::Drawing::Shape> s)>>([](System::SharedPtr<Aspose::Words::Drawing::Shape> s) -> bool
+{
+    return s->get_HasImage();
+}))));
 ```
 
 
 Shows how to remove all child nodes of a specific type from a composite node. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
 
-ASSERT_EQ(2, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(2, doc->GetChildNodes(Aspose::Words::NodeType::Table, true)->get_Count());
 
-SharedPtr<Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
+System::SharedPtr<Aspose::Words::Node> curNode = doc->get_FirstSection()->get_Body()->get_FirstChild();
 
 while (curNode != nullptr)
 {
     // Save the next sibling node as a variable in case we want to move to it after deleting this node.
-    SharedPtr<Node> nextNode = curNode->get_NextSibling();
+    System::SharedPtr<Aspose::Words::Node> nextNode = curNode->get_NextSibling();
 
     // A section body can contain Paragraph and Table nodes.
     // If the node is a Table, remove it from the parent.
-    if (curNode->get_NodeType() == NodeType::Table)
+    if (curNode->get_NodeType() == Aspose::Words::NodeType::Table)
     {
         curNode->Remove();
     }
@@ -63,7 +69,7 @@ while (curNode != nullptr)
     curNode = nextNode;
 }
 
-ASSERT_EQ(0, doc->GetChildNodes(NodeType::Table, true)->get_Count());
+ASSERT_EQ(0, doc->GetChildNodes(Aspose::Words::NodeType::Table, true)->get_Count());
 ```
 
 ## See Also

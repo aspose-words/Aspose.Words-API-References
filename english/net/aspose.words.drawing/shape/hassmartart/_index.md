@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "SmartArt.docx");
 
 int numberOfSmartArtShapes = doc.GetChildNodes(NodeType.Shape, true).Cast<Shape>().Count(shape => shape.HasSmartArt);
 
-Assert.AreEqual(2, numberOfSmartArtShapes);
+Assert.That(numberOfSmartArtShapes, Is.EqualTo(2));
 ```
 
 ### See Also

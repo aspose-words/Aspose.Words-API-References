@@ -2,7 +2,7 @@
 title: Aspose::Words::Bibliography::Source::set_Reporter method
 linktitle: set_Reporter
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Bibliography::Source::set_Reporter method. Sets the reporter of a source in C++.'
+description: 'Aspose::Words::Bibliography::Source::set_Reporter method. Setter for Aspose::Words::Bibliography::Source::get_Reporter in C++.'
 type: docs
 weight: 94000
 url: /cpp/aspose.words.bibliography/source/set_reporter/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.bibliography/source/set_reporter/
 ## Source::set_Reporter method
 
 
-Sets the reporter of a source.
+Setter for [Aspose::Words::Bibliography::Source::get_Reporter](../get_reporter/).
 
 ```cpp
 void Aspose::Words::Bibliography::Source::set_Reporter(const System::String &value)

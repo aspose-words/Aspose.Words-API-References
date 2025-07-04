@@ -31,15 +31,15 @@ bool Aspose::Words::Fields::DropDownItemCollection::Contains(const System::Strin
 
 Shows how to insert a combo box field, and edit the elements in its item collection. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a combo box, and then verify its collection of drop-down items.
 // In Microsoft Word, the user will click the combo box,
 // and then choose one of the items of text in the collection to display.
-ArrayPtr<String> items = MakeArray<String>({u"One", u"Two", u"Three"});
-SharedPtr<FormField> comboBoxField = builder->InsertComboBox(u"DropDown", items, 0);
-SharedPtr<DropDownItemCollection> dropDownItems = comboBoxField->get_DropDownItems();
+System::ArrayPtr<System::String> items = System::MakeArray<System::String>({u"One", u"Two", u"Three"});
+System::SharedPtr<Aspose::Words::Fields::FormField> comboBoxField = builder->InsertComboBox(u"DropDown", items, 0);
+System::SharedPtr<Aspose::Words::Fields::DropDownItemCollection> dropDownItems = comboBoxField->get_DropDownItems();
 
 ASSERT_EQ(3, dropDownItems->get_Count());
 ASSERT_EQ(u"One", dropDownItems->idx_get(0));
@@ -57,7 +57,7 @@ ASSERT_EQ(5, dropDownItems->get_Count());
 
 // Iterate over the collection and print every element.
 {
-    SharedPtr<System::Collections::Generic::IEnumerator<String>> dropDownCollectionEnumerator = dropDownItems->GetEnumerator();
+    System::SharedPtr<System::Collections::Generic::IEnumerator<System::String>> dropDownCollectionEnumerator = dropDownItems->GetEnumerator();
     while (dropDownCollectionEnumerator->MoveNext())
     {
         std::cout << dropDownCollectionEnumerator->get_Current() << std::endl;
@@ -75,7 +75,7 @@ ASSERT_EQ(3, dropDownItems->get_Count());
 ASSERT_FALSE(dropDownItems->Contains(u"Three and a half"));
 ASSERT_FALSE(dropDownItems->Contains(u"Four"));
 
-doc->Save(ArtifactsDir + u"FormFields.DropDownItemCollection.html");
+doc->Save(get_ArtifactsDir() + u"FormFields.DropDownItemCollection.html");
 
 // Empty the whole collection of drop-down items.
 dropDownItems->Clear();

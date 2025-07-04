@@ -35,14 +35,12 @@ public void RenameImages()
     // The ImageSaving() method of our callback will be run at this time.
     doc.Save(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md", saveOptions);
 
-    Assert.AreEqual(1,
-        Directory.GetFiles(ArtifactsDir)
+    Assert.That(Directory.GetFiles(ArtifactsDir)
             .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".jpeg")));
-    Assert.AreEqual(8,
-        Directory.GetFiles(ArtifactsDir)
+            .Count(f => f.EndsWith(".jpeg")), Is.EqualTo(1));
+    Assert.That(Directory.GetFiles(ArtifactsDir)
             .Where(s => s.StartsWith(ArtifactsDir + "MarkdownSaveOptions.HandleDocument.md shape"))
-            .Count(f => f.EndsWith(".png")));
+            .Count(f => f.EndsWith(".png")), Is.EqualTo(8));
 }
 
 /// <summary>
@@ -62,9 +60,9 @@ public class SavedImageRename : IImageSavingCallback
         args.ImageFileName = imageFileName;
         args.ImageStream = new FileStream(ArtifactsDir + imageFileName, FileMode.Create);
 
-        Assert.True(args.ImageStream.CanWrite);
-        Assert.True(args.IsImageAvailable);
-        Assert.False(args.KeepImageStreamOpen);
+        Assert.That(args.ImageStream.CanWrite, Is.True);
+        Assert.That(args.IsImageAvailable, Is.True);
+        Assert.That(args.KeepImageStreamOpen, Is.False);
     }
 
     private int mCount;

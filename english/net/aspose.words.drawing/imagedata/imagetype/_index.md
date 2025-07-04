@@ -27,7 +27,7 @@ Document doc = new Document(MyDir + "Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+Assert.That(shapes.Count(s => ((Shape)s).HasImage), Is.EqualTo(9));
 
 int imageIndex = 0;
 foreach (Shape shape in shapes.OfType<Shape>())

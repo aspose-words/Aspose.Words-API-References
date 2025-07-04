@@ -62,12 +62,12 @@ In this version of Aspose.Words, [SubDocument](./) nodes do not provide public m
 
 Shows how to access a master document's subdocument. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Master document.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Master document.docx");
 
-SharedPtr<NodeCollection> subDocuments = doc->GetChildNodes(NodeType::SubDocument, true);
+System::SharedPtr<Aspose::Words::NodeCollection> subDocuments = doc->GetChildNodes(Aspose::Words::NodeType::SubDocument, true);
 
 // This node serves as a reference to an external document, and its contents cannot be accessed.
-auto subDocument = System::ExplicitCast<SubDocument>(subDocuments->idx_get(0));
+auto subDocument = System::ExplicitCast<Aspose::Words::SubDocument>(subDocuments->idx_get(0));
 
 ASSERT_FALSE(subDocument->get_IsComposite());
 ```

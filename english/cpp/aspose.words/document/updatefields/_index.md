@@ -37,58 +37,58 @@ To update fields in a specific part of the document use [UpdateFields](../../ran
 
 Shows how to insert a Table of contents (TOC) into a document using heading styles as entries. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a table of contents for the first page of the document.
 // Configure the table to pick up paragraphs with headings of levels 1 to 3.
 // Also, set its entries to be hyperlinks that will take us
 // to the location of the heading when left-clicked in Microsoft Word.
 builder->InsertTableOfContents(u"\\o \"1-3\" \\h \\z \\u");
-builder->InsertBreak(BreakType::PageBreak);
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
 
 // Populate the table of contents by adding paragraphs with heading styles.
 // Each such heading with a level between 1 and 3 will create an entry in the table.
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 1.1");
 builder->Writeln(u"Heading 1.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading1);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading1);
 builder->Writeln(u"Heading 2");
 builder->Writeln(u"Heading 3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.1");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading3);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading3);
 builder->Writeln(u"Heading 3.1.1");
 builder->Writeln(u"Heading 3.1.2");
 builder->Writeln(u"Heading 3.1.3");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading4);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading4);
 builder->Writeln(u"Heading 3.1.3.1");
 builder->Writeln(u"Heading 3.1.3.2");
 
-builder->get_ParagraphFormat()->set_StyleIdentifier(StyleIdentifier::Heading2);
+builder->get_ParagraphFormat()->set_StyleIdentifier(Aspose::Words::StyleIdentifier::Heading2);
 builder->Writeln(u"Heading 3.2");
 builder->Writeln(u"Heading 3.3");
 
 // A table of contents is a field of a type that needs to be updated to show an up-to-date result.
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"DocumentBuilder.InsertToc.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertToc.docx");
 ```
 
 
 Shows to use the QUOTE field. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert a QUOTE field, which will display the value of its Text property.
-auto field = System::ExplicitCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
 field->set_Text(u"\"Quoted text\"");
 
 ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
@@ -98,28 +98,28 @@ ASSERT_EQ(u" QUOTE  \"\\\"Quoted text\\\"\"", field->GetFieldCode());
 // Nesting the DATE field inside the QUOTE field like this will freeze its value
 // to the date when we created the document.
 builder->Write(u"\nDocument creation date: ");
-field = System::ExplicitCast<FieldQuote>(builder->InsertField(FieldType::FieldQuote, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldQuote>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldQuote, true));
 builder->MoveTo(field->get_Separator());
-builder->InsertField(FieldType::FieldDate, true);
+builder->InsertField(Aspose::Words::Fields::FieldType::FieldDate, true);
 
-ASSERT_EQ(String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
+ASSERT_EQ(System::String(u" QUOTE \u0013 DATE \u0014") + System::DateTime::get_Now().get_Date().ToShortDateString() + u"\u0015", field->GetFieldCode());
 
 // Update all the fields to display their correct results.
 doc->UpdateFields();
 
 ASSERT_EQ(u"\"Quoted text\"", doc->get_Range()->get_Fields()->idx_get(0)->get_Result());
 
-doc->Save(ArtifactsDir + u"Field.QUOTE.docx");
+doc->Save(get_ArtifactsDir() + u"Field.QUOTE.docx");
 ```
 
 
 Shows how to set user details, and display them using fields. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Create a UserInformation object and set it as the data source for fields that display user information.
-auto userInformation = MakeObject<UserInformation>();
+auto userInformation = System::MakeObject<Aspose::Words::Fields::UserInformation>();
 userInformation->set_Name(u"John Doe");
 userInformation->set_Initials(u"J. D.");
 userInformation->set_Address(u"123 Main Street");
@@ -132,17 +132,17 @@ ASSERT_EQ(userInformation->get_Initials(), builder->InsertField(u" USERINITIALS 
 ASSERT_EQ(userInformation->get_Address(), builder->InsertField(u" USERADDRESS ")->get_Result());
 
 // The field options object also has a static default user that fields from all documents can refer to.
-UserInformation::get_DefaultUser()->set_Name(u"Default User");
-UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
-UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
-doc->get_FieldOptions()->set_CurrentUser(UserInformation::get_DefaultUser());
+Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Name(u"Default User");
+Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Initials(u"D. U.");
+Aspose::Words::Fields::UserInformation::get_DefaultUser()->set_Address(u"One Microsoft Way");
+doc->get_FieldOptions()->set_CurrentUser(Aspose::Words::Fields::UserInformation::get_DefaultUser());
 
 ASSERT_EQ(u"Default User", builder->InsertField(u" USERNAME ")->get_Result());
 ASSERT_EQ(u"D. U.", builder->InsertField(u" USERINITIALS ")->get_Result());
 ASSERT_EQ(u"One Microsoft Way", builder->InsertField(u" USERADDRESS ")->get_Result());
 
 doc->UpdateFields();
-doc->Save(ArtifactsDir + u"FieldOptions.CurrentUser.docx");
+doc->Save(get_ArtifactsDir() + u"FieldOptions.CurrentUser.docx");
 ```
 
 ## See Also

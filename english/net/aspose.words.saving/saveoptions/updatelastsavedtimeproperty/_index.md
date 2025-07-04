@@ -23,8 +23,7 @@ Shows how to determine whether to preserve the document's "Last saved time" prop
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
-    doc.BuiltInDocumentProperties.LastSavedTime);
+Assert.That(doc.BuiltInDocumentProperties.LastSavedTime, Is.EqualTo(new DateTime(2021, 5, 11, 6, 32, 0)));
 
 // When we save the document to an OOXML format, we can create an OoxmlSaveOptions object
 // and then pass it to the document's saving method to modify how we save the document.
@@ -41,10 +40,9 @@ doc = new Document(ArtifactsDir + "OoxmlSaveOptions.LastSavedTime.docx");
 DateTime lastSavedTimeNew = doc.BuiltInDocumentProperties.LastSavedTime;
 
 if (updateLastSavedTimeProperty)
-    Assert.IsTrue((DateTime.Now - lastSavedTimeNew).Days < 1);
+    Assert.That((DateTime.Now - lastSavedTimeNew).Days < 1, Is.True);
 else
-    Assert.AreEqual(new DateTime(2021, 5, 11, 6, 32, 0), 
-        lastSavedTimeNew);
+    Assert.That(lastSavedTimeNew, Is.EqualTo(new DateTime(2021, 5, 11, 6, 32, 0)));
 ```
 
 ### See Also

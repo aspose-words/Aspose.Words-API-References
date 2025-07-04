@@ -16,6 +16,24 @@ Specifies whether backslash characters should be replaced with yen signs. Defaul
 bool Aspose::Words::Saving::XamlFlowSaveOptions::get_ReplaceBackslashWithYenSign() const
 ```
 
+
+## Examples
+
+
+
+Shows how to replace backslash characters with yen signs (Xaml). 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Korean backslash symbol.docx");
+
+// By default, Aspose.Words mimics MS Word's behavior and doesn't replace backslash characters with yen signs in
+// generated HTML documents. However, previous versions of Aspose.Words performed such replacements in certain
+// scenarios. This flag enables backward compatibility with previous versions of Aspose.Words.
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::XamlFlowSaveOptions>();
+saveOptions->set_ReplaceBackslashWithYenSign(true);
+
+doc->Save(get_ArtifactsDir() + u"HtmlSaveOptions.ReplaceBackslashWithYenSign.xaml", saveOptions);
+```
+
 ## See Also
 
 * Class [XamlFlowSaveOptions](../)

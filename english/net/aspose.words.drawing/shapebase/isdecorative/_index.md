@@ -28,12 +28,12 @@ Shows how to set that the shape is decorative.
 Document doc = new Document(MyDir + "Decorative shapes.docx");
 
 Shape shape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(shape.IsDecorative);
+Assert.That(shape.IsDecorative, Is.True);
 
 // If "AlternativeText" is not empty, the shape cannot be decorative.
 // That's why our value has changed to 'false'.
 shape.AlternativeText = "Alternative text.";
-Assert.False(shape.IsDecorative);
+Assert.That(shape.IsDecorative, Is.False);
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 

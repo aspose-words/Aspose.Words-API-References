@@ -56,8 +56,8 @@ builder.InsertFootnote(FootnoteType.Endnote, "Endnote 3.", "Custom endnote refer
 // among all the document's footnotes/endnotes. Each document maintains separate counts
 // for footnotes and for endnotes. By default, footnotes display their numbers using Arabic numerals,
 // and endnotes display their numbers in lowercase Roman numerals.
-Assert.AreEqual(NumberStyle.Arabic, doc.FootnoteOptions.NumberStyle);
-Assert.AreEqual(NumberStyle.LowercaseRoman, doc.EndnoteOptions.NumberStyle);
+Assert.That(doc.FootnoteOptions.NumberStyle, Is.EqualTo(NumberStyle.Arabic));
+Assert.That(doc.EndnoteOptions.NumberStyle, Is.EqualTo(NumberStyle.LowercaseRoman));
 
 // We can use the "NumberStyle" property to apply custom numbering styles to footnotes and endnotes.
 // This will not affect footnotes/endnotes with custom reference marks.

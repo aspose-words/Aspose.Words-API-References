@@ -33,9 +33,9 @@ loadOptions.SupportVml = supportVml;
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)
-    Assert.AreEqual(ImageType.Jpeg, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType);
+    Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType, Is.EqualTo(ImageType.Jpeg));
 else
-    Assert.AreEqual(ImageType.Png, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType);
+    Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType, Is.EqualTo(ImageType.Png));
 ```
 
 ### See Also
@@ -81,11 +81,11 @@ DigitalSignatureUtil.Sign(inputFileName, outputFileName, certificateHolder, sign
 // password using a HtmlLoadOptions object.
 HtmlLoadOptions loadOptions = new HtmlLoadOptions("docPassword");
 
-Assert.AreEqual(signOptions.DecryptionPassword, loadOptions.Password);
+Assert.That(loadOptions.Password, Is.EqualTo(signOptions.DecryptionPassword));
 
 Document doc = new Document(outputFileName, loadOptions);
 
-Assert.AreEqual("Test encrypted document.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Test encrypted document."));
 ```
 
 ### See Also
@@ -120,13 +120,13 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object. 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
-Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
+Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(imageShape.IsImage);
+Assert.That(imageShape.IsImage, Is.True);
 
 // This output document will display the image that was missing.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");

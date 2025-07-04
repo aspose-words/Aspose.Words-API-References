@@ -5,7 +5,7 @@ articleTitle: DocumentDirection
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.DocumentDirection enum to easily control text flow in your documents. Enhance readability and formatting with this powerful feature!
 type: docs
-weight: 4030
+weight: 4020
 url: /net/aspose.words.loading/documentdirection/
 ---
 ## DocumentDirection enumeration
@@ -41,12 +41,12 @@ loadOptions.DocumentDirection = DocumentDirection.Auto;
 // Detect Hebrew text as right-to-left.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
-Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.True);
 
 // Detect English text as right-to-left.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
-Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.False);
 ```
 
 ### See Also

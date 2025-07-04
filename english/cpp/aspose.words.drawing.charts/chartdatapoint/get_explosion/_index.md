@@ -16,6 +16,35 @@ Specifies the amount the data point shall be moved from the center of the pie. C
 int32_t Aspose::Words::Drawing::Charts::ChartDataPoint::get_Explosion() override
 ```
 
+
+## Examples
+
+
+
+Shows how to move the slices of a pie chart away from the center. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+System::SharedPtr<Aspose::Words::Drawing::Shape> shape = builder->InsertChart(Aspose::Words::Drawing::Charts::ChartType::Pie, 500, 350);
+System::SharedPtr<Aspose::Words::Drawing::Charts::Chart> chart = shape->get_Chart();
+
+ASSERT_EQ(1, chart->get_Series()->get_Count());
+ASSERT_EQ(u"Sales", chart->get_Series()->idx_get(0)->get_Name());
+
+// "Slices" of a pie chart may be moved away from the center by a distance via the respective data point's Explosion attribute.
+// Add a data point to the first portion of the pie chart and move it away from the center by 10 points.
+// Aspose.Words create data points automatically if them does not exist.
+System::SharedPtr<Aspose::Words::Drawing::Charts::ChartDataPoint> dataPoint = chart->get_Series()->idx_get(0)->get_DataPoints()->idx_get(0);
+dataPoint->set_Explosion(10);
+
+// Displace the second portion by a greater distance.
+dataPoint = chart->get_Series()->idx_get(0)->get_DataPoints()->idx_get(1);
+dataPoint->set_Explosion(40);
+
+doc->Save(get_ArtifactsDir() + u"Charts.PieChartExplosion.docx");
+```
+
 ## See Also
 
 * Class [ChartDataPoint](../)

@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 builder.InsertField("MERGEFIELD Field");
 
 // GetText will retrieve the visible text as well as field codes and special characters.
-Assert.AreEqual("\u0013MERGEFIELD Field\u0014«Field»\u0015", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("\u0013MERGEFIELD Field\u0014«Field»\u0015"));
 
 // ToString will give us the document's appearance if saved to a passed save format.
-Assert.AreEqual("«Field»", doc.ToString(SaveFormat.Text).Trim());
+Assert.That(doc.ToString(SaveFormat.Text).Trim(), Is.EqualTo("«Field»"));
 ```
 
 Exports the content of a node to String in HTML format.
@@ -46,17 +46,17 @@ Node node = doc.LastSection.Body.LastParagraph;
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+Assert.That(node.ToString(SaveFormat.Html), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>", node.ToString(SaveFormat.Html));
+                "</p>"));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
-Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+Assert.That(node.ToString(saveOptions), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>", node.ToString(saveOptions));
+                "</p>"));
 ```
 
 Shows how to extract the list labels of all paragraphs that are list items.
@@ -125,17 +125,17 @@ Node node = doc.LastSection.Body.LastParagraph;
 
 // When we call the ToString method using the html SaveFormat overload,
 // it converts the node's contents to their raw html representation.
-Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
+Assert.That(node.ToString(SaveFormat.Html), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%; font-size:12pt\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>", node.ToString(SaveFormat.Html));
+                "</p>"));
 
 // We can also modify the result of this conversion using a SaveOptions object.
 HtmlSaveOptions saveOptions = new HtmlSaveOptions();
 saveOptions.ExportRelativeFontSize = true;
 
-Assert.AreEqual("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
+Assert.That(node.ToString(saveOptions), Is.EqualTo("<p style=\"margin-top:0pt; margin-bottom:8pt; line-height:108%\">" +
                 "<span style=\"font-family:'Times New Roman'\">Hello World!</span>" +
-                "</p>", node.ToString(saveOptions));
+                "</p>"));
 ```
 
 ### See Also

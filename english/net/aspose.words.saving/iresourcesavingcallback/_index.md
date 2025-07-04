@@ -5,7 +5,7 @@ articleTitle: IResourceSavingCallback
 second_title: Aspose.Words for .NET
 description: Control Aspose.Words resource saving with the IResourceSavingCallback interface. Manage images, fonts, and CSS for optimized HTML or SVG documents.
 type: docs
-weight: 5940
+weight: 5930
 url: /net/aspose.words.saving/iresourcesavingcallback/
 ---
 ## IResourceSavingCallback interface
@@ -93,8 +93,8 @@ public void HtmlFixedResourceFolder()
 
     string[] resourceFiles = Directory.GetFiles(ArtifactsDir + "HtmlFixedResourceFolderAlias");
 
-    Assert.False(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"));
-    Assert.AreEqual(6, resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")));
+    Assert.That(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"), Is.False);
+    Assert.That(resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")), Is.EqualTo(6));
 }
 
 /// <summary>

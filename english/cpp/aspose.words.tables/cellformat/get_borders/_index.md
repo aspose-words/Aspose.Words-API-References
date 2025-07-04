@@ -23,14 +23,14 @@ System::SharedPtr<Aspose::Words::BorderCollection> Aspose::Words::Tables::CellFo
 
 Shows how to combine the rows from two tables into one. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Tables.docx");
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Tables.docx");
 
 // Below are two ways of getting a table from a document.
 // 1 -  From the "Tables" collection of a Body node:
-SharedPtr<Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
+System::SharedPtr<Aspose::Words::Tables::Table> firstTable = doc->get_FirstSection()->get_Body()->get_Tables()->idx_get(0);
 
 // 2 -  Using the "GetChild" method:
-auto secondTable = System::ExplicitCast<Table>(doc->GetChild(NodeType::Table, 1, true));
+auto secondTable = System::ExplicitCast<Aspose::Words::Tables::Table>(doc->GetChild(Aspose::Words::NodeType::Table, 1, true));
 
 // Append all rows from the current table to the next.
 while (secondTable->get_HasChildNodes())
@@ -41,7 +41,7 @@ while (secondTable->get_HasChildNodes())
 // Remove the empty table container.
 secondTable->Remove();
 
-doc->Save(ArtifactsDir + u"Table.CombineTables.docx");
+doc->Save(get_ArtifactsDir() + u"Table.CombineTables.docx");
 ```
 
 ## See Also

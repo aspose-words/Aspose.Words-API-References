@@ -5,7 +5,7 @@ articleTitle: FieldDatabase
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDatabase class to efficiently implement DATABASE fields in your documents. Enhance your document automation today!
 type: docs
-weight: 2150
+weight: 2140
 url: /net/aspose.words.fields/fielddatabase/
 ---
 ## FieldDatabase class
@@ -77,7 +77,7 @@ field.FileName = DatabaseDir + "Northwind.accdb";
 field.Connection = "Provider=Microsoft.ACE.OLEDB.12.0";
 field.Query = "SELECT * FROM [Products]";
 
-Assert.AreEqual($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\"", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo($" DATABASE  \\d {DatabaseDir.Replace("\\", "\\\\") + "Northwind.accdb"} \\c Provider=Microsoft.ACE.OLEDB.12.0 \\s \"SELECT * FROM [Products]\""));
 
 // Insert another DATABASE field with a more complex query that sorts all products in descending order by gross sales.
 field = (FieldDatabase)builder.InsertField(FieldType.FieldDatabase, true);

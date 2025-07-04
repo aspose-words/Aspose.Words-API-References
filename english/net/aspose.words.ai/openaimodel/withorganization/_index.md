@@ -5,7 +5,7 @@ articleTitle: WithOrganization
 second_title: Aspose.Words for .NET
 description: Discover how the OpenAiModel WithOrganization method enhances your AI experience by easily setting your organization for optimized performance.
 type: docs
-weight: 10
+weight: 30
 url: /net/aspose.words.ai/openaimodel/withorganization/
 ---
 ## OpenAiModel.WithOrganization method
@@ -26,7 +26,7 @@ Document secondDoc = new Document(MyDir + "Document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI or Google generative language models.
-IAiModelText model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
+AiModel model = ((OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey)).WithOrganization("Organization").WithProject("Project");
 
 SummarizeOptions options = new SummarizeOptions();
 

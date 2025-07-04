@@ -2,7 +2,7 @@
 title: Aspose::Words::Loading::LoadOptions::set_UpdateDirtyFields method
 linktitle: set_UpdateDirtyFields
 second_title: Aspose.Words for C++ API Reference
-description: 'Aspose::Words::Loading::LoadOptions::set_UpdateDirtyFields method. Specifies whether to update the fields with the dirty attribute in C++.'
+description: 'Aspose::Words::Loading::LoadOptions::set_UpdateDirtyFields method. Setter for Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields in C++.'
 type: docs
 weight: 34000
 url: /cpp/aspose.words.loading/loadoptions/set_updatedirtyfields/
@@ -10,7 +10,7 @@ url: /cpp/aspose.words.loading/loadoptions/set_updatedirtyfields/
 ## LoadOptions::set_UpdateDirtyFields method
 
 
-Specifies whether to update the fields with the **dirty** attribute.
+Setter for [Aspose::Words::Loading::LoadOptions::get_UpdateDirtyFields](../get_updatedirtyfields/).
 
 ```cpp
 void Aspose::Words::Loading::LoadOptions::set_UpdateDirtyFields(bool value)

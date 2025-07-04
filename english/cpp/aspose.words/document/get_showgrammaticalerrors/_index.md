@@ -23,8 +23,8 @@ bool Aspose::Words::Document::get_ShowGrammaticalErrors()
 
 Shows how to show/hide errors in the document. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert two sentences with mistakes that would be picked up
 // by the spelling and grammar checkers in Microsoft Word.
@@ -36,7 +36,7 @@ builder->Writeln(u"Their is a grammatical error in this sentence.");
 doc->set_ShowGrammaticalErrors(showErrors);
 doc->set_ShowSpellingErrors(showErrors);
 
-doc->Save(ArtifactsDir + u"Document.SpellingAndGrammarErrors.docx");
+doc->Save(get_ArtifactsDir() + u"Document.SpellingAndGrammarErrors.docx");
 ```
 
 ## See Also

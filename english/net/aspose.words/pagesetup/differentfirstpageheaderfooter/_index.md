@@ -102,11 +102,9 @@ public void Order(bool differentFirstPageHeaderFooter)
     doc.Range.Replace(new Regex("(header|footer)"), "", options);
 
     if (differentFirstPageHeaderFooter)
-        Assert.AreEqual("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("First header\nFirst footer\nSecond header\nSecond footer\nThird header\nThird footer\n"));
     else
-        Assert.AreEqual("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n", 
-            logger.Text.Replace("\r", ""));
+        Assert.That(logger.Text.Replace("\r", ""), Is.EqualTo("Third header\nFirst header\nThird footer\nFirst footer\nSecond header\nSecond footer\n"));
 }
 
 /// <summary>

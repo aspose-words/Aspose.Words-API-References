@@ -96,7 +96,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
     {
         if (args.DocumentFieldName == "CourseName")
         {
-            Assert.AreEqual("StudentCourse", args.TableName);
+            Assert.That(args.TableName, Is.EqualTo("StudentCourse"));
 
             DocumentBuilder builder = new DocumentBuilder(args.Document);
             builder.MoveToMergeField(args.FieldName);
@@ -105,7 +105,7 @@ private class HandleMergeFieldInsertCheckBox : IFieldMergingCallback
             string fieldValue = args.FieldValue.ToString();
 
             // In this case, for every record index 'n', the corresponding field value is "Course n".
-            Assert.AreEqual(char.GetNumericValue(fieldValue[7]), args.RecordIndex);
+            Assert.That(args.RecordIndex, Is.EqualTo(char.GetNumericValue(fieldValue[7])));
 
             builder.Write(fieldValue);
             mCheckBoxCount++;
@@ -178,8 +178,8 @@ builder.InsertField(@"MERGEFIELD MyMergeField2 \* MERGEFORMAT");
 builder.MoveToMergeField("MyMergeField1", true, false);
 
 // Note that the cursor is placed immediately after the first MERGEFIELD, and before the second.
-Assert.AreEqual(doc.Range.Fields[1].Start, builder.CurrentNode);
-Assert.AreEqual(doc.Range.Fields[0].End, builder.CurrentNode.PreviousSibling);
+Assert.That(builder.CurrentNode, Is.EqualTo(doc.Range.Fields[1].Start));
+Assert.That(builder.CurrentNode.PreviousSibling, Is.EqualTo(doc.Range.Fields[0].End));
 
 // If we wish to edit the field's field code or contents using the builder,
 // its cursor would need to be inside a field.

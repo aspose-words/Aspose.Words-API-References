@@ -30,13 +30,13 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object. 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
-Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
+Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(imageShape.IsImage);
+Assert.That(imageShape.IsImage, Is.True);
 
 // This output document will display the image that was missing.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");

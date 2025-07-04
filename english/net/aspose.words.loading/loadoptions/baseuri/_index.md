@@ -40,10 +40,10 @@ using (Stream stream = File.OpenRead(MyDir + "Document.html"))
     // Verify that the first shape of the document contains a valid image.
     Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-    Assert.IsTrue(shape.IsImage);
-    Assert.IsNotNull(shape.ImageData.ImageBytes);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Width), 0.01);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Height), 0.01);
+    Assert.That(shape.IsImage, Is.True);
+    Assert.That(shape.ImageData.ImageBytes, Is.Not.Null);
+    Assert.That(ConvertUtil.PointToPixel(shape.Width), Is.EqualTo(32.0).Within(0.01));
+    Assert.That(ConvertUtil.PointToPixel(shape.Height), Is.EqualTo(32.0).Within(0.01));
 }
 ```
 

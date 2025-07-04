@@ -24,15 +24,15 @@ Shows how to remove all sections from a document.
 Document doc = new Document(MyDir + "Document.docx");
 
 // This document has one section with a few child nodes containing and displaying all the document's contents.
-Assert.AreEqual(1, doc.Sections.Count);
-Assert.AreEqual(17, doc.Sections[0].GetChildNodes(NodeType.Any, true).Count);
-Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+Assert.That(doc.Sections.Count, Is.EqualTo(1));
+Assert.That(doc.Sections[0].GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(17));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
 
 // Clear the collection of sections, which will remove all of the document's children.
 doc.Sections.Clear();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Any, true).Count);
-Assert.AreEqual(string.Empty, doc.GetText().Trim());
+Assert.That(doc.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
+Assert.That(doc.GetText().Trim(), Is.EqualTo(string.Empty));
 ```
 
 ### See Also

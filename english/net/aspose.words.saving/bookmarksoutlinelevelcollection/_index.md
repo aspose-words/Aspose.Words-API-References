@@ -5,7 +5,7 @@ articleTitle: BookmarksOutlineLevelCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Saving.BookmarksOutlineLevelCollection class—a powerful tool for managing bookmarks and enhancing document navigation effortlessly.
 type: docs
-weight: 5590
+weight: 5580
 url: /net/aspose.words.saving/bookmarksoutlinelevelcollection/
 ---
 ## BookmarksOutlineLevelCollection class
@@ -83,11 +83,11 @@ outlineLevels.Add("Bookmark 1", 1);
 outlineLevels.Add("Bookmark 2", 2);
 outlineLevels.Add("Bookmark 3", 3);
 
-Assert.AreEqual(3, outlineLevels.Count);
-Assert.True(outlineLevels.Contains("Bookmark 1"));
-Assert.AreEqual(1, outlineLevels[0]);
-Assert.AreEqual(2, outlineLevels["Bookmark 2"]);
-Assert.AreEqual(2, outlineLevels.IndexOfKey("Bookmark 3"));
+Assert.That(outlineLevels.Count, Is.EqualTo(3));
+Assert.That(outlineLevels.Contains("Bookmark 1"), Is.True);
+Assert.That(outlineLevels[0], Is.EqualTo(1));
+Assert.That(outlineLevels["Bookmark 2"], Is.EqualTo(2));
+Assert.That(outlineLevels.IndexOfKey("Bookmark 3"), Is.EqualTo(2));
 
 // We can remove two elements so that only the outline level designation for "Bookmark 1" is left.
 outlineLevels.RemoveAt(2);

@@ -28,6 +28,25 @@ enum class TextEffect
 | MarchingRedAnts | 5 |  |
 | Shimmer | 6 |  |
 
+
+## Examples
+
+
+
+Shows how to apply a visual effect to a run. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+
+builder->get_Font()->set_Size(36);
+builder->get_Font()->set_TextEffect(Aspose::Words::TextEffect::SparkleText);
+
+builder->Writeln(u"Text with a sparkle effect.");
+
+// Older versions of Microsoft Word only support font animation effects.
+doc->Save(get_ArtifactsDir() + u"Font.SparklingText.doc");
+```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

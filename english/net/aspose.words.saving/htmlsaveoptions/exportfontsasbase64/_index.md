@@ -52,9 +52,9 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.ExportImagesAsBase64.html", options);
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportImagesAsBase64.html");
 
-Assert.True(exportImagesAsBase64
+Assert.That(exportImagesAsBase64
     ? outDocContents.Contains("<img src=\"data:image/png;base64")
-    : outDocContents.Contains("<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""));
+    : outDocContents.Contains("<img src=\"HtmlSaveOptions.ExportImagesAsBase64.001.png\""), Is.True);
 ```
 
 ### See Also

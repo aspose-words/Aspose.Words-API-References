@@ -47,6 +47,24 @@ The drawback of using [KeepSourceFormatting](./) is that if you perform several 
 
 Using [KeepDifferentStyles](./) option allows to reuse destination styles if the formatting they provide is identical to the styles in the source document. If the style in destination document is different from the source then it is imported.
 
+## Examples
+
+
+
+Shows how to insert a document into another document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Document.docx");
+
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
+builder->MoveToDocumentEnd();
+builder->InsertBreak(Aspose::Words::BreakType::PageBreak);
+
+auto docToInsert = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Formatted elements.docx");
+
+builder->InsertDocument(docToInsert, Aspose::Words::ImportFormatMode::KeepSourceFormatting);
+builder->get_Document()->Save(get_ArtifactsDir() + u"DocumentBuilder.InsertDocument.docx");
+```
+
 ## See Also
 
 * Namespace [Aspose::Words](../)

@@ -5,7 +5,7 @@ articleTitle: EnsureMinimum
 second_title: Aspose.Words for .NET
 description: Discover the Row EnsureMinimum method, effortlessly create and append a Cell when none exist, enhancing your data structure management.
 type: docs
-weight: 150
+weight: 160
 url: /net/aspose.words.tables/row/ensureminimum/
 ---
 ## Row.EnsureMinimum method
@@ -29,7 +29,7 @@ table.AppendChild(row);
 
 // Rows contain cells, containing paragraphs with typical elements such as runs, shapes, and even other tables.
 // Our new row has none of these nodes, and we cannot add contents to it until it does.
-Assert.AreEqual(0, row.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(row.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
 
 // Calling the "EnsureMinimum" method on a table will ensure that
 // the table has at least one cell with an empty paragraph.

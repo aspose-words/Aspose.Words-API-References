@@ -38,7 +38,7 @@ Shows how to remove all child nodes of a specific type from a composite node.
 ```csharp
 Document doc = new Document(MyDir + "Tables.docx");
 
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
 
 Node curNode = doc.FirstSection.Body.FirstChild;
 
@@ -55,7 +55,7 @@ while (curNode != null)
     curNode = nextNode;
 }
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(0));
 ```
 
 Shows how to traverse a composite node's tree of child nodes.
@@ -66,7 +66,7 @@ public void RecurseChildren()
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.True(doc.IsComposite);
+    Assert.That(doc.IsComposite, Is.True);
 
     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
     TraverseAllNodes(doc, 0);

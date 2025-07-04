@@ -25,17 +25,17 @@ Document doc = new Document(MyDir + "Paragraph frame.docx");
 
 Paragraph paragraphFrame = doc.FirstSection.Body.Paragraphs.OfType<Paragraph>().First(p => p.FrameFormat.IsFrame);
 
-Assert.AreEqual(233.3d, paragraphFrame.FrameFormat.Width);
-Assert.AreEqual(138.8d, paragraphFrame.FrameFormat.Height);
-Assert.AreEqual(HeightRule.AtLeast, paragraphFrame.FrameFormat.HeightRule);
-Assert.AreEqual(HorizontalAlignment.Default, paragraphFrame.FrameFormat.HorizontalAlignment);
-Assert.AreEqual(VerticalAlignment.Default, paragraphFrame.FrameFormat.VerticalAlignment);
-Assert.AreEqual(34.05d, paragraphFrame.FrameFormat.HorizontalPosition);
-Assert.AreEqual(RelativeHorizontalPosition.Page, paragraphFrame.FrameFormat.RelativeHorizontalPosition);
-Assert.AreEqual(9.0d, paragraphFrame.FrameFormat.HorizontalDistanceFromText);
-Assert.AreEqual(20.5d, paragraphFrame.FrameFormat.VerticalPosition);
-Assert.AreEqual(RelativeVerticalPosition.Paragraph, paragraphFrame.FrameFormat.RelativeVerticalPosition);
-Assert.AreEqual(0.0d, paragraphFrame.FrameFormat.VerticalDistanceFromText);
+Assert.That(paragraphFrame.FrameFormat.Width, Is.EqualTo(233.3d));
+Assert.That(paragraphFrame.FrameFormat.Height, Is.EqualTo(138.8d));
+Assert.That(paragraphFrame.FrameFormat.HeightRule, Is.EqualTo(HeightRule.AtLeast));
+Assert.That(paragraphFrame.FrameFormat.HorizontalAlignment, Is.EqualTo(HorizontalAlignment.Default));
+Assert.That(paragraphFrame.FrameFormat.VerticalAlignment, Is.EqualTo(VerticalAlignment.Default));
+Assert.That(paragraphFrame.FrameFormat.HorizontalPosition, Is.EqualTo(34.05d));
+Assert.That(paragraphFrame.FrameFormat.RelativeHorizontalPosition, Is.EqualTo(RelativeHorizontalPosition.Page));
+Assert.That(paragraphFrame.FrameFormat.HorizontalDistanceFromText, Is.EqualTo(9.0d));
+Assert.That(paragraphFrame.FrameFormat.VerticalPosition, Is.EqualTo(20.5d));
+Assert.That(paragraphFrame.FrameFormat.RelativeVerticalPosition, Is.EqualTo(RelativeVerticalPosition.Paragraph));
+Assert.That(paragraphFrame.FrameFormat.VerticalDistanceFromText, Is.EqualTo(0.0d));
 ```
 
 ### See Also

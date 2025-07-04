@@ -16,6 +16,34 @@ Gets/sets whether the style hides from the Styles gallery and from the Styles ta
 bool Aspose::Words::Style::get_SemiHidden() const
 ```
 
+
+## Examples
+
+
+
+Shows how to prioritize and hide a style. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>();
+System::SharedPtr<Aspose::Words::Style> styleTitle = doc->get_Styles()->idx_get(Aspose::Words::StyleIdentifier::Subtitle);
+
+if (styleTitle->get_Priority() == 9)
+{
+    styleTitle->set_Priority(10);
+}
+
+if (!styleTitle->get_UnhideWhenUsed())
+{
+    styleTitle->set_UnhideWhenUsed(true);
+}
+
+if (styleTitle->get_SemiHidden())
+{
+    styleTitle->set_SemiHidden(true);
+}
+
+doc->Save(get_ArtifactsDir() + u"Styles.StylePriority.docx");
+```
+
 ## See Also
 
 * Class [Style](../)

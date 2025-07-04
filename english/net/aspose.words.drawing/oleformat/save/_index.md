@@ -41,15 +41,15 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 OleFormat oleFormat = shape.OleFormat;
 
-Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
+Assert.That(oleFormat.ProgId, Is.EqualTo("Excel.Sheet.12"));
 
 // Our object is neither auto updating nor locked from updates.
-Assert.False(oleFormat.AutoUpdate);
-Assert.AreEqual(false, oleFormat.IsLocked);
+Assert.That(oleFormat.AutoUpdate, Is.False);
+Assert.That(oleFormat.IsLocked, Is.EqualTo(false));
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
+Assert.That(oleFormat.SuggestedExtension, Is.EqualTo(".xlsx"));
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:
@@ -99,15 +99,15 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 // The OLE object in the first shape is a Microsoft Excel spreadsheet.
 OleFormat oleFormat = shape.OleFormat;
 
-Assert.AreEqual("Excel.Sheet.12", oleFormat.ProgId);
+Assert.That(oleFormat.ProgId, Is.EqualTo("Excel.Sheet.12"));
 
 // Our object is neither auto updating nor locked from updates.
-Assert.False(oleFormat.AutoUpdate);
-Assert.AreEqual(false, oleFormat.IsLocked);
+Assert.That(oleFormat.AutoUpdate, Is.False);
+Assert.That(oleFormat.IsLocked, Is.EqualTo(false));
 
 // If we plan on saving the OLE object to a file in the local file system,
 // we can use the "SuggestedExtension" property to determine which file extension to apply to the file.
-Assert.AreEqual(".xlsx", oleFormat.SuggestedExtension);
+Assert.That(oleFormat.SuggestedExtension, Is.EqualTo(".xlsx"));
 
 // Below are two ways of saving an OLE object to a file in the local file system.
 // 1 -  Save it via a stream:

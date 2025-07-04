@@ -23,12 +23,12 @@ void Aspose::Words::RevisionCollection::AcceptAll()
 
 Shows how to compare documents. 
 ```cpp
-auto docOriginal = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(docOriginal);
+auto docOriginal = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(docOriginal);
 builder->Writeln(u"This is the original document.");
 
-auto docEdited = MakeObject<Document>();
-builder = MakeObject<DocumentBuilder>(docEdited);
+auto docEdited = System::MakeObject<Aspose::Words::Document>();
+builder = System::MakeObject<Aspose::Words::DocumentBuilder>(docEdited);
 builder->Writeln(u"This is the edited document.");
 
 // Comparing documents with revisions will throw an exception.
@@ -39,11 +39,10 @@ if (docOriginal->get_Revisions()->get_Count() == 0 && docEdited->get_Revisions()
 
 // After the comparison, the original document will gain a new revision
 // for every element that is different in the edited document.
-for (const auto& r : System::IterateOver(docOriginal->get_Revisions()))
+for (auto&& r : System::IterateOver(docOriginal->get_Revisions()))
 {
-    std::cout << String::Format(u"Revision type: {0}, on a node of type \"{1}\"", r->get_RevisionType(), r->get_ParentNode()->get_NodeType())
-              << std::endl;
-    std::cout << "\tChanged text: \"" << r->get_ParentNode()->GetText() << "\"" << std::endl;
+    std::cout << System::String::Format(u"Revision type: {0}, on a node of type \"{1}\"", r->get_RevisionType(), r->get_ParentNode()->get_NodeType()) << std::endl;
+    std::cout << System::String::Format(u"\tChanged text: \"{0}\"", r->get_ParentNode()->GetText()) << std::endl;
 }
 
 // Accepting these revisions will transform the original document into the edited document.

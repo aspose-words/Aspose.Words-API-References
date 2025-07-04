@@ -49,7 +49,7 @@ newSeriesGroup.AxisX.Hidden = true;
 newSeriesGroup.AxisY.Title.Show = true;
 newSeriesGroup.AxisY.Title.Text = "Secondary Y axis";
 
-Assert.AreEqual(ChartSeriesType.Line, newSeriesGroup.SeriesType);
+Assert.That(newSeriesGroup.SeriesType, Is.EqualTo(ChartSeriesType.Line));
 
 // Add a series to the new series group.
 ChartSeries series3 =

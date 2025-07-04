@@ -32,12 +32,12 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 ImageSize imageSize = shape.ImageData.ImageSize;
 
 // The ImageSize object contains read-only information about the image within the shape.
-Assert.AreEqual(400, imageSize.HeightPixels);
-Assert.AreEqual(400, imageSize.WidthPixels);
+Assert.That(imageSize.HeightPixels, Is.EqualTo(400));
+Assert.That(imageSize.WidthPixels, Is.EqualTo(400));
 
 const double delta = 0.05;
-Assert.AreEqual(95.98d, imageSize.HorizontalResolution, delta);
-Assert.AreEqual(95.98d, imageSize.VerticalResolution, delta);
+Assert.That(imageSize.HorizontalResolution, Is.EqualTo(95.98d).Within(delta));
+Assert.That(imageSize.VerticalResolution, Is.EqualTo(95.98d).Within(delta));
 
 // We can base the size of the shape on the size of its image to avoid stretching the image.
 shape.Width = imageSize.WidthPoints * 2;

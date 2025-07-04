@@ -39,7 +39,7 @@ public void MergeFieldImageDimension()
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // The data source should have such a column named "ImageColumn".
-    Assert.AreEqual("Image:ImageColumn", field.FieldName);
+    Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
 
     // Create a suitable data source.
     DataTable dataTable = new DataTable("Images");
@@ -79,11 +79,11 @@ private class MergedImageResizer : IFieldMergingCallback
         args.ImageWidth = new MergeFieldImageDimension(mImageWidth, mUnit);
         args.ImageHeight = new MergeFieldImageDimension(mImageHeight, mUnit);
 
-        Assert.AreEqual(mImageWidth, args.ImageWidth.Value);
-        Assert.AreEqual(mUnit, args.ImageWidth.Unit);
-        Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
-        Assert.AreEqual(mUnit, args.ImageHeight.Unit);
-        Assert.Null(args.Shape);
+        Assert.That(args.ImageWidth.Value, Is.EqualTo(mImageWidth));
+        Assert.That(args.ImageWidth.Unit, Is.EqualTo(mUnit));
+        Assert.That(args.ImageHeight.Value, Is.EqualTo(mImageHeight));
+        Assert.That(args.ImageHeight.Unit, Is.EqualTo(mUnit));
+        Assert.That(args.Shape, Is.Null);
     }
 
     private readonly double mImageWidth;
@@ -132,7 +132,7 @@ public void MergeFieldImageDimension()
     FieldMergeField field = (FieldMergeField)builder.InsertField("MERGEFIELD Image:ImageColumn");
 
     // The data source should have such a column named "ImageColumn".
-    Assert.AreEqual("Image:ImageColumn", field.FieldName);
+    Assert.That(field.FieldName, Is.EqualTo("Image:ImageColumn"));
 
     // Create a suitable data source.
     DataTable dataTable = new DataTable("Images");
@@ -172,11 +172,11 @@ private class MergedImageResizer : IFieldMergingCallback
         args.ImageWidth = new MergeFieldImageDimension(mImageWidth, mUnit);
         args.ImageHeight = new MergeFieldImageDimension(mImageHeight, mUnit);
 
-        Assert.AreEqual(mImageWidth, args.ImageWidth.Value);
-        Assert.AreEqual(mUnit, args.ImageWidth.Unit);
-        Assert.AreEqual(mImageHeight, args.ImageHeight.Value);
-        Assert.AreEqual(mUnit, args.ImageHeight.Unit);
-        Assert.Null(args.Shape);
+        Assert.That(args.ImageWidth.Value, Is.EqualTo(mImageWidth));
+        Assert.That(args.ImageWidth.Unit, Is.EqualTo(mUnit));
+        Assert.That(args.ImageHeight.Value, Is.EqualTo(mImageHeight));
+        Assert.That(args.ImageHeight.Unit, Is.EqualTo(mUnit));
+        Assert.That(args.Shape, Is.Null);
     }
 
     private readonly double mImageWidth;

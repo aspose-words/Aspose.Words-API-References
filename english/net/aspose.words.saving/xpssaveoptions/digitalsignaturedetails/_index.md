@@ -33,8 +33,8 @@ DigitalSignatureDetails digitalSignatureDetails = new DigitalSignatureDetails(ce
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 saveOptions.DigitalSignatureDetails = digitalSignatureDetails;
 
-Assert.AreEqual(certificateHolder, digitalSignatureDetails.CertificateHolder);
-Assert.AreEqual("Some comments", digitalSignatureDetails.SignOptions.Comments);
+Assert.That(digitalSignatureDetails.CertificateHolder, Is.EqualTo(certificateHolder));
+Assert.That(digitalSignatureDetails.SignOptions.Comments, Is.EqualTo("Some comments"));
 
 doc.Save(ArtifactsDir + "XpsSaveOptions.XpsDigitalSignature.docx", saveOptions);
 ```

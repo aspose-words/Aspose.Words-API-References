@@ -5,7 +5,7 @@ articleTitle: BookmarkEnd
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.BookmarkEnd class, which efficiently manages bookmark ends in Word documents, enhancing your document editing experience.
 type: docs
-weight: 250
+weight: 240
 url: /net/aspose.words/bookmarkend/
 ---
 ## BookmarkEnd class

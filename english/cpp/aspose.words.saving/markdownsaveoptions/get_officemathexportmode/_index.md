@@ -16,6 +16,21 @@ Specifies how OfficeMath will be written to the output file. Default value is [T
 Aspose::Words::Saving::MarkdownOfficeMathExportMode Aspose::Words::Saving::MarkdownSaveOptions::get_OfficeMathExportMode() const
 ```
 
+
+## Examples
+
+
+
+Shows how OfficeMath will be written to the document. 
+```cpp
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Office math.docx");
+
+auto saveOptions = System::MakeObject<Aspose::Words::Saving::MarkdownSaveOptions>();
+saveOptions->set_OfficeMathExportMode(Aspose::Words::Saving::MarkdownOfficeMathExportMode::Image);
+
+doc->Save(get_ArtifactsDir() + u"MarkdownSaveOptions.OfficeMathExportMode.md", saveOptions);
+```
+
 ## See Also
 
 * Enum [MarkdownOfficeMathExportMode](../../markdownofficemathexportmode/)

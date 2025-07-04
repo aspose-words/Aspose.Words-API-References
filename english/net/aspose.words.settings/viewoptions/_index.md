@@ -5,7 +5,7 @@ articleTitle: ViewOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Settings.ViewOptions class to customize document display in Microsoft Word, enhancing your editing experience and productivity.
 type: docs
-weight: 6790
+weight: 6780
 url: /net/aspose.words.settings/viewoptions/
 ---
 ## ViewOptions class
@@ -41,8 +41,8 @@ builder.Writeln("Hello world!");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 
-Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
-Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.Custom));
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.None));
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```

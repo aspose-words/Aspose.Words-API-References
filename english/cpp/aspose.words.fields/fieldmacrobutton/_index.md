@@ -28,7 +28,7 @@ class FieldMacroButton : public Aspose::Words::Fields::Field,
 | [get_FieldEnd](../field/get_fieldend/)() const | Gets the node that represents the field end. |
 | [get_FieldStart](../field/get_fieldstart/)() const | Gets the node that represents the start of the field. |
 | [get_Format](../field/get_format/)() | Gets a [FieldFormat](../fieldformat/) object that provides typed access to field's formatting. |
-| [get_IsDirty](../field/get_isdirty/)() | Gets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [get_IsDirty](../field/get_isdirty/)() | Gets or sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
 | [get_IsLocked](../field/get_islocked/)() | Gets or sets whether the field is locked (should not recalculate its result). |
 | [get_LocaleId](../field/get_localeid/)() | Gets or sets the LCID of the field. |
 | [get_MacroName](./get_macroname/)() | Gets or sets the name of the macro or command to run. |
@@ -43,7 +43,7 @@ class FieldMacroButton : public Aspose::Words::Fields::Field,
 | [Is](./is/)(const System::TypeInfo\&) const override |  |
 | [Remove](../field/remove/)() | Removes the field from the document. Returns a node right after the field. If the field's end is the last child of its parent node, returns its parent paragraph. If the field is already removed, returns **null**. |
 | [set_DisplayText](./set_displaytext/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldMacroButton::get_DisplayText](./get_displaytext/). |
-| [set_IsDirty](../field/set_isdirty/)(bool) | Sets whether the current result of the field is no longer correct (stale) due to other modifications made to the document. |
+| [set_IsDirty](../field/set_isdirty/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsDirty](../field/get_isdirty/). |
 | [set_IsLocked](../field/set_islocked/)(bool) | Setter for [Aspose::Words::Fields::Field::get_IsLocked](../field/get_islocked/). |
 | [set_LocaleId](../field/set_localeid/)(int32_t) | Setter for [Aspose::Words::Fields::Field::get_LocaleId](../field/get_localeid/). |
 | [set_MacroName](./set_macroname/)(const System::String\&) | Setter for [Aspose::Words::Fields::FieldMacroButton::get_MacroName](./get_macroname/). |
@@ -65,15 +65,15 @@ In Aspose.Words this field can also act as a merge field.
 
 Shows how to use MACROBUTTON fields to allow us to run a document's macros by clicking. 
 ```cpp
-auto doc = MakeObject<Document>(MyDir + u"Macro.docm");
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>(get_MyDir() + u"Macro.docm");
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 ASSERT_TRUE(doc->get_HasMacros());
 
 // Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
-auto field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+auto field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldMacroButton, true));
 field->set_MacroName(u"MyMacro");
-field->set_DisplayText(String(u"Double click to run macro: ") + field->get_MacroName());
+field->set_DisplayText(System::String(u"Double click to run macro: ") + field->get_MacroName());
 
 ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->GetFieldCode());
 
@@ -83,14 +83,14 @@ ASSERT_EQ(u" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field->Ge
 // If our document contains a custom macro with the same name as a stock macro,
 // our macro will be the one that the MACROBUTTON field runs.
 builder->InsertParagraph();
-field = System::ExplicitCast<FieldMacroButton>(builder->InsertField(FieldType::FieldMacroButton, true));
+field = System::ExplicitCast<Aspose::Words::Fields::FieldMacroButton>(builder->InsertField(Aspose::Words::Fields::FieldType::FieldMacroButton, true));
 field->set_MacroName(u"ViewZoom200");
-field->set_DisplayText(String(u"Run ") + field->get_MacroName());
+field->set_DisplayText(System::String(u"Run ") + field->get_MacroName());
 
 ASSERT_EQ(u" MACROBUTTON  ViewZoom200 Run ViewZoom200", field->GetFieldCode());
 
 // Save the document as a macro-enabled document type.
-doc->Save(ArtifactsDir + u"Field.MACROBUTTON.docm");
+doc->Save(get_ArtifactsDir() + u"Field.MACROBUTTON.docm");
 ```
 
 ## See Also

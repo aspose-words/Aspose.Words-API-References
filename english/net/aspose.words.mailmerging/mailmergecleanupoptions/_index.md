@@ -5,7 +5,7 @@ articleTitle: MailMergeCleanupOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MailMergeCleanupOptions enum to efficiently manage mail merge cleanup. Optimize your documents by controlling item removal seamlessly.
 type: docs
-weight: 4540
+weight: 4530
 url: /net/aspose.words.mailmerging/mailmergecleanupoptions/
 ---
 ## MailMergeCleanupOptions enumeration
@@ -45,7 +45,7 @@ DataSet ds = new DataSet();
 ds.Tables.Add(tableCustomers);
 
 Document doc = new Document(MyDir + "Mail merge tables.docx");
-Assert.AreEqual(2, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(2));
 
 doc.MailMerge.MergeDuplicateRegions = false;
 doc.MailMerge.CleanupOptions = MailMergeCleanupOptions.RemoveEmptyTables | MailMergeCleanupOptions.RemoveUnusedRegions;
@@ -54,7 +54,7 @@ doc.MailMerge.ExecuteWithRegions(ds.Tables["A"]);
 doc.Save(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
 
 doc = new Document(ArtifactsDir + "MailMerge.RemoveEmptyTables.docx");
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.Table, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Table, true).Count, Is.EqualTo(1));
 ```
 
 Shows how to remove empty paragraphs that a mail merge may create from the merge output document.
@@ -80,14 +80,12 @@ doc.MailMerge.CleanupOptions = mailMergeCleanupOptions;
 doc.MailMerge.ExecuteWithRegions(dataTable);
 
 if (doc.MailMerge.CleanupOptions == MailMergeCleanupOptions.RemoveEmptyParagraphs) 
-    Assert.AreEqual(
-        "John Doe\r" +
-        "Jane Doe", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("John Doe\r" +
+        "Jane Doe"));
 else
-    Assert.AreEqual(
-        "John Doe\r" +
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("John Doe\r" +
         " \r" +
-        "Jane Doe", doc.GetText().Trim());
+        "Jane Doe"));
 ```
 
 Shows how to automatically remove MERGEFIELDs that go unused during mail merge.
@@ -119,9 +117,9 @@ doc.MailMerge.Execute(dataTable);
 
 if (mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveUnusedFields || 
     mailMergeCleanupOptions == MailMergeCleanupOptions.RemoveStaticFields)
-    Assert.AreEqual(0, doc.Range.Fields.Count);
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
 else
-    Assert.AreEqual(2, doc.Range.Fields.Count);
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(2));
 ```
 
 ### See Also

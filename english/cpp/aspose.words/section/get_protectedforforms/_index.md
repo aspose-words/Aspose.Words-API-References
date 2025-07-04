@@ -23,25 +23,25 @@ bool Aspose::Words::Section::get_ProtectedForForms()
 
 Shows how to turn off protection for a section. 
 ```cpp
-auto doc = MakeObject<Document>();
+auto doc = System::MakeObject<Aspose::Words::Document>();
 
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->Writeln(u"Section 1. Hello world!");
-builder->InsertBreak(BreakType::SectionBreakNewPage);
+builder->InsertBreak(Aspose::Words::BreakType::SectionBreakNewPage);
 
 builder->Writeln(u"Section 2. Hello again!");
 builder->Write(u"Please enter text here: ");
-builder->InsertTextInput(u"TextInput1", TextFormFieldType::Regular, u"", u"Placeholder text", 0);
+builder->InsertTextInput(u"TextInput1", Aspose::Words::Fields::TextFormFieldType::Regular, u"", u"Placeholder text", 0);
 
 // Apply write protection to every section in the document.
-doc->Protect(ProtectionType::AllowOnlyFormFields);
+doc->Protect(Aspose::Words::ProtectionType::AllowOnlyFormFields);
 
 // Turn off write protection for the first section.
 doc->get_Sections()->idx_get(0)->set_ProtectedForForms(false);
 
 // In this output document, we will be able to edit the first section freely,
 // and we will only be able to edit the contents of the form field in the second section.
-doc->Save(ArtifactsDir + u"Section.Protect.docx");
+doc->Save(get_ArtifactsDir() + u"Section.Protect.docx");
 ```
 
 ## See Also

@@ -40,7 +40,7 @@ public void FieldAsk()
     fieldRef.BookmarkName = "MyAskField";
     builder.Writeln();
 
-    Assert.AreEqual(" REF  MyAskField", fieldRef.GetFieldCode());
+    Assert.That(fieldRef.GetFieldCode(), Is.EqualTo(" REF  MyAskField"));
 
     // Insert the ASK field and edit its properties to reference our REF field by bookmark name.
     FieldAsk fieldAsk = (FieldAsk)builder.InsertField(FieldType.FieldAsk, true);
@@ -50,9 +50,7 @@ public void FieldAsk()
     fieldAsk.PromptOnceOnMailMerge = true;
     builder.Writeln();
 
-    Assert.AreEqual(
-        " ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o",
-        fieldAsk.GetFieldCode());
+    Assert.That(fieldAsk.GetFieldCode(), Is.EqualTo(" ASK  MyAskField \"Please provide a response for this ASK field\" \\d \"Response from within the field.\" \\o"));
 
     // ASK fields apply the default response to their respective REF fields during a mail merge.
     DataTable table = new DataTable("My Table");

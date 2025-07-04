@@ -42,7 +42,7 @@ PdfSaveOptions options = new PdfSaveOptions();
 // render DrawingML effects with more accuracy and also with more processing cost.
 options.DmlEffectsRenderingMode = effectsRenderingMode;
 
-Assert.AreEqual(DmlRenderingMode.DrawingML, options.DmlRenderingMode);
+Assert.That(options.DmlRenderingMode, Is.EqualTo(DmlRenderingMode.DrawingML));
 
 doc.Save(ArtifactsDir + "PdfSaveOptions.DrawingMLEffects.pdf", options);
 ```

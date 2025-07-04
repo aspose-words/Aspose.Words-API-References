@@ -47,11 +47,11 @@ properties.Add("Authorized Date", authDate);
 properties.Add("Authorized Revision", doc.BuiltInDocumentProperties.RevisionNumber);
 properties.Add("Authorized Amount", 123.45);
 
-Assert.AreEqual(true, properties["Authorized"].ToBool());
-Assert.AreEqual("John Doe", properties["Authorized By"].ToString());
-Assert.AreEqual(authDate, properties["Authorized Date"].ToDateTime());
-Assert.AreEqual(1, properties["Authorized Revision"].ToInt());
-Assert.AreEqual(123.45d, properties["Authorized Amount"].ToDouble());
+Assert.That(properties["Authorized"].ToBool(), Is.EqualTo(true));
+Assert.That(properties["Authorized By"].ToString(), Is.EqualTo("John Doe"));
+Assert.That(properties["Authorized Date"].ToDateTime(), Is.EqualTo(authDate));
+Assert.That(properties["Authorized Revision"].ToInt(), Is.EqualTo(1));
+Assert.That(properties["Authorized Amount"].ToDouble(), Is.EqualTo(123.45d));
 ```
 
 ### See Also

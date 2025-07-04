@@ -35,8 +35,8 @@ Note that this method deletes the merge field from the document after moving the
 
 Shows how to fill MERGEFIELDs with data with a document builder instead of a mail merge. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 
 // Insert some MERGEFIELDS, which accept data from columns of the same name in a data source during a mail merge,
 // and then fill them manually.
@@ -56,7 +56,7 @@ builder->MoveToMergeField(u"ChiefTechnologyOfficer");
 builder->set_Italic(true);
 builder->Writeln(u"John Bloggs");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.FillMergeFields.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.FillMergeFields.docx");
 ```
 
 ## See Also
@@ -90,8 +90,8 @@ bool Aspose::Words::DocumentBuilder::MoveToMergeField(const System::String &fiel
 
 Shows how to insert fields, and move the document builder's cursor to them. 
 ```cpp
-auto doc = MakeObject<Document>();
-auto builder = MakeObject<DocumentBuilder>(doc);
+auto doc = System::MakeObject<Aspose::Words::Document>();
+auto builder = System::MakeObject<Aspose::Words::DocumentBuilder>(doc);
 builder->InsertField(u"MERGEFIELD MyMergeField1 \\* MERGEFORMAT");
 builder->InsertField(u"MERGEFIELD MyMergeField2 \\* MERGEFORMAT");
 
@@ -108,7 +108,7 @@ ASPOSE_ASSERT_EQ(doc->get_Range()->get_Fields()->idx_get(0)->get_End(), builder-
 // and pass the field's start or separator node as an argument.
 builder->Write(u" Text between our merge fields. ");
 
-doc->Save(ArtifactsDir + u"DocumentBuilder.MergeFields.docx");
+doc->Save(get_ArtifactsDir() + u"DocumentBuilder.MergeFields.docx");
 ```
 
 ## See Also

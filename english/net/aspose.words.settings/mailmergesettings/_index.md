@@ -5,7 +5,7 @@ articleTitle: MailMergeSettings
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MailMergeSettings class to streamline document automation with powerful mail merge capabilities for enhanced efficiency.
 type: docs
-weight: 6690
+weight: 6680
 url: /net/aspose.words.settings/mailmergesettings/
 ---
 ## MailMergeSettings class
@@ -99,8 +99,8 @@ settings.Query = "SELECT * FROM " + doc.MailMergeSettings.DataSource;
 settings.LinkToQuery = true;
 settings.ViewMergedData = true;
 
-Assert.AreEqual(MailMergeDestination.Default, settings.Destination);
-Assert.False(settings.DoNotSupressBlankLines);
+Assert.That(settings.Destination, Is.EqualTo(MailMergeDestination.Default));
+Assert.That(settings.DoNotSupressBlankLines, Is.False);
 
 Odso odso = settings.Odso;
 odso.DataSource = dataSrcFilename;
@@ -108,8 +108,8 @@ odso.DataSourceType = OdsoDataSourceType.Text;
 odso.ColumnDelimiter = '|';
 odso.FirstRowContainsColumnNames = true;
 
-Assert.AreNotSame(odso, odso.Clone());
-Assert.AreNotSame(settings, settings.Clone());
+Assert.That(odso.Clone(), Is.Not.SameAs(odso));
+Assert.That(settings.Clone(), Is.Not.SameAs(settings));
 
 // Opening this document in Microsoft Word will execute the mail merge before displaying the contents. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");

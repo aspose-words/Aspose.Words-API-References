@@ -35,7 +35,7 @@ LoadOptions loadOptions = new LoadOptions
 // Load the document while passing the LoadOptions object, then verify the document's contents.
 Document doc = new Document(MyDir + "English text.txt", loadOptions);
 
-Assert.True(doc.ToString(SaveFormat.Text).Contains("This is a sample text in English."));
+Assert.That(doc.ToString(SaveFormat.Text).Contains("This is a sample text in English."), Is.True);
 ```
 
 ### See Also

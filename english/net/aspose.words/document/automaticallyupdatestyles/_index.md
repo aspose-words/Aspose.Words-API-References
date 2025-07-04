@@ -25,7 +25,7 @@ Document doc = new Document();
 
 // Microsoft Word documents by default come with an attached template called "Normal.dotm".
 // There is no default template for blank Aspose.Words documents.
-Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+Assert.That(doc.AttachedTemplate, Is.EqualTo(string.Empty));
 
 // Attach a template, then set the flag to apply style changes
 // within the template to styles in our document.
@@ -43,7 +43,7 @@ Document doc = new Document();
 // Enable automatic style updating, but do not attach a template document.
 doc.AutomaticallyUpdateStyles = true;
 
-Assert.AreEqual(string.Empty, doc.AttachedTemplate);
+Assert.That(doc.AttachedTemplate, Is.EqualTo(string.Empty));
 
 // Since there is no template document, the document had nowhere to track style changes.
 // Use a SaveOptions object to automatically set a template
