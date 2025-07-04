@@ -48,11 +48,11 @@ string customNumberStyleFormat = string.Empty;
 if (listLevel.NumberStyle == NumberStyle.Custom)
     customNumberStyleFormat = listLevel.CustomNumberStyleFormat;
 
-Assert.AreEqual("001, 002, 003, ...", customNumberStyleFormat);
+Assert.That(customNumberStyleFormat, Is.EqualTo("001, 002, 003, ..."));
 
 // We can get value for the specified index of the list item.
-Assert.AreEqual("iv", ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null));
-Assert.AreEqual("005", ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat));
+Assert.That(ListLevel.GetEffectiveValue(4, NumberStyle.LowercaseRoman, null), Is.EqualTo("iv"));
+Assert.That(ListLevel.GetEffectiveValue(5, NumberStyle.Custom, customNumberStyleFormat), Is.EqualTo("005"));
 ```
 
 ### See Also

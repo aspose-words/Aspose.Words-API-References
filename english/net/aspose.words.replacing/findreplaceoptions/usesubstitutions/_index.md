@@ -40,7 +40,7 @@ options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
 
-Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
+Assert.That("Paul took money from Jason.\f", Is.EqualTo(doc.GetText()));
 ```
 
 Shows how to replace the text with substitutions.
@@ -63,10 +63,9 @@ options.UseSubstitutions = useSubstitutions;
 Regex regex = new Regex(@"([A-z]+) sold a ([A-z]+) to ([A-z]+)");
 doc.Range.Replace(regex, @"$3 bought a $2 from $1", options);
 
-Assert.AreEqual(
-    useSubstitutions
+Assert.That(doc.GetText().Trim(), Is.EqualTo(useSubstitutions
         ? "Paul bought a car from John.\rJoe bought a house from Jane."
-        : "$3 bought a $2 from $1.\r$3 bought a $2 from $1.", doc.GetText().Trim());
+        : "$3 bought a $2 from $1.\r$3 bought a $2 from $1."));
 ```
 
 ### See Also

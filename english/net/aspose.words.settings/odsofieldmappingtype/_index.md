@@ -5,7 +5,7 @@ articleTitle: OdsoFieldMappingType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.OdsoFieldMappingType enum for efficient mail merge field mapping to external data sources. Enhance your document automation today!
 type: docs
-weight: 6760
+weight: 6750
 url: /net/aspose.words.settings/odsofieldmappingtype/
 ---
 ## OdsoFieldMappingType enumeration
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Odso data.docx");
 // This collection defines how a mail merge will map columns from a data source
 // to predefined MERGEFIELD, ADDRESSBLOCK and GREETINGLINE fields.
 OdsoFieldMapDataCollection dataCollection = doc.MailMergeSettings.Odso.FieldMapDatas;
-Assert.AreEqual(30, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(30));
 
 using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator())
 {
@@ -51,17 +51,17 @@ using (IEnumerator<OdsoFieldMapData> enumerator = dataCollection.GetEnumerator()
 }
 
 // Clone the elements in this collection.
-Assert.AreNotEqual(dataCollection[0], dataCollection[0].Clone());
+Assert.That(dataCollection[0].Clone(), Is.Not.EqualTo(dataCollection[0]));
 
 // Use the "RemoveAt" method elements individually by index.
 dataCollection.RemoveAt(0);
 
-Assert.AreEqual(29, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(29));
 
 // Use the "Clear" method to clear the entire collection at once.
 dataCollection.Clear();
 
-Assert.AreEqual(0, dataCollection.Count);
+Assert.That(dataCollection.Count, Is.EqualTo(0));
 ```
 
 ### See Also

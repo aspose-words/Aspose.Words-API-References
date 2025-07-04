@@ -50,9 +50,9 @@ public void UseLegacyOrder(bool useLegacyOrder)
 
     doc.Range.Replace(new Regex(@"\[tag \d*\]"), "", options);
 
-    Assert.AreEqual(useLegacyOrder ?
+    Assert.That(callback.Matches, Is.EqualTo(useLegacyOrder ?
         new List<string> { "[tag 1]", "[tag 3]", "[tag 2]" } :
-        new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" }, callback.Matches);
+        new List<string> { "[tag 1]", "[tag 2]", "[tag 3]" }));
 }
 
 /// <summary>

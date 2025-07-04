@@ -27,39 +27,39 @@ ParagraphFormat format = doc.FirstSection.Body.FirstParagraph.ParagraphFormat;
 
 // Below are five different spacing options, along with the properties that their configuration indirectly affects.
 // 1 -  Left indent:
-Assert.AreEqual(format.LeftIndent, 0.0d);
+Assert.That(0.0d, Is.EqualTo(format.LeftIndent));
 
 format.CharacterUnitLeftIndent = 10.0;
 
-Assert.AreEqual(format.LeftIndent, 120.0d);
+Assert.That(120.0d, Is.EqualTo(format.LeftIndent));
 
 // 2 -  Right indent:
-Assert.AreEqual(format.RightIndent, 0.0d); 
+Assert.That(0.0d, Is.EqualTo(format.RightIndent)); 
 
 format.CharacterUnitRightIndent = -5.5;
 
-Assert.AreEqual(format.RightIndent, -66.0d);
+Assert.That(-66.0d, Is.EqualTo(format.RightIndent));
 
 // 3 -  Hanging indent:
-Assert.AreEqual(format.FirstLineIndent, 0.0d);
+Assert.That(0.0d, Is.EqualTo(format.FirstLineIndent));
 
 format.CharacterUnitFirstLineIndent = 20.3;
 
-Assert.AreEqual(format.FirstLineIndent, 243.59d, 0.1d);
+Assert.That(243.59d, Is.EqualTo(format.FirstLineIndent).Within(0.1d));
 
 // 4 -  Line spacing before paragraphs:
-Assert.AreEqual(format.SpaceBefore, 0.0d);
+Assert.That(0.0d, Is.EqualTo(format.SpaceBefore));
 
 format.LineUnitBefore = 5.1;
 
-Assert.AreEqual(format.SpaceBefore, 61.1d, 0.1d);
+Assert.That(61.1d, Is.EqualTo(format.SpaceBefore).Within(0.1d));
 
 // 5 -  Line spacing after paragraphs:
-Assert.AreEqual(format.SpaceAfter, 0.0d);
+Assert.That(0.0d, Is.EqualTo(format.SpaceAfter));
 
 format.LineUnitAfter = 10.9;
 
-Assert.AreEqual(format.SpaceAfter, 130.8d, 0.1d);
+Assert.That(130.8d, Is.EqualTo(format.SpaceAfter).Within(0.1d));
 
 builder.Writeln("Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
                 "sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");

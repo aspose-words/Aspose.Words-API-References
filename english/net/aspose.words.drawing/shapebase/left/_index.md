@@ -51,11 +51,11 @@ shape.Top = 80;
 // Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape.Height = 125;
 
-Assert.AreEqual(125.0d, shape.Width);
+Assert.That(shape.Width, Is.EqualTo(125.0d));
 
 // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
-Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
-Assert.AreEqual(shape.Left + shape.Width, shape.Right);
+Assert.That(shape.Bottom, Is.EqualTo(shape.Top + shape.Height));
+Assert.That(shape.Right, Is.EqualTo(shape.Left + shape.Width));
 
 doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ```

@@ -5,7 +5,7 @@ articleTitle: ImageType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.ImageType enum to easily manage image formats in Microsoft Word documents. Enhance your document's visual appeal!
 type: docs
-weight: 1410
+weight: 1400
 url: /net/aspose.words.drawing/imagetype/
 ---
 ## ImageType enumeration
@@ -40,7 +40,7 @@ Shows how to read WebP image.
 Document doc = new Document(MyDir + "Document with WebP image.docx");
 
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-Assert.AreEqual(ImageType.WebP, shape.ImageData.ImageType);
+Assert.That(shape.ImageData.ImageType, Is.EqualTo(ImageType.WebP));
 ```
 
 Shows how to add an image to a shape and check its type.
@@ -50,7 +50,7 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape imgShape = builder.InsertImage(ImageDir + "Logo.jpg");
-Assert.AreEqual(ImageType.Jpeg, imgShape.ImageData.ImageType);
+Assert.That(imgShape.ImageData.ImageType, Is.EqualTo(ImageType.Jpeg));
 ```
 
 ### See Also

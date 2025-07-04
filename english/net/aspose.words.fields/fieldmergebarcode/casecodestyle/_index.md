@@ -31,8 +31,8 @@ field.BarcodeType = "ITF14";
 field.BarcodeValue = "MyITF14Barcode";
 field.CaseCodeStyle = "STD";
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyITF14Barcode ITF14 \\c STD"));
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
 // The mail merge will create a new page for each row. Each page will contain a DISPLAYBARCODE field,
@@ -44,12 +44,10 @@ table.Rows.Add(new[] { "1234567891234" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD",
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"09312345678907\" ITF14 \\c STD"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"1234567891234\" ITF14 \\c STD"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.ITF14.docx");
 ```

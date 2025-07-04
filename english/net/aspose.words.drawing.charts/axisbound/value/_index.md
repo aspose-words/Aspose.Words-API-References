@@ -38,7 +38,7 @@ chart.Series.Add("Series 1",
 
 // By default, default scaling is applied to the graph's X and Y-axes,
 // so that both their ranges are big enough to encompass every X and Y-value of every series.
-Assert.True(chart.AxisX.Scaling.Minimum.IsAuto);
+Assert.That(chart.AxisX.Scaling.Minimum.IsAuto, Is.True);
 
 // We can define our own axis bounds.
 // In this case, we will make both the X and Y-axis rulers show a range of 0 to 10.
@@ -47,8 +47,8 @@ chart.AxisX.Scaling.Maximum = new AxisBound(10);
 chart.AxisY.Scaling.Minimum = new AxisBound(0);
 chart.AxisY.Scaling.Maximum = new AxisBound(10);
 
-Assert.False(chart.AxisX.Scaling.Minimum.IsAuto);
-Assert.False(chart.AxisY.Scaling.Minimum.IsAuto);
+Assert.That(chart.AxisX.Scaling.Minimum.IsAuto, Is.False);
+Assert.That(chart.AxisY.Scaling.Minimum.IsAuto, Is.False);
 
 // Create a line chart with a series requiring a range of dates on the X-axis, and decimal values for the Y-axis.
 chartShape = builder.InsertChart(ChartType.Line, 450, 300);

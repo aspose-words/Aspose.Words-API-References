@@ -43,12 +43,12 @@ public void PreserveUnusedTags(bool preserveUnusedTags)
 
     // Our document has a tag for a column named "Column2", which does not exist in the table.
     // If we set the "PreserveUnusedTags" flag to "false", then the mail merge will convert this tag into a MERGEFIELD.
-    Assert.AreEqual(doc.GetText().Contains("{{ Column2 }}"), preserveUnusedTags);
+    Assert.That(preserveUnusedTags, Is.EqualTo(doc.GetText().Contains("{{ Column2 }}")));
 
     if (preserveUnusedTags)
-        Assert.AreEqual(0, doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField));
+        Assert.That(doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField), Is.EqualTo(0));
     else
-        Assert.AreEqual(1, doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField));
+        Assert.That(doc.Range.Fields.Count(f => f.Type == FieldType.FieldMergeField), Is.EqualTo(1));
 }
 
 /// <summary>

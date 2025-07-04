@@ -5,7 +5,7 @@ articleTitle: FieldOcx
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldOcx class for seamless integration of OCX fields, enhancing document automation and efficiency in your applications.
 type: docs
-weight: 2650
+weight: 2640
 url: /net/aspose.words.fields/fieldocx/
 ---
 ## FieldOcx class
@@ -60,7 +60,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 FieldOcx field = (FieldOcx)builder.InsertField(FieldType.FieldOcx, true);
 
-Assert.AreEqual(" OCX ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" OCX "));
 ```
 
 ### See Also

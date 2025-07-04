@@ -45,12 +45,12 @@ tableStyle.ConditionalStyles.LastRow.Borders.Color = Color.Blue;
 // 1 -  Clear the conditional styles for a specific part of a table:
 tableStyle.ConditionalStyles[0].ClearFormatting();
 
-Assert.AreEqual(Color.Empty, tableStyle.ConditionalStyles.FirstRow.Borders.Color);
+Assert.That(tableStyle.ConditionalStyles.FirstRow.Borders.Color, Is.EqualTo(Color.Empty));
 
 // 2 -  Clear the conditional styles for the entire table:
 tableStyle.ConditionalStyles.ClearFormatting();
 
-Assert.True(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty));
+Assert.That(tableStyle.ConditionalStyles.All(s => s.Borders.Color == Color.Empty), Is.True);
 ```
 
 ### See Also

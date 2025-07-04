@@ -49,14 +49,14 @@ using (MemoryStream docStream = new MemoryStream())
 
     if (preserveIncludePictureField)
     {
-        Assert.True(doc.Range.Fields.Any(f => f.Type == FieldType.FieldIncludePicture));
+        Assert.That(doc.Range.Fields.Any(f => f.Type == FieldType.FieldIncludePicture), Is.True);
 
         doc.UpdateFields();
         doc.Save(ArtifactsDir + "Field.PreserveIncludePicture.docx");
     }
     else
     {
-        Assert.False(doc.Range.Fields.Any(f => f.Type == FieldType.FieldIncludePicture));
+        Assert.That(doc.Range.Fields.Any(f => f.Type == FieldType.FieldIncludePicture), Is.False);
     }
 }
 ```

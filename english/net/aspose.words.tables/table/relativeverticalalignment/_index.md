@@ -40,7 +40,7 @@ builder.Write("Table 2, cell 1");
 builder.EndTable();
 table.PreferredWidth = PreferredWidth.FromPoints(300);
 
-// We can also set a horizontal and vertical offset in points from the paragraph's location where we inserted the table. 
+// We can also set a horizontal and vertical offset in points from the paragraph's location where we inserted the table.
 table.AbsoluteVerticalDistance = 50;
 table.AbsoluteHorizontalDistance = 100;
 

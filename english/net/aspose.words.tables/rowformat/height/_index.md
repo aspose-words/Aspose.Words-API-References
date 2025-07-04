@@ -41,11 +41,11 @@ builder.Write("Row 2, cell 1.");
 builder.EndTable();
 
 // The first row was unaffected by the padding reconfiguration and still holds the default values.
-Assert.AreEqual(0.0d, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0.0d));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
 
-Assert.AreEqual(100.0d, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100.0d));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.SetRowFormatting.docx");
 ```

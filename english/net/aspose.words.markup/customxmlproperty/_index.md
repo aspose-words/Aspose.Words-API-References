@@ -5,7 +5,7 @@ articleTitle: CustomXmlProperty
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.CustomXmlProperty class, designed to simplify managing custom XML attributes and smart tag properties for enhanced document control.
 type: docs
-weight: 4630
+weight: 4620
 url: /net/aspose.words.markup/customxmlproperty/
 ---
 ## CustomXmlProperty class
@@ -85,11 +85,11 @@ public void Create()
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
-    Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(2));
 
     doc.RemoveSmartTags();
 
-    Assert.AreEqual(0, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
 }
 
 /// <summary>

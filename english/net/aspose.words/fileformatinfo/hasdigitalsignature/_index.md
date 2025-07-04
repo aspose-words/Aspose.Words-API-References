@@ -28,8 +28,8 @@ Shows how to use the FileFormatUtil class to detect the document format and pres
 // Use a FileFormatInfo instance to verify that a document is not digitally signed.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(MyDir + "Document.docx");
 
-Assert.AreEqual(".docx", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-Assert.False(info.HasDigitalSignature);
+Assert.That(FileFormatUtil.LoadFormatToExtension(info.LoadFormat), Is.EqualTo(".docx"));
+Assert.That(info.HasDigitalSignature, Is.False);
 
 CertificateHolder certificateHolder = CertificateHolder.Create(MyDir + "morzal.pfx", "aw", null);
 SignOptions signOptions = new SignOptions() { SignTime = DateTime.Now };
@@ -39,10 +39,10 @@ DigitalSignatureUtil.Sign(MyDir + "Document.docx", ArtifactsDir + "File.DetectDi
 // Use a new FileFormatInstance to confirm that it is signed.
 info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDigitalSignatures.docx");
 
-Assert.True(info.HasDigitalSignature);
+Assert.That(info.HasDigitalSignature, Is.True);
 
 // We can load and access the signatures of a signed document in a collection like this.
-Assert.AreEqual(1, DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count);
+Assert.That(DigitalSignatureUtil.LoadSignatures(ArtifactsDir + "File.DetectDigitalSignatures.docx").Count, Is.EqualTo(1));
 ```
 
 ### See Also

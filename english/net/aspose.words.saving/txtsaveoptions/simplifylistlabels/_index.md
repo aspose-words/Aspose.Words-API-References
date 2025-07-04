@@ -52,19 +52,18 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt", txtSaveOptions)
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.SimplifyListLabels.txt");
 
 string newLine = Environment.NewLine;
-
 if (simplifyListLabels)
-    Assert.AreEqual($"* Item 1{newLine}" +
+    Assert.That(docText, Is.EqualTo($"* Item 1{newLine}" +
                     $"  > Item 2{newLine}" +
                     $"    + Item 3{newLine}" +
                     $"      - Item 4{newLine}" +
-                    $"        o Item 5{newLine}", docText);
+                    $"        o Item 5{newLine}"));
 else
-    Assert.AreEqual($"· Item 1{newLine}" +
+    Assert.That(docText, Is.EqualTo($"· Item 1{newLine}" +
                     $"o Item 2{newLine}" +
                     $"§ Item 3{newLine}" +
                     $"· Item 4{newLine}" +
-                    $"o Item 5{newLine}", docText);
+                    $"o Item 5{newLine}"));
 ```
 
 ### See Also

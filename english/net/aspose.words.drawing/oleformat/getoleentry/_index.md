@@ -41,25 +41,25 @@ builder.InsertOleObject(ImageDir + "Microsoft Visio drawing.vsd", "Package", tru
 // Inserting OLE objects creates shapes that store these objects.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(2, shapes.Length);
-Assert.AreEqual(2, shapes.Count(s => s.ShapeType == ShapeType.OleObject));
+Assert.That(shapes.Length, Is.EqualTo(2));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.OleObject), Is.EqualTo(2));
 
 // If a shape contains an OLE object, it will have a valid "OleFormat" property,
 // which we can use to verify some aspects of the shape.
 OleFormat oleFormat = shapes[0].OleFormat;
 
-Assert.AreEqual(false, oleFormat.IsLink);
-Assert.AreEqual(false, oleFormat.OleIcon);
+Assert.That(oleFormat.IsLink, Is.EqualTo(false));
+Assert.That(oleFormat.OleIcon, Is.EqualTo(false));
 
 oleFormat = shapes[1].OleFormat;
 
-Assert.AreEqual(true, oleFormat.IsLink);
-Assert.AreEqual(true, oleFormat.OleIcon);
+Assert.That(oleFormat.IsLink, Is.EqualTo(true));
+Assert.That(oleFormat.OleIcon, Is.EqualTo(true));
 
-Assert.True(oleFormat.SourceFullName.EndsWith(@"Images" + Path.DirectorySeparatorChar + "Microsoft Visio drawing.vsd"));
-Assert.AreEqual("", oleFormat.SourceItem);
+Assert.That(oleFormat.SourceFullName.EndsWith(@"Images" + Path.DirectorySeparatorChar + "Microsoft Visio drawing.vsd"), Is.True);
+Assert.That(oleFormat.SourceItem, Is.EqualTo(""));
 
-Assert.AreEqual("Microsoft Visio drawing.vsd", oleFormat.IconCaption);
+Assert.That(oleFormat.IconCaption, Is.EqualTo("Microsoft Visio drawing.vsd"));
 
 doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 
@@ -67,7 +67,7 @@ doc.Save(ArtifactsDir + "Shape.OleLinks.docx");
 using (MemoryStream stream = oleFormat.GetOleEntry("\x0001CompObj"))
 {
     byte[] oleEntryBytes = stream.ToArray();
-    Assert.AreEqual(76, oleEntryBytes.Length);
+    Assert.That(oleEntryBytes.Length, Is.EqualTo(76));
 }
 ```
 

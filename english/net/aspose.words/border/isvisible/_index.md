@@ -27,20 +27,20 @@ Document doc = new Document(MyDir + "Borders.docx");
 // We can access the settings for the appearance of these borders via the paragraph format object.
 BorderCollection borders = doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Borders;
 
-Assert.AreEqual(Color.Red.ToArgb(), borders[0].Color.ToArgb());
-Assert.AreEqual(3.0d, borders[0].LineWidth);
-Assert.AreEqual(LineStyle.Single, borders[0].LineStyle);
-Assert.True(borders[0].IsVisible);
+Assert.That(borders[0].Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+Assert.That(borders[0].LineWidth, Is.EqualTo(3.0d));
+Assert.That(borders[0].LineStyle, Is.EqualTo(LineStyle.Single));
+Assert.That(borders[0].IsVisible, Is.True);
 
 // We can remove a border at once by running the ClearFormatting method. 
 // Running this method on every border of a paragraph will remove all its borders.
 foreach (Border border in borders)
     border.ClearFormatting();
 
-Assert.AreEqual(Color.Empty.ToArgb(), borders[0].Color.ToArgb());
-Assert.AreEqual(0.0d, borders[0].LineWidth);
-Assert.AreEqual(LineStyle.None, borders[0].LineStyle);
-Assert.IsFalse(borders[0].IsVisible);
+Assert.That(borders[0].Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
+Assert.That(borders[0].LineWidth, Is.EqualTo(0.0d));
+Assert.That(borders[0].LineStyle, Is.EqualTo(LineStyle.None));
+Assert.That(borders[0].IsVisible, Is.False);
 
 doc.Save(ArtifactsDir + "Border.ClearFormatting.docx");
 ```

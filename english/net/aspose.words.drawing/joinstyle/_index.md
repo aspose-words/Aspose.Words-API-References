@@ -5,7 +5,7 @@ articleTitle: JoinStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.JoinStyle enum for versatile line join styles. Enhance your document graphics with professional quality and flexibility.
 type: docs
-weight: 1420
+weight: 1410
 url: /net/aspose.words.drawing/joinstyle/
 ---
 ## JoinStyle enumeration
@@ -47,7 +47,7 @@ arrow.Stroke.EndArrowWidth = ArrowWidth.Wide;
 arrow.Stroke.DashStyle = DashStyle.Dash;
 arrow.Stroke.Opacity = 0.5;
 
-Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
+Assert.That(arrow.Stroke.JoinStyle, Is.EqualTo(JoinStyle.Miter));
 
 builder.InsertNode(arrow);
 

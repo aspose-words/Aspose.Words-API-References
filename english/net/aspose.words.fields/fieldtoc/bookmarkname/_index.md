@@ -78,7 +78,7 @@ public void FieldToc()
     // This entry does not appear because it is outside the bookmark specified by the TOC.
     InsertNewPageWithHeading(builder, "Eighth entry", "Heading 1");
 
-    Assert.AreEqual(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" TOC  \\b MyBookmark \\t \"Quote; 6; Intense Quote; 7\" \\o 1-3 \\n 2-5 \\p - \\h \\x \\w"));
 
     field.UpdatePageNumbers();
     doc.UpdateFields();

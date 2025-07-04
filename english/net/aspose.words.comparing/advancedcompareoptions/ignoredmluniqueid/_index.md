@@ -35,7 +35,7 @@ compareOptions.AdvancedOptions.IgnoreDmlUniqueId = isIgnoreDmlUniqueId;
 
 docA.Compare(docB, "Aspose.Words", DateTime.Now, compareOptions);
 
-Assert.AreEqual(isIgnoreDmlUniqueId ? 0 : 2, docA.Revisions.Count);
+Assert.That(docA.Revisions.Count, Is.EqualTo(isIgnoreDmlUniqueId ? 0 : 2));
 ```
 
 ### See Also

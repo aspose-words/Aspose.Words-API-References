@@ -53,13 +53,13 @@ builder.InsertCell();
 builder.Write("Row 2, cell 2.");
 builder.EndTable();
 
-Assert.AreEqual(2, table.Rows.Count);
+Assert.That(table.Rows.Count, Is.EqualTo(2));
 
 // Delete the first row of the first table in the document.
 builder.DeleteRow(0, 0);
 
-Assert.AreEqual(1, table.Rows.Count);
-Assert.AreEqual("Row 2, cell 1.\aRow 2, cell 2.\a\a", table.GetText().Trim());
+Assert.That(table.Rows.Count, Is.EqualTo(1));
+Assert.That(table.GetText().Trim(), Is.EqualTo("Row 2, cell 1.\aRow 2, cell 2.\a\a"));
 ```
 
 ### See Also

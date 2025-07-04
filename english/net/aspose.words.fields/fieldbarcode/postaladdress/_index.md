@@ -35,7 +35,7 @@ field.PostalAddress = "96801";
 field.IsUSPostalAddress = true;
 field.FacingIdentificationMark = "C";
 
-Assert.AreEqual(" BARCODE  96801 \\u \\f C", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" BARCODE  96801 \\u \\f C"));
 
 builder.InsertBreak(BreakType.LineBreak);
 
@@ -44,7 +44,7 @@ field = (FieldBarcode)builder.InsertField(FieldType.FieldBarcode, true);
 field.PostalAddress = "BarcodeBookmark";
 field.IsBookmark = true;
 
-Assert.AreEqual(" BARCODE  BarcodeBookmark \\b", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" BARCODE  BarcodeBookmark \\b"));
 
 // The bookmark that the BARCODE field references in its PostalAddress property
 // need to contain nothing besides the valid ZIP code.

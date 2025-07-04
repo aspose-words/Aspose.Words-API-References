@@ -74,7 +74,7 @@ builder.Writeln(",");
 builder.Write("\nRow number of record in data source: ");
 FieldMergeRec fieldMergeRec = (FieldMergeRec)builder.InsertField(FieldType.FieldMergeRec, true);
 
-Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
+Assert.That(fieldMergeRec.GetFieldCode(), Is.EqualTo(" MERGEREC "));
 
 // A MERGESEQ field will count the number of successful merges and print the current value on each respective page.
 // If a mail merge skips no rows and invokes no SKIP/SKIPIF/NEXT/NEXTIF fields, then all merges are successful.
@@ -82,7 +82,7 @@ Assert.AreEqual(" MERGEREC ", fieldMergeRec.GetFieldCode());
 builder.Write("\nSuccessful merge number: ");
 FieldMergeSeq fieldMergeSeq = (FieldMergeSeq)builder.InsertField(FieldType.FieldMergeSeq, true);
 
-Assert.AreEqual(" MERGESEQ ", fieldMergeSeq.GetFieldCode());
+Assert.That(fieldMergeSeq.GetFieldCode(), Is.EqualTo(" MERGESEQ "));
 
 // Insert a SKIPIF field, which will skip a merge if the name is "John Doe".
 FieldSkipIf fieldSkipIf = (FieldSkipIf)builder.InsertField(FieldType.FieldSkipIf, true);

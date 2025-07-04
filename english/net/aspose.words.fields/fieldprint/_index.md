@@ -5,7 +5,7 @@ articleTitle: FieldPrint
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldPrint class for seamless PRINT field implementation. Enhance your document processing with powerful features today!
 type: docs
-weight: 2690
+weight: 2680
 url: /net/aspose.words.fields/fieldprint/
 ---
 ## FieldPrint class
@@ -77,7 +77,7 @@ field.PostScriptGroup = "para";
 // this command will turn the entire area that we specified in "field.PostScriptGroup" white.
 field.PrinterInstructions = "erasepage";
 
-Assert.AreEqual(" PRINT  erasepage \\p para", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" PRINT  erasepage \\p para"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.PRINT.docx");

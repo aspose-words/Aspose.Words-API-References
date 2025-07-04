@@ -25,13 +25,13 @@ Document doc = new Document();
 
 // A blank document contains 3 default fonts. Each font in the document
 // will have a corresponding FontInfo object which contains details about that font.
-Assert.AreEqual(3, doc.FontInfos.Count);
+Assert.That(doc.FontInfos.Count, Is.EqualTo(3));
 
-Assert.True(doc.FontInfos.Contains("Times New Roman"));
-Assert.AreEqual(204, doc.FontInfos["Times New Roman"].Charset);
+Assert.That(doc.FontInfos.Contains("Times New Roman"), Is.True);
+Assert.That(doc.FontInfos["Times New Roman"].Charset, Is.EqualTo(204));
 
-Assert.True(doc.FontInfos.Contains("Symbol"));
-Assert.True(doc.FontInfos.Contains("Arial"));
+Assert.That(doc.FontInfos.Contains("Symbol"), Is.True);
+Assert.That(doc.FontInfos.Contains("Arial"), Is.True);
 ```
 
 ### See Also

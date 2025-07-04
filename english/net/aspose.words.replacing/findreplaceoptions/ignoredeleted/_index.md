@@ -33,7 +33,7 @@ doc.StartTrackRevisions("John Doe", DateTime.Now);
 doc.FirstSection.Body.Paragraphs[1].Remove();
 doc.StopTrackRevisions();
 
-Assert.True(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision);
+Assert.That(doc.FirstSection.Body.Paragraphs[1].IsDeleteRevision, Is.True);
 
 // We can use a "FindReplaceOptions" object to modify the find and replace process.
 FindReplaceOptions options = new FindReplaceOptions();
@@ -46,10 +46,9 @@ options.IgnoreDeleted = ignoreTextInsideDeleteRevisions;
 
 doc.Range.Replace("Hello", "Greetings", options);
 
-Assert.AreEqual(
-    ignoreTextInsideDeleteRevisions
+Assert.That(doc.GetText().Trim(), Is.EqualTo(ignoreTextInsideDeleteRevisions
         ? "Greetings world!\rHello again!"
-        : "Greetings world!\rGreetings again!", doc.GetText().Trim());
+        : "Greetings world!\rGreetings again!"));
 ```
 
 ### See Also

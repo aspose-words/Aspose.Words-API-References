@@ -39,10 +39,10 @@ string[] items = { "One", "Two", "Three" };
 FormField comboBoxField = builder.InsertComboBox("DropDown", items, 0);
 DropDownItemCollection dropDownItems = comboBoxField.DropDownItems;
 
-Assert.AreEqual(3, dropDownItems.Count);
-Assert.AreEqual("One", dropDownItems[0]);
-Assert.AreEqual(1, dropDownItems.IndexOf("Two"));
-Assert.IsTrue(dropDownItems.Contains("Three"));
+Assert.That(dropDownItems.Count, Is.EqualTo(3));
+Assert.That(dropDownItems[0], Is.EqualTo("One"));
+Assert.That(dropDownItems.IndexOf("Two"), Is.EqualTo(1));
+Assert.That(dropDownItems.Contains("Three"), Is.True);
 
 // There are two ways of adding a new item to an existing collection of drop-down box items.
 // 1 -  Append an item to the end of the collection:
@@ -51,7 +51,7 @@ dropDownItems.Add("Four");
 // 2 -  Insert an item before another item at a specified index:
 dropDownItems.Insert(3, "Three and a half");
 
-Assert.AreEqual(5, dropDownItems.Count);
+Assert.That(dropDownItems.Count, Is.EqualTo(5));
 
 // Iterate over the collection and print every element.
 using (IEnumerator<string> dropDownCollectionEnumerator = dropDownItems.GetEnumerator())
@@ -65,9 +65,9 @@ dropDownItems.Remove("Four");
 // 2 -  Remove an item at an index:
 dropDownItems.RemoveAt(3);
 
-Assert.AreEqual(3, dropDownItems.Count);
-Assert.IsFalse(dropDownItems.Contains("Three and a half"));
-Assert.IsFalse(dropDownItems.Contains("Four"));
+Assert.That(dropDownItems.Count, Is.EqualTo(3));
+Assert.That(dropDownItems.Contains("Three and a half"), Is.False);
+Assert.That(dropDownItems.Contains("Four"), Is.False);
 
 doc.Save(ArtifactsDir + "FormFields.DropDownItemCollection.html");
 

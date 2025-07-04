@@ -45,13 +45,13 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.html", saveOptions);
 
 string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.html");
 
-Assert.True(outDocContents.Contains("<p class=\"myprefix-Header\">"));
-Assert.True(outDocContents.Contains("<p class=\"myprefix-Footer\">"));
+Assert.That(outDocContents.Contains("<p class=\"myprefix-Header\">"), Is.True);
+Assert.That(outDocContents.Contains("<p class=\"myprefix-Footer\">"), Is.True);
 
 outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.CssClassNamePrefix.css");
 
-Assert.True(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"));
-Assert.True(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"));
+Assert.That(outDocContents.Contains(".myprefix-Footer { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:footer }"), Is.True);
+Assert.That(outDocContents.Contains(".myprefix-Header { margin-bottom:0pt; line-height:normal; font-family:Arial; font-size:11pt; -aw-style-name:header }"), Is.True);
 ```
 
 ### See Also

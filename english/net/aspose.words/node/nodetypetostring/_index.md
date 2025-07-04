@@ -41,7 +41,7 @@ public void RecurseChildren()
     Document doc = new Document(MyDir + "Paragraphs.docx");
 
     // Any node that can contain child nodes, such as the document itself, is composite.
-    Assert.True(doc.IsComposite);
+    Assert.That(doc.IsComposite, Is.True);
 
     // Invoke the recursive function that will go through and print all the child nodes of a composite node.
     TraverseAllNodes(doc, 0);

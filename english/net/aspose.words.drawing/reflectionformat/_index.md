@@ -5,7 +5,7 @@ articleTitle: ReflectionFormat
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Drawing.ReflectionFormat class for advanced object reflection formatting. Enhance your document design with seamless integration!
 type: docs
-weight: 1570
+weight: 1560
 url: /net/aspose.words.drawing/reflectionformat/
 ---
 ## ReflectionFormat class
@@ -55,17 +55,17 @@ shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 ReflectionFormat reflectionFormat = shape.Reflection;
 
-Assert.AreEqual(0.37d, reflectionFormat.Transparency, 0.01d);
-Assert.AreEqual(0.48d, reflectionFormat.Size, 0.01d);
-Assert.AreEqual(17.5d, reflectionFormat.Blur, 0.01d);
-Assert.AreEqual(9.2d, reflectionFormat.Distance, 0.01d);
+Assert.That(reflectionFormat.Transparency, Is.EqualTo(0.37d).Within(0.01d));
+Assert.That(reflectionFormat.Size, Is.EqualTo(0.48d).Within(0.01d));
+Assert.That(reflectionFormat.Blur, Is.EqualTo(17.5d).Within(0.01d));
+Assert.That(reflectionFormat.Distance, Is.EqualTo(9.2d).Within(0.01d));
 
 reflectionFormat.Remove();
 
-Assert.AreEqual(0, reflectionFormat.Transparency);
-Assert.AreEqual(0, reflectionFormat.Size);
-Assert.AreEqual(0, reflectionFormat.Blur);
-Assert.AreEqual(0, reflectionFormat.Distance);
+Assert.That(reflectionFormat.Transparency, Is.EqualTo(0));
+Assert.That(reflectionFormat.Size, Is.EqualTo(0));
+Assert.That(reflectionFormat.Blur, Is.EqualTo(0));
+Assert.That(reflectionFormat.Distance, Is.EqualTo(0));
 ```
 
 ### See Also

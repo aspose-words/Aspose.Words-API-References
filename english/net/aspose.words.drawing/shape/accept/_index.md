@@ -94,7 +94,7 @@ private class ShapeAppearancePrinter : DocumentVisitor
 
         if (shape.Stroked)
         {
-            Assert.AreEqual(shape.Stroke.Color, shape.StrokeColor);
+            Assert.That(shape.StrokeColor, Is.EqualTo(shape.Stroke.Color));
             AppendLine($"Stroke colors: {shape.Stroke.Color}, {shape.Stroke.Color2}");
             AppendLine($"Stroke weight: {shape.StrokeWeight}");
         }

@@ -44,8 +44,8 @@ Aspose.Words.Fonts.FolderFontSource folderFontSource =
 FontSettings.DefaultInstance.SetFontsSources(new[] { originalFontsSources[0], folderFontSource });
 
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.True(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
+Assert.That(fontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.True);
 
 // Create a "PdfSaveOptions" object that we can pass to the document's "Save" method
 // to modify how that method converts the document to .PDF.

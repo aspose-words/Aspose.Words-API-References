@@ -31,8 +31,8 @@ builder.Writeln();
 FieldFileName field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.Update();
 
-Assert.AreEqual(" FILENAME ", field.GetFieldCode());
-Assert.AreEqual("Document.docx", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" FILENAME "));
+Assert.That(field.Result, Is.EqualTo("Document.docx"));
 
 builder.Writeln();
 
@@ -42,15 +42,15 @@ field = (FieldFileName)builder.InsertField(FieldType.FieldFileName, true);
 field.IncludeFullPath = true;
 field.Update();
 
-Assert.AreEqual(MyDir + "Document.docx", field.Result);
+Assert.That(field.Result, Is.EqualTo(MyDir + "Document.docx"));
 
 // We can also set a value for this property to
 // override the value that the FILENAME field displays.
 doc.FieldOptions.FileName = "FieldOptions.FILENAME.docx";
 field.Update();
 
-Assert.AreEqual(" FILENAME  \\p", field.GetFieldCode());
-Assert.AreEqual("FieldOptions.FILENAME.docx", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" FILENAME  \\p"));
+Assert.That(field.Result, Is.EqualTo("FieldOptions.FILENAME.docx"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + doc.FieldOptions.FileName);

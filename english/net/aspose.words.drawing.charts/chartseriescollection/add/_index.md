@@ -130,8 +130,8 @@ public void ChartSeriesCollection()
     chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 2 -  Area chart with dates distributed along the X-axis:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
@@ -148,8 +148,8 @@ public void ChartSeriesCollection()
     // and the values added to this series will create data points.
     chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 3 -  2D scatter plot:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
@@ -164,8 +164,8 @@ public void ChartSeriesCollection()
         new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 4 -  Bubble chart:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
@@ -237,8 +237,8 @@ public void ChartSeriesCollection()
     chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 2 -  Area chart with dates distributed along the X-axis:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
@@ -255,8 +255,8 @@ public void ChartSeriesCollection()
     // and the values added to this series will create data points.
     chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 3 -  2D scatter plot:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
@@ -271,8 +271,8 @@ public void ChartSeriesCollection()
         new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 4 -  Bubble chart:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
@@ -340,8 +340,8 @@ public void ChartSeriesCollection()
     chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 2 -  Area chart with dates distributed along the X-axis:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
@@ -358,8 +358,8 @@ public void ChartSeriesCollection()
     // and the values added to this series will create data points.
     chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 3 -  2D scatter plot:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
@@ -374,8 +374,8 @@ public void ChartSeriesCollection()
         new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 4 -  Bubble chart:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);
@@ -447,8 +447,8 @@ public void ChartSeriesCollection()
     chart.Series.Add("Series 2", categories, new[] { 64.2, 79.5, 94.0 });
 
     // Categories are distributed along the X-axis, and values are distributed along the Y-axis.
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 2 -  Area chart with dates distributed along the X-axis:
     chart = AppendChart(builder, ChartType.Area, 500, 300);
@@ -465,8 +465,8 @@ public void ChartSeriesCollection()
     // and the values added to this series will create data points.
     chart.Series.Add("Series 1", dates, new[] { 15.8, 21.5, 22.9, 28.7, 33.1 });
 
-    Assert.AreEqual(ChartAxisType.Category, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Category));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 3 -  2D scatter plot:
     chart = AppendChart(builder, ChartType.Scatter, 500, 300);
@@ -481,8 +481,8 @@ public void ChartSeriesCollection()
         new[] { 2.6, 7.3, 4.5, 6.6, 2.1, 9.3, 0.7, 3.3 },
         new[] { 7.1, 6.6, 3.5, 7.8, 7.7, 9.5, 1.3, 4.6 });
 
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisX.Type);
-    Assert.AreEqual(ChartAxisType.Value, chart.AxisY.Type);
+    Assert.That(chart.AxisX.Type, Is.EqualTo(ChartAxisType.Value));
+    Assert.That(chart.AxisY.Type, Is.EqualTo(ChartAxisType.Value));
 
     // 4 -  Bubble chart:
     chart = AppendChart(builder, ChartType.Bubble, 500, 300);

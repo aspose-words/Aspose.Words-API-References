@@ -26,8 +26,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Shape shape = builder.InsertImage(ImageDir + "Transparent background logo.png");
 
-Assert.AreEqual(ShapeMarkupLanguage.Dml, shape.MarkupLanguage);
-Assert.AreEqual(new SizeF(300, 300), shape.SizeInPoints);
+Assert.That(shape.MarkupLanguage, Is.EqualTo(ShapeMarkupLanguage.Dml));
+Assert.That(shape.SizeInPoints, Is.EqualTo(new SizeF(300, 300)));
 ```
 
 ### See Also

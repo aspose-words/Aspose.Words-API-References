@@ -5,7 +5,7 @@ articleTitle: HeaderFooter
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.HeaderFooter class, your solution for managing section headers and footers effortlessly. Enhance document formatting today!
 type: docs
-weight: 3530
+weight: 3520
 url: /net/aspose.words/headerfooter/
 ---
 ## HeaderFooter class
@@ -136,7 +136,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
+    Assert.That(section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader), Is.EqualTo(0));
 }
 
 doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");
@@ -154,8 +154,8 @@ doc.FirstSection.HeadersFooters.Add(header);
 
 Paragraph para = header.AppendParagraph("My header.");
 
-Assert.True(header.IsHeader);
-Assert.True(para.IsEndOfHeaderFooter);
+Assert.That(header.IsHeader, Is.True);
+Assert.That(para.IsEndOfHeaderFooter, Is.True);
 
 // Create a footer and append a paragraph to it. The text in that paragraph
 // will appear at the bottom of every page of this section, below the main body text.
@@ -164,12 +164,12 @@ doc.FirstSection.HeadersFooters.Add(footer);
 
 para = footer.AppendParagraph("My footer.");
 
-Assert.False(footer.IsHeader);
-Assert.True(para.IsEndOfHeaderFooter);
+Assert.That(footer.IsHeader, Is.False);
+Assert.That(para.IsEndOfHeaderFooter, Is.True);
 
-Assert.AreEqual(footer, para.ParentStory);
-Assert.AreEqual(footer.ParentSection, para.ParentSection);
-Assert.AreEqual(footer.ParentSection, header.ParentSection);
+Assert.That(para.ParentStory, Is.EqualTo(footer));
+Assert.That(para.ParentSection, Is.EqualTo(footer.ParentSection));
+Assert.That(header.ParentSection, Is.EqualTo(footer.ParentSection));
 
 doc.Save(ArtifactsDir + "HeaderFooter.Create.docx");
 ```

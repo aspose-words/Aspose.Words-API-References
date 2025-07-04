@@ -5,7 +5,7 @@ articleTitle: FieldGreetingLine
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldGreetingLine class, designed to effortlessly implement GREETINGLINE fields for enhanced document personalization.
 type: docs
-weight: 2390
+weight: 2380
 url: /net/aspose.words.fields/fieldgreetingline/
 ---
 ## FieldGreetingLine class
@@ -74,15 +74,15 @@ builder.Writeln("\n\n\tThis is your custom greeting, created programmatically us
 // It can also format how the source's data is written in its place once the mail merge is complete.
 // The field names collection corresponds to the columns from the data source
 // that the field will take values from.
-Assert.AreEqual(0, field.GetFieldNames().Length);
+Assert.That(field.GetFieldNames().Length, Is.EqualTo(0));
 
 // To populate that array, we need to specify a format for our greeting line.
 field.NameFormat = "<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> ";
 
 // Now, our field will accept values from these two columns in the data source.
-Assert.AreEqual("Courtesy Title", field.GetFieldNames()[0]);
-Assert.AreEqual("Last Name", field.GetFieldNames()[1]);
-Assert.AreEqual(2, field.GetFieldNames().Length);
+Assert.That(field.GetFieldNames()[0], Is.EqualTo("Courtesy Title"));
+Assert.That(field.GetFieldNames()[1], Is.EqualTo("Last Name"));
+Assert.That(field.GetFieldNames().Length, Is.EqualTo(2));
 
 // This string will cover any cases where the data table data is invalid
 // by substituting the malformed name with a string.
@@ -91,8 +91,7 @@ field.AlternateText = "Sir or Madam";
 // Set a locale to format the result.
 field.LanguageId = new CultureInfo("en-US").LCID.ToString();
 
-Assert.AreEqual(" GREETINGLINE  \\f \"<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> \" \\e \"Sir or Madam\" \\l 1033", 
-    field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" GREETINGLINE  \\f \"<< _BEFORE_ Dear >><< _TITLE0_ >><< _LAST0_ >><< _AFTER_ ,>> \" \\e \"Sir or Madam\" \\l 1033"));
 
 // Create a data table with columns whose names match elements
 // from the field's field names collection, and then carry out the mail merge.
@@ -108,11 +107,10 @@ table.Rows.Add("", "No", "Name");
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(0, doc.Range.Fields.Count);
-Assert.AreEqual("Dear Mr. Doe,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
+Assert.That(doc.Range.Fields.Count, Is.EqualTo(0));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Dear Mr. Doe,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
                 "\fDear Mrs. Cardholder,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!\r" +
-                "\fDear Sir or Madam,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!",
-    doc.GetText().Trim());
+                "\fDear Sir or Madam,\r\r\tThis is your custom greeting, created programmatically using Aspose Words!"));
 ```
 
 ### See Also

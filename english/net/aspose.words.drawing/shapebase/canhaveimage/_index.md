@@ -30,8 +30,8 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Insert a shape with an image.
 Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
-Assert.True(shape.CanHaveImage);
-Assert.True(shape.HasImage);
+Assert.That(shape.CanHaveImage, Is.True);
+Assert.That(shape.HasImage, Is.True);
 
 // Rotate the image 45 degrees clockwise.
 shape.Rotation = 45;

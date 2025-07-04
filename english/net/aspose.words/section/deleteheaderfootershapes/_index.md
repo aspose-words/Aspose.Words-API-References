@@ -32,14 +32,14 @@ builder.InsertShape(ShapeType.Rectangle, 100, 100);
 builder.MoveToHeaderFooter(HeaderFooterType.FooterPrimary);
 builder.InsertImage(ImageDir + "Logo icon.ico");
 
-Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
-Assert.AreEqual(1, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(1));
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(1));
 
 // Remove all shapes from the headers and footers in the first section.
 doc.FirstSection.DeleteHeaderFooterShapes();
 
-Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count);
-Assert.AreEqual(0, doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.HeaderPrimary].GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
+Assert.That(doc.FirstSection.HeadersFooters[HeaderFooterType.FooterPrimary].GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

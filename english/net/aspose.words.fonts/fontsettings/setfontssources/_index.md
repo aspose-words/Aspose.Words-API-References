@@ -43,14 +43,14 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.AreEqual(1, originalFontSources.Length);
+Assert.That(originalFontSources.Length, Is.EqualTo(1));
 
-Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
 
 // The default font source is missing two of the fonts that we are using in our document.
 // When we save this document, Aspose.Words will apply fallback fonts to all text formatted with inaccessible fonts.
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"), Is.False);
 
 // Create a font source from a folder that contains fonts.
 FolderFontSource folderFontSource = new FolderFontSource(FontsDir, true);
@@ -62,9 +62,9 @@ FontSettings.DefaultInstance.SetFontsSources(updatedFontSources);
 // Verify that Aspose.Words has access to all required fonts before we render the document to PDF.
 updatedFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.True(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
-Assert.True(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"));
+Assert.That(updatedFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
+Assert.That(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.True);
+Assert.That(updatedFontSources[1].GetAvailableFonts().Any(f => f.FullFontName == "Junction Light"), Is.True);
 
 doc.Save(ArtifactsDir + "FontSettings.AddFontSource.pdf");
 
@@ -130,7 +130,7 @@ public void LoadFontSearchCache()
         }, cacheStream);
     }
 
-    Assert.AreEqual(parsedFonts.GetFontsSources().Length, loadedCache.GetFontsSources().Length);
+    Assert.That(loadedCache.GetFontsSources().Length, Is.EqualTo(parsedFonts.GetFontsSources().Length));
 }
 
 /// <summary>

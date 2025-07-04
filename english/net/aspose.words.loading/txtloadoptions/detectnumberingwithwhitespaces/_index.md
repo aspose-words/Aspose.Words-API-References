@@ -63,13 +63,13 @@ Document doc = new Document(new MemoryStream(Encoding.UTF8.GetBytes(textDoc)), l
 
 if (detectNumberingWithWhitespaces)
 {
-    Assert.AreEqual(4, doc.Lists.Count);
-    Assert.True(doc.FirstSection.Body.Paragraphs.Any(p => p.GetText().Contains("Fourth list") && ((Paragraph)p).IsListItem));
+    Assert.That(doc.Lists.Count, Is.EqualTo(4));
+    Assert.That(doc.FirstSection.Body.Paragraphs.Any(p => p.GetText().Contains("Fourth list") && ((Paragraph)p).IsListItem), Is.True);
 }
 else
 {
-    Assert.AreEqual(3, doc.Lists.Count);
-    Assert.False(doc.FirstSection.Body.Paragraphs.Any(p => p.GetText().Contains("Fourth list") && ((Paragraph)p).IsListItem));
+    Assert.That(doc.Lists.Count, Is.EqualTo(3));
+    Assert.That(doc.FirstSection.Body.Paragraphs.Any(p => p.GetText().Contains("Fourth list") && ((Paragraph)p).IsListItem), Is.False);
 }
 ```
 

@@ -5,7 +5,7 @@ articleTitle: PatternType
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.PatternType enum to enhance your shapes with customizable fill patterns. Elevate your document design effortlessly!
 type: docs
-weight: 1550
+weight: 1540
 url: /net/aspose.words.drawing/patterntype/
 ---
 ## PatternType enumeration

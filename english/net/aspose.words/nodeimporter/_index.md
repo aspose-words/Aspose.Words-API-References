@@ -5,7 +5,7 @@ articleTitle: NodeImporter
 second_title: Aspose.Words for .NET
 description: Effortlessly transfer document nodes with Aspose.Words.NodeImporter. Streamline your workflow and enhance document management efficiency today!
 type: docs
-weight: 4900
+weight: 4890
 url: /net/aspose.words/nodeimporter/
 ---
 ## NodeImporter class
@@ -69,8 +69,8 @@ public void InsertAtBookmark()
     Bookmark bookmark = doc.Range.Bookmarks["InsertionPoint"];
     InsertDocument(bookmark.BookmarkStart.ParentNode, docToInsert);
 
-    Assert.AreEqual("We will insert a document here: " +
-                    "\rHello world!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("We will insert a document here: " +
+                    "\rHello world!"));
 }
 
 /// <summary>

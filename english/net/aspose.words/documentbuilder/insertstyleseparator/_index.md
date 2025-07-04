@@ -45,9 +45,9 @@ builder.Write("This text is in a custom style. ");
 // Calling the InsertStyleSeparator method creates another paragraph,
 // which can have a different style to the previous. There will be no break between paragraphs.
 // The text in the output document will look like one paragraph with two styles.
-Assert.AreEqual(2, doc.FirstSection.Body.Paragraphs.Count);
-Assert.AreEqual("Heading 1", doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name);
-Assert.AreEqual("MyParaStyle", doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style.Name);
+Assert.That(doc.FirstSection.Body.Paragraphs.Count, Is.EqualTo(2));
+Assert.That(doc.FirstSection.Body.Paragraphs[0].ParagraphFormat.Style.Name, Is.EqualTo("Heading 1"));
+Assert.That(doc.FirstSection.Body.Paragraphs[1].ParagraphFormat.Style.Name, Is.EqualTo("MyParaStyle"));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.InsertStyleSeparator.docx");
 ```

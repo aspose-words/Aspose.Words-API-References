@@ -5,7 +5,7 @@ articleTitle: Borders
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle Borders property to access default cell borders for your styles, enhancing your design with seamless, customizable options.
 type: docs
-weight: 40
+weight: 30
 url: /net/aspose.words/tablestyle/borders/
 ---
 ## TableStyle.Borders property
@@ -50,9 +50,9 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 table.Style = tableStyle;
 
 // Setting the style properties of a table may affect the properties of the table itself.
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+Assert.That(table.Bidi, Is.True);
+Assert.That(table.CellSpacing, Is.EqualTo(5.0d));
+Assert.That(table.StyleName, Is.EqualTo("MyTableStyle1"));
 
 doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ```

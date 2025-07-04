@@ -41,10 +41,10 @@ doc.RemovePersonalInformation = saveWithoutPersonalInfo;
 doc.Save(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 doc = new Document(ArtifactsDir + "Document.RemovePersonalInformation.docx");
 
-Assert.AreEqual(saveWithoutPersonalInfo, doc.RemovePersonalInformation);
-Assert.AreEqual("John Doe", doc.BuiltInDocumentProperties.Author);
-Assert.AreEqual("Placeholder Inc.", doc.BuiltInDocumentProperties.Company);
-Assert.AreEqual("John Doe", doc.Revisions[0].Author);
+Assert.That(doc.RemovePersonalInformation, Is.EqualTo(saveWithoutPersonalInfo));
+Assert.That(doc.BuiltInDocumentProperties.Author, Is.EqualTo("John Doe"));
+Assert.That(doc.BuiltInDocumentProperties.Company, Is.EqualTo("Placeholder Inc."));
+Assert.That(doc.Revisions[0].Author, Is.EqualTo("John Doe"));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: FieldEQ
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEQ class for seamless EQ field implementation. Enhance document automation with powerful features and flexibility.
 type: docs
-weight: 2240
+weight: 2230
 url: /net/aspose.words.fields/fieldeq/
 ---
 ## FieldEQ class
@@ -85,7 +85,7 @@ public void FieldEQ()
     // This field will display a fraction with 1 as the numerator and 4 as the denominator.
     FieldEQ field = InsertFieldEQ(builder, @"\f(1,4)");
 
-    Assert.AreEqual(@" EQ \f(1,4)", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(@" EQ \f(1,4)"));
 
     // One EQ field may contain multiple elements placed sequentially.
     // We can also nest elements inside one another by placing the inner elements

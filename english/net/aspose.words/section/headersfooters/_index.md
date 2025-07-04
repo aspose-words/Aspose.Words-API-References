@@ -59,7 +59,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
+    Assert.That(section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader), Is.EqualTo(0));
 }
 
 doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");

@@ -5,7 +5,7 @@ articleTitle: MultiPageLayout
 second_title: Aspose.Words for .NET
 description: Defines layout rules for rendering multiple pages into one image using grid, horizontal or vertical style.
 type: docs
-weight: 6090
+weight: 6080
 url: /net/aspose.words.saving/multipagelayout/
 ---
 ## MultiPageLayout class
@@ -52,8 +52,8 @@ ImageSaveOptions options = new ImageSaveOptions(SaveFormat.Jpeg);
 options.PageLayout = MultiPageLayout.Grid(3, 10, 10);
 
 // Alternative layouts:
-// options.MultiPageLayout = MultiPageLayout.Horizontal(10);
-// options.MultiPageLayout = MultiPageLayout.Vertical(10);
+// options.PageLayout = MultiPageLayout.Horizontal(10);
+// options.PageLayout = MultiPageLayout.Vertical(10);
 
 // Customize the background and border.
 options.PageLayout.BackColor = Color.LightGray;

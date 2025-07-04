@@ -5,7 +5,7 @@ articleTitle: OfficeMath
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Math.OfficeMath class, designed for creating and managing Office Math objects like equations and matrices with ease.
 type: docs
-weight: 4810
+weight: 4800
 url: /net/aspose.words.math/officemath/
 ---
 ## OfficeMath class
@@ -88,9 +88,9 @@ OfficeMath officeMath = (OfficeMath)doc.GetChild(NodeType.OfficeMath, 0, true);
 
 // OfficeMath nodes that are children of other OfficeMath nodes are always inline.
 // The node we are working with is the base node to change its location and display type.
-Assert.AreEqual(MathObjectType.OMathPara, officeMath.MathObjectType);
-Assert.AreEqual(NodeType.OfficeMath, officeMath.NodeType);
-Assert.AreEqual(officeMath.ParentNode, officeMath.ParentParagraph);
+Assert.That(officeMath.MathObjectType, Is.EqualTo(MathObjectType.OMathPara));
+Assert.That(officeMath.NodeType, Is.EqualTo(NodeType.OfficeMath));
+Assert.That(officeMath.ParentParagraph, Is.EqualTo(officeMath.ParentNode));
 
 // Change the location and display type of the OfficeMath node.
 officeMath.DisplayType = OfficeMathDisplayType.Display;

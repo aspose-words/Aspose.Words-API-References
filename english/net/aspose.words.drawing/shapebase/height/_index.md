@@ -49,11 +49,11 @@ shape.Top = 80;
 // Set the shape's height, which will automatically scale the width to preserve dimensions.
 shape.Height = 125;
 
-Assert.AreEqual(125.0d, shape.Width);
+Assert.That(shape.Width, Is.EqualTo(125.0d));
 
 // The "Bottom" and "Right" properties contain the bottom and right edges of the image.
-Assert.AreEqual(shape.Top + shape.Height, shape.Bottom);
-Assert.AreEqual(shape.Left + shape.Width, shape.Right);
+Assert.That(shape.Bottom, Is.EqualTo(shape.Top + shape.Height));
+Assert.That(shape.Right, Is.EqualTo(shape.Left + shape.Width));
 
 doc.Save(ArtifactsDir + "Image.CreateFloatingPositionSize.docx");
 ```
@@ -70,30 +70,30 @@ Shape shape = builder.InsertImage(ImageDir + "Logo.jpg");
 // A 400x400 image will create an ImageData object with an image size of 300x300pt.
 ImageSize imageSize = shape.ImageData.ImageSize;
 
-Assert.AreEqual(300.0d, imageSize.WidthPoints);
-Assert.AreEqual(300.0d, imageSize.HeightPoints);
+Assert.That(imageSize.WidthPoints, Is.EqualTo(300.0d));
+Assert.That(imageSize.HeightPoints, Is.EqualTo(300.0d));
 
 // If a shape's dimensions match the image data's dimensions,
 // then the shape is displaying the image in its original size.
-Assert.AreEqual(300.0d, shape.Width);
-Assert.AreEqual(300.0d, shape.Height);
+Assert.That(shape.Width, Is.EqualTo(300.0d));
+Assert.That(shape.Height, Is.EqualTo(300.0d));
 
 // Reduce the overall size of the shape by 50%. 
 shape.Width *= 0.5;
 
 // Scaling factors apply to both the width and the height at the same time to preserve the shape's proportions. 
-Assert.AreEqual(150.0d, shape.Width);
-Assert.AreEqual(150.0d, shape.Height);
+Assert.That(shape.Width, Is.EqualTo(150.0d));
+Assert.That(shape.Height, Is.EqualTo(150.0d));
 
 // When we resize the shape, the size of the image data remains the same.
-Assert.AreEqual(300.0d, imageSize.WidthPoints);
-Assert.AreEqual(300.0d, imageSize.HeightPoints);
+Assert.That(imageSize.WidthPoints, Is.EqualTo(300.0d));
+Assert.That(imageSize.HeightPoints, Is.EqualTo(300.0d));
 
 // We can reference the image data dimensions to apply a scaling based on the size of the image.
 shape.Width = imageSize.WidthPoints * 1.1;
 
-Assert.AreEqual(330.0d, shape.Width);
-Assert.AreEqual(330.0d, shape.Height);
+Assert.That(shape.Width, Is.EqualTo(330.0d));
+Assert.That(shape.Height, Is.EqualTo(330.0d));
 
 doc.Save(ArtifactsDir + "Image.ScaleImage.docx");
 ```

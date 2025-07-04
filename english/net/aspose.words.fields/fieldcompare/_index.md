@@ -5,7 +5,7 @@ articleTitle: FieldCompare
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldCompare class for effortless document comparison. Enhance your workflow with powerful, accurate field functionalities.
 type: docs
-weight: 2120
+weight: 2110
 url: /net/aspose.words.fields/fieldcompare/
 ---
 ## FieldCompare class
@@ -73,8 +73,8 @@ field.Update();
 
 // The COMPARE field displays a "0" or a "1", depending on its statement's truth.
 // The result of this statement is false so that this field will display a "0".
-Assert.AreEqual(" COMPARE  3 < 2", field.GetFieldCode());
-Assert.AreEqual("0", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" COMPARE  3 < 2"));
+Assert.That(field.Result, Is.EqualTo("0"));
 
 builder.Writeln();
 
@@ -85,8 +85,8 @@ field.RightExpression = "2 + 3";
 field.Update();
 
 // This field displays a "1" since the statement is true.
-Assert.AreEqual(" COMPARE  5 = \"2 + 3\"", field.GetFieldCode());
-Assert.AreEqual("1", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" COMPARE  5 = \"2 + 3\""));
+Assert.That(field.Result, Is.EqualTo("1"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.COMPARE.docx");

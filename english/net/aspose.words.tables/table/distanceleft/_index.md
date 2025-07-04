@@ -24,10 +24,10 @@ Shows how to set distance between table boundaries and text.
 Document doc = new Document(MyDir + "Table wrapped by text.docx");
 
 Table table = doc.FirstSection.Body.Tables[0];
-Assert.AreEqual(25.9d, table.DistanceTop);
-Assert.AreEqual(25.9d, table.DistanceBottom);
-Assert.AreEqual(17.3d, table.DistanceLeft);
-Assert.AreEqual(17.3d, table.DistanceRight);
+Assert.That(table.DistanceTop, Is.EqualTo(25.9d));
+Assert.That(table.DistanceBottom, Is.EqualTo(25.9d));
+Assert.That(table.DistanceLeft, Is.EqualTo(17.3d));
+Assert.That(table.DistanceRight, Is.EqualTo(17.3d));
 
 // Set distance between table and surrounding text.
 table.DistanceLeft = 24;

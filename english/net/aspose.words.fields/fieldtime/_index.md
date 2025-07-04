@@ -5,7 +5,7 @@ articleTitle: FieldTime
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldTime class for seamless TIME field implementation. Enhance your document automation with powerful features!
 type: docs
-weight: 2910
+weight: 2900
 url: /net/aspose.words.fields/fieldtime/
 ---
 ## FieldTime class
@@ -67,17 +67,17 @@ public void FieldTime()
     // By default, time is displayed in the "h:mm am/pm" format.
     FieldTime field = InsertFieldTime(builder, "");
 
-    Assert.AreEqual(" TIME ", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME "));
 
     // We can use the \@ flag to change the format of our displayed time.
     field = InsertFieldTime(builder, "\\@ HHmm");
 
-    Assert.AreEqual(" TIME \\@ HHmm", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ HHmm"));
 
     // We can adjust the format to get TIME field to also display the date, according to the Gregorian calendar.
     field = InsertFieldTime(builder, "\\@ \"M/d/yyyy h mm:ss am/pm\"");
 
-    Assert.AreEqual(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\"", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" TIME \\@ \"M/d/yyyy h mm:ss am/pm\""));
 
     doc.Save(ArtifactsDir + "Field.TIME.docx");
 }

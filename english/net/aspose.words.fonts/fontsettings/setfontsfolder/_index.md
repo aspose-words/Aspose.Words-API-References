@@ -39,12 +39,12 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 // Aspose.Words will apply a fallback font to text which has a font that Aspose.Words cannot locate.
 FontSourceBase[] originalFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.AreEqual(1, originalFontSources.Length);
-Assert.True(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.That(originalFontSources.Length, Is.EqualTo(1));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
 
 // The default font sources are missing the two fonts that we are using in this document.
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
-Assert.False(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.False);
+Assert.That(originalFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
 
 // Use the "SetFontsFolder" method to set a directory which will act as a new font source.
 // Pass "false" as the "recursive" argument to include fonts from all the font files that are in the directory
@@ -55,20 +55,20 @@ FontSettings.DefaultInstance.SetFontsFolder(FontsDir, recursive);
 
 FontSourceBase[] newFontSources = FontSettings.DefaultInstance.GetFontsSources();
 
-Assert.AreEqual(1, newFontSources.Length);
-Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+Assert.That(newFontSources.Length, Is.EqualTo(1));
+Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.False);
+Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.True);
 
 // The "Amethysta" font is in a subfolder of the font directory.
 if (recursive)
 {
-    Assert.AreEqual(25, newFontSources[0].GetAvailableFonts().Count);
-    Assert.True(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+    Assert.That(newFontSources[0].GetAvailableFonts().Count, Is.EqualTo(30));
+    Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.True);
 }
 else
 {
-    Assert.AreEqual(18, newFontSources[0].GetAvailableFonts().Count);
-    Assert.False(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+    Assert.That(newFontSources[0].GetAvailableFonts().Count, Is.EqualTo(18));
+    Assert.That(newFontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
 }
 
 doc.Save(ArtifactsDir + "FontSettings.SetFontsFolder.pdf");

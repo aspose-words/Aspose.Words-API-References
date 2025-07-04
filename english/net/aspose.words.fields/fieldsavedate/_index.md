@@ -5,7 +5,7 @@ articleTitle: FieldSaveDate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSaveDate class, designed to effortlessly implement the SAVEDATE field for streamlined document management.
 type: docs
-weight: 2760
+weight: 2750
 url: /net/aspose.words.fields/fieldsavedate/
 ---
 ## FieldSaveDate class
@@ -76,21 +76,21 @@ builder.Write("According to the Lunar Calendar - ");
 FieldSaveDate field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseLunarCalendar = true;
 
-Assert.AreEqual(" SAVEDATE  \\h", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SAVEDATE  \\h"));
 
 // 2 -  Umm al-Qura calendar:
 builder.Write("\nAccording to the Umm al-Qura calendar - ");
 field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseUmAlQuraCalendar = true;
 
-Assert.AreEqual(" SAVEDATE  \\u", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SAVEDATE  \\u"));
 
 // 3 -  Indian National calendar:
 builder.Write("\nAccording to the Indian National calendar - ");
 field = (FieldSaveDate)builder.InsertField(FieldType.FieldSaveDate, true);
 field.UseSakaEraCalendar = true;
 
-Assert.AreEqual(" SAVEDATE  \\s", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SAVEDATE  \\s"));
 
 // The SAVEDATE fields draw their date/time values from the LastSavedTime built-in property.
 // The document's Save method will not update this value, but we can still update it manually.

@@ -26,10 +26,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Set different fonts for the DocumentBuilder and verify their line spacing.
 builder.Font.Name = "Calibri";
-Assert.AreEqual(14.6484375d, builder.Font.LineSpacing);
+Assert.That(builder.Font.LineSpacing, Is.EqualTo(14.6484375d));
 
 builder.Font.Name = "Times New Roman";
-Assert.AreEqual(13.798828125d, builder.Font.LineSpacing);
+Assert.That(builder.Font.LineSpacing, Is.EqualTo(13.798828125d));
 ```
 
 ### See Also

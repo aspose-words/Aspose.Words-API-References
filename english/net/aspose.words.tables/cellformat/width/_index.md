@@ -50,17 +50,17 @@ builder.EndRow();
 builder.EndTable();
 
 // The first cell was unaffected by the padding reconfiguration, and still holds the default values.
-Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.Width);
-Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.LeftPadding);
-Assert.AreEqual(5.4d, table.FirstRow.Cells[0].CellFormat.RightPadding);
-Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.TopPadding);
-Assert.AreEqual(0.0d, table.FirstRow.Cells[0].CellFormat.BottomPadding);
+Assert.That(table.FirstRow.Cells[0].CellFormat.Width, Is.EqualTo(0.0d));
+Assert.That(table.FirstRow.Cells[0].CellFormat.LeftPadding, Is.EqualTo(5.4d));
+Assert.That(table.FirstRow.Cells[0].CellFormat.RightPadding, Is.EqualTo(5.4d));
+Assert.That(table.FirstRow.Cells[0].CellFormat.TopPadding, Is.EqualTo(0.0d));
+Assert.That(table.FirstRow.Cells[0].CellFormat.BottomPadding, Is.EqualTo(0.0d));
 
-Assert.AreEqual(250.0d, table.FirstRow.Cells[1].CellFormat.Width);
-Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.LeftPadding);
-Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.RightPadding);
-Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.TopPadding);
-Assert.AreEqual(30.0d, table.FirstRow.Cells[1].CellFormat.BottomPadding);
+Assert.That(table.FirstRow.Cells[1].CellFormat.Width, Is.EqualTo(250.0d));
+Assert.That(table.FirstRow.Cells[1].CellFormat.LeftPadding, Is.EqualTo(30.0d));
+Assert.That(table.FirstRow.Cells[1].CellFormat.RightPadding, Is.EqualTo(30.0d));
+Assert.That(table.FirstRow.Cells[1].CellFormat.TopPadding, Is.EqualTo(30.0d));
+Assert.That(table.FirstRow.Cells[1].CellFormat.BottomPadding, Is.EqualTo(30.0d));
 
 // The first cell will still grow in the output document to match the size of its neighboring cell.
 doc.Save(ArtifactsDir + "DocumentBuilder.SetCellFormatting.docx");

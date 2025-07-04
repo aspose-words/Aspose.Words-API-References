@@ -27,9 +27,9 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Bubble3D, 500, 350);
 Chart chart = shape.Chart;
 
-Assert.AreEqual(1, chart.Series.Count);
-Assert.AreEqual("Y-Values", chart.Series[0].Name);
-Assert.True(chart.Series[0].Bubble3D);
+Assert.That(chart.Series.Count, Is.EqualTo(1));
+Assert.That(chart.Series[0].Name, Is.EqualTo("Y-Values"));
+Assert.That(chart.Series[0].Bubble3D, Is.True);
 
 // Apply a data label to each bubble that displays its diameter.
 for (int i = 0; i < 3; i++)

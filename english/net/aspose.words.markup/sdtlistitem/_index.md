@@ -5,7 +5,7 @@ articleTitle: SdtListItem
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.SdtListItem class, designed for efficient list item management in ComboBox and DropDownList structured documents.
 type: docs
-weight: 4710
+weight: 4700
 url: /net/aspose.words.markup/sdtlistitem/
 ---
 ## SdtListItem class
@@ -47,7 +47,7 @@ doc.FirstSection.Body.AppendChild(tag);
 SdtListItemCollection listItems = tag.ListItems;
 listItems.Add(new SdtListItem("Value 1"));
 
-Assert.AreEqual(listItems[0].DisplayText, listItems[0].Value);
+Assert.That(listItems[0].Value, Is.EqualTo(listItems[0].DisplayText));
 
 // Add 3 more list items. Initialize these items using a different constructor to the first item
 // to display strings that are different from their values.
@@ -55,12 +55,12 @@ listItems.Add(new SdtListItem("Item 2", "Value 2"));
 listItems.Add(new SdtListItem("Item 3", "Value 3"));
 listItems.Add(new SdtListItem("Item 4", "Value 4"));
 
-Assert.AreEqual(4, listItems.Count);
+Assert.That(listItems.Count, Is.EqualTo(4));
 
 // The drop-down list is displaying the first item. Assign a different list item to the "SelectedValue" to display it.
 listItems.SelectedValue = listItems[3];
 
-Assert.AreEqual("Value 4", listItems.SelectedValue.Value);
+Assert.That(listItems.SelectedValue.Value, Is.EqualTo("Value 4"));
 
 // Enumerate over the collection and print each element.
 using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
@@ -73,7 +73,7 @@ using (IEnumerator<SdtListItem> enumerator = listItems.GetEnumerator())
 // Remove the last list item. 
 listItems.RemoveAt(3);
 
-Assert.AreEqual(3, listItems.Count);
+Assert.That(listItems.Count, Is.EqualTo(3));
 
 // Since our drop-down control is set to display the removed item by default, give it an item to display which exists.
 listItems.SelectedValue = listItems[1];
@@ -83,7 +83,7 @@ doc.Save(ArtifactsDir + "StructuredDocumentTag.ListItemCollection.docx");
 // Use the "Clear" method to empty the entire drop-down item collection at once.
 listItems.Clear();
 
-Assert.AreEqual(0, listItems.Count);
+Assert.That(listItems.Count, Is.EqualTo(0));
 ```
 
 ### See Also

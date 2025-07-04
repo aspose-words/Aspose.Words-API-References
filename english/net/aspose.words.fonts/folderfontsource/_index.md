@@ -5,7 +5,7 @@ articleTitle: FolderFontSource
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fonts.FolderFontSource class, your solution for managing TrueType fonts efficiently. Enhance your document's typography today!
 type: docs
-weight: 3290
+weight: 3280
 url: /net/aspose.words.fonts/folderfontsource/
 ---
 ## FolderFontSource class
@@ -53,10 +53,10 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-Assert.AreEqual(FontsDir, folderFontSource.FolderPath);
-Assert.AreEqual(false, folderFontSource.ScanSubfolders);
-Assert.AreEqual(FontSourceType.FontsFolder, folderFontSource.Type);
-Assert.AreEqual(1, folderFontSource.Priority);
+Assert.That(folderFontSource.FolderPath, Is.EqualTo(FontsDir));
+Assert.That(folderFontSource.ScanSubfolders, Is.EqualTo(false));
+Assert.That(folderFontSource.Type, Is.EqualTo(FontSourceType.FontsFolder));
+Assert.That(folderFontSource.Priority, Is.EqualTo(1));
 ```
 
 ### See Also

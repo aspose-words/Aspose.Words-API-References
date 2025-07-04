@@ -5,7 +5,7 @@ articleTitle: CompositeNode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.CompositeNode class, your essential tool for creating complex document structures with ease and efficiency.
 type: docs
-weight: 500
+weight: 490
 url: /net/aspose.words/compositenode/
 ---
 ## CompositeNode class
@@ -103,7 +103,7 @@ paragraph.AppendChild(new Run(doc, "Hello again!"));
 // and print any runs or shapes that we find within.
 NodeCollection children = paragraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(3, paragraph.GetChildNodes(NodeType.Any, false).Count);
+Assert.That(paragraph.GetChildNodes(NodeType.Any, false).Count, Is.EqualTo(3));
 
 foreach (Node child in children)
     switch (child.NodeType)

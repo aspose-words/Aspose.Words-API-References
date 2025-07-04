@@ -5,7 +5,7 @@ articleTitle: FindReplaceOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.FindReplaceOptions class for advanced find and replace features, enhancing document editing with precision and flexibility.
 type: docs
-weight: 5350
+weight: 5340
 url: /net/aspose.words.replacing/findreplaceoptions/
 ---
 ## FindReplaceOptions class
@@ -69,8 +69,7 @@ options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
 
-Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace."));
 ```
 
 Shows how to toggle standalone word-only find-and-replace operations.
@@ -90,9 +89,7 @@ options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
 
-Assert.AreEqual(
-    findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville."));
 ```
 
 ### See Also

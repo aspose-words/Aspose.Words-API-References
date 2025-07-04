@@ -5,7 +5,7 @@ articleTitle: SmartTag
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Markup.SmartTag class, which enhances document editing by identifying smart tags around inline elements like images and fields.
 type: docs
-weight: 4740
+weight: 4730
 url: /net/aspose.words.markup/smarttag/
 ---
 ## SmartTag class
@@ -132,11 +132,11 @@ public void Create()
     doc.Save(ArtifactsDir + "SmartTag.Create.doc");
 
     // Use the "RemoveSmartTags" method to remove all smart tags from a document.
-    Assert.AreEqual(2, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(2));
 
     doc.RemoveSmartTags();
 
-    Assert.AreEqual(0, doc.GetChildNodes(NodeType.SmartTag, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.SmartTag, true).Count, Is.EqualTo(0));
 }
 
 /// <summary>

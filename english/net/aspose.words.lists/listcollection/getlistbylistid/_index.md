@@ -36,10 +36,10 @@ Shows how to verify owner document properties of lists.
 Document doc = new Document();
 
 ListCollection lists = doc.Lists;
-Assert.AreEqual(doc, lists.Document);
+Assert.That(lists.Document, Is.EqualTo(doc));
 
 List list = lists.Add(ListTemplate.BulletDefault);
-Assert.AreEqual(doc, list.Document);
+Assert.That(list.Document, Is.EqualTo(doc));
 
 Console.WriteLine("Current list count: " + lists.Count);
 Console.WriteLine("Is the first document list: " + (lists[0].Equals(list)));

@@ -71,13 +71,13 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 doc = new Document(MyDir + "Document.docx");
 
 // Loaded documents will have contents that we can access and edit.
-Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 // Some operations that need to occur during loading, such as using a password to decrypt a document,
 // can be done by passing a LoadOptions object when loading the document.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
-Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Test encrypted document."));
 ```
 
 ### See Also
@@ -151,7 +151,7 @@ doc.Save(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 // 1 -  Load as an Aspose.Words document:
 Document asposeWordsDoc = new Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
 
-Assert.AreEqual("Hello world!", asposeWordsDoc.GetText().Trim());
+Assert.That(asposeWordsDoc.GetText().Trim(), Is.EqualTo("Hello world!"));
 
 // 2 -  Load as an Aspose.Pdf document:
 Aspose.Pdf.Document asposePdfDoc = new Aspose.Pdf.Document(ArtifactsDir + "PDF2Word.LoadPdf.pdf");
@@ -159,7 +159,7 @@ Aspose.Pdf.Document asposePdfDoc = new Aspose.Pdf.Document(ArtifactsDir + "PDF2W
 TextFragmentAbsorber textFragmentAbsorber = new TextFragmentAbsorber();
 asposePdfDoc.Pages.Accept(textFragmentAbsorber);
 
-Assert.AreEqual("Hello world!", textFragmentAbsorber.Text.Trim());
+Assert.That(textFragmentAbsorber.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also
@@ -232,13 +232,13 @@ doc.FirstSection.Body.FirstParagraph.AppendChild(new Run(doc, "Hello world!"));
 doc = new Document(MyDir + "Document.docx");
 
 // Loaded documents will have contents that we can access and edit.
-Assert.AreEqual("Hello World!", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 // Some operations that need to occur during loading, such as using a password to decrypt a document,
 // can be done by passing a LoadOptions object when loading the document.
 doc = new Document(MyDir + "Encrypted.docx", new LoadOptions("docPassword"));
 
-Assert.AreEqual("Test encrypted document.", doc.FirstSection.Body.FirstParagraph.GetText().Trim());
+Assert.That(doc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Test encrypted document."));
 ```
 
 ### See Also
@@ -288,7 +288,7 @@ using (Stream stream = File.OpenRead(MyDir + "Document.docx"))
 {
     Document doc = new Document(stream);
 
-    Assert.AreEqual("Hello World!\r\rHello Word!\r\r\rHello World!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!\r\rHello Word!\r\r\rHello World!"));
 }
 ```
 
@@ -309,10 +309,9 @@ using (HttpClient httpClient = new HttpClient())
         Document doc = new Document(byteStream);
 
         // At this stage, we can read and edit the document's contents and then save it to the local file system.
-        Assert.AreEqual("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
+        Assert.That(doc.FirstSection.Body.Paragraphs[3].GetText().Trim(), Is.EqualTo("There are eight section headings in this document. At the beginning, \"Sample Document\" is a level 1 heading. " +
                       "The main section headings, such as \"Headings\" and \"Lists\" are level 2 headings. " +
-                      "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings.",
-            doc.FirstSection.Body.Paragraphs[3].GetText().Trim());
+                        "The Tables section contains two sub-headings, \"Simple Table\" and \"Complex Table,\" which are both level 3 headings."));
 
         doc.Save(ArtifactsDir + "Document.LoadFromWeb.docx");
     }
@@ -359,28 +358,6 @@ The document must be stored at the beginning of the stream. The stream must supp
 
 ## Examples
 
-Shows how to open an HTML document with images from a stream using a base URI.
-
-```csharp
-using (Stream stream = File.OpenRead(MyDir + "Document.html"))
-{
-    // Pass the URI of the base folder while loading it
-    // so that any images with relative URIs in the HTML document can be found.
-    LoadOptions loadOptions = new LoadOptions();
-    loadOptions.BaseUri = ImageDir;
-
-    Document doc = new Document(stream, loadOptions);
-
-    // Verify that the first shape of the document contains a valid image.
-    Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
-
-    Assert.IsTrue(shape.IsImage);
-    Assert.IsNotNull(shape.ImageData.ImageBytes);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Width), 0.01);
-    Assert.AreEqual(32.0, ConvertUtil.PointToPixel(shape.Height), 0.01);
-}
-```
-
 Shows how to load an encrypted Microsoft Word document.
 
 ```csharp
@@ -402,6 +379,28 @@ using (Stream stream = File.OpenRead(MyDir + "Encrypted.docx"))
 }
 ```
 
+Shows how to open an HTML document with images from a stream using a base URI.
+
+```csharp
+using (Stream stream = File.OpenRead(MyDir + "Document.html"))
+{
+    // Pass the URI of the base folder while loading it
+    // so that any images with relative URIs in the HTML document can be found.
+    LoadOptions loadOptions = new LoadOptions();
+    loadOptions.BaseUri = ImageDir;
+
+    Document doc = new Document(stream, loadOptions);
+
+    // Verify that the first shape of the document contains a valid image.
+    Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
+
+    Assert.That(shape.IsImage, Is.True);
+    Assert.That(shape.ImageData.ImageBytes, Is.Not.Null);
+    Assert.That(ConvertUtil.PointToPixel(shape.Width), Is.EqualTo(32.0).Within(0.01));
+    Assert.That(ConvertUtil.PointToPixel(shape.Height), Is.EqualTo(32.0).Within(0.01));
+}
+```
+
 Shows how save a web page as a .docx file.
 
 ```csharp
@@ -415,11 +414,11 @@ using (HttpClient client = new HttpClient())
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);
-        // Verify document content.
-        Assert.True(doc.GetText().Contains("HYPERLINK \"https://products.aspose.com/words/net/\" \\o \"Aspose.Words\""));
 
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }

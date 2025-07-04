@@ -42,7 +42,7 @@ private class ImageShapePrinter : IImageSavingCallback
     void IImageSavingCallback.ImageSaving(ImageSavingArgs args)
     {
         args.KeepImageStreamOpen = false;
-        Assert.True(args.IsImageAvailable);
+        Assert.That(args.IsImageAvailable, Is.True);
 
         Console.WriteLine($"{args.Document.OriginalFileName.Split('\\').Last()} Image #{++mImageCount}");
 

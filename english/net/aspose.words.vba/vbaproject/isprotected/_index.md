@@ -22,7 +22,7 @@ Shows whether the VbaProject is password protected.
 
 ```csharp
 Document doc = new Document(MyDir + "Vba protected.docm");
-Assert.True(doc.VbaProject.IsProtected);
+Assert.That(doc.VbaProject.IsProtected, Is.True);
 ```
 
 ### See Also

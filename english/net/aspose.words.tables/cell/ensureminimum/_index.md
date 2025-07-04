@@ -31,7 +31,7 @@ row.AppendChild(cell);
 
 // Cells may contain paragraphs with typical elements such as runs, shapes, and even other tables.
 // Our new cell does not have any paragraphs, and we cannot add contents such as run and shape nodes to it until it does.
-Assert.AreEqual(0, cell.GetChildNodes(NodeType.Any, true).Count);
+Assert.That(cell.GetChildNodes(NodeType.Any, true).Count, Is.EqualTo(0));
 
 // Calling the "EnsureMinimum" method on a cell will ensure that
 // the cell has at least one empty paragraph, which we can then add contents to.

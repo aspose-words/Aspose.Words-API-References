@@ -5,7 +5,7 @@ articleTitle: DocumentBase
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.DocumentBase class, the essential foundation for creating and managing Word documents and glossaries with ease and efficiency.
 type: docs
-weight: 650
+weight: 640
 url: /net/aspose.words/documentbase/
 ---
 ## DocumentBase class
@@ -90,12 +90,12 @@ Shows how to initialize the subclasses of DocumentBase.
 ```csharp
 Document doc = new Document();
 
-Assert.AreEqual(typeof(DocumentBase), doc.GetType().BaseType);
+Assert.That(doc.GetType().BaseType, Is.EqualTo(typeof(DocumentBase)));
 
 GlossaryDocument glossaryDoc = new GlossaryDocument();
 doc.GlossaryDocument = glossaryDoc;
 
-Assert.AreEqual(typeof(DocumentBase), glossaryDoc.GetType().BaseType);
+Assert.That(glossaryDoc.GetType().BaseType, Is.EqualTo(typeof(DocumentBase)));
 ```
 
 ### See Also

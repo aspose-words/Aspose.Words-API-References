@@ -5,7 +5,7 @@ articleTitle: FieldAuthor
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldAuthor class, designed to effortlessly implement the AUTHOR field for enhanced document management and automation.
 type: docs
-weight: 1980
+weight: 1970
 url: /net/aspose.words.fields/fieldauthor/
 ---
 ## FieldAuthor class
@@ -68,7 +68,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // it will have our username in that property.
 // However, if we create a document programmatically using Aspose.Words,
 // the "Author" property, by default, will be an empty string. 
-Assert.AreEqual(string.Empty, doc.BuiltInDocumentProperties.Author);
+Assert.That(doc.BuiltInDocumentProperties.Author, Is.EqualTo(string.Empty));
 
 // Set a backup author name for AUTHOR fields to use
 // if the "Author" property contains an empty string.
@@ -78,31 +78,31 @@ builder.Write("This document was created by ");
 FieldAuthor field = (FieldAuthor)builder.InsertField(FieldType.FieldAuthor, true);
 field.Update();
 
-Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
-Assert.AreEqual("Joe Bloggs", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTHOR "));
+Assert.That(field.Result, Is.EqualTo("Joe Bloggs"));
 
 // Updating an AUTHOR field that contains a value
 // will apply that value to the "Author" built-in property.
-Assert.AreEqual("Joe Bloggs", doc.BuiltInDocumentProperties.Author);
+Assert.That(doc.BuiltInDocumentProperties.Author, Is.EqualTo("Joe Bloggs"));
 
 // Changing this property, then updating the AUTHOR field will apply this value to the field.
 doc.BuiltInDocumentProperties.Author = "John Doe";
 field.Update();
 
-Assert.AreEqual(" AUTHOR ", field.GetFieldCode());
-Assert.AreEqual("John Doe", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTHOR "));
+Assert.That(field.Result, Is.EqualTo("John Doe"));
 
 // If we update an AUTHOR field after changing its "Name" property,
 // then the field will display the new name and apply the new name to the built-in property.
 field.AuthorName = "Jane Doe";
 field.Update();
 
-Assert.AreEqual(" AUTHOR  \"Jane Doe\"", field.GetFieldCode());
-Assert.AreEqual("Jane Doe", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" AUTHOR  \"Jane Doe\""));
+Assert.That(field.Result, Is.EqualTo("Jane Doe"));
 
 // AUTHOR fields do not affect the DefaultDocumentAuthor property.
-Assert.AreEqual("Jane Doe", doc.BuiltInDocumentProperties.Author);
-Assert.AreEqual("Joe Bloggs", doc.FieldOptions.DefaultDocumentAuthor);
+Assert.That(doc.BuiltInDocumentProperties.Author, Is.EqualTo("Jane Doe"));
+Assert.That(doc.FieldOptions.DefaultDocumentAuthor, Is.EqualTo("Joe Bloggs"));
 
 doc.Save(ArtifactsDir + "Field.AUTHOR.docx");
 ```

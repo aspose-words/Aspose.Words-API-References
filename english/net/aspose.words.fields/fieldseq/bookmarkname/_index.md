@@ -37,7 +37,7 @@ fieldToc.TableOfFiguresLabel = "MySequence";
 fieldToc.BookmarkName = "TOCBookmark";
 builder.InsertBreak(BreakType.PageBreak);
 
-Assert.AreEqual(" TOC  \\c MySequence \\b TOCBookmark", fieldToc.GetFieldCode());
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\c MySequence \\b TOCBookmark"));
 
 // SEQ fields display a count that increments at each SEQ field.
 // These fields also maintain separate counts for each unique named sequence
@@ -72,7 +72,7 @@ builder.Writeln(", will not show up in the TOC because it's from a different seq
 fieldSeq = (FieldSeq)builder.InsertField(FieldType.FieldSequence, true);
 fieldSeq.SequenceIdentifier = "MySequence";
 fieldSeq.BookmarkName = "SEQBookmark";
-Assert.AreEqual(" SEQ  MySequence SEQBookmark", fieldSeq.GetFieldCode());
+Assert.That(fieldSeq.GetFieldCode(), Is.EqualTo(" SEQ  MySequence SEQBookmark"));
 
 // Create a bookmark with contents that will show up in the TOC entry due to the above SEQ field referencing it.
 builder.InsertBreak(BreakType.PageBreak);

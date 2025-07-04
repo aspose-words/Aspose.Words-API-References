@@ -33,8 +33,8 @@ public void FontSourceWarning()
     // Get the list of fonts to call warning callback.
     IList<PhysicalFontInfo> fontInfos = source.GetAvailableFonts();
 
-    Assert.True(callback.FontSubstitutionWarnings[0].Description
-        .Contains("Error loading font from the folder \"bad folder?\""));
+    Assert.That(callback.FontSubstitutionWarnings[0].Description
+        .Contains("Error loading font from the folder \"bad folder?\""), Is.True);
 }
 
 private class FontSourceWarningCollector : IWarningCallback

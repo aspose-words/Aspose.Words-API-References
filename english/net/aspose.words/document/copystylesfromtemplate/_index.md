@@ -40,7 +40,7 @@ style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Courier New";
 style.Font.Color = Color.RoyalBlue;
 
-Assert.AreEqual(7, template.Styles.Count);
+Assert.That(template.Styles.Count, Is.EqualTo(7));
 
 // Create a document which we will copy the styles to.
 Document target = new Document();
@@ -50,7 +50,7 @@ style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
-Assert.AreEqual(5, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(5));
 
 // There are two ways of calling the method to copy all the styles from one document to another.
 // 1 -  Passing the template document object:
@@ -58,15 +58,15 @@ target.CopyStylesFromTemplate(template);
 
 // Copying styles adds all styles from the template document to the target
 // and overwrites existing styles with the same name.
-Assert.AreEqual(7, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(7));
 
-Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
-Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
+Assert.That(target.Styles["TemplateStyle3"].Font.Name, Is.EqualTo("Courier New"));
+Assert.That(target.Styles["TemplateStyle3"].Font.Color.ToArgb(), Is.EqualTo(Color.RoyalBlue.ToArgb()));
 
 // 2 -  Passing the local system filename of a template document:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
-Assert.AreEqual(21, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(21));
 ```
 
 ### See Also
@@ -118,7 +118,7 @@ style = template.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Courier New";
 style.Font.Color = Color.RoyalBlue;
 
-Assert.AreEqual(7, template.Styles.Count);
+Assert.That(template.Styles.Count, Is.EqualTo(7));
 
 // Create a document which we will copy the styles to.
 Document target = new Document();
@@ -128,7 +128,7 @@ style = target.Styles.Add(StyleType.Paragraph, "TemplateStyle3");
 style.Font.Name = "Calibri";
 style.Font.Color = Color.Orange;
 
-Assert.AreEqual(5, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(5));
 
 // There are two ways of calling the method to copy all the styles from one document to another.
 // 1 -  Passing the template document object:
@@ -136,15 +136,15 @@ target.CopyStylesFromTemplate(template);
 
 // Copying styles adds all styles from the template document to the target
 // and overwrites existing styles with the same name.
-Assert.AreEqual(7, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(7));
 
-Assert.AreEqual("Courier New", target.Styles["TemplateStyle3"].Font.Name);
-Assert.AreEqual(Color.RoyalBlue.ToArgb(), target.Styles["TemplateStyle3"].Font.Color.ToArgb());
+Assert.That(target.Styles["TemplateStyle3"].Font.Name, Is.EqualTo("Courier New"));
+Assert.That(target.Styles["TemplateStyle3"].Font.Color.ToArgb(), Is.EqualTo(Color.RoyalBlue.ToArgb()));
 
 // 2 -  Passing the local system filename of a template document:
 target.CopyStylesFromTemplate(MyDir + "Rendering.docx");
 
-Assert.AreEqual(21, target.Styles.Count);
+Assert.That(target.Styles.Count, Is.EqualTo(21));
 ```
 
 ### See Also

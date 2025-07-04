@@ -35,8 +35,8 @@ Document doc = new Document(MyDir + "Textboxes in drawing canvas.docx");
 
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(3, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
-Assert.AreEqual(1, shapes.Count(s => s.ShapeType == ShapeType.Image));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.TextBox), Is.EqualTo(3));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.Image), Is.EqualTo(1));
 
 foreach (Shape shape in shapes)
 {
@@ -62,8 +62,8 @@ foreach (Shape shape in shapes)
 
 shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(0, shapes.Count(s => s.ShapeType == ShapeType.TextBox));
-Assert.AreEqual(4, shapes.Count(s => s.ShapeType == ShapeType.Image));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.TextBox), Is.EqualTo(0));
+Assert.That(shapes.Count(s => s.ShapeType == ShapeType.Image), Is.EqualTo(4));
 
 doc.Save(ArtifactsDir + "Shape.ReplaceTextboxesWithImages.docx");
 ```

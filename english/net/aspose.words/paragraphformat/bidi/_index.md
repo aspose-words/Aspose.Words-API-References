@@ -37,12 +37,12 @@ loadOptions.DocumentDirection = DocumentDirection.Auto;
 // Detect Hebrew text as right-to-left.
 Document doc = new Document(MyDir + "Hebrew text.txt", loadOptions);
 
-Assert.True(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.True);
 
 // Detect English text as right-to-left.
 doc = new Document(MyDir + "English text.txt", loadOptions);
 
-Assert.False(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi);
+Assert.That(doc.FirstSection.Body.FirstParagraph.ParagraphFormat.Bidi, Is.False);
 ```
 
 Shows how to create right-to-left language-compatible lists with BIDIOUTLINE fields.
@@ -57,7 +57,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldBidiOutline field = (FieldBidiOutline)builder.InsertField(FieldType.FieldBidiOutline, true);
 builder.Writeln("שלום");
 
-Assert.AreEqual(" BIDIOUTLINE ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" BIDIOUTLINE "));
 
 // Add two more BIDIOUTLINE fields, which will display ".2" and ".3".
 builder.InsertField(FieldType.FieldBidiOutline, true);

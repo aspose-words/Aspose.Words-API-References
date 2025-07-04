@@ -5,7 +5,7 @@ articleTitle: IRevisionCriteria
 second_title: Aspose.Words for .NET
 description: Control document revisions effortlessly with Aspose.Words.IRevisionCriteria. Customize acceptance and rejection of changes for precise document management.
 type: docs
-weight: 3650
+weight: 3640
 url: /net/aspose.words/irevisioncriteria/
 ---
 ## IRevisionCriteria interface
@@ -44,13 +44,13 @@ public void RevisionSpecifiedCriteria()
     doc.FirstSection.Body.FirstParagraph.Runs[0].Remove();
     doc.StopTrackRevisions();
 
-    Assert.AreEqual(3, doc.Revisions.Count);
+    Assert.That(doc.Revisions.Count, Is.EqualTo(3));
     // We have two revisions from different authors, so we need to accept only one.
     doc.Revisions.Accept(new RevisionCriteria("John Doe", RevisionType.Insertion));
-    Assert.AreEqual(2, doc.Revisions.Count);
+    Assert.That(doc.Revisions.Count, Is.EqualTo(2));
     // Reject revision with different author name and revision type.
     doc.Revisions.Reject(new RevisionCriteria("Jane Doe", RevisionType.Deletion));
-    Assert.AreEqual(1, doc.Revisions.Count);
+    Assert.That(doc.Revisions.Count, Is.EqualTo(1));
 
     doc.Save(ArtifactsDir + "Revision.RevisionSpecifiedCriteria.docx");
 }

@@ -5,7 +5,7 @@ articleTitle: LoadFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.LoadFormat enum, defining document formats for seamless loading and enhanced compatibility in your applications.
 type: docs
-weight: 4000
+weight: 3990
 url: /net/aspose.words/loadformat/
 ---
 ## LoadFormat enumeration
@@ -64,11 +64,11 @@ using (HttpClient client = new HttpClient())
     {
         // The URL is used again as a baseUri to ensure that any relative image paths are retrieved correctly.
         LoadOptions options = new LoadOptions(LoadFormat.Html, "", url);
+
         // Load the HTML document from stream and pass the LoadOptions object.
         Document doc = new Document(stream, options);
-        // Verify document content.
-        Assert.True(doc.GetText().Contains("HYPERLINK \"https://products.aspose.com/words/net/\" \\o \"Aspose.Words\""));
 
+        // At this stage, we can read and edit the document's contents and then save it to the local file system.
         doc.Save(ArtifactsDir + "Document.InsertHtmlFromWebPage.docx");
     }
 }
@@ -82,13 +82,13 @@ Shows how to specify a base URI when opening an html document.
 // We can provide a base URI using an HtmlLoadOptions object. 
 HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.Html, "", ImageDir);
 
-Assert.AreEqual(LoadFormat.Html, loadOptions.LoadFormat);
+Assert.That(loadOptions.LoadFormat, Is.EqualTo(LoadFormat.Html));
 
 Document doc = new Document(MyDir + "Missing image.html", loadOptions);
 
 // While the image was broken in the input .html, our custom base URI helped us repair the link.
 Shape imageShape = (Shape)doc.GetChildNodes(NodeType.Shape, true)[0];
-Assert.True(imageShape.IsImage);
+Assert.That(imageShape.IsImage, Is.True);
 
 // This output document will display the image that was missing.
 doc.Save(ArtifactsDir + "HtmlLoadOptions.BaseUri.docx");
@@ -103,7 +103,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
     LoadFormat loadFormat = info.LoadFormat;
 
-    Assert.AreEqual(LoadFormat.Doc, loadFormat);
+    Assert.That(loadFormat, Is.EqualTo(LoadFormat.Doc));
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -116,7 +116,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // Load a document from the stream, and then save it to the automatically detected file extension.
     Document doc = new Document(docStream);
 
-    Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
+    Assert.That(FileFormatUtil.SaveFormatToExtension(saveFormat), Is.EqualTo(".doc"));
 
     doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
 }

@@ -38,7 +38,7 @@ Shows how to insert a pie chart into a document.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300), 
+Chart chart = builder.InsertChart(ChartType.Pie, ConvertUtil.PixelToPoint(300),
     ConvertUtil.PixelToPoint(300)).Chart;
 chart.Series.Clear();
 chart.Series.Add("My fruit",

@@ -5,7 +5,7 @@ articleTitle: TextBoxControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.TextBoxControl class to effortlessly display organized text from data or user input. Enhance your document management today!
 type: docs
-weight: 1520
+weight: 1510
 url: /net/aspose.words.drawing.ole/textboxcontrol/
 ---
 ## TextBoxControl class
@@ -43,11 +43,11 @@ Document doc = new Document(MyDir + "Textbox control.docm");
 
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 TextBoxControl textBoxControl = (TextBoxControl)shape.OleFormat.OleControl;
-Assert.AreEqual("Aspose.Words test", textBoxControl.Text);
+Assert.That(textBoxControl.Text, Is.EqualTo("Aspose.Words test"));
 
 textBoxControl.Text = "Updated text";
-Assert.AreEqual("Updated text", textBoxControl.Text);
-Assert.AreEqual(Forms2OleControlType.Textbox, textBoxControl.Type);
+Assert.That(textBoxControl.Text, Is.EqualTo("Updated text"));
+Assert.That(textBoxControl.Type, Is.EqualTo(Forms2OleControlType.Textbox));
 ```
 
 ### See Also

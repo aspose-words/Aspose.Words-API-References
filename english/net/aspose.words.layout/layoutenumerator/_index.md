@@ -5,7 +5,7 @@ articleTitle: LayoutEnumerator
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Layout.LayoutEnumerator class for efficient document layout enumeration. Explore page geometry, text, and structure effortlessly!
 type: docs
-weight: 3790
+weight: 3780
 url: /net/aspose.words.layout/layoutenumerator/
 ---
 ## LayoutEnumerator class
@@ -66,11 +66,11 @@ public void LayoutEnumerator()
     // Create an enumerator that can traverse these entities like a tree.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
-    Assert.AreEqual(doc, layoutEnumerator.Document);
+    Assert.That(layoutEnumerator.Document, Is.EqualTo(doc));
 
     layoutEnumerator.MoveParent(LayoutEntityType.Page);
 
-    Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
+    Assert.That(layoutEnumerator.Type, Is.EqualTo(LayoutEntityType.Page));
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
     // We can call this method to make sure that the enumerator will be at the first layout entity.

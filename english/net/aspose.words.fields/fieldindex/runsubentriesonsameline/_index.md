@@ -46,9 +46,9 @@ index.Heading = "A";
 index.RunSubentriesOnSameLine = runSubentriesOnTheSameLine;
 
 if (runSubentriesOnTheSameLine)
-    Assert.AreEqual(" INDEX  \\e \", see page \" \\h A \\r", index.GetFieldCode());
+    Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\e \", see page \" \\h A \\r"));
 else
-    Assert.AreEqual(" INDEX  \\e \", see page \" \\h A", index.GetFieldCode());
+    Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\e \", see page \" \\h A"));
 
 // Insert two XE fields, each on a new page, and with the same heading named "Heading 1",
 // which the INDEX field will use to group them.
@@ -60,7 +60,7 @@ builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Heading 1:Subheading 1";
 
-Assert.AreEqual(" XE  \"Heading 1:Subheading 1\"", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  \"Heading 1:Subheading 1\""));
 
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

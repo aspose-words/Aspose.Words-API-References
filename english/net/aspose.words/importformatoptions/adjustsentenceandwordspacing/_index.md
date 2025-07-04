@@ -33,7 +33,7 @@ builder.Write("Lorem ipsum.");
 ImportFormatOptions options = new ImportFormatOptions() { AdjustSentenceAndWordSpacing = true };
 builder.InsertDocument(srcDoc, ImportFormatMode.UseDestinationStyles, options);
 
-Assert.AreEqual("Lorem ipsum. Dolor sit amet.", dstDoc.FirstSection.Body.FirstParagraph.GetText().Trim());
+Assert.That(dstDoc.FirstSection.Body.FirstParagraph.GetText().Trim(), Is.EqualTo("Lorem ipsum. Dolor sit amet."));
 ```
 
 ### See Also

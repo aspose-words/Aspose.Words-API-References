@@ -30,15 +30,15 @@ field.Update();
 
 FieldChar fieldStart = field.Start;
 
-Assert.AreEqual(FieldType.FieldDate, fieldStart.FieldType);
-Assert.AreEqual(false, fieldStart.IsDirty);
-Assert.AreEqual(false, fieldStart.IsLocked);
+Assert.That(fieldStart.FieldType, Is.EqualTo(FieldType.FieldDate));
+Assert.That(fieldStart.IsDirty, Is.EqualTo(false));
+Assert.That(fieldStart.IsLocked, Is.EqualTo(false));
 
 // Retrieve the facade object which represents the field in the document.
 field = (FieldDate)fieldStart.GetField();
 
-Assert.AreEqual(false, field.IsLocked);
-Assert.AreEqual(" DATE  \\@ \"dddd, MMMM dd, yyyy\"", field.GetFieldCode());
+Assert.That(field.IsLocked, Is.EqualTo(false));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\@ \"dddd, MMMM dd, yyyy\""));
 
 // Update the field to show the current date.
 field.Update();

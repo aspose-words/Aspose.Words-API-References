@@ -5,7 +5,7 @@ articleTitle: HtmlFixedSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.HtmlFixedSaveOptions to enhance your document saving experience. Customize settings for optimal HtmlFixed format output.
 type: docs
-weight: 5830
+weight: 5820
 url: /net/aspose.words.saving/htmlfixedsaveoptions/
 ---
 ## HtmlFixedSaveOptions class
@@ -111,8 +111,8 @@ public void HtmlFixedResourceFolder()
 
     string[] resourceFiles = Directory.GetFiles(ArtifactsDir + "HtmlFixedResourceFolderAlias");
 
-    Assert.False(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"));
-    Assert.AreEqual(6, resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")));
+    Assert.That(Directory.Exists(ArtifactsDir + "HtmlFixedResourceFolder"), Is.False);
+    Assert.That(resourceFiles.Count(f => f.EndsWith(".jpeg") || f.EndsWith(".png") || f.EndsWith(".css")), Is.EqualTo(6));
 }
 
 /// <summary>

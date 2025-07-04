@@ -33,12 +33,12 @@ Shows how to access a document's arbitrary custom parts collection.
 ```csharp
 Document doc = new Document(MyDir + "Custom parts OOXML package.docx");
 
-Assert.AreEqual(2, doc.PackageCustomParts.Count);
+Assert.That(doc.PackageCustomParts.Count, Is.EqualTo(2));
 
 // Clone the second part, then add the clone to the collection.
 CustomPart clonedPart = doc.PackageCustomParts[1].Clone();
 doc.PackageCustomParts.Add(clonedPart);
-Assert.AreEqual(3, doc.PackageCustomParts.Count);
+Assert.That(doc.PackageCustomParts.Count, Is.EqualTo(3));
 
 // Enumerate over the collection and print every part.
 using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator())
@@ -60,11 +60,11 @@ using (IEnumerator<CustomPart> enumerator = doc.PackageCustomParts.GetEnumerator
 // We can remove elements from this collection individually, or all at once.
 doc.PackageCustomParts.RemoveAt(2);
 
-Assert.AreEqual(2, doc.PackageCustomParts.Count);
+Assert.That(doc.PackageCustomParts.Count, Is.EqualTo(2));
 
 doc.PackageCustomParts.Clear();
 
-Assert.AreEqual(0, doc.PackageCustomParts.Count);
+Assert.That(doc.PackageCustomParts.Count, Is.EqualTo(0));
 ```
 
 ### See Also

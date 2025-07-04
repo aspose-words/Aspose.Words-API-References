@@ -5,7 +5,7 @@ articleTitle: Row
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Tables.Row class for seamless table row management in your documents. Enhance your document processing with powerful features!
 type: docs
-weight: 7170
+weight: 7160
 url: /net/aspose.words.tables/row/
 ---
 ## Row class
@@ -35,6 +35,7 @@ public class Row : CompositeNode
 | [FirstCell](../../aspose.words.tables/row/firstcell/) { get; } | Returns the first [`Cell`](../cell/) in the row. |
 | [FirstChild](../../aspose.words/compositenode/firstchild/) { get; } | Gets the first child of the node. |
 | [HasChildNodes](../../aspose.words/compositenode/haschildnodes/) { get; } | Returns `true` if this node has any child nodes. |
+| [Hidden](../../aspose.words.tables/row/hidden/) { get; set; } | Gets or sets a flag indicating whether this row is hidden or not. |
 | override [IsComposite](../../aspose.words/compositenode/iscomposite/) { get; } | Returns `true` as this node can have child nodes. |
 | [IsFirstRow](../../aspose.words.tables/row/isfirstrow/) { get; } | True if this is the first row in a table; false otherwise. |
 | [IsLastRow](../../aspose.words.tables/row/islastrow/) { get; } | True if this is the last row in a table; false otherwise. |
@@ -125,7 +126,7 @@ Shows how to iterate through all tables in the document and print the contents o
 Document doc = new Document(MyDir + "Tables.docx");
 TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(2, tables.ToArray().Length);
+Assert.That(tables.ToArray().Length, Is.EqualTo(2));
 
 for (int i = 0; i < tables.Count; i++)
 {
@@ -134,8 +135,8 @@ for (int i = 0; i < tables.Count; i++)
     RowCollection rows = tables[i].Rows;
 
     // We can use the "ToArray" method on a row collection to clone it into an array.
-    Assert.AreEqual(rows, rows.ToArray());
-    Assert.AreNotSame(rows, rows.ToArray());
+    Assert.That(rows.ToArray(), Is.EqualTo(rows));
+    Assert.That(rows.ToArray(), Is.Not.SameAs(rows));
 
     for (int j = 0; j < rows.Count; j++)
     {
@@ -144,8 +145,8 @@ for (int i = 0; i < tables.Count; i++)
         CellCollection cells = rows[j].Cells;
 
         // We can use the "ToArray" method on a cell collection to clone it into an array.
-        Assert.AreEqual(cells, cells.ToArray());
-        Assert.AreNotSame(cells, cells.ToArray());
+        Assert.That(cells.ToArray(), Is.EqualTo(cells));
+        Assert.That(cells.ToArray(), Is.Not.SameAs(cells));
 
         for (int k = 0; k < cells.Count; k++)
         {

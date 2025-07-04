@@ -35,8 +35,7 @@ options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
 
-Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace."));
 ```
 
 ### See Also

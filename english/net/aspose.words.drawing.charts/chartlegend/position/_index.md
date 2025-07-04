@@ -31,10 +31,10 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Shape shape = builder.InsertChart(ChartType.Line, 450, 300);
 Chart chart = shape.Chart;
 
-Assert.AreEqual(3, chart.Series.Count);
-Assert.AreEqual("Series 1", chart.Series[0].Name);
-Assert.AreEqual("Series 2", chart.Series[1].Name);
-Assert.AreEqual("Series 3", chart.Series[2].Name);
+Assert.That(chart.Series.Count, Is.EqualTo(3));
+Assert.That(chart.Series[0].Name, Is.EqualTo("Series 1"));
+Assert.That(chart.Series[1].Name, Is.EqualTo("Series 2"));
+Assert.That(chart.Series[2].Name, Is.EqualTo("Series 3"));
 
 // Move the chart's legend to the top right corner.
 ChartLegend legend = chart.Legend;

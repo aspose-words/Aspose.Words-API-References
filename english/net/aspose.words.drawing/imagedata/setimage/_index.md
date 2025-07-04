@@ -145,7 +145,7 @@ builder.InsertNode(shape);
 doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx");
 
 // Every image that we store in shape will increase the size of our document.
-Assert.True(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length);
+Assert.That(70000 < new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Embedded.docx").Length, Is.True);
 
 doc.FirstSection.Body.FirstParagraph.RemoveAllChildren();
 
@@ -160,7 +160,7 @@ doc.Save(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx");
 // Linking to images will save space and result in a smaller document.
 // However, the document can only display the image correctly while
 // the image file is present at the location that the shape's "SourceFullName" property points to.
-Assert.True(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length);
+Assert.That(10000 > new FileInfo(ArtifactsDir + "Image.CreateLinkedImage.Linked.docx").Length, Is.True);
 ```
 
 ### See Also

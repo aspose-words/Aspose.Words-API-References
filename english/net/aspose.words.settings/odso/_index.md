@@ -5,7 +5,7 @@ articleTitle: Odso
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Settings.Odso class for seamless mail merge integration. Optimize your ODSO settings for efficient data source management.
 type: docs
-weight: 6720
+weight: 6710
 url: /net/aspose.words.settings/odso/
 ---
 ## Odso class
@@ -84,8 +84,8 @@ settings.Query = "SELECT * FROM " + doc.MailMergeSettings.DataSource;
 settings.LinkToQuery = true;
 settings.ViewMergedData = true;
 
-Assert.AreEqual(MailMergeDestination.Default, settings.Destination);
-Assert.False(settings.DoNotSupressBlankLines);
+Assert.That(settings.Destination, Is.EqualTo(MailMergeDestination.Default));
+Assert.That(settings.DoNotSupressBlankLines, Is.False);
 
 Odso odso = settings.Odso;
 odso.DataSource = dataSrcFilename;
@@ -93,8 +93,8 @@ odso.DataSourceType = OdsoDataSourceType.Text;
 odso.ColumnDelimiter = '|';
 odso.FirstRowContainsColumnNames = true;
 
-Assert.AreNotSame(odso, odso.Clone());
-Assert.AreNotSame(settings, settings.Clone());
+Assert.That(odso.Clone(), Is.Not.SameAs(odso));
+Assert.That(settings.Clone(), Is.Not.SameAs(settings));
 
 // Opening this document in Microsoft Word will execute the mail merge before displaying the contents. 
 doc.Save(ArtifactsDir + "MailMerge.MailMergeSettings.docx");

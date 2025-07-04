@@ -27,7 +27,7 @@ public void SuppressEndnotes()
     doc.RemoveAllChildren();
 
     // By default, a document compiles all endnotes at its end. 
-    Assert.AreEqual(EndnotePosition.EndOfDocument, doc.EndnoteOptions.Position);
+    Assert.That(doc.EndnoteOptions.Position, Is.EqualTo(EndnotePosition.EndOfDocument));
 
     // We use the "Position" property of the document's "EndnoteOptions" object
     // to collect endnotes at the end of each section instead. 
@@ -58,12 +58,12 @@ private static void InsertSectionWithEndnote(Document doc, string sectionBodyTex
     Body body = new Body(doc);
     section.AppendChild(body);
 
-    Assert.AreEqual(section, body.ParentNode);
+    Assert.That(body.ParentNode, Is.EqualTo(section));
 
     Paragraph para = new Paragraph(doc);
     body.AppendChild(para);
 
-    Assert.AreEqual(body, para.ParentNode);
+    Assert.That(para.ParentNode, Is.EqualTo(body));
 
     DocumentBuilder builder = new DocumentBuilder(doc);
     builder.MoveTo(para);

@@ -47,7 +47,7 @@ public void Callback()
     doc.MailMerge.MailMergeCallback = counter;
     doc.MailMerge.Execute(table);
 
-    Assert.AreEqual(1, counter.TagsReplacedCount);
+    Assert.That(counter.TagsReplacedCount, Is.EqualTo(1));
 }
 
 /// <summary>

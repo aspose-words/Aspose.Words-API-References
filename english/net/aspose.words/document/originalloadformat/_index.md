@@ -27,8 +27,8 @@ Shows how to retrieve details of a document's load operation.
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-Assert.AreEqual(MyDir + "Document.docx", doc.OriginalFileName);
-Assert.AreEqual(LoadFormat.Docx, doc.OriginalLoadFormat);
+Assert.That(doc.OriginalFileName, Is.EqualTo(MyDir + "Document.docx"));
+Assert.That(doc.OriginalLoadFormat, Is.EqualTo(LoadFormat.Docx));
 ```
 
 ### See Also

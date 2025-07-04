@@ -28,7 +28,7 @@ FontSettings fontSettings = new FontSettings();
 // https://www.google.com/get/noto/#sans-lgc
 fontSettings.SetFontsFolder(FontsDir + "Noto", false);
 
-// Note that the predefined settings only use Sans-style Noto fonts with regular weight. 
+// Note that the predefined settings only use Sans-style Noto fonts with regular weight.
 // Some of the Noto fonts use advanced typography features.
 // Fonts featuring advanced typography may not be rendered correctly as Aspose.Words currently do not support them.
 fontSettings.FallbackSettings.LoadNotoFallbackSettings();

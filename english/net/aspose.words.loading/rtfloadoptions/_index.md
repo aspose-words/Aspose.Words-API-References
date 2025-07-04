@@ -5,7 +5,7 @@ articleTitle: RtfLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.RtfLoadOptions to enhance RTF document loading with customizable settings for seamless integration into your projects.
 type: docs
-weight: 4170
+weight: 4160
 url: /net/aspose.words.loading/rtfloadoptions/
 ---
 ## RtfLoadOptions class
@@ -68,13 +68,11 @@ loadOptions.RecognizeUtf8Text = recognizeUtf8Text;
 
 Document doc = new Document(MyDir + "UTF-8 characters.rtf", loadOptions);
 
-Assert.AreEqual(
-    recognizeUtf8Text
+Assert.That(doc.FirstSection.Body.GetText().Trim(), Is.EqualTo(recognizeUtf8Text
         ? "“John Doe´s list of currency symbols”™\r" +
           "€, ¢, £, ¥, ¤"
         : "â€œJohn DoeÂ´s list of currency symbolsâ€\u009dâ„¢\r" +
-          "â‚¬, Â¢, Â£, Â¥, Â¤",
-    doc.FirstSection.Body.GetText().Trim());
+          "â‚¬, Â¢, Â£, Â¥, Â¤"));
 ```
 
 ### See Also

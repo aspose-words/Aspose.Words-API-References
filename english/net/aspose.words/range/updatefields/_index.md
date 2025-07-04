@@ -44,14 +44,14 @@ builder.InsertField(" DOCPROPERTY Category");
 doc.BuiltInDocumentProperties.Category = "MyCategory";
 
 // If we update the value of a document property, we will need to update all the DOCPROPERTY fields to display it.
-Assert.AreEqual(string.Empty, doc.Range.Fields[0].Result);
-Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[0].Result, Is.EqualTo(string.Empty));
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(string.Empty));
 
 // Update all the fields that are in the range of the first section.
 doc.FirstSection.Range.UpdateFields();
 
-Assert.AreEqual("MyCategory", doc.Range.Fields[0].Result);
-Assert.AreEqual(string.Empty, doc.Range.Fields[1].Result);
+Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("MyCategory"));
+Assert.That(doc.Range.Fields[1].Result, Is.EqualTo(string.Empty));
 ```
 
 ### See Also

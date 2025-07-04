@@ -33,11 +33,11 @@ StructuredDocumentTag tag = (StructuredDocumentTag)doc.GetChild(NodeType.Structu
 builder.MoveToStructuredDocumentTag(tag, 1);
 builder.Write(" New text.");
 
-Assert.AreEqual("R New text.ichText", tag.GetText().Trim());
+Assert.That(tag.GetText().Trim(), Is.EqualTo("R New text.ichText"));
 
 // 3 -  Move to the end of the second structured document tag.
 builder.MoveToStructuredDocumentTag(1, -1);
-Assert.True(builder.IsAtEndOfStructuredDocumentTag);
+Assert.That(builder.IsAtEndOfStructuredDocumentTag, Is.True);
 
 // Get currently selected structured document tag.
 builder.CurrentStructuredDocumentTag.Color = Color.Green;

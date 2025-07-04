@@ -5,7 +5,7 @@ articleTitle: Paragraph
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Paragraph class to effortlessly manage and format text paragraphs, enhancing your document processing capabilities.
 type: docs
-weight: 5120
+weight: 5110
 url: /net/aspose.words/paragraph/
 ---
 ## Paragraph class
@@ -154,7 +154,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```

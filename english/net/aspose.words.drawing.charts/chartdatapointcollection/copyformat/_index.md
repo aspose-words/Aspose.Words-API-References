@@ -28,22 +28,22 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 ChartSeries series = shape.Chart.Series[0];
 ChartDataPointCollection dataPoints = series.DataPoints;
 
-Assert.IsTrue(dataPoints.HasDefaultFormat(0));
-Assert.IsFalse(dataPoints.HasDefaultFormat(1));
+Assert.That(dataPoints.HasDefaultFormat(0), Is.True);
+Assert.That(dataPoints.HasDefaultFormat(1), Is.False);
 
 // Copy format of the data point with index 1 to the data point with index 2
 // so that the data point 2 looks the same as the data point 1.
 dataPoints.CopyFormat(0, 1);
 
-Assert.IsTrue(dataPoints.HasDefaultFormat(0));
-Assert.IsTrue(dataPoints.HasDefaultFormat(1));
+Assert.That(dataPoints.HasDefaultFormat(0), Is.True);
+Assert.That(dataPoints.HasDefaultFormat(1), Is.True);
 
 // Copy format of the data point with index 0 to the series defaults so that all data points
 // in the series that have the default format look the same as the data point 0.
 series.CopyFormatFrom(1);
 
-Assert.IsTrue(dataPoints.HasDefaultFormat(0));
-Assert.IsTrue(dataPoints.HasDefaultFormat(1));
+Assert.That(dataPoints.HasDefaultFormat(0), Is.True);
+Assert.That(dataPoints.HasDefaultFormat(1), Is.True);
 
 doc.Save(ArtifactsDir + "Charts.CopyDataPointFormat.docx");
 ```

@@ -33,8 +33,8 @@ doc.FontSettings = fontSettings;
 // This rule will substitute all missing fonts with "Times New Roman".
 DefaultFontSubstitutionRule defaultFontSubstitutionRule =
     fontSettings.SubstitutionSettings.DefaultFontSubstitution;
-Assert.True(defaultFontSubstitutionRule.Enabled);
-Assert.AreEqual("Times New Roman", defaultFontSubstitutionRule.DefaultFontName);
+Assert.That(defaultFontSubstitutionRule.Enabled, Is.True);
+Assert.That(defaultFontSubstitutionRule.DefaultFontName, Is.EqualTo("Times New Roman"));
 
 // Set the default font substitute to "Courier New".
 defaultFontSubstitutionRule.DefaultFontName = "Courier New";
@@ -63,15 +63,15 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 // The font sources that the document uses contain the font "Arial", but not "Arvo".
-Assert.AreEqual(1, fontSources.Length);
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
-Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+Assert.That(fontSources.Length, Is.EqualTo(1));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.False);
 
 // Set the "DefaultFontName" property to "Courier New" to,
-// while rendering the document, apply that font in all cases when another font is not available. 
+// while rendering the document, apply that font in all cases when another font is not available.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"), Is.True);
 
 // Aspose.Words will now use the default font in place of any missing fonts during any rendering calls.
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontName.pdf");

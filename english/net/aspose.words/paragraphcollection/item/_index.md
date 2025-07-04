@@ -40,7 +40,7 @@ Document doc = new Document(MyDir + "Revisions.docx");
 // This document contains "Move" revisions, which appear when we highlight text with the cursor,
 // and then drag it to move it to another location
 // while tracking revisions in Microsoft Word via "Review" -> "Track changes".
-Assert.AreEqual(6, doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving));
+Assert.That(doc.Revisions.Count(r => r.RevisionType == RevisionType.Moving), Is.EqualTo(6));
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
@@ -49,16 +49,16 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 // Before we accept/reject a move revision, the document
 // must keep track of both the departure and arrival destinations of the text.
 // The second and the fourth paragraph define one such revision, and thus both have the same contents.
-Assert.AreEqual(paragraphs[1].GetText(), paragraphs[3].GetText());
+Assert.That(paragraphs[3].GetText(), Is.EqualTo(paragraphs[1].GetText()));
 
 // The "Move from" revision is the paragraph where we dragged the text from.
 // If we accept the revision, this paragraph will disappear,
 // and the other will remain and no longer be a revision.
-Assert.True(paragraphs[1].IsMoveFromRevision);
+Assert.That(paragraphs[1].IsMoveFromRevision, Is.True);
 
 // The "Move to" revision is the paragraph where we dragged the text to.
 // If we reject the revision, this paragraph instead will disappear, and the other will remain.
-Assert.True(paragraphs[3].IsMoveToRevision);
+Assert.That(paragraphs[3].IsMoveToRevision, Is.True);
 ```
 
 ### See Also

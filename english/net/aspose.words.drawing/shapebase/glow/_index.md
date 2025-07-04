@@ -33,15 +33,15 @@ doc.Save(ArtifactsDir + "Shape.Glow.docx");
 doc = new Document(ArtifactsDir + "Shape.Glow.docx");
 shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
-Assert.AreEqual(Color.FromArgb(217, 250, 128, 114).ToArgb(), shape.Glow.Color.ToArgb());
-Assert.AreEqual(30, shape.Glow.Radius);
-Assert.AreEqual(0.15d, shape.Glow.Transparency, 0.01d);
+Assert.That(shape.Glow.Color.ToArgb(), Is.EqualTo(Color.FromArgb(217, 250, 128, 114).ToArgb()));
+Assert.That(shape.Glow.Radius, Is.EqualTo(30));
+Assert.That(shape.Glow.Transparency, Is.EqualTo(0.15d).Within(0.01d));
 
 shape.Glow.Remove();
 
-Assert.AreEqual(Color.Black.ToArgb(), shape.Glow.Color.ToArgb());
-Assert.AreEqual(0, shape.Glow.Radius);
-Assert.AreEqual(0, shape.Glow.Transparency);
+Assert.That(shape.Glow.Color.ToArgb(), Is.EqualTo(Color.Black.ToArgb()));
+Assert.That(shape.Glow.Radius, Is.EqualTo(0));
+Assert.That(shape.Glow.Transparency, Is.EqualTo(0));
 ```
 
 ### See Also

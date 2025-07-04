@@ -25,7 +25,7 @@ Document doc = new Document(MyDir + "Structured document tags.docx");
 
 // This collection provides a unified interface for accessing ranged and non-ranged structured tags. 
 IEnumerable<IStructuredDocumentTag> sdts = doc.Range.StructuredDocumentTags.ToList();
-Assert.AreEqual(5, sdts.Count());
+Assert.That(sdts.Count(), Is.EqualTo(5));
 
 // Here we can get child nodes from the common interface of ranged and non-ranged structured tags.
 foreach (IStructuredDocumentTag sdt in sdts)
@@ -33,7 +33,7 @@ foreach (IStructuredDocumentTag sdt in sdts)
         sdt.RemoveSelfOnly();
 
 sdts = doc.Range.StructuredDocumentTags.ToList();
-Assert.AreEqual(0, sdts.Count());
+Assert.That(sdts.Count(), Is.EqualTo(0));
 ```
 
 ### See Also

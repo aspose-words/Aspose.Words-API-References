@@ -5,7 +5,7 @@ articleTitle: NumSpacing
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.NumSpacing enum to customize numeral spacing for enhanced document formatting. Elevate your text presentation today!
 type: docs
-weight: 5030
+weight: 5020
 url: /net/aspose.words/numspacing/
 ---
 ## NumSpacing enumeration

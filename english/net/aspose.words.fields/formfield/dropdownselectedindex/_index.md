@@ -30,9 +30,9 @@ public void Visitor()
     builder.Write("Choose a value from this combo box: ");
     FormField comboBox = builder.InsertComboBox("MyComboBox", new[] { "One", "Two", "Three" }, 0);
     comboBox.CalculateOnExit = true;
-    Assert.AreEqual(3, comboBox.DropDownItems.Count);
-    Assert.AreEqual(0, comboBox.DropDownSelectedIndex);
-    Assert.True(comboBox.Enabled);
+    Assert.That(comboBox.DropDownItems.Count, Is.EqualTo(3));
+    Assert.That(comboBox.DropDownSelectedIndex, Is.EqualTo(0));
+    Assert.That(comboBox.Enabled, Is.True);
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
@@ -44,9 +44,9 @@ public void Visitor()
     checkBox.OwnHelp = true;
     checkBox.StatusText = "Checkbox status text";
     checkBox.OwnStatus = true;
-    Assert.AreEqual(50.0d, checkBox.CheckBoxSize);
-    Assert.False(checkBox.Checked);
-    Assert.False(checkBox.Default);
+    Assert.That(checkBox.CheckBoxSize, Is.EqualTo(50.0d));
+    Assert.That(checkBox.Checked, Is.False);
+    Assert.That(checkBox.Default, Is.False);
 
     builder.InsertBreak(BreakType.ParagraphBreak);
 
@@ -58,20 +58,20 @@ public void Visitor()
     textInput.TextInputDefault = "Regular";
     textInput.TextInputFormat = "FIRST CAPITAL";
     textInput.SetTextInputValue("New placeholder text");
-    Assert.AreEqual(TextFormFieldType.Regular, textInput.TextInputType);
-    Assert.AreEqual(50, textInput.MaxLength);
+    Assert.That(textInput.TextInputType, Is.EqualTo(TextFormFieldType.Regular));
+    Assert.That(textInput.MaxLength, Is.EqualTo(50));
 
     // This collection contains all our form fields.
     FormFieldCollection formFields = doc.Range.FormFields;
-    Assert.AreEqual(3, formFields.Count);
+    Assert.That(formFields.Count, Is.EqualTo(3));
 
     // Fields display our form fields. We can see their field codes by opening this document
     // in Microsoft and pressing Alt + F9. These fields have no switches,
     // and members of the FormField object fully govern their form fields' content.
-    Assert.AreEqual(3, doc.Range.Fields.Count);
-    Assert.AreEqual(" FORMDROPDOWN \u0001", doc.Range.Fields[0].GetFieldCode());
-    Assert.AreEqual(" FORMCHECKBOX \u0001", doc.Range.Fields[1].GetFieldCode());
-    Assert.AreEqual(" FORMTEXT \u0001", doc.Range.Fields[2].GetFieldCode());
+    Assert.That(doc.Range.Fields.Count, Is.EqualTo(3));
+    Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo(" FORMDROPDOWN \u0001"));
+    Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo(" FORMCHECKBOX \u0001"));
+    Assert.That(doc.Range.Fields[2].GetFieldCode(), Is.EqualTo(" FORMTEXT \u0001"));
 
     // Allow each form field to accept a document visitor.
     FormFieldVisitor formFieldVisitor = new FormFieldVisitor();

@@ -5,7 +5,7 @@ articleTitle: Source
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Bibliography.Source class, your go-to solution for managing individual sources like books, journal articles, and interviews effortlessly.
 type: docs
-weight: 200
+weight: 190
 url: /net/aspose.words.bibliography/source/
 ---
 ## Source class
@@ -88,93 +88,93 @@ Shows how to get bibliography sources available in the document.
 Document document = new Document(MyDir + "Bibliography sources.docx");
 
 Bibliography bibliography = document.Bibliography;
-Assert.AreEqual(12, bibliography.Sources.Count);
+Assert.That(bibliography.Sources.Count, Is.EqualTo(12));
 
 // Get default data from bibliography sources.
 Source source = bibliography.Sources.FirstOrDefault();
-Assert.AreEqual("Book 0 (No LCID)", source.Title);
-Assert.AreEqual(SourceType.Book, source.SourceType);
-Assert.AreEqual(3, source.Contributors.Count());
-Assert.IsNull(source.AbbreviatedCaseNumber);
-Assert.IsNull(source.AlbumTitle);
-Assert.IsNull(source.BookTitle);
-Assert.IsNull(source.Broadcaster);
-Assert.IsNull(source.BroadcastTitle);
-Assert.IsNull(source.CaseNumber);
-Assert.IsNull(source.ChapterNumber);
-Assert.IsNull(source.Comments);
-Assert.IsNull(source.ConferenceName);
-Assert.IsNull(source.CountryOrRegion);
-Assert.IsNull(source.Court);
-Assert.IsNull(source.Day);
-Assert.IsNull(source.DayAccessed);
-Assert.IsNull(source.Department);
-Assert.IsNull(source.Distributor);
-Assert.IsNull(source.Doi);
-Assert.IsNull(source.Edition);
-Assert.IsNull(source.Guid);
-Assert.IsNull(source.Institution);
-Assert.IsNull(source.InternetSiteTitle);
-Assert.IsNull(source.Issue);
-Assert.IsNull(source.JournalName);
-Assert.IsNull(source.Lcid);
-Assert.IsNull(source.Medium);
-Assert.IsNull(source.Month);
-Assert.IsNull(source.MonthAccessed);
-Assert.IsNull(source.NumberVolumes);
-Assert.IsNull(source.Pages);
-Assert.IsNull(source.PatentNumber);
-Assert.IsNull(source.PeriodicalTitle);
-Assert.IsNull(source.ProductionCompany);
-Assert.IsNull(source.PublicationTitle);
-Assert.IsNull(source.Publisher);
-Assert.IsNull(source.RecordingNumber);
-Assert.IsNull(source.RefOrder);
-Assert.IsNull(source.Reporter);
-Assert.IsNull(source.ShortTitle);
-Assert.IsNull(source.StandardNumber);
-Assert.IsNull(source.StateOrProvince);
-Assert.IsNull(source.Station);
-Assert.AreEqual("BookNoLCID", source.Tag);
-Assert.IsNull(source.Theater);
-Assert.IsNull(source.ThesisType);
-Assert.IsNull(source.Type);
-Assert.IsNull(source.Url);
-Assert.IsNull(source.Version);
-Assert.IsNull(source.Volume);
-Assert.IsNull(source.Year);
-Assert.IsNull(source.YearAccessed);
+Assert.That(source.Title, Is.EqualTo("Book 0 (No LCID)"));
+Assert.That(source.SourceType, Is.EqualTo(SourceType.Book));
+Assert.That(source.Contributors.Count(), Is.EqualTo(3));
+Assert.That(source.AbbreviatedCaseNumber, Is.Null);
+Assert.That(source.AlbumTitle, Is.Null);
+Assert.That(source.BookTitle, Is.Null);
+Assert.That(source.Broadcaster, Is.Null);
+Assert.That(source.BroadcastTitle, Is.Null);
+Assert.That(source.CaseNumber, Is.Null);
+Assert.That(source.ChapterNumber, Is.Null);
+Assert.That(source.Comments, Is.Null);
+Assert.That(source.ConferenceName, Is.Null);
+Assert.That(source.CountryOrRegion, Is.Null);
+Assert.That(source.Court, Is.Null);
+Assert.That(source.Day, Is.Null);
+Assert.That(source.DayAccessed, Is.Null);
+Assert.That(source.Department, Is.Null);
+Assert.That(source.Distributor, Is.Null);
+Assert.That(source.Doi, Is.Null);
+Assert.That(source.Edition, Is.Null);
+Assert.That(source.Guid, Is.Null);
+Assert.That(source.Institution, Is.Null);
+Assert.That(source.InternetSiteTitle, Is.Null);
+Assert.That(source.Issue, Is.Null);
+Assert.That(source.JournalName, Is.Null);
+Assert.That(source.Lcid, Is.Null);
+Assert.That(source.Medium, Is.Null);
+Assert.That(source.Month, Is.Null);
+Assert.That(source.MonthAccessed, Is.Null);
+Assert.That(source.NumberVolumes, Is.Null);
+Assert.That(source.Pages, Is.Null);
+Assert.That(source.PatentNumber, Is.Null);
+Assert.That(source.PeriodicalTitle, Is.Null);
+Assert.That(source.ProductionCompany, Is.Null);
+Assert.That(source.PublicationTitle, Is.Null);
+Assert.That(source.Publisher, Is.Null);
+Assert.That(source.RecordingNumber, Is.Null);
+Assert.That(source.RefOrder, Is.Null);
+Assert.That(source.Reporter, Is.Null);
+Assert.That(source.ShortTitle, Is.Null);
+Assert.That(source.StandardNumber, Is.Null);
+Assert.That(source.StateOrProvince, Is.Null);
+Assert.That(source.Station, Is.Null);
+Assert.That(source.Tag, Is.EqualTo("BookNoLCID"));
+Assert.That(source.Theater, Is.Null);
+Assert.That(source.ThesisType, Is.Null);
+Assert.That(source.Type, Is.Null);
+Assert.That(source.Url, Is.Null);
+Assert.That(source.Version, Is.Null);
+Assert.That(source.Volume, Is.Null);
+Assert.That(source.Year, Is.Null);
+Assert.That(source.YearAccessed, Is.Null);
 
 // Also, you can create a new source.
 Source newSource = new Source("New source", SourceType.Misc);
 
 ContributorCollection contributors = source.Contributors;
-Assert.IsNull(contributors.Artist);
-Assert.IsNull(contributors.BookAuthor);
-Assert.IsNull(contributors.Compiler);
-Assert.IsNull(contributors.Composer);
-Assert.IsNull(contributors.Conductor);
-Assert.IsNull(contributors.Counsel);
-Assert.IsNull(contributors.Director);
-Assert.IsNotNull(contributors.Editor);
-Assert.IsNull(contributors.Interviewee);
-Assert.IsNull(contributors.Interviewer);
-Assert.IsNull(contributors.Inventor);
-Assert.IsNull(contributors.Performer);
-Assert.IsNull(contributors.Producer);
-Assert.IsNotNull(contributors.Translator);
-Assert.IsNull(contributors.Writer);
+Assert.That(contributors.Artist, Is.Null);
+Assert.That(contributors.BookAuthor, Is.Null);
+Assert.That(contributors.Compiler, Is.Null);
+Assert.That(contributors.Composer, Is.Null);
+Assert.That(contributors.Conductor, Is.Null);
+Assert.That(contributors.Counsel, Is.Null);
+Assert.That(contributors.Director, Is.Null);
+Assert.That(contributors.Editor, Is.Not.Null);
+Assert.That(contributors.Interviewee, Is.Null);
+Assert.That(contributors.Interviewer, Is.Null);
+Assert.That(contributors.Inventor, Is.Null);
+Assert.That(contributors.Performer, Is.Null);
+Assert.That(contributors.Producer, Is.Null);
+Assert.That(contributors.Translator, Is.Not.Null);
+Assert.That(contributors.Writer, Is.Null);
 
 Contributor editor  = contributors.Editor;
-Assert.AreEqual(2, ((PersonCollection)editor).Count());
+Assert.That(((PersonCollection)editor).Count(), Is.EqualTo(2));
 
 PersonCollection authors = (PersonCollection)contributors.Author;
-Assert.AreEqual(2, authors.Count());
+Assert.That(authors.Count(), Is.EqualTo(2));
 
 Person person = authors[0];
-Assert.AreEqual("Roxanne", person.First);
-Assert.AreEqual("Brielle", person.Middle);
-Assert.AreEqual("Tejeda", person.Last);
+Assert.That(person.First, Is.EqualTo("Roxanne"));
+Assert.That(person.Middle, Is.EqualTo("Brielle"));
+Assert.That(person.Last, Is.EqualTo("Tejeda"));
 ```
 
 ### See Also

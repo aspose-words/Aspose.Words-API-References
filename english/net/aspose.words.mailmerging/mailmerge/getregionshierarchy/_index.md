@@ -37,34 +37,34 @@ MailMergeRegionInfo regionInfo = doc.MailMerge.GetRegionsHierarchy();
 // Get top regions in the document.
 IList<MailMergeRegionInfo> topRegions = regionInfo.Regions;
 
-Assert.AreEqual(2, topRegions.Count);
-Assert.AreEqual("Region1", topRegions[0].Name);
-Assert.AreEqual("Region2", topRegions[1].Name);
-Assert.AreEqual(1, topRegions[0].Level);
-Assert.AreEqual(1, topRegions[1].Level);
+Assert.That(topRegions.Count, Is.EqualTo(2));
+Assert.That(topRegions[0].Name, Is.EqualTo("Region1"));
+Assert.That(topRegions[1].Name, Is.EqualTo("Region2"));
+Assert.That(topRegions[0].Level, Is.EqualTo(1));
+Assert.That(topRegions[1].Level, Is.EqualTo(1));
 
 // Get nested region in first top region.
 IList<MailMergeRegionInfo> nestedRegions = topRegions[0].Regions;
 
-Assert.AreEqual(2, nestedRegions.Count);
-Assert.AreEqual("NestedRegion1", nestedRegions[0].Name);
-Assert.AreEqual("NestedRegion2", nestedRegions[1].Name);
-Assert.AreEqual(2, nestedRegions[0].Level);
-Assert.AreEqual(2, nestedRegions[1].Level);
-Assert.AreEqual(0, nestedRegions[1].MustacheTags.Count);
+Assert.That(nestedRegions.Count, Is.EqualTo(2));
+Assert.That(nestedRegions[0].Name, Is.EqualTo("NestedRegion1"));
+Assert.That(nestedRegions[1].Name, Is.EqualTo("NestedRegion2"));
+Assert.That(nestedRegions[0].Level, Is.EqualTo(2));
+Assert.That(nestedRegions[1].Level, Is.EqualTo(2));
+Assert.That(nestedRegions[1].MustacheTags.Count, Is.EqualTo(0));
 
 // Get list of fields inside the first top region.
 IList<Field> fieldList = topRegions[0].Fields;
 
-Assert.AreEqual(4, fieldList.Count);
+Assert.That(fieldList.Count, Is.EqualTo(4));
 
 FieldMergeField startFieldMergeField = nestedRegions[0].StartField;
 
-Assert.AreEqual("TableStart:NestedRegion1", startFieldMergeField.FieldName);
+Assert.That(startFieldMergeField.FieldName, Is.EqualTo("TableStart:NestedRegion1"));
 
 FieldMergeField endFieldMergeField = nestedRegions[0].EndField;
 
-Assert.AreEqual("TableEnd:NestedRegion1", endFieldMergeField.FieldName);
+Assert.That(endFieldMergeField.FieldName, Is.EqualTo("TableEnd:NestedRegion1"));
 ```
 
 ### See Also

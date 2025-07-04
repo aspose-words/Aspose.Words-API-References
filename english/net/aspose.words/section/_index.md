@@ -5,7 +5,7 @@ articleTitle: Section
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Section class, your key to managing individual document sections effortlessly. Enhance your document editing experience today!
 type: docs
-weight: 6570
+weight: 6560
 url: /net/aspose.words/section/
 ---
 ## Section class
@@ -140,7 +140,7 @@ run.Text = "Hello World!";
 run.Font.Color = Color.Red;
 para.AppendChild(run);
 
-Assert.AreEqual("Hello World!", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Hello World!"));
 
 doc.Save(ArtifactsDir + "Section.CreateManually.docx");
 ```

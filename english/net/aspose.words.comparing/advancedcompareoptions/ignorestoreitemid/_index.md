@@ -33,13 +33,13 @@ CompareOptions compareOptions = new CompareOptions();
 compareOptions.AdvancedOptions.IgnoreStoreItemId = false;
 
 docA.Compare(docB, "user", DateTime.Now, compareOptions);
-Assert.AreEqual(8, docA.Revisions.Count);
+Assert.That(docA.Revisions.Count, Is.EqualTo(8));
 
 compareOptions.AdvancedOptions.IgnoreStoreItemId = true;
 
 docA.Revisions.RejectAll();
 docA.Compare(docB, "user", DateTime.Now, compareOptions);
-Assert.AreEqual(0, docA.Revisions.Count);
+Assert.That(docA.Revisions.Count, Is.EqualTo(0));
 ```
 
 ### See Also

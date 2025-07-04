@@ -5,7 +5,7 @@ articleTitle: TxtLeadingSpacesOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words TxtLeadingSpacesOptions enum for efficient leading space handling when importing text files. Optimize your document processing today!
 type: docs
-weight: 4180
+weight: 4170
 url: /net/aspose.words.loading/txtleadingspacesoptions/
 ---
 ## TxtLeadingSpacesOptions enumeration
@@ -58,41 +58,41 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 switch (txtLeadingSpacesOptions)
 {
     case TxtLeadingSpacesOptions.ConvertToIndent:
-        Assert.AreEqual(37.8d, paragraphs[0].ParagraphFormat.FirstLineIndent);
-        Assert.AreEqual(25.2d, paragraphs[1].ParagraphFormat.FirstLineIndent);
-        Assert.AreEqual(6.3d, paragraphs[2].ParagraphFormat.FirstLineIndent);
+        Assert.That(paragraphs[0].ParagraphFormat.FirstLineIndent, Is.EqualTo(37.8d));
+        Assert.That(paragraphs[1].ParagraphFormat.FirstLineIndent, Is.EqualTo(25.2d));
+        Assert.That(paragraphs[2].ParagraphFormat.FirstLineIndent, Is.EqualTo(6.3d));
 
-        Assert.True(paragraphs[0].GetText().StartsWith("Line 1"));
-        Assert.True(paragraphs[1].GetText().StartsWith("Line 2"));
-        Assert.True(paragraphs[2].GetText().StartsWith("Line 3"));
+        Assert.That(paragraphs[0].GetText().StartsWith("Line 1"), Is.True);
+        Assert.That(paragraphs[1].GetText().StartsWith("Line 2"), Is.True);
+        Assert.That(paragraphs[2].GetText().StartsWith("Line 3"), Is.True);
         break;
     case TxtLeadingSpacesOptions.Preserve:
-        Assert.True(paragraphs.All(p => ((Paragraph)p).ParagraphFormat.FirstLineIndent == 0.0d));
+        Assert.That(paragraphs.All(p => ((Paragraph)p).ParagraphFormat.FirstLineIndent == 0.0d), Is.True);
 
-        Assert.True(paragraphs[0].GetText().StartsWith("      Line 1"));
-        Assert.True(paragraphs[1].GetText().StartsWith("    Line 2"));
-        Assert.True(paragraphs[2].GetText().StartsWith(" Line 3"));
+        Assert.That(paragraphs[0].GetText().StartsWith("      Line 1"), Is.True);
+        Assert.That(paragraphs[1].GetText().StartsWith("    Line 2"), Is.True);
+        Assert.That(paragraphs[2].GetText().StartsWith(" Line 3"), Is.True);
         break;
     case TxtLeadingSpacesOptions.Trim:
-        Assert.True(paragraphs.All(p => ((Paragraph)p).ParagraphFormat.FirstLineIndent == 0.0d));
+        Assert.That(paragraphs.All(p => ((Paragraph)p).ParagraphFormat.FirstLineIndent == 0.0d), Is.True);
 
-        Assert.True(paragraphs[0].GetText().StartsWith("Line 1"));
-        Assert.True(paragraphs[1].GetText().StartsWith("Line 2"));
-        Assert.True(paragraphs[2].GetText().StartsWith("Line 3"));
+        Assert.That(paragraphs[0].GetText().StartsWith("Line 1"), Is.True);
+        Assert.That(paragraphs[1].GetText().StartsWith("Line 2"), Is.True);
+        Assert.That(paragraphs[2].GetText().StartsWith("Line 3"), Is.True);
         break;
 }
 
 switch (txtTrailingSpacesOptions)
 {
     case TxtTrailingSpacesOptions.Preserve:
-        Assert.True(paragraphs[0].GetText().EndsWith("Line 1 \r"));
-        Assert.True(paragraphs[1].GetText().EndsWith("Line 2   \r"));
-        Assert.True(paragraphs[2].GetText().EndsWith("Line 3       \f"));
+        Assert.That(paragraphs[0].GetText().EndsWith("Line 1 \r"), Is.True);
+        Assert.That(paragraphs[1].GetText().EndsWith("Line 2   \r"), Is.True);
+        Assert.That(paragraphs[2].GetText().EndsWith("Line 3       \f"), Is.True);
         break;
     case TxtTrailingSpacesOptions.Trim:
-        Assert.True(paragraphs[0].GetText().EndsWith("Line 1\r"));
-        Assert.True(paragraphs[1].GetText().EndsWith("Line 2\r"));
-        Assert.True(paragraphs[2].GetText().EndsWith("Line 3\f"));
+        Assert.That(paragraphs[0].GetText().EndsWith("Line 1\r"), Is.True);
+        Assert.That(paragraphs[1].GetText().EndsWith("Line 2\r"), Is.True);
+        Assert.That(paragraphs[2].GetText().EndsWith("Line 3\f"), Is.True);
         break;
 }
 ```

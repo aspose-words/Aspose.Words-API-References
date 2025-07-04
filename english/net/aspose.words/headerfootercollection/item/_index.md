@@ -60,8 +60,8 @@ doc.Sections[1].HeadersFooters.LinkToPrevious(true);
 
 // Each section will still have its own header/footer objects. When we link sections,
 // the linking section will display the linked section's header/footers while keeping its own.
-Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0], doc.Sections[1].HeadersFooters[0]);
-Assert.AreNotEqual(doc.Sections[0].HeadersFooters[0].ParentSection, doc.Sections[1].HeadersFooters[0].ParentSection);
+Assert.That(doc.Sections[1].HeadersFooters[0], Is.Not.EqualTo(doc.Sections[0].HeadersFooters[0]));
+Assert.That(doc.Sections[1].HeadersFooters[0].ParentSection, Is.Not.EqualTo(doc.Sections[0].HeadersFooters[0].ParentSection));
 
 // Link the headers/footers of the third section to the headers/footers of the second section.
 // The second section already links to the first section's header/footers,
@@ -77,17 +77,17 @@ doc.Sections[2].HeadersFooters.LinkToPrevious(false);
 doc.Sections[2].HeadersFooters.LinkToPrevious(HeaderFooterType.FooterPrimary, true);
 
 // The first section's header/footers cannot link themselves to anything because there is no previous section.
-Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count);
-Assert.AreEqual(2, doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
+Assert.That(doc.Sections[0].HeadersFooters.Count, Is.EqualTo(2));
+Assert.That(doc.Sections[0].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious), Is.EqualTo(2));
 
 // All the second section's header/footers are linked to the first section's headers/footers.
-Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count);
-Assert.AreEqual(6, doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious));
+Assert.That(doc.Sections[1].HeadersFooters.Count, Is.EqualTo(6));
+Assert.That(doc.Sections[1].HeadersFooters.Count(hf => ((HeaderFooter)hf).IsLinkedToPrevious), Is.EqualTo(6));
 
 // In the third section, only the footer is linked to the first section's footer via the second section.
-Assert.AreEqual(6, doc.Sections[2].HeadersFooters.Count);
-Assert.AreEqual(5, doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious));
-Assert.True(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious);
+Assert.That(doc.Sections[2].HeadersFooters.Count, Is.EqualTo(6));
+Assert.That(doc.Sections[2].HeadersFooters.Count(hf => !((HeaderFooter)hf).IsLinkedToPrevious), Is.EqualTo(5));
+Assert.That(doc.Sections[2].HeadersFooters[3].IsLinkedToPrevious, Is.True);
 
 doc.Save(ArtifactsDir + "HeaderFooter.Link.docx");
 ```
@@ -160,7 +160,7 @@ foreach (Section section in doc.OfType<Section>())
     footer = section.HeadersFooters[HeaderFooterType.FooterEven];
     footer?.Remove();
 
-    Assert.AreEqual(0, section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader));
+    Assert.That(section.HeadersFooters.Count(hf => !((HeaderFooter)hf).IsHeader), Is.EqualTo(0));
 }
 
 doc.Save(ArtifactsDir + "HeaderFooter.RemoveFooters.docx");

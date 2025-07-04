@@ -5,7 +5,7 @@ articleTitle: MetafileRenderingMode
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.Saving.MetafileRenderingMode enhances WMF and EMF metafile rendering for optimal document quality and performance.
 type: docs
-weight: 6070
+weight: 6060
 url: /net/aspose.words.saving/metafilerenderingmode/
 ---
 ## MetafileRenderingMode enumeration
@@ -53,9 +53,8 @@ public void HandleBinaryRasterWarnings()
 
     doc.Save(ArtifactsDir + "PdfSaveOptions.HandleBinaryRasterWarnings.pdf", saveOptions);
 
-    Assert.AreEqual(1, callback.Warnings.Count);
-    Assert.AreEqual("'R2_XORPEN' binary raster operation is not supported.",
-        callback.Warnings[0].Description);
+    Assert.That(callback.Warnings.Count, Is.EqualTo(1));
+    Assert.That(callback.Warnings[0].Description, Is.EqualTo("'R2_XORPEN' binary raster operation is not supported."));
 }
 
 /// <summary>

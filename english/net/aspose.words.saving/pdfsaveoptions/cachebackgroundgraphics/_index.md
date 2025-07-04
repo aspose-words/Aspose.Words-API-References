@@ -41,7 +41,7 @@ doc.Save(ArtifactsDir + "PdfSaveOptions.CacheBackgroundGraphics.pdf", saveOption
 long asposeToPdfSize = new FileInfo(ArtifactsDir + "PdfSaveOptions.CacheBackgroundGraphics.pdf").Length;
 long wordToPdfSize = new FileInfo(MyDir + "Background images (word to pdf).pdf").Length;
 
-Assert.Less(asposeToPdfSize, wordToPdfSize);
+Assert.That(asposeToPdfSize, Is.LessThan(wordToPdfSize));
 ```
 
 ### See Also

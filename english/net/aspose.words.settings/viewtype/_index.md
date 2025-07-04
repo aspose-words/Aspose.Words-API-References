@@ -5,7 +5,7 @@ articleTitle: ViewType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Settings.ViewType enum for Microsoft Word. Unlock flexible view modes to enhance document presentation and user experience.
 type: docs
-weight: 6800
+weight: 6790
 url: /net/aspose.words.settings/viewtype/
 ---
 ## ViewType enumeration
@@ -39,8 +39,8 @@ builder.Writeln("Hello world!");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 
-Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
-Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.Custom));
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.None));
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```

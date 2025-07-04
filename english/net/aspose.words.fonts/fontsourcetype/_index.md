@@ -5,7 +5,7 @@ articleTitle: FontSourceType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fonts.FontSourceType enum for efficient font source management. Optimize your document processing with flexible font options.
 type: docs
-weight: 3420
+weight: 3410
 url: /net/aspose.words.fonts/fontsourcetype/
 ---
 ## FontSourceType enumeration
@@ -37,9 +37,9 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {fileFontSource});
 
-Assert.AreEqual(MyDir + "Alte DIN 1451 Mittelschrift.ttf", fileFontSource.FilePath);
-Assert.AreEqual(FontSourceType.FontFile, fileFontSource.Type);
-Assert.AreEqual(0, fileFontSource.Priority);
+Assert.That(fileFontSource.FilePath, Is.EqualTo(MyDir + "Alte DIN 1451 Mittelschrift.ttf"));
+Assert.That(fileFontSource.Type, Is.EqualTo(FontSourceType.FontFile));
+Assert.That(fileFontSource.Priority, Is.EqualTo(0));
 ```
 
 ### See Also

@@ -37,7 +37,7 @@ for (int i = 0; i < 6; i++)
 PageSetup pageSetup = doc.Sections[0].PageSetup;
 
 // Determine how much space our pages have for text within the margins and then add an amount to pad a margin. 
-Assert.AreEqual(470.30d, pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, 0.01d);
+Assert.That(pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin, Is.EqualTo(470.30d).Within(0.01d));
 
 pageSetup.Gutter = 100.0d;
 

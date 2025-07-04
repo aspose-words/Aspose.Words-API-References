@@ -27,7 +27,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldToc fieldToc = (FieldToc)builder.InsertField(FieldType.FieldTOC, true);
 fieldToc.CaptionlessTableOfFiguresLabel = "Test";
 
-Assert.AreEqual(" TOC  \\a Test", fieldToc.GetFieldCode());
+Assert.That(fieldToc.GetFieldCode(), Is.EqualTo(" TOC  \\a Test"));
 ```
 
 ### See Also

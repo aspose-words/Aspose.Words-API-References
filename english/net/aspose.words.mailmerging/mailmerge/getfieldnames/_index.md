@@ -49,10 +49,10 @@ dataTable.Rows.Add(new object[] { "Joe", "Bloggs", "Washington" });
 // with the same name, and then execute the mail merge. 
 string[] fieldNames = doc.MailMerge.GetFieldNames();
 
-Assert.AreEqual(3, fieldNames.Length);
+Assert.That(fieldNames.Length, Is.EqualTo(3));
 
 foreach (string fieldName in fieldNames)
-    Assert.True(dataTable.Columns.Contains(fieldName));
+    Assert.That(dataTable.Columns.Contains(fieldName), Is.True);
 
 doc.MailMerge.Execute(dataTable);
 ```

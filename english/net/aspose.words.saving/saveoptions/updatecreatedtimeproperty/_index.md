@@ -38,9 +38,9 @@ doc.Save(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx", saveOpt
 doc = new Document(ArtifactsDir + "DocSaveOptions.UpdateCreatedTimeProperty.docx");
 
 if (isUpdateCreatedTimeProperty)
-    Assert.AreNotEqual(createdTime, doc.BuiltInDocumentProperties.CreatedTime);
+    Assert.That(doc.BuiltInDocumentProperties.CreatedTime, Is.Not.EqualTo(createdTime));
 else
-    Assert.AreEqual(createdTime, doc.BuiltInDocumentProperties.CreatedTime);
+    Assert.That(doc.BuiltInDocumentProperties.CreatedTime, Is.EqualTo(createdTime));
 ```
 
 ### See Also

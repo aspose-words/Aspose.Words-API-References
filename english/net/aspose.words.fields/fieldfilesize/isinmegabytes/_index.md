@@ -23,7 +23,7 @@ Shows how to display the file size of a document with a FILESIZE field.
 ```csharp
 Document doc = new Document(MyDir + "Document.docx");
 
-Assert.AreEqual(18105, doc.BuiltInDocumentProperties.Bytes);
+Assert.That(doc.BuiltInDocumentProperties.Bytes, Is.EqualTo(18105));
 
 DocumentBuilder builder = new DocumentBuilder(doc);
 builder.MoveToDocumentEnd();
@@ -35,8 +35,8 @@ builder.InsertParagraph();
 FieldFileSize field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.Update();
 
-Assert.AreEqual(" FILESIZE ", field.GetFieldCode());
-Assert.AreEqual("18105", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" FILESIZE "));
+Assert.That(field.Result, Is.EqualTo("18105"));
 
 // 2 -  Kilobytes:
 builder.InsertParagraph();
@@ -44,8 +44,8 @@ field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInKilobytes = true;
 field.Update();
 
-Assert.AreEqual(" FILESIZE  \\k", field.GetFieldCode());
-Assert.AreEqual("18", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" FILESIZE  \\k"));
+Assert.That(field.Result, Is.EqualTo("18"));
 
 // 3 -  Megabytes:
 builder.InsertParagraph();
@@ -53,8 +53,8 @@ field = (FieldFileSize)builder.InsertField(FieldType.FieldFileSize, true);
 field.IsInMegabytes = true;
 field.Update();
 
-Assert.AreEqual(" FILESIZE  \\m", field.GetFieldCode());
-Assert.AreEqual("0", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" FILESIZE  \\m"));
+Assert.That(field.Result, Is.EqualTo("0"));
 
 // To update the values of these fields while editing in Microsoft Word,
 // we must first save the changes, and then manually update these fields.

@@ -31,11 +31,11 @@ public void LayoutEnumerator()
     // Create an enumerator that can traverse these entities like a tree.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
-    Assert.AreEqual(doc, layoutEnumerator.Document);
+    Assert.That(layoutEnumerator.Document, Is.EqualTo(doc));
 
     layoutEnumerator.MoveParent(LayoutEntityType.Page);
 
-    Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
+    Assert.That(layoutEnumerator.Type, Is.EqualTo(LayoutEntityType.Page));
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
     // We can call this method to make sure that the enumerator will be at the first layout entity.
@@ -197,11 +197,11 @@ public void LayoutEnumerator()
     // Create an enumerator that can traverse these entities like a tree.
     LayoutEnumerator layoutEnumerator = new LayoutEnumerator(doc);
 
-    Assert.AreEqual(doc, layoutEnumerator.Document);
+    Assert.That(layoutEnumerator.Document, Is.EqualTo(doc));
 
     layoutEnumerator.MoveParent(LayoutEntityType.Page);
 
-    Assert.AreEqual(LayoutEntityType.Page, layoutEnumerator.Type);
+    Assert.That(layoutEnumerator.Type, Is.EqualTo(LayoutEntityType.Page));
     Assert.Throws<InvalidOperationException>(() => Console.WriteLine(layoutEnumerator.Text));
 
     // We can call this method to make sure that the enumerator will be at the first layout entity.

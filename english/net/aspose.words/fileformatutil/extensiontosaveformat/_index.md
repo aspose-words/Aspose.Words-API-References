@@ -41,7 +41,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     FileFormatInfo info = FileFormatUtil.DetectFileFormat(docStream);
     LoadFormat loadFormat = info.LoadFormat;
 
-    Assert.AreEqual(LoadFormat.Doc, loadFormat);
+    Assert.That(loadFormat, Is.EqualTo(LoadFormat.Doc));
 
     // Below are two methods of converting a LoadFormat to its corresponding SaveFormat.
     // 1 -  Get the file extension string for the LoadFormat, then get the corresponding SaveFormat from that string:
@@ -54,7 +54,7 @@ using (FileStream docStream = File.OpenRead(MyDir + "Word document with missing 
     // Load a document from the stream, and then save it to the automatically detected file extension.
     Document doc = new Document(docStream);
 
-    Assert.AreEqual(".doc", FileFormatUtil.SaveFormatToExtension(saveFormat));
+    Assert.That(FileFormatUtil.SaveFormatToExtension(saveFormat), Is.EqualTo(".doc"));
 
     doc.Save(ArtifactsDir + "File.SaveToDetectedFileFormat" + FileFormatUtil.SaveFormatToExtension(saveFormat));
 }

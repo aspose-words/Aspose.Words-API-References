@@ -5,7 +5,7 @@ articleTitle: AxisGroup
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.AxisGroup enum, your key to managing chart axis groups effectively for enhanced data visualization.
 type: docs
-weight: 800
+weight: 790
 url: /net/aspose.words.drawing.charts/axisgroup/
 ---
 ## AxisGroup enumeration
@@ -52,7 +52,7 @@ newSeriesGroup.AxisX.Hidden = true;
 newSeriesGroup.AxisY.Title.Show = true;
 newSeriesGroup.AxisY.Title.Text = "Secondary Y axis";
 
-Assert.AreEqual(ChartSeriesType.Line, newSeriesGroup.SeriesType);
+Assert.That(newSeriesGroup.SeriesType, Is.EqualTo(ChartSeriesType.Line));
 
 // Add a series to the new series group.
 ChartSeries series3 =

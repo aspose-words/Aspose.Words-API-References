@@ -5,7 +5,7 @@ articleTitle: CheckBoxControl
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Ole.CheckBoxControl class to easily toggle checkbox values and enhance your document automation with seamless integration.
 type: docs
-weight: 1440
+weight: 1430
 url: /net/aspose.words.drawing.ole/checkboxcontrol/
 ---
 ## CheckBoxControl class
@@ -49,8 +49,8 @@ Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 CheckBoxControl checkBoxControl = (CheckBoxControl)shape.OleFormat.OleControl;
 checkBoxControl.Checked = true;
 
-Assert.AreEqual(true, checkBoxControl.Checked);
-Assert.AreEqual(Forms2OleControlType.CheckBox, checkBoxControl.Type);
+Assert.That(checkBoxControl.Checked, Is.EqualTo(true));
+Assert.That(checkBoxControl.Type, Is.EqualTo(Forms2OleControlType.CheckBox));
 ```
 
 ### See Also

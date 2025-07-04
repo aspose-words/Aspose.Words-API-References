@@ -5,7 +5,7 @@ articleTitle: FieldFormText
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Fields.FieldFormText class for seamless FORMTEXT field implementation. Enhance document automation with powerful features today!
 type: docs
-weight: 2340
+weight: 2330
 url: /net/aspose.words.fields/fieldformtext/
 ---
 ## FieldFormText class
@@ -64,13 +64,13 @@ Shows how to process FORMCHECKBOX, FORMDROPDOWN and FORMTEXT fields.
 Document doc = new Document(MyDir + "Form fields.docx");
 
 FieldFormCheckBox fieldFormCheckBox = (FieldFormCheckBox)doc.Range.Fields[1];
-Assert.AreEqual(" FORMCHECKBOX \u0001", fieldFormCheckBox.GetFieldCode());
+Assert.That(fieldFormCheckBox.GetFieldCode(), Is.EqualTo(" FORMCHECKBOX \u0001"));
 
 FieldFormDropDown fieldFormDropDown = (FieldFormDropDown)doc.Range.Fields[2];
-Assert.AreEqual(" FORMDROPDOWN \u0001", fieldFormDropDown.GetFieldCode());
+Assert.That(fieldFormDropDown.GetFieldCode(), Is.EqualTo(" FORMDROPDOWN \u0001"));
 
 FieldFormText fieldFormText = (FieldFormText)doc.Range.Fields[0];
-Assert.AreEqual(" FORMTEXT \u0001", fieldFormText.GetFieldCode());
+Assert.That(fieldFormText.GetFieldCode(), Is.EqualTo(" FORMTEXT \u0001"));
 ```
 
 ### See Also

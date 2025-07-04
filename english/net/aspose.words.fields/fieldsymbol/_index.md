@@ -5,7 +5,7 @@ articleTitle: FieldSymbol
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldSymbol class for efficient SYMBOL field implementation, enhancing your document processing capabilities.
 type: docs
-weight: 2870
+weight: 2860
 url: /net/aspose.words.fields/fieldsymbol/
 ---
 ## FieldSymbol class
@@ -77,7 +77,7 @@ FieldSymbol field = (FieldSymbol)builder.InsertField(FieldType.FieldSymbol, true
 field.CharacterCode = 0x00a9.ToString();
 field.IsAnsi = true;
 
-Assert.AreEqual(" SYMBOL  169 \\a", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL  169 \\a"));
 
 builder.Writeln(" Line 1");
 
@@ -96,7 +96,7 @@ field.FontSize = "24";
 // We can set this flag for tall symbols to make them not push down the rest of the text on their line.
 field.DontAffectsLineSpacing = true;
 
-Assert.AreEqual(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL  8734 \\u \\f Calibri \\s 24 \\h"));
 
 builder.Writeln("Line 2");
 
@@ -107,7 +107,7 @@ field.FontName = "MS Gothic";
 field.CharacterCode = 0x82A0.ToString();
 field.IsShiftJis = true;
 
-Assert.AreEqual(" SYMBOL  33440 \\f \"MS Gothic\" \\j", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" SYMBOL  33440 \\f \"MS Gothic\" \\j"));
 
 builder.Write("Line 3");
 

@@ -37,7 +37,7 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.BookmarkName = "MainBookmark";
 index.EntryType = "A";
 
-Assert.AreEqual(" INDEX  \\b MainBookmark \\f A", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\b MainBookmark \\f A"));
 
 // On a new page, start the bookmark with a name that matches the value
 // of the INDEX field's "BookmarkName" property.
@@ -50,7 +50,7 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "Index entry 1";
 indexEntry.EntryType = "A";
 
-Assert.AreEqual(" XE  \"Index entry 1\" \\f A", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  \"Index entry 1\" \\f A"));
 
 // Insert an XE field that will not appear in the INDEX because the entry types do not match.
 builder.InsertBreak(BreakType.PageBreak);
@@ -96,7 +96,7 @@ index.NumberOfColumns = "2";
 // Set any entries with starting letters outside the "a-c" character range to be omitted.
 index.LetterRange = "a-c";
 
-Assert.AreEqual(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\z 1033 \\h A \\c 2 \\p a-c"));
 
 // These next two XE fields will show up under the "A" heading,
 // with their respective text stylings also applied to their page numbers.
@@ -105,14 +105,14 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "Apple";
 indexEntry.IsItalic = true;
 
-Assert.AreEqual(" XE  Apple \\i", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  Apple \\i"));
 
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
 indexEntry.Text = "Apricot";
 indexEntry.IsBold = true;
 
-Assert.AreEqual(" XE  Apricot \\b", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  Apricot \\b"));
 
 // Both the next two XE fields will be under a "B" and "C" heading in the INDEX fields table of contents.
 builder.InsertBreak(BreakType.PageBreak);

@@ -5,7 +5,7 @@ articleTitle: FieldTemplate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldTemplate class for seamless TEMPLATE field implementation. Enhance your document processing with powerful features!
 type: docs
-weight: 2900
+weight: 2890
 url: /net/aspose.words.fields/fieldtemplate/
 ---
 ## FieldTemplate class
@@ -68,13 +68,13 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 doc.FieldOptions.TemplateName = string.Empty;
 
 FieldTemplate field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);
-Assert.AreEqual(" TEMPLATE ", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TEMPLATE "));
 
 builder.Writeln();
 field = (FieldTemplate)builder.InsertField(FieldType.FieldTemplate, false);
 field.IncludeFullPath = true;
 
-Assert.AreEqual(" TEMPLATE  \\p", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" TEMPLATE  \\p"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.TEMPLATE.docx");

@@ -5,7 +5,7 @@ articleTitle: CsvDataLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Reporting.CsvDataLoadOptions for efficient CSV data parsing. Optimize your document processing with customizable options today!
 type: docs
-weight: 5400
+weight: 5390
 url: /net/aspose.words.reporting/csvdataloadoptions/
 ---
 ## CsvDataLoadOptions class

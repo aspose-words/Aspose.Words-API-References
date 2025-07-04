@@ -30,30 +30,30 @@ group.Bounds = new RectangleF(100, 100, 500, 500);
 
 // Use the "LocalToParent" method to determine that (0, 0) on the group's internal x and y coordinates
 // lies on (100, 100) of its parent shape's coordinate system. The group shape's parent is the document itself.
-Assert.AreEqual(new PointF(100, 100), group.LocalToParent(new PointF(0, 0)));
+Assert.That(group.LocalToParent(new PointF(0, 0)), Is.EqualTo(new PointF(100, 100)));
 
 // By default, a shape's internal coordinate plane has the top left corner at (0, 0),
 // and the bottom right corner at (1000, 1000). Due to its size, our group shape covers an area of 500pt x 500pt
 // in the document's plane. This means that a movement of 1pt on the document's coordinate plane will translate
 // to a movement of 2pts on the group shape's coordinate plane.
-Assert.AreEqual(new PointF(150, 150), group.LocalToParent(new PointF(100, 100)));
-Assert.AreEqual(new PointF(200, 200), group.LocalToParent(new PointF(200, 200)));
-Assert.AreEqual(new PointF(250, 250), group.LocalToParent(new PointF(300, 300)));
+Assert.That(group.LocalToParent(new PointF(100, 100)), Is.EqualTo(new PointF(150, 150)));
+Assert.That(group.LocalToParent(new PointF(200, 200)), Is.EqualTo(new PointF(200, 200)));
+Assert.That(group.LocalToParent(new PointF(300, 300)), Is.EqualTo(new PointF(250, 250)));
 
 // Move the group shape's x and y axis origin from the top left corner to the center.
 // This will offset the group's internal coordinates relative to the document's coordinates even further.
 group.CoordOrigin = new Point(-250, -250);
 
-Assert.AreEqual(new PointF(375, 375), group.LocalToParent(new PointF(300, 300)));
+Assert.That(group.LocalToParent(new PointF(300, 300)), Is.EqualTo(new PointF(375, 375)));
 
 // Changing the scale of the coordinate plane will also affect relative locations.
 group.CoordSize = new Size(500, 500);
 
-Assert.AreEqual(new PointF(650, 650), group.LocalToParent(new PointF(300, 300)));
+Assert.That(group.LocalToParent(new PointF(300, 300)), Is.EqualTo(new PointF(650, 650)));
 
 // If we wish to add a shape to this group while defining its location based on a location in the document,
 // we will need to first confirm a location in the group shape that will match the document's location.
-Assert.AreEqual(new PointF(700, 700), group.LocalToParent(new PointF(350, 350)));
+Assert.That(group.LocalToParent(new PointF(350, 350)), Is.EqualTo(new PointF(700, 700)));
 
 Shape shape = new Shape(doc, ShapeType.Rectangle)
 {

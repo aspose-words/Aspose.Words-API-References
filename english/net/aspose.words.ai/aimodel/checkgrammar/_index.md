@@ -1,19 +1,19 @@
 ---
-title: IAiModelText.CheckGrammar
+title: AiModel.CheckGrammar
 linktitle: CheckGrammar
 articleTitle: CheckGrammar
 second_title: Aspose.Words for .NET
-description: Enhance your writing with IAiModelText's CheckGrammar method. Effortlessly improve document accuracy using advanced AI grammar checking.
+description: AI-powered grammar checker API for documents. Automatically detect and fix grammar errors in Word files using advanced language models.
 type: docs
-weight: 10
-url: /net/aspose.words.ai/iaimodeltext/checkgrammar/
+weight: 20
+url: /net/aspose.words.ai/aimodel/checkgrammar/
 ---
-## IAiModelText.CheckGrammar method
+## AiModel.CheckGrammar method
 
 Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.
 
 ```csharp
-public Document CheckGrammar(Document sourceDocument, CheckGrammarOptions options = null)
+public virtual Document CheckGrammar(Document sourceDocument, CheckGrammarOptions options = null)
 ```
 
 | Parameter | Type | Description |
@@ -34,7 +34,7 @@ Document doc = new Document(MyDir + "Big document.docx");
 
 string apiKey = Environment.GetEnvironmentVariable("API_KEY");
 // Use OpenAI generative language models.
-IAiModelText model = (OpenAiModel)AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
+AiModel model = AiModel.Create(AiModelType.Gpt4OMini).WithApiKey(apiKey);
 
 CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
 grammarOptions.ImproveStylistics = true;
@@ -47,6 +47,6 @@ proofedDoc.Save(ArtifactsDir + "AI.AiGrammar.docx");
 
 * class [Document](../../../aspose.words/document/)
 * class [CheckGrammarOptions](../../checkgrammaroptions/)
-* interface [IAiModelText](../)
+* class [AiModel](../)
 * namespace [Aspose.Words.AI](../../../aspose.words.ai/)
 * assembly [Aspose.Words](../../../)

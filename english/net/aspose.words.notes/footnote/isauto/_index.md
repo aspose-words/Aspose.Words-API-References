@@ -38,14 +38,14 @@ Footnote footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text
 // If this property is set to "true", then our footnote's reference mark
 // will be its index among all the section's footnotes.
 // This is the first footnote, so the reference mark will be "1".
-Assert.True(footnote.IsAuto);
+Assert.That(footnote.IsAuto, Is.True);
 
 // We can move the document builder inside the footnote to edit its reference text. 
 builder.MoveTo(footnote.FirstParagraph);
 builder.Write(" More text added by a DocumentBuilder.");
 builder.MoveToDocumentEnd();
 
-Assert.AreEqual("\u0002 Footnote text. More text added by a DocumentBuilder.", footnote.GetText().Trim());
+Assert.That(footnote.GetText().Trim(), Is.EqualTo("\u0002 Footnote text. More text added by a DocumentBuilder."));
 
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
@@ -53,14 +53,14 @@ footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 // We can set a custom reference mark which the footnote will use instead of its index number.
 footnote.ReferenceMark = "RefMark";
 
-Assert.False(footnote.IsAuto);
+Assert.That(footnote.IsAuto, Is.False);
 
 // A bookmark with the "IsAuto" flag set to true will still show its real index
 // even if previous bookmarks display custom reference marks, so this bookmark's reference mark will be a "3".
 builder.Write(" More main body text.");
 footnote = builder.InsertFootnote(FootnoteType.Footnote, "Footnote text.");
 
-Assert.True(footnote.IsAuto);
+Assert.That(footnote.IsAuto, Is.True);
 
 doc.Save(ArtifactsDir + "InlineStory.AddFootnote.docx");
 ```

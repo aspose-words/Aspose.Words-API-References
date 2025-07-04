@@ -34,7 +34,7 @@ builder.InsertHyperlink("Relative hyperlink", "Document.docx", false);
 
 // This link is relative. If there is no "Document.docx" in the same folder
 // as the document that contains this link, the link will be broken.
-Assert.False(File.Exists(ArtifactsDir + "Document.docx"));
+Assert.That(File.Exists(ArtifactsDir + "Document.docx"), Is.False);
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 
 // The document we are trying to link to is in a different directory to the one we are planning to save the document in.
@@ -44,7 +44,7 @@ doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.BrokenLink.docx");
 BuiltInDocumentProperties properties = doc.BuiltInDocumentProperties;
 properties.HyperlinkBase = MyDir;
 
-Assert.True(File.Exists(properties.HyperlinkBase + ((FieldHyperlink)doc.Range.Fields[0]).Address));
+Assert.That(File.Exists(properties.HyperlinkBase + ((FieldHyperlink)doc.Range.Fields[0]).Address), Is.True);
 
 doc.Save(ArtifactsDir + "DocumentProperties.HyperlinkBase.WorkingLink.docx");
 ```

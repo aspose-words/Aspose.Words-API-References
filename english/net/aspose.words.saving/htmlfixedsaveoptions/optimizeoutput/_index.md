@@ -28,8 +28,7 @@ HtmlFixedSaveOptions saveOptions = new HtmlFixedSaveOptions { OptimizeOutput = o
 doc.Save(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html", saveOptions);
 
 // The size of the optimized version of the document is almost a third of the size of the unoptimized document.
-Assert.AreEqual(optimizeOutput ? 60385 : 191000,
-    new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, 200);
+Assert.That(new FileInfo(ArtifactsDir + "HtmlFixedSaveOptions.OptimizeGraphicsOutput.html").Length, Is.EqualTo(optimizeOutput ? 60385 : 191000).Within(200));
 ```
 
 ### See Also

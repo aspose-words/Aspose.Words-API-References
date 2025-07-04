@@ -57,7 +57,7 @@ public void GroupOfShapes()
     group.AppendChild(balloon);
     group.AppendChild(cube);
 
-    Assert.True(group.IsGroup);
+    Assert.That(group.IsGroup, Is.True);
 
     builder.InsertNode(group);
 

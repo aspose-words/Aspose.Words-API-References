@@ -31,8 +31,7 @@ Shows how to traverse the document's node tree using the pre-order traversal alg
 ```csharp
 Document doc = new Document(MyDir + "Images.docx");
 
-Assert.AreEqual(9, 
-    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(9));
 
 Node curNode = doc;
 while (curNode != null)
@@ -40,7 +39,7 @@ while (curNode != null)
     Node nextNode = curNode.NextPreOrder(doc);
 
     if (curNode.PreviousPreOrder(doc) != null && nextNode != null)
-        Assert.AreEqual(curNode, nextNode.PreviousPreOrder(doc));
+        Assert.That(nextNode.PreviousPreOrder(doc), Is.EqualTo(curNode));
 
     if (curNode.NodeType == NodeType.Shape && ((Shape)curNode).HasImage)
         curNode.Remove();
@@ -48,8 +47,7 @@ while (curNode != null)
     curNode = nextNode;
 }
 
-Assert.AreEqual(0,
-    doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage));
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().Count(s => s.HasImage), Is.EqualTo(0));
 ```
 
 ### See Also

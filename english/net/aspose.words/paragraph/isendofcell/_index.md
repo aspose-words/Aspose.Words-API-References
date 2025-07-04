@@ -29,7 +29,7 @@ Table table = doc.FirstSection.Body.Tables[0];
 foreach (Cell cell in table.GetChildNodes(NodeType.Cell, true))
     foreach (Paragraph para in cell.Paragraphs)
     {
-        Assert.True(para.IsInCell);
+        Assert.That(para.IsInCell, Is.True);
 
         if (!(cell.ParentRow.IsLastRow && para.IsEndOfCell))
             para.ParagraphFormat.KeepWithNext = true;

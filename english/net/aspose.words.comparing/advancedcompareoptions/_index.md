@@ -5,7 +5,7 @@ articleTitle: AdvancedCompareOptions
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.AdvancedCompareOptions class for powerful document comparison. Customize settings for precise results and enhanced productivity.
 type: docs
-weight: 460
+weight: 450
 url: /net/aspose.words.comparing/advancedcompareoptions/
 ---
 ## AdvancedCompareOptions class
@@ -46,13 +46,13 @@ CompareOptions compareOptions = new CompareOptions();
 compareOptions.AdvancedOptions.IgnoreStoreItemId = false;
 
 docA.Compare(docB, "user", DateTime.Now, compareOptions);
-Assert.AreEqual(8, docA.Revisions.Count);
+Assert.That(docA.Revisions.Count, Is.EqualTo(8));
 
 compareOptions.AdvancedOptions.IgnoreStoreItemId = true;
 
 docA.Revisions.RejectAll();
 docA.Compare(docB, "user", DateTime.Now, compareOptions);
-Assert.AreEqual(0, docA.Revisions.Count);
+Assert.That(docA.Revisions.Count, Is.EqualTo(0));
 ```
 
 ### See Also

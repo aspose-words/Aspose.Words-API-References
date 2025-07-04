@@ -5,7 +5,7 @@ articleTitle: FontFeature
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Shaping.FontFeature enum, detailing glyph usage in fonts for script rendering. Enhance your typography knowledge today!
 type: docs
-weight: 6870
+weight: 6860
 url: /net/aspose.words.shaping/fontfeature/
 ---
 ## FontFeature enumeration

@@ -5,7 +5,7 @@ articleTitle: ChartAxisCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartAxisCollection class, your go-to solution for managing chart axes efficiently and enhancing your document's data visualization.
 type: docs
-weight: 900
+weight: 890
 url: /net/aspose.words.drawing.charts/chartaxiscollection/
 ---
 ## ChartAxisCollection class

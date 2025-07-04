@@ -39,13 +39,13 @@ ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
 if (pageBreakBefore)
 {
-    Assert.AreEqual(1, layoutCollector.GetStartPageIndex(paragraphs[0]));
-    Assert.AreEqual(2, layoutCollector.GetStartPageIndex(paragraphs[1]));
+    Assert.That(layoutCollector.GetStartPageIndex(paragraphs[0]), Is.EqualTo(1));
+    Assert.That(layoutCollector.GetStartPageIndex(paragraphs[1]), Is.EqualTo(2));
 }
 else
 {
-    Assert.AreEqual(1, layoutCollector.GetStartPageIndex(paragraphs[0]));
-    Assert.AreEqual(1, layoutCollector.GetStartPageIndex(paragraphs[1]));
+    Assert.That(layoutCollector.GetStartPageIndex(paragraphs[0]), Is.EqualTo(1));
+    Assert.That(layoutCollector.GetStartPageIndex(paragraphs[1]), Is.EqualTo(1));
 }
 
 doc.Save(ArtifactsDir + "ParagraphFormat.PageBreakBefore.docx");

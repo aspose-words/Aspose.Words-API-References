@@ -29,7 +29,7 @@ Shows how to configure the default font settings instance.
 // as a backup substitute when we attempt to use an unknown font.
 FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.DefaultFontName = "Courier New";
 
-Assert.True(FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.Enabled);
+Assert.That(FontSettings.DefaultInstance.SubstitutionSettings.DefaultFontSubstitution.Enabled, Is.True);
 
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -40,7 +40,7 @@ builder.Write("Hello world!");
 // This document does not have a FontSettings configuration. When we render the document,
 // the default FontSettings instance will resolve the missing font.
 // Aspose.Words will use "Courier New" to render text that uses the unknown font.
-Assert.Null(doc.FontSettings);
+Assert.That(doc.FontSettings, Is.Null);
 
 doc.Save(ArtifactsDir + "FontSettings.DefaultFontInstance.pdf");
 ```
@@ -72,10 +72,10 @@ public void SubstitutionWarning()
 
     FontSettings.DefaultInstance.SetFontsSources(originalFontSources);
 
-    Assert.True(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution);
-    Assert.True(callback.FontSubstitutionWarnings[0].Description
+    Assert.That(callback.FontSubstitutionWarnings[0].WarningType == WarningType.FontSubstitution, Is.True);
+    Assert.That(callback.FontSubstitutionWarnings[0].Description
         .Equals(
-            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."));
+            "Font 'Times New Roman' has not been found. Using 'Fanwood' font instead. Reason: first available font."), Is.True);
 }
 
 private class FontSubstitutionWarningCollector : IWarningCallback

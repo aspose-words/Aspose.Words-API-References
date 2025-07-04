@@ -44,9 +44,9 @@ builder.StartBookmark("MyBookmark");
 builder.Writeln("Hello world!");
 builder.EndBookmark("MyBookmark");
 
-Assert.AreEqual(1, doc.Range.Bookmarks.Count);
-Assert.AreEqual("MyBookmark", doc.Range.Bookmarks[0].Name);
-Assert.AreEqual("Hello world!", doc.Range.Bookmarks[0].Text.Trim());
+Assert.That(doc.Range.Bookmarks.Count, Is.EqualTo(1));
+Assert.That(doc.Range.Bookmarks[0].Name, Is.EqualTo("MyBookmark"));
+Assert.That(doc.Range.Bookmarks[0].Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 Shows how to insert a hyperlink which references a local bookmark.

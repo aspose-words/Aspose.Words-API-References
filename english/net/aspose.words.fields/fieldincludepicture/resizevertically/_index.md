@@ -29,7 +29,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldIncludePicture fieldIncludePicture = (FieldIncludePicture)builder.InsertField(FieldType.FieldIncludePicture, true);
 fieldIncludePicture.SourceFullName = ImageDir + "Transparent background logo.png";
 
-Assert.True(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success);
+Assert.That(Regex.Match(fieldIncludePicture.GetFieldCode(), " INCLUDEPICTURE  .*").Success, Is.True);
 
 // Apply the PNG32.FLT filter.
 fieldIncludePicture.GraphicFilter = "PNG32";
@@ -43,7 +43,7 @@ fieldImport.SourceFullName = ImageDir + "Transparent background logo.png";
 fieldImport.GraphicFilter = "PNG32";
 fieldImport.IsLinked = true;
 
-Assert.True(Regex.Match(fieldImport.GetFieldCode(), " IMPORT  .* \\\\c PNG32 \\\\d").Success);
+Assert.That(Regex.Match(fieldImport.GetFieldCode(), " IMPORT  .* \\\\c PNG32 \\\\d").Success, Is.True);
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.IMPORT.INCLUDEPICTURE.docx");

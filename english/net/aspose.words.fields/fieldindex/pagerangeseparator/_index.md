@@ -36,7 +36,7 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.PageNumberSeparator = ", on page(s) ";
 index.PageRangeSeparator = " to ";
 
-Assert.AreEqual(" INDEX  \\e \", on page(s) \" \\g \" to \"", index.GetFieldCode());
+Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\e \", on page(s) \" \\g \" to \""));
 
 builder.InsertBreak(BreakType.PageBreak);
 FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);
@@ -47,8 +47,8 @@ indexEntry.Text = "My entry";
 // instead of the number of the page that contains the XE field.
 indexEntry.PageRangeBookmarkName = "MyBookmark";
 
-Assert.AreEqual(" XE  \"My entry\" \\r MyBookmark", indexEntry.GetFieldCode());
-Assert.AreEqual("MyBookmark", indexEntry.PageRangeBookmarkName);
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  \"My entry\" \\r MyBookmark"));
+Assert.That(indexEntry.PageRangeBookmarkName, Is.EqualTo("MyBookmark"));
 
 // Insert a bookmark that starts on page 3 and ends on page 5.
 // The INDEX entry for the XE field that references this bookmark will display this page range.

@@ -27,7 +27,7 @@ Shows how to access a document's style collection.
 ```csharp
 Document doc = new Document();
 
-Assert.AreEqual(4, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(4));
 
 // Enumerate and list all the styles that a document created using Aspose.Words contains by default.
 using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
@@ -40,7 +40,7 @@ using (IEnumerator<Style> stylesEnum = doc.Styles.GetEnumerator())
         Console.WriteLine($"\tIs heading:\t\t\t{curStyle.IsHeading}");
         Console.WriteLine($"\tIs QuickStyle:\t\t{curStyle.IsQuickStyle}");
 
-        Assert.AreEqual(doc, curStyle.Document);
+        Assert.That(curStyle.Document, Is.EqualTo(doc));
     }
 }
 ```

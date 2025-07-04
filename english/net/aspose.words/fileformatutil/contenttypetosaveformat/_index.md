@@ -39,38 +39,36 @@ Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToSaveFormat("a
 // Files of the types listed below can be saved, but not loaded using Aspose.Words.
 Assert.Throws<ArgumentException>(() => FileFormatUtil.ContentTypeToLoadFormat("image/jpeg"));
 
-Assert.AreEqual(SaveFormat.Jpeg, FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"));
-Assert.AreEqual(SaveFormat.Png, FileFormatUtil.ContentTypeToSaveFormat("image/png"));
-Assert.AreEqual(SaveFormat.Tiff, FileFormatUtil.ContentTypeToSaveFormat("image/tiff"));
-Assert.AreEqual(SaveFormat.Gif, FileFormatUtil.ContentTypeToSaveFormat("image/gif"));
-Assert.AreEqual(SaveFormat.Emf, FileFormatUtil.ContentTypeToSaveFormat("image/x-emf"));
-Assert.AreEqual(SaveFormat.Xps, FileFormatUtil.ContentTypeToSaveFormat("application/vnd.ms-xpsdocument"));
-Assert.AreEqual(SaveFormat.Pdf, FileFormatUtil.ContentTypeToSaveFormat("application/pdf"));
-Assert.AreEqual(SaveFormat.Svg, FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"));
-Assert.AreEqual(SaveFormat.Epub, FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/jpeg"), Is.EqualTo(SaveFormat.Jpeg));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/png"), Is.EqualTo(SaveFormat.Png));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/tiff"), Is.EqualTo(SaveFormat.Tiff));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/gif"), Is.EqualTo(SaveFormat.Gif));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/x-emf"), Is.EqualTo(SaveFormat.Emf));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("application/vnd.ms-xpsdocument"), Is.EqualTo(SaveFormat.Xps));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("application/pdf"), Is.EqualTo(SaveFormat.Pdf));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("image/svg+xml"), Is.EqualTo(SaveFormat.Svg));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("application/epub+zip"), Is.EqualTo(SaveFormat.Epub));
 
 // For file types that can be saved and loaded, we can match a media type to both a load format and a save format.
-Assert.AreEqual(LoadFormat.Doc, FileFormatUtil.ContentTypeToLoadFormat("application/msword"));
-Assert.AreEqual(SaveFormat.Doc, FileFormatUtil.ContentTypeToSaveFormat("application/msword"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat("application/msword"), Is.EqualTo(LoadFormat.Doc));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("application/msword"), Is.EqualTo(SaveFormat.Doc));
 
-Assert.AreEqual(LoadFormat.Docx,
-    FileFormatUtil.ContentTypeToLoadFormat(
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"));
-Assert.AreEqual(SaveFormat.Docx,
-    FileFormatUtil.ContentTypeToSaveFormat(
-        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat(
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"), Is.EqualTo(LoadFormat.Docx));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat(
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document"), Is.EqualTo(SaveFormat.Docx));
 
-Assert.AreEqual(LoadFormat.Text, FileFormatUtil.ContentTypeToLoadFormat("text/plain"));
-Assert.AreEqual(SaveFormat.Text, FileFormatUtil.ContentTypeToSaveFormat("text/plain"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat("text/plain"), Is.EqualTo(LoadFormat.Text));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("text/plain"), Is.EqualTo(SaveFormat.Text));
 
-Assert.AreEqual(LoadFormat.Rtf, FileFormatUtil.ContentTypeToLoadFormat("application/rtf"));
-Assert.AreEqual(SaveFormat.Rtf, FileFormatUtil.ContentTypeToSaveFormat("application/rtf"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat("application/rtf"), Is.EqualTo(LoadFormat.Rtf));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("application/rtf"), Is.EqualTo(SaveFormat.Rtf));
 
-Assert.AreEqual(LoadFormat.Html, FileFormatUtil.ContentTypeToLoadFormat("text/html"));
-Assert.AreEqual(SaveFormat.Html, FileFormatUtil.ContentTypeToSaveFormat("text/html"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat("text/html"), Is.EqualTo(LoadFormat.Html));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("text/html"), Is.EqualTo(SaveFormat.Html));
 
-Assert.AreEqual(LoadFormat.Mhtml, FileFormatUtil.ContentTypeToLoadFormat("multipart/related"));
-Assert.AreEqual(SaveFormat.Mhtml, FileFormatUtil.ContentTypeToSaveFormat("multipart/related"));
+Assert.That(FileFormatUtil.ContentTypeToLoadFormat("multipart/related"), Is.EqualTo(LoadFormat.Mhtml));
+Assert.That(FileFormatUtil.ContentTypeToSaveFormat("multipart/related"), Is.EqualTo(SaveFormat.Mhtml));
 ```
 
 ### See Also

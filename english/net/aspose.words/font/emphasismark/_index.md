@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 // Possible types of emphasis mark:
 // https://apireference.aspose.com/words/net/aspose.words/emphasismark
-builder.Font.EmphasisMark = emphasisMark; 
+builder.Font.EmphasisMark = emphasisMark;
 
 builder.Write("Emphasis text");
 builder.Writeln();

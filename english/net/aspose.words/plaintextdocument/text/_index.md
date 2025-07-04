@@ -29,7 +29,7 @@ doc.Save(ArtifactsDir + "PlainTextDocument.Load.docx");
 
 PlainTextDocument plaintext = new PlainTextDocument(ArtifactsDir + "PlainTextDocument.Load.docx");
 
-Assert.AreEqual("Hello world!", plaintext.Text.Trim());
+Assert.That(plaintext.Text.Trim(), Is.EqualTo("Hello world!"));
 ```
 
 ### See Also

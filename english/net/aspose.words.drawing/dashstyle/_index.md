@@ -5,7 +5,7 @@ articleTitle: DashStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.DashStyle enum for versatile dashed line styles. Enhance your document designs with customizable visual elements.
 type: docs
-weight: 1250
+weight: 1240
 url: /net/aspose.words.drawing/dashstyle/
 ---
 ## DashStyle enumeration
@@ -56,7 +56,7 @@ arrow.Stroke.EndArrowWidth = ArrowWidth.Wide;
 arrow.Stroke.DashStyle = DashStyle.Dash;
 arrow.Stroke.Opacity = 0.5;
 
-Assert.AreEqual(JoinStyle.Miter, arrow.Stroke.JoinStyle);
+Assert.That(arrow.Stroke.JoinStyle, Is.EqualTo(JoinStyle.Miter));
 
 builder.InsertNode(arrow);
 

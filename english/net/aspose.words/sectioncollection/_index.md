@@ -5,7 +5,7 @@ articleTitle: SectionCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.SectionCollection class—your go-to solution for managing document sections efficiently with powerful features and flexibility.
 type: docs
-weight: 6580
+weight: 6570
 url: /net/aspose.words/sectioncollection/
 ---
 ## SectionCollection class
@@ -57,19 +57,19 @@ builder.Write("Section 1");
 builder.InsertBreak(BreakType.SectionBreakNewPage);
 builder.Write("Section 2");
 
-Assert.AreEqual("Section 1\x000cSection 2", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 1\x000cSection 2"));
 
 // Delete the first section from the document.
 doc.Sections.RemoveAt(0);
 
-Assert.AreEqual("Section 2", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2"));
 
 // Append a copy of what is now the first section to the end of the document.
 int lastSectionIdx = doc.Sections.Count - 1;
 Section newSection = doc.Sections[lastSectionIdx].Clone();
 doc.Sections.Add(newSection);
 
-Assert.AreEqual("Section 2\x000cSection 2", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Section 2\x000cSection 2"));
 ```
 
 ### See Also

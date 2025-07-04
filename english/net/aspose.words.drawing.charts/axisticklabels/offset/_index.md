@@ -58,7 +58,7 @@ xAxis.TickLabels.Position = AxisTickLabelPosition.Low;
 xAxis.TickLabels.IsAutoSpacing = false;
 xAxis.TickMarkSpacing = 1;
 
-Assert.AreEqual(doc, xAxis.Document);
+Assert.That(xAxis.Document, Is.EqualTo(doc));
 
 ChartAxis yAxis = chart.AxisY;
 yAxis.CategoryType = AxisCategoryType.Automatic;
@@ -74,7 +74,7 @@ yAxis.TickLabels.Font.Color = Color.Red;
 yAxis.TickLabels.Spacing = 1;
 
 // Column charts do not have a Z-axis.
-Assert.Null(chart.AxisZ);
+Assert.That(chart.AxisZ, Is.Null);
 
 doc.Save(ArtifactsDir + "Charts.AxisProperties.docx");
 ```

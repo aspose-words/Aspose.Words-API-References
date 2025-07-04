@@ -64,21 +64,21 @@ doc.Save(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html", options);
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels.html");
 
-Assert.AreEqual("Heading #1", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Heading #1"));
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels-01.html");
 
-Assert.AreEqual("Heading #2\r" +
-                "Heading #3", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Heading #2\r" +
+                "Heading #3"));
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels-02.html");
 
-Assert.AreEqual("Heading #4", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Heading #4"));
 
 doc = new Document(ArtifactsDir + "HtmlSaveOptions.HeadingLevels-03.html");
 
-Assert.AreEqual("Heading #5\r" +
-                "Heading #6", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Heading #5\r" +
+                "Heading #6"));
 ```
 
 ### See Also

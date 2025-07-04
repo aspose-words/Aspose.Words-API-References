@@ -38,15 +38,15 @@ Document doc = new Document(MyDir + "Tables.docx");
 Table table = doc.FirstSection.Body.Tables[0];
 NodeCollection allTables = doc.GetChildNodes(NodeType.Table, true);
 
-Assert.AreEqual(0, allTables.IndexOf(table));
+Assert.That(allTables.IndexOf(table), Is.EqualTo(0));
 
 Row row = table.Rows[2];
 
-Assert.AreEqual(2, table.IndexOf(row));
+Assert.That(table.IndexOf(row), Is.EqualTo(2));
 
 Cell cell = row.LastCell;
 
-Assert.AreEqual(4, row.IndexOf(cell));
+Assert.That(row.IndexOf(cell), Is.EqualTo(4));
 ```
 
 ### See Also

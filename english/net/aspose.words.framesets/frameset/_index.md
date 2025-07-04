@@ -5,7 +5,7 @@ articleTitle: Frameset
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Framesets.Frameset class for seamless frame management in documents. Enhance your web pages with efficient frame integration!
 type: docs
-weight: 3510
+weight: 3500
 url: /net/aspose.words.framesets/frameset/
 ---
 ## Frameset class
@@ -44,14 +44,13 @@ Shows how to access frames on-page.
 // Document contains several frames with links to other documents.
 Document doc = new Document(MyDir + "Frameset.docx");
 
-Assert.AreEqual(3, doc.Frameset.ChildFramesets.Count);
+Assert.That(doc.Frameset.ChildFramesets.Count, Is.EqualTo(3));
 // We can check the default URL (a web page URL or local document) or if the frame is an external resource.
-Assert.AreEqual("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx",
-    doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl);
-Assert.True(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile);
+Assert.That(doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl, Is.EqualTo("https://file-examples-com.github.io/uploads/2017/02/file-sample_100kB.docx"));
+Assert.That(doc.Frameset.ChildFramesets[0].ChildFramesets[0].IsFrameLinkToFile, Is.True);
 
-Assert.AreEqual("Document.docx", doc.Frameset.ChildFramesets[1].FrameDefaultUrl);
-Assert.False(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile);
+Assert.That(doc.Frameset.ChildFramesets[1].FrameDefaultUrl, Is.EqualTo("Document.docx"));
+Assert.That(doc.Frameset.ChildFramesets[1].IsFrameLinkToFile, Is.False);
 
 // Change properties for one of our frames.
 doc.Frameset.ChildFramesets[0].ChildFramesets[0].FrameDefaultUrl =

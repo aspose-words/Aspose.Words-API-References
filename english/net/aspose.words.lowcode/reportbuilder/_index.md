@@ -5,7 +5,7 @@ articleTitle: ReportBuilder
 second_title: Aspose.Words for .NET
 description: Effortlessly create dynamic reports with Aspose.Words LowCode ReportBuilder. Utilize LINQ Reporting Engine to fill templates with data seamlessly.
 type: docs
-weight: 4360
+weight: 4350
 url: /net/aspose.words.lowcode/reportbuilder/
 ---
 ## ReportBuilder class

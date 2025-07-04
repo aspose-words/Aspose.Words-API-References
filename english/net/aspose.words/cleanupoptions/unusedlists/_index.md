@@ -31,7 +31,7 @@ doc.Styles.Add(StyleType.Character, "MyParagraphStyle2");
 // Combined with the built-in styles, the document now has eight styles.
 // A custom style is marked as "used" while there is any text within the document
 // formatted in that style. This means that the 4 styles we added are currently unused.
-Assert.AreEqual(8, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(8));
 
 // Apply a custom character style, and then a custom list style. Doing so will mark them as "used".
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -52,14 +52,14 @@ CleanupOptions cleanupOptions = new CleanupOptions
 
 doc.Cleanup(cleanupOptions);
 
-Assert.AreEqual(4, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(4));
 
 // Removing every node that a custom style is applied to marks it as "unused" again. 
 // Rerun the Cleanup method to remove them.
 doc.FirstSection.Body.RemoveAllChildren();
 doc.Cleanup(cleanupOptions);
 
-Assert.AreEqual(2, doc.Styles.Count);
+Assert.That(doc.Styles.Count, Is.EqualTo(2));
 ```
 
 ### See Also

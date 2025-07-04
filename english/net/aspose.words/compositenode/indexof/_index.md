@@ -30,7 +30,7 @@ Document doc = new Document(MyDir + "Rendering.docx");
 Body body = doc.FirstSection.Body;
 
 // Retrieve the index of the last paragraph in the body of the first section.
-Assert.AreEqual(24, body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph));
+Assert.That(body.GetChildNodes(NodeType.Any, false).IndexOf(body.LastParagraph), Is.EqualTo(24));
 ```
 
 ### See Also

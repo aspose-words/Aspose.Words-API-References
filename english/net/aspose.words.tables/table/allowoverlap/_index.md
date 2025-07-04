@@ -27,9 +27,9 @@ Table table = doc.FirstSection.Body.Tables[0];
 
 if (table.TextWrapping == TextWrapping.Around)
 {
-    Assert.AreEqual(RelativeHorizontalPosition.Margin, table.HorizontalAnchor);
-    Assert.AreEqual(RelativeVerticalPosition.Paragraph, table.VerticalAnchor);
-    Assert.AreEqual(false, table.AllowOverlap);
+    Assert.That(table.HorizontalAnchor, Is.EqualTo(RelativeHorizontalPosition.Margin));
+    Assert.That(table.VerticalAnchor, Is.EqualTo(RelativeVerticalPosition.Paragraph));
+    Assert.That(table.AllowOverlap, Is.EqualTo(false));
 
     // Only Margin, Page, Column available in RelativeHorizontalPosition for HorizontalAnchor setter.
     // The ArgumentException will be thrown for any other values.

@@ -27,7 +27,7 @@ public static LoadFormat SaveFormatToLoadFormat(SaveFormat saveFormat)
 Shows how to convert a save format to its corresponding load format.
 
 ```csharp
-Assert.AreEqual(LoadFormat.Html, FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html));
+Assert.That(FileFormatUtil.SaveFormatToLoadFormat(SaveFormat.Html), Is.EqualTo(LoadFormat.Html));
 
 // Some file types can have documents saved to, but not loaded from using Aspose.Words.
 // If we attempt to convert a save format of such a type to a load format, an exception will be thrown.

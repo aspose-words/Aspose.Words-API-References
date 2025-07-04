@@ -5,7 +5,7 @@ articleTitle: FieldDate
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDate class, designed to effortlessly implement DATE fields, enhancing your document automation and formatting.
 type: docs
-weight: 2180
+weight: 2170
 url: /net/aspose.words.fields/fielddate/
 ---
 ## FieldDate class
@@ -71,26 +71,26 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // 1 -  Islamic Lunar Calendar:
 FieldDate field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLunarCalendar = true;
-Assert.AreEqual(" DATE  \\h", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\h"));
 builder.Writeln();
 
 // 2 -  Umm al-Qura calendar:
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseUmAlQuraCalendar = true;
-Assert.AreEqual(" DATE  \\u", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\u"));
 builder.Writeln();
 
 // 3 -  Indian National Calendar:
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseSakaEraCalendar = true;
-Assert.AreEqual(" DATE  \\s", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\s"));
 builder.Writeln();
 
 // Insert a DATE field and set its calendar type to the one last used by the host application.
 // In Microsoft Word, the type will be the most recently used in the Insert -> Text -> Date and Time dialog box.
 field = (FieldDate)builder.InsertField(FieldType.FieldDate, true);
 field.UseLastFormat = true;
-Assert.AreEqual(" DATE  \\l", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" DATE  \\l"));
 builder.Writeln();
 
 doc.UpdateFields();

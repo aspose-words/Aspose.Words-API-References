@@ -5,7 +5,7 @@ articleTitle: RevisionGroup
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.RevisionGroup class, designed to efficiently manage and organize sequential Revision objects for streamlined document editing.
 type: docs
-weight: 5520
+weight: 5510
 url: /net/aspose.words/revisiongroup/
 ---
 ## RevisionGroup class
@@ -33,7 +33,7 @@ Shows how to print info about a group of revisions in a document.
 ```csharp
 Document doc = new Document(MyDir + "Revisions.docx");
 
-Assert.AreEqual(7, doc.Revisions.Groups.Count);
+Assert.That(doc.Revisions.Groups.Count, Is.EqualTo(7));
 
 foreach (RevisionGroup group in doc.Revisions.Groups)
 {

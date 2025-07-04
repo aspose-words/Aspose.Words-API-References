@@ -39,7 +39,7 @@ builder.Write("Run 4. ");
 // may occur when we manually edit parts of one paragraph many times in Microsoft Word.
 Paragraph para = builder.CurrentParagraph;
 
-Assert.AreEqual(4, para.Runs.Count);
+Assert.That(para.Runs.Count, Is.EqualTo(4));
 
 // Change the style of the last run to set it apart from the first three.
 para.Runs[3].Font.StyleIdentifier = StyleIdentifier.Emphasis;
@@ -49,13 +49,13 @@ para.Runs[3].Font.StyleIdentifier = StyleIdentifier.Emphasis;
 // This method also returns the number of runs that this method merged.
 // These two merges occurred to combine Runs #1, #2, and #3,
 // while leaving out Run #4 because it has an incompatible style.
-Assert.AreEqual(2, para.JoinRunsWithSameFormatting());
+Assert.That(para.JoinRunsWithSameFormatting(), Is.EqualTo(2));
 
 // The number of runs left will equal the original count
 // minus the number of run merges that the "JoinRunsWithSameFormatting" method carried out.
-Assert.AreEqual(2, para.Runs.Count);
-Assert.AreEqual("Run 1. Run 2. Run 3. ", para.Runs[0].Text);
-Assert.AreEqual("Run 4. ", para.Runs[1].Text);
+Assert.That(para.Runs.Count, Is.EqualTo(2));
+Assert.That(para.Runs[0].Text, Is.EqualTo("Run 1. Run 2. Run 3. "));
+Assert.That(para.Runs[1].Text, Is.EqualTo("Run 4. "));
 ```
 
 ### See Also

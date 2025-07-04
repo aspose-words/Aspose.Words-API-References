@@ -5,7 +5,7 @@ articleTitle: FieldRef
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldRef class for seamless REF field implementation. Enhance document automation and streamline your workflow today!
 type: docs
-weight: 2740
+weight: 2730
 url: /net/aspose.words.fields/fieldref/
 ---
 ## FieldRef class
@@ -78,15 +78,15 @@ fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
 fieldSet.Update();
 
-Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
+Assert.That(fieldSet.GetFieldCode(), Is.EqualTo(" SET  MyBookmark \"Hello world!\""));
 
 // Refer to the bookmark by name in a REF field and display its contents.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
 
-Assert.AreEqual(" REF  MyBookmark", fieldRef.GetFieldCode());
-Assert.AreEqual("Hello world!", fieldRef.Result);
+Assert.That(fieldRef.GetFieldCode(), Is.EqualTo(" REF  MyBookmark"));
+Assert.That(fieldRef.Result, Is.EqualTo("Hello world!"));
 
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```
@@ -115,26 +115,26 @@ public void FieldRef()
     field.IncludeNoteOrComment = true;
     field.InsertHyperlink = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\f \\h", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\f \\h"));
 
     // Insert a REF field, and display whether the referenced bookmark is above or below it.
     field = InsertFieldRef(builder, "MyBookmark", "The referenced paragraph is ", " this field.\n");
     field.InsertRelativePosition = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\p", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\p"));
 
     // Display the list number of the bookmark as it appears in the document.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number is ", "\n");
     field.InsertParagraphNumber = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\n", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\n"));
 
     // Display the bookmark's list number, but with non-delimiter characters, such as the angle brackets, omitted.
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's paragraph number, non-delimiters suppressed, is ", "\n");
     field.InsertParagraphNumber = true;
     field.SuppressNonDelimiters = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\n \\t", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\n \\t"));
 
     // Move down one list level.
     builder.ListFormat.ListLevelNumber++;
@@ -144,7 +144,7 @@ public void FieldRef()
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's full context paragraph number is ", "\n");
     field.InsertParagraphNumberInFullContext = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\w", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\w"));
 
     builder.InsertBreak(BreakType.PageBreak);
 
@@ -152,7 +152,7 @@ public void FieldRef()
     field = InsertFieldRef(builder, "MyBookmark", "The bookmark's relative paragraph number is ", "\n");
     field.InsertParagraphNumberInRelativeContext = true;
 
-    Assert.AreEqual(" REF  MyBookmark \\r", field.GetFieldCode());
+    Assert.That(field.GetFieldCode(), Is.EqualTo(" REF  MyBookmark \\r"));
 
     // At the end of the document, the bookmark will show up as a list item here.
     builder.Writeln("List level above bookmark");

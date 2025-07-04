@@ -24,14 +24,14 @@ Shows how to use MACROBUTTON fields to allow us to run a document's macros by cl
 Document doc = new Document(MyDir + "Macro.docm");
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Assert.IsTrue(doc.HasMacros);
+Assert.That(doc.HasMacros, Is.True);
 
 // Insert a MACROBUTTON field, and reference one of the document's macros by name in the MacroName property.
 FieldMacroButton field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "MyMacro";
 field.DisplayText = "Double click to run macro: " + field.MacroName;
 
-Assert.AreEqual(" MACROBUTTON  MyMacro Double click to run macro: MyMacro", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MACROBUTTON  MyMacro Double click to run macro: MyMacro"));
 
 // Use the property to reference "ViewZoom200", a macro that ships with Microsoft Word.
 // We can find all other macros via View -> Macros (dropdown) -> View Macros.
@@ -43,7 +43,7 @@ field = (FieldMacroButton)builder.InsertField(FieldType.FieldMacroButton, true);
 field.MacroName = "ViewZoom200";
 field.DisplayText = "Run " + field.MacroName;
 
-Assert.AreEqual(" MACROBUTTON  ViewZoom200 Run ViewZoom200", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MACROBUTTON  ViewZoom200 Run ViewZoom200"));
 
 // Save the document as a macro-enabled document type.
 doc.Save(ArtifactsDir + "Field.MACROBUTTON.docm");

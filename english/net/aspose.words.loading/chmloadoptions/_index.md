@@ -5,7 +5,7 @@ articleTitle: ChmLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Loading.ChmLoadOptions for enhanced CHM document loading. Customize your Document object with flexible options for optimal results.
 type: docs
-weight: 4020
+weight: 4010
 url: /net/aspose.words.loading/chmloadoptions/
 ---
 ## ChmLoadOptions class

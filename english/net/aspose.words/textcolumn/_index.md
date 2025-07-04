@@ -5,7 +5,7 @@ articleTitle: TextColumn
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TextColumn class for managing text columns in your documents. Easily access and customize each column in your text section.
 type: docs
-weight: 7250
+weight: 7240
 url: /net/aspose.words/textcolumn/
 ---
 ## TextColumn class
@@ -47,7 +47,7 @@ columns.SetCount(2);
 // Determine the amount of room that we have available for arranging columns.
 double contentWidth = pageSetup.PageWidth - pageSetup.LeftMargin - pageSetup.RightMargin;
 
-Assert.AreEqual(470.30d, contentWidth, 0.01d);
+Assert.That(contentWidth, Is.EqualTo(470.30d).Within(0.01d));
 
 // Set the first column to be narrow.
 TextColumn column = columns[0];

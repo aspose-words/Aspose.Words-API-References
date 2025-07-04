@@ -5,7 +5,7 @@ articleTitle: MarkdownLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.MarkdownLoadOptions to enhance your Markdown document loading experience. Customize options for seamless integration into your projects.
 type: docs
-weight: 4120
+weight: 4110
 url: /net/aspose.words.loading/markdownloadoptions/
 ---
 ## MarkdownLoadOptions class
@@ -63,7 +63,7 @@ using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(mdText)))
     MarkdownLoadOptions loadOptions = new MarkdownLoadOptions() { PreserveEmptyLines = true };
     Document doc = new Document(stream, loadOptions);
 
-    Assert.AreEqual("\rLine1\r\rLine2\r\f", doc.GetText());
+    Assert.That(doc.GetText(), Is.EqualTo("\rLine1\r\rLine2\r\f"));
 }
 ```
 

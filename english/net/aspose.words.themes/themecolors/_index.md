@@ -5,7 +5,7 @@ articleTitle: ThemeColors
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ThemeColors class, featuring a versatile 12-color scheme to enhance your document's visual appeal and consistency.
 type: docs
-weight: 7340
+weight: 7330
 url: /net/aspose.words.themes/themecolors/
 ---
 ## ThemeColors class
@@ -50,10 +50,10 @@ theme.MajorFonts.Latin = "Courier New";
 theme.MinorFonts.Latin = "Agency FB";
 
 // Other languages may also have their custom fonts in this theme.
-Assert.AreEqual(string.Empty, theme.MajorFonts.ComplexScript);
-Assert.AreEqual(string.Empty, theme.MajorFonts.EastAsian);
-Assert.AreEqual(string.Empty, theme.MinorFonts.ComplexScript);
-Assert.AreEqual(string.Empty, theme.MinorFonts.EastAsian);
+Assert.That(theme.MajorFonts.ComplexScript, Is.EqualTo(string.Empty));
+Assert.That(theme.MajorFonts.EastAsian, Is.EqualTo(string.Empty));
+Assert.That(theme.MinorFonts.ComplexScript, Is.EqualTo(string.Empty));
+Assert.That(theme.MinorFonts.EastAsian, Is.EqualTo(string.Empty));
 
 // The "Colors" property contains the color palette from Microsoft Word,
 // which appears when changing shading or font color.

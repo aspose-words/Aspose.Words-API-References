@@ -29,7 +29,7 @@ Document doc = new Document(MyDir + "Embedded font rights.docx");
 
 // Get the list of document fonts.
 FontInfoCollection fontInfos = doc.FontInfos;
-foreach (FontInfo fontInfo in fontInfos) 
+foreach (FontInfo fontInfo in fontInfos)
 {
     if (fontInfo.EmbeddingLicensingRights != null)
     {

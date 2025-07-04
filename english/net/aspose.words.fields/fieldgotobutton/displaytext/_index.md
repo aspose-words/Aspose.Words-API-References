@@ -30,7 +30,7 @@ FieldGoToButton field = (FieldGoToButton)builder.InsertField(FieldType.FieldGoTo
 field.DisplayText = "My Button";
 field.Location = "MyBookmark";
 
-Assert.AreEqual(" GOTOBUTTON  MyBookmark My Button", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" GOTOBUTTON  MyBookmark My Button"));
 
 // Insert a valid bookmark for the field to reference.
 builder.InsertBreak(BreakType.PageBreak);

@@ -25,7 +25,7 @@ DocumentBuilder builder = new DocumentBuilder();
 
 CommandButtonControl button1 = new CommandButtonControl();
 Shape shape = builder.InsertForms2OleControl(button1);
-Assert.AreEqual(Forms2OleControlType.CommandButton, button1.Type);
+Assert.That(button1.Type, Is.EqualTo(Forms2OleControlType.CommandButton));
 ```
 
 ### See Also

@@ -41,9 +41,8 @@ public void MergeWholeDocument(bool mergeWholeDocument)
     // if we set the "MergeWholeDocument" flag to "true".
     doc.Save(ArtifactsDir + "MailMerge.MergeWholeDocument.docx");
 
-    Assert.True(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."));
-    Assert.AreEqual(mergeWholeDocument, 
-        doc.GetText().Contains("This QUOTE field is outside of the \"MyTable\" merge region."));
+    Assert.That(doc.GetText().Contains("This QUOTE field is inside the \"MyTable\" merge region."), Is.True);
+    Assert.That(doc.GetText().Contains("This QUOTE field is outside of the \"MyTable\" merge region."), Is.EqualTo(mergeWholeDocument));
 }
 
 /// <summary>

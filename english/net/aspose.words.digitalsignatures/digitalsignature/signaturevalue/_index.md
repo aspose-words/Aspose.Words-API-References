@@ -26,9 +26,9 @@ Document doc = new Document(MyDir + "Digitally signed.docx");
 foreach (DigitalSignature digitalSignature in doc.DigitalSignatures)
 {
     string signatureValue = Convert.ToBase64String(digitalSignature.SignatureValue);
-    Assert.AreEqual("K1cVLLg2kbJRAzT5WK+m++G8eEO+l7S+5ENdjMxxTXkFzGUfvwxREuJdSFj9AbD" +
+    Assert.That(signatureValue, Is.EqualTo("K1cVLLg2kbJRAzT5WK+m++G8eEO+l7S+5ENdjMxxTXkFzGUfvwxREuJdSFj9AbD" +
         "MhnGvDURv9KEhC25DDF1al8NRVR71TF3CjHVZXpYu7edQS5/yLw/k5CiFZzCp1+MmhOdYPcVO+Fm" +
-        "+9fKr2iNLeyYB+fgEeZHfTqTFM2WwAqo=", signatureValue);
+        "+9fKr2iNLeyYB+fgEeZHfTqTFM2WwAqo="));
 }
 ```
 

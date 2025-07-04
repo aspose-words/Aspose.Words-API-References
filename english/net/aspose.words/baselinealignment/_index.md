@@ -5,7 +5,7 @@ articleTitle: BaselineAlignment
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.BaselineAlignment enum for precise font positioning. Enhance your document formatting with optimal vertical alignment options.
 type: docs
-weight: 130
+weight: 120
 url: /net/aspose.words/baselinealignment/
 ---
 ## BaselineAlignment enumeration

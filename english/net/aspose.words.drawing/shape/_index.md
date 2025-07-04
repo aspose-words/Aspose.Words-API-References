@@ -5,7 +5,7 @@ articleTitle: Shape
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Shape class for creating versatile drawing objects like AutoShapes, text boxes, and images effortlessly in your projects.
 type: docs
-weight: 1640
+weight: 1630
 url: /net/aspose.words.drawing/shape/
 ---
 ## Shape class
@@ -200,7 +200,7 @@ Document doc = new Document(MyDir + "Images.docx");
 // and save the image data of every shape with an image as a file to the local file system.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 
-Assert.AreEqual(9, shapes.Count(s => ((Shape)s).HasImage));
+Assert.That(shapes.Count(s => ((Shape)s).HasImage), Is.EqualTo(9));
 
 int imageIndex = 0;
 foreach (Shape shape in shapes.OfType<Shape>())
@@ -240,23 +240,23 @@ subShape.Top = 0;
 group.AppendChild(subShape);
 builder.InsertNode(group);
 
-Assert.AreEqual(3, doc.GetChildNodes(NodeType.Shape, true).Count);
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.GroupShape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(3));
+Assert.That(doc.GetChildNodes(NodeType.GroupShape, true).Count, Is.EqualTo(1));
 
 // Remove all Shape nodes from the document.
 NodeCollection shapes = doc.GetChildNodes(NodeType.Shape, true);
 shapes.Clear();
 
 // All shapes are gone, but the group shape is still in the document.
-Assert.AreEqual(1, doc.GetChildNodes(NodeType.GroupShape, true).Count);
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.GroupShape, true).Count, Is.EqualTo(1));
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
 
 // Remove all group shapes separately.
 NodeCollection groupShapes = doc.GetChildNodes(NodeType.GroupShape, true);
 groupShapes.Clear();
 
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.GroupShape, true).Count);
-Assert.AreEqual(0, doc.GetChildNodes(NodeType.Shape, true).Count);
+Assert.That(doc.GetChildNodes(NodeType.GroupShape, true).Count, Is.EqualTo(0));
+Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(0));
 ```
 
 ### See Also

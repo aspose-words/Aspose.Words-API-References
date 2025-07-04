@@ -44,17 +44,17 @@ builder.Write("Paragraph 3");
 
 NodeCollection paras = doc.GetChildNodes(NodeType.Paragraph, true);
 
-Assert.AreEqual(0, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(0));
 
-List docList = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
+List list = doc.Lists.Add(ListTemplate.NumberUppercaseLetterDot);
 
 foreach (Paragraph paragraph in paras.OfType<Paragraph>())
 {
-    paragraph.ListFormat.List = docList;
+    paragraph.ListFormat.List = list;
     paragraph.ListFormat.ListLevelNumber = 1;
 }
 
-Assert.AreEqual(3, paras.Count(n => ((Paragraph)n).ListFormat.IsListItem));
+Assert.That(paras.Count(n => ((Paragraph)n).ListFormat.IsListItem), Is.EqualTo(3));
 ```
 
 Shows how to restart numbering in a list by copying a list.
@@ -102,7 +102,7 @@ Shows how to work with list levels.
 Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
-Assert.False(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 // A list allows us to organize and decorate sets of paragraphs with prefix symbols and indents.
 // We can create nested lists by increasing the indent level. 
@@ -113,7 +113,7 @@ Assert.False(builder.ListFormat.IsListItem);
 // Numbered lists create a logical order for their paragraphs by numbering each item.
 builder.ListFormat.List = doc.Lists.Add(ListTemplate.NumberDefault);
 
-Assert.True(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.True);
 
 // By setting the "ListLevelNumber" property, we can increase the list level
 // to begin a self-contained sub-list at the current list item.
@@ -139,7 +139,7 @@ for (int i = 0; i < 9; i++)
 // We can disable list formatting to not format any subsequent paragraphs as lists by un-setting the "List" flag.
 builder.ListFormat.List = null;
 
-Assert.False(builder.ListFormat.IsListItem);
+Assert.That(builder.ListFormat.IsListItem, Is.False);
 
 doc.Save(ArtifactsDir + "Lists.SpecifyListLevel.docx");
 ```
@@ -190,10 +190,10 @@ Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
 
-Assert.True(list1.IsListStyleDefinition);
-Assert.False(list1.IsListStyleReference);
-Assert.True(list1.IsMultiLevel);
-Assert.AreEqual(listStyle, list1.Style);
+Assert.That(list1.IsListStyleDefinition, Is.True);
+Assert.That(list1.IsListStyleReference, Is.False);
+Assert.That(list1.IsMultiLevel, Is.True);
+Assert.That(list1.Style, Is.EqualTo(listStyle));
 
 // Change the appearance of all list levels in our list.
 foreach (ListLevel level in list1.ListLevels)
@@ -210,9 +210,9 @@ builder.Writeln("Using list style first time:");
 // Create another list from a list within a style.
 List list2 = doc.Lists.Add(listStyle);
 
-Assert.False(list2.IsListStyleDefinition);
-Assert.True(list2.IsListStyleReference);
-Assert.AreEqual(listStyle, list2.Style);
+Assert.That(list2.IsListStyleDefinition, Is.False);
+Assert.That(list2.IsListStyleReference, Is.True);
+Assert.That(list2.Style, Is.EqualTo(listStyle));
 
 // Add some list items that our list will format.
 builder.ListFormat.List = list2;

@@ -50,13 +50,13 @@ dstDoc.FirstSection.Body.Paragraphs[1].AppendChild(importedTextBox);
 
 if (ignoreTextBoxes)
 {
-    Assert.AreEqual(12.0d, importedTextBox.FirstParagraph.Runs[0].Font.Size);
-    Assert.AreEqual("Times New Roman", importedTextBox.FirstParagraph.Runs[0].Font.Name);
+    Assert.That(importedTextBox.FirstParagraph.Runs[0].Font.Size, Is.EqualTo(12.0d));
+    Assert.That(importedTextBox.FirstParagraph.Runs[0].Font.Name, Is.EqualTo("Times New Roman"));
 }
 else
 {
-    Assert.AreEqual(24.0d, importedTextBox.FirstParagraph.Runs[0].Font.Size);
-    Assert.AreEqual("Courier New", importedTextBox.FirstParagraph.Runs[0].Font.Name);
+    Assert.That(importedTextBox.FirstParagraph.Runs[0].Font.Size, Is.EqualTo(24.0d));
+    Assert.That(importedTextBox.FirstParagraph.Runs[0].Font.Name, Is.EqualTo("Courier New"));
 }
 
 dstDoc.Save(ArtifactsDir + "DocumentBuilder.IgnoreTextBoxes.docx");

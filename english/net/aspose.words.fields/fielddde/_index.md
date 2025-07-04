@@ -5,7 +5,7 @@ articleTitle: FieldDde
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDde class for seamless DDE field implementation. Enhance your document automation with powerful features today!
 type: docs
-weight: 2190
+weight: 2180
 url: /net/aspose.words.fields/fielddde/
 ---
 ## FieldDde class

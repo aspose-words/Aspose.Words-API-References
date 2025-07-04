@@ -31,13 +31,13 @@ Document doc = new Document(MyDir + "Math shapes.docx", loadOptions);
 
 if (isConvertShapeToOfficeMath)
 {
-    Assert.AreEqual(16, doc.GetChildNodes(NodeType.Shape, true).Count);
-    Assert.AreEqual(34, doc.GetChildNodes(NodeType.OfficeMath, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(16));
+    Assert.That(doc.GetChildNodes(NodeType.OfficeMath, true).Count, Is.EqualTo(34));
 }
 else
 {
-    Assert.AreEqual(24, doc.GetChildNodes(NodeType.Shape, true).Count);
-    Assert.AreEqual(0, doc.GetChildNodes(NodeType.OfficeMath, true).Count);
+    Assert.That(doc.GetChildNodes(NodeType.Shape, true).Count, Is.EqualTo(24));
+    Assert.That(doc.GetChildNodes(NodeType.OfficeMath, true).Count, Is.EqualTo(0));
 }
 ```
 

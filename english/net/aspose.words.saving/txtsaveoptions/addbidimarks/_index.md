@@ -47,13 +47,13 @@ string docText = System.Text.Encoding.Unicode.GetString(File.ReadAllBytes(Artifa
 
 if (addBidiMarks)
 {
-    Assert.AreEqual("\uFEFFHello world!‎\r\nשלום עולם!‏\r\nمرحبا بالعالم!‏\r\n\r\n", docText);
-    Assert.True(docText.Contains("\u200f"));
+    Assert.That(docText, Is.EqualTo("\uFEFFHello world!‎\r\nשלום עולם!‏\r\nمرحبا بالعالم!‏\r\n\r\n"));
+    Assert.That(docText.Contains("\u200f"), Is.True);
 }
 else
 {
-    Assert.AreEqual("\uFEFFHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n", docText);
-    Assert.False(docText.Contains("\u200f"));
+    Assert.That(docText, Is.EqualTo("\uFEFFHello world!\r\nשלום עולם!\r\nمرحبا بالعالم!\r\n\r\n"));
+    Assert.That(docText.Contains("\u200f"), Is.False);
 }
 ```
 

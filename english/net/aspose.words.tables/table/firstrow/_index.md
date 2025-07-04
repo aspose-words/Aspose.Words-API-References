@@ -25,8 +25,8 @@ Document doc = new Document(MyDir + "Tables.docx");
 
 TableCollection tables = doc.FirstSection.Body.Tables;
 
-Assert.AreEqual(5, tables[0].Rows.Count);
-Assert.AreEqual(4, tables[1].Rows.Count);
+Assert.That(tables[0].Rows.Count, Is.EqualTo(5));
+Assert.That(tables[1].Rows.Count, Is.EqualTo(4));
 
 foreach (Table table in tables.OfType<Table>())
 {
@@ -34,8 +34,8 @@ foreach (Table table in tables.OfType<Table>())
     table.LastRow?.Remove();
 }
 
-Assert.AreEqual(3, tables[0].Rows.Count);
-Assert.AreEqual(2, tables[1].Rows.Count);
+Assert.That(tables[0].Rows.Count, Is.EqualTo(3));
+Assert.That(tables[1].Rows.Count, Is.EqualTo(2));
 ```
 
 Shows how to combine the rows from two tables into one.

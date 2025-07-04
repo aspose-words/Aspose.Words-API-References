@@ -43,14 +43,14 @@ para.AppendChild(new Run(doc, "Hello world!"));
 // 1 -  Create a clone of a node, and create a clone of each of its child nodes as well.
 Node cloneWithChildren = para.Clone(true);
 
-Assert.IsTrue(((CompositeNode)cloneWithChildren).HasChildNodes);
-Assert.AreEqual("Hello world!", cloneWithChildren.GetText().Trim());
+Assert.That(((CompositeNode)cloneWithChildren).HasChildNodes, Is.True);
+Assert.That(cloneWithChildren.GetText().Trim(), Is.EqualTo("Hello world!"));
 
 // 2 -  Create a clone of a node just by itself without any children.
 Node cloneWithoutChildren = para.Clone(false);
 
-Assert.IsFalse(((CompositeNode)cloneWithoutChildren).HasChildNodes);
-Assert.AreEqual(string.Empty, cloneWithoutChildren.GetText().Trim());
+Assert.That(((CompositeNode)cloneWithoutChildren).HasChildNodes, Is.False);
+Assert.That(cloneWithoutChildren.GetText().Trim(), Is.EqualTo(string.Empty));
 ```
 
 ### See Also

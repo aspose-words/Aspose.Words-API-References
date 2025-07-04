@@ -5,7 +5,7 @@ articleTitle: CssStyleSheetType
 second_title: Aspose.Words for .NET
 description: Discover how Aspose.Words.CssStyleSheetType enhances HTML export by optimizing CSS styles for better web presentation and performance.
 type: docs
-weight: 5630
+weight: 5620
 url: /net/aspose.words.saving/cssstylesheettype/
 ---
 ## CssStyleSheetType enumeration
@@ -67,13 +67,13 @@ private class CustomCssSavingCallback : ICssSavingCallback
     public void CssSaving(CssSavingArgs args)
     {
         // We can access the entire source document via the "Document" property.
-        Assert.True(args.Document.OriginalFileName.EndsWith("Rendering.docx"));
+        Assert.That(args.Document.OriginalFileName.EndsWith("Rendering.docx"), Is.True);
 
         args.CssStream = new FileStream(mCssTextFileName, FileMode.Create);
         args.IsExportNeeded = mIsExportNeeded;
         args.KeepCssStreamOpen = mKeepCssStreamOpen;
 
-        Assert.True(args.CssStream.CanWrite);
+        Assert.That(args.CssStream.CanWrite, Is.True);
     }
 
     private readonly string mCssTextFileName;

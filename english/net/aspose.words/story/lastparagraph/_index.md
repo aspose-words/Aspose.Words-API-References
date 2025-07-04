@@ -36,13 +36,13 @@ builder.MoveTo(doc.FirstSection.Body.FirstParagraph.Runs[0]);
 // Adding a second run will insert it in front of the first run.
 builder.Writeln("Run 2. ");
 
-Assert.AreEqual("Run 2. \rRun 1.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Run 2. \rRun 1."));
 
 // Move the cursor to the end of the document to continue appending text to the end as before.
 builder.MoveTo(doc.LastSection.Body.LastParagraph);
 builder.Writeln("Run 3. ");
 
-Assert.AreEqual("Run 2. \rRun 1. \rRun 3.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Run 2. \rRun 1. \rRun 3."));
 ```
 
 ### See Also

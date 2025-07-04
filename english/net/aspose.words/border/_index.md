@@ -5,7 +5,7 @@ articleTitle: Border
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Border class, your go-to solution for customizing object borders in documents. Enhance your projects with precision and style!
 type: docs
-weight: 270
+weight: 260
 url: /net/aspose.words/border/
 ---
 ## Border class

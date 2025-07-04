@@ -33,8 +33,8 @@ OptionButtonControl optionButton2 = (OptionButtonControl)shape2.OleFormat.OleCon
 // Select second option button.
 optionButton2.Selected = true;
 
-Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton1.Type);
-Assert.AreEqual(Forms2OleControlType.OptionButton, optionButton2.Type);
+Assert.That(optionButton1.Type, Is.EqualTo(Forms2OleControlType.OptionButton));
+Assert.That(optionButton2.Type, Is.EqualTo(Forms2OleControlType.OptionButton));
 
 doc.Save(ArtifactsDir + "Shape.SelectRadioControl.docx");
 ```

@@ -5,7 +5,7 @@ articleTitle: MarkdownEmptyParagraphExportMode
 second_title: Aspose.Words for .NET
 description: Learn how Aspose.Words handles empty paragraphs in Markdown export. Control formatting with MarkdownEmptyParagraphExportMode enum.
 type: docs
-weight: 6010
+weight: 6000
 url: /net/aspose.words.saving/markdownemptyparagraphexportmode/
 ---
 ## MarkdownEmptyParagraphExportMode enumeration
@@ -45,13 +45,13 @@ string result = File.ReadAllText(ArtifactsDir + "MarkdownSaveOptions.EmptyParagr
 switch (exportMode)
 {
     case MarkdownEmptyParagraphExportMode.None:
-        Assert.AreEqual("First\r\n\r\nLast\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\r\nLast\r\n"));
         break;
     case MarkdownEmptyParagraphExportMode.EmptyLine:
-        Assert.AreEqual("First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\r\n\r\n\r\n\r\nLast\r\n\r\n"));
         break;
     case MarkdownEmptyParagraphExportMode.MarkdownHardLineBreak:
-        Assert.AreEqual("First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n", result);
+        Assert.That(result, Is.EqualTo("First\r\n\\\r\n\\\r\n\\\r\n\\\r\n\\\r\nLast\r\n<br>\r\n"));
         break;
 }
 ```

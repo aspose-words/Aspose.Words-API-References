@@ -5,7 +5,7 @@ articleTitle: HtmlLoadOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Loading.HtmlLoadOptions to enhance HTML document loading into a Document object with customizable options for optimal performance.
 type: docs
-weight: 4070
+weight: 4060
 url: /net/aspose.words.loading/htmlloadoptions/
 ---
 ## HtmlLoadOptions class
@@ -78,9 +78,9 @@ loadOptions.SupportVml = supportVml;
 Document doc = new Document(MyDir + "VML conditional.htm", loadOptions);
 
 if (supportVml)
-    Assert.AreEqual(ImageType.Jpeg, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType);
+    Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType, Is.EqualTo(ImageType.Jpeg));
 else
-    Assert.AreEqual(ImageType.Png, ((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType);
+    Assert.That(((Shape)doc.GetChild(NodeType.Shape, 0, true)).ImageData.ImageType, Is.EqualTo(ImageType.Png));
 ```
 
 ### See Also

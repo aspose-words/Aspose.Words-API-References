@@ -49,9 +49,9 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt", txtSaveOptions)
 string docText = File.ReadAllText(ArtifactsDir + "TxtSaveOptions.TxtListIndentation.txt");
 string newLine= Environment.NewLine;
 
-Assert.AreEqual($"1. Item 1{newLine}" +
+Assert.That(docText, Is.EqualTo($"1. Item 1{newLine}" +
                 $"   a. Item 2{newLine}" +
-                $"      i. Item 3{newLine}", docText);
+                $"      i. Item 3{newLine}"));
 ```
 
 ### See Also

@@ -5,7 +5,7 @@ articleTitle: ChartDataLabelLocationMode
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.ChartDataLabelLocationMode enum to effectively customize data label positioning with intuitive Left and Top property settings.
 type: docs
-weight: 950
+weight: 940
 url: /net/aspose.words.drawing.charts/chartdatalabellocationmode/
 ---
 ## ChartDataLabelLocationMode enumeration

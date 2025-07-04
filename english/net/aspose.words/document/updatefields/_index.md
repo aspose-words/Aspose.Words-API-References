@@ -42,7 +42,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 FieldQuote field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 field.Text = "\"Quoted text\"";
 
-Assert.AreEqual(" QUOTE  \"\\\"Quoted text\\\"\"", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" QUOTE  \"\\\"Quoted text\\\"\""));
 
 // Insert a QUOTE field and nest a DATE field inside it.
 // DATE fields update their value to the current date every time we open the document using Microsoft Word.
@@ -53,12 +53,12 @@ field = (FieldQuote)builder.InsertField(FieldType.FieldQuote, true);
 builder.MoveTo(field.Separator);
 builder.InsertField(FieldType.FieldDate, true);
 
-Assert.AreEqual(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo(" QUOTE \u0013 DATE \u0014" + DateTime.Now.Date.ToShortDateString() + "\u0015"));
 
 // Update all the fields to display their correct results.
 doc.UpdateFields();
 
-Assert.AreEqual("\"Quoted text\"", doc.Range.Fields[0].Result);
+Assert.That(doc.Range.Fields[0].Result, Is.EqualTo("\"Quoted text\""));
 
 doc.Save(ArtifactsDir + "Field.QUOTE.docx");
 ```
@@ -80,9 +80,9 @@ doc.FieldOptions.CurrentUser = userInformation;
 
 // Insert USERNAME, USERINITIALS, and USERADDRESS fields, which display values of
 // the respective properties of the UserInformation object that we have created above. 
-Assert.AreEqual(userInformation.Name, builder.InsertField(" USERNAME ").Result);
-Assert.AreEqual(userInformation.Initials, builder.InsertField(" USERINITIALS ").Result);
-Assert.AreEqual(userInformation.Address, builder.InsertField(" USERADDRESS ").Result);
+Assert.That(builder.InsertField(" USERNAME ").Result, Is.EqualTo(userInformation.Name));
+Assert.That(builder.InsertField(" USERINITIALS ").Result, Is.EqualTo(userInformation.Initials));
+Assert.That(builder.InsertField(" USERADDRESS ").Result, Is.EqualTo(userInformation.Address));
 
 // The field options object also has a static default user that fields from all documents can refer to.
 UserInformation.DefaultUser.Name = "Default User";
@@ -90,9 +90,9 @@ UserInformation.DefaultUser.Initials = "D. U.";
 UserInformation.DefaultUser.Address = "One Microsoft Way";
 doc.FieldOptions.CurrentUser = UserInformation.DefaultUser;
 
-Assert.AreEqual("Default User", builder.InsertField(" USERNAME ").Result);
-Assert.AreEqual("D. U.", builder.InsertField(" USERINITIALS ").Result);
-Assert.AreEqual("One Microsoft Way", builder.InsertField(" USERADDRESS ").Result);
+Assert.That(builder.InsertField(" USERNAME ").Result, Is.EqualTo("Default User"));
+Assert.That(builder.InsertField(" USERINITIALS ").Result, Is.EqualTo("D. U."));
+Assert.That(builder.InsertField(" USERADDRESS ").Result, Is.EqualTo("One Microsoft Way"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "FieldOptions.CurrentUser.docx");

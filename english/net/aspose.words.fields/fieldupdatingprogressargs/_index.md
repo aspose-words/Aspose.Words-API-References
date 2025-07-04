@@ -5,7 +5,7 @@ articleTitle: FieldUpdatingProgressArgs
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldUpdatingProgressArgs class, which enhances your document automation by providing real-time updates on field progress.
 type: docs
-weight: 2980
+weight: 2970
 url: /net/aspose.words.fields/fieldupdatingprogressargs/
 ---
 ## FieldUpdatingProgressArgs class
@@ -46,7 +46,7 @@ public void FieldUpdatingCallbackTest()
 
     doc.UpdateFields();
 
-    Assert.True(callback.FieldUpdatedCalls.Contains("Updating John Doe"));
+    Assert.That(callback.FieldUpdatedCalls.Contains("Updating John Doe"), Is.True);
 }
 
 /// <summary>

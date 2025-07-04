@@ -27,14 +27,14 @@ Shows how to remove all macros from a document.
 ```csharp
 Document doc = new Document(MyDir + "Macro.docm");
 
-Assert.IsTrue(doc.HasMacros);
-Assert.AreEqual("Project", doc.VbaProject.Name);
+Assert.That(doc.HasMacros, Is.True);
+Assert.That(doc.VbaProject.Name, Is.EqualTo("Project"));
 
 // Remove the document's VBA project, along with all its macros.
 doc.RemoveMacros();
 
-Assert.IsFalse(doc.HasMacros);
-Assert.Null(doc.VbaProject);
+Assert.That(doc.HasMacros, Is.False);
+Assert.That(doc.VbaProject, Is.Null);
 ```
 
 ### See Also

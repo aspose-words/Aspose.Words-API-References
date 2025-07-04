@@ -38,11 +38,11 @@ builder.Writeln("The quick brown fox jumps over the lazy dog.");
 FontSourceBase[] fontSources = FontSettings.DefaultInstance.GetFontsSources();
 
 // The default font sources contain the first font that the document uses.
-Assert.AreEqual(1, fontSources.Length);
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"));
+Assert.That(fontSources.Length, Is.EqualTo(1));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arial"), Is.True);
 
 // The second font, "Amethysta", is unavailable.
-Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"));
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Amethysta"), Is.False);
 
 // We can configure a font substitution table which determines
 // which fonts Aspose.Words will use as substitutes for unavailable fonts.
@@ -52,11 +52,11 @@ doc.FontSettings = new FontSettings();
 doc.FontSettings.SubstitutionSettings.TableSubstitution.SetSubstitutes(
     "Amethysta", new[] {"Arvo", "Courier New"});
 
-// "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo". 
-Assert.False(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"));
+// "Amethysta" is unavailable, and the substitution rule states that the first font to use as a substitute is "Arvo".
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Arvo"), Is.False);
 
-// "Arvo" is also unavailable, but "Courier New" is. 
-Assert.True(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"));
+// "Arvo" is also unavailable, but "Courier New" is.
+Assert.That(fontSources[0].GetAvailableFonts().Any(f => f.FullFontName == "Courier New"), Is.True);
 
 // The output document will display the text that uses the "Amethysta" font formatted with "Courier New".
 doc.Save(ArtifactsDir + "FontSettings.TableSubstitution.pdf");

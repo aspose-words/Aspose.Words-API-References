@@ -28,10 +28,10 @@ Document doc = new Document();
 doc.FontSettings = new FontSettings();
 doc.FontSettings.SetFontsSources(new FontSourceBase[] {folderFontSource});
 
-Assert.AreEqual(FontsDir, folderFontSource.FolderPath);
-Assert.AreEqual(false, folderFontSource.ScanSubfolders);
-Assert.AreEqual(FontSourceType.FontsFolder, folderFontSource.Type);
-Assert.AreEqual(1, folderFontSource.Priority);
+Assert.That(folderFontSource.FolderPath, Is.EqualTo(FontsDir));
+Assert.That(folderFontSource.ScanSubfolders, Is.EqualTo(false));
+Assert.That(folderFontSource.Type, Is.EqualTo(FontSourceType.FontsFolder));
+Assert.That(folderFontSource.Priority, Is.EqualTo(1));
 ```
 
 ### See Also

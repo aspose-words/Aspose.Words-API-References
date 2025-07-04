@@ -36,10 +36,10 @@ Style listStyle = doc.Styles.Add(StyleType.List, "MyListStyle");
 
 List list1 = listStyle.List;
 
-Assert.True(list1.IsListStyleDefinition);
-Assert.False(list1.IsListStyleReference);
-Assert.True(list1.IsMultiLevel);
-Assert.AreEqual(listStyle, list1.Style);
+Assert.That(list1.IsListStyleDefinition, Is.True);
+Assert.That(list1.IsListStyleReference, Is.False);
+Assert.That(list1.IsMultiLevel, Is.True);
+Assert.That(list1.Style, Is.EqualTo(listStyle));
 
 // Change the appearance of all list levels in our list.
 foreach (ListLevel level in list1.ListLevels)
@@ -56,9 +56,9 @@ builder.Writeln("Using list style first time:");
 // Create another list from a list within a style.
 List list2 = doc.Lists.Add(listStyle);
 
-Assert.False(list2.IsListStyleDefinition);
-Assert.True(list2.IsListStyleReference);
-Assert.AreEqual(listStyle, list2.Style);
+Assert.That(list2.IsListStyleDefinition, Is.False);
+Assert.That(list2.IsListStyleReference, Is.True);
+Assert.That(list2.Style, Is.EqualTo(listStyle));
 
 // Add some list items that our list will format.
 builder.ListFormat.List = list2;

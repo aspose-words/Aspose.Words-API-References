@@ -30,19 +30,19 @@ Document doc = new Document(MyDir + "Revision shape.docx");
 // but until we accept or reject the move revision, there will be two instances of that shape.
 Shape[] shapes = doc.GetChildNodes(NodeType.Shape, true).OfType<Shape>().ToArray();
 
-Assert.AreEqual(2, shapes.Length);
+Assert.That(shapes.Length, Is.EqualTo(2));
 
 // This is the "Move to" revision, which is the shape at its arrival destination.
 // If we accept the revision, this "Move to" revision shape will disappear,
 // and the "Move from" revision shape will remain.
-Assert.False(shapes[0].IsMoveFromRevision);
-Assert.True(shapes[0].IsMoveToRevision);
+Assert.That(shapes[0].IsMoveFromRevision, Is.False);
+Assert.That(shapes[0].IsMoveToRevision, Is.True);
 
 // This is the "Move from" revision, which is the shape at its original location.
 // If we accept the revision, this "Move from" revision shape will disappear,
 // and the "Move to" revision shape will remain.
-Assert.True(shapes[1].IsMoveFromRevision);
-Assert.False(shapes[1].IsMoveToRevision);
+Assert.That(shapes[1].IsMoveFromRevision, Is.True);
+Assert.That(shapes[1].IsMoveToRevision, Is.False);
 ```
 
 ### See Also

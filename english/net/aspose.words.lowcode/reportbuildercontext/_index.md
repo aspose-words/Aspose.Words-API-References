@@ -5,7 +5,7 @@ articleTitle: ReportBuilderContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words LowCode ReportBuilderContext class for seamless document generation with LINQ Reporting Engine. Enhance your workflow today.
 type: docs
-weight: 4370
+weight: 4360
 url: /net/aspose.words.lowcode/reportbuildercontext/
 ---
 ## ReportBuilderContext class

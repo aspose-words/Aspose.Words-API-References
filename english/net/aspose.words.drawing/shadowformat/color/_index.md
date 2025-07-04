@@ -25,8 +25,8 @@ Document doc = new Document(MyDir + "Shadow color.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 ShadowFormat shadowFormat = shape.ShadowFormat;
 
-Assert.AreEqual(Color.Red.ToArgb(), shadowFormat.Color.ToArgb());
-Assert.AreEqual(ShadowType.ShadowMixed, shadowFormat.Type);
+Assert.That(shadowFormat.Color.ToArgb(), Is.EqualTo(Color.Red.ToArgb()));
+Assert.That(shadowFormat.Type, Is.EqualTo(ShadowType.ShadowMixed));
 ```
 
 ### See Also

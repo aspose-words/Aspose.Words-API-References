@@ -5,7 +5,7 @@ articleTitle: ColumnStripe
 second_title: Aspose.Words for .NET
 description: Discover the TableStyle ColumnStripe property to easily customize odd/even column banding for a polished, professional look in your tables.
 type: docs
-weight: 70
+weight: 60
 url: /net/aspose.words/tablestyle/columnstripe/
 ---
 ## TableStyle.ColumnStripe property
@@ -59,8 +59,7 @@ tableStyle.ConditionalStyles[ConditionalStyleType.EvenColumnBanding].Shading.Bac
 table.Style = tableStyle;
 
 // The "StyleOptions" property enables row banding by default.
-Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands,
-    table.StyleOptions);
+Assert.That(table.StyleOptions, Is.EqualTo(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands));
 
 // Use the "StyleOptions" property also to enable column banding.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.ColumnBands;

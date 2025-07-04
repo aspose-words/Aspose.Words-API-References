@@ -33,7 +33,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 Field field = builder.InsertField("DATE", null);
 
 // Aspose.Words automatically detects field types based on field codes.
-Assert.AreEqual(FieldType.FieldDate, field.Type);
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
 
 // Manually change the raw text of the field, which determines the field code.
 Run fieldText = (Run)doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Run, true)[0];
@@ -41,19 +41,19 @@ fieldText.Text = "PAGE";
 
 // Changing the field code has changed this field to one of a different type,
 // but the field's type properties still display the old type.
-Assert.AreEqual("PAGE", field.GetFieldCode());
-Assert.AreEqual(FieldType.FieldDate, field.Type);
-Assert.AreEqual(FieldType.FieldDate, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldDate, field.Separator.FieldType);
-Assert.AreEqual(FieldType.FieldDate, field.End.FieldType);
+Assert.That(field.GetFieldCode(), Is.EqualTo("PAGE"));
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.Start.FieldType, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.Separator.FieldType, Is.EqualTo(FieldType.FieldDate));
+Assert.That(field.End.FieldType, Is.EqualTo(FieldType.FieldDate));
 
 // Update those properties with this method to display current value.
 doc.NormalizeFieldTypes();
 
-Assert.AreEqual(FieldType.FieldPage, field.Type);
-Assert.AreEqual(FieldType.FieldPage, field.Start.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.Separator.FieldType);
-Assert.AreEqual(FieldType.FieldPage, field.End.FieldType);
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldPage));
+Assert.That(field.Start.FieldType, Is.EqualTo(FieldType.FieldPage));
+Assert.That(field.Separator.FieldType, Is.EqualTo(FieldType.FieldPage));
+Assert.That(field.End.FieldType, Is.EqualTo(FieldType.FieldPage));
 ```
 
 ### See Also

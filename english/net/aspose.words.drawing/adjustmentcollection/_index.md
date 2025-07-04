@@ -5,7 +5,7 @@ articleTitle: AdjustmentCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.AdjustmentCollection class—your solution for managing readonly adjustment values for shapes. Enhance your document designs effortlessly!
 type: docs
-weight: 710
+weight: 700
 url: /net/aspose.words.drawing/adjustmentcollection/
 ---
 ## AdjustmentCollection class
@@ -32,11 +32,11 @@ Document doc = new Document(MyDir + "Rounded rectangle shape.docx");
 Shape shape = (Shape)doc.GetChild(NodeType.Shape, 0, true);
 
 AdjustmentCollection adjustments = shape.Adjustments;
-Assert.AreEqual(1, adjustments.Count);
+Assert.That(adjustments.Count, Is.EqualTo(1));
 
 Adjustment adjustment = adjustments[0];
-Assert.AreEqual("adj", adjustment.Name);
-Assert.AreEqual(16667, adjustment.Value);
+Assert.That(adjustment.Name, Is.EqualTo("adj"));
+Assert.That(adjustment.Value, Is.EqualTo(16667));
 
 adjustment.Value = 30000;
 

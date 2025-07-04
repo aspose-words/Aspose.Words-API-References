@@ -33,7 +33,7 @@ builder.InsertField("MERGEFIELD myMergeField", null);
 doc.MailMerge.TrimWhitespaces = trimWhitespaces;
 doc.MailMerge.Execute(new[] { "myMergeField" }, new object[] { "\t hello world! " });
 
-Assert.AreEqual(trimWhitespaces ? "hello world!\f" : "\t hello world! \f", doc.GetText());
+Assert.That(doc.GetText(), Is.EqualTo(trimWhitespaces ? "hello world!\f" : "\t hello world! \f"));
 ```
 
 ### See Also

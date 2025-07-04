@@ -41,17 +41,17 @@ public void InsertTextPaths()
     shape.TextPath.Italic = true;
 
     // Below are various other text formatting-related properties.
-    Assert.False(shape.TextPath.Underline);
-    Assert.False(shape.TextPath.Shadow);
-    Assert.False(shape.TextPath.StrikeThrough);
-    Assert.False(shape.TextPath.ReverseRows);
-    Assert.False(shape.TextPath.XScale);
-    Assert.False(shape.TextPath.Trim);
-    Assert.False(shape.TextPath.SmallCaps);
+    Assert.That(shape.TextPath.Underline, Is.False);
+    Assert.That(shape.TextPath.Shadow, Is.False);
+    Assert.That(shape.TextPath.StrikeThrough, Is.False);
+    Assert.That(shape.TextPath.ReverseRows, Is.False);
+    Assert.That(shape.TextPath.XScale, Is.False);
+    Assert.That(shape.TextPath.Trim, Is.False);
+    Assert.That(shape.TextPath.SmallCaps, Is.False);
 
-    Assert.AreEqual(36.0, shape.TextPath.Size);
-    Assert.AreEqual("Hello World! This text is bold, and italic.", shape.TextPath.Text);
-    Assert.AreEqual(ShapeType.TextPlainText, shape.ShapeType);
+    Assert.That(shape.TextPath.Size, Is.EqualTo(36.0));
+    Assert.That(shape.TextPath.Text, Is.EqualTo("Hello World! This text is bold, and italic."));
+    Assert.That(shape.ShapeType, Is.EqualTo(ShapeType.TextPlainText));
 
     // Use the "On" property to show/hide the text.
     shape = AppendWordArt(doc, "On set to \"true\"", "Calibri", 150, 24, Color.Yellow, Color.Red, ShapeType.TextPlainText);
@@ -81,7 +81,7 @@ public void InsertTextPaths()
 
     // By default, the text's size will always scale to fit the containing shape's size, overriding the text size setting.
     shape = AppendWordArt(doc, "FitShape on", "Calibri", 160, 24, Color.LightBlue, Color.Blue, ShapeType.TextPlainText);
-    Assert.True(shape.TextPath.FitShape);
+    Assert.That(shape.TextPath.FitShape, Is.True);
     shape.TextPath.Size = 24.0;
 
     // If we set the "FitShape: property to "false", the text will keep the size

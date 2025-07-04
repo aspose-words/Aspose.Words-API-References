@@ -40,7 +40,7 @@ options.LegacyMode = false;
 
 doc.Range.Replace(regex, @"$2 took money from $1", options);
 
-Assert.AreEqual(doc.GetText(), "Paul took money from Jason.\f");
+Assert.That("Paul took money from Jason.\f", Is.EqualTo(doc.GetText()));
 ```
 
 ### See Also

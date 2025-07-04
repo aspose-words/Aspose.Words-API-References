@@ -32,7 +32,7 @@ public void LoadOptionsWarningCallback()
     Document doc = new Document(MyDir + "Document.docx", loadOptions);
 
     List<WarningInfo> warnings = ((DocumentLoadingWarningCallback)loadOptions.WarningCallback).GetWarnings();
-    Assert.AreEqual(3, warnings.Count);
+    Assert.That(warnings.Count, Is.EqualTo(3));
 }
 
 /// <summary>

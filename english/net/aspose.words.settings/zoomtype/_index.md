@@ -5,7 +5,7 @@ articleTitle: ZoomType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Settings.ZoomType enum to customize document display sizes in Microsoft Word for optimal viewing and productivity.
 type: docs
-weight: 6820
+weight: 6810
 url: /net/aspose.words.settings/zoomtype/
 ---
 ## ZoomType enumeration
@@ -38,8 +38,8 @@ builder.Writeln("Hello world!");
 doc.ViewOptions.ViewType = ViewType.PageLayout;
 doc.ViewOptions.ZoomPercent = 50;
 
-Assert.AreEqual(ZoomType.Custom, doc.ViewOptions.ZoomType);
-Assert.AreEqual(ZoomType.None, doc.ViewOptions.ZoomType);
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.Custom));
+Assert.That(doc.ViewOptions.ZoomType, Is.EqualTo(ZoomType.None));
 
 doc.Save(ArtifactsDir + "ViewOptions.SetZoomPercentage.doc");
 ```

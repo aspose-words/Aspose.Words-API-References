@@ -5,7 +5,7 @@ articleTitle: TableStyle
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.TableStyle class for creating and customizing stunning table styles in your documents. Enhance your formatting effortlessly!
 type: docs
-weight: 7080
+weight: 7070
 url: /net/aspose.words/tablestyle/
 ---
 ## TableStyle class
@@ -27,7 +27,6 @@ public class TableStyle : Style
 | [AllowBreakAcrossPages](../../aspose.words/tablestyle/allowbreakacrosspages/) { get; set; } | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
 | [AutomaticallyUpdate](../../aspose.words/style/automaticallyupdate/) { get; set; } | Specifies whether this style is automatically redefined based on the appropriate value. |
 | [BaseStyleName](../../aspose.words/style/basestylename/) { get; set; } | Gets/sets the name of the style this style is based on. |
-| [Bidi](../../aspose.words/tablestyle/bidi/) { get; set; } | Gets or sets whether this is a style for a right-to-left table. |
 | [Borders](../../aspose.words/tablestyle/borders/) { get; } | Gets the collection of default cell borders for the style. |
 | [BottomPadding](../../aspose.words/tablestyle/bottompadding/) { get; set; } | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [BuiltIn](../../aspose.words/style/builtin/) { get; } | True if this style is one of the built-in styles in MS Word. |
@@ -100,9 +99,9 @@ tableStyle.VerticalAlignment = CellVerticalAlignment.Center;
 table.Style = tableStyle;
 
 // Setting the style properties of a table may affect the properties of the table itself.
-Assert.True(table.Bidi);
-Assert.AreEqual(5.0d, table.CellSpacing);
-Assert.AreEqual("MyTableStyle1", table.StyleName);
+Assert.That(table.Bidi, Is.True);
+Assert.That(table.CellSpacing, Is.EqualTo(5.0d));
+Assert.That(table.StyleName, Is.EqualTo("MyTableStyle1"));
 
 doc.Save(ArtifactsDir + "Table.TableStyleCreation.docx");
 ```

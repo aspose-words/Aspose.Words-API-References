@@ -33,20 +33,20 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Create a USERNAME field to display the current user's name,
 // taken from the UserInformation object we created above.
 FieldUserName fieldUserName = (FieldUserName)builder.InsertField(FieldType.FieldUserName, true);
-Assert.AreEqual(userInformation.Name, fieldUserName.Result);
+Assert.That(fieldUserName.Result, Is.EqualTo(userInformation.Name));
 
-Assert.AreEqual(" USERNAME ", fieldUserName.GetFieldCode());
-Assert.AreEqual("John Doe", fieldUserName.Result);
+Assert.That(fieldUserName.GetFieldCode(), Is.EqualTo(" USERNAME "));
+Assert.That(fieldUserName.Result, Is.EqualTo("John Doe"));
 
 // We can set this property to get our field to override the value currently stored in the UserInformation object. 
 fieldUserName.UserName = "Jane Doe";
 fieldUserName.Update();
 
-Assert.AreEqual(" USERNAME  \"Jane Doe\"", fieldUserName.GetFieldCode());
-Assert.AreEqual("Jane Doe", fieldUserName.Result);
+Assert.That(fieldUserName.GetFieldCode(), Is.EqualTo(" USERNAME  \"Jane Doe\""));
+Assert.That(fieldUserName.Result, Is.EqualTo("Jane Doe"));
 
 // This does not affect the value in the UserInformation object.
-Assert.AreEqual("John Doe", doc.FieldOptions.CurrentUser.Name);
+Assert.That(doc.FieldOptions.CurrentUser.Name, Is.EqualTo("John Doe"));
 
 doc.UpdateFields();
 doc.Save(ArtifactsDir + "Field.USERNAME.docx");

@@ -64,8 +64,8 @@ builder.Writeln("Greetings, _FullName_!");
 // Perform a find-and-replace operation on our document's contents and verify the number of replacements that took place.
 int replacementCount = doc.Range.Replace("_FullName_", "John Doe");
 
-Assert.AreEqual(1, replacementCount);
-Assert.AreEqual("Greetings, John Doe!", doc.GetText().Trim());
+Assert.That(replacementCount, Is.EqualTo(1));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Greetings, John Doe!"));
 ```
 
 Shows how to add formatting to paragraphs in which a find-and-replace operation has found matches.
@@ -80,9 +80,9 @@ builder.Write("This one also will.");
 
 ParagraphCollection paragraphs = doc.FirstSection.Body.Paragraphs;
 
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[0].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[2].ParagraphFormat.Alignment);
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[2].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
 
 // We can use a "FindReplaceOptions" object to modify the find-and-replace process.
 FindReplaceOptions options = new FindReplaceOptions();
@@ -94,13 +94,13 @@ options.ApplyParagraphFormat.Alignment = ParagraphAlignment.Right;
 // Replace every full stop that is right before a paragraph break with an exclamation point.
 int count = doc.Range.Replace(".&p", "!&p", options);
 
-Assert.AreEqual(2, count);
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[0].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Left, paragraphs[1].ParagraphFormat.Alignment);
-Assert.AreEqual(ParagraphAlignment.Right, paragraphs[2].ParagraphFormat.Alignment);
-Assert.AreEqual("Every paragraph that ends with a full stop like this one will be right aligned!\r" +
+Assert.That(count, Is.EqualTo(2));
+Assert.That(paragraphs[0].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+Assert.That(paragraphs[1].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Left));
+Assert.That(paragraphs[2].ParagraphFormat.Alignment, Is.EqualTo(ParagraphAlignment.Right));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("Every paragraph that ends with a full stop like this one will be right aligned!\r" +
                 "This one will not!\r" +
-                "This one also will!", doc.GetText().Trim());
+                "This one also will!"));
 ```
 
 ### See Also
@@ -164,7 +164,7 @@ builder.Writeln("I decided to get the curtains in gray, ideal for the grey-accen
 
 doc.Range.Replace(new Regex("gr(a|e)y"), "lavender");
 
-Assert.AreEqual("I decided to get the curtains in lavender, ideal for the lavender-accented room.", doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo("I decided to get the curtains in lavender, ideal for the lavender-accented room."));
 ```
 
 ### See Also
@@ -255,8 +255,7 @@ options.MatchCase = matchCase;
 
 doc.Range.Replace("Ruby", "Jade", options);
 
-Assert.AreEqual(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(matchCase ? "Jade bought a ruby necklace." : "Jade bought a Jade necklace."));
 ```
 
 Shows how to toggle standalone word-only find-and-replace operations.
@@ -276,9 +275,7 @@ options.FindWholeWordsOnly = findWholeWordsOnly;
 
 doc.Range.Replace("Jackson", "Louis", options);
 
-Assert.AreEqual(
-    findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville.",
-    doc.GetText().Trim());
+Assert.That(doc.GetText().Trim(), Is.EqualTo(findWholeWordsOnly ? "Louis will meet you in Jacksonville." : "Louis will meet you in Louisville."));
 ```
 
 Shows how to replace all instances of String of text in a table and cell.
@@ -309,8 +306,8 @@ table.Range.Replace("Carrots", "Eggs", options);
 // Perform a find-and-replace operation on the last cell of the last row of the table.
 table.LastRow.LastCell.Range.Replace("50", "20", options);
 
-Assert.AreEqual("Eggs\a50\a\a" +
-                "Potatoes\a20\a\a", table.GetText().Trim());
+Assert.That(table.GetText().Trim(), Is.EqualTo("Eggs\a50\a\a" +
+                "Potatoes\a20\a\a"));
 ```
 
 ### See Also
@@ -385,11 +382,11 @@ public void ReplaceWithCallback()
 
     doc.Range.Replace(new Regex("New York City|NYC"), "Washington", options);
 
-    Assert.AreEqual("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
-                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Our new location in (Old value:\"New York City\") Washington is opening tomorrow. " +
+                    "Hope to see all our (Old value:\"NYC\") Washington-based customers at the opening!"));
 
-    Assert.AreEqual("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
-                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node.", logger.GetLog().Trim());
+    Assert.That(logger.GetLog().Trim(), Is.EqualTo("\"New York City\" converted to \"Washington\" 20 characters into a Run node.\r\n" +
+                    "\"NYC\" converted to \"Washington\" 42 characters into a Run node."));
 }
 
 /// <summary>

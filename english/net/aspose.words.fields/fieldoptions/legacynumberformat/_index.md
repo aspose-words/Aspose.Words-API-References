@@ -34,12 +34,12 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 
 Field field = builder.InsertField("= 2 + 3 \\# $##");
 
-Assert.AreEqual("$ 5", field.Result);
+Assert.That(field.Result, Is.EqualTo("$ 5"));
 
 doc.FieldOptions.LegacyNumberFormat = true;
 field.Update();
 
-Assert.AreEqual("$5", field.Result);
+Assert.That(field.Result, Is.EqualTo("$5"));
 ```
 
 ### See Also

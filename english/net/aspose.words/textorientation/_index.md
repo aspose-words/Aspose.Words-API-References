@@ -5,7 +5,7 @@ articleTitle: TextOrientation
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.TextOrientation enum to easily control text alignment in table cells and text frames, enhancing document presentation and readability.
 type: docs
-weight: 7290
+weight: 7280
 url: /net/aspose.words/textorientation/
 ---
 ## TextOrientation enumeration
@@ -45,8 +45,8 @@ builder.EndRow();
 
 // While building the table, the document builder will apply its current RowFormat/CellFormat property values
 // to the current row/cell that its cursor is in and any new rows/cells as it creates them.
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[0].CellFormat.VerticalAlignment);
-Assert.AreEqual(CellVerticalAlignment.Center, table.Rows[0].Cells[1].CellFormat.VerticalAlignment);
+Assert.That(table.Rows[0].Cells[0].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
+Assert.That(table.Rows[0].Cells[1].CellFormat.VerticalAlignment, Is.EqualTo(CellVerticalAlignment.Center));
 
 builder.InsertCell();
 builder.RowFormat.Height = 100;
@@ -60,12 +60,12 @@ builder.EndRow();
 builder.EndTable();
 
 // Previously added rows and cells are not retroactively affected by changes to the builder's formatting.
-Assert.AreEqual(0, table.Rows[0].RowFormat.Height);
-Assert.AreEqual(HeightRule.Auto, table.Rows[0].RowFormat.HeightRule);
-Assert.AreEqual(100, table.Rows[1].RowFormat.Height);
-Assert.AreEqual(HeightRule.Exactly, table.Rows[1].RowFormat.HeightRule);
-Assert.AreEqual(TextOrientation.Upward, table.Rows[1].Cells[0].CellFormat.Orientation);
-Assert.AreEqual(TextOrientation.Downward, table.Rows[1].Cells[1].CellFormat.Orientation);
+Assert.That(table.Rows[0].RowFormat.Height, Is.EqualTo(0));
+Assert.That(table.Rows[0].RowFormat.HeightRule, Is.EqualTo(HeightRule.Auto));
+Assert.That(table.Rows[1].RowFormat.Height, Is.EqualTo(100));
+Assert.That(table.Rows[1].RowFormat.HeightRule, Is.EqualTo(HeightRule.Exactly));
+Assert.That(table.Rows[1].Cells[0].CellFormat.Orientation, Is.EqualTo(TextOrientation.Upward));
+Assert.That(table.Rows[1].Cells[1].CellFormat.Orientation, Is.EqualTo(TextOrientation.Downward));
 
 doc.Save(ArtifactsDir + "DocumentBuilder.BuildTable.docx");
 ```

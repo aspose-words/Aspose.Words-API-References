@@ -32,20 +32,20 @@ builder.Write("À È Ì Ò Ù.");
 TxtSaveOptions txtSaveOptions = new TxtSaveOptions();
 
 // Verify that the "Encoding" property contains the appropriate encoding for our document's contents.
-Assert.AreEqual(System.Text.Encoding.UTF8, txtSaveOptions.Encoding);
+Assert.That(txtSaveOptions.Encoding, Is.EqualTo(System.Text.Encoding.UTF8));
 
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt", txtSaveOptions);
 
 string docText = System.Text.Encoding.UTF8.GetString(File.ReadAllBytes(ArtifactsDir + "TxtSaveOptions.Encoding.UTF8.txt"));
 
-Assert.AreEqual("\uFEFFÀ È Ì Ò Ù.\r\n", docText);
+Assert.That(docText, Is.EqualTo("\uFEFFÀ È Ì Ò Ù.\r\n"));
 
 // Using an unsuitable encoding may result in a loss of document contents.
 txtSaveOptions.Encoding = System.Text.Encoding.ASCII;
 doc.Save(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt", txtSaveOptions);
 docText = System.Text.Encoding.ASCII.GetString(File.ReadAllBytes(ArtifactsDir + "TxtSaveOptions.Encoding.ASCII.txt"));
 
-Assert.AreEqual("? ? ? ? ?.\r\n", docText);
+Assert.That(docText, Is.EqualTo("? ? ? ? ?.\r\n"));
 ```
 
 ### See Also

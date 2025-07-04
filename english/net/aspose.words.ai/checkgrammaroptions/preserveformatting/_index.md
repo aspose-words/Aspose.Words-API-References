@@ -10,7 +10,7 @@ url: /net/aspose.words.ai/checkgrammaroptions/preserveformatting/
 ---
 ## CheckGrammarOptions.PreserveFormatting property
 
-Allows to specify either [`CheckGrammar`](../../iaimodeltext/checkgrammar/) will try to preserve layout and formatting of the original document, or not. Default value is `true`.
+Allows to specify either CheckGrammarOptions) will try to preserve layout and formatting of the original document, or not. Default value is `true`.
 
 ```csharp
 public bool PreserveFormatting { get; set; }

@@ -26,9 +26,9 @@ Document doc = new Document(MyDir + "Structured document tags.docx");
 List<StructuredDocumentTag> tags = doc.GetChildNodes(NodeType.StructuredDocumentTag, true)
     .OfType<StructuredDocumentTag>().ToList();
 
-Assert.True(tags[0].WordOpenXML
+Assert.That(tags[0].WordOpenXML
     .Contains(
-        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"));
+        "<pkg:part pkg:name=\"/docProps/app.xml\" pkg:contentType=\"application/vnd.openxmlformats-officedocument.extended-properties+xml\">"), Is.True);
 ```
 
 ### See Also

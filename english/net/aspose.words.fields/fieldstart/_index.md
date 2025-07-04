@@ -5,7 +5,7 @@ articleTitle: FieldStart
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldStart class, your key to efficiently managing Word fields in documents. Enhance your document processing today!
 type: docs
-weight: 2840
+weight: 2830
 url: /net/aspose.words.fields/fieldstart/
 ---
 ## FieldStart class
@@ -88,7 +88,7 @@ public void FieldCollection()
 
     FieldCollection fields = doc.Range.Fields;
 
-    Assert.AreEqual(6, fields.Count);
+    Assert.That(fields.Count, Is.EqualTo(6));
 
     // Iterate over the field collection, and print contents and type
     // of every field using a custom visitor implementation.

@@ -50,22 +50,21 @@ tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
 // Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 // We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Arial").ToArray(), Is.EqualTo(new[] {"Missing Font", "Kreon"}));
 
 // We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
-Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman"), Is.Null);
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
-Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo"}));
 
 // We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 // In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
-Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo", "M+ 2m"}));
 
 // SetSubstitutes() can set a new list of substitute fonts for a font.
 tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
-Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
-    tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Squarish Sans CT", "M+ 2m"}));
 
 // Writing text in fonts that we do not have access to will invoke our substitution rules.
 DocumentBuilder builder = new DocumentBuilder(doc);
@@ -128,22 +127,21 @@ tableSubstitutionRule.Load(MyDir + "Font substitution rules.xml");
 
 // Since we no longer have access to "Arial", our font table will first try substitute it with "Nonexistent Font".
 // We do not have this font so that it will move onto the next substitute, "Kreon", found in the "MyFonts" folder.
-Assert.AreEqual(new[] {"Missing Font", "Kreon"}, tableSubstitutionRule.GetSubstitutes("Arial").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Arial").ToArray(), Is.EqualTo(new[] {"Missing Font", "Kreon"}));
 
 // We can expand this table programmatically. We will add an entry that substitutes "Times New Roman" with "Arvo"
-Assert.Null(tableSubstitutionRule.GetSubstitutes("Times New Roman"));
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman"), Is.Null);
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "Arvo");
-Assert.AreEqual(new[] {"Arvo"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo"}));
 
 // We can add a secondary fallback substitute for an existing font entry with AddSubstitutes().
 // In case "Arvo" is unavailable, our table will look for "M+ 2m" as a second substitute option.
 tableSubstitutionRule.AddSubstitutes("Times New Roman", "M+ 2m");
-Assert.AreEqual(new[] {"Arvo", "M+ 2m"}, tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Arvo", "M+ 2m"}));
 
 // SetSubstitutes() can set a new list of substitute fonts for a font.
 tableSubstitutionRule.SetSubstitutes("Times New Roman", "Squarish Sans CT", "M+ 2m");
-Assert.AreEqual(new[] {"Squarish Sans CT", "M+ 2m"},
-    tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray());
+Assert.That(tableSubstitutionRule.GetSubstitutes("Times New Roman").ToArray(), Is.EqualTo(new[] {"Squarish Sans CT", "M+ 2m"}));
 
 // Writing text in fonts that we do not have access to will invoke our substitution rules.
 DocumentBuilder builder = new DocumentBuilder(doc);

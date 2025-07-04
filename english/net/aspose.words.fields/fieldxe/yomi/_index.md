@@ -36,9 +36,9 @@ FieldIndex index = (FieldIndex)builder.InsertField(FieldType.FieldIndex, true);
 index.UseYomi = sortEntriesUsingYomi;
 
 if (sortEntriesUsingYomi)
-    Assert.AreEqual(" INDEX  \\y", index.GetFieldCode());
+    Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX  \\y"));
 else
-    Assert.AreEqual(" INDEX ", index.GetFieldCode());
+    Assert.That(index.GetFieldCode(), Is.EqualTo(" INDEX "));
 
 // Insert 4 XE fields, which would show up as entries in the INDEX field's table of contents.
 // The "Text" property may contain a word's spelling in Kanji, whose pronunciation may be ambiguous,
@@ -50,7 +50,7 @@ FieldXE indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, tru
 indexEntry.Text = "愛子";
 indexEntry.Yomi = "あ";
 
-Assert.AreEqual(" XE  愛子 \\y あ", indexEntry.GetFieldCode());
+Assert.That(indexEntry.GetFieldCode(), Is.EqualTo(" XE  愛子 \\y あ"));
 
 builder.InsertBreak(BreakType.PageBreak);
 indexEntry = (FieldXE)builder.InsertField(FieldType.FieldIndexEntry, true);

@@ -5,7 +5,7 @@ articleTitle: HorizontalRuleAlignment
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.HorizontalRuleAlignment enum for precise control over horizontal rule alignment, enhancing your document formatting and design.
 type: docs
-weight: 1370
+weight: 1360
 url: /net/aspose.words.drawing/horizontalrulealignment/
 ---
 ## HorizontalRuleAlignment enumeration
@@ -40,8 +40,8 @@ horizontalRuleFormat.Height = 3;
 horizontalRuleFormat.Color = Color.Blue;
 horizontalRuleFormat.NoShade = true;
 
-Assert.True(shape.IsHorizontalRule);
-Assert.True(shape.HorizontalRuleFormat.NoShade);
+Assert.That(shape.IsHorizontalRule, Is.True);
+Assert.That(shape.HorizontalRuleFormat.NoShade, Is.True);
 ```
 
 ### See Also

@@ -38,7 +38,7 @@ Shows how to import a document with numbered lists.
 Document srcDoc = new Document(MyDir + "List source.docx");
 Document dstDoc = new Document(MyDir + "List destination.docx");
 
-Assert.AreEqual(4, dstDoc.Lists.Count);
+Assert.That(dstDoc.Lists.Count, Is.EqualTo(4));
 
 ImportFormatOptions options = new ImportFormatOptions();
 
@@ -51,7 +51,7 @@ options.KeepSourceNumbering = isKeepSourceNumbering;
 dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 dstDoc.UpdateListLabels();
 
-Assert.AreEqual(isKeepSourceNumbering ? 5 : 4, dstDoc.Lists.Count);
+Assert.That(dstDoc.Lists.Count, Is.EqualTo(isKeepSourceNumbering ? 5 : 4));
 ```
 
 Shows how to resolve list numbering clashes in source and destination documents.
@@ -83,27 +83,25 @@ dstDoc.UpdateListLabels();
 
 if (keepSourceNumbering)
 {
-    Assert.AreEqual(
-        "6. Item 1\r\n" +
+    Assert.That(dstDoc.FirstSection.Body.ToString(SaveFormat.Text).Trim(), Is.EqualTo("6. Item 1\r\n" +
         "7. Item 2 \r\n" +
         "8. Item 3\r\n" +
         "9. Item 4\r\n" +
         "6. Item 1\r\n" +
         "7. Item 2 \r\n" +
         "8. Item 3\r\n" +
-        "9. Item 4", dstDoc.FirstSection.Body.ToString(SaveFormat.Text).Trim());
+        "9. Item 4"));
 }
 else
 {
-    Assert.AreEqual(
-        "6. Item 1\r\n" +
+    Assert.That(dstDoc.FirstSection.Body.ToString(SaveFormat.Text).Trim(), Is.EqualTo("6. Item 1\r\n" +
         "7. Item 2 \r\n" +
         "8. Item 3\r\n" +
         "9. Item 4\r\n" +
         "10. Item 1\r\n" +
         "11. Item 2 \r\n" +
         "12. Item 3\r\n" +
-        "13. Item 4", dstDoc.FirstSection.Body.ToString(SaveFormat.Text).Trim());
+        "13. Item 4"));
 }
 ```
 

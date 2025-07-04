@@ -5,7 +5,7 @@ articleTitle: ChartNumberFormat
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartNumberFormat class for advanced number formatting in charts. Enhance your document's visual appeal!
 type: docs
-weight: 1060
+weight: 1050
 url: /net/aspose.words.drawing.charts/chartnumberformat/
 ---
 ## ChartNumberFormat class
@@ -49,7 +49,7 @@ chart.Series.Add("Aspose Test Series",
 chart.AxisY.NumberFormat.FormatCode = "#,##0";
 
 // This flag can override the above value and draw the number format from the source cell.
-Assert.False(chart.AxisY.NumberFormat.IsLinkedToSource);
+Assert.That(chart.AxisY.NumberFormat.IsLinkedToSource, Is.False);
 
 doc.Save(ArtifactsDir + "Charts.SetNumberFormatToChartAxis.docx");
 ```

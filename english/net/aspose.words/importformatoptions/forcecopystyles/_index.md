@@ -38,9 +38,9 @@ dstDoc.AppendDocument(srcDoc, ImportFormatMode.KeepSourceFormatting, options);
 
 ParagraphCollection paras = dstDoc.Sections[1].Body.Paragraphs;
 
-Assert.AreEqual(paras[0].ParagraphFormat.Style.Name, "MyStyle1_0");
-Assert.AreEqual(paras[1].ParagraphFormat.Style.Name, "MyStyle2_0");
-Assert.AreEqual(paras[2].ParagraphFormat.Style.Name, "MyStyle3");
+Assert.That("MyStyle1_0", Is.EqualTo(paras[0].ParagraphFormat.Style.Name));
+Assert.That("MyStyle2_0", Is.EqualTo(paras[1].ParagraphFormat.Style.Name));
+Assert.That("MyStyle3", Is.EqualTo(paras[2].ParagraphFormat.Style.Name));
 ```
 
 ### See Also

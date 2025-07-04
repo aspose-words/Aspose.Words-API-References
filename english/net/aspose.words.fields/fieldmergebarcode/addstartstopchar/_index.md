@@ -33,8 +33,8 @@ field.BarcodeValue = "MyCODE39Barcode";
 // Edit its appearance to display start/stop characters.
 field.AddStartStopChar = true;
 
-Assert.AreEqual(FieldType.FieldMergeBarcode, field.Type);
-Assert.AreEqual(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d", field.GetFieldCode());
+Assert.That(field.Type, Is.EqualTo(FieldType.FieldMergeBarcode));
+Assert.That(field.GetFieldCode(), Is.EqualTo(" MERGEBARCODE  MyCODE39Barcode CODE39 \\d"));
 builder.Writeln();
 
 // Create a DataTable with a column with the same name as our MERGEBARCODE field's BarcodeValue.
@@ -47,12 +47,10 @@ table.Rows.Add(new[] { "67890FGHIJ" });
 
 doc.MailMerge.Execute(table);
 
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[0].Type);
-Assert.AreEqual("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d",
-    doc.Range.Fields[0].GetFieldCode());
-Assert.AreEqual(FieldType.FieldDisplayBarcode, doc.Range.Fields[1].Type);
-Assert.AreEqual("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d",
-    doc.Range.Fields[1].GetFieldCode());
+Assert.That(doc.Range.Fields[0].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[0].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"12345ABCDE\" CODE39 \\d"));
+Assert.That(doc.Range.Fields[1].Type, Is.EqualTo(FieldType.FieldDisplayBarcode));
+Assert.That(doc.Range.Fields[1].GetFieldCode(), Is.EqualTo("DISPLAYBARCODE \"67890FGHIJ\" CODE39 \\d"));
 
 doc.Save(ArtifactsDir + "Field.MERGEBARCODE.CODE39.docx");
 ```

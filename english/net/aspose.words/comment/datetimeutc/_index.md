@@ -39,7 +39,7 @@ doc = new Document(ArtifactsDir + "Comment.UtcDateTime.docx");
 
 comment = (Comment)doc.GetChild(NodeType.Comment, 0, true);
 // DateTimeUtc return data without milliseconds.
-Assert.AreEqual(dateTime.ToUniversalTime().ToString("yyyy-MM-dd hh:mm:ss"), comment.DateTimeUtc.ToString("yyyy-MM-dd hh:mm:ss"));
+Assert.That(comment.DateTimeUtc.ToString("yyyy-MM-dd hh:mm:ss"), Is.EqualTo(dateTime.ToUniversalTime().ToString("yyyy-MM-dd hh:mm:ss")));
 ```
 
 ### See Also

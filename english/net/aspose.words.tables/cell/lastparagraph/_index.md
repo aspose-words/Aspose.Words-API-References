@@ -51,9 +51,9 @@ for (int i = 0; i < 3; i++)
 // A row format, and a cell's inner paragraph use different border settings.
 Border border = table.FirstRow.FirstCell.LastParagraph.ParagraphFormat.Borders.Vertical;
 
-Assert.AreEqual(Color.Empty.ToArgb(), border.Color.ToArgb());
-Assert.AreEqual(0.0d, border.LineWidth);
-Assert.AreEqual(LineStyle.None, border.LineStyle);
+Assert.That(border.Color.ToArgb(), Is.EqualTo(Color.Empty.ToArgb()));
+Assert.That(border.LineWidth, Is.EqualTo(0.0d));
+Assert.That(border.LineStyle, Is.EqualTo(LineStyle.None));
 
 doc.Save(ArtifactsDir + "Border.VerticalBorders.docx");
 ```

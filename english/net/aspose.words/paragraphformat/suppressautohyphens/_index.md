@@ -23,7 +23,7 @@ Shows how to suppress hyphenation for a paragraph.
 ```csharp
 Hyphenation.RegisterDictionary("de-CH", MyDir + "hyph_de_CH.dic");
 
-Assert.True(Hyphenation.IsDictionaryRegistered("de-CH"));
+Assert.That(Hyphenation.IsDictionaryRegistered("de-CH"), Is.True);
 
 // Open a document containing text with a locale matching that of our dictionary.
 // When we save this document to a fixed page save format, its text will have hyphenation.

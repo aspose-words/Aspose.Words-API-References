@@ -5,7 +5,7 @@ articleTitle: XpsSaveOptions
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Saving.XpsSaveOptions for enhanced document saving in XPS format. Customize settings for optimal output and quality.
 type: docs
-weight: 6550
+weight: 6540
 url: /net/aspose.words.saving/xpssaveoptions/
 ---
 ## XpsSaveOptions class
@@ -77,7 +77,7 @@ DocumentBuilder builder = new DocumentBuilder(doc);
 // Insert headings that can serve as TOC entries of levels 1, 2, and then 3.
 builder.ParagraphFormat.StyleIdentifier = StyleIdentifier.Heading1;
 
-Assert.True(builder.ParagraphFormat.IsHeading);
+Assert.That(builder.ParagraphFormat.IsHeading, Is.True);
 
 builder.Writeln("Heading 1");
 
@@ -95,7 +95,7 @@ builder.Writeln("Heading 1.2.2");
 // to modify how that method converts the document to .XPS.
 XpsSaveOptions saveOptions = new XpsSaveOptions();
 
-Assert.AreEqual(SaveFormat.Xps, saveOptions.SaveFormat);
+Assert.That(saveOptions.SaveFormat, Is.EqualTo(SaveFormat.Xps));
 
 // The output XPS document will contain an outline, a table of contents that lists headings in the document body.
 // Clicking on an entry in this outline will take us to the location of its respective heading.

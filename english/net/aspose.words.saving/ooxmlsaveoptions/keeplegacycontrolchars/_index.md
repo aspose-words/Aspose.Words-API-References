@@ -36,8 +36,7 @@ doc.Save(ArtifactsDir + "OoxmlSaveOptions.KeepLegacyControlChars.docx", so);
 
 doc = new Document(ArtifactsDir + "OoxmlSaveOptions.KeepLegacyControlChars.docx");
 
-Assert.AreEqual(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f" : "\u001e\f",
-    doc.FirstSection.Body.GetText());
+Assert.That(doc.FirstSection.Body.GetText(), Is.EqualTo(keepLegacyControlChars ? "\u0013date \\@ \"MM/dd/yyyy\"\u0014\u0015\f" : "\u001e\f"));
 ```
 
 ### See Also

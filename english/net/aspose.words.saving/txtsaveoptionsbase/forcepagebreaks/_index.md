@@ -52,7 +52,7 @@ doc.Save(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt", saveOptions);
 // the "Document" object will use them to split the body into pages.
 doc = new Document(ArtifactsDir + "TxtSaveOptions.PageBreaks.txt");
 
-Assert.AreEqual(forcePageBreaks ? 3 : 1, doc.PageCount);
+Assert.That(doc.PageCount, Is.EqualTo(forcePageBreaks ? 3 : 1));
 ```
 
 ### See Also

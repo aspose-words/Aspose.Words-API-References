@@ -5,7 +5,7 @@ articleTitle: FieldInfo
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldInfo class, your go-to solution for implementing the INFO field efficiently in document processing. Unlock powerful features today!
 type: docs
-weight: 2490
+weight: 2480
 url: /net/aspose.words.fields/fieldinfo/
 ---
 ## FieldInfo class
@@ -70,8 +70,8 @@ FieldInfo field = (FieldInfo)builder.InsertField(FieldType.FieldInfo, true);
 field.InfoType = "Comments";
 field.Update();
 
-Assert.AreEqual(" INFO  Comments", field.GetFieldCode());
-Assert.AreEqual("My comment", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" INFO  Comments"));
+Assert.That(field.Result, Is.EqualTo("My comment"));
 
 builder.Writeln();
 
@@ -82,9 +82,9 @@ field.InfoType = "Comments";
 field.NewValue = "New comment";
 field.Update();
 
-Assert.AreEqual(" INFO  Comments \"New comment\"", field.GetFieldCode());
-Assert.AreEqual("New comment", field.Result);
-Assert.AreEqual("New comment", doc.BuiltInDocumentProperties.Comments);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" INFO  Comments \"New comment\""));
+Assert.That(field.Result, Is.EqualTo("New comment"));
+Assert.That(doc.BuiltInDocumentProperties.Comments, Is.EqualTo("New comment"));
 
 doc.Save(ArtifactsDir + "Field.INFO.docx");
 ```

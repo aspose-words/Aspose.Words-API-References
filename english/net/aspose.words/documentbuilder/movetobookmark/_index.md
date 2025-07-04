@@ -43,46 +43,46 @@ Document doc = new Document();
 DocumentBuilder builder = new DocumentBuilder(doc);
 
 // Create a valid bookmark, an entity that consists of nodes enclosed by a bookmark start node,
-// and a bookmark end node. 
+// and a bookmark end node.
 builder.StartBookmark("MyBookmark");
 builder.Write("Bookmark contents.");
 builder.EndBookmark("MyBookmark");
 
 NodeCollection firstParagraphNodes = doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false);
 
-Assert.AreEqual(NodeType.BookmarkStart, firstParagraphNodes[0].NodeType);
-Assert.AreEqual(NodeType.Run, firstParagraphNodes[1].NodeType);
-Assert.AreEqual("Bookmark contents.", firstParagraphNodes[1].GetText().Trim());
-Assert.AreEqual(NodeType.BookmarkEnd, firstParagraphNodes[2].NodeType);
+Assert.That(firstParagraphNodes[0].NodeType, Is.EqualTo(NodeType.BookmarkStart));
+Assert.That(firstParagraphNodes[1].NodeType, Is.EqualTo(NodeType.Run));
+Assert.That(firstParagraphNodes[1].GetText().Trim(), Is.EqualTo("Bookmark contents."));
+Assert.That(firstParagraphNodes[2].NodeType, Is.EqualTo(NodeType.BookmarkEnd));
 
 // The document builder's cursor is always ahead of the node that we last added with it.
 // If the builder's cursor is at the end of the document, its current node will be null.
 // The previous node is the bookmark end node that we last added.
 // Adding new nodes with the builder will append them to the last node.
-Assert.Null(builder.CurrentNode);
+Assert.That(builder.CurrentNode, Is.Null);
 
 // If we wish to edit a different part of the document with the builder,
 // we will need to bring its cursor to the node we wish to edit.
 builder.MoveToBookmark("MyBookmark");
 
 // Moving it to a bookmark will move it to the first node within the bookmark start and end nodes, the enclosed run.
-Assert.AreEqual(firstParagraphNodes[1], builder.CurrentNode);
+Assert.That(builder.CurrentNode, Is.EqualTo(firstParagraphNodes[1]));
 
 // We can also move the cursor to an individual node like this.
 builder.MoveTo(doc.FirstSection.Body.FirstParagraph.GetChildNodes(NodeType.Any, false)[0]);
 
-Assert.AreEqual(NodeType.BookmarkStart, builder.CurrentNode.NodeType);
-Assert.AreEqual(doc.FirstSection.Body.FirstParagraph, builder.CurrentParagraph);
-Assert.IsTrue(builder.IsAtStartOfParagraph);
+Assert.That(builder.CurrentNode.NodeType, Is.EqualTo(NodeType.BookmarkStart));
+Assert.That(builder.CurrentParagraph, Is.EqualTo(doc.FirstSection.Body.FirstParagraph));
+Assert.That(builder.IsAtStartOfParagraph, Is.True);
 
 // We can use specific methods to move to the start/end of a document.
 builder.MoveToDocumentEnd();
 
-Assert.IsTrue(builder.IsAtEndOfParagraph);
+Assert.That(builder.IsAtEndOfParagraph, Is.True);
 
 builder.MoveToDocumentStart();
 
-Assert.IsTrue(builder.IsAtStartOfParagraph);
+Assert.That(builder.IsAtStartOfParagraph, Is.True);
 ```
 
 ### See Also
@@ -137,32 +137,32 @@ builder.EndBookmark("MyBookmark");
 // If we are between the BookmarkStart and BookmarkEnd nodes, the cursor will be inside the bookmark.
 // This means that any text added by the builder will become a part of the bookmark.
 // 1 -  Outside of the bookmark, in front of the BookmarkStart node:
-Assert.True(builder.MoveToBookmark("MyBookmark", true, false));
+Assert.That(builder.MoveToBookmark("MyBookmark", true, false), Is.True);
 builder.Write("1. ");
 
-Assert.AreEqual("Hello world! ", doc.Range.Bookmarks["MyBookmark"].Text);
-Assert.AreEqual("1. Hello world!", doc.GetText().Trim());
+Assert.That(doc.Range.Bookmarks["MyBookmark"].Text, Is.EqualTo("Hello world! "));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("1. Hello world!"));
 
 // 2 -  Inside the bookmark, right after the BookmarkStart node:
-Assert.True(builder.MoveToBookmark("MyBookmark", true, true));
+Assert.That(builder.MoveToBookmark("MyBookmark", true, true), Is.True);
 builder.Write("2. ");
 
-Assert.AreEqual("2. Hello world! ", doc.Range.Bookmarks["MyBookmark"].Text);
-Assert.AreEqual("1. 2. Hello world!", doc.GetText().Trim());
+Assert.That(doc.Range.Bookmarks["MyBookmark"].Text, Is.EqualTo("2. Hello world! "));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("1. 2. Hello world!"));
 
 // 2 -  Inside the bookmark, right in front of the BookmarkEnd node:
-Assert.True(builder.MoveToBookmark("MyBookmark", false, false));
+Assert.That(builder.MoveToBookmark("MyBookmark", false, false), Is.True);
 builder.Write("3. ");
 
-Assert.AreEqual("2. Hello world! 3. ", doc.Range.Bookmarks["MyBookmark"].Text);
-Assert.AreEqual("1. 2. Hello world! 3.", doc.GetText().Trim());
+Assert.That(doc.Range.Bookmarks["MyBookmark"].Text, Is.EqualTo("2. Hello world! 3. "));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("1. 2. Hello world! 3."));
 
 // 4 -  Outside of the bookmark, after the BookmarkEnd node:
-Assert.True(builder.MoveToBookmark("MyBookmark", false, true));
+Assert.That(builder.MoveToBookmark("MyBookmark", false, true), Is.True);
 builder.Write("4.");
 
-Assert.AreEqual("2. Hello world! 3. ", doc.Range.Bookmarks["MyBookmark"].Text);
-Assert.AreEqual("1. 2. Hello world! 3. 4.", doc.GetText().Trim());
+Assert.That(doc.Range.Bookmarks["MyBookmark"].Text, Is.EqualTo("2. Hello world! 3. "));
+Assert.That(doc.GetText().Trim(), Is.EqualTo("1. 2. Hello world! 3. 4."));
 ```
 
 ### See Also

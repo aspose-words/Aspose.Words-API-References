@@ -5,7 +5,7 @@ articleTitle: ChartXValueCollection
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Drawing.Charts.ChartXValueCollection class, your solution for managing X value collections in chart series effectively.
 type: docs
-weight: 1170
+weight: 1160
 url: /net/aspose.words.drawing.charts/chartxvaluecollection/
 ---
 ## ChartXValueCollection class

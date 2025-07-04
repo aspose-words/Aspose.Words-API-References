@@ -57,8 +57,8 @@ public void InsertAtBookmark()
     Bookmark bookmark = doc.Range.Bookmarks["InsertionPoint"];
     InsertDocument(bookmark.BookmarkStart.ParentNode, docToInsert);
 
-    Assert.AreEqual("We will insert a document here: " +
-                    "\rHello world!", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("We will insert a document here: " +
+                    "\rHello world!"));
 }
 
 /// <summary>

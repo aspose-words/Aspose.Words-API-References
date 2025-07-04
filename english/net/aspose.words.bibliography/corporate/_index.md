@@ -5,7 +5,7 @@ articleTitle: Corporate
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Bibliography.Corporate class for seamless management of corporate bibliographies and organization contributors. Enhance your document accuracy!
 type: docs
-weight: 170
+weight: 160
 url: /net/aspose.words.bibliography/corporate/
 ---
 ## Corporate class

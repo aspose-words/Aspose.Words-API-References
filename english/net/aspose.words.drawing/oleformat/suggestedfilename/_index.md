@@ -29,7 +29,7 @@ Shape oleShape = (Shape)doc.FirstSection.Body.GetChild(NodeType.Shape, 0, true);
 // which we can use when saving the object's contents into a file in the local file system.
 string suggestedFileName = oleShape.OleFormat.SuggestedFileName;
 
-Assert.AreEqual("CSV.csv", suggestedFileName);
+Assert.That(suggestedFileName, Is.EqualTo("CSV.csv"));
 
 using (FileStream fileStream = new FileStream(ArtifactsDir + suggestedFileName, FileMode.Create))
 {

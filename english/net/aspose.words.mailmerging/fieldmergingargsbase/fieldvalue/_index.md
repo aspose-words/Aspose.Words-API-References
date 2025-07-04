@@ -43,7 +43,7 @@ public void FieldFormats()
         new string[] { "text_Field1", "text_Field2", "numeric_Field1" },
         new object[] { "Field 1", "Field 2", 10 });
     string t = doc.GetText().Trim();
-    Assert.AreEqual("Merge Value For \"Text_Field1\": Field 1, MERGE VALUE FOR \"TEXT_FIELD2\": FIELD 2, 10000.0", doc.GetText().Trim());
+    Assert.That(doc.GetText().Trim(), Is.EqualTo("Merge Value For \"Text_Field1\": Field 1, MERGE VALUE FOR \"TEXT_FIELD2\": FIELD 2, 10000.0"));
 }
 
 /// <summary>

@@ -43,15 +43,15 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlFixedSaveOptions.Ex
 
 if (exportFormFields)
 {
-    Assert.True(Regex.Match(outDocContents,
+    Assert.That(Regex.Match(outDocContents,
         "<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>" +
-        "<input style=\"position:absolute; left:0pt; top:0pt;\" type=\"checkbox\" name=\"CheckBox\" />").Success);
+        "<input style=\"position:absolute; left:0pt; top:0pt;\" type=\"checkbox\" name=\"CheckBox\" />").Success, Is.True);
 }
 else
 {
-    Assert.True(Regex.Match(outDocContents,
+    Assert.That(Regex.Match(outDocContents,
         "<a name=\"CheckBox\" style=\"left:0pt; top:0pt;\"></a>" +
-        "<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"").Success);
+        "<div class=\"awdiv\" style=\"left:0.8pt; top:0.8pt; width:14.25pt; height:14.25pt; border:solid 0.75pt #000000;\"").Success, Is.True);
 }
 ```
 

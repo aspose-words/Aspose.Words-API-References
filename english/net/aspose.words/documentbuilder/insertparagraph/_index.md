@@ -54,7 +54,7 @@ paragraphFormat.KeepTogether = true;
 // and then starts a new line, adding a new paragraph.
 builder.Writeln("Hello world!");
 
-Assert.True(builder.CurrentParagraph.IsEndOfDocument);
+Assert.That(builder.CurrentParagraph.IsEndOfDocument, Is.True);
 ```
 
 ### See Also

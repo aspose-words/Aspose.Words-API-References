@@ -47,14 +47,14 @@ private class NodeChangingPrinter : INodeChangingCallback
 {
     void INodeChangingCallback.NodeInserting(NodeChangingArgs args)
     {
-        Assert.AreEqual(NodeChangingAction.Insert, args.Action);
-        Assert.AreEqual(null, args.OldParent);
+        Assert.That(args.Action, Is.EqualTo(NodeChangingAction.Insert));
+        Assert.That(args.OldParent, Is.EqualTo(null));
     }
 
     void INodeChangingCallback.NodeInserted(NodeChangingArgs args)
     {
-        Assert.AreEqual(NodeChangingAction.Insert, args.Action);
-        Assert.NotNull(args.NewParent);
+        Assert.That(args.Action, Is.EqualTo(NodeChangingAction.Insert));
+        Assert.That(args.NewParent, Is.Not.Null);
 
         Console.WriteLine("Inserted node:");
         Console.WriteLine($"\tType:\t{args.Node.NodeType}");
@@ -70,13 +70,13 @@ private class NodeChangingPrinter : INodeChangingCallback
 
     void INodeChangingCallback.NodeRemoving(NodeChangingArgs args)
     {
-        Assert.AreEqual(NodeChangingAction.Remove, args.Action);
+        Assert.That(args.Action, Is.EqualTo(NodeChangingAction.Remove));
     }
 
     void INodeChangingCallback.NodeRemoved(NodeChangingArgs args)
     {
-        Assert.AreEqual(NodeChangingAction.Remove, args.Action);
-        Assert.Null(args.NewParent);
+        Assert.That(args.Action, Is.EqualTo(NodeChangingAction.Remove));
+        Assert.That(args.NewParent, Is.Null);
 
         Console.WriteLine($"Removed node: {args.Node.NodeType} ({args.Node.GetHashCode()})");
     }

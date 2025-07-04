@@ -31,15 +31,15 @@ fieldSet.BookmarkName = "MyBookmark";
 fieldSet.BookmarkText = "Hello world!";
 fieldSet.Update();
 
-Assert.AreEqual(" SET  MyBookmark \"Hello world!\"", fieldSet.GetFieldCode());
+Assert.That(fieldSet.GetFieldCode(), Is.EqualTo(" SET  MyBookmark \"Hello world!\""));
 
 // Refer to the bookmark by name in a REF field and display its contents.
 FieldRef fieldRef = (FieldRef)builder.InsertField(FieldType.FieldRef, true);
 fieldRef.BookmarkName = "MyBookmark";
 fieldRef.Update();
 
-Assert.AreEqual(" REF  MyBookmark", fieldRef.GetFieldCode());
-Assert.AreEqual("Hello world!", fieldRef.Result);
+Assert.That(fieldRef.GetFieldCode(), Is.EqualTo(" REF  MyBookmark"));
+Assert.That(fieldRef.Result, Is.EqualTo("Hello world!"));
 
 doc.Save(ArtifactsDir + "Field.SET.REF.docx");
 ```

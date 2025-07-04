@@ -49,17 +49,17 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.Content
 
 if (exportCidUrlsForMhtmlResources)
 {
-    Assert.True(outDocContents.Contains("Content-ID: <document.html>"));
-    Assert.True(outDocContents.Contains("<link href=3D\"cid:styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"));
-    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }"));
-    Assert.True(outDocContents.Contains("<img src=3D\"cid:image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"));
+    Assert.That(outDocContents.Contains("Content-ID: <document.html>"), Is.True);
+    Assert.That(outDocContents.Contains("<link href=3D\"cid:styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"), Is.True);
+    Assert.That(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('cid:arib=\r\nlk.ttf') }"), Is.True);
+    Assert.That(outDocContents.Contains("<img src=3D\"cid:image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"), Is.True);
 }
 else
 {
-    Assert.True(outDocContents.Contains("Content-Location: document.html"));
-    Assert.True(outDocContents.Contains("<link href=3D\"styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"));
-    Assert.True(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }"));
-    Assert.True(outDocContents.Contains("<img src=3D\"image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"));
+    Assert.That(outDocContents.Contains("Content-Location: document.html"), Is.True);
+    Assert.That(outDocContents.Contains("<link href=3D\"styles.css\" type=3D\"text/css\" rel=3D\"stylesheet\" />"), Is.True);
+    Assert.That(outDocContents.Contains("@font-face { font-family:'Arial Black'; font-weight:bold; src:url('ariblk.t=\r\ntf') }"), Is.True);
+    Assert.That(outDocContents.Contains("<img src=3D\"image.003.jpeg\" width=3D\"350\" height=3D\"180\" alt=3D\"\" />"), Is.True);
 }
 ```
 

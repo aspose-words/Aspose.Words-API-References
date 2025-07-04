@@ -5,7 +5,7 @@ articleTitle: MergerContext
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words LowCode MergerContext class for seamless document merging, enhancing productivity with powerful and efficient solutions.
 type: docs
-weight: 4310
+weight: 4300
 url: /net/aspose.words.lowcode/mergercontext/
 ---
 ## MergerContext class

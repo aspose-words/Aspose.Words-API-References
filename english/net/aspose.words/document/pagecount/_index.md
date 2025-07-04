@@ -31,7 +31,7 @@ builder.InsertBreak(BreakType.PageBreak);
 builder.Write("Page 3");
 
 // Verify the expected page count of the document.
-Assert.AreEqual(3, doc.PageCount);
+Assert.That(doc.PageCount, Is.EqualTo(3));
 
 // Getting the PageCount property invoked the document's page layout to calculate the value.
 // This operation will not need to be re-done when rendering the document to a fixed page save format,

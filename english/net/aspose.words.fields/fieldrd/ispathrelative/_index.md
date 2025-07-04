@@ -36,7 +36,7 @@ builder.Writeln("TOC entry from within this document");
 FieldRD field = (FieldRD)builder.InsertField(FieldType.FieldRefDoc, true);
 field.FileName = ArtifactsDir + "ReferencedDocument.docx";
 
-Assert.AreEqual($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx", field.GetFieldCode());
+Assert.That(field.GetFieldCode(), Is.EqualTo($" RD  {ArtifactsDir.Replace(@"\",@"\\")}ReferencedDocument.docx"));
 
 // Create the document that the RD field is referencing and insert a heading. 
 // This heading will show up as an entry in the TOC field in our first document.

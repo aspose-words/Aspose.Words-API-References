@@ -5,7 +5,7 @@ articleTitle: FieldEditTime
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEditTime class for efficient document editing. Simplify your workflow with powerful EDITTIME field management.
 type: docs
-weight: 2250
+weight: 2240
 url: /net/aspose.words.fields/fieldedittime/
 ---
 ## FieldEditTime class
@@ -74,8 +74,8 @@ builder.Writeln(" minutes.");
 doc.BuiltInDocumentProperties.TotalEditingTime = 10;
 field.Update();
 
-Assert.AreEqual(" EDITTIME ", field.GetFieldCode());
-Assert.AreEqual("10", field.Result);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" EDITTIME "));
+Assert.That(field.Result, Is.EqualTo("10"));
 
 // The field does not update itself in real-time, and will also have to be
 // manually updated in Microsoft Word anytime we need an accurate value.

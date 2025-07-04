@@ -37,8 +37,8 @@ doc.Save(ArtifactsDir + "File.DetectDocumentEncryption.odt", saveOptions);
 // Verify the file type of our document, and its encryption status.
 FileFormatInfo info = FileFormatUtil.DetectFileFormat(ArtifactsDir + "File.DetectDocumentEncryption.odt");
 
-Assert.AreEqual(".odt", FileFormatUtil.LoadFormatToExtension(info.LoadFormat));
-Assert.True(info.IsEncrypted);
+Assert.That(FileFormatUtil.LoadFormatToExtension(info.LoadFormat), Is.EqualTo(".odt"));
+Assert.That(info.IsEncrypted, Is.True);
 ```
 
 ### See Also

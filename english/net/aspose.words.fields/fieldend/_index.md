@@ -5,7 +5,7 @@ articleTitle: FieldEnd
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldEnd class, which efficiently handles Word field endings in documents, enhancing your document processing capabilities.
 type: docs
-weight: 2270
+weight: 2260
 url: /net/aspose.words.fields/fieldend/
 ---
 ## FieldEnd class
@@ -88,7 +88,7 @@ public void FieldCollection()
 
     FieldCollection fields = doc.Range.Fields;
 
-    Assert.AreEqual(6, fields.Count);
+    Assert.That(fields.Count, Is.EqualTo(6));
 
     // Iterate over the field collection, and print contents and type
     // of every field using a custom visitor implementation.

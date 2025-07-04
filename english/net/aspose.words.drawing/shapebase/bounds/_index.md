@@ -38,14 +38,14 @@ shape.StrokeColor = Color.Orange;
 
 // Even though the line itself takes up little space on the document page,
 // it occupies a rectangular containing block, the size of which we can determine using the "Bounds" properties.
-Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.Bounds);
-Assert.AreEqual(new RectangleF(50, 50, 100, 100), shape.BoundsInPoints);
+Assert.That(shape.Bounds, Is.EqualTo(new RectangleF(50, 50, 100, 100)));
+Assert.That(shape.BoundsInPoints, Is.EqualTo(new RectangleF(50, 50, 100, 100)));
 
 // Create a group shape, and then set the size of its containing block using the "Bounds" property.
 GroupShape group = new GroupShape(doc);
 group.Bounds = new RectangleF(0, 100, 250, 250);
 
-Assert.AreEqual(new RectangleF(0, 100, 250, 250), group.BoundsInPoints);
+Assert.That(group.BoundsInPoints, Is.EqualTo(new RectangleF(0, 100, 250, 250)));
 
 // Create a rectangle, verify the size of its bounding block, and then add it to the group shape.
 shape = new Shape(doc, ShapeType.Rectangle)
@@ -56,7 +56,7 @@ shape = new Shape(doc, ShapeType.Rectangle)
     Top = 700
 };
 
-Assert.AreEqual(new RectangleF(700, 700, 100, 100), shape.BoundsInPoints);
+Assert.That(shape.BoundsInPoints, Is.EqualTo(new RectangleF(700, 700, 100, 100)));
 
 group.AppendChild(shape);
 
@@ -66,7 +66,7 @@ group.AppendChild(shape);
 // translates to 1pt in the document body's coordinate plane.
 // Every shape that we insert will also shrink in size by a factor of 4.
 // The change in the shape's "BoundsInPoints" property will reflect this.
-Assert.AreEqual(new RectangleF(175, 275, 25, 25), shape.BoundsInPoints);
+Assert.That(shape.BoundsInPoints, Is.EqualTo(new RectangleF(175, 275, 25, 25)));
 
 doc.FirstSection.Body.FirstParagraph.AppendChild(group);
 
@@ -82,8 +82,8 @@ shape = new Shape(doc, ShapeType.Rectangle)
 group.AppendChild(shape);
 
 // The group shape's footprint in the document body has increased, but the containing block remains the same.
-Assert.AreEqual(new RectangleF(0, 100, 250, 250), group.BoundsInPoints);
-Assert.AreEqual(new RectangleF(250, 350, 25, 25), shape.BoundsInPoints);
+Assert.That(group.BoundsInPoints, Is.EqualTo(new RectangleF(0, 100, 250, 250)));
+Assert.That(shape.BoundsInPoints, Is.EqualTo(new RectangleF(250, 350, 25, 25)));
 
 doc.Save(ArtifactsDir + "Shape.Bounds.docx");
 ```
@@ -98,7 +98,7 @@ Document doc = new Document();
 // select all the other child shapes within this group and allow us to scale and move all the shapes at once.
 GroupShape group = new GroupShape(doc);
 
-Assert.AreEqual(WrapType.None, group.WrapType);
+Assert.That(group.WrapType, Is.EqualTo(WrapType.None));
 
 // Create a 400pt x 400pt group shape and place it at the document's floating shape coordinate origin.
 group.Bounds = new RectangleF(0, 0, 400, 400);

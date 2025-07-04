@@ -39,8 +39,8 @@ builder.Write(" Hello again.");
 // In Microsoft Word, we may click and drag the shape to any paragraph as if it is a character.
 // If the shape is large, it will affect vertical paragraph spacing.
 // We cannot move this shape to a place with no paragraph.
-Assert.AreEqual(WrapType.Inline, shape.WrapType);
-Assert.True(shape.IsInline);
+Assert.That(shape.WrapType, Is.EqualTo(WrapType.Inline));
+Assert.That(shape.IsInline, Is.True);
 
 // 2 -  Floating:
 shape = builder.InsertShape(ShapeType.Rectangle, RelativeHorizontalPosition.LeftMargin, 200,
@@ -52,8 +52,8 @@ shape.FillColor = Color.Orange;
 // If the shape does not have a visible anchor symbol to its left,
 // we will need to enable visible anchors via "Options" -> "Display" -> "Object Anchors".
 // In Microsoft Word, we may left click and drag this shape freely to any location.
-Assert.AreEqual(WrapType.None, shape.WrapType);
-Assert.False(shape.IsInline);
+Assert.That(shape.WrapType, Is.EqualTo(WrapType.None));
+Assert.That(shape.IsInline, Is.False);
 
 doc.Save(ArtifactsDir + "Shape.IsInline.docx");
 ```

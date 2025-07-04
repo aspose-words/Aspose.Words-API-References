@@ -56,12 +56,12 @@ string outDocContents = File.ReadAllText(ArtifactsDir + "HtmlSaveOptions.ExportX
 string newLine = Environment.NewLine;
 
 if (showDoctypeDeclaration)
-    Assert.True(outDocContents.Contains(
+    Assert.That(outDocContents.Contains(
         $"<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>{newLine}" +
         $"<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">{newLine}" +
-        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"));
+        "<html xmlns=\"http://www.w3.org/1999/xhtml\">"), Is.True);
 else
-    Assert.True(outDocContents.Contains("<html>"));
+    Assert.That(outDocContents.Contains("<html>"), Is.True);
 ```
 
 ### See Also

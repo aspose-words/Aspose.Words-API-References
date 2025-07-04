@@ -5,7 +5,7 @@ articleTitle: FieldDocProperty
 second_title: Aspose.Words for .NET
 description: Discover the Aspose.Words.Fields.FieldDocProperty class, designed for seamless integration of DOCPROPERTY fields in your documents for enhanced functionality.
 type: docs
-weight: 2220
+weight: 2210
 url: /net/aspose.words.fields/fielddocproperty/
 ---
 ## FieldDocProperty class
@@ -70,22 +70,22 @@ doc.BuiltInDocumentProperties.Category = "My category";
 FieldDocProperty fieldDocProperty = (FieldDocProperty)builder.InsertField(" DOCPROPERTY Category ");
 fieldDocProperty.Update();
 
-Assert.AreEqual(" DOCPROPERTY Category ", fieldDocProperty.GetFieldCode());
-Assert.AreEqual("My category", fieldDocProperty.Result);
+Assert.That(fieldDocProperty.GetFieldCode(), Is.EqualTo(" DOCPROPERTY Category "));
+Assert.That(fieldDocProperty.Result, Is.EqualTo("My category"));
 
 builder.InsertParagraph();
 
 // 2 -  Display a custom document variable:
 // Define a custom variable, then reference that variable with a DOCPROPERTY field.
-Assert.AreEqual(0, doc.Variables.Count);
+Assert.That(doc.Variables.Count, Is.EqualTo(0));
 doc.Variables.Add("My variable", "My variable's value");
 
 FieldDocVariable fieldDocVariable = (FieldDocVariable)builder.InsertField(FieldType.FieldDocVariable, true);
 fieldDocVariable.VariableName = "My Variable";
 fieldDocVariable.Update();
 
-Assert.AreEqual(" DOCVARIABLE  \"My Variable\"", fieldDocVariable.GetFieldCode());
-Assert.AreEqual("My variable's value", fieldDocVariable.Result);
+Assert.That(fieldDocVariable.GetFieldCode(), Is.EqualTo(" DOCVARIABLE  \"My Variable\""));
+Assert.That(fieldDocVariable.Result, Is.EqualTo("My variable's value"));
 
 doc.Save(ArtifactsDir + "Field.DOCPROPERTY.DOCVARIABLE.docx");
 ```

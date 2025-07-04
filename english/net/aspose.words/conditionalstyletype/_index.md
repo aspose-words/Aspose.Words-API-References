@@ -5,7 +5,7 @@ articleTitle: ConditionalStyleType
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.ConditionalStyleType enum for defining dynamic table formatting. Enhance your document styles with flexible, conditional options!
 type: docs
-weight: 530
+weight: 520
 url: /net/aspose.words/conditionalstyletype/
 ---
 ## ConditionalStyleType enumeration
@@ -65,7 +65,7 @@ tableStyle.ConditionalStyles[ConditionalStyleType.FirstRow].Shading.BackgroundPa
 // 2 -  By index:
 tableStyle.ConditionalStyles[0].Borders.Color = Color.Black;
 tableStyle.ConditionalStyles[0].Borders.LineStyle = LineStyle.DotDash;
-Assert.AreEqual(ConditionalStyleType.FirstRow, tableStyle.ConditionalStyles[0].Type);
+Assert.That(tableStyle.ConditionalStyles[0].Type, Is.EqualTo(ConditionalStyleType.FirstRow));
 
 // 3 -  As a property:
 tableStyle.ConditionalStyles.FirstRow.ParagraphFormat.Alignment = ParagraphAlignment.Center;
@@ -91,8 +91,7 @@ using (IEnumerator<ConditionalStyle> enumerator = tableStyle.ConditionalStyles.G
 table.Style = tableStyle;
 
 // Our style applies some conditional styles by default.
-Assert.AreEqual(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands, 
-    table.StyleOptions);
+Assert.That(table.StyleOptions, Is.EqualTo(TableStyleOptions.FirstRow | TableStyleOptions.FirstColumn | TableStyleOptions.RowBands));
 
 // We will need to enable all other styles ourselves via the "StyleOptions" property.
 table.StyleOptions = table.StyleOptions | TableStyleOptions.LastRow | TableStyleOptions.LastColumn;

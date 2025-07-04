@@ -33,9 +33,9 @@ builder.Write("Current revision #");
 // Insert a REVNUM field, which displays the document's current revision number property.
 FieldRevNum field = (FieldRevNum)builder.InsertField(FieldType.FieldRevisionNum, true);
 
-Assert.AreEqual(" REVNUM ", field.GetFieldCode());
-Assert.AreEqual("1", field.Result);
-Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
+Assert.That(field.GetFieldCode(), Is.EqualTo(" REVNUM "));
+Assert.That(field.Result, Is.EqualTo("1"));
+Assert.That(doc.BuiltInDocumentProperties.RevisionNumber, Is.EqualTo(1));
 
 // This property counts how many times a document has been saved in Microsoft Word,
 // and is unrelated to tracked revisions. We can find it by right clicking the document in Windows Explorer
@@ -43,7 +43,7 @@ Assert.AreEqual(1, doc.BuiltInDocumentProperties.RevisionNumber);
 doc.BuiltInDocumentProperties.RevisionNumber++;
 field.Update();
 
-Assert.AreEqual("2", field.Result);
+Assert.That(field.Result, Is.EqualTo("2"));
 ```
 
 Shows how to work with document properties in the "Origin" category.

@@ -29,22 +29,22 @@ Document doc = new Document(MyDir + "Revision footnotes.docx");
 // invoking the document's "StartTrackRevisions" method and stop tracking by using the "StopTrackRevisions" method.
 // We can either accept revisions to assimilate them into the document
 // or reject them to undo and discard the proposed change.
-Assert.IsTrue(doc.HasRevisions);
+Assert.That(doc.HasRevisions, Is.True);
 
 List<Footnote> footnotes = doc.GetChildNodes(NodeType.Footnote, true).Cast<Footnote>().ToList();
 
-Assert.AreEqual(5, footnotes.Count);
+Assert.That(footnotes.Count, Is.EqualTo(5));
 
 // Below are five types of revisions that can flag an InlineStory node.
 // 1 -  An "insert" revision:
 // This revision occurs when we insert text while tracking changes.
-Assert.IsTrue(footnotes[2].IsInsertRevision);
+Assert.That(footnotes[2].IsInsertRevision, Is.True);
 
 // 2 -  A "move from" revision:
 // When we highlight text in Microsoft Word, and then drag it to a different place in the document
 // while tracking changes, two revisions appear.
 // The "move from" revision is a copy of the text originally before we moved it.
-Assert.IsTrue(footnotes[4].IsMoveFromRevision);
+Assert.That(footnotes[4].IsMoveFromRevision, Is.True);
 
 // 3 -  A "move to" revision:
 // The "move to" revision is the text that we moved in its new position in the document.
@@ -52,13 +52,13 @@ Assert.IsTrue(footnotes[4].IsMoveFromRevision);
 // Accepting a move revision deletes the "move from" revision and its text,
 // and keeps the text from the "move to" revision.
 // Rejecting a move revision conversely keeps the "move from" revision and deletes the "move to" revision.
-Assert.IsTrue(footnotes[1].IsMoveToRevision);
+Assert.That(footnotes[1].IsMoveToRevision, Is.True);
 
 // 4 -  A "delete" revision:
 // This revision occurs when we delete text while tracking changes. When we delete text like this,
 // it will stay in the document as a revision until we either accept the revision,
 // which will delete the text for good, or reject the revision, which will keep the text we deleted where it was.
-Assert.IsTrue(footnotes[3].IsDeleteRevision);
+Assert.That(footnotes[3].IsDeleteRevision, Is.True);
 ```
 
 ### See Also

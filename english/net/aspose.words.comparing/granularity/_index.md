@@ -5,7 +5,7 @@ articleTitle: Granularity
 second_title: Aspose.Words for .NET
 description: Discover Aspose.Words.Comparing.Granularity enum to effortlessly track document changes with precision. Enhance your document comparison today!
 type: docs
-weight: 490
+weight: 480
 url: /net/aspose.words.comparing/granularity/
 ---
 ## Granularity enumeration
@@ -45,7 +45,7 @@ docA.Compare(docB, "author", DateTime.Now, compareOptions);
 
 // The first document's collection of revision groups contains all the differences between documents.
 RevisionGroupCollection groups = docA.Revisions.Groups;
-Assert.AreEqual(5, groups.Count);
+Assert.That(groups.Count, Is.EqualTo(5));
 ```
 
 ### See Also
