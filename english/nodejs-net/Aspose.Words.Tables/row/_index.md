@@ -46,6 +46,7 @@ A minimal valid row needs to have at least one [Cell](../cell/).
 | [firstCell](./firstCell/) | Returns the first [Cell](../cell/) in the row. |
 | [firstChild](../../aspose.words/compositenode/firstChild/) | Gets the first child of the node.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
 | [hasChildNodes](../../aspose.words/compositenode/hasChildNodes/) | Returns ``true`` if this node has any child nodes.<br>(Inherited from [CompositeNode](../../aspose.words/compositenode/)) |
+| [hidden](./hidden/) | Gets or sets a flag indicating whether this row is hidden or not. |
 | [isComposite](../../aspose.words/node/isComposite/) | Returns ``true`` if this node can contain other nodes.<br>(Inherited from [Node](../../aspose.words/node/)) |
 | [isFirstRow](./isFirstRow/) | True if this is the first row in a table; false otherwise. |
 | [isLastRow](./isLastRow/) | True if this is the last row in a table; false otherwise. |

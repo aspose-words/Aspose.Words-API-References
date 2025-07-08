@@ -5,7 +5,7 @@ articleTitle: createGpt4OMini method
 second_title: Aspose.Words for Node.js
 description: "AiModel.createGpt4OMini method. Creates a new instance of GPT-4 mini generative model type."
 type: docs
-weight: 150
+weight: 160
 url: /nodejs-net/aspose.words.ai/aimodel/createGpt4OMini/
 ---
 

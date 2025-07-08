@@ -5,7 +5,7 @@ articleTitle: nextRow property
 second_title: Aspose.Words for Node.js
 description: "Row.nextRow property. Gets the next [Row](../) node."
 type: docs
-weight: 70
+weight: 80
 url: /nodejs-net/aspose.words.tables/row/nextRow/
 ---
 

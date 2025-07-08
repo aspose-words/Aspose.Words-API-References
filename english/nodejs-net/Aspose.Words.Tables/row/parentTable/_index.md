@@ -5,7 +5,7 @@ articleTitle: parentTable property
 second_title: Aspose.Words for Node.js
 description: "Row.parentTable property. Returns the immediate parent table of the row."
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words.tables/row/parentTable/
 ---
 

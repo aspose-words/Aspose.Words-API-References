@@ -69,6 +69,33 @@ To store an image inside a shape use the [ImageData.setImage()](./setImage/#stri
 
 ### Examples
 
+Shows how to extract images from a document, and save them to the local file system as individual files.
+
+```js
+let doc = new aw.Document(base.myDir + "Images.docx");
+
+// Get the collection of shapes from the document,
+// and save the image data of every shape with an image as a file to the local file system.
+let nodes = [...doc.getChildNodes(aw.NodeType.Shape, true)];
+
+expect(nodes.filter(s => s.asShape().hasImage).length).toEqual(9);
+
+let imageIndex = 0;
+for (let node of nodes)
+{
+  let shape = node.asShape();
+  if (shape.hasImage)
+  {
+    // The image data of shapes may contain images of many possible image formats. 
+    // We can determine a file extension for each image automatically, based on its format.
+    let imageFileName =
+      `File.ExtractImages.${imageIndex}${aw.FileFormatUtil.imageTypeToExtension(shape.imageData.imageType)}`;
+    shape.imageData.save(base.artifactsDir + imageFileName);
+    imageIndex++;
+  }
+}
+```
+
 Shows how to insert a linked image into a document.
 
 ```js
@@ -104,33 +131,6 @@ doc.save(base.artifactsDir + "Image.CreateLinkedImage.linked.docx");
 // However, the document can only display the image correctly while
 // the image file is present at the location that the shape's "SourceFullName" property points to.
 expect(10000 > fs.statSync(base.artifactsDir + "Image.CreateLinkedImage.linked.docx").size).toBeTruthy();
-```
-
-Shows how to extract images from a document, and save them to the local file system as individual files.
-
-```js
-let doc = new aw.Document(base.myDir + "Images.docx");
-
-// Get the collection of shapes from the document,
-// and save the image data of every shape with an image as a file to the local file system.
-let nodes = [...doc.getChildNodes(aw.NodeType.Shape, true)];
-
-expect(nodes.filter(s => s.asShape().hasImage).length).toEqual(9);
-
-let imageIndex = 0;
-for (let node of nodes)
-{
-  let shape = node.asShape();
-  if (shape.hasImage)
-  {
-    // The image data of shapes may contain images of many possible image formats. 
-    // We can determine a file extension for each image automatically, based on its format.
-    let imageFileName =
-      `File.ExtractImages.${imageIndex}${aw.FileFormatUtil.imageTypeToExtension(shape.imageData.imageType)}`;
-    shape.imageData.save(base.artifactsDir + imageFileName);
-    imageIndex++;
-  }
-}
 ```
 
 ### See Also

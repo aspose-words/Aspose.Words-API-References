@@ -1,12 +1,12 @@
 ﻿---
-title: IAiModelText.translate method
+title: AiModel.translate method
 linktitle: translate method
 articleTitle: translate method
 second_title: Aspose.Words for Node.js
-description: "IAiModelText.translate method. Translates the provided document into the specified target language"
+description: "AiModel.translate method. Translates the provided document into the specified target language"
 type: docs
-weight: 30
-url: /nodejs-net/aspose.words.ai/iaimodeltext/translate/
+weight: 200
+url: /nodejs-net/aspose.words.ai/aimodel/translate/
 ---
 
 ## translate(sourceDocument, targetLanguage) {#document_language}
@@ -32,5 +32,5 @@ A new [Document](../../../aspose.words/document/) object containing the translat
 ### See Also
 
 * module [Aspose.Words.AI](../../)
-* class [IAiModelText](../)
+* class [AiModel](../)
 

@@ -5,7 +5,7 @@ articleTitle: createClaude3Sonnet method
 second_title: Aspose.Words for Node.js
 description: "AiModel.createClaude3Sonnet method. Creates a new instance of Claude 3 Sonnet generative model type."
 type: docs
-weight: 90
+weight: 100
 url: /nodejs-net/aspose.words.ai/aimodel/createClaude3Sonnet/
 ---
 

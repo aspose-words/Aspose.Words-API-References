@@ -1,21 +1,21 @@
 ﻿---
-title: MultiPageLayout.singlePage property
-linktitle: singlePage property
-articleTitle: singlePage property
+title: MultiPageLayout.singlePage method
+linktitle: singlePage method
+articleTitle: singlePage method
 second_title: Aspose.Words for Node.js
-description: "MultiPageLayout.singlePage property. Creates a layout that renders only the first of specified pages."
+description: "MultiPageLayout.singlePage method. Creates a layout that renders only the first of specified pages."
 type: docs
-weight: 40
+weight: 60
 url: /nodejs-net/aspose.words.saving/multipagelayout/singlePage/
 ---
 
-## MultiPageLayout.singlePage property
+## singlePage() {#default}
 
 Creates a layout that renders only the first of specified pages.
 
 
 ```js
-get singlePage(): Aspose.Words.Saving.MultiPageLayout
+singlePage()
 ```
 
 ### See Also
