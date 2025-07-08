@@ -5,7 +5,7 @@ articleTitle: matchNode property
 second_title: Aspose.Words for Node.js
 description: "ReplacingArgs.matchNode property. Gets the node that contains the beginning of the match."
 type: docs
-weight: 30
+weight: 40
 url: /nodejs-net/aspose.words.replacing/replacingargs/matchNode/
 ---
 

@@ -23,7 +23,7 @@ An abstract class representing the integration with Google’s AI models within 
 |[ asAnthropicAiModel()](../aimodel/asAnthropicAiModel/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/).<br>(Inherited from [AiModel](../aimodel/)) |
 |[ asGoogleAiModel()](../aimodel/asGoogleAiModel/#default) | Cast AiModel to [GoogleAiModel](./).<br>(Inherited from [AiModel](../aimodel/)) |
 |[ asOpenAiModel()](../aimodel/asOpenAiModel/#default) | Cast AiModel to [OpenAiModel](../openaimodel/).<br>(Inherited from [AiModel](../aimodel/)) |
-|[ checkGrammar(doc, options)](./checkGrammar/#document_checkgrammaroptions) | Checks grammar of the provided document. |
+|[ checkGrammar(sourceDocument, options)](../aimodel/checkGrammar/#document_checkgrammaroptions) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ create(modelType)](../aimodel/create/#aimodeltype) | Creates a new instance of [AiModel](../aimodel/) class.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createClaude35Haiku()](../aimodel/createClaude35Haiku/#default) | Creates a new instance of Claude 3.5 Haiku generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ createClaude35Sonnet()](../aimodel/createClaude35Sonnet/#default) | Creates a new instance of Claude 3.5 Sonnet generative model type.<br>(Inherited from [AiModel](../aimodel/)) |
@@ -40,7 +40,7 @@ An abstract class representing the integration with Google’s AI models within 
 |[ setApiKey(apiKey)](../aimodel/setApiKey/#string) | Sets a specified API key to the model.<br>(Inherited from [AiModel](../aimodel/)) |
 |[ summarize(doc, options)](./summarize/#document_summarizeoptions) | Summarizes specified [Document](../../aspose.words/document/) object. |
 |[ summarize(docs, options)](./summarize/#document[]_summarizeoptions) | Summarizes specified [Document](../../aspose.words/document/) objects. |
-|[ translate(doc, language)](./translate/#document_language) | Translates specified [Document](../../aspose.words/document/) object. |
+|[ translate(doc, language)](./translate/#document_language) | Translates a specified document. |
 
 ### Examples
 

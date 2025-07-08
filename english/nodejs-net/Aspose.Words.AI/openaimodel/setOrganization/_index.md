@@ -5,7 +5,7 @@ articleTitle: setOrganization method
 second_title: Aspose.Words for Node.js
 description: "OpenAiModel.setOrganization method. Sets a specified Organization to the model."
 type: docs
-weight: 20
+weight: 10
 url: /nodejs-net/aspose.words.ai/openaimodel/setOrganization/
 ---
 

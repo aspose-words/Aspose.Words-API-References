@@ -5,7 +5,7 @@ articleTitle: createClaude3Opus method
 second_title: Aspose.Words for Node.js
 description: "AiModel.createClaude3Opus method. Creates a new instance of Claude 3 Opus generative model type."
 type: docs
-weight: 80
+weight: 90
 url: /nodejs-net/aspose.words.ai/aimodel/createClaude3Opus/
 ---
 

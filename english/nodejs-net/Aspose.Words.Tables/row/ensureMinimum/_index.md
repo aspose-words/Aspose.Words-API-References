@@ -5,7 +5,7 @@ articleTitle: ensureMinimum method
 second_title: Aspose.Words for Node.js
 description: "Row.ensureMinimum method. If the [Row](../) has no cells, creates and appends one [Cell](../../cell/)."
 type: docs
-weight: 120
+weight: 130
 url: /nodejs-net/aspose.words.tables/row/ensureMinimum/
 ---
 

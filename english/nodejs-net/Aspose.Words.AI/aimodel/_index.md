@@ -21,6 +21,7 @@ Represents information about a Generative Language Model.
 |[ asAnthropicAiModel()](./asAnthropicAiModel/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/). |
 |[ asGoogleAiModel()](./asGoogleAiModel/#default) | Cast AiModel to [GoogleAiModel](../googleaimodel/). |
 |[ asOpenAiModel()](./asOpenAiModel/#default) | Cast AiModel to [OpenAiModel](../openaimodel/). |
+|[ checkGrammar(sourceDocument, options)](./checkGrammar/#document_checkgrammaroptions) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document. |
 |[ create(modelType)](./create/#aimodeltype) | Creates a new instance of [AiModel](./) class. |
 |[ createClaude35Haiku()](./createClaude35Haiku/#default) | Creates a new instance of Claude 3.5 Haiku generative model type. |
 |[ createClaude35Sonnet()](./createClaude35Sonnet/#default) | Creates a new instance of Claude 3.5 Sonnet generative model type. |
@@ -35,6 +36,9 @@ Represents information about a Generative Language Model.
 |[ createGpt4OMini()](./createGpt4OMini/#default) | Creates a new instance of GPT-4 mini generative model type. |
 |[ createGpt4Turbo()](./createGpt4Turbo/#default) | Creates a new instance of GPT-4 Turbo generative model type. |
 |[ setApiKey(apiKey)](./setApiKey/#string) | Sets a specified API key to the model. |
+|[ summarize(sourceDocument, options)](./summarize/#document_summarizeoptions) | Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing. |
+|[ summarize(sourceDocuments, options)](./summarize/#document[]_summarizeoptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array. |
+|[ translate(sourceDocument, targetLanguage)](./translate/#document_language) | Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating. |
 
 ### Examples
 

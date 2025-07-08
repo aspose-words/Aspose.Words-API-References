@@ -5,7 +5,7 @@ articleTitle: isLastRow property
 second_title: Aspose.Words for Node.js
 description: "Row.isLastRow property. True if this is the last row in a table; false otherwise."
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words.tables/row/isLastRow/
 ---
 

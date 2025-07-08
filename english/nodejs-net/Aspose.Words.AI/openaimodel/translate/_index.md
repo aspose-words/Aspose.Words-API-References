@@ -3,26 +3,31 @@ title: OpenAiModel.translate method
 linktitle: translate method
 articleTitle: translate method
 second_title: Aspose.Words for Node.js
-description: "OpenAiModel.translate method. Translates specified [Document](../../../aspose.words/document/) objects."
+description: "OpenAiModel.translate method. Translates the provided document into the specified target language"
 type: docs
-weight: 50
+weight: 40
 url: /nodejs-net/aspose.words.ai/openaimodel/translate/
 ---
 
-## translate(doc, language) {#document_language}
+## translate(sourceDocument, targetLanguage) {#document_language}
 
-Translates specified [Document](../../../aspose.words/document/) objects.
-
+Translates the provided document into the specified target language.
+This operation leverages the connected AI model for content translating.
 
 
 ```js
-translate(doc: Aspose.Words.Document, language: Aspose.Words.AI.Language)
+translate(sourceDocument: Aspose.Words.Document, targetLanguage: Aspose.Words.AI.Language)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../../aspose.words/document/) |  |
-| language | [Language](../../language/) |  |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be translated. |
+| targetLanguage | [Language](../../language/) | The language into which the document will be translated. |
+
+### Returns
+
+A new [Document](../../../aspose.words/document/) object containing the translated document.
+
 
 ### See Also
 

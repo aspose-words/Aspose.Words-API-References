@@ -5,7 +5,7 @@ articleTitle: createClaude35Haiku method
 second_title: Aspose.Words for Node.js
 description: "AiModel.createClaude35Haiku method. Creates a new instance of Claude 3.5 Haiku generative model type."
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words.ai/aimodel/createClaude35Haiku/
 ---
 

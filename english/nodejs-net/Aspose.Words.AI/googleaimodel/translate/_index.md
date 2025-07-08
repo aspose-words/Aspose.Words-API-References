@@ -3,16 +3,15 @@ title: GoogleAiModel.translate method
 linktitle: translate method
 articleTitle: translate method
 second_title: Aspose.Words for Node.js
-description: "GoogleAiModel.translate method. Translates specified [Document](../../../aspose.words/document/) object."
+description: "GoogleAiModel.translate method. Translates a specified document."
 type: docs
-weight: 30
+weight: 20
 url: /nodejs-net/aspose.words.ai/googleaimodel/translate/
 ---
 
 ## translate(doc, language) {#document_language}
 
-Translates specified [Document](../../../aspose.words/document/) object.
-
+Translates a specified document.
 
 
 ```js
