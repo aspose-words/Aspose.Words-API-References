@@ -5,7 +5,7 @@ articleTitle: replacement property
 second_title: Aspose.Words for Node.js
 description: "ReplacingArgs.replacement property. Gets or sets the replacement string."
 type: docs
-weight: 50
+weight: 60
 url: /nodejs-net/aspose.words.replacing/replacingargs/replacement/
 ---
 

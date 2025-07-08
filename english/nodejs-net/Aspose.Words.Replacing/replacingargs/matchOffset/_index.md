@@ -5,7 +5,7 @@ articleTitle: matchOffset property
 second_title: Aspose.Words for Node.js
 description: "ReplacingArgs.matchOffset property. Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match."
 type: docs
-weight: 40
+weight: 50
 url: /nodejs-net/aspose.words.replacing/replacingargs/matchOffset/
 ---
 

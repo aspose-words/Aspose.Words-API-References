@@ -23,8 +23,8 @@ get pageLayout(): Aspose.Words.Saving.MultiPageLayout
 Use one of the factory methods of [MultiPageLayout](../../multipagelayout/) to configure this property.
 
 
-For [SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff) the default value is [MultiPageLayout.tiffFrames](../../multipagelayout/tiffFrames/).
-For other formats the default value is [MultiPageLayout.singlePage](../../multipagelayout/singlePage/).
+For [SaveFormat.Tiff](../../../aspose.words/saveformat/#Tiff) the default value is [MultiPageLayout.tiffFrames()](../../multipagelayout/tiffFrames/#default).
+For other formats the default value is [MultiPageLayout.singlePage()](../../multipagelayout/singlePage/#default).
 
 
 This property has effect only when saving to the following formats:

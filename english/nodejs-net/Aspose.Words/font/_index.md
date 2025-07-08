@@ -95,6 +95,21 @@ You do not create instances of the [Font](./) class directly. You just use
 
 ### Examples
 
+Shows how to insert a string surrounded by a border into a document.
+
+```js
+let doc = new aw.Document();
+let builder = new aw.DocumentBuilder(doc);
+
+builder.font.border.color = "#008000";
+builder.font.border.lineWidth = 2.5;
+builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
+
+builder.write("Text surrounded by green border.");
+
+doc.save(base.artifactsDir + "Border.FontBorder.docx");
+```
+
 Shows how to format a run of text using its font property.
 
 ```js
@@ -135,21 +150,6 @@ builder.paragraphFormat.style = doc.styles.at("Normal");
 builder.writeln("Hello World: Normal.");
 
 builder.document.save(base.artifactsDir + "Styles.ParagraphStyleBulletedList.docx");
-```
-
-Shows how to insert a string surrounded by a border into a document.
-
-```js
-let doc = new aw.Document();
-let builder = new aw.DocumentBuilder(doc);
-
-builder.font.border.color = "#008000";
-builder.font.border.lineWidth = 2.5;
-builder.font.border.lineStyle = aw.LineStyle.DashDotStroker;
-
-builder.write("Text surrounded by green border.");
-
-doc.save(base.artifactsDir + "Border.FontBorder.docx");
 ```
 
 ### See Also

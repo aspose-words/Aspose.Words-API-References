@@ -41,6 +41,26 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 
 ### Examples
 
+Shows how to remove the first and last rows of all tables in a document.
+
+```js
+let doc = new aw.Document(base.myDir + "Tables.docx");
+
+let tables = doc.firstSection.body.tables.toArray();
+
+expect(tables[0].rows.count).toEqual(5);
+expect(tables[1].rows.count).toEqual(4);
+
+for (var table of tables)
+{
+  table.firstRow?.remove();
+  table.lastRow?.remove();
+}
+
+expect(tables[0].rows.count).toEqual(3);
+expect(tables[1].rows.count).toEqual(2);
+```
+
 Shows how to find out if a tables are nested.
 
 ```js
@@ -111,26 +131,6 @@ function getChildTableCount(table) {
 
   return childTableCount;
 }
-```
-
-Shows how to remove the first and last rows of all tables in a document.
-
-```js
-let doc = new aw.Document(base.myDir + "Tables.docx");
-
-let tables = doc.firstSection.body.tables.toArray();
-
-expect(tables[0].rows.count).toEqual(5);
-expect(tables[1].rows.count).toEqual(4);
-
-for (var table of tables)
-{
-  table.firstRow?.remove();
-  table.lastRow?.remove();
-}
-
-expect(tables[0].rows.count).toEqual(3);
-expect(tables[1].rows.count).toEqual(2);
 ```
 
 ### See Also

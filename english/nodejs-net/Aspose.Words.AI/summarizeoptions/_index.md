@@ -5,7 +5,7 @@ articleTitle: SummarizeOptions class
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.SummarizeOptions class. Allows to specify various options for summarizing document content."
 type: docs
-weight: 90
+weight: 80
 url: /nodejs-net/aspose.words.ai/summarizeoptions/
 ---
 

@@ -29,7 +29,6 @@ This functionality extends the power of document automation, facilitating effici
 | [GoogleAiModel](./googleaimodel/) | An abstract class representing the integration with Google’s AI models within the Aspose.Words. |
 | [OpenAiModel](./openaimodel/) | An abstract class representing the integration with OpenAI's large language models within the Aspose.Words. |
 | [SummarizeOptions](./summarizeoptions/) | Allows to specify various options for summarizing document content. |
-| [IAiModelText](./iaimodeltext/) | The common interface for AI models designed to generate a variety of text-based content. |
 
 ## Enumerations
 

@@ -28,7 +28,6 @@ To learn more, visit the [Working with Tables](https://docs.aspose.com/words/nod
 | [allowBreakAcrossPages](./allowBreakAcrossPages/) | Gets or sets a flag indicating whether text in a table row is allowed to split across a page break. |
 | [automaticallyUpdate](../style/automaticallyUpdate/) | Specifies whether this style is automatically redefined based on the appropriate value.<br>(Inherited from [Style](../style/)) |
 | [baseStyleName](../style/baseStyleName/) | Gets/sets the name of the style this style is based on.<br>(Inherited from [Style](../style/)) |
-| [bidi](./bidi/) | Gets or sets whether this is a style for a right-to-left table. |
 | [borders](./borders/) | Gets the collection of default cell borders for the style. |
 | [bottomPadding](./bottomPadding/) | Gets or sets the amount of space (in points) to add below the contents of table cells. |
 | [builtIn](../style/builtIn/) | True if this style is one of the built-in styles in MS Word.<br>(Inherited from [Style](../style/)) |

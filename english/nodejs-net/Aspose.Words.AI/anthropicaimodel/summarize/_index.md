@@ -5,39 +5,49 @@ articleTitle: summarize method
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.AnthropicAiModel.summarize method"
 type: docs
-weight: 20
+weight: 10
 url: /nodejs-net/aspose.words.ai/anthropicaimodel/summarize/
 ---
 
-## summarize(doc, options) {#document_summarizeoptions}
+## summarize(sourceDocument, options) {#document_summarizeoptions}
 
-Summarizes specified [Document](../../../aspose.words/document/) object.
-
+Generates a summary of the specified document, with options to adjust the length of the summary.
+This operation leverages the connected AI model for content processing.
 
 
 ```js
-summarize(doc: Aspose.Words.Document, options: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocument: Aspose.Words.Document, options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| doc | [Document](../../../aspose.words/document/) |  |
-| options | [SummarizeOptions](../../summarizeoptions/) |  |
+| sourceDocument | [Document](../../../aspose.words/document/) | The document to be summarized. |
+| options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters. |
 
-## summarize(docs, options) {#document[]_summarizeoptions}
+### Returns
 
-Summarizes specified [Document](../../../aspose.words/document/) objects.
+A summarized version of the document's content.
 
+
+## summarize(sourceDocuments, options) {#document[]_summarizeoptions}
+
+Generates summaries for an array of documents, with options to control the summary length and other settings.
+This method utilizes the connected AI model for processing each document in the array.
 
 
 ```js
-summarize(docs: Aspose.Words.Document[], options: Aspose.Words.AI.SummarizeOptions)
+summarize(sourceDocuments: Aspose.Words.Document[], options: Aspose.Words.AI.SummarizeOptions)
 ```
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| docs | [Document](../../../aspose.words/document/)[] |  |
-| options | [SummarizeOptions](../../summarizeoptions/) |  |
+| sourceDocuments | [Document](../../../aspose.words/document/)[] | An array of documents to be summarized. |
+| options | [SummarizeOptions](../../summarizeoptions/) | Optional settings to control the summary length and other parameters |
+
+### Returns
+
+A summarized version of the document's content.
+
 
 ## See Also
 

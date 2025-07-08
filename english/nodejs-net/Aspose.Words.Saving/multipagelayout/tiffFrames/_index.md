@@ -1,22 +1,22 @@
 ﻿---
-title: MultiPageLayout.tiffFrames property
-linktitle: tiffFrames property
-articleTitle: tiffFrames property
+title: MultiPageLayout.tiffFrames method
+linktitle: tiffFrames method
+articleTitle: tiffFrames method
 second_title: Aspose.Words for Node.js
-description: "MultiPageLayout.tiffFrames property. Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image"
+description: "MultiPageLayout.tiffFrames method. Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image"
 type: docs
-weight: 50
+weight: 70
 url: /nodejs-net/aspose.words.saving/multipagelayout/tiffFrames/
 ---
 
-## MultiPageLayout.tiffFrames property
+## tiffFrames() {#default}
 
 Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image.
 Applicable only to TIFF image formats.
 
 
 ```js
-get tiffFrames(): Aspose.Words.Saving.MultiPageLayout
+tiffFrames()
 ```
 
 ### See Also

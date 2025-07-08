@@ -5,7 +5,7 @@ articleTitle: Language enumeration
 second_title: Aspose.Words for Node.js
 description: "Aspose.Words.AI.Language enumeration. Specifies the language into which the text will be translated using AI"
 type: docs
-weight: 70
+weight: 60
 url: /nodejs-net/aspose.words.ai/language/
 ---
 
@@ -327,5 +327,4 @@ Specifies the language into which the text will be translated using AI.
 ### See Also
 
 * module [Aspose.Words.AI](../)
-* method [IAiModelText.translate()](../iaimodeltext/translate/#document_language)
 
