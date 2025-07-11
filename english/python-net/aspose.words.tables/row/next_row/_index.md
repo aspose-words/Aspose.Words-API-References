@@ -5,7 +5,7 @@ articleTitle: next_row property
 second_title: Aspose.Words for Python
 description: "Row.next_row property. Gets the next [Row](../) node."
 type: docs
-weight: 70
+weight: 80
 url: /python-net/aspose.words.tables/row/next_row/
 ---
 

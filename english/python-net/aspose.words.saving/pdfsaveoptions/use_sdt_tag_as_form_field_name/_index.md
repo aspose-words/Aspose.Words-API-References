@@ -5,7 +5,7 @@ articleTitle: use_sdt_tag_as_form_field_name property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.use_sdt_tag_as_form_field_name property. Specifies whether to use SDT control Tag or Id property as a name of form field in PDF."
 type: docs
-weight: 350
+weight: 340
 url: /python-net/aspose.words.saving/pdfsaveoptions/use_sdt_tag_as_form_field_name/
 ---
 

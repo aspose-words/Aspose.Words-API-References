@@ -5,7 +5,7 @@ articleTitle: render_choice_form_field_border property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.render_choice_form_field_border property. Specifies whether to render PDF choice form field border."
 type: docs
-weight: 300
+weight: 290
 url: /python-net/aspose.words.saving/pdfsaveoptions/render_choice_form_field_border/
 ---
 

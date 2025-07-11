@@ -3,7 +3,7 @@ title: AiModel class
 linktitle: AiModel class
 articleTitle: AiModel class
 second_title: Aspose.Words for Python
-description: "aspose.words.ai.AiModel class. Represents information about a Generative Language Model."
+description: "aspose.words.ai.AiModel class. An abstract class representing the integration with various AI models within the Aspose.Words."
 type: docs
 weight: 10
 url: /python-net/aspose.words.ai/aimodel/
@@ -11,7 +11,7 @@ url: /python-net/aspose.words.ai/aimodel/
 
 ## AiModel class
 
-Represents information about a Generative Language Model.
+An abstract class representing the integration with various AI models within the Aspose.Words.
 
 
 ### Methods
@@ -21,7 +21,11 @@ Represents information about a Generative Language Model.
 |[ as_anthropic_ai_model()](./as_anthropic_ai_model/#default) | Cast AiModel to [AnthropicAiModel](../anthropicaimodel/). |
 |[ as_google_ai_model()](./as_google_ai_model/#default) | Cast AiModel to [GoogleAiModel](../googleaimodel/). |
 |[ as_open_ai_model()](./as_open_ai_model/#default) | Cast AiModel to [OpenAiModel](../openaimodel/). |
+|[ check_grammar(source_document, options)](./check_grammar/#document_checkgrammaroptions) | Checks grammar of the provided document. This operation leverages the connected AI model for checking grammar of document. |
 |[ create(model_type)](./create/#aimodeltype) | Creates a new instance of [AiModel](./) class. |
+|[ summarize(source_document, options)](./summarize/#document_summarizeoptions) | Generates a summary of the specified document, with options to adjust the length of the summary. This operation leverages the connected AI model for content processing. |
+|[ summarize(source_documents, options)](./summarize/#documentlist_summarizeoptions) | Generates summaries for an array of documents, with options to control the summary length and other settings. This method utilizes the connected AI model for processing each document in the array. |
+|[ translate(source_document, target_language)](./translate/#document_language) | Translates the provided document into the specified target language. This operation leverages the connected AI model for content translating. |
 |[ with_api_key(api_key)](./with_api_key/#str) | Sets a specified API key to the model. |
 
 ### Examples

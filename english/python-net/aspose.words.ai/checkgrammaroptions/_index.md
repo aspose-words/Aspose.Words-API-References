@@ -35,7 +35,7 @@ Shows how to check the grammar of a document.
 doc = aw.Document(file_name=MY_DIR + 'Big document.docx')
 api_key = system_helper.environment.Environment.get_environment_variable('API_KEY')
 # Use OpenAI generative language models.
-model = aw.ai.AiModel.create(aw.ai.AiModelType.GPT_4O_MINI).with_api_key(api_key).as_open_ai_model()
+model = aw.ai.AiModel.create(aw.ai.AiModelType.GPT_4O_MINI).with_api_key(api_key)
 grammar_options = aw.ai.CheckGrammarOptions()
 grammar_options.improve_stylistics = True
 proofed_doc = model.check_grammar(doc, grammar_options)

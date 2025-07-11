@@ -5,7 +5,7 @@ articleTitle: node_type property
 second_title: Aspose.Words for Python
 description: "Row.node_type property. Returns [NodeType.ROW](../../../aspose.words/nodetype/#ROW)."
 type: docs
-weight: 80
+weight: 90
 url: /python-net/aspose.words.tables/row/node_type/
 ---
 

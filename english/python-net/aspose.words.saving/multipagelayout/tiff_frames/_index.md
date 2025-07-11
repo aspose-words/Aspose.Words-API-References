@@ -1,25 +1,23 @@
 ﻿---
-title: MultiPageLayout.tiff_frames property
-linktitle: tiff_frames property
-articleTitle: tiff_frames property
+title: MultiPageLayout.tiff_frames method
+linktitle: tiff_frames method
+articleTitle: tiff_frames method
 second_title: Aspose.Words for Python
-description: "MultiPageLayout.tiff_frames property. Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image"
+description: "MultiPageLayout.tiff_frames method. Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image"
 type: docs
-weight: 50
+weight: 70
 url: /python-net/aspose.words.saving/multipagelayout/tiff_frames/
 ---
 
-## MultiPageLayout.tiff_frames property
+## tiff_frames() {#default}
 
 Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image.
 Applicable only to TIFF image formats.
 
 
 ```python
-@property
-def tiff_frames(self) -> aspose.words.saving.MultiPageLayout:
+def tiff_frames(self):
     ...
-
 ```
 
 ### See Also
