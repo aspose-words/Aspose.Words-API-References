@@ -5,7 +5,7 @@ articleTitle: horizontal method
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.horizontal method. Creates a layout in which all specified pages are rendered horizontally side by side, left to right, in a single output."
 type: docs
-weight: 70
+weight: 50
 url: /python-net/aspose.words.saving/multipagelayout/horizontal/
 ---
 

@@ -43,7 +43,6 @@ To learn more, visit the [Specify Save Options](https://docs.aspose.com/words/py
 | [dml_effects_rendering_mode](./dml_effects_rendering_mode/) | Gets or sets a value determining how DrawingML effects are rendered. |
 | [dml_rendering_mode](../saveoptions/dml_rendering_mode/) | Gets or sets a value determining how DrawingML shapes are rendered.<br>(Inherited from [SaveOptions](../saveoptions/)) |
 | [downsample_options](./downsample_options/) | Allows to specify downsample options. |
-| [embed_attachments](./embed_attachments/) | Gets or sets a value determining whether or not to embed attachments to the PDF document. |
 | [embed_full_fonts](./embed_full_fonts/) | Controls how fonts are embedded into the resulting PDF documents. |
 | [encryption_details](./encryption_details/) | Gets or sets the details for encrypting the output PDF document. |
 | [export_document_structure](./export_document_structure/) | Gets or sets a value determining whether or not to export document structure. |

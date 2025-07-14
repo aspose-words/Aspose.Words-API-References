@@ -5,7 +5,7 @@ articleTitle: export_document_structure property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.export_document_structure property. Gets or sets a value determining whether or not to export document structure."
 type: docs
-weight: 150
+weight: 140
 url: /python-net/aspose.words.saving/pdfsaveoptions/export_document_structure/
 ---
 

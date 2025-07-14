@@ -5,7 +5,7 @@ articleTitle: is_first_row property
 second_title: Aspose.Words for Python
 description: "Row.is_first_row property. True if this is the first row in a table; false otherwise."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.tables/row/is_first_row/
 ---
 

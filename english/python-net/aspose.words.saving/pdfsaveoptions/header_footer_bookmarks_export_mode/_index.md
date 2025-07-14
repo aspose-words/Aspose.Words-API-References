@@ -5,7 +5,7 @@ articleTitle: header_footer_bookmarks_export_mode property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.header_footer_bookmarks_export_mode property. Determines how bookmarks in headers/footers are exported."
 type: docs
-weight: 190
+weight: 180
 url: /python-net/aspose.words.saving/pdfsaveoptions/header_footer_bookmarks_export_mode/
 ---
 

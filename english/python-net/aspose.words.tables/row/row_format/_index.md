@@ -5,7 +5,7 @@ articleTitle: row_format property
 second_title: Aspose.Words for Python
 description: "Row.row_format property. Provides access to the formatting properties of the row."
 type: docs
-weight: 110
+weight: 120
 url: /python-net/aspose.words.tables/row/row_format/
 ---
 

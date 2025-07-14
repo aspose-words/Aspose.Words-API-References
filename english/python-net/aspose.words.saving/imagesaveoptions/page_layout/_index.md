@@ -30,8 +30,8 @@ def page_layout(self, value: aspose.words.saving.MultiPageLayout):
 Use one of the factory methods of [MultiPageLayout](../../multipagelayout/) to configure this property.
 
 
-For [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF) the default value is [MultiPageLayout.tiff_frames](../../multipagelayout/tiff_frames/).
-For other formats the default value is [MultiPageLayout.single_page](../../multipagelayout/single_page/).
+For [SaveFormat.TIFF](../../../aspose.words/saveformat/#TIFF) the default value is [MultiPageLayout.tiff_frames()](../../multipagelayout/tiff_frames/#default).
+For other formats the default value is [MultiPageLayout.single_page()](../../multipagelayout/single_page/#default).
 
 
 This property has effect only when saving to the following formats:
@@ -54,8 +54,8 @@ options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
 # - 10pts spacing between pages (horizontal and vertical).
 options.page_layout = aw.saving.MultiPageLayout.grid(3, 10, 10)
 # Alternative layouts:
-# options.MultiPageLayout = MultiPageLayout.Horizontal(10);
-# options.MultiPageLayout = MultiPageLayout.Vertical(10);
+# options.PageLayout = MultiPageLayout.Horizontal(10);
+# options.PageLayout = MultiPageLayout.Vertical(10);
 # Customize the background and border.
 options.page_layout.back_color = aspose.pydrawing.Color.light_gray
 options.page_layout.border_color = aspose.pydrawing.Color.blue

@@ -26,8 +26,6 @@ Use one of the static factory methods to create a layout configuration.
 | [back_color](./back_color/) | Gets or sets the background color of the output. The default is aspose.pydrawing.Color.empty. |
 | [border_color](./border_color/) | Gets or sets the color of the pages border. The default is aspose.pydrawing.Color.empty. |
 | [border_width](./border_width/) | Gets or sets the width of the pages border. The default is 0. |
-| [single_page](./single_page/) | Creates a layout that renders only the first of specified pages. |
-| [tiff_frames](./tiff_frames/) | Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image. Applicable only to TIFF image formats. |
 
 ### Methods
 
@@ -35,6 +33,8 @@ Use one of the static factory methods to create a layout configuration.
 | --- | --- |
 |[ grid(columns, horizontal_gap, vertical_gap)](./grid/#int_float_float) | Creates a layout in which pages are rendered left-to-right, top-to-bottom, in a grid with the specified number of columns. |
 |[ horizontal(horizontal_gap)](./horizontal/#float) | Creates a layout in which all specified pages are rendered horizontally side by side, left to right, in a single output. |
+|[ single_page()](./single_page/#default) | Creates a layout that renders only the first of specified pages. |
+|[ tiff_frames()](./tiff_frames/#default) | Creates a layout where each page is rendered as a separate frame in a multi-frame TIFF image. Applicable only to TIFF image formats. |
 |[ vertical(vertical_gap)](./vertical/#float) | Creates a layout where all specified pages are rendered vertically one below the other in a single output. |
 
 ### Examples
@@ -49,8 +49,8 @@ options = aw.saving.ImageSaveOptions(aw.SaveFormat.JPEG)
 # - 10pts spacing between pages (horizontal and vertical).
 options.page_layout = aw.saving.MultiPageLayout.grid(3, 10, 10)
 # Alternative layouts:
-# options.MultiPageLayout = MultiPageLayout.Horizontal(10);
-# options.MultiPageLayout = MultiPageLayout.Vertical(10);
+# options.PageLayout = MultiPageLayout.Horizontal(10);
+# options.PageLayout = MultiPageLayout.Vertical(10);
 # Customize the background and border.
 options.page_layout.back_color = aspose.pydrawing.Color.light_gray
 options.page_layout.border_color = aspose.pydrawing.Color.blue

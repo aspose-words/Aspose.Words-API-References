@@ -41,6 +41,16 @@ The form field node that was just inserted.
 
 ### Examples
 
+Shows how to insert a text input form field into a document.
+
+```python
+doc = aw.Document()
+builder = aw.DocumentBuilder(doc=doc)
+# Insert a form that prompts the user to enter text.
+builder.insert_text_input('TextInput', aw.fields.TextFormFieldType.REGULAR, '', 'Enter your text here', 0)
+doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTextInput.docx')
+```
+
 Shows how to create form fields.
 
 ```python
@@ -54,16 +64,6 @@ items = ['-- Select your favorite footwear --', 'Sneakers', 'Oxfords', 'Flip-flo
 builder.insert_paragraph()
 builder.insert_combo_box('My combo box', items, 0)
 builder.document.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.CreateForm.docx')
-```
-
-Shows how to insert a text input form field into a document.
-
-```python
-doc = aw.Document()
-builder = aw.DocumentBuilder(doc=doc)
-# Insert a form that prompts the user to enter text.
-builder.insert_text_input('TextInput', aw.fields.TextFormFieldType.REGULAR, '', 'Enter your text here', 0)
-doc.save(file_name=ARTIFACTS_DIR + 'DocumentBuilder.InsertTextInput.docx')
 ```
 
 Shows how to insert a text input form field.

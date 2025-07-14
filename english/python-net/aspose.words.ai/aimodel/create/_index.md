@@ -5,7 +5,7 @@ articleTitle: create method
 second_title: Aspose.Words for Python
 description: "AiModel.create method. Creates a new instance of [AiModel](../) class."
 type: docs
-weight: 40
+weight: 50
 url: /python-net/aspose.words.ai/aimodel/create/
 ---
 

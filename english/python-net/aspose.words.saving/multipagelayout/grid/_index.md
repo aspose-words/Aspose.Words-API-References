@@ -5,7 +5,7 @@ articleTitle: grid method
 second_title: Aspose.Words for Python
 description: "MultiPageLayout.grid method. Creates a layout in which pages are rendered left-to-right, top-to-bottom, in a grid with the specified number of columns."
 type: docs
-weight: 60
+weight: 40
 url: /python-net/aspose.words.saving/multipagelayout/grid/
 ---
 
