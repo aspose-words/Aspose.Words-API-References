@@ -5,7 +5,7 @@ articleTitle: previous_row property
 second_title: Aspose.Words for Python
 description: "Row.previous_row property. Gets the previous [Row](../) node."
 type: docs
-weight: 100
+weight: 110
 url: /python-net/aspose.words.tables/row/previous_row/
 ---
 

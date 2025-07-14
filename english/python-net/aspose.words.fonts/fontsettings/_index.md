@@ -91,7 +91,7 @@ self.assertFalse(any([f.full_font_name == 'Arial' for f in new_font_sources[0].g
 self.assertTrue(any([f.full_font_name == 'Arvo' for f in new_font_sources[0].get_available_fonts()]))
 # The "Amethysta" font is in a subfolder of the font directory.
 if recursive:
-    self.assertEqual(25, len(new_font_sources[0].get_available_fonts()))
+    self.assertEqual(30, len(new_font_sources[0].get_available_fonts()))
     self.assertTrue(any([f.full_font_name == 'Amethysta' for f in new_font_sources[0].get_available_fonts()]))
 else:
     self.assertEqual(18, len(new_font_sources[0].get_available_fonts()))
@@ -132,7 +132,7 @@ self.assertEqual(1, len(new_font_sources[0].get_available_fonts()))
 self.assertTrue(any([f.full_font_name == 'Amethysta' for f in new_font_sources[0].get_available_fonts()]))
 # The "Junction" folder itself contains no font files, but has subfolders that do.
 if recursive:
-    self.assertEqual(6, len(new_font_sources[1].get_available_fonts()))
+    self.assertEqual(11, len(new_font_sources[1].get_available_fonts()))
     self.assertTrue(any([f.full_font_name == 'Junction Light' for f in new_font_sources[1].get_available_fonts()]))
 else:
     self.assertEqual(0, len(new_font_sources[1].get_available_fonts()))

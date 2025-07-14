@@ -5,7 +5,7 @@ articleTitle: embed_full_fonts property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.embed_full_fonts property. Controls how fonts are embedded into the resulting PDF documents."
 type: docs
-weight: 130
+weight: 120
 url: /python-net/aspose.words.saving/pdfsaveoptions/embed_full_fonts/
 ---
 

@@ -5,7 +5,7 @@ articleTitle: use_core_fonts property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.use_core_fonts property. Gets or sets a value determining whether or not to substitute TrueType fonts Arial, Times New Roman, Courier New and Symbol with core PDF Type 1 fonts."
 type: docs
-weight: 340
+weight: 330
 url: /python-net/aspose.words.saving/pdfsaveoptions/use_core_fonts/
 ---
 

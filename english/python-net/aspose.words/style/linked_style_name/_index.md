@@ -39,6 +39,21 @@ Assigning the empty string is equivalent to unlinking the previously linked styl
 
 ### Examples
 
+Shows how to link styles among themselves.
+
+```python
+doc = aw.Document()
+style_heading1 = doc.styles.get_by_style_identifier(aw.StyleIdentifier.HEADING1)
+style_heading_1_char = doc.styles.add(aw.StyleType.CHARACTER, 'Heading 1 Char')
+style_heading_1_char.font.name = 'Verdana'
+style_heading_1_char.font.bold = True
+style_heading_1_char.font.border.line_style = aw.LineStyle.DOT
+style_heading_1_char.font.border.line_width = 15
+style_heading1.linked_style_name = 'Heading 1 Char'
+self.assertEqual('Heading 1 Char', style_heading1.linked_style_name)
+self.assertEqual('Heading 1', style_heading_1_char.linked_style_name)
+```
+
 Shows how to use style aliases.
 
 ```python
@@ -58,21 +73,6 @@ builder.writeln('Hello world!')
 builder.paragraph_format.style = doc.styles.get_by_name('MyStyle Alias 2')
 builder.write('Hello again!')
 self.assertEqual(doc.first_section.body.paragraphs[0].paragraph_format.style, doc.first_section.body.paragraphs[1].paragraph_format.style)
-```
-
-Shows how to link styles among themselves.
-
-```python
-doc = aw.Document()
-style_heading1 = doc.styles.get_by_style_identifier(aw.StyleIdentifier.HEADING1)
-style_heading_1_char = doc.styles.add(aw.StyleType.CHARACTER, 'Heading 1 Char')
-style_heading_1_char.font.name = 'Verdana'
-style_heading_1_char.font.bold = True
-style_heading_1_char.font.border.line_style = aw.LineStyle.DOT
-style_heading_1_char.font.border.line_width = 15
-style_heading1.linked_style_name = 'Heading 1 Char'
-self.assertEqual('Heading 1 Char', style_heading1.linked_style_name)
-self.assertEqual('Heading 1', style_heading_1_char.linked_style_name)
 ```
 
 ### See Also

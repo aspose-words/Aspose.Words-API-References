@@ -5,7 +5,7 @@ articleTitle: with_api_key method
 second_title: Aspose.Words for Python
 description: "AiModel.with_api_key method. Sets a specified API key to the model."
 type: docs
-weight: 50
+weight: 80
 url: /python-net/aspose.words.ai/aimodel/with_api_key/
 ---
 

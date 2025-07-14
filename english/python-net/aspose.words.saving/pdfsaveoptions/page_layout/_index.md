@@ -5,7 +5,7 @@ articleTitle: page_layout property
 second_title: Aspose.Words for Python
 description: "PdfSaveOptions.page_layout property. Specifies the page layout to be used when the document is opened in a PDF reader."
 type: docs
-weight: 260
+weight: 250
 url: /python-net/aspose.words.saving/pdfsaveoptions/page_layout/
 ---
 

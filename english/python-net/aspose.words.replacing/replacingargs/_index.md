@@ -23,6 +23,7 @@ To learn more, visit the [Find and Replace](https://docs.aspose.com/words/python
 | --- | --- |
 | [group_index](./group_index/) | Identifies, by index, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](./replacement/) string. |
 | [group_name](./group_name/) | Identifies, by name, a captured group in the Aspose.Words.Replacing.ReplacingArgs.Match that is to be replaced with the [ReplacingArgs.replacement](./replacement/) string. |
+| [match_end_node](./match_end_node/) | Gets the node that contains the end of the match. |
 | [match_node](./match_node/) | Gets the node that contains the beginning of the match. |
 | [match_offset](./match_offset/) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [replacement](./replacement/) | Gets or sets the replacement string. |
