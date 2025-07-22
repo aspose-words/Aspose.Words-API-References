@@ -32,29 +32,29 @@ Shows how to create a document that contains all outline headings list templates
      Document doc = new Document();
      DocumentBuilder builder = new DocumentBuilder(doc);
 
-     List list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
-     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Article Section\"");
+     List docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_ARTICLE_SECTION);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Article Section\"");
 
-     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
-     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Legal\"");
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_LEGAL);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Legal\"");
 
      builder.insertBreak(BreakType.PAGE_BREAK);
 
-     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
-     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Numbers\"");
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_NUMBERS);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Numbers\"");
 
-     list = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
-     addOutlineHeadingParagraphs(builder, list, "Aspose.Words Outline - \"Chapters\"");
+     docList = doc.getLists().add(ListTemplate.OUTLINE_HEADINGS_CHAPTER);
+     addOutlineHeadingParagraphs(builder, docList, "Aspose.Words Outline - \"Chapters\"");
 
      doc.save(getArtifactsDir() + "Lists.OutlineHeadingTemplates.docx");
  }
 
- private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List list, final String title) {
+ private static void addOutlineHeadingParagraphs(final DocumentBuilder builder, final List docList, final String title) {
      builder.getParagraphFormat().clearFormatting();
      builder.writeln(title);
 
      for (int i = 0; i < 9; i++) {
-         builder.getListFormat().setList(list);
+         builder.getListFormat().setList(docList);
          builder.getListFormat().setListLevelNumber(i);
 
          String styleName = "Heading " + (i + 1);

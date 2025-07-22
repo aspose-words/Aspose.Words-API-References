@@ -113,7 +113,7 @@ Shows how to set a font source directory.
 
  // The "Amethysta" font is in a subfolder of the font directory.
  if (recursive) {
-     Assert.assertEquals(25, newFontSources[0].getAvailableFonts().size());
+     Assert.assertEquals(30, newFontSources[0].getAvailableFonts().size());
      Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
  } else {
      Assert.assertEquals(18, newFontSources[0].getAvailableFonts().size());
@@ -167,7 +167,7 @@ Shows how to set multiple font source directories.
 
  // The "Junction" folder itself contains no font files, but has subfolders that do.
  if (recursive) {
-     Assert.assertEquals(6, newFontSources[1].getAvailableFonts().size());
+     Assert.assertEquals(11, newFontSources[1].getAvailableFonts().size());
      Assert.assertTrue(IterableUtils.matchesAny(newFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
  } else {
      Assert.assertEquals(0, newFontSources[1].getAvailableFonts().size());
@@ -596,7 +596,7 @@ Shows how to set a font source directory.
 
  // The "Amethysta" font is in a subfolder of the font directory.
  if (recursive) {
-     Assert.assertEquals(25, newFontSources[0].getAvailableFonts().size());
+     Assert.assertEquals(30, newFontSources[0].getAvailableFonts().size());
      Assert.assertTrue(IterableUtils.matchesAny(newFontSources[0].getAvailableFonts(), f -> f.getFullFontName().contains("Amethysta")));
  } else {
      Assert.assertEquals(18, newFontSources[0].getAvailableFonts().size());
@@ -672,7 +672,7 @@ Shows how to set multiple font source directories.
 
  // The "Junction" folder itself contains no font files, but has subfolders that do.
  if (recursive) {
-     Assert.assertEquals(6, newFontSources[1].getAvailableFonts().size());
+     Assert.assertEquals(11, newFontSources[1].getAvailableFonts().size());
      Assert.assertTrue(IterableUtils.matchesAny(newFontSources[1].getAvailableFonts(), f -> f.getFullFontName().contains("Junction Light")));
  } else {
      Assert.assertEquals(0, newFontSources[1].getAvailableFonts().size());

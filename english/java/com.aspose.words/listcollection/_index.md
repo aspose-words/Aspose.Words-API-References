@@ -61,10 +61,10 @@ Shows how to create a document with a sample of all the lists from another docum
      dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
  }
 
- private static void addListSample(final DocumentBuilder builder, final List list) {
-     builder.writeln("Sample formatting of list with ListId:" + list.getListId());
-     builder.getListFormat().setList(list);
-     for (int i = 0; i < list.getListLevels().getCount(); i++) {
+ private static void addListSample(final DocumentBuilder builder, final List docList) {
+     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
+     builder.getListFormat().setList(docList);
+     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
          builder.getListFormat().setListLevelNumber(i);
          builder.writeln("Level " + i);
      }
@@ -305,10 +305,10 @@ Shows how to create a document with a sample of all the lists from another docum
      dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
  }
 
- private static void addListSample(final DocumentBuilder builder, final List list) {
-     builder.writeln("Sample formatting of list with ListId:" + list.getListId());
-     builder.getListFormat().setList(list);
-     for (int i = 0; i < list.getListLevels().getCount(); i++) {
+ private static void addListSample(final DocumentBuilder builder, final List docList) {
+     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
+     builder.getListFormat().setList(docList);
+     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
          builder.getListFormat().setListLevelNumber(i);
          builder.writeln("Level " + i);
      }
@@ -401,14 +401,13 @@ Shows how to verify owner document properties of lists.
 
  Assert.assertEquals(doc, lists.getDocument());
 
- List list = lists.add(ListTemplate.BULLET_DEFAULT);
-
- Assert.assertEquals(doc, list.getDocument());
+ List docList = lists.add(ListTemplate.BULLET_DEFAULT);
+ Assert.assertEquals(doc, docList.getDocument());
 
  System.out.println("Current list count: " + lists.getCount());
- System.out.println("Is the first document list: " + (lists.get(0).equals(list)));
- System.out.println("ListId: " + list.getListId());
- System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(list)));
+ System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
+ System.out.println("ListId: " + docList.getListId());
+ System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
  
 ```
 
@@ -428,10 +427,10 @@ Shows how to apply list formatting of an existing list to a collection of paragr
  Assert.assertEquals(0, DocumentHelper.getListItemCount(paras));
 
  doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
- List list = doc.getLists().get(0);
+ List docList = doc.getLists().get(0);
 
  for (Paragraph paragraph : doc.getFirstSection().getBody().getParagraphs()) {
-     paragraph.getListFormat().setList(list);
+     paragraph.getListFormat().setList(docList);
      paragraph.getListFormat().setListLevelNumber(2);
  }
 
@@ -468,14 +467,13 @@ Shows how to verify owner document properties of lists.
 
  Assert.assertEquals(doc, lists.getDocument());
 
- List list = lists.add(ListTemplate.BULLET_DEFAULT);
-
- Assert.assertEquals(doc, list.getDocument());
+ List docList = lists.add(ListTemplate.BULLET_DEFAULT);
+ Assert.assertEquals(doc, docList.getDocument());
 
  System.out.println("Current list count: " + lists.getCount());
- System.out.println("Is the first document list: " + (lists.get(0).equals(list)));
- System.out.println("ListId: " + list.getListId());
- System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(list)));
+ System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
+ System.out.println("ListId: " + docList.getListId());
+ System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
  
 ```
 
@@ -501,14 +499,13 @@ Shows how to verify owner document properties of lists.
 
  Assert.assertEquals(doc, lists.getDocument());
 
- List list = lists.add(ListTemplate.BULLET_DEFAULT);
-
- Assert.assertEquals(doc, list.getDocument());
+ List docList = lists.add(ListTemplate.BULLET_DEFAULT);
+ Assert.assertEquals(doc, docList.getDocument());
 
  System.out.println("Current list count: " + lists.getCount());
- System.out.println("Is the first document list: " + (lists.get(0).equals(list)));
- System.out.println("ListId: " + list.getListId());
- System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(list)));
+ System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
+ System.out.println("ListId: " + docList.getListId());
+ System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
  
 ```
 
@@ -538,14 +535,13 @@ Shows how to verify owner document properties of lists.
 
  Assert.assertEquals(doc, lists.getDocument());
 
- List list = lists.add(ListTemplate.BULLET_DEFAULT);
-
- Assert.assertEquals(doc, list.getDocument());
+ List docList = lists.add(ListTemplate.BULLET_DEFAULT);
+ Assert.assertEquals(doc, docList.getDocument());
 
  System.out.println("Current list count: " + lists.getCount());
- System.out.println("Is the first document list: " + (lists.get(0).equals(list)));
- System.out.println("ListId: " + list.getListId());
- System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(list)));
+ System.out.println("Is the first document list: " + (lists.get(0).equals(docList)));
+ System.out.println("ListId: " + docList.getListId());
+ System.out.println("List is the same by ListId: " + (lists.getListByListId(1).equals(docList)));
  
 ```
 
@@ -584,10 +580,10 @@ Shows how to create a document with a sample of all the lists from another docum
      dstDoc.save(getArtifactsDir() + "Lists.PrintOutAllLists.docx");
  }
 
- private static void addListSample(final DocumentBuilder builder, final List list) {
-     builder.writeln("Sample formatting of list with ListId:" + list.getListId());
-     builder.getListFormat().setList(list);
-     for (int i = 0; i < list.getListLevels().getCount(); i++) {
+ private static void addListSample(final DocumentBuilder builder, final List docList) {
+     builder.writeln("Sample formatting of list with ListId:" + docList.getListId());
+     builder.getListFormat().setList(docList);
+     for (int i = 0; i < docList.getListLevels().getCount(); i++) {
          builder.getListFormat().setListLevelNumber(i);
          builder.writeln("Level " + i);
      }

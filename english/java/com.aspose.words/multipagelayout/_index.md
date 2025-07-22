@@ -35,8 +35,8 @@ Shows how to save the document into JPG image with multi-page layout settings.
  options.setPageLayout(MultiPageLayout.grid(3, 10f, 10f));
 
  // Alternative layouts:
- // options.MultiPageLayout = MultiPageLayout.Horizontal(10);
- // options.MultiPageLayout = MultiPageLayout.Vertical(10);
+ // options.PageLayout = MultiPageLayout.Horizontal(10);
+ // options.PageLayout = MultiPageLayout.Vertical(10);
 
  // Customize the background and border.
  options.getPageLayout().setBackColor(Color.lightGray);

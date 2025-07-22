@@ -169,6 +169,7 @@ Shows how to build a nested table without using a document builder.
 | [getDocument()](#getDocument) | Gets the document to which this node belongs. |
 | [getFirstCell()](#getFirstCell) | Returns the first [Cell](../../com.aspose.words/cell/) in the row. |
 | [getFirstChild()](#getFirstChild) | Gets the first child of the node. |
+| [getHidden()](#getHidden) | Gets a flag indicating whether this row is hidden or not. |
 | [getLastCell()](#getLastCell) | Returns the last [Cell](../../com.aspose.words/cell/) in the row. |
 | [getLastChild()](#getLastChild) | Gets the last child of the node. |
 | [getNextMatchingNode(Node curNode)](#getNextMatchingNode-com.aspose.words.Node) |  |
@@ -203,6 +204,7 @@ Shows how to build a nested table without using a document builder.
 | [selectNodes(String xpath)](#selectNodes-java.lang.String) | Selects a list of nodes matching the XPath expression. |
 | [selectSingleNode(String xpath)](#selectSingleNode-java.lang.String) | Selects the first [Node](../../com.aspose.words/node/) that matches the XPath expression. |
 | [setCustomNodeId(int value)](#setCustomNodeId-int) | Specifies custom node identifier. |
+| [setHidden(boolean value)](#setHidden-boolean) | Sets a flag indicating whether this row is hidden or not. |
 | [setRowAttr(int key, Object value)](#setRowAttr-int-java.lang.Object) |  |
 | [toString()](#toString) |  |
 | [toString(SaveOptions saveOptions)](#toString-com.aspose.words.SaveOptions) | Exports the content of the node into a string using the specified save options. |
@@ -1550,6 +1552,49 @@ Shows how to traverse a composite node's tree of child nodes.
 
 **Returns:**
 [Node](../../com.aspose.words/node/) - The first child of the node.
+### getHidden() {#getHidden}
+```
+public boolean getHidden()
+```
+
+
+Gets a flag indicating whether this row is hidden or not.
+
+ **Remarks:** 
+
+Hidden row is not supported for WordML and ODT documents.
+
+ **Examples:** 
+
+Shows how to hide a table row.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Row row = doc.getFirstSection().getBody().getTables().get(0).getFirstRow();
+ row.setHidden(true);
+
+ doc.save(getArtifactsDir() + "Table.HiddenRow.docx");
+
+ doc = new Document(getArtifactsDir() + "Table.HiddenRow.docx");
+
+ row = doc.getFirstSection().getBody().getTables().get(0).getFirstRow();
+ Assert.assertTrue(row.getHidden());
+
+ for (Cell cell : row.getCells())
+ {
+     for (Paragraph para : cell.getParagraphs())
+     {
+         for (Run run : para.getRuns())
+             Assert.assertTrue(run.getFont().getHidden());
+     }
+ }
+ 
+```
+
+**Returns:**
+boolean - A flag indicating whether this row is hidden or not.
 ### getLastCell() {#getLastCell}
 ```
 public Cell getLastCell()
@@ -3703,6 +3748,52 @@ Shows how to traverse through a composite node's collection of child nodes.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The corresponding  int  value. |
+
+### setHidden(boolean value) {#setHidden-boolean}
+```
+public void setHidden(boolean value)
+```
+
+
+Sets a flag indicating whether this row is hidden or not.
+
+ **Remarks:** 
+
+Hidden row is not supported for WordML and ODT documents.
+
+ **Examples:** 
+
+Shows how to hide a table row.
+
+```
+
+ Document doc = new Document(getMyDir() + "Tables.docx");
+
+ Row row = doc.getFirstSection().getBody().getTables().get(0).getFirstRow();
+ row.setHidden(true);
+
+ doc.save(getArtifactsDir() + "Table.HiddenRow.docx");
+
+ doc = new Document(getArtifactsDir() + "Table.HiddenRow.docx");
+
+ row = doc.getFirstSection().getBody().getTables().get(0).getFirstRow();
+ Assert.assertTrue(row.getHidden());
+
+ for (Cell cell : row.getCells())
+ {
+     for (Paragraph para : cell.getParagraphs())
+     {
+         for (Run run : para.getRuns())
+             Assert.assertTrue(run.getFont().getHidden());
+     }
+ }
+ 
+```
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | boolean | A flag indicating whether this row is hidden or not. |
 
 ### setRowAttr(int key, Object value) {#setRowAttr-int-java.lang.Object}
 ```

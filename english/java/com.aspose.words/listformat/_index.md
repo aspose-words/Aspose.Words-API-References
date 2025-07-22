@@ -433,9 +433,9 @@ Shows how to apply custom list formatting to paragraphs when using DocumentBuild
  // We can begin and end a list by using a document builder's "ListFormat" property.
  // Each paragraph that we add between a list's start and the end will become an item in the list.
  // Create a list from a Microsoft Word template, and customize the first two of its list levels.
- List list = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
+ List docList = doc.getLists().add(ListTemplate.NUMBER_DEFAULT);
 
- ListLevel listLevel = list.getListLevels().get(0);
+ ListLevel listLevel = docList.getListLevels().get(0);
  listLevel.getFont().setColor(Color.RED);
  listLevel.getFont().setSize(24.0);
  listLevel.setNumberStyle(NumberStyle.ORDINAL_TEXT);
@@ -446,7 +446,7 @@ Shows how to apply custom list formatting to paragraphs when using DocumentBuild
  listLevel.setTextPosition(144.0);
  listLevel.setTabPosition(144.0);
 
- listLevel = list.getListLevels().get(1);
+ listLevel = docList.getListLevels().get(1);
  listLevel.setAlignment(ListLevelAlignment.RIGHT);
  listLevel.setNumberStyle(NumberStyle.BULLET);
  listLevel.getFont().setName("Wingdings");
@@ -461,7 +461,7 @@ Shows how to apply custom list formatting to paragraphs when using DocumentBuild
  // Create paragraphs and apply both list levels of our custom list formatting to them.
  DocumentBuilder builder = new DocumentBuilder(doc);
 
- builder.getListFormat().setList(list);
+ builder.getListFormat().setList(docList);
  builder.writeln("The quick brown fox...");
  builder.writeln("The quick brown fox...");
 

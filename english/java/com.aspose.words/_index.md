@@ -35,7 +35,7 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [Adjustment](../com.aspose.words/adjustment/) | Represents adjustment values that are applied to the specified shape. |
 | [AdjustmentCollection](../com.aspose.words/adjustmentcollection/) | Represents a read-only collection of [Adjustment](../com.aspose.words/adjustment/) adjust values that are applied to the specified shape. |
 | [AdvancedCompareOptions](../com.aspose.words/advancedcompareoptions/) | Allows to set advanced compare options. |
-| [AiModel](../com.aspose.words/aimodel/) | Represents information about a Generative Language Model. |
+| [AiModel](../com.aspose.words/aimodel/) | An abstract class representing the integration with various AI models within the Aspose.Words. |
 | [AiModelType](../com.aspose.words/aimodeltype/) | Represents the types of [AiModel](../com.aspose.words/aimodel/) that can be integrated into the document processing workflow. |
 | [AnthropicAiModel](../com.aspose.words/anthropicaimodel/) | An abstract class representing the integration with Anthropic\\u2019s AI models within the Aspose.Words. |
 | [ArrowLength](../com.aspose.words/arrowlength/) | Length of the arrow at the end of a line. |
@@ -714,8 +714,8 @@ The **MailMerge** object which provides access to the reporting functionality is
 | [UnsupportedFileFormatException](../com.aspose.words/unsupportedfileformatexception/) | Thrown during document load, when the document format is not recognized or not supported by Aspose.Words. |
 | [UserInformation](../com.aspose.words/userinformation/) | Specifies information about the user. |
 | [VariableCollection](../com.aspose.words/variablecollection/) | A collection of document variables. |
-| [VariationAxis](../com.aspose.words/variationaxis/) |  |
-| [VariationAxisCoordinate](../com.aspose.words/variationaxiscoordinate/) |  |
+| [VariationAxis](../com.aspose.words/variationaxis/) | Represents OpenType Design-Variation Axis Tag. |
+| [VariationAxisCoordinate](../com.aspose.words/variationaxiscoordinate/) | Represents an axis coordinate. |
 | [VbaModule](../com.aspose.words/vbamodule/) | Provides access to VBA project module. |
 | [VbaModuleCollection](../com.aspose.words/vbamodulecollection/) | Represents a collection of [VbaModule](../com.aspose.words/vbamodule/) objects. |
 | [VbaModuleType](../com.aspose.words/vbamoduletype/) | Specifies the type of a model in a VBA project. |

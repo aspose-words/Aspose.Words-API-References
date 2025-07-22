@@ -15,24 +15,6 @@ public class PhoneticGuide
 ```
 
 Represents Phonetic Guide.
-
- **Examples:** 
-
-Shows how to get properties of the phonetic guide.
-
-```
-
- Document doc = new Document(getMyDir() + "Phonetic guide.docx");
-
- RunCollection runs = doc.getFirstSection().getBody().getFirstParagraph().getRuns();
- // Use phonetic guide in the Asian text.
- Assert.assertEquals(true, runs.get(0).isPhoneticGuide());
-
- PhoneticGuide phoneticGuide = runs.get(0).getPhoneticGuide();
- Assert.assertEquals("base", phoneticGuide.getBaseText());
- Assert.assertEquals("ruby", phoneticGuide.getRubyText());
- 
-```
 ## Methods
 
 | Method | Description |

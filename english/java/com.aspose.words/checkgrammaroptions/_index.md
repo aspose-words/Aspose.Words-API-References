@@ -26,7 +26,7 @@ Shows how to check the grammar of a document.
 
  String apiKey = System.getenv("API_KEY");
  // Use OpenAI generative language models.
- IAiModelText model = (OpenAiModel)AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
+ AiModel model = AiModel.create(AiModelType.GPT_4_O_MINI).withApiKey(apiKey);
 
  CheckGrammarOptions grammarOptions = new CheckGrammarOptions();
  grammarOptions.setImproveStylistics(true);

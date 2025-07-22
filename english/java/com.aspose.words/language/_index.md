@@ -26,7 +26,7 @@ Shows how to translate text using Google models.
 
  String apiKey = System.getenv("API_KEY");
  // Use Google generative language models.
- IAiModelText model = (GoogleAiModel)AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
+ AiModel model = AiModel.create(AiModelType.GEMINI_15_FLASH).withApiKey(apiKey);
 
  Document translatedDoc = model.translate(doc, Language.ARABIC);
  translatedDoc.save(getArtifactsDir() + "AI.AiTranslate.docx");

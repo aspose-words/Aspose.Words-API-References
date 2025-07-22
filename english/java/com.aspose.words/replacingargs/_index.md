@@ -138,6 +138,7 @@ Shows how to insert an entire document's contents as a replacement of a match in
 | --- | --- |
 | [getGroupIndex()](#getGroupIndex) | Identifies, by index, a captured group in the [getMatch()](../../com.aspose.words/replacingargs/\#getMatch) that is to be replaced with the [getReplacement()](../../com.aspose.words/replacingargs/\#getReplacement) / [setReplacement(java.lang.String)](../../com.aspose.words/replacingargs/\#setReplacement-java.lang.String) string. |
 | [getMatch()](#getMatch) | The java.util.regex.Matcher resulting from a single regular expression match during a **Replace**. |
+| [getMatchEndNode()](#getMatchEndNode) | Gets the node that contains the end of the match. |
 | [getMatchNode()](#getMatchNode) | Gets the node that contains the beginning of the match. |
 | [getMatchOffset()](#getMatchOffset) | Gets the zero-based starting position of the match from the start of the node that contains the beginning of the match. |
 | [getReplacement()](#getReplacement) | Gets the replacement string. |
@@ -295,6 +296,24 @@ Shows how to apply a different font to new content via FindReplaceOptions.
 
 **Returns:**
 java.util.regex.Matcher - The corresponding java.util.regex.Matcher value.
+### getMatchEndNode() {#getMatchEndNode}
+```
+public Node getMatchEndNode()
+```
+
+
+Gets the node that contains the end of the match.
+
+ **Examples:** 
+
+Shows how to get match end node.
+
+```
+{@code
+```
+
+**Returns:**
+[Node](../../com.aspose.words/node/) - The node that contains the end of the match.
 ### getMatchNode() {#getMatchNode}
 ```
 public Node getMatchNode()
